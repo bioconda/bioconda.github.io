@@ -28,10 +28,10 @@ scallop
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.10.5-7</code>,  <code>0.10.5-6</code>,  <code>0.10.5-5</code>,  <code>0.10.5-4</code>,  <code>0.10.5-3</code>,  <code>0.10.5-2</code>,  <code>0.10.5-1</code>,  <code>0.10.5-0</code>,  <code>0.10.4-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10.5-8</code>,  <code>0.10.5-7</code>,  <code>0.10.5-6</code>,  <code>0.10.5-5</code>,  <code>0.10.5-4</code>,  <code>0.10.5-3</code>,  <code>0.10.5-2</code>,  <code>0.10.5-1</code>,  <code>0.10.5-0</code>,  </span></summary>
       
 
-      ``0.10.5-7``,  ``0.10.5-6``,  ``0.10.5-5``,  ``0.10.5-4``,  ``0.10.5-3``,  ``0.10.5-2``,  ``0.10.5-1``,  ``0.10.5-0``,  ``0.10.4-2``,  ``0.10.4-1``,  ``0.10.4-0``
+      ``0.10.5-8``,  ``0.10.5-7``,  ``0.10.5-6``,  ``0.10.5-5``,  ``0.10.5-4``,  ``0.10.5-3``,  ``0.10.5-2``,  ``0.10.5-1``,  ``0.10.5-0``,  ``0.10.4-2``,  ``0.10.4-1``,  ``0.10.4-0``
 
       
       .. raw:: html
@@ -41,9 +41,9 @@ scallop
 
    
    :depends boost-cpp: 
-   :depends htslib: ``>=1.20,<1.22.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:

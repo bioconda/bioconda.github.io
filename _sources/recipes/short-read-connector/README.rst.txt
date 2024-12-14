@@ -27,15 +27,15 @@ short-read-connector
       
       
 
-      ``1.2.0-1``,  ``1.2.0-0``
+      ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
    
    :depends dsk: ``>=2.3.3,<3.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 
@@ -91,7 +91,7 @@ short-read-connector
 
     <script>
         var package = "short-read-connector";
-        var versions = ["1.2.0","1.2.0"];
+        var versions = ["1.2.0","1.2.0","1.2.0"];
     </script>
 
 

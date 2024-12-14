@@ -28,14 +28,14 @@ reads2graph
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends boost: ``>=1.82.0,<1.82.1.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends boost: ``1.82.0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends openmp: ``8.0.1``
    :depends seqan3: ``3.3.0``
    :depends seqan3: ``>=3.3.0,<4.0a0``
@@ -91,7 +91,7 @@ reads2graph
 
     <script>
         var package = "reads2graph";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

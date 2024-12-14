@@ -27,18 +27,18 @@ ucsc-chaincleaner
       
       
 
-      ``455-0``
+      ``455-1``,  ``455-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libpng: ``>=1.6.39,<1.7.0a0``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libpng: ``>=1.6.44,<1.7.0a0``
+   :depends libstdcxx: ``>=13``
    :depends libuuid: ``>=2.38.1,<3.0a0``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
-   :depends openssl: ``>=3.1.4,<4.0a0``
+   :depends openssl: ``>=3.4.0,<4.0a0``
    :depends zlib: 
    :requirements:
 
@@ -90,7 +90,7 @@ ucsc-chaincleaner
 
     <script>
         var package = "ucsc-chaincleaner";
-        var versions = ["455"];
+        var versions = ["455","455"];
     </script>
 
 

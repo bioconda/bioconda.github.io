@@ -27,13 +27,13 @@ peer
       
       
 
-      ``1.3-0``
+      ``1.3-1``,  ``1.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -84,7 +84,7 @@ peer
 
     <script>
         var package = "peer";
-        var versions = ["1.3"];
+        var versions = ["1.3","1.3"];
     </script>
 
 

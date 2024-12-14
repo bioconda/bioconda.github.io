@@ -43,11 +43,13 @@ rustybam
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libcblas: ``>=3.9.0,<4.0a0``
-   :depends libcurl: ``>=8.10.1,<9.0a0``
-   :depends libcxx: ``>=18``
+   :depends libcurl: ``>=8.11.1,<9.0a0``
    :depends libdeflate: ``>=1.22,<1.23.0a0``
+   :depends libgcc: ``>=13``
    :depends liblzma: ``>=5.6.3,<6.0a0``
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends openssl: ``>=3.4.0,<4.0a0``
    :depends xz: 
    :depends zlib: 
    :requirements:

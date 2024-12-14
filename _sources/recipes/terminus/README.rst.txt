@@ -26,17 +26,25 @@ terminus
    :versions:
       
       
+      .. raw:: html
 
-      ``0.1.0-7``,  ``0.1.0-6``,  ``0.1.0-5``,  ``0.1.0-4``,  ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``,  ``v0.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.1.0-8</code>,  <code>0.1.0-7</code>,  <code>0.1.0-6</code>,  <code>0.1.0-5</code>,  <code>0.1.0-4</code>,  <code>0.1.0-3</code>,  <code>0.1.0-2</code>,  <code>0.1.0-1</code>,  <code>0.1.0-0</code>,  </span></summary>
+      
 
+      ``0.1.0-8``,  ``0.1.0-7``,  ``0.1.0-6``,  ``0.1.0-5``,  ``0.1.0-4``,  ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``,  ``v0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libcblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:

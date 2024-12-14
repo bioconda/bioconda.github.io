@@ -27,13 +27,13 @@ linearfold
       
       
 
-      ``1.0.1.dev20220829-0``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0.1.dev20220829-1``,  ``1.0.1.dev20220829-0``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends python: ``>=3,<4``
    :depends python-gflags: 
    :requirements:
@@ -86,7 +86,7 @@ linearfold
 
     <script>
         var package = "linearfold";
-        var versions = ["1.0.1.dev20220829","1.0","1.0","1.0","1.0"];
+        var versions = ["1.0.1.dev20220829","1.0.1.dev20220829","1.0","1.0","1.0"];
     </script>
 
 

@@ -26,9 +26,17 @@ haddock_biobb
    :versions:
       
       
+      .. raw:: html
 
-      ``3.0.6-1``,  ``3.0.6-0``,  ``3.0.5-1``,  ``3.0.5-0``,  ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>3.0.6-2</code>,  <code>3.0.6-1</code>,  <code>3.0.6-0</code>,  <code>3.0.5-1</code>,  <code>3.0.5-0</code>,  <code>3.0.4-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-0</code>,  <code>3.0.1-0</code>,  </span></summary>
+      
 
+      ``3.0.6-2``,  ``3.0.6-1``,  ``3.0.6-0``,  ``3.0.5-1``,  ``3.0.5-0``,  ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -37,14 +45,14 @@ haddock_biobb
    :depends git: 
    :depends jsonpickle: 
    :depends kaleido-core: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends numpy: 
    :depends pandas: 
    :depends pdb-tools: 
    :depends pip: 
    :depends plotly: 
-   :depends python_abi: ``3.9.* *_cp39``
+   :depends python_abi: ``3.11.* *_cp311``
    :depends pyyaml: 
    :depends scipy: 
    :depends toml: 
@@ -99,7 +107,7 @@ haddock_biobb
 
     <script>
         var package = "haddock_biobb";
-        var versions = ["3.0.6","3.0.6","3.0.5","3.0.5","3.0.4"];
+        var versions = ["3.0.6","3.0.6","3.0.6","3.0.5","3.0.5"];
     </script>
 
 

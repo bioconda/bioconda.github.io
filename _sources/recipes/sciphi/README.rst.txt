@@ -27,15 +27,15 @@ sciphi
       
       
 
-      ``0.1.7-5``,  ``0.1.7-4``,  ``0.1.7-3``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.5-0``,  ``0.1.4-0``
+      ``0.1.7-6``,  ``0.1.7-5``,  ``0.1.7-4``,  ``0.1.7-3``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.5-0``,  ``0.1.4-0``
 
       
 
    
    :depends boost-cpp: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:

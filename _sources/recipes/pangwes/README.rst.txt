@@ -28,14 +28,13 @@ pangwes
       
       
 
-      ``0.3.0_alpha-0``,  ``0.2.0_alpha-0``
+      ``0.3.0_alpha-1``,  ``0.3.0_alpha-0``,  ``0.2.0_alpha-0``
 
       
 
    
    :depends cuttlefish: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :depends r-base: 
    :depends spydrpick: 
    :requirements:
@@ -88,7 +87,7 @@ pangwes
 
     <script>
         var package = "pangwes";
-        var versions = ["0.3.0_alpha","0.2.0_alpha"];
+        var versions = ["0.3.0_alpha","0.3.0_alpha","0.2.0_alpha"];
     </script>
 
 

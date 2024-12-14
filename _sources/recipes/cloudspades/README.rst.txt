@@ -30,17 +30,17 @@ cloudspades
       
       
 
-      ``3.16.0-2``,  ``3.16.0-1``,  ``3.16.0-0``
+      ``3.16.0-3``,  ``3.16.0-2``,  ``3.16.0-1``,  ``3.16.0-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc: ``>=12``
+   :depends libgcc: ``>=13``
    :depends libgomp: 
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends python: ``>=3.8``
    :requirements:
 
@@ -92,7 +92,7 @@ cloudspades
 
     <script>
         var package = "cloudspades";
-        var versions = ["3.16.0","3.16.0","3.16.0"];
+        var versions = ["3.16.0","3.16.0","3.16.0","3.16.0"];
     </script>
 
 

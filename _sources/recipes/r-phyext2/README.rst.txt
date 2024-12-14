@@ -28,10 +28,10 @@ r-phyext2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.4-9</code>,  <code>0.0.4-8</code>,  <code>0.0.4-7</code>,  <code>0.0.4-6</code>,  <code>0.0.4-5</code>,  <code>0.0.4-4</code>,  <code>0.0.4-3</code>,  <code>0.0.4-2</code>,  <code>0.0.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.4-10</code>,  <code>0.0.4-9</code>,  <code>0.0.4-8</code>,  <code>0.0.4-7</code>,  <code>0.0.4-6</code>,  <code>0.0.4-5</code>,  <code>0.0.4-4</code>,  <code>0.0.4-3</code>,  <code>0.0.4-2</code>,  </span></summary>
       
 
-      ``0.0.4-9``,  ``0.0.4-8``,  ``0.0.4-7``,  ``0.0.4-6``,  ``0.0.4-5``,  ``0.0.4-4``,  ``0.0.4-3``,  ``0.0.4-2``,  ``0.0.4-1``,  ``0.0.4-0``
+      ``0.0.4-10``,  ``0.0.4-9``,  ``0.0.4-8``,  ``0.0.4-7``,  ``0.0.4-6``,  ``0.0.4-5``,  ``0.0.4-4``,  ``0.0.4-3``,  ``0.0.4-2``,  ``0.0.4-1``,  ``0.0.4-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ r-phyext2
 
    
    :depends r-ape: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-phylobase: 
    :requirements:
 

@@ -30,10 +30,10 @@ clonalframeml
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.13-1</code>,  <code>1.13-0</code>,  <code>1.12-4</code>,  <code>1.12-3</code>,  <code>1.12-2</code>,  <code>1.12-1</code>,  <code>1.12-0</code>,  <code>1.11-6</code>,  <code>1.11-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.13-1</code>,  <code>1.13-0</code>,  <code>1.12-4</code>,  <code>1.12-3</code>,  <code>1.12-2</code>,  <code>1.12-1</code>,  <code>1.12-0</code>,  <code>1.11-7</code>,  <code>1.11-6</code>,  </span></summary>
       
 
-      ``1.13-1``,  ``1.13-0``,  ``1.12-4``,  ``1.12-3``,  ``1.12-2``,  ``1.12-1``,  ``1.12-0``,  ``1.11-6``,  ``1.11-5``,  ``1.11-4``,  ``1.11-3``,  ``1.11-2``,  ``1.11-1``,  ``1.11-0``
+      ``1.13-1``,  ``1.13-0``,  ``1.12-4``,  ``1.12-3``,  ``1.12-2``,  ``1.12-1``,  ``1.12-0``,  ``1.11-7``,  ``1.11-6``,  ``1.11-5``,  ``1.11-4``,  ``1.11-3``,  ``1.11-2``,  ``1.11-1``,  ``1.11-0``
 
       
       .. raw:: html
@@ -42,7 +42,8 @@ clonalframeml
       
 
    
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:

@@ -27,12 +27,12 @@ bioconductor-seq.hotspot
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-hash: 
    :depends r-r.utils: 
    :requirements:
@@ -85,7 +85,7 @@ bioconductor-seq.hotspot
 
     <script>
         var package = "bioconductor-seq.hotspot";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

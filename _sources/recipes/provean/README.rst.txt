@@ -28,15 +28,15 @@ provean
       
       
 
-      ``1.1.5-2``,  ``1.1.5-1``,  ``1.1.5-0``
+      ``1.1.5-3``,  ``1.1.5-2``,  ``1.1.5-1``,  ``1.1.5-0``
 
       
 
    
    :depends blast: ``<=2.9``
    :depends cd-hit: ``4.8.*``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends cd-hit: ``>=4.8.1,<5.0a0``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:
@@ -87,7 +87,7 @@ provean
 
     <script>
         var package = "provean";
-        var versions = ["1.1.5","1.1.5","1.1.5"];
+        var versions = ["1.1.5","1.1.5","1.1.5","1.1.5"];
     </script>
 
 

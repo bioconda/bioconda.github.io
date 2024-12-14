@@ -27,13 +27,12 @@ callerpp
       
       
 
-      ``0.1.6-0``,  ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.4-1``,  ``0.1.4-0``
+      ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.4-1``,  ``0.1.4-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :depends spoa: ``>=4.1.4``
    :depends spoa: ``>=4.1.4,<5.0a0``
    :requirements:
@@ -90,7 +89,7 @@ callerpp
 
     <script>
         var package = "callerpp";
-        var versions = ["0.1.6","0.1.5","0.1.5","0.1.4","0.1.4"];
+        var versions = ["0.1.6","0.1.6","0.1.5","0.1.5","0.1.4"];
     </script>
 
 

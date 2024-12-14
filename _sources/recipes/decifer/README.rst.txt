@@ -29,10 +29,10 @@ decifer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.4-2</code>,  <code>2.1.4-1</code>,  <code>2.1.4-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-1</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.4-3</code>,  <code>2.1.4-2</code>,  <code>2.1.4-1</code>,  <code>2.1.4-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-1</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  </span></summary>
       
 
-      ``2.1.4-2``,  ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1-0``,  ``1.0.0-0``,  ``0.0.2-1``,  ``0.0.2-0``
+      ``2.1.4-3``,  ``2.1.4-2``,  ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1-0``,  ``1.0.0-0``,  ``0.0.2-1``,  ``0.0.2-0``
 
       
       .. raw:: html
@@ -42,12 +42,12 @@ decifer
 
    
    :depends lemon: ``>=1.3.1,<1.3.2.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends numpy: ``>=1.16.1``
    :depends pandas: 
-   :depends python: ``>=3.12,<3.13.0a0``
-   :depends python_abi: ``3.12.* *_cp312``
+   :depends python: ``>=3.13,<3.14.0a0``
+   :depends python_abi: ``3.13.* *_cp313``
    :depends scipy: ``>=1.2.1``
    :depends seaborn: ``>=0.7.1``
    :requirements:
@@ -104,7 +104,7 @@ decifer
 
     <script>
         var package = "decifer";
-        var versions = ["2.1.4","2.1.4","2.1.4","2.1.3","2.1.2"];
+        var versions = ["2.1.4","2.1.4","2.1.4","2.1.4","2.1.3"];
     </script>
 
 

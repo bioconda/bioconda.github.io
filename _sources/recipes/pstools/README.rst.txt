@@ -27,14 +27,14 @@ pstools
       
       
 
-      ``0.2a3-3``,  ``0.2a3-2``,  ``0.2a3-1``,  ``0.2a3-0``
+      ``0.2a3-4``,  ``0.2a3-3``,  ``0.2a3-2``,  ``0.2a3-1``,  ``0.2a3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 
@@ -86,7 +86,7 @@ pstools
 
     <script>
         var package = "pstools";
-        var versions = ["0.2a3","0.2a3","0.2a3","0.2a3"];
+        var versions = ["0.2a3","0.2a3","0.2a3","0.2a3","0.2a3"];
     </script>
 
 

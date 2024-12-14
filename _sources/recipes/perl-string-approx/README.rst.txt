@@ -27,12 +27,12 @@ perl-string-approx
       
       
 
-      ``3.27-4``,  ``3.27-3``,  ``3.27-2``,  ``3.27-1``,  ``3.27-0``
+      ``3.27-5``,  ``3.27-4``,  ``3.27-3``,  ``3.27-2``,  ``3.27-1``,  ``3.27-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-test-more: 
    :requirements:

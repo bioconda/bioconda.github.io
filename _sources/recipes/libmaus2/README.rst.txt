@@ -29,10 +29,10 @@ libmaus2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.813-0</code>,  <code>2.0.810-6</code>,  <code>2.0.810-5</code>,  <code>2.0.810-4</code>,  <code>2.0.810-3</code>,  <code>2.0.810-2</code>,  <code>2.0.777-1</code>,  <code>2.0.777-0</code>,  <code>2.0.774-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.813-1</code>,  <code>2.0.813-0</code>,  <code>2.0.810-6</code>,  <code>2.0.810-5</code>,  <code>2.0.810-4</code>,  <code>2.0.810-3</code>,  <code>2.0.810-2</code>,  <code>2.0.777-1</code>,  <code>2.0.777-0</code>,  </span></summary>
       
 
-      ``2.0.813-0``,  ``2.0.810-6``,  ``2.0.810-5``,  ``2.0.810-4``,  ``2.0.810-3``,  ``2.0.810-2``,  ``2.0.777-1``,  ``2.0.777-0``,  ``2.0.774-1``,  ``2.0.774-0``,  ``2.0.772-1``,  ``2.0.772-0``,  ``2.0.760-0``
+      ``2.0.813-1``,  ``2.0.813-0``,  ``2.0.810-6``,  ``2.0.810-5``,  ``2.0.810-4``,  ``2.0.810-3``,  ``2.0.810-2``,  ``2.0.777-1``,  ``2.0.777-0``,  ``2.0.774-1``,  ``2.0.774-0``,  ``2.0.772-1``,  ``2.0.772-0``,  ``2.0.760-0``
 
       
       .. raw:: html
@@ -44,12 +44,12 @@ libmaus2
    :depends _openmp_mutex: ``>=4.5``
    :depends boost-cpp: 
    :depends gmp: ``>=6.3.0,<7.0a0``
-   :depends libcurl: ``>=8.8.0,<9.0a0``
-   :depends libdeflate: ``>=1.20,<1.21.0a0``
-   :depends libgcc: ``>=12``
+   :depends libcurl: ``>=8.11.1,<9.0a0``
+   :depends libdeflate: ``>=1.22,<1.23.0a0``
+   :depends libgcc: ``>=13``
    :depends libgomp: 
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends nettle: ``>=3.9.1,<3.10.0a0``
    :depends snappy: ``1.1.8.*``
    :depends snappy: ``>=1.1.8,<2.0a0``
@@ -109,7 +109,7 @@ libmaus2
 
     <script>
         var package = "libmaus2";
-        var versions = ["2.0.813","2.0.810","2.0.810","2.0.810","2.0.810"];
+        var versions = ["2.0.813","2.0.813","2.0.810","2.0.810","2.0.810"];
     </script>
 
 

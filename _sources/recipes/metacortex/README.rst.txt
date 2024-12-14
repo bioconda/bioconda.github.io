@@ -27,12 +27,12 @@ metacortex
       
       
 
-      ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``
+      ``0.5.1-3``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -83,7 +83,7 @@ metacortex
 
     <script>
         var package = "metacortex";
-        var versions = ["0.5.1","0.5.1","0.5.1"];
+        var versions = ["0.5.1","0.5.1","0.5.1","0.5.1"];
     </script>
 
 

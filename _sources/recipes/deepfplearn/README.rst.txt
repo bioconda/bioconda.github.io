@@ -27,17 +27,17 @@ deepfplearn
       
       
 
-      ``2.1-0``,  ``2.0-0``,  ``1.2-0``
+      ``2.1-1``,  ``2.1-0``,  ``2.0-0``,  ``1.2-0``
 
       
 
    
    :depends chemprop: ``1.7.1.*``
    :depends jsonpickle: ``2.1.*``
-   :depends keras: ``2.9.*``
+   :depends keras: ``2.10``
    :depends matplotlib-base: ``3.5.1.*``
-   :depends numpy: ``1.22.*``
-   :depends pandas: ``1.4.*``
+   :depends numpy: ``1.22``
+   :depends pandas: ``1.4``
    :depends protobuf: ``>3.19``
    :depends python: 
    :depends rdkit: ``2022.03.*``
@@ -45,7 +45,7 @@ deepfplearn
    :depends seaborn: ``0.12.2.*``
    :depends tensorflow-base: 
    :depends umap-learn: ``0.5.*``
-   :depends wandb: ``0.12.*``
+   :depends wandb: ``0.12.20.*``
    :requirements:
 
    :additional platforms:
@@ -96,7 +96,7 @@ deepfplearn
 
     <script>
         var package = "deepfplearn";
-        var versions = ["2.1","2.0","1.2"];
+        var versions = ["2.1","2.1","2.0","1.2"];
     </script>
 
 

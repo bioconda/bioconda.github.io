@@ -27,16 +27,16 @@ perl-inline-c
       
       
 
-      ``0.81-2``,  ``0.81-1``,  ``0.81-0``,  ``0.78-1``,  ``0.78-0``,  ``0.76-1``,  ``0.76-0``
+      ``0.81-3``,  ``0.81-2``,  ``0.81-1``,  ``0.81-0``,  ``0.78-1``,  ``0.78-0``,  ``0.76-1``,  ``0.76-0``
 
       
 
    
-   :depends gcc_linux-64: ``12.*``
-   :depends libgcc-ng: ``>=12``
+   :depends clang_osx-64: ``18.*``
    :depends make: 
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-extutils-makemaker: 
+   :depends perl-file-copy-recursive: ``>=0.45,<0.46.0a0``
    :depends perl-inline: 
    :depends perl-parse-recdescent: 
    :depends perl-pegex: 
@@ -90,7 +90,7 @@ perl-inline-c
 
     <script>
         var package = "perl-inline-c";
-        var versions = ["0.81","0.81","0.81","0.78","0.78"];
+        var versions = ["0.81","0.81","0.81","0.81","0.78"];
     </script>
 
 

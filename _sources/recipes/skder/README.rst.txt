@@ -28,10 +28,10 @@ skder
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.8-0</code>,  <code>1.2.7-0</code>,  <code>1.2.6-0</code>,  <code>1.2.5-0</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.8-1</code>,  <code>1.2.8-0</code>,  <code>1.2.7-0</code>,  <code>1.2.6-0</code>,  <code>1.2.5-0</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-1</code>,  </span></summary>
       
 
-      ``1.2.8-0``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
+      ``1.2.8-1``,  ``1.2.8-0``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
 
       
       .. raw:: html
@@ -42,8 +42,7 @@ skder
    
    :depends biopython: 
    :depends cd-hit: 
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libcxx: ``>=18``
    :depends matplotlib-base: 
    :depends ncbi-genome-download: 
    :depends pandas: 
@@ -109,7 +108,7 @@ skder
 
     <script>
         var package = "skder";
-        var versions = ["1.2.8","1.2.7","1.2.6","1.2.5","1.2.4"];
+        var versions = ["1.2.8","1.2.8","1.2.7","1.2.6","1.2.5"];
     </script>
 
 

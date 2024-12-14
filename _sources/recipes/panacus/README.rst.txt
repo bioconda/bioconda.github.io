@@ -32,6 +32,7 @@ panacus
       
 
    
+   :depends libgcc: ``>=13``
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 

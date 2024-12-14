@@ -26,16 +26,24 @@ cage
    :versions:
       
       
+      .. raw:: html
 
-      ``2016.05.13-7``,  ``2016.05.13-6``,  ``2016.05.13-5``,  ``2016.05.13-4``,  ``2016.05.13-3``,  ``2016.05.13-2``,  ``2016.05.13-1``,  ``2016.05.13-0``,  ``2016.01.24-0``
+         <details><summary><span class="truncated-version-list"><code>2016.05.13-8</code>,  <code>2016.05.13-7</code>,  <code>2016.05.13-6</code>,  <code>2016.05.13-5</code>,  <code>2016.05.13-4</code>,  <code>2016.05.13-3</code>,  <code>2016.05.13-2</code>,  <code>2016.05.13-1</code>,  <code>2016.05.13-0</code>,  </span></summary>
+      
 
+      ``2016.05.13-8``,  ``2016.05.13-7``,  ``2016.05.13-6``,  ``2016.05.13-5``,  ``2016.05.13-4``,  ``2016.05.13-3``,  ``2016.05.13-2``,  ``2016.05.13-1``,  ``2016.05.13-0``,  ``2016.01.24-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bamtools: ``>=2.5.2,<2.6.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libsqlite: ``>=3.45.3,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libsqlite: ``>=3.47.2,<4.0a0``
+   :depends libstdcxx: ``>=13``
    :depends python: 
    :depends sqlite: 
    :depends tclap: 

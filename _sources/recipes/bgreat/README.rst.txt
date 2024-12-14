@@ -27,14 +27,16 @@ bgreat
       
       
 
-      ``2.0.0-7``,  ``2.0.0-6``,  ``2.0.0-5``,  ``2.0.0-4``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``
+      ``2.0.0-8``,  ``2.0.0-7``,  ``2.0.0-6``,  ``2.0.0-5``,  ``2.0.0-4``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``
 
       
 
    
+   :depends libgcc: 
    :depends libgcc-ng: ``>=12``
+   :depends libstdcxx: 
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:

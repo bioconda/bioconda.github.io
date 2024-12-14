@@ -28,10 +28,10 @@ stringdecomposer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.2-3</code>,  <code>1.1.2-2</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.2-4</code>,  <code>1.1.2-3</code>,  <code>1.1.2-2</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-1</code>,  </span></summary>
       
 
-      ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.0-0``
+      ``1.1.2-4``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -42,8 +42,8 @@ stringdecomposer
    
    :depends _openmp_mutex: ``>=4.5``
    :depends biopython: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends pandas: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python-edlib: 
@@ -98,7 +98,7 @@ stringdecomposer
 
     <script>
         var package = "stringdecomposer";
-        var versions = ["1.1.2","1.1.2","1.1.2","1.1.2","1.1.1"];
+        var versions = ["1.1.2","1.1.2","1.1.2","1.1.2","1.1.2"];
     </script>
 
 

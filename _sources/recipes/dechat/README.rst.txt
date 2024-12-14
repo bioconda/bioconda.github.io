@@ -27,15 +27,15 @@ dechat
       
       
 
-      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
+   :depends boost-cpp: ``1.67.0``
    :depends hdf5: ``>=1.14.3,<1.14.4.0a0``
+   :depends libcxx: ``>=18``
    :depends libdivsufsort: ``>=2.0.2,<2.1.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :requirements:
 
@@ -87,7 +87,7 @@ dechat
 
     <script>
         var package = "dechat";
-        var versions = ["1.0.1","1.0.1","1.0.0"];
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.0"];
     </script>
 
 

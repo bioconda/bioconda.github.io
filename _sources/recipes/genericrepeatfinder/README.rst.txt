@@ -27,14 +27,14 @@ genericrepeatfinder
       
       
 
-      ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
    :depends cd-hit: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
+   :depends llvm-openmp: ``>=18.1.8``
    :requirements:
 
    :additional platforms:
@@ -85,7 +85,7 @@ genericrepeatfinder
 
     <script>
         var package = "genericrepeatfinder";
-        var versions = ["1.0.2","1.0.1","1.0.1","1.0","1.0"];
+        var versions = ["1.0.2","1.0.2","1.0.1","1.0.1","1.0"];
     </script>
 
 

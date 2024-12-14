@@ -26,15 +26,23 @@ longgf
    :versions:
       
       
+      .. raw:: html
 
-      ``0.1.2-7``,  ``0.1.2-6``,  ``0.1.2-5``,  ``0.1.2-4``,  ``0.1.2-3``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.1.2-8</code>,  <code>0.1.2-7</code>,  <code>0.1.2-6</code>,  <code>0.1.2-5</code>,  <code>0.1.2-4</code>,  <code>0.1.2-3</code>,  <code>0.1.2-2</code>,  <code>0.1.2-1</code>,  <code>0.1.2-0</code>,  </span></summary>
+      
 
+      ``0.1.2-8``,  ``0.1.2-7``,  ``0.1.2-6``,  ``0.1.2-5``,  ``0.1.2-4``,  ``0.1.2-3``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends htslib: ``>=1.20,<1.22.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:

@@ -28,10 +28,10 @@ cpat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.5-2</code>,  <code>3.0.5-1</code>,  <code>3.0.5-0</code>,  <code>3.0.4-2</code>,  <code>3.0.4-1</code>,  <code>3.0.4-0</code>,  <code>2.0.0-4</code>,  <code>2.0.0-3</code>,  <code>2.0.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.5-3</code>,  <code>3.0.5-2</code>,  <code>3.0.5-1</code>,  <code>3.0.5-0</code>,  <code>3.0.4-2</code>,  <code>3.0.4-1</code>,  <code>3.0.4-0</code>,  <code>2.0.0-4</code>,  <code>2.0.0-3</code>,  </span></summary>
       
 
-      ``3.0.5-2``,  ``3.0.5-1``,  ``3.0.5-0``,  ``3.0.4-2``,  ``3.0.4-1``,  ``3.0.4-0``,  ``2.0.0-4``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-2``
+      ``3.0.5-3``,  ``3.0.5-2``,  ``3.0.5-1``,  ``3.0.5-0``,  ``3.0.4-2``,  ``3.0.4-1``,  ``3.0.4-0``,  ``2.0.0-4``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-2``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ cpat
 
    
    :depends bx-python: ``>=0.11.0,<0.12.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends numpy: ``>=1.22.4,<2.0a0``
    :depends pysam: ``>=0.22.1,<0.23.0a0``
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends python: ``>=3.9,<3.10.0a0``
+   :depends python_abi: ``3.9.* *_cp39``
    :depends r-base: 
    :requirements:
 
@@ -101,7 +101,7 @@ cpat
 
     <script>
         var package = "cpat";
-        var versions = ["3.0.5","3.0.5","3.0.5","3.0.4","3.0.4"];
+        var versions = ["3.0.5","3.0.5","3.0.5","3.0.5","3.0.4"];
     </script>
 
 

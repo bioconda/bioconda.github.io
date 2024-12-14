@@ -27,9 +27,17 @@ mapseq
    :versions:
       
       
+      .. raw:: html
 
-      ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.1b-0``,  ``2.1.1a-0``,  ``2.1-0``,  ``1.2.6-3``,  ``1.2.6-2``,  ``1.2.6-1``,  ``1.2.6-0``
+         <details><summary><span class="truncated-version-list"><code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.1.1b-1</code>,  <code>2.1.1b-0</code>,  <code>2.1.1a-0</code>,  <code>2.1-0</code>,  <code>1.2.6-3</code>,  <code>1.2.6-2</code>,  <code>1.2.6-1</code>,  </span></summary>
+      
 
+      ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.1b-1``,  ``2.1.1b-0``,  ``2.1.1a-0``,  ``2.1-0``,  ``1.2.6-3``,  ``1.2.6-2``,  ``1.2.6-1``,  ``1.2.6-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -93,7 +101,7 @@ mapseq
 
     <script>
         var package = "mapseq";
-        var versions = ["2.1.1","2.1.1","2.1.1b","2.1.1a","2.1"];
+        var versions = ["2.1.1","2.1.1","2.1.1b","2.1.1b","2.1.1a"];
     </script>
 
 

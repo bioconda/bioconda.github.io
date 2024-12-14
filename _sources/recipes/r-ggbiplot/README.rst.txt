@@ -40,6 +40,7 @@ r-ggbiplot
       
 
    
+   :depends libgcc: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-devtools: 
    :depends r-ggplot2: 

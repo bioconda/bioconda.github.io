@@ -28,15 +28,15 @@ idba
       
       
 
-      ``1.1.3-3``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.1-2``,  ``1.1.1-1``
+      ``1.1.3-4``,  ``1.1.3-3``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.1-2``,  ``1.1.1-1``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends python_abi: ``3.9.* *_cp39``
+   :depends python_abi: ``3.11.* *_cp311``
    :requirements:
 
    :additional platforms:
@@ -91,7 +91,7 @@ idba
 
     <script>
         var package = "idba";
-        var versions = ["1.1.3","1.1.3","1.1.3","1.1.1","1.1.1"];
+        var versions = ["1.1.3","1.1.3","1.1.3","1.1.3","1.1.1"];
     </script>
 
 

@@ -29,10 +29,10 @@ bamutil
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.15-5</code>,  <code>1.0.15-4</code>,  <code>1.0.15-3</code>,  <code>1.0.15-2</code>,  <code>1.0.15-1</code>,  <code>1.0.15-0</code>,  <code>1.0.14-5</code>,  <code>1.0.14-4</code>,  <code>1.0.14-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.15-6</code>,  <code>1.0.15-5</code>,  <code>1.0.15-4</code>,  <code>1.0.15-3</code>,  <code>1.0.15-2</code>,  <code>1.0.15-1</code>,  <code>1.0.15-0</code>,  <code>1.0.14-5</code>,  <code>1.0.14-4</code>,  </span></summary>
       
 
-      ``1.0.15-5``,  ``1.0.15-4``,  ``1.0.15-3``,  ``1.0.15-2``,  ``1.0.15-1``,  ``1.0.15-0``,  ``1.0.14-5``,  ``1.0.14-4``,  ``1.0.14-3``,  ``1.0.14-2``,  ``1.0.14-1``,  ``1.0.14-0``
+      ``1.0.15-6``,  ``1.0.15-5``,  ``1.0.15-4``,  ``1.0.15-3``,  ``1.0.15-2``,  ``1.0.15-1``,  ``1.0.15-0``,  ``1.0.14-5``,  ``1.0.14-4``,  ``1.0.14-3``,  ``1.0.14-2``,  ``1.0.14-1``,  ``1.0.14-0``
 
       
       .. raw:: html
@@ -41,9 +41,9 @@ bamutil
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 

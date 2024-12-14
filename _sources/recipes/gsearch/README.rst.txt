@@ -15,7 +15,7 @@ gsearch
    :homepage: https://github.com/jean-pierreBoth/gsearch
    :license: MIT
    :recipe: /`gsearch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gsearch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gsearch/meta.yaml>`_
-   :links: https: :https:`//doi.org/10.1093/nar/gkae609`
+   :links: doi: :doi:`10.1093/nar/gkae609`
 
    
 
@@ -29,10 +29,10 @@ gsearch
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-0</code>,  <code>0.1.6-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.3-0</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-0</code>,  <code>0.1.6-0</code>,  </span></summary>
       
 
-      ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-6``,  ``0.1.2-5``,  ``0.1.2-0``,  ``0.0.12-0``
+      ``0.2.3-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-6``,  ``0.1.2-5``,  ``0.1.2-0``,  ``0.0.12-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ gsearch
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -93,7 +93,7 @@ gsearch
 
     <script>
         var package = "gsearch";
-        var versions = ["0.2.2","0.2.1","0.2.0","0.1.9","0.1.8"];
+        var versions = ["0.2.3","0.2.2","0.2.2","0.2.1","0.2.0"];
     </script>
 
 

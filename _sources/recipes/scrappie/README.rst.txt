@@ -28,10 +28,10 @@ scrappie
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.2-6</code>,  <code>1.4.2-5</code>,  <code>1.4.2-4</code>,  <code>1.4.2-3</code>,  <code>1.4.2-2</code>,  <code>1.4.2-1</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.3.2-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.2-7</code>,  <code>1.4.2-6</code>,  <code>1.4.2-5</code>,  <code>1.4.2-4</code>,  <code>1.4.2-3</code>,  <code>1.4.2-2</code>,  <code>1.4.2-1</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  </span></summary>
       
 
-      ``1.4.2-6``,  ``1.4.2-5``,  ``1.4.2-4``,  ``1.4.2-3``,  ``1.4.2-2``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.2-2``,  ``1.3.2-0``
+      ``1.4.2-7``,  ``1.4.2-6``,  ``1.4.2-5``,  ``1.4.2-4``,  ``1.4.2-3``,  ``1.4.2-2``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.2-2``,  ``1.3.2-0``
 
       
       .. raw:: html
@@ -43,9 +43,9 @@ scrappie
    :depends cffi: ``>=1.0.0``
    :depends cunit: 
    :depends hdf5: ``>=1.14.3,<1.14.4.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends mkl: 
    :depends numpy: ``>=1.22.4,<2.0a0``
    :depends openblas: 

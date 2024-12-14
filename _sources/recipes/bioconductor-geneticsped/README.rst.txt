@@ -28,10 +28,10 @@ bioconductor-geneticsped
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.64.0-2</code>,  <code>1.64.0-1</code>,  <code>1.64.0-0</code>,  <code>1.62.1-0</code>,  <code>1.60.0-1</code>,  <code>1.60.0-0</code>,  <code>1.56.0-2</code>,  <code>1.56.0-1</code>,  <code>1.56.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.68.0-0</code>,  <code>1.64.0-2</code>,  <code>1.64.0-1</code>,  <code>1.64.0-0</code>,  <code>1.62.1-0</code>,  <code>1.60.0-1</code>,  <code>1.60.0-0</code>,  <code>1.56.0-2</code>,  <code>1.56.0-1</code>,  </span></summary>
       
 
-      ``1.64.0-2``,  ``1.64.0-1``,  ``1.64.0-0``,  ``1.62.1-0``,  ``1.60.0-1``,  ``1.60.0-0``,  ``1.56.0-2``,  ``1.56.0-1``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.44.0-0``
+      ``1.68.0-0``,  ``1.64.0-2``,  ``1.64.0-1``,  ``1.64.0-0``,  ``1.62.1-0``,  ``1.60.0-1``,  ``1.60.0-0``,  ``1.56.0-2``,  ``1.56.0-1``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.44.0-0``
 
       
       .. raw:: html
@@ -41,12 +41,12 @@ bioconductor-geneticsped
 
    
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=12.3.0``
+   :depends libgcc: ``>=13``
+   :depends libgfortran: 
+   :depends libgfortran5: ``>=13.3.0``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-gdata: 
    :depends r-genetics: 
    :depends r-mass: 
@@ -104,7 +104,7 @@ bioconductor-geneticsped
 
     <script>
         var package = "bioconductor-geneticsped";
-        var versions = ["1.64.0","1.64.0","1.64.0","1.62.1","1.60.0"];
+        var versions = ["1.68.0","1.64.0","1.64.0","1.64.0","1.62.1"];
     </script>
 
 

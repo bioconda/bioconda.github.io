@@ -27,15 +27,23 @@ simka
    :versions:
       
       
+      .. raw:: html
 
-      ``1.5.3-4``,  ``1.5.3-3``,  ``1.5.3-2``,  ``1.5.3-1``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.5.3-5</code>,  <code>1.5.3-4</code>,  <code>1.5.3-3</code>,  <code>1.5.3-2</code>,  <code>1.5.3-1</code>,  <code>1.5.3-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  </span></summary>
+      
 
+      ``1.5.3-5``,  ``1.5.3-4``,  ``1.5.3-3``,  ``1.5.3-2``,  ``1.5.3-1``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends python: 
    :depends zlib: 
    :requirements:

@@ -29,10 +29,10 @@ dsk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.3-5</code>,  <code>2.3.3-4</code>,  <code>2.3.3-3</code>,  <code>2.3.3-2</code>,  <code>2.3.3-1</code>,  <code>2.3.3-0</code>,  <code>2.3.1-0</code>,  <code>2.2.0-2</code>,  <code>2.2.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.3-6</code>,  <code>2.3.3-5</code>,  <code>2.3.3-4</code>,  <code>2.3.3-3</code>,  <code>2.3.3-2</code>,  <code>2.3.3-1</code>,  <code>2.3.3-0</code>,  <code>2.3.1-0</code>,  <code>2.2.0-2</code>,  </span></summary>
       
 
-      ``2.3.3-5``,  ``2.3.3-4``,  ``2.3.3-3``,  ``2.3.3-2``,  ``2.3.3-1``,  ``2.3.3-0``,  ``2.3.1-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``
+      ``2.3.3-6``,  ``2.3.3-5``,  ``2.3.3-4``,  ``2.3.3-3``,  ``2.3.3-2``,  ``2.3.3-1``,  ``2.3.3-0``,  ``2.3.1-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``
 
       
       .. raw:: html
@@ -41,9 +41,9 @@ dsk
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 

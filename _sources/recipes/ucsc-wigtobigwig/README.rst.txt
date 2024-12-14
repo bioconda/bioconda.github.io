@@ -44,6 +44,7 @@ ucsc-wigtobigwig
       
 
    
+   :depends libgcc: ``>=13``
    :depends libopenssl-static: 
    :depends libpng: ``>=1.6.44,<1.7.0a0``
    :depends libuuid: ``>=2.38.1,<3.0a0``

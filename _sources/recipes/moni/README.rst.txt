@@ -31,7 +31,7 @@ moni
       
       
 
-      ``0.2.2-0``
+      ``0.2.2-1``,  ``0.2.2-0``
 
       
 
@@ -40,7 +40,7 @@ moni
    :depends libgcc-ng: ``>=9.3.0``
    :depends libstdcxx: 
    :depends libstdcxx-ng: ``>=9.3.0``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends zlib: 
@@ -94,7 +94,7 @@ moni
 
     <script>
         var package = "moni";
-        var versions = ["0.2.2"];
+        var versions = ["0.2.2","0.2.2"];
     </script>
 
 

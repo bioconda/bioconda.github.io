@@ -27,15 +27,15 @@ wise2
       
       
 
-      ``2.4.1-5``,  ``2.4.1-4``,  ``2.4.1-3``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``
+      ``2.4.1-6``,  ``2.4.1-5``,  ``2.4.1-4``,  ``2.4.1-3``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``
 
       
 
    
    :depends glib: 
-   :depends libgcc-ng: ``>=12``
-   :depends libglib: ``>=2.80.0,<3.0a0``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libglib: ``>=2.82.2,<3.0a0``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:

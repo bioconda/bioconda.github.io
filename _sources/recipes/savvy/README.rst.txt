@@ -40,7 +40,8 @@ savvy
       
 
    
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends shrinkwrap: 
    :depends zstd: ``>=1.5.6,<1.6.0a0``

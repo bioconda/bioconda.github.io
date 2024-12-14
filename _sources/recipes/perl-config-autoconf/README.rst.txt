@@ -27,12 +27,11 @@ perl-config-autoconf
       
       
 
-      ``0.320-2``,  ``0.320-1``,  ``0.320-0``,  ``0.317-1``,  ``0.317-0``,  ``0.311-2``,  ``0.311-1``,  ``0.311-0``
+      ``0.320-3``,  ``0.320-2``,  ``0.320-1``,  ``0.320-0``,  ``0.317-1``,  ``0.317-0``,  ``0.311-2``,  ``0.311-1``,  ``0.311-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-base: 
    :depends perl-capture-tiny: 
@@ -90,7 +89,7 @@ perl-config-autoconf
 
     <script>
         var package = "perl-config-autoconf";
-        var versions = ["0.320","0.320","0.320","0.317","0.317"];
+        var versions = ["0.320","0.320","0.320","0.320","0.317"];
     </script>
 
 

@@ -27,13 +27,13 @@ boms
       
       
 
-      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.5-0``
+      ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.5-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends matplotlib-base: 
    :depends mkl: 
    :depends mkl-service: 
@@ -92,7 +92,7 @@ boms
 
     <script>
         var package = "boms";
-        var versions = ["1.1.0","1.1.0","1.0.5"];
+        var versions = ["1.1.0","1.1.0","1.1.0","1.0.5"];
     </script>
 
 

@@ -27,16 +27,24 @@ bs_call
    :versions:
       
       
+      .. raw:: html
 
-      ``2.02-8``,  ``2.02-7``,  ``2.02-6``,  ``2.02-5``,  ``2.02-4``,  ``2.02-3``,  ``2.02-2``,  ``2.02-1``,  ``2.02-0``
+         <details><summary><span class="truncated-version-list"><code>2.02-9</code>,  <code>2.02-8</code>,  <code>2.02-7</code>,  <code>2.02-6</code>,  <code>2.02-5</code>,  <code>2.02-4</code>,  <code>2.02-3</code>,  <code>2.02-2</code>,  <code>2.02-1</code>,  </span></summary>
+      
 
+      ``2.02-9``,  ``2.02-8``,  ``2.02-7``,  ``2.02-6``,  ``2.02-5``,  ``2.02-4``,  ``2.02-3``,  ``2.02-2``,  ``2.02-1``,  ``2.02-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends openmp: 
    :depends zlib: 
    :requirements:

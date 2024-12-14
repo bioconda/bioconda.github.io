@@ -35,7 +35,8 @@ modeltest-ng
       
 
    
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends openmpi: ``>=4.1.6,<5.0a0``
    :requirements:
 

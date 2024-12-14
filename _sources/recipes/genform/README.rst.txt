@@ -28,13 +28,13 @@ genform
       
       
 
-      ``r8-4``,  ``r8-3``,  ``r8-2``,  ``r8-1``,  ``r8-0``
+      ``r8-5``,  ``r8-4``,  ``r8-3``,  ``r8-2``,  ``r8-1``,  ``r8-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:

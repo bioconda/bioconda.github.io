@@ -30,10 +30,10 @@ pyopal
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.0-0</code>,  <code>0.6.1-1</code>,  <code>0.6.1-0</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.1-1</code>,  <code>0.6.1-0</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  </span></summary>
       
 
-      ``0.7.0-0``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``
+      ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``
 
       
       .. raw:: html
@@ -43,8 +43,8 @@ pyopal
 
    
    :depends archspec: 
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends scoring-matrices: ``>=0.2``
@@ -103,7 +103,7 @@ pyopal
 
     <script>
         var package = "pyopal";
-        var versions = ["0.7.0","0.6.1","0.6.1","0.6.0","0.6.0"];
+        var versions = ["0.7.0","0.7.0","0.6.1","0.6.1","0.6.0"];
     </script>
 
 

@@ -29,10 +29,10 @@ bioconductor-stringdb
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.2-0</code>,  <code>2.2.0-0</code>,  <code>2.1.3-0</code>,  <code>2.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.18.0-0</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.2-0</code>,  <code>2.2.0-0</code>,  <code>2.1.3-0</code>,  </span></summary>
       
 
-      ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.2-0``,  ``2.2.0-0``,  ``2.1.3-0``,  ``2.0.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``
+      ``2.18.0-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.2-0``,  ``2.2.0-0``,  ``2.1.3-0``,  ``2.0.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``
 
       
       .. raw:: html
@@ -41,15 +41,15 @@ bioconductor-stringdb
       
 
    
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-gplots: 
    :depends r-hash: 
+   :depends r-httr: 
    :depends r-igraph: 
    :depends r-plotrix: 
    :depends r-plyr: 
    :depends r-png: 
    :depends r-rcolorbrewer: 
-   :depends r-rcurl: 
    :depends r-sqldf: 
    :requirements:
 
@@ -101,7 +101,7 @@ bioconductor-stringdb
 
     <script>
         var package = "bioconductor-stringdb";
-        var versions = ["2.14.0","2.12.0","2.10.0","2.6.0","2.4.0"];
+        var versions = ["2.18.0","2.14.0","2.12.0","2.10.0","2.6.0"];
     </script>
 
 

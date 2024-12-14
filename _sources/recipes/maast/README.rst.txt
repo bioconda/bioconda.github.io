@@ -27,7 +27,7 @@ maast
       
       
 
-      ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7-1``,  ``1.0.7-0``
+      ``1.0.8-2``,  ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7-1``,  ``1.0.7-0``
 
       
 
@@ -35,8 +35,8 @@ maast
    :depends biopython: ``>=1.58``
    :depends fasttree: 
    :depends lbzip2: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends lz4: 
    :depends mash: 
    :depends mummer4: 
@@ -96,7 +96,7 @@ maast
 
     <script>
         var package = "maast";
-        var versions = ["1.0.8","1.0.8","1.0.7","1.0.7"];
+        var versions = ["1.0.8","1.0.8","1.0.8","1.0.7","1.0.7"];
     </script>
 
 

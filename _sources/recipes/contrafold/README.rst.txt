@@ -27,13 +27,13 @@ contrafold
       
       
 
-      ``2.02-3``,  ``2.02-2``,  ``2.02-1``,  ``2.02-0``
+      ``2.02-4``,  ``2.02-3``,  ``2.02-2``,  ``2.02-1``,  ``2.02-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends perl: 
    :requirements:
 
@@ -85,7 +85,7 @@ contrafold
 
     <script>
         var package = "contrafold";
-        var versions = ["2.02","2.02","2.02","2.02"];
+        var versions = ["2.02","2.02","2.02","2.02","2.02"];
     </script>
 
 

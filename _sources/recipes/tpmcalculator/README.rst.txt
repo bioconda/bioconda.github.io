@@ -41,7 +41,8 @@ tpmcalculator
 
    
    :depends bamtools: ``>=2.5.2,<2.6.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:

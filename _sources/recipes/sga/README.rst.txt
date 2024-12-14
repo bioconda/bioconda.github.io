@@ -29,10 +29,10 @@ sga
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.10.15-9</code>,  <code>0.10.15-8</code>,  <code>0.10.15-7</code>,  <code>0.10.15-6</code>,  <code>0.10.15-5</code>,  <code>0.10.15-4</code>,  <code>0.10.15-3</code>,  <code>0.10.15-2</code>,  <code>0.10.15-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10.15-10</code>,  <code>0.10.15-9</code>,  <code>0.10.15-8</code>,  <code>0.10.15-7</code>,  <code>0.10.15-6</code>,  <code>0.10.15-5</code>,  <code>0.10.15-4</code>,  <code>0.10.15-3</code>,  <code>0.10.15-2</code>,  </span></summary>
       
 
-      ``0.10.15-9``,  ``0.10.15-8``,  ``0.10.15-7``,  ``0.10.15-6``,  ``0.10.15-5``,  ``0.10.15-4``,  ``0.10.15-3``,  ``0.10.15-2``,  ``0.10.15-1``,  ``0.10.15-0``,  ``0.10.13-0``
+      ``0.10.15-10``,  ``0.10.15-9``,  ``0.10.15-8``,  ``0.10.15-7``,  ``0.10.15-6``,  ``0.10.15-5``,  ``0.10.15-4``,  ``0.10.15-3``,  ``0.10.15-2``,  ``0.10.15-1``,  ``0.10.15-0``,  ``0.10.13-0``
 
       
       .. raw:: html
@@ -42,9 +42,9 @@ sga
 
    
    :depends bamtools: ``>=2.5.2,<2.6.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends sparsehash: 
    :depends zlib: 
    :requirements:

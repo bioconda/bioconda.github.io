@@ -28,21 +28,22 @@ safesim
       
       
 
-      ``0.1.6.8d44580-3``,  ``0.1.6.8d44580-2``,  ``0.1.6.8d44580-1``,  ``0.1.6.8d44580-0``,  ``0.1.5.f9a66db-0``
+      ``0.1.6.8d44580-4``,  ``0.1.6.8d44580-3``,  ``0.1.6.8d44580-2``,  ``0.1.6.8d44580-1``,  ``0.1.6.8d44580-0``,  ``0.1.5.f9a66db-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends fastq-tools: 
-   :depends htslib: ``>=1.20,<1.22.0a0``
-   :depends libcurl: ``>=8.8.0,<9.0a0``
-   :depends libdeflate: ``>=1.20,<1.21.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
-   :depends openssl: ``>=3.3.1,<4.0a0``
-   :depends xz: ``>=5.2.6,<6.0a0``
+   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends libcurl: ``>=8.11.1,<9.0a0``
+   :depends libdeflate: ``>=1.22,<1.23.0a0``
+   :depends libgcc: ``>=13``
+   :depends liblzma: ``>=5.6.3,<6.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends openssl: ``>=3.4.0,<4.0a0``
+   :depends xz: 
    :depends zlib: 
    :requirements:
 
@@ -94,7 +95,7 @@ safesim
 
     <script>
         var package = "safesim";
-        var versions = ["0.1.6.8d44580","0.1.6.8d44580","0.1.6.8d44580","0.1.6.8d44580","0.1.5.f9a66db"];
+        var versions = ["0.1.6.8d44580","0.1.6.8d44580","0.1.6.8d44580","0.1.6.8d44580","0.1.6.8d44580"];
     </script>
 
 

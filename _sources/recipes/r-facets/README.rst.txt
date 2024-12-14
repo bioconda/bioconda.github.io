@@ -41,8 +41,9 @@ r-facets
       
 
    
-   :depends libgfortran: ``5.*``
-   :depends libgfortran5: ``>=13.2.0``
+   :depends libgcc: ``>=13``
+   :depends libgfortran: 
+   :depends libgfortran5: ``>=13.3.0``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-pctgcdata: 
    :requirements:

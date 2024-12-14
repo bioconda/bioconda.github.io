@@ -30,14 +30,14 @@ fsa
       
       
 
-      ``1.15.9-4``,  ``1.15.9-3``,  ``1.15.9-2``,  ``1.15.9-1``,  ``1.15.9-0``
+      ``1.15.9-5``,  ``1.15.9-4``,  ``1.15.9-3``,  ``1.15.9-2``,  ``1.15.9-1``,  ``1.15.9-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
