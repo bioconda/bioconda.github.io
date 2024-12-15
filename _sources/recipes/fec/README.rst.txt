@@ -27,15 +27,17 @@ fec
       
       
 
-      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc: 
    :depends libgcc-ng: ``>=12``
+   :depends libstdcxx: 
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends minimap2: ``>=2.17``
    :depends python: ``>=3.6``
    :depends zlib: 
@@ -89,7 +91,7 @@ fec
 
     <script>
         var package = "fec";
-        var versions = ["1.0.1","1.0.1","1.0.0"];
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.0"];
     </script>
 
 

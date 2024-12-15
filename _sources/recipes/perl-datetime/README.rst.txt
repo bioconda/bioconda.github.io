@@ -28,10 +28,10 @@ perl-datetime
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.59-1</code>,  <code>1.59-0</code>,  <code>1.58-1</code>,  <code>1.58-0</code>,  <code>1.57-0</code>,  <code>1.55-1</code>,  <code>1.55-0</code>,  <code>1.42-5</code>,  <code>1.42-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.59-2</code>,  <code>1.59-1</code>,  <code>1.59-0</code>,  <code>1.58-1</code>,  <code>1.58-0</code>,  <code>1.57-0</code>,  <code>1.55-1</code>,  <code>1.55-0</code>,  <code>1.42-5</code>,  </span></summary>
       
 
-      ``1.59-1``,  ``1.59-0``,  ``1.58-1``,  ``1.58-0``,  ``1.57-0``,  ``1.55-1``,  ``1.55-0``,  ``1.42-5``,  ``1.42-4``,  ``1.42-2``,  ``1.42-0``
+      ``1.59-2``,  ``1.59-1``,  ``1.59-0``,  ``1.58-1``,  ``1.58-0``,  ``1.57-0``,  ``1.55-1``,  ``1.55-0``,  ``1.42-5``,  ``1.42-4``,  ``1.42-2``,  ``1.42-0``
 
       
       .. raw:: html
@@ -40,13 +40,12 @@ perl-datetime
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-cpan-meta-check: ``0.014.*``
    :depends perl-datetime-locale: 
    :depends perl-datetime-timezone: ``>=2.44``
-   :depends perl-namespace-autoclean: 
+   :depends perl-namespace-autoclean: ``>=0.31,<0.32.0a0``
    :depends perl-params-validationcompiler: ``0.30.*``
    :depends perl-params-validationcompiler: ``>=0.26``
    :depends perl-specio: ``0.48.*``
@@ -106,7 +105,7 @@ perl-datetime
 
     <script>
         var package = "perl-datetime";
-        var versions = ["1.59","1.59","1.58","1.58","1.57"];
+        var versions = ["1.59","1.59","1.59","1.58","1.58"];
     </script>
 
 

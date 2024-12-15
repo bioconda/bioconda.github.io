@@ -31,16 +31,24 @@ mrbayes
    :versions:
       
       
+      .. raw:: html
 
-      ``3.2.7-6``,  ``3.2.7-5``,  ``3.2.7-4``,  ``3.2.7-3``,  ``3.2.7-2``,  ``3.2.7-1``,  ``3.2.7-0``,  ``3.2.7a-0``,  ``3.2.6-0``
+         <details><summary><span class="truncated-version-list"><code>3.2.7-7</code>,  <code>3.2.7-6</code>,  <code>3.2.7-5</code>,  <code>3.2.7-4</code>,  <code>3.2.7-3</code>,  <code>3.2.7-2</code>,  <code>3.2.7-1</code>,  <code>3.2.7-0</code>,  <code>3.2.7a-0</code>,  </span></summary>
+      
 
+      ``3.2.7-7``,  ``3.2.7-6``,  ``3.2.7-5``,  ``3.2.7-4``,  ``3.2.7-3``,  ``3.2.7-2``,  ``3.2.7-1``,  ``3.2.7-0``,  ``3.2.7a-0``,  ``3.2.6-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends beagle-lib: ``<4``
-   :depends libgcc-ng: ``>=12``
-   :depends ncurses: ``>=6.3,<7.0a0``
-   :depends openmpi: ``>=4.1.5,<5.0a0``
+   :depends libgcc: ``>=13``
+   :depends ncurses: ``>=6.5,<7.0a0``
+   :depends openmpi: ``>=4.1.6,<5.0a0``
    :depends readline: ``>=8.2,<9.0a0``
    :requirements:
 

@@ -33,7 +33,8 @@ dagchainer
       
 
    
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends perl-carp: 
    :depends perl-data-dumper: 
    :depends perl-getopt-long: ``>=2.58,<3.0a0``

@@ -27,14 +27,14 @@ bioconductor-roseq
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.10-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.10-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-pbmcapply: 
    :requirements:
 
@@ -86,7 +86,7 @@ bioconductor-roseq
 
     <script>
         var package = "bioconductor-roseq";
-        var versions = ["1.14.0","1.12.0","1.10.0","1.6.0","1.4.0"];
+        var versions = ["1.18.0","1.14.0","1.12.0","1.10.0","1.6.0"];
     </script>
 
 

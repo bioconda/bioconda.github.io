@@ -27,14 +27,14 @@ haslr
       
       
 
-      ``0.8a1-5``,  ``0.8a1-4``,  ``0.8a1-3``,  ``0.8a1-2``,  ``0.8a1-1``,  ``0.8a1-0``
+      ``0.8a1-6``,  ``0.8a1-5``,  ``0.8a1-4``,  ``0.8a1-3``,  ``0.8a1-2``,  ``0.8a1-1``,  ``0.8a1-0``
 
       
 
    
    :depends fastutils: ``>=0.2``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends minia: ``>=3.2.1``
    :depends minimap2: ``>=2.17``

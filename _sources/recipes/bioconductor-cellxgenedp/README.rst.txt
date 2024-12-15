@@ -27,17 +27,17 @@ bioconductor-cellxgenedp
       
       
 
-      ``1.6.1-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.10.0-0``,  ``1.6.1-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-cli: 
    :depends r-curl: 
    :depends r-dplyr: 
    :depends r-dt: 
    :depends r-httr: 
-   :depends r-jsonlite: 
    :depends r-rjsoncons: 
    :depends r-shiny: 
    :requirements:
@@ -90,7 +90,7 @@ bioconductor-cellxgenedp
 
     <script>
         var package = "bioconductor-cellxgenedp";
-        var versions = ["1.6.1","1.4.0","1.2.0"];
+        var versions = ["1.10.0","1.6.1","1.4.0","1.2.0"];
     </script>
 
 

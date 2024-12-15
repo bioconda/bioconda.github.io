@@ -27,15 +27,15 @@ gencore
       
       
 
-      ``0.17.2-2``,  ``0.17.2-1``,  ``0.17.2-0``,  ``0.17.1-0``,  ``0.17.0-0``,  ``0.13.0-1``,  ``0.13.0-0``
+      ``0.17.2-3``,  ``0.17.2-2``,  ``0.17.2-1``,  ``0.17.2-0``,  ``0.17.1-0``,  ``0.17.0-0``,  ``0.13.0-1``,  ``0.13.0-0``
 
       
 
    
-   :depends htslib: ``>=1.10.2,<1.22.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends zlib: 
    :requirements:
 
@@ -87,7 +87,7 @@ gencore
 
     <script>
         var package = "gencore";
-        var versions = ["0.17.2","0.17.2","0.17.2","0.17.1","0.17.0"];
+        var versions = ["0.17.2","0.17.2","0.17.2","0.17.2","0.17.1"];
     </script>
 
 

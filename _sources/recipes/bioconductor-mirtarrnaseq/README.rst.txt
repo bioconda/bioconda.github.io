@@ -27,13 +27,13 @@ bioconductor-mirtarrnaseq
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends r-assertthat: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-catools: 
    :depends r-corrplot: 
    :depends r-data.table: 
@@ -96,7 +96,7 @@ bioconductor-mirtarrnaseq
 
     <script>
         var package = "bioconductor-mirtarrnaseq";
-        var versions = ["1.10.0","1.8.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.2.0"];
     </script>
 
 

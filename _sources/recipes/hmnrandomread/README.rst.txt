@@ -27,14 +27,14 @@ hmnrandomread
       
       
 
-      ``0.10.0-3``,  ``0.10.0-2``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.1-0``
+      ``0.10.0-4``,  ``0.10.0-3``,  ``0.10.0-2``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.1-0``
 
       
 
    
-   :depends htslib: ``>=1.20,<1.22.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends pytest: 
    :depends python: 
    :requirements:
@@ -87,7 +87,7 @@ hmnrandomread
 
     <script>
         var package = "hmnrandomread";
-        var versions = ["0.10.0","0.10.0","0.10.0","0.10.0","0.9.1"];
+        var versions = ["0.10.0","0.10.0","0.10.0","0.10.0","0.10.0"];
     </script>
 
 

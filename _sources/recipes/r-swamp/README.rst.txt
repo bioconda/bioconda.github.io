@@ -28,10 +28,10 @@ r-swamp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.1-5</code>,  <code>1.5.1-4</code>,  <code>1.5.1-3</code>,  <code>1.5.1-2</code>,  <code>1.5.1-1</code>,  <code>1.5.1-0</code>,  <code>1.4.1-3</code>,  <code>1.4.1-2</code>,  <code>1.4.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.1-6</code>,  <code>1.5.1-5</code>,  <code>1.5.1-4</code>,  <code>1.5.1-3</code>,  <code>1.5.1-2</code>,  <code>1.5.1-1</code>,  <code>1.5.1-0</code>,  <code>1.4.1-3</code>,  <code>1.4.1-2</code>,  </span></summary>
       
 
-      ``1.5.1-5``,  ``1.5.1-4``,  ``1.5.1-3``,  ``1.5.1-2``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.3.1-0``
+      ``1.5.1-6``,  ``1.5.1-5``,  ``1.5.1-4``,  ``1.5.1-3``,  ``1.5.1-2``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.3.1-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ r-swamp
    
    :depends bioconductor-impute: 
    :depends r-amap: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-gplots: 
    :depends r-mass: 
    :requirements:

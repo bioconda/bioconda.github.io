@@ -36,7 +36,8 @@ provean
    :depends blast: ``<=2.9``
    :depends cd-hit: ``4.8.*``
    :depends cd-hit: ``>=4.8.1,<5.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:

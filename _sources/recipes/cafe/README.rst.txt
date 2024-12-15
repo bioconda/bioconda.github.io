@@ -29,10 +29,10 @@ cafe
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.1.0-1</code>,  <code>5.1.0-0</code>,  <code>5.0.0-3</code>,  <code>5.0.0-2</code>,  <code>5.0.0-1</code>,  <code>5.0.0-0</code>,  <code>4.2.1-5</code>,  <code>4.2.1-4</code>,  <code>4.2.1-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.1.0-1</code>,  <code>5.1.0-0</code>,  <code>5.0.0-3</code>,  <code>5.0.0-2</code>,  <code>5.0.0-1</code>,  <code>5.0.0-0</code>,  <code>4.2.1-6</code>,  <code>4.2.1-5</code>,  <code>4.2.1-4</code>,  </span></summary>
       
 
-      ``5.1.0-1``,  ``5.1.0-0``,  ``5.0.0-3``,  ``5.0.0-2``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.1-5``,  ``4.2.1-4``,  ``4.2.1-3``,  ``4.2.1-2``,  ``4.2.1-1``,  ``4.2.1-0``
+      ``5.1.0-1``,  ``5.1.0-0``,  ``5.0.0-3``,  ``5.0.0-2``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.1-6``,  ``4.2.1-5``,  ``4.2.1-4``,  ``4.2.1-3``,  ``4.2.1-2``,  ``4.2.1-1``,  ``4.2.1-0``
 
       
       .. raw:: html

@@ -30,7 +30,7 @@ srax
       
       
 
-      ``1.5-2``,  ``1.5-1``,  ``1.5-0``,  ``1.4-0``
+      ``1.5-3``,  ``1.5-2``,  ``1.5-1``,  ``1.5-0``,  ``1.4-0``
 
       
 
@@ -56,7 +56,7 @@ srax
    :depends perl-parallel-forkmanager: 
    :depends perl-text-csv: 
    :depends unzip: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    :additional platforms:
@@ -107,7 +107,7 @@ srax
 
     <script>
         var package = "srax";
-        var versions = ["1.5","1.5","1.5","1.4"];
+        var versions = ["1.5","1.5","1.5","1.5","1.4"];
     </script>
 
 

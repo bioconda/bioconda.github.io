@@ -28,10 +28,10 @@ sibeliaz
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.5-3</code>,  <code>1.2.5-2</code>,  <code>1.2.5-1</code>,  <code>1.2.5-0</code>,  <code>1.2.4-2</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.5-4</code>,  <code>1.2.5-3</code>,  <code>1.2.5-2</code>,  <code>1.2.5-1</code>,  <code>1.2.5-0</code>,  <code>1.2.4-2</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  </span></summary>
       
 
-      ``1.2.5-3``,  ``1.2.5-2``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-1``,  ``1.2.2-0``
+      ``1.2.5-4``,  ``1.2.5-3``,  ``1.2.5-2``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-1``,  ``1.2.2-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ sibeliaz
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends maf2synteny: 
    :depends spoa: ``4.0.3-0.*``
-   :depends tbb: ``>=2021.9.0``
+   :depends tbb: ``>=2021.13.0``
    :depends twopaco: ``>0.9.2``
    :requirements:
 
@@ -97,7 +97,7 @@ sibeliaz
 
     <script>
         var package = "sibeliaz";
-        var versions = ["1.2.5","1.2.5","1.2.5","1.2.5","1.2.4"];
+        var versions = ["1.2.5","1.2.5","1.2.5","1.2.5","1.2.5"];
     </script>
 
 

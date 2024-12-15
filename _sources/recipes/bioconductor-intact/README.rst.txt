@@ -27,15 +27,17 @@ bioconductor-intact
       
       
 
-      ``1.2.0-0``,  ``1.0.1-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.1-0``
 
       
 
    
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-bdsmatrix: 
+   :depends r-ggplot2: 
    :depends r-numderiv: 
    :depends r-squarem: 
+   :depends r-tidyr: 
    :requirements:
 
    :additional platforms:
@@ -86,7 +88,7 @@ bioconductor-intact
 
     <script>
         var package = "bioconductor-intact";
-        var versions = ["1.2.0","1.0.1"];
+        var versions = ["1.6.0","1.2.0","1.0.1"];
     </script>
 
 

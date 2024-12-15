@@ -29,10 +29,10 @@ discosnp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.6.2-4</code>,  <code>2.6.2-3</code>,  <code>2.6.2-2</code>,  <code>2.6.2-1</code>,  <code>2.6.2-0</code>,  <code>2.6.1-0</code>,  <code>2.5.4-1</code>,  <code>2.5.4-0</code>,  <code>2.4.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.6.2-5</code>,  <code>2.6.2-4</code>,  <code>2.6.2-3</code>,  <code>2.6.2-2</code>,  <code>2.6.2-1</code>,  <code>2.6.2-0</code>,  <code>2.6.1-0</code>,  <code>2.5.4-1</code>,  <code>2.5.4-0</code>,  </span></summary>
       
 
-      ``2.6.2-4``,  ``2.6.2-3``,  ``2.6.2-2``,  ``2.6.2-1``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.5.4-1``,  ``2.5.4-0``,  ``2.4.4-0``,  ``2.4.3-2``,  ``2.4.3-1``,  ``2.4.3-0``,  ``2.3.0-7``,  ``2.3.0-6``,  ``2.3.0-5``,  ``2.3.0-4``,  ``2.3.0-3``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.10-1``,  ``2.2.10-0``
+      ``2.6.2-5``,  ``2.6.2-4``,  ``2.6.2-3``,  ``2.6.2-2``,  ``2.6.2-1``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.5.4-1``,  ``2.5.4-0``,  ``2.4.4-0``,  ``2.4.3-2``,  ``2.4.3-1``,  ``2.4.3-0``,  ``2.3.0-7``,  ``2.3.0-6``,  ``2.3.0-5``,  ``2.3.0-4``,  ``2.3.0-3``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.10-1``,  ``2.2.10-0``
 
       
       .. raw:: html
@@ -42,9 +42,9 @@ discosnp
 
    
    :depends bwa: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends python: ``>=3.0``
    :depends short-read-connector: 
    :depends zlib: 

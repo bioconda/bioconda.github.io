@@ -43,13 +43,15 @@ phyloacc
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends armadillo: ``>=14.2,<15.0a0``
    :depends biopython: ``>=1.79``
    :depends blis: 
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends llvm-openmp: ``>=18.1.8``
+   :depends libstdcxx: ``>=13``
    :depends matplotlib-base: ``>=3.5``
    :depends numpy: ``>=1.22``
    :depends python: ``>=3.11,<3.12.0a0``

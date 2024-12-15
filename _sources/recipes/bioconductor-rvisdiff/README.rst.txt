@@ -27,13 +27,13 @@ bioconductor-rvisdiff
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -84,7 +84,7 @@ bioconductor-rvisdiff
 
     <script>
         var package = "bioconductor-rvisdiff";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

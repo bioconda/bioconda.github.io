@@ -26,19 +26,27 @@ metabat2
    :versions:
       
       
+      .. raw:: html
 
-      ``2.17-0``,  ``2.15-2``,  ``2.15-1``,  ``2.15-0``,  ``2.14-0``,  ``2.13-1``,  ``2.13-0``,  ``2.12.1-1``,  ``2.12.1-0``
+         <details><summary><span class="truncated-version-list"><code>2.17-1</code>,  <code>2.17-0</code>,  <code>2.15-2</code>,  <code>2.15-1</code>,  <code>2.15-0</code>,  <code>2.14-0</code>,  <code>2.13-1</code>,  <code>2.13-0</code>,  <code>2.12.1-1</code>,  </span></summary>
+      
 
+      ``2.17-1``,  ``2.17-0``,  ``2.15-2``,  ``2.15-1``,  ``2.15-0``,  ``2.14-0``,  ``2.13-1``,  ``2.13-0``,  ``2.12.1-1``,  ``2.12.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends _openmp_mutex: ``>=4.5``
    :depends boost-cpp: 
-   :depends htslib: ``>=1.20,<1.22.0a0``
-   :depends libdeflate: ``>=1.20,<1.21.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends libdeflate: ``>=1.22,<1.23.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends perl: ``>=5``
    :requirements:
 
@@ -94,7 +102,7 @@ metabat2
 
     <script>
         var package = "metabat2";
-        var versions = ["2.17","2.15","2.15","2.15","2.14"];
+        var versions = ["2.17","2.17","2.15","2.15","2.15"];
     </script>
 
 

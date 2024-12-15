@@ -27,12 +27,12 @@ bioconductor-omixer
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.4-0``,  ``1.0.0-1``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.4-0``,  ``1.0.0-1``
 
       
 
    
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-forcats: 
    :depends r-ggplot2: 
@@ -92,7 +92,7 @@ bioconductor-omixer
 
     <script>
         var package = "bioconductor-omixer";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.1"];
+        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.4.0"];
     </script>
 
 

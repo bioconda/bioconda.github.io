@@ -28,16 +28,16 @@ palikiss
       
       
 
-      ``1.1.0-1``,  ``1.1.0-0``
+      ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
 
       
 
    
    :depends bellmans-gapc: ``>=2024.01.12``
    :depends bellmans-gapc: ``>=2024.1.12``
-   :depends libgcc-ng: ``>=12``
-   :depends libopenblas: ``>=0.3.27,<1.0a0``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libopenblas: ``>=0.3.28,<1.0a0``
+   :depends libstdcxx: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -89,7 +89,7 @@ palikiss
 
     <script>
         var package = "palikiss";
-        var versions = ["1.1.0","1.1.0"];
+        var versions = ["1.1.0","1.1.0","1.1.0"];
     </script>
 
 

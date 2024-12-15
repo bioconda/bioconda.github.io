@@ -33,8 +33,8 @@ genericrepeatfinder
 
    
    :depends cd-hit: 
-   :depends libcxx: ``>=18``
-   :depends llvm-openmp: ``>=18.1.8``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:

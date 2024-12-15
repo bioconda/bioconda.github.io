@@ -26,16 +26,24 @@ pfp
    :versions:
       
       
+      .. raw:: html
 
-      ``0.3.9-1``,  ``0.3.9-0``,  ``0.3.8-2``,  ``0.3.8-1``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-1``,  ``0.3.5-0``
+         <details><summary><span class="truncated-version-list"><code>0.3.9-2</code>,  <code>0.3.9-1</code>,  <code>0.3.9-0</code>,  <code>0.3.8-2</code>,  <code>0.3.8-1</code>,  <code>0.3.8-0</code>,  <code>0.3.7-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-1</code>,  </span></summary>
+      
 
+      ``0.3.9-2``,  ``0.3.9-1``,  ``0.3.9-0``,  ``0.3.8-2``,  ``0.3.8-1``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-1``,  ``0.3.5-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends htslib: ``>=1.20,<1.22.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends libcxx: ``>=18``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends llvm-openmp: ``>=18.1.8``
    :depends zlib: 
    :requirements:
 
@@ -87,7 +95,7 @@ pfp
 
     <script>
         var package = "pfp";
-        var versions = ["0.3.9","0.3.9","0.3.8","0.3.8","0.3.8"];
+        var versions = ["0.3.9","0.3.9","0.3.9","0.3.8","0.3.8"];
     </script>
 
 

@@ -27,7 +27,7 @@ cycle_finder
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -38,8 +38,8 @@ cycle_finder
    :depends cd-hit: 
    :depends gzip: 
    :depends jellyfish: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends openmp: 
    :depends trf: 
    :depends zlib: 
@@ -93,7 +93,7 @@ cycle_finder
 
     <script>
         var package = "cycle_finder";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

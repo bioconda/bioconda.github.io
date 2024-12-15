@@ -28,10 +28,10 @@ perl-html-parser
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.81-1</code>,  <code>3.81-0</code>,  <code>3.80-0</code>,  <code>3.79-0</code>,  <code>3.78-0</code>,  <code>3.72-8</code>,  <code>3.72-7</code>,  <code>3.72-5</code>,  <code>3.72-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.81-2</code>,  <code>3.81-1</code>,  <code>3.81-0</code>,  <code>3.80-0</code>,  <code>3.79-0</code>,  <code>3.78-0</code>,  <code>3.72-8</code>,  <code>3.72-7</code>,  <code>3.72-5</code>,  </span></summary>
       
 
-      ``3.81-1``,  ``3.81-0``,  ``3.80-0``,  ``3.79-0``,  ``3.78-0``,  ``3.72-8``,  ``3.72-7``,  ``3.72-5``,  ``3.72-4``,  ``3.72-3``,  ``3.72-2``,  ``3.72-1``,  ``3.72-0``
+      ``3.81-2``,  ``3.81-1``,  ``3.81-0``,  ``3.80-0``,  ``3.79-0``,  ``3.78-0``,  ``3.72-8``,  ``3.72-7``,  ``3.72-5``,  ``3.72-4``,  ``3.72-3``,  ``3.72-2``,  ``3.72-1``,  ``3.72-0``
 
       
       .. raw:: html
@@ -40,12 +40,11 @@ perl-html-parser
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-html-tagset: 
    :depends perl-http-message: 
-   :depends perl-uri: 
+   :depends perl-uri: ``5.17.*``
    :requirements:
 
    :additional platforms:
@@ -96,7 +95,7 @@ perl-html-parser
 
     <script>
         var package = "perl-html-parser";
-        var versions = ["3.81","3.81","3.80","3.79","3.78"];
+        var versions = ["3.81","3.81","3.81","3.80","3.79"];
     </script>
 
 

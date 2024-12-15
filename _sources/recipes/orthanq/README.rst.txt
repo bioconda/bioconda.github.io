@@ -28,10 +28,10 @@ orthanq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.9-0</code>,  <code>1.7.8-0</code>,  <code>1.7.7-0</code>,  <code>1.7.6-0</code>,  <code>1.7.5-0</code>,  <code>1.7.4-0</code>,  <code>1.7.2-0</code>,  <code>1.7.1-0</code>,  <code>1.7.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7.9-1</code>,  <code>1.7.9-0</code>,  <code>1.7.8-0</code>,  <code>1.7.7-0</code>,  <code>1.7.6-0</code>,  <code>1.7.5-0</code>,  <code>1.7.4-0</code>,  <code>1.7.2-0</code>,  <code>1.7.1-0</code>,  </span></summary>
       
 
-      ``1.7.9-0``,  ``1.7.8-0``,  ``1.7.7-0``,  ``1.7.6-0``,  ``1.7.5-0``,  ``1.7.4-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.7.0-2``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``
+      ``1.7.9-1``,  ``1.7.9-0``,  ``1.7.8-0``,  ``1.7.7-0``,  ``1.7.6-0``,  ``1.7.5-0``,  ``1.7.4-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.7.0-2``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -52,15 +52,16 @@ orthanq
    :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
    :depends htslib: ``>=1.21,<1.22.0a0``
    :depends libcblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends liblzma: ``>=5.6.3,<6.0a0``
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends minimap2: ``>=2.28,<3.0a0``
-   :depends openssl: ``>=3.3.2,<4.0a0``
+   :depends openssl: ``>=3.4.0,<4.0a0``
    :depends samtools: ``>=1.19.2,<2.0a0``
    :depends varlociraptor: ``>=8.4.7,<9.0a0``
    :depends vg: ``>=1.56.0,<2.0a0``
-   :depends xz: ``>=5.2.6,<6.0a0``
+   :depends xz: 
    :depends zlib: 
    :requirements:
 
@@ -116,7 +117,7 @@ orthanq
 
     <script>
         var package = "orthanq";
-        var versions = ["1.7.9","1.7.8","1.7.7","1.7.6","1.7.5"];
+        var versions = ["1.7.9","1.7.9","1.7.8","1.7.7","1.7.6"];
     </script>
 
 

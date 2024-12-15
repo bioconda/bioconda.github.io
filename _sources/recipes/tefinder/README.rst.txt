@@ -27,15 +27,15 @@ tefinder
       
       
 
-      ``2.32-0``
+      ``2.32-1``,  ``2.32-0``
 
       
 
    
    :depends blast: 
    :depends blast-legacy: 
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -86,7 +86,7 @@ tefinder
 
     <script>
         var package = "tefinder";
-        var versions = ["2.32"];
+        var versions = ["2.32","2.32"];
     </script>
 
 

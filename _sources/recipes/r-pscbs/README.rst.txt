@@ -28,10 +28,10 @@ r-pscbs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.67.0-0</code>,  <code>0.66.0-2</code>,  <code>0.66.0-1</code>,  <code>0.66.0-0</code>,  <code>0.65.0-5</code>,  <code>0.65.0-4</code>,  <code>0.65.0-3</code>,  <code>0.65.0-2</code>,  <code>0.65.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.67.0-1</code>,  <code>0.67.0-0</code>,  <code>0.66.0-2</code>,  <code>0.66.0-1</code>,  <code>0.66.0-0</code>,  <code>0.65.0-5</code>,  <code>0.65.0-4</code>,  <code>0.65.0-3</code>,  <code>0.65.0-2</code>,  </span></summary>
       
 
-      ``0.67.0-0``,  ``0.66.0-2``,  ``0.66.0-1``,  ``0.66.0-0``,  ``0.65.0-5``,  ``0.65.0-4``,  ``0.65.0-3``,  ``0.65.0-2``,  ``0.65.0-1``,  ``0.65.0-0``,  ``0.64.0-2``,  ``0.64.0-1``,  ``0.64.0-0``,  ``0.63.0-0``,  ``0.61.0-0``,  ``0.60.3-0``,  ``0.60.0-2``,  ``0.60.0-0``
+      ``0.67.0-1``,  ``0.67.0-0``,  ``0.66.0-2``,  ``0.66.0-1``,  ``0.66.0-0``,  ``0.65.0-5``,  ``0.65.0-4``,  ``0.65.0-3``,  ``0.65.0-2``,  ``0.65.0-1``,  ``0.65.0-0``,  ``0.64.0-2``,  ``0.64.0-1``,  ``0.64.0-0``,  ``0.63.0-0``,  ``0.61.0-0``,  ``0.60.3-0``,  ``0.60.0-2``,  ``0.60.0-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ r-pscbs
    
    :depends bioconductor-aroma.light: ``>=2.4.0``
    :depends bioconductor-dnacopy: ``>=1.42.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-future: ``>=1.28.0``
    :depends r-listenv: ``>=0.8.0``
    :depends r-matrixstats: ``>=0.62.0``
@@ -100,7 +100,7 @@ r-pscbs
 
     <script>
         var package = "r-pscbs";
-        var versions = ["0.67.0","0.66.0","0.66.0","0.66.0","0.65.0"];
+        var versions = ["0.67.0","0.67.0","0.66.0","0.66.0","0.66.0"];
     </script>
 
 

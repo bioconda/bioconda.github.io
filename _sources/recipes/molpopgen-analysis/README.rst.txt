@@ -28,10 +28,10 @@ molpopgen-analysis
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.8-9</code>,  <code>0.8.8-8</code>,  <code>0.8.8-7</code>,  <code>0.8.8-6</code>,  <code>0.8.8-5</code>,  <code>0.8.8-4</code>,  <code>0.8.8-3</code>,  <code>0.8.8-2</code>,  <code>0.8.8-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.8-10</code>,  <code>0.8.8-9</code>,  <code>0.8.8-8</code>,  <code>0.8.8-7</code>,  <code>0.8.8-6</code>,  <code>0.8.8-5</code>,  <code>0.8.8-4</code>,  <code>0.8.8-3</code>,  <code>0.8.8-2</code>,  </span></summary>
       
 
-      ``0.8.8-9``,  ``0.8.8-8``,  ``0.8.8-7``,  ``0.8.8-6``,  ``0.8.8-5``,  ``0.8.8-4``,  ``0.8.8-3``,  ``0.8.8-2``,  ``0.8.8-1``,  ``0.8.8-0``
+      ``0.8.8-10``,  ``0.8.8-9``,  ``0.8.8-8``,  ``0.8.8-7``,  ``0.8.8-6``,  ``0.8.8-5``,  ``0.8.8-4``,  ``0.8.8-3``,  ``0.8.8-2``,  ``0.8.8-1``,  ``0.8.8-0``
 
       
       .. raw:: html
@@ -41,9 +41,9 @@ molpopgen-analysis
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends libsequence: ``1.8.4.*``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libstdcxx: ``>=13``
    :depends openblas: 
    :requirements:
 

@@ -26,9 +26,17 @@ isescan
    :versions:
       
       
+      .. raw:: html
 
-      ``1.7.2.3-2``,  ``1.7.2.3-1``,  ``1.7.2.3-0``,  ``1.7.2.2.2-0``,  ``1.7.2.2.1-0``,  ``1.7.2.1-0``,  ``1.7.2-0``,  ``1.7.1-1``,  ``1.7.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.7.2.3-3</code>,  <code>1.7.2.3-2</code>,  <code>1.7.2.3-1</code>,  <code>1.7.2.3-0</code>,  <code>1.7.2.2.2-0</code>,  <code>1.7.2.2.1-0</code>,  <code>1.7.2.1-0</code>,  <code>1.7.2-0</code>,  <code>1.7.1-1</code>,  </span></summary>
+      
 
+      ``1.7.2.3-3``,  ``1.7.2.3-2``,  ``1.7.2.3-1``,  ``1.7.2.3-0``,  ``1.7.2.2.2-0``,  ``1.7.2.2.1-0``,  ``1.7.2.1-0``,  ``1.7.2-0``,  ``1.7.1-1``,  ``1.7.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -37,7 +45,7 @@ isescan
    :depends fastcluster: 
    :depends fraggenescan: ``<=1.30``
    :depends hmmer: ``>=3.1b2``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends numpy: ``>=1.8``
    :depends python: ``>=3``
    :depends scipy: ``>=0.13.1``
@@ -91,7 +99,7 @@ isescan
 
     <script>
         var package = "isescan";
-        var versions = ["1.7.2.3","1.7.2.3","1.7.2.3","1.7.2.2.2","1.7.2.2.1"];
+        var versions = ["1.7.2.3","1.7.2.3","1.7.2.3","1.7.2.3","1.7.2.2.2"];
     </script>
 
 

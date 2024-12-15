@@ -45,10 +45,10 @@ fastx_toolkit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.14-11</code>,  <code>0.0.14-10</code>,  <code>0.0.14-9</code>,  <code>0.0.14-8</code>,  <code>0.0.14-7</code>,  <code>0.0.14-6</code>,  <code>0.0.14-5</code>,  <code>0.0.14-4</code>,  <code>0.0.14-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.14-12</code>,  <code>0.0.14-11</code>,  <code>0.0.14-10</code>,  <code>0.0.14-9</code>,  <code>0.0.14-8</code>,  <code>0.0.14-7</code>,  <code>0.0.14-6</code>,  <code>0.0.14-5</code>,  <code>0.0.14-4</code>,  </span></summary>
       
 
-      ``0.0.14-11``,  ``0.0.14-10``,  ``0.0.14-9``,  ``0.0.14-8``,  ``0.0.14-7``,  ``0.0.14-6``,  ``0.0.14-5``,  ``0.0.14-4``,  ``0.0.14-3``,  ``0.0.14-2``,  ``0.0.14-1``,  ``0.0.14-0``
+      ``0.0.14-12``,  ``0.0.14-11``,  ``0.0.14-10``,  ``0.0.14-9``,  ``0.0.14-8``,  ``0.0.14-7``,  ``0.0.14-6``,  ``0.0.14-5``,  ``0.0.14-4``,  ``0.0.14-3``,  ``0.0.14-2``,  ``0.0.14-1``,  ``0.0.14-0``
 
       
       .. raw:: html
@@ -58,9 +58,9 @@ fastx_toolkit
 
    
    :depends gnuplot: ``>=5.0.5``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends libgtextutils: ``>=0.7,<0.8.0a0``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libstdcxx: ``>=13``
    :depends perl: 
    :depends perl-gd: 
    :depends perl-gdgraph-histogram: 

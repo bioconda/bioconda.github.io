@@ -27,12 +27,12 @@ bioconductor-plasmut
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-tibble: 
    :requirements:
@@ -85,7 +85,7 @@ bioconductor-plasmut
 
     <script>
         var package = "bioconductor-plasmut";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

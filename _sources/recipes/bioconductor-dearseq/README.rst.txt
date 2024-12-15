@@ -27,12 +27,12 @@ bioconductor-dearseq
       
       
 
-      ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-compquadform: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
@@ -98,7 +98,7 @@ bioconductor-dearseq
 
     <script>
         var package = "bioconductor-dearseq";
-        var versions = ["1.14.0","1.12.1","1.10.0","1.6.0","1.4.0"];
+        var versions = ["1.18.0","1.14.0","1.12.1","1.10.0","1.6.0"];
     </script>
 
 

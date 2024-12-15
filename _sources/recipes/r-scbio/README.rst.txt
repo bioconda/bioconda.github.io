@@ -28,13 +28,13 @@ r-scbio
       
       
 
-      ``0.1.4-2``,  ``0.1.4-1``,  ``0.1.4-0``
+      ``0.1.4-3``,  ``0.1.4-2``,  ``0.1.4-1``,  ``0.1.4-0``
 
       
 
    
    :depends bioconductor-limma: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dosnow: 
    :depends r-fields: 
    :depends r-foreach: 
@@ -91,7 +91,7 @@ r-scbio
 
     <script>
         var package = "r-scbio";
-        var versions = ["0.1.4","0.1.4","0.1.4"];
+        var versions = ["0.1.4","0.1.4","0.1.4","0.1.4"];
     </script>
 
 

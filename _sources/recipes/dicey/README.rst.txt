@@ -29,10 +29,10 @@ dicey
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.3-0</code>,  <code>0.3.1-0</code>,  <code>0.2.8-0</code>,  <code>0.2.6-0</code>,  <code>0.2.3-2</code>,  <code>0.2.3-1</code>,  <code>0.2.3-0</code>,  <code>0.2.1-0</code>,  <code>0.1.8-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.3-1</code>,  <code>0.3.3-0</code>,  <code>0.3.1-0</code>,  <code>0.2.8-0</code>,  <code>0.2.6-0</code>,  <code>0.2.3-2</code>,  <code>0.2.3-1</code>,  <code>0.2.3-0</code>,  <code>0.2.1-0</code>,  </span></summary>
       
 
-      ``0.3.3-0``,  ``0.3.1-0``,  ``0.2.8-0``,  ``0.2.6-0``,  ``0.2.3-2``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.1-0``,  ``0.1.8-3``,  ``0.1.8-2``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``
+      ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.1-0``,  ``0.2.8-0``,  ``0.2.6-0``,  ``0.2.3-2``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.1-0``,  ``0.1.8-3``,  ``0.1.8-2``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``
 
       
       .. raw:: html
@@ -44,10 +44,10 @@ dicey
    :depends boost-cpp: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends htslib: ``>=1.21,<1.22.0a0``
-   :depends libdeflate: ``>=1.20,<1.21.0a0``
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libdeflate: ``>=1.22,<1.23.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 
@@ -103,7 +103,7 @@ dicey
 
     <script>
         var package = "dicey";
-        var versions = ["0.3.3","0.3.1","0.2.8","0.2.6","0.2.3"];
+        var versions = ["0.3.3","0.3.3","0.3.1","0.2.8","0.2.6"];
     </script>
 
 

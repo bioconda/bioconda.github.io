@@ -29,10 +29,10 @@ bioconductor-s4vectors
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.40.2-2</code>,  <code>0.40.2-1</code>,  <code>0.40.2-0</code>,  <code>0.38.1-0</code>,  <code>0.36.0-1</code>,  <code>0.36.0-0</code>,  <code>0.32.4-0</code>,  <code>0.32.3-0</code>,  <code>0.32.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.44.0-0</code>,  <code>0.40.2-2</code>,  <code>0.40.2-1</code>,  <code>0.40.2-0</code>,  <code>0.38.1-0</code>,  <code>0.36.0-1</code>,  <code>0.36.0-0</code>,  <code>0.32.4-0</code>,  <code>0.32.3-0</code>,  </span></summary>
       
 
-      ``0.40.2-2``,  ``0.40.2-1``,  ``0.40.2-0``,  ``0.38.1-0``,  ``0.36.0-1``,  ``0.36.0-0``,  ``0.32.4-0``,  ``0.32.3-0``,  ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.1-0``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.1-0``,  ``0.18.3-0``,  ``0.16.0-0``,  ``0.14.7-0``,  ``0.12.2-0``,  ``0.12.0-0``,  ``0.10.3-0``,  ``0.9.0-0``,  ``0.8.11-1``,  ``0.8.11-0``,  ``0.8.7-0``,  ``0.8.5-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.6.6-0``
+      ``0.44.0-0``,  ``0.40.2-2``,  ``0.40.2-1``,  ``0.40.2-0``,  ``0.38.1-0``,  ``0.36.0-1``,  ``0.36.0-0``,  ``0.32.4-0``,  ``0.32.3-0``,  ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.1-0``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.1-0``,  ``0.18.3-0``,  ``0.16.0-0``,  ``0.14.7-0``,  ``0.12.2-0``,  ``0.12.0-0``,  ``0.10.3-0``,  ``0.9.0-0``,  ``0.8.11-1``,  ``0.8.11-0``,  ``0.8.7-0``,  ``0.8.5-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.6.6-0``
 
       
       .. raw:: html
@@ -41,12 +41,12 @@ bioconductor-s4vectors
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.1,<0.49.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -101,7 +101,7 @@ bioconductor-s4vectors
 
     <script>
         var package = "bioconductor-s4vectors";
-        var versions = ["0.40.2","0.40.2","0.40.2","0.38.1","0.36.0"];
+        var versions = ["0.44.0","0.40.2","0.40.2","0.40.2","0.38.1"];
     </script>
 
 

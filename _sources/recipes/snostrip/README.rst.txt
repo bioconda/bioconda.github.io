@@ -27,18 +27,18 @@ snostrip
       
       
 
-      ``2.0.2-5``,  ``2.0.2-4``,  ``2.0.2-3``,  ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``
+      ``2.0.2-6``,  ``2.0.2-5``,  ``2.0.2-4``,  ``2.0.2-3``,  ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``
 
       
 
    
-   :depends blast-legacy: 
-   :depends infernal: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends muscle: 
+   :depends blast-legacy: ``>=2.2.26,<3.0a0``
+   :depends infernal: ``>=1.1.5,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends muscle: ``>=5.3,<5.4.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends viennarna: ``>=2.5.1,<2.6.0a0``
+   :depends viennarna: ``>=2.7.0,<2.8.0a0``
    :requirements:
 
    :additional platforms:

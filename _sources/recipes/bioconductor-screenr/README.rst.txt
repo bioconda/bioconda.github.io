@@ -27,14 +27,14 @@ bioconductor-screenr
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: ``>=1.0``
    :depends r-ggplot2: ``>=3.3``
    :depends r-ggvenn: ``>=0.1.9``
@@ -97,7 +97,7 @@ bioconductor-screenr
 
     <script>
         var package = "bioconductor-screenr";
-        var versions = ["1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

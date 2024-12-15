@@ -27,14 +27,13 @@ bamcmp
       
       
 
-      ``2.2-5``,  ``2.2-4``,  ``2.2-3``,  ``2.2-2``,  ``2.2-1``,  ``2.2-0``
+      ``2.2-6``,  ``2.2-5``,  ``2.2-4``,  ``2.2-3``,  ``2.2-2``,  ``2.2-1``,  ``2.2-0``
 
       
 
    
-   :depends htslib: ``>=1.19.1,<1.22.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:

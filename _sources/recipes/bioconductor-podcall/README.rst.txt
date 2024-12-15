@@ -27,12 +27,12 @@ bioconductor-podcall
       
       
 
-      ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-diptest: 
    :depends r-dt: 
    :depends r-ggplot2: 
@@ -94,7 +94,7 @@ bioconductor-podcall
 
     <script>
         var package = "bioconductor-podcall";
-        var versions = ["1.10.0","1.10.0","1.8.0","1.6.0","1.2.0"];
+        var versions = ["1.14.0","1.10.0","1.10.0","1.8.0","1.6.0"];
     </script>
 
 

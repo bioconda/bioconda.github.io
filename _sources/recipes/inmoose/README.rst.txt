@@ -35,7 +35,8 @@ inmoose
    :depends anndata: 
    :depends click: 
    :depends fastcluster: 
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends matplotlib-base: 
    :depends mpmath: ``>=1.1.0``
    :depends numpy: ``>=1.21,<3``

@@ -27,14 +27,14 @@ bioconductor-biocbook
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
    :depends r-available: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cli: 
    :depends r-dplyr: 
    :depends r-gert: 
@@ -101,7 +101,7 @@ bioconductor-biocbook
 
     <script>
         var package = "bioconductor-biocbook";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

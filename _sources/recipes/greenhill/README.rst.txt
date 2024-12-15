@@ -27,7 +27,7 @@ greenhill
       
       
 
-      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -35,9 +35,11 @@ greenhill
    :depends _openmp_mutex: ``>=4.5``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gzip: 
+   :depends libgcc: 
    :depends libgcc-ng: ``>=12``
+   :depends libstdcxx: 
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends minimap2: 
    :depends zlib: 
    :requirements:
@@ -90,7 +92,7 @@ greenhill
 
     <script>
         var package = "greenhill";
-        var versions = ["1.1.0","1.1.0","1.0.0"];
+        var versions = ["1.1.0","1.1.0","1.1.0","1.0.0"];
     </script>
 
 

@@ -27,15 +27,17 @@ tgsgapcloser
       
       
 
-      ``1.2.1-1``,  ``1.2.1-0``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
+      ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
 
       
 
    
+   :depends libgcc: 
    :depends libgcc-ng: ``>=12``
+   :depends libstdcxx: 
    :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends minimap2: 
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends minimap2: ``>=2.28,<3.0a0``
    :depends zlib: 
    :requirements:
 
@@ -87,7 +89,7 @@ tgsgapcloser
 
     <script>
         var package = "tgsgapcloser";
-        var versions = ["1.2.1","1.2.1","1.0.3","1.0.3","1.0.3"];
+        var versions = ["1.2.1","1.2.1","1.2.1","1.0.3","1.0.3"];
     </script>
 
 

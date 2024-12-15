@@ -29,10 +29,10 @@ bioconductor-aroma.light
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.32.0-0</code>,  <code>3.30.0-0</code>,  <code>3.28.0-0</code>,  <code>3.24.0-0</code>,  <code>3.22.0-0</code>,  <code>3.20.0-1</code>,  <code>3.20.0-0</code>,  <code>3.18.0-0</code>,  <code>3.16.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.36.0-0</code>,  <code>3.32.0-0</code>,  <code>3.30.0-0</code>,  <code>3.28.0-0</code>,  <code>3.24.0-0</code>,  <code>3.22.0-0</code>,  <code>3.20.0-1</code>,  <code>3.20.0-0</code>,  <code>3.18.0-0</code>,  </span></summary>
       
 
-      ``3.32.0-0``,  ``3.30.0-0``,  ``3.28.0-0``,  ``3.24.0-0``,  ``3.22.0-0``,  ``3.20.0-1``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-0``,  ``3.14.0-1``,  ``3.14.0-0``,  ``3.12.0-1``,  ``3.12.0-0``,  ``3.10.0-0``,  ``3.8.0-0``,  ``3.6.0-0``,  ``3.4.0-0``
+      ``3.36.0-0``,  ``3.32.0-0``,  ``3.30.0-0``,  ``3.28.0-0``,  ``3.24.0-0``,  ``3.22.0-0``,  ``3.20.0-1``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-0``,  ``3.14.0-1``,  ``3.14.0-0``,  ``3.12.0-1``,  ``3.12.0-0``,  ``3.10.0-0``,  ``3.8.0-0``,  ``3.6.0-0``,  ``3.4.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ bioconductor-aroma.light
       
 
    
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-matrixstats: ``>=0.55.0``
    :depends r-r.methodss3: ``>=1.7.1``
    :depends r-r.oo: ``>=1.23.0``
@@ -96,7 +96,7 @@ bioconductor-aroma.light
 
     <script>
         var package = "bioconductor-aroma.light";
-        var versions = ["3.32.0","3.30.0","3.28.0","3.24.0","3.22.0"];
+        var versions = ["3.36.0","3.32.0","3.30.0","3.28.0","3.24.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ r-nbpseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.1-3</code>,  <code>0.3.1-2</code>,  <code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.3.0-6</code>,  <code>0.3.0-5</code>,  <code>0.3.0-4</code>,  <code>0.3.0-3</code>,  <code>0.3.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.1-4</code>,  <code>0.3.1-3</code>,  <code>0.3.1-2</code>,  <code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.3.0-6</code>,  <code>0.3.0-5</code>,  <code>0.3.0-4</code>,  <code>0.3.0-3</code>,  </span></summary>
       
 
-      ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-6``,  ``0.3.0-5``,  ``0.3.0-4``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``
+      ``0.3.1-4``,  ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-6``,  ``0.3.0-5``,  ``0.3.0-4``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ r-nbpseq
       
 
    
-   :depends bioconductor-qvalue: 
-   :depends libgcc-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-qvalue: ``>=2.38.0,<2.39.0a0``
+   :depends libgcc: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -93,7 +93,7 @@ r-nbpseq
 
     <script>
         var package = "r-nbpseq";
-        var versions = ["0.3.1","0.3.1","0.3.1","0.3.1","0.3.0"];
+        var versions = ["0.3.1","0.3.1","0.3.1","0.3.1","0.3.1"];
     </script>
 
 

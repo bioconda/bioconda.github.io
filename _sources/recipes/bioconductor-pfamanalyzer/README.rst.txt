@@ -27,12 +27,12 @@ bioconductor-pfamanalyzer
       
       
 
-      ``1.2.0-0``,  ``1.0.1-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.1-0``
 
       
 
    
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-magrittr: 
    :depends r-readr: 
@@ -88,7 +88,7 @@ bioconductor-pfamanalyzer
 
     <script>
         var package = "bioconductor-pfamanalyzer";
-        var versions = ["1.2.0","1.0.1"];
+        var versions = ["1.6.0","1.2.0","1.0.1"];
     </script>
 
 

@@ -27,15 +27,15 @@ perl-par-packer
       
       
 
-      ``1.036-5``,  ``1.036-4``,  ``1.036-3``,  ``1.036-2``,  ``1.036-1``,  ``1.036-0``
+      ``1.036-6``,  ``1.036-5``,  ``1.036-4``,  ``1.036-3``,  ``1.036-2``,  ``1.036-1``,  ``1.036-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-getopt-argvfile: 
-   :depends perl-getopt-long: 
+   :depends perl-getopt-long: ``>=2.58,<3.0a0``
    :depends perl-module-build: ``0.4234.*``
    :depends perl-module-scandeps: 
    :depends perl-par: 

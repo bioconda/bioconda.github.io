@@ -27,14 +27,14 @@ r-eztune
       
       
 
-      ``3.1.1-0``
+      ``3.1.1-1``,  ``3.1.1-0``
 
       
 
    
    :depends bioconductor-biocstyle: 
    :depends r-ada: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-e1071: 
    :depends r-ga: 
    :depends r-gbm: 
@@ -92,7 +92,7 @@ r-eztune
 
     <script>
         var package = "r-eztune";
-        var versions = ["3.1.1"];
+        var versions = ["3.1.1","3.1.1"];
     </script>
 
 

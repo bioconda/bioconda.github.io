@@ -28,7 +28,7 @@ acms
       
       
 
-      ``1.3.0-1``,  ``1.3.0-0``
+      ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``
 
       
 
@@ -36,8 +36,8 @@ acms
    :depends bellmans-gapc: ``>=2024.01.12``
    :depends bellmans-gapc: ``>=2024.1.12``
    :depends ghc: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -93,7 +93,7 @@ acms
 
     <script>
         var package = "acms";
-        var versions = ["1.3.0","1.3.0"];
+        var versions = ["1.3.0","1.3.0","1.3.0"];
     </script>
 
 

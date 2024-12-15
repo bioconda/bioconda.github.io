@@ -27,24 +27,25 @@ bioconductor-beachmat.hdf5
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-beachmat: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-beachmat: ``>=2.18.0,<2.19.0a0``
-   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0a0``
-   :depends bioconductor-hdf5array: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-hdf5array: ``>=1.30.0,<1.31.0a0``
-   :depends bioconductor-rhdf5lib: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-rhdf5lib: ``>=1.24.0,<1.25.0a0``
+   :depends bioconductor-assorthead: ``>=1.0.0,<1.1.0``
+   :depends bioconductor-assorthead: ``>=1.0.0,<1.1.0a0``
+   :depends bioconductor-beachmat: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-beachmat: ``>=2.22.0,<2.23.0a0``
+   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0a0``
+   :depends bioconductor-hdf5array: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-hdf5array: ``>=1.34.0,<1.35.0a0``
+   :depends bioconductor-rhdf5lib: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-rhdf5lib: ``>=1.28.0,<1.29.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-rcpp: 
    :requirements:
 
@@ -96,7 +97,7 @@ bioconductor-beachmat.hdf5
 
     <script>
         var package = "bioconductor-beachmat.hdf5";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

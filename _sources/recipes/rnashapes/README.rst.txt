@@ -29,10 +29,10 @@ rnashapes
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.3.2-3</code>,  <code>3.3.2-2</code>,  <code>3.3.2-1</code>,  <code>3.3.2-0</code>,  <code>3.3.0-7</code>,  <code>3.3.0-6</code>,  <code>3.3.0-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.0-2</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.3.2-3</code>,  <code>3.3.2-2</code>,  <code>3.3.2-1</code>,  <code>3.3.2-0</code>,  <code>3.3.0-7</code>,  <code>3.3.0-6</code>,  </span></summary>
       
 
-      ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.2-3``,  ``3.3.2-2``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.3.0-7``,  ``3.3.0-6``,  ``3.3.0-5``,  ``3.3.0-4``,  ``3.3.0-3``,  ``3.3.0-0``,  ``2.1.6-4``,  ``2.1.6-3``,  ``2.1.6-2``,  ``2.1.6-1``,  ``2.1.6-0``
+      ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.2-3``,  ``3.3.2-2``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.3.0-7``,  ``3.3.0-6``,  ``3.3.0-5``,  ``3.3.0-4``,  ``3.3.0-3``,  ``3.3.0-0``,  ``2.1.6-4``,  ``2.1.6-3``,  ``2.1.6-2``,  ``2.1.6-1``,  ``2.1.6-0``
 
       
       .. raw:: html
@@ -43,9 +43,9 @@ rnashapes
    
    :depends bellmans-gapc: ``>=2024.01.12``
    :depends bellmans-gapc: ``>=2024.1.12``
-   :depends libgcc-ng: ``>=12``
-   :depends libopenblas: ``>=0.3.27,<1.0a0``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libopenblas: ``>=0.3.28,<1.0a0``
+   :depends libstdcxx: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -101,7 +101,7 @@ rnashapes
 
     <script>
         var package = "rnashapes";
-        var versions = ["3.4.0","3.4.0","3.3.2","3.3.2","3.3.2"];
+        var versions = ["3.4.0","3.4.0","3.4.0","3.3.2","3.3.2"];
     </script>
 
 

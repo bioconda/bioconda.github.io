@@ -27,13 +27,13 @@ bioconductor-redisparam
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-futile.logger: 
    :depends r-redux: 
    :depends r-withr: 
@@ -87,7 +87,7 @@ bioconductor-redisparam
 
     <script>
         var package = "bioconductor-redisparam";
-        var versions = ["1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-tkwidgets
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.80.0-0</code>,  <code>1.78.0-0</code>,  <code>1.76.0-0</code>,  <code>1.72.0-0</code>,  <code>1.70.0-0</code>,  <code>1.68.0-1</code>,  <code>1.68.0-0</code>,  <code>1.66.0-0</code>,  <code>1.64.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.84.0-0</code>,  <code>1.80.0-0</code>,  <code>1.78.0-0</code>,  <code>1.76.0-0</code>,  <code>1.72.0-0</code>,  <code>1.70.0-0</code>,  <code>1.68.0-1</code>,  <code>1.68.0-0</code>,  <code>1.66.0-0</code>,  </span></summary>
       
 
-      ``1.80.0-0``,  ``1.78.0-0``,  ``1.76.0-0``,  ``1.72.0-0``,  ``1.70.0-0``,  ``1.68.0-1``,  ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``
+      ``1.84.0-0``,  ``1.80.0-0``,  ``1.78.0-0``,  ``1.76.0-0``,  ``1.72.0-0``,  ``1.70.0-0``,  ``1.68.0-1``,  ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-tkwidgets
       
 
    
-   :depends bioconductor-dyndoc: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-widgettools: ``>=1.80.0,<1.81.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-dyndoc: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-widgettools: ``>=1.84.0,<1.85.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -93,7 +93,7 @@ bioconductor-tkwidgets
 
     <script>
         var package = "bioconductor-tkwidgets";
-        var versions = ["1.80.0","1.78.0","1.76.0","1.72.0","1.70.0"];
+        var versions = ["1.84.0","1.80.0","1.78.0","1.76.0","1.72.0"];
     </script>
 
 

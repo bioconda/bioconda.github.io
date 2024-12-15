@@ -40,7 +40,8 @@ perl-set-intervaltree
       
 
    
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-extutils-cppguess: ``>=0.26,<0.27.0a0``
    :requirements:

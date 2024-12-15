@@ -28,10 +28,10 @@ nim-falcon
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.2-1</code>,  <code>3.0.2-0</code>,  <code>3.0.1-0</code>,  <code>2.3.0-0</code>,  <code>1.10.1-0</code>,  <code>1.8.0-0</code>,  <code>1.7.0-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.2-2</code>,  <code>3.0.2-1</code>,  <code>3.0.2-0</code>,  <code>3.0.1-0</code>,  <code>2.3.0-0</code>,  <code>1.10.1-0</code>,  <code>1.8.0-0</code>,  <code>1.7.0-0</code>,  <code>1.5.1-0</code>,  </span></summary>
       
 
-      ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.3.0-0``,  ``1.10.1-0``,  ``1.8.0-0``,  ``1.7.0-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.0.1-1``,  ``0.0.1-0``,  ``0.0.0-0``
+      ``3.0.2-2``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.3.0-0``,  ``1.10.1-0``,  ``1.8.0-0``,  ``1.7.0-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.0.1-1``,  ``0.0.1-0``,  ``0.0.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ nim-falcon
       
 
    
-   :depends htslib: ``>=1.10.2,<1.22.0a0``
-   :depends pcre: ``>=8.44,<9.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends pcre: ``>=8.45,<9.0a0``
    :requirements:
 
    :additional platforms:
@@ -93,7 +93,7 @@ nim-falcon
 
     <script>
         var package = "nim-falcon";
-        var versions = ["3.0.2","3.0.2","3.0.1","2.3.0","1.10.1"];
+        var versions = ["3.0.2","3.0.2","3.0.2","3.0.1","2.3.0"];
     </script>
 
 

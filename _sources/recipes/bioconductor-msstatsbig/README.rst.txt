@@ -27,15 +27,15 @@ bioconductor-msstatsbig
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-msstats: ``>=4.10.0,<4.11.0``
-   :depends bioconductor-msstatsconvert: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-msstats: ``>=4.14.0,<4.15.0``
+   :depends bioconductor-msstatsconvert: ``>=1.16.0,<1.17.0``
    :depends r-arrow: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dbi: 
    :depends r-dplyr: 
    :depends r-readr: 
@@ -90,7 +90,7 @@ bioconductor-msstatsbig
 
     <script>
         var package = "bioconductor-msstatsbig";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

@@ -44,7 +44,8 @@ rpbp
    :depends fastqc: 
    :depends flexbar: 
    :depends joblib: 
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends numpy: 
    :depends pandas: 
    :depends pbiotools: ``>=4.0.2``

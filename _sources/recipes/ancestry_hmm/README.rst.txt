@@ -36,7 +36,8 @@ ancestry_hmm
 
    
    :depends armadillo: ``>=14.2,<15.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends selam: 
    :requirements:
 

@@ -36,9 +36,10 @@ r-cobrar
    
    :depends glpk: ``>=4.65``
    :depends glpk: ``>=5.0,<6.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends libsbml: ``>=5.18.0``
    :depends libsbml: ``>=5.20.4,<5.21.0a0``
+   :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-matrix: 
    :depends r-rcpp: 

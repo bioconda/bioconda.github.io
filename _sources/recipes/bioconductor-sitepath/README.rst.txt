@@ -28,10 +28,10 @@ bioconductor-sitepath
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.10.2-1</code>,  <code>1.10.2-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.10.2-1</code>,  <code>1.10.2-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  </span></summary>
       
 
-      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.10.2-1``,  ``1.10.2-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.3-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.2-0``
+      ``1.22.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.10.2-1``,  ``1.10.2-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.3-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -40,15 +40,14 @@ bioconductor-sitepath
       
 
    
-   :depends bioconductor-ggtree: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-ggtree: ``>=3.10.0,<3.11.0a0``
+   :depends bioconductor-ggtree: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-ggtree: ``>=3.14.0,<3.15.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-ape: 
    :depends r-aplot: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: 
    :depends r-ggrepel: 
    :depends r-gridextra: 
@@ -106,7 +105,7 @@ bioconductor-sitepath
 
     <script>
         var package = "bioconductor-sitepath";
-        var versions = ["1.18.0","1.16.0","1.14.0","1.14.0","1.10.2"];
+        var versions = ["1.22.0","1.18.0","1.16.0","1.14.0","1.14.0"];
     </script>
 
 

@@ -29,10 +29,10 @@ bioconductor-ggtree
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.10.0-0</code>,  <code>3.8.0-0</code>,  <code>3.6.0-0</code>,  <code>3.2.0-0</code>,  <code>3.0.1-0</code>,  <code>2.4.1-0</code>,  <code>2.4.0-0</code>,  <code>2.2.1-0</code>,  <code>2.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.14.0-0</code>,  <code>3.10.0-0</code>,  <code>3.8.0-0</code>,  <code>3.6.0-0</code>,  <code>3.2.0-0</code>,  <code>3.0.1-0</code>,  <code>2.4.1-0</code>,  <code>2.4.0-0</code>,  <code>2.2.1-0</code>,  </span></summary>
       
 
-      ``3.10.0-0``,  ``3.8.0-0``,  ``3.6.0-0``,  ``3.2.0-0``,  ``3.0.1-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.2.1-0``,  ``2.0.0-0``,  ``1.16.3-0``,  ``1.16.0-0``,  ``1.14.6-0``,  ``1.14.4-0``,  ``1.12.7-0``,  ``1.10.0-0``,  ``1.8.2-0``,  ``1.4.20-0``,  ``1.2.12-0``
+      ``3.14.0-0``,  ``3.10.0-0``,  ``3.8.0-0``,  ``3.6.0-0``,  ``3.2.0-0``,  ``3.0.1-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.2.1-0``,  ``2.0.0-0``,  ``1.16.3-0``,  ``1.16.0-0``,  ``1.14.6-0``,  ``1.14.4-0``,  ``1.12.7-0``,  ``1.10.0-0``,  ``1.8.2-0``,  ``1.4.20-0``,  ``1.2.12-0``
 
       
       .. raw:: html
@@ -41,13 +41,13 @@ bioconductor-ggtree
       
 
    
-   :depends bioconductor-treeio: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-treeio: ``>=1.30.0,<1.31.0``
    :depends r-ape: 
    :depends r-aplot: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cli: 
    :depends r-dplyr: 
-   :depends r-ggfun: ``>=0.0.9``
+   :depends r-ggfun: ``>=0.1.7``
    :depends r-ggplot2: ``>3.3.6``
    :depends r-magrittr: 
    :depends r-purrr: 
@@ -55,7 +55,7 @@ bioconductor-ggtree
    :depends r-scales: 
    :depends r-tidyr: 
    :depends r-tidytree: ``>=0.4.5``
-   :depends r-yulab.utils: 
+   :depends r-yulab.utils: ``>=0.1.6``
    :requirements:
 
    :additional platforms:
@@ -106,7 +106,7 @@ bioconductor-ggtree
 
     <script>
         var package = "bioconductor-ggtree";
-        var versions = ["3.10.0","3.8.0","3.6.0","3.2.0","3.0.1"];
+        var versions = ["3.14.0","3.10.0","3.8.0","3.6.0","3.2.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ wally
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.1-0</code>,  <code>0.5.9-0</code>,  <code>0.5.8-2</code>,  <code>0.5.8-1</code>,  <code>0.5.8-0</code>,  <code>0.5.7-0</code>,  <code>0.5.6-2</code>,  <code>0.5.6-1</code>,  <code>0.5.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.1-1</code>,  <code>0.6.1-0</code>,  <code>0.5.9-0</code>,  <code>0.5.8-2</code>,  <code>0.5.8-1</code>,  <code>0.5.8-0</code>,  <code>0.5.7-0</code>,  <code>0.5.6-2</code>,  <code>0.5.6-1</code>,  </span></summary>
       
 
-      ``0.6.1-0``,  ``0.5.9-0``,  ``0.5.8-2``,  ``0.5.8-1``,  ``0.5.8-0``,  ``0.5.7-0``,  ``0.5.6-2``,  ``0.5.6-1``,  ``0.5.6-0``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2.5-1``,  ``0.2.5-0``
+      ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.9-0``,  ``0.5.8-2``,  ``0.5.8-1``,  ``0.5.8-0``,  ``0.5.7-0``,  ``0.5.6-2``,  ``0.5.6-1``,  ``0.5.6-0``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2.5-1``,  ``0.2.5-0``
 
       
       .. raw:: html
@@ -43,12 +43,12 @@ wally
    :depends boost-cpp: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends htslib: ``>=1.21,<1.22.0a0``
-   :depends libdeflate: ``>=1.20,<1.21.0a0``
-   :depends libgcc: ``>=12``
+   :depends libdeflate: ``>=1.22,<1.23.0a0``
+   :depends libgcc: ``>=13``
    :depends libopencv: ``>=4.10.0,<4.10.1.0a0``
    :depends libopencv: ``>=4.5.3``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 
@@ -104,7 +104,7 @@ wally
 
     <script>
         var package = "wally";
-        var versions = ["0.6.1","0.5.9","0.5.8","0.5.8","0.5.8"];
+        var versions = ["0.6.1","0.6.1","0.5.9","0.5.8","0.5.8"];
     </script>
 
 

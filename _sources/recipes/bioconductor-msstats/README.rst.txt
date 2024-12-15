@@ -29,10 +29,10 @@ bioconductor-msstats
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.10.0-1</code>,  <code>4.10.0-0</code>,  <code>4.8.3-0</code>,  <code>4.6.0-1</code>,  <code>4.6.0-0</code>,  <code>4.2.0-2</code>,  <code>4.2.0-1</code>,  <code>4.2.0-0</code>,  <code>4.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.14.0-0</code>,  <code>4.10.0-1</code>,  <code>4.10.0-0</code>,  <code>4.8.3-0</code>,  <code>4.6.0-1</code>,  <code>4.6.0-0</code>,  <code>4.2.0-2</code>,  <code>4.2.0-1</code>,  <code>4.2.0-0</code>,  </span></summary>
       
 
-      ``4.10.0-1``,  ``4.10.0-0``,  ``4.8.3-0``,  ``4.6.0-1``,  ``4.6.0-0``,  ``4.2.0-2``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.0.0-0``,  ``3.22.1-1``,  ``3.22.1-0``,  ``3.22.0-0``,  ``3.20.1-0``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-1``,  ``3.14.1-0``,  ``3.14.0-0``
+      ``4.14.0-0``,  ``4.10.0-1``,  ``4.10.0-0``,  ``4.8.3-0``,  ``4.6.0-1``,  ``4.6.0-0``,  ``4.2.0-2``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.0.0-0``,  ``3.22.1-1``,  ``3.22.1-0``,  ``3.22.0-0``,  ``3.20.1-0``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-1``,  ``3.14.1-0``,  ``3.14.0-0``
 
       
       .. raw:: html
@@ -41,26 +41,28 @@ bioconductor-msstats
       
 
    
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-limma: ``>=3.58.1,<3.59.0a0``
-   :depends bioconductor-marray: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-marray: ``>=1.80.0,<1.81.0a0``
-   :depends bioconductor-msstatsconvert: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-msstatsconvert: ``>=1.12.0,<1.13.0a0``
-   :depends bioconductor-preprocesscore: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-preprocesscore: ``>=1.64.0,<1.65.0a0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0a0``
+   :depends bioconductor-marray: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-marray: ``>=1.84.0,<1.85.0a0``
+   :depends bioconductor-msstatsconvert: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-msstatsconvert: ``>=1.16.0,<1.17.0a0``
+   :depends bioconductor-preprocesscore: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-preprocesscore: ``>=1.68.0,<1.69.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-checkmate: 
    :depends r-data.table: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 
    :depends r-gplots: 
+   :depends r-htmltools: 
    :depends r-lme4: 
    :depends r-mass: 
+   :depends r-plotly: 
    :depends r-rcpp: 
    :depends r-rcpparmadillo: 
    :depends r-statmod: 
@@ -119,7 +121,7 @@ bioconductor-msstats
 
     <script>
         var package = "bioconductor-msstats";
-        var versions = ["4.10.0","4.10.0","4.8.3","4.6.0","4.6.0"];
+        var versions = ["4.14.0","4.10.0","4.10.0","4.8.3","4.6.0"];
     </script>
 
 

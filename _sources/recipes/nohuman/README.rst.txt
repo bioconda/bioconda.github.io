@@ -27,13 +27,13 @@ nohuman
       
       
 
-      ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
    :depends kraken2: ``2.1.*``
-   :depends libgcc: ``>=12``
+   :depends libgcc: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -84,7 +84,7 @@ nohuman
 
     <script>
         var package = "nohuman";
-        var versions = ["0.3.0","0.2.1","0.2.0","0.1.1","0.1.0"];
+        var versions = ["0.3.0","0.3.0","0.2.1","0.2.0","0.1.1"];
     </script>
 
 

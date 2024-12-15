@@ -28,10 +28,10 @@ bioconductor-rfastp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.4.0-2</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  <code>1.0.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.16.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.4.0-2</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
       .. raw:: html
@@ -40,15 +40,14 @@ bioconductor-rfastp
       
 
    
-   :depends bioconductor-rhtslib: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-rhtslib: ``>=2.4.0,<2.5.0a0``
-   :depends bioconductor-zlibbioc: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-zlibbioc: ``>=1.48.0,<1.49.0a0``
+   :depends bioconductor-rhtslib: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-rhtslib: ``>=3.2.0,<3.3.0a0``
+   :depends bioconductor-zlibbioc: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-zlibbioc: ``>=1.52.0,<1.53.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: 
    :depends r-rcpp: 
    :depends r-reshape2: 
@@ -103,7 +102,7 @@ bioconductor-rfastp
 
     <script>
         var package = "bioconductor-rfastp";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.8.0","1.4.0"];
+        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.8.0"];
     </script>
 
 

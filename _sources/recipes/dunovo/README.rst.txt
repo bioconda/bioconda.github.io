@@ -28,10 +28,10 @@ dunovo
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.2-3</code>,  <code>3.0.2-1</code>,  <code>3.0.2-0</code>,  <code>2.16-0</code>,  <code>2.15-4</code>,  <code>2.15-3</code>,  <code>2.15-2</code>,  <code>2.15-1</code>,  <code>2.15-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.2-4</code>,  <code>3.0.2-3</code>,  <code>3.0.2-1</code>,  <code>3.0.2-0</code>,  <code>2.16-0</code>,  <code>2.15-4</code>,  <code>2.15-3</code>,  <code>2.15-2</code>,  <code>2.15-1</code>,  </span></summary>
       
 
-      ``3.0.2-3``,  ``3.0.2-1``,  ``3.0.2-0``,  ``2.16-0``,  ``2.15-4``,  ``2.15-3``,  ``2.15-2``,  ``2.15-1``,  ``2.15-0``,  ``2.14-0``,  ``2.0.12-0``,  ``2.0.9-0``,  ``2.0.8-0``,  ``2.0.6-0``,  ``0.8.1-0``,  ``0.7.6-1``,  ``0.7.6-0``,  ``0.7.5-0``,  ``0.7.4-0``,  ``0.7.1-0``,  ``0.7-0``
+      ``3.0.2-4``,  ``3.0.2-3``,  ``3.0.2-1``,  ``3.0.2-0``,  ``2.16-0``,  ``2.15-4``,  ``2.15-3``,  ``2.15-2``,  ``2.15-1``,  ``2.15-0``,  ``2.14-0``,  ``2.0.12-0``,  ``2.0.9-0``,  ``2.0.8-0``,  ``2.0.6-0``,  ``0.8.1-0``,  ``0.7.6-1``,  ``0.7.6-0``,  ``0.7.5-0``,  ``0.7.4-0``,  ``0.7.1-0``,  ``0.7-0``
 
       
       .. raw:: html
@@ -47,7 +47,7 @@ dunovo
    :depends file: 
    :depends gawk: 
    :depends gzip: 
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends mafft: ``>=7.221``
    :depends networkx: ``2.4.*``
    :depends numpy: ``<1.24``
@@ -107,7 +107,7 @@ dunovo
 
     <script>
         var package = "dunovo";
-        var versions = ["3.0.2","3.0.2","3.0.2","2.16","2.15"];
+        var versions = ["3.0.2","3.0.2","3.0.2","3.0.2","2.16"];
     </script>
 
 

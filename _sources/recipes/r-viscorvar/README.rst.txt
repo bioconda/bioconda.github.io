@@ -33,10 +33,10 @@ r-viscorvar
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9-2</code>,  <code>0.9-1</code>,  <code>0.9-0</code>,  <code>0.8-1</code>,  <code>0.8-0</code>,  <code>0.7-2</code>,  <code>0.7-1</code>,  <code>0.7-0</code>,  <code>0.6-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9-3</code>,  <code>0.9-2</code>,  <code>0.9-1</code>,  <code>0.9-0</code>,  <code>0.8-1</code>,  <code>0.8-0</code>,  <code>0.7-2</code>,  <code>0.7-1</code>,  <code>0.7-0</code>,  </span></summary>
       
 
-      ``0.9-2``,  ``0.9-1``,  ``0.9-0``,  ``0.8-1``,  ``0.8-0``,  ``0.7-2``,  ``0.7-1``,  ``0.7-0``,  ``0.6-1``,  ``0.6-0``
+      ``0.9-3``,  ``0.9-2``,  ``0.9-1``,  ``0.9-0``,  ``0.8-1``,  ``0.8-0``,  ``0.7-2``,  ``0.7-1``,  ``0.7-0``,  ``0.6-1``,  ``0.6-0``
 
       
       .. raw:: html
@@ -46,7 +46,7 @@ r-viscorvar
 
    
    :depends bioconductor-mixomics: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-ellipse: 
    :depends r-igraph: 
@@ -106,7 +106,7 @@ r-viscorvar
 
     <script>
         var package = "r-viscorvar";
-        var versions = ["0.9","0.9","0.9","0.8","0.8"];
+        var versions = ["0.9","0.9","0.9","0.9","0.8"];
     </script>
 
 

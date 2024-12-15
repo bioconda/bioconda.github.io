@@ -27,14 +27,14 @@ bioconductor-treeandleaf
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.1-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.1-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-reder: ``>=2.6.0,<2.7.0``
+   :depends bioconductor-reder: ``>=3.2.0,<3.3.0``
    :depends r-ape: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-igraph: 
    :requirements:
 
@@ -86,7 +86,7 @@ bioconductor-treeandleaf
 
     <script>
         var package = "bioconductor-treeandleaf";
-        var versions = ["1.14.0","1.12.0","1.10.0","1.6.1","1.4.0"];
+        var versions = ["1.18.0","1.14.0","1.12.0","1.10.0","1.6.1"];
     </script>
 
 

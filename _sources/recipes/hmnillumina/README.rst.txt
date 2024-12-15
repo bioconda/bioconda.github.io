@@ -27,15 +27,15 @@ hmnillumina
       
       
 
-      ``1.5.1-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.3-0``
+      ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.3-0``
 
       
 
    
-   :depends illumina-interop: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends illumina-interop: ``>=1.3.2,<1.4.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends pytest: 
    :depends python: 
    :depends rapidjson: 
@@ -89,7 +89,7 @@ hmnillumina
 
     <script>
         var package = "hmnillumina";
-        var versions = ["1.5.1","1.5.0","1.5.0","1.4.3"];
+        var versions = ["1.5.1","1.5.1","1.5.0","1.5.0","1.4.3"];
     </script>
 
 

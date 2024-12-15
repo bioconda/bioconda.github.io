@@ -30,14 +30,14 @@ snapatac2
       
       
 
-      ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.4-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``
+      ``2.7.1-1``,  ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.4-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``
 
       
 
    
    :depends anndata: 
-   :depends libgcc: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends macs3: 
    :depends multiprocess: 
    :depends natsort: 
@@ -108,7 +108,7 @@ snapatac2
 
     <script>
         var package = "snapatac2";
-        var versions = ["2.7.1","2.7.0","2.6.4","2.5.3","2.5.2"];
+        var versions = ["2.7.1","2.7.1","2.7.0","2.6.4","2.5.3"];
     </script>
 
 

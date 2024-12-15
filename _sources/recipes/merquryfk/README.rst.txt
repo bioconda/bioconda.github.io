@@ -27,17 +27,17 @@ merquryfk
       
       
 
-      ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends fastk: 
-   :depends libcurl: ``>=8.8.0,<9.0a0``
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libcurl: ``>=8.11.1,<9.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends r-argparse: ``>=2.0.1``
    :depends r-base: ``>=4``
    :depends r-ggplot2: ``>=3.3.2``
@@ -96,7 +96,7 @@ merquryfk
 
     <script>
         var package = "merquryfk";
-        var versions = ["1.1.1","1.1.0","1.1.0","1.0.0","1.0.0"];
+        var versions = ["1.1.1","1.1.1","1.1.0","1.1.0","1.0.0"];
     </script>
 
 

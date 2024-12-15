@@ -27,13 +27,13 @@ bioconductor-dcats
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends r-aod: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-e1071: 
    :depends r-matrixstats: 
    :depends r-mcmcpack: 
@@ -88,7 +88,7 @@ bioconductor-dcats
 
     <script>
         var package = "bioconductor-dcats";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

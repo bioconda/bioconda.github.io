@@ -32,11 +32,12 @@ ntsynt
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends btllib: ``>=1.7.1``
    :depends btllib: ``>=1.7.3,<2.0a0``
    :depends intervaltree: 
-   :depends libcxx: ``>=18``
-   :depends llvm-openmp: ``>=18.1.8``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends ncls: 
    :depends pybedtools: 
    :depends python: ``>=3.10,<3.11.0a0``

@@ -28,7 +28,7 @@ rapidshapes
       
       
 
-      ``2.1.0-1``,  ``2.1.0-0``
+      ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``
 
       
 
@@ -36,8 +36,8 @@ rapidshapes
    :depends bellmans-gapc: ``>=2024.01.12``
    :depends bellmans-gapc: ``>=2024.1.12``
    :depends gxx_linux-64: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
@@ -89,7 +89,7 @@ rapidshapes
 
     <script>
         var package = "rapidshapes";
-        var versions = ["2.1.0","2.1.0"];
+        var versions = ["2.1.0","2.1.0","2.1.0"];
     </script>
 
 

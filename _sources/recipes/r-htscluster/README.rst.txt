@@ -26,14 +26,22 @@ r-htscluster
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0.11-0``,  ``2.0.10-2``,  ``2.0.10-1``,  ``2.0.10-0``,  ``2.0.8-5``,  ``2.0.8-4``,  ``2.0.8-3``,  ``2.0.8-1``,  ``2.0.8-0``
+         <details><summary><span class="truncated-version-list"><code>2.0.11-1</code>,  <code>2.0.11-0</code>,  <code>2.0.10-2</code>,  <code>2.0.10-1</code>,  <code>2.0.10-0</code>,  <code>2.0.8-5</code>,  <code>2.0.8-4</code>,  <code>2.0.8-3</code>,  <code>2.0.8-1</code>,  </span></summary>
+      
 
+      ``2.0.11-1``,  ``2.0.11-0``,  ``2.0.10-2``,  ``2.0.10-1``,  ``2.0.10-0``,  ``2.0.8-5``,  ``2.0.8-4``,  ``2.0.8-3``,  ``2.0.8-1``,  ``2.0.8-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-edger: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-capushe: 
    :depends r-plotrix: 
    :requirements:
@@ -86,7 +94,7 @@ r-htscluster
 
     <script>
         var package = "r-htscluster";
-        var versions = ["2.0.11","2.0.10","2.0.10","2.0.10","2.0.8"];
+        var versions = ["2.0.11","2.0.11","2.0.10","2.0.10","2.0.10"];
     </script>
 
 
