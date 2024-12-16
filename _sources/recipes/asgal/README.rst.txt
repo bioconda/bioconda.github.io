@@ -28,22 +28,23 @@ asgal
       
       
 
-      ``1.1.8-1``,  ``1.1.8-0``
+      ``1.1.8-2``,  ``1.1.8-1``,  ``1.1.8-0``
 
       
 
    
    :depends biopython: 
-   :depends gffutils: 
+   :depends gffutils: ``>=0.13,<0.14.0a0``
    :depends lemon: ``>=1.3.1,<1.3.2.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends pandas: 
-   :depends pysam: 
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends pysam: ``>=0.22.1,<0.23.0a0``
+   :depends python_abi: ``3.12.* *_cp312``
+   :depends salmon: ``>=1.10.3,<2.0a0``
    :depends salmon: ``>=1.9.0``
-   :depends samtools: 
+   :depends samtools: ``>=1.21,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -94,7 +95,7 @@ asgal
 
     <script>
         var package = "asgal";
-        var versions = ["1.1.8","1.1.8"];
+        var versions = ["1.1.8","1.1.8","1.1.8"];
     </script>
 
 

@@ -10,7 +10,7 @@ edta
    :replaces_section_title:
    :noindex:
 
-   Extensive de\-novo TE Annotator
+   Extensive de\-novo TE Annotator.
 
    :homepage: https://github.com/oushujun/EDTA
    :documentation: https://github.com/oushujun/EDTA/wiki
@@ -31,10 +31,10 @@ edta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.2-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.9.6-2</code>,  <code>1.9.6-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.2-1</code>,  <code>2.2.2-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.9.6-2</code>,  </span></summary>
       
 
-      ``2.2.2-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.9.6-2``,  ``1.9.6-1``,  ``1.9.6-0``,  ``1.9.5-0``,  ``1.9.4-0``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.7.8-0``,  ``1.7.7-0``
+      ``2.2.2-1``,  ``2.2.2-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.9.6-2``,  ``1.9.6-1``,  ``1.9.6-0``,  ``1.9.5-0``,  ``1.9.4-0``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.7.8-0``,  ``1.7.7-0``
 
       
       .. raw:: html
@@ -53,7 +53,7 @@ edta
    :depends helitronscanner: 
    :depends ltr_finder_parallel: 
    :depends ltr_harvest_parallel: 
-   :depends ltr_retriever: 
+   :depends ltr_retriever: ``>=3.0.0``
    :depends mdust: 
    :depends muscle: 
    :depends openjdk: 
@@ -68,7 +68,8 @@ edta
    :depends r-ggplot2: 
    :depends r-here: 
    :depends r-tidyr: 
-   :depends repeatmodeler: 
+   :depends repeatmasker: 
+   :depends repeatmodeler: ``>=2``
    :depends samtools: 
    :depends tesorter: 
    :depends tir-learner: 
@@ -122,7 +123,7 @@ edta
 
     <script>
         var package = "edta";
-        var versions = ["2.2.2","2.2.0","2.2.0","2.1.0","2.1.0"];
+        var versions = ["2.2.2","2.2.2","2.2.0","2.2.0","2.1.0"];
     </script>
 
 

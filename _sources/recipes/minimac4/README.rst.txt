@@ -27,17 +27,17 @@ minimac4
       
       
 
-      ``4.1.6-0``
+      ``4.1.6-1``,  ``4.1.6-0``
 
       
 
    
    :depends bcftools: ``>=1.21,<2.0a0``
    :depends cget: 
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
-   :depends xz: ``>=5.2.6,<6.0a0``
+   :depends libgcc: ``>=13``
+   :depends liblzma: ``>=5.6.3,<6.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -88,7 +88,7 @@ minimac4
 
     <script>
         var package = "minimac4";
-        var versions = ["4.1.6"];
+        var versions = ["4.1.6","4.1.6"];
     </script>
 
 

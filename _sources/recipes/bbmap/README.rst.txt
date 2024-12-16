@@ -44,6 +44,7 @@ bbmap
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends libgcc: ``>=13``
    :depends openjdk: ``>=11.0.1``
    :depends samtools: ``>=1.21,<2.0a0``
    :requirements:

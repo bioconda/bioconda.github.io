@@ -28,10 +28,10 @@ bioconductor-densvis
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.12.0-0</code>,  <code>1.10.2-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.4.0-2</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  <code>1.00.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.16.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.2-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.4.0-2</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
       
 
-      ``1.12.0-0``,  ``1.10.2-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.00.6-0``,  ``1.0.0-1``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.2-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.00.6-0``,  ``1.0.0-1``
 
       
       .. raw:: html
@@ -40,14 +40,14 @@ bioconductor-densvis
       
 
    
-   :depends bioconductor-basilisk: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-basilisk: ``>=1.14.1,<1.15.0a0``
+   :depends bioconductor-basilisk: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-basilisk: ``>=1.18.0,<1.19.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libstdcxx: ``>=13``
    :depends r-assertthat: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-irlba: 
    :depends r-rcpp: 
    :depends r-reticulate: 
@@ -102,7 +102,7 @@ bioconductor-densvis
 
     <script>
         var package = "bioconductor-densvis";
-        var versions = ["1.12.0","1.10.2","1.8.0","1.8.0","1.4.0"];
+        var versions = ["1.16.0","1.12.0","1.10.2","1.8.0","1.8.0"];
     </script>
 
 

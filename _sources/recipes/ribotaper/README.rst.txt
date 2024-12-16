@@ -29,10 +29,10 @@ ribotaper
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.1-0</code>,  <code>1.3.1a-8</code>,  <code>1.3.1a-7</code>,  <code>1.3.1a-6</code>,  <code>1.3.1a-5</code>,  <code>1.3.1a-4</code>,  <code>1.3.1a-3</code>,  <code>1.3.1a-2</code>,  <code>1.3.1a-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.1-0</code>,  <code>1.3.1a-9</code>,  <code>1.3.1a-8</code>,  <code>1.3.1a-7</code>,  <code>1.3.1a-6</code>,  <code>1.3.1a-5</code>,  <code>1.3.1a-4</code>,  <code>1.3.1a-3</code>,  <code>1.3.1a-2</code>,  </span></summary>
       
 
-      ``1.3.1-0``,  ``1.3.1a-8``,  ``1.3.1a-7``,  ``1.3.1a-6``,  ``1.3.1a-5``,  ``1.3.1a-4``,  ``1.3.1a-3``,  ``1.3.1a-2``,  ``1.3.1a-1``,  ``1.3.1a-0``
+      ``1.3.1-0``,  ``1.3.1a-9``,  ``1.3.1a-8``,  ``1.3.1a-7``,  ``1.3.1a-6``,  ``1.3.1a-5``,  ``1.3.1a-4``,  ``1.3.1a-3``,  ``1.3.1a-2``,  ``1.3.1a-1``,  ``1.3.1a-0``
 
       
       .. raw:: html

@@ -28,10 +28,10 @@ perl-sanger-cgp-vagrent
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.7.0-2</code>,  <code>3.7.0-1</code>,  <code>3.7.0-0</code>,  <code>3.6.1-0</code>,  <code>3.5.2-0</code>,  <code>3.5.0-1</code>,  <code>3.5.0-0</code>,  <code>3.3.3-0</code>,  <code>3.2.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.7.0-3</code>,  <code>3.7.0-2</code>,  <code>3.7.0-1</code>,  <code>3.7.0-0</code>,  <code>3.6.1-0</code>,  <code>3.5.2-0</code>,  <code>3.5.0-1</code>,  <code>3.5.0-0</code>,  <code>3.3.3-0</code>,  </span></summary>
       
 
-      ``3.7.0-2``,  ``3.7.0-1``,  ``3.7.0-0``,  ``3.6.1-0``,  ``3.5.2-0``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.3.3-0``,  ``3.2.0-1``,  ``3.2.0-0``
+      ``3.7.0-3``,  ``3.7.0-2``,  ``3.7.0-1``,  ``3.7.0-0``,  ``3.6.1-0``,  ``3.5.2-0``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.3.3-0``,  ``3.2.0-1``,  ``3.2.0-0``
 
       
       .. raw:: html
@@ -40,12 +40,12 @@ perl-sanger-cgp-vagrent
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends perl-bio-db-hts: 
+   :depends perl-bio-db-hts: ``>=3.1,<4.0a0``
    :depends perl-bioperl: 
    :depends perl-module-build: ``0.4234.*``
-   :depends perl-set-intervaltree: 
+   :depends perl-set-intervaltree: ``>=0.12,<0.13.0a0``
    :depends perl-sub-exporter-progressive: ``0.001013.*``
    :requirements:
 
@@ -97,7 +97,7 @@ perl-sanger-cgp-vagrent
 
     <script>
         var package = "perl-sanger-cgp-vagrent";
-        var versions = ["3.7.0","3.7.0","3.7.0","3.6.1","3.5.2"];
+        var versions = ["3.7.0","3.7.0","3.7.0","3.7.0","3.6.1"];
     </script>
 
 

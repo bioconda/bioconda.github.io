@@ -27,15 +27,15 @@ difcover
       
       
 
-      ``3.0.1-1``,  ``3.0.1-0``
+      ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``
 
       
 
    
    :depends bedtools: 
    :depends bioconductor-dnacopy: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends samtools: 
    :requirements:
 
@@ -87,7 +87,7 @@ difcover
 
     <script>
         var package = "difcover";
-        var versions = ["3.0.1","3.0.1"];
+        var versions = ["3.0.1","3.0.1","3.0.1"];
     </script>
 
 

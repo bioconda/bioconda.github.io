@@ -27,17 +27,17 @@ aegean
       
       
 
-      ``0.16.0-4``,  ``0.16.0-3``,  ``0.16.0-2``,  ``0.16.0-1``,  ``0.16.0-0``
+      ``0.16.0-5``,  ``0.16.0-4``,  ``0.16.0-3``,  ``0.16.0-2``,  ``0.16.0-1``,  ``0.16.0-0``
 
       
 
    
-   :depends cairo: ``>=1.16.0,<2.0a0``
-   :depends genometools-genometools: 
+   :depends cairo: ``>=1.18.2,<2.0a0``
+   :depends genometools-genometools: ``>=1.6.5,<2.0a0``
    :depends git: 
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends pango: ``>=1.50.14,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends pango: ``>=1.54.0,<2.0a0``
    :requirements:
 
    :additional platforms:

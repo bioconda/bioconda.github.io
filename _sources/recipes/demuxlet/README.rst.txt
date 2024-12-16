@@ -27,14 +27,14 @@ demuxlet
       
       
 
-      ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``
+      ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``
 
       
 
    
-   :depends htslib: ``>=1.10.2,<1.22.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends samtools: 
    :requirements:
 

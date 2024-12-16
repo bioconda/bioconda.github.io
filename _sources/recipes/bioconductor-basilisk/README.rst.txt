@@ -26,15 +26,23 @@ bioconductor-basilisk
    :versions:
       
       
+      .. raw:: html
 
-      ``1.14.1-0``,  ``1.12.1-0``,  ``1.10.2-0``,  ``1.9.12-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.14.1-0</code>,  <code>1.12.1-0</code>,  <code>1.10.2-0</code>,  <code>1.9.12-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+      
 
+      ``1.18.0-0``,  ``1.14.1-0``,  ``1.12.1-0``,  ``1.10.2-0``,  ``1.9.12-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-basilisk.utils: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-dir.expiry: ``>=1.10.0,<1.11.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-basilisk.utils: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-dir.expiry: ``>=1.14.0,<1.15.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-reticulate: 
    :requirements:
 
@@ -86,7 +94,7 @@ bioconductor-basilisk
 
     <script>
         var package = "bioconductor-basilisk";
-        var versions = ["1.14.1","1.12.1","1.10.2","1.9.12","1.6.0"];
+        var versions = ["1.18.0","1.14.1","1.12.1","1.10.2","1.9.12"];
     </script>
 
 

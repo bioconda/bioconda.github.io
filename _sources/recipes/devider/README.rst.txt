@@ -27,13 +27,13 @@ devider
       
       
 
-      ``0.0.1-1``,  ``0.0.1-0``
+      ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
 
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends lofreq: ``>=2.1.5``
    :depends minimap2: 
    :depends pysam: ``>=0.16``
@@ -94,7 +94,7 @@ devider
 
     <script>
         var package = "devider";
-        var versions = ["0.0.1","0.0.1"];
+        var versions = ["0.0.1","0.0.1","0.0.1"];
     </script>
 
 

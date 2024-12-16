@@ -27,7 +27,7 @@ perl-retroseq
       
       
 
-      ``1.5-2``,  ``1.5-1``,  ``1.5-0``
+      ``1.5-3``,  ``1.5-2``,  ``1.5-1``,  ``1.5-0``
 
       
 
@@ -90,7 +90,7 @@ perl-retroseq
 
     <script>
         var package = "perl-retroseq";
-        var versions = ["1.5","1.5","1.5"];
+        var versions = ["1.5","1.5","1.5","1.5"];
     </script>
 
 

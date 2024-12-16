@@ -29,10 +29,10 @@ bioconductor-rbgl
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.78.0-1</code>,  <code>1.78.0-0</code>,  <code>1.76.0-0</code>,  <code>1.74.0-1</code>,  <code>1.74.0-0</code>,  <code>1.70.0-2</code>,  <code>1.70.0-1</code>,  <code>1.70.0-0</code>,  <code>1.68.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.82.0-0</code>,  <code>1.78.0-1</code>,  <code>1.78.0-0</code>,  <code>1.76.0-0</code>,  <code>1.74.0-1</code>,  <code>1.74.0-0</code>,  <code>1.70.0-2</code>,  <code>1.70.0-1</code>,  <code>1.70.0-0</code>,  </span></summary>
       
 
-      ``1.78.0-1``,  ``1.78.0-0``,  ``1.76.0-0``,  ``1.74.0-1``,  ``1.74.0-0``,  ``1.70.0-2``,  ``1.70.0-1``,  ``1.70.0-0``,  ``1.68.0-0``,  ``1.66.0-1``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.1-0``,  ``1.60.0-1``,  ``1.58.2-0``,  ``1.58.1-0``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.48.1-1``,  ``1.46.0-1``,  ``1.46.0-0``
+      ``1.82.0-0``,  ``1.78.0-1``,  ``1.78.0-0``,  ``1.76.0-0``,  ``1.74.0-1``,  ``1.74.0-0``,  ``1.70.0-2``,  ``1.70.0-1``,  ``1.70.0-0``,  ``1.68.0-0``,  ``1.66.0-1``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.1-0``,  ``1.60.0-1``,  ``1.58.2-0``,  ``1.58.1-0``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.48.1-1``,  ``1.46.0-1``,  ``1.46.0-0``
 
       
       .. raw:: html
@@ -41,13 +41,13 @@ bioconductor-rbgl
       
 
    
-   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-graph: ``>=1.80.0,<1.81.0a0``
+   :depends bioconductor-graph: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-graph: ``>=1.84.0,<1.85.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-bh: 
    :requirements:
 
@@ -103,7 +103,7 @@ bioconductor-rbgl
 
     <script>
         var package = "bioconductor-rbgl";
-        var versions = ["1.78.0","1.78.0","1.76.0","1.74.0","1.74.0"];
+        var versions = ["1.82.0","1.78.0","1.78.0","1.76.0","1.74.0"];
     </script>
 
 

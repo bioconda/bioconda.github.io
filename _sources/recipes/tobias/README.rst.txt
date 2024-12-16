@@ -15,7 +15,6 @@ tobias
    :homepage: https://github.com/loosolab/TOBIAS
    :documentation: https://github.com/loosolab/TOBIAS/wiki
    
-   :developer docs: https://pypi.org/project/tobias/
    :license: MIT / MIT
    :recipe: /`tobias <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tobias>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tobias/meta.yaml>`_
    :links: biotools: :biotools:`TOBIAS`, doi: :doi:`10.1038/s41467-020-18035-1`
@@ -34,10 +33,10 @@ tobias
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.17.0-0</code>,  <code>0.16.1-1</code>,  <code>0.16.1-0</code>,  <code>0.16.0-0</code>,  <code>0.15.1-0</code>,  <code>0.13.3-1</code>,  <code>0.13.3-0</code>,  <code>0.13.2-1</code>,  <code>0.13.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.17.1-0</code>,  <code>0.17.0-0</code>,  <code>0.16.1-1</code>,  <code>0.16.1-0</code>,  <code>0.16.0-0</code>,  <code>0.15.1-0</code>,  <code>0.13.3-1</code>,  <code>0.13.3-0</code>,  <code>0.13.2-1</code>,  </span></summary>
       
 
-      ``0.17.0-0``,  ``0.16.1-1``,  ``0.16.1-0``,  ``0.16.0-0``,  ``0.15.1-0``,  ``0.13.3-1``,  ``0.13.3-0``,  ``0.13.2-1``,  ``0.13.2-0``,  ``0.13.1-0``,  ``0.13.0-0``,  ``0.12.12-0``,  ``0.12.11-0``,  ``0.12.10-1``,  ``0.12.10-0``,  ``0.12.9-0``,  ``0.12.8-0``,  ``0.12.7-0``,  ``0.12.6-0``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.6-1``,  ``0.11.6-0``,  ``0.11.4-0``,  ``0.11.3-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.4-0``,  ``0.6.1-0``,  ``0.5.0-0``
+      ``0.17.1-0``,  ``0.17.0-0``,  ``0.16.1-1``,  ``0.16.1-0``,  ``0.16.0-0``,  ``0.15.1-0``,  ``0.13.3-1``,  ``0.13.3-0``,  ``0.13.2-1``,  ``0.13.2-0``,  ``0.13.1-0``,  ``0.13.0-0``,  ``0.12.12-0``,  ``0.12.11-0``,  ``0.12.10-1``,  ``0.12.10-0``,  ``0.12.9-0``,  ``0.12.8-0``,  ``0.12.7-0``,  ``0.12.6-0``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.6-1``,  ``0.11.6-0``,  ``0.11.4-0``,  ``0.11.3-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.4-0``,  ``0.6.1-0``,  ``0.5.0-0``
 
       
       .. raw:: html
@@ -50,7 +49,7 @@ tobias
    :depends boto3: 
    :depends importlib-metadata: 
    :depends kneed: 
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends logomaker: 
    :depends matplotlib-base: ``>=2``
    :depends moods: 
@@ -65,7 +64,7 @@ tobias
    :depends pyyaml: ``>5.1``
    :depends scikit-learn: 
    :depends scipy: 
-   :depends seaborn: ``>=0.9.1``
+   :depends seaborn-base: ``>=0.9.1``
    :depends svist4get: ``>=1.2.24``
    :depends xgboost: ``>=0.71``
    :depends xlsxwriter: 
@@ -119,7 +118,7 @@ tobias
 
     <script>
         var package = "tobias";
-        var versions = ["0.17.0","0.16.1","0.16.1","0.16.0","0.15.1"];
+        var versions = ["0.17.1","0.17.0","0.16.1","0.16.1","0.16.0"];
     </script>
 
 

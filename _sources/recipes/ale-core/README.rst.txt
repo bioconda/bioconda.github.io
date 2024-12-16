@@ -27,14 +27,14 @@ ale-core
       
       
 
-      ``20220503-0``
+      ``20220503-1``,  ``20220503-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends samtools: 
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends samtools: ``>=1.21,<2.0a0``
    :depends zlib: 
    :requirements:
 
@@ -86,7 +86,7 @@ ale-core
 
     <script>
         var package = "ale-core";
-        var versions = ["20220503"];
+        var versions = ["20220503","20220503"];
     </script>
 
 

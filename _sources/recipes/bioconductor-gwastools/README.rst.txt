@@ -28,10 +28,10 @@ bioconductor-gwastools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.52.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  </span></summary>
       
 
-      ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``
+      ``1.52.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-gwastools
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-dnacopy: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-gdsfmt: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-quantsmooth: ``>=1.68.0,<1.69.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-dnacopy: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-gdsfmt: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-quantsmooth: ``>=1.72.0,<1.73.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: 
    :depends r-dbi: 
    :depends r-gwasexacthw: 
@@ -103,7 +103,7 @@ bioconductor-gwastools
 
     <script>
         var package = "bioconductor-gwastools";
-        var versions = ["1.48.0","1.46.0","1.44.0","1.40.0","1.38.0"];
+        var versions = ["1.52.0","1.48.0","1.46.0","1.44.0","1.40.0"];
     </script>
 
 

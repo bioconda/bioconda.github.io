@@ -31,7 +31,7 @@ orthologer
       
       
 
-      ``3.5.0-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.2-0``,  ``3.3.1-0``
+      ``3.5.0-1``,  ``3.5.0-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.2-0``,  ``3.3.1-0``
 
       
 
@@ -43,9 +43,9 @@ orthologer
    :depends busco: ``>=5.7.0``
    :depends cd-hit: 
    :depends diamond: 
-   :depends libgcc: ``>=12``
+   :depends libgcc: ``>=13``
    :depends libgomp: 
-   :depends libstdcxx: ``>=12``
+   :depends libstdcxx: ``>=13``
    :depends mmseqs2: 
    :depends numpy: 
    :depends python: ``>=3.4``
@@ -101,7 +101,7 @@ orthologer
 
     <script>
         var package = "orthologer";
-        var versions = ["3.5.0","3.4.2","3.4.1","3.4.0","3.3.2"];
+        var versions = ["3.5.0","3.5.0","3.4.2","3.4.1","3.4.0"];
     </script>
 
 

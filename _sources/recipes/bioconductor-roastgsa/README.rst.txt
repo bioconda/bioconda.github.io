@@ -27,14 +27,14 @@ bioconductor-roastgsa
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: 
    :depends r-gplots: 
    :depends r-rcolorbrewer: 
@@ -88,7 +88,7 @@ bioconductor-roastgsa
 
     <script>
         var package = "bioconductor-roastgsa";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

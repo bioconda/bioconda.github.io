@@ -13,8 +13,11 @@ purge_dups
    purge\_dups is a package used to purge haplotigs and overlaps in an assembly based on read depth.
 
    :homepage: https://github.com/dfguan/purge_dups
+   :documentation: https://github.com/dfguan/purge_dups/blob/v{[ version }}/README.md
+   
    :license: MIT / MIT
    :recipe: /`purge_dups <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/purge_dups>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/purge_dups/meta.yaml>`_
+   :links: biotools: :biotools:`purge_dups`, usegalaxy-eu: :usegalaxy-eu:`purge_dups`, doi: :doi:`10.1093/bioinformatics/btaa025`
 
    
 
@@ -27,25 +30,24 @@ purge_dups
       
       
 
-      ``1.2.6-1``,  ``1.2.6-0``,  ``1.2.5-2``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.0.1-0``
+      ``1.2.6-2``,  ``1.2.6-1``,  ``1.2.6-0``,  ``1.2.5-2``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.0.1-0``
 
       
 
    
-   :depends augustus: 
-   :depends blast: 
-   :depends busco: 
-   :depends kmc: 
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends matplotlib-base: 
    :depends minimap2: 
    :depends purge-dups-runner: 
-   :depends python: ``>=3.9,<3.10.0a0``
-   :depends python_abi: ``3.9.* *_cp39``
+   :depends python: ``>=3``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -93,7 +95,7 @@ purge_dups
 
     <script>
         var package = "purge_dups";
-        var versions = ["1.2.6","1.2.6","1.2.5","1.2.5","1.2.5"];
+        var versions = ["1.2.6","1.2.6","1.2.6","1.2.5","1.2.5"];
     </script>
 
 

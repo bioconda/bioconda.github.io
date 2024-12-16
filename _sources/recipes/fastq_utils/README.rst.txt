@@ -28,10 +28,10 @@ fastq_utils
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.25.2-1</code>,  <code>0.25.2-0</code>,  <code>0.25.1-1</code>,  <code>0.25.1-0</code>,  <code>0.24.1-1</code>,  <code>0.24.1-0</code>,  <code>0.24.0-0</code>,  <code>0.23.0-0</code>,  <code>0.22.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.25.2-2</code>,  <code>0.25.2-1</code>,  <code>0.25.2-0</code>,  <code>0.25.1-1</code>,  <code>0.25.1-0</code>,  <code>0.24.1-1</code>,  <code>0.24.1-0</code>,  <code>0.24.0-0</code>,  <code>0.23.0-0</code>,  </span></summary>
       
 
-      ``0.25.2-1``,  ``0.25.2-0``,  ``0.25.1-1``,  ``0.25.1-0``,  ``0.24.1-1``,  ``0.24.1-0``,  ``0.24.0-0``,  ``0.23.0-0``,  ``0.22.1-0``,  ``0.22.0-0``,  ``0.21.0-0``,  ``0.20.0-0``,  ``0.19.3-0``,  ``0.19.2-0``,  ``0.18.2-1``
+      ``0.25.2-2``,  ``0.25.2-1``,  ``0.25.2-0``,  ``0.25.1-1``,  ``0.25.1-0``,  ``0.24.1-1``,  ``0.24.1-0``,  ``0.24.0-0``,  ``0.23.0-0``,  ``0.22.1-0``,  ``0.22.0-0``,  ``0.21.0-0``,  ``0.20.0-0``,  ``0.19.3-0``,  ``0.19.2-0``,  ``0.18.2-1``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ fastq_utils
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends ncurses: ``>=6.3,<7.0a0``
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends ncurses: ``>=6.5,<7.0a0``
    :depends samtools: 
    :depends zlib: 
    :requirements:
@@ -95,7 +95,7 @@ fastq_utils
 
     <script>
         var package = "fastq_utils";
-        var versions = ["0.25.2","0.25.2","0.25.1","0.25.1","0.24.1"];
+        var versions = ["0.25.2","0.25.2","0.25.2","0.25.1","0.25.1"];
     </script>
 
 

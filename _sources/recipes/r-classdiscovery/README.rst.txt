@@ -28,10 +28,10 @@ r-classdiscovery
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.5-0</code>,  <code>3.4.0-2</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.3.13-2</code>,  <code>3.3.13-1</code>,  <code>3.3.13-0</code>,  <code>3.3.12-2</code>,  <code>3.3.12-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.5-1</code>,  <code>3.4.5-0</code>,  <code>3.4.0-2</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.3.13-2</code>,  <code>3.3.13-1</code>,  <code>3.3.13-0</code>,  <code>3.3.12-2</code>,  </span></summary>
       
 
-      ``3.4.5-0``,  ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.13-2``,  ``3.3.13-1``,  ``3.3.13-0``,  ``3.3.12-2``,  ``3.3.12-1``,  ``3.3.12-0``,  ``3.3.11-0``,  ``3.3.9-1``,  ``3.3.9-0``
+      ``3.4.5-1``,  ``3.4.5-0``,  ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.13-2``,  ``3.3.13-1``,  ``3.3.13-0``,  ``3.3.12-2``,  ``3.3.12-1``,  ``3.3.12-0``,  ``3.3.11-0``,  ``3.3.9-1``,  ``3.3.9-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ r-classdiscovery
 
    
    :depends bioconductor-biobase: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cluster: 
    :depends r-mclust: 
    :depends r-oompabase: ``>=3.0.1``
@@ -96,7 +96,7 @@ r-classdiscovery
 
     <script>
         var package = "r-classdiscovery";
-        var versions = ["3.4.5","3.4.0","3.4.0","3.4.0","3.3.13"];
+        var versions = ["3.4.5","3.4.5","3.4.0","3.4.0","3.4.0"];
     </script>
 
 

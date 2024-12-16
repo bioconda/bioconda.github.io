@@ -27,7 +27,7 @@ batvi
       
       
 
-      ``1.04-8``,  ``1.04-7``,  ``1.04-6``,  ``1.04-5``,  ``1.04-4``,  ``1.04-3``,  ``1.04-2``,  ``1.04-1``
+      ``1.04-9``,  ``1.04-8``,  ``1.04-7``,  ``1.04-6``,  ``1.04-5``,  ``1.04-4``,  ``1.04-3``,  ``1.04-2``,  ``1.04-1``
 
       
 
@@ -35,9 +35,9 @@ batvi
    :depends bedtools: 
    :depends blast: 
    :depends bwa: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends openjdk: 
    :depends picard: 
    :depends samtools: 

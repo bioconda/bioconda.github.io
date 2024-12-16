@@ -27,29 +27,27 @@ bioconductor-fenr
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
    :depends r-assertthat: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
-   :depends r-httr: 
-   :depends r-jsonlite: 
+   :depends r-httr2: 
    :depends r-progress: 
    :depends r-purrr: 
    :depends r-readr: 
    :depends r-rlang: 
+   :depends r-rvest: 
    :depends r-shiny: 
    :depends r-stringr: 
    :depends r-tibble: 
    :depends r-tidyr: 
    :depends r-tidyselect: 
-   :depends r-xml: 
    :requirements:
 
    :additional platforms:
@@ -100,7 +98,7 @@ bioconductor-fenr
 
     <script>
         var package = "bioconductor-fenr";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

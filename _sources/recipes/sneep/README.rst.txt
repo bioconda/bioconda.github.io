@@ -27,14 +27,16 @@ sneep
       
       
 
-      ``1.1-1``,  ``1.1-0``,  ``1.0-0``,  ``0.9-0``,  ``0.8-0``,  ``0.7-0``,  ``0.4-1``,  ``0.4-0``
+      ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-0``,  ``0.9-0``,  ``0.8-0``,  ``0.7-0``,  ``0.4-1``,  ``0.4-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
    :depends bedtools: ``>=2.27.1``
+   :depends libgcc: 
    :depends libgcc-ng: ``>=12``
+   :depends libstdcxx: 
    :depends libstdcxx-ng: ``>=12``
    :depends matplotlib-base: 
    :depends numpy: ``>=1.19``
@@ -91,7 +93,7 @@ sneep
 
     <script>
         var package = "sneep";
-        var versions = ["1.1","1.1","1.0","0.9","0.8"];
+        var versions = ["1.1","1.1","1.1","1.0","0.9"];
     </script>
 
 

@@ -41,6 +41,7 @@ pairix
 
    
    :depends htslib: 
+   :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends perl: 
    :depends python: ``>=3.10,<3.11.0a0``

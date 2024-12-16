@@ -27,15 +27,15 @@ hydra-multi
       
       
 
-      ``0.5.4-3``,  ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.4-0``
+      ``0.5.4-4``,  ``0.5.4-3``,  ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.4-0``
 
       
 
    
-   :depends bedtools: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends bedtools: ``>=2.31.1,<3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends pysam: ``0.7.7.*``
    :depends python: ``>=2.7,<2.8.0a0``
    :depends python_abi: ``2.7.* *_cp27mu``
@@ -90,7 +90,7 @@ hydra-multi
 
     <script>
         var package = "hydra-multi";
-        var versions = ["0.5.4","0.5.4","0.5.4","0.5.4"];
+        var versions = ["0.5.4","0.5.4","0.5.4","0.5.4","0.5.4"];
     </script>
 
 

@@ -28,13 +28,13 @@ r-music
       
       
 
-      ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``
+      ``0.2.0-3``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``
 
       
 
    
    :depends bioconductor-biobase: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: 
    :depends r-mcmcpack: 
    :depends r-nnls: 
@@ -89,7 +89,7 @@ r-music
 
     <script>
         var package = "r-music";
-        var versions = ["0.2.0","0.2.0","0.2.0"];
+        var versions = ["0.2.0","0.2.0","0.2.0","0.2.0"];
     </script>
 
 

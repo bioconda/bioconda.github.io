@@ -40,16 +40,19 @@ rmats
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=18``
-   :depends libgfortran: ``5.*``
-   :depends libgfortran5: ``>=13.2.0``
+   :depends libgcc: ``>=13``
+   :depends libgfortran: 
+   :depends libgfortran5: ``>=13.3.0``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends numpy: ``>=1.22.4,<2.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
+   :depends star: ``>=2.5``
    :depends zlib: 
    :requirements:
 

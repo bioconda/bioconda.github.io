@@ -26,9 +26,17 @@ expansionhunterdenovo
    :versions:
       
       
+      .. raw:: html
 
-      ``0.9.0-8``,  ``0.9.0-7``,  ``0.9.0-6``,  ``0.9.0-5``,  ``0.9.0-4``,  ``0.9.0-3``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.9.0-9</code>,  <code>0.9.0-8</code>,  <code>0.9.0-7</code>,  <code>0.9.0-6</code>,  <code>0.9.0-5</code>,  <code>0.9.0-4</code>,  <code>0.9.0-3</code>,  <code>0.9.0-2</code>,  <code>0.9.0-1</code>,  </span></summary>
+      
 
+      ``0.9.0-9``,  ``0.9.0-8``,  ``0.9.0-7``,  ``0.9.0-6``,  ``0.9.0-5``,  ``0.9.0-4``,  ``0.9.0-3``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -36,10 +44,10 @@ expansionhunterdenovo
    :depends boost-cpp: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends cmake: 
-   :depends htslib: ``>=1.20,<1.22.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends spdlog: ``1.4.2.*``
    :depends zlib: 
    :requirements:

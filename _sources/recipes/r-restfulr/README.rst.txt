@@ -26,16 +26,24 @@ r-restfulr
    :versions:
       
       
+      .. raw:: html
 
-      ``0.0.15-4``,  ``0.0.15-3``,  ``0.0.15-2``,  ``0.0.15-1``,  ``0.0.15-0``,  ``0.0.14-0``,  ``0.0.13-2``,  ``0.0.13-1``,  ``0.0.13-0``
+         <details><summary><span class="truncated-version-list"><code>0.0.15-5</code>,  <code>0.0.15-4</code>,  <code>0.0.15-3</code>,  <code>0.0.15-2</code>,  <code>0.0.15-1</code>,  <code>0.0.15-0</code>,  <code>0.0.14-0</code>,  <code>0.0.13-2</code>,  <code>0.0.13-1</code>,  </span></summary>
+      
 
+      ``0.0.15-5``,  ``0.0.15-4``,  ``0.0.15-3``,  ``0.0.15-2``,  ``0.0.15-1``,  ``0.0.15-0``,  ``0.0.14-0``,  ``0.0.13-2``,  ``0.0.13-1``,  ``0.0.13-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-s4vectors: ``>=0.13.15``
-   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
+   :depends libgcc: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-rcurl: 
    :depends r-rjson: 
    :depends r-xml: 

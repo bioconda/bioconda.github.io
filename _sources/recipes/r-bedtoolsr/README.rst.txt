@@ -27,13 +27,13 @@ r-bedtoolsr
       
       
 
-      ``2.30.0.2-2``,  ``2.30.0.2-1``,  ``2.30.0.2-0``
+      ``2.30.0.2-3``,  ``2.30.0.2-2``,  ``2.30.0.2-1``,  ``2.30.0.2-0``
 
       
 
    
    :depends bedtools: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -84,7 +84,7 @@ r-bedtoolsr
 
     <script>
         var package = "r-bedtoolsr";
-        var versions = ["2.30.0.2","2.30.0.2","2.30.0.2"];
+        var versions = ["2.30.0.2","2.30.0.2","2.30.0.2","2.30.0.2"];
     </script>
 
 

@@ -27,12 +27,12 @@ emvc-2
       
       
 
-      ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends numpy: ``>=1.16.6,<=1.20.3``
    :depends python: ``3.8.1,<=3.8.5``
    :depends samtools: ``1.9``
@@ -89,7 +89,7 @@ emvc-2
 
     <script>
         var package = "emvc-2";
-        var versions = ["1.0","1.0","1.0"];
+        var versions = ["1.0","1.0","1.0","1.0"];
     </script>
 
 

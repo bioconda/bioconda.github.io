@@ -28,10 +28,10 @@ leviosam
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.2.1-2</code>,  <code>5.2.1-1</code>,  <code>5.2.1-0</code>,  <code>3.1.1-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.2.1-3</code>,  <code>5.2.1-2</code>,  <code>5.2.1-1</code>,  <code>5.2.1-0</code>,  <code>3.1.1-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-1</code>,  </span></summary>
       
 
-      ``5.2.1-2``,  ``5.2.1-1``,  ``5.2.1-0``,  ``3.1.1-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.1.2-0``
+      ``5.2.1-3``,  ``5.2.1-2``,  ``5.2.1-1``,  ``5.2.1-0``,  ``3.1.1-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.1.2-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ leviosam
       
 
    
-   :depends htslib: ``>=1.17,<1.22.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends htslib: ``>=1.11``
+   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends libcxx: ``>=18``
    :depends sdsl-lite: ``>=2.1.1``
    :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
@@ -95,7 +95,7 @@ leviosam
 
     <script>
         var package = "leviosam";
-        var versions = ["5.2.1","5.2.1","5.2.1","3.1.1","0.5.1"];
+        var versions = ["5.2.1","5.2.1","5.2.1","5.2.1","3.1.1"];
     </script>
 
 

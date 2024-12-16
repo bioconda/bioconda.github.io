@@ -27,7 +27,7 @@ ntstat
       
       
 
-      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -35,8 +35,8 @@ ntstat
    :depends _openmp_mutex: ``>=4.5``
    :depends btllib: ``>=1.7.2``
    :depends btllib: ``>=1.7.3,<2.0a0``
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends matplotlib-base: 
    :depends ntcard: 
    :depends numpy: 
@@ -98,7 +98,7 @@ ntstat
 
     <script>
         var package = "ntstat";
-        var versions = ["1.0.1","1.0.1","1.0.0"];
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.0"];
     </script>
 
 

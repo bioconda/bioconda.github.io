@@ -46,10 +46,12 @@ abyss
    
    :depends boost-cpp: 
    :depends btllib: ``>=1.7.3,<2.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends make: 
    :depends openmpi: ``>=4.1.6,<5.0a0``
    :depends perl: 
+   :depends util-linux: 
    :requirements:
 
    :additional platforms:

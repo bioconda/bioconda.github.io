@@ -28,10 +28,10 @@ soapdenovo-trans
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.04-6</code>,  <code>1.04-5</code>,  <code>1.04-4</code>,  <code>1.04-3</code>,  <code>1.04-2</code>,  <code>1.04-1</code>,  <code>1.04-0</code>,  <code>1.03-2</code>,  <code>1.03-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.04-7</code>,  <code>1.04-6</code>,  <code>1.04-5</code>,  <code>1.04-4</code>,  <code>1.04-3</code>,  <code>1.04-2</code>,  <code>1.04-1</code>,  <code>1.04-0</code>,  <code>1.03-3</code>,  </span></summary>
       
 
-      ``1.04-6``,  ``1.04-5``,  ``1.04-4``,  ``1.04-3``,  ``1.04-2``,  ``1.04-1``,  ``1.04-0``,  ``1.03-2``,  ``1.03-1``,  ``1.03-0``
+      ``1.04-7``,  ``1.04-6``,  ``1.04-5``,  ``1.04-4``,  ``1.04-3``,  ``1.04-2``,  ``1.04-1``,  ``1.04-0``,  ``1.03-3``,  ``1.03-2``,  ``1.03-1``,  ``1.03-0``
 
       
       .. raw:: html
@@ -40,8 +40,9 @@ soapdenovo-trans
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends samtools: ``>=0.1.19,<1.0a0``
    :depends zlib: 
    :requirements:
 

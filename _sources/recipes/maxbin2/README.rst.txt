@@ -28,10 +28,10 @@ maxbin2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.7-5</code>,  <code>2.2.7-4</code>,  <code>2.2.7-3</code>,  <code>2.2.7-2</code>,  <code>2.2.7-1</code>,  <code>2.2.7-0</code>,  <code>2.2.6-0</code>,  <code>2.2.4-1</code>,  <code>2.2.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.7-6</code>,  <code>2.2.7-5</code>,  <code>2.2.7-4</code>,  <code>2.2.7-3</code>,  <code>2.2.7-2</code>,  <code>2.2.7-1</code>,  <code>2.2.7-0</code>,  <code>2.2.6-0</code>,  <code>2.2.4-1</code>,  </span></summary>
       
 
-      ``2.2.7-5``,  ``2.2.7-4``,  ``2.2.7-3``,  ``2.2.7-2``,  ``2.2.7-1``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.1-1``,  ``2.2.1-0``
+      ``2.2.7-6``,  ``2.2.7-5``,  ``2.2.7-4``,  ``2.2.7-3``,  ``2.2.7-2``,  ``2.2.7-1``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.1-1``,  ``2.2.1-0``
 
       
       .. raw:: html
@@ -44,8 +44,8 @@ maxbin2
    :depends fraggenescan: ``>=1.30``
    :depends hmmer: 
    :depends idba: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends perl: ``5.26.*``
    :depends perl-lwp-simple: 
    :depends r-base: 

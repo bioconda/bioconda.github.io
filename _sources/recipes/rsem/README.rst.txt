@@ -56,9 +56,10 @@ rsem
    :depends bioconductor-biobase: 
    :depends bioconductor-ebseq: 
    :depends htslib: ``>=1.21,<1.22.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends perl-module-build: ``0.4234.*``
+   :depends perl-module-build: 
    :depends r-base: 
    :depends samtools: 
    :depends ucsc-bigwigsummary: 

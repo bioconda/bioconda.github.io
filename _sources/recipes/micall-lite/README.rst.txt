@@ -29,10 +29,10 @@ micall-lite
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1rc5-5</code>,  <code>0.1rc5-4</code>,  <code>0.1rc5-3</code>,  <code>0.1rc5-2</code>,  <code>0.1rc5-1</code>,  <code>0.1rc5-0</code>,  <code>0.1rc4-0</code>,  <code>0.1rc3-0</code>,  <code>0.1rc2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1rc5-6</code>,  <code>0.1rc5-5</code>,  <code>0.1rc5-4</code>,  <code>0.1rc5-3</code>,  <code>0.1rc5-2</code>,  <code>0.1rc5-1</code>,  <code>0.1rc5-0</code>,  <code>0.1rc4-0</code>,  <code>0.1rc3-0</code>,  </span></summary>
       
 
-      ``0.1rc5-5``,  ``0.1rc5-4``,  ``0.1rc5-3``,  ``0.1rc5-2``,  ``0.1rc5-1``,  ``0.1rc5-0``,  ``0.1rc4-0``,  ``0.1rc3-0``,  ``0.1rc2-0``,  ``0.1rc-0``
+      ``0.1rc5-6``,  ``0.1rc5-5``,  ``0.1rc5-4``,  ``0.1rc5-3``,  ``0.1rc5-2``,  ``0.1rc5-1``,  ``0.1rc5-0``,  ``0.1rc4-0``,  ``0.1rc3-0``,  ``0.1rc2-0``,  ``0.1rc-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ micall-lite
 
    
    :depends bowtie2: 
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python-levenshtein: 
    :depends python_abi: ``3.10.* *_cp310``

@@ -28,10 +28,10 @@ bioconductor-ndexr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.1-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.1-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  </span></summary>
       
 
-      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ bioconductor-ndexr
       
 
    
-   :depends bioconductor-rcx: ``>=1.6.0,<1.7.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-rcx: ``>=1.10.0,<1.11.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-httr: 
    :depends r-jsonlite: 
    :depends r-plyr: 
@@ -96,7 +96,7 @@ bioconductor-ndexr
 
     <script>
         var package = "bioconductor-ndexr";
-        var versions = ["1.24.0","1.22.0","1.20.0","1.16.0","1.14.0"];
+        var versions = ["1.28.0","1.24.0","1.22.0","1.20.0","1.16.0"];
     </script>
 
 

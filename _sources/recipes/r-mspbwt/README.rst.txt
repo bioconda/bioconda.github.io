@@ -27,20 +27,20 @@ r-mspbwt
       
       
 
-      ``0.1.0-1``,  ``0.1.0-0``
+      ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: ``>=1.11.8``
    :depends r-rcpp: ``<=1.0.12``
    :depends r-rrbgen: ``>=0.0.6``
    :depends r-rrbgen: ``>=0.0.6,<0.1.0a0``
    :depends r-stitch: ``>=1.7.0``
-   :depends r-stitch: ``>=1.7.0,<2.0a0``
+   :depends r-stitch: ``>=1.7.2,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -95,7 +95,7 @@ r-mspbwt
 
     <script>
         var package = "r-mspbwt";
-        var versions = ["0.1.0","0.1.0"];
+        var versions = ["0.1.0","0.1.0","0.1.0"];
     </script>
 
 

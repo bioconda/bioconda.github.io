@@ -30,7 +30,7 @@ svdss
       
       
 
-      ``2.0.0-0``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``
+      ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``
 
       
 
@@ -40,12 +40,12 @@ svdss
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends htslib: ``>=1.21,<1.22.0a0``
-   :depends libgcc: ``>=12``
+   :depends libgcc: ``>=13``
    :depends libgomp: 
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends liblzma: ``>=5.6.3,<6.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends samtools: ``>=1.9``
-   :depends xz: ``>=5.2.6,<6.0a0``
    :requirements:
 
    :additional platforms:
@@ -96,7 +96,7 @@ svdss
 
     <script>
         var package = "svdss";
-        var versions = ["2.0.0","1.0.5","1.0.5","1.0.5","1.0.4"];
+        var versions = ["2.0.0","2.0.0","1.0.5","1.0.5","1.0.5"];
     </script>
 
 
