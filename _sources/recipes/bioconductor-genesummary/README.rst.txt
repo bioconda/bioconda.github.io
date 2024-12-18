@@ -27,14 +27,14 @@ bioconductor-genesummary
       
       
 
-      ``0.99.6-0``,  ``0.99.4-1``,  ``0.99.4-0``,  ``0.99.3-1``,  ``0.99.3-0``
+      ``0.99.6-1``,  ``0.99.6-0``,  ``0.99.4-1``,  ``0.99.4-0``,  ``0.99.3-1``,  ``0.99.3-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-data-packages: ``>=20241103``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -85,7 +85,7 @@ bioconductor-genesummary
 
     <script>
         var package = "bioconductor-genesummary";
-        var versions = ["0.99.6","0.99.4","0.99.4","0.99.3","0.99.3"];
+        var versions = ["0.99.6","0.99.6","0.99.4","0.99.4","0.99.3"];
     </script>
 
 

@@ -30,10 +30,10 @@ k8
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2-4</code>,  <code>1.2-3</code>,  <code>1.2-2</code>,  <code>1.2-1</code>,  <code>1.2-0</code>,  <code>1.1-0</code>,  <code>1.0-0</code>,  <code>0.2.5-4</code>,  <code>0.2.5-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2-5</code>,  <code>1.2-4</code>,  <code>1.2-3</code>,  <code>1.2-2</code>,  <code>1.2-1</code>,  <code>1.2-0</code>,  <code>1.1-0</code>,  <code>1.0-0</code>,  <code>0.2.5-4</code>,  </span></summary>
       
 
-      ``1.2-4``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``,  ``0.2.5-4``,  ``0.2.5-3``,  ``0.2.5-2``,  ``0.2.5-1``,  ``0.2.5-0``
+      ``1.2-5``,  ``1.2-4``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``,  ``0.2.5-4``,  ``0.2.5-3``,  ``0.2.5-2``,  ``0.2.5-1``,  ``0.2.5-0``
 
       
       .. raw:: html

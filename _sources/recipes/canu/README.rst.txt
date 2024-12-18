@@ -12,11 +12,12 @@ canu
 
    Canu is a fork of the Celera Assembler designed for high\-noise single\-molecule sequencing.
 
-   :homepage: http://canu.readthedocs.org/
-   :developer docs: https://github.com/marbl/canu
-   :license: GPL / GPLv2 and others
+   :homepage: https://github.com/marbl/canu
+   :documentation: https://canu.readthedocs.org
+   
+   :license: GPL / GPL-2.0-or-later and others
    :recipe: /`canu <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/canu>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/canu/meta.yaml>`_
-   :links: usegalaxy-eu: :usegalaxy-eu:`canu`
+   :links: usegalaxy-eu: :usegalaxy-eu:`canu`, biotools: :biotools:`canu`, biotools: :biotools:`hicanu`, doi: :doi:`10.1101/gr.215087.116`, doi: :doi:`10.1038/nbt.4277`, doi: :doi:`10.1101/gr.263566.120`
 
    
 
@@ -30,10 +31,10 @@ canu
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2-0</code>,  <code>2.1.1-2</code>,  <code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.0-0</code>,  <code>1.9-1</code>,  <code>1.9-0</code>,  <code>1.8-2</code>,  <code>1.8-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3-0</code>,  <code>2.2-0</code>,  <code>2.1.1-2</code>,  <code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.0-0</code>,  <code>1.9-1</code>,  <code>1.9-0</code>,  <code>1.8-2</code>,  </span></summary>
       
 
-      ``2.2-0``,  ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.0-0``,  ``1.9-1``,  ``1.9-0``,  ``1.8-2``,  ``1.8-1``,  ``1.8-0``,  ``1.7.1-0``,  ``1.7-0``,  ``1.6-1``,  ``1.5-1``,  ``1.5-0``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``1.3-0``,  ``1.1-0``
+      ``2.3-0``,  ``2.2-0``,  ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.0-0``,  ``1.9-1``,  ``1.9-0``,  ``1.8-2``,  ``1.8-1``,  ``1.8-0``,  ``1.7.1-0``,  ``1.7-0``,  ``1.6-1``,  ``1.5-1``,  ``1.5-0``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``1.3-0``,  ``1.1-0``
 
       
       .. raw:: html
@@ -42,16 +43,26 @@ canu
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
+   :depends boost-cpp: 
    :depends gnuplot: ``>=5.2``
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libstdcxx-ng: ``>=9.4.0``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends minimap2: 
-   :depends openjdk: ``>=8``
+   :depends openjdk: ``>=20``
    :depends perl: 
    :depends perl-filesys-df: 
+   :depends samtools: 
+   :depends xorg-libxfixes: ``>=6.0.1,<7.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -99,7 +110,7 @@ canu
 
     <script>
         var package = "canu";
-        var versions = ["2.2","2.1.1","2.1.1","2.1.1","2.0"];
+        var versions = ["2.3","2.2","2.1.1","2.1.1","2.1.1"];
     </script>
 
 

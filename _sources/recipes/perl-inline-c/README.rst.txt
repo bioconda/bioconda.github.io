@@ -32,7 +32,8 @@ perl-inline-c
       
 
    
-   :depends clang_osx-64: ``18.*``
+   :depends gcc_linux-64: ``13.*``
+   :depends libgcc: ``>=13``
    :depends make: 
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-extutils-makemaker: 

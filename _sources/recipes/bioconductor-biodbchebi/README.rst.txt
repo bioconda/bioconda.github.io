@@ -27,13 +27,13 @@ bioconductor-biodbchebi
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.1-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-biodb: ``>=1.10.0,<1.11.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biodb: ``>=1.14.0,<1.15.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-r6: 
    :requirements:
 
@@ -85,7 +85,7 @@ bioconductor-biodbchebi
 
     <script>
         var package = "bioconductor-biodbchebi";
-        var versions = ["1.8.0","1.6.0","1.4.0","1.0.1"];
+        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.0.1"];
     </script>
 
 

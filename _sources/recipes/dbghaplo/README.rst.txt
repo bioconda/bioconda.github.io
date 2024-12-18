@@ -27,13 +27,13 @@ dbghaplo
       
       
 
-      ``0.0.2-0``
+      ``0.0.2-1``,  ``0.0.2-0``
 
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends lofreq: ``>=2.1.5``
    :depends minimap2: 
    :depends pysam: ``>=0.16``
@@ -90,7 +90,7 @@ dbghaplo
 
     <script>
         var package = "dbghaplo";
-        var versions = ["0.0.2"];
+        var versions = ["0.0.2","0.0.2"];
     </script>
 
 

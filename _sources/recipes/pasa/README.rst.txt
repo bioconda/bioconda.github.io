@@ -31,10 +31,10 @@ pasa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5.3-1</code>,  <code>2.5.3-0</code>,  <code>2.5.2-3</code>,  <code>2.5.2-2</code>,  <code>2.5.2-1</code>,  <code>2.5.2-0</code>,  <code>2.4.1-1</code>,  <code>2.4.1-0</code>,  <code>2.3.3-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.5.3-2</code>,  <code>2.5.3-1</code>,  <code>2.5.3-0</code>,  <code>2.5.2-3</code>,  <code>2.5.2-2</code>,  <code>2.5.2-1</code>,  <code>2.5.2-0</code>,  <code>2.4.1-1</code>,  <code>2.4.1-0</code>,  </span></summary>
       
 
-      ``2.5.3-1``,  ``2.5.3-0``,  ``2.5.2-3``,  ``2.5.2-2``,  ``2.5.2-1``,  ``2.5.2-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.3.3-2``,  ``2.3.3-1``,  ``2.3.3-0``
+      ``2.5.3-2``,  ``2.5.3-1``,  ``2.5.3-0``,  ``2.5.2-3``,  ``2.5.2-2``,  ``2.5.2-1``,  ``2.5.2-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.3.3-2``,  ``2.3.3-1``,  ``2.3.3-0``
 
       
       .. raw:: html
@@ -46,8 +46,8 @@ pasa
    :depends cdbtools: 
    :depends fasta3: ``>=36.3.8i``
    :depends gmap: ``>=2023.10.10``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends lighttpd: 
    :depends minimap2: ``>=2.22``
    :depends pblat: ``>=2.5``
@@ -111,7 +111,7 @@ pasa
 
     <script>
         var package = "pasa";
-        var versions = ["2.5.3","2.5.3","2.5.2","2.5.2","2.5.2"];
+        var versions = ["2.5.3","2.5.3","2.5.3","2.5.2","2.5.2"];
     </script>
 
 

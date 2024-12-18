@@ -27,19 +27,22 @@ seqsizzle
       
       
 
-      ``0.1.4-0``
+      ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.4-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends xz: ``>=5.2.6,<6.0a0``
-   :depends zlib: 
+   :depends libgcc: ``>=13``
+   :depends liblzma: ``>=5.6.3,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -87,7 +90,7 @@ seqsizzle
 
     <script>
         var package = "seqsizzle";
-        var versions = ["0.1.4"];
+        var versions = ["0.1.5","0.1.5","0.1.4"];
     </script>
 
 

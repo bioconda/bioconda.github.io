@@ -27,23 +27,24 @@ bioconductor-geneplast.data
       
       
 
-      ``0.99.7-0``,  ``0.99.6-2``,  ``0.99.6-1``,  ``0.99.6-0``,  ``0.99.4-0``,  ``0.99.2-2``,  ``0.99.2-1``,  ``0.99.2-0``
+      ``0.99.9-0``,  ``0.99.7-0``,  ``0.99.6-2``,  ``0.99.6-1``,  ``0.99.6-0``,  ``0.99.4-0``,  ``0.99.2-2``,  ``0.99.2-1``,  ``0.99.2-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-geneplast: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-treeio: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-geneplast: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-treeio: ``>=1.30.0,<1.31.0``
    :depends curl: 
    :depends r-ape: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-igraph: 
    :depends r-purrr: 
    :depends r-readr: 
    :depends r-tibble: 
+   :depends r-tidyr: 
    :requirements:
 
    :additional platforms:
@@ -94,7 +95,7 @@ bioconductor-geneplast.data
 
     <script>
         var package = "bioconductor-geneplast.data";
-        var versions = ["0.99.7","0.99.6","0.99.6","0.99.6","0.99.4"];
+        var versions = ["0.99.9","0.99.7","0.99.6","0.99.6","0.99.6"];
     </script>
 
 

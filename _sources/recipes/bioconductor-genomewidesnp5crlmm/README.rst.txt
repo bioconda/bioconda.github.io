@@ -28,10 +28,10 @@ bioconductor-genomewidesnp5crlmm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.6-12</code>,  <code>1.0.6-11</code>,  <code>1.0.6-10</code>,  <code>1.0.6-9</code>,  <code>1.0.6-8</code>,  <code>1.0.6-7</code>,  <code>1.0.6-6</code>,  <code>1.0.6-5</code>,  <code>1.0.6-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.6-13</code>,  <code>1.0.6-12</code>,  <code>1.0.6-11</code>,  <code>1.0.6-10</code>,  <code>1.0.6-9</code>,  <code>1.0.6-8</code>,  <code>1.0.6-7</code>,  <code>1.0.6-6</code>,  <code>1.0.6-5</code>,  </span></summary>
       
 
-      ``1.0.6-12``,  ``1.0.6-11``,  ``1.0.6-10``,  ``1.0.6-9``,  ``1.0.6-8``,  ``1.0.6-7``,  ``1.0.6-6``,  ``1.0.6-5``,  ``1.0.6-4``,  ``1.0.6-3``,  ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``
+      ``1.0.6-13``,  ``1.0.6-12``,  ``1.0.6-11``,  ``1.0.6-10``,  ``1.0.6-9``,  ``1.0.6-8``,  ``1.0.6-7``,  ``1.0.6-6``,  ``1.0.6-5``,  ``1.0.6-4``,  ``1.0.6-3``,  ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-genomewidesnp5crlmm
       
 
    
-   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-data-packages: ``>=20241103``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:

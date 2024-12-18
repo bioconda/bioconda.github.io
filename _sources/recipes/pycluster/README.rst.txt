@@ -28,10 +28,10 @@ pycluster
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.54-8</code>,  <code>1.54-7</code>,  <code>1.54-6</code>,  <code>1.54-5</code>,  <code>1.54-4</code>,  <code>1.54-3</code>,  <code>1.54-2</code>,  <code>1.54-1</code>,  <code>1.54-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.54-9</code>,  <code>1.54-8</code>,  <code>1.54-7</code>,  <code>1.54-6</code>,  <code>1.54-5</code>,  <code>1.54-4</code>,  <code>1.54-3</code>,  <code>1.54-2</code>,  <code>1.54-1</code>,  </span></summary>
       
 
-      ``1.54-8``,  ``1.54-7``,  ``1.54-6``,  ``1.54-5``,  ``1.54-4``,  ``1.54-3``,  ``1.54-2``,  ``1.54-1``,  ``1.54-0``,  ``1.52-1``
+      ``1.54-9``,  ``1.54-8``,  ``1.54-7``,  ``1.54-6``,  ``1.54-5``,  ``1.54-4``,  ``1.54-3``,  ``1.54-2``,  ``1.54-1``,  ``1.54-0``,  ``1.52-1``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ pycluster
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends numpy: ``>=1.22.4,<2.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``

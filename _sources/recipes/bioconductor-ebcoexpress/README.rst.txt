@@ -29,10 +29,10 @@ bioconductor-ebcoexpress
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.46.0-1</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.38.0-2</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.50.0-0</code>,  <code>1.46.0-1</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.38.0-2</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  </span></summary>
       
 
-      ``1.46.0-1``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.38.0-2``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``
+      ``1.50.0-0``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.38.0-2``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``
 
       
       .. raw:: html
@@ -41,12 +41,12 @@ bioconductor-ebcoexpress
       
 
    
-   :depends bioconductor-ebarrays: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-ebarrays: ``>=2.66.0,<2.67.0a0``
+   :depends bioconductor-ebarrays: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-ebarrays: ``>=2.70.0,<2.71.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-mclust: 
    :depends r-minqa: 
    :requirements:
@@ -103,7 +103,7 @@ bioconductor-ebcoexpress
 
     <script>
         var package = "bioconductor-ebcoexpress";
-        var versions = ["1.46.0","1.46.0","1.44.0","1.42.0","1.42.0"];
+        var versions = ["1.50.0","1.46.0","1.46.0","1.44.0","1.42.0"];
     </script>
 
 

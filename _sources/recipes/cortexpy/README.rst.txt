@@ -10,12 +10,12 @@ cortexpy
    :replaces_section_title:
    :noindex:
 
-   A Python API for manipulating \(Mc\)Cortex de novo assembly graph and link data
+   A Python API for manipulating \(Mc\)Cortex de novo assembly graph and link data.
 
    :homepage: https://github.com/winni2k/cortexpy
-   :documentation: https://cortexpy.readthedocs.io/en/v0.46.5/
+   :documentation: https://cortexpy.readthedocs.io/en/v0.46.5
    
-   :license: APACHE / Apache Software
+   :license: APACHE / Apache-2.0
    :recipe: /`cortexpy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cortexpy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cortexpy/meta.yaml>`_
 
    
@@ -30,10 +30,10 @@ cortexpy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.46.5-5</code>,  <code>0.46.5-4</code>,  <code>0.46.5-3</code>,  <code>0.46.5-2</code>,  <code>0.46.5-1</code>,  <code>0.46.5-0</code>,  <code>0.46.4-0</code>,  <code>0.45.7-0</code>,  <code>0.45.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.46.5-6</code>,  <code>0.46.5-5</code>,  <code>0.46.5-4</code>,  <code>0.46.5-3</code>,  <code>0.46.5-2</code>,  <code>0.46.5-1</code>,  <code>0.46.5-0</code>,  <code>0.46.4-0</code>,  <code>0.45.7-0</code>,  </span></summary>
       
 
-      ``0.46.5-5``,  ``0.46.5-4``,  ``0.46.5-3``,  ``0.46.5-2``,  ``0.46.5-1``,  ``0.46.5-0``,  ``0.46.4-0``,  ``0.45.7-0``,  ``0.45.6-0``,  ``0.44.0-0``,  ``0.41.1-0``
+      ``0.46.5-6``,  ``0.46.5-5``,  ``0.46.5-4``,  ``0.46.5-3``,  ``0.46.5-2``,  ``0.46.5-1``,  ``0.46.5-0``,  ``0.46.4-0``,  ``0.45.7-0``,  ``0.45.6-0``,  ``0.44.0-0``,  ``0.41.1-0``
 
       
       .. raw:: html
@@ -45,8 +45,8 @@ cortexpy
    :depends attrs: 
    :depends biopython: 
    :depends delegation: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends msgpack-python: 
    :depends networkx: 
    :depends numpy: 
@@ -57,6 +57,10 @@ cortexpy
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

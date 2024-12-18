@@ -28,10 +28,10 @@ bioconductor-curatedbreastdata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-0</code>,  <code>2.22.0-1</code>,  <code>2.22.0-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-1</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.34.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-0</code>,  <code>2.22.0-1</code>,  <code>2.22.0-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-1</code>,  <code>2.18.0-0</code>,  </span></summary>
       
 
-      ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-1``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.10.0-0``
+      ``2.34.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-1``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.10.0-0``
 
       
       .. raw:: html
@@ -40,12 +40,12 @@ bioconductor-curatedbreastdata
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biocstyle: ``>=2.30.0,<2.31.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-impute: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biocstyle: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-impute: ``>=1.80.0,<1.81.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: 
    :depends r-xml: 
    :requirements:
@@ -98,7 +98,7 @@ bioconductor-curatedbreastdata
 
     <script>
         var package = "bioconductor-curatedbreastdata";
-        var versions = ["2.30.0","2.28.0","2.26.0","2.22.0","2.22.0"];
+        var versions = ["2.34.0","2.30.0","2.28.0","2.26.0","2.22.0"];
     </script>
 
 

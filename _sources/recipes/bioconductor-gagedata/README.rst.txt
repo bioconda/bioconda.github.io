@@ -28,10 +28,10 @@ bioconductor-gagedata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.40.0-0</code>,  <code>2.38.0-0</code>,  <code>2.35.0-0</code>,  <code>2.32.0-1</code>,  <code>2.32.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-1</code>,  <code>2.28.0-0</code>,  <code>2.27.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.44.0-0</code>,  <code>2.40.0-0</code>,  <code>2.38.0-0</code>,  <code>2.35.0-0</code>,  <code>2.32.0-1</code>,  <code>2.32.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-1</code>,  <code>2.28.0-0</code>,  </span></summary>
       
 
-      ``2.40.0-0``,  ``2.38.0-0``,  ``2.35.0-0``,  ``2.32.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.28.0-0``,  ``2.27.0-0``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.10.0-0``,  ``2.8.0-0``
+      ``2.44.0-0``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.35.0-0``,  ``2.32.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.28.0-0``,  ``2.27.0-0``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.10.0-0``,  ``2.8.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-gagedata
       
 
    
-   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-data-packages: ``>=20241103``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -93,7 +93,7 @@ bioconductor-gagedata
 
     <script>
         var package = "bioconductor-gagedata";
-        var versions = ["2.40.0","2.38.0","2.35.0","2.32.0","2.32.0"];
+        var versions = ["2.44.0","2.40.0","2.38.0","2.35.0","2.32.0"];
     </script>
 
 

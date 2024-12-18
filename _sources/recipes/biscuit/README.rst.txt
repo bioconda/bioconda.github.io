@@ -10,13 +10,14 @@ biscuit
    :replaces_section_title:
    :noindex:
 
-   A utility for analyzing sodium bisulfite conversion\-based DNA methylation\/modification data
+   A utility for analyzing sodium bisulfite conversion\-based DNA methylation\/modification data.
 
    :homepage: https://github.com/huishenlab/biscuit
-   :documentation: https://huishenlab.github.io/biscuit/
+   :documentation: https://huishenlab.github.io/biscuit
    
    :license: MIT / MIT
    :recipe: /`biscuit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biscuit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biscuit/meta.yaml>`_
+   :links: doi: :doi:`10.1093/nar/gkae097`, biotools: :biotools:`biscuit`
 
    
 
@@ -30,10 +31,10 @@ biscuit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.0.20240506-1</code>,  <code>1.5.0.20240506-0</code>,  <code>1.4.0.20240108-0</code>,  <code>1.3.0.20231027-0</code>,  <code>1.2.1.20230601-2</code>,  <code>1.2.1.20230601-0</code>,  <code>1.2.0.20230130-2</code>,  <code>1.2.0.20230130-1</code>,  <code>1.2.0.20230130-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.0.20241216-0</code>,  <code>1.5.0.20240506-1</code>,  <code>1.5.0.20240506-0</code>,  <code>1.4.0.20240108-0</code>,  <code>1.3.0.20231027-0</code>,  <code>1.2.1.20230601-2</code>,  <code>1.2.1.20230601-0</code>,  <code>1.2.0.20230130-2</code>,  <code>1.2.0.20230130-1</code>,  </span></summary>
       
 
-      ``1.5.0.20240506-1``,  ``1.5.0.20240506-0``,  ``1.4.0.20240108-0``,  ``1.3.0.20231027-0``,  ``1.2.1.20230601-2``,  ``1.2.1.20230601-0``,  ``1.2.0.20230130-2``,  ``1.2.0.20230130-1``,  ``1.2.0.20230130-0``,  ``1.1.0.20220707-1``,  ``1.1.0.20220707-0``,  ``1.0.2.20220113-1``,  ``1.0.2.20220113-0``,  ``1.0.1.20211018-1``,  ``1.0.1.20211018-0``,  ``1.0.0.20210917-0``,  ``0.3.16.20200420-4``,  ``0.3.16.20200420-3``,  ``0.3.16.20200420-2``,  ``0.3.16.20200420-1``,  ``0.3.16.20200420-0``,  ``0.3.15.20200318-0``
+      ``1.6.0.20241216-0``,  ``1.5.0.20240506-1``,  ``1.5.0.20240506-0``,  ``1.4.0.20240108-0``,  ``1.3.0.20231027-0``,  ``1.2.1.20230601-2``,  ``1.2.1.20230601-0``,  ``1.2.0.20230130-2``,  ``1.2.0.20230130-1``,  ``1.2.0.20230130-0``,  ``1.1.0.20220707-1``,  ``1.1.0.20220707-0``,  ``1.0.2.20220113-1``,  ``1.0.2.20220113-0``,  ``1.0.1.20211018-1``,  ``1.0.1.20211018-0``,  ``1.0.0.20210917-0``,  ``0.3.16.20200420-4``,  ``0.3.16.20200420-3``,  ``0.3.16.20200420-2``,  ``0.3.16.20200420-1``,  ``0.3.16.20200420-0``,  ``0.3.15.20200318-0``
 
       
       .. raw:: html
@@ -42,15 +43,19 @@ biscuit
       
 
    
-   :depends libcurl: ``>=8.10.1,<9.0a0``
+   :depends libcurl: ``>=8.11.1,<9.0a0``
+   :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends ncurses: ``>=6.5,<7.0a0``
    :depends perl: 
    :depends pthread-stubs: 
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -98,7 +103,7 @@ biscuit
 
     <script>
         var package = "biscuit";
-        var versions = ["1.5.0.20240506","1.5.0.20240506","1.4.0.20240108","1.3.0.20231027","1.2.1.20230601"];
+        var versions = ["1.6.0.20241216","1.5.0.20240506","1.5.0.20240506","1.4.0.20240108","1.3.0.20231027"];
     </script>
 
 

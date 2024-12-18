@@ -31,10 +31,10 @@ open-cravat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.9.1-0</code>,  <code>2.9.0-0</code>,  <code>2.8.0-0</code>,  <code>2.7.3-0</code>,  <code>2.7.2-0</code>,  <code>2.7.1-0</code>,  <code>2.6.1-0</code>,  <code>2.6.0-0</code>,  <code>2.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.11.1-0</code>,  <code>2.11.0-0</code>,  <code>2.9.1-0</code>,  <code>2.9.0-0</code>,  <code>2.8.0-0</code>,  <code>2.7.3-0</code>,  <code>2.7.2-0</code>,  <code>2.7.1-0</code>,  <code>2.6.1-0</code>,  </span></summary>
       
 
-      ``2.9.1-0``,  ``2.9.0-0``,  ``2.8.0-0``,  ``2.7.3-0``,  ``2.7.2-0``,  ``2.7.1-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.0-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.9-0``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.5-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.2-0``
+      ``2.11.1-0``,  ``2.11.0-0``,  ``2.9.1-0``,  ``2.9.0-0``,  ``2.8.0-0``,  ``2.7.3-0``,  ``2.7.2-0``,  ``2.7.1-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.0-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.9-0``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.5-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.2-0``
 
       
       .. raw:: html
@@ -55,11 +55,12 @@ open-cravat
    :depends oyaml: 
    :depends psutil: 
    :depends pyliftover: 
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.9``
    :depends pyvcf3: 
    :depends pyyaml: 
    :depends requests: 
    :depends requests-toolbelt: 
+   :depends setuptools: 
    :depends twobitreader: 
    :depends websockets: 
    :depends xlsxwriter: 
@@ -113,7 +114,7 @@ open-cravat
 
     <script>
         var package = "open-cravat";
-        var versions = ["2.9.1","2.9.0","2.8.0","2.7.3","2.7.2"];
+        var versions = ["2.11.1","2.11.0","2.9.1","2.9.0","2.8.0"];
     </script>
 
 

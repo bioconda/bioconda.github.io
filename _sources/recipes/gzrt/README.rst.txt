@@ -10,9 +10,11 @@ gzrt
    :replaces_section_title:
    :noindex:
 
-   Unofficial build of the gzip Recovery Toolkit aka gzrecover
+   Unofficial build of the gzip Recovery Toolkit aka gzrecover.
 
    :homepage: https://www.urbanophile.com/arenn/hacking/gzrt
+   :documentation: https://github.com/arenn/gzrt/blob/v0.9.1/README
+   
    :developer docs: https://github.com/arenn/gzrt
    :license: GPL / GPL-2.0-only
    :recipe: /`gzrt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gzrt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gzrt/meta.yaml>`_
@@ -30,7 +32,7 @@ gzrt
       
       
 
-      ``0.8-1``,  ``0.8-0``
+      ``0.9.1-0``,  ``0.8-1``,  ``0.8-0``
 
       
 
@@ -43,7 +45,7 @@ gzrt
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -91,7 +93,7 @@ gzrt
 
     <script>
         var package = "gzrt";
-        var versions = ["0.8","0.8"];
+        var versions = ["0.9.1","0.8","0.8"];
     </script>
 
 

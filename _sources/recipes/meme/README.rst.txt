@@ -43,12 +43,13 @@ meme
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends icu: ``>=73.2,<74.0a0``
    :depends libexpat: ``>=2.6.4,<3.0a0``
+   :depends libgcc: ``>=13``
    :depends libxml2: ``>=2.12.7,<3.0a0``
    :depends libxslt: ``>=1.1.39,<2.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends llvm-openmp: ``>=18.1.8``
    :depends nodejs: ``>=22.6.0,<23.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-app-cpanminus: 

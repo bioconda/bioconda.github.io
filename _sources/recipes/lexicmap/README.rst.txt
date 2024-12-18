@@ -27,7 +27,7 @@ lexicmap
       
       
 
-      ``0.4.0-0``
+      ``0.5.0-0``,  ``0.4.0-0``
 
       
 
@@ -86,7 +86,7 @@ lexicmap
 
     <script>
         var package = "lexicmap";
-        var versions = ["0.4.0"];
+        var versions = ["0.5.0","0.4.0"];
     </script>
 
 

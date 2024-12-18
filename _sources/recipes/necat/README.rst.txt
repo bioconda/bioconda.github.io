@@ -30,14 +30,14 @@ necat
       
       
 
-      ``0.0.1_update20200803-5``,  ``0.0.1_update20200803-4``,  ``0.0.1_update20200803-3``,  ``0.0.1_update20200803-2``,  ``0.0.1_update20200803-1``,  ``0.0.1_update20200803-0``
+      ``0.0.1_update20200803-6``,  ``0.0.1_update20200803-5``,  ``0.0.1_update20200803-4``,  ``0.0.1_update20200803-3``,  ``0.0.1_update20200803-2``,  ``0.0.1_update20200803-1``,  ``0.0.1_update20200803-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends perl: 
    :depends perl-env: 
    :requirements:
@@ -46,7 +46,7 @@ necat
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

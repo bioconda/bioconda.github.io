@@ -27,16 +27,17 @@ bioconductor-rnaseqcovarimpute
       
       
 
-      ``1.0.2-0``
+      ``1.4.0-0``,  ``1.0.2-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-foreach: 
    :depends r-magrittr: 
@@ -92,7 +93,7 @@ bioconductor-rnaseqcovarimpute
 
     <script>
         var package = "bioconductor-rnaseqcovarimpute";
-        var versions = ["1.0.2"];
+        var versions = ["1.4.0","1.0.2"];
     </script>
 
 

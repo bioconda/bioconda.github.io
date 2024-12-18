@@ -13,7 +13,9 @@ makehub
    MakeHub is a command line tool for the fully automatic generation of of track data hubs for visualizing genomes with the UCSC genome browser.
 
    :homepage: https://github.com/Gaius-Augustus/MakeHub
-   :license: GPL / GPL-3.0
+   :documentation: https://github.com/Gaius-Augustus/MakeHub/blob/1.0.8/README.md
+   
+   :license: GPL / GPL-3.0-or-later
    :recipe: /`makehub <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/makehub>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/makehub/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ makehub
       
       
 
-      ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``
+      ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``
 
       
 
@@ -96,7 +98,7 @@ makehub
 
     <script>
         var package = "makehub";
-        var versions = ["1.0.8","1.0.7","1.0.6","1.0.5","1.0.5"];
+        var versions = ["1.0.8","1.0.8","1.0.7","1.0.6","1.0.5"];
     </script>
 
 

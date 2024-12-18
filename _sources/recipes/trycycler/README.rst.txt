@@ -27,7 +27,7 @@ trycycler
       
       
 
-      ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.1-0``
+      ``0.5.5-1``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.1-0``
 
       
 
@@ -44,6 +44,7 @@ trycycler
    :depends r-base: 
    :depends r-phangorn: 
    :depends scipy: 
+   :depends setuptools: 
    :requirements:
 
    :additional platforms:
@@ -94,7 +95,7 @@ trycycler
 
     <script>
         var package = "trycycler";
-        var versions = ["0.5.5","0.5.4","0.5.3","0.5.1","0.5.0"];
+        var versions = ["0.5.5","0.5.5","0.5.4","0.5.3","0.5.1"];
     </script>
 
 

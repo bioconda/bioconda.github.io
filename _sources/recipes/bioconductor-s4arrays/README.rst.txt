@@ -27,22 +27,22 @@ bioconductor-s4arrays
       
       
 
-      ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.4-0``
+      ``1.6.0-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.4-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.1,<0.49.0a0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0a0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0a0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-abind: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-crayon: 
    :depends r-matrix: 
    :requirements:
@@ -99,7 +99,7 @@ bioconductor-s4arrays
 
     <script>
         var package = "bioconductor-s4arrays";
-        var versions = ["1.2.0","1.2.0","1.2.0","1.0.4"];
+        var versions = ["1.6.0","1.2.0","1.2.0","1.2.0","1.0.4"];
     </script>
 
 

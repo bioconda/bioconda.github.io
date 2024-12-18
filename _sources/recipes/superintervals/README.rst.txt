@@ -27,7 +27,7 @@ superintervals
       
       
 
-      ``0.2.3-0``
+      ``0.2.5-0``,  ``0.2.3-0``
 
       
 
@@ -91,7 +91,7 @@ superintervals
 
     <script>
         var package = "superintervals";
-        var versions = ["0.2.3"];
+        var versions = ["0.2.5","0.2.3"];
     </script>
 
 

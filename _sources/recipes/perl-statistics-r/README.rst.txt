@@ -27,7 +27,7 @@ perl-statistics-r
       
       
 
-      ``0.34-6``,  ``0.34-5``,  ``0.34-4``,  ``0.34-3``,  ``0.34-2``,  ``0.34-1``,  ``0.34-0``
+      ``0.34-7``,  ``0.34-6``,  ``0.34-5``,  ``0.34-4``,  ``0.34-3``,  ``0.34-2``,  ``0.34-1``,  ``0.34-0``
 
       
 
@@ -37,7 +37,7 @@ perl-statistics-r
    :depends perl-regexp-common: 
    :depends perl-text-balanced: ``>=1.97``
    :depends perl-text-wrap: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:

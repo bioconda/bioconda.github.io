@@ -28,10 +28,10 @@ selene-sdk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.3-1</code>,  <code>0.5.3-0</code>,  <code>0.5.0-5</code>,  <code>0.5.0-4</code>,  <code>0.5.0-3</code>,  <code>0.5.0-1</code>,  <code>0.5.0-0</code>,  <code>0.4.8-3</code>,  <code>0.4.8-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.0-0</code>,  <code>0.5.3-1</code>,  <code>0.5.3-0</code>,  <code>0.5.0-5</code>,  <code>0.5.0-4</code>,  <code>0.5.0-3</code>,  <code>0.5.0-1</code>,  <code>0.5.0-0</code>,  <code>0.4.8-3</code>,  </span></summary>
       
 
-      ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.0-5``,  ``0.5.0-4``,  ``0.5.0-3``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.8-3``,  ``0.4.8-2``,  ``0.4.8-1``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.0.1-0``
+      ``0.6.0-0``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.0-5``,  ``0.5.0-4``,  ``0.5.0-3``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.8-3``,  ``0.4.8-2``,  ``0.4.8-1``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -43,20 +43,21 @@ selene-sdk
    :depends click: 
    :depends h5py: 
    :depends libgcc: ``>=13``
-   :depends matplotlib-base: 
-   :depends numpy: ``>=1.22.4,<2.0a0``
+   :depends matplotlib-base: ``>=2.2.3``
+   :depends numpy: ``>=1.24.4,<2.0a0``
    :depends pandas: 
    :depends plotly: 
    :depends pyfaidx: 
    :depends pytabix: 
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends python: ``>=3.8,<3.9.0a0``
+   :depends python_abi: ``3.8.* *_cp38``
+   :depends pytorch: ``>=1.0.0,<=2.3.1``
    :depends pyyaml: ``>=5.1``
+   :depends ruamel.yaml: 
    :depends scikit-learn: 
    :depends scipy: 
    :depends seaborn: 
    :depends statsmodels: 
-   :depends torchvision: 
    :requirements:
 
    :additional platforms:
@@ -111,7 +112,7 @@ selene-sdk
 
     <script>
         var package = "selene-sdk";
-        var versions = ["0.5.3","0.5.3","0.5.0","0.5.0","0.5.0"];
+        var versions = ["0.6.0","0.5.3","0.5.3","0.5.0","0.5.0"];
     </script>
 
 

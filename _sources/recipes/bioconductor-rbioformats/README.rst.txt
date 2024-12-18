@@ -27,15 +27,15 @@ bioconductor-rbioformats
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-ebimage: ``>=4.44.0,<4.45.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-ebimage: ``>=4.48.0,<4.49.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
    :depends openjdk: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-rjava: ``>=0.9-6``
    :requirements:
 
@@ -87,7 +87,7 @@ bioconductor-rbioformats
 
     <script>
         var package = "bioconductor-rbioformats";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

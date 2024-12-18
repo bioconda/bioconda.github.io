@@ -13,7 +13,7 @@ el_gato
    Perform Legionella pneumophila Sequence Based Typing \(SBT\) from short reads or assemblies.
 
    :homepage: https://github.com/appliedbinf/el_gato
-   :documentation: https://github.com/appliedbinf/el_gato/blob/1.20.1/README.md
+   :documentation: https://github.com/appliedbinf/el_gato/blob/1.20.2/README.md
    
    :license: MIT / MIT
    :recipe: /`el_gato <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/el_gato>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/el_gato/meta.yaml>`_
@@ -29,7 +29,7 @@ el_gato
       
       
 
-      ``1.20.1-0``,  ``1.19.0-0``,  ``1.18.2-0``,  ``1.18.1-0``,  ``1.18.0-0``,  ``1.15.2-0``,  ``1.15.0-0``,  ``1.14.4-0``
+      ``1.20.2-0``,  ``1.20.1-0``,  ``1.19.0-0``,  ``1.18.2-0``,  ``1.18.1-0``,  ``1.18.0-0``,  ``1.15.2-0``,  ``1.15.0-0``,  ``1.14.4-0``
 
       
 
@@ -93,7 +93,7 @@ el_gato
 
     <script>
         var package = "el_gato";
-        var versions = ["1.20.1","1.19.0","1.18.2","1.18.1","1.18.0"];
+        var versions = ["1.20.2","1.20.1","1.19.0","1.18.2","1.18.1"];
     </script>
 
 

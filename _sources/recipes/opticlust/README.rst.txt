@@ -29,7 +29,7 @@ opticlust
       
       
 
-      ``0.3.0-0``
+      ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``
 
       
 
@@ -42,6 +42,7 @@ opticlust
    :depends python: ``>=3.9``
    :depends python-igraph: ``>=0.10``
    :depends scanpy: ``>=1.10``
+   :depends scikit-learn: ``>=1.1``
    :requirements:
 
    :additional platforms:
@@ -92,7 +93,7 @@ opticlust
 
     <script>
         var package = "opticlust";
-        var versions = ["0.3.0"];
+        var versions = ["0.4.1","0.4.0","0.3.0"];
     </script>
 
 

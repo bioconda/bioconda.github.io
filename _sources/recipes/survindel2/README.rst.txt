@@ -28,14 +28,14 @@ survindel2
       
       
 
-      ``1.1.3-0``
+      ``1.1.3-1``,  ``1.1.3-0``
 
       
 
    
-   :depends htslib: ``>=1.20,<1.22.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends numpy: 
    :depends pyfaidx: ``>=0.5.9.1``
    :depends pysam: ``>=0.16.0.1``
@@ -90,7 +90,7 @@ survindel2
 
     <script>
         var package = "survindel2";
-        var versions = ["1.1.3"];
+        var versions = ["1.1.3","1.1.3"];
     </script>
 
 

@@ -12,8 +12,10 @@ mrbayes
 
    Bayesian Inference of Phylogeny
 
-   :homepage: http://mrbayes.sourceforge.net
-   :license: GPL / GPLv3
+   :homepage: https://github.com/NBISweden/MrBayes
+   :documentation: https://nbisweden.github.io/MrBayes/
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`mrbayes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mrbayes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mrbayes/meta.yaml>`_
    :links: biotools: :biotools:`mrbayes`
 
@@ -53,6 +55,10 @@ mrbayes
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

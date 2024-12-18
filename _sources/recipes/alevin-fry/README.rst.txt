@@ -28,10 +28,10 @@ alevin-fry
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.11.0-0</code>,  <code>0.10.0-0</code>,  <code>0.9.0-1</code>,  <code>0.9.0-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-2</code>,  <code>0.8.1-1</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.11.0-1</code>,  <code>0.11.0-0</code>,  <code>0.10.0-0</code>,  <code>0.9.0-1</code>,  <code>0.9.0-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-2</code>,  <code>0.8.1-1</code>,  <code>0.8.1-0</code>,  </span></summary>
       
 
-      ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.2-0``,  ``0.8.1-2``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.11.0-1``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.2-0``,  ``0.8.1-2``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -48,7 +48,7 @@ alevin-fry
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -96,7 +96,7 @@ alevin-fry
 
     <script>
         var package = "alevin-fry";
-        var versions = ["0.11.0","0.10.0","0.9.0","0.9.0","0.8.2"];
+        var versions = ["0.11.0","0.11.0","0.10.0","0.9.0","0.9.0"];
     </script>
 
 

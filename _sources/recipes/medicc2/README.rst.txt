@@ -31,10 +31,10 @@ medicc2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.0.4-0</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.0.4-0</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.9.2-0</code>,  </span></summary>
       
 
-      ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.4-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.9.2-0``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.8.3-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6b1-0``,  ``0.5b4-0``,  ``0.5b3-0``
+      ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.4-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.9.2-0``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.8.3-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6b1-0``,  ``0.5b4-0``,  ``0.5b3-0``
 
       
       .. raw:: html
@@ -45,8 +45,8 @@ medicc2
    
    :depends biopython: ``>=1.78``
    :depends joblib: ``>=1.0.1``
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends matplotlib-base: ``>=3.3.4``
    :depends numpy: ``>=1.20.1,<2.0``
    :depends numpy: ``>=1.21,<3``
@@ -107,7 +107,7 @@ medicc2
 
     <script>
         var package = "medicc2";
-        var versions = ["1.1.2","1.1.1","1.0.4","1.0.2","1.0.2"];
+        var versions = ["1.1.2","1.1.2","1.1.1","1.0.4","1.0.2"];
     </script>
 
 

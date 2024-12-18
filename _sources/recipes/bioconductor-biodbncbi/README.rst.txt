@@ -27,13 +27,13 @@ bioconductor-biodbncbi
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biodb: ``>=1.10.0,<1.11.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biodb: ``>=1.14.0,<1.15.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-chk: 
    :depends r-r6: 
    :depends r-xml: 
@@ -87,7 +87,7 @@ bioconductor-biodbncbi
 
     <script>
         var package = "bioconductor-biodbncbi";
-        var versions = ["1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.10.0","1.6.0","1.4.0","1.2.0"];
     </script>
 
 

@@ -29,10 +29,10 @@ bioconductor-flowclust
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.40.0-1</code>,  <code>3.40.0-0</code>,  <code>3.38.0-0</code>,  <code>3.36.0-1</code>,  <code>3.36.0-0</code>,  <code>3.32.0-2</code>,  <code>3.32.0-1</code>,  <code>3.32.0-0</code>,  <code>3.30.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.44.0-0</code>,  <code>3.40.0-1</code>,  <code>3.40.0-0</code>,  <code>3.38.0-0</code>,  <code>3.36.0-1</code>,  <code>3.36.0-0</code>,  <code>3.32.0-2</code>,  <code>3.32.0-1</code>,  <code>3.32.0-0</code>,  </span></summary>
       
 
-      ``3.40.0-1``,  ``3.40.0-0``,  ``3.38.0-0``,  ``3.36.0-1``,  ``3.36.0-0``,  ``3.32.0-2``,  ``3.32.0-1``,  ``3.32.0-0``,  ``3.30.0-0``,  ``3.28.0-2``,  ``3.28.0-1``,  ``3.28.0-0``,  ``3.26.0-0``,  ``3.24.0-0``,  ``3.22.0-1``,  ``3.20.0-0``
+      ``3.44.0-0``,  ``3.40.0-1``,  ``3.40.0-0``,  ``3.38.0-0``,  ``3.36.0-1``,  ``3.36.0-0``,  ``3.32.0-2``,  ``3.32.0-1``,  ``3.32.0-0``,  ``3.30.0-0``,  ``3.28.0-2``,  ``3.28.0-1``,  ``3.28.0-0``,  ``3.26.0-0``,  ``3.24.0-0``,  ``3.22.0-1``,  ``3.20.0-0``
 
       
       .. raw:: html
@@ -41,18 +41,18 @@ bioconductor-flowclust
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.1,<0.49.0a0``
-   :depends bioconductor-flowcore: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-flowcore: ``>=2.14.0,<2.15.0a0``
-   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-graph: ``>=1.80.0,<1.81.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0a0``
+   :depends bioconductor-flowcore: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-flowcore: ``>=2.18.0,<2.19.0a0``
+   :depends bioconductor-graph: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-graph: ``>=1.84.0,<1.85.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -107,7 +107,7 @@ bioconductor-flowclust
 
     <script>
         var package = "bioconductor-flowclust";
-        var versions = ["3.40.0","3.40.0","3.38.0","3.36.0","3.36.0"];
+        var versions = ["3.44.0","3.40.0","3.40.0","3.38.0","3.36.0"];
     </script>
 
 

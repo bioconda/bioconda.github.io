@@ -28,10 +28,10 @@ bioconductor-flowworkspacedata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.14.0-0</code>,  <code>3.12.0-0</code>,  <code>3.9.0-0</code>,  <code>3.6.0-1</code>,  <code>3.6.0-0</code>,  <code>3.4.0-0</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>3.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.18.0-0</code>,  <code>3.14.0-0</code>,  <code>3.12.0-0</code>,  <code>3.9.0-0</code>,  <code>3.6.0-1</code>,  <code>3.6.0-0</code>,  <code>3.4.0-0</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  </span></summary>
       
 
-      ``3.14.0-0``,  ``3.12.0-0``,  ``3.9.0-0``,  ``3.6.0-1``,  ``3.6.0-0``,  ``3.4.0-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.18.0-0``
+      ``3.18.0-0``,  ``3.14.0-0``,  ``3.12.0-0``,  ``3.9.0-0``,  ``3.6.0-1``,  ``3.6.0-0``,  ``3.4.0-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.18.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-flowworkspacedata
       
 
    
-   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-data-packages: ``>=20241103``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -93,7 +93,7 @@ bioconductor-flowworkspacedata
 
     <script>
         var package = "bioconductor-flowworkspacedata";
-        var versions = ["3.14.0","3.12.0","3.9.0","3.6.0","3.6.0"];
+        var versions = ["3.18.0","3.14.0","3.12.0","3.9.0","3.6.0"];
     </script>
 
 

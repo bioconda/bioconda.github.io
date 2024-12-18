@@ -28,10 +28,10 @@ alignstats
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.10-3</code>,  <code>0.10-2</code>,  <code>0.10-1</code>,  <code>0.10-0</code>,  <code>0.9.1-2</code>,  <code>0.9.1-1</code>,  <code>0.9.1-0</code>,  <code>0.9-0</code>,  <code>0.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.11-0</code>,  <code>0.10-3</code>,  <code>0.10-2</code>,  <code>0.10-1</code>,  <code>0.10-0</code>,  <code>0.9.1-2</code>,  <code>0.9.1-1</code>,  <code>0.9.1-0</code>,  <code>0.9-0</code>,  </span></summary>
       
 
-      ``0.10-3``,  ``0.10-2``,  ``0.10-1``,  ``0.10-0``,  ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.9-0``,  ``0.8-0``,  ``0.7-0``,  ``0.5-1``,  ``0.5-0``,  ``0.3-1``,  ``0.3-0``
+      ``0.11-0``,  ``0.10-3``,  ``0.10-2``,  ``0.10-1``,  ``0.10-0``,  ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.9-0``,  ``0.8-0``,  ``0.7-0``,  ``0.5-1``,  ``0.5-0``,  ``0.3-1``,  ``0.3-0``
 
       
       .. raw:: html
@@ -49,7 +49,7 @@ alignstats
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -97,7 +97,7 @@ alignstats
 
     <script>
         var package = "alignstats";
-        var versions = ["0.10","0.10","0.10","0.10","0.9.1"];
+        var versions = ["0.11","0.10","0.10","0.10","0.10"];
     </script>
 
 

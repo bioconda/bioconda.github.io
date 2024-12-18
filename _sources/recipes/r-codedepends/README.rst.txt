@@ -27,13 +27,13 @@ r-codedepends
       
       
 
-      ``0.6.6-0``,  ``0.6.5-4``,  ``0.6.5-3``,  ``0.6.5-2``,  ``0.6.5-1``,  ``0.6.5-0``
+      ``0.6.6-1``,  ``0.6.6-0``,  ``0.6.5-4``,  ``0.6.5-3``,  ``0.6.5-2``,  ``0.6.5-1``,  ``0.6.5-0``
 
       
 
    
    :depends bioconductor-graph: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-codetools: 
    :depends r-xml: 
    :requirements:
@@ -86,7 +86,7 @@ r-codedepends
 
     <script>
         var package = "r-codedepends";
-        var versions = ["0.6.6","0.6.5","0.6.5","0.6.5","0.6.5"];
+        var versions = ["0.6.6","0.6.6","0.6.5","0.6.5","0.6.5"];
     </script>
 
 
