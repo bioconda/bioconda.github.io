@@ -28,10 +28,10 @@ bioconductor-tpp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.30.0-0</code>,  <code>3.28.0-0</code>,  <code>3.26.0-0</code>,  <code>3.22.0-0</code>,  <code>3.20.0-0</code>,  <code>3.18.0-1</code>,  <code>3.18.0-0</code>,  <code>3.16.0-0</code>,  <code>3.14.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.34.0-0</code>,  <code>3.30.0-0</code>,  <code>3.28.0-0</code>,  <code>3.26.0-0</code>,  <code>3.22.0-0</code>,  <code>3.20.0-0</code>,  <code>3.18.0-1</code>,  <code>3.18.0-0</code>,  <code>3.16.0-0</code>,  </span></summary>
       
 
-      ``3.30.0-0``,  ``3.28.0-0``,  ``3.26.0-0``,  ``3.22.0-0``,  ``3.20.0-0``,  ``3.18.0-1``,  ``3.18.0-0``,  ``3.16.0-0``,  ``3.14.0-0``,  ``3.12.0-1``,  ``3.10.1-0``,  ``3.10.0-0``
+      ``3.34.0-0``,  ``3.30.0-0``,  ``3.28.0-0``,  ``3.26.0-0``,  ``3.22.0-0``,  ``3.20.0-0``,  ``3.18.0-1``,  ``3.18.0-0``,  ``3.16.0-0``,  ``3.14.0-0``,  ``3.12.0-1``,  ``3.10.1-0``,  ``3.10.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-tpp
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biobroom: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biobroom: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-broom: 
    :depends r-data.table: 
    :depends r-doparallel: 
@@ -119,7 +119,7 @@ bioconductor-tpp
 
     <script>
         var package = "bioconductor-tpp";
-        var versions = ["3.30.0","3.28.0","3.26.0","3.22.0","3.20.0"];
+        var versions = ["3.34.0","3.30.0","3.28.0","3.26.0","3.22.0"];
     </script>
 
 

@@ -29,10 +29,10 @@ bioconductor-cghcall
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.64.0-0</code>,  <code>2.62.0-0</code>,  <code>2.60.0-0</code>,  <code>2.56.0-0</code>,  <code>2.54.0-0</code>,  <code>2.52.0-1</code>,  <code>2.52.0-0</code>,  <code>2.50.0-0</code>,  <code>2.48.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.68.0-0</code>,  <code>2.64.0-0</code>,  <code>2.62.0-0</code>,  <code>2.60.0-0</code>,  <code>2.56.0-0</code>,  <code>2.54.0-0</code>,  <code>2.52.0-1</code>,  <code>2.52.0-0</code>,  <code>2.50.0-0</code>,  </span></summary>
       
 
-      ``2.64.0-0``,  ``2.62.0-0``,  ``2.60.0-0``,  ``2.56.0-0``,  ``2.54.0-0``,  ``2.52.0-1``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-1``,  ``2.44.0-1``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.34.1-0``,  ``2.34.0-0``
+      ``2.68.0-0``,  ``2.64.0-0``,  ``2.62.0-0``,  ``2.60.0-0``,  ``2.56.0-0``,  ``2.54.0-0``,  ``2.52.0-1``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-1``,  ``2.44.0-1``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.34.1-0``,  ``2.34.0-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ bioconductor-cghcall
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-cghbase: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-dnacopy: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-impute: ``>=1.76.0,<1.77.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-cghbase: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-dnacopy: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-impute: ``>=1.80.0,<1.81.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-snowfall: 
    :requirements:
 
@@ -97,7 +97,7 @@ bioconductor-cghcall
 
     <script>
         var package = "bioconductor-cghcall";
-        var versions = ["2.64.0","2.62.0","2.60.0","2.56.0","2.54.0"];
+        var versions = ["2.68.0","2.64.0","2.62.0","2.60.0","2.56.0"];
     </script>
 
 

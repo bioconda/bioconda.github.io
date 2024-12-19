@@ -28,7 +28,7 @@ deltapd
       
       
 
-      ``0.1.5-5``,  ``0.1.5-4``,  ``0.1.5-3``,  ``0.1.5-2``,  ``0.1.5-1``,  ``0.1.5-0``
+      ``0.1.5-6``,  ``0.1.5-5``,  ``0.1.5-4``,  ``0.1.5-3``,  ``0.1.5-2``,  ``0.1.5-1``,  ``0.1.5-0``
 
       
 
@@ -36,8 +36,8 @@ deltapd
    :depends dendropy: 
    :depends ete3: 
    :depends jinja2: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends matplotlib-base: 
    :depends numpy: ``>=1.22.4,<2.0a0``
    :depends phylodm: 

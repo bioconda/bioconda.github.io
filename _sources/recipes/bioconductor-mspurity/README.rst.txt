@@ -29,10 +29,10 @@ bioconductor-mspurity
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.20.0-2</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.32.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.20.0-2</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  </span></summary>
       
 
-      ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.20.0-2``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.2-1``,  ``1.16.2-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.2-0``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.5.4-1``,  ``1.5.4-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.9-0``
+      ``1.32.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.20.0-2``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.2-1``,  ``1.16.2-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.2-0``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.5.4-1``,  ``1.5.4-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.9-0``
 
       
       .. raw:: html
@@ -41,13 +41,13 @@ bioconductor-mspurity
       
 
    
-   :depends bioconductor-mzr: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-mzr: ``>=2.36.0,<2.37.0a0``
+   :depends bioconductor-mzr: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-mzr: ``>=2.40.0,<2.41.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dbi: 
    :depends r-dbplyr: 
    :depends r-dosnow: 
@@ -111,7 +111,7 @@ bioconductor-mspurity
 
     <script>
         var package = "bioconductor-mspurity";
-        var versions = ["1.28.0","1.26.0","1.24.0","1.24.0","1.20.0"];
+        var versions = ["1.32.0","1.28.0","1.26.0","1.24.0","1.24.0"];
     </script>
 
 

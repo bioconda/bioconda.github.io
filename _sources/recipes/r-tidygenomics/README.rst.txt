@@ -28,10 +28,10 @@ r-tidygenomics
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.2-7</code>,  <code>0.1.2-6</code>,  <code>0.1.2-5</code>,  <code>0.1.2-4</code>,  <code>0.1.2-3</code>,  <code>0.1.2-2</code>,  <code>0.1.2-1</code>,  <code>0.1.2-0</code>,  <code>0.1.0-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.2-8</code>,  <code>0.1.2-7</code>,  <code>0.1.2-6</code>,  <code>0.1.2-5</code>,  <code>0.1.2-4</code>,  <code>0.1.2-3</code>,  <code>0.1.2-2</code>,  <code>0.1.2-1</code>,  <code>0.1.2-0</code>,  </span></summary>
       
 
-      ``0.1.2-7``,  ``0.1.2-6``,  ``0.1.2-5``,  ``0.1.2-4``,  ``0.1.2-3``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-0``
+      ``0.1.2-8``,  ``0.1.2-7``,  ``0.1.2-6``,  ``0.1.2-5``,  ``0.1.2-4``,  ``0.1.2-3``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ r-tidygenomics
       
 
    
-   :depends bioconductor-iranges: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-fuzzyjoin: ``>=0.1.3``
    :depends r-purrr: 

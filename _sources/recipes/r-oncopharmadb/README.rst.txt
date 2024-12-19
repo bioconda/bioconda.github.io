@@ -26,9 +26,17 @@ r-oncopharmadb
    :versions:
       
       
+      .. raw:: html
 
-      ``1.8.1-1``,  ``1.8.1-0``,  ``1.7.0-0``,  ``1.5.1-0``,  ``1.4.6-0``,  ``1.4.4-0``,  ``1.3.7-0``,  ``0.0.1-1``,  ``0.0.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.8.7-0</code>,  <code>1.8.1-1</code>,  <code>1.8.1-0</code>,  <code>1.7.0-0</code>,  <code>1.5.1-0</code>,  <code>1.4.6-0</code>,  <code>1.4.4-0</code>,  <code>1.3.7-0</code>,  <code>0.0.1-1</code>,  </span></summary>
+      
 
+      ``1.8.7-0``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.7.0-0``,  ``1.5.1-0``,  ``1.4.6-0``,  ``1.4.4-0``,  ``1.3.7-0``,  ``0.0.1-1``,  ``0.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -93,7 +101,7 @@ r-oncopharmadb
 
     <script>
         var package = "r-oncopharmadb";
-        var versions = ["1.8.1","1.8.1","1.7.0","1.5.1","1.4.6"];
+        var versions = ["1.8.7","1.8.1","1.8.1","1.7.0","1.5.1"];
     </script>
 
 

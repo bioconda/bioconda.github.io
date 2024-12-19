@@ -27,14 +27,14 @@ r-crmn
       
       
 
-      ``0.0.21-4``,  ``0.0.21-3``,  ``0.0.21-2``,  ``0.0.21-1``,  ``0.0.21-0``
+      ``0.0.21-5``,  ``0.0.21-4``,  ``0.0.21-3``,  ``0.0.21-2``,  ``0.0.21-1``,  ``0.0.21-0``
 
       
 
    
    :depends bioconductor-biobase: 
    :depends bioconductor-pcamethods: ``>=1.56.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:

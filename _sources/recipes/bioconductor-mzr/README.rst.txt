@@ -29,10 +29,10 @@ bioconductor-mzr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.36.0-1</code>,  <code>2.36.0-0</code>,  <code>2.34.1-0</code>,  <code>2.32.0-1</code>,  <code>2.32.0-0</code>,  <code>2.28.0-2</code>,  <code>2.28.0-1</code>,  <code>2.28.0-0</code>,  <code>2.26.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.40.0-0</code>,  <code>2.36.0-1</code>,  <code>2.36.0-0</code>,  <code>2.34.1-0</code>,  <code>2.32.0-1</code>,  <code>2.32.0-0</code>,  <code>2.28.0-2</code>,  <code>2.28.0-1</code>,  <code>2.28.0-0</code>,  </span></summary>
       
 
-      ``2.36.0-1``,  ``2.36.0-0``,  ``2.34.1-0``,  ``2.32.0-1``,  ``2.32.0-0``,  ``2.28.0-2``,  ``2.28.0-1``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.1-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-1``,  ``2.16.2-1``,  ``2.16.2-0``,  ``2.16.0-0``,  ``2.12.0-1``,  ``2.10.0-0``,  ``2.6.3-1``,  ``2.6.3-0``,  ``2.4.1-1``
+      ``2.40.0-0``,  ``2.36.0-1``,  ``2.36.0-0``,  ``2.34.1-0``,  ``2.32.0-1``,  ``2.32.0-0``,  ``2.28.0-2``,  ``2.28.0-1``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.1-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-1``,  ``2.16.2-1``,  ``2.16.2-0``,  ``2.16.0-0``,  ``2.12.0-1``,  ``2.10.0-0``,  ``2.6.3-1``,  ``2.6.3-0``,  ``2.4.1-1``
 
       
       .. raw:: html
@@ -41,19 +41,19 @@ bioconductor-mzr
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.1,<0.49.0a0``
-   :depends bioconductor-protgenerics: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-protgenerics: ``>=1.34.0,<1.35.0a0``
-   :depends bioconductor-rhdf5lib: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-rhdf5lib: ``>=1.24.0,<1.25.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0a0``
+   :depends bioconductor-protgenerics: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-protgenerics: ``>=1.38.0,<1.39.0a0``
+   :depends bioconductor-rhdf5lib: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-rhdf5lib: ``>=1.28.0,<1.29.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ncdf4: 
    :depends r-rcpp: ``>=0.10.1``
    :requirements:
@@ -110,7 +110,7 @@ bioconductor-mzr
 
     <script>
         var package = "bioconductor-mzr";
-        var versions = ["2.36.0","2.36.0","2.34.1","2.32.0","2.32.0"];
+        var versions = ["2.40.0","2.36.0","2.36.0","2.34.1","2.32.0"];
     </script>
 
 

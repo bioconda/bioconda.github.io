@@ -27,13 +27,13 @@ multixrank
       
       
 
-      ``0.1-1``
+      ``0.3-0``,  ``0.1-1``
 
       
 
    
    :depends networkx: ``2.5``
-   :depends numpy: 
+   :depends numpy: ``<2``
    :depends pandas: 
    :depends psutil: 
    :depends python: 
@@ -89,7 +89,7 @@ multixrank
 
     <script>
         var package = "multixrank";
-        var versions = ["0.1"];
+        var versions = ["0.3","0.1"];
     </script>
 
 

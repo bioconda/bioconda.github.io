@@ -28,10 +28,10 @@ r-perfmeas
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.5-3</code>,  <code>1.2.5-2</code>,  <code>1.2.5-1</code>,  <code>1.2.5-0</code>,  <code>1.2.1-7</code>,  <code>1.2.1-6</code>,  <code>1.2.1-5</code>,  <code>1.2.1-4</code>,  <code>1.2.1-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.5-4</code>,  <code>1.2.5-3</code>,  <code>1.2.5-2</code>,  <code>1.2.5-1</code>,  <code>1.2.5-0</code>,  <code>1.2.1-7</code>,  <code>1.2.1-6</code>,  <code>1.2.1-5</code>,  <code>1.2.1-4</code>,  </span></summary>
       
 
-      ``1.2.5-3``,  ``1.2.5-2``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.1-7``,  ``1.2.1-6``,  ``1.2.1-5``,  ``1.2.1-4``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-0``
+      ``1.2.5-4``,  ``1.2.5-3``,  ``1.2.5-2``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.1-7``,  ``1.2.1-6``,  ``1.2.1-5``,  ``1.2.1-4``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ r-perfmeas
       
 
    
-   :depends bioconductor-graph: 
-   :depends bioconductor-limma: 
-   :depends bioconductor-rbgl: 
-   :depends libgcc-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-graph: ``>=1.84.0,<1.85.0a0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0a0``
+   :depends bioconductor-rbgl: ``>=1.82.0,<1.83.0a0``
+   :depends libgcc: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -95,7 +95,7 @@ r-perfmeas
 
     <script>
         var package = "r-perfmeas";
-        var versions = ["1.2.5","1.2.5","1.2.5","1.2.5","1.2.1"];
+        var versions = ["1.2.5","1.2.5","1.2.5","1.2.5","1.2.5"];
     </script>
 
 

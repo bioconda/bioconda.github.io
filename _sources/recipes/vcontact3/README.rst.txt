@@ -29,7 +29,7 @@ vcontact3
       
       
 
-      ``3.0.0.b65-0``,  ``3.0.0.b38-0``
+      ``3.0.0.b74-0``,  ``3.0.0.b65-0``,  ``3.0.0.b38-0``
 
       
 
@@ -112,7 +112,7 @@ vcontact3
 
     <script>
         var package = "vcontact3";
-        var versions = ["3.0.0.b65","3.0.0.b38"];
+        var versions = ["3.0.0.b74","3.0.0.b65","3.0.0.b38"];
     </script>
 
 

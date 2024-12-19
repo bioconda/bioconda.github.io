@@ -26,18 +26,26 @@ r-velocyto.r
    :versions:
       
       
+      .. raw:: html
 
-      ``0.6-8``,  ``0.6-7``,  ``0.6-6``,  ``0.6-5``,  ``0.6-4``,  ``0.6-3``,  ``0.6-2``,  ``0.6-1``,  ``0.6-0``
+         <details><summary><span class="truncated-version-list"><code>0.6-9</code>,  <code>0.6-8</code>,  <code>0.6-7</code>,  <code>0.6-6</code>,  <code>0.6-5</code>,  <code>0.6-4</code>,  <code>0.6-3</code>,  <code>0.6-2</code>,  <code>0.6-1</code>,  </span></summary>
+      
 
+      ``0.6-9``,  ``0.6-8``,  ``0.6-7``,  ``0.6-6``,  ``0.6-5``,  ``0.6-4``,  ``0.6-3``,  ``0.6-2``,  ``0.6-1``,  ``0.6-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-pcamethods: ``>=1.94.0,<1.95.0a0``
+   :depends bioconductor-pcamethods: ``>=1.98.0,<1.99.0a0``
    :depends boost-cpp: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends r-abind: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cluster: 
    :depends r-hdf5r: 
    :depends r-igraph: 

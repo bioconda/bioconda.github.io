@@ -29,10 +29,10 @@ bioconductor-cormotif
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.52.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  </span></summary>
       
 
-      ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``
+      ``1.52.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``
 
       
       .. raw:: html
@@ -41,9 +41,9 @@ bioconductor-cormotif
       
 
    
-   :depends bioconductor-affy: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-affy: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -94,7 +94,7 @@ bioconductor-cormotif
 
     <script>
         var package = "bioconductor-cormotif";
-        var versions = ["1.48.0","1.46.0","1.44.0","1.40.0","1.38.0"];
+        var versions = ["1.52.0","1.48.0","1.46.0","1.44.0","1.40.0"];
     </script>
 
 

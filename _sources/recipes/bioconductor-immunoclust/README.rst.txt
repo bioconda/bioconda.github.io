@@ -28,10 +28,10 @@ bioconductor-immunoclust
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.26.0-2</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.26.0-2</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  </span></summary>
       
 
-      ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.26.0-2``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-2``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.1-0``
+      ``1.38.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.26.0-2``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-2``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.1-0``
 
       
       .. raw:: html
@@ -40,14 +40,13 @@ bioconductor-immunoclust
       
 
    
-   :depends bioconductor-flowcore: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-flowcore: ``>=2.14.0,<2.15.0a0``
-   :depends gsl: ``>=2.7,<2.8.0a0``
+   :depends bioconductor-flowcore: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-flowcore: ``>=2.18.0,<2.19.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-lattice: 
    :requirements:
 
@@ -99,7 +98,7 @@ bioconductor-immunoclust
 
     <script>
         var package = "bioconductor-immunoclust";
-        var versions = ["1.34.0","1.32.0","1.30.0","1.30.0","1.26.0"];
+        var versions = ["1.38.0","1.34.0","1.32.0","1.30.0","1.30.0"];
     </script>
 
 

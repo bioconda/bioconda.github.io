@@ -27,17 +27,17 @@ r-pcalg
       
       
 
-      ``2.6_12-6``,  ``2.6_12-5``,  ``2.6_12-4``,  ``2.6_12-3``,  ``2.6_12-2``,  ``2.6_12-1``,  ``2.6_12-0``
+      ``2.6_12-7``,  ``2.6_12-6``,  ``2.6_12-5``,  ``2.6_12-4``,  ``2.6_12-3``,  ``2.6_12-2``,  ``2.6_12-1``,  ``2.6_12-0``
 
       
 
    
-   :depends bioconductor-graph: 
-   :depends bioconductor-rbgl: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends bioconductor-graph: ``>=1.84.0,<1.85.0a0``
+   :depends bioconductor-rbgl: ``>=1.82.0,<1.83.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends r-abind: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-bdsmatrix: 
    :depends r-bh: 
    :depends r-clue: 

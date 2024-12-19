@@ -26,14 +26,22 @@ r-mutoss
    :versions:
       
       
+      .. raw:: html
 
-      ``0.1_12-7``,  ``0.1_12-6``,  ``0.1_12-5``,  ``0.1_12-4``,  ``0.1_12-3``,  ``0.1_12-2``,  ``0.1_12-1``,  ``0.1_12-0``,  ``0.1_10-0``
+         <details><summary><span class="truncated-version-list"><code>0.1_12-8</code>,  <code>0.1_12-7</code>,  <code>0.1_12-6</code>,  <code>0.1_12-5</code>,  <code>0.1_12-4</code>,  <code>0.1_12-3</code>,  <code>0.1_12-2</code>,  <code>0.1_12-1</code>,  <code>0.1_12-0</code>,  </span></summary>
+      
 
+      ``0.1_12-8``,  ``0.1_12-7``,  ``0.1_12-6``,  ``0.1_12-5``,  ``0.1_12-4``,  ``0.1_12-3``,  ``0.1_12-2``,  ``0.1_12-1``,  ``0.1_12-0``,  ``0.1_10-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-multtest: ``>=2.2.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-multcomp: ``>=1.1_0``
    :depends r-mvtnorm: 
    :depends r-plotrix: 

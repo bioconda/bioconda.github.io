@@ -27,21 +27,23 @@ r-sew
       
       
 
-      ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends coreutils: 
-   :depends htslib: ``>=1.17,<1.22.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends htslib: ``>=1.4``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: ``>=1.11.8``
    :depends r-rcpp: ``>=0.12.18``
    :depends r-rcpparmadillo: ``>=0.8.600.0.0``
    :depends r-rrbgen: ``>=0.0.6``
+   :depends r-rrbgen: ``>=0.0.6,<0.1.0a0``
    :depends r-stitch: ``>=1.6.6``
+   :depends r-stitch: ``>=1.7.2,<2.0a0``
    :depends r-testthat: ``>=2.0.0``
    :depends rsync: 
    :depends samtools: ``>=1.4``
