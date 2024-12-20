@@ -29,10 +29,10 @@ bioconductor-lpnet
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.34.0-1</code>,  <code>2.34.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.0-0</code>,  <code>2.26.0-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-1</code>,  <code>2.22.0-0</code>,  <code>2.18.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.38.0-0</code>,  <code>2.34.0-1</code>,  <code>2.34.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.0-0</code>,  <code>2.26.0-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-1</code>,  <code>2.22.0-0</code>,  </span></summary>
       
 
-      ``2.34.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``
+      ``2.38.0-0``,  ``2.34.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,8 @@ bioconductor-lpnet
       
 
    
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-kegggraph: ``>=1.66.0,<1.67.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-lpsolve: 
    :requirements:
 
@@ -93,7 +94,7 @@ bioconductor-lpnet
 
     <script>
         var package = "bioconductor-lpnet";
-        var versions = ["2.34.0","2.34.0","2.32.0","2.30.0","2.26.0"];
+        var versions = ["2.38.0","2.34.0","2.34.0","2.32.0","2.30.0"];
     </script>
 
 

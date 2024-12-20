@@ -27,13 +27,13 @@ r-tidyheatmap
       
       
 
-      ``1.8.1-2``,  ``1.8.1-1``,  ``1.8.1-0``
+      ``1.8.1-3``,  ``1.8.1-2``,  ``1.8.1-1``,  ``1.8.1-0``
 
       
 
    
    :depends bioconductor-complexheatmap: ``>=2.2.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-circlize: ``>=0.4.8``
    :depends r-dendextend: 
    :depends r-dplyr: ``>=0.8.5``
@@ -96,7 +96,7 @@ r-tidyheatmap
 
     <script>
         var package = "r-tidyheatmap";
-        var versions = ["1.8.1","1.8.1","1.8.1"];
+        var versions = ["1.8.1","1.8.1","1.8.1","1.8.1"];
     </script>
 
 

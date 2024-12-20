@@ -27,15 +27,15 @@ bioconductor-excluderanges
       
       
 
-      ``0.99.8-1``,  ``0.99.8-0``,  ``0.99.6-2``,  ``0.99.6-1``,  ``0.99.6-0``
+      ``0.99.8-2``,  ``0.99.8-1``,  ``0.99.8-0``,  ``0.99.6-2``,  ``0.99.6-1``,  ``0.99.6-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -86,7 +86,7 @@ bioconductor-excluderanges
 
     <script>
         var package = "bioconductor-excluderanges";
-        var versions = ["0.99.8","0.99.8","0.99.6","0.99.6","0.99.6"];
+        var versions = ["0.99.8","0.99.8","0.99.8","0.99.6","0.99.6"];
     </script>
 
 

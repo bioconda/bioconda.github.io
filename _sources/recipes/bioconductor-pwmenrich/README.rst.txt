@@ -29,10 +29,10 @@ bioconductor-pwmenrich
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.38.0-0</code>,  <code>4.36.0-0</code>,  <code>4.34.0-0</code>,  <code>4.30.0-0</code>,  <code>4.28.1-0</code>,  <code>4.26.0-1</code>,  <code>4.26.0-0</code>,  <code>4.23.0-0</code>,  <code>4.22.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.42.0-0</code>,  <code>4.38.0-0</code>,  <code>4.36.0-0</code>,  <code>4.34.0-0</code>,  <code>4.30.0-0</code>,  <code>4.28.1-0</code>,  <code>4.26.0-1</code>,  <code>4.26.0-0</code>,  <code>4.23.0-0</code>,  </span></summary>
       
 
-      ``4.38.0-0``,  ``4.36.0-0``,  ``4.34.0-0``,  ``4.30.0-0``,  ``4.28.1-0``,  ``4.26.0-1``,  ``4.26.0-0``,  ``4.23.0-0``,  ``4.22.0-0``,  ``4.20.0-1``,  ``4.18.0-0``,  ``4.16.0-0``,  ``4.14.0-0``
+      ``4.42.0-0``,  ``4.38.0-0``,  ``4.36.0-0``,  ``4.34.0-0``,  ``4.30.0-0``,  ``4.28.1-0``,  ``4.26.0-1``,  ``4.26.0-0``,  ``4.23.0-0``,  ``4.22.0-0``,  ``4.20.0-1``,  ``4.18.0-0``,  ``4.16.0-0``,  ``4.14.0-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ bioconductor-pwmenrich
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-seqlogo: ``>=1.68.0,<1.69.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-seqlogo: ``>=1.72.0,<1.73.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-evd: 
    :depends r-gdata: 
    :requirements:
@@ -98,7 +98,7 @@ bioconductor-pwmenrich
 
     <script>
         var package = "bioconductor-pwmenrich";
-        var versions = ["4.38.0","4.36.0","4.34.0","4.30.0","4.28.1"];
+        var versions = ["4.42.0","4.38.0","4.36.0","4.34.0","4.30.0"];
     </script>
 
 

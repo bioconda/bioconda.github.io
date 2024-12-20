@@ -27,15 +27,15 @@ bioconductor-oncoscanr
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-magrittr: 
    :depends r-readr: 
    :requirements:
@@ -88,7 +88,7 @@ bioconductor-oncoscanr
 
     <script>
         var package = "bioconductor-oncoscanr";
-        var versions = ["1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

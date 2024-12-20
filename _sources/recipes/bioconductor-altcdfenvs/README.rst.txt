@@ -29,10 +29,10 @@ bioconductor-altcdfenvs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.64.0-0</code>,  <code>2.62.0-0</code>,  <code>2.60.0-0</code>,  <code>2.56.0-0</code>,  <code>2.54.0-0</code>,  <code>2.52.0-1</code>,  <code>2.52.0-0</code>,  <code>2.50.0-0</code>,  <code>2.48.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.68.0-0</code>,  <code>2.64.0-0</code>,  <code>2.62.0-0</code>,  <code>2.60.0-0</code>,  <code>2.56.0-0</code>,  <code>2.54.0-0</code>,  <code>2.52.0-1</code>,  <code>2.52.0-0</code>,  <code>2.50.0-0</code>,  </span></summary>
       
 
-      ``2.64.0-0``,  ``2.62.0-0``,  ``2.60.0-0``,  ``2.56.0-0``,  ``2.54.0-0``,  ``2.52.0-1``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-1``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``
+      ``2.68.0-0``,  ``2.64.0-0``,  ``2.62.0-0``,  ``2.60.0-0``,  ``2.56.0-0``,  ``2.54.0-0``,  ``2.52.0-1``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-1``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,14 @@ bioconductor-altcdfenvs
       
 
    
-   :depends bioconductor-affy: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-hypergraph: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-makecdfenv: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-affy: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-hypergraph: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-makecdfenv: ``>=1.82.0,<1.83.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -99,7 +99,7 @@ bioconductor-altcdfenvs
 
     <script>
         var package = "bioconductor-altcdfenvs";
-        var versions = ["2.64.0","2.62.0","2.60.0","2.56.0","2.54.0"];
+        var versions = ["2.68.0","2.64.0","2.62.0","2.60.0","2.56.0"];
     </script>
 
 

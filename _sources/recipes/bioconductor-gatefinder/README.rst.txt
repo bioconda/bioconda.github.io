@@ -28,10 +28,10 @@ bioconductor-gatefinder
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  </span></summary>
       
 
-      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+      ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-gatefinder
       
 
    
-   :depends bioconductor-flowcore: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-flowfp: ``>=1.60.0,<1.61.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-flowcore: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-flowfp: ``>=1.64.0,<1.65.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-diptest: 
    :depends r-mvoutlier: 
    :depends r-splancs: 
@@ -96,7 +96,7 @@ bioconductor-gatefinder
 
     <script>
         var package = "bioconductor-gatefinder";
-        var versions = ["1.22.0","1.20.0","1.18.0","1.14.0","1.12.0"];
+        var versions = ["1.26.0","1.22.0","1.20.0","1.18.0","1.14.0"];
     </script>
 
 

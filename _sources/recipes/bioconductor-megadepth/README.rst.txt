@@ -27,13 +27,13 @@ bioconductor-megadepth
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.3-0``,  ``1.0.0-1``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.3-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cmdfun: 
    :depends r-dplyr: 
    :depends r-fs: 
@@ -90,7 +90,7 @@ bioconductor-megadepth
 
     <script>
         var package = "bioconductor-megadepth";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.0"];
+        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.4.0"];
     </script>
 
 

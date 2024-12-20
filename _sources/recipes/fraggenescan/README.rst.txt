@@ -32,10 +32,10 @@ fraggenescan
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.31-8</code>,  <code>1.31-7</code>,  <code>1.31-6</code>,  <code>1.31-5</code>,  <code>1.31-4</code>,  <code>1.31-3</code>,  <code>1.31-2</code>,  <code>1.31-1</code>,  <code>1.31-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.32-0</code>,  <code>1.31-8</code>,  <code>1.31-7</code>,  <code>1.31-6</code>,  <code>1.31-5</code>,  <code>1.31-4</code>,  <code>1.31-3</code>,  <code>1.31-2</code>,  <code>1.31-1</code>,  </span></summary>
       
 
-      ``1.31-8``,  ``1.31-7``,  ``1.31-6``,  ``1.31-5``,  ``1.31-4``,  ``1.31-3``,  ``1.31-2``,  ``1.31-1``,  ``1.31-0``,  ``1.30-2``,  ``1.30-1``,  ``1.30-0``
+      ``1.32-0``,  ``1.31-8``,  ``1.31-7``,  ``1.31-6``,  ``1.31-5``,  ``1.31-4``,  ``1.31-3``,  ``1.31-2``,  ``1.31-1``,  ``1.31-0``,  ``1.30-2``,  ``1.30-1``,  ``1.30-0``
 
       
       .. raw:: html
@@ -100,7 +100,7 @@ fraggenescan
 
     <script>
         var package = "fraggenescan";
-        var versions = ["1.31","1.31","1.31","1.31","1.31"];
+        var versions = ["1.32","1.31","1.31","1.31","1.31"];
     </script>
 
 

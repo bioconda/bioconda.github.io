@@ -26,9 +26,17 @@ ectyper
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.5.4-2``,  ``0.1-2``,  ``0.1-0``
+         <details><summary><span class="truncated-version-list"><code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.1-0</code>,  <code>0.5.4-2</code>,  <code>0.1-2</code>,  </span></summary>
+      
 
+      ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.5.4-2``,  ``0.1-2``,  ``0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -93,7 +101,7 @@ ectyper
 
     <script>
         var package = "ectyper";
-        var versions = ["2.0.0","1.0.0","1.0.0","0.9.1","0.9.0"];
+        var versions = ["2.0.0","2.0.0","1.0.0","1.0.0","0.9.1"];
     </script>
 
 

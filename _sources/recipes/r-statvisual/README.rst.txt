@@ -27,7 +27,7 @@ r-statvisual
       
       
 
-      ``1.2.1-5``,  ``1.2.1-4``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.9-0``,  ``1.1.8-0``
+      ``1.2.1-6``,  ``1.2.1-5``,  ``1.2.1-4``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.9-0``,  ``1.1.8-0``
 
       
 
@@ -35,7 +35,7 @@ r-statvisual
    :depends bioconductor-biobase: 
    :depends bioconductor-limma: 
    :depends bioconductor-pvca: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-factoextra: 
    :depends r-forestplot: 

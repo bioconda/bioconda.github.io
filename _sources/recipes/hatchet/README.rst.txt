@@ -48,7 +48,8 @@ hatchet
    :depends bcftools: ``>=1.9``
    :depends biopython: 
    :depends hmmlearn: 
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends matplotlib-base: 
    :depends mosdepth: 
    :depends numpy: ``<2``

@@ -29,10 +29,10 @@ bioconductor-gcrma
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.74.0-0</code>,  <code>2.72.0-0</code>,  <code>2.70.0-1</code>,  <code>2.70.0-0</code>,  <code>2.66.0-2</code>,  <code>2.66.0-1</code>,  <code>2.66.0-0</code>,  <code>2.64.0-0</code>,  <code>2.62.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.78.0-0</code>,  <code>2.74.0-0</code>,  <code>2.72.0-0</code>,  <code>2.70.0-1</code>,  <code>2.70.0-0</code>,  <code>2.66.0-2</code>,  <code>2.66.0-1</code>,  <code>2.66.0-0</code>,  <code>2.64.0-0</code>,  </span></summary>
       
 
-      ``2.74.0-0``,  ``2.72.0-0``,  ``2.70.0-1``,  ``2.70.0-0``,  ``2.66.0-2``,  ``2.66.0-1``,  ``2.66.0-0``,  ``2.64.0-0``,  ``2.62.0-1``,  ``2.62.0-0``,  ``2.60.0-0``,  ``2.58.0-0``,  ``2.56.0-1``,  ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-0``
+      ``2.78.0-0``,  ``2.74.0-0``,  ``2.72.0-0``,  ``2.70.0-1``,  ``2.70.0-0``,  ``2.66.0-2``,  ``2.66.0-1``,  ``2.66.0-0``,  ``2.64.0-0``,  ``2.62.0-1``,  ``2.62.0-0``,  ``2.60.0-0``,  ``2.58.0-0``,  ``2.56.0-1``,  ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-0``
 
       
       .. raw:: html
@@ -41,20 +41,20 @@ bioconductor-gcrma
       
 
    
-   :depends bioconductor-affy: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-affy: ``>=1.80.0,<1.81.0a0``
-   :depends bioconductor-affyio: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-affyio: ``>=1.72.0,<1.73.0a0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-biostrings: ``>=2.70.1,<2.71.0a0``
-   :depends bioconductor-xvector: ``>=0.42.0,<0.43.0``
-   :depends bioconductor-xvector: ``>=0.42.0,<0.43.0a0``
+   :depends bioconductor-affy: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-affy: ``>=1.84.0,<1.85.0a0``
+   :depends bioconductor-affyio: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-affyio: ``>=1.76.0,<1.77.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0a0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0a0``
+   :depends bioconductor-xvector: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-xvector: ``>=0.46.0,<0.47.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-biocmanager: 
    :requirements:
 
@@ -106,7 +106,7 @@ bioconductor-gcrma
 
     <script>
         var package = "bioconductor-gcrma";
-        var versions = ["2.74.0","2.72.0","2.70.0","2.70.0","2.66.0"];
+        var versions = ["2.78.0","2.74.0","2.72.0","2.70.0","2.70.0"];
     </script>
 
 

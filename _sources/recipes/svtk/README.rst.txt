@@ -33,6 +33,7 @@ svtk
 
    
    :depends boto3: 
+   :depends libgcc: ``>=13``
    :depends natsort: 
    :depends numpy: 
    :depends pandas: 

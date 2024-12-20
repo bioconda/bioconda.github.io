@@ -27,16 +27,16 @@ bioconductor-tdbasedufe
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-mofadata: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-tximport: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-tximportdata: ``>=1.30.0,<1.31.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-mofadata: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-tximport: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-tximportdata: ``>=1.34.0,<1.35.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-readr: 
    :depends r-rtensor: 
    :depends r-shiny: 
@@ -90,7 +90,7 @@ bioconductor-tdbasedufe
 
     <script>
         var package = "bioconductor-tdbasedufe";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

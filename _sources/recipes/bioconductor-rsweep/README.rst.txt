@@ -27,13 +27,16 @@ bioconductor-rsweep
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-pracma: 
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-doparallel: 
+   :depends r-foreach: 
+   :depends r-stringi: 
    :requirements:
 
    :additional platforms:
@@ -84,7 +87,7 @@ bioconductor-rsweep
 
     <script>
         var package = "bioconductor-rsweep";
-        var versions = ["1.14.0","1.12.0","1.10.0","1.6.0","1.4.0"];
+        var versions = ["1.18.0","1.14.0","1.12.0","1.10.0","1.6.0"];
     </script>
 
 

@@ -28,7 +28,7 @@ amplicontyper
       
       
 
-      ``0.1.27-0``
+      ``0.1.28-0``,  ``0.1.27-0``
 
       
 
@@ -41,8 +41,7 @@ amplicontyper
    :depends python: ``>=3.10``
    :depends requests: 
    :depends samtools: 
-   :depends scikit-learn: ``>=1.3.*``
-   :depends setuptools: 
+   :depends scikit-learn: ``1.5.*``
    :depends tqdm: ``>=4.66.*``
    :requirements:
 
@@ -94,7 +93,7 @@ amplicontyper
 
     <script>
         var package = "amplicontyper";
-        var versions = ["0.1.27"];
+        var versions = ["0.1.28","0.1.27"];
     </script>
 
 

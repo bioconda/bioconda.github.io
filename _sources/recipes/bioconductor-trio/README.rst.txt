@@ -29,10 +29,10 @@ bioconductor-trio
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.40.0-0</code>,  <code>3.38.0-0</code>,  <code>3.36.0-0</code>,  <code>3.32.0-0</code>,  <code>3.30.0-0</code>,  <code>3.28.0-1</code>,  <code>3.28.0-0</code>,  <code>3.26.0-0</code>,  <code>3.24.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.44.0-0</code>,  <code>3.40.0-0</code>,  <code>3.38.0-0</code>,  <code>3.36.0-0</code>,  <code>3.32.0-0</code>,  <code>3.30.0-0</code>,  <code>3.28.0-1</code>,  <code>3.28.0-0</code>,  <code>3.26.0-0</code>,  </span></summary>
       
 
-      ``3.40.0-0``,  ``3.38.0-0``,  ``3.36.0-0``,  ``3.32.0-0``,  ``3.30.0-0``,  ``3.28.0-1``,  ``3.28.0-0``,  ``3.26.0-0``,  ``3.24.0-0``,  ``3.22.0-1``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-0``,  ``3.14.0-0``
+      ``3.44.0-0``,  ``3.40.0-0``,  ``3.38.0-0``,  ``3.36.0-0``,  ``3.32.0-0``,  ``3.30.0-0``,  ``3.28.0-1``,  ``3.28.0-0``,  ``3.26.0-0``,  ``3.24.0-0``,  ``3.22.0-1``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.16.0-0``,  ``3.14.0-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ bioconductor-trio
       
 
    
-   :depends bioconductor-siggenes: ``>=1.76.0,<1.77.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-siggenes: ``>=1.80.0,<1.81.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-logicreg: ``>=1.6.1``
    :depends r-survival: 
    :requirements:
@@ -95,7 +95,7 @@ bioconductor-trio
 
     <script>
         var package = "bioconductor-trio";
-        var versions = ["3.40.0","3.38.0","3.36.0","3.32.0","3.30.0"];
+        var versions = ["3.44.0","3.40.0","3.38.0","3.36.0","3.32.0"];
     </script>
 
 

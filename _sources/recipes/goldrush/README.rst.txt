@@ -28,10 +28,10 @@ goldrush
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.1-2</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-2</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.1-3</code>,  <code>1.2.1-2</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-2</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  </span></summary>
       
 
-      ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.3-0``
+      ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.3-0``
 
       
       .. raw:: html
@@ -46,14 +46,14 @@ goldrush
    :depends btllib: ``>=1.7.3,<2.0a0``
    :depends gperftools: 
    :depends libdivsufsort: ``>=2.0.2,<2.1.0a0``
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends make: 
    :depends minimap2: ``>=2.17``
    :depends ntlink: ``>=1.3.0``
    :depends numpy: ``>=1.22.4``
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends python: ``>=3.9,<3.10.0a0``
+   :depends python_abi: ``3.9.* *_cp39``
    :depends snakemake: 
    :depends tigmint: ``>=1.2.6``
    :requirements:
@@ -106,7 +106,7 @@ goldrush
 
     <script>
         var package = "goldrush";
-        var versions = ["1.2.1","1.2.1","1.2.1","1.2.0","1.1.2"];
+        var versions = ["1.2.1","1.2.1","1.2.1","1.2.1","1.2.0"];
     </script>
 
 

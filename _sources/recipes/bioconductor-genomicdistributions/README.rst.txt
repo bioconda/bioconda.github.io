@@ -27,16 +27,16 @@ bioconductor-genomicdistributions
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-broom: 
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -94,7 +94,7 @@ bioconductor-genomicdistributions
 
     <script>
         var package = "bioconductor-genomicdistributions";
-        var versions = ["1.10.0","1.8.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.2.0"];
     </script>
 
 

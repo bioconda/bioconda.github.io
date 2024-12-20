@@ -26,17 +26,25 @@ bioconductor-rcwlpipelines
    :versions:
       
       
+      .. raw:: html
 
-      ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.6.0-0``,  ``1.4.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.2-0</code>,  <code>1.6.0-0</code>,  </span></summary>
+      
 
+      ``1.22.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.6.0-0``,  ``1.4.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-rcwl: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends nodejs: ``>=18``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-rcwl: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends nodejs: 
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-git2r: 
    :depends r-httr: 
    :depends r-rappdirs: 
@@ -90,7 +98,7 @@ bioconductor-rcwlpipelines
 
     <script>
         var package = "bioconductor-rcwlpipelines";
-        var versions = ["1.16.0","1.14.0","1.14.0","1.10.0","1.10.0"];
+        var versions = ["1.22.0","1.16.0","1.14.0","1.14.0","1.10.0"];
     </script>
 
 

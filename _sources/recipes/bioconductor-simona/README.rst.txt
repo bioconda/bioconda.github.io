@@ -27,22 +27,22 @@ bioconductor-simona
       
       
 
-      ``1.0.2-0``
+      ``1.4.0-0``,  ``1.0.2-0``
 
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0a0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0a0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libstdcxx: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl: ``>=5.6.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-circlize: 
    :depends r-getoptlong: 
    :depends r-globaloptions: 
@@ -50,6 +50,7 @@ bioconductor-simona
    :depends r-matrixstats: 
    :depends r-polychrome: 
    :depends r-rcpp: 
+   :depends r-shiny: 
    :depends r-xml2: ``>=1.3.3``
    :requirements:
 
@@ -101,7 +102,7 @@ bioconductor-simona
 
     <script>
         var package = "bioconductor-simona";
-        var versions = ["1.0.2"];
+        var versions = ["1.4.0","1.0.2"];
     </script>
 
 

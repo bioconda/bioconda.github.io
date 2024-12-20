@@ -28,10 +28,10 @@ r-conos
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-3</code>,  <code>1.5.0-2</code>,  <code>1.5.0-1</code>,  <code>1.5.0-0</code>,  <code>1.4.9-0</code>,  <code>1.4.8-0</code>,  <code>1.4.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.2-1</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-3</code>,  <code>1.5.0-2</code>,  <code>1.5.0-1</code>,  <code>1.5.0-0</code>,  <code>1.4.9-0</code>,  <code>1.4.8-0</code>,  </span></summary>
       
 
-      ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.6-0``
+      ``1.5.2-1``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.6-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ r-conos
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends r-abind: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cowplot: 
    :depends r-dendextend: 
    :depends r-dplyr: 
@@ -116,7 +116,7 @@ r-conos
 
     <script>
         var package = "r-conos";
-        var versions = ["1.5.2","1.5.1","1.5.0","1.5.0","1.5.0"];
+        var versions = ["1.5.2","1.5.2","1.5.1","1.5.0","1.5.0"];
     </script>
 
 

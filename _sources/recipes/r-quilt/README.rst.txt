@@ -28,10 +28,10 @@ r-quilt
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.1-0</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-3</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-3</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  </span></summary>
       
 
-      ``2.0.1-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.5-0``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``
+      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.5-0``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ r-quilt
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-mspbwt: ``>=0.1.0``
    :depends r-mspbwt: ``>=0.1.0,<0.2.0a0``
    :depends r-optparse: 
@@ -51,7 +51,7 @@ r-quilt
    :depends r-rrbgen: ``>=0.0.6``
    :depends r-rrbgen: ``>=0.0.6,<0.1.0a0``
    :depends r-stitch: ``>=1.7.0``
-   :depends r-stitch: ``>=1.7.1,<2.0a0``
+   :depends r-stitch: ``>=1.7.2,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -106,7 +106,7 @@ r-quilt
 
     <script>
         var package = "r-quilt";
-        var versions = ["2.0.1","2.0.0","2.0.0","2.0.0","1.0.5"];
+        var versions = ["2.0.1","2.0.1","2.0.0","2.0.0","2.0.0"];
     </script>
 
 

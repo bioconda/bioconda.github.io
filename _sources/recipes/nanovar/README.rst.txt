@@ -28,10 +28,10 @@ nanovar
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.8.1-0</code>,  <code>1.8.0-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.1-2</code>,  <code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.9-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8.1-1</code>,  <code>1.8.1-0</code>,  <code>1.8.0-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.1-2</code>,  <code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  </span></summary>
       
 
-      ``1.8.1-0``,  ``1.8.0-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.9-1``,  ``1.3.9-0``,  ``1.3.8-1``,  ``1.3.8-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.3-0``
+      ``1.8.1-1``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.9-1``,  ``1.3.9-0``,  ``1.3.8-1``,  ``1.3.8-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.3-0``
 
       
       .. raw:: html
@@ -43,15 +43,15 @@ nanovar
    :depends bedtools: ``>=2.26.0``
    :depends biopython: ``>=1.82``
    :depends bs4: ``>=0.0.2``
-   :depends libgcc: ``>=12``
+   :depends libgcc: ``>=13``
    :depends matplotlib-base: ``>=2.2.3``
    :depends minimap2: ``>=2.17``
    :depends natsort: ``>=6.2.0``
    :depends numpy: ``>=1.17.3,<2.0.0``
    :depends pybedtools: ``>=0.8.2``
    :depends pysam: ``>=0.15.3``
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends python: ``>=3.9,<3.10.0a0``
+   :depends python_abi: ``3.9.* *_cp39``
    :depends samtools: ``>=1.3``
    :depends scipy: ``>=1.2.1``
    :depends tensorflow-cpu: ``>=2.0.0,<=2.15.1``
@@ -105,7 +105,7 @@ nanovar
 
     <script>
         var package = "nanovar";
-        var versions = ["1.8.1","1.8.0","1.5.1","1.5.0","1.4.1"];
+        var versions = ["1.8.1","1.8.1","1.8.0","1.5.1","1.5.0"];
     </script>
 
 

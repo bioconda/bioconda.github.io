@@ -27,15 +27,15 @@ bioconductor-rprimer
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-bslib: 
    :depends r-dt: 
    :depends r-ggplot2: 
@@ -95,7 +95,7 @@ bioconductor-rprimer
 
     <script>
         var package = "bioconductor-rprimer";
-        var versions = ["1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.10.0","1.6.0","1.4.0","1.2.0"];
     </script>
 
 

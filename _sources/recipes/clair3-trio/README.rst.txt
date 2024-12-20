@@ -28,10 +28,10 @@ clair3-trio
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7-1</code>,  <code>0.7-0</code>,  <code>0.6-1</code>,  <code>0.6-0</code>,  <code>0.5-0</code>,  <code>0.3-2</code>,  <code>0.3-1</code>,  <code>0.3-0</code>,  <code>0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7-2</code>,  <code>0.7-1</code>,  <code>0.7-0</code>,  <code>0.6-1</code>,  <code>0.6-0</code>,  <code>0.5-0</code>,  <code>0.3-2</code>,  <code>0.3-1</code>,  <code>0.3-0</code>,  </span></summary>
       
 
-      ``0.7-1``,  ``0.7-0``,  ``0.6-1``,  ``0.6-0``,  ``0.5-0``,  ``0.3-2``,  ``0.3-1``,  ``0.3-0``,  ``0.2-0``,  ``0.1-0``
+      ``0.7-2``,  ``0.7-1``,  ``0.7-0``,  ``0.6-1``,  ``0.6-0``,  ``0.5-0``,  ``0.3-2``,  ``0.3-1``,  ``0.3-0``,  ``0.2-0``,  ``0.1-0``
 
       
       .. raw:: html
@@ -42,8 +42,9 @@ clair3-trio
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends cffi: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends liblzma: ``>=5.6.3,<6.0a0``
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends numpy: 
    :depends parallel: ``20191122.*``
@@ -55,7 +56,6 @@ clair3-trio
    :depends samtools: ``1.15.1.*``
    :depends tensorflow: ``2.8.0.*``
    :depends whatshap: ``1.7.*``
-   :depends xz: ``>=5.2.6,<6.0a0``
    :depends zstd: 
    :requirements:
 
@@ -107,7 +107,7 @@ clair3-trio
 
     <script>
         var package = "clair3-trio";
-        var versions = ["0.7","0.7","0.6","0.6","0.5"];
+        var versions = ["0.7","0.7","0.7","0.6","0.6"];
     </script>
 
 
