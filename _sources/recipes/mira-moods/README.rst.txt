@@ -28,15 +28,15 @@ mira-moods
       
       
 
-      ``1.9.4.2-1``,  ``1.9.4.2-0``
+      ``1.9.4.2-2``,  ``1.9.4.2-1``,  ``1.9.4.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends python: ``>=3.12,<3.13.0a0``
-   :depends python_abi: ``3.12.* *_cp312``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends swig: 
    :requirements:
 
@@ -88,7 +88,7 @@ mira-moods
 
     <script>
         var package = "mira-moods";
-        var versions = ["1.9.4.2","1.9.4.2"];
+        var versions = ["1.9.4.2","1.9.4.2","1.9.4.2"];
     </script>
 
 

@@ -26,24 +26,33 @@ bioconductor-synextend
    :versions:
       
       
+      .. raw:: html
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.2-1``,  ``1.10.2-0``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.2-1</code>,  <code>1.10.2-0</code>,  <code>1.6.0-0</code>,  <code>1.4.1-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  </span></summary>
+      
 
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.2-1``,  ``1.10.2-0``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-biostrings: ``>=2.70.1,<2.71.0a0``
-   :depends bioconductor-decipher: ``>=2.30.0,<2.31.0``
-   :depends bioconductor-decipher: ``>=2.30.0,<2.31.0a0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0a0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0a0``
+   :depends bioconductor-decipher: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-decipher: ``>=3.2.0,<3.3.0a0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-dbi: 
+   :depends r-rsqlite: 
    :requirements:
 
    :additional platforms:
@@ -94,7 +103,7 @@ bioconductor-synextend
 
     <script>
         var package = "bioconductor-synextend";
-        var versions = ["1.14.0","1.12.0","1.10.2","1.10.2","1.6.0"];
+        var versions = ["1.18.0","1.14.0","1.12.0","1.10.2","1.10.2"];
     </script>
 
 

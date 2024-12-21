@@ -89,37 +89,46 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-rarr"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-rarr.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-rarr"><img alt="docker_bioconductor-rarr" src="https://quay.io/repository/biocontainers/bioconductor-rarr/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.6.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
+</dd>
+<dt class="field-even">depends bioconductor-biocgenerics<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.52.0,&lt;0.53.0</span></code></p>
+</dd>
+<dt class="field-odd">depends bioconductor-biocgenerics<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.52.0,&lt;0.53.0a0</span></code></p>
+</dd>
+<dt class="field-even">depends bioconductor-delayedarray<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.32.0,&lt;0.33.0</span></code></p>
+</dd>
+<dt class="field-odd">depends bioconductor-delayedarray<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.32.0,&lt;0.33.0a0</span></code></p>
 </dd>
 <dt class="field-even">depends libblas<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.9.0,&lt;4.0a0</span></code></p>
 </dd>
-<dt class="field-odd">depends libgcc-ng<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p>
+<dt class="field-odd">depends libcxx<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=18</span></code></p>
 </dd>
 <dt class="field-even">depends liblapack<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.9.0,&lt;4.0a0</span></code></p>
 </dd>
-<dt class="field-odd">depends libstdcxx-ng<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p>
+<dt class="field-odd">depends r-base<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.4,&lt;4.5.0a0</span></code></p>
 </dd>
-<dt class="field-even">depends r-base<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.3,&lt;4.4.0a0</span></code></p>
-</dd>
-<dt class="field-odd">depends r-httr<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-jsonlite<span class="colon">:</span></dt>
+<dt class="field-even">depends r-httr<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends r-paws.storage<span class="colon">:</span></dt>
+<dt class="field-odd">depends r-jsonlite<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-r.utils<span class="colon">:</span></dt>
+<dt class="field-even">depends r-paws.storage<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends r-stringr<span class="colon">:</span></dt>
+<dt class="field-odd">depends r-r.utils<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">requirements<span class="colon">:</span></dt>
+<dt class="field-even">depends r-stringr<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
+<dt class="field-odd">requirements<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
+<dt class="field-even">additional platforms<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -154,7 +163,7 @@ others.</p>
 
 <script>
     var package = "bioconductor-rarr";
-    var versions = ["1.2.0","1.0.0"];
+    var versions = ["1.6.0","1.2.0","1.0.0"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

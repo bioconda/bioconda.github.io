@@ -28,10 +28,10 @@ bioconductor-nanomethviz
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.8.1-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.2.0-0</code>,  <code>1.0.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.0-0</code>,  <code>2.8.1-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
       
 
-      ``2.8.1-0``,  ``2.6.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``3.2.0-0``,  ``2.8.1-0``,  ``2.6.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
       .. raw:: html
@@ -40,37 +40,35 @@ bioconductor-nanomethviz
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-annotationdbi: ``>=1.64.1,<1.65.0a0``
-   :depends bioconductor-biocsingular: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-biocsingular: ``>=1.18.0,<1.19.0a0``
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-biostrings: ``>=2.70.1,<2.71.0a0``
-   :depends bioconductor-bsseq: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-bsseq: ``>=1.38.0,<1.39.0a0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-genomicranges: ``>=1.54.1,<1.55.0a0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0a0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-limma: ``>=3.58.1,<3.59.0a0``
-   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0a0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0a0``
-   :depends bioconductor-zlibbioc: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-zlibbioc: ``>=1.48.0,<1.49.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0a0``
+   :depends bioconductor-biocsingular: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biocsingular: ``>=1.22.0,<1.23.0a0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0a0``
+   :depends bioconductor-bsseq: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-bsseq: ``>=1.42.0,<1.43.0a0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0a0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0a0``
+   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0a0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0a0``
+   :depends bioconductor-zlibbioc: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-zlibbioc: ``>=1.52.0,<1.53.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-assertthat: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cli: 
    :depends r-cpp11: ``>=0.2.5``
-   :depends r-data.table: 
    :depends r-dbscan: 
    :depends r-dplyr: 
    :depends r-e1071: 
@@ -86,7 +84,6 @@ bioconductor-nanomethviz
    :depends r-readr: 
    :depends r-rlang: 
    :depends r-scales: ``>=1.2.0``
-   :depends r-scico: 
    :depends r-stringr: 
    :depends r-tibble: 
    :depends r-tidyr: 
@@ -141,7 +138,7 @@ bioconductor-nanomethviz
 
     <script>
         var package = "bioconductor-nanomethviz";
-        var versions = ["2.8.1","2.6.0","2.4.0","2.4.0","2.0.0"];
+        var versions = ["3.2.0","2.8.1","2.6.0","2.4.0","2.4.0"];
     </script>
 
 

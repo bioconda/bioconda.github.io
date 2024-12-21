@@ -29,10 +29,10 @@ bioconductor-monocle
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.30.0-1</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-1</code>,  <code>2.26.0-0</code>,  <code>2.22.0-2</code>,  <code>2.22.0-1</code>,  <code>2.22.0-0</code>,  <code>2.20.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.34.0-0</code>,  <code>2.30.0-1</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-1</code>,  <code>2.26.0-0</code>,  <code>2.22.0-2</code>,  <code>2.22.0-1</code>,  <code>2.22.0-0</code>,  </span></summary>
       
 
-      ``2.30.0-1``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-1``,  ``2.26.0-0``,  ``2.22.0-2``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-2``,  ``2.18.0-1``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.12.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``
+      ``2.34.0-0``,  ``2.30.0-1``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-1``,  ``2.26.0-0``,  ``2.22.0-2``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-2``,  ``2.18.0-1``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.12.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``
 
       
       .. raw:: html
@@ -41,21 +41,21 @@ bioconductor-monocle
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.1,<0.49.0a0``
-   :depends bioconductor-biocviews: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-biocviews: ``>=1.70.0,<1.71.0a0``
-   :depends bioconductor-hsmmsinglecell: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-hsmmsinglecell: ``>=1.22.0,<1.23.0a0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-limma: ``>=3.58.1,<3.59.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0a0``
+   :depends bioconductor-biocviews: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-biocviews: ``>=1.74.0,<1.75.0a0``
+   :depends bioconductor-hsmmsinglecell: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-hsmmsinglecell: ``>=1.26.0,<1.27.0a0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cluster: 
    :depends r-combinat: 
    :depends r-ddrtree: ``>=0.1.4``
@@ -64,6 +64,7 @@ bioconductor-monocle
    :depends r-ggplot2: ``>=1.0.0``
    :depends r-igraph: ``>=1.0.1``
    :depends r-irlba: ``>=2.0.0``
+   :depends r-leidenbase: ``>=0.1.31,<0.2.0a0``
    :depends r-leidenbase: ``>=0.1.9``
    :depends r-mass: 
    :depends r-matrix: ``>=1.2-6``
@@ -71,7 +72,6 @@ bioconductor-monocle
    :depends r-pheatmap: 
    :depends r-plyr: 
    :depends r-proxy: 
-   :depends r-qlcmatrix: 
    :depends r-rann: ``>=2.5``
    :depends r-rcpp: ``>=0.12.0``
    :depends r-reshape2: 
@@ -135,7 +135,7 @@ bioconductor-monocle
 
     <script>
         var package = "bioconductor-monocle";
-        var versions = ["2.30.0","2.30.0","2.28.0","2.26.0","2.26.0"];
+        var versions = ["2.34.0","2.30.0","2.30.0","2.28.0","2.26.0"];
     </script>
 
 

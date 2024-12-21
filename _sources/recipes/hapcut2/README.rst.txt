@@ -41,6 +41,8 @@ hapcut2
 
    
    :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends libgcc: ``>=13``
+   :depends liblzma: ``>=5.6.3,<6.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends pysam: 
    :depends python: ``>=3.5``

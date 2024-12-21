@@ -29,10 +29,10 @@ bioconductor-annotationdbi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.64.1-0</code>,  <code>1.62.2-0</code>,  <code>1.60.0-0</code>,  <code>1.56.2-0</code>,  <code>1.56.1-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-1</code>,  <code>1.52.0-0</code>,  <code>1.50.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.68.0-0</code>,  <code>1.64.1-0</code>,  <code>1.62.2-0</code>,  <code>1.60.0-0</code>,  <code>1.56.2-0</code>,  <code>1.56.1-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-1</code>,  <code>1.52.0-0</code>,  </span></summary>
       
 
-      ``1.64.1-0``,  ``1.62.2-0``,  ``1.60.0-0``,  ``1.56.2-0``,  ``1.56.1-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.44.0-0``,  ``1.42.1-0``,  ``1.40.0-0``,  ``1.38.2-0``,  ``1.38.0-0``,  ``1.36.2-0``,  ``1.36.0-1``,  ``1.34.4-1``,  ``1.34.4-0``,  ``1.32.3-0``,  ``1.32.2-0``,  ``1.32.0-0``,  ``1.30.1-0``
+      ``1.68.0-0``,  ``1.64.1-0``,  ``1.62.2-0``,  ``1.60.0-0``,  ``1.56.2-0``,  ``1.56.1-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.44.0-0``,  ``1.42.1-0``,  ``1.40.0-0``,  ``1.38.2-0``,  ``1.38.0-0``,  ``1.36.2-0``,  ``1.36.0-1``,  ``1.34.4-1``,  ``1.34.4-0``,  ``1.32.3-0``,  ``1.32.2-0``,  ``1.32.0-0``,  ``1.30.1-0``
 
       
       .. raw:: html
@@ -41,12 +41,12 @@ bioconductor-annotationdbi
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-keggrest: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-keggrest: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dbi: 
    :depends r-rsqlite: 
    :requirements:
@@ -99,7 +99,7 @@ bioconductor-annotationdbi
 
     <script>
         var package = "bioconductor-annotationdbi";
-        var versions = ["1.64.1","1.62.2","1.60.0","1.56.2","1.56.1"];
+        var versions = ["1.68.0","1.64.1","1.62.2","1.60.0","1.56.2"];
     </script>
 
 

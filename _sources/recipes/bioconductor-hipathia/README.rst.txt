@@ -28,10 +28,10 @@ bioconductor-hipathia
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.0-0</code>,  <code>3.0.2-0</code>,  <code>2.14.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.0-1</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.6.0-0</code>,  <code>3.2.0-0</code>,  <code>3.0.2-0</code>,  <code>2.14.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.0-1</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  </span></summary>
       
 
-      ``3.2.0-0``,  ``3.0.2-0``,  ``2.14.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``1.3.1-0``
+      ``3.6.0-0``,  ``3.2.0-0``,  ``3.0.2-0``,  ``2.14.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``1.3.1-0``
 
       
       .. raw:: html
@@ -40,14 +40,14 @@ bioconductor-hipathia
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-preprocesscore: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-preprocesscore: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-coin: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
@@ -109,7 +109,7 @@ bioconductor-hipathia
 
     <script>
         var package = "bioconductor-hipathia";
-        var versions = ["3.2.0","3.0.2","2.14.0","2.10.0","2.8.0"];
+        var versions = ["3.6.0","3.2.0","3.0.2","2.14.0","2.10.0"];
     </script>
 
 

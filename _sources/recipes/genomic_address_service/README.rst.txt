@@ -28,7 +28,7 @@ genomic_address_service
       
       
 
-      ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
@@ -93,7 +93,7 @@ genomic_address_service
 
     <script>
         var package = "genomic_address_service";
-        var versions = ["0.1.2","0.1.1","0.1.1"];
+        var versions = ["0.1.3","0.1.2","0.1.1","0.1.1"];
     </script>
 
 

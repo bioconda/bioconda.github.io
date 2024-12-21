@@ -27,14 +27,14 @@ bioconductor-intercellar
       
       
 
-      ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.0.0-0``,  ``1.0.0-0``
+      ``2.12.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.0.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biomart: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-circlize: 
    :depends r-colorspace: 
    :depends r-colourpicker: 
@@ -118,7 +118,7 @@ bioconductor-intercellar
 
     <script>
         var package = "bioconductor-intercellar";
-        var versions = ["2.8.0","2.6.0","2.4.0","2.0.0","1.0.0"];
+        var versions = ["2.12.0","2.8.0","2.6.0","2.4.0","2.0.0"];
     </script>
 
 

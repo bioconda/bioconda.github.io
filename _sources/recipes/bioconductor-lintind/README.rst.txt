@@ -27,18 +27,19 @@ bioconductor-lintind
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-ggtree: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-ggtree: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-pwalign: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
    :depends r-ape: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cowplot: 
    :depends r-data.tree: 
    :depends r-dplyr: 
@@ -101,7 +102,7 @@ bioconductor-lintind
 
     <script>
         var package = "bioconductor-lintind";
-        var versions = ["1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.10.0","1.6.0","1.4.0","1.2.0"];
     </script>
 
 

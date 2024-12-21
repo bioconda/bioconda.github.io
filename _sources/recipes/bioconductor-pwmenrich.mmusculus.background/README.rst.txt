@@ -28,10 +28,10 @@ bioconductor-pwmenrich.mmusculus.background
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.36.0-0</code>,  <code>4.34.0-0</code>,  <code>4.32.0-0</code>,  <code>4.28.0-1</code>,  <code>4.28.0-0</code>,  <code>4.26.1-0</code>,  <code>4.24.0-1</code>,  <code>4.24.0-0</code>,  <code>4.22.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.40.0-0</code>,  <code>4.36.0-0</code>,  <code>4.34.0-0</code>,  <code>4.32.0-0</code>,  <code>4.28.0-1</code>,  <code>4.28.0-0</code>,  <code>4.26.1-0</code>,  <code>4.24.0-1</code>,  <code>4.24.0-0</code>,  </span></summary>
       
 
-      ``4.36.0-0``,  ``4.34.0-0``,  ``4.32.0-0``,  ``4.28.0-1``,  ``4.28.0-0``,  ``4.26.1-0``,  ``4.24.0-1``,  ``4.24.0-0``,  ``4.22.0-0``,  ``4.20.0-0``,  ``4.18.0-1``,  ``4.16.0-0``
+      ``4.40.0-0``,  ``4.36.0-0``,  ``4.34.0-0``,  ``4.32.0-0``,  ``4.28.0-1``,  ``4.28.0-0``,  ``4.26.1-0``,  ``4.24.0-1``,  ``4.24.0-0``,  ``4.22.0-0``,  ``4.20.0-0``,  ``4.18.0-1``,  ``4.16.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-pwmenrich.mmusculus.background
       
 
    
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-pwmenrich: ``>=4.38.0,<4.39.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-pwmenrich: ``>=4.42.0,<4.43.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -94,7 +94,7 @@ bioconductor-pwmenrich.mmusculus.background
 
     <script>
         var package = "bioconductor-pwmenrich.mmusculus.background";
-        var versions = ["4.36.0","4.34.0","4.32.0","4.28.0","4.28.0"];
+        var versions = ["4.40.0","4.36.0","4.34.0","4.32.0","4.28.0"];
     </script>
 
 

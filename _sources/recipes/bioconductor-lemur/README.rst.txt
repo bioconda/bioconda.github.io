@@ -27,44 +27,43 @@ bioconductor-lemur
       
       
 
-      ``1.0.4-0``
+      ``1.4.0-0``,  ``1.0.4-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.1,<0.49.0a0``
-   :depends bioconductor-biocneighbors: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-biocneighbors: ``>=1.20.0,<1.21.0a0``
-   :depends bioconductor-delayedmatrixstats: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-delayedmatrixstats: ``>=1.24.0,<1.25.0a0``
-   :depends bioconductor-glmgampoi: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-glmgampoi: ``>=1.14.0,<1.15.0a0``
-   :depends bioconductor-hdf5array: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-hdf5array: ``>=1.30.0,<1.31.0a0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-limma: ``>=3.58.1,<3.59.0a0``
-   :depends bioconductor-matrixgenerics: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-matrixgenerics: ``>=1.14.0,<1.15.0a0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0a0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0a0``
+   :depends bioconductor-biocneighbors: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-biocneighbors: ``>=2.0.0,<2.1.0a0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.28.0,<1.29.0a0``
+   :depends bioconductor-glmgampoi: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-glmgampoi: ``>=1.18.0,<1.19.0a0``
+   :depends bioconductor-hdf5array: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-hdf5array: ``>=1.34.0,<1.35.0a0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0a0``
+   :depends bioconductor-matrixgenerics: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-matrixgenerics: ``>=1.18.0,<1.19.0a0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-harmony: 
+   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-harmony: ``>=1.2.0``
    :depends r-irlba: 
    :depends r-matrix: 
    :depends r-matrixstats: 
    :depends r-rcpp: 
    :depends r-rcpparmadillo: 
-   :depends r-rlang: 
-   :depends r-vctrs: 
+   :depends r-rlang: ``>=1.1.0``
+   :depends r-vctrs: ``>=0.6.0``
    :requirements:
 
    :additional platforms:
@@ -115,7 +114,7 @@ bioconductor-lemur
 
     <script>
         var package = "bioconductor-lemur";
-        var versions = ["1.0.4"];
+        var versions = ["1.4.0","1.0.4"];
     </script>
 
 

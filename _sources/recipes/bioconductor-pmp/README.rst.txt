@@ -26,17 +26,25 @@ bioconductor-pmp
    :versions:
       
       
+      .. raw:: html
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  </span></summary>
+      
 
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-impute: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-pcamethods: ``>=1.94.0,<1.95.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-impute: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-pcamethods: ``>=1.98.0,<1.99.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: 
    :depends r-matrixstats: 
    :depends r-missforest: 
@@ -91,7 +99,7 @@ bioconductor-pmp
 
     <script>
         var package = "bioconductor-pmp";
-        var versions = ["1.14.0","1.12.0","1.10.0","1.6.0","1.4.0"];
+        var versions = ["1.18.0","1.14.0","1.12.0","1.10.0","1.6.0"];
     </script>
 
 

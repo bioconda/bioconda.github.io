@@ -29,10 +29,10 @@ r-wgcna
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.73-0</code>,  <code>1.71-5</code>,  <code>1.71-4</code>,  <code>1.71-3</code>,  <code>1.71-2</code>,  <code>1.71-0</code>,  <code>1.69-5</code>,  <code>1.69-4</code>,  <code>1.69-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.73-1</code>,  <code>1.73-0</code>,  <code>1.71-5</code>,  <code>1.71-4</code>,  <code>1.71-3</code>,  <code>1.71-2</code>,  <code>1.71-0</code>,  <code>1.69-5</code>,  <code>1.69-4</code>,  </span></summary>
       
 
-      ``1.73-0``,  ``1.71-5``,  ``1.71-4``,  ``1.71-3``,  ``1.71-2``,  ``1.71-0``,  ``1.69-5``,  ``1.69-4``,  ``1.69-3``,  ``1.69-2``,  ``1.69-1``,  ``1.69-0``,  ``1.68-1``,  ``1.68-0``,  ``1.67-0``,  ``1.66-1``,  ``1.66-0``,  ``1.64_1-0``,  ``1.61-0``,  ``1.51-1``,  ``1.51-0``
+      ``1.73-1``,  ``1.73-0``,  ``1.71-5``,  ``1.71-4``,  ``1.71-3``,  ``1.71-2``,  ``1.71-0``,  ``1.69-5``,  ``1.69-4``,  ``1.69-3``,  ``1.69-2``,  ``1.69-1``,  ``1.69-0``,  ``1.68-1``,  ``1.68-0``,  ``1.67-0``,  ``1.66-1``,  ``1.66-0``,  ``1.64_1-0``,  ``1.61-0``,  ``1.51-1``,  ``1.51-0``
 
       
       .. raw:: html
@@ -41,13 +41,12 @@ r-wgcna
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.1,<1.65.0a0``
-   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0a0``
-   :depends bioconductor-impute: ``>=1.76.0,<1.77.0a0``
-   :depends bioconductor-preprocesscore: ``>=1.64.0,<1.65.0a0``
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0a0``
+   :depends bioconductor-go.db: ``>=3.20.0,<3.21.0a0``
+   :depends bioconductor-impute: ``>=1.80.0,<1.81.0a0``
+   :depends bioconductor-preprocesscore: ``>=1.68.0,<1.69.0a0``
+   :depends libcxx: ``>=18``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-doparallel: 
    :depends r-dynamictreecut: ``>=1.62``
    :depends r-fastcluster: 
@@ -111,7 +110,7 @@ r-wgcna
 
     <script>
         var package = "r-wgcna";
-        var versions = ["1.73","1.71","1.71","1.71","1.71"];
+        var versions = ["1.73","1.73","1.71","1.71","1.71"];
     </script>
 
 

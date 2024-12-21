@@ -27,16 +27,16 @@ bioconductor-nipalsmcia
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-fgsea: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-fgsea: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: ``>=3.0.0``
    :depends r-pracma: 
@@ -93,7 +93,7 @@ bioconductor-nipalsmcia
 
     <script>
         var package = "bioconductor-nipalsmcia";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

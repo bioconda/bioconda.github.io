@@ -27,14 +27,14 @@ r-cimpl
       
       
 
-      ``1.1-6``,  ``1.1-5``,  ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-0``
+      ``1.1-7``,  ``1.1-6``,  ``1.1-5``,  ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-0``
 
       
 
    
-   :depends bioconductor-biomart: 
-   :depends bioconductor-biostrings: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biomart: ``>=2.62.0,<2.63.0a0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-kernsmooth: 
    :depends r-mass: 
    :depends r-xtable: 

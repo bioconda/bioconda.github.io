@@ -27,14 +27,15 @@ bioconductor-alabaster.string
       
       
 
-      ``1.2.0-0``,  ``1.0.1-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-alabaster.base: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-alabaster.base: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -85,7 +86,7 @@ bioconductor-alabaster.string
 
     <script>
         var package = "bioconductor-alabaster.string";
-        var versions = ["1.2.0","1.0.1"];
+        var versions = ["1.6.0","1.2.0","1.0.1"];
     </script>
 
 

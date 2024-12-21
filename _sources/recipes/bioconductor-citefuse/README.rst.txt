@@ -27,27 +27,34 @@ bioconductor-citefuse
    :versions:
       
       
+      .. raw:: html
 
-      ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  </span></summary>
+      
 
+      ``1.18.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-rhdf5: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-rhdf5: ``>=2.46.1,<2.47.0a0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
-   :depends bioconductor-scran: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-scran: ``>=1.30.0,<1.31.0a0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0a0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0a0``
+   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0a0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
+   :depends bioconductor-scran: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-scran: ``>=1.34.0,<1.35.0a0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-compositions: 
    :depends r-cowplot: 
    :depends r-dbscan: 
@@ -120,7 +127,7 @@ bioconductor-citefuse
 
     <script>
         var package = "bioconductor-citefuse";
-        var versions = ["1.14.0","1.14.0","1.12.0","1.10.0","1.6.0"];
+        var versions = ["1.18.0","1.14.0","1.14.0","1.12.0","1.10.0"];
     </script>
 
 

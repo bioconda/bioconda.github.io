@@ -27,22 +27,22 @@ bioconductor-vsclust
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-limma: ``>=3.58.1,<3.59.0a0``
-   :depends bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0a0``
-   :depends bioconductor-qvalue: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-qvalue: ``>=2.34.0,<2.35.0a0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0a0``
+   :depends bioconductor-multiassayexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.32.0,<1.33.0a0``
+   :depends bioconductor-qvalue: ``>=2.38.0,<2.39.0``
+   :depends bioconductor-qvalue: ``>=2.38.0,<2.39.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-matrixstats: 
    :depends r-rcpp: 
    :depends r-shiny: 
@@ -96,7 +96,7 @@ bioconductor-vsclust
 
     <script>
         var package = "bioconductor-vsclust";
-        var versions = ["1.4.0","1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0","1.0.0"];
     </script>
 
 

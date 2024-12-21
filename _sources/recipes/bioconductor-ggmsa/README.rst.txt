@@ -27,16 +27,16 @@ bioconductor-ggmsa
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-ggtree: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-r4rna: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-ggtree: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-r4rna: ``>=1.34.0,<1.35.0``
    :depends r-aplot: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-ggalt: 
    :depends r-ggforce: 
@@ -96,7 +96,7 @@ bioconductor-ggmsa
 
     <script>
         var package = "bioconductor-ggmsa";
-        var versions = ["1.8.0","1.6.0","1.4.0","1.0.0"];
+        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.0.0"];
     </script>
 
 

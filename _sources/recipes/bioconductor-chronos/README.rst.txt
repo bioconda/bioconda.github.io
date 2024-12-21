@@ -29,10 +29,10 @@ bioconductor-chronos
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  </span></summary>
       
 
-      ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.6.0-0``,  ``1.4.0-0``
+      ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.6.0-0``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ bioconductor-chronos
       
 
    
-   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-rbgl: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-biomart: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-graph: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-rbgl: ``>=1.82.0,<1.83.0``
    :depends openjdk: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-circlize: 
    :depends r-doparallel: 
    :depends r-foreach: 
@@ -104,7 +104,7 @@ bioconductor-chronos
 
     <script>
         var package = "bioconductor-chronos";
-        var versions = ["1.30.0","1.28.0","1.26.0","1.22.0","1.20.0"];
+        var versions = ["1.34.0","1.30.0","1.28.0","1.26.0","1.22.0"];
     </script>
 
 

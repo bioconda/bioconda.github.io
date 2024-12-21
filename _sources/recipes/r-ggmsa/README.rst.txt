@@ -27,7 +27,7 @@ r-ggmsa
       
       
 
-      ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
 
@@ -35,7 +35,7 @@ r-ggmsa
    :depends bioconductor-biostrings: 
    :depends bioconductor-r4rna: 
    :depends r-aplot: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-ggalt: 
    :depends r-ggforce: 
@@ -95,7 +95,7 @@ r-ggmsa
 
     <script>
         var package = "r-ggmsa";
-        var versions = ["1.0.2","1.0.2","1.0.2","1.0.2"];
+        var versions = ["1.0.2","1.0.2","1.0.2","1.0.2","1.0.2"];
     </script>
 
 

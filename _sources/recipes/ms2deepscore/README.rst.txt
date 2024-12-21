@@ -30,9 +30,17 @@ ms2deepscore
    :versions:
       
       
+      .. raw:: html
 
-      ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.0.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0.1-0``
+         <details><summary><span class="truncated-version-list"><code>2.5.0-0</code>,  <code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.0-0</code>,  <code>2.0.0-0</code>,  <code>1.0.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  </span></summary>
+      
 
+      ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.0.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -97,7 +105,7 @@ ms2deepscore
 
     <script>
         var package = "ms2deepscore";
-        var versions = ["2.4.0","2.3.0","2.2.0","2.1.0","2.0.0"];
+        var versions = ["2.5.0","2.4.0","2.3.0","2.2.0","2.1.0"];
     </script>
 
 

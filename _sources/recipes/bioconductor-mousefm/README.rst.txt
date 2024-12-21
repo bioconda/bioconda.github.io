@@ -27,16 +27,16 @@ bioconductor-mousefm
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biomart: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-curl: 
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -98,7 +98,7 @@ bioconductor-mousefm
 
     <script>
         var package = "bioconductor-mousefm";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.0.0","1.0.0"];
+        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.0.0"];
     </script>
 
 

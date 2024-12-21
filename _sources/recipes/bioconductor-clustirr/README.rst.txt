@@ -27,15 +27,30 @@ bioconductor-clustirr
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-pwalign: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-pwalign: ``>=1.2.0,<1.3.0a0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc: ``>=13``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-bh: ``>=1.66.0``
+   :depends r-blaster: 
    :depends r-future: 
    :depends r-future.apply: 
    :depends r-igraph: 
+   :depends r-rcpp: ``>=0.12.0``
+   :depends r-rcppeigen: ``>=0.3.3.3.0``
+   :depends r-rcppparallel: ``>=5.0.1``
+   :depends r-reshape2: 
+   :depends r-rstan: ``>=2.18.1``
+   :depends r-rstantools: ``>=2.4.0``
+   :depends r-stanheaders: ``>=2.18.0``
    :depends r-stringdist: 
    :depends r-visnetwork: 
    :requirements:
@@ -88,7 +103,7 @@ bioconductor-clustirr
 
     <script>
         var package = "bioconductor-clustirr";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

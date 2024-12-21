@@ -28,10 +28,10 @@ genoboo
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.16-0</code>,  <code>0.4.15-0</code>,  <code>0.4.13-0</code>,  <code>0.4.12-0</code>,  <code>0.4.11-0</code>,  <code>0.4.10-0</code>,  <code>0.4.9-0</code>,  <code>0.4.8-0</code>,  <code>0.4.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.16-1</code>,  <code>0.4.16-0</code>,  <code>0.4.15-0</code>,  <code>0.4.13-0</code>,  <code>0.4.12-0</code>,  <code>0.4.11-0</code>,  <code>0.4.10-0</code>,  <code>0.4.9-0</code>,  <code>0.4.8-0</code>,  </span></summary>
       
 
-      ``0.4.16-0``,  ``0.4.15-0``,  ``0.4.13-0``,  ``0.4.12-0``,  ``0.4.11-0``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``
+      ``0.4.16-1``,  ``0.4.16-0``,  ``0.4.15-0``,  ``0.4.13-0``,  ``0.4.12-0``,  ``0.4.11-0``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``
 
       
       .. raw:: html
@@ -41,8 +41,7 @@ genoboo
 
    
    :depends blast: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :depends mongodb: ``>=5.0``
    :depends nodejs: ``>=15,<16``
    :depends nodejs: ``>=15.14.0,<16.0a0``
@@ -97,7 +96,7 @@ genoboo
 
     <script>
         var package = "genoboo";
-        var versions = ["0.4.16","0.4.15","0.4.13","0.4.12","0.4.11"];
+        var versions = ["0.4.16","0.4.16","0.4.15","0.4.13","0.4.12"];
     </script>
 
 

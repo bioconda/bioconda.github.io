@@ -28,10 +28,10 @@ r-tailfindr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4-2</code>,  <code>1.4-1</code>,  <code>1.4-0</code>,  <code>1.3-2</code>,  <code>1.3-1</code>,  <code>1.3-0</code>,  <code>1.2-3</code>,  <code>1.2-2</code>,  <code>1.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4-3</code>,  <code>1.4-2</code>,  <code>1.4-1</code>,  <code>1.4-0</code>,  <code>1.3-2</code>,  <code>1.3-1</code>,  <code>1.3-0</code>,  <code>1.2-3</code>,  <code>1.2-2</code>,  </span></summary>
       
 
-      ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
+      ``1.4-3``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ r-tailfindr
       
 
    
-   :depends bioconductor-biostrings: 
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0a0``
    :depends bioconductor-rsamtools: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cli: 
    :depends r-crayon: 
    :depends r-data.table: 
@@ -118,7 +118,7 @@ r-tailfindr
 
     <script>
         var package = "r-tailfindr";
-        var versions = ["1.4","1.4","1.4","1.3","1.3"];
+        var versions = ["1.4","1.4","1.4","1.4","1.3"];
     </script>
 
 

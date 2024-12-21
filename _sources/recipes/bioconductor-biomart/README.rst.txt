@@ -29,10 +29,10 @@ bioconductor-biomart
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.58.0-0</code>,  <code>2.56.1-0</code>,  <code>2.54.0-0</code>,  <code>2.50.0-0</code>,  <code>2.48.0-0</code>,  <code>2.46.3-0</code>,  <code>2.46.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.62.0-0</code>,  <code>2.58.0-0</code>,  <code>2.56.1-0</code>,  <code>2.54.0-0</code>,  <code>2.50.0-0</code>,  <code>2.48.0-0</code>,  <code>2.46.3-0</code>,  <code>2.46.0-0</code>,  <code>2.44.0-0</code>,  </span></summary>
       
 
-      ``2.58.0-0``,  ``2.56.1-0``,  ``2.54.0-0``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.3-0``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.3-0``,  ``2.38.0-0``,  ``2.36.1-0``,  ``2.34.2-0``,  ``2.34.0-0``,  ``2.32.1-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.27.0-0``,  ``2.26.1-0``,  ``2.26.0-0``
+      ``2.62.0-0``,  ``2.58.0-0``,  ``2.56.1-0``,  ``2.54.0-0``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.3-0``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.3-0``,  ``2.38.0-0``,  ``2.36.1-0``,  ``2.34.2-0``,  ``2.34.0-0``,  ``2.32.1-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.27.0-0``,  ``2.26.1-0``,  ``2.26.0-0``
 
       
       .. raw:: html
@@ -41,15 +41,15 @@ bioconductor-biomart
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-curl: 
    :depends r-digest: 
-   :depends r-httr: 
+   :depends r-httr2: 
    :depends r-progress: 
    :depends r-rappdirs: 
    :depends r-stringr: 
-   :depends r-xml: ``>=3.99-0.7``
    :depends r-xml2: 
    :requirements:
 
@@ -101,7 +101,7 @@ bioconductor-biomart
 
     <script>
         var package = "bioconductor-biomart";
-        var versions = ["2.58.0","2.56.1","2.54.0","2.50.0","2.48.0"];
+        var versions = ["2.62.0","2.58.0","2.56.1","2.54.0","2.50.0"];
     </script>
 
 

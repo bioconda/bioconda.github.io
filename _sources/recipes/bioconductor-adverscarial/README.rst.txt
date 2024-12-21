@@ -27,14 +27,14 @@ bioconductor-adverscarial
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-gtools: 
    :requirements:
 
@@ -86,7 +86,7 @@ bioconductor-adverscarial
 
     <script>
         var package = "bioconductor-adverscarial";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

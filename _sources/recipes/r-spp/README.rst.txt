@@ -29,10 +29,10 @@ r-spp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.16.0-10</code>,  <code>1.16.0-9</code>,  <code>1.16.0-8</code>,  <code>1.16.0-7</code>,  <code>1.16.0-6</code>,  <code>1.16.0-5</code>,  <code>1.16.0-4</code>,  <code>1.16.0-3</code>,  <code>1.16.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.16.0-11</code>,  <code>1.16.0-10</code>,  <code>1.16.0-9</code>,  <code>1.16.0-8</code>,  <code>1.16.0-7</code>,  <code>1.16.0-6</code>,  <code>1.16.0-5</code>,  <code>1.16.0-4</code>,  <code>1.16.0-3</code>,  </span></summary>
       
 
-      ``1.16.0-10``,  ``1.16.0-9``,  ``1.16.0-8``,  ``1.16.0-7``,  ``1.16.0-6``,  ``1.16.0-5``,  ``1.16.0-4``,  ``1.16.0-3``,  ``1.16.0-2``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.15.5-2``,  ``1.15.5-1``,  ``1.15.5-0``,  ``1.15.2-0``,  ``1.14post-0``,  ``1.14-0``,  ``1.13-0``,  ``1.11-0``
+      ``1.16.0-11``,  ``1.16.0-10``,  ``1.16.0-9``,  ``1.16.0-8``,  ``1.16.0-7``,  ``1.16.0-6``,  ``1.16.0-5``,  ``1.16.0-4``,  ``1.16.0-3``,  ``1.16.0-2``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.15.5-2``,  ``1.15.5-1``,  ``1.15.5-0``,  ``1.15.2-0``,  ``1.14post-0``,  ``1.14-0``,  ``1.13-0``,  ``1.11-0``
 
       
       .. raw:: html
@@ -41,10 +41,9 @@ r-spp
       
 
    
-   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0a0``
+   :depends libcxx: ``>=18``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-bh: ``>=1.66``
    :depends r-catools: 
    :depends r-rcpp: 

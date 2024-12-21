@@ -27,14 +27,14 @@ bioconductor-residualmatrix
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-matrix: 
    :requirements:
 
@@ -86,7 +86,7 @@ bioconductor-residualmatrix
 
     <script>
         var package = "bioconductor-residualmatrix";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.0"];
+        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.4.0"];
     </script>
 
 

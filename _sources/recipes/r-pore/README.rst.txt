@@ -27,14 +27,14 @@ r-pore
       
       
 
-      ``0.24-6``,  ``0.24-5``,  ``0.24-4``,  ``0.24-3``,  ``0.24-2``,  ``0.24-0``,  ``0.16-0``
+      ``0.24-7``,  ``0.24-6``,  ``0.24-5``,  ``0.24-4``,  ``0.24-3``,  ``0.24-2``,  ``0.24-0``,  ``0.16-0``
 
       
 
    
-   :depends bioconductor-rhdf5: 
+   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0a0``
    :depends parallel: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-bit64: 
    :depends r-data.table: 
    :depends r-shiny: 

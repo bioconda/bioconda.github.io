@@ -29,10 +29,10 @@ bioconductor-rontotools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-0</code>,  <code>2.22.0-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-1</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.34.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-0</code>,  <code>2.22.0-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-1</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  </span></summary>
       
 
-      ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-1``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``
+      ``2.34.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-1``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ bioconductor-rontotools
       
 
    
-   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-kegggraph: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-keggrest: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-rgraphviz: ``>=2.46.0,<2.47.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-graph: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-kegggraph: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-keggrest: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-rgraphviz: ``>=2.50.0,<2.51.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-boot: 
    :requirements:
 
@@ -97,7 +97,7 @@ bioconductor-rontotools
 
     <script>
         var package = "bioconductor-rontotools";
-        var versions = ["2.30.0","2.28.0","2.26.0","2.22.0","2.20.0"];
+        var versions = ["2.34.0","2.30.0","2.28.0","2.26.0","2.22.0"];
     </script>
 
 

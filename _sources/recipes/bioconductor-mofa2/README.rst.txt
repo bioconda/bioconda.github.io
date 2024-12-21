@@ -27,20 +27,20 @@ bioconductor-mofa2
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-1``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-basilisk: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-basilisk: ``>=1.14.1,<1.15.0a0``
-   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0a0``
-   :depends bioconductor-hdf5array: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-hdf5array: ``>=1.30.0,<1.31.0a0``
-   :depends bioconductor-rhdf5: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-rhdf5: ``>=2.46.1,<2.47.0a0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-basilisk: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-basilisk: ``>=1.18.0,<1.19.0a0``
+   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0a0``
+   :depends bioconductor-hdf5array: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-hdf5array: ``>=1.34.0,<1.35.0a0``
+   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-corrplot: 
    :depends r-cowplot: 
    :depends r-dplyr: 
@@ -106,7 +106,7 @@ bioconductor-mofa2
 
     <script>
         var package = "bioconductor-mofa2";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.0"];
+        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.4.0"];
     </script>
 
 
