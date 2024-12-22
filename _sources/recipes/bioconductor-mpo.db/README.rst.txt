@@ -27,17 +27,17 @@ bioconductor-mpo.db
       
       
 
-      ``0.99.7-0``
+      ``0.99.8-0``,  ``0.99.7-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-data-packages: ``>=20241103``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dbi: 
    :requirements:
 
@@ -89,7 +89,7 @@ bioconductor-mpo.db
 
     <script>
         var package = "bioconductor-mpo.db";
-        var versions = ["0.99.7"];
+        var versions = ["0.99.8","0.99.7"];
     </script>
 
 

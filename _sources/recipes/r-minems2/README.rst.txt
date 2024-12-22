@@ -28,10 +28,10 @@ r-minems2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.3-7</code>,  <code>0.9.3-6</code>,  <code>0.9.3-5</code>,  <code>0.9.3-4</code>,  <code>0.9.3-3</code>,  <code>0.9.3-2</code>,  <code>0.9.3-1</code>,  <code>0.9.3-0</code>,  <code>0.9.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.3-8</code>,  <code>0.9.3-7</code>,  <code>0.9.3-6</code>,  <code>0.9.3-5</code>,  <code>0.9.3-4</code>,  <code>0.9.3-3</code>,  <code>0.9.3-2</code>,  <code>0.9.3-1</code>,  <code>0.9.3-0</code>,  </span></summary>
       
 
-      ``0.9.3-7``,  ``0.9.3-6``,  ``0.9.3-5``,  ``0.9.3-4``,  ``0.9.3-3``,  ``0.9.3-2``,  ``0.9.3-1``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9-0``
+      ``0.9.3-8``,  ``0.9.3-7``,  ``0.9.3-6``,  ``0.9.3-5``,  ``0.9.3-4``,  ``0.9.3-3``,  ``0.9.3-2``,  ``0.9.3-1``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ r-minems2
       
 
    
-   :depends bioconductor-msnbase: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-msnbase: ``>=2.32.0,<2.33.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-igraph: 
    :depends r-matrix: 
    :depends r-rcpp: ``>=0.12.13``

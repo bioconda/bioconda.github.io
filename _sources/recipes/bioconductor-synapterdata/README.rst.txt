@@ -26,16 +26,24 @@ bioconductor-synapterdata
    :versions:
       
       
+      .. raw:: html
 
-      ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.44.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  </span></summary>
+      
 
+      ``1.44.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-synapter: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-synapter: ``>=2.30.0,<2.31.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -86,7 +94,7 @@ bioconductor-synapterdata
 
     <script>
         var package = "bioconductor-synapterdata";
-        var versions = ["1.40.0","1.38.0","1.36.0","1.28.0","1.28.0"];
+        var versions = ["1.44.0","1.40.0","1.38.0","1.36.0","1.28.0"];
     </script>
 
 

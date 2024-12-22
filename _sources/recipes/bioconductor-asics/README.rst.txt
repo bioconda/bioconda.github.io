@@ -28,10 +28,10 @@ bioconductor-asics
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.1-1</code>,  <code>2.6.1-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.22.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.1-1</code>,  <code>2.6.1-0</code>,  <code>2.4.0-0</code>,  </span></summary>
       
 
-      ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.1-1``,  ``2.6.1-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.1-0``,  ``1.2.0-0``
+      ``2.22.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.1-1``,  ``2.6.1-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.1-0``,  ``1.2.0-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-asics
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-pepsnmr: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-ropls: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-pepsnmr: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-ropls: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: 
    :depends r-glmnet: 
    :depends r-gridextra: 
@@ -103,7 +103,7 @@ bioconductor-asics
 
     <script>
         var package = "bioconductor-asics";
-        var versions = ["2.18.0","2.16.0","2.14.0","2.10.0","2.8.0"];
+        var versions = ["2.22.0","2.18.0","2.16.0","2.14.0","2.10.0"];
     </script>
 
 

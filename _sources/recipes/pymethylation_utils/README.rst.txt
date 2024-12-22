@@ -27,11 +27,12 @@ pymethylation_utils
       
       
 
-      
+      ``0.4.1-0``
 
       
 
    
+   :depends python: 
    :requirements:
 
    :additional platforms:
@@ -82,7 +83,7 @@ pymethylation_utils
 
     <script>
         var package = "pymethylation_utils";
-        var versions = [];
+        var versions = ["0.4.1"];
     </script>
 
 

@@ -27,29 +27,27 @@ bioconductor-syntenet
       
       
 
-      ``1.4.0-0``,  ``1.2.4-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.4-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0a0``
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-biostrings: ``>=2.70.1,<2.71.0a0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-genomicranges: ``>=1.54.1,<1.55.0a0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0a0``
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0a0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0a0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0a0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggnetwork: 
    :depends r-ggplot2: 
    :depends r-igraph: 
    :depends r-intergraph: 
-   :depends r-networkd3: 
    :depends r-pheatmap: 
    :depends r-rcolorbrewer: 
    :depends r-rcpp: ``>=1.0.8``
@@ -105,7 +103,7 @@ bioconductor-syntenet
 
     <script>
         var package = "bioconductor-syntenet";
-        var versions = ["1.4.0","1.2.4","1.0.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.2.4","1.0.0","1.0.0"];
     </script>
 
 

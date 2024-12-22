@@ -27,15 +27,15 @@ bioconductor-gdr
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-gdrcore: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-gdrimport: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-gdrutils: ``>=1.0.0,<1.1.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-gdrcore: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-gdrimport: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-gdrutils: ``>=1.4.0,<1.5.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -86,7 +86,7 @@ bioconductor-gdr
 
     <script>
         var package = "bioconductor-gdr";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

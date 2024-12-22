@@ -27,17 +27,17 @@ bioconductor-debcam
       
       
 
-      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.4.0-0``
+      ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.4.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
    :depends openjdk: 
    :depends r-apcluster: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-corpcor: 
    :depends r-dmwr2: 
    :depends r-geometry: 
@@ -95,7 +95,7 @@ bioconductor-debcam
 
     <script>
         var package = "bioconductor-debcam";
-        var versions = ["1.20.0","1.18.0","1.16.0","1.12.0","1.10.0"];
+        var versions = ["1.24.0","1.20.0","1.18.0","1.16.0","1.12.0"];
     </script>
 
 

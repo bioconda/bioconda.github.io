@@ -29,10 +29,10 @@ bioconductor-genextender
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.20.0-2</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.32.0-0</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.20.0-2</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  </span></summary>
       
 
-      ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.20.0-2``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.11.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
+      ``1.32.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.20.0-2``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.11.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
 
       
       .. raw:: html
@@ -41,20 +41,19 @@ bioconductor-genextender
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-annotationdbi: ``>=1.64.1,<1.65.0a0``
-   :depends bioconductor-biocstyle: ``>=2.30.0,<2.31.0``
-   :depends bioconductor-biocstyle: ``>=2.30.0,<2.31.0a0``
-   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0a0``
-   :depends bioconductor-org.rn.eg.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-org.rn.eg.db: ``>=3.18.0,<3.19.0a0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0a0``
+   :depends bioconductor-biocstyle: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-biocstyle: ``>=2.34.0,<2.35.0a0``
+   :depends bioconductor-go.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-go.db: ``>=3.20.0,<3.21.0a0``
+   :depends bioconductor-org.rn.eg.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-org.rn.eg.db: ``>=3.20.0,<3.21.0a0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-networkd3: 
@@ -116,7 +115,7 @@ bioconductor-genextender
 
     <script>
         var package = "bioconductor-genextender";
-        var versions = ["1.28.0","1.28.0","1.26.0","1.24.0","1.24.0"];
+        var versions = ["1.32.0","1.28.0","1.28.0","1.26.0","1.24.0"];
     </script>
 
 

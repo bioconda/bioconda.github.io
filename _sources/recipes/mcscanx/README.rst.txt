@@ -13,7 +13,7 @@ mcscanx
    Multiple Collinearity Scan toolkit X version
 
    :homepage: https://github.com/wyp1125/MCScanX
-   :license: BSD / BSD
+   :license: BSD / BSD-2-Clause
    :recipe: /`mcscanx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mcscanx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mcscanx/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ mcscanx
       
       
 
-      ``0.1-0``
+      ``1.0.0-0``,  ``0.1-0``
 
       
 
@@ -88,7 +88,7 @@ mcscanx
 
     <script>
         var package = "mcscanx";
-        var versions = ["0.1"];
+        var versions = ["1.0.0","0.1"];
     </script>
 
 

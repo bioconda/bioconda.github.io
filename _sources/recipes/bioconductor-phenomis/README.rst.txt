@@ -27,20 +27,20 @@ bioconductor-phenomis
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biodb: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-biodbchebi: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-multidataset: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-ropls: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biodb: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-biodbchebi: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-multidataset: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-ropls: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: 
    :depends r-futile.logger: 
    :depends r-ggplot2: 
@@ -104,7 +104,7 @@ bioconductor-phenomis
 
     <script>
         var package = "bioconductor-phenomis";
-        var versions = ["1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

@@ -29,10 +29,10 @@ bioconductor-tfbstools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.40.0-1</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.32.0-2</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.44.0-0</code>,  <code>1.40.0-1</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.32.0-2</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  </span></summary>
       
 
-      ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.32.0-2``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.15.7-0``,  ``1.14.2-0``,  ``1.12.2-0``
+      ``1.44.0-0``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.32.0-2``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.15.7-0``,  ``1.14.2-0``,  ``1.12.2-0``
 
       
       .. raw:: html
@@ -41,38 +41,39 @@ bioconductor-tfbstools
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.1,<0.49.0a0``
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0a0``
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-biostrings: ``>=2.70.1,<2.71.0a0``
-   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-bsgenome: ``>=1.70.1,<1.71.0a0``
-   :depends bioconductor-cner: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-cner: ``>=1.38.0,<1.39.0a0``
-   :depends bioconductor-dirichletmultinomial: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-dirichletmultinomial: ``>=1.44.0,<1.45.0a0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.1,<1.39.0a0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-genomicranges: ``>=1.54.1,<1.55.0a0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0a0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0a0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
-   :depends bioconductor-seqlogo: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-seqlogo: ``>=1.68.0,<1.69.0a0``
-   :depends bioconductor-xvector: ``>=0.42.0,<0.43.0``
-   :depends bioconductor-xvector: ``>=0.42.0,<0.43.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0a0``
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0a0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0a0``
+   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0a0``
+   :depends bioconductor-cner: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-cner: ``>=1.42.0,<1.43.0a0``
+   :depends bioconductor-dirichletmultinomial: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-dirichletmultinomial: ``>=1.48.0,<1.49.0a0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0a0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0a0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
+   :depends bioconductor-pwalign: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-pwalign: ``>=1.2.0,<1.3.0a0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0a0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
+   :depends bioconductor-seqlogo: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-seqlogo: ``>=1.72.0,<1.73.0a0``
+   :depends bioconductor-xvector: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-xvector: ``>=0.46.0,<0.47.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-catools: ``>=1.17.1``
    :depends r-dbi: ``>=0.6``
    :depends r-gtools: ``>=3.5.0``
@@ -133,7 +134,7 @@ bioconductor-tfbstools
 
     <script>
         var package = "bioconductor-tfbstools";
-        var versions = ["1.40.0","1.40.0","1.38.0","1.36.0","1.36.0"];
+        var versions = ["1.44.0","1.40.0","1.40.0","1.38.0","1.36.0"];
     </script>
 
 

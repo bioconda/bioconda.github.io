@@ -27,14 +27,15 @@ r-george
       
       
 
-      ``1.0.1-6``,  ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-0``
+      ``1.0.1-7``,  ``1.0.1-6``,  ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-mzr: 
-   :depends bioconductor-xcms: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0a0``
+   :depends bioconductor-mzr: ``>=2.40.0,<2.41.0a0``
+   :depends bioconductor-xcms: ``>=4.4.0,<4.5.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-optparse: 
    :requirements:
 

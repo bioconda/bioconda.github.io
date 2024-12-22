@@ -27,24 +27,25 @@ bioconductor-cellbarcode
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-biostrings: ``>=2.70.1,<2.71.0a0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
-   :depends bioconductor-shortread: ``>=1.60.0,<1.61.0``
-   :depends bioconductor-shortread: ``>=1.60.0,<1.61.0a0``
-   :depends bioconductor-zlibbioc: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-zlibbioc: ``>=1.48.0,<1.49.0a0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0a0``
+   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0a0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
+   :depends bioconductor-shortread: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-shortread: ``>=1.64.0,<1.65.0a0``
+   :depends bioconductor-zlibbioc: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-zlibbioc: ``>=1.52.0,<1.53.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-bh: 
    :depends r-ckmeans.1d.dp: 
    :depends r-data.table: ``>=1.12.6``
@@ -105,7 +106,7 @@ bioconductor-cellbarcode
 
     <script>
         var package = "bioconductor-cellbarcode";
-        var versions = ["1.8.0","1.6.0","1.4.0","1.4.0","1.0.0"];
+        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.4.0"];
     </script>
 
 

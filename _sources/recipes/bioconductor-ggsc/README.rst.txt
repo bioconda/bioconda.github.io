@@ -27,27 +27,29 @@ bioconductor-ggsc
       
       
 
-      ``1.0.2-0``
+      ``1.4.0-0``,  ``1.0.2-0``
 
       
 
    
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0a0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0a0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=18``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cli: 
    :depends r-dplyr: 
+   :depends r-ggfun: ``>=0.1.5``
    :depends r-ggplot2: 
+   :depends r-rcolorbrewer: 
    :depends r-rcpp: 
    :depends r-rcpparmadillo: 
    :depends r-rcppparallel: 
    :depends r-rlang: 
+   :depends r-scales: 
    :depends r-scattermore: 
    :depends r-seurat: 
    :depends r-tibble: 
@@ -104,7 +106,7 @@ bioconductor-ggsc
 
     <script>
         var package = "bioconductor-ggsc";
-        var versions = ["1.0.2"];
+        var versions = ["1.4.0","1.0.2"];
     </script>
 
 

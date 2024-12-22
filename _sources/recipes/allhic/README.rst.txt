@@ -27,7 +27,7 @@ allhic
       
       
 
-      ``0.9.13.1-0``
+      ``0.9.14-0``,  ``0.9.13.1-0``
 
       
 
@@ -86,7 +86,7 @@ allhic
 
     <script>
         var package = "allhic";
-        var versions = ["0.9.13.1"];
+        var versions = ["0.9.14","0.9.13.1"];
     </script>
 
 

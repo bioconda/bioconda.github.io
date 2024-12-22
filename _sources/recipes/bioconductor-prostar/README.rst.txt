@@ -28,10 +28,10 @@ bioconductor-prostar
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.34.3-0</code>,  <code>1.32.1-0</code>,  <code>1.30.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.3-0</code>,  <code>1.22.8-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.34.3-0</code>,  <code>1.32.1-0</code>,  <code>1.30.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.3-0</code>,  <code>1.22.8-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  </span></summary>
       
 
-      ``1.34.3-0``,  ``1.32.1-0``,  ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.3-0``,  ``1.22.8-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.7-0``,  ``1.14.8-0``
+      ``1.38.0-0``,  ``1.34.3-0``,  ``1.32.1-0``,  ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.3-0``,  ``1.22.8-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.7-0``,  ``1.14.8-0``
 
       
       .. raw:: html
@@ -40,9 +40,10 @@ bioconductor-prostar
       
 
    
-   :depends bioconductor-dapar: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-dapardata: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-dapar: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-dapardata: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-colourpicker: 
    :depends r-data.table: 
    :depends r-dt: 
@@ -52,8 +53,8 @@ bioconductor-prostar
    :depends r-gtools: 
    :depends r-highcharter: 
    :depends r-htmlwidgets: 
-   :depends r-knitr: 
    :depends r-later: 
+   :depends r-markdown: 
    :depends r-promises: 
    :depends r-r.utils: 
    :depends r-rclipboard: 
@@ -123,7 +124,7 @@ bioconductor-prostar
 
     <script>
         var package = "bioconductor-prostar";
-        var versions = ["1.34.3","1.32.1","1.30.0","1.26.0","1.24.3"];
+        var versions = ["1.38.0","1.34.3","1.32.1","1.30.0","1.26.0"];
     </script>
 
 

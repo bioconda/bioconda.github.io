@@ -28,10 +28,10 @@ r-msqrob
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.7-3</code>,  <code>0.7.7-2</code>,  <code>0.7.7-1</code>,  <code>0.7.7-0</code>,  <code>0.7.6-3</code>,  <code>0.7.6-2</code>,  <code>0.7.6-1</code>,  <code>0.7.6-0</code>,  <code>0.7.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.7-4</code>,  <code>0.7.7-3</code>,  <code>0.7.7-2</code>,  <code>0.7.7-1</code>,  <code>0.7.7-0</code>,  <code>0.7.6-3</code>,  <code>0.7.6-2</code>,  <code>0.7.6-1</code>,  <code>0.7.6-0</code>,  </span></summary>
       
 
-      ``0.7.7-3``,  ``0.7.7-2``,  ``0.7.7-1``,  ``0.7.7-0``,  ``0.7.6-3``,  ``0.7.6-2``,  ``0.7.6-1``,  ``0.7.6-0``,  ``0.7.5-1``,  ``0.7.5-0``
+      ``0.7.7-4``,  ``0.7.7-3``,  ``0.7.7-2``,  ``0.7.7-1``,  ``0.7.7-0``,  ``0.7.6-3``,  ``0.7.6-2``,  ``0.7.6-1``,  ``0.7.6-0``,  ``0.7.5-1``,  ``0.7.5-0``
 
       
       .. raw:: html
@@ -50,7 +50,7 @@ r-msqrob
    :depends bioconductor-mzid: 
    :depends bioconductor-mzr: 
    :depends bioconductor-protgenerics: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-colorspace: 
    :depends r-dichromat: 
    :depends r-dt: 
@@ -137,7 +137,7 @@ r-msqrob
 
     <script>
         var package = "r-msqrob";
-        var versions = ["0.7.7","0.7.7","0.7.7","0.7.7","0.7.6"];
+        var versions = ["0.7.7","0.7.7","0.7.7","0.7.7","0.7.7"];
     </script>
 
 

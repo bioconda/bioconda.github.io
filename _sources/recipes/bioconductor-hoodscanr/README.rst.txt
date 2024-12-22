@@ -27,22 +27,22 @@ bioconductor-hoodscanr
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0a0``
-   :depends bioconductor-spatialexperiment: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-spatialexperiment: ``>=1.12.0,<1.13.0a0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0a0``
+   :depends bioconductor-spatialexperiment: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-spatialexperiment: ``>=1.16.0,<1.17.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-circlize: 
    :depends r-ggplot2: 
    :depends r-knitr: 
@@ -101,7 +101,7 @@ bioconductor-hoodscanr
 
     <script>
         var package = "bioconductor-hoodscanr";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

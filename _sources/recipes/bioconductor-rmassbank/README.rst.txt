@@ -28,10 +28,10 @@ bioconductor-rmassbank
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.12.0-0</code>,  <code>3.10.0-0</code>,  <code>3.8.0-1</code>,  <code>3.8.0-0</code>,  <code>3.4.0-2</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.2.0-0</code>,  <code>3.0.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.16.0-0</code>,  <code>3.12.0-0</code>,  <code>3.10.0-0</code>,  <code>3.8.0-1</code>,  <code>3.8.0-0</code>,  <code>3.4.0-2</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.2.0-0</code>,  </span></summary>
       
 
-      ``3.12.0-0``,  ``3.10.0-0``,  ``3.8.0-1``,  ``3.8.0-0``,  ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.2.0-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.13.0-0``,  ``2.12.0-1``,  ``2.10.1-0``
+      ``3.16.0-0``,  ``3.12.0-0``,  ``3.10.0-0``,  ``3.8.0-1``,  ``3.8.0-0``,  ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.2.0-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.13.0-0``,  ``2.12.0-1``,  ``2.10.1-0``
 
       
       .. raw:: html
@@ -40,36 +40,40 @@ bioconductor-rmassbank
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
-   :depends bioconductor-chemmineob: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-chemmineob: ``>=1.40.0,<1.41.0a0``
-   :depends bioconductor-chemminer: ``>=3.54.0,<3.55.0``
-   :depends bioconductor-chemminer: ``>=3.54.0,<3.55.0a0``
-   :depends bioconductor-msnbase: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-msnbase: ``>=2.28.1,<2.29.0a0``
-   :depends bioconductor-mzr: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-mzr: ``>=2.36.0,<2.37.0a0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0a0``
+   :depends bioconductor-chemminer: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-chemminer: ``>=3.58.0,<3.59.0a0``
+   :depends bioconductor-msnbase: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-msnbase: ``>=2.32.0,<2.33.0a0``
+   :depends bioconductor-mzr: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-mzr: ``>=2.40.0,<2.41.0a0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libstdcxx: ``>=13``
    :depends openbabel: 
    :depends r-assertthat: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: 
    :depends r-digest: 
+   :depends r-dplyr: 
    :depends r-envipat: 
    :depends r-glue: 
    :depends r-httr: 
+   :depends r-httr2: 
    :depends r-logger: 
+   :depends r-purrr: 
    :depends r-r.utils: 
    :depends r-rcdk: 
    :depends r-rcpp: 
    :depends r-readjdx: 
+   :depends r-readr: 
    :depends r-rjson: 
+   :depends r-tibble: 
+   :depends r-tidyselect: 
    :depends r-webchem: 
    :depends r-xml: 
    :depends r-yaml: 
@@ -123,7 +127,7 @@ bioconductor-rmassbank
 
     <script>
         var package = "bioconductor-rmassbank";
-        var versions = ["3.12.0","3.10.0","3.8.0","3.8.0","3.4.0"];
+        var versions = ["3.16.0","3.12.0","3.10.0","3.8.0","3.8.0"];
     </script>
 
 

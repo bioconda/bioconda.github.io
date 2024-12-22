@@ -26,20 +26,30 @@ r-alakazam
    :versions:
       
       
+      .. raw:: html
 
-      ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``0.2.10-0``,  ``0.2.8-0``,  ``0.2.7-0``
+         <details><summary><span class="truncated-version-list"><code>1.2.1-4</code>,  <code>1.2.1-3</code>,  <code>1.2.1-2</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>0.2.10-0</code>,  <code>0.2.8-0</code>,  </span></summary>
+      
 
+      ``1.2.1-4``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``0.2.10-0``,  ``0.2.8-0``,  ``0.2.7-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-biostrings: ``>=2.56.0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0a0``
    :depends bioconductor-genomicalignments: ``>=1.24.0``
+   :depends bioconductor-genomicalignments: ``>=1.42.0,<1.43.0a0``
    :depends bioconductor-iranges: ``>=2.22.2``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
+   :depends libcxx: ``>=18``
    :depends r-airr: ``>=1.3``
    :depends r-ape: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: ``>=1.0``
    :depends r-ggplot2: ``>=3.3.4``
    :depends r-igraph: ``>=1.0.0``
@@ -103,7 +113,7 @@ r-alakazam
 
     <script>
         var package = "r-alakazam";
-        var versions = ["1.2.1","1.2.1","1.2.1","1.2.1","1.2.0"];
+        var versions = ["1.2.1","1.2.1","1.2.1","1.2.1","1.2.1"];
     </script>
 
 

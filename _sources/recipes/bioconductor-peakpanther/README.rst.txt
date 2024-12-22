@@ -26,20 +26,28 @@ bioconductor-peakpanther
    :versions:
       
       
+      .. raw:: html
 
-      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+      
 
+      ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-msnbase: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-mzr: ``>=2.36.0,<2.37.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-msnbase: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-mzr: ``>=2.40.0,<2.41.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-bslib: 
    :depends r-doparallel: ``>=1.0.11``
    :depends r-dt: ``>=0.15``
    :depends r-foreach: ``>=1.4.4``
-   :depends r-ggplot2: ``>=3.3.0``
+   :depends r-ggplot2: ``>=3.5.0``
    :depends r-gridextra: ``>=2.3``
    :depends r-lubridate: 
    :depends r-minpack.lm: ``>=1.2.1``
@@ -48,6 +56,7 @@ bioconductor-peakpanther
    :depends r-shiny: ``>=1.0.5``
    :depends r-shinycssloaders: ``>=1.0.0``
    :depends r-stringr: ``>=1.2.0``
+   :depends r-svglite: ``>=2.1.1``
    :depends r-xml: ``>=3.98.1.10``
    :requirements:
 
@@ -99,7 +108,7 @@ bioconductor-peakpanther
 
     <script>
         var package = "bioconductor-peakpanther";
-        var versions = ["1.16.0","1.14.0","1.12.0","1.8.0","1.6.0"];
+        var versions = ["1.20.0","1.16.0","1.14.0","1.12.0","1.8.0"];
     </script>
 
 

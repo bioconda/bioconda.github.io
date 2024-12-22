@@ -27,16 +27,24 @@ bioconductor-rcsl
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-ggplot2: 
+   :depends bioconductor-matrixgenerics: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-matrixgenerics: ``>=1.18.0,<1.19.0a0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0a0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libcxx: ``>=18``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-ggplot2: ``>=3.4.0``
    :depends r-igraph: 
    :depends r-nbclust: 
    :depends r-pracma: 
+   :depends r-rcpp: ``>=0.11.0``
    :depends r-rcppannoy: 
    :depends r-rtsne: 
    :depends r-umap: 
@@ -90,7 +98,7 @@ bioconductor-rcsl
 
     <script>
         var package = "bioconductor-rcsl";
-        var versions = ["1.8.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.14.0","1.8.0","1.6.0","1.2.0","1.0.0"];
     </script>
 
 

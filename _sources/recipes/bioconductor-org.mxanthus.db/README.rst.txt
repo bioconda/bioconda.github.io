@@ -28,10 +28,10 @@ bioconductor-org.mxanthus.db
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.27-9</code>,  <code>1.0.27-8</code>,  <code>1.0.27-7</code>,  <code>1.0.27-6</code>,  <code>1.0.27-5</code>,  <code>1.0.27-3</code>,  <code>1.0.27-2</code>,  <code>1.0.27-1</code>,  <code>1.0.27-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.27-10</code>,  <code>1.0.27-9</code>,  <code>1.0.27-8</code>,  <code>1.0.27-7</code>,  <code>1.0.27-6</code>,  <code>1.0.27-5</code>,  <code>1.0.27-3</code>,  <code>1.0.27-2</code>,  <code>1.0.27-1</code>,  </span></summary>
       
 
-      ``1.0.27-9``,  ``1.0.27-8``,  ``1.0.27-7``,  ``1.0.27-6``,  ``1.0.27-5``,  ``1.0.27-3``,  ``1.0.27-2``,  ``1.0.27-1``,  ``1.0.27-0``,  ``1.0.23-0``
+      ``1.0.27-10``,  ``1.0.27-9``,  ``1.0.27-8``,  ``1.0.27-7``,  ``1.0.27-6``,  ``1.0.27-5``,  ``1.0.27-3``,  ``1.0.27-2``,  ``1.0.27-1``,  ``1.0.27-0``,  ``1.0.23-0``
 
       
       .. raw:: html
@@ -40,13 +40,13 @@ bioconductor-org.mxanthus.db
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-biocstyle: ``>=2.30.0,<2.31.0``
-   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-biocstyle: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-data-packages: ``>=20241103``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:

@@ -27,18 +27,19 @@ bioconductor-omicsviewer
       
       
 
-      ``1.2.0-0``
+      ``1.10.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-fgsea: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-fgsea: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-beeswarm: 
    :depends r-curl: 
+   :depends r-drc: 
    :depends r-dt: 
    :depends r-fastmatch: 
    :depends r-flatxml: 
@@ -54,6 +55,7 @@ bioconductor-omicsviewer
    :depends r-psych: 
    :depends r-rcolorbrewer: 
    :depends r-reshape2: 
+   :depends r-rocr: 
    :depends r-rsqlite: 
    :depends r-shiny: 
    :depends r-shinybusy: 
@@ -114,7 +116,7 @@ bioconductor-omicsviewer
 
     <script>
         var package = "bioconductor-omicsviewer";
-        var versions = ["1.2.0"];
+        var versions = ["1.10.0","1.2.0"];
     </script>
 
 
