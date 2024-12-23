@@ -29,10 +29,10 @@ bioconductor-hpar
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.44.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.1-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.48.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.1-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  </span></summary>
       
 
-      ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.1-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.2-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.15.0-0``,  ``1.14.1-0``
+      ``1.48.0-0``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.1-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.2-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.15.0-0``,  ``1.14.1-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ bioconductor-hpar
       
 
    
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -93,7 +93,7 @@ bioconductor-hpar
 
     <script>
         var package = "bioconductor-hpar";
-        var versions = ["1.44.0","1.42.0","1.40.0","1.36.0","1.34.0"];
+        var versions = ["1.48.0","1.44.0","1.42.0","1.40.0","1.36.0"];
     </script>
 
 

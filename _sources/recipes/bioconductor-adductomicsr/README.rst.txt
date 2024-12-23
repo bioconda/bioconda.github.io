@@ -28,10 +28,10 @@ bioconductor-adductomicsr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  </span></summary>
       
 
-      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-1``
+      ``1.22.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-1``
 
       
       .. raw:: html
@@ -40,12 +40,12 @@ bioconductor-adductomicsr
       
 
    
-   :depends bioconductor-adductdata: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-mzr: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-adductdata: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-mzr: ``>=2.40.0,<2.41.0``
    :depends r-ade4: ``>=1.7.6``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-bootstrap: ``>=2017.2``
    :depends r-data.table: ``>=1.10.4``
    :depends r-dosnow: ``>=1.0.14``
@@ -112,7 +112,7 @@ bioconductor-adductomicsr
 
     <script>
         var package = "bioconductor-adductomicsr";
-        var versions = ["1.18.0","1.16.0","1.14.0","1.10.0","1.8.0"];
+        var versions = ["1.22.0","1.18.0","1.16.0","1.14.0","1.10.0"];
     </script>
 
 

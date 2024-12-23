@@ -28,10 +28,10 @@ r-cellassign
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.99.2-6</code>,  <code>0.99.2-5</code>,  <code>0.99.2-4</code>,  <code>0.99.2-3</code>,  <code>0.99.2-2</code>,  <code>0.99.2-1</code>,  <code>0.99.2-0</code>,  <code>0.99.1-0</code>,  <code>0.99.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.99.2-7</code>,  <code>0.99.2-6</code>,  <code>0.99.2-5</code>,  <code>0.99.2-4</code>,  <code>0.99.2-3</code>,  <code>0.99.2-2</code>,  <code>0.99.2-1</code>,  <code>0.99.2-0</code>,  <code>0.99.1-0</code>,  </span></summary>
       
 
-      ``0.99.2-6``,  ``0.99.2-5``,  ``0.99.2-4``,  ``0.99.2-3``,  ``0.99.2-2``,  ``0.99.2-1``,  ``0.99.2-0``,  ``0.99.1-0``,  ``0.99.0-1``,  ``0.99.0-0``
+      ``0.99.2-7``,  ``0.99.2-6``,  ``0.99.2-5``,  ``0.99.2-4``,  ``0.99.2-3``,  ``0.99.2-2``,  ``0.99.2-1``,  ``0.99.2-0``,  ``0.99.1-0``,  ``0.99.0-1``,  ``0.99.0-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ r-cellassign
    :depends bioconductor-genomeinfodbdata: 
    :depends bioconductor-scran: 
    :depends bioconductor-summarizedexperiment: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-glue: 
    :depends r-tensorflow: 
    :requirements:

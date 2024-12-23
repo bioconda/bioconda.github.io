@@ -27,21 +27,21 @@ bioconductor-orthos
       
       
 
-      ``1.0.1-0``
+      ``1.4.0-0``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-basilisk: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-hdf5array: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-orthosdata: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-basilisk: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-hdf5array: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-orthosdata: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-colorspace: 
    :depends r-cowplot: 
    :depends r-dplyr: 
@@ -105,7 +105,7 @@ bioconductor-orthos
 
     <script>
         var package = "bioconductor-orthos";
-        var versions = ["1.0.1"];
+        var versions = ["1.4.0","1.0.1"];
     </script>
 
 

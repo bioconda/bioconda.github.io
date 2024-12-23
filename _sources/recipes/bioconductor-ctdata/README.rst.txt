@@ -27,13 +27,13 @@ bioconductor-ctdata
       
       
 
-      ``1.2.0-0``,  ``1.0.2-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.2-0``
 
       
 
    
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -84,7 +84,7 @@ bioconductor-ctdata
 
     <script>
         var package = "bioconductor-ctdata";
-        var versions = ["1.2.0","1.0.2"];
+        var versions = ["1.6.0","1.2.0","1.0.2"];
     </script>
 
 

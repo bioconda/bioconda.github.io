@@ -32,7 +32,7 @@ gencore
       
 
    
-   :depends htslib: ``>=1.10.2,<1.11.0a0``
+   :depends htslib: ``>=1.10.2,<1.22.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.2.13,<2.0a0``

@@ -27,19 +27,19 @@ bioconductor-orthosdata
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-hdf5array: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-hdf5array: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-stringr: 
    :requirements:
 
@@ -91,7 +91,7 @@ bioconductor-orthosdata
 
     <script>
         var package = "bioconductor-orthosdata";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

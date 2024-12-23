@@ -27,23 +27,23 @@ bioconductor-imcrtools
       
       
 
-      ``1.8.0-0``,  ``1.6.3-0``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.3-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocneighbors: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-cytomapper: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-ebimage: ``>=4.44.0,<4.45.0``
-   :depends bioconductor-matrixgenerics: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-scuttle: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-spatialexperiment: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-biocneighbors: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-cytomapper: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-ebimage: ``>=4.48.0,<4.49.0``
+   :depends bioconductor-matrixgenerics: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-scuttle: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-spatialexperiment: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
    :depends r-abind: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-concaveman: 
    :depends r-data.table: 
    :depends r-distances: 
@@ -55,6 +55,7 @@ bioconductor-imcrtools
    :depends r-magrittr: 
    :depends r-pheatmap: 
    :depends r-readr: 
+   :depends r-rlang: 
    :depends r-rtriangle: 
    :depends r-sf: 
    :depends r-stringr: 
@@ -112,7 +113,7 @@ bioconductor-imcrtools
 
     <script>
         var package = "bioconductor-imcrtools";
-        var versions = ["1.8.0","1.6.3","1.4.0","1.0.0"];
+        var versions = ["1.12.0","1.8.0","1.6.3","1.4.0","1.0.0"];
     </script>
 
 

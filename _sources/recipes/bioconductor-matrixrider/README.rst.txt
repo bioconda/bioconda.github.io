@@ -28,10 +28,10 @@ bioconductor-matrixrider
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.26.0-2</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.26.0-2</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  </span></summary>
       
 
-      ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.26.0-2``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-1``,  ``1.14.0-0``
+      ``1.38.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.26.0-2``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-1``,  ``1.14.0-0``
 
       
       .. raw:: html
@@ -40,20 +40,19 @@ bioconductor-matrixrider
       
 
    
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-biostrings: ``>=2.70.1,<2.71.0a0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0a0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
-   :depends bioconductor-tfbstools: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-tfbstools: ``>=1.40.0,<1.41.0a0``
-   :depends bioconductor-xvector: ``>=0.42.0,<0.43.0``
-   :depends bioconductor-xvector: ``>=0.42.0,<0.43.0a0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0a0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
+   :depends bioconductor-tfbstools: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-tfbstools: ``>=1.44.0,<1.45.0a0``
+   :depends bioconductor-xvector: ``>=0.46.0,<0.47.0``
+   :depends bioconductor-xvector: ``>=0.46.0,<0.47.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -104,7 +103,7 @@ bioconductor-matrixrider
 
     <script>
         var package = "bioconductor-matrixrider";
-        var versions = ["1.34.0","1.32.0","1.30.0","1.30.0","1.26.0"];
+        var versions = ["1.38.0","1.34.0","1.32.0","1.30.0","1.30.0"];
     </script>
 
 

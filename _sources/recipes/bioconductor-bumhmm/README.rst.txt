@@ -28,10 +28,10 @@ bioconductor-bumhmm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  </span></summary>
       
 
-      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
+      ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.6.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-bumhmm
       
 
    
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-devtools: 
    :depends r-gtools: 
    :depends r-stringi: 
@@ -97,7 +97,7 @@ bioconductor-bumhmm
 
     <script>
         var package = "bioconductor-bumhmm";
-        var versions = ["1.26.0","1.24.0","1.22.0","1.18.0","1.16.0"];
+        var versions = ["1.30.0","1.26.0","1.24.0","1.22.0","1.18.0"];
     </script>
 
 

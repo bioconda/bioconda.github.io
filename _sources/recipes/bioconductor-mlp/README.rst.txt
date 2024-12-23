@@ -29,10 +29,10 @@ bioconductor-mlp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.37.0-0</code>,  <code>1.36.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.54.0-0</code>,  <code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.37.0-0</code>,  </span></summary>
       
 
-      ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.37.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``
+      ``1.54.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.37.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ bioconductor-mlp
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-gplots: 
    :requirements:
 
@@ -94,7 +94,7 @@ bioconductor-mlp
 
     <script>
         var package = "bioconductor-mlp";
-        var versions = ["1.50.0","1.48.0","1.46.0","1.42.0","1.40.0"];
+        var versions = ["1.54.0","1.50.0","1.48.0","1.46.0","1.42.0"];
     </script>
 
 

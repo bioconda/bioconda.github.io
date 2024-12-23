@@ -27,14 +27,14 @@ bioconductor-regionalpcs
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-pcatools: ``>=2.14.0,<2.15.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-pcatools: ``>=2.18.0,<2.19.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-tibble: 
    :requirements:
@@ -87,7 +87,7 @@ bioconductor-regionalpcs
 
     <script>
         var package = "bioconductor-regionalpcs";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

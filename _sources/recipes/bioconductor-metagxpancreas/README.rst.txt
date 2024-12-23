@@ -28,10 +28,10 @@ bioconductor-metagxpancreas
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  </span></summary>
       
 
-      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+      ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
 
       
       .. raw:: html
@@ -40,14 +40,14 @@ bioconductor-metagxpancreas
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-impute: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-impute: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -98,7 +98,7 @@ bioconductor-metagxpancreas
 
     <script>
         var package = "bioconductor-metagxpancreas";
-        var versions = ["1.22.0","1.20.0","1.18.0","1.14.0","1.14.0"];
+        var versions = ["1.26.0","1.22.0","1.20.0","1.18.0","1.14.0"];
     </script>
 
 

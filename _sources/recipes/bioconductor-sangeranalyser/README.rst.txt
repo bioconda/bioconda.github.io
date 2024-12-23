@@ -27,17 +27,18 @@ bioconductor-sangeranalyser
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocstyle: ``>=2.30.0,<2.31.0``
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-decipher: ``>=2.30.0,<2.31.0``
-   :depends bioconductor-sangerseqr: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-biocstyle: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-decipher: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-pwalign: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-sangerseqr: ``>=1.42.0,<1.43.0``
    :depends r-ape: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: 
    :depends r-dt: 
    :depends r-excelr: 
@@ -46,7 +47,6 @@ bioconductor-sangeranalyser
    :depends r-knitr: ``>=1.33``
    :depends r-logger: 
    :depends r-openxlsx: 
-   :depends r-phangorn: 
    :depends r-plotly: 
    :depends r-reshape2: 
    :depends r-rmarkdown: ``>=2.9``
@@ -108,7 +108,7 @@ bioconductor-sangeranalyser
 
     <script>
         var package = "bioconductor-sangeranalyser";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.0"];
+        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.4.0"];
     </script>
 
 

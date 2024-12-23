@@ -27,14 +27,14 @@ bioconductor-phantasuslite
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-rhdf5client: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-rhdf5client: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: 
    :depends r-httr: 
    :depends r-stringr: 
@@ -88,7 +88,7 @@ bioconductor-phantasuslite
 
     <script>
         var package = "bioconductor-phantasuslite";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

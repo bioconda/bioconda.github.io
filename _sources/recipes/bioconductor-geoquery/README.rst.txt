@@ -29,10 +29,10 @@ bioconductor-geoquery
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.70.0-0</code>,  <code>2.68.0-0</code>,  <code>2.66.0-0</code>,  <code>2.62.0-0</code>,  <code>2.60.0-0</code>,  <code>2.58.0-1</code>,  <code>2.58.0-0</code>,  <code>2.56.0-1</code>,  <code>2.56.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.74.0-0</code>,  <code>2.70.0-0</code>,  <code>2.68.0-0</code>,  <code>2.66.0-0</code>,  <code>2.62.0-0</code>,  <code>2.60.0-0</code>,  <code>2.58.0-1</code>,  <code>2.58.0-0</code>,  <code>2.56.0-1</code>,  </span></summary>
       
 
-      ``2.70.0-0``,  ``2.68.0-0``,  ``2.66.0-0``,  ``2.62.0-0``,  ``2.60.0-0``,  ``2.58.0-1``,  ``2.58.0-0``,  ``2.56.0-1``,  ``2.56.0-0``,  ``2.54.0-0``,  ``2.52.0-1``,  ``2.50.5-0``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.3-0``,  ``2.46.0-0``,  ``2.42.0-0``,  ``2.38.4-0``,  ``2.36.0-0``
+      ``2.74.0-0``,  ``2.70.0-0``,  ``2.68.0-0``,  ``2.66.0-0``,  ``2.62.0-0``,  ``2.60.0-0``,  ``2.58.0-1``,  ``2.58.0-0``,  ``2.56.0-1``,  ``2.56.0-0``,  ``2.54.0-0``,  ``2.52.0-1``,  ``2.50.5-0``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.3-0``,  ``2.46.0-0``,  ``2.42.0-0``,  ``2.38.4-0``,  ``2.36.0-0``
 
       
       .. raw:: html
@@ -41,15 +41,21 @@ bioconductor-geoquery
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-curl: 
    :depends r-data.table: 
    :depends r-dplyr: 
+   :depends r-httr2: 
    :depends r-magrittr: 
    :depends r-r.utils: 
    :depends r-readr: ``>=1.3.1``
+   :depends r-rentrez: 
+   :depends r-rvest: 
+   :depends r-stringr: 
    :depends r-tidyr: 
    :depends r-xml2: 
    :requirements:
@@ -102,7 +108,7 @@ bioconductor-geoquery
 
     <script>
         var package = "bioconductor-geoquery";
-        var versions = ["2.70.0","2.68.0","2.66.0","2.62.0","2.60.0"];
+        var versions = ["2.74.0","2.70.0","2.68.0","2.66.0","2.62.0"];
     </script>
 
 

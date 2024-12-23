@@ -28,10 +28,10 @@ bioconductor-tenxplore
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  </span></summary>
       
 
-      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+      ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -40,12 +40,12 @@ bioconductor-tenxplore
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-ontoproc: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-org.mm.eg.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-restfulse: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-ontoproc: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-matrixstats: 
    :depends r-shiny: 
    :requirements:
@@ -98,7 +98,7 @@ bioconductor-tenxplore
 
     <script>
         var package = "bioconductor-tenxplore";
-        var versions = ["1.24.0","1.22.0","1.20.0","1.16.0","1.14.0"];
+        var versions = ["1.28.0","1.24.0","1.22.0","1.20.0","1.16.0"];
     </script>
 
 

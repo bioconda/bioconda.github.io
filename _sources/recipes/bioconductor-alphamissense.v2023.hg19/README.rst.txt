@@ -27,16 +27,16 @@ bioconductor-alphamissense.v2023.hg19
       
       
 
-      ``3.18.2-0``
+      ``3.18.2-1``,  ``3.18.2-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-genomicscores: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-genomicscores: ``>=2.18.0,<2.19.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -87,7 +87,7 @@ bioconductor-alphamissense.v2023.hg19
 
     <script>
         var package = "bioconductor-alphamissense.v2023.hg19";
-        var versions = ["3.18.2"];
+        var versions = ["3.18.2","3.18.2"];
     </script>
 
 

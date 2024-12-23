@@ -13,7 +13,7 @@ scmidas
    A torch\-based integration method for single\-cell multi\-omic data.
 
    :homepage: https://github.com/labomics/midas
-   :documentation: https://scmidas.readthedocs.io/en/latest/
+   :documentation: https://scmidas.readthedocs.io/en/latest
    
    :license: MIT / MIT
    :recipe: /`scmidas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scmidas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scmidas/meta.yaml>`_
@@ -30,24 +30,30 @@ scmidas
       
       
 
-      ``0.0.18-0``,  ``0.0.17-0``
+      ``0.1.3-0``,  ``0.0.18-0``,  ``0.0.17-0``
 
       
 
    
-   :depends anndata2ri: 
+   :depends anndata: 
    :depends ipykernel: 
-   :depends jupyter: 
-   :depends louvain: 
+   :depends lightning: ``>=2.4.0``
+   :depends lightning-utilities: ``>=0.11.8``
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
    :depends python: ``>=3.9``
-   :depends pytorch: ``>1.12``
-   :depends rpy2: 
+   :depends pytorch: ``>=2.5.1``
+   :depends requests: 
    :depends scanpy: 
    :depends scikit-learn: 
+   :depends scipy: 
+   :depends tensorboard: 
    :depends toml: 
+   :depends torchaudio: ``>=2.5.1``
+   :depends torchmetrics: ``>=1.5.1``
+   :depends torchvision: ``>=0.20.1``
+   :depends tornado: 
    :depends tqdm: 
    :requirements:
 
@@ -99,7 +105,7 @@ scmidas
 
     <script>
         var package = "scmidas";
-        var versions = ["0.0.18","0.0.17"];
+        var versions = ["0.1.3","0.0.18","0.0.17"];
     </script>
 
 

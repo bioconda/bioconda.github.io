@@ -27,7 +27,7 @@ phasius
       
       
 
-      ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
@@ -37,6 +37,10 @@ phasius
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -84,7 +88,7 @@ phasius
 
     <script>
         var package = "phasius";
-        var versions = ["0.1.0","0.1.0","0.1.0","0.1.0"];
+        var versions = ["0.2.0","0.1.0","0.1.0","0.1.0","0.1.0"];
     </script>
 
 

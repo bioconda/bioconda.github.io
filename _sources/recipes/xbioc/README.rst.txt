@@ -27,7 +27,7 @@ xbioc
       
       
 
-      ``0.1.19-3``,  ``0.1.19-2``,  ``0.1.19-1``,  ``0.1.19-0``,  ``0.1.18-2``,  ``0.1.18-1``,  ``0.1.18-0``,  ``0.1.16-0``
+      ``0.1.19-4``,  ``0.1.19-3``,  ``0.1.19-2``,  ``0.1.19-1``,  ``0.1.19-0``,  ``0.1.18-2``,  ``0.1.18-1``,  ``0.1.18-0``,  ``0.1.16-0``
 
       
 
@@ -35,7 +35,7 @@ xbioc
    :depends bioconductor-annotationdbi: 
    :depends bioconductor-biobase: 
    :depends r-assertthat: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-biocmanager: 
    :depends r-checkmate: 
    :depends r-digest: 
@@ -93,7 +93,7 @@ xbioc
 
     <script>
         var package = "xbioc";
-        var versions = ["0.1.19","0.1.19","0.1.19","0.1.19","0.1.18"];
+        var versions = ["0.1.19","0.1.19","0.1.19","0.1.19","0.1.19"];
     </script>
 
 

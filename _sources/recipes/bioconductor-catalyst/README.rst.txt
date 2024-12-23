@@ -28,10 +28,10 @@ bioconductor-catalyst
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.12.1-0</code>,  <code>1.10.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.12.1-0</code>,  </span></summary>
       
 
-      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.8.6-0``,  ``1.6.0-0``
+      ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.8.6-0``,  ``1.6.0-0``
 
       
       .. raw:: html
@@ -40,15 +40,15 @@ bioconductor-catalyst
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-consensusclusterplus: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-flowcore: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-flowsom: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-scater: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-consensusclusterplus: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-flowcore: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-flowsom: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-scater: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-circlize: 
    :depends r-cowplot: 
    :depends r-data.table: 
@@ -116,7 +116,7 @@ bioconductor-catalyst
 
     <script>
         var package = "bioconductor-catalyst";
-        var versions = ["1.26.0","1.24.0","1.22.0","1.18.0","1.16.0"];
+        var versions = ["1.30.0","1.26.0","1.24.0","1.22.0","1.18.0"];
     </script>
 
 

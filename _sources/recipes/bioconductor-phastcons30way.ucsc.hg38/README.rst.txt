@@ -26,17 +26,25 @@ bioconductor-phastcons30way.ucsc.hg38
    :versions:
       
       
+      .. raw:: html
 
-      ``3.13.0-4``,  ``3.13.0-3``,  ``3.13.0-2``,  ``3.13.0-1``,  ``3.13.0-0``,  ``3.11.1-3``,  ``3.11.1-2``,  ``3.11.1-1``,  ``3.11.1-0``
+         <details><summary><span class="truncated-version-list"><code>3.13.0-5</code>,  <code>3.13.0-4</code>,  <code>3.13.0-3</code>,  <code>3.13.0-2</code>,  <code>3.13.0-1</code>,  <code>3.13.0-0</code>,  <code>3.11.1-3</code>,  <code>3.11.1-2</code>,  <code>3.11.1-1</code>,  </span></summary>
+      
 
+      ``3.13.0-5``,  ``3.13.0-4``,  ``3.13.0-3``,  ``3.13.0-2``,  ``3.13.0-1``,  ``3.13.0-0``,  ``3.11.1-3``,  ``3.11.1-2``,  ``3.11.1-1``,  ``3.11.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-genomicscores: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-genomicscores: ``>=2.18.0,<2.19.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:

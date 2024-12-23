@@ -27,7 +27,7 @@ unicore
       
       
 
-      ``1.0.0c-0``
+      ``1.0.0c-1``,  ``1.0.0c-0``
 
       
 
@@ -46,6 +46,10 @@ unicore
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -93,7 +97,7 @@ unicore
 
     <script>
         var package = "unicore";
-        var versions = ["1.0.0c"];
+        var versions = ["1.0.0c","1.0.0c"];
     </script>
 
 

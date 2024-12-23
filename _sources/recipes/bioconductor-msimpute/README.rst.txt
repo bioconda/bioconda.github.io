@@ -27,14 +27,14 @@ bioconductor-msimpute
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-scran: ``>=1.30.0,<1.31.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-scran: ``>=1.34.0,<1.35.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-fnn: 
@@ -94,7 +94,7 @@ bioconductor-msimpute
 
     <script>
         var package = "bioconductor-msimpute";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.0"];
+        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.4.0"];
     </script>
 
 

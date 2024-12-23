@@ -27,16 +27,16 @@ bioconductor-biocset
       
       
 
-      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-biocio: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-keggrest: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-biocio: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-keggrest: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-ontologyindex: 
    :depends r-plyr: 
@@ -93,7 +93,7 @@ bioconductor-biocset
 
     <script>
         var package = "bioconductor-biocset";
-        var versions = ["1.16.0","1.14.0","1.12.0","1.8.0","1.6.0"];
+        var versions = ["1.20.0","1.16.0","1.14.0","1.12.0","1.8.0"];
     </script>
 
 

@@ -27,22 +27,22 @@ bioconductor-cftools
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-basilisk: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-basilisk: ``>=1.14.1,<1.15.0a0``
-   :depends bioconductor-cftoolsdata: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-cftoolsdata: ``>=1.0.0,<1.1.0a0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-genomicranges: ``>=1.54.1,<1.55.0a0``
+   :depends bioconductor-basilisk: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-basilisk: ``>=1.18.0,<1.19.0a0``
+   :depends bioconductor-cftoolsdata: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-cftoolsdata: ``>=1.4.0,<1.5.0a0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-bh: 
    :depends r-r.utils: 
    :depends r-rcpp: 
@@ -96,7 +96,7 @@ bioconductor-cftools
 
     <script>
         var package = "bioconductor-cftools";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-targetscan.hs.eg.db
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.1-13</code>,  <code>0.6.1-12</code>,  <code>0.6.1-11</code>,  <code>0.6.1-10</code>,  <code>0.6.1-9</code>,  <code>0.6.1-8</code>,  <code>0.6.1-7</code>,  <code>0.6.1-6</code>,  <code>0.6.1-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.1-14</code>,  <code>0.6.1-13</code>,  <code>0.6.1-12</code>,  <code>0.6.1-11</code>,  <code>0.6.1-10</code>,  <code>0.6.1-9</code>,  <code>0.6.1-8</code>,  <code>0.6.1-7</code>,  <code>0.6.1-6</code>,  </span></summary>
       
 
-      ``0.6.1-13``,  ``0.6.1-12``,  ``0.6.1-11``,  ``0.6.1-10``,  ``0.6.1-9``,  ``0.6.1-8``,  ``0.6.1-7``,  ``0.6.1-6``,  ``0.6.1-5``,  ``0.6.1-4``,  ``0.6.1-3``,  ``0.6.1-1``,  ``0.6.1-0``
+      ``0.6.1-14``,  ``0.6.1-13``,  ``0.6.1-12``,  ``0.6.1-11``,  ``0.6.1-10``,  ``0.6.1-9``,  ``0.6.1-8``,  ``0.6.1-7``,  ``0.6.1-6``,  ``0.6.1-5``,  ``0.6.1-4``,  ``0.6.1-3``,  ``0.6.1-1``,  ``0.6.1-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-targetscan.hs.eg.db
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-data-packages: ``>=20241103``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:

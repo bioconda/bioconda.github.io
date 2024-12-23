@@ -27,12 +27,11 @@ sc-musketeers
       
       
 
-      ``0.3.7-0``
+      ``0.4.1-0``,  ``0.3.7-0``
 
       
 
    
-   :depends ax-platform: ``>=0.4.0,<0.5.0``
    :depends keras: ``>=3.3.3,<4.0.0``
    :depends matplotlib-base: ``>=3.9.3,<4.0.0``
    :depends neptune: ``>=1.10.4,<2.0.0``
@@ -42,7 +41,6 @@ sc-musketeers
    :depends poetry: ``>=1.8.1,<2.0.0``
    :depends pympler: ``>=1.0.1,<2.0.0``
    :depends python: ``>=3.10.0,<4.0.0``
-   :depends pytorch: ``>=2.3.1,<3.0.0``
    :depends scanpy: ``>=1.10.1,<2.0.0``
    :depends scikit-learn: ``>=1.5.2,<2.0.0``
    :depends seaborn: ``>=0.13.2,<0.14.0``
@@ -97,7 +95,7 @@ sc-musketeers
 
     <script>
         var package = "sc-musketeers";
-        var versions = ["0.3.7"];
+        var versions = ["0.4.1","0.3.7"];
     </script>
 
 

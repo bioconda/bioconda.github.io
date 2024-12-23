@@ -28,10 +28,10 @@ bioconductor-pd.081229.hg18.promoter.medip.hx1
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.99.4-12</code>,  <code>0.99.4-11</code>,  <code>0.99.4-10</code>,  <code>0.99.4-9</code>,  <code>0.99.4-8</code>,  <code>0.99.4-7</code>,  <code>0.99.4-6</code>,  <code>0.99.4-5</code>,  <code>0.99.4-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.99.4-13</code>,  <code>0.99.4-12</code>,  <code>0.99.4-11</code>,  <code>0.99.4-10</code>,  <code>0.99.4-9</code>,  <code>0.99.4-8</code>,  <code>0.99.4-7</code>,  <code>0.99.4-6</code>,  <code>0.99.4-5</code>,  </span></summary>
       
 
-      ``0.99.4-12``,  ``0.99.4-11``,  ``0.99.4-10``,  ``0.99.4-9``,  ``0.99.4-8``,  ``0.99.4-7``,  ``0.99.4-6``,  ``0.99.4-5``,  ``0.99.4-4``,  ``0.99.4-3``,  ``0.99.4-2``,  ``0.99.4-0``
+      ``0.99.4-13``,  ``0.99.4-12``,  ``0.99.4-11``,  ``0.99.4-10``,  ``0.99.4-9``,  ``0.99.4-8``,  ``0.99.4-7``,  ``0.99.4-6``,  ``0.99.4-5``,  ``0.99.4-4``,  ``0.99.4-3``,  ``0.99.4-2``,  ``0.99.4-0``
 
       
       .. raw:: html
@@ -40,13 +40,13 @@ bioconductor-pd.081229.hg18.promoter.medip.hx1
       
 
    
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-oligo: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-oligoclasses: ``>=1.64.0,<1.65.0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-oligo: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-oligoclasses: ``>=1.68.0,<1.69.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dbi: 
    :depends r-rsqlite: ``>=0.7-1``
    :requirements:

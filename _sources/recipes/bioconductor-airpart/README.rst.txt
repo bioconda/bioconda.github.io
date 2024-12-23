@@ -27,18 +27,18 @@ bioconductor-airpart
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-apeglm: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-scater: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-apeglm: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-scater: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-clue: 
    :depends r-dplyr: 
    :depends r-dynamictreecut: 
@@ -103,7 +103,7 @@ bioconductor-airpart
 
     <script>
         var package = "bioconductor-airpart";
-        var versions = ["1.10.0","1.8.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.2.0"];
     </script>
 
 

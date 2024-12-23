@@ -28,10 +28,10 @@ bioconductor-tabulamurisdata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  </span></summary>
       
 
-      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.3.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+      ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.3.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-tabulamurisdata
       
 
    
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -94,7 +94,7 @@ bioconductor-tabulamurisdata
 
     <script>
         var package = "bioconductor-tabulamurisdata";
-        var versions = ["1.20.0","1.18.0","1.16.0","1.12.0","1.12.0"];
+        var versions = ["1.24.0","1.20.0","1.18.0","1.16.0","1.12.0"];
     </script>
 
 

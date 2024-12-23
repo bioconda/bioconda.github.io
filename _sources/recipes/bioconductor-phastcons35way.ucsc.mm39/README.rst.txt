@@ -27,16 +27,16 @@ bioconductor-phastcons35way.ucsc.mm39
       
       
 
-      ``3.16.0-2``,  ``3.16.0-1``,  ``3.16.0-0``
+      ``3.16.0-3``,  ``3.16.0-2``,  ``3.16.0-1``,  ``3.16.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-genomicscores: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-genomicscores: ``>=2.18.0,<2.19.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -87,7 +87,7 @@ bioconductor-phastcons35way.ucsc.mm39
 
     <script>
         var package = "bioconductor-phastcons35way.ucsc.mm39";
-        var versions = ["3.16.0","3.16.0","3.16.0"];
+        var versions = ["3.16.0","3.16.0","3.16.0","3.16.0"];
     </script>
 
 

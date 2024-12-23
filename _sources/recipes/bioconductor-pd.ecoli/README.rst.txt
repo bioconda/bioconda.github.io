@@ -28,10 +28,10 @@ bioconductor-pd.ecoli
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.12.0-12</code>,  <code>3.12.0-11</code>,  <code>3.12.0-10</code>,  <code>3.12.0-9</code>,  <code>3.12.0-8</code>,  <code>3.12.0-7</code>,  <code>3.12.0-6</code>,  <code>3.12.0-5</code>,  <code>3.12.0-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.12.0-13</code>,  <code>3.12.0-12</code>,  <code>3.12.0-11</code>,  <code>3.12.0-10</code>,  <code>3.12.0-9</code>,  <code>3.12.0-8</code>,  <code>3.12.0-7</code>,  <code>3.12.0-6</code>,  <code>3.12.0-5</code>,  </span></summary>
       
 
-      ``3.12.0-12``,  ``3.12.0-11``,  ``3.12.0-10``,  ``3.12.0-9``,  ``3.12.0-8``,  ``3.12.0-7``,  ``3.12.0-6``,  ``3.12.0-5``,  ``3.12.0-4``,  ``3.12.0-3``,  ``3.12.0-2``,  ``3.12.0-0``
+      ``3.12.0-13``,  ``3.12.0-12``,  ``3.12.0-11``,  ``3.12.0-10``,  ``3.12.0-9``,  ``3.12.0-8``,  ``3.12.0-7``,  ``3.12.0-6``,  ``3.12.0-5``,  ``3.12.0-4``,  ``3.12.0-3``,  ``3.12.0-2``,  ``3.12.0-0``
 
       
       .. raw:: html
@@ -40,14 +40,14 @@ bioconductor-pd.ecoli
       
 
    
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-oligo: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-oligoclasses: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-oligo: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-oligoclasses: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dbi: ``>=0.3.1``
    :depends r-rsqlite: ``>=1.0.0``
    :requirements:

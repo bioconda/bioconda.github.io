@@ -27,22 +27,25 @@ bioconductor-cotan
       
       
 
-      ``2.2.1-0``,  ``2.0.4-0``,  ``1.2.0-0``
+      ``2.6.0-0``,  ``2.2.1-0``,  ``2.0.4-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-biocsingular: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-pcatools: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
    :depends r-assertthat: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-circlize: 
    :depends r-dendextend: 
    :depends r-dplyr: 
-   :depends r-factoextra: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 
    :depends r-ggthemes: 
-   :depends r-irlba: 
    :depends r-matrix: 
    :depends r-paralleldist: 
    :depends r-parallelly: 
@@ -108,7 +111,7 @@ bioconductor-cotan
 
     <script>
         var package = "bioconductor-cotan";
-        var versions = ["2.2.1","2.0.4","1.2.0"];
+        var versions = ["2.6.0","2.2.1","2.0.4","1.2.0"];
     </script>
 
 

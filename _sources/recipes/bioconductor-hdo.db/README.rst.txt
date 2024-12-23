@@ -27,15 +27,16 @@ bioconductor-hdo.db
       
       
 
-      ``0.99.1-2``,  ``0.99.1-1``,  ``0.99.1-0``
+      ``1.0.0-0``,  ``0.99.1-2``,  ``0.99.1-1``,  ``0.99.1-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-data-packages: ``>=20241103``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-dbi: 
    :requirements:
 
    :additional platforms:
@@ -86,7 +87,7 @@ bioconductor-hdo.db
 
     <script>
         var package = "bioconductor-hdo.db";
-        var versions = ["0.99.1","0.99.1","0.99.1"];
+        var versions = ["1.0.0","0.99.1","0.99.1","0.99.1"];
     </script>
 
 

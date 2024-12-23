@@ -27,17 +27,17 @@ bioconductor-bloodgen3module
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-preprocesscore: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-preprocesscore: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-circlize: 
    :depends r-ggplot2: 
    :depends r-gtools: 
@@ -96,7 +96,7 @@ bioconductor-bloodgen3module
 
     <script>
         var package = "bioconductor-bloodgen3module";
-        var versions = ["1.10.0","1.8.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.2.0"];
     </script>
 
 

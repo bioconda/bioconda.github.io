@@ -29,7 +29,7 @@ tf-comb
       
       
 
-      ``1.1-0``
+      ``1.1-1``,  ``1.1-0``
 
       
 
@@ -37,10 +37,9 @@ tf-comb
    :depends dill: 
    :depends goatools: 
    :depends ipython: 
-   :depends libgcc-ng: ``>=12``
    :depends matplotlib-base: ``>=2``
    :depends networkx: ``>=2.4``
-   :depends numpy: ``>=1.21.6,<2.0a0``
+   :depends numpy: ``>=1.22.4,<2.0a0``
    :depends pandas: 
    :depends pysam: 
    :depends python: ``>=3.10,<3.11.0a0``
@@ -104,7 +103,7 @@ tf-comb
 
     <script>
         var package = "tf-comb";
-        var versions = ["1.1"];
+        var versions = ["1.1","1.1"];
     </script>
 
 

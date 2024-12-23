@@ -27,16 +27,16 @@ bioconductor-singlecellsignalr
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-multtest: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-scran: ``>=1.30.0,<1.31.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-multtest: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-scran: ``>=1.34.0,<1.35.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-biocmanager: 
    :depends r-circlize: 
    :depends r-data.table: 
@@ -96,7 +96,7 @@ bioconductor-singlecellsignalr
 
     <script>
         var package = "bioconductor-singlecellsignalr";
-        var versions = ["1.14.0","1.12.0","1.10.0","1.6.0","1.4.0"];
+        var versions = ["1.18.0","1.14.0","1.12.0","1.10.0","1.6.0"];
     </script>
 
 

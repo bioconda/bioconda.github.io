@@ -27,15 +27,15 @@ bioconductor-biochubsshiny
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dt: 
    :depends r-htmlwidgets: 
    :depends r-shiny: 
@@ -93,7 +93,7 @@ bioconductor-biochubsshiny
 
     <script>
         var package = "bioconductor-biochubsshiny";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

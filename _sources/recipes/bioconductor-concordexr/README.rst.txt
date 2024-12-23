@@ -27,20 +27,25 @@ bioconductor-concordexr
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-biocneighbors: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-bluster: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-sparsematrixstats: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-spatialexperiment: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cli: 
-   :depends r-ggplot2: 
    :depends r-matrix: 
-   :depends r-pheatmap: 
+   :depends r-purrr: 
    :depends r-rlang: 
-   :depends r-scales: 
    :requirements:
 
    :additional platforms:
@@ -91,7 +96,7 @@ bioconductor-concordexr
 
     <script>
         var package = "bioconductor-concordexr";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

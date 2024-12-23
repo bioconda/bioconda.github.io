@@ -27,16 +27,16 @@ bioconductor-vectrapolarisdata
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-spatialexperiment: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-spatialexperiment: ``>=1.16.0,<1.17.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -87,7 +87,7 @@ bioconductor-vectrapolarisdata
 
     <script>
         var package = "bioconductor-vectrapolarisdata";
-        var versions = ["1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.10.0","1.6.0","1.4.0","1.2.0"];
     </script>
 
 

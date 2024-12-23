@@ -44,7 +44,7 @@ r-cssam
    :depends bioconductor-biobase: ``>=2.50.0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.0.5``
+   :depends r-base: ``>=4.0,<4.1``
    :depends r-formula: ``>=1.2_4``
    :depends r-ggplot2: ``>=3.3.5``
    :depends r-pkgmaker: ``>=0.32.2``
