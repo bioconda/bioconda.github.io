@@ -12,7 +12,7 @@ bioconductor-sccb2
 
    CB2 improves power of cell detection in droplet\-based single\-cell RNA sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/scCB2.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/scCB2.html
    :license: GPL-3
    :recipe: /`bioconductor-sccb2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sccb2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sccb2/meta.yaml>`_
 
@@ -27,17 +27,17 @@ bioconductor-sccb2
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-dropletutils: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-rhdf5: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-dropletutils: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
+   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-doparallel: 
    :depends r-foreach: 
    :depends r-iterators: 
@@ -93,7 +93,7 @@ bioconductor-sccb2
 
     <script>
         var package = "bioconductor-sccb2";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.0"];
+        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.4.0"];
     </script>
 
 

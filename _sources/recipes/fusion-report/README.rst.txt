@@ -12,7 +12,7 @@ fusion-report
 
    Tool for parsing outputs from fusion detection tools. Part of a nf\-core\/rnafusion pipeline
 
-   :homepage: https://github.com/matq007/fusion-report
+   :homepage: https://github.com/Clinical-Genomics/fusion-report/
    :license: GPL3 / GPL-3.0-only
    :recipe: /`fusion-report <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fusion-report>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fusion-report/meta.yaml>`_
    :links: DOI: :DOI:`10.5281/zenodo.2609024`
@@ -29,10 +29,10 @@ fusion-report
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.5-0</code>,  <code>2.1.4-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1.1-0</code>,  <code>2.1.5-0</code>,  <code>2.1.4-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  </span></summary>
       
 
-      ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``3.1.1-0``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
       .. raw:: html
@@ -48,6 +48,7 @@ fusion-report
    :depends python: ``>=3.6``
    :depends python-rapidjson: 
    :depends pyyaml: ``>=4.2b1``
+   :depends requests: 
    :depends tqdm: ``4.33.0``
    :requirements:
 
@@ -99,7 +100,7 @@ fusion-report
 
     <script>
         var package = "fusion-report";
-        var versions = ["2.1.5","2.1.4","2.1.3","2.1.2","2.1.1"];
+        var versions = ["3.1.1","2.1.5","2.1.4","2.1.3","2.1.2"];
     </script>
 
 

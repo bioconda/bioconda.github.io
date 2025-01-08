@@ -12,7 +12,7 @@ bioconductor-rsemmed
 
    An interface to the Semantic MEDLINE database
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/rsemmed.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/rsemmed.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rsemmed <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsemmed>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsemmed/meta.yaml>`_
 

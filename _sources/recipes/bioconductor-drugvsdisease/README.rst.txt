@@ -12,7 +12,7 @@ bioconductor-drugvsdisease
 
    Comparison of disease and drug profiles using Gene set Enrichment Analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/DrugVsDisease.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/DrugVsDisease.html
    :license: GPL-3
    :recipe: /`bioconductor-drugvsdisease <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drugvsdisease>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drugvsdisease/meta.yaml>`_
    :links: biotools: :biotools:`drugvsdisease`, doi: :doi:`10.1038/nmeth.3252`
@@ -29,10 +29,10 @@ bioconductor-drugvsdisease
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.44.0-0</code>,  <code>2.42.0-0</code>,  <code>2.40.0-0</code>,  <code>2.36.0-0</code>,  <code>2.34.0-0</code>,  <code>2.32.0-1</code>,  <code>2.32.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.48.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-0</code>,  <code>2.40.0-0</code>,  <code>2.36.0-0</code>,  <code>2.34.0-0</code>,  <code>2.32.0-1</code>,  <code>2.32.0-0</code>,  <code>2.30.0-0</code>,  </span></summary>
       
 
-      ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.26.0-1``,  ``2.24.2-0``,  ``2.22.0-0``,  ``2.20.1-0``
+      ``2.48.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.26.0-1``,  ``2.24.2-0``,  ``2.22.0-0``,  ``2.20.1-0``
 
       
       .. raw:: html
@@ -41,20 +41,20 @@ bioconductor-drugvsdisease
       
 
    
-   :depends bioconductor-affy: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-annotate: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-arrayexpress: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-cmap2data: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-drugvsdiseasedata: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-geoquery: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-affy: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-annotate: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-arrayexpress: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-biomart: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-cmap2data: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-drugvsdiseasedata: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-geoquery: ``>=2.74.0,<2.75.0``
    :depends bioconductor-hgu133a.db: ``>=3.13.0,<3.14.0``
    :depends bioconductor-hgu133a2.db: ``>=3.13.0,<3.14.0``
    :depends bioconductor-hgu133plus2.db: ``>=3.13.0,<3.14.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-qvalue: ``>=2.34.0,<2.35.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-qvalue: ``>=2.38.0,<2.39.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-runit: 
    :depends r-xtable: 
    :requirements:
@@ -107,7 +107,7 @@ bioconductor-drugvsdisease
 
     <script>
         var package = "bioconductor-drugvsdisease";
-        var versions = ["2.44.0","2.42.0","2.40.0","2.36.0","2.34.0"];
+        var versions = ["2.48.0","2.44.0","2.42.0","2.40.0","2.36.0"];
     </script>
 
 

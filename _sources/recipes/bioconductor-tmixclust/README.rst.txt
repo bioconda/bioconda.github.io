@@ -12,7 +12,7 @@ bioconductor-tmixclust
 
    Time Series Clustering of Gene Expression with Gaussian Mixed\-Effects Models and Smoothing Splines
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/TMixClust.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/TMixClust.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-tmixclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tmixclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tmixclust/meta.yaml>`_
 

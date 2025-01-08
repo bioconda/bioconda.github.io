@@ -12,7 +12,7 @@ bioconductor-iseeindex
 
    iSEE extension for a landing page to a custom collection of data sets
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/iSEEindex.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/iSEEindex.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-iseeindex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseeindex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseeindex/meta.yaml>`_
 
@@ -27,16 +27,16 @@ bioconductor-iseeindex
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-isee: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-isee: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dt: 
    :depends r-paws.storage: 
    :depends r-rintrojs: 
@@ -95,7 +95,7 @@ bioconductor-iseeindex
 
     <script>
         var package = "bioconductor-iseeindex";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

@@ -12,7 +12,7 @@ bioconductor-cftools
 
    Informatics Tools for Cell\-Free DNA Study
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/cfTools.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/cfTools.html
    :license: file LICENSE
    :recipe: /`bioconductor-cftools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cftools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cftools/meta.yaml>`_
 

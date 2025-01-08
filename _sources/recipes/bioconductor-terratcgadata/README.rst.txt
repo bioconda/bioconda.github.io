@@ -12,7 +12,7 @@ bioconductor-terratcgadata
 
    OpenAccess TCGA Data on Terra as MultiAssayExperiment
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/terraTCGAdata.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/terraTCGAdata.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-terratcgadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-terratcgadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-terratcgadata/meta.yaml>`_
 
@@ -27,19 +27,20 @@ bioconductor-terratcgadata
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-anvil: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-raggedexperiment: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-tcgautils: ``>=1.22.0,<1.23.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-anvil: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-anvilgcp: ``>=1.0.0,<1.1.0``
+   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-raggedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-tcgautils: ``>=1.26.0,<1.27.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-readr: 
    :depends r-tidyr: 
@@ -93,7 +94,7 @@ bioconductor-terratcgadata
 
     <script>
         var package = "bioconductor-terratcgadata";
-        var versions = ["1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.10.0","1.6.0","1.4.0","1.2.0"];
     </script>
 
 

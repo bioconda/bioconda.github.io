@@ -12,7 +12,7 @@ bioconductor-simffpe
 
    NGS Read Simulator for FFPE Tissue
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SimFFPE.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SimFFPE.html
    :license: LGPL-3
    :recipe: /`bioconductor-simffpe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simffpe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simffpe/meta.yaml>`_
 
@@ -27,16 +27,16 @@ bioconductor-simffpe
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-doparallel: 
    :depends r-dplyr: 
    :depends r-foreach: 
@@ -91,7 +91,7 @@ bioconductor-simffpe
 
     <script>
         var package = "bioconductor-simffpe";
-        var versions = ["1.14.0","1.12.0","1.10.0","1.6.0","1.4.0"];
+        var versions = ["1.18.0","1.14.0","1.12.0","1.10.0","1.6.0"];
     </script>
 
 

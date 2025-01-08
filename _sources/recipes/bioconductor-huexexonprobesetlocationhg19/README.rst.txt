@@ -12,7 +12,7 @@ bioconductor-huexexonprobesetlocationhg19
 
    Exon\-level probeset chromosome location for microarrays of type HuEx
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/HuExExonProbesetLocationHg19.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/HuExExonProbesetLocationHg19.html
    :license: LGPL
    :recipe: /`bioconductor-huexexonprobesetlocationhg19 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-huexexonprobesetlocationhg19>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-huexexonprobesetlocationhg19/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-huexexonprobesetlocationhg19
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.3-12</code>,  <code>0.0.3-11</code>,  <code>0.0.3-10</code>,  <code>0.0.3-9</code>,  <code>0.0.3-8</code>,  <code>0.0.3-7</code>,  <code>0.0.3-6</code>,  <code>0.0.3-5</code>,  <code>0.0.3-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.3-13</code>,  <code>0.0.3-12</code>,  <code>0.0.3-11</code>,  <code>0.0.3-10</code>,  <code>0.0.3-9</code>,  <code>0.0.3-8</code>,  <code>0.0.3-7</code>,  <code>0.0.3-6</code>,  <code>0.0.3-5</code>,  </span></summary>
       
 
-      ``0.0.3-12``,  ``0.0.3-11``,  ``0.0.3-10``,  ``0.0.3-9``,  ``0.0.3-8``,  ``0.0.3-7``,  ``0.0.3-6``,  ``0.0.3-5``,  ``0.0.3-4``,  ``0.0.3-3``,  ``0.0.3-2``,  ``0.0.3-0``
+      ``0.0.3-13``,  ``0.0.3-12``,  ``0.0.3-11``,  ``0.0.3-10``,  ``0.0.3-9``,  ``0.0.3-8``,  ``0.0.3-7``,  ``0.0.3-6``,  ``0.0.3-5``,  ``0.0.3-4``,  ``0.0.3-3``,  ``0.0.3-2``,  ``0.0.3-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-huexexonprobesetlocationhg19
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-data-packages: ``>=20241103``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:

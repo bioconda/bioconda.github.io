@@ -12,7 +12,7 @@ bioconductor-micrornaome
 
    SummarizedExperiment for the microRNAome project
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/microRNAome.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/microRNAome.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-micrornaome <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-micrornaome>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-micrornaome/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-hpo.db
 
    A set of annotation maps describing the entire Human Phenotype Ontology
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/HPO.db.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/HPO.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hpo.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hpo.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hpo.db/meta.yaml>`_
 

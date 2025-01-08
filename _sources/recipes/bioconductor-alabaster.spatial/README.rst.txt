@@ -12,7 +12,7 @@ bioconductor-alabaster.spatial
 
    Save and Load Spatial \'Omics Data to\/from File
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/alabaster.spatial.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/alabaster.spatial.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-alabaster.spatial <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.spatial>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.spatial/meta.yaml>`_
 
@@ -27,18 +27,17 @@ bioconductor-alabaster.spatial
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-alabaster.base: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-alabaster.sce: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-spatialexperiment: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-jsonlite: 
+   :depends bioconductor-alabaster.base: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-alabaster.sce: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-spatialexperiment: ``>=1.16.0,<1.17.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -89,7 +88,7 @@ bioconductor-alabaster.spatial
 
     <script>
         var package = "bioconductor-alabaster.spatial";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

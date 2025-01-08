@@ -12,7 +12,7 @@ bioconductor-delocal
 
    Identifies differentially expressed genes with respect to other local genes
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/DELocal.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/DELocal.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-delocal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-delocal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-delocal/meta.yaml>`_
 
@@ -27,15 +27,15 @@ bioconductor-delocal
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-deseq2: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-deseq2: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-matrixstats: 
@@ -90,7 +90,7 @@ bioconductor-delocal
 
     <script>
         var package = "bioconductor-delocal";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

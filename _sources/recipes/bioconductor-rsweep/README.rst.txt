@@ -10,13 +10,13 @@ bioconductor-rsweep
    :replaces_section_title:
    :noindex:
 
-   Functions to creation of low dimensional comparative matrices of Amino Acid Sequence occurrences
+   Spaced Words Projection \(SWeeP\)
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/rSWeeP.html
-   :license: GPL-3
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/rSWeeP.html
+   :license: GPL (>= 2)
    :recipe: /`bioconductor-rsweep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsweep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsweep/meta.yaml>`_
 
-   The SWeeP method was developed to favor the analizes between amino acids sequences and to assist alignment free phylogenetic studies. This method is based on the concept of sparse words\, which is applied in the scan of biological sequences and its the conversion in a matrix of ocurrences. Aiming the generation of low dimensional matrices of Amino Acid Sequence occurrences.
+   \"Spaced Words Projection \(SWeeP\)\" is a method for representing biological sequences using vectors preserving inter\-sequence comparability.
 
 
 .. conda:package:: bioconductor-rsweep

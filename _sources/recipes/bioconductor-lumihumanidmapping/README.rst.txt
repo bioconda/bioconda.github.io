@@ -12,7 +12,7 @@ bioconductor-lumihumanidmapping
 
    Illumina Identifier mapping for Human
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/lumiHumanIDMapping.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/lumiHumanIDMapping.html
    :license: The Artistic License, Version 2.0
    :recipe: /`bioconductor-lumihumanidmapping <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumihumanidmapping>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumihumanidmapping/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-lumihumanidmapping
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.10.1-12</code>,  <code>1.10.1-11</code>,  <code>1.10.1-10</code>,  <code>1.10.1-9</code>,  <code>1.10.1-8</code>,  <code>1.10.1-7</code>,  <code>1.10.1-6</code>,  <code>1.10.1-5</code>,  <code>1.10.1-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.10.1-13</code>,  <code>1.10.1-12</code>,  <code>1.10.1-11</code>,  <code>1.10.1-10</code>,  <code>1.10.1-9</code>,  <code>1.10.1-8</code>,  <code>1.10.1-7</code>,  <code>1.10.1-6</code>,  <code>1.10.1-5</code>,  </span></summary>
       
 
-      ``1.10.1-12``,  ``1.10.1-11``,  ``1.10.1-10``,  ``1.10.1-9``,  ``1.10.1-8``,  ``1.10.1-7``,  ``1.10.1-6``,  ``1.10.1-5``,  ``1.10.1-4``,  ``1.10.1-3``,  ``1.10.1-2``,  ``1.10.1-0``
+      ``1.10.1-13``,  ``1.10.1-12``,  ``1.10.1-11``,  ``1.10.1-10``,  ``1.10.1-9``,  ``1.10.1-8``,  ``1.10.1-7``,  ``1.10.1-6``,  ``1.10.1-5``,  ``1.10.1-4``,  ``1.10.1-3``,  ``1.10.1-2``,  ``1.10.1-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-lumihumanidmapping
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-lumi: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-lumi: ``>=2.58.0,<2.59.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dbi: 
    :requirements:
 

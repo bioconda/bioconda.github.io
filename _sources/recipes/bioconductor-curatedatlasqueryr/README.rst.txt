@@ -12,7 +12,7 @@ bioconductor-curatedatlasqueryr
 
    Queries the Human Cell Atlas
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CuratedAtlasQueryR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CuratedAtlasQueryR.html
    :license: GPL-3
    :recipe: /`bioconductor-curatedatlasqueryr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedatlasqueryr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedatlasqueryr/meta.yaml>`_
 
@@ -27,18 +27,18 @@ bioconductor-curatedatlasqueryr
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-hdf5array: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-hdf5array: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
    :depends r-assertthat: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cli: 
    :depends r-dbi: 
    :depends r-dbplyr: ``>=2.3.0``
@@ -102,7 +102,7 @@ bioconductor-curatedatlasqueryr
 
     <script>
         var package = "bioconductor-curatedatlasqueryr";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

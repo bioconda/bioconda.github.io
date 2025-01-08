@@ -10,9 +10,9 @@ bioconductor-lbe
    :replaces_section_title:
    :noindex:
 
-   Estimation of the false discovery rate.
+   Estimation of the false discovery rate
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/LBE.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/LBE.html
    :license: GPL-2
    :recipe: /`bioconductor-lbe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lbe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lbe/meta.yaml>`_
    :links: biotools: :biotools:`lbe`, doi: :doi:`10.1093/bioinformatics/bti063`

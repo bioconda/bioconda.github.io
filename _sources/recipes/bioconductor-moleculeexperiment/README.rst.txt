@@ -12,7 +12,7 @@ bioconductor-moleculeexperiment
 
    Prioritising a molecule\-level storage of Spatial Transcriptomics Data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MoleculeExperiment.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MoleculeExperiment.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-moleculeexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moleculeexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moleculeexperiment/meta.yaml>`_
 

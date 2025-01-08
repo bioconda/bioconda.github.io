@@ -12,7 +12,7 @@ bioconductor-retrofit
 
    RETROFIT\: Reference\-free deconvolution of cell mixtures in spatial transcriptomics
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/retrofit.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/retrofit.html
    :license: GPL-3
    :recipe: /`bioconductor-retrofit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-retrofit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-retrofit/meta.yaml>`_
 

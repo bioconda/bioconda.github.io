@@ -12,7 +12,7 @@ bioconductor-coveb
 
    Empirical Bayes estimate of block diagonal covariance matrices
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/covEB.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/covEB.html
    :license: GPL-3
    :recipe: /`bioconductor-coveb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-coveb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-coveb/meta.yaml>`_
 

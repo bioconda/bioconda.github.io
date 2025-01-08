@@ -12,7 +12,7 @@ bioconductor-cytoglmm
 
    Conditional Differential Analysis for Flow and Mass Cytometry Experiments
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CytoGLMM.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CytoGLMM.html
    :license: LGPL-3
    :recipe: /`bioconductor-cytoglmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytoglmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytoglmm/meta.yaml>`_
 

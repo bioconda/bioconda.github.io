@@ -10,9 +10,9 @@ bioconductor-cbioportaldata
    :replaces_section_title:
    :noindex:
 
-   Exposes and makes available data from the cBioPortal web resources
+   Exposes and Makes Available Data from the cBioPortal Web Resources
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/cBioPortalData.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/cBioPortalData.html
    :license: AGPL-3
    :recipe: /`bioconductor-cbioportaldata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cbioportaldata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cbioportaldata/meta.yaml>`_
 
@@ -27,23 +27,23 @@ bioconductor-cbioportaldata
       
       
 
-      ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.8-0``,  ``2.2.3-0``,  ``2.0.3-0``
+      ``2.18.0-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.8-0``,  ``2.2.3-0``,  ``2.0.3-0``
 
       
 
    
-   :depends bioconductor-anvil: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-raggedexperiment: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-rtcgatoolbox: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-tcgautils: ``>=1.22.0,<1.23.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-anvil: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-raggedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-rtcgatoolbox: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-tcgautils: ``>=1.26.0,<1.27.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-digest: 
    :depends r-dplyr: 
    :depends r-httr: 
@@ -100,7 +100,7 @@ bioconductor-cbioportaldata
 
     <script>
         var package = "bioconductor-cbioportaldata";
-        var versions = ["2.14.0","2.12.0","2.10.0","2.6.0","2.4.0"];
+        var versions = ["2.18.0","2.14.0","2.12.0","2.10.0","2.6.0"];
     </script>
 
 

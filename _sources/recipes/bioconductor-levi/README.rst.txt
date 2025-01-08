@@ -12,7 +12,7 @@ bioconductor-levi
 
    Landscape Expression Visualization Interface
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/levi.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/levi.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-levi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-levi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-levi/meta.yaml>`_
 

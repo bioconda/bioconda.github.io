@@ -12,7 +12,7 @@ bioconductor-nanotube
 
    An Easy Pipeline for NanoString nCounter Data Analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/NanoTube.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/NanoTube.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-nanotube <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nanotube>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nanotube/meta.yaml>`_
 

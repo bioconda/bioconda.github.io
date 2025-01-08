@@ -12,7 +12,7 @@ bioconductor-fishpond
 
    Fishpond\: downstream methods and tools for expression data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/fishpond.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/fishpond.html
    :license: GPL-2
    :recipe: /`bioconductor-fishpond <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fishpond>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fishpond/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-fishpond
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.8.0-0</code>,  <code>2.6.2-0</code>,  <code>2.4.0-0</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.12.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.2-0</code>,  <code>2.4.0-0</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  </span></summary>
       
 
-      ``2.8.0-0``,  ``2.6.2-0``,  ``2.4.0-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-0``
+      ``2.12.0-0``,  ``2.8.0-0``,  ``2.6.2-0``,  ``2.4.0-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -40,14 +40,14 @@ bioconductor-fishpond
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-qvalue: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-qvalue: ``>=2.38.0,<2.39.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
    :depends r-abind: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-gtools: 
    :depends r-jsonlite: 
    :depends r-matrix: 
@@ -103,7 +103,7 @@ bioconductor-fishpond
 
     <script>
         var package = "bioconductor-fishpond";
-        var versions = ["2.8.0","2.6.2","2.4.0","2.0.1","2.0.1"];
+        var versions = ["2.12.0","2.8.0","2.6.2","2.4.0","2.0.1"];
     </script>
 
 

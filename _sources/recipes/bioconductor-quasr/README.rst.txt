@@ -12,12 +12,12 @@ bioconductor-quasr
 
    Quantify and Annotate Short Reads in R
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/QuasR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/QuasR.html
    :license: GPL-2
    :recipe: /`bioconductor-quasr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-quasr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-quasr/meta.yaml>`_
    :links: biotools: :biotools:`quasr`
 
-   This package provides a framework for the quantification and analysis of Short Reads. It covers a complete workflow starting from raw sequence reads\, over creation of alignments and quality control plots\, to the quantification of genomic regions of interest.
+   This package provides a framework for the quantification and analysis of Short Reads. It covers a complete workflow starting from raw sequence reads\, over creation of alignments and quality control plots\, to the quantification of genomic regions of interest. Read alignments are either generated through Rbowtie \(data from DNA\/ChIP\/ATAC\/Bis\-seq experiments\) or Rhisat2 \(data from RNA\-seq experiments that require spliced alignments\)\, or can be provided in the form of bam files.
 
 
 .. conda:package:: bioconductor-quasr
@@ -78,8 +78,11 @@ bioconductor-quasr
    :depends bioconductor-txdbmaker: ``>=1.2.0,<1.3.0``
    :depends bioconductor-txdbmaker: ``>=1.2.0,<1.3.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends liblzma: ``>=5.6.3,<6.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 

@@ -12,7 +12,7 @@ bioconductor-gatom
 
    Finding an Active Metabolic Module in Atom Transition Network
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/gatom.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/gatom.html
    :license: MIT + file LICENCE
    :recipe: /`bioconductor-gatom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gatom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gatom/meta.yaml>`_
 
@@ -27,11 +27,27 @@ bioconductor-gatom
       
       
 
-      
+      ``1.4.0-0``
 
       
 
    
+   :depends bioconductor-bionet: ``>=1.66.0,<1.67.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-data.table: 
+   :depends r-ggally: 
+   :depends r-ggplot2: 
+   :depends r-htmltools: 
+   :depends r-htmlwidgets: 
+   :depends r-igraph: 
+   :depends r-intergraph: 
+   :depends r-mwcsr: 
+   :depends r-network: 
+   :depends r-plyr: 
+   :depends r-pryr: 
+   :depends r-shinycyjs: ``>=1.0.0``
+   :depends r-sna: 
+   :depends r-xml: 
    :requirements:
 
    :additional platforms:
@@ -82,7 +98,7 @@ bioconductor-gatom
 
     <script>
         var package = "bioconductor-gatom";
-        var versions = [];
+        var versions = ["1.4.0"];
     </script>
 
 

@@ -12,7 +12,7 @@ bioconductor-attract
 
    Methods to Find the Gene Expression Modules that Represent the Drivers of Kauffman\'s Attractor Landscape
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/attract.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/attract.html
    :license: LGPL (>= 2.0)
    :recipe: /`bioconductor-attract <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-attract>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-attract/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-attract
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.54.0-0</code>,  <code>1.52.0-0</code>,  <code>1.50.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.58.0-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-0</code>,  <code>1.50.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  </span></summary>
       
 
-      ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``
+      ``1.58.0-0``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``
 
       
       .. raw:: html
@@ -40,14 +40,14 @@ bioconductor-attract
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-gostats: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-keggrest: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-reactome.db: ``>=1.86.0,<1.87.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-gostats: ``>=2.72.0,<2.73.0``
+   :depends bioconductor-keggrest: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-reactome.db: ``>=1.89.0,<1.90.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cluster: 
    :requirements:
 
@@ -99,7 +99,7 @@ bioconductor-attract
 
     <script>
         var package = "bioconductor-attract";
-        var versions = ["1.54.0","1.52.0","1.50.0","1.46.0","1.44.0"];
+        var versions = ["1.58.0","1.54.0","1.52.0","1.50.0","1.46.0"];
     </script>
 
 

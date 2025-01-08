@@ -12,7 +12,7 @@ bioconductor-regionalpcs
 
    Summarizing Regional Methylation with Regional Principal Components Analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/regionalpcs.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/regionalpcs.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-regionalpcs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-regionalpcs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-regionalpcs/meta.yaml>`_
 

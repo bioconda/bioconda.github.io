@@ -12,7 +12,7 @@ bioconductor-ccplotr
 
    Plots For Visualising Cell\-Cell Interactions
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CCPlotR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CCPlotR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-ccplotr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ccplotr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ccplotr/meta.yaml>`_
 

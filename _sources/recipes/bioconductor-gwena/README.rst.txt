@@ -12,7 +12,7 @@ bioconductor-gwena
 
    Pipeline for augmented co\-expression analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GWENA.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/GWENA.html
    :license: GPL-3
    :recipe: /`bioconductor-gwena <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gwena>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gwena/meta.yaml>`_
 
@@ -27,13 +27,13 @@ bioconductor-gwena
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cluster: ``>=2.1.0``
    :depends r-dplyr: ``>=0.8.3``
    :depends r-dynamictreecut: ``>=1.63-1``
@@ -100,7 +100,7 @@ bioconductor-gwena
 
     <script>
         var package = "bioconductor-gwena";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.0"];
+        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.4.0"];
     </script>
 
 

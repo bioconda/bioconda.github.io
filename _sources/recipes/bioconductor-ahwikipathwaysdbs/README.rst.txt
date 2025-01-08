@@ -12,7 +12,7 @@ bioconductor-ahwikipathwaysdbs
 
    Metabolites linked to WikiPathways pathways \(for AnnotationHub\)
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/AHWikipathwaysDbs.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/AHWikipathwaysDbs.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ahwikipathwaysdbs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ahwikipathwaysdbs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ahwikipathwaysdbs/meta.yaml>`_
 

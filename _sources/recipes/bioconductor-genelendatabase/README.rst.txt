@@ -12,11 +12,11 @@ bioconductor-genelendatabase
 
    Lengths of mRNA transcripts for a number of genomes
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/geneLenDataBase.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/geneLenDataBase.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-genelendatabase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genelendatabase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genelendatabase/meta.yaml>`_
 
-   Length of mRNA transcripts for a number of genomes and gene ID formats\, largely based on UCSC table browser
+   Length of mRNA transcripts for a number of genomes and gene ID formats\, largely based on UCSC table browser. Data objects are provided as individual pieces of information to be retrieved and loaded. A variety of different gene identifiers and genomes is supported to ensure wide applicability.
 
 
 .. conda:package:: bioconductor-genelendatabase
@@ -28,10 +28,10 @@ bioconductor-genelendatabase
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.42.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  </span></summary>
       
 
-      ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``
+      ``1.42.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``
 
       
       .. raw:: html
@@ -40,11 +40,12 @@ bioconductor-genelendatabase
       
 
    
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-txdbmaker: ``>=1.2.0,<1.3.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -95,7 +96,7 @@ bioconductor-genelendatabase
 
     <script>
         var package = "bioconductor-genelendatabase";
-        var versions = ["1.38.0","1.36.0","1.34.0","1.30.0","1.30.0"];
+        var versions = ["1.42.0","1.38.0","1.36.0","1.34.0","1.30.0"];
     </script>
 
 

@@ -12,7 +12,7 @@ bioconductor-metagxbreast
 
    Transcriptomic Breast Cancer Datasets
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/MetaGxBreast.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/MetaGxBreast.html
    :license: Apache License (>= 2)
    :recipe: /`bioconductor-metagxbreast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagxbreast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagxbreast/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-bsgenome.hsapiens.ncbi.t2t.chm13v2.0
 
    T2T\-CHM13v2.0 assembly \(Homo sapiens\) wrapped in a BSgenome object
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/BSgenome.Hsapiens.NCBI.T2T.CHM13v2.0.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/BSgenome.Hsapiens.NCBI.T2T.CHM13v2.0.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.hsapiens.ncbi.t2t.chm13v2.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ncbi.t2t.chm13v2.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ncbi.t2t.chm13v2.0/meta.yaml>`_
 
@@ -27,15 +27,15 @@ bioconductor-bsgenome.hsapiens.ncbi.t2t.chm13v2.0
       
       
 
-      ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``
+      ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``
 
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-data-packages: ``>=20241103``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -86,7 +86,7 @@ bioconductor-bsgenome.hsapiens.ncbi.t2t.chm13v2.0
 
     <script>
         var package = "bioconductor-bsgenome.hsapiens.ncbi.t2t.chm13v2.0";
-        var versions = ["1.5.0","1.5.0","1.5.0"];
+        var versions = ["1.5.0","1.5.0","1.5.0","1.5.0"];
     </script>
 
 

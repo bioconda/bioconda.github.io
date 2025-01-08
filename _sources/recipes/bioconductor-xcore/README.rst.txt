@@ -12,7 +12,7 @@ bioconductor-xcore
 
    xcore expression regulators inference
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/xcore.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/xcore.html
    :license: GPL-2
    :recipe: /`bioconductor-xcore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xcore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xcore/meta.yaml>`_
 

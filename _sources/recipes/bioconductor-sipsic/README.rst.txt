@@ -12,7 +12,7 @@ bioconductor-sipsic
 
    Calculate Pathway Scores for Each Cell in scRNA\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SiPSiC.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SiPSiC.html
    :license: file LICENSE
    :recipe: /`bioconductor-sipsic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sipsic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sipsic/meta.yaml>`_
 
@@ -27,13 +27,13 @@ bioconductor-sipsic
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-matrix: 
    :requirements:
 
@@ -85,7 +85,7 @@ bioconductor-sipsic
 
     <script>
         var package = "bioconductor-sipsic";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

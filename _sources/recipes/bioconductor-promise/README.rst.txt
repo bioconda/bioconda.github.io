@@ -12,7 +12,7 @@ bioconductor-promise
 
    PRojection Onto the Most Interesting Statistical Evidence
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/PROMISE.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/PROMISE.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-promise <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-promise>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-promise/meta.yaml>`_
    :links: biotools: :biotools:`promise`, doi: :doi:`10.1093/bioinformatics/btp357`
@@ -29,10 +29,10 @@ bioconductor-promise
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.54.0-0</code>,  <code>1.52.0-0</code>,  <code>1.50.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.58.0-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-0</code>,  <code>1.50.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  </span></summary>
       
 
-      ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``
+      ``1.58.0-0``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``
 
       
       .. raw:: html
@@ -41,9 +41,9 @@ bioconductor-promise
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-gseabase: ``>=1.64.0,<1.65.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-gseabase: ``>=1.68.0,<1.69.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -94,7 +94,7 @@ bioconductor-promise
 
     <script>
         var package = "bioconductor-promise";
-        var versions = ["1.54.0","1.52.0","1.50.0","1.46.0","1.44.0"];
+        var versions = ["1.58.0","1.54.0","1.52.0","1.50.0","1.46.0"];
     </script>
 
 

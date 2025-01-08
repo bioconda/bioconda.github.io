@@ -12,7 +12,7 @@ bioconductor-bsgenome.hsapiens.ucsc.hg38
 
    Full genomic sequences for Homo sapiens \(UCSC genome hg38\)
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.hsapiens.ucsc.hg38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ucsc.hg38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ucsc.hg38/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-bsgenome.hsapiens.ucsc.hg38
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.5-2</code>,  <code>1.4.5-1</code>,  <code>1.4.5-0</code>,  <code>1.4.4-2</code>,  <code>1.4.4-1</code>,  <code>1.4.4-0</code>,  <code>1.4.3-3</code>,  <code>1.4.3-2</code>,  <code>1.4.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.5-3</code>,  <code>1.4.5-2</code>,  <code>1.4.5-1</code>,  <code>1.4.5-0</code>,  <code>1.4.4-2</code>,  <code>1.4.4-1</code>,  <code>1.4.4-0</code>,  <code>1.4.3-3</code>,  <code>1.4.3-2</code>,  </span></summary>
       
 
-      ``1.4.5-2``,  ``1.4.5-1``,  ``1.4.5-0``,  ``1.4.4-2``,  ``1.4.4-1``,  ``1.4.4-0``,  ``1.4.3-3``,  ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``,  ``1.4.1-8``,  ``1.4.1-7``,  ``1.4.1-5``,  ``1.4.1-4``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``
+      ``1.4.5-3``,  ``1.4.5-2``,  ``1.4.5-1``,  ``1.4.5-0``,  ``1.4.4-2``,  ``1.4.4-1``,  ``1.4.4-0``,  ``1.4.3-3``,  ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``,  ``1.4.1-8``,  ``1.4.1-7``,  ``1.4.1-5``,  ``1.4.1-4``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-bsgenome.hsapiens.ucsc.hg38
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -95,7 +95,7 @@ bioconductor-bsgenome.hsapiens.ucsc.hg38
 
     <script>
         var package = "bioconductor-bsgenome.hsapiens.ucsc.hg38";
-        var versions = ["1.4.5","1.4.5","1.4.5","1.4.4","1.4.4"];
+        var versions = ["1.4.5","1.4.5","1.4.5","1.4.5","1.4.4"];
     </script>
 
 

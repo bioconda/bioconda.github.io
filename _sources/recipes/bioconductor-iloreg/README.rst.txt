@@ -12,7 +12,7 @@ bioconductor-iloreg
 
    ILoReg\: a tool for high\-resolution cell population identification from scRNA\-Seq data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ILoReg.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ILoReg.html
    :license: GPL-3
    :recipe: /`bioconductor-iloreg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iloreg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iloreg/meta.yaml>`_
 
@@ -27,16 +27,16 @@ bioconductor-iloreg
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
    :depends r-aricode: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cluster: 
    :depends r-cowplot: 
    :depends r-dendextend: 
@@ -108,7 +108,7 @@ bioconductor-iloreg
 
     <script>
         var package = "bioconductor-iloreg";
-        var versions = ["1.10.0","1.8.0","1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.16.0","1.10.0","1.8.0","1.4.0","1.2.0"];
     </script>
 
 

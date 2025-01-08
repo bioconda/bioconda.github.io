@@ -12,8 +12,8 @@ bioconductor-hicdoc
 
    A\/B compartment detection and differential analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/HiCDOC.html
-   :license: file LICENSE
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/HiCDOC.html
+   :license: LGPL-3
    :recipe: /`bioconductor-hicdoc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicdoc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicdoc/meta.yaml>`_
 
    HiCDOC normalizes intrachromosomal Hi\-C matrices\, uses unsupervised learning to predict A\/B compartments from multiple replicates\, and detects significant compartment changes between experiment conditions. It provides a collection of functions assembled into a pipeline to filter and normalize the data\, predict the compartments and visualize the results. It accepts several type of data\: tabular \`.tsv\` files\, Cooler \`.cool\` or \`.mcool\` files\, Juicer \`.hic\` files or HiC\-Pro \`.matrix\` and \`.bed\` files.
@@ -51,8 +51,10 @@ bioconductor-hicdoc
    :depends bioconductor-zlibbioc: ``>=1.52.0,<1.53.0``
    :depends bioconductor-zlibbioc: ``>=1.52.0,<1.53.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cowplot: 
    :depends r-data.table: 

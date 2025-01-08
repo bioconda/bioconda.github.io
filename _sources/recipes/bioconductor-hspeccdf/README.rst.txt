@@ -12,7 +12,7 @@ bioconductor-hspeccdf
 
    hspeccdf
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/hspeccdf.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/hspeccdf.html
    :license: LGPL
    :recipe: /`bioconductor-hspeccdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hspeccdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hspeccdf/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-hspeccdf
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.99.1-12</code>,  <code>0.99.1-11</code>,  <code>0.99.1-10</code>,  <code>0.99.1-9</code>,  <code>0.99.1-8</code>,  <code>0.99.1-7</code>,  <code>0.99.1-6</code>,  <code>0.99.1-5</code>,  <code>0.99.1-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.99.1-13</code>,  <code>0.99.1-12</code>,  <code>0.99.1-11</code>,  <code>0.99.1-10</code>,  <code>0.99.1-9</code>,  <code>0.99.1-8</code>,  <code>0.99.1-7</code>,  <code>0.99.1-6</code>,  <code>0.99.1-5</code>,  </span></summary>
       
 
-      ``0.99.1-12``,  ``0.99.1-11``,  ``0.99.1-10``,  ``0.99.1-9``,  ``0.99.1-8``,  ``0.99.1-7``,  ``0.99.1-6``,  ``0.99.1-5``,  ``0.99.1-4``,  ``0.99.1-3``,  ``0.99.1-2``,  ``0.99.1-0``
+      ``0.99.1-13``,  ``0.99.1-12``,  ``0.99.1-11``,  ``0.99.1-10``,  ``0.99.1-9``,  ``0.99.1-8``,  ``0.99.1-7``,  ``0.99.1-6``,  ``0.99.1-5``,  ``0.99.1-4``,  ``0.99.1-3``,  ``0.99.1-2``,  ``0.99.1-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-hspeccdf
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-data-packages: ``>=20241103``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:

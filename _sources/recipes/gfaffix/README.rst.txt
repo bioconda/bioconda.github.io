@@ -13,7 +13,8 @@ gfaffix
    GFAffix identifies and collapses walk\-preserving shared affixes in variation graphs
 
    :homepage: https://github.com/marschall-lab/GFAffix
-   :license: MIT
+   :developer docs: https://github.com/marschall-lab/gfaffix
+   :license: MIT / MIT
    :recipe: /`gfaffix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gfaffix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gfaffix/meta.yaml>`_
 
    
@@ -28,10 +29,10 @@ gfaffix
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.5-0</code>,  <code>0.1.5b-1</code>,  <code>0.1.5b-0</code>,  <code>0.1.4-2</code>,  <code>0.1.4-1</code>,  <code>0.1.4-0</code>,  <code>0.1.3-1</code>,  <code>0.1.3-0</code>,  <code>0.1.2.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.0-1</code>,  <code>0.2.0-0</code>,  <code>0.1.5-0</code>,  <code>0.1.5b-1</code>,  <code>0.1.5b-0</code>,  <code>0.1.4-2</code>,  <code>0.1.4-1</code>,  <code>0.1.4-0</code>,  <code>0.1.3-1</code>,  </span></summary>
       
 
-      ``0.1.5-0``,  ``0.1.5b-1``,  ``0.1.5b-0``,  ``0.1.4-2``,  ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.2.5-1``,  ``0.1.2.5-0``,  ``0.1.2.4-0``,  ``0.1.2.3-0``,  ``0.1.2.2-0``,  ``0.1.2.1-0``
+      ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.5b-1``,  ``0.1.5b-0``,  ``0.1.4-2``,  ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.2.5-1``,  ``0.1.2.5-0``,  ``0.1.2.4-0``,  ``0.1.2.3-0``,  ``0.1.2.2-0``,  ``0.1.2.1-0``
 
       
       .. raw:: html
@@ -40,10 +41,14 @@ gfaffix
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>osx-arm64</code>,  <code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -91,7 +96,7 @@ gfaffix
 
     <script>
         var package = "gfaffix";
-        var versions = ["0.1.5","0.1.5b","0.1.5b","0.1.4","0.1.4"];
+        var versions = ["0.2.0","0.2.0","0.1.5","0.1.5b","0.1.5b"];
     </script>
 
 

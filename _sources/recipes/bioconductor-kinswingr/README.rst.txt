@@ -12,7 +12,7 @@ bioconductor-kinswingr
 
    KinSwingR\: network\-based kinase activity prediction
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/KinSwingR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/KinSwingR.html
    :license: GPL-3
    :recipe: /`bioconductor-kinswingr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kinswingr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kinswingr/meta.yaml>`_
 

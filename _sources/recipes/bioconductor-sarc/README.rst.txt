@@ -12,7 +12,7 @@ bioconductor-sarc
 
    Statistical Analysis of Regions with CNVs
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SARC.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SARC.html
    :license: GPL-3
    :recipe: /`bioconductor-sarc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sarc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sarc/meta.yaml>`_
 
@@ -27,18 +27,18 @@ bioconductor-sarc
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-multtest: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-plyranges: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-raggedexperiment: ``>=1.26.0,<1.27.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-multtest: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-plyranges: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-raggedexperiment: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: 
    :depends r-desctools: 
    :depends r-ggplot2: 
@@ -100,7 +100,7 @@ bioconductor-sarc
 
     <script>
         var package = "bioconductor-sarc";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

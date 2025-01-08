@@ -12,8 +12,8 @@ bioconductor-amplican
 
    Automated analysis of CRISPR experiments
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/amplican.html
-   :license: GPL-3.0-only
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/amplican.html
+   :license: GPL-3
    :recipe: /`bioconductor-amplican <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-amplican>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-amplican/meta.yaml>`_
    :links: biotools: :biotools:`amplican`
 
@@ -60,8 +60,9 @@ bioconductor-amplican
    :depends bioconductor-shortread: ``>=1.64.0,<1.65.0``
    :depends bioconductor-shortread: ``>=1.64.0,<1.65.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cluster: ``>=2.1.4``
    :depends r-data.table: ``>=1.10.4-3``

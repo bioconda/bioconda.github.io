@@ -12,7 +12,7 @@ bioconductor-trnadbimport
 
    Importing from tRNAdb and mitotRNAdb as GRanges objects
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/tRNAdbImport.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/tRNAdbImport.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-trnadbimport <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trnadbimport>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trnadbimport/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-trnadbimport
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  </span></summary>
       
 
-      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.2-0``,  ``1.0.0-0``
+      ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.2-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,16 +40,15 @@ bioconductor-trnadbimport
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-modstrings: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-structstrings: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-trna: ``>=1.20.0,<1.21.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-httr: 
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-modstrings: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-structstrings: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-trna: ``>=1.24.0,<1.25.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-httr2: 
    :depends r-stringr: 
    :depends r-xml2: 
    :requirements:
@@ -102,7 +101,7 @@ bioconductor-trnadbimport
 
     <script>
         var package = "bioconductor-trnadbimport";
-        var versions = ["1.20.0","1.18.0","1.16.0","1.12.0","1.10.0"];
+        var versions = ["1.24.0","1.20.0","1.18.0","1.16.0","1.12.0"];
     </script>
 
 

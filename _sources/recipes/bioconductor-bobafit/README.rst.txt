@@ -12,7 +12,7 @@ bioconductor-bobafit
 
    Refitting diploid region profiles using a clustering procedure
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/BOBaFIT.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/BOBaFIT.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-bobafit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bobafit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bobafit/meta.yaml>`_
 
@@ -27,15 +27,15 @@ bioconductor-bobafit
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-ggbio: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-plyranges: ``>=1.22.0,<1.23.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-ggbio: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-plyranges: ``>=1.26.0,<1.27.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-ggforce: 
    :depends r-ggplot2: 
@@ -93,7 +93,7 @@ bioconductor-bobafit
 
     <script>
         var package = "bioconductor-bobafit";
-        var versions = ["1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.10.0","1.6.0","1.4.0","1.2.0"];
     </script>
 
 

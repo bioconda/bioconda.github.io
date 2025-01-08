@@ -12,7 +12,7 @@ bioconductor-miqc
 
    Flexible\, probabilistic metrics for quality control of scRNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/miQC.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/miQC.html
    :license: BSD_3_clause + file LICENSE
    :recipe: /`bioconductor-miqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-miqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-miqc/meta.yaml>`_
 
@@ -27,13 +27,13 @@ bioconductor-miqc
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-flexmix: 
    :depends r-ggplot2: 
    :requirements:
@@ -86,7 +86,7 @@ bioconductor-miqc
 
     <script>
         var package = "bioconductor-miqc";
-        var versions = ["1.10.0","1.8.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.2.0"];
     </script>
 
 

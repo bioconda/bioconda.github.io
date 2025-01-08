@@ -12,7 +12,7 @@ bioconductor-methylsig
 
    MethylSig\: Differential Methylation Testing for WGBS and RRBS Data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/methylSig.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/methylSig.html
    :license: GPL-3
    :recipe: /`bioconductor-methylsig <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylsig>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylsig/meta.yaml>`_
 
@@ -27,20 +27,20 @@ bioconductor-methylsig
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.18.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-bsseq: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-delayedarray: ``>=0.26.0,<0.27.0``
-   :depends bioconductor-delayedmatrixstats: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-dss: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-bsseq: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-dss: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -91,7 +91,7 @@ bioconductor-methylsig
 
     <script>
         var package = "bioconductor-methylsig";
-        var versions = ["1.12.0","1.10.0","1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.18.0","1.12.0","1.10.0","1.6.0","1.4.0"];
     </script>
 
 

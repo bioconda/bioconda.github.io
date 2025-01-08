@@ -12,7 +12,7 @@ bioconductor-bnem
 
    Training of logical models from indirect measurements of perturbation experiments
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/bnem.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/bnem.html
    :license: GPL-3
    :recipe: /`bioconductor-bnem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bnem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bnem/meta.yaml>`_
 

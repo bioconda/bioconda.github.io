@@ -12,7 +12,7 @@ bioconductor-epimix.data
 
    Data for the EpiMix package
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/EpiMix.data.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/EpiMix.data.html
    :license: GPL-3
    :recipe: /`bioconductor-epimix.data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epimix.data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epimix.data/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-pumadata
 
    Various data sets for use with the puma package
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/pumadata.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/pumadata.html
    :license: LGPL
    :recipe: /`bioconductor-pumadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pumadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pumadata/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-pumadata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.38.0-0</code>,  <code>2.36.0-0</code>,  <code>2.34.0-0</code>,  <code>2.30.0-1</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-1</code>,  <code>2.26.0-0</code>,  <code>2.24.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.42.0-0</code>,  <code>2.38.0-0</code>,  <code>2.36.0-0</code>,  <code>2.34.0-0</code>,  <code>2.30.0-1</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-1</code>,  <code>2.26.0-0</code>,  </span></summary>
       
 
-      ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.30.0-1``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-1``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.18.0-0``
+      ``2.42.0-0``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.30.0-1``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-1``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.18.0-0``
 
       
       .. raw:: html
@@ -40,12 +40,12 @@ bioconductor-pumadata
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-oligo: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-puma: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-oligo: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-puma: ``>=3.48.0,<3.49.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -96,7 +96,7 @@ bioconductor-pumadata
 
     <script>
         var package = "bioconductor-pumadata";
-        var versions = ["2.38.0","2.36.0","2.34.0","2.30.0","2.30.0"];
+        var versions = ["2.42.0","2.38.0","2.36.0","2.34.0","2.30.0"];
     </script>
 
 

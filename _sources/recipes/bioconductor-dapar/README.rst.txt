@@ -12,7 +12,7 @@ bioconductor-dapar
 
    Tools for the Differential Analysis of Proteins Abundance with R
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/DAPAR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/DAPAR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-dapar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dapar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dapar/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-lfa
 
    Logistic Factor Analysis for Categorical Data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/lfa.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/lfa.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-lfa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lfa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lfa/meta.yaml>`_
    :links: biotools: :biotools:`lfa`, doi: :doi:`10.1093/bioinformatics/btv641`

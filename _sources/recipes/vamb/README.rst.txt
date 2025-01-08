@@ -27,17 +27,17 @@ vamb
       
       
 
-      ``3.0.2-2``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``,  ``2.1.0-0``,  ``2.0.1-0``
+      ``4.1.3-0``,  ``3.0.2-2``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``,  ``2.1.0-0``,  ``2.0.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends numpy: ``>=1.15``
-   :depends pysam: ``>=0.14``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
-   :depends pytorch-cpu: ``>=0.4``
+   :depends libgcc: ``>=13``
+   :depends numpy: ``1.24.2``
+   :depends pycoverm: ``0.6.2``
+   :depends python: ``>=3.11,<3.12.0a0``
+   :depends python_abi: ``3.11.* *_cp311``
+   :depends pytorch: ``1.13.1``
    :requirements:
 
    :additional platforms:
@@ -88,7 +88,7 @@ vamb
 
     <script>
         var package = "vamb";
-        var versions = ["3.0.2","3.0.2","3.0.2","3.0.1","3.0.1"];
+        var versions = ["4.1.3","3.0.2","3.0.2","3.0.2","3.0.1"];
     </script>
 
 

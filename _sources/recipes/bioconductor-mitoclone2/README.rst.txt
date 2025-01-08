@@ -12,7 +12,7 @@ bioconductor-mitoclone2
 
    Clonal Population Identification in Single\-Cell RNA\-Seq Data using Mitochondrial and Somatic Mutations
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/mitoClone2.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/mitoClone2.html
    :license: GPL-3
    :recipe: /`bioconductor-mitoclone2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mitoclone2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mitoclone2/meta.yaml>`_
 
@@ -27,24 +27,26 @@ bioconductor-mitoclone2
       
       
 
-      ``1.8.1-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.1-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-deepsnv: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-deepsnv: ``>=1.48.0,<1.49.0a0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-genomicranges: ``>=1.54.1,<1.55.0a0``
-   :depends bioconductor-rhtslib: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-rhtslib: ``>=2.4.0,<2.5.0a0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
+   :depends bioconductor-deepsnv: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-deepsnv: ``>=1.52.0,<1.53.0a0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0a0``
+   :depends bioconductor-rhtslib: ``>=3.2.0,<3.3.0``
+   :depends bioconductor-rhtslib: ``>=3.2.0,<3.3.0a0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends liblzma: ``>=5.6.3,<6.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: 
    :depends r-pheatmap: 
    :depends r-reshape2: 
@@ -98,7 +100,7 @@ bioconductor-mitoclone2
 
     <script>
         var package = "bioconductor-mitoclone2";
-        var versions = ["1.8.1","1.6.0","1.4.0","1.4.0","1.0.0"];
+        var versions = ["1.12.0","1.8.1","1.6.0","1.4.0","1.4.0"];
     </script>
 
 

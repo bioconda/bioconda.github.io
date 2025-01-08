@@ -12,7 +12,7 @@ bioconductor-biocparallel
 
    Bioconductor facilities for parallel evaluation
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/BiocParallel.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/BiocParallel.html
    :license: GPL-2 | GPL-3
    :recipe: /`bioconductor-biocparallel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocparallel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocparallel/meta.yaml>`_
    :links: biotools: :biotools:`biocparallel`, doi: :doi:`10.1214/14-STS476`

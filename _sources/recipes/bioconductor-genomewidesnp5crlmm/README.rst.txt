@@ -12,7 +12,7 @@ bioconductor-genomewidesnp5crlmm
 
    Metadata for fast genotyping with the \'crlmm\' package
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/genomewidesnp5Crlmm.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/genomewidesnp5Crlmm.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genomewidesnp5crlmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomewidesnp5crlmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomewidesnp5crlmm/meta.yaml>`_
 

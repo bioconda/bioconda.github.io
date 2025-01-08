@@ -12,7 +12,7 @@ bioconductor-txdb.mmulatta.ucsc.rhemac10.refgene
 
    Annotation package for TxDb object\(s\)
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/TxDb.Mmulatta.UCSC.rheMac10.refGene.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/TxDb.Mmulatta.UCSC.rheMac10.refGene.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-txdb.mmulatta.ucsc.rhemac10.refgene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.mmulatta.ucsc.rhemac10.refgene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.mmulatta.ucsc.rhemac10.refgene/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-txdb.mmulatta.ucsc.rhemac10.refgene
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.14.0-4</code>,  <code>3.14.0-3</code>,  <code>3.14.0-2</code>,  <code>3.14.0-1</code>,  <code>3.14.0-0</code>,  <code>3.10.0-4</code>,  <code>3.10.0-3</code>,  <code>3.10.0-2</code>,  <code>3.10.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.14.0-5</code>,  <code>3.14.0-4</code>,  <code>3.14.0-3</code>,  <code>3.14.0-2</code>,  <code>3.14.0-1</code>,  <code>3.14.0-0</code>,  <code>3.10.0-4</code>,  <code>3.10.0-3</code>,  <code>3.10.0-2</code>,  </span></summary>
       
 
-      ``3.14.0-4``,  ``3.14.0-3``,  ``3.14.0-2``,  ``3.14.0-1``,  ``3.14.0-0``,  ``3.10.0-4``,  ``3.10.0-3``,  ``3.10.0-2``,  ``3.10.0-1``,  ``3.10.0-0``
+      ``3.14.0-5``,  ``3.14.0-4``,  ``3.14.0-3``,  ``3.14.0-2``,  ``3.14.0-1``,  ``3.14.0-0``,  ``3.10.0-4``,  ``3.10.0-3``,  ``3.10.0-2``,  ``3.10.0-1``,  ``3.10.0-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-txdb.mmulatta.ucsc.rhemac10.refgene
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:

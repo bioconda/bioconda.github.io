@@ -12,7 +12,7 @@ bioconductor-snplocs.hsapiens.dbsnp144.grch37
 
    SNP locations for Homo sapiens \(dbSNP Build 144\)
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/SNPlocs.Hsapiens.dbSNP144.GRCh37.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/SNPlocs.Hsapiens.dbSNP144.GRCh37.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-snplocs.hsapiens.dbsnp144.grch37 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snplocs.hsapiens.dbsnp144.grch37>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snplocs.hsapiens.dbsnp144.grch37/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-snplocs.hsapiens.dbsnp144.grch37
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.99.20-12</code>,  <code>0.99.20-11</code>,  <code>0.99.20-10</code>,  <code>0.99.20-9</code>,  <code>0.99.20-8</code>,  <code>0.99.20-7</code>,  <code>0.99.20-6</code>,  <code>0.99.20-5</code>,  <code>0.99.20-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.99.20-13</code>,  <code>0.99.20-12</code>,  <code>0.99.20-11</code>,  <code>0.99.20-10</code>,  <code>0.99.20-9</code>,  <code>0.99.20-8</code>,  <code>0.99.20-7</code>,  <code>0.99.20-6</code>,  <code>0.99.20-5</code>,  </span></summary>
       
 
-      ``0.99.20-12``,  ``0.99.20-11``,  ``0.99.20-10``,  ``0.99.20-9``,  ``0.99.20-8``,  ``0.99.20-7``,  ``0.99.20-6``,  ``0.99.20-5``,  ``0.99.20-4``,  ``0.99.20-3``,  ``0.99.20-2``,  ``0.99.20-0``
+      ``0.99.20-13``,  ``0.99.20-12``,  ``0.99.20-11``,  ``0.99.20-10``,  ``0.99.20-9``,  ``0.99.20-8``,  ``0.99.20-7``,  ``0.99.20-6``,  ``0.99.20-5``,  ``0.99.20-4``,  ``0.99.20-3``,  ``0.99.20-2``,  ``0.99.20-0``
 
       
       .. raw:: html
@@ -40,15 +40,15 @@ bioconductor-snplocs.hsapiens.dbsnp144.grch37
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:

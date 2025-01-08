@@ -10,13 +10,13 @@ bioconductor-rrdpdata
    :replaces_section_title:
    :noindex:
 
-   Database for the Default RDP Classifier
+   Databases for the Default RDP Classifier
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/rRDPData.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/rRDPData.html
    :license: GPL-2
    :recipe: /`bioconductor-rrdpdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrdpdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrdpdata/meta.yaml>`_
 
-   Database used by the default RDP Classifier
+   The package provides the data for the RDP Classifier 2.14 released in August 2023. It contains the latest bacterial and archaeal taxonomy training set No. 19 as described in Wang Q\, Cole JR. 2024. Updated RDP taxonomy and RDP Classifier for more accurate taxonomic classification. Microbiol Resour Announc 0\:e01063\-23. \<doi.org\/10.1128\/mra.01063\-23\>
 
 
 .. conda:package:: bioconductor-rrdpdata

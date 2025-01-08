@@ -12,7 +12,7 @@ bioconductor-affyilm
 
    Linear Model of background subtraction and the Langmuir isotherm
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/affyILM.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/affyILM.html
    :license: GPL-3
    :recipe: /`bioconductor-affyilm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyilm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyilm/meta.yaml>`_
    :links: biotools: :biotools:`affyilm`, doi: :doi:`10.1186/1748-7188-4-15`
@@ -29,10 +29,10 @@ bioconductor-affyilm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.54.0-0</code>,  <code>1.52.0-0</code>,  <code>1.50.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.58.0-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-0</code>,  <code>1.50.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  </span></summary>
       
 
-      ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``
+      ``1.58.0-0``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ bioconductor-affyilm
       
 
    
-   :depends bioconductor-affxparser: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-affy: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-gcrma: ``>=2.74.0,<2.75.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-affxparser: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-affy: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-gcrma: ``>=2.78.0,<2.79.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -96,7 +96,7 @@ bioconductor-affyilm
 
     <script>
         var package = "bioconductor-affyilm";
-        var versions = ["1.54.0","1.52.0","1.50.0","1.46.0","1.44.0"];
+        var versions = ["1.58.0","1.54.0","1.52.0","1.50.0","1.46.0"];
     </script>
 
 

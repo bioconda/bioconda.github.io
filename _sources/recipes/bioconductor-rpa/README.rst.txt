@@ -12,7 +12,7 @@ bioconductor-rpa
 
    RPA\: Robust Probabilistic Averaging for probe\-level analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/RPA.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/RPA.html
    :license: BSD_2_clause + file LICENSE
    :recipe: /`bioconductor-rpa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rpa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rpa/meta.yaml>`_
    :links: biotools: :biotools:`rpa`

@@ -12,7 +12,7 @@ bioconductor-mirtarrnaseq
 
    mirTarRnaSeq
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/mirTarRnaSeq.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/mirTarRnaSeq.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-mirtarrnaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirtarrnaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirtarrnaseq/meta.yaml>`_
 

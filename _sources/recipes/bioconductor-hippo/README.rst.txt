@@ -12,7 +12,7 @@ bioconductor-hippo
 
    Heterogeneity\-Induced Pre\-Processing tOol
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/HIPPO.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/HIPPO.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-hippo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hippo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hippo/meta.yaml>`_
 
@@ -26,14 +26,22 @@ bioconductor-hippo
    :versions:
       
       
+      .. raw:: html
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  </span></summary>
+      
 
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 
@@ -95,7 +103,7 @@ bioconductor-hippo
 
     <script>
         var package = "bioconductor-hippo";
-        var versions = ["1.14.0","1.12.0","1.10.0","1.6.0","1.4.0"];
+        var versions = ["1.18.0","1.14.0","1.12.0","1.10.0","1.6.0"];
     </script>
 
 

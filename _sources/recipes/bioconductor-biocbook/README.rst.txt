@@ -12,7 +12,7 @@ bioconductor-biocbook
 
    Write\, containerize\, publish and version Quarto books with Bioconductor
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/BiocBook.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/BiocBook.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-biocbook <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocbook>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocbook/meta.yaml>`_
 

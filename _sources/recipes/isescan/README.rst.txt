@@ -28,10 +28,10 @@ isescan
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.2.3-3</code>,  <code>1.7.2.3-2</code>,  <code>1.7.2.3-1</code>,  <code>1.7.2.3-0</code>,  <code>1.7.2.2.2-0</code>,  <code>1.7.2.2.1-0</code>,  <code>1.7.2.1-0</code>,  <code>1.7.2-0</code>,  <code>1.7.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7.2.3-4</code>,  <code>1.7.2.3-3</code>,  <code>1.7.2.3-2</code>,  <code>1.7.2.3-1</code>,  <code>1.7.2.3-0</code>,  <code>1.7.2.2.2-0</code>,  <code>1.7.2.2.1-0</code>,  <code>1.7.2.1-0</code>,  <code>1.7.2-0</code>,  </span></summary>
       
 
-      ``1.7.2.3-3``,  ``1.7.2.3-2``,  ``1.7.2.3-1``,  ``1.7.2.3-0``,  ``1.7.2.2.2-0``,  ``1.7.2.2.1-0``,  ``1.7.2.1-0``,  ``1.7.2-0``,  ``1.7.1-1``,  ``1.7.1-0``
+      ``1.7.2.3-4``,  ``1.7.2.3-3``,  ``1.7.2.3-2``,  ``1.7.2.3-1``,  ``1.7.2.3-0``,  ``1.7.2.2.2-0``,  ``1.7.2.2.1-0``,  ``1.7.2.1-0``,  ``1.7.2-0``,  ``1.7.1-1``,  ``1.7.1-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ isescan
    :depends biopython: ``>=1.62``
    :depends blast: ``>=2.2.31``
    :depends fastcluster: 
-   :depends fraggenescan: ``<=1.30``
+   :depends fraggenescan: ``>=1.32``
    :depends hmmer: ``>=3.1b2``
    :depends libgcc: ``>=13``
    :depends numpy: ``>=1.8``
@@ -99,7 +99,7 @@ isescan
 
     <script>
         var package = "isescan";
-        var versions = ["1.7.2.3","1.7.2.3","1.7.2.3","1.7.2.3","1.7.2.2.2"];
+        var versions = ["1.7.2.3","1.7.2.3","1.7.2.3","1.7.2.3","1.7.2.3"];
     </script>
 
 

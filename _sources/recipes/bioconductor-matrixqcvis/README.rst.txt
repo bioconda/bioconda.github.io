@@ -12,7 +12,7 @@ bioconductor-matrixqcvis
 
    Shiny\-based interactive data\-quality exploration for omics data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MatrixQCvis.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MatrixQCvis.html
    :license: GPL-3
    :recipe: /`bioconductor-matrixqcvis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-matrixqcvis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-matrixqcvis/meta.yaml>`_
 
@@ -27,21 +27,23 @@ bioconductor-matrixqcvis
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-impute: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-pcamethods: ``>=1.94.0,<1.95.0``
-   :depends bioconductor-proda: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-vsn: ``>=3.70.0,<3.71.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-impute: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-pcamethods: ``>=1.98.0,<1.99.0``
+   :depends bioconductor-proda: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-sva: ``>=3.54.0,<3.55.0``
+   :depends bioconductor-vsn: ``>=3.74.0,<3.75.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: ``>=1.0.5``
+   :depends r-dt: ``>=0.33``
    :depends r-ggplot2: ``>=3.3.3``
    :depends r-hmisc: ``>=4.5-0``
    :depends r-htmlwidgets: ``>=1.5.3``
@@ -109,7 +111,7 @@ bioconductor-matrixqcvis
 
     <script>
         var package = "bioconductor-matrixqcvis";
-        var versions = ["1.10.0","1.8.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.2.0"];
     </script>
 
 

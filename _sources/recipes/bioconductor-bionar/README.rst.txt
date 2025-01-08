@@ -12,7 +12,7 @@ bioconductor-bionar
 
    Biological Network Analysis in R
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/BioNAR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/BioNAR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bionar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bionar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bionar/meta.yaml>`_
 
@@ -27,23 +27,23 @@ bioconductor-bionar
       
       
 
-      ``1.4.0-0``,  ``1.2.4-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.4-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-fgsea: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-fgsea: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-go.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-clustercons: 
    :depends r-cowplot: 
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 
-   :depends r-igraph: ``>=1.4.0``
+   :depends r-igraph: ``>=2.0.1.1``
    :depends r-latex2exp: 
    :depends r-matrix: 
    :depends r-minpack.lm: 
@@ -105,7 +105,7 @@ bioconductor-bionar
 
     <script>
         var package = "bioconductor-bionar";
-        var versions = ["1.4.0","1.2.4","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.2.4","1.0.0"];
     </script>
 
 

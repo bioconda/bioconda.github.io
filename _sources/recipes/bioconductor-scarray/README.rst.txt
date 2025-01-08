@@ -10,13 +10,13 @@ bioconductor-scarray
    :replaces_section_title:
    :noindex:
 
-   Large\-scale single\-cell RNA\-seq data manipulation with GDS files
+   Large\-scale single\-cell omics data manipulation with GDS files
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SCArray.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SCArray.html
    :license: GPL-3
    :recipe: /`bioconductor-scarray <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scarray>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scarray/meta.yaml>`_
 
-   Provides large\-scale single\-cell RNA\-seq data manipulation using Genomic Data Structure \(GDS\) files. It combines dense and sparse matrices stored in GDS files and the Bioconductor infrastructure framework \(SingleCellExperiment and DelayedArray\) to provide out\-of\-memory data storage and large\-scale manipulation using the R programming language.
+   Provides large\-scale single\-cell omics data manipulation using Genomic Data Structure \(GDS\) files. It combines dense and sparse matrices stored in GDS files and the Bioconductor infrastructure framework \(SingleCellExperiment and DelayedArray\) to provide out\-of\-memory data storage and large\-scale manipulation using the R programming language.
 
 
 .. conda:package:: bioconductor-scarray

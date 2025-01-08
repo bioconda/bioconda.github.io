@@ -12,7 +12,7 @@ bioconductor-screencounter
 
    Counting Reads in High\-Throughput Sequencing Screens
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/screenCounter.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/screenCounter.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-screencounter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-screencounter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-screencounter/meta.yaml>`_
 

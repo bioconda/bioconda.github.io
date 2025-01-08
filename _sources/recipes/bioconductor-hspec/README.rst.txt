@@ -12,7 +12,7 @@ bioconductor-hspec
 
    Hspec
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/Hspec.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/Hspec.html
    :license: LGPL
    :recipe: /`bioconductor-hspec <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hspec>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hspec/meta.yaml>`_
 

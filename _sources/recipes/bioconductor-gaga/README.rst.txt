@@ -12,8 +12,8 @@ bioconductor-gaga
 
    GaGa hierarchical model for high\-throughput data analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/gaga.html
-   :license: GPL-3.0-or-later
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/gaga.html
+   :license: GPL (>= 2)
    :recipe: /`bioconductor-gaga <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gaga>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gaga/meta.yaml>`_
    :links: biotools: :biotools:`gaga`, doi: :doi:`10.1214/09-aoas244`
 

@@ -12,8 +12,8 @@ bioconductor-scuttle
 
    Single\-Cell RNA\-Seq Analysis Utilities
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/scuttle.html
-   :license: GPL-3.0-only
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/scuttle.html
+   :license: GPL-3
    :recipe: /`bioconductor-scuttle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scuttle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scuttle/meta.yaml>`_
    :links: biotools: :biotools:`scuttle`
 

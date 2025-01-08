@@ -12,7 +12,7 @@ bioconductor-compepitools
 
    Tools for computational epigenomics
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/compEpiTools.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/compEpiTools.html
    :license: GPL
    :recipe: /`bioconductor-compepitools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compepitools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compepitools/meta.yaml>`_
    :links: biotools: :biotools:`compepitools`
@@ -29,10 +29,10 @@ bioconductor-compepitools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.36.0-0</code>,  <code>1.34.1-0</code>,  <code>1.32.0-0</code>,  <code>1.27.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.40.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.1-0</code>,  <code>1.32.0-0</code>,  <code>1.27.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  </span></summary>
       
 
-      ``1.36.0-0``,  ``1.34.1-0``,  ``1.32.0-0``,  ``1.27.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.0-0``,  ``1.10.0-0``
+      ``1.40.0-0``,  ``1.36.0-0``,  ``1.34.1-0``,  ``1.32.0-0``,  ``1.27.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.0-0``,  ``1.10.0-0``
 
       
       .. raw:: html
@@ -41,20 +41,20 @@ bioconductor-compepitools
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-methylpipe: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-topgo: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-xvector: ``>=0.42.0,<0.43.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-go.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-methylpipe: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-topgo: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-xvector: ``>=0.46.0,<0.47.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-gplots: 
    :requirements:
 
@@ -106,7 +106,7 @@ bioconductor-compepitools
 
     <script>
         var package = "bioconductor-compepitools";
-        var versions = ["1.36.0","1.34.1","1.32.0","1.27.0","1.26.0"];
+        var versions = ["1.40.0","1.36.0","1.34.1","1.32.0","1.27.0"];
     </script>
 
 

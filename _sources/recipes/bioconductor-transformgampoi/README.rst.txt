@@ -12,7 +12,7 @@ bioconductor-transformgampoi
 
    Variance Stabilizing Transformation for Gamma\-Poisson Models
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/transformGamPoi.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/transformGamPoi.html
    :license: GPL-3
    :recipe: /`bioconductor-transformgampoi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-transformgampoi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-transformgampoi/meta.yaml>`_
 

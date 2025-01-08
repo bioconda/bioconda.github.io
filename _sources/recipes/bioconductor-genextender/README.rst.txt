@@ -12,8 +12,8 @@ bioconductor-genextender
 
    Optimized Functional Annotation Of ChIP\-seq Data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/geneXtendeR.html
-   :license: GPL-3.0-or-later
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/geneXtendeR.html
+   :license: GPL (>= 3)
    :recipe: /`bioconductor-genextender <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genextender>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genextender/meta.yaml>`_
    :links: biotools: :biotools:`genextender`
 
@@ -52,6 +52,7 @@ bioconductor-genextender
    :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
    :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: 

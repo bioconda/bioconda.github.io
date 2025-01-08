@@ -28,7 +28,7 @@ r-wormbase
       
       
 
-      ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``
+      ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``
 
       
 
@@ -40,7 +40,7 @@ r-wormbase
    :depends r-acidcli: ``>=0.2.8``
    :depends r-acidgenerics: ``>=0.6.13``
    :depends r-acidplyr: ``>=0.4.3``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-goalie: ``>=0.7.0``
    :depends r-httr2: ``>=0.2.3``
    :depends r-pipette: ``>=0.14.0``
@@ -95,7 +95,7 @@ r-wormbase
 
     <script>
         var package = "r-wormbase";
-        var versions = ["0.5.0","0.4.2","0.4.1"];
+        var versions = ["0.5.0","0.5.0","0.4.2","0.4.1"];
     </script>
 
 

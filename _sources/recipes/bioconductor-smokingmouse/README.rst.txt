@@ -12,7 +12,7 @@ bioconductor-smokingmouse
 
    Provides access to smokingMouse project data
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/smokingMouse.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/smokingMouse.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-smokingmouse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-smokingmouse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-smokingmouse/meta.yaml>`_
 

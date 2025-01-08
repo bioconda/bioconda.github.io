@@ -12,7 +12,7 @@ bioconductor-tekrabber
 
    An R package estimates the correlations of orthologs and transposable elements between two species
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/TEKRABber.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/TEKRABber.html
    :license: LGPL (>=3)
    :recipe: /`bioconductor-tekrabber <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tekrabber>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tekrabber/meta.yaml>`_
 
@@ -27,25 +27,31 @@ bioconductor-tekrabber
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-apeglm: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-apeglm: ``>=1.24.0,<1.25.0a0``
-   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0a0``
-   :depends bioconductor-deseq2: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-deseq2: ``>=1.42.0,<1.43.0a0``
-   :depends bioconductor-scbn: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-scbn: ``>=1.20.0,<1.21.0a0``
+   :depends bioconductor-apeglm: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-apeglm: ``>=1.28.0,<1.29.0a0``
+   :depends bioconductor-biomart: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biomart: ``>=2.62.0,<2.63.0a0``
+   :depends bioconductor-deseq2: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-deseq2: ``>=1.46.0,<1.47.0a0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0a0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0a0``
+   :depends bioconductor-scbn: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-scbn: ``>=1.24.0,<1.25.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-doparallel: 
    :depends r-dplyr: 
+   :depends r-foreach: 
    :depends r-magrittr: 
    :depends r-rcpp: ``>=1.0.7``
    :requirements:
@@ -98,7 +104,7 @@ bioconductor-tekrabber
 
     <script>
         var package = "bioconductor-tekrabber";
-        var versions = ["1.6.0","1.4.0","1.2.0","1.2.0"];
+        var versions = ["1.10.0","1.6.0","1.4.0","1.2.0","1.2.0"];
     </script>
 
 

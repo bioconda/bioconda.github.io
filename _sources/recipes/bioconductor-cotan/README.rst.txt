@@ -12,7 +12,7 @@ bioconductor-cotan
 
    COexpression Tables ANalysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/COTAN.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/COTAN.html
    :license: GPL-3
    :recipe: /`bioconductor-cotan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cotan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cotan/meta.yaml>`_
 

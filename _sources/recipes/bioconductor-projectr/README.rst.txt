@@ -12,7 +12,7 @@ bioconductor-projectr
 
    Functions for the projection of weights from PCA\, CoGAPS\, NMF\, correlation\, and clustering
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/projectR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/projectR.html
    :license: GPL (==2)
    :recipe: /`bioconductor-projectr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-projectr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-projectr/meta.yaml>`_
 

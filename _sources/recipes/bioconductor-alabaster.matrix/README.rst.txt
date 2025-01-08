@@ -12,7 +12,7 @@ bioconductor-alabaster.matrix
 
    Load and Save Artifacts from File
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/alabaster.matrix.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/alabaster.matrix.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-alabaster.matrix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.matrix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.matrix/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-raer
 
    RNA editing tools in R
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/raer.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/raer.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-raer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-raer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-raer/meta.yaml>`_
 

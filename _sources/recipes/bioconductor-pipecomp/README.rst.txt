@@ -12,7 +12,7 @@ bioconductor-pipecomp
 
    pipeComp pipeline benchmarking framework
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/pipeComp.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/pipeComp.html
    :license: GPL
    :recipe: /`bioconductor-pipecomp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pipecomp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pipecomp/meta.yaml>`_
 

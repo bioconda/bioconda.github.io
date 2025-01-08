@@ -12,8 +12,8 @@ bioconductor-flames
 
    FLAMES\: Full Length Analysis of Mutations and Splicing in long read RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/FLAMES.html
-   :license: GPL (>= 2)
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/FLAMES.html
+   :license: GPL (>= 3)
    :recipe: /`bioconductor-flames <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flames>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flames/meta.yaml>`_
 
    Semi\-supervised isoform detection and annotation from both bulk and single\-cell long read RNA\-seq data. Flames provides automated pipelines for analysing isoforms\, as well as intermediate functions for manual execution.

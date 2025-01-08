@@ -10,9 +10,9 @@ bioconductor-multirnaflow
    :replaces_section_title:
    :noindex:
 
-   An R package for analysing RNA\-seq raw counts with several biological conditions and different time points
+   An R package for integrated analysis of temporal RNA\-seq data with multiple biological conditions
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MultiRNAflow.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MultiRNAflow.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-multirnaflow <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multirnaflow>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multirnaflow/meta.yaml>`_
 
@@ -27,11 +27,29 @@ bioconductor-multirnaflow
       
       
 
-      
+      ``1.4.0-0``
 
       
 
    
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-deseq2: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-mfuzz: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-factoextra: ``>=1.0.7``
+   :depends r-factominer: ``>=2.6``
+   :depends r-ggalluvial: ``>=0.12.3``
+   :depends r-ggplot2: ``>=3.4.0``
+   :depends r-ggplotify: ``>=0.1.2``
+   :depends r-ggrepel: ``>=0.9.2``
+   :depends r-gprofiler2: ``>=0.2.1``
+   :depends r-plot3d: ``>=1.4``
+   :depends r-plot3drgl: ``>=1.0.3``
+   :depends r-reshape2: ``>=1.4.4``
+   :depends r-upsetr: ``>=1.4.0``
    :requirements:
 
    :additional platforms:
@@ -82,7 +100,7 @@ bioconductor-multirnaflow
 
     <script>
         var package = "bioconductor-multirnaflow";
-        var versions = [];
+        var versions = ["1.4.0"];
     </script>
 
 

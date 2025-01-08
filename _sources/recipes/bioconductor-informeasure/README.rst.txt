@@ -10,13 +10,13 @@ bioconductor-informeasure
    :replaces_section_title:
    :noindex:
 
-   R implementation of Information measures
+   R implementation of information measures
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/Informeasure.html
-   :license: GPL-3
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Informeasure.html
+   :license: Artistic-2.0
    :recipe: /`bioconductor-informeasure <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-informeasure>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-informeasure/meta.yaml>`_
 
-   This package compiles most of the information measures currently available\: mutual information\, conditional mutual information\, interaction information\, partial information decomposition and part mutual information. All of these estimators can be used to quantify nonlinear dependence between variables in \(biological regulatory\) network inference. The first estimator is used to infer bivariate networks while the last four estimators are dedicated to analysis of trivariate networks.
+   This package consolidates a comprehensive set of information measurements\, encompassing mutual information\, conditional mutual information\, interaction information\, partial information decomposition\, and part mutual information.
 
 
 .. conda:package:: bioconductor-informeasure

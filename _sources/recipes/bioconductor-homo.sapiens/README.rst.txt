@@ -12,7 +12,7 @@ bioconductor-homo.sapiens
 
    Annotation package for the Homo.sapiens object
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/Homo.sapiens.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/Homo.sapiens.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-homo.sapiens <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-homo.sapiens>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-homo.sapiens/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-homo.sapiens
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.1-16</code>,  <code>1.3.1-15</code>,  <code>1.3.1-14</code>,  <code>1.3.1-13</code>,  <code>1.3.1-12</code>,  <code>1.3.1-11</code>,  <code>1.3.1-10</code>,  <code>1.3.1-9</code>,  <code>1.3.1-8</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.1-17</code>,  <code>1.3.1-16</code>,  <code>1.3.1-15</code>,  <code>1.3.1-14</code>,  <code>1.3.1-13</code>,  <code>1.3.1-12</code>,  <code>1.3.1-11</code>,  <code>1.3.1-10</code>,  <code>1.3.1-9</code>,  </span></summary>
       
 
-      ``1.3.1-16``,  ``1.3.1-15``,  ``1.3.1-14``,  ``1.3.1-13``,  ``1.3.1-12``,  ``1.3.1-11``,  ``1.3.1-10``,  ``1.3.1-9``,  ``1.3.1-8``,  ``1.3.1-7``,  ``1.3.1-6``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-1``,  ``1.3.1-0``
+      ``1.3.1-17``,  ``1.3.1-16``,  ``1.3.1-15``,  ``1.3.1-14``,  ``1.3.1-13``,  ``1.3.1-12``,  ``1.3.1-11``,  ``1.3.1-10``,  ``1.3.1-9``,  ``1.3.1-8``,  ``1.3.1-7``,  ``1.3.1-6``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-1``,  ``1.3.1-0``
 
       
       .. raw:: html
@@ -40,15 +40,15 @@ bioconductor-homo.sapiens
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-organismdbi: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-go.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-organismdbi: ``>=1.48.0,<1.49.0``
    :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: ``>=3.2.0,<3.3.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:

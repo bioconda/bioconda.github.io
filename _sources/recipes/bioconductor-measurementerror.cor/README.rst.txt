@@ -12,7 +12,7 @@ bioconductor-measurementerror.cor
 
    Measurement Error model estimate for correlation coefficient
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MeasurementError.cor.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MeasurementError.cor.html
    :license: LGPL
    :recipe: /`bioconductor-measurementerror.cor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-measurementerror.cor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-measurementerror.cor/meta.yaml>`_
    :links: biotools: :biotools:`measurementerror.cor`, doi: :doi:`10.1038/nmeth.3252`

@@ -12,7 +12,7 @@ bioconductor-herper
 
    The Herper package is a simple toolset to install and manage conda packages and environments from R
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Herper.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Herper.html
    :license: GPL-3
    :recipe: /`bioconductor-herper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-herper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-herper/meta.yaml>`_
 

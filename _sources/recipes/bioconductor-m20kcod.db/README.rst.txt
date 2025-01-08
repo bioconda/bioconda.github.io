@@ -12,7 +12,7 @@ bioconductor-m20kcod.db
 
    Codelink UniSet Mouse 20k I Bioarray annotation data \(chip m20kcod\)
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/m20kcod.db.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/m20kcod.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-m20kcod.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-m20kcod.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-m20kcod.db/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-m20kcod.db
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.0-12</code>,  <code>3.4.0-11</code>,  <code>3.4.0-10</code>,  <code>3.4.0-9</code>,  <code>3.4.0-8</code>,  <code>3.4.0-7</code>,  <code>3.4.0-6</code>,  <code>3.4.0-5</code>,  <code>3.4.0-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.0-13</code>,  <code>3.4.0-12</code>,  <code>3.4.0-11</code>,  <code>3.4.0-10</code>,  <code>3.4.0-9</code>,  <code>3.4.0-8</code>,  <code>3.4.0-7</code>,  <code>3.4.0-6</code>,  <code>3.4.0-5</code>,  </span></summary>
       
 
-      ``3.4.0-12``,  ``3.4.0-11``,  ``3.4.0-10``,  ``3.4.0-9``,  ``3.4.0-8``,  ``3.4.0-7``,  ``3.4.0-6``,  ``3.4.0-5``,  ``3.4.0-4``,  ``3.4.0-3``,  ``3.4.0-2``,  ``3.4.0-0``
+      ``3.4.0-13``,  ``3.4.0-12``,  ``3.4.0-11``,  ``3.4.0-10``,  ``3.4.0-9``,  ``3.4.0-8``,  ``3.4.0-7``,  ``3.4.0-6``,  ``3.4.0-5``,  ``3.4.0-4``,  ``3.4.0-3``,  ``3.4.0-2``,  ``3.4.0-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-m20kcod.db
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-data-packages: ``>=20231202``
-   :depends bioconductor-org.mm.eg.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-org.mm.eg.db: ``>=3.20.0,<3.21.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:

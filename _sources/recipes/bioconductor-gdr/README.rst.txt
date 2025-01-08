@@ -12,7 +12,7 @@ bioconductor-gdr
 
    Umbrella package for R packages in the gDR suite
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/gDR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/gDR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gdr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdr/meta.yaml>`_
 

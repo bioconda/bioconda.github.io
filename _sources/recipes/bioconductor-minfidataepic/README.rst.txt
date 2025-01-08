@@ -12,7 +12,7 @@ bioconductor-minfidataepic
 
    Example data for the Illumina Methylation EPIC array
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/minfiDataEPIC.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/minfiDataEPIC.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-minfidataepic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minfidataepic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minfidataepic/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-minfidataepic
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.32.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  </span></summary>
       
 
-      ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
+      ``1.32.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
 
       
       .. raw:: html
@@ -40,12 +40,12 @@ bioconductor-minfidataepic
       
 
    
-   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-data-packages: ``>=20241103``
    :depends bioconductor-illuminahumanmethylationepicanno.ilm10b2.hg19: ``>=0.6.0,<0.7.0``
    :depends bioconductor-illuminahumanmethylationepicmanifest: ``>=0.3.0,<0.4.0``
-   :depends bioconductor-minfi: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-minfi: ``>=1.52.0,<1.53.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -96,7 +96,7 @@ bioconductor-minfidataepic
 
     <script>
         var package = "bioconductor-minfidataepic";
-        var versions = ["1.28.0","1.26.0","1.24.0","1.18.0","1.16.0"];
+        var versions = ["1.32.0","1.28.0","1.26.0","1.24.0","1.18.0"];
     </script>
 
 

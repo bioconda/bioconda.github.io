@@ -12,7 +12,7 @@ bioconductor-oligo
 
    Preprocessing tools for oligonucleotide arrays
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/oligo.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/oligo.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-oligo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oligo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oligo/meta.yaml>`_
    :links: biotools: :biotools:`oligo`

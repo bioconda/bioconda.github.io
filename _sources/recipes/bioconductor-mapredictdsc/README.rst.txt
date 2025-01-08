@@ -12,7 +12,7 @@ bioconductor-mapredictdsc
 
    Phenotype prediction using microarray data\: approach of the best overall team in the IMPROVER Diagnostic Signature Challenge
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/maPredictDSC.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/maPredictDSC.html
    :license: GPL-2
    :recipe: /`bioconductor-mapredictdsc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mapredictdsc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mapredictdsc/meta.yaml>`_
    :links: biotools: :biotools:`mapredictdsc`, doi: :doi:`10.1093/bioinformatics/btt492`
@@ -29,10 +29,10 @@ bioconductor-mapredictdsc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.44.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  </span></summary>
       
 
-      ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``
+      ``1.44.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,14 @@ bioconductor-mapredictdsc
       
 
    
-   :depends bioconductor-affy: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-gcrma: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-affy: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-gcrma: ``>=2.78.0,<2.79.0``
    :depends bioconductor-hgu133plus2.db: ``>=3.13.0,<3.14.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-lungcanceracvssccgeo: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-roc: ``>=1.78.0,<1.79.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-lungcanceracvssccgeo: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-roc: ``>=1.82.0,<1.83.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-caret: 
    :depends r-class: 
    :depends r-e1071: 
@@ -104,7 +104,7 @@ bioconductor-mapredictdsc
 
     <script>
         var package = "bioconductor-mapredictdsc";
-        var versions = ["1.40.0","1.38.0","1.36.0","1.32.0","1.30.0"];
+        var versions = ["1.44.0","1.40.0","1.38.0","1.36.0","1.32.0"];
     </script>
 
 

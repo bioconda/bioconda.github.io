@@ -12,7 +12,7 @@ bioconductor-synaptome.data
 
    AnnotationData for Synaptome.DB package
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/synaptome.data.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/synaptome.data.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-synaptome.data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synaptome.data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synaptome.data/meta.yaml>`_
 

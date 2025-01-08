@@ -12,7 +12,7 @@ bioconductor-delayedrandomarray
 
    Delayed Arrays of Random Values
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/DelayedRandomArray.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/DelayedRandomArray.html
    :license: GPL-3
    :recipe: /`bioconductor-delayedrandomarray <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-delayedrandomarray>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-delayedrandomarray/meta.yaml>`_
 

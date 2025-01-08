@@ -12,7 +12,7 @@ bioconductor-ifaa
 
    Robust Inference for Absolute Abundance in Microbiome Analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/IFAA.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/IFAA.html
    :license: GPL-2
    :recipe: /`bioconductor-ifaa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ifaa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ifaa/meta.yaml>`_
 

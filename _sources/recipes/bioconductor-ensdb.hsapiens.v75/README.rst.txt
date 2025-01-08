@@ -12,7 +12,7 @@ bioconductor-ensdb.hsapiens.v75
 
    Ensembl based annotation package
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/EnsDb.Hsapiens.v75.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/EnsDb.Hsapiens.v75.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ensdb.hsapiens.v75 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ensdb.hsapiens.v75>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ensdb.hsapiens.v75/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-ensdb.hsapiens.v75
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.99.0-15</code>,  <code>2.99.0-14</code>,  <code>2.99.0-13</code>,  <code>2.99.0-12</code>,  <code>2.99.0-11</code>,  <code>2.99.0-10</code>,  <code>2.99.0-9</code>,  <code>2.99.0-8</code>,  <code>2.99.0-7</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.99.0-16</code>,  <code>2.99.0-15</code>,  <code>2.99.0-14</code>,  <code>2.99.0-13</code>,  <code>2.99.0-12</code>,  <code>2.99.0-11</code>,  <code>2.99.0-10</code>,  <code>2.99.0-9</code>,  <code>2.99.0-8</code>,  </span></summary>
       
 
-      ``2.99.0-15``,  ``2.99.0-14``,  ``2.99.0-13``,  ``2.99.0-12``,  ``2.99.0-11``,  ``2.99.0-10``,  ``2.99.0-9``,  ``2.99.0-8``,  ``2.99.0-7``,  ``2.99.0-6``,  ``2.99.0-5``,  ``2.99.0-3``,  ``2.99.0-2``,  ``2.99.0-0``
+      ``2.99.0-16``,  ``2.99.0-15``,  ``2.99.0-14``,  ``2.99.0-13``,  ``2.99.0-12``,  ``2.99.0-11``,  ``2.99.0-10``,  ``2.99.0-9``,  ``2.99.0-8``,  ``2.99.0-7``,  ``2.99.0-6``,  ``2.99.0-5``,  ``2.99.0-3``,  ``2.99.0-2``,  ``2.99.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-ensdb.hsapiens.v75
       
 
    
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-ensembldb: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-ensembldb: ``>=2.30.0,<2.31.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:

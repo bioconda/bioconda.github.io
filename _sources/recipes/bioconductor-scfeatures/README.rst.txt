@@ -12,7 +12,7 @@ bioconductor-scfeatures
 
    scFeatures\: Multi\-view representations of single\-cell and spatial data for disease outcome prediction
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/scFeatures.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/scFeatures.html
    :license: GPL-3
    :recipe: /`bioconductor-scfeatures <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scfeatures>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scfeatures/meta.yaml>`_
 
@@ -27,25 +27,23 @@ bioconductor-scfeatures
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-aucell: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-delayedmatrixstats: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-aucell: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.28.0,<1.29.0``
    :depends bioconductor-ensdb.hsapiens.v79: ``>=2.99.0,<2.100.0``
    :depends bioconductor-ensdb.mmusculus.v79: ``>=2.99.0,<2.100.0``
-   :depends bioconductor-ensembldb: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-gsva: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-matrixgenerics: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-singlecellsignalr: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-spatialexperiment: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-ensembldb: ``>=2.30.0,<2.31.0``
+   :depends bioconductor-gsva: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-matrixgenerics: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-singlecellsignalr: ``>=1.18.0,<1.19.0``
    :depends r-ape: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cli: 
    :depends r-dplyr: 
    :depends r-dt: 
@@ -109,7 +107,7 @@ bioconductor-scfeatures
 
     <script>
         var package = "bioconductor-scfeatures";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

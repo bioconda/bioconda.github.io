@@ -12,7 +12,7 @@ bioconductor-epicompare
 
    Comparison\, Benchmarking \& QC of Epigenomic Datasets
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/EpiCompare.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/EpiCompare.html
    :license: GPL-3
    :recipe: /`bioconductor-epicompare <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epicompare>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epicompare/meta.yaml>`_
 
@@ -27,24 +27,23 @@ bioconductor-epicompare
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``
+      ``1.10.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.8.0,<3.9.0``
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-brgenomics: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-chipseeker: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-genomation: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-genomeinfodb: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-iranges: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-rtracklayer: ``>=1.60.0,<1.61.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-chipseeker: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomation: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: 
    :depends r-downloadthis: 
-   :depends r-ggplot2: 
+   :depends r-ggplot2: ``>=3.5.0``
    :depends r-htmltools: 
    :depends r-plotly: 
    :depends r-reshape2: 
@@ -100,7 +99,7 @@ bioconductor-epicompare
 
     <script>
         var package = "bioconductor-epicompare";
-        var versions = ["1.4.0","1.2.0"];
+        var versions = ["1.10.0","1.4.0","1.2.0"];
     </script>
 
 

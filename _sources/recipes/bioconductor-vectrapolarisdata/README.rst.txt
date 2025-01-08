@@ -12,7 +12,7 @@ bioconductor-vectrapolarisdata
 
    Vectra Polaris and Vectra 3 multiplex single\-cell imaging data
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/VectraPolarisData.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/VectraPolarisData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-vectrapolarisdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vectrapolarisdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vectrapolarisdata/meta.yaml>`_
 

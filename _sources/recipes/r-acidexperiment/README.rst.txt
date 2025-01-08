@@ -29,10 +29,10 @@ r-acidexperiment
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.4.7-2</code>,  <code>0.4.7-1</code>,  <code>0.4.7-0</code>,  <code>0.4.5-1</code>,  <code>0.4.5-0</code>,  <code>0.4.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.4-1</code>,  <code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.4.7-2</code>,  <code>0.4.7-1</code>,  <code>0.4.7-0</code>,  <code>0.4.5-1</code>,  <code>0.4.5-0</code>,  </span></summary>
       
 
-      ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.4.7-2``,  ``0.4.7-1``,  ``0.4.7-0``,  ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-2``,  ``0.1.10-1``,  ``0.1.10-0``
+      ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.4.7-2``,  ``0.4.7-1``,  ``0.4.7-0``,  ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-2``,  ``0.1.10-1``,  ``0.1.10-0``
 
       
       .. raw:: html
@@ -54,7 +54,7 @@ r-acidexperiment
    :depends r-acidgenerics: ``>=0.7.1``
    :depends r-acidgenomes: ``>=0.6.0``
    :depends r-acidplyr: ``>=0.5.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-goalie: ``>=0.7.0``
    :depends r-matrix: ``>=1.6.1``
    :depends r-pipette: ``>=0.14.0``
@@ -110,7 +110,7 @@ r-acidexperiment
 
     <script>
         var package = "r-acidexperiment";
-        var versions = ["0.5.4","0.5.3","0.5.2","0.4.7","0.4.7"];
+        var versions = ["0.5.4","0.5.4","0.5.3","0.5.2","0.4.7"];
     </script>
 
 

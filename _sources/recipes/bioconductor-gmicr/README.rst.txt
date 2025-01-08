@@ -12,7 +12,7 @@ bioconductor-gmicr
 
    Combines WGCNA and xCell readouts with bayesian network learrning to generate a Gene\-Module Immune\-Cell network \(GMIC\)
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GmicR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/GmicR.html
    :license: GPL-2 + file LICENSE
    :recipe: /`bioconductor-gmicr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gmicr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gmicr/meta.yaml>`_
 
@@ -26,20 +26,28 @@ bioconductor-gmicr
    :versions:
       
       
+      .. raw:: html
 
-      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+      
 
+      ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-category: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-gostats: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-gseabase: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-org.mm.eg.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-category: ``>=2.72.0,<2.73.0``
+   :depends bioconductor-gostats: ``>=2.72.0,<2.73.0``
+   :depends bioconductor-gseabase: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.20.0,<3.21.0``
    :depends r-ape: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-bnlearn: 
    :depends r-data.table: 
    :depends r-doparallel: 
@@ -100,7 +108,7 @@ bioconductor-gmicr
 
     <script>
         var package = "bioconductor-gmicr";
-        var versions = ["1.16.0","1.14.0","1.12.0","1.8.0","1.6.0"];
+        var versions = ["1.20.0","1.16.0","1.14.0","1.12.0","1.8.0"];
     </script>
 
 

@@ -12,8 +12,8 @@ bioconductor-martini
 
    GWAS Incorporating Networks
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/martini.html
-   :license: GPL-3.0-only
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/martini.html
+   :license: GPL-3
    :recipe: /`bioconductor-martini <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-martini>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-martini/meta.yaml>`_
    :links: biotools: :biotools:`martini`, usegalaxy-eu: :usegalaxy-eu:`martini`
 

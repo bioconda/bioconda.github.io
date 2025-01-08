@@ -12,7 +12,7 @@ bioconductor-mirsponger
 
    Identification and analysis of miRNA sponge regulation
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/miRspongeR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/miRspongeR.html
    :license: GPL-3
    :recipe: /`bioconductor-mirsponger <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirsponger>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirsponger/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-mirsponger
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4.0-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>1.20.1-1</code>,  <code>1.20.1-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.2-0</code>,  <code>1.16.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.10.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>1.20.1-1</code>,  <code>1.20.1-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.2-0</code>,  </span></summary>
       
 
-      ``2.4.0-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``1.20.1-1``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.2-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.1-0``
+      ``2.10.0-0``,  ``2.4.0-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``1.20.1-1``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.2-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.1-0``
 
       
       .. raw:: html
@@ -40,16 +40,21 @@ bioconductor-mirsponger
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=4.8.0,<4.9.0``
-   :depends bioconductor-dose: ``>=3.26.0,<3.27.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.17.0,<3.18.0``
-   :depends bioconductor-reactomepa: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-sponge: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-clusterprofiler: ``>=4.14.0,<4.15.0``
+   :depends bioconductor-clusterprofiler: ``>=4.14.0,<4.15.0a0``
+   :depends bioconductor-dose: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-dose: ``>=4.0.0,<4.1.0a0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0a0``
+   :depends bioconductor-reactomepa: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-reactomepa: ``>=1.50.0,<1.51.0a0``
+   :depends bioconductor-sponge: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-sponge: ``>=1.28.0,<1.29.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-corpcor: 
    :depends r-doparallel: 
    :depends r-foreach: 
@@ -108,7 +113,7 @@ bioconductor-mirsponger
 
     <script>
         var package = "bioconductor-mirsponger";
-        var versions = ["2.4.0","2.2.0","2.2.0","1.20.1","1.20.1"];
+        var versions = ["2.10.0","2.4.0","2.2.0","2.2.0","1.20.1"];
     </script>
 
 

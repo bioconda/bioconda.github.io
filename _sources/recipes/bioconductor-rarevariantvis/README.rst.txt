@@ -12,7 +12,7 @@ bioconductor-rarevariantvis
 
    A suite for analysis of rare genomic variants in whole genome sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/RareVariantVis.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/RareVariantVis.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rarevariantvis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rarevariantvis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rarevariantvis/meta.yaml>`_
    :links: biotools: :biotools:`rarevariantvis`, doi: :doi:`10.1093/bioinformatics/btw359`

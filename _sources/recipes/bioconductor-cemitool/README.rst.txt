@@ -12,7 +12,7 @@ bioconductor-cemitool
 
    Co\-expression Modules identification Tool
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CEMiTool.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CEMiTool.html
    :license: GPL-3
    :recipe: /`bioconductor-cemitool <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cemitool>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cemitool/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-cemitool
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.18.1-0</code>,  <code>1.16.0-0</code>,  <code>1.14.1-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.18.1-0</code>,  <code>1.16.0-0</code>,  <code>1.14.1-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  </span></summary>
       
 
-      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.18.1-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.3-0``,  ``1.6.10-0``
+      ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.18.1-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.3-0``,  ``1.6.10-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-cemitool
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=4.10.0,<4.11.0``
-   :depends bioconductor-fgsea: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-clusterprofiler: ``>=4.14.0,<4.15.0``
+   :depends bioconductor-fgsea: ``>=1.32.0,<1.33.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: ``>=1.9.4``
    :depends r-dplyr: 
    :depends r-dt: 
@@ -116,7 +116,7 @@ bioconductor-cemitool
 
     <script>
         var package = "bioconductor-cemitool";
-        var versions = ["1.26.0","1.24.0","1.22.0","1.18.1","1.16.0"];
+        var versions = ["1.30.0","1.26.0","1.24.0","1.22.0","1.18.1"];
     </script>
 
 

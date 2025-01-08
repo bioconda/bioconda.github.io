@@ -12,12 +12,12 @@ bioconductor-mscoreutils
 
    Core Utils for Mass Spectrometry Data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MsCoreUtils.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MsCoreUtils.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mscoreutils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mscoreutils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mscoreutils/meta.yaml>`_
    :links: biotools: :biotools:`mscoreutils`, usegalaxy-eu: :usegalaxy-eu:`mscoreutils`
 
-   MsCoreUtils defines low\-level functions for mass spectrometry data and is independent of any high\-level data structures. These functions include mass spectra processing functions \(noise estimation\, smoothing\, binning\)\, quantitative aggregation functions \(median polish\, robust summarisation\, ...\)\, missing data imputation\, data normalisation \(quantiles\, vsn\, ...\) as well as misc helper functions\, that are used across high\-level data structure within the R for Mass Spectrometry packages.
+   MsCoreUtils defines low\-level functions for mass spectrometry data and is independent of any high\-level data structures. These functions include mass spectra processing functions \(noise estimation\, smoothing\, binning\, baseline estimation\)\, quantitative aggregation functions \(median polish\, robust summarisation\, ...\)\, missing data imputation\, data normalisation \(quantiles\, vsn\, ...\)\, misc helper functions\, that are used across high\-level data structure within the R for Mass Spectrometry packages.
 
 
 .. conda:package:: bioconductor-mscoreutils

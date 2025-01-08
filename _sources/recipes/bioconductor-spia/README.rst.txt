@@ -12,7 +12,7 @@ bioconductor-spia
 
    Signaling Pathway Impact Analysis \(SPIA\) using combined evidence of pathway over\-representation and unusual signaling perturbations
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SPIA.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SPIA.html
    :license: file LICENSE
    :recipe: /`bioconductor-spia <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spia>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spia/meta.yaml>`_
    :links: biotools: :biotools:`spia`, doi: :doi:`10.1093/bioinformatics/btn577`

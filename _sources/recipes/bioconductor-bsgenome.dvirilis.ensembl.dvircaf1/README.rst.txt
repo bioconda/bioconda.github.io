@@ -12,7 +12,7 @@ bioconductor-bsgenome.dvirilis.ensembl.dvircaf1
 
    Full genome sequences for Drosophila virilis \(assembly dvir\_caf1\)
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/BSgenome.Dvirilis.Ensembl.dvircaf1.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/BSgenome.Dvirilis.Ensembl.dvircaf1.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.dvirilis.ensembl.dvircaf1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.dvirilis.ensembl.dvircaf1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.dvirilis.ensembl.dvircaf1/meta.yaml>`_
 
@@ -26,16 +26,24 @@ bioconductor-bsgenome.dvirilis.ensembl.dvircaf1
    :versions:
       
       
+      .. raw:: html
 
-      ``1.4.3-8``,  ``1.4.3-7``,  ``1.4.3-6``,  ``1.4.3-5``,  ``1.4.3-4``,  ``1.4.3-3``,  ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``
+         <details><summary><span class="truncated-version-list"><code>1.4.3-9</code>,  <code>1.4.3-8</code>,  <code>1.4.3-7</code>,  <code>1.4.3-6</code>,  <code>1.4.3-5</code>,  <code>1.4.3-4</code>,  <code>1.4.3-3</code>,  <code>1.4.3-2</code>,  <code>1.4.3-1</code>,  </span></summary>
+      
 
+      ``1.4.3-9``,  ``1.4.3-8``,  ``1.4.3-7``,  ``1.4.3-6``,  ``1.4.3-5``,  ``1.4.3-4``,  ``1.4.3-3``,  ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-data-packages: ``>=20241103``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:

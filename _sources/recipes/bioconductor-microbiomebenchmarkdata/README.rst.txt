@@ -12,7 +12,7 @@ bioconductor-microbiomebenchmarkdata
 
    Datasets for benchmarking in microbiome research
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/MicrobiomeBenchmarkData.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/MicrobiomeBenchmarkData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-microbiomebenchmarkdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microbiomebenchmarkdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microbiomebenchmarkdata/meta.yaml>`_
 
@@ -27,19 +27,19 @@ bioconductor-microbiomebenchmarkdata
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-treesummarizedexperiment: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-treesummarizedexperiment: ``>=2.14.0,<2.15.0``
    :depends curl: 
    :depends r-ape: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -90,7 +90,7 @@ bioconductor-microbiomebenchmarkdata
 
     <script>
         var package = "bioconductor-microbiomebenchmarkdata";
-        var versions = ["1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

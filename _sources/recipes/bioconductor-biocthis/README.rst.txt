@@ -12,7 +12,7 @@ bioconductor-biocthis
 
    Automate package and project setup for Bioconductor packages
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/biocthis.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/biocthis.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biocthis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocthis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocthis/meta.yaml>`_
 

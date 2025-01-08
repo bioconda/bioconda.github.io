@@ -12,7 +12,7 @@ bioconductor-ritan
 
    Rapid Integration of Term Annotation and Network resources
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/RITAN.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/RITAN.html
    :license: file LICENSE
    :recipe: /`bioconductor-ritan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ritan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ritan/meta.yaml>`_
 

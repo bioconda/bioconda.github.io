@@ -12,7 +12,7 @@ bioconductor-trigger
 
    Transcriptional Regulatory Inference from Genetics of Gene ExpRession
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/trigger.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/trigger.html
    :license: GPL-3
    :recipe: /`bioconductor-trigger <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trigger>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trigger/meta.yaml>`_
    :links: biotools: :biotools:`trigger`, doi: :doi:`10.1038/nmeth.3252`
@@ -29,10 +29,10 @@ bioconductor-trigger
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.40.0-2</code>,  <code>1.40.0-1</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.52.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.40.0-2</code>,  <code>1.40.0-1</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  </span></summary>
       
 
-      ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.40.0-2``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``
+      ``1.52.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.40.0-2``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,14 @@ bioconductor-trigger
       
 
    
-   :depends bioconductor-qvalue: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-qvalue: ``>=2.34.0,<2.35.0a0``
-   :depends bioconductor-sva: ``>=3.50.0,<3.51.0``
-   :depends bioconductor-sva: ``>=3.50.0,<3.51.0a0``
+   :depends bioconductor-qvalue: ``>=2.38.0,<2.39.0``
+   :depends bioconductor-qvalue: ``>=2.38.0,<2.39.0a0``
+   :depends bioconductor-sva: ``>=3.54.0,<3.55.0``
+   :depends bioconductor-sva: ``>=3.54.0,<3.55.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-corpcor: 
    :depends r-qtl: 
    :requirements:
@@ -101,7 +101,7 @@ bioconductor-trigger
 
     <script>
         var package = "bioconductor-trigger";
-        var versions = ["1.48.0","1.46.0","1.44.0","1.44.0","1.40.0"];
+        var versions = ["1.52.0","1.48.0","1.46.0","1.44.0","1.44.0"];
     </script>
 
 

@@ -12,7 +12,7 @@ bioconductor-simd
 
    Statistical Inferences with MeDIP\-seq Data \(SIMD\) to infer the methylation level for each CpG site
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SIMD.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SIMD.html
    :license: GPL-3
    :recipe: /`bioconductor-simd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simd/meta.yaml>`_
 

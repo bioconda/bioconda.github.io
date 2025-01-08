@@ -12,11 +12,11 @@ bioconductor-scrnaseqapp
 
    A single\-cell RNAseq Shiny app\-package
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/scRNAseqApp.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/scRNAseqApp.html
    :license: GPL-3
    :recipe: /`bioconductor-scrnaseqapp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scrnaseqapp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scrnaseqapp/meta.yaml>`_
 
-   scRNAseqApp is a Shiny app package that allows users to visualize single cell data interactively. It was modified from ShinyCell and repackaged to a tool to show multiple data. It can visulize the data with multiple information side by side.
+   The scRNAseqApp is a Shiny app package designed for interactive visualization of single\-cell data. It is an enhanced version derived from the ShinyCell\, repackaged to accommodate multiple datasets. The app enables users to visualize data containing various types of information simultaneously\, facilitating comprehensive analysis. Additionally\, it includes a user management system to regulate database accessibility for different users.
 
 
 .. conda:package:: bioconductor-scrnaseqapp
@@ -27,25 +27,28 @@ bioconductor-scrnaseqapp
       
       
 
-      ``1.2.2-0``,  ``1.0.1-0``
+      ``1.6.0-0``,  ``1.2.2-0``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-slingshot: ``>=2.10.0,<2.11.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-slingshot: ``>=2.14.0,<2.15.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-bibtex: 
    :depends r-bslib: 
    :depends r-circlize: 
+   :depends r-colourpicker: 
    :depends r-data.table: 
+   :depends r-dbi: 
    :depends r-dt: 
    :depends r-ggdendro: 
    :depends r-ggforce: 
@@ -53,7 +56,6 @@ bioconductor-scrnaseqapp
    :depends r-ggrepel: 
    :depends r-ggridges: 
    :depends r-gridextra: 
-   :depends r-hdf5r: 
    :depends r-htmltools: 
    :depends r-jsonlite: 
    :depends r-magrittr: 
@@ -61,6 +63,7 @@ bioconductor-scrnaseqapp
    :depends r-plotly: 
    :depends r-rcolorbrewer: 
    :depends r-refmanager: 
+   :depends r-rsqlite: 
    :depends r-scales: 
    :depends r-scrypt: 
    :depends r-seurat: 
@@ -121,7 +124,7 @@ bioconductor-scrnaseqapp
 
     <script>
         var package = "bioconductor-scrnaseqapp";
-        var versions = ["1.2.2","1.0.1"];
+        var versions = ["1.6.0","1.2.2","1.0.1"];
     </script>
 
 

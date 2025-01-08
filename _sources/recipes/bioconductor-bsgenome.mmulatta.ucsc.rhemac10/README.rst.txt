@@ -12,7 +12,7 @@ bioconductor-bsgenome.mmulatta.ucsc.rhemac10
 
    Full genome sequences for Macaca mulatta \(UCSC version rheMac10\)
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/BSgenome.Mmulatta.UCSC.rheMac10.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/BSgenome.Mmulatta.UCSC.rheMac10.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.mmulatta.ucsc.rhemac10 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mmulatta.ucsc.rhemac10>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mmulatta.ucsc.rhemac10/meta.yaml>`_
 
@@ -26,16 +26,24 @@ bioconductor-bsgenome.mmulatta.ucsc.rhemac10
    :versions:
       
       
+      .. raw:: html
 
-      ``1.4.2-8``,  ``1.4.2-7``,  ``1.4.2-6``,  ``1.4.2-5``,  ``1.4.2-4``,  ``1.4.2-3``,  ``1.4.2-2``,  ``1.4.2-1``,  ``1.4.2-0``
+         <details><summary><span class="truncated-version-list"><code>1.4.2-9</code>,  <code>1.4.2-8</code>,  <code>1.4.2-7</code>,  <code>1.4.2-6</code>,  <code>1.4.2-5</code>,  <code>1.4.2-4</code>,  <code>1.4.2-3</code>,  <code>1.4.2-2</code>,  <code>1.4.2-1</code>,  </span></summary>
+      
 
+      ``1.4.2-9``,  ``1.4.2-8``,  ``1.4.2-7``,  ``1.4.2-6``,  ``1.4.2-5``,  ``1.4.2-4``,  ``1.4.2-3``,  ``1.4.2-2``,  ``1.4.2-1``,  ``1.4.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-data-packages: ``>=20241103``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:

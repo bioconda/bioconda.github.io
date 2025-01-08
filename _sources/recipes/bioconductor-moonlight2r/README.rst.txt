@@ -12,7 +12,7 @@ bioconductor-moonlight2r
 
    Identify oncogenes and tumor suppressor genes from omics data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Moonlight2R.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Moonlight2R.html
    :license: GPL-3
    :recipe: /`bioconductor-moonlight2r <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moonlight2r>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moonlight2r/meta.yaml>`_
 
@@ -27,27 +27,31 @@ bioconductor-moonlight2r
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-clusterprofiler: ``>=4.10.0,<4.11.0``
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-dose: ``>=3.28.0,<3.29.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-geoquery: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-clusterprofiler: ``>=4.14.0,<4.15.0``
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-dose: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-epimix: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-geoquery: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-circlize: 
    :depends r-doparallel: 
    :depends r-dplyr: 
    :depends r-easypubmed: 
    :depends r-foreach: 
    :depends r-fuzzyjoin: 
+   :depends r-ggplot2: 
    :depends r-gplots: 
    :depends r-hiver: 
    :depends r-magrittr: 
@@ -113,7 +117,7 @@ bioconductor-moonlight2r
 
     <script>
         var package = "bioconductor-moonlight2r";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

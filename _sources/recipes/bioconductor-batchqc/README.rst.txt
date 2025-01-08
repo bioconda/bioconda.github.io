@@ -12,12 +12,12 @@ bioconductor-batchqc
 
    Batch Effects Quality Control Software
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/BatchQC.html
-   :license: GPL (>= 2)
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/BatchQC.html
+   :license: MIT + file LICENSE
    :recipe: /`bioconductor-batchqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-batchqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-batchqc/meta.yaml>`_
    :links: biotools: :biotools:`batchqc`
 
-   Sequencing and microarray samples often are collected or processed in multiple batches or at different times. This often produces technical biases that can lead to incorrect results in the downstream analysis. BatchQC is a software tool that streamlines batch preprocessing and evaluation by providing interactive diagnostics\, visualizations\, and statistical analyses to explore the extent to which batch variation impacts the data. BatchQC diagnostics help determine whether batch adjustment needs to be done\, and how correction should be applied before proceeding with a downstream analysis. Moreover\, BatchQC interactively applies multiple common batch effect approaches to the data\, and the user can quickly see the benefits of each method. BatchQC is developed as a Shiny App. The output is organized into multiple tabs\, and each tab features an important part of the batch effect analysis and visualization of the data. The BatchQC interface has the following analysis groups\: Summary\, Differential Expression\, Median Correlations\, Heatmaps\, Circular Dendrogram\, PCA Analysis\, Shape\, ComBat and SVA.
+   Sequencing and microarray samples often are collected or processed in multiple batches or at different times. This often produces technical biases that can lead to incorrect results in the downstream analysis. BatchQC is a software tool that streamlines batch preprocessing and evaluation by providing interactive diagnostics\, visualizations\, and statistical analyses to explore the extent to which batch variation impacts the data. BatchQC diagnostics help determine whether batch adjustment needs to be done\, and how correction should be applied before proceeding with a downstream analysis. Moreover\, BatchQC interactively applies multiple common batch effect approaches to the data and the user can quickly see the benefits of each method. BatchQC is developed as a Shiny App. The output is organized into multiple tabs and each tab features an important part of the batch effect analysis and visualization of the data. The BatchQC interface has the following analysis groups\: Summary\, Differential Expression\, Median Correlations\, Heatmaps\, Circular Dendrogram\, PCA Analysis\, Shape\, ComBat and SVA.
 
 
 .. conda:package:: bioconductor-batchqc
@@ -29,10 +29,10 @@ bioconductor-batchqc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  </span></summary>
       
 
-      ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.1-0``,  ``1.8.1-0``,  ``1.6.1-0``
+      ``2.2.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.1-0``,  ``1.8.1-0``,  ``1.6.1-0``
 
       
       .. raw:: html
@@ -41,23 +41,30 @@ bioconductor-batchqc
       
 
    
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-sva: ``>=3.50.0,<3.51.0``
-   :depends pandoc: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-corpcor: 
-   :depends r-ggvis: 
-   :depends r-gplots: 
-   :depends r-heatmaply: 
-   :depends r-knitr: 
-   :depends r-matrix: 
+   :depends bioconductor-deseq2: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-ebseq: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-scran: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-sva: ``>=3.54.0,<3.55.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-data.table: 
+   :depends r-dplyr: 
+   :depends r-ggdendro: 
+   :depends r-ggnewscale: 
+   :depends r-ggplot2: 
    :depends r-matrixstats: 
-   :depends r-mcmcpack: 
-   :depends r-moments: 
-   :depends r-pander: 
+   :depends r-pheatmap: 
+   :depends r-rcolorbrewer: 
+   :depends r-reader: 
    :depends r-reshape2: 
-   :depends r-rmarkdown: 
    :depends r-shiny: 
+   :depends r-shinyjs: 
+   :depends r-shinythemes: 
+   :depends r-tibble: 
+   :depends r-tidyr: 
+   :depends r-tidyverse: 
    :requirements:
 
    :additional platforms:
@@ -108,7 +115,7 @@ bioconductor-batchqc
 
     <script>
         var package = "bioconductor-batchqc";
-        var versions = ["1.30.0","1.28.0","1.26.0","1.22.0","1.20.0"];
+        var versions = ["2.2.0","1.30.0","1.28.0","1.26.0","1.22.0"];
     </script>
 
 

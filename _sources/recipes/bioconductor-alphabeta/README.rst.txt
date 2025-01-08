@@ -12,7 +12,7 @@ bioconductor-alphabeta
 
    Computational inference of epimutation rates and spectra from high\-throughput DNA methylation data in plants
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/AlphaBeta.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/AlphaBeta.html
    :license: GPL-3
    :recipe: /`bioconductor-alphabeta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alphabeta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alphabeta/meta.yaml>`_
 

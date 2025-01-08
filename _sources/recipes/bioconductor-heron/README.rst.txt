@@ -12,7 +12,7 @@ bioconductor-heron
 
    Hierarchical Epitope pROtein biNding
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/HERON.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/HERON.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-heron <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-heron>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-heron/meta.yaml>`_
 

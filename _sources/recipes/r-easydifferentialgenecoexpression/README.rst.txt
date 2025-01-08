@@ -27,7 +27,7 @@ r-easydifferentialgenecoexpression
       
       
 
-      ``1.4-0``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.4-1``,  ``1.4-0``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
@@ -37,7 +37,7 @@ r-easydifferentialgenecoexpression
    :depends bioconductor-diffcoexp: 
    :depends bioconductor-geoquery: 
    :depends bioconductor-limma: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-geneexpressionfromgeo: 
    :depends r-jetset: 
    :depends r-magrittr: 
@@ -92,7 +92,7 @@ r-easydifferentialgenecoexpression
 
     <script>
         var package = "r-easydifferentialgenecoexpression";
-        var versions = ["1.4","1.0","1.0","1.0"];
+        var versions = ["1.4","1.4","1.0","1.0","1.0"];
     </script>
 
 

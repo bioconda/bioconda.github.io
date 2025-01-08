@@ -12,7 +12,7 @@ bioconductor-omicade4
 
    Multiple co\-inertia analysis of omics datasets
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/omicade4.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/omicade4.html
    :license: GPL-2
    :recipe: /`bioconductor-omicade4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicade4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicade4/meta.yaml>`_
    :links: biotools: :biotools:`omicade4`
@@ -29,10 +29,10 @@ bioconductor-omicade4
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.27.0-0</code>,  <code>1.26.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.46.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.27.0-0</code>,  </span></summary>
       
 
-      ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.27.0-0``,  ``1.26.0-0``,  ``1.24.1-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.1-0``
+      ``1.46.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.27.0-0``,  ``1.26.0-0``,  ``1.24.1-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.1-0``
 
       
       .. raw:: html
@@ -41,10 +41,10 @@ bioconductor-omicade4
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-made4: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-made4: ``>=1.80.0,<1.81.0``
    :depends r-ade4: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -95,7 +95,7 @@ bioconductor-omicade4
 
     <script>
         var package = "bioconductor-omicade4";
-        var versions = ["1.42.0","1.40.0","1.38.0","1.34.0","1.32.0"];
+        var versions = ["1.46.0","1.42.0","1.40.0","1.38.0","1.34.0"];
     </script>
 
 

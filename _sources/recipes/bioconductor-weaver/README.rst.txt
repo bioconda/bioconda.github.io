@@ -12,7 +12,7 @@ bioconductor-weaver
 
    Tools and extensions for processing Sweave documents
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/weaver.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/weaver.html
    :license: GPL-2
    :recipe: /`bioconductor-weaver <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-weaver>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-weaver/meta.yaml>`_
    :links: biotools: :biotools:`weaver`, doi: :doi:`10.1038/nmeth.3252`

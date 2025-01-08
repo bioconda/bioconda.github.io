@@ -12,7 +12,7 @@ bioconductor-ahmassbank
 
    MassBank Annotation Resources for AnnotationHub
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/AHMassBank.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/AHMassBank.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ahmassbank <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ahmassbank>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ahmassbank/meta.yaml>`_
 
@@ -27,13 +27,13 @@ bioconductor-ahmassbank
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationhubdata: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationhubdata: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -84,7 +84,7 @@ bioconductor-ahmassbank
 
     <script>
         var package = "bioconductor-ahmassbank";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

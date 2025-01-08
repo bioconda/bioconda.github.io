@@ -12,7 +12,7 @@ bioconductor-phenomis
 
    Postprocessing and univariate analysis of omics data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/phenomis.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/phenomis.html
    :license: CeCILL
    :recipe: /`bioconductor-phenomis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phenomis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phenomis/meta.yaml>`_
 

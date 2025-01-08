@@ -12,7 +12,7 @@ bioconductor-affymetrixdatatestfiles
 
    Affymetrix Data Files \(CEL\, CDF\, CHP\, EXP\, PGF\, PSI\) for Testing
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/AffymetrixDataTestFiles.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/AffymetrixDataTestFiles.html
    :license: LGPL-2.1
    :recipe: /`bioconductor-affymetrixdatatestfiles <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affymetrixdatatestfiles>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affymetrixdatatestfiles/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-isobayes
 
    IsoBayes\: Single Isoform protein inference Method via Bayesian Analyses
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/IsoBayes.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/IsoBayes.html
    :license: GPL-3
    :recipe: /`bioconductor-isobayes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isobayes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isobayes/meta.yaml>`_
 

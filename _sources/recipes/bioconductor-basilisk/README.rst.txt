@@ -12,7 +12,7 @@ bioconductor-basilisk
 
    Freezing Python Dependencies Inside Bioconductor Packages
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/basilisk.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/basilisk.html
    :license: GPL-3
    :recipe: /`bioconductor-basilisk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basilisk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basilisk/meta.yaml>`_
 

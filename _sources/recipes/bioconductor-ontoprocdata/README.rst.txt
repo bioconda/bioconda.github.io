@@ -12,7 +12,7 @@ bioconductor-ontoprocdata
 
    A data package for ontoProc
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/ontoProcData.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/ontoProcData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ontoprocdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ontoprocdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ontoprocdata/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-gsreg
 
    Gene Set Regulation \(GS\-Reg\)
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GSReg.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/GSReg.html
    :license: GPL-2
    :recipe: /`bioconductor-gsreg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsreg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsreg/meta.yaml>`_
    :links: biotools: :biotools:`gsreg`, doi: :doi:`10.4137/CIN.S14066`
@@ -29,10 +29,10 @@ bioconductor-gsreg
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.28.0-2</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.40.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.28.0-2</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  </span></summary>
       
 
-      ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.28.0-2``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``
+      ``1.40.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.28.0-2``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``
 
       
       .. raw:: html
@@ -41,19 +41,19 @@ bioconductor-gsreg
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-annotationdbi: ``>=1.64.1,<1.65.0a0``
-   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-genomicfeatures: ``>=1.54.1,<1.55.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0a0``
+   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0a0``
    :depends bioconductor-homo.sapiens: ``>=1.3.0,<1.4.0``
    :depends bioconductor-homo.sapiens: ``>=1.3.1,<1.4.0a0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0a0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -104,7 +104,7 @@ bioconductor-gsreg
 
     <script>
         var package = "bioconductor-gsreg";
-        var versions = ["1.36.0","1.34.0","1.32.0","1.32.0","1.28.0"];
+        var versions = ["1.40.0","1.36.0","1.34.0","1.32.0","1.32.0"];
     </script>
 
 

@@ -12,8 +12,8 @@ bioconductor-singler
 
    Reference\-Based Single\-Cell RNA\-Seq Annotation
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SingleR.html
-   :license: GPL-3 + file LICENSE
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SingleR.html
+   :license: GPL-3
    :recipe: /`bioconductor-singler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singler/meta.yaml>`_
 
    Performs unbiased cell type recognition from single\-cell RNA sequencing data\, by leveraging reference transcriptomic datasets of pure cell types to infer the cell of origin of each single cell independently.

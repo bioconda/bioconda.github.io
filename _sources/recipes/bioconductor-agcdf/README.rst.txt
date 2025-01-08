@@ -12,7 +12,7 @@ bioconductor-agcdf
 
    agcdf
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/agcdf.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/agcdf.html
    :license: LGPL
    :recipe: /`bioconductor-agcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-agcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-agcdf/meta.yaml>`_
 

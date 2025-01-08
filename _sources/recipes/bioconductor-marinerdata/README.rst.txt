@@ -12,7 +12,7 @@ bioconductor-marinerdata
 
    ExperimentHub data for the mariner package
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/marinerData.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/marinerData.html
    :license: GPL-3
    :recipe: /`bioconductor-marinerdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-marinerdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-marinerdata/meta.yaml>`_
 

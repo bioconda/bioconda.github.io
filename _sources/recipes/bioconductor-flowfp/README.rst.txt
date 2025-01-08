@@ -12,7 +12,7 @@ bioconductor-flowfp
 
    Fingerprinting for Flow Cytometry
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/flowFP.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/flowFP.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowfp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowfp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowfp/meta.yaml>`_
    :links: biotools: :biotools:`flowfp`, doi: :doi:`10.1155/2009/193947`

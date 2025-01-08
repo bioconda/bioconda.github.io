@@ -10,10 +10,12 @@ mashtree
    :replaces_section_title:
    :noindex:
 
-   Create a tree using Mash distances
+   Create a tree using Mash distances.
 
    :homepage: https://github.com/lskatz/mashtree
-   :license: GPL-3.0
+   :documentation: https://github.com/lskatz/mashtree/blob/v1.4.6/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`mashtree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mashtree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mashtree/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ mashtree
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.6-1</code>,  <code>1.4.6-0</code>,  <code>1.4.5-0</code>,  <code>1.4.3-0</code>,  <code>1.2.0-2</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  <code>1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.6-2</code>,  <code>1.4.6-1</code>,  <code>1.4.6-0</code>,  <code>1.4.5-0</code>,  <code>1.4.3-0</code>,  <code>1.2.0-2</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  </span></summary>
       
 
-      ``1.4.6-1``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.3-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1-0``,  ``1.0.4-0``,  ``1.0.1-0``,  ``1.0-0``,  ``0.57-1``,  ``0.57-0``,  ``0.55-0``,  ``0.37-0``,  ``0.36-0``,  ``0.35.4-0``,  ``0.30-2``,  ``0.30-0``,  ``0.28-0``,  ``0.26-0``,  ``0.25-0``,  ``0.21-0``,  ``0.20-0``,  ``0.12-0``
+      ``1.4.6-2``,  ``1.4.6-1``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.3-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1-0``,  ``1.0.4-0``,  ``1.0.1-0``,  ``1.0-0``,  ``0.57-1``,  ``0.57-0``,  ``0.55-0``,  ``0.37-0``,  ``0.36-0``,  ``0.35.4-0``,  ``0.30-2``,  ``0.30-0``,  ``0.28-0``,  ``0.26-0``,  ``0.25-0``,  ``0.21-0``,  ``0.20-0``,  ``0.12-0``
 
       
       .. raw:: html
@@ -41,11 +43,9 @@ mashtree
 
    
    :depends libgcc: ``>=13``
-   :depends mash: ``>=1.1``
+   :depends mash: ``>=2``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends perl-bioperl: ``>=1.7.2``
-   :depends perl-dbd-sqlite: ``>=1.58``
-   :depends perl-dbd-sqlite: ``>=1.76,<2.0a0``
+   :depends perl-bioperl: 
    :depends perl-file-which: 
    :depends perl-module-build: ``0.4234.*``
    :depends quicktree: 
@@ -99,7 +99,7 @@ mashtree
 
     <script>
         var package = "mashtree";
-        var versions = ["1.4.6","1.4.6","1.4.5","1.4.3","1.2.0"];
+        var versions = ["1.4.6","1.4.6","1.4.6","1.4.5","1.4.3"];
     </script>
 
 

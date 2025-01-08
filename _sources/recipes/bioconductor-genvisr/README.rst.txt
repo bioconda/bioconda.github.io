@@ -12,7 +12,7 @@ bioconductor-genvisr
 
    Genomic Visualizations in R
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GenVisR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/GenVisR.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-genvisr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genvisr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genvisr/meta.yaml>`_
    :links: biotools: :biotools:`genvisr`
@@ -29,10 +29,10 @@ bioconductor-genvisr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.31.1-0</code>,  <code>1.29.3-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.1-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.34.0-0</code>,  <code>1.31.1-0</code>,  <code>1.29.3-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.1-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  </span></summary>
       
 
-      ``1.34.0-0``,  ``1.31.1-0``,  ``1.29.3-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.1-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.0-1``,  ``1.14.2-0``,  ``1.14.1-1``,  ``1.14.1-0``,  ``1.12.1-0``,  ``1.8.0-0``,  ``1.6.3-0``
+      ``1.38.0-0``,  ``1.34.0-0``,  ``1.31.1-0``,  ``1.29.3-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.1-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.0-1``,  ``1.14.2-0``,  ``1.14.1-1``,  ``1.14.1-0``,  ``1.12.1-0``,  ``1.8.0-0``,  ``1.6.3-0``
 
       
       .. raw:: html
@@ -41,18 +41,18 @@ bioconductor-genvisr
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-variantannotation: ``>=1.48.0,<1.49.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-biomart: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-variantannotation: ``>=1.52.0,<1.53.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: 
    :depends r-dbi: 
    :depends r-ggplot2: ``>=2.1.0``
@@ -113,7 +113,7 @@ bioconductor-genvisr
 
     <script>
         var package = "bioconductor-genvisr";
-        var versions = ["1.34.0","1.31.1","1.29.3","1.26.0","1.24.0"];
+        var versions = ["1.38.0","1.34.0","1.31.1","1.29.3","1.26.0"];
     </script>
 
 

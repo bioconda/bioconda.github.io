@@ -12,7 +12,7 @@ bioconductor-pd.margene.1.1.st
 
    Platform Design Info for Affymetrix MarGene\-1\_1\-st
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/pd.margene.1.1.st.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/pd.margene.1.1.st.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.margene.1.1.st <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.margene.1.1.st>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.margene.1.1.st/meta.yaml>`_
 

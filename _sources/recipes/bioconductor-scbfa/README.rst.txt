@@ -12,7 +12,7 @@ bioconductor-scbfa
 
    A dimensionality reduction tool using gene detection pattern to mitigate noisy expression profile of scRNA\-seq
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/scBFA.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/scBFA.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-scbfa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scbfa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scbfa/meta.yaml>`_
 
@@ -26,17 +26,25 @@ bioconductor-scbfa
    :versions:
       
       
+      .. raw:: html
 
-      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+      
 
+      ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-deseq2: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-zinbwave: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-deseq2: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-zinbwave: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-copula: 
    :depends r-ggplot2: 
    :depends r-mass: 
@@ -92,7 +100,7 @@ bioconductor-scbfa
 
     <script>
         var package = "bioconductor-scbfa";
-        var versions = ["1.16.0","1.14.0","1.12.0","1.8.0","1.6.0"];
+        var versions = ["1.20.0","1.16.0","1.14.0","1.12.0","1.8.0"];
     </script>
 
 

@@ -27,14 +27,14 @@ r-shaman
       
       
 
-      ``2.0-6``,  ``2.0-5``,  ``2.0-4``,  ``2.0-1``,  ``2.0-0``
+      ``2.0-7``,  ``2.0-6``,  ``2.0-5``,  ``2.0-4``,  ``2.0-1``,  ``2.0-0``
 
       
 
    
    :depends bioconductor-genomeinfodb: 
    :depends bioconductor-gviz: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-domc: 
    :depends r-misha: 
    :depends r-plyr: 

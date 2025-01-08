@@ -12,7 +12,7 @@ bioconductor-biocgraph
 
    Graph examples and use cases in Bioinformatics
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/biocGraph.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/biocGraph.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biocgraph <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocgraph>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocgraph/meta.yaml>`_
    :links: biotools: :biotools:`biocgraph`, doi: :doi:`10.1038/nmeth.3252`
@@ -29,10 +29,10 @@ bioconductor-biocgraph
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.64.0-0</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.56.0-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-1</code>,  <code>1.52.0-0</code>,  <code>1.50.0-0</code>,  <code>1.48.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.68.0-0</code>,  <code>1.64.0-0</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.56.0-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-1</code>,  <code>1.52.0-0</code>,  <code>1.50.0-0</code>,  </span></summary>
       
 
-      ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``
+      ``1.68.0-0``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ bioconductor-biocgraph
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-geneplotter: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-rgraphviz: ``>=2.46.0,<2.47.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-geneplotter: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-graph: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-rgraphviz: ``>=2.50.0,<2.51.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -96,7 +96,7 @@ bioconductor-biocgraph
 
     <script>
         var package = "bioconductor-biocgraph";
-        var versions = ["1.64.0","1.62.0","1.60.0","1.56.0","1.54.0"];
+        var versions = ["1.68.0","1.64.0","1.62.0","1.60.0","1.56.0"];
     </script>
 
 

@@ -12,7 +12,7 @@ bioconductor-geotcgadata
 
    Processing Various Types of Data on GEO and TCGA
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GeoTcgaData.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/GeoTcgaData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-geotcgadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geotcgadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geotcgadata/meta.yaml>`_
 

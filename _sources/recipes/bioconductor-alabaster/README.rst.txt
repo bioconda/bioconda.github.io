@@ -12,7 +12,7 @@ bioconductor-alabaster
 
    Umbrella for the Alabaster Framework
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/alabaster.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/alabaster.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-alabaster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster/meta.yaml>`_
 
@@ -27,22 +27,22 @@ bioconductor-alabaster
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-alabaster.base: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-alabaster.bumpy: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-alabaster.mae: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-alabaster.matrix: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-alabaster.ranges: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-alabaster.sce: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-alabaster.se: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-alabaster.spatial: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-alabaster.string: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-alabaster.vcf: ``>=1.2.0,<1.3.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-alabaster.base: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-alabaster.bumpy: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-alabaster.mae: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-alabaster.matrix: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-alabaster.ranges: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-alabaster.sce: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-alabaster.se: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-alabaster.spatial: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-alabaster.string: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-alabaster.vcf: ``>=1.6.0,<1.7.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -93,7 +93,7 @@ bioconductor-alabaster
 
     <script>
         var package = "bioconductor-alabaster";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

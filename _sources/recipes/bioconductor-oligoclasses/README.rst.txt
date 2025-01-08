@@ -12,7 +12,7 @@ bioconductor-oligoclasses
 
    Classes for high\-throughput arrays supported by oligo and crlmm
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/oligoClasses.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/oligoClasses.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-oligoclasses <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oligoclasses>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oligoclasses/meta.yaml>`_
    :links: biotools: :biotools:`oligoclasses`, doi: :doi:`10.1038/nmeth.3252`

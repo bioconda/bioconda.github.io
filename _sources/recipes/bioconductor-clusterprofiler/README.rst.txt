@@ -12,7 +12,7 @@ bioconductor-clusterprofiler
 
    A universal enrichment tool for interpreting omics data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/clusterProfiler.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/clusterProfiler.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-clusterprofiler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clusterprofiler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clusterprofiler/meta.yaml>`_
    :links: biotools: :biotools:`clusterprofiler`
@@ -29,10 +29,10 @@ bioconductor-clusterprofiler
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.10.0-0</code>,  <code>4.8.1-0</code>,  <code>4.6.0-0</code>,  <code>4.2.0-0</code>,  <code>4.0.0-0</code>,  <code>3.18.1-0</code>,  <code>3.18.0-0</code>,  <code>3.16.0-0</code>,  <code>3.14.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.14.0-0</code>,  <code>4.10.0-0</code>,  <code>4.8.1-0</code>,  <code>4.6.0-0</code>,  <code>4.2.0-0</code>,  <code>4.0.0-0</code>,  <code>3.18.1-0</code>,  <code>3.18.0-0</code>,  <code>3.16.0-0</code>,  </span></summary>
       
 
-      ``4.10.0-0``,  ``4.8.1-0``,  ``4.6.0-0``,  ``4.2.0-0``,  ``4.0.0-0``,  ``3.18.1-0``,  ``3.18.0-0``,  ``3.16.0-0``,  ``3.14.0-0``,  ``3.12.0-1``,  ``3.10.1-0``,  ``3.8.1-0``,  ``3.6.0-0``,  ``3.4.4-0``,  ``3.0.5-0``,  ``3.0.4-1``,  ``2.4.3-0``
+      ``4.14.0-0``,  ``4.10.0-0``,  ``4.8.1-0``,  ``4.6.0-0``,  ``4.2.0-0``,  ``4.0.0-0``,  ``3.18.1-0``,  ``3.18.0-0``,  ``3.16.0-0``,  ``3.14.0-0``,  ``3.12.0-1``,  ``3.10.1-0``,  ``3.8.1-0``,  ``3.6.0-0``,  ``3.4.4-0``,  ``3.0.5-0``,  ``3.0.4-1``,  ``2.4.3-0``
 
       
       .. raw:: html
@@ -41,14 +41,13 @@ bioconductor-clusterprofiler
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-dose: ``>=3.28.0,<3.29.0``
-   :depends bioconductor-enrichplot: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-gosemsim: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-qvalue: ``>=2.34.0,<2.35.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-downloader: 
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-dose: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-enrichplot: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-go.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-gosemsim: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-qvalue: ``>=2.38.0,<2.39.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-gson: ``>=0.0.7``
    :depends r-httr: 
@@ -57,7 +56,7 @@ bioconductor-clusterprofiler
    :depends r-plyr: 
    :depends r-rlang: 
    :depends r-tidyr: 
-   :depends r-yulab.utils: ``>=0.0.7``
+   :depends r-yulab.utils: ``>=0.1.6``
    :requirements:
 
    :additional platforms:
@@ -108,7 +107,7 @@ bioconductor-clusterprofiler
 
     <script>
         var package = "bioconductor-clusterprofiler";
-        var versions = ["4.10.0","4.8.1","4.6.0","4.2.0","4.0.0"];
+        var versions = ["4.14.0","4.10.0","4.8.1","4.6.0","4.2.0"];
     </script>
 
 

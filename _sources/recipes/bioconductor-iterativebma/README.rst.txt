@@ -12,7 +12,7 @@ bioconductor-iterativebma
 
    The Iterative Bayesian Model Averaging \(BMA\) algorithm
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/iterativeBMA.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/iterativeBMA.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-iterativebma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iterativebma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iterativebma/meta.yaml>`_
    :links: biotools: :biotools:`iterativebma`, doi: :doi:`10.1186/gb-2008-9-7-r118`

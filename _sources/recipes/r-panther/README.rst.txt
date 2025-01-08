@@ -28,7 +28,7 @@ r-panther
       
       
 
-      ``0.5.0-0``,  ``0.4.0-0``
+      ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``
 
       
 
@@ -41,7 +41,7 @@ r-panther
    :depends r-acidgenerics: ``>=0.7.3``
    :depends r-acidgenomes: ``>=0.6.0``
    :depends r-acidplyr: ``>=0.5.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-goalie: ``>=0.7.3``
    :depends r-pipette: ``>=0.14.1``
    :depends r-syntactic: ``>=0.7.0``
@@ -95,7 +95,7 @@ r-panther
 
     <script>
         var package = "r-panther";
-        var versions = ["0.5.0","0.4.0"];
+        var versions = ["0.5.0","0.5.0","0.4.0"];
     </script>
 
 

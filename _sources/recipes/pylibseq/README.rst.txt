@@ -13,7 +13,7 @@ pylibseq
    A Python interface to libsequence
 
    :homepage: http://pypi.python.org/pypi/pylibseq
-   :license: GPL / GPLv3+
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`pylibseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pylibseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pylibseq/meta.yaml>`_
 
    
@@ -50,6 +50,10 @@ pylibseq
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

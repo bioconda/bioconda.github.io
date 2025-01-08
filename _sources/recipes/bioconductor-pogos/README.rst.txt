@@ -12,7 +12,7 @@ bioconductor-pogos
 
    PharmacOGenomics Ontology Support
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/pogos.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/pogos.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pogos <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pogos>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pogos/meta.yaml>`_
 

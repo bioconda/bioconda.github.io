@@ -12,7 +12,7 @@ bioconductor-ompbam
 
    C\+\+ Library for OpenMP\-based multi\-threaded sequential profiling of Binary Alignment Map \(BAM\) files
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ompBAM.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ompBAM.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-ompbam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ompbam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ompbam/meta.yaml>`_
 

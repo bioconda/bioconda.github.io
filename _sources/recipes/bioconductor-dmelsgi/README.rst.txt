@@ -12,7 +12,7 @@ bioconductor-dmelsgi
 
    Experimental data and documented source code for the paper \"A Map of Directional Genetic Interactions in a Metazoan Cell\"
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/DmelSGI.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/DmelSGI.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-dmelsgi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmelsgi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmelsgi/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-dmelsgi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.29.1-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.1-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.37.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.29.1-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.1-0</code>,  <code>1.22.0-0</code>,  </span></summary>
       
 
-      ``1.34.0-0``,  ``1.32.0-0``,  ``1.29.1-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.1-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``
+      ``1.37.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.29.1-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.1-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``
 
       
       .. raw:: html
@@ -40,12 +40,12 @@ bioconductor-dmelsgi
       
 
    
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-rhdf5: ``>=2.46.0,<2.47.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0``
    :depends curl: 
    :depends r-abind: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-gplots: 
    :depends r-igraph: 
    :depends r-knitr: 
@@ -100,7 +100,7 @@ bioconductor-dmelsgi
 
     <script>
         var package = "bioconductor-dmelsgi";
-        var versions = ["1.34.0","1.32.0","1.29.1","1.26.0","1.26.0"];
+        var versions = ["1.37.0","1.34.0","1.32.0","1.29.1","1.26.0"];
     </script>
 
 

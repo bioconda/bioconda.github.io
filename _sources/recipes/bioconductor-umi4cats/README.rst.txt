@@ -12,7 +12,7 @@ bioconductor-umi4cats
 
    UMI4Cats\: Processing\, analysis and visualization of UMI\-4C chromatin contact data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/UMI4Cats.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/UMI4Cats.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-umi4cats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-umi4cats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-umi4cats/meta.yaml>`_
 

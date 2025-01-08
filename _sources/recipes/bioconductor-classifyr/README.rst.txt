@@ -12,7 +12,7 @@ bioconductor-classifyr
 
    A framework for cross\-validated classification problems\, with applications to differential variability and differential distribution testing
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ClassifyR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ClassifyR.html
    :license: GPL-3
    :recipe: /`bioconductor-classifyr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-classifyr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-classifyr/meta.yaml>`_
    :links: biotools: :biotools:`classifyr`
@@ -29,10 +29,10 @@ bioconductor-classifyr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.6.2-0</code>,  <code>3.4.7-1</code>,  <code>3.4.7-0</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.10.0-0</code>,  <code>3.6.2-0</code>,  <code>3.4.7-1</code>,  <code>3.4.7-0</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-1</code>,  </span></summary>
       
 
-      ``3.6.2-0``,  ``3.4.7-1``,  ``3.4.7-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.4-0``,  ``2.2.6-0``,  ``2.2.4-0``,  ``2.0.10-0``,  ``1.12.2-0``
+      ``3.10.0-0``,  ``3.6.2-0``,  ``3.4.7-1``,  ``3.4.7-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.4-0``,  ``2.2.6-0``,  ``2.2.4-0``,  ``2.0.10-0``,  ``1.12.2-0``
 
       
       .. raw:: html
@@ -41,19 +41,19 @@ bioconductor-classifyr
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0a0``
-   :depends bioconductor-genefilter: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-genefilter: ``>=1.84.0,<1.85.0a0``
-   :depends bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0a0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0a0``
+   :depends bioconductor-genefilter: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-genefilter: ``>=1.88.0,<1.89.0a0``
+   :depends bioconductor-multiassayexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.32.0,<1.33.0a0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-generics: 
    :depends r-ggplot2: ``>=3.0.0``
@@ -114,7 +114,7 @@ bioconductor-classifyr
 
     <script>
         var package = "bioconductor-classifyr";
-        var versions = ["3.6.2","3.4.7","3.4.7","3.2.0","3.2.0"];
+        var versions = ["3.10.0","3.6.2","3.4.7","3.4.7","3.2.0"];
     </script>
 
 

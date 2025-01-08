@@ -12,7 +12,7 @@ bioconductor-esetvis
 
    Visualizations of expressionSet Bioconductor object
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/esetVis.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/esetVis.html
    :license: GPL-3
    :recipe: /`bioconductor-esetvis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-esetvis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-esetvis/meta.yaml>`_
    :links: biotools: :biotools:`esetvis`, doi: :doi:`10.1038/nmeth.3252`
@@ -29,10 +29,10 @@ bioconductor-esetvis
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.26.1-0</code>,  <code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.32.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.1-0</code>,  <code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  </span></summary>
       
 
-      ``1.28.0-0``,  ``1.26.1-0``,  ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.3-0``,  ``1.4.0-0``
+      ``1.32.0-0``,  ``1.28.0-0``,  ``1.26.1-0``,  ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.3-0``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -41,9 +41,9 @@ bioconductor-esetvis
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-mlp: ``>=1.50.0,<1.51.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-mlp: ``>=1.54.0,<1.55.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-hexbin: 
    :depends r-mass: 
    :depends r-mpm: 
@@ -98,7 +98,7 @@ bioconductor-esetvis
 
     <script>
         var package = "bioconductor-esetvis";
-        var versions = ["1.28.0","1.26.1","1.24.0","1.20.0","1.18.0"];
+        var versions = ["1.32.0","1.28.0","1.26.1","1.24.0","1.20.0"];
     </script>
 
 

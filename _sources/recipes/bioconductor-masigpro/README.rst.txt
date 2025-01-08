@@ -12,7 +12,7 @@ bioconductor-masigpro
 
    Significant Gene Expression Profile Differences in Time Course Gene Expression Data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/maSigPro.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/maSigPro.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-masigpro <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-masigpro>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-masigpro/meta.yaml>`_
    :links: biotools: :biotools:`masigpro`, doi: :doi:`10.1093/bioinformatics/btu333`

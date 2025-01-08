@@ -12,7 +12,7 @@ bioconductor-visse
 
    Visualising Set Enrichment Analysis Results
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/vissE.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/vissE.html
    :license: GPL-3
    :recipe: /`bioconductor-visse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-visse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-visse/meta.yaml>`_
 
@@ -27,14 +27,14 @@ bioconductor-visse
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.2-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.2-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-gseabase: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-msigdb: ``>=1.10.0,<1.11.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-gseabase: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-msigdb: ``>=1.14.0,<1.15.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggforce: 
    :depends r-ggplot2: 
    :depends r-ggraph: 
@@ -99,7 +99,7 @@ bioconductor-visse
 
     <script>
         var package = "bioconductor-visse";
-        var versions = ["1.10.0","1.8.0","1.6.0","1.2.2","1.0.0"];
+        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.2.2"];
     </script>
 
 

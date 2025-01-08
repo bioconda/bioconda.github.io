@@ -12,7 +12,7 @@ bioconductor-immunotation
 
    Tools for working with diverse immune genes
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/immunotation.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/immunotation.html
    :license: GPL-3
    :recipe: /`bioconductor-immunotation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-immunotation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-immunotation/meta.yaml>`_
 

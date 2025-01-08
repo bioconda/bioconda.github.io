@@ -12,7 +12,7 @@ bioconductor-gemma.r
 
    A wrapper for Gemma\'s Restful API to access curated gene expression data and differential expression analyses
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/gemma.R.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/gemma.R.html
    :license: Apache License (>= 2)
    :recipe: /`bioconductor-gemma.r <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gemma.r>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gemma.r/meta.yaml>`_
 

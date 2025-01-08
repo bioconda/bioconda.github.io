@@ -28,7 +28,7 @@ r-gchromvar
       
       
 
-      ``0.3.2-0``
+      ``0.3.2-1``,  ``0.3.2-0``
 
       
 
@@ -38,7 +38,7 @@ r-gchromvar
    :depends bioconductor-genomicranges: 
    :depends bioconductor-s4vectors: 
    :depends bioconductor-summarizedexperiment: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-matrix: 
    :requirements:
 
@@ -90,7 +90,7 @@ r-gchromvar
 
     <script>
         var package = "r-gchromvar";
-        var versions = ["0.3.2"];
+        var versions = ["0.3.2","0.3.2"];
     </script>
 
 

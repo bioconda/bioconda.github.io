@@ -12,7 +12,7 @@ bioconductor-genomicplot
 
    Plot profiles of next generation sequencing data in genomic features
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GenomicPlot.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/GenomicPlot.html
    :license: GPL-2
    :recipe: /`bioconductor-genomicplot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicplot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicplot/meta.yaml>`_
 
@@ -27,25 +27,26 @@ bioconductor-genomicplot
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-genomation: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomicalignments: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-plyranges: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-rcas: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
+   :depends bioconductor-genomation: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicalignments: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-plyranges: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-rcas: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-txdbmaker: ``>=1.2.0,<1.3.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-circlize: 
    :depends r-cowplot: ``>=1.1.1``
    :depends r-dplyr: 
@@ -108,7 +109,7 @@ bioconductor-genomicplot
 
     <script>
         var package = "bioconductor-genomicplot";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

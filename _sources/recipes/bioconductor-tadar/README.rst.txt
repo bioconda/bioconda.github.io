@@ -12,7 +12,7 @@ bioconductor-tadar
 
    Transcriptome Analysis of Differential Allelic Representation
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/tadar.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/tadar.html
    :license: GPL-3
    :recipe: /`bioconductor-tadar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tadar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tadar/meta.yaml>`_
 
@@ -27,21 +27,21 @@ bioconductor-tadar
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-gviz: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-matrixgenerics: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-variantannotation: ``>=1.48.0,<1.49.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-gviz: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-matrixgenerics: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-variantannotation: ``>=1.52.0,<1.53.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: 
    :depends r-rlang: 
    :requirements:
@@ -94,7 +94,7 @@ bioconductor-tadar
 
     <script>
         var package = "bioconductor-tadar";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

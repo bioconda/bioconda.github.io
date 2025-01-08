@@ -12,7 +12,7 @@ bioconductor-multidataset
 
    Implementation of MultiDataSet and ResultSet
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MultiDataSet.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MultiDataSet.html
    :license: file LICENSE
    :recipe: /`bioconductor-multidataset <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multidataset>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multidataset/meta.yaml>`_
    :links: biotools: :biotools:`multidataset`

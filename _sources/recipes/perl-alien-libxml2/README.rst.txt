@@ -27,17 +27,22 @@ perl-alien-libxml2
       
       
 
-      ``0.17-0``
+      ``0.17-1``,  ``0.17-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends perl-alien-build: ``2.48.*``
+   :depends perl-alien-build: ``>=2.84,<3.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -85,7 +90,7 @@ perl-alien-libxml2
 
     <script>
         var package = "perl-alien-libxml2";
-        var versions = ["0.17"];
+        var versions = ["0.17","0.17"];
     </script>
 
 

@@ -12,7 +12,7 @@ bioconductor-padog
 
    Pathway Analysis with Down\-weighting of Overlapping Genes \(PADOG\)
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/PADOG.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/PADOG.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-padog <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-padog>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-padog/meta.yaml>`_
    :links: biotools: :biotools:`padog`, doi: :doi:`10.1186/1471-2105-13-136`
@@ -29,10 +29,10 @@ bioconductor-padog
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.44.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.48.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  </span></summary>
       
 
-      ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``
+      ``1.48.0-0``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,14 @@ bioconductor-padog
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
    :depends bioconductor-hgu133a.db: ``>=3.13.0,<3.14.0``
    :depends bioconductor-hgu133plus2.db: ``>=3.13.0,<3.14.0``
-   :depends bioconductor-keggdzpathwaysgeo: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-keggrest: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-keggdzpathwaysgeo: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-keggrest: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dorng: 
    :depends r-foreach: 
    :depends r-gsa: 
@@ -103,7 +103,7 @@ bioconductor-padog
 
     <script>
         var package = "bioconductor-padog";
-        var versions = ["1.44.0","1.42.0","1.40.0","1.36.0","1.34.0"];
+        var versions = ["1.48.0","1.44.0","1.42.0","1.40.0","1.36.0"];
     </script>
 
 

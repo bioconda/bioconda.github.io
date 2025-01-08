@@ -12,7 +12,7 @@ bioconductor-msdatahub
 
    Mass Spectrometry Data on ExperimentHub
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MsDataHub.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MsDataHub.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-msdatahub <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msdatahub>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msdatahub/meta.yaml>`_
 

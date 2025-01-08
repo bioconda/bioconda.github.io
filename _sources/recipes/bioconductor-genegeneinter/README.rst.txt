@@ -12,8 +12,8 @@ bioconductor-genegeneinter
 
    Tools for Testing Gene\-Gene Interaction at the Gene Level
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GeneGeneInteR.html
-   :license: GPL-3.0.-or-later
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/GeneGeneInteR.html
+   :license: GPL (>= 2)
    :recipe: /`bioconductor-genegeneinter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genegeneinter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genegeneinter/meta.yaml>`_
    :links: biotools: :biotools:`genegeneinter`
 
@@ -50,8 +50,9 @@ bioconductor-genegeneinter
    :depends bioconductor-snpstats: ``>=1.56.0,<1.57.0``
    :depends bioconductor-snpstats: ``>=1.56.0,<1.57.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: 
    :depends r-factominer: 

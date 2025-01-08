@@ -12,7 +12,7 @@ bioconductor-categorycompare
 
    Meta\-analysis of high\-throughput experiments using feature annotations
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/categoryCompare.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/categoryCompare.html
    :license: GPL-2
    :recipe: /`bioconductor-categorycompare <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-categorycompare>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-categorycompare/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-categorycompare
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.50.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  </span></summary>
       
 
-      ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``
+      ``1.50.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``
 
       
       .. raw:: html
@@ -40,17 +40,17 @@ bioconductor-categorycompare
       
 
    
-   :depends bioconductor-annotate: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-category: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-gostats: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-gseabase: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-rcy3: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-annotate: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-category: ``>=2.72.0,<2.73.0``
+   :depends bioconductor-gostats: ``>=2.72.0,<2.73.0``
+   :depends bioconductor-graph: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-gseabase: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-rcy3: ``>=2.26.0,<2.27.0``
    :depends cytoscape: ``>=3.6.1``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-colorspace: 
    :depends r-hwriter: 
    :requirements:
@@ -103,7 +103,7 @@ bioconductor-categorycompare
 
     <script>
         var package = "bioconductor-categorycompare";
-        var versions = ["1.46.0","1.44.0","1.42.0","1.38.0","1.36.0"];
+        var versions = ["1.50.0","1.46.0","1.44.0","1.42.0","1.38.0"];
     </script>
 
 

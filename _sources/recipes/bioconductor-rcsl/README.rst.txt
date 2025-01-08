@@ -12,8 +12,8 @@ bioconductor-rcsl
 
    Rank Constrained Similarity Learning for single cell RNA sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/RCSL.html
-   :license: GPL-3
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/RCSL.html
+   :license: Artistic-2.0
    :recipe: /`bioconductor-rcsl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcsl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcsl/meta.yaml>`_
 
    A novel clustering algorithm and toolkit RCSL \(Rank Constrained Similarity Learning\) to accurately identify various cell types using scRNA\-seq data from a complex tissue. RCSL considers both lo\-cal similarity and global similarity among the cells to discern the subtle differences among cells of the same type as well as larger differences among cells of different types. RCSL uses Spearman’s rank correlations of a cell’s expression vector with those of other cells to measure its global similar\-ity\, and adaptively learns neighbour representation of a cell as its local similarity. The overall similar\-ity of a cell to other cells is a linear combination of its global similarity and local similarity.
@@ -37,8 +37,9 @@ bioconductor-rcsl
    :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
    :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: ``>=3.4.0``
    :depends r-igraph: 

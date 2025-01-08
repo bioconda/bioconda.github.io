@@ -12,7 +12,7 @@ bioconductor-spatzie
 
    Identification of enriched motif pairs from chromatin interaction data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/spatzie.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/spatzie.html
    :license: GPL-3
    :recipe: /`bioconductor-spatzie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatzie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatzie/meta.yaml>`_
 
@@ -27,24 +27,24 @@ bioconductor-spatzie
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-genomicinteractions: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-matrixgenerics: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-motifmatchr: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-tfbstools: ``>=1.40.0,<1.41.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-genomicinteractions: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-matrixgenerics: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-motifmatchr: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-tfbstools: ``>=1.44.0,<1.45.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: 
    :depends r-matrixstats: 
    :requirements:
@@ -97,7 +97,7 @@ bioconductor-spatzie
 
     <script>
         var package = "bioconductor-spatzie";
-        var versions = ["1.8.0","1.6.0","1.4.0","1.0.0"];
+        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.0.0"];
     </script>
 
 

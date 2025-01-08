@@ -12,7 +12,7 @@ bioconductor-busseq
 
    Batch Effect Correction with Unknow Subtypes for scRNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/BUSseq.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/BUSseq.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-busseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-busseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-busseq/meta.yaml>`_
 
@@ -39,8 +39,9 @@ bioconductor-busseq
    :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
    :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-gplots: 
    :requirements:

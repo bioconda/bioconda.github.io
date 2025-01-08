@@ -12,8 +12,8 @@ bioconductor-acgh
 
    Classes and functions for Array Comparative Genomic Hybridization data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/aCGH.html
-   :license: GPL-2.0-only
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/aCGH.html
+   :license: GPL-2
    :recipe: /`bioconductor-acgh <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-acgh>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-acgh/meta.yaml>`_
    :links: biotools: :biotools:`acgh`, doi: :doi:`10.1093/bioinformatics/bti677`
 

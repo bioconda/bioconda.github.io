@@ -12,7 +12,7 @@ bioconductor-phyloprofiledata
 
    Data package for phylogenetic profile analysis using PhyloProfile tool
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/PhyloProfileData.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/PhyloProfileData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-phyloprofiledata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phyloprofiledata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phyloprofiledata/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-tumourmethdata
 
    A Collection of DNA Methylation Datasets for Human Tumour Samples and Matching Normal Samples
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/TumourMethData.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/TumourMethData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-tumourmethdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tumourmethdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tumourmethdata/meta.yaml>`_
 
@@ -27,19 +27,19 @@ bioconductor-tumourmethdata
       
       
 
-      ``1.0.0-0``
+      ``1.3.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-hdf5array: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-rhdf5: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-hdf5array: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-r.utils: 
    :requirements:
 
@@ -91,7 +91,7 @@ bioconductor-tumourmethdata
 
     <script>
         var package = "bioconductor-tumourmethdata";
-        var versions = ["1.0.0"];
+        var versions = ["1.3.0","1.0.0"];
     </script>
 
 

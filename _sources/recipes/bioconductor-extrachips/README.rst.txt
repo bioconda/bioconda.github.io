@@ -12,11 +12,11 @@ bioconductor-extrachips
 
    Additional functions for working with ChIP\-Seq data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/extraChIPs.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/extraChIPs.html
    :license: GPL-3
    :recipe: /`bioconductor-extrachips <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-extrachips>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-extrachips/meta.yaml>`_
 
-   This package builds on existing tools and adds some simple but extremely useful capabilities for working wth ChIP\-Seq data. The focus is on detecting differential binding windows\/regions. One set of functions focusses on set\-operations retaining mcols for GRanges objects\, whilst another group of functions are to aid visualisation of results. Coercion to tibble objects is also included.
+   This package builds on existing tools and adds some simple but extremely useful capabilities for working wth ChIP\-Seq data. The focus is on detecting differential binding windows\/regions. One set of functions focusses on set\-operations retaining mcols for GRanges objects\, whilst another group of functions are to aid visualisation of results. Coercion to tibble objects is also implemented.
 
 
 .. conda:package:: bioconductor-extrachips
@@ -27,55 +27,51 @@ bioconductor-extrachips
       
       
 
-      ``1.6.0-0``,  ``1.4.5-0``,  ``1.2.0-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.5-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biocio: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-biocio: ``>=1.12.0,<1.13.0a0``
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0a0``
-   :depends bioconductor-csaw: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-csaw: ``>=1.36.0,<1.37.0a0``
-   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-edger: ``>=4.0.2,<4.1.0a0``
-   :depends bioconductor-enrichedheatmap: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-enrichedheatmap: ``>=1.32.0,<1.33.0a0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.1,<1.39.0a0``
-   :depends bioconductor-genomicinteractions: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-genomicinteractions: ``>=1.36.0,<1.37.0a0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-genomicranges: ``>=1.54.1,<1.55.0a0``
-   :depends bioconductor-gviz: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-gviz: ``>=1.46.1,<1.47.0a0``
-   :depends bioconductor-interactionset: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-interactionset: ``>=1.30.0,<1.31.0a0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0a0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-limma: ``>=3.58.1,<3.59.0a0``
-   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0a0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0a0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0a0``
+   :depends bioconductor-biocio: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-biocio: ``>=1.16.0,<1.17.0a0``
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0a0``
+   :depends bioconductor-csaw: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-csaw: ``>=1.40.0,<1.41.0a0``
+   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
+   :depends bioconductor-edger: ``>=4.4.0,<4.5.0a0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0a0``
+   :depends bioconductor-genomicalignments: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicalignments: ``>=1.42.0,<1.43.0a0``
+   :depends bioconductor-genomicinteractions: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-genomicinteractions: ``>=1.40.0,<1.41.0a0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0a0``
+   :depends bioconductor-interactionset: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-interactionset: ``>=1.34.0,<1.35.0a0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
+   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0a0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0a0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-broom: 
    :depends r-complexupset: 
    :depends r-dplyr: ``>=1.1.1``
    :depends r-forcats: 
    :depends r-ggforce: 
-   :depends r-ggplot2: ``>=3.4.0``
+   :depends r-ggplot2: ``>=3.5.0``
    :depends r-ggrepel: 
-   :depends r-ggside: ``>=0.2.2``
+   :depends r-ggside: ``>=0.3.1``
    :depends r-glue: 
    :depends r-matrixstats: 
    :depends r-patchwork: 
@@ -138,7 +134,7 @@ bioconductor-extrachips
 
     <script>
         var package = "bioconductor-extrachips";
-        var versions = ["1.6.0","1.4.5","1.2.0"];
+        var versions = ["1.10.0","1.6.0","1.4.5","1.2.0"];
     </script>
 
 

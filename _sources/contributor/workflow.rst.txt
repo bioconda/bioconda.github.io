@@ -32,13 +32,23 @@ them turns out to be more complicated than you thought.
 
 .. _make_edits:
 
-2. Make Some Edits
-~~~~~~~~~~~~~~~~~~
+2. Add a Recipe or Make Some Edits
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Now you need to make your edits. Naturally, this can become rather
+Now you need to add your files or make your edits. Naturally, this can become rather
 complex.
 
-If you have a PyPi recipe you want to package for Bioconda, you could
+Typically this involves creating within a in `recipes/<tool name>` two files:
+
+* A `meta.yaml` recipe file 
+* A (optional) `build.sh` script.
+
+For more detailed guides, see the the following tutorials 
+
+* :doc:`/tutorials/2024-adding-bioinformatic-software-to-bioconda` 
+* :doc:`/tutorials/2024-updating-bioinformatic-software-to-bioconda`
+
+However for some fast tips: if you have a PyPi recipe you want to package for Bioconda, you could
 start with the ``conda skeleton`` command creating a template
 automatically::
 
@@ -52,6 +62,8 @@ it is a general purpose package. Those need to be added to
 Now edit the file(s) in the newly created folder (named according to
 the package).
 
+If you can't use a skeleton, copy from other recipes written in the same language as your tool.
+
 You can verify your edits by looking at the ``diff``::
 
   git diff
@@ -60,6 +72,8 @@ Or, you can have a look at the changed files and status of your repository using
 
   git status
 
+You can also at this point do a local build to test that the recipe will work correctly.
+See :doc:`building-locally` or if you have problems, see the following tutorial: :doc:`/tutorials/2024-debugging-bioinformatic-software-to-bioconda`
 
 .. _push_changes:
 

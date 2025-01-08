@@ -12,7 +12,7 @@ bioconductor-hcatonsildata
 
    Provide programmatic access to the tonsil cell atlas datasets
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/HCATonsilData.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/HCATonsilData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-hcatonsildata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hcatonsildata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hcatonsildata/meta.yaml>`_
 
@@ -27,20 +27,20 @@ bioconductor-hcatonsildata
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-hdf5array: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-spatialexperiment: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-hdf5array: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-spatialexperiment: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-base64enc: 
    :depends r-htmltools: 
    :depends r-rmarkdown: 
@@ -94,7 +94,7 @@ bioconductor-hcatonsildata
 
     <script>
         var package = "bioconductor-hcatonsildata";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

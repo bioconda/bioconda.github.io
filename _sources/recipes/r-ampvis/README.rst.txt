@@ -27,15 +27,15 @@ r-ampvis
       
       
 
-      ``1.27.0-6``,  ``1.27.0-5``,  ``1.27.0-4``,  ``1.27.0-3``,  ``1.27.0-2``,  ``1.27.0-0``
+      ``1.27.0-7``,  ``1.27.0-6``,  ``1.27.0-5``,  ``1.27.0-4``,  ``1.27.0-3``,  ``1.27.0-2``,  ``1.27.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: 
-   :depends bioconductor-deseq2: 
-   :depends bioconductor-phyloseq: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0a0``
+   :depends bioconductor-deseq2: ``>=1.46.0,<1.47.0a0``
+   :depends bioconductor-phyloseq: ``>=1.50.0,<1.51.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-ggdendro: 

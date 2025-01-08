@@ -12,7 +12,7 @@ bioconductor-quaternaryprod
 
    Computes the Quaternary Dot Product Scoring Statistic for Signed and Unsigned Causal Graphs
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/QuaternaryProd.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/QuaternaryProd.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-quaternaryprod <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-quaternaryprod>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-quaternaryprod/meta.yaml>`_
    :links: biotools: :biotools:`quaternaryprod`

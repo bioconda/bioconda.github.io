@@ -12,7 +12,7 @@ bioconductor-iggeneusage
 
    Differential gene usage in immune repertoires
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/IgGeneUsage.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/IgGeneUsage.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-iggeneusage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iggeneusage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iggeneusage/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-cosia
 
    An Investigation Across Different Species and Tissues
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CoSIA.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CoSIA.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-cosia <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cosia>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cosia/meta.yaml>`_
 
@@ -27,22 +27,22 @@ bioconductor-cosia
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-annotationtools: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-org.ce.eg.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-org.dm.eg.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-org.dr.eg.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-org.mm.eg.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-org.rn.eg.db: ``>=3.18.0,<3.19.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-annotationtools: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-biomart: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-org.ce.eg.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-org.dm.eg.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-org.dr.eg.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-org.rn.eg.db: ``>=3.20.0,<3.21.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: ``>=1.0.7``
    :depends r-ggplot2: ``>=3.3.5``
    :depends r-homologene: ``>=1.4.68.19``
@@ -104,7 +104,7 @@ bioconductor-cosia
 
     <script>
         var package = "bioconductor-cosia";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

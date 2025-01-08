@@ -12,7 +12,7 @@ bioconductor-clomial
 
    Infers clonal composition of a tumor
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Clomial.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Clomial.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-clomial <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clomial>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clomial/meta.yaml>`_
    :links: biotools: :biotools:`clomial`

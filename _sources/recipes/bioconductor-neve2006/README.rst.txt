@@ -12,7 +12,7 @@ bioconductor-neve2006
 
    expression and CGH data on breast cancer cell lines
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/Neve2006.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/Neve2006.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-neve2006 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-neve2006>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-neve2006/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-neve2006
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.40.0-0</code>,  <code>0.38.0-0</code>,  <code>0.36.0-0</code>,  <code>0.32.0-1</code>,  <code>0.32.0-0</code>,  <code>0.30.0-0</code>,  <code>0.28.0-1</code>,  <code>0.28.0-0</code>,  <code>0.26.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.44.0-0</code>,  <code>0.40.0-0</code>,  <code>0.38.0-0</code>,  <code>0.36.0-0</code>,  <code>0.32.0-1</code>,  <code>0.32.0-0</code>,  <code>0.30.0-0</code>,  <code>0.28.0-1</code>,  <code>0.28.0-0</code>,  </span></summary>
       
 
-      ``0.40.0-0``,  ``0.38.0-0``,  ``0.36.0-0``,  ``0.32.0-1``,  ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.0-1``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
+      ``0.44.0-0``,  ``0.40.0-0``,  ``0.38.0-0``,  ``0.36.0-0``,  ``0.32.0-1``,  ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.0-1``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
 
       
       .. raw:: html
@@ -40,12 +40,12 @@ bioconductor-neve2006
       
 
    
-   :depends bioconductor-annotate: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-annotate: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-data-packages: ``>=20241103``
    :depends bioconductor-hgu133a.db: ``>=3.13.0,<3.14.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -96,7 +96,7 @@ bioconductor-neve2006
 
     <script>
         var package = "bioconductor-neve2006";
-        var versions = ["0.40.0","0.38.0","0.36.0","0.32.0","0.32.0"];
+        var versions = ["0.44.0","0.40.0","0.38.0","0.36.0","0.32.0"];
     </script>
 
 

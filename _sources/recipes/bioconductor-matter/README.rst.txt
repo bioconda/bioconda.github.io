@@ -10,14 +10,14 @@ bioconductor-matter
    :replaces_section_title:
    :noindex:
 
-   Out\-of\-memory dense and sparse signal arrays
+   Out\-of\-core statistical computing and signal processing
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/matter.html
-   :license: Artistic-2.0
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/matter.html
+   :license: Artistic-2.0 | file LICENSE
    :recipe: /`bioconductor-matter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-matter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-matter/meta.yaml>`_
    :links: biotools: :biotools:`matter`, doi: :doi:`10.1038/nmeth.3252`
 
-   Memory\-efficient file\-based data structures for dense and sparse vectors\, matrices\, arrays\, and lists with applications to nonuniformly sampled signals and spectra.
+   Toolbox for larger\-than\-memory scientific computing and visualization\, providing efficient out\-of\-core data structures using files or shared memory\, for dense and sparse vectors\, matrices\, and arrays\, with applications to nonuniformly sampled signals and images.
 
 
 .. conda:package:: bioconductor-matter

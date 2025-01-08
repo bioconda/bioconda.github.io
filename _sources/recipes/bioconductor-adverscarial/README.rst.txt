@@ -10,13 +10,13 @@ bioconductor-adverscarial
    :replaces_section_title:
    :noindex:
 
-   adverSCarial\, generate and analyze the vulnerability of scRNA\-seq classifiers to adversarial attacks
+   adverSCarial\, generate and analyze the vulnerability of scRNA\-seq classifier to adversarial attacks
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/adverSCarial.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/adverSCarial.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-adverscarial <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adverscarial>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adverscarial/meta.yaml>`_
 
-   adverSCarial is an R Package designed for generating and analyzing the vulnerability of scRNA\-seq classifiers to adversarial attacks. The package is versatile and provides a format for integrating any type of classifier. It offers functions for studying and generating two types of attacks\, single gene attack and max change attack. The single gene attack involves making a small modification to the input to alter the classification. The max change attack involves making a large modification to the input without changing its classification. The package provides a comprehensive solution for evaluating the robustness of scRNA\-seq classifiers against adversarial attacks.
+   adverSCarial is an R Package designed for generating and analyzing the vulnerability of scRNA\-seq classifiers to adversarial attacks. The package is versatile and provides a format for integrating any type of classifier. It offers functions for studying and generating two types of attacks\, single gene attack and max change attack. The single\-gene attack involves making a small modification to the input to alter the classification. The max\-change attack involves making a large modification to the input without changing its classification. The package provides a comprehensive solution for evaluating the robustness of scRNA\-seq classifiers against adversarial attacks.
 
 
 .. conda:package:: bioconductor-adverscarial

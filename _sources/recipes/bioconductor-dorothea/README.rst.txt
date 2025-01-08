@@ -12,7 +12,7 @@ bioconductor-dorothea
 
    Collection Of Human And Mouse TF Regulons
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/dorothea.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/dorothea.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-dorothea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dorothea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dorothea/meta.yaml>`_
 

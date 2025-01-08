@@ -12,7 +12,7 @@ bioconductor-bayseq
 
    Empirical Bayesian analysis of patterns of differential expression in count data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/baySeq.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/baySeq.html
    :license: GPL-3
    :recipe: /`bioconductor-bayseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bayseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bayseq/meta.yaml>`_
 

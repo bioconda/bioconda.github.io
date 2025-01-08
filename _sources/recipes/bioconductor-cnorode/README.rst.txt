@@ -12,7 +12,7 @@ bioconductor-cnorode
 
    ODE add\-on to CellNOptR
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CNORode.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CNORode.html
    :license: GPL-2
    :recipe: /`bioconductor-cnorode <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnorode>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnorode/meta.yaml>`_
    :links: biotools: :biotools:`cnorode`, doi: :doi:`10.1186/1752-0509-6-133`

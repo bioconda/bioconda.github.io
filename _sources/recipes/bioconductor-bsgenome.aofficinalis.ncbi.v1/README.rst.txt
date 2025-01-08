@@ -12,7 +12,7 @@ bioconductor-bsgenome.aofficinalis.ncbi.v1
 
    Asparagus officinalis \(Garden asparagus\) full genome \(NCBI version Aspof.V1\)
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/BSgenome.Aofficinalis.NCBI.V1.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/BSgenome.Aofficinalis.NCBI.V1.html
    :license: GPL-3
    :recipe: /`bioconductor-bsgenome.aofficinalis.ncbi.v1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.aofficinalis.ncbi.v1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.aofficinalis.ncbi.v1/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-bsgenome.aofficinalis.ncbi.v1
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.0-12</code>,  <code>1.0.0-11</code>,  <code>1.0.0-10</code>,  <code>1.0.0-9</code>,  <code>1.0.0-8</code>,  <code>1.0.0-7</code>,  <code>1.0.0-6</code>,  <code>1.0.0-5</code>,  <code>1.0.0-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.0-13</code>,  <code>1.0.0-12</code>,  <code>1.0.0-11</code>,  <code>1.0.0-10</code>,  <code>1.0.0-9</code>,  <code>1.0.0-8</code>,  <code>1.0.0-7</code>,  <code>1.0.0-6</code>,  <code>1.0.0-5</code>,  </span></summary>
       
 
-      ``1.0.0-12``,  ``1.0.0-11``,  ``1.0.0-10``,  ``1.0.0-9``,  ``1.0.0-8``,  ``1.0.0-7``,  ``1.0.0-6``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-0``
+      ``1.0.0-13``,  ``1.0.0-12``,  ``1.0.0-11``,  ``1.0.0-10``,  ``1.0.0-9``,  ``1.0.0-8``,  ``1.0.0-7``,  ``1.0.0-6``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-bsgenome.aofficinalis.ncbi.v1
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-data-packages: ``>=20241103``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:

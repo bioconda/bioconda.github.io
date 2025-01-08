@@ -12,12 +12,12 @@ bioconductor-goseq
 
    Gene Ontology analyser for RNA\-seq and other length biased data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/goseq.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/goseq.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-goseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-goseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-goseq/meta.yaml>`_
    :links: biotools: :biotools:`goseq`
 
-   Detects Gene Ontology and\/or other user defined categories which are over\/under represented in RNA\-seq data
+   Detects Gene Ontology and\/or other user defined categories which are over\/under represented in RNA\-seq data.
 
 
 .. conda:package:: bioconductor-goseq
@@ -29,10 +29,10 @@ bioconductor-goseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.54.0-0</code>,  <code>1.52.0-0</code>,  <code>1.50.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.58.0-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-0</code>,  <code>1.50.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  </span></summary>
       
 
-      ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-2``,  ``1.38.0-1``,  ``1.36.0-1``,  ``1.34.1-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``
+      ``1.58.0-0``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-2``,  ``1.38.0-1``,  ``1.36.0-1``,  ``1.34.1-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``
 
       
       .. raw:: html
@@ -41,11 +41,14 @@ bioconductor-goseq
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-genelendatabase: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-genelendatabase: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-go.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-biasedurn: 
    :depends r-mgcv: 
    :requirements:
@@ -98,7 +101,7 @@ bioconductor-goseq
 
     <script>
         var package = "bioconductor-goseq";
-        var versions = ["1.54.0","1.52.0","1.50.0","1.46.0","1.44.0"];
+        var versions = ["1.58.0","1.54.0","1.52.0","1.50.0","1.46.0"];
     </script>
 
 

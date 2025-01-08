@@ -12,7 +12,7 @@ bioconductor-pd.u133.x3p
 
    Platform Design Info for The Manufacturer\'s Name U133\_X3P
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/pd.u133.x3p.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/pd.u133.x3p.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.u133.x3p <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.u133.x3p>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.u133.x3p/meta.yaml>`_
 

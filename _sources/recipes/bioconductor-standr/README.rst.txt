@@ -12,7 +12,7 @@ bioconductor-standr
 
    Spatial transcriptome analyses of Nanostring\'s DSP data in R
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/standR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/standR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-standr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-standr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-standr/meta.yaml>`_
 
@@ -27,21 +27,21 @@ bioconductor-standr
       
       
 
-      ``1.6.0-0``,  ``1.4.2-0``,  ``1.2.0-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.2-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-ruvseq: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-spatialexperiment: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-ruvseq: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-spatialexperiment: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-ggalluvial: 
    :depends r-ggplot2: 
@@ -102,7 +102,7 @@ bioconductor-standr
 
     <script>
         var package = "bioconductor-standr";
-        var versions = ["1.6.0","1.4.2","1.2.0"];
+        var versions = ["1.10.0","1.6.0","1.4.2","1.2.0"];
     </script>
 
 

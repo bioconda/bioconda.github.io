@@ -12,7 +12,7 @@ bioconductor-tracktables
 
    Build IGV tracks and HTML reports
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/tracktables.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/tracktables.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-tracktables <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tracktables>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tracktables/meta.yaml>`_
    :links: biotools: :biotools:`tracktables`, doi: :doi:`10.1038/nmeth.3252`
@@ -29,10 +29,10 @@ bioconductor-tracktables
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.40.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  </span></summary>
       
 
-      ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``
+      ``1.40.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ bioconductor-tracktables
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-xvector: ``>=0.42.0,<0.43.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-xvector: ``>=0.46.0,<0.47.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-rcolorbrewer: 
    :depends r-stringr: 
    :depends r-tractor.base: 
@@ -100,7 +100,7 @@ bioconductor-tracktables
 
     <script>
         var package = "bioconductor-tracktables";
-        var versions = ["1.36.0","1.34.0","1.32.0","1.28.0","1.26.0"];
+        var versions = ["1.40.0","1.36.0","1.34.0","1.32.0","1.28.0"];
     </script>
 
 

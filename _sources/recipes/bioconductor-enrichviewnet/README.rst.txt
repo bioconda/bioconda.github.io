@@ -12,7 +12,7 @@ bioconductor-enrichviewnet
 
    From functional enrichment results to biological networks
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/enrichViewNet.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/enrichViewNet.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-enrichviewnet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enrichviewnet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enrichviewnet/meta.yaml>`_
 
@@ -27,14 +27,15 @@ bioconductor-enrichviewnet
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-enrichplot: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-rcy3: ``>=2.22.0,<2.23.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-dose: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-enrichplot: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-rcy3: ``>=2.26.0,<2.27.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-gprofiler2: 
    :depends r-jsonlite: 
    :depends r-strex: 
@@ -89,7 +90,7 @@ bioconductor-enrichviewnet
 
     <script>
         var package = "bioconductor-enrichviewnet";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

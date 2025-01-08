@@ -12,7 +12,7 @@ bioconductor-chromhmmdata
 
    Chromosome Size\, Coordinates and Anchor Files
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/chromhmmData.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/chromhmmData.html
    :license: GPL-3
    :recipe: /`bioconductor-chromhmmdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromhmmdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromhmmdata/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-recountmethylation
 
    Access and analyze public DNA methylation array data compilations
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/recountmethylation.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/recountmethylation.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-recountmethylation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-recountmethylation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-recountmethylation/meta.yaml>`_
 
@@ -27,19 +27,19 @@ bioconductor-recountmethylation
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-basilisk: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-delayedmatrixstats: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-hdf5array: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-minfi: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-rhdf5: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-basilisk: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-hdf5array: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-minfi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-r.utils: 
    :depends r-rcurl: 
    :depends r-reticulate: 
@@ -93,7 +93,7 @@ bioconductor-recountmethylation
 
     <script>
         var package = "bioconductor-recountmethylation";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.0"];
+        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.4.0"];
     </script>
 
 

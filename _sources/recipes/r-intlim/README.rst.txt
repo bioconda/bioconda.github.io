@@ -27,7 +27,7 @@ r-intlim
       
       
 
-      ``1.1.0-5``,  ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-0``,  ``v.1.1.0-1``,  ``v.1.1.0-0``
+      ``1.1.0-6``,  ``1.1.0-5``,  ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-0``,  ``v.1.1.0-1``,  ``v.1.1.0-0``
 
       
 
@@ -36,7 +36,7 @@ r-intlim
    :depends bioconductor-biocgenerics: 
    :depends bioconductor-genomicranges: 
    :depends bioconductor-multidataset: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-dt: 
    :depends r-heatmaply: 
@@ -102,7 +102,7 @@ r-intlim
 
     <script>
         var package = "r-intlim";
-        var versions = ["1.1.0","1.1.0","1.1.0","1.1.0","v.1.1.0"];
+        var versions = ["1.1.0","1.1.0","1.1.0","1.1.0","1.1.0"];
     </script>
 
 

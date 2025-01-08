@@ -12,7 +12,7 @@ bioconductor-dada2
 
    Accurate\, high\-resolution sample inference from amplicon sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/dada2.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/dada2.html
    :license: LGPL-2
    :recipe: /`bioconductor-dada2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dada2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dada2/meta.yaml>`_
    :links: biotools: :biotools:`dada2`
@@ -32,7 +32,7 @@ bioconductor-dada2
          <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.22.0-2</code>,  <code>1.22.0-1</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  </span></summary>
       
 
-      ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.22.0-2``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4-0``,  ``1.4.0-0``,  ``1.2-0``,  ``1.0.3-0``,  ``0.99.10-0``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.1-0``,  ``0.10.0-0``
+      ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.22.0-2``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.4-0``,  ``1.2-0``,  ``1.0.3-0``,  ``0.99.10-0``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.1-0``,  ``0.10.0-0``
 
       
       .. raw:: html
@@ -52,8 +52,9 @@ bioconductor-dada2
    :depends bioconductor-xvector: ``>=0.46.0,<0.47.0``
    :depends bioconductor-xvector: ``>=0.46.0,<0.47.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: ``>=2.1.0``
    :depends r-rcpp: ``>=0.12.0``

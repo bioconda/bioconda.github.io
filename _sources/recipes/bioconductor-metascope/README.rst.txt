@@ -12,7 +12,7 @@ bioconductor-metascope
 
    Tools and functions for preprocessing 16S and metagenomic sequencing microbiome data
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/MetaScope.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/MetaScope.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-metascope <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metascope>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metascope/meta.yaml>`_
 

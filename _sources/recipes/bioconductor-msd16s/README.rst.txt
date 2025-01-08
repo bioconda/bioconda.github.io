@@ -12,7 +12,7 @@ bioconductor-msd16s
 
    Healthy and moderate to severe diarrhea 16S expression data
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/msd16s.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/msd16s.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-msd16s <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msd16s>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msd16s/meta.yaml>`_
 

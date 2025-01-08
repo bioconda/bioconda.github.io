@@ -12,7 +12,7 @@ bioconductor-pd.genomewidesnp.5
 
    Platform Design Info for Affymetrix GenomeWideSNP\_5
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/pd.genomewidesnp.5.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/pd.genomewidesnp.5.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.genomewidesnp.5 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.genomewidesnp.5>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.genomewidesnp.5/meta.yaml>`_
 

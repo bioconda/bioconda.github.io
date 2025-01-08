@@ -12,7 +12,7 @@ bioconductor-sgcp
 
    SGCP\: A semi\-supervised pipeline for gene clustering using self\-training approach in gene co\-expression networks
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SGCP.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SGCP.html
    :license: GPL-3
    :recipe: /`bioconductor-sgcp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sgcp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sgcp/meta.yaml>`_
 
@@ -27,20 +27,20 @@ bioconductor-sgcp
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotate: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-genefilter: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-gostats: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-rgraphviz: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotate: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-genefilter: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-go.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-gostats: ``>=2.72.0,<2.73.0``
+   :depends bioconductor-graph: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-rgraphviz: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-caret: 
    :depends r-desctools: 
    :depends r-dplyr: 
@@ -103,7 +103,7 @@ bioconductor-sgcp
 
     <script>
         var package = "bioconductor-sgcp";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

@@ -12,7 +12,7 @@ bioconductor-cimice
 
    CIMICE\-R\: \(Markov\) Chain Method to Inferr Cancer Evolution
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CIMICE.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CIMICE.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cimice <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cimice>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cimice/meta.yaml>`_
 
@@ -27,14 +27,14 @@ bioconductor-cimice
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-maftools: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-maftools: ``>=2.22.0,<2.23.0``
    :depends r-assertthat: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-expm: 
    :depends r-ggcorrplot: 
@@ -98,7 +98,7 @@ bioconductor-cimice
 
     <script>
         var package = "bioconductor-cimice";
-        var versions = ["1.10.0","1.8.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.2.0"];
     </script>
 
 

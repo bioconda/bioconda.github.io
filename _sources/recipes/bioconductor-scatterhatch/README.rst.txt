@@ -12,7 +12,7 @@ bioconductor-scatterhatch
 
    Creates hatched patterns for scatterplots
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/scatterHatch.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/scatterHatch.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-scatterhatch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scatterhatch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scatterhatch/meta.yaml>`_
 

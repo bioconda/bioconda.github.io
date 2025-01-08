@@ -12,8 +12,8 @@ bioconductor-qsutils
 
    Quasispecies Diversity
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/QSutils.html
-   :license: file LICENSE
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/QSutils.html
+   :license: GPL-2
    :recipe: /`bioconductor-qsutils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qsutils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qsutils/meta.yaml>`_
 
    Set of utility functions for viral quasispecies analysis with NGS data. Most functions are equally useful for metagenomic studies. There are three main types\: \(1\) data manipulation and exploration—functions useful for converting reads to haplotypes and frequencies\, repairing reads\, intersecting strand haplotypes\, and visualizing haplotype alignments. \(2\) diversity indices—functions to compute diversity and entropy\, in which incidence\, abundance\, and functional indices are considered. \(3\) data simulation—functions useful for generating random viral quasispecies data.

@@ -12,7 +12,7 @@ bioconductor-metabinr
 
    Abundance and Compositional Based Binning of Metagenomes
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/metabinR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/metabinR.html
    :license: GPL-3
    :recipe: /`bioconductor-metabinr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metabinr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metabinr/meta.yaml>`_
 

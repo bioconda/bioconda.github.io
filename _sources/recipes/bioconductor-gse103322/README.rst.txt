@@ -12,7 +12,7 @@ bioconductor-gse103322
 
    GEO accession data GSE103322 as a SingleCellExperiment
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/GSE103322.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/GSE103322.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gse103322 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gse103322>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gse103322/meta.yaml>`_
 
@@ -27,16 +27,16 @@ bioconductor-gse103322
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-geoquery: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-geoquery: ``>=2.74.0,<2.75.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -87,7 +87,7 @@ bioconductor-gse103322
 
     <script>
         var package = "bioconductor-gse103322";
-        var versions = ["1.8.0","1.6.0","1.4.0","1.0.0","1.0.0"];
+        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.0.0"];
     </script>
 
 

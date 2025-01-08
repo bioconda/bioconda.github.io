@@ -12,7 +12,7 @@ bioconductor-cytoviewer
 
    An interactive multi\-channel image viewer for R
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/cytoviewer.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/cytoviewer.html
    :license: GPL-3
    :recipe: /`bioconductor-cytoviewer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytoviewer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytoviewer/meta.yaml>`_
 

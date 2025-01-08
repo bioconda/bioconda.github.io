@@ -12,7 +12,7 @@ bioconductor-msexperiment
 
    Infrastructure for Mass Spectrometry Experiments
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MsExperiment.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MsExperiment.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-msexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msexperiment/meta.yaml>`_
 

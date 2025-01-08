@@ -12,7 +12,7 @@ bioconductor-tloh
 
    Assessment of evidence for LOH in spatial transcriptomics pre\-processed data using Bayes factor calculations
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/tLOH.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/tLOH.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-tloh <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tloh>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tloh/meta.yaml>`_
 
@@ -27,15 +27,15 @@ bioconductor-tloh
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-matrixgenerics: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-variantannotation: ``>=1.48.0,<1.49.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-matrixgenerics: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-variantannotation: ``>=1.52.0,<1.53.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-bestnormalize: 
    :depends r-data.table: 
    :depends r-depmixs4: 
@@ -95,7 +95,7 @@ bioconductor-tloh
 
     <script>
         var package = "bioconductor-tloh";
-        var versions = ["1.10.0","1.8.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.2.0"];
     </script>
 
 

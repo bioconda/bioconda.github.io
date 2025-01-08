@@ -11,6 +11,11 @@ do so, each with their own caveats.
 
 .. _bioconda_utils:
 
+For more gentle step-by-step guides to local building and debugging see:
+
+* :doc:`/tutorials/2024-updating-bioinformatic-software-to-bioconda`
+* :doc:`/tutorials/2024-debugging-bioinformatic-software-to-bioconda`
+
 Using bioconda-utils
 ~~~~~~~~~~~~~~~~~~~~
 

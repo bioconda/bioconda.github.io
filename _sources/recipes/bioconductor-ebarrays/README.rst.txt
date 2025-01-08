@@ -12,8 +12,8 @@ bioconductor-ebarrays
 
    Unified Approach for Simultaneous Gene Clustering and Differential Expression Identification
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/EBarrays.html
-   :license: GPL-3.0-or-later
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/EBarrays.html
+   :license: GPL (>= 2)
    :recipe: /`bioconductor-ebarrays <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebarrays>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebarrays/meta.yaml>`_
    :links: biotools: :biotools:`ebarrays`, doi: :doi:`10.1111/j.1541-0420.2006.00611.x`
 

@@ -29,10 +29,10 @@ r-monocle3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.1-0</code>,  <code>1.0.0-5</code>,  <code>1.0.0-4</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.2.3-1</code>,  <code>0.2.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.0.0-5</code>,  <code>1.0.0-4</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.2.3-1</code>,  </span></summary>
       
 
-      ``1.3.1-0``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.3-0``
+      ``1.3.1-1``,  ``1.3.1-0``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.3-0``
 
       
       .. raw:: html
@@ -41,20 +41,25 @@ r-monocle3
       
 
    
-   :depends bioconductor-batchelor: 
-   :depends bioconductor-biobase: 
+   :depends bioconductor-batchelor: ``>=1.22.0,<1.23.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0a0``
    :depends bioconductor-biocgenerics: ``>=0.28``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0a0``
+   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0a0``
    :depends bioconductor-delayedarray: ``>=0.8``
+   :depends bioconductor-delayedmatrixstats: ``>=1.28.0,<1.29.0a0``
    :depends bioconductor-delayedmatrixstats: ``>=1.4``
-   :depends bioconductor-hdf5array: 
+   :depends bioconductor-hdf5array: ``>=1.34.0,<1.35.0a0``
    :depends bioconductor-limma: ``>=3.38.3``
-   :depends bioconductor-s4vectors: 
-   :depends bioconductor-singlecellexperiment: 
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0a0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0a0``
    :depends bioconductor-summarizedexperiment: ``>=1.11.5``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends r-assertthat: ``>=0.2.1``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: ``>=0.8.0.1``
    :depends r-ggplot2: ``>=3.1.1``
    :depends r-ggrastr: 
@@ -64,7 +69,7 @@ r-monocle3
    :depends r-igraph: ``>=1.2.4``
    :depends r-irlba: ``>=2.3.3``
    :depends r-knitr: 
-   :depends r-leidenbase: 
+   :depends r-leidenbase: ``>=0.1.31,<0.2.0a0``
    :depends r-lme4: 
    :depends r-lmtest: ``>=0.9_36``
    :depends r-mass: ``>=7.3_51.4``
@@ -81,6 +86,7 @@ r-monocle3
    :depends r-purrr: ``>=0.3.2``
    :depends r-rann: ``>=2.6.1``
    :depends r-rcpp: ``>=1.0.1``
+   :depends r-rcpphnsw: 
    :depends r-rcppparallel: 
    :depends r-reshape2: ``>=1.4.3``
    :depends r-reticulate: ``>=1.11.1``
@@ -94,6 +100,7 @@ r-monocle3
    :depends r-speedglm: ``>=0.3_2``
    :depends r-spelling: 
    :depends r-stringr: ``>=1.4``
+   :depends r-terra: 
    :depends r-testthat: ``>=2.1``
    :depends r-tibble: ``>=2.1.1``
    :depends r-tidyr: ``>=0.8.3``
@@ -149,7 +156,7 @@ r-monocle3
 
     <script>
         var package = "r-monocle3";
-        var versions = ["1.3.1","1.0.0","1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.3.1","1.3.1","1.0.0","1.0.0","1.0.0"];
     </script>
 
 

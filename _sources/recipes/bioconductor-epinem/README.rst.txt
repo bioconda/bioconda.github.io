@@ -12,7 +12,7 @@ bioconductor-epinem
 
    epiNEM
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/epiNEM.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/epiNEM.html
    :license: GPL-3
    :recipe: /`bioconductor-epinem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epinem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epinem/meta.yaml>`_
 

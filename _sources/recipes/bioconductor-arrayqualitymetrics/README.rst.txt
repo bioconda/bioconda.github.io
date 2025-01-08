@@ -12,7 +12,7 @@ bioconductor-arrayqualitymetrics
 
    Quality metrics report for microarray data sets
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/arrayQualityMetrics.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/arrayQualityMetrics.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-arrayqualitymetrics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrayqualitymetrics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrayqualitymetrics/meta.yaml>`_
    :links: biotools: :biotools:`arrayqualitymetrics`
@@ -29,10 +29,10 @@ bioconductor-arrayqualitymetrics
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.58.0-0</code>,  <code>3.56.0-0</code>,  <code>3.54.0-0</code>,  <code>3.50.0-0</code>,  <code>3.48.0-0</code>,  <code>3.46.0-1</code>,  <code>3.46.0-0</code>,  <code>3.44.0-0</code>,  <code>3.42.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.62.0-0</code>,  <code>3.58.0-0</code>,  <code>3.56.0-0</code>,  <code>3.54.0-0</code>,  <code>3.50.0-0</code>,  <code>3.48.0-0</code>,  <code>3.46.0-1</code>,  <code>3.46.0-0</code>,  <code>3.44.0-0</code>,  </span></summary>
       
 
-      ``3.58.0-0``,  ``3.56.0-0``,  ``3.54.0-0``,  ``3.50.0-0``,  ``3.48.0-0``,  ``3.46.0-1``,  ``3.46.0-0``,  ``3.44.0-0``,  ``3.42.0-0``,  ``3.40.0-1``,  ``3.38.0-0``,  ``3.36.0-0``,  ``3.34.0-0``
+      ``3.62.0-0``,  ``3.58.0-0``,  ``3.56.0-0``,  ``3.54.0-0``,  ``3.50.0-0``,  ``3.48.0-0``,  ``3.46.0-1``,  ``3.46.0-0``,  ``3.44.0-0``,  ``3.42.0-0``,  ``3.40.0-1``,  ``3.38.0-0``,  ``3.36.0-0``,  ``3.34.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,14 @@ bioconductor-arrayqualitymetrics
       
 
    
-   :depends bioconductor-affy: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-affyplm: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-beadarray: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-genefilter: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-vsn: ``>=3.70.0,<3.71.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-affy: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-affyplm: ``>=1.82.0,<1.83.0``
+   :depends bioconductor-beadarray: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-genefilter: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-vsn: ``>=3.74.0,<3.75.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-gridsvg: ``>=1.4-3``
    :depends r-hmisc: 
    :depends r-hwriter: 
@@ -108,7 +108,7 @@ bioconductor-arrayqualitymetrics
 
     <script>
         var package = "bioconductor-arrayqualitymetrics";
-        var versions = ["3.58.0","3.56.0","3.54.0","3.50.0","3.48.0"];
+        var versions = ["3.62.0","3.58.0","3.56.0","3.54.0","3.50.0"];
     </script>
 
 

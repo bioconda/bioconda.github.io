@@ -12,7 +12,7 @@ bioconductor-rtnsurvival
 
    Survival analysis using transcriptional networks inferred by the RTN package
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/RTNsurvival.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/RTNsurvival.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rtnsurvival <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtnsurvival>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtnsurvival/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-rtnsurvival
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.1-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.1-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  </span></summary>
       
 
-      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.6.0-0``
+      ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.6.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-rtnsurvival
       
 
    
-   :depends bioconductor-rtn: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-rtnduals: ``>=1.26.0,<1.27.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-rtn: ``>=2.30.0,<2.31.0``
+   :depends bioconductor-rtnduals: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: 
    :depends r-dunn.test: 
    :depends r-egg: 
@@ -101,7 +101,7 @@ bioconductor-rtnsurvival
 
     <script>
         var package = "bioconductor-rtnsurvival";
-        var versions = ["1.26.0","1.24.0","1.22.0","1.18.0","1.16.0"];
+        var versions = ["1.30.0","1.26.0","1.24.0","1.22.0","1.18.0"];
     </script>
 
 

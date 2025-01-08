@@ -12,7 +12,7 @@ bioconductor-ribocrypt
 
    Interactive visualization in genomics
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/RiboCrypt.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/RiboCrypt.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-ribocrypt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ribocrypt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ribocrypt/meta.yaml>`_
 
@@ -27,20 +27,20 @@ bioconductor-ribocrypt
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-orfik: ``>=1.22.0,<1.23.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-orfik: ``>=1.26.0,<1.27.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-bslib: 
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -109,7 +109,7 @@ bioconductor-ribocrypt
 
     <script>
         var package = "bioconductor-ribocrypt";
-        var versions = ["1.8.0","1.6.0","1.4.0","1.0.0"];
+        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.0.0"];
     </script>
 
 

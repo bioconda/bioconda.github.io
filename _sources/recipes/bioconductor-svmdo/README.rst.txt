@@ -12,11 +12,11 @@ bioconductor-svmdo
 
    Identification of Tumor\-Discriminating mRNA Signatures via Support Vector Machines Supported by Disease Ontology
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SVMDO.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SVMDO.html
    :license: GPL-3
    :recipe: /`bioconductor-svmdo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-svmdo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-svmdo/meta.yaml>`_
 
-   It is an easy\-to\-use GUI using disease information for detecting tumor\/normal sample discriminating gene sets from differentially expressed genes. Our approach is based on an iterative algorithm filtering genes with disease ontology enrichment analysis and wilk’s lambda criterion connected to SVM classification model construction. Along with gene set extraction\, SVMDO also provides individual prognostic marker detection. The algorithm is designed for FPKM and RPKM normalized RNA\-Seq transcriptome datasets.
+   It is an easy\-to\-use GUI using disease information for detecting tumor\/normal sample discriminating gene sets from differentially expressed genes. Our approach is based on an iterative algorithm filtering genes with disease ontology enrichment analysis and wilk and wilks lambda criterion connected to SVM classification model construction. Along with gene set extraction\, SVMDO also provides individual prognostic marker detection. The algorithm is designed for FPKM and RPKM normalized RNA\-Seq transcriptome datasets.
 
 
 .. conda:package:: bioconductor-svmdo
@@ -27,21 +27,22 @@ bioconductor-svmdo
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-dose: ``>=3.28.0,<3.29.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-dose: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-bsda: ``>=1.2.1``
    :depends r-caret: ``>=6.0-93``
    :depends r-catools: ``>=1.18.2``
    :depends r-data.table: ``>=1.14.6``
    :depends r-dplyr: ``>=1.0.10``
+   :depends r-dt: ``>=0.33.0``
    :depends r-e1071: ``>=1.7-12``
    :depends r-golem: ``>=0.3.5``
    :depends r-klar: ``>=1.7-1``
@@ -101,7 +102,7 @@ bioconductor-svmdo
 
     <script>
         var package = "bioconductor-svmdo";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

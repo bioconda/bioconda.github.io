@@ -12,7 +12,7 @@ bioconductor-somaticcanceralterations
 
    Somatic Cancer Alterations
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/SomaticCancerAlterations.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/SomaticCancerAlterations.html
    :license: GPL-3
    :recipe: /`bioconductor-somaticcanceralterations <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-somaticcanceralterations>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-somaticcanceralterations/meta.yaml>`_
 

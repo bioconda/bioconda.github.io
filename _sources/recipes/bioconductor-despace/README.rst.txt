@@ -12,7 +12,7 @@ bioconductor-despace
 
    DESpace\: a framework to discover spatially variable genes
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/DESpace.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/DESpace.html
    :license: GPL-3
    :recipe: /`bioconductor-despace <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-despace>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-despace/meta.yaml>`_
 

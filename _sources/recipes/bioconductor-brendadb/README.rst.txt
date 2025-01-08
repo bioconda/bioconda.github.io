@@ -12,7 +12,7 @@ bioconductor-brendadb
 
    The BRENDA Enzyme Database
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/brendaDb.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/brendaDb.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-brendadb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brendadb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brendadb/meta.yaml>`_
 

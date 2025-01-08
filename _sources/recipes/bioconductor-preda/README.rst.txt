@@ -12,7 +12,7 @@ bioconductor-preda
 
    Position Related Data Analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/PREDA.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/PREDA.html
    :license: GPL-2
    :recipe: /`bioconductor-preda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-preda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-preda/meta.yaml>`_
    :links: biotools: :biotools:`preda`, doi: :doi:`10.1093/bioinformatics/btr404`
@@ -29,10 +29,10 @@ bioconductor-preda
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.52.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  </span></summary>
       
 
-      ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``,  ``1.26.1-0``,  ``1.24.0-0``
+      ``1.52.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``,  ``1.26.1-0``,  ``1.24.0-0``
 
       
       .. raw:: html
@@ -41,10 +41,10 @@ bioconductor-preda
       
 
    
-   :depends bioconductor-annotate: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-multtest: ``>=2.58.0,<2.59.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotate: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-multtest: ``>=2.62.0,<2.63.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-lokern: ``>=1.0.9``
    :requirements:
 
@@ -96,7 +96,7 @@ bioconductor-preda
 
     <script>
         var package = "bioconductor-preda";
-        var versions = ["1.48.0","1.46.0","1.44.0","1.40.0","1.38.0"];
+        var versions = ["1.52.0","1.48.0","1.46.0","1.44.0","1.40.0"];
     </script>
 
 

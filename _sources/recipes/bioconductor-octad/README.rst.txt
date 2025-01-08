@@ -12,7 +12,7 @@ bioconductor-octad
 
    Open Cancer TherApeutic Discovery \(OCTAD\)
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/octad.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/octad.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-octad <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-octad>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-octad/meta.yaml>`_
 
@@ -27,24 +27,24 @@ bioconductor-octad
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-deseq2: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-edaseq: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-gsva: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-octad.db: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-rhdf5: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-ruvseq: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-deseq2: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-edaseq: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-gsva: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-octad.db: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-ruvseq: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-foreach: 
@@ -53,6 +53,7 @@ bioconductor-octad
    :depends r-httr: 
    :depends r-magrittr: 
    :depends r-plotly: 
+   :depends r-qpdf: 
    :depends r-reshape2: 
    :depends r-rfast: 
    :requirements:
@@ -105,7 +106,7 @@ bioconductor-octad
 
     <script>
         var package = "bioconductor-octad";
-        var versions = ["1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

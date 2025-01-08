@@ -12,7 +12,7 @@ bioconductor-ruvcorr
 
    Removal of unwanted variation for gene\-gene correlations and related analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/RUVcorr.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/RUVcorr.html
    :license: GPL-2
    :recipe: /`bioconductor-ruvcorr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ruvcorr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ruvcorr/meta.yaml>`_
 

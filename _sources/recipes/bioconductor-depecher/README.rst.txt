@@ -12,7 +12,7 @@ bioconductor-depecher
 
    Determination of essential phenotypic elements of clusters in high\-dimensional entities
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/DepecheR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/DepecheR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-depecher <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-depecher>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-depecher/meta.yaml>`_
 

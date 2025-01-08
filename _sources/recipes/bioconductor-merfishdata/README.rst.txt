@@ -12,7 +12,7 @@ bioconductor-merfishdata
 
    Collection of public MERFISH datasets
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/MerfishData.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/MerfishData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-merfishdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-merfishdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-merfishdata/meta.yaml>`_
 
@@ -27,22 +27,23 @@ bioconductor-merfishdata
       
       
 
-      ``1.4.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-bumpymatrix: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-ebimage: ``>=4.44.0,<4.45.0``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-spatialexperiment: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-bumpymatrix: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-data-packages: ``>=20250104``
+   :depends bioconductor-ebimage: ``>=4.48.0,<4.49.0``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-hdf5array: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-spatialexperiment: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -93,7 +94,7 @@ bioconductor-merfishdata
 
     <script>
         var package = "bioconductor-merfishdata";
-        var versions = ["1.4.1","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.4.1","1.2.0","1.0.0"];
     </script>
 
 

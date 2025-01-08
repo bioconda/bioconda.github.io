@@ -12,7 +12,7 @@ bioconductor-repitools
 
    Epigenomic tools
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Repitools.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Repitools.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-repitools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-repitools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-repitools/meta.yaml>`_
    :links: biotools: :biotools:`repitools`
@@ -66,8 +66,9 @@ bioconductor-repitools
    :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
    :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cluster: 
    :depends r-gplots: 

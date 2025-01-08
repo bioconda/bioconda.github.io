@@ -12,7 +12,8 @@ kneaddata
 
    KneadData is a tool designed to perform quality control on metagenomic sequencing data.
 
-   :homepage: http://huttenhower.sph.harvard.edu/kneaddata
+   :homepage: https://huttenhower.sph.harvard.edu/kneaddata
+   :developer docs: https://github.com/biobakery/kneaddata
    :license: MIT / MIT
    :recipe: /`kneaddata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kneaddata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kneaddata/meta.yaml>`_
 
@@ -28,10 +29,10 @@ kneaddata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.12.0-1</code>,  <code>0.12.0-0</code>,  <code>0.10.0-0</code>,  <code>0.9.0-0</code>,  <code>0.7.4-1</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-1</code>,  <code>0.7.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.12.1-0</code>,  <code>0.12.0-1</code>,  <code>0.12.0-0</code>,  <code>0.10.0-0</code>,  <code>0.9.0-0</code>,  <code>0.7.4-1</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-1</code>,  </span></summary>
       
 
-      ``0.12.0-1``,  ``0.12.0-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.7.4-1``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.0-0``,  ``0.6.1-2``,  ``0.6.1-0``,  ``0.5.2-0``
+      ``0.12.1-0``,  ``0.12.0-1``,  ``0.12.0-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.7.4-1``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.0-0``,  ``0.6.1-2``,  ``0.6.1-0``,  ``0.5.2-0``
 
       
       .. raw:: html
@@ -99,7 +100,7 @@ kneaddata
 
     <script>
         var package = "kneaddata";
-        var versions = ["0.12.0","0.12.0","0.10.0","0.9.0","0.7.4"];
+        var versions = ["0.12.1","0.12.0","0.12.0","0.10.0","0.9.0"];
     </script>
 
 

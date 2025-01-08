@@ -27,7 +27,7 @@ strandphaser
       
       
 
-      ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -42,7 +42,7 @@ strandphaser
    :depends bioconductor-rsamtools: 
    :depends bioconductor-s4vectors: 
    :depends bioconductor-variantannotation: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cowplot: 
    :depends r-doparallel: 
    :depends r-dplyr: 
@@ -103,7 +103,7 @@ strandphaser
 
     <script>
         var package = "strandphaser";
-        var versions = ["1.0.2","1.0.2","1.0.0","1.0.0"];
+        var versions = ["1.0.2","1.0.2","1.0.2","1.0.0","1.0.0"];
     </script>
 
 

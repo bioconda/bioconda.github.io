@@ -12,7 +12,7 @@ bioconductor-dcats
 
    Differential Composition Analysis Transformed by a Similarity matrix
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/DCATS.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/DCATS.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-dcats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dcats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dcats/meta.yaml>`_
 

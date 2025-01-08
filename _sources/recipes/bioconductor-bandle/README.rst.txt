@@ -12,7 +12,7 @@ bioconductor-bandle
 
    An R package for the Bayesian analysis of differential subcellular localisation experiments
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/bandle.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/bandle.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bandle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bandle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bandle/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-cogps
 
    cancer outlier Gene Profile Sets
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/coGPS.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/coGPS.html
    :license: GPL-2
    :recipe: /`bioconductor-cogps <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cogps>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cogps/meta.yaml>`_
    :links: biotools: :biotools:`cogps`, doi: :doi:`10.1038/nmeth.3252`

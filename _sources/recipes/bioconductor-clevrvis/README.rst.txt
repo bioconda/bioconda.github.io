@@ -12,7 +12,7 @@ bioconductor-clevrvis
 
    Visualization Techniques for Clonal Evolution
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/clevRvis.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/clevRvis.html
    :license: LGPL-3
    :recipe: /`bioconductor-clevrvis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clevrvis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clevrvis/meta.yaml>`_
 

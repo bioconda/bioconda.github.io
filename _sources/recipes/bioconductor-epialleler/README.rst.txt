@@ -12,11 +12,11 @@ bioconductor-epialleler
 
    Fast\, Epiallele\-Aware Methylation Caller and Reporter
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/epialleleR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/epialleleR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-epialleler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epialleler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epialleler/meta.yaml>`_
 
-   Epialleles are specific DNA methylation patterns that are mitotically and\/or meiotically inherited. This package calls and reports cytosine methylation as well as frequencies of hypermethylated epialleles at the level of genomic regions or individual cytosines in next\-generation sequencing data using binary alignment map \(BAM\) files as an input. Among other things\, this package can also extract methylation patterns and assess allele specificity of methylation.
+   Epialleles are specific DNA methylation patterns that are mitotically and\/or meiotically inherited. This package calls and reports cytosine methylation as well as frequencies of hypermethylated epialleles at the level of genomic regions or individual cytosines in next\-generation sequencing data using binary alignment map \(BAM\) files as an input. Among other things\, this package can also extract and visualise methylation patterns and assess allele specificity of methylation.
 
 
 .. conda:package:: bioconductor-epialleler

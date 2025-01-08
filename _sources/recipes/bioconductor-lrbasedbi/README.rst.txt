@@ -12,7 +12,7 @@ bioconductor-lrbasedbi
 
    DBI to construct LRBase\-related package
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/LRBaseDbi.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/LRBaseDbi.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-lrbasedbi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbasedbi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lrbasedbi/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-lrbasedbi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.16.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.6.0-0</code>,  </span></summary>
       
 
-      ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+      ``2.16.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-lrbasedbi
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dbi: 
    :depends r-rsqlite: 
    :requirements:
@@ -95,7 +95,7 @@ bioconductor-lrbasedbi
 
     <script>
         var package = "bioconductor-lrbasedbi";
-        var versions = ["2.12.0","2.10.0","2.8.0","2.4.0","2.2.0"];
+        var versions = ["2.16.0","2.12.0","2.10.0","2.8.0","2.4.0"];
     </script>
 
 

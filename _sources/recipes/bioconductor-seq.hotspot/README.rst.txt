@@ -12,7 +12,7 @@ bioconductor-seq.hotspot
 
    Targeted sequencing panel design based on mutation hotspots
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/seq.hotSPOT.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/seq.hotSPOT.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-seq.hotspot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seq.hotspot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seq.hotspot/meta.yaml>`_
 

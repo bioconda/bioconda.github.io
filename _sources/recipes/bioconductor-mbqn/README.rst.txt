@@ -12,7 +12,7 @@ bioconductor-mbqn
 
    Mean\/Median\-balanced quantile normalization
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MBQN.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MBQN.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-mbqn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbqn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbqn/meta.yaml>`_
 
@@ -27,16 +27,16 @@ bioconductor-mbqn
       
       
 
-      ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.0-0``
+      ``2.18.0-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-preprocesscore: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-preprocesscore: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: 
    :depends r-paireddata: 
    :depends r-rappdirs: 
@@ -93,7 +93,7 @@ bioconductor-mbqn
 
     <script>
         var package = "bioconductor-mbqn";
-        var versions = ["2.14.0","2.12.0","2.10.0","2.5.0","2.4.0"];
+        var versions = ["2.18.0","2.14.0","2.12.0","2.10.0","2.5.0"];
     </script>
 
 

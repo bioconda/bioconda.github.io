@@ -12,7 +12,7 @@ bioconductor-metapone
 
    Conducts pathway test of metabolomics data using a weighted permutation test
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/metapone.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/metapone.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-metapone <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metapone>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metapone/meta.yaml>`_
 

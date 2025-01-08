@@ -12,7 +12,7 @@ bioconductor-synaptome.db
 
    Synamptosome Proteome Database
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/synaptome.db.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/synaptome.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-synaptome.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synaptome.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synaptome.db/meta.yaml>`_
 

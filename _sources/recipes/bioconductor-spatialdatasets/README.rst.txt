@@ -12,7 +12,7 @@ bioconductor-spatialdatasets
 
    Collection of spatial omics datasets
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/SpatialDatasets.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/SpatialDatasets.html
    :license: GPL-3
    :recipe: /`bioconductor-spatialdatasets <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialdatasets>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialdatasets/meta.yaml>`_
 

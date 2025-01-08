@@ -12,7 +12,7 @@ bioconductor-ucell
 
    Rank\-based signature enrichment analysis for single\-cell data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/UCell.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/UCell.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-ucell <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ucell>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ucell/meta.yaml>`_
 

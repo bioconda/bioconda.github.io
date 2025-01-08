@@ -12,7 +12,7 @@ bioconductor-cogeqc
 
    Systematic quality checks on comparative genomics analyses
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/cogeqc.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/cogeqc.html
    :license: GPL-3
    :recipe: /`bioconductor-cogeqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cogeqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cogeqc/meta.yaml>`_
 

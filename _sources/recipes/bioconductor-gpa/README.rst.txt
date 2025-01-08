@@ -12,8 +12,8 @@ bioconductor-gpa
 
    GPA \(Genetic analysis incorporating Pleiotropy and Annotation\)
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GPA.html
-   :license: GPL-3.0-or-later
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/GPA.html
+   :license: GPL (>= 2)
    :recipe: /`bioconductor-gpa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gpa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gpa/meta.yaml>`_
    :links: biotools: :biotools:`GPA`
 

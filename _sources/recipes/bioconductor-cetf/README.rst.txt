@@ -12,7 +12,7 @@ bioconductor-cetf
 
    Coexpression for Transcription Factors using Regulatory Impact Factors and Partial Correlation and Information Theory analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CeTF.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CeTF.html
    :license: GPL-3
    :recipe: /`bioconductor-cetf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cetf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cetf/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-cetf
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.9.0-0</code>,  <code>1.6.0-2</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.4-0</code>,  <code>1.2.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.9.0-0</code>,  <code>1.6.0-2</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.4-0</code>,  </span></summary>
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.9.0-0``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.4-0``,  ``1.2.2-0``,  ``1.0.1-0``
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.9.0-0``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.4-0``,  ``1.2.2-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -40,23 +40,23 @@ bioconductor-cetf
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=4.10.0,<4.11.0``
-   :depends bioconductor-clusterprofiler: ``>=4.10.0,<4.11.0a0``
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0a0``
-   :depends bioconductor-deseq2: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-deseq2: ``>=1.42.0,<1.43.0a0``
-   :depends bioconductor-rcy3: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-rcy3: ``>=2.22.1,<2.23.0a0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0a0``
+   :depends bioconductor-clusterprofiler: ``>=4.14.0,<4.15.0``
+   :depends bioconductor-clusterprofiler: ``>=4.14.0,<4.15.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0a0``
+   :depends bioconductor-deseq2: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-deseq2: ``>=1.46.0,<1.47.0a0``
+   :depends bioconductor-rcy3: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-rcy3: ``>=2.26.0,<2.27.0a0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-circlize: 
    :depends r-dplyr: 
    :depends r-genomictools.filehandler: 
@@ -120,7 +120,7 @@ bioconductor-cetf
 
     <script>
         var package = "bioconductor-cetf";
-        var versions = ["1.14.0","1.12.0","1.9.0","1.6.0","1.6.0"];
+        var versions = ["1.18.0","1.14.0","1.12.0","1.9.0","1.6.0"];
     </script>
 
 

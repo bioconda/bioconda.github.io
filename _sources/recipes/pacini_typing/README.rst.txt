@@ -1,0 +1,118 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'pacini_typing'
+.. highlight: bash
+
+pacini_typing
+=============
+
+.. conda:recipe:: pacini_typing
+   :replaces_section_title:
+   :noindex:
+
+   YAML\-based bacterial genotyping application
+
+   :homepage: https://github.com/RIVM-bioinformatics/Pacini-typing
+   :license: AGPL-3.0
+   :recipe: /`pacini_typing <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pacini_typing>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pacini_typing/meta.yaml>`_
+
+   
+
+
+.. conda:package:: pacini_typing
+
+   |downloads_pacini_typing| |docker_pacini_typing|
+
+   :versions:
+      
+      
+
+      ``1.6.1-0``
+
+      
+
+   
+   :depends biopython: 
+   :depends blast: 
+   :depends kma: 
+   :depends networkx: 
+   :depends numpy: 
+   :depends pandas: 
+   :depends pysam: 
+   :depends python: ``>=3.10,<=3.12``
+   :depends pyyaml: 
+   :depends scipy: 
+   :depends tqdm: 
+   :requirements:
+
+   :additional platforms:
+      
+
+   .. rubric:: Installation
+
+  You need a conda-compatible package manager
+  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
+  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+
+  While any of above package managers is fine, it is currently recommended to use either
+  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
+  We will show all commands using mamba below, but the arguments are the same for the two
+  others.
+
+  Given that you already have a conda environment in which you want to have this package, install with::
+
+      mamba install pacini_typing
+
+   and update with::
+
+      mamba update pacini_typing
+
+  To create a new environment, run::
+
+      mamba create --name myenvname pacini_typing
+
+  with ``myenvname`` being a reasonable name for the environment
+  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+
+  Alternatively, use the docker container::
+
+      docker pull quay.io/biocontainers/pacini_typing:<tag>
+
+   (see `pacini_typing/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_pacini_typing| image:: https://img.shields.io/conda/dn/bioconda/pacini_typing.svg?style=flat
+   :target: https://anaconda.org/bioconda/pacini_typing
+   :alt:   (downloads)
+.. |docker_pacini_typing| image:: https://quay.io/repository/biocontainers/pacini_typing/status
+   :target: https://quay.io/repository/biocontainers/pacini_typing
+.. _`pacini_typing/tags`: https://quay.io/repository/biocontainers/pacini_typing?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "pacini_typing";
+        var versions = ["1.6.1"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pacini_typing/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/pacini_typing/README.html

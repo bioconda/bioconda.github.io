@@ -12,7 +12,7 @@ bioconductor-spatialheatmap
 
    spatialHeatmap
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/spatialHeatmap.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/spatialHeatmap.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-spatialheatmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialheatmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialheatmap/meta.yaml>`_
 
@@ -27,25 +27,21 @@ bioconductor-spatialheatmap
       
       
 
-      ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``2.12.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-genefilter: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-scater: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-scran: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-scuttle: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
+   :depends bioconductor-genefilter: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-ggplotify: 
-   :depends r-gplots: 
    :depends r-gridextra: 
    :depends r-grimport: 
    :depends r-igraph: 
@@ -107,7 +103,7 @@ bioconductor-spatialheatmap
 
     <script>
         var package = "bioconductor-spatialheatmap";
-        var versions = ["2.8.0","2.6.0","2.4.0","2.0.0","1.2.0"];
+        var versions = ["2.12.0","2.8.0","2.6.0","2.4.0","2.0.0"];
     </script>
 
 

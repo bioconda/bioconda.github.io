@@ -12,7 +12,7 @@ bioconductor-nxtirfdata
 
    Data for NxtIRF
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/NxtIRFdata.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/NxtIRFdata.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-nxtirfdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nxtirfdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nxtirfdata/meta.yaml>`_
 
@@ -27,17 +27,17 @@ bioconductor-nxtirfdata
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-r.utils: 
    :requirements:
 
@@ -89,7 +89,7 @@ bioconductor-nxtirfdata
 
     <script>
         var package = "bioconductor-nxtirfdata";
-        var versions = ["1.8.0","1.6.0","1.4.0","1.0.0","1.0.0"];
+        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.0.0"];
     </script>
 
 

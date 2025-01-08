@@ -12,7 +12,7 @@ bioconductor-mlinterfaces
 
    Uniform interfaces to R machine learning procedures for data in Bioconductor containers
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MLInterfaces.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MLInterfaces.html
    :license: LGPL
    :recipe: /`bioconductor-mlinterfaces <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mlinterfaces>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mlinterfaces/meta.yaml>`_
    :links: biotools: :biotools:`mlinterfaces`, doi: :doi:`10.1038/nmeth.3252`
@@ -29,10 +29,10 @@ bioconductor-mlinterfaces
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.82.0-0</code>,  <code>1.80.0-0</code>,  <code>1.78.0-1</code>,  <code>1.78.0-0</code>,  <code>1.74.0-2</code>,  <code>1.74.0-1</code>,  <code>1.74.0-0</code>,  <code>1.72.0-0</code>,  <code>1.70.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.86.0-0</code>,  <code>1.82.0-0</code>,  <code>1.80.0-0</code>,  <code>1.78.0-1</code>,  <code>1.78.0-0</code>,  <code>1.74.0-2</code>,  <code>1.74.0-1</code>,  <code>1.74.0-0</code>,  <code>1.72.0-0</code>,  </span></summary>
       
 
-      ``1.82.0-0``,  ``1.80.0-0``,  ``1.78.0-1``,  ``1.78.0-0``,  ``1.74.0-2``,  ``1.74.0-1``,  ``1.74.0-0``,  ``1.72.0-0``,  ``1.70.0-1``,  ``1.70.0-0``,  ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-1``,  ``1.62.0-0``,  ``1.60.1-0``,  ``1.58.0-0``
+      ``1.86.0-0``,  ``1.82.0-0``,  ``1.80.0-0``,  ``1.78.0-1``,  ``1.78.0-0``,  ``1.74.0-2``,  ``1.74.0-1``,  ``1.74.0-0``,  ``1.72.0-0``,  ``1.70.0-1``,  ``1.70.0-0``,  ``1.68.0-0``,  ``1.66.0-0``,  ``1.64.0-1``,  ``1.62.0-0``,  ``1.60.1-0``,  ``1.58.0-0``
 
       
       .. raw:: html
@@ -41,21 +41,21 @@ bioconductor-mlinterfaces
       
 
    
-   :depends bioconductor-annotate: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-annotate: ``>=1.80.0,<1.81.0a0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.1,<0.49.0a0``
-   :depends bioconductor-genefilter: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-genefilter: ``>=1.84.0,<1.85.0a0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0a0``
+   :depends bioconductor-annotate: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-annotate: ``>=1.84.0,<1.85.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0a0``
+   :depends bioconductor-genefilter: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-genefilter: ``>=1.88.0,<1.89.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cluster: 
    :depends r-fpc: 
    :depends r-gbm: 
@@ -122,7 +122,7 @@ bioconductor-mlinterfaces
 
     <script>
         var package = "bioconductor-mlinterfaces";
-        var versions = ["1.82.0","1.80.0","1.78.0","1.78.0","1.74.0"];
+        var versions = ["1.86.0","1.82.0","1.80.0","1.78.0","1.78.0"];
     </script>
 
 

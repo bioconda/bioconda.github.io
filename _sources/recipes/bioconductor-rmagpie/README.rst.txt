@@ -12,7 +12,7 @@ bioconductor-rmagpie
 
    MicroArray Gene\-expression\-based Program In Error rate estimation
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Rmagpie.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Rmagpie.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-rmagpie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmagpie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmagpie/meta.yaml>`_
 

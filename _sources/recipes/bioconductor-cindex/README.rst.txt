@@ -12,7 +12,7 @@ bioconductor-cindex
 
    Chromosome Instability Index
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CINdex.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CINdex.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-cindex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cindex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cindex/meta.yaml>`_
    :links: biotools: :biotools:`cindex`, doi: :doi:`10.1038/nmeth.3252`

@@ -12,11 +12,11 @@ bioconductor-tsar
 
    Thermal Shift Analysis in R
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/TSAR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/TSAR.html
    :license: AGPL-3
    :recipe: /`bioconductor-tsar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tsar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tsar/meta.yaml>`_
 
-   This package automates analysis workflow for Thermal Shift Analysis \(TSAS\) data. Processing\, analyzing\, and visualizing data through both shiny applications and command lines. Package aims to simplify data analysis and offer front to end workflow\, from raw data to multiple trial analysis.
+   This package automates analysis workflow for Thermal Shift Analysis \(TSA\) data. Processing\, analyzing\, and visualizing data through both shiny applications and command lines. Package aims to simplify data analysis and offer front to end workflow\, from raw data to multiple trial analysis.
 
 
 .. conda:package:: bioconductor-tsar

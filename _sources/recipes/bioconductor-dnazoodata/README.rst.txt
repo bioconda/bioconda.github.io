@@ -12,7 +12,7 @@ bioconductor-dnazoodata
 
    DNA Zoo data package
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/DNAZooData.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/DNAZooData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-dnazoodata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnazoodata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnazoodata/meta.yaml>`_
 
@@ -27,17 +27,17 @@ bioconductor-dnazoodata
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-hicexperiment: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-hicexperiment: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-rjson: 
    :requirements:
 
@@ -89,7 +89,7 @@ bioconductor-dnazoodata
 
     <script>
         var package = "bioconductor-dnazoodata";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

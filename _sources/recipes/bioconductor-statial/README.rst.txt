@@ -12,7 +12,7 @@ bioconductor-statial
 
    A package to identify changes in cell state relative to spatial associations
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Statial.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Statial.html
    :license: GPL-3
    :recipe: /`bioconductor-statial <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-statial>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-statial/meta.yaml>`_
 
@@ -27,18 +27,20 @@ bioconductor-statial
       
       
 
-      ``1.4.5-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.5-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-spatialexperiment: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-spatialexperiment: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-treekor: ``>=1.14.0,<1.15.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-cluster: 
    :depends r-concaveman: 
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -103,7 +105,7 @@ bioconductor-statial
 
     <script>
         var package = "bioconductor-statial";
-        var versions = ["1.4.5","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.4.5","1.2.0","1.0.0"];
     </script>
 
 

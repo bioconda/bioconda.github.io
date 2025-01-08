@@ -12,7 +12,7 @@ bioconductor-multiwgcna
 
    multiWGCNA
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/multiWGCNA.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/multiWGCNA.html
    :license: GPL-3
    :recipe: /`bioconductor-multiwgcna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multiwgcna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multiwgcna/meta.yaml>`_
 
@@ -27,14 +27,14 @@ bioconductor-multiwgcna
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-dcanr: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-dcanr: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cowplot: 
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -99,7 +99,7 @@ bioconductor-multiwgcna
 
     <script>
         var package = "bioconductor-multiwgcna";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

@@ -12,7 +12,7 @@ bioconductor-decontx
 
    Decontamination of single cell genomics data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/decontX.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/decontX.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-decontx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-decontx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-decontx/meta.yaml>`_
 

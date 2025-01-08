@@ -12,7 +12,7 @@ bioconductor-missmethyl
 
    Analysing Illumina HumanMethylation BeadChip Data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/missMethyl.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/missMethyl.html
    :license: GPL-2
    :recipe: /`bioconductor-missmethyl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-missmethyl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-missmethyl/meta.yaml>`_
    :links: biotools: :biotools:`missmethyl`

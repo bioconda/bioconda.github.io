@@ -12,7 +12,7 @@ bioconductor-microstasis
 
    Microbiota STability ASsessment via Iterative cluStering
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/microSTASIS.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/microSTASIS.html
    :license: GPL-3
    :recipe: /`bioconductor-microstasis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microstasis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microstasis/meta.yaml>`_
 
@@ -27,14 +27,14 @@ bioconductor-microstasis
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-treesummarizedexperiment: ``>=2.10.0,<2.11.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-treesummarizedexperiment: ``>=2.14.0,<2.15.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: 
    :depends r-ggside: 
    :depends r-rlang: 
@@ -89,7 +89,7 @@ bioconductor-microstasis
 
     <script>
         var package = "bioconductor-microstasis";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

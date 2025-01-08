@@ -12,11 +12,11 @@ bioconductor-poma
 
    Tools for Omics Data Analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/POMA.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/POMA.html
    :license: GPL-3
    :recipe: /`bioconductor-poma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-poma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-poma/meta.yaml>`_
 
-   A reproducible and easy\-to\-use toolkit for visualization\, pre\-processing\, exploration\, and statistical analysis of omics datasets. The main aim of POMA is to enable a flexible data cleaning and statistical analysis processes in one comprehensible and user\-friendly R package. This package has a Shiny app version called POMAShiny that implements all POMA functions. See https\:\/\/github.com\/pcastellanoescuder\/POMAShiny. See Castellano\-Escuder P\, González\-Domínguez R\, Carmona\-Pontaque F\, et al. \(2021\) \<doi\:10.1371\/journal.pcbi.1009148\> for more details.
+   The POMA package offers a comprehensive toolkit designed for omics data analysis\, streamlining the process from initial visualization to final statistical analysis. Its primary goal is to simplify and unify the various steps involved in omics data processing\, making it more accessible and manageable within a single\, intuitive R package. Emphasizing on reproducibility and user\-friendliness\, POMA leverages the standardized SummarizedExperiment class from Bioconductor\, ensuring seamless integration and compatibility with a wide array of Bioconductor tools. This approach guarantees maximum flexibility and replicability\, making POMA an essential asset for researchers handling omics datasets. See https\:\/\/github.com\/pcastellanoescuder\/POMAShiny. Paper\: Castellano\-Escuder et al. \(2021\) \<doi\:10.1371\/journal.pcbi.1009148\> for more details.
 
 
 .. conda:package:: bioconductor-poma
@@ -27,30 +27,39 @@ bioconductor-poma
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-deseq2: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-impute: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-mixomics: ``>=6.26.0,<6.27.0``
-   :depends bioconductor-rankprod: ``>=3.28.0,<3.29.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-deseq2: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-fgsea: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-impute: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-mixomics: ``>=6.30.0,<6.31.0``
+   :depends bioconductor-rankprod: ``>=3.32.0,<3.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-sva: ``>=3.54.0,<3.55.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-broom: 
    :depends r-caret: 
    :depends r-dbscan: 
    :depends r-dplyr: 
+   :depends r-fsa: 
+   :depends r-ggcorrplot: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 
-   :depends r-glasso: ``>=1.11``
    :depends r-glmnet: 
+   :depends r-janitor: 
+   :depends r-lme4: 
    :depends r-magrittr: 
+   :depends r-mass: 
+   :depends r-msigdbr: 
+   :depends r-multcomp: 
+   :depends r-purrr: 
    :depends r-randomforest: 
-   :depends r-rmarkdown: 
+   :depends r-rlang: 
    :depends r-tibble: 
    :depends r-tidyr: 
    :depends r-uwot: 
@@ -105,7 +114,7 @@ bioconductor-poma
 
     <script>
         var package = "bioconductor-poma";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.0"];
+        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.4.0"];
     </script>
 
 

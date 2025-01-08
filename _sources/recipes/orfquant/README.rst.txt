@@ -27,7 +27,7 @@ orfquant
       
       
 
-      ``1.1.0-5``,  ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
+      ``1.1.0-6``,  ``1.1.0-5``,  ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
 
       
 
@@ -39,7 +39,7 @@ orfquant
    :depends bioconductor-genomicfeatures: 
    :depends bioconductor-genomicfiles: 
    :depends bioconductor-rtracklayer: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cowplot: 
    :depends r-devtools: 
    :depends r-domc: 

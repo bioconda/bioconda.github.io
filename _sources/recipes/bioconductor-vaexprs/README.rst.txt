@@ -12,7 +12,7 @@ bioconductor-vaexprs
 
    Generating Samples of Gene Expression Data with Variational Autoencoders
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/VAExprs.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/VAExprs.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-vaexprs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vaexprs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vaexprs/meta.yaml>`_
 

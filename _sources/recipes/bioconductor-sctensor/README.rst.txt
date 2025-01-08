@@ -12,7 +12,7 @@ bioconductor-sctensor
 
    Detection of cell\-cell interaction from single\-cell RNA\-seq dataset by tensor decomposition
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/scTensor.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/scTensor.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-sctensor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sctensor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sctensor/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-sctensor
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.16.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.4.0-0</code>,  </span></summary>
       
 
-      ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.12-0``
+      ``2.16.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.12-0``
 
       
       .. raw:: html
@@ -40,22 +40,22 @@ bioconductor-sctensor
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-biocstyle: ``>=2.30.0,<2.31.0``
-   :depends bioconductor-category: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-dose: ``>=3.28.0,<3.29.0``
-   :depends bioconductor-gostats: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-meshdbi: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-meshr: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-reactome.db: ``>=1.86.0,<1.87.0``
-   :depends bioconductor-reactomepa: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-schex: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-biocstyle: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-category: ``>=2.72.0,<2.73.0``
+   :depends bioconductor-dose: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-gostats: ``>=2.72.0,<2.73.0``
+   :depends bioconductor-meshdbi: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-meshr: ``>=2.12.0,<2.13.0``
+   :depends bioconductor-reactome.db: ``>=1.89.0,<1.90.0``
+   :depends bioconductor-reactomepa: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-schex: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
    :depends r-abind: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-biocmanager: 
    :depends r-cctensor: ``>=1.0.2``
    :depends r-checkmate: 
@@ -123,7 +123,7 @@ bioconductor-sctensor
 
     <script>
         var package = "bioconductor-sctensor";
-        var versions = ["2.12.0","2.10.0","2.8.0","2.4.0","2.2.0"];
+        var versions = ["2.16.0","2.12.0","2.10.0","2.8.0","2.4.0"];
     </script>
 
 

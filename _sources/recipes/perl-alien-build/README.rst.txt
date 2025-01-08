@@ -27,22 +27,26 @@ perl-alien-build
       
       
 
-      ``2.53-0``,  ``2.51-0``,  ``2.50-0``,  ``2.49-0``,  ``2.48-0``
+      ``2.84-0``,  ``2.53-0``,  ``2.51-0``,  ``2.50-0``,  ``2.49-0``,  ``2.48-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-capture-tiny: 
    :depends perl-ffi-checklib: ``0.28.*``
    :depends perl-file-chdir: 
    :depends perl-file-which: 
    :depends perl-path-tiny: 
-   :depends perl-test2-suite: ``0.000145.*``
+   :depends perl-test2-suite: ``0.000163.*``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -90,7 +94,7 @@ perl-alien-build
 
     <script>
         var package = "perl-alien-build";
-        var versions = ["2.53","2.51","2.50","2.49","2.48"];
+        var versions = ["2.84","2.53","2.51","2.50","2.49"];
     </script>
 
 

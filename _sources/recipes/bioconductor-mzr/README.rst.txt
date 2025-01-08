@@ -10,9 +10,9 @@ bioconductor-mzr
    :replaces_section_title:
    :noindex:
 
-   parser for netCDF\, mzXML\, mzData and mzML and mzIdentML files \(mass spectrometry data\)
+   parser for netCDF\, mzXML and mzML and mzIdentML files \(mass spectrometry data\)
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/mzR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/mzR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mzr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mzr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mzr/meta.yaml>`_
    :links: biotools: :biotools:`mzr`

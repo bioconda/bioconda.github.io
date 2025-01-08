@@ -28,10 +28,10 @@ strangepg
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.15-0</code>,  <code>0.8.14-0</code>,  <code>0.8.13-0</code>,  <code>0.8.12-0</code>,  <code>0.8.11-0</code>,  <code>0.8.10-0</code>,  <code>0.8.9-0</code>,  <code>0.8.8-0</code>,  <code>0.8.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.17-0</code>,  <code>0.8.16-0</code>,  <code>0.8.15-0</code>,  <code>0.8.14-0</code>,  <code>0.8.13-0</code>,  <code>0.8.12-0</code>,  <code>0.8.11-0</code>,  <code>0.8.10-0</code>,  <code>0.8.9-0</code>,  </span></summary>
       
 
-      ``0.8.15-0``,  ``0.8.14-0``,  ``0.8.13-0``,  ``0.8.12-0``,  ``0.8.11-0``,  ``0.8.10-0``,  ``0.8.9-0``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-1``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``
+      ``0.8.17-0``,  ``0.8.16-0``,  ``0.8.15-0``,  ``0.8.14-0``,  ``0.8.13-0``,  ``0.8.12-0``,  ``0.8.11-0``,  ``0.8.10-0``,  ``0.8.9-0``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-1``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ strangepg
       
 
    
-   :depends libgcc: ``>=12``
+   :depends libgcc: ``>=13``
    :depends libxcb: 
    :depends xorg-libx11: ``>=1.8.10,<2.0a0``
    :depends xorg-libxau: 
@@ -53,6 +53,10 @@ strangepg
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -100,7 +104,7 @@ strangepg
 
     <script>
         var package = "strangepg";
-        var versions = ["0.8.15","0.8.14","0.8.13","0.8.12","0.8.11"];
+        var versions = ["0.8.17","0.8.16","0.8.15","0.8.14","0.8.13"];
     </script>
 
 

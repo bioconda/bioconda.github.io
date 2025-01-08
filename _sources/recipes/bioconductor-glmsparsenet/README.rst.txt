@@ -12,11 +12,11 @@ bioconductor-glmsparsenet
 
    Network Centrality Metrics for Elastic\-Net Regularized Models
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/glmSparseNet.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/glmSparseNet.html
    :license: GPL-3
    :recipe: /`bioconductor-glmsparsenet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-glmsparsenet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-glmsparsenet/meta.yaml>`_
 
-   glmSparseNet is an R\-package that generalizes sparse regression models when the features \(e.g. genes\) have a graph structure \(e.g. protein\-protein interactions\)\, by including network\-based regularizers. glmSparseNet uses the glmnet R\-package\, by including centrality measures of the network as penalty weights in the regularization. The current version implements regularization based on node degree\, i.e. the strength and\/or number of its associated edges\, either by promoting hubs in the solution or orphan genes in the solution. All the glmnet distribution families are supported\, namely \"gaussian\"\, \"poisson\"\, \"binomial\"\, \"multinomial\"\, \"cox\"\, and \"mgaussian\".
+   glmSparseNet is an R\-package that generalizes sparse regression models when the features \(e.g. genes\) have a graph structure \(e.g. protein\-protein interactions\)\, by including network\-based regularizers.  glmSparseNet uses the glmnet R\-package\, by including centrality measures of the network as penalty weights in the regularization. The current version implements regularization based on node degree\, i.e. the strength and\/or number of its associated edges\, either by promoting hubs in the solution or orphan genes in the solution. All the glmnet distribution families are supported\, namely \"gaussian\"\, \"poisson\"\, \"binomial\"\, \"multinomial\"\, \"cox\"\, and \"mgaussian\".
 
 
 .. conda:package:: bioconductor-glmsparsenet
@@ -28,10 +28,10 @@ bioconductor-glmsparsenet
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  </span></summary>
       
 
-      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,23 +40,23 @@ bioconductor-glmsparsenet
       
 
    
-   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-digest: 
+   :depends bioconductor-biomart: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-tcgautils: ``>=1.26.0,<1.27.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-checkmate: 
    :depends r-dplyr: 
    :depends r-forcats: 
    :depends r-futile.logger: 
-   :depends r-futile.options: 
    :depends r-ggplot2: 
    :depends r-glmnet: 
    :depends r-glue: 
    :depends r-httr: 
+   :depends r-lifecycle: 
    :depends r-matrix: 
    :depends r-readr: 
-   :depends r-reshape2: 
-   :depends r-stringr: 
+   :depends r-rlang: 
    :depends r-survminer: 
    :requirements:
 
@@ -108,7 +108,7 @@ bioconductor-glmsparsenet
 
     <script>
         var package = "bioconductor-glmsparsenet";
-        var versions = ["1.20.0","1.18.0","1.16.0","1.12.0","1.10.0"];
+        var versions = ["1.24.0","1.20.0","1.18.0","1.16.0","1.12.0"];
     </script>
 
 

@@ -10,14 +10,14 @@ bioconductor-hdf5array
    :replaces_section_title:
    :noindex:
 
-   HDF5 backend for DelayedArray objects
+   HDF5 datasets as array\-like objects in R
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/HDF5Array.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/HDF5Array.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hdf5array <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hdf5array>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hdf5array/meta.yaml>`_
    :links: biotools: :biotools:`hdf5array`, doi: :doi:`10.1038/nmeth.3252`
 
-   Implement the HDF5Array\, H5SparseMatrix\, H5ADMatrix\, and TENxMatrix classes\, 4 convenient and memory\-efficient array\-like containers for representing and manipulating either\: \(1\) a conventional \(a.k.a. dense\) HDF5 dataset\, \(2\) an HDF5 sparse matrix \(stored in CSR\/CSC\/Yale format\)\, \(3\) the central matrix of an h5ad file \(or any matrix in the \/layers group\)\, or \(4\) a 10x Genomics sparse matrix. All these containers are DelayedArray extensions and thus support all operations \(delayed or block\-processed\) supported by DelayedArray objects.
+   The HDF5Array package is an HDF5 backend for DelayedArray objects. It implements the HDF5Array\, H5SparseMatrix\, H5ADMatrix\, and TENxMatrix classes\, 4 convenient and memory\-efficient array\-like containers for representing and manipulating either\: \(1\) a conventional \(a.k.a. dense\) HDF5 dataset\, \(2\) an HDF5 sparse matrix \(stored in CSR\/CSC\/Yale format\)\, \(3\) the central matrix of an h5ad file \(or any matrix in the \/layers group\)\, or \(4\) a 10x Genomics sparse matrix. All these containers are DelayedArray extensions and thus support all operations \(delayed or block\-processed\) supported by DelayedArray objects.
 
 
 .. conda:package:: bioconductor-hdf5array

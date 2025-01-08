@@ -12,7 +12,7 @@ bioconductor-meat
 
    Muscle Epigenetic Age Test
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MEAT.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MEAT.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-meat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meat/meta.yaml>`_
 
@@ -27,16 +27,16 @@ bioconductor-meat
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-impute: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-minfi: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-watermelon: ``>=2.8.0,<2.9.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-impute: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-minfi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-watermelon: ``>=2.12.0,<2.13.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-dynamictreecut: ``>=1.63``
    :depends r-glmnet: ``>=2.0``
@@ -93,7 +93,7 @@ bioconductor-meat
 
     <script>
         var package = "bioconductor-meat";
-        var versions = ["1.14.0","1.12.0","1.10.0","1.6.0","1.4.0"];
+        var versions = ["1.18.0","1.14.0","1.12.0","1.10.0","1.6.0"];
     </script>
 
 

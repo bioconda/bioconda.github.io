@@ -12,7 +12,7 @@ bioconductor-rlassocox
 
    A reweighted Lasso\-Cox by integrating gene interaction information
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/RLassoCox.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/RLassoCox.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rlassocox <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rlassocox>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rlassocox/meta.yaml>`_
 

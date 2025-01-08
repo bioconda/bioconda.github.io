@@ -12,7 +12,7 @@ bioconductor-sparrow
 
    Take command of set enrichment analyses through a unified interface
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/sparrow.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/sparrow.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-sparrow <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sparrow>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sparrow/meta.yaml>`_
 
@@ -27,21 +27,21 @@ bioconductor-sparrow
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.1-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-biocset: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-delayedmatrixstats: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-gseabase: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-biocset: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
+   :depends bioconductor-gseabase: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
    :depends r-babelgene: ``>=21.4``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-checkmate: 
    :depends r-circlize: 
    :depends r-data.table: ``>=1.10.4``
@@ -100,7 +100,7 @@ bioconductor-sparrow
 
     <script>
         var package = "bioconductor-sparrow";
-        var versions = ["1.8.0","1.6.0","1.4.0","1.0.1"];
+        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.0.1"];
     </script>
 
 

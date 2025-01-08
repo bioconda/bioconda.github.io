@@ -12,7 +12,7 @@ bioconductor-linnorm
 
    Linear model and normality based normalization and transformation method \(Linnorm\)
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Linnorm.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Linnorm.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-linnorm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-linnorm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-linnorm/meta.yaml>`_
    :links: biotools: :biotools:`linnorm`

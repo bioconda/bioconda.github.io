@@ -12,8 +12,8 @@ bioconductor-chromdraw
 
    chromDraw is a R package for drawing the schemes of karyotypes in the linear and circular fashion.
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/chromDraw.html
-   :license: GPL-3.0-only
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/chromDraw.html
+   :license: GPL-3
    :recipe: /`bioconductor-chromdraw <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromdraw>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromdraw/meta.yaml>`_
    :links: biotools: :biotools:`chromdraw`
 

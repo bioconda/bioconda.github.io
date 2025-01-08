@@ -12,7 +12,7 @@ bioconductor-teqc
 
    Quality control for target capture experiments
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/TEQC.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/TEQC.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-teqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-teqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-teqc/meta.yaml>`_
    :links: biotools: :biotools:`teqc`, doi: :doi:`10.1093/bioinformatics/btr122`
@@ -29,10 +29,10 @@ bioconductor-teqc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.24.0-0</code>,  <code>4.22.0-0</code>,  <code>4.20.0-0</code>,  <code>4.16.0-0</code>,  <code>4.14.0-0</code>,  <code>4.12.0-1</code>,  <code>4.12.0-0</code>,  <code>4.10.0-0</code>,  <code>4.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.28.0-0</code>,  <code>4.24.0-0</code>,  <code>4.22.0-0</code>,  <code>4.20.0-0</code>,  <code>4.16.0-0</code>,  <code>4.14.0-0</code>,  <code>4.12.0-1</code>,  <code>4.12.0-0</code>,  <code>4.10.0-0</code>,  </span></summary>
       
 
-      ``4.24.0-0``,  ``4.22.0-0``,  ``4.20.0-0``,  ``4.16.0-0``,  ``4.14.0-0``,  ``4.12.0-1``,  ``4.12.0-0``,  ``4.10.0-0``,  ``4.8.0-0``,  ``4.6.0-1``,  ``4.4.0-0``,  ``4.2.0-0``,  ``3.18.0-0``,  ``3.16.0-0``
+      ``4.28.0-0``,  ``4.24.0-0``,  ``4.22.0-0``,  ``4.20.0-0``,  ``4.16.0-0``,  ``4.14.0-0``,  ``4.12.0-1``,  ``4.12.0-0``,  ``4.10.0-0``,  ``4.8.0-0``,  ``4.6.0-1``,  ``4.4.0-0``,  ``4.2.0-0``,  ``3.18.0-0``,  ``3.16.0-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ bioconductor-teqc
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-hwriter: 
    :requirements:
 
@@ -97,7 +97,7 @@ bioconductor-teqc
 
     <script>
         var package = "bioconductor-teqc";
-        var versions = ["4.24.0","4.22.0","4.20.0","4.16.0","4.14.0"];
+        var versions = ["4.28.0","4.24.0","4.22.0","4.20.0","4.16.0"];
     </script>
 
 

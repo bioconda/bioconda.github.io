@@ -12,7 +12,7 @@ bioconductor-ssnappy
 
    Single Sample directioNAl Pathway Perturbation analYsis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/sSNAPPY.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/sSNAPPY.html
    :license: GPL-3
    :recipe: /`bioconductor-ssnappy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ssnappy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ssnappy/meta.yaml>`_
 
@@ -27,16 +27,16 @@ bioconductor-ssnappy
       
       
 
-      ``1.6.1-0``,  ``1.4.1-0``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.10.0-0``,  ``1.6.1-0``,  ``1.4.1-0``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-graphite: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
+   :depends bioconductor-graphite: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: ``>=1.1``
    :depends r-ggforce: 
    :depends r-ggplot2: 
@@ -100,7 +100,7 @@ bioconductor-ssnappy
 
     <script>
         var package = "bioconductor-ssnappy";
-        var versions = ["1.6.1","1.4.1","1.2.0","1.2.0"];
+        var versions = ["1.10.0","1.6.1","1.4.1","1.2.0","1.2.0"];
     </script>
 
 

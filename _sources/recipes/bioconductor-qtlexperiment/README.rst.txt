@@ -12,7 +12,7 @@ bioconductor-qtlexperiment
 
    S4 classes for QTL summary statistics and metadata
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/QTLExperiment.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/QTLExperiment.html
    :license: GPL-3
    :recipe: /`bioconductor-qtlexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qtlexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qtlexperiment/meta.yaml>`_
 

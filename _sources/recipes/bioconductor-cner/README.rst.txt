@@ -12,8 +12,8 @@ bioconductor-cner
 
    CNE Detection and Visualization
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CNEr.html
-   :license: GPL-2.0-only | file LICENSE
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CNEr.html
+   :license: GPL-2 | file LICENSE
    :recipe: /`bioconductor-cner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cner/meta.yaml>`_
    :links: biotools: :biotools:`cner`, doi: :doi:`10.1038/nmeth.3252`
 
@@ -68,7 +68,9 @@ bioconductor-cner
    :depends bioconductor-xvector: ``>=0.46.0,<0.47.0``
    :depends bioconductor-xvector: ``>=0.46.0,<0.47.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dbi: ``>=0.7``
    :depends r-ggplot2: ``>=2.1.0``

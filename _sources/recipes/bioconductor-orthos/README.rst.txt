@@ -12,7 +12,7 @@ bioconductor-orthos
 
    \`orthos\` is an R package for variance decomposition using conditional variational auto\-encoders
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/orthos.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/orthos.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-orthos <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-orthos>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-orthos/meta.yaml>`_
 

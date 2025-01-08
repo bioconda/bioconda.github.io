@@ -12,7 +12,7 @@ bioconductor-cmapr
 
    CMap Tools in R
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/cmapR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/cmapR.html
    :license: file LICENSE
    :recipe: /`bioconductor-cmapr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cmapr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cmapr/meta.yaml>`_
 

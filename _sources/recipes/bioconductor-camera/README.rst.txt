@@ -12,8 +12,8 @@ bioconductor-camera
 
    Collection of annotation related methods for mass spectrometry data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CAMERA.html
-   :license: GPL-3.0-or-later
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CAMERA.html
+   :license: GPL (>= 2)
    :recipe: /`bioconductor-camera <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-camera>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-camera/meta.yaml>`_
    :links: biotools: :biotools:`camera`
 

@@ -12,7 +12,7 @@ bioconductor-biocfhir
 
    Illustration of FHIR ingestion and transformation using R
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/BiocFHIR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/BiocFHIR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biocfhir <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocfhir>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocfhir/meta.yaml>`_
 
@@ -27,14 +27,14 @@ bioconductor-biocfhir
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocbaseutils: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biocbaseutils: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-graph: ``>=1.84.0,<1.85.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-dt: 
    :depends r-jsonlite: 
@@ -91,7 +91,7 @@ bioconductor-biocfhir
 
     <script>
         var package = "bioconductor-biocfhir";
-        var versions = ["1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

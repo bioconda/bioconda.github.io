@@ -12,7 +12,7 @@ bioconductor-omada
 
    Machine learning tools for automated transcriptome clustering analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/omada.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/omada.html
    :license: GPL-3
    :recipe: /`bioconductor-omada <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omada>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omada/meta.yaml>`_
 

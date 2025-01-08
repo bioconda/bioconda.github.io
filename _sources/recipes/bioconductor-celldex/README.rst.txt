@@ -10,9 +10,9 @@ bioconductor-celldex
    :replaces_section_title:
    :noindex:
 
-   Reference Index for Cell Types
+   Index of Reference Cell Type Datasets
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/celldex.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/celldex.html
    :license: GPL-3
    :recipe: /`bioconductor-celldex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celldex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celldex/meta.yaml>`_
 
@@ -27,21 +27,29 @@ bioconductor-celldex
       
       
 
-      ``1.12.0-0``,  ``1.10.1-0``,  ``1.8.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.1-0``,  ``1.8.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-delayedmatrixstats: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-alabaster.base: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-alabaster.matrix: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-alabaster.se: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-gypsum: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-dbi: 
+   :depends r-jsonlite: 
+   :depends r-matrix: 
+   :depends r-rsqlite: 
    :requirements:
 
    :additional platforms:
@@ -92,7 +100,7 @@ bioconductor-celldex
 
     <script>
         var package = "bioconductor-celldex";
-        var versions = ["1.12.0","1.10.1","1.8.0","1.4.0","1.4.0"];
+        var versions = ["1.16.0","1.12.0","1.10.1","1.8.0","1.4.0"];
     </script>
 
 

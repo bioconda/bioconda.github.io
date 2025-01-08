@@ -12,7 +12,7 @@ bioconductor-tricycle
 
    tricycle\: Transferable Representation and Inference of cell cycle
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/tricycle.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/tricycle.html
    :license: GPL-3
    :recipe: /`bioconductor-tricycle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tricycle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tricycle/meta.yaml>`_
 

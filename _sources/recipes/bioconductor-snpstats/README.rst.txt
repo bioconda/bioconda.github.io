@@ -12,8 +12,8 @@ bioconductor-snpstats
 
    SnpMatrix and XSnpMatrix classes and methods
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/snpStats.html
-   :license: GPL-3-only
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/snpStats.html
+   :license: GPL-3
    :recipe: /`bioconductor-snpstats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snpstats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snpstats/meta.yaml>`_
    :links: biotools: :biotools:`snpstats`, doi: :doi:`10.1038/nmeth.3252`
 

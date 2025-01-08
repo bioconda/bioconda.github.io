@@ -12,7 +12,7 @@ bioconductor-roastgsa
 
    Rotation based gene set analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/roastgsa.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/roastgsa.html
    :license: GPL-3
    :recipe: /`bioconductor-roastgsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-roastgsa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-roastgsa/meta.yaml>`_
 

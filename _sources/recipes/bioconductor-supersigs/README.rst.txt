@@ -12,7 +12,7 @@ bioconductor-supersigs
 
    Supervised mutational signatures
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/supersigs.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/supersigs.html
    :license: GPL-3
    :recipe: /`bioconductor-supersigs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-supersigs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-supersigs/meta.yaml>`_
 

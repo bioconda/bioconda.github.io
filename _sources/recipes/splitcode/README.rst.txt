@@ -30,12 +30,13 @@ splitcode
       
       
 
-      ``0.30.0-1``,  ``0.30.0-0``,  ``0.29.4-0``
+      ``0.31.2-1``,  ``0.31.2-0``,  ``0.31.1-0``,  ``0.31.0-0``,  ``0.30.0-1``,  ``0.30.0-0``,  ``0.29.4-0``
 
       
 
    
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
@@ -92,7 +93,7 @@ splitcode
 
     <script>
         var package = "splitcode";
-        var versions = ["0.30.0","0.30.0","0.29.4"];
+        var versions = ["0.31.2","0.31.2","0.31.1","0.31.0","0.30.0"];
     </script>
 
 

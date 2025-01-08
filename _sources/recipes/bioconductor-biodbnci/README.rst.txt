@@ -12,7 +12,7 @@ bioconductor-biodbnci
 
    biodbNci\, a library for connecting to biodbNci\, a library for connecting to the National Cancer Institute \(USA\) CACTUS Database
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/biodbNci.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/biodbNci.html
    :license: AGPL-3
    :recipe: /`bioconductor-biodbnci <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biodbnci>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biodbnci/meta.yaml>`_
 

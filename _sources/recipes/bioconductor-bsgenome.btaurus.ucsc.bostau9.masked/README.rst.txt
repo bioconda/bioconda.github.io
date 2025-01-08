@@ -12,7 +12,7 @@ bioconductor-bsgenome.btaurus.ucsc.bostau9.masked
 
    Full masked genome sequences for Bos taurus \(UCSC version bosTau9\)
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/BSgenome.Btaurus.UCSC.bosTau9.masked.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/BSgenome.Btaurus.UCSC.bosTau9.masked.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.btaurus.ucsc.bostau9.masked <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.btaurus.ucsc.bostau9.masked>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.btaurus.ucsc.bostau9.masked/meta.yaml>`_
 
@@ -27,16 +27,16 @@ bioconductor-bsgenome.btaurus.ucsc.bostau9.masked
       
       
 
-      ``1.4.4-2``,  ``1.4.4-1``,  ``1.4.4-0``
+      ``1.4.4-3``,  ``1.4.4-2``,  ``1.4.4-1``,  ``1.4.4-0``
 
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
    :depends bioconductor-bsgenome.btaurus.ucsc.bostau9: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-data-packages: ``>=20241103``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -87,7 +87,7 @@ bioconductor-bsgenome.btaurus.ucsc.bostau9.masked
 
     <script>
         var package = "bioconductor-bsgenome.btaurus.ucsc.bostau9.masked";
-        var versions = ["1.4.4","1.4.4","1.4.4"];
+        var versions = ["1.4.4","1.4.4","1.4.4","1.4.4"];
     </script>
 
 

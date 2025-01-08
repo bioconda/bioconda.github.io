@@ -12,8 +12,8 @@ bioconductor-xcms
 
    LC\-MS and GC\-MS Data Analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/xcms.html
-   :license: GPL-2.0-or-later + file LICENSE
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/xcms.html
+   :license: GPL (>= 2) + file LICENSE
    :recipe: /`bioconductor-xcms <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xcms>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xcms/meta.yaml>`_
    :links: biotools: :biotools:`xcms`
 

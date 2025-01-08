@@ -12,7 +12,7 @@ bioconductor-txdb.celegans.ucsc.ce11.ensgene
 
    Annotation package for TxDb object\(s\)
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/TxDb.Celegans.UCSC.ce11.ensGene.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/TxDb.Celegans.UCSC.ce11.ensGene.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-txdb.celegans.ucsc.ce11.ensgene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.celegans.ucsc.ce11.ensgene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.celegans.ucsc.ce11.ensgene/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-txdb.celegans.ucsc.ce11.ensgene
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.15.0-2</code>,  <code>3.15.0-1</code>,  <code>3.15.0-0</code>,  <code>3.12.0-4</code>,  <code>3.12.0-3</code>,  <code>3.12.0-2</code>,  <code>3.12.0-1</code>,  <code>3.12.0-0</code>,  <code>3.11.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.15.0-3</code>,  <code>3.15.0-2</code>,  <code>3.15.0-1</code>,  <code>3.15.0-0</code>,  <code>3.12.0-4</code>,  <code>3.12.0-3</code>,  <code>3.12.0-2</code>,  <code>3.12.0-1</code>,  <code>3.12.0-0</code>,  </span></summary>
       
 
-      ``3.15.0-2``,  ``3.15.0-1``,  ``3.15.0-0``,  ``3.12.0-4``,  ``3.12.0-3``,  ``3.12.0-2``,  ``3.12.0-1``,  ``3.12.0-0``,  ``3.11.0-0``,  ``3.4.6-2``,  ``3.4.6-1``
+      ``3.15.0-3``,  ``3.15.0-2``,  ``3.15.0-1``,  ``3.15.0-0``,  ``3.12.0-4``,  ``3.12.0-3``,  ``3.12.0-2``,  ``3.12.0-1``,  ``3.12.0-0``,  ``3.11.0-0``,  ``3.4.6-2``,  ``3.4.6-1``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-txdb.celegans.ucsc.ce11.ensgene
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -95,7 +95,7 @@ bioconductor-txdb.celegans.ucsc.ce11.ensgene
 
     <script>
         var package = "bioconductor-txdb.celegans.ucsc.ce11.ensgene";
-        var versions = ["3.15.0","3.15.0","3.15.0","3.12.0","3.12.0"];
+        var versions = ["3.15.0","3.15.0","3.15.0","3.15.0","3.12.0"];
     </script>
 
 

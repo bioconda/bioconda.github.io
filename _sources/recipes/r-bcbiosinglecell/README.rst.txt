@@ -29,10 +29,10 @@ r-bcbiosinglecell
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.4-0</code>,  <code>0.6.3-2</code>,  <code>0.6.3-1</code>,  <code>0.6.3-0</code>,  <code>0.6.2-1</code>,  <code>0.6.2-0</code>,  <code>0.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.1-1</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.4-0</code>,  <code>0.6.3-2</code>,  <code>0.6.3-1</code>,  <code>0.6.3-0</code>,  <code>0.6.2-1</code>,  <code>0.6.2-0</code>,  </span></summary>
       
 
-      ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.4-0``,  ``0.6.3-2``,  ``0.6.3-1``,  ``0.6.3-0``,  ``0.6.2-1``,  ``0.6.2-0``,  ``0.5.0-0``,  ``0.4.16-1``,  ``0.4.16-0``,  ``0.4.13-0``,  ``0.4.12-1``,  ``0.4.12-0``,  ``0.4.11-0``,  ``0.4.10-1``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``
+      ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.4-0``,  ``0.6.3-2``,  ``0.6.3-1``,  ``0.6.3-0``,  ``0.6.2-1``,  ``0.6.2-0``,  ``0.5.0-0``,  ``0.4.16-1``,  ``0.4.16-0``,  ``0.4.13-0``,  ``0.4.12-1``,  ``0.4.12-0``,  ``0.4.11-0``,  ``0.4.10-1``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``
 
       
       .. raw:: html
@@ -56,7 +56,7 @@ r-bcbiosinglecell
    :depends r-acidplots: ``>=0.7.0``
    :depends r-acidplyr: ``>=0.5.0``
    :depends r-acidsinglecell: ``>=0.4.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-basejump: ``>=0.18.0``
    :depends r-bcbiobase: ``>=0.9.0``
    :depends r-ggplot2: ``>=3.4.3``
@@ -115,7 +115,7 @@ r-bcbiosinglecell
 
     <script>
         var package = "r-bcbiosinglecell";
-        var versions = ["0.7.1","0.7.0","0.6.4","0.6.3","0.6.3"];
+        var versions = ["0.7.1","0.7.1","0.7.0","0.6.4","0.6.3"];
     </script>
 
 

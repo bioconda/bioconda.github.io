@@ -12,7 +12,7 @@ bioconductor-hibag
 
    HLA Genotype Imputation with Attribute Bagging
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/HIBAG.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/HIBAG.html
    :license: GPL-3
    :recipe: /`bioconductor-hibag <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hibag>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hibag/meta.yaml>`_
    :links: biotools: :biotools:`hibag`

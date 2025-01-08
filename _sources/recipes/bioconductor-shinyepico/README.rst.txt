@@ -12,7 +12,7 @@ bioconductor-shinyepico
 
    ShinyÉPICo
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/shinyepico.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/shinyepico.html
    :license: AGPL-3 + file LICENSE
    :recipe: /`bioconductor-shinyepico <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-shinyepico>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-shinyepico/meta.yaml>`_
 
@@ -27,16 +27,16 @@ bioconductor-shinyepico
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-minfi: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-minfi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: ``>=1.13.0``
    :depends r-doparallel: ``>=1.0.0``
    :depends r-dplyr: ``>=1.0.9``
@@ -107,7 +107,7 @@ bioconductor-shinyepico
 
     <script>
         var package = "bioconductor-shinyepico";
-        var versions = ["1.10.0","1.8.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.2.0"];
     </script>
 
 

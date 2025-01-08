@@ -12,7 +12,7 @@ bioconductor-tabulamurissenisdata
 
    Bulk and single\-cell RNA\-seq data from the Tabula Muris Senis project
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/TabulaMurisSenisData.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/TabulaMurisSenisData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-tabulamurissenisdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tabulamurissenisdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tabulamurissenisdata/meta.yaml>`_
 
@@ -27,19 +27,19 @@ bioconductor-tabulamurissenisdata
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-hdf5array: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-hdf5array: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-gdata: 
    :requirements:
 
@@ -91,7 +91,7 @@ bioconductor-tabulamurissenisdata
 
     <script>
         var package = "bioconductor-tabulamurissenisdata";
-        var versions = ["1.8.0","1.6.0","1.4.0","1.0.0","1.0.0"];
+        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.0.0"];
     </script>
 
 

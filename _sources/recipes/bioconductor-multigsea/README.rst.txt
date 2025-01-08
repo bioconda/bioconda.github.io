@@ -12,7 +12,7 @@ bioconductor-multigsea
 
    Combining GSEA\-based pathway enrichment with multi omics data integration
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/multiGSEA.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/multiGSEA.html
    :license: GPL-3
    :recipe: /`bioconductor-multigsea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multigsea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multigsea/meta.yaml>`_
 
@@ -27,16 +27,16 @@ bioconductor-multigsea
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-fgsea: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-graphite: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-fgsea: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-graphite: ``>=1.52.0,<1.53.0``
    :depends bioconductor-metaboliteidmapping: ``>=1.0.0,<1.1.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-magrittr: 
    :depends r-metap: 
@@ -92,7 +92,7 @@ bioconductor-multigsea
 
     <script>
         var package = "bioconductor-multigsea";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.0"];
+        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.4.0"];
     </script>
 
 

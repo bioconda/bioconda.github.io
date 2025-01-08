@@ -12,7 +12,7 @@ bioconductor-mirbaseconverter
 
    A comprehensive and high\-efficiency tool for converting and retrieving the information of miRNAs in different miRBase versions
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/miRBaseConverter.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/miRBaseConverter.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mirbaseconverter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirbaseconverter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirbaseconverter/meta.yaml>`_
 

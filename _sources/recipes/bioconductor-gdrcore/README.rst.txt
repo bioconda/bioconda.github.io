@@ -12,7 +12,7 @@ bioconductor-gdrcore
 
    Processing functions and interface to process and analyze drug dose\-response data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/gDRcore.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/gDRcore.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gdrcore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdrcore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdrcore/meta.yaml>`_
 

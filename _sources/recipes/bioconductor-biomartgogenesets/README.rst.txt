@@ -12,7 +12,7 @@ bioconductor-biomartgogenesets
 
    Gene Ontology Gene Sets from BioMart
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/BioMartGOGeneSets.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/BioMartGOGeneSets.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-biomartgogenesets <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biomartgogenesets>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biomartgogenesets/meta.yaml>`_
 

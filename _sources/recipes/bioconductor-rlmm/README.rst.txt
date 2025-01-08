@@ -12,7 +12,7 @@ bioconductor-rlmm
 
    A Genotype Calling Algorithm for Affymetrix SNP Arrays
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/RLMM.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/RLMM.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-rlmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rlmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rlmm/meta.yaml>`_
    :links: biotools: :biotools:`rlmm`, doi: :doi:`10.1093/bioinformatics/bti741`

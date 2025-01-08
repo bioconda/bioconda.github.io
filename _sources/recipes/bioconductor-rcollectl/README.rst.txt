@@ -12,7 +12,7 @@ bioconductor-rcollectl
 
    Help use collectl with R in Linux\, to measure resource consumption in R processes
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Rcollectl.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Rcollectl.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rcollectl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcollectl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcollectl/meta.yaml>`_
 

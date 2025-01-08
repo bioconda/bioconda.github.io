@@ -12,7 +12,7 @@ bioconductor-cageminer
 
    Candidate Gene Miner
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/cageminer.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/cageminer.html
    :license: GPL-3
    :recipe: /`bioconductor-cageminer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cageminer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cageminer/meta.yaml>`_
 
@@ -27,17 +27,17 @@ bioconductor-cageminer
       
       
 
-      ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-bionero: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-ggbio: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-bionero: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-ggbio: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: 
    :depends r-ggtext: 
    :depends r-reshape2: 
@@ -92,7 +92,7 @@ bioconductor-cageminer
 
     <script>
         var package = "bioconductor-cageminer";
-        var versions = ["1.8.0","1.6.1","1.4.0","1.0.0"];
+        var versions = ["1.12.0","1.8.0","1.6.1","1.4.0","1.0.0"];
     </script>
 
 

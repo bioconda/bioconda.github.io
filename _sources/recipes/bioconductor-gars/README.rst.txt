@@ -12,7 +12,7 @@ bioconductor-gars
 
    GARS\: Genetic Algorithm for the identification of Robust Subsets of variables in high\-dimensional and challenging datasets
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GARS.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/GARS.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-gars <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gars>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gars/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-gars
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.6.0-0</code>,  </span></summary>
       
 
-      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+      ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-gars
       
 
    
-   :depends bioconductor-damirseq: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-mlseq: ``>=2.20.0,<2.21.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-damirseq: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-mlseq: ``>=2.24.0,<2.25.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cluster: 
    :depends r-ggplot2: 
    :requirements:
@@ -96,7 +96,7 @@ bioconductor-gars
 
     <script>
         var package = "bioconductor-gars";
-        var versions = ["1.22.0","1.20.0","1.18.0","1.14.0","1.12.0"];
+        var versions = ["1.26.0","1.22.0","1.20.0","1.18.0","1.14.0"];
     </script>
 
 

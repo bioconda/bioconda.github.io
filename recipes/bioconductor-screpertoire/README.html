@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Package Recipe &#39;bioconductor-screpertoire&#39; &#8212; Bioconda  documentation</title>
-    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
     <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css?v=39de963d" />
     <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css?v=48720263" />
@@ -70,16 +70,16 @@
 <dd><p>A toolkit for single-cell immune receptor profiling</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.18/bioc/html/scRepertoire.html">https://bioconductor.org/packages/3.18/bioc/html/scRepertoire.html</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.20/bioc/html/scRepertoire.html">https://bioconductor.org/packages/3.20/bioc/html/scRepertoire.html</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>GPL-2</p>
+<dd class="field-even"><p>MIT + file LICENSE</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-screpertoire">bioconductor-screpertoire</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-screpertoire/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>scRepertoire was built to process data derived from the 10x Genomics Chromium Immune Profiling for both T-cell receptor (TCR) and immunoglobulin (Ig) enrichment workflows and subsequently interacts with the popular Seurat and SingleCellExperiment R packages. It also allows for general analysis of single-cell clonotype information without the use of expression information. The package functions as a wrapper for Startrac and powerTCR R packages.</p>
+<p>scRepertoire is a toolkit for processing and analyzing single-cell T-cell receptor (TCR) and immunoglobulin (Ig). The scRepertoire framework supports use of 10x, AIRR, BD, MiXCR, Omniscope, TRUST4, and WAT3R single-cell formats. The functionality includes basic clonal analyses, repertoire summaries, distance-based clustering and interaction with the popular Seurat and SingleCellExperiment/Bioconductor R workflows.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -89,35 +89,70 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-screpertoire"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-screpertoire.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-screpertoire"><img alt="docker_bioconductor-screpertoire" src="https://quay.io/repository/biocontainers/bioconductor-screpertoire/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.12.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.10.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.8.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.12.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.10.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.8.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
 </dd>
-<dt class="field-even">depends bioconductor-powertcr<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.22.0,&lt;1.23.0</span></code></p>
+<dt class="field-even">depends bioconductor-s4vectors<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.44.0,&lt;0.45.0</span></code></p>
+</dd>
+<dt class="field-odd">depends bioconductor-s4vectors<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.44.0,&lt;0.45.0a0</span></code></p>
+</dd>
+<dt class="field-even">depends bioconductor-singlecellexperiment<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.28.0,&lt;1.29.0</span></code></p>
 </dd>
 <dt class="field-odd">depends bioconductor-singlecellexperiment<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.24.0,&lt;1.25.0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.28.0,&lt;1.29.0a0</span></code></p>
 </dd>
 <dt class="field-even">depends bioconductor-summarizedexperiment<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.32.0,&lt;1.33.0</span></code></p>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.36.0,&lt;1.37.0</span></code></p>
 </dd>
-<dt class="field-odd">depends r-base<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.3,&lt;4.4.0a0</span></code></p>
+<dt class="field-odd">depends bioconductor-summarizedexperiment<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.36.0,&lt;1.37.0a0</span></code></p>
 </dd>
-<dt class="field-even">depends r-doparallel<span class="colon">:</span></dt>
+<dt class="field-even">depends libblas<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.9.0,&lt;4.0a0</span></code></p>
+</dd>
+<dt class="field-odd">depends libgcc<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
+</dd>
+<dt class="field-even">depends liblapack<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.9.0,&lt;4.0a0</span></code></p>
+</dd>
+<dt class="field-odd">depends libstdcxx<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
+</dd>
+<dt class="field-even">depends r-base<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.4,&lt;4.5.0a0</span></code></p>
+</dd>
+<dt class="field-odd">depends r-cubature<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends r-dplyr<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends r-dplyr<span class="colon">:</span></dt>
+<dt class="field-odd">depends r-evmix<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends r-ggalluvial<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends r-ggplot2<span class="colon">:</span></dt>
+<dt class="field-odd">depends r-ggdendro<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-ggraph<span class="colon">:</span></dt>
+<dt class="field-even">depends r-ggplot2<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends r-ggraph<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends r-hash<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends r-igraph<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-plyr<span class="colon">:</span></dt>
+<dt class="field-even">depends r-inext<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends r-reshape2<span class="colon">:</span></dt>
+<dt class="field-odd">depends r-plyr<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends r-quantreg<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends r-rcpp<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends r-reshape2<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends r-rjson<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends r-rlang<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
@@ -129,12 +164,14 @@
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends r-tidygraph<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends r-vegan<span class="colon">:</span></dt>
+<dt class="field-odd">depends r-truncdist<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">requirements<span class="colon">:</span></dt>
+<dt class="field-even">depends r-vgam<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
+<dt class="field-odd">requirements<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
+<dt class="field-even">additional platforms<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -169,7 +206,7 @@ others.</p>
 
 <script>
     var package = "bioconductor-screpertoire";
-    var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.0"];
+    var versions = ["2.2.0","1.12.0","1.10.0","1.8.0","1.4.0"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
@@ -320,7 +357,7 @@ others.</p>
 
     
     <div class="footer">
-      &#169;2016-2024, The Bioconda Team.
+      &#169;2016-2025, The Bioconda Team.
       
       |
       Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.1.3</a>

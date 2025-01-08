@@ -27,7 +27,7 @@ r-easylift
       
       
 
-      ``0.2.1-0``
+      ``0.2.1-1``,  ``0.2.1-0``
 
       
 
@@ -35,7 +35,7 @@ r-easylift
    :depends bioconductor-genomicranges: 
    :depends bioconductor-iranges: 
    :depends bioconductor-rtracklayer: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -86,7 +86,7 @@ r-easylift
 
     <script>
         var package = "r-easylift";
-        var versions = ["0.2.1"];
+        var versions = ["0.2.1","0.2.1"];
     </script>
 
 

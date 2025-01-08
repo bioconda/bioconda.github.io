@@ -12,8 +12,8 @@ bioconductor-methylmnm
 
    detect different methylation level \(DMR\)
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/methylMnM.html
-   :license: GPL-3.0-only
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/methylMnM.html
+   :license: GPL-3
    :recipe: /`bioconductor-methylmnm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylmnm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylmnm/meta.yaml>`_
    :links: biotools: :biotools:`methylmnm`, doi: :doi:`10.1101/gr.156539.113`
 

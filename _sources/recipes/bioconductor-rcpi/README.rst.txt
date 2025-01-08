@@ -12,7 +12,7 @@ bioconductor-rcpi
 
    Molecular Informatics Toolkit for Compound\-Protein Interaction in Drug Discovery
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Rcpi.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Rcpi.html
    :license: Artistic-2.0 | file LICENSE
    :recipe: /`bioconductor-rcpi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcpi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcpi/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-rcpi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.36.1-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.42.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.1-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  </span></summary>
       
 
-      ``1.38.0-0``,  ``1.36.1-0``,  ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.18.1-0``
+      ``1.42.0-0``,  ``1.38.0-0``,  ``1.36.1-0``,  ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.18.1-0``
 
       
       .. raw:: html
@@ -40,13 +40,14 @@ bioconductor-rcpi
       
 
    
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-gosemsim: ``>=2.28.0,<2.29.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-gosemsim: ``>=2.32.0,<2.33.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-curl: 
    :depends r-doparallel: 
    :depends r-foreach: 
-   :depends r-rcurl: 
-   :depends r-rjson: 
+   :depends r-httr2: 
+   :depends r-jsonlite: 
    :depends r-rlang: 
    :requirements:
 
@@ -98,7 +99,7 @@ bioconductor-rcpi
 
     <script>
         var package = "bioconductor-rcpi";
-        var versions = ["1.38.0","1.36.1","1.34.0","1.30.0","1.28.0"];
+        var versions = ["1.42.0","1.38.0","1.36.1","1.34.0","1.30.0"];
     </script>
 
 

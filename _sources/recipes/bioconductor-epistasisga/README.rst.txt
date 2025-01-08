@@ -12,7 +12,7 @@ bioconductor-epistasisga
 
    An R package to identify multi\-snp effects in nuclear family studies using the GADGETS method
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/epistasisGA.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/epistasisGA.html
    :license: GPL-3
    :recipe: /`bioconductor-epistasisga <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epistasisga>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epistasisga/meta.yaml>`_
 

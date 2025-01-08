@@ -12,7 +12,7 @@ bioconductor-phenogeneranker
 
    PhenoGeneRanker\: A gene and phenotype prioritization tool
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/PhenoGeneRanker.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/PhenoGeneRanker.html
    :license: Creative Commons Attribution 4.0 International License
    :recipe: /`bioconductor-phenogeneranker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phenogeneranker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phenogeneranker/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-tmexplorer
 
    A Collection of Tumour Microenvironment Single\-cell RNA Sequencing Datasets and Corresponding Metadata
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/TMExplorer.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/TMExplorer.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-tmexplorer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tmexplorer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tmexplorer/meta.yaml>`_
 
@@ -27,16 +27,16 @@ bioconductor-tmexplorer
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.1-0``,  ``0.99.6-0``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.1-0``,  ``0.99.6-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-matrix: 
    :requirements:
 
@@ -88,7 +88,7 @@ bioconductor-tmexplorer
 
     <script>
         var package = "bioconductor-tmexplorer";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.4.0"];
+        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.4.0"];
     </script>
 
 

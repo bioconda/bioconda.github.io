@@ -12,7 +12,7 @@ bioconductor-mageckflute
 
    Integrative Analysis Pipeline for Pooled CRISPR Functional Genetic Screens
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MAGeCKFlute.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MAGeCKFlute.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-mageckflute <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mageckflute>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mageckflute/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-mageckflute
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.9.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  </span></summary>
       
 
-      ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.2-0``,  ``1.2.3-0``,  ``1.2.2-0``
+      ``2.9.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.2-0``,  ``1.2.3-0``,  ``1.2.2-0``
 
       
       .. raw:: html
@@ -40,13 +40,13 @@ bioconductor-mageckflute
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-clusterprofiler: ``>=4.10.0,<4.11.0``
-   :depends bioconductor-depmap: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-dose: ``>=3.28.0,<3.29.0``
-   :depends bioconductor-enrichplot: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-pathview: ``>=1.42.0,<1.43.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-clusterprofiler: ``>=4.14.0,<4.15.0``
+   :depends bioconductor-depmap: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-dose: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-enrichplot: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-pathview: ``>=1.46.0,<1.47.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: 
    :depends r-ggrepel: 
    :depends r-gridextra: 
@@ -102,7 +102,7 @@ bioconductor-mageckflute
 
     <script>
         var package = "bioconductor-mageckflute";
-        var versions = ["2.6.0","2.4.0","2.2.0","1.14.0","1.12.0"];
+        var versions = ["2.9.0","2.6.0","2.4.0","2.2.0","1.14.0"];
     </script>
 
 

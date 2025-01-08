@@ -12,7 +12,7 @@ bioconductor-plasmut
 
    Stratifying mutations observed in cell\-free DNA and white blood cells as germline\, hematopoietic\, or somatic
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/plasmut.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/plasmut.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-plasmut <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plasmut>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plasmut/meta.yaml>`_
 

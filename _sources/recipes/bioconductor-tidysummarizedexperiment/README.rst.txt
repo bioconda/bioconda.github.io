@@ -12,7 +12,7 @@ bioconductor-tidysummarizedexperiment
 
    Brings SummarizedExperiment to the Tidyverse
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/tidySummarizedExperiment.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/tidySummarizedExperiment.html
    :license: GPL-3
    :recipe: /`bioconductor-tidysummarizedexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tidysummarizedexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tidysummarizedexperiment/meta.yaml>`_
 

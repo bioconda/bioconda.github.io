@@ -12,7 +12,7 @@ bioconductor-phenotest
 
    Tools to test association between gene expression and phenotype in a way that is efficient\, structured\, fast and scalable. We also provide tools to do GSEA \(Gene set enrichment analysis\) and copy number variation.
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/phenoTest.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/phenoTest.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-phenotest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phenotest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phenotest/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-phenotest
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.54.0-0</code>,  <code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  </span></summary>
       
 
-      ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``
+      ``1.54.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``
 
       
       .. raw:: html
@@ -40,18 +40,18 @@ bioconductor-phenotest
       
 
    
-   :depends bioconductor-annotate: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-category: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-genefilter: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-gseabase: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-heatplus: ``>=3.10.0,<3.11.0``
+   :depends bioconductor-annotate: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biomart: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-category: ``>=2.72.0,<2.73.0``
+   :depends bioconductor-genefilter: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-gseabase: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-heatplus: ``>=3.14.0,<3.15.0``
    :depends bioconductor-hgu133a.db: ``>=3.13.0,<3.14.0``
-   :depends bioconductor-hopach: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-hopach: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-bma: 
    :depends r-ellipse: 
    :depends r-ggplot2: 
@@ -110,7 +110,7 @@ bioconductor-phenotest
 
     <script>
         var package = "bioconductor-phenotest";
-        var versions = ["1.50.0","1.48.0","1.46.0","1.42.0","1.40.0"];
+        var versions = ["1.54.0","1.50.0","1.48.0","1.46.0","1.42.0"];
     </script>
 
 

@@ -12,7 +12,7 @@ bioconductor-msstatsqc
 
    Longitudinal system suitability monitoring and quality control for proteomic experiments
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MSstatsQC.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MSstatsQC.html
    :license: Artistic License 2.0
    :recipe: /`bioconductor-msstatsqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatsqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatsqc/meta.yaml>`_
 

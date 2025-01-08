@@ -28,16 +28,21 @@ ghostx
       
       
 
-      ``1.3.7-1``,  ``1.3.7-0``
+      ``1.3.7-2``,  ``1.3.7-1``,  ``1.3.7-0``
 
       
 
    
-   :depends libgcc-ng: ``>=4.9``
-   :depends libstdcxx-ng: ``>=4.9``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -85,7 +90,7 @@ ghostx
 
     <script>
         var package = "ghostx";
-        var versions = ["1.3.7","1.3.7"];
+        var versions = ["1.3.7","1.3.7","1.3.7"];
     </script>
 
 

@@ -12,7 +12,7 @@ bioconductor-s4arrays
 
    Foundation of array\-like containers in Bioconductor
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/S4Arrays.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/S4Arrays.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-s4arrays <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-s4arrays>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-s4arrays/meta.yaml>`_
 

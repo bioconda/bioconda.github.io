@@ -12,7 +12,7 @@ bioconductor-ffpeexampledata
 
    Illumina DASL example microarray data
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/ffpeExampleData.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/ffpeExampleData.html
    :license: GPL (>2)
    :recipe: /`bioconductor-ffpeexampledata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ffpeexampledata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ffpeexampledata/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-ffpeexampledata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.44.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  </span></summary>
       
 
-      ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
+      ``1.44.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-ffpeexampledata
       
 
    
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-lumi: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-lumi: ``>=2.58.0,<2.59.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -94,7 +94,7 @@ bioconductor-ffpeexampledata
 
     <script>
         var package = "bioconductor-ffpeexampledata";
-        var versions = ["1.40.0","1.38.0","1.36.0","1.32.0","1.32.0"];
+        var versions = ["1.44.0","1.40.0","1.38.0","1.36.0","1.32.0"];
     </script>
 
 

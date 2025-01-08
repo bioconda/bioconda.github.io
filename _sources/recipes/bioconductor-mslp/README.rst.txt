@@ -12,7 +12,7 @@ bioconductor-mslp
 
    Predict synthetic lethal partners of tumour mutations
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/mslp.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/mslp.html
    :license: GPL-3
    :recipe: /`bioconductor-mslp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mslp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mslp/meta.yaml>`_
 
@@ -27,14 +27,14 @@ bioconductor-mslp
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-rankprod: ``>=3.28.0,<3.29.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-rankprod: ``>=3.32.0,<3.33.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: ``>=1.13.0``
    :depends r-dorng: 
    :depends r-fmsb: 
@@ -92,7 +92,7 @@ bioconductor-mslp
 
     <script>
         var package = "bioconductor-mslp";
-        var versions = ["1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

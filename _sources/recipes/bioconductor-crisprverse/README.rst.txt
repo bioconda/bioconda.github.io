@@ -12,7 +12,7 @@ bioconductor-crisprverse
 
    Easily install and load the crisprVerse ecosystem for CRISPR gRNA design
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/crisprVerse.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/crisprVerse.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-crisprverse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprverse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprverse/meta.yaml>`_
 
@@ -27,18 +27,18 @@ bioconductor-crisprverse
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-crisprbase: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-crisprbowtie: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-crisprdesign: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-crisprscore: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-crisprscoredata: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-crisprviz: ``>=1.4.0,<1.5.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-crisprbase: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-crisprbowtie: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-crisprdesign: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-crisprscore: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-crisprscoredata: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-crisprviz: ``>=1.8.0,<1.9.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-biocmanager: 
    :depends r-cli: 
    :depends r-rlang: 
@@ -92,7 +92,7 @@ bioconductor-crisprverse
 
     <script>
         var package = "bioconductor-crisprverse";
-        var versions = ["1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

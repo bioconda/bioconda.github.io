@@ -12,7 +12,7 @@ bioconductor-tripr
 
    T\-cell Receptor\/Immunoglobulin Profiler \(TRIP\)
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/tripr.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/tripr.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-tripr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tripr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tripr/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-tweedeseq
 
    RNA\-seq data analysis using the Poisson\-Tweedie family of distributions
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/tweeDEseq.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/tweeDEseq.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-tweedeseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tweedeseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tweedeseq/meta.yaml>`_
    :links: biotools: :biotools:`tweedeseq`
@@ -48,8 +48,9 @@ bioconductor-tweedeseq
    :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
    :depends bioconductor-limma: ``>=3.62.0,<3.63.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-mass: 
    :depends r-rcpp: ``>=1.0.10``

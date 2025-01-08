@@ -12,7 +12,7 @@ bioconductor-cadd.v1.6.hg38
 
    CADD v1.6 Pathogenicity Scores AnnotationHub Resource Metadata for hg38
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/cadd.v1.6.hg38.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/cadd.v1.6.hg38.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cadd.v1.6.hg38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cadd.v1.6.hg38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cadd.v1.6.hg38/meta.yaml>`_
 

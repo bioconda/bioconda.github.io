@@ -12,11 +12,11 @@ bioconductor-adacgh2
 
    Analysis of big data from aCGH experiments using parallel computing and ff objects
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ADaCGH2.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ADaCGH2.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-adacgh2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adacgh2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adacgh2/meta.yaml>`_
 
-   Analysis and plotting of array CGH data. Allows usage of Circular Binary Segementation\, wavelet\-based smoothing \(both as in Liu et al.\, and HaarSeg as in Ben\-Yaacov and Eldar\)\, HMM\, BioHMM\, GLAD\, CGHseg. Most computations are parallelized \(either via forking or with clusters\, including MPI and sockets clusters\) and use ff for storing data.
+   Analysis and plotting of array CGH data. Allows usage of Circular Binary Segementation\, wavelet\-based smoothing \(both as in Liu et al.\, and HaarSeg as in Ben\-Yaacov and Eldar\)\, HMM\, GLAD\, CGHseg. Most computations are parallelized \(either via forking or with clusters\, including MPI and sockets clusters\) and use ff for storing data.
 
 
 .. conda:package:: bioconductor-adacgh2

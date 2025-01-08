@@ -12,7 +12,7 @@ bioconductor-tigre
 
    Transcription factor Inference through Gaussian process Reconstruction of Expression
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/tigre.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/tigre.html
    :license: AGPL-3
    :recipe: /`bioconductor-tigre <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tigre>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tigre/meta.yaml>`_
    :links: biotools: :biotools:`tigre`
@@ -50,6 +50,7 @@ bioconductor-tigre
    :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
    :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dbi: 

@@ -12,7 +12,7 @@ bioconductor-pd.mirna.3.0
 
    Platform Design Info for Affymetrix miRNA\-3\_0
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/pd.mirna.3.0.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/pd.mirna.3.0.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.mirna.3.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.mirna.3.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.mirna.3.0/meta.yaml>`_
 

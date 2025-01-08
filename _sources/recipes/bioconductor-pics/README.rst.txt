@@ -12,7 +12,7 @@ bioconductor-pics
 
    Probabilistic inference of ChIP\-seq
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/PICS.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/PICS.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pics/meta.yaml>`_
    :links: biotools: :biotools:`pics`
@@ -50,6 +50,7 @@ bioconductor-pics
    :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0``
    :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:

@@ -10,9 +10,9 @@ bioconductor-nanomethviz
    :replaces_section_title:
    :noindex:
 
-   Visualise methlation data from Oxford Nanopore sequencing
+   Visualise methylation data from Oxford Nanopore sequencing
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/NanoMethViz.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/NanoMethViz.html
    :license: Apache License (>= 2.0)
    :recipe: /`bioconductor-nanomethviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nanomethviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nanomethviz/meta.yaml>`_
 

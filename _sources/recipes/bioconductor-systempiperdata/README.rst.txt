@@ -12,11 +12,11 @@ bioconductor-systempiperdata
 
    systemPipeRdata\: Workflow templates and sample data
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/systemPipeRdata.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/systemPipeRdata.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-systempiperdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-systempiperdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-systempiperdata/meta.yaml>`_
 
-   systemPipeRdata is a helper package to generate with a single command NGS workflow templates that are intended to be used by its parent package systemPipeR. The latter is an environment for building end\-to\-end analysis pipelines with automated report generation for next generation sequence \(NGS\) applications such as RNA\-Seq\, RIBO\-Seq\, ChIP\-Seq\, VAR\-Seq and many others. Detailed examples for using systemPipeRdata are given in systemPipeR\'s overview vignette.
+   systemPipeRdata complements the systemPipeR workflow management system \(WMS\) by offering a collection of pre\-designed data analysis workflow templates. These templates are easily accessible and can be readily loaded onto a user\'s system with a single command. Once loaded\, the WMS can immediately utilize these templates for efficient end\-to\-end analysis\, serving a wide range of data analysis needs.
 
 
 .. conda:package:: bioconductor-systempiperdata

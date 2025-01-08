@@ -12,7 +12,7 @@ bioconductor-maftools
 
    Summarize\, Analyze and Visualize MAF Files
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/maftools.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/maftools.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-maftools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maftools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maftools/meta.yaml>`_
    :links: biotools: :biotools:`maftools`, usegalaxy-eu: :usegalaxy-eu:`maftools`

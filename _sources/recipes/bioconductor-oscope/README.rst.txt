@@ -12,7 +12,7 @@ bioconductor-oscope
 
    Oscope \- A statistical pipeline for identifying oscillatory genes in unsynchronized single cell RNA\-seq
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Oscope.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Oscope.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-oscope <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oscope>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oscope/meta.yaml>`_
    :links: biotools: :biotools:`oscope`, doi: :doi:`10.1038/nmeth.3549`

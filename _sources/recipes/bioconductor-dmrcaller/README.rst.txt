@@ -12,8 +12,8 @@ bioconductor-dmrcaller
 
    Differentially Methylated Regions caller
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/DMRcaller.html
-   :license: GPL-3.0-only
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/DMRcaller.html
+   :license: GPL-3
    :recipe: /`bioconductor-dmrcaller <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrcaller>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrcaller/meta.yaml>`_
    :links: biotools: :biotools:`dmrcaller`
 

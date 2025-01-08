@@ -12,7 +12,7 @@ bioconductor-flowvs
 
    Variance stabilization in flow cytometry \(and microarrays\)
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/flowVS.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/flowVS.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowvs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowvs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowvs/meta.yaml>`_
 
@@ -26,16 +26,24 @@ bioconductor-flowvs
    :versions:
       
       
+      .. raw:: html
 
-      ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.19.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.19.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  </span></summary>
+      
 
+      ``1.38.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.19.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-flowcore: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-flowstats: ``>=4.14.0,<4.15.0``
-   :depends bioconductor-flowviz: ``>=1.66.0,<1.67.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-flowcore: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-flowstats: ``>=4.18.0,<4.19.0``
+   :depends bioconductor-flowviz: ``>=1.70.0,<1.71.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -86,7 +94,7 @@ bioconductor-flowvs
 
     <script>
         var package = "bioconductor-flowvs";
-        var versions = ["1.34.0","1.32.0","1.30.0","1.26.0","1.24.0"];
+        var versions = ["1.38.0","1.34.0","1.32.0","1.30.0","1.26.0"];
     </script>
 
 

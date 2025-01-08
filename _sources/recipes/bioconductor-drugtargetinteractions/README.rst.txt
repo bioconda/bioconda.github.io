@@ -12,7 +12,7 @@ bioconductor-drugtargetinteractions
 
    Drug\-Target Interactions
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/drugTargetInteractions.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/drugTargetInteractions.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-drugtargetinteractions <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drugtargetinteractions>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drugtargetinteractions/meta.yaml>`_
 
@@ -27,18 +27,18 @@ bioconductor-drugtargetinteractions
       
       
 
-      ``1.10.1-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.10.1-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationfilter: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-ensembldb: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-uniprot.ws: ``>=2.42.0,<2.43.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationfilter: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-biomart: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-ensembldb: ``>=2.30.0,<2.31.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-uniprot.ws: ``>=2.46.0,<2.47.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-rappdirs: 
    :depends r-rsqlite: 
@@ -92,7 +92,7 @@ bioconductor-drugtargetinteractions
 
     <script>
         var package = "bioconductor-drugtargetinteractions";
-        var versions = ["1.10.1","1.8.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.14.0","1.10.1","1.8.0","1.6.0","1.2.0"];
     </script>
 
 

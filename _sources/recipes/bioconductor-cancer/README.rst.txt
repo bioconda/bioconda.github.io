@@ -12,7 +12,7 @@ bioconductor-cancer
 
    A Graphical User Interface for accessing and modeling the Cancer Genomics Data of MSKCC
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/canceR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/canceR.html
    :license: GPL-2
    :recipe: /`bioconductor-cancer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cancer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cancer/meta.yaml>`_
 
@@ -27,25 +27,27 @@ bioconductor-cancer
       
       
 
-      ``1.36.0-0``,  ``1.32.0-0``
+      ``1.40.0-0``,  ``1.36.0-0``,  ``1.32.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-genetclassifier: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-gseabase: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-phenotest: ``>=1.50.0,<1.51.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-cbioportaldata: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-genetclassifier: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-gseabase: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-phenotest: ``>=1.54.0,<1.55.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-circlize: 
+   :depends r-dplyr: 
    :depends r-formula: 
-   :depends r-httr: 
    :depends r-plyr: 
    :depends r-r.methodss3: 
    :depends r-r.oo: 
    :depends r-rpart: 
    :depends r-runit: 
    :depends r-survival: 
+   :depends r-tidyr: 
    :depends r-tkrplot: 
    :requirements:
 
@@ -97,7 +99,7 @@ bioconductor-cancer
 
     <script>
         var package = "bioconductor-cancer";
-        var versions = ["1.36.0","1.32.0"];
+        var versions = ["1.40.0","1.36.0","1.32.0"];
     </script>
 
 

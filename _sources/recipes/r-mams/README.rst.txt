@@ -29,7 +29,7 @@ r-mams
       
       
 
-      ``1.0.1-0``
+      ``1.0.1-1``,  ``1.0.1-0``
 
       
 
@@ -41,7 +41,7 @@ r-mams
    :depends bioconductor-scran: 
    :depends bioconductor-singlecellexperiment: 
    :depends r-anndata: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-jsonlite: 
    :depends r-r.methodss3: 
    :depends r-rmdformats: 
@@ -96,7 +96,7 @@ r-mams
 
     <script>
         var package = "r-mams";
-        var versions = ["1.0.1"];
+        var versions = ["1.0.1","1.0.1"];
     </script>
 
 

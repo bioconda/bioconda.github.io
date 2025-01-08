@@ -12,7 +12,7 @@ bioconductor-gofuncr
 
    Gene ontology enrichment using FUNC
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GOfuncR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/GOfuncR.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-gofuncr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gofuncr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gofuncr/meta.yaml>`_
 
@@ -47,8 +47,9 @@ bioconductor-gofuncr
    :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
    :depends bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-gtools: ``>=3.5.0``
    :depends r-mapplots: ``>=1.5``

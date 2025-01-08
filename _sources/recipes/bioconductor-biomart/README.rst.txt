@@ -12,7 +12,7 @@ bioconductor-biomart
 
    Interface to BioMart databases \(i.e. Ensembl\)
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/biomaRt.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/biomaRt.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-biomart <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biomart>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biomart/meta.yaml>`_
    :links: biotools: :biotools:`biomaRt`, doi: :doi:`10.1038/nprot.2009.97`

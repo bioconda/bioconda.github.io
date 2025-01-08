@@ -12,7 +12,7 @@ bioconductor-top
 
    TOP Constructs Transferable Model Across Gene Expression Platforms
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/TOP.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/TOP.html
    :license: GPL-3
    :recipe: /`bioconductor-top <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-top>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-top/meta.yaml>`_
 
@@ -27,15 +27,15 @@ bioconductor-top
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-classifyr: ``>=3.6.0,<3.7.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-classifyr: ``>=3.10.0,<3.11.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
    :depends r-assertthat: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-caret: 
    :depends r-directpa: 
    :depends r-doparallel: 
@@ -110,7 +110,7 @@ bioconductor-top
 
     <script>
         var package = "bioconductor-top";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

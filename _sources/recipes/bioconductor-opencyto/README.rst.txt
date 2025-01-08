@@ -12,7 +12,7 @@ bioconductor-opencyto
 
    Hierarchical Gating Pipeline for flow cytometry data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/openCyto.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/openCyto.html
    :license: AGPL-3.0-only
    :recipe: /`bioconductor-opencyto <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-opencyto>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-opencyto/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-opencyto
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.6.0-2</code>,  <code>2.6.0-1</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.18.0-0</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.6.0-2</code>,  <code>2.6.0-1</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  </span></summary>
       
 
-      ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.6.0-2``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.24.0-0``,  ``1.22.2-0``,  ``1.20.1-0``
+      ``2.18.0-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.6.0-2``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.24.0-0``,  ``1.22.2-0``,  ``1.20.1-0``
 
       
       .. raw:: html
@@ -40,29 +40,29 @@ bioconductor-opencyto
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.1,<0.49.0a0``
-   :depends bioconductor-flowclust: ``>=3.40.0,<3.41.0``
-   :depends bioconductor-flowclust: ``>=3.40.0,<3.41.0a0``
-   :depends bioconductor-flowcore: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-flowcore: ``>=2.14.0,<2.15.0a0``
-   :depends bioconductor-flowviz: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-flowviz: ``>=1.66.0,<1.67.0a0``
-   :depends bioconductor-flowworkspace: ``>=4.14.0,<4.15.0``
-   :depends bioconductor-flowworkspace: ``>=4.14.0,<4.15.0a0``
-   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-graph: ``>=1.80.0,<1.81.0a0``
-   :depends bioconductor-ncdfflow: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-ncdfflow: ``>=2.48.0,<2.49.0a0``
-   :depends bioconductor-rbgl: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-rbgl: ``>=1.78.0,<1.79.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0a0``
+   :depends bioconductor-flowclust: ``>=3.44.0,<3.45.0``
+   :depends bioconductor-flowclust: ``>=3.44.0,<3.45.0a0``
+   :depends bioconductor-flowcore: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-flowcore: ``>=2.18.0,<2.19.0a0``
+   :depends bioconductor-flowviz: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-flowviz: ``>=1.70.0,<1.71.0a0``
+   :depends bioconductor-flowworkspace: ``>=4.18.0,<4.19.0``
+   :depends bioconductor-flowworkspace: ``>=4.18.0,<4.19.0a0``
+   :depends bioconductor-graph: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-graph: ``>=1.84.0,<1.85.0a0``
+   :depends bioconductor-ncdfflow: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-ncdfflow: ``>=2.52.0,<2.53.0a0``
+   :depends bioconductor-rbgl: ``>=1.82.0,<1.83.0``
+   :depends bioconductor-rbgl: ``>=1.82.0,<1.83.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-bh: 
    :depends r-cpp11: 
    :depends r-data.table: 
@@ -117,7 +117,7 @@ bioconductor-opencyto
 
     <script>
         var package = "bioconductor-opencyto";
-        var versions = ["2.14.0","2.12.0","2.10.0","2.10.0","2.6.0"];
+        var versions = ["2.18.0","2.14.0","2.12.0","2.10.0","2.10.0"];
     </script>
 
 

@@ -12,7 +12,7 @@ bioconductor-iterativebmasurv
 
    The Iterative Bayesian Model Averaging \(BMA\) Algorithm For Survival Analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/iterativeBMAsurv.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/iterativeBMAsurv.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-iterativebmasurv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iterativebmasurv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iterativebmasurv/meta.yaml>`_
    :links: biotools: :biotools:`iterativebmasurv`, doi: :doi:`10.1186/1471-2105-10-72`

@@ -12,7 +12,7 @@ bioconductor-genomation
 
    Summary\, annotation and visualization of genomic data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/genomation.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/genomation.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genomation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomation/meta.yaml>`_
    :links: biotools: :biotools:`genomation`
@@ -64,8 +64,9 @@ bioconductor-genomation
    :depends bioconductor-seqpattern: ``>=1.38.0,<1.39.0``
    :depends bioconductor-seqpattern: ``>=1.38.0,<1.39.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: 
    :depends r-ggplot2: 

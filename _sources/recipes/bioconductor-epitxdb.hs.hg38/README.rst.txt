@@ -12,7 +12,7 @@ bioconductor-epitxdb.hs.hg38
 
    Annotation package for EpiTxDb objects
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/EpiTxDb.Hs.hg38.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/EpiTxDb.Hs.hg38.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-epitxdb.hs.hg38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epitxdb.hs.hg38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epitxdb.hs.hg38/meta.yaml>`_
 
@@ -26,17 +26,25 @@ bioconductor-epitxdb.hs.hg38
    :versions:
       
       
+      .. raw:: html
 
-      ``0.99.7-7``,  ``0.99.7-6``,  ``0.99.7-5``,  ``0.99.7-4``,  ``0.99.7-3``,  ``0.99.7-2``,  ``0.99.7-1``,  ``0.99.7-0``,  ``0.99.3-0``
+         <details><summary><span class="truncated-version-list"><code>0.99.7-8</code>,  <code>0.99.7-7</code>,  <code>0.99.7-6</code>,  <code>0.99.7-5</code>,  <code>0.99.7-4</code>,  <code>0.99.7-3</code>,  <code>0.99.7-2</code>,  <code>0.99.7-1</code>,  <code>0.99.7-0</code>,  </span></summary>
+      
 
+      ``0.99.7-8``,  ``0.99.7-7``,  ``0.99.7-6``,  ``0.99.7-5``,  ``0.99.7-4``,  ``0.99.7-3``,  ``0.99.7-2``,  ``0.99.7-1``,  ``0.99.7-0``,  ``0.99.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-epitxdb: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-epitxdb: ``>=1.18.0,<1.19.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:

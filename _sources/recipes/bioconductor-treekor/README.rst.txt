@@ -12,7 +12,7 @@ bioconductor-treekor
 
    Cytometry Cluster Hierarchy and Cellular\-to\-phenotype Associations
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/treekoR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/treekoR.html
    :license: GPL-3
    :recipe: /`bioconductor-treekor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-treekor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-treekor/meta.yaml>`_
 
@@ -27,18 +27,18 @@ bioconductor-treekor
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-diffcyt: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-ggtree: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-hopach: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-diffcyt: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
+   :depends bioconductor-ggtree: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-hopach: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
    :depends r-ape: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-ggiraph: 
@@ -97,7 +97,7 @@ bioconductor-treekor
 
     <script>
         var package = "bioconductor-treekor";
-        var versions = ["1.10.0","1.8.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.2.0"];
     </script>
 
 

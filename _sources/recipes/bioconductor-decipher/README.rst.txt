@@ -12,8 +12,8 @@ bioconductor-decipher
 
    Tools for curating\, analyzing\, and manipulating biological sequences
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/DECIPHER.html
-   :license: GPL-3.0-only
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/DECIPHER.html
+   :license: GPL-3
    :recipe: /`bioconductor-decipher <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-decipher>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-decipher/meta.yaml>`_
    :links: biotools: :biotools:`DECIPHER`
 

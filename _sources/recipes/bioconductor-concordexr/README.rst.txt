@@ -10,13 +10,13 @@ bioconductor-concordexr
    :replaces_section_title:
    :noindex:
 
-   Calculate the concordex coefficient
+   Identify Spatial Homogeneous Regions with concordex
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/concordexR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/concordexR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-concordexr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-concordexr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-concordexr/meta.yaml>`_
 
-   Many analysis workflows include approximation of a nearest neighbors graph followed by clustering of the graph structure. The concordex coefficient estimates the concordance between the graph and clustering results. The package \'concordexR\' is an R implementation of the original concordex Python\-based command line tool.
+   Spatial homogeneous regions \(SHRs\) in tissues are domains that are homogenous with respect to cell type composition. We present a method for identifying SHRs using spatial transcriptomics data\, and demonstrate that it is efficient and effective at finding SHRs for a wide variety of tissue types. concordex relies on analysis of k\-nearest\-neighbor \(kNN\) graphs. The tool is also useful for analysis of non\-spatial transcriptomics data\, and can elucidate the extent of concordance between partitions of cells derived from clustering algorithms\, and transcriptomic similarity as represented in kNN graphs.
 
 
 .. conda:package:: bioconductor-concordexr

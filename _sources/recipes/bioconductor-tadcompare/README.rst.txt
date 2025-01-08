@@ -12,7 +12,7 @@ bioconductor-tadcompare
 
    TADCompare\: Identification and characterization of differential TADs
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/TADCompare.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/TADCompare.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-tadcompare <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tadcompare>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tadcompare/meta.yaml>`_
 
@@ -27,13 +27,13 @@ bioconductor-tadcompare
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-hiccompare: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-hiccompare: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cluster: 
    :depends r-cowplot: 
    :depends r-dplyr: 
@@ -95,7 +95,7 @@ bioconductor-tadcompare
 
     <script>
         var package = "bioconductor-tadcompare";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.0"];
+        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.4.0"];
     </script>
 
 

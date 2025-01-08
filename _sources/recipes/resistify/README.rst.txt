@@ -32,10 +32,10 @@ resistify
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>0.70.0-0</code>,  <code>0.6.3-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-2</code>,  <code>0.6.1-0</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.5.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.1-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.70.0-0</code>,  <code>0.6.3-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-2</code>,  <code>0.6.1-0</code>,  <code>0.6.0-1</code>,  </span></summary>
       
 
-      ``1.0.0-0``,  ``0.70.0-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-2``,  ``0.6.1-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.70.0-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-2``,  ``0.6.1-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -44,7 +44,6 @@ resistify
       
 
    
-   :depends biopython: 
    :depends fair-esm: 
    :depends hmmer: 
    :depends numpy: 
@@ -54,6 +53,7 @@ resistify
    :depends rich-argparse: 
    :depends scikit-learn: ``>=0.24.2``
    :depends sentencepiece: 
+   :depends threadpoolctl: 
    :depends transformers: 
    :requirements:
 
@@ -105,7 +105,7 @@ resistify
 
     <script>
         var package = "resistify";
-        var versions = ["1.0.0","0.70.0","0.6.3","0.6.2","0.6.1"];
+        var versions = ["1.0.1","1.0.0","1.0.0","0.70.0","0.6.3"];
     </script>
 
 

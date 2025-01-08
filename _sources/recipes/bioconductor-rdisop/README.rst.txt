@@ -12,11 +12,11 @@ bioconductor-rdisop
 
    Decomposition of Isotopic Patterns
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Rdisop.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Rdisop.html
    :license: GPL-2
    :recipe: /`bioconductor-rdisop <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rdisop>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rdisop/meta.yaml>`_
 
-   Identification of metabolites using high precision mass spectrometry. MS Peaks are used to derive a ranked list of sum formulae\, alternatively for a given sum formula the theoretical isotope distribution can be calculated to search in MS peak lists.
+   In high resolution mass spectrometry \(HR\-MS\)\, the measured masses can be decomposed into potential element combinations \(chemical sum formulas\). Where additional mass\/intensity information of respective isotopic peaks is available\, decomposition can take this information into account to better rank the potential candidate sum formulas. To compare measured mass\/intensity information with the theoretical distribution of candidate sum formulas\, the latter needs to be calculated. This package implements fast algorithms to address both tasks\, the calculation of isotopic distributions for arbitrary sum formulas \(assuming a HR\-MS resolution of roughly 30\,000\)\, and the ranked list of sum formulas fitting an observed peak or isotopic peak set.
 
 
 .. conda:package:: bioconductor-rdisop

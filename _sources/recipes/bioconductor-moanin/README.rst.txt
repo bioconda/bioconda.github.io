@@ -12,7 +12,7 @@ bioconductor-moanin
 
    An R Package for Time Course RNASeq Data Analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/moanin.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/moanin.html
    :license: BSD 3-clause License + file LICENSE
    :recipe: /`bioconductor-moanin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moanin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moanin/meta.yaml>`_
 
@@ -27,17 +27,17 @@ bioconductor-moanin
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-topgo: ``>=2.54.0,<2.55.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-topgo: ``>=2.58.0,<2.59.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-clusterr: 
    :depends r-mass: ``>=1.0.0``
    :depends r-matrixstats: 
@@ -95,7 +95,7 @@ bioconductor-moanin
 
     <script>
         var package = "bioconductor-moanin";
-        var versions = ["1.10.0","1.8.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.2.0"];
     </script>
 
 

@@ -12,7 +12,7 @@ bioconductor-bsgenome.hsapiens.ucsc.hg17.masked
 
    Full masked genome sequences for Homo sapiens \(UCSC version hg17\)
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/BSgenome.Hsapiens.UCSC.hg17.masked.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/BSgenome.Hsapiens.UCSC.hg17.masked.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.hsapiens.ucsc.hg17.masked <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ucsc.hg17.masked>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ucsc.hg17.masked/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-bsgenome.hsapiens.ucsc.hg17.masked
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.99-12</code>,  <code>1.3.99-11</code>,  <code>1.3.99-10</code>,  <code>1.3.99-9</code>,  <code>1.3.99-8</code>,  <code>1.3.99-7</code>,  <code>1.3.99-6</code>,  <code>1.3.99-5</code>,  <code>1.3.99-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.999-0</code>,  <code>1.3.99-12</code>,  <code>1.3.99-11</code>,  <code>1.3.99-10</code>,  <code>1.3.99-9</code>,  <code>1.3.99-8</code>,  <code>1.3.99-7</code>,  <code>1.3.99-6</code>,  <code>1.3.99-5</code>,  </span></summary>
       
 
-      ``1.3.99-12``,  ``1.3.99-11``,  ``1.3.99-10``,  ``1.3.99-9``,  ``1.3.99-8``,  ``1.3.99-7``,  ``1.3.99-6``,  ``1.3.99-5``,  ``1.3.99-4``,  ``1.3.99-3``,  ``1.3.99-2``,  ``1.3.99-0``
+      ``1.3.999-0``,  ``1.3.99-12``,  ``1.3.99-11``,  ``1.3.99-10``,  ``1.3.99-9``,  ``1.3.99-8``,  ``1.3.99-7``,  ``1.3.99-6``,  ``1.3.99-5``,  ``1.3.99-4``,  ``1.3.99-3``,  ``1.3.99-2``,  ``1.3.99-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-bsgenome.hsapiens.ucsc.hg17.masked
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg17: ``>=1.3.0,<1.4.0``
-   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-data-packages: ``>=20241103``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -95,7 +95,7 @@ bioconductor-bsgenome.hsapiens.ucsc.hg17.masked
 
     <script>
         var package = "bioconductor-bsgenome.hsapiens.ucsc.hg17.masked";
-        var versions = ["1.3.99","1.3.99","1.3.99","1.3.99","1.3.99"];
+        var versions = ["1.3.999","1.3.99","1.3.99","1.3.99","1.3.99"];
     </script>
 
 

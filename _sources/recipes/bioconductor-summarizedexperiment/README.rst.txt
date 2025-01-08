@@ -10,9 +10,9 @@ bioconductor-summarizedexperiment
    :replaces_section_title:
    :noindex:
 
-   SummarizedExperiment container
+   A container \(S4 class\) for matrix\-like assays
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SummarizedExperiment.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SummarizedExperiment.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-summarizedexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-summarizedexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-summarizedexperiment/meta.yaml>`_
    :links: biotools: :biotools:`summarizedexperiment`, doi: :doi:`10.1038/nmeth.3252`

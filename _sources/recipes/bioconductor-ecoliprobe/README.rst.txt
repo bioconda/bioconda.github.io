@@ -12,7 +12,7 @@ bioconductor-ecoliprobe
 
    Probe sequence data for microarrays of type ecoli
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/ecoliprobe.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/ecoliprobe.html
    :license: LGPL
    :recipe: /`bioconductor-ecoliprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecoliprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecoliprobe/meta.yaml>`_
 

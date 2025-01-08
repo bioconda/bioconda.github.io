@@ -12,7 +12,7 @@ bioconductor-mgfr
 
    Marker Gene Finder in RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MGFR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MGFR.html
    :license: GPL-3
    :recipe: /`bioconductor-mgfr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgfr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgfr/meta.yaml>`_
    :links: biotools: :biotools:`mgfr`, doi: :doi:`10.1186/s12864-015-1785-9`
@@ -29,10 +29,10 @@ bioconductor-mgfr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.32.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  </span></summary>
       
 
-      ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.32.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
       .. raw:: html
@@ -41,9 +41,9 @@ bioconductor-mgfr
       
 
    
-   :depends bioconductor-annotate: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotate: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-biomart: ``>=2.62.0,<2.63.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -94,7 +94,7 @@ bioconductor-mgfr
 
     <script>
         var package = "bioconductor-mgfr";
-        var versions = ["1.28.0","1.26.0","1.24.0","1.20.0","1.18.0"];
+        var versions = ["1.32.0","1.28.0","1.26.0","1.24.0","1.20.0"];
     </script>
 
 

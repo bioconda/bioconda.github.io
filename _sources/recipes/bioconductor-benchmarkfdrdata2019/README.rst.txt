@@ -12,7 +12,7 @@ bioconductor-benchmarkfdrdata2019
 
    Data and Benchmarking Results from Korthauer and Kimes et al. \(2019\)
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/benchmarkfdrData2019.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/benchmarkfdrData2019.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-benchmarkfdrdata2019 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-benchmarkfdrdata2019>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-benchmarkfdrdata2019/meta.yaml>`_
 

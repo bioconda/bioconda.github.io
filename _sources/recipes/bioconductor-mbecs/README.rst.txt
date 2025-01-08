@@ -12,7 +12,7 @@ bioconductor-mbecs
 
    Evaluation and correction of batch effects in microbiome data\-sets
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MBECS.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MBECS.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mbecs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbecs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbecs/meta.yaml>`_
 
@@ -27,15 +27,15 @@ bioconductor-mbecs
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-phyloseq: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-sva: ``>=3.50.0,<3.51.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-phyloseq: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-sva: ``>=3.54.0,<3.55.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cluster: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
@@ -100,7 +100,7 @@ bioconductor-mbecs
 
     <script>
         var package = "bioconductor-mbecs";
-        var versions = ["1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.10.0","1.6.0","1.4.0","1.2.0"];
     </script>
 
 

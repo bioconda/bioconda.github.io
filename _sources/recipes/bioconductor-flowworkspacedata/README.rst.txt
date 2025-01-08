@@ -12,7 +12,7 @@ bioconductor-flowworkspacedata
 
    A data package containing two flowJo\, one diva xml workspace and the associated fcs files as well as three GatingSets for testing the flowWorkspace\, openCyto and CytoML packages.
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/flowWorkspaceData.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/flowWorkspaceData.html
    :license: GPL-2
    :recipe: /`bioconductor-flowworkspacedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowworkspacedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowworkspacedata/meta.yaml>`_
 

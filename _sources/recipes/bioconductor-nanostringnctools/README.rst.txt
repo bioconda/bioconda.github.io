@@ -12,7 +12,7 @@ bioconductor-nanostringnctools
 
    NanoString nCounter Tools
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/NanoStringNCTools.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/NanoStringNCTools.html
    :license: MIT
    :recipe: /`bioconductor-nanostringnctools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nanostringnctools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nanostringnctools/meta.yaml>`_
 

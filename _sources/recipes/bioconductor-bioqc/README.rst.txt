@@ -12,8 +12,8 @@ bioconductor-bioqc
 
    Detect tissue heterogeneity in expression profiles with gene sets
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/BioQC.html
-   :license: GPL-3.0-or-later + file LICENSE
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/BioQC.html
+   :license: GPL (>=3) + file LICENSE
    :recipe: /`bioconductor-bioqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bioqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bioqc/meta.yaml>`_
    :links: biotools: :biotools:`bioqc`, doi: :doi:`10.1186/s12864-017-3661-2`
 

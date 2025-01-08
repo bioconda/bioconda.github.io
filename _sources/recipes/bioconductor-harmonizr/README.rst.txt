@@ -12,7 +12,7 @@ bioconductor-harmonizr
 
    Handles missing values and makes more data available
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/HarmonizR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/HarmonizR.html
    :license: GPL-3
    :recipe: /`bioconductor-harmonizr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-harmonizr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-harmonizr/meta.yaml>`_
 
@@ -27,15 +27,15 @@ bioconductor-harmonizr
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-sva: ``>=3.50.0,<3.51.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-sva: ``>=3.54.0,<3.55.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-doparallel: ``>=1.0.16``
    :depends r-foreach: ``>=1.5.1``
    :depends r-janitor: ``>=2.1.0``
@@ -91,7 +91,7 @@ bioconductor-harmonizr
 
     <script>
         var package = "bioconductor-harmonizr";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

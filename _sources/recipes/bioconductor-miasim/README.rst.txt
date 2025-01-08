@@ -12,7 +12,7 @@ bioconductor-miasim
 
    Microbiome Data Simulation
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/miaSim.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/miaSim.html
    :license: Artistic-2.0 | file LICENSE
    :recipe: /`bioconductor-miasim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-miasim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-miasim/meta.yaml>`_
 
@@ -27,16 +27,16 @@ bioconductor-miasim
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-matrixgenerics: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-treesummarizedexperiment: ``>=2.10.0,<2.11.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-matrixgenerics: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-treesummarizedexperiment: ``>=2.14.0,<2.15.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-desolve: 
    :depends r-powerlaw: 
    :requirements:
@@ -89,7 +89,7 @@ bioconductor-miasim
 
     <script>
         var package = "bioconductor-miasim";
-        var versions = ["1.8.0","1.6.0","1.4.0","1.0.0"];
+        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.0.0"];
     </script>
 
 

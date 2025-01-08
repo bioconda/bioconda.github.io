@@ -12,7 +12,7 @@ bioconductor-netactivity
 
    Compute gene set scores from a deep learning framework
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/NetActivity.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/NetActivity.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-netactivity <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netactivity>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netactivity/meta.yaml>`_
 
@@ -27,18 +27,18 @@ bioconductor-netactivity
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-airway: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-delayedmatrixstats: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-deseq2: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-netactivitydata: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-airway: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-deseq2: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-netactivitydata: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -89,7 +89,7 @@ bioconductor-netactivity
 
     <script>
         var package = "bioconductor-netactivity";
-        var versions = ["1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

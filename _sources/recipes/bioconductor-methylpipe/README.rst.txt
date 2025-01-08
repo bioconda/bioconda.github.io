@@ -12,8 +12,8 @@ bioconductor-methylpipe
 
    Base resolution DNA methylation data analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/methylPipe.html
-   :license: GPL-3.0-or-later
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/methylPipe.html
+   :license: GPL(>=2)
    :recipe: /`bioconductor-methylpipe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylpipe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylpipe/meta.yaml>`_
    :links: biotools: :biotools:`methylpipe`
 
@@ -64,6 +64,7 @@ bioconductor-methylpipe
    :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
    :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: 

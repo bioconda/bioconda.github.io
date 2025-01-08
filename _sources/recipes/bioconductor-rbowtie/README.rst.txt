@@ -12,7 +12,7 @@ bioconductor-rbowtie
 
    R bowtie wrapper
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Rbowtie.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Rbowtie.html
    :license: Artistic-2.0 | file LICENSE
    :recipe: /`bioconductor-rbowtie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbowtie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbowtie/meta.yaml>`_
    :links: biotools: :biotools:`rbowtie`, doi: :doi:`10.1038/nmeth.3252`

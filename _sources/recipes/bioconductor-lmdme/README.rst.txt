@@ -12,7 +12,7 @@ bioconductor-lmdme
 
    Linear Model decomposition for Designed Multivariate Experiments
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/lmdme.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/lmdme.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-lmdme <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lmdme>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lmdme/meta.yaml>`_
    :links: biotools: :biotools:`lmdme`

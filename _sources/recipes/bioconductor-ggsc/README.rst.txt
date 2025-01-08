@@ -10,13 +10,13 @@ bioconductor-ggsc
    :replaces_section_title:
    :noindex:
 
-   Visualizing Single Cell Data
+   Visualizing Single Cell and Spatial Transcriptomics
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ggsc.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ggsc.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ggsc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggsc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggsc/meta.yaml>`_
 
-   Useful functions to visualize single cell and spatial data. It supports both \'SingleCellExperiment\' and \'Seurat\' objects. It also supports visualizing the data using grammar of graphics implemented in \'ggplot2\'.
+   Useful functions to visualize single cell and spatial data. It supports visualizing \'Seurat\'\, \'SingleCellExperiment\' and \'SpatialExperiment\' objects through grammar of graphics syntax implemented in \'ggplot2\'.
 
 
 .. conda:package:: bioconductor-ggsc
@@ -37,8 +37,9 @@ bioconductor-ggsc
    :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
    :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cli: 
    :depends r-dplyr: 

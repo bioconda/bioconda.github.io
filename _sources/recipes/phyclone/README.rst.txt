@@ -27,19 +27,19 @@ phyclone
       
       
 
-      ``0.5.1-0``
+      ``0.6.0-0``,  ``0.5.1-0``
 
       
 
    
-   :depends click: 
+   :depends click: ``>=8.0``
    :depends networkx: 
    :depends numba: 
-   :depends numpy: 
-   :depends pandas: 
+   :depends numpy: ``>=1.26.4``
+   :depends pandas: ``>=2.2.2``
    :depends python: ``>=3.10``
-   :depends python-xxhash: 
-   :depends rustworkx: 
+   :depends python-xxhash: ``>=3.3.0``
+   :depends rustworkx: ``>=0.15.1``
    :depends scipy: 
    :requirements:
 
@@ -91,7 +91,7 @@ phyclone
 
     <script>
         var package = "phyclone";
-        var versions = ["0.5.1"];
+        var versions = ["0.6.0","0.5.1"];
     </script>
 
 

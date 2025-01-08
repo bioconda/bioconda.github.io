@@ -12,11 +12,11 @@ bioconductor-katdetectr
 
    Detection\, Characterization and Visualization of Kataegis in Sequencing Data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/katdetectr.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/katdetectr.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-katdetectr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-katdetectr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-katdetectr/meta.yaml>`_
 
-   Kataegis refers to the occurrence of regional hypermutation and is a phenomenon observed in a wide range of malignancies. Using changepoint detection katdetectr aims to identify putative kataegis foci from common data\-formats housing genomic variants. Katdetectr has shown to be a robust package for the detection\, characterization and visualization of kataegis.
+   Kataegis refers to the occurrence of regional hypermutation and is a phenomenon observed in a wide range of malignancies. Using changepoint detection katdetectr aims to identify putative kataegis foci from common data\-formats housing genomic variants.  Katdetectr has shown to be a robust package for the detection\, characterization and visualization of kataegis.
 
 
 .. conda:package:: bioconductor-katdetectr
@@ -27,24 +27,24 @@ bioconductor-katdetectr
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: ``>=1.4.0,<1.5.0``
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg38: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-maftools: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-plyranges: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-variantannotation: ``>=1.48.0,<1.49.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-maftools: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-plyranges: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-variantannotation: ``>=1.52.0,<1.53.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-changepoint: ``>=2.2.3``
    :depends r-changepoint.np: ``>=1.0.3``
    :depends r-checkmate: ``>=2.0.0``
@@ -53,6 +53,7 @@ bioconductor-katdetectr
    :depends r-ggtext: ``>=0.1.1``
    :depends r-rdpack: ``>=2.3.1``
    :depends r-rlang: ``>=1.0.2``
+   :depends r-scales: ``>=1.2.0``
    :depends r-tibble: ``>=3.1.6``
    :depends r-tidyr: ``>=1.2.0``
    :requirements:
@@ -105,7 +106,7 @@ bioconductor-katdetectr
 
     <script>
         var package = "bioconductor-katdetectr";
-        var versions = ["1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

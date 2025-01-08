@@ -12,7 +12,7 @@ bioconductor-simplifyenrichment
 
    Simplify Functional Enrichment Results
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/simplifyEnrichment.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/simplifyEnrichment.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-simplifyenrichment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simplifyenrichment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simplifyenrichment/meta.yaml>`_
 
@@ -27,18 +27,16 @@ bioconductor-simplifyenrichment
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``2.0.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-gosemsim: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-go.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-simona: ``>=1.4.0,<1.5.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-circlize: 
    :depends r-clue: 
    :depends r-cluster: ``>=1.14.2``
@@ -46,8 +44,6 @@ bioconductor-simplifyenrichment
    :depends r-digest: 
    :depends r-getoptlong: 
    :depends r-globaloptions: ``>=0.1.0``
-   :depends r-matrix: 
-   :depends r-proxyc: 
    :depends r-slam: 
    :depends r-tm: 
    :requirements:
@@ -100,7 +96,7 @@ bioconductor-simplifyenrichment
 
     <script>
         var package = "bioconductor-simplifyenrichment";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.0"];
+        var versions = ["2.0.0","1.12.0","1.10.0","1.8.0","1.4.0"];
     </script>
 
 

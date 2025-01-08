@@ -12,7 +12,7 @@ bioconductor-tissuetreg
 
    TWGBS and RNA\-seq data from tissue T regulatory cells from mice
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/tissueTreg.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/tissueTreg.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-tissuetreg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tissuetreg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tissuetreg/meta.yaml>`_
 

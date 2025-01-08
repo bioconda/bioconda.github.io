@@ -12,7 +12,7 @@ bioconductor-iseeu
 
    iSEE Universe
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/iSEEu.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/iSEEu.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-iseeu <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseeu>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseeu/meta.yaml>`_
 
@@ -27,18 +27,18 @@ bioconductor-iseeu
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.1-0``
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-isee: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-iseehex: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-isee: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-iseehex: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-colourpicker: 
    :depends r-dt: 
    :depends r-ggplot2: ``>=3.4.0``
@@ -94,7 +94,7 @@ bioconductor-iseeu
 
     <script>
         var package = "bioconductor-iseeu";
-        var versions = ["1.14.0","1.12.0","1.10.0","1.6.0","1.4.0"];
+        var versions = ["1.18.0","1.14.0","1.12.0","1.10.0","1.6.0"];
     </script>
 
 

@@ -10,13 +10,13 @@ bioconductor-sqldataframe
    :replaces_section_title:
    :noindex:
 
-   Representation of SQL database in DataFrame metaphor
+   Representation of SQL tables in DataFrame metaphor
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SQLDataFrame.html
-   :license: GPL-3
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SQLDataFrame.html
+   :license: LGPL (>= 3); File LICENSE
    :recipe: /`bioconductor-sqldataframe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sqldataframe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sqldataframe/meta.yaml>`_
 
-   SQLDataFrame is developed to lazily represent and efficiently analyze SQL\-based tables in \_R\_. SQLDataFrame supports common and familiar \'DataFrame\' operations such as \'\[\' subsetting\, rbind\, cbind\, etc.. The internal implementation is based on the widely adopted dplyr grammar and SQL commands. In\-memory datasets or plain text files \(.txt\, .csv\, etc.\) could also be easily converted into SQLDataFrames objects \(which generates a new database on\-disk\).
+   Implements bindings for SQL tables that are compatible with Bioconductor S4 data structures\, namely the DataFrame and DelayedArray. This allows SQL\-derived data to be easily used inside other Bioconductor objects \(e.g.\, SummarizedExperiments\) while keeping everything on disk.
 
 
 .. conda:package:: bioconductor-sqldataframe

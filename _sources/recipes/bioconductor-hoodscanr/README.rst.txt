@@ -12,7 +12,7 @@ bioconductor-hoodscanr
 
    Spatial cellular neighbourhood scanning in R
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/hoodscanR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/hoodscanR.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-hoodscanr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hoodscanr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hoodscanr/meta.yaml>`_
 

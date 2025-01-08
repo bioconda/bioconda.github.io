@@ -12,8 +12,8 @@ bioconductor-motifmatchr
 
    Fast Motif Matching in R
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/motifmatchr.html
-   :license: GPL-3.0-only + file LICENSE
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/motifmatchr.html
+   :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-motifmatchr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifmatchr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifmatchr/meta.yaml>`_
    :links: biotools: :biotools:`motifmatchr`
 
@@ -60,8 +60,9 @@ bioconductor-motifmatchr
    :depends bioconductor-tfbstools: ``>=1.44.0,<1.45.0``
    :depends bioconductor-tfbstools: ``>=1.44.0,<1.45.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-matrix: 
    :depends r-rcpp: 

@@ -12,8 +12,8 @@ bioconductor-genenetworkbuilder
 
    GeneNetworkBuilder\: a bioconductor package for building regulatory network using ChIP\-chip\/ChIP\-seq data and Gene Expression Data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GeneNetworkBuilder.html
-   :license: GPL-3.0-or-later
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/GeneNetworkBuilder.html
+   :license: GPL (>= 2)
    :recipe: /`bioconductor-genenetworkbuilder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genenetworkbuilder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genenetworkbuilder/meta.yaml>`_
    :links: biotools: :biotools:`genenetworkbuilder`
 

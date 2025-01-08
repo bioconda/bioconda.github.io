@@ -12,7 +12,7 @@ bioconductor-bindingsitefinder
 
    Binding site defintion based on iCLIP data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/BindingSiteFinder.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/BindingSiteFinder.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bindingsitefinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bindingsitefinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bindingsitefinder/meta.yaml>`_
 
@@ -27,19 +27,19 @@ bioconductor-bindingsitefinder
       
       
 
-      ``2.0.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``2.4.0-0``,  ``2.0.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-forcats: 
    :depends r-ggdist: 
@@ -103,7 +103,7 @@ bioconductor-bindingsitefinder
 
     <script>
         var package = "bioconductor-bindingsitefinder";
-        var versions = ["2.0.0","1.6.0","1.4.0","1.0.0"];
+        var versions = ["2.4.0","2.0.0","1.6.0","1.4.0","1.0.0"];
     </script>
 
 

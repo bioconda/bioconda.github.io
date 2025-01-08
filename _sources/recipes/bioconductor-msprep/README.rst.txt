@@ -12,7 +12,7 @@ bioconductor-msprep
 
    Package for Summarizing\, Filtering\, Imputing\, and Normalizing Metabolomics Data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MSPrep.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MSPrep.html
    :license: GPL-3
    :recipe: /`bioconductor-msprep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msprep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msprep/meta.yaml>`_
 
@@ -27,17 +27,17 @@ bioconductor-msprep
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-pcamethods: ``>=1.94.0,<1.95.0``
-   :depends bioconductor-preprocesscore: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-sva: ``>=3.50.0,<3.51.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-pcamethods: ``>=1.98.0,<1.99.0``
+   :depends bioconductor-preprocesscore: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-sva: ``>=3.54.0,<3.55.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-crmn: 
    :depends r-dplyr: ``>=0.7``
    :depends r-magrittr: 
@@ -97,7 +97,7 @@ bioconductor-msprep
 
     <script>
         var package = "bioconductor-msprep";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.0"];
+        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.4.0"];
     </script>
 
 

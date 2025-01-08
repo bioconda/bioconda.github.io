@@ -12,7 +12,7 @@ bioconductor-regparallel
 
    Standard regression functions in R enabled for parallel processing over large data\-frames
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/RegParallel.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/RegParallel.html
    :license: GPL-3
    :recipe: /`bioconductor-regparallel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-regparallel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-regparallel/meta.yaml>`_
 

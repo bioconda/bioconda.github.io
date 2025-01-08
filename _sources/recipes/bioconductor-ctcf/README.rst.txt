@@ -12,7 +12,7 @@ bioconductor-ctcf
 
    Genomic coordinates of CTCF binding sites\, with orientation
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/CTCF.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/CTCF.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-ctcf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ctcf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ctcf/meta.yaml>`_
 

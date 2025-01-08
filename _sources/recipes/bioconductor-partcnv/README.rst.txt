@@ -12,7 +12,7 @@ bioconductor-partcnv
 
    Infer locally aneuploid cells using single cell RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/partCNV.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/partCNV.html
    :license: GPL-2
    :recipe: /`bioconductor-partcnv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-partcnv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-partcnv/meta.yaml>`_
 
@@ -27,15 +27,16 @@ bioconductor-partcnv
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-biocstyle: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: 
    :depends r-depmixs4: 
    :depends r-magrittr: 
@@ -90,7 +91,7 @@ bioconductor-partcnv
 
     <script>
         var package = "bioconductor-partcnv";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

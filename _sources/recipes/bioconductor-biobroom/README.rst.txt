@@ -12,7 +12,7 @@ bioconductor-biobroom
 
    Turn Bioconductor objects into tidy data frames
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/biobroom.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/biobroom.html
    :license: LGPL
    :recipe: /`bioconductor-biobroom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biobroom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biobroom/meta.yaml>`_
 

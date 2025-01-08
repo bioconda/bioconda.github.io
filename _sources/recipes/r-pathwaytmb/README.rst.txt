@@ -27,7 +27,7 @@ r-pathwaytmb
       
       
 
-      ``0.1.3-2``,  ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.2-0``
+      ``0.1.3-3``,  ``0.1.3-2``,  ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
 
@@ -35,7 +35,7 @@ r-pathwaytmb
    :depends bioconductor-biocgenerics: 
    :depends bioconductor-clusterprofiler: 
    :depends bioconductor-maftools: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-caret: 
    :depends r-data.table: 
    :depends r-glmnet: 
@@ -95,7 +95,7 @@ r-pathwaytmb
 
     <script>
         var package = "r-pathwaytmb";
-        var versions = ["0.1.3","0.1.3","0.1.3","0.1.2"];
+        var versions = ["0.1.3","0.1.3","0.1.3","0.1.3","0.1.2"];
     </script>
 
 

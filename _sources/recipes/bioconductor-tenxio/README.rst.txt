@@ -12,7 +12,7 @@ bioconductor-tenxio
 
    Import methods for 10X Genomics files
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/TENxIO.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/TENxIO.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-tenxio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tenxio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tenxio/meta.yaml>`_
 

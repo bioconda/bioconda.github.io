@@ -12,7 +12,7 @@ bioconductor-bgeecall
 
    Automatic RNA\-Seq present\/absent gene expression calls generation
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/BgeeCall.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/BgeeCall.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-bgeecall <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bgeecall>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bgeecall/meta.yaml>`_
 
@@ -27,18 +27,19 @@ bioconductor-bgeecall
       
       
 
-      ``1.18.1-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.6.0-0``,  ``1.4.0-0``
+      ``1.22.0-0``,  ``1.18.1-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.6.0-0``,  ``1.4.0-0``
 
       
 
    
-   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-rhdf5: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-tximport: ``>=1.30.0,<1.31.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biomart: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-txdbmaker: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-tximport: ``>=1.34.0,<1.35.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-jsonlite: 
@@ -94,7 +95,7 @@ bioconductor-bgeecall
 
     <script>
         var package = "bioconductor-bgeecall";
-        var versions = ["1.18.1","1.16.0","1.14.0","1.10.0","1.8.0"];
+        var versions = ["1.22.0","1.18.1","1.16.0","1.14.0","1.10.0"];
     </script>
 
 

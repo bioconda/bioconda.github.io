@@ -12,7 +12,7 @@ bioconductor-zygositypredictor
 
    Package for prediction of zygosity for variants\/genes in NGS data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ZygosityPredictor.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ZygosityPredictor.html
    :license: GPL-2
    :recipe: /`bioconductor-zygositypredictor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zygositypredictor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zygositypredictor/meta.yaml>`_
 
@@ -27,21 +27,25 @@ bioconductor-zygositypredictor
       
       
 
-      ``1.2.0-0``,  ``1.0.3-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.3-0``
 
       
 
    
-   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-genomicalignments: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-variantannotation: ``>=1.48.0,<1.49.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-genomicalignments: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-variantannotation: ``>=1.52.0,<1.53.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-igraph: 
+   :depends r-knitr: 
+   :depends r-magrittr: 
    :depends r-purrr: 
+   :depends r-readr: 
+   :depends r-rlang: 
    :depends r-stringr: 
    :depends r-tibble: 
    :requirements:
@@ -94,7 +98,7 @@ bioconductor-zygositypredictor
 
     <script>
         var package = "bioconductor-zygositypredictor";
-        var versions = ["1.2.0","1.0.3"];
+        var versions = ["1.6.0","1.2.0","1.0.3"];
     </script>
 
 

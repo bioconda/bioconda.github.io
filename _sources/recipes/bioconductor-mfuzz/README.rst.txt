@@ -10,13 +10,13 @@ bioconductor-mfuzz
    :replaces_section_title:
    :noindex:
 
-   Soft clustering of time series gene expression data
+   Soft clustering of omics time series data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Mfuzz.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Mfuzz.html
    :license: GPL-2
    :recipe: /`bioconductor-mfuzz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mfuzz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mfuzz/meta.yaml>`_
 
-   Package for noise\-robust soft clustering of gene expression time\-series data \(including a graphical user interface\)
+   The Mfuzz package implements noise\-robust soft clustering of omics time\-series data\, including transcriptomic\, proteomic or metabolomic data. It is based on the use of c\-means clustering. For convenience\, it includes a graphical user interface.
 
 
 .. conda:package:: bioconductor-mfuzz

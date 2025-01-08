@@ -12,7 +12,7 @@ bioconductor-cellid
 
    Unbiased Extraction of Single Cell gene signatures using Multiple Correspondence Analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CelliD.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CelliD.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-cellid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellid/meta.yaml>`_
 

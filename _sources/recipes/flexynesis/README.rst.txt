@@ -27,7 +27,7 @@ flexynesis
       
       
 
-      ``0.2.10-0``
+      ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-0``
 
       
 
@@ -54,6 +54,7 @@ flexynesis
    :depends torchvision: 
    :depends tqdm: 
    :depends umap-learn: 
+   :depends xgboost: 
    :requirements:
 
    :additional platforms:
@@ -104,7 +105,7 @@ flexynesis
 
     <script>
         var package = "flexynesis";
-        var versions = ["0.2.10"];
+        var versions = ["0.2.12","0.2.11","0.2.10"];
     </script>
 
 

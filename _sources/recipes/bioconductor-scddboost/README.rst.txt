@@ -12,7 +12,7 @@ bioconductor-scddboost
 
    A compositional model to assess expression changes from single\-cell rna\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/scDDboost.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/scDDboost.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-scddboost <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scddboost>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scddboost/meta.yaml>`_
 

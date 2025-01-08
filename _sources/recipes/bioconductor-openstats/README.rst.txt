@@ -12,7 +12,7 @@ bioconductor-openstats
 
    A Robust and Scalable Software Package for Reproducible Analysis of High\-Throughput genotype\-phenotype association
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/OpenStats.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/OpenStats.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-openstats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-openstats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-openstats/meta.yaml>`_
 

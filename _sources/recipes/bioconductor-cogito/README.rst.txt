@@ -12,7 +12,7 @@ bioconductor-cogito
 
    Compare genomic intervals tool \- Automated\, complete\, reproducible and clear report about genomic and epigenomic data sets
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Cogito.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Cogito.html
    :license: LGPL-3
    :recipe: /`bioconductor-cogito <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cogito>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cogito/meta.yaml>`_
 
@@ -27,18 +27,18 @@ bioconductor-cogito
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
    :depends bioconductor-txdb.mmusculus.ucsc.mm9.knowngene: ``>=3.2.0,<3.3.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-biocmanager: 
    :depends r-entropy: 
    :depends r-ggplot2: 
@@ -95,7 +95,7 @@ bioconductor-cogito
 
     <script>
         var package = "bioconductor-cogito";
-        var versions = ["1.8.0","1.6.0","1.4.0","1.0.0"];
+        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.0.0"];
     </script>
 
 

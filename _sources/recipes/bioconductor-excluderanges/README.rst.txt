@@ -12,7 +12,7 @@ bioconductor-excluderanges
 
    Genomic coordinates of problematic genomic regions
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/excluderanges.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/excluderanges.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-excluderanges <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-excluderanges>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-excluderanges/meta.yaml>`_
 

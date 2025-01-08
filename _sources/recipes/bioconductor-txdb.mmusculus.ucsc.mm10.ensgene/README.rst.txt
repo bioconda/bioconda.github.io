@@ -12,7 +12,7 @@ bioconductor-txdb.mmusculus.ucsc.mm10.ensgene
 
    Annotation package for TxDb object\(s\)
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/TxDb.Mmusculus.UCSC.mm10.ensGene.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/TxDb.Mmusculus.UCSC.mm10.ensGene.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-txdb.mmusculus.ucsc.mm10.ensgene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-txdb.mmusculus.ucsc.mm10.ensgene
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.0-17</code>,  <code>3.4.0-16</code>,  <code>3.4.0-15</code>,  <code>3.4.0-14</code>,  <code>3.4.0-13</code>,  <code>3.4.0-12</code>,  <code>3.4.0-11</code>,  <code>3.4.0-10</code>,  <code>3.4.0-9</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.0-18</code>,  <code>3.4.0-17</code>,  <code>3.4.0-16</code>,  <code>3.4.0-15</code>,  <code>3.4.0-14</code>,  <code>3.4.0-13</code>,  <code>3.4.0-12</code>,  <code>3.4.0-11</code>,  <code>3.4.0-10</code>,  </span></summary>
       
 
-      ``3.4.0-17``,  ``3.4.0-16``,  ``3.4.0-15``,  ``3.4.0-14``,  ``3.4.0-13``,  ``3.4.0-12``,  ``3.4.0-11``,  ``3.4.0-10``,  ``3.4.0-9``,  ``3.4.0-8``,  ``3.4.0-7``,  ``3.4.0-5``,  ``3.4.0-4``,  ``3.4.0-3``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.2.2-0``
+      ``3.4.0-18``,  ``3.4.0-17``,  ``3.4.0-16``,  ``3.4.0-15``,  ``3.4.0-14``,  ``3.4.0-13``,  ``3.4.0-12``,  ``3.4.0-11``,  ``3.4.0-10``,  ``3.4.0-9``,  ``3.4.0-8``,  ``3.4.0-7``,  ``3.4.0-5``,  ``3.4.0-4``,  ``3.4.0-3``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.2.2-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-txdb.mmusculus.ucsc.mm10.ensgene
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:

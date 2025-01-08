@@ -12,7 +12,7 @@ bioconductor-featseekr
 
    FeatSeekR an R package for unsupervised feature selection
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/FeatSeekR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/FeatSeekR.html
    :license: GPL-3
    :recipe: /`bioconductor-featseekr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-featseekr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-featseekr/meta.yaml>`_
 

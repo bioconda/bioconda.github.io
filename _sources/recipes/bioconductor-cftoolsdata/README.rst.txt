@@ -12,7 +12,7 @@ bioconductor-cftoolsdata
 
    ExperimentHub data for the cfTools package
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/cfToolsData.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/cfToolsData.html
    :license: file LICENSE
    :recipe: /`bioconductor-cftoolsdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cftoolsdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cftoolsdata/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-seqgate
 
    Filtering of Lowly Expressed Features
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SeqGate.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SeqGate.html
    :license: GPL (>= 2.0)
    :recipe: /`bioconductor-seqgate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqgate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqgate/meta.yaml>`_
 

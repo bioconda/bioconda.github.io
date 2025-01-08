@@ -12,7 +12,7 @@ bioconductor-pagerank
 
    Temporal and Multiplex PageRank for Gene Regulatory Network Analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/pageRank.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/pageRank.html
    :license: GPL-2
    :recipe: /`bioconductor-pagerank <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pagerank>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pagerank/meta.yaml>`_
 
@@ -27,14 +27,14 @@ bioconductor-pagerank
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-motifmatchr: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-motifmatchr: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-igraph: 
    :requirements:
 
@@ -86,7 +86,7 @@ bioconductor-pagerank
 
     <script>
         var package = "bioconductor-pagerank";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.0"];
+        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.4.0"];
     </script>
 
 

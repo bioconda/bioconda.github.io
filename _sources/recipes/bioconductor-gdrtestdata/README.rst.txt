@@ -10,13 +10,13 @@ bioconductor-gdrtestdata
    :replaces_section_title:
    :noindex:
 
-   gDRtestData \- R data package with testing dose reponse data
+   gDRtestData \- R data package with testing dose response data
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/gDRtestData.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/gDRtestData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gdrtestdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdrtestdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdrtestdata/meta.yaml>`_
 
-   R package with internal dose\-response test data. Package provides functions to generate input testing data that can be used as the input for gDR pipeline. It also contains RDS files with MAE data processed by gDR.
+   R package with internal dose\-response test data. Package provides functions to generate input testing data that can be used as the input for gDR pipeline. It also contains qs files with MAE data processed by gDR.
 
 
 .. conda:package:: bioconductor-gdrtestdata

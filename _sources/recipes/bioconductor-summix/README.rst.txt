@@ -10,13 +10,13 @@ bioconductor-summix
    :replaces_section_title:
    :noindex:
 
-   Summix\: A method to estimate and adjust for population structure in genetic summary data
+   Summix2\: A suite of methods to estimate\, adjust\, and leverage substructure in genetic summary data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Summix.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Summix.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-summix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-summix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-summix/meta.yaml>`_
 
-   This package contains the Summix method for estimating and adjusting for ancestry in genetic summary allele frequency data. The function summix estimates reference ancestry proportions using a mixture model. The adjAF function produces ancestry adjusted allele frequencies for an observed sample with ancestry proportions matching a target person or sample.
+   This package contains the Summix2 method for estimating and adjusting for substructure in genetic summary allele frequency data. The function summix\(\) estimates reference group proportions using a mixture model. The adjAF\(\) function produces adjusted allele frequencies for an observed group with reference group proportions matching a target individual or sample. The summix\_local\(\) function estimates local ancestry mixture proportions and performs selection scans in genetic summary data.
 
 
 .. conda:package:: bioconductor-summix

@@ -12,7 +12,7 @@ bioconductor-biotmledata
 
    Example experimental microarray data set for the \"biotmle\" R package
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/biotmleData.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/biotmleData.html
    :license: file LICENSE
    :recipe: /`bioconductor-biotmledata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biotmledata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biotmledata/meta.yaml>`_
 

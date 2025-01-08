@@ -12,7 +12,7 @@ bioconductor-hibed
 
    HiBED
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/HiBED.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/HiBED.html
    :license: GPL-3
    :recipe: /`bioconductor-hibed <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hibed>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hibed/meta.yaml>`_
 
@@ -27,19 +27,19 @@ bioconductor-hibed
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-flowsorted.blood.epic: ``>=2.6.0,<2.7.0``
-   :depends bioconductor-flowsorted.dlpfc.450k: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-minfi: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-flowsorted.blood.epic: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-flowsorted.dlpfc.450k: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-minfi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-tibble: 
    :requirements:
@@ -92,7 +92,7 @@ bioconductor-hibed
 
     <script>
         var package = "bioconductor-hibed";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

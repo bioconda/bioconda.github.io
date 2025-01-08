@@ -12,7 +12,7 @@ bioconductor-adductomicsr
 
    Processing of adductomic mass spectral datasets
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/adductomicsR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/adductomicsR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-adductomicsr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adductomicsr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adductomicsr/meta.yaml>`_
 

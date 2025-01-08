@@ -12,7 +12,7 @@ bioconductor-ssviz
 
    A small RNA\-seq visualizer and analysis toolkit
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ssviz.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ssviz.html
    :license: GPL-2
    :recipe: /`bioconductor-ssviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ssviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ssviz/meta.yaml>`_
    :links: biotools: :biotools:`ssviz`, doi: :doi:`10.1038/nmeth.3252`
@@ -29,10 +29,10 @@ bioconductor-ssviz
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.40.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  </span></summary>
       
 
-      ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``
+      ``1.40.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``
 
       
       .. raw:: html
@@ -41,9 +41,9 @@ bioconductor-ssviz
       
 
    
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: 
    :depends r-rcolorbrewer: 
    :depends r-reshape: 
@@ -97,7 +97,7 @@ bioconductor-ssviz
 
     <script>
         var package = "bioconductor-ssviz";
-        var versions = ["1.36.0","1.34.0","1.32.0","1.28.0","1.26.0"];
+        var versions = ["1.40.0","1.36.0","1.34.0","1.32.0","1.28.0"];
     </script>
 
 

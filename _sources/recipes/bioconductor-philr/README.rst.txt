@@ -12,7 +12,7 @@ bioconductor-philr
 
    Phylogenetic partitioning based ILR transform for metagenomics data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/philr.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/philr.html
    :license: GPL-3
    :recipe: /`bioconductor-philr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-philr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-philr/meta.yaml>`_
    :links: biotools: :biotools:`philr`

@@ -27,14 +27,14 @@ r-r4cker
       
       
 
-      ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``,  ``0.0.0.9000-0``
+      ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``,  ``0.0.0.9000-0``
 
       
 
    
    :depends bioconductor-deseq2: 
    :depends bioconductor-genomeinfodbdata: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-depmixs4: 
    :depends r-ggplot2: 
    :depends r-mass: 

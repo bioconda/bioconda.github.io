@@ -12,7 +12,7 @@ bioconductor-microbiotaprocess
 
    A comprehensive R package for managing and analyzing microbiome and other ecological data within the tidy framework
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MicrobiotaProcess.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MicrobiotaProcess.html
    :license: GPL (>= 3.0)
    :recipe: /`bioconductor-microbiotaprocess <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microbiotaprocess>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microbiotaprocess/meta.yaml>`_
 

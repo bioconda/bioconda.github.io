@@ -12,7 +12,7 @@ bioconductor-micsqtl
 
    MICSQTL \(Multi\-omic deconvolution\, Integration and Cell\-type\-specific Quantitative Trait Loci\)
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MICSQTL.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MICSQTL.html
    :license: GPL-3
    :recipe: /`bioconductor-micsqtl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-micsqtl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-micsqtl/meta.yaml>`_
 
@@ -27,11 +27,25 @@ bioconductor-micsqtl
       
       
 
-      
+      ``1.4.0-0``
 
       
 
    
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-toast: ``>=1.20.0,<1.21.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-dirmult: 
+   :depends r-ggplot2: 
+   :depends r-ggpubr: 
+   :depends r-ggridges: 
+   :depends r-glue: 
+   :depends r-magrittr: 
+   :depends r-nnls: 
+   :depends r-purrr: 
+   :depends r-tca: 
    :requirements:
 
    :additional platforms:
@@ -82,7 +96,7 @@ bioconductor-micsqtl
 
     <script>
         var package = "bioconductor-micsqtl";
-        var versions = [];
+        var versions = ["1.4.0"];
     </script>
 
 

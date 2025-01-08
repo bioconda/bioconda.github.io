@@ -12,7 +12,7 @@ bioconductor-rifi
 
    \'rifi\' analyses data from rifampicin time series created by microarray or RNAseq
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/rifi.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/rifi.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-rifi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rifi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rifi/meta.yaml>`_
 
@@ -27,15 +27,15 @@ bioconductor-rifi
       
       
 
-      ``1.6.0-0``,  ``1.4.1-0``,  ``1.2.0-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-car: 
    :depends r-cowplot: 
    :depends r-domc: 
@@ -100,7 +100,7 @@ bioconductor-rifi
 
     <script>
         var package = "bioconductor-rifi";
-        var versions = ["1.6.0","1.4.1","1.2.0"];
+        var versions = ["1.10.0","1.6.0","1.4.1","1.2.0"];
     </script>
 
 

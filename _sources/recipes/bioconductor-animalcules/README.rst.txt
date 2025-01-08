@@ -12,7 +12,7 @@ bioconductor-animalcules
 
    Interactive microbiome analysis toolkit
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/animalcules.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/animalcules.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-animalcules <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-animalcules>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-animalcules/meta.yaml>`_
 
@@ -27,39 +27,39 @@ bioconductor-animalcules
       
       
 
-      ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.6-0``
+      ``1.22.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.6-0``
 
       
 
    
-   :depends bioconductor-biomformat: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-deseq2: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-limma: ``>=3.56.0,<3.57.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-s4vectors: ``>=0.38.0,<0.39.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-deseq2: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
    :depends r-ape: 
    :depends r-assertthat: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-caret: 
    :depends r-covr: 
    :depends r-dplyr: 
    :depends r-dt: 
    :depends r-forcats: 
+   :depends r-ggforce: 
    :depends r-ggplot2: 
-   :depends r-glmnet: 
    :depends r-gunifrac: 
    :depends r-lattice: 
    :depends r-magrittr: 
    :depends r-matrix: 
    :depends r-plotly: 
-   :depends r-plotroc: 
    :depends r-rentrez: 
    :depends r-reshape2: 
+   :depends r-rocit: 
    :depends r-scales: 
    :depends r-shiny: 
    :depends r-shinyjs: 
    :depends r-tibble: 
+   :depends r-tidyr: 
    :depends r-tsne: 
    :depends r-umap: 
    :depends r-vegan: 
@@ -114,7 +114,7 @@ bioconductor-animalcules
 
     <script>
         var package = "bioconductor-animalcules";
-        var versions = ["1.16.0","1.14.0","1.10.0","1.6.0","1.6.0"];
+        var versions = ["1.22.0","1.16.0","1.14.0","1.10.0","1.6.0"];
     </script>
 
 

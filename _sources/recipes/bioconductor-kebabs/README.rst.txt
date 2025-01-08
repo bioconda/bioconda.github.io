@@ -10,10 +10,10 @@ bioconductor-kebabs
    :replaces_section_title:
    :noindex:
 
-   Kernel\-Based Analysis Of Biological Sequences
+   Kernel\-Based Analysis of Biological Sequences
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/kebabs.html
-   :license: GPL-3.0-or-later
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/kebabs.html
+   :license: GPL (>= 2.1)
    :recipe: /`bioconductor-kebabs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kebabs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kebabs/meta.yaml>`_
    :links: biotools: :biotools:`kebabs`
 

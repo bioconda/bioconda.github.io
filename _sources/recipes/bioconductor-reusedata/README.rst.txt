@@ -12,7 +12,7 @@ bioconductor-reusedata
 
    Reusable and reproducible Data Management
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ReUseData.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ReUseData.html
    :license: GPL-3
    :recipe: /`bioconductor-reusedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reusedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reusedata/meta.yaml>`_
 

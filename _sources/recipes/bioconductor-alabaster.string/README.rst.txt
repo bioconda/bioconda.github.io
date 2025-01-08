@@ -12,7 +12,7 @@ bioconductor-alabaster.string
 
    Save and Load Biostrings to\/from File
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/alabaster.string.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/alabaster.string.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-alabaster.string <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.string>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.string/meta.yaml>`_
 

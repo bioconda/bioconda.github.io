@@ -10,13 +10,13 @@ bioconductor-curatedtcgadata
    :replaces_section_title:
    :noindex:
 
-   Curated Data From The Cancer Genome Atlas \(TCGA\) as MultiAssayExperiment Objects
+   Curated Data from The Cancer Genome Atlas \(TCGA\) as MultiAssayExperiment Objects
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/curatedTCGAData.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/curatedTCGAData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-curatedtcgadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedtcgadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedtcgadata/meta.yaml>`_
 
-   This package provides publicly available data from The Cancer Genome Atlas \(TCGA\) as MultiAssayExperiment objects. MultiAssayExperiment integrates multiple assays \(e.g.\, RNA\-seq\, copy number\, mutation\, microRNA\, protein\, and others\) with clinical \/ pathological data. It also links assay barcodes with patient identifiers\, enabling harmonized subsetting of rows \(features\) and columns \(patients \/ samples\) across the entire multi\-\'omics experiment.
+   This package provides publicly available data from The Cancer Genome Atlas \(TCGA\) as MultiAssayExperiment objects. MultiAssayExperiment integrates multiple assays \(e.g.\, RNA\-seq\, copy number\, mutation\, microRNA\, protein\, and others\) with clinical \/ pathological data.  It also links assay barcodes with patient identifiers\, enabling harmonized subsetting of rows \(features\) and columns \(patients \/ samples\) across the entire multi\-\'omics experiment.
 
 
 .. conda:package:: bioconductor-curatedtcgadata
@@ -28,10 +28,10 @@ bioconductor-curatedtcgadata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.22.2-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.28.1-0</code>,  <code>1.24.0-0</code>,  <code>1.22.2-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  </span></summary>
       
 
-      ``1.24.0-0``,  ``1.22.2-0``,  ``1.20.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+      ``1.28.1-0``,  ``1.24.0-0``,  ``1.22.2-0``,  ``1.20.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -40,15 +40,15 @@ bioconductor-curatedtcgadata
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-hdf5array: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-data-packages: ``>=20241231``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-hdf5array: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -99,7 +99,7 @@ bioconductor-curatedtcgadata
 
     <script>
         var package = "bioconductor-curatedtcgadata";
-        var versions = ["1.24.0","1.22.2","1.20.0","1.16.0","1.16.0"];
+        var versions = ["1.28.1","1.24.0","1.22.2","1.20.0","1.16.0"];
     </script>
 
 

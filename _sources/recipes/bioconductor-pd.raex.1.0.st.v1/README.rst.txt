@@ -12,7 +12,7 @@ bioconductor-pd.raex.1.0.st.v1
 
    Platform Design Info for Affymetrix RaEx\-1\_0\-st\-v1
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/pd.raex.1.0.st.v1.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/pd.raex.1.0.st.v1.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.raex.1.0.st.v1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.raex.1.0.st.v1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.raex.1.0.st.v1/meta.yaml>`_
 

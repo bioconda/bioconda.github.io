@@ -10,14 +10,14 @@ bioconductor-genomicfeatures
    :replaces_section_title:
    :noindex:
 
-   Conveniently import and query gene models
+   Query the gene models of a given organism\/assembly
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GenomicFeatures.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/GenomicFeatures.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genomicfeatures <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicfeatures>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicfeatures/meta.yaml>`_
    :links: biotools: :biotools:`genomicfeatures`
 
-   A set of tools and methods for making and manipulating transcript centric annotations. With these tools the user can easily download the genomic locations of the transcripts\, exons and cds of a given organism\, from either the UCSC Genome Browser or a BioMart database \(more sources will be supported in the future\). This information is then stored in a local database that keeps track of the relationship between transcripts\, exons\, cds and genes. Flexible methods are provided for extracting the desired features in a convenient format.
+   Extract the genomic locations of genes\, transcripts\, exons\, introns\, and CDS\, for the gene models stored in a TxDb object. A TxDb object is a small database that contains the gene models of a given organism\/assembly. Bioconductor provides a small collection of TxDb objects in the form of ready\-to\-install TxDb packages for the most commonly studied organisms. Additionally\, the user can easily make a TxDb object \(or package\) for the organism\/assembly of their choice by using the tools from the txdbmaker package.
 
 
 .. conda:package:: bioconductor-genomicfeatures
@@ -29,10 +29,10 @@ bioconductor-genomicfeatures
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.54.1-0</code>,  <code>1.52.1-0</code>,  <code>1.50.2-0</code>,  <code>1.46.1-0</code>,  <code>1.44.0-0</code>,  <code>1.42.2-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.58.0-0</code>,  <code>1.54.1-0</code>,  <code>1.52.1-0</code>,  <code>1.50.2-0</code>,  <code>1.46.1-0</code>,  <code>1.44.0-0</code>,  <code>1.42.2-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  </span></summary>
       
 
-      ``1.54.1-0``,  ``1.52.1-0``,  ``1.50.2-0``,  ``1.46.1-0``,  ``1.44.0-0``,  ``1.42.2-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.4-0``,  ``1.36.0-0``,  ``1.34.1-0``,  ``1.32.3-0``,  ``1.30.3-0``,  ``1.30.0-0``,  ``1.28.5-0``,  ``1.26.4-0``,  ``1.26.0-2``,  ``1.24.5-2``,  ``1.24.5-1``,  ``1.24.5-0``,  ``1.22.13-0``,  ``1.22.6-0``,  ``1.22.4-0``,  ``1.22.0-0``
+      ``1.58.0-0``,  ``1.54.1-0``,  ``1.52.1-0``,  ``1.50.2-0``,  ``1.46.1-0``,  ``1.44.0-0``,  ``1.42.2-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.4-0``,  ``1.36.0-0``,  ``1.34.1-0``,  ``1.32.3-0``,  ``1.30.3-0``,  ``1.30.0-0``,  ``1.28.5-0``,  ``1.26.4-0``,  ``1.26.0-2``,  ``1.24.5-2``,  ``1.24.5-1``,  ``1.24.5-0``,  ``1.22.13-0``,  ``1.22.6-0``,  ``1.22.4-0``,  ``1.22.0-0``
 
       
       .. raw:: html
@@ -41,22 +41,17 @@ bioconductor-genomicfeatures
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biocio: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-xvector: ``>=0.42.0,<0.43.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-xvector: ``>=0.46.0,<0.47.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dbi: 
-   :depends r-rcurl: 
-   :depends r-rsqlite: ``>=2.0``
    :requirements:
 
    :additional platforms:
@@ -107,7 +102,7 @@ bioconductor-genomicfeatures
 
     <script>
         var package = "bioconductor-genomicfeatures";
-        var versions = ["1.54.1","1.52.1","1.50.2","1.46.1","1.44.0"];
+        var versions = ["1.58.0","1.54.1","1.52.1","1.50.2","1.46.1"];
     </script>
 
 

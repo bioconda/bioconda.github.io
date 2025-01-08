@@ -12,7 +12,7 @@ bioconductor-biodbuniprot
 
    biodbUniprot\, a library for connecting to the Uniprot Database
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/biodbUniprot.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/biodbUniprot.html
    :license: AGPL-3
    :recipe: /`bioconductor-biodbuniprot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biodbuniprot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biodbuniprot/meta.yaml>`_
 

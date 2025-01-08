@@ -12,7 +12,7 @@ bioconductor-organism.dplyr
 
    dplyr\-based Access to Bioconductor Annotation Resources
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Organism.dplyr.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Organism.dplyr.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-organism.dplyr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-organism.dplyr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-organism.dplyr/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-organism.dplyr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.30.1-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.1-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.30.1-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.1-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  </span></summary>
       
 
-      ``1.30.1-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.1-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``
+      ``1.34.0-0``,  ``1.30.1-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.1-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``
 
       
       .. raw:: html
@@ -40,15 +40,15 @@ bioconductor-organism.dplyr
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-annotationfilter: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-annotationfilter: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dbi: 
    :depends r-dbplyr: 
    :depends r-dplyr: ``>=0.7.0``
@@ -105,7 +105,7 @@ bioconductor-organism.dplyr
 
     <script>
         var package = "bioconductor-organism.dplyr";
-        var versions = ["1.30.1","1.28.0","1.26.0","1.22.1","1.20.0"];
+        var versions = ["1.34.0","1.30.1","1.28.0","1.26.0","1.22.1"];
     </script>
 
 

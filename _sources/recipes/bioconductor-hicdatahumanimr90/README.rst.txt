@@ -12,7 +12,7 @@ bioconductor-hicdatahumanimr90
 
    Human IMR90 Fibroblast HiC data from Dixon et al. 2012
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/HiCDataHumanIMR90.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/HiCDataHumanIMR90.html
    :license: GPL-3
    :recipe: /`bioconductor-hicdatahumanimr90 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicdatahumanimr90>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicdatahumanimr90/meta.yaml>`_
 

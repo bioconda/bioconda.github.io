@@ -12,7 +12,7 @@ bioconductor-caninecdf
 
    caninecdf
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/caninecdf.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/caninecdf.html
    :license: LGPL
    :recipe: /`bioconductor-caninecdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-caninecdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-caninecdf/meta.yaml>`_
 

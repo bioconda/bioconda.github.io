@@ -12,7 +12,7 @@ bioconductor-spicyr
 
    Spatial analysis of in situ cytometry data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/spicyR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/spicyR.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-spicyr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spicyr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spicyr/meta.yaml>`_
 
@@ -27,32 +27,36 @@ bioconductor-spicyr
       
       
 
-      ``1.14.2-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.18.0-0``,  ``1.14.2-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-classifyr: ``>=3.6.0,<3.7.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-spatialexperiment: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-classifyr: ``>=3.10.0,<3.11.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-spatialexperiment: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-cli: 
    :depends r-concaveman: 
+   :depends r-coxme: 
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-ggforce: 
+   :depends r-ggh4x: 
+   :depends r-ggnewscale: 
    :depends r-ggplot2: 
+   :depends r-ggthemes: 
    :depends r-lmertest: 
-   :depends r-mgcv: 
+   :depends r-magrittr: 
    :depends r-pheatmap: 
    :depends r-rlang: 
    :depends r-scam: 
    :depends r-spatstat.explore: 
    :depends r-spatstat.geom: 
+   :depends r-survival: 
    :depends r-tibble: 
    :depends r-tidyr: 
    :requirements:
@@ -105,7 +109,7 @@ bioconductor-spicyr
 
     <script>
         var package = "bioconductor-spicyr";
-        var versions = ["1.14.2","1.12.0","1.10.0","1.6.0","1.4.0"];
+        var versions = ["1.18.0","1.14.2","1.12.0","1.10.0","1.6.0"];
     </script>
 
 

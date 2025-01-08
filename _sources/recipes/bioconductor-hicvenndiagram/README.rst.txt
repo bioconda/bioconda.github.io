@@ -12,7 +12,7 @@ bioconductor-hicvenndiagram
 
    Venn Diagram for genomic interaction data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/hicVennDiagram.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/hicVennDiagram.html
    :license: GPL-3
    :recipe: /`bioconductor-hicvenndiagram <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicvenndiagram>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicvenndiagram/meta.yaml>`_
 
@@ -27,15 +27,18 @@ bioconductor-hicvenndiagram
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-interactionset: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-interactionset: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-complexupset: 
    :depends r-eulerr: 
    :depends r-ggplot2: 
@@ -92,7 +95,7 @@ bioconductor-hicvenndiagram
 
     <script>
         var package = "bioconductor-hicvenndiagram";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

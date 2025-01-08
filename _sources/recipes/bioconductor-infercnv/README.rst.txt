@@ -12,7 +12,7 @@ bioconductor-infercnv
 
    Infer Copy Number Variation from Single\-Cell RNA\-Seq Data
 
-   :homepage: https://bioconductor.org/packages/3.19/bioc/html/infercnv.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/infercnv.html
    :license: BSD_3_clause + file LICENSE
    :recipe: /`bioconductor-infercnv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-infercnv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-infercnv/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-infercnv
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.1-1</code>,  <code>1.18.1-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.1-1</code>,  <code>1.18.1-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  </span></summary>
       
 
-      ``1.20.0-0``,  ``1.18.1-1``,  ``1.18.1-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.3-0``
+      ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.1-1``,  ``1.18.1-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.3-0``
 
       
       .. raw:: html
@@ -40,14 +40,14 @@ bioconductor-infercnv
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
    :depends jags: ``4.*.*``
    :depends r-ape: 
    :depends r-argparse: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-catools: 
    :depends r-coda: 
    :depends r-coin: 
@@ -63,7 +63,6 @@ bioconductor-infercnv
    :depends r-gplots: 
    :depends r-gridextra: 
    :depends r-hiddenmarkov: 
-   :depends r-htmltools: ``>=0.5.7``
    :depends r-igraph: 
    :depends r-matrix: 
    :depends r-paralleldist: 
@@ -124,7 +123,7 @@ bioconductor-infercnv
 
     <script>
         var package = "bioconductor-infercnv";
-        var versions = ["1.20.0","1.18.1","1.18.1","1.16.0","1.14.0"];
+        var versions = ["1.22.0","1.20.0","1.18.1","1.18.1","1.16.0"];
     </script>
 
 

@@ -12,7 +12,7 @@ bioconductor-cellity
 
    Quality Control for Single\-Cell RNA\-seq Data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/cellity.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/cellity.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-cellity <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellity>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellity/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-cellity
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  </span></summary>
       
 
-      ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
+      ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-cellity
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-org.mm.eg.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-topgo: ``>=2.54.0,<2.55.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-topgo: ``>=2.58.0,<2.59.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-e1071: 
    :depends r-ggplot2: 
    :depends r-mvoutlier: 
@@ -99,7 +99,7 @@ bioconductor-cellity
 
     <script>
         var package = "bioconductor-cellity";
-        var versions = ["1.30.0","1.28.0","1.26.0","1.22.0","1.20.0"];
+        var versions = ["1.34.0","1.30.0","1.28.0","1.26.0","1.22.0"];
     </script>
 
 

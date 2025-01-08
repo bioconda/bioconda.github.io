@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Adding bioinformatic software to Bioconda - a reference guide &#8212; Bioconda  documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css?v=39de963d" />
+    <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+    <link rel="stylesheet" type="text/css" href="../_static/style.css?v=48720263" />
+    <link rel="stylesheet" type="text/css" href="../_static/font-awesome-4.7.0/css/font-awesome.min.css?v=02f538dc" />
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/vega.min.js?v=d54ef115"></script>
+    <script src="../_static/vega-lite.min.js?v=4fab2bf4"></script>
+    <script src="../_static/vega-embed.min.js?v=2f6bc6e4"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Updating bioinformatic software to Bioconda - a reference guide" href="2024-updating-bioinformatic-software-to-bioconda.html" />
+    <link rel="prev" title="Tutorials" href="index.html" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../_static/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../_static/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../_static/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../_static/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../_static/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../_static/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../_static/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../_static/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../_static/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../_static/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../_static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../_static/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../_static/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../_static/ms-icon-144x144.png">
+
+    <link rel="manifest" href="../_static/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="adding-bioinformatic-software-to-bioconda-a-reference-guide">
+<h1>Adding bioinformatic software to Bioconda - a reference guide<a class="headerlink" href="#adding-bioinformatic-software-to-bioconda-a-reference-guide" title="Link to this heading">¶</a></h1>
+<p><em>This guide was originally written by James A. Fellows Yates and reviewed by the µbinfie community for the</em> <a class="reference external" href="https://ubinfie.github.io/">µbinfie blog</a>.
+<em>You can see the original post</em> <a class="reference external" href="https://ubinfie.github.io/2024/08/16/adding-to-bioconda-quickguide.html">here</a></p>
+<p>This tutorial aims to give a gentle introduction to adding bioinformatic software to Bioconda.</p>
+<p>The main sections of this tutorial are:</p>
+<ul class="simple">
+<li><p>TL;DR</p></li>
+<li><p>Prerequisites</p></li>
+<li><p>Adding a new tool or package</p></li>
+<li><p>Debugging a recipe build</p></li>
+<li><p>Updating an existing tool or package recipe</p></li>
+</ul>
+<p>Please note that this tutorial comes with ‘no warranty’!(!), as the Bioconda build steps could change at any point.
+However, the steps here should act as a good starting point.
+Furthermore, if you are planning to add someone else’s tool or package to Bioconda, it’s always good etiquette to ask or just inform the original authors that it will happen.</p>
+<section id="tl-dr-relevant-commands">
+<h2>TL;DR Relevant Commands<a class="headerlink" href="#tl-dr-relevant-commands" title="Link to this heading">¶</a></h2>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1">## Create environment with conda building tools</span>
+conda<span class="w"> </span>create<span class="w"> </span>-n<span class="w"> </span>bioconda-build<span class="w"> </span>-c<span class="w"> </span>conda-forge<span class="w"> </span>-c<span class="w"> </span>bioconda<span class="w"> </span>conda-build<span class="w"> </span>bioconda-utils<span class="w"> </span>greyskull
+conda<span class="w"> </span>activate<span class="w"> </span>bioconda-build
+
+<span class="c1">## Clone repo of your fork of https://github.com/bioconda/bioconda-recipes and make branch</span>
+git<span class="w"> </span>clone<span class="w"> </span>&lt;your-forked-bioconda-recipes-repo-address&gt;
+git<span class="w"> </span>switch<span class="w"> </span>-c<span class="w"> </span>add-&lt;toolname&gt;
+
+<span class="c1">## Make recipe meta.yaml</span>
+<span class="c1">## Option 1: If using Greyskull</span>
+<span class="nb">cd</span><span class="w"> </span>recipes/
+greyskull<span class="w"> </span>&lt;pypi/cran&gt;<span class="w"> </span>&lt;toolname&gt;
+
+<span class="c1">## Option 2: If not using Greyskull</span>
+mkdir<span class="w"> </span>recipes/&lt;toolname&gt;
+touch<span class="w"> </span>recipes/&lt;toolname&gt;/meta.yaml
+
+<span class="c1">## Lint recipe meta.yaml</span>
+bioconda-utils<span class="w"> </span>lint<span class="w"> </span>recipes/<span class="w"> </span>--packages<span class="w"> </span>pathphynder
+
+<span class="c1">## Perform a local build (two options)</span>
+<span class="c1">## Option 1:</span>
+conda<span class="w"> </span>build<span class="w"> </span>recipes/&lt;toolname&gt;
+
+<span class="c1">## Option 2:</span>
+bioconda-utils<span class="w"> </span>build<span class="w"> </span>--docker<span class="w"> </span>--mulled-test<span class="w"> </span>--packages<span class="w"> </span>&lt;toolname&gt;
+
+<span class="c1">## Debugging</span>
+<span class="c1">## Option 1: conda-build</span>
+<span class="nb">cd</span><span class="w"> </span>/&lt;path&gt;/&lt;to&gt;/&lt;conda-install&gt;/envs/&lt;toolname&gt;/conda-bld/linux-64
+conda<span class="w"> </span>create<span class="w"> </span>-n<span class="w"> </span>&lt;debugging-env-name&gt;<span class="w"> </span>-c<span class="w"> </span>./<span class="w"> </span>&lt;tool_name_as_in_recipe&gt;
+conda<span class="w"> </span>build<span class="w"> </span>recipes/&lt;toolname&gt;<span class="w"> </span>--keep-old-work
+
+<span class="c1">## Option 2: bioconda-utils</span>
+docker<span class="w"> </span>run<span class="w"> </span>-t<span class="w"> </span>--net<span class="w"> </span>host<span class="w"> </span>--rm<span class="w"> </span>-v<span class="w"> </span>/tmp/tmp&lt;randomletters&gt;/build_script.bash:/opt/build_script.bash<span class="w"> </span>-v<span class="w"> </span>/&lt;path&gt;/&lt;to&gt;/&lt;conda-install&gt;/envs/&lt;toolname&gt;/conda-bld/:/opt/host-conda-bld<span class="w"> </span>-v<span class="w"> </span>/&lt;path&gt;/&lt;to&gt;/&lt;recipes_local_clone&gt;/recipes/&lt;toolname&gt;:/opt/recipe<span class="w"> </span>-e<span class="w"> </span><span class="nv">LC_ADDRESS</span><span class="o">=</span>en_GB.UTF-8<span class="w"> </span>-e<span class="w"> </span><span class="nv">LC_NAME</span><span class="o">=</span>en_GB.UTF-8<span class="w"> </span>-e<span class="w"> </span><span class="nv">LC_MONETARY</span><span class="o">=</span>en_GB.UTF-8<span class="w"> </span>-e<span class="w"> </span><span class="nv">LC_PAPER</span><span class="o">=</span>en_GB.UTF-8<span class="w"> </span>-e<span class="w"> </span><span class="nv">LANG</span><span class="o">=</span>en_GB.UTF-8<span class="w"> </span>-e<span class="w"> </span><span class="nv">LC_IDENTIFICATION</span><span class="o">=</span>en_GB.UTF-8<span class="w"> </span>-e<span class="w"> </span><span class="nv">LC_TELEPHONE</span><span class="o">=</span>en_GB.UTF-8<span class="w"> </span>-e<span class="w"> </span><span class="nv">LC_MEASUREMENT</span><span class="o">=</span>en_GB.UTF-8<span class="w"> </span>-e<span class="w"> </span><span class="nv">LC_TIME</span><span class="o">=</span>en_GB.UTF-8<span class="w"> </span>-e<span class="w"> </span><span class="nv">LC_NUMERIC</span><span class="o">=</span>en_GB.UTF-8<span class="w"> </span>-e<span class="w"> </span><span class="nv">HOST_USER_ID</span><span class="o">=</span><span class="m">1000</span><span class="w"> </span>quay.io/bioconda/bioconda-utils-build-env-cos7:2.11.1<span class="w"> </span>bash
+
+conda<span class="w"> </span>mambabuild<span class="w"> </span>-c<span class="w"> </span>file:///opt/host-conda-bld<span class="w"> </span>--override-channels<span class="w"> </span>--no-anaconda-upload<span class="w"> </span>-c<span class="w"> </span>conda-forge<span class="w"> </span>-c<span class="w"> </span>bioconda<span class="w"> </span>-c<span class="w"> </span>defaults<span class="w"> </span>-e<span class="w"> </span>/opt/host-conda-bld/conda_build_config_0_-e_conda_build_config.yaml<span class="w"> </span>-e<span class="w"> </span>/opt/host-conda-bld/conda_build_config_1_-e_bioconda_utils-conda_build_config.yaml<span class="w"> </span>/opt/recipe/meta.yaml<span class="w"> </span><span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span>
+conda<span class="w"> </span>activate<span class="w"> </span>/opt/conda/conda-bld/&lt;toolname_hash&gt;/_build_env
+
+<span class="c1">## Testing the Docker image artifact</span>
+docker<span class="w"> </span>run<span class="w"> </span>-it<span class="w"> </span>&lt;image_id_from_docker_images_command&gt;
+</pre></div>
+</div>
+</section>
+<section id="prerequisites">
+<h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Link to this heading">¶</a></h2>
+<ol class="arabic">
+<li><p>Make a fork of the <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/">bioconda-recipes</a> GitHub repository, and clone this to our local machine <a class="footnote-reference brackets" href="#id13" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a>.</p></li>
+<li><p>Install on our local machine the following software:</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">conda</span></code> itself
+- I used to use <a class="reference external" href="https://docs.anaconda.com/miniconda/miniconda-other-installer-links/">miniconda</a>, but now switching to <a class="reference external" href="https://conda-forge.org/miniforge/">miniforge</a> due to licensing issues <a class="footnote-reference brackets" href="#id14" id="id2" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a></p></li>
+<li><p>Bioconda configured as a source channel (see <a class="reference external" href="https://bioconda.github.io/#usage">bioconda documentation</a>)</p></li>
+<li><p>The following conda packages:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">conda-utils</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">bioconda-build</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">greyskull</span></code> (optional: for Python software on pypi or R packages on CRAN)</p></li>
+</ul>
+<p>I typically dump all of the above in a specific conda environment, generated with the following command:</p>
+</li>
+</ul>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>create<span class="w"> </span>-n<span class="w"> </span>bioconda-build<span class="w"> </span>-c<span class="w"> </span>conda-forge<span class="w"> </span>-c<span class="w"> </span>bioconda<span class="w"> </span>conda-build<span class="w"> </span>bioconda-utils<span class="w"> </span>greyskull
+conda<span class="w"> </span>activate<span class="w"> </span>bioconda-build
+</pre></div>
+</div>
+</div></blockquote>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">docker</span></code> (optional: for local build testing)</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="preparation">
+<h2>Preparation<a class="headerlink" href="#preparation" title="Link to this heading">¶</a></h2>
+<ol class="arabic simple" start="0">
+<li><p>Ask: <em>is my software already on Bioconda?</em></p>
+<ul class="simple">
+<li><p>Search the Bioconda website <a class="reference external" href="https://bioconda.github.io/">https://bioconda.github.io/</a> to make sure some kind soul hasn’t already done this.</p></li>
+<li><p>Also double check the software doesn’t already exist on another conda channel on <a class="reference external" href="https://anaconda.org/">Anaconda</a>.</p></li>
+</ul>
+</li>
+<li><p>Ask: <em>Is the software right for Bioconda?</em></p>
+<ul class="simple">
+<li><p>Bioconda is for bioinformatics software.</p></li>
+<li><p>If the tool is a more generic tool or for a different domain, we may want to consider adding it to conda-forge <a class="footnote-reference brackets" href="#id15" id="id3" role="doc-noteref"><span class="fn-bracket">[</span>3<span class="fn-bracket">]</span></a>.</p></li>
+<li><p>One common caveat to this is R packages - if our biology-related package is on CRAN (<a class="reference external" href="https://cran.r-project.org/">https://cran.r-project.org/</a>), it should go on conda-forge, if it’s on Bioconductor (<a class="reference external" href="https://www.bioconductor.org/">https://www.bioconductor.org/</a>) it should go on Bioconda (if it’s not already there).</p></li>
+</ul>
+</li>
+<li><p>Check: <em>Does the software have a compatible license?</em> (i.e., allows redistribution)</p></li>
+<li><p>Check: <em>Does the software have a stable release?</em></p>
+<ul class="simple">
+<li><p>I.e., an unmodifiable file (tarball or zip) and stable URL that that specific version can be always be downloaded from.</p></li>
+<li><p>An example is a GitHub release (e.g. for a <a class="reference external" href="https://github.com/DerrickWood/kraken2/releases/tag/v2.1.3">Kraken2 release</a>, we use the link of the ‘Source code (tar.gz)’, i.e.,: <a class="reference external" href="https://github.com/DerrickWood/kraken2/archive/refs/tags/v2.1.3.tar.gz">https://github.com/DerrickWood/kraken2/archive/refs/tags/v2.1.3.tar.gz</a>).</p></li>
+<li><p>Using GitHub ‘tags’ are sort of OK.</p></li>
+<li><p>Using specific commits (i.e., no versioned release tarballs) are strongly frowned upon.</p></li>
+</ul>
+</li>
+</ol>
+<p>If we are all good with the above, we can put our tool or package on Bioconda.</p>
+</section>
+<section id="writing-the-recipe">
+<h2>Writing the recipe<a class="headerlink" href="#writing-the-recipe" title="Link to this heading">¶</a></h2>
+<p>A Bioconda recipe at a minimum can consist of a single file called <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>.
+This is often sufficient for PyPi Python and many R packages (respectively).
+For more information, the <a class="reference external" href="https://conda-forge.org">conda-forge</a> project has <a class="reference external" href="https://conda-forge.org/docs/maintainer/adding_pkgs/#the-recipe-metayaml">very nice description</a> of what each section of a <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> does.</p>
+<ol class="arabic">
+<li><p>Create a new git branch for the tool we wish to add within the forked and cloned <code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code> repository:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>switch<span class="w"> </span>-c<span class="w"> </span>add-&lt;toolname&gt;
+</pre></div>
+</div>
+</li>
+<li><p>Make a <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> file within the created directory, with one of two methods:</p>
+<ol class="arabic">
+<li><p>If the tool is a Python package on pypi or a R package on CRAN, we can use <code class="docutils literal notranslate"><span class="pre">grayskull</span></code> to generate this for us.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>recipes/
+greyskull<span class="w"> </span>&lt;pypi/cran&gt;<span class="w"> </span>&lt;toolname&gt;
+</pre></div>
+</div>
+</li>
+<li><p>In all other cases, make a new directory in the <code class="docutils literal notranslate"><span class="pre">recipes/</span></code> directory, named after the software we wish to add.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>mkdir<span class="w"> </span>recipes/&lt;toolname&gt;
+</pre></div>
+</div>
+<p>The name of the software must be formatted in all lower case, and with only letters, numbers, and hyphens.</p>
+<p>If our package is an R package, we should prefix the name with <code class="docutils literal notranslate"><span class="pre">r-</span></code>.</p>
+<p>⚠ Make sure a tool with the same name doesn’t exist!
+If it does - consider adding a suffix.
+For example, <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/recipes/metawrap-mg/meta.yaml">‘-mg’ to indicate software for metagenomics</a>, or <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/recipes/antismash-lite/meta.yaml">‘-lite’ for a version of a recipe that doesn’t include preinstalled databases</a>.</p>
+<p>Then, create an empty text file called <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> in the new directory.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>touch<span class="w"> </span>recipes/&lt;toolname&gt;/meta.yaml
+</pre></div>
+</div>
+</li>
+</ol>
+</li>
+<li><p>Add the following sections in the <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> file (or double check if already made with <code class="docutils literal notranslate"><span class="pre">grayskull</span></code>).
+When in doubt, copy from other similar existing recipes already on Bioconda:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">package:</span></code>
+- Specify the name (same specifications as above) and version of the tool/package.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">source:</span></code>
+- Specify the URL to the source code tarball or zip file for conda to download.
+- The e.g. <code class="docutils literal notranslate"><span class="pre">sha265</span></code> hash string of the file for download verification.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">build:</span></code>
+- Specify the build number (for new packages or new software version, always <code class="docutils literal notranslate"><span class="pre">0</span></code>).
+- Possibly the architecture (e.g. <code class="docutils literal notranslate"><span class="pre">`noarch</span></code> for Python packages).
+- A <code class="docutils literal notranslate"><span class="pre">run_exports</span></code> subpackage pinning.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">requirements:</span></code>
+- Specify a list of the various dependencies of the software needs during various sections of the build process, i.e., <code class="docutils literal notranslate"><span class="pre">host</span></code>, <code class="docutils literal notranslate"><span class="pre">build</span></code>, and <code class="docutils literal notranslate"><span class="pre">run</span></code>.
+- Should have a minimum versions, and ideally a with <a class="reference external" href="https://docs.conda.io/projects/conda-build/en/latest/resources/package-spec.html#id3">‘&gt;=’ notation</a>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">test:</span></code>
+- One or more (e.g. if multiple CLI tools or scripts exist under the package) commands to test the software installed correctly.
+- Typically simply running the tool with <code class="docutils literal notranslate"><span class="pre">--help</span></code> or <code class="docutils literal notranslate"><span class="pre">--version</span></code> is sufficient, but must have a <code class="docutils literal notranslate"><span class="pre">0</span></code> exit code to indicate success.
+- If <code class="docutils literal notranslate"><span class="pre">--help</span></code> ends with a non-<code class="docutils literal notranslate"><span class="pre">0</span></code> code, we can try <a href="#id4"><span class="problematic" id="id5">``</span></a>grep``ing for a string in the help message.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">about:</span></code>
+- URL of such as source code repository or documentation home page.
+- License type <a class="footnote-reference brackets" href="#id16" id="id6" role="doc-noteref"><span class="fn-bracket">[</span>4<span class="fn-bracket">]</span></a>.
+- Corresponding license file name as in the tarball.
+- A short one-sentence summary and/or long-form description of the software.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">extras:</span></code>
+- other metadata information such as the DOI identifier of any associated publication the software may have.
+- Other identifiers of the software.</p></li>
+</ul>
+<p>An example of a <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> is as follows:</p>
+</li>
+</ol>
+<blockquote>
+<div><div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="p p-Indicator">{</span><span class="err">%</span><span class="w"> </span><span class="nv">set name = &quot;centrifuge&quot; %</span><span class="p p-Indicator">}</span>
+<span class="p p-Indicator">{</span><span class="err">%</span><span class="w"> </span><span class="nv">set version = &quot;1.0.4.1&quot; %</span><span class="p p-Indicator">}</span>
+
+<span class="nt">package</span><span class="p">:</span>
+<span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">{{</span><span class="w"> </span><span class="nv">name|lower</span><span class="w"> </span><span class="p p-Indicator">}}</span>
+<span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">{{</span><span class="w"> </span><span class="nv">version</span><span class="w"> </span><span class="p p-Indicator">}}</span>
+
+<span class="nt">build</span><span class="p">:</span>
+<span class="nt">number</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">2</span>
+<span class="nt">skip</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span><span class="w"> </span><span class="c1"># [osx]</span>
+<span class="nt">run_exports</span><span class="p">:</span>
+<span class="w">   </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="p p-Indicator">{{</span><span class="w"> </span><span class="nv">pin_subpackage(&quot;centrifuge&quot;</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">max_pin=&quot;x.x&quot;)</span><span class="w"> </span><span class="p p-Indicator">}}</span>
+
+<span class="nt">source</span><span class="p">:</span>
+<span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://github.com/DaehwanKimLab/centrifuge/archive/refs/tags/v{{ version }}.tar.gz</span>
+<span class="nt">sha256</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">638cc6701688bfdf81173d65fa95332139e11b215b2d25c030f8ae873c34e5cc</span>
+<span class="nt">patches</span><span class="p">:</span>
+<span class="w">   </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">centrifuge-linux-aarch64.patch</span><span class="w"> </span><span class="c1"># [linux and aarch64]</span>
+
+<span class="nt">requirements</span><span class="p">:</span>
+<span class="nt">build</span><span class="p">:</span>
+<span class="w">   </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">make</span>
+<span class="w">   </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="p p-Indicator">{{</span><span class="w"> </span><span class="nv">compiler(&#39;cxx&#39;)</span><span class="w"> </span><span class="p p-Indicator">}}</span>
+<span class="nt">host</span><span class="p">:</span>
+<span class="w">   </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">zlib</span>
+<span class="nt">run</span><span class="p">:</span>
+<span class="w">   </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">zlib</span>
+<span class="w">   </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">perl</span>
+<span class="w">   </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">wget</span>
+<span class="w">   </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">tar</span>
+<span class="w">   </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">python</span>
+
+<span class="nt">test</span><span class="p">:</span>
+<span class="nt">commands</span><span class="p">:</span>
+<span class="w">   </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">centrifuge --help</span>
+
+<span class="nt">about</span><span class="p">:</span>
+<span class="nt">home</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://github.com/DaehwanKimLab/centrifuge</span>
+<span class="nt">license</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">GPL-3.0-only</span>
+<span class="nt">license_file</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">LICENSE</span>
+<span class="nt">license_family</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">GPL3</span>
+<span class="nt">summary</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;Classifier</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">metagenomic</span><span class="nv"> </span><span class="s">sequences.</span><span class="nv"> </span><span class="s">Supports</span><span class="nv"> </span><span class="s">classifier</span><span class="nv"> </span><span class="s">scripts&#39;</span>
+
+<span class="nt">extra</span><span class="p">:</span>
+<span class="nt">additional-platforms</span><span class="p">:</span>
+<span class="w">   </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">linux-aarch64</span>
+<span class="nt">identifiers</span><span class="p">:</span>
+<span class="w">   </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">biotools:Centrifuge</span>
+<span class="w">   </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">doi:10.1101/gr.210641.116</span>
+</pre></div>
+</div>
+</div></blockquote>
+<p><em>A relatively simple example</em> <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/b95f209b980339300b2fd84514a4912f6ad495e9/recipes/centrifuge/meta.yaml">conda recipe example for Centrifuge</a>, <em>based on the descriptions above.</em></p>
+<ol class="arabic" start="4">
+<li><p>Lint our <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> for any errors pertaining to Bioconda <a class="reference external" href="https://bioconda.github.io/contributor/linting.html">linting guidelines</a> (make sure we’re in the root of the repository!).</p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>bioconda-utils<span class="w"> </span>lint<span class="w"> </span>recipes/<span class="w"> </span>--packages<span class="w"> </span>&lt;toolname&gt;
+</pre></div>
+</div>
+</div></blockquote>
+<p>If there are any errors, I recommend fixing them before proceeding, as getting the same errors during the Bioconda GitHub CI takes a long time (as we’ll see later).
+In particular, the <code class="docutils literal notranslate"><span class="pre">missing_run_exports</span></code> is a new linting check that has been added recently, that many people are not aware of.
+To solve this one, look at recently merged recipes, as the PR template describes how to set this under ‘Instructions for avoiding API, ABI, and CLI breakage issues’, such as on this <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/pull/50377">pango-collapse PR</a>.</p>
+</li>
+</ol>
+</section>
+<section id="writing-a-build-script-optional">
+<h2>Writing a build script (optional)<a class="headerlink" href="#writing-a-build-script-optional" title="Link to this heading">¶</a></h2>
+<p>For some tools, we may also need to create a <code class="docutils literal notranslate"><span class="pre">build.sh</span></code> script <a class="footnote-reference brackets" href="#id17" id="id7" role="doc-noteref"><span class="fn-bracket">[</span>5<span class="fn-bracket">]</span></a> in the same directory alongside the <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> file.</p>
+<p>This is simply a shell script that is run during the build process after cloning of the source code.
+The commands executed in this script are run in a specific build environment.</p>
+<p>The purpose of this script varies, so I can’t give a precise definition or explicit steps for writing one, but in my experience it is most often used in cases of:</p>
+<ul class="simple">
+<li><p>Tools that need to be compiled from source code (e.g. C++ tools and <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">install</span></code>).</p></li>
+<li><p>Tools that are simply just an executable binary that needs to be linked or copied to the <code class="docutils literal notranslate"><span class="pre">bin/</span></code> of the eventual conda environment (e.g. Java <code class="docutils literal notranslate"><span class="pre">.jar</span></code> files).</p></li>
+<li><p>Tools that have additional ‘auxiliary’ or ‘helper’ scripts outside of (and in addition to) the main tool that also need to be copied to the <code class="docutils literal notranslate"><span class="pre">bin/</span></code> of the eventual conda environment.</p></li>
+<li><p>Patching files to allow them to run (often for simple patching with e.g. <code class="docutils literal notranslate"><span class="pre">sed</span></code>, more complex patching can use a git style <code class="docutils literal notranslate"><span class="pre">patch</span></code> file specified in the <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>).</p>
+<ul>
+<li><p>Patching can be stuff like adding a <code class="docutils literal notranslate"><span class="pre">shebang</span></code> at the top of a file</p></li>
+<li><p>Replacing hardcode paths or variables in <code class="docutils literal notranslate"><span class="pre">make</span></code> files etc.</p></li>
+</ul>
+</li>
+<li><p>Tools that may require other files to be copied to other directories in the conda environment (e.g. databases).</p></li>
+</ul>
+<p>You can see an example of a <code class="docutils literal notranslate"><span class="pre">build.sh</span></code> script below:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="ch">#!/bin/bash</span>
+
+<span class="nb">set</span><span class="w"> </span>-xe
+
+<span class="nb">export</span><span class="w"> </span><span class="nv">LDFLAGS</span><span class="o">=</span><span class="s2">&quot;-L</span><span class="nv">$PREFIX</span><span class="s2">/lib&quot;</span>
+<span class="nb">export</span><span class="w"> </span><span class="nv">CPATH</span><span class="o">=</span><span class="si">${</span><span class="nv">PREFIX</span><span class="si">}</span>/include
+
+mkdir<span class="w"> </span>-p<span class="w"> </span><span class="nv">$PREFIX</span>/bin
+
+<span class="k">case</span><span class="w"> </span><span class="k">$(</span>uname<span class="w"> </span>-m<span class="k">)</span><span class="w"> </span><span class="k">in</span>
+<span class="w">    </span>aarch64<span class="o">)</span>
+<span class="w">        </span><span class="nv">CXXFLAGS</span><span class="o">=</span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">CXXFLAGS</span><span class="si">}</span><span class="s2"> -fsigned-char&quot;</span>
+<span class="w">        </span><span class="nv">ARCH_OPTS</span><span class="o">=</span><span class="s2">&quot;SSE_FLAG= POPCNT_CAPABILITY=0&quot;</span>
+<span class="w">        </span><span class="p">;;</span>
+<span class="w">    </span>*<span class="o">)</span>
+<span class="w">        </span><span class="nv">ARCH_OPTS</span><span class="o">=</span><span class="s2">&quot;&quot;</span>
+<span class="w">        </span><span class="p">;;</span>
+<span class="k">esac</span>
+
+make<span class="w"> </span>-j<span class="w"> </span><span class="si">${</span><span class="nv">CPU_COUNT</span><span class="si">}</span><span class="w"> </span><span class="nv">CXX</span><span class="o">=</span><span class="nv">$CXX</span><span class="w"> </span><span class="nv">RELEASE_FLAGS</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$CXXFLAGS</span><span class="s2">&quot;</span><span class="w"> </span><span class="si">${</span><span class="nv">ARCH_OPTS</span><span class="si">}</span>
+make<span class="w"> </span>install<span class="w"> </span><span class="nv">prefix</span><span class="o">=</span><span class="nv">$PREFIX</span>
+
+cp<span class="w"> </span>evaluation/<span class="o">{</span>centrifuge_evaluate.py,centrifuge_simulate_reads.py<span class="o">}</span><span class="w"> </span><span class="nv">$PREFIX</span>/bin
+</pre></div>
+</div>
+<p><em>A relatively simple example</em> <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/b95f209b980339300b2fd84514a4912f6ad495e9/recipes/centrifuge/build.sh">build.sh script for Centrifuge</a>, <em>based on the descriptions above. Here it includes both `make install` compilation examples with Bioconda C++ environment variables and copying of the additional auxiliary scripts to the `bin/` directory.</em></p>
+<p>However, as always, check other tools/packages for examples.</p>
+<p>Examples of small <code class="docutils literal notranslate"><span class="pre">build.sh</span></code> scripts from the four examples above:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/23fe8cc0729ff70883819a8d2b2fdfc4d1da1443/recipes/kallisto/build.sh">kallisto</a> (make install).</p></li>
+<li><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/23fe8cc0729ff70883819a8d2b2fdfc4d1da1443/recipes/malt/build.sh">MALT</a> (java jar file).</p></li>
+<li><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/23fe8cc0729ff70883819a8d2b2fdfc4d1da1443/recipes/metabinner/build.sh">metabinner</a> (auxiliary scripts).</p></li>
+<li><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/23fe8cc0729ff70883819a8d2b2fdfc4d1da1443/recipes/phynder/build.sh">phynder</a> (patching).</p></li>
+<li><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/23fe8cc0729ff70883819a8d2b2fdfc4d1da1443/recipes/grid/build.sh">grid</a> (database files).</p></li>
+</ul>
+<p>To provide further guidance based on my experience:</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">$PREFIX</span></code> variable corresponds to the the root of the conda environment that eventually gets made on a users system when they install the conda package.
+You can explore our own conda environments to see what the <code class="docutils literal notranslate"><span class="pre">$PREFIX</span></code> looks like by running <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">list</span></code> to see all of our own conda environments, and changing into the one of the directory listed in there.
+They often will look very similar to Unix root directories, with folders such as <code class="docutils literal notranslate"><span class="pre">etc/</span></code>, <code class="docutils literal notranslate"><span class="pre">bin/</span></code>, <code class="docutils literal notranslate"><span class="pre">lib/</span></code>, <code class="docutils literal notranslate"><span class="pre">share/</span></code>, etc.
+for example, if we have an executable or scripts that need to go into <code class="docutils literal notranslate"><span class="pre">bin/</span></code>, we must copy this into <code class="docutils literal notranslate"><span class="pre">$PREFIX/bin</span></code>.
+For some tools we may have to copy other files into other directories, such as databases <a class="footnote-reference brackets" href="#id18" id="id8" role="doc-noteref"><span class="fn-bracket">[</span>6<span class="fn-bracket">]</span></a>, but this is less common.</p>
+<p>Another tricky thing is compiling of C++ code, which can be a bit of a pain.
+For reasons <a class="footnote-reference brackets" href="#id19" id="id9" role="doc-noteref"><span class="fn-bracket">[</span>7<span class="fn-bracket">]</span></a>, we need to use specific variables that point to the non-standard (it seems) places that conda stores its libraries and headers.
+These are described <a class="reference external" href="https://bioconda.github.io/contributor/guidelines.html#c-c">here</a>, and in particular for <a class="reference external" href="https://bioconda.github.io/contributor/troubleshooting.html#zlib-errors">zlib</a>.
+You often will need to patch the <code class="docutils literal notranslate"><span class="pre">make</span></code> files and other compilation related scripts to use these variables, and also to use the <code class="docutils literal notranslate"><span class="pre">--prefix=$PREFIX</span></code> flag when running <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">install</span></code>.</p>
+<p>For all of the above, regardless of language, I recommend looking at the the <a class="reference external" href="https://bioconda.github.io/contributor/guidelines.html">contributor guidelines</a>.</p>
+</section>
+<section id="build-testing">
+<h2>Build testing<a class="headerlink" href="#build-testing" title="Link to this heading">¶</a></h2>
+<p>Once we think we’ve got our <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> and <code class="docutils literal notranslate"><span class="pre">build.sh</span></code> (if needed) files ready, we can now try to see if this works.</p>
+<p>We have two options here, either:</p>
+<ul class="simple">
+<li><p>Test it locally (less slow, but may not perfectly replicate the build).</p></li>
+<li><p>Open the pull request onto the main <code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code> repository and see if it passes the tests there (slow).</p></li>
+</ul>
+<p>If we want to just let the Bioconda CI do the testing, skip to the [next section](#opening-the-pull-request).</p>
+<p>Otherwise, in our Bioconda-build conda environment, we can run one of two options (in both cases from the root directory of our <code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code> fork):</p>
+<ul>
+<li><p>The standard <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">build</span></code> command:</p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>build<span class="w"> </span>recipes/&lt;toolname&gt;
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">`bioconda-utils`</span></code> command, which should better replicate the CI environment and also gives us the Biocontainer Docker version of our conda environment (but requires Docker, and is slower):</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>bioconda-utils<span class="w"> </span>build<span class="w"> </span>--docker<span class="w"> </span>--mulled-test<span class="w"> </span>--packages<span class="w"> </span>&lt;toolname&gt;
+</pre></div>
+</div>
+</li>
+</ul>
+<p>Hopefully, if everything worked correctly the first time, we should have a successful build and we can proceed with submitting to bioconda.
+If something goes wrong, see <a class="reference internal" href="2024-debugging-bioinformatic-software-to-bioconda.html"><span class="doc">Debugging a Bioconda build - a reference guide</span></a> on debugging the Bioconda builds.</p>
+<p>Regardless, in both local build approaches, these commands will dump a huge amount of output to the terminal, and if it fails, we’ll have to trawl through it to debug it.</p>
+<p>I generally find the <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> method is slightly easier to debug because of the use of colours in the logging, with added benefit of making it easier to check the Biocontainer Docker image that gets created, but which method is up to personal preference.</p>
+</section>
+<section id="opening-the-pull-request">
+<h2>Opening the Pull Request<a class="headerlink" href="#opening-the-pull-request" title="Link to this heading">¶</a></h2>
+<p>Once we’re happy with our recipe, we can open a pull request on the main <code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code> repository on GitHub.</p>
+<p>We can do this (if you’re not too familiar with GitHub), by:</p>
+<ol class="arabic simple">
+<li><p>On your local repo, <a href="#id11"><span class="problematic" id="id12">``</span></a>git add``ing the files you’ve added, commit, and push.</p></li>
+<li><p>Go to the main <code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code> repository on GitHub.</p></li>
+<li><p>Switch to the Pull Requests tab.</p></li>
+<li><p>Press the green ‘New Pull Request’ button.</p></li>
+<li><p>In the top bar use the dropdowns to select our fork and branch (which should then be going <em>into</em> <code class="docutils literal notranslate"><span class="pre">bioconda/bioconda-recipes</span></code> and the <code class="docutils literal notranslate"><span class="pre">master</span></code> branch).</p></li>
+<li><p>Make sure the title of the pull request is follows the recommendations, typically just <code class="docutils literal notranslate"><span class="pre">Add</span> <span class="pre">[tool/package]</span></code> or <code class="docutils literal notranslate"><span class="pre">Update</span> <span class="pre">[tool/package]</span></code>.</p></li>
+<li><p>Once we open the pull request, the Bioconda CI will run.</p></li>
+</ol>
+<p>We can see the overall status of the checks near the bottom of the page below the ‘Review required’ message.
+For most builds this currently happens away from GitHub on Microsoft Azure, and can take a while (sometimes up to 1 hour!) to complete (so be patient).</p>
+<p>To get more information on the status of the CI test, and also logs, press ‘details’ next to one of the checks (it generally doesn’t matter which one), then press the ‘View more details on Azure Pipelines’ link on the resulting page.</p>
+<p>On the Azure website we should see a series of ‘stages’, that run in order. The tests that are run in these stages are:</p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">lint</span></code>: checks we’ve not missed anything (e.g. the LICENSE).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">test_linux</span></code>: that the recipe builds on a Linux system (i.e., doesn’t error and the test command completes).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">test_osx</span></code>: that the recipe builds on a macOS system (i.e., doesn’t error and the test command completes).</p></li>
+</ol>
+<p>A given stage has a completed (green tick), running (blue spinny icon), or failed (red cross) status.
+If we click on any of the stages, we should see log files that similar or identical what we would do if we were building locally (see the tutorial <a class="reference internal" href="2024-debugging-bioinformatic-software-to-bioconda.html"><span class="doc">Debugging a Bioconda build - a reference guide</span></a> for debugging advice, if we skipped local building).</p>
+<p>If you get errors or something goes wrong, see <a class="reference internal" href="2024-debugging-bioinformatic-software-to-bioconda.html"><span class="doc">Debugging a Bioconda build - a reference guide</span></a> on how to locally debug the Bioconda build.</p>
+</section>
+<section id="test-driving-the-docker-biocontainer-optional">
+<h2>Test driving the docker Biocontainer (optional)<a class="headerlink" href="#test-driving-the-docker-biocontainer-optional" title="Link to this heading">¶</a></h2>
+<p>If we used the <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> command to build our recipe, we can also optionally test the Biocontainer Docker image that was generated from the conda environment that was built.</p>
+<p>If we did a local build, the Docker image is already on our own machine.</p>
+<p>If we let the automated Bioconda CI do the testing on Azure, we can leave a comment with <a class="reference external" href="mailto:'&#37;&#52;&#48;BiocondaBot">‘<span>&#64;</span>BiocondaBot</a> please fetch artifacts’ and this will generate a comment on the PR with two tables.
+We can download the <code class="docutils literal notranslate"><span class="pre">LinuxArtifacts.zip</span></code> file from the top table (<code class="docutils literal notranslate"><span class="pre">Package(s)</span> <span class="pre">built</span> <span class="pre">are</span> <span class="pre">ready...</span></code>), unzip it and then run the command given in <code class="docutils literal notranslate"><span class="pre">Docker</span> <span class="pre">image(s)</span> <span class="pre">built</span></code> table to load the container.</p>
+<p>Then for both local or GitHub build cases, we can just access the created Docker container by finding it in the the output of <code class="docutils literal notranslate"><span class="pre">docker</span> <span class="pre">images</span></code>.
+The image will be named something like <code class="docutils literal notranslate"><span class="pre">quay.io/biocontainers/[toolname]</span></code>, and I typically run the following command to access container and run additional test commands or experiments within the container.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>docker<span class="w"> </span>run<span class="w"> </span>-it<span class="w"> </span><span class="o">[</span>image_id_from_docker_images_command<span class="o">]</span>
+</pre></div>
+</div>
+<p>This should dump us within a shell in the container so we can test commands etc. as we would with any other Docker container.</p>
+<p>If something goes wrong here and you encounter issues with the build within the container, you can see <a class="reference internal" href="2024-debugging-bioinformatic-software-to-bioconda.html"><span class="doc">Debugging a Bioconda build - a reference guide</span></a> to get tips and tricks how to manually re-build the recipe step-by-step.
+Otherwise, if you’re happy you can continue to finalise the PR in the next section.</p>
+</section>
+<section id="finalising-the-pr">
+<h2>Finalising the PR<a class="headerlink" href="#finalising-the-pr" title="Link to this heading">¶</a></h2>
+<p>If the CI on Microsoft Azure passes, then back on GitHub we can leave a comment in our PR saying <a class="reference external" href="mailto:'&#37;&#52;&#48;BiocondaBot">‘<span>&#64;</span>BiocondaBot</a> please add label’.
+This will add a label to our PR indicating a Bioconda team member can review our recipe to ensure it matches the guidelines.
+If they give an approval, they or we can merge our PR into the main <code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code> repository!
+We’re now officially a Bioconda recipe maintainer 🎉.</p>
+<p>Once the recipe is merged in, we can normally install the official version of our tool/package with conda within a few minutes.
+At the same time, on merging, the auto-generated Docker Biocontainer gets uploaded to the Biocontainers <code class="docutils literal notranslate"><span class="pre">quay.io</span></code> repository.
+For the Singularity version of the Docker container, this can take up to 24h before it’s visible on the <a class="reference external" href="https://depot.galaxyproject.org/singularity/">Galaxy project’s ‘depot’</a>.</p>
+</section>
+<section id="conclusion">
+<h2>Conclusion<a class="headerlink" href="#conclusion" title="Link to this heading">¶</a></h2>
+<p>This guide hopefully has given you enough pointers on the steps required to <em>make</em> a recipe and submit your tool/package to Bioconda.</p>
+<ul class="simple">
+<li><p>To go through how to update an existing recipe, see the tutorial <a class="reference internal" href="2024-updating-bioinformatic-software-to-bioconda.html"><span class="doc">Updating bioinformatic software to Bioconda - a reference guide</span></a>.</p></li>
+<li><p>To go through how to manually debug the build process if things go wrong, see the tutorial <a class="reference internal" href="2024-debugging-bioinformatic-software-to-bioconda.html"><span class="doc">Debugging a Bioconda build - a reference guide</span></a>.</p></li>
+</ul>
+<p>As with all bioinformatics and software development in general, things rarely just ‘work’ straight out of the box.
+My three biggest points of advice:</p>
+<ul class="simple">
+<li><p>Always copy and paste from other similar tools or packages on the Bioconda recipes repository.</p></li>
+<li><p>Take the time to read through the whole log messages (sometimes you can find critical clues hidden amongst the verbose information).</p></li>
+<li><p>Take the time to go step by step trying to follow exactly what Bioconda does during it’s own building on Azure with local building.</p></li>
+</ul>
+<p>I found by taking the time, I very quickly learnt common issues and how to solve them.
+However, if you’re really stuck (even after reading the third part of this guide), you can always ask the very friendly volunteer Bioconda team on the <a class="reference external" href="https://gitter.im/bioconda/Lobby">Bioconda gitter/matrix channel</a>.</p>
+<p class="rubric">Footnotes</p>
+<aside class="footnote-list brackets">
+<aside class="footnote brackets" id="id13" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
+<p>Note that conda-forge has a different system for adding packages!</p>
+</aside>
+<aside class="footnote brackets" id="id14" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">2</a><span class="fn-bracket">]</span></span>
+<p>You can do a shallow clone <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span> <span class="pre">--depth</span> <span class="pre">1</span></code>, to make the size of the cloned repo smaller on your machine. Thanks to &#64;Wytamma for the tip!</p>
+</aside>
+<aside class="footnote brackets" id="id15" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id3">3</a><span class="fn-bracket">]</span></span>
+<p>Various Bioconda documentation pages say we should use <code class="docutils literal notranslate"><span class="pre">mamba</span></code>, but recent versions of conda include <code class="docutils literal notranslate"><span class="pre">lib-mamba</span></code> by default, so generally we can use standard <code class="docutils literal notranslate"><span class="pre">conda</span></code>. But if you’re having problems with things being very slow, try switching to <code class="docutils literal notranslate"><span class="pre">mamba</span></code>.</p>
+</aside>
+<aside class="footnote brackets" id="id16" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id6">4</a><span class="fn-bracket">]</span></span>
+<p>Possibly from a fixed list, and how to format these, I don’t know… I just copy and paste from other recipes.</p>
+</aside>
+<aside class="footnote brackets" id="id17" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id7">5</a><span class="fn-bracket">]</span></span>
+<p>I’ve noticed in a few more recent recipes that these commands can go within the <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> itself <a class="reference external" href="https://docs.conda.io/projects/conda-build/en/stable/resources/define-metadata.html#script">in an entry</a> called <code class="docutils literal notranslate"><span class="pre">script:</span></code> under <code class="docutils literal notranslate"><span class="pre">build:</span></code>, but I guess this only works for very simple commands…</p>
+</aside>
+<aside class="footnote brackets" id="id18" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id8">6</a><span class="fn-bracket">]</span></span>
+<p>Even though I absolutely HATE this, as often it leads to gigantic multi-gigabyte conda environments which we can’t use on small CI runners. Give me the choice where to store my databases already! Don’t force me to place them in a specific place /rant.</p>
+</aside>
+<aside class="footnote brackets" id="id19" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id9">7</a><span class="fn-bracket">]</span></span>
+<p>That I’ve never found a good explanation or documentation for.</p>
+</aside>
+</aside>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../index.html">
+    <img class="logo" src="../_static/logo/bioconda_monochrome_small.png" alt="Logo" />
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../faqs.html">FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contributor/index.html">Contributing to Bioconda</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer/index.html">Developer Docs</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Tutorials</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Adding bioinformatic software to Bioconda - a reference guide</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#tl-dr-relevant-commands">TL;DR Relevant Commands</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#prerequisites">Prerequisites</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#preparation">Preparation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#writing-the-recipe">Writing the recipe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#writing-a-build-script-optional">Writing a build script (optional)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#build-testing">Build testing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#opening-the-pull-request">Opening the Pull Request</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-driving-the-docker-biocontainer-optional">Test driving the docker Biocontainer (optional)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#finalising-the-pr">Finalising the PR</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#conclusion">Conclusion</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="2024-updating-bioinformatic-software-to-bioconda.html">Updating bioinformatic software to Bioconda - a reference guide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2024-debugging-bioinformatic-software-to-bioconda.html">Debugging a Bioconda build - a reference guide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gcb2020.html">GCB 2020 Tutorial</a></li>
+</ul>
+</li>
+</ul>
+
+<ul>
+  
+  <li class="toctree-l1"><a href="../conda-package_index.html">Browse packages</a></li>
+  
+  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
+  
+  <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
+  
+</ul>
+<div id="searchbox" style="display: none" role="search">
+    <h3 id="searchlabel">Search</h3>
+    <p id="searchdesc">packages & docs</p>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div><script>
+    let closest;
+    // Get the last part of the URL after the # symbol - should match the div id to display
+    let id = window.location.hash.substring(1);
+    if (id) {
+        let elem = document.getElementById(id);
+        if (elem != null) {
+            // Get the closest "details" element and open it
+            closest = elem.closest("details");
+            if (closest) closest.open = true;
+        }
+    }
+</script>
+
+    
+    <div class="footer">
+      &#169;2016-2025, The Bioconda Team.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.1.3</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="../_sources/tutorials/2024-adding-bioinformatic-software-to-bioconda.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    <div class="git-ribbon">
+      <a href="https://github.com/bioconda/bioconda-docs/edit/main/source/tutorials/2024-adding-bioinformatic-software-to-bioconda.rst" rel="me">Edit me on GitHub</a>
+    </div>
+  </body>
+</html>

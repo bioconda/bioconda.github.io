@@ -12,7 +12,7 @@ bioconductor-rexposome
 
    Exposome exploration and outcome data analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/rexposome.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/rexposome.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-rexposome <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rexposome>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rexposome/meta.yaml>`_
 

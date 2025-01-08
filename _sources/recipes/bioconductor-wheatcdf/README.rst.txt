@@ -12,7 +12,7 @@ bioconductor-wheatcdf
 
    wheatcdf
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/wheatcdf.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/wheatcdf.html
    :license: LGPL
    :recipe: /`bioconductor-wheatcdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wheatcdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wheatcdf/meta.yaml>`_
 

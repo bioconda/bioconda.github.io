@@ -12,7 +12,7 @@ bioconductor-rseqan
 
    R SeqAn
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/RSeqAn.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/RSeqAn.html
    :license: BSD_3_clause + file LICENSE
    :recipe: /`bioconductor-rseqan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rseqan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rseqan/meta.yaml>`_
 

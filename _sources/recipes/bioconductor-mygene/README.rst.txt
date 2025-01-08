@@ -12,7 +12,7 @@ bioconductor-mygene
 
    Access MyGene.Info\_ services
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/mygene.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/mygene.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mygene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mygene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mygene/meta.yaml>`_
    :links: biotools: :biotools:`mygene`, doi: :doi:`10.1101/009333`
@@ -29,10 +29,10 @@ bioconductor-mygene
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.42.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  </span></summary>
       
 
-      ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.2-0``,  ``1.14.0-0``
+      ``1.42.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.2-0``,  ``1.14.0-0``
 
       
       .. raw:: html
@@ -41,9 +41,10 @@ bioconductor-mygene
       
 
    
-   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-txdbmaker: ``>=1.2.0,<1.3.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-hmisc: 
    :depends r-httr: ``>=0.3``
    :depends r-jsonlite: ``>=0.9.7``
@@ -99,7 +100,7 @@ bioconductor-mygene
 
     <script>
         var package = "bioconductor-mygene";
-        var versions = ["1.38.0","1.36.0","1.34.0","1.30.0","1.28.0"];
+        var versions = ["1.42.0","1.38.0","1.36.0","1.34.0","1.30.0"];
     </script>
 
 

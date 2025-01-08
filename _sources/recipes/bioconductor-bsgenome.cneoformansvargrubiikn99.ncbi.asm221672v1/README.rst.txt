@@ -12,7 +12,7 @@ bioconductor-bsgenome.cneoformansvargrubiikn99.ncbi.asm221672v1
 
    Full Genome Sequence for Cryptococcus neoformans var. grubii KN99 \(ASM221672v1\)
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/BSgenome.CneoformansVarGrubiiKN99.NCBI.ASM221672v1.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/BSgenome.CneoformansVarGrubiiKN99.NCBI.ASM221672v1.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.cneoformansvargrubiikn99.ncbi.asm221672v1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.cneoformansvargrubiikn99.ncbi.asm221672v1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.cneoformansvargrubiikn99.ncbi.asm221672v1/meta.yaml>`_
 
@@ -27,15 +27,15 @@ bioconductor-bsgenome.cneoformansvargrubiikn99.ncbi.asm221672v1
       
       
 
-      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-data-packages: ``>=20241103``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -86,7 +86,7 @@ bioconductor-bsgenome.cneoformansvargrubiikn99.ncbi.asm221672v1
 
     <script>
         var package = "bioconductor-bsgenome.cneoformansvargrubiikn99.ncbi.asm221672v1";
-        var versions = ["1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.0.0","1.0.0","1.0.0","1.0.0"];
     </script>
 
 

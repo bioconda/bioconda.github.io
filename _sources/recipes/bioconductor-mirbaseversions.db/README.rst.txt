@@ -12,7 +12,7 @@ bioconductor-mirbaseversions.db
 
    Collection of mature miRNA names of 22 different miRBase release versions
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/miRBaseVersions.db.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/miRBaseVersions.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-mirbaseversions.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirbaseversions.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirbaseversions.db/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-mirbaseversions.db
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.0-13</code>,  <code>1.1.0-12</code>,  <code>1.1.0-11</code>,  <code>1.1.0-10</code>,  <code>1.1.0-9</code>,  <code>1.1.0-8</code>,  <code>1.1.0-7</code>,  <code>1.1.0-6</code>,  <code>1.1.0-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.0-14</code>,  <code>1.1.0-13</code>,  <code>1.1.0-12</code>,  <code>1.1.0-11</code>,  <code>1.1.0-10</code>,  <code>1.1.0-9</code>,  <code>1.1.0-8</code>,  <code>1.1.0-7</code>,  <code>1.1.0-6</code>,  </span></summary>
       
 
-      ``1.1.0-13``,  ``1.1.0-12``,  ``1.1.0-11``,  ``1.1.0-10``,  ``1.1.0-9``,  ``1.1.0-8``,  ``1.1.0-7``,  ``1.1.0-6``,  ``1.1.0-5``,  ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-1``,  ``1.1.0-0``,  ``0.99.5-0``
+      ``1.1.0-14``,  ``1.1.0-13``,  ``1.1.0-12``,  ``1.1.0-11``,  ``1.1.0-10``,  ``1.1.0-9``,  ``1.1.0-8``,  ``1.1.0-7``,  ``1.1.0-6``,  ``1.1.0-5``,  ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-1``,  ``1.1.0-0``,  ``0.99.5-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-mirbaseversions.db
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-data-packages: ``>=20241103``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dbi: 
    :depends r-gtools: 
    :depends r-rsqlite: 

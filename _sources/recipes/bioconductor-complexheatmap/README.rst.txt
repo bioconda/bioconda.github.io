@@ -12,7 +12,7 @@ bioconductor-complexheatmap
 
    Make Complex Heatmaps
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ComplexHeatmap.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ComplexHeatmap.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-complexheatmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-complexheatmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-complexheatmap/meta.yaml>`_
    :links: biotools: :biotools:`complexheatmap`

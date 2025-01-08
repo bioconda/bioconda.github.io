@@ -12,7 +12,7 @@ bioconductor-pepxmltab
 
    Parsing pepXML files and filter based on peptide FDR.
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/pepXMLTab.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/pepXMLTab.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pepxmltab <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pepxmltab>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pepxmltab/meta.yaml>`_
    :links: biotools: :biotools:`pepxmltab`, doi: :doi:`10.1038/nmeth.3252`

@@ -12,7 +12,7 @@ bioconductor-ribor
 
    An R Interface for Ribo Files
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ribor.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ribor.html
    :license: GPL-3
    :recipe: /`bioconductor-ribor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ribor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ribor/meta.yaml>`_
 
@@ -27,14 +27,14 @@ bioconductor-ribor
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-rhdf5: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-hash: 
@@ -91,7 +91,7 @@ bioconductor-ribor
 
     <script>
         var package = "bioconductor-ribor";
-        var versions = ["1.14.0","1.12.0","1.10.0","1.6.0","1.4.0"];
+        var versions = ["1.18.0","1.14.0","1.12.0","1.10.0","1.6.0"];
     </script>
 
 

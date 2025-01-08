@@ -12,7 +12,7 @@ bioconductor-chipxpress
 
    ChIPXpress\: enhanced transcription factor target gene identification from ChIP\-seq and ChIP\-chip data using publicly available gene expression profiles
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ChIPXpress.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ChIPXpress.html
    :license: GPL(>=2)
    :recipe: /`bioconductor-chipxpress <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipxpress>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipxpress/meta.yaml>`_
    :links: biotools: :biotools:`chipxpress`, doi: :doi:`10.1186/1471-2105-14-188`

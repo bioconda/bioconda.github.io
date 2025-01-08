@@ -12,8 +12,8 @@ bioconductor-cnanorm
 
    A normalization method for Copy Number Aberration in cancer samples
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CNAnorm.html
-   :license: GPL-2-only
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CNAnorm.html
+   :license: GPL-2
    :recipe: /`bioconductor-cnanorm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnanorm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnanorm/meta.yaml>`_
    :links: biotools: :biotools:`cnanorm`
 

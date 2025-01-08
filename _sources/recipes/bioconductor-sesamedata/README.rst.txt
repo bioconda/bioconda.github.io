@@ -12,7 +12,7 @@ bioconductor-sesamedata
 
    Supporting Data for SeSAMe Package
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/sesameData.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/sesameData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-sesamedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sesamedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sesamedata/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-humanaffydata
 
    GEO accession GSE64985 and ArrayExpress accession E\-MTAB\-62 as ExpressionSet objects
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/HumanAffyData.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/HumanAffyData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-humanaffydata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-humanaffydata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-humanaffydata/meta.yaml>`_
 

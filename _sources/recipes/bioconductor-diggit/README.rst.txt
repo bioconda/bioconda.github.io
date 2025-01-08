@@ -12,7 +12,7 @@ bioconductor-diggit
 
    Inference of Genetic Variants Driving Cellular Phenotypes
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/diggit.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/diggit.html
    :license: file LICENSE
    :recipe: /`bioconductor-diggit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diggit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diggit/meta.yaml>`_
 

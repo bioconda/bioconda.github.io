@@ -12,7 +12,7 @@ bioconductor-rificomparative
 
    \'rifiComparative\' compares the output of rifi from two different conditions.
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/rifiComparative.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/rifiComparative.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-rificomparative <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rificomparative>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rificomparative/meta.yaml>`_
 
@@ -27,16 +27,16 @@ bioconductor-rificomparative
       
       
 
-      ``1.2.0-0``,  ``1.0.1-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-dta: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-dta: ``>=2.52.0,<2.53.0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cowplot: 
    :depends r-devtools: 
    :depends r-domc: 
@@ -103,7 +103,7 @@ bioconductor-rificomparative
 
     <script>
         var package = "bioconductor-rificomparative";
-        var versions = ["1.2.0","1.0.1"];
+        var versions = ["1.6.0","1.2.0","1.0.1"];
     </script>
 
 

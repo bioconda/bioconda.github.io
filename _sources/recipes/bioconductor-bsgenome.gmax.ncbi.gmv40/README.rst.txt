@@ -12,7 +12,7 @@ bioconductor-bsgenome.gmax.ncbi.gmv40
 
    Full genome sequences for Glycine max \(Gmv40\)
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/BSgenome.Gmax.NCBI.Gmv40.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/BSgenome.Gmax.NCBI.Gmv40.html
    :license: Creative Commons Legal Code + file LICENSE
    :recipe: /`bioconductor-bsgenome.gmax.ncbi.gmv40 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.gmax.ncbi.gmv40>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.gmax.ncbi.gmv40/meta.yaml>`_
 
@@ -27,15 +27,15 @@ bioconductor-bsgenome.gmax.ncbi.gmv40
       
       
 
-      ``4.0-2``,  ``4.0-1``,  ``4.0-0``
+      ``4.0-3``,  ``4.0-2``,  ``4.0-1``,  ``4.0-0``
 
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-data-packages: ``>=20241103``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -86,7 +86,7 @@ bioconductor-bsgenome.gmax.ncbi.gmv40
 
     <script>
         var package = "bioconductor-bsgenome.gmax.ncbi.gmv40";
-        var versions = ["4.0","4.0","4.0"];
+        var versions = ["4.0","4.0","4.0","4.0"];
     </script>
 
 

@@ -12,7 +12,7 @@ bioconductor-asgsca
 
    Association Studies for multiple SNPs and multiple traits using Generalized Structured Equation Models
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ASGSCA.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ASGSCA.html
    :license: GPL-3
    :recipe: /`bioconductor-asgsca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-asgsca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-asgsca/meta.yaml>`_
    :links: biotools: :biotools:`asgsca`, doi: :doi:`10.1002/gepi.21872`

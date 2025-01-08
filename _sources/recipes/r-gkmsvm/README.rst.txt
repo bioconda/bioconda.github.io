@@ -47,7 +47,8 @@ r-gkmsvm
    :depends bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
    :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0a0``
    :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-kernlab: 
    :depends r-rcpp: 

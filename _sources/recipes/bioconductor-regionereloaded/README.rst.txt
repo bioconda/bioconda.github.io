@@ -12,7 +12,7 @@ bioconductor-regionereloaded
 
    RegioneReloaded\: Multiple Association for Genomic Region Sets
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/regioneReloaded.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/regioneReloaded.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-regionereloaded <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-regionereloaded>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-regionereloaded/meta.yaml>`_
 
@@ -27,13 +27,13 @@ bioconductor-regionereloaded
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-regioner: ``>=1.34.0,<1.35.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-regioner: ``>=1.38.0,<1.39.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cluster: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 
@@ -92,7 +92,7 @@ bioconductor-regionereloaded
 
     <script>
         var package = "bioconductor-regionereloaded";
-        var versions = ["1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

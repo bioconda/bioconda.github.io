@@ -10,10 +10,10 @@ divvier
    :replaces_section_title:
    :noindex:
 
-   A program for removing MSA uncertainty
+   A program for removing MSA uncertainty.
 
    :homepage: https://github.com/simonwhelan/Divvier
-   :license: GPL3 / GNU General Public v3 or later (GPLv3+)
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`divvier <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/divvier>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/divvier/meta.yaml>`_
 
    
@@ -27,16 +27,21 @@ divvier
       
       
 
-      ``1.01-4``,  ``1.01-3``,  ``1.01-2``,  ``1.01-1``,  ``1.01-0``
+      ``1.01-5``,  ``1.01-4``,  ``1.01-3``,  ``1.01-2``,  ``1.01-1``,  ``1.01-0``
 
       
 
    
-   :depends libcxx: ``>=15.0.7``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

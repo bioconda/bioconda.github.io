@@ -12,7 +12,7 @@ bioconductor-erssa
 
    Empirical RNA\-seq Sample Size Analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ERSSA.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ERSSA.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-erssa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-erssa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-erssa/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-erssa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  </span></summary>
       
 
-      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+      ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-erssa
       
 
    
-   :depends bioconductor-apeglm: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-deseq2: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-apeglm: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-deseq2: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: ``>=3.0.0``
    :depends r-plyr: ``>=1.8.4``
    :depends r-rcolorbrewer: ``>=1.1-2``
@@ -98,7 +98,7 @@ bioconductor-erssa
 
     <script>
         var package = "bioconductor-erssa";
-        var versions = ["1.20.0","1.18.0","1.16.0","1.12.0","1.10.0"];
+        var versions = ["1.24.0","1.20.0","1.18.0","1.16.0","1.12.0"];
     </script>
 
 

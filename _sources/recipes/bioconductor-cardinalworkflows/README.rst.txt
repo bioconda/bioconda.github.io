@@ -10,9 +10,9 @@ bioconductor-cardinalworkflows
    :replaces_section_title:
    :noindex:
 
-   Datasets and workflows for the Cardinal mass spectrometry imaging package
+   Datasets and workflows for the Cardinal MSI
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/CardinalWorkflows.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/CardinalWorkflows.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cardinalworkflows <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cardinalworkflows>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cardinalworkflows/meta.yaml>`_
 

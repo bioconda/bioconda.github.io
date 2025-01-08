@@ -12,7 +12,7 @@ bioconductor-msfeatures
 
    Functionality for Mass Spectrometry Features
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MsFeatures.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MsFeatures.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-msfeatures <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msfeatures>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msfeatures/meta.yaml>`_
 

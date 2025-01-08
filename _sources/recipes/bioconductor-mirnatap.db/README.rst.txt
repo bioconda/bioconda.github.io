@@ -12,7 +12,7 @@ bioconductor-mirnatap.db
 
    Data for miRNAtap
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/miRNAtap.db.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/miRNAtap.db.html
    :license: GPL-2
    :recipe: /`bioconductor-mirnatap.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirnatap.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirnatap.db/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-mirnatap.db
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.99.10-15</code>,  <code>0.99.10-14</code>,  <code>0.99.10-13</code>,  <code>0.99.10-12</code>,  <code>0.99.10-11</code>,  <code>0.99.10-10</code>,  <code>0.99.10-9</code>,  <code>0.99.10-8</code>,  <code>0.99.10-7</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.99.10-16</code>,  <code>0.99.10-15</code>,  <code>0.99.10-14</code>,  <code>0.99.10-13</code>,  <code>0.99.10-12</code>,  <code>0.99.10-11</code>,  <code>0.99.10-10</code>,  <code>0.99.10-9</code>,  <code>0.99.10-8</code>,  </span></summary>
       
 
-      ``0.99.10-15``,  ``0.99.10-14``,  ``0.99.10-13``,  ``0.99.10-12``,  ``0.99.10-11``,  ``0.99.10-10``,  ``0.99.10-9``,  ``0.99.10-8``,  ``0.99.10-7``,  ``0.99.10-6``,  ``0.99.10-5``,  ``0.99.10-3``,  ``0.99.10-2``,  ``0.99.10-0``
+      ``0.99.10-16``,  ``0.99.10-15``,  ``0.99.10-14``,  ``0.99.10-13``,  ``0.99.10-12``,  ``0.99.10-11``,  ``0.99.10-10``,  ``0.99.10-9``,  ``0.99.10-8``,  ``0.99.10-7``,  ``0.99.10-6``,  ``0.99.10-5``,  ``0.99.10-3``,  ``0.99.10-2``,  ``0.99.10-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-mirnatap.db
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-mirnatap: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-mirnatap: ``>=1.40.0,<1.41.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dbi: 
    :depends r-rsqlite: 
    :requirements:

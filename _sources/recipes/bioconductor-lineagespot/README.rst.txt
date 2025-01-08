@@ -12,7 +12,7 @@ bioconductor-lineagespot
 
    Detection of SARS\-CoV\-2 lineages in wastewater samples using next\-generation sequencing
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/lineagespot.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/lineagespot.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-lineagespot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lineagespot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lineagespot/meta.yaml>`_
 
@@ -27,15 +27,15 @@ bioconductor-lineagespot
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-matrixgenerics: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-variantannotation: ``>=1.48.0,<1.49.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-matrixgenerics: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-variantannotation: ``>=1.52.0,<1.53.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: 
    :depends r-httr: 
    :depends r-stringr: 
@@ -89,7 +89,7 @@ bioconductor-lineagespot
 
     <script>
         var package = "bioconductor-lineagespot";
-        var versions = ["1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.10.0","1.6.0","1.4.0","1.2.0"];
     </script>
 
 

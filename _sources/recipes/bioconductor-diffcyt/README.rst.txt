@@ -12,7 +12,7 @@ bioconductor-diffcyt
 
    Differential discovery in high\-dimensional cytometry via high\-resolution clustering
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/diffcyt.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/diffcyt.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-diffcyt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffcyt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffcyt/meta.yaml>`_
 

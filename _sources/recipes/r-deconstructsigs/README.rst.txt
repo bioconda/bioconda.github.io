@@ -28,10 +28,10 @@ r-deconstructsigs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.9.0-3</code>,  <code>1.9.0-2</code>,  <code>1.9.0-1</code>,  <code>1.9.0-0</code>,  <code>1.8.0.1-4</code>,  <code>1.8.0.1-3</code>,  <code>1.8.0.1-2</code>,  <code>1.8.0.1-1</code>,  <code>1.8.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.9.0-4</code>,  <code>1.9.0-3</code>,  <code>1.9.0-2</code>,  <code>1.9.0-1</code>,  <code>1.9.0-0</code>,  <code>1.8.0.1-4</code>,  <code>1.8.0.1-3</code>,  <code>1.8.0.1-2</code>,  <code>1.8.0.1-1</code>,  </span></summary>
       
 
-      ``1.9.0-3``,  ``1.9.0-2``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.0.1-4``,  ``1.8.0.1-3``,  ``1.8.0.1-2``,  ``1.8.0.1-1``,  ``1.8.0.1-0``,  ``1.8.0-2``,  ``1.8.0-0``
+      ``1.9.0-4``,  ``1.9.0-3``,  ``1.9.0-2``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.0.1-4``,  ``1.8.0.1-3``,  ``1.8.0.1-2``,  ``1.8.0.1-1``,  ``1.8.0.1-0``,  ``1.8.0-2``,  ``1.8.0-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ r-deconstructsigs
    :depends bioconductor-bsgenome: 
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: 
    :depends bioconductor-genomeinfodb: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-reshape2: 
    :requirements:
 
@@ -95,7 +95,7 @@ r-deconstructsigs
 
     <script>
         var package = "r-deconstructsigs";
-        var versions = ["1.9.0","1.9.0","1.9.0","1.9.0","1.8.0.1"];
+        var versions = ["1.9.0","1.9.0","1.9.0","1.9.0","1.9.0"];
     </script>
 
 

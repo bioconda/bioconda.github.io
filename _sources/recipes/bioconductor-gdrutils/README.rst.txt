@@ -12,7 +12,7 @@ bioconductor-gdrutils
 
    A package with helper functions for processing drug response data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/gDRutils.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/gDRutils.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gdrutils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdrutils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdrutils/meta.yaml>`_
 

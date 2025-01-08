@@ -12,7 +12,7 @@ bioconductor-beadsorted.saliva.epic
 
    Illumina EPIC data on BeadSorted child saliva cells
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/BeadSorted.Saliva.EPIC.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/BeadSorted.Saliva.EPIC.html
    :license: GPL-3
    :recipe: /`bioconductor-beadsorted.saliva.epic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beadsorted.saliva.epic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beadsorted.saliva.epic/meta.yaml>`_
 
@@ -27,16 +27,16 @@ bioconductor-beadsorted.saliva.epic
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-minfi: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-minfi: ``>=1.52.0,<1.53.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -87,7 +87,7 @@ bioconductor-beadsorted.saliva.epic
 
     <script>
         var package = "bioconductor-beadsorted.saliva.epic";
-        var versions = ["1.10.0","1.8.0","1.6.0","1.2.0","1.2.0"];
+        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.2.0"];
     </script>
 
 

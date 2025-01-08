@@ -12,7 +12,7 @@ bioconductor-primirtss
 
    Prediction of pri\-miRNA Transcription Start Site
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/primirTSS.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/primirTSS.html
    :license: GPL-2
    :recipe: /`bioconductor-primirtss <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-primirtss>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-primirtss/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-primirtss
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  </span></summary>
       
 
-      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-1``,  ``1.0.1-0``
+      ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-1``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -40,19 +40,19 @@ bioconductor-primirtss
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg38: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-genomicscores: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-gviz: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-genomicscores: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-gviz: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
    :depends bioconductor-jaspar2018: ``>=1.1.0,<1.2.0``
    :depends bioconductor-phastcons100way.ucsc.hg38: ``>=3.7.0,<3.8.0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-tfbstools: ``>=1.40.0,<1.41.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-tfbstools: ``>=1.44.0,<1.45.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: ``>=0.7.6``
    :depends r-purrr: ``>=0.2.5``
    :depends r-r.utils: ``>=2.6.0``
@@ -110,7 +110,7 @@ bioconductor-primirtss
 
     <script>
         var package = "bioconductor-primirtss";
-        var versions = ["1.20.0","1.18.0","1.16.0","1.12.0","1.10.0"];
+        var versions = ["1.24.0","1.20.0","1.18.0","1.16.0","1.12.0"];
     </script>
 
 

@@ -12,7 +12,7 @@ bioconductor-struct
 
    Statistics in R Using Class\-based Templates
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/struct.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/struct.html
    :license: GPL-3
    :recipe: /`bioconductor-struct <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-struct>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-struct/meta.yaml>`_
 

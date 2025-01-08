@@ -12,7 +12,7 @@ bioconductor-healthycontrolspresencechecker
 
    Dowloads A Gene Expression Dataset From GEO And Checks If It Contains Data Of Healthy Controls Or Not
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/healthyControlsPresenceChecker.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/healthyControlsPresenceChecker.html
    :license: GPL-3
    :recipe: /`bioconductor-healthycontrolspresencechecker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-healthycontrolspresencechecker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-healthycontrolspresencechecker/meta.yaml>`_
 
@@ -27,15 +27,15 @@ bioconductor-healthycontrolspresencechecker
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-geoquery: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-geoquery: ``>=2.74.0,<2.75.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-geneexpressionfromgeo: 
    :depends r-magrittr: 
    :depends r-xml2: 
@@ -89,7 +89,7 @@ bioconductor-healthycontrolspresencechecker
 
     <script>
         var package = "bioconductor-healthycontrolspresencechecker";
-        var versions = ["1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.10.0","1.6.0","1.4.0","1.2.0"];
     </script>
 
 

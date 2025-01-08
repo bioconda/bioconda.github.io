@@ -27,7 +27,7 @@ r-locuszoomr
       
       
 
-      ``0.3.5-0``
+      ``0.3.5-1``,  ``0.3.5-0``
 
       
 
@@ -39,7 +39,7 @@ r-locuszoomr
    :depends bioconductor-genomicranges: 
    :depends bioconductor-iranges: 
    :depends bioconductor-rtracklayer: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cowplot: 
    :depends r-dplyr: 
    :depends r-gggrid: 
@@ -100,7 +100,7 @@ r-locuszoomr
 
     <script>
         var package = "r-locuszoomr";
-        var versions = ["0.3.5"];
+        var versions = ["0.3.5","0.3.5"];
     </script>
 
 

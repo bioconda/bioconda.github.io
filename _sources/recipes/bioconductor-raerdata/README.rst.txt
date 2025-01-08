@@ -12,7 +12,7 @@ bioconductor-raerdata
 
    A collection of datasets for use with raer package
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/raerdata.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/raerdata.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-raerdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-raerdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-raerdata/meta.yaml>`_
 
@@ -27,19 +27,19 @@ bioconductor-raerdata
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -90,7 +90,7 @@ bioconductor-raerdata
 
     <script>
         var package = "bioconductor-raerdata";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

@@ -27,14 +27,14 @@ fusion-inspector
       
       
 
-      ``2.8.0-0``,  ``2.2.1-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
+      ``2.10.0-0``,  ``2.8.0-0``,  ``2.2.1-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
 
       
 
    
    :depends bzip2: 
    :depends gmap: ``>=2017.11.15``
-   :depends htslib: ``>=1.18,<1.22.0a0``
+   :depends htslib: 
    :depends perl: 
    :depends perl-db-file: 
    :depends perl-set-intervaltree: 
@@ -43,7 +43,7 @@ fusion-inspector
    :depends requests: ``>=2.19.1``
    :depends samtools: ``>=1.3``
    :depends star: ``>=2.6.1b``
-   :depends trinity: ``>=2.4``
+   :depends trinity: ``>=2.15.1``
    :requirements:
 
    :additional platforms:
@@ -94,7 +94,7 @@ fusion-inspector
 
     <script>
         var package = "fusion-inspector";
-        var versions = ["2.8.0","2.2.1","1.3.1","1.3.1","1.2.0"];
+        var versions = ["2.10.0","2.8.0","2.2.1","1.3.1","1.3.1"];
     </script>
 
 

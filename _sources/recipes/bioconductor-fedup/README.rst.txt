@@ -12,7 +12,7 @@ bioconductor-fedup
 
    Fisher\'s Test for Enrichment and Depletion of User\-Defined Pathways
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/fedup.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/fedup.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-fedup <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fedup>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fedup/meta.yaml>`_
 

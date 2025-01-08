@@ -12,7 +12,7 @@ bioconductor-bags
 
    A Bayesian Approach for Geneset Selection
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/BAGS.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/BAGS.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bags <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bags>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bags/meta.yaml>`_
 
@@ -45,6 +45,7 @@ bioconductor-bags
    :depends bioconductor-breastcancervdx: ``>=1.44.0,<1.45.0``
    :depends bioconductor-breastcancervdx: ``>=1.44.0,<1.45.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:

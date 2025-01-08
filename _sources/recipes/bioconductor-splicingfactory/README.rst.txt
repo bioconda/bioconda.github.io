@@ -12,7 +12,7 @@ bioconductor-splicingfactory
 
    Splicing Diversity Analysis for Transcriptome Data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SplicingFactory.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SplicingFactory.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-splicingfactory <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splicingfactory>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splicingfactory/meta.yaml>`_
 

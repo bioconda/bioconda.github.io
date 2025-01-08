@@ -12,8 +12,8 @@ bioconductor-cellbarcode
 
    Cellular DNA Barcode Analysis toolkit
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CellBarcode.html
-   :license: MIT + file LICENSE
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CellBarcode.html
+   :license: Artistic-2.0
    :recipe: /`bioconductor-cellbarcode <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellbarcode>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellbarcode/meta.yaml>`_
 
    The package CellBarcode performs Cellular DNA Barcode analysis. It can handle all kinds of DNA barcodes\, as long as the barcode is within a single sequencing read and has a pattern that can be matched by a regular expression. \\code\{CellBarcode\} can handle barcodes with flexible lengths\, with or without UMI \(unique molecular identifier\). This tool also can be used for pre\-processing some amplicon data such as CRISPR gRNA screening\, immune repertoire sequencing\, and metagenome data.
@@ -43,8 +43,10 @@ bioconductor-cellbarcode
    :depends bioconductor-zlibbioc: ``>=1.52.0,<1.53.0``
    :depends bioconductor-zlibbioc: ``>=1.52.0,<1.53.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-bh: 
    :depends r-ckmeans.1d.dp: 

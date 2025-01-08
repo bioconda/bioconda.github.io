@@ -12,7 +12,7 @@ bioconductor-gosorensen
 
    Statistical inference based on the Sorensen\-Dice dissimilarity and the Gene Ontology \(GO\)
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/goSorensen.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/goSorensen.html
    :license: GPL-3
    :recipe: /`bioconductor-gosorensen <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gosorensen>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gosorensen/meta.yaml>`_
 
@@ -27,16 +27,15 @@ bioconductor-gosorensen
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=4.10.0,<4.11.0``
-   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-goprofiles: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-clusterprofiler: ``>=4.14.0,<4.15.0``
+   :depends bioconductor-goprofiles: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-stringr: 
    :requirements:
 
@@ -88,7 +87,7 @@ bioconductor-gosorensen
 
     <script>
         var package = "bioconductor-gosorensen";
-        var versions = ["1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

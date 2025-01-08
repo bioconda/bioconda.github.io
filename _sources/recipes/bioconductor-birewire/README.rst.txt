@@ -12,7 +12,7 @@ bioconductor-birewire
 
    High\-performing routines for the randomization of a bipartite graph \(or a binary event matrix\)\, undirected and directed signed graph preserving degree distribution \(or marginal totals\)
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/BiRewire.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/BiRewire.html
    :license: GPL-3
    :recipe: /`bioconductor-birewire <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-birewire>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-birewire/meta.yaml>`_
    :links: biotools: :biotools:`birewire`

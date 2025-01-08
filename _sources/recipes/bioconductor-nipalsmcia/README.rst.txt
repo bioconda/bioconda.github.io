@@ -12,7 +12,7 @@ bioconductor-nipalsmcia
 
    Multiple Co\-Inertia Analysis via the NIPALS Method
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/nipalsMCIA.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/nipalsMCIA.html
    :license: GPL-3
    :recipe: /`bioconductor-nipalsmcia <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nipalsmcia>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nipalsmcia/meta.yaml>`_
 

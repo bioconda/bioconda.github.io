@@ -12,7 +12,7 @@ bioconductor-multimodalexperiment
 
    Integrative Bulk and Single\-Cell Experiment Container
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MultimodalExperiment.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MultimodalExperiment.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-multimodalexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multimodalexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multimodalexperiment/meta.yaml>`_
 

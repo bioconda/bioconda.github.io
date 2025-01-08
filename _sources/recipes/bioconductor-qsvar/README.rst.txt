@@ -12,7 +12,7 @@ bioconductor-qsvar
 
    Generate Quality Surrogate Variable Analysis for Degradation Correction
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/qsvaR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/qsvaR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-qsvar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qsvar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qsvar/meta.yaml>`_
 
@@ -27,15 +27,17 @@ bioconductor-qsvar
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-sva: ``>=3.50.0,<3.51.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-sva: ``>=3.54.0,<3.55.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: 
+   :depends r-rlang: 
+   :depends r-tidyverse: 
    :requirements:
 
    :additional platforms:
@@ -86,7 +88,7 @@ bioconductor-qsvar
 
     <script>
         var package = "bioconductor-qsvar";
-        var versions = ["1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.10.0","1.6.0","1.4.0","1.2.0"];
     </script>
 
 

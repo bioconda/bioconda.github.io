@@ -12,7 +12,7 @@ bioconductor-jaspar2024
 
    Data package for JASPAR database \(version 2024\)
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/JASPAR2024.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/JASPAR2024.html
    :license: GPL-2
    :recipe: /`bioconductor-jaspar2024 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-jaspar2024>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-jaspar2024/meta.yaml>`_
 

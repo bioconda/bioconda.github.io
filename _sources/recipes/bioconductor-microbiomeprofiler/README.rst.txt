@@ -12,7 +12,7 @@ bioconductor-microbiomeprofiler
 
    An R\/shiny package for microbiome functional enrichment analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MicrobiomeProfiler.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MicrobiomeProfiler.html
    :license: GPL-2
    :recipe: /`bioconductor-microbiomeprofiler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microbiomeprofiler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microbiomeprofiler/meta.yaml>`_
 
@@ -27,14 +27,14 @@ bioconductor-microbiomeprofiler
       
       
 
-      ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=4.10.0,<4.11.0``
-   :depends bioconductor-enrichplot: ``>=1.22.0,<1.23.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-clusterprofiler: ``>=4.14.0,<4.15.0``
+   :depends bioconductor-enrichplot: ``>=1.26.0,<1.27.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-config: 
    :depends r-dt: 
    :depends r-ggplot2: 
@@ -45,6 +45,7 @@ bioconductor-microbiomeprofiler
    :depends r-shiny: ``>=1.6.0``
    :depends r-shinycustomloader: 
    :depends r-shinywidgets: 
+   :depends r-yulab.utils: 
    :requirements:
 
    :additional platforms:
@@ -95,7 +96,7 @@ bioconductor-microbiomeprofiler
 
     <script>
         var package = "bioconductor-microbiomeprofiler";
-        var versions = ["1.8.0","1.6.1","1.4.0","1.0.0"];
+        var versions = ["1.12.0","1.8.0","1.6.1","1.4.0","1.0.0"];
     </script>
 
 

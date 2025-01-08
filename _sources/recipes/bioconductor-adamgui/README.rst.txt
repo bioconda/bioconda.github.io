@@ -12,7 +12,7 @@ bioconductor-adamgui
 
    Activity and Diversity Analysis Module Graphical User Interface
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ADAMgui.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ADAMgui.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-adamgui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adamgui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adamgui/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-adamgui
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  </span></summary>
       
 
-      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.22.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-adamgui
       
 
    
-   :depends bioconductor-adam: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-adam: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-go.db: ``>=3.20.0,<3.21.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-colorramps: ``>=2.3``
    :depends r-data.table: ``>=1.11.4``
    :depends r-dplyr: ``>=0.7.6``
@@ -111,7 +111,7 @@ bioconductor-adamgui
 
     <script>
         var package = "bioconductor-adamgui";
-        var versions = ["1.18.0","1.16.0","1.14.0","1.10.0","1.8.0"];
+        var versions = ["1.22.0","1.18.0","1.16.0","1.14.0","1.10.0"];
     </script>
 
 

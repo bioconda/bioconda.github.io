@@ -12,7 +12,7 @@ bioconductor-snapcount
 
    R\/Bioconductor Package for interfacing with Snaptron for rapid querying of expression counts
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/snapcount.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/snapcount.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-snapcount <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snapcount>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snapcount/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-msa2dist
 
    MSA2dist calculates pairwise distances between all sequences of a DNAStringSet or a AAStringSet using a custom score matrix and conducts codon based analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MSA2dist.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MSA2dist.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-msa2dist <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msa2dist>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msa2dist/meta.yaml>`_
 

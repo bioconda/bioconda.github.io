@@ -12,7 +12,7 @@ bioconductor-spotlight
 
    \`SPOTlight\`\: Spatial Transcriptomics Deconvolution
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SPOTlight.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SPOTlight.html
    :license: GPL-3
    :recipe: /`bioconductor-spotlight <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spotlight>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spotlight/meta.yaml>`_
 
@@ -27,13 +27,14 @@ bioconductor-spotlight
       
       
 
-      ``1.6.3-0``,  ``1.4.1-0``,  ``1.2.0-0``
+      ``1.10.0-0``,  ``1.6.3-0``,  ``1.4.1-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-sparsematrixstats: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: 
    :depends r-matrix: 
    :depends r-matrixstats: 
@@ -89,7 +90,7 @@ bioconductor-spotlight
 
     <script>
         var package = "bioconductor-spotlight";
-        var versions = ["1.6.3","1.4.1","1.2.0"];
+        var versions = ["1.10.0","1.6.3","1.4.1","1.2.0"];
     </script>
 
 

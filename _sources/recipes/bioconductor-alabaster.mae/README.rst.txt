@@ -12,7 +12,7 @@ bioconductor-alabaster.mae
 
    Load and Save MultiAssayExperiments
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/alabaster.mae.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/alabaster.mae.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-alabaster.mae <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.mae>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.mae/meta.yaml>`_
 
@@ -27,16 +27,18 @@ bioconductor-alabaster.mae
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-alabaster.base: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-alabaster.se: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-alabaster.base: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-alabaster.se: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-jsonlite: 
    :requirements:
 
    :additional platforms:
@@ -87,7 +89,7 @@ bioconductor-alabaster.mae
 
     <script>
         var package = "bioconductor-alabaster.mae";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

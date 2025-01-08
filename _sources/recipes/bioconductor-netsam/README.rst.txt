@@ -12,7 +12,7 @@ bioconductor-netsam
 
    Network Seriation And Modularization
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/NetSAM.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/NetSAM.html
    :license: LGPL
    :recipe: /`bioconductor-netsam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netsam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netsam/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-netsam
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.46.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  </span></summary>
       
 
-      ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
+      ``1.46.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
 
       
       .. raw:: html
@@ -40,14 +40,14 @@ bioconductor-netsam
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-biomart: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-go.db: ``>=3.20.0,<3.21.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dbi: ``>=0.5-1``
    :depends r-doparallel: ``>=1.0.10``
    :depends r-foreach: ``>=1.4.0``
-   :depends r-igraph: ``>=0.6-1``
+   :depends r-igraph: ``>=2.0.0``
    :depends r-r2html: ``>=2.2.0``
    :depends r-seriation: ``>=1.0-6``
    :depends r-survival: ``>=2.37-7``
@@ -102,7 +102,7 @@ bioconductor-netsam
 
     <script>
         var package = "bioconductor-netsam";
-        var versions = ["1.42.0","1.40.0","1.38.0","1.34.0","1.32.0"];
+        var versions = ["1.46.0","1.42.0","1.40.0","1.38.0","1.34.0"];
     </script>
 
 

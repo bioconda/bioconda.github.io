@@ -12,7 +12,7 @@ bioconductor-makecdfenv
 
    CDF Environment Maker
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/makecdfenv.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/makecdfenv.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-makecdfenv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-makecdfenv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-makecdfenv/meta.yaml>`_
    :links: biotools: :biotools:`makecdfenv`, doi: :doi:`10.1186/1471-2105-13-56`

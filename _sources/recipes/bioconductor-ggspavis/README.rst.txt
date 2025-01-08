@@ -10,13 +10,13 @@ bioconductor-ggspavis
    :replaces_section_title:
    :noindex:
 
-   Visualization functions for spatially resolved transcriptomics data
+   Visualization functions for spatial transcriptomics data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ggspavis.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ggspavis.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-ggspavis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggspavis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggspavis/meta.yaml>`_
 
-   Visualization functions for spatially resolved transcriptomics datasets stored in SpatialExperiment format. Includes functions to create several types of plots for data from from spot\-based \(e.g. 10x Genomics Visium\) and molecule\-based \(e.g. seqFISH\) technological platforms.
+   Visualization functions for spatial transcriptomics data. Includes functions to generate several types of plots\, including spot plots\, feature \(molecule\) plots\, reduced dimension plots\, spot\-level quality control \(QC\) plots\, and feature\-level QC plots\, for datasets from the 10x Genomics Visium and other technological platforms. Datasets are assumed to be in either SpatialExperiment or SingleCellExperiment format.
 
 
 .. conda:package:: bioconductor-ggspavis

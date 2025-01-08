@@ -12,7 +12,7 @@ bioconductor-genie3
 
    GEne Network Inference with Ensemble of trees
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GENIE3.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/GENIE3.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-genie3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genie3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genie3/meta.yaml>`_
 

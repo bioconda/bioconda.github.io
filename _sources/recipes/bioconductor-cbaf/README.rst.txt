@@ -12,7 +12,7 @@ bioconductor-cbaf
 
    Automated functions for comparing various omic data from cbioportal.org
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/cbaf.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/cbaf.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cbaf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cbaf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cbaf/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-cbaf
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.1-0</code>,  <code>1.12.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.1-0</code>,  <code>1.12.0-0</code>,  <code>1.8.0-0</code>,  </span></summary>
       
 
-      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+      ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -40,13 +40,14 @@ bioconductor-cbaf
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-cbioportaldata: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-genefilter: ``>=1.84.0,<1.85.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-cbioportaldata: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-genefilter: ``>=1.88.0,<1.89.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-gplots: 
    :depends r-openxlsx: 
    :depends r-rcolorbrewer: 
+   :depends r-zip: 
    :requirements:
 
    :additional platforms:
@@ -97,7 +98,7 @@ bioconductor-cbaf
 
     <script>
         var package = "bioconductor-cbaf";
-        var versions = ["1.24.0","1.22.0","1.20.0","1.16.0","1.14.0"];
+        var versions = ["1.28.0","1.24.0","1.22.0","1.20.0","1.16.0"];
     </script>
 
 

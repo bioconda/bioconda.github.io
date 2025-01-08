@@ -12,11 +12,11 @@ bioconductor-hermes
 
    Preprocessing\, analyzing\, and reporting of RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/hermes.html
-   :license: Apache License 2.0 | file LICENSE
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/hermes.html
+   :license: Apache License 2.0
    :recipe: /`bioconductor-hermes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hermes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hermes/meta.yaml>`_
 
-   Provides classes and functions for quality control\, filtering\, normalization and differential expression analysis of pre\-processed RNA\-seq data. Data can be imported from \`SummarizedExperiment\` as well as \`matrix\` objects and can be annotated from BioMart. Filtering for genes without too low expression or containing required annotations\, as well as filtering for samples with sufficient correlation to other samples or total number of reads is supported. The standard normalization methods including \`cpm\`\, \`rpkm\` and \`tpm\` can be used\, and \`DESeq2\` as well as \`voom\` differential expression analyses are available.
+   Provides classes and functions for quality control\, filtering\, normalization and differential expression analysis of pre\-processed \`RNA\-seq\` data. Data can be imported from \`SummarizedExperiment\` as well as \`matrix\` objects and can be annotated from \`BioMart\`. Filtering for genes without too low expression or containing required annotations\, as well as filtering for samples with sufficient correlation to other samples or total number of reads is supported. The standard normalization methods including cpm\, rpkm and tpm can be used\, and \'DESeq2\` as well as voom differential expression analyses are available.
 
 
 .. conda:package:: bioconductor-hermes
@@ -27,30 +27,30 @@ bioconductor-hermes
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-deseq2: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-biomart: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-deseq2: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
    :depends r-assertthat: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-checkmate: ``>=2.1``
    :depends r-circlize: 
    :depends r-dplyr: 
    :depends r-envstats: 
-   :depends r-forcats: 
+   :depends r-forcats: ``>=1.0.0``
    :depends r-ggfortify: 
    :depends r-ggplot2: 
    :depends r-ggrepel: ``>=0.9``
@@ -112,7 +112,7 @@ bioconductor-hermes
 
     <script>
         var package = "bioconductor-hermes";
-        var versions = ["1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.10.0","1.6.0","1.4.0","1.2.0"];
     </script>
 
 

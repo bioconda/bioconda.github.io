@@ -12,7 +12,7 @@ bioconductor-edirquery
 
    Query the EDIR Database For Specific Gene
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/EDIRquery.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/EDIRquery.html
    :license: GPL-3
    :recipe: /`bioconductor-edirquery <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edirquery>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edirquery/meta.yaml>`_
 
@@ -27,14 +27,14 @@ bioconductor-edirquery
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-interactionset: ``>=1.30.0,<1.31.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-interactionset: ``>=1.34.0,<1.35.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-readr: ``>=2.1.2``
    :depends r-tibble: ``>=3.1.6``
    :depends r-tictoc: ``>=1.0.1``
@@ -88,7 +88,7 @@ bioconductor-edirquery
 
     <script>
         var package = "bioconductor-edirquery";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

@@ -12,11 +12,11 @@ bioconductor-escape
 
    Easy single cell analysis platform for enrichment
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/escape.html
-   :license: GPL-2
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/escape.html
+   :license: MIT + file LICENSE
    :recipe: /`bioconductor-escape <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-escape>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-escape/meta.yaml>`_
 
-   A bridging R package to facilitate gene set enrichment analysis \(GSEA\) in the context of single\-cell RNA sequencing. Using raw count information\, Seurat objects\, or SingleCellExperiment format\, users can perform and visualize GSEA across individual cells.
+   A bridging R package to facilitate gene set enrichment analysis \(GSEA\) in the context of single\-cell RNA sequencing. Using raw count information\, Seurat objects\, or SingleCellExperiment format\, users can perform and visualize ssGSEA\, GSVA\, AUCell\, and UCell\-based enrichment calculations across individual cells.
 
 
 .. conda:package:: bioconductor-escape
@@ -27,29 +27,30 @@ bioconductor-escape
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``2.2.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-gseabase: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-gsva: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-matrixgenerics: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-ucell: ``>=2.6.0,<2.7.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-broom: 
-   :depends r-data.table: 
+   :depends bioconductor-aucell: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-gseabase: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-gsva: ``>=2.0.0,<2.1.0``
+   :depends bioconductor-matrixgenerics: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-ucell: ``>=2.10.0,<2.11.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
+   :depends r-ggdist: 
    :depends r-ggplot2: 
+   :depends r-ggpointdensity: 
    :depends r-ggridges: 
    :depends r-matrix: 
    :depends r-msigdbr: 
    :depends r-patchwork: 
    :depends r-reshape2: 
-   :depends r-rlang: 
+   :depends r-seuratobject: 
    :depends r-stringr: 
    :requirements:
 
@@ -101,7 +102,7 @@ bioconductor-escape
 
     <script>
         var package = "bioconductor-escape";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.0"];
+        var versions = ["2.2.0","1.12.0","1.10.0","1.8.0","1.4.0"];
     </script>
 
 

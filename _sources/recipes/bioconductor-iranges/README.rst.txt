@@ -12,7 +12,7 @@ bioconductor-iranges
 
    Foundation of integer range manipulation in Bioconductor
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/IRanges.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/IRanges.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-iranges <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iranges>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iranges/meta.yaml>`_
    :links: biotools: :biotools:`iranges`

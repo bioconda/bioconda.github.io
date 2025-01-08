@@ -12,8 +12,8 @@ bioconductor-affy
 
    Methods for Affymetrix Oligonucleotide Arrays
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/affy.html
-   :license: LGPL-3-only
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/affy.html
+   :license: LGPL (>= 2.0)
    :recipe: /`bioconductor-affy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affy/meta.yaml>`_
    :links: biotools: :biotools:`affy`
 

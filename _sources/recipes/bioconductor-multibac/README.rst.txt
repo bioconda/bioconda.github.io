@@ -12,7 +12,7 @@ bioconductor-multibac
 
    Multiomic Batch effect Correction
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MultiBaC.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MultiBaC.html
    :license: GPL-3
    :recipe: /`bioconductor-multibac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multibac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multibac/meta.yaml>`_
 

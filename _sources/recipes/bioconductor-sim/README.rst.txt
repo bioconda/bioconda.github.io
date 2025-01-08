@@ -12,7 +12,7 @@ bioconductor-sim
 
    Integrated Analysis on two human genomic datasets
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SIM.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SIM.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-sim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sim/meta.yaml>`_
    :links: biotools: :biotools:`sim`, doi: :doi:`10.1186/1471-2105-10-203`
@@ -46,6 +46,7 @@ bioconductor-sim
    :depends bioconductor-quantsmooth: ``>=1.72.0,<1.73.0``
    :depends bioconductor-quantsmooth: ``>=1.72.0,<1.73.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-quantreg: 

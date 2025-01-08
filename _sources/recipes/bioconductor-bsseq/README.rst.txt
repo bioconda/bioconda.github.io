@@ -10,14 +10,14 @@ bioconductor-bsseq
    :replaces_section_title:
    :noindex:
 
-   Analyze\, manage and store bisulfite sequencing data
+   Analyze\, manage and store whole\-genome methylation data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/bsseq.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/bsseq.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsseq/meta.yaml>`_
    :links: biotools: :biotools:`bsseq`
 
-   A collection of tools for analyzing and visualizing bisulfite sequencing data.
+   A collection of tools for analyzing and visualizing whole\-genome methylation data from sequencing. This includes whole\-genome bisulfite sequencing and Oxford nanopore data.
 
 
 .. conda:package:: bioconductor-bsseq
@@ -74,8 +74,9 @@ bioconductor-bsseq
    :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
    :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: ``>=1.11.8``
    :depends r-gtools: 

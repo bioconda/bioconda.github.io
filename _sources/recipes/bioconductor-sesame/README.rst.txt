@@ -12,7 +12,7 @@ bioconductor-sesame
 
    SEnsible Step\-wise Analysis of DNA MEthylation BeadChips
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/sesame.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/sesame.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-sesame <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sesame>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sesame/meta.yaml>`_
 

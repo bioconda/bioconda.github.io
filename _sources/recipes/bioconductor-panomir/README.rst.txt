@@ -12,7 +12,7 @@ bioconductor-panomir
 
    Detection of miRNAs that regulate interacting groups of pathways
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/PanomiR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/PanomiR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-panomir <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-panomir>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-panomir/meta.yaml>`_
 
@@ -27,17 +27,17 @@ bioconductor-panomir
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=4.10.0,<4.11.0``
-   :depends bioconductor-gseabase: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-preprocesscore: ``>=1.64.0,<1.65.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-clusterprofiler: ``>=4.14.0,<4.15.0``
+   :depends bioconductor-gseabase: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-preprocesscore: ``>=1.68.0,<1.69.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-forcats: 
    :depends r-igraph: 
@@ -96,7 +96,7 @@ bioconductor-panomir
 
     <script>
         var package = "bioconductor-panomir";
-        var versions = ["1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.10.0","1.6.0","1.4.0","1.2.0"];
     </script>
 
 

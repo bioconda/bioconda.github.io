@@ -12,7 +12,7 @@ bioconductor-aims
 
    AIMS \: Absolute Assignment of Breast Cancer Intrinsic Molecular Subtype
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/AIMS.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/AIMS.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-aims <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aims>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aims/meta.yaml>`_
    :links: biotools: :biotools:`aims`, doi: :doi:`10.1093/jnci/dju357`

@@ -12,7 +12,7 @@ bioconductor-italics
 
    ITALICS
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ITALICS.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ITALICS.html
    :license: GPL-2
    :recipe: /`bioconductor-italics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-italics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-italics/meta.yaml>`_
 

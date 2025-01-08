@@ -12,7 +12,7 @@ bioconductor-tdbasedufeadv
 
    Advanced package of tensor decomposition based unsupervised feature extraction
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/TDbasedUFEadv.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/TDbasedUFEadv.html
    :license: GPL-3
    :recipe: /`bioconductor-tdbasedufeadv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tdbasedufeadv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tdbasedufeadv/meta.yaml>`_
 
@@ -27,19 +27,19 @@ bioconductor-tdbasedufeadv
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-dose: ``>=3.28.0,<3.29.0``
-   :depends bioconductor-enrichplot: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-rtcga: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-stringdb: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-tdbasedufe: ``>=1.2.0,<1.3.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-dose: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-enrichplot: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-rtcga: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-stringdb: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-tdbasedufe: ``>=1.6.0,<1.7.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-enrichr: 
    :depends r-hash: 
    :depends r-rtensor: 
@@ -94,7 +94,7 @@ bioconductor-tdbasedufeadv
 
     <script>
         var package = "bioconductor-tdbasedufeadv";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

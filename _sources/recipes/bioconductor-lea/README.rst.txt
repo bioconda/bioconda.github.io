@@ -12,7 +12,7 @@ bioconductor-lea
 
    LEA\: an R package for Landscape and Ecological Association Studies
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/LEA.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/LEA.html
    :license: GPL-3
    :recipe: /`bioconductor-lea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lea/meta.yaml>`_
 

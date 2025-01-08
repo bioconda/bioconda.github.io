@@ -12,7 +12,7 @@ bioconductor-tofsimsdata
 
    Import\, process and analysis of ToF\-SIMS imaging data
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/tofsimsData.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/tofsimsData.html
    :license: GPL-3
    :recipe: /`bioconductor-tofsimsdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tofsimsdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tofsimsdata/meta.yaml>`_
 

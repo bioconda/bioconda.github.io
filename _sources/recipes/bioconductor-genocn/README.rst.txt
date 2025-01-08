@@ -12,7 +12,7 @@ bioconductor-genocn
 
    genotyping and copy number study tools
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/genoCN.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/genoCN.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-genocn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genocn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genocn/meta.yaml>`_
 

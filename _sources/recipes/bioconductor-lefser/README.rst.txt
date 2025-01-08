@@ -12,11 +12,11 @@ bioconductor-lefser
 
    R implementation of the LEfSE method for microbiome biomarker discovery
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/lefser.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/lefser.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-lefser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lefser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lefser/meta.yaml>`_
 
-   lefser is an implementation in R of the popular \"LDA Effect Size \(LEfSe\)\" method for microbiome biomarker discovery. It uses the Kruskal\-Wallis test\, Wilcoxon\-Rank Sum test\, and Linear Discriminant Analysis to find biomarkers of groups and sub\-groups.
+   lefser is the R implementation of the popular microbiome biomarker discovery too\, LEfSe. It uses the Kruskal\-Wallis test\, Wilcoxon\-Rank Sum test\, and Linear Discriminant Analysis to find biomarkers from two\-level classes \(and optional sub\-classes\).
 
 
 .. conda:package:: bioconductor-lefser

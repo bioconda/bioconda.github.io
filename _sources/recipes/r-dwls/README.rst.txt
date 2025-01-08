@@ -27,13 +27,13 @@ r-dwls
       
       
 
-      ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
    :depends bioconductor-mast: ``>=1.4.1``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-e1071: ``>=1.7.0``
    :depends r-magrittr: 
    :depends r-quadprog: ``>=1.5``

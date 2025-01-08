@@ -12,8 +12,8 @@ bioconductor-bcseq
 
    Fast Sequence Mapping in High\-Throughput shRNA and CRISPR Screens
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/bcSeq.html
-   :license: GPL-3.0-or-later
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/bcSeq.html
+   :license: GPL (>= 2)
    :recipe: /`bioconductor-bcseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bcseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bcseq/meta.yaml>`_
    :links: biotools: :biotools:`bcSeq`
 

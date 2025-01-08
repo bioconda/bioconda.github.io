@@ -12,7 +12,7 @@ bioconductor-prolocgui
 
    Interactive visualisation of spatial proteomics data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/pRolocGUI.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/pRolocGUI.html
    :license: GPL-2
    :recipe: /`bioconductor-prolocgui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prolocgui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prolocgui/meta.yaml>`_
    :links: biotools: :biotools:`prolocgui`, doi: :doi:`10.1038/ncomms9992`
@@ -29,10 +29,10 @@ bioconductor-prolocgui
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.16.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.22.0-0</code>,  </span></summary>
       
 
-      ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.12.0-0``
+      ``2.16.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.12.0-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ bioconductor-prolocgui
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-msnbase: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-proloc: ``>=1.42.0,<1.43.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-msnbase: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-proloc: ``>=1.46.0,<1.47.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-colorspace: 
    :depends r-colourpicker: 
    :depends r-dplyr: 
@@ -108,7 +108,7 @@ bioconductor-prolocgui
 
     <script>
         var package = "bioconductor-prolocgui";
-        var versions = ["2.12.0","2.10.0","2.8.0","2.4.0","2.2.0"];
+        var versions = ["2.16.0","2.12.0","2.10.0","2.8.0","2.4.0"];
     </script>
 
 

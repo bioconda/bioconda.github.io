@@ -12,7 +12,7 @@ bioconductor-doser
 
    doseR
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/doseR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/doseR.html
    :license: GPL
    :recipe: /`bioconductor-doser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-doser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-doser/meta.yaml>`_
 

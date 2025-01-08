@@ -10,13 +10,13 @@ bioconductor-sparsearray
    :replaces_section_title:
    :noindex:
 
-   Efficient in\-memory representation of multidimensional sparse arrays
+   High\-performance sparse data representation and manipulation in R
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SparseArray.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SparseArray.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-sparsearray <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sparsearray>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sparsearray/meta.yaml>`_
 
-   The SparseArray package is an infrastructure package that provides an array\-like container for efficient in\-memory representation of multidimensional sparse data in R. The package defines the SparseArray virtual class and two concrete subclasses\: COO\_SparseArray and SVT\_SparseArray. Each subclass uses its own internal representation of the nonzero multidimensional data\, the \"COO layout\" and the \"SVT layout\"\, respectively. SVT\_SparseArray objects mimic as much as possible the behavior of ordinary matrix and array objects in base R. In particular\, they suppport most of the \"standard matrix and array API\" defined in base R and in the matrixStats package from CRAN.
+   The SparseArray package provides array\-like containers for efficient in\-memory representation of multidimensional sparse data in R \(arrays and matrices\). The package defines the SparseArray virtual class and two concrete subclasses\: COO\_SparseArray and SVT\_SparseArray. Each subclass uses its own internal representation of the nonzero multidimensional data\: the \"COO layout\" and the \"SVT layout\"\, respectively. SVT\_SparseArray objects mimic as much as possible the behavior of ordinary matrix and array objects in base R. In particular\, they suppport most of the \"standard matrix and array API\" defined in base R and in the matrixStats package from CRAN.
 
 
 .. conda:package:: bioconductor-sparsearray

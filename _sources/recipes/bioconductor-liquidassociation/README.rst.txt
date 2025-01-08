@@ -12,7 +12,7 @@ bioconductor-liquidassociation
 
    LiquidAssociation
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/LiquidAssociation.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/LiquidAssociation.html
    :license: GPL (>=3)
    :recipe: /`bioconductor-liquidassociation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-liquidassociation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-liquidassociation/meta.yaml>`_
    :links: biotools: :biotools:`liquidassociation`, doi: :doi:`10.1038/nmeth.3252`
@@ -29,10 +29,10 @@ bioconductor-liquidassociation
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.56.0-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.60.0-0</code>,  <code>1.56.0-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.42.0-0</code>,  </span></summary>
       
 
-      ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-1``,  ``1.38.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``
+      ``1.60.0-0``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-1``,  ``1.38.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``
 
       
       .. raw:: html
@@ -41,10 +41,10 @@ bioconductor-liquidassociation
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-org.sc.sgd.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-yeastcc: ``>=1.42.0,<1.43.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-org.sc.sgd.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-yeastcc: ``>=1.46.0,<1.47.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-geepack: 
    :requirements:
 
@@ -96,7 +96,7 @@ bioconductor-liquidassociation
 
     <script>
         var package = "bioconductor-liquidassociation";
-        var versions = ["1.56.0","1.54.0","1.52.0","1.48.0","1.46.0"];
+        var versions = ["1.60.0","1.56.0","1.54.0","1.52.0","1.48.0"];
     </script>
 
 

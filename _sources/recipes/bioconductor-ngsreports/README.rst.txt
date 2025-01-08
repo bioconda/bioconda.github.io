@@ -12,8 +12,8 @@ bioconductor-ngsreports
 
    Load FastqQC reports and other NGS related files
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ngsReports.html
-   :license: file LICENSE
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ngsReports.html
+   :license: LGPL-3
    :recipe: /`bioconductor-ngsreports <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ngsreports>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ngsreports/meta.yaml>`_
 
    This package provides methods and object classes for parsing FastQC reports and output summaries from other NGS tools into R. As well as parsing files\, multiple plotting methods have been implemented for visualising the parsed data. Plots can be generated as static ggplot objects or interactive plotly objects.

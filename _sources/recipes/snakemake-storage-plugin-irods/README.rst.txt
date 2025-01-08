@@ -27,7 +27,7 @@ snakemake-storage-plugin-irods
       
       
 
-      ``0.1.2-0``,  ``0.1.1-0``
+      ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -86,7 +86,7 @@ snakemake-storage-plugin-irods
 
     <script>
         var package = "snakemake-storage-plugin-irods";
-        var versions = ["0.1.2","0.1.1"];
+        var versions = ["0.2.0","0.1.2","0.1.1"];
     </script>
 
 

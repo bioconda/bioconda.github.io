@@ -12,7 +12,7 @@ bioconductor-sctreeviz
 
    R\/Bioconductor package to interactively explore and visualize single cell RNA\-seq datasets with hierarhical annotations
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/scTreeViz.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/scTreeViz.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-sctreeviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sctreeviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sctreeviz/meta.yaml>`_
 
@@ -27,20 +27,20 @@ bioconductor-sctreeviz
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-epivizr: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-epivizrdata: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-epivizrserver: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-scater: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-scran: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-epivizr: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-epivizrdata: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-epivizrserver: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-scater: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-scran: ``>=1.34.0,<1.35.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-clustree: 
    :depends r-data.table: 
    :depends r-digest: 
@@ -102,7 +102,7 @@ bioconductor-sctreeviz
 
     <script>
         var package = "bioconductor-sctreeviz";
-        var versions = ["1.8.0","1.6.0","1.4.0","1.0.0"];
+        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.0.0"];
     </script>
 
 

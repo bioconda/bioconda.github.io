@@ -12,7 +12,7 @@ bioconductor-pd.hg.u95av2
 
    Platform Design Info for The Manufacturer\'s Name HG U95Av2
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/pd.hg.u95av2.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/pd.hg.u95av2.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pd.hg.u95av2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.hg.u95av2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.hg.u95av2/meta.yaml>`_
 

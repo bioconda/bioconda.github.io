@@ -12,7 +12,7 @@ bioconductor-gdrstyle
 
    A package with style requirements for the gDR suite
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/gDRstyle.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/gDRstyle.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gdrstyle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdrstyle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdrstyle/meta.yaml>`_
 

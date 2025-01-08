@@ -12,7 +12,7 @@ bioconductor-epidecoder
 
    epidecodeR\: a functional exploration tool for epigenetic and epitranscriptomic regulation
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/epidecodeR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/epidecodeR.html
    :license: GPL-3
    :recipe: /`bioconductor-epidecoder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epidecoder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epidecoder/meta.yaml>`_
 
@@ -27,15 +27,15 @@ bioconductor-epidecoder
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-envstats: 
    :depends r-ggplot2: 
@@ -91,7 +91,7 @@ bioconductor-epidecoder
 
     <script>
         var package = "bioconductor-epidecoder";
-        var versions = ["1.10.0","1.8.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.2.0"];
     </script>
 
 

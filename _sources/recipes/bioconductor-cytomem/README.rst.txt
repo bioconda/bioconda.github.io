@@ -12,7 +12,7 @@ bioconductor-cytomem
 
    Marker Enrichment Modeling \(MEM\)
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/cytoMEM.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/cytoMEM.html
    :license: GPL-3
    :recipe: /`bioconductor-cytomem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytomem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytomem/meta.yaml>`_
 

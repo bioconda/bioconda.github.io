@@ -12,7 +12,7 @@ bioconductor-customcmpdb
 
    Customize and Query Compound Annotation Database
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/customCMPdb.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/customCMPdb.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-customcmpdb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-customcmpdb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-customcmpdb/meta.yaml>`_
 

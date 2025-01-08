@@ -10,9 +10,9 @@ bioconductor-curatedtbdata
    :replaces_section_title:
    :noindex:
 
-   Curation of existing 49 tuberculosis transcriptomic studies
+   Curation of existing tuberculosis transcriptomic studies
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/curatedTBData.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/curatedTBData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-curatedtbdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedtbdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedtbdata/meta.yaml>`_
 
@@ -27,17 +27,17 @@ bioconductor-curatedtbdata
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``2.2.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.32.0,<1.33.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-rlang: 
    :requirements:
 
@@ -89,7 +89,7 @@ bioconductor-curatedtbdata
 
     <script>
         var package = "bioconductor-curatedtbdata";
-        var versions = ["1.8.0","1.6.0","1.4.0","1.0.0","1.0.0"];
+        var versions = ["2.2.0","1.8.0","1.6.0","1.4.0","1.0.0"];
     </script>
 
 

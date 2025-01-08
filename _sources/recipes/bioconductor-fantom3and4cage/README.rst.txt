@@ -12,7 +12,7 @@ bioconductor-fantom3and4cage
 
    CAGE data from FANTOM3 and FANTOM4 projects
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/FANTOM3and4CAGE.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/FANTOM3and4CAGE.html
    :license: GPL-3
    :recipe: /`bioconductor-fantom3and4cage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fantom3and4cage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fantom3and4cage/meta.yaml>`_
 

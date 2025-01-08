@@ -12,7 +12,7 @@ bioconductor-amaretto
 
    Regulatory Network Inference and Driver Gene Evaluation using Integrative Multi\-Omics Analysis and Penalized Regression
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/AMARETTO.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/AMARETTO.html
    :license: Apache License (== 2.0) + file LICENSE
    :recipe: /`bioconductor-amaretto <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-amaretto>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-amaretto/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-amaretto
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.13.0-0</code>,  <code>1.10.0-2</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.13.0-0</code>,  <code>1.10.0-2</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  </span></summary>
       
 
-      ``1.18.0-0``,  ``1.16.0-0``,  ``1.13.0-0``,  ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.1.1-1``,  ``1.0.0-1``
+      ``1.22.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.13.0-0``,  ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.1.1-1``,  ``1.0.0-1``
 
       
       .. raw:: html
@@ -40,23 +40,23 @@ bioconductor-amaretto
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-biocfilecache: ``>=2.10.1,<2.11.0a0``
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0a0``
-   :depends bioconductor-curatedtcgadata: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-curatedtcgadata: ``>=1.24.0,<1.25.0a0``
-   :depends bioconductor-impute: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-impute: ``>=1.76.0,<1.77.0a0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-limma: ``>=3.58.1,<3.59.0a0``
-   :depends bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0a0``
+   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0a0``
+   :depends bioconductor-curatedtcgadata: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-curatedtcgadata: ``>=1.28.1,<1.29.0a0``
+   :depends bioconductor-impute: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-impute: ``>=1.80.0,<1.81.0a0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0a0``
+   :depends bioconductor-multiassayexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.32.0,<1.33.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-callr: ``>=3.0.0.9001``
    :depends r-circlize: 
    :depends r-doparallel: 
@@ -125,7 +125,7 @@ bioconductor-amaretto
 
     <script>
         var package = "bioconductor-amaretto";
-        var versions = ["1.18.0","1.16.0","1.13.0","1.10.0","1.10.0"];
+        var versions = ["1.22.0","1.18.0","1.16.0","1.13.0","1.10.0"];
     </script>
 
 

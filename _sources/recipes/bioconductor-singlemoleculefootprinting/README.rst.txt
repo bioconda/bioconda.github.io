@@ -12,11 +12,11 @@ bioconductor-singlemoleculefootprinting
 
    Analysis tools for Single Molecule Footprinting \(SMF\) data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SingleMoleculeFootprinting.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SingleMoleculeFootprinting.html
    :license: GPL-3
    :recipe: /`bioconductor-singlemoleculefootprinting <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singlemoleculefootprinting>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singlemoleculefootprinting/meta.yaml>`_
 
-   SingleMoleculeFootprinting is an R package providing functions to analyze Single Molecule Footprinting \(SMF\) data. Following the workflow exemplified in its vignette\, the user will be able to perform basic data analysis of SMF data with minimal coding effort. Starting from an aligned bam file\, we show how to perform quality controls over sequencing libraries\, extract methylation information at the single molecule level accounting for the two possible kind of SMF experiments \(single enzyme or double enzyme\)\, classify single molecules based on their patterns of molecular occupancy\, plot SMF information at a given genomic location
+   SingleMoleculeFootprinting provides functions to analyze Single Molecule Footprinting \(SMF\) data. Following the workflow exemplified in its vignette\, the user will be able to perform basic data analysis of SMF data with minimal coding effort. Starting from an aligned bam file\, we show how to perform quality controls over sequencing libraries\, extract methylation information at the single molecule level accounting for the two possible kind of SMF experiments \(single enzyme or double enzyme\)\, classify single molecules based on their patterns of molecular occupancy\, plot SMF information at a given genomic location.
 
 
 .. conda:package:: bioconductor-singlemoleculefootprinting
@@ -27,22 +27,35 @@ bioconductor-singlemoleculefootprinting
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``2.0.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-quasr: ``>=1.42.0,<1.43.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-data.table: 
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-plyranges: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-quasr: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-dplyr: 
+   :depends r-ggplot2: 
+   :depends r-ggpointdensity: 
+   :depends r-ggrepel: 
+   :depends r-matrix: 
+   :depends r-patchwork: 
    :depends r-plyr: 
    :depends r-rcolorbrewer: 
+   :depends r-rlang: 
+   :depends r-stringr: 
+   :depends r-tibble: 
+   :depends r-tidyr: 
+   :depends r-tidyverse: 
+   :depends r-viridis: 
    :requirements:
 
    :additional platforms:
@@ -93,7 +106,7 @@ bioconductor-singlemoleculefootprinting
 
     <script>
         var package = "bioconductor-singlemoleculefootprinting";
-        var versions = ["1.10.0","1.8.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["2.0.0","1.10.0","1.8.0","1.6.0","1.2.0"];
     </script>
 
 

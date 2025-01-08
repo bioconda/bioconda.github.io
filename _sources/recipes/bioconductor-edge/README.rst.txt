@@ -12,12 +12,12 @@ bioconductor-edge
 
    Extraction of Differential Gene Expression
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/edge.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/edge.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-edge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edge/meta.yaml>`_
    :links: biotools: :biotools:`edge`
 
-   The edge package implements methods for carrying out differential expression analyses of genome\-wide gene expression studies. Significance testing using the optimal discovery procedure and generalized likelihood ratio tests \(equivalent to F\-tests and t\-tests\) are implemented for general study designs. Special functions are available to facilitate the analysis of common study designs\, including time course experiments. Other packages such as snm\, sva\, and qvalue are integrated in edge to provide a wide range of tools for gene expression analysis.
+   The edge package implements methods for carrying out differential expression analyses of genome\-wide gene expression studies. Significance testing using the optimal discovery procedure and generalized likelihood ratio tests \(equivalent to F\-tests and t\-tests\) are implemented for general study designs. Special functions are available to facilitate the analysis of common study designs\, including time course experiments. Other packages such as sva and qvalue are integrated in edge to provide a wide range of tools for gene expression analysis.
 
 
 .. conda:package:: bioconductor-edge
@@ -29,10 +29,10 @@ bioconductor-edge
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.34.0-1</code>,  <code>2.34.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.0-1</code>,  <code>2.30.0-0</code>,  <code>2.26.0-2</code>,  <code>2.26.0-1</code>,  <code>2.26.0-0</code>,  <code>2.24.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.38.0-0</code>,  <code>2.34.0-1</code>,  <code>2.34.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.0-1</code>,  <code>2.30.0-0</code>,  <code>2.26.0-2</code>,  <code>2.26.0-1</code>,  <code>2.26.0-0</code>,  </span></summary>
       
 
-      ``2.34.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-1``,  ``2.30.0-0``,  ``2.26.0-2``,  ``2.26.0-1``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.0-0``
+      ``2.38.0-0``,  ``2.34.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-1``,  ``2.30.0-0``,  ``2.26.0-2``,  ``2.26.0-1``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.0-0``
 
       
       .. raw:: html
@@ -41,18 +41,16 @@ bioconductor-edge
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
-   :depends bioconductor-qvalue: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-qvalue: ``>=2.34.0,<2.35.0a0``
-   :depends bioconductor-snm: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-snm: ``>=1.50.0,<1.51.0a0``
-   :depends bioconductor-sva: ``>=3.50.0,<3.51.0``
-   :depends bioconductor-sva: ``>=3.50.0,<3.51.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0a0``
+   :depends bioconductor-qvalue: ``>=2.38.0,<2.39.0``
+   :depends bioconductor-qvalue: ``>=2.38.0,<2.39.0a0``
+   :depends bioconductor-sva: ``>=3.54.0,<3.55.0``
+   :depends bioconductor-sva: ``>=3.54.0,<3.55.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-mass: 
    :requirements:
 
@@ -108,7 +106,7 @@ bioconductor-edge
 
     <script>
         var package = "bioconductor-edge";
-        var versions = ["2.34.0","2.34.0","2.32.0","2.30.0","2.30.0"];
+        var versions = ["2.38.0","2.34.0","2.34.0","2.32.0","2.30.0"];
     </script>
 
 

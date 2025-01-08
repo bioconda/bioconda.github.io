@@ -12,7 +12,7 @@ bioconductor-hca
 
    Exploring the Human Cell Atlas Data Coordinating Platform
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/hca.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/hca.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-hca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hca/meta.yaml>`_
 

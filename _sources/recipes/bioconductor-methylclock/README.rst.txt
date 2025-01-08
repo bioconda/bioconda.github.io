@@ -12,7 +12,7 @@ bioconductor-methylclock
 
    Methylclock \- DNA methylation\-based clocks
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/methylclock.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/methylclock.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-methylclock <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylclock>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylclock/meta.yaml>`_
 
@@ -27,30 +27,30 @@ bioconductor-methylclock
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0a0``
-   :depends bioconductor-impute: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-impute: ``>=1.76.0,<1.77.0a0``
-   :depends bioconductor-methylclockdata: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-methylclockdata: ``>=1.10.0,<1.11.0a0``
-   :depends bioconductor-minfi: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-minfi: ``>=1.48.0,<1.49.0a0``
-   :depends bioconductor-planet: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-planet: ``>=1.10.0,<1.11.0a0``
-   :depends bioconductor-preprocesscore: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-preprocesscore: ``>=1.64.0,<1.65.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0a0``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0a0``
+   :depends bioconductor-impute: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-impute: ``>=1.80.0,<1.81.0a0``
+   :depends bioconductor-methylclockdata: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-methylclockdata: ``>=1.14.0,<1.15.0a0``
+   :depends bioconductor-minfi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-minfi: ``>=1.52.0,<1.53.0a0``
+   :depends bioconductor-planet: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-planet: ``>=1.14.0,<1.15.0a0``
+   :depends bioconductor-preprocesscore: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-preprocesscore: ``>=1.68.0,<1.69.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-devtools: 
    :depends r-dplyr: 
    :depends r-dynamictreecut: 
@@ -115,7 +115,7 @@ bioconductor-methylclock
 
     <script>
         var package = "bioconductor-methylclock";
-        var versions = ["1.8.0","1.6.0","1.4.0","1.4.0","1.0.1"];
+        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.4.0"];
     </script>
 
 

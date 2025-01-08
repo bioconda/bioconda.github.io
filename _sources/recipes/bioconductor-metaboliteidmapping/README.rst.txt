@@ -12,7 +12,7 @@ bioconductor-metaboliteidmapping
 
    Mapping of Metabolite IDs from Different Sources
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/metaboliteIDmapping.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/metaboliteIDmapping.html
    :license: GPL-3
    :recipe: /`bioconductor-metaboliteidmapping <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metaboliteidmapping>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metaboliteidmapping/meta.yaml>`_
 

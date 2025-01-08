@@ -12,7 +12,7 @@ bioconductor-stjoincount
 
    stJoincount \- Join count statistic for quantifying spatial correlation between clusters
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/stJoincount.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/stJoincount.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-stjoincount <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stjoincount>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stjoincount/meta.yaml>`_
 

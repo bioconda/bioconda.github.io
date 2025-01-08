@@ -12,7 +12,7 @@ bioconductor-confess
 
    Cell OrderiNg by FluorEScence Signal
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CONFESS.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CONFESS.html
    :license: GPL-2
    :recipe: /`bioconductor-confess <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-confess>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-confess/meta.yaml>`_
 

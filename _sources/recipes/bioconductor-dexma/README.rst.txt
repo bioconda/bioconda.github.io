@@ -12,7 +12,7 @@ bioconductor-dexma
 
    Differential Expression Meta\-Analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/DExMA.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/DExMA.html
    :license: GPL-2
    :recipe: /`bioconductor-dexma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dexma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dexma/meta.yaml>`_
 
@@ -27,19 +27,19 @@ bioconductor-dexma
       
       
 
-      ``1.10.6-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.10.6-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-dexmadata: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-geoquery: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-impute: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-snpstats: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-sva: ``>=3.50.0,<3.51.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-dexmadata: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-geoquery: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-impute: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-snpstats: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-sva: ``>=3.54.0,<3.55.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-bnstruct: 
    :depends r-pheatmap: 
    :depends r-plyr: 
@@ -96,7 +96,7 @@ bioconductor-dexma
 
     <script>
         var package = "bioconductor-dexma";
-        var versions = ["1.10.6","1.8.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.14.0","1.10.6","1.8.0","1.6.0","1.2.0"];
     </script>
 
 

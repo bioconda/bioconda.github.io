@@ -12,7 +12,7 @@ bioconductor-bsgenome.cjacchus.ucsc.caljac4
 
    Full genome sequences for Callithrix jacchus \(UCSC version calJac4\)
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/BSgenome.Cjacchus.UCSC.calJac4.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/BSgenome.Cjacchus.UCSC.calJac4.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.cjacchus.ucsc.caljac4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.cjacchus.ucsc.caljac4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.cjacchus.ucsc.caljac4/meta.yaml>`_
 
@@ -27,15 +27,15 @@ bioconductor-bsgenome.cjacchus.ucsc.caljac4
       
       
 
-      ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``
+      ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``
 
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-data-packages: ``>=20231202``
+   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-data-packages: ``>=20241103``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -86,7 +86,7 @@ bioconductor-bsgenome.cjacchus.ucsc.caljac4
 
     <script>
         var package = "bioconductor-bsgenome.cjacchus.ucsc.caljac4";
-        var versions = ["1.5.0","1.5.0","1.5.0"];
+        var versions = ["1.5.0","1.5.0","1.5.0","1.5.0"];
     </script>
 
 

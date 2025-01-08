@@ -12,7 +12,7 @@ bioconductor-ddct
 
    The ddCt Algorithm for the Analysis of Quantitative Real\-Time PCR \(qRT\-PCR\)
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ddCt.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ddCt.html
    :license: LGPL-3
    :recipe: /`bioconductor-ddct <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ddct>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ddct/meta.yaml>`_
    :links: biotools: :biotools:`ddct`, doi: :doi:`10.1038/nmeth.3252`

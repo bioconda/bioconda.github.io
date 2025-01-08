@@ -12,8 +12,8 @@ bioconductor-snprelate
 
    Parallel Computing Toolset for Relatedness and Principal Component Analysis of SNP Data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SNPRelate.html
-   :license: GPL-3-only
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SNPRelate.html
+   :license: GPL-3
    :recipe: /`bioconductor-snprelate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snprelate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snprelate/meta.yaml>`_
    :links: biotools: :biotools:`snprelate`
 

@@ -12,7 +12,7 @@ bioconductor-easycelltype
 
    Annotate cell types for scRNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/EasyCellType.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/EasyCellType.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-easycelltype <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-easycelltype>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-easycelltype/meta.yaml>`_
 
@@ -27,21 +27,23 @@ bioconductor-easycelltype
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-clusterprofiler: ``>=4.8.0,<4.9.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.17.0,<3.18.0``
-   :depends bioconductor-org.mm.eg.db: ``>=3.17.0,<3.18.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-biocstyle: ``>=2.34.0,<2.35.0``
+   :depends bioconductor-clusterprofiler: ``>=4.14.0,<4.15.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.20.0,<3.21.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-forcats: 
    :depends r-ggplot2: 
    :depends r-magrittr: 
    :depends r-rlang: 
+   :depends r-vctrs: ``>=0.6.4``
    :requirements:
 
    :additional platforms:
@@ -92,7 +94,7 @@ bioconductor-easycelltype
 
     <script>
         var package = "bioconductor-easycelltype";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.2.0","1.0.0"];
     </script>
 
 

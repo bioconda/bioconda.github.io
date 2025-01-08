@@ -12,7 +12,7 @@ bioconductor-tdbasedufe
 
    Tensor Decomposition Based Unsupervised Feature Extraction
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/TDbasedUFE.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/TDbasedUFE.html
    :license: GPL-3
    :recipe: /`bioconductor-tdbasedufe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tdbasedufe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tdbasedufe/meta.yaml>`_
 

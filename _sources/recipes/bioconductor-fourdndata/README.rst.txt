@@ -12,7 +12,7 @@ bioconductor-fourdndata
 
    4DN data package
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/fourDNData.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/fourDNData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-fourdndata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fourdndata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fourdndata/meta.yaml>`_
 
@@ -27,19 +27,19 @@ bioconductor-fourdndata
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-hicexperiment: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-hicexperiment: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -90,7 +90,7 @@ bioconductor-fourdndata
 
     <script>
         var package = "bioconductor-fourdndata";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

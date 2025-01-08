@@ -10,13 +10,13 @@ bioconductor-fobitools
    :replaces_section_title:
    :noindex:
 
-   Tools For Manipulating FOBI Ontology
+   Tools for Manipulating the FOBI Ontology
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/fobitools.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/fobitools.html
    :license: GPL-3
    :recipe: /`bioconductor-fobitools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fobitools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fobitools/meta.yaml>`_
 
-   A set of tools for interacting with Food\-Biomarker Ontology \(FOBI\). A collection of basic manipulation tools for biological significance analysis\, graphs\, and text mining strategies for annotating nutritional data.
+   A set of tools for interacting with the Food\-Biomarker Ontology \(FOBI\). A collection of basic manipulation tools for biological significance analysis\, graphs\, and text mining strategies for annotating nutritional data.
 
 
 .. conda:package:: bioconductor-fobitools

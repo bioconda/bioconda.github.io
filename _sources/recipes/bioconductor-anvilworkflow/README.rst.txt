@@ -12,7 +12,7 @@ bioconductor-anvilworkflow
 
    Run workflows implemented in Terra\/AnVIL workspace
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/AnVILWorkflow.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/AnVILWorkflow.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-anvilworkflow <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anvilworkflow>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anvilworkflow/meta.yaml>`_
 

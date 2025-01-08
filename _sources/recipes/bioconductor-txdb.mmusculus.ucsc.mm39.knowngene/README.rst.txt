@@ -12,7 +12,7 @@ bioconductor-txdb.mmusculus.ucsc.mm39.knowngene
 
    Annotation package for TxDb object\(s\)
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/TxDb.Mmusculus.UCSC.mm39.knownGene.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/TxDb.Mmusculus.UCSC.mm39.knownGene.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-txdb.mmusculus.ucsc.mm39.knowngene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.mmusculus.ucsc.mm39.knowngene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.mmusculus.ucsc.mm39.knowngene/meta.yaml>`_
 
@@ -27,16 +27,16 @@ bioconductor-txdb.mmusculus.ucsc.mm39.knowngene
       
       
 
-      ``3.18.0-0``,  ``3.17.0-0``
+      ``3.20.0-0``,  ``3.18.0-0``,  ``3.17.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -87,7 +87,7 @@ bioconductor-txdb.mmusculus.ucsc.mm39.knowngene
 
     <script>
         var package = "bioconductor-txdb.mmusculus.ucsc.mm39.knowngene";
-        var versions = ["3.18.0","3.17.0"];
+        var versions = ["3.20.0","3.18.0","3.17.0"];
     </script>
 
 

@@ -12,7 +12,7 @@ bioconductor-metaphor
 
    Metabolic Pathway Analysis of RNA
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MetaPhOR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MetaPhOR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-metaphor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metaphor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metaphor/meta.yaml>`_
 
@@ -27,14 +27,14 @@ bioconductor-metaphor
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=4.10.0,<4.11.0``
-   :depends bioconductor-rcy3: ``>=2.22.0,<2.23.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-clusterprofiler: ``>=4.14.0,<4.15.0``
+   :depends bioconductor-rcy3: ``>=2.26.0,<2.27.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: 
    :depends r-ggrepel: 
    :depends r-pheatmap: 
@@ -90,7 +90,7 @@ bioconductor-metaphor
 
     <script>
         var package = "bioconductor-metaphor";
-        var versions = ["1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

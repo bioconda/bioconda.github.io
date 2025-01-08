@@ -12,11 +12,11 @@ bioconductor-lemur
 
    Latent Embedding Multivariate Regression
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/lemur.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/lemur.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-lemur <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lemur>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lemur/meta.yaml>`_
 
-   Fit a latent embedding multivariate regression \(LEMUR\) model to multi\-condition single\-cell data. The model provides a parametric description of single\-cell data measured with complex experimental designs. The parametric model is used to \(1\) align conditions\, \(2\) predict log fold changes between conditions for all cells\, and \(3\) identify cell neighborhoods with consistent log fold changes. For those neighborhoods\, a pseudobulked differential expression test is conducted to assess which genes are significantly changed.
+   Fit a latent embedding multivariate regression \(LEMUR\) model to multi\-condition single\-cell data. The model provides a parametric description of single\-cell data measured with treatment vs. control or more complex experimental designs. The parametric model is used to \(1\) align conditions\, \(2\) predict log fold changes between conditions for all cells\, and \(3\) identify cell neighborhoods with consistent log fold changes. For those neighborhoods\, a pseudobulked differential expression test is conducted to assess which genes are significantly changed.
 
 
 .. conda:package:: bioconductor-lemur

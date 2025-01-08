@@ -12,8 +12,8 @@ bioconductor-acme
 
    Algorithms for Calculating Microarray Enrichment \(ACME\)
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ACME.html
-   :license: GPL-3-only
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ACME.html
+   :license: GPL (>= 2)
    :recipe: /`bioconductor-acme <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-acme>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-acme/meta.yaml>`_
    :links: biotools: :biotools:`acme`
 

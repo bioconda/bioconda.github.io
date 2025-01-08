@@ -12,7 +12,7 @@ bioconductor-annotationdbi
 
    Manipulation of SQLite\-based annotations in Bioconductor
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/AnnotationDbi.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/AnnotationDbi.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-annotationdbi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationdbi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationdbi/meta.yaml>`_
    :links: biotools: :biotools:`annotationdbi`, doi: :doi:`10.1038/nmeth.3252`

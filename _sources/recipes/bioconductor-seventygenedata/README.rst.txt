@@ -12,11 +12,11 @@ bioconductor-seventygenedata
 
    ExpressionSets from the van\'t Veer and Van de Vijver breast cancer studies
 
-   :homepage: https://bioconductor.org/packages/3.17/data/experiment/html/seventyGeneData.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/seventyGeneData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-seventygenedata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seventygenedata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seventygenedata/meta.yaml>`_
 
-   Gene expression data for the two breast cancer cohorts published by van\'t Veer and Van de Vijver in 2002
+   Gene expression data for the two breast cancer cohorts published by van\'t Veer and Van de Vijver in 2002.
 
 
 .. conda:package:: bioconductor-seventygenedata

@@ -12,7 +12,7 @@ bioconductor-tomatoprobe
 
    Probe sequence data for microarrays of type tomato
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/tomatoprobe.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/tomatoprobe.html
    :license: LGPL
    :recipe: /`bioconductor-tomatoprobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tomatoprobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tomatoprobe/meta.yaml>`_
 

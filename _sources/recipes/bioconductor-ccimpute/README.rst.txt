@@ -12,7 +12,7 @@ bioconductor-ccimpute
 
    ccImpute\: an accurate and scalable consensus clustering based approach to impute dropout events in the single\-cell RNA\-seq data \(https\:\/\/doi.org\/10.1186\/s12859\-022\-04814\-8\)
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ccImpute.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ccImpute.html
    :license: GPL-3
    :recipe: /`bioconductor-ccimpute <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ccimpute>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ccimpute/meta.yaml>`_
 
@@ -41,8 +41,9 @@ bioconductor-ccimpute
    :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
    :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-irlba: 
    :depends r-matrix: 

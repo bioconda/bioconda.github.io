@@ -12,8 +12,8 @@ bioconductor-cytopipelinegui
 
    GUI\'s for visualization of flow cytometry data analysis pipelines
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CytoPipelineGUI.html
-   :license: GPL (>=3) | file LICENSE
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CytoPipelineGUI.html
+   :license: GPL-3
    :recipe: /`bioconductor-cytopipelinegui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytopipelinegui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytopipelinegui/meta.yaml>`_
 
    This package is the companion of the \`CytoPipeline\` package. It provides GUI\'s \(shiny apps\) for the visualization of flow cytometry data analysis pipelines that are run with \`CytoPipeline\`. Two shiny applications are provided\, i.e. an interactive flow frame assessment and comparison tool and an interactive scale transformations visualization and adjustment tool.
@@ -27,14 +27,14 @@ bioconductor-cytopipelinegui
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-cytopipeline: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-flowcore: ``>=2.14.0,<2.15.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-cytopipeline: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-flowcore: ``>=2.18.0,<2.19.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: 
    :depends r-plotly: 
    :depends r-shiny: 
@@ -88,7 +88,7 @@ bioconductor-cytopipelinegui
 
     <script>
         var package = "bioconductor-cytopipelinegui";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

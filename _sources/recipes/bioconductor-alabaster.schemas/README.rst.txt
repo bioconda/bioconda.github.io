@@ -12,7 +12,7 @@ bioconductor-alabaster.schemas
 
    Schemas for the Alabaster Framework
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/alabaster.schemas.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/alabaster.schemas.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-alabaster.schemas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.schemas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.schemas/meta.yaml>`_
 

@@ -12,11 +12,11 @@ bioconductor-screpertoire
 
    A toolkit for single\-cell immune receptor profiling
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/scRepertoire.html
-   :license: GPL-2
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/scRepertoire.html
+   :license: MIT + file LICENSE
    :recipe: /`bioconductor-screpertoire <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-screpertoire>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-screpertoire/meta.yaml>`_
 
-   scRepertoire was built to process data derived from the 10x Genomics Chromium Immune Profiling for both T\-cell receptor \(TCR\) and immunoglobulin \(Ig\) enrichment workflows and subsequently interacts with the popular Seurat and SingleCellExperiment R packages. It also allows for general analysis of single\-cell clonotype information without the use of expression information. The package functions as a wrapper for Startrac and powerTCR R packages.
+   scRepertoire is a toolkit for processing and analyzing single\-cell T\-cell receptor \(TCR\) and immunoglobulin \(Ig\). The scRepertoire framework supports use of 10x\, AIRR\, BD\, MiXCR\, Omniscope\, TRUST4\, and WAT3R single\-cell formats. The functionality includes basic clonal analyses\, repertoire summaries\, distance\-based clustering and interaction with the popular Seurat and SingleCellExperiment\/Bioconductor R workflows.
 
 
 .. conda:package:: bioconductor-screpertoire
@@ -27,29 +27,44 @@ bioconductor-screpertoire
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``2.2.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-powertcr: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-doparallel: 
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0a0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc: ``>=13``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-cubature: 
    :depends r-dplyr: 
+   :depends r-evmix: 
    :depends r-ggalluvial: 
+   :depends r-ggdendro: 
    :depends r-ggplot2: 
    :depends r-ggraph: 
+   :depends r-hash: 
    :depends r-igraph: 
+   :depends r-inext: 
    :depends r-plyr: 
+   :depends r-quantreg: 
+   :depends r-rcpp: 
    :depends r-reshape2: 
+   :depends r-rjson: 
    :depends r-rlang: 
    :depends r-seuratobject: 
    :depends r-stringdist: 
    :depends r-stringr: 
    :depends r-tidygraph: 
-   :depends r-vegan: 
+   :depends r-truncdist: 
+   :depends r-vgam: 
    :requirements:
 
    :additional platforms:
@@ -100,7 +115,7 @@ bioconductor-screpertoire
 
     <script>
         var package = "bioconductor-screpertoire";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.0"];
+        var versions = ["2.2.0","1.12.0","1.10.0","1.8.0","1.4.0"];
     </script>
 
 

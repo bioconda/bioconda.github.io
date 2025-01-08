@@ -12,7 +12,7 @@ bioconductor-a4base
 
    Automated Affymetrix Array Analysis Base Package
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/a4Base.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/a4Base.html
    :license: GPL-3
    :recipe: /`bioconductor-a4base <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-a4base>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-a4base/meta.yaml>`_
    :links: biotools: :biotools:`a4base`, doi: :doi:`10.1038/nmeth.3252`
@@ -29,10 +29,10 @@ bioconductor-a4base
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.54.0-0</code>,  <code>1.50.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  </span></summary>
       
 
-      ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``
+      ``1.54.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,14 @@ bioconductor-a4base
       
 
    
-   :depends bioconductor-a4core: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-a4preproc: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-annaffy: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-genefilter: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-multtest: ``>=2.58.0,<2.59.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-a4core: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-a4preproc: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-annaffy: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-genefilter: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-multtest: ``>=2.62.0,<2.63.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-glmnet: 
    :depends r-gplots: 
    :depends r-mpm: 
@@ -102,7 +102,7 @@ bioconductor-a4base
 
     <script>
         var package = "bioconductor-a4base";
-        var versions = ["1.50.0","1.48.0","1.46.0","1.42.0","1.40.0"];
+        var versions = ["1.54.0","1.50.0","1.48.0","1.46.0","1.42.0"];
     </script>
 
 

@@ -12,7 +12,7 @@ bioconductor-rvisdiff
 
    Interactive Graphs for Differential Expression
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/Rvisdiff.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Rvisdiff.html
    :license: GPL-2 | GPL-3
    :recipe: /`bioconductor-rvisdiff <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rvisdiff>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rvisdiff/meta.yaml>`_
 

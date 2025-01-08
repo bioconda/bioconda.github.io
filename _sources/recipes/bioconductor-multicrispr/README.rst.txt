@@ -12,7 +12,7 @@ bioconductor-multicrispr
 
    Multi\-locus multi\-purpose Crispr\/Cas design
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/multicrispr.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/multicrispr.html
    :license: GPL-2
    :recipe: /`bioconductor-multicrispr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multicrispr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multicrispr/meta.yaml>`_
 
@@ -27,28 +27,23 @@ bioconductor-multicrispr
       
       
 
-      ``1.12.3-0``,  ``1.10.1-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.16.0-0``,  ``1.12.3-0``,  ``1.10.1-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-crisprseek: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-karyoploter: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-plyranges: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-rbowtie: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
-   :depends r-assertive.base: 
-   :depends r-assertive.files: 
-   :depends r-assertive.numbers: 
-   :depends r-assertive.reflection: 
-   :depends r-assertive.sets: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-crisprseek: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-karyoploter: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-plyranges: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-rbowtie: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: 
    :depends r-ggplot2: 
    :depends r-magrittr: 
@@ -106,7 +101,7 @@ bioconductor-multicrispr
 
     <script>
         var package = "bioconductor-multicrispr";
-        var versions = ["1.12.3","1.10.1","1.8.0","1.4.0","1.2.0"];
+        var versions = ["1.16.0","1.12.3","1.10.1","1.8.0","1.4.0"];
     </script>
 
 

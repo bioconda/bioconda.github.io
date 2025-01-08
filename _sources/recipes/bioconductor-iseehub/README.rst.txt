@@ -12,7 +12,7 @@ bioconductor-iseehub
 
    iSEE for the Bioconductor ExperimentHub
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/iSEEhub.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/iSEEhub.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-iseehub <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseehub>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseehub/meta.yaml>`_
 
@@ -27,18 +27,18 @@ bioconductor-iseehub
       
       
 
-      ``1.4.0-0``,  ``1.1.1-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.1.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-isee: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-isee: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-biocmanager: 
    :depends r-dt: 
    :depends r-rintrojs: 
@@ -95,7 +95,7 @@ bioconductor-iseehub
 
     <script>
         var package = "bioconductor-iseehub";
-        var versions = ["1.4.0","1.1.1","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.1.1","1.0.0"];
     </script>
 
 

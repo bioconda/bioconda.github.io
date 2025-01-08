@@ -28,10 +28,10 @@ r-orqa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.1-10</code>,  <code>0.2.1-9</code>,  <code>0.2.1-8</code>,  <code>0.2.1-7</code>,  <code>0.2.1-6</code>,  <code>0.2.1-5</code>,  <code>0.2.1-4</code>,  <code>0.2.1-3</code>,  <code>0.2.1-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.1-11</code>,  <code>0.2.1-10</code>,  <code>0.2.1-9</code>,  <code>0.2.1-8</code>,  <code>0.2.1-7</code>,  <code>0.2.1-6</code>,  <code>0.2.1-5</code>,  <code>0.2.1-4</code>,  <code>0.2.1-3</code>,  </span></summary>
       
 
-      ``0.2.1-10``,  ``0.2.1-9``,  ``0.2.1-8``,  ``0.2.1-7``,  ``0.2.1-6``,  ``0.2.1-5``,  ``0.2.1-4``,  ``0.2.1-3``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``
+      ``0.2.1-11``,  ``0.2.1-10``,  ``0.2.1-9``,  ``0.2.1-8``,  ``0.2.1-7``,  ``0.2.1-6``,  ``0.2.1-5``,  ``0.2.1-4``,  ``0.2.1-3``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``
 
       
       .. raw:: html
@@ -41,9 +41,10 @@ r-orqa
 
    
    :depends bioconductor-genefilter: ``>=1.24.3``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-genefilter: ``>=1.88.0,<1.89.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-gtools: ``>=2.6.1``
    :depends r-nlme: ``>=3.1_96``
    :depends r-rcpp: ``>=0.8.9``

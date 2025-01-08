@@ -26,14 +26,22 @@ r-cate
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.1-5``,  ``1.1.1-4``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0.4-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.1-6</code>,  <code>1.1.1-5</code>,  <code>1.1.1-4</code>,  <code>1.1.1-3</code>,  <code>1.1.1-2</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1-1</code>,  <code>1.1-0</code>,  </span></summary>
+      
 
+      ``1.1.1-6``,  ``1.1.1-5``,  ``1.1.1-4``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-sva: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-corpcor: 
    :depends r-esabcv: 
    :depends r-leapp: 

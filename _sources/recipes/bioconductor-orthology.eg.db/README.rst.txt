@@ -12,7 +12,7 @@ bioconductor-orthology.eg.db
 
    Orthology mapping package
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/Orthology.eg.db.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/Orthology.eg.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-orthology.eg.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-orthology.eg.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-orthology.eg.db/meta.yaml>`_
 

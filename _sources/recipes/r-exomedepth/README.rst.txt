@@ -28,10 +28,10 @@ r-exomedepth
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.16-3</code>,  <code>1.1.16-2</code>,  <code>1.1.16-1</code>,  <code>1.1.16-0</code>,  <code>1.1.15-4</code>,  <code>1.1.15-3</code>,  <code>1.1.15-2</code>,  <code>1.1.15-1</code>,  <code>1.1.15-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.16-4</code>,  <code>1.1.16-3</code>,  <code>1.1.16-2</code>,  <code>1.1.16-1</code>,  <code>1.1.16-0</code>,  <code>1.1.15-4</code>,  <code>1.1.15-3</code>,  <code>1.1.15-2</code>,  <code>1.1.15-1</code>,  </span></summary>
       
 
-      ``1.1.16-3``,  ``1.1.16-2``,  ``1.1.16-1``,  ``1.1.16-0``,  ``1.1.15-4``,  ``1.1.15-3``,  ``1.1.15-2``,  ``1.1.15-1``,  ``1.1.15-0``,  ``1.1.12-0``,  ``1.1.10-4``,  ``1.1.10-3``,  ``1.1.10-2``,  ``1.1.10-0``
+      ``1.1.16-4``,  ``1.1.16-3``,  ``1.1.16-2``,  ``1.1.16-1``,  ``1.1.16-0``,  ``1.1.15-4``,  ``1.1.15-3``,  ``1.1.15-2``,  ``1.1.15-1``,  ``1.1.15-0``,  ``1.1.12-0``,  ``1.1.10-4``,  ``1.1.10-3``,  ``1.1.10-2``,  ``1.1.10-0``
 
       
       .. raw:: html
@@ -40,17 +40,18 @@ r-exomedepth
       
 
    
-   :depends bioconductor-biostrings: 
-   :depends bioconductor-genomicalignments: 
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0a0``
+   :depends bioconductor-genomicalignments: ``>=1.42.0,<1.43.0a0``
    :depends bioconductor-genomicranges: ``>=1.23.0``
-   :depends bioconductor-iranges: 
-   :depends bioconductor-rsamtools: 
-   :depends libgcc-ng: ``>=12``
-   :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=12.3.0``
-   :depends libstdcxx-ng: ``>=12``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0a0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
+   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0a0``
+   :depends libgcc: ``>=13``
+   :depends libgfortran: 
+   :depends libgfortran5: ``>=13.3.0``
+   :depends libstdcxx: ``>=13``
    :depends r-aod: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-magrittr: 
    :depends r-vgam: ``>=0.8.4``
@@ -104,7 +105,7 @@ r-exomedepth
 
     <script>
         var package = "r-exomedepth";
-        var versions = ["1.1.16","1.1.16","1.1.16","1.1.16","1.1.15"];
+        var versions = ["1.1.16","1.1.16","1.1.16","1.1.16","1.1.16"];
     </script>
 
 

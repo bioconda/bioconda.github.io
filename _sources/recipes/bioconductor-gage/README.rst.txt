@@ -12,7 +12,7 @@ bioconductor-gage
 
    Generally Applicable Gene\-set Enrichment for Pathway Analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/gage.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/gage.html
    :license: GPL (>=2.0)
    :recipe: /`bioconductor-gage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gage/meta.yaml>`_
    :links: biotools: :biotools:`gage`
@@ -29,10 +29,10 @@ bioconductor-gage
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.52.0-0</code>,  <code>2.50.0-0</code>,  <code>2.48.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-0</code>,  <code>2.40.1-0</code>,  <code>2.40.0-0</code>,  <code>2.37.0-0</code>,  <code>2.36.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.56.0-0</code>,  <code>2.52.0-0</code>,  <code>2.50.0-0</code>,  <code>2.48.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-0</code>,  <code>2.40.1-0</code>,  <code>2.40.0-0</code>,  <code>2.37.0-0</code>,  </span></summary>
       
 
-      ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.1-0``,  ``2.40.0-0``,  ``2.37.0-0``,  ``2.36.0-0``,  ``2.34.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.3-0``,  ``2.21.1-0``
+      ``2.56.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.1-0``,  ``2.40.0-0``,  ``2.37.0-0``,  ``2.36.0-0``,  ``2.34.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.3-0``,  ``2.21.1-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ bioconductor-gage
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-keggrest: ``>=1.42.0,<1.43.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-go.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-graph: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-keggrest: ``>=1.46.0,<1.47.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -96,7 +96,7 @@ bioconductor-gage
 
     <script>
         var package = "bioconductor-gage";
-        var versions = ["2.52.0","2.50.0","2.48.0","2.44.0","2.42.0"];
+        var versions = ["2.56.0","2.52.0","2.50.0","2.48.0","2.44.0"];
     </script>
 
 

@@ -12,8 +12,8 @@ bioconductor-cytolib
 
    C\+\+ infrastructure for representing and interacting with the gated cytometry data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/cytolib.html
-   :license: GPL-3.0-only
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/cytolib.html
+   :license: AGPL-3.0-only
    :recipe: /`bioconductor-cytolib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytolib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytolib/meta.yaml>`_
    :links: biotools: :biotools:`cytolib`
 

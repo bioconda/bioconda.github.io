@@ -12,7 +12,7 @@ bioconductor-phastcons7way.ucsc.hg38
 
    UCSC phastCons conservation scores for hg38
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/phastCons7way.UCSC.hg38.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/phastCons7way.UCSC.hg38.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-phastcons7way.ucsc.hg38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phastcons7way.ucsc.hg38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phastcons7way.ucsc.hg38/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-phastcons7way.ucsc.hg38
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.7.1-12</code>,  <code>3.7.1-11</code>,  <code>3.7.1-10</code>,  <code>3.7.1-9</code>,  <code>3.7.1-8</code>,  <code>3.7.1-7</code>,  <code>3.7.1-6</code>,  <code>3.7.1-5</code>,  <code>3.7.1-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.7.1-13</code>,  <code>3.7.1-12</code>,  <code>3.7.1-11</code>,  <code>3.7.1-10</code>,  <code>3.7.1-9</code>,  <code>3.7.1-8</code>,  <code>3.7.1-7</code>,  <code>3.7.1-6</code>,  <code>3.7.1-5</code>,  </span></summary>
       
 
-      ``3.7.1-12``,  ``3.7.1-11``,  ``3.7.1-10``,  ``3.7.1-9``,  ``3.7.1-8``,  ``3.7.1-7``,  ``3.7.1-6``,  ``3.7.1-5``,  ``3.7.1-4``,  ``3.7.1-3``,  ``3.7.1-2``,  ``3.7.1-0``
+      ``3.7.1-13``,  ``3.7.1-12``,  ``3.7.1-11``,  ``3.7.1-10``,  ``3.7.1-9``,  ``3.7.1-8``,  ``3.7.1-7``,  ``3.7.1-6``,  ``3.7.1-5``,  ``3.7.1-4``,  ``3.7.1-3``,  ``3.7.1-2``,  ``3.7.1-0``
 
       
       .. raw:: html
@@ -40,15 +40,15 @@ bioconductor-phastcons7way.ucsc.hg38
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-genomicscores: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-genomicscores: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:

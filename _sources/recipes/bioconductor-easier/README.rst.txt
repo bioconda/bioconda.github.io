@@ -12,7 +12,7 @@ bioconductor-easier
 
    Estimate Systems Immune Response from RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/easier.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/easier.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-easier <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-easier>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-easier/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-hs25kresogen.db
 
    RNG\_MRC Human Pangenomic 25k Set annotation data \(chip hs25kresogen\)
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/hs25kresogen.db.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/hs25kresogen.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hs25kresogen.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hs25kresogen.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hs25kresogen.db/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-hs25kresogen.db
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5.0-12</code>,  <code>2.5.0-11</code>,  <code>2.5.0-10</code>,  <code>2.5.0-9</code>,  <code>2.5.0-8</code>,  <code>2.5.0-7</code>,  <code>2.5.0-6</code>,  <code>2.5.0-5</code>,  <code>2.5.0-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.5.0-13</code>,  <code>2.5.0-12</code>,  <code>2.5.0-11</code>,  <code>2.5.0-10</code>,  <code>2.5.0-9</code>,  <code>2.5.0-8</code>,  <code>2.5.0-7</code>,  <code>2.5.0-6</code>,  <code>2.5.0-5</code>,  </span></summary>
       
 
-      ``2.5.0-12``,  ``2.5.0-11``,  ``2.5.0-10``,  ``2.5.0-9``,  ``2.5.0-8``,  ``2.5.0-7``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-0``
+      ``2.5.0-13``,  ``2.5.0-12``,  ``2.5.0-11``,  ``2.5.0-10``,  ``2.5.0-9``,  ``2.5.0-8``,  ``2.5.0-7``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-hs25kresogen.db
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:

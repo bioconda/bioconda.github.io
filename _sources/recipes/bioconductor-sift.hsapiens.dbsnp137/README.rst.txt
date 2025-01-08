@@ -12,7 +12,7 @@ bioconductor-sift.hsapiens.dbsnp137
 
    PROVEAN\/SIFT Predictions for Homo sapiens dbSNP build 137
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/SIFT.Hsapiens.dbSNP137.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/SIFT.Hsapiens.dbSNP137.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-sift.hsapiens.dbsnp137 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sift.hsapiens.dbsnp137>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sift.hsapiens.dbsnp137/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-sift.hsapiens.dbsnp137
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.0-12</code>,  <code>1.0.0-11</code>,  <code>1.0.0-10</code>,  <code>1.0.0-9</code>,  <code>1.0.0-8</code>,  <code>1.0.0-7</code>,  <code>1.0.0-6</code>,  <code>1.0.0-5</code>,  <code>1.0.0-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.0-13</code>,  <code>1.0.0-12</code>,  <code>1.0.0-11</code>,  <code>1.0.0-10</code>,  <code>1.0.0-9</code>,  <code>1.0.0-8</code>,  <code>1.0.0-7</code>,  <code>1.0.0-6</code>,  <code>1.0.0-5</code>,  </span></summary>
       
 
-      ``1.0.0-12``,  ``1.0.0-11``,  ``1.0.0-10``,  ``1.0.0-9``,  ``1.0.0-8``,  ``1.0.0-7``,  ``1.0.0-6``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-0``
+      ``1.0.0-13``,  ``1.0.0-12``,  ``1.0.0-11``,  ``1.0.0-10``,  ``1.0.0-9``,  ``1.0.0-8``,  ``1.0.0-7``,  ``1.0.0-6``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-sift.hsapiens.dbsnp137
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-variantannotation: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-variantannotation: ``>=1.52.0,<1.53.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-rsqlite: ``>=0.11.0``
    :requirements:
 

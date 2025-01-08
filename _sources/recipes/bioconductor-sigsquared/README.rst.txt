@@ -12,7 +12,7 @@ bioconductor-sigsquared
 
    Gene signature generation for functionally validated signaling pathways
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/sigsquared.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/sigsquared.html
    :license: GPL version 3
    :recipe: /`bioconductor-sigsquared <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigsquared>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigsquared/meta.yaml>`_
 

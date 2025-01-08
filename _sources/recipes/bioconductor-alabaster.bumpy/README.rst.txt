@@ -12,7 +12,7 @@ bioconductor-alabaster.bumpy
 
    Save and Load BumpyMatrices to\/from file
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/alabaster.bumpy.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/alabaster.bumpy.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-alabaster.bumpy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.bumpy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.bumpy/meta.yaml>`_
 
@@ -27,17 +27,18 @@ bioconductor-alabaster.bumpy
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-alabaster.base: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-bumpymatrix: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-alabaster.base: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-bumpymatrix: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-matrix: 
    :requirements:
 
@@ -89,7 +90,7 @@ bioconductor-alabaster.bumpy
 
     <script>
         var package = "bioconductor-alabaster.bumpy";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

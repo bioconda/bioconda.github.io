@@ -12,7 +12,7 @@ bioconductor-rrvgo
 
    Reduce \+ Visualize GO
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/rrvgo.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/rrvgo.html
    :license: GPL-3
    :recipe: /`bioconductor-rrvgo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrvgo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrvgo/meta.yaml>`_
 
@@ -27,15 +27,15 @@ bioconductor-rrvgo
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-gosemsim: ``>=2.28.0,<2.29.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-go.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-gosemsim: ``>=2.32.0,<2.33.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: 
    :depends r-ggrepel: 
    :depends r-pheatmap: 
@@ -94,7 +94,7 @@ bioconductor-rrvgo
 
     <script>
         var package = "bioconductor-rrvgo";
-        var versions = ["1.14.0","1.12.0","1.10.0","1.6.0","1.4.0"];
+        var versions = ["1.18.0","1.14.0","1.12.0","1.10.0","1.6.0"];
     </script>
 
 

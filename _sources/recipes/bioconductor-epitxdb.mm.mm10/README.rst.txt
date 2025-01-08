@@ -12,7 +12,7 @@ bioconductor-epitxdb.mm.mm10
 
    Annotation package for EpiTxDb objects
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/EpiTxDb.Mm.mm10.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/EpiTxDb.Mm.mm10.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-epitxdb.mm.mm10 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epitxdb.mm.mm10>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epitxdb.mm.mm10/meta.yaml>`_
 
@@ -26,17 +26,25 @@ bioconductor-epitxdb.mm.mm10
    :versions:
       
       
+      .. raw:: html
 
-      ``0.99.6-7``,  ``0.99.6-6``,  ``0.99.6-5``,  ``0.99.6-4``,  ``0.99.6-3``,  ``0.99.6-2``,  ``0.99.6-1``,  ``0.99.6-0``,  ``0.99.4-0``
+         <details><summary><span class="truncated-version-list"><code>0.99.6-8</code>,  <code>0.99.6-7</code>,  <code>0.99.6-6</code>,  <code>0.99.6-5</code>,  <code>0.99.6-4</code>,  <code>0.99.6-3</code>,  <code>0.99.6-2</code>,  <code>0.99.6-1</code>,  <code>0.99.6-0</code>,  </span></summary>
+      
 
+      ``0.99.6-8``,  ``0.99.6-7``,  ``0.99.6-6``,  ``0.99.6-5``,  ``0.99.6-4``,  ``0.99.6-3``,  ``0.99.6-2``,  ``0.99.6-1``,  ``0.99.6-0``,  ``0.99.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-epitxdb: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-epitxdb: ``>=1.18.0,<1.19.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:

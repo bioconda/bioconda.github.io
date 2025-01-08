@@ -12,7 +12,7 @@ bioconductor-netpathminer
 
    NetPathMiner for Biological Network Construction\, Path Mining and Visualization
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/NetPathMiner.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/NetPathMiner.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-netpathminer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netpathminer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netpathminer/meta.yaml>`_
    :links: biotools: :biotools:`netpathminer`
@@ -42,9 +42,12 @@ bioconductor-netpathminer
 
    
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends liblzma: ``>=5.6.3,<6.0a0``
+   :depends libstdcxx: ``>=13``
    :depends libxml2: ``>=2.13.5,<3.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-igraph: ``>=1.0``
    :requirements:

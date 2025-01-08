@@ -10,13 +10,13 @@ bioconductor-autonomics
    :replaces_section_title:
    :noindex:
 
-   Generifying and intuifying cross\-platform omics analysis
+   Unified statistal Modeling of Omics Data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/autonomics.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/autonomics.html
    :license: GPL-3
    :recipe: /`bioconductor-autonomics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-autonomics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-autonomics/meta.yaml>`_
 
-   This package offers a generic and intuitive solution for cross\-platform omics data analysis. It has functions for import\, preprocessing\, exploration\, contrast analysis and visualization of omics data. It follows a tidy\, functional programming paradigm.
+   This package unifies access to Statistal Modeling of Omics Data. Across linear modeling engines \(lm\, lme\, lmer\, limma\, and wilcoxon\). Across coding systems \(treatment\, difference\, deviation\, etc\). Across model formulae \(with\/without intercept\, random effect\, interaction or nesting\). Across omics platforms \(microarray\, rnaseq\, msproteomics\, affinity proteomics\, metabolomics\). Across projection methods \(pca\, pls\, sma\, lda\, spls\, opls\). Across clustering methods \(hclust\, pam\, cmeans\). It provides a fast enrichment analysis implementation. And an intuitive contrastogram visualisation to summarize contrast effects in complex designs.
 
 
 .. conda:package:: bioconductor-autonomics

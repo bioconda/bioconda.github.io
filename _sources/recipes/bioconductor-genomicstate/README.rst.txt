@@ -12,7 +12,7 @@ bioconductor-genomicstate
 
    Build and access GenomicState objects for use with derfinder tools from sources like Gencode
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/GenomicState.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/GenomicState.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-genomicstate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicstate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicstate/meta.yaml>`_
 
@@ -26,24 +26,32 @@ bioconductor-genomicstate
    :versions:
       
       
+      .. raw:: html
 
-      ``0.99.15-4``,  ``0.99.15-3``,  ``0.99.15-2``,  ``0.99.15-1``,  ``0.99.15-0``,  ``0.99.9-3``,  ``0.99.9-2``,  ``0.99.9-1``,  ``0.99.9-0``
+         <details><summary><span class="truncated-version-list"><code>0.99.15-5</code>,  <code>0.99.15-4</code>,  <code>0.99.15-3</code>,  <code>0.99.15-2</code>,  <code>0.99.15-1</code>,  <code>0.99.15-0</code>,  <code>0.99.9-3</code>,  <code>0.99.9-2</code>,  <code>0.99.9-1</code>,  </span></summary>
+      
 
+      ``0.99.15-5``,  ``0.99.15-4``,  ``0.99.15-3``,  ``0.99.15-2``,  ``0.99.15-1``,  ``0.99.15-0``,  ``0.99.9-3``,  ``0.99.9-2``,  ``0.99.9-1``,  ``0.99.9-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-bumphunter: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-derfinder: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-bumphunter: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-derfinder: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:

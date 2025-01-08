@@ -12,7 +12,7 @@ bioconductor-consensus
 
    Cross\-platform consensus analysis of genomic measurements via interlaboratory testing method
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/consensus.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/consensus.html
    :license: BSD_3_clause + file LICENSE
    :recipe: /`bioconductor-consensus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consensus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consensus/meta.yaml>`_
 

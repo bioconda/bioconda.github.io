@@ -10,9 +10,9 @@ bioconductor-simona
    :replaces_section_title:
    :noindex:
 
-   Semantic Similarity in Bio\-Ontologies
+   Semantic Similarity on Bio\-Ontologies
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/simona.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/simona.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-simona <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simona>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simona/meta.yaml>`_
 

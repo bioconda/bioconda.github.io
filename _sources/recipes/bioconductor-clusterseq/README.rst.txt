@@ -12,7 +12,7 @@ bioconductor-clusterseq
 
    Clustering of high\-throughput sequencing data by identifying co\-expression patterns
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/clusterSeq.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/clusterSeq.html
    :license: GPL-3
    :recipe: /`bioconductor-clusterseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clusterseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clusterseq/meta.yaml>`_
 

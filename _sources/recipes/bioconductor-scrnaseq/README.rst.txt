@@ -12,7 +12,7 @@ bioconductor-scrnaseq
 
    Collection of Public Single\-Cell RNA\-Seq Datasets
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/scRNAseq.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/scRNAseq.html
    :license: CC0
    :recipe: /`bioconductor-scrnaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scrnaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scrnaseq/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-scrnaseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.16.0-0</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.6.1-0</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.3.17-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.20.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.6.1-0</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  </span></summary>
       
 
-      ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.1-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.17-0``,  ``2.2.0-0``,  ``1.99.8-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.0-0``
+      ``2.20.0-0``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.1-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.17-0``,  ``2.2.0-0``,  ``1.99.8-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.0-0``
 
       
       .. raw:: html
@@ -40,19 +40,29 @@ bioconductor-scrnaseq
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-ensembldb: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-alabaster.base: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-alabaster.matrix: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-alabaster.sce: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-ensembldb: ``>=2.30.0,<2.31.0``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-gypsum: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-sparsearray: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-dbi: 
+   :depends r-jsonlite: 
+   :depends r-matrix: 
+   :depends r-rsqlite: 
    :requirements:
 
    :additional platforms:
@@ -103,7 +113,7 @@ bioconductor-scrnaseq
 
     <script>
         var package = "bioconductor-scrnaseq";
-        var versions = ["2.16.0","2.14.0","2.12.0","2.8.0","2.8.0"];
+        var versions = ["2.20.0","2.16.0","2.14.0","2.12.0","2.8.0"];
     </script>
 
 

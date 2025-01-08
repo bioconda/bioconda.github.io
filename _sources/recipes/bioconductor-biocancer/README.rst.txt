@@ -12,7 +12,7 @@ bioconductor-biocancer
 
    Interactive Multi\-Omics Cancers Data Visualization and Analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/bioCancer.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/bioCancer.html
    :license: AGPL-3 | file LICENSE
    :recipe: /`bioconductor-biocancer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocancer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocancer/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-biocancer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  </span></summary>
       
 
-      ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
+      ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
 
       
       .. raw:: html
@@ -40,23 +40,23 @@ bioconductor-biocancer
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-clusterprofiler: ``>=4.10.0,<4.11.0``
-   :depends bioconductor-dose: ``>=3.28.0,<3.29.0``
-   :depends bioconductor-genetclassifier: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-org.bt.eg.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-reactome.db: ``>=1.86.0,<1.87.0``
-   :depends bioconductor-reactomepa: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-cbioportaldata: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-clusterprofiler: ``>=4.14.0,<4.15.0``
+   :depends bioconductor-dose: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-genetclassifier: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-go.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-org.bt.eg.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-reactome.db: ``>=1.89.0,<1.90.0``
+   :depends bioconductor-reactomepa: ``>=1.50.0,<1.51.0``
    :depends r-algdesign: ``>=1.1.7.3``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-diagrammer: ``<=1.01``
    :depends r-dplyr: ``>=0.7.2``
    :depends r-dt: ``>=0.3``
    :depends r-htmlwidgets: 
-   :depends r-httr: 
    :depends r-import: ``>=1.1.0``
    :depends r-plyr: 
    :depends r-r.methodss3: 
@@ -65,6 +65,7 @@ bioconductor-biocancer
    :depends r-shiny: ``>=1.0.5``
    :depends r-shinythemes: 
    :depends r-tibble: 
+   :depends r-tidyr: 
    :depends r-visnetwork: 
    :depends r-xml: ``>=3.98``
    :requirements:
@@ -117,7 +118,7 @@ bioconductor-biocancer
 
     <script>
         var package = "bioconductor-biocancer";
-        var versions = ["1.30.0","1.28.0","1.26.0","1.22.0","1.18.0"];
+        var versions = ["1.34.0","1.30.0","1.28.0","1.26.0","1.22.0"];
     </script>
 
 

@@ -12,7 +12,7 @@ bioconductor-vulcan
 
    VirtUaL ChIP\-Seq data Analysis using Networks
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/vulcan.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/vulcan.html
    :license: LGPL-3
    :recipe: /`bioconductor-vulcan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vulcan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vulcan/meta.yaml>`_
 
@@ -26,22 +26,30 @@ bioconductor-vulcan
    :versions:
       
       
+      .. raw:: html
 
-      ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  </span></summary>
+      
 
+      ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-chippeakanno: ``>=3.36.0,<3.37.0``
-   :depends bioconductor-csaw: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-deseq2: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-diffbind: ``>=3.12.0,<3.13.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-chippeakanno: ``>=3.40.0,<3.41.0``
+   :depends bioconductor-csaw: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-deseq2: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-diffbind: ``>=3.16.0,<3.17.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
    :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-viper: ``>=1.36.0,<1.37.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-viper: ``>=1.40.0,<1.41.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-catools: 
    :depends r-gplots: 
    :depends r-locfit: 
@@ -97,7 +105,7 @@ bioconductor-vulcan
 
     <script>
         var package = "bioconductor-vulcan";
-        var versions = ["1.24.0","1.22.0","1.20.0","1.16.0","1.14.0"];
+        var versions = ["1.28.0","1.24.0","1.22.0","1.20.0","1.16.0"];
     </script>
 
 

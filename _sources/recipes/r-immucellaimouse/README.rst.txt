@@ -28,13 +28,13 @@ r-immucellaimouse
       
       
 
-      ``1.0-0``
+      ``1.0-1``,  ``1.0-0``
 
       
 
    
    :depends bioconductor-gsva: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-mass: 
    :depends r-rcpp: ``>=0.12.14``
@@ -88,7 +88,7 @@ r-immucellaimouse
 
     <script>
         var package = "r-immucellaimouse";
-        var versions = ["1.0"];
+        var versions = ["1.0","1.0"];
     </script>
 
 

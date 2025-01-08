@@ -12,7 +12,7 @@ bioconductor-hu6800cdf
 
    hu6800cdf
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/hu6800cdf.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/hu6800cdf.html
    :license: LGPL
    :recipe: /`bioconductor-hu6800cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hu6800cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hu6800cdf/meta.yaml>`_
 

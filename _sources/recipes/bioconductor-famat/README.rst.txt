@@ -12,7 +12,7 @@ bioconductor-famat
 
    Functional analysis of metabolic and transcriptomic data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/famat.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/famat.html
    :license: GPL-3
    :recipe: /`bioconductor-famat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-famat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-famat/meta.yaml>`_
 
@@ -27,18 +27,18 @@ bioconductor-famat
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=4.10.0,<4.11.0``
-   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-keggrest: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-reactome.db: ``>=1.86.0,<1.87.0``
-   :depends bioconductor-rwikipathways: ``>=1.22.0,<1.23.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-clusterprofiler: ``>=4.14.0,<4.15.0``
+   :depends bioconductor-go.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-keggrest: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-reactome.db: ``>=1.89.0,<1.90.0``
+   :depends bioconductor-rwikipathways: ``>=1.26.0,<1.27.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-biasedurn: 
    :depends r-dplyr: 
    :depends r-dt: 
@@ -102,7 +102,7 @@ bioconductor-famat
 
     <script>
         var package = "bioconductor-famat";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.1.1"];
+        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.4.0"];
     </script>
 
 

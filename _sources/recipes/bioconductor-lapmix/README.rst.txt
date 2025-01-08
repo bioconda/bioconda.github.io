@@ -12,7 +12,7 @@ bioconductor-lapmix
 
    Laplace Mixture Model in Microarray Experiments
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/lapmix.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/lapmix.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-lapmix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lapmix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lapmix/meta.yaml>`_
    :links: biotools: :biotools:`lapmix`, doi: :doi:`10.1093/biostatistics/kxj032`

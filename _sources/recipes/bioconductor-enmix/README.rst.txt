@@ -12,7 +12,7 @@ bioconductor-enmix
 
    Quality control and analysis tools for Illumina DNA methylation BeadChip
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ENmix.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ENmix.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-enmix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enmix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enmix/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-enmix
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.38.01-0</code>,  <code>1.36.01-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.2-0</code>,  <code>1.26.8-0</code>,  <code>1.26.0-0</code>,  <code>1.25.1-0</code>,  <code>1.22.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.42.0-0</code>,  <code>1.38.01-0</code>,  <code>1.36.01-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.2-0</code>,  <code>1.26.8-0</code>,  <code>1.26.0-0</code>,  <code>1.25.1-0</code>,  </span></summary>
       
 
-      ``1.38.01-0``,  ``1.36.01-0``,  ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.2-0``,  ``1.26.8-0``,  ``1.26.0-0``,  ``1.25.1-0``,  ``1.22.0-0``,  ``1.20.3-0``,  ``1.18.0-0``
+      ``1.42.0-0``,  ``1.38.01-0``,  ``1.36.01-0``,  ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.2-0``,  ``1.26.8-0``,  ``1.26.0-0``,  ``1.25.1-0``,  ``1.22.0-0``,  ``1.20.3-0``,  ``1.18.0-0``
 
       
       .. raw:: html
@@ -40,18 +40,18 @@ bioconductor-enmix
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-genefilter: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-geneplotter: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-illuminaio: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-impute: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-minfi: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-genefilter: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-geneplotter: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-illuminaio: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-impute: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-minfi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-doparallel: 
    :depends r-dynamictreecut: 
    :depends r-foreach: 
@@ -111,7 +111,7 @@ bioconductor-enmix
 
     <script>
         var package = "bioconductor-enmix";
-        var versions = ["1.38.01","1.36.01","1.34.0","1.30.0","1.28.2"];
+        var versions = ["1.42.0","1.38.01","1.36.01","1.34.0","1.30.0"];
     </script>
 
 

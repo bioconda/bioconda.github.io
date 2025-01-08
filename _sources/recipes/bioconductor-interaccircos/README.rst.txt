@@ -12,7 +12,7 @@ bioconductor-interaccircos
 
    The Generation of Interactive Circos Plot
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/interacCircos.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/interacCircos.html
    :license: GPL-3
    :recipe: /`bioconductor-interaccircos <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-interaccircos>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-interaccircos/meta.yaml>`_
 

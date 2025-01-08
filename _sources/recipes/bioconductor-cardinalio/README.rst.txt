@@ -12,8 +12,8 @@ bioconductor-cardinalio
 
    Read and write mass spectrometry imaging files
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CardinalIO.html
-   :license: Artistic-2.0
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CardinalIO.html
+   :license: Artistic-2.0 | file LICENSE
    :recipe: /`bioconductor-cardinalio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cardinalio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cardinalio/meta.yaml>`_
 
    Fast and efficient reading and writing of mass spectrometry imaging data files. Supports imzML and Analyze 7.5 formats. Provides ontologies for mass spectrometry imaging.

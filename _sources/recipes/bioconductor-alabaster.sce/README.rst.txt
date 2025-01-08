@@ -12,7 +12,7 @@ bioconductor-alabaster.sce
 
    Load and Save SingleCellExperiment from File
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/alabaster.sce.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/alabaster.sce.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-alabaster.sce <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.sce>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.sce/meta.yaml>`_
 
@@ -27,15 +27,16 @@ bioconductor-alabaster.sce
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-alabaster.base: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-alabaster.se: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-alabaster.base: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-alabaster.se: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-jsonlite: 
    :requirements:
 
    :additional platforms:
@@ -86,7 +87,7 @@ bioconductor-alabaster.sce
 
     <script>
         var package = "bioconductor-alabaster.sce";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

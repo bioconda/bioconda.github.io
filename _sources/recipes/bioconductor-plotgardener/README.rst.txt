@@ -12,7 +12,7 @@ bioconductor-plotgardener
 
    Coordinate\-Based Genomic Visualization Package for R
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/plotgardener.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/plotgardener.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-plotgardener <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plotgardener>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plotgardener/meta.yaml>`_
 
@@ -43,8 +43,9 @@ bioconductor-plotgardener
    :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0``
    :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-curl: 
    :depends r-data.table: 

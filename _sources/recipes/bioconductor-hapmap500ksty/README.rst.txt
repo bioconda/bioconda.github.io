@@ -12,7 +12,7 @@ bioconductor-hapmap500ksty
 
    Sample data \- Hapmap 500K STY Affymetrix
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/hapmap500ksty.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/hapmap500ksty.html
    :license: GPL
    :recipe: /`bioconductor-hapmap500ksty <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hapmap500ksty>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hapmap500ksty/meta.yaml>`_
 

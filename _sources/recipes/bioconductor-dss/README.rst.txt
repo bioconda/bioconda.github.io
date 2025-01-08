@@ -12,8 +12,8 @@ bioconductor-dss
 
    Dispersion shrinkage for sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/DSS.html
-   :license: GPL-3.0-only
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/DSS.html
+   :license: GPL
    :recipe: /`bioconductor-dss <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dss>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dss/meta.yaml>`_
    :links: biotools: :biotools:`dss`
 
@@ -48,6 +48,7 @@ bioconductor-dss
    :depends bioconductor-bsseq: ``>=1.42.0,<1.43.0``
    :depends bioconductor-bsseq: ``>=1.42.0,<1.43.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:

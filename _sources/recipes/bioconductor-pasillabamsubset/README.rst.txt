@@ -12,7 +12,7 @@ bioconductor-pasillabamsubset
 
    Subset of BAM files from \"Pasilla\" experiment
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/pasillaBamSubset.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/pasillaBamSubset.html
    :license: LGPL
    :recipe: /`bioconductor-pasillabamsubset <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pasillabamsubset>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pasillabamsubset/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-biomformat
 
    An interface package for the BIOM file format
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/biomformat.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/biomformat.html
    :license: GPL-2
    :recipe: /`bioconductor-biomformat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biomformat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biomformat/meta.yaml>`_
    :links: biotools: :biotools:`biomformat`, doi: :doi:`10.1038/nmeth.3252`

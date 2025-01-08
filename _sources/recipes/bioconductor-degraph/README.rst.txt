@@ -12,7 +12,7 @@ bioconductor-degraph
 
    Two\-sample tests on a graph
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/DEGraph.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/DEGraph.html
    :license: GPL-3
    :recipe: /`bioconductor-degraph <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-degraph>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-degraph/meta.yaml>`_
    :links: biotools: :biotools:`degraph`, doi: :doi:`10.1214/11-AOAS528`

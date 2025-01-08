@@ -12,7 +12,7 @@ bioconductor-tenxplore
 
    ontological exploration of scRNA\-seq of 1.3 million mouse neurons from 10x genomics
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/tenXplore.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/tenXplore.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-tenxplore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tenxplore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tenxplore/meta.yaml>`_
 

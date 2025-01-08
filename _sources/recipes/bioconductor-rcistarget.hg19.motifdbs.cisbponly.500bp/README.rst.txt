@@ -12,7 +12,7 @@ bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp
 
    RcisTarget motif databases for human \(hg19\) \- Subset of 4.6k motifs
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/RcisTarget.hg19.motifDBs.cisbpOnly.500bp.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/RcisTarget.hg19.motifDBs.cisbpOnly.500bp.html
    :license: GPL-3
    :recipe: /`bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcistarget.hg19.motifdbs.cisbponly.500bp/meta.yaml>`_
 

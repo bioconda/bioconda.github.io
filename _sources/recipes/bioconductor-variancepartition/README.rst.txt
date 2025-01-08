@@ -12,7 +12,7 @@ bioconductor-variancepartition
 
    Quantify and interpret drivers of variation in multilevel gene expression experiments
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/variancePartition.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/variancePartition.html
    :license: GPL-2
    :recipe: /`bioconductor-variancepartition <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-variancepartition>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-variancepartition/meta.yaml>`_
    :links: biotools: :biotools:`variancepartition`
@@ -29,10 +29,10 @@ bioconductor-variancepartition
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.32.2-0</code>,  <code>1.30.2-0</code>,  <code>1.28.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.36.2-0</code>,  <code>1.32.2-0</code>,  <code>1.30.2-0</code>,  <code>1.28.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  </span></summary>
       
 
-      ``1.32.2-0``,  ``1.30.2-0``,  ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.14.0-1``,  ``1.12.3-0``,  ``1.12.0-0``,  ``1.10.4-0``,  ``1.8.1-0``
+      ``1.36.2-0``,  ``1.32.2-0``,  ``1.30.2-0``,  ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.14.0-1``,  ``1.12.3-0``,  ``1.12.0-0``,  ``1.10.4-0``,  ``1.8.1-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ bioconductor-variancepartition
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-limma: ``>=3.62.1,<3.63.0``
    :depends r-aod: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-corpcor: 
    :depends r-fancova: 
    :depends r-ggplot2: 
@@ -113,7 +113,7 @@ bioconductor-variancepartition
 
     <script>
         var package = "bioconductor-variancepartition";
-        var versions = ["1.32.2","1.30.2","1.28.0","1.24.0","1.22.0"];
+        var versions = ["1.36.2","1.32.2","1.30.2","1.28.0","1.24.0"];
     </script>
 
 

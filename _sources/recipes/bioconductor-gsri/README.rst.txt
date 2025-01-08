@@ -12,7 +12,7 @@ bioconductor-gsri
 
    Gene Set Regulation Index
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GSRI.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/GSRI.html
    :license: GPL-3
    :recipe: /`bioconductor-gsri <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsri>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsri/meta.yaml>`_
    :links: biotools: :biotools:`gsri`, doi: :doi:`10.1038/nmeth.3252`
@@ -29,10 +29,10 @@ bioconductor-gsri
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.50.0-0</code>,  <code>2.48.0-0</code>,  <code>2.46.0-0</code>,  <code>2.42.0-0</code>,  <code>2.40.0-0</code>,  <code>2.38.0-1</code>,  <code>2.38.0-0</code>,  <code>2.36.0-0</code>,  <code>2.34.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.54.0-0</code>,  <code>2.50.0-0</code>,  <code>2.48.0-0</code>,  <code>2.46.0-0</code>,  <code>2.42.0-0</code>,  <code>2.40.0-0</code>,  <code>2.38.0-1</code>,  <code>2.38.0-0</code>,  <code>2.36.0-0</code>,  </span></summary>
       
 
-      ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.38.0-1``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-1``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``
+      ``2.54.0-0``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.38.0-1``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-1``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ bioconductor-gsri
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-genefilter: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-gseabase: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-les: ``>=1.52.0,<1.53.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-genefilter: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-gseabase: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-les: ``>=1.56.0,<1.57.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-fdrtool: 
    :requirements:
 
@@ -97,7 +97,7 @@ bioconductor-gsri
 
     <script>
         var package = "bioconductor-gsri";
-        var versions = ["2.50.0","2.48.0","2.46.0","2.42.0","2.40.0"];
+        var versions = ["2.54.0","2.50.0","2.48.0","2.46.0","2.42.0"];
     </script>
 
 

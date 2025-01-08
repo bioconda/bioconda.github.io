@@ -12,7 +12,7 @@ bioconductor-champ
 
    Chip Analysis Methylation Pipeline for Illumina HumanMethylation450 and EPIC
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/ChAMP.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ChAMP.html
    :license: GPL-3
    :recipe: /`bioconductor-champ <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-champ>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-champ/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-tin
 
    Transcriptome instability analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/TIN.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/TIN.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-tin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tin/meta.yaml>`_
    :links: biotools: :biotools:`tin`, doi: :doi:`10.4137/CIN.S31363`
@@ -29,10 +29,10 @@ bioconductor-tin
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  </span></summary>
       
 
-      ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``
+      ``1.38.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``
 
       
       .. raw:: html
@@ -41,9 +41,9 @@ bioconductor-tin
       
 
    
-   :depends bioconductor-impute: ``>=1.76.0,<1.77.0``
+   :depends bioconductor-impute: ``>=1.80.0,<1.81.0``
    :depends r-aroma.affymetrix: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: 
    :depends r-squash: 
    :depends r-stringr: 
@@ -98,7 +98,7 @@ bioconductor-tin
 
     <script>
         var package = "bioconductor-tin";
-        var versions = ["1.34.0","1.32.0","1.30.0","1.26.0","1.24.0"];
+        var versions = ["1.38.0","1.34.0","1.32.0","1.30.0","1.26.0"];
     </script>
 
 

@@ -12,7 +12,7 @@ bioconductor-wppi
 
    Weighting protein\-protein interactions
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/wppi.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/wppi.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-wppi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wppi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wppi/meta.yaml>`_
 

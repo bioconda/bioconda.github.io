@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Package Recipe &#39;bioconductor-poma&#39; &#8212; Bioconda  documentation</title>
-    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
     <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css?v=39de963d" />
     <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
     <link rel="stylesheet" type="text/css" href="../../_static/style.css?v=48720263" />
@@ -70,7 +70,7 @@
 <dd><p>Tools for Omics Data Analysis</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.18/bioc/html/POMA.html">https://bioconductor.org/packages/3.18/bioc/html/POMA.html</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.20/bioc/html/POMA.html">https://bioconductor.org/packages/3.20/bioc/html/POMA.html</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
 <dd class="field-even"><p>GPL-3</p>
@@ -79,7 +79,7 @@
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-poma">bioconductor-poma</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-poma/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>A reproducible and easy-to-use toolkit for visualization, pre-processing, exploration, and statistical analysis of omics datasets. The main aim of POMA is to enable a flexible data cleaning and statistical analysis processes in one comprehensible and user-friendly R package. This package has a Shiny app version called POMAShiny that implements all POMA functions. See https://github.com/pcastellanoescuder/POMAShiny. See Castellano-Escuder P, González-Domínguez R, Carmona-Pontaque F, et al. (2021) &lt;doi:10.1371/journal.pcbi.1009148&gt; for more details.</p>
+<p>The POMA package offers a comprehensive toolkit designed for omics data analysis, streamlining the process from initial visualization to final statistical analysis. Its primary goal is to simplify and unify the various steps involved in omics data processing, making it more accessible and manageable within a single, intuitive R package. Emphasizing on reproducibility and user-friendliness, POMA leverages the standardized SummarizedExperiment class from Bioconductor, ensuring seamless integration and compatibility with a wide array of Bioconductor tools. This approach guarantees maximum flexibility and replicability, making POMA an essential asset for researchers handling omics datasets. See https://github.com/pcastellanoescuder/POMAShiny. Paper: Castellano-Escuder et al. (2021) &lt;doi:10.1371/journal.pcbi.1009148&gt; for more details.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -89,31 +89,37 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-poma"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-poma.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-poma"><img alt="docker_bioconductor-poma" src="https://quay.io/repository/biocontainers/bioconductor-poma/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.12.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.10.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.8.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-1</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.16.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.12.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.10.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.8.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-1</span></code></p>
 </dd>
 <dt class="field-even">depends bioconductor-complexheatmap<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.18.0,&lt;2.19.0</span></code></p>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.22.0,&lt;2.23.0</span></code></p>
 </dd>
 <dt class="field-odd">depends bioconductor-deseq2<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.42.0,&lt;1.43.0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.46.0,&lt;1.47.0</span></code></p>
 </dd>
-<dt class="field-even">depends bioconductor-impute<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.76.0,&lt;1.77.0</span></code></p>
-</dd>
-<dt class="field-odd">depends bioconductor-limma<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.58.0,&lt;3.59.0</span></code></p>
-</dd>
-<dt class="field-even">depends bioconductor-mixomics<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=6.26.0,&lt;6.27.0</span></code></p>
-</dd>
-<dt class="field-odd">depends bioconductor-rankprod<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.28.0,&lt;3.29.0</span></code></p>
-</dd>
-<dt class="field-even">depends bioconductor-summarizedexperiment<span class="colon">:</span></dt>
+<dt class="field-even">depends bioconductor-fgsea<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.32.0,&lt;1.33.0</span></code></p>
 </dd>
+<dt class="field-odd">depends bioconductor-impute<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.80.0,&lt;1.81.0</span></code></p>
+</dd>
+<dt class="field-even">depends bioconductor-limma<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.62.0,&lt;3.63.0</span></code></p>
+</dd>
+<dt class="field-odd">depends bioconductor-mixomics<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=6.30.0,&lt;6.31.0</span></code></p>
+</dd>
+<dt class="field-even">depends bioconductor-rankprod<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.32.0,&lt;3.33.0</span></code></p>
+</dd>
+<dt class="field-odd">depends bioconductor-summarizedexperiment<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.36.0,&lt;1.37.0</span></code></p>
+</dd>
+<dt class="field-even">depends bioconductor-sva<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.54.0,&lt;3.55.0</span></code></p>
+</dd>
 <dt class="field-odd">depends r-base<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.3,&lt;4.4.0a0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.4,&lt;4.5.0a0</span></code></p>
 </dd>
 <dt class="field-even">depends r-broom<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
@@ -123,33 +129,46 @@
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends r-dplyr<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends r-fsa<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends r-ggcorrplot<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends r-ggplot2<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends r-ggrepel<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-glasso<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.11</span></code></p>
-</dd>
-<dt class="field-odd">depends r-glmnet<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-magrittr<span class="colon">:</span></dt>
+<dt class="field-even">depends r-glmnet<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends r-randomforest<span class="colon">:</span></dt>
+<dt class="field-odd">depends r-janitor<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-rmarkdown<span class="colon">:</span></dt>
+<dt class="field-even">depends r-lme4<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends r-tibble<span class="colon">:</span></dt>
+<dt class="field-odd">depends r-magrittr<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-tidyr<span class="colon">:</span></dt>
+<dt class="field-even">depends r-mass<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends r-uwot<span class="colon">:</span></dt>
+<dt class="field-odd">depends r-msigdbr<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-vegan<span class="colon">:</span></dt>
+<dt class="field-even">depends r-multcomp<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">requirements<span class="colon">:</span></dt>
+<dt class="field-odd">depends r-purrr<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">additional platforms<span class="colon">:</span></dt>
+<dt class="field-even">depends r-randomforest<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends r-rlang<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends r-tibble<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends r-tidyr<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends r-uwot<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends r-vegan<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">requirements<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -184,7 +203,7 @@ others.</p>
 
 <script>
     var package = "bioconductor-poma";
-    var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.0"];
+    var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.4.0"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
@@ -335,7 +354,7 @@ others.</p>
 
     
     <div class="footer">
-      &#169;2016-2024, The Bioconda Team.
+      &#169;2016-2025, The Bioconda Team.
       
       |
       Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.1.3</a>

@@ -12,7 +12,7 @@ bioconductor-musicatk
 
    Mutational Signature Comprehensive Analysis Toolkit
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/musicatk.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/musicatk.html
    :license: LGPL-3
    :recipe: /`bioconductor-musicatk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-musicatk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-musicatk/meta.yaml>`_
 

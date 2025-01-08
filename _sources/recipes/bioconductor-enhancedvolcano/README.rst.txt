@@ -12,7 +12,7 @@ bioconductor-enhancedvolcano
 
    Publication\-ready volcano plots with enhanced colouring and labeling
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/EnhancedVolcano.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/EnhancedVolcano.html
    :license: GPL-3
    :recipe: /`bioconductor-enhancedvolcano <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enhancedvolcano>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enhancedvolcano/meta.yaml>`_
 

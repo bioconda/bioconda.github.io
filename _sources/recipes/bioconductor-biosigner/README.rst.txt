@@ -12,7 +12,7 @@ bioconductor-biosigner
 
    Signature discovery from omics data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/biosigner.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/biosigner.html
    :license: CeCILL
    :recipe: /`bioconductor-biosigner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biosigner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biosigner/meta.yaml>`_
    :links: biotools: :biotools:`biosigner`, doi: :doi:`10.3389/fmolb.2016.00026`

@@ -12,7 +12,7 @@ bioconductor-spotclean
 
    SpotClean adjusts for spot swapping in spatial transcriptomics data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SpotClean.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SpotClean.html
    :license: GPL-3
    :recipe: /`bioconductor-spotclean <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spotclean>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spotclean/meta.yaml>`_
 

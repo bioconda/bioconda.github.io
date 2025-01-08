@@ -12,11 +12,11 @@ bioconductor-mirsm
 
    Inferring miRNA sponge modules in heterogeneous data
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/miRSM.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/miRSM.html
    :license: GPL-3
    :recipe: /`bioconductor-mirsm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirsm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirsm/meta.yaml>`_
 
-   The package aims to identify miRNA sponge modules in heterogeneous data. It provides several functions to study miRNA sponge modules\, including popular methods for inferring gene modules \(candidate miRNA sponge modules\)\, and a function to identify miRNA sponge modules\, as well as several functions to conduct modular analysis of miRNA sponge modules.
+   The package aims to identify miRNA sponge or ceRNA modules in heterogeneous data. It provides several functions to study miRNA sponge modules at single\-sample and multi\-sample levels\, including popular methods for inferring gene modules \(candidate miRNA sponge or ceRNA modules\)\, and two functions to identify miRNA sponge modules at single\-sample and multi\-sample levels\, as well as several functions to conduct modular analysis of miRNA sponge modules.
 
 
 .. conda:package:: bioconductor-mirsm

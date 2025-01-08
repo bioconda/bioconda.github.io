@@ -10,13 +10,13 @@ bioconductor-granie
    :replaces_section_title:
    :noindex:
 
-   GRaNIE\: Reconstruction cell type specific gene regulatory networks including enhancers using chromatin accessibility and RNA\-seq data
+   GRaNIE\: Reconstruction cell type specific gene regulatory networks including enhancers using single\-cell or bulk chromatin accessibility and RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GRaNIE.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/GRaNIE.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-granie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-granie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-granie/meta.yaml>`_
 
-   Genetic variants associated with diseases often affect non\-coding regions\, thus likely having a regulatory role. To understand the effects of genetic variants in these regulatory regions\, identifying genes that are modulated by specific regulatory elements \(REs\) is crucial. The effect of gene regulatory elements\, such as enhancers\, is often cell\-type specific\, likely because the combinations of transcription factors \(TFs\) that are regulating a given enhancer have celltype specific activity. This TF activity can be quantified with existing tools such as diffTF and captures differences in binding of a TF in open chromatin regions. Collectively\, this forms a gene regulatory network \(GRN\) with cell\-type and data\-specific TF\-RE and RE\-gene links. Here\, we reconstruct such a GRN using bulk RNAseq and open chromatin \(e.g.\, using ATACseq or ChIPseq for open chromatin marks\) and optionally TF activity data. Our network contains different types of links\, connecting TFs to regulatory elements\, the latter of which is connected to genes in the vicinity or within the same chromatin domain \(TAD\). We use a statistical framework to assign empirical FDRs and weights to all links using a permutation\-based approach.
+   Genetic variants associated with diseases often affect non\-coding regions\, thus likely having a regulatory role. To understand the effects of genetic variants in these regulatory regions\, identifying genes that are modulated by specific regulatory elements \(REs\) is crucial. The effect of gene regulatory elements\, such as enhancers\, is often cell\-type specific\, likely because the combinations of transcription factors \(TFs\) that are regulating a given enhancer have cell\-type specific activity. This TF activity can be quantified with existing tools such as diffTF and captures differences in binding of a TF in open chromatin regions. Collectively\, this forms a gene regulatory network \(GRN\) with cell\-type and data\-specific TF\-RE and RE\-gene links. Here\, we reconstruct such a GRN using single\-cell or bulk RNAseq and open chromatin \(e.g.\, using ATACseq or ChIPseq for open chromatin marks\) and optionally \(Capture\) Hi\-C data. Our network contains different types of links\, connecting TFs to regulatory elements\, the latter of which is connected to genes in the vicinity or within the same chromatin domain \(TAD\). We use a statistical framework to assign empirical FDRs and weights to all links using a permutation\-based approach.
 
 
 .. conda:package:: bioconductor-granie
@@ -27,24 +27,24 @@ bioconductor-granie
       
       
 
-      ``1.6.1-0``,  ``1.4.1-0``,  ``1.2.0-0``
+      ``1.10.0-0``,  ``1.6.1-0``,  ``1.4.1-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-deseq2: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-ensembldb: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-topgo: ``>=2.54.0,<2.55.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-biomart: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-deseq2: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-ensembldb: ``>=2.30.0,<2.31.0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-topgo: ``>=2.58.0,<2.59.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-checkmate: 
    :depends r-circlize: 
    :depends r-colorspace: 
@@ -58,7 +58,7 @@ bioconductor-granie
    :depends r-magrittr: 
    :depends r-matrix: 
    :depends r-matrixstats: 
-   :depends r-patchwork: 
+   :depends r-patchwork: ``>=1.2.0``
    :depends r-progress: 
    :depends r-rcolorbrewer: 
    :depends r-readr: 
@@ -67,7 +67,7 @@ bioconductor-granie
    :depends r-scales: 
    :depends r-stringr: 
    :depends r-tibble: 
-   :depends r-tidyr: 
+   :depends r-tidyr: ``>=1.3.0``
    :depends r-tidyselect: 
    :depends r-viridis: 
    :requirements:
@@ -120,7 +120,7 @@ bioconductor-granie
 
     <script>
         var package = "bioconductor-granie";
-        var versions = ["1.6.1","1.4.1","1.2.0"];
+        var versions = ["1.10.0","1.6.1","1.4.1","1.2.0"];
     </script>
 
 

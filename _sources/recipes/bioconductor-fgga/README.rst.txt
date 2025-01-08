@@ -12,7 +12,7 @@ bioconductor-fgga
 
    Hierarchical ensemble method based on factor graph
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/fgga.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/fgga.html
    :license: GPL-3
    :recipe: /`bioconductor-fgga <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fgga>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fgga/meta.yaml>`_
 
@@ -27,18 +27,19 @@ bioconductor-fgga
       
       
 
-      ``1.9.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.9.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-rbgl: ``>=1.78.0,<1.79.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-graph: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-rbgl: ``>=1.82.0,<1.83.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-curl: 
    :depends r-e1071: 
    :depends r-grbase: 
+   :depends r-igraph: 
    :depends r-jsonlite: 
    :requirements:
 
@@ -90,7 +91,7 @@ bioconductor-fgga
 
     <script>
         var package = "bioconductor-fgga";
-        var versions = ["1.9.0","1.8.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.14.0","1.9.0","1.8.0","1.6.0","1.2.0"];
     </script>
 
 

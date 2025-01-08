@@ -12,7 +12,7 @@ bioconductor-hd2013sgi
 
    Mapping genetic interactions in human cancer cells with RNAi and multiparametric phenotyping
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/HD2013SGI.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/HD2013SGI.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hd2013sgi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hd2013sgi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hd2013sgi/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-hd2013sgi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.46.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  </span></summary>
       
 
-      ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
+      ``1.46.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
 
       
       .. raw:: html
@@ -40,13 +40,13 @@ bioconductor-hd2013sgi
       
 
    
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-ebimage: ``>=4.44.0,<4.45.0``
-   :depends bioconductor-geneplotter: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-splots: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-ebimage: ``>=4.48.0,<4.49.0``
+   :depends bioconductor-geneplotter: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-splots: ``>=1.72.0,<1.73.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-gplots: 
    :depends r-lsd: 
    :depends r-rcolorbrewer: 
@@ -101,7 +101,7 @@ bioconductor-hd2013sgi
 
     <script>
         var package = "bioconductor-hd2013sgi";
-        var versions = ["1.42.0","1.40.0","1.38.0","1.34.0","1.34.0"];
+        var versions = ["1.46.0","1.42.0","1.40.0","1.38.0","1.34.0"];
     </script>
 
 

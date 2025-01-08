@@ -12,11 +12,11 @@ bioconductor-scbubbletree
 
    Quantitative visual exploration of scRNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/scBubbletree.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/scBubbletree.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-scbubbletree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scbubbletree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scbubbletree/meta.yaml>`_
 
-   scBubbletree is a quantitative method for visual exploration of scRNA\-seq data. It preserves biologically meaningful properties of scRNA\-seq data\, such as local and global cell distances\, as well as the density distribution of cells across the sample. scBubbletree is scalable and avoids the overplotting problem\, and is able to visualize diverse cell attributes derived from multiomic single\-cell experiments. Importantly\, Importantly\, scBubbletree is easy to use and to integrate with popular approaches for scRNA\-seq data analysis.
+   scBubbletree is a quantitative method for the visual exploration of scRNA\-seq data\, preserving key biological properties such as local and global cell distances and cell density distributions across samples. It effectively resolves overplotting and enables the visualization of diverse cell attributes from multiomic single\-cell experiments. Additionally\, scBubbletree is user\-friendly and integrates seamlessly with popular scRNA\-seq analysis tools\, facilitating comprehensive and intuitive data interpretation.
 
 
 .. conda:package:: bioconductor-scbubbletree

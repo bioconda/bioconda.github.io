@@ -12,7 +12,7 @@ bioconductor-webbioc
 
    Bioconductor Web Interface
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/webbioc.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/webbioc.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-webbioc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-webbioc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-webbioc/meta.yaml>`_
    :links: biotools: :biotools:`webbioc`, doi: :doi:`10.1007/0-387-29362-0_18`
@@ -29,10 +29,10 @@ bioconductor-webbioc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.74.0-0</code>,  <code>1.72.0-0</code>,  <code>1.70.0-0</code>,  <code>1.66.0-0</code>,  <code>1.64.0-0</code>,  <code>1.62.0-1</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.58.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.78.0-0</code>,  <code>1.74.0-0</code>,  <code>1.72.0-0</code>,  <code>1.70.0-0</code>,  <code>1.66.0-0</code>,  <code>1.64.0-0</code>,  <code>1.62.0-1</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  </span></summary>
       
 
-      ``1.74.0-0``,  ``1.72.0-0``,  ``1.70.0-0``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``
+      ``1.78.0-0``,  ``1.74.0-0``,  ``1.72.0-0``,  ``1.70.0-0``,  ``1.66.0-0``,  ``1.64.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,14 @@ bioconductor-webbioc
       
 
    
-   :depends bioconductor-affy: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-annaffy: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-gcrma: ``>=2.74.0,<2.75.0``
-   :depends bioconductor-multtest: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-qvalue: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-vsn: ``>=3.70.0,<3.71.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-affy: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-annaffy: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-gcrma: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-multtest: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-qvalue: ``>=2.38.0,<2.39.0``
+   :depends bioconductor-vsn: ``>=3.74.0,<3.75.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-biocmanager: 
    :requirements:
 
@@ -100,7 +100,7 @@ bioconductor-webbioc
 
     <script>
         var package = "bioconductor-webbioc";
-        var versions = ["1.74.0","1.72.0","1.70.0","1.66.0","1.64.0"];
+        var versions = ["1.78.0","1.74.0","1.72.0","1.70.0","1.66.0"];
     </script>
 
 

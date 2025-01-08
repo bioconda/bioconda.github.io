@@ -12,7 +12,7 @@ bioconductor-feast
 
    FEAture SelcTion \(FEAST\) for Single\-cell clustering
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/FEAST.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/FEAST.html
    :license: GPL-2
    :recipe: /`bioconductor-feast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-feast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-feast/meta.yaml>`_
 
@@ -43,6 +43,7 @@ bioconductor-feast
    :depends bioconductor-tscan: ``>=1.44.0,<1.45.0``
    :depends bioconductor-tscan: ``>=1.44.0,<1.45.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-irlba: 

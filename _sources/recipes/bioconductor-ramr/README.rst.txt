@@ -12,7 +12,7 @@ bioconductor-ramr
 
    Detection of Rare Aberrantly Methylated Regions in Array and NGS Data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ramr.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ramr.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ramr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ramr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ramr/meta.yaml>`_
 

@@ -12,11 +12,11 @@ bioconductor-scider
 
    Spatial cell\-type inter\-correlation by density in R
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/scider.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/scider.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-scider <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scider>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scider/meta.yaml>`_
 
-   scider is an user\-friendly R package providing functions to model the global density of cells in a slide of spatial transcriptomics data. All functions in the package are built based on the SpatialExperiment object\, allowing integration into various spatial transcriptomics\-related packages from Bioconductor. After modelling density\, the package allows for serveral downstream analysis\, including colocalization analysis\, boundary detection analysis and differential density analysis.
+   scider is a user\-friendly R package providing functions to model the global density of cells in a slide of spatial transcriptomics data. All functions in the package are built based on the SpatialExperiment object\, allowing integration into various spatial transcriptomics\-related packages from Bioconductor. After modelling density\, the package allows for serveral downstream analysis\, including colocalization analysis\, boundary detection analysis and differential density analysis.
 
 
 .. conda:package:: bioconductor-scider

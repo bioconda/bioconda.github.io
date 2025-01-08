@@ -12,7 +12,7 @@ bioconductor-mosaics
 
    MOSAiCS \(MOdel\-based one and two Sample Analysis and Inference for ChIP\-Seq\)
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/mosaics.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/mosaics.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-mosaics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mosaics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mosaics/meta.yaml>`_
    :links: biotools: :biotools:`mosaics`, doi: :doi:`10.1198/jasa.2011.ap09706`
@@ -54,8 +54,9 @@ bioconductor-mosaics
    :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
    :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl: ``>=5.6.0``
    :depends r-base: ``>=4.4,<4.5.0a0``

@@ -12,7 +12,7 @@ bioconductor-iasva
 
    Iteratively Adjusted Surrogate Variable Analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/iasva.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/iasva.html
    :license: GPL-2
    :recipe: /`bioconductor-iasva <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iasva>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iasva/meta.yaml>`_
 

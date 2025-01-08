@@ -12,7 +12,7 @@ bioconductor-gnosis
 
    Genomics explorer using statistical and survival analysis in R
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GNOSIS.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/GNOSIS.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-gnosis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gnosis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gnosis/meta.yaml>`_
 
@@ -27,14 +27,14 @@ bioconductor-gnosis
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-cbioportaldata: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-maftools: ``>=2.18.0,<2.19.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-cbioportaldata: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-maftools: ``>=2.22.0,<2.23.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-car: 
    :depends r-comparegroups: 
    :depends r-dashboardthemes: 
@@ -110,7 +110,7 @@ bioconductor-gnosis
 
     <script>
         var package = "bioconductor-gnosis";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

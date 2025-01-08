@@ -12,7 +12,7 @@ bioconductor-catalyst
 
    Cytometry dATa anALYSis Tools
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CATALYST.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CATALYST.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-catalyst <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-catalyst>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-catalyst/meta.yaml>`_
 

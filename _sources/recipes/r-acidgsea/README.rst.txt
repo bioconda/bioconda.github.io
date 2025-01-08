@@ -29,10 +29,10 @@ r-acidgsea
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.0-0</code>,  <code>0.8.9-0</code>,  <code>0.8.8-2</code>,  <code>0.8.8-1</code>,  <code>0.8.8-0</code>,  <code>0.8.7-1</code>,  <code>0.8.7-0</code>,  <code>0.8.6-1</code>,  <code>0.8.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.0-1</code>,  <code>0.9.0-0</code>,  <code>0.8.9-0</code>,  <code>0.8.8-2</code>,  <code>0.8.8-1</code>,  <code>0.8.8-0</code>,  <code>0.8.7-1</code>,  <code>0.8.7-0</code>,  <code>0.8.6-1</code>,  </span></summary>
       
 
-      ``0.9.0-0``,  ``0.8.9-0``,  ``0.8.8-2``,  ``0.8.8-1``,  ``0.8.8-0``,  ``0.8.7-1``,  ``0.8.7-0``,  ``0.8.6-1``,  ``0.8.6-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.4-1``,  ``0.6.4-0``
+      ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.9-0``,  ``0.8.8-2``,  ``0.8.8-1``,  ``0.8.8-0``,  ``0.8.7-1``,  ``0.8.7-0``,  ``0.8.6-1``,  ``0.8.6-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.4-1``,  ``0.6.4-0``
 
       
       .. raw:: html
@@ -55,7 +55,7 @@ r-acidgsea
    :depends r-acidmarkdown: ``>=0.3.0``
    :depends r-acidplots: ``>=0.7.0``
    :depends r-acidplyr: ``>=0.5.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-basejump: ``>=0.18.0``
    :depends r-deseqanalysis: ``>=0.7.0``
    :depends r-ggplot2: ``>=3.4.3``
@@ -114,7 +114,7 @@ r-acidgsea
 
     <script>
         var package = "r-acidgsea";
-        var versions = ["0.9.0","0.8.9","0.8.8","0.8.8","0.8.8"];
+        var versions = ["0.9.0","0.9.0","0.8.9","0.8.8","0.8.8"];
     </script>
 
 

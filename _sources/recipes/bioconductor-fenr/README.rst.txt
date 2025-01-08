@@ -12,11 +12,11 @@ bioconductor-fenr
 
    Fast functional enrichment for interactive applications
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/fenr.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/fenr.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-fenr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fenr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fenr/meta.yaml>`_
 
-   Perform fast functional enrichment on feature lists \(like genes or proteins\) using the hypergeometric distribution. Tailored for speed\, this package is ideal for interactive platforms such as Shiny. It supports the retrieval of functional data from sources like GO\, KEGG\, Reactome\, and WikiPathways. By downloading and preparing data first\, it allows for rapid successive tests on various feature selections without the need for repetitive\, time\-consuming preparatory steps typical of other packages.
+   Perform fast functional enrichment on feature lists \(like genes or proteins\) using the hypergeometric distribution. Tailored for speed\, this package is ideal for interactive platforms such as Shiny. It supports the retrieval of functional data from sources like GO\, KEGG\, Reactome\, Bioplanet and WikiPathways. By downloading and preparing data first\, it allows for rapid successive tests on various feature selections without the need for repetitive\, time\-consuming preparatory steps typical of other packages.
 
 
 .. conda:package:: bioconductor-fenr

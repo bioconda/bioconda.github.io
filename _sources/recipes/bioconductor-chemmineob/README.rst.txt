@@ -12,8 +12,8 @@ bioconductor-chemmineob
 
    R interface to a subset of OpenBabel functionalities
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ChemmineOB.html
-   :license: file LICENSE
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ChemmineOB.html
+   :license: Artistic-2.0
    :recipe: /`bioconductor-chemmineob <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chemmineob>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chemmineob/meta.yaml>`_
 
    ChemmineOB provides an R interface to a subset of cheminformatics functionalities implemented by the OpelBabel C\+\+ project. OpenBabel is an open source cheminformatics toolbox that includes utilities for structure format interconversions\, descriptor calculations\, compound similarity searching and more. ChemineOB aims to make a subset of these utilities available from within R. For non\-developers\, ChemineOB is primarily intended to be used from ChemmineR as an add\-on package rather than used directly.

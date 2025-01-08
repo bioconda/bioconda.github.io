@@ -12,7 +12,7 @@ bioconductor-seqvartools
 
    Tools for variant data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SeqVarTools.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SeqVarTools.html
    :license: GPL-3
    :recipe: /`bioconductor-seqvartools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqvartools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqvartools/meta.yaml>`_
 

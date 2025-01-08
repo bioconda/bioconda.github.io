@@ -12,11 +12,11 @@ bioconductor-gwas.bayes
 
    Bayesian analysis of Gaussian GWAS data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GWAS.BAYES.html
-   :license: GPL-3
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/GWAS.BAYES.html
+   :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-gwas.bayes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gwas.bayes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gwas.bayes/meta.yaml>`_
 
-   This package is built to perform GWAS analysis using Bayesian techniques. Currently\, GWAS.BAYES has functionality for the implementation of BICOSS for Gaussian phenotypes \(Williams\, J.\, Ferreira\, M. A.\, and Ji\, T. \(2022\). BICOSS\: Bayesian iterative conditional stochastic search for GWAS. BMC Bioinformatics 23\, 475\). The research related to this package was supported in part by National Science Foundation awards DMS 1853549\, DMS 1853556\, and DMS 2054173.
+   This package is built to perform GWAS analysis using Bayesian techniques. Currently\, GWAS.BAYES has functionality for the implementation of BICOSS \(Williams\, J.\, Ferreira\, M. A.\, and Ji\, T. \(2022\). BICOSS\: Bayesian iterative conditional stochastic search for GWAS. BMC Bioinformatics\)\, BGWAS \(Williams\, J.\, Xu\, S.\, Ferreira\, M. A.. \(2023\) \"BGWAS\: Bayesian variable selection in linear mixed models with nonlocal priors for genome\-wide association studies.\" BMC Bioinformatics\)\, and GINA. All methods currently are for the analysis of Gaussian phenotypes The research related to this package was supported in part by National Science Foundation awards DMS 1853549\, DMS 1853556\, and DMS 2054173.
 
 
 .. conda:package:: bioconductor-gwas.bayes

@@ -185,7 +185,7 @@ package and a Docker container
     Contributors work together to fix any issues (which are tested again) and
     the process repeats until all tests pass.
 
-    Our `build system`_, `bioconda-utils`, orchestrates the various building
+    Our `build system`_, ``bioconda-utils``, orchestrates the various building
     and testing steps on CI infrastructure like CircleCI, Azure Pipelines, and
     GitHub Actions. The output consists of both a `conda package`_ and
     a `Biocontainer`_ that can be inspected before merging the pull request.
@@ -207,7 +207,7 @@ containing over 8000 bioinformatics packages
        <https://quay.io/biocontainers>`_.
 
 
-:circlednumber:`⑤` Users can then use the package with `conda install` or `docker pull`
+:circlednumber:`⑤` Users can then use the package with ``conda install`` or ``docker pull``
 
 .. details:: Details
 

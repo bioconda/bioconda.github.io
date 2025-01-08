@@ -12,7 +12,7 @@ bioconductor-systempipetools
 
    Tools for data visualization
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/systemPipeTools.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/systemPipeTools.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-systempipetools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-systempipetools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-systempipetools/meta.yaml>`_
 
@@ -27,16 +27,16 @@ bioconductor-systempipetools
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-deseq2: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-ggtree: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-deseq2: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-ggtree: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
    :depends r-ape: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-dt: 
    :depends r-ggally: 
@@ -98,7 +98,7 @@ bioconductor-systempipetools
 
     <script>
         var package = "bioconductor-systempipetools";
-        var versions = ["1.10.0","1.8.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.2.0"];
     </script>
 
 

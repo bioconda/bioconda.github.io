@@ -12,7 +12,7 @@ bioconductor-scry
 
    Small\-Count Analysis Methods for High\-Dimensional Data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/scry.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/scry.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-scry <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scry>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scry/meta.yaml>`_
 
@@ -27,16 +27,16 @@ bioconductor-scry
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocsingular: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biocsingular: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-glmpca: ``>=0.2.0``
    :depends r-matrix: 
    :requirements:
@@ -89,7 +89,7 @@ bioconductor-scry
 
     <script>
         var package = "bioconductor-scry";
-        var versions = ["1.14.0","1.12.0","1.10.0","1.6.0","1.4.0"];
+        var versions = ["1.18.0","1.14.0","1.12.0","1.10.0","1.6.0"];
     </script>
 
 

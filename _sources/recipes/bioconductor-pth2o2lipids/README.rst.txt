@@ -12,7 +12,7 @@ bioconductor-pth2o2lipids
 
    P. tricornutum HPLC\-ESI\-MS Lipid Data from van Creveld et al. \(2015\)
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/PtH2O2lipids.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/PtH2O2lipids.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-pth2o2lipids <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pth2o2lipids>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pth2o2lipids/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-compounddb
 
    Creating and Using \(Chemical\) Compound Annotation Databases
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CompoundDb.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CompoundDb.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-compounddb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compounddb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compounddb/meta.yaml>`_
 

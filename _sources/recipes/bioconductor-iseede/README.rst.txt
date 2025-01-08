@@ -12,7 +12,7 @@ bioconductor-iseede
 
    iSEE extension for panels related to differential expression analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/iSEEde.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/iSEEde.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-iseede <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseede>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseede/meta.yaml>`_
 
@@ -27,17 +27,17 @@ bioconductor-iseede
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-deseq2: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-isee: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-deseq2: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
+   :depends bioconductor-isee: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-shiny: 
    :requirements:
 
@@ -89,7 +89,7 @@ bioconductor-iseede
 
     <script>
         var package = "bioconductor-iseede";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

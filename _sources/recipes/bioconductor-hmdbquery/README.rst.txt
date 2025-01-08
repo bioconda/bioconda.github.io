@@ -12,7 +12,7 @@ bioconductor-hmdbquery
 
    utilities for exploration of human metabolome database
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/hmdbQuery.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/hmdbQuery.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hmdbquery <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hmdbquery>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hmdbquery/meta.yaml>`_
 

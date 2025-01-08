@@ -12,7 +12,7 @@ bioconductor-rgmqllib
 
    RGMQLlib\, java libraries to run GMQL scala API
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/RGMQLlib.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/RGMQLlib.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rgmqllib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgmqllib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgmqllib/meta.yaml>`_
 

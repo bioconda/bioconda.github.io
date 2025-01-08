@@ -12,7 +12,7 @@ bioconductor-bsgenome.hsapiens.ucsc.hg38.dbsnp151.minor
 
    Full genome sequences for Homo sapiens \(UCSC version hg38\, based on GRCh38.p12\) with injected minor alleles \(dbSNP151\)
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.dbSNP151.minor.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.dbSNP151.minor.html
    :license: CC BY-NC-ND 4.0
    :recipe: /`bioconductor-bsgenome.hsapiens.ucsc.hg38.dbsnp151.minor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ucsc.hg38.dbsnp151.minor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ucsc.hg38.dbsnp151.minor/meta.yaml>`_
 
@@ -27,15 +27,15 @@ bioconductor-bsgenome.hsapiens.ucsc.hg38.dbsnp151.minor
       
       
 
-      ``0.0.9999-4``,  ``0.0.9999-3``,  ``0.0.9999-2``,  ``0.0.9999-1``,  ``0.0.9999-0``
+      ``0.0.9999-5``,  ``0.0.9999-4``,  ``0.0.9999-3``,  ``0.0.9999-2``,  ``0.0.9999-1``,  ``0.0.9999-0``
 
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-data-packages: ``>=20241103``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:

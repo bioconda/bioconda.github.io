@@ -12,7 +12,7 @@ bioconductor-updateobject
 
    Find\/fix old serialized S4 instances
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/updateObject.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/updateObject.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-updateobject <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-updateobject>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-updateobject/meta.yaml>`_
 

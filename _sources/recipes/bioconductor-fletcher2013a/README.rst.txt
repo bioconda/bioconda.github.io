@@ -12,7 +12,7 @@ bioconductor-fletcher2013a
 
    Gene expression data from breast cancer cells under FGFR2 signalling perturbation
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/Fletcher2013a.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/Fletcher2013a.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-fletcher2013a <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fletcher2013a>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fletcher2013a/meta.yaml>`_
 

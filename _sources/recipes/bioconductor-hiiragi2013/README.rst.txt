@@ -12,7 +12,7 @@ bioconductor-hiiragi2013
 
    Cell\-to\-cell expression variability followed by signal reinforcement progressively segregates early mouse lineages
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/Hiiragi2013.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/Hiiragi2013.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hiiragi2013 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hiiragi2013>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hiiragi2013/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-hiiragi2013
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.41.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  </span></summary>
       
 
-      ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+      ``1.41.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
 
       
       .. raw:: html
@@ -40,15 +40,15 @@ bioconductor-hiiragi2013
       
 
    
-   :depends bioconductor-affy: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-genefilter: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-geneplotter: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-keggrest: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-affy: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-genefilter: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-geneplotter: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-keggrest: ``>=1.46.0,<1.47.0``
    :depends bioconductor-mouse4302.db: ``>=3.13.0,<3.14.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-boot: 
    :depends r-clue: 
    :depends r-cluster: 
@@ -109,7 +109,7 @@ bioconductor-hiiragi2013
 
     <script>
         var package = "bioconductor-hiiragi2013";
-        var versions = ["1.38.0","1.36.0","1.34.0","1.30.0","1.30.0"];
+        var versions = ["1.41.0","1.38.0","1.36.0","1.34.0","1.30.0"];
     </script>
 
 

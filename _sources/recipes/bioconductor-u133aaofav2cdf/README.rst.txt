@@ -12,7 +12,7 @@ bioconductor-u133aaofav2cdf
 
    u133aaofav2cdf
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/u133aaofav2cdf.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/u133aaofav2cdf.html
    :license: LGPL
    :recipe: /`bioconductor-u133aaofav2cdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-u133aaofav2cdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-u133aaofav2cdf/meta.yaml>`_
 

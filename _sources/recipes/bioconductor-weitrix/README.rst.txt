@@ -12,7 +12,7 @@ bioconductor-weitrix
 
    Tools for matrices with precision weights\, test and explore weighted or sparse data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/weitrix.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/weitrix.html
    :license: LGPL-2.1 | file LICENSE
    :recipe: /`bioconductor-weitrix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-weitrix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-weitrix/meta.yaml>`_
 

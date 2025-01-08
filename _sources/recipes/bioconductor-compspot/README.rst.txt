@@ -12,7 +12,7 @@ bioconductor-compspot
 
    compSPOT\: Tool for identifying and comparing significantly mutated genomic hotspots
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/compSPOT.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/compSPOT.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-compspot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compspot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compspot/meta.yaml>`_
 

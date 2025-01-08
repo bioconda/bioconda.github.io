@@ -12,11 +12,11 @@ bioconductor-clustirr
 
    Clustering of immune receptor repertoires
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ClustIRR.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ClustIRR.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-clustirr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clustirr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clustirr/meta.yaml>`_
 
-   ClustIRR is a quantitative method for clustering of immune receptor repertoires \(IRRs\). The algorithm identifies groups of T or B cell receptors \(TCRs or BCRs\) with similar specificity by comparing their sequences. ClustIRR uses graphs to visualize the specificity structures of IRRs.
+   ClustIRR analyzes repertoires of B\- and T\-cell receptors. It starts by identifying communities of immune receptors with similar specificities\, based on the sequences of their complementarity\-determining regions \(CDRs\). Next\, it employs a Bayesian probabilistic models to quantify differential community occupancy \(DCO\) between repertoires\, allowing the identification of expanding or contracting communities in response to e.g. infection or cancer treatment.
 
 
 .. conda:package:: bioconductor-clustirr

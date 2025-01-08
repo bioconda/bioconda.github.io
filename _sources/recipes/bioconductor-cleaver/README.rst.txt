@@ -12,7 +12,7 @@ bioconductor-cleaver
 
    Cleavage of Polypeptide Sequences
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/cleaver.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/cleaver.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-cleaver <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cleaver>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cleaver/meta.yaml>`_
    :links: biotools: :biotools:`cleaver`, doi: :doi:`10.1038/nmeth.3252`

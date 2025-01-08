@@ -12,7 +12,7 @@ bioconductor-gdrimport
 
    Package for handling the import of dose\-response data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/gDRimport.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/gDRimport.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gdrimport <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdrimport>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdrimport/meta.yaml>`_
 

@@ -12,12 +12,12 @@ bioconductor-rrdp
 
    Interface to the RDP Classifier
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/rRDP.html
-   :license: GPL-2 | file LICENSE
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/rRDP.html
+   :license: GPL-2 + file LICENSE
    :recipe: /`bioconductor-rrdp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrdp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrdp/meta.yaml>`_
    :links: biotools: :biotools:`rrdp`, doi: :doi:`10.1038/nmeth.3252`
 
-   Seamlessly interfaces RDP classifier \(version 2.9\).
+   This package installs and interfaces the naive Bayesian classifier for 16S rRNA sequences developed by the Ribosomal Database Project \(RDP\). With this package the classifier trained with the standard training set can be used or a custom classifier can be trained.
 
 
 .. conda:package:: bioconductor-rrdp

@@ -27,7 +27,7 @@ r-crisprcleanr
       
       
 
-      ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.3.1-1``,  ``2.3.1-0``
+      ``3.0.0-3``,  ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.3.1-1``,  ``2.3.1-0``
 
       
 
@@ -38,7 +38,7 @@ r-crisprcleanr
    :depends bioconductor-rqc: 
    :depends bioconductor-rsubread: 
    :depends bioconductor-shortread: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-biocmanager: 
    :depends r-jsonlite: 
    :depends r-pracma: 
@@ -96,7 +96,7 @@ r-crisprcleanr
 
     <script>
         var package = "r-crisprcleanr";
-        var versions = ["3.0.0","3.0.0","3.0.0","2.3.1","2.3.1"];
+        var versions = ["3.0.0","3.0.0","3.0.0","3.0.0","2.3.1"];
     </script>
 
 

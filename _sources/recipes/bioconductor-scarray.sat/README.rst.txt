@@ -12,7 +12,7 @@ bioconductor-scarray.sat
 
    Large\-scale single\-cell RNA\-seq data analysis using GDS files and Seurat
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SCArray.sat.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SCArray.sat.html
    :license: GPL-3
    :recipe: /`bioconductor-scarray.sat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scarray.sat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scarray.sat/meta.yaml>`_
 

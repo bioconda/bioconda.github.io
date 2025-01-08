@@ -12,7 +12,7 @@ bioconductor-gsean
 
    Gene Set Enrichment Analysis with Networks
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/gsean.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/gsean.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gsean <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsean>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsean/meta.yaml>`_
 

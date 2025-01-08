@@ -12,7 +12,7 @@ bioconductor-asurat
 
    Functional annotation\-driven unsupervised clustering for single\-cell data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ASURAT.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ASURAT.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-asurat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-asurat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-asurat/meta.yaml>`_
 
@@ -41,8 +41,9 @@ bioconductor-asurat
    :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
    :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-circlize: 
    :depends r-cluster: 

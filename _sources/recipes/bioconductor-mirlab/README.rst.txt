@@ -12,7 +12,7 @@ bioconductor-mirlab
 
    Dry lab for exploring miRNA\-mRNA relationships
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/miRLAB.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/miRLAB.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-mirlab <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirlab>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirlab/meta.yaml>`_
 
@@ -27,20 +27,20 @@ bioconductor-mirlab
       
       
 
-      ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
+      ``1.36.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
 
       
 
    
-   :depends bioconductor-category: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-ctc: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-gostats: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-impute: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-tcgabiolinks: ``>=2.30.0,<2.31.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-category: ``>=2.72.0,<2.73.0``
+   :depends bioconductor-ctc: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-gostats: ``>=2.72.0,<2.73.0``
+   :depends bioconductor-impute: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-tcgabiolinks: ``>=2.34.0,<2.35.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-energy: 
    :depends r-entropy: 
@@ -102,7 +102,7 @@ bioconductor-mirlab
 
     <script>
         var package = "bioconductor-mirlab";
-        var versions = ["1.32.0","1.30.0","1.28.0","1.24.0","1.22.0"];
+        var versions = ["1.36.0","1.32.0","1.30.0","1.28.0","1.24.0"];
     </script>
 
 

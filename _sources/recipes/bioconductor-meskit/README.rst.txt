@@ -12,7 +12,7 @@ bioconductor-meskit
 
    A tool kit for dissecting cancer evolution from multi\-region derived tumor biopsies via somatic alterations
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/MesKit.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MesKit.html
    :license: GPL-3
    :recipe: /`bioconductor-meskit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meskit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meskit/meta.yaml>`_
 
@@ -27,18 +27,18 @@ bioconductor-meskit
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.99.16-0``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.99.16-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
    :depends r-ape: ``>=5.4.1``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-circlize: 
    :depends r-cowplot: 
    :depends r-data.table: 
@@ -101,7 +101,7 @@ bioconductor-meskit
 
     <script>
         var package = "bioconductor-meskit";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.0"];
+        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.4.0"];
     </script>
 
 

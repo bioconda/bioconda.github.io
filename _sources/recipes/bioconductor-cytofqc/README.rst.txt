@@ -12,7 +12,7 @@ bioconductor-cytofqc
 
    Labels normalized cells for CyTOF data and assigns probabilities for each label
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/cytofQC.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/cytofQC.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cytofqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytofqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytofqc/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-single.mtec.transcriptomes
 
    Single Cell Transcriptome Data and Analysis of Mouse mTEC cells
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/Single.mTEC.Transcriptomes.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/Single.mTEC.Transcriptomes.html
    :license: LGPL
    :recipe: /`bioconductor-single.mtec.transcriptomes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-single.mtec.transcriptomes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-single.mtec.transcriptomes/meta.yaml>`_
 

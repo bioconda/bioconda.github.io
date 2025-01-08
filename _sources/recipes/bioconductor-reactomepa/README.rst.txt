@@ -12,12 +12,12 @@ bioconductor-reactomepa
 
    Reactome Pathway Analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ReactomePA.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ReactomePA.html
    :license: GPL-2
    :recipe: /`bioconductor-reactomepa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reactomepa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reactomepa/meta.yaml>`_
    :links: biotools: :biotools:`reactomepa`
 
-   This package provides functions for pathway analysis based on REACTOME pathway database. It implements enrichment analysis\, gene set enrichment analysis and several functions for visualization.
+   This package provides functions for pathway analysis based on REACTOME pathway database. It implements enrichment analysis\, gene set enrichment analysis and several functions for visualization. This package is not affiliated with the Reactome team.
 
 
 .. conda:package:: bioconductor-reactomepa
@@ -29,10 +29,10 @@ bioconductor-reactomepa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.50.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  </span></summary>
       
 
-      ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
+      ``1.50.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
 
       
       .. raw:: html
@@ -41,16 +41,17 @@ bioconductor-reactomepa
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-dose: ``>=3.28.0,<3.29.0``
-   :depends bioconductor-enrichplot: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-graphite: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-reactome.db: ``>=1.86.0,<1.87.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-dose: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-enrichplot: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-graphite: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-reactome.db: ``>=1.89.0,<1.90.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: ``>=3.3.5``
    :depends r-ggraph: 
    :depends r-gson: 
    :depends r-igraph: 
+   :depends r-yulab.utils: ``>=0.1.5``
    :requirements:
 
    :additional platforms:
@@ -101,7 +102,7 @@ bioconductor-reactomepa
 
     <script>
         var package = "bioconductor-reactomepa";
-        var versions = ["1.46.0","1.44.0","1.42.0","1.38.0","1.36.0"];
+        var versions = ["1.50.0","1.46.0","1.44.0","1.42.0","1.38.0"];
     </script>
 
 

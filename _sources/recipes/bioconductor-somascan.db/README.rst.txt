@@ -12,7 +12,7 @@ bioconductor-somascan.db
 
    Somalogic SomaScan Annotation Data
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/SomaScan.db.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/SomaScan.db.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-somascan.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-somascan.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-somascan.db/meta.yaml>`_
 
@@ -27,16 +27,16 @@ bioconductor-somascan.db
       
       
 
-      ``0.99.7-0``
+      ``0.99.10-0``,  ``0.99.7-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dbi: 
    :requirements:
 
@@ -88,7 +88,7 @@ bioconductor-somascan.db
 
     <script>
         var package = "bioconductor-somascan.db";
-        var versions = ["0.99.7"];
+        var versions = ["0.99.10","0.99.7"];
     </script>
 
 

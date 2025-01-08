@@ -12,7 +12,7 @@ bioconductor-biocartaimage
 
    BioCarta Pathway Images
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/BioCartaImage.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/BioCartaImage.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-biocartaimage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocartaimage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocartaimage/meta.yaml>`_
 

@@ -27,7 +27,7 @@ r-ggcoverage
       
       
 
-      ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-0``
+      ``0.7.1-3``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-0``
 
       
 
@@ -42,7 +42,7 @@ r-ggcoverage
    :depends bioconductor-rsamtools: 
    :depends bioconductor-rtracklayer: 
    :depends bioconductor-s4vectors: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-ggh4x: 
    :depends r-ggplot2: 
@@ -104,7 +104,7 @@ r-ggcoverage
 
     <script>
         var package = "r-ggcoverage";
-        var versions = ["0.7.1","0.7.1","0.7.1","0.7.0"];
+        var versions = ["0.7.1","0.7.1","0.7.1","0.7.1","0.7.0"];
     </script>
 
 

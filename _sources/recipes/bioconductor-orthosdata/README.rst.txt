@@ -12,7 +12,7 @@ bioconductor-orthosdata
 
    Data for the orthos package
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/orthosData.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/orthosData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-orthosdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-orthosdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-orthosdata/meta.yaml>`_
 

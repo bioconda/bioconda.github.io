@@ -12,7 +12,7 @@ bioconductor-gdsarray
 
    Representing GDS files as array\-like objects
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GDSArray.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/GDSArray.html
    :license: GPL-3
    :recipe: /`bioconductor-gdsarray <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdsarray>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdsarray/meta.yaml>`_
 

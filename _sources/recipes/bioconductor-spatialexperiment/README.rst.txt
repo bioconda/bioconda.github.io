@@ -12,7 +12,7 @@ bioconductor-spatialexperiment
 
    S4 Class for Spatially Resolved \-omics Data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/SpatialExperiment.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SpatialExperiment.html
    :license: GPL-3
    :recipe: /`bioconductor-spatialexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialexperiment/meta.yaml>`_
 

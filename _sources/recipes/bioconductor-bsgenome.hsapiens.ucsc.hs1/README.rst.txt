@@ -12,7 +12,7 @@ bioconductor-bsgenome.hsapiens.ucsc.hs1
 
    Full genomic sequences for UCSC genome hs1 \(Homo sapiens\)
 
-   :homepage: https://bioconductor.org/packages/3.18/data/annotation/html/BSgenome.Hsapiens.UCSC.hs1.html
+   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/BSgenome.Hsapiens.UCSC.hs1.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.hsapiens.ucsc.hs1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ucsc.hs1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ucsc.hs1/meta.yaml>`_
 
@@ -27,15 +27,15 @@ bioconductor-bsgenome.hsapiens.ucsc.hs1
       
       
 
-      ``1.4.4-1``,  ``1.4.4-0``
+      ``1.4.4-2``,  ``1.4.4-1``,  ``1.4.4-0``
 
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-data-packages: ``>=20231203``
+   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-data-packages: ``>=20241103``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -86,7 +86,7 @@ bioconductor-bsgenome.hsapiens.ucsc.hs1
 
     <script>
         var package = "bioconductor-bsgenome.hsapiens.ucsc.hs1";
-        var versions = ["1.4.4","1.4.4"];
+        var versions = ["1.4.4","1.4.4","1.4.4"];
     </script>
 
 

@@ -12,7 +12,7 @@ bioconductor-snifter
 
    R wrapper for the python openTSNE library
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/snifter.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/snifter.html
    :license: GPL-3
    :recipe: /`bioconductor-snifter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snifter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snifter/meta.yaml>`_
 

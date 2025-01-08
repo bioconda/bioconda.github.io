@@ -12,7 +12,7 @@ bioconductor-cbnplot
 
    plot bayesian network inferred from gene expression data based on enrichment analysis results
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/CBNplot.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CBNplot.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cbnplot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cbnplot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cbnplot/meta.yaml>`_
 
@@ -27,19 +27,19 @@ bioconductor-cbnplot
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-clusterprofiler: ``>=4.10.0,<4.11.0``
-   :depends bioconductor-depmap: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-enrichplot: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-graphite: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-clusterprofiler: ``>=4.14.0,<4.15.0``
+   :depends bioconductor-depmap: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-enrichplot: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-graphite: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-bnlearn: ``>=4.7``
    :depends r-dplyr: 
    :depends r-ggdist: 
@@ -49,7 +49,6 @@ bioconductor-cbnplot
    :depends r-graphlayouts: 
    :depends r-igraph: 
    :depends r-magrittr: 
-   :depends r-oaqc: 
    :depends r-patchwork: 
    :depends r-purrr: 
    :depends r-pvclust: 
@@ -108,7 +107,7 @@ bioconductor-cbnplot
 
     <script>
         var package = "bioconductor-cbnplot";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.6.0","1.2.0","1.0.0"];
     </script>
 
 

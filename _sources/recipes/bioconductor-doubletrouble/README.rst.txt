@@ -12,7 +12,7 @@ bioconductor-doubletrouble
 
    Identification and classification of duplicated genes
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/doubletrouble.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/doubletrouble.html
    :license: GPL-3
    :recipe: /`bioconductor-doubletrouble <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-doubletrouble>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-doubletrouble/meta.yaml>`_
 
@@ -27,18 +27,18 @@ bioconductor-doubletrouble
       
       
 
-      ``1.2.1-0``,  ``1.0.0-0``
+      ``1.6.0-0``,  ``1.2.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-msa2dist: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-syntenet: ``>=1.4.0,<1.5.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-msa2dist: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-syntenet: ``>=1.8.0,<1.9.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: 
    :depends r-mclust: 
    :depends r-rlang: 
@@ -92,7 +92,7 @@ bioconductor-doubletrouble
 
     <script>
         var package = "bioconductor-doubletrouble";
-        var versions = ["1.2.1","1.0.0"];
+        var versions = ["1.6.0","1.2.1","1.0.0"];
     </script>
 
 

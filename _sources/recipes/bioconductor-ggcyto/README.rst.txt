@@ -12,7 +12,7 @@ bioconductor-ggcyto
 
    Visualize Cytometry data with ggplot
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ggcyto.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ggcyto.html
    :license: file LICENSE
    :recipe: /`bioconductor-ggcyto <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggcyto>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggcyto/meta.yaml>`_
    :links: biotools: :biotools:`ggcyto`, doi: :doi:`10.1038/nmeth.3252`
@@ -29,10 +29,10 @@ bioconductor-ggcyto
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  </span></summary>
       
 
-      ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.2-0``,  ``1.10.0-0``,  ``1.8.2-0``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.4.0-0``
+      ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.2-0``,  ``1.10.0-0``,  ``1.8.2-0``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -41,12 +41,12 @@ bioconductor-ggcyto
       
 
    
-   :depends bioconductor-flowcore: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-flowworkspace: ``>=4.14.0,<4.15.0``
-   :depends bioconductor-ncdfflow: ``>=2.48.0,<2.49.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-flowcore: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-flowworkspace: ``>=4.18.0,<4.19.0``
+   :depends bioconductor-ncdfflow: ``>=2.52.0,<2.53.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: 
-   :depends r-ggplot2: ``>=3.4.2``
+   :depends r-ggplot2: ``>=3.5.0``
    :depends r-gridextra: 
    :depends r-hexbin: 
    :depends r-plyr: 
@@ -103,7 +103,7 @@ bioconductor-ggcyto
 
     <script>
         var package = "bioconductor-ggcyto";
-        var versions = ["1.30.0","1.28.0","1.26.0","1.22.0","1.20.0"];
+        var versions = ["1.34.0","1.30.0","1.28.0","1.26.0","1.22.0"];
     </script>
 
 

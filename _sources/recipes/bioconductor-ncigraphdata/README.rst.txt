@@ -12,7 +12,7 @@ bioconductor-ncigraphdata
 
    Data for the NCIgraph software package
 
-   :homepage: https://bioconductor.org/packages/3.18/data/experiment/html/NCIgraphData.html
+   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/NCIgraphData.html
    :license: GPL-3
    :recipe: /`bioconductor-ncigraphdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ncigraphdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ncigraphdata/meta.yaml>`_
 

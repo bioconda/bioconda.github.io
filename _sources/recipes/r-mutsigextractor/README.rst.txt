@@ -27,7 +27,7 @@ r-mutsigextractor
       
       
 
-      ``1.29-0``,  ``1.28-0``,  ``1.14-0``
+      ``1.29-1``,  ``1.29-0``,  ``1.28-0``,  ``1.14-0``
 
       
 
@@ -36,7 +36,7 @@ r-mutsigextractor
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: 
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg38: 
    :depends bioconductor-genomeinfodb: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -87,7 +87,7 @@ r-mutsigextractor
 
     <script>
         var package = "r-mutsigextractor";
-        var versions = ["1.29","1.28","1.14"];
+        var versions = ["1.29","1.29","1.28","1.14"];
     </script>
 
 

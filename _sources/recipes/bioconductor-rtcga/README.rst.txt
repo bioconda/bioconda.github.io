@@ -12,7 +12,7 @@ bioconductor-rtcga
 
    The Cancer Genome Atlas Data Integration
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/RTCGA.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/RTCGA.html
    :license: GPL-2
    :recipe: /`bioconductor-rtcga <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga/meta.yaml>`_
    :links: biotools: :biotools:`rtcga`, doi: :doi:`10.1038/nmeth.3252`

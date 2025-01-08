@@ -12,7 +12,7 @@ bioconductor-zfpkm
 
    A suite of functions to facilitate zFPKM transformations
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/zFPKM.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/zFPKM.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-zfpkm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zfpkm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zfpkm/meta.yaml>`_
 

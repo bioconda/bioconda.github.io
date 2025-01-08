@@ -12,7 +12,7 @@ bioconductor-borealis
 
    Bisulfite\-seq OutlieR mEthylation At singLe\-sIte reSolution
 
-   :homepage: https://bioconductor.org/packages/3.17/bioc/html/borealis.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/borealis.html
    :license: GPL-3
    :recipe: /`bioconductor-borealis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-borealis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-borealis/meta.yaml>`_
 
@@ -27,16 +27,16 @@ bioconductor-borealis
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``
+      ``1.10.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-bsseq: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-dss: ``>=2.48.0,<2.49.0``
-   :depends bioconductor-genomicranges: ``>=1.52.0,<1.53.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-bsseq: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-dss: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cowplot: 
    :depends r-doparallel: 
    :depends r-dplyr: 
@@ -99,7 +99,7 @@ bioconductor-borealis
 
     <script>
         var package = "bioconductor-borealis";
-        var versions = ["1.4.0","1.2.0"];
+        var versions = ["1.10.0","1.4.0","1.2.0"];
     </script>
 
 
