@@ -33,7 +33,7 @@ r-spacexr
 
    
    :depends openssh: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-compquadform: 
    :depends r-data.table: 
    :depends r-doparallel: 

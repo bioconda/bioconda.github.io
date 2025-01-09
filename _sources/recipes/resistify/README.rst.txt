@@ -10,13 +10,13 @@ resistify
    :replaces_section_title:
    :noindex:
 
-   A resistance gene annotation tool
+   A resistance gene annotation tool.
 
    :homepage: https://github.com/swiftseal/resistify
-   :documentation: https://github.com/SwiftSeal/resistify/blob/main/README.md
+   :documentation: https://github.com/SwiftSeal/resistify/blob/v1.1.0/README.md
    
    :developer docs: https://github.com/SwiftSeal/resistify
-   :license: `GPL-3.0 <https://github.com/SwiftSeal/resistify/blob/main/LICENSE>`_
+   :license: `GPL3 / GPL-3.0-or-later <https://github.com/SwiftSeal/resistify/blob/main/LICENSE>`_
    :recipe: /`resistify <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/resistify>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/resistify/meta.yaml>`_
 
    Resistify is a program which rapidly identifies and classifies plant resistance genes from protein sequences.
@@ -32,10 +32,10 @@ resistify
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.1-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.70.0-0</code>,  <code>0.6.3-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-2</code>,  <code>0.6.1-0</code>,  <code>0.6.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.70.0-0</code>,  <code>0.6.3-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-2</code>,  <code>0.6.1-0</code>,  </span></summary>
       
 
-      ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.70.0-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-2``,  ``0.6.1-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.70.0-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-2``,  ``0.6.1-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -46,6 +46,7 @@ resistify
    
    :depends fair-esm: 
    :depends hmmer: 
+   :depends loguru: 
    :depends numpy: 
    :depends python: ``>=3.9,<3.13``
    :depends pytorch: 
@@ -105,7 +106,7 @@ resistify
 
     <script>
         var package = "resistify";
-        var versions = ["1.0.1","1.0.0","1.0.0","0.70.0","0.6.3"];
+        var versions = ["1.1.0","1.0.1","1.0.0","1.0.0","0.70.0"];
     </script>
 
 

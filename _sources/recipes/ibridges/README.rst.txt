@@ -29,7 +29,7 @@ ibridges
       
       
 
-      ``1.2.0-0``
+      ``1.3.0-0``,  ``1.2.0-0``
 
       
 
@@ -87,7 +87,7 @@ ibridges
 
     <script>
         var package = "ibridges";
-        var versions = ["1.2.0"];
+        var versions = ["1.3.0","1.2.0"];
     </script>
 
 

@@ -27,21 +27,24 @@ spagrn
       
       
 
-      ``1.0.7-0``,  ``1.0.4-0``
+      ``1.1.0-0``,  ``1.0.7-0``,  ``1.0.4-0``
 
       
 
    
    :depends anndata: 
    :depends dask: 
+   :depends esda: 
    :depends matplotlib-base: 
-   :depends numpy: 
+   :depends numpy: ``>=1.22,<1.25``
    :depends pandas: ``<2.0.0,>=1.3.4``
-   :depends python: ``>=3.8,<3.11``
+   :depends pysal: 
+   :depends python: ``>=3.8,<3.9``
    :depends scanpy: 
    :depends scikit-learn: 
    :depends scipy: 
    :depends seaborn: 
+   :depends tqdm: 
    :requirements:
 
    :additional platforms:
@@ -92,7 +95,7 @@ spagrn
 
     <script>
         var package = "spagrn";
-        var versions = ["1.0.7","1.0.4"];
+        var versions = ["1.1.0","1.0.7","1.0.4"];
     </script>
 
 

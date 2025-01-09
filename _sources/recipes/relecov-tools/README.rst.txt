@@ -28,11 +28,29 @@ relecov-tools
       
       
 
-      
+      ``1.3.0-0``
 
       
 
    
+   :depends bio: ``>=1.4.0``
+   :depends bs4: ``>=0.0.2``
+   :depends click: 
+   :depends ena-upload-cli: 
+   :depends jinja2: ``>=3.0.0``
+   :depends jsonschema: 
+   :depends openpyxl: ``>=3.1.2``
+   :depends packaging: 
+   :depends pandas: 
+   :depends paramiko: ``>=2.10.1``
+   :depends prompt_toolkit: ``>=3.0.3``
+   :depends python: ``>=3.7``
+   :depends pyyaml: ``6.0.1``
+   :depends questionary: 
+   :depends requests: ``2.27.1``
+   :depends rich: ``>=10.0.0``
+   :depends tabulate: 
+   :depends xlsxwriter: ``3.2.0``
    :requirements:
 
    :additional platforms:
@@ -83,7 +101,7 @@ relecov-tools
 
     <script>
         var package = "relecov-tools";
-        var versions = [];
+        var versions = ["1.3.0"];
     </script>
 
 

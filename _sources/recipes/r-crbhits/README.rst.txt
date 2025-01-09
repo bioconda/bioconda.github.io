@@ -28,18 +28,18 @@ r-crbhits
       
       
 
-      ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``
+      ``0.0.7-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.70.1,<2.71.0a0``
-   :depends bioconductor-msa2dist: ``>=1.6.0,<1.7.0a0``
-   :depends last: ``>=1542``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0a0``
+   :depends bioconductor-msa2dist: ``>=1.10.0,<1.11.0a0``
+   :depends last: ``>=1607``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends r-ape: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-curl: 
    :depends r-devtools: 
    :depends r-doparallel: 
@@ -107,7 +107,7 @@ r-crbhits
 
     <script>
         var package = "r-crbhits";
-        var versions = ["0.0.5","0.0.4","0.0.4"];
+        var versions = ["0.0.7","0.0.5","0.0.4","0.0.4"];
     </script>
 
 
