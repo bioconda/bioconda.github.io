@@ -13,7 +13,7 @@ prokbert
    ProkBERT is a genomic language model specifically designed for microbiome applications. It leverages the power of machine learning to decipher complex microbial interactions\, predict functionalities\, and uncover novel patterns in extensive datasets. The ProkBERT model family\, built on transfer learning and self\-supervised methodologies\, capitalizes on the abundant genomic data available.
 
    :homepage: https://github.com/nbrg-ppcu/prokbert
-   :documentation: https://prokbert.readthedocs.io/en/latest/
+   :documentation: https://prokbert.readthedocs.io/en/latest
    
    :license: MIT / MIT
    :recipe: /`prokbert <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prokbert>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prokbert/meta.yaml>`_
@@ -30,20 +30,22 @@ prokbert
       
       
 
-      ``0.0.44-0``,  ``0.0.40-0``
+      ``0.0.46-0``,  ``0.0.44-0``,  ``0.0.40-0``
 
       
 
    
+   :depends accelerate: ``>=0.20.1``
    :depends biopython: 
    :depends datasets: ``>=2.0.1``
    :depends h5py: ``>=3.7.0``
-   :depends pandas: ``>=2.0.0``
+   :depends pandas: ``>=1.5.0``
+   :depends pytables: ``>=3.8.0``
    :depends python: ``>=3.10``
+   :depends python-blosc2: 
    :depends pytorch: 
    :depends scikit-learn: ``>=1.2.2``
-   :depends scipy: ``>=1.10.0``
-   :depends tables: ``>=3.8.0``
+   :depends scipy: ``>=1.10.1``
    :depends torchvision: 
    :depends transformers: ``>=4.23``
    :requirements:
@@ -96,7 +98,7 @@ prokbert
 
     <script>
         var package = "prokbert";
-        var versions = ["0.0.44","0.0.40"];
+        var versions = ["0.0.46","0.0.44","0.0.40"];
     </script>
 
 

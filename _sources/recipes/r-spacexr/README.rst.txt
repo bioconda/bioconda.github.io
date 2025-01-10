@@ -27,13 +27,12 @@ r-spacexr
       
       
 
-      ``2.2.1-1``,  ``2.2.1-0``
+      ``2.2.1-0``
 
       
 
    
-   :depends openssh: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-compquadform: 
    :depends r-data.table: 
    :depends r-doparallel: 
@@ -107,7 +106,7 @@ r-spacexr
 
     <script>
         var package = "r-spacexr";
-        var versions = ["2.2.1","2.2.1"];
+        var versions = ["2.2.1"];
     </script>
 
 
