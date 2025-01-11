@@ -13,7 +13,7 @@ cytotrace2-python
    CytoTRACE 2 is an interpretable AI method for predicting cellular potency and absolute developmental potential from scRNA\-seq data.
 
    :homepage: https://github.com/digitalcytometry/cytotrace2
-   :documentation: https://github.com/digitalcytometry/cytotrace2/blob/v0.0.1/cytotrace2_python/README.md
+   :documentation: https://github.com/digitalcytometry/cytotrace2/blob/v1.1.0/cytotrace2_python/README.md
    
    :license: Custom
    :recipe: /`cytotrace2-python <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cytotrace2-python>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cytotrace2-python/meta.yaml>`_
@@ -29,7 +29,7 @@ cytotrace2-python
       
       
 
-      ``0.0.1-0``
+      ``1.1.0-0``,  ``0.0.1-0``
 
       
 
@@ -100,7 +100,7 @@ cytotrace2-python
 
     <script>
         var package = "cytotrace2-python";
-        var versions = ["0.0.1"];
+        var versions = ["1.1.0","0.0.1"];
     </script>
 
 

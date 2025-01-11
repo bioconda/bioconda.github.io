@@ -30,10 +30,10 @@ mgnify-pipelines-toolkit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.8-0</code>,  <code>0.1.7-0</code>,  <code>0.1.6-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4-0</code>,  <code>0.1.3-0</code>,  <code>0.1.2-0</code>,  <code>0.1.1-0</code>,  <code>0.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-0</code>,  <code>0.1.6-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4-0</code>,  <code>0.1.3-0</code>,  <code>0.1.2-0</code>,  <code>0.1.1-0</code>,  </span></summary>
       
 
-      ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.9-0``
+      ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.9-0``
 
       
       .. raw:: html
@@ -43,10 +43,13 @@ mgnify-pipelines-toolkit
 
    
    :depends biopython: ``1.82``
+   :depends click: 
    :depends numpy: ``1.26.0``
    :depends pandas: ``2.0.2``
+   :depends pandera: 
    :depends python: ``>=3.9``
    :depends regex: ``2023.12.25``
+   :depends requests: 
    :requirements:
 
    :additional platforms:
@@ -97,7 +100,7 @@ mgnify-pipelines-toolkit
 
     <script>
         var package = "mgnify-pipelines-toolkit";
-        var versions = ["0.1.8","0.1.7","0.1.6","0.1.5","0.1.4"];
+        var versions = ["0.1.9","0.1.8","0.1.7","0.1.6","0.1.5"];
     </script>
 
 

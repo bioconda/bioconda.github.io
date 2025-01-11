@@ -16,7 +16,7 @@ mzspeclib
    :documentation: https://mzspeclib-py.readthedocs.io/en/latest/
    
    :developer docs: https://github.com/HUPO-PSI/mzspeclib-py
-   :license: CC / CC-BY-4.0
+   :license: APACHE / Apache-2.0
    :recipe: /`mzspeclib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mzspeclib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mzspeclib/meta.yaml>`_
 
    
@@ -30,7 +30,7 @@ mzspeclib
       
       
 
-      ``1.0.1-0``
+      ``1.0.3-0``,  ``1.0.1-0``
 
       
 
@@ -91,7 +91,7 @@ mzspeclib
 
     <script>
         var package = "mzspeclib";
-        var versions = ["1.0.1"];
+        var versions = ["1.0.3","1.0.1"];
     </script>
 
 
