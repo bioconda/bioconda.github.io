@@ -15,6 +15,7 @@ annembed
    :homepage: https://github.com/jianshu93/annembed
    :license: MIT
    :recipe: /`annembed <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/annembed>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/annembed/meta.yaml>`_
+   :links: doi: :doi:`10.1093/nargab/lqae172`
 
    
 
@@ -27,7 +28,7 @@ annembed
       
       
 
-      ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.1.8-0``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -84,7 +85,7 @@ annembed
 
     <script>
         var package = "annembed";
-        var versions = ["0.1.7","0.1.7","0.1.6","0.1.5","0.1.4"];
+        var versions = ["0.1.8","0.1.7","0.1.7","0.1.6","0.1.5"];
     </script>
 
 
