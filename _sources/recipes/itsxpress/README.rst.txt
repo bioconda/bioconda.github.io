@@ -29,10 +29,10 @@ itsxpress
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.8.1-0</code>,  <code>1.8.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.3-1</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.8.1-0</code>,  </span></summary>
       
 
-      ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.8.1-0``,  ``1.8.0-2``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.7.2-1``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.5.6-0``
+      ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.8.1-0``,  ``1.8.0-2``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.7.2-1``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.5.6-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ itsxpress
 
    
    :depends biopython: ``>=1.79``
-   :depends hmmer: ``3.1b2.*``
+   :depends hmmer: ``>=3.1b2``
    :depends python: ``>=3.8``
    :depends pyzstd: 
    :depends vsearch: ``2.22.1.*``
@@ -96,7 +96,7 @@ itsxpress
 
     <script>
         var package = "itsxpress";
-        var versions = ["2.1.3","2.1.2","2.1.1","2.1.0","2.0.2"];
+        var versions = ["2.1.3","2.1.3","2.1.2","2.1.1","2.1.0"];
     </script>
 
 
