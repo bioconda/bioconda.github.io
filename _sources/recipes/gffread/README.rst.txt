@@ -12,11 +12,13 @@ gffread
 
    GFF\/GTF utility providing format conversions\, region filtering\, FASTA sequence extraction and more.
 
-   :homepage: http://ccb.jhu.edu/software/stringtie/gff.shtml
+   :homepage: https://ccb.jhu.edu/software/stringtie/gff.shtml
+   :documentation: https://ccb.jhu.edu/software/stringtie/gff.shtml#gffread
+   
    :developer docs: https://github.com/gpertea/gffread
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`gffread <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gffread>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gffread/meta.yaml>`_
-   :links: biotools: :biotools:`gffread`
+   :links: biotools: :biotools:`gffread`, usegalaxy-eu: :usegalaxy-eu:`gffread`, doi: :doi:`10.12688/f1000research.23297.2`
 
    
 
@@ -30,10 +32,10 @@ gffread
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.12.7-5</code>,  <code>0.12.7-4</code>,  <code>0.12.7-3</code>,  <code>0.12.7-2</code>,  <code>0.12.7-1</code>,  <code>0.12.7-0</code>,  <code>0.12.1-1</code>,  <code>0.12.1-0</code>,  <code>0.11.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.12.7-6</code>,  <code>0.12.7-5</code>,  <code>0.12.7-4</code>,  <code>0.12.7-3</code>,  <code>0.12.7-2</code>,  <code>0.12.7-1</code>,  <code>0.12.7-0</code>,  <code>0.12.1-1</code>,  <code>0.12.1-0</code>,  </span></summary>
       
 
-      ``0.12.7-5``,  ``0.12.7-4``,  ``0.12.7-3``,  ``0.12.7-2``,  ``0.12.7-1``,  ``0.12.7-0``,  ``0.12.1-1``,  ``0.12.1-0``,  ``0.11.7-0``,  ``0.11.6-0``,  ``0.11.4-0``,  ``0.9.12-0``,  ``0.9.9-1``,  ``0.9.9-0``,  ``0.9.8-0``
+      ``0.12.7-6``,  ``0.12.7-5``,  ``0.12.7-4``,  ``0.12.7-3``,  ``0.12.7-2``,  ``0.12.7-1``,  ``0.12.7-0``,  ``0.12.1-1``,  ``0.12.1-0``,  ``0.11.7-0``,  ``0.11.6-0``,  ``0.11.4-0``,  ``0.9.12-0``,  ``0.9.9-1``,  ``0.9.9-0``,  ``0.9.8-0``
 
       
       .. raw:: html
@@ -45,14 +47,13 @@ gffread
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

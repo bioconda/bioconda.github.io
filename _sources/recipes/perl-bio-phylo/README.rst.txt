@@ -27,7 +27,7 @@ perl-bio-phylo
       
       
 
-      ``0.58-4``,  ``0.58-3``,  ``0.58-2``,  ``0.58-1``,  ``0.58-0``
+      ``0.58-5``,  ``0.58-4``,  ``0.58-3``,  ``0.58-2``,  ``0.58-1``,  ``0.58-0``
 
       
 
@@ -36,7 +36,7 @@ perl-bio-phylo
    :depends perl-gd: 
    :depends perl-html-treebuilder-xpath: 
    :depends perl-json: 
-   :depends perl-lwp-simple: 
+   :depends perl-libwww-perl: 
    :depends perl-math-cdf: 
    :depends perl-math-random: 
    :depends perl-pdf-api2: 

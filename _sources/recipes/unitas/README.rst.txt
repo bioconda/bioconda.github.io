@@ -28,7 +28,7 @@ unitas
       
       
 
-      ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``
+      ``1.6.1-3``,  ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``
 
       
 
@@ -38,7 +38,7 @@ unitas
    :depends perl-archive-extract: 
    :depends perl-file-path: 
    :depends perl-getopt-long: 
-   :depends perl-lwp-simple: 
+   :depends perl-libwww-perl: 
    :depends perl-statistics-distributions: 
    :depends seqmap: 
    :requirements:
@@ -91,7 +91,7 @@ unitas
 
     <script>
         var package = "unitas";
-        var versions = ["1.6.1","1.6.1","1.6.1"];
+        var versions = ["1.6.1","1.6.1","1.6.1","1.6.1"];
     </script>
 
 

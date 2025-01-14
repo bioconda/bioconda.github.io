@@ -30,7 +30,7 @@ srax
       
       
 
-      ``1.5-3``,  ``1.5-2``,  ``1.5-1``,  ``1.5-0``,  ``1.4-0``
+      ``1.5-4``,  ``1.5-3``,  ``1.5-2``,  ``1.5-1``,  ``1.5-0``,  ``1.4-0``
 
       
 
@@ -49,9 +49,9 @@ srax
    :depends perl-getopt-long: 
    :depends perl-io-socket-ssl: 
    :depends perl-json: 
+   :depends perl-libwww-perl: 
    :depends perl-list-moreutils: 
    :depends perl-lwp-protocol-https: 
-   :depends perl-lwp-simple: 
    :depends perl-net-ssleay: 
    :depends perl-parallel-forkmanager: 
    :depends perl-text-csv: 
@@ -107,7 +107,7 @@ srax
 
     <script>
         var package = "srax";
-        var versions = ["1.5","1.5","1.5","1.5","1.4"];
+        var versions = ["1.5","1.5","1.5","1.5","1.5"];
     </script>
 
 

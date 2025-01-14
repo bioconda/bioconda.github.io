@@ -13,8 +13,11 @@ ngscheckmate
    Software package for identifying next generation sequencing \(NGS\) data files from the same individual.
 
    :homepage: https://github.com/parklab/NGSCheckMate
-   :license: MIT
+   :documentation: https://github.com/parklab/NGSCheckMate/blob/master/Documentation.pdf
+   
+   :license: MIT / MIT
    :recipe: /`ngscheckmate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngscheckmate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngscheckmate/meta.yaml>`_
+   :links: biotools: :biotools:`ngscheckmate`
 
    This version is built from a pull request which fixes a handful of known bugs.
 
@@ -27,20 +30,27 @@ ngscheckmate
       
       
 
-      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-3``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-3``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bcftools: 
-   :depends bowtie: 
-   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends python: ``2.7.*``
-   :depends r-base: ``>=4.0,<4.1.0a0``
-   :depends samtools: 
+   :depends bcftools: ``>=1.21,<2.0a0``
+   :depends bowtie: ``>=1.3.1,<1.4.0a0``
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends perl: 
+   :depends python: ``>=3.12,<3.13.0a0``
+   :depends python_abi: ``3.12.* *_cp312``
+   :depends r-base: ``>=4``
+   :depends samtools: ``>=1.21,<2.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -88,7 +98,7 @@ ngscheckmate
 
     <script>
         var package = "ngscheckmate";
-        var versions = ["1.0.1","1.0.1","1.0.1","1.0.0","1.0.0"];
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1","1.0.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ mirdeep2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.1.3-1</code>,  <code>2.0.1.3-0</code>,  <code>2.0.1.2-0</code>,  <code>2.0.0.8-5</code>,  <code>2.0.0.8-4</code>,  <code>2.0.0.8-3</code>,  <code>2.0.0.8-2</code>,  <code>2.0.0.8-1</code>,  <code>2.0.0.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.1.3-2</code>,  <code>2.0.1.3-1</code>,  <code>2.0.1.3-0</code>,  <code>2.0.1.2-0</code>,  <code>2.0.0.8-5</code>,  <code>2.0.0.8-4</code>,  <code>2.0.0.8-3</code>,  <code>2.0.0.8-2</code>,  <code>2.0.0.8-1</code>,  </span></summary>
       
 
-      ``2.0.1.3-1``,  ``2.0.1.3-0``,  ``2.0.1.2-0``,  ``2.0.0.8-5``,  ``2.0.0.8-4``,  ``2.0.0.8-3``,  ``2.0.0.8-2``,  ``2.0.0.8-1``,  ``2.0.0.8-0``,  ``2.0.0.7-8``,  ``2.0.0.7-7``,  ``2.0.0.7-6``,  ``2.0.0.7-5``,  ``2.0.0.7-4``,  ``2.0.0.7-3``,  ``2.0.0.7-2``,  ``2.0.0.7-1``
+      ``2.0.1.3-2``,  ``2.0.1.3-1``,  ``2.0.1.3-0``,  ``2.0.1.2-0``,  ``2.0.0.8-5``,  ``2.0.0.8-4``,  ``2.0.0.8-3``,  ``2.0.0.8-2``,  ``2.0.0.8-1``,  ``2.0.0.8-0``,  ``2.0.0.7-8``,  ``2.0.0.7-7``,  ``2.0.0.7-6``,  ``2.0.0.7-5``,  ``2.0.0.7-4``,  ``2.0.0.7-3``,  ``2.0.0.7-2``,  ``2.0.0.7-1``
 
       
       .. raw:: html
@@ -44,7 +44,7 @@ mirdeep2
    :depends perl: 
    :depends perl-compress-raw-zlib: 
    :depends perl-font-ttf: 
-   :depends perl-lwp-simple: 
+   :depends perl-libwww-perl: 
    :depends perl-pdf-api2: 
    :depends randfold: 
    :depends viennarna: 
@@ -98,7 +98,7 @@ mirdeep2
 
     <script>
         var package = "mirdeep2";
-        var versions = ["2.0.1.3","2.0.1.3","2.0.1.2","2.0.0.8","2.0.0.8"];
+        var versions = ["2.0.1.3","2.0.1.3","2.0.1.3","2.0.1.2","2.0.0.8"];
     </script>
 
 

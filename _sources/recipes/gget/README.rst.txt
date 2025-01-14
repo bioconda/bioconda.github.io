@@ -46,21 +46,18 @@ gget
       
 
    
-   :depends bs4: ``>=4.10.0``
-   :depends curl: 
+   :depends python: ``>=3.9``
+   :depends numpy: ``>=1.17.2``
+   :depends pandas: ``>=1.0.0``
+   :depends requests: ``>=2.22.0``
    :depends ipython: 
-   :depends ipywidgets: 
-   :depends lxml: 
    :depends matplotlib-base: 
    :depends mysql-connector-python: ``>=8.0.32``
-   :depends numpy: ``>=1.17.2``
-   :depends openai: 
-   :depends openmm: ``7.5.1``
-   :depends pandas: ``>=1.0.0``
-   :depends py3dmol: ``>=1.8.0``
-   :depends python: ``>=3.7``
-   :depends requests: ``>=2.22.0``
+   :depends beautifulsoup4: ``>=4.10.0``
+   :depends ipywidgets: 
    :depends tqdm: 
+   :depends lxml: 
+   :depends python: 
    :requirements:
 
    :additional platforms:
