@@ -26,9 +26,17 @@ pasta
    :versions:
       
       
+      .. raw:: html
 
-      ``1.9.2-2``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.9.0-0``,  ``1.7.8-4``,  ``1.7.8-3``,  ``1.7.8-2``,  ``1.7.8-0``,  ``0.2-0``
+         <details><summary><span class="truncated-version-list"><code>1.9.2-3</code>,  <code>1.9.2-2</code>,  <code>1.9.2-1</code>,  <code>1.9.2-0</code>,  <code>1.9.0-0</code>,  <code>1.7.8-4</code>,  <code>1.7.8-3</code>,  <code>1.7.8-2</code>,  <code>1.7.8-0</code>,  </span></summary>
+      
 
+      ``1.9.2-3``,  ``1.9.2-2``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.9.0-0``,  ``1.7.8-4``,  ``1.7.8-3``,  ``1.7.8-2``,  ``1.7.8-0``,  ``0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -38,6 +46,7 @@ pasta
    :depends hmmer: ``>=3.4,<3.5.0a0``
    :depends mafft: ``>=7.526,<8.0a0``
    :depends muscle: ``<4``
+   :depends muscle: ``>=3.8.1551,<4.0a0``
    :depends openjdk: 
    :depends pcre: ``>=8.45,<9.0a0``
    :depends prank: ``>=170427,<170428.0a0``
@@ -48,6 +57,10 @@ pasta
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -95,7 +108,7 @@ pasta
 
     <script>
         var package = "pasta";
-        var versions = ["1.9.2","1.9.2","1.9.2","1.9.0","1.7.8"];
+        var versions = ["1.9.2","1.9.2","1.9.2","1.9.2","1.9.0"];
     </script>
 
 

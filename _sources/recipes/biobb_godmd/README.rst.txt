@@ -48,16 +48,24 @@ biobb_godmd
    :versions:
       
       
+      .. raw:: html
 
-      ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.8.1-0``,  ``3.8.0-0``
+         <details><summary><span class="truncated-version-list"><code>5.0.0-1</code>,  <code>5.0.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>3.8.1-0</code>,  </span></summary>
+      
 
+      ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.8.1-0``,  ``3.8.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends biobb_common: ``5.0.0``
    :depends emboss: 
    :depends godmd: ``1.0.0``
-   :depends python: ``>=3.9``
+   :depends python: ``>=3.8``
    :requirements:
 
    :additional platforms:
@@ -108,7 +116,7 @@ biobb_godmd
 
     <script>
         var package = "biobb_godmd";
-        var versions = ["5.0.0","4.2.0","4.1.0","4.0.2","4.0.1"];
+        var versions = ["5.0.0","5.0.0","4.2.0","4.1.0","4.0.2"];
     </script>
 
 

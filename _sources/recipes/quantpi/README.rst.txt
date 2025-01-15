@@ -28,7 +28,7 @@ quantpi
       
       
 
-      ``0.2.0-0``
+      ``1.0.0-0``,  ``0.2.0-0``
 
       
 
@@ -111,7 +111,7 @@ quantpi
 
     <script>
         var package = "quantpi";
-        var versions = ["0.2.0"];
+        var versions = ["1.0.0","0.2.0"];
     </script>
 
 
