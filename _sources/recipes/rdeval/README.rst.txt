@@ -13,7 +13,7 @@ rdeval
    A general purpose\, multithreaded read analysis and manipulation tool.
 
    :homepage: https://github.com/vgl-hub/rdeval
-   :documentation: https://github.com/vgl-hub/rdeval/blob/v0.0.3/README.md
+   :documentation: https://github.com/vgl-hub/rdeval/blob/v0.0.4/README.md
    
    :license: MIT / MIT
    :recipe: /`rdeval <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdeval>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdeval/meta.yaml>`_
@@ -29,7 +29,7 @@ rdeval
       
       
 
-      ``0.0.3-0``,  ``0.0.2-1``,  ``0.0.2-0``
+      ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-1``,  ``0.0.2-0``
 
       
 
@@ -93,7 +93,7 @@ rdeval
 
     <script>
         var package = "rdeval";
-        var versions = ["0.0.3","0.0.2","0.0.2"];
+        var versions = ["0.0.4","0.0.3","0.0.2","0.0.2"];
     </script>
 
 

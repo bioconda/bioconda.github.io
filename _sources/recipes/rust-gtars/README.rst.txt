@@ -29,7 +29,7 @@ rust-gtars
       
       
 
-      ``0.2.0-0``
+      ``0.2.0-1``,  ``0.2.0-0``
 
       
 
@@ -40,7 +40,7 @@ rust-gtars
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>osx-arm64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -88,7 +88,7 @@ rust-gtars
 
     <script>
         var package = "rust-gtars";
-        var versions = ["0.2.0"];
+        var versions = ["0.2.0","0.2.0"];
     </script>
 
 

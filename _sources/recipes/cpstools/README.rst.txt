@@ -26,9 +26,17 @@ cpstools
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.4-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.0.13-0</code>,  <code>1.0.12-0</code>,  <code>1.0.11-0</code>,  </span></summary>
+      
 
+      ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -86,7 +94,7 @@ cpstools
 
     <script>
         var package = "cpstools";
-        var versions = ["2.0.5","2.0.4","2.0.2","2.0.1","2.0.0"];
+        var versions = ["2.0.6","2.0.5","2.0.4","2.0.2","2.0.1"];
     </script>
 
 

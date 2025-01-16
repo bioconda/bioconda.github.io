@@ -29,7 +29,7 @@ ndex2
       
       
 
-      ``3.9.0-0``,  ``3.8.0-0``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.1-0``
+      ``3.10.0-0``,  ``3.9.0-0``,  ``3.8.0-0``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.1-0``
 
       
 
@@ -38,7 +38,7 @@ ndex2
    :depends networkx: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: 
+   :depends python: ``>=3``
    :depends requests: 
    :depends requests-toolbelt: 
    :depends six: 
@@ -93,7 +93,7 @@ ndex2
 
     <script>
         var package = "ndex2";
-        var versions = ["3.9.0","3.8.0","3.7.0","3.6.0","3.5.1"];
+        var versions = ["3.10.0","3.9.0","3.8.0","3.7.0","3.6.0"];
     </script>
 
 

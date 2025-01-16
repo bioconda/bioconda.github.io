@@ -10,13 +10,16 @@ htstream
    :replaces_section_title:
    :noindex:
 
-   HTStream is a quality control and processing pipeline for High Throughput Sequencing data.
+   \"HTStream is a quality control and processing pipeline for High Throughput Sequencing data.
    The difference between HTStream and other tools is that HTStream uses a tab delimited fastq format that allows for streaming from application to application.
-   This streaming creates some awesome efficiencies when processing HTS data and makes it fully interoperable with other standard Linux tools. 
+   This streaming creates some awesome efficiencies when processing HTS data and makes it fully interoperable with other standard Linux tools.\"
 
-   :homepage: https://s4hts.github.io/HTStream/
-   :license: Apache / Apache 2.0
+
+   :homepage: https://s4hts.github.io/HTStream
+   :developer docs: https://github.com/s4hts/HTStream
+   :license: APACHE / Apache-2.0
    :recipe: /`htstream <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/htstream>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/htstream/meta.yaml>`_
+   :links: biotools: :biotools:`htstream`
 
    
 
@@ -30,10 +33,10 @@ htstream
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.1-0</code>,  <code>1.3.3-6</code>,  <code>1.3.3-5</code>,  <code>1.3.3-4</code>,  <code>1.3.3-3</code>,  <code>1.3.3-2</code>,  <code>1.3.3-1</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.1-2</code>,  <code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.3.3-6</code>,  <code>1.3.3-5</code>,  <code>1.3.3-4</code>,  <code>1.3.3-3</code>,  <code>1.3.3-2</code>,  <code>1.3.3-1</code>,  </span></summary>
       
 
-      ``1.4.1-0``,  ``1.3.3-6``,  ``1.3.3-5``,  ``1.3.3-4``,  ``1.3.3-3``,  ``1.3.3-2``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.3.3-6``,  ``1.3.3-5``,  ``1.3.3-4``,  ``1.3.3-3``,  ``1.3.3-2``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -42,17 +45,19 @@ htstream
       
 
    
-   :depends boost: 
+   :depends boost-cpp: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libgcc: ``>=13``
    :depends liblzma: ``>=5.6.3,<6.0a0``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends xz: 
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -100,7 +105,7 @@ htstream
 
     <script>
         var package = "htstream";
-        var versions = ["1.4.1","1.3.3","1.3.3","1.3.3","1.3.3"];
+        var versions = ["1.4.1","1.4.1","1.4.1","1.3.3","1.3.3"];
     </script>
 
 

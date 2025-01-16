@@ -26,9 +26,17 @@ submission-excel2xml
    :versions:
       
       
+      .. raw:: html
 
-      ``3.1-0``,  ``3.0-0``,  ``2.9.1-0``,  ``2.9-0``,  ``2.8.1-0``,  ``2.8-0``,  ``2.6-0``,  ``2.5-0``,  ``2.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>3.2-0</code>,  <code>3.1-0</code>,  <code>3.0-0</code>,  <code>2.9.1-0</code>,  <code>2.9-0</code>,  <code>2.8.1-0</code>,  <code>2.8-0</code>,  <code>2.6-0</code>,  <code>2.5-0</code>,  </span></summary>
+      
 
+      ``3.2-0``,  ``3.1-0``,  ``3.0-0``,  ``2.9.1-0``,  ``2.9-0``,  ``2.8.1-0``,  ``2.8-0``,  ``2.6-0``,  ``2.5-0``,  ``2.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -84,7 +92,7 @@ submission-excel2xml
 
     <script>
         var package = "submission-excel2xml";
-        var versions = ["3.1","3.0","2.9.1","2.9","2.8.1"];
+        var versions = ["3.2","3.1","3.0","2.9.1","2.9"];
     </script>
 
 
