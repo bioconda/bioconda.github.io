@@ -29,10 +29,10 @@ bioconductor-xvector
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.46.0-0</code>,  <code>0.42.0-2</code>,  <code>0.42.0-1</code>,  <code>0.42.0-0</code>,  <code>0.40.0-0</code>,  <code>0.38.0-1</code>,  <code>0.38.0-0</code>,  <code>0.34.0-2</code>,  <code>0.34.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.46.0-1</code>,  <code>0.46.0-0</code>,  <code>0.42.0-2</code>,  <code>0.42.0-1</code>,  <code>0.42.0-0</code>,  <code>0.40.0-0</code>,  <code>0.38.0-1</code>,  <code>0.38.0-0</code>,  <code>0.34.0-2</code>,  </span></summary>
       
 
-      ``0.46.0-0``,  ``0.42.0-2``,  ``0.42.0-1``,  ``0.42.0-0``,  ``0.40.0-0``,  ``0.38.0-1``,  ``0.38.0-0``,  ``0.34.0-2``,  ``0.34.0-1``,  ``0.34.0-0``,  ``0.32.0-0``,  ``0.30.0-1``,  ``0.30.0-0``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-1``,  ``0.22.0-0``,  ``0.20.0-0``,  ``0.18.0-0``,  ``0.16.0-0``,  ``0.14.1-0``,  ``0.12.1-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.8.0-0``
+      ``0.46.0-1``,  ``0.46.0-0``,  ``0.42.0-2``,  ``0.42.0-1``,  ``0.42.0-0``,  ``0.40.0-0``,  ``0.38.0-1``,  ``0.38.0-0``,  ``0.34.0-2``,  ``0.34.0-1``,  ``0.34.0-0``,  ``0.32.0-0``,  ``0.30.0-1``,  ``0.30.0-0``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-1``,  ``0.22.0-0``,  ``0.20.0-0``,  ``0.18.0-0``,  ``0.16.0-0``,  ``0.14.1-0``,  ``0.12.1-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.8.0-0``
 
       
       .. raw:: html
@@ -60,7 +60,7 @@ bioconductor-xvector
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -108,7 +108,7 @@ bioconductor-xvector
 
     <script>
         var package = "bioconductor-xvector";
-        var versions = ["0.46.0","0.42.0","0.42.0","0.42.0","0.40.0"];
+        var versions = ["0.46.0","0.46.0","0.42.0","0.42.0","0.42.0"];
     </script>
 
 

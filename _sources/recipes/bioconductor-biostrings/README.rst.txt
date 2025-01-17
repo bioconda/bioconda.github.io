@@ -29,10 +29,10 @@ bioconductor-biostrings
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.74.0-0</code>,  <code>2.70.1-2</code>,  <code>2.70.1-1</code>,  <code>2.70.1-0</code>,  <code>2.68.1-0</code>,  <code>2.66.0-1</code>,  <code>2.66.0-0</code>,  <code>2.62.0-2</code>,  <code>2.62.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.74.0-1</code>,  <code>2.74.0-0</code>,  <code>2.70.1-2</code>,  <code>2.70.1-1</code>,  <code>2.70.1-0</code>,  <code>2.68.1-0</code>,  <code>2.66.0-1</code>,  <code>2.66.0-0</code>,  <code>2.62.0-2</code>,  </span></summary>
       
 
-      ``2.74.0-0``,  ``2.70.1-2``,  ``2.70.1-1``,  ``2.70.1-0``,  ``2.68.1-0``,  ``2.66.0-1``,  ``2.66.0-0``,  ``2.62.0-2``,  ``2.62.0-1``,  ``2.62.0-0``,  ``2.60.0-0``,  ``2.58.0-1``,  ``2.58.0-0``,  ``2.56.0-0``,  ``2.54.0-0``,  ``2.52.0-1``,  ``2.50.2-0``,  ``2.50.1-0``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.44.2-0``,  ``2.42.1-0``,  ``2.40.2-0``,  ``2.40.0-0``,  ``2.38.4-0``,  ``2.38.3-0``,  ``2.38.2-0``,  ``2.38.0-0``
+      ``2.74.0-1``,  ``2.74.0-0``,  ``2.70.1-2``,  ``2.70.1-1``,  ``2.70.1-0``,  ``2.68.1-0``,  ``2.66.0-1``,  ``2.66.0-0``,  ``2.62.0-2``,  ``2.62.0-1``,  ``2.62.0-0``,  ``2.60.0-0``,  ``2.58.0-1``,  ``2.58.0-0``,  ``2.56.0-0``,  ``2.54.0-0``,  ``2.52.0-1``,  ``2.50.2-0``,  ``2.50.1-0``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.44.2-0``,  ``2.42.1-0``,  ``2.40.2-0``,  ``2.40.0-0``,  ``2.38.4-0``,  ``2.38.3-0``,  ``2.38.2-0``,  ``2.38.0-0``
 
       
       .. raw:: html
@@ -62,7 +62,7 @@ bioconductor-biostrings
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -110,7 +110,7 @@ bioconductor-biostrings
 
     <script>
         var package = "bioconductor-biostrings";
-        var versions = ["2.74.0","2.70.1","2.70.1","2.70.1","2.68.1"];
+        var versions = ["2.74.0","2.74.0","2.70.1","2.70.1","2.70.1"];
     </script>
 
 

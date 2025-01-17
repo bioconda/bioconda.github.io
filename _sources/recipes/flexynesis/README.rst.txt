@@ -27,12 +27,13 @@ flexynesis
       
       
 
-      ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-0``
+      ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-0``
 
       
 
    
    :depends captum: 
+   :depends geomloss: 
    :depends ipykernel: 
    :depends ipywidgets: 
    :depends lifelines: 
@@ -41,6 +42,7 @@ flexynesis
    :depends numpy: 
    :depends pandas: 
    :depends papermill: 
+   :depends pot: 
    :depends python: ``>=3.11,<3.12``
    :depends python-louvain: 
    :depends pytorch: 
@@ -105,7 +107,7 @@ flexynesis
 
     <script>
         var package = "flexynesis";
-        var versions = ["0.2.12","0.2.11","0.2.10"];
+        var versions = ["0.2.13","0.2.12","0.2.11","0.2.10"];
     </script>
 
 

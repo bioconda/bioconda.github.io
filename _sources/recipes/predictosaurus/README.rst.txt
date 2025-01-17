@@ -27,9 +27,17 @@ predictosaurus
    :versions:
       
       
+      .. raw:: html
 
-      ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.2.9-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.1-0</code>,  </span></summary>
+      
 
+      ``0.2.9-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -93,7 +101,7 @@ predictosaurus
 
     <script>
         var package = "predictosaurus";
-        var versions = ["0.2.6","0.2.5","0.2.4","0.2.3","0.2.2"];
+        var versions = ["0.2.9","0.2.6","0.2.5","0.2.4","0.2.3"];
     </script>
 
 

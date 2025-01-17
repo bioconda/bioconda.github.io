@@ -10,11 +10,14 @@ crispresso2
    :replaces_section_title:
    :noindex:
 
-   A software pipeline designed to enable rapid and intuitive interpretation of genome editing experiments
+   A software pipeline designed to enable rapid and intuitive interpretation of genome editing experiments.
 
    :homepage: https://github.com/pinellolab/CRISPResso2
-   :license: Partners
+   :documentation: https://docs.crispresso.com
+   
+   :license: CC0-1.0
    :recipe: /`crispresso2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crispresso2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crispresso2/meta.yaml>`_
+   :links: biotools: :biotools:`crispresso2`, doi: :doi:`10.1038/s41587-019-0046-x`
 
    
 
@@ -28,10 +31,10 @@ crispresso2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.1-4</code>,  <code>2.3.1-3</code>,  <code>2.3.1-2</code>,  <code>2.3.1-1</code>,  <code>2.3.1-0</code>,  <code>2.3.0-1</code>,  <code>2.3.0-0</code>,  <code>2.2.14-0</code>,  <code>2.2.13-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.2-0</code>,  <code>2.3.1-4</code>,  <code>2.3.1-3</code>,  <code>2.3.1-2</code>,  <code>2.3.1-1</code>,  <code>2.3.1-0</code>,  <code>2.3.0-1</code>,  <code>2.3.0-0</code>,  <code>2.2.14-0</code>,  </span></summary>
       
 
-      ``2.3.1-4``,  ``2.3.1-3``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.14-0``,  ``2.2.13-0``,  ``2.2.12-1``,  ``2.2.12-0``,  ``2.2.11-0``,  ``2.2.10-2``,  ``2.2.10-1``,  ``2.2.10-0``,  ``2.2.9-1``,  ``2.2.9-0``,  ``2.2.8-0``,  ``2.2.7-1``,  ``2.2.7-0``,  ``2.2.6-1``,  ``2.2.6-0``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.0-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.45-1``,  ``2.0.45-0``,  ``2.0.44-0``,  ``2.0.43-0``,  ``2.0.42-0``,  ``2.0.40-0``,  ``2.0.39-0``,  ``2.0.38-0``,  ``2.0.32-0``,  ``2.0.31-0``,  ``2.0.30-0``,  ``2.0.29-0``,  ``2.0.28-0``,  ``2.0.27-3``,  ``2.0.23-1``,  ``2.0.23-0``
+      ``2.3.2-0``,  ``2.3.1-4``,  ``2.3.1-3``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.14-0``,  ``2.2.13-0``,  ``2.2.12-1``,  ``2.2.12-0``,  ``2.2.11-0``,  ``2.2.10-2``,  ``2.2.10-1``,  ``2.2.10-0``,  ``2.2.9-1``,  ``2.2.9-0``,  ``2.2.8-0``,  ``2.2.7-1``,  ``2.2.7-0``,  ``2.2.6-1``,  ``2.2.6-0``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.0-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.45-1``,  ``2.0.45-0``,  ``2.0.44-0``,  ``2.0.43-0``,  ``2.0.42-0``,  ``2.0.40-0``,  ``2.0.39-0``,  ``2.0.38-0``,  ``2.0.32-0``,  ``2.0.31-0``,  ``2.0.30-0``,  ``2.0.29-0``,  ``2.0.28-0``,  ``2.0.27-3``,  ``2.0.23-1``,  ``2.0.23-0``
 
       
       .. raw:: html
@@ -44,8 +47,7 @@ crispresso2
    :depends fastp: 
    :depends jinja2: 
    :depends libgcc: ``>=13``
-   :depends matplotlib-base: ``<=3.8.4``
-   :depends numpy: ``<=1.26.4``
+   :depends matplotlib-base: 
    :depends numpy: ``>=1.22.4,<2.0a0``
    :depends pandas: 
    :depends plotly: 
@@ -108,7 +110,7 @@ crispresso2
 
     <script>
         var package = "crispresso2";
-        var versions = ["2.3.1","2.3.1","2.3.1","2.3.1","2.3.1"];
+        var versions = ["2.3.2","2.3.1","2.3.1","2.3.1","2.3.1"];
     </script>
 
 

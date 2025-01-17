@@ -51,7 +51,7 @@ biobb_haddock
       
       
 
-      ``5.0.0-0``,  ``4.2.1-0``
+      ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.1-0``
 
       
 
@@ -108,7 +108,7 @@ biobb_haddock
 
     <script>
         var package = "biobb_haddock";
-        var versions = ["5.0.0","4.2.1"];
+        var versions = ["5.0.0","5.0.0","4.2.1"];
     </script>
 
 
