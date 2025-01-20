@@ -51,13 +51,23 @@ biobb_haddock
       
       
 
-      ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.1-0``
+      ``5.0.0-3``,  ``5.0.0-2``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.1-0``
 
       
 
    
    :depends biobb_common: ``5.0.0``
-   :depends python: ``>=3.9``
+   :depends freesasa: 
+   :depends git: 
+   :depends jsonpickle: 
+   :depends kaleido-core: 
+   :depends pandas: 
+   :depends pdb-tools: 
+   :depends plotly: 
+   :depends python: ``>=3.9,<3.13``
+   :depends scipy: 
+   :depends toml: 
+   :depends tox: 
    :requirements:
 
    :additional platforms:
@@ -108,12 +118,16 @@ biobb_haddock
 
     <script>
         var package = "biobb_haddock";
-        var versions = ["5.0.0","5.0.0","4.2.1"];
+        var versions = ["5.0.0","5.0.0","5.0.0","5.0.0","4.2.1"];
     </script>
 
 
 
 
+
+Notes
+-----
+The Haddock3 package requires \`gcc\` hardcoded\, which is unavailable in the Bioconda test environment. Therefore\, the post\-link test is skipped.
 
 
 Download stats

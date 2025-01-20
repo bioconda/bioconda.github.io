@@ -29,10 +29,10 @@ foldseek
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>9.427df8a-2</code>,  <code>9.427df8a-1</code>,  <code>9.427df8a-0</code>,  <code>8.ef4e960-1</code>,  <code>8.ef4e960-0</code>,  <code>7.04e0ec8-0</code>,  <code>6.29e2557-2</code>,  <code>6.29e2557-1</code>,  <code>6.29e2557-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>10.941cd33-1</code>,  <code>10.941cd33-0</code>,  <code>9.427df8a-2</code>,  <code>9.427df8a-1</code>,  <code>9.427df8a-0</code>,  <code>8.ef4e960-1</code>,  <code>8.ef4e960-0</code>,  <code>7.04e0ec8-0</code>,  <code>6.29e2557-2</code>,  </span></summary>
       
 
-      ``9.427df8a-2``,  ``9.427df8a-1``,  ``9.427df8a-0``,  ``8.ef4e960-1``,  ``8.ef4e960-0``,  ``7.04e0ec8-0``,  ``6.29e2557-2``,  ``6.29e2557-1``,  ``6.29e2557-0``,  ``5.53465f0-0``,  ``4.645b789-0``,  ``3.915ef7d-1``,  ``3.915ef7d-0``,  ``2.8bd520-1``,  ``2.8bd520-0``,  ``1.3c64211-1``,  ``1.3c64211-0``
+      ``10.941cd33-1``,  ``10.941cd33-0``,  ``9.427df8a-2``,  ``9.427df8a-1``,  ``9.427df8a-0``,  ``8.ef4e960-1``,  ``8.ef4e960-0``,  ``7.04e0ec8-0``,  ``6.29e2557-2``,  ``6.29e2557-1``,  ``6.29e2557-0``,  ``5.53465f0-0``,  ``4.645b789-0``,  ``3.915ef7d-1``,  ``3.915ef7d-0``,  ``2.8bd520-1``,  ``2.8bd520-0``,  ``1.3c64211-1``,  ``1.3c64211-0``
 
       
       .. raw:: html
@@ -48,8 +48,6 @@ foldseek
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends wget: 
    :depends zlib: 
    :requirements:
 
@@ -105,7 +103,7 @@ foldseek
 
     <script>
         var package = "foldseek";
-        var versions = ["9.427df8a","9.427df8a","9.427df8a","8.ef4e960","8.ef4e960"];
+        var versions = ["10.941cd33","10.941cd33","9.427df8a","9.427df8a","9.427df8a"];
     </script>
 
 
