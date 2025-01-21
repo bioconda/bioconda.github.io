@@ -27,15 +27,16 @@ kegg-pathways-completeness
       
       
 
-      ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
+      ``1.2.1-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
 
       
 
    
-   :depends biopython: ``1.83``
-   :depends networkx: ``3.3``
+   :depends biopython: ``>=1.83``
+   :depends networkx: ``>=3.3``
+   :depends pydot: ``>=3.0.3``
    :depends python: ``>=3.10``
-   :depends python-graphviz: ``0.20.3``
+   :depends python-graphviz: ``>=0.20.3``
    :requirements:
 
    :additional platforms:
@@ -86,7 +87,7 @@ kegg-pathways-completeness
 
     <script>
         var package = "kegg-pathways-completeness";
-        var versions = ["1.0.5","1.0.4","1.0.3","1.0.2"];
+        var versions = ["1.2.1","1.0.5","1.0.4","1.0.3","1.0.2"];
     </script>
 
 

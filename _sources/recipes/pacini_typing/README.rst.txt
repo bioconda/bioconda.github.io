@@ -27,7 +27,7 @@ pacini_typing
       
       
 
-      ``1.6.3-0``,  ``1.6.1-0``
+      ``1.6.4-0``,  ``1.6.3-0``,  ``1.6.1-0``
 
       
 
@@ -93,7 +93,7 @@ pacini_typing
 
     <script>
         var package = "pacini_typing";
-        var versions = ["1.6.3","1.6.1"];
+        var versions = ["1.6.4","1.6.3","1.6.1"];
     </script>
 
 

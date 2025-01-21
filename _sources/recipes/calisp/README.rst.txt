@@ -10,7 +10,7 @@ calisp
    :replaces_section_title:
    :noindex:
 
-   Estimate isotopic composition of peptides from proteomics mass spectrometry data
+   Estimate isotopic composition of peptides from proteomics mass spectrometry data.
 
    :homepage: https://github.com/kinestetika/Calisp
    :license: MIT
@@ -27,7 +27,7 @@ calisp
       
       
 
-      ``3.0.13-0``,  ``3.0.12-0``,  ``3.0.11-0``,  ``3.0.10-0``
+      ``3.1-0``,  ``3.0.13-0``,  ``3.0.12-0``,  ``3.0.11-0``,  ``3.0.10-0``
 
       
 
@@ -36,7 +36,7 @@ calisp
    :depends pandas: 
    :depends pyarrow: 
    :depends pymzml: 
-   :depends python: 
+   :depends python: ``>=3.6``
    :depends scipy: 
    :depends tqdm: 
    :requirements:
@@ -89,7 +89,7 @@ calisp
 
     <script>
         var package = "calisp";
-        var versions = ["3.0.13","3.0.12","3.0.11","3.0.10"];
+        var versions = ["3.1","3.0.13","3.0.12","3.0.11","3.0.10"];
     </script>
 
 

@@ -28,10 +28,10 @@ haddock_biobb
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.6-2</code>,  <code>3.0.6-1</code>,  <code>3.0.6-0</code>,  <code>3.0.5-1</code>,  <code>3.0.5-0</code>,  <code>3.0.4-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-0</code>,  <code>3.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.7-0</code>,  <code>3.0.6-2</code>,  <code>3.0.6-1</code>,  <code>3.0.6-0</code>,  <code>3.0.5-1</code>,  <code>3.0.5-0</code>,  <code>3.0.4-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-0</code>,  </span></summary>
       
 
-      ``3.0.6-2``,  ``3.0.6-1``,  ``3.0.6-0``,  ``3.0.5-1``,  ``3.0.5-0``,  ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``
+      ``3.0.7-0``,  ``3.0.6-2``,  ``3.0.6-1``,  ``3.0.6-0``,  ``3.0.5-1``,  ``3.0.5-0``,  ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``
 
       
       .. raw:: html
@@ -42,17 +42,14 @@ haddock_biobb
    
    :depends biopython: 
    :depends freesasa: 
-   :depends git: 
    :depends jsonpickle: 
    :depends kaleido-core: 
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
    :depends numpy: 
    :depends pandas: 
    :depends pdb-tools: 
    :depends pip: 
    :depends plotly: 
-   :depends python_abi: ``3.11.* *_cp311``
+   :depends python: ``>=3.9,<3.13``
    :depends pyyaml: 
    :depends scipy: 
    :depends toml: 
@@ -107,12 +104,16 @@ haddock_biobb
 
     <script>
         var package = "haddock_biobb";
-        var versions = ["3.0.6","3.0.6","3.0.6","3.0.5","3.0.5"];
+        var versions = ["3.0.7","3.0.6","3.0.6","3.0.6","3.0.5"];
     </script>
 
 
 
 
+
+Notes
+-----
+The Haddock3 package requires \`gcc\` hardcoded in the \`setup.py\`\, which is unavailable in the Bioconda test environment. Therefore\, the post\-link test is skipped.
 
 
 Download stats

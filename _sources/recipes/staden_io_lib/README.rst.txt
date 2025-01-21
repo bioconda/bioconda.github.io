@@ -13,7 +13,7 @@ staden_io_lib
    Staden io\_lib is a library of file reading and writing code e.g. for SAM\/BAM\/CRAM.
 
    :homepage: https://github.com/jkbonfield/io_lib
-   :documentation: https://github.com/jkbonfield/io_lib/blob/master/README.md
+   :documentation: https://github.com/jkbonfield/io_lib/blob/io_lib-1-15-0/README.md
    
    :license: BSD / BSD-3-Clause
    :recipe: /`staden_io_lib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/staden_io_lib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/staden_io_lib/meta.yaml>`_
@@ -31,10 +31,10 @@ staden_io_lib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.15.0-3</code>,  <code>1.15.0-2</code>,  <code>1.15.0-1</code>,  <code>1.15.0-0</code>,  <code>1.14.14-9</code>,  <code>1.14.14-8</code>,  <code>1.14.14-7</code>,  <code>1.14.14-6</code>,  <code>1.14.14-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.15.0-4</code>,  <code>1.15.0-3</code>,  <code>1.15.0-2</code>,  <code>1.15.0-1</code>,  <code>1.15.0-0</code>,  <code>1.14.14-9</code>,  <code>1.14.14-8</code>,  <code>1.14.14-7</code>,  <code>1.14.14-6</code>,  </span></summary>
       
 
-      ``1.15.0-3``,  ``1.15.0-2``,  ``1.15.0-1``,  ``1.15.0-0``,  ``1.14.14-9``,  ``1.14.14-8``,  ``1.14.14-7``,  ``1.14.14-6``,  ``1.14.14-5``,  ``1.14.14-4``,  ``1.14.14-3``,  ``1.14.14-2``,  ``1.14.14-1``,  ``1.14.14-0``,  ``1.14.13-1``,  ``1.14.13-0``,  ``1.14.12-1``,  ``1.14.12-0``,  ``1.14.11-1``,  ``1.14.11-0``
+      ``1.15.0-4``,  ``1.15.0-3``,  ``1.15.0-2``,  ``1.15.0-1``,  ``1.15.0-0``,  ``1.14.14-9``,  ``1.14.14-8``,  ``1.14.14-7``,  ``1.14.14-6``,  ``1.14.14-5``,  ``1.14.14-4``,  ``1.14.14-3``,  ``1.14.14-2``,  ``1.14.14-1``,  ``1.14.14-0``,  ``1.14.13-1``,  ``1.14.13-0``,  ``1.14.12-1``,  ``1.14.12-0``,  ``1.14.11-1``,  ``1.14.11-0``
 
       
       .. raw:: html
@@ -45,7 +45,7 @@ staden_io_lib
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libcurl: ``>=8.11.1,<9.0a0``
-   :depends libdeflate: ``>=1.22,<1.24.0a0``
+   :depends libdeflate: ``>=1.22,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends liblzma: ``>=5.6.3,<6.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
@@ -103,7 +103,7 @@ staden_io_lib
 
     <script>
         var package = "staden_io_lib";
-        var versions = ["1.15.0","1.15.0","1.15.0","1.15.0","1.14.14"];
+        var versions = ["1.15.0","1.15.0","1.15.0","1.15.0","1.15.0"];
     </script>
 
 

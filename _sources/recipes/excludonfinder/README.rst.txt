@@ -10,10 +10,10 @@ excludonfinder
    :replaces_section_title:
    :noindex:
 
-   A tool for identifying and analyzing excludons in genomic data using RNA\-seq data
+   A tool for identifying and analyzing excludons in genomic data using RNA\-seq data.
 
    :homepage: https://github.com/Alvarosmb/ExcludonFinder
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`excludonfinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/excludonfinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/excludonfinder/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ excludonfinder
       
       
 
-      ``0.1.1-0``
+      ``0.1.1-1``,  ``0.1.1-0``
 
       
 
@@ -94,7 +94,7 @@ excludonfinder
 
     <script>
         var package = "excludonfinder";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.1","0.1.1"];
     </script>
 
 

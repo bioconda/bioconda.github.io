@@ -32,8 +32,8 @@ biobb_haddock
    \#\#\# Copyright \& Licensing
    This software has been developed in the \[MMB group\]\(http\:\/\/mmb.irbbarcelona.org\) at the \[BSC\]\(http\:\/\/www.bsc.es\/\) \& \[IRB\]\(https\:\/\/www.irbbarcelona.org\/\) for the \[European BioExcel\]\(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission \(EU H2020 \[823830\]\(http\:\/\/cordis.europa.eu\/projects\/823830\)\, EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
 
-   \* \(c\) 2015\-2024 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
-   \* \(c\) 2015\-2024 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
+   \* \(c\) 2015\-2025 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
+   \* \(c\) 2015\-2025 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
    Licensed under the
    \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file LICENSE for details.
 
@@ -51,23 +51,14 @@ biobb_haddock
       
       
 
-      ``5.0.0-3``,  ``5.0.0-2``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.1-0``
+      ``5.0.0-4``,  ``5.0.0-3``,  ``5.0.0-2``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.1-0``
 
       
 
    
    :depends biobb_common: ``5.0.0``
-   :depends freesasa: 
-   :depends git: 
-   :depends jsonpickle: 
-   :depends kaleido-core: 
-   :depends pandas: 
-   :depends pdb-tools: 
-   :depends plotly: 
-   :depends python: ``>=3.9,<3.13``
-   :depends scipy: 
-   :depends toml: 
-   :depends tox: 
+   :depends haddock_biobb: ``3.0.7``
+   :depends python: ``>=3.9``
    :requirements:
 
    :additional platforms:
@@ -118,16 +109,12 @@ biobb_haddock
 
     <script>
         var package = "biobb_haddock";
-        var versions = ["5.0.0","5.0.0","5.0.0","5.0.0","4.2.1"];
+        var versions = ["5.0.0","5.0.0","5.0.0","5.0.0","5.0.0"];
     </script>
 
 
 
 
-
-Notes
------
-The Haddock3 package requires \`gcc\` hardcoded\, which is unavailable in the Bioconda test environment. Therefore\, the post\-link test is skipped.
 
 
 Download stats

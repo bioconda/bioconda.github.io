@@ -26,9 +26,17 @@ ebi-eva-common-pyutils
    :versions:
       
       
+      .. raw:: html
 
-      ``0.6.11-0``,  ``0.6.10-0``,  ``0.6.9-0``,  ``0.6.8-0``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``
+         <details><summary><span class="truncated-version-list"><code>0.6.12-0</code>,  <code>0.6.11-0</code>,  <code>0.6.10-0</code>,  <code>0.6.9-0</code>,  <code>0.6.8-0</code>,  <code>0.6.7-0</code>,  <code>0.6.6-0</code>,  <code>0.6.5-0</code>,  <code>0.6.4-0</code>,  </span></summary>
+      
 
+      ``0.6.12-0``,  ``0.6.11-0``,  ``0.6.10-0``,  ``0.6.9-0``,  ``0.6.8-0``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -88,7 +96,7 @@ ebi-eva-common-pyutils
 
     <script>
         var package = "ebi-eva-common-pyutils";
-        var versions = ["0.6.11","0.6.10","0.6.9","0.6.8","0.6.7"];
+        var versions = ["0.6.12","0.6.11","0.6.10","0.6.9","0.6.8"];
     </script>
 
 
