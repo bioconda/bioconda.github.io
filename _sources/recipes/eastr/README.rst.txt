@@ -28,7 +28,7 @@ eastr
       
       
 
-      ``1.1.1-0``
+      ``1.1.1-1``,  ``1.1.1-0``
 
       
 
@@ -48,6 +48,10 @@ eastr
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -95,7 +99,7 @@ eastr
 
     <script>
         var package = "eastr";
-        var versions = ["1.1.1"];
+        var versions = ["1.1.1","1.1.1"];
     </script>
 
 

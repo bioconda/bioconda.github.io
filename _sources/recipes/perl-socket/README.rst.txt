@@ -27,16 +27,21 @@ perl-socket
       
       
 
-      ``2.027-5``,  ``2.027-4``,  ``2.027-3``,  ``2.027-2``,  ``2.027-1``,  ``2.027-0``
+      ``2.027-6``,  ``2.027-5``,  ``2.027-4``,  ``2.027-3``,  ``2.027-2``,  ``2.027-1``,  ``2.027-0``
 
       
 
    
-   :depends libgcc: ``>=13``
+   :depends libgcc: 
+   :depends libgcc-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
