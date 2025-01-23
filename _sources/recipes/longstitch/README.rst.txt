@@ -10,14 +10,15 @@ longstitch
    :replaces_section_title:
    :noindex:
 
-   A genome assembly correction and scaffolding pipeline using long reads
+   A genome assembly correction and scaffolding pipeline using long reads.
 
    :homepage: https://bcgsc.ca/resources/software/longstitch
-   :documentation: https://github.com/bcgsc/longstitch
+   :documentation: https://github.com/bcgsc/LongStitch/blob/v1.0.5/README.md
    
-   :license: GPL-3.0
+   :developer docs: https://github.com/bcgsc/longstitch
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`longstitch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/longstitch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/longstitch/meta.yaml>`_
-   :links: https: :https:`//doi.org/10.1101/2021.06.17.448848`
+   :links: doi: :doi:`10.1101/2021.06.17.448848`, biotools: :biotools:`longstitch`
 
    
 
@@ -30,13 +31,13 @@ longstitch
       
       
 
-      ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
+      ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
 
       
 
    
    :depends arcs: ``>=1.2.2``
-   :depends links: ``1.8.7``
+   :depends links: ``2.0.1``
    :depends make: 
    :depends ntlink: 
    :depends python: 
@@ -92,7 +93,7 @@ longstitch
 
     <script>
         var package = "longstitch";
-        var versions = ["1.0.5","1.0.4","1.0.4","1.0.3","1.0.2"];
+        var versions = ["1.0.5","1.0.5","1.0.4","1.0.4","1.0.3"];
     </script>
 
 

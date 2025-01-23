@@ -28,14 +28,14 @@ ncbi-stxtyper
       
       
 
-      ``1.0.27-0``,  ``1.0.25-0``,  ``1.0.24-0``
+      ``1.0.31-0``,  ``1.0.27-0``,  ``1.0.25-0``,  ``1.0.24-0``
 
       
 
    
    :depends blast: ``>=2.9``
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -86,7 +86,7 @@ ncbi-stxtyper
 
     <script>
         var package = "ncbi-stxtyper";
-        var versions = ["1.0.27","1.0.25","1.0.24"];
+        var versions = ["1.0.31","1.0.27","1.0.25","1.0.24"];
     </script>
 
 

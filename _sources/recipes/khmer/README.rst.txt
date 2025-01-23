@@ -10,13 +10,14 @@ khmer
    :replaces_section_title:
    :noindex:
 
-   khmer k\-mer counting library
+   khmer k\-mer counting library.
 
-   :homepage: https://khmer.readthedocs.io/
-   :developer docs: https://github.com/dib-lab/khmer
-   :license: BSD / BSD License
+   :homepage: https://github.com/dib-lab/khmer
+   :documentation: https://khmer.readthedocs.io
+   
+   :license: BSD / BSD-3-License
    :recipe: /`khmer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/khmer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/khmer/meta.yaml>`_
-   :links: biotools: :biotools:`khmer`, doi: :doi:`10.12688/f1000research.6924.1`
+   :links: biotools: :biotools:`khmer`, doi: :doi:`10.12688/f1000research.6924.1`, usegalaxy-eu: :usegalaxy-eu:`khmer_filter_abundance`, usegalaxy-eu: :usegalaxy-eu:`khmer_filter_below_abundance_cutoff`, usegalaxy-eu: :usegalaxy-eu:`khmer_extract_partitions`, usegalaxy-eu: :usegalaxy-eu:`khmer_abundance_distribution`, usegalaxy-eu: :usegalaxy-eu:`khmer_count_median`, usegalaxy-eu: :usegalaxy-eu:`khmer_partition`, usegalaxy-eu: :usegalaxy-eu:`khmer_normalize_by_median`, usegalaxy-eu: :usegalaxy-eu:`khmer_abundance_distribution_single`
 
    
 
@@ -30,10 +31,10 @@ khmer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.0a3-6</code>,  <code>3.0.0a3-3</code>,  <code>3.0.0a3-2</code>,  <code>3.0.0a3-1</code>,  <code>3.0.0a3-0</code>,  <code>3.0.0a2-1</code>,  <code>3.0.0a2-0</code>,  <code>3.0.0a1-0</code>,  <code>2.1.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.0a3-7</code>,  <code>3.0.0a3-6</code>,  <code>3.0.0a3-3</code>,  <code>3.0.0a3-2</code>,  <code>3.0.0a3-1</code>,  <code>3.0.0a3-0</code>,  <code>3.0.0a2-1</code>,  <code>3.0.0a2-0</code>,  <code>3.0.0a1-0</code>,  </span></summary>
       
 
-      ``3.0.0a3-6``,  ``3.0.0a3-3``,  ``3.0.0a3-2``,  ``3.0.0a3-1``,  ``3.0.0a3-0``,  ``3.0.0a2-1``,  ``3.0.0a2-0``,  ``3.0.0a1-0``,  ``2.1.2-0``,  ``2.1-0``,  ``2.1rc1-0``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+      ``3.0.0a3-7``,  ``3.0.0a3-6``,  ``3.0.0a3-3``,  ``3.0.0a3-2``,  ``3.0.0a3-1``,  ``3.0.0a3-0``,  ``3.0.0a2-1``,  ``3.0.0a2-0``,  ``3.0.0a1-0``,  ``2.1.2-0``,  ``2.1-0``,  ``2.1rc1-0``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
 
       
       .. raw:: html
@@ -43,24 +44,23 @@ khmer
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends bz2file: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libgcc: 
    :depends libgcc-ng: ``>=12``
+   :depends libgomp: 
    :depends libstdcxx: 
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends python: ``>=3.11,<3.12.0a0``
-   :depends python_abi: ``3.11.* *_cp311``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends screed: ``>=1.0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

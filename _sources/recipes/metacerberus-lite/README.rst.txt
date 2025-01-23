@@ -27,7 +27,7 @@ metacerberus-lite
       
       
 
-      ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.1-0``
+      ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.1-0``
 
       
 
@@ -40,7 +40,7 @@ metacerberus-lite
    :depends pandas: 
    :depends plotly: 
    :depends psutil: 
-   :depends pyhmmer: 
+   :depends pyhmmer: ``0.10.*``
    :depends pyrodigal: 
    :depends pyrodigal-gv: 
    :depends python: ``>=3.8``
@@ -97,7 +97,7 @@ metacerberus-lite
 
     <script>
         var package = "metacerberus-lite";
-        var versions = ["1.4.0","1.3.2","1.3.1"];
+        var versions = ["1.4.0","1.4.0","1.3.2","1.3.1"];
     </script>
 
 

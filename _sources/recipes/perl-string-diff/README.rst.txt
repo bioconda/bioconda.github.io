@@ -27,7 +27,7 @@ perl-string-diff
       
       
 
-      ``0.08-0``,  ``0.07-1``,  ``0.07-0``
+      ``0.11-0``,  ``0.08-0``,  ``0.07-1``,  ``0.07-0``
 
       
 
@@ -84,7 +84,7 @@ perl-string-diff
 
     <script>
         var package = "perl-string-diff";
-        var versions = ["0.08","0.07","0.07"];
+        var versions = ["0.11","0.08","0.07","0.07"];
     </script>
 
 

@@ -28,10 +28,10 @@ deeptoolsintervals
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.9-10</code>,  <code>0.1.9-9</code>,  <code>0.1.9-8</code>,  <code>0.1.9-7</code>,  <code>0.1.9-6</code>,  <code>0.1.9-5</code>,  <code>0.1.9-4</code>,  <code>0.1.9-3</code>,  <code>0.1.9-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.9-11</code>,  <code>0.1.9-10</code>,  <code>0.1.9-9</code>,  <code>0.1.9-8</code>,  <code>0.1.9-7</code>,  <code>0.1.9-6</code>,  <code>0.1.9-5</code>,  <code>0.1.9-4</code>,  <code>0.1.9-3</code>,  </span></summary>
       
 
-      ``0.1.9-10``,  ``0.1.9-9``,  ``0.1.9-8``,  ``0.1.9-7``,  ``0.1.9-6``,  ``0.1.9-5``,  ``0.1.9-4``,  ``0.1.9-3``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``
+      ``0.1.9-11``,  ``0.1.9-10``,  ``0.1.9-9``,  ``0.1.9-8``,  ``0.1.9-7``,  ``0.1.9-6``,  ``0.1.9-5``,  ``0.1.9-4``,  ``0.1.9-3``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``
 
       
       .. raw:: html
@@ -52,7 +52,7 @@ deeptoolsintervals
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
