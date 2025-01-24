@@ -13,7 +13,7 @@ primerforge
    primerForge\: software to identify primers that can be used to distinguish genomes.
 
    :homepage: https://github.com/dr-joe-wirth/primerForge
-   :documentation: https://github.com/dr-joe-wirth/primerForge/blob/v1.5.2/README.md
+   :documentation: https://github.com/dr-joe-wirth/primerForge/blob/v1.5.3/README.md
    
    :license: APACHE / Apache-2.0
    :recipe: /`primerforge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/primerforge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/primerforge/meta.yaml>`_
@@ -29,7 +29,7 @@ primerforge
       
       
 
-      ``1.5.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.0-0``,  ``0.7.4-0``
+      ``1.5.3-0``,  ``1.5.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.0-0``,  ``0.7.4-0``
 
       
 
@@ -92,7 +92,7 @@ primerforge
 
     <script>
         var package = "primerforge";
-        var versions = ["1.5.2","1.1.1","1.1.0","1.0.2","1.0.0"];
+        var versions = ["1.5.3","1.5.2","1.1.1","1.1.0","1.0.2"];
     </script>
 
 

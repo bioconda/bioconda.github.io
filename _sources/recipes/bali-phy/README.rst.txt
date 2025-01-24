@@ -28,9 +28,17 @@ bali-phy
    :versions:
       
       
+      .. raw:: html
 
-      ``4.0beta16-1``,  ``4.0beta16-0``,  ``4.0beta15-1``,  ``4.0beta15-0``,  ``4.0beta14-0``,  ``4.0beta13-0``,  ``3.6.0-2``,  ``3.6.0-1``,  ``3.6.0-0``
+         <details><summary><span class="truncated-version-list"><code>4.0beta17-0</code>,  <code>4.0beta16-1</code>,  <code>4.0beta16-0</code>,  <code>4.0beta15-1</code>,  <code>4.0beta15-0</code>,  <code>4.0beta14-0</code>,  <code>4.0beta13-0</code>,  <code>3.6.0-2</code>,  <code>3.6.0-1</code>,  </span></summary>
+      
 
+      ``4.0beta17-0``,  ``4.0beta16-1``,  ``4.0beta16-0``,  ``4.0beta15-1``,  ``4.0beta15-0``,  ``4.0beta14-0``,  ``4.0beta13-0``,  ``3.6.0-2``,  ``3.6.0-1``,  ``3.6.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -102,7 +110,7 @@ bali-phy
 
     <script>
         var package = "bali-phy";
-        var versions = ["4.0beta16","4.0beta16","4.0beta15","4.0beta15","4.0beta14"];
+        var versions = ["4.0beta17","4.0beta16","4.0beta16","4.0beta15","4.0beta15"];
     </script>
 
 

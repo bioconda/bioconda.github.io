@@ -17,7 +17,7 @@ transannot
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`transannot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transannot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transannot/meta.yaml>`_
-   :links: biotools: :biotools:`transannot`
+   :links: biotools: :biotools:`transannot`, doi: :doi:`10.1093/bioadv/vbae152`
 
    
 
@@ -30,7 +30,7 @@ transannot
       
       
 
-      ``3.70b2a60-1``,  ``3.70b2a60-0``,  ``3.7f1c8e1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``1.fa9ebab-0``
+      ``4.0.0-0``,  ``3.70b2a60-1``,  ``3.70b2a60-0``,  ``3.7f1c8e1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``1.fa9ebab-0``
 
       
 
@@ -38,13 +38,11 @@ transannot
    :depends _openmp_mutex: ``>=4.5``
    :depends aria2: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends gawk: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
-   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends perl: 
    :depends wget: 
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
@@ -99,7 +97,7 @@ transannot
 
     <script>
         var package = "transannot";
-        var versions = ["3.70b2a60","3.70b2a60","3.7f1c8e1","3.0.0","3.0.0"];
+        var versions = ["4.0.0","3.70b2a60","3.70b2a60","3.7f1c8e1","3.0.0"];
     </script>
 
 

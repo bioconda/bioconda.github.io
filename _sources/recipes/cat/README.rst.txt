@@ -29,10 +29,10 @@ cat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>6.0.1-0</code>,  <code>5.3-0</code>,  <code>5.2.3-1</code>,  <code>5.2.3-0</code>,  <code>5.2.2-0</code>,  <code>5.2.1-0</code>,  <code>5.2-0</code>,  <code>5.1.2-0</code>,  <code>5.1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>6.0.1-1</code>,  <code>6.0.1-0</code>,  <code>5.3-0</code>,  <code>5.2.3-1</code>,  <code>5.2.3-0</code>,  <code>5.2.2-0</code>,  <code>5.2.1-0</code>,  <code>5.2-0</code>,  <code>5.1.2-0</code>,  </span></summary>
       
 
-      ``6.0.1-0``,  ``5.3-0``,  ``5.2.3-1``,  ``5.2.3-0``,  ``5.2.2-0``,  ``5.2.1-0``,  ``5.2-0``,  ``5.1.2-0``,  ``5.1.1-0``,  ``5.1-0``,  ``5.0.5-0``,  ``5.0.4-0``,  ``5.0.3-0``,  ``5.0.2-0``,  ``5.0.1-0``,  ``5.0-0``,  ``4.6-0``,  ``4.3.3-0``,  ``4.3.1-1``
+      ``6.0.1-1``,  ``6.0.1-0``,  ``5.3-0``,  ``5.2.3-1``,  ``5.2.3-0``,  ``5.2.2-0``,  ``5.2.1-0``,  ``5.2-0``,  ``5.1.2-0``,  ``5.1.1-0``,  ``5.1-0``,  ``5.0.5-0``,  ``5.0.4-0``,  ``5.0.3-0``,  ``5.0.2-0``,  ``5.0.1-0``,  ``5.0-0``,  ``4.6-0``,  ``4.3.3-0``,  ``4.3.1-1``
 
       
       .. raw:: html
@@ -41,9 +41,11 @@ cat
       
 
    
+   :depends bwa: 
    :depends diamond: 
    :depends prodigal: 
    :depends python: ``>=3``
+   :depends samtools: 
    :requirements:
 
    :additional platforms:
@@ -94,7 +96,7 @@ cat
 
     <script>
         var package = "cat";
-        var versions = ["6.0.1","5.3","5.2.3","5.2.3","5.2.2"];
+        var versions = ["6.0.1","6.0.1","5.3","5.2.3","5.2.3"];
     </script>
 
 

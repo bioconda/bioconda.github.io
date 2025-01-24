@@ -10,9 +10,11 @@ mavenn
    :replaces_section_title:
    :noindex:
 
-   MAVE\-NN\: genotype\-phenotype maps from multiplex assays of variant effect
+   MAVE\-NN\: genotype\-phenotype maps from multiplex assays of variant effect.
 
    :homepage: http://mavenn.readthedocs.io
+   :documentation: https://mavenn.readthedocs.io
+   
    :developer docs: http://github.com/jbkinney/mavenn
    :license: MIT / MIT
    :recipe: /`mavenn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mavenn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mavenn/meta.yaml>`_
@@ -28,18 +30,20 @@ mavenn
       
       
 
-      ``1.0.2-0``,  ``1.0.0-0``,  ``0.99-0``,  ``0.25-0``,  ``0.24-0``,  ``0.23-1``,  ``0.23-0``
+      ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.0-0``,  ``0.99-0``,  ``0.25-0``,  ``0.24-0``,  ``0.23-1``,  ``0.23-0``
 
       
 
    
-   :depends logomaker: ``>=0.8``
-   :depends matplotlib-base: ``>=3.2.0``
+   :depends logomaker: 
+   :depends matplotlib-base: 
    :depends numpy: 
-   :depends pandas: ``>=1.1.2``
-   :depends python: ``>=3``
-   :depends scikit-learn: ``>=0.22``
-   :depends tensorflow: ``>=2.3.0``
+   :depends pandas: 
+   :depends python: ``>=3.8``
+   :depends scikit-learn: 
+   :depends scipy: 
+   :depends seaborn-base: 
+   :depends tensorflow: 
    :requirements:
 
    :additional platforms:
@@ -90,7 +94,7 @@ mavenn
 
     <script>
         var package = "mavenn";
-        var versions = ["1.0.2","1.0.0","0.99","0.25","0.24"];
+        var versions = ["1.1.0","1.0.2","1.0.0","0.99","0.25"];
     </script>
 
 

@@ -29,10 +29,10 @@ viroconstrictor
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.6-0</code>,  <code>1.4.5-1</code>,  <code>1.4.5-0</code>,  <code>1.4.4-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.0-0</code>,  <code>1.4.6-0</code>,  <code>1.4.5-1</code>,  <code>1.4.5-0</code>,  <code>1.4.4-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-1</code>,  </span></summary>
       
 
-      ``1.4.6-0``,  ``1.4.5-1``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``
+      ``1.5.0-0``,  ``1.4.6-0``,  ``1.4.5-1``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``
 
       
       .. raw:: html
@@ -42,18 +42,19 @@ viroconstrictor
 
    
    :depends aminoextract: ``0.3.1``
-   :depends biopython: ``>=1.79``
+   :depends biopython: ``1.81``
    :depends conda: 
    :depends drmaa: ``0.7.9``
-   :depends fpdf2: 
+   :depends fpdf2: ``2.5.1``
    :depends mamba: ``>=1.5.0,<2.0.0``
-   :depends openpyxl: 
-   :depends pandas: ``>=1.5.1``
+   :depends openpyxl: ``3.1.*``
+   :depends pandas: ``2.0.*``
+   :depends pyopenssl: ``24.*``
    :depends python: ``>=3.10``
    :depends pyyaml: ``6.0``
    :depends rich: ``13.*``
-   :depends snakemake: ``>=7.15.2,<8``
-   :depends urllib3: 
+   :depends snakemake: ``7.25.2``
+   :depends urllib3: ``1.26.*``
    :requirements:
 
    :additional platforms:
@@ -104,7 +105,7 @@ viroconstrictor
 
     <script>
         var package = "viroconstrictor";
-        var versions = ["1.4.6","1.4.5","1.4.5","1.4.4","1.4.3"];
+        var versions = ["1.5.0","1.4.6","1.4.5","1.4.5","1.4.4"];
     </script>
 
 

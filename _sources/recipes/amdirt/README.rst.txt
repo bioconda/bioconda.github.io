@@ -10,10 +10,10 @@ amdirt
    :replaces_section_title:
    :noindex:
 
-   AMDirT\: AncientMetagenomeDir Toolkit
+   amdirt\: AncientMetagenomeDir Toolkit
 
-   :homepage: https://github.com/SPAAM-community/AMDirT
-   :license: GPL3 / GPL-3.0-or-later
+   :homepage: https://github.com/SPAAM-community/amdirt
+   :license: GPL-3.0
    :recipe: /`amdirt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/amdirt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/amdirt/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ amdirt
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.2-0</code>,  <code>1.6.1-1</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.0-1</code>,  <code>1.5.0-0</code>,  <code>1.4.6-0</code>,  <code>1.4.5-0</code>,  <code>1.4.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.5-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-1</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.0-1</code>,  <code>1.5.0-0</code>,  <code>1.4.6-0</code>,  <code>1.4.5-0</code>,  </span></summary>
       
 
-      ``1.6.2-0``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``
+      ``1.6.5-0``,  ``1.6.2-0``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``
 
       
       .. raw:: html
@@ -42,15 +42,15 @@ amdirt
    
    :depends click: 
    :depends colorlog: 
-   :depends defusedxml: 
    :depends jsonschema: 
    :depends numpy: 
    :depends pandas: 
+   :depends protobuf: ``<=3.20``
    :depends python: ``>=3.9``
    :depends requests: 
    :depends rich: 
    :depends streamlit: ``<=1.35.0``
-   :depends streamlit-aggrid: ``<=0.3.5``
+   :depends streamlit-aggrid: 
    :depends tabulate: 
    :requirements:
 
@@ -102,7 +102,7 @@ amdirt
 
     <script>
         var package = "amdirt";
-        var versions = ["1.6.2","1.6.1","1.6.1","1.6.0","1.5.0"];
+        var versions = ["1.6.5","1.6.2","1.6.1","1.6.1","1.6.0"];
     </script>
 
 
