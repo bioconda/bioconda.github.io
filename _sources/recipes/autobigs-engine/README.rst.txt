@@ -27,14 +27,14 @@ autobigs-engine
       
       
 
-      ``0.7.2-0``
+      ``0.8.0-0``,  ``0.7.2-0``
 
       
 
    
    :depends aiohttp: 
    :depends biopython: 
-   :depends python: ``>=3.11``
+   :depends python: ``>=3.12``
    :requirements:
 
    :additional platforms:
@@ -85,7 +85,7 @@ autobigs-engine
 
     <script>
         var package = "autobigs-engine";
-        var versions = ["0.7.2"];
+        var versions = ["0.8.0","0.7.2"];
     </script>
 
 

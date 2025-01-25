@@ -28,7 +28,7 @@ grepq
       
       
 
-      ``1.4.1-0``
+      ``1.4.2-0``,  ``1.4.1-0``
 
       
 
@@ -89,7 +89,7 @@ grepq
 
     <script>
         var package = "grepq";
-        var versions = ["1.4.1"];
+        var versions = ["1.4.2","1.4.1"];
     </script>
 
 

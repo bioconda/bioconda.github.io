@@ -28,10 +28,10 @@ seismic-rna
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.22.3-0</code>,  <code>0.22.1-0</code>,  <code>0.22.0-0</code>,  <code>0.21.1-1</code>,  <code>0.21.1-0</code>,  <code>0.21.0-0</code>,  <code>0.20.1-0</code>,  <code>0.20.0-1</code>,  <code>0.20.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.22.3-1</code>,  <code>0.22.3-0</code>,  <code>0.22.1-0</code>,  <code>0.22.0-0</code>,  <code>0.21.1-1</code>,  <code>0.21.1-0</code>,  <code>0.21.0-0</code>,  <code>0.20.1-0</code>,  <code>0.20.0-1</code>,  </span></summary>
       
 
-      ``0.22.3-0``,  ``0.22.1-0``,  ``0.22.0-0``,  ``0.21.1-1``,  ``0.21.1-0``,  ``0.21.0-0``,  ``0.20.1-0``,  ``0.20.0-1``,  ``0.20.0-0``,  ``0.19.2-0``
+      ``0.22.3-1``,  ``0.22.3-0``,  ``0.22.1-0``,  ``0.22.0-0``,  ``0.21.1-1``,  ``0.21.1-0``,  ``0.21.0-0``,  ``0.20.1-0``,  ``0.20.0-1``,  ``0.20.0-0``,  ``0.19.2-0``
 
       
       .. raw:: html
@@ -63,6 +63,10 @@ seismic-rna
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -110,7 +114,7 @@ seismic-rna
 
     <script>
         var package = "seismic-rna";
-        var versions = ["0.22.3","0.22.1","0.22.0","0.21.1","0.21.1"];
+        var versions = ["0.22.3","0.22.3","0.22.1","0.22.0","0.21.1"];
     </script>
 
 

@@ -32,10 +32,10 @@ logomaker
       
 
    
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: 
+   :depends python: ``>=3.9``
    :requirements:
 
    :additional platforms:
