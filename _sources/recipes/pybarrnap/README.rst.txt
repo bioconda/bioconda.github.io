@@ -10,9 +10,11 @@ pybarrnap
    :replaces_section_title:
    :noindex:
 
-   Python implementation of barrnap \(Bacterial ribosomal RNA predictor\)
+   Python implementation of barrnap \(Bacterial ribosomal RNA predictor\).
 
-   :homepage: https://github.com/moshi4/pybarrnap/
+   :homepage: https://github.com/moshi4/pybarrnap
+   :documentation: https://github.com/moshi4/pybarrnap/blob/v0.5.1/README.md
+   
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`pybarrnap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybarrnap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybarrnap/meta.yaml>`_
 
@@ -27,14 +29,14 @@ pybarrnap
       
       
 
-      ``0.5.0-0``,  ``0.4.1-0``,  ``0.3.0-0``
+      ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.3.0-0``
 
       
 
    
-   :depends biopython: ``>=1.79``
-   :depends pyhmmer: ``>=0.10.8``
-   :depends python: ``>=3.8``
+   :depends biopython: ``>=1.80``
+   :depends pyhmmer: ``>=0.11.0``
+   :depends python: ``>=3.9``
    :requirements:
 
    :additional platforms:
@@ -85,7 +87,7 @@ pybarrnap
 
     <script>
         var package = "pybarrnap";
-        var versions = ["0.5.0","0.4.1","0.3.0"];
+        var versions = ["0.5.1","0.5.0","0.4.1","0.3.0"];
     </script>
 
 

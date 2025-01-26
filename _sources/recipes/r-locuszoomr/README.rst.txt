@@ -27,7 +27,7 @@ r-locuszoomr
       
       
 
-      ``0.3.5-1``,  ``0.3.5-0``
+      ``0.3.6-0``,  ``0.3.5-1``,  ``0.3.5-0``
 
       
 
@@ -100,7 +100,7 @@ r-locuszoomr
 
     <script>
         var package = "r-locuszoomr";
-        var versions = ["0.3.5","0.3.5"];
+        var versions = ["0.3.6","0.3.5","0.3.5"];
     </script>
 
 

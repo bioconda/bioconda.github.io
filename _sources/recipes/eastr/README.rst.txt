@@ -12,7 +12,10 @@ eastr
 
    Tool for emending alignments of spuriously spliced transcript reads.
 
-   :homepage: https://github.com/ishinder/EASTR
+   :homepage: https://ccb.jhu.edu/eastr/
+   :documentation: https://ccb.jhu.edu/eastr/#usage
+   
+   :developer docs: https://github.com/ishinder/EASTR
    :license: MIT / MIT
    :recipe: /`eastr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eastr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eastr/meta.yaml>`_
    :links: biotools: :biotools:`eastr`, usegalaxy-eu: :usegalaxy-eu:`eastr`, doi: :doi:`10.1038/s41467-023-43017-4`
@@ -28,7 +31,7 @@ eastr
       
       
 
-      ``1.1.1-1``,  ``1.1.1-0``
+      ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``
 
       
 
@@ -99,7 +102,7 @@ eastr
 
     <script>
         var package = "eastr";
-        var versions = ["1.1.1","1.1.1"];
+        var versions = ["1.1.1","1.1.1","1.1.1"];
     </script>
 
 

@@ -10,11 +10,15 @@ mummer4
    :replaces_section_title:
    :noindex:
 
-   MUMmer is a system for rapidly aligning entire genomes
+   MUMmer is a system for rapidly aligning entire genomes.
 
-   :homepage: https://mummer4.github.io/
-   :license: The Artistic License 2.0
+   :homepage: https://mummer4.github.io
+   :documentation: https://github.com/mummer4/mummer/blob/v4.0.0/README.md
+   
+   :developer docs: https://github.com/mummer4/mummer
+   :license: Artistic License 2.0
    :recipe: /`mummer4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mummer4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mummer4/meta.yaml>`_
+   :links: doi: :doi:`10.1371/journal.pcbi.1005944`, biotools: :biotools:`mummer4`, usegalaxy-eu: :usegalaxy-eu:`mummer_mummer`, usegalaxy-eu: :usegalaxy-eu:`mummerplot`, usegalaxy-eu: :usegalaxy-eu:`mummerplot_wrapper`
 
    
 
@@ -28,10 +32,10 @@ mummer4
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.0rc1-8</code>,  <code>4.0.0rc1-7</code>,  <code>4.0.0rc1-6</code>,  <code>4.0.0rc1-5</code>,  <code>4.0.0rc1-4</code>,  <code>4.0.0rc1-3</code>,  <code>4.0.0rc1-2</code>,  <code>4.0.0rc1-1</code>,  <code>4.0.0rc1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.0-0</code>,  <code>4.0.0rc1-8</code>,  <code>4.0.0rc1-7</code>,  <code>4.0.0rc1-6</code>,  <code>4.0.0rc1-5</code>,  <code>4.0.0rc1-4</code>,  <code>4.0.0rc1-3</code>,  <code>4.0.0rc1-2</code>,  <code>4.0.0rc1-1</code>,  </span></summary>
       
 
-      ``4.0.0rc1-8``,  ``4.0.0rc1-7``,  ``4.0.0rc1-6``,  ``4.0.0rc1-5``,  ``4.0.0rc1-4``,  ``4.0.0rc1-3``,  ``4.0.0rc1-2``,  ``4.0.0rc1-1``,  ``4.0.0rc1-0``,  ``4.0.0beta2-5``,  ``4.0.0beta2-4``,  ``4.0.0beta2-3``,  ``4.0.0beta2-2``,  ``4.0.0beta2-1``,  ``4.0.0beta2-0``
+      ``4.0.0-0``,  ``4.0.0rc1-8``,  ``4.0.0rc1-7``,  ``4.0.0rc1-6``,  ``4.0.0rc1-5``,  ``4.0.0rc1-4``,  ``4.0.0rc1-3``,  ``4.0.0rc1-2``,  ``4.0.0rc1-1``,  ``4.0.0rc1-0``,  ``4.0.0beta2-5``,  ``4.0.0beta2-4``,  ``4.0.0beta2-3``,  ``4.0.0beta2-2``,  ``4.0.0beta2-1``,  ``4.0.0beta2-0``
 
       
       .. raw:: html
@@ -40,15 +44,19 @@ mummer4
       
 
    
-   :depends libcxx: ``>=18``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends yaggo: ``>=1.5.10,<1.6.0a0``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -96,7 +104,7 @@ mummer4
 
     <script>
         var package = "mummer4";
-        var versions = ["4.0.0rc1","4.0.0rc1","4.0.0rc1","4.0.0rc1","4.0.0rc1"];
+        var versions = ["4.0.0","4.0.0rc1","4.0.0rc1","4.0.0rc1","4.0.0rc1"];
     </script>
 
 
