@@ -12,7 +12,9 @@ r-tidyheatmap
 
    This is a tidy implementation for heatmap.  At the moment it is based on the \(great\) package \'ComplexHeatmap\'.  The goal of this package is to interface a tidy data frame with this powerful tool.  Some of the advantages are\: Row and\/or columns colour annotations are easy to integrate just specifying one parameter \(column names\).  Custom grouping of rows is easy to specify providing a grouped tbl. For example\: df \%\>\% group\_by\(...\).  Labels size adjusted by row and column total number.  Default use of Brewer and Viridis palettes.
 
-   :homepage: https://www.r-project.org, https://github.com/stemangiola/tidyHeatmap
+   :homepage: https://github.com/stemangiola/tidyHeatmap
+   :documentation: https://stemangiola.github.io/tidyHeatmap/articles/introduction.html
+   
    :license: GPL3 / GPL-3.0-only
    :recipe: /`r-tidyheatmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-tidyheatmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-tidyheatmap/meta.yaml>`_
 
@@ -27,7 +29,7 @@ r-tidyheatmap
       
       
 
-      ``1.8.1-3``,  ``1.8.1-2``,  ``1.8.1-1``,  ``1.8.1-0``
+      ``1.11.4-0``,  ``1.8.1-3``,  ``1.8.1-2``,  ``1.8.1-1``,  ``1.8.1-0``
 
       
 
@@ -96,7 +98,7 @@ r-tidyheatmap
 
     <script>
         var package = "r-tidyheatmap";
-        var versions = ["1.8.1","1.8.1","1.8.1","1.8.1"];
+        var versions = ["1.11.4","1.8.1","1.8.1","1.8.1","1.8.1"];
     </script>
 
 

@@ -1,40 +1,37 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'grepq'
+.. title:: Package Recipe 'frag_gene_scan_rs'
 .. highlight: bash
 
-grepq
-=====
+frag_gene_scan_rs
+=================
 
-.. conda:recipe:: grepq
+.. conda:recipe:: frag_gene_scan_rs
    :replaces_section_title:
    :noindex:
 
-   Quickly filter FASTQ files
+   Rust implementation of the gene prediction model for short and error\-prone reads
 
-   :homepage: https://github.com/Rbfinch/grepq
-   :license: MIT
-   :recipe: /`grepq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grepq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grepq/meta.yaml>`_
-   :links: DOI: :DOI:`10.5281/zenodo.14031703`
+   :homepage: https://github.com/unipept/FragGeneScanRs
+   :license: GPL-3.0-or-later
+   :recipe: /`frag_gene_scan_rs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/frag_gene_scan_rs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/frag_gene_scan_rs/meta.yaml>`_
 
    
 
 
-.. conda:package:: grepq
+.. conda:package:: frag_gene_scan_rs
 
-   |downloads_grepq| |docker_grepq|
+   |downloads_frag_gene_scan_rs| |docker_frag_gene_scan_rs|
 
    :versions:
       
       
 
-      ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``
+      ``1.1.0-0``
 
       
 
    
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -57,39 +54,39 @@ grepq
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install grepq
+      mamba install frag_gene_scan_rs
 
    and update with::
 
-      mamba update grepq
+      mamba update frag_gene_scan_rs
 
   To create a new environment, run::
 
-      mamba create --name myenvname grepq
+      mamba create --name myenvname frag_gene_scan_rs
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/grepq:<tag>
+      docker pull quay.io/biocontainers/frag_gene_scan_rs:<tag>
 
-   (see `grepq/tags`_ for valid values for ``<tag>``)
+   (see `frag_gene_scan_rs/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_grepq| image:: https://img.shields.io/conda/dn/bioconda/grepq.svg?style=flat
-   :target: https://anaconda.org/bioconda/grepq
+.. |downloads_frag_gene_scan_rs| image:: https://img.shields.io/conda/dn/bioconda/frag_gene_scan_rs.svg?style=flat
+   :target: https://anaconda.org/bioconda/frag_gene_scan_rs
    :alt:   (downloads)
-.. |docker_grepq| image:: https://quay.io/repository/biocontainers/grepq/status
-   :target: https://quay.io/repository/biocontainers/grepq
-.. _`grepq/tags`: https://quay.io/repository/biocontainers/grepq?tab=tags
+.. |docker_frag_gene_scan_rs| image:: https://quay.io/repository/biocontainers/frag_gene_scan_rs/status
+   :target: https://quay.io/repository/biocontainers/frag_gene_scan_rs
+.. _`frag_gene_scan_rs/tags`: https://quay.io/repository/biocontainers/frag_gene_scan_rs?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "grepq";
-        var versions = ["1.4.3","1.4.2","1.4.1"];
+        var package = "frag_gene_scan_rs";
+        var versions = ["1.1.0"];
     </script>
 
 
@@ -108,7 +105,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/grepq/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/frag_gene_scan_rs/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/grepq/README.html
+   :target: http://bioconda.github.io/recipes/frag_gene_scan_rs/README.html

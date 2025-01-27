@@ -10,11 +10,14 @@ miniasm
    :replaces_section_title:
    :noindex:
 
-   Ultrafast de novo assembly for long noisy reads \(though having no consensus step\)
+   Ultrafast de novo assembly for long noisy reads \(though having no consensus step\).
 
    :homepage: https://github.com/lh3/miniasm
-   :license: MIT
+   :documentation: https://github.com/lh3/miniasm/blob/v0.3/README.md
+   
+   :license: MIT / MIT
    :recipe: /`miniasm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/miniasm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/miniasm/meta.yaml>`_
+   :links: biotools: :biotools:`miniasm`, usegalaxy-eu: :usegalaxy-eu:`miniasm`, doi: :doi:`10.1093/bioinformatics/btw152`
 
    
 
@@ -28,10 +31,10 @@ miniasm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3-4</code>,  <code>0.3-3</code>,  <code>0.3-2</code>,  <code>0.3-1</code>,  <code>0.3-0</code>,  <code>0.3_r179-3</code>,  <code>0.3_r179-2</code>,  <code>0.3_r179-1</code>,  <code>0.3_r179-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3-5</code>,  <code>0.3-4</code>,  <code>0.3-3</code>,  <code>0.3-2</code>,  <code>0.3-1</code>,  <code>0.3-0</code>,  <code>0.3_r179-3</code>,  <code>0.3_r179-2</code>,  <code>0.3_r179-1</code>,  </span></summary>
       
 
-      ``0.3-4``,  ``0.3-3``,  ``0.3-2``,  ``0.3-1``,  ``0.3-0``,  ``0.3_r179-3``,  ``0.3_r179-2``,  ``0.3_r179-1``,  ``0.3_r179-0``,  ``0.2-0``,  ``0.2_r168-3``,  ``0.2_r168-2``,  ``0.2_r168-1``,  ``0.2_r168-0``,  ``0.2_r159-0``,  ``0.2_r137-0``
+      ``0.3-5``,  ``0.3-4``,  ``0.3-3``,  ``0.3-2``,  ``0.3-1``,  ``0.3-0``,  ``0.3_r179-3``,  ``0.3_r179-2``,  ``0.3_r179-1``,  ``0.3_r179-0``,  ``0.2-0``,  ``0.2_r168-3``,  ``0.2_r168-2``,  ``0.2_r168-1``,  ``0.2_r168-0``,  ``0.2_r159-0``,  ``0.2_r137-0``
 
       
       .. raw:: html
@@ -42,14 +45,13 @@ miniasm
    
    :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

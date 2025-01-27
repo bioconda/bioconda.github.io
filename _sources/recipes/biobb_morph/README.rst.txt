@@ -51,7 +51,7 @@ biobb_morph
       
       
 
-      ``5.0.0-0``
+      ``5.0.1-0``,  ``5.0.0-0``
 
       
 
@@ -117,7 +117,7 @@ biobb_morph
 
     <script>
         var package = "biobb_morph";
-        var versions = ["5.0.0"];
+        var versions = ["5.0.1","5.0.0"];
     </script>
 
 
