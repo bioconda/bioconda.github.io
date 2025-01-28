@@ -13,7 +13,7 @@ pybigwig
    A python extension written in C for quick access to bigWig files.
 
    :homepage: https://github.com/deeptools/pyBigWig
-   :documentation: https://github.com/deeptools/pyBigWig/blob/0.3.23/README.md
+   :documentation: https://github.com/deeptools/pyBigWig/blob/0.3.24/README.md
    
    :license: MIT / MIT
    :recipe: /`pybigwig <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybigwig>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybigwig/meta.yaml>`_
@@ -30,10 +30,10 @@ pybigwig
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.23-0</code>,  <code>0.3.22-3</code>,  <code>0.3.22-2</code>,  <code>0.3.22-1</code>,  <code>0.3.22-0</code>,  <code>0.3.18-3</code>,  <code>0.3.18-2</code>,  <code>0.3.18-1</code>,  <code>0.3.18-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.24-0</code>,  <code>0.3.23-0</code>,  <code>0.3.22-3</code>,  <code>0.3.22-2</code>,  <code>0.3.22-1</code>,  <code>0.3.22-0</code>,  <code>0.3.18-3</code>,  <code>0.3.18-2</code>,  <code>0.3.18-1</code>,  </span></summary>
       
 
-      ``0.3.23-0``,  ``0.3.22-3``,  ``0.3.22-2``,  ``0.3.22-1``,  ``0.3.22-0``,  ``0.3.18-3``,  ``0.3.18-2``,  ``0.3.18-1``,  ``0.3.18-0``,  ``0.3.17-2``,  ``0.3.17-1``,  ``0.3.17-0``,  ``0.3.16-0``,  ``0.3.15-0``,  ``0.3.14-0``,  ``0.3.13-2``,  ``0.3.13-1``,  ``0.3.13-0``,  ``0.3.12-2``,  ``0.3.12-1``,  ``0.3.12-0``,  ``0.3.11-2``,  ``0.3.11-1``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.1b-1``,  ``0.2.1b-0``,  ``0.1.11-1``,  ``0.1.11-0``
+      ``0.3.24-0``,  ``0.3.23-0``,  ``0.3.22-3``,  ``0.3.22-2``,  ``0.3.22-1``,  ``0.3.22-0``,  ``0.3.18-3``,  ``0.3.18-2``,  ``0.3.18-1``,  ``0.3.18-0``,  ``0.3.17-2``,  ``0.3.17-1``,  ``0.3.17-0``,  ``0.3.16-0``,  ``0.3.15-0``,  ``0.3.14-0``,  ``0.3.13-2``,  ``0.3.13-1``,  ``0.3.13-0``,  ``0.3.12-2``,  ``0.3.12-1``,  ``0.3.12-0``,  ``0.3.11-2``,  ``0.3.11-1``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.1b-1``,  ``0.2.1b-0``,  ``0.1.11-1``,  ``0.1.11-0``
 
       
       .. raw:: html
@@ -42,11 +42,11 @@ pybigwig
       
 
    
-   :depends libcurl: ``>=8.10.1,<9.0a0``
+   :depends libcurl: ``>=8.11.1,<9.0a0``
    :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends numpy: ``>=1.21,<3``
-   :depends numpy: ``>=2.1.3,<3.0a0``
+   :depends numpy: ``>=2.2.2,<3.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:
@@ -103,7 +103,7 @@ pybigwig
 
     <script>
         var package = "pybigwig";
-        var versions = ["0.3.23","0.3.22","0.3.22","0.3.22","0.3.22"];
+        var versions = ["0.3.24","0.3.23","0.3.22","0.3.22","0.3.22"];
     </script>
 
 

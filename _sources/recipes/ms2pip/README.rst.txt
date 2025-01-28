@@ -31,10 +31,10 @@ ms2pip
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.1.0-1</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>4.0.0.dev8-0</code>,  <code>4.0.0.dev4-0</code>,  <code>3.11.0-2</code>,  <code>3.11.0-0</code>,  <code>3.10.0-0</code>,  <code>3.9.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.1.0-2</code>,  <code>4.1.0-1</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>4.0.0.dev8-0</code>,  <code>4.0.0.dev4-0</code>,  <code>3.11.0-2</code>,  <code>3.11.0-0</code>,  <code>3.10.0-0</code>,  </span></summary>
       
 
-      ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.0-0``,  ``4.0.0.dev8-0``,  ``4.0.0.dev4-0``,  ``3.11.0-2``,  ``3.11.0-0``,  ``3.10.0-0``,  ``3.9.0-0``,  ``3.6.3-1``,  ``3.6.3-0``,  ``3.6.2-0``
+      ``4.1.0-2``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.0-0``,  ``4.0.0.dev8-0``,  ``4.0.0.dev4-0``,  ``3.11.0-2``,  ``3.11.0-0``,  ``3.10.0-0``,  ``3.9.0-0``,  ``3.6.3-1``,  ``3.6.3-0``,  ``3.6.2-0``
 
       
       .. raw:: html
@@ -48,7 +48,7 @@ ms2pip
    :depends lxml: ``>=4``
    :depends ms2rescore-rs: ``>=0.4,<2``
    :depends numpy: ``>=1.21,<3``
-   :depends numpy: ``>=2.2.2,<3.0a0``
+   :depends numpy: ``>=1.25``
    :depends pandas: ``>=1,<3``
    :depends psm-utils: ``>=1.0``
    :depends pyarrow: 
@@ -115,7 +115,7 @@ ms2pip
 
     <script>
         var package = "ms2pip";
-        var versions = ["4.1.0","4.1.0","4.0.0","4.0.0.dev8","4.0.0.dev4"];
+        var versions = ["4.1.0","4.1.0","4.1.0","4.0.0","4.0.0.dev8"];
     </script>
 
 
