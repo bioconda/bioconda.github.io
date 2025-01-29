@@ -27,12 +27,13 @@ bioconductor-ucsc.utils
       
       
 
-      ``1.2.0-0``
+      ``1.2.0-1``,  ``1.2.0-0``
 
       
 
    
    :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-httr: 
    :depends r-jsonlite: 
@@ -86,7 +87,7 @@ bioconductor-ucsc.utils
 
     <script>
         var package = "bioconductor-ucsc.utils";
-        var versions = ["1.2.0"];
+        var versions = ["1.2.0","1.2.0"];
     </script>
 
 

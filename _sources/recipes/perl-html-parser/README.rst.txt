@@ -28,10 +28,10 @@ perl-html-parser
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.81-2</code>,  <code>3.81-1</code>,  <code>3.81-0</code>,  <code>3.80-0</code>,  <code>3.79-0</code>,  <code>3.78-0</code>,  <code>3.72-8</code>,  <code>3.72-7</code>,  <code>3.72-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.83-0</code>,  <code>3.81-3</code>,  <code>3.81-2</code>,  <code>3.81-1</code>,  <code>3.81-0</code>,  <code>3.80-0</code>,  <code>3.79-0</code>,  <code>3.78-0</code>,  <code>3.72-8</code>,  </span></summary>
       
 
-      ``3.81-2``,  ``3.81-1``,  ``3.81-0``,  ``3.80-0``,  ``3.79-0``,  ``3.78-0``,  ``3.72-8``,  ``3.72-7``,  ``3.72-5``,  ``3.72-4``,  ``3.72-3``,  ``3.72-2``,  ``3.72-1``,  ``3.72-0``
+      ``3.83-0``,  ``3.81-3``,  ``3.81-2``,  ``3.81-1``,  ``3.81-0``,  ``3.80-0``,  ``3.79-0``,  ``3.78-0``,  ``3.72-8``,  ``3.72-7``,  ``3.72-5``,  ``3.72-4``,  ``3.72-3``,  ``3.72-2``,  ``3.72-1``,  ``3.72-0``
 
       
       .. raw:: html
@@ -49,6 +49,10 @@ perl-html-parser
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -96,7 +100,7 @@ perl-html-parser
 
     <script>
         var package = "perl-html-parser";
-        var versions = ["3.81","3.81","3.81","3.80","3.79"];
+        var versions = ["3.83","3.81","3.81","3.81","3.81"];
     </script>
 
 

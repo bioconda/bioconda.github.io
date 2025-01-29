@@ -27,19 +27,18 @@ im2deep
       
       
 
-      ``0.3.1-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.2-0``
+      ``0.3.1-1``,  ``0.3.1-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.2-0``
 
       
 
    
    :depends click: 
    :depends deeplc: 
-   :depends deeplcretrainer: 
    :depends numpy: 
    :depends pandas: 
    :depends psm-utils: 
    :depends python: ``>=3.8``
-   :depends tensorflow: ``>=2.2,<2.13.0``
+   :depends rich: 
    :requirements:
 
    :additional platforms:
@@ -90,7 +89,7 @@ im2deep
 
     <script>
         var package = "im2deep";
-        var versions = ["0.3.1","0.2.0","0.1.9","0.1.8","0.1.7"];
+        var versions = ["0.3.1","0.3.1","0.2.0","0.1.9","0.1.8"];
     </script>
 
 

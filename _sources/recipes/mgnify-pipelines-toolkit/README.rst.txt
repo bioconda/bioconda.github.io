@@ -10,10 +10,10 @@ mgnify-pipelines-toolkit
    :replaces_section_title:
    :noindex:
 
-   Collection of scripts and tools for MGnify pipelines
+   Collection of scripts and tools for MGnify pipelines.
 
    :homepage: https://github.com/EBI-Metagenomics/mgnify-pipelines-toolkit
-   :license: Apache-2.0
+   :license: APACHE / Apache-2.0
    :recipe: /`mgnify-pipelines-toolkit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mgnify-pipelines-toolkit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mgnify-pipelines-toolkit/meta.yaml>`_
 
    This package contains a collection of scripts used by MGnify
@@ -30,10 +30,10 @@ mgnify-pipelines-toolkit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.0-0</code>,  <code>0.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-0</code>,  <code>0.1.6-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4-0</code>,  <code>0.1.3-0</code>,  <code>0.1.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-0</code>,  <code>0.1.6-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4-0</code>,  <code>0.1.3-0</code>,  </span></summary>
       
 
-      ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.9-0``
+      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.9-0``
 
       
       .. raw:: html
@@ -47,6 +47,7 @@ mgnify-pipelines-toolkit
    :depends numpy: ``1.26.0``
    :depends pandas: ``2.0.2``
    :depends pandera: 
+   :depends pyfastx: ``>=2.2.0``
    :depends python: ``>=3.9``
    :depends regex: ``2023.12.25``
    :depends requests: 
@@ -100,7 +101,7 @@ mgnify-pipelines-toolkit
 
     <script>
         var package = "mgnify-pipelines-toolkit";
-        var versions = ["0.2.0","0.1.9","0.1.8","0.1.7","0.1.6"];
+        var versions = ["0.2.1","0.2.0","0.1.9","0.1.8","0.1.7"];
     </script>
 
 

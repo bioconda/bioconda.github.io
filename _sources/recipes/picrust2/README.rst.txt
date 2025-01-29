@@ -13,7 +13,7 @@ picrust2
    PICRUSt\: Phylogenetic Investigation of Communities by Reconstruction of Unobserved States
 
    :homepage: https://github.com/picrust/picrust2
-   :license: GNU General Public License v3.0
+   :license: GPL3 / GNU General Public License v3.0
    :recipe: /`picrust2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/picrust2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/picrust2/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ picrust2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5.3-0</code>,  <code>2.5.2-0</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  <code>2.4.2-0</code>,  <code>2.4.1-0</code>,  <code>2.4.0-0</code>,  <code>2.3.0_b-0</code>,  <code>2.2.0_b-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.6.0-0</code>,  <code>2.5.3-0</code>,  <code>2.5.2-0</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  <code>2.4.2-0</code>,  <code>2.4.1-0</code>,  <code>2.4.0-0</code>,  <code>2.3.0_b-0</code>,  </span></summary>
       
 
-      ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.0_b-0``,  ``2.2.0_b-0``,  ``2.1.4_b-0``,  ``2.1.3_b-0``,  ``2.1.2_b-0``,  ``2.1.1_b-0``,  ``2.1.0_b-0``,  ``2.0.3_b-0``
+      ``2.6.0-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.0_b-0``,  ``2.2.0_b-0``,  ``2.1.4_b-0``,  ``2.1.3_b-0``,  ``2.1.2_b-0``,  ``2.1.1_b-0``,  ``2.1.0_b-0``,  ``2.0.3_b-0``
 
       
       .. raw:: html
@@ -43,6 +43,7 @@ picrust2
    :depends biom-format: ``>=2.1.10``
    :depends dendropy: ``4.5.2.*``
    :depends epa-ng: ``0.3.8.*``
+   :depends ete3: 
    :depends gappa: ``>=0.8.0,<=0.8.5``
    :depends glpk: ``>=4.65``
    :depends h5py: ``>=2.10.0``
@@ -109,7 +110,7 @@ picrust2
 
     <script>
         var package = "picrust2";
-        var versions = ["2.5.3","2.5.2","2.5.1","2.5.0","2.4.2"];
+        var versions = ["2.6.0","2.5.3","2.5.2","2.5.1","2.5.0"];
     </script>
 
 

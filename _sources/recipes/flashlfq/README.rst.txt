@@ -10,10 +10,12 @@ flashlfq
    :replaces_section_title:
    :noindex:
 
-   ultrafast label\-free quantification algorithm for mass\-spectrometry proteomics
+   Ultrafast label\-free quantification algorithm for mass\-spectrometry proteomics.
 
    :homepage: https://github.com/smith-chem-wisc/FlashLFQ
-   :license: GPL / LGPL-3.0
+   :documentation: https://github.com/smith-chem-wisc/FlashLFQ/wiki
+   
+   :license: GPL / LGPL-3.0-only
    :recipe: /`flashlfq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flashlfq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flashlfq/meta.yaml>`_
    :links: doi: :doi:`10.1021/acs.jproteome.7b00608`
 
@@ -29,10 +31,10 @@ flashlfq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.6-0</code>,  <code>1.2.5-0</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.0-0</code>,  <code>1.2.6-0</code>,  <code>1.2.5-0</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  </span></summary>
       
 
-      ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.1.112-0``,  ``0.1.111-0``,  ``0.1.110-0``,  ``0.1.109-0``,  ``0.1.108-1``,  ``0.1.108-0``,  ``0.1.105-2``,  ``0.1.105-0``,  ``0.1.101-0``,  ``0.1.100-0``
+      ``2.0.0-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.1.112-0``,  ``0.1.111-0``,  ``0.1.110-0``,  ``0.1.109-0``,  ``0.1.108-1``,  ``0.1.108-0``,  ``0.1.105-2``,  ``0.1.105-0``,  ``0.1.101-0``,  ``0.1.100-0``
 
       
       .. raw:: html
@@ -41,8 +43,8 @@ flashlfq
       
 
    
-   :depends dotnet-runtime: ``6.0.*``
-   :depends openssl: ``1.1.*``
+   :depends dotnet-runtime: ``8.0.*``
+   :depends openssl: 
    :requirements:
 
    :additional platforms:
@@ -93,7 +95,7 @@ flashlfq
 
     <script>
         var package = "flashlfq";
-        var versions = ["1.2.6","1.2.5","1.2.4","1.2.3","1.2.2"];
+        var versions = ["2.0.0","1.2.6","1.2.5","1.2.4","1.2.3"];
     </script>
 
 

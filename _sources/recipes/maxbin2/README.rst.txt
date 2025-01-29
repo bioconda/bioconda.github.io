@@ -28,10 +28,10 @@ maxbin2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.7-6</code>,  <code>2.2.7-5</code>,  <code>2.2.7-4</code>,  <code>2.2.7-3</code>,  <code>2.2.7-2</code>,  <code>2.2.7-1</code>,  <code>2.2.7-0</code>,  <code>2.2.6-0</code>,  <code>2.2.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.7-7</code>,  <code>2.2.7-6</code>,  <code>2.2.7-5</code>,  <code>2.2.7-4</code>,  <code>2.2.7-3</code>,  <code>2.2.7-2</code>,  <code>2.2.7-1</code>,  <code>2.2.7-0</code>,  <code>2.2.6-0</code>,  </span></summary>
       
 
-      ``2.2.7-6``,  ``2.2.7-5``,  ``2.2.7-4``,  ``2.2.7-3``,  ``2.2.7-2``,  ``2.2.7-1``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.1-1``,  ``2.2.1-0``
+      ``2.2.7-7``,  ``2.2.7-6``,  ``2.2.7-5``,  ``2.2.7-4``,  ``2.2.7-3``,  ``2.2.7-2``,  ``2.2.7-1``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.1-1``,  ``2.2.1-0``
 
       
       .. raw:: html
@@ -46,14 +46,18 @@ maxbin2
    :depends idba: 
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
-   :depends perl: ``5.26.*``
-   :depends perl-lwp-simple: 
+   :depends perl: 
+   :depends perl-libwww-perl: 
    :depends r-base: 
    :depends r-gplots: 
    :depends tar: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
