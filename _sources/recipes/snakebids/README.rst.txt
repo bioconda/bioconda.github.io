@@ -30,7 +30,7 @@ snakebids
       
       
 
-      ``0.13.1-0``
+      ``0.14.0-0``,  ``0.13.1-0``
 
       
 
@@ -102,7 +102,7 @@ snakebids
 
     <script>
         var package = "snakebids";
-        var versions = ["0.13.1"];
+        var versions = ["0.14.0","0.13.1"];
     </script>
 
 

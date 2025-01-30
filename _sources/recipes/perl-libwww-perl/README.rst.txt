@@ -10,9 +10,10 @@ perl-libwww-perl
    :replaces_section_title:
    :noindex:
 
-   The World\-Wide Web library for Perl
+   The World\-Wide Web library for Perl.
 
-   :homepage: http://metacpan.org/pod/libwww-perl
+   :homepage: https://metacpan.org/dist/libwww-perl
+   :developer docs: https://github.com/libwww-perl/libwww-perl
    :license: perl_5
    :recipe: /`perl-libwww-perl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-libwww-perl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-libwww-perl/meta.yaml>`_
 
@@ -28,10 +29,10 @@ perl-libwww-perl
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>6.67-0</code>,  <code>6.66-0</code>,  <code>6.64-0</code>,  <code>6.62-0</code>,  <code>6.61-0</code>,  <code>6.39-1</code>,  <code>6.39-0</code>,  <code>6.36-1</code>,  <code>6.36-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>6.68-0</code>,  <code>6.67-1</code>,  <code>6.67-0</code>,  <code>6.66-0</code>,  <code>6.64-0</code>,  <code>6.62-0</code>,  <code>6.61-0</code>,  <code>6.39-1</code>,  <code>6.39-0</code>,  </span></summary>
       
 
-      ``6.67-0``,  ``6.66-0``,  ``6.64-0``,  ``6.62-0``,  ``6.61-0``,  ``6.39-1``,  ``6.39-0``,  ``6.36-1``,  ``6.36-0``,  ``6.15-1``,  ``6.15-0``
+      ``6.68-0``,  ``6.67-1``,  ``6.67-0``,  ``6.66-0``,  ``6.64-0``,  ``6.62-0``,  ``6.61-0``,  ``6.39-1``,  ``6.39-0``,  ``6.36-1``,  ``6.36-0``,  ``6.15-1``,  ``6.15-0``
 
       
       .. raw:: html
@@ -42,6 +43,7 @@ perl-libwww-perl
    
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-base: 
+   :depends perl-data-dump: 
    :depends perl-digest-md5: 
    :depends perl-encode: 
    :depends perl-encode-locale: 
@@ -52,7 +54,9 @@ perl-libwww-perl
    :depends perl-http-date: 
    :depends perl-http-negotiate: 
    :depends perl-lwp-mediatypes: 
+   :depends perl-lwp-protocol-https: 
    :depends perl-mime-base64: 
+   :depends perl-module-load: 
    :depends perl-net-http: ``>=6.18``
    :depends perl-ntlm: 
    :depends perl-try-tiny: 
@@ -108,7 +112,7 @@ perl-libwww-perl
 
     <script>
         var package = "perl-libwww-perl";
-        var versions = ["6.67","6.66","6.64","6.62","6.61"];
+        var versions = ["6.68","6.67","6.67","6.66","6.64"];
     </script>
 
 

@@ -10,12 +10,11 @@ ms2rescore
    :replaces_section_title:
    :noindex:
 
-   MS²Rescore\: Sensitive PSM rescoring with predicted MS² peak intensities and retention times.
+   Modular and user\-friendly platform for AI\-assisted rescoring of peptide identifications
 
-   :homepage: https://compomics.github.io/projects/ms2rescore/
-   :documentation: https://ms2rescore.readthedocs.io/en/stable/
+   :homepage: https://github.com/compomics/ms2rescore
+   :documentation: https://ms2rescore.readthedocs.io/en/stable
    
-   :developer docs: https://github.com/compomics/ms2rescore
    :license: APACHE / Apache-2.0
    :recipe: /`ms2rescore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ms2rescore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ms2rescore/meta.yaml>`_
 
@@ -30,7 +29,7 @@ ms2rescore
       
       
 
-      ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-0``,  ``3.0.0b1-1``,  ``3.0.0b1-0``
+      ``3.1.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-0``,  ``3.0.0b1-1``,  ``3.0.0b1-0``
 
       
 
@@ -38,31 +37,29 @@ ms2rescore
    :depends cascade-config: ``>=0.4.0``
    :depends click: ``>=7``
    :depends customtkinter: ``>=5,<6``
-   :depends deeplc: ``>=2.2``
-   :depends deeplcretrainer: ``>=0.2``
+   :depends deeplc: ``>=3.0``
+   :depends deeplcretrainer: 
+   :depends im2deep: ``>=0.1.3``
    :depends jinja2: ``>=3``
    :depends lxml: ``>=4.5``
-   :depends matplotlib-base: 
-   :depends mokapot: ``>=0.9``
-   :depends ms2pip: ``>=4.0.0-dev8``
+   :depends mokapot: ``0.10``
+   :depends ms2pip: ``>=4.0``
    :depends ms2rescore-rs: 
-   :depends numpy: ``>=1.16.0``
-   :depends pandas: ``>=1.0``
+   :depends numpy: ``>=1.25``
+   :depends pandas: ``>=1``
    :depends plotly: ``>=5``
-   :depends psm-utils: ``>=0.4``
-   :depends pydantic: ``>=1.8.2,<2``
-   :depends pyopenms: 
-   :depends pyteomics: ``>=4.1.0,<=4.6.3``
-   :depends python: ``>=3.8``
+   :depends psm-utils: ``>=1.1``
+   :depends pyopenms: ``>=3.0``
+   :depends pyteomics: ``>=4.7.2``
+   :depends python: 
    :depends rich: ``>=12``
-   :depends seaborn: 
-   :depends sqlalchemy: ``<2,>=1.3``
-   :depends statsmodels: 
-   :depends tomli: ``>=2``
-   :depends xgboost: ``<2,>=1.3``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -110,7 +107,7 @@ ms2rescore
 
     <script>
         var package = "ms2rescore";
-        var versions = ["3.0.3","3.0.2","3.0.1","3.0.1","3.0.1"];
+        var versions = ["3.1.4","3.0.3","3.0.2","3.0.1","3.0.1"];
     </script>
 
 

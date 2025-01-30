@@ -28,7 +28,7 @@ r-ukbrapr
       
       
 
-      ``0.2.9-0``
+      ``0.3.0-0``,  ``0.2.9-0``
 
       
 
@@ -97,7 +97,7 @@ r-ukbrapr
 
     <script>
         var package = "r-ukbrapr";
-        var versions = ["0.2.9"];
+        var versions = ["0.3.0","0.2.9"];
     </script>
 
 

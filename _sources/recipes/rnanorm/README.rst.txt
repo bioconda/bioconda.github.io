@@ -27,7 +27,7 @@ rnanorm
       
       
 
-      ``2.1.0-0``
+      ``2.2.0-0``,  ``2.1.0-0``
 
       
 
@@ -88,7 +88,7 @@ rnanorm
 
     <script>
         var package = "rnanorm";
-        var versions = ["2.1.0"];
+        var versions = ["2.2.0","2.1.0"];
     </script>
 
 

@@ -16,7 +16,7 @@ matchtigs
    :homepage: https://github.com/algbio/matchtigs
    :license: MIT / MIT
    :recipe: /`matchtigs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/matchtigs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/matchtigs/meta.yaml>`_
-   :links: doi: :doi:`10.1186/s13059-023-02968-z`
+   :links: doi: :doi:`10.1186/s13059-023-02968-z`, doi: :doi:`10.1186/s13015-023-00227-1`
 
    
 
@@ -30,10 +30,10 @@ matchtigs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.7-2</code>,  <code>2.1.7-1</code>,  <code>2.1.7-0</code>,  <code>2.1.5-0</code>,  <code>1.5.5-0</code>,  <code>1.5.3-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.9-0</code>,  <code>2.1.7-2</code>,  <code>2.1.7-1</code>,  <code>2.1.7-0</code>,  <code>2.1.5-0</code>,  <code>1.5.5-0</code>,  <code>1.5.3-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  </span></summary>
       
 
-      ``2.1.7-2``,  ``2.1.7-1``,  ``2.1.7-0``,  ``2.1.5-0``,  ``1.5.5-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``2.1.9-0``,  ``2.1.7-2``,  ``2.1.7-1``,  ``2.1.7-0``,  ``2.1.5-0``,  ``1.5.5-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -97,7 +97,7 @@ matchtigs
 
     <script>
         var package = "matchtigs";
-        var versions = ["2.1.7","2.1.7","2.1.7","2.1.5","1.5.5"];
+        var versions = ["2.1.9","2.1.7","2.1.7","2.1.7","2.1.5"];
     </script>
 
 
