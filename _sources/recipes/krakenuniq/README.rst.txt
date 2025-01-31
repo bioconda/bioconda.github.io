@@ -29,10 +29,10 @@ krakenuniq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1a-1</code>,  <code>1.0.1a-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.4-4</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1a-1</code>,  </span></summary>
       
 
-      ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1a-1``,  ``1.0.1a-0``,  ``1.0.0-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7-0``,  ``0.6-2``,  ``0.6-1``,  ``0.6-0``,  ``0.5.8-4``,  ``0.5.8-3``,  ``0.5.8-2``,  ``0.5.8-1``,  ``0.5.8-0``,  ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.3-0``,  ``0.5.2-0``
+      ``1.0.4-4``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1a-1``,  ``1.0.1a-0``,  ``1.0.0-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7-0``,  ``0.6-2``,  ``0.6-1``,  ``0.6-0``,  ``0.5.8-4``,  ``0.5.8-3``,  ``0.5.8-2``,  ``0.5.8-1``,  ``0.5.8-0``,  ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.3-0``,  ``0.5.2-0``
 
       
       .. raw:: html
@@ -46,9 +46,9 @@ krakenuniq
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends curl: 
    :depends kmer-jellyfish: ``>=1,<2``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-libwww-perl: 
    :depends perl-lwp-protocol-https: 
@@ -58,6 +58,10 @@ krakenuniq
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -105,7 +109,7 @@ krakenuniq
 
     <script>
         var package = "krakenuniq";
-        var versions = ["1.0.4","1.0.4","1.0.4","1.0.3","1.0.3"];
+        var versions = ["1.0.4","1.0.4","1.0.4","1.0.4","1.0.3"];
     </script>
 
 

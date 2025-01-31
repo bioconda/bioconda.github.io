@@ -28,12 +28,11 @@ r-ukbrapr
       
       
 
-      ``0.3.0-0``,  ``0.2.9-0``
+      ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.9-0``
 
       
 
    
-   :depends r-arrow: ``>=13.0.0``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cli: ``>=3.6.1``
    :depends r-dplyr: ``>=1.1.0``
@@ -43,9 +42,7 @@ r-ukbrapr
    :depends r-prettyunits: ``>=1.0.0``
    :depends r-purrr: ``>=1.0.0``
    :depends r-readr: ``>=2.0.0``
-   :depends r-reticulate: ``>=1.34.0``
    :depends r-rlang: ``>=1.0.0``
-   :depends r-sparklyr: ``>=1.8.4``
    :depends r-stringr: ``>=1.5.0``
    :requirements:
 
@@ -97,7 +94,7 @@ r-ukbrapr
 
     <script>
         var package = "r-ukbrapr";
-        var versions = ["0.3.0","0.2.9"];
+        var versions = ["0.3.0","0.3.0","0.2.9"];
     </script>
 
 

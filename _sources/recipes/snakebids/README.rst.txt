@@ -30,7 +30,7 @@ snakebids
       
       
 
-      ``0.14.0-0``,  ``0.13.1-0``
+      ``0.14.0-1``,  ``0.14.0-0``,  ``0.13.1-0``
 
       
 
@@ -49,6 +49,7 @@ snakebids
    :depends pybids: ``>=0.16.0,<0.17``
    :depends python: ``>=3.8,<4.0``
    :depends requests: ``>=2.31.0``
+   :depends ruamel.yaml: ``>=0.17.2``
    :depends scipy: ``>=1.10.0``
    :depends snakemake: ``>=7.18.2``
    :depends typing_extensions: ``>=3.10.0``
@@ -102,7 +103,7 @@ snakebids
 
     <script>
         var package = "snakebids";
-        var versions = ["0.14.0","0.13.1"];
+        var versions = ["0.14.0","0.14.0","0.13.1"];
     </script>
 
 
