@@ -41,10 +41,10 @@ gtotree
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.8.8-1</code>,  <code>1.8.8-0</code>,  <code>1.8.7-0</code>,  <code>1.8.6-0</code>,  <code>1.8.5-0</code>,  <code>1.8.4-0</code>,  <code>1.8.3-0</code>,  <code>1.8.2-0</code>,  <code>1.8.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8.9-0</code>,  <code>1.8.8-1</code>,  <code>1.8.8-0</code>,  <code>1.8.7-0</code>,  <code>1.8.6-0</code>,  <code>1.8.5-0</code>,  <code>1.8.4-0</code>,  <code>1.8.3-0</code>,  <code>1.8.2-0</code>,  </span></summary>
       
 
-      ``1.8.8-1``,  ``1.8.8-0``,  ``1.8.7-0``,  ``1.8.6-0``,  ``1.8.5-0``,  ``1.8.4-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.8.1-0``,  ``1.7.10-0``,  ``1.7.08-0``,  ``1.7.07-0``,  ``1.7.06-0``,  ``1.7.05-1``
+      ``1.8.9-0``,  ``1.8.8-1``,  ``1.8.8-0``,  ``1.8.7-0``,  ``1.8.6-0``,  ``1.8.5-0``,  ``1.8.4-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.8.1-0``,  ``1.7.10-0``,  ``1.7.08-0``,  ``1.7.07-0``,  ``1.7.06-0``,  ``1.7.05-1``
 
       
       .. raw:: html
@@ -124,7 +124,7 @@ gtotree
 
     <script>
         var package = "gtotree";
-        var versions = ["1.8.8","1.8.8","1.8.7","1.8.6","1.8.5"];
+        var versions = ["1.8.9","1.8.8","1.8.8","1.8.7","1.8.6"];
     </script>
 
 

@@ -30,7 +30,7 @@ nafcodec
       
       
 
-      ``0.2.0-0``
+      ``0.3.1-1``,  ``0.3.1-0``,  ``0.2.0-0``
 
       
 
@@ -43,7 +43,7 @@ nafcodec
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>osx-arm64</code></span>
+         <span class="additional-platforms"><code>osx-arm64</code>,  <code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -91,7 +91,7 @@ nafcodec
 
     <script>
         var package = "nafcodec";
-        var versions = ["0.2.0"];
+        var versions = ["0.3.1","0.3.1","0.2.0"];
     </script>
 
 
