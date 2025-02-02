@@ -10,10 +10,10 @@ msstitch
    :replaces_section_title:
    :noindex:
 
-   MS proteomics post processing utilities
+   MS proteomics post processing utilities.
 
    :homepage: https://github.com/lehtiolab/msstitch
-   :license: MIT / MIT License
+   :license: MIT / MIT
    :recipe: /`msstitch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msstitch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msstitch/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ msstitch
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.16-0</code>,  <code>3.15-0</code>,  <code>3.14-0</code>,  <code>3.13-0</code>,  <code>3.12-0</code>,  <code>3.11-0</code>,  <code>3.10-0</code>,  <code>3.9-0</code>,  <code>3.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.17-0</code>,  <code>3.16-0</code>,  <code>3.15-0</code>,  <code>3.14-0</code>,  <code>3.13-0</code>,  <code>3.12-0</code>,  <code>3.11-0</code>,  <code>3.10-0</code>,  <code>3.9-0</code>,  </span></summary>
       
 
-      ``3.16-0``,  ``3.15-0``,  ``3.14-0``,  ``3.13-0``,  ``3.12-0``,  ``3.11-0``,  ``3.10-0``,  ``3.9-0``,  ``3.8-0``,  ``3.7-0``,  ``3.6-0``,  ``3.5-0``,  ``3.4-0``,  ``3.3-0``,  ``3.2-0``,  ``3.1-0``,  ``3.0-0``,  ``2.19-0``,  ``2.18-0``,  ``2.17-0``,  ``2.16-0``,  ``2.15-0``,  ``2.14-0``,  ``2.13-1``,  ``2.13-0``,  ``2.12-0``,  ``2.11-0``,  ``2.10-0``,  ``2.9-0``,  ``2.8-0``,  ``2.7-0``,  ``2.6-0``,  ``2.5-0``,  ``2.4-0``,  ``2.3-0``,  ``2.2-0``,  ``1.0-1``,  ``1.0-0``
+      ``3.17-0``,  ``3.16-0``,  ``3.15-0``,  ``3.14-0``,  ``3.13-0``,  ``3.12-0``,  ``3.11-0``,  ``3.10-0``,  ``3.9-0``,  ``3.8-0``,  ``3.7-0``,  ``3.6-0``,  ``3.5-0``,  ``3.4-0``,  ``3.3-0``,  ``3.2-0``,  ``3.1-0``,  ``3.0-0``,  ``2.19-0``,  ``2.18-0``,  ``2.17-0``,  ``2.16-0``,  ``2.15-0``,  ``2.14-0``,  ``2.13-1``,  ``2.13-0``,  ``2.12-0``,  ``2.11-0``,  ``2.10-0``,  ``2.9-0``,  ``2.8-0``,  ``2.7-0``,  ``2.6-0``,  ``2.5-0``,  ``2.4-0``,  ``2.3-0``,  ``2.2-0``,  ``1.0-1``,  ``1.0-0``
 
       
       .. raw:: html
@@ -94,7 +94,7 @@ msstitch
 
     <script>
         var package = "msstitch";
-        var versions = ["3.16","3.15","3.14","3.13","3.12"];
+        var versions = ["3.17","3.16","3.15","3.14","3.13"];
     </script>
 
 
