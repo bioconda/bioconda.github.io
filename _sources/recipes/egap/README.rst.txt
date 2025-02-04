@@ -13,12 +13,12 @@ egap
    EGAP pipeline for genome assembly and analysis
 
    :homepage: https://github.com/iPsychonaut/EGAP
-   :license: MIT
+   :license: BSD 3-Clause License
    :recipe: /`egap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/egap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/egap/meta.yaml>`_
 
    EGAP \(Entheome Genome Assembly Pipeline\) is a versatile bioinformatics pipeline
-   designed to produce high\-quality genome assemblies from Oxford Nanopore
-   Technologies \(ONT\) and\/or Illumina sequencing data.
+   for hybrid genome assembly from Oxford Nanopore\, Illumina \(and in the future PacBio\)
+   data. It supports multiple input modes and assembly methods.
 
 
 
@@ -30,7 +30,7 @@ egap
       
       
 
-      ``2.5.3-0``
+      ``2.5.4-0``,  ``2.5.3-0``
 
       
 
@@ -58,7 +58,6 @@ egap
    :depends racon: ``>=1.5.0``
    :depends ragtag: ``>=2.1.0``
    :depends ratatosk: ``>=0.9.0``
-   :depends runner: ``>=1.3``
    :depends samtools: ``>=1.21``
    :depends sepp: ``>=4.5.1``
    :depends spades: ``>=4.0.0``
@@ -115,7 +114,7 @@ egap
 
     <script>
         var package = "egap";
-        var versions = ["2.5.3"];
+        var versions = ["2.5.4","2.5.3"];
     </script>
 
 

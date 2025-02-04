@@ -10,9 +10,11 @@ seismic-rna
    :replaces_section_title:
    :noindex:
 
-   SEISMIC\-RNA software by the Rouskin Lab
+   SEISMIC\-RNA software by the Rouskin Lab.
 
    :homepage: https://github.com/rouskinlab/seismic-rna
+   :documentation: https://rouskinlab.github.io/seismic-rna
+   
    :license: `GPL3 / GPL-3.0-only <https://www.gnu.org/licenses/gpl-3.0.html>`_
    :recipe: /`seismic-rna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seismic-rna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seismic-rna/meta.yaml>`_
 
@@ -28,10 +30,10 @@ seismic-rna
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.22.3-1</code>,  <code>0.22.3-0</code>,  <code>0.22.1-0</code>,  <code>0.22.0-0</code>,  <code>0.21.1-1</code>,  <code>0.21.1-0</code>,  <code>0.21.0-0</code>,  <code>0.20.1-0</code>,  <code>0.20.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.23.0-0</code>,  <code>0.22.3-1</code>,  <code>0.22.3-0</code>,  <code>0.22.1-0</code>,  <code>0.22.0-0</code>,  <code>0.21.1-1</code>,  <code>0.21.1-0</code>,  <code>0.21.0-0</code>,  <code>0.20.1-0</code>,  </span></summary>
       
 
-      ``0.22.3-1``,  ``0.22.3-0``,  ``0.22.1-0``,  ``0.22.0-0``,  ``0.21.1-1``,  ``0.21.1-0``,  ``0.21.0-0``,  ``0.20.1-0``,  ``0.20.0-1``,  ``0.20.0-0``,  ``0.19.2-0``
+      ``0.23.0-0``,  ``0.22.3-1``,  ``0.22.3-0``,  ``0.22.1-0``,  ``0.22.0-0``,  ``0.21.1-1``,  ``0.21.1-0``,  ``0.21.0-0``,  ``0.20.1-0``,  ``0.20.0-1``,  ``0.20.0-0``,  ``0.19.2-0``
 
       
       .. raw:: html
@@ -50,12 +52,11 @@ seismic-rna
    :depends networkx: ``>=3.4``
    :depends numba: ``>=0.60``
    :depends numpy: ``>=1.26,<1.27``
-   :depends numpy: ``>=1.26.4,<2.0a0``
    :depends pandas: ``>=2.2``
    :depends plotly: ``>=5.23``
-   :depends python: ``>=3.12,<3.13.0a0``
+   :depends python: ``>=3.10,<3.11.0a0``
    :depends python-kaleido: ``>=0.2.1``
-   :depends python_abi: ``3.12.* *_cp312``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends pyyaml: ``>=6.0``
    :depends rnastructure: ``>=6.4``
    :depends samtools: ``>=1.20``
@@ -114,7 +115,7 @@ seismic-rna
 
     <script>
         var package = "seismic-rna";
-        var versions = ["0.22.3","0.22.3","0.22.1","0.22.0","0.21.1"];
+        var versions = ["0.23.0","0.22.3","0.22.3","0.22.1","0.22.0"];
     </script>
 
 

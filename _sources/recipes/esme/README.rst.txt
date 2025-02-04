@@ -17,13 +17,13 @@ esme
    :recipe: /`esme <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/esme>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/esme/meta.yaml>`_
 
    ESME \(Earth System Modelling Environment\) is a package designed to facilitate the installation and management of various scientific computing libraries with support for multiple MPI implementations \(namely MPIch\, OpenMPI\, MVAPIch and ParaStationMPI\). This bundle currently includes\:
-     \- PnetCDF\: Version 1.14.0
-     \- HDF5\: Version 1.14.5
-     \- netCDF\_C\: Version 4.9.2
-     \- netCDF\_Fortran\: Version 4.6.1
-     \- ParallelIO\: Version 2.6.2
-     \- ESMF\: Version 8.8.0
-     \- OSU\_Micro\_Benchmarks\: Version 7.5
+   \- PnetCDF\: Version 1.14.0
+   \- HDF5\: Version 1.14.5
+   \- netCDF\_C\: Version 4.9.2
+   \- netCDF\_Fortran\: Version 4.6.1
+   \- ParallelIO\: Version 2.6.2 
+   \- ESMF\: Version 8.8.0
+   \- OSU\_Micro\_Benchmarks\: Version 7.5
 
 
 
@@ -35,7 +35,7 @@ esme
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -45,8 +45,12 @@ esme
    :depends gcc_linux-64: ``13.*``
    :depends gfortran_linux-64: ``13.*``
    :depends gxx_linux-64: ``13.*``
+   :depends make: 
    :depends mpich: 
    :depends omb_mpich: 
+   :depends perl: 
+   :depends perl-xml-libxml: 
+   :depends python: ``3.8.*``
    :requirements:
 
    :additional platforms:
@@ -97,7 +101,7 @@ esme
 
     <script>
         var package = "esme";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

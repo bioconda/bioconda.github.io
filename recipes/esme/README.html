@@ -79,16 +79,14 @@
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/esme">esme</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/esme/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<dl class="simple">
-<dt>ESME (Earth System Modelling Environment) is a package designed to facilitate the installation and management of various scientific computing libraries with support for multiple MPI implementations (namely MPIch, OpenMPI, MVAPIch and ParaStationMPI). This bundle currently includes:</dt><dd><p>- PnetCDF: Version 1.14.0
+<p>ESME (Earth System Modelling Environment) is a package designed to facilitate the installation and management of various scientific computing libraries with support for multiple MPI implementations (namely MPIch, OpenMPI, MVAPIch and ParaStationMPI). This bundle currently includes:
+- PnetCDF: Version 1.14.0
 - HDF5: Version 1.14.5
 - netCDF_C: Version 4.9.2
 - netCDF_Fortran: Version 4.6.1
 - ParallelIO: Version 2.6.2
 - ESMF: Version 8.8.0
 - OSU_Micro_Benchmarks: Version 7.5</p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="conda package">
@@ -98,7 +96,7 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/esme"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/esme.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/esme"><img alt="docker_esme" src="https://quay.io/repository/biocontainers/esme/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
 </dd>
 <dt class="field-even">depends cmake<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
@@ -113,10 +111,19 @@
 <dt class="field-even">depends gxx_linux-64<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">13.*</span></code></p>
 </dd>
-<dt class="field-odd">depends mpich<span class="colon">:</span></dt>
+<dt class="field-odd">depends make<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends omb_mpich<span class="colon">:</span></dt>
+<dt class="field-even">depends mpich<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends omb_mpich<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends perl<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends perl-xml-libxml<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends python<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">3.8.*</span></code></p>
+</dd>
 <dt class="field-odd">requirements<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">additional platforms<span class="colon">:</span></dt>
@@ -155,7 +162,7 @@ others.</p>
 
 <script>
     var package = "esme";
-    var versions = ["1.0.0"];
+    var versions = ["1.0.0","1.0.0"];
 </script><dl class="conda package">
 <dt class="sig sig-object conda" id="package-esmf_">
 <em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">esmf_</span></span><a class="headerlink" href="#package-esmf_" title="Link to this definition">¶</a></dt>

@@ -10,12 +10,12 @@ eukcc
    :replaces_section_title:
    :noindex:
 
-   Check eukaryotic genomes or MAGs for completeness and contamination
+   Check eukaryotic genomes or MAGs for completeness and contamination.
 
-   :homepage: https://github.com/Finn-Lab/EukCC/
-   :documentation: https://eukcc.readthedocs.io/en/latest/
+   :homepage: https://github.com/Finn-Lab/EukCC
+   :documentation: https://eukcc.readthedocs.io/en/latest
    
-   :license: GPL3 / GNU General Public v3 (GPLv3)
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`eukcc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eukcc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eukcc/meta.yaml>`_
 
    
@@ -29,11 +29,12 @@ eukcc
       
       
 
-      ``2.1.0-0``,  ``2.0-0``,  ``0.3-0``,  ``0.2-1``,  ``0.2-0``,  ``0.1.5.1-0``,  ``0.1.4.6-0``
+      ``2.1.3-0``,  ``2.1.0-0``,  ``2.0-0``,  ``0.3-0``,  ``0.2-1``,  ``0.2-0``,  ``0.1.5.1-0``,  ``0.1.4.6-0``
 
       
 
    
+   :depends biopython: ``1.83``
    :depends bwa: 
    :depends configargparse: 
    :depends epa-ng: ``0.3.8.*``
@@ -44,9 +45,9 @@ eukcc
    :depends numpy: 
    :depends pplacer: 
    :depends pysam: 
-   :depends python: 
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.8``
    :depends samtools: ``>=1.12``
+   :depends six: 
    :requirements:
 
    :additional platforms:
@@ -97,7 +98,7 @@ eukcc
 
     <script>
         var package = "eukcc";
-        var versions = ["2.1.0","2.0","0.3","0.2","0.2"];
+        var versions = ["2.1.3","2.1.0","2.0","0.3","0.2"];
     </script>
 
 

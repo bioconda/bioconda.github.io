@@ -29,13 +29,13 @@ sylph-tax
       
       
 
-      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends pandas: 
-   :depends python: ``>3``
+   :depends python: ``>=3.7``
    :depends requests: 
    :requirements:
 
@@ -87,7 +87,7 @@ sylph-tax
 
     <script>
         var package = "sylph-tax";
-        var versions = ["1.1.1","1.1.0","1.0.0"];
+        var versions = ["1.1.1","1.1.1","1.1.0","1.0.0"];
     </script>
 
 

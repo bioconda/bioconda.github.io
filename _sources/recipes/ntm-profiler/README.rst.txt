@@ -28,10 +28,10 @@ ntm-profiler
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.1-0</code>,  <code>0.1.0-0</code>,  <code>0.0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.1-0</code>,  <code>0.1.0-0</code>,  </span></summary>
       
 
-      ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -41,8 +41,7 @@ ntm-profiler
 
    
    :depends jinja2: 
-   :depends mash: ``2.3.*``
-   :depends pathogen-profiler: ``4.1.0.*``
+   :depends pathogen-profiler: ``4.7.0.*``
    :depends python: ``>=3.7``
    :depends sourmash: ``>=4.8.3``
    :requirements:
@@ -95,7 +94,7 @@ ntm-profiler
 
     <script>
         var package = "ntm-profiler";
-        var versions = ["0.5.0","0.4.0","0.3.0","0.2.2","0.2.1"];
+        var versions = ["0.6.0","0.5.0","0.4.0","0.3.0","0.2.2"];
     </script>
 
 

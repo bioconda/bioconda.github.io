@@ -13,7 +13,7 @@ transannot
    TransAnnot\: a fast transcriptome annotation pipeline.
 
    :homepage: https://github.com/soedinglab/transannot
-   :documentation: https://github.com/soedinglab/transannot/blob/master/README.md
+   :documentation: https://github.com/soedinglab/transannot/blob/4-8cd2fdc/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`transannot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transannot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transannot/meta.yaml>`_
@@ -30,7 +30,7 @@ transannot
       
       
 
-      ``4.0.0-0``,  ``3.70b2a60-1``,  ``3.70b2a60-0``,  ``3.7f1c8e1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``1.fa9ebab-0``
+      ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.70b2a60-1``,  ``3.70b2a60-0``,  ``3.7f1c8e1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``1.fa9ebab-0``
 
       
 
@@ -38,11 +38,13 @@ transannot
    :depends _openmp_mutex: ``>=4.5``
    :depends aria2: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends cuda-cudart: ``>=12.8.57,<13.0a0``
+   :depends gawk: 
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends perl: 
-   :depends wget: 
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    :additional platforms:
@@ -97,7 +99,7 @@ transannot
 
     <script>
         var package = "transannot";
-        var versions = ["4.0.0","3.70b2a60","3.70b2a60","3.7f1c8e1","3.0.0"];
+        var versions = ["4.0.0","4.0.0","4.0.0","3.70b2a60","3.70b2a60"];
     </script>
 
 

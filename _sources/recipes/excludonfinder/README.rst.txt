@@ -27,7 +27,7 @@ excludonfinder
       
       
 
-      ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-3``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-3``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
@@ -35,7 +35,6 @@ excludonfinder
    :depends bioconductor-rtracklayer: ``>=1.54.0``
    :depends bwa-mem2: ``>=2.2.1``
    :depends minimap2: ``>=2.24``
-   :depends parallel: ``>=20211022``
    :depends r-base: ``>=4.1``
    :depends r-biocmanager: ``>=1.30.19``
    :depends r-data.table: ``>=1.14``
@@ -94,7 +93,7 @@ excludonfinder
 
     <script>
         var package = "excludonfinder";
-        var versions = ["0.1.4","0.1.3","0.1.2","0.1.1","0.1.1"];
+        var versions = ["0.1.4","0.1.4","0.1.3","0.1.2","0.1.1"];
     </script>
 
 
