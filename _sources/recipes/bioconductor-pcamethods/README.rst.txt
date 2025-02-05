@@ -29,10 +29,10 @@ bioconductor-pcamethods
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.98.0-0</code>,  <code>1.94.0-1</code>,  <code>1.94.0-0</code>,  <code>1.92.0-0</code>,  <code>1.90.0-1</code>,  <code>1.90.0-0</code>,  <code>1.86.0-2</code>,  <code>1.86.0-1</code>,  <code>1.86.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.98.0-1</code>,  <code>1.98.0-0</code>,  <code>1.94.0-1</code>,  <code>1.94.0-0</code>,  <code>1.92.0-0</code>,  <code>1.90.0-1</code>,  <code>1.90.0-0</code>,  <code>1.86.0-2</code>,  <code>1.86.0-1</code>,  </span></summary>
       
 
-      ``1.98.0-0``,  ``1.94.0-1``,  ``1.94.0-0``,  ``1.92.0-0``,  ``1.90.0-1``,  ``1.90.0-0``,  ``1.86.0-2``,  ``1.86.0-1``,  ``1.86.0-0``,  ``1.84.0-0``,  ``1.82.0-1``,  ``1.82.0-0``,  ``1.80.0-0``,  ``1.78.0-0``,  ``1.76.0-1``,  ``1.74.0-0``,  ``1.72.0-0``,  ``1.70.0-0``,  ``1.68.0-0``,  ``1.64.0-2``,  ``1.64.0-1``,  ``1.64.0-0``
+      ``1.98.0-1``,  ``1.98.0-0``,  ``1.94.0-1``,  ``1.94.0-0``,  ``1.92.0-0``,  ``1.90.0-1``,  ``1.90.0-0``,  ``1.86.0-2``,  ``1.86.0-1``,  ``1.86.0-0``,  ``1.84.0-0``,  ``1.82.0-1``,  ``1.82.0-0``,  ``1.80.0-0``,  ``1.78.0-0``,  ``1.76.0-1``,  ``1.74.0-0``,  ``1.72.0-0``,  ``1.70.0-0``,  ``1.68.0-0``,  ``1.64.0-2``,  ``1.64.0-1``,  ``1.64.0-0``
 
       
       .. raw:: html
@@ -58,7 +58,7 @@ bioconductor-pcamethods
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -106,7 +106,7 @@ bioconductor-pcamethods
 
     <script>
         var package = "bioconductor-pcamethods";
-        var versions = ["1.98.0","1.94.0","1.94.0","1.92.0","1.90.0"];
+        var versions = ["1.98.0","1.98.0","1.94.0","1.94.0","1.92.0"];
     </script>
 
 

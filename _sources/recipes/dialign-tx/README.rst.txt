@@ -10,11 +10,14 @@ dialign-tx
    :replaces_section_title:
    :noindex:
 
-   DIALIGN\-TX is a greedy and progressive approaches for segment\-based multiple sequence alignment
+   DIALIGN\-TX is a greedy and progressive approaches for segment\-based multiple sequence alignment.
 
-   :homepage: https://dialign-tx.gobics.de
-   :license: LGPL
+   :homepage: https://dialign.gobics.de
+   :documentation: http://dialign-tx.gobics.de
+   
+   :license: LGPL / LGPL-2.1-or-later
    :recipe: /`dialign-tx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dialign-tx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dialign-tx/meta.yaml>`_
+   :links: doi: :doi:`10.1093/nar/gkq442`, biotools: :biotools:`dialign-tx`
 
    
 
@@ -27,7 +30,7 @@ dialign-tx
       
       
 
-      ``1.0.2-7``,  ``1.0.2-5``,  ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``1.0.2-8``,  ``1.0.2-7``,  ``1.0.2-5``,  ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
 
@@ -39,7 +42,7 @@ dialign-tx
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

@@ -28,10 +28,10 @@ nanocaller
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.6.1-0</code>,  <code>3.6.0-2</code>,  <code>3.6.0-1</code>,  <code>3.6.0-0</code>,  <code>3.5.0-0</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.0-0</code>,  <code>3.2.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.6.1-1</code>,  <code>3.6.1-0</code>,  <code>3.6.0-2</code>,  <code>3.6.0-1</code>,  <code>3.6.0-0</code>,  <code>3.5.0-0</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.0-0</code>,  </span></summary>
       
 
-      ``3.6.1-0``,  ``3.6.0-2``,  ``3.6.0-1``,  ``3.6.0-0``,  ``3.5.0-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``
+      ``3.6.1-1``,  ``3.6.1-0``,  ``3.6.0-2``,  ``3.6.0-1``,  ``3.6.0-0``,  ``3.5.0-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``
 
       
       .. raw:: html
@@ -49,7 +49,7 @@ nanocaller
    :depends python: ``>=3.8``
    :depends rtg-tools: 
    :depends samtools: ``>=1.10``
-   :depends tensorflow: ``>=2.4``
+   :depends tensorflow: ``>=2.4,<=2.15.0``
    :depends tqdm: 
    :depends vcflib: 
    :depends whatshap: ``>=2.2``
@@ -103,7 +103,7 @@ nanocaller
 
     <script>
         var package = "nanocaller";
-        var versions = ["3.6.1","3.6.0","3.6.0","3.6.0","3.5.0"];
+        var versions = ["3.6.1","3.6.1","3.6.0","3.6.0","3.6.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ perl-file-copy-link
       
       
 
-      ``0.140-7``,  ``0.140-6``,  ``0.140-5``,  ``0.140-4``,  ``0.140-3``,  ``0.140-2``,  ``0.140-1``,  ``0.140-0``
+      ``0.200-0``,  ``0.140-7``,  ``0.140-6``,  ``0.140-5``,  ``0.140-4``,  ``0.140-3``,  ``0.140-2``,  ``0.140-1``,  ``0.140-0``
 
       
 
@@ -38,6 +38,10 @@ perl-file-copy-link
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -85,7 +89,7 @@ perl-file-copy-link
 
     <script>
         var package = "perl-file-copy-link";
-        var versions = ["0.140","0.140","0.140","0.140","0.140"];
+        var versions = ["0.200","0.140","0.140","0.140","0.140"];
     </script>
 
 

@@ -10,10 +10,10 @@ perl-data-uuid
    :replaces_section_title:
    :noindex:
 
-   Globally\/Universally Unique Identifiers \(GUIDs\/UUIDs\)
+   Globally\/Universally Unique Identifiers \(GUIDs\/UUIDs\).
 
-   :homepage: http://metacpan.org/pod/Data::UUID
-   :license: bsd
+   :homepage: https://metacpan.org/pod/Data::UUID
+   :license: BSD
    :recipe: /`perl-data-uuid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-uuid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-uuid/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ perl-data-uuid
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.226-4</code>,  <code>1.226-3</code>,  <code>1.226-2</code>,  <code>1.226-1</code>,  <code>1.226-0</code>,  <code>1.224-1</code>,  <code>1.224-0</code>,  <code>1.221-5</code>,  <code>1.221-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.227-1</code>,  <code>1.227-0</code>,  <code>1.226-4</code>,  <code>1.226-3</code>,  <code>1.226-2</code>,  <code>1.226-1</code>,  <code>1.226-0</code>,  <code>1.224-1</code>,  <code>1.224-0</code>,  </span></summary>
       
 
-      ``1.226-4``,  ``1.226-3``,  ``1.226-2``,  ``1.226-1``,  ``1.226-0``,  ``1.224-1``,  ``1.224-0``,  ``1.221-5``,  ``1.221-4``,  ``1.221-3``,  ``1.221-2``,  ``1.221-1``,  ``1.221-0``
+      ``1.227-1``,  ``1.227-0``,  ``1.226-4``,  ``1.226-3``,  ``1.226-2``,  ``1.226-1``,  ``1.226-0``,  ``1.224-1``,  ``1.224-0``,  ``1.221-5``,  ``1.221-4``,  ``1.221-3``,  ``1.221-2``,  ``1.221-1``,  ``1.221-0``
 
       
       .. raw:: html
@@ -47,6 +47,10 @@ perl-data-uuid
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -94,7 +98,7 @@ perl-data-uuid
 
     <script>
         var package = "perl-data-uuid";
-        var versions = ["1.226","1.226","1.226","1.226","1.226"];
+        var versions = ["1.227","1.227","1.226","1.226","1.226"];
     </script>
 
 

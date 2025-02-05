@@ -27,7 +27,7 @@ biobox_add_taxid
       
       
 
-      ``0.6-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3-0``
+      ``1.0-0``,  ``0.6-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3-0``
 
       
 
@@ -83,7 +83,7 @@ biobox_add_taxid
 
     <script>
         var package = "biobox_add_taxid";
-        var versions = ["0.6","0.5","0.4","0.3"];
+        var versions = ["1.0","0.6","0.5","0.4","0.3"];
     </script>
 
 

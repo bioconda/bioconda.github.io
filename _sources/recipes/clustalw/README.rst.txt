@@ -12,10 +12,12 @@ clustalw
 
    ClustalW2 is a general purpose multiple sequence alignment program for DNA or proteins.
 
-   :homepage: http://www.clustal.org/clustal2/
-   :license: GNU Lesser GPL
+   :homepage: http://www.clustal.org/clustal2
+   :documentation: http://www.clustal.org/download/clustalw_help.txt
+   
+   :license: LGPL / LGPL-3.0-or-later
    :recipe: /`clustalw <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clustalw>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clustalw/meta.yaml>`_
-   :links: biotools: :biotools:`trinity`, doi: :doi:`10.1038/nbt.1883`, usegalaxy-eu: :usegalaxy-eu:`clustalw`
+   :links: biotools: :biotools:`clustalw_biolib`, biotools: :biotools:`ClustalW2_Phylogeny_API_EBI`, biotools: :biotools:`clustalw2_phylogeny_ebi`, biotools: :biotools:`clustalw2_ebi`, doi: :doi:`10.1093/bioinformatics/btm404`, doi: :doi:`10.1093/nar/22.22.4673`, usegalaxy-eu: :usegalaxy-eu:`clustalw`
 
    
 
@@ -29,10 +31,10 @@ clustalw
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1-11</code>,  <code>2.1-10</code>,  <code>2.1-9</code>,  <code>2.1-8</code>,  <code>2.1-7</code>,  <code>2.1-6</code>,  <code>2.1-5</code>,  <code>2.1-4</code>,  <code>2.1-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1-12</code>,  <code>2.1-11</code>,  <code>2.1-10</code>,  <code>2.1-9</code>,  <code>2.1-8</code>,  <code>2.1-7</code>,  <code>2.1-6</code>,  <code>2.1-5</code>,  <code>2.1-4</code>,  </span></summary>
       
 
-      ``2.1-11``,  ``2.1-10``,  ``2.1-9``,  ``2.1-8``,  ``2.1-7``,  ``2.1-6``,  ``2.1-5``,  ``2.1-4``,  ``2.1-3``,  ``2.1-2``,  ``2.1-1``,  ``2.1-0``
+      ``2.1-12``,  ``2.1-11``,  ``2.1-10``,  ``2.1-9``,  ``2.1-8``,  ``2.1-7``,  ``2.1-6``,  ``2.1-5``,  ``2.1-4``,  ``2.1-3``,  ``2.1-2``,  ``2.1-1``,  ``2.1-0``
 
       
       .. raw:: html
@@ -49,7 +51,7 @@ clustalw
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

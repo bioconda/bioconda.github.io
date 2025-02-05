@@ -13,7 +13,7 @@ krbalancing
    This is a c\+\+ extension for python which computes K.R. balanced matrices.
 
    :homepage: https://github.com/deeptools/Knight-Ruiz-Matrix-balancing-algorithm
-   :license: GPL3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`krbalancing <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/krbalancing>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/krbalancing/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ krbalancing
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.5-10</code>,  <code>0.0.5-9</code>,  <code>0.0.5-8</code>,  <code>0.0.5-7</code>,  <code>0.0.5-5</code>,  <code>0.0.5-4</code>,  <code>0.0.5-3</code>,  <code>0.0.5-2</code>,  <code>0.0.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.5-11</code>,  <code>0.0.5-10</code>,  <code>0.0.5-9</code>,  <code>0.0.5-8</code>,  <code>0.0.5-7</code>,  <code>0.0.5-5</code>,  <code>0.0.5-4</code>,  <code>0.0.5-3</code>,  <code>0.0.5-2</code>,  </span></summary>
       
 
-      ``0.0.5-10``,  ``0.0.5-9``,  ``0.0.5-8``,  ``0.0.5-7``,  ``0.0.5-5``,  ``0.0.5-4``,  ``0.0.5-3``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
+      ``0.0.5-11``,  ``0.0.5-10``,  ``0.0.5-9``,  ``0.0.5-8``,  ``0.0.5-7``,  ``0.0.5-5``,  ``0.0.5-4``,  ``0.0.5-3``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
 
       
       .. raw:: html
@@ -40,8 +40,10 @@ krbalancing
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends eigen: ``>=3.3.7``
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libstdcxx: ``>=13``
    :depends pybind11: ``>=2.2.4``
    :depends python: ``>=3.10,<3.11.0a0``
@@ -52,7 +54,7 @@ krbalancing
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

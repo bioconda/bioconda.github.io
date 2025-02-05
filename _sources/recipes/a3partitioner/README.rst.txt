@@ -29,7 +29,7 @@ a3partitioner
       
       
 
-      ``0.1.0-0``
+      ``0.1.0-1``,  ``0.1.0-0``
 
       
 
@@ -86,7 +86,7 @@ a3partitioner
 
     <script>
         var package = "a3partitioner";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.0","0.1.0"];
     </script>
 
 

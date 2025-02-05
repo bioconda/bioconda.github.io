@@ -10,10 +10,12 @@ tmalign
    :replaces_section_title:
    :noindex:
 
-   TM\-align sequence\-order independent protein structure alignment
+   TM\-align sequence\-order independent protein structure alignment.
 
-   :homepage: https://zhanglab.ccmb.med.umich.edu/TM-align/
-   :license: BSD-like
+   :homepage: https://seq2fun.dcmb.med.umich.edu//TM-align
+   :documentation: https://seq2fun.dcmb.med.umich.edu/TM-align/readme.c++.txt
+   
+   :license: BSD / BSD-like
    :recipe: /`tmalign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tmalign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tmalign/meta.yaml>`_
    :links: doi: :doi:`10.1093/nar/gki524`, doi: :doi:`10.1002/prot.20264`
 
@@ -28,7 +30,7 @@ tmalign
       
       
 
-      ``20170708-7``,  ``20170708-6``,  ``20170708-5``,  ``20170708-4``,  ``20170708-3``,  ``20170708-2``,  ``20170708-1``,  ``20170708-0``
+      ``20190822-0``,  ``20170708-7``,  ``20170708-6``,  ``20170708-5``,  ``20170708-4``,  ``20170708-3``,  ``20170708-2``,  ``20170708-1``,  ``20170708-0``
 
       
 
@@ -36,6 +38,7 @@ tmalign
    :depends libgcc: ``>=13``
    :depends libgfortran: 
    :depends libgfortran5: ``>=13.3.0``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -90,7 +93,7 @@ tmalign
 
     <script>
         var package = "tmalign";
-        var versions = ["20170708","20170708","20170708","20170708","20170708"];
+        var versions = ["20190822","20170708","20170708","20170708","20170708"];
     </script>
 
 

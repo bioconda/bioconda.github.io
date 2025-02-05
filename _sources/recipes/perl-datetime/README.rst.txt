@@ -10,10 +10,10 @@ perl-datetime
    :replaces_section_title:
    :noindex:
 
-   A date and time object for Perl
+   A date and time object for Perl.
 
-   :homepage: http://metacpan.org/release/DateTime
-   :license: artistic_2
+   :homepage: https://metacpan.org/dist/DateTime
+   :license: Artistic_2
    :recipe: /`perl-datetime <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ perl-datetime
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.59-2</code>,  <code>1.59-1</code>,  <code>1.59-0</code>,  <code>1.58-1</code>,  <code>1.58-0</code>,  <code>1.57-0</code>,  <code>1.55-1</code>,  <code>1.55-0</code>,  <code>1.42-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.65-0</code>,  <code>1.59-2</code>,  <code>1.59-1</code>,  <code>1.59-0</code>,  <code>1.58-1</code>,  <code>1.58-0</code>,  <code>1.57-0</code>,  <code>1.55-1</code>,  <code>1.55-0</code>,  </span></summary>
       
 
-      ``1.59-2``,  ``1.59-1``,  ``1.59-0``,  ``1.58-1``,  ``1.58-0``,  ``1.57-0``,  ``1.55-1``,  ``1.55-0``,  ``1.42-5``,  ``1.42-4``,  ``1.42-2``,  ``1.42-0``
+      ``1.65-0``,  ``1.59-2``,  ``1.59-1``,  ``1.59-0``,  ``1.58-1``,  ``1.58-0``,  ``1.57-0``,  ``1.55-1``,  ``1.55-0``,  ``1.42-5``,  ``1.42-4``,  ``1.42-2``,  ``1.42-0``
 
       
       .. raw:: html
@@ -106,7 +106,7 @@ perl-datetime
 
     <script>
         var package = "perl-datetime";
-        var versions = ["1.59","1.59","1.59","1.58","1.58"];
+        var versions = ["1.65","1.59","1.59","1.59","1.58"];
     </script>
 
 
