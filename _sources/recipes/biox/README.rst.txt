@@ -10,15 +10,14 @@ biox
    :replaces_section_title:
    :noindex:
 
-   Biological Sequence Compression Tool
+   Biological Sequence Compression and Analysis Tool
 
    :homepage: https://github.com/TianMayCry9/BioX
-   :license: GPL / GPL-3.0-only
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`biox <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biox>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biox/meta.yaml>`_
 
    BioX is an efficient\, lossless compression tool designed specifically for 
-   biological sequence data. It supports compression of DNA\, RNA\, protein 
-   sequences\, and FASTQ data.
+   biological sequence data.Also offers sequence analysis features and phylogenetic tree construction.
 
 
 
@@ -30,15 +29,17 @@ biox
       
       
 
-      ``1.1.0-0``,  ``1.0.0-0``
+      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
+   :depends biopython: 
    :depends multiprocess: ``>=0.70.0``
    :depends numpy: ``>=1.19.0``
    :depends python: ``>=3.6``
-   :depends tqdm: ``>=4.45.0``
+   :depends scikit-learn: 
+   :depends taxonomy: 
    :requirements:
 
    :additional platforms:
@@ -89,7 +90,7 @@ biox
 
     <script>
         var package = "biox";
-        var versions = ["1.1.0","1.0.0"];
+        var versions = ["1.2.0","1.1.0","1.0.0"];
     </script>
 
 

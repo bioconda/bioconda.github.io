@@ -29,10 +29,10 @@ bioconductor-sva
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.54.0-0</code>,  <code>3.50.0-1</code>,  <code>3.50.0-0</code>,  <code>3.48.0-0</code>,  <code>3.46.0-1</code>,  <code>3.46.0-0</code>,  <code>3.42.0-2</code>,  <code>3.42.0-1</code>,  <code>3.42.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.54.0-1</code>,  <code>3.54.0-0</code>,  <code>3.50.0-1</code>,  <code>3.50.0-0</code>,  <code>3.48.0-0</code>,  <code>3.46.0-1</code>,  <code>3.46.0-0</code>,  <code>3.42.0-2</code>,  <code>3.42.0-1</code>,  </span></summary>
       
 
-      ``3.54.0-0``,  ``3.50.0-1``,  ``3.50.0-0``,  ``3.48.0-0``,  ``3.46.0-1``,  ``3.46.0-0``,  ``3.42.0-2``,  ``3.42.0-1``,  ``3.42.0-0``,  ``3.40.0-0``,  ``3.38.0-1``,  ``3.38.0-0``,  ``3.36.0-0``,  ``3.34.0-0``,  ``3.32.1-0``,  ``3.30.1-0``,  ``3.30.0-0``,  ``3.28.0-0``,  ``3.26.0-0``,  ``3.24.4-0``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.15.0-0``
+      ``3.54.0-1``,  ``3.54.0-0``,  ``3.50.0-1``,  ``3.50.0-0``,  ``3.48.0-0``,  ``3.46.0-1``,  ``3.46.0-0``,  ``3.42.0-2``,  ``3.42.0-1``,  ``3.42.0-0``,  ``3.40.0-0``,  ``3.38.0-1``,  ``3.38.0-0``,  ``3.36.0-0``,  ``3.34.0-0``,  ``3.32.1-0``,  ``3.30.1-0``,  ``3.30.0-0``,  ``3.28.0-0``,  ``3.26.0-0``,  ``3.24.4-0``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.15.0-0``
 
       
       .. raw:: html
@@ -48,7 +48,7 @@ bioconductor-sva
    :depends bioconductor-genefilter: ``>=1.88.0,<1.89.0``
    :depends bioconductor-genefilter: ``>=1.88.0,<1.89.0a0``
    :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0a0``
+   :depends bioconductor-limma: ``>=3.62.1,<3.63.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
@@ -61,7 +61,7 @@ bioconductor-sva
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -109,7 +109,7 @@ bioconductor-sva
 
     <script>
         var package = "bioconductor-sva";
-        var versions = ["3.54.0","3.50.0","3.50.0","3.48.0","3.46.0"];
+        var versions = ["3.54.0","3.54.0","3.50.0","3.50.0","3.48.0"];
     </script>
 
 

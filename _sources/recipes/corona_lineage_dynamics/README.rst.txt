@@ -27,7 +27,7 @@ corona_lineage_dynamics
       
       
 
-      ``0.1.5-0``
+      ``0.1.6-0``,  ``0.1.5-0``
 
       
 
@@ -64,6 +64,7 @@ corona_lineage_dynamics
    :depends r-tictoc: 
    :depends r-tidyr: 
    :depends r-withr: 
+   :depends r-xml: 
    :depends r-xml2: 
    :depends r-xtable: 
    :depends ta-lib: 
@@ -118,7 +119,7 @@ corona_lineage_dynamics
 
     <script>
         var package = "corona_lineage_dynamics";
-        var versions = ["0.1.5"];
+        var versions = ["0.1.6","0.1.5"];
     </script>
 
 
