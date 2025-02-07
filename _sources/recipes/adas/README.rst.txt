@@ -1,41 +1,40 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'logomaker'
+.. title:: Package Recipe 'adas'
 .. highlight: bash
 
-logomaker
-=========
+adas
+====
 
-.. conda:recipe:: logomaker
+.. conda:recipe:: adas
    :replaces_section_title:
    :noindex:
 
-   Package for making Sequence Logos
+   adas is a sequence database search engine for long sequences. It is an innovative application of Minimizer\, MinHash\, Coreset and Hierarchical Navigable Small World Graphs \(HNSW\)
 
-   :homepage: http://logomaker.readthedocs.io
-   :license: MIT / MIT
-   :recipe: /`logomaker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/logomaker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/logomaker/meta.yaml>`_
+   :homepage: https://github.com/jianshu93/adas
+   :license: MIT
+   :recipe: /`adas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/adas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/adas/meta.yaml>`_
 
    
 
 
-.. conda:package:: logomaker
+.. conda:package:: adas
 
-   |downloads_logomaker| |docker_logomaker|
+   |downloads_adas| |docker_adas|
 
    :versions:
       
       
 
-      ``0.8-1``,  ``0.8-0``
+      ``0.1.2-0``
 
       
 
    
-   :depends matplotlib-base: 
-   :depends numpy: 
-   :depends pandas: 
-   :depends python: ``>=3.9``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends usearch: 
    :requirements:
 
    :additional platforms:
@@ -54,39 +53,39 @@ logomaker
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install logomaker
+      mamba install adas
 
    and update with::
 
-      mamba update logomaker
+      mamba update adas
 
   To create a new environment, run::
 
-      mamba create --name myenvname logomaker
+      mamba create --name myenvname adas
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/logomaker:<tag>
+      docker pull quay.io/biocontainers/adas:<tag>
 
-   (see `logomaker/tags`_ for valid values for ``<tag>``)
+   (see `adas/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_logomaker| image:: https://img.shields.io/conda/dn/bioconda/logomaker.svg?style=flat
-   :target: https://anaconda.org/bioconda/logomaker
+.. |downloads_adas| image:: https://img.shields.io/conda/dn/bioconda/adas.svg?style=flat
+   :target: https://anaconda.org/bioconda/adas
    :alt:   (downloads)
-.. |docker_logomaker| image:: https://quay.io/repository/biocontainers/logomaker/status
-   :target: https://quay.io/repository/biocontainers/logomaker
-.. _`logomaker/tags`: https://quay.io/repository/biocontainers/logomaker?tab=tags
+.. |docker_adas| image:: https://quay.io/repository/biocontainers/adas/status
+   :target: https://quay.io/repository/biocontainers/adas
+.. _`adas/tags`: https://quay.io/repository/biocontainers/adas?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "logomaker";
-        var versions = ["0.8","0.8"];
+        var package = "adas";
+        var versions = ["0.1.2"];
     </script>
 
 
@@ -105,7 +104,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/logomaker/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/adas/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/logomaker/README.html
+   :target: http://bioconda.github.io/recipes/adas/README.html

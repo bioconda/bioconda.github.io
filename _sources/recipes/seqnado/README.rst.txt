@@ -26,24 +26,31 @@ seqnado
    :versions:
       
       
+      .. raw:: html
 
-      ``0.6.0-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.6.1-1</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  </span></summary>
+      
 
+      ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends click: 
-   :depends cookiecutter: 
-   :depends drmaa: 
    :depends pandas: 
-   :depends pulp: ``<=2.7.0``
+   :depends pandera: 
+   :depends pulp: ``<=2.9.0``
    :depends pydantic: 
-   :depends python: ``>=3.10``
+   :depends pyranges: 
+   :depends python: 
    :depends pyyaml: 
    :depends seaborn: 
-   :depends setuptools-scm: 
-   :depends singularity: 
-   :depends snakemake: ``>=8,<9``
+   :depends setuptools_scm: 
+   :depends snakemake: ``>8,<9``
+   :depends snakemake-executor-plugin-slurm: 
    :depends snakemake-wrapper-utils: 
    :depends tracknado: 
    :depends wget: 
@@ -97,7 +104,7 @@ seqnado
 
     <script>
         var package = "seqnado";
-        var versions = ["0.6.0","0.5.4","0.5.3","0.5.2","0.5.1"];
+        var versions = ["0.6.1","0.6.1","0.6.0","0.5.4","0.5.3"];
     </script>
 
 

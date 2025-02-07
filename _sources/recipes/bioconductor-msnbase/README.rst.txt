@@ -29,10 +29,10 @@ bioconductor-msnbase
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.32.0-0</code>,  <code>2.28.1-1</code>,  <code>2.28.1-0</code>,  <code>2.26.0-0</code>,  <code>2.24.0-1</code>,  <code>2.24.0-0</code>,  <code>2.20.4-1</code>,  <code>2.20.4-0</code>,  <code>2.20.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.32.0-1</code>,  <code>2.32.0-0</code>,  <code>2.28.1-1</code>,  <code>2.28.1-0</code>,  <code>2.26.0-0</code>,  <code>2.24.0-1</code>,  <code>2.24.0-0</code>,  <code>2.20.4-1</code>,  <code>2.20.4-0</code>,  </span></summary>
       
 
-      ``2.32.0-0``,  ``2.28.1-1``,  ``2.28.1-0``,  ``2.26.0-0``,  ``2.24.0-1``,  ``2.24.0-0``,  ``2.20.4-1``,  ``2.20.4-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.1-0``,  ``2.16.0-0``,  ``2.14.1-0``,  ``2.12.0-0``,  ``2.10.1-0``,  ``2.8.3-0``,  ``2.8.2-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.2.0-0``
+      ``2.32.0-1``,  ``2.32.0-0``,  ``2.28.1-1``,  ``2.28.1-0``,  ``2.26.0-0``,  ``2.24.0-1``,  ``2.24.0-0``,  ``2.20.4-1``,  ``2.20.4-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.1-0``,  ``2.16.0-0``,  ``2.14.1-0``,  ``2.12.0-0``,  ``2.10.1-0``,  ``2.8.3-0``,  ``2.8.2-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.2.0-0``
 
       
       .. raw:: html
@@ -88,7 +88,7 @@ bioconductor-msnbase
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -136,7 +136,7 @@ bioconductor-msnbase
 
     <script>
         var package = "bioconductor-msnbase";
-        var versions = ["2.32.0","2.28.1","2.28.1","2.26.0","2.24.0"];
+        var versions = ["2.32.0","2.32.0","2.28.1","2.28.1","2.26.0"];
     </script>
 
 

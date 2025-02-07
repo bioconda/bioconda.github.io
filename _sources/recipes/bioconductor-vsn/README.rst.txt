@@ -29,10 +29,10 @@ bioconductor-vsn
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.74.0-0</code>,  <code>3.70.0-1</code>,  <code>3.70.0-0</code>,  <code>3.68.0-0</code>,  <code>3.66.0-1</code>,  <code>3.66.0-0</code>,  <code>3.62.0-2</code>,  <code>3.62.0-1</code>,  <code>3.62.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.74.0-1</code>,  <code>3.74.0-0</code>,  <code>3.70.0-1</code>,  <code>3.70.0-0</code>,  <code>3.68.0-0</code>,  <code>3.66.0-1</code>,  <code>3.66.0-0</code>,  <code>3.62.0-2</code>,  <code>3.62.0-1</code>,  </span></summary>
       
 
-      ``3.74.0-0``,  ``3.70.0-1``,  ``3.70.0-0``,  ``3.68.0-0``,  ``3.66.0-1``,  ``3.66.0-0``,  ``3.62.0-2``,  ``3.62.0-1``,  ``3.62.0-0``,  ``3.60.0-0``,  ``3.58.0-1``,  ``3.58.0-0``,  ``3.56.0-0``,  ``3.54.0-0``,  ``3.52.0-1``,  ``3.50.0-0``,  ``3.48.1-0``,  ``3.46.0-0``,  ``3.44.0-0``,  ``3.38.0-1``
+      ``3.74.0-1``,  ``3.74.0-0``,  ``3.70.0-1``,  ``3.70.0-0``,  ``3.68.0-0``,  ``3.66.0-1``,  ``3.66.0-0``,  ``3.62.0-2``,  ``3.62.0-1``,  ``3.62.0-0``,  ``3.60.0-0``,  ``3.58.0-1``,  ``3.58.0-0``,  ``3.56.0-0``,  ``3.54.0-0``,  ``3.52.0-1``,  ``3.50.0-0``,  ``3.48.1-0``,  ``3.46.0-0``,  ``3.44.0-0``,  ``3.38.0-1``
 
       
       .. raw:: html
@@ -46,7 +46,7 @@ bioconductor-vsn
    :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
    :depends bioconductor-biobase: ``>=2.66.0,<2.67.0a0``
    :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0a0``
+   :depends bioconductor-limma: ``>=3.62.1,<3.63.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
@@ -59,7 +59,7 @@ bioconductor-vsn
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -107,7 +107,7 @@ bioconductor-vsn
 
     <script>
         var package = "bioconductor-vsn";
-        var versions = ["3.74.0","3.70.0","3.70.0","3.68.0","3.66.0"];
+        var versions = ["3.74.0","3.74.0","3.70.0","3.70.0","3.68.0"];
     </script>
 
 
