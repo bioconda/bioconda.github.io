@@ -35,7 +35,7 @@ esme
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -45,8 +45,11 @@ esme
    :depends gcc_linux-64: ``13.*``
    :depends gfortran_linux-64: ``13.*``
    :depends gxx_linux-64: ``13.*``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgfortran-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends make: 
-   :depends mpich: 
+   :depends mpich: ``>=4.1.2``
    :depends omb_mpich: 
    :depends perl: 
    :depends perl-xml-libxml: 
@@ -101,7 +104,7 @@ esme
 
     <script>
         var package = "esme";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["1.0.0","1.0.0","1.0.0"];
     </script>
 
 

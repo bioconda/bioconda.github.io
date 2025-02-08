@@ -10,7 +10,7 @@ sanntis
    :replaces_section_title:
    :noindex:
 
-   SMBGC Annotation using Neural Networks Trained on Interpro Signatures
+   SMBGC Annotation using Neural Networks Trained on Interpro Signatures.
 
    :homepage: https://github.com/Finn-Lab/SanntiS
    :license: Apache / Apache-2.0
@@ -26,9 +26,17 @@ sanntis
    :versions:
       
       
+      .. raw:: html
 
-      ``0.9.3.5-1``,  ``0.9.3.5-0``,  ``0.9.3.4-0``,  ``0.9.3.3-0``,  ``0.9.3.2-0``,  ``0.9.3.1-0``,  ``0.9.3-0``,  ``0.9.1-0``,  ``0.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.9.4.0-0</code>,  <code>0.9.3.5-1</code>,  <code>0.9.3.5-0</code>,  <code>0.9.3.4-0</code>,  <code>0.9.3.3-0</code>,  <code>0.9.3.2-0</code>,  <code>0.9.3.1-0</code>,  <code>0.9.3-0</code>,  <code>0.9.1-0</code>,  </span></summary>
+      
 
+      ``0.9.4.0-0``,  ``0.9.3.5-1``,  ``0.9.3.5-0``,  ``0.9.3.4-0``,  ``0.9.3.3-0``,  ``0.9.3.2-0``,  ``0.9.3.1-0``,  ``0.9.3-0``,  ``0.9.1-0``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -93,7 +101,7 @@ sanntis
 
     <script>
         var package = "sanntis";
-        var versions = ["0.9.3.5","0.9.3.5","0.9.3.4","0.9.3.3","0.9.3.2"];
+        var versions = ["0.9.4.0","0.9.3.5","0.9.3.5","0.9.3.4","0.9.3.3"];
     </script>
 
 

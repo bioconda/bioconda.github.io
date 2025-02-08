@@ -10,10 +10,10 @@ varvamp
    :replaces_section_title:
    :noindex:
 
-   Variable VirusAMPlicons \(varVAMP\) is a tool to design primers for highly diverse viruses
+   Variable VirusAMPlicons \(varVAMP\) is a tool to design primers for highly diverse viruses.
 
    :homepage: https://github.com/jonas-fuchs/varVAMP
-   :license: GPL-3.0-or-later
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`varvamp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/varvamp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/varvamp/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ varvamp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1-0</code>,  <code>1.0.1-0</code>,  <code>1.0-0</code>,  <code>0.9.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1-0</code>,  <code>1.0.1-0</code>,  <code>1.0-0</code>,  </span></summary>
       
 
-      ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1-0``,  ``1.0.1-0``,  ``1.0-0``,  ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9-0``,  ``0.8.3-0``,  ``0.4-0``
+      ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1-0``,  ``1.0.1-0``,  ``1.0-0``,  ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9-0``,  ``0.8.3-0``,  ``0.4-0``
 
       
       .. raw:: html
@@ -98,7 +98,7 @@ varvamp
 
     <script>
         var package = "varvamp";
-        var versions = ["1.2.1","1.2.0","1.1.3","1.1.2","1.1.1"];
+        var versions = ["1.2.2","1.2.1","1.2.0","1.1.3","1.1.2"];
     </script>
 
 
