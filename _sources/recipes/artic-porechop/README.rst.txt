@@ -27,7 +27,7 @@ artic-porechop
       
       
 
-      ``0.3.2pre-7``,  ``0.3.2pre-6``,  ``0.3.2pre-5``,  ``0.3.2pre-4``,  ``0.3.2pre-3``,  ``0.3.2pre-2``,  ``0.3.2pre-1``,  ``0.3.2pre-0``
+      ``0.3.2pre-8``,  ``0.3.2pre-7``,  ``0.3.2pre-6``,  ``0.3.2pre-5``,  ``0.3.2pre-4``,  ``0.3.2pre-3``,  ``0.3.2pre-2``,  ``0.3.2pre-1``,  ``0.3.2pre-0``
 
       
 
@@ -39,6 +39,10 @@ artic-porechop
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

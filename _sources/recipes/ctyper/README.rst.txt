@@ -27,7 +27,7 @@ ctyper
       
       
 
-      ``1.0-0``
+      ``1.0.1-0``,  ``1.0-0``
 
       
 
@@ -91,7 +91,7 @@ ctyper
 
     <script>
         var package = "ctyper";
-        var versions = ["1.0"];
+        var versions = ["1.0.1","1.0"];
     </script>
 
 

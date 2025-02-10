@@ -29,10 +29,10 @@ metabuli
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.9.2-1</code>,  <code>1.0.9.2-0</code>,  <code>1.0.8-1</code>,  <code>1.0.8-0</code>,  <code>1.0.5-2</code>,  <code>1.0.5-1</code>,  <code>1.0.5-0</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.0-0</code>,  <code>1.0.9.2-1</code>,  <code>1.0.9.2-0</code>,  <code>1.0.8-1</code>,  <code>1.0.8-0</code>,  <code>1.0.5-2</code>,  <code>1.0.5-1</code>,  <code>1.0.5-0</code>,  <code>1.0.3-1</code>,  </span></summary>
       
 
-      ``1.0.9.2-1``,  ``1.0.9.2-0``,  ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.9.2-1``,  ``1.0.9.2-0``,  ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -105,7 +105,7 @@ metabuli
 
     <script>
         var package = "metabuli";
-        var versions = ["1.0.9.2","1.0.9.2","1.0.8","1.0.8","1.0.5"];
+        var versions = ["1.1.0","1.0.9.2","1.0.9.2","1.0.8","1.0.8"];
     </script>
 
 
