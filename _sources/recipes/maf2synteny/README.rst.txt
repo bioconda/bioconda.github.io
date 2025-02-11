@@ -13,7 +13,7 @@ maf2synteny
    A tool that postprocesses whole genome alignment \(for two or more genomes\) and produces coarse\-grained synteny blocks.
 
    :homepage: https://github.com/fenderglass/maf2synteny
-   :license: BSD
+   :license: BSD / BSD
    :recipe: /`maf2synteny <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/maf2synteny>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/maf2synteny/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ maf2synteny
       
       
 
-      ``1.2-4``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``,  ``1.1-0``,  ``1.0-1``,  ``1.0-0``
+      ``1.2-5``,  ``1.2-4``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``,  ``1.1-0``,  ``1.0-1``,  ``1.0-0``
 
       
 
@@ -37,6 +37,10 @@ maf2synteny
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>osx-arm64</code>,  <code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

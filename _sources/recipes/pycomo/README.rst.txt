@@ -10,10 +10,10 @@ pycomo
    :replaces_section_title:
    :noindex:
 
-   PyCoMo is a software package for generating and analysing compartmentalized community metabolic models
+   PyCoMo is a software package for generating and analysing compartmentalized community metabolic models.
 
    :homepage: https://github.com/univieCUBE/PyCoMo
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`pycomo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pycomo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pycomo/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ pycomo
       
       
 
-      ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.3-0``
+      ``0.2.8-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.3-0``
 
       
 
@@ -87,7 +87,7 @@ pycomo
 
     <script>
         var package = "pycomo";
-        var versions = ["0.2.6","0.2.5","0.2.4","0.2.2","0.2.1"];
+        var versions = ["0.2.8","0.2.6","0.2.5","0.2.4","0.2.2"];
     </script>
 
 

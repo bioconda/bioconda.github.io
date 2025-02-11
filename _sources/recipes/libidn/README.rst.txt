@@ -26,9 +26,17 @@ libidn
    :versions:
       
       
+      .. raw:: html
 
-      ``7.45.0-9``,  ``7.45.0-8``,  ``7.45.0-7``,  ``7.45.0-6``,  ``7.45.0-5``,  ``7.45.0-4``,  ``7.45.0-3``,  ``7.45.0-2``,  ``7.45.0-1``
+         <details><summary><span class="truncated-version-list"><code>7.45.0-10</code>,  <code>7.45.0-9</code>,  <code>7.45.0-8</code>,  <code>7.45.0-7</code>,  <code>7.45.0-6</code>,  <code>7.45.0-5</code>,  <code>7.45.0-4</code>,  <code>7.45.0-3</code>,  <code>7.45.0-2</code>,  </span></summary>
+      
 
+      ``7.45.0-10``,  ``7.45.0-9``,  ``7.45.0-8``,  ``7.45.0-7``,  ``7.45.0-6``,  ``7.45.0-5``,  ``7.45.0-4``,  ``7.45.0-3``,  ``7.45.0-2``,  ``7.45.0-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -37,6 +45,10 @@ libidn
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

@@ -28,10 +28,10 @@ pydamage
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.90-0</code>,  <code>0.80-0</code>,  <code>0.72-0</code>,  <code>0.71-0</code>,  <code>0.70-1</code>,  <code>0.70-0</code>,  <code>0.62-0</code>,  <code>0.61-0</code>,  <code>0.60-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0-0</code>,  <code>0.90-0</code>,  <code>0.80-0</code>,  <code>0.72-0</code>,  <code>0.71-0</code>,  <code>0.70-1</code>,  <code>0.70-0</code>,  <code>0.62-0</code>,  <code>0.61-0</code>,  </span></summary>
       
 
-      ``0.90-0``,  ``0.80-0``,  ``0.72-0``,  ``0.71-0``,  ``0.70-1``,  ``0.70-0``,  ``0.62-0``,  ``0.61-0``,  ``0.60-1``,  ``0.60-0``,  ``0.7-0``
+      ``1.0-0``,  ``0.90-0``,  ``0.80-0``,  ``0.72-0``,  ``0.71-0``,  ``0.70-1``,  ``0.70-0``,  ``0.62-0``,  ``0.61-0``,  ``0.60-1``,  ``0.60-0``,  ``0.7-0``
 
       
       .. raw:: html
@@ -102,7 +102,7 @@ pydamage
 
     <script>
         var package = "pydamage";
-        var versions = ["0.90","0.80","0.72","0.71","0.70"];
+        var versions = ["1.0","0.90","0.80","0.72","0.71"];
     </script>
 
 

@@ -27,7 +27,7 @@ piler-cr
       
       
 
-      ``1.06-5``,  ``1.06-4``,  ``1.06-3``,  ``1.06-2``,  ``1.06-1``,  ``1.06-0``
+      ``1.06-6``,  ``1.06-5``,  ``1.06-4``,  ``1.06-3``,  ``1.06-2``,  ``1.06-1``,  ``1.06-0``
 
       
 
@@ -37,6 +37,10 @@ piler-cr
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
