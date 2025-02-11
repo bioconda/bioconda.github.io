@@ -1,10 +1,10 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'esme'
+.. title:: Package Recipe 'esme__'
 .. highlight: bash
 
-esme
-====
+esme__
+======
 
 .. conda:recipe:: esme
    :replaces_section_title:
@@ -27,9 +27,9 @@ esme
 
 
 
-.. conda:package:: esme
+.. conda:package:: esme__
 
-   |downloads_esme| |docker_esme|
+   |downloads_esme__| |docker_esme__|
 
    :versions:
       
@@ -58,45 +58,45 @@ esme
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install esme
+      mamba install esme__
 
    and update with::
 
-      mamba update esme
+      mamba update esme__
 
   To create a new environment, run::
 
-      mamba create --name myenvname esme
+      mamba create --name myenvname esme__
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/esme:<tag>
+      docker pull quay.io/biocontainers/esme__:<tag>
 
-   (see `esme/tags`_ for valid values for ``<tag>``)
+   (see `esme__/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_esme| image:: https://img.shields.io/conda/dn/bioconda/esme.svg?style=flat
-   :target: https://anaconda.org/bioconda/esme
+.. |downloads_esme__| image:: https://img.shields.io/conda/dn/bioconda/esme__.svg?style=flat
+   :target: https://anaconda.org/bioconda/esme__
    :alt:   (downloads)
-.. |docker_esme| image:: https://quay.io/repository/biocontainers/esme/status
-   :target: https://quay.io/repository/biocontainers/esme
-.. _`esme/tags`: https://quay.io/repository/biocontainers/esme?tab=tags
+.. |docker_esme__| image:: https://quay.io/repository/biocontainers/esme__/status
+   :target: https://quay.io/repository/biocontainers/esme__
+.. _`esme__/tags`: https://quay.io/repository/biocontainers/esme__?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "esme";
+        var package = "esme__";
         var versions = [];
     </script>
 
 
-.. conda:package:: esmf_
+.. conda:package:: esme_esmf__
 
-   |downloads_esmf_| |docker_esmf_|
+   |downloads_esme_esmf__| |docker_esme_esmf__|
 
    :versions:
       
@@ -125,45 +125,45 @@ esme
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install esmf_
+      mamba install esme_esmf__
 
    and update with::
 
-      mamba update esmf_
+      mamba update esme_esmf__
 
   To create a new environment, run::
 
-      mamba create --name myenvname esmf_
+      mamba create --name myenvname esme_esmf__
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/esmf_:<tag>
+      docker pull quay.io/biocontainers/esme_esmf__:<tag>
 
-   (see `esmf_/tags`_ for valid values for ``<tag>``)
+   (see `esme_esmf__/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_esmf_| image:: https://img.shields.io/conda/dn/bioconda/esmf_.svg?style=flat
-   :target: https://anaconda.org/bioconda/esmf_
+.. |downloads_esme_esmf__| image:: https://img.shields.io/conda/dn/bioconda/esme_esmf__.svg?style=flat
+   :target: https://anaconda.org/bioconda/esme_esmf__
    :alt:   (downloads)
-.. |docker_esmf_| image:: https://quay.io/repository/biocontainers/esme/status
-   :target: https://quay.io/repository/biocontainers/esme
-.. _`esmf_/tags`: https://quay.io/repository/biocontainers/esmf_?tab=tags
+.. |docker_esme_esmf__| image:: https://quay.io/repository/biocontainers/esme__/status
+   :target: https://quay.io/repository/biocontainers/esme__
+.. _`esme_esmf__/tags`: https://quay.io/repository/biocontainers/esme_esmf__?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "esme";
+        var package = "esme__";
         var versions = [];
     </script>
 
 
-.. conda:package:: hdf5_
+.. conda:package:: esme_hdf5__
 
-   |downloads_hdf5_| |docker_hdf5_|
+   |downloads_esme_hdf5__| |docker_esme_hdf5__|
 
    :versions:
       
@@ -192,45 +192,45 @@ esme
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install hdf5_
+      mamba install esme_hdf5__
 
    and update with::
 
-      mamba update hdf5_
+      mamba update esme_hdf5__
 
   To create a new environment, run::
 
-      mamba create --name myenvname hdf5_
+      mamba create --name myenvname esme_hdf5__
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/hdf5_:<tag>
+      docker pull quay.io/biocontainers/esme_hdf5__:<tag>
 
-   (see `hdf5_/tags`_ for valid values for ``<tag>``)
+   (see `esme_hdf5__/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_hdf5_| image:: https://img.shields.io/conda/dn/bioconda/hdf5_.svg?style=flat
-   :target: https://anaconda.org/bioconda/hdf5_
+.. |downloads_esme_hdf5__| image:: https://img.shields.io/conda/dn/bioconda/esme_hdf5__.svg?style=flat
+   :target: https://anaconda.org/bioconda/esme_hdf5__
    :alt:   (downloads)
-.. |docker_hdf5_| image:: https://quay.io/repository/biocontainers/esme/status
-   :target: https://quay.io/repository/biocontainers/esme
-.. _`hdf5_/tags`: https://quay.io/repository/biocontainers/hdf5_?tab=tags
+.. |docker_esme_hdf5__| image:: https://quay.io/repository/biocontainers/esme__/status
+   :target: https://quay.io/repository/biocontainers/esme__
+.. _`esme_hdf5__/tags`: https://quay.io/repository/biocontainers/esme_hdf5__?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "esme";
+        var package = "esme__";
         var versions = [];
     </script>
 
 
-.. conda:package:: netcdf-c_
+.. conda:package:: esme_netcdf-c__
 
-   |downloads_netcdf-c_| |docker_netcdf-c_|
+   |downloads_esme_netcdf-c__| |docker_esme_netcdf-c__|
 
    :versions:
       
@@ -259,45 +259,45 @@ esme
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install netcdf-c_
+      mamba install esme_netcdf-c__
 
    and update with::
 
-      mamba update netcdf-c_
+      mamba update esme_netcdf-c__
 
   To create a new environment, run::
 
-      mamba create --name myenvname netcdf-c_
+      mamba create --name myenvname esme_netcdf-c__
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/netcdf-c_:<tag>
+      docker pull quay.io/biocontainers/esme_netcdf-c__:<tag>
 
-   (see `netcdf-c_/tags`_ for valid values for ``<tag>``)
+   (see `esme_netcdf-c__/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_netcdf-c_| image:: https://img.shields.io/conda/dn/bioconda/netcdf-c_.svg?style=flat
-   :target: https://anaconda.org/bioconda/netcdf-c_
+.. |downloads_esme_netcdf-c__| image:: https://img.shields.io/conda/dn/bioconda/esme_netcdf-c__.svg?style=flat
+   :target: https://anaconda.org/bioconda/esme_netcdf-c__
    :alt:   (downloads)
-.. |docker_netcdf-c_| image:: https://quay.io/repository/biocontainers/esme/status
-   :target: https://quay.io/repository/biocontainers/esme
-.. _`netcdf-c_/tags`: https://quay.io/repository/biocontainers/netcdf-c_?tab=tags
+.. |docker_esme_netcdf-c__| image:: https://quay.io/repository/biocontainers/esme__/status
+   :target: https://quay.io/repository/biocontainers/esme__
+.. _`esme_netcdf-c__/tags`: https://quay.io/repository/biocontainers/esme_netcdf-c__?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "esme";
+        var package = "esme__";
         var versions = [];
     </script>
 
 
-.. conda:package:: netcdf-fortran_
+.. conda:package:: esme_netcdf-fortran__
 
-   |downloads_netcdf-fortran_| |docker_netcdf-fortran_|
+   |downloads_esme_netcdf-fortran__| |docker_esme_netcdf-fortran__|
 
    :versions:
       
@@ -326,45 +326,45 @@ esme
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install netcdf-fortran_
+      mamba install esme_netcdf-fortran__
 
    and update with::
 
-      mamba update netcdf-fortran_
+      mamba update esme_netcdf-fortran__
 
   To create a new environment, run::
 
-      mamba create --name myenvname netcdf-fortran_
+      mamba create --name myenvname esme_netcdf-fortran__
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/netcdf-fortran_:<tag>
+      docker pull quay.io/biocontainers/esme_netcdf-fortran__:<tag>
 
-   (see `netcdf-fortran_/tags`_ for valid values for ``<tag>``)
+   (see `esme_netcdf-fortran__/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_netcdf-fortran_| image:: https://img.shields.io/conda/dn/bioconda/netcdf-fortran_.svg?style=flat
-   :target: https://anaconda.org/bioconda/netcdf-fortran_
+.. |downloads_esme_netcdf-fortran__| image:: https://img.shields.io/conda/dn/bioconda/esme_netcdf-fortran__.svg?style=flat
+   :target: https://anaconda.org/bioconda/esme_netcdf-fortran__
    :alt:   (downloads)
-.. |docker_netcdf-fortran_| image:: https://quay.io/repository/biocontainers/esme/status
-   :target: https://quay.io/repository/biocontainers/esme
-.. _`netcdf-fortran_/tags`: https://quay.io/repository/biocontainers/netcdf-fortran_?tab=tags
+.. |docker_esme_netcdf-fortran__| image:: https://quay.io/repository/biocontainers/esme__/status
+   :target: https://quay.io/repository/biocontainers/esme__
+.. _`esme_netcdf-fortran__/tags`: https://quay.io/repository/biocontainers/esme_netcdf-fortran__?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "esme";
+        var package = "esme__";
         var versions = [];
     </script>
 
 
-.. conda:package:: omb_
+.. conda:package:: esme_omb__
 
-   |downloads_omb_| |docker_omb_|
+   |downloads_esme_omb__| |docker_esme_omb__|
 
    :versions:
       
@@ -393,45 +393,45 @@ esme
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install omb_
+      mamba install esme_omb__
 
    and update with::
 
-      mamba update omb_
+      mamba update esme_omb__
 
   To create a new environment, run::
 
-      mamba create --name myenvname omb_
+      mamba create --name myenvname esme_omb__
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/omb_:<tag>
+      docker pull quay.io/biocontainers/esme_omb__:<tag>
 
-   (see `omb_/tags`_ for valid values for ``<tag>``)
+   (see `esme_omb__/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_omb_| image:: https://img.shields.io/conda/dn/bioconda/omb_.svg?style=flat
-   :target: https://anaconda.org/bioconda/omb_
+.. |downloads_esme_omb__| image:: https://img.shields.io/conda/dn/bioconda/esme_omb__.svg?style=flat
+   :target: https://anaconda.org/bioconda/esme_omb__
    :alt:   (downloads)
-.. |docker_omb_| image:: https://quay.io/repository/biocontainers/esme/status
-   :target: https://quay.io/repository/biocontainers/esme
-.. _`omb_/tags`: https://quay.io/repository/biocontainers/omb_?tab=tags
+.. |docker_esme_omb__| image:: https://quay.io/repository/biocontainers/esme__/status
+   :target: https://quay.io/repository/biocontainers/esme__
+.. _`esme_omb__/tags`: https://quay.io/repository/biocontainers/esme_omb__?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "esme";
+        var package = "esme__";
         var versions = [];
     </script>
 
 
-.. conda:package:: pio_
+.. conda:package:: esme_pio__
 
-   |downloads_pio_| |docker_pio_|
+   |downloads_esme_pio__| |docker_esme_pio__|
 
    :versions:
       
@@ -460,45 +460,45 @@ esme
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install pio_
+      mamba install esme_pio__
 
    and update with::
 
-      mamba update pio_
+      mamba update esme_pio__
 
   To create a new environment, run::
 
-      mamba create --name myenvname pio_
+      mamba create --name myenvname esme_pio__
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/pio_:<tag>
+      docker pull quay.io/biocontainers/esme_pio__:<tag>
 
-   (see `pio_/tags`_ for valid values for ``<tag>``)
+   (see `esme_pio__/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_pio_| image:: https://img.shields.io/conda/dn/bioconda/pio_.svg?style=flat
-   :target: https://anaconda.org/bioconda/pio_
+.. |downloads_esme_pio__| image:: https://img.shields.io/conda/dn/bioconda/esme_pio__.svg?style=flat
+   :target: https://anaconda.org/bioconda/esme_pio__
    :alt:   (downloads)
-.. |docker_pio_| image:: https://quay.io/repository/biocontainers/esme/status
-   :target: https://quay.io/repository/biocontainers/esme
-.. _`pio_/tags`: https://quay.io/repository/biocontainers/pio_?tab=tags
+.. |docker_esme_pio__| image:: https://quay.io/repository/biocontainers/esme__/status
+   :target: https://quay.io/repository/biocontainers/esme__
+.. _`esme_pio__/tags`: https://quay.io/repository/biocontainers/esme_pio__?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "esme";
+        var package = "esme__";
         var versions = [];
     </script>
 
 
-.. conda:package:: pnetcdf_
+.. conda:package:: esme_pnetcdf__
 
-   |downloads_pnetcdf_| |docker_pnetcdf_|
+   |downloads_esme_pnetcdf__| |docker_esme_pnetcdf__|
 
    :versions:
       
@@ -527,38 +527,38 @@ esme
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install pnetcdf_
+      mamba install esme_pnetcdf__
 
    and update with::
 
-      mamba update pnetcdf_
+      mamba update esme_pnetcdf__
 
   To create a new environment, run::
 
-      mamba create --name myenvname pnetcdf_
+      mamba create --name myenvname esme_pnetcdf__
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/pnetcdf_:<tag>
+      docker pull quay.io/biocontainers/esme_pnetcdf__:<tag>
 
-   (see `pnetcdf_/tags`_ for valid values for ``<tag>``)
+   (see `esme_pnetcdf__/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_pnetcdf_| image:: https://img.shields.io/conda/dn/bioconda/pnetcdf_.svg?style=flat
-   :target: https://anaconda.org/bioconda/pnetcdf_
+.. |downloads_esme_pnetcdf__| image:: https://img.shields.io/conda/dn/bioconda/esme_pnetcdf__.svg?style=flat
+   :target: https://anaconda.org/bioconda/esme_pnetcdf__
    :alt:   (downloads)
-.. |docker_pnetcdf_| image:: https://quay.io/repository/biocontainers/esme/status
-   :target: https://quay.io/repository/biocontainers/esme
-.. _`pnetcdf_/tags`: https://quay.io/repository/biocontainers/pnetcdf_?tab=tags
+.. |docker_esme_pnetcdf__| image:: https://quay.io/repository/biocontainers/esme__/status
+   :target: https://quay.io/repository/biocontainers/esme__
+.. _`esme_pnetcdf__/tags`: https://quay.io/repository/biocontainers/esme_pnetcdf__?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "esme";
+        var package = "esme__";
         var versions = [];
     </script>
 
@@ -578,7 +578,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/esme/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/esme__/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/esme/README.html
+   :target: http://bioconda.github.io/recipes/esme__/README.html

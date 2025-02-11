@@ -83,18 +83,17 @@ has changed over the years. You should run the above commands to ensure your
 settings follow the current recommendations.</p>
 <details><summary>How have the recommendations changed?</summary><div id=recommendation-changes class="details"><p><i>How have the recommendations changed?</i><a class="headerlink" title="Permalink" href="#recommendation-changes">¶</a></p><p>In June 2022, the additional command <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">config</span> <span class="pre">--set</span>
 <span class="pre">channel_priority_strict</span></code> was added; see the <a class="reference external" href="#explain-commands">explanation of commands below</a> for details.</p>
+<p>In August 2024, the <code class="docutils literal notranslate"><span class="pre">defaults</span></code> channel was removed from the recommended
+set of channels.</p>
 </div></details><details><summary>What did these commands do?</summary><div id=explain-commands class="details"><p><i>What did these commands do?</i><a class="headerlink" title="Permalink" href="#explain-commands">¶</a></p><p>In general, running <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">config</span></code> modifies your condarc file which can be
 found at <code class="docutils literal notranslate"><span class="pre">~/.condarc</span></code> by default.</p>
-<p>The first three commands add channels, from lowest to highest priority.
+<p>The first two commands add channels, from lowest to highest priority.
 <strong>The order is important</strong> to avoid problems with solving dependencies:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">defaults</span>
-<span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">bioconda</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">bioconda</span>
 <span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span>
 </pre></div>
 </div>
 <ul class="simple">
-<li><p>The <code class="docutils literal notranslate"><span class="pre">defaults</span></code> channel is the one set by default in a new installation of
-conda. It should be set to the lowest priority.</p></li>
 <li><p>The <code class="docutils literal notranslate"><span class="pre">bioconda</span></code> channel enables installation of packages related to
 biomedical research.</p></li>
 <li><p>The <code class="docutils literal notranslate"><span class="pre">conda-forge</span></code> channel (see <a class="reference external" href="https://conda-forge.org/docs/index.html">docs</a>) enables installation of
@@ -123,7 +122,6 @@ would use:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">myenv</span> <span class="n">samtools</span> <span class="n">bwa</span> \
   <span class="o">--</span><span class="n">channel</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span> \
   <span class="o">--</span><span class="n">channel</span> <span class="n">bioconda</span> \
-  <span class="o">--</span><span class="n">channel</span> <span class="n">defaults</span> \
   <span class="o">--</span><span class="n">strict</span><span class="o">-</span><span class="n">channel</span><span class="o">-</span><span class="n">priority</span>
 </pre></div>
 </div>

@@ -27,7 +27,7 @@ bioconductor-msa2dist
       
       
 
-      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
@@ -60,6 +60,10 @@ bioconductor-msa2dist
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -107,7 +111,7 @@ bioconductor-msa2dist
 
     <script>
         var package = "bioconductor-msa2dist";
-        var versions = ["1.10.0","1.6.0","1.4.0","1.2.0","1.2.0"];
+        var versions = ["1.10.0","1.10.0","1.6.0","1.4.0","1.2.0"];
     </script>
 
 

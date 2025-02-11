@@ -28,14 +28,16 @@ r-crbhits
       
       
 
-      ``0.0.7-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``
+      ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``
 
       
 
    
    :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0a0``
    :depends bioconductor-msa2dist: ``>=1.10.0,<1.11.0a0``
-   :depends last: ``>=1607``
+   :depends dagchainer: ``>=0r.120920``
+   :depends kakscalculator2: ``>=2.0.1,<3.0a0``
+   :depends last: ``>=1608``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends r-ape: 
@@ -60,6 +62,10 @@ r-crbhits
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -107,7 +113,7 @@ r-crbhits
 
     <script>
         var package = "r-crbhits";
-        var versions = ["0.0.7","0.0.5","0.0.4","0.0.4"];
+        var versions = ["0.0.7","0.0.7","0.0.5","0.0.4","0.0.4"];
     </script>
 
 

@@ -27,7 +27,7 @@ perl-aceperl
       
       
 
-      ``1.92-6``,  ``1.92-5``,  ``1.92-4``,  ``1.92-3``,  ``1.92-2``,  ``1.92-1``,  ``1.92-0``
+      ``1.92-7``,  ``1.92-6``,  ``1.92-5``,  ``1.92-4``,  ``1.92-3``,  ``1.92-2``,  ``1.92-1``,  ``1.92-0``
 
       
 
@@ -39,6 +39,10 @@ perl-aceperl
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

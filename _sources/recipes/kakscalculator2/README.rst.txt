@@ -13,7 +13,7 @@ kakscalculator2
    KaKs\_Calculator2.0 calculates Ka and Ks.
 
    :homepage: https://github.com/kullrich/kakscalculator2
-   :license: GPL3
+   :license: GPL-3.0-or-later
    :recipe: /`kakscalculator2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kakscalculator2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kakscalculator2/meta.yaml>`_
    :links: doi: :doi:`10.1016/S1672-0229(10)60008-3`
 
@@ -28,7 +28,7 @@ kakscalculator2
       
       
 
-      ``2.0.1-5``,  ``2.0.1-4``,  ``2.0.1-3``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``
+      ``2.0.1-6``,  ``2.0.1-5``,  ``2.0.1-4``,  ``2.0.1-3``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``
 
       
 
@@ -38,6 +38,10 @@ kakscalculator2
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

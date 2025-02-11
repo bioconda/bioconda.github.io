@@ -28,7 +28,7 @@ dagchainer
       
       
 
-      ``r120920-4``,  ``r120920-3``,  ``r120920-2``,  ``r120920-1``,  ``r120920-0``
+      ``r120920-5``,  ``r120920-4``,  ``r120920-3``,  ``r120920-2``,  ``r120920-1``,  ``r120920-0``
 
       
 
@@ -43,6 +43,10 @@ dagchainer
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

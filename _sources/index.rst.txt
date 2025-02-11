@@ -45,21 +45,20 @@ settings follow the current recommendations.
     channel_priority_strict`` was added; see the `explanation of commands below
     <#explain-commands>`_ for details.
 
+    In August 2024, the ``defaults`` channel was removed from the recommended
+    set of channels.
+
 .. details:: What did these commands do?
     :anchor: explain-commands
 
     In general, running ``conda config`` modifies your condarc file which can be
     found at ``~/.condarc`` by default.
 
-    The first three commands add channels, from lowest to highest priority.
+    The first two commands add channels, from lowest to highest priority.
     **The order is important** to avoid problems with solving dependencies::
 
-        conda config --add channels defaults
         conda config --add channels bioconda
         conda config --add channels conda-forge
-
-    - The ``defaults`` channel is the one set by default in a new installation of
-      conda. It should be set to the lowest priority.
 
     - The ``bioconda`` channel enables installation of packages related to
       biomedical research.
@@ -97,7 +96,6 @@ settings follow the current recommendations.
         conda create -n myenv samtools bwa \
           --channel conda-forge \
           --channel bioconda \
-          --channel defaults \
           --strict-channel-priority
 
     Note that conda interprets channels on the command line in order
