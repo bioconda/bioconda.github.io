@@ -28,10 +28,10 @@ cnvnator
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.1-10</code>,  <code>0.4.1-9</code>,  <code>0.4.1-8</code>,  <code>0.4.1-7</code>,  <code>0.4.1-6</code>,  <code>0.4.1-5</code>,  <code>0.4.1-4</code>,  <code>0.4.1-3</code>,  <code>0.4.1-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.1-11</code>,  <code>0.4.1-10</code>,  <code>0.4.1-9</code>,  <code>0.4.1-8</code>,  <code>0.4.1-7</code>,  <code>0.4.1-6</code>,  <code>0.4.1-5</code>,  <code>0.4.1-4</code>,  <code>0.4.1-3</code>,  </span></summary>
       
 
-      ``0.4.1-10``,  ``0.4.1-9``,  ``0.4.1-8``,  ``0.4.1-7``,  ``0.4.1-6``,  ``0.4.1-5``,  ``0.4.1-4``,  ``0.4.1-3``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
+      ``0.4.1-11``,  ``0.4.1-10``,  ``0.4.1-9``,  ``0.4.1-8``,  ``0.4.1-7``,  ``0.4.1-6``,  ``0.4.1-5``,  ``0.4.1-4``,  ``0.4.1-3``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
 
       
       .. raw:: html
@@ -54,6 +54,10 @@ cnvnator
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

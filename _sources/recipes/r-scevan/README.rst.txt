@@ -27,7 +27,7 @@ r-scevan
       
       
 
-      ``1.0.1-0``
+      ``1.0.3-0``,  ``1.0.1-0``
 
       
 
@@ -36,7 +36,7 @@ r-scevan
    :depends bioconductor-ggtree: 
    :depends bioconductor-scran: 
    :depends r-ape: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cluster: 
    :depends r-devtools: 
    :depends r-dplyr: 
@@ -98,7 +98,7 @@ r-scevan
 
     <script>
         var package = "r-scevan";
-        var versions = ["1.0.1"];
+        var versions = ["1.0.3","1.0.1"];
     </script>
 
 

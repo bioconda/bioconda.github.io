@@ -10,10 +10,10 @@ capcruncher
    :replaces_section_title:
    :noindex:
 
-   An end\-to\-end solution for processing Capture\-C\, Tri\-C and Tiled\-C data
+   An end\-to\-end solution for processing Capture\-C\, Tri\-C and Tiled\-C data.
 
    :homepage: https://github.com/sims-lab/CapCruncher.git
-   :documentation: https://sims-lab.github.io/CapCruncher/
+   :documentation: https://sims-lab.github.io/CapCruncher
    
    :developer docs: https://github.com/sims-lab/CapCruncher
    :license: GPL3 / GPL-3.0-or-later

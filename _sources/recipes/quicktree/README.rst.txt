@@ -10,11 +10,12 @@ quicktree
    :replaces_section_title:
    :noindex:
 
-   Fast implementation of the neighbour\-joining phylogenetic inference method
+   Fast implementation of the neighbour\-joining phylogenetic inference method.
 
    :homepage: https://github.com/khowe/quicktree
-   :license: Apache-2.0
+   :license: APACHE / Apache-2.0
    :recipe: /`quicktree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quicktree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quicktree/meta.yaml>`_
+   :links: biotools: :biotools:`quicktree`, usegalaxy-eu: :usegalaxy-eu:`quicktree`
 
    
 
@@ -28,10 +29,10 @@ quicktree
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5-8</code>,  <code>2.5-7</code>,  <code>2.5-6</code>,  <code>2.5-5</code>,  <code>2.5-4</code>,  <code>2.5-3</code>,  <code>2.5-2</code>,  <code>2.5-1</code>,  <code>2.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.5-9</code>,  <code>2.5-8</code>,  <code>2.5-7</code>,  <code>2.5-6</code>,  <code>2.5-5</code>,  <code>2.5-4</code>,  <code>2.5-3</code>,  <code>2.5-2</code>,  <code>2.5-1</code>,  </span></summary>
       
 
-      ``2.5-8``,  ``2.5-7``,  ``2.5-6``,  ``2.5-5``,  ``2.5-4``,  ``2.5-3``,  ``2.5-2``,  ``2.5-1``,  ``2.5-0``,  ``2.4-0``,  ``2.2-1``,  ``2.2-0``
+      ``2.5-9``,  ``2.5-8``,  ``2.5-7``,  ``2.5-6``,  ``2.5-5``,  ``2.5-4``,  ``2.5-3``,  ``2.5-2``,  ``2.5-1``,  ``2.5-0``,  ``2.4-0``,  ``2.2-1``,  ``2.2-0``
 
       
       .. raw:: html
@@ -47,7 +48,7 @@ quicktree
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
