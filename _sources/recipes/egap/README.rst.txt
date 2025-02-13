@@ -10,15 +10,17 @@ egap
    :replaces_section_title:
    :noindex:
 
-   EGAP pipeline for genome assembly and analysis
+   EGAP pipeline for genome assembly and QC analysis
 
    :homepage: https://github.com/iPsychonaut/EGAP
    :license: BSD 3-Clause License
    :recipe: /`egap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/egap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/egap/meta.yaml>`_
 
    EGAP \(Entheome Genome Assembly Pipeline\) is a versatile bioinformatics pipeline
-   for hybrid genome assembly from Oxford Nanopore\, Illumina \(and in the future PacBio\)
-   data. It supports multiple input modes and assembly methods.
+   for hybrid genome assembly from Oxford Nanopore\, Illumina\, and PacBio data.
+   It supports multiple input modes and assembly methods and determines the best 
+   based on multiple metrics\: BUSCO Completeness \(Single \+ Duplicated\)\, Assembly 
+   Contig Count\, Assembly N50\, Assembly L50\, and Assembly GC\-content.
 
 
 
@@ -30,7 +32,7 @@ egap
       
       
 
-      ``2.5.4-0``,  ``2.5.3-0``
+      ``2.6.2-0``,  ``2.5.4-0``,  ``2.5.3-0``
 
       
 
@@ -39,22 +41,26 @@ egap
    :depends bamtools: ``>=2.5.2``
    :depends bbmap: ``>=39.15``
    :depends beautifulsoup4: ``>=4.12.3``
+   :depends bifrost: ``>=1.3.5``
    :depends biopython: ``>=1.81``
    :depends bwa: ``>=0.7.18``
    :depends compleasm: ``>=0.2.6``
    :depends fastqc: ``>=0.12.1``
    :depends flye: ``>=2.9.5``
+   :depends gfatools: ``>=0.5``
+   :depends hifiasm: ``>=0.21.0``
    :depends kmc: ``>=3.2.4``
    :depends masurca: ``>=4.1.2``
    :depends matplotlib-base: ``>=3.7.3``
    :depends minimap2: ``>=2.28``
    :depends nanoplot: ``>=1.43.0``
    :depends ncbi-datasets-cli: ``>=16.39.0``
+   :depends pbccs: ``>=6.4.0``
    :depends pilon: ``>=1.22``
    :depends psutil: ``>=6.0.0``
    :depends purge_dups: ``>=1.2.6``
    :depends python: ``>=3.8,<3.9``
-   :depends quast: ``>=5.3.0``
+   :depends quast: ``>=5.2.0``
    :depends racon: ``>=1.5.0``
    :depends ragtag: ``>=2.1.0``
    :depends ratatosk: ``>=0.9.0``
@@ -114,7 +120,7 @@ egap
 
     <script>
         var package = "egap";
-        var versions = ["2.5.4","2.5.3"];
+        var versions = ["2.6.2","2.5.4","2.5.3"];
     </script>
 
 

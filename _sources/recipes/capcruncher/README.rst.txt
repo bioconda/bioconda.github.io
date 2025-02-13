@@ -31,10 +31,10 @@ capcruncher
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.12-0</code>,  <code>0.3.11-0</code>,  <code>0.3.10-0</code>,  <code>0.3.9-0</code>,  <code>0.3.8-0</code>,  <code>0.3.7-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.14-0</code>,  <code>0.3.12-0</code>,  <code>0.3.11-0</code>,  <code>0.3.10-0</code>,  <code>0.3.9-0</code>,  <code>0.3.8-0</code>,  <code>0.3.7-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  </span></summary>
       
 
-      ``0.3.12-0``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.1.1a1-0``,  ``0.1.0a2-0``
+      ``0.3.14-0``,  ``0.3.12-0``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.1.1a1-0``,  ``0.1.0a2-0``
 
       
       .. raw:: html
@@ -44,27 +44,31 @@ capcruncher
 
    
    :depends click: ``<=8.2.0``
+   :depends cookiecutter: ``<=2.1.1``
    :depends cooler: 
    :depends duckdb: 
    :depends h5py: 
-   :depends loguru: 
+   :depends loguru: ``<=0.7.2``
    :depends more-itertools: 
    :depends natsort: 
-   :depends numpy: 
-   :depends pandas: ``<=2.0.1``
+   :depends numpy: ``<=1.26.4``
+   :depends pandas: ``<=2.1.2``
    :depends plotly: ``>5.0.0,<=5.10.0``
-   :depends pyarrow: ``>8.0.0,<=9.0.0``
+   :depends polars: ``<=1.6.0``
+   :depends pulp: ``<2.8.0``
+   :depends pyarrow: 
    :depends pybedtools: 
-   :depends pyranges: 
-   :depends pysam: ``>0.15.0,<=0.19.1``
+   :depends pyranges: ``<=0.1.2``
+   :depends pysam: ``>0.15.0,<=0.21.0``
    :depends python: ``>=3.10``
    :depends python-xxhash: 
    :depends pyyaml: ``>=6.0``
    :depends quarto: 
    :depends ray: 
-   :depends seaborn: 
+   :depends seaborn-base: 
    :depends sh: 
-   :depends snakemake: ``<=7.30.2``
+   :depends snakemake-minimal: ``<=7.32.4``
+   :depends snakemake-wrapper-utils: 
    :depends tqdm: 
    :depends trackhub: 
    :depends tracknado: 
@@ -120,7 +124,7 @@ capcruncher
 
     <script>
         var package = "capcruncher";
-        var versions = ["0.3.12","0.3.11","0.3.10","0.3.9","0.3.8"];
+        var versions = ["0.3.14","0.3.12","0.3.11","0.3.10","0.3.9"];
     </script>
 
 

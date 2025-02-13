@@ -10,10 +10,12 @@ reseek
    :replaces_section_title:
    :noindex:
 
-   Protein structure alignment and search algorithm
+   Protein structure alignment and search algorithm.
 
    :homepage: https://github.com/rcedgar/reseek
-   :license: GPL-3.0-only
+   :documentation: https://drive5.com/reseek/doc.html
+   
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`reseek <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reseek>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reseek/meta.yaml>`_
 
    
@@ -27,13 +29,15 @@ reseek
       
       
 
-      ``2.02-0``,  ``2.0.1-0``
+      ``2.3-0``,  ``2.02-0``,  ``2.0.1-0``
 
       
 
    
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -84,7 +88,7 @@ reseek
 
     <script>
         var package = "reseek";
-        var versions = ["2.02","2.0.1"];
+        var versions = ["2.3","2.02","2.0.1"];
     </script>
 
 
