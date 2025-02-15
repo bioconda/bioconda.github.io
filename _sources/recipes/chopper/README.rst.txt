@@ -30,10 +30,10 @@ chopper
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.0-1</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-2</code>,  <code>0.5.0-1</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.1-0</code>,  <code>0.9.0-1</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-2</code>,  <code>0.5.0-1</code>,  <code>0.5.0-0</code>,  </span></summary>
       
 
-      ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``
+      ``0.9.1-0``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -43,13 +43,17 @@ chopper
 
    
    :depends clang: 
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -97,7 +101,7 @@ chopper
 
     <script>
         var package = "chopper";
-        var versions = ["0.9.0","0.9.0","0.8.0","0.7.0","0.6.0"];
+        var versions = ["0.9.1","0.9.0","0.9.0","0.8.0","0.7.0"];
     </script>
 
 

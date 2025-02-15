@@ -16,7 +16,7 @@ genomad
    :developer docs: https://github.com/apcamargo/genomad/
    :license: BSD / Lawrence Berkeley National Labs BSD variant license
    :recipe: /`genomad <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genomad>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genomad/meta.yaml>`_
-   :links: biotools: :biotools:`genomad`
+   :links: biotools: :biotools:`genomad`, doi: :doi:`10.1038/s41587-023-01953-y`
 
    
 
@@ -30,10 +30,10 @@ genomad
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.9.0-1</code>,  <code>1.9.0-0</code>,  <code>1.8.1-0</code>,  <code>1.8.0-2</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.7.6-0</code>,  <code>1.7.5-0</code>,  <code>1.7.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.10.0-0</code>,  <code>1.9.0-1</code>,  <code>1.9.0-0</code>,  <code>1.8.1-0</code>,  <code>1.8.0-2</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.7.6-0</code>,  <code>1.7.5-0</code>,  </span></summary>
       
 
-      ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.1-0``,  ``1.8.0-2``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.7.6-0``,  ``1.7.5-0``,  ``1.7.4-0``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.1-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.1-0``,  ``1.8.0-2``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.7.6-0``,  ``1.7.5-0``,  ``1.7.4-0``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.1-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -48,7 +48,7 @@ genomad
    :depends numba: ``>=0.57``
    :depends numpy: ``>=1.21``
    :depends pyrodigal-gv: ``>=0.3.1``
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.9``
    :depends python-crfsuite: 
    :depends rich-click: ``>=1.4``
    :depends taxopy: ``>=0.4.0``
@@ -104,7 +104,7 @@ genomad
 
     <script>
         var package = "genomad";
-        var versions = ["1.9.0","1.9.0","1.8.1","1.8.0","1.8.0"];
+        var versions = ["1.10.0","1.9.0","1.9.0","1.8.1","1.8.0"];
     </script>
 
 

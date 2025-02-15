@@ -32,7 +32,7 @@ egap
       
       
 
-      ``2.6.2-0``,  ``2.5.4-0``,  ``2.5.3-0``
+      ``2.6.4-0``,  ``2.6.2-0``,  ``2.5.4-0``,  ``2.5.3-0``
 
       
 
@@ -67,6 +67,7 @@ egap
    :depends samtools: ``>=1.21``
    :depends sepp: ``>=4.5.1``
    :depends spades: ``>=4.0.0``
+   :depends sra-tools: ``>=3.2.0``
    :depends termcolor: ``>=2.3.0``
    :depends tgsgapcloser: ``>=1.2.1``
    :depends trimmomatic: ``>=0.39``
@@ -120,7 +121,7 @@ egap
 
     <script>
         var package = "egap";
-        var versions = ["2.6.2","2.5.4","2.5.3"];
+        var versions = ["2.6.4","2.6.2","2.5.4","2.5.3"];
     </script>
 
 
