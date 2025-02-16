@@ -30,9 +30,17 @@ galaxy-data
    :versions:
       
       
+      .. raw:: html
 
-      ``24.1.4-0``,  ``24.1.3-0``,  ``24.1.2-0``,  ``24.1.1-0``,  ``22.1.1-0``,  ``21.9.0-0``,  ``20.9.1-2``,  ``20.9.1-1``,  ``20.9.1-0``
+         <details><summary><span class="truncated-version-list"><code>24.2.0-0</code>,  <code>24.1.4-0</code>,  <code>24.1.3-0</code>,  <code>24.1.2-0</code>,  <code>24.1.1-0</code>,  <code>22.1.1-0</code>,  <code>21.9.0-0</code>,  <code>20.9.1-2</code>,  <code>20.9.1-1</code>,  </span></summary>
+      
 
+      ``24.2.0-0``,  ``24.1.4-0``,  ``24.1.3-0``,  ``24.1.2-0``,  ``24.1.1-0``,  ``22.1.1-0``,  ``21.9.0-0``,  ``20.9.1-2``,  ``20.9.1-1``,  ``20.9.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -42,11 +50,11 @@ galaxy-data
    :depends bx-python: 
    :depends dnspython: 
    :depends email-validator: 
-   :depends galaxy-files: ``>=24.1``
-   :depends galaxy-objectstore: ``>=24.1``
-   :depends galaxy-schema: ``>=24.1``
-   :depends galaxy-tool-util: ``>=24.1``
-   :depends galaxy-util: ``>=24.1``
+   :depends galaxy-files: ``>=24.2``
+   :depends galaxy-objectstore: ``>=24.2``
+   :depends galaxy-schema: ``>=24.2``
+   :depends galaxy-tool-util: ``>=24.2``
+   :depends galaxy-util: ``>=24.2``
    :depends galaxy_sequence_utils: 
    :depends h5grove: ``>=1.2.1``
    :depends h5py: 
@@ -117,7 +125,7 @@ galaxy-data
 
     <script>
         var package = "galaxy-data";
-        var versions = ["24.1.4","24.1.3","24.1.2","24.1.1","22.1.1"];
+        var versions = ["24.2.0","24.1.4","24.1.3","24.1.2","24.1.1"];
     </script>
 
 

@@ -13,7 +13,7 @@ pbsim3
    A simulator for all types of Pacific Biosciences \(PacBio\) and Oxford Nanopore Technologies \(ONT\) long reads
 
    :homepage: https://github.com/yukiteruono/pbsim3
-   :license: GPLv2
+   :license: GPL-2.0-only
    :recipe: /`pbsim3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbsim3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbsim3/meta.yaml>`_
    :links: doi: :doi:`10.1093/nargab/lqac092`
 
@@ -28,7 +28,7 @@ pbsim3
       
       
 
-      ``3.0.5-0``,  ``3.0.4-1``,  ``3.0.4-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``
+      ``3.0.5-1``,  ``3.0.5-0``,  ``3.0.4-1``,  ``3.0.4-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``
 
       
 
@@ -38,6 +38,10 @@ pbsim3
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -85,7 +89,7 @@ pbsim3
 
     <script>
         var package = "pbsim3";
-        var versions = ["3.0.5","3.0.4","3.0.4","3.0.2","3.0.1"];
+        var versions = ["3.0.5","3.0.5","3.0.4","3.0.4","3.0.2"];
     </script>
 
 

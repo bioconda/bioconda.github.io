@@ -10,10 +10,10 @@ pronto
    :replaces_section_title:
    :noindex:
 
-   Python frontend to ontologies
+   Python frontend to ontologies.
 
    :homepage: https://github.com/althonos/pronto
-   :documentation: https://pronto.readthedocs.io/en/stable/
+   :documentation: https://pronto.readthedocs.io/en/stable
    
    :license: MIT / MIT
    :recipe: /`pronto <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pronto>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pronto/meta.yaml>`_
@@ -30,10 +30,10 @@ pronto
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5.8-0</code>,  <code>2.5.7-0</code>,  <code>2.5.6-0</code>,  <code>2.5.5-0</code>,  <code>2.5.4-0</code>,  <code>2.5.3-0</code>,  <code>2.5.2-0</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.6.0-0</code>,  <code>2.5.8-0</code>,  <code>2.5.7-0</code>,  <code>2.5.6-0</code>,  <code>2.5.5-0</code>,  <code>2.5.4-0</code>,  <code>2.5.3-0</code>,  <code>2.5.2-0</code>,  <code>2.5.1-0</code>,  </span></summary>
       
 
-      ``2.5.8-0``,  ``2.5.7-0``,  ``2.5.6-0``,  ``2.5.5-0``,  ``2.5.4-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.7-0``,  ``2.4.6-0``,  ``2.4.5-0``,  ``2.4.4-0``,  ``2.4.3-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.2.4-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.2-1``,  ``0.10.2-0``,  ``0.3.3-2``,  ``0.3.3-1``,  ``0.3.3-0``
+      ``2.6.0-0``,  ``2.5.8-0``,  ``2.5.7-0``,  ``2.5.6-0``,  ``2.5.5-0``,  ``2.5.4-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.7-0``,  ``2.4.6-0``,  ``2.4.5-0``,  ``2.4.4-0``,  ``2.4.3-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.2.4-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.2-1``,  ``0.10.2-0``,  ``0.3.3-2``,  ``0.3.3-1``,  ``0.3.3-0``
 
       
       .. raw:: html
@@ -97,7 +97,7 @@ pronto
 
     <script>
         var package = "pronto";
-        var versions = ["2.5.8","2.5.7","2.5.6","2.5.5","2.5.4"];
+        var versions = ["2.6.0","2.5.8","2.5.7","2.5.6","2.5.5"];
     </script>
 
 

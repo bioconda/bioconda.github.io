@@ -31,13 +31,13 @@ galaxy-schema
       
       
 
-      ``24.1.4-0``,  ``24.1.3-0``,  ``24.1.2-0``,  ``24.1.1-0``
+      ``24.2.0-0``,  ``24.1.4-0``,  ``24.1.3-0``,  ``24.1.2-0``,  ``24.1.1-0``
 
       
 
    
    :depends email-validator: 
-   :depends galaxy-util: ``>=24.1``
+   :depends galaxy-util: ``>=24.2``
    :depends pydantic: ``>=2.7.4``
    :depends python: ``>=3.8``
    :requirements:
@@ -90,7 +90,7 @@ galaxy-schema
 
     <script>
         var package = "galaxy-schema";
-        var versions = ["24.1.4","24.1.3","24.1.2","24.1.1"];
+        var versions = ["24.2.0","24.1.4","24.1.3","24.1.2","24.1.1"];
     </script>
 
 
