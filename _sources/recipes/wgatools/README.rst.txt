@@ -10,7 +10,7 @@ wgatools
    :replaces_section_title:
    :noindex:
 
-   A Rust library and tools for whole genome alignment files
+   A Rust library and tools for whole genome alignment files.
 
    :homepage: https://github.com/wjwei-handsome/wgatools
    :license: MIT / MIT
@@ -27,17 +27,21 @@ wgatools
       
       
 
-      ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``1.0.0-0``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
    
    :depends libgcc: ``>=13``
-   :depends openssl: ``>=3.4.0,<4.0a0``
+   :depends openssl: ``>=3.4.1,<4.0a0``
    :depends perl: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -85,7 +89,7 @@ wgatools
 
     <script>
         var package = "wgatools";
-        var versions = ["0.1.1","0.1.1","0.1.0","0.1.0"];
+        var versions = ["1.0.0","0.1.1","0.1.1","0.1.0","0.1.0"];
     </script>
 
 

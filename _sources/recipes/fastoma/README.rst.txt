@@ -28,7 +28,7 @@ fastoma
       
       
 
-      ``0.3.4-0``
+      ``0.3.5-0``,  ``0.3.4-0``
 
       
 
@@ -97,7 +97,7 @@ fastoma
 
     <script>
         var package = "fastoma";
-        var versions = ["0.3.4"];
+        var versions = ["0.3.5","0.3.4"];
     </script>
 
 

@@ -10,10 +10,12 @@ bionumpy
    :replaces_section_title:
    :noindex:
 
-   Library for working with biological sequence data as numpy arrays
+   Library for working with biological sequence data as numpy arrays.
 
    :homepage: https://github.com/bionumpy/bionumpy
-   :license: MIT
+   :documentation: https://bionumpy.github.io/bionumpy
+   
+   :license: MIT / MIT
    :recipe: /`bionumpy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bionumpy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bionumpy/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ bionumpy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.12-0</code>,  <code>1.0.11-0</code>,  <code>1.0.10-0</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-0</code>,  <code>1.0.4-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.13-0</code>,  <code>1.0.12-0</code>,  <code>1.0.11-0</code>,  <code>1.0.10-0</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-0</code>,  <code>1.0.4-0</code>,  <code>1.0.2-0</code>,  </span></summary>
       
 
-      ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.4-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.2.31-0``,  ``0.2.29-0``,  ``0.2.27-0``,  ``0.2.26-0``,  ``0.2.25-0``,  ``0.2.24-0``,  ``0.2.23-0``,  ``0.2.22-0``,  ``0.2.20-0``,  ``0.2.19-0``,  ``0.2.18-0``,  ``0.2.17-0``,  ``0.2.16-0``,  ``0.2.15-0``,  ``0.2.13-0``,  ``0.2.12-0``
+      ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.4-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.2.31-0``,  ``0.2.29-0``,  ``0.2.27-0``,  ``0.2.26-0``,  ``0.2.25-0``,  ``0.2.24-0``,  ``0.2.23-0``,  ``0.2.22-0``,  ``0.2.20-0``,  ``0.2.19-0``,  ``0.2.18-0``,  ``0.2.17-0``,  ``0.2.16-0``,  ``0.2.15-0``,  ``0.2.13-0``,  ``0.2.12-0``
 
       
       .. raw:: html
@@ -40,9 +42,9 @@ bionumpy
       
 
    
-   :depends npstructures: ``>=0.2.9``
-   :depends numpy: ``>=1.20,<1.24``
-   :depends python: ``>=3``
+   :depends npstructures: ``>=0.2.15``
+   :depends numpy: ``>=1.20``
+   :depends python: ``>=3.6``
    :requirements:
 
    :additional platforms:
@@ -93,7 +95,7 @@ bionumpy
 
     <script>
         var package = "bionumpy";
-        var versions = ["1.0.12","1.0.11","1.0.10","1.0.9","1.0.8"];
+        var versions = ["1.0.13","1.0.12","1.0.11","1.0.10","1.0.9"];
     </script>
 
 

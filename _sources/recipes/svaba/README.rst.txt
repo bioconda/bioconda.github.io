@@ -27,7 +27,7 @@ svaba
       
       
 
-      ``1.2.0-0``,  ``1.1.0-6``,  ``1.1.0-5``,  ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
+      ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-6``,  ``1.1.0-5``,  ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
 
       
 
@@ -45,6 +45,10 @@ svaba
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -92,7 +96,7 @@ svaba
 
     <script>
         var package = "svaba";
-        var versions = ["1.2.0","1.1.0","1.1.0","1.1.0","1.1.0"];
+        var versions = ["1.2.0","1.2.0","1.1.0","1.1.0","1.1.0"];
     </script>
 
 

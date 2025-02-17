@@ -29,7 +29,7 @@ r-pathfindr
       
       
 
-      ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.0-0``
+      ``2.4.2-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.0-0``
 
       
 
@@ -40,7 +40,7 @@ r-pathfindr
    :depends bioconductor-keggrest: 
    :depends bioconductor-org.hs.eg.db: 
    :depends openjdk: ``8.*``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dbi: 
    :depends r-doparallel: 
    :depends r-foreach: 
@@ -106,7 +106,7 @@ r-pathfindr
 
     <script>
         var package = "r-pathfindr";
-        var versions = ["2.4.1","2.4.0","2.3.1","2.3.0","2.2.0"];
+        var versions = ["2.4.2","2.4.1","2.4.0","2.3.1","2.3.0"];
     </script>
 
 

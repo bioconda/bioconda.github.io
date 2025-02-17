@@ -29,10 +29,10 @@ predictosaurus
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.9-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.10-0</code>,  <code>0.2.9-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  </span></summary>
       
 
-      ``0.2.9-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -43,10 +43,10 @@ predictosaurus
    
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libcblas: ``>=3.9.0,<4.0a0``
-   :depends libcurl: ``>=8.11.1,<9.0a0``
+   :depends libcurl: ``>=8.12.1,<9.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
-   :depends openssl: ``>=3.4.0,<4.0a0``
+   :depends openssl: ``>=3.4.1,<4.0a0``
    :requirements:
 
    :additional platforms:
@@ -101,7 +101,7 @@ predictosaurus
 
     <script>
         var package = "predictosaurus";
-        var versions = ["0.2.9","0.2.6","0.2.5","0.2.4","0.2.3"];
+        var versions = ["0.2.10","0.2.9","0.2.6","0.2.5","0.2.4"];
     </script>
 
 

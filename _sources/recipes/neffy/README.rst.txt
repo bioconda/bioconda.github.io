@@ -29,7 +29,7 @@ neffy
       
       
 
-      ``0.1.1-0``
+      ``0.1.1-1``,  ``0.1.1-0``
 
       
 
@@ -41,6 +41,10 @@ neffy
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -88,7 +92,7 @@ neffy
 
     <script>
         var package = "neffy";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.1","0.1.1"];
     </script>
 
 

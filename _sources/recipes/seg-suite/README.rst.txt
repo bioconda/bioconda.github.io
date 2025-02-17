@@ -27,7 +27,7 @@ seg-suite
       
       
 
-      ``97-0``
+      ``98-0``,  ``97-0``
 
       
 
@@ -90,7 +90,7 @@ seg-suite
 
     <script>
         var package = "seg-suite";
-        var versions = ["97"];
+        var versions = ["98","97"];
     </script>
 
 

@@ -10,12 +10,12 @@ circtools
    :replaces_section_title:
    :noindex:
 
-   circtools \- a circular RNA toolbox
+   circtools \- a circular RNA toolbox.
 
    :homepage: https://github.com/jakobilab/circtools
-   :documentation: https://docs.circ.tools/en/latest/
+   :documentation: https://docs.circ.tools/en/latest
    
-   :license: GPL-3.0
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`circtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/circtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/circtools/meta.yaml>`_
    :links: doi: :doi:`10.1093/bioinformatics/bty948`, biotools: :biotools:`circtools`
 
@@ -30,7 +30,7 @@ circtools
       
       
 
-      ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.2.1-0``
+      ``2.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.2.1-0``
 
       
 
@@ -49,6 +49,7 @@ circtools
    :depends pybedtools: ``>=0.7.10``
    :depends pysam: ``>=0.16.0.1``
    :depends python: ``>=3.8``
+   :depends pyyaml: ``>=6.0.2``
    :depends r-amap: 
    :depends r-aod: 
    :depends r-base: 
@@ -68,10 +69,12 @@ circtools
    :depends r-rcolorbrewer: 
    :depends r-reshape2: 
    :depends reportlab: ``>=3.3.0``
+   :depends requests: ``>=2.32.3``
    :depends scipy: ``>=0.19.0``
    :depends star: 
    :depends statsmodels: 
    :depends stringtie: 
+   :depends tqdm: ``>=4.67.1``
    :requirements:
 
    :additional platforms:
@@ -122,7 +125,7 @@ circtools
 
     <script>
         var package = "circtools";
-        var versions = ["1.3.1","1.3.0","1.2.2","1.2.1"];
+        var versions = ["2.0","1.3.1","1.3.0","1.2.2","1.2.1"];
     </script>
 
 
