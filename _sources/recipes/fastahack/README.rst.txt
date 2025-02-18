@@ -10,10 +10,12 @@ fastahack
    :replaces_section_title:
    :noindex:
 
-   fastahack \-\-\- \*fast\* FASTA file indexing\, subsequence and sequence extraction
+   fastahack \-\-\- \*fast\* FASTA file indexing\, subsequence and sequence extraction.
 
    :homepage: https://github.com/ekg/fastahack
-   :license: MIT
+   :documentation: https://github.com/ekg/fastahack/blob/v1.0.0/README
+   
+   :license: MIT / MIT
    :recipe: /`fastahack <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastahack>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastahack/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ fastahack
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2016.07.2-6</code>,  <code>2016.07.2-5</code>,  <code>2016.07.2-4</code>,  <code>2016.07.2-3</code>,  <code>2016.07.2-2</code>,  <code>2016.07.2-1</code>,  <code>2016.07.2-0</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2016.07.2-6</code>,  <code>2016.07.2-5</code>,  <code>2016.07.2-4</code>,  <code>2016.07.2-3</code>,  <code>2016.07.2-2</code>,  <code>2016.07.2-1</code>,  <code>2016.07.2-0</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  </span></summary>
       
 
-      ``2016.07.2-6``,  ``2016.07.2-5``,  ``2016.07.2-4``,  ``2016.07.2-3``,  ``2016.07.2-2``,  ``2016.07.2-1``,  ``2016.07.2-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``2016.07.2-6``,  ``2016.07.2-5``,  ``2016.07.2-4``,  ``2016.07.2-3``,  ``2016.07.2-2``,  ``2016.07.2-1``,  ``2016.07.2-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -48,7 +50,7 @@ fastahack
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

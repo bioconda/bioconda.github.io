@@ -27,7 +27,7 @@ hmftools-redux
       
       
 
-      ``1.0_beta-6``,  ``1.0_beta-5``,  ``1.0_beta-4``,  ``1.0_beta-3``,  ``1.0_beta-2``,  ``1.0_beta-1``,  ``1.0_beta-0``
+      ``1.1-0``,  ``1.0_beta-6``,  ``1.0_beta-5``,  ``1.0_beta-4``,  ``1.0_beta-3``,  ``1.0_beta-2``,  ``1.0_beta-1``,  ``1.0_beta-0``
 
       
 
@@ -84,7 +84,7 @@ hmftools-redux
 
     <script>
         var package = "hmftools-redux";
-        var versions = ["1.0_beta","1.0_beta","1.0_beta","1.0_beta","1.0_beta"];
+        var versions = ["1.1","1.0_beta","1.0_beta","1.0_beta","1.0_beta"];
     </script>
 
 

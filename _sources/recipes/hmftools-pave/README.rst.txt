@@ -27,7 +27,7 @@ hmftools-pave
       
       
 
-      ``1.7_beta-2``,  ``1.7_beta-1``,  ``1.7_beta-0``,  ``1.6-0``,  ``1.4.1-0``
+      ``1.7-0``,  ``1.7_beta-2``,  ``1.7_beta-1``,  ``1.7_beta-0``,  ``1.6-0``,  ``1.4.1-0``
 
       
 
@@ -84,7 +84,7 @@ hmftools-pave
 
     <script>
         var package = "hmftools-pave";
-        var versions = ["1.7_beta","1.7_beta","1.7_beta","1.6","1.4.1"];
+        var versions = ["1.7","1.7_beta","1.7_beta","1.7_beta","1.6"];
     </script>
 
 
