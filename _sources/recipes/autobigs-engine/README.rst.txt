@@ -12,7 +12,7 @@ autobigs-engine
 
    A library to rapidly fetch fetch MLST profiles given sequences for various diseases.
 
-   :homepage: https://github.com/RealYHD/autoBIGS.engine
+   :homepage: https://github.com/Syph-and-VPD-Lab/autoBIGS.engine
    :license: GPL-3.0-or-later
    :recipe: /`autobigs-engine <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/autobigs-engine>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/autobigs-engine/meta.yaml>`_
 
@@ -27,13 +27,13 @@ autobigs-engine
       
       
 
-      ``0.11.0-0``,  ``0.8.0-0``,  ``0.7.2-0``
+      ``0.12.0-0``,  ``0.11.0-0``,  ``0.8.0-0``,  ``0.7.2-0``
 
       
 
    
-   :depends aiohttp: 
-   :depends biopython: 
+   :depends aiohttp: ``3.11.*``
+   :depends biopython: ``1.85``
    :depends python: ``>=3.12``
    :requirements:
 
@@ -85,7 +85,7 @@ autobigs-engine
 
     <script>
         var package = "autobigs-engine";
-        var versions = ["0.11.0","0.8.0","0.7.2"];
+        var versions = ["0.12.0","0.11.0","0.8.0","0.7.2"];
     </script>
 
 

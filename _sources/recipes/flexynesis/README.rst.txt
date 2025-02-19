@@ -13,6 +13,8 @@ flexynesis
    A deep\-learning\-based multi\-omics bulk sequencing data integration suite with a focus on \(pre\-\)clinical endpoint prediction.
 
    :homepage: https://github.com/BIMSBbioinfo/flexynesis
+   :documentation: https://bimsbstatic.mdc-berlin.de/akalin/buyar/flexynesis/site/getting_started
+   
    :license: OTHER
    :recipe: /`flexynesis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexynesis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexynesis/meta.yaml>`_
 
@@ -27,7 +29,7 @@ flexynesis
       
       
 
-      ``0.2.14-0``,  ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-0``
+      ``0.2.16-0``,  ``0.2.14-0``,  ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-0``
 
       
 
@@ -42,6 +44,7 @@ flexynesis
    :depends numpy: 
    :depends pandas: 
    :depends papermill: 
+   :depends plotnine: 
    :depends pot: 
    :depends python: ``>=3.11,<3.12``
    :depends python-louvain: 
@@ -52,7 +55,7 @@ flexynesis
    :depends scikit-optimize: 
    :depends scikit-survival: 
    :depends scipy: 
-   :depends seaborn: 
+   :depends seaborn-base: 
    :depends torchvision: 
    :depends tqdm: 
    :depends umap-learn: 
@@ -107,7 +110,7 @@ flexynesis
 
     <script>
         var package = "flexynesis";
-        var versions = ["0.2.14","0.2.13","0.2.12","0.2.11","0.2.10"];
+        var versions = ["0.2.16","0.2.14","0.2.13","0.2.12","0.2.11"];
     </script>
 
 

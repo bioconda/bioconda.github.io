@@ -27,7 +27,7 @@ hmftools-cuppa
       
       
 
-      ``2.3.0_beta-2``,  ``2.3.0_beta-1``,  ``2.3.0_beta-0``,  ``2.2.1-0``,  ``2.1.1-0``,  ``1.8.1-0``
+      ``2.3.1-0``,  ``2.3.0_beta-2``,  ``2.3.0_beta-1``,  ``2.3.0_beta-0``,  ``2.2.1-0``,  ``2.1.1-0``,  ``1.8.1-0``
 
       
 
@@ -92,7 +92,7 @@ hmftools-cuppa
 
     <script>
         var package = "hmftools-cuppa";
-        var versions = ["2.3.0_beta","2.3.0_beta","2.3.0_beta","2.2.1","2.1.1"];
+        var versions = ["2.3.1","2.3.0_beta","2.3.0_beta","2.3.0_beta","2.2.1"];
     </script>
 
 

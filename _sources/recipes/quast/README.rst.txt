@@ -10,12 +10,15 @@ quast
    :replaces_section_title:
    :noindex:
 
-   Quality Assessment Tool for Genome Assemblies
+   Quality Assessment Tool for Genome Assemblies.
 
-   :homepage: http://quast.sourceforge.net/
+   :homepage: https://quast.sourceforge.net
+   :documentation: https://quast.sourceforge.net/docs/manual.html
+   
+   :developer docs: https://github.com/ablab/quast
    :license: Custom
    :recipe: /`quast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quast/meta.yaml>`_
-   :links: biotools: :biotools:`quast`, doi: :doi:`10.1093/bioinformatics/btt086`
+   :links: biotools: :biotools:`quast`, usegalaxy-eu: :usegalaxy-eu:`quast`, doi: :doi:`10.1093/bioinformatics/btt086`
 
    
 
@@ -29,10 +32,10 @@ quast
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.3.0-1</code>,  <code>5.3.0-0</code>,  <code>5.2.0-4</code>,  <code>5.2.0-3</code>,  <code>5.2.0-2</code>,  <code>5.2.0-1</code>,  <code>5.2.0-0</code>,  <code>5.0.2-7</code>,  <code>5.0.2-6</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.3.0-2</code>,  <code>5.3.0-1</code>,  <code>5.3.0-0</code>,  <code>5.2.0-4</code>,  <code>5.2.0-3</code>,  <code>5.2.0-2</code>,  <code>5.2.0-1</code>,  <code>5.2.0-0</code>,  <code>5.0.2-7</code>,  </span></summary>
       
 
-      ``5.3.0-1``,  ``5.3.0-0``,  ``5.2.0-4``,  ``5.2.0-3``,  ``5.2.0-2``,  ``5.2.0-1``,  ``5.2.0-0``,  ``5.0.2-7``,  ``5.0.2-6``,  ``5.0.2-5``,  ``5.0.2-4``,  ``5.0.2-3``,  ``5.0.2-2``,  ``5.0.2-1``,  ``5.0.2-0``,  ``5.0.1-0``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.6.3-2``,  ``4.6.3-1``,  ``4.6.3-0``,  ``4.6.1-0``,  ``4.5-1``,  ``4.4-1``,  ``4.4-0``,  ``4.3-2``,  ``4.3-1``,  ``4.1-1``,  ``4.1-0``,  ``3.2-1``
+      ``5.3.0-2``,  ``5.3.0-1``,  ``5.3.0-0``,  ``5.2.0-4``,  ``5.2.0-3``,  ``5.2.0-2``,  ``5.2.0-1``,  ``5.2.0-0``,  ``5.0.2-7``,  ``5.0.2-6``,  ``5.0.2-5``,  ``5.0.2-4``,  ``5.0.2-3``,  ``5.0.2-2``,  ``5.0.2-1``,  ``5.0.2-0``,  ``5.0.1-0``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.6.3-2``,  ``4.6.3-1``,  ``4.6.3-0``,  ``4.6.1-0``,  ``4.5-1``,  ``4.4-1``,  ``4.4-0``,  ``4.3-2``,  ``4.3-1``,  ``4.1-1``,  ``4.1-0``,  ``3.2-1``
 
       
       .. raw:: html
@@ -49,18 +52,21 @@ quast
    :depends joblib: 
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends matplotlib-base: 
-   :depends minimap2: ``>=2.10``
    :depends minimap2: ``>=2.28,<3.0a0``
-   :depends openjdk: ``>=8``
+   :depends openjdk: ``>=11.0.1``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends python: ``>=3.13,<3.14.0a0``
+   :depends python_abi: ``3.13.* *_cp313``
    :depends simplejson: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -108,7 +114,7 @@ quast
 
     <script>
         var package = "quast";
-        var versions = ["5.3.0","5.3.0","5.2.0","5.2.0","5.2.0"];
+        var versions = ["5.3.0","5.3.0","5.3.0","5.2.0","5.2.0"];
     </script>
 
 

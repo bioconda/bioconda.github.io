@@ -10,11 +10,14 @@ consent
    :replaces_section_title:
    :noindex:
 
-   Scalable long read self\-correction and assembly polishing with multiple sequence alignment
+   Scalable long read self\-correction and assembly polishing with multiple sequence alignment.
 
    :homepage: https://github.com/morispi/CONSENT
-   :license: AGPL / AGPL-3.0
+   :documentation: https://github.com/morispi/CONSENT/blob/v2.2.2/README.md
+   
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`consent <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/consent>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/consent/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41598-020-80757-5`, biotools: :biotools:`consent-correct`
 
    
 
@@ -26,9 +29,17 @@ consent
    :versions:
       
       
+      .. raw:: html
 
-      ``2.2.2-4``,  ``2.2.2-3``,  ``2.2.2-2``,  ``2.2.2-1``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2-0``,  ``2.1-0``
+         <details><summary><span class="truncated-version-list"><code>2.2.2-6</code>,  <code>2.2.2-5</code>,  <code>2.2.2-4</code>,  <code>2.2.2-3</code>,  <code>2.2.2-2</code>,  <code>2.2.2-1</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.2-0</code>,  </span></summary>
+      
 
+      ``2.2.2-6``,  ``2.2.2-5``,  ``2.2.2-4``,  ``2.2.2-3``,  ``2.2.2-2``,  ``2.2.2-1``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2-0``,  ``2.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -41,6 +52,10 @@ consent
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

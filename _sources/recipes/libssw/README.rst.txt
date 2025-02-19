@@ -10,11 +10,14 @@ libssw
    :replaces_section_title:
    :noindex:
 
-   An SIMD Smith\-Waterman C\/C\+\+\/Python\/Java Library for Use in Genomic Applications
+   An SIMD Smith\-Waterman C\/C\+\+\/Python\/Java Library for Use in Genomic Applications.
 
    :homepage: https://github.com/mengyao/Complete-Striped-Smith-Waterman-Library
-   :license: MIT
+   :documentation: https://github.com/mengyao/Complete-Striped-Smith-Waterman-Library/blob/v1.2.5/README.md
+   
+   :license: MIT / MIT
    :recipe: /`libssw <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libssw>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libssw/meta.yaml>`_
+   :links: doi: :doi:`10.1371/journal.pone.0082138`, biotools: :biotools:`ssw`
 
    
 
@@ -27,21 +30,23 @@ libssw
       
       
 
-      ``1.1-5``,  ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``
+      ``1.2.5-0``,  ``1.1-5``,  ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends openjdk: 
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends python: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -89,7 +94,7 @@ libssw
 
     <script>
         var package = "libssw";
-        var versions = ["1.1","1.1","1.1","1.1","1.1"];
+        var versions = ["1.2.5","1.1","1.1","1.1","1.1"];
     </script>
 
 

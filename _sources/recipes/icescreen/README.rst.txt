@@ -30,10 +30,10 @@ icescreen
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.2-1</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.3-0</code>,  <code>1.3.2-1</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  </span></summary>
       
 
-      ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.3.3-0``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -42,13 +42,16 @@ icescreen
       
 
    
-   :depends biopython: ``1.83.*``
-   :depends blast: ``2.15.*``
+   :depends bash: 
+   :depends biopython: ``1.85.*``
+   :depends blast: ``2.16.*``
+   :depends decorator: 
    :depends hmmer: ``3.4.*``
-   :depends pandas: ``>=2.1.0``
+   :depends pandas: ``>=2.2``
    :depends pyarrow: 
    :depends python: 
-   :depends snakemake-minimal: ``>=8.4``
+   :depends scipy: 
+   :depends snakemake-minimal: ``>=8``
    :requirements:
 
    :additional platforms:
@@ -99,7 +102,7 @@ icescreen
 
     <script>
         var package = "icescreen";
-        var versions = ["1.3.2","1.3.2","1.3.1","1.2.0","1.1.1"];
+        var versions = ["1.3.3","1.3.2","1.3.2","1.3.1","1.2.0"];
     </script>
 
 

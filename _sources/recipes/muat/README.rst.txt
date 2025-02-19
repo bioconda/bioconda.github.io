@@ -27,20 +27,26 @@ muat
       
       
 
-      ``0.1.0-0``
+      ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
+   :depends bcftools: 
    :depends bedtools: 
    :depends boto3: 
    :depends htslib: 
    :depends natsort: 
    :depends numpy: 
+   :depends openpyxl: 
    :depends pandas: 
+   :depends pyliftover: 
    :depends python: 
+   :depends pytorch: 
    :depends requests: 
+   :depends scikit-learn: 
    :depends setuptools: 
+   :depends tqdm: 
    :requirements:
 
    :additional platforms:
@@ -91,7 +97,7 @@ muat
 
     <script>
         var package = "muat";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.1","0.1.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ perl-template-toolkit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.102-0</code>,  <code>3.100-3</code>,  <code>3.100-2</code>,  <code>3.100-1</code>,  <code>3.100-0</code>,  <code>3.010-1</code>,  <code>3.010-0</code>,  <code>2.26-2</code>,  <code>2.26-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.102-1</code>,  <code>3.102-0</code>,  <code>3.100-3</code>,  <code>3.100-2</code>,  <code>3.100-1</code>,  <code>3.100-0</code>,  <code>3.010-1</code>,  <code>3.010-0</code>,  <code>2.26-2</code>,  </span></summary>
       
 
-      ``3.102-0``,  ``3.100-3``,  ``3.100-2``,  ``3.100-1``,  ``3.100-0``,  ``3.010-1``,  ``3.010-0``,  ``2.26-2``,  ``2.26-1``,  ``2.26-0``
+      ``3.102-1``,  ``3.102-0``,  ``3.100-3``,  ``3.100-2``,  ``3.100-1``,  ``3.100-0``,  ``3.010-1``,  ``3.010-0``,  ``2.26-2``,  ``2.26-1``,  ``2.26-0``
 
       
       .. raw:: html
@@ -52,7 +52,7 @@ perl-template-toolkit
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -100,7 +100,7 @@ perl-template-toolkit
 
     <script>
         var package = "perl-template-toolkit";
-        var versions = ["3.102","3.100","3.100","3.100","3.100"];
+        var versions = ["3.102","3.102","3.100","3.100","3.100"];
     </script>
 
 

@@ -12,11 +12,13 @@ kraken2
 
    Kraken2 is a system for assigning taxonomic labels to short DNA sequences\, usually obtained through metagenomic studies.
 
-   :homepage: https://ccb.jhu.edu/software/kraken2/
+   :homepage: https://ccb.jhu.edu/software/kraken2
+   :documentation: https://github.com/DerrickWood/kraken2/blob/v2.14/docs/MANUAL.markdown
+   
    :developer docs: https://github.com/DerrickWood/kraken2
-   :license: GPLv3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`kraken2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kraken2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kraken2/meta.yaml>`_
-   :links: biotools: :biotools:`kraken2`, doi: :doi:`10.1186/gb-2014-15-3-r46`, doi: :doi:`10.1186/s13059-019-1891-0`
+   :links: biotools: :biotools:`kraken2`, usegalaxy-eu: :usegalaxy-eu:`kraken2`, doi: :doi:`10.1186/gb-2014-15-3-r46`, doi: :doi:`10.1186/s13059-019-1891-0`
 
    
 
@@ -30,10 +32,10 @@ kraken2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.3-4</code>,  <code>2.1.3-3</code>,  <code>2.1.3-2</code>,  <code>2.1.3-1</code>,  <code>2.1.3-0</code>,  <code>2.1.2-4</code>,  <code>2.1.2-3</code>,  <code>2.1.2-2</code>,  <code>2.1.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.14-0</code>,  <code>2.1.3-4</code>,  <code>2.1.3-3</code>,  <code>2.1.3-2</code>,  <code>2.1.3-1</code>,  <code>2.1.3-0</code>,  <code>2.1.2-4</code>,  <code>2.1.2-3</code>,  <code>2.1.2-2</code>,  </span></summary>
       
 
-      ``2.1.3-4``,  ``2.1.3-3``,  ``2.1.3-2``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.2-4``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.9beta-0``,  ``2.0.8_beta-2``,  ``2.0.8_beta-1``,  ``2.0.8_beta-0``,  ``2.0.7_beta-3``,  ``2.0.7_beta-2``,  ``2.0.7_beta-1``,  ``2.0.7_beta-0``
+      ``2.14-0``,  ``2.1.3-4``,  ``2.1.3-3``,  ``2.1.3-2``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.2-4``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.9beta-0``,  ``2.0.8_beta-2``,  ``2.0.8_beta-1``,  ``2.0.8_beta-0``,  ``2.0.7_beta-3``,  ``2.0.7_beta-2``,  ``2.0.7_beta-1``,  ``2.0.7_beta-0``
 
       
       .. raw:: html
@@ -45,6 +47,7 @@ kraken2
    :depends _openmp_mutex: ``>=4.5``
    :depends blast: 
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
@@ -52,7 +55,6 @@ kraken2
    :depends rsync: 
    :depends tar: 
    :depends wget: 
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
@@ -107,7 +109,7 @@ kraken2
 
     <script>
         var package = "kraken2";
-        var versions = ["2.1.3","2.1.3","2.1.3","2.1.3","2.1.3"];
+        var versions = ["2.14","2.1.3","2.1.3","2.1.3","2.1.3"];
     </script>
 
 

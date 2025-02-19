@@ -13,8 +13,11 @@ genmap
    Ultra\-fast computation of genome mappability.
 
    :homepage: https://github.com/cpockrandt/genmap
-   :license: BSD
+   :documentation: https://github.com/cpockrandt/genmap/blob/genmap-v1.3.0/README.rst
+   
+   :license: BSD / BSD-3-Clause
    :recipe: /`genmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genmap/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btaa222`
 
    
 
@@ -27,17 +30,22 @@ genmap
       
       
 
-      ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``1.3.0-4``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends openmp: 
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -85,7 +93,7 @@ genmap
 
     <script>
         var package = "genmap";
-        var versions = ["1.3.0","1.3.0","1.3.0","1.2.0","1.2.0"];
+        var versions = ["1.3.0","1.3.0","1.3.0","1.3.0","1.2.0"];
     </script>
 
 
