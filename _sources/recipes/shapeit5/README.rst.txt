@@ -10,12 +10,13 @@ shapeit5
    :replaces_section_title:
    :noindex:
 
-   Fast and accurate method for estimation of haplotypes \(phasing\)
+   Fast and accurate method for estimation of haplotypes \(phasing\).
 
-   :homepage: https://odelaneau.github.io/shapeit5/
-   :license: MIT
+   :homepage: https://odelaneau.github.io/shapeit5
+   :developer docs: https://github.com/odelaneau/shapeit5
+   :license: MIT / MIT
    :recipe: /`shapeit5 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shapeit5>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shapeit5/meta.yaml>`_
-   :links: doi: :doi:`10.1101/2022.10.19.512867`
+   :links: doi: :doi:`10.1101/2022.10.19.512867`, biotools: :biotools:`shapeit5`
 
    This package provides the software SHAPEIT5. SHAPEIT5 estimates haplotypes in large datasets \(WGS\, WES\, SNP array\)\, with a special focus on rare variants.
 
@@ -28,16 +29,20 @@ shapeit5
       
       
 
-      ``5.1.1-0``,  ``1.0.0-0``
+      ``5.1.1-2``,  ``5.1.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends boost-cpp: ``>=1.74.0,<1.74.1.0a0``
+   :depends boost-cpp: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.17,<1.22.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends libcurl: ``>=8.12.1,<9.0a0``
+   :depends libdeflate: ``>=1.22,<1.23.0a0``
+   :depends libgcc: ``>=13``
+   :depends liblzma: ``>=5.6.4,<6.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -88,7 +93,7 @@ shapeit5
 
     <script>
         var package = "shapeit5";
-        var versions = ["5.1.1","1.0.0"];
+        var versions = ["5.1.1","5.1.1","1.0.0"];
     </script>
 
 

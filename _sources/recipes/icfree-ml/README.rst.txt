@@ -28,10 +28,10 @@ icfree-ml
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.9.0-0</code>,  <code>2.8.0-0</code>,  <code>2.7.1-0</code>,  <code>2.7.0-0</code>,  <code>2.6.0-0</code>,  <code>2.5.2-0</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  <code>2.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.9.1-0</code>,  <code>2.9.0-0</code>,  <code>2.8.0-0</code>,  <code>2.7.1-0</code>,  <code>2.7.0-0</code>,  <code>2.6.0-0</code>,  <code>2.5.2-0</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  </span></summary>
       
 
-      ``2.9.0-0``,  ``2.8.0-0``,  ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.0-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.3-0``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-0``
+      ``2.9.1-0``,  ``2.9.0-0``,  ``2.8.0-0``,  ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.0-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.3-0``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-0``
 
       
       .. raw:: html
@@ -97,7 +97,7 @@ icfree-ml
 
     <script>
         var package = "icfree-ml";
-        var versions = ["2.9.0","2.8.0","2.7.1","2.7.0","2.6.0"];
+        var versions = ["2.9.1","2.9.0","2.8.0","2.7.1","2.7.0"];
     </script>
 
 

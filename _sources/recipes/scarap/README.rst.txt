@@ -29,7 +29,7 @@ scarap
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -41,7 +41,7 @@ scarap
    :depends mmseqs2: 
    :depends numpy: ``>=1.16.5``
    :depends pandas: 
-   :depends python: ``>=3.6.7,<=3.10``
+   :depends python: ``>=3.6.7,<=3.11``
    :depends scipy: ``>=1.4.1``
    :depends wheel: 
    :requirements:
@@ -94,7 +94,7 @@ scarap
 
     <script>
         var package = "scarap";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

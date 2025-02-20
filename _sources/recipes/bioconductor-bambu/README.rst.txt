@@ -28,10 +28,10 @@ bioconductor-bambu
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.2.4-0</code>,  <code>3.0.8-1</code>,  <code>3.0.8-0</code>,  <code>3.0.6-0</code>,  <code>3.0.5-0</code>,  <code>3.0.1-0</code>,  <code>2.0.6-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.8.3-0</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.2.4-0</code>,  <code>3.0.8-1</code>,  <code>3.0.8-0</code>,  <code>3.0.6-0</code>,  <code>3.0.5-0</code>,  <code>3.0.1-0</code>,  </span></summary>
       
 
-      ``3.4.0-1``,  ``3.4.0-0``,  ``3.2.4-0``,  ``3.0.8-1``,  ``3.0.8-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.1-0``,  ``2.0.6-1``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.3-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-2``
+      ``3.8.3-0``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.2.4-0``,  ``3.0.8-1``,  ``3.0.8-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.1-0``,  ``2.0.6-1``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.3-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-2``
 
       
       .. raw:: html
@@ -40,33 +40,33 @@ bioconductor-bambu
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.1,<0.49.0a0``
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0a0``
-   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-bsgenome: ``>=1.70.1,<1.71.0a0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.1,<1.39.0a0``
-   :depends bioconductor-genomicalignments: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomicalignments: ``>=1.38.0,<1.39.0a0``
-   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-genomicfeatures: ``>=1.54.1,<1.55.0a0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-genomicranges: ``>=1.54.1,<1.55.0a0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0a0``
-   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0a0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0a0``
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0a0``
+   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0a0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0a0``
+   :depends bioconductor-genomicalignments: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicalignments: ``>=1.42.0,<1.43.0a0``
+   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0a0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0a0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
+   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0a0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=12``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-rcpp: 
@@ -127,7 +127,7 @@ bioconductor-bambu
 
     <script>
         var package = "bioconductor-bambu";
-        var versions = ["3.4.0","3.4.0","3.2.4","3.0.8","3.0.8"];
+        var versions = ["3.8.3","3.4.0","3.4.0","3.2.4","3.0.8"];
     </script>
 
 

@@ -27,13 +27,14 @@ checkm2
       
       
 
-      ``1.0.2-0``,  ``1.0.1-0``
+      ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
    
    :depends diamond: ``2.0.4.*``
    :depends h5py: ``2.10.0.*``
+   :depends keras: 
    :depends lightgbm: ``3.2.1.*``
    :depends numpy: ``1.19.2.*``
    :depends packaging: 
@@ -96,7 +97,7 @@ checkm2
 
     <script>
         var package = "checkm2";
-        var versions = ["1.0.2","1.0.1"];
+        var versions = ["1.1.0","1.0.2","1.0.1"];
     </script>
 
 
