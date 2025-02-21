@@ -12,7 +12,7 @@ autobigs-cli
 
    A CLI tool to rapidly fetch fetch MLST profiles given sequences for various diseases.
 
-   :homepage: https://github.com/RealYHD/autoBIGS.cli
+   :homepage: https://github.com/Syph-and-VPD-Lab/autoBIGS.cli
    :license: GPL-3.0-or-later
    :recipe: /`autobigs-cli <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/autobigs-cli>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/autobigs-cli/meta.yaml>`_
 
@@ -27,12 +27,12 @@ autobigs-cli
       
       
 
-      ``0.4.2-0``
+      ``0.5.0-0``,  ``0.4.2-0``
 
       
 
    
-   :depends autobigs-engine: 
+   :depends autobigs-engine: ``0.12.*``
    :depends python: ``>=3.12``
    :requirements:
 
@@ -84,7 +84,7 @@ autobigs-cli
 
     <script>
         var package = "autobigs-cli";
-        var versions = ["0.4.2"];
+        var versions = ["0.5.0","0.4.2"];
     </script>
 
 

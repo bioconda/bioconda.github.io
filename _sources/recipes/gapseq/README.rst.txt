@@ -27,7 +27,7 @@ gapseq
       
       
 
-      ``1.4.0-0``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2-0``
+      ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2-0``
 
       
 
@@ -50,12 +50,9 @@ gapseq
    :depends perl: 
    :depends r-base: 
    :depends r-biocmanager: 
-   :depends r-chnosz: 
+   :depends r-cobrar: 
    :depends r-data.table: 
-   :depends r-doparallel: 
-   :depends r-foreach: 
    :depends r-getopt: 
-   :depends r-glpkapi: 
    :depends r-httr: 
    :depends r-jsonlite: 
    :depends r-r.utils: 
@@ -63,7 +60,6 @@ gapseq
    :depends r-renv: 
    :depends r-stringi: 
    :depends r-stringr: 
-   :depends r-sybil: 
    :depends sed: 
    :depends wget: 
    :requirements:
@@ -116,7 +112,7 @@ gapseq
 
     <script>
         var package = "gapseq";
-        var versions = ["1.4.0","1.3.1","1.3","1.2"];
+        var versions = ["1.4.0","1.4.0","1.3.1","1.3","1.2"];
     </script>
 
 
