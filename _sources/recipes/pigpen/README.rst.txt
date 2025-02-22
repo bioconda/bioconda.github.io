@@ -28,7 +28,7 @@ pigpen
       
       
 
-      ``0.0.4-0``
+      ``0.0.4-1``,  ``0.0.4-0``
 
       
 
@@ -46,7 +46,6 @@ pigpen
    :depends python_abi: ``3.10.* *_cp310``
    :depends r-base: ``>=4.1``
    :depends rpy2: ``>=3.4.5``
-   :depends rust: ``>=1.84.0``
    :depends salmon: ``>=1.9.0``
    :depends samtools: ``>=1.15``
    :depends star: ``>=2.7.10``
@@ -56,6 +55,10 @@ pigpen
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -103,7 +106,7 @@ pigpen
 
     <script>
         var package = "pigpen";
-        var versions = ["0.0.4"];
+        var versions = ["0.0.4","0.0.4"];
     </script>
 
 

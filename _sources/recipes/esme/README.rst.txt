@@ -1,10 +1,10 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'esme__'
+.. title:: Package Recipe 'esme_openmpi_'
 .. highlight: bash
 
-esme__
-======
+esme_openmpi_
+=============
 
 .. conda:recipe:: esme
    :replaces_section_title:
@@ -25,73 +25,6 @@ esme__
    \- ESMF\: Version 8.8.0
    \- OSU\_Micro\_Benchmarks\: Version 7.5
 
-
-
-.. conda:package:: esme__
-
-   |downloads_esme__| |docker_esme__|
-
-   :versions:
-      
-      
-
-      
-
-      
-
-   
-   :requirements:
-
-   :additional platforms:
-      
-
-   .. rubric:: Installation
-
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
-
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
-
-  Given that you already have a conda environment in which you want to have this package, install with::
-
-      mamba install esme__
-
-   and update with::
-
-      mamba update esme__
-
-  To create a new environment, run::
-
-      mamba create --name myenvname esme__
-
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
-
-  Alternatively, use the docker container::
-
-      docker pull quay.io/biocontainers/esme__:<tag>
-
-   (see `esme__/tags`_ for valid values for ``<tag>``)
-
-
-.. |downloads_esme__| image:: https://img.shields.io/conda/dn/bioconda/esme__.svg?style=flat
-   :target: https://anaconda.org/bioconda/esme__
-   :alt:   (downloads)
-.. |docker_esme__| image:: https://quay.io/repository/biocontainers/esme__/status
-   :target: https://quay.io/repository/biocontainers/esme__
-.. _`esme__/tags`: https://quay.io/repository/biocontainers/esme__?tab=tags
-
-
-.. raw:: html
-
-    <script>
-        var package = "esme__";
-        var versions = [];
-    </script>
 
 
 .. conda:package:: esme_esmf__
@@ -148,15 +81,15 @@ esme__
 .. |downloads_esme_esmf__| image:: https://img.shields.io/conda/dn/bioconda/esme_esmf__.svg?style=flat
    :target: https://anaconda.org/bioconda/esme_esmf__
    :alt:   (downloads)
-.. |docker_esme_esmf__| image:: https://quay.io/repository/biocontainers/esme__/status
-   :target: https://quay.io/repository/biocontainers/esme__
+.. |docker_esme_esmf__| image:: https://quay.io/repository/biocontainers/esme_openmpi_/status
+   :target: https://quay.io/repository/biocontainers/esme_openmpi_
 .. _`esme_esmf__/tags`: https://quay.io/repository/biocontainers/esme_esmf__?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "esme__";
+        var package = "esme_openmpi_";
         var versions = [];
     </script>
 
@@ -215,15 +148,15 @@ esme__
 .. |downloads_esme_hdf5__| image:: https://img.shields.io/conda/dn/bioconda/esme_hdf5__.svg?style=flat
    :target: https://anaconda.org/bioconda/esme_hdf5__
    :alt:   (downloads)
-.. |docker_esme_hdf5__| image:: https://quay.io/repository/biocontainers/esme__/status
-   :target: https://quay.io/repository/biocontainers/esme__
+.. |docker_esme_hdf5__| image:: https://quay.io/repository/biocontainers/esme_openmpi_/status
+   :target: https://quay.io/repository/biocontainers/esme_openmpi_
 .. _`esme_hdf5__/tags`: https://quay.io/repository/biocontainers/esme_hdf5__?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "esme__";
+        var package = "esme_openmpi_";
         var versions = [];
     </script>
 
@@ -282,15 +215,15 @@ esme__
 .. |downloads_esme_netcdf-c__| image:: https://img.shields.io/conda/dn/bioconda/esme_netcdf-c__.svg?style=flat
    :target: https://anaconda.org/bioconda/esme_netcdf-c__
    :alt:   (downloads)
-.. |docker_esme_netcdf-c__| image:: https://quay.io/repository/biocontainers/esme__/status
-   :target: https://quay.io/repository/biocontainers/esme__
+.. |docker_esme_netcdf-c__| image:: https://quay.io/repository/biocontainers/esme_openmpi_/status
+   :target: https://quay.io/repository/biocontainers/esme_openmpi_
 .. _`esme_netcdf-c__/tags`: https://quay.io/repository/biocontainers/esme_netcdf-c__?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "esme__";
+        var package = "esme_openmpi_";
         var versions = [];
     </script>
 
@@ -349,15 +282,15 @@ esme__
 .. |downloads_esme_netcdf-fortran__| image:: https://img.shields.io/conda/dn/bioconda/esme_netcdf-fortran__.svg?style=flat
    :target: https://anaconda.org/bioconda/esme_netcdf-fortran__
    :alt:   (downloads)
-.. |docker_esme_netcdf-fortran__| image:: https://quay.io/repository/biocontainers/esme__/status
-   :target: https://quay.io/repository/biocontainers/esme__
+.. |docker_esme_netcdf-fortran__| image:: https://quay.io/repository/biocontainers/esme_openmpi_/status
+   :target: https://quay.io/repository/biocontainers/esme_openmpi_
 .. _`esme_netcdf-fortran__/tags`: https://quay.io/repository/biocontainers/esme_netcdf-fortran__?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "esme__";
+        var package = "esme_openmpi_";
         var versions = [];
     </script>
 
@@ -416,15 +349,82 @@ esme__
 .. |downloads_esme_omb__| image:: https://img.shields.io/conda/dn/bioconda/esme_omb__.svg?style=flat
    :target: https://anaconda.org/bioconda/esme_omb__
    :alt:   (downloads)
-.. |docker_esme_omb__| image:: https://quay.io/repository/biocontainers/esme__/status
-   :target: https://quay.io/repository/biocontainers/esme__
+.. |docker_esme_omb__| image:: https://quay.io/repository/biocontainers/esme_openmpi_/status
+   :target: https://quay.io/repository/biocontainers/esme_openmpi_
 .. _`esme_omb__/tags`: https://quay.io/repository/biocontainers/esme_omb__?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "esme__";
+        var package = "esme_openmpi_";
+        var versions = [];
+    </script>
+
+
+.. conda:package:: esme_openmpi_
+
+   |downloads_esme_openmpi_| |docker_esme_openmpi_|
+
+   :versions:
+      
+      
+
+      
+
+      
+
+   
+   :requirements:
+
+   :additional platforms:
+      
+
+   .. rubric:: Installation
+
+  You need a conda-compatible package manager
+  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
+  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+
+  While any of above package managers is fine, it is currently recommended to use either
+  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
+  We will show all commands using mamba below, but the arguments are the same for the two
+  others.
+
+  Given that you already have a conda environment in which you want to have this package, install with::
+
+      mamba install esme_openmpi_
+
+   and update with::
+
+      mamba update esme_openmpi_
+
+  To create a new environment, run::
+
+      mamba create --name myenvname esme_openmpi_
+
+  with ``myenvname`` being a reasonable name for the environment
+  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+
+  Alternatively, use the docker container::
+
+      docker pull quay.io/biocontainers/esme_openmpi_:<tag>
+
+   (see `esme_openmpi_/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_esme_openmpi_| image:: https://img.shields.io/conda/dn/bioconda/esme_openmpi_.svg?style=flat
+   :target: https://anaconda.org/bioconda/esme_openmpi_
+   :alt:   (downloads)
+.. |docker_esme_openmpi_| image:: https://quay.io/repository/biocontainers/esme_openmpi_/status
+   :target: https://quay.io/repository/biocontainers/esme_openmpi_
+.. _`esme_openmpi_/tags`: https://quay.io/repository/biocontainers/esme_openmpi_?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "esme_openmpi_";
         var versions = [];
     </script>
 
@@ -483,15 +483,15 @@ esme__
 .. |downloads_esme_pio__| image:: https://img.shields.io/conda/dn/bioconda/esme_pio__.svg?style=flat
    :target: https://anaconda.org/bioconda/esme_pio__
    :alt:   (downloads)
-.. |docker_esme_pio__| image:: https://quay.io/repository/biocontainers/esme__/status
-   :target: https://quay.io/repository/biocontainers/esme__
+.. |docker_esme_pio__| image:: https://quay.io/repository/biocontainers/esme_openmpi_/status
+   :target: https://quay.io/repository/biocontainers/esme_openmpi_
 .. _`esme_pio__/tags`: https://quay.io/repository/biocontainers/esme_pio__?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "esme__";
+        var package = "esme_openmpi_";
         var versions = [];
     </script>
 
@@ -550,15 +550,15 @@ esme__
 .. |downloads_esme_pnetcdf__| image:: https://img.shields.io/conda/dn/bioconda/esme_pnetcdf__.svg?style=flat
    :target: https://anaconda.org/bioconda/esme_pnetcdf__
    :alt:   (downloads)
-.. |docker_esme_pnetcdf__| image:: https://quay.io/repository/biocontainers/esme__/status
-   :target: https://quay.io/repository/biocontainers/esme__
+.. |docker_esme_pnetcdf__| image:: https://quay.io/repository/biocontainers/esme_openmpi_/status
+   :target: https://quay.io/repository/biocontainers/esme_openmpi_
 .. _`esme_pnetcdf__/tags`: https://quay.io/repository/biocontainers/esme_pnetcdf__?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "esme__";
+        var package = "esme_openmpi_";
         var versions = [];
     </script>
 
@@ -578,7 +578,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/esme__/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/esme_openmpi_/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/esme__/README.html
+   :target: http://bioconda.github.io/recipes/esme_openmpi_/README.html

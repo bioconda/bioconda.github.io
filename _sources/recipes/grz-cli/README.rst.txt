@@ -27,7 +27,7 @@ grz-cli
       
       
 
-      ``0.1.1-0``
+      ``0.1.4-0``,  ``0.1.1-0``
 
       
 
@@ -91,7 +91,7 @@ grz-cli
 
     <script>
         var package = "grz-cli";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.4","0.1.1"];
     </script>
 
 
