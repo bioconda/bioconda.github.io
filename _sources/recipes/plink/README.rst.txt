@@ -12,7 +12,7 @@ plink
 
    Whole genome association analysis toolset\, designed to perform a range of basic\, large\-scale analyses in a computationally efficient manner.
 
-   :homepage: https://www.cog-genomics.org/plink2
+   :homepage: https://www.cog-genomics.org/plink/
    :license: GPL
    :recipe: /`plink <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plink>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plink/meta.yaml>`_
 
@@ -31,7 +31,7 @@ plink
          <details><summary><span class="truncated-version-list"><code>1.90b6.21-7</code>,  <code>1.90b6.21-6</code>,  <code>1.90b6.21-5</code>,  <code>1.90b6.21-4</code>,  <code>1.90b6.21-3</code>,  <code>1.90b6.21-2</code>,  <code>1.90b6.21-1</code>,  <code>1.90b6.21-0</code>,  <code>1.90b6.18-1</code>,  </span></summary>
       
 
-      ``1.90b6.21-7``,  ``1.90b6.21-6``,  ``1.90b6.21-5``,  ``1.90b6.21-4``,  ``1.90b6.21-3``,  ``1.90b6.21-2``,  ``1.90b6.21-1``,  ``1.90b6.21-0``,  ``1.90b6.18-1``,  ``1.90b6.18-0``,  ``1.90b6.12-2``,  ``1.90b6.12-1``,  ``1.90b6.12-0``,  ``1.90b5-1``,  ``1.90b5-0``,  ``1.90b4-3``,  ``1.90b4-2``,  ``1.90b4-1``,  ``1.90b4-0``
+      ``1.90b6.21-7``,  ``1.90b6.21-6``,  ``1.90b6.21-5``,  ``1.90b6.21-4``,  ``1.90b6.21-3``,  ``1.90b6.21-2``,  ``1.90b6.21-1``,  ``1.90b6.21-0``,  ``1.90b6.18-1``,  ``1.90b6.18-0``,  ``1.90b6.12-2``,  ``1.90b6.12-1``,  ``1.90b6.12-0``,  ``1.90b5-1``,  ``1.90b5-0``,  ``1.90b4-3``,  ``1.90b4-2``,  ``1.90b4-1``,  ``1.90b4-0``,  ``1.9.0b.7.7-0``
 
       
       .. raw:: html

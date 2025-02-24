@@ -29,11 +29,12 @@ mumemto
       
       
 
-      ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``
+      ``1.2.0-0``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``
 
       
 
    
+   :depends biopython: 
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends matplotlib-base: 
@@ -97,7 +98,7 @@ mumemto
 
     <script>
         var package = "mumemto";
-        var versions = ["1.1.1","1.1.1","1.1.1","1.1.0"];
+        var versions = ["1.2.0","1.1.1","1.1.1","1.1.1","1.1.0"];
     </script>
 
 

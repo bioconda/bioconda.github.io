@@ -30,10 +30,10 @@ seismic-rna
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.23.1-0</code>,  <code>0.23.0-0</code>,  <code>0.22.3-1</code>,  <code>0.22.3-0</code>,  <code>0.22.1-0</code>,  <code>0.22.0-0</code>,  <code>0.21.1-1</code>,  <code>0.21.1-0</code>,  <code>0.21.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.24.0-0</code>,  <code>0.23.1-0</code>,  <code>0.23.0-0</code>,  <code>0.22.3-1</code>,  <code>0.22.3-0</code>,  <code>0.22.1-0</code>,  <code>0.22.0-0</code>,  <code>0.21.1-1</code>,  <code>0.21.1-0</code>,  </span></summary>
       
 
-      ``0.23.1-0``,  ``0.23.0-0``,  ``0.22.3-1``,  ``0.22.3-0``,  ``0.22.1-0``,  ``0.22.0-0``,  ``0.21.1-1``,  ``0.21.1-0``,  ``0.21.0-0``,  ``0.20.1-0``,  ``0.20.0-1``,  ``0.20.0-0``,  ``0.19.2-0``
+      ``0.24.0-0``,  ``0.23.1-0``,  ``0.23.0-0``,  ``0.22.3-1``,  ``0.22.3-0``,  ``0.22.1-0``,  ``0.22.0-0``,  ``0.21.1-1``,  ``0.21.1-0``,  ``0.21.0-0``,  ``0.20.1-0``,  ``0.20.0-1``,  ``0.20.0-0``,  ``0.19.2-0``
 
       
       .. raw:: html
@@ -47,16 +47,19 @@ seismic-rna
    :depends click: ``>=8.1``
    :depends fastp: ``>=0.23.0``
    :depends fastqsplitter: ``>=1.2``
+   :depends jgo: ``>=1.0``
    :depends jinja2: ``>=3.0``
    :depends libgcc: ``>=13``
+   :depends maven: ``>=3.3.9``
    :depends networkx: ``>=3.4``
-   :depends numba: ``>=0.60``
-   :depends numpy: ``>=1.26,<1.27``
+   :depends numba: ``>=0.61``
+   :depends numpy: ``>=2.0,<2.2``
+   :depends openjdk: ``>=21.0``
    :depends pandas: ``>=2.2``
    :depends plotly: ``>=5.23``
-   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python: ``>=3.11,<3.12.0a0``
    :depends python-kaleido: ``>=0.2.1``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends python_abi: ``3.11.* *_cp311``
    :depends pyyaml: ``>=6.0``
    :depends rnastructure: ``>=6.4``
    :depends samtools: ``>=1.20``
@@ -115,7 +118,7 @@ seismic-rna
 
     <script>
         var package = "seismic-rna";
-        var versions = ["0.23.1","0.23.0","0.22.3","0.22.3","0.22.1"];
+        var versions = ["0.24.0","0.23.1","0.23.0","0.22.3","0.22.3"];
     </script>
 
 

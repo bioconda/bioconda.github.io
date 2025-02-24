@@ -21,7 +21,7 @@ esme_openmpi_
    \- HDF5\: Version 1.14.5
    \- netCDF\_C\: Version 4.9.2
    \- netCDF\_Fortran\: Version 4.6.1
-   \- ParallelIO\: Version 2.6.2 
+   \- ParallelIO\: Version 2.6.5 
    \- ESMF\: Version 8.8.0
    \- OSU\_Micro\_Benchmarks\: Version 7.5
 

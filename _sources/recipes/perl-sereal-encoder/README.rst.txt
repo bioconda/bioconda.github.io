@@ -28,10 +28,10 @@ perl-sereal-encoder
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.025-1</code>,  <code>4.025-0</code>,  <code>4.024-0</code>,  <code>4.023-0</code>,  <code>4.021-1</code>,  <code>4.021-0</code>,  <code>4.020-0</code>,  <code>4.019-0</code>,  <code>4.007-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.025-2</code>,  <code>4.025-1</code>,  <code>4.025-0</code>,  <code>4.024-0</code>,  <code>4.023-0</code>,  <code>4.021-1</code>,  <code>4.021-0</code>,  <code>4.020-0</code>,  <code>4.019-0</code>,  </span></summary>
       
 
-      ``4.025-1``,  ``4.025-0``,  ``4.024-0``,  ``4.023-0``,  ``4.021-1``,  ``4.021-0``,  ``4.020-0``,  ``4.019-0``,  ``4.007-1``,  ``4.007-0``,  ``4.005-0``,  ``3.015-1``,  ``3.015-0``
+      ``4.025-2``,  ``4.025-1``,  ``4.025-0``,  ``4.024-0``,  ``4.023-0``,  ``4.021-1``,  ``4.021-0``,  ``4.020-0``,  ``4.019-0``,  ``4.007-1``,  ``4.007-0``,  ``4.005-0``,  ``3.015-1``,  ``3.015-0``
 
       
       .. raw:: html
@@ -40,11 +40,16 @@ perl-sereal-encoder
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends perl-sereal-decoder: ``>=4.25,<5.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -92,7 +97,7 @@ perl-sereal-encoder
 
     <script>
         var package = "perl-sereal-encoder";
-        var versions = ["4.025","4.025","4.024","4.023","4.021"];
+        var versions = ["4.025","4.025","4.025","4.024","4.023"];
     </script>
 
 

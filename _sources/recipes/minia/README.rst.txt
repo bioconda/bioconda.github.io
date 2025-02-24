@@ -27,19 +27,31 @@ minia
    :versions:
       
       
+      .. raw:: html
 
-      ``3.2.6-3``,  ``3.2.6-2``,  ``3.2.6-1``,  ``3.2.6-0``,  ``3.2.4-1``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``
+         <details><summary><span class="truncated-version-list"><code>3.2.6-5</code>,  <code>3.2.6-3</code>,  <code>3.2.6-2</code>,  <code>3.2.6-1</code>,  <code>3.2.6-0</code>,  <code>3.2.4-1</code>,  <code>3.2.4-0</code>,  <code>3.2.3-0</code>,  <code>3.2.2-0</code>,  </span></summary>
+      
 
+      ``3.2.6-5``,  ``3.2.6-3``,  ``3.2.6-2``,  ``3.2.6-1``,  ``3.2.6-0``,  ``3.2.4-1``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -87,7 +99,7 @@ minia
 
     <script>
         var package = "minia";
-        var versions = ["3.2.6","3.2.6","3.2.6","3.2.6","3.2.4"];
+        var versions = ["3.2.6","3.2.6","3.2.6","3.2.6","3.2.6"];
     </script>
 
 

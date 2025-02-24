@@ -13,7 +13,7 @@ irf
    Inverted Repeats Finder is a program that detects approximate inverted repeats.
 
    :homepage: https://github.com/Benson-Genomics-Lab/IRF
-   :license: GNU Affero General Public License, Version 3.0
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`irf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/irf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/irf/meta.yaml>`_
 
    
@@ -27,16 +27,19 @@ irf
       
       
 
-      ``3.08-1``,  ``3.08-0``
+      ``3.09-0``,  ``3.08-1``,  ``3.08-0``
 
       
 
    
    :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -84,7 +87,7 @@ irf
 
     <script>
         var package = "irf";
-        var versions = ["3.08","3.08"];
+        var versions = ["3.09","3.08","3.08"];
     </script>
 
 
