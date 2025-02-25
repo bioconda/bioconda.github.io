@@ -28,10 +28,10 @@ lsabgc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.9-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.2-3</code>,  <code>1.1.2-2</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.9-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-0</code>,  </span></summary>
       
 
-      ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``
+      ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -44,10 +44,12 @@ lsabgc
    :depends bioconductor-ggtree: 
    :depends biopython: 
    :depends gecco: ``0.9.6.*``
+   :depends muscle: ``>=5.0``
    :depends numpy: 
    :depends orthofinder: ``2.5.5.*``
    :depends pandas: 
    :depends prodigal: 
+   :depends pyhmmer: ``0.10.15.*``
    :depends pyrodigal: 
    :depends pyseer: ``>=1.3``
    :depends python: ``>=3.10``
@@ -115,7 +117,7 @@ lsabgc
 
     <script>
         var package = "lsabgc";
-        var versions = ["1.1.2","1.1.2","1.1.1","1.1.0","1.0.9"];
+        var versions = ["1.1.2","1.1.2","1.1.2","1.1.2","1.1.1"];
     </script>
 
 

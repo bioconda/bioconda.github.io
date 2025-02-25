@@ -27,17 +27,22 @@ ont_vbz_hdf_plugin
       
       
 
-      ``1.0.1-7``,  ``1.0.1-6``,  ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
+      ``1.0.12-0``,  ``1.0.1-7``,  ``1.0.1-6``,  ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
 
       
 
    
    :depends hdf5: ``>=1.14.3,<1.14.4.0a0``
-   :depends libcxx: ``>=18``
-   :depends zstd: ``>=1.5.6,<1.6.0a0``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
+   :depends zstd: ``>=1.5.7,<1.6.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -85,7 +90,7 @@ ont_vbz_hdf_plugin
 
     <script>
         var package = "ont_vbz_hdf_plugin";
-        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1","1.0.1"];
+        var versions = ["1.0.12","1.0.1","1.0.1","1.0.1","1.0.1"];
     </script>
 
 

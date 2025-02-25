@@ -13,7 +13,7 @@ freebayes
    Bayesian haplotype\-based polymorphism discovery and genotyping.
 
    :homepage: https://github.com/freebayes/freebayes
-   :documentation: https://github.com/freebayes/freebayes/blob/v1.3.8/README.md
+   :documentation: https://github.com/freebayes/freebayes/blob/v1.3.9/README.md
    
    :license: MIT / MIT
    :recipe: /`freebayes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/freebayes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/freebayes/meta.yaml>`_
@@ -31,10 +31,10 @@ freebayes
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.8-2</code>,  <code>1.3.8-1</code>,  <code>1.3.8-0</code>,  <code>1.3.7-2</code>,  <code>1.3.7-1</code>,  <code>1.3.7-0</code>,  <code>1.3.6-7</code>,  <code>1.3.6-6</code>,  <code>1.3.6-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.9-0</code>,  <code>1.3.8-2</code>,  <code>1.3.8-1</code>,  <code>1.3.8-0</code>,  <code>1.3.7-2</code>,  <code>1.3.7-1</code>,  <code>1.3.7-0</code>,  <code>1.3.6-7</code>,  <code>1.3.6-6</code>,  </span></summary>
       
 
-      ``1.3.8-2``,  ``1.3.8-1``,  ``1.3.8-0``,  ``1.3.7-2``,  ``1.3.7-1``,  ``1.3.7-0``,  ``1.3.6-7``,  ``1.3.6-6``,  ``1.3.6-5``,  ``1.3.6-4``,  ``1.3.6-3``,  ``1.3.6-2``,  ``1.3.6-1``,  ``1.3.6-0``,  ``1.3.5-4``,  ``1.3.5-3``,  ``1.3.5-2``,  ``1.3.5-1``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.2-2``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.0-4``,  ``1.2.0-3``,  ``1.2.0-2``,  ``1.2.0-0``,  ``1.1.0.46-5``,  ``1.1.0.46-4``,  ``1.1.0.46-3``,  ``1.1.0.46-2``,  ``1.1.0.46-1``,  ``1.1.0.46-0``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.2.29-2``,  ``1.0.2.29-1``,  ``1.0.2.29-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.9.21.26-0``,  ``0.9.21.7-0``
+      ``1.3.9-0``,  ``1.3.8-2``,  ``1.3.8-1``,  ``1.3.8-0``,  ``1.3.7-2``,  ``1.3.7-1``,  ``1.3.7-0``,  ``1.3.6-7``,  ``1.3.6-6``,  ``1.3.6-5``,  ``1.3.6-4``,  ``1.3.6-3``,  ``1.3.6-2``,  ``1.3.6-1``,  ``1.3.6-0``,  ``1.3.5-4``,  ``1.3.5-3``,  ``1.3.5-2``,  ``1.3.5-1``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.2-2``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.0-4``,  ``1.2.0-3``,  ``1.2.0-2``,  ``1.2.0-0``,  ``1.1.0.46-5``,  ``1.1.0.46-4``,  ``1.1.0.46-3``,  ``1.1.0.46-2``,  ``1.1.0.46-1``,  ``1.1.0.46-0``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.2.29-2``,  ``1.0.2.29-1``,  ``1.0.2.29-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.9.21.26-0``,  ``0.9.21.7-0``
 
       
       .. raw:: html
@@ -44,22 +44,21 @@ freebayes
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.20,<1.22.0a0``
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends libgcc: ``>=13``
+   :depends liblzma: ``>=5.6.4,<6.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends parallel: 
    :depends samtools: 
-   :depends tabixpp: ``>=1.1.2,<1.1.3.0a0``
-   :depends vcflib: ``>=1.0.10,<2.0a0``
-   :depends wfa2-lib: ``>=2.3.5,<3.0a0``
+   :depends vcflib: ``>=1.0.12,<2.0a0``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -107,7 +106,7 @@ freebayes
 
     <script>
         var package = "freebayes";
-        var versions = ["1.3.8","1.3.8","1.3.8","1.3.7","1.3.7"];
+        var versions = ["1.3.9","1.3.8","1.3.8","1.3.8","1.3.7"];
     </script>
 
 

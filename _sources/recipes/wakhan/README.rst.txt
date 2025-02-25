@@ -27,7 +27,7 @@ wakhan
       
       
 
-      ``0.1.1-0``
+      ``0.1.1-1``,  ``0.1.1-0``
 
       
 
@@ -95,7 +95,7 @@ wakhan
 
     <script>
         var package = "wakhan";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.1","0.1.1"];
     </script>
 
 

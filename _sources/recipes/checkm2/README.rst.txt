@@ -27,25 +27,23 @@ checkm2
       
       
 
-      ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
    
-   :depends diamond: ``2.0.4.*``
-   :depends h5py: ``2.10.0.*``
+   :depends diamond: ``2.1.11.*``
    :depends keras: 
-   :depends lightgbm: ``3.2.1.*``
-   :depends numpy: ``1.19.2.*``
+   :depends lightgbm: 
+   :depends numpy: 
    :depends packaging: 
-   :depends pandas: ``<=1.4.0``
+   :depends pandas: 
    :depends prodigal: ``>=2.6.3``
-   :depends python: ``>=3.6,<3.9``
+   :depends python: ``>3.12``
    :depends requests: 
-   :depends scikit-learn: ``0.23.2.*``
+   :depends scikit-learn: ``1.6.1.*``
    :depends scipy: 
-   :depends setuptools: 
-   :depends tensorflow: ``>=2.1.0,<2.6.0``
+   :depends tensorflow: ``2.17.*``
    :depends tqdm: 
    :requirements:
 
@@ -97,7 +95,7 @@ checkm2
 
     <script>
         var package = "checkm2";
-        var versions = ["1.1.0","1.0.2","1.0.1"];
+        var versions = ["1.1.0","1.1.0","1.0.2","1.0.1"];
     </script>
 
 

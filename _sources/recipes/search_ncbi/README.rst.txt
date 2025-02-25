@@ -27,7 +27,7 @@ search_ncbi
       
       
 
-      ``0.1.1-0``
+      ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -89,7 +89,7 @@ search_ncbi
 
     <script>
         var package = "search_ncbi";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.2","0.1.1"];
     </script>
 
 

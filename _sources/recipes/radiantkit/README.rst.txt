@@ -27,7 +27,7 @@ radiantkit
       
       
 
-      ``0.1.0-0``
+      ``0.1.0-1``,  ``0.1.0-0``
 
       
 
@@ -42,7 +42,7 @@ radiantkit
    :depends python: 
    :depends rich: ``>=13``
    :depends scikit-image: ``>=0.19``
-   :depends tifffile: ``>=2020``
+   :depends tifffile: ``2024.6.18``
    :requirements:
 
    :additional platforms:
@@ -93,7 +93,7 @@ radiantkit
 
     <script>
         var package = "radiantkit";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.0","0.1.0"];
     </script>
 
 
