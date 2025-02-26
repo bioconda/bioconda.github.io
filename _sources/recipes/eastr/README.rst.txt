@@ -12,7 +12,7 @@ eastr
 
    Tool for emending alignments of spuriously spliced transcript reads.
 
-   :homepage: https://ccb.jhu.edu/eastr/
+   :homepage: https://ccb.jhu.edu/eastr
    :documentation: https://ccb.jhu.edu/eastr/#usage
    
    :developer docs: https://github.com/ishinder/EASTR
@@ -31,7 +31,7 @@ eastr
       
       
 
-      ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``
+      ``1.1.2-0``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``
 
       
 
@@ -102,7 +102,7 @@ eastr
 
     <script>
         var package = "eastr";
-        var versions = ["1.1.1","1.1.1","1.1.1"];
+        var versions = ["1.1.2","1.1.1","1.1.1","1.1.1"];
     </script>
 
 

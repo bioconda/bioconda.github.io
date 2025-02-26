@@ -28,16 +28,22 @@ yara
       
       
 
-      ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``0.9.10-1``,  ``0.9.10-0``,  ``0.9.9-0``,  ``0.9.6-0``
+      ``1.0.3-0``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``0.9.10-1``,  ``0.9.10-0``,  ``0.9.9-0``,  ``0.9.6-0``
 
       
 
    
    :depends bzip2: 
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -85,7 +91,7 @@ yara
 
     <script>
         var package = "yara";
-        var versions = ["1.0.2","1.0.2","1.0.2","1.0.2","0.9.10"];
+        var versions = ["1.0.3","1.0.2","1.0.2","1.0.2","1.0.2"];
     </script>
 
 

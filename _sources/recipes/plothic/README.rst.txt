@@ -10,10 +10,10 @@ plothic
    :replaces_section_title:
    :noindex:
 
-   Plot Whole genome Hi\-C contact matrix heatmap
+   Plot Whole genome Hi\-C contact matrix heatmap.
 
    :homepage: https://github.com/Jwindler/PlotHiC
-   :documentation: https://github.com/Jwindler/PlotHiC/blob/main/README.md
+   :documentation: https://github.com/Jwindler/PlotHiC/blob/v0.5.0/README.md
    
    :license: GPL3 / GPL-3.0-only
    :recipe: /`plothic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plothic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plothic/meta.yaml>`_
@@ -29,7 +29,7 @@ plothic
       
       
 
-      ``0.4.19-0``,  ``0.4.18-0``,  ``0.4.17-0``,  ``0.4.16-0``
+      ``0.5.0-0``,  ``0.4.19-0``,  ``0.4.18-0``,  ``0.4.17-0``,  ``0.4.16-0``
 
       
 
@@ -37,9 +37,9 @@ plothic
    :depends hic-straw: ``>=1.3.1``
    :depends libcurl: 
    :depends matplotlib-base: ``>=3.9.2``
-   :depends numpy: ``>=1.21.2``
+   :depends numpy: ``>=2.1.1``
    :depends pandas: ``>=2.2.3``
-   :depends python: 
+   :depends python: ``>=3.10``
    :depends scikit-learn: ``>=1.5.2``
    :depends scipy: ``>=1.14.1``
    :depends six: ``>=1.16.0``
@@ -93,7 +93,7 @@ plothic
 
     <script>
         var package = "plothic";
-        var versions = ["0.4.19","0.4.18","0.4.17","0.4.16"];
+        var versions = ["0.5.0","0.4.19","0.4.18","0.4.17","0.4.16"];
     </script>
 
 

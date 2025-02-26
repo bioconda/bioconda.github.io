@@ -10,11 +10,14 @@ hic-straw
    :replaces_section_title:
    :noindex:
 
-   Straw bound with pybind11
+   Straw bound with pybind11.
 
    :homepage: https://github.com/aidenlab/straw
-   :license: MIT
+   :documentation: https://github.com/aidenlab/straw/wiki
+   
+   :license: MIT / MIT
    :recipe: /`hic-straw <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hic-straw>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hic-straw/meta.yaml>`_
+   :links: doi: :doi:`10.1016/j.cels.2015.07.012`
 
    
 
@@ -27,7 +30,7 @@ hic-straw
       
       
 
-      ``1.3.1-5``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-1``,  ``1.3.1-0``
+      ``1.3.1-6``,  ``1.3.1-5``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-1``,  ``1.3.1-0``
 
       
 
@@ -41,6 +44,10 @@ hic-straw
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

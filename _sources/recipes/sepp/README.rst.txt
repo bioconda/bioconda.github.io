@@ -29,10 +29,10 @@ sepp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.5.5-0</code>,  <code>4.5.4-1</code>,  <code>4.5.4-0</code>,  <code>4.5.1-4</code>,  <code>4.5.1-3</code>,  <code>4.5.1-2</code>,  <code>4.5.1-1</code>,  <code>4.5.1-0</code>,  <code>4.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.5.5-1</code>,  <code>4.5.5-0</code>,  <code>4.5.4-1</code>,  <code>4.5.4-0</code>,  <code>4.5.1-4</code>,  <code>4.5.1-3</code>,  <code>4.5.1-2</code>,  <code>4.5.1-1</code>,  <code>4.5.1-0</code>,  </span></summary>
       
 
-      ``4.5.5-0``,  ``4.5.4-1``,  ``4.5.4-0``,  ``4.5.1-4``,  ``4.5.1-3``,  ``4.5.1-2``,  ``4.5.1-1``,  ``4.5.1-0``,  ``4.4.0-0``,  ``4.3.10-3``,  ``4.3.10-2``,  ``4.3.10-0``,  ``4.3.9-0``,  ``4.3.8-0``,  ``v4.5.0-0``
+      ``4.5.5-1``,  ``4.5.5-0``,  ``4.5.4-1``,  ``4.5.4-0``,  ``4.5.1-4``,  ``4.5.1-3``,  ``4.5.1-2``,  ``4.5.1-1``,  ``4.5.1-0``,  ``4.4.0-0``,  ``4.3.10-3``,  ``4.3.10-2``,  ``4.3.10-0``,  ``4.3.9-0``,  ``4.3.8-0``,  ``v4.5.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ sepp
       
 
    
-   :depends dendropy: ``>=5.0.1,<6.0a0``
+   :depends dendropy: ``>=5.0.6,<6.0a0``
    :depends hmmer: ``>=3.4,<3.5.0a0``
    :depends openjdk: 
    :depends pasta: 
@@ -97,7 +97,7 @@ sepp
 
     <script>
         var package = "sepp";
-        var versions = ["4.5.5","4.5.4","4.5.4","4.5.1","4.5.1"];
+        var versions = ["4.5.5","4.5.5","4.5.4","4.5.4","4.5.1"];
     </script>
 
 

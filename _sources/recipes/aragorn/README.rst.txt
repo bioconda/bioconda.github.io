@@ -28,10 +28,10 @@ aragorn
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.41-4</code>,  <code>1.2.41-3</code>,  <code>1.2.41-2</code>,  <code>1.2.41-1</code>,  <code>1.2.41-0</code>,  <code>1.2.38-5</code>,  <code>1.2.38-4</code>,  <code>1.2.38-3</code>,  <code>1.2.38-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.41-5</code>,  <code>1.2.41-4</code>,  <code>1.2.41-3</code>,  <code>1.2.41-2</code>,  <code>1.2.41-1</code>,  <code>1.2.41-0</code>,  <code>1.2.38-5</code>,  <code>1.2.38-4</code>,  <code>1.2.38-3</code>,  </span></summary>
       
 
-      ``1.2.41-4``,  ``1.2.41-3``,  ``1.2.41-2``,  ``1.2.41-1``,  ``1.2.41-0``,  ``1.2.38-5``,  ``1.2.38-4``,  ``1.2.38-3``,  ``1.2.38-2``,  ``1.2.38-1``,  ``1.2.36-1``,  ``1.2.36-0``
+      ``1.2.41-5``,  ``1.2.41-4``,  ``1.2.41-3``,  ``1.2.41-2``,  ``1.2.41-1``,  ``1.2.41-0``,  ``1.2.38-5``,  ``1.2.38-4``,  ``1.2.38-3``,  ``1.2.38-2``,  ``1.2.38-1``,  ``1.2.36-1``,  ``1.2.36-0``
 
       
       .. raw:: html
@@ -47,7 +47,7 @@ aragorn
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

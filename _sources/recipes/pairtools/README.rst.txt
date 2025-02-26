@@ -13,10 +13,11 @@ pairtools
    CLI tools to process mapped Hi\-C data.
 
    :homepage: https://github.com/open2c/pairtools
-   :documentation: http://pairtools.readthedocs.io
+   :documentation: https://pairtools.readthedocs.io
    
    :license: MIT / MIT
    :recipe: /`pairtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pairtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pairtools/meta.yaml>`_
+   :links: doi: :doi:`10.1101/2023.02.13.528389`, usegalaxy-eu: :usegalaxy-eu:`pairtools_dedup`, usegalaxy-eu: :usegalaxy-eu:`pairtools_parse`, usegalaxy-eu: :usegalaxy-eu:`pairtools_split`, usegalaxy-eu: :usegalaxy-eu:`pairtools_sort`, usegalaxy-eu: :usegalaxy-eu:`pairtools_stats`
 
    
 
@@ -30,10 +31,10 @@ pairtools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.2-0</code>,  <code>1.1.0-3</code>,  <code>1.1.0-2</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.3-0</code>,  <code>1.1.2-0</code>,  <code>1.1.0-3</code>,  <code>1.1.0-2</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  </span></summary>
       
 
-      ``1.1.2-0``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.3.0-6``,  ``0.3.0-5``,  ``0.3.0-4``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``
+      ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.3.0-6``,  ``0.3.0-5``,  ``0.3.0-4``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -53,7 +54,7 @@ pairtools
    :depends pandas: 
    :depends pbgzip: 
    :depends pysam: ``>=0.19``
-   :depends pysam: ``>=0.22.1,<0.23.0a0``
+   :depends pysam: ``>=0.23.0,<0.24.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends pyyaml: 
@@ -65,7 +66,7 @@ pairtools
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -113,7 +114,7 @@ pairtools
 
     <script>
         var package = "pairtools";
-        var versions = ["1.1.2","1.1.0","1.1.0","1.1.0","1.1.0"];
+        var versions = ["1.1.3","1.1.2","1.1.0","1.1.0","1.1.0"];
     </script>
 
 

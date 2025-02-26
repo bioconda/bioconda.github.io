@@ -12,11 +12,12 @@ ivar
 
    iVar is a computational package that contains functions broadly useful for viral amplicon\-based sequencing.
 
-   :homepage: https://andersen-lab.github.io/ivar/html/
-   :developer docs: https://github.com/andersen-lab/ivar
-   :license: GPL-3.0
+   :homepage: https://github.com/andersen-lab/ivar
+   :documentation: https://andersen-lab.github.io/ivar/html
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`ivar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ivar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ivar/meta.yaml>`_
-   :links: biotools: :biotools:`ivar`, usegalaxy-eu: :usegalaxy-eu:`ivar_variants`
+   :links: biotools: :biotools:`ivar`, usegalaxy-eu: :usegalaxy-eu:`ivar_variants`, usegalaxy-eu: :usegalaxy-eu:`ivar_filtervariants`, usegalaxy-eu: :usegalaxy-eu:`ivar_consensus`, usegalaxy-eu: :usegalaxy-eu:`ivar_removereads`, usegalaxy-eu: :usegalaxy-eu:`ivar_trim`, usegalaxy-eu: :usegalaxy-eu:`ivar_getmasked`, doi: :doi:`10.1186/s13059-018-1618-7`
 
    
 
@@ -30,10 +31,10 @@ ivar
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.3-1</code>,  <code>1.4.3-0</code>,  <code>1.4.2-3</code>,  <code>1.4.2-2</code>,  <code>1.4.2-1</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.4-1</code>,  <code>1.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.4-0</code>,  <code>1.4.3-1</code>,  <code>1.4.3-0</code>,  <code>1.4.2-3</code>,  <code>1.4.2-2</code>,  <code>1.4.2-1</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.4-1</code>,  </span></summary>
       
 
-      ``1.4.3-1``,  ``1.4.3-0``,  ``1.4.2-3``,  ``1.4.2-2``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4-1``,  ``1.4-0``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3-1``,  ``1.3-0``,  ``1.2.3-0``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2-0``,  ``1.1_beta-0``,  ``1.0.1-0``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.4.4-0``,  ``1.4.3-1``,  ``1.4.3-0``,  ``1.4.2-3``,  ``1.4.2-2``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4-1``,  ``1.4-0``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3-1``,  ``1.3-0``,  ``1.2.3-0``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2-0``,  ``1.1_beta-0``,  ``1.0.1-0``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
       .. raw:: html
@@ -43,7 +44,8 @@ ivar
 
    
    :depends htslib: ``>=1.21,<1.22.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends samtools: 
    :requirements:
@@ -52,7 +54,7 @@ ivar
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -100,7 +102,7 @@ ivar
 
     <script>
         var package = "ivar";
-        var versions = ["1.4.3","1.4.3","1.4.2","1.4.2","1.4.2"];
+        var versions = ["1.4.4","1.4.3","1.4.3","1.4.2","1.4.2"];
     </script>
 
 

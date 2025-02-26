@@ -10,12 +10,14 @@ bandage
    :replaces_section_title:
    :noindex:
 
-   Bandage \- a Bioinformatics Application for Navigating De novo Assembly Graphs Easily
+   Bandage \- a Bioinformatics Application for Navigating De novo Assembly Graphs Easily.
 
    :homepage: https://github.com/rrwick/Bandage
-   :license: GPL3 / GNU General Public License, version 3
+   :documentation: https://rrwick.github.io/Bandage
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`bandage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bandage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bandage/meta.yaml>`_
-   :links: doi: :doi:`10.1093/bioinformatics/btv383`
+   :links: doi: :doi:`10.1093/bioinformatics/btv383`, biotools: :biotools:`bandage`, usegalaxy-eu: :usegalaxy-eu:`bandage_image`, usegalaxy-eu: :usegalaxy-eu:`bandage_info`
 
    
 
@@ -28,19 +30,23 @@ bandage
       
       
 
-      ``0.8.1-2``,  ``0.8.1-1``,  ``0.8.1-0``
+      ``0.9.0-0``,  ``0.8.1-4``,  ``0.8.1-2``,  ``0.8.1-1``,  ``0.8.1-0``
 
       
 
    
    :depends fonts-conda-ecosystem: 
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends qt: ``>=5.12.5``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends qt: ``>=5.15.2``
    :depends xorg-libxrender: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -88,7 +94,7 @@ bandage
 
     <script>
         var package = "bandage";
-        var versions = ["0.8.1","0.8.1","0.8.1"];
+        var versions = ["0.9.0","0.8.1","0.8.1","0.8.1","0.8.1"];
     </script>
 
 

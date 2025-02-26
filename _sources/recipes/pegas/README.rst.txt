@@ -32,12 +32,13 @@ pegas
       
       
 
-      ``1.0.1-0``,  ``0.2.13-0``
+      ``1.0.2-0``,  ``1.0.1-0``,  ``0.2.13-0``
 
       
 
    
    :depends beautifulsoup4: ``>=4.12.3``
+   :depends conda: ``>=24.7.1``
    :depends matplotlib-base: ``>=3.9.2``
    :depends networkx: ``>=3.2``
    :depends pandas: ``>=1.3.5``
@@ -95,7 +96,7 @@ pegas
 
     <script>
         var package = "pegas";
-        var versions = ["1.0.1","0.2.13"];
+        var versions = ["1.0.2","1.0.1","0.2.13"];
     </script>
 
 

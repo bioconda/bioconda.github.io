@@ -28,16 +28,21 @@ oligoarrayaux
       
       
 
-      ``3.8-0``
+      ``3.8.1-0``,  ``3.8-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -85,7 +90,7 @@ oligoarrayaux
 
     <script>
         var package = "oligoarrayaux";
-        var versions = ["3.8"];
+        var versions = ["3.8.1","3.8"];
     </script>
 
 
