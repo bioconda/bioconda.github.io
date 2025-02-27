@@ -28,7 +28,7 @@ megan
       
       
 
-      ``6.25.9-0``,  ``6.24.20-0``,  ``6.21.7-0``,  ``6.21.2-0``,  ``6.12.3-0``
+      ``6.25.10-0``,  ``6.25.9-0``,  ``6.24.20-0``,  ``6.21.7-0``,  ``6.21.2-0``,  ``6.12.3-0``
 
       
 
@@ -37,6 +37,10 @@ megan
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -84,7 +88,7 @@ megan
 
     <script>
         var package = "megan";
-        var versions = ["6.25.9","6.24.20","6.21.7","6.21.2","6.12.3"];
+        var versions = ["6.25.10","6.25.9","6.24.20","6.21.7","6.21.2"];
     </script>
 
 

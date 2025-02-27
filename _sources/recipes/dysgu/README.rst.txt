@@ -58,9 +58,9 @@ dysgu
    :depends pandas: ``>=1.2``
    :depends pysam: ``>=0.22``
    :depends pysam: ``>=0.23.0,<0.24.0a0``
-   :depends python: ``>=3.11,<3.12.0a0``
+   :depends python: ``>=3.10,<3.11.0a0``
    :depends python-edlib: ``>=1.3.9.0inf.1,<2.0a0``
-   :depends python_abi: ``3.11.* *_cp311``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends scikit-learn: ``>=0.22``
    :depends scipy: ``>=1.7``
    :depends sortedcontainers: 

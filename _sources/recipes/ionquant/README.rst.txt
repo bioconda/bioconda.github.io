@@ -13,7 +13,7 @@ ionquant
    A label free quantification tool
 
    :homepage: https://github.com/Nesvilab/IonQuant
-   :license: Academic License (https://msfragger.arsci.com/ionquant/IonQuant%20Academic%20Use%20License%2005162022.pdf)
+   :license: Academic License
    :recipe: /`ionquant <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ionquant>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ionquant/meta.yaml>`_
    :links: biotools: :biotools:`fragpipe`, doi: :doi:`10.1074/mcp.TIR120.002048`
 
@@ -33,13 +33,13 @@ ionquant
       
       
 
-      ``1.10.12-1``,  ``1.10.12-0``
+      ``1.10.27-0``,  ``1.10.12-1``,  ``1.10.12-0``
 
       
 
    
    :depends openjdk: ``>=11``
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.9``
    :requirements:
 
    :additional platforms:
@@ -90,7 +90,7 @@ ionquant
 
     <script>
         var package = "ionquant";
-        var versions = ["1.10.12","1.10.12"];
+        var versions = ["1.10.27","1.10.12","1.10.12"];
     </script>
 
 

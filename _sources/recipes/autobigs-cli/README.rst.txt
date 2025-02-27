@@ -27,12 +27,12 @@ autobigs-cli
       
       
 
-      ``0.5.0-0``,  ``0.4.2-0``
+      ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.2-0``
 
       
 
    
-   :depends autobigs-engine: ``0.12.*``
+   :depends autobigs-engine: ``0.13.*``
    :depends python: ``>=3.12``
    :requirements:
 
@@ -84,7 +84,7 @@ autobigs-cli
 
     <script>
         var package = "autobigs-cli";
-        var versions = ["0.5.0","0.4.2"];
+        var versions = ["0.6.0","0.5.0","0.4.2"];
     </script>
 
 

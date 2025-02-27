@@ -13,7 +13,7 @@ oases
    De novo transcriptome assembler for short reads
 
    :homepage: http://www.ebi.ac.uk/~zerbino/oases/
-   :license: GPL
+   :license: GPL-3.0-or-later
    :recipe: /`oases <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/oases>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/oases/meta.yaml>`_
    :links: biotools: :biotools:`oases`
 
@@ -28,16 +28,20 @@ oases
       
       
 
-      ``0.2.09-1``,  ``0.2.09-0``
+      ``0.2.09-2``,  ``0.2.09-1``,  ``0.2.09-0``
 
       
 
    
-   :depends libgcc-ng: ``>=4.9``
+   :depends libgcc: ``>=13``
    :depends velvet: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -85,7 +89,7 @@ oases
 
     <script>
         var package = "oases";
-        var versions = ["0.2.09","0.2.09"];
+        var versions = ["0.2.09","0.2.09","0.2.09"];
     </script>
 
 

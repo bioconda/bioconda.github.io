@@ -10,14 +10,14 @@ sambamba
    :replaces_section_title:
    :noindex:
 
-   Tools for working with SAM\/BAM data
+   Tools for working with SAM\/BAM data.
 
    :homepage: https://github.com/biod/sambamba
    :documentation: https://lomereiter.github.io/sambamba/docs/sambamba-view.html
    
    :license: GPL2 / GPL-2.0-only
    :recipe: /`sambamba <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sambamba>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sambamba/meta.yaml>`_
-   :links: doi: :doi:`10.1093/bioinformatics/btv098`
+   :links: doi: :doi:`10.1093/bioinformatics/btv098`, biotools: :biotools:`sambamba`, usegalaxy-eu: :usegalaxy-eu:`sambamba_flagstat`, usegalaxy-eu: :usegalaxy-eu:`sambamba_markdup`, usegalaxy-eu: :usegalaxy-eu:`sambamba_merge`, usegalaxy-eu: :usegalaxy-eu:`sambamba_sort`
 
    
 
@@ -31,10 +31,10 @@ sambamba
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.1-3</code>,  <code>1.0.1-2</code>,  <code>1.0.1-1</code>,  <code>1.0.1-0</code>,  <code>1.0-1</code>,  <code>1.0-0</code>,  <code>0.8.2-2</code>,  <code>0.8.1-1</code>,  <code>0.8.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.1-4</code>,  <code>1.0.1-3</code>,  <code>1.0.1-2</code>,  <code>1.0.1-1</code>,  <code>1.0.1-0</code>,  <code>1.0-1</code>,  <code>1.0-0</code>,  <code>0.8.2-2</code>,  <code>0.8.1-1</code>,  </span></summary>
       
 
-      ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-1``,  ``1.0-0``,  ``0.8.2-2``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-3``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.9-0``,  ``0.6.8-2``,  ``0.6.8-1``,  ``0.6.8-0``,  ``0.6.6-2``,  ``0.6.6-1``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.9-1``,  ``0.5.9-0``
+      ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-1``,  ``1.0-0``,  ``0.8.2-2``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-3``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.9-0``,  ``0.6.8-2``,  ``0.6.8-1``,  ``0.6.8-0``,  ``0.6.6-2``,  ``0.6.6-1``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.9-1``,  ``0.5.9-0``
 
       
       .. raw:: html
@@ -43,8 +43,9 @@ sambamba
       
 
    
+   :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libgcc: ``>=13``
-   :depends liblzma: ``>=5.6.3,<6.0a0``
+   :depends liblzma: ``>=5.6.4,<6.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends lz4-c: ``>=1.9.3,<1.10.0a0``
    :requirements:
@@ -53,7 +54,7 @@ sambamba
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -101,7 +102,7 @@ sambamba
 
     <script>
         var package = "sambamba";
-        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1","1.0"];
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1","1.0.1"];
     </script>
 
 

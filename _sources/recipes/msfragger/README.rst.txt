@@ -13,7 +13,7 @@ msfragger
    Ultrafast\, comprehensive peptide identification for mass spectrometry–based proteomics
 
    :homepage: https://github.com/Nesvilab/MSFragger
-   :license: Academic License (https://msfragger.arsci.com/upgrader/MSFragger-LICENSE.pdf)
+   :license: Academic License
    :recipe: /`msfragger <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msfragger>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msfragger/meta.yaml>`_
    :links: doi: :doi:`10.1038/nmeth.4256`, doi: :doi:`10.1038/s41467-020-17921-y`, doi: :doi:`10.1038/s41592-020-0967-9`
 
@@ -36,7 +36,7 @@ msfragger
       
       
 
-      ``4.0-1``,  ``4.0-0``
+      ``4.1-0``,  ``4.0-1``,  ``4.0-0``
 
       
 
@@ -95,7 +95,7 @@ msfragger
 
     <script>
         var package = "msfragger";
-        var versions = ["4.0","4.0"];
+        var versions = ["4.1","4.0","4.0"];
     </script>
 
 
