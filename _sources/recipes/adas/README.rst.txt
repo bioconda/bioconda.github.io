@@ -27,7 +27,7 @@ adas
       
       
 
-      ``0.1.2-0``
+      ``0.1.3-0``,  ``0.1.2-0``
 
       
 
@@ -85,7 +85,7 @@ adas
 
     <script>
         var package = "adas";
-        var versions = ["0.1.2"];
+        var versions = ["0.1.3","0.1.2"];
     </script>
 
 

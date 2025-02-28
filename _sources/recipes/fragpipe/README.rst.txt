@@ -41,15 +41,15 @@ fragpipe
       
       
 
-      ``20.0-4``,  ``20.0-3``,  ``20.0-2``,  ``20.0-1``,  ``20.0-0``
+      ``22.0-0``,  ``20.0-4``,  ``20.0-3``,  ``20.0-2``,  ``20.0-1``,  ``20.0-0``
 
       
 
    
    :depends easypqp: ``>=0.1.34``
-   :depends ionquant: ``>=1.10.12``
+   :depends ionquant: ``>=1.10.27``
    :depends lxml: 
-   :depends msfragger: ``>=4.0``
+   :depends msfragger: ``>=4.1``
    :depends openjdk: ``>=9``
    :depends python: ``3.9.*``
    :depends zlib: ``>=1.2.13``
@@ -103,7 +103,7 @@ fragpipe
 
     <script>
         var package = "fragpipe";
-        var versions = ["20.0","20.0","20.0","20.0","20.0"];
+        var versions = ["22.0","20.0","20.0","20.0","20.0"];
     </script>
 
 

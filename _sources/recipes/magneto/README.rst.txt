@@ -30,17 +30,17 @@ magneto
       
       
 
-      ``1.2-0``
+      ``1.2-1``,  ``1.2-0``
 
       
 
    
-   :depends click: 
-   :depends mamba: 
+   :depends click: ``8.01``
+   :depends mamba: ``1.5.8``
    :depends pandas: 
    :depends python: ``>=3.7``
    :depends pyyaml: 
-   :depends snakemake-minimal: 
+   :depends snakemake-minimal: ``6.3.0``
    :requirements:
 
    :additional platforms:
@@ -91,7 +91,7 @@ magneto
 
     <script>
         var package = "magneto";
-        var versions = ["1.2"];
+        var versions = ["1.2","1.2"];
     </script>
 
 

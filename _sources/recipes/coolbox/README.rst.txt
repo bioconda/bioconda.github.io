@@ -13,7 +13,7 @@ coolbox
    Jupyter notebook based genomic data visulization toolkit.
 
    :homepage: https://github.com/GangCaoLab/CoolBox
-   :license: GPL3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`coolbox <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/coolbox>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/coolbox/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ coolbox
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.8-0</code>,  <code>0.3.7-1</code>,  <code>0.3.7-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.9-0</code>,  <code>0.3.8-0</code>,  <code>0.3.7-1</code>,  <code>0.3.7-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  <code>0.3.1-0</code>,  </span></summary>
       
 
-      ``0.3.8-0``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``
+      ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``
 
       
       .. raw:: html
@@ -111,7 +111,7 @@ coolbox
 
     <script>
         var package = "coolbox";
-        var versions = ["0.3.8","0.3.7","0.3.7","0.3.6","0.3.5"];
+        var versions = ["0.3.9","0.3.8","0.3.7","0.3.7","0.3.6"];
     </script>
 
 

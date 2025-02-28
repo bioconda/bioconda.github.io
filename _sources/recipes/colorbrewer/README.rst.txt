@@ -10,10 +10,10 @@ colorbrewer
    :replaces_section_title:
    :noindex:
 
-   An easy way to get access to ColorBrewer schemes from within a Python program
+   An easy way to get access to ColorBrewer schemes from within a Python program.
 
-   :homepage: http://noble.gs.washington.edu/~mmh1/software/colorbrewer/
-   :license: MIT
+   :homepage: https://github.com/hoffmangroup/colorbrewer
+   :license: APACHE / Apache-2.0
    :recipe: /`colorbrewer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/colorbrewer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/colorbrewer/meta.yaml>`_
 
    
@@ -27,12 +27,12 @@ colorbrewer
       
       
 
-      ``0.2-1``,  ``0.2-0``,  ``0.1.1-2``,  ``0.1.1-1``
+      ``0.3-0``,  ``0.2-1``,  ``0.2-0``,  ``0.1.1-2``,  ``0.1.1-1``
 
       
 
    
-   :depends python: 
+   :depends python: ``>=3.9``
    :depends six: 
    :requirements:
 
@@ -84,7 +84,7 @@ colorbrewer
 
     <script>
         var package = "colorbrewer";
-        var versions = ["0.2","0.2","0.1.1","0.1.1"];
+        var versions = ["0.3","0.2","0.2","0.1.1","0.1.1"];
     </script>
 
 

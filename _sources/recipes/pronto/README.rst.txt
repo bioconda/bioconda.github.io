@@ -42,11 +42,12 @@ pronto
       
 
    
-   :depends chardet: ``>=5.0``
-   :depends fastobo: ``>=0.12.2``
-   :depends networkx: ``>=2.3``
-   :depends python: ``>=3.7``
-   :depends python-dateutil: ``>=2.8``
+   :depends python: ``>=3.9``
+   :depends chardet: ``>=5.0,<6.dev0``
+   :depends fastobo: ``>=0.13.0,<0.14.dev0``
+   :depends networkx: ``>=2.3,<4.0``
+   :depends python-dateutil: ``>=2.8,<3.dev0``
+   :depends python: 
    :requirements:
 
    :additional platforms:

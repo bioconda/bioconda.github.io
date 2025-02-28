@@ -12,9 +12,10 @@ meta-neuro
 
    Medial Tractography Analysis \(MeTA\)
 
-   :homepage: https://github.com/bagari/meta
-   :documentation: https://github.com/bagari/meta/wiki
+   :homepage: https://github.com/USC-LoBeS/meta
+   :documentation: https://github.com/USC-LoBeS/meta/wiki
    
+   :developer docs: https://github.com/bagari/meta
    :license: BSD-3-Clause
    :recipe: /`meta-neuro <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meta-neuro>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meta-neuro/meta.yaml>`_
 
@@ -30,7 +31,7 @@ meta-neuro
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -111,7 +112,7 @@ meta-neuro
 
     <script>
         var package = "meta-neuro";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["1.0.1","1.0.0","1.0.0"];
     </script>
 
 

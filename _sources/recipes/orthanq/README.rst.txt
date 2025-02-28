@@ -10,7 +10,7 @@ orthanq
    :replaces_section_title:
    :noindex:
 
-   Uncertainty aware HLA typing and general haplotype quantification
+   Uncertainty aware HLA typing and general haplotype quantification.
 
    :homepage: https://github.com/orthanq/orthanq
    :license: MIT / MIT
@@ -28,10 +28,10 @@ orthanq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.9-1</code>,  <code>1.7.9-0</code>,  <code>1.7.8-0</code>,  <code>1.7.7-0</code>,  <code>1.7.6-0</code>,  <code>1.7.5-0</code>,  <code>1.7.4-0</code>,  <code>1.7.2-0</code>,  <code>1.7.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8.0-0</code>,  <code>1.7.9-1</code>,  <code>1.7.9-0</code>,  <code>1.7.8-0</code>,  <code>1.7.7-0</code>,  <code>1.7.6-0</code>,  <code>1.7.5-0</code>,  <code>1.7.4-0</code>,  <code>1.7.2-0</code>,  </span></summary>
       
 
-      ``1.7.9-1``,  ``1.7.9-0``,  ``1.7.8-0``,  ``1.7.7-0``,  ``1.7.6-0``,  ``1.7.5-0``,  ``1.7.4-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.7.0-2``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``
+      ``1.8.0-0``,  ``1.7.9-1``,  ``1.7.9-0``,  ``1.7.8-0``,  ``1.7.7-0``,  ``1.7.6-0``,  ``1.7.5-0``,  ``1.7.4-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.7.0-2``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -53,16 +53,14 @@ orthanq
    :depends htslib: ``>=1.21,<1.22.0a0``
    :depends libcblas: ``>=3.9.0,<4.0a0``
    :depends libgcc: ``>=13``
-   :depends liblzma: ``>=5.6.3,<6.0a0``
+   :depends liblzma: ``>=5.6.4,<6.0a0``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends minimap2: ``>=2.28,<3.0a0``
-   :depends openssl: ``>=3.4.0,<4.0a0``
+   :depends openssl: ``>=3.4.1,<4.0a0``
    :depends samtools: ``>=1.19.2,<2.0a0``
    :depends varlociraptor: ``>=8.4.7,<9.0a0``
    :depends vg: ``>=1.56.0,<2.0a0``
-   :depends xz: 
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
@@ -117,7 +115,7 @@ orthanq
 
     <script>
         var package = "orthanq";
-        var versions = ["1.7.9","1.7.9","1.7.8","1.7.7","1.7.6"];
+        var versions = ["1.8.0","1.7.9","1.7.9","1.7.8","1.7.7"];
     </script>
 
 
