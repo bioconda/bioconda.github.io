@@ -10,10 +10,10 @@ bamaligncleaner
    :replaces_section_title:
    :noindex:
 
-   Removes unaligned references in BAM alignment file
+   Removes unaligned references in BAM alignment file.
 
    :homepage: https://github.com/maxibor/bamAlignCleaner
-   :license: GPL-3.0
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`bamaligncleaner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamaligncleaner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamaligncleaner/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ bamaligncleaner
       
       
 
-      ``0.2.2-0``,  ``0.2.1-0``
+      ``0.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
 
       
 
@@ -86,7 +86,7 @@ bamaligncleaner
 
     <script>
         var package = "bamaligncleaner";
-        var versions = ["0.2.2","0.2.1"];
+        var versions = ["0.3","0.2.2","0.2.1"];
     </script>
 
 

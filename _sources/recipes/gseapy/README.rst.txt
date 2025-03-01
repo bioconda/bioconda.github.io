@@ -10,11 +10,14 @@ gseapy
    :replaces_section_title:
    :noindex:
 
-   Gene Set Enrichment Analysis in Python
+   Gene Set Enrichment Analysis in Python.
 
    :homepage: https://github.com/zqfang/gseapy
-   :license: MIT / MIT
+   :documentation: https://gseapy.readthedocs.io/en/latest
+   
+   :license: BSD / BSD-3-Clause
    :recipe: /`gseapy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gseapy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gseapy/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btac757`, biotools: :biotools:`gseapy`
 
    
 
@@ -28,10 +31,10 @@ gseapy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.5-0</code>,  <code>1.1.4-1</code>,  <code>1.1.4-0</code>,  <code>1.1.3-1</code>,  <code>1.1.3-0</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.6-0</code>,  <code>1.1.5-0</code>,  <code>1.1.4-1</code>,  <code>1.1.4-0</code>,  <code>1.1.3-1</code>,  <code>1.1.3-0</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  </span></summary>
       
 
-      ``1.1.5-0``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.14.0-0``,  ``0.13.0-0``,  ``0.12.1-0``,  ``0.12.0-1``,  ``0.12.0-0``,  ``0.10.8-0``,  ``0.10.7-0``,  ``0.10.6-0``,  ``0.10.5-0``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.19-0``,  ``0.9.18-0``,  ``0.9.17-0``,  ``0.9.16-0``,  ``0.9.15-0``,  ``0.9.13-0``,  ``0.9.9-0``,  ``0.9.8-0``,  ``0.9.7-0``,  ``0.9.5-1``,  ``0.9.3-1``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.11-0``,  ``0.8.6-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.7.4-3``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.6.2-0``,  ``0.6.0-0``,  ``0.5.3-0``,  ``0.5.2a0-0``,  ``0.4.2-0``
+      ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.14.0-0``,  ``0.13.0-0``,  ``0.12.1-0``,  ``0.12.0-1``,  ``0.12.0-0``,  ``0.10.8-0``,  ``0.10.7-0``,  ``0.10.6-0``,  ``0.10.5-0``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.19-0``,  ``0.9.18-0``,  ``0.9.17-0``,  ``0.9.16-0``,  ``0.9.15-0``,  ``0.9.13-0``,  ``0.9.9-0``,  ``0.9.8-0``,  ``0.9.7-0``,  ``0.9.5-1``,  ``0.9.3-1``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.11-0``,  ``0.8.6-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.7.4-3``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.6.2-0``,  ``0.6.0-0``,  ``0.5.3-0``,  ``0.5.2a0-0``,  ``0.4.2-0``
 
       
       .. raw:: html
@@ -40,21 +43,21 @@ gseapy
       
 
    
-   :depends matplotlib-base: ``>=1.4.3``
+   :depends matplotlib-base: ``>=2.2``
    :depends numpy: ``>=1.13.0``
-   :depends pandas: ``>=0.16``
+   :depends pandas: 
+   :depends pyopengl: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends requests: 
    :depends scipy: 
-   :depends tomli: ``>=1.2.1``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -102,7 +105,7 @@ gseapy
 
     <script>
         var package = "gseapy";
-        var versions = ["1.1.5","1.1.4","1.1.4","1.1.3","1.1.3"];
+        var versions = ["1.1.6","1.1.5","1.1.4","1.1.4","1.1.3"];
     </script>
 
 

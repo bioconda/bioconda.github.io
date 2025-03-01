@@ -13,10 +13,11 @@ strdust
    Tandem repeat genotyper for long reads.
 
    :homepage: https://github.com/wdecoster/STRdust
-   :documentation: https://github.com/wdecoster/STRdust/blob/v0.8.2/README.md
+   :documentation: https://github.com/wdecoster/STRdust/blob/v0.11.0/README.md
    
    :license: MIT / MIT
    :recipe: /`strdust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strdust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strdust/meta.yaml>`_
+   :links: doi: :doi:`10.1101/gr.279265.124`
 
    
 
@@ -29,21 +30,21 @@ strdust
       
       
 
-      ``0.8.2-0``,  ``0.8.0-0``
+      ``0.11.0-0``,  ``0.8.2-0``,  ``0.8.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>osx-arm64</code></span>
+         <span class="additional-platforms"><code>osx-arm64</code>,  <code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -91,7 +92,7 @@ strdust
 
     <script>
         var package = "strdust";
-        var versions = ["0.8.2","0.8.0"];
+        var versions = ["0.11.0","0.8.2","0.8.0"];
     </script>
 
 
