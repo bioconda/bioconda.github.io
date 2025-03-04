@@ -28,10 +28,10 @@ hmftools-linx
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0-0</code>,  <code>2.0_beta-2</code>,  <code>2.0_beta-1</code>,  <code>2.0_beta-0</code>,  <code>1.25-0</code>,  <code>1.23.6-0</code>,  <code>1.22.1-0</code>,  <code>1.22-0</code>,  <code>1.21-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.1-0</code>,  <code>2.0-0</code>,  <code>2.0_beta-2</code>,  <code>2.0_beta-1</code>,  <code>2.0_beta-0</code>,  <code>1.25-0</code>,  <code>1.23.6-0</code>,  <code>1.22.1-0</code>,  <code>1.22-0</code>,  </span></summary>
       
 
-      ``2.0-0``,  ``2.0_beta-2``,  ``2.0_beta-1``,  ``2.0_beta-0``,  ``1.25-0``,  ``1.23.6-0``,  ``1.22.1-0``,  ``1.22-0``,  ``1.21-0``,  ``1.20-0``,  ``1.19-0``,  ``1.18-0``,  ``1.17-0``,  ``1.16-0``,  ``1.15-0``,  ``1.14-1``,  ``1.14-0``,  ``1.13-0``,  ``1.12-0``,  ``1.11-0``,  ``1.10-1``,  ``1.10-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``
+      ``2.0.1-0``,  ``2.0-0``,  ``2.0_beta-2``,  ``2.0_beta-1``,  ``2.0_beta-0``,  ``1.25-0``,  ``1.23.6-0``,  ``1.22.1-0``,  ``1.22-0``,  ``1.21-0``,  ``1.20-0``,  ``1.19-0``,  ``1.18-0``,  ``1.17-0``,  ``1.16-0``,  ``1.15-0``,  ``1.14-1``,  ``1.14-0``,  ``1.13-0``,  ``1.12-0``,  ``1.11-0``,  ``1.10-1``,  ``1.10-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-0``
 
       
       .. raw:: html
@@ -100,7 +100,7 @@ hmftools-linx
 
     <script>
         var package = "hmftools-linx";
-        var versions = ["2.0","2.0_beta","2.0_beta","2.0_beta","1.25"];
+        var versions = ["2.0.1","2.0","2.0_beta","2.0_beta","2.0_beta"];
     </script>
 
 

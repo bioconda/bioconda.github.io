@@ -10,12 +10,12 @@ grepq
    :replaces_section_title:
    :noindex:
 
-   Quickly filter FASTQ files
+   Quickly filter FASTQ files.
 
    :homepage: https://github.com/Rbfinch/grepq
    :license: MIT
    :recipe: /`grepq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grepq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grepq/meta.yaml>`_
-   :links: DOI: :DOI:`10.5281/zenodo.14031703`
+   :links: doi: :doi:`10.5281/zenodo.14031703`
 
    
 
@@ -28,12 +28,13 @@ grepq
       
       
 
-      ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``
+      ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``
 
       
 
    
    :depends libgcc: ``>=13``
+   :depends libsqlite: ``>=3.49.1,<4.0a0``
    :depends libstdcxx: ``>=13``
    :requirements:
 
@@ -89,7 +90,7 @@ grepq
 
     <script>
         var package = "grepq";
-        var versions = ["1.4.8","1.4.7","1.4.5","1.4.4","1.4.3"];
+        var versions = ["1.4.9","1.4.8","1.4.7","1.4.5","1.4.4"];
     </script>
 
 

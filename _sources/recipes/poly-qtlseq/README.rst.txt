@@ -27,14 +27,14 @@ poly-qtlseq
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends bcftools: ``>=1.16``
    :depends bwa: 
-   :depends dotnet-runtime: ``>=6,<7``
+   :depends dotnet-runtime: ``>=8,<9``
    :depends fastp: ``>=0.23``
    :depends samtools: ``>=1.16``
    :depends snpeff: 
@@ -88,7 +88,7 @@ poly-qtlseq
 
     <script>
         var package = "poly-qtlseq";
-        var versions = ["1.0.1","1.0.0"];
+        var versions = ["1.0.2","1.0.1","1.0.0"];
     </script>
 
 

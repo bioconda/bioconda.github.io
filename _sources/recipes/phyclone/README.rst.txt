@@ -27,7 +27,7 @@ phyclone
       
       
 
-      ``0.6.0-0``,  ``0.5.1-0``
+      ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.1-0``
 
       
 
@@ -91,7 +91,7 @@ phyclone
 
     <script>
         var package = "phyclone";
-        var versions = ["0.6.0","0.5.1"];
+        var versions = ["0.7.0","0.6.0","0.5.1"];
     </script>
 
 
