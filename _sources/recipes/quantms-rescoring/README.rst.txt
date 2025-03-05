@@ -27,22 +27,23 @@ quantms-rescoring
       
       
 
-      ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
    
    :depends click: 
-   :depends deeplc: ``2.2.38``
-   :depends ms2rescore: ``3.0.3``
-   :depends numpy: 
+   :depends deeplc: ``>=3.0``
+   :depends ms2pip: ``>=4.0``
+   :depends ms2rescore: ``3.1.4``
+   :depends numpy: ``>=1.25``
    :depends pandas: 
-   :depends protobuf: ``>=3.9.2``
-   :depends psm-utils: ``0.8.3``
+   :depends protobuf: 
+   :depends psm-utils: 
    :depends pygam: 
-   :depends pyopenms: ``>=2.4.0``
-   :depends python: ``>=3.8,<3.11``
-   :depends scipy: ``1.13.1``
+   :depends pyopenms: ``>=3.0``
+   :depends python: ``>=3.9,<3.12``
+   :depends scipy: 
    :requirements:
 
    :additional platforms:
@@ -93,7 +94,7 @@ quantms-rescoring
 
     <script>
         var package = "quantms-rescoring";
-        var versions = ["0.0.4","0.0.3","0.0.2","0.0.1"];
+        var versions = ["0.0.5","0.0.4","0.0.3","0.0.2","0.0.1"];
     </script>
 
 

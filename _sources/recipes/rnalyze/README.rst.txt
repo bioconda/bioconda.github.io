@@ -31,13 +31,14 @@ rnalyze
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends bowtie2: 
    :depends bwa: 
+   :depends cutadapt: ``5.0.*``
    :depends fastqc: 
    :depends hisat2: 
    :depends multiqc: 
@@ -45,6 +46,7 @@ rnalyze
    :depends sra-tools: 
    :depends subread: 
    :depends trimmomatic: 
+   :depends xopen: ``1.6.0.*``
    :requirements:
 
    :additional platforms:
@@ -95,7 +97,7 @@ rnalyze
 
     <script>
         var package = "rnalyze";
-        var versions = ["1.0.1","1.0.0"];
+        var versions = ["1.0.1","1.0.1","1.0.0"];
     </script>
 
 

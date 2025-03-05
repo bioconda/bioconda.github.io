@@ -13,7 +13,7 @@ bam-readcount
    bam\-readcount generates metrics at single nucleotide positions.
 
    :homepage: https://github.com/genome/bam-readcount
-   :documentation: https://github.com/genome/bam-readcount/blob/master/README.md
+   :documentation: https://github.com/genome/bam-readcount/blob/v1.0.1/README.md
    
    :license: MIT / MIT
    :recipe: /`bam-readcount <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bam-readcount>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bam-readcount/meta.yaml>`_
@@ -30,14 +30,14 @@ bam-readcount
       
       
 
-      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``0.8-4``,  ``0.8-3``,  ``0.8-2``,  ``0.8-1``
+      ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``0.8-4``,  ``0.8-3``,  ``0.8-2``,  ``0.8-1``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends icu: ``>=73.2,<74.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends python: 
    :requirements:
 
@@ -45,7 +45,7 @@ bam-readcount
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -93,7 +93,7 @@ bam-readcount
 
     <script>
         var package = "bam-readcount";
-        var versions = ["1.0.1","1.0.1","1.0.1","0.8","0.8"];
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1","0.8"];
     </script>
 
 
