@@ -13,7 +13,7 @@ fast2q
    A Python3 program that counts sequence occurrences in FASTQ files.
 
    :homepage: https://github.com/afombravo/2FAST2Q
-   :license: GPL-3.0
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`fast2q <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fast2q>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fast2q/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ fast2q
       
       
 
-      ``2.7.4-0``,  ``2.7.2-0``
+      ``2.7.7-0``,  ``2.7.4-0``,  ``2.7.2-0``
 
       
 
@@ -90,7 +90,7 @@ fast2q
 
     <script>
         var package = "fast2q";
-        var versions = ["2.7.4","2.7.2"];
+        var versions = ["2.7.7","2.7.4","2.7.2"];
     </script>
 
 

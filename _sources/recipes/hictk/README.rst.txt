@@ -31,10 +31,10 @@ hictk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.0.12-1</code>,  <code>0.0.12-0</code>,  <code>0.0.11-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.2-1</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.0.12-1</code>,  <code>0.0.12-0</code>,  </span></summary>
       
 
-      ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.0.12-1``,  ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.0.12-1``,  ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -52,8 +52,7 @@ hictk
    :depends libdeflate: ``>=1``
    :depends libdeflate: ``>=1.23,<1.24.0a0``
    :depends libgcc: ``>=13``
-   :depends libgcc: ``>=14``
-   :depends libstdcxx: ``>=14``
+   :depends libstdcxx: ``>=13``
    :depends zstd: ``>=1.5``
    :depends zstd: ``>=1.5.7,<1.6.0a0``
    :requirements:
@@ -110,7 +109,7 @@ hictk
 
     <script>
         var package = "hictk";
-        var versions = ["2.0.2","2.0.1","2.0.0","1.0.0","1.0.0"];
+        var versions = ["2.0.2","2.0.2","2.0.1","2.0.0","1.0.0"];
     </script>
 
 

@@ -10,13 +10,17 @@ vuegen
    :replaces_section_title:
    :noindex:
 
-   VueGen automates the creation of reports from bioinformatics outputs\,  supporting formats like PDF\, HTML\, DOCX\, ODT\, PPTX\, Reveal.js\,  Jupyter notebooks\, and Streamlit web applications. Users simply  provide a directory with output files—such as plots\, tables\, networks\,  Markdown text\, and HTML files—and VueGen compiles them into a structured report.
+   VueGen automates the creation of reports from bioinformatics outputs\, 
+   supporting formats like PDF\, HTML\, DOCX\, ODT\, PPTX\, Reveal.js\, 
+   Jupyter notebooks\, and Streamlit web applications. Users simply 
+   provide a directory with output files—such as plots\, tables\, networks\, 
+   Markdown text\, and HTML files—and VueGen compiles them into a structured report.
 
 
    :homepage: https://github.com/Multiomics-Analytics-Group/vuegen
-   :documentation: https://vuegen.readthedocs.io/
+   :documentation: https://vuegen.readthedocs.io
    
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`vuegen <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vuegen>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vuegen/meta.yaml>`_
 
    
@@ -30,7 +34,7 @@ vuegen
       
       
 
-      ``0.2.2-0``
+      ``0.2.2-1``,  ``0.2.2-0``
 
       
 
@@ -44,12 +48,12 @@ vuegen
    :depends openpyxl: ``>=3.1.5,<4.0.0``
    :depends pandas: ``>=2.2.3,<3.0.0``
    :depends plotly: ``5.15.0.*``
-   :depends python: ``>=3.9,<4.0``
+   :depends python: ``>=3.9,<3.9.7|>3.9.7,<4.0``
    :depends python-kaleido: ``0.2.0.*``
    :depends pyvis: ``>=0.3.2,<0.4.0``
    :depends pyyaml: ``>=6.0.2,<7.0.0``
    :depends quarto: 
-   :depends streamlit: 
+   :depends streamlit: ``1.39.0.*``
    :depends streamlit-aggrid: 
    :depends vl-convert-python: ``>=1.7.0,<2.0.0``
    :depends xlrd: ``>=2.0.1,<3.0.0``
@@ -103,7 +107,7 @@ vuegen
 
     <script>
         var package = "vuegen";
-        var versions = ["0.2.2"];
+        var versions = ["0.2.2","0.2.2"];
     </script>
 
 
