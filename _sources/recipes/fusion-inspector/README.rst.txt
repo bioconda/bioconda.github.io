@@ -26,9 +26,17 @@ fusion-inspector
    :versions:
       
       
+      .. raw:: html
 
-      ``2.10.0-0``,  ``2.8.0-0``,  ``2.2.1-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.2.1-0</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-2</code>,  <code>1.1.0-1</code>,  </span></summary>
+      
 
+      ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.2.1-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -36,7 +44,7 @@ fusion-inspector
    :depends gmap: ``>=2017.11.15``
    :depends htslib: 
    :depends perl: 
-   :depends perl-db-file: 
+   :depends perl-db_file: 
    :depends perl-set-intervaltree: 
    :depends perl-uri: 
    :depends python: ``>=3``
@@ -94,7 +102,7 @@ fusion-inspector
 
     <script>
         var package = "fusion-inspector";
-        var versions = ["2.10.0","2.8.0","2.2.1","1.3.1","1.3.1"];
+        var versions = ["2.10.0","2.10.0","2.8.0","2.2.1","1.3.1"];
     </script>
 
 

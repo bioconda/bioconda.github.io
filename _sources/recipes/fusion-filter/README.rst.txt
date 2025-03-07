@@ -27,7 +27,7 @@ fusion-filter
       
       
 
-      ``0.5.0-3``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``
+      ``0.5.0-4``,  ``0.5.0-3``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``
 
       
 
@@ -36,7 +36,7 @@ fusion-filter
    :depends gmap: ``>=2017.10.30``
    :depends perl: 
    :depends perl-carp: 
-   :depends perl-db-file: 
+   :depends perl-db_file: 
    :depends perl-json-xs: 
    :depends perl-perlio-gzip: 
    :depends perl-set-intervaltree: 
@@ -94,7 +94,7 @@ fusion-filter
 
     <script>
         var package = "fusion-filter";
-        var versions = ["0.5.0","0.5.0","0.5.0","0.5.0"];
+        var versions = ["0.5.0","0.5.0","0.5.0","0.5.0","0.5.0"];
     </script>
 
 

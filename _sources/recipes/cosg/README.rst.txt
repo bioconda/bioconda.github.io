@@ -10,10 +10,10 @@ cosg
    :replaces_section_title:
    :noindex:
 
-   Accurate and fast cell marker gene identification with COSG
+   Accurate and fast cell marker gene identification with COSG.
 
    :homepage: https://github.com/genecell/COSG
-   :license: BSD-3-Clause
+   :license: BSD / BSD-3-Clause
    :recipe: /`cosg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cosg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cosg/meta.yaml>`_
 
    
@@ -27,18 +27,21 @@ cosg
       
       
 
-      ``1.0.1-0``
+      ``1.0.2-0``,  ``1.0.1-0``
 
       
 
    
-   :depends anndata: ``>=0.7.4``
+   :depends anndata: ``>=0.8``
+   :depends matplotlib-base: ``>=3.5.2``
+   :depends networkx: ``>=2.8.8``
    :depends numpy: ``>=1.17.0``
    :depends pandas: ``>=0.21``
-   :depends python: 
+   :depends python: ``>=3.6``
    :depends scanpy: ``>=1.6.0``
    :depends scikit-learn: ``>=0.21.2``
    :depends scipy: ``>=1.4``
+   :depends typing_extensions: 
    :requirements:
 
    :additional platforms:
@@ -89,7 +92,7 @@ cosg
 
     <script>
         var package = "cosg";
-        var versions = ["1.0.1"];
+        var versions = ["1.0.2","1.0.1"];
     </script>
 
 

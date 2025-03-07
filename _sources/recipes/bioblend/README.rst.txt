@@ -30,10 +30,10 @@ bioblend
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.18.0-0</code>,  <code>0.17.0-0</code>,  <code>0.16.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.18.0-0</code>,  <code>0.17.0-0</code>,  </span></summary>
       
 
-      ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.18.0-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.0-0``,  ``0.12.0-1``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.8.0-0``,  ``0.7.0-2``,  ``0.7.0-1``,  ``0.7.0-0``
+      ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.18.0-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.0-0``,  ``0.12.0-1``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.8.0-0``,  ``0.7.0-2``,  ``0.7.0-1``,  ``0.7.0-0``
 
       
       .. raw:: html
@@ -42,11 +42,11 @@ bioblend
       
 
    
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.9``
+   :depends pyyaml: 
    :depends requests: ``>=2.20.0``
    :depends requests-toolbelt: ``>=0.5.1,!=0.9.0``
    :depends tuspy: 
-   :depends typing-extensions: 
    :requirements:
 
    :additional platforms:
@@ -97,7 +97,7 @@ bioblend
 
     <script>
         var package = "bioblend";
-        var versions = ["1.4.0","1.3.0","1.2.0","1.1.1","1.0.1"];
+        var versions = ["1.5.0","1.4.0","1.3.0","1.2.0","1.1.1"];
     </script>
 
 

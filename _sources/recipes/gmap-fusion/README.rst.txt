@@ -27,7 +27,7 @@ gmap-fusion
       
       
 
-      ``0.4.0-2``,  ``0.4.0-0``,  ``0.3.0-1``
+      ``0.4.0-3``,  ``0.4.0-2``,  ``0.4.0-0``,  ``0.3.0-1``
 
       
 
@@ -35,7 +35,7 @@ gmap-fusion
    :depends bowtie2: ``>=2.1``
    :depends gmap: ``>=2017.11.15``
    :depends perl: 
-   :depends perl-db-file: 
+   :depends perl-db_file: 
    :depends perl-set-intervaltree: 
    :depends samtools: ``>=1.3``
    :requirements:
@@ -88,7 +88,7 @@ gmap-fusion
 
     <script>
         var package = "gmap-fusion";
-        var versions = ["0.4.0","0.4.0","0.3.0"];
+        var versions = ["0.4.0","0.4.0","0.4.0","0.3.0"];
     </script>
 
 

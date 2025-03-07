@@ -32,7 +32,7 @@ pegas
       
       
 
-      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.2.13-0``
+      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.2.13-0``
 
       
 
@@ -42,7 +42,7 @@ pegas
    :depends matplotlib-base: ``>=3.9.2``
    :depends networkx: ``>=3.2``
    :depends pandas: ``>=1.3.5``
-   :depends plotly: ``>=5.0.0``
+   :depends plotly: ``>=5.0.0,<6``
    :depends python: ``>=3.10``
    :depends snakemake-minimal: ``>=7.32.4``
    :depends tqdm: ``>=4.66.5``
@@ -96,7 +96,7 @@ pegas
 
     <script>
         var package = "pegas";
-        var versions = ["1.0.3","1.0.2","1.0.1","0.2.13"];
+        var versions = ["1.0.4","1.0.3","1.0.2","1.0.1","0.2.13"];
     </script>
 
 
