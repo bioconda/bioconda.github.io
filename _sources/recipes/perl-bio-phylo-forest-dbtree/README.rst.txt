@@ -27,7 +27,7 @@ perl-bio-phylo-forest-dbtree
       
       
 
-      ``0.58-1``,  ``0.58-0``
+      ``0.58-2``,  ``0.58-1``,  ``0.58-0``
 
       
 
@@ -90,7 +90,7 @@ perl-bio-phylo-forest-dbtree
 
     <script>
         var package = "perl-bio-phylo-forest-dbtree";
-        var versions = ["0.58","0.58"];
+        var versions = ["0.58","0.58","0.58"];
     </script>
 
 

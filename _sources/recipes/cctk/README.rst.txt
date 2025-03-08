@@ -13,7 +13,7 @@ cctk
    Tools to identify and compare CRISPR arrays.
 
    :homepage: https://github.com/Alan-Collins/CRISPR_comparison_toolkit
-   :license: GPL-3.0
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`cctk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cctk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cctk/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ cctk
       
       
 
-      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-0``,  ``0.8.4-1``,  ``0.8.4-0``,  ``0.8.0-0``,  ``0.7.7-0``
+      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-0``,  ``0.8.4-1``,  ``0.8.4-0``,  ``0.8.0-0``,  ``0.7.7-0``
 
       
 
@@ -88,7 +88,7 @@ cctk
 
     <script>
         var package = "cctk";
-        var versions = ["1.0.2","1.0.1","1.0","0.8.4","0.8.4"];
+        var versions = ["1.0.3","1.0.2","1.0.1","1.0","0.8.4"];
     </script>
 
 

@@ -27,12 +27,13 @@ muat
       
       
 
-      ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.4-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
    :depends bcftools: 
+   :depends bedops: 
    :depends bedtools: 
    :depends boto3: 
    :depends htslib: 
@@ -97,7 +98,7 @@ muat
 
     <script>
         var package = "muat";
-        var versions = ["0.1.2","0.1.1","0.1.0"];
+        var versions = ["0.1.4","0.1.2","0.1.1","0.1.0"];
     </script>
 
 

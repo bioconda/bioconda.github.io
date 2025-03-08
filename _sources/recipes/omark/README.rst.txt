@@ -28,7 +28,7 @@ omark
       
       
 
-      ``0.3.0-0``
+      ``0.3.1-0``,  ``0.3.0-0``
 
       
 
@@ -89,7 +89,7 @@ omark
 
     <script>
         var package = "omark";
-        var versions = ["0.3.0"];
+        var versions = ["0.3.1","0.3.0"];
     </script>
 
 
