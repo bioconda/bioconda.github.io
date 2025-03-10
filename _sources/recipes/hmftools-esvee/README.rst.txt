@@ -26,9 +26,17 @@ hmftools-esvee
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.1-0``,  ``1.0-1``,  ``1.0-0``,  ``1.0_beta-6``,  ``1.0_beta-5``,  ``1.0_beta-4``,  ``1.0_beta-3``,  ``1.0_beta-2``,  ``1.0_beta-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0-1</code>,  <code>1.0-0</code>,  <code>1.0_beta-6</code>,  <code>1.0_beta-5</code>,  <code>1.0_beta-4</code>,  <code>1.0_beta-3</code>,  <code>1.0_beta-2</code>,  </span></summary>
+      
 
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-1``,  ``1.0-0``,  ``1.0_beta-6``,  ``1.0_beta-5``,  ``1.0_beta-4``,  ``1.0_beta-3``,  ``1.0_beta-2``,  ``1.0_beta-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -84,7 +92,7 @@ hmftools-esvee
 
     <script>
         var package = "hmftools-esvee";
-        var versions = ["1.0.1","1.0","1.0","1.0_beta","1.0_beta"];
+        var versions = ["1.0.2","1.0.1","1.0","1.0","1.0_beta"];
     </script>
 
 

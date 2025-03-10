@@ -28,7 +28,7 @@ hackgap
       
       
 
-      ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -89,7 +89,7 @@ hackgap
 
     <script>
         var package = "hackgap";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.1","1.0.0"];
     </script>
 
 
