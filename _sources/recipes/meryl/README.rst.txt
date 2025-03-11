@@ -29,10 +29,10 @@ meryl
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2013-0</code>,  <code>1.4.1-2</code>,  <code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.4-1</code>,  <code>1.4-0</code>,  <code>1.3-2</code>,  <code>1.3-1</code>,  <code>1.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.1-2</code>,  <code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.4-1</code>,  <code>1.4-0</code>,  <code>1.3-2</code>,  <code>1.3-1</code>,  <code>1.3-0</code>,  <code>1.2-1</code>,  </span></summary>
       
 
-      ``2013-0``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4-1``,  ``1.4-0``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.2-1``,  ``1.2-0``,  ``v1.0-0``
+      ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4-1``,  ``1.4-0``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.2-1``,  ``1.2-0``,  ``v1.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,9 @@ meryl
       
 
    
-   :depends libgcc: 
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -96,7 +98,7 @@ meryl
 
     <script>
         var package = "meryl";
-        var versions = ["2013","1.4.1","1.4.1","1.4.1","1.4"];
+        var versions = ["1.4.1","1.4.1","1.4.1","1.4","1.4"];
     </script>
 
 

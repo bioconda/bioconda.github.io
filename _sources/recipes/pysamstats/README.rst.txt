@@ -29,10 +29,10 @@ pysamstats
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.2-14</code>,  <code>1.1.2-13</code>,  <code>1.1.2-12</code>,  <code>1.1.2-11</code>,  <code>1.1.2-10</code>,  <code>1.1.2-9</code>,  <code>1.1.2-8</code>,  <code>1.1.2-7</code>,  <code>1.1.2-6</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.2-15</code>,  <code>1.1.2-14</code>,  <code>1.1.2-13</code>,  <code>1.1.2-12</code>,  <code>1.1.2-11</code>,  <code>1.1.2-10</code>,  <code>1.1.2-9</code>,  <code>1.1.2-8</code>,  <code>1.1.2-7</code>,  </span></summary>
       
 
-      ``1.1.2-14``,  ``1.1.2-13``,  ``1.1.2-12``,  ``1.1.2-11``,  ``1.1.2-10``,  ``1.1.2-9``,  ``1.1.2-8``,  ``1.1.2-7``,  ``1.1.2-6``,  ``1.1.2-5``,  ``1.1.2-4``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.24.3-0``,  ``0.24.2-1``,  ``0.24.0-0``
+      ``1.1.2-15``,  ``1.1.2-14``,  ``1.1.2-13``,  ``1.1.2-12``,  ``1.1.2-11``,  ``1.1.2-10``,  ``1.1.2-9``,  ``1.1.2-8``,  ``1.1.2-7``,  ``1.1.2-6``,  ``1.1.2-5``,  ``1.1.2-4``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.24.3-0``,  ``0.24.2-1``,  ``0.24.0-0``
 
       
       .. raw:: html
@@ -56,7 +56,7 @@ pysamstats
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

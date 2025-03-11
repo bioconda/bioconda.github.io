@@ -27,7 +27,7 @@ gtotree
    Installation should be performed as\:
 
    \`\`\`
-   conda create \-n gtotree \-c astrobiomike \-c conda\-forge \-c bioconda \-c defaults gtotree
+   conda create \-n gtotree \-c astrobiomike \-c conda\-forge \-c bioconda gtotree
    \`\`\`
 
 
@@ -41,10 +41,10 @@ gtotree
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.8.10-0</code>,  <code>1.8.9-0</code>,  <code>1.8.8-1</code>,  <code>1.8.8-0</code>,  <code>1.8.7-0</code>,  <code>1.8.6-0</code>,  <code>1.8.5-0</code>,  <code>1.8.4-0</code>,  <code>1.8.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8.11-0</code>,  <code>1.8.10-0</code>,  <code>1.8.9-0</code>,  <code>1.8.8-1</code>,  <code>1.8.8-0</code>,  <code>1.8.7-0</code>,  <code>1.8.6-0</code>,  <code>1.8.5-0</code>,  <code>1.8.4-0</code>,  </span></summary>
       
 
-      ``1.8.10-0``,  ``1.8.9-0``,  ``1.8.8-1``,  ``1.8.8-0``,  ``1.8.7-0``,  ``1.8.6-0``,  ``1.8.5-0``,  ``1.8.4-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.8.1-0``,  ``1.7.10-0``,  ``1.7.08-0``,  ``1.7.07-0``,  ``1.7.06-0``,  ``1.7.05-1``
+      ``1.8.11-0``,  ``1.8.10-0``,  ``1.8.9-0``,  ``1.8.8-1``,  ``1.8.8-0``,  ``1.8.7-0``,  ``1.8.6-0``,  ``1.8.5-0``,  ``1.8.4-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.8.1-0``,  ``1.7.10-0``,  ``1.7.08-0``,  ``1.7.07-0``,  ``1.7.06-0``,  ``1.7.05-1``
 
       
       .. raw:: html
@@ -70,10 +70,11 @@ gtotree
    :depends parallel: 
    :depends prodigal: 
    :depends pyarrow: 
-   :depends python: 
+   :depends python: ``3.12.7.*``
    :depends sed: 
    :depends taxonkit: 
    :depends trimal: 
+   :depends veryfasttree: 
    :requirements:
 
    :additional platforms:
@@ -124,7 +125,7 @@ gtotree
 
     <script>
         var package = "gtotree";
-        var versions = ["1.8.10","1.8.9","1.8.8","1.8.8","1.8.7"];
+        var versions = ["1.8.11","1.8.10","1.8.9","1.8.8","1.8.8"];
     </script>
 
 

@@ -15,7 +15,7 @@ binette
    :homepage: https://github.com/genotoul-bioinfo/binette
    :documentation: https://binette.readthedocs.io
    
-   :license: MIT / MIT
+   :license: GPL / GPL-3.0-only
    :recipe: /`binette <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/binette>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/binette/meta.yaml>`_
 
    
@@ -28,22 +28,28 @@ binette
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.7-0``,  ``0.1.6-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.0-0</code>,  <code>1.0.5-1</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.1.7-0</code>,  </span></summary>
+      
 
+      ``1.1.0-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.7-0``,  ``0.1.6-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends checkm2: ``>=1.0,<1.1``
-   :depends diamond: ``2.0.4.*``
-   :depends networkx: ``>=3``
-   :depends numpy: ``1.19.2.*``
-   :depends packaging: 
-   :depends pandas: ``1.4.0.*``
-   :depends pyfastx: ``>=2``
+   :depends checkm2: ``>=1.0,<1.2``
+   :depends diamond: ``>=2.1,<3``
+   :depends networkx: ``>=3.0,<4.0``
+   :depends numpy: ``>=1.24,<3.0``
+   :depends pandas: ``>=2,<3``
+   :depends pyfastx: ``>=2,<3``
    :depends pyrodigal: ``>=2``
-   :depends python: ``>=3.7``
-   :depends requests: 
+   :depends python: 
    :depends tqdm: 
    :requirements:
 
@@ -95,7 +101,7 @@ binette
 
     <script>
         var package = "binette";
-        var versions = ["1.0.5","1.0.5","1.0.4","1.0.2","1.0.1"];
+        var versions = ["1.1.0","1.0.5","1.0.5","1.0.4","1.0.2"];
     </script>
 
 

@@ -27,14 +27,14 @@ amiga
       
       
 
-      ``3.0.2-0``
+      ``3.0.3-0``,  ``3.0.2-0``
 
       
 
    
-   :depends cycler: ``>=0.11.1``
+   :depends cycler: ``>=0.11.0``
    :depends decorator: ``>=5.1.0``
-   :depends gpy: ``>=1.10.0``
+   :depends gpy: ``>=1.13.2``
    :depends kiwisolver: ``>=1.3.2``
    :depends libgcc: ``>=13``
    :depends matplotlib-base: ``>=3.5.1``
@@ -42,9 +42,9 @@ amiga
    :depends pandas: ``>=1.3.0``
    :depends paramz: ``>=0.9.5``
    :depends pyparsing: ``>=3.0.0``
-   :depends python: ``>=3.12,<3.13.0a0``
+   :depends python: ``>=3.10,<3.11.0a0``
    :depends python-dateutil: ``>=2.8.2``
-   :depends python_abi: ``3.12.* *_cp312``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends pytz: ``>=2021.3``
    :depends scipy: ``>=1.8.0``
    :depends seaborn: ``>=0.11.2``
@@ -100,7 +100,7 @@ amiga
 
     <script>
         var package = "amiga";
-        var versions = ["3.0.2"];
+        var versions = ["3.0.3","3.0.2"];
     </script>
 
 
