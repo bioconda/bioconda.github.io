@@ -13,7 +13,7 @@ snakemake-interface-storage-plugins
    This package provides a stable interface for interactions between Snakemake and its storage plugins.
 
    :homepage: https://github.com/snakemake/snakemake-interface-storage-plugins
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`snakemake-interface-storage-plugins <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-interface-storage-plugins>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-interface-storage-plugins/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ snakemake-interface-storage-plugins
       
       
 
-      ``3.3.0-0``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.0-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.0-0``
+      ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.0-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.0-0``
 
       
 
@@ -87,7 +87,7 @@ snakemake-interface-storage-plugins
 
     <script>
         var package = "snakemake-interface-storage-plugins";
-        var versions = ["3.3.0","3.2.4","3.2.3","3.2.2","3.2.0"];
+        var versions = ["3.4.0","3.3.0","3.2.4","3.2.3","3.2.2"];
     </script>
 
 

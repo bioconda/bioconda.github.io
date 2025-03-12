@@ -27,7 +27,7 @@ perl-list-moreutils-xs
       
       
 
-      ``0.430-4``,  ``0.430-3``,  ``0.430-2``,  ``0.430-1``,  ``0.430-0``,  ``0.428-2``,  ``0.428-0``
+      ``0.430-5``,  ``0.430-4``,  ``0.430-3``,  ``0.430-2``,  ``0.430-1``,  ``0.430-0``,  ``0.428-2``,  ``0.428-0``
 
       
 
@@ -40,7 +40,7 @@ perl-list-moreutils-xs
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

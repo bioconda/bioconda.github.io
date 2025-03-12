@@ -27,7 +27,7 @@ caspeak
       
       
 
-      ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -36,6 +36,7 @@ caspeak
    :depends lamassemble: 
    :depends last: 
    :depends python: ``>=3.7``
+   :depends seg-suite: 
    :requirements:
 
    :additional platforms:
@@ -86,7 +87,7 @@ caspeak
 
     <script>
         var package = "caspeak";
-        var versions = ["1.1.0","1.0.1","1.0.0"];
+        var versions = ["1.1.0","1.1.0","1.0.1","1.0.0"];
     </script>
 
 

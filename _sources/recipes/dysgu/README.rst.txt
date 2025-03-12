@@ -28,10 +28,10 @@ dysgu
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.8.0-0</code>,  <code>1.7.0-1</code>,  <code>1.7.0-0</code>,  <code>1.6.7-0</code>,  <code>1.6.6-0</code>,  <code>1.6.5-1</code>,  <code>1.6.5-0</code>,  <code>1.6.4-1</code>,  <code>1.6.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.7.0-1</code>,  <code>1.7.0-0</code>,  <code>1.6.7-0</code>,  <code>1.6.6-0</code>,  <code>1.6.5-1</code>,  <code>1.6.5-0</code>,  <code>1.6.4-1</code>,  </span></summary>
       
 
-      ``1.8.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.7-0``,  ``1.6.6-0``,  ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.4-1``,  ``1.6.4-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.16-0``
+      ``1.8.0-1``,  ``1.8.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.7-0``,  ``1.6.6-0``,  ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.4-1``,  ``1.6.4-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.16-0``
 
       
       .. raw:: html
@@ -40,34 +40,35 @@ dysgu
       
 
    
+   :depends bzip2: ``>=1.0.8``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends click: ``>=8.0``
-   :depends cython: 
+   :depends cython: ``>=0.29``
    :depends htslib: ``>=1.12``
    :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends libcurl: ``>=7.75``
    :depends libcurl: ``>=8.12.1,<9.0a0``
    :depends libgcc: ``>=13``
    :depends liblzma: ``>=5.6.4,<6.0a0``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends lightgbm: 
+   :depends lightgbm: ``>=3.1``
    :depends networkx: ``>=2.4``
    :depends numpy: ``>=1.18``
    :depends numpy: ``>=1.21,<3``
+   :depends openssl: ``>=1.1``
    :depends openssl: ``>=3.4.1,<4.0a0``
    :depends pandas: ``>=1.2``
    :depends pysam: ``>=0.22``
    :depends pysam: ``>=0.23.0,<0.24.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
-   :depends python-edlib: ``>=1.3.9.0inf.1,<2.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends scikit-learn: ``>=0.22``
    :depends scipy: ``>=1.7``
    :depends sortedcontainers: 
-   :depends superintervals: 
-   :depends wheel: 
-   :depends xz: 
-   :depends zlib: 
+   :depends superintervals: ``>=0.2.10``
+   :depends xz: ``>=5.2``
+   :depends zlib: ``>=1.2``
    :requirements:
 
    :additional platforms:
@@ -122,7 +123,7 @@ dysgu
 
     <script>
         var package = "dysgu";
-        var versions = ["1.8.0","1.7.0","1.7.0","1.6.7","1.6.6"];
+        var versions = ["1.8.0","1.8.0","1.7.0","1.7.0","1.6.7"];
     </script>
 
 

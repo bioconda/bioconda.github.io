@@ -13,7 +13,7 @@ plek
    Predictor of long non\-coding RNAs and mRNAs based on k\-mer scheme.
 
    :homepage: https://sourceforge.net/projects/plek
-   :license: GPL / GNU GPL v3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`plek <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plek>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plek/meta.yaml>`_
    :links: biotools: :biotools:`plek`
 
@@ -29,10 +29,10 @@ plek
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2-9</code>,  <code>1.2-8</code>,  <code>1.2-7</code>,  <code>1.2-6</code>,  <code>1.2-5</code>,  <code>1.2-4</code>,  <code>1.2-3</code>,  <code>1.2-2</code>,  <code>1.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2-10</code>,  <code>1.2-9</code>,  <code>1.2-8</code>,  <code>1.2-7</code>,  <code>1.2-6</code>,  <code>1.2-5</code>,  <code>1.2-4</code>,  <code>1.2-3</code>,  <code>1.2-2</code>,  </span></summary>
       
 
-      ``1.2-9``,  ``1.2-8``,  ``1.2-7``,  ``1.2-6``,  ``1.2-5``,  ``1.2-4``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
+      ``1.2-10``,  ``1.2-9``,  ``1.2-8``,  ``1.2-7``,  ``1.2-6``,  ``1.2-5``,  ``1.2-4``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
 
       
       .. raw:: html
@@ -48,6 +48,10 @@ plek
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

@@ -13,7 +13,7 @@ snakemake-executor-plugin-slurm
    A Snakemake executor plugin for submitting jobs to a SLURM cluster.
 
    :homepage: https://github.com/snakemake/snakemake-executor-plugin-slurm
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`snakemake-executor-plugin-slurm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-executor-plugin-slurm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-executor-plugin-slurm/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ snakemake-executor-plugin-slurm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.15.1-0</code>,  <code>0.15.0-0</code>,  <code>0.14.3-0</code>,  <code>0.14.2-0</code>,  <code>0.14.1-0</code>,  <code>0.14.0-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-0</code>,  <code>0.11.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>0.15.1-0</code>,  <code>0.15.0-0</code>,  <code>0.14.3-0</code>,  <code>0.14.2-0</code>,  <code>0.14.1-0</code>,  <code>0.14.0-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-0</code>,  </span></summary>
       
 
-      ``0.15.1-0``,  ``0.15.0-0``,  ``0.14.3-0``,  ``0.14.2-0``,  ``0.14.1-0``,  ``0.14.0-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.2-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.4-0``
+      ``1.0.0-0``,  ``0.15.1-0``,  ``0.15.0-0``,  ``0.14.3-0``,  ``0.14.2-0``,  ``0.14.1-0``,  ``0.14.0-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.2-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.4-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ snakemake-executor-plugin-slurm
 
    
    :depends python: ``>=3.11.0,<4.0.0``
-   :depends snakemake-executor-plugin-slurm-jobstep: ``>=0.2.0,<0.3.0``
+   :depends snakemake-executor-plugin-slurm-jobstep: ``>=0.3.0,<0.4.0``
    :depends snakemake-interface-common: ``>=1.13.0,<2.0.0``
    :depends snakemake-interface-executor-plugins: ``>=9.1.1,<10.0.0``
    :depends throttler: ``>=1.2.2,<2.0.0``
@@ -95,7 +95,7 @@ snakemake-executor-plugin-slurm
 
     <script>
         var package = "snakemake-executor-plugin-slurm";
-        var versions = ["0.15.1","0.15.0","0.14.3","0.14.2","0.14.1"];
+        var versions = ["1.0.0","0.15.1","0.15.0","0.14.3","0.14.2"];
     </script>
 
 

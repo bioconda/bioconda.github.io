@@ -29,10 +29,10 @@ pear
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.6-11</code>,  <code>0.9.6-10</code>,  <code>0.9.6-9</code>,  <code>0.9.6-8</code>,  <code>0.9.6-7</code>,  <code>0.9.6-6</code>,  <code>0.9.6-5</code>,  <code>0.9.6-4</code>,  <code>0.9.6-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.6-12</code>,  <code>0.9.6-11</code>,  <code>0.9.6-10</code>,  <code>0.9.6-9</code>,  <code>0.9.6-8</code>,  <code>0.9.6-7</code>,  <code>0.9.6-6</code>,  <code>0.9.6-5</code>,  <code>0.9.6-4</code>,  </span></summary>
       
 
-      ``0.9.6-11``,  ``0.9.6-10``,  ``0.9.6-9``,  ``0.9.6-8``,  ``0.9.6-7``,  ``0.9.6-6``,  ``0.9.6-5``,  ``0.9.6-4``,  ``0.9.6-3``,  ``0.9.6-2``,  ``0.9.6-1``,  ``0.9.6-0``
+      ``0.9.6-12``,  ``0.9.6-11``,  ``0.9.6-10``,  ``0.9.6-9``,  ``0.9.6-8``,  ``0.9.6-7``,  ``0.9.6-6``,  ``0.9.6-5``,  ``0.9.6-4``,  ``0.9.6-3``,  ``0.9.6-2``,  ``0.9.6-1``,  ``0.9.6-0``
 
       
       .. raw:: html
@@ -48,6 +48,10 @@ pear
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

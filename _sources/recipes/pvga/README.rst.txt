@@ -27,7 +27,7 @@ pvga
       
       
 
-      ``0.1.1-0``
+      ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -87,7 +87,7 @@ pvga
 
     <script>
         var package = "pvga";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.2","0.1.1"];
     </script>
 
 

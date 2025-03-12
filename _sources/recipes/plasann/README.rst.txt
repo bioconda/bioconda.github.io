@@ -32,7 +32,7 @@ plasann
       
       
 
-      ``1.0.1-0``
+      ``1.0.3-0``,  ``1.0.1-0``
 
       
 
@@ -95,7 +95,7 @@ plasann
 
     <script>
         var package = "plasann";
-        var versions = ["1.0.1"];
+        var versions = ["1.0.3","1.0.1"];
     </script>
 
 

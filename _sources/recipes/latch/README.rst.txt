@@ -10,9 +10,9 @@ latch
    :replaces_section_title:
    :noindex:
 
-   A python bioinformatics framework
+   The Latch python bioinformatics framework
 
-   :homepage: https://pypi.org/project/latch/
+   :homepage: https://github.com/latchbio/latch
    :license: MIT
    :recipe: /`latch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/latch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/latch/meta.yaml>`_
 
@@ -37,66 +37,38 @@ latch
       
       
 
-      ``2.19.11-0``
+      ``2.57.2-0``,  ``2.19.11-0``
 
       
 
    
-   :depends aioconsole: ``0.5.1``
-   :depends apscheduler: ``3.9.1``
-   :depends asyncssh: ``2.12.0``
-   :depends awscli: ``1.25.22``
-   :depends boto3: ``>=1.24.22``
-   :depends click: ``>=8.0,<9.0``
-   :depends cloudpickle: ``>=2.0.0``
-   :depends cookiecutter: ``>=1.7.3``
-   :depends croniter: ``>=0.3.20,<4.0.0``
-   :depends dataclasses-json: ``>=0.5.2``
-   :depends deprecated: ``>=1.0,<2.0``
-   :depends diskcache: ``>=5.2.1``
-   :depends docker-image-py: ``>=0.1.10``
-   :depends docker-py: ``>=5.0.3,<6.0.0``
-   :depends docstring_parser: ``>=0.9.0``
-   :depends googleapis-common-protos: 
-   :depends gql: ``3.4.0``
+   :depends aioconsole: ``0.6.1``
+   :depends apscheduler: ``>=3.10.0``
+   :depends asyncssh: ``2.13.2``
+   :depends boto3: ``>=1.26.0``
+   :depends click: ``>=8.0``
+   :depends docker-py: ``>=7.1.0``
+   :depends gitpython: ``3.1.40``
+   :depends gql: ``3.5.0``
    :depends graphql-core: ``3.2.3``
-   :depends grpcio: ``>=1.43.0,!=1.45.0,<2.0``
-   :depends grpcio-status: ``>=1.43,!=1.45.0``
-   :depends jsonschema: ``>=4.5.1``
-   :depends keyring: ``>=18.0.1``
-   :depends marshmallow-jsonschema: ``>=0.12.0``
-   :depends natsort: ``>=7.0.1``
-   :depends numpy: ``<1.22.0``
-   :depends pandas: ``>=1.0.0,<2.0.0``
-   :depends paramiko: ``>=2.11.0``
-   :depends prompt-toolkit: ``3.0.33``
-   :depends protobuf: ``>=3.6.1,<4.0.0``
-   :depends protoc-gen-swagger: 
-   :depends pyarrow: ``>=4.0.0,<7.0.0``
+   :depends latch-persistence: ``>=0.1.5``
+   :depends lytekit: ``0.15.28``
+   :depends lytekitplugins-pods: ``0.7.4``
+   :depends orjson: ``>=3.10.12``
+   :depends paramiko: ``>=3.4.0``
    :depends pyjwt: ``>=0.2.0``
-   :depends python: ``>=3.8``
-   :depends python-dateutil: ``>=2.1``
-   :depends python-json-logger: ``>=2.0.0``
+   :depends python: ``>=3.9``
+   :depends python-dateutil: ``>=2.8``
    :depends python-kubernetes: ``>=24.2.0``
-   :depends pytimeparse: ``>=1.1.8,<2.0.0``
-   :depends pytz: 
-   :depends pyyaml: 
-   :depends requests: ``>=2.28.1,<3.0.0``
-   :depends requests-toolbelt: ``0.10.1``
-   :depends responses: ``>=0.10.7``
-   :depends retry: ``0.9.2``
+   :depends pyxattr: ``>=0.8.1``
+   :depends requests: ``>=2.28.1``
+   :depends requests-toolbelt: ``>=1.0.0,<2``
    :depends scp: ``>=0.14.0``
-   :depends sortedcontainers: ``>=1.5.9,<3.0.0``
-   :depends statsd: ``>=3.0.0,<4.0.0``
+   :depends setuptools: ``>=75.3.0``
    :depends tqdm: ``>=4.63.0``
-   :depends typing-extensions: ``4.5.0``
-   :depends typing_extensions: 
-   :depends urllib3: ``>=1.22,<2.0.0``
-   :depends uvloop: ``0.17.0``
-   :depends watchfiles: ``0.18.1``
-   :depends websockets: ``10.3``
-   :depends wheel: ``>=0.30.0,<1.0.0``
-   :depends wrapt: ``>=1.0.0,<2.0.0``
+   :depends typing-extensions: ``>=4.12.0``
+   :depends watchfiles: ``0.19.0``
+   :depends websockets: ``11.0.3``
    :requirements:
 
    :additional platforms:
@@ -147,7 +119,7 @@ latch
 
     <script>
         var package = "latch";
-        var versions = ["2.19.11"];
+        var versions = ["2.57.2","2.19.11"];
     </script>
 
 

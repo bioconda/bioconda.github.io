@@ -27,9 +27,17 @@ py_fasta_validator
    :versions:
       
       
+      .. raw:: html
 
-      ``0.6-5``,  ``0.6-4``,  ``0.6-3``,  ``0.6-1``,  ``0.6-0``,  ``0.5-3``,  ``0.5-2``,  ``0.5-1``,  ``0.5-0``
+         <details><summary><span class="truncated-version-list"><code>0.6-6</code>,  <code>0.6-5</code>,  <code>0.6-4</code>,  <code>0.6-3</code>,  <code>0.6-1</code>,  <code>0.6-0</code>,  <code>0.5-3</code>,  <code>0.5-2</code>,  <code>0.5-1</code>,  </span></summary>
+      
 
+      ``0.6-6``,  ``0.6-5``,  ``0.6-4``,  ``0.6-3``,  ``0.6-1``,  ``0.6-0``,  ``0.5-3``,  ``0.5-2``,  ``0.5-1``,  ``0.5-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -43,6 +51,10 @@ py_fasta_validator
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

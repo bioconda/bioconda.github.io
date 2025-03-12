@@ -46,7 +46,7 @@ rrmscorer
       
       
 
-      ``1.0.9-0``,  ``1.0.8-0``
+      ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``
 
       
 
@@ -60,7 +60,7 @@ rrmscorer
    :depends python: ``>=3.9``
    :depends requests: 
    :depends scikit-learn: 
-   :depends seaborn: 
+   :depends seaborn-base: 
    :requirements:
 
    :additional platforms:
@@ -111,7 +111,7 @@ rrmscorer
 
     <script>
         var package = "rrmscorer";
-        var versions = ["1.0.9","1.0.8"];
+        var versions = ["1.0.10","1.0.9","1.0.8"];
     </script>
 
 
