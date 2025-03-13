@@ -10,11 +10,11 @@ locidex
    :replaces_section_title:
    :noindex:
 
-   Locidex\: Common search engine for similarity based typing applications
+   Locidex\: Common search engine for similarity based typing applications.
 
-   :homepage: https://pypi.org/project/locidex/
+   :homepage: https://pypi.org/project/locidex
    :developer docs: https://github.com/phac-nml/locidex
-   :license: Apache-2.0
+   :license: APACHE / Apache-2.0
    :recipe: /`locidex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/locidex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/locidex/meta.yaml>`_
 
    
@@ -28,7 +28,7 @@ locidex
       
       
 
-      ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.3.0-0``,  ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
@@ -37,7 +37,7 @@ locidex
    :depends blast: ``>=2.9.0``
    :depends mafft: 
    :depends numba: ``>=0.57.1``
-   :depends numpy: 
+   :depends numpy: ``>=1.24.4``
    :depends pandas: ``>=2.0.2``
    :depends pyrodigal: ``>=3.0``
    :depends pytables: ``>=3.8``
@@ -93,7 +93,7 @@ locidex
 
     <script>
         var package = "locidex";
-        var versions = ["0.1.2","0.1.1","0.1.1"];
+        var versions = ["0.3.0","0.1.2","0.1.1","0.1.1"];
     </script>
 
 

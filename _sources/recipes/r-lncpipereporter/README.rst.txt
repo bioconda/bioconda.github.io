@@ -26,9 +26,17 @@ r-lncpipereporter
    :versions:
       
       
+      .. raw:: html
 
-      ``0.1.1-9``,  ``0.1.1-8``,  ``0.1.1-7``,  ``0.1.1-6``,  ``0.1.1-5``,  ``0.1.1-4``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.1.1-10</code>,  <code>0.1.1-9</code>,  <code>0.1.1-8</code>,  <code>0.1.1-7</code>,  <code>0.1.1-6</code>,  <code>0.1.1-5</code>,  <code>0.1.1-4</code>,  <code>0.1.1-2</code>,  <code>0.1.1-1</code>,  </span></summary>
+      
 
+      ``0.1.1-10``,  ``0.1.1-9``,  ``0.1.1-8``,  ``0.1.1-7``,  ``0.1.1-6``,  ``0.1.1-5``,  ``0.1.1-4``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -42,7 +50,7 @@ r-lncpipereporter
    :depends r-devtools: 
    :depends r-dt: 
    :depends r-flexdashboard: 
-   :depends r-ggbiplot: 
+   :depends r-ggbiplot: ``>=0.55,<0.56.0a0``
    :depends r-ggplot2: 
    :depends r-ggsci: 
    :depends r-heatmaply: 
@@ -53,6 +61,10 @@ r-lncpipereporter
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

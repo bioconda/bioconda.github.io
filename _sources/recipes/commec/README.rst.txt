@@ -29,12 +29,11 @@ commec
       
       
 
-      ``0.2.0-0``,  ``0.1.2-0``
+      ``0.3.1-0``,  ``0.2.0-0``,  ``0.1.2-0``
 
       
 
    
-   :depends bedtools: 
    :depends biopython: 
    :depends blast: ``>=2.16``
    :depends diamond: ``>=2.1``
@@ -43,11 +42,9 @@ commec
    :depends infernal: 
    :depends numpy: 
    :depends pandas: 
-   :depends parallel: 
-   :depends perl-list-moreutils: 
    :depends pytaxonkit: 
-   :depends python: 
-   :depends taxonkit: 
+   :depends python: ``>=3.10``
+   :depends pyyaml: 
    :depends wget: 
    :requirements:
 
@@ -99,7 +96,7 @@ commec
 
     <script>
         var package = "commec";
-        var versions = ["0.2.0","0.1.2"];
+        var versions = ["0.3.1","0.2.0","0.1.2"];
     </script>
 
 

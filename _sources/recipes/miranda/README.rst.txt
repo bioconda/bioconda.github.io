@@ -27,15 +27,19 @@ miranda
       
       
 
-      ``3.3a-6``,  ``3.3a-5``,  ``3.3a-4``,  ``3.3a-3``,  ``3.3a-2``,  ``3.3a-1``,  ``3.3a-0``
+      ``3.3a-8``,  ``3.3a-6``,  ``3.3a-5``,  ``3.3a-4``,  ``3.3a-3``,  ``3.3a-2``,  ``3.3a-1``,  ``3.3a-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

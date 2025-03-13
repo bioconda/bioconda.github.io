@@ -28,10 +28,10 @@ r-ggbiplot
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.55-11</code>,  <code>0.55-10</code>,  <code>0.55-9</code>,  <code>0.55-8</code>,  <code>0.55-7</code>,  <code>0.55-6</code>,  <code>0.55-5</code>,  <code>0.55-4</code>,  <code>0.55-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.55-12</code>,  <code>0.55-11</code>,  <code>0.55-10</code>,  <code>0.55-9</code>,  <code>0.55-8</code>,  <code>0.55-7</code>,  <code>0.55-6</code>,  <code>0.55-5</code>,  <code>0.55-4</code>,  </span></summary>
       
 
-      ``0.55-11``,  ``0.55-10``,  ``0.55-9``,  ``0.55-8``,  ``0.55-7``,  ``0.55-6``,  ``0.55-5``,  ``0.55-4``,  ``0.55-3``,  ``0.55-2``,  ``0.55-1``
+      ``0.55-12``,  ``0.55-11``,  ``0.55-10``,  ``0.55-9``,  ``0.55-8``,  ``0.55-7``,  ``0.55-6``,  ``0.55-5``,  ``0.55-4``,  ``0.55-3``,  ``0.55-2``,  ``0.55-1``
 
       
       .. raw:: html
@@ -50,6 +50,10 @@ r-ggbiplot
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

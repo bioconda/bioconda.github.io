@@ -27,16 +27,20 @@ mtm-align
       
       
 
-      ``20220104-0``
+      ``20220104-3``,  ``20220104-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -84,7 +88,7 @@ mtm-align
 
     <script>
         var package = "mtm-align";
-        var versions = ["20220104"];
+        var versions = ["20220104","20220104"];
     </script>
 
 

@@ -27,7 +27,7 @@ atol-bpa-datamapper
       
       
 
-      ``0.1.1-0``
+      ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -35,6 +35,7 @@ atol-bpa-datamapper
    :depends ckanapi: ``>=4.8``
    :depends jsonlines: ``>=4.0.0``
    :depends python: ``>=3.12,<3.13``
+   :depends scikit-bio: ``>=0.6.3``
    :requirements:
 
    :additional platforms:
@@ -85,7 +86,7 @@ atol-bpa-datamapper
 
     <script>
         var package = "atol-bpa-datamapper";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.2","0.1.1"];
     </script>
 
 

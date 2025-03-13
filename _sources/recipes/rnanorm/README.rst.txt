@@ -27,7 +27,7 @@ rnanorm
       
       
 
-      ``2.2.0-0``,  ``2.1.0-0``
+      ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-0``
 
       
 
@@ -36,8 +36,8 @@ rnanorm
    :depends numpy: ``>=1.0.0``
    :depends pandas: ``>=1.0.0``
    :depends pandera: 
-   :depends python: ``>=3.8,<3.13``
-   :depends scikit-learn: ``>=1.0.0``
+   :depends python: ``>=3.9,<3.14``
+   :depends scikit-learn: ``>=1.6.0``
    :requirements:
 
    :additional platforms:
@@ -88,7 +88,7 @@ rnanorm
 
     <script>
         var package = "rnanorm";
-        var versions = ["2.2.0","2.1.0"];
+        var versions = ["2.2.0","2.2.0","2.1.0"];
     </script>
 
 

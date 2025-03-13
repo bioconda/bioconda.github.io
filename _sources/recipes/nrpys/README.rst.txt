@@ -27,15 +27,22 @@ nrpys
       
       
 
-      ``0.1.1-3``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.1.1-4``,  ``0.1.1-3``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
    
-   :depends python: ``>=3.8``
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends python: ``>=3.9,<3.10.0a0``
+   :depends python_abi: ``3.9.* *_cp39``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -83,7 +90,7 @@ nrpys
 
     <script>
         var package = "nrpys";
-        var versions = ["0.1.1","0.1.1","0.1.1","0.1.1"];
+        var versions = ["0.1.1","0.1.1","0.1.1","0.1.1","0.1.1"];
     </script>
 
 
