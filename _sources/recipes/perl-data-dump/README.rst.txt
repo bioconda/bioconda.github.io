@@ -27,16 +27,20 @@ perl-data-dump
       
       
 
-      ``1.25-1``,  ``1.25-0``,  ``1.23-6``,  ``1.23-5``,  ``1.23-4``,  ``1.23-3``
+      ``1.25-2``,  ``1.25-1``,  ``1.25-0``,  ``1.23-6``,  ``1.23-5``,  ``1.23-4``,  ``1.23-3``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -84,7 +88,7 @@ perl-data-dump
 
     <script>
         var package = "perl-data-dump";
-        var versions = ["1.25","1.25","1.23","1.23","1.23"];
+        var versions = ["1.25","1.25","1.25","1.23","1.23"];
     </script>
 
 

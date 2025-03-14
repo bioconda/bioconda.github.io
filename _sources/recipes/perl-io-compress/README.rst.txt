@@ -28,10 +28,10 @@ perl-io-compress
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.201-4</code>,  <code>2.201-3</code>,  <code>2.201-2</code>,  <code>2.201-1</code>,  <code>2.201-0</code>,  <code>2.106-1</code>,  <code>2.106-0</code>,  <code>2.102-1</code>,  <code>2.102-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.201-5</code>,  <code>2.201-4</code>,  <code>2.201-3</code>,  <code>2.201-2</code>,  <code>2.201-1</code>,  <code>2.201-0</code>,  <code>2.106-1</code>,  <code>2.106-0</code>,  <code>2.102-1</code>,  </span></summary>
       
 
-      ``2.201-4``,  ``2.201-3``,  ``2.201-2``,  ``2.201-1``,  ``2.201-0``,  ``2.106-1``,  ``2.106-0``,  ``2.102-1``,  ``2.102-0``,  ``2.087-1``,  ``2.087-0``,  ``2.086-0``,  ``2.084-0``,  ``2.083-0``,  ``2.081-0``,  ``2.069-5``,  ``2.069-4``,  ``2.069-2``,  ``2.069-1``
+      ``2.201-5``,  ``2.201-4``,  ``2.201-3``,  ``2.201-2``,  ``2.201-1``,  ``2.201-0``,  ``2.106-1``,  ``2.106-0``,  ``2.102-1``,  ``2.102-0``,  ``2.087-1``,  ``2.087-0``,  ``2.086-0``,  ``2.084-0``,  ``2.083-0``,  ``2.081-0``,  ``2.069-5``,  ``2.069-4``,  ``2.069-2``,  ``2.069-1``
 
       
       .. raw:: html
@@ -53,7 +53,7 @@ perl-io-compress
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

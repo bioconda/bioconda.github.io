@@ -27,17 +27,21 @@ xsd
       
       
 
-      ``4.0.0_dep-4``,  ``4.0.0_dep-3``,  ``4.0.0_dep-2``,  ``4.0.0_dep-1``,  ``4.0.0_dep-0``
+      ``4.0.0_dep-6``,  ``4.0.0_dep-4``,  ``4.0.0_dep-3``,  ``4.0.0_dep-2``,  ``4.0.0_dep-1``,  ``4.0.0_dep-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends xerces-c: ``>=3.2.3,<3.3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends xerces-c: ``>=3.2.5,<3.3.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
