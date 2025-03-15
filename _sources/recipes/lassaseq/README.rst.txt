@@ -15,7 +15,7 @@ lassaseq
    :homepage: https://github.com/DaanJansen94/LassaSeq
    :documentation: https://github.com/DaanJansen94/LassaSeq/blob/master/README.md
    
-   :license: GPL / GPL-3.0-or-later
+   :license: GPL / GPL-3.0
    :recipe: /`lassaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lassaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lassaseq/meta.yaml>`_
 
    LassaSeq is a command\-line tool that simplifies the process of analyzing Lassa virus sequences. 
@@ -32,7 +32,7 @@ lassaseq
       
       
 
-      ``0.1.0-0``
+      ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -95,7 +95,7 @@ lassaseq
 
     <script>
         var package = "lassaseq";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.1","0.1.0"];
     </script>
 
 

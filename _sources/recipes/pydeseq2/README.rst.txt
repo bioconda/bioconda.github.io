@@ -31,10 +31,10 @@ pydeseq2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.0-0</code>,  <code>0.4.12-0</code>,  <code>0.4.11-0</code>,  <code>0.4.10-0</code>,  <code>0.4.9-0</code>,  <code>0.4.8-0</code>,  <code>0.4.7-0</code>,  <code>0.4.6-0</code>,  <code>0.4.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.0-1</code>,  <code>0.5.0-0</code>,  <code>0.4.12-0</code>,  <code>0.4.11-0</code>,  <code>0.4.10-0</code>,  <code>0.4.9-0</code>,  <code>0.4.8-0</code>,  <code>0.4.7-0</code>,  <code>0.4.6-0</code>,  </span></summary>
       
 
-      ``0.5.0-0``,  ``0.4.12-0``,  ``0.4.11-0``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``
+      ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.12-0``,  ``0.4.11-0``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``
 
       
       .. raw:: html
@@ -44,12 +44,14 @@ pydeseq2
 
    
    :depends anndata: ``>=0.8.0``
+   :depends formulaic: ``>=1.0.2``
+   :depends formulaic-contrasts: ``>=0.2.0``
    :depends ipython: 
    :depends jupyter: 
    :depends matplotlib-base: ``>=3.6.2``
    :depends numpy: ``>=1.23.0``
    :depends pandas: ``>=1.4.0``
-   :depends python: ``>=3.9``
+   :depends python: ``>=3.10``
    :depends scikit-learn: ``>=1.1.0``
    :depends scipy: ``>=1.11.0``
    :requirements:
@@ -102,7 +104,7 @@ pydeseq2
 
     <script>
         var package = "pydeseq2";
-        var versions = ["0.5.0","0.4.12","0.4.11","0.4.10","0.4.9"];
+        var versions = ["0.5.0","0.5.0","0.4.12","0.4.11","0.4.10"];
     </script>
 
 

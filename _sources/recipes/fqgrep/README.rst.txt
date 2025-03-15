@@ -15,6 +15,7 @@ fqgrep
    :homepage: https://github.com/fulcrumgenomics/fqgrep
    :license: MIT
    :recipe: /`fqgrep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fqgrep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fqgrep/meta.yaml>`_
+   :links: DOI: :DOI:`10.5281/zenodo.14985002`
 
    
 
@@ -27,7 +28,7 @@ fqgrep
       
       
 
-      ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.1.0-0``
+      ``1.1.0-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.1.0-0``
 
       
 
@@ -37,6 +38,10 @@ fqgrep
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -84,7 +89,7 @@ fqgrep
 
     <script>
         var package = "fqgrep";
-        var versions = ["1.0.3","1.0.3","1.0.2","1.0.2","1.0.2"];
+        var versions = ["1.1.0","1.0.3","1.0.3","1.0.2","1.0.2"];
     </script>
 
 
