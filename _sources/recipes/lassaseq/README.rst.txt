@@ -32,7 +32,7 @@ lassaseq
       
       
 
-      ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -95,7 +95,7 @@ lassaseq
 
     <script>
         var package = "lassaseq";
-        var versions = ["0.1.1","0.1.0"];
+        var versions = ["0.1.2","0.1.1","0.1.0"];
     </script>
 
 

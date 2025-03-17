@@ -46,7 +46,7 @@ perl-dbd-mysql
    :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-dbi: 
-   :depends perl-devel-checklib: ``1.16.*``
+   :depends perl-devel-checklib: ``1.14.*``
    :depends perl-time-hires: ``>=1.9764,<2.0a0``
    :requirements:
 

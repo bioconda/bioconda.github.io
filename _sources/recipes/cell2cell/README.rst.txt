@@ -32,7 +32,7 @@ cell2cell
       
 
    
-   :depends gseapy: ``1.0.3``
+   :depends gseapy: ``>=1.1.3``
    :depends kneed: 
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``

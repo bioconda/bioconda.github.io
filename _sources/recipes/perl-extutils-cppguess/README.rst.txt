@@ -44,7 +44,6 @@ perl-extutils-cppguess
    :depends libstdcxx: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-capture-tiny: 
-   :depends perl-module-build: ``0.4234.*``
    :requirements:
 
    :additional platforms:

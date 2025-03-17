@@ -51,8 +51,8 @@ hictk
    :depends libarrow: ``>=19.0.1,<19.1.0a0``
    :depends libdeflate: ``>=1``
    :depends libdeflate: ``>=1.23,<1.24.0a0``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends zstd: ``>=1.5``
    :depends zstd: ``>=1.5.7,<1.6.0a0``
    :requirements:

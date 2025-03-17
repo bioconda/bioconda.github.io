@@ -27,7 +27,7 @@ perl-json-validator
       
       
 
-      ``5.14-0``
+      ``5.15-0``,  ``5.14-0``
 
       
 
@@ -86,7 +86,7 @@ perl-json-validator
 
     <script>
         var package = "perl-json-validator";
-        var versions = ["5.14"];
+        var versions = ["5.15","5.14"];
     </script>
 
 
