@@ -27,35 +27,38 @@ liana
       
       
 
-      ``1.4.0-1``,  ``1.4.0-0``
+      ``1.5.1-0``,  ``1.4.0-1``,  ``1.4.0-0``
 
       
 
    
-   :depends anndata: ``>=0.7.4,<=0.10.8``
+   :depends anndata: ``>=0.7.4``
    :depends cell2cell: 
    :depends corneto: 
-   :depends cvxpy: ``>=1.4,<2``
-   :depends cylp: ``>=0.91.5,<0.92.0``
-   :depends decoupler-py: ``>=1.4.0``
+   :depends cvxpy: ``>=1.6,<2``
+   :depends decoupler-py: ``>=1.5.1``
    :depends docrep: ``>=0.3.1``
    :depends mofapy2: ``>=0.7.0``
    :depends mofax: 
    :depends mudata: 
    :depends muon: 
-   :depends numba: ``>=0.54.0``
+   :depends numba: ``>=0.60.0,<0.61.0``
    :depends omnipath: ``>=1.0.6``
-   :depends pandas: ``>=2.2.2,<3.0.0``
+   :depends pandas: ``>2.0.1``
    :depends plotnine: ``>=0.10.0``
    :depends pre-commit: ``>=3.0.0``
    :depends pydeseq2: ``>=0.3.5``
-   :depends python: ``>=3.8,<3.12``
+   :depends python: ``>=3.10,<3.12``
    :depends requests: ``>=2.25.1,<3.0.0``
    :depends scanpy: ``>=1.8.0``
    :depends tqdm: ``>=4.0.0,<5.0.0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -103,7 +106,7 @@ liana
 
     <script>
         var package = "liana";
-        var versions = ["1.4.0","1.4.0"];
+        var versions = ["1.5.1","1.4.0","1.4.0"];
     </script>
 
 

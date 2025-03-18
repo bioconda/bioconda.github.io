@@ -15,6 +15,7 @@ fgsv
    :homepage: https://github.com/fulcrumgenomics/fgsv
    :license: MIT
    :recipe: /`fgsv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fgsv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fgsv/meta.yaml>`_
+   :links: DOI: :DOI:`10.5281/zenodo.10452647`
 
    
 
@@ -27,7 +28,7 @@ fgsv
       
       
 
-      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
@@ -84,7 +85,7 @@ fgsv
 
     <script>
         var package = "fgsv";
-        var versions = ["0.2.1","0.2.0","0.1.1","0.1.0","0.0.2"];
+        var versions = ["0.2.1","0.2.1","0.2.0","0.1.1","0.1.0"];
     </script>
 
 

@@ -41,7 +41,8 @@ hictkpy
    :depends libdeflate: ``>=1,<2.0a0``
    :depends libdeflate: ``>=1.22,<1.23.0a0``
    :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libgcc: ``>=14``
+   :depends libstdcxx: ``>=14``
    :depends numpy: ``>=1.22.4,<2.0a0``
    :depends pandas: 
    :depends pyarrow: 

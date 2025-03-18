@@ -27,12 +27,12 @@ cell2cell
       
       
 
-      ``0.7.4-2``,  ``0.7.4-1``,  ``0.7.4-0``
+      ``0.7.4-3``,  ``0.7.4-2``,  ``0.7.4-1``,  ``0.7.4-0``
 
       
 
    
-   :depends gseapy: ``>=1.1.3``
+   :depends gseapy: ``1.0.3``
    :depends kneed: 
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
@@ -41,8 +41,8 @@ cell2cell
    :depends numpy: ``>=1.16,<2.0``
    :depends openpyxl: ``>=2.6.2``
    :depends pandas: ``>=1.0.0``
-   :depends python: ``>=3.9,<3.10.0a0``
-   :depends python_abi: ``3.9.* *_cp39``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends scanpy: ``<=1.9.3``
    :depends scikit-learn: 
    :depends seaborn: ``>=0.11.0``
@@ -106,7 +106,7 @@ cell2cell
 
     <script>
         var package = "cell2cell";
-        var versions = ["0.7.4","0.7.4","0.7.4"];
+        var versions = ["0.7.4","0.7.4","0.7.4","0.7.4"];
     </script>
 
 

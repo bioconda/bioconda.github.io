@@ -64,6 +64,7 @@ bioconductor-monocle
    :depends r-ggplot2: ``>=1.0.0``
    :depends r-igraph: ``>=1.0.1``
    :depends r-irlba: ``>=2.0.0``
+   :depends r-leidenbase: ``>=0.1.31,<0.2.0a0``
    :depends r-leidenbase: ``>=0.1.9``
    :depends r-mass: 
    :depends r-matrix: ``>=1.2-6``

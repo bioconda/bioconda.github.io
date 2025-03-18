@@ -30,7 +30,7 @@ mutalyzer_hgvs_parser
       
       
 
-      ``0.3.7-0``
+      ``0.3.8-0``,  ``0.3.7-0``
 
       
 
@@ -87,7 +87,7 @@ mutalyzer_hgvs_parser
 
     <script>
         var package = "mutalyzer_hgvs_parser";
-        var versions = ["0.3.7"];
+        var versions = ["0.3.8","0.3.7"];
     </script>
 
 

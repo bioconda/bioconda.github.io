@@ -10,7 +10,7 @@ cutesv
    :replaces_section_title:
    :noindex:
 
-   cuteSV is a long\-read based human genomic structural variation detection tool
+   cuteSV is a long\-read based human genomic structural variation detection tool.
 
    :homepage: https://github.com/tjiangHIT/cuteSV
    :license: MIT / MIT
@@ -28,10 +28,10 @@ cutesv
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.0.13-0</code>,  <code>1.0.12-0</code>,  <code>1.0.11-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.0.13-0</code>,  <code>1.0.12-0</code>,  </span></summary>
       
 
-      ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -98,7 +98,7 @@ cutesv
 
     <script>
         var package = "cutesv";
-        var versions = ["2.1.1","2.1.0","2.0.3","2.0.2","2.0.1"];
+        var versions = ["2.1.2","2.1.1","2.1.0","2.0.3","2.0.2"];
     </script>
 
 

@@ -40,7 +40,7 @@ fiji
       
 
    
-   :depends openjdk: ``>=21.0``
+   :depends openjdk: ``>=8.0``
    :requirements:
 
    :additional platforms:
