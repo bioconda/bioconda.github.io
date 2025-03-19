@@ -27,22 +27,26 @@ perl-html-tidy
       
       
 
-      ``1.60-3``,  ``1.60-2``,  ``1.60-1``,  ``1.60-0``,  ``1.56-2``,  ``1.56-1``
+      ``1.60-5``,  ``1.60-3``,  ``1.60-2``,  ``1.60-1``,  ``1.60-0``,  ``1.56-2``,  ``1.56-1``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-constant: 
    :depends perl-encode: 
    :depends perl-exporter: 
-   :depends perl-getopt-long: 
-   :depends tidyp: 
+   :depends perl-getopt-long: ``>=2.58,<3.0a0``
+   :depends tidyp: ``>=1.4,<2.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -90,7 +94,7 @@ perl-html-tidy
 
     <script>
         var package = "perl-html-tidy";
-        var versions = ["1.60","1.60","1.60","1.60","1.56"];
+        var versions = ["1.60","1.60","1.60","1.60","1.60"];
     </script>
 
 

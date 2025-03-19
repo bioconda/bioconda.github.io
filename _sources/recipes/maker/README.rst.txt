@@ -29,10 +29,10 @@ maker
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.01.03-2</code>,  <code>3.01.03-1</code>,  <code>3.01.03-0</code>,  <code>2.31.11-1</code>,  <code>2.31.11-0</code>,  <code>2.31.10-17</code>,  <code>2.31.10-16</code>,  <code>2.31.10-15</code>,  <code>2.31.10-14</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.01.03-4</code>,  <code>3.01.03-2</code>,  <code>3.01.03-1</code>,  <code>3.01.03-0</code>,  <code>2.31.11-1</code>,  <code>2.31.11-0</code>,  <code>2.31.10-17</code>,  <code>2.31.10-16</code>,  <code>2.31.10-15</code>,  </span></summary>
       
 
-      ``3.01.03-2``,  ``3.01.03-1``,  ``3.01.03-0``,  ``2.31.11-1``,  ``2.31.11-0``,  ``2.31.10-17``,  ``2.31.10-16``,  ``2.31.10-15``,  ``2.31.10-14``,  ``2.31.10-13``,  ``2.31.10-12``,  ``2.31.10-11``,  ``2.31.10-10``,  ``2.31.10-9``,  ``2.31.10-8``,  ``2.31.10-7``,  ``2.31.10-6``,  ``2.31.9-6``,  ``2.31.9-3``,  ``2.31.9-2``,  ``2.31.9-1``,  ``2.31.9-0``
+      ``3.01.03-4``,  ``3.01.03-2``,  ``3.01.03-1``,  ``3.01.03-0``,  ``2.31.11-1``,  ``2.31.11-0``,  ``2.31.10-17``,  ``2.31.10-16``,  ``2.31.10-15``,  ``2.31.10-14``,  ``2.31.10-13``,  ``2.31.10-12``,  ``2.31.10-11``,  ``2.31.10-10``,  ``2.31.10-9``,  ``2.31.10-8``,  ``2.31.10-7``,  ``2.31.10-6``,  ``2.31.9-6``,  ``2.31.9-3``,  ``2.31.9-2``,  ``2.31.9-1``,  ``2.31.9-0``
 
       
       .. raw:: html
@@ -42,27 +42,28 @@ maker
 
    
    :depends augustus: ``>=3.2.3``
-   :depends blast: ``2.9.0.*``
+   :depends blast: ``2.14.1.*``
    :depends evidencemodeler: 
    :depends exonerate: 
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends mpich: ``>=3.4.3,<4.0a0``
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
-   :depends perl-bioperl-core: ``>=1.007002``
+   :depends libgcc: ``>=13``
+   :depends mpich: ``>=4.3.0,<5.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends perl-bioperl-core: ``1.7.8.*``
+   :depends perl-bioperl-core: ``>=1.7.8``
    :depends perl-bit-vector: 
-   :depends perl-dbd-pg: 
-   :depends perl-dbd-sqlite: 
+   :depends perl-dbd-pg: ``3.18.0.*``
+   :depends perl-dbd-sqlite: ``>=1.76,<2.0a0``
    :depends perl-dbi: 
    :depends perl-forks: 
    :depends perl-inline-c: ``>=0.78``
    :depends perl-io-all: 
    :depends perl-io-prompt: 
-   :depends perl-perl-unsafe-signals: 
-   :depends perl-perlio-gzip: 
+   :depends perl-perl-unsafe-signals: ``>=0.3,<0.4.0a0``
+   :depends perl-perlio-gzip: ``>=0.20,<0.21.0a0``
    :depends postgresql: 
    :depends rapsearch: 
    :depends repeatmasker: ``>=4.1.1``
-   :depends rmblast: ``2.9.0.*``
+   :depends rmblast: ``2.14.1.*``
    :depends snap: 
    :depends snoscan: 
    :depends trnascan-se: 
@@ -116,7 +117,7 @@ maker
 
     <script>
         var package = "maker";
-        var versions = ["3.01.03","3.01.03","3.01.03","2.31.11","2.31.11"];
+        var versions = ["3.01.03","3.01.03","3.01.03","3.01.03","2.31.11"];
     </script>
 
 

@@ -31,10 +31,10 @@ ncbi-vdb-py
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.0-0</code>,  <code>3.1.1-0</code>,  <code>3.1.0-0</code>,  <code>3.0.10-0</code>,  <code>3.0.9-0</code>,  <code>3.0.8-0</code>,  <code>3.0.7-0</code>,  <code>3.0.6-0</code>,  <code>3.0.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.1-0</code>,  <code>3.2.0-0</code>,  <code>3.1.1-0</code>,  <code>3.1.0-0</code>,  <code>3.0.10-0</code>,  <code>3.0.9-0</code>,  <code>3.0.8-0</code>,  <code>3.0.7-0</code>,  <code>3.0.6-0</code>,  </span></summary>
       
 
-      ``3.2.0-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.10-0``,  ``3.0.9-0``,  ``3.0.8-0``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.2-0``,  ``3.0.0-0``,  ``2.11.0-0``,  ``2.10.9-0``,  ``2.10.8-0``
+      ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.10-0``,  ``3.0.9-0``,  ``3.0.8-0``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.2-0``,  ``3.0.0-0``,  ``2.11.0-0``,  ``2.10.9-0``,  ``2.10.8-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ ncbi-vdb-py
       
 
    
-   :depends ncbi-vdb: ``3.2.0.*``
+   :depends ncbi-vdb: ``3.2.1.*``
    :depends python: ``>=3.5``
    :requirements:
 
@@ -95,7 +95,7 @@ ncbi-vdb-py
 
     <script>
         var package = "ncbi-vdb-py";
-        var versions = ["3.2.0","3.1.1","3.1.0","3.0.10","3.0.9"];
+        var versions = ["3.2.1","3.2.0","3.1.1","3.1.0","3.0.10"];
     </script>
 
 

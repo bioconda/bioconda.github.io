@@ -13,6 +13,8 @@ gb-io
    A Python interface to gb\-io\, a fast GenBank parser and serializer written in Rust.
 
    :homepage: https://github.com/althonos/gb-io.py
+   :documentation: https://gb-io.readthedocs.io/
+   
    :license: MIT / MIT
    :recipe: /`gb-io <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gb-io>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gb-io/meta.yaml>`_
 
@@ -27,13 +29,11 @@ gb-io
       
       
 
-      ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``
+      ``0.3.5-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``
 
       
 
    
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:
@@ -90,7 +90,7 @@ gb-io
 
     <script>
         var package = "gb-io";
-        var versions = ["0.3.3","0.3.3","0.3.2","0.3.2","0.3.1"];
+        var versions = ["0.3.5","0.3.3","0.3.3","0.3.2","0.3.2"];
     </script>
 
 

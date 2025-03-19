@@ -27,7 +27,7 @@ hmftools-virus-interpreter
       
       
 
-      ``1.7-0``,  ``1.3-0``
+      ``1.7.1-0``,  ``1.7-0``,  ``1.3-0``
 
       
 
@@ -83,7 +83,7 @@ hmftools-virus-interpreter
 
     <script>
         var package = "hmftools-virus-interpreter";
-        var versions = ["1.7","1.3"];
+        var versions = ["1.7.1","1.7","1.3"];
     </script>
 
 

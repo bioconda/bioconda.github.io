@@ -13,7 +13,7 @@ immuneml
    immuneML is a software platform for machine learning analysis of immune receptor repertoires.
 
    :homepage: https://github.com/uio-bmi/immuneML
-   :documentation: https://docs.immuneml.uio.no/
+   :documentation: https://docs.immuneml.uio.no
    
    :license: AGPL / APGL-3.0-only
    :recipe: /`immuneml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/immuneml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/immuneml/meta.yaml>`_
@@ -30,10 +30,10 @@ immuneml
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.9-0</code>,  <code>3.0.8-0</code>,  <code>3.0.7-0</code>,  <code>3.0.6-1</code>,  <code>3.0.6-0</code>,  <code>3.0.5-0</code>,  <code>3.0.4-0</code>,  <code>3.0.3-0</code>,  <code>2.2.6-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.11-0</code>,  <code>3.0.9-0</code>,  <code>3.0.8-0</code>,  <code>3.0.7-0</code>,  <code>3.0.6-1</code>,  <code>3.0.6-0</code>,  <code>3.0.5-0</code>,  <code>3.0.4-0</code>,  <code>3.0.3-0</code>,  </span></summary>
       
 
-      ``3.0.9-0``,  ``3.0.8-0``,  ``3.0.7-0``,  ``3.0.6-1``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.4-0``,  ``3.0.3-0``,  ``2.2.6-1``,  ``2.2.6-0``,  ``2.2.5-1``,  ``2.2.5-0``,  ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.0-0``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.0-0``,  ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``
+      ``3.0.11-0``,  ``3.0.9-0``,  ``3.0.8-0``,  ``3.0.7-0``,  ``3.0.6-1``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.4-0``,  ``3.0.3-0``,  ``2.2.6-1``,  ``2.2.6-0``,  ``2.2.5-1``,  ``2.2.5-0``,  ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.0-0``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.0-0``,  ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ immuneml
 
    
    :depends airr: ``>=1,<1.4``
-   :depends bionumpy: ``>=0.2.31``
+   :depends bionumpy: ``1.0.12``
    :depends dill: ``>=0.3``
    :depends editdistance: 
    :depends gensim: ``>=4``
@@ -53,9 +53,9 @@ immuneml
    :depends matplotlib-base: ``>=3.1``
    :depends matplotlib-venn: ``>=0.11``
    :depends npstructures: 
-   :depends numpy: ``<2.0.0``
+   :depends numpy: ``<=1.26.4``
    :depends olga: ``>=1.2.4``
-   :depends pandas: 
+   :depends pandas: ``>=2.1.0``
    :depends plotly: ``>=4``
    :depends pystache: 
    :depends pytest: ``>=4``
@@ -118,7 +118,7 @@ immuneml
 
     <script>
         var package = "immuneml";
-        var versions = ["3.0.9","3.0.8","3.0.7","3.0.6","3.0.6"];
+        var versions = ["3.0.11","3.0.9","3.0.8","3.0.7","3.0.6"];
     </script>
 
 
