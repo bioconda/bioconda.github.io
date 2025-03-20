@@ -27,7 +27,7 @@ wakhan
       
       
 
-      ``0.1.1-1``,  ``0.1.1-0``
+      ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
@@ -45,6 +45,7 @@ wakhan
    :depends samtools: ``>=1.14``
    :depends scikit-learn: ``1.2.0``
    :depends scipy: ``1.9.2``
+   :depends vcf_parser: 
    :requirements:
 
    :additional platforms:
@@ -95,7 +96,7 @@ wakhan
 
     <script>
         var package = "wakhan";
-        var versions = ["0.1.1","0.1.1"];
+        var versions = ["0.1.1","0.1.1","0.1.1"];
     </script>
 
 

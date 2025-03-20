@@ -10,7 +10,7 @@ perl-extutils-depends
    :replaces_section_title:
    :noindex:
 
-   Easily build XS extensions that depend on XS extensions
+   Easily build XS extensions that depend on XS extensions.
 
    :homepage: http://gtk2-perl.sourceforge.net
    :license: perl_5
@@ -27,7 +27,7 @@ perl-extutils-depends
       
       
 
-      ``0.8001-0``,  ``0.8000-1``,  ``0.8000-0``,  ``0.405-2``,  ``0.405-1``,  ``0.405-0``
+      ``0.8002-0``,  ``0.8001-0``,  ``0.8000-1``,  ``0.8000-0``,  ``0.405-2``,  ``0.405-1``,  ``0.405-0``
 
       
 
@@ -85,7 +85,7 @@ perl-extutils-depends
 
     <script>
         var package = "perl-extutils-depends";
-        var versions = ["0.8001","0.8000","0.8000","0.405","0.405"];
+        var versions = ["0.8002","0.8001","0.8000","0.8000","0.405"];
     </script>
 
 

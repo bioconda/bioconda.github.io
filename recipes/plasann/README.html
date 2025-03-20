@@ -79,10 +79,13 @@
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plasann">plasann</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plasann/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>PlasAnn is a tool for plasmid annotation and visualization.</p>
+<p>A comprehensive tool for annotating plasmid sequences, identifying coding
+sequences, detecting origins of replication and transfer, and generating
+plasmid maps.</p>
 <p>For Mac (Apple Silicon) users, please install these additional dependencies:
-- brew install prodigal
-- brew install blast</p>
+- brew install blast
+- brew install brewsci/bio/prodigal</p>
+<p>Please ensure both tools are available in your PATH before running PlasAnn.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -92,22 +95,27 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/plasann"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/plasann.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/plasann"><img alt="docker_plasann" src="https://quay.io/repository/biocontainers/plasann/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.1-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.8-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.1-0</span></code></p>
 </dd>
 <dt class="field-even">depends biopython<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.78</span></code></p>
+</dd>
 <dt class="field-odd">depends blast<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends gdown<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.0.0</span></code></p>
+</dd>
 <dt class="field-odd">depends matplotlib-base<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.0.0</span></code></p>
+</dd>
 <dt class="field-even">depends pandas<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0.0</span></code></p>
+</dd>
 <dt class="field-odd">depends prodigal<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends pycirclize<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.1.0</span></code></p>
+</dd>
 <dt class="field-odd">depends python<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.7</span></code></p>
 </dd>
@@ -149,8 +157,13 @@ others.</p>
 
 <script>
     var package = "plasann";
-    var versions = ["1.0.3","1.0.1"];
-</script><section id="download-stats">
+    var versions = ["1.0.8","1.0.3","1.0.1"];
+</script><section id="notes">
+<h2>Notes<a class="headerlink" href="#notes" title="Link to this heading">¶</a></h2>
+<p>This package requires external dependencies (BLAST and Prodigal) for Apple Silicon Macs
+which must be installed separately due to platform compatibility issues.</p>
+</section>
+<section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
 <div style="width: 100%" id="platform_plot"></div>

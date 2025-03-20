@@ -29,10 +29,10 @@ bioconductor-flowworkspace
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.18.0-0</code>,  <code>4.14.0-0</code>,  <code>4.12.0-0</code>,  <code>4.10.0-1</code>,  <code>4.10.0-0</code>,  <code>4.6.0-2</code>,  <code>4.6.0-1</code>,  <code>4.6.0-0</code>,  <code>4.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.18.0-1</code>,  <code>4.18.0-0</code>,  <code>4.14.0-0</code>,  <code>4.12.0-0</code>,  <code>4.10.0-1</code>,  <code>4.10.0-0</code>,  <code>4.6.0-2</code>,  <code>4.6.0-1</code>,  <code>4.6.0-0</code>,  </span></summary>
       
 
-      ``4.18.0-0``,  ``4.14.0-0``,  ``4.12.0-0``,  ``4.10.0-1``,  ``4.10.0-0``,  ``4.6.0-2``,  ``4.6.0-1``,  ``4.6.0-0``,  ``4.4.0-0``,  ``4.2.0-2``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.0.1-0``,  ``3.34.0-0``,  ``3.32.0-1``,  ``3.30.2-0``,  ``3.30.1-0``,  ``3.28.2-0``,  ``3.26.2-0``,  ``3.24.4-0``
+      ``4.18.0-1``,  ``4.18.0-0``,  ``4.14.0-0``,  ``4.12.0-0``,  ``4.10.0-1``,  ``4.10.0-0``,  ``4.6.0-2``,  ``4.6.0-1``,  ``4.6.0-0``,  ``4.4.0-0``,  ``4.2.0-2``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.0.1-0``,  ``3.34.0-0``,  ``3.32.0-1``,  ``3.30.2-0``,  ``3.30.1-0``,  ``3.28.2-0``,  ``3.26.2-0``,  ``3.24.4-0``
 
       
       .. raw:: html
@@ -83,6 +83,10 @@ bioconductor-flowworkspace
 
    :additional platforms:
       
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
+      
 
    .. rubric:: Installation
 
@@ -129,7 +133,7 @@ bioconductor-flowworkspace
 
     <script>
         var package = "bioconductor-flowworkspace";
-        var versions = ["4.18.0","4.14.0","4.12.0","4.10.0","4.10.0"];
+        var versions = ["4.18.0","4.18.0","4.14.0","4.12.0","4.10.0"];
     </script>
 
 

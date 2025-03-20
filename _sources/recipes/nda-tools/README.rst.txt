@@ -27,7 +27,7 @@ nda-tools
       
       
 
-      ``0.3.0-0``,  ``0.2.27-0``,  ``0.2.26-0``,  ``0.2.25-0``,  ``0.2.24-0``,  ``0.2.23-0``
+      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.27-0``,  ``0.2.26-0``,  ``0.2.25-0``,  ``0.2.24-0``,  ``0.2.23-0``
 
       
 
@@ -37,9 +37,12 @@ nda-tools
    :depends mock: 
    :depends packaging: 
    :depends pandas: 
+   :depends pydantic: ``>=2``
    :depends python: 
    :depends pyyaml: 
    :depends requests: 
+   :depends s3transfer: 
+   :depends tabulate: 
    :depends tqdm: 
    :requirements:
 
@@ -91,7 +94,7 @@ nda-tools
 
     <script>
         var package = "nda-tools";
-        var versions = ["0.3.0","0.2.27","0.2.26","0.2.25","0.2.24"];
+        var versions = ["0.4.0","0.3.0","0.2.27","0.2.26","0.2.25"];
     </script>
 
 

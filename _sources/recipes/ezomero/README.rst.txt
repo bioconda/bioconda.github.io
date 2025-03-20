@@ -10,7 +10,7 @@ ezomero
    :replaces_section_title:
    :noindex:
 
-   A module with convenience functions for writing Python code that interacts with OMERO
+   A module with convenience functions for writing Python code that interacts with OMERO.
 
    :homepage: https://github.com/TheJacksonLaboratory/ezomero
    :license: GPL-2.0-only
@@ -27,7 +27,7 @@ ezomero
       
       
 
-      ``3.1.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.1.0-0``
+      ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.1.0-0``
 
       
 
@@ -85,7 +85,7 @@ ezomero
 
     <script>
         var package = "ezomero";
-        var versions = ["3.1.0","3.0.1","3.0.0","2.1.0"];
+        var versions = ["3.1.1","3.1.0","3.0.1","3.0.0","2.1.0"];
     </script>
 
 

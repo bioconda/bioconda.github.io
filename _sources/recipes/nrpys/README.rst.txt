@@ -27,15 +27,15 @@ nrpys
       
       
 
-      ``0.1.1-4``,  ``0.1.1-3``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.1.1-5``,  ``0.1.1-4``,  ``0.1.1-3``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
    
    :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends python: ``>=3.9,<3.10.0a0``
-   :depends python_abi: ``3.9.* *_cp39``
+   :depends python: ``>=3.11,<3.12.0a0``
+   :depends python_abi: ``3.11.* *_cp311``
    :requirements:
 
    :additional platforms:

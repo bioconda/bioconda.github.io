@@ -16,11 +16,15 @@ plasann
    :license: MIT / MIT
    :recipe: /`plasann <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plasann>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plasann/meta.yaml>`_
 
-   PlasAnn is a tool for plasmid annotation and visualization.
+   A comprehensive tool for annotating plasmid sequences\, identifying coding
+   sequences\, detecting origins of replication and transfer\, and generating
+   plasmid maps.
 
    For Mac \(Apple Silicon\) users\, please install these additional dependencies\:
-   \- brew install prodigal
    \- brew install blast
+   \- brew install brewsci\/bio\/prodigal
+
+   Please ensure both tools are available in your PATH before running PlasAnn.
 
 
 
@@ -32,18 +36,18 @@ plasann
       
       
 
-      ``1.0.3-0``,  ``1.0.1-0``
+      ``1.0.8-0``,  ``1.0.3-0``,  ``1.0.1-0``
 
       
 
    
-   :depends biopython: 
+   :depends biopython: ``>=1.78``
    :depends blast: 
-   :depends gdown: 
-   :depends matplotlib-base: 
-   :depends pandas: 
+   :depends gdown: ``>=4.0.0``
+   :depends matplotlib-base: ``>=3.0.0``
+   :depends pandas: ``>=1.0.0``
    :depends prodigal: 
-   :depends pycirclize: 
+   :depends pycirclize: ``>=0.1.0``
    :depends python: ``>=3.7``
    :requirements:
 
@@ -95,12 +99,17 @@ plasann
 
     <script>
         var package = "plasann";
-        var versions = ["1.0.3","1.0.1"];
+        var versions = ["1.0.8","1.0.3","1.0.1"];
     </script>
 
 
 
 
+
+Notes
+-----
+This package requires external dependencies \(BLAST and Prodigal\) for Apple Silicon Macs
+which must be installed separately due to platform compatibility issues.
 
 
 Download stats
