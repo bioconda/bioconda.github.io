@@ -27,7 +27,7 @@ pypolca
       
       
 
-      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``
+      ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``
 
       
 
@@ -35,7 +35,7 @@ pypolca
    :depends biopython: ``>=1.76``
    :depends bwa: ``>=0.7.17``
    :depends click: ``>=8.0.0``
-   :depends freebayes: ``>=1.3.1,<1.3.7``
+   :depends freebayes: ``>=1.3.9``
    :depends loguru: ``>=0.5.3``
    :depends pandas: ``>=1.4.2``
    :depends python: ``>=3.8,<4.0``
@@ -91,7 +91,7 @@ pypolca
 
     <script>
         var package = "pypolca";
-        var versions = ["0.3.1","0.3.0","0.2.1","0.2.0","0.1.1"];
+        var versions = ["0.3.1","0.3.1","0.3.0","0.2.1","0.2.0"];
     </script>
 
 

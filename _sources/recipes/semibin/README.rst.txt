@@ -10,7 +10,7 @@ semibin
    :replaces_section_title:
    :noindex:
 
-   Metagenomic binning with semi\-supervised siamese neural networks
+   Metagenomic binning with siamese neural networks
 
    :homepage: https://github.com/BigDataBiology/SemiBin
    :documentation: https://semibin.readthedocs.io/en/latest/
@@ -31,10 +31,10 @@ semibin
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.0-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-1</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>2.1.0-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-1</code>,  <code>1.5.0-0</code>,  </span></summary>
       
 
-      ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.5.1-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3-0``,  ``0.2-1``,  ``0.2-0``
+      ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.5.1-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3-0``,  ``0.2-1``,  ``0.2-0``
 
       
       .. raw:: html
@@ -46,7 +46,6 @@ semibin
    :depends bedtools: 
    :depends coloredlogs: 
    :depends hmmer: 
-   :depends mmseqs2: ``13.45111.*``
    :depends numexpr: 
    :depends numpy: 
    :depends pandas: 
@@ -109,7 +108,7 @@ semibin
 
     <script>
         var package = "semibin";
-        var versions = ["2.1.0","2.0.2","2.0.1","2.0.0","2.0.0"];
+        var versions = ["2.2.0","2.1.0","2.0.2","2.0.1","2.0.0"];
     </script>
 
 

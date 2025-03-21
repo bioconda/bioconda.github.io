@@ -28,27 +28,26 @@ cctyper
       
       
 
-      ``1.8.0-0``
+      ``1.8.0-1``,  ``1.8.0-0``
 
       
 
    
    :depends biopython: ``>=1.78,<=1.79``
-   :depends blast: ``2.5.*``
+   :depends blast: ``>=2.5,<3``
    :depends cairosvg: 
    :depends drawsvg: ``>=1.8.0,<2``
    :depends grep: 
-   :depends hmmer: ``3.*``
+   :depends hmmer: ``>=3.0,<4``
    :depends imageio: 
-   :depends libxgboost: ``1.7.1.*``
-   :depends minced: ``0.4.2.*``
+   :depends libxgboost: ``>=1.7,<2``
+   :depends minced: ``>=0.4.2,<0.5``
    :depends multiprocess: ``>=0.70.14,<=0.70.15``
    :depends numpy: ``>=1.16,<=1.24.3``
    :depends pandas: ``>=1.3,<=2.0.3``
    :depends prodigal: ``>=2.0,<=2.6.2``
-   :depends py-xgboost: ``>=1.4,<=1.7.1``
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends py-xgboost: ``>=1.4,<2``
+   :depends python: ``>=3.8``
    :depends scikit-learn: ``>=1.1.3,<=1.3.0``
    :depends scipy: ``>=1,<=1.10.1``
    :depends sed: 
@@ -103,7 +102,7 @@ cctyper
 
     <script>
         var package = "cctyper";
-        var versions = ["1.8.0"];
+        var versions = ["1.8.0","1.8.0"];
     </script>
 
 

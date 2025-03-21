@@ -13,9 +13,9 @@ dbcan
    Standalone version of dbCAN annotation tool for automated CAZyme annotation.
 
    :homepage: https://bcb.unl.edu/dbCAN2
-   :documentation: https://dbcan.readthedocs.io/en/latest
+   :documentation: https://run-dbcan-new.readthedocs.io/en/latest/
    
-   :developer docs: https://github.com/linnabrown/run_dbcan
+   :developer docs: https://github.com/bcb-unl/run_dbcan_new
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`dbcan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dbcan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dbcan/meta.yaml>`_
    :links: doi: :doi:`10.1093/nar/gkx894`, doi: :doi:`10.1093/nar/gky418`, doi: :doi:`10.1093/nar/gkad328`, biotools: :biotools:`dbcan2`
@@ -30,27 +30,38 @@ dbcan
    :versions:
       
       
+      .. raw:: html
 
-      ``4.1.4-1``,  ``4.1.4-0``,  ``4.1.3-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.0.7-0``,  ``3.0.6-0``
+         <details><summary><span class="truncated-version-list"><code>5.0.0-0</code>,  <code>4.1.4-1</code>,  <code>4.1.4-0</code>,  <code>4.1.3-0</code>,  <code>4.1.2-0</code>,  <code>4.1.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.0.7-0</code>,  </span></summary>
+      
 
+      ``5.0.0-0``,  ``4.1.4-1``,  ``4.1.4-0``,  ``4.1.3-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.0.7-0``,  ``3.0.6-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
+   :depends bcbio-gff: 
    :depends biopython: 
-   :depends blast: 
    :depends diamond: 
-   :depends hmmer: 
    :depends matplotlib-base: 
    :depends natsort: 
    :depends numpy: ``>1.19``
    :depends openpyxl: 
    :depends pandas: 
-   :depends prodigal: 
    :depends psutil: 
+   :depends pycirclize: 
    :depends pyhmmer: 
-   :depends python: ``>=3.6``
+   :depends pyrodigal: 
+   :depends pysam: 
+   :depends python: ``>=3.10``
    :depends requests: 
+   :depends rich-click: 
    :depends scipy: 
+   :depends seaborn: 
    :depends session-info: 
    :depends tqdm: 
    :requirements:
@@ -103,7 +114,7 @@ dbcan
 
     <script>
         var package = "dbcan";
-        var versions = ["4.1.4","4.1.4","4.1.3","4.1.2","4.1.1"];
+        var versions = ["5.0.0","4.1.4","4.1.4","4.1.3","4.1.2"];
     </script>
 
 

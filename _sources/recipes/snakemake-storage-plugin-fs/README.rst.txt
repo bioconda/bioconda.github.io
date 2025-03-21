@@ -10,7 +10,7 @@ snakemake-storage-plugin-fs
    :replaces_section_title:
    :noindex:
 
-   A Snakemake storage plugin that reads and writes from a locally mounted filesystem using rsync
+   A Snakemake storage plugin that reads and writes from a locally mounted filesystem using rsync.
 
    :homepage: https://github.com/snakemake/snakemake-storage-plugin-fs
    :license: MIT / MIT
@@ -27,15 +27,16 @@ snakemake-storage-plugin-fs
       
       
 
-      ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``,  ``0.2.0-0``,  ``0.1.5-0``
+      ``1.1.0-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``,  ``0.2.0-0``,  ``0.1.5-0``
 
       
 
    
+   :depends humanfriendly: 
    :depends python: ``>=3.11.0,<4.0.0``
    :depends reretry: ``>=0.11.8,<0.12.0``
    :depends snakemake-interface-common: ``>=1.17.0,<2.0.0``
-   :depends snakemake-interface-storage-plugins: ``>=3.1.0,<4.0.0``
+   :depends snakemake-interface-storage-plugins: ``>=4.1.0,<5.0.0``
    :depends sysrsync: ``>=1.1.1,<2.0.0``
    :requirements:
 
@@ -87,7 +88,7 @@ snakemake-storage-plugin-fs
 
     <script>
         var package = "snakemake-storage-plugin-fs";
-        var versions = ["1.0.6","1.0.5","1.0.4","1.0.3","1.0.0"];
+        var versions = ["1.1.0","1.0.6","1.0.5","1.0.4","1.0.3"];
     </script>
 
 
