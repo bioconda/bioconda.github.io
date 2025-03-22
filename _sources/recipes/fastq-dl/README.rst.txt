@@ -28,10 +28,10 @@ fastq-dl
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-0</code>,  </span></summary>
       
 
-      ``3.0.0-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -43,10 +43,10 @@ fastq-dl
    :depends executor: 
    :depends pigz: 
    :depends pysradb: ``>=1.4``
-   :depends python: ``>=3.9``
+   :depends python: ``>=3.9,<=3.12``
    :depends requests: 
    :depends rich-click: ``>=1.6.0``
-   :depends sra-tools: ``>=3.0.1``
+   :depends sra-tools: ``>=3.0.1,<=3.1.1``
    :depends wget: 
    :requirements:
 
@@ -98,7 +98,7 @@ fastq-dl
 
     <script>
         var package = "fastq-dl";
-        var versions = ["3.0.0","2.0.4","2.0.3","2.0.2","2.0.1"];
+        var versions = ["3.0.1","3.0.0","2.0.4","2.0.3","2.0.2"];
     </script>
 
 

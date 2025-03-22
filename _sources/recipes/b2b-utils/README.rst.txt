@@ -35,21 +35,25 @@ b2b-utils
       
       
 
-      ``0.019-0``,  ``0.018-0``,  ``0.017-0``
+      ``0.020-0``,  ``0.019-0``,  ``0.018-0``,  ``0.017-0``
 
       
 
    
-   :depends mafft: ``>=7.520,<8.0a0``
-   :depends minimap2: ``>=2.26,<3.0a0``
+   :depends bwa: ``>=0.7.18,<0.8.0a0``
+   :depends mafft: ``>=7.526,<8.0a0``
+   :depends medaka: ``>=2.0.1,<3.0a0``
+   :depends miniasm: ``>=0.3,<0.4.0a0``
+   :depends minimap2: ``>=2.28,<3.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-bioperl: 
    :depends perl-biox-seq: ``>=0.008006``
+   :depends perl-biox-seq: ``>=0.8009,<1.0a0``
    :depends perl-dbi: 
    :depends perl-list-moreutils: 
    :depends perl-module-build: ``0.4234.*``
-   :depends perl-perlio-gzip: 
-   :depends samtools: ``>=1.18,<2.0a0``
+   :depends perl-perlio-gzip: ``>=0.20,<0.21.0a0``
+   :depends samtools: ``>=1.21,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -100,7 +104,7 @@ b2b-utils
 
     <script>
         var package = "b2b-utils";
-        var versions = ["0.019","0.018","0.017"];
+        var versions = ["0.020","0.019","0.018","0.017"];
     </script>
 
 
