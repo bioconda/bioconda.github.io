@@ -13,7 +13,7 @@ grepq
    Quickly filter FASTQ files.
 
    :homepage: https://github.com/Rbfinch/grepq
-   :documentation: https://github.com/Rbfinch/grepq/blob/grepq-v1.5.3/README.md
+   :documentation: https://github.com/Rbfinch/grepq/blob/grepq-v1.5.4/README.md
    
    :license: MIT
    :recipe: /`grepq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grepq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grepq/meta.yaml>`_
@@ -31,10 +31,10 @@ grepq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.3-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.9-0</code>,  <code>1.4.8-0</code>,  <code>1.4.7-0</code>,  <code>1.4.5-0</code>,  <code>1.4.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.4-0</code>,  <code>1.5.3-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.9-0</code>,  <code>1.4.8-0</code>,  <code>1.4.7-0</code>,  <code>1.4.5-0</code>,  </span></summary>
       
 
-      ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``
+      ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``
 
       
       .. raw:: html
@@ -100,7 +100,7 @@ grepq
 
     <script>
         var package = "grepq";
-        var versions = ["1.5.3","1.5.2","1.5.1","1.5.0","1.4.9"];
+        var versions = ["1.5.4","1.5.3","1.5.2","1.5.1","1.5.0"];
     </script>
 
 
