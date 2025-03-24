@@ -29,10 +29,10 @@ ltr_retriever
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.1-1</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>2.9.9-0</code>,  <code>2.9.8-0</code>,  <code>2.9.5-0</code>,  <code>2.9.4-0</code>,  <code>2.9.0-3</code>,  <code>2.9.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.2-0</code>,  <code>3.0.1-1</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>2.9.9-0</code>,  <code>2.9.8-0</code>,  <code>2.9.5-0</code>,  <code>2.9.4-0</code>,  <code>2.9.0-3</code>,  </span></summary>
       
 
-      ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.9.9-0``,  ``2.9.8-0``,  ``2.9.5-0``,  ``2.9.4-0``,  ``2.9.0-3``,  ``2.9.0-2``,  ``2.9.0-1``,  ``2.9.0-0``,  ``2.8.7-0``,  ``2.8-0``
+      ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.9.9-0``,  ``2.9.8-0``,  ``2.9.5-0``,  ``2.9.4-0``,  ``2.9.0-3``,  ``2.9.0-2``,  ``2.9.0-1``,  ``2.9.0-0``,  ``2.8.7-0``,  ``2.8-0``
 
       
       .. raw:: html
@@ -98,7 +98,7 @@ ltr_retriever
 
     <script>
         var package = "ltr_retriever";
-        var versions = ["3.0.1","3.0.1","3.0.0","2.9.9","2.9.8"];
+        var versions = ["3.0.2","3.0.1","3.0.1","3.0.0","2.9.9"];
     </script>
 
 

@@ -28,7 +28,7 @@ ltr_finder_parallel
       
       
 
-      ``1.1-1``,  ``1.1-0``
+      ``1.3-0``,  ``1.1-1``,  ``1.1-0``
 
       
 
@@ -84,7 +84,7 @@ ltr_finder_parallel
 
     <script>
         var package = "ltr_finder_parallel";
-        var versions = ["1.1","1.1"];
+        var versions = ["1.3","1.1","1.1"];
     </script>
 
 

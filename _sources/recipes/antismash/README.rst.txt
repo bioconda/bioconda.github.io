@@ -34,10 +34,10 @@ antismash
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>7.1.0-0</code>,  <code>6.1.1-0</code>,  <code>6.1.0-0</code>,  <code>6.0.1-0</code>,  <code>6.0.0-0</code>,  <code>5.1.2-4</code>,  <code>5.1.2-3</code>,  <code>5.1.2-2</code>,  <code>5.1.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>7.1.0-1</code>,  <code>7.1.0-0</code>,  <code>6.1.1-0</code>,  <code>6.1.0-0</code>,  <code>6.0.1-0</code>,  <code>6.0.0-0</code>,  <code>5.1.2-4</code>,  <code>5.1.2-3</code>,  <code>5.1.2-2</code>,  </span></summary>
       
 
-      ``7.1.0-0``,  ``6.1.1-0``,  ``6.1.0-0``,  ``6.0.1-0``,  ``6.0.0-0``,  ``5.1.2-4``,  ``5.1.2-3``,  ``5.1.2-2``,  ``5.1.2-1``,  ``5.1.2-0``,  ``5.1.1-0``,  ``4.2.0-2``,  ``4.2.0-1``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.2-3``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.1-1``
+      ``7.1.0-1``,  ``7.1.0-0``,  ``6.1.1-0``,  ``6.1.0-0``,  ``6.0.1-0``,  ``6.0.0-0``,  ``5.1.2-4``,  ``5.1.2-3``,  ``5.1.2-2``,  ``5.1.2-1``,  ``5.1.2-0``,  ``5.1.1-0``,  ``4.2.0-2``,  ``4.2.0-1``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.2-3``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.1-1``
 
       
       .. raw:: html
@@ -47,7 +47,7 @@ antismash
 
    
    :depends bcbio-gff: 
-   :depends biopython: ``1.78.*``
+   :depends biopython: ``>=1.78,<=1.79``
    :depends blast: 
    :depends brawn: ``>=1.0.1``
    :depends diamond: 
@@ -62,13 +62,13 @@ antismash
    :depends libsass: 
    :depends markupsafe: ``>=2.0``
    :depends matplotlib-base: 
-   :depends meme: ``4.11.2.*``
+   :depends meme: ``5.5.*``
    :depends moods: ``>=1.9.4.2``
    :depends nrpys: ``>=0.1.1``
    :depends numpy: 
    :depends prodigal: 
    :depends pysvg-py3: 
-   :depends python: ``>=3.9``
+   :depends python: 
    :depends scikit-learn: ``>=1.3.2``
    :depends scipy: 
    :requirements:
@@ -121,7 +121,7 @@ antismash
 
     <script>
         var package = "antismash";
-        var versions = ["7.1.0","6.1.1","6.1.0","6.0.1","6.0.0"];
+        var versions = ["7.1.0","7.1.0","6.1.1","6.1.0","6.0.1"];
     </script>
 
 
