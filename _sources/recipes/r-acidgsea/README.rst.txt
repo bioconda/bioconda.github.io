@@ -29,10 +29,10 @@ r-acidgsea
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.0-1</code>,  <code>0.9.0-0</code>,  <code>0.8.9-0</code>,  <code>0.8.8-2</code>,  <code>0.8.8-1</code>,  <code>0.8.8-0</code>,  <code>0.8.7-1</code>,  <code>0.8.7-0</code>,  <code>0.8.6-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.1-0</code>,  <code>0.9.0-1</code>,  <code>0.9.0-0</code>,  <code>0.8.9-0</code>,  <code>0.8.8-2</code>,  <code>0.8.8-1</code>,  <code>0.8.8-0</code>,  <code>0.8.7-1</code>,  <code>0.8.7-0</code>,  </span></summary>
       
 
-      ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.9-0``,  ``0.8.8-2``,  ``0.8.8-1``,  ``0.8.8-0``,  ``0.8.7-1``,  ``0.8.7-0``,  ``0.8.6-1``,  ``0.8.6-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.4-1``,  ``0.6.4-0``
+      ``0.9.1-0``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.9-0``,  ``0.8.8-2``,  ``0.8.8-1``,  ``0.8.8-0``,  ``0.8.7-1``,  ``0.8.7-0``,  ``0.8.6-1``,  ``0.8.6-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.4-1``,  ``0.6.4-0``
 
       
       .. raw:: html
@@ -114,7 +114,7 @@ r-acidgsea
 
     <script>
         var package = "r-acidgsea";
-        var versions = ["0.9.0","0.9.0","0.8.9","0.8.8","0.8.8"];
+        var versions = ["0.9.1","0.9.0","0.9.0","0.8.9","0.8.8"];
     </script>
 
 

@@ -28,10 +28,10 @@ snakemake-storage-plugin-azure
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  </span></summary>
       
 
-      ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``
+      ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``
 
       
       .. raw:: html
@@ -45,7 +45,7 @@ snakemake-storage-plugin-azure
    :depends azure-storage-blob: ``>=12.19.0,<13.0.0``
    :depends python: ``>=3.11.0,<4.0.0``
    :depends snakemake-interface-common: ``>=1.15.0,<2.0.0``
-   :depends snakemake-interface-storage-plugins: ``>=3.0.0,<4.0.0``
+   :depends snakemake-interface-storage-plugins: ``>=4.1.0,<5.0.0``
    :requirements:
 
    :additional platforms:
@@ -96,7 +96,7 @@ snakemake-storage-plugin-azure
 
     <script>
         var package = "snakemake-storage-plugin-azure";
-        var versions = ["0.4.3","0.4.2","0.4.1","0.4.0","0.3.0"];
+        var versions = ["0.4.4","0.4.3","0.4.2","0.4.1","0.4.0"];
     </script>
 
 

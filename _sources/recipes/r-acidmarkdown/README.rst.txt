@@ -29,10 +29,10 @@ r-acidmarkdown
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.0-1</code>,  <code>0.3.0-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5-2</code>,  <code>0.2.5-1</code>,  <code>0.2.5-0</code>,  <code>0.1.6-1</code>,  <code>0.1.6-0</code>,  <code>0.1.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.1-0</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5-2</code>,  <code>0.2.5-1</code>,  <code>0.2.5-0</code>,  <code>0.1.6-1</code>,  <code>0.1.6-0</code>,  </span></summary>
       
 
-      ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.6-0``,  ``0.2.5-2``,  ``0.2.5-1``,  ``0.2.5-0``,  ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.6-0``,  ``0.2.5-2``,  ``0.2.5-1``,  ``0.2.5-0``,  ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -95,7 +95,7 @@ r-acidmarkdown
 
     <script>
         var package = "r-acidmarkdown";
-        var versions = ["0.3.0","0.3.0","0.2.6","0.2.5","0.2.5"];
+        var versions = ["0.3.1","0.3.0","0.3.0","0.2.6","0.2.5"];
     </script>
 
 

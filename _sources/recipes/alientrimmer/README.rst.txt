@@ -28,11 +28,12 @@ alientrimmer
       
       
 
-      
+      ``2.1-0``
 
       
 
    
+   :depends openjdk: 
    :requirements:
 
    :additional platforms:
@@ -83,7 +84,7 @@ alientrimmer
 
     <script>
         var package = "alientrimmer";
-        var versions = [];
+        var versions = ["2.1"];
     </script>
 
 

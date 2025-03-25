@@ -27,7 +27,7 @@ snakemake-storage-plugin-ftp
       
       
 
-      ``0.1.2-0``,  ``0.1.1-0``
+      ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -35,7 +35,7 @@ snakemake-storage-plugin-ftp
    :depends ftputil: ``>=5.0.4,<6.0.0``
    :depends python: ``>=3.11.0,<4.0.0``
    :depends snakemake-interface-common: ``>=1.15.1,<2.0.0``
-   :depends snakemake-interface-storage-plugins: ``>=3.0.0,<4.0.0``
+   :depends snakemake-interface-storage-plugins: ``>=4.1.0,<5.0.0``
    :requirements:
 
    :additional platforms:
@@ -86,7 +86,7 @@ snakemake-storage-plugin-ftp
 
     <script>
         var package = "snakemake-storage-plugin-ftp";
-        var versions = ["0.1.2","0.1.1"];
+        var versions = ["0.1.3","0.1.2","0.1.1"];
     </script>
 
 
