@@ -10,9 +10,9 @@ graphembed
    :replaces_section_title:
    :noindex:
 
-   Efficient and Robust Graph Embedding via High\-Order Proximity Preservation or Recursive Sketching.
+   Efficient and Robust Graph\/Network Embedding via High\-Order Proximity Preservation or Recursive Sketching.
 
-   :homepage: https://github.com/jean-pierreBoth/graphembed
+   :homepage: https://github.com/jianshu93/graphembed
    :license: MIT / MIT
    :recipe: /`graphembed <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphembed>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphembed/meta.yaml>`_
 
@@ -27,14 +27,13 @@ graphembed
       
       
 
-      ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
-   :depends openblas: 
    :requirements:
 
    :additional platforms:
@@ -85,7 +84,7 @@ graphembed
 
     <script>
         var package = "graphembed";
-        var versions = ["0.1.4","0.1.3","0.1.2","0.1.1","0.1.1"];
+        var versions = ["0.1.5","0.1.4","0.1.3","0.1.2","0.1.1"];
     </script>
 
 

@@ -28,10 +28,10 @@ ncbi-fcs-gx
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.4-1</code>,  <code>0.5.4-0</code>,  <code>0.5.0-3</code>,  <code>0.5.0-2</code>,  <code>0.5.0-1</code>,  <code>0.5.0-0</code>,  <code>0.4.1-1</code>,  <code>0.4.1-0</code>,  <code>0.4.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.5-0</code>,  <code>0.5.4-1</code>,  <code>0.5.4-0</code>,  <code>0.5.0-3</code>,  <code>0.5.0-2</code>,  <code>0.5.0-1</code>,  <code>0.5.0-0</code>,  <code>0.4.1-1</code>,  <code>0.4.1-0</code>,  </span></summary>
       
 
-      ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.0-3``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``
+      ``0.5.5-0``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.0-3``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``
 
       
       .. raw:: html
@@ -43,8 +43,8 @@ ncbi-fcs-gx
    :depends aria2: ``1.36.0.*``
    :depends grep: ``>=3.4``
    :depends gzip: ``>=1.5``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends pv: ``>=1.4.6``
    :depends python: ``>=3.9``
    :depends rclone: ``1.61.1.*``
@@ -98,7 +98,7 @@ ncbi-fcs-gx
 
     <script>
         var package = "ncbi-fcs-gx";
-        var versions = ["0.5.4","0.5.4","0.5.0","0.5.0","0.5.0"];
+        var versions = ["0.5.5","0.5.4","0.5.4","0.5.0","0.5.0"];
     </script>
 
 
