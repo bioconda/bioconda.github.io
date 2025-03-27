@@ -31,10 +31,10 @@ zdb
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.4-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.3-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.5-0</code>,  <code>1.3.4-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.3-0</code>,  <code>1.2.1-1</code>,  </span></summary>
       
 
-      ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.7-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``
+      ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.7-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ zdb
       
 
    
-   :depends mamba: 
+   :depends conda: ``>=23.10.0``
    :depends nextflow: ``>=21.04.0``
    :requirements:
 
@@ -95,7 +95,7 @@ zdb
 
     <script>
         var package = "zdb";
-        var versions = ["1.3.4","1.3.3","1.3.2","1.3.1","1.3.1"];
+        var versions = ["1.3.5","1.3.4","1.3.3","1.3.2","1.3.1"];
     </script>
 
 
