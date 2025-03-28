@@ -17,6 +17,7 @@ commec
    
    :license: MIT / MIT
    :recipe: /`commec <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/commec>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/commec/meta.yaml>`_
+   :links: biotools: :biotools:`commec`
 
    
 
@@ -29,7 +30,7 @@ commec
       
       
 
-      ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.0-0``,  ``0.1.2-0``
+      ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.0-0``,  ``0.1.2-0``
 
       
 
@@ -96,7 +97,7 @@ commec
 
     <script>
         var package = "commec";
-        var versions = ["0.3.2","0.3.1","0.2.0","0.1.2"];
+        var versions = ["0.3.2","0.3.2","0.3.1","0.2.0","0.1.2"];
     </script>
 
 

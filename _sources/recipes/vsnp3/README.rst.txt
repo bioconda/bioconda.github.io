@@ -28,10 +28,10 @@ vsnp3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.26-0</code>,  <code>3.25-0</code>,  <code>3.24-0</code>,  <code>3.23-0</code>,  <code>3.22-0</code>,  <code>3.21-0</code>,  <code>3.20-0</code>,  <code>3.19-0</code>,  <code>3.18-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.27-0</code>,  <code>3.26-0</code>,  <code>3.25-0</code>,  <code>3.24-0</code>,  <code>3.23-0</code>,  <code>3.22-0</code>,  <code>3.21-0</code>,  <code>3.20-0</code>,  <code>3.19-0</code>,  </span></summary>
       
 
-      ``3.26-0``,  ``3.25-0``,  ``3.24-0``,  ``3.23-0``,  ``3.22-0``,  ``3.21-0``,  ``3.20-0``,  ``3.19-0``,  ``3.18-0``,  ``3.17-0``,  ``3.16-0``,  ``3.15-0``,  ``3.14-0``,  ``3.13-0``,  ``3.12-0``,  ``3.11-0``,  ``3.10-0``,  ``3.09-0``,  ``3.08-0``,  ``3.07-0``,  ``3.06-0``,  ``3.05-0``,  ``3.04-0``,  ``3.02-0``,  ``3.01-0``
+      ``3.27-0``,  ``3.26-0``,  ``3.25-0``,  ``3.24-0``,  ``3.23-0``,  ``3.22-0``,  ``3.21-0``,  ``3.20-0``,  ``3.19-0``,  ``3.18-0``,  ``3.17-0``,  ``3.16-0``,  ``3.15-0``,  ``3.14-0``,  ``3.13-0``,  ``3.12-0``,  ``3.11-0``,  ``3.10-0``,  ``3.09-0``,  ``3.08-0``,  ``3.07-0``,  ``3.06-0``,  ``3.05-0``,  ``3.04-0``,  ``3.02-0``,  ``3.01-0``
 
       
       .. raw:: html
@@ -48,13 +48,14 @@ vsnp3
    :depends freebayes: ``>=1.3.5``
    :depends humanize: ``>=3.14.0``
    :depends minimap2: ``>=2.24``
-   :depends numpy: 
+   :depends numpy: ``>=1.16,<=1.26``
    :depends openpyxl: ``>=3.0.9``
-   :depends pandas: 
+   :depends pandas: ``>=1.3,<=2.2``
    :depends parallel: 
    :depends pigz: 
+   :depends plotly: 
    :depends py-cpuinfo: 
-   :depends python: ``>=3.8,<3.12``
+   :depends python: ``>=3.8,<=3.12``
    :depends raxml: ``>=8.2.12``
    :depends regex: ``>=2.5.110``
    :depends samtools: ``>=1.14``
@@ -62,8 +63,6 @@ vsnp3
    :depends sourmash: ``>=4.2.4``
    :depends spades: ``>=3.15.2``
    :depends svgwrite: ``>=1.4.1``
-   :depends vcflib: ``1.0.1.*``
-   :depends vcftools: ``0.1.16.*``
    :depends xlsxwriter: ``>=3.0.2``
    :requirements:
 
@@ -115,7 +114,7 @@ vsnp3
 
     <script>
         var package = "vsnp3";
-        var versions = ["3.26","3.25","3.24","3.23","3.22"];
+        var versions = ["3.27","3.26","3.25","3.24","3.23"];
     </script>
 
 

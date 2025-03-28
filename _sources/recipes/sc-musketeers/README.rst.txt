@@ -27,7 +27,7 @@ sc-musketeers
       
       
 
-      ``0.4.1-0``,  ``0.3.7-0``
+      ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.7-0``
 
       
 
@@ -95,7 +95,7 @@ sc-musketeers
 
     <script>
         var package = "sc-musketeers";
-        var versions = ["0.4.1","0.3.7"];
+        var versions = ["0.4.2","0.4.1","0.3.7"];
     </script>
 
 

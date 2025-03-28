@@ -27,7 +27,7 @@ novae
       
       
 
-      ``0.2.2-0``
+      ``0.2.4-0``,  ``0.2.2-0``
 
       
 
@@ -90,7 +90,7 @@ novae
 
     <script>
         var package = "novae";
-        var versions = ["0.2.2"];
+        var versions = ["0.2.4","0.2.2"];
     </script>
 
 

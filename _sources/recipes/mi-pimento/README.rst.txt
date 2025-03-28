@@ -28,7 +28,7 @@ mi-pimento
       
       
 
-      ``0.0.4-0``
+      ``1.0.0-0``,  ``0.0.4-0``
 
       
 
@@ -91,7 +91,7 @@ mi-pimento
 
     <script>
         var package = "mi-pimento";
-        var versions = ["0.0.4"];
+        var versions = ["1.0.0","0.0.4"];
     </script>
 
 

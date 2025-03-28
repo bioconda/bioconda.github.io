@@ -52,14 +52,14 @@ rpsbproc
       
       
 
-      ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``
+      ``0.5.0-3``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libgcc: ``>=13``
-   :depends libsqlite: ``>=3.47.2,<4.0a0``
+   :depends libsqlite: ``>=3.49.1,<4.0a0``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
@@ -68,7 +68,7 @@ rpsbproc
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -116,7 +116,7 @@ rpsbproc
 
     <script>
         var package = "rpsbproc";
-        var versions = ["0.5.0","0.5.0","0.5.0"];
+        var versions = ["0.5.0","0.5.0","0.5.0","0.5.0"];
     </script>
 
 

@@ -28,7 +28,7 @@ relecov-tools
       
       
 
-      ``1.3.0-0``
+      ``1.4.0-0``,  ``1.3.0-0``
 
       
 
@@ -101,7 +101,7 @@ relecov-tools
 
     <script>
         var package = "relecov-tools";
-        var versions = ["1.3.0"];
+        var versions = ["1.4.0","1.3.0"];
     </script>
 
 

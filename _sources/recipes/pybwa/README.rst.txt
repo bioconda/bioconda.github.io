@@ -30,10 +30,10 @@ pybwa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.0-0</code>,  <code>1.4.8-0</code>,  <code>1.4.7-1</code>,  <code>1.4.7-0</code>,  <code>1.4.6-0</code>,  <code>1.4.5-0</code>,  <code>1.4.4-0</code>,  <code>1.4.3-0</code>,  <code>1.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.2-0</code>,  <code>1.5.0-0</code>,  <code>1.4.8-0</code>,  <code>1.4.7-1</code>,  <code>1.4.7-0</code>,  <code>1.4.6-0</code>,  <code>1.4.5-0</code>,  <code>1.4.4-0</code>,  <code>1.4.3-0</code>,  </span></summary>
       
 
-      ``1.5.0-0``,  ``1.4.8-0``,  ``1.4.7-1``,  ``1.4.7-0``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.0-0``,  ``1.3.4-0``
+      ``1.5.2-0``,  ``1.5.0-0``,  ``1.4.8-0``,  ``1.4.7-1``,  ``1.4.7-0``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.0-0``,  ``1.3.4-0``
 
       
       .. raw:: html
@@ -42,10 +42,16 @@ pybwa
       
 
    
+   :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends fgpyo: ``>=0.7.0``
+   :depends libcurl: ``>=8.12.1,<9.0a0``
+   :depends libdeflate: ``>=1.22,<1.23.0a0``
    :depends libgcc: ``>=13``
+   :depends liblzma: ``>=5.6.4,<6.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends openssl: ``>=3.4.1,<4.0a0``
    :depends pysam: ``>=0.22.1``
+   :depends pysam: ``>=0.23.0,<0.24.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends typing-extensions: ``>=3.7.4``
@@ -103,7 +109,7 @@ pybwa
 
     <script>
         var package = "pybwa";
-        var versions = ["1.5.0","1.4.8","1.4.7","1.4.7","1.4.6"];
+        var versions = ["1.5.2","1.5.0","1.4.8","1.4.7","1.4.7"];
     </script>
 
 

@@ -27,7 +27,7 @@ bam2plot
       
       
 
-      ``0.3.6-0``
+      ``0.3.7-0``,  ``0.3.6-0``
 
       
 
@@ -90,7 +90,7 @@ bam2plot
 
     <script>
         var package = "bam2plot";
-        var versions = ["0.3.6"];
+        var versions = ["0.3.7","0.3.6"];
     </script>
 
 
