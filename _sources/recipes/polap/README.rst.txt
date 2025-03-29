@@ -30,10 +30,10 @@ polap
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.3.7.2-0</code>,  <code>0.4.3.7-1</code>,  <code>0.4.3.7-0</code>,  <code>0.4.1.1-0</code>,  <code>0.3.7.3-1</code>,  <code>0.3.7.3-0</code>,  <code>0.3.7.2-0</code>,  <code>0.3.7.1-0</code>,  <code>0.3.7-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.3.7.3-0</code>,  <code>0.4.3.7.2-0</code>,  <code>0.4.3.7-1</code>,  <code>0.4.3.7-0</code>,  <code>0.4.1.1-0</code>,  <code>0.3.7.3-1</code>,  <code>0.3.7.3-0</code>,  <code>0.3.7.2-0</code>,  <code>0.3.7.1-0</code>,  </span></summary>
       
 
-      ``0.4.3.7.2-0``,  ``0.4.3.7-1``,  ``0.4.3.7-0``,  ``0.4.1.1-0``,  ``0.3.7.3-1``,  ``0.3.7.3-0``,  ``0.3.7.2-0``,  ``0.3.7.1-0``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.2.6-0``,  ``0.2.4-0``
+      ``0.4.3.7.3-0``,  ``0.4.3.7.2-0``,  ``0.4.3.7-1``,  ``0.4.3.7-0``,  ``0.4.1.1-0``,  ``0.3.7.3-1``,  ``0.3.7.3-0``,  ``0.3.7.2-0``,  ``0.3.7.1-0``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.2.6-0``,  ``0.2.4-0``
 
       
       .. raw:: html
@@ -52,6 +52,7 @@ polap
    :depends csvtk: 
    :depends entrez-direct: 
    :depends flye: ``>=2.9.5``
+   :depends getorganelle: 
    :depends gfastats: 
    :depends gfatools: 
    :depends icu: 
@@ -131,7 +132,7 @@ polap
 
     <script>
         var package = "polap";
-        var versions = ["0.4.3.7.2","0.4.3.7","0.4.3.7","0.4.1.1","0.3.7.3"];
+        var versions = ["0.4.3.7.3","0.4.3.7.2","0.4.3.7","0.4.3.7","0.4.1.1"];
     </script>
 
 

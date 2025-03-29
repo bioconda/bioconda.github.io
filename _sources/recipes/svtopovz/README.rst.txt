@@ -27,15 +27,18 @@ svtopovz
       
       
 
-      ``0.1.3-0``,  ``0.1.1-0``
+      ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.1-0``
 
       
 
    
+   :depends jinja2: ``3.1.5``
    :depends matplotlib-base: ``>=3.8.4``
    :depends numpy: ``1.26.4``
+   :depends pytest: ``8.3.5``
    :depends python: ``>=3.10``
    :depends scikit-image: ``>=0.24.0``
+   :depends tqdm: ``4.67.1``
    :requirements:
 
    :additional platforms:
@@ -86,7 +89,7 @@ svtopovz
 
     <script>
         var package = "svtopovz";
-        var versions = ["0.1.3","0.1.1"];
+        var versions = ["0.2.0","0.1.3","0.1.1"];
     </script>
 
 

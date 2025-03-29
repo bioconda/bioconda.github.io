@@ -28,7 +28,7 @@ psauron
       
       
 
-      ``1.0.6-0``
+      ``1.1.0-0``,  ``1.0.6-0``
 
       
 
@@ -93,7 +93,7 @@ psauron
 
     <script>
         var package = "psauron";
-        var versions = ["1.0.6"];
+        var versions = ["1.1.0","1.0.6"];
     </script>
 
 

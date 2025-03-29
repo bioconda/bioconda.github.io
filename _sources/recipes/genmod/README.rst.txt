@@ -27,21 +27,22 @@ genmod
       
       
 
-      ``3.9-0``,  ``3.8.3-0``,  ``3.8.2-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.4-0``
+      ``3.10-0``,  ``3.9-0``,  ``3.8.3-0``,  ``3.8.2-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.4-0``
 
       
 
    
-   :depends click: ``>=8.1.3``
+   :depends click: 
    :depends configobj: 
-   :depends extract_vcf: ``>=0.4.2``
-   :depends interval_tree: ``>=0.3.2``
-   :depends intervaltree: 
-   :depends ped_parser: ``>=1.6.2``
+   :depends extract_vcf: 
+   :depends importlib_resources: 
+   :depends interval_tree: ``>=0.3.4``
+   :depends intervaltree: ``>=3.1.0``
+   :depends ped_parser: 
    :depends pytabix: 
-   :depends pytest: 
-   :depends python: ``3.8.*``
-   :depends vcftoolbox: ``>=1.5.1``
+   :depends python: 
+   :depends six: 
+   :depends vcftoolbox: 
    :requirements:
 
    :additional platforms:
@@ -92,7 +93,7 @@ genmod
 
     <script>
         var package = "genmod";
-        var versions = ["3.9","3.8.3","3.8.2","3.8.1","3.8.0"];
+        var versions = ["3.10","3.9","3.8.3","3.8.2","3.8.1"];
     </script>
 
 

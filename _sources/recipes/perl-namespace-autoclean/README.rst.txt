@@ -26,21 +26,33 @@ perl-namespace-autoclean
    :versions:
       
       
+      .. raw:: html
 
-      ``0.31-1``,  ``0.31-0``,  ``0.29-2``,  ``0.29-1``,  ``0.29-0``,  ``0.28-4``,  ``0.28-3``,  ``0.28-2``,  ``0.28-0``
+         <details><summary><span class="truncated-version-list"><code>0.31-2</code>,  <code>0.31-1</code>,  <code>0.31-0</code>,  <code>0.29-2</code>,  <code>0.29-1</code>,  <code>0.29-0</code>,  <code>0.28-4</code>,  <code>0.28-3</code>,  <code>0.28-2</code>,  </span></summary>
+      
 
+      ``0.31-2``,  ``0.31-1``,  ``0.31-0``,  ``0.29-2``,  ``0.29-1``,  ``0.29-0``,  ``0.28-4``,  ``0.28-3``,  ``0.28-2``,  ``0.28-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends perl-b-hooks-endofscope: ``0.26.*``
+   :depends perl-b-hooks-endofscope: ``0.28.*``
    :depends perl-namespace-clean: ``0.27.*``
    :depends perl-sub-identify: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -88,7 +100,7 @@ perl-namespace-autoclean
 
     <script>
         var package = "perl-namespace-autoclean";
-        var versions = ["0.31","0.31","0.29","0.29","0.29"];
+        var versions = ["0.31","0.31","0.31","0.29","0.29"];
     </script>
 
 
