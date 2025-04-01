@@ -16,7 +16,7 @@ bioconductor-rnbeads.hg38
    :license: GPL-3
    :recipe: /`bioconductor-rnbeads.hg38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnbeads.hg38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnbeads.hg38/meta.yaml>`_
 
-   RnBeads annotation package for genome assembly hg38.
+   RnBeads annotation package for the assembly hg38.
 
 
 .. conda:package:: bioconductor-rnbeads.hg38
