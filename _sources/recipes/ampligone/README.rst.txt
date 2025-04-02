@@ -28,19 +28,20 @@ ampligone
       
       
 
-      ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.1-0``
+      ``2.0.1-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.1-0``
 
       
 
    
-   :depends biopython: ``>=1.79``
-   :depends mappy: ``2.24``
-   :depends pandas: ``>=1.3``
-   :depends parmap: ``1.5.*``
-   :depends pysam: ``0.19.*``
-   :depends python: ``>=3.8``
-   :depends regex: ``>=2021.11.10``
-   :depends rich: ``12.5.*``
+   :depends biopython: ``1.84``
+   :depends mappy: ``2.28``
+   :depends pandas: ``2.2.*``
+   :depends parasail-python: ``1.3.4``
+   :depends parmap: ``1.7.*``
+   :depends pgzip: ``0.3.4``
+   :depends pysam: ``0.22.*``
+   :depends python: ``>=3.10``
+   :depends rich: ``13.7.*``
    :requirements:
 
    :additional platforms:
@@ -91,7 +92,7 @@ ampligone
 
     <script>
         var package = "ampligone";
-        var versions = ["1.3.1","1.3.0","1.2.1","1.2.0","1.1.0"];
+        var versions = ["2.0.1","1.3.1","1.3.0","1.2.1","1.2.0"];
     </script>
 
 
