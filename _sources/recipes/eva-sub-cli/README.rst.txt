@@ -27,7 +27,7 @@ eva-sub-cli
       
       
 
-      ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``
+      ``0.4.6-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``
 
       
 
@@ -38,6 +38,7 @@ eva-sub-cli
    :depends nextflow: ``>=21.10.0``
    :depends nodejs: ``>=10.19.1``
    :depends openpyxl: 
+   :depends packaging: 
    :depends python: ``>=3.8``
    :depends pyyaml: 
    :depends requests: 
@@ -92,7 +93,7 @@ eva-sub-cli
 
     <script>
         var package = "eva-sub-cli";
-        var versions = ["0.4.4","0.4.3","0.4.2","0.4.1","0.4"];
+        var versions = ["0.4.6","0.4.4","0.4.3","0.4.2","0.4.1"];
     </script>
 
 
