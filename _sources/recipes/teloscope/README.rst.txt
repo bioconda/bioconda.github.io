@@ -27,16 +27,24 @@ teloscope
    :versions:
       
       
+      .. raw:: html
 
-      ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
+         <details><summary><span class="truncated-version-list"><code>0.0.9-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-0</code>,  <code>0.0.6-1</code>,  <code>0.0.6-0</code>,  <code>0.0.5-0</code>,  <code>0.0.4-1</code>,  <code>0.0.4-0</code>,  <code>0.0.3-0</code>,  </span></summary>
+      
 
+      ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends openssl: ``>=3.4.0,<4.0a0``
+   :depends openssl: ``>=3.4.1,<4.0a0``
    :requirements:
 
    :additional platforms:
@@ -91,7 +99,7 @@ teloscope
 
     <script>
         var package = "teloscope";
-        var versions = ["0.0.8","0.0.7","0.0.6","0.0.6","0.0.5"];
+        var versions = ["0.0.9","0.0.8","0.0.7","0.0.6","0.0.6"];
     </script>
 
 
