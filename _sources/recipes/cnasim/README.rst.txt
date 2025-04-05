@@ -27,7 +27,7 @@ cnasim
       
       
 
-      ``1.3.4-0``
+      ``1.3.5-0``,  ``1.3.4-0``
 
       
 
@@ -90,7 +90,7 @@ cnasim
 
     <script>
         var package = "cnasim";
-        var versions = ["1.3.4"];
+        var versions = ["1.3.5","1.3.4"];
     </script>
 
 

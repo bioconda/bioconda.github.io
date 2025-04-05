@@ -29,22 +29,22 @@ doubletdetection
       
       
 
-      ``4.2-0``
+      ``4.3.0.post1-0``,  ``4.2-0``
 
       
 
    
-   :depends anndata: ``>=0.6``
+   :depends anndata: ``>=0.8``
    :depends ipywidgets: 
    :depends leidenalg: 
    :depends louvain: 
-   :depends matplotlib-base: ``>=3.1``
-   :depends numpy: ``>=1.14.2``
+   :depends matplotlib-base: ``>=3.6``
+   :depends numpy: ``>=1.24``
    :depends pandas: ``>=0.22.0``
    :depends phenograph: 
-   :depends python: ``>=3.6.1,<4.0``
-   :depends scanpy: ``>1.4.4``
-   :depends scipy: ``>=1.0.1``
+   :depends python: ``>=3.10``
+   :depends scanpy: ``>1.10.0``
+   :depends scipy: ``>=1.8``
    :depends tqdm: 
    :requirements:
 
@@ -96,7 +96,7 @@ doubletdetection
 
     <script>
         var package = "doubletdetection";
-        var versions = ["4.2"];
+        var versions = ["4.3.0.post1","4.2"];
     </script>
 
 

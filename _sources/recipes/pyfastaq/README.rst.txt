@@ -10,10 +10,10 @@ pyfastaq
    :replaces_section_title:
    :noindex:
 
-   Script to manipulate FASTA and FASTQ files\, plus API for developers
+   Script to manipulate FASTA and FASTQ files\, plus API for developers.
 
    :homepage: https://github.com/sanger-pathogens/Fastaq
-   :license: GPL / GNU General Public License v3 (GPLv3)
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`pyfastaq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyfastaq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyfastaq/meta.yaml>`_
 
    
@@ -27,12 +27,12 @@ pyfastaq
       
       
 
-      ``3.17.0-2``,  ``3.17.0-1``,  ``3.17.0-0``,  ``3.14.0-0``,  ``3.11.0-1``,  ``3.11.0-0``
+      ``3.18.0-0``,  ``3.17.0-2``,  ``3.17.0-1``,  ``3.17.0-0``,  ``3.14.0-0``,  ``3.11.0-1``,  ``3.11.0-0``
 
       
 
    
-   :depends python: ``>=3``
+   :depends python: ``>=3.8``
    :requirements:
 
    :additional platforms:
@@ -83,7 +83,7 @@ pyfastaq
 
     <script>
         var package = "pyfastaq";
-        var versions = ["3.17.0","3.17.0","3.17.0","3.14.0","3.11.0"];
+        var versions = ["3.18.0","3.17.0","3.17.0","3.17.0","3.14.0"];
     </script>
 
 

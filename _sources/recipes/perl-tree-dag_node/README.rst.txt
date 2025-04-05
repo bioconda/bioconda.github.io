@@ -10,7 +10,7 @@ perl-tree-dag_node
    :replaces_section_title:
    :noindex:
 
-   An N\-ary tree
+   An N\-ary tree.
 
    :homepage: http://metacpan.org/pod/Tree-DAG_Node
    :license: artistic_2
@@ -27,13 +27,14 @@ perl-tree-dag_node
       
       
 
-      ``1.32-0``,  ``1.31-1``,  ``1.31-0``,  ``1.29-2``,  ``1.29-1``,  ``1.29-0``
+      ``1.33-0``,  ``1.32-0``,  ``1.31-1``,  ``1.31-0``,  ``1.29-2``,  ``1.29-1``,  ``1.29-0``
 
       
 
    
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends perl-file-slurp-tiny: 
+   :depends perl-extutils-makemaker: ``>=7.7``
+   :depends perl-file-slurper: ``>=0.014``
    :requirements:
 
    :additional platforms:
@@ -84,7 +85,7 @@ perl-tree-dag_node
 
     <script>
         var package = "perl-tree-dag_node";
-        var versions = ["1.32","1.31","1.31","1.29","1.29"];
+        var versions = ["1.33","1.32","1.31","1.31","1.29"];
     </script>
 
 

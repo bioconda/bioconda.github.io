@@ -10,7 +10,7 @@ pantax
    :replaces_section_title:
    :noindex:
 
-   Strain\-level taxonomic classification of metagenomic data using pangenome graphs
+   Strain\-level metagenomic profiling using pangenome graphs with PanTax
 
    :homepage: https://github.com/LuoGroup2023/PanTax
    :license: GPL3 / GPL-3.0-or-later
@@ -27,7 +27,7 @@ pantax
       
       
 
-      ``1.0.2-0``
+      ``1.2.0-0``,  ``1.0.2-0``
 
       
 
@@ -39,13 +39,15 @@ pantax
    :depends networkx: ``3.2.1.*``
    :depends numpy: ``1.26.3.*``
    :depends pandas: ``2.2.0.*``
-   :depends pggb: ``0.6.0.*``
+   :depends pggb: ``>=0.6.0``
    :depends pyarrow: ``14.0.2.*``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
+   :depends r-base: ``>=4.2``
    :depends samtools: ``1.19.2.*``
+   :depends sylph: 
    :depends tqdm: 
-   :depends vg: 
+   :depends vg: ``>=1.59``
    :requirements:
 
    :additional platforms:
@@ -96,7 +98,7 @@ pantax
 
     <script>
         var package = "pantax";
-        var versions = ["1.0.2"];
+        var versions = ["1.2.0","1.0.2"];
     </script>
 
 

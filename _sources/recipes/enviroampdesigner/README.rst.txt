@@ -13,7 +13,9 @@ enviroampdesigner
    Tool for training model and classifying reads from environmental ONT amplicon sequencing.
 
    :homepage: https://github.com/AntonS-bio/EnviroAmpDesigner
-   :license: GPL-3.0-only
+   :documentation: https://github.com/AntonS-bio/EnviroAmpDesigner/blob/main/README.md
+   
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`enviroampdesigner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/enviroampdesigner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/enviroampdesigner/meta.yaml>`_
 
    Tool for training model and classifying reads from environmental ONT amplicon sequencing. 
@@ -28,7 +30,7 @@ enviroampdesigner
       
       
 
-      ``0.1.2-0``
+      ``0.1.3-0``,  ``0.1.2-0``
 
       
 
@@ -36,6 +38,7 @@ enviroampdesigner
    :depends biopython: ``>=1.85``
    :depends blast: ``>=2.16.0``
    :depends mafft: ``>=7.520``
+   :depends minimap2: 
    :depends numpy: ``>=1.20.*``
    :depends pandas: ``>=2.0.0``
    :depends primer3-py: ``>=2.0.*``
@@ -91,7 +94,7 @@ enviroampdesigner
 
     <script>
         var package = "enviroampdesigner";
-        var versions = ["0.1.2"];
+        var versions = ["0.1.3","0.1.2"];
     </script>
 
 

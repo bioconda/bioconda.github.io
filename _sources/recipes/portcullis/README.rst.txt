@@ -28,10 +28,10 @@ portcullis
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-2</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.4-3</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-2</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  </span></summary>
       
 
-      ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-3``,  ``1.1.0-0``
+      ``1.2.4-3``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-3``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -40,19 +40,26 @@ portcullis
       
 
    
-   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libboost: 
+   :depends libboost-python: ``>=1.84.0,<1.85.0a0``
+   :depends libboost-python-devel: 
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends numpy: 
    :depends pandas: 
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends python: ``>=3.9,<3.10.0a0``
+   :depends python_abi: ``3.9.* *_cp39``
+   :depends samtools: ``>=1.21,<2.0a0``
    :depends samtools: ``>=1.9``
    :depends tabulate: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -100,7 +107,7 @@ portcullis
 
     <script>
         var package = "portcullis";
-        var versions = ["1.2.4","1.2.4","1.2.3","1.2.2","1.2.2"];
+        var versions = ["1.2.4","1.2.4","1.2.4","1.2.3","1.2.2"];
     </script>
 
 

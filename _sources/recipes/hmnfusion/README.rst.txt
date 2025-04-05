@@ -10,10 +10,10 @@ hmnfusion
    :replaces_section_title:
    :noindex:
 
-   Analysis fusion from DNA genomics
+   Fusion analysis from DNA genomics.
 
    :homepage: https://github.com/guillaume-gricourt/HmnFusion
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`hmnfusion <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmnfusion>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmnfusion/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ hmnfusion
       
       
 
-      ``1.2.12-0``,  ``1.2.6-0``,  ``1.2.3-0``
+      ``1.3.0-0``,  ``1.2.12-0``,  ``1.2.6-0``,  ``1.2.3-0``
 
       
 
@@ -97,7 +97,7 @@ hmnfusion
 
     <script>
         var package = "hmnfusion";
-        var versions = ["1.2.12","1.2.6","1.2.3"];
+        var versions = ["1.3.0","1.2.12","1.2.6","1.2.3"];
     </script>
 
 

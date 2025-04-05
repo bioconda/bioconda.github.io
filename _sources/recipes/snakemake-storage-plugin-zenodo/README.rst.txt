@@ -27,7 +27,7 @@ snakemake-storage-plugin-zenodo
       
       
 
-      ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
+      ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
 
@@ -35,7 +35,7 @@ snakemake-storage-plugin-zenodo
    :depends python: ``>=3.11.0,<4.0.0``
    :depends requests: ``>=2.31.0,<3.0.0``
    :depends snakemake-interface-common: ``>=1.14.4,<2.0.0``
-   :depends snakemake-interface-storage-plugins: ``>=3.0.0,<4.0.0``
+   :depends snakemake-interface-storage-plugins: ``>=4.1.0,<5.0.0``
    :requirements:
 
    :additional platforms:
@@ -86,7 +86,7 @@ snakemake-storage-plugin-zenodo
 
     <script>
         var package = "snakemake-storage-plugin-zenodo";
-        var versions = ["0.1.4","0.1.3","0.1.2"];
+        var versions = ["0.1.5","0.1.4","0.1.3","0.1.2"];
     </script>
 
 

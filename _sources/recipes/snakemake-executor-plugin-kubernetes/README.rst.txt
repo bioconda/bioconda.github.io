@@ -10,10 +10,10 @@ snakemake-executor-plugin-kubernetes
    :replaces_section_title:
    :noindex:
 
-   A snakemake executor plugin for submission of jobs to Kubernetes
+   A snakemake executor plugin for submission of jobs to Kubernetes.
 
    :homepage: https://github.com/snakemake/snakemake-executor-plugin-kubernetes
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`snakemake-executor-plugin-kubernetes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-executor-plugin-kubernetes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-executor-plugin-kubernetes/meta.yaml>`_
 
    
@@ -27,14 +27,14 @@ snakemake-executor-plugin-kubernetes
       
       
 
-      ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.4-0``
+      ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.4-0``
 
       
 
    
    :depends python: ``>=3.11.0,<4.0.0``
-   :depends python-kubernetes: ``>=27.2.0,<28.0.0``
-   :depends snakemake-interface-common: ``>=1.14.1,<2.0.0``
+   :depends python-kubernetes: ``>=27.2.0,<31``
+   :depends snakemake-interface-common: ``>=1.17.3,<2.0.0``
    :depends snakemake-interface-executor-plugins: ``>=9.0.0,<10.0.0``
    :requirements:
 
@@ -86,7 +86,7 @@ snakemake-executor-plugin-kubernetes
 
     <script>
         var package = "snakemake-executor-plugin-kubernetes";
-        var versions = ["0.3.2","0.3.1","0.3.0","0.2.2","0.2.1"];
+        var versions = ["0.4.0","0.3.2","0.3.1","0.3.0","0.2.2"];
     </script>
 
 

@@ -10,7 +10,7 @@ perl-pod-usage
    :replaces_section_title:
    :noindex:
 
-   print a usage message from embedded pod documentation 
+   Print a usage message from embedded pod documentation.
 
    :homepage: https://metacpan.org/pod/Pod::Usage
    :license: perl_5
@@ -27,7 +27,7 @@ perl-pod-usage
       
       
 
-      ``2.03-0``,  ``2.01-0``,  ``1.69-2``,  ``1.69-1``,  ``1.69-0``
+      ``2.05-0``,  ``2.03-0``,  ``2.01-0``,  ``1.69-2``,  ``1.69-1``,  ``1.69-0``
 
       
 
@@ -87,7 +87,7 @@ perl-pod-usage
 
     <script>
         var package = "perl-pod-usage";
-        var versions = ["2.03","2.01","1.69","1.69","1.69"];
+        var versions = ["2.05","2.03","2.01","1.69","1.69"];
     </script>
 
 

@@ -27,13 +27,13 @@ r-dsb
       
       
 
-      ``1.0.4-0``,  ``1.0.3-0``
+      ``2.0.0-0``,  ``1.0.4-0``,  ``1.0.3-0``
 
       
 
    
    :depends bioconductor-limma: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-magrittr: 
    :depends r-mclust: 
    :requirements:
@@ -86,7 +86,7 @@ r-dsb
 
     <script>
         var package = "r-dsb";
-        var versions = ["1.0.4","1.0.3"];
+        var versions = ["2.0.0","1.0.4","1.0.3"];
     </script>
 
 

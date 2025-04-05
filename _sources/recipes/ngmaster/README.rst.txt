@@ -10,12 +10,12 @@ ngmaster
    :replaces_section_title:
    :noindex:
 
-   In silico multi\-antigen sequence typing for Neisseria gonorrhoeae \(NG\-MAST\) and Neisseria gonorrhoeae sequence typing for antimicrobial resistance \(NG\-STAR\)
+   In silico multi\-antigen sequence typing for Neisseria gonorrhoeae \(NG\-MAST\) and Neisseria gonorrhoeae sequence typing for antimicrobial resistance \(NG\-STAR\).
 
    :homepage: https://github.com/MDU-PHL/ngmaster
    :documentation: https://github.com/MDU-PHL/ngmaster/blob/master/README.md
    
-   :license: GPL3 / GNU General Public License v3.0 only
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`ngmaster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngmaster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngmaster/meta.yaml>`_
 
    
@@ -29,15 +29,17 @@ ngmaster
       
       
 
-      ``1.0.0-0``,  ``0.5.8-1``,  ``0.5.8-0``
+      ``1.1.1-0``,  ``1.0.0-0``,  ``0.5.8-1``,  ``0.5.8-0``
 
       
 
    
    :depends biopython: 
+   :depends bs4: 
    :depends mlst: 
-   :depends python: ``>=3.7,<=3.9``
+   :depends python: ``>=3.6``
    :depends requests: 
+   :depends setuptools: 
    :requirements:
 
    :additional platforms:
@@ -88,7 +90,7 @@ ngmaster
 
     <script>
         var package = "ngmaster";
-        var versions = ["1.0.0","0.5.8","0.5.8"];
+        var versions = ["1.1.1","1.0.0","0.5.8","0.5.8"];
     </script>
 
 

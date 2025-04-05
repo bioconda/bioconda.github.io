@@ -27,7 +27,7 @@ pymlst
       
       
 
-      ``2.1.6-0``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.2-0``
+      ``2.2.1-0``,  ``2.1.6-0``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.2-0``
 
       
 
@@ -37,6 +37,8 @@ pymlst
    :depends biopython: ``>=1.78``
    :depends click: ``>=7.1``
    :depends decorator: ``>=4.4``
+   :depends git: ``>=1.7``
+   :depends gitpython: ``>=3.1``
    :depends kma: ``>=1.3``
    :depends mafft: ``>=7.3``
    :depends networkx: ``>=2.5``
@@ -46,7 +48,6 @@ pymlst
    :depends python: ``>=3.7``
    :depends questionary: ``>=1.9``
    :depends requests: ``>=2.23``
-   :depends setuptools: ``>=44.0``
    :depends sqlalchemy: ``>=1.4,<2``
    :depends ucsc-blat: ``>=360``
    :requirements:
@@ -99,7 +100,7 @@ pymlst
 
     <script>
         var package = "pymlst";
-        var versions = ["2.1.6","2.1.5","2.1.4","2.1.3","2.1.3"];
+        var versions = ["2.2.1","2.1.6","2.1.5","2.1.4","2.1.3"];
     </script>
 
 

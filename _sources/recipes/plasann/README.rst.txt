@@ -10,7 +10,7 @@ plasann
    :replaces_section_title:
    :noindex:
 
-   A tool for plasmid annotation and visualization
+   A tool for plasmid annotation and visualization.
 
    :homepage: https://github.com/ajlopatkin/PlasAnn
    :license: MIT / MIT
@@ -36,7 +36,7 @@ plasann
       
       
 
-      ``1.0.8-0``,  ``1.0.3-0``,  ``1.0.1-0``
+      ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.3-0``,  ``1.0.1-0``
 
       
 
@@ -48,7 +48,7 @@ plasann
    :depends pandas: ``>=1.0.0``
    :depends prodigal: 
    :depends pycirclize: ``>=0.1.0``
-   :depends python: ``>=3.7``
+   :depends python: ``>=3.6``
    :requirements:
 
    :additional platforms:
@@ -99,7 +99,7 @@ plasann
 
     <script>
         var package = "plasann";
-        var versions = ["1.0.8","1.0.3","1.0.1"];
+        var versions = ["1.0.8","1.0.8","1.0.3","1.0.1"];
     </script>
 
 

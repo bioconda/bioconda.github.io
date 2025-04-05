@@ -10,10 +10,10 @@ ebi-eva-common-pyutils
    :replaces_section_title:
    :noindex:
 
-   EBI EVA \- Common Python Utilities
+   EBI EVA \- Common Python Utilities.
 
    :homepage: https://github.com/EBIVariation/eva-common-pyutils
-   :license: Apache-2.0
+   :license: APACHE / Apache-2.0
    :recipe: /`ebi-eva-common-pyutils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ebi-eva-common-pyutils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ebi-eva-common-pyutils/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ ebi-eva-common-pyutils
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.14-0</code>,  <code>0.6.12-0</code>,  <code>0.6.11-0</code>,  <code>0.6.10-0</code>,  <code>0.6.9-0</code>,  <code>0.6.8-0</code>,  <code>0.6.7-0</code>,  <code>0.6.6-0</code>,  <code>0.6.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.16-0</code>,  <code>0.6.14-0</code>,  <code>0.6.12-0</code>,  <code>0.6.11-0</code>,  <code>0.6.10-0</code>,  <code>0.6.9-0</code>,  <code>0.6.8-0</code>,  <code>0.6.7-0</code>,  <code>0.6.6-0</code>,  </span></summary>
       
 
-      ``0.6.14-0``,  ``0.6.12-0``,  ``0.6.11-0``,  ``0.6.10-0``,  ``0.6.9-0``,  ``0.6.8-0``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``
+      ``0.6.16-0``,  ``0.6.14-0``,  ``0.6.12-0``,  ``0.6.11-0``,  ``0.6.10-0``,  ``0.6.9-0``,  ``0.6.8-0``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``
 
       
       .. raw:: html
@@ -41,7 +41,8 @@ ebi-eva-common-pyutils
 
    
    :depends cached-property: 
-   :depends lxml: 
+   :depends lxml: ``4.*``
+   :depends openpyxl: ``3.*``
    :depends python: 
    :depends pyyaml: 
    :depends requests: 
@@ -96,7 +97,7 @@ ebi-eva-common-pyutils
 
     <script>
         var package = "ebi-eva-common-pyutils";
-        var versions = ["0.6.14","0.6.12","0.6.11","0.6.10","0.6.9"];
+        var versions = ["0.6.16","0.6.14","0.6.12","0.6.11","0.6.10"];
     </script>
 
 

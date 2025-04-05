@@ -12,8 +12,8 @@ el_gato
 
    Perform Legionella pneumophila Sequence Based Typing \(SBT\) from short reads or assemblies.
 
-   :homepage: https://github.com/appliedbinf/el_gato
-   :documentation: https://github.com/appliedbinf/el_gato/blob/1.21.0/README.md
+   :homepage: https://github.com/CDCgov/el_gato
+   :documentation: https://github.com/CDCgov/el_gato/blob/1.21.2/README.md
    
    :license: MIT / MIT
    :recipe: /`el_gato <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/el_gato>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/el_gato/meta.yaml>`_
@@ -30,10 +30,10 @@ el_gato
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.21.0-0</code>,  <code>1.20.2-0</code>,  <code>1.20.1-0</code>,  <code>1.19.0-0</code>,  <code>1.18.2-0</code>,  <code>1.18.1-0</code>,  <code>1.18.0-0</code>,  <code>1.15.2-0</code>,  <code>1.15.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.21.2-0</code>,  <code>1.21.0-0</code>,  <code>1.20.2-0</code>,  <code>1.20.1-0</code>,  <code>1.19.0-0</code>,  <code>1.18.2-0</code>,  <code>1.18.1-0</code>,  <code>1.18.0-0</code>,  <code>1.15.2-0</code>,  </span></summary>
       
 
-      ``1.21.0-0``,  ``1.20.2-0``,  ``1.20.1-0``,  ``1.19.0-0``,  ``1.18.2-0``,  ``1.18.1-0``,  ``1.18.0-0``,  ``1.15.2-0``,  ``1.15.0-0``,  ``1.14.4-0``
+      ``1.21.2-0``,  ``1.21.0-0``,  ``1.20.2-0``,  ``1.20.1-0``,  ``1.19.0-0``,  ``1.18.2-0``,  ``1.18.1-0``,  ``1.18.0-0``,  ``1.15.2-0``,  ``1.15.0-0``,  ``1.14.4-0``
 
       
       .. raw:: html
@@ -47,7 +47,6 @@ el_gato
    :depends fpdf2: 
    :depends ispcr: ``>=33.0``
    :depends minimap2: ``>=2.24``
-   :depends nextflow: 
    :depends packaging: 
    :depends python: ``>=3.8,<3.12``
    :depends samtools: ``>=1.15.1``
@@ -101,7 +100,7 @@ el_gato
 
     <script>
         var package = "el_gato";
-        var versions = ["1.21.0","1.20.2","1.20.1","1.19.0","1.18.2"];
+        var versions = ["1.21.2","1.21.0","1.20.2","1.20.1","1.19.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ scanpy-cli
       
       
 
-      ``0.1.4-0``
+      ``0.1.6-0``,  ``0.1.4-0``
 
       
 
@@ -87,7 +87,7 @@ scanpy-cli
 
     <script>
         var package = "scanpy-cli";
-        var versions = ["0.1.4"];
+        var versions = ["0.1.6","0.1.4"];
     </script>
 
 

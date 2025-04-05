@@ -30,7 +30,7 @@ ncbi-datasets-pyclient
       
       
 
-      ``17.2.0-0``
+      ``17.3.0-0``,  ``17.2.0-0``
 
       
 
@@ -90,7 +90,7 @@ ncbi-datasets-pyclient
 
     <script>
         var package = "ncbi-datasets-pyclient";
-        var versions = ["17.2.0"];
+        var versions = ["17.3.0","17.2.0"];
     </script>
 
 

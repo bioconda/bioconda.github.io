@@ -30,10 +30,10 @@ pybwa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.0-0</code>,  <code>1.5.2-0</code>,  <code>1.5.0-0</code>,  <code>1.4.8-0</code>,  <code>1.4.7-1</code>,  <code>1.4.7-0</code>,  <code>1.4.6-0</code>,  <code>1.4.5-0</code>,  <code>1.4.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.0-0</code>,  <code>1.6.0-0</code>,  <code>1.5.2-0</code>,  <code>1.5.0-0</code>,  <code>1.4.8-0</code>,  <code>1.4.7-1</code>,  <code>1.4.7-0</code>,  <code>1.4.6-0</code>,  <code>1.4.5-0</code>,  </span></summary>
       
 
-      ``1.6.0-0``,  ``1.5.2-0``,  ``1.5.0-0``,  ``1.4.8-0``,  ``1.4.7-1``,  ``1.4.7-0``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.0-0``,  ``1.3.4-0``
+      ``2.0.0-0``,  ``1.6.0-0``,  ``1.5.2-0``,  ``1.5.0-0``,  ``1.4.8-0``,  ``1.4.7-1``,  ``1.4.7-0``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.0-0``,  ``1.3.4-0``
 
       
       .. raw:: html
@@ -44,7 +44,7 @@ pybwa
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends fgpyo: ``>=0.7.0``
-   :depends libcurl: ``>=8.12.1,<9.0a0``
+   :depends libcurl: ``>=8.13.0,<9.0a0``
    :depends libdeflate: ``>=1.22,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends liblzma: ``>=5.6.4,<6.0a0``
@@ -109,7 +109,7 @@ pybwa
 
     <script>
         var package = "pybwa";
-        var versions = ["1.6.0","1.5.2","1.5.0","1.4.8","1.4.7"];
+        var versions = ["2.0.0","1.6.0","1.5.2","1.5.0","1.4.8"];
     </script>
 
 

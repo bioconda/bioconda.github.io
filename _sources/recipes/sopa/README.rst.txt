@@ -27,17 +27,19 @@ sopa
       
       
 
-      ``1.1.5-0``
+      ``2.0.3-0``,  ``1.1.5-0``
 
       
 
    
-   :depends botocore: ``1.34.19.*``
+   :depends anndata: ``>=0.11.0``
    :depends flake8: ``>=7.0.0,<8.0.0``
-   :depends python: ``>=3.9,<3.12``
-   :depends scanpy: ``>=1.9.8``
-   :depends spatialdata: ``>=0.2.0``
-   :depends spatialdata-io: ``>=0.1.3``
+   :depends opencv: ``>=4.8.0``
+   :depends python: ``>=3.9,<3.13``
+   :depends scanpy: ``>=1.10.4``
+   :depends spatialdata: ``>=0.3.0``
+   :depends spatialdata-io: ``>=0.1.7``
+   :depends spatialdata-plot: ``>=0.2.9``
    :depends typer: ``>=0.9.0``
    :requirements:
 
@@ -89,7 +91,7 @@ sopa
 
     <script>
         var package = "sopa";
-        var versions = ["1.1.5"];
+        var versions = ["2.0.3","1.1.5"];
     </script>
 
 

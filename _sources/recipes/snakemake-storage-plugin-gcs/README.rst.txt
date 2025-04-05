@@ -27,7 +27,7 @@ snakemake-storage-plugin-gcs
       
       
 
-      ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.1.4-0``,  ``0.1.3-0``
+      ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.1.4-0``,  ``0.1.3-0``
 
       
 
@@ -36,7 +36,7 @@ snakemake-storage-plugin-gcs
    :depends google-crc32c: ``>=1.1.2,<2.0.0``
    :depends python: ``>=3.11.0,<4.0.0``
    :depends snakemake-interface-common: ``>=1.14.2,<2.0.0``
-   :depends snakemake-interface-storage-plugins: ``>=3.0.0,<4.0.0``
+   :depends snakemake-interface-storage-plugins: ``>=4.1.0,<5.0.0``
    :requirements:
 
    :additional platforms:
@@ -87,7 +87,7 @@ snakemake-storage-plugin-gcs
 
     <script>
         var package = "snakemake-storage-plugin-gcs";
-        var versions = ["1.1.3","1.1.2","1.1.1","1.1.0","1.0.0"];
+        var versions = ["1.1.4","1.1.3","1.1.2","1.1.1","1.1.0"];
     </script>
 
 

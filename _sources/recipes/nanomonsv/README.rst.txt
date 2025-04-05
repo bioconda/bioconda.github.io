@@ -10,10 +10,10 @@ nanomonsv
    :replaces_section_title:
    :noindex:
 
-   Python tools for detecting structural variation from nanopore sequence data
+   Python tools for detecting structural variation from nanopore sequence data.
 
    :homepage: https://github.com/friend1ws/nanomonsv
-   :license: GPL-3.0
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`nanomonsv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanomonsv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanomonsv/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ nanomonsv
       
       
 
-      ``0.7.2-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``
+      ``0.8.0-0``,  ``0.7.2-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``
 
       
 
@@ -93,7 +93,7 @@ nanomonsv
 
     <script>
         var package = "nanomonsv";
-        var versions = ["0.7.2","0.7.0","0.6.0","0.5.1","0.5.0"];
+        var versions = ["0.8.0","0.7.2","0.7.0","0.6.0","0.5.1"];
     </script>
 
 

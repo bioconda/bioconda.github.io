@@ -27,14 +27,14 @@ snakemake-storage-plugin-xrootd
       
       
 
-      ``0.4.0-0``
+      ``0.4.1-0``,  ``0.4.0-0``
 
       
 
    
    :depends python: ``>=3.11``
    :depends snakemake-interface-common: ``>=1.15.0,<2``
-   :depends snakemake-interface-storage-plugins: ``>=3,<4``
+   :depends snakemake-interface-storage-plugins: ``>=4.1.0,<5``
    :depends xrootd: ``>=5.6,<6``
    :requirements:
 
@@ -86,7 +86,7 @@ snakemake-storage-plugin-xrootd
 
     <script>
         var package = "snakemake-storage-plugin-xrootd";
-        var versions = ["0.4.0"];
+        var versions = ["0.4.1","0.4.0"];
     </script>
 
 
