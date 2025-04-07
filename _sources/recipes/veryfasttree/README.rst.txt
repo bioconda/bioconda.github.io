@@ -13,7 +13,7 @@ veryfasttree
    VeryFastTree \-\- speeding up the estimation of phylogenies for large alignments through parallelization and vectorization strategies.
 
    :homepage: https://github.com/citiususc/veryfasttree
-   :documentation: https://github.com/citiususc/veryfasttree/blob/v4.0.4/README.md
+   :documentation: https://github.com/citiususc/veryfasttree/blob/v4.0.5/README.md
    
    :license: GPL3 / GPL-3.0-only
    :recipe: /`veryfasttree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/veryfasttree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/veryfasttree/meta.yaml>`_
@@ -33,10 +33,10 @@ veryfasttree
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.4-1</code>,  <code>4.0.4-0</code>,  <code>4.0.03-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>4.0-0</code>,  <code>3.2.1-2</code>,  <code>3.2.1-1</code>,  <code>3.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.5-0</code>,  <code>4.0.4-1</code>,  <code>4.0.4-0</code>,  <code>4.0.03-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>4.0-0</code>,  <code>3.2.1-2</code>,  <code>3.2.1-1</code>,  </span></summary>
       
 
-      ``4.0.4-1``,  ``4.0.4-0``,  ``4.0.03-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0-0``,  ``3.2.1-2``,  ``3.2.1-1``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.1-1``,  ``3.1.1-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.1-0``
+      ``4.0.5-0``,  ``4.0.4-1``,  ``4.0.4-0``,  ``4.0.03-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0-0``,  ``3.2.1-2``,  ``3.2.1-1``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.1-1``,  ``3.1.1-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.1-0``
 
       
       .. raw:: html
@@ -103,7 +103,7 @@ veryfasttree
 
     <script>
         var package = "veryfasttree";
-        var versions = ["4.0.4","4.0.4","4.0.03","4.0.2","4.0.1"];
+        var versions = ["4.0.5","4.0.4","4.0.4","4.0.03","4.0.2"];
     </script>
 
 

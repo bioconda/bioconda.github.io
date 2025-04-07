@@ -27,12 +27,14 @@ aliceasm
       
       
 
-      ``0.6.32-0``
+      ``0.6.33-0``,  ``0.6.32-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
+   :depends bcalm: 
+   :depends gfatools: 
    :depends libgcc: ``>=13``
    :depends libgomp: 
    :depends libstdcxx: ``>=13``
@@ -86,7 +88,7 @@ aliceasm
 
     <script>
         var package = "aliceasm";
-        var versions = ["0.6.32"];
+        var versions = ["0.6.33","0.6.32"];
     </script>
 
 

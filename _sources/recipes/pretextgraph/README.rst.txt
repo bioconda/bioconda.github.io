@@ -12,11 +12,14 @@ pretextgraph
 
    Embeds bedgraph data into Pretext contact maps.
 
-   :homepage: https://github.com/wtsi-hpag/PretextGraph
+   :homepage: https://github.com/sanger-tol/PretextGraph
+   :documentation: https://github.com/sanger-tol/PretextGraph/blob/0.0.9/README.md
+   
    :license: MIT / MIT
    :recipe: /`pretextgraph <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pretextgraph>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pretextgraph/meta.yaml>`_
 
-   This is a tool for converting data from a bedgraph format and embedding into a Hi\-C contact map in the Pretext format. The graph data can then be displayed alongside the contact map using the PretextView desktop software \(https\:\/\/github.com\/wtsi\-hpag\/PretextView\). See https\:\/\/github.com\/wtsi\-hpag\/PretextMap for how to generate Pretext contact maps\, or search for pretextmap on bioconda.
+   This is a tool for converting data from a bedgraph format and embedding into a Hi\-C contact map in the Pretext format. The graph data can then be displayed alongside the contact map using the PretextView desktop software \(https\:\/\/github.com\/sanger\-tol\/PretextView\). See https\:\/\/github.com\/sanger\-tol\/PretextMap for how to generate Pretext contact maps\, or search for pretextmap on bioconda.
+
 
 
 .. conda:package:: pretextgraph
@@ -28,10 +31,10 @@ pretextgraph
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.9-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-1</code>,  <code>0.0.7-0</code>,  <code>0.0.6-3</code>,  <code>0.0.6-2</code>,  <code>0.0.6-1</code>,  <code>0.0.6-0</code>,  <code>0.0.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.9-1</code>,  <code>0.0.9-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-1</code>,  <code>0.0.7-0</code>,  <code>0.0.6-3</code>,  <code>0.0.6-2</code>,  <code>0.0.6-1</code>,  <code>0.0.6-0</code>,  </span></summary>
       
 
-      ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-3``,  ``0.0.6-2``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.2-1``,  ``0.0.2-0``
+      ``0.0.9-1``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-3``,  ``0.0.6-2``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.2-1``,  ``0.0.2-0``
 
       
       .. raw:: html
@@ -92,7 +95,7 @@ pretextgraph
 
     <script>
         var package = "pretextgraph";
-        var versions = ["0.0.9","0.0.8","0.0.7","0.0.7","0.0.6"];
+        var versions = ["0.0.9","0.0.9","0.0.8","0.0.7","0.0.7"];
     </script>
 
 

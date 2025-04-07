@@ -10,7 +10,7 @@ gapmm2
    :replaces_section_title:
    :noindex:
 
-   gapmm2\: gapped alignment using minimap2
+   gapmm2\: gapped alignment using minimap2.
 
    :homepage: https://github.com/nextgenusfs/gapmm2
    :license: BSD / BSD-2-Clause
@@ -27,7 +27,7 @@ gapmm2
       
       
 
-      ``23.11.3-0``,  ``0.2.0-0``
+      ``25.4.5-0``,  ``23.11.3-0``,  ``0.2.0-0``
 
       
 
@@ -86,7 +86,7 @@ gapmm2
 
     <script>
         var package = "gapmm2";
-        var versions = ["23.11.3","0.2.0"];
+        var versions = ["25.4.5","23.11.3","0.2.0"];
     </script>
 
 

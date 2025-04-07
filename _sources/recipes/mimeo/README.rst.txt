@@ -13,6 +13,8 @@ mimeo
    Scan genomes for internally repeated sequences\, elements which are repetitive in another species\, or high\-identity HGT candidate regions between species.
 
    :homepage: https://github.com/Adamtaranto/mimeo
+   :documentation: https://adamtaranto.github.io/mimeo
+   
    :license: MIT / MIT
    :recipe: /`mimeo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mimeo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mimeo/meta.yaml>`_
 
@@ -27,7 +29,7 @@ mimeo
       
       
 
-      ``1.1.2-0``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``
+      ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``
 
       
 
@@ -35,6 +37,7 @@ mimeo
    :depends biopython: ``>=1.70``
    :depends pandas: ``>=0.20.3``
    :depends python: ``>=3.8``
+   :depends rich: 
    :requirements:
 
    :additional platforms:
@@ -85,7 +88,7 @@ mimeo
 
     <script>
         var package = "mimeo";
-        var versions = ["1.1.2","1.1.1","1.1.1","1.1.1"];
+        var versions = ["1.2.0","1.1.2","1.1.1","1.1.1","1.1.1"];
     </script>
 
 

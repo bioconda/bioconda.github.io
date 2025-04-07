@@ -13,6 +13,8 @@ t1k
    T1K is a versatile methods to genotype highly polymorphic genes \(e.g. KIR\, HLA\) with RNA\-seq\, WGS or WES data.
 
    :homepage: https://github.com/mourisl/T1K
+   :documentation: https://github.com/mourisl/T1K/blob/v1.0.8/README.md
+   
    :license: MIT / MIT
    :recipe: /`t1k <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/t1k>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/t1k/meta.yaml>`_
 
@@ -28,10 +30,10 @@ t1k
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.7-0</code>,  <code>1.0.6-3</code>,  <code>1.0.6-2</code>,  <code>1.0.6-1</code>,  <code>1.0.6-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.8-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-3</code>,  <code>1.0.6-2</code>,  <code>1.0.6-1</code>,  <code>1.0.6-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  </span></summary>
       
 
-      ``1.0.7-0``,  ``1.0.6-3``,  ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-3``,  ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -53,7 +55,7 @@ t1k
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -101,7 +103,7 @@ t1k
 
     <script>
         var package = "t1k";
-        var versions = ["1.0.7","1.0.6","1.0.6","1.0.6","1.0.6"];
+        var versions = ["1.0.8","1.0.7","1.0.6","1.0.6","1.0.6"];
     </script>
 
 

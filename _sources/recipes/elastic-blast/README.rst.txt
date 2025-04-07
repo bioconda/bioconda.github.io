@@ -12,7 +12,7 @@ elastic-blast
 
    ElasticBLAST is a cloud\-based tool to perform your BLAST searches faster and make you more effective.
 
-   :homepage: https://github.com/ncbi/elastic-blast/
+   :homepage: https://github.com/ncbi/elastic-blast
    :license: PUBLIC-DOMAIN / Public Domain
    :recipe: /`elastic-blast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/elastic-blast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/elastic-blast/meta.yaml>`_
    :links: biotools: :biotools:`blast`, doi: :doi:`10.1186/s12859-023-05245-9`
@@ -29,10 +29,10 @@ elastic-blast
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.1-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.2.7-0</code>,  <code>0.2.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.0-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.2.7-0</code>,  </span></summary>
       
 
-      ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``
+      ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``
 
       
       .. raw:: html
@@ -49,8 +49,8 @@ elastic-blast
    :depends importlib-metadata: 
    :depends importlib-resources: ``6.1.1``
    :depends kubernetes-client: 
-   :depends pex: ``2.9.0``
-   :depends python: ``>=3.7``
+   :depends pex: ``2.24.1``
+   :depends python: ``>=3.7,<3.13``
    :depends tenacity: 
    :requirements:
 
@@ -102,7 +102,7 @@ elastic-blast
 
     <script>
         var package = "elastic-blast";
-        var versions = ["1.3.1","1.3.0","1.3.0","1.2.0","1.1.0"];
+        var versions = ["1.4.0","1.3.1","1.3.0","1.3.0","1.2.0"];
     </script>
 
 

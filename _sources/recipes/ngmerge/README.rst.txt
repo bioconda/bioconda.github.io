@@ -12,10 +12,12 @@ ngmerge
 
    Merging paired\-end reads and removing sequencing adapters.
 
-   :homepage: https://github.com/harvardinformatics/NGmerge
-   :license: MIT
+   :homepage: https://github.com/jsh58/NGmerge
+   :documentation: https://github.com/jsh58/NGmerge/blob/v0.4/README.md
+   
+   :license: MIT / MIT
    :recipe: /`ngmerge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngmerge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngmerge/meta.yaml>`_
-   :links: biotools: :biotools:`ngmerge`
+   :links: biotools: :biotools:`ngmerge`, doi: :doi:`10.1186/s12859-018-2579-2`
 
    
 
@@ -28,17 +30,23 @@ ngmerge
       
       
 
-      ``0.3-1``,  ``0.3-0``
+      ``0.4-0``,  ``0.3-1``,  ``0.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=4.9``
-   :depends openmp: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends openmpi: ``>=4.1.6,<5.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -86,7 +94,7 @@ ngmerge
 
     <script>
         var package = "ngmerge";
-        var versions = ["0.3","0.3"];
+        var versions = ["0.4","0.3","0.3"];
     </script>
 
 
