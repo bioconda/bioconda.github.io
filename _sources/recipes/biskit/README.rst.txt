@@ -10,11 +10,11 @@ biskit
    :replaces_section_title:
    :noindex:
 
-   A Python platform for structural bioinformatics
+   A Python platform for structural bioinformatics.
 
-   :homepage: http://biskit.pasteur.fr
+   :homepage: https://biskit.pasteur.fr
    :developer docs: https://github.com/graik/biskit
-   :license: LGPL / GNU General Public License (GPL)
+   :license: LGPL / GPL-3.0-or-later
    :recipe: /`biskit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biskit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biskit/meta.yaml>`_
 
    Biskit is a modular\, object\-oriented Python library for structural bioinformatics research.
@@ -28,14 +28,15 @@ biskit
       
       
 
-      ``2.5.1-0``,  ``2.4.3-1``,  ``2.4.3-0``
+      ``3.0.1-0``,  ``2.5.1-0``,  ``2.4.3-1``,  ``2.4.3-0``
 
       
 
    
    :depends biopython: 
    :depends numpy: 
-   :depends python: ``<3``
+   :depends parmed: 
+   :depends python: 
    :depends scipy: 
    :requirements:
 
@@ -87,7 +88,7 @@ biskit
 
     <script>
         var package = "biskit";
-        var versions = ["2.5.1","2.4.3","2.4.3"];
+        var versions = ["3.0.1","2.5.1","2.4.3","2.4.3"];
     </script>
 
 

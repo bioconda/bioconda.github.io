@@ -27,7 +27,7 @@ pilea
       
       
 
-      ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -38,6 +38,7 @@ pilea
    :depends python: ``>=3.7``
    :depends rich-argparse: 
    :depends scikit-learn: ``>=1.6.1``
+   :depends statsmodels: ``>=0.14.4``
    :depends threadpoolctl: 
    :depends tqdm: 
    :requirements:
@@ -90,7 +91,7 @@ pilea
 
     <script>
         var package = "pilea";
-        var versions = ["0.1.0"];
+        var versions = ["0.2.0","0.1.0"];
     </script>
 
 

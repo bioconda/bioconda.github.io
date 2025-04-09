@@ -10,14 +10,14 @@ rsat-core
    :replaces_section_title:
    :noindex:
 
-   Detection of regulatory signals in non\-coding sequences.
+   Regulatory Sequence Analysis Tools \(RSAT\)
 
-   :homepage: http://rsat.eu/
-   :license: AGPL-3
+   :homepage: http://rsat.eu
+   :license: GNU Affero General Public License v3
    :recipe: /`rsat-core <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rsat-core>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rsat-core/meta.yaml>`_
    :links: biotools: :biotools:`rsat`, doi: :doi:`10.1093/nar/gky317`
 
-   
+   Detection and analysis of regulatory signals in non\-coding sequences.
 
 
 .. conda:package:: rsat-core
@@ -28,7 +28,7 @@ rsat-core
       
       
 
-      ``2020.02.29-1``,  ``2020.02.29-0``,  ``2020.02.28-0``,  ``2020.01.04-0``
+      ``2025.04.04-0``,  ``2020.02.29-1``,  ``2020.02.29-0``,  ``2020.02.28-0``,  ``2020.01.04-0``
 
       
 
@@ -41,18 +41,22 @@ rsat-core
    :depends ghostscript: 
    :depends gnuplot: 
    :depends httplib2: 
-   :depends libcxx: ``>=9.0.1``
-   :depends libgfortran: ``>=4.0.0,<5.0.0.a0``
-   :depends matplotlib: 
+   :depends libgcc: ``>=13``
+   :depends libgfortran: 
+   :depends libgfortran5: ``>=13.3.0``
+   :depends libstdcxx: ``>=13``
+   :depends matplotlib-base: 
    :depends numpy: 
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends opencv: 
+   :depends perl: 
    :depends perl-algorithm-cluster: 
+   :depends perl-app-cpanminus: 
    :depends perl-bio-das: 
    :depends perl-bioperl: 
    :depends perl-cgi: 
    :depends perl-class-std-fast: 
    :depends perl-data-dumper: 
-   :depends perl-db-file: 
+   :depends perl-db_file: 
    :depends perl-dbd-mysql: 
    :depends perl-dbi: 
    :depends perl-digest-md5-file: 
@@ -71,13 +75,12 @@ rsat-core
    :depends perl-mce-shared: 
    :depends perl-number-format: 
    :depends perl-object-insideout: 
-   :depends perl-ole-storage_lite: 
    :depends perl-parallel-forkmanager: 
    :depends perl-posix: 
+   :depends perl-postscript-simple: 
    :depends perl-readonly: 
    :depends perl-rest-client: 
    :depends perl-soap-lite: 
-   :depends perl-spreadsheet-writeexcel: 
    :depends perl-statistics-distributions: 
    :depends perl-util-properties: 
    :depends perl-xml-dom: 
@@ -85,11 +88,10 @@ rsat-core
    :depends perl-xml-parser: 
    :depends perl-yaml: 
    :depends pygraphviz: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: 
    :depends pyyaml: 
    :depends r-amap: 
-   :depends r-base: ``>=4.0,<4.1.0a0``
+   :depends r-base: 
    :depends r-data.table: 
    :depends r-dendextend: 
    :depends r-devtools: 
@@ -161,12 +163,26 @@ rsat-core
 
     <script>
         var package = "rsat-core";
-        var versions = ["2020.02.29","2020.02.29","2020.02.28","2020.01.04"];
+        var versions = ["2025.04.04","2020.02.29","2020.02.29","2020.02.28","2020.01.04"];
     </script>
 
 
 
 
+
+Notes
+-----
+This package installs RSAT tools to analyse cis\-regulatory elements\, supporting\:
+\* motif discovery \(support genome\-wide data sets like ChIP\-seq\)
+\* transcription factor binding motif analysis \(quality assessment\, comparisons and clustering\)
+\* comparative genomics
+\* analysis of regulatory variations
+
+Documentation can be found at https\:\/\/rsa\-tools.github.io\/installing\-RSAT
+
+Note that this package does not include genome sequences nor DNA motif collections\, 
+please check https\:\/\/rsa\-tools.github.io\/installing\-RSAT\/RSAT\-Docker\/RSAT\-Docker\-tuto.html
+to learn how to add them in your system.
 
 
 Download stats

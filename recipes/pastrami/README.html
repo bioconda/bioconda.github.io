@@ -67,16 +67,19 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">pastrami</span></span></dt>
-<dd><p>Pastrami is a novel, scalable computational algorithm for rapid human ancestry estimation</p>
+<dd><p>Pastrami is a novel, scalable computational algorithm for rapid human ancestry estimation.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/healthdisparities/pastrami">https://github.com/healthdisparities/pastrami</a></p>
 </dd>
-<dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>CC BY-NC-SA 4.0</p>
+<dt class="field-even">Documentation<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://github.com/healthdisparities/pastrami/blob/v1.0.0/README.md">https://github.com/healthdisparities/pastrami/blob/v1.0.0/README.md</a></p>
 </dd>
-<dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pastrami">pastrami</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pastrami/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">License<span class="colon">:</span></dt>
+<dd class="field-odd"><p>CC BY-NC-SA 4.0</p>
+</dd>
+<dt class="field-even">Recipe<span class="colon">:</span></dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pastrami">pastrami</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pastrami/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -88,28 +91,25 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/pastrami"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/pastrami.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/pastrami"><img alt="docker_pastrami" src="https://quay.io/repository/biocontainers/pastrami/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.9.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.5-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.5-0</span></code></p>
 </dd>
-<dt class="field-even">depends bzip2<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0.8,&lt;2.0a0</span></code></p>
+<dt class="field-even">depends numpy<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends pandas<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends pathos<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends plink2<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends python<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.8</span></code></p>
 </dd>
-<dt class="field-odd">depends numpy<span class="colon">:</span></dt>
+<dt class="field-odd">depends scipy<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends pandas<span class="colon">:</span></dt>
+<dt class="field-even">requirements<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends pathos<span class="colon">:</span></dt>
+<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends plink2<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends python<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.8</span></code></p>
-</dd>
-<dt class="field-even">depends scipy<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">requirements<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">additional platforms<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -144,7 +144,7 @@ others.</p>
 
 <script>
     var package = "pastrami";
-    var versions = ["0.9.6","0.9.5"];
+    var versions = ["1.0.0","0.9.6","0.9.5"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

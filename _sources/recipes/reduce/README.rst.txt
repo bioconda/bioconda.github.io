@@ -10,10 +10,10 @@ reduce
    :replaces_section_title:
    :noindex:
 
-   Reduce \- tool for adding and correcting hydrogens in PDB files
+   Reduce \- tool for adding and correcting hydrogens in PDB files.
 
    :homepage: https://github.com/rlabduke/reduce
-   :documentation: https://github.com/rlabduke/reduce#readme
+   :documentation: https://github.com/rlabduke/reduce/blob/v4.15/README.md
    
    :license: BSD / BSD-4-Clause-UC
    :recipe: /`reduce <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reduce>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reduce/meta.yaml>`_
@@ -32,15 +32,14 @@ reduce
       
       
 
-      ``4.14-3``,  ``4.14-2``,  ``4.14-1``,  ``4.14-0``
+      ``4.15-0``,  ``4.14-3``,  ``4.14-2``,  ``4.14-1``,  ``4.14-0``
 
       
 
    
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends python: 
    :requirements:
 
    :additional platforms:
@@ -95,7 +94,7 @@ reduce
 
     <script>
         var package = "reduce";
-        var versions = ["4.14","4.14","4.14","4.14"];
+        var versions = ["4.15","4.14","4.14","4.14","4.14"];
     </script>
 
 

@@ -13,7 +13,9 @@ fairy
    fairy calculates all\-to\-all approximate coverage for multi\-sample metagenomic binning \> 100x faster than alignment.
 
    :homepage: https://github.com/bluenote-1577/fairy
-   :license: MIT
+   :documentation: https://github.com/bluenote-1577/fairy/blob/v0.5.8/README.md
+   
+   :license: MIT / MIT
    :recipe: /`fairy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fairy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fairy/meta.yaml>`_
 
    
@@ -27,13 +29,12 @@ fairy
       
       
 
-      ``0.5.7-2``,  ``0.5.7-1``,  ``0.5.7-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``
+      ``0.5.8-0``,  ``0.5.7-2``,  ``0.5.7-1``,  ``0.5.7-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``
 
       
 
    
    :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -88,7 +89,7 @@ fairy
 
     <script>
         var package = "fairy";
-        var versions = ["0.5.7","0.5.7","0.5.7","0.5.5","0.5.4"];
+        var versions = ["0.5.8","0.5.7","0.5.7","0.5.7","0.5.5"];
     </script>
 
 

@@ -30,7 +30,7 @@ treesimulator
       
       
 
-      ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.22-0``
+      ``0.2.8-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.22-0``
 
       
 
@@ -38,6 +38,7 @@ treesimulator
    :depends ete3: ``>=3.1.1``
    :depends numpy: ``>=1.22``
    :depends python: ``>=3.9``
+   :depends python-build: 
    :depends scipy: ``>=1.5.0``
    :depends six: ``>=1.16.0``
    :requirements:
@@ -90,7 +91,7 @@ treesimulator
 
     <script>
         var package = "treesimulator";
-        var versions = ["0.2.4","0.2.3","0.2.1","0.2.0","0.1.22"];
+        var versions = ["0.2.8","0.2.4","0.2.3","0.2.1","0.2.0"];
     </script>
 
 

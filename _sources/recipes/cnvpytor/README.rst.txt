@@ -10,11 +10,14 @@ cnvpytor
    :replaces_section_title:
    :noindex:
 
-   Python extension of CNVnator
+   Python extension of CNVnator.
 
    :homepage: https://github.com/abyzovlab/CNVpytor
+   :documentation: https://abyzovlab.github.io/CNVpytor
+   
    :license: MIT / MIT
    :recipe: /`cnvpytor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cnvpytor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cnvpytor/meta.yaml>`_
+   :links: doi: :doi:`10.1093/gigascience/giab074`, biotools: :biotools:`cnvpytor`
 
    
 
@@ -27,7 +30,7 @@ cnvpytor
       
       
 
-      ``1.3.1-1``,  ``1.3.1-0``,  ``1.2.1-0``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``,  ``1.0b3-1``,  ``1.0b3-0``
+      ``1.3.2-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.2.1-0``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``,  ``1.0b3-1``,  ``1.0b3-0``
 
       
 
@@ -92,7 +95,7 @@ cnvpytor
 
     <script>
         var package = "cnvpytor";
-        var versions = ["1.3.1","1.3.1","1.2.1","1.0","1.0"];
+        var versions = ["1.3.2","1.3.1","1.3.1","1.2.1","1.0"];
     </script>
 
 

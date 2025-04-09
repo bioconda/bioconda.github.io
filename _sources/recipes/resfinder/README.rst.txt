@@ -30,14 +30,14 @@ resfinder
       
       
 
-      ``4.6.0-0``,  ``4.5.0-0``,  ``4.4.3-0``,  ``4.4.2-1``,  ``4.4.2-0``,  ``4.1.11-0``
+      ``4.7.0-0``,  ``4.6.0-0``,  ``4.5.0-0``,  ``4.4.3-0``,  ``4.4.2-1``,  ``4.4.2-0``,  ``4.1.11-0``
 
       
 
    
    :depends biopython: ``>=1.79``
    :depends blast: ``>=2.8.1``
-   :depends cgecore: ``1.5.6``
+   :depends cgecore: ``2.0.1``
    :depends cgelib: ``>=0.7.3``
    :depends git: 
    :depends kma: 
@@ -95,7 +95,7 @@ resfinder
 
     <script>
         var package = "resfinder";
-        var versions = ["4.6.0","4.5.0","4.4.3","4.4.2","4.4.2"];
+        var versions = ["4.7.0","4.6.0","4.5.0","4.4.3","4.4.2"];
     </script>
 
 

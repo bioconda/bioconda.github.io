@@ -10,9 +10,11 @@ pastrami
    :replaces_section_title:
    :noindex:
 
-   Pastrami is a novel\, scalable computational algorithm for rapid human ancestry estimation
+   Pastrami is a novel\, scalable computational algorithm for rapid human ancestry estimation.
 
    :homepage: https://github.com/healthdisparities/pastrami
+   :documentation: https://github.com/healthdisparities/pastrami/blob/v1.0.0/README.md
+   
    :license: CC BY-NC-SA 4.0
    :recipe: /`pastrami <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pastrami>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pastrami/meta.yaml>`_
 
@@ -27,12 +29,11 @@ pastrami
       
       
 
-      ``0.9.6-0``,  ``0.9.5-0``
+      ``1.0.0-0``,  ``0.9.6-0``,  ``0.9.5-0``
 
       
 
    
-   :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends numpy: 
    :depends pandas: 
    :depends pathos: 
@@ -89,7 +90,7 @@ pastrami
 
     <script>
         var package = "pastrami";
-        var versions = ["0.9.6","0.9.5"];
+        var versions = ["1.0.0","0.9.6","0.9.5"];
     </script>
 
 

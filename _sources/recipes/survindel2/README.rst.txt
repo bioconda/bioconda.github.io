@@ -13,7 +13,7 @@ survindel2
    A CNV caller for Illumina paired\-end WGS data.
 
    :homepage: https://github.com/kensung-lab/SurVIndel2
-   :license: GPL-3.0-only
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`survindel2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/survindel2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/survindel2/meta.yaml>`_
 
    SurVIndel2 is a fast and accurate CNV caller for Illumina paired\-end WGS data.
@@ -28,7 +28,7 @@ survindel2
       
       
 
-      ``1.1.3-1``,  ``1.1.3-0``
+      ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``
 
       
 
@@ -90,7 +90,7 @@ survindel2
 
     <script>
         var package = "survindel2";
-        var versions = ["1.1.3","1.1.3"];
+        var versions = ["1.1.4","1.1.3","1.1.3"];
     </script>
 
 

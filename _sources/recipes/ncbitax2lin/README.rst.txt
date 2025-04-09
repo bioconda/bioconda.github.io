@@ -28,14 +28,14 @@ ncbitax2lin
       
       
 
-      ``2.3.2-0``
+      ``2.4.1-0``,  ``2.3.2-0``
 
       
 
    
    :depends fire: ``>=0.3.1,<0.4.0``
    :depends pandas: ``>=1.0.3,<2.0.0``
-   :depends python: ``>=3.7,<=3.9``
+   :depends python: ``>=3.7,<3.10``
    :depends typing-extensions: ``>=3.7.4,<4.0.0``
    :requirements:
 
@@ -87,7 +87,7 @@ ncbitax2lin
 
     <script>
         var package = "ncbitax2lin";
-        var versions = ["2.3.2"];
+        var versions = ["2.4.1","2.3.2"];
     </script>
 
 

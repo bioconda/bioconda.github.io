@@ -13,11 +13,13 @@ mity
    Mity is a bioinformatic analysis pipeline designed to call mitochondrial SNV and INDEL variants from Whole Genome Sequencing \(WGS\) data.
 
    :homepage: https://github.com/KCCG/mity
+   :documentation: https://github.com/KCCG/mity/blob/1.2.0/README.md
+   
    :license: MIT / MIT
    :recipe: /`mity <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mity>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mity/meta.yaml>`_
+   :links: biotools: :biotools:`mity`, doi: :doi:`10.26502/jbsb.5107074`
 
-   \*Mity\* can\: 
-
+   \*Mity\* can\:
    \- identify very low\-heteroplasmy variants\, even \<1\% heteroplasmy when there is sufficient read\-depth \(eg \>1000x\)
    \- filter out common artefacts that arise from high\-depth sequencing
    \- easily integrate with existing nuclear DNA analysis pipelines \(mity merge\)
@@ -33,7 +35,7 @@ mity
       
       
 
-      ``1.1.0-0``
+      ``1.2.0-0``,  ``1.1.0-0``
 
       
 
@@ -98,7 +100,7 @@ mity
 
     <script>
         var package = "mity";
-        var versions = ["1.1.0"];
+        var versions = ["1.2.0","1.1.0"];
     </script>
 
 

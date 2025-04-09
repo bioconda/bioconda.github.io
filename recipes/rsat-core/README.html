@@ -67,13 +67,13 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">rsat-core</span></span></dt>
-<dd><p>Detection of regulatory signals in non-coding sequences.</p>
+<dd><p>Regulatory Sequence Analysis Tools (RSAT)</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="http://rsat.eu/">http://rsat.eu/</a></p>
+<dd class="field-odd"><p><a class="reference external" href="http://rsat.eu">http://rsat.eu</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>AGPL-3</p>
+<dd class="field-even"><p>GNU Affero General Public License v3</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rsat-core">rsat-core</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rsat-core/meta.yaml">meta.yaml</a></p>
@@ -82,6 +82,7 @@
 <dd class="field-even"><p>biotools: <a class="extlink-biotools reference external" href="https://bio.tools/rsat">rsat</a>, doi: <a class="extlink-doi reference external" href="https://doi.org/10.1093/nar/gky317">10.1093/nar/gky317</a></p>
 </dd>
 </dl>
+<p>Detection and analysis of regulatory signals in non-coding sequences.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -91,7 +92,7 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/rsat-core"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/rsat-core.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/rsat-core"><img alt="docker_rsat-core" src="https://quay.io/repository/biocontainers/rsat-core/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2020.02.29-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2020.02.29-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2020.02.28-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2020.01.04-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2025.04.04-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2020.02.29-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2020.02.29-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2020.02.28-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2020.01.04-0</span></code></p>
 </dd>
 <dt class="field-even">depends bedtools<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
@@ -109,20 +110,28 @@
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends httplib2<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends libcxx<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=9.0.1</span></code></p>
+<dt class="field-even">depends libgcc<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
 </dd>
 <dt class="field-odd">depends libgfortran<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.0.0,&lt;5.0.0.a0</span></code></p>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends libgfortran5<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13.3.0</span></code></p>
 </dd>
-<dt class="field-even">depends matplotlib<span class="colon">:</span></dt>
+<dt class="field-odd">depends libstdcxx<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
+</dd>
+<dt class="field-even">depends matplotlib-base<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends numpy<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends perl<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=5.26.2,&lt;5.26.3.0a0</span></code></p>
-</dd>
-<dt class="field-odd">depends perl-algorithm-cluster<span class="colon">:</span></dt>
+<dt class="field-even">depends opencv<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends perl<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends perl-algorithm-cluster<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends perl-app-cpanminus<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends perl-bio-das<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
@@ -134,7 +143,7 @@
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends perl-data-dumper<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends perl-db-file<span class="colon">:</span></dt>
+<dt class="field-odd">depends perl-db_file<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends perl-dbd-mysql<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
@@ -172,11 +181,11 @@
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends perl-object-insideout<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends perl-ole-storage_lite<span class="colon">:</span></dt>
+<dt class="field-even">depends perl-parallel-forkmanager<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends perl-parallel-forkmanager<span class="colon">:</span></dt>
+<dt class="field-odd">depends perl-posix<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends perl-posix<span class="colon">:</span></dt>
+<dt class="field-even">depends perl-postscript-simple<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends perl-readonly<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
@@ -184,35 +193,28 @@
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends perl-soap-lite<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends perl-spreadsheet-writeexcel<span class="colon">:</span></dt>
+<dt class="field-even">depends perl-statistics-distributions<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends perl-statistics-distributions<span class="colon">:</span></dt>
+<dt class="field-odd">depends perl-util-properties<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends perl-util-properties<span class="colon">:</span></dt>
+<dt class="field-even">depends perl-xml-dom<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends perl-xml-dom<span class="colon">:</span></dt>
+<dt class="field-odd">depends perl-xml-libxml<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends perl-xml-libxml<span class="colon">:</span></dt>
+<dt class="field-even">depends perl-xml-parser<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends perl-xml-parser<span class="colon">:</span></dt>
+<dt class="field-odd">depends perl-yaml<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends perl-yaml<span class="colon">:</span></dt>
+<dt class="field-even">depends pygraphviz<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends pygraphviz<span class="colon">:</span></dt>
+<dt class="field-odd">depends python<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends python<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.6,&lt;3.7.0a0</span></code></p>
-</dd>
-<dt class="field-odd">depends python_abi<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">3.6.* *_cp36m</span></code></p>
-</dd>
 <dt class="field-even">depends pyyaml<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends r-amap<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends r-base<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.0,&lt;4.1.0a0</span></code></p>
-</dd>
+<dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends r-data.table<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends r-dendextend<span class="colon">:</span></dt>
@@ -293,8 +295,20 @@ others.</p>
 
 <script>
     var package = "rsat-core";
-    var versions = ["2020.02.29","2020.02.29","2020.02.28","2020.01.04"];
-</script><section id="download-stats">
+    var versions = ["2025.04.04","2020.02.29","2020.02.29","2020.02.28","2020.01.04"];
+</script><section id="notes">
+<h2>Notes<a class="headerlink" href="#notes" title="Link to this heading">¶</a></h2>
+<p>This package installs RSAT tools to analyse cis-regulatory elements, supporting:
+* motif discovery (support genome-wide data sets like ChIP-seq)
+* transcription factor binding motif analysis (quality assessment, comparisons and clustering)
+* comparative genomics
+* analysis of regulatory variations</p>
+<p>Documentation can be found at https://rsa-tools.github.io/installing-RSAT</p>
+<p>Note that this package does not include genome sequences nor DNA motif collections,
+please check https://rsa-tools.github.io/installing-RSAT/RSAT-Docker/RSAT-Docker-tuto.html
+to learn how to add them in your system.</p>
+</section>
+<section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
 <div style="width: 100%" id="platform_plot"></div>

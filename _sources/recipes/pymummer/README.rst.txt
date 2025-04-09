@@ -10,10 +10,10 @@ pymummer
    :replaces_section_title:
    :noindex:
 
-   Wrapper for MUMmer
+   Wrapper for MUMmer.
 
    :homepage: https://github.com/sanger-pathogens/pymummer
-   :license: GNU General Public License v3 (GPLv3)
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`pymummer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pymummer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pymummer/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ pymummer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.11.0-1</code>,  <code>0.11.0-0</code>,  <code>0.10.3-2</code>,  <code>0.10.3-1</code>,  <code>0.10.3-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-2</code>,  <code>0.10.1-1</code>,  <code>0.10.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.12.0-0</code>,  <code>0.11.0-1</code>,  <code>0.11.0-0</code>,  <code>0.10.3-2</code>,  <code>0.10.3-1</code>,  <code>0.10.3-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-2</code>,  <code>0.10.1-1</code>,  </span></summary>
       
 
-      ``0.11.0-1``,  ``0.11.0-0``,  ``0.10.3-2``,  ``0.10.3-1``,  ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-2``,  ``0.10.1-1``,  ``0.10.1-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.6.1-1``,  ``0.6.1-0``
+      ``0.12.0-0``,  ``0.11.0-1``,  ``0.11.0-0``,  ``0.10.3-2``,  ``0.10.3-1``,  ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-2``,  ``0.10.1-1``,  ``0.10.1-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.6.1-1``,  ``0.6.1-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ pymummer
    
    :depends mummer: 
    :depends pyfastaq: ``>=3.10.0``
-   :depends python: ``>=3``
+   :depends python: ``>=3.8``
    :requirements:
 
    :additional platforms:
@@ -93,7 +93,7 @@ pymummer
 
     <script>
         var package = "pymummer";
-        var versions = ["0.11.0","0.11.0","0.10.3","0.10.3","0.10.3"];
+        var versions = ["0.12.0","0.11.0","0.11.0","0.10.3","0.10.3"];
     </script>
 
 

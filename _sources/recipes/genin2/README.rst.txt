@@ -10,10 +10,10 @@ genin2
    :replaces_section_title:
    :noindex:
 
-   Genin2 is a lightining\-fast bioinformatic tool to predict genotypes for H5 viruses belonging to the European clade 2.3.4.4b
+   Genin2 is a lightining\-fast bioinformatic tool to predict genotypes for H5 viruses belonging to the European clade 2.3.4.4b.
 
    :homepage: https://github.com/izsvenezie-virology/genin2
-   :license: AGPL-3.0
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`genin2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genin2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genin2/meta.yaml>`_
 
    
@@ -27,17 +27,18 @@ genin2
       
       
 
-      ``2.0.1-0``
+      ``2.1.2-0``,  ``2.0.1-0``
 
       
 
    
-   :depends biopython: ``>=1.81``
-   :depends click: ``>=8.0.0``
-   :depends importlib-resources: ``>=1.3``
-   :depends joblib: ``>=1.4.2``
-   :depends numpy: ``>=2.0.0``
+   :depends biopython: ``>=1.85``
+   :depends click: ``>=8.1.0``
+   :depends importlib-resources: ``>=6.5.2``
+   :depends joblib: ``>=1.4.0``
+   :depends numpy: ``>=2.0.2``
    :depends python: ``>=3.9``
+   :depends requests: ``>=2.32.3``
    :depends scikit-learn: ``>=1.6.1``
    :requirements:
 
@@ -89,7 +90,7 @@ genin2
 
     <script>
         var package = "genin2";
-        var versions = ["2.0.1"];
+        var versions = ["2.1.2","2.0.1"];
     </script>
 
 
