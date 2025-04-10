@@ -28,18 +28,20 @@ virulencefinder
       
       
 
-      ``2.0.4-1``,  ``2.0.4-0``
+      ``3.1.0-0``,  ``2.0.4-1``,  ``2.0.4-0``
 
       
 
    
-   :depends biopython: 
+   :depends biopython: ``>=1.79``
    :depends blast: 
-   :depends cgecore: 
+   :depends cgecore: ``>=2.0.0``
    :depends git: 
    :depends kma: 
-   :depends python: ``>=3``
-   :depends tabulate: 
+   :depends pandas: ``>=1.4.2``
+   :depends python: ``>=3.10``
+   :depends tabulate: ``>=0.8.9``
+   :depends wget: 
    :requirements:
 
    :additional platforms:
@@ -90,7 +92,7 @@ virulencefinder
 
     <script>
         var package = "virulencefinder";
-        var versions = ["2.0.4","2.0.4"];
+        var versions = ["3.1.0","2.0.4","2.0.4"];
     </script>
 
 
