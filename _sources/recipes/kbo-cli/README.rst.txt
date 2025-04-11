@@ -17,10 +17,10 @@ kbo-cli
    :license: Dual-licensed under the MIT and Apache 2.0 licenses.
    :recipe: /`kbo-cli <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kbo-cli>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kbo-cli/meta.yaml>`_
 
-   kbo is an aligner that can do approximate reference\-based alignment and find
-   sequences of interest in a query genome\, without a separate indexing step or
+   kbo is an aligner that can do variant calling\, reference\-based alignment and
+   find sequences of interest in a query\, without a separate indexing step or
    any temporary disk space usage. kbo\-cli provides a command\-line interface to
-   the find\, map\, and build functions from kbo.
+   the call\, map\, find\, and build functions from kbo.
 
 
 
@@ -32,7 +32,7 @@ kbo-cli
       
       
 
-      ``0.1.1-0``
+      ``0.2.1-0``,  ``0.1.1-0``
 
       
 
@@ -91,7 +91,7 @@ kbo-cli
 
     <script>
         var package = "kbo-cli";
-        var versions = ["0.1.1"];
+        var versions = ["0.2.1","0.1.1"];
     </script>
 
 

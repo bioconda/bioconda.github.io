@@ -27,7 +27,7 @@ aliceasm
       
       
 
-      ``0.6.33-0``,  ``0.6.32-0``
+      ``0.6.34-0``,  ``0.6.33-0``,  ``0.6.32-0``
 
       
 
@@ -88,7 +88,7 @@ aliceasm
 
     <script>
         var package = "aliceasm";
-        var versions = ["0.6.33","0.6.32"];
+        var versions = ["0.6.34","0.6.33","0.6.32"];
     </script>
 
 

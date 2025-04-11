@@ -27,7 +27,7 @@ fastqtk
       
       
 
-      ``0.27-4``,  ``0.27-3``,  ``0.27-2``,  ``0.27-1``,  ``0.27-0``
+      ``0.27-5``,  ``0.27-4``,  ``0.27-3``,  ``0.27-2``,  ``0.27-1``,  ``0.27-0``
 
       
 
@@ -38,6 +38,10 @@ fastqtk
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

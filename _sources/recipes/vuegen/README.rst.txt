@@ -34,7 +34,7 @@ vuegen
       
       
 
-      ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.2-1``,  ``0.2.2-0``
+      ``0.3.2-2``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.2-1``,  ``0.2.2-0``
 
       
 
@@ -42,7 +42,9 @@ vuegen
    :depends altair: 
    :depends dataframe_image: 
    :depends itables: ``>=2.2.2,<3.0.0``
+   :depends lxml: ``>=5.3.0,<6.0.0``
    :depends matplotlib-base: ``>=3.9.2,<4.0.0``
+   :depends nb_conda_kernels: ``>=2.4.0,<3.0.0``
    :depends nbclient: ``>=0.10.0,<0.11.0``
    :depends nbformat: ``>=5.10.4,<6.0.0``
    :depends openpyxl: ``>=3.1.5,<4.0.0``
@@ -107,7 +109,7 @@ vuegen
 
     <script>
         var package = "vuegen";
-        var versions = ["0.3.2","0.3.1","0.2.2","0.2.2"];
+        var versions = ["0.3.2","0.3.2","0.3.1","0.2.2","0.2.2"];
     </script>
 
 

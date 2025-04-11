@@ -28,10 +28,10 @@ strobealign
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.15.0-1</code>,  <code>0.15.0-0</code>,  <code>0.14.0-1</code>,  <code>0.14.0-0</code>,  <code>0.13.0-1</code>,  <code>0.13.0-0</code>,  <code>0.12.0-0</code>,  <code>0.11.0-0</code>,  <code>0.10.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.16.0-0</code>,  <code>0.15.0-1</code>,  <code>0.15.0-0</code>,  <code>0.14.0-1</code>,  <code>0.14.0-0</code>,  <code>0.13.0-1</code>,  <code>0.13.0-0</code>,  <code>0.12.0-0</code>,  <code>0.11.0-0</code>,  </span></summary>
       
 
-      ``0.15.0-1``,  ``0.15.0-0``,  ``0.14.0-1``,  ``0.14.0-0``,  ``0.13.0-1``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-2``,  ``0.10.0-0``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.1-1``,  ``0.7.1-0``
+      ``0.16.0-0``,  ``0.15.0-1``,  ``0.15.0-0``,  ``0.14.0-1``,  ``0.14.0-0``,  ``0.13.0-1``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-2``,  ``0.10.0-0``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.1-1``,  ``0.7.1-0``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ strobealign
       
 
    
-   :depends isa-l: ``>=2.31.0,<3.0a0``
+   :depends isa-l: ``>=2.31.1,<3.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
@@ -99,7 +99,7 @@ strobealign
 
     <script>
         var package = "strobealign";
-        var versions = ["0.15.0","0.15.0","0.14.0","0.14.0","0.13.0"];
+        var versions = ["0.16.0","0.15.0","0.15.0","0.14.0","0.14.0"];
     </script>
 
 

@@ -29,10 +29,10 @@ epa-ng
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.8-5</code>,  <code>0.3.8-4</code>,  <code>0.3.8-3</code>,  <code>0.3.8-2</code>,  <code>0.3.8-1</code>,  <code>0.3.8-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.8-6</code>,  <code>0.3.8-5</code>,  <code>0.3.8-4</code>,  <code>0.3.8-3</code>,  <code>0.3.8-2</code>,  <code>0.3.8-1</code>,  <code>0.3.8-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  </span></summary>
       
 
-      ``0.3.8-5``,  ``0.3.8-4``,  ``0.3.8-3``,  ``0.3.8-2``,  ``0.3.8-1``,  ``0.3.8-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-0``
+      ``0.3.8-6``,  ``0.3.8-5``,  ``0.3.8-4``,  ``0.3.8-3``,  ``0.3.8-2``,  ``0.3.8-1``,  ``0.3.8-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-0``
 
       
       .. raw:: html
@@ -48,6 +48,10 @@ epa-ng
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
