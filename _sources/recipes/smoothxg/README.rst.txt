@@ -10,11 +10,14 @@ smoothxg
    :replaces_section_title:
    :noindex:
 
-   Local reconstruction of variation graphs using partial order alignment
+   Local reconstruction of variation graphs using partial order alignment.
 
    :homepage: https://github.com/pangenome/smoothxg
-   :license: MIT
+   :documentation: https://github.com/pangenome/smoothxg/blob/v0.8.1/README.md
+   
+   :license: MIT / MIT
    :recipe: /`smoothxg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smoothxg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smoothxg/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41592-024-02430-3`
 
    
 
@@ -28,10 +31,10 @@ smoothxg
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.0-1</code>,  <code>0.8.0-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-2</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.1-0</code>,  <code>0.8.0-1</code>,  <code>0.8.0-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-2</code>,  <code>0.7.0-1</code>,  </span></summary>
       
 
-      ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-2``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.8-0``,  ``0.6.7-1``,  ``0.6.7-0``,  ``0.6.5-2``,  ``0.6.5-1``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.2-1``,  ``0.6.2-0``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``
+      ``0.8.1-0``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-2``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.8-0``,  ``0.6.7-1``,  ``0.6.7-0``,  ``0.6.5-2``,  ``0.6.5-1``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.2-1``,  ``0.6.2-0``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``
 
       
       .. raw:: html
@@ -40,11 +43,16 @@ smoothxg
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
+   :depends gsl: ``>=2.7,<2.8.0a0``
+   :depends jemalloc: 
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libjemalloc: ``>=5.3.0``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zstd: ``>=1.5.6,<1.6.0a0``
+   :depends sdsl-lite: 
+   :depends zstd: ``>=1.5.7,<1.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -95,7 +103,7 @@ smoothxg
 
     <script>
         var package = "smoothxg";
-        var versions = ["0.8.0","0.8.0","0.7.4","0.7.3","0.7.2"];
+        var versions = ["0.8.1","0.8.0","0.8.0","0.7.4","0.7.3"];
     </script>
 
 

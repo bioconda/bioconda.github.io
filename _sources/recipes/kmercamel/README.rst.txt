@@ -10,11 +10,14 @@ kmercamel
    :replaces_section_title:
    :noindex:
 
-   KmerCamel🐫 \- compressing k\-mer sets using masked superstrings
+   KmerCamel🐫 \- compressing k\-mer sets using masked superstrings.
 
-   :homepage: https://github.com/OndrejSladky/kmercamel/
-   :license: MIT
+   :homepage: https://github.com/OndrejSladky/kmercamel
+   :documentation: https://github.com/OndrejSladky/kmercamel/blob/v2.1.1/README.md
+   
+   :license: MIT / MIT
    :recipe: /`kmercamel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kmercamel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kmercamel/meta.yaml>`_
+   :links: doi: :doi:`10.1101/2023.02.01.526717`
 
    
 
@@ -27,7 +30,7 @@ kmercamel
       
       
 
-      ``2.1.0-0``,  ``2.0.0-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
 
@@ -36,7 +39,6 @@ kmercamel
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
@@ -91,7 +93,7 @@ kmercamel
 
     <script>
         var package = "kmercamel";
-        var versions = ["2.1.0","2.0.0","1.0.2","1.0.2","1.0.2"];
+        var versions = ["2.1.1","2.1.0","2.0.0","1.0.2","1.0.2"];
     </script>
 
 

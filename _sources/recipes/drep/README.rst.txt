@@ -10,13 +10,14 @@ drep
    :replaces_section_title:
    :noindex:
 
-   De\-replication of microbial genomes assembled from multiple samples
+   De\-replication of microbial genomes assembled from multiple samples.
 
    :homepage: https://github.com/MrOlm/drep
-   :documentation: https://drep.readthedocs.io/en/latest/
+   :documentation: https://drep.readthedocs.io/en/latest
    
    :license: MIT / MIT
    :recipe: /`drep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/drep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/drep/meta.yaml>`_
+   :links: biotools: :biotools:`drep`, usegalaxy-eu: :usegalaxy-eu:`drep_compare`, usegalaxy-eu: :usegalaxy-eu:`drep_dereplicate`, doi: :doi:`10.1038/ismej.2017.126`
 
    
 
@@ -30,10 +31,10 @@ drep
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.5.0-0</code>,  <code>3.4.5-0</code>,  <code>3.4.4-0</code>,  <code>3.4.3-0</code>,  <code>3.4.2-0</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.1-0</code>,  <code>3.3.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.6.1-0</code>,  <code>3.5.0-0</code>,  <code>3.4.5-0</code>,  <code>3.4.4-0</code>,  <code>3.4.3-0</code>,  <code>3.4.2-0</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.1-0</code>,  </span></summary>
       
 
-      ``3.5.0-0``,  ``3.4.5-0``,  ``3.4.4-0``,  ``3.4.3-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.1-0``,  ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.4-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.2.3-1``,  ``2.2.3-0``,  ``2.0.5-2``,  ``2.0.5-0``
+      ``3.6.1-0``,  ``3.5.0-0``,  ``3.4.5-0``,  ``3.4.4-0``,  ``3.4.3-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.1-0``,  ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.4-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.2.3-1``,  ``2.2.3-0``,  ``2.0.5-2``,  ``2.0.5-0``
 
       
       .. raw:: html
@@ -47,12 +48,13 @@ drep
    :depends mash: 
    :depends matplotlib-base: 
    :depends mummer4: 
+   :depends networkx: 
    :depends numpy: 
    :depends pandas: 
    :depends prodigal: 
    :depends python: ``>3``
    :depends scikit-learn: 
-   :depends seaborn: 
+   :depends seaborn-base: 
    :depends skani: 
    :depends tqdm: 
    :requirements:
@@ -105,7 +107,7 @@ drep
 
     <script>
         var package = "drep";
-        var versions = ["3.5.0","3.4.5","3.4.4","3.4.3","3.4.2"];
+        var versions = ["3.6.1","3.5.0","3.4.5","3.4.4","3.4.3"];
     </script>
 
 

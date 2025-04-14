@@ -10,17 +10,17 @@ aviary
    :replaces_section_title:
    :noindex:
 
-   End\-to\-end metagenomics hybrid assembly and binning pipeline.
+   aviary \- Metagenomics pipeline using long and short reads.
 
-   :homepage: https://github.com/rhysnewell/aviary/
-   :documentation: https://rhysnewell.github.io/aviary/
+   :homepage: https://github.com/rhysnewell/aviary
+   :documentation: https://rhysnewell.github.io/aviary
    
-   :license: GPL3 / GPL-3.0-or-later
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`aviary <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aviary>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aviary/meta.yaml>`_
 
    Aviary is an easy to use hybrid assembler and metagenomic pipeline
 
-   For more details see documentation\: https\:\/\/rhysnewell.github.io\/aviary\/.
+   For more details see documentation\: https\:\/\/rhysnewell.github.io\/aviary.
 
 
 .. conda:package:: aviary
@@ -32,10 +32,10 @@ aviary
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.11.1-0</code>,  <code>0.11.0-0</code>,  <code>0.10.0-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.12.0-0</code>,  <code>0.11.1-0</code>,  <code>0.11.0-0</code>,  <code>0.10.0-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  </span></summary>
       
 
-      ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.7.2-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.7-0``,  ``0.5.4-0``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.1-0``
+      ``0.12.0-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.7.2-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.7-0``,  ``0.5.4-0``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.1-0``
 
       
       .. raw:: html
@@ -47,14 +47,14 @@ aviary
    :depends bbmap: 
    :depends biopython: 
    :depends extern: 
-   :depends mamba: ``>=0.8.2``
+   :depends mamba: ``>=1.5.12``
    :depends numpy: 
    :depends pandas: 
    :depends parallel: 
-   :depends pigz: ``2.6.*``
+   :depends pigz: 
    :depends python: ``>=3.8,<3.12``
    :depends ruamel.yaml: ``>=0.15.99``
-   :depends snakemake-minimal: ``>=7.0.0,<=7.32.3``
+   :depends snakemake-minimal: ``>=7.0.0,<=7.32.4``
    :requirements:
 
    :additional platforms:
@@ -105,7 +105,7 @@ aviary
 
     <script>
         var package = "aviary";
-        var versions = ["0.11.1","0.11.0","0.10.0","0.9.2","0.9.1"];
+        var versions = ["0.12.0","0.11.1","0.11.0","0.10.0","0.9.2"];
     </script>
 
 

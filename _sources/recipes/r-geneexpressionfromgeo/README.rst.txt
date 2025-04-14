@@ -27,7 +27,7 @@ r-geneexpressionfromgeo
       
       
 
-      ``0.9-3``,  ``0.9-2``,  ``0.9-1``,  ``0.9-0``
+      ``1.2-0``,  ``0.9-3``,  ``0.9-2``,  ``0.9-1``,  ``0.9-0``
 
       
 
@@ -36,9 +36,7 @@ r-geneexpressionfromgeo
    :depends bioconductor-biobase: 
    :depends bioconductor-geoquery: 
    :depends r-base: ``>=4.4,<4.5.0a0``
-   :depends r-biocmanager: 
-   :depends r-markdown: 
-   :depends r-r.utils: 
+   :depends r-qpdf: 
    :depends r-xml2: 
    :requirements:
 
@@ -90,7 +88,7 @@ r-geneexpressionfromgeo
 
     <script>
         var package = "r-geneexpressionfromgeo";
-        var versions = ["0.9","0.9","0.9","0.9"];
+        var versions = ["1.2","0.9","0.9","0.9","0.9"];
     </script>
 
 

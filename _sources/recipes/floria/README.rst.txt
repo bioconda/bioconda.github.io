@@ -13,7 +13,7 @@ floria
    Floria is method for recovering strain\-level haplotypes and clusters of reads from metagenomic short or long read sequencing data by haplotype phasing.
 
    :homepage: https://github.com/bluenote-1577/floria
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`floria <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/floria>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/floria/meta.yaml>`_
 
    
@@ -27,12 +27,13 @@ floria
       
       
 
-      ``0.0.1-1``,  ``0.0.1-0``
+      ``0.0.2-0``,  ``0.0.1-1``,  ``0.0.1-0``
 
       
 
    
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -83,7 +84,7 @@ floria
 
     <script>
         var package = "floria";
-        var versions = ["0.0.1","0.0.1"];
+        var versions = ["0.0.2","0.0.1","0.0.1"];
     </script>
 
 

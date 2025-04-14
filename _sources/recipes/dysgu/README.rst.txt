@@ -28,10 +28,10 @@ dysgu
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.8.2-0</code>,  <code>1.8.1-1</code>,  <code>1.8.1-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.7.0-1</code>,  <code>1.7.0-0</code>,  <code>1.6.7-0</code>,  <code>1.6.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8.2-1</code>,  <code>1.8.2-0</code>,  <code>1.8.1-1</code>,  <code>1.8.1-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.7.0-1</code>,  <code>1.7.0-0</code>,  <code>1.6.7-0</code>,  </span></summary>
       
 
-      ``1.8.2-0``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.7-0``,  ``1.6.6-0``,  ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.4-1``,  ``1.6.4-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.16-0``
+      ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.7-0``,  ``1.6.6-0``,  ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.4-1``,  ``1.6.4-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.16-0``
 
       
       .. raw:: html
@@ -57,7 +57,7 @@ dysgu
    :depends numpy: ``>=1.18``
    :depends numpy: ``>=1.21,<3``
    :depends openssl: ``>=1.1``
-   :depends openssl: ``>=3.4.1,<4.0a0``
+   :depends openssl: ``>=3.5.0,<4.0a0``
    :depends pandas: ``>=1.2``
    :depends pysam: ``>=0.22``
    :depends pysam: ``>=0.23.0,<0.24.0a0``
@@ -76,7 +76,7 @@ dysgu
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -124,7 +124,7 @@ dysgu
 
     <script>
         var package = "dysgu";
-        var versions = ["1.8.2","1.8.1","1.8.1","1.8.0","1.8.0"];
+        var versions = ["1.8.2","1.8.2","1.8.1","1.8.1","1.8.0"];
     </script>
 
 

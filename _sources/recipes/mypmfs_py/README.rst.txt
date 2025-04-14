@@ -13,7 +13,7 @@ mypmfs_py
    Python package for mypmfs training \(includes batch download from PDB\).
 
    :homepage: https://github.com/bibip-impmc/mypmfs
-   :license: GPL3 / GPL-3.0-or-later
+   :license: MIT / MIT
    :recipe: /`mypmfs_py <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mypmfs_py>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mypmfs_py/meta.yaml>`_
    :links: doi: :doi:`10.1016/j.biochi.2018.05.013`
 
@@ -28,7 +28,7 @@ mypmfs_py
       
       
 
-      ``0.1.7-0``
+      ``0.1.8-0``,  ``0.1.7-0``
 
       
 
@@ -85,7 +85,7 @@ mypmfs_py
 
     <script>
         var package = "mypmfs_py";
-        var versions = ["0.1.7"];
+        var versions = ["0.1.8","0.1.7"];
     </script>
 
 

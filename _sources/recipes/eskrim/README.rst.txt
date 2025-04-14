@@ -10,13 +10,14 @@ eskrim
    :replaces_section_title:
    :noindex:
 
-   ESKRIM\: EStimate with K\-mers the RIchness in a Microbiome
+   ESKRIM\: EStimate with K\-mers the RIchness in a Microbiome.
 
    :homepage: https://forgemia.inra.fr/metagenopolis/eskrim
+   :developer docs: https://github.com/metagenopolis/ESKRIM
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`eskrim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eskrim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eskrim/meta.yaml>`_
 
-   ESKRIM is a reference\-free tool that compares microbial richness in shotgun metagenomic samples by counting k\-mers
+   ESKRIM is a reference\-free tool that compares microbial richness in shotgun metagenomic samples by counting k\-mers.
 
 
 .. conda:package:: eskrim
@@ -27,13 +28,13 @@ eskrim
       
       
 
-      ``1.0.9-0``
+      ``1.0.9-1``,  ``1.0.9-0``
 
       
 
    
    :depends kmer-jellyfish: ``>=2.3.1``
-   :depends python: ``>=3.12``
+   :depends python: ``>=3.12,<3.13``
    :requirements:
 
    :additional platforms:
@@ -84,7 +85,7 @@ eskrim
 
     <script>
         var package = "eskrim";
-        var versions = ["1.0.9"];
+        var versions = ["1.0.9","1.0.9"];
     </script>
 
 

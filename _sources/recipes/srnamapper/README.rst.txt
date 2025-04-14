@@ -13,7 +13,7 @@ srnamapper
    Mapping small RNA data to a genome.
 
    :homepage: https://github.com/mzytnicki/srnaMapper
-   :license: GPL-3.0-or-later
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`srnamapper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/srnamapper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/srnamapper/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ srnamapper
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.11-1</code>,  <code>1.0.11-0</code>,  <code>1.0.10-1</code>,  <code>1.0.10-0</code>,  <code>1.0.9-0</code>,  <code>1.0.8-2</code>,  <code>1.0.8-1</code>,  <code>1.0.8-0</code>,  <code>1.0.7-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.12-0</code>,  <code>1.0.11-1</code>,  <code>1.0.11-0</code>,  <code>1.0.10-1</code>,  <code>1.0.10-0</code>,  <code>1.0.9-0</code>,  <code>1.0.8-2</code>,  <code>1.0.8-1</code>,  <code>1.0.8-0</code>,  </span></summary>
       
 
-      ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.10-1``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-2``,  ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``
+      ``1.0.12-0``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.10-1``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-2``,  ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``
 
       
       .. raw:: html
@@ -42,8 +42,6 @@ srnamapper
    
    :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends make: 
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
@@ -98,7 +96,7 @@ srnamapper
 
     <script>
         var package = "srnamapper";
-        var versions = ["1.0.11","1.0.11","1.0.10","1.0.10","1.0.9"];
+        var versions = ["1.0.12","1.0.11","1.0.11","1.0.10","1.0.10"];
     </script>
 
 

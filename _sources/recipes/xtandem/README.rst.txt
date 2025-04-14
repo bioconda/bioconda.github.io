@@ -10,10 +10,10 @@ xtandem
    :replaces_section_title:
    :noindex:
 
-   X\! Tandem open source is software that can match tandem mass spectra with peptide sequences\, in a process that has come to be known as protein identification
+   X\! Tandem open source is software that can match tandem mass spectra with peptide sequences\, in a process that has come to be known as protein identification.
 
-   :homepage: http://www.thegpm.org/TANDEM/index.html
-   :license: Artistic License
+   :homepage: https://www.thegpm.org/TANDEM/index.html
+   :license: The-Artistic-License
    :recipe: /`xtandem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xtandem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xtandem/meta.yaml>`_
    :links: biotools: :biotools:`xtandem`, doi: :doi:`10.1093/bioinformatics/bth092`
 
@@ -29,10 +29,10 @@ xtandem
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>15.12.15.2-10</code>,  <code>15.12.15.2-9</code>,  <code>15.12.15.2-8</code>,  <code>15.12.15.2-7</code>,  <code>15.12.15.2-6</code>,  <code>15.12.15.2-5</code>,  <code>15.12.15.2-4</code>,  <code>15.12.15.2-3</code>,  <code>15.12.15.2-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>15.12.15.2-11</code>,  <code>15.12.15.2-10</code>,  <code>15.12.15.2-9</code>,  <code>15.12.15.2-8</code>,  <code>15.12.15.2-7</code>,  <code>15.12.15.2-6</code>,  <code>15.12.15.2-5</code>,  <code>15.12.15.2-4</code>,  <code>15.12.15.2-3</code>,  </span></summary>
       
 
-      ``15.12.15.2-10``,  ``15.12.15.2-9``,  ``15.12.15.2-8``,  ``15.12.15.2-7``,  ``15.12.15.2-6``,  ``15.12.15.2-5``,  ``15.12.15.2-4``,  ``15.12.15.2-3``,  ``15.12.15.2-2``,  ``15.12.15.2-1``,  ``15.12.15.2-0``
+      ``15.12.15.2-11``,  ``15.12.15.2-10``,  ``15.12.15.2-9``,  ``15.12.15.2-8``,  ``15.12.15.2-7``,  ``15.12.15.2-6``,  ``15.12.15.2-5``,  ``15.12.15.2-4``,  ``15.12.15.2-3``,  ``15.12.15.2-2``,  ``15.12.15.2-1``,  ``15.12.15.2-0``
 
       
       .. raw:: html
@@ -42,18 +42,17 @@ xtandem
 
    
    :depends expat: 
-   :depends libexpat: ``>=2.6.4,<3.0a0``
+   :depends libexpat: ``>=2.7.0,<3.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

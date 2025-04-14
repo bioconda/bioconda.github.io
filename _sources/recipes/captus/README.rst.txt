@@ -10,11 +10,14 @@ captus
    :replaces_section_title:
    :noindex:
 
-   Captus\: Assembly of Phylogenomic Datasets from High\-Throughput Sequencing data
+   Captus\: Assembly of Phylogenomic Datasets from High\-Throughput Sequencing data.
 
    :homepage: https://github.com/edgardomortiz/Captus
-   :license: GPL3
+   :documentation: https://edgardomortiz.github.io/captus.docs
+   
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`captus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/captus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/captus/meta.yaml>`_
+   :links: doi: :doi:`10.1101/2023.10.27.564367`
 
    
 
@@ -28,10 +31,10 @@ captus
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.1-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.7-0</code>,  <code>1.3.6-0</code>,  <code>1.3.4-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  </span></summary>
       
 
-      ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.99-0``,  ``0.9.98-0``,  ``0.9.97-0``,  ``0.9.96-0``,  ``0.9.95-2``,  ``0.9.95-1``,  ``0.9.95-0``,  ``0.9.93-0``,  ``0.9.92-0``,  ``0.9.91-2``,  ``0.9.91-0``,  ``0.9.90-0``,  ``0.9.89-0``,  ``0.9.88-1``,  ``0.9.88-0``,  ``0.9.86-0``,  ``0.9.85-0``,  ``0.9.84-1``,  ``0.9.84-0``,  ``0.9.83-0``
+      ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.99-0``,  ``0.9.98-0``,  ``0.9.97-0``,  ``0.9.96-0``,  ``0.9.95-2``,  ``0.9.95-1``,  ``0.9.95-0``,  ``0.9.93-0``,  ``0.9.92-0``,  ``0.9.91-2``,  ``0.9.91-0``,  ``0.9.90-0``,  ``0.9.89-0``,  ``0.9.88-1``,  ``0.9.88-0``,  ``0.9.86-0``,  ``0.9.85-0``,  ``0.9.84-1``,  ``0.9.84-0``,  ``0.9.83-0``
 
       
       .. raw:: html
@@ -52,7 +55,6 @@ captus
    :depends perl-bioperl-core: 
    :depends perl-yaml: 
    :depends pigz: 
-   :depends pip: 
    :depends plotly: 
    :depends python: ``>=3.6``
    :depends salmon: ``>=1.10.0``
@@ -108,7 +110,7 @@ captus
 
     <script>
         var package = "captus";
-        var versions = ["1.3.3","1.3.2","1.3.1","1.3.0","1.2.0"];
+        var versions = ["1.3.7","1.3.6","1.3.4","1.3.3","1.3.2"];
     </script>
 
 

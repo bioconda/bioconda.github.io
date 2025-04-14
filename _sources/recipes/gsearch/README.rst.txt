@@ -29,10 +29,10 @@ gsearch
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.9-0</code>,  <code>0.1.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.9-0</code>,  </span></summary>
       
 
-      ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-6``,  ``0.1.2-5``,  ``0.1.2-0``,  ``0.0.12-0``
+      ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-6``,  ``0.1.2-5``,  ``0.1.2-0``,  ``0.0.12-0``
 
       
       .. raw:: html
@@ -43,9 +43,15 @@ gsearch
    
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
+   :depends openblas: 
+   :depends openssl: ``>=3.5.0,<4.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -93,7 +99,7 @@ gsearch
 
     <script>
         var package = "gsearch";
-        var versions = ["0.2.5","0.2.4","0.2.3","0.2.2","0.2.2"];
+        var versions = ["0.2.6","0.2.5","0.2.4","0.2.3","0.2.2"];
     </script>
 
 

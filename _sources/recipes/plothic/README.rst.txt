@@ -13,7 +13,7 @@ plothic
    Plot Whole genome Hi\-C contact matrix heatmap.
 
    :homepage: https://github.com/Jwindler/PlotHiC
-   :documentation: https://github.com/Jwindler/PlotHiC/blob/v0.5.0/README.md
+   :documentation: https://github.com/Jwindler/PlotHiC/blob/v1.0.0/README.md
    
    :license: GPL3 / GPL-3.0-only
    :recipe: /`plothic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plothic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plothic/meta.yaml>`_
@@ -29,7 +29,7 @@ plothic
       
       
 
-      ``0.5.0-0``,  ``0.4.19-0``,  ``0.4.18-0``,  ``0.4.17-0``,  ``0.4.16-0``
+      ``1.0.0-0``,  ``0.5.0-0``,  ``0.4.19-0``,  ``0.4.18-0``,  ``0.4.17-0``,  ``0.4.16-0``
 
       
 
@@ -93,7 +93,7 @@ plothic
 
     <script>
         var package = "plothic";
-        var versions = ["0.5.0","0.4.19","0.4.18","0.4.17","0.4.16"];
+        var versions = ["1.0.0","0.5.0","0.4.19","0.4.18","0.4.17"];
     </script>
 
 

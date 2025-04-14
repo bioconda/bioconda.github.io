@@ -10,12 +10,12 @@ fusion-report
    :replaces_section_title:
    :noindex:
 
-   Tool for parsing outputs from fusion detection tools. Part of a nf\-core\/rnafusion pipeline
+   Tool for parsing outputs from fusion detection tools. Part of a nf\-core\/rnafusion pipeline.
 
-   :homepage: https://github.com/Clinical-Genomics/fusion-report/
+   :homepage: https://github.com/Clinical-Genomics/fusion-report
    :license: GPL3 / GPL-3.0-only
    :recipe: /`fusion-report <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fusion-report>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fusion-report/meta.yaml>`_
-   :links: DOI: :DOI:`10.5281/zenodo.2609024`
+   :links: doi: :doi:`10.5281/zenodo.2609024`
 
    
 
@@ -29,10 +29,10 @@ fusion-report
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.1.2-0</code>,  <code>3.1.1-0</code>,  <code>2.1.5-0</code>,  <code>2.1.4-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.0-0</code>,  <code>3.1.2-0</code>,  <code>3.1.1-0</code>,  <code>2.1.5-0</code>,  <code>2.1.4-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  </span></summary>
       
 
-      ``3.1.2-0``,  ``3.1.1-0``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``4.0.0-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
       .. raw:: html
@@ -41,15 +41,20 @@ fusion-report
       
 
    
-   :depends colorlog: ``4.0.2``
-   :depends jinja2: ``2.10.1``
-   :depends markupsafe: ``<2.1``
-   :depends pandas: 
+   :depends beautifulsoup4: ``>=4.12.0``
+   :depends click: ``>=8.1.0``
+   :depends colorlog: 
+   :depends jinja2: ``>=3.1.0``
+   :depends markupsafe: ``>=2.1.1``
+   :depends numpy: ``>=1.26.0``
+   :depends openpyxl: 
+   :depends pandas: ``>=2.2.0``
    :depends python: ``>=3.6``
-   :depends python-rapidjson: 
    :depends pyyaml: ``>=4.2b1``
-   :depends requests: 
-   :depends tqdm: ``4.33.0``
+   :depends requests: ``>=2.31.0``
+   :depends tabulate: ``>=0.9.0``
+   :depends tqdm: ``>=4.66.0``
+   :depends xlrd: ``>=2.0.0``
    :requirements:
 
    :additional platforms:
@@ -100,7 +105,7 @@ fusion-report
 
     <script>
         var package = "fusion-report";
-        var versions = ["3.1.2","3.1.1","2.1.5","2.1.4","2.1.3"];
+        var versions = ["4.0.0","3.1.2","3.1.1","2.1.5","2.1.4"];
     </script>
 
 
