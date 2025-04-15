@@ -28,10 +28,10 @@ r-restfulr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.15-5</code>,  <code>0.0.15-4</code>,  <code>0.0.15-3</code>,  <code>0.0.15-2</code>,  <code>0.0.15-1</code>,  <code>0.0.15-0</code>,  <code>0.0.14-0</code>,  <code>0.0.13-2</code>,  <code>0.0.13-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.15-6</code>,  <code>0.0.15-5</code>,  <code>0.0.15-4</code>,  <code>0.0.15-3</code>,  <code>0.0.15-2</code>,  <code>0.0.15-1</code>,  <code>0.0.15-0</code>,  <code>0.0.14-0</code>,  <code>0.0.13-2</code>,  </span></summary>
       
 
-      ``0.0.15-5``,  ``0.0.15-4``,  ``0.0.15-3``,  ``0.0.15-2``,  ``0.0.15-1``,  ``0.0.15-0``,  ``0.0.14-0``,  ``0.0.13-2``,  ``0.0.13-1``,  ``0.0.13-0``
+      ``0.0.15-6``,  ``0.0.15-5``,  ``0.0.15-4``,  ``0.0.15-3``,  ``0.0.15-2``,  ``0.0.15-1``,  ``0.0.15-0``,  ``0.0.14-0``,  ``0.0.13-2``,  ``0.0.13-1``,  ``0.0.13-0``
 
       
       .. raw:: html
@@ -54,7 +54,7 @@ r-restfulr
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

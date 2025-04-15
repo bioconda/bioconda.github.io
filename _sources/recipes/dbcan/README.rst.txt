@@ -13,10 +13,10 @@ dbcan
    Standalone version of dbCAN annotation tool for automated CAZyme annotation.
 
    :homepage: https://bcb.unl.edu/dbCAN2
-   :documentation: https://run-dbcan-new.readthedocs.io/en/latest/
+   :documentation: https://run-dbcan-new.readthedocs.io/en/latest
    
-   :developer docs: https://github.com/bcb-unl/run_dbcan_new
-   :license: GPL3 / GPL-3.0-or-later
+   :developer docs: https://github.com/bcb-unl/run_dbcan
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`dbcan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dbcan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dbcan/meta.yaml>`_
    :links: doi: :doi:`10.1093/nar/gkx894`, doi: :doi:`10.1093/nar/gky418`, doi: :doi:`10.1093/nar/gkad328`, biotools: :biotools:`dbcan2`
 
@@ -32,10 +32,10 @@ dbcan
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.0.2-0</code>,  <code>5.0.0-0</code>,  <code>4.1.4-1</code>,  <code>4.1.4-0</code>,  <code>4.1.3-0</code>,  <code>4.1.2-0</code>,  <code>4.1.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.0.3-0</code>,  <code>5.0.2-0</code>,  <code>5.0.0-0</code>,  <code>4.1.4-1</code>,  <code>4.1.4-0</code>,  <code>4.1.3-0</code>,  <code>4.1.2-0</code>,  <code>4.1.1-0</code>,  <code>4.1.0-0</code>,  </span></summary>
       
 
-      ``5.0.2-0``,  ``5.0.0-0``,  ``4.1.4-1``,  ``4.1.4-0``,  ``4.1.3-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.0.7-0``,  ``3.0.6-0``
+      ``5.0.3-0``,  ``5.0.2-0``,  ``5.0.0-0``,  ``4.1.4-1``,  ``4.1.4-0``,  ``4.1.3-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.0.7-0``,  ``3.0.6-0``
 
       
       .. raw:: html
@@ -61,7 +61,7 @@ dbcan
    :depends requests: 
    :depends rich-click: 
    :depends scipy: 
-   :depends seaborn: 
+   :depends seaborn-base: 
    :depends session-info: 
    :depends tqdm: 
    :requirements:
@@ -114,7 +114,7 @@ dbcan
 
     <script>
         var package = "dbcan";
-        var versions = ["5.0.2","5.0.0","4.1.4","4.1.4","4.1.3"];
+        var versions = ["5.0.3","5.0.2","5.0.0","4.1.4","4.1.4"];
     </script>
 
 

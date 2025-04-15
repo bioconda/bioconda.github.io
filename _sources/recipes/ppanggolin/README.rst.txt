@@ -30,10 +30,10 @@ ppanggolin
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.2-0</code>,  <code>2.2.1-2</code>,  <code>2.2.1-1</code>,  <code>2.2.1-0</code>,  <code>2.2.0-0</code>,  <code>2.1.2-1</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.2-1</code>,  <code>2.2.2-0</code>,  <code>2.2.1-2</code>,  <code>2.2.1-1</code>,  <code>2.2.1-0</code>,  <code>2.2.0-0</code>,  <code>2.1.2-1</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  </span></summary>
       
 
-      ``2.2.2-0``,  ``2.2.1-2``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.2.105-1``,  ``1.2.105-0``,  ``1.2.74-1``,  ``1.2.74-0``,  ``1.2.63-1``,  ``1.2.63-0``,  ``1.2.61-0``,  ``1.2.46-1``,  ``1.2.46-0``,  ``1.1.136-1``,  ``1.1.136-0``,  ``1.1.131-0``,  ``1.1.96-0``,  ``1.1.85-1``,  ``1.1.85-0``,  ``1.1.72-0``,  ``1.0.13-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``v0.3.88-1``,  ``v0.3.88-0``
+      ``2.2.2-1``,  ``2.2.2-0``,  ``2.2.1-2``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.2.105-1``,  ``1.2.105-0``,  ``1.2.74-1``,  ``1.2.74-0``,  ``1.2.63-1``,  ``1.2.63-0``,  ``1.2.61-0``,  ``1.2.46-1``,  ``1.2.46-0``,  ``1.1.136-1``,  ``1.1.136-0``,  ``1.1.131-0``,  ``1.1.96-0``,  ``1.1.85-1``,  ``1.1.85-0``,  ``1.1.72-0``,  ``1.0.13-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``v0.3.88-1``,  ``v0.3.88-0``
 
       
       .. raw:: html
@@ -43,23 +43,22 @@ ppanggolin
 
    
    :depends aragorn: ``1.*``
-   :depends bokeh: ``3.*``
-   :depends colorlover: ``0.3.*``
-   :depends gmpy2: ``2.*``
+   :depends bokeh: ``>=3.0.0,<4.0.0``
+   :depends dataclasses: ``0.8.*``
+   :depends gmpy2: ``>=2.0.0,<3.0.0``
    :depends infernal: ``1.*``
    :depends libgcc: ``>=13``
    :depends mafft: ``7.*``
    :depends mmseqs2: ``15.*``
-   :depends networkx: ``3.*``
-   :depends numpy: ``1.*``
-   :depends pandas: ``2.*``
-   :depends plotly: ``5.*``
-   :depends pyrodigal: ``3.*``
-   :depends pytables: ``3.*``
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
-   :depends scipy: ``1.*``
-   :depends tqdm: ``4.*``
+   :depends networkx: ``>=3.0.0,<4.0.0``
+   :depends numpy: ``>1.24.0,<2.0.0``
+   :depends pandas: ``>=2.0.0,<3.0.0``
+   :depends plotly: ``>=5.0.0,<6.0.0``
+   :depends pyrodigal: ``>=3.0.0,<4.0.0``
+   :depends pytables: ``>=3.0.0,<4.0.0``
+   :depends python_abi: ``3.12.* *_cp312``
+   :depends scipy: ``>=1.0.0,<2.0.0``
+   :depends tqdm: ``>=4.0.0,<5.0.0``
    :requirements:
 
    :additional platforms:
@@ -114,7 +113,7 @@ ppanggolin
 
     <script>
         var package = "ppanggolin";
-        var versions = ["2.2.2","2.2.1","2.2.1","2.2.1","2.2.0"];
+        var versions = ["2.2.2","2.2.2","2.2.1","2.2.1","2.2.1"];
     </script>
 
 

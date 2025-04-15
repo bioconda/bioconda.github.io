@@ -28,10 +28,10 @@ pggb
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.5.4-0</code>,  <code>0.5.3-2</code>,  <code>0.5.3-1</code>,  <code>0.5.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.5.4-0</code>,  <code>0.5.3-2</code>,  <code>0.5.3-1</code>,  </span></summary>
       
 
-      ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.4-0``,  ``0.5.3-2``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``
+      ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.4-0``,  ``0.5.3-2``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -42,19 +42,19 @@ pggb
    
    :depends bc: 
    :depends bcftools: 
-   :depends gfaffix: ``0.1.5b``
+   :depends gfaffix: ``0.2.1``
    :depends gsl: ``2.7.0.*``
    :depends multiqc: ``1.22``
-   :depends odgi: ``0.9.0``
+   :depends odgi: ``0.9.1``
    :depends pigz: 
    :depends python-igraph: ``0.11.5``
    :depends seqwish: ``0.7.11``
-   :depends smoothxg: ``0.8.0``
+   :depends smoothxg: ``0.8.1``
    :depends tabix: 
    :depends time: 
    :depends vcfbub: ``0.1.1``
    :depends vcflib: ``1.0.10``
-   :depends vg: ``1.59.0``
+   :depends vg: ``1.63.1``
    :depends wfmash: ``0.14.0``
    :requirements:
 
@@ -106,7 +106,7 @@ pggb
 
     <script>
         var package = "pggb";
-        var versions = ["0.7.2","0.7.1","0.7.0","0.6.0","0.6.0"];
+        var versions = ["0.7.3","0.7.2","0.7.1","0.7.0","0.6.0"];
     </script>
 
 

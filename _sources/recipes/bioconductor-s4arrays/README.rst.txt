@@ -27,7 +27,7 @@ bioconductor-s4arrays
       
       
 
-      ``1.6.0-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.4-0``
+      ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.4-0``
 
       
 
@@ -51,7 +51,7 @@ bioconductor-s4arrays
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -99,7 +99,7 @@ bioconductor-s4arrays
 
     <script>
         var package = "bioconductor-s4arrays";
-        var versions = ["1.6.0","1.2.0","1.2.0","1.2.0","1.0.4"];
+        var versions = ["1.6.0","1.6.0","1.2.0","1.2.0","1.2.0"];
     </script>
 
 

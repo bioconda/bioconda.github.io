@@ -29,10 +29,10 @@ rmblast
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.14.1-1</code>,  <code>2.14.1-0</code>,  <code>2.14.0-2</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  <code>2.13.0-1</code>,  <code>2.13.0-0</code>,  <code>2.11.0-0</code>,  <code>2.10.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.14.1-2</code>,  <code>2.14.1-1</code>,  <code>2.14.1-0</code>,  <code>2.14.0-2</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  <code>2.13.0-1</code>,  <code>2.13.0-0</code>,  <code>2.11.0-0</code>,  </span></summary>
       
 
-      ``2.14.1-1``,  ``2.14.1-0``,  ``2.14.0-2``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.13.0-1``,  ``2.13.0-0``,  ``2.11.0-0``,  ``2.10.0-0``,  ``2.9.0-0``,  ``2.6.0-0``,  ``2.2.28-4``,  ``2.2.28-3``,  ``2.2.28-2``
+      ``2.14.1-2``,  ``2.14.1-1``,  ``2.14.1-0``,  ``2.14.0-2``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.13.0-1``,  ``2.13.0-0``,  ``2.11.0-0``,  ``2.10.0-0``,  ``2.9.0-0``,  ``2.6.0-0``,  ``2.2.28-4``,  ``2.2.28-3``,  ``2.2.28-2``
 
       
       .. raw:: html
@@ -44,22 +44,22 @@ rmblast
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends entrez-direct: ``>=22.4,<23.0a0``
    :depends libgcc: ``>=13``
-   :depends libsqlite: ``>=3.47.0,<4.0a0``
+   :depends libsqlite: ``>=3.49.1,<4.0a0``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends ncbi-vdb: ``>=3.1.1,<4.0a0``
-   :depends pcre: ``>=8.45,<9.0a0``
+   :depends ncbi-vdb: ``>=3.2.1,<4.0a0``
    :depends perl: 
    :depends perl-archive-tar: 
    :depends perl-json: 
    :depends perl-list-moreutils: 
+   :depends zstd: ``>=1.5.7,<1.6.0a0``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -107,7 +107,7 @@ rmblast
 
     <script>
         var package = "rmblast";
-        var versions = ["2.14.1","2.14.1","2.14.0","2.14.0","2.14.0"];
+        var versions = ["2.14.1","2.14.1","2.14.1","2.14.0","2.14.0"];
     </script>
 
 

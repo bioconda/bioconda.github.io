@@ -13,7 +13,9 @@ dnachisel
    Optimize DNA sequences under constraints.
 
    :homepage: https://github.com/Edinburgh-Genome-Foundry/DnaChisel
-   :license: MIT
+   :documentation: https://edinburgh-genome-foundry.github.io/DnaChisel
+   
+   :license: MIT / MIT
    :recipe: /`dnachisel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dnachisel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dnachisel/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ dnachisel
       
       
 
-      ``3.2.13-0``,  ``3.2.12-0``,  ``3.2.11-0``,  ``3.2.10-0``,  ``3.2.9-0``,  ``3.2.8-0``,  ``3.2.7-0``,  ``3.2.6-0``
+      ``3.2.15-0``,  ``3.2.13-0``,  ``3.2.12-0``,  ``3.2.11-0``,  ``3.2.10-0``,  ``3.2.9-0``,  ``3.2.8-0``,  ``3.2.7-0``,  ``3.2.6-0``
 
       
 
@@ -89,7 +91,7 @@ dnachisel
 
     <script>
         var package = "dnachisel";
-        var versions = ["3.2.13","3.2.12","3.2.11","3.2.10","3.2.9"];
+        var versions = ["3.2.15","3.2.13","3.2.12","3.2.11","3.2.10"];
     </script>
 
 

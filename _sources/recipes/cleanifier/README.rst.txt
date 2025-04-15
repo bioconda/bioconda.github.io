@@ -27,12 +27,14 @@ cleanifier
       
       
 
-      ``0.1.3-0``,  ``0.1.1-0``
+      ``0.2.1-0``,  ``0.1.3-0``,  ``0.1.1-0``
 
       
 
    
+   :depends clangdev: 
    :depends jsonargparse: ``>=4.29.0``
+   :depends llvmlite: 
    :depends numba: 
    :depends numpy: 
    :depends pytest: 
@@ -87,7 +89,7 @@ cleanifier
 
     <script>
         var package = "cleanifier";
-        var versions = ["0.1.3","0.1.1"];
+        var versions = ["0.2.1","0.1.3","0.1.1"];
     </script>
 
 

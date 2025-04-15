@@ -13,7 +13,7 @@ sr2silo
    Short\-read to SILO format converter.
 
    :homepage: https://github.com/cbg-ethz/sr2silo
-   :documentation: https://github.com/cbg-ethz/sr2silo/blob/v0.0.4/README.md
+   :documentation: https://github.com/cbg-ethz/sr2silo/blob/v0.1.1/README.md
    
    :license: MIT / MIT
    :recipe: /`sr2silo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sr2silo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sr2silo/meta.yaml>`_
@@ -31,7 +31,7 @@ sr2silo
       
       
 
-      ``0.0.4-0``
+      ``0.1.1-0``,  ``0.0.4-0``
 
       
 
@@ -99,7 +99,7 @@ sr2silo
 
     <script>
         var package = "sr2silo";
-        var versions = ["0.0.4"];
+        var versions = ["0.1.1","0.0.4"];
     </script>
 
 

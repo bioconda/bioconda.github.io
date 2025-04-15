@@ -10,7 +10,7 @@ gsmap
    :replaces_section_title:
    :noindex:
 
-   gsMap \(genetically informed spatial mapping of cells for complex traits\)
+   gsMap \(genetically informed spatial mapping of cells for complex traits\).
 
    :homepage: https://github.com/LeonSong1995/gsMap
    :documentation: https://yanglab.westlake.edu.cn/gsmap/document
@@ -30,23 +30,24 @@ gsmap
       
       
 
-      ``1.71.2-0``,  ``1.71.1-0``,  ``1.70-0``
+      ``1.73.0-0``,  ``1.71.2-0``,  ``1.71.1-0``,  ``1.70-0``
 
       
 
    
    :depends bitarray: 
    :depends jinja2: 
-   :depends kaleido-core: 
    :depends matplotlib-base: 
-   :depends numpy: 
+   :depends numpy: ``<2.0.0``
    :depends pandas: 
    :depends plotly: 
    :depends progress: 
+   :depends psutil: 
    :depends pyarrow: 
    :depends pyfiglet: 
    :depends pyranges: 
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.10``
+   :depends python-kaleido: 
    :depends pyyaml: 
    :depends scanpy: ``>=1.8``
    :depends scikit-learn: 
@@ -105,7 +106,7 @@ gsmap
 
     <script>
         var package = "gsmap";
-        var versions = ["1.71.2","1.71.1","1.70"];
+        var versions = ["1.73.0","1.71.2","1.71.1","1.70"];
     </script>
 
 

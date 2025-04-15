@@ -27,7 +27,7 @@ bioconductor-sparsearray
       
       
 
-      ``1.6.0-0``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.0.10-0``
+      ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.0.10-0``
 
       
 
@@ -56,7 +56,7 @@ bioconductor-sparsearray
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -104,7 +104,7 @@ bioconductor-sparsearray
 
     <script>
         var package = "bioconductor-sparsearray";
-        var versions = ["1.6.0","1.2.2","1.2.2","1.2.2","1.0.10"];
+        var versions = ["1.6.0","1.6.0","1.2.2","1.2.2","1.2.2"];
     </script>
 
 

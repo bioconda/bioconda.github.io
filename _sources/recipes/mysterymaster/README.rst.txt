@@ -13,7 +13,7 @@ mysterymaster
    Graphical Oxford Nanopore read demultiplexer
 
    :homepage: https://bitbucket.org/NPC239/mysterymaster/src/main/
-   :license: MIT
+   :license: GPL
    :recipe: /`mysterymaster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mysterymaster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mysterymaster/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ mysterymaster
       
       
 
-      ``0.0.4-0``
+      ``0.0.7-0``,  ``0.0.4-0``
 
       
 
@@ -83,7 +83,7 @@ mysterymaster
 
     <script>
         var package = "mysterymaster";
-        var versions = ["0.0.4"];
+        var versions = ["0.0.7","0.0.4"];
     </script>
 
 

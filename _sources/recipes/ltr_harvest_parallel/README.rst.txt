@@ -12,7 +12,7 @@ ltr_harvest_parallel
 
    Perl wrapper for parallel execution of LTR\_harvest
 
-   :homepage: https://github.com/oushujun/EDTA/tree/8980f498f05ad63dbffa3241842d3d38e939531b/bin/LTR_HARVEST_parallel
+   :homepage: https://github.com/oushujun/LTR_HARVEST_parallel
    :license: MIT / MIT
    :recipe: /`ltr_harvest_parallel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ltr_harvest_parallel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ltr_harvest_parallel/meta.yaml>`_
    :links: doi: :doi:`10.1186/s13059-019-1905-y`, doi: :doi:`10.1101/2022.10.09.511471`
@@ -28,7 +28,7 @@ ltr_harvest_parallel
       
       
 
-      ``1.1-1``,  ``1.1-0``
+      ``1.2-0``,  ``1.1-1``,  ``1.1-0``
 
       
 
@@ -85,7 +85,7 @@ ltr_harvest_parallel
 
     <script>
         var package = "ltr_harvest_parallel";
-        var versions = ["1.1","1.1"];
+        var versions = ["1.2","1.1","1.1"];
     </script>
 
 

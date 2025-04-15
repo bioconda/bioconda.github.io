@@ -33,7 +33,7 @@ mimick
       
       
 
-      ``1.0-0``
+      ``1.0.1-0``,  ``1.0-0``
 
       
 
@@ -96,7 +96,7 @@ mimick
 
     <script>
         var package = "mimick";
-        var versions = ["1.0"];
+        var versions = ["1.0.1","1.0"];
     </script>
 
 

@@ -10,11 +10,14 @@ vamb
    :replaces_section_title:
    :noindex:
 
-   Variational autoencoder for metagenomic binning
+   Variational autoencoder for metagenomic binning.
 
    :homepage: https://github.com/RasmussenLab/vamb
-   :license: MIT / MIT License
+   :documentation: https://vamb.readthedocs.io/en/latest
+   
+   :license: MIT / MIT
    :recipe: /`vamb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vamb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vamb/meta.yaml>`_
+   :links: doi: :doi:`10.1101/2024.10.25.620172`, biotools: :biotools:`vamb`
 
    
 
@@ -27,17 +30,22 @@ vamb
       
       
 
-      ``4.1.3-0``,  ``3.0.2-2``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``,  ``2.1.0-0``,  ``2.0.1-0``
+      ``5.0.3-0``,  ``4.1.3-0``,  ``3.0.2-2``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``,  ``2.1.0-0``,  ``2.0.1-0``
 
       
 
    
-   :depends libgcc: ``>=13``
-   :depends numpy: ``1.24.2``
-   :depends pycoverm: ``0.6.2``
-   :depends python: ``>=3.11,<3.12.0a0``
-   :depends python_abi: ``3.11.* *_cp311``
-   :depends pytorch: ``1.13.1``
+   :depends dadaptation: ``>=3.2``
+   :depends loguru: ``>=0.7.0,<0.8``
+   :depends networkx: ``>=3.4.2``
+   :depends numpy: ``>=1.26.4,<3``
+   :depends pycoverm: ``>=0.6.2``
+   :depends pyhmmer: ``>=0.10.15``
+   :depends pyrodigal: ``>=3.6.3``
+   :depends python: ``>=3.10,<4``
+   :depends pytorch: ``>=2.6.0``
+   :depends scikit-learn: ``>=1.6.1``
+   :depends vambcore: ``>=0.1.2,<0.2``
    :requirements:
 
    :additional platforms:
@@ -88,7 +96,7 @@ vamb
 
     <script>
         var package = "vamb";
-        var versions = ["4.1.3","3.0.2","3.0.2","3.0.2","3.0.1"];
+        var versions = ["5.0.3","4.1.3","3.0.2","3.0.2","3.0.2"];
     </script>
 
 
