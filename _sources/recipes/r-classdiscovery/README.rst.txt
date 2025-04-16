@@ -12,7 +12,7 @@ r-classdiscovery
 
    Defines the classes used for \"class discovery\" problems in the OOMPA project \(\<http\:\/\/oompa.r\-forge.r\-project.org\/\>\). Class discovery primarily consists of unsupervised clustering methods with attempts to assess their statistical significance. 
 
-   :homepage: http://oompa.r-forge.r-project.org/
+   :homepage: https://oompa.r-forge.r-project.org
    :license: APACHE / Apache-2.0
    :recipe: /`r-classdiscovery <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-classdiscovery>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-classdiscovery/meta.yaml>`_
 
@@ -28,10 +28,10 @@ r-classdiscovery
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.5-1</code>,  <code>3.4.5-0</code>,  <code>3.4.0-2</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.3.13-2</code>,  <code>3.3.13-1</code>,  <code>3.3.13-0</code>,  <code>3.3.12-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.8-0</code>,  <code>3.4.5-1</code>,  <code>3.4.5-0</code>,  <code>3.4.0-2</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.3.13-2</code>,  <code>3.3.13-1</code>,  <code>3.3.13-0</code>,  </span></summary>
       
 
-      ``3.4.5-1``,  ``3.4.5-0``,  ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.13-2``,  ``3.3.13-1``,  ``3.3.13-0``,  ``3.3.12-2``,  ``3.3.12-1``,  ``3.3.12-0``,  ``3.3.11-0``,  ``3.3.9-1``,  ``3.3.9-0``
+      ``3.4.8-0``,  ``3.4.5-1``,  ``3.4.5-0``,  ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.13-2``,  ``3.3.13-1``,  ``3.3.13-0``,  ``3.3.12-2``,  ``3.3.12-1``,  ``3.3.12-0``,  ``3.3.11-0``,  ``3.3.9-1``,  ``3.3.9-0``
 
       
       .. raw:: html
@@ -96,7 +96,7 @@ r-classdiscovery
 
     <script>
         var package = "r-classdiscovery";
-        var versions = ["3.4.5","3.4.5","3.4.0","3.4.0","3.4.0"];
+        var versions = ["3.4.8","3.4.5","3.4.5","3.4.0","3.4.0"];
     </script>
 
 

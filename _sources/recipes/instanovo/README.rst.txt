@@ -10,10 +10,10 @@ instanovo
    :replaces_section_title:
    :noindex:
 
-   De novo peptide sequencing with InstaNovo
+   InstaNovo enables diffusion\-powered de novo peptide sequencing in large scale proteomics experiments.
 
    :homepage: https://github.com/instadeepai/instanovo
-   :license: Apache-2.0
+   :license: APACHE / Apache-2.0
    :recipe: /`instanovo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/instanovo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/instanovo/meta.yaml>`_
    :links: doi: :doi:`10.1101/2023.08.30.555055`
 
@@ -28,13 +28,13 @@ instanovo
       
       
 
-      ``1.0.0-0``
+      ``1.1.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends click: 
    :depends datasets: 
+   :depends gitpython: 
    :depends hydra-core: 
    :depends jaxtyping: 
    :depends jiwer: 
@@ -44,16 +44,17 @@ instanovo
    :depends omegaconf: 
    :depends pandas: 
    :depends polars: 
-   :depends pyopenms: 
-   :depends python: 
+   :depends pyteomics: 
+   :depends python: ``>=3.10,<3.13``
    :depends python-dotenv: 
-   :depends pytorch: 
    :depends pytorch-lightning: 
+   :depends pyyaml: 
    :depends s3fs: 
    :depends scikit-learn: 
    :depends spectrum_utils: 
    :depends tensorboard: 
    :depends tqdm: 
+   :depends typer: 
    :requirements:
 
    :additional platforms:
@@ -104,7 +105,7 @@ instanovo
 
     <script>
         var package = "instanovo";
-        var versions = ["1.0.0"];
+        var versions = ["1.1.1","1.0.0"];
     </script>
 
 

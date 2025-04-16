@@ -10,12 +10,14 @@ delly
    :replaces_section_title:
    :noindex:
 
-   Structural variant discovery by integrated paired\-end and split\-read analysis
+   Structural variant discovery by integrated paired\-end and split\-read analysis.
 
    :homepage: https://github.com/dellytools/delly
+   :documentation: https://github.com/dellytools/delly/blob/v1.3.3/README.md
+   
    :license: BSD / BSD-3-Clause
    :recipe: /`delly <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/delly>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/delly/meta.yaml>`_
-   :links: doi: :doi:`10.1093/bioinformatics/bts378`, biotools: :biotools:`Delly2`
+   :links: doi: :doi:`10.1093/bioinformatics/bts378`, biotools: :biotools:`delly2`, usegalaxy-eu: :usegalaxy-eu:`delly_cnv`, usegalaxy-eu: :usegalaxy-eu:`delly_classify`, usegalaxy-eu: :usegalaxy-eu:`delly_lr`, usegalaxy-eu: :usegalaxy-eu:`delly_call`, usegalaxy-eu: :usegalaxy-eu:`delly_merge`, usegalaxy-eu: :usegalaxy-eu:`delly_filter`
 
    
 
@@ -29,10 +31,10 @@ delly
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.2.9-0</code>,  <code>1.2.8-0</code>,  <code>1.2.6-4</code>,  <code>1.2.6-3</code>,  <code>1.2.6-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.3-1</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.2.9-0</code>,  <code>1.2.8-0</code>,  <code>1.2.6-4</code>,  <code>1.2.6-3</code>,  </span></summary>
       
 
-      ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.2.9-0``,  ``1.2.8-0``,  ``1.2.6-4``,  ``1.2.6-3``,  ``1.2.6-2``,  ``1.2.6-1``,  ``1.2.6-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-2``,  ``1.1.6-1``,  ``1.1.6-0``,  ``1.1.5-1``,  ``1.1.5-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``0.9.1-4``,  ``0.9.1-3``,  ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.8.7-1``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.3-1``,  ``0.8.3-0``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-3``,  ``0.8.1-2``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.7.9-4``,  ``0.7.8-4``,  ``0.7.8-3``,  ``0.7.8-2``,  ``0.7.8-1``,  ``0.7.8-0``,  ``0.7.7-1``,  ``0.7.6-0``,  ``0.7.2-1``,  ``0.7.2-0``
+      ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.2.9-0``,  ``1.2.8-0``,  ``1.2.6-4``,  ``1.2.6-3``,  ``1.2.6-2``,  ``1.2.6-1``,  ``1.2.6-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-2``,  ``1.1.6-1``,  ``1.1.6-0``,  ``1.1.5-1``,  ``1.1.5-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``0.9.1-4``,  ``0.9.1-3``,  ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.8.7-1``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.3-1``,  ``0.8.3-0``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-3``,  ``0.8.1-2``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.7.9-4``,  ``0.7.8-4``,  ``0.7.8-3``,  ``0.7.8-2``,  ``0.7.8-1``,  ``0.7.8-0``,  ``0.7.7-1``,  ``0.7.6-0``,  ``0.7.2-1``,  ``0.7.2-0``
 
       
       .. raw:: html
@@ -48,14 +50,13 @@ delly
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -103,7 +104,7 @@ delly
 
     <script>
         var package = "delly";
-        var versions = ["1.3.3","1.3.2","1.3.1","1.3.1","1.2.9"];
+        var versions = ["1.3.3","1.3.3","1.3.2","1.3.1","1.3.1"];
     </script>
 
 

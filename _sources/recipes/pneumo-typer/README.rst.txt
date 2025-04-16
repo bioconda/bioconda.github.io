@@ -10,7 +10,7 @@ pneumo-typer
    :replaces_section_title:
    :noindex:
 
-   Pneumo\-Typer\: An integrated tool for simultaneous identification of serotype\, sequence type\, and capsule genotype in Streptococcus pneumoniae.
+   Pneumo\-Typer is a high\-throughput capsule genotype visualization tool with integrated serotype and sequence type prediction for Streptococcus pneumoniae
 
    :homepage: https://www.microbialgenomic.cn/Pneumo-Typer.html
    :documentation: https://github.com/Xiangyang1984/Pneumo-Typer
@@ -29,7 +29,7 @@ pneumo-typer
       
       
 
-      ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
+      ``2.0.1-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
 
       
 
@@ -91,7 +91,7 @@ pneumo-typer
 
     <script>
         var package = "pneumo-typer";
-        var versions = ["1.0.3","1.0.2","1.0.2","1.0.1","1.0.1"];
+        var versions = ["2.0.1","1.0.3","1.0.2","1.0.2","1.0.1"];
     </script>
 
 

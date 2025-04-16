@@ -29,7 +29,7 @@ msoma
       
       
 
-      ``0.1.0-0``
+      ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -105,7 +105,7 @@ msoma
 
     <script>
         var package = "msoma";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.1","0.1.0"];
     </script>
 
 

@@ -13,9 +13,11 @@ flair
    Correction\, isoform definition\, and alternative splicing analysis of noisy reads \(ONT and PacBio\).
 
    :homepage: https://github.com/BrooksLabUCSC/flair
-   :license: BSD-3
+   :documentation: https://flair.readthedocs.io
+   
+   :license: BSD / BSD-3-Clause
    :recipe: /`flair <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flair>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flair/meta.yaml>`_
-   :links: doi: :doi:`10.1101/410183`
+   :links: doi: :doi:`10.1038/s41467-020-15171-6`
 
    
 
@@ -27,25 +29,34 @@ flair
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0.0-1``,  ``2.0.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.5-4``,  ``1.5-3``,  ``1.4-0``
+         <details><summary><span class="truncated-version-list"><code>2.1.1-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.7.0-1</code>,  <code>1.7.0-0</code>,  <code>1.6.4-0</code>,  <code>1.6.3-0</code>,  <code>1.5-4</code>,  <code>1.5-3</code>,  </span></summary>
+      
 
+      ``2.1.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.5-4``,  ``1.5-3``,  ``1.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bedtools: 
    :depends bioconductor-apeglm: 
    :depends bioconductor-deseq2: 
    :depends bioconductor-drimseq: 
    :depends bioconductor-stager: 
-   :depends mappy: ``2.24.*``
+   :depends mappy: ``>=2.28``
    :depends matplotlib-base: 
-   :depends minimap2: ``2.24.*``
+   :depends minimap2: ``>=2.28``
    :depends ncls: 
+   :depends numpy: ``>=2.2``
    :depends pandas: 
+   :depends pipettor: 
    :depends pybedtools: 
    :depends pysam: 
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.12,<3.13``
    :depends r-ggplot2: 
    :depends r-lazyeval: 
    :depends r-qqman: 
@@ -104,7 +115,7 @@ flair
 
     <script>
         var package = "flair";
-        var versions = ["2.0.0","2.0.0","1.7.0","1.7.0","1.6.4"];
+        var versions = ["2.1.1","2.0.0","2.0.0","1.7.0","1.7.0"];
     </script>
 
 

@@ -10,10 +10,10 @@ dna_features_viewer
    :replaces_section_title:
    :noindex:
 
-   Plot features from DNA sequences \(e.g. Genbank\) with Python
+   Plot features from DNA sequences \(e.g. Genbank\) with Python.
 
    :homepage: https://github.com/Edinburgh-Genome-Foundry/DnaFeaturesViewer
-   :documentation: https://edinburgh-genome-foundry.github.io/DnaFeaturesViewer/
+   :documentation: https://edinburgh-genome-foundry.github.io/DnaFeaturesViewer
    
    :license: MIT / MIT
    :recipe: /`dna_features_viewer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dna_features_viewer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dna_features_viewer/meta.yaml>`_
@@ -29,7 +29,7 @@ dna_features_viewer
       
       
 
-      ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``
+      ``3.1.4-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``
 
       
 
@@ -88,7 +88,7 @@ dna_features_viewer
 
     <script>
         var package = "dna_features_viewer";
-        var versions = ["3.1.3","3.1.2","3.1.1","3.1.0","3.0.3"];
+        var versions = ["3.1.4","3.1.3","3.1.2","3.1.1","3.1.0"];
     </script>
 
 

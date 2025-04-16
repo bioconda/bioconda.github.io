@@ -13,7 +13,7 @@ postmaster
    Postmaster is a tool for annotating transcriptome alignments with posterior alignment probabilities derived from salmon quantifications.
 
    :homepage: https://github.com/COMBINE-lab/postmaster
-   :license: BSD 3-Clause
+   :license: BSD / BSD-3-Clause
    :recipe: /`postmaster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/postmaster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/postmaster/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ postmaster
       
       
 
-      ``0.1.0-0``
+      ``0.1.0-1``,  ``0.1.0-0``
 
       
 
@@ -37,6 +37,10 @@ postmaster
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -84,7 +88,7 @@ postmaster
 
     <script>
         var package = "postmaster";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.0","0.1.0"];
     </script>
 
 

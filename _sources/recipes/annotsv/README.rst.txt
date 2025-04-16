@@ -10,9 +10,11 @@ annotsv
    :replaces_section_title:
    :noindex:
 
-   Annotation and Ranking of Structural Variation
+   Annotation and Ranking of Structural Variation.
 
    :homepage: https://github.com/lgmgeo/AnnotSV
+   :documentation: https://github.com/lgmgeo/AnnotSV/blob/master/README.AnnotSV_3.4.5.pdf
+   
    :license: GPL3 / GPL-3.0-only
    :recipe: /`annotsv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/annotsv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/annotsv/meta.yaml>`_
 
@@ -28,10 +30,10 @@ annotsv
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.4-0</code>,  <code>3.4.3-0</code>,  <code>3.4.2-0</code>,  <code>3.4.1-1</code>,  <code>3.4.1-0</code>,  <code>3.4-1</code>,  <code>3.4-0</code>,  <code>3.3.9-0</code>,  <code>3.3.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.6-0</code>,  <code>3.4.4-0</code>,  <code>3.4.3-0</code>,  <code>3.4.2-0</code>,  <code>3.4.1-1</code>,  <code>3.4.1-0</code>,  <code>3.4-1</code>,  <code>3.4-0</code>,  <code>3.3.9-0</code>,  </span></summary>
       
 
-      ``3.4.4-0``,  ``3.4.3-0``,  ``3.4.2-0``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4-1``,  ``3.4-0``,  ``3.3.9-0``,  ``3.3.8-0``,  ``3.3.7-0``,  ``3.3.6-0``,  ``3.3.5-0``,  ``3.3.4-1``,  ``3.3.4-0``
+      ``3.4.6-0``,  ``3.4.4-0``,  ``3.4.3-0``,  ``3.4.2-0``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4-1``,  ``3.4-0``,  ``3.3.9-0``,  ``3.3.8-0``,  ``3.3.7-0``,  ``3.3.6-0``,  ``3.3.5-0``,  ``3.3.4-1``,  ``3.3.4-0``
 
       
       .. raw:: html
@@ -106,7 +108,7 @@ annotsv
 
     <script>
         var package = "annotsv";
-        var versions = ["3.4.4","3.4.3","3.4.2","3.4.1","3.4.1"];
+        var versions = ["3.4.6","3.4.4","3.4.3","3.4.2","3.4.1"];
     </script>
 
 

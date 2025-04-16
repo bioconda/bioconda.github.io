@@ -10,14 +10,15 @@ gcluster
    :replaces_section_title:
    :noindex:
 
-   Gcluster is a simple\-to\-use tool for visualizing and comparing genome contexts for numerous genomes
+   Gcluster is a simple\-to\-use tool for visualizing and comparing genome contexts for numerous genomes.
 
-   :homepage: http://www.microbialgenomic.cn/Gcluster_tool.html
-   :developer docs: https://github.com/Xiangyang1984/Gcluster
-   :license: perl_5
+   :homepage: https://www.microbialgenomic.cn/Gcluster_tool.html
+   :documentation: https://github.com/Xiangyang1984/Gcluster
+   
+   :license: GNU General Public License v3.0 or any later version (GPL-3.0-or-later)
    :recipe: /`gcluster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gcluster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gcluster/meta.yaml>`_
 
-   
+   Gcluster is a stand\-alone Perl application\, which requires MCL\, NCBI BLAST\+ and several Perl Modules \(GD\, GD\:\:SVG\) to be installed before use.
 
 
 .. conda:package:: gcluster
@@ -27,9 +28,17 @@ gcluster
    :versions:
       
       
+      .. raw:: html
 
-      ``2.06-2``,  ``2.06-0``,  ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``
+         <details><summary><span class="truncated-version-list"><code>2.06-2</code>,  <code>2.06-0</code>,  <code>2.0.7-0</code>,  <code>2.0.5-1</code>,  <code>2.0.5-0</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-1</code>,  </span></summary>
+      
 
+      ``2.06-2``,  ``2.06-0``,  ``2.0.7-0``,  ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -89,7 +98,7 @@ gcluster
 
     <script>
         var package = "gcluster";
-        var versions = ["2.06","2.06","2.0.5","2.0.5","2.0.4"];
+        var versions = ["2.06","2.06","2.0.7","2.0.5","2.0.5"];
     </script>
 
 

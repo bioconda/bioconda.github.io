@@ -10,7 +10,7 @@ buscolite
    :replaces_section_title:
    :noindex:
 
-   buscolite\: busco analysis for gene predictions
+   buscolite\: busco analysis for gene predictions.
 
    :homepage: https://github.com/nextgenusfs/buscolite
    :license: BSD / BSD-2-Clause
@@ -27,7 +27,7 @@ buscolite
       
       
 
-      ``24.11.3-0``,  ``23.10.26-0``
+      ``25.4.3-0``,  ``24.11.3-0``,  ``23.10.26-0``
 
       
 
@@ -35,6 +35,7 @@ buscolite
    :depends augustus: ``>=3.5.0``
    :depends miniprot: 
    :depends natsort: 
+   :depends packaging: 
    :depends pyfastx: 
    :depends pyhmmer: 
    :depends python: ``>=3.6``
@@ -88,7 +89,7 @@ buscolite
 
     <script>
         var package = "buscolite";
-        var versions = ["24.11.3","23.10.26"];
+        var versions = ["25.4.3","24.11.3","23.10.26"];
     </script>
 
 

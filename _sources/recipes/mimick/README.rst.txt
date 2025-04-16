@@ -33,13 +33,14 @@ mimick
       
       
 
-      ``1.0.1-0``,  ``1.0-0``
+      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
 
       
 
    
    :depends biopython: ``>=1.8``
    :depends click: ``>=8``
+   :depends htslib: ``>=1.21``
    :depends numpy: ``>=1.15.3``
    :depends pyfaidx: ``>=0.8``
    :depends pysam: ``>=0.22.0``
@@ -96,7 +97,7 @@ mimick
 
     <script>
         var package = "mimick";
-        var versions = ["1.0.1","1.0"];
+        var versions = ["1.0.1","1.0.1","1.0"];
     </script>
 
 

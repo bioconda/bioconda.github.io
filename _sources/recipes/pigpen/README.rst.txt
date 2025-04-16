@@ -10,9 +10,11 @@ pigpen
    :replaces_section_title:
    :noindex:
 
-   A package to quantify RNA localization using OINC\-seq data
+   A package to quantify RNA localization using OINC\-seq data.
 
    :homepage: https://github.com/TaliaferroLab/OINC-seq
+   :documentation: https://github.com/TaliaferroLab/OINC-seq/blob/v0.0.6/README.md
+   
    :license: MIT / MIT
    :recipe: /`pigpen <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pigpen>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pigpen/meta.yaml>`_
    :links: https: :https:`//doi.org/10.1101/2024.11.12.623278`
@@ -28,7 +30,7 @@ pigpen
       
       
 
-      ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``
+      ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``
 
       
 
@@ -36,15 +38,14 @@ pigpen
    :depends bamtools: ``>=2.5.2``
    :depends bcftools: ``>=1.15``
    :depends gffutils: ``>=0.11.0``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
    :depends numpy: ``>=1.21``
    :depends pandas: ``>=1.3.5``
+   :depends postmaster: ``>=0.1.0``
    :depends pybedtools: ``>=0.9.0``
    :depends pysam: ``>=0.19``
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends python: ``>=3.5,<3.11``
    :depends r-base: ``>=4.1``
+   :depends r-lme4: ``>=1.1``
    :depends rpy2: ``>=3.4.5``
    :depends salmon: ``>=1.9.0``
    :depends samtools: ``>=1.15``
@@ -55,10 +56,6 @@ pigpen
    :requirements:
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -106,7 +103,7 @@ pigpen
 
     <script>
         var package = "pigpen";
-        var versions = ["0.0.6","0.0.5","0.0.4","0.0.4"];
+        var versions = ["0.0.6","0.0.6","0.0.5","0.0.4","0.0.4"];
     </script>
 
 

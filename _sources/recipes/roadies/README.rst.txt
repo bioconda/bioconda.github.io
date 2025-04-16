@@ -10,10 +10,10 @@ roadies
    :replaces_section_title:
    :noindex:
 
-   Reference\-free Orthology\-free Alignment\-free DIscordance aware Estimation of Species tree \(ROADIES\)
+   Reference\-free Orthology\-free Alignment\-free DIscordance aware Estimation of Species tree \(ROADIES\).
 
    :homepage: https://github.com/TurakhiaLab/ROADIES
-   :documentation: https://turakhia.ucsd.edu/ROADIES/
+   :documentation: https://turakhia.ucsd.edu/ROADIES
    
    :license: MIT / MIT
    :recipe: /`roadies <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/roadies>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/roadies/meta.yaml>`_
@@ -31,31 +31,37 @@ roadies
       
       
 
-      ``0.1.4-0``
+      ``0.1.8-0``,  ``0.1.4-0``
 
       
 
    
    :depends alive-progress: 
+   :depends aster: ``>=1.19``
    :depends biopython: 
+   :depends boost-cpp: 
    :depends ete3: 
    :depends fasttree: ``>=2.1.11``
-   :depends libboost: ``>=1.82.0,<1.83.0a0``
-   :depends libboost-devel: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends lastz: ``>=1.04.52``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.2.13,<2.0a0``
-   :depends mashtree: 
+   :depends mash: ``>=2``
+   :depends mashtree: ``1.4.6``
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pasta: ``>=1.9.0``
-   :depends pip: 
+   :depends perl: ``>=5.22``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends perl-bioperl: ``>=1.7.2``
+   :depends perl-module-build: ``0.4234.*``
    :depends python: ``>=3.9,<3.10.0a0``
    :depends python_abi: ``3.9.* *_cp39``
    :depends pyyaml: 
+   :depends quicktree: 
    :depends raxml-ng: 
-   :depends seaborn: 
-   :depends snakemake: 
+   :depends seaborn-base: 
+   :depends snakemake-minimal: 
    :depends treeswift: ``>=1.1.28``
    :requirements:
 
@@ -107,7 +113,7 @@ roadies
 
     <script>
         var package = "roadies";
-        var versions = ["0.1.4"];
+        var versions = ["0.1.8","0.1.4"];
     </script>
 
 

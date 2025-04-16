@@ -10,9 +10,12 @@ replidec
    :replaces_section_title:
    :noindex:
 
-   Replication Cycle Decipher for Phages
+   Replication Cycle Decipher for Phages.
 
    :homepage: https://github.com/deng-lab/Replidec
+   :documentation: https://github.com/pengSherryYel/Replidec/blob/v.0.3.4/README.md
+   
+   :developer docs: https://github.com/pengSherryYel/Replidec
    :license: MIT / MIT
    :recipe: /`replidec <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/replidec>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/replidec/meta.yaml>`_
 
@@ -27,18 +30,19 @@ replidec
       
       
 
-      ``0.3.1.1-0``
+      ``0.3.4-0``,  ``0.3.1.1-0``
 
       
 
    
-   :depends biopython: 
+   :depends biopython: ``>=1.77``
    :depends blast: 
+   :depends future: ``>=0.18.2``
    :depends hmmer: 
    :depends mmseqs2: 
-   :depends numpy: ``>=1.23.1``
+   :depends numpy: ``>=1.21``
    :depends prodigal: 
-   :depends python: ``>=3.9``
+   :depends python: ``>=3.8``
    :requirements:
 
    :additional platforms:
@@ -89,7 +93,7 @@ replidec
 
     <script>
         var package = "replidec";
-        var versions = ["0.3.1.1"];
+        var versions = ["0.3.4","0.3.1.1"];
     </script>
 
 

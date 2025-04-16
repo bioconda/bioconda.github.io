@@ -12,8 +12,11 @@ lastz
 
    LASTZ is a program for aligning DNA sequences\, a pairwise aligner.
 
-   :homepage: http://www.bx.psu.edu/~rsharris/lastz/
-   :license: MIT
+   :homepage: https://www.bx.psu.edu/~rsharris/lastz
+   :documentation: https://lastz.github.io/lastz
+   
+   :developer docs: https://github.com/lastz/lastz
+   :license: MIT / MIT
    :recipe: /`lastz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lastz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lastz/meta.yaml>`_
    :links: biotools: :biotools:`lastz`
 
@@ -29,10 +32,10 @@ lastz
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.04.52-0</code>,  <code>1.04.45-0</code>,  <code>1.04.41-0</code>,  <code>1.04.22-2</code>,  <code>1.04.22-1</code>,  <code>1.04.22-0</code>,  <code>1.04.15-3</code>,  <code>1.04.15-2</code>,  <code>1.04.15-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.04.52-1</code>,  <code>1.04.52-0</code>,  <code>1.04.45-0</code>,  <code>1.04.41-0</code>,  <code>1.04.22-2</code>,  <code>1.04.22-1</code>,  <code>1.04.22-0</code>,  <code>1.04.15-3</code>,  <code>1.04.15-2</code>,  </span></summary>
       
 
-      ``1.04.52-0``,  ``1.04.45-0``,  ``1.04.41-0``,  ``1.04.22-2``,  ``1.04.22-1``,  ``1.04.22-0``,  ``1.04.15-3``,  ``1.04.15-2``,  ``1.04.15-1``,  ``1.04.15-0``,  ``1.0.4-5``,  ``1.0.4-4``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.2-6``,  ``1.0.2-5``,  ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``1.04.52-1``,  ``1.04.52-0``,  ``1.04.45-0``,  ``1.04.41-0``,  ``1.04.22-2``,  ``1.04.22-1``,  ``1.04.22-0``,  ``1.04.15-3``,  ``1.04.15-2``,  ``1.04.15-1``,  ``1.04.15-0``,  ``1.0.4-5``,  ``1.0.4-4``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.2-6``,  ``1.0.2-5``,  ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -96,7 +99,7 @@ lastz
 
     <script>
         var package = "lastz";
-        var versions = ["1.04.52","1.04.45","1.04.41","1.04.22","1.04.22"];
+        var versions = ["1.04.52","1.04.52","1.04.45","1.04.41","1.04.22"];
     </script>
 
 

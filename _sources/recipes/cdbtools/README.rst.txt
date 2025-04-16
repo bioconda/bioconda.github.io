@@ -10,7 +10,7 @@ cdbtools
    :replaces_section_title:
    :noindex:
 
-   CDB \(Constant DataBase\) indexing and retrieval tools for FASTA files
+   CDB \(Constant DataBase\) indexing and retrieval tools for FASTA files.
 
    :homepage: http://compbio.dfci.harvard.edu/tgi
    :license: Public Domain
@@ -28,10 +28,10 @@ cdbtools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.99-10</code>,  <code>0.99-9</code>,  <code>0.99-8</code>,  <code>0.99-7</code>,  <code>0.99-6</code>,  <code>0.99-5</code>,  <code>0.99-4</code>,  <code>0.99-3</code>,  <code>0.99-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.99-12</code>,  <code>0.99-10</code>,  <code>0.99-9</code>,  <code>0.99-8</code>,  <code>0.99-7</code>,  <code>0.99-6</code>,  <code>0.99-5</code>,  <code>0.99-4</code>,  <code>0.99-3</code>,  </span></summary>
       
 
-      ``0.99-10``,  ``0.99-9``,  ``0.99-8``,  ``0.99-7``,  ``0.99-6``,  ``0.99-5``,  ``0.99-4``,  ``0.99-3``,  ``0.99-2``,  ``0.99-1``,  ``0.99-0``
+      ``0.99-12``,  ``0.99-10``,  ``0.99-9``,  ``0.99-8``,  ``0.99-7``,  ``0.99-6``,  ``0.99-5``,  ``0.99-4``,  ``0.99-3``,  ``0.99-2``,  ``0.99-1``,  ``0.99-0``
 
       
       .. raw:: html
@@ -40,17 +40,16 @@ cdbtools
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends zlib: 
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

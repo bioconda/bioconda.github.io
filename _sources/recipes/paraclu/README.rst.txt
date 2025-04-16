@@ -28,7 +28,7 @@ paraclu
       
       
 
-      ``10-5``,  ``10-4``,  ``10-3``,  ``10-2``,  ``10-1``,  ``10-0``,  ``9-0``
+      ``10-6``,  ``10-5``,  ``10-4``,  ``10-3``,  ``10-2``,  ``10-1``,  ``10-0``,  ``9-0``
 
       
 
@@ -40,6 +40,10 @@ paraclu
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

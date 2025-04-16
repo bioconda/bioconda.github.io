@@ -10,10 +10,12 @@ concoct
    :replaces_section_title:
    :noindex:
 
-   Clustering cONtigs with COverage and ComposiTion
+   Clustering cONtigs with COverage and ComposiTion.
 
    :homepage: https://github.com/BinPro/CONCOCT
-   :license: BSD / FreeBSD
+   :documentation: https://concoct.readthedocs.io/en/latest
+   
+   :license: BSD / BSD-2-Clause
    :recipe: /`concoct <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/concoct>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/concoct/meta.yaml>`_
    :links: doi: :doi:`10.1038/nmeth.3103`
 
@@ -29,10 +31,10 @@ concoct
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.0-6</code>,  <code>1.1.0-5</code>,  <code>1.1.0-4</code>,  <code>1.1.0-3</code>,  <code>1.1.0-2</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.0-5</code>,  <code>1.0.0-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.0-7</code>,  <code>1.1.0-6</code>,  <code>1.1.0-5</code>,  <code>1.1.0-4</code>,  <code>1.1.0-3</code>,  <code>1.1.0-2</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.0-5</code>,  </span></summary>
       
 
-      ``1.1.0-6``,  ``1.1.0-5``,  ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``
+      ``1.1.0-7``,  ``1.1.0-6``,  ``1.1.0-5``,  ``1.1.0-4``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``
 
       
       .. raw:: html
@@ -41,21 +43,19 @@ concoct
       
 
    
-   :depends biopython: ``>=1.62b``
+   :depends biopython: 
    :depends cython: ``>=0.28.5``
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libopenblas: ``* *openmp*``
-   :depends nose: ``>=1.3.0``
-   :depends numpy: ``>=1.19,<3``
-   :depends numpy: ``>=2.0.0,<3.0a0``
-   :depends pandas: ``>=0.11.0``
-   :depends python: ``>=3.12,<3.13.0a0``
-   :depends python_abi: ``3.12.* *_cp312``
-   :depends pytz: ``>=2013.9``
+   :depends libgcc: ``>=13``
+   :depends nose: 
+   :depends numpy: ``>=1.22.4,<2.0a0``
+   :depends pandas: 
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
+   :depends pytz: 
    :depends samtools: 
-   :depends scikit-learn: ``>=1.1.3``
-   :depends scipy: ``>=0.13.3``
+   :depends scikit-learn: 
+   :depends scipy: 
    :depends setuptools: 
    :requirements:
 
@@ -63,7 +63,7 @@ concoct
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

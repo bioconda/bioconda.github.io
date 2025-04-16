@@ -27,12 +27,12 @@ cdskit
       
       
 
-      ``0.14.1-0``
+      ``0.14.2-0``,  ``0.14.1-0``
 
       
 
    
-   :depends python: ``>=3.8,<3.12``
+   :depends python: ``>=3.8``
    :requirements:
 
    :additional platforms:
@@ -83,7 +83,7 @@ cdskit
 
     <script>
         var package = "cdskit";
-        var versions = ["0.14.1"];
+        var versions = ["0.14.2","0.14.1"];
     </script>
 
 
