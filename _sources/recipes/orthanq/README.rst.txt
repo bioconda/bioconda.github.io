@@ -50,7 +50,7 @@ orthanq
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends hdf5: ``1.10.5.*``
    :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
-   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends htslib: ``>=1.19.1,<1.20.0a0``
    :depends libcblas: ``>=3.9.0,<4.0a0``
    :depends libgcc: ``>=13``
    :depends liblzma: ``>=5.6.4,<6.0a0``
