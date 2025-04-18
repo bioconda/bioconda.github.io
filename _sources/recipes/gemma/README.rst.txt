@@ -27,14 +27,16 @@ gemma
       
       
 
-      ``0.98.3-1``,  ``0.98.3-0``,  ``0.98.1-1``,  ``0.98.1-0``,  ``0.98-0``
+      ``0.98.5-0``,  ``0.98.3-1``,  ``0.98.3-0``,  ``0.98.1-1``,  ``0.98.1-0``,  ``0.98-0``
 
       
 
    
-   :depends libcxx: ``>=11.1.0``
+   :depends gsl: ``>=2.8,<2.9.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends openblas: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    :additional platforms:
@@ -85,7 +87,7 @@ gemma
 
     <script>
         var package = "gemma";
-        var versions = ["0.98.3","0.98.3","0.98.1","0.98.1","0.98"];
+        var versions = ["0.98.5","0.98.3","0.98.3","0.98.1","0.98.1"];
     </script>
 
 

@@ -13,7 +13,7 @@ dbcan
    Standalone version of dbCAN annotation tool for automated CAZyme annotation.
 
    :homepage: https://bcb.unl.edu/dbCAN2
-   :documentation: https://run-dbcan-new.readthedocs.io/en/latest
+   :documentation: https://run-dbcan.readthedocs.io/en/latest
    
    :developer docs: https://github.com/bcb-unl/run_dbcan
    :license: GPL3 / GPL-3.0-only
@@ -32,10 +32,10 @@ dbcan
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.0.3-0</code>,  <code>5.0.2-0</code>,  <code>5.0.0-0</code>,  <code>4.1.4-1</code>,  <code>4.1.4-0</code>,  <code>4.1.3-0</code>,  <code>4.1.2-0</code>,  <code>4.1.1-0</code>,  <code>4.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.0.4-0</code>,  <code>5.0.3-0</code>,  <code>5.0.2-0</code>,  <code>5.0.0-0</code>,  <code>4.1.4-1</code>,  <code>4.1.4-0</code>,  <code>4.1.3-0</code>,  <code>4.1.2-0</code>,  <code>4.1.1-0</code>,  </span></summary>
       
 
-      ``5.0.3-0``,  ``5.0.2-0``,  ``5.0.0-0``,  ``4.1.4-1``,  ``4.1.4-0``,  ``4.1.3-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.0.7-0``,  ``3.0.6-0``
+      ``5.0.4-0``,  ``5.0.3-0``,  ``5.0.2-0``,  ``5.0.0-0``,  ``4.1.4-1``,  ``4.1.4-0``,  ``4.1.3-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.0.7-0``,  ``3.0.6-0``
 
       
       .. raw:: html
@@ -114,7 +114,7 @@ dbcan
 
     <script>
         var package = "dbcan";
-        var versions = ["5.0.3","5.0.2","5.0.0","4.1.4","4.1.4"];
+        var versions = ["5.0.4","5.0.3","5.0.2","5.0.0","4.1.4"];
     </script>
 
 

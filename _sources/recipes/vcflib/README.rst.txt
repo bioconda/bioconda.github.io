@@ -45,7 +45,7 @@ vcflib
    
    :depends _openmp_mutex: ``>=4.5``
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends fastahack: ``>=1.0.0,<2.0a0``
+   :depends fastahack: 
    :depends htslib: ``>=1.21,<1.22.0a0``
    :depends libgcc: ``>=13``
    :depends libgomp: 

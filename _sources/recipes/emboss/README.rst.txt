@@ -28,10 +28,10 @@ emboss
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>6.6.0-11</code>,  <code>6.6.0-10</code>,  <code>6.6.0-9</code>,  <code>6.6.0-8</code>,  <code>6.6.0-7</code>,  <code>6.6.0-6</code>,  <code>6.6.0-5</code>,  <code>6.6.0-4</code>,  <code>6.6.0-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>6.6.0-12</code>,  <code>6.6.0-11</code>,  <code>6.6.0-10</code>,  <code>6.6.0-9</code>,  <code>6.6.0-8</code>,  <code>6.6.0-7</code>,  <code>6.6.0-6</code>,  <code>6.6.0-5</code>,  <code>6.6.0-4</code>,  </span></summary>
       
 
-      ``6.6.0-11``,  ``6.6.0-10``,  ``6.6.0-9``,  ``6.6.0-8``,  ``6.6.0-7``,  ``6.6.0-6``,  ``6.6.0-5``,  ``6.6.0-4``,  ``6.6.0-3``,  ``6.6.0-2``,  ``6.6.0-1``,  ``6.6.0-0``,  ``6.5.7-5``,  ``6.5.7-4``,  ``6.5.7-3``,  ``6.5.7-2``,  ``6.5.7-1``,  ``6.5.7-0``,  ``5.0.0-6``,  ``5.0.0-5``,  ``5.0.0-4``,  ``5.0.0-3``,  ``5.0.0-2``,  ``5.0.0-1``,  ``5.0.0-0``
+      ``6.6.0-12``,  ``6.6.0-11``,  ``6.6.0-10``,  ``6.6.0-9``,  ``6.6.0-8``,  ``6.6.0-7``,  ``6.6.0-6``,  ``6.6.0-5``,  ``6.6.0-4``,  ``6.6.0-3``,  ``6.6.0-2``,  ``6.6.0-1``,  ``6.6.0-0``,  ``6.5.7-5``,  ``6.5.7-4``,  ``6.5.7-3``,  ``6.5.7-2``,  ``6.5.7-1``,  ``6.5.7-0``,  ``5.0.0-6``,  ``5.0.0-5``,  ``5.0.0-4``,  ``5.0.0-3``,  ``5.0.0-2``,  ``5.0.0-1``,  ``5.0.0-0``
 
       
       .. raw:: html
@@ -42,10 +42,10 @@ emboss
    
    :depends libgcc: ``>=13``
    :depends libgd: ``>=2.3.3,<2.4.0a0``
-   :depends libharu: ``>=2.4.4,<2.5.0a0``
-   :depends libpng: ``>=1.6.44,<1.7.0a0``
+   :depends libharu: ``>=2.4.5,<2.5.0a0``
+   :depends libpng: ``>=1.6.47,<1.7.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends python_abi: ``3.12.* *_cp312``
+   :depends python_abi: ``3.11.* *_cp311``
    :depends zlib: 
    :requirements:
 
@@ -53,7 +53,7 @@ emboss
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

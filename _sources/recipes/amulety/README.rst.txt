@@ -27,7 +27,7 @@ amulety
       
       
 
-      ``1.0-0``
+      ``1.1-0``,  ``1.0-0``
 
       
 
@@ -36,6 +36,7 @@ amulety
    :depends numpy: 
    :depends pandas: 
    :depends pre-commit: 
+   :depends protobuf: 
    :depends pytest: ``>=7.0.0``
    :depends pytest-workflow: ``>=1.6.0``
    :depends python: ``>=3.8,<4.0``
@@ -93,7 +94,7 @@ amulety
 
     <script>
         var package = "amulety";
-        var versions = ["1.0"];
+        var versions = ["1.1","1.0"];
     </script>
 
 

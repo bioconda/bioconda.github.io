@@ -10,11 +10,14 @@ syri
    :replaces_section_title:
    :noindex:
 
-   Synteny and rearrangement identifier between whole\-genome assemblies
+   Synteny and rearrangement identifier between whole\-genome assemblies.
 
    :homepage: https://github.com/schneebergerlab/syri
-   :license: MIT License
+   :documentation: https://schneebergerlab.github.io/syri
+   
+   :license: MIT / MIT
    :recipe: /`syri <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/syri>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/syri/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s13059-019-1911-0`, biotools: :biotools:`SyRI`
 
    
 
@@ -27,28 +30,30 @@ syri
       
       
 
-      ``1.7.0-0``,  ``1.6.3-2``,  ``1.6.3-1``,  ``1.6.3-0``,  ``1.6-1``,  ``1.6-0``,  ``1.5.4-0``,  ``1.5.3-0``
+      ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.3-2``,  ``1.6.3-1``,  ``1.6.3-0``,  ``1.6-1``,  ``1.6-0``,  ``1.5.4-0``,  ``1.5.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libxcrypt: ``>=4.4.36``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends longestrunsubsequence: 
-   :depends numpy: ``>=1.21.2``
-   :depends numpy: ``>=1.26.4,<2.0a0``
-   :depends pandas: ``>=1.2.4``
-   :depends psutil: ``>=5.8``
+   :depends numpy: ``>=1.22.4,<2.0a0``
+   :depends pandas: 
+   :depends psutil: 
    :depends pulp: 
-   :depends pysam: ``>=0.16.0.1``
+   :depends pysam: 
    :depends python: ``>=3.10,<3.11.0a0``
-   :depends python-igraph: ``>=0.9.1``
+   :depends python-igraph: 
    :depends python_abi: ``3.10.* *_cp310``
-   :depends scipy: ``>=1.6.2``
+   :depends scipy: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -96,7 +101,7 @@ syri
 
     <script>
         var package = "syri";
-        var versions = ["1.7.0","1.6.3","1.6.3","1.6.3","1.6"];
+        var versions = ["1.7.1","1.7.0","1.6.3","1.6.3","1.6.3"];
     </script>
 
 

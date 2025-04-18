@@ -51,6 +51,7 @@ atlas
    :depends libgomp: 
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends mkl: 
    :depends nlohmann_json: 
    :depends openblas: 
    :depends sysroot_linux-64: ``2.17.*``

@@ -31,10 +31,10 @@ hictkpy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.0.5-2</code>,  <code>0.0.5-1</code>,  <code>0.0.5-0</code>,  <code>0.0.4-0</code>,  <code>0.0.3-0</code>,  <code>0.0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.0.5-2</code>,  <code>0.0.5-1</code>,  <code>0.0.5-0</code>,  <code>0.0.4-0</code>,  <code>0.0.3-0</code>,  </span></summary>
       
 
-      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -48,9 +48,10 @@ hictkpy
    :depends libarrow: ``>=19.0.1,<19.1.0a0``
    :depends libdeflate: ``>=1,<2.0a0``
    :depends libdeflate: ``>=1.23,<1.24.0a0``
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends numpy: ``>=1.22.4,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends numpy: ``>=1.21,<3``
+   :depends numpy: ``>=2,<3.0a0``
    :depends pandas: 
    :depends pyarrow: 
    :depends python: ``>=3.10,<3.11.0a0``
@@ -112,7 +113,7 @@ hictkpy
 
     <script>
         var package = "hictkpy";
-        var versions = ["1.2.0","1.1.0","1.0.0","0.0.5","0.0.5"];
+        var versions = ["1.2.0","1.2.0","1.1.0","1.0.0","0.0.5"];
     </script>
 
 

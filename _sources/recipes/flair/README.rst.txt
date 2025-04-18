@@ -31,10 +31,10 @@ flair
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.1-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.7.0-1</code>,  <code>1.7.0-0</code>,  <code>1.6.4-0</code>,  <code>1.6.3-0</code>,  <code>1.5-4</code>,  <code>1.5-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.7.0-1</code>,  <code>1.7.0-0</code>,  <code>1.6.4-0</code>,  <code>1.6.3-0</code>,  <code>1.5-4</code>,  </span></summary>
       
 
-      ``2.1.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.5-4``,  ``1.5-3``,  ``1.4-0``
+      ``2.1.2-0``,  ``2.1.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.5-4``,  ``1.5-3``,  ``1.4-0``
 
       
       .. raw:: html
@@ -43,28 +43,18 @@ flair
       
 
    
-   :depends bioconductor-apeglm: 
-   :depends bioconductor-deseq2: 
-   :depends bioconductor-drimseq: 
-   :depends bioconductor-stager: 
-   :depends mappy: ``>=2.28``
-   :depends matplotlib-base: 
-   :depends minimap2: ``>=2.28``
-   :depends ncls: 
-   :depends numpy: ``>=2.2``
-   :depends pandas: 
-   :depends pipettor: 
-   :depends pybedtools: 
-   :depends pysam: 
+   :depends bedtools: ``>=2.31.1,<3.0``
+   :depends mappy: ``>=2.28,<3.0``
+   :depends minimap2: ``>=2.28,<3.00``
+   :depends ncls: ``>=0.0.68,<0.0.69``
+   :depends numpy: ``>=2.2,<3.0``
+   :depends pipettor: ``>=1.1,<2.0.0``
+   :depends pybedtools: ``>=0.11.0,<0.12.0``
+   :depends pysam: ``>=0.22.1,<0.23.0``
    :depends python: ``>=3.12,<3.13``
-   :depends r-ggplot2: 
-   :depends r-lazyeval: 
-   :depends r-qqman: 
-   :depends rpy2: 
-   :depends samtools: 
-   :depends scipy: 
-   :depends seaborn-base: 
-   :depends tqdm: 
+   :depends samtools: ``>=1.21``
+   :depends scipy: ``>=1.15.1,<2.0.0``
+   :depends setuptools: ``>=75.8.0,<76.0.0``
    :requirements:
 
    :additional platforms:
@@ -115,7 +105,7 @@ flair
 
     <script>
         var package = "flair";
-        var versions = ["2.1.1","2.0.0","2.0.0","1.7.0","1.7.0"];
+        var versions = ["2.1.2","2.1.1","2.0.0","2.0.0","1.7.0"];
     </script>
 
 
