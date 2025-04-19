@@ -30,20 +30,21 @@ stripepy-hic
       
       
 
-      ``0.0.2-0``
+      ``1.0.0-0``,  ``0.0.2-0``
 
       
 
    
+   :depends colorama: 
    :depends h5py: ``>=3``
-   :depends hictkpy: ``>=1``
+   :depends hictkpy: ``>=1.2``
    :depends matplotlib-base: ``>=3.8``
-   :depends numpy: 
+   :depends numpy: ``>=2``
    :depends pandas: ``>=2``
    :depends python: 
-   :depends scikit-learn: 
+   :depends rich: ``>=13.9``
    :depends scipy: 
-   :depends seaborn-base: ``>=0.13``
+   :depends structlog: ``>=24``
    :requirements:
 
    :additional platforms:
@@ -94,7 +95,7 @@ stripepy-hic
 
     <script>
         var package = "stripepy-hic";
-        var versions = ["0.0.2"];
+        var versions = ["1.0.0","0.0.2"];
     </script>
 
 
