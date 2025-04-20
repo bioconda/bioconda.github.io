@@ -29,7 +29,7 @@ rdeval
       
       
 
-      ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-1``,  ``0.0.2-0``
+      ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-1``,  ``0.0.2-0``
 
       
 
@@ -38,7 +38,9 @@ rdeval
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends openssl: ``>=3.4.0,<4.0a0``
+   :depends openssl: ``>=3.5.0,<4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-rmarkdown: 
    :requirements:
 
    :additional platforms:
@@ -93,7 +95,7 @@ rdeval
 
     <script>
         var package = "rdeval";
-        var versions = ["0.0.5","0.0.4","0.0.3","0.0.2","0.0.2"];
+        var versions = ["0.0.5","0.0.5","0.0.4","0.0.3","0.0.2"];
     </script>
 
 
