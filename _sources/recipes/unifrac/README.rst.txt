@@ -33,10 +33,10 @@ unifrac
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3-0</code>,  <code>1.2-0</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.20.3-0</code>,  <code>0.20.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.2-0</code>,  <code>1.3-0</code>,  <code>1.2-0</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.20.3-0</code>,  </span></summary>
       
 
-      ``1.3-0``,  ``1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.20.3-0``,  ``0.20.2-1``,  ``0.20.2-0``,  ``0.20.1-0``,  ``0.20.0-1``,  ``0.20.0-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.3-1``,  ``0.9.3-0``
+      ``1.3.2-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.20.3-0``,  ``0.20.2-1``,  ``0.20.2-0``,  ``0.20.1-0``,  ``0.20.0-1``,  ``0.20.0-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.3-1``,  ``0.9.3-0``
 
       
       .. raw:: html
@@ -47,14 +47,15 @@ unifrac
    
    :depends biom-format: 
    :depends h5py: ``<3.0.0|>3.3.0``
-   :depends iow: 
-   :depends libgcc-ng: ``>=12``
-   :depends numpy: ``>=1.24.3,<2.0a0``
+   :depends iow: ``>=1.0.7,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends numpy: ``>=1.21,<3``
+   :depends numpy: ``>=2.2.4,<3.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends scikit-bio: ``>=0.5.8``
    :depends scipy: ``>=1.9.0``
-   :depends unifrac-binaries: ``>=1.3``
+   :depends unifrac-binaries: ``>=1.3.2``
    :requirements:
 
    :additional platforms:
@@ -105,7 +106,7 @@ unifrac
 
     <script>
         var package = "unifrac";
-        var versions = ["1.3","1.2","1.1.1","1.1.1","1.1.0"];
+        var versions = ["1.3.2","1.3","1.2","1.1.1","1.1.1"];
     </script>
 
 

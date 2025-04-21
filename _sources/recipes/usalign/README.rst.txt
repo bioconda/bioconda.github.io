@@ -18,6 +18,7 @@ usalign
    :developer docs: https://github.com/pylelab/USalign
    :license: OTHER / UNKNOWN
    :recipe: /`usalign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/usalign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/usalign/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41592-022-01585-1`
 
    US\-align \(Universal Structural alignment\) is a unified protocol
    to compare 3D structures of different macromolecules \(proteins\, RNAs and DNAs\)
@@ -41,7 +42,7 @@ usalign
       
       
 
-      ``2024.07.30-1``,  ``2024.07.30-0``
+      ``20241201-0``,  ``2024.07.30-1``,  ``2024.07.30-0``
 
       
 
@@ -102,7 +103,7 @@ usalign
 
     <script>
         var package = "usalign";
-        var versions = ["2024.07.30","2024.07.30"];
+        var versions = ["20241201","2024.07.30","2024.07.30"];
     </script>
 
 
