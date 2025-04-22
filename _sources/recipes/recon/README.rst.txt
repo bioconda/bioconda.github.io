@@ -12,9 +12,11 @@ recon
 
    The RECON package performs de novo identification and classification of repeat sequence families from genomic sequences.
 
-   :homepage: http://eddylab.org/software/recon/
-   :license: GPL2
+   :homepage: http://eddylab.org/software/recon
+   :developer docs: https://github.com/Dfam-consortium/RepeatModeler
+   :license: GPL2 / GPL-2.0-or-later
    :recipe: /`recon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/recon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/recon/meta.yaml>`_
+   :links: doi: :doi:`10.1101/gr.88502`
 
    
 
@@ -27,19 +29,19 @@ recon
       
       
 
-      ``1.08-7``,  ``1.08-6``,  ``1.08-5``,  ``1.08-4``,  ``1.08-3``,  ``1.08-2``,  ``1.08-1``,  ``1.08-0``
+      ``1.08-9``,  ``1.08-7``,  ``1.08-6``,  ``1.08-5``,  ``1.08-4``,  ``1.08-3``,  ``1.08-2``,  ``1.08-1``,  ``1.08-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

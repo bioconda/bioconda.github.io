@@ -10,10 +10,12 @@ cogclassifier
    :replaces_section_title:
    :noindex:
 
-   Classify prokaryote protein sequences into COG functional category
+   Classify prokaryote protein sequences into COG functional category.
 
-   :homepage: https://github.com/moshi4/COGclassifier/
-   :license: MIT
+   :homepage: https://github.com/moshi4/COGclassifier
+   :documentation: https://github.com/moshi4/COGclassifier/blob/v2.0.0/README.md
+   
+   :license: MIT / MIT
    :recipe: /`cogclassifier <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cogclassifier>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cogclassifier/meta.yaml>`_
 
    
@@ -27,15 +29,19 @@ cogclassifier
       
       
 
-      ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``
+      ``2.0.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``
 
       
 
    
-   :depends altair: ``>=4.2.0,<5.0.0``
-   :depends pandas: ``>=1.4.1,<2.0.0``
-   :depends python: ``>=3.6,<4.0``
-   :depends requests: ``>=2.27.1,<3.0.0``
+   :depends altair: ``>=5.0.0``
+   :depends blast: ``>=2.12.0``
+   :depends pandas: ``>=2.0.0``
+   :depends pydantic: ``>=2.11.3``
+   :depends python: ``>=3.9``
+   :depends requests: ``>=2.27.1``
+   :depends typer: ``>=0.15.2``
+   :depends vl-convert-python: ``>=1.7.0``
    :requirements:
 
    :additional platforms:
@@ -86,7 +92,7 @@ cogclassifier
 
     <script>
         var package = "cogclassifier";
-        var versions = ["1.0.5","1.0.4","1.0.3"];
+        var versions = ["2.0.0","1.0.5","1.0.4","1.0.3"];
     </script>
 
 

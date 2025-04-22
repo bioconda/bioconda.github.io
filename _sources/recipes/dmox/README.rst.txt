@@ -13,7 +13,7 @@ dmox
    Rust\-based demultiplexing of haplotagging linked\-read data.
 
    :homepage: https://gitlab.mbb.cnrs.fr/ibonnici/dmox
-   :documentation: https://gitlab.mbb.cnrs.fr/ibonnici/dmox/-/blob/v0.1.3/README.md
+   :documentation: https://gitlab.mbb.cnrs.fr/ibonnici/dmox/-/blob/v0.2.0/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`dmox <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dmox>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dmox/meta.yaml>`_
@@ -31,7 +31,7 @@ dmox
       
       
 
-      ``0.1.3-0``
+      ``0.2.0-0``,  ``0.1.3-0``
 
       
 
@@ -92,7 +92,7 @@ dmox
 
     <script>
         var package = "dmox";
-        var versions = ["0.1.3"];
+        var versions = ["0.2.0","0.1.3"];
     </script>
 
 

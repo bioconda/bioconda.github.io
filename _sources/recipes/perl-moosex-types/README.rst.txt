@@ -10,7 +10,7 @@ perl-moosex-types
    :replaces_section_title:
    :noindex:
 
-   Organise your Moose types in libraries
+   Organise your Moose types in libraries.
 
    :homepage: https://github.com/moose/MooseX-Types
    :license: perl_5
@@ -27,7 +27,7 @@ perl-moosex-types
       
       
 
-      ``0.50-2``,  ``0.50-1``,  ``0.50-0``,  ``0.46-2``,  ``0.46-1``,  ``0.46-0``
+      ``0.51-0``,  ``0.50-2``,  ``0.50-1``,  ``0.50-0``,  ``0.46-2``,  ``0.46-1``,  ``0.46-0``
 
       
 
@@ -47,6 +47,7 @@ perl-moosex-types
    :depends perl-mro-compat: 
    :depends perl-namespace-autoclean: 
    :depends perl-package-deprecationmanager: 
+   :depends perl-parent: 
    :depends perl-sub-exporter: 
    :depends perl-sub-exporter-formethods: 
    :depends perl-sub-install: 
@@ -101,7 +102,7 @@ perl-moosex-types
 
     <script>
         var package = "perl-moosex-types";
-        var versions = ["0.50","0.50","0.50","0.46","0.46"];
+        var versions = ["0.51","0.50","0.50","0.50","0.46"];
     </script>
 
 

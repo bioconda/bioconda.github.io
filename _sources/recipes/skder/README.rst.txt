@@ -28,10 +28,10 @@ skder
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.9-0</code>,  <code>1.2.8-1</code>,  <code>1.2.8-0</code>,  <code>1.2.7-0</code>,  <code>1.2.6-0</code>,  <code>1.2.5-0</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.0-0</code>,  <code>1.2.9-0</code>,  <code>1.2.8-1</code>,  <code>1.2.8-0</code>,  <code>1.2.7-0</code>,  <code>1.2.6-0</code>,  <code>1.2.5-0</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  </span></summary>
       
 
-      ``1.2.9-0``,  ``1.2.8-1``,  ``1.2.8-0``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
+      ``1.3.0-0``,  ``1.2.9-0``,  ``1.2.8-1``,  ``1.2.8-0``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
 
       
       .. raw:: html
@@ -40,12 +40,13 @@ skder
       
 
    
+   :depends aiofile: 
+   :depends aiohttp: 
    :depends biopython: 
    :depends cd-hit: 
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends matplotlib-base: 
-   :depends ncbi-genome-download: 
    :depends pandas: 
    :depends pyrodigal: 
    :depends python: ``>=3.10,<3.11.0a0``
@@ -54,6 +55,7 @@ skder
    :depends seaborn: 
    :depends setuptools: 
    :depends skani: 
+   :depends tqdm: 
    :depends wget: 
    :requirements:
 
@@ -109,7 +111,7 @@ skder
 
     <script>
         var package = "skder";
-        var versions = ["1.2.9","1.2.8","1.2.8","1.2.7","1.2.6"];
+        var versions = ["1.3.0","1.2.9","1.2.8","1.2.8","1.2.7"];
     </script>
 
 

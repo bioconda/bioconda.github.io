@@ -29,10 +29,10 @@ bioconductor-scran
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.1-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.22.1-1</code>,  <code>1.22.1-0</code>,  <code>1.22.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.1-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.22.1-1</code>,  <code>1.22.1-0</code>,  </span></summary>
       
 
-      ``1.34.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.1-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.22.1-1``,  ``1.22.1-0``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.18.5-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.1-0``,  ``1.8.4-0``,  ``1.6.2-0``,  ``1.4.5-0``
+      ``1.34.0-1``,  ``1.34.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.1-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.22.1-1``,  ``1.22.1-0``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.18.5-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.1-0``,  ``1.8.4-0``,  ``1.6.2-0``,  ``1.4.5-0``
 
       
       .. raw:: html
@@ -56,7 +56,7 @@ bioconductor-scran
    :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
    :depends bioconductor-edger: ``>=4.4.0,<4.5.0a0``
    :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0a0``
+   :depends bioconductor-limma: ``>=3.62.1,<3.63.0a0``
    :depends bioconductor-matrixgenerics: ``>=1.18.0,<1.19.0``
    :depends bioconductor-matrixgenerics: ``>=1.18.0,<1.19.0a0``
    :depends bioconductor-metapod: ``>=1.14.0,<1.15.0``
@@ -88,7 +88,7 @@ bioconductor-scran
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -136,7 +136,7 @@ bioconductor-scran
 
     <script>
         var package = "bioconductor-scran";
-        var versions = ["1.34.0","1.30.0","1.30.0","1.28.1","1.26.0"];
+        var versions = ["1.34.0","1.34.0","1.30.0","1.30.0","1.28.1"];
     </script>
 
 

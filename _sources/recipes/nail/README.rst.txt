@@ -28,11 +28,12 @@ nail
       
       
 
-      ``0.3.0-0``
+      ``0.3.0-1``,  ``0.3.0-0``
 
       
 
    
+   :depends mmseqs2: 
    :requirements:
 
    :additional platforms:
@@ -83,7 +84,7 @@ nail
 
     <script>
         var package = "nail";
-        var versions = ["0.3.0"];
+        var versions = ["0.3.0","0.3.0"];
     </script>
 
 

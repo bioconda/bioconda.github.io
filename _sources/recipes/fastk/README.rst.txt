@@ -26,14 +26,22 @@ fastk
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0.0-1``,  ``1.0.0-0``,  ``1.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.0-2</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0-4</code>,  <code>1.0-3</code>,  <code>1.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0-1</code>,  <code>1.0-0</code>,  </span></summary>
+      
 
+      ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0.0-1``,  ``1.0-1``,  ``1.0-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libcurl: ``>=8.11.1,<9.0a0``
+   :depends libcurl: ``>=8.13.0,<9.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
@@ -43,7 +51,7 @@ fastk
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -91,7 +99,7 @@ fastk
 
     <script>
         var package = "fastk";
-        var versions = ["1.1.0","1.1.0","1.0","1.0","1.0"];
+        var versions = ["1.1.0","1.1.0","1.1.0","1.0","1.0"];
     </script>
 
 

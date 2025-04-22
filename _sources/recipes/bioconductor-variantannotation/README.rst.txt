@@ -29,10 +29,10 @@ bioconductor-variantannotation
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.52.0-0</code>,  <code>1.48.1-1</code>,  <code>1.48.1-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.40.0-2</code>,  <code>1.40.0-1</code>,  <code>1.40.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.52.0-1</code>,  <code>1.52.0-0</code>,  <code>1.48.1-1</code>,  <code>1.48.1-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.40.0-2</code>,  <code>1.40.0-1</code>,  </span></summary>
       
 
-      ``1.52.0-0``,  ``1.48.1-1``,  ``1.48.1-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.40.0-2``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.1-0``,  ``1.30.0-0``,  ``1.28.3-0``,  ``1.26.1-0``,  ``1.24.1-0``,  ``1.22.3-0``,  ``1.20.3-0``,  ``1.18.7-0``,  ``1.16.4-0``,  ``1.16.3-0``,  ``1.16.1-0``,  ``1.16.0-0``
+      ``1.52.0-1``,  ``1.52.0-0``,  ``1.48.1-1``,  ``1.48.1-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.40.0-2``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.1-0``,  ``1.30.0-0``,  ``1.28.3-0``,  ``1.26.1-0``,  ``1.24.1-0``,  ``1.22.3-0``,  ``1.20.3-0``,  ``1.18.7-0``,  ``1.16.4-0``,  ``1.16.3-0``,  ``1.16.1-0``,  ``1.16.0-0``
 
       
       .. raw:: html
@@ -78,7 +78,7 @@ bioconductor-variantannotation
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends liblzma: ``>=5.6.3,<6.0a0``
+   :depends liblzma: ``>=5.8.1,<6.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dbi: 
@@ -88,7 +88,7 @@ bioconductor-variantannotation
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -136,7 +136,7 @@ bioconductor-variantannotation
 
     <script>
         var package = "bioconductor-variantannotation";
-        var versions = ["1.52.0","1.48.1","1.48.1","1.46.0","1.44.0"];
+        var versions = ["1.52.0","1.52.0","1.48.1","1.48.1","1.46.0"];
     </script>
 
 

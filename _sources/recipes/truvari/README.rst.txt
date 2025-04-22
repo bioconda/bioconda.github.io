@@ -10,7 +10,7 @@ truvari
    :replaces_section_title:
    :noindex:
 
-   Structural variant comparison tool for VCFs
+   Structural variant comparison tool for VCFs.
 
    :homepage: https://github.com/ACEnglish/truvari
    :documentation: https://github.com/acenglish/truvari/wiki
@@ -30,10 +30,10 @@ truvari
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.2.0-0</code>,  <code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.3.1-0</code>,  <code>4.3.0-0</code>,  <code>4.2.2-0</code>,  <code>4.1.0-1</code>,  <code>4.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.3.0-0</code>,  <code>5.2.0-0</code>,  <code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.3.1-0</code>,  <code>4.3.0-0</code>,  <code>4.2.2-0</code>,  <code>4.1.0-1</code>,  </span></summary>
       
 
-      ``5.2.0-0``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.3.1-0``,  ``4.3.0-0``,  ``4.2.2-0``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.5.0-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``0.1.2018.08.10-2``,  ``0.1.2018.08.10-1``,  ``0.1.2018.08.10-0``
+      ``5.3.0-0``,  ``5.2.0-0``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.3.1-0``,  ``4.3.0-0``,  ``4.2.2-0``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.5.0-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``0.1.2018.08.10-2``,  ``0.1.2018.08.10-1``,  ``0.1.2018.08.10-0``
 
       
       .. raw:: html
@@ -47,6 +47,7 @@ truvari
    :depends joblib: ``>=1.2.0``
    :depends mafft: ``>=7.515``
    :depends pandas: ``>=1.5.3``
+   :depends psutil: 
    :depends pyabpoa: ``>=1.4.3``
    :depends pysam: ``>=0.22``
    :depends pytabix: ``>=0.1``
@@ -104,7 +105,7 @@ truvari
 
     <script>
         var package = "truvari";
-        var versions = ["5.2.0","5.1.1","5.1.0","5.0.0","4.3.1"];
+        var versions = ["5.3.0","5.2.0","5.1.1","5.1.0","5.0.0"];
     </script>
 
 

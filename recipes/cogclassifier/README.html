@@ -67,16 +67,19 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">cogclassifier</span></span></dt>
-<dd><p>Classify prokaryote protein sequences into COG functional category</p>
+<dd><p>Classify prokaryote protein sequences into COG functional category.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/moshi4/COGclassifier/">https://github.com/moshi4/COGclassifier/</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/moshi4/COGclassifier">https://github.com/moshi4/COGclassifier</a></p>
 </dd>
-<dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>MIT</p>
+<dt class="field-even">Documentation<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://github.com/moshi4/COGclassifier/blob/v2.0.0/README.md">https://github.com/moshi4/COGclassifier/blob/v2.0.0/README.md</a></p>
 </dd>
-<dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cogclassifier">cogclassifier</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cogclassifier/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">License<span class="colon">:</span></dt>
+<dd class="field-odd"><p>MIT / MIT</p>
+</dd>
+<dt class="field-even">Recipe<span class="colon">:</span></dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cogclassifier">cogclassifier</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cogclassifier/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -88,19 +91,31 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/cogclassifier"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/cogclassifier.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/cogclassifier"><img alt="docker_cogclassifier" src="https://quay.io/repository/biocontainers/cogclassifier/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.3-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.0.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.3-0</span></code></p>
 </dd>
 <dt class="field-even">depends altair<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.2.0,&lt;5.0.0</span></code></p>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=5.0.0</span></code></p>
 </dd>
-<dt class="field-odd">depends pandas<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.4.1,&lt;2.0.0</span></code></p>
+<dt class="field-odd">depends blast<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.12.0</span></code></p>
+</dd>
+<dt class="field-even">depends pandas<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.0.0</span></code></p>
+</dd>
+<dt class="field-odd">depends pydantic<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.11.3</span></code></p>
 </dd>
 <dt class="field-even">depends python<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.6,&lt;4.0</span></code></p>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.9</span></code></p>
 </dd>
 <dt class="field-odd">depends requests<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.27.1,&lt;3.0.0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.27.1</span></code></p>
+</dd>
+<dt class="field-even">depends typer<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.15.2</span></code></p>
+</dd>
+<dt class="field-odd">depends vl-convert-python<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.7.0</span></code></p>
 </dd>
 <dt class="field-even">requirements<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
@@ -140,7 +155,7 @@ others.</p>
 
 <script>
     var package = "cogclassifier";
-    var versions = ["1.0.5","1.0.4","1.0.3"];
+    var versions = ["2.0.0","1.0.5","1.0.4","1.0.3"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
