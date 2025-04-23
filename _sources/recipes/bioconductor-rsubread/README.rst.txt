@@ -29,10 +29,10 @@ bioconductor-rsubread
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.20.0-0</code>,  <code>2.16.1-0</code>,  <code>2.16.0-0</code>,  <code>2.14.2-0</code>,  <code>2.12.0-1</code>,  <code>2.12.0-0</code>,  <code>2.8.2-0</code>,  <code>2.8.1-0</code>,  <code>2.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.20.0-1</code>,  <code>2.20.0-0</code>,  <code>2.16.1-0</code>,  <code>2.16.0-0</code>,  <code>2.14.2-0</code>,  <code>2.12.0-1</code>,  <code>2.12.0-0</code>,  <code>2.8.2-0</code>,  <code>2.8.1-0</code>,  </span></summary>
       
 
-      ``2.20.0-0``,  ``2.16.1-0``,  ``2.16.0-0``,  ``2.14.2-0``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.8.2-0``,  ``2.8.1-0``,  ``2.8.0-0``,  ``2.6.1-0``,  ``2.4.3-0``,  ``2.4.0-0``,  ``2.2.1-0``,  ``2.0.0-0``,  ``1.34.6-0``,  ``1.34.4-0``,  ``1.34.0-0``,  ``1.32.4-0``,  ``1.32.2-0``,  ``1.30.9-0``,  ``1.28.1-0``,  ``1.28.0-0``,  ``1.26.1-0``,  ``1.25.2-0``,  ``1.23.0-0``,  ``1.22.1-0``
+      ``2.20.0-1``,  ``2.20.0-0``,  ``2.16.1-0``,  ``2.16.0-0``,  ``2.14.2-0``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.8.2-0``,  ``2.8.1-0``,  ``2.8.0-0``,  ``2.6.1-0``,  ``2.4.3-0``,  ``2.4.0-0``,  ``2.2.1-0``,  ``2.0.0-0``,  ``1.34.6-0``,  ``1.34.4-0``,  ``1.34.0-0``,  ``1.32.4-0``,  ``1.32.2-0``,  ``1.30.9-0``,  ``1.28.1-0``,  ``1.28.0-0``,  ``1.26.1-0``,  ``1.25.2-0``,  ``1.23.0-0``,  ``1.22.1-0``
 
       
       .. raw:: html
@@ -53,7 +53,7 @@ bioconductor-rsubread
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -101,7 +101,7 @@ bioconductor-rsubread
 
     <script>
         var package = "bioconductor-rsubread";
-        var versions = ["2.20.0","2.16.1","2.16.0","2.14.2","2.12.0"];
+        var versions = ["2.20.0","2.20.0","2.16.1","2.16.0","2.14.2"];
     </script>
 
 

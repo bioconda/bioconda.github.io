@@ -18,7 +18,7 @@ twilight
    :license: MIT / MIT
    :recipe: /`twilight <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/twilight>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/twilight/meta.yaml>`_
 
-   TWILIGHT \(Tall and Wide Alignments at High Throughput\) is a tool designed for ultrafast and ultralarge multiple sequence alignment. It is able to scale to millions of long nucleotide sequences \(\>10000 bases\). By default\, TWILIGHT requires an unaligned sequence file in FASTA format and an input guide tree in Newick format to generate the output alignment in FASTA format. When a guide tree is unavailable\, users can utilize the iterative mode\, which provides a Snakemake workflow to estimate guide trees using external tools.
+   TWILIGHT \(Tall and Wide Alignments at High Throughput\) is a tool designed for ultrafast and ultralarge multiple sequence alignment. It is able to scale to millions of long nucleotide sequences \(\>10000 bases\).
 
 
 .. conda:package:: twilight
@@ -29,7 +29,7 @@ twilight
       
       
 
-      ``0.1.2-0``,  ``0.1.1-0``
+      ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -92,7 +92,7 @@ twilight
 
     <script>
         var package = "twilight";
-        var versions = ["0.1.2","0.1.1"];
+        var versions = ["0.1.2","0.1.2","0.1.1"];
     </script>
 
 

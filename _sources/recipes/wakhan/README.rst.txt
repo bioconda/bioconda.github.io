@@ -27,16 +27,16 @@ wakhan
       
       
 
-      ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.1.1-3``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
    
    :depends bcftools: ``>=1.14``
-   :depends numpy: 
+   :depends numpy: ``1.24.4``
    :depends pandas: 
    :depends parse-vcf: 
-   :depends plotly: 
+   :depends plotly: ``5.24.1``
    :depends pyfaidx: 
    :depends pysam: 
    :depends python: ``>=3.7``
@@ -96,7 +96,7 @@ wakhan
 
     <script>
         var package = "wakhan";
-        var versions = ["0.1.1","0.1.1","0.1.1"];
+        var versions = ["0.1.1","0.1.1","0.1.1","0.1.1"];
     </script>
 
 

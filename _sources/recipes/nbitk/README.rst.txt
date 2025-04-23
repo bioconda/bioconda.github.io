@@ -27,25 +27,19 @@ nbitk
       
       
 
-      ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.3-0``,  ``0.3.2-0``
+      ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.3-0``,  ``0.3.2-0``
 
       
 
    
    :depends biopython: 
-   :depends blast: 
-   :depends cutadapt: 
    :depends ete3: 
-   :depends hmmer: 
    :depends minio: 
    :depends openpyxl: 
    :depends pandas: 
-   :depends perl-bio-phylo-forest-dbtree: 
    :depends python: ``>=3.9``
    :depends pyyaml: 
-   :depends raxml-ng: 
    :depends requests: 
-   :depends vsearch: 
    :requirements:
 
    :additional platforms:
@@ -96,7 +90,7 @@ nbitk
 
     <script>
         var package = "nbitk";
-        var versions = ["0.5.1","0.5.0","0.4.0","0.3.3","0.3.2"];
+        var versions = ["0.5.2","0.5.1","0.5.0","0.4.0","0.3.3"];
     </script>
 
 

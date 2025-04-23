@@ -10,12 +10,12 @@ vireosnp
    :replaces_section_title:
    :noindex:
 
-   vireoSNP \- donor deconvolution for multiplexed scRNA\-seq data
+   vireoSNP \- donor deconvolution for multiplexed scRNA\-seq data.
 
    :homepage: https://github.com/huangyh09/vireoSNP
-   :documentation: https://vireosnp.readthedocs.io/en/latest/
+   :documentation: https://vireosnp.readthedocs.io/en/latest
    
-   :license: Apache-2.0
+   :license: APACHE / Apache-2.0
    :recipe: /`vireosnp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vireosnp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vireosnp/meta.yaml>`_
 
    
@@ -29,7 +29,7 @@ vireosnp
       
       
 
-      ``0.5.8-0``
+      ``0.5.9-0``,  ``0.5.8-0``
 
       
 
@@ -88,7 +88,7 @@ vireosnp
 
     <script>
         var package = "vireosnp";
-        var versions = ["0.5.8"];
+        var versions = ["0.5.9","0.5.8"];
     </script>
 
 

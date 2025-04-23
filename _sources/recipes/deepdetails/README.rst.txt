@@ -29,7 +29,7 @@ deepdetails
       
       
 
-      ``0.0.1rc1-0``
+      ``0.0.1rc2-0``,  ``0.0.1rc1-0``
 
       
 
@@ -104,7 +104,7 @@ deepdetails
 
     <script>
         var package = "deepdetails";
-        var versions = ["0.0.1rc1"];
+        var versions = ["0.0.1rc2","0.0.1rc1"];
     </script>
 
 
