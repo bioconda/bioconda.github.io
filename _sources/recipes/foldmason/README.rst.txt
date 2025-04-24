@@ -28,7 +28,7 @@ foldmason
       
       
 
-      ``2.7bd21ed-0``,  ``1.763a428-0``
+      ``3.954d202-0``,  ``2.7bd21ed-0``,  ``1.763a428-0``
 
       
 
@@ -40,7 +40,6 @@ foldmason
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends wget: 
    :depends zlib: 
    :requirements:
@@ -97,7 +96,7 @@ foldmason
 
     <script>
         var package = "foldmason";
-        var versions = ["2.7bd21ed","1.763a428"];
+        var versions = ["3.954d202","2.7bd21ed","1.763a428"];
     </script>
 
 

@@ -27,13 +27,15 @@ graphembed
       
       
 
-      ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
+   :depends lapack: 
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
+   :depends openblas: 
    :requirements:
 
    :additional platforms:
@@ -84,7 +86,7 @@ graphembed
 
     <script>
         var package = "graphembed";
-        var versions = ["0.1.5","0.1.4","0.1.3","0.1.2","0.1.1"];
+        var versions = ["0.1.6","0.1.5","0.1.4","0.1.3","0.1.2"];
     </script>
 
 

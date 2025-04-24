@@ -13,7 +13,7 @@ smoothxg
    Local reconstruction of variation graphs using partial order alignment.
 
    :homepage: https://github.com/pangenome/smoothxg
-   :documentation: https://github.com/pangenome/smoothxg/blob/v0.8.1/README.md
+   :documentation: https://github.com/pangenome/smoothxg/blob/v0.8.2/README.md
    
    :license: MIT / MIT
    :recipe: /`smoothxg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smoothxg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smoothxg/meta.yaml>`_
@@ -31,10 +31,10 @@ smoothxg
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.1-0</code>,  <code>0.8.0-1</code>,  <code>0.8.0-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-2</code>,  <code>0.7.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-1</code>,  <code>0.8.0-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-2</code>,  </span></summary>
       
 
-      ``0.8.1-0``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-2``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.8-0``,  ``0.6.7-1``,  ``0.6.7-0``,  ``0.6.5-2``,  ``0.6.5-1``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.2-1``,  ``0.6.2-0``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``
+      ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-2``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.8-0``,  ``0.6.7-1``,  ``0.6.7-0``,  ``0.6.5-2``,  ``0.6.5-1``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.2-1``,  ``0.6.2-0``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``
 
       
       .. raw:: html
@@ -103,7 +103,7 @@ smoothxg
 
     <script>
         var package = "smoothxg";
-        var versions = ["0.8.1","0.8.0","0.8.0","0.7.4","0.7.3"];
+        var versions = ["0.8.2","0.8.1","0.8.0","0.8.0","0.7.4"];
     </script>
 
 
