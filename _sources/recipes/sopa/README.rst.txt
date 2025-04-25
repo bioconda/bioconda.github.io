@@ -12,7 +12,9 @@ sopa
 
    Spatial\-omics pipeline and analysis.
 
-   :homepage: https://gustaveroussy.github.io/sopa
+   :homepage: https://github.com/gustaveroussy/sopa
+   :documentation: https://gustaveroussy.github.io/sopa
+   
    :license: BSD / BSD-3-Clause
    :recipe: /`sopa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sopa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sopa/meta.yaml>`_
 
@@ -27,19 +29,19 @@ sopa
       
       
 
-      ``2.0.4-0``,  ``2.0.3-0``,  ``1.1.5-0``
+      ``2.0.6-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``1.1.5-0``
 
       
 
    
    :depends anndata: ``>=0.11.0``
-   :depends flake8: ``>=7.0.0,<8.0.0``
+   :depends dask-core: ``>=2024.4.1``
    :depends opencv: ``>=4.8.0``
-   :depends python: ``>=3.9,<3.13``
+   :depends python: ``>=3.10,<3.13``
    :depends scanpy: ``>=1.10.4``
-   :depends spatialdata: ``>=0.3.0``
-   :depends spatialdata-io: ``>=0.1.7``
-   :depends spatialdata-plot: ``>=0.2.9``
+   :depends spatialdata: ``>=0.4.0``
+   :depends spatialdata-io: ``>=0.2.0``
+   :depends spatialdata-plot: ``>=0.2.10``
    :depends typer: ``>=0.9.0``
    :requirements:
 
@@ -91,7 +93,7 @@ sopa
 
     <script>
         var package = "sopa";
-        var versions = ["2.0.4","2.0.3","1.1.5"];
+        var versions = ["2.0.6","2.0.4","2.0.3","1.1.5"];
     </script>
 
 

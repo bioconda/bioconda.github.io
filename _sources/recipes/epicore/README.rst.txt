@@ -13,7 +13,7 @@ epicore
    Compute core epitopes from multiple overlapping peptides.
 
    :homepage: https://github.com/AG-Walz/epicore
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`epicore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/epicore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/epicore/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ epicore
       
       
 
-      ``0.1.2-0``
+      ``0.1.3-0``,  ``0.1.2-0``
 
       
 
@@ -36,6 +36,7 @@ epicore
    :depends click: ``>=8.1``
    :depends matplotlib-base: ``>=3.4``
    :depends numpy: ``>=2``
+   :depends openpyxl: ``>=3.1.3``
    :depends pandas: ``>=2``
    :depends python: ``>=3.12``
    :depends pyyaml: ``>=6.0.2``
@@ -89,7 +90,7 @@ epicore
 
     <script>
         var package = "epicore";
-        var versions = ["0.1.2"];
+        var versions = ["0.1.3","0.1.2"];
     </script>
 
 

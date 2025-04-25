@@ -27,19 +27,19 @@ eukfinder
       
       
 
-      ``1.2.3-0``
+      ``1.2.4-0``,  ``1.2.3-0``
 
       
 
    
    :depends bowtie2: 
    :depends centrifuge: 
-   :depends ete3: 
    :depends joblib: 
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends numpy: 
    :depends pandas: 
+   :depends pip: 
    :depends pyqt: ``5.*``
    :depends python: ``>=3.6,<3.7.0a0``
    :depends python_abi: ``3.6.* *_cp36m``
@@ -96,7 +96,7 @@ eukfinder
 
     <script>
         var package = "eukfinder";
-        var versions = ["1.2.3"];
+        var versions = ["1.2.4","1.2.3"];
     </script>
 
 

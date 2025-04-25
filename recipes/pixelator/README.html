@@ -72,11 +72,14 @@
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/PixelgenTechnologies/pixelator">https://github.com/PixelgenTechnologies/pixelator</a></p>
 </dd>
-<dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>MIT / MIT</p>
+<dt class="field-even">Documentation<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://software.pixelgen.com">https://software.pixelgen.com</a></p>
 </dd>
-<dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pixelator">pixelator</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pixelator/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">License<span class="colon">:</span></dt>
+<dd class="field-odd"><p>MIT / MIT</p>
+</dd>
+<dt class="field-even">Recipe<span class="colon">:</span></dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pixelator">pixelator</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pixelator/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -88,7 +91,7 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/pixelator"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/pixelator.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/pixelator"><img alt="docker_pixelator" src="https://quay.io/repository/biocontainers/pixelator/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>0.19.0-0</code>,  <code>0.18.3-0</code>,  <code>0.18.2-0</code>,  <code>0.18.1-0</code>,  <code>0.17.1-0</code>,  <code>0.17.0-0</code>,  <code>0.16.2-0</code>,  <code>0.15.2-0</code>,  <code>0.15.0-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">0.19.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.18.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.18.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.18.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.17.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.17.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.16.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.15.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.15.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.14.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.13.1-0</span></code></p>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>0.20.1-0</code>,  <code>0.19.0-0</code>,  <code>0.18.3-0</code>,  <code>0.18.2-0</code>,  <code>0.18.1-0</code>,  <code>0.17.1-0</code>,  <code>0.17.0-0</code>,  <code>0.16.2-0</code>,  <code>0.15.2-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">0.20.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.19.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.18.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.18.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.18.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.17.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.17.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.16.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.15.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.15.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.14.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.13.1-0</span></code></p>
 </details></dd>
 <dt class="field-even">depends anndata<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.8.0</span></code></p>
@@ -100,49 +103,53 @@
 <dt class="field-odd">depends cutadapt<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.2</span></code></p>
 </dd>
-<dt class="field-even">depends fastp<span class="colon">:</span></dt>
+<dt class="field-even">depends faiss-cpu<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.9.0</span></code></p>
+</dd>
+<dt class="field-odd">depends fastp<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends fastparquet<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends fastparquet<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2023.8.0,&lt;2024.0.0</span></code></p>
-</dd>
-<dt class="field-even">depends fsspec<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2023.12.2,&lt;2024.0.0</span></code></p>
-</dd>
-<dt class="field-odd">depends graspologic<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.3.0,&lt;4.0.0</span></code></p>
-</dd>
-<dt class="field-even">depends importlib-resources<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=5.12.0,&lt;6.0.0</span></code></p>
-</dd>
-<dt class="field-odd">depends lxml<span class="colon">:</span></dt>
+<dt class="field-odd">depends fsspec<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends numba<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.56.4</span></code></p>
+<dt class="field-even">depends graspologic-native<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.2.4,&lt;2.0.0</span></code></p>
 </dd>
-<dt class="field-odd">depends numpy<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&lt;1.24.0</span></code></p>
+<dt class="field-odd">depends importlib-resources<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=5.12.0,&lt;6.0.0</span></code></p>
 </dd>
-<dt class="field-even">depends pandas<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.0.0,&lt;3.0.0</span></code></p>
+<dt class="field-even">depends lxml<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends numba<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.56.4</span></code></p>
 </dd>
-<dt class="field-odd">depends plotly<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends polars<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.1.0,&lt;2.0</span></code></p>
+<dt class="field-even">depends numpy<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&lt;2.0.0</span></code></p>
 </dd>
-<dt class="field-odd">depends pyarrow<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=14,&lt;16</span></code></p>
+<dt class="field-odd">depends pandas<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.0.0,&lt;3.0.0</span></code></p>
 </dd>
-<dt class="field-even">depends pydantic<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.0,&lt;2.5</span></code></p>
+<dt class="field-even">depends plotly<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends polars<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0.0,&lt;2.0</span></code></p>
 </dd>
-<dt class="field-odd">depends pyfastx<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends python<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.10,&lt;3.12</span></code></p>
+<dt class="field-even">depends pyarrow<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=14,&lt;16</span></code></p>
 </dd>
-<dt class="field-odd">depends python-annoy<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&lt;=1.17.0</span></code></p>
+<dt class="field-odd">depends pydantic<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.0,&lt;2.5</span></code></p>
+</dd>
+<dt class="field-even">depends pyfastx<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends python<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.10,&lt;3.12</span></code></p>
+</dd>
+<dt class="field-even">depends python-annoy<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&lt;=1.17.0</span></code></p>
+</dd>
+<dt class="field-odd">depends python-duckdb<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.2.1,&lt;2.0.0</span></code></p>
 </dd>
 <dt class="field-even">depends python-xxhash<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
@@ -152,7 +159,7 @@
 <dt class="field-even">depends scanpy<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends scipy<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&lt;1.13.0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0.0,&lt;2.0.0</span></code></p>
 </dd>
 <dt class="field-even">depends semver<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.0.0,&lt;4.0.0</span></code></p>
@@ -169,10 +176,13 @@
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends yappi<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">requirements<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
+<dt class="field-even">depends zstandard<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.23.0</span></code></p>
+</dd>
+<dt class="field-odd">requirements<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
+<dt class="field-even">additional platforms<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -207,7 +217,7 @@ others.</p>
 
 <script>
     var package = "pixelator";
-    var versions = ["0.19.0","0.18.3","0.18.2","0.18.1","0.17.1"];
+    var versions = ["0.20.1","0.19.0","0.18.3","0.18.2","0.18.1"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

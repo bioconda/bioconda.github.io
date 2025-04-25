@@ -27,7 +27,7 @@ primalbedtools
       
       
 
-      ``0.6.2-0``
+      ``0.8.1-0``,  ``0.6.2-0``
 
       
 
@@ -83,7 +83,7 @@ primalbedtools
 
     <script>
         var package = "primalbedtools";
-        var versions = ["0.6.2"];
+        var versions = ["0.8.1","0.6.2"];
     </script>
 
 
