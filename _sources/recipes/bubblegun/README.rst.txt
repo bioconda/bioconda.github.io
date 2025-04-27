@@ -13,7 +13,7 @@ bubblegun
    BubbleGun is a tool for detecting bubbles and superbubbles in GFA graphs\, and reports them and their nested structures.
 
    :homepage: https://github.com/fawaz-dabbaghieh/bubble_gun
-   :documentation: https://github.com/fawaz-dabbaghieh/bubble_gun/blob/v1.1.9/README.md
+   :documentation: https://github.com/fawaz-dabbaghieh/bubble_gun/blob/v1.1.10/README.md
    
    :developer docs: https://github.com/fawaz-dabbaghieh
    :license: MIT / MIT
@@ -30,7 +30,7 @@ bubblegun
       
       
 
-      ``1.1.9-0``
+      ``1.1.10-0``,  ``1.1.9-0``
 
       
 
@@ -86,7 +86,7 @@ bubblegun
 
     <script>
         var package = "bubblegun";
-        var versions = ["1.1.9"];
+        var versions = ["1.1.10","1.1.9"];
     </script>
 
 

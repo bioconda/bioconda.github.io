@@ -10,11 +10,14 @@ pepsirf
    :replaces_section_title:
    :noindex:
 
-   Peptide\-based Serological Immune Response Framework
+   Peptide\-based Serological Immune Response Framework.
 
    :homepage: https://github.com/LadnerLab/PepSIRF
-   :license: GPL-3.0-Only
+   :documentation: https://ladnerlab.github.io/PepSIRF
+   
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`pepsirf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pepsirf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pepsirf/meta.yaml>`_
+   :links: doi: :doi:`10.48550/arXiv.2007.05050`
 
    
 
@@ -27,18 +30,24 @@ pepsirf
       
       
 
-      ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``
+      ``1.7.1-0``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``
 
       
 
    
-   :depends boost: ``>=1.78.0,<1.78.1.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends boost-cpp: 
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -86,7 +95,7 @@ pepsirf
 
     <script>
         var package = "pepsirf";
-        var versions = ["1.6.0","1.6.0","1.6.0"];
+        var versions = ["1.7.1","1.6.0","1.6.0","1.6.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ tidyp
       
       
 
-      ``1.04-8``,  ``1.04-7``,  ``1.04-6``,  ``1.04-4``,  ``1.04-3``,  ``1.04-2``,  ``1.04-1``,  ``1.04-0``
+      ``1.04-9``,  ``1.04-8``,  ``1.04-7``,  ``1.04-6``,  ``1.04-4``,  ``1.04-3``,  ``1.04-2``,  ``1.04-1``,  ``1.04-0``
 
       
 
@@ -39,7 +39,7 @@ tidyp
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

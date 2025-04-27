@@ -10,10 +10,13 @@ alignoth
    :replaces_section_title:
    :noindex:
 
-   A tool for creating alignment plots from bam files
+   A tool for creating alignment plots from bam files.
 
    :homepage: https://alignoth.github.io
-   :license: MIT
+   :documentation: https://github.com/alignoth/alignoth/blob/v0.13.0/README.md
+   
+   :developer docs: https://github.com/alignoth/alignoth
+   :license: MIT / MIT
    :recipe: /`alignoth <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alignoth>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alignoth/meta.yaml>`_
 
    
@@ -28,10 +31,10 @@ alignoth
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.13.0-1</code>,  <code>0.13.0-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-1</code>,  <code>0.12.0-0</code>,  <code>0.11.0-1</code>,  <code>0.11.0-0</code>,  <code>0.10.0-0</code>,  <code>0.9.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.13.0-2</code>,  <code>0.13.0-1</code>,  <code>0.13.0-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-1</code>,  <code>0.12.0-0</code>,  <code>0.11.0-1</code>,  <code>0.11.0-0</code>,  <code>0.10.0-0</code>,  </span></summary>
       
 
-      ``0.13.0-1``,  ``0.13.0-0``,  ``0.12.1-0``,  ``0.12.0-1``,  ``0.12.0-0``,  ``0.11.0-1``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.2-2``,  ``0.8.2-0``,  ``0.8.1-2``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.13.0-2``,  ``0.13.0-1``,  ``0.13.0-0``,  ``0.12.1-0``,  ``0.12.0-1``,  ``0.12.0-0``,  ``0.11.0-1``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.2-2``,  ``0.8.2-0``,  ``0.8.1-2``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -41,17 +44,17 @@ alignoth
 
    
    :depends libcblas: ``>=3.9.0,<4.0a0``
-   :depends libcurl: ``>=8.10.1,<9.0a0``
+   :depends libcurl: ``>=8.13.0,<9.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
-   :depends openssl: ``>=3.4.0,<4.0a0``
+   :depends openssl: ``>=3.5.0,<4.0a0``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -99,7 +102,7 @@ alignoth
 
     <script>
         var package = "alignoth";
-        var versions = ["0.13.0","0.13.0","0.12.1","0.12.0","0.12.0"];
+        var versions = ["0.13.0","0.13.0","0.13.0","0.12.1","0.12.0"];
     </script>
 
 

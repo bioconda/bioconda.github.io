@@ -10,9 +10,9 @@ ice-cream
    :replaces_section_title:
    :noindex:
 
-   ICEcream\: Integrative and Conjugative Elements Classification and gRaphical gEne Arrangement Method
+   ICEcream\: Integrative and Conjugative Elements Classification and gRaphical gEne Arrangement Method.
 
-   :homepage: https://github.com/xinehc/ICEcream
+   :homepage: https://github.com/xinehc/ice-cream
    :license: MIT / MIT
    :recipe: /`ice-cream <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ice-cream>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ice-cream/meta.yaml>`_
 
@@ -27,24 +27,23 @@ ice-cream
       
       
 
-      ``1.10-1``,  ``1.10-0``
+      ``2.0.0-0``,  ``1.10-1``,  ``1.10-0``
 
       
 
    
-   :depends aragorn: 
+   :depends bakta: ``1.9.4``
    :depends biopython: 
-   :depends blast: 
+   :depends blast: ``2.16.0``
    :depends dna_features_viewer: 
-   :depends hmmer: 
+   :depends macsyfinder: ``2.1.4``
    :depends pandas: 
-   :depends perl: ``>=5.26``
-   :depends prodigal: 
-   :depends prokka: 
-   :depends python: ``>=3.6``
-   :depends r-base: ``>=4.2``
+   :depends prodigal: ``2.6.3``
+   :depends python: ``3.10.14``
+   :depends r-base: 
+   :depends r-essentials: 
    :depends r-reshape2: 
-   :depends vmatch: 
+   :depends vmatch: ``2.3.0``
    :requirements:
 
    :additional platforms:
@@ -95,7 +94,7 @@ ice-cream
 
     <script>
         var package = "ice-cream";
-        var versions = ["1.10","1.10"];
+        var versions = ["2.0.0","1.10","1.10"];
     </script>
 
 
