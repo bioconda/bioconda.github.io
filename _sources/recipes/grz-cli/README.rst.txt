@@ -27,7 +27,7 @@ grz-cli
       
       
 
-      ``0.4.0-0``,  ``0.3.0-0``,  ``0.1.4-0``,  ``0.1.1-0``
+      ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.1.4-0``,  ``0.1.1-0``
 
       
 
@@ -42,6 +42,7 @@ grz-cli
    :depends python: ``>=3.12``
    :depends python-crypt4gh: ``>=1.7,<2``
    :depends pyyaml: ``>=6.0.2,<7``
+   :depends rich: ``13.*``
    :depends tqdm: ``>=4.66.5,<5``
    :requirements:
 
@@ -93,7 +94,7 @@ grz-cli
 
     <script>
         var package = "grz-cli";
-        var versions = ["0.4.0","0.3.0","0.1.4","0.1.1"];
+        var versions = ["0.5.0","0.4.0","0.3.0","0.1.4","0.1.1"];
     </script>
 
 
