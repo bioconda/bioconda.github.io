@@ -28,10 +28,10 @@ pandaseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.11-9</code>,  <code>2.11-8</code>,  <code>2.11-7</code>,  <code>2.11-6</code>,  <code>2.11-5</code>,  <code>2.11-4</code>,  <code>2.11-3</code>,  <code>2.11-2</code>,  <code>2.11-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.11-10</code>,  <code>2.11-9</code>,  <code>2.11-8</code>,  <code>2.11-7</code>,  <code>2.11-6</code>,  <code>2.11-5</code>,  <code>2.11-4</code>,  <code>2.11-3</code>,  <code>2.11-2</code>,  </span></summary>
       
 
-      ``2.11-9``,  ``2.11-8``,  ``2.11-7``,  ``2.11-6``,  ``2.11-5``,  ``2.11-4``,  ``2.11-3``,  ``2.11-2``,  ``2.11-1``,  ``2.10-0``,  ``2.8.1-8``,  ``2.8.1-7``,  ``2.8.1-6``,  ``2.8.1-5``,  ``2.8.1-4``,  ``2.8.1-3``,  ``2.8.1-2``,  ``2.8.1-1``
+      ``2.11-10``,  ``2.11-9``,  ``2.11-8``,  ``2.11-7``,  ``2.11-6``,  ``2.11-5``,  ``2.11-4``,  ``2.11-3``,  ``2.11-2``,  ``2.11-1``,  ``2.10-0``,  ``2.8.1-8``,  ``2.8.1-7``,  ``2.8.1-6``,  ``2.8.1-5``,  ``2.8.1-4``,  ``2.8.1-3``,  ``2.8.1-2``,  ``2.8.1-1``
 
       
       .. raw:: html
@@ -47,6 +47,10 @@ pandaseq
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

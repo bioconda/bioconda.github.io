@@ -10,10 +10,12 @@ bandage_ng
    :replaces_section_title:
    :noindex:
 
-   Bandage \- a Bioinformatics Application for Navigating De novo Assembly Graphs Easily
+   Bandage \- a Bioinformatics Application for Navigating De novo Assembly Graphs Easily.
 
    :homepage: https://github.com/asl/BandageNG
-   :license: GPL3 / GPL-3.0
+   :documentation: https://github.com/asl/BandageNG/blob/v2025.4.1/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`bandage_ng <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bandage_ng>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bandage_ng/meta.yaml>`_
    :links: doi: :doi:`10.1093/bioinformatics/btv383`
 
@@ -28,22 +30,29 @@ bandage_ng
       
       
 
-      ``2022.09-4``,  ``2022.09-3``,  ``2022.09-2``,  ``2022.09-1``,  ``2022.09-0``
+      ``2025.4.1-0``,  ``2022.09-4``,  ``2022.09-3``,  ``2022.09-2``,  ``2022.09-1``,  ``2022.09-0``
 
       
 
    
    :depends fonts-conda-ecosystem: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends qt6-main: ``>=6.7.1,<6.8.0a0``
-   :depends xorg-libice: ``>=1.1.1,<2.0a0``
-   :depends xorg-libsm: ``>=1.2.4,<2.0a0``
-   :depends xorg-libx11: ``>=1.8.9,<2.0a0``
-   :depends xorg-libxext: ``>=1.3.4,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends qt6-main: 
+   :depends xorg-libice: ``>=1.1.2,<2.0a0``
+   :depends xorg-libsm: ``>=1.2.6,<2.0a0``
+   :depends xorg-libx11: ``>=1.8.12,<2.0a0``
+   :depends xorg-libxcomposite: ``>=0.4.6,<1.0a0``
+   :depends xorg-libxdamage: ``>=1.1.6,<2.0a0``
+   :depends xorg-libxext: ``>=1.3.6,<2.0a0``
+   :depends xorg-libxxf86vm: ``>=1.1.6,<2.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -91,7 +100,7 @@ bandage_ng
 
     <script>
         var package = "bandage_ng";
-        var versions = ["2022.09","2022.09","2022.09","2022.09","2022.09"];
+        var versions = ["2025.4.1","2022.09","2022.09","2022.09","2022.09"];
     </script>
 
 

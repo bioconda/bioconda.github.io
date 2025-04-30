@@ -29,7 +29,7 @@ plasmidcommunity
       
       
 
-      ``1.0.2-0``
+      ``1.0.2-1``,  ``1.0.2-0``
 
       
 
@@ -39,11 +39,18 @@ plasmidcommunity
    :depends blast: ``>=2.1.2``
    :depends fastani: ``>=1.33``
    :depends prodigal: ``>=2.6.3``
+   :depends r-ape: ``>=5.8``
    :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-dplyr: ``>=1.1.4``
+   :depends r-ggplot2: ``>=3.5.1``
+   :depends r-ggraph: ``>=2.2.1``
+   :depends r-igraph: ``>=2.0.3``
    :depends r-readr: ``>=2.1.5``
    :depends r-readxl: ``>=1.4.3``
    :depends r-seqinr: ``>=4.2.36``
+   :depends r-tidygraph: ``1.3.0``
    :depends r-tidyverse: ``>=2.0.0``
+   :depends r-writexl: ``>=1.5.0``
    :depends util-linux: 
    :requirements:
 
@@ -95,7 +102,7 @@ plasmidcommunity
 
     <script>
         var package = "plasmidcommunity";
-        var versions = ["1.0.2"];
+        var versions = ["1.0.2","1.0.2"];
     </script>
 
 

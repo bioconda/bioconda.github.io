@@ -28,10 +28,10 @@ perl-dbd-pg
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.18.0-1</code>,  <code>3.18.0-0</code>,  <code>3.16.0-3</code>,  <code>3.16.0-2</code>,  <code>3.16.0-1</code>,  <code>3.16.0-0</code>,  <code>3.15.1-1</code>,  <code>3.15.1-0</code>,  <code>3.15.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.18.0-2</code>,  <code>3.18.0-1</code>,  <code>3.18.0-0</code>,  <code>3.16.0-3</code>,  <code>3.16.0-2</code>,  <code>3.16.0-1</code>,  <code>3.16.0-0</code>,  <code>3.15.1-1</code>,  <code>3.15.1-0</code>,  </span></summary>
       
 
-      ``3.18.0-1``,  ``3.18.0-0``,  ``3.16.0-3``,  ``3.16.0-2``,  ``3.16.0-1``,  ``3.16.0-0``,  ``3.15.1-1``,  ``3.15.1-0``,  ``3.15.0-2``,  ``3.15.0-1``,  ``3.15.0-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.4-0``,  ``3.5.3-1``,  ``3.5.3-0``
+      ``3.18.0-2``,  ``3.18.0-1``,  ``3.18.0-0``,  ``3.16.0-3``,  ``3.16.0-2``,  ``3.16.0-1``,  ``3.16.0-0``,  ``3.15.1-1``,  ``3.15.1-0``,  ``3.15.0-2``,  ``3.15.0-1``,  ``3.15.0-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.4-0``,  ``3.5.3-1``,  ``3.5.3-0``
 
       
       .. raw:: html
@@ -41,13 +41,17 @@ perl-dbd-pg
 
    
    :depends libgcc: ``>=13``
-   :depends libpq: ``>=16.6,<17.0a0``
+   :depends libpq: ``>=16.8,<17.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-dbi: 
    :depends postgresql: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -95,7 +99,7 @@ perl-dbd-pg
 
     <script>
         var package = "perl-dbd-pg";
-        var versions = ["3.18.0","3.18.0","3.16.0","3.16.0","3.16.0"];
+        var versions = ["3.18.0","3.18.0","3.18.0","3.16.0","3.16.0"];
     </script>
 
 

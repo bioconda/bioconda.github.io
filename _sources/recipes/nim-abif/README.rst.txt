@@ -29,7 +29,7 @@ nim-abif
       
       
 
-      ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -85,7 +85,7 @@ nim-abif
 
     <script>
         var package = "nim-abif";
-        var versions = ["0.1.0"];
+        var versions = ["0.2.0","0.1.0"];
     </script>
 
 

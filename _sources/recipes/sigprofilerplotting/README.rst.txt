@@ -29,13 +29,13 @@ sigprofilerplotting
       
       
 
-      ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.24-0``,  ``1.3.23-0``,  ``1.3.22-0``,  ``1.3.21-0``
+      ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.24-0``,  ``1.3.23-0``,  ``1.3.22-0``,  ``1.3.21-0``
 
       
 
    
    :depends matplotlib-base: ``>=3.4.3``
-   :depends pandas: ``>=1.2.4,<2.0.0``
+   :depends pandas: ``>=2.0.0``
    :depends pillow: ``>=10.0.0``
    :depends python: ``>=3.9``
    :depends scikit-learn: ``>=1.1.3``
@@ -89,7 +89,7 @@ sigprofilerplotting
 
     <script>
         var package = "sigprofilerplotting";
-        var versions = ["1.4.1","1.4.0","1.3.24","1.3.23","1.3.22"];
+        var versions = ["1.4.1","1.4.1","1.4.0","1.3.24","1.3.23"];
     </script>
 
 

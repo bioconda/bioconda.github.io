@@ -10,9 +10,9 @@ perl-file-fetch
    :replaces_section_title:
    :noindex:
 
-   Generic file fetching code
+   Generic file fetching code.
 
-   :homepage: http://metacpan.org/pod/File::Fetch
+   :homepage: https://metacpan.org/pod/File::Fetch
    :license: perl_5
    :recipe: /`perl-file-fetch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-fetch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-fetch/meta.yaml>`_
 
@@ -27,7 +27,7 @@ perl-file-fetch
       
       
 
-      ``1.04-0``,  ``0.56-1``,  ``0.56-0``,  ``0.48-4``,  ``0.48-3``,  ``0.48-2``,  ``0.48-1``,  ``0.48-0``
+      ``1.08-0``,  ``1.04-0``,  ``0.56-1``,  ``0.56-0``,  ``0.48-4``,  ``0.48-3``,  ``0.48-2``,  ``0.48-1``,  ``0.48-0``
 
       
 
@@ -88,7 +88,7 @@ perl-file-fetch
 
     <script>
         var package = "perl-file-fetch";
-        var versions = ["1.04","0.56","0.56","0.48","0.48"];
+        var versions = ["1.08","1.04","0.56","0.56","0.48"];
     </script>
 
 

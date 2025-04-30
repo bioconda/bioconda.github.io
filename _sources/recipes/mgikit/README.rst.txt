@@ -13,7 +13,7 @@ mgikit
    mgikit is a collection of tools used to demultiplex fastq files and generate demultiplexing and quality reports. 
 
 
-   :homepage: https://sagc-bioinformatics.github.io/mgikit/
+   :homepage: https://sagc-bioinformatics.github.io/mgikit
    :developer docs: https://github.com/sagc-bioinformatics/mgikit
    :license: AFL-3.0
    :recipe: /`mgikit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mgikit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mgikit/meta.yaml>`_
@@ -29,7 +29,7 @@ mgikit
       
       
 
-      ``1.0.0-0``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-1``,  ``0.1.5-0``
+      ``2.0.0-0``,  ``1.0.0-0``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-1``,  ``0.1.5-0``
 
       
 
@@ -42,7 +42,7 @@ mgikit
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -90,7 +90,7 @@ mgikit
 
     <script>
         var package = "mgikit";
-        var versions = ["1.0.0","0.1.7","0.1.7","0.1.6","0.1.5"];
+        var versions = ["2.0.0","1.0.0","0.1.7","0.1.7","0.1.6"];
     </script>
 
 

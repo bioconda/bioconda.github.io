@@ -36,7 +36,7 @@ pastml
       
       
 
-      ``1.9.50-0``,  ``1.9.49-0``,  ``1.9.48-0``,  ``1.9.46-0``,  ``1.9.45-0``,  ``1.9.43-0``,  ``1.9.40-0``,  ``1.9.39-0``
+      ``1.9.51-0``,  ``1.9.50-0``,  ``1.9.49-0``,  ``1.9.48-0``,  ``1.9.46-0``,  ``1.9.45-0``,  ``1.9.43-0``,  ``1.9.40-0``,  ``1.9.39-0``
 
       
 
@@ -45,10 +45,11 @@ pastml
    :depends ete3: ``>=3.1.1``
    :depends itolapi: ``>=4.0.0``
    :depends jinja2: ``>=2.11.0``
+   :depends legacy-cgi: 
    :depends numpy: ``>=1.22``
    :depends pandas: ``>=1.0.0``
-   :depends python: ``>=3.9``
-   :depends scipy: ``>=1.5.0``
+   :depends python: ``>=3.10``
+   :depends scipy: ``1.14.0``
    :requirements:
 
    :additional platforms:
@@ -99,7 +100,7 @@ pastml
 
     <script>
         var package = "pastml";
-        var versions = ["1.9.50","1.9.49","1.9.48","1.9.46","1.9.45"];
+        var versions = ["1.9.51","1.9.50","1.9.49","1.9.48","1.9.46"];
     </script>
 
 

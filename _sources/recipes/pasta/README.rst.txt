@@ -10,11 +10,14 @@ pasta
    :replaces_section_title:
    :noindex:
 
-   An implementation of the PASTA \(Practical Alignment using Sate and TrAnsitivity\) algorithm
+   An implementation of the PASTA \(Practical Alignment using Sate and TrAnsitivity\) algorithm.
 
    :homepage: https://github.com/smirarab/pasta
+   :documentation: https://github.com/smirarab/pasta/blob/v1.9.2/README.md
+   
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`pasta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pasta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pasta/meta.yaml>`_
+   :links: doi: :doi:`10.1007/978-3-319-05269-4_15`, doi: :doi:`10.1089/cmb.2014.0156`
 
    
 
@@ -28,10 +31,10 @@ pasta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.9.2-4</code>,  <code>1.9.2-3</code>,  <code>1.9.2-2</code>,  <code>1.9.2-1</code>,  <code>1.9.2-0</code>,  <code>1.9.0-0</code>,  <code>1.7.8-4</code>,  <code>1.7.8-3</code>,  <code>1.7.8-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.9.2-5</code>,  <code>1.9.2-4</code>,  <code>1.9.2-3</code>,  <code>1.9.2-2</code>,  <code>1.9.2-1</code>,  <code>1.9.2-0</code>,  <code>1.9.0-0</code>,  <code>1.7.8-4</code>,  <code>1.7.8-3</code>,  </span></summary>
       
 
-      ``1.9.2-4``,  ``1.9.2-3``,  ``1.9.2-2``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.9.0-0``,  ``1.7.8-4``,  ``1.7.8-3``,  ``1.7.8-2``,  ``1.7.8-0``,  ``0.2-0``
+      ``1.9.2-5``,  ``1.9.2-4``,  ``1.9.2-3``,  ``1.9.2-2``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.9.0-0``,  ``1.7.8-4``,  ``1.7.8-3``,  ``1.7.8-2``,  ``1.7.8-0``,  ``0.2-0``
 
       
       .. raw:: html
@@ -40,19 +43,23 @@ pasta
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends clustalw: ``>=2.1,<3.0a0``
    :depends dendropy: ``>=5.0.6,<6.0a0``
    :depends fasttree: ``>=2.1.11,<3.0a0``
    :depends hmmer: ``>=3.4,<3.5.0a0``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends mafft: ``>=7.526,<8.0a0``
    :depends muscle: ``<4``
    :depends muscle: ``>=3.8.1551,<4.0a0``
    :depends openjdk: 
+   :depends openmpi: ``>=4.1.6,<5.0a0``
    :depends pcre: ``>=8.45,<9.0a0``
    :depends prank: ``>=170427,<170428.0a0``
-   :depends pymongo: ``>=3.3.0``
-   :depends python: ``>=3.12,<3.13.0a0``
-   :depends python_abi: ``3.12.* *_cp312``
+   :depends pymongo: 
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends raxml: ``>=8.2.13,<9.0a0``
    :requirements:
 
@@ -60,7 +67,7 @@ pasta
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

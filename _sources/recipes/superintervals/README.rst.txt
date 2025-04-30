@@ -27,7 +27,7 @@ superintervals
       
       
 
-      ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.7-0``,  ``0.2.5-0``,  ``0.2.3-0``
+      ``0.2.10-1``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.7-0``,  ``0.2.5-0``,  ``0.2.3-0``
 
       
 
@@ -43,7 +43,7 @@ superintervals
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -91,7 +91,7 @@ superintervals
 
     <script>
         var package = "superintervals";
-        var versions = ["0.2.10","0.2.9","0.2.7","0.2.5","0.2.3"];
+        var versions = ["0.2.10","0.2.10","0.2.9","0.2.7","0.2.5"];
     </script>
 
 

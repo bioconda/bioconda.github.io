@@ -27,7 +27,7 @@ perl-html-tidy
       
       
 
-      ``1.60-5``,  ``1.60-3``,  ``1.60-2``,  ``1.60-1``,  ``1.60-0``,  ``1.56-2``,  ``1.56-1``
+      ``1.60-6``,  ``1.60-5``,  ``1.60-3``,  ``1.60-2``,  ``1.60-1``,  ``1.60-0``,  ``1.56-2``,  ``1.56-1``
 
       
 
@@ -46,7 +46,7 @@ perl-html-tidy
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

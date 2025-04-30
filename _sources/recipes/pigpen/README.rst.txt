@@ -13,7 +13,7 @@ pigpen
    A package to quantify RNA localization using OINC\-seq data.
 
    :homepage: https://github.com/TaliaferroLab/OINC-seq
-   :documentation: https://github.com/TaliaferroLab/OINC-seq/blob/v0.0.7/README.md
+   :documentation: https://github.com/TaliaferroLab/OINC-seq/blob/v0.0.8/README.md
    
    :license: MIT / MIT
    :recipe: /`pigpen <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pigpen>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pigpen/meta.yaml>`_
@@ -30,7 +30,7 @@ pigpen
       
       
 
-      ``0.0.7-0``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``
+      ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``
 
       
 
@@ -103,7 +103,7 @@ pigpen
 
     <script>
         var package = "pigpen";
-        var versions = ["0.0.7","0.0.6","0.0.6","0.0.5","0.0.4"];
+        var versions = ["0.0.8","0.0.7","0.0.6","0.0.6","0.0.5"];
     </script>
 
 
