@@ -29,10 +29,10 @@ bioconductor-beadarray
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.56.0-0</code>,  <code>2.52.0-0</code>,  <code>2.50.0-0</code>,  <code>2.48.0-1</code>,  <code>2.48.0-0</code>,  <code>2.44.0-2</code>,  <code>2.44.0-1</code>,  <code>2.44.0-0</code>,  <code>2.42.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.56.0-1</code>,  <code>2.56.0-0</code>,  <code>2.52.0-0</code>,  <code>2.50.0-0</code>,  <code>2.48.0-1</code>,  <code>2.48.0-0</code>,  <code>2.44.0-2</code>,  <code>2.44.0-1</code>,  <code>2.44.0-0</code>,  </span></summary>
       
 
-      ``2.56.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-1``,  ``2.48.0-0``,  ``2.44.0-2``,  ``2.44.0-1``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-1``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.1-0``
+      ``2.56.0-1``,  ``2.56.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-1``,  ``2.48.0-0``,  ``2.44.0-2``,  ``2.44.0-1``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-1``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.1-0``
 
       
       .. raw:: html
@@ -56,7 +56,7 @@ bioconductor-beadarray
    :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
    :depends bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
    :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0a0``
+   :depends bioconductor-limma: ``>=3.62.1,<3.63.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
@@ -67,6 +67,10 @@ bioconductor-beadarray
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -114,7 +118,7 @@ bioconductor-beadarray
 
     <script>
         var package = "bioconductor-beadarray";
-        var versions = ["2.56.0","2.52.0","2.50.0","2.48.0","2.48.0"];
+        var versions = ["2.56.0","2.56.0","2.52.0","2.50.0","2.48.0"];
     </script>
 
 

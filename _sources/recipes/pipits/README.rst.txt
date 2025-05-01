@@ -10,11 +10,14 @@ pipits
    :replaces_section_title:
    :noindex:
 
-   PIPITS\: An automated pipeline for analyses of fungal internal transcribed spacer \(ITS\) sequences from the Illumina sequencing platform
+   PIPITS\: An automated pipeline for analyses of fungal internal transcribed spacer \(ITS\) sequences from the Illumina sequencing platform.
 
    :homepage: https://github.com/hsgweon/pipits
-   :license: GPL3 / GNU General Public License v3.0
+   :documentation: https://github.com/hsgweon/pipits/blob/4.0/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`pipits <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pipits>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pipits/meta.yaml>`_
+   :links: doi: :doi:`10.1111/2041-210X.12399`
 
    
 
@@ -28,10 +31,10 @@ pipits
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.1-0</code>,  <code>3.0-0</code>,  <code>2.8-0</code>,  <code>2.7-0</code>,  <code>2.6-0</code>,  <code>2.5-0</code>,  <code>2.4-0</code>,  <code>2.3-4</code>,  <code>2.3-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0-0</code>,  <code>3.1-0</code>,  <code>3.0-0</code>,  <code>2.8-0</code>,  <code>2.7-0</code>,  <code>2.6-0</code>,  <code>2.5-0</code>,  <code>2.4-0</code>,  <code>2.3-4</code>,  </span></summary>
       
 
-      ``3.1-0``,  ``3.0-0``,  ``2.8-0``,  ``2.7-0``,  ``2.6-0``,  ``2.5-0``,  ``2.4-0``,  ``2.3-4``,  ``2.3-3``,  ``2.3-2``,  ``2.3-1``,  ``2.3-0``,  ``2.2-2``,  ``2.2-1``,  ``2.1-5``,  ``2.1-3``,  ``2.1-2``,  ``2.1-1``,  ``2.0-1``,  ``2.0-0``
+      ``4.0-0``,  ``3.1-0``,  ``3.0-0``,  ``2.8-0``,  ``2.7-0``,  ``2.6-0``,  ``2.5-0``,  ``2.4-0``,  ``2.3-4``,  ``2.3-3``,  ``2.3-2``,  ``2.3-1``,  ``2.3-0``,  ``2.2-2``,  ``2.2-1``,  ``2.1-5``,  ``2.1-3``,  ``2.1-2``,  ``2.1-1``,  ``2.0-1``,  ``2.0-0``
 
       
       .. raw:: html
@@ -103,7 +106,7 @@ pipits
 
     <script>
         var package = "pipits";
-        var versions = ["3.1","3.0","2.8","2.7","2.6"];
+        var versions = ["4.0","3.1","3.0","2.8","2.7"];
     </script>
 
 

@@ -26,18 +26,26 @@ sigprofilermatrixgenerator
    :versions:
       
       
+      .. raw:: html
 
-      ``1.3.3-0``,  ``1.3.2-0``,  ``1.2.31-0``,  ``1.2.30-0``,  ``1.2.29-0``,  ``1.2.28-0``,  ``1.2.27-0``,  ``1.2.26-0``,  ``1.2.25-0``
+         <details><summary><span class="truncated-version-list"><code>1.3.3-1</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.2.31-0</code>,  <code>1.2.30-0</code>,  <code>1.2.29-0</code>,  <code>1.2.28-0</code>,  <code>1.2.27-0</code>,  <code>1.2.26-0</code>,  </span></summary>
+      
 
+      ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.2.31-0``,  ``1.2.30-0``,  ``1.2.29-0``,  ``1.2.28-0``,  ``1.2.27-0``,  ``1.2.26-0``,  ``1.2.25-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends matplotlib-base: ``>=2.2.2``
-   :depends numpy: ``>=1.18.5``
-   :depends pandas: ``>=0.23.4,<2.0.0``
-   :depends python: ``>=3.8``
-   :depends scipy: ``>=1.1.0``
-   :depends sigprofilerplotting: ``>=1.3.16``
+   :depends numpy: ``>=2.0.0``
+   :depends pandas: ``>=2.0.0``
+   :depends python: ``>=3.9``
+   :depends scipy: ``>=1.12.0``
+   :depends sigprofilerplotting: ``>=1.4.1``
    :depends statsmodels: ``>=0.9.0``
    :requirements:
 
@@ -89,7 +97,7 @@ sigprofilermatrixgenerator
 
     <script>
         var package = "sigprofilermatrixgenerator";
-        var versions = ["1.3.3","1.3.2","1.2.31","1.2.30","1.2.29"];
+        var versions = ["1.3.3","1.3.3","1.3.2","1.2.31","1.2.30"];
     </script>
 
 

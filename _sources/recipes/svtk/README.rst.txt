@@ -27,7 +27,7 @@ svtk
       
       
 
-      ``0.0.20190615-6``,  ``0.0.20190615-5``,  ``0.0.20190615-4``,  ``0.0.20190615-3``,  ``0.0.20190615-2``,  ``0.0.20190615-1``,  ``0.0.20190615-0``
+      ``0.0.20190615-7``,  ``0.0.20190615-6``,  ``0.0.20190615-5``,  ``0.0.20190615-4``,  ``0.0.20190615-3``,  ``0.0.20190615-2``,  ``0.0.20190615-1``,  ``0.0.20190615-0``
 
       
 
@@ -39,13 +39,17 @@ svtk
    :depends pandas: 
    :depends pybedtools: 
    :depends pysam: ``>=0.11.2.2``
-   :depends pysam: ``>=0.22.1,<0.23.0a0``
+   :depends pysam: ``>=0.23.0,<0.24.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends scikit-learn: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

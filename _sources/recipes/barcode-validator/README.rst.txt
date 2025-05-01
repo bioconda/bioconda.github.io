@@ -27,13 +27,14 @@ barcode-validator
       
       
 
-      ``2.0.1-0``,  ``2.0.0-0``
+      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``
 
       
 
    
    :depends bioblend: 
    :depends biopython: 
+   :depends ete4: 
    :depends nbitk: 
    :depends python: ``>=3.9``
    :depends pyyaml: 
@@ -88,7 +89,7 @@ barcode-validator
 
     <script>
         var package = "barcode-validator";
-        var versions = ["2.0.1","2.0.0"];
+        var versions = ["2.0.1","2.0.1","2.0.0"];
     </script>
 
 

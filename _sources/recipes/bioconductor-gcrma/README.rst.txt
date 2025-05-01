@@ -29,10 +29,10 @@ bioconductor-gcrma
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.78.0-0</code>,  <code>2.74.0-0</code>,  <code>2.72.0-0</code>,  <code>2.70.0-1</code>,  <code>2.70.0-0</code>,  <code>2.66.0-2</code>,  <code>2.66.0-1</code>,  <code>2.66.0-0</code>,  <code>2.64.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.78.0-1</code>,  <code>2.78.0-0</code>,  <code>2.74.0-0</code>,  <code>2.72.0-0</code>,  <code>2.70.0-1</code>,  <code>2.70.0-0</code>,  <code>2.66.0-2</code>,  <code>2.66.0-1</code>,  <code>2.66.0-0</code>,  </span></summary>
       
 
-      ``2.78.0-0``,  ``2.74.0-0``,  ``2.72.0-0``,  ``2.70.0-1``,  ``2.70.0-0``,  ``2.66.0-2``,  ``2.66.0-1``,  ``2.66.0-0``,  ``2.64.0-0``,  ``2.62.0-1``,  ``2.62.0-0``,  ``2.60.0-0``,  ``2.58.0-0``,  ``2.56.0-1``,  ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-0``
+      ``2.78.0-1``,  ``2.78.0-0``,  ``2.74.0-0``,  ``2.72.0-0``,  ``2.70.0-1``,  ``2.70.0-0``,  ``2.66.0-2``,  ``2.66.0-1``,  ``2.66.0-0``,  ``2.64.0-0``,  ``2.62.0-1``,  ``2.62.0-0``,  ``2.60.0-0``,  ``2.58.0-0``,  ``2.56.0-1``,  ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-0``
 
       
       .. raw:: html
@@ -59,6 +59,10 @@ bioconductor-gcrma
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -106,7 +110,7 @@ bioconductor-gcrma
 
     <script>
         var package = "bioconductor-gcrma";
-        var versions = ["2.78.0","2.74.0","2.72.0","2.70.0","2.70.0"];
+        var versions = ["2.78.0","2.78.0","2.74.0","2.72.0","2.70.0"];
     </script>
 
 

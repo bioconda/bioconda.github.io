@@ -30,7 +30,7 @@ stripepy-hic
       
       
 
-      ``1.0.0-0``,  ``0.0.2-0``
+      ``1.1.0-0``,  ``1.0.0-0``,  ``0.0.2-0``
 
       
 
@@ -95,7 +95,7 @@ stripepy-hic
 
     <script>
         var package = "stripepy-hic";
-        var versions = ["1.0.0","0.0.2"];
+        var versions = ["1.1.0","1.0.0","0.0.2"];
     </script>
 
 

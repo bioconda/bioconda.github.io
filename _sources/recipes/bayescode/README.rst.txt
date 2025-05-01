@@ -10,9 +10,11 @@ bayescode
    :replaces_section_title:
    :noindex:
 
-   Mutation\-Selection phylogenetic codon models to detect site\-specific adaptive evolution or to infer long\-term effective population size
+   Mutation\-Selection phylogenetic codon models to detect site\-specific adaptive evolution or to infer long\-term effective population size.
 
    :homepage: https://github.com/ThibaultLatrille/bayescode
+   :documentation: https://github.com/ThibaultLatrille/bayescode/wiki
+   
    :license: MIT / MIT
    :recipe: /`bayescode <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bayescode>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bayescode/meta.yaml>`_
 
@@ -28,10 +30,10 @@ bayescode
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.3-1</code>,  <code>1.3.3-0</code>,  <code>1.3.2-1</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.2-0</code>,  <code>1.1.6-2</code>,  <code>1.1.6-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.4-0</code>,  <code>1.3.3-1</code>,  <code>1.3.3-0</code>,  <code>1.3.2-1</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.2-0</code>,  <code>1.1.6-2</code>,  </span></summary>
       
 
-      ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.1.6-2``,  ``1.1.6-1``,  ``1.1.6-0``
+      ``1.3.4-0``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.1.6-2``,  ``1.1.6-1``,  ``1.1.6-0``
 
       
       .. raw:: html
@@ -41,6 +43,7 @@ bayescode
 
    
    :depends ete3: 
+   :depends legacy-cgi: 
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends matplotlib-base: 
@@ -101,7 +104,7 @@ bayescode
 
     <script>
         var package = "bayescode";
-        var versions = ["1.3.3","1.3.3","1.3.2","1.3.2","1.3.1"];
+        var versions = ["1.3.4","1.3.3","1.3.3","1.3.2","1.3.2"];
     </script>
 
 

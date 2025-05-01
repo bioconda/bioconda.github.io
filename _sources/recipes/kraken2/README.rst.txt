@@ -13,7 +13,7 @@ kraken2
    Kraken2 is a system for assigning taxonomic labels to short DNA sequences\, usually obtained through metagenomic studies.
 
    :homepage: https://ccb.jhu.edu/software/kraken2
-   :documentation: https://github.com/DerrickWood/kraken2/blob/v2.14/docs/MANUAL.markdown
+   :documentation: https://github.com/DerrickWood/kraken2/blob/v2.1.5/docs/MANUAL.markdown
    
    :developer docs: https://github.com/DerrickWood/kraken2
    :license: GPL3 / GPL-3.0-or-later
@@ -32,10 +32,10 @@ kraken2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.14-0</code>,  <code>2.1.3-4</code>,  <code>2.1.3-3</code>,  <code>2.1.3-2</code>,  <code>2.1.3-1</code>,  <code>2.1.3-0</code>,  <code>2.1.2-4</code>,  <code>2.1.2-3</code>,  <code>2.1.2-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.14-0</code>,  <code>2.1.5-0</code>,  <code>2.1.3-4</code>,  <code>2.1.3-3</code>,  <code>2.1.3-2</code>,  <code>2.1.3-1</code>,  <code>2.1.3-0</code>,  <code>2.1.2-4</code>,  <code>2.1.2-3</code>,  </span></summary>
       
 
-      ``2.14-0``,  ``2.1.3-4``,  ``2.1.3-3``,  ``2.1.3-2``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.2-4``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.9beta-0``,  ``2.0.8_beta-2``,  ``2.0.8_beta-1``,  ``2.0.8_beta-0``,  ``2.0.7_beta-3``,  ``2.0.7_beta-2``,  ``2.0.7_beta-1``,  ``2.0.7_beta-0``
+      ``2.14-0``,  ``2.1.5-0``,  ``2.1.3-4``,  ``2.1.3-3``,  ``2.1.3-2``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.2-4``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.9beta-0``,  ``2.0.8_beta-2``,  ``2.0.8_beta-1``,  ``2.0.8_beta-0``,  ``2.0.7_beta-3``,  ``2.0.7_beta-2``,  ``2.0.7_beta-1``,  ``2.0.7_beta-0``
 
       
       .. raw:: html
@@ -61,7 +61,7 @@ kraken2
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -109,7 +109,7 @@ kraken2
 
     <script>
         var package = "kraken2";
-        var versions = ["2.14","2.1.3","2.1.3","2.1.3","2.1.3"];
+        var versions = ["2.14","2.1.5","2.1.3","2.1.3","2.1.3"];
     </script>
 
 

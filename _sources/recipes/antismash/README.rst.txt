@@ -10,9 +10,9 @@ antismash
    :replaces_section_title:
    :noindex:
 
-   antiSMASH \- the antibiotics and Secondary Metabolite Analysis SHell
+   antiSMASH \- the antibiotics and Secondary Metabolite Analysis SHell.
 
-   :homepage: https://docs.antismash.secondarymetabolites.org/intro/
+   :homepage: https://docs.antismash.secondarymetabolites.org/intro
    :documentation: https://docs.antismash.secondarymetabolites.org
    
    :developer docs: https://github.com/antismash/antismash
@@ -34,10 +34,10 @@ antismash
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>7.1.0-1</code>,  <code>7.1.0-0</code>,  <code>6.1.1-0</code>,  <code>6.1.0-0</code>,  <code>6.0.1-0</code>,  <code>6.0.0-0</code>,  <code>5.1.2-4</code>,  <code>5.1.2-3</code>,  <code>5.1.2-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>8.0.0-0</code>,  <code>7.1.0-1</code>,  <code>7.1.0-0</code>,  <code>6.1.1-0</code>,  <code>6.1.0-0</code>,  <code>6.0.1-0</code>,  <code>6.0.0-0</code>,  <code>5.1.2-4</code>,  <code>5.1.2-3</code>,  </span></summary>
       
 
-      ``7.1.0-1``,  ``7.1.0-0``,  ``6.1.1-0``,  ``6.1.0-0``,  ``6.0.1-0``,  ``6.0.0-0``,  ``5.1.2-4``,  ``5.1.2-3``,  ``5.1.2-2``,  ``5.1.2-1``,  ``5.1.2-0``,  ``5.1.1-0``,  ``4.2.0-2``,  ``4.2.0-1``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.2-3``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.1-1``
+      ``8.0.0-0``,  ``7.1.0-1``,  ``7.1.0-0``,  ``6.1.1-0``,  ``6.1.0-0``,  ``6.0.1-0``,  ``6.0.0-0``,  ``5.1.2-4``,  ``5.1.2-3``,  ``5.1.2-2``,  ``5.1.2-1``,  ``5.1.2-0``,  ``5.1.1-0``,  ``4.2.0-2``,  ``4.2.0-1``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.2-3``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.1-1``
 
       
       .. raw:: html
@@ -47,12 +47,11 @@ antismash
 
    
    :depends bcbio-gff: 
-   :depends biopython: ``>=1.78,<=1.79``
+   :depends biopython: ``>=1.78,<1.81``
    :depends blast: 
-   :depends brawn: ``>=1.0.1``
+   :depends brawn: ``>=1.0.2``
    :depends diamond: 
    :depends fasttree: ``2.1.*``
-   :depends glimmerhmm: ``3.0.*``
    :depends helperlibs: ``>=0.2.1``
    :depends hmmer: ``>=3.1b2``
    :depends hmmer2: 
@@ -60,16 +59,16 @@ antismash
    :depends joblib: 
    :depends jsonschema: 
    :depends libsass: 
-   :depends markupsafe: ``>=2.0``
+   :depends markupsafe: ``>=3.0.2``
    :depends matplotlib-base: 
    :depends meme: ``5.5.*``
    :depends moods: ``>=1.9.4.2``
    :depends nrpys: ``>=0.1.1``
    :depends numpy: 
+   :depends orjson: ``>=3.10.16``
    :depends prodigal: 
-   :depends pysvg-py3: 
-   :depends python: 
-   :depends scikit-learn: ``>=1.3.2``
+   :depends python: ``>=3.11``
+   :depends scikit-learn: ``>=1.6.1``
    :depends scipy: 
    :requirements:
 
@@ -121,7 +120,7 @@ antismash
 
     <script>
         var package = "antismash";
-        var versions = ["7.1.0","7.1.0","6.1.1","6.1.0","6.0.1"];
+        var versions = ["8.0.0","7.1.0","7.1.0","6.1.1","6.1.0"];
     </script>
 
 

@@ -12,8 +12,8 @@ ucsc-fatotwobit
 
    Convert DNA from fasta to 2bit format.
 
-   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe/
-   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/v472_base/README
+   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe
+   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/v480_base/README
    
    :developer docs: https://github.com/ucscGenomeBrowser/kent
    :license: Varies; see http://genome.ucsc.edu/license
@@ -32,10 +32,10 @@ ucsc-fatotwobit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>472-1</code>,  <code>472-0</code>,  <code>469-2</code>,  <code>469-1</code>,  <code>469-0</code>,  <code>455-2</code>,  <code>455-1</code>,  <code>455-0</code>,  <code>447-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>480-0</code>,  <code>472-1</code>,  <code>472-0</code>,  <code>469-2</code>,  <code>469-1</code>,  <code>469-0</code>,  <code>455-2</code>,  <code>455-1</code>,  <code>455-0</code>,  </span></summary>
       
 
-      ``472-1``,  ``472-0``,  ``469-2``,  ``469-1``,  ``469-0``,  ``455-2``,  ``455-1``,  ``455-0``,  ``447-0``,  ``377-5``,  ``377-4``,  ``377-3``,  ``377-2``,  ``377-1``,  ``366-1``,  ``366-0``,  ``357-4``,  ``357-3``,  ``357-2``,  ``357-1``,  ``357-0``,  ``353-0``,  ``332-0``,  ``324-2``,  ``324-0``
+      ``480-0``,  ``472-1``,  ``472-0``,  ``469-2``,  ``469-1``,  ``469-0``,  ``455-2``,  ``455-1``,  ``455-0``,  ``447-0``,  ``377-5``,  ``377-4``,  ``377-3``,  ``377-2``,  ``377-1``,  ``366-1``,  ``366-0``,  ``357-4``,  ``357-3``,  ``357-2``,  ``357-1``,  ``357-0``,  ``353-0``,  ``332-0``,  ``324-2``,  ``324-0``
 
       
       .. raw:: html
@@ -44,14 +44,15 @@ ucsc-fatotwobit
       
 
    
+   :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libgcc: ``>=13``
+   :depends liblzma: ``>=5.8.1,<6.0a0``
    :depends libopenssl-static: 
-   :depends libpng: ``>=1.6.44,<1.7.0a0``
+   :depends libpng: ``>=1.6.47,<1.7.0a0``
    :depends libstdcxx: ``>=13``
    :depends libuuid: ``>=2.38.1,<3.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
@@ -106,7 +107,7 @@ ucsc-fatotwobit
 
     <script>
         var package = "ucsc-fatotwobit";
-        var versions = ["472","472","469","469","469"];
+        var versions = ["480","472","472","469","469"];
     </script>
 
 
