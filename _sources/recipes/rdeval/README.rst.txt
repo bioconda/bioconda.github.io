@@ -13,7 +13,7 @@ rdeval
    A general purpose\, multithreaded read analysis and manipulation tool.
 
    :homepage: https://github.com/vgl-hub/rdeval
-   :documentation: https://github.com/vgl-hub/rdeval/blob/v0.0.6/README.md
+   :documentation: https://github.com/vgl-hub/rdeval/blob/v0.0.7/README.md
    
    :license: MIT / MIT
    :recipe: /`rdeval <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdeval>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdeval/meta.yaml>`_
@@ -28,9 +28,17 @@ rdeval
    :versions:
       
       
+      .. raw:: html
 
-      ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-1``,  ``0.0.2-0``
+         <details><summary><span class="truncated-version-list"><code>0.0.7-0</code>,  <code>0.0.6-1</code>,  <code>0.0.6-0</code>,  <code>0.0.5-2</code>,  <code>0.0.5-1</code>,  <code>0.0.5-0</code>,  <code>0.0.4-0</code>,  <code>0.0.3-0</code>,  <code>0.0.2-1</code>,  </span></summary>
+      
 
+      ``0.0.7-0``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-1``,  ``0.0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -42,6 +50,7 @@ rdeval
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-bit64: 
    :depends r-ggextra: 
+   :depends r-plotly: 
    :depends r-rmarkdown: 
    :depends r-tidyverse: 
    :requirements:
@@ -98,7 +107,7 @@ rdeval
 
     <script>
         var package = "rdeval";
-        var versions = ["0.0.6","0.0.6","0.0.5","0.0.5","0.0.5"];
+        var versions = ["0.0.7","0.0.6","0.0.6","0.0.5","0.0.5"];
     </script>
 
 

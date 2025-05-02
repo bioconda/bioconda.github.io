@@ -10,10 +10,10 @@ viguno
    :replaces_section_title:
    :noindex:
 
-   Lookup OMIM genes and HPO terms and compute similarities
+   Lookup OMIM genes and HPO terms and compute similarities.
 
    :homepage: https://github.com/bihealth/varfish-org
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`viguno <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/viguno>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/viguno/meta.yaml>`_
 
    
@@ -27,16 +27,17 @@ viguno
       
       
 
-      ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.6-0``,  ``0.1.1-0``
+      ``0.4.0-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.6-0``,  ``0.1.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libsqlite: ``>=3.46.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
-   :depends openssl: ``>=3.3.1,<4.0a0``
+   :depends libgcc: ``>=13``
+   :depends libprotobuf: ``>=5.27.5,<5.27.6.0a0``
+   :depends libsqlite: ``>=3.49.1,<4.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends openssl: ``>=3.5.0,<4.0a0``
    :depends sqlite: 
    :requirements:
 
@@ -92,7 +93,7 @@ viguno
 
     <script>
         var package = "viguno";
-        var versions = ["0.3.2","0.3.2","0.3.1","0.2.1","0.2.0"];
+        var versions = ["0.4.0","0.3.2","0.3.2","0.3.1","0.2.1"];
     </script>
 
 

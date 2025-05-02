@@ -26,13 +26,20 @@ sneep
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-0``,  ``0.9-0``,  ``0.8-0``,  ``0.7-0``,  ``0.4-1``,  ``0.4-0``
+         <details><summary><span class="truncated-version-list"><code>1.1-3</code>,  <code>1.1-2</code>,  <code>1.1-1</code>,  <code>1.1-0</code>,  <code>1.0-0</code>,  <code>0.9-0</code>,  <code>0.8-0</code>,  <code>0.7-0</code>,  <code>0.4-1</code>,  </span></summary>
+      
 
+      ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-0``,  ``0.9-0``,  ``0.8-0``,  ``0.7-0``,  ``0.4-1``,  ``0.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
    :depends bedtools: ``>=2.27.1``
    :depends libgcc: 
    :depends libgcc-ng: ``>=12``
@@ -46,6 +53,10 @@ sneep
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -93,7 +104,7 @@ sneep
 
     <script>
         var package = "sneep";
-        var versions = ["1.1","1.1","1.1","1.0","0.9"];
+        var versions = ["1.1","1.1","1.1","1.1","1.0"];
     </script>
 
 

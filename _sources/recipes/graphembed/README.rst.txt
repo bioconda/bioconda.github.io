@@ -27,18 +27,25 @@ graphembed
       
       
 
-      ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
-   :depends lapack: 
    :depends libgcc: ``>=13``
+   :depends libgfortran: 
+   :depends libgfortran5: ``>=13.3.0``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends liblapacke: ``>=3.9.0,<4.0a0``
    :depends libstdcxx: ``>=13``
    :depends openblas: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -86,7 +93,7 @@ graphembed
 
     <script>
         var package = "graphembed";
-        var versions = ["0.1.6","0.1.5","0.1.4","0.1.3","0.1.2"];
+        var versions = ["0.1.7","0.1.6","0.1.5","0.1.4","0.1.3"];
     </script>
 
 

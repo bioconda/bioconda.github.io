@@ -27,7 +27,7 @@ atol-bpa-datamapper
       
       
 
-      ``0.1.2-0``,  ``0.1.1-0``
+      ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -86,7 +86,7 @@ atol-bpa-datamapper
 
     <script>
         var package = "atol-bpa-datamapper";
-        var versions = ["0.1.2","0.1.1"];
+        var versions = ["0.1.3","0.1.2","0.1.1"];
     </script>
 
 
