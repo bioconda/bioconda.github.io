@@ -70,13 +70,16 @@
 <dd><p>A tool for drawing ANI clustermap between all-vs-all microbial genomes</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/moshi4/ANIclustermap/">https://github.com/moshi4/ANIclustermap/</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/moshi4/ANIclustermap">https://github.com/moshi4/ANIclustermap</a></p>
 </dd>
-<dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>MIT / MIT</p>
+<dt class="field-even">Documentation<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://github.com/moshi4/ANIclustermap/blob/v2.0.1/README.md">https://github.com/moshi4/ANIclustermap/blob/v2.0.1/README.md</a></p>
 </dd>
-<dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aniclustermap">aniclustermap</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aniclustermap/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">License<span class="colon">:</span></dt>
+<dd class="field-odd"><p>MIT / MIT</p>
+</dd>
+<dt class="field-even">Recipe<span class="colon">:</span></dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aniclustermap">aniclustermap</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aniclustermap/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -88,7 +91,7 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/aniclustermap"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/aniclustermap.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/aniclustermap"><img alt="docker_aniclustermap" src="https://quay.io/repository/biocontainers/aniclustermap/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
 </dd>
 <dt class="field-even">depends fastani<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.33</span></code></p>
@@ -97,7 +100,7 @@
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.4.1</span></code></p>
 </dd>
 <dt class="field-even">depends python<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.8</span></code></p>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.9</span></code></p>
 </dd>
 <dt class="field-odd">depends scipy<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.9.0</span></code></p>
@@ -106,12 +109,15 @@
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.11.2</span></code></p>
 </dd>
 <dt class="field-odd">depends skani<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.1.0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.2.2</span></code></p>
 </dd>
-<dt class="field-even">requirements<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
+<dt class="field-even">depends typer<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.15.2</span></code></p>
+</dd>
+<dt class="field-odd">requirements<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
+<dt class="field-even">additional platforms<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -146,7 +152,7 @@ others.</p>
 
 <script>
     var package = "aniclustermap";
-    var versions = ["1.4.0","1.3.0","1.2.0","1.1.0","1.0.0"];
+    var versions = ["2.0.1","1.4.0","1.3.0","1.2.0","1.1.0"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

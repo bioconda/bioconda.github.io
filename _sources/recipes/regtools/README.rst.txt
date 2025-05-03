@@ -12,7 +12,9 @@ regtools
 
    Tools that integrate DNA\-seq and RNA\-seq data to help interpret mutations in a regulatory and splicing context.
 
-   :homepage: https://github.com/griffithlab/regtools/
+   :homepage: https://github.com/griffithlab/regtools
+   :documentation: https://regtools.readthedocs.io/en/latest
+   
    :license: MIT / MIT
    :recipe: /`regtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/regtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/regtools/meta.yaml>`_
 
@@ -28,10 +30,10 @@ regtools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.0-4</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-2</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.0-5</code>,  <code>1.0.0-4</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-2</code>,  <code>0.6.0-1</code>,  </span></summary>
       
 
-      ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.6.1-0``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``
+      ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.6.1-0``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``
 
       
       .. raw:: html
@@ -43,14 +45,13 @@ regtools
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

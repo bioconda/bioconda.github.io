@@ -12,7 +12,9 @@ aniclustermap
 
    A tool for drawing ANI clustermap between all\-vs\-all microbial genomes
 
-   :homepage: https://github.com/moshi4/ANIclustermap/
+   :homepage: https://github.com/moshi4/ANIclustermap
+   :documentation: https://github.com/moshi4/ANIclustermap/blob/v2.0.1/README.md
+   
    :license: MIT / MIT
    :recipe: /`aniclustermap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aniclustermap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aniclustermap/meta.yaml>`_
 
@@ -27,17 +29,18 @@ aniclustermap
       
       
 
-      ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``2.0.1-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends fastani: ``>=1.33``
    :depends pandas: ``>=1.4.1``
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.9``
    :depends scipy: ``>=1.9.0``
    :depends seaborn: ``>=0.11.2``
-   :depends skani: ``>=0.1.0``
+   :depends skani: ``>=0.2.2``
+   :depends typer: ``>=0.15.2``
    :requirements:
 
    :additional platforms:
@@ -88,7 +91,7 @@ aniclustermap
 
     <script>
         var package = "aniclustermap";
-        var versions = ["1.4.0","1.3.0","1.2.0","1.1.0","1.0.0"];
+        var versions = ["2.0.1","1.4.0","1.3.0","1.2.0","1.1.0"];
     </script>
 
 

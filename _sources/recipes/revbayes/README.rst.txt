@@ -32,10 +32,10 @@ revbayes
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.5-1</code>,  <code>1.2.5-0</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.0.13-7</code>,  <code>1.0.13-6</code>,  <code>1.0.13-5</code>,  <code>1.0.13-4</code>,  <code>1.0.13-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.5-1</code>,  <code>1.2.5-0</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.0.13-7</code>,  <code>1.0.13-6</code>,  <code>1.0.13-5</code>,  </span></summary>
       
 
-      ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.0.13-7``,  ``1.0.13-6``,  ``1.0.13-5``,  ``1.0.13-4``,  ``1.0.13-3``,  ``1.0.13-2``,  ``1.0.13-1``,  ``1.0.13-0``
+      ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.0.13-7``,  ``1.0.13-6``,  ``1.0.13-5``,  ``1.0.13-4``,  ``1.0.13-3``,  ``1.0.13-2``,  ``1.0.13-1``,  ``1.0.13-0``
 
       
       .. raw:: html
@@ -53,6 +53,10 @@ revbayes
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>osx-arm64</code>,  <code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -100,7 +104,7 @@ revbayes
 
     <script>
         var package = "revbayes";
-        var versions = ["1.2.5","1.2.5","1.2.4","1.2.4","1.0.13"];
+        var versions = ["1.3.0","1.3.0","1.2.5","1.2.5","1.2.4"];
     </script>
 
 

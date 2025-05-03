@@ -13,7 +13,9 @@ phylogenize
    Phylogenize is a tool that allows users to link microbial genes to environments\, accounting for phylogeny.
 
    :homepage: https://github.com/pbradleylab/phylogenize
-   :license: MIT
+   :documentation: http://phylogenize.org
+   
+   :license: MIT / MIT
    :recipe: /`phylogenize <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phylogenize>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phylogenize/meta.yaml>`_
 
    
@@ -27,21 +29,33 @@ phylogenize
       
       
 
-      ``0.91-0``
+      ``0.91-1``,  ``0.91-0``
 
       
 
    
-   :depends bioconductor-biomformat: ``1.28.0.*``
-   :depends bioconductor-ggtree: ``<=3.8.0,>1.16.0``
+   :depends bioconductor-biomformat: ``1.22.0.*``
+   :depends bioconductor-ggtree: ``3.2.0.*``
+   :depends bioconductor-qvalue: ``2.26.0.*``
    :depends perl: ``5.32.1.*``
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-devtools: ``<=2.4.5``
+   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-functional: ``0.6.*``
+   :depends r-furrr: ``0.3.1.*``
+   :depends r-gtools: ``3.9.4.*``
+   :depends r-kableextra: ``1.3.4.*``
+   :depends r-pbapply: ``1.7_0.*``
    :depends r-phangorn: ``2.11.1.*``
    :depends r-phylolm: ``2.6.2.*``
-   :depends r-ragg: ``<=1.2.6``
-   :depends vsearch: ``2.24.0.*``
+   :depends r-phytools: ``1.5_1.*``
+   :depends r-pryr: ``0.1.6.*``
+   :depends r-ragg: ``1.2.5.*``
+   :depends r-seqinr: ``4.2_30.*``
+   :depends r-settings: ``0.2.7.*``
+   :depends r-svglite: ``2.1.1.*``
+   :depends r-testthat: ``3.1.8.*``
+   :depends r-tidyverse: ``2.0.0.*``
+   :depends vsearch: ``2.30.0.*``
    :requirements:
 
    :additional platforms:
@@ -92,7 +106,7 @@ phylogenize
 
     <script>
         var package = "phylogenize";
-        var versions = ["0.91"];
+        var versions = ["0.91","0.91"];
     </script>
 
 

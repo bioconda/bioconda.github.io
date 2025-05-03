@@ -12,12 +12,17 @@ rdock
 
    A Fast\, Versatile and Open Source Program for Docking Ligands to Proteins and Nucleic Acids
 
-   :homepage: http://rdock.sourceforge.net/
-   :license: LGPLv3
+   :homepage: https://rdock.github.io/
+   :documentation: https://rdock.github.io/documentation/
+   
+   :developer docs: https://github.com/CBDD/rDock
+   :license: LGPL / LGPL-3
    :recipe: /`rdock <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdock>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdock/meta.yaml>`_
    :links: doi: :doi:`10.1371/journal.pcbi.1003571`, usegalaxy-eu: :usegalaxy-eu:`rdock_rbdock`
 
-   
+   rDock is a fast and versatile Open Source docking program that can be used to dock small molecules against proteins and nucleic acids.
+   It is designed for High Throughput Virtual Screening \(HTVS\) campaigns and Binding Mode prediction studies.
+
 
 
 .. conda:package:: rdock
@@ -28,7 +33,7 @@ rdock
       
       
 
-      ``2013.1-1``,  ``2013.1-0``
+      ``2013.1-1``,  ``2013.1-0``,  ``24.04.204_legacy-0``
 
       
 
@@ -41,6 +46,10 @@ rdock
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -88,7 +97,7 @@ rdock
 
     <script>
         var package = "rdock";
-        var versions = ["2013.1","2013.1"];
+        var versions = ["2013.1","2013.1","24.04.204_legacy"];
     </script>
 
 

@@ -12,12 +12,12 @@ capcruncher
 
    An end\-to\-end solution for processing Capture\-C\, Tri\-C and Tiled\-C data.
 
-   :homepage: https://github.com/sims-lab/CapCruncher.git
+   :homepage: https://github.com/sims-lab/CapCruncher
    :documentation: https://sims-lab.github.io/CapCruncher
    
-   :developer docs: https://github.com/sims-lab/CapCruncher
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`capcruncher <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/capcruncher>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/capcruncher/meta.yaml>`_
+   :links: doi: :doi:`10.5281/zenodo.10629485`
 
    
 
@@ -31,10 +31,10 @@ capcruncher
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.14-0</code>,  <code>0.3.12-0</code>,  <code>0.3.11-0</code>,  <code>0.3.10-0</code>,  <code>0.3.9-0</code>,  <code>0.3.8-0</code>,  <code>0.3.7-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.14-1</code>,  <code>0.3.14-0</code>,  <code>0.3.12-0</code>,  <code>0.3.11-0</code>,  <code>0.3.10-0</code>,  <code>0.3.9-0</code>,  <code>0.3.8-0</code>,  <code>0.3.7-0</code>,  <code>0.3.6-0</code>,  </span></summary>
       
 
-      ``0.3.14-0``,  ``0.3.12-0``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.1.1a1-0``,  ``0.1.0a2-0``
+      ``0.3.14-1``,  ``0.3.14-0``,  ``0.3.12-0``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.1.1a1-0``,  ``0.1.0a2-0``
 
       
       .. raw:: html
@@ -54,9 +54,10 @@ capcruncher
    :depends numpy: ``<=1.26.4``
    :depends pandas: ``<=2.1.2``
    :depends plotly: ``>5.0.0,<=5.10.0``
-   :depends polars: ``<=1.6.0``
+   :depends polars: ``<=1.27.1``
+   :depends protobuf: ``<=6.30.2``
    :depends pulp: ``<2.8.0``
-   :depends pyarrow: 
+   :depends pyarrow: ``>11.0.0,<19.0.1``
    :depends pybedtools: 
    :depends pyranges: ``<=0.1.2``
    :depends pysam: ``>0.15.0,<=0.21.0``
@@ -124,7 +125,7 @@ capcruncher
 
     <script>
         var package = "capcruncher";
-        var versions = ["0.3.14","0.3.12","0.3.11","0.3.10","0.3.9"];
+        var versions = ["0.3.14","0.3.14","0.3.12","0.3.11","0.3.10"];
     </script>
 
 
