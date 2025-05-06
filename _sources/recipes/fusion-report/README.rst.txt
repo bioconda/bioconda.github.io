@@ -10,7 +10,7 @@ fusion-report
    :replaces_section_title:
    :noindex:
 
-   Tool for parsing outputs from fusion detection tools. Part of a nf\-core\/rnafusion pipeline.
+   Tool for parsing outputs from fusion detection tools. Part of the nf\-core\/rnafusion pipeline.
 
    :homepage: https://github.com/Clinical-Genomics/fusion-report
    :license: GPL3 / GPL-3.0-only
@@ -29,10 +29,10 @@ fusion-report
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.0-0</code>,  <code>3.1.2-0</code>,  <code>3.1.1-0</code>,  <code>2.1.5-0</code>,  <code>2.1.4-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>3.1.2-0</code>,  <code>3.1.1-0</code>,  <code>2.1.5-0</code>,  <code>2.1.4-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  </span></summary>
       
 
-      ``4.0.0-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``4.0.0-1``,  ``4.0.0-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
       .. raw:: html
@@ -49,9 +49,10 @@ fusion-report
    :depends numpy: ``>=1.26.0``
    :depends openpyxl: 
    :depends pandas: ``>=2.2.0``
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.12``
    :depends pyyaml: ``>=4.2b1``
    :depends requests: ``>=2.31.0``
+   :depends sqlite: ``>=3.39``
    :depends tabulate: ``>=0.9.0``
    :depends tqdm: ``>=4.66.0``
    :depends xlrd: ``>=2.0.0``
@@ -105,7 +106,7 @@ fusion-report
 
     <script>
         var package = "fusion-report";
-        var versions = ["4.0.0","3.1.2","3.1.1","2.1.5","2.1.4"];
+        var versions = ["4.0.0","4.0.0","3.1.2","3.1.1","2.1.5"];
     </script>
 
 
