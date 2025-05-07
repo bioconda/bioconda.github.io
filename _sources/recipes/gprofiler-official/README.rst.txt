@@ -27,12 +27,12 @@ gprofiler-official
       
       
 
-      ``1.0.0-0``,  ``0.2.3-1``,  ``0.2.3-0``
+      ``1.0.0-1``,  ``1.0.0-0``,  ``0.2.3-1``,  ``0.2.3-0``
 
       
 
    
-   :depends python: ``>=3``
+   :depends python: 
    :depends requests: 
    :requirements:
 
@@ -84,7 +84,7 @@ gprofiler-official
 
     <script>
         var package = "gprofiler-official";
-        var versions = ["1.0.0","0.2.3","0.2.3"];
+        var versions = ["1.0.0","1.0.0","0.2.3","0.2.3"];
     </script>
 
 

@@ -27,7 +27,7 @@ quota_anchor
       
       
 
-      ``0.0.1rc-0``,  ``0.0.1b2-1``,  ``0.0.1b2-0``,  ``0.0.1b1-0``,  ``0.0.1a1-0``,  ``0.0.1a0-0``
+      ``1.0.0rc-0``,  ``0.0.1rc-0``,  ``0.0.1b2-1``,  ``0.0.1b2-0``,  ``0.0.1b1-0``,  ``0.0.1a1-0``,  ``0.0.1a0-0``
 
       
 
@@ -47,7 +47,7 @@ quota_anchor
    :depends paml: 
    :depends pandas: 
    :depends plotnine: 
-   :depends python: ``>=3``
+   :depends python: ``>=3,<3.13``
    :depends scikit-learn: 
    :depends seaborn: 
    :requirements:
@@ -100,7 +100,7 @@ quota_anchor
 
     <script>
         var package = "quota_anchor";
-        var versions = ["0.0.1rc","0.0.1b2","0.0.1b2","0.0.1b1","0.0.1a1"];
+        var versions = ["1.0.0rc","0.0.1rc","0.0.1b2","0.0.1b2","0.0.1b1"];
     </script>
 
 

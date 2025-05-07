@@ -27,11 +27,21 @@ genedom
       
       
 
-      
+      ``0.2.1-0``
 
       
 
    
+   :depends dna_features_viewer: 
+   :depends dnachisel: 
+   :depends flametree: 
+   :depends openpyxl: 
+   :depends pandas: 
+   :depends pdf-reports: 
+   :depends python: 
+   :depends python-box: 
+   :depends sequenticon: 
+   :depends snapgene-reader: 
    :requirements:
 
    :additional platforms:
@@ -82,7 +92,7 @@ genedom
 
     <script>
         var package = "genedom";
-        var versions = [];
+        var versions = ["0.2.1"];
     </script>
 
 

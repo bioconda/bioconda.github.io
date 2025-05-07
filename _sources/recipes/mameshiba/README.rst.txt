@@ -19,8 +19,7 @@ mameshiba
    :recipe: /`mameshiba <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mameshiba>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mameshiba/meta.yaml>`_
 
    mameshiba is a minimal conda meta\-package that installs all dependencies required
-   for running MameShiba \(https\:\/\/github.com\/Sika\-Zheng\-Lab\/Shiba\). After installing\, clone
-   the Shiba GitHub repository and run \'python shiba.py\'.
+   for running MameShiba \(https\:\/\/github.com\/Sika\-Zheng\-Lab\/Shiba\).
 
 
 
@@ -32,7 +31,7 @@ mameshiba
       
       
 
-      ``0.6.0-0``
+      ``0.6.1-0``,  ``0.6.0-0``
 
       
 
@@ -98,7 +97,7 @@ mameshiba
 
     <script>
         var package = "mameshiba";
-        var versions = ["0.6.0"];
+        var versions = ["0.6.1","0.6.0"];
     </script>
 
 

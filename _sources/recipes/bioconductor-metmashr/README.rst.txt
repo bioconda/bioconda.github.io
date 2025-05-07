@@ -27,20 +27,48 @@ bioconductor-metmashr
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
+   :depends bioconductor-biocfilecache: 
+   :depends bioconductor-biocstyle: 
+   :depends bioconductor-compounddb: 
+   :depends bioconductor-go.db: 
+   :depends bioconductor-keggrest: 
+   :depends bioconductor-metabolomicsworkbenchr: 
+   :depends bioconductor-mspurity: 
+   :depends bioconductor-rgoslin: 
    :depends bioconductor-struct: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-structtoolbox: 
    :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-complexupset: 
+   :depends r-covr: 
    :depends r-cowplot: 
    :depends r-dplyr: 
+   :depends r-dt: 
    :depends r-ggplot2: 
    :depends r-ggthemes: 
+   :depends r-ggvenndiagram: 
    :depends r-httr: 
+   :depends r-jsonlite: 
+   :depends r-knitr: 
+   :depends r-magick: 
+   :depends r-openxlsx: 
+   :depends r-patchwork: 
+   :depends r-plyr: 
    :depends r-rlang: 
+   :depends r-rmarkdown: 
+   :depends r-rsqlite: 
+   :depends r-rsvg: 
+   :depends r-rvenn: 
    :depends r-scales: 
+   :depends r-testthat: 
+   :depends r-tidyr: 
+   :depends r-tidyselect: 
+   :depends r-tidytext: 
+   :depends r-xml: 
    :requirements:
 
    :additional platforms:
@@ -91,7 +119,7 @@ bioconductor-metmashr
 
     <script>
         var package = "bioconductor-metmashr";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

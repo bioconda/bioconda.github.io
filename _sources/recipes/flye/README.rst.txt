@@ -12,8 +12,8 @@ flye
 
    A fast and accurate de novo assembler for single molecule sequencing reads using repeat graphs.
 
-   :homepage: https://github.com/fenderglass/Flye
-   :documentation: https://github.com/fenderglass/Flye/blob/flye/docs/USAGE.md
+   :homepage: https://github.com/mikolmogorov/Flye
+   :documentation: https://github.com/mikolmogorov/Flye/blob/flye/docs/USAGE.md
    
    :license: BSD / BSD-3-Clause
    :recipe: /`flye <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flye>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flye/meta.yaml>`_
@@ -31,10 +31,10 @@ flye
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.9.5-2</code>,  <code>2.9.5-1</code>,  <code>2.9.5-0</code>,  <code>2.9.4-2</code>,  <code>2.9.4-0</code>,  <code>2.9.3-1</code>,  <code>2.9.3-0</code>,  <code>2.9.2-2</code>,  <code>2.9.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.9.6-0</code>,  <code>2.9.5-2</code>,  <code>2.9.5-1</code>,  <code>2.9.5-0</code>,  <code>2.9.4-2</code>,  <code>2.9.4-0</code>,  <code>2.9.3-1</code>,  <code>2.9.3-0</code>,  <code>2.9.2-2</code>,  </span></summary>
       
 
-      ``2.9.5-2``,  ``2.9.5-1``,  ``2.9.5-0``,  ``2.9.4-2``,  ``2.9.4-0``,  ``2.9.3-1``,  ``2.9.3-0``,  ``2.9.2-2``,  ``2.9.2-1``,  ``2.9.2-0``,  ``2.9.1-0``,  ``2.9-1``,  ``2.9-0``,  ``2.8.3-1``,  ``2.8.3-0``,  ``2.8.2-0``,  ``2.8.1-1``,  ``2.8.1-0``,  ``2.8-0``,  ``2.7.1-2``,  ``2.7.1-1``,  ``2.7.1-0``,  ``2.7-0``,  ``2.6-0``,  ``2.5-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4-0``,  ``2.3.7-0``,  ``2.3.6-3``,  ``2.3.5-3``,  ``2.3.4-2``,  ``2.3.4-0``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3-0``
+      ``2.9.6-0``,  ``2.9.5-2``,  ``2.9.5-1``,  ``2.9.5-0``,  ``2.9.4-2``,  ``2.9.4-0``,  ``2.9.3-1``,  ``2.9.3-0``,  ``2.9.2-2``,  ``2.9.2-1``,  ``2.9.2-0``,  ``2.9.1-0``,  ``2.9-1``,  ``2.9-0``,  ``2.8.3-1``,  ``2.8.3-0``,  ``2.8.2-0``,  ``2.8.1-1``,  ``2.8.1-0``,  ``2.8-0``,  ``2.7.1-2``,  ``2.7.1-1``,  ``2.7.1-0``,  ``2.7-0``,  ``2.6-0``,  ``2.5-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4-0``,  ``2.3.7-0``,  ``2.3.6-3``,  ``2.3.5-3``,  ``2.3.4-2``,  ``2.3.4-0``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3-0``
 
       
       .. raw:: html
@@ -102,7 +102,7 @@ flye
 
     <script>
         var package = "flye";
-        var versions = ["2.9.5","2.9.5","2.9.5","2.9.4","2.9.4"];
+        var versions = ["2.9.6","2.9.5","2.9.5","2.9.5","2.9.4"];
     </script>
 
 

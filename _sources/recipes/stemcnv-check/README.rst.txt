@@ -27,7 +27,7 @@ stemcnv-check
       
       
 
-      ``0.5.0-0``
+      ``0.5.1-0``,  ``0.5.0-0``
 
       
 
@@ -92,7 +92,7 @@ stemcnv-check
 
     <script>
         var package = "stemcnv-check";
-        var versions = ["0.5.0"];
+        var versions = ["0.5.1","0.5.0"];
     </script>
 
 
