@@ -13,7 +13,7 @@ relecov-tools
    Tools for managing and processing of relecov data.
 
    :homepage: https://github.com/BU-ISCIII/relecov-tools
-   :license: GPL-3.0-or-later
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`relecov-tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/relecov-tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/relecov-tools/meta.yaml>`_
 
    Tools for managing and processing of relecov network data\, including download\, metadata parsing\, validation\, and update to public databases.
@@ -28,7 +28,7 @@ relecov-tools
       
       
 
-      ``1.4.0-0``,  ``1.3.0-0``
+      ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``
 
       
 
@@ -46,9 +46,11 @@ relecov-tools
    :depends prompt_toolkit: ``>=3.0.3``
    :depends python: ``>=3.7``
    :depends pyyaml: ``6.0.1``
+   :depends pyzipper: ``0.3.6``
    :depends questionary: 
    :depends requests: ``2.27.1``
    :depends rich: ``>=10.0.0``
+   :depends semantic_version: 
    :depends tabulate: 
    :depends xlsxwriter: ``3.2.0``
    :requirements:
@@ -101,7 +103,7 @@ relecov-tools
 
     <script>
         var package = "relecov-tools";
-        var versions = ["1.4.0","1.3.0"];
+        var versions = ["1.5.0","1.4.0","1.3.0"];
     </script>
 
 

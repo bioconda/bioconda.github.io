@@ -10,10 +10,12 @@ anchorwave
    :replaces_section_title:
    :noindex:
 
-   Sensitive alignment of genomes with high sequence diversity\, extensive structural polymorphism\, and whole\-genome duplication variation
+   Sensitive alignment of genomes with high sequence diversity\, extensive structural polymorphism\, and whole\-genome duplication variation.
 
    :homepage: https://github.com/baoxingsong/AnchorWave
-   :license: MIT
+   :documentation: https://github.com/baoxingsong/AnchorWave/blob/v1.2.6/README.md
+   
+   :license: MIT / MIT
    :recipe: /`anchorwave <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/anchorwave>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/anchorwave/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ anchorwave
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.5-1</code>,  <code>1.2.5-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-2</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.6-0</code>,  <code>1.2.5-1</code>,  <code>1.2.5-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-2</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  </span></summary>
       
 
-      ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.2.6-0``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -44,10 +46,13 @@ anchorwave
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends minimap2: 
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -95,7 +100,7 @@ anchorwave
 
     <script>
         var package = "anchorwave";
-        var versions = ["1.2.5","1.2.5","1.2.3","1.2.2","1.2.1"];
+        var versions = ["1.2.6","1.2.5","1.2.5","1.2.3","1.2.2"];
     </script>
 
 

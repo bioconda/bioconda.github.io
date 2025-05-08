@@ -27,7 +27,7 @@ ervmancer
       
       
 
-      ``0.0.2-0``,  ``0.0.1-0``
+      ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
@@ -36,7 +36,7 @@ ervmancer
    :depends bowtie2: ``>=2.4.2``
    :depends numpy: 
    :depends pandas: 
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.8,<3.11``
    :depends regex: 
    :depends samtools: ``>=1.20``
    :depends setuptools: 
@@ -91,7 +91,7 @@ ervmancer
 
     <script>
         var package = "ervmancer";
-        var versions = ["0.0.2","0.0.1"];
+        var versions = ["0.0.3","0.0.2","0.0.1"];
     </script>
 
 

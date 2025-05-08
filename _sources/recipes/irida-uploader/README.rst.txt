@@ -10,7 +10,7 @@ irida-uploader
    :replaces_section_title:
    :noindex:
 
-   Upload NGS data to IRIDA system
+   Upload NGS data to IRIDA system.
 
    :homepage: https://github.com/phac-nml/irida-uploader
    :documentation: https://irida-uploader.readthedocs.io/en/latest
@@ -30,10 +30,10 @@ irida-uploader
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.2-0</code>,  <code>0.9.0-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.3-0</code>,  <code>0.9.2-0</code>,  <code>0.9.0-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  </span></summary>
       
 
-      ``0.9.2-0``,  ``0.9.0-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.2-1``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.1-0``
+      ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.0-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.2-1``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.1-0``
 
       
       .. raw:: html
@@ -42,12 +42,13 @@ irida-uploader
       
 
    
-   :depends appdirs: ``>=1.4.3``
+   :depends appdirs: 
    :depends cerberus: 
+   :depends chardet: 
    :depends python: ``>=3.7``
-   :depends rauth: ``>=0.7.3``
-   :depends requests: ``>=2.21.0``
-   :depends requests-toolbelt: ``>=0.9.1``
+   :depends rauth: 
+   :depends requests: 
+   :depends requests-toolbelt: 
    :requirements:
 
    :additional platforms:
@@ -98,7 +99,7 @@ irida-uploader
 
     <script>
         var package = "irida-uploader";
-        var versions = ["0.9.2","0.9.0","0.8.3","0.8.2","0.8.1"];
+        var versions = ["0.9.3","0.9.2","0.9.0","0.8.3","0.8.2"];
     </script>
 
 

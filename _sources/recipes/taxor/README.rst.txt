@@ -10,11 +10,14 @@ taxor
    :replaces_section_title:
    :noindex:
 
-   Fast and space\-efficient taxonomic classification of long reads
+   Fast and space\-efficient taxonomic classification of long reads.
 
    :homepage: https://github.com/JensUweUlrich/Taxor
+   :documentation: https://github.com/JensUweUlrich/Taxor/blob/0.2.1/README.md
+   
    :license: BSD / BSD-3-Clause
    :recipe: /`taxor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taxor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taxor/meta.yaml>`_
+   :links: doi: :doi:`10.1101/gr.278623.123`
 
    
 
@@ -27,7 +30,7 @@ taxor
       
       
 
-      ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -40,12 +43,17 @@ taxor
    :depends grep: 
    :depends libgcc: 
    :depends libgcc-ng: ``>=12``
+   :depends libgomp: 
    :depends libstdcxx: 
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -93,7 +101,7 @@ taxor
 
     <script>
         var package = "taxor";
-        var versions = ["0.2.0","0.1.3","0.1.2","0.1.1"];
+        var versions = ["0.2.1","0.2.0","0.1.3","0.1.2","0.1.1"];
     </script>
 
 

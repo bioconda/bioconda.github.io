@@ -17,6 +17,7 @@ immuneml
    
    :license: AGPL / APGL-3.0-only
    :recipe: /`immuneml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/immuneml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/immuneml/meta.yaml>`_
+   :links: biotools: :biotools:`immuneml`, doi: :doi:`10.1038/s42256-021-00413-z`
 
    
 
@@ -30,10 +31,10 @@ immuneml
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.12-0</code>,  <code>3.0.11-0</code>,  <code>3.0.9-0</code>,  <code>3.0.8-0</code>,  <code>3.0.7-0</code>,  <code>3.0.6-1</code>,  <code>3.0.6-0</code>,  <code>3.0.5-0</code>,  <code>3.0.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.14-0</code>,  <code>3.0.12-0</code>,  <code>3.0.11-0</code>,  <code>3.0.9-0</code>,  <code>3.0.8-0</code>,  <code>3.0.7-0</code>,  <code>3.0.6-1</code>,  <code>3.0.6-0</code>,  <code>3.0.5-0</code>,  </span></summary>
       
 
-      ``3.0.12-0``,  ``3.0.11-0``,  ``3.0.9-0``,  ``3.0.8-0``,  ``3.0.7-0``,  ``3.0.6-1``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.4-0``,  ``3.0.3-0``,  ``2.2.6-1``,  ``2.2.6-0``,  ``2.2.5-1``,  ``2.2.5-0``,  ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.0-0``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.0-0``,  ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``
+      ``3.0.14-0``,  ``3.0.12-0``,  ``3.0.11-0``,  ``3.0.9-0``,  ``3.0.8-0``,  ``3.0.7-0``,  ``3.0.6-1``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.4-0``,  ``3.0.3-0``,  ``2.2.6-1``,  ``2.2.6-0``,  ``2.2.5-1``,  ``2.2.5-0``,  ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.0-0``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.0-0``,  ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``
 
       
       .. raw:: html
@@ -48,7 +49,6 @@ immuneml
    :depends editdistance: 
    :depends gensim: ``>=4``
    :depends keras: ``>=2.12.0``
-   :depends libgcc: ``>=13``
    :depends logomaker: ``>=0.8``
    :depends matplotlib-base: ``>=3.1``
    :depends matplotlib-venn: ``>=0.11``
@@ -57,9 +57,11 @@ immuneml
    :depends olga: ``>=1.2.4``
    :depends pandas: ``>=2.1.0``
    :depends plotly: ``>=4``
+   :depends psutil: 
    :depends pystache: 
    :depends pytest: ``>=4``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends python: ``>=3.7,<3.12``
+   :depends python-kaleido: 
    :depends pytorch: ``>=2.* cpu_*``
    :depends pyyaml: ``>=5.3``
    :depends regex: 
@@ -118,7 +120,7 @@ immuneml
 
     <script>
         var package = "immuneml";
-        var versions = ["3.0.12","3.0.11","3.0.9","3.0.8","3.0.7"];
+        var versions = ["3.0.14","3.0.12","3.0.11","3.0.9","3.0.8"];
     </script>
 
 

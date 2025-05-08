@@ -10,13 +10,14 @@ jcvi
    :replaces_section_title:
    :noindex:
 
-   Python utility libraries on genome assembly\, annotation\, and comparative genomics
+   Python utility libraries on genome assembly\, annotation\, and comparative genomics.
 
    :homepage: https://github.com/tanghaibao/jcvi
    :documentation: https://github.com/tanghaibao/jcvi/wiki
    
    :license: BSD / BSD-2-Clause
    :recipe: /`jcvi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jcvi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jcvi/meta.yaml>`_
+   :links: doi: :doi:`10.1002/imt2.211`
 
    JCVI utility libraries
 
@@ -30,10 +31,10 @@ jcvi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.16-0</code>,  <code>1.4.15-1</code>,  <code>1.4.15-0</code>,  <code>1.4.11-0</code>,  <code>1.4.10-0</code>,  <code>1.4.9-0</code>,  <code>1.3.9-1</code>,  <code>1.3.9-0</code>,  <code>1.3.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.4-0</code>,  <code>1.4.16-0</code>,  <code>1.4.15-1</code>,  <code>1.4.15-0</code>,  <code>1.4.11-0</code>,  <code>1.4.10-0</code>,  <code>1.4.9-0</code>,  <code>1.3.9-1</code>,  <code>1.3.9-0</code>,  </span></summary>
       
 
-      ``1.4.16-0``,  ``1.4.15-1``,  ``1.4.15-0``,  ``1.4.11-0``,  ``1.4.10-0``,  ``1.4.9-0``,  ``1.3.9-1``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.6-0``,  ``1.3.5-1``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.2.7-3``,  ``1.2.7-1``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.1.19-1``,  ``1.1.19-0``,  ``1.1.18-0``,  ``1.1.17-2``,  ``1.1.17-1``,  ``1.1.17-0``,  ``1.1.16-0``,  ``1.1.15-0``,  ``1.1.14-0``,  ``1.1.12-0``,  ``1.1.11-1``,  ``1.1.11-0``,  ``1.1.10-1``,  ``1.1.10-0``,  ``1.1.8-0``,  ``1.1.5-0``,  ``1.0.14-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.9.14-0``,  ``0.9.13-0``,  ``0.9.12-0``,  ``0.9.11-0``,  ``0.9.10-0``,  ``0.9.9-0``,  ``0.9.6-0``,  ``0.8.12-1``,  ``0.8.12-0``,  ``0.8.4-1``,  ``0.8.4-0``
+      ``1.5.4-0``,  ``1.4.16-0``,  ``1.4.15-1``,  ``1.4.15-0``,  ``1.4.11-0``,  ``1.4.10-0``,  ``1.4.9-0``,  ``1.3.9-1``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.6-0``,  ``1.3.5-1``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.2.7-3``,  ``1.2.7-1``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.1.19-1``,  ``1.1.19-0``,  ``1.1.18-0``,  ``1.1.17-2``,  ``1.1.17-1``,  ``1.1.17-0``,  ``1.1.16-0``,  ``1.1.15-0``,  ``1.1.14-0``,  ``1.1.12-0``,  ``1.1.11-1``,  ``1.1.11-0``,  ``1.1.10-1``,  ``1.1.10-0``,  ``1.1.8-0``,  ``1.1.5-0``,  ``1.0.14-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.9.14-0``,  ``0.9.13-0``,  ``0.9.12-0``,  ``0.9.11-0``,  ``0.9.10-0``,  ``0.9.9-0``,  ``0.9.6-0``,  ``0.8.12-1``,  ``0.8.12-0``,  ``0.8.4-1``,  ``0.8.4-0``
 
       
       .. raw:: html
@@ -45,30 +46,38 @@ jcvi
    :depends biopython: 
    :depends boto3: 
    :depends brewer2mpl: 
-   :depends coveralls: 
+   :depends crossmap: 
    :depends deap: 
    :depends ete3: 
+   :depends ftpretty: 
    :depends gffutils: 
    :depends goatools: 
-   :depends graphviz: 
+   :depends imagemagick: 
    :depends jinja2: 
    :depends last: 
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libmagic: 
    :depends matplotlib-base: 
    :depends more-itertools: 
    :depends natsort: 
    :depends networkx: 
-   :depends numpy: ``>=1.21.6,<2.0a0``
-   :depends pypdf2: 
+   :depends numpy: ``>=1.22.4,<2.0a0``
+   :depends pybedtools: 
+   :depends pyefd: 
+   :depends pypdf: 
+   :depends pytesseract: 
    :depends python: ``>=3.10,<3.11.0a0``
+   :depends python-graphviz: 
    :depends python_abi: ``3.10.* *_cp310``
-   :depends pyyaml: 
    :depends r-ggplot2: 
    :depends r-tinytex: 
    :depends rich: 
+   :depends scikit-image: 
    :depends scipy: 
    :depends seaborn-base: 
    :depends ucsc-liftover: 
+   :depends wand: 
+   :depends webcolors: 
    :requirements:
 
    :additional platforms:
@@ -123,7 +132,7 @@ jcvi
 
     <script>
         var package = "jcvi";
-        var versions = ["1.4.16","1.4.15","1.4.15","1.4.11","1.4.10"];
+        var versions = ["1.5.4","1.4.16","1.4.15","1.4.15","1.4.11"];
     </script>
 
 

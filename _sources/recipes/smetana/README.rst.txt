@@ -13,8 +13,11 @@ smetana
    Species METabolic interaction ANAlysis \(SMETANA\) is a python\-based command line tool to analyse microbial communities.
 
    :homepage: https://github.com/cdanielmachado/smetana
-   :license: Apache-2.0
+   :documentation: https://smetana.readthedocs.io/en/latest
+   
+   :license: APACHE / Apache-2.0
    :recipe: /`smetana <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smetana>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smetana/meta.yaml>`_
+   :links: doi: :doi:`10.1073/pnas.1421834112`
 
    
 
@@ -27,14 +30,14 @@ smetana
       
       
 
-      ``1.2.0-0``
+      ``1.2.1-0``,  ``1.2.0-0``
 
       
 
    
-   :depends pandas: 
+   :depends pandas: ``>=2.0.0``
    :depends python: ``>=3.6``
-   :depends reframed: 
+   :depends reframed: ``>=1.6.0``
    :requirements:
 
    :additional platforms:
@@ -85,7 +88,7 @@ smetana
 
     <script>
         var package = "smetana";
-        var versions = ["1.2.0"];
+        var versions = ["1.2.1","1.2.0"];
     </script>
 
 

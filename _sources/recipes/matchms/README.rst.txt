@@ -10,13 +10,14 @@ matchms
    :replaces_section_title:
    :noindex:
 
-   Python library for fuzzy comparison of mass spectrum data and other Python objects
+   Python library for fuzzy comparison of mass spectrum data and other Python objects.
 
    :homepage: https://github.com/matchms/matchms
-   :documentation: https://matchms.readthedocs.io/en/latest/
+   :documentation: https://matchms.readthedocs.io/en/latest
    
    :license: APACHE / Apache-2.0
    :recipe: /`matchms <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/matchms>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/matchms/meta.yaml>`_
+   :links: doi: :doi:`10.21105/joss.02411`, doi: :doi:`10.1186/s13321-024-00878-1`, biotools: :biotools:`matchms`, usegalaxy-eu: :usegalaxy-eu:`matchms_convert`, usegalaxy-eu: :usegalaxy-eu:`matchms_filtering`, usegalaxy-eu: :usegalaxy-eu:`matchms_fingerprint_similarity`, usegalaxy-eu: :usegalaxy-eu:`matchms_formatter`, usegalaxy-eu: :usegalaxy-eu:`matchms_metadata_export`, usegalaxy-eu: :usegalaxy-eu:`matchms_metadata_match`, usegalaxy-eu: :usegalaxy-eu:`matchms_networking`, usegalaxy-eu: :usegalaxy-eu:`matchms_similarity`, usegalaxy-eu: :usegalaxy-eu:`matchms_spectral_similarity`, usegalaxy-eu: :usegalaxy-eu:`matchms_split`, usegalaxy-eu: :usegalaxy-eu:`matchms_subsetting`, usegalaxy-eu: :usegalaxy-eu:`matchms_metadata_merge`, usegalaxy-eu: :usegalaxy-eu:`matchms_add_key`, usegalaxy-eu: :usegalaxy-eu:`matchms_remove_key`, usegalaxy-eu: :usegalaxy-eu:`matchms_remove_spectra`
 
    
 
@@ -30,10 +31,10 @@ matchms
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.28.2-0</code>,  <code>0.28.1-1</code>,  <code>0.28.1-0</code>,  <code>0.27.0-1</code>,  <code>0.27.0-0</code>,  <code>0.26.4-0</code>,  <code>0.26.3-0</code>,  <code>0.26.2-0</code>,  <code>0.26.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.29.0-0</code>,  <code>0.28.2-0</code>,  <code>0.28.1-1</code>,  <code>0.28.1-0</code>,  <code>0.27.0-1</code>,  <code>0.27.0-0</code>,  <code>0.26.4-0</code>,  <code>0.26.3-0</code>,  <code>0.26.2-0</code>,  </span></summary>
       
 
-      ``0.28.2-0``,  ``0.28.1-1``,  ``0.28.1-0``,  ``0.27.0-1``,  ``0.27.0-0``,  ``0.26.4-0``,  ``0.26.3-0``,  ``0.26.2-0``,  ``0.26.1-0``,  ``0.25.0-0``,  ``0.24.4-0``,  ``0.24.3-0``,  ``0.24.2-0``,  ``0.24.1-0``,  ``0.24.0-1``,  ``0.24.0-0``,  ``0.23.1-0``,  ``0.22.0-0``,  ``0.21.2-0``,  ``0.21.1-1``,  ``0.21.1-0``,  ``0.20.0-0``,  ``0.19.0-0``,  ``0.18.0-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.2-0``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.2-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``
+      ``0.29.0-0``,  ``0.28.2-0``,  ``0.28.1-1``,  ``0.28.1-0``,  ``0.27.0-1``,  ``0.27.0-0``,  ``0.26.4-0``,  ``0.26.3-0``,  ``0.26.2-0``,  ``0.26.1-0``,  ``0.25.0-0``,  ``0.24.4-0``,  ``0.24.3-0``,  ``0.24.2-0``,  ``0.24.1-0``,  ``0.24.0-1``,  ``0.24.0-0``,  ``0.23.1-0``,  ``0.22.0-0``,  ``0.21.2-0``,  ``0.21.1-1``,  ``0.21.1-0``,  ``0.20.0-0``,  ``0.19.0-0``,  ``0.18.0-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.2-0``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.2-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``
 
       
       .. raw:: html
@@ -52,11 +53,13 @@ matchms
    :depends pickydict: ``>=0.4.0``
    :depends pillow: ``!=9.4.0``
    :depends pubchempy: 
+   :depends pynndescent: ``>=0.5.13``
    :depends pyteomics: ``>=4.6``
    :depends python: ``>=3.10,<3.13``
    :depends pyyaml: ``>=6.0.1``
    :depends rdkit: ``>=2024.3.5``
    :depends requests: ``>=2.31.0``
+   :depends scikit-learn: 
    :depends scipy: ``>=1.14.1``
    :depends sparsestack: ``>=0.6.0``
    :depends tqdm: ``>=4.65.0``
@@ -110,7 +113,7 @@ matchms
 
     <script>
         var package = "matchms";
-        var versions = ["0.28.2","0.28.1","0.28.1","0.27.0","0.27.0"];
+        var versions = ["0.29.0","0.28.2","0.28.1","0.28.1","0.27.0"];
     </script>
 
 

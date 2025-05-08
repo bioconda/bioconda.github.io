@@ -10,10 +10,10 @@ integron_finder
    :replaces_section_title:
    :noindex:
 
-   Integron Finder aims at detecting integrons in DNA sequences
+   Integron Finder aims at detecting integrons in DNA sequences.
 
-   :homepage: https://github.com/gem-pasteur/Integron_Finder/
-   :documentation: https://integronfinder.readthedocs.io/en/latest/
+   :homepage: https://github.com/gem-pasteur/Integron_Finder
+   :documentation: https://integronfinder.readthedocs.io/en/latest
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`integron_finder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/integron_finder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/integron_finder/meta.yaml>`_
@@ -30,7 +30,7 @@ integron_finder
       
       
 
-      ``2.0.5-0``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0-0``,  ``2.0rc6-0``
+      ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0-0``,  ``2.0rc6-0``
 
       
 
@@ -94,7 +94,7 @@ integron_finder
 
     <script>
         var package = "integron_finder";
-        var versions = ["2.0.5","2.0.3","2.0.3","2.0.2","2.0.1"];
+        var versions = ["2.0.6","2.0.5","2.0.3","2.0.3","2.0.2"];
     </script>
 
 
