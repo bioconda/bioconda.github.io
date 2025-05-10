@@ -27,7 +27,7 @@ cellqc
       
       
 
-      ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-0``
+      ``0.1.0-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-0``
 
       
 
@@ -38,7 +38,7 @@ cellqc
    :depends graphviz: 
    :depends numpy: 
    :depends pygraphviz: 
-   :depends python: 
+   :depends python: ``>=3.9``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-harmony: 
@@ -99,7 +99,7 @@ cellqc
 
     <script>
         var package = "cellqc";
-        var versions = ["0.0.8","0.0.7","0.0.6","0.0.6","0.0.4"];
+        var versions = ["0.1.0","0.0.8","0.0.7","0.0.6","0.0.6"];
     </script>
 
 

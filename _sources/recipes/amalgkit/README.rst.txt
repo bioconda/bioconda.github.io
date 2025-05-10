@@ -27,16 +27,35 @@ amalgkit
       
       
 
-      ``0.12.15-0``
+      ``0.12.16-0``,  ``0.12.15-0``
 
       
 
    
+   :depends bioconductor-edger: 
+   :depends bioconductor-pcamethods: 
+   :depends bioconductor-ruvseq: 
+   :depends bioconductor-sva: 
    :depends biopython: 
+   :depends fastp: 
+   :depends kallisto: 
    :depends lxml: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: ``>=3.8,<3.13``
+   :depends parallel-fastq-dump: 
+   :depends python: ``>=3.9``
+   :depends r-amap: 
+   :depends r-base: 
+   :depends r-colorspace: 
+   :depends r-dendextend: 
+   :depends r-ggplot2: 
+   :depends r-mass: 
+   :depends r-nmf: 
+   :depends r-patchwork: 
+   :depends r-pvclust: 
+   :depends r-rcolorbrewer: 
+   :depends r-rtsne: 
+   :depends seqkit: 
    :requirements:
 
    :additional platforms:
@@ -87,7 +106,7 @@ amalgkit
 
     <script>
         var package = "amalgkit";
-        var versions = ["0.12.15"];
+        var versions = ["0.12.16","0.12.15"];
     </script>
 
 

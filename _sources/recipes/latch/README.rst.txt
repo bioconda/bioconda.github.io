@@ -38,10 +38,10 @@ latch
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.61.2-0</code>,  <code>2.61.1-0</code>,  <code>2.61.0-0</code>,  <code>2.59.1-0</code>,  <code>2.59.0-0</code>,  <code>2.58.2-0</code>,  <code>2.58.0-0</code>,  <code>2.57.3-0</code>,  <code>2.57.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.62.1-0</code>,  <code>2.62.0-0</code>,  <code>2.61.2-0</code>,  <code>2.61.1-0</code>,  <code>2.61.0-0</code>,  <code>2.59.1-0</code>,  <code>2.59.0-0</code>,  <code>2.58.2-0</code>,  <code>2.58.0-0</code>,  </span></summary>
       
 
-      ``2.61.2-0``,  ``2.61.1-0``,  ``2.61.0-0``,  ``2.59.1-0``,  ``2.59.0-0``,  ``2.58.2-0``,  ``2.58.0-0``,  ``2.57.3-0``,  ``2.57.2-0``,  ``2.19.11-0``
+      ``2.62.1-0``,  ``2.62.0-0``,  ``2.61.2-0``,  ``2.61.1-0``,  ``2.61.0-0``,  ``2.59.1-0``,  ``2.59.0-0``,  ``2.58.2-0``,  ``2.58.0-0``,  ``2.57.3-0``,  ``2.57.2-0``,  ``2.19.11-0``
 
       
       .. raw:: html
@@ -55,6 +55,7 @@ latch
    :depends asyncssh: ``2.13.2``
    :depends boto3: ``>=1.26.0``
    :depends click: ``>=8.0``
+   :depends dill: ``>=0.4.0``
    :depends docker-py: ``>=7.1.0``
    :depends gitpython: ``3.1.40``
    :depends gql: ``3.5.0``
@@ -127,7 +128,7 @@ latch
 
     <script>
         var package = "latch";
-        var versions = ["2.61.2","2.61.1","2.61.0","2.59.1","2.59.0"];
+        var versions = ["2.62.1","2.62.0","2.61.2","2.61.1","2.61.0"];
     </script>
 
 

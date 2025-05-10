@@ -13,7 +13,7 @@ eukulele
    Easy taxonomic annotation for eukaryotic microbes.
 
    :homepage: https://github.com/AlexanderLabWHOI/EUKulele
-   :documentation: https://github.com/AlexanderLabWHOI/EUKulele/blob/2.0.9/README.md
+   :documentation: https://github.com/AlexanderLabWHOI/EUKulele/blob/2.1.2/README.md
    
    :license: MIT / MIT
    :recipe: /`eukulele <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eukulele>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eukulele/meta.yaml>`_
@@ -30,10 +30,10 @@ eukulele
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.9-1</code>,  <code>2.0.9-0</code>,  <code>2.0.7-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.3-3</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.2-0</code>,  <code>2.0.9-1</code>,  <code>2.0.9-0</code>,  <code>2.0.7-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.3-3</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  </span></summary>
       
 
-      ``2.0.9-1``,  ``2.0.9-0``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.3-3``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``2.1.2-0``,  ``2.0.9-1``,  ``2.0.9-0``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.3-3``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -111,7 +111,7 @@ eukulele
 
     <script>
         var package = "eukulele";
-        var versions = ["2.0.9","2.0.9","2.0.7","2.0.6","2.0.5"];
+        var versions = ["2.1.2","2.0.9","2.0.9","2.0.7","2.0.6"];
     </script>
 
 

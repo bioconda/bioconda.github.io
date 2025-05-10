@@ -10,13 +10,19 @@ cdskit
    :replaces_section_title:
    :noindex:
 
-   CDSKIT processes protein\-coding sequences.
+   A toolkit for processing protein\-coding sequences \(CDS\).
 
    :homepage: https://github.com/kfuku52/cdskit
    :license: BSD-3-Clause
    :recipe: /`cdskit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cdskit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cdskit/meta.yaml>`_
 
-   
+   CDSKIT is a Python program that processes DNA sequences\,
+   especially protein\-coding sequences. Many functions of this program are
+   designed to handle DNA sequences using codons \(sets of three nucleotides\)
+   as the unit\, and therefore\, edits the coding sequences without causing a
+   frameshift. All sequence formats supported by Biopython are available in
+   this tool for both inputs and outputs.
+
 
 
 .. conda:package:: cdskit
@@ -27,12 +33,14 @@ cdskit
       
       
 
-      ``0.14.3-0``,  ``0.14.2-0``,  ``0.14.1-0``
+      ``0.14.4-0``,  ``0.14.3-0``,  ``0.14.2-0``,  ``0.14.1-0``
 
       
 
    
-   :depends python: ``>=3.8``
+   :depends biopython: 
+   :depends numpy: 
+   :depends python: ``>=3.9``
    :requirements:
 
    :additional platforms:
@@ -83,7 +91,7 @@ cdskit
 
     <script>
         var package = "cdskit";
-        var versions = ["0.14.3","0.14.2","0.14.1"];
+        var versions = ["0.14.4","0.14.3","0.14.2","0.14.1"];
     </script>
 
 
