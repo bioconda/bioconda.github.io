@@ -13,7 +13,7 @@ sequenticon
    Generate human\-friendly icons from DNA sequences.
 
    :homepage: https://github.com/Edinburgh-Genome-Foundry/sequenticon
-   :documentation: https://github.com/Edinburgh-Genome-Foundry/sequenticon/blob/v0.1.7/README.rst
+   :documentation: https://github.com/Edinburgh-Genome-Foundry/sequenticon/blob/v0.1.8/README.rst
    
    :license: MIT / MIT
    :recipe: /`sequenticon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sequenticon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sequenticon/meta.yaml>`_
@@ -29,7 +29,7 @@ sequenticon
       
       
 
-      ``0.1.7-0``,  ``0.1.6-0``
+      ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``
 
       
 
@@ -38,7 +38,7 @@ sequenticon
    :depends flametree: 
    :depends pdf-reports: 
    :depends pydenticon: 
-   :depends python: 
+   :depends python: ``>=3.9``
    :depends snapgene-reader: 
    :requirements:
 
@@ -90,7 +90,7 @@ sequenticon
 
     <script>
         var package = "sequenticon";
-        var versions = ["0.1.7","0.1.6"];
+        var versions = ["0.1.8","0.1.7","0.1.6"];
     </script>
 
 

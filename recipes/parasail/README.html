@@ -78,6 +78,9 @@
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/parasail">parasail</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/parasail/meta.yaml">meta.yaml</a></p>
 </dd>
+<dt class="field-even">Links<span class="colon">:</span></dt>
+<dd class="field-even"><p>doi: <a class="extlink-doi reference external" href="https://doi.org/10.1186/s12859-016-0930-z">10.1186/s12859-016-0930-z</a></p>
+</dd>
 </dl>
 <p>parasail is a SIMD C (C99) library containing implementations of the Smith-Waterman (local), Needleman-Wunsch (global), and various semi-global pairwise sequence alignment algorithms.
 Here, semi-global means insertions before the start or after the end of either the query or target sequence are optionally not penalized.
@@ -90,9 +93,9 @@ Therefore, parasail is a reference implementation for these algorithms in additi
 <em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">parasail</span></span><a class="headerlink" href="#package-parasail" title="Link to this definition">¶</a></dt>
 <dd><blockquote>
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/parasail"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/parasail.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/parasail"><img alt="docker_parasail" src="https://quay.io/repository/biocontainers/parasail/status" /></a></p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.6.2-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.6.2-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.6.2-0</span></code></p>
 </dd>
 <dt class="field-even">depends _openmp_mutex<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.5</span></code></p>
@@ -109,7 +112,7 @@ Therefore, parasail is a reference implementation for these algorithms in additi
 <dt class="field-even">requirements<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
+<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -144,7 +147,7 @@ others.</p>
 
 <script>
     var package = "parasail";
-    var versions = ["2.6.2"];
+    var versions = ["2.6.2","2.6.2"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

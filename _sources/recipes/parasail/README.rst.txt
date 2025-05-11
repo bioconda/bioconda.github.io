@@ -15,6 +15,7 @@ parasail
    :homepage: https://github.com/jeffdaily/parasail
    :license: MIT / MIT
    :recipe: /`parasail <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/parasail>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/parasail/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s12859-016-0930-z`
 
    parasail is a SIMD C \(C99\) library containing implementations of the Smith\-Waterman \(local\)\, Needleman\-Wunsch \(global\)\, and various semi\-global pairwise sequence alignment algorithms.
    Here\, semi\-global means insertions before the start or after the end of either the query or target sequence are optionally not penalized.
@@ -31,7 +32,7 @@ parasail
       
       
 
-      ``2.6.2-0``
+      ``2.6.2-1``,  ``2.6.2-0``
 
       
 
@@ -43,6 +44,10 @@ parasail
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -90,7 +95,7 @@ parasail
 
     <script>
         var package = "parasail";
-        var versions = ["2.6.2"];
+        var versions = ["2.6.2","2.6.2"];
     </script>
 
 
