@@ -12,10 +12,10 @@ libcarna
 
    Real\-time 3D visualization of biomedical data and beyond
 
-   :homepage: https://github.com/kostrykin/Carna
-   :documentation: https://kostrykin.github.io/Carna/html
+   :homepage: https://github.com/kostrykin/LibCarna
+   :documentation: https://kostrykin.github.io/LibCarna/html
    
-   :license: BSD-3-Clause
+   :license: MIT
    :recipe: /`libcarna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libcarna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libcarna/meta.yaml>`_
 
    
@@ -29,14 +29,16 @@ libcarna
       
       
 
-      ``3.3.3-0``
+      ``3.4.0-0``,  ``3.3.3-0``
 
       
 
    
+   :depends _openmp_mutex: 
    :depends libegl: ``>=1.7.0,<2.0a0``
    :depends libgcc: ``>=13``
    :depends libgl: ``>=1.7.0,<2.0a0``
+   :depends libglu: 
    :depends libstdcxx: ``>=13``
    :requirements:
 
@@ -88,7 +90,7 @@ libcarna
 
     <script>
         var package = "libcarna";
-        var versions = ["3.3.3"];
+        var versions = ["3.4.0","3.3.3"];
     </script>
 
 

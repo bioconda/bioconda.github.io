@@ -70,13 +70,13 @@
 <dd><p>Real-time 3D visualization of biomedical data and beyond</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/kostrykin/Carna">https://github.com/kostrykin/Carna</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/kostrykin/LibCarna">https://github.com/kostrykin/LibCarna</a></p>
 </dd>
 <dt class="field-even">Documentation<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="reference external" href="https://kostrykin.github.io/Carna/html">https://kostrykin.github.io/Carna/html</a></p>
+<dd class="field-even"><p><a class="reference external" href="https://kostrykin.github.io/LibCarna/html">https://kostrykin.github.io/LibCarna/html</a></p>
 </dd>
 <dt class="field-odd">License<span class="colon">:</span></dt>
-<dd class="field-odd"><p>BSD-3-Clause</p>
+<dd class="field-odd"><p>MIT</p>
 </dd>
 <dt class="field-even">Recipe<span class="colon">:</span></dt>
 <dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libcarna">libcarna</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libcarna/meta.yaml">meta.yaml</a></p>
@@ -91,17 +91,21 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/libcarna"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/libcarna.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/libcarna"><img alt="docker_libcarna" src="https://quay.io/repository/biocontainers/libcarna/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">3.3.3-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">3.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.3.3-0</span></code></p>
 </dd>
-<dt class="field-even">depends libegl<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.7.0,&lt;2.0a0</span></code></p>
+<dt class="field-even">depends _openmp_mutex<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends libegl<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.7.0,&lt;2.0a0</span></code></p>
 </dd>
-<dt class="field-odd">depends libgcc<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
+<dt class="field-even">depends libgcc<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
 </dd>
-<dt class="field-even">depends libgl<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.7.0,&lt;2.0a0</span></code></p>
+<dt class="field-odd">depends libgl<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.7.0,&lt;2.0a0</span></code></p>
 </dd>
+<dt class="field-even">depends libglu<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends libstdcxx<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
 </dd>
@@ -143,7 +147,7 @@ others.</p>
 
 <script>
     var package = "libcarna";
-    var versions = ["3.3.3"];
+    var versions = ["3.4.0","3.3.3"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
