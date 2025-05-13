@@ -10,17 +10,20 @@ unifrac
    :replaces_section_title:
    :noindex:
 
-   Fast phylogenetic diversity calculations
+   Fast phylogenetic diversity calculations.
 
    :homepage: https://github.com/biocore/unifrac
+   :documentation: https://github.com/biocore/unifrac/blob/1.5/README.md
+   
    :license: BSD / BSD-3-Clause
    :recipe: /`unifrac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/unifrac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/unifrac/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41592-018-0187-8`, doi: :doi:`10.1128/msystems.00028-22`
 
    UniFrac is a commonly phylogenetic diversity distance metric used in 
    microbiome research. The metric relates two microbiome samples together
    within the context of an evolutionary history\, and produces a distance
    that corresponds to how similar two samples by the amount of overlapping
-   branch length.  
+   branch length.
 
 
 
@@ -33,10 +36,10 @@ unifrac
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.2-0</code>,  <code>1.3-0</code>,  <code>1.2-0</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.20.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5-0</code>,  <code>1.3.2-0</code>,  <code>1.3-0</code>,  <code>1.2-0</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  </span></summary>
       
 
-      ``1.3.2-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.20.3-0``,  ``0.20.2-1``,  ``0.20.2-0``,  ``0.20.1-0``,  ``0.20.0-1``,  ``0.20.0-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.3-1``,  ``0.9.3-0``
+      ``1.5-0``,  ``1.3.2-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.20.3-0``,  ``0.20.2-1``,  ``0.20.2-0``,  ``0.20.1-0``,  ``0.20.0-1``,  ``0.20.0-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.3-1``,  ``0.9.3-0``
 
       
       .. raw:: html
@@ -46,19 +49,24 @@ unifrac
 
    
    :depends biom-format: 
-   :depends h5py: ``<3.0.0|>3.3.0``
-   :depends iow: ``>=1.0.7,<2.0a0``
+   :depends h5py: ``>=3.3.0``
+   :depends iow: ``>=1.0.8,<2.0a0``
    :depends libgcc: ``>=13``
    :depends numpy: ``>=1.21,<3``
-   :depends numpy: ``>=2.2.4,<3.0a0``
+   :depends numpy: ``>=2.2.5,<3.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends scikit-bio: ``>=0.5.8``
+   :depends scikit-bio: ``>=0.6.0``
    :depends scipy: ``>=1.9.0``
-   :depends unifrac-binaries: ``>=1.3.2``
+   :depends unifrac-binaries: ``>=1.5``
+   :depends unifrac-binaries: ``>=1.5,<2.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -106,7 +114,7 @@ unifrac
 
     <script>
         var package = "unifrac";
-        var versions = ["1.3.2","1.3","1.2","1.1.1","1.1.1"];
+        var versions = ["1.5","1.3.2","1.3","1.2","1.1.1"];
     </script>
 
 

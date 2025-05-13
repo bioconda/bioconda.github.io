@@ -10,7 +10,7 @@ cagecleaner
    :replaces_section_title:
    :noindex:
 
-   Genomic redundancy removal tool for cblaster hit sets
+   Genomic redundancy removal tool for cblaster hit sets.
 
    :homepage: https://github.com/LucoDevro/CAGEcleaner
    :documentation: https://github.com/LucoDevro/CAGEcleaner/wiki
@@ -30,19 +30,19 @@ cagecleaner
       
       
 
-      ``1.2.1-0``,  ``1.2.0-0``
+      ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``
 
       
 
    
    :depends biopython: 
-   :depends cblaster: 
+   :depends cblaster: ``>=1.3.20``
    :depends entrez-direct: 
    :depends ncbi-datasets-cli: 
    :depends pandas: 
-   :depends python: ``3.12``
-   :depends scipy: ``1.14.1``
-   :depends skder: 
+   :depends python: ``>=3.12``
+   :depends scipy: ``<=1.14.1``
+   :depends skder: ``>=1.3.1``
    :requirements:
 
    :additional platforms:
@@ -93,7 +93,7 @@ cagecleaner
 
     <script>
         var package = "cagecleaner";
-        var versions = ["1.2.1","1.2.0"];
+        var versions = ["1.2.2","1.2.1","1.2.0"];
     </script>
 
 

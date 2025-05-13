@@ -12,8 +12,8 @@ fido
 
    A method for protein identification in MS\/MS proteomics. Think of it like a protein delivery dog. You bring it the scored matches between peptides and spectra\, and it fetches a list of proteins ranked by posterior probability by doing clever tricks.
 
-   :homepage: https://noble.gs.washington.edu/proj/fido/
-   :license: MIT license
+   :homepage: https://noble.gs.washington.edu/proj/fido
+   :license: MIT / MIT
    :recipe: /`fido <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fido>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fido/meta.yaml>`_
 
    
@@ -26,9 +26,17 @@ fido
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0-8``,  ``1.0-7``,  ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.0-9</code>,  <code>1.0-8</code>,  <code>1.0-7</code>,  <code>1.0-6</code>,  <code>1.0-5</code>,  <code>1.0-4</code>,  <code>1.0-3</code>,  <code>1.0-2</code>,  <code>1.0-1</code>,  </span></summary>
+      
 
+      ``1.0-9``,  ``1.0-8``,  ``1.0-7``,  ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -40,7 +48,7 @@ fido
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

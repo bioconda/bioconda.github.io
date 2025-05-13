@@ -10,9 +10,9 @@ tomm40_wgs
    :replaces_section_title:
    :noindex:
 
-   TOMM40\_WGS\: Genotyping TOMM40’523 Poly\-T Polymorphisms Using Whole\-Genome Sequencing
+   TOMM40\_WGS\: Genotyping TOMM40’523 Poly\-T Polymorphisms Using Whole\-Genome Sequencing.
 
-   :homepage: https://github.com/RushAlz/TOMM40_WGS/
+   :homepage: https://github.com/RushAlz/TOMM40_WGS
    :license: GPL / GPL-2.0-or-later
    :recipe: /`tomm40_wgs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tomm40_wgs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tomm40_wgs/meta.yaml>`_
 
@@ -27,7 +27,7 @@ tomm40_wgs
       
       
 
-      ``0.0.1-0``
+      ``1.0.0-0``,  ``0.0.1-0``
 
       
 
@@ -86,7 +86,7 @@ tomm40_wgs
 
     <script>
         var package = "tomm40_wgs";
-        var versions = ["0.0.1"];
+        var versions = ["1.0.0","0.0.1"];
     </script>
 
 

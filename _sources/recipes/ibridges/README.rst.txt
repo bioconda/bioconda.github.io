@@ -13,9 +13,9 @@ ibridges
    Package for accessing data and metadata on iRods servers.
 
    :homepage: https://github.com/iBridges-for-iRODS/iBridges
-   :documentation: https://ibridges.readthedocs.io/en/latest/
+   :documentation: https://ibridges.readthedocs.io/en/latest
    
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`ibridges <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ibridges>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ibridges/meta.yaml>`_
 
    
@@ -29,7 +29,7 @@ ibridges
       
       
 
-      ``1.3.0-0``,  ``1.2.0-0``
+      ``1.5.0-0``,  ``1.3.0-0``,  ``1.2.0-0``
 
       
 
@@ -87,7 +87,7 @@ ibridges
 
     <script>
         var package = "ibridges";
-        var versions = ["1.3.0","1.2.0"];
+        var versions = ["1.5.0","1.3.0","1.2.0"];
     </script>
 
 

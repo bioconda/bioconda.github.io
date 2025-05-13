@@ -32,7 +32,7 @@ egap
       
       
 
-      ``3.0.0b-0``,  ``2.6.6-0``,  ``2.6.5-0``,  ``2.6.4-0``,  ``2.6.2-0``,  ``2.5.4-0``,  ``2.5.3-0``
+      ``3.0.0f-0``,  ``3.0.0b-0``,  ``2.6.6-0``,  ``2.6.5-0``,  ``2.6.4-0``,  ``2.6.2-0``,  ``2.5.4-0``,  ``2.5.3-0``
 
       
 
@@ -44,9 +44,10 @@ egap
    :depends bifrost: ``>=1.3.5``
    :depends biopython: ``>=1.81``
    :depends busco: ``>=5.8.2``
-   :depends bwa: ``>=0.7.18``
+   :depends bwa-mem2: ``>=2.2.1``
    :depends compleasm: ``>=0.2.6``
    :depends fastqc: ``>=0.12.1``
+   :depends filtlong: ``>=0.2.1``
    :depends flye: ``>=2.9.5``
    :depends gfatools: ``>=0.5``
    :depends hifiasm: ``>=0.21.0``
@@ -122,7 +123,7 @@ egap
 
     <script>
         var package = "egap";
-        var versions = ["3.0.0b","2.6.6","2.6.5","2.6.4","2.6.2"];
+        var versions = ["3.0.0f","3.0.0b","2.6.6","2.6.5","2.6.4"];
     </script>
 
 

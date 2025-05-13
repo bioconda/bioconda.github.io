@@ -13,7 +13,7 @@ twilight
    TWILIGHT\: A high throughput tool for tall and wide multiple sequence alignment.
 
    :homepage: https://github.com/TurakhiaLab/TWILIGHT
-   :documentation: https://turakhia.ucsd.edu/TWILIGHT/
+   :documentation: https://turakhia.ucsd.edu/TWILIGHT
    
    :license: MIT / MIT
    :recipe: /`twilight <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/twilight>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/twilight/meta.yaml>`_
@@ -29,7 +29,7 @@ twilight
       
       
 
-      ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.1.3-2``,  ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -38,13 +38,15 @@ twilight
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends protobuf: 
-   :depends tbb: ``2019.3.*``
-   :depends tbb: ``>=2019.3``
-   :depends tbb-devel: ``2019.3.*``
+   :depends tbb: ``>=2021.13.0``
+   :depends tbb-devel: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -92,7 +94,7 @@ twilight
 
     <script>
         var package = "twilight";
-        var versions = ["0.1.2","0.1.2","0.1.1"];
+        var versions = ["0.1.3","0.1.3","0.1.3","0.1.2","0.1.2"];
     </script>
 
 

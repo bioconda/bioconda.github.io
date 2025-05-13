@@ -13,7 +13,7 @@ svdss
    Structural Variant Discovery from Sample\-specific Strings.
 
    :homepage: https://github.com/Parsoa/SVDSS
-   :documentation: https://github.com/Parsoa/SVDSS/blob/v2.0.0/README.md
+   :documentation: https://github.com/Parsoa/SVDSS/blob/v2.1.0/README.md
    
    :license: MIT / MIT
    :recipe: /`svdss <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svdss>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svdss/meta.yaml>`_
@@ -30,7 +30,7 @@ svdss
       
       
 
-      ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``
+      ``2.1.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``
 
       
 
@@ -40,9 +40,10 @@ svdss
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends kanpig: 
    :depends libgcc: ``>=13``
    :depends libgomp: 
-   :depends liblzma: ``>=5.6.3,<6.0a0``
+   :depends liblzma: ``>=5.8.1,<6.0a0``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends samtools: ``>=1.9``
@@ -96,7 +97,7 @@ svdss
 
     <script>
         var package = "svdss";
-        var versions = ["2.0.0","2.0.0","1.0.5","1.0.5","1.0.5"];
+        var versions = ["2.1.0","2.0.0","2.0.0","1.0.5","1.0.5"];
     </script>
 
 

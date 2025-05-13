@@ -13,8 +13,11 @@ treesimulator
    Simulation of rooted phylogenetic trees under a given Multitype Birth–Death \(MTBD\) model.
 
    :homepage: https://github.com/evolbioinfo/treesimulator
+   :documentation: https://github.com/evolbioinfo/treesimulator/blob/0.2.17/README.md
+   
    :license: GPL3 / GPL-3.0-only
    :recipe: /`treesimulator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treesimulator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treesimulator/meta.yaml>`_
+   :links: doi: :doi:`10.1101/2024.09.09.24313296`, biotools: :biotools:`treesimulator`
 
    Treesimulator provides fast methods for simulation of rooted phylogenetic trees under 
    Multitype Birth–Death \(MTBD\) models\, in particular the classical BD model\, 
@@ -30,7 +33,7 @@ treesimulator
       
       
 
-      ``0.2.15-0``,  ``0.2.8-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.22-0``
+      ``0.2.17-0``,  ``0.2.15-0``,  ``0.2.8-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.22-0``
 
       
 
@@ -93,7 +96,7 @@ treesimulator
 
     <script>
         var package = "treesimulator";
-        var versions = ["0.2.15","0.2.8","0.2.4","0.2.3","0.2.1"];
+        var versions = ["0.2.17","0.2.15","0.2.8","0.2.4","0.2.3"];
     </script>
 
 

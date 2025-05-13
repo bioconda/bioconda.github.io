@@ -30,7 +30,7 @@ gene-fetch
       
       
 
-      ``1.0.9-0``
+      ``1.0.11-0``,  ``1.0.9-0``
 
       
 
@@ -88,7 +88,7 @@ gene-fetch
 
     <script>
         var package = "gene-fetch";
-        var versions = ["1.0.9"];
+        var versions = ["1.0.11","1.0.9"];
     </script>
 
 

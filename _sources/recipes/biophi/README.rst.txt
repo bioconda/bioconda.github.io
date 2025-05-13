@@ -31,10 +31,10 @@ biophi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.10-1</code>,  <code>1.0.10-0</code>,  <code>1.0.9-4</code>,  <code>1.0.9-3</code>,  <code>1.0.9-2</code>,  <code>1.0.9-1</code>,  <code>1.0.9-0</code>,  <code>1.0.8-1</code>,  <code>1.0.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.11-0</code>,  <code>1.0.10-2</code>,  <code>1.0.10-1</code>,  <code>1.0.10-0</code>,  <code>1.0.9-4</code>,  <code>1.0.9-3</code>,  <code>1.0.9-2</code>,  <code>1.0.9-1</code>,  <code>1.0.9-0</code>,  </span></summary>
       
 
-      ``1.0.10-1``,  ``1.0.10-0``,  ``1.0.9-4``,  ``1.0.9-3``,  ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-0``
+      ``1.0.11-0``,  ``1.0.10-2``,  ``1.0.10-1``,  ``1.0.10-0``,  ``1.0.9-4``,  ``1.0.9-3``,  ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -54,7 +54,7 @@ biophi
    :depends python: ``>=3.8``
    :depends redis-py: 
    :depends requests: 
-   :depends sapiens: ``>=1.0.5``
+   :depends sapiens: ``1.1.0``
    :depends sqlalchemy: ``<2``
    :depends tqdm: 
    :depends werkzeug: ``<3``
@@ -109,7 +109,7 @@ biophi
 
     <script>
         var package = "biophi";
-        var versions = ["1.0.10","1.0.10","1.0.9","1.0.9","1.0.9"];
+        var versions = ["1.0.11","1.0.10","1.0.10","1.0.10","1.0.9"];
     </script>
 
 

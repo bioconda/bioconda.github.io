@@ -12,9 +12,10 @@ kanpig
 
    A fast tool for genotyping structural variants with long\-reads.
 
-
    :homepage: https://github.com/ACEnglish/kanpig
-   :license: MIT
+   :documentation: https://github.com/ACEnglish/kanpig/wiki
+   
+   :license: MIT / MIT
    :recipe: /`kanpig <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kanpig>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kanpig/meta.yaml>`_
 
    
@@ -28,7 +29,7 @@ kanpig
       
       
 
-      ``1.1.0-0``
+      ``1.1.0-1``,  ``1.1.0-0``
 
       
 
@@ -38,6 +39,10 @@ kanpig
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -85,7 +90,7 @@ kanpig
 
     <script>
         var package = "kanpig";
-        var versions = ["1.1.0"];
+        var versions = ["1.1.0","1.1.0"];
     </script>
 
 

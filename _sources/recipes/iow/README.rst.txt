@@ -10,14 +10,15 @@ iow
    :replaces_section_title:
    :noindex:
 
-   Implementation of Balanced Parentheses
+   Implementation of Balanced Parentheses.
 
    :homepage: https://github.com/biocore/improved-octo-waddle
+   :developer docs: https://github.com/biocore/improved-octo-waddle/blob/1.0.8/README.md
    :license: BSD / BSD-3-Clause
    :recipe: /`iow <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/iow>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/iow/meta.yaml>`_
 
    An implementation of the balanced parentheses tree structure as described by
-   \[Cordova and Navarro\]\(http\:\/\/www.dcc.uchile.cl\/\~gnavarro\/ps\/tcs16.2.pdf\). 
+   \[Cordova and Navarro\]\(http\:\/\/www.dcc.uchile.cl\/\~gnavarro\/ps\/tcs16.2.pdf\).
 
 
 
@@ -28,19 +29,26 @@ iow
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.5-6``,  ``1.0.5-5``,  ``1.0.5-4``,  ``1.0.5-3``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.8-1</code>,  <code>1.0.8-0</code>,  <code>1.0.7-0</code>,  <code>1.0.5-6</code>,  <code>1.0.5-5</code>,  <code>1.0.5-4</code>,  <code>1.0.5-3</code>,  <code>1.0.5-2</code>,  <code>1.0.5-1</code>,  </span></summary>
+      
 
+      ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.5-6``,  ``1.0.5-5``,  ``1.0.5-4``,  ``1.0.5-3``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends click: 
-   :depends h5py: 
    :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
    :depends numpy: ``>=1.21,<3``
-   :depends numpy: ``>=2.2.4,<3.0a0``
+   :depends numpy: ``>=2.2.5,<3.0a0``
    :depends pandas: 
+   :depends pytest: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends scikit-bio: ``>=0.5.1``
@@ -50,7 +58,7 @@ iow
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -98,7 +106,7 @@ iow
 
     <script>
         var package = "iow";
-        var versions = ["1.0.8","1.0.7","1.0.5","1.0.5","1.0.5"];
+        var versions = ["1.0.8","1.0.8","1.0.7","1.0.5","1.0.5"];
     </script>
 
 

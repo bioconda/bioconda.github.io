@@ -10,11 +10,14 @@ cpat
    :replaces_section_title:
    :noindex:
 
-   Coding Potential Assessment Tool
+   Coding Potential Assessment Tool.
 
-   :homepage: https://cpat.readthedocs.io/en/latest/
-   :license: GPL-2.0-or-later
+   :homepage: https://github.com/liguowang/cpat
+   :documentation: https://cpat.readthedocs.io/en/latest
+   
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`cpat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cpat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cpat/meta.yaml>`_
+   :links: doi: :doi:`10.1093/nar/gkt006`, biotools: :biotools:`cpat`, usegalaxy-eu: :usegalaxy-eu:`cpat`
 
    
 
@@ -28,10 +31,10 @@ cpat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.5-3</code>,  <code>3.0.5-2</code>,  <code>3.0.5-1</code>,  <code>3.0.5-0</code>,  <code>3.0.4-2</code>,  <code>3.0.4-1</code>,  <code>3.0.4-0</code>,  <code>2.0.0-4</code>,  <code>2.0.0-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.5-4</code>,  <code>3.0.5-3</code>,  <code>3.0.5-2</code>,  <code>3.0.5-1</code>,  <code>3.0.5-0</code>,  <code>3.0.4-2</code>,  <code>3.0.4-1</code>,  <code>3.0.4-0</code>,  <code>2.0.0-4</code>,  </span></summary>
       
 
-      ``3.0.5-3``,  ``3.0.5-2``,  ``3.0.5-1``,  ``3.0.5-0``,  ``3.0.4-2``,  ``3.0.4-1``,  ``3.0.4-0``,  ``2.0.0-4``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-2``
+      ``3.0.5-4``,  ``3.0.5-3``,  ``3.0.5-2``,  ``3.0.5-1``,  ``3.0.5-0``,  ``3.0.4-2``,  ``3.0.4-1``,  ``3.0.4-0``,  ``2.0.0-4``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-2``
 
       
       .. raw:: html
@@ -43,9 +46,9 @@ cpat
    :depends bx-python: ``>=0.11.0,<0.12.0a0``
    :depends libgcc: ``>=13``
    :depends numpy: ``>=1.22.4,<2.0a0``
-   :depends pysam: ``>=0.22.1,<0.23.0a0``
-   :depends python: ``>=3.9,<3.10.0a0``
-   :depends python_abi: ``3.9.* *_cp39``
+   :depends pysam: ``>=0.23.0,<0.24.0a0``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends r-base: 
    :requirements:
 
@@ -53,7 +56,7 @@ cpat
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -101,7 +104,7 @@ cpat
 
     <script>
         var package = "cpat";
-        var versions = ["3.0.5","3.0.5","3.0.5","3.0.5","3.0.4"];
+        var versions = ["3.0.5","3.0.5","3.0.5","3.0.5","3.0.5"];
     </script>
 
 

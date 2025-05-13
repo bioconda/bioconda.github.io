@@ -27,7 +27,7 @@ cutesv-ol
       
       
 
-      ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -95,7 +95,7 @@ cutesv-ol
 
     <script>
         var package = "cutesv-ol";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.1","1.0.0"];
     </script>
 
 

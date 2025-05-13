@@ -10,10 +10,12 @@ isotools
    :replaces_section_title:
    :noindex:
 
-   Framework for the analysis of long read transcriptome sequencing data
+   Framework for the analysis of long read transcriptome sequencing data.
 
-   :homepage: https://github.com/MatthiasLienhard/isotools
-   :license: MIT
+   :homepage: https://github.com/HerwigLab/IsoTools2
+   :documentation: https://isotools.readthedocs.io/en/latest
+   
+   :license: MIT / MIT
    :recipe: /`isotools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isotools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isotools/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ isotools
       
       
 
-      ``0.3.4-0``
+      ``2.0.0-0``,  ``0.3.4-0``
 
       
 
@@ -38,14 +40,14 @@ isotools
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
-   :depends psutil: ``~=6.0``
    :depends pyhmmer: 
    :depends pysam: 
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.10``
+   :depends python-ternary: 
    :depends requests: 
    :depends scikit-learn: 
    :depends scipy: 
-   :depends seaborn: 
+   :depends seaborn-base: 
    :depends statsmodels: 
    :depends tqdm: 
    :depends umap-learn: 
@@ -99,7 +101,7 @@ isotools
 
     <script>
         var package = "isotools";
-        var versions = ["0.3.4"];
+        var versions = ["2.0.0","0.3.4"];
     </script>
 
 

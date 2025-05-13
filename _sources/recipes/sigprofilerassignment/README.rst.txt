@@ -27,25 +27,22 @@ sigprofilerassignment
       
       
 
-      ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``
+      ``0.2.3-0``,  ``0.2.2-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``
 
       
 
    
-   :depends alive-progress: ``>=2.4``
-   :depends numpy: ``>=1.21``
-   :depends pandas: ``>=1.2,<2.0``
-   :depends pdf2image: ``>=1.16``
-   :depends psutil: ``>=5.6.1``
-   :depends pymupdf: ``>=1.21``
-   :depends pypdf: ``>=3.0``
-   :depends python: ``>=3.8``
-   :depends reportlab: ``>=3.5``
-   :depends scikit-learn: ``>=0.24``
-   :depends scipy: ``>=1.6``
-   :depends sigprofilermatrixgenerator: ``>=1.2``
-   :depends sigprofilerplotting: ``>=1.3``
-   :depends statsmodels: ``>=0.9``
+   :depends alive-progress: ``>=2.4.1``
+   :depends numpy: ``>=2.0.0``
+   :depends pandas: ``>=2.0.0``
+   :depends pdf2image: ``>=1.16.0``
+   :depends poppler: 
+   :depends pypdf: ``>=5.0.0``
+   :depends python: ``>=3.9``
+   :depends reportlab: ``>=3.5.42``
+   :depends scipy: ``>=1.13``
+   :depends sigprofilermatrixgenerator: ``>=1.3.0``
+   :depends sigprofilerplotting: ``>=1.4.0``
    :requirements:
 
    :additional platforms:
@@ -96,7 +93,7 @@ sigprofilerassignment
 
     <script>
         var package = "sigprofilerassignment";
-        var versions = ["0.1.8","0.1.7","0.1.6","0.1.5"];
+        var versions = ["0.2.3","0.2.2","0.1.8","0.1.7","0.1.6"];
     </script>
 
 

@@ -10,10 +10,10 @@ genedom
    :replaces_section_title:
    :noindex:
 
-   Genetic part standardization
+   Genetic part standardization.
 
-   :homepage: https://github.com/Edinburgh-Genome-Foundry/genedom#
-   :license: MIT
+   :homepage: https://github.com/Edinburgh-Genome-Foundry/genedom
+   :license: MIT / MIT
    :recipe: /`genedom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genedom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genedom/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ genedom
       
       
 
-      ``0.2.1-0``
+      ``0.2.2-0``,  ``0.2.1-0``
 
       
 
@@ -92,7 +92,7 @@ genedom
 
     <script>
         var package = "genedom";
-        var versions = ["0.2.1"];
+        var versions = ["0.2.2","0.2.1"];
     </script>
 
 

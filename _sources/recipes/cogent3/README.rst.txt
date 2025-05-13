@@ -13,7 +13,7 @@ cogent3
    COmparative GENomics Toolkit 3\: genomic sequence analysis within notebooks or on compute systems with 1000s of CPUs.
 
    :homepage: https://github.com/cogent3/cogent3
-   :documentation: https://github.com/cogent3/cogent3/blob/2025.5.8a2/README.md
+   :documentation: https://github.com/cogent3/cogent3/blob/2025.5.8a3/README.md
    
    :license: BSD / BSD-3-Clause
    :recipe: /`cogent3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cogent3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cogent3/meta.yaml>`_
@@ -30,10 +30,10 @@ cogent3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2025.5.8a2-0</code>,  <code>2025.5.8a1-0</code>,  <code>2025.3.22a4-0</code>,  <code>2025.3.22a2-0</code>,  <code>2024.12.19a2-0</code>,  <code>2024.12.19a1-0</code>,  <code>2024.11.29a2-0</code>,  <code>2024.7.19a9-0</code>,  <code>2024.7.19a8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2025.5.8a3-0</code>,  <code>2025.5.8a2-0</code>,  <code>2025.5.8a1-0</code>,  <code>2025.3.22a4-0</code>,  <code>2025.3.22a2-0</code>,  <code>2024.12.19a2-0</code>,  <code>2024.12.19a1-0</code>,  <code>2024.11.29a2-0</code>,  <code>2024.7.19a9-0</code>,  </span></summary>
       
 
-      ``2025.5.8a2-0``,  ``2025.5.8a1-0``,  ``2025.3.22a4-0``,  ``2025.3.22a2-0``,  ``2024.12.19a2-0``,  ``2024.12.19a1-0``,  ``2024.11.29a2-0``,  ``2024.7.19a9-0``,  ``2024.7.19a8-0``,  ``2024.7.19a7-0``,  ``2024.7.19a6-0``,  ``2024.7.19a5-0``,  ``2024.7.19a4-0``,  ``2024.7.19a3-0``,  ``2024.7.19a1-0``,  ``2024.5.7a1-0``,  ``2024.2.5a1-0``,  ``2023.12.15a1-0``,  ``2023.9.22a1-0``,  ``2023.7.18a1-0``,  ``2022.8.24a1-0``
+      ``2025.5.8a3-0``,  ``2025.5.8a2-0``,  ``2025.5.8a1-0``,  ``2025.3.22a4-0``,  ``2025.3.22a2-0``,  ``2024.12.19a2-0``,  ``2024.12.19a1-0``,  ``2024.11.29a2-0``,  ``2024.7.19a9-0``,  ``2024.7.19a8-0``,  ``2024.7.19a7-0``,  ``2024.7.19a6-0``,  ``2024.7.19a5-0``,  ``2024.7.19a4-0``,  ``2024.7.19a3-0``,  ``2024.7.19a1-0``,  ``2024.5.7a1-0``,  ``2024.2.5a1-0``,  ``2023.12.15a1-0``,  ``2023.9.22a1-0``,  ``2023.7.18a1-0``,  ``2022.8.24a1-0``
 
       
       .. raw:: html
@@ -106,7 +106,7 @@ cogent3
 
     <script>
         var package = "cogent3";
-        var versions = ["2025.5.8a2","2025.5.8a1","2025.3.22a4","2025.3.22a2","2024.12.19a2"];
+        var versions = ["2025.5.8a3","2025.5.8a2","2025.5.8a1","2025.3.22a4","2025.3.22a2"];
     </script>
 
 
