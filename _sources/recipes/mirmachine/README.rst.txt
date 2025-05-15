@@ -13,7 +13,7 @@ mirmachine
    A command line to tool detect miRNA homologs in genome sequences.
 
    :homepage: https://github.com/sinanugur/MirMachine
-   :documentation: https://github.com/sinanugur/MirMachine/blob/master/README.md
+   :documentation: https://mirmachine.readthedocs.io/en/latest
    
    :license: MIT / MIT
    :recipe: /`mirmachine <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mirmachine>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mirmachine/meta.yaml>`_
@@ -30,10 +30,10 @@ mirmachine
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.13-0</code>,  <code>0.2.12-0</code>,  <code>0.2.11.2022-0</code>,  <code>0.2.11.2-0</code>,  <code>0.2.11.1-0</code>,  <code>0.2.11-1</code>,  <code>0.2.11-0</code>,  <code>0.2.10-0</code>,  <code>0.1.31-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.0-0</code>,  <code>0.2.13-0</code>,  <code>0.2.12-0</code>,  <code>0.2.11.2022-0</code>,  <code>0.2.11.2-0</code>,  <code>0.2.11.1-0</code>,  <code>0.2.11-1</code>,  <code>0.2.11-0</code>,  <code>0.2.10-0</code>,  </span></summary>
       
 
-      ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11.2022-0``,  ``0.2.11.2-0``,  ``0.2.11.1-0``,  ``0.2.11-1``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.1.31-0``,  ``0.1.2-0``
+      ``0.3.0-0``,  ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11.2022-0``,  ``0.2.11.2-0``,  ``0.2.11.1-0``,  ``0.2.11-1``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.1.31-0``,  ``0.1.2-0``
 
       
       .. raw:: html
@@ -42,39 +42,37 @@ mirmachine
       
 
    
-   :depends appdirs: ``>=1.4.3``
-   :depends attrs: ``>=19.3.0``
+   :depends appdirs: ``>=1.4.4``
+   :depends attrs: ``>=25.3.0``
    :depends bedtools: ``>=2.29.2``
-   :depends biopython: ``>=1.76``
-   :depends configargparse: ``>=1.1``
+   :depends biopython: ``>=1.85``
+   :depends configargparse: ``>=1.7``
    :depends coreutils: ``>=8.31``
    :depends datrie: 
    :depends decorator: ``>=4.4.2``
    :depends docopt: ``>=0.6.2``
-   :depends docutils: ``>=0.16``
+   :depends docutils: ``>=0.21.2``
    :depends gawk: ``>=5.0.1``
-   :depends gitdb: ``>=4.0.2``
-   :depends gitpython: ``>=3.1.0``
-   :depends importlib-metadata: ``>=1.5.0``
+   :depends gitdb: ``>=4.0.12``
+   :depends gitpython: ``>=3.1.44``
    :depends infernal: ``1.1.2``
-   :depends jsonschema: ``>=3.2.0``
+   :depends jsonschema: ``>=4.23.0``
    :depends moreutils: ``>=0.5.7``
-   :depends nbformat: ``>=5.0.4``
-   :depends numpy: ``>=1.18``
-   :depends psutil: ``>=5.7.0``
+   :depends nbformat: ``>=5.10.4``
+   :depends numpy: ``>=2.2.5``
+   :depends psutil: ``>=7.0.0``
    :depends pyrsistent: ``>=0.15.7``
-   :depends python: 
+   :depends python: ``>=3.6``
    :depends python-newick: ``>=1.0.0``
    :depends pyyaml: 
-   :depends ratelimiter: 
-   :depends rich: ``>=10.16.1``
+   :depends rich: ``>=14.0.0``
    :depends samtools: ``>=1.6``
-   :depends smmap: ``>=3.0.1``
-   :depends snakemake-minimal: ``>=5.11.1``
-   :depends toposort: ``>=1.5``
-   :depends traitlets: ``>=4.3.3``
-   :depends wrapt: ``>=1.12.1``
-   :depends zipp: ``>=3.1.0``
+   :depends smmap: ``>=5.0.2``
+   :depends snakemake-minimal: ``>=9.3.3``
+   :depends toposort: ``>=1.10``
+   :depends traitlets: ``>=5.14.3``
+   :depends wrapt: ``>=1.17.2``
+   :depends zipp: ``>=3.21.0``
    :requirements:
 
    :additional platforms:
@@ -125,7 +123,7 @@ mirmachine
 
     <script>
         var package = "mirmachine";
-        var versions = ["0.2.13","0.2.12","0.2.11.2022","0.2.11.2","0.2.11.1"];
+        var versions = ["0.3.0","0.2.13","0.2.12","0.2.11.2022","0.2.11.2"];
     </script>
 
 

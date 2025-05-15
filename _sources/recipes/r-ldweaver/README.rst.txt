@@ -27,7 +27,7 @@ r-ldweaver
       
       
 
-      ``1.5.1-0``,  ``1.5-0``,  ``1.4-0``,  ``1.3.1-0``,  ``1.2-0``,  ``1.1.1-0``
+      ``1.5.2-0``,  ``1.5.1-0``,  ``1.5-0``,  ``1.4-0``,  ``1.3.1-0``,  ``1.2-0``,  ``1.1.1-0``
 
       
 
@@ -35,8 +35,9 @@ r-ldweaver
    :depends bioconductor-genbankr: 
    :depends bioconductor-genomicranges: 
    :depends bioconductor-ggtree: ``>=3.10.0,<3.11.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends openjdk: 
    :depends r-ape: 
    :depends r-base: ``>=4.3,<4.4.0a0``
@@ -108,7 +109,7 @@ r-ldweaver
 
     <script>
         var package = "r-ldweaver";
-        var versions = ["1.5.1","1.5","1.4","1.3.1","1.2"];
+        var versions = ["1.5.2","1.5.1","1.5","1.4","1.3.1"];
     </script>
 
 

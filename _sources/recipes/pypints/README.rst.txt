@@ -30,10 +30,10 @@ pypints
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>1.1.15-0</code>,  <code>1.1.14-0</code>,  <code>1.1.13-0</code>,  <code>1.1.10-0</code>,  <code>1.1.9-0</code>,  <code>1.1.8-0</code>,  <code>1.1.7-0</code>,  <code>1.1.6-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.15-0</code>,  <code>1.1.14-0</code>,  <code>1.1.13-0</code>,  <code>1.1.10-0</code>,  <code>1.1.9-0</code>,  <code>1.1.8-0</code>,  <code>1.1.7-0</code>,  </span></summary>
       
 
-      ``1.2.0-0``,  ``1.1.15-0``,  ``1.1.14-0``,  ``1.1.13-0``,  ``1.1.10-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-1``,  ``1.1.6-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.0-0``
+      ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.15-0``,  ``1.1.14-0``,  ``1.1.13-0``,  ``1.1.10-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-1``,  ``1.1.6-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -106,7 +106,7 @@ pypints
 
     <script>
         var package = "pypints";
-        var versions = ["1.2.0","1.1.15","1.1.14","1.1.13","1.1.10"];
+        var versions = ["1.2.1","1.2.0","1.1.15","1.1.14","1.1.13"];
     </script>
 
 

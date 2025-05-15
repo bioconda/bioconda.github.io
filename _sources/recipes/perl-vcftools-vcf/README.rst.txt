@@ -10,10 +10,12 @@ perl-vcftools-vcf
    :replaces_section_title:
    :noindex:
 
-   cpanm ready distribution of VCFtools Perl libraries
+   cpanm ready distribution of VCFtools Perl libraries.
 
    :homepage: https://github.com/vcftools/vcftools
-   :license: LGPLv3
+   :documentation: https://vcftools.github.io
+   
+   :license: LGPL / LGPL-3.0-only
    :recipe: /`perl-vcftools-vcf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-vcftools-vcf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-vcftools-vcf/meta.yaml>`_
    :links: biotools: :biotools:`vcftools`
 
@@ -28,7 +30,7 @@ perl-vcftools-vcf
       
       
 
-      ``0.1.16-4``,  ``0.1.16-2``,  ``0.1.16-1``,  ``0.1.16-0``,  ``0.1.15-2``,  ``0.1.15-1``,  ``0.1.14-0``
+      ``0.1.17-0``,  ``0.1.16-4``,  ``0.1.16-2``,  ``0.1.16-1``,  ``0.1.16-0``,  ``0.1.15-2``,  ``0.1.15-1``,  ``0.1.14-0``
 
       
 
@@ -85,7 +87,7 @@ perl-vcftools-vcf
 
     <script>
         var package = "perl-vcftools-vcf";
-        var versions = ["0.1.16","0.1.16","0.1.16","0.1.16","0.1.15"];
+        var versions = ["0.1.17","0.1.16","0.1.16","0.1.16","0.1.16"];
     </script>
 
 

@@ -27,7 +27,7 @@ dampa
       
       
 
-      ``0.1.0-0``
+      ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -89,7 +89,7 @@ dampa
 
     <script>
         var package = "dampa";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.1","0.1.0"];
     </script>
 
 

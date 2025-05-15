@@ -13,6 +13,8 @@ tajimas_d
    Computes Tajimas D\, the Pi\- or Watterson\-Estimator for multiple sequences.
 
    :homepage: https://github.com/not-a-feature/tajimas_d
+   :documentation: https://github.com/not-a-feature/tajimas_d/blob/v2.0.4/README.md
+   
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`tajimas_d <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tajimas_d>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tajimas_d/meta.yaml>`_
 
@@ -28,11 +30,12 @@ tajimas_d
       
       
 
-      ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``
+      ``2.0.4-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``
 
       
 
    
+   :depends minifasta: ``>=2.2``
    :depends python: ``>=3.8``
    :requirements:
 
@@ -84,7 +87,7 @@ tajimas_d
 
     <script>
         var package = "tajimas_d";
-        var versions = ["2.0.2","2.0.1","2.0.0"];
+        var versions = ["2.0.4","2.0.2","2.0.1","2.0.0"];
     </script>
 
 

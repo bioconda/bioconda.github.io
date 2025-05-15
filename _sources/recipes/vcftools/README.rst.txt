@@ -12,8 +12,10 @@ vcftools
 
    A set of tools written in Perl and C\+\+ for working with VCF files.
 
-   :homepage: https://vcftools.github.io/
-   :license: LGPL
+   :homepage: https://github.com/vcftools/vcftools
+   :documentation: https://vcftools.github.io
+   
+   :license: LGPL / LGPL-3.0-only
    :recipe: /`vcftools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcftools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcftools/meta.yaml>`_
    :links: biotools: :biotools:`vcftools`, doi: :doi:`10.1093/bioinformatics/btr330`
 
@@ -29,10 +31,10 @@ vcftools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.16-12</code>,  <code>0.1.16-11</code>,  <code>0.1.16-10</code>,  <code>0.1.16-9</code>,  <code>0.1.16-8</code>,  <code>0.1.16-7</code>,  <code>0.1.16-6</code>,  <code>0.1.16-5</code>,  <code>0.1.16-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.17-0</code>,  <code>0.1.16-12</code>,  <code>0.1.16-11</code>,  <code>0.1.16-10</code>,  <code>0.1.16-9</code>,  <code>0.1.16-8</code>,  <code>0.1.16-7</code>,  <code>0.1.16-6</code>,  <code>0.1.16-5</code>,  </span></summary>
       
 
-      ``0.1.16-12``,  ``0.1.16-11``,  ``0.1.16-10``,  ``0.1.16-9``,  ``0.1.16-8``,  ``0.1.16-7``,  ``0.1.16-6``,  ``0.1.16-5``,  ``0.1.16-4``,  ``0.1.16-3``,  ``0.1.16-2``,  ``0.1.15-2``,  ``0.1.15-1``,  ``0.1.15-0``,  ``0.1.14-5``,  ``0.1.14-4``,  ``0.1.14-3``,  ``0.1.14-2``,  ``0.1.14-1``,  ``0.1.14-0``,  ``0.1.12b-3``,  ``0.1.12b-2``,  ``0.1.12b-1``,  ``0.1.12b-0``,  ``0.1.11-2``,  ``0.1.11-1``,  ``0.1.11-0``,  ``0.1.10-1``,  ``0.1.10-0``
+      ``0.1.17-0``,  ``0.1.16-12``,  ``0.1.16-11``,  ``0.1.16-10``,  ``0.1.16-9``,  ``0.1.16-8``,  ``0.1.16-7``,  ``0.1.16-6``,  ``0.1.16-5``,  ``0.1.16-4``,  ``0.1.16-3``,  ``0.1.16-2``,  ``0.1.15-2``,  ``0.1.15-1``,  ``0.1.15-0``,  ``0.1.14-5``,  ``0.1.14-4``,  ``0.1.14-3``,  ``0.1.14-2``,  ``0.1.14-1``,  ``0.1.14-0``,  ``0.1.12b-3``,  ``0.1.12b-2``,  ``0.1.12b-1``,  ``0.1.12b-0``,  ``0.1.11-2``,  ``0.1.11-1``,  ``0.1.11-0``,  ``0.1.10-1``,  ``0.1.10-0``
 
       
       .. raw:: html
@@ -45,7 +47,6 @@ vcftools
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
@@ -100,7 +101,7 @@ vcftools
 
     <script>
         var package = "vcftools";
-        var versions = ["0.1.16","0.1.16","0.1.16","0.1.16","0.1.16"];
+        var versions = ["0.1.17","0.1.16","0.1.16","0.1.16","0.1.16"];
     </script>
 
 

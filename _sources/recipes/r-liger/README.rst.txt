@@ -31,10 +31,10 @@ r-liger
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.0-2</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-5</code>,  <code>1.0.0-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>2.1.0-2</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-5</code>,  </span></summary>
       
 
-      ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.1-0``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.5.0.9000-3``,  ``0.5.0.9000-2``,  ``0.5.0.9000-1``,  ``0.5.0.9000-0``,  ``0.4.2.9000-1``,  ``0.4.2.9000-0``
+      ``2.2.0-0``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.1-0``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.5.0.9000-3``,  ``0.5.0.9000-2``,  ``0.5.0.9000-1``,  ``0.5.0.9000-0``,  ``0.4.2.9000-1``,  ``0.4.2.9000-0``
 
       
       .. raw:: html
@@ -43,14 +43,13 @@ r-liger
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0a0``
+   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0a0``
+   :depends bioconductor-hdf5array: ``>=1.34.0,<1.35.0a0``
    :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
-   :depends r-circlize: 
    :depends r-cli: 
-   :depends r-cowplot: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-hdf5r: 
@@ -62,16 +61,13 @@ r-liger
    :depends r-matrix: 
    :depends r-mclust: 
    :depends r-rann: 
-   :depends r-rcolorbrewer: 
    :depends r-rcpp: ``>=0.12.10``
    :depends r-rcpparmadillo: 
-   :depends r-rcppplanc: 
+   :depends r-rcppplanc: ``>=2.0.0``
    :depends r-rcppprogress: 
    :depends r-rlang: 
-   :depends r-rtsne: 
    :depends r-scales: 
    :depends r-uwot: 
-   :depends r-viridis: 
    :requirements:
 
    :additional platforms:
@@ -122,7 +118,7 @@ r-liger
 
     <script>
         var package = "r-liger";
-        var versions = ["2.1.0","2.1.0","2.1.0","2.0.1","2.0.0"];
+        var versions = ["2.2.0","2.1.0","2.1.0","2.1.0","2.0.1"];
     </script>
 
 

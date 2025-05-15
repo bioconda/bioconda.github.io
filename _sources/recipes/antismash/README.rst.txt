@@ -34,10 +34,10 @@ antismash
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>8.0.0-0</code>,  <code>7.1.0-1</code>,  <code>7.1.0-0</code>,  <code>6.1.1-0</code>,  <code>6.1.0-0</code>,  <code>6.0.1-0</code>,  <code>6.0.0-0</code>,  <code>5.1.2-4</code>,  <code>5.1.2-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>8.0.0-1</code>,  <code>8.0.0-0</code>,  <code>7.1.0-1</code>,  <code>7.1.0-0</code>,  <code>6.1.1-0</code>,  <code>6.1.0-0</code>,  <code>6.0.1-0</code>,  <code>6.0.0-0</code>,  <code>5.1.2-4</code>,  </span></summary>
       
 
-      ``8.0.0-0``,  ``7.1.0-1``,  ``7.1.0-0``,  ``6.1.1-0``,  ``6.1.0-0``,  ``6.0.1-0``,  ``6.0.0-0``,  ``5.1.2-4``,  ``5.1.2-3``,  ``5.1.2-2``,  ``5.1.2-1``,  ``5.1.2-0``,  ``5.1.1-0``,  ``4.2.0-2``,  ``4.2.0-1``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.2-3``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.1-1``
+      ``8.0.0-1``,  ``8.0.0-0``,  ``7.1.0-1``,  ``7.1.0-0``,  ``6.1.1-0``,  ``6.1.0-0``,  ``6.0.1-0``,  ``6.0.0-0``,  ``5.1.2-4``,  ``5.1.2-3``,  ``5.1.2-2``,  ``5.1.2-1``,  ``5.1.2-0``,  ``5.1.1-0``,  ``4.2.0-2``,  ``4.2.0-1``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.2-3``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.1-1``
 
       
       .. raw:: html
@@ -46,30 +46,29 @@ antismash
       
 
    
-   :depends bcbio-gff: 
-   :depends biopython: ``>=1.78,<1.81``
+   :depends bcbio-gff: ``0.7.1``
+   :depends biopython: ``1.81``
    :depends blast: 
-   :depends brawn: ``>=1.0.2``
+   :depends brawn: ``1.0.2``
    :depends diamond: 
-   :depends fasttree: ``2.1.*``
-   :depends helperlibs: ``>=0.2.1``
-   :depends hmmer: ``>=3.1b2``
+   :depends fasttree: 
+   :depends helperlibs: ``0.2.1``
+   :depends hmmer: 
    :depends hmmer2: 
-   :depends jinja2: 
-   :depends joblib: 
-   :depends jsonschema: 
+   :depends jinja2: ``3.1.6``
+   :depends joblib: ``1.4.2``
+   :depends jsonschema: ``4.14.0``
    :depends libsass: 
-   :depends markupsafe: ``>=3.0.2``
-   :depends matplotlib-base: 
-   :depends meme: ``5.5.*``
-   :depends moods: ``>=1.9.4.2``
-   :depends nrpys: ``>=0.1.1``
-   :depends numpy: 
-   :depends orjson: ``>=3.10.16``
+   :depends markupsafe: ``3.0.2``
+   :depends matplotlib-base: ``3.10.1``
+   :depends moods: ``1.9.4.2``
+   :depends nrpys: ``0.1.1``
+   :depends numpy: ``2.2.5``
+   :depends orjson: ``3.10.16``
    :depends prodigal: 
    :depends python: ``>=3.11``
-   :depends scikit-learn: ``>=1.6.1``
-   :depends scipy: 
+   :depends scikit-learn: ``1.6.1``
+   :depends scipy: ``1.15.2``
    :requirements:
 
    :additional platforms:
@@ -120,7 +119,7 @@ antismash
 
     <script>
         var package = "antismash";
-        var versions = ["8.0.0","7.1.0","7.1.0","6.1.1","6.1.0"];
+        var versions = ["8.0.0","8.0.0","7.1.0","7.1.0","6.1.1"];
     </script>
 
 

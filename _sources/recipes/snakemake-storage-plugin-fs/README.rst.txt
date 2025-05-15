@@ -26,15 +26,24 @@ snakemake-storage-plugin-fs
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``,  ``0.2.0-0``,  ``0.1.5-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.2-0</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.0-0</code>,  </span></summary>
+      
 
+      ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``,  ``0.2.0-0``,  ``0.1.5-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends humanfriendly: 
    :depends python: ``>=3.11.0,<4.0.0``
    :depends reretry: ``>=0.11.8,<0.12.0``
+   :depends rsync: 
    :depends snakemake-interface-common: ``>=1.17.0,<2.0.0``
    :depends snakemake-interface-storage-plugins: ``>=4.1.0,<5.0.0``
    :depends sysrsync: ``>=1.1.1,<2.0.0``
@@ -88,7 +97,7 @@ snakemake-storage-plugin-fs
 
     <script>
         var package = "snakemake-storage-plugin-fs";
-        var versions = ["1.1.1","1.1.0","1.0.6","1.0.5","1.0.4"];
+        var versions = ["1.1.2","1.1.1","1.1.1","1.1.0","1.0.6"];
     </script>
 
 

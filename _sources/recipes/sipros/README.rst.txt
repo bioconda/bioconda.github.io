@@ -29,7 +29,7 @@ sipros
       
       
 
-      ``4.01-0``
+      ``4.02-0``,  ``4.01-0``
 
       
 
@@ -92,7 +92,7 @@ sipros
 
     <script>
         var package = "sipros";
-        var versions = ["4.01"];
+        var versions = ["4.02","4.01"];
     </script>
 
 
