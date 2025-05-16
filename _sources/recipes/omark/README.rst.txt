@@ -28,7 +28,7 @@ omark
       
       
 
-      ``0.3.1-0``,  ``0.3.0-0``
+      ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``
 
       
 
@@ -36,6 +36,7 @@ omark
    :depends biopython: 
    :depends ete3: 
    :depends jinja2: 
+   :depends libsqlite: ``<=3.40.0``
    :depends matplotlib-base: 
    :depends omamer: ``>=2.0.0``
    :depends python: 
@@ -89,7 +90,7 @@ omark
 
     <script>
         var package = "omark";
-        var versions = ["0.3.1","0.3.0"];
+        var versions = ["0.3.1","0.3.1","0.3.0"];
     </script>
 
 

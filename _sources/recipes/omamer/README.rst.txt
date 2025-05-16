@@ -28,7 +28,7 @@ omamer
       
       
 
-      ``2.1.0-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``
+      ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``
 
       
 
@@ -36,6 +36,7 @@ omamer
    :depends alive-progress: 
    :depends biopython: 
    :depends ete3: 
+   :depends libsqlite: ``<=3.40.0``
    :depends numba: 
    :depends numpy: ``<2``
    :depends pandas: ``>2.0.0``
@@ -96,7 +97,7 @@ omamer
 
     <script>
         var package = "omamer";
-        var versions = ["2.1.0","2.0.5","2.0.4","2.0.3","2.0.2"];
+        var versions = ["2.1.0","2.1.0","2.0.5","2.0.4","2.0.3"];
     </script>
 
 

@@ -13,10 +13,10 @@ ucsc-twobitinfo
    Get information about sequences in a .2bit file.
 
    :homepage: https://hgdownload.cse.ucsc.edu/admin/exe
-   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/v472_base/README
+   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/v481_base/README
    
    :developer docs: https://github.com/ucscGenomeBrowser/kent
-   :license: Varies; see http://genome.ucsc.edu/license
+   :license: Varies; see https://genome.ucsc.edu/license
    :recipe: /`ucsc-twobitinfo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-twobitinfo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-twobitinfo/meta.yaml>`_
    :links: biotools: :biotools:`UCSC_Genome_Browser_Utilities`, doi: :doi:`10.1093/bib/bbs038`
 
@@ -32,10 +32,10 @@ ucsc-twobitinfo
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>472-1</code>,  <code>472-0</code>,  <code>469-0</code>,  <code>455-1</code>,  <code>455-0</code>,  <code>447-0</code>,  <code>377-3</code>,  <code>377-2</code>,  <code>377-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>481-0</code>,  <code>472-1</code>,  <code>472-0</code>,  <code>469-0</code>,  <code>455-1</code>,  <code>455-0</code>,  <code>447-0</code>,  <code>377-3</code>,  <code>377-2</code>,  </span></summary>
       
 
-      ``472-1``,  ``472-0``,  ``469-0``,  ``455-1``,  ``455-0``,  ``447-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``
+      ``481-0``,  ``472-1``,  ``472-0``,  ``469-0``,  ``455-1``,  ``455-0``,  ``447-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``
 
       
       .. raw:: html
@@ -44,9 +44,11 @@ ucsc-twobitinfo
       
 
    
+   :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libgcc: ``>=13``
+   :depends liblzma: ``>=5.8.1,<6.0a0``
    :depends libopenssl-static: 
-   :depends libpng: ``>=1.6.44,<1.7.0a0``
+   :depends libpng: ``>=1.6.47,<1.7.0a0``
    :depends libuuid: ``>=2.38.1,<3.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
@@ -104,7 +106,7 @@ ucsc-twobitinfo
 
     <script>
         var package = "ucsc-twobitinfo";
-        var versions = ["472","472","469","455","455"];
+        var versions = ["481","472","472","469","455"];
     </script>
 
 

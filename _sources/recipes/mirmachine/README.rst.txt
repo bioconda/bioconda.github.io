@@ -30,10 +30,10 @@ mirmachine
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.0-0</code>,  <code>0.2.13-0</code>,  <code>0.2.12-0</code>,  <code>0.2.11.2022-0</code>,  <code>0.2.11.2-0</code>,  <code>0.2.11.1-0</code>,  <code>0.2.11-1</code>,  <code>0.2.11-0</code>,  <code>0.2.10-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.0-1</code>,  <code>0.3.0-0</code>,  <code>0.2.13-0</code>,  <code>0.2.12-0</code>,  <code>0.2.11.2022-0</code>,  <code>0.2.11.2-0</code>,  <code>0.2.11.1-0</code>,  <code>0.2.11-1</code>,  <code>0.2.11-0</code>,  </span></summary>
       
 
-      ``0.3.0-0``,  ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11.2022-0``,  ``0.2.11.2-0``,  ``0.2.11.1-0``,  ``0.2.11-1``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.1.31-0``,  ``0.1.2-0``
+      ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11.2022-0``,  ``0.2.11.2-0``,  ``0.2.11.1-0``,  ``0.2.11-1``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.1.31-0``,  ``0.1.2-0``
 
       
       .. raw:: html
@@ -44,7 +44,7 @@ mirmachine
    
    :depends appdirs: ``>=1.4.4``
    :depends attrs: ``>=25.3.0``
-   :depends bedtools: ``>=2.29.2``
+   :depends bedtools: ``>=2.31.1``
    :depends biopython: ``>=1.85``
    :depends configargparse: ``>=1.7``
    :depends coreutils: ``>=8.31``
@@ -55,7 +55,7 @@ mirmachine
    :depends gawk: ``>=5.0.1``
    :depends gitdb: ``>=4.0.12``
    :depends gitpython: ``>=3.1.44``
-   :depends infernal: ``1.1.2``
+   :depends infernal: ``1.1.5``
    :depends jsonschema: ``>=4.23.0``
    :depends moreutils: ``>=0.5.7``
    :depends nbformat: ``>=5.10.4``
@@ -123,7 +123,7 @@ mirmachine
 
     <script>
         var package = "mirmachine";
-        var versions = ["0.3.0","0.2.13","0.2.12","0.2.11.2022","0.2.11.2"];
+        var versions = ["0.3.0","0.3.0","0.2.13","0.2.12","0.2.11.2022"];
     </script>
 
 

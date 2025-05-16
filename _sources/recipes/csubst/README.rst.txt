@@ -27,20 +27,25 @@ csubst
       
       
 
-      ``1.4.0-0``
+      ``1.4.0-1``,  ``1.4.0-0``
 
       
 
    
+   :depends biopython: 
    :depends ete3: 
+   :depends iqtree: ``>=2.0.0``
    :depends joblib: 
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
+   :depends mafft: 
    :depends matplotlib-base: 
    :depends numpy: ``>=1.22.4,<2.0a0``
    :depends pandas: 
+   :depends pymol-open-source: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
+   :depends pyvolve: 
    :depends scipy: 
    :depends threadpoolctl: 
    :requirements:
@@ -93,7 +98,7 @@ csubst
 
     <script>
         var package = "csubst";
-        var versions = ["1.4.0"];
+        var versions = ["1.4.0","1.4.0"];
     </script>
 
 

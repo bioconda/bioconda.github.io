@@ -10,7 +10,7 @@ splitcode
    :replaces_section_title:
    :noindex:
 
-   Flexible parsing\, interpretation\, and editing of technical sequences
+   Flexible parsing\, interpretation\, and editing of technical sequences.
 
    :homepage: https://github.com/pachterlab/splitcode
    :documentation: https://splitcode.readthedocs.io
@@ -30,7 +30,7 @@ splitcode
       
       
 
-      ``0.31.2-1``,  ``0.31.2-0``,  ``0.31.1-0``,  ``0.31.0-0``,  ``0.30.0-1``,  ``0.30.0-0``,  ``0.29.4-0``
+      ``0.31.2-2``,  ``0.31.2-1``,  ``0.31.2-0``,  ``0.31.1-0``,  ``0.31.0-0``,  ``0.30.0-1``,  ``0.30.0-0``,  ``0.29.4-0``
 
       
 
@@ -38,14 +38,13 @@ splitcode
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -93,7 +92,7 @@ splitcode
 
     <script>
         var package = "splitcode";
-        var versions = ["0.31.2","0.31.2","0.31.1","0.31.0","0.30.0"];
+        var versions = ["0.31.2","0.31.2","0.31.2","0.31.1","0.31.0"];
     </script>
 
 
