@@ -29,13 +29,13 @@ sipros
       
       
 
-      ``4.02-0``,  ``4.01-0``
+      ``4.02-1``,  ``4.02-0``,  ``4.01-0``
 
       
 
    
    :depends bioconductor-biostrings: 
-   :depends mono: 
+   :depends mono: ``<6``
    :depends numpy: ``1.16.*``
    :depends python: ``2.7.*``
    :depends r-base: 
@@ -92,7 +92,7 @@ sipros
 
     <script>
         var package = "sipros";
-        var versions = ["4.02","4.01"];
+        var versions = ["4.02","4.02","4.01"];
     </script>
 
 

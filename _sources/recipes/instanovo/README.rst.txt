@@ -28,7 +28,7 @@ instanovo
       
       
 
-      ``1.1.1-0``,  ``1.0.0-0``
+      ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.0-0``
 
       
 
@@ -105,7 +105,7 @@ instanovo
 
     <script>
         var package = "instanovo";
-        var versions = ["1.1.1","1.0.0"];
+        var versions = ["1.1.2","1.1.1","1.0.0"];
     </script>
 
 
