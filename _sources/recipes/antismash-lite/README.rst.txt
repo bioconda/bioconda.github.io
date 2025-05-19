@@ -10,9 +10,9 @@ antismash-lite
    :replaces_section_title:
    :noindex:
 
-   antiSMASH \- the antibiotics and Secondary Metabolite Analysis SHell
+   antiSMASH \- the antibiotics and Secondary Metabolite Analysis SHell.
 
-   :homepage: https://docs.antismash.secondarymetabolites.org/intro/
+   :homepage: https://docs.antismash.secondarymetabolites.org/intro
    :documentation: https://docs.antismash.secondarymetabolites.org
    
    :developer docs: https://github.com/antismash/antismash
