@@ -10,7 +10,7 @@ gbdraw
    :replaces_section_title:
    :noindex:
 
-   A genome diagram generator for bacterial\, archaeal\, and viral genomes.
+   A genome diagram generator for microbes and organelles.
 
    :homepage: https://github.com/satoshikawato/gbdraw
    :license: MIT / MIT
@@ -27,7 +27,7 @@ gbdraw
       
       
 
-      ``0.1.0-0``
+      ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -88,7 +88,7 @@ gbdraw
 
     <script>
         var package = "gbdraw";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.1","0.1.0"];
     </script>
 
 

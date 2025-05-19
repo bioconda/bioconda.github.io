@@ -27,23 +27,33 @@ soi
       
       
 
-      ``1.2.0-0``
+      ``1.2.3-0``,  ``1.2.0-0``
 
       
 
    
-   :depends biopython: 
+   :depends biopython: ``>=1.81``
+   :depends blast: ``>=2.14.1``
+   :depends diamond: ``>=2.1.8``
    :depends drmaa: 
-   :depends iqtree: 
-   :depends lazy-property: 
-   :depends mafft: 
+   :depends entrez-direct: ``>=16.2``
+   :depends iqtree: ``>=2.2.5``
+   :depends lazy-property: ``>=0.0.1``
+   :depends mafft: ``>=7.520``
    :depends matplotlib-base: 
-   :depends networkx: 
+   :depends mcl: ``>=22.282``
+   :depends mmseqs2: ``>=14.7e284``
+   :depends muscle: ``>=3.8.1551``
+   :depends networkx: ``>=3.1``
    :depends newick_utils: 
+   :depends orthofinder: ``>=2.5.5``
    :depends pal2nal: 
+   :depends pp: ``>=1.6.4.4``
    :depends psutil: 
-   :depends python: 
+   :depends python: ``>=3``
+   :depends raxml-ng: ``>=1.2.0``
    :depends trimal: 
+   :depends xopen: ``>=1.1.0``
    :requirements:
 
    :additional platforms:
@@ -94,7 +104,7 @@ soi
 
     <script>
         var package = "soi";
-        var versions = ["1.2.0"];
+        var versions = ["1.2.3","1.2.0"];
     </script>
 
 

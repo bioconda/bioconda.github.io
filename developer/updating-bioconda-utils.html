@@ -68,7 +68,7 @@
   <section id="updating-bioconda-utils">
 <h1>Updating <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code><a class="headerlink" href="#updating-bioconda-utils" title="Link to this heading">¶</a></h1>
 <p>This section documents the steps required to update bioconda-utils and get the
-updated version working over on bioconda-recipes, working on Azure DevOps and
+updated version working over on bioconda-recipes, working on CI platforms and
 building packages.</p>
 <p><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> is currently using <a class="reference external" href="https://github.com/googleapis/release-please">Release Please</a> to manage updates, changelogs,
 and versioning. This works in a specific way, so the steps below walk through
@@ -170,7 +170,7 @@ version of <code class="xref any docutils literal notranslate"><span class="pre"
 installation of the version of bioconda-utils specified in that file.
 <strong>bioconda-recipes is now using the updated version.</strong>.</p>
 <details><summary>How do I check?</summary><div class="details"><p><i>How do I check?</i></p><p>You can keep an eye on new bioconda-recipe PRs, or maybe close and then
-reopen an existing one. Look for Azure DevOps log under the “Restore cache”
+reopen an existing one. Look in the PR check logs under the “Restore cache”
 step (it should say cache miss on the first time it runs) and then check
 “Install bioconda-utils” step to ensure it installed the version you
 expect.</p>

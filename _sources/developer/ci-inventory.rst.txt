@@ -15,6 +15,9 @@ CI Inventory
 .. datechanged:: 2024-07-05
    Start using ``osx-arm64`` in bulk and recipe tests
 
+.. datechanged:: 2025-05-16
+   Now using GitHub Actions, instead of Azure for PRs. Nightly runs on all platforms.
+
 This page documents the various moving parts that, together, make Bioconda
 work. We rely on a mixture of free services to spread the workload and to
 maintain flexibility over the long term in case a service becomes unusable.
@@ -31,16 +34,16 @@ maintain flexibility over the long term in case a service becomes unusable.
   represented here.
 
   bioconda-recipes:
-    - azure-pipeline-master.yml
+    - azure-pipeline-master.yml (disabled)
     - azure-pipeline-nightly.yml
-    - azure-pipeline.yml
+    - azure-pipeline.yml (disabled)
     - .circleci/config.yml
     - .github/workflows/Bulk.yml
     - .github/workflows/CommentResponder.yml
-    - .github/workflows/PR.yml <-------- appears to be manually disabled?
+    - .github/workflows/PR.yml
     - .github/workflows/build-failures.yml
     - .github/workflows/master.yml
-    - .github/workflows/nightly.yml <------- appears to be manually disabled?
+    - .github/workflows/nightly.yml
 
   bioconda-utils:
     - .circleci/config.yml
@@ -69,10 +72,10 @@ maintain flexibility over the long term in case a service becomes unusable.
 
 
     * - Recipe tests
-      - Azure Pipelines, CircleCI
+      - GitHub Actions, CircleCI
       - ``bioconda-recipes``
       - on push
-      - `azure-pipeline.yml <https://github.com/bioconda/bioconda-recipes/blob/master/azure-pipeline.yml>`_ (``linux-64``, ``osx-64``);
+      - `PR.yml <https://github.com/bioconda/bioconda-recipes/blob/master/.github/workflows/PR.yml>`_ (``linux-64``, ``osx-64``);
         `config.yml <https://github.com/bioconda/bioconda-recipes/blob/master/.circleci/config.yml>`_ (``linux-aarch64``, ``osx-arm64``)
       - ``linux-64``, ``osx-64``, ``linux-aarch64``, ``osx-arm64``
       - These are the most-run tests: these are what run on every change on
@@ -87,16 +90,16 @@ maintain flexibility over the long term in case a service becomes unusable.
       - `CommentResponder.yml <https://github.com/bioconda/bioconda-recipes/blob/master/.github/workflows/CommentResponder.yml>`_
       - Linux
       - Runs the bioconda-bot container (quay.io/bioconda/bot) with different
-        image tags (merge, comment, update, repost) in response to comments.
+        image tags (comment, update, repost) in response to comments.
         This allows fast response time (rather than, say, restoring a cache
         each time).
 
 
     * - Master branch tests
-      - Azure Pipelines, CircleCI
+      - GitHub Actions, CircleCI
       - ``bioconda-recipes``
       - push to master (bioconda-recipes)
-      - `azure-pipeline-master.yml <https://github.com/bioconda/bioconda-recipes/blob/master/azure-pipeline-master.yml>`_ (``linux-64``, ``osx-64``);
+      - `master.yml <https://github.com/bioconda/bioconda-recipes/blob/master/.github/workflows/master.yml>`_ (``linux-64``, ``osx-64``);
         `config.yml <https://github.com/bioconda/bioconda-recipes/blob/master/.circleci/config.yml>`_ (``linux-aarch64``, ``osx-arm64``)
       - ``linux-64``, ``osx-64``, ``linux-aarch64``, ``osx-arm64``
       - Runs when a PR is merged to the master branch. The already-built artifacts are retrieved from the PR and uploaded to the ``bioconda`` channel.
@@ -170,7 +173,7 @@ maintain flexibility over the long term in case a service becomes unusable.
     * - Check public containers
       - GitHub Actions
       - ``bioconda-utils``
-      - manually
+      - daily
       - `changevisibility.yml <https://github.com/bioconda/bioconda-utils/blob/master/.github/workflows/changevisibility.yml>`_
       - Linux
       - Checks quay.io to see if any containers are mistakenly private; if so
@@ -200,14 +203,17 @@ maintain flexibility over the long term in case a service becomes unusable.
 
 
     * - Nightly maintenance
-      - Azure Pipelines
+      - Azure Pipelines, CircleCI, GitHub Actions
       - ``bioconda-recipes``
       - daily
-      - `azure-pipeline-nightly.yml <https://github.com/bioconda/bioconda-recipes/blob/master/azure-pipeline-nightly.yml>`_
-      - Linux, macOS
+      - `azure-pipeline-nightly.yml <https://github.com/bioconda/bioconda-recipes/blob/master/azure-pipeline-nightly.yml>`_ (``linux-64``, ``osx-64``);
+        `config.yml <https://github.com/bioconda/bioconda-recipes/blob/edd4d09c79acec46480031e21078306fddcdd468/.circleci/config.yml#L242>`_ (``linux-aarch64``);
+        `nightly.yml <https://github.com/bioconda/bioconda-recipes/blob/master/.github/workflows/nightly.yml>`_ (``osx-arm64``)
+      -  ``linux-64``, ``osx-64``, ``linux-aarch64``, ``osx-arm64``
       - Various maintenance tasks: build and upload the
         bioconda-repodata-patches package; try to build and upload any
-        remaining packages (runs bioconda-utils build on *all* recipes)
+        remaining packages (runs bioconda-utils build on *all* recipes).
+        Check status on bioconda-recipes README.
 
 
     * - Bulk

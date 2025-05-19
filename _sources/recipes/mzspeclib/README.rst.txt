@@ -30,7 +30,7 @@ mzspeclib
       
       
 
-      ``1.0.3-0``,  ``1.0.1-0``
+      ``1.0.5-0``,  ``1.0.3-0``,  ``1.0.1-0``
 
       
 
@@ -91,7 +91,7 @@ mzspeclib
 
     <script>
         var package = "mzspeclib";
-        var versions = ["1.0.3","1.0.1"];
+        var versions = ["1.0.5","1.0.3","1.0.1"];
     </script>
 
 

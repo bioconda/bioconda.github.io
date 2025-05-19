@@ -10,10 +10,12 @@ bamtools
    :replaces_section_title:
    :noindex:
 
-   C\+\+ API \& command\-line toolkit for working with BAM data
+   C\+\+ API \& command\-line toolkit for working with BAM data.
 
    :homepage: https://github.com/pezmaster31/bamtools
-   :license: MIT
+   :documentation: https://github.com/pezmaster31/bamtools/wiki
+   
+   :license: MIT / MIT
    :recipe: /`bamtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamtools/meta.yaml>`_
    :links: biotools: :biotools:`bamtools`
 
@@ -29,10 +31,10 @@ bamtools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5.2-6</code>,  <code>2.5.2-5</code>,  <code>2.5.2-4</code>,  <code>2.5.2-3</code>,  <code>2.5.2-2</code>,  <code>2.5.2-1</code>,  <code>2.5.2-0</code>,  <code>2.5.1-10</code>,  <code>2.5.1-9</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.5.3-0</code>,  <code>2.5.2-6</code>,  <code>2.5.2-5</code>,  <code>2.5.2-4</code>,  <code>2.5.2-3</code>,  <code>2.5.2-2</code>,  <code>2.5.2-1</code>,  <code>2.5.2-0</code>,  <code>2.5.1-10</code>,  </span></summary>
       
 
-      ``2.5.2-6``,  ``2.5.2-5``,  ``2.5.2-4``,  ``2.5.2-3``,  ``2.5.2-2``,  ``2.5.2-1``,  ``2.5.2-0``,  ``2.5.1-10``,  ``2.5.1-9``,  ``2.5.1-7``,  ``2.5.1-6``,  ``2.5.1-5``,  ``2.5.1-4``,  ``2.5.1-3``,  ``2.5.1-2``,  ``2.5.1-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-3``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``
+      ``2.5.3-0``,  ``2.5.2-6``,  ``2.5.2-5``,  ``2.5.2-4``,  ``2.5.2-3``,  ``2.5.2-2``,  ``2.5.2-1``,  ``2.5.2-0``,  ``2.5.1-10``,  ``2.5.1-9``,  ``2.5.1-7``,  ``2.5.1-6``,  ``2.5.1-5``,  ``2.5.1-4``,  ``2.5.1-3``,  ``2.5.1-2``,  ``2.5.1-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-3``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``
 
       
       .. raw:: html
@@ -41,6 +43,7 @@ bamtools
       
 
    
+   :depends jsoncpp: ``>=1.9.6,<1.9.7.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
@@ -98,7 +101,7 @@ bamtools
 
     <script>
         var package = "bamtools";
-        var versions = ["2.5.2","2.5.2","2.5.2","2.5.2","2.5.2"];
+        var versions = ["2.5.3","2.5.2","2.5.2","2.5.2","2.5.2"];
     </script>
 
 

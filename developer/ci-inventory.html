@@ -79,6 +79,9 @@
 <div class="datechanged">
 <p><span class="versionmodified changed">Changed on 2024-07-05: </span>Start using <code class="docutils literal notranslate"><span class="pre">osx-arm64</span></code> in bulk and recipe tests</p>
 </div>
+<div class="datechanged">
+<p><span class="versionmodified changed">Changed on 2025-05-16: </span>Now using GitHub Actions, instead of Azure for PRs. Nightly runs on all platforms.</p>
+</div>
 <p>This page documents the various moving parts that, together, make Bioconda
 work. We rely on a mixture of free services to spread the workload and to
 maintain flexibility over the long term in case a service becomes unusable.</p>
@@ -101,10 +104,10 @@ See <a class="reference internal" href="../faqs.html#platform-nomenclature-faq">
 </thead>
 <tbody>
 <tr class="row-even"><td><p>Recipe tests</p></td>
-<td><p>Azure Pipelines, CircleCI</p></td>
+<td><p>GitHub Actions, CircleCI</p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code></p></td>
 <td><p>on push</p></td>
-<td><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/azure-pipeline.yml">azure-pipeline.yml</a> (<code class="docutils literal notranslate"><span class="pre">linux-64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>);
+<td><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/.github/workflows/PR.yml">PR.yml</a> (<code class="docutils literal notranslate"><span class="pre">linux-64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>);
 <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/.circleci/config.yml">config.yml</a> (<code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-arm64</span></code>)</p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">linux-64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>, <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-arm64</span></code></p></td>
 <td><p>These are the most-run tests: these are what run on every change on
@@ -118,15 +121,15 @@ is merged into the master branch.</p></td>
 <td><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/.github/workflows/CommentResponder.yml">CommentResponder.yml</a></p></td>
 <td><p>Linux</p></td>
 <td><p>Runs the bioconda-bot container (quay.io/bioconda/bot) with different
-image tags (merge, comment, update, repost) in response to comments.
+image tags (comment, update, repost) in response to comments.
 This allows fast response time (rather than, say, restoring a cache
 each time).</p></td>
 </tr>
 <tr class="row-even"><td><p>Master branch tests</p></td>
-<td><p>Azure Pipelines, CircleCI</p></td>
+<td><p>GitHub Actions, CircleCI</p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code></p></td>
 <td><p>push to master (bioconda-recipes)</p></td>
-<td><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/azure-pipeline-master.yml">azure-pipeline-master.yml</a> (<code class="docutils literal notranslate"><span class="pre">linux-64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>);
+<td><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/.github/workflows/master.yml">master.yml</a> (<code class="docutils literal notranslate"><span class="pre">linux-64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>);
 <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/.circleci/config.yml">config.yml</a> (<code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-arm64</span></code>)</p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">linux-64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>, <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-arm64</span></code></p></td>
 <td><p>Runs when a PR is merged to the master branch. The already-built artifacts are retrieved from the PR and uploaded to the <code class="docutils literal notranslate"><span class="pre">bioconda</span></code> channel.
@@ -192,7 +195,7 @@ and pushes the changes to
 <tr class="row-odd"><td><p>Check public containers</p></td>
 <td><p>GitHub Actions</p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></p></td>
-<td><p>manually</p></td>
+<td><p>daily</p></td>
 <td><p><a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/master/.github/workflows/changevisibility.yml">changevisibility.yml</a></p></td>
 <td><p>Linux</p></td>
 <td><p>Checks quay.io to see if any containers are mistakenly private; if so
@@ -219,14 +222,17 @@ into a separate, special PR. Merging that special PR is what triggers
 a new release.</p></td>
 </tr>
 <tr class="row-even"><td><p>Nightly maintenance</p></td>
-<td><p>Azure Pipelines</p></td>
+<td><p>Azure Pipelines, CircleCI, GitHub Actions</p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code></p></td>
 <td><p>daily</p></td>
-<td><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/azure-pipeline-nightly.yml">azure-pipeline-nightly.yml</a></p></td>
-<td><p>Linux, macOS</p></td>
+<td><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/azure-pipeline-nightly.yml">azure-pipeline-nightly.yml</a> (<code class="docutils literal notranslate"><span class="pre">linux-64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>);
+<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/edd4d09c79acec46480031e21078306fddcdd468/.circleci/config.yml#L242">config.yml</a> (<code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code>);
+<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/.github/workflows/nightly.yml">nightly.yml</a> (<code class="docutils literal notranslate"><span class="pre">osx-arm64</span></code>)</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">linux-64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-64</span></code>, <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code>, <code class="docutils literal notranslate"><span class="pre">osx-arm64</span></code></p></td>
 <td><p>Various maintenance tasks: build and upload the
 bioconda-repodata-patches package; try to build and upload any
-remaining packages (runs bioconda-utils build on <em>all</em> recipes)</p></td>
+remaining packages (runs bioconda-utils build on <em>all</em> recipes).
+Check status on bioconda-recipes README.</p></td>
 </tr>
 <tr class="row-odd"><td><p>Bulk</p></td>
 <td><p>GitHub Actions</p></td>

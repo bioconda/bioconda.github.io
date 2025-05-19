@@ -1,7 +1,7 @@
 Testing Recipes Locally
 =======================
 
-Queue times on Azure DevOps may sometimes make it more convenient and
+Queue times on CI platforms may sometimes make it more convenient and
 faster to work on complex packages locally. There are several ways to
 do so, each with their own caveats.
 

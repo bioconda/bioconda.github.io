@@ -10,11 +10,14 @@ repaq
    :replaces_section_title:
    :noindex:
 
-   A fast lossless FASTQ compressor with ultra\-high compression ratio
+   A fast lossless FASTQ compressor with ultra\-high compression ratio.
 
    :homepage: https://github.com/OpenGene/repaq
-   :license: MIT
+   :documentation: https://github.com/OpenGene/repaq/blob/v0.5.0/README.md
+   
+   :license: MIT / MIT
    :recipe: /`repaq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repaq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repaq/meta.yaml>`_
+   :links: doi: :doi:`10.3389/fgene.2023.1260531`
 
    
 
@@ -27,17 +30,21 @@ repaq
       
       
 
-      ``0.3.0-5``,  ``0.3.0-4``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``
+      ``0.5.0-0``,  ``0.3.0-5``,  ``0.3.0-4``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``
 
       
 
    
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -85,7 +92,7 @@ repaq
 
     <script>
         var package = "repaq";
-        var versions = ["0.3.0","0.3.0","0.3.0","0.3.0","0.3.0"];
+        var versions = ["0.5.0","0.3.0","0.3.0","0.3.0","0.3.0"];
     </script>
 
 

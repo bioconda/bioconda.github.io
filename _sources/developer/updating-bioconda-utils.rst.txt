@@ -2,7 +2,7 @@ Updating ``bioconda-utils``
 ===========================
 
 This section documents the steps required to update bioconda-utils and get the
-updated version working over on bioconda-recipes, working on Azure DevOps and
+updated version working over on bioconda-recipes, working on CI platforms and
 building packages.
 
 ``bioconda-utils`` is currently using `Release Please
@@ -122,7 +122,7 @@ installation of the version of bioconda-utils specified in that file.
 .. details:: How do I check?
 
     You can keep an eye on new bioconda-recipe PRs, or maybe close and then
-    reopen an existing one. Look for Azure DevOps log under the "Restore cache"
+    reopen an existing one. Look in the PR check logs under the "Restore cache"
     step (it should say cache miss on the first time it runs) and then check
     "Install bioconda-utils" step to ensure it installed the version you
     expect.
