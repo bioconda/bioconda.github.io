@@ -32,7 +32,7 @@ egap
       
       
 
-      ``3.0.0f-0``,  ``3.0.0b-0``,  ``2.6.6-0``,  ``2.6.5-0``,  ``2.6.4-0``,  ``2.6.2-0``,  ``2.5.4-0``,  ``2.5.3-0``
+      ``3.1-0``,  ``3.0.0f-0``,  ``3.0.0b-0``,  ``2.6.6-0``,  ``2.6.5-0``,  ``2.6.4-0``,  ``2.6.2-0``,  ``2.5.4-0``,  ``2.5.3-0``
 
       
 
@@ -49,18 +49,22 @@ egap
    :depends fastqc: ``>=0.12.1``
    :depends filtlong: ``>=0.2.1``
    :depends flye: ``>=2.9.5``
+   :depends geopy: ``>=2.4.1``
    :depends gfatools: ``>=0.5``
    :depends hifiasm: ``>=0.21.0``
+   :depends jinja2: ``>=3.1.4``
    :depends kmc: ``>=3.2.4``
    :depends masurca: ``>=4.1.2``
    :depends matplotlib-base: ``>=3.7.3``
    :depends minimap2: ``>=2.28``
    :depends nanoplot: ``>=1.43.0``
    :depends ncbi-datasets-cli: ``>=16.39.0``
+   :depends openpyxl: ``>=3.1.5``
    :depends pbccs: ``>=6.4.0``
    :depends pilon: ``>=1.22``
    :depends psutil: ``>=6.0.0``
    :depends purge_dups: ``>=1.2.6``
+   :depends pyinaturalist: ``>=0.20``
    :depends python: ``>=3.8,<3.9``
    :depends quast: ``>=5.2.0``
    :depends racon: ``>=1.5.0``
@@ -70,6 +74,7 @@ egap
    :depends sepp: ``>=4.5.1``
    :depends spades: ``>=4.0.0``
    :depends sra-tools: ``>=3.2.0``
+   :depends tabulate: ``>=0.9.0``
    :depends termcolor: ``>=2.3.0``
    :depends tgsgapcloser: ``>=1.2.1``
    :depends trimmomatic: ``>=0.39``
@@ -123,7 +128,7 @@ egap
 
     <script>
         var package = "egap";
-        var versions = ["3.0.0f","3.0.0b","2.6.6","2.6.5","2.6.4"];
+        var versions = ["3.1","3.0.0f","3.0.0b","2.6.6","2.6.5"];
     </script>
 
 

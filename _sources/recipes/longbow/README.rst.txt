@@ -27,7 +27,7 @@ longbow
       
       
 
-      ``2.3.0-0``
+      ``2.3.1-0``,  ``2.3.0-0``
 
       
 
@@ -88,7 +88,7 @@ longbow
 
     <script>
         var package = "longbow";
-        var versions = ["2.3.0"];
+        var versions = ["2.3.1","2.3.0"];
     </script>
 
 
