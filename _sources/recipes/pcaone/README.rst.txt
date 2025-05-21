@@ -10,7 +10,7 @@ pcaone
    :replaces_section_title:
    :noindex:
 
-   PCAone \- Principal Component Analysis All in One
+   PCAone \- Principal Component Analysis All in One.
 
    :homepage: https://github.com/Zilong-Li/PCAone
    :license: GPL3 / GPL-3.0-only
@@ -28,10 +28,10 @@ pcaone
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.8-1</code>,  <code>0.4.8-0</code>,  <code>0.4.7-0</code>,  <code>0.4.6-0</code>,  <code>0.4.5-0</code>,  <code>0.4.4-1</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.2-0</code>,  <code>0.4.8-1</code>,  <code>0.4.8-0</code>,  <code>0.4.7-0</code>,  <code>0.4.6-0</code>,  <code>0.4.5-0</code>,  <code>0.4.4-1</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  </span></summary>
       
 
-      ``0.4.8-1``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.9-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.0.0-0``
+      ``0.5.2-0``,  ``0.4.8-1``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.9-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.0.0-0``
 
       
       .. raw:: html
@@ -40,11 +40,14 @@ pcaone
       
 
    
-   :depends libcxx: ``>=18``
+   :depends __glibc: ``>=2.17,<3.0.a0``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends llvm-openmp: ``>=18.1.8``
-   :depends llvm-openmp: ``>=19.1.5``
-   :depends mkl: 
+   :depends mkl: ``>=2025.1.0``
+   :depends mkl-include: ``>=2025.1.0``
    :requirements:
 
    :additional platforms:
@@ -95,7 +98,7 @@ pcaone
 
     <script>
         var package = "pcaone";
-        var versions = ["0.4.8","0.4.8","0.4.7","0.4.6","0.4.5"];
+        var versions = ["0.5.2","0.4.8","0.4.8","0.4.7","0.4.6"];
     </script>
 
 

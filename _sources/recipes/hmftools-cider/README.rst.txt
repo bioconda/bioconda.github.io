@@ -27,7 +27,7 @@ hmftools-cider
       
       
 
-      ``1.0.3-0``
+      ``1.0.4-0``,  ``1.0.3-0``
 
       
 
@@ -85,7 +85,7 @@ hmftools-cider
 
     <script>
         var package = "hmftools-cider";
-        var versions = ["1.0.3"];
+        var versions = ["1.0.4","1.0.3"];
     </script>
 
 

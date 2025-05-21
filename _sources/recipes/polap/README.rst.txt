@@ -30,10 +30,10 @@ polap
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.3.7.5-1</code>,  <code>0.4.3.7.5-0</code>,  <code>0.4.3.7.4-0</code>,  <code>0.4.3.7.3-0</code>,  <code>0.4.3.7.2-0</code>,  <code>0.4.3.7-1</code>,  <code>0.4.3.7-0</code>,  <code>0.4.1.1-0</code>,  <code>0.3.7.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.3.7.5-3</code>,  <code>0.4.3.7.5-1</code>,  <code>0.4.3.7.5-0</code>,  <code>0.4.3.7.4-0</code>,  <code>0.4.3.7.3-0</code>,  <code>0.4.3.7.2-0</code>,  <code>0.4.3.7-1</code>,  <code>0.4.3.7-0</code>,  <code>0.4.1.1-0</code>,  </span></summary>
       
 
-      ``0.4.3.7.5-1``,  ``0.4.3.7.5-0``,  ``0.4.3.7.4-0``,  ``0.4.3.7.3-0``,  ``0.4.3.7.2-0``,  ``0.4.3.7-1``,  ``0.4.3.7-0``,  ``0.4.1.1-0``,  ``0.3.7.3-1``,  ``0.3.7.3-0``,  ``0.3.7.2-0``,  ``0.3.7.1-0``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.2.6-0``,  ``0.2.4-0``
+      ``0.4.3.7.5-3``,  ``0.4.3.7.5-1``,  ``0.4.3.7.5-0``,  ``0.4.3.7.4-0``,  ``0.4.3.7.3-0``,  ``0.4.3.7.2-0``,  ``0.4.3.7-1``,  ``0.4.3.7-0``,  ``0.4.1.1-0``,  ``0.3.7.3-1``,  ``0.3.7.3-0``,  ``0.3.7.2-0``,  ``0.3.7.1-0``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.2.6-0``,  ``0.2.4-0``
 
       
       .. raw:: html
@@ -59,7 +59,7 @@ polap
    :depends kmer-jellyfish: 
    :depends libxml2: 
    :depends mafft: 
-   :depends minimap2: 
+   :depends minimap2: ``>=2.28``
    :depends networkx: 
    :depends newick_utils: 
    :depends orthofinder: 
@@ -69,7 +69,7 @@ polap
    :depends perl: 
    :depends perl-xml-libxml: 
    :depends progressivemauve: 
-   :depends python: ``>=3.8,<3.11``
+   :depends python: ``>=3.8``
    :depends r-base: 
    :depends r-dplyr: 
    :depends r-optparse: 
@@ -132,7 +132,7 @@ polap
 
     <script>
         var package = "polap";
-        var versions = ["0.4.3.7.5","0.4.3.7.5","0.4.3.7.4","0.4.3.7.3","0.4.3.7.2"];
+        var versions = ["0.4.3.7.5","0.4.3.7.5","0.4.3.7.5","0.4.3.7.4","0.4.3.7.3"];
     </script>
 
 

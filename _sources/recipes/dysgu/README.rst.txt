@@ -13,7 +13,7 @@ dysgu
    A collection of tools for calling structural variants using short or long reads.
 
    :homepage: https://github.com/kcleal/dysgu
-   :documentation: https://github.com/kcleal/dysgu/blob/v1.8.4/README.rst
+   :documentation: https://github.com/kcleal/dysgu/blob/v1.8.5/README.rst
    
    :license: MIT / MIT
    :recipe: /`dysgu <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dysgu>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dysgu/meta.yaml>`_
@@ -31,10 +31,10 @@ dysgu
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.8.4-0</code>,  <code>1.8.3-0</code>,  <code>1.8.2-1</code>,  <code>1.8.2-0</code>,  <code>1.8.1-1</code>,  <code>1.8.1-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.7.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8.5-0</code>,  <code>1.8.4-0</code>,  <code>1.8.3-0</code>,  <code>1.8.2-1</code>,  <code>1.8.2-0</code>,  <code>1.8.1-1</code>,  <code>1.8.1-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  </span></summary>
       
 
-      ``1.8.4-0``,  ``1.8.3-0``,  ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.7-0``,  ``1.6.6-0``,  ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.4-1``,  ``1.6.4-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.16-0``
+      ``1.8.5-0``,  ``1.8.4-0``,  ``1.8.3-0``,  ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.7-0``,  ``1.6.6-0``,  ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.4-1``,  ``1.6.4-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.16-0``
 
       
       .. raw:: html
@@ -123,7 +123,7 @@ dysgu
 
     <script>
         var package = "dysgu";
-        var versions = ["1.8.4","1.8.3","1.8.2","1.8.2","1.8.1"];
+        var versions = ["1.8.5","1.8.4","1.8.3","1.8.2","1.8.2"];
     </script>
 
 

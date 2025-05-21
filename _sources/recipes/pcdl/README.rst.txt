@@ -29,11 +29,21 @@ pcdl
       
       
 
-      
+      ``3.3.6-0``
 
       
 
    
+   :depends anndata: ``>=0.10.8``
+   :depends ffmpeg: 
+   :depends imagemagick: 
+   :depends matplotlib-base: 
+   :depends numpy: ``>=2.0.0``
+   :depends pandas: ``>=2.2.2``
+   :depends python: ``>=3.8,<4.0``
+   :depends requests: 
+   :depends scipy: ``>=1.13.0``
+   :depends vtk: 
    :requirements:
 
    :additional platforms:
@@ -84,7 +94,7 @@ pcdl
 
     <script>
         var package = "pcdl";
-        var versions = [];
+        var versions = ["3.3.6"];
     </script>
 
 

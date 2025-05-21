@@ -27,7 +27,7 @@ unicore
       
       
 
-      ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0c-1``,  ``1.0.0c-0``
+      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0c-1``,  ``1.0.0c-0``
 
       
 
@@ -37,7 +37,7 @@ unicore
    :depends foldseek: ``>=10.941cd33``
    :depends iqtree: 
    :depends mafft: 
-   :depends openssl: ``>=3.4.0,<4.0a0``
+   :depends openssl: ``>=3.5.0,<4.0a0``
    :depends raxml: 
    :requirements:
 
@@ -93,7 +93,7 @@ unicore
 
     <script>
         var package = "unicore";
-        var versions = ["1.1.0","1.0.2","1.0.1","1.0.0c","1.0.0c"];
+        var versions = ["1.1.1","1.1.0","1.0.2","1.0.1","1.0.0c"];
     </script>
 
 

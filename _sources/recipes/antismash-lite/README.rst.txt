@@ -33,36 +33,34 @@ antismash-lite
       
       
 
-      ``7.1.0-0``,  ``6.1.1-1``,  ``6.1.1-0``,  ``6.1.0-0``,  ``6.0.1-1``,  ``6.0.1-0``
+      ``8.0.0-0``,  ``7.1.0-0``,  ``6.1.1-1``,  ``6.1.1-0``,  ``6.1.0-0``,  ``6.0.1-1``,  ``6.0.1-0``
 
       
 
    
-   :depends bcbio-gff: 
-   :depends biopython: ``1.78.*``
+   :depends bcbio-gff: ``0.7.1``
+   :depends biopython: ``1.81``
    :depends blast: 
-   :depends brawn: ``>=1.0.1``
+   :depends brawn: ``1.0.2``
    :depends diamond: 
-   :depends fasttree: ``2.1.*``
-   :depends glimmerhmm: ``3.0.*``
-   :depends helperlibs: ``>=0.2.1``
-   :depends hmmer: ``>=3.1b2``
+   :depends fasttree: 
+   :depends helperlibs: ``0.2.1``
+   :depends hmmer: 
    :depends hmmer2: 
-   :depends jinja2: 
-   :depends joblib: 
-   :depends jsonschema: 
-   :depends libsass: 
-   :depends markupsafe: ``>=2.1.0``
-   :depends matplotlib-base: 
-   :depends meme: ``4.11.2.*``
-   :depends moods: ``>=1.9.4``
-   :depends nrpys: ``>=0.1.1``
-   :depends numpy: 
+   :depends jinja2: ``3.1.6``
+   :depends joblib: ``1.4.2``
+   :depends jsonschema: ``4.14.0``
+   :depends libsass: ``0.22``
+   :depends markupsafe: ``3.0.2``
+   :depends matplotlib-base: ``3.10.1``
+   :depends moods: ``1.9.4.2``
+   :depends nrpys: ``0.1.1``
+   :depends numpy: ``2.2.5``
+   :depends orjson: ``3.10.16``
    :depends prodigal: 
-   :depends pysvg-py3: 
-   :depends python: ``>=3.9``
-   :depends scikit-learn: ``>=1.3.2``
-   :depends scipy: 
+   :depends python: ``>=3.11``
+   :depends scikit-learn: ``1.6.1``
+   :depends scipy: ``1.15.2``
    :requirements:
 
    :additional platforms:
@@ -113,7 +111,7 @@ antismash-lite
 
     <script>
         var package = "antismash-lite";
-        var versions = ["7.1.0","6.1.1","6.1.1","6.1.0","6.0.1"];
+        var versions = ["8.0.0","7.1.0","6.1.1","6.1.1","6.1.0"];
     </script>
 
 
