@@ -28,15 +28,15 @@ profile_dists
       
       
 
-      ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends fastparquet: ``>=2023.4.0``
-   :depends numba: 
-   :depends numpy: 
-   :depends pandas: ``>=2.0.2``
+   :depends numba: ``>=0.57.1,<=0.61.2``
+   :depends numpy: ``>=1.24.4,<2.0.0``
+   :depends pandas: ``>=2.0.2,<2.2.0``
    :depends psutil: 
    :depends pyarrow: ``>=12.0.0``
    :depends pytables: ``>=3.8.0``
@@ -92,7 +92,7 @@ profile_dists
 
     <script>
         var package = "profile_dists";
-        var versions = ["1.0.5","1.0.4","1.0.3","1.0.1","1.0.0"];
+        var versions = ["1.0.6","1.0.5","1.0.4","1.0.3","1.0.1"];
     </script>
 
 

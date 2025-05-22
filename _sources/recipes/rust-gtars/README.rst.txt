@@ -13,7 +13,7 @@ rust-gtars
    Performance\-critical tools to manipulate\, analyze\, and process genomic interval data.
 
    :homepage: https://github.com/databio/gtars
-   :documentation: https://docs.rs/crate/gtars/0.2.6
+   :documentation: https://docs.rs/crate/gtars/0.2.7
    
    :license: BSD / BSD-2-Clause
    :recipe: /`rust-gtars <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-gtars>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-gtars/meta.yaml>`_
@@ -29,7 +29,7 @@ rust-gtars
       
       
 
-      ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``
+      ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``
 
       
 
@@ -89,7 +89,7 @@ rust-gtars
 
     <script>
         var package = "rust-gtars";
-        var versions = ["0.2.6","0.2.5","0.2.4","0.2.3","0.2.2"];
+        var versions = ["0.2.7","0.2.6","0.2.5","0.2.4","0.2.3"];
     </script>
 
 

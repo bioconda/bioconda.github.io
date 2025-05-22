@@ -10,11 +10,14 @@ triqler
    :replaces_section_title:
    :noindex:
 
-   A combined identification and quantification error model of label\-free protein quantification
+   A combined identification and quantification error model of label\-free protein quantification.
 
    :homepage: https://github.com/statisticalbiotechnology/triqler
-   :license: APACHE / Apache Software
+   :documentation: https://github.com/statisticalbiotechnology/triqler/wiki
+   
+   :license: APACHE / Apache-2.0
    :recipe: /`triqler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/triqler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/triqler/meta.yaml>`_
+   :links: doi: :doi:`0.1074/mcp.RA118.001018`, doi: :doi:`10.1021/acs.jproteome.2c00607`
 
    
 
@@ -27,15 +30,19 @@ triqler
       
       
 
-      ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.9.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
 
    
-   :depends numpy: ``>=1.12``
-   :depends python: 
-   :depends scipy: ``>=0.17``
-   :depends threadpoolctl: ``>=1.0``
+   :depends job-pool: ``>=0.3.0``
+   :depends matplotlib-base: 
+   :depends numpy: ``>=2.0.0``
+   :depends pandas: ``>=1.4.0``
+   :depends pyarrow: ``>=19.0.1``
+   :depends python: ``>=3.10,<3.14``
+   :depends scipy: ``>=1.9.1``
+   :depends threadpoolctl: ``>=3.1.0``
    :requirements:
 
    :additional platforms:
@@ -86,7 +93,7 @@ triqler
 
     <script>
         var package = "triqler";
-        var versions = ["0.6.2","0.6.1","0.6.0","0.5.0","0.4.0"];
+        var versions = ["0.9.0","0.6.2","0.6.1","0.6.0","0.5.0"];
     </script>
 
 

@@ -27,13 +27,14 @@ mpralib
       
       
 
-      ``0.6.1-0``,  ``0.6.0-0``
+      ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``
 
       
 
    
    :depends anndata: 
    :depends click: 
+   :depends jsonschema: 
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
@@ -42,6 +43,7 @@ mpralib
    :depends scikit-learn: 
    :depends scipy: 
    :depends seaborn: 
+   :depends tqdm: 
    :requirements:
 
    :additional platforms:
@@ -92,7 +94,7 @@ mpralib
 
     <script>
         var package = "mpralib";
-        var versions = ["0.6.1","0.6.0"];
+        var versions = ["0.6.2","0.6.1","0.6.0"];
     </script>
 
 

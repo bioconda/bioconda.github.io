@@ -28,21 +28,19 @@ genomic_address_service
       
       
 
-      ``0.2.0-0``,  ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
    
-   :depends fastparquet: ``2023.4.0``
-   :depends numba: ``0.59.1``
-   :depends numpy: ``1.26.4``
-   :depends pandas: ``2.0.2``
-   :depends psutil: ``6.1.0``
-   :depends pyarrow: ``>=14.0.0``
-   :depends pytables: ``3.9.1``
-   :depends pytest: ``8.3.3``
+   :depends numba: ``>=0.59.1,<=0.61.2``
+   :depends numpy: ``>=1.26.4,<2.0.0``
+   :depends pandas: ``>=2.0.2,<2.2.0``
+   :depends psutil: ``>=6.1.0``
+   :depends pytables: ``>=3.9.1``
+   :depends pytest: ``>=8.3.3``
    :depends python: ``>=3.10,<3.13``
-   :depends scipy: ``1.14.1``
+   :depends scipy: ``>=1.14.1``
    :depends six: ``>=1.16.0``
    :requirements:
 
@@ -94,7 +92,7 @@ genomic_address_service
 
     <script>
         var package = "genomic_address_service";
-        var versions = ["0.2.0","0.1.5","0.1.5","0.1.4","0.1.3"];
+        var versions = ["0.2.1","0.2.0","0.1.5","0.1.5","0.1.4"];
     </script>
 
 
