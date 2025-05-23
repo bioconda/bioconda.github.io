@@ -10,12 +10,14 @@ ms2query
    :replaces_section_title:
    :noindex:
 
-   Reliable and fast MS\/MS spectral based analogue search
+   Reliable and fast MS\/MS spectral based analogue search.
 
    :homepage: https://github.com/iomega/ms2query
-   :license: Apache-2.0
+   :documentation: https://github.com/iomega/ms2query/blob/1.5.4/README.md
+   
+   :license: APACHE / Apache-2.0
    :recipe: /`ms2query <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ms2query>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ms2query/meta.yaml>`_
-   :links: doi: :doi:`https://doi.org/10.1038/s41467-023-37446-4`
+   :links: doi: :doi:`10.1038/s41467-023-37446-4`
 
    
 
@@ -28,26 +30,27 @@ ms2query
       
       
 
-      ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``
+      ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``
 
       
 
    
-   :depends h5py: ``3.11.0.*``
-   :depends matchms: ``0.26.4.*``
+   :depends gensim: ``>=4.0.0``
+   :depends h5py: 
+   :depends matchms: ``>=0.24.0,<=0.26.4``
    :depends matplotlib-base: 
-   :depends ms2deepscore: ``2.0.0.*``
-   :depends numpy: ``1.24.4.*``
-   :depends onnxruntime: ``1.17.0.*``
-   :depends pandas: ``2.2.2.*``
-   :depends pyarrow: ``16.1.0.*``
-   :depends pytest: ``8.2.2.*``
-   :depends pytest-cov: ``5.0.0.*``
+   :depends ms2deepscore: ``2.0.0``
+   :depends numpy: 
+   :depends onnx: ``<1.16.2``
+   :depends onnxruntime: ``<1.16``
+   :depends pandas: 
+   :depends pyarrow: 
    :depends python: ``>=3.9``
-   :depends rdkit: 
-   :depends scikit-learn: ``1.5.0.*``
-   :depends skl2onnx: ``1.16.0.*``
-   :depends spec2vec: ``0.8.0.*``
+   :depends pytorch: ``<2.6``
+   :depends scikit-learn: 
+   :depends skl2onnx: 
+   :depends spec2vec: ``>=0.6.0``
+   :depends tqdm: 
    :requirements:
 
    :additional platforms:
@@ -98,7 +101,7 @@ ms2query
 
     <script>
         var package = "ms2query";
-        var versions = ["1.5.3","1.5.2","1.5.1","1.5.0","1.2.3"];
+        var versions = ["1.5.4","1.5.3","1.5.2","1.5.1","1.5.0"];
     </script>
 
 

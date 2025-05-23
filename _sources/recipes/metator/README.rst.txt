@@ -13,7 +13,7 @@ metator
    Metagenomic binning based on Hi\-C data.
 
    :homepage: https://github.com/koszullab/metator
-   :documentation: https://github.com/koszullab/metaTOR/blob/v1.3.7/README.md
+   :documentation: https://github.com/koszullab/metaTOR/blob/v1.3.10/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`metator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metator/meta.yaml>`_
@@ -30,12 +30,12 @@ metator
       
       
 
-      ``1.3.7-0``
+      ``1.3.10-0``,  ``1.3.7-0``
 
       
 
    
-   :depends biopython: 
+   :depends biopython: ``<=1.80``
    :depends bowtie2: 
    :depends bwa: 
    :depends checkv: 
@@ -111,7 +111,7 @@ metator
 
     <script>
         var package = "metator";
-        var versions = ["1.3.7"];
+        var versions = ["1.3.10","1.3.7"];
     </script>
 
 

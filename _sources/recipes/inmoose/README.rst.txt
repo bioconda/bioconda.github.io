@@ -13,6 +13,8 @@ inmoose
    InMoose is the Integrated Multi Omic Open Source Environment. It is a collection of tools for the analysis of omic data.
 
    :homepage: https://github.com/epigenelabs/inmoose
+   :documentation: https://inmoose.readthedocs.io/en/latest
+   
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`inmoose <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/inmoose>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/inmoose/meta.yaml>`_
 
@@ -27,7 +29,7 @@ inmoose
       
       
 
-      ``0.7.2-1``,  ``0.7.2-0``
+      ``0.7.6-0``,  ``0.7.2-1``,  ``0.7.2-0``
 
       
 
@@ -35,6 +37,7 @@ inmoose
    :depends anndata: 
    :depends click: 
    :depends fastcluster: 
+   :depends jinja2: 
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends matplotlib-base: 
@@ -51,6 +54,10 @@ inmoose
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -98,7 +105,7 @@ inmoose
 
     <script>
         var package = "inmoose";
-        var versions = ["0.7.2","0.7.2"];
+        var versions = ["0.7.6","0.7.2","0.7.2"];
     </script>
 
 

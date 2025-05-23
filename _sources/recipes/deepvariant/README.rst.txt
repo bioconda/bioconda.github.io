@@ -10,10 +10,12 @@ deepvariant
    :replaces_section_title:
    :noindex:
 
-   DeepVariant is an analysis pipeline that uses a deep neural network to call genetic variants from next\-generation DNA sequencing data
+   DeepVariant is an analysis pipeline that uses a deep neural network to call genetic variants from next\-generation DNA sequencing data.
 
    :homepage: https://github.com/google/deepvariant
-   :license: MIT
+   :documentation: https://github.com/google/deepvariant/blob/v1.8.0/README.md
+   
+   :license: BSD / BSD-3-Clause
    :recipe: /`deepvariant <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deepvariant>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deepvariant/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ deepvariant
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-2</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8.0-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-2</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.0-3</code>,  </span></summary>
       
 
-      ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.10.0-4``,  ``0.10.0-3``,  ``0.10.0-2``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.4.1-1``,  ``0.4.1-0``
+      ``1.8.0-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.10.0-4``,  ``0.10.0-3``,  ``0.10.0-2``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.4.1-1``,  ``0.4.1-0``
 
       
       .. raw:: html
@@ -42,31 +44,25 @@ deepvariant
    
    :depends absl-py: 
    :depends altair: 
-   :depends boost: 
+   :depends boost-cpp: 
    :depends contextlib2: 
    :depends crcmod: 
-   :depends curl: ``>=7.87.0,<8.0a0``
-   :depends enum34: 
    :depends google-cloud-sdk: 
    :depends htslib: 
    :depends intervaltree: 
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends mock: 
-   :depends numpy: ``1.16.*``
+   :depends numpy: ``>=1.21.2``
    :depends oauth2client: 
-   :depends openjdk: ``>=8,<9``
+   :depends openjdk: ``11.0.*``
    :depends parallel: 
    :depends protobuf: 
    :depends psutil: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``<3.11``
    :depends requests: 
    :depends scipy: 
    :depends six: 
-   :depends tensorflow-estimator: ``2.0.*``
-   :depends tensorflow-gpu: ``2.0.*``
-   :depends unzip: 
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends tensorflow: ``2.11.*``
+   :depends tensorflow-estimator: ``2.11.*``
    :requirements:
 
    :additional platforms:
@@ -117,7 +113,7 @@ deepvariant
 
     <script>
         var package = "deepvariant";
-        var versions = ["1.5.0","1.4.0","1.3.0","1.2.0","1.1.0"];
+        var versions = ["1.8.0","1.5.0","1.4.0","1.3.0","1.2.0"];
     </script>
 
 

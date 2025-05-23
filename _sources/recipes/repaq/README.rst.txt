@@ -13,7 +13,7 @@ repaq
    A fast lossless FASTQ compressor with ultra\-high compression ratio.
 
    :homepage: https://github.com/OpenGene/repaq
-   :documentation: https://github.com/OpenGene/repaq/blob/v0.5.0/README.md
+   :documentation: https://github.com/OpenGene/repaq/blob/v0.5.1/README.md
    
    :license: MIT / MIT
    :recipe: /`repaq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repaq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repaq/meta.yaml>`_
@@ -30,7 +30,7 @@ repaq
       
       
 
-      ``0.5.0-0``,  ``0.3.0-5``,  ``0.3.0-4``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``
+      ``0.5.1-0``,  ``0.5.0-0``,  ``0.3.0-5``,  ``0.3.0-4``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``
 
       
 
@@ -92,7 +92,7 @@ repaq
 
     <script>
         var package = "repaq";
-        var versions = ["0.5.0","0.3.0","0.3.0","0.3.0","0.3.0"];
+        var versions = ["0.5.1","0.5.0","0.3.0","0.3.0","0.3.0"];
     </script>
 
 
