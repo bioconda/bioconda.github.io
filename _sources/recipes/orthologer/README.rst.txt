@@ -10,17 +10,17 @@ orthologer
    :replaces_section_title:
    :noindex:
 
-   Establish orthology among fasta files.
+   Ortholog detection for comparative genomics and fast functional annotation behind OrthoDB and BUSCO.
 
    :homepage: https://orthologer.ezlab.org
    :documentation: https://orthologer.ezlab.org/#on-orthodb-data
    
    :developer docs: https://gitlab.com/ezlab/orthologer_container
-   :license: GPL3 / GPL3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`orthologer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/orthologer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/orthologer/meta.yaml>`_
-   :links: biotools: :biotools:`orthologer`, doi: :doi:`10.1093/nar/gkac996`, PMID: :PMID:`36350662`
+   :links: biotools: :biotools:`orthologer`, doi: :doi:`10.1093/nar/gkae987`, PMID: :PMID:`39535043`
 
-   Map genes to OrthoDB as well as finding orthology among a set of fasta files.
+   Ortholog detection for comparative genomics and fast functional annotation behind OrthoDB and BUSCO.
 
 
 .. conda:package:: orthologer
@@ -31,7 +31,7 @@ orthologer
       
       
 
-      ``3.5.0-1``,  ``3.5.0-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.2-0``,  ``3.3.1-0``
+      ``3.7.1-0``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.2-0``,  ``3.3.1-0``
 
       
 
@@ -40,16 +40,20 @@ orthologer
    :depends bash: ``>=4.1``
    :depends biopython: 
    :depends blast: 
+   :depends boost-cpp: 
    :depends busco: ``>=5.7.0``
    :depends cd-hit: 
    :depends diamond: 
+   :depends ete3: 
    :depends libgcc: ``>=13``
    :depends libgomp: 
    :depends libstdcxx: ``>=13``
    :depends mmseqs2: 
    :depends numpy: 
-   :depends python: ``>=3.4``
+   :depends python: ``>=3.11,<3.12.0a0``
+   :depends python_abi: ``3.11.* *_cp311``
    :depends rsync: 
+   :depends spdlog: ``>=1.12.0,<1.13.0a0``
    :depends wget: 
    :requirements:
 
@@ -101,7 +105,7 @@ orthologer
 
     <script>
         var package = "orthologer";
-        var versions = ["3.5.0","3.5.0","3.4.2","3.4.1","3.4.0"];
+        var versions = ["3.7.1","3.5.0","3.5.0","3.4.2","3.4.1"];
     </script>
 
 

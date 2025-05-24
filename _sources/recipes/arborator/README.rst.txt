@@ -28,22 +28,23 @@ arborator
       
       
 
-      ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.6-0``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
+   :depends fastparquet: ``>=2023.4.0``
    :depends genomic_address_service: 
-   :depends numba: ``0.57.1``
-   :depends numpy: 
-   :depends pandas: ``2.0.2``
+   :depends numba: ``>=0.57.1,<=0.61.2``
+   :depends numpy: ``>=1.24.4,<2.0.0``
+   :depends pandas: ``>=2.0.2,<2.2.0``
    :depends profile_dists: 
    :depends psutil: 
-   :depends pyarrow: ``12.0.0``
-   :depends pytables: 
-   :depends python: ``>=3.8,<3.10``
-   :depends scipy: ``>=1.0.0``
-   :depends six: 
+   :depends pyarrow: ``>=14.0.0``
+   :depends pytables: ``>=3.8.0``
+   :depends python: ``>=3.8.2,<3.12``
+   :depends scipy: 
+   :depends six: ``>=1.16.0``
    :requirements:
 
    :additional platforms:
@@ -94,7 +95,7 @@ arborator
 
     <script>
         var package = "arborator";
-        var versions = ["1.0.0","1.0.0","1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.0.6","1.0.0","1.0.0","1.0.0","1.0.0"];
     </script>
 
 
