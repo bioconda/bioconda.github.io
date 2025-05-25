@@ -28,19 +28,20 @@ bio2zarr
       
       
 
-      ``0.1.5-1``,  ``0.1.5-0``
+      ``0.1.6-0``,  ``0.1.5-1``,  ``0.1.5-0``
 
       
 
    
-   :depends bed-reader: 
    :depends click: 
    :depends cyvcf2: 
    :depends humanfriendly: 
    :depends numpy: ``>=1.26``
-   :depends python: ``>=3.9``
+   :depends pandas: 
+   :depends python: ``>=3.10``
    :depends tabulate: 
    :depends tqdm: 
+   :depends tskit: ``>=0.6.4``
    :depends zarr: ``>=2.17,<3``
    :requirements:
 
@@ -92,7 +93,7 @@ bio2zarr
 
     <script>
         var package = "bio2zarr";
-        var versions = ["0.1.5","0.1.5"];
+        var versions = ["0.1.6","0.1.5","0.1.5"];
     </script>
 
 

@@ -13,6 +13,7 @@ ratt
    Rapid Annotation Transfer Tool
 
    :homepage: http://ratt.sourceforge.net
+   :developer docs: https://github.com/ThomasDOtto/ratt
    :license: GPL3
    :recipe: /`ratt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ratt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ratt/meta.yaml>`_
 
@@ -27,7 +28,7 @@ ratt
       
       
 
-      ``1.0.3-0``
+      ``1.1.0-0``,  ``1.0.3-0``
 
       
 
@@ -84,7 +85,7 @@ ratt
 
     <script>
         var package = "ratt";
-        var versions = ["1.0.3"];
+        var versions = ["1.1.0","1.0.3"];
     </script>
 
 
