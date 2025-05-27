@@ -33,7 +33,7 @@ openstructure
       
       
 
-      ``2.9.3-0``
+      ``2.10.0-0``,  ``2.9.3-0``
 
       
 
@@ -123,7 +123,7 @@ openstructure
 
     <script>
         var package = "openstructure";
-        var versions = ["2.9.3"];
+        var versions = ["2.10.0","2.9.3"];
     </script>
 
 

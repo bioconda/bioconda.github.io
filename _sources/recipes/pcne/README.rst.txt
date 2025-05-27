@@ -27,15 +27,19 @@ pcne
       
       
 
-      ``0.2.0-0``,  ``0.1.0-0``
+      ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
    :depends bash: 
+   :depends bc: 
+   :depends bedtools: ``>=2.31.1``
+   :depends busco: ``5.8.2.*``
    :depends bwa: ``>=0.7.19``
    :depends r-base: ``>=4.4.2``
    :depends r-dplyr: ``>=1.1.4``
+   :depends r-ggplot2: ``>=3.5.1``
    :depends r-readr: ``>=2.1.5``
    :depends samtools: ``>=1.20``
    :requirements:
@@ -88,7 +92,7 @@ pcne
 
     <script>
         var package = "pcne";
-        var versions = ["0.2.0","0.1.0"];
+        var versions = ["0.2.0","0.2.0","0.1.0"];
     </script>
 
 

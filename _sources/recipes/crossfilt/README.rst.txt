@@ -1,37 +1,40 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'msms'
+.. title:: Package Recipe 'crossfilt'
 .. highlight: bash
 
-msms
-====
+crossfilt
+=========
 
-.. conda:recipe:: msms
+.. conda:recipe:: crossfilt
    :replaces_section_title:
    :noindex:
 
-   MSMS is a program written in the C programming language to compute molecular surfaces.
+   Tools to filter reads causing alignment bias in cross\-species genomic comparisons.
 
-   :homepage: http://mgltools.scripps.edu/packages/MSMS/
-   :license: Free for academic use.
-   :recipe: /`msms <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msms>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msms/meta.yaml>`_
+   :homepage: https://github.com/kennethabarr/CrossFilt
+   :license: GPL3 / GPL-3.0-only
+   :recipe: /`crossfilt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crossfilt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crossfilt/meta.yaml>`_
 
    
 
 
-.. conda:package:: msms
+.. conda:package:: crossfilt
 
-   |downloads_msms| |docker_msms|
+   |downloads_crossfilt| |docker_crossfilt|
 
    :versions:
       
       
 
-      ``2.6.1-3``,  ``2.6.1-2``,  ``2.6.1-1``
+      ``0.1.1-0``
 
       
 
    
+   :depends intervaltree: 
+   :depends pysam: 
+   :depends python: ``>=3.6``
    :requirements:
 
    :additional platforms:
@@ -50,39 +53,39 @@ msms
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install msms
+      mamba install crossfilt
 
    and update with::
 
-      mamba update msms
+      mamba update crossfilt
 
   To create a new environment, run::
 
-      mamba create --name myenvname msms
+      mamba create --name myenvname crossfilt
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/msms:<tag>
+      docker pull quay.io/biocontainers/crossfilt:<tag>
 
-   (see `msms/tags`_ for valid values for ``<tag>``)
+   (see `crossfilt/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_msms| image:: https://img.shields.io/conda/dn/bioconda/msms.svg?style=flat
-   :target: https://anaconda.org/bioconda/msms
+.. |downloads_crossfilt| image:: https://img.shields.io/conda/dn/bioconda/crossfilt.svg?style=flat
+   :target: https://anaconda.org/bioconda/crossfilt
    :alt:   (downloads)
-.. |docker_msms| image:: https://quay.io/repository/biocontainers/msms/status
-   :target: https://quay.io/repository/biocontainers/msms
-.. _`msms/tags`: https://quay.io/repository/biocontainers/msms?tab=tags
+.. |docker_crossfilt| image:: https://quay.io/repository/biocontainers/crossfilt/status
+   :target: https://quay.io/repository/biocontainers/crossfilt
+.. _`crossfilt/tags`: https://quay.io/repository/biocontainers/crossfilt?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "msms";
-        var versions = ["2.6.1","2.6.1","2.6.1"];
+        var package = "crossfilt";
+        var versions = ["0.1.1"];
     </script>
 
 
@@ -101,7 +104,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/msms/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/crossfilt/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/msms/README.html
+   :target: http://bioconda.github.io/recipes/crossfilt/README.html

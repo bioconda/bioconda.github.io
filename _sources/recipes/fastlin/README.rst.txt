@@ -10,9 +10,11 @@ fastlin
    :replaces_section_title:
    :noindex:
 
-   fastlin\, ultra\-fast MTBC lineage typing
+   fastlin\, ultra\-fast MTBC lineage typing.
 
    :homepage: https://github.com/rderelle/fastlin
+   :documentation: https://github.com/rderelle/fastlin/blob/0.4.2/README.md
+   
    :license: MIT / MIT
    :recipe: /`fastlin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastlin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastlin/meta.yaml>`_
 
@@ -27,7 +29,7 @@ fastlin
       
       
 
-      ``0.4.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2.1-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2.1-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -86,7 +88,7 @@ fastlin
 
     <script>
         var package = "fastlin";
-        var versions = ["0.4.1","0.3.0","0.3.0","0.2.3","0.2.2.1"];
+        var versions = ["0.4.2","0.4.1","0.3.0","0.3.0","0.2.3"];
     </script>
 
 

@@ -27,21 +27,23 @@ grz-cli
       
       
 
-      ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.1.4-0``,  ``0.1.1-0``
+      ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.1.4-0``,  ``0.1.1-0``
 
       
 
    
    :depends boto3: ``>=1.36,<2``
    :depends click: ``>=8.1.7,<9``
-   :depends grz-pydantic-models: ``>=1.2.1,<2``
+   :depends grz-pydantic-models: ``>=1.3.0,<2``
    :depends jsonschema: ``>=4.23.0,<5``
    :depends platformdirs: ``>=4.3.6,<5``
    :depends pydantic: ``>=2.9.2,<2.10``
+   :depends pydantic-settings: ``>=2.9.0,<2.10``
    :depends pysam: ``0.23.*``
    :depends python: ``>=3.12``
    :depends python-crypt4gh: ``>=1.7,<2``
    :depends pyyaml: ``>=6.0.2,<7``
+   :depends requests: ``>=2.32.3,<3``
    :depends rich: ``13.*``
    :depends tqdm: ``>=4.66.5,<5``
    :requirements:
@@ -94,7 +96,7 @@ grz-cli
 
     <script>
         var package = "grz-cli";
-        var versions = ["0.5.0","0.4.0","0.3.0","0.1.4","0.1.1"];
+        var versions = ["0.6.0","0.5.0","0.4.0","0.3.0","0.1.4"];
     </script>
 
 
