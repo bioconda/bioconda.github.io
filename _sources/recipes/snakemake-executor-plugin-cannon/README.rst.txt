@@ -27,7 +27,7 @@ snakemake-executor-plugin-cannon
       
       
 
-      ``1.3.6.post1-0``,  ``1.2.2.post1-0``,  ``1.2.1a0-0``
+      ``1.3.6.post2-0``,  ``1.3.6.post1-0``,  ``1.2.2.post1-0``,  ``1.2.1a0-0``
 
       
 
@@ -87,7 +87,7 @@ snakemake-executor-plugin-cannon
 
     <script>
         var package = "snakemake-executor-plugin-cannon";
-        var versions = ["1.3.6.post1","1.2.2.post1","1.2.1a0"];
+        var versions = ["1.3.6.post2","1.3.6.post1","1.2.2.post1","1.2.1a0"];
     </script>
 
 

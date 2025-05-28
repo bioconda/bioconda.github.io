@@ -39,6 +39,24 @@ heasoft
    For mission\-specific functionality \(e.g.\, Swift\, NuSTAR\, IXPE\)\, additional 
    environment setup may be needed. See the HEAsoft documentation for details.
 
+   \*\*Warning for Xspec users\*\*\: The \/spectral\/modelData directory \(\~5.9GB\) is excluded to reduce
+   package size\, rendering Xspec unusable without it. 
+   To enable Xspec\:
+   1. Download the HEASoft source tarball for the same version as this package \(6.35.1\)\:
+      \`\`\`bash
+      wget https\:\/\/heasarc.gsfc.nasa.gov\/FTP\/software\/lheasoft\/lheasoft6.35.1\/heasoft\-6.35.1src.tar.gz
+      \`\`\`
+      Replace 6.35.1 with the package version \(e.g.\, 6.35.1\). 
+   2. Extract\:
+      \`\`\`bash
+      tar zxf heasoft\-6.35.1src.tar.gz
+      \`\`\`
+   3. Copy the modelData directory\:
+      \`\`\`bash
+      mkdir \-p \$CONDA\_PREFIX\/spectral
+      cp \-r heasoft\-6.35.1\/Xspec\/src\/spectral\/modelData \$CONDA\_PREFIX\/spectral\/
+      \`\`\`
+
 
 
 .. conda:package:: heasoft

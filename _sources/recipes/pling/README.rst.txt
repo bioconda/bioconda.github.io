@@ -27,7 +27,7 @@ pling
       
       
 
-      ``2.0.0-0``
+      ``2.0.1-0``,  ``2.0.0-0``
 
       
 
@@ -92,7 +92,7 @@ pling
 
     <script>
         var package = "pling";
-        var versions = ["2.0.0"];
+        var versions = ["2.0.1","2.0.0"];
     </script>
 
 

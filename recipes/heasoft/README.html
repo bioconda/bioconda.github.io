@@ -97,6 +97,27 @@ variables like PGPLOT_DIR, XANADU, and POW_LIBRARY.</p>
 Perl interpreter after sourcing headas-init.sh.</p>
 <p>For mission-specific functionality (e.g., Swift, NuSTAR, IXPE), additional
 environment setup may be needed. See the HEAsoft documentation for details.</p>
+<p>**Warning for Xspec users**: The /spectral/modelData directory (~5.9GB) is excluded to reduce
+package size, rendering Xspec unusable without it.
+To enable Xspec:
+1. Download the HEASoft source tarball for the same version as this package (6.35.1):</p>
+<blockquote>
+<div><p>```bash
+wget https://heasarc.gsfc.nasa.gov/FTP/software/lheasoft/lheasoft6.35.1/heasoft-6.35.1src.tar.gz
+```
+Replace 6.35.1 with the package version (e.g., 6.35.1).</p>
+</div></blockquote>
+<ol class="arabic simple" start="2">
+<li><p>Extract:
+```bash
+tar zxf heasoft-6.35.1src.tar.gz
+```</p></li>
+<li><p>Copy the modelData directory:
+```bash
+mkdir -p $CONDA_PREFIX/spectral
+cp -r heasoft-6.35.1/Xspec/src/spectral/modelData $CONDA_PREFIX/spectral/
+```</p></li>
+</ol>
 </dd></dl>
 
 <dl class="conda package">

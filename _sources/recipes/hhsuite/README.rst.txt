@@ -10,12 +10,12 @@ hhsuite
    :replaces_section_title:
    :noindex:
 
-   HH\-suite3 for fast remote homology detection and deep protein annotation
+   HH\-suite3 for fast remote homology detection and deep protein annotation.
 
    :homepage: https://github.com/soedinglab/hh-suite
    :documentation: https://github.com/soedinglab/hh-suite/wiki
    
-   :license: GPLv3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`hhsuite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hhsuite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hhsuite/meta.yaml>`_
    :links: doi: :doi:`10.1186/s12859-019-3019-7`, biotools: :biotools:`hh-suite`
 
@@ -31,10 +31,10 @@ hhsuite
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.3.0-14</code>,  <code>3.3.0-13</code>,  <code>3.3.0-12</code>,  <code>3.3.0-11</code>,  <code>3.3.0-10</code>,  <code>3.3.0-9</code>,  <code>3.3.0-8</code>,  <code>3.3.0-6</code>,  <code>3.3.0-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.3.0-15</code>,  <code>3.3.0-14</code>,  <code>3.3.0-13</code>,  <code>3.3.0-12</code>,  <code>3.3.0-11</code>,  <code>3.3.0-10</code>,  <code>3.3.0-9</code>,  <code>3.3.0-8</code>,  <code>3.3.0-6</code>,  </span></summary>
       
 
-      ``3.3.0-14``,  ``3.3.0-13``,  ``3.3.0-12``,  ``3.3.0-11``,  ``3.3.0-10``,  ``3.3.0-9``,  ``3.3.0-8``,  ``3.3.0-6``,  ``3.3.0-5``,  ``3.3.0-4``,  ``3.3.0-3``,  ``3.3.0-2``,  ``3.3.0-1``,  ``3.3.0-0``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``,  ``v3.2.0-0``
+      ``3.3.0-15``,  ``3.3.0-14``,  ``3.3.0-13``,  ``3.3.0-12``,  ``3.3.0-11``,  ``3.3.0-10``,  ``3.3.0-9``,  ``3.3.0-8``,  ``3.3.0-6``,  ``3.3.0-5``,  ``3.3.0-4``,  ``3.3.0-3``,  ``3.3.0-2``,  ``3.3.0-1``,  ``3.3.0-0``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``,  ``v3.2.0-0``
 
       
       .. raw:: html
@@ -43,19 +43,19 @@ hhsuite
       
 
    
-   :depends libcxx: ``>=18``
-   :depends llvm-openmp: ``>=18.1.8``
-   :depends llvm-openmp: ``>=19.1.5``
-   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=13``
+   :depends perl: 
+   :depends python: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

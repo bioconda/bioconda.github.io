@@ -27,14 +27,14 @@ crossfilt
       
       
 
-      ``0.1.1-0``
+      ``0.1.3-0``,  ``0.1.1-0``
 
       
 
    
    :depends intervaltree: 
    :depends pysam: 
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.10``
    :requirements:
 
    :additional platforms:
@@ -85,7 +85,7 @@ crossfilt
 
     <script>
         var package = "crossfilt";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.3","0.1.1"];
     </script>
 
 

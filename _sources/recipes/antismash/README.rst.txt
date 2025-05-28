@@ -34,10 +34,10 @@ antismash
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>8.0.0-1</code>,  <code>8.0.0-0</code>,  <code>7.1.0-1</code>,  <code>7.1.0-0</code>,  <code>6.1.1-0</code>,  <code>6.1.0-0</code>,  <code>6.0.1-0</code>,  <code>6.0.0-0</code>,  <code>5.1.2-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>8.0.1-0</code>,  <code>8.0.0-1</code>,  <code>8.0.0-0</code>,  <code>7.1.0-1</code>,  <code>7.1.0-0</code>,  <code>6.1.1-0</code>,  <code>6.1.0-0</code>,  <code>6.0.1-0</code>,  <code>6.0.0-0</code>,  </span></summary>
       
 
-      ``8.0.0-1``,  ``8.0.0-0``,  ``7.1.0-1``,  ``7.1.0-0``,  ``6.1.1-0``,  ``6.1.0-0``,  ``6.0.1-0``,  ``6.0.0-0``,  ``5.1.2-4``,  ``5.1.2-3``,  ``5.1.2-2``,  ``5.1.2-1``,  ``5.1.2-0``,  ``5.1.1-0``,  ``4.2.0-2``,  ``4.2.0-1``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.2-3``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.1-1``
+      ``8.0.1-0``,  ``8.0.0-1``,  ``8.0.0-0``,  ``7.1.0-1``,  ``7.1.0-0``,  ``6.1.1-0``,  ``6.1.0-0``,  ``6.0.1-0``,  ``6.0.0-0``,  ``5.1.2-4``,  ``5.1.2-3``,  ``5.1.2-2``,  ``5.1.2-1``,  ``5.1.2-0``,  ``5.1.1-0``,  ``4.2.0-2``,  ``4.2.0-1``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.2-3``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.1-1``
 
       
       .. raw:: html
@@ -58,7 +58,7 @@ antismash
    :depends jinja2: ``3.1.6``
    :depends joblib: ``1.4.2``
    :depends jsonschema: ``4.14.0``
-   :depends libsass: 
+   :depends libsass: ``0.22.0``
    :depends markupsafe: ``3.0.2``
    :depends matplotlib-base: ``3.10.1``
    :depends moods: ``1.9.4.2``
@@ -119,7 +119,7 @@ antismash
 
     <script>
         var package = "antismash";
-        var versions = ["8.0.0","8.0.0","7.1.0","7.1.0","6.1.1"];
+        var versions = ["8.0.1","8.0.0","8.0.0","7.1.0","7.1.0"];
     </script>
 
 

@@ -33,7 +33,7 @@ openstructure
       
       
 
-      ``2.10.0-0``,  ``2.9.3-0``
+      ``2.10.0-1``,  ``2.10.0-0``,  ``2.9.3-0``
 
       
 
@@ -42,8 +42,8 @@ openstructure
    :depends fftw: ``>=3.3.10,<4.0a0``
    :depends glew: ``>=2.1.0,<2.2.0a0``
    :depends glfw: ``>=3.4,<4.0a0``
-   :depends libboost: ``1.85.0``
-   :depends libboost-python: ``1.85.0``
+   :depends libboost: ``>=1.86.0,<1.87.0a0``
+   :depends libboost-python: ``>=1.86.0,<1.87.0a0``
    :depends libegl: ``>=1.7.0,<2.0a0``
    :depends libgcc: ``>=13``
    :depends libgfortran: 
@@ -63,10 +63,10 @@ openstructure
    :depends ocl-icd: ``>=2.3.3,<3.0a0``
    :depends pandas: ``>=2.2.3,<3.0a0``
    :depends parasail: ``>=2.6.2,<3.0a0``
-   :depends pyqt: ``>=5.15.9,<5.16.0a0``
+   :depends pyqt: ``>=5.15.11,<5.16.0a0``
    :depends python: ``>=3.12,<3.13.0a0``
    :depends python_abi: ``3.12.* *_cp312``
-   :depends qt: ``>=5.15.8,<5.16.0a0``
+   :depends qt: ``>=5.15.15,<5.16.0a0``
    :depends scipy: ``>=1.15.2,<2.0a0``
    :depends voronota: ``>=1.29.4370,<2.0a0``
    :requirements:
@@ -123,7 +123,7 @@ openstructure
 
     <script>
         var package = "openstructure";
-        var versions = ["2.10.0","2.9.3"];
+        var versions = ["2.10.0","2.10.0","2.9.3"];
     </script>
 
 

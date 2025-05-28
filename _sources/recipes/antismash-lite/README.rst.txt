@@ -33,7 +33,7 @@ antismash-lite
       
       
 
-      ``8.0.0-0``,  ``7.1.0-0``,  ``6.1.1-1``,  ``6.1.1-0``,  ``6.1.0-0``,  ``6.0.1-1``,  ``6.0.1-0``
+      ``8.0.1-0``,  ``8.0.0-0``,  ``7.1.0-0``,  ``6.1.1-1``,  ``6.1.1-0``,  ``6.1.0-0``,  ``6.0.1-1``,  ``6.0.1-0``
 
       
 
@@ -50,7 +50,7 @@ antismash-lite
    :depends jinja2: ``3.1.6``
    :depends joblib: ``1.4.2``
    :depends jsonschema: ``4.14.0``
-   :depends libsass: ``0.22``
+   :depends libsass: ``0.22.0``
    :depends markupsafe: ``3.0.2``
    :depends matplotlib-base: ``3.10.1``
    :depends moods: ``1.9.4.2``
@@ -111,7 +111,7 @@ antismash-lite
 
     <script>
         var package = "antismash-lite";
-        var versions = ["8.0.0","7.1.0","6.1.1","6.1.1","6.1.0"];
+        var versions = ["8.0.1","8.0.0","7.1.0","6.1.1","6.1.1"];
     </script>
 
 

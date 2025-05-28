@@ -10,7 +10,7 @@ metagraph
    :replaces_section_title:
    :noindex:
 
-   Ultra Scalable Framework for DNA Search\, Alignment\, Assembly
+   Ultra Scalable Framework for DNA Search\, Alignment\, Assembly.
 
    :homepage: https://github.com/ratschlab/metagraph
    :documentation: https://metagraph.ethz.ch
@@ -31,10 +31,10 @@ metagraph
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.6-4</code>,  <code>0.3.6-3</code>,  <code>0.3.6-2</code>,  <code>0.3.6-1</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-1</code>,  <code>0.3.4-0</code>,  <code>0.3.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.3-0</code>,  <code>0.3.6-4</code>,  <code>0.3.6-3</code>,  <code>0.3.6-2</code>,  <code>0.3.6-1</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-1</code>,  <code>0.3.4-0</code>,  </span></summary>
       
 
-      ``0.3.6-4``,  ``0.3.6-3``,  ``0.3.6-2``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.2.0-0``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.4.3-0``,  ``0.3.6-4``,  ``0.3.6-3``,  ``0.3.6-2``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.2.0-0``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -44,16 +44,21 @@ metagraph
 
    
    :depends _openmp_mutex: ``>=4.5``
+   :depends boost-cpp: ``1.71.0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.20,<1.22.0a0``
+   :depends htslib: ``>=1.21,<1.22.0a0``
    :depends jemalloc: 
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends libgomp: 
    :depends libjemalloc: ``>=5.3.0``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -101,7 +106,7 @@ metagraph
 
     <script>
         var package = "metagraph";
-        var versions = ["0.3.6","0.3.6","0.3.6","0.3.6","0.3.6"];
+        var versions = ["0.4.3","0.3.6","0.3.6","0.3.6","0.3.6"];
     </script>
 
 
