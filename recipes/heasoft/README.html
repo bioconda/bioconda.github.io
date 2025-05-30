@@ -127,7 +127,96 @@ cp -r heasoft-6.35.1/Xspec/src/spectral/modelData $CONDA_PREFIX/spectral/
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/heasoft"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/heasoft.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/heasoft"><img alt="docker_heasoft" src="https://quay.io/repository/biocontainers/heasoft/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">6.35.1-0</span></code></p>
+</dd>
+<dt class="field-even">depends astropy<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=6.1.4</span></code></p>
+</dd>
+<dt class="field-odd">depends astropy-iers-data<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends curl<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=8.13.0,&lt;9.0a0</span></code></p>
+</dd>
+<dt class="field-odd">depends gsl<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.7,&lt;2.8.0a0</span></code></p>
+</dd>
+<dt class="field-even">depends gsl<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.7,&lt;3.0a0</span></code></p>
+</dd>
+<dt class="field-odd">depends libgcc<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
+</dd>
+<dt class="field-even">depends libgcc-ng<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=15.1.0,&lt;16.0a0</span></code></p>
+</dd>
+<dt class="field-odd">depends libgfortran<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends libgfortran-ng<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=15.1.0,&lt;16.0a0</span></code></p>
+</dd>
+<dt class="field-odd">depends libgfortran5<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13.3.0</span></code></p>
+</dd>
+<dt class="field-even">depends libpng<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.6.47,&lt;1.7.0a0</span></code></p>
+</dd>
+<dt class="field-odd">depends libpng<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.6.47,&lt;2.0a0</span></code></p>
+</dd>
+<dt class="field-even">depends libstdcxx<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
+</dd>
+<dt class="field-odd">depends libstdcxx-ng<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=15.1.0,&lt;16.0a0</span></code></p>
+</dd>
+<dt class="field-even">depends libzlib<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.3.1,&lt;2.0a0</span></code></p>
+</dd>
+<dt class="field-odd">depends matplotlib-base<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.9.2</span></code></p>
+</dd>
+<dt class="field-even">depends ncurses<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=6.5,&lt;7.0a0</span></code></p>
+</dd>
+<dt class="field-odd">depends numpy<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.21,&lt;3</span></code></p>
+</dd>
+<dt class="field-even">depends numpy<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.2.6,&lt;3.0a0</span></code></p>
+</dd>
+<dt class="field-odd">depends perl<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=5.32.1</span></code></p>
+</dd>
+<dt class="field-even">depends python<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.13,&lt;3.14.0a0</span></code></p>
+</dd>
+<dt class="field-odd">depends python_abi<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">3.13.* *_cp313</span></code></p>
+</dd>
+<dt class="field-even">depends readline<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=8.2,&lt;9.0a0</span></code></p>
+</dd>
+<dt class="field-odd">depends scipy<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.14.1</span></code></p>
+</dd>
+<dt class="field-even">depends xorg-libx11<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.8.12,&lt;2.0a0</span></code></p>
+</dd>
+<dt class="field-odd">depends xorg-libxext<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.3.6,&lt;2.0a0</span></code></p>
+</dd>
+<dt class="field-even">depends xorg-libxt<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.3.1,&lt;2.0a0</span></code></p>
+</dd>
+<dt class="field-odd">depends xorg-xextproto<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=7.3.0,&lt;8.0a0</span></code></p>
+</dd>
+<dt class="field-even">depends xorg-xproto<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=7.0.31,&lt;8.0a0</span></code></p>
+</dd>
+<dt class="field-odd">depends zlib<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.3.1,&lt;2.0a0</span></code></p>
+</dd>
 <dt class="field-even">requirements<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">additional platforms<span class="colon">:</span></dt>
@@ -166,7 +255,7 @@ others.</p>
 
 <script>
     var package = "heasoft";
-    var versions = [];
+    var versions = ["6.35.1"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

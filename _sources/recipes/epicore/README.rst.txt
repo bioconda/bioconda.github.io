@@ -27,7 +27,7 @@ epicore
       
       
 
-      ``0.1.3-0``,  ``0.1.2-0``
+      ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
 
@@ -35,6 +35,7 @@ epicore
    :depends biopython: ``>=1.80``
    :depends click: ``>=8.1``
    :depends matplotlib-base: ``>=3.4``
+   :depends mpld3: 
    :depends numpy: ``>=2``
    :depends openpyxl: ``>=3.1.3``
    :depends pandas: ``>=2``
@@ -90,7 +91,7 @@ epicore
 
     <script>
         var package = "epicore";
-        var versions = ["0.1.3","0.1.2"];
+        var versions = ["0.1.4","0.1.3","0.1.2"];
     </script>
 
 

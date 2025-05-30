@@ -36,14 +36,14 @@ msfragger
       
       
 
-      ``4.1-0``,  ``4.0-1``,  ``4.0-0``
+      ``4.2-0``,  ``4.1-0``,  ``4.0-1``,  ``4.0-0``
 
       
 
    
    :depends mono: ``>=5,<6``
    :depends openjdk: ``>=11``
-   :depends python: ``>=3.9``
+   :depends python: ``3.11.*``
    :depends zlib: ``>=1.2.13``
    :requirements:
 
@@ -95,7 +95,7 @@ msfragger
 
     <script>
         var package = "msfragger";
-        var versions = ["4.1","4.0","4.0"];
+        var versions = ["4.2","4.1","4.0","4.0"];
     </script>
 
 

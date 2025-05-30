@@ -21,7 +21,7 @@ ionquant
    It enables label\-free quantification with false discovery \(FDR\) controlled match\-between\-runs \(MBR\).
    It can also be used for quantification in labelling\-based experiments such as those involving SILAC\, dimethyl\, or similar labelling strategies.
 
-   IonQuant is available freely for academic research and educational purposes only\, in accordance with the terms at https\:\/\/msfragger.arsci.com\/ionquant\/IonQuant\%20Academic\%20Use\%20License\%2005162022.pdf.
+   IonQuant is available freely for academic research and educational purposes only\, in accordance with the terms at https\:\/\/msfragger.arsci.com\/upgrader\/LICENSE\-ACADEMIC.pdf.
 
 
 
@@ -33,13 +33,13 @@ ionquant
       
       
 
-      ``1.10.27-0``,  ``1.10.12-1``,  ``1.10.12-0``
+      ``1.11.9-0``,  ``1.10.27-0``,  ``1.10.12-1``,  ``1.10.12-0``
 
       
 
    
    :depends openjdk: ``>=11``
-   :depends python: ``>=3.9``
+   :depends python: ``3.11.*``
    :requirements:
 
    :additional platforms:
@@ -90,7 +90,7 @@ ionquant
 
     <script>
         var package = "ionquant";
-        var versions = ["1.10.27","1.10.12","1.10.12"];
+        var versions = ["1.11.9","1.10.27","1.10.12","1.10.12"];
     </script>
 
 

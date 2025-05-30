@@ -10,11 +10,14 @@ metabat2
    :replaces_section_title:
    :noindex:
 
-   Metagenome binning
+   Metagenome binning.
 
    :homepage: https://bitbucket.org/berkeleylab/metabat
-   :license: BSD-3-Clause-LBNL
+   :documentation: https://bitbucket.org/berkeleylab/metabat/src/v2.18/README.md
+   
+   :license: BSD / BSD-3-Clause-LBNL
    :recipe: /`metabat2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metabat2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metabat2/meta.yaml>`_
+   :links: doi: :doi:`10.7717/peerj.1165`, biotools: :biotools:`MetaBAT_2`, usegalaxy-eu: :usegalaxy-eu:`metabat2`
 
    
 
@@ -28,10 +31,10 @@ metabat2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.17-1</code>,  <code>2.17-0</code>,  <code>2.15-2</code>,  <code>2.15-1</code>,  <code>2.15-0</code>,  <code>2.14-0</code>,  <code>2.13-1</code>,  <code>2.13-0</code>,  <code>2.12.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.18-0</code>,  <code>2.17-1</code>,  <code>2.17-0</code>,  <code>2.15-2</code>,  <code>2.15-1</code>,  <code>2.15-0</code>,  <code>2.14-0</code>,  <code>2.13-1</code>,  <code>2.13-0</code>,  </span></summary>
       
 
-      ``2.17-1``,  ``2.17-0``,  ``2.15-2``,  ``2.15-1``,  ``2.15-0``,  ``2.14-0``,  ``2.13-1``,  ``2.13-0``,  ``2.12.1-1``,  ``2.12.1-0``
+      ``2.18-0``,  ``2.17-1``,  ``2.17-0``,  ``2.15-2``,  ``2.15-1``,  ``2.15-0``,  ``2.14-0``,  ``2.13-1``,  ``2.13-0``,  ``2.12.1-1``,  ``2.12.1-0``
 
       
       .. raw:: html
@@ -45,9 +48,10 @@ metabat2
    :depends htslib: ``>=1.21,<1.22.0a0``
    :depends libdeflate: ``>=1.22,<1.23.0a0``
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends perl: ``>=5``
+   :depends perl: 
    :requirements:
 
    :additional platforms:
@@ -102,7 +106,7 @@ metabat2
 
     <script>
         var package = "metabat2";
-        var versions = ["2.17","2.17","2.15","2.15","2.15"];
+        var versions = ["2.18","2.17","2.17","2.15","2.15"];
     </script>
 
 

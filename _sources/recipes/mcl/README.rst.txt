@@ -32,10 +32,10 @@ mcl
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>22.282-3</code>,  <code>22.282-2</code>,  <code>22.282-1</code>,  <code>22.282-0</code>,  <code>14.137-9</code>,  <code>14.137-8</code>,  <code>14.137-7</code>,  <code>14.137-6</code>,  <code>14.137-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>22.282-4</code>,  <code>22.282-3</code>,  <code>22.282-2</code>,  <code>22.282-1</code>,  <code>22.282-0</code>,  <code>14.137-9</code>,  <code>14.137-8</code>,  <code>14.137-7</code>,  <code>14.137-6</code>,  </span></summary>
       
 
-      ``22.282-3``,  ``22.282-2``,  ``22.282-1``,  ``22.282-0``,  ``14.137-9``,  ``14.137-8``,  ``14.137-7``,  ``14.137-6``,  ``14.137-5``,  ``14.137-4``,  ``14.137-3``,  ``14.137-2``,  ``14.137-1``,  ``14.137-0``
+      ``22.282-4``,  ``22.282-3``,  ``22.282-2``,  ``22.282-1``,  ``22.282-0``,  ``14.137-9``,  ``14.137-8``,  ``14.137-7``,  ``14.137-6``,  ``14.137-5``,  ``14.137-4``,  ``14.137-3``,  ``14.137-2``,  ``14.137-1``,  ``14.137-0``
 
       
       .. raw:: html
@@ -52,7 +52,7 @@ mcl
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -100,7 +100,7 @@ mcl
 
     <script>
         var package = "mcl";
-        var versions = ["22.282","22.282","22.282","22.282","14.137"];
+        var versions = ["22.282","22.282","22.282","22.282","22.282"];
     </script>
 
 

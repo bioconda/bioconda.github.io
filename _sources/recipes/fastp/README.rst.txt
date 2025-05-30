@@ -13,7 +13,7 @@ fastp
    A ultra\-fast FASTQ preprocessor with full features \(QC\/adapters\/trimming\/filtering\/splitting...\).
 
    :homepage: https://github.com/OpenGene/fastp
-   :documentation: https://github.com/OpenGene/fastp/blob/v0.24.2/README.md
+   :documentation: https://github.com/OpenGene/fastp/blob/v0.24.3/README.md
    
    :license: MIT / MIT
    :recipe: /`fastp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastp/meta.yaml>`_
@@ -31,10 +31,10 @@ fastp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.24.2-0</code>,  <code>0.24.1-0</code>,  <code>0.24.0-1</code>,  <code>0.24.0-0</code>,  <code>0.23.4-5</code>,  <code>0.23.4-4</code>,  <code>0.23.4-3</code>,  <code>0.23.4-2</code>,  <code>0.23.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.24.3-0</code>,  <code>0.24.2-0</code>,  <code>0.24.1-0</code>,  <code>0.24.0-1</code>,  <code>0.24.0-0</code>,  <code>0.23.4-5</code>,  <code>0.23.4-4</code>,  <code>0.23.4-3</code>,  <code>0.23.4-2</code>,  </span></summary>
       
 
-      ``0.24.2-0``,  ``0.24.1-0``,  ``0.24.0-1``,  ``0.24.0-0``,  ``0.23.4-5``,  ``0.23.4-4``,  ``0.23.4-3``,  ``0.23.4-2``,  ``0.23.4-1``,  ``0.23.4-0``,  ``0.23.3-0``,  ``0.23.2-5``,  ``0.23.2-4``,  ``0.23.2-3``,  ``0.23.2-2``,  ``0.23.2-1``,  ``0.23.2-0``,  ``0.23.1-0``,  ``0.23.0-0``,  ``0.22.0-0``,  ``0.20.1-1``,  ``0.20.1-0``,  ``0.20.0-0``,  ``0.19.7-0``,  ``0.19.6-0``,  ``0.19.5-0``,  ``0.19.4-0``,  ``0.19.3-0``,  ``0.18.0-0``,  ``0.17.1-0``,  ``0.17.0-0``,  ``0.14.1-0``,  ``0.13.1-0``,  ``0.12.5-0``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.12.2-1``,  ``0.12.2-0``
+      ``0.24.3-0``,  ``0.24.2-0``,  ``0.24.1-0``,  ``0.24.0-1``,  ``0.24.0-0``,  ``0.23.4-5``,  ``0.23.4-4``,  ``0.23.4-3``,  ``0.23.4-2``,  ``0.23.4-1``,  ``0.23.4-0``,  ``0.23.3-0``,  ``0.23.2-5``,  ``0.23.2-4``,  ``0.23.2-3``,  ``0.23.2-2``,  ``0.23.2-1``,  ``0.23.2-0``,  ``0.23.1-0``,  ``0.23.0-0``,  ``0.22.0-0``,  ``0.20.1-1``,  ``0.20.1-0``,  ``0.20.0-0``,  ``0.19.7-0``,  ``0.19.6-0``,  ``0.19.5-0``,  ``0.19.4-0``,  ``0.19.3-0``,  ``0.18.0-0``,  ``0.17.1-0``,  ``0.17.0-0``,  ``0.14.1-0``,  ``0.13.1-0``,  ``0.12.5-0``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.12.2-1``,  ``0.12.2-0``
 
       
       .. raw:: html
@@ -101,7 +101,7 @@ fastp
 
     <script>
         var package = "fastp";
-        var versions = ["0.24.2","0.24.1","0.24.0","0.24.0","0.23.4"];
+        var versions = ["0.24.3","0.24.2","0.24.1","0.24.0","0.24.0"];
     </script>
 
 

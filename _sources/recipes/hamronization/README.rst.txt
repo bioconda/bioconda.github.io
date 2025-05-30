@@ -13,9 +13,7 @@ hamronization
    Tool to convert and summarize AMR gene detection outputs using the hAMRonization specification
 
    :homepage: https://github.com/pha4ge/hAMRonization
-   :documentation: https://github.com/pha4ge/hAMRonization/blob/master/README.md
-   
-   :license: LGPL / GNU Lesser General Public v3 (LGPLv3)
+   :license: LGPL-3.0-only
    :recipe: /`hamronization <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hamronization>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hamronization/meta.yaml>`_
 
    
@@ -29,7 +27,7 @@ hamronization
       
       
 
-      ``1.1.4-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``
+      ``1.1.9-0``,  ``1.1.4-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``
 
       
 
@@ -86,7 +84,7 @@ hamronization
 
     <script>
         var package = "hamronization";
-        var versions = ["1.1.4","1.1.1","1.1.0","1.0.3"];
+        var versions = ["1.1.9","1.1.4","1.1.1","1.1.0","1.0.3"];
     </script>
 
 

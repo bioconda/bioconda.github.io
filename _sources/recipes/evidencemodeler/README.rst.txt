@@ -10,10 +10,10 @@ evidencemodeler
    :replaces_section_title:
    :noindex:
 
-   Evidence Modeler combines ab intio gene predictions\, protein alignments\, and transcript alignments into weighted consensus gene structures
+   Evidence Modeler combines ab intio gene predictions\, protein alignments\, and transcript alignments into weighted consensus gene structures.
 
    :homepage: https://github.com/EVidenceModeler/EVidenceModeler
-   :license: BSD / BSD 3-Clause
+   :license: BSD / BSD-3-Clause
    :recipe: /`evidencemodeler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/evidencemodeler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/evidencemodeler/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ evidencemodeler
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.0-4</code>,  <code>2.1.0-3</code>,  <code>2.1.0-2</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>1.1.1-3</code>,  <code>1.1.1-2</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.0-5</code>,  <code>2.1.0-4</code>,  <code>2.1.0-3</code>,  <code>2.1.0-2</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>1.1.1-3</code>,  <code>1.1.1-2</code>,  <code>1.1.1-1</code>,  </span></summary>
       
 
-      ``2.1.0-4``,  ``2.1.0-3``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``v1.1.1-0``
+      ``2.1.0-5``,  ``2.1.0-4``,  ``2.1.0-3``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``v1.1.1-0``
 
       
       .. raw:: html
@@ -42,6 +42,7 @@ evidencemodeler
    
    :depends _openmp_mutex: ``>=4.5``
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libstdcxx: ``>=13``
    :depends perl: 
    :depends perl-carp: 
@@ -51,6 +52,10 @@ evidencemodeler
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

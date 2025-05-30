@@ -29,10 +29,10 @@ bioconductor-decipher
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.0-0</code>,  <code>2.30.0-1</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-1</code>,  <code>2.26.0-0</code>,  <code>2.22.0-2</code>,  <code>2.22.0-1</code>,  <code>2.22.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>2.30.0-1</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-1</code>,  <code>2.26.0-0</code>,  <code>2.22.0-2</code>,  <code>2.22.0-1</code>,  </span></summary>
       
 
-      ``3.2.0-0``,  ``2.30.0-1``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-1``,  ``2.26.0-0``,  ``2.22.0-2``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.1-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.10.0-0``,  ``2.8.1-0``,  ``2.6.0-1``,  ``2.6.0-0``
+      ``3.2.0-1``,  ``3.2.0-0``,  ``2.30.0-1``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-1``,  ``2.26.0-0``,  ``2.22.0-2``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.1-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.10.0-0``,  ``2.8.1-0``,  ``2.6.0-1``,  ``2.6.0-0``
 
       
       .. raw:: html
@@ -60,7 +60,7 @@ bioconductor-decipher
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -108,7 +108,7 @@ bioconductor-decipher
 
     <script>
         var package = "bioconductor-decipher";
-        var versions = ["3.2.0","2.30.0","2.30.0","2.28.0","2.26.0"];
+        var versions = ["3.2.0","3.2.0","2.30.0","2.30.0","2.28.0"];
     </script>
 
 

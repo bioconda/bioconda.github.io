@@ -12,9 +12,10 @@ entrez-direct
 
    Entrez Direct \(EDirect\) is an advanced method for accessing the NCBI\'s set of interconnected databases \(publication\, sequence\, structure\, gene\, variation\, expression\, etc.\) from a UNIX terminal window. Functions take search terms from command\-line arguments. Individual operations are combined to build multi\-step queries. Record retrieval and formatting normally complete the process.
 
-   :homepage: https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/22.4.20240717/README
-   :license: PUBLIC DOMAIN
+   :homepage: https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/24.0.20250527/README
+   :license: Public Domain
    :recipe: /`entrez-direct <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/entrez-direct>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/entrez-direct/meta.yaml>`_
+   :links: biotools: :biotools:`entrez`
 
    
 
@@ -28,10 +29,10 @@ entrez-direct
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>22.4-0</code>,  <code>22.1-0</code>,  <code>21.6-0</code>,  <code>16.2-1</code>,  <code>16.2-0</code>,  <code>15.6-1</code>,  <code>15.6-0</code>,  <code>13.9-2</code>,  <code>13.9-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>24.0-0</code>,  <code>22.4-0</code>,  <code>22.1-0</code>,  <code>21.6-0</code>,  <code>16.2-1</code>,  <code>16.2-0</code>,  <code>15.6-1</code>,  <code>15.6-0</code>,  <code>13.9-2</code>,  </span></summary>
       
 
-      ``22.4-0``,  ``22.1-0``,  ``21.6-0``,  ``16.2-1``,  ``16.2-0``,  ``15.6-1``,  ``15.6-0``,  ``13.9-2``,  ``13.9-1``,  ``13.9-0``,  ``13.8-0``,  ``13.3-0``,  ``11.0-2``,  ``11.0-1``,  ``11.0-0``,  ``10.2-0``,  ``10.0-0``,  ``7.70-2``,  ``7.70-1``,  ``7.70-0``,  ``7.00-1``,  ``7.00-0``,  ``5.80-0``,  ``4.00-1``,  ``4.00-0``
+      ``24.0-0``,  ``22.4-0``,  ``22.1-0``,  ``21.6-0``,  ``16.2-1``,  ``16.2-0``,  ``15.6-1``,  ``15.6-0``,  ``13.9-2``,  ``13.9-1``,  ``13.9-0``,  ``13.8-0``,  ``13.3-0``,  ``11.0-2``,  ``11.0-1``,  ``11.0-0``,  ``10.2-0``,  ``10.0-0``,  ``7.70-2``,  ``7.70-1``,  ``7.70-0``,  ``7.00-1``,  ``7.00-0``,  ``5.80-0``,  ``4.00-1``,  ``4.00-0``
 
       
       .. raw:: html
@@ -95,7 +96,7 @@ entrez-direct
 
     <script>
         var package = "entrez-direct";
-        var versions = ["22.4","22.1","21.6","16.2","16.2"];
+        var versions = ["24.0","22.4","22.1","21.6","16.2"];
     </script>
 
 

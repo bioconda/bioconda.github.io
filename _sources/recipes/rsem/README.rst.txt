@@ -12,8 +12,9 @@ rsem
 
    RSEM is a software package for estimating gene and isoform expression levels from RNA\-Seq data.
 
-   :homepage: https://deweylab.github.io/RSEM/
-   :license: GPL3
+   :homepage: https://deweylab.github.io/RSEM
+   :developer docs: https://github.com/deweylab/RSEM
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`rsem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rsem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rsem/meta.yaml>`_
    :links: doi: :doi:`10.1186/1471-2105-12-323`, biotools: :biotools:`rsem`
 
@@ -41,10 +42,10 @@ rsem
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.3-10</code>,  <code>1.3.3-9</code>,  <code>1.3.3-7</code>,  <code>1.3.3-6</code>,  <code>1.3.3-5</code>,  <code>1.3.3-4</code>,  <code>1.3.3-3</code>,  <code>1.3.3-2</code>,  <code>1.3.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.3-11</code>,  <code>1.3.3-10</code>,  <code>1.3.3-9</code>,  <code>1.3.3-7</code>,  <code>1.3.3-6</code>,  <code>1.3.3-5</code>,  <code>1.3.3-4</code>,  <code>1.3.3-3</code>,  <code>1.3.3-2</code>,  </span></summary>
       
 
-      ``1.3.3-10``,  ``1.3.3-9``,  ``1.3.3-7``,  ``1.3.3-6``,  ``1.3.3-5``,  ``1.3.3-4``,  ``1.3.3-3``,  ``1.3.3-2``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-4``,  ``1.3.0-3``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.28-2``,  ``1.2.28-0``,  ``1.2.22-0``,  ``1.2.21-5``,  ``1.2.21-4``,  ``1.2.21-3``
+      ``1.3.3-11``,  ``1.3.3-10``,  ``1.3.3-9``,  ``1.3.3-7``,  ``1.3.3-6``,  ``1.3.3-5``,  ``1.3.3-4``,  ``1.3.3-3``,  ``1.3.3-2``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-4``,  ``1.3.0-3``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.28-2``,  ``1.2.28-0``,  ``1.2.22-0``,  ``1.2.21-5``,  ``1.2.21-4``,  ``1.2.21-3``
 
       
       .. raw:: html
@@ -58,12 +59,12 @@ rsem
    :depends htslib: ``>=1.21,<1.22.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-module-build: ``0.4234.*``
    :depends r-base: 
    :depends samtools: 
    :depends ucsc-bigwigsummary: 
-   :depends zlib: 
    :requirements:
 
    :additional platforms:

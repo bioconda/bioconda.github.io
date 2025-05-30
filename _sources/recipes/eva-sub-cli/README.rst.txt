@@ -10,10 +10,12 @@ eva-sub-cli
    :replaces_section_title:
    :noindex:
 
-   EVA Submission Command Line Interface
+   EVA Submission Command Line Interface.
 
    :homepage: https://github.com/EBIvariation/eva-sub-cli
-   :license: Apache-2.0
+   :documentation: https://github.com/EBIvariation/eva-sub-cli/blob/main/docs/Getting_Started_with_eva_sub_cli.md
+   
+   :license: APACHE / Apache-2.0
    :recipe: /`eva-sub-cli <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eva-sub-cli>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eva-sub-cli/meta.yaml>`_
 
    
@@ -27,19 +29,19 @@ eva-sub-cli
       
       
 
-      ``0.4.6-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``
+      ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``
 
       
 
    
-   :depends ebi-eva-common-pyutils: ``>=0.6.1``
+   :depends ebi-eva-common-pyutils: ``>=0.7.1``
    :depends jinja2: 
    :depends jsonschema: 
-   :depends nextflow: ``>=21.10.0``
-   :depends nodejs: ``>=10.19.1``
+   :depends nextflow: ``>=23.10.1``
+   :depends nodejs: ``>=20.1.0``
    :depends openpyxl: 
    :depends packaging: 
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.6``
    :depends pyyaml: 
    :depends requests: 
    :depends vcf-validator: ``>=0.10.0``
@@ -93,7 +95,7 @@ eva-sub-cli
 
     <script>
         var package = "eva-sub-cli";
-        var versions = ["0.4.6","0.4.4","0.4.3","0.4.2","0.4.1"];
+        var versions = ["0.4.7","0.4.6","0.4.4","0.4.3","0.4.2"];
     </script>
 
 

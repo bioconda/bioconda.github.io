@@ -13,7 +13,7 @@ ucsc-wigtobigwig
    Convert ascii format wig file \(in fixedStep\, variableStep\).
 
    :homepage: https://hgdownload.cse.ucsc.edu/admin/exe
-   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/v472_base/README
+   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/v482_base/README
    
    :developer docs: https://github.com/ucscGenomeBrowser/kent
    :license: Varies; see https://genome.ucsc.edu/license
@@ -32,10 +32,10 @@ ucsc-wigtobigwig
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>472-2</code>,  <code>472-1</code>,  <code>472-0</code>,  <code>469-0</code>,  <code>447-2</code>,  <code>447-1</code>,  <code>447-0</code>,  <code>377-3</code>,  <code>377-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>482-0</code>,  <code>472-2</code>,  <code>472-1</code>,  <code>472-0</code>,  <code>469-0</code>,  <code>447-2</code>,  <code>447-1</code>,  <code>447-0</code>,  <code>377-3</code>,  </span></summary>
       
 
-      ``472-2``,  ``472-1``,  ``472-0``,  ``469-0``,  ``447-2``,  ``447-1``,  ``447-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-4``,  ``357-3``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``
+      ``482-0``,  ``472-2``,  ``472-1``,  ``472-0``,  ``469-0``,  ``447-2``,  ``447-1``,  ``447-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-4``,  ``357-3``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``,  ``324-0``
 
       
       .. raw:: html
@@ -44,9 +44,11 @@ ucsc-wigtobigwig
       
 
    
+   :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libgcc: ``>=13``
+   :depends liblzma: ``>=5.8.1,<6.0a0``
    :depends libopenssl-static: 
-   :depends libpng: ``>=1.6.44,<1.7.0a0``
+   :depends libpng: ``>=1.6.47,<1.7.0a0``
    :depends libuuid: ``>=2.38.1,<3.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
@@ -104,7 +106,7 @@ ucsc-wigtobigwig
 
     <script>
         var package = "ucsc-wigtobigwig";
-        var versions = ["472","472","472","469","447"];
+        var versions = ["482","472","472","472","469"];
     </script>
 
 

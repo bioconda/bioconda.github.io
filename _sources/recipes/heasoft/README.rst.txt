@@ -67,11 +67,41 @@ heasoft
       
       
 
-      
+      ``6.35.1-0``
 
       
 
    
+   :depends astropy: ``>=6.1.4``
+   :depends astropy-iers-data: 
+   :depends curl: ``>=8.13.0,<9.0a0``
+   :depends gsl: ``>=2.7,<2.8.0a0``
+   :depends gsl: ``>=2.7,<3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libgcc-ng: ``>=15.1.0,<16.0a0``
+   :depends libgfortran: 
+   :depends libgfortran-ng: ``>=15.1.0,<16.0a0``
+   :depends libgfortran5: ``>=13.3.0``
+   :depends libpng: ``>=1.6.47,<1.7.0a0``
+   :depends libpng: ``>=1.6.47,<2.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends libstdcxx-ng: ``>=15.1.0,<16.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends matplotlib-base: ``>=3.9.2``
+   :depends ncurses: ``>=6.5,<7.0a0``
+   :depends numpy: ``>=1.21,<3``
+   :depends numpy: ``>=2.2.6,<3.0a0``
+   :depends perl: ``>=5.32.1``
+   :depends python: ``>=3.13,<3.14.0a0``
+   :depends python_abi: ``3.13.* *_cp313``
+   :depends readline: ``>=8.2,<9.0a0``
+   :depends scipy: ``>=1.14.1``
+   :depends xorg-libx11: ``>=1.8.12,<2.0a0``
+   :depends xorg-libxext: ``>=1.3.6,<2.0a0``
+   :depends xorg-libxt: ``>=1.3.1,<2.0a0``
+   :depends xorg-xextproto: ``>=7.3.0,<8.0a0``
+   :depends xorg-xproto: ``>=7.0.31,<8.0a0``
+   :depends zlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -122,7 +152,7 @@ heasoft
 
     <script>
         var package = "heasoft";
-        var versions = [];
+        var versions = ["6.35.1"];
     </script>
 
 

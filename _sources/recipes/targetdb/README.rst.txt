@@ -10,10 +10,12 @@ targetdb
    :replaces_section_title:
    :noindex:
 
-   Package with an application to generate report on potential drug targets
+   Package with an application to generate report on potential drug targets.
 
    :homepage: https://github.com/sdecesco/targetDB
-   :license: GPL3 / GNU General Public v3 or later (GPLv3+)
+   :documentation: https://github.com/sdecesco/targetDB/blob/master/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`targetdb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/targetdb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/targetdb/meta.yaml>`_
 
    
@@ -27,26 +29,19 @@ targetdb
       
       
 
-      ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``
+      ``1.3.3-0``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``
 
       
 
    
    :depends biopython: ``<1.77``
-   :depends blast: 
-   :depends fpocket: 
    :depends intermine: 
    :depends matplotlib-base: 
-   :depends mysqlclient: 
-   :depends numpy: 
-   :depends opencv: 
-   :depends opentargets: 
-   :depends pandas: ``>=0.25.3``
-   :depends python: 
-   :depends requests: 
+   :depends pandas: ``>=0.21.0``
+   :depends python: ``>=3.4``
    :depends scikit-learn: 
    :depends scipy: 
-   :depends seaborn: 
+   :depends xlsxwriter: 
    :depends xmltodict: 
    :requirements:
 
@@ -98,7 +93,7 @@ targetdb
 
     <script>
         var package = "targetdb";
-        var versions = ["1.3.1","1.3.0","1.3.0"];
+        var versions = ["1.3.3","1.3.1","1.3.0","1.3.0"];
     </script>
 
 

@@ -30,11 +30,22 @@ rearr
       
       
 
-      
+      ``1.0.0-0``
 
       
 
    
+   :depends bedtools: 
+   :depends bowtie2: 
+   :depends cutadapt: 
+   :depends gawk: 
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends make: 
+   :depends numpy: 
+   :depends perl: 
+   :depends python: 
+   :depends samtools: 
    :requirements:
 
    :additional platforms:
@@ -85,7 +96,7 @@ rearr
 
     <script>
         var package = "rearr";
-        var versions = [];
+        var versions = ["1.0.0"];
     </script>
 
 

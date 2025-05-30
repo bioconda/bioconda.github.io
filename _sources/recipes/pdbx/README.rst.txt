@@ -10,18 +10,16 @@ pdbx
    :replaces_section_title:
    :noindex:
 
-   pdbx is a parser module in python for structures of the protein data bank in the mmcif format
+   A parser module in python for structures of the protein data bank in the mmcif format
 
-   :homepage: https://github.com/soedinglab/pdbx
-   :documentation: https://github.com/soedinglab/pdbx#readme
-   
-   :license: GPL3 / GPL-3.0-or-later
+   :homepage: https://mmcif.wwpdb.org/docs/sw-examples/python/html/index.html
+   :developer docs: https://github.com/soedinglab/pdbx
+   :license: UNKNOWN
    :recipe: /`pdbx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pdbx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pdbx/meta.yaml>`_
 
    Proper recognition to the \[Protein Data Bank\]\(http\:\/\/mmcif.wwpdb.org\/docs\/sw\-examples\/python\/html\/index.html\)
    where this library for protein structures in the mmCIF format initially came from.
-   We modified the original library to support python3.
-   This fork is used by scripts in the HHsuite \[on GitHub\]\(https\:\/\/github.com\/soedinglab\/hh\-suite\).
+   It is modified the original library to support python3.
 
 
 
@@ -33,15 +31,15 @@ pdbx
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``827b2a2-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends python: ``>=3.11,<3.12.0a0``
-   :depends python_abi: ``3.11.* *_cp311``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends python: ``>=3.13,<3.14.0a0``
+   :depends python_abi: ``3.13.* *_cp313``
    :requirements:
 
    :additional platforms:
@@ -96,7 +94,7 @@ pdbx
 
     <script>
         var package = "pdbx";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["827b2a2","1.0.0","1.0.0"];
     </script>
 
 

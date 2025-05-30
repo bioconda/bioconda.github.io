@@ -10,11 +10,14 @@ rtg-tools
    :replaces_section_title:
    :noindex:
 
-   RealTimeGenomics Tools \-\- Utilities for accurate VCF comparison and manipulation
+   RealTimeGenomics Tools \-\- Utilities for accurate VCF comparison and manipulation.
 
    :homepage: https://github.com/RealTimeGenomics/rtg-tools
-   :license: BSD
+   :documentation: https://realtimegenomics.github.io/rtg-tools/index.html
+   
+   :license: BSD / BSD-2-Clause
    :recipe: /`rtg-tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rtg-tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rtg-tools/meta.yaml>`_
+   :links: biotools: :biotools:`rtg_core`
 
    
 
@@ -28,10 +31,10 @@ rtg-tools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.12.1-1</code>,  <code>3.12.1-0</code>,  <code>3.12-1</code>,  <code>3.12-0</code>,  <code>3.11-0</code>,  <code>3.10.1-0</code>,  <code>3.10-0</code>,  <code>3.9.1-1</code>,  <code>3.9.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.13-0</code>,  <code>3.12.1-1</code>,  <code>3.12.1-0</code>,  <code>3.12-1</code>,  <code>3.12-0</code>,  <code>3.11-0</code>,  <code>3.10.1-0</code>,  <code>3.10-0</code>,  <code>3.9.1-1</code>,  </span></summary>
       
 
-      ``3.12.1-1``,  ``3.12.1-0``,  ``3.12-1``,  ``3.12-0``,  ``3.11-0``,  ``3.10.1-0``,  ``3.10-0``,  ``3.9.1-1``,  ``3.9.1-0``,  ``3.9-0``,  ``3.8.4-0``,  ``3.8.2-0``,  ``3.7.1-0``,  ``3.6-1``,  ``3.6-0``
+      ``3.13-0``,  ``3.12.1-1``,  ``3.12.1-0``,  ``3.12-1``,  ``3.12-0``,  ``3.11-0``,  ``3.10.1-0``,  ``3.10-0``,  ``3.9.1-1``,  ``3.9.1-0``,  ``3.9-0``,  ``3.8.4-0``,  ``3.8.2-0``,  ``3.7.1-0``,  ``3.6-1``,  ``3.6-0``
 
       
       .. raw:: html
@@ -94,7 +97,7 @@ rtg-tools
 
     <script>
         var package = "rtg-tools";
-        var versions = ["3.12.1","3.12.1","3.12","3.12","3.11"];
+        var versions = ["3.13","3.12.1","3.12.1","3.12","3.12"];
     </script>
 
 

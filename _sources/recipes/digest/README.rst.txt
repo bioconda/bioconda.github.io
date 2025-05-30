@@ -29,7 +29,7 @@ digest
       
       
 
-      ``0.2.0-0``
+      ``0.3.0-0``,  ``0.2.0-0``
 
       
 
@@ -93,7 +93,7 @@ digest
 
     <script>
         var package = "digest";
-        var versions = ["0.2.0"];
+        var versions = ["0.3.0","0.2.0"];
     </script>
 
 

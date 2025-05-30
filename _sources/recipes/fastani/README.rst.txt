@@ -13,8 +13,11 @@ fastani
    FastANI is developed for fast alignment\-free computation of whole\-genome Average Nucleotide Identity \(ANI\).
 
    :homepage: https://github.com/ParBLiSS/FastANI
-   :license: Apache / Apache-2.0
+   :documentation: https://github.com/ParBLiSS/FastANI/blob/v1.34/README.md
+   
+   :license: APACHE / Apache-2.0
    :recipe: /`fastani <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastani>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastani/meta.yaml>`_
+   :links: biotools: :biotools:`fastani`, usegalaxy-eu: :usegalaxy-eu:`fastani`, doi: :doi:`10.1038/s41467-018-07641-9`
 
    
 
@@ -28,10 +31,10 @@ fastani
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.34-5</code>,  <code>1.34-4</code>,  <code>1.34-3</code>,  <code>1.34-2</code>,  <code>1.34-1</code>,  <code>1.34-0</code>,  <code>1.33-3</code>,  <code>1.33-2</code>,  <code>1.33-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.34-6</code>,  <code>1.34-5</code>,  <code>1.34-4</code>,  <code>1.34-3</code>,  <code>1.34-2</code>,  <code>1.34-1</code>,  <code>1.34-0</code>,  <code>1.33-3</code>,  <code>1.33-2</code>,  </span></summary>
       
 
-      ``1.34-5``,  ``1.34-4``,  ``1.34-3``,  ``1.34-2``,  ``1.34-1``,  ``1.34-0``,  ``1.33-3``,  ``1.33-2``,  ``1.33-1``,  ``1.33-0``,  ``1.32-0``,  ``1.31-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-1``,  ``1.1-0``
+      ``1.34-6``,  ``1.34-5``,  ``1.34-4``,  ``1.34-3``,  ``1.34-2``,  ``1.34-1``,  ``1.34-0``,  ``1.33-3``,  ``1.33-2``,  ``1.33-1``,  ``1.33-0``,  ``1.32-0``,  ``1.31-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-1``,  ``1.1-0``
 
       
       .. raw:: html
@@ -43,9 +46,9 @@ fastani
    :depends _openmp_mutex: ``>=4.5``
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:

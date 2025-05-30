@@ -32,7 +32,7 @@ mmcif
       
       
 
-      ``0.91.0-0``
+      ``0.92.0-0``,  ``0.91.0-0``
 
       
 
@@ -99,7 +99,7 @@ mmcif
 
     <script>
         var package = "mmcif";
-        var versions = ["0.91.0"];
+        var versions = ["0.92.0","0.91.0"];
     </script>
 
 

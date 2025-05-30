@@ -35,12 +35,11 @@ dockq
 
    
    :depends biopython: ``>=1.79``
-   :depends libgcc: ``>=13``
    :depends networkx: 
    :depends numpy: ``>=1.26.4,<2.0a0``
    :depends parallelbar: 
-   :depends python: ``>=3.12,<3.13.0a0``
-   :depends python_abi: ``3.12.* *_cp312``
+   :depends python: ``>=3.11,<3.12.0a0``
+   :depends python_abi: ``3.11.* *_cp311``
    :requirements:
 
    :additional platforms:

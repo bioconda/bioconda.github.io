@@ -27,11 +27,13 @@ ezfastq
       
       
 
-      
+      ``0.1-0``
 
       
 
    
+   :depends python: ``>=3.10,<3.14``
+   :depends rich: 
    :requirements:
 
    :additional platforms:
@@ -82,7 +84,7 @@ ezfastq
 
     <script>
         var package = "ezfastq";
-        var versions = [];
+        var versions = ["0.1"];
     </script>
 
 
