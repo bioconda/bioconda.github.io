@@ -40,6 +40,7 @@ deepchopper
    :depends fastapi: ``0.112.2``
    :depends gradio: ``5.0.1``
    :depends hydra-core: ``>=1.3.2``
+   :depends libgcc: ``>=13``
    :depends lightning: ``>=2.1.2``
    :depends omegaconf: ``>=2.3.0``
    :depends python: ``>=3.10,<3.11.0a0``

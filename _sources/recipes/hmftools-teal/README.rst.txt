@@ -27,12 +27,13 @@ hmftools-teal
       
       
 
-      ``1.3.4-0``,  ``1.3.3-0``
+      ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``
 
       
 
    
    :depends openjdk: ``>=8,<=21``
+   :depends samtools: ``>=1.14``
    :depends zlib: 
    :requirements:
 
@@ -84,7 +85,7 @@ hmftools-teal
 
     <script>
         var package = "hmftools-teal";
-        var versions = ["1.3.4","1.3.3"];
+        var versions = ["1.3.5","1.3.4","1.3.3"];
     </script>
 
 

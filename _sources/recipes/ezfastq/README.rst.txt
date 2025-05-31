@@ -27,7 +27,7 @@ ezfastq
       
       
 
-      ``0.1-0``
+      ``0.1.1-0``,  ``0.1-0``
 
       
 
@@ -84,7 +84,7 @@ ezfastq
 
     <script>
         var package = "ezfastq";
-        var versions = ["0.1"];
+        var versions = ["0.1.1","0.1"];
     </script>
 
 
