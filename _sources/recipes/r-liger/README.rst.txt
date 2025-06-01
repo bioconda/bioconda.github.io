@@ -12,7 +12,7 @@ r-liger
 
    Uses an extension of nonnegative matrix factorization to identify shared and dataset\-specific factors. See Welch J\, Kozareva V\, et al \(2019\) \<doi\:10.1016\/j.cell.2019.05.006\>\, and Liu J\, Gao C\, Sodicoff J\, et al \(2020\) \<doi\:10.1038\/s41596\-020\-0391\-8\> for more details.
 
-   :homepage: https://github.com/MacoskoLab/liger
+   :homepage: https://github.com/welch-lab/liger
    :documentation: https://welch-lab.github.io/liger/index.html
    
    :license: GPL3 / GPL-3.0-or-later
@@ -31,10 +31,10 @@ r-liger
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>2.1.0-2</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.0-2</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.0-2</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  </span></summary>
       
 
-      ``2.2.0-0``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.1-0``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.5.0.9000-3``,  ``0.5.0.9000-2``,  ``0.5.0.9000-1``,  ``0.5.0.9000-0``,  ``0.4.2.9000-1``,  ``0.4.2.9000-0``
+      ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.1-0``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.5.0.9000-3``,  ``0.5.0.9000-2``,  ``0.5.0.9000-1``,  ``0.5.0.9000-0``,  ``0.4.2.9000-1``,  ``0.4.2.9000-0``
 
       
       .. raw:: html
@@ -43,6 +43,7 @@ r-liger
       
 
    
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0a0``
    :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0a0``
    :depends bioconductor-hdf5array: ``>=1.34.0,<1.35.0a0``
    :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
@@ -71,6 +72,10 @@ r-liger
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>osx-arm64</code>,  <code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -118,7 +123,7 @@ r-liger
 
     <script>
         var package = "r-liger";
-        var versions = ["2.2.0","2.1.0","2.1.0","2.1.0","2.0.1"];
+        var versions = ["2.2.0","2.2.0","2.2.0","2.1.0","2.1.0"];
     </script>
 
 
