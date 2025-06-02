@@ -29,10 +29,10 @@ seqtk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4-3</code>,  <code>1.4-2</code>,  <code>1.4-1</code>,  <code>1.4-0</code>,  <code>1.3-6</code>,  <code>1.3-5</code>,  <code>1.3-4</code>,  <code>1.3-3</code>,  <code>1.3-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5-0</code>,  <code>1.4-3</code>,  <code>1.4-2</code>,  <code>1.4-1</code>,  <code>1.4-0</code>,  <code>1.3-6</code>,  <code>1.3-5</code>,  <code>1.3-4</code>,  <code>1.3-3</code>,  </span></summary>
       
 
-      ``1.4-3``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``1.3-6``,  ``1.3-5``,  ``1.3-4``,  ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.2-1``,  ``1.2-0``,  ``r93-0``,  ``r82-1``,  ``r82-0``,  ``r75-0``
+      ``1.5-0``,  ``1.4-3``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``1.3-6``,  ``1.3-5``,  ``1.3-4``,  ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.2-1``,  ``1.2-0``,  ``r93-0``,  ``r82-1``,  ``r82-0``,  ``r75-0``
 
       
       .. raw:: html
@@ -98,7 +98,7 @@ seqtk
 
     <script>
         var package = "seqtk";
-        var versions = ["1.4","1.4","1.4","1.4","1.3"];
+        var versions = ["1.5","1.4","1.4","1.4","1.4"];
     </script>
 
 
