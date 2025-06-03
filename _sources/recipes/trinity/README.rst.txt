@@ -52,7 +52,7 @@ trinity
    :depends bioconductor-qvalue: 
    :depends bowtie2: ``>=2.3.0``
    :depends coreutils: 
-   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends htslib: ``>=1.21,<1.23.0a0``
    :depends kallisto: 
    :depends kmer-jellyfish: ``>=2.3``
    :depends libgcc: ``>=13``

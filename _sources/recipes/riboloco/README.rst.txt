@@ -10,9 +10,9 @@ riboloco
    :replaces_section_title:
    :noindex:
 
-   Riboseq analysis
+   Riboseq analysis.
 
-   :homepage: https://github.com/Delayed-Gitification/riboloco.git
+   :homepage: https://github.com/Delayed-Gitification/riboloco
    :license: MIT / MIT
    :recipe: /`riboloco <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/riboloco>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/riboloco/meta.yaml>`_
 
@@ -27,7 +27,7 @@ riboloco
       
       
 
-      ``0.3.9-0``
+      ``0.3.10-0``,  ``0.3.9-0``
 
       
 
@@ -36,10 +36,10 @@ riboloco
    :depends matplotlib-base: 
    :depends pandas: 
    :depends pysam: 
-   :depends python: 
+   :depends python: ``>=3``
    :depends scikit-learn: 
    :depends scipy: 
-   :depends seaborn: 
+   :depends seaborn-base: 
    :requirements:
 
    :additional platforms:
@@ -90,7 +90,7 @@ riboloco
 
     <script>
         var package = "riboloco";
-        var versions = ["0.3.9"];
+        var versions = ["0.3.10","0.3.9"];
     </script>
 
 

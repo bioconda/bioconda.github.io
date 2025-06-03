@@ -26,9 +26,17 @@ quota_anchor
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.1-0``,  ``1.0.0-0``,  ``1.0.0rc-0``,  ``0.0.1rc-0``,  ``0.0.1b2-1``,  ``0.0.1b2-0``,  ``0.0.1b1-0``,  ``0.0.1a1-0``,  ``0.0.1a0-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>1.0.0rc-0</code>,  <code>0.0.1rc-0</code>,  <code>0.0.1b2-1</code>,  <code>0.0.1b2-0</code>,  <code>0.0.1b1-0</code>,  <code>0.0.1a1-0</code>,  </span></summary>
+      
 
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``1.0.0rc-0``,  ``0.0.1rc-0``,  ``0.0.1b2-1``,  ``0.0.1b2-0``,  ``0.0.1b1-0``,  ``0.0.1a1-0``,  ``0.0.1a0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -100,7 +108,7 @@ quota_anchor
 
     <script>
         var package = "quota_anchor";
-        var versions = ["1.0.1","1.0.0","1.0.0rc","0.0.1rc","0.0.1b2"];
+        var versions = ["1.0.2","1.0.1","1.0.0","1.0.0rc","0.0.1rc"];
     </script>
 
 

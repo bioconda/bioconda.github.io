@@ -13,14 +13,15 @@ vcfx
    VCFX\: A Comprehensive VCF Manipulation Toolkit
 
    :homepage: https://github.com/jorgeMFS/VCFX
-   :documentation: https://jorgeMFS.github.io/VCFX/
+   :documentation: https://ieeta-pt.github.io/VCFX/
    
+   :developer docs: https://github.com/ieeta-pt/VCFX
    :license: MIT
    :recipe: /`vcfx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcfx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcfx/meta.yaml>`_
 
-   VCFX is a collection of specialized command\-line tools designed for efficient 
+   VCFX is a collection of specialized command\-line tools designed for efficient
    manipulation\, analysis\, and transformation of VCF \(Variant Call Format\) files
-   used in genomic research and bioinformatics. The toolkit follows the Unix 
+   used in genomic research and bioinformatics. The toolkit follows the Unix
    philosophy\, creating small\, focused tools that do one thing well and can be
    combined into powerful workflows.
 
@@ -34,7 +35,7 @@ vcfx
       
       
 
-      ``1.0.2-0``
+      ``1.0.3-0``,  ``1.0.2-0``
 
       
 
@@ -43,6 +44,8 @@ vcfx
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends zlib: 
    :requirements:
 
@@ -94,7 +97,7 @@ vcfx
 
     <script>
         var package = "vcfx";
-        var versions = ["1.0.2"];
+        var versions = ["1.0.3","1.0.2"];
     </script>
 
 

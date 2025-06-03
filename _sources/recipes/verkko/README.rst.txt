@@ -49,7 +49,7 @@ verkko
    :depends findutils: ``>=4.6.0``
    :depends graphaligner: ``>=1.0.19``
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends htslib: ``>=1.21,<1.23.0a0``
    :depends libgcc: ``>=12``
    :depends libgomp: 
    :depends libstdcxx: ``>=12``

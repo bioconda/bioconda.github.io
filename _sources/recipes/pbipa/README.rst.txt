@@ -41,7 +41,7 @@ pbipa
 
    
    :depends htslib: ``>=1.15``
-   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends htslib: ``>=1.21,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends minimap2: 

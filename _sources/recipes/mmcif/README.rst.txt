@@ -12,9 +12,7 @@ mmcif
 
    mmCIF Core Access Library
 
-   :homepage: http://mmcif.wwpdb.org
-   :documentation: https://github.com/rcsb/py-mmcif#mmcif-core-access-library
-   
+   :homepage: https://rcsb.github.io/py-mmcif
    :developer docs: https://github.com/rcsb/py-mmcif
    :license: BSD-3-Clause AND Apache-2.0
    :recipe: /`mmcif <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mmcif>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mmcif/meta.yaml>`_
@@ -32,7 +30,7 @@ mmcif
       
       
 
-      ``0.92.0-0``,  ``0.91.0-0``
+      ``0.92.0-1``,  ``0.92.0-0``,  ``0.91.0-0``
 
       
 
@@ -99,7 +97,7 @@ mmcif
 
     <script>
         var package = "mmcif";
-        var versions = ["0.92.0","0.91.0"];
+        var versions = ["0.92.0","0.92.0","0.91.0"];
     </script>
 
 

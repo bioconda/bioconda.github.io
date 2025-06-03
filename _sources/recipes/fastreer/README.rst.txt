@@ -10,10 +10,10 @@ fastreer
    :replaces_section_title:
    :noindex:
 
-   Phylogenetic\, distance\, and tree\-building utilities for VCF and FASTA files
+   Phylogenetic\, distance\, and tree\-building utilities for VCF and FASTA files.
 
    :homepage: https://github.com/gkanogiannis/fastreeR
-   :license: GPL / GPL-3.0-only
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`fastreer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastreer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastreer/meta.yaml>`_
    :links: doi: :doi:`10.1186/s12859-016-1186-3`
 
@@ -30,7 +30,7 @@ fastreer
       
       
 
-      ``1.13.30-0``,  ``1.13.26-0``,  ``1.13.23-0``
+      ``2.0.0-0``,  ``1.13.30-0``,  ``1.13.26-0``,  ``1.13.23-0``
 
       
 
@@ -87,7 +87,7 @@ fastreer
 
     <script>
         var package = "fastreer";
-        var versions = ["1.13.30","1.13.26","1.13.23"];
+        var versions = ["2.0.0","1.13.30","1.13.26","1.13.23"];
     </script>
 
 

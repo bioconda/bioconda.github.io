@@ -12,7 +12,7 @@ rucs
 
    RUCS is a bioinformatics tool developed to ease the task of designing new primers.
 
-   :homepage: https://bitbucket.org/genomicepidemiology/rucs/src/master/
+   :homepage: https://bitbucket.org/genomicepidemiology/rucs/src/master
    :documentation: https://cge.cbs.dtu.dk/services/rucs/instructions.php
    
    :license: APACHE / Apache-2.0
@@ -30,7 +30,7 @@ rucs
       
       
 
-      ``1.0.2-1``,  ``1.0.2-0``
+      ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
 
@@ -92,7 +92,7 @@ rucs
 
     <script>
         var package = "rucs";
-        var versions = ["1.0.2","1.0.2"];
+        var versions = ["1.0.3","1.0.2","1.0.2"];
     </script>
 
 

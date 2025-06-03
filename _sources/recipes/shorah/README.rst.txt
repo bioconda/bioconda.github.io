@@ -42,7 +42,7 @@ shorah
 
    
    :depends biopython: 
-   :depends htslib: ``>=1.17,<1.22.0a0``
+   :depends htslib: ``>=1.17,<1.23.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``

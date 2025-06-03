@@ -36,7 +36,7 @@ plinder
       
       
 
-      ``0.2.25-1``,  ``0.2.25-0``
+      ``0.2.25-2``,  ``0.2.25-1``,  ``0.2.25-0``
 
       
 
@@ -49,6 +49,7 @@ plinder
    :depends gemmi: 
    :depends google-cloud-storage: 
    :depends keyrings.google-artifactregistry-auth: 
+   :depends ligand-validation: 
    :depends mmcif: 
    :depends mmpdb: 
    :depends mmseqs2: 
@@ -124,7 +125,7 @@ plinder
 
     <script>
         var package = "plinder";
-        var versions = ["0.2.25","0.2.25"];
+        var versions = ["0.2.25","0.2.25","0.2.25"];
     </script>
 
 

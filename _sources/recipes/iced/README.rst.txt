@@ -30,10 +30,10 @@ iced
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.13-0</code>,  <code>0.5.10-2</code>,  <code>0.5.10-1</code>,  <code>0.5.10-0</code>,  <code>0.5.9-0</code>,  <code>0.5.8-1</code>,  <code>0.5.8-0</code>,  <code>0.5.6-3</code>,  <code>0.5.6-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.0-0</code>,  <code>0.5.13-0</code>,  <code>0.5.10-2</code>,  <code>0.5.10-1</code>,  <code>0.5.10-0</code>,  <code>0.5.9-0</code>,  <code>0.5.8-1</code>,  <code>0.5.8-0</code>,  <code>0.5.6-3</code>,  </span></summary>
       
 
-      ``0.5.13-0``,  ``0.5.10-2``,  ``0.5.10-1``,  ``0.5.10-0``,  ``0.5.9-0``,  ``0.5.8-1``,  ``0.5.8-0``,  ``0.5.6-3``,  ``0.5.6-2``,  ``0.5.6-1``,  ``0.5.6-0``,  ``0.5.4-0``,  ``0.5.2-0``,  ``0.5.0-0``,  ``0.4.2-0``
+      ``0.6.0-0``,  ``0.5.13-0``,  ``0.5.10-2``,  ``0.5.10-1``,  ``0.5.10-0``,  ``0.5.9-0``,  ``0.5.8-1``,  ``0.5.8-0``,  ``0.5.6-3``,  ``0.5.6-2``,  ``0.5.6-1``,  ``0.5.6-0``,  ``0.5.4-0``,  ``0.5.2-0``,  ``0.5.0-0``,  ``0.4.2-0``
 
       
       .. raw:: html
@@ -45,7 +45,7 @@ iced
    :depends libgcc: ``>=13``
    :depends matplotlib-base: 
    :depends numpy: ``>=1.21,<3``
-   :depends numpy: ``>=2.2.2,<3.0a0``
+   :depends numpy: ``>=2.2.6,<3.0a0``
    :depends pandas: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
@@ -105,7 +105,7 @@ iced
 
     <script>
         var package = "iced";
-        var versions = ["0.5.13","0.5.10","0.5.10","0.5.10","0.5.9"];
+        var versions = ["0.6.0","0.5.13","0.5.10","0.5.10","0.5.10"];
     </script>
 
 

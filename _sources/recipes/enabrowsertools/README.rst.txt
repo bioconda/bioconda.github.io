@@ -10,10 +10,10 @@ enabrowsertools
    :replaces_section_title:
    :noindex:
 
-   enaBrowserTools is a set of scripts that interface with the ENA web services to download data from ENA easily
+   enaBrowserTools is a set of scripts that interface with the ENA web services to download data from ENA easily.
 
    :homepage: https://github.com/enasequence/enaBrowserTools
-   :license: Apache-2.0
+   :license: APACHE / Apache-2.0
    :recipe: /`enabrowsertools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/enabrowsertools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/enabrowsertools/meta.yaml>`_
 
    
@@ -27,12 +27,13 @@ enabrowsertools
       
       
 
-      ``1.5.4-0``
+      ``1.7.1-0``,  ``1.5.4-0``
 
       
 
    
-   :depends python: 
+   :depends python: ``>=3,<3.12``
+   :depends requests: 
    :requirements:
 
    :additional platforms:
@@ -83,7 +84,7 @@ enabrowsertools
 
     <script>
         var package = "enabrowsertools";
-        var versions = ["1.5.4"];
+        var versions = ["1.7.1","1.5.4"];
     </script>
 
 

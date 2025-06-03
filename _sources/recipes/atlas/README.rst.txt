@@ -44,7 +44,7 @@ atlas
    :depends _openmp_mutex: ``>=4.5``
    :depends armadillo: ``>=14.4,<15.0a0``
    :depends fmt: ``>=10.2.1,<11.0a0``
-   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends htslib: ``>=1.21,<1.23.0a0``
    :depends jsoncpp: ``>=1.9.6,<1.9.7.0a0``
    :depends lapack: 
    :depends libgcc: ``>=13``

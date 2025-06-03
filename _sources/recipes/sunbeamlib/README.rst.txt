@@ -29,7 +29,7 @@ sunbeamlib
       
       
 
-      ``5.0.1-0``
+      ``5.0.4-0``,  ``5.0.1-0``
 
       
 
@@ -89,7 +89,7 @@ sunbeamlib
 
     <script>
         var package = "sunbeamlib";
-        var versions = ["5.0.1"];
+        var versions = ["5.0.4","5.0.1"];
     </script>
 
 

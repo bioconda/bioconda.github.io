@@ -48,7 +48,7 @@ orthanq
    :depends fontconfig: ``>=2.14.2,<3.0a0``
    :depends fonts-conda-ecosystem: 
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends htslib: ``>=1.21,<1.23.0a0``
    :depends libcblas: ``>=3.9.0,<4.0a0``
    :depends libgcc: ``>=13``
    :depends liblzma: ``>=5.8.1,<6.0a0``

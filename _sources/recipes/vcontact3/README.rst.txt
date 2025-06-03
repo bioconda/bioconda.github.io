@@ -10,12 +10,12 @@ vcontact3
    :replaces_section_title:
    :noindex:
 
-   Viral Contig Automatic Clustering and Taxonomy
+   Viral Contig Automatic Clustering and Taxonomy.
 
    :homepage: https://bitbucket.org/MAVERICLab/vcontact3
-   :documentation: https://bitbucket.org/MAVERICLab/vcontact3/src/master/README.md
+   :documentation: https://bitbucket.org/MAVERICLab/vcontact3/src/3.0.3/README.md
    
-   :license: GPL / GPLv3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`vcontact3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcontact3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcontact3/meta.yaml>`_
 
    
@@ -29,36 +29,33 @@ vcontact3
       
       
 
-      ``3.0.0.b74-0``,  ``3.0.0.b65-0``,  ``3.0.0.b38-0``
+      ``3.0.3-0``,  ``3.0.0.b74-0``,  ``3.0.0.b65-0``,  ``3.0.0.b38-0``
 
       
 
    
-   :depends bioinfokit: ``>=2.1.3``
    :depends biopython: ``>=1.81``
    :depends dill: ``>=0.3.6``
    :depends ete3: ``>=3.1.3``
-   :depends jenkspy: ``>=0.3.2``
-   :depends jinja2: ``>=3.0.3``
+   :depends fastcluster: ``>=1.2.6``
+   :depends jinja2: ``>=3.1.6``
    :depends joblib: ``>=1.2.0``
    :depends markupsafe: ``>=2.0.1``
    :depends matplotlib-base: ``>=3.7.1``
    :depends mmseqs2: ``>=15.6f452``
-   :depends networkit: ``>=11.0``
-   :depends networkx: ``>=3.1``
+   :depends networkit: ``<=11.0``
    :depends numpy: ``>=1.23.5``
    :depends pandas: ``>=2.1.1``
    :depends psutil: ``>=5.9.5``
-   :depends pyarrow: ``>=11.0.0``
+   :depends pyarrow: ``>=14.0.1``
    :depends pyrodigal: ``>=2.3.0``
    :depends pyrodigal-gv: ``>=0.3.1``
    :depends pytables: ``>=3.8.0``
-   :depends python: ``>=3.9,<3.11``
-   :depends python-igraph: ``>=0.10.4``
+   :depends python: ``<3.12``
    :depends scikit-bio: ``>=0.5.8``
-   :depends scikit-learn: ``>=1.2.2``
+   :depends scikit-learn: ``>=1.5.0``
    :depends scipy: ``>=1.10.1``
-   :depends seaborn: ``>=0.12.1``
+   :depends seaborn-base: ``>=0.12.1``
    :depends swifter: ``>=1.3.4``
    :depends tqdm: ``>=4.65.0``
    :depends upsetplot: ``>=0.7.0``
@@ -112,7 +109,7 @@ vcontact3
 
     <script>
         var package = "vcontact3";
-        var versions = ["3.0.0.b74","3.0.0.b65","3.0.0.b38"];
+        var versions = ["3.0.3","3.0.0.b74","3.0.0.b65","3.0.0.b38"];
     </script>
 
 

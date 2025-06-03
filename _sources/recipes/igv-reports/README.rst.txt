@@ -13,6 +13,8 @@ igv-reports
    Creates self\-contained html pages for visual variant review with IGV \(igv.js\).
 
    :homepage: https://github.com/igvteam/igv-reports
+   :documentation: https://github.com/igvteam/igv-reports/blob/v1.15.0/README.md
+   
    :license: MIT / MIT
    :recipe: /`igv-reports <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/igv-reports>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/igv-reports/meta.yaml>`_
 
@@ -28,10 +30,10 @@ igv-reports
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.14.1-0</code>,  <code>1.14.0-0</code>,  <code>1.13.0-0</code>,  <code>1.12.0-0</code>,  <code>1.11.0-0</code>,  <code>1.10.0-0</code>,  <code>1.9.1-0</code>,  <code>1.9.0-0</code>,  <code>1.8.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.15.0-0</code>,  <code>1.14.1-0</code>,  <code>1.14.0-0</code>,  <code>1.13.0-0</code>,  <code>1.12.0-0</code>,  <code>1.11.0-0</code>,  <code>1.10.0-0</code>,  <code>1.9.1-0</code>,  <code>1.9.0-0</code>,  </span></summary>
       
 
-      ``1.14.1-0``,  ``1.14.0-0``,  ``1.13.0-0``,  ``1.12.0-0``,  ``1.11.0-0``,  ``1.10.0-0``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.0-0``,  ``1.6.1-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.8-1``,  ``0.9.8-0``,  ``0.9.7-1``,  ``0.9.7-0``,  ``0.9.6-0``,  ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.2.1-1``,  ``0.2.1-0``
+      ``1.15.0-0``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.13.0-0``,  ``1.12.0-0``,  ``1.11.0-0``,  ``1.10.0-0``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.0-0``,  ``1.6.1-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.8-1``,  ``0.9.8-0``,  ``0.9.7-1``,  ``0.9.7-0``,  ``0.9.6-0``,  ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.2.1-1``,  ``0.2.1-0``
 
       
       .. raw:: html
@@ -41,8 +43,10 @@ igv-reports
 
    
    :depends intervaltree: 
-   :depends pysam: ``>=0.19.1``
+   :depends pysam: 
    :depends python: 
+   :depends pytwobit: 
+   :depends pyyaml: 
    :depends requests: 
    :requirements:
 
@@ -94,7 +98,7 @@ igv-reports
 
     <script>
         var package = "igv-reports";
-        var versions = ["1.14.1","1.14.0","1.13.0","1.12.0","1.11.0"];
+        var versions = ["1.15.0","1.14.1","1.14.0","1.13.0","1.12.0"];
     </script>
 
 

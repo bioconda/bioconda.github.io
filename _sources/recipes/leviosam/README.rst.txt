@@ -41,7 +41,7 @@ leviosam
 
    
    :depends htslib: ``>=1.11``
-   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends htslib: ``>=1.21,<1.23.0a0``
    :depends libcxx: ``>=18``
    :depends sdsl-lite: ``>=2.1.1``
    :depends zlib: ``>=1.2.11,<1.3.0a0``

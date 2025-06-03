@@ -44,7 +44,7 @@ abismal
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends htslib: ``>=1.21,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends libgomp: 
    :depends libstdcxx: ``>=13``

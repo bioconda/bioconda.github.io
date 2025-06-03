@@ -12,9 +12,8 @@ transit
 
    TRANSIT
 
-   :homepage: http://github.com/mad-lab/transit
-   :developer docs: https://github.com/simongog/sdsl-lite
-   :license: GPL / GPL-3
+   :homepage: https://github.com/ioerger/transit
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`transit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transit/meta.yaml>`_
 
    TRANSIT is a software that can be used to analyze Tn\-Seq datasets.
@@ -33,10 +32,10 @@ transit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.3-0</code>,  <code>3.2.2-0</code>,  <code>3.2.1-0</code>,  <code>3.2.0-0</code>,  <code>3.1.0-0</code>,  <code>3.0.2-1</code>,  <code>3.0.2-0</code>,  <code>3.0.1-0</code>,  <code>2.5.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.3.19-0</code>,  <code>3.2.3-0</code>,  <code>3.2.2-0</code>,  <code>3.2.1-0</code>,  <code>3.2.0-0</code>,  <code>3.1.0-0</code>,  <code>3.0.2-1</code>,  <code>3.0.2-0</code>,  <code>3.0.1-0</code>,  </span></summary>
       
 
-      ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.5.2-0``,  ``2.3.3-1``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.1-0``
+      ``3.3.19-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.5.2-0``,  ``2.3.3-1``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.1-0``
 
       
       .. raw:: html
@@ -45,12 +44,14 @@ transit
       
 
    
-   :depends matplotlib-base: ``>=3,<3.1``
-   :depends numpy: ``>=1.16,<1.17``
-   :depends pillow: ``>=6,<6.1``
+   :depends matplotlib-base: 
+   :depends numpy: ``<1.20``
+   :depends pandas: ``<0.25``
+   :depends pillow: 
    :depends python: ``>=3.6``
-   :depends scipy: ``>=1.2,<1.3``
-   :depends statsmodels: ``>=0.9,<0.10``
+   :depends scikit-learn: 
+   :depends scipy: ``<1.8.0``
+   :depends statsmodels: 
    :requirements:
 
    :additional platforms:
@@ -101,7 +102,7 @@ transit
 
     <script>
         var package = "transit";
-        var versions = ["3.2.3","3.2.2","3.2.1","3.2.0","3.1.0"];
+        var versions = ["3.3.19","3.2.3","3.2.2","3.2.1","3.2.0"];
     </script>
 
 

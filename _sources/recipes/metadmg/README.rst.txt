@@ -36,7 +36,7 @@ metadmg
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends eigen: 
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends htslib: ``>=1.21,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends liblzma: ``>=5.6.3,<6.0a0``
    :depends libstdcxx: ``>=13``
