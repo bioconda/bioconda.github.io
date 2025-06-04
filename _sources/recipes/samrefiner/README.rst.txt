@@ -10,10 +10,10 @@ samrefiner
    :replaces_section_title:
    :noindex:
 
-   A program for gathering variant information from a SAM formated files
+   A program for gathering variant information from a SAM formated files.
 
    :homepage: https://github.com/degregory/SAM_Refiner
-   :license: GPL / GPLv3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`samrefiner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samrefiner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samrefiner/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ samrefiner
       
       
 
-      ``1.4.1-0``,  ``1.4-0``,  ``1.0-0``
+      ``1.4.2-0``,  ``1.4.1-0``,  ``1.4-0``,  ``1.0-0``
 
       
 
@@ -83,7 +83,7 @@ samrefiner
 
     <script>
         var package = "samrefiner";
-        var versions = ["1.4.1","1.4","1.0"];
+        var versions = ["1.4.2","1.4.1","1.4","1.0"];
     </script>
 
 

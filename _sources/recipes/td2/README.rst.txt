@@ -10,7 +10,7 @@ td2
    :replaces_section_title:
    :noindex:
 
-   TD2\: a tool to find protein coding regions in transcripts
+   TD2\: a tool to find protein coding regions in transcripts.
 
    :homepage: https://github.com/Markusjsommer/TD2
    :license: MIT / MIT
@@ -27,7 +27,7 @@ td2
       
       
 
-      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.5-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -35,10 +35,11 @@ td2
    :depends numpy: ``>=1.24.4,<2``
    :depends pandas: ``>=2.0.3``
    :depends psauron: ``>=1.0.5``
+   :depends psutil: 
    :depends python: ``>=3.9,<3.13``
    :depends pytorch: ``>=2.1.2``
    :depends scipy: ``>=1.10.1``
-   :depends setuptools: 
+   :depends setuptools: ``<81``
    :depends torchaudio: ``>=2.1.2``
    :depends torchvision: ``>=0.16.2``
    :depends tqdm: ``>=4.66.1``
@@ -93,7 +94,7 @@ td2
 
     <script>
         var package = "td2";
-        var versions = ["1.0.3","1.0.2","1.0.1","1.0.0"];
+        var versions = ["1.0.5","1.0.3","1.0.2","1.0.1","1.0.0"];
     </script>
 
 

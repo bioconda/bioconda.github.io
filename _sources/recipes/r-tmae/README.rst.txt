@@ -26,9 +26,17 @@ r-tmae
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.2-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.9.0-1``,  ``0.9.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.5-0</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.2-0</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.9.0-1</code>,  </span></summary>
+      
 
+      ``1.0.5-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.2-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.9.0-1``,  ``0.9.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -38,12 +46,11 @@ r-tmae
    :depends bioconductor-genomicscores: 
    :depends bioconductor-iranges: 
    :depends bioconductor-s4vectors: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-biocmanager: 
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
-   :depends r-magrittr: 
    :requirements:
 
    :additional platforms:
@@ -94,7 +101,7 @@ r-tmae
 
     <script>
         var package = "r-tmae";
-        var versions = ["1.0.4","1.0.4","1.0.4","1.0.2","1.0.0"];
+        var versions = ["1.0.5","1.0.4","1.0.4","1.0.4","1.0.2"];
     </script>
 
 

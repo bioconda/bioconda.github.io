@@ -26,9 +26,17 @@ pretextsnapshot
    :versions:
       
       
+      .. raw:: html
 
-      ``0.0.4-4``,  ``0.0.4-3``,  ``0.0.4-2``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.2-1``,  ``0.0.2-0``
+         <details><summary><span class="truncated-version-list"><code>0.0.5-0</code>,  <code>0.0.4-4</code>,  <code>0.0.4-3</code>,  <code>0.0.4-2</code>,  <code>0.0.4-1</code>,  <code>0.0.4-0</code>,  <code>0.0.3-1</code>,  <code>0.0.3-0</code>,  <code>0.0.2-1</code>,  </span></summary>
+      
 
+      ``0.0.5-0``,  ``0.0.4-4``,  ``0.0.4-3``,  ``0.0.4-2``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.2-1``,  ``0.0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -84,7 +92,7 @@ pretextsnapshot
 
     <script>
         var package = "pretextsnapshot";
-        var versions = ["0.0.4","0.0.4","0.0.4","0.0.4","0.0.4"];
+        var versions = ["0.0.5","0.0.4","0.0.4","0.0.4","0.0.4"];
     </script>
 
 
