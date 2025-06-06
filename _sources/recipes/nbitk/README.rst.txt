@@ -28,10 +28,10 @@ nbitk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.8-0</code>,  <code>0.5.7-0</code>,  <code>0.5.6-0</code>,  <code>0.5.5-0</code>,  <code>0.5.3-1</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.9-0</code>,  <code>0.5.8-0</code>,  <code>0.5.7-0</code>,  <code>0.5.6-0</code>,  <code>0.5.5-0</code>,  <code>0.5.3-1</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  </span></summary>
       
 
-      ``0.5.8-0``,  ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.3-0``,  ``0.3.2-0``
+      ``0.5.9-0``,  ``0.5.8-0``,  ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.3-0``,  ``0.3.2-0``
 
       
       .. raw:: html
@@ -41,7 +41,6 @@ nbitk
 
    
    :depends biopython: 
-   :depends ete4: 
    :depends minio: 
    :depends openpyxl: 
    :depends pandas: 
@@ -98,7 +97,7 @@ nbitk
 
     <script>
         var package = "nbitk";
-        var versions = ["0.5.8","0.5.7","0.5.6","0.5.5","0.5.3"];
+        var versions = ["0.5.9","0.5.8","0.5.7","0.5.6","0.5.5"];
     </script>
 
 

@@ -10,11 +10,14 @@ squirrel
    :replaces_section_title:
    :noindex:
 
-   Some QUIck Reconstruction to Resolve Evolutionary Links
+   Some QUIck Reconstruction to Resolve Evolutionary Links.
 
    :homepage: https://github.com/aineniamh/squirrel
+   :documentation: https://github.com/aineniamh/squirrel/blob/1.1.3/README.md
+   
    :license: GPL3 / GPL-3.0-only
    :recipe: /`squirrel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/squirrel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/squirrel/meta.yaml>`_
+   :links: biotools: :biotools:`squirrel`, usegalaxy-eu: :usegalaxy-eu:`squirrel_phylo`, usegalaxy-eu: :usegalaxy-eu:`squirrel_qc`
 
    
 
@@ -26,24 +29,33 @@ squirrel
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.2-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-1``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.3-0</code>,  <code>1.1.2-0</code>,  <code>1.0.13-0</code>,  <code>1.0.12-0</code>,  <code>1.0.11-0</code>,  <code>1.0.10-1</code>,  <code>1.0.10-0</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  </span></summary>
+      
 
+      ``1.1.3-0``,  ``1.1.2-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-1``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends baltic: 
-   :depends biopython: ``>=1.74``
+   :depends biopython: ``>=1.70``
    :depends gofasta: 
-   :depends iqtree: ``>=2.1``
+   :depends iqtree: 
    :depends jclusterfunk: ``>=0.0.25``
    :depends mako: 
    :depends matplotlib-base: ``>=3.3.1``
-   :depends minimap2: ``>=2.16``
+   :depends minimap2: 
    :depends pandas: 
-   :depends python: ``3.10``
-   :depends seaborn: 
-   :depends snakemake-minimal: ``7.32``
+   :depends python: ``>=3.7``
+   :depends seaborn-base: 
+   :depends snakemake-minimal: ``<8``
+   :depends tabulate: 
    :requirements:
 
    :additional platforms:
@@ -94,7 +106,7 @@ squirrel
 
     <script>
         var package = "squirrel";
-        var versions = ["1.1.2","1.0.13","1.0.12","1.0.11","1.0.10"];
+        var versions = ["1.1.3","1.1.2","1.0.13","1.0.12","1.0.11"];
     </script>
 
 

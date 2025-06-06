@@ -27,7 +27,7 @@ r-pathosurveilr
       
       
 
-      ``0.3.1-0``,  ``0.3.0-0``
+      ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``
 
       
 
@@ -49,6 +49,7 @@ r-pathosurveilr
    :depends r-phytools: 
    :depends r-plotly: 
    :depends r-poppr: 
+   :depends r-rcppsimdjson: 
    :depends r-readods: 
    :depends r-readxl: 
    :depends r-rentrez: 
@@ -107,7 +108,7 @@ r-pathosurveilr
 
     <script>
         var package = "r-pathosurveilr";
-        var versions = ["0.3.1","0.3.0"];
+        var versions = ["0.4.0","0.3.1","0.3.0"];
     </script>
 
 

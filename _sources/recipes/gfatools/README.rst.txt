@@ -10,10 +10,12 @@ gfatools
    :replaces_section_title:
    :noindex:
 
-   Tools for manipulating sequence graphs in the GFA and rGFA formats
+   Tools for manipulating sequence graphs in the GFA and rGFA formats.
 
    :homepage: https://github.com/lh3/gfatools
-   :license: Unknown
+   :documentation: https://github.com/lh3/gfatools/blob/master/README.md
+   
+   :license: MIT / MIT
    :recipe: /`gfatools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gfatools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gfatools/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ gfatools
       
       
 
-      ``0.5-5``,  ``0.5-4``,  ``0.5-3``,  ``0.5-2``,  ``0.5-1``,  ``0.5-0``,  ``0.4-1``,  ``0.4-0``
+      ``0.5.5-0``,  ``0.5-5``,  ``0.5-4``,  ``0.5-3``,  ``0.5-2``,  ``0.5-1``,  ``0.5-0``,  ``0.4-1``,  ``0.4-0``
 
       
 
@@ -37,6 +39,10 @@ gfatools
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -84,7 +90,7 @@ gfatools
 
     <script>
         var package = "gfatools";
-        var versions = ["0.5","0.5","0.5","0.5","0.5"];
+        var versions = ["0.5.5","0.5","0.5","0.5","0.5"];
     </script>
 
 

@@ -13,7 +13,7 @@ atol-bpa-datamapper
    Map data from the BPA data portal for AToL\'s Genome Engine.
 
    :homepage: https://github.com/TomHarrop/atol-bpa-datamapper
-   :license: GPL-3.0-or-later
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`atol-bpa-datamapper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/atol-bpa-datamapper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/atol-bpa-datamapper/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ atol-bpa-datamapper
       
       
 
-      ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -86,7 +86,7 @@ atol-bpa-datamapper
 
     <script>
         var package = "atol-bpa-datamapper";
-        var versions = ["0.1.5","0.1.4","0.1.3","0.1.2","0.1.1"];
+        var versions = ["0.1.6","0.1.5","0.1.4","0.1.3","0.1.2"];
     </script>
 
 

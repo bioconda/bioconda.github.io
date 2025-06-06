@@ -28,7 +28,7 @@ virulencefinder
       
       
 
-      ``3.1.0-0``,  ``2.0.4-1``,  ``2.0.4-0``
+      ``3.2.0-0``,  ``3.1.0-0``,  ``2.0.4-1``,  ``2.0.4-0``
 
       
 
@@ -92,7 +92,7 @@ virulencefinder
 
     <script>
         var package = "virulencefinder";
-        var versions = ["3.1.0","2.0.4","2.0.4"];
+        var versions = ["3.2.0","3.1.0","2.0.4","2.0.4"];
     </script>
 
 

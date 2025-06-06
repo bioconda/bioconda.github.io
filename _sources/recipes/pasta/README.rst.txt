@@ -13,7 +13,7 @@ pasta
    An implementation of the PASTA \(Practical Alignment using Sate and TrAnsitivity\) algorithm.
 
    :homepage: https://github.com/smirarab/pasta
-   :documentation: https://github.com/smirarab/pasta/blob/v1.9.2/README.md
+   :documentation: https://github.com/smirarab/pasta/blob/v1.9.3/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`pasta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pasta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pasta/meta.yaml>`_
@@ -31,10 +31,10 @@ pasta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.9.2-5</code>,  <code>1.9.2-4</code>,  <code>1.9.2-3</code>,  <code>1.9.2-2</code>,  <code>1.9.2-1</code>,  <code>1.9.2-0</code>,  <code>1.9.0-0</code>,  <code>1.7.8-4</code>,  <code>1.7.8-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.9.3-0</code>,  <code>1.9.2-5</code>,  <code>1.9.2-4</code>,  <code>1.9.2-3</code>,  <code>1.9.2-2</code>,  <code>1.9.2-1</code>,  <code>1.9.2-0</code>,  <code>1.9.0-0</code>,  <code>1.7.8-4</code>,  </span></summary>
       
 
-      ``1.9.2-5``,  ``1.9.2-4``,  ``1.9.2-3``,  ``1.9.2-2``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.9.0-0``,  ``1.7.8-4``,  ``1.7.8-3``,  ``1.7.8-2``,  ``1.7.8-0``,  ``0.2-0``
+      ``1.9.3-0``,  ``1.9.2-5``,  ``1.9.2-4``,  ``1.9.2-3``,  ``1.9.2-2``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.9.0-0``,  ``1.7.8-4``,  ``1.7.8-3``,  ``1.7.8-2``,  ``1.7.8-0``,  ``0.2-0``
 
       
       .. raw:: html
@@ -45,7 +45,7 @@ pasta
    
    :depends _openmp_mutex: ``>=4.5``
    :depends clustalw: ``>=2.1,<3.0a0``
-   :depends dendropy: ``>=5.0.6,<6.0a0``
+   :depends dendropy: ``>=5.0.8,<6.0a0``
    :depends fasttree: ``>=2.1.11,<3.0a0``
    :depends hmmer: ``>=3.4,<3.5.0a0``
    :depends libgcc: ``>=13``
@@ -115,7 +115,7 @@ pasta
 
     <script>
         var package = "pasta";
-        var versions = ["1.9.2","1.9.2","1.9.2","1.9.2","1.9.2"];
+        var versions = ["1.9.3","1.9.2","1.9.2","1.9.2","1.9.2"];
     </script>
 
 

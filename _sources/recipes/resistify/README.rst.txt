@@ -13,7 +13,7 @@ resistify
    A resistance gene annotation tool.
 
    :homepage: https://github.com/swiftseal/resistify
-   :documentation: https://github.com/SwiftSeal/resistify/blob/v1.1.5/README.md
+   :documentation: https://github.com/SwiftSeal/resistify/blob/v1.2.0/README.md
    
    :developer docs: https://github.com/SwiftSeal/resistify
    :license: `GPL3 / GPL-3.0-or-later <https://github.com/SwiftSeal/resistify/blob/main/LICENSE>`_
@@ -32,10 +32,10 @@ resistify
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.5-1</code>,  <code>1.1.5-0</code>,  <code>1.1.4-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>1.1.5-1</code>,  <code>1.1.5-0</code>,  <code>1.1.4-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.1-0</code>,  </span></summary>
       
 
-      ``1.1.5-1``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.70.0-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-2``,  ``0.6.1-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``1.2.0-0``,  ``1.1.5-1``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.70.0-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-2``,  ``0.6.1-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -104,7 +104,7 @@ resistify
 
     <script>
         var package = "resistify";
-        var versions = ["1.1.5","1.1.5","1.1.4","1.1.3","1.1.2"];
+        var versions = ["1.2.0","1.1.5","1.1.5","1.1.4","1.1.3"];
     </script>
 
 

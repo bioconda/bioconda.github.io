@@ -10,10 +10,12 @@ bamdash
    :replaces_section_title:
    :noindex:
 
-   Aggregate pathogen NGS results into an interactive plot
+   Aggregate pathogen NGS results into an interactive plot.
 
    :homepage: https://github.com/jonas-fuchs/BAMdash
-   :license: GPL-3.0-or-later
+   :documentation: https://github.com/jonas-fuchs/BAMdash/blob/v.0.4/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`bamdash <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamdash>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamdash/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ bamdash
       
       
 
-      ``0.3.1-0``,  ``0.3-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2-0``
+      ``0.4-0``,  ``0.3.1-0``,  ``0.3-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2-0``
 
       
 
@@ -88,7 +90,7 @@ bamdash
 
     <script>
         var package = "bamdash";
-        var versions = ["0.3.1","0.3","0.2.4","0.2.3","0.2.2"];
+        var versions = ["0.4","0.3.1","0.3","0.2.4","0.2.3"];
     </script>
 
 

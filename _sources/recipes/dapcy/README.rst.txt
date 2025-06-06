@@ -13,6 +13,8 @@ dapcy
    An sklearn implementation of discriminant analysis of principal components \(DAPC\) for population genetics.
 
    :homepage: https://gitlab.com/uhasselt-bioinfo/dapcy
+   :documentation: https://uhasselt-bioinfo.gitlab.io/dapcy
+   
    :license: MIT / MIT
    :recipe: /`dapcy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dapcy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dapcy/meta.yaml>`_
 
@@ -27,25 +29,22 @@ dapcy
       
       
 
-      ``1.3.0-0``,  ``1.0.1-0``,  ``0.1.1-0``
+      ``1.3.0.post1-0``,  ``1.3.0-0``,  ``1.0.1-0``,  ``0.1.1-0``
 
       
 
    
-   :depends aiohttp: 
    :depends bed-reader: 
-   :depends cyvcf2: 
+   :depends bio2zarr: 
    :depends joblib: 
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
    :depends python: ``>=3.6``
-   :depends requests: 
    :depends scikit-learn: 
    :depends scipy: 
    :depends seaborn-base: 
    :depends sgkit: 
-   :depends yarl: 
    :requirements:
 
    :additional platforms:
@@ -96,7 +95,7 @@ dapcy
 
     <script>
         var package = "dapcy";
-        var versions = ["1.3.0","1.0.1","0.1.1"];
+        var versions = ["1.3.0.post1","1.3.0","1.0.1","0.1.1"];
     </script>
 
 

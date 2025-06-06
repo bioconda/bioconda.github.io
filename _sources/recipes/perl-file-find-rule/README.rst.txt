@@ -10,9 +10,9 @@ perl-file-find-rule
    :replaces_section_title:
    :noindex:
 
-   Alternative interface to File\:\:Find
+   Alternative interface to File\:\:Find.
 
-   :homepage: http://metacpan.org/pod/File::Find::Rule
+   :homepage: https://metacpan.org/pod/File::Find::Rule
    :license: perl_5
    :recipe: /`perl-file-find-rule <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-find-rule>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-find-rule/meta.yaml>`_
 
@@ -27,7 +27,7 @@ perl-file-find-rule
       
       
 
-      ``0.34-6``,  ``0.34-5``,  ``0.34-4``,  ``0.34-3``,  ``0.34-2``,  ``0.34-1``,  ``0.34-0``
+      ``0.35-0``,  ``0.34-6``,  ``0.34-5``,  ``0.34-4``,  ``0.34-3``,  ``0.34-2``,  ``0.34-1``,  ``0.34-0``
 
       
 
@@ -85,7 +85,7 @@ perl-file-find-rule
 
     <script>
         var package = "perl-file-find-rule";
-        var versions = ["0.34","0.34","0.34","0.34","0.34"];
+        var versions = ["0.35","0.34","0.34","0.34","0.34"];
     </script>
 
 

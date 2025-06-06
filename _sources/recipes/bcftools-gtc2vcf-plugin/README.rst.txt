@@ -27,14 +27,14 @@ bcftools-gtc2vcf-plugin
       
       
 
-      ``1.21-0``,  ``1.19-1``,  ``1.19-0``,  ``1.18-0``,  ``1.16-0``,  ``1.9-0``
+      ``1.22-0``,  ``1.21-0``,  ``1.19-1``,  ``1.19-0``,  ``1.18-0``,  ``1.16-0``,  ``1.9-0``
 
       
 
    
-   :depends bcftools: ``>=1.21,<1.22.0a0``
+   :depends bcftools: ``>=1.22,<1.23.0a0``
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends htslib: ``>=1.22,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
@@ -93,7 +93,7 @@ bcftools-gtc2vcf-plugin
 
     <script>
         var package = "bcftools-gtc2vcf-plugin";
-        var versions = ["1.21","1.19","1.19","1.18","1.16"];
+        var versions = ["1.22","1.21","1.19","1.19","1.18"];
     </script>
 
 
