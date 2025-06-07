@@ -10,10 +10,10 @@ aliceasm
    :replaces_section_title:
    :noindex:
 
-   Efficient HiFi genome assembler producing haplotype\-separated assemblies
+   Efficient HiFi genome assembler producing haplotype\-separated assemblies.
 
    :homepage: https://github.com/RolandFaure/alice-asm
-   :license: AGPL-3.0-only
+   :license: AGPL / AGPL-3.0-only
    :recipe: /`aliceasm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aliceasm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aliceasm/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ aliceasm
       
       
 
-      ``0.6.36-0``,  ``0.6.34-0``,  ``0.6.33-0``,  ``0.6.32-0``
+      ``0.6.36-1``,  ``0.6.36-0``,  ``0.6.34-0``,  ``0.6.33-0``,  ``0.6.32-0``
 
       
 
@@ -41,6 +41,10 @@ aliceasm
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -88,7 +92,7 @@ aliceasm
 
     <script>
         var package = "aliceasm";
-        var versions = ["0.6.36","0.6.34","0.6.33","0.6.32"];
+        var versions = ["0.6.36","0.6.36","0.6.34","0.6.33","0.6.32"];
     </script>
 
 

@@ -29,7 +29,7 @@ paragone
       
       
 
-      ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -41,10 +41,9 @@ paragone
    :depends hmmer: ``>=3.3.2``
    :depends iqtree: ``>=2.2.0.3``
    :depends julia: ``1.8.5.*``
+   :depends libgomp: 
    :depends mafft: ``>=7.245``
-   :depends openmp: ``>=8.0.1``
-   :depends python: ``>=3.9,<3.10.0a0``
-   :depends python_abi: ``3.9.* *_cp39``
+   :depends python: ``>=3.6``
    :depends r-base: ``>=4.0.3``
    :depends treeshrink: 
    :depends trimal: ``>=1.4.1``
@@ -98,7 +97,7 @@ paragone
 
     <script>
         var package = "paragone";
-        var versions = ["1.1.3","1.1.2","1.1.1","1.1.1","1.1.0"];
+        var versions = ["1.1.3","1.1.3","1.1.2","1.1.1","1.1.1"];
     </script>
 
 

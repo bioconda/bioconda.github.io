@@ -33,12 +33,11 @@ openstructure
       
       
 
-      ``2.10.0-2``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.9.3-0``
+      ``2.10.0-3``,  ``2.10.0-2``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.9.3-0``
 
       
 
    
-   :depends clustalw: 
    :depends fftw: ``>=3.3.10,<4.0a0``
    :depends glew: ``>=2.1.0,<2.2.0a0``
    :depends glfw: ``>=3.4,<4.0a0``
@@ -50,7 +49,9 @@ openstructure
    :depends libgfortran5: ``>=13.3.0``
    :depends libgl: ``>=1.7.0,<2.0a0``
    :depends libgles: ``>=1.7.0,<2.0a0``
+   :depends libglvnd: ``>=1.7.0,<2.0a0``
    :depends libglx: ``>=1.7.0,<2.0a0``
+   :depends libopengl: ``>=1.7.0,<2.0a0``
    :depends libpng: ``>=1.6.47,<1.7.0a0``
    :depends libsqlite: ``>=3.50.0,<4.0a0``
    :depends libstdcxx: ``>=13``
@@ -61,15 +62,16 @@ openstructure
    :depends networkx: ``>=2.8.8,<3.0a0``
    :depends numpy: ``>=1.26.4,<2.0a0``
    :depends ocl-icd: ``>=2.3.3,<3.0a0``
+   :depends ocl-icd-system: 
    :depends openmm: ``>=8.2.0,<9.0a0``
-   :depends pandas: ``>=2.2.3,<3.0a0``
+   :depends pandas: ``>=2.3.0,<3.0a0``
    :depends parasail: ``>=2.6.2,<3.0a0``
    :depends pyqt: ``>=5.15.9,<5.16.0a0``
    :depends python: ``>=3.10,<3.11.0a0 *_cpython``
    :depends python_abi: ``3.10.* *_cp310``
    :depends qt: ``>=5.15.8,<5.16.0a0``
    :depends scipy: ``>=1.15.2,<2.0a0``
-   :depends voronota: ``>=1.29.4370,<2.0a0``
+   :depends voronota: ``>=1.29.4408,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -124,7 +126,7 @@ openstructure
 
     <script>
         var package = "openstructure";
-        var versions = ["2.10.0","2.10.0","2.10.0","2.9.3"];
+        var versions = ["2.10.0","2.10.0","2.10.0","2.10.0","2.9.3"];
     </script>
 
 

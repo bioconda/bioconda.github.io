@@ -28,7 +28,7 @@ r-bpcells
       
       
 
-      ``0.3.0-0``
+      ``0.3.0-1``,  ``0.3.0-0``
 
       
 
@@ -60,6 +60,10 @@ r-bpcells
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -107,7 +111,7 @@ r-bpcells
 
     <script>
         var package = "r-bpcells";
-        var versions = ["0.3.0"];
+        var versions = ["0.3.0","0.3.0"];
     </script>
 
 

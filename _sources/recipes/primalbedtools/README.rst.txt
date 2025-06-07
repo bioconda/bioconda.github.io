@@ -10,7 +10,7 @@ primalbedtools
    :replaces_section_title:
    :noindex:
 
-   A collection of tools for working with primer.bed files
+   A collection of tools for working with primer.bed files.
 
    :homepage: https://github.com/ChrisgKent/primalbedtools
    :license: MPL-2.0
@@ -27,12 +27,12 @@ primalbedtools
       
       
 
-      ``0.8.1-0``,  ``0.6.2-0``
+      ``0.9-0``,  ``0.8.1-0``,  ``0.6.2-0``
 
       
 
    
-   :depends python: ``>=3.9.0,<4.0.0``
+   :depends python: ``>=3.9,<4``
    :requirements:
 
    :additional platforms:
@@ -83,7 +83,7 @@ primalbedtools
 
     <script>
         var package = "primalbedtools";
-        var versions = ["0.8.1","0.6.2"];
+        var versions = ["0.9","0.8.1","0.6.2"];
     </script>
 
 

@@ -10,11 +10,12 @@ emboss
    :replaces_section_title:
    :noindex:
 
-   The European Molecular Biology Open Software Suite
+   The European Molecular Biology Open Software Suite.
 
-   :homepage: http://emboss.open-bio.org/
-   :license: GPL
+   :homepage: http://emboss.open-bio.org
+   :license: GPL / GPL-2.0-only
    :recipe: /`emboss <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/emboss>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/emboss/meta.yaml>`_
+   :links: biotools: :biotools:`emboss`, usegalaxy-eu: :usegalaxy-eu:`emboss_needleall`, usegalaxy-eu: :usegalaxy-eu:`emboss_needle`
 
    
 
@@ -28,10 +29,10 @@ emboss
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>6.6.0-12</code>,  <code>6.6.0-11</code>,  <code>6.6.0-10</code>,  <code>6.6.0-9</code>,  <code>6.6.0-8</code>,  <code>6.6.0-7</code>,  <code>6.6.0-6</code>,  <code>6.6.0-5</code>,  <code>6.6.0-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>6.6.0-13</code>,  <code>6.6.0-12</code>,  <code>6.6.0-11</code>,  <code>6.6.0-10</code>,  <code>6.6.0-9</code>,  <code>6.6.0-8</code>,  <code>6.6.0-7</code>,  <code>6.6.0-6</code>,  <code>6.6.0-5</code>,  </span></summary>
       
 
-      ``6.6.0-12``,  ``6.6.0-11``,  ``6.6.0-10``,  ``6.6.0-9``,  ``6.6.0-8``,  ``6.6.0-7``,  ``6.6.0-6``,  ``6.6.0-5``,  ``6.6.0-4``,  ``6.6.0-3``,  ``6.6.0-2``,  ``6.6.0-1``,  ``6.6.0-0``,  ``6.5.7-5``,  ``6.5.7-4``,  ``6.5.7-3``,  ``6.5.7-2``,  ``6.5.7-1``,  ``6.5.7-0``,  ``5.0.0-6``,  ``5.0.0-5``,  ``5.0.0-4``,  ``5.0.0-3``,  ``5.0.0-2``,  ``5.0.0-1``,  ``5.0.0-0``
+      ``6.6.0-13``,  ``6.6.0-12``,  ``6.6.0-11``,  ``6.6.0-10``,  ``6.6.0-9``,  ``6.6.0-8``,  ``6.6.0-7``,  ``6.6.0-6``,  ``6.6.0-5``,  ``6.6.0-4``,  ``6.6.0-3``,  ``6.6.0-2``,  ``6.6.0-1``,  ``6.6.0-0``,  ``6.5.7-5``,  ``6.5.7-4``,  ``6.5.7-3``,  ``6.5.7-2``,  ``6.5.7-1``,  ``6.5.7-0``,  ``5.0.0-6``,  ``5.0.0-5``,  ``5.0.0-4``,  ``5.0.0-3``,  ``5.0.0-2``,  ``5.0.0-1``,  ``5.0.0-0``
 
       
       .. raw:: html
@@ -45,8 +46,6 @@ emboss
    :depends libharu: ``>=2.4.5,<2.5.0a0``
    :depends libpng: ``>=1.6.47,<1.7.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends python_abi: ``3.11.* *_cp311``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:

@@ -27,7 +27,7 @@ marbel
       
       
 
-      ``0.2.3-0``
+      ``0.2.4-0``,  ``0.2.3-0``
 
       
 
@@ -44,6 +44,7 @@ marbel
    :depends pysam: 
    :depends python: 
    :depends requests: 
+   :depends threadpoolctl: 
    :depends typer: 
    :depends typing-extensions: 
    :requirements:
@@ -96,7 +97,7 @@ marbel
 
     <script>
         var package = "marbel";
-        var versions = ["0.2.3"];
+        var versions = ["0.2.4","0.2.3"];
     </script>
 
 

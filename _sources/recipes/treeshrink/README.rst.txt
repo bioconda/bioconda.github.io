@@ -10,11 +10,14 @@ treeshrink
    :replaces_section_title:
    :noindex:
 
-   an algorithm for detecting \(and removing\) abnormally long branches in one or more phylogenetic trees
+   An algorithm for detecting \(and removing\) abnormally long branches in one or more phylogenetic trees.
 
    :homepage: https://github.com/uym2/TreeShrink
-   :license: GPL / GPL-3
+   :documentation: https://github.com/uym2/TreeShrink/blob/v1.3.9/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`treeshrink <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treeshrink>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treeshrink/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s12864-018-4620-2`, doi: :doi:`10.1007/978-3-319-67979-2_7`
 
    
 
@@ -27,13 +30,13 @@ treeshrink
       
       
 
-      ``1.3.9-0``
+      ``1.3.9-1``,  ``1.3.9-0``
 
       
 
    
-   :depends python: ``>=3.6,<=3.9.16``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends python: ``>=3.6``
+   :depends r-base: 
    :depends r-bms: ``>=0.3.5``
    :requirements:
 
@@ -85,7 +88,7 @@ treeshrink
 
     <script>
         var package = "treeshrink";
-        var versions = ["1.3.9"];
+        var versions = ["1.3.9","1.3.9"];
     </script>
 
 

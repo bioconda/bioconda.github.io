@@ -10,9 +10,9 @@ viral_consensus
    :replaces_section_title:
    :noindex:
 
-   Fast viral consensus genome reconstruction
+   Fast viral consensus genome reconstruction.
 
-   :homepage: https://niema.net/ViralConsensus/
+   :homepage: https://niema.net/ViralConsensus
    :developer docs: https://github.com/niemasd/ViralConsensus
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`viral_consensus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/viral_consensus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/viral_consensus/meta.yaml>`_
@@ -29,13 +29,17 @@ viral_consensus
       
       
 
-      ``0.0.6-2``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
+      ``1.0.0-0``,  ``0.0.6-2``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
 
       
 
    
-   :depends htslib: ``>=1.21,<1.23.0a0``
-   :depends libcxx: ``>=18``
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends htslib: ``>=1.22,<1.23.0a0``
+   :depends libcurl: ``>=8.14.1,<9.0a0``
+   :depends libgcc: ``>=13``
+   :depends liblzma: ``>=5.8.1,<6.0a0``
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
@@ -91,7 +95,7 @@ viral_consensus
 
     <script>
         var package = "viral_consensus";
-        var versions = ["0.0.6","0.0.6","0.0.6","0.0.5","0.0.5"];
+        var versions = ["1.0.0","0.0.6","0.0.6","0.0.6","0.0.5"];
     </script>
 
 

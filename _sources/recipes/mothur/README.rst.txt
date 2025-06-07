@@ -12,11 +12,13 @@ mothur
 
    This project seeks to develop a single piece of open\-source\, expandable software to fill the bioinformatics needs of the microbial ecology community.
 
-   :homepage: http://www.mothur.org
+   :homepage: https://www.mothur.org
+   :documentation: https://mothur.org/wiki/mothur_manual
+   
    :developer docs: https://github.com/mothur/mothur
-   :license: GPL / GPL-3.0
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`mothur <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mothur>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mothur/meta.yaml>`_
-   :links: doi: :doi:`10.1128/AEM.01541-09`, usegalaxy-eu: :usegalaxy-eu:`mothur_get_label`
+   :links: doi: :doi:`10.1128/AEM.01541-09`, usegalaxy-eu: :usegalaxy-eu:`mothur_get_label`, biotools: :biotools:`mothur`
 
    
 
@@ -30,10 +32,10 @@ mothur
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.48.0-3</code>,  <code>1.48.0-2</code>,  <code>1.48.0-1</code>,  <code>1.48.0-0</code>,  <code>1.47.0-2</code>,  <code>1.47.0-1</code>,  <code>1.47.0-0</code>,  <code>1.46.1-1</code>,  <code>1.46.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.48.3-0</code>,  <code>1.48.0-3</code>,  <code>1.48.0-2</code>,  <code>1.48.0-1</code>,  <code>1.48.0-0</code>,  <code>1.47.0-2</code>,  <code>1.47.0-1</code>,  <code>1.47.0-0</code>,  <code>1.46.1-1</code>,  </span></summary>
       
 
-      ``1.48.0-3``,  ``1.48.0-2``,  ``1.48.0-1``,  ``1.48.0-0``,  ``1.47.0-2``,  ``1.47.0-1``,  ``1.47.0-0``,  ``1.46.1-1``,  ``1.46.1-0``,  ``1.46.0-0``,  ``1.45.3-0``,  ``1.44.11-0``,  ``1.44.1-2``,  ``1.44.1-1``,  ``1.44.1-0``,  ``1.44.0-0``,  ``1.43.0-0``,  ``1.42.3-0``,  ``1.42.1-0``,  ``1.42.0-0``,  ``1.41.3-0``,  ``1.41.0-0``,  ``1.40.5-0``,  ``1.39.5-4``,  ``1.39.5-3``,  ``1.39.5-2``,  ``1.39.5-1``,  ``1.39.5-0``,  ``1.38.1.1-0``,  ``1.36.1-2``,  ``1.36.1-1``,  ``1.36.1-0``,  ``1.25.0-0``
+      ``1.48.3-0``,  ``1.48.0-3``,  ``1.48.0-2``,  ``1.48.0-1``,  ``1.48.0-0``,  ``1.47.0-2``,  ``1.47.0-1``,  ``1.47.0-0``,  ``1.46.1-1``,  ``1.46.1-0``,  ``1.46.0-0``,  ``1.45.3-0``,  ``1.44.11-0``,  ``1.44.1-2``,  ``1.44.1-1``,  ``1.44.1-0``,  ``1.44.0-0``,  ``1.43.0-0``,  ``1.42.3-0``,  ``1.42.1-0``,  ``1.42.0-0``,  ``1.41.3-0``,  ``1.41.0-0``,  ``1.40.5-0``,  ``1.39.5-4``,  ``1.39.5-3``,  ``1.39.5-2``,  ``1.39.5-1``,  ``1.39.5-0``,  ``1.38.1.1-0``,  ``1.36.1-2``,  ``1.36.1-1``,  ``1.36.1-0``,  ``1.25.0-0``
 
       
       .. raw:: html
@@ -42,19 +44,24 @@ mothur
       
 
    
-   :depends blast-legacy: 
-   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
+   :depends boost-cpp: 
+   :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends hdf5: ``>=1.12.2,<1.12.3.0a0``
-   :depends libcxx: ``>=15.0.7``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends hdf5: ``>=1.14.3,<1.14.4.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends readline: ``>=8.2,<9.0a0``
-   :depends sra-tools: 
-   :depends vsearch: ``2.15.2.*``
-   :depends zlib: 
+   :depends sra-tools: ``>=3.2.1,<4.0a0``
+   :depends vsearch: ``>=2.15.2``
+   :depends vsearch: ``>=2.30.0,<3.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -102,7 +109,7 @@ mothur
 
     <script>
         var package = "mothur";
-        var versions = ["1.48.0","1.48.0","1.48.0","1.48.0","1.47.0"];
+        var versions = ["1.48.3","1.48.0","1.48.0","1.48.0","1.48.0"];
     </script>
 
 
