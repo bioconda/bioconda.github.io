@@ -10,7 +10,7 @@ r-mspbwt
    :replaces_section_title:
    :noindex:
 
-   Multi Symbol Positional Burrows Wheeler Transform
+   Multi Symbol Positional Burrows Wheeler Transform.
 
    :homepage: https://github.com/rwdavies/mspbwt
    :license: GPL3 / GPL-3.0-only
@@ -27,7 +27,7 @@ r-mspbwt
       
       
 
-      ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
@@ -36,11 +36,11 @@ r-mspbwt
    :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-data.table: ``>=1.11.8``
-   :depends r-rcpp: ``<=1.0.12``
+   :depends r-rcpp: ``<=1.0.14``
    :depends r-rrbgen: ``>=0.0.6``
    :depends r-rrbgen: ``>=0.0.6,<0.1.0a0``
    :depends r-stitch: ``>=1.7.0``
-   :depends r-stitch: ``>=1.7.2,<2.0a0``
+   :depends r-stitch: ``>=1.8.2,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -95,7 +95,7 @@ r-mspbwt
 
     <script>
         var package = "r-mspbwt";
-        var versions = ["0.1.0","0.1.0","0.1.0"];
+        var versions = ["0.1.1","0.1.1","0.1.0","0.1.0","0.1.0"];
     </script>
 
 

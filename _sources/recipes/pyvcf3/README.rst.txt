@@ -10,12 +10,12 @@ pyvcf3
    :replaces_section_title:
    :noindex:
 
-   A Variant Call Format reader for Python
+   A Variant Call Format reader for Python.
 
    :homepage: https://github.com/dridk/PyVCF3
    :documentation: http://pyvcf.readthedocs.org/en/latest/index.html
    
-   :license: MIT
+   :license: BSD / BSD-3-Clause
    :recipe: /`pyvcf3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyvcf3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyvcf3/meta.yaml>`_
 
    
@@ -29,15 +29,21 @@ pyvcf3
       
       
 
-      ``1.0.3-0``
+      ``1.0.4-0``,  ``1.0.3-0``
 
       
 
    
-   :depends python: ``3.*``
+   :depends libgcc: ``>=13``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -85,7 +91,7 @@ pyvcf3
 
     <script>
         var package = "pyvcf3";
-        var versions = ["1.0.3"];
+        var versions = ["1.0.4","1.0.3"];
     </script>
 
 

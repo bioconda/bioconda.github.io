@@ -10,7 +10,7 @@ miniprot-boundary-scorer
    :replaces_section_title:
    :noindex:
 
-   Miniprot boundary scorer parses introns\, starts\, stops and exons from miniprot\'s alignment output and scores them
+   Miniprot boundary scorer parses introns\, starts\, stops and exons from miniprot\'s alignment output and scores them.
 
    :homepage: https://github.com/tomasbruna/miniprot-boundary-scorer
    :license: Artistic-1.0
@@ -27,7 +27,7 @@ miniprot-boundary-scorer
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -88,7 +88,7 @@ miniprot-boundary-scorer
 
     <script>
         var package = "miniprot-boundary-scorer";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["1.0.1","1.0.0","1.0.0"];
     </script>
 
 

@@ -1,37 +1,40 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'fa-lint'
+.. title:: Package Recipe 'beem-bio'
 .. highlight: bash
 
-fa-lint
-=======
+beem-bio
+========
 
-.. conda:recipe:: fa-lint
+.. conda:recipe:: beem-bio
    :replaces_section_title:
    :noindex:
 
-   A Fasta linter\/validator
+   Conversion of PDBx\/mmCIF files to best effort\/minimal PDB files.
 
-   :homepage: https://github.com/GallVp/fa-lint
-   :license: MIT
-   :recipe: /`fa-lint <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fa-lint>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fa-lint/meta.yaml>`_
+   :homepage: https://github.com/kad-ecoli/BeEM
+   :license: BSD / BSD-2-Clause
+   :recipe: /`beem-bio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/beem-bio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/beem-bio/meta.yaml>`_
+   :links: biotools: :biotools:`BeEM`, doi: :doi:`10.1186/s12859-023-05388-9`
 
    
 
 
-.. conda:package:: fa-lint
+.. conda:package:: beem-bio
 
-   |downloads_fa-lint| |docker_fa-lint|
+   |downloads_beem-bio| |docker_beem-bio|
 
    :versions:
       
       
 
-      ``1.1.0-0``,  ``1.0.0-0``
+      ``1.0.1-0``
 
       
 
    
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -54,39 +57,39 @@ fa-lint
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install fa-lint
+      mamba install beem-bio
 
    and update with::
 
-      mamba update fa-lint
+      mamba update beem-bio
 
   To create a new environment, run::
 
-      mamba create --name myenvname fa-lint
+      mamba create --name myenvname beem-bio
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/fa-lint:<tag>
+      docker pull quay.io/biocontainers/beem-bio:<tag>
 
-   (see `fa-lint/tags`_ for valid values for ``<tag>``)
+   (see `beem-bio/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_fa-lint| image:: https://img.shields.io/conda/dn/bioconda/fa-lint.svg?style=flat
-   :target: https://anaconda.org/bioconda/fa-lint
+.. |downloads_beem-bio| image:: https://img.shields.io/conda/dn/bioconda/beem-bio.svg?style=flat
+   :target: https://anaconda.org/bioconda/beem-bio
    :alt:   (downloads)
-.. |docker_fa-lint| image:: https://quay.io/repository/biocontainers/fa-lint/status
-   :target: https://quay.io/repository/biocontainers/fa-lint
-.. _`fa-lint/tags`: https://quay.io/repository/biocontainers/fa-lint?tab=tags
+.. |docker_beem-bio| image:: https://quay.io/repository/biocontainers/beem-bio/status
+   :target: https://quay.io/repository/biocontainers/beem-bio
+.. _`beem-bio/tags`: https://quay.io/repository/biocontainers/beem-bio?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "fa-lint";
-        var versions = ["1.1.0","1.0.0"];
+        var package = "beem-bio";
+        var versions = ["1.0.1"];
     </script>
 
 
@@ -105,7 +108,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fa-lint/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/beem-bio/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/fa-lint/README.html
+   :target: http://bioconda.github.io/recipes/beem-bio/README.html
