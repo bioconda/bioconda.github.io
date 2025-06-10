@@ -10,10 +10,12 @@ ciriquant
    :replaces_section_title:
    :noindex:
 
-   circular RNA quantification pipeline
+   Circular RNA quantification pipeline.
 
    :homepage: https://github.com/bioinfo-biols/CIRIquant
-   :license: MIT
+   :documentation: https://ciri-cookbook.readthedocs.io/en/latest/CIRIquant_0_home.html
+   
+   :license: MIT / MIT
    :recipe: /`ciriquant <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ciriquant>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ciriquant/meta.yaml>`_
 
    

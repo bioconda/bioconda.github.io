@@ -10,10 +10,10 @@ pgscatalog.core
    :replaces_section_title:
    :noindex:
 
-   Core tools for working with polygenic scores \(PGS\) and the PGS Catalog
+   Core tools for working with polygenic scores \(PGS\) and the PGS Catalog.
 
-   :homepage: https://github.com/PGScatalog/pygscatalog/
-   :license: Apache-2.0
+   :homepage: https://github.com/PGScatalog/pygscatalog
+   :license: APACHE / Apache-2.0
    :recipe: /`pgscatalog.core <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pgscatalog.core>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pgscatalog.core/meta.yaml>`_
 
    
@@ -27,20 +27,20 @@ pgscatalog.core
       
       
 
-      ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.2-0``,  ``0.2.1-0``
+      ``1.0.0-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.2-0``,  ``0.2.1-0``
 
       
 
    
-   :depends httpx: ``>=0.26.0,<0.27.0``
-   :depends natsort: ``>=8.4.0,<9.0.0``
-   :depends pydantic: ``>=2.9.0,<3.0.0``
-   :depends pyliftover: ``>=0.4.1,<0.5.0``
+   :depends httpx: ``>=0.28.1``
+   :depends natsort: ``>=8.4.0``
+   :depends pydantic: ``>=2.10.6``
+   :depends pyliftover: ``>=0.4.1``
    :depends python: ``>=3.10``
    :depends python-zlib-ng: 
-   :depends tenacity: ``>=8.2.3,<9.0.0``
-   :depends tqdm: ``>=4.66.1,<5.0.0``
-   :depends xopen: ``>=1.8.0,<2.0.0``
+   :depends tenacity: ``>=9.0.0``
+   :depends tqdm: ``>=4.67.1``
+   :depends xopen: ``>=2.0.2``
    :requirements:
 
    :additional platforms:
@@ -91,7 +91,7 @@ pgscatalog.core
 
     <script>
         var package = "pgscatalog.core";
-        var versions = ["0.3.3","0.3.2","0.3.1","0.2.2","0.2.1"];
+        var versions = ["1.0.0","0.3.3","0.3.2","0.3.1","0.2.2"];
     </script>
 
 

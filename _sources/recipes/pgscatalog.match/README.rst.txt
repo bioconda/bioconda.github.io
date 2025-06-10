@@ -15,7 +15,7 @@ pgscatalog.match
    :homepage: https://github.com/PGScatalog/pygscatalog
    :documentation: https://pygscatalog.readthedocs.io
    
-   :license: MIT / MIT
+   :license: APACHE / Apache-2.0
    :recipe: /`pgscatalog.match <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pgscatalog.match>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pgscatalog.match/meta.yaml>`_
 
    
@@ -29,14 +29,14 @@ pgscatalog.match
       
       
 
-      ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
+      ``0.4.0-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
 
       
 
    
-   :depends pgscatalog.core: ``>=0.3.0,<0.4.0``
-   :depends polars: ``0.20.30.*``
-   :depends pyarrow: ``>=15.0.0,<16.0.0``
+   :depends pgscatalog.core: ``>=0.3.3``
+   :depends polars: ``0.20.30``
+   :depends pyarrow: ``>=15.0.0``
    :depends python: ``>=3.10``
    :requirements:
 
@@ -88,7 +88,7 @@ pgscatalog.match
 
     <script>
         var package = "pgscatalog.match";
-        var versions = ["0.3.3","0.3.2","0.3.1","0.3.0","0.2.3"];
+        var versions = ["0.4.0","0.3.3","0.3.2","0.3.1","0.3.0"];
     </script>
 
 

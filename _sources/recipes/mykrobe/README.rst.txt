@@ -10,11 +10,14 @@ mykrobe
    :replaces_section_title:
    :noindex:
 
-   Antibiotic resistance prediction in minutes
+   Antibiotic resistance prediction in minutes.
 
    :homepage: https://github.com/Mykrobe-tools/mykrobe
-   :license: MIT
+   :documentation: https://github.com/Mykrobe-tools/mykrobe/wiki
+   
+   :license: MIT / MIT
    :recipe: /`mykrobe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mykrobe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mykrobe/meta.yaml>`_
+   :links: doi: :doi:`10.12688/wellcomeopenres.15603.1`, biotools: :biotools:`Mykrobe`
 
    Rapid antibiotic\-resistance predictions from genome sequence data for Staphylococcus aureus and Mycobacterium tuberculosis.
 
@@ -28,10 +31,10 @@ mykrobe
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.13.0-4</code>,  <code>0.13.0-3</code>,  <code>0.13.0-2</code>,  <code>0.13.0-1</code>,  <code>0.13.0-0</code>,  <code>0.12.2-1</code>,  <code>0.12.2-0</code>,  <code>0.12.1-2</code>,  <code>0.12.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.13.0-5</code>,  <code>0.13.0-4</code>,  <code>0.13.0-3</code>,  <code>0.13.0-2</code>,  <code>0.13.0-1</code>,  <code>0.13.0-0</code>,  <code>0.12.2-1</code>,  <code>0.12.2-0</code>,  <code>0.12.1-2</code>,  </span></summary>
       
 
-      ``0.13.0-4``,  ``0.13.0-3``,  ``0.13.0-2``,  ``0.13.0-1``,  ``0.13.0-0``,  ``0.12.2-1``,  ``0.12.2-0``,  ``0.12.1-2``,  ``0.12.1-1``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.0-1``,  ``0.11.0-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.0-3``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.0-5``,  ``0.7.0-4``,  ``0.7.0-3``,  ``0.7.0-2``,  ``0.7.0-0``,  ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.6-1``,  ``0.5.6-0``
+      ``0.13.0-5``,  ``0.13.0-4``,  ``0.13.0-3``,  ``0.13.0-2``,  ``0.13.0-1``,  ``0.13.0-0``,  ``0.12.2-1``,  ``0.12.2-0``,  ``0.12.1-2``,  ``0.12.1-1``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.0-1``,  ``0.11.0-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.0-3``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.0-5``,  ``0.7.0-4``,  ``0.7.0-3``,  ``0.7.0-2``,  ``0.7.0-0``,  ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.6-1``,  ``0.5.6-0``
 
       
       .. raw:: html
@@ -45,23 +48,22 @@ mykrobe
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends mongodb: ``>3.0``
-   :depends mongoengine: ``>=0.18.0``
+   :depends mongodb: 
+   :depends mongoengine: ``>=0.24.1``
    :depends numpy: ``>=1.22.4,<2.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends pyvcf3: ``>=1.0.3``
+   :depends pyvcf3: ``>=1.0.4,<2.0a0``
    :depends requests: 
    :depends setuptools: 
-   :depends wget: 
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

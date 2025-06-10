@@ -10,12 +10,12 @@ pgscatalog-utils
    :replaces_section_title:
    :noindex:
 
-   Utilities for working with PGS Catalog API and scoring files
+   Utilities for working with PGS Catalog API and scoring files.
 
    :homepage: https://github.com/PGScatalog/pygscatalog
-   :documentation: https://pygscatalog.readthedocs.io/en/latest/
+   :documentation: https://pygscatalog.readthedocs.io/en/latest
    
-   :license: Apache / Apache-2.0
+   :license: APACHE / Apache-2.0
    :recipe: /`pgscatalog-utils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pgscatalog-utils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pgscatalog-utils/meta.yaml>`_
 
    
@@ -30,10 +30,10 @@ pgscatalog-utils
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.4-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.0-0</code>,  <code>1.4.4-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
       
 
-      ``1.4.4-0``,  ``1.4.2-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``
+      ``2.0.0-0``,  ``1.4.4-0``,  ``1.4.2-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``
 
       
       .. raw:: html
@@ -45,7 +45,7 @@ pgscatalog-utils
    :depends pgscatalog.calc: ``>=0.3.0,<0.4.0``
    :depends pgscatalog.core: ``>=0.3.3,<0.4.0``
    :depends pgscatalog.match: ``>=0.3.3,<0.4.0``
-   :depends python: ``>=3.10.0,<4.0.0``
+   :depends python: ``>=3.10.0``
    :requirements:
 
    :additional platforms:
@@ -96,7 +96,7 @@ pgscatalog-utils
 
     <script>
         var package = "pgscatalog-utils";
-        var versions = ["1.4.4","1.4.2","1.4.1","1.4.1","1.4.0"];
+        var versions = ["2.0.0","1.4.4","1.4.2","1.4.1","1.4.1"];
     </script>
 
 

@@ -31,7 +31,7 @@ pgenlib
       
       
 
-      ``0.92.1-0``,  ``0.91.0-1``,  ``0.91.0-0``,  ``0.90.2-1``,  ``0.90.2-0``,  ``0.90.1-0``
+      ``0.93.0-0``,  ``0.92.1-0``,  ``0.91.0-1``,  ``0.91.0-0``,  ``0.90.2-1``,  ``0.90.2-0``,  ``0.90.1-0``
 
       
 
@@ -39,10 +39,11 @@ pgenlib
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends numpy: ``>=1.19.0``
+   :depends numpy: ``>=1.19.3``
    :depends numpy: ``>=1.21,<3``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
+   :depends setuptools: ``<81``
    :requirements:
 
    :additional platforms:
@@ -97,7 +98,7 @@ pgenlib
 
     <script>
         var package = "pgenlib";
-        var versions = ["0.92.1","0.91.0","0.91.0","0.90.2","0.90.2"];
+        var versions = ["0.93.0","0.92.1","0.91.0","0.91.0","0.90.2"];
     </script>
 
 

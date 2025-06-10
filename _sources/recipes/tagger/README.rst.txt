@@ -12,8 +12,10 @@ tagger
 
    tagger allows you to tag a corpus of documents with search terms that you provide. It is often used to find mentions of proteins\, species\, diseases\, tissues\, chemicals and drugs\, GO terms\, and so forth\, in articles in the Medline corpus.
 
-   :homepage: https://bitbucket.org/larsjuhljensen/tagger
-   :license: BSD / BSD 2-Clause License
+   :homepage: https://github.com/larsjuhljensen/tagger
+   :documentation: https://github.com/larsjuhljensen/tagger/blob/1.1/README.md
+   
+   :license: BSD / BSD-2-Clause
    :recipe: /`tagger <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tagger>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tagger/meta.yaml>`_
 
    
@@ -27,18 +29,23 @@ tagger
       
       
 
-      ``1.1-0``
+      ``1.1-2``,  ``1.1-0``
 
       
 
    
-   :depends boost: ``>=1.67.0,<1.67.1.0a0``
-   :depends libstdcxx-ng: ``>=4.9``
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends swig: 
+   :depends boost-cpp: 
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -86,7 +93,7 @@ tagger
 
     <script>
         var package = "tagger";
-        var versions = ["1.1"];
+        var versions = ["1.1","1.1"];
     </script>
 
 

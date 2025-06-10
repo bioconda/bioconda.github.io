@@ -10,10 +10,12 @@ tower-cli
    :replaces_section_title:
    :noindex:
 
-   The Tower CLI an interface to Nextflow Tower via the CLI
+   The Tower CLI an interface to Nextflow Tower via the CLI.
 
    :homepage: https://github.com/seqeralabs/tower-cli
-   :license: MPL-2.0
+   :documentation: https://docs.seqera.io/platform-cloud/platform-cloud
+   
+   :license: APACHE / Apache-2.0
    :recipe: /`tower-cli <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tower-cli>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tower-cli/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ tower-cli
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.11.5-0</code>,  <code>0.11.4-0</code>,  <code>0.11.3-0</code>,  <code>0.11.2-0</code>,  <code>0.11.1-0</code>,  <code>0.11.0-0</code>,  <code>0.10.3-1</code>,  <code>0.10.3-0</code>,  <code>0.9.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.12.0-0</code>,  <code>0.11.5-0</code>,  <code>0.11.4-0</code>,  <code>0.11.3-0</code>,  <code>0.11.2-0</code>,  <code>0.11.1-0</code>,  <code>0.11.0-0</code>,  <code>0.10.3-1</code>,  <code>0.10.3-0</code>,  </span></summary>
       
 
-      ``0.11.5-0``,  ``0.11.4-0``,  ``0.11.3-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.3-1``,  ``0.10.3-0``,  ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.0-0``
+      ``0.12.0-0``,  ``0.11.5-0``,  ``0.11.4-0``,  ``0.11.3-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.3-1``,  ``0.10.3-0``,  ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.0-0``
 
       
       .. raw:: html
@@ -91,7 +93,7 @@ tower-cli
 
     <script>
         var package = "tower-cli";
-        var versions = ["0.11.5","0.11.4","0.11.3","0.11.2","0.11.1"];
+        var versions = ["0.12.0","0.11.5","0.11.4","0.11.3","0.11.2"];
     </script>
 
 

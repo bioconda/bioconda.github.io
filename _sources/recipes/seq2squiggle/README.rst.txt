@@ -27,7 +27,7 @@ seq2squiggle
       
       
 
-      ``0.3.1-0``,  ``0.3.0-0``
+      ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``
 
       
 
@@ -101,7 +101,7 @@ seq2squiggle
 
     <script>
         var package = "seq2squiggle";
-        var versions = ["0.3.1","0.3.0"];
+        var versions = ["0.3.2","0.3.1","0.3.0"];
     </script>
 
 

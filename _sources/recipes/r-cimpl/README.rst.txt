@@ -12,8 +12,11 @@ r-cimpl
 
    An analysis package for multi sample insertional mutagenesis data \(including viral\- and transposon\-based systems\) using Gaussian kernel convolution to identify common insertion sites.
 
-   :homepage: http://ccb.nki.nl/software/
-   :license: GPL-3
+   :homepage: https://www.nki.nl/research/research-groups/lodewyk-wessels/our-resources
+   :documentation: https://github.com/NKI-CCB/cimpl/blob/v1.1/README.md
+   
+   :developer docs: https://github.com/NKI-CCB/cimpl
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`r-cimpl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-cimpl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-cimpl/meta.yaml>`_
 
    
@@ -27,13 +30,13 @@ r-cimpl
       
       
 
-      ``1.1-7``,  ``1.1-6``,  ``1.1-5``,  ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-0``
+      ``1.1-8``,  ``1.1-7``,  ``1.1-6``,  ``1.1-5``,  ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-0``
 
       
 
    
-   :depends bioconductor-biomart: ``>=2.62.0,<2.63.0a0``
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0a0``
+   :depends bioconductor-biomart: 
+   :depends bioconductor-biostrings: 
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-kernsmooth: 
    :depends r-mass: 
