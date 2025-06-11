@@ -15,7 +15,6 @@ sat-bsa
    :homepage: https://github.com/SegawaTenta/Sat-BSA
    :license: GPL / GPL-3.0-or-later
    :recipe: /`sat-bsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sat-bsa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sat-bsa/meta.yaml>`_
-   :links: biotools: :biotools:`sta-bsa`
 
    
 

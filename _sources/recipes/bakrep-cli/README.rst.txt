@@ -13,7 +13,7 @@ bakrep-cli
    BakRep\-CLI\: a commandline tool for the batch download of BakRep datasets
 
    :homepage: https://github.com/oschwengers/bakrep-cli
-   :documentation: https://github.com/ag-computational-bio/bakrep-cli/blob/v1.0.0/README.md
+   :documentation: https://github.com/ag-computational-bio/bakrep-cli/blob/v1.1.0/README.md
    
    :developer docs: https://github.com/ag-computational-bio/bakrep-cli
    :license: GPL3 / GPL-3.0-or-later
@@ -31,7 +31,7 @@ bakrep-cli
       
       
 
-      ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -88,7 +88,7 @@ bakrep-cli
 
     <script>
         var package = "bakrep-cli";
-        var versions = ["1.0.0"];
+        var versions = ["1.1.0","1.0.0"];
     </script>
 
 
