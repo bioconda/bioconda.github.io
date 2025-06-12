@@ -32,7 +32,7 @@ heliano
       
       
 
-      ``1.2.1-0``
+      ``1.3.1-0``,  ``1.2.1-0``
 
       
 
@@ -102,7 +102,7 @@ heliano
 
     <script>
         var package = "heliano";
-        var versions = ["1.2.1"];
+        var versions = ["1.3.1","1.2.1"];
     </script>
 
 

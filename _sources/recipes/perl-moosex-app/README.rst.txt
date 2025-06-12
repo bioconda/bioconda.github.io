@@ -10,9 +10,9 @@ perl-moosex-app
    :replaces_section_title:
    :noindex:
 
-   Write user\-friendly command line apps with even less suffering
+   Write user\-friendly command line apps with even less suffering.
 
-   :homepage: http://metacpan.org/pod/MooseX::App
+   :homepage: https://metacpan.org/pod/MooseX::App
    :license: perl_5
    :recipe: /`perl-moosex-app <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-app>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-app/meta.yaml>`_
 
@@ -28,10 +28,10 @@ perl-moosex-app
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3701-2</code>,  <code>1.3701-1</code>,  <code>1.3701-0</code>,  <code>1.42-0</code>,  <code>1.39-4</code>,  <code>1.39-3</code>,  <code>1.39-2</code>,  <code>1.39-1</code>,  <code>1.39-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3701-2</code>,  <code>1.3701-1</code>,  <code>1.3701-0</code>,  <code>1.43-0</code>,  <code>1.42-0</code>,  <code>1.39-4</code>,  <code>1.39-3</code>,  <code>1.39-2</code>,  <code>1.39-1</code>,  </span></summary>
       
 
-      ``1.3701-2``,  ``1.3701-1``,  ``1.3701-0``,  ``1.42-0``,  ``1.39-4``,  ``1.39-3``,  ``1.39-2``,  ``1.39-1``,  ``1.39-0``,  ``1.35-2``,  ``1.35-1``,  ``1.35-0``
+      ``1.3701-2``,  ``1.3701-1``,  ``1.3701-0``,  ``1.43-0``,  ``1.42-0``,  ``1.39-4``,  ``1.39-3``,  ``1.39-2``,  ``1.39-1``,  ``1.39-0``,  ``1.35-2``,  ``1.35-1``,  ``1.35-0``
 
       
       .. raw:: html
@@ -100,7 +100,7 @@ perl-moosex-app
 
     <script>
         var package = "perl-moosex-app";
-        var versions = ["1.3701","1.3701","1.3701","1.42","1.39"];
+        var versions = ["1.3701","1.3701","1.3701","1.43","1.42"];
     </script>
 
 

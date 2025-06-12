@@ -10,9 +10,9 @@ cogtriangles
    :replaces_section_title:
    :noindex:
 
-   low\-polynomial algorithm for assembling clusters of orthologous groups from intergenomic symmetric best matches
+   Low\-polynomial algorithm for assembling clusters of orthologous groups from intergenomic symmetric best matches.
 
-   :homepage: https://ftp.ncbi.nih.gov/pub/wolf/COGs/COGsoft/
+   :homepage: https://ftp.ncbi.nih.gov/pub/wolf/COGs/COGsoft
    :license: Public Domain
    :recipe: /`cogtriangles <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cogtriangles>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cogtriangles/meta.yaml>`_
    :links: biotools: :biotools:`cogtriangles`, doi: :doi:`10.1093/bioinformatics/btq229`
@@ -28,7 +28,7 @@ cogtriangles
       
       
 
-      ``2012.04-3``,  ``2012.04-2``,  ``2012.04-1``,  ``2012.04-0``
+      ``2012.04-4``,  ``2012.04-3``,  ``2012.04-2``,  ``2012.04-1``,  ``2012.04-0``
 
       
 
@@ -38,6 +38,10 @@ cogtriangles
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -85,7 +89,7 @@ cogtriangles
 
     <script>
         var package = "cogtriangles";
-        var versions = ["2012.04","2012.04","2012.04","2012.04"];
+        var versions = ["2012.04","2012.04","2012.04","2012.04","2012.04"];
     </script>
 
 

@@ -15,7 +15,7 @@ instanovo
    :homepage: https://github.com/instadeepai/instanovo
    :license: APACHE / Apache-2.0
    :recipe: /`instanovo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/instanovo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/instanovo/meta.yaml>`_
-   :links: doi: :doi:`10.1101/2023.08.30.555055`
+   :links: doi: :doi:`10.1038/s42256-025-01019-5`
 
    
 
@@ -28,33 +28,35 @@ instanovo
       
       
 
-      ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.0-0``
+      ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends datasets: 
-   :depends gitpython: 
-   :depends hydra-core: 
-   :depends jaxtyping: 
-   :depends jiwer: 
-   :depends matchms: 
-   :depends neptune: 
-   :depends numpy: 
-   :depends omegaconf: 
-   :depends pandas: 
-   :depends polars: 
-   :depends pyteomics: 
+   :depends datasets: ``>=3.1.0``
+   :depends gitpython: ``>=3.1.44``
+   :depends hydra-core: ``>=1.3.2``
+   :depends jaxtyping: ``>=0.2.34``
+   :depends jiwer: ``>=3.0.5``
+   :depends lightning: ``>=2.5.1``
+   :depends matchms: ``>=0.28.1``
+   :depends neptune: ``>=1.13.0``
+   :depends numpy: ``>=2.0.2``
+   :depends omegaconf: ``>=2.3.0``
+   :depends pandas: ``>=2.2.3``
+   :depends polars: ``>=1.12.0``
+   :depends pyteomics: ``>=4.7.5``
    :depends python: ``>=3.10,<3.13``
-   :depends python-dotenv: 
-   :depends pytorch-lightning: 
-   :depends pyyaml: 
-   :depends s3fs: 
-   :depends scikit-learn: 
-   :depends spectrum_utils: 
-   :depends tensorboard: 
-   :depends tqdm: 
-   :depends typer: 
+   :depends python-dotenv: ``>=1.0.1``
+   :depends pyyaml: ``>=6.0.2``
+   :depends requests: ``>=2.32.3``
+   :depends s3fs: ``>=2024.9.0``
+   :depends scikit-learn: ``>=1.5.2``
+   :depends spectrum_utils: ``>=0.4.2``
+   :depends tensorboard: ``>=2.18.0``
+   :depends tqdm: ``>=4.67.0``
+   :depends transfusion-asr: ``>=0.1.0``
+   :depends typer: ``>=0.15.1``
    :requirements:
 
    :additional platforms:
@@ -105,7 +107,7 @@ instanovo
 
     <script>
         var package = "instanovo";
-        var versions = ["1.1.3","1.1.2","1.1.1","1.0.0"];
+        var versions = ["1.1.3","1.1.3","1.1.2","1.1.1","1.0.0"];
     </script>
 
 

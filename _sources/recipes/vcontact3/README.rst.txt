@@ -13,7 +13,7 @@ vcontact3
    Viral Contig Automatic Clustering and Taxonomy.
 
    :homepage: https://bitbucket.org/MAVERICLab/vcontact3
-   :documentation: https://bitbucket.org/MAVERICLab/vcontact3/src/3.0.3/README.md
+   :documentation: https://bitbucket.org/MAVERICLab/vcontact3/src/3.0.5/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`vcontact3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcontact3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcontact3/meta.yaml>`_
@@ -29,7 +29,7 @@ vcontact3
       
       
 
-      ``3.0.3-0``,  ``3.0.0.b74-0``,  ``3.0.0.b65-0``,  ``3.0.0.b38-0``
+      ``3.0.5-0``,  ``3.0.3-0``,  ``3.0.0.b74-0``,  ``3.0.0.b65-0``,  ``3.0.0.b38-0``
 
       
 
@@ -37,7 +37,7 @@ vcontact3
    :depends biopython: ``>=1.81``
    :depends dill: ``>=0.3.6``
    :depends ete3: ``>=3.1.3``
-   :depends fastcluster: ``>=1.2.6``
+   :depends fastcluster: ``<=1.2.6``
    :depends jinja2: ``>=3.1.6``
    :depends joblib: ``>=1.2.0``
    :depends markupsafe: ``>=2.0.1``
@@ -51,7 +51,7 @@ vcontact3
    :depends pyrodigal: ``>=2.3.0``
    :depends pyrodigal-gv: ``>=0.3.1``
    :depends pytables: ``>=3.8.0``
-   :depends python: ``<3.12``
+   :depends python: ``>=3.10,<3.12``
    :depends scikit-bio: ``>=0.5.8``
    :depends scikit-learn: ``>=1.5.0``
    :depends scipy: ``>=1.10.1``
@@ -109,7 +109,7 @@ vcontact3
 
     <script>
         var package = "vcontact3";
-        var versions = ["3.0.3","3.0.0.b74","3.0.0.b65","3.0.0.b38"];
+        var versions = ["3.0.5","3.0.3","3.0.0.b74","3.0.0.b65","3.0.0.b38"];
     </script>
 
 

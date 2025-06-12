@@ -10,11 +10,14 @@ plannotate
    :replaces_section_title:
    :noindex:
 
-   Webserver and command line tool for annotating engineered plasmids
+   Webserver and command line tool for annotating engineered plasmids.
 
    :homepage: https://github.com/mmcguffi/pLannotate
-   :license: GPL-3.0-or-later
+   :documentation: https://github.com/mmcguffi/pLannotate/blob/v1.2.4/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`plannotate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plannotate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plannotate/meta.yaml>`_
+   :links: biotools: :biotools:`plannotate`
 
    
 
@@ -27,7 +30,7 @@ plannotate
       
       
 
-      ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-4``,  ``1.2.0-3``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-4``,  ``1.2.0-3``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
@@ -42,7 +45,6 @@ plannotate
    :depends numpy: 
    :depends pandas: ``>=1.3.5,<2.0.0``
    :depends protobuf: ``3.20.*``
-   :depends python: ``>=3.9``
    :depends python: ``>=3.9,<3.13``
    :depends ripgrep: ``>=13.0.0``
    :depends streamlit: ``1.8.1.*``
@@ -98,7 +100,7 @@ plannotate
 
     <script>
         var package = "plannotate";
-        var versions = ["1.2.3","1.2.2","1.2.1","1.2.0","1.2.0"];
+        var versions = ["1.2.4","1.2.3","1.2.2","1.2.1","1.2.0"];
     </script>
 
 

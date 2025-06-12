@@ -10,10 +10,10 @@ perl-html-tagset
    :replaces_section_title:
    :noindex:
 
-   data tables useful in parsing HTML
+   Data tables useful in parsing HTML.
 
-   :homepage: http://metacpan.org/pod/HTML::Tagset
-   :license: unknown
+   :homepage: https://metacpan.org/pod/HTML::Tagset
+   :license: Unknown
    :recipe: /`perl-html-tagset <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-tagset>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-tagset/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-html-tagset
       
       
 
-      ``3.20-4``,  ``3.20-3``,  ``3.20-2``,  ``3.20-1``,  ``3.20-0``
+      ``3.24-0``,  ``3.20-4``,  ``3.20-3``,  ``3.20-2``,  ``3.20-1``,  ``3.20-0``
 
       
 
@@ -83,7 +83,7 @@ perl-html-tagset
 
     <script>
         var package = "perl-html-tagset";
-        var versions = ["3.20","3.20","3.20","3.20","3.20"];
+        var versions = ["3.24","3.20","3.20","3.20","3.20"];
     </script>
 
 

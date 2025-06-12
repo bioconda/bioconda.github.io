@@ -10,10 +10,10 @@ tadlib
    :replaces_section_title:
    :noindex:
 
-   A Library to Explore Chromatin Interaction Patterns for Topologically Associating Domains
+   A Library to Explore Chromatin Interaction Patterns for Topologically Associating Domains.
 
-   :homepage: https://github.com/XiaoTaoWang/TADLib/
-   :license: GPL3 / GPLv3
+   :homepage: https://github.com/XiaoTaoWang/TADLib
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`tadlib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tadlib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tadlib/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ tadlib
       
       
 
-      ``0.4.5.post1-0``
+      ``0.4.5.post1-1``,  ``0.4.5.post1-0``
 
       
 
@@ -35,9 +35,8 @@ tadlib
    :depends cooler: 
    :depends matplotlib-base: 
    :depends numpy: 
-   :depends pomegranate: 
+   :depends pomegranate: ``<1.0.0``
    :depends python: ``>=3.5``
-   :depends python_abi: 
    :depends scikit-learn: 
    :depends scipy: 
    :requirements:
@@ -90,7 +89,7 @@ tadlib
 
     <script>
         var package = "tadlib";
-        var versions = ["0.4.5.post1"];
+        var versions = ["0.4.5.post1","0.4.5.post1"];
     </script>
 
 

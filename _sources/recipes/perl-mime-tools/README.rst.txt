@@ -10,9 +10,9 @@ perl-mime-tools
    :replaces_section_title:
    :noindex:
 
-   Tools to manipulate MIME messages
+   Tools to manipulate MIME messages.
 
-   :homepage: http://metacpan.org/pod/MIME-tools
+   :homepage: https://metacpan.org/pod/MIME-tools
    :license: perl_5
    :recipe: /`perl-mime-tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mime-tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mime-tools/meta.yaml>`_
 
@@ -27,7 +27,7 @@ perl-mime-tools
       
       
 
-      ``5.508-2``,  ``5.508-1``,  ``5.508-0``,  ``5.507-1``,  ``5.507-0``
+      ``5.515-0``,  ``5.508-2``,  ``5.508-1``,  ``5.508-0``,  ``5.507-1``,  ``5.507-0``
 
       
 
@@ -85,7 +85,7 @@ perl-mime-tools
 
     <script>
         var package = "perl-mime-tools";
-        var versions = ["5.508","5.508","5.508","5.507","5.507"];
+        var versions = ["5.515","5.508","5.508","5.508","5.507"];
     </script>
 
 

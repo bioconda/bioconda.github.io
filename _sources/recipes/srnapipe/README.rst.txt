@@ -10,7 +10,7 @@ srnapipe
    :replaces_section_title:
    :noindex:
 
-   Pipeline for bioinformatic in\-depth exploration of small RNA\-seq data
+   Pipeline for bioinformatic in\-depth exploration of small RNA\-seq data.
 
    :homepage: https://github.com/GReD-Clermont/sRNAPipe-cli
    :license: Academic Free License v3.0
@@ -27,13 +27,12 @@ srnapipe
       
       
 
-      ``1.2-0``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1-3``,  ``1.1-0``
+      ``1.2.1-0``,  ``1.2-0``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1-3``,  ``1.1-0``
 
       
 
    
    :depends bedtools: ``>=2.24.0``
-   :depends bioconductor-sushi: 
    :depends bwa: ``>=0.7.12``
    :depends fonts-conda-ecosystem: 
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
@@ -43,7 +42,7 @@ srnapipe
    :depends perl-parallel-forkmanager: 
    :depends perl-statistics-r: 
    :depends perl-string-random: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: 
    :depends r-plotrix: 
    :depends r-rcolorbrewer: 
@@ -98,7 +97,7 @@ srnapipe
 
     <script>
         var package = "srnapipe";
-        var versions = ["1.2","1.1.1","1.1.1","1.1.1","1.1.1"];
+        var versions = ["1.2.1","1.2","1.1.1","1.1.1","1.1.1"];
     </script>
 
 

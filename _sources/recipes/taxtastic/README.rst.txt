@@ -28,10 +28,10 @@ taxtastic
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.11.0-0</code>,  <code>0.10.0-1</code>,  <code>0.10.0-0</code>,  <code>0.9.3-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.8.11-0</code>,  <code>0.8.9-0</code>,  <code>0.8.5-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.12.0-0</code>,  <code>0.11.0-0</code>,  <code>0.10.0-1</code>,  <code>0.10.0-0</code>,  <code>0.9.3-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.8.11-0</code>,  <code>0.8.9-0</code>,  </span></summary>
       
 
-      ``0.11.0-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.8.11-0``,  ``0.8.9-0``,  ``0.8.5-2``,  ``0.8.5-0``,  ``0.5.4-0``
+      ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.8.11-0``,  ``0.8.9-0``,  ``0.8.5-2``,  ``0.8.5-0``,  ``0.5.4-0``
 
       
       .. raw:: html
@@ -99,7 +99,7 @@ taxtastic
 
     <script>
         var package = "taxtastic";
-        var versions = ["0.11.0","0.10.0","0.10.0","0.9.3","0.9.2"];
+        var versions = ["0.12.0","0.11.0","0.10.0","0.10.0","0.9.3"];
     </script>
 
 

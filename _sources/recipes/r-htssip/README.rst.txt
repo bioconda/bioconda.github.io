@@ -10,7 +10,7 @@ r-htssip
    :replaces_section_title:
    :noindex:
 
-   Functions for analyzing high throughput sequencing  stable isotope probing \(HTS\-SIP\) data. Analyses include high resolution stable isotope probing \(HR\-SIP\)\, multi\-window high resolution stable isotope probing \(MW\-HR\-SIP\)\,  and quantitative stable isotope probing \(q\-SIP\). 
+   Functions for analyzing high throughput sequencing  stable isotope probing \(HTS\-SIP\) data.
 
    :homepage: https://CRAN.R-project.org/package=HTSSIP
    :license: GPL2 / GPL-2
@@ -28,10 +28,10 @@ r-htssip
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.1-6</code>,  <code>1.4.1-5</code>,  <code>1.4.1-4</code>,  <code>1.4.1-3</code>,  <code>1.4.1-2</code>,  <code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.4.0-3</code>,  <code>1.4.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.1-7</code>,  <code>1.4.1-6</code>,  <code>1.4.1-5</code>,  <code>1.4.1-4</code>,  <code>1.4.1-3</code>,  <code>1.4.1-2</code>,  <code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.4.0-3</code>,  </span></summary>
       
 
-      ``1.4.1-6``,  ``1.4.1-5``,  ``1.4.1-4``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-3``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
+      ``1.4.1-7``,  ``1.4.1-6``,  ``1.4.1-5``,  ``1.4.1-4``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-3``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
 
       
       .. raw:: html

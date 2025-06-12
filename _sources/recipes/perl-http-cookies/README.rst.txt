@@ -10,7 +10,7 @@ perl-http-cookies
    :replaces_section_title:
    :noindex:
 
-   HTTP cookie jars
+   HTTP cookie jars.
 
    :homepage: https://github.com/libwww-perl/http-cookies
    :license: perl_5
@@ -27,7 +27,7 @@ perl-http-cookies
       
       
 
-      ``6.10-0``,  ``6.04-1``,  ``6.04-0``,  ``6.01-1``,  ``6.01-0``
+      ``6.11-0``,  ``6.10-0``,  ``6.04-1``,  ``6.04-0``,  ``6.01-1``,  ``6.01-0``
 
       
 
@@ -87,7 +87,7 @@ perl-http-cookies
 
     <script>
         var package = "perl-http-cookies";
-        var versions = ["6.10","6.04","6.04","6.01","6.01"];
+        var versions = ["6.11","6.10","6.04","6.04","6.01"];
     </script>
 
 
