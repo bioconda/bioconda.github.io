@@ -10,7 +10,7 @@ perl-html-form
    :replaces_section_title:
    :noindex:
 
-   Class that represents an HTML form element
+   Class that represents an HTML form element.
 
    :homepage: https://metacpan.org/pod/HTML::Form
    :license: perl_5
@@ -27,7 +27,7 @@ perl-html-form
       
       
 
-      ``6.07-0``,  ``6.04-1``,  ``6.04-0``,  ``6.03-1``,  ``6.03-0``
+      ``6.11-0``,  ``6.07-0``,  ``6.04-1``,  ``6.04-0``,  ``6.03-1``,  ``6.03-0``
 
       
 
@@ -98,7 +98,7 @@ perl-html-form
 
     <script>
         var package = "perl-html-form";
-        var versions = ["6.07","6.04","6.04","6.03","6.03"];
+        var versions = ["6.11","6.07","6.04","6.04","6.03"];
     </script>
 
 

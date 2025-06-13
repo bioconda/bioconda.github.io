@@ -10,10 +10,10 @@ perl-archive-tar
    :replaces_section_title:
    :noindex:
 
-   Manipulates TAR archives
+   Manipulates TAR archives.
 
-   :homepage: http://metacpan.org/pod/Archive::Tar
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/Archive::Tar
+   :license: Perl_5
    :recipe: /`perl-archive-tar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-archive-tar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-archive-tar/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-archive-tar
       
       
 
-      ``2.40-0``,  ``2.32-1``,  ``2.32-0``,  ``2.18-3``,  ``2.18-2``,  ``2.18-1``
+      ``3.04-0``,  ``2.40-0``,  ``2.32-1``,  ``2.32-0``,  ``2.18-3``,  ``2.18-2``,  ``2.18-1``
 
       
 
@@ -86,7 +86,7 @@ perl-archive-tar
 
     <script>
         var package = "perl-archive-tar";
-        var versions = ["2.40","2.32","2.32","2.18","2.18"];
+        var versions = ["3.04","2.40","2.32","2.32","2.18"];
     </script>
 
 

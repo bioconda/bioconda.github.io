@@ -13,11 +13,14 @@ gpsw
    GPSW is a tool for analysing Global Protein Stability Profiling data.
 
    :homepage: https://github.com/niekwit/gps-orfeome
+   :documentation: https://gps-orfeome.readthedocs.io/
+   
    :license: MIT / MIT
    :recipe: /`gpsw <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gpsw>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gpsw/meta.yaml>`_
    :links: doi: :doi:`10.5281/zenodo.15473715`
 
-   
+   GPSW is a wrapper around a Snakemake workflow that analyses Global Protein Stability \(GPS\) Profiling data. GPS profiling is a powerfull genetic technique to study degron or protein stability at a massive scale in an unbiased manner.
+
 
 
 .. conda:package:: gpsw
@@ -28,15 +31,18 @@ gpsw
       
       
 
-      ``0.6.3-0``
+      ``0.7.0-0``,  ``0.6.3-0``
 
       
 
    
    :depends apptainer: ``1.4.0``
+   :depends conda: ``24.7.1``
    :depends numpy: ``2.2.6``
+   :depends pandas: ``2.2.3``
    :depends pydot: ``3.0.4``
    :depends pygithub: ``2.6.1``
+   :depends pygments: 
    :depends python: ``3.12``
    :depends snakemake-minimal: ``8.25.5``
    :requirements:
@@ -89,7 +95,7 @@ gpsw
 
     <script>
         var package = "gpsw";
-        var versions = ["0.6.3"];
+        var versions = ["0.7.0","0.6.3"];
     </script>
 
 

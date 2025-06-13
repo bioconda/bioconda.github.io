@@ -13,7 +13,7 @@ lumpy-sv-minimal
    A general probabilistic framework for structural variant discovery. This package contains only the lumpy executable
 
    :homepage: https://github.com/arq5x/lumpy-sv
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`lumpy-sv-minimal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lumpy-sv-minimal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lumpy-sv-minimal/meta.yaml>`_
 
    
@@ -27,19 +27,22 @@ lumpy-sv-minimal
       
       
 
-      ``0.3.1-5``,  ``0.3.1-4``,  ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``
+      ``0.3.1-6``,  ``0.3.1-5``,  ``0.3.1-4``,  ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``
 
       
 
    
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends htslib: ``>=1.22,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

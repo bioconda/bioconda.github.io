@@ -10,11 +10,14 @@ minipolish
    :replaces_section_title:
    :noindex:
 
-   A tool for Racon polishing of miniasm assemblies
+   A tool for Racon polishing miniasm assemblies.
 
    :homepage: https://github.com/rrwick/Minipolish
-   :license: GPLv3
+   :documentation: https://github.com/rrwick/Minipolish/blob/v0.2.0/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`minipolish <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minipolish>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minipolish/meta.yaml>`_
+   :links: doi: :doi:`10.12688/f1000research.21782.4`, biotools: :biotools:`minipolish`, usegalaxy-eu: :usegalaxy-eu:`minipolish`
 
    
 
@@ -27,13 +30,13 @@ minipolish
       
       
 
-      ``0.1.3-0``,  ``0.1.2-0``
+      ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
 
    
    :depends minimap2: 
-   :depends python: ``>=3``
+   :depends python: ``>=3.6``
    :depends python-edlib: 
    :depends racon: 
    :requirements:
@@ -86,7 +89,7 @@ minipolish
 
     <script>
         var package = "minipolish";
-        var versions = ["0.1.3","0.1.2"];
+        var versions = ["0.2.0","0.1.3","0.1.2"];
     </script>
 
 

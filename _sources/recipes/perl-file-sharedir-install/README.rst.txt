@@ -10,7 +10,7 @@ perl-file-sharedir-install
    :replaces_section_title:
    :noindex:
 
-   Install shared files
+   Install shared files.
 
    :homepage: https://github.com/Perl-Toolchain-Gang/File-ShareDir-Install
    :license: perl_5
@@ -27,7 +27,7 @@ perl-file-sharedir-install
       
       
 
-      ``0.13-1``,  ``0.13-0``,  ``0.10-4``,  ``0.10-3``,  ``0.10-2``,  ``0.10-1``,  ``0.10-0``
+      ``0.14-0``,  ``0.13-1``,  ``0.13-0``,  ``0.10-4``,  ``0.10-3``,  ``0.10-2``,  ``0.10-1``,  ``0.10-0``
 
       
 
@@ -85,7 +85,7 @@ perl-file-sharedir-install
 
     <script>
         var package = "perl-file-sharedir-install";
-        var versions = ["0.13","0.13","0.10","0.10","0.10"];
+        var versions = ["0.14","0.13","0.13","0.10","0.10"];
     </script>
 
 

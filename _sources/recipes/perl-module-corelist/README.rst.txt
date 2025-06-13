@@ -10,10 +10,10 @@ perl-module-corelist
    :replaces_section_title:
    :noindex:
 
-   what modules shipped with versions of perl
+   What modules shipped with versions of perl.
 
    :homepage: https://metacpan.org/pod/Module::CoreList
-   :license: perl_5
+   :license: Perl_5
    :recipe: /`perl-module-corelist <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-corelist>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-corelist/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ perl-module-corelist
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.20220620-0</code>,  <code>5.20220527-0</code>,  <code>5.20220420-0</code>,  <code>5.20220320-0</code>,  <code>5.20220313-0</code>,  <code>5.20220220-0</code>,  <code>5.20220120-0</code>,  <code>5.20190524-1</code>,  <code>5.20190524-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.20250528-0</code>,  <code>5.20230220-0</code>,  <code>5.20220620-0</code>,  <code>5.20220527-0</code>,  <code>5.20220420-0</code>,  <code>5.20220320-0</code>,  <code>5.20220313-0</code>,  <code>5.20220220-0</code>,  <code>5.20220120-0</code>,  </span></summary>
       
 
-      ``5.20220620-0``,  ``5.20220527-0``,  ``5.20220420-0``,  ``5.20220320-0``,  ``5.20220313-0``,  ``5.20220220-0``,  ``5.20220120-0``,  ``5.20190524-1``,  ``5.20190524-0``,  ``5.20190420-0``,  ``5.20181218-0``,  ``5.20181130-0``,  ``5.20180820-0``,  ``5.20180626-0``,  ``5.20180120-1``,  ``5.20180120-0``
+      ``5.20250528-0``,  ``5.20230220-0``,  ``5.20220620-0``,  ``5.20220527-0``,  ``5.20220420-0``,  ``5.20220320-0``,  ``5.20220313-0``,  ``5.20220220-0``,  ``5.20220120-0``,  ``5.20190524-1``,  ``5.20190524-0``,  ``5.20190420-0``,  ``5.20181218-0``,  ``5.20181130-0``,  ``5.20180820-0``,  ``5.20180626-0``,  ``5.20180120-1``,  ``5.20180120-0``
 
       
       .. raw:: html
@@ -92,7 +92,7 @@ perl-module-corelist
 
     <script>
         var package = "perl-module-corelist";
-        var versions = ["5.20220620","5.20220527","5.20220420","5.20220320","5.20220313"];
+        var versions = ["5.20250528","5.20230220","5.20220620","5.20220527","5.20220420"];
     </script>
 
 

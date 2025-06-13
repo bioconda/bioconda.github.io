@@ -12,8 +12,8 @@ rearr
 
    Chimeric alignment of CRISPR\-seq
 
-   :homepage: https://github.com/ljw20180420/sx_lcy
-   :documentation: https://ljw20180420.github.io/sx_lcy
+   :homepage: https://github.com/ljw20180420/rearr
+   :documentation: https://ljw20180420.github.io/rearr
    
    :license: MIT / MIT
    :recipe: /`rearr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rearr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rearr/meta.yaml>`_
@@ -30,7 +30,7 @@ rearr
       
       
 
-      ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -96,7 +96,7 @@ rearr
 
     <script>
         var package = "rearr";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.1","1.0.0"];
     </script>
 
 

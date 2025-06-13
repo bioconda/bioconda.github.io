@@ -10,9 +10,9 @@ perl-gdgraph
    :replaces_section_title:
    :noindex:
 
-   Produces charts with GD
+   Produces charts with GD.
 
-   :homepage: http://metacpan.org/pod/GDGraph
+   :homepage: https://metacpan.org/pod/GDGraph
    :license: perl_5
    :recipe: /`perl-gdgraph <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-gdgraph>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-gdgraph/meta.yaml>`_
 
@@ -27,7 +27,7 @@ perl-gdgraph
       
       
 
-      ``1.54-1``,  ``1.54-0``,  ``1.49-4``,  ``1.49-3``,  ``1.49-2``,  ``1.49-1``,  ``1.49-0``
+      ``1.56-0``,  ``1.54-1``,  ``1.54-0``,  ``1.49-4``,  ``1.49-3``,  ``1.49-2``,  ``1.49-1``,  ``1.49-0``
 
       
 
@@ -85,7 +85,7 @@ perl-gdgraph
 
     <script>
         var package = "perl-gdgraph";
-        var versions = ["1.54","1.54","1.49","1.49","1.49"];
+        var versions = ["1.56","1.54","1.54","1.49","1.49"];
     </script>
 
 

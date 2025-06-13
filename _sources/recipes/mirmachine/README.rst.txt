@@ -30,10 +30,10 @@ mirmachine
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.0-1</code>,  <code>0.3.0-0</code>,  <code>0.2.13-0</code>,  <code>0.2.12-0</code>,  <code>0.2.11.2022-0</code>,  <code>0.2.11.2-0</code>,  <code>0.2.11.1-0</code>,  <code>0.2.11-1</code>,  <code>0.2.11-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.0.1-0</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  <code>0.2.13-0</code>,  <code>0.2.12-0</code>,  <code>0.2.11.2022-0</code>,  <code>0.2.11.2-0</code>,  <code>0.2.11.1-0</code>,  <code>0.2.11-1</code>,  </span></summary>
       
 
-      ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11.2022-0``,  ``0.2.11.2-0``,  ``0.2.11.1-0``,  ``0.2.11-1``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.1.31-0``,  ``0.1.2-0``
+      ``0.3.0.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11.2022-0``,  ``0.2.11.2-0``,  ``0.2.11.1-0``,  ``0.2.11-1``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.1.31-0``,  ``0.1.2-0``
 
       
       .. raw:: html
@@ -123,7 +123,7 @@ mirmachine
 
     <script>
         var package = "mirmachine";
-        var versions = ["0.3.0","0.3.0","0.2.13","0.2.12","0.2.11.2022"];
+        var versions = ["0.3.0.1","0.3.0","0.3.0","0.2.13","0.2.12"];
     </script>
 
 

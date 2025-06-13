@@ -10,11 +10,14 @@ rascaf
    :replaces_section_title:
    :noindex:
 
-   Scaffolding with RNA\-seq read alignment
+   Scaffolding with RNA\-seq read alignment.
 
-   :homepage: https://github.com/mourisl/Rascaf/commits/master
-   :license: GPL2
+   :homepage: https://github.com/mourisl/Rascaf
+   :documentation: https://github.com/mourisl/Rascaf/blob/master/README.md
+   
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`rascaf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rascaf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rascaf/meta.yaml>`_
+   :links: doi: :doi:`10.3835/plantgenome2016.03.0027`
 
    
 
@@ -27,7 +30,7 @@ rascaf
       
       
 
-      ``20161129-7``,  ``20161129-6``,  ``20161129-5``,  ``20161129-4``,  ``20161129-3``,  ``20161129-2``,  ``20161129-1``,  ``20161129-0``
+      ``20180710-0``,  ``20161129-7``,  ``20161129-6``,  ``20161129-5``,  ``20161129-4``,  ``20161129-3``,  ``20161129-2``,  ``20161129-1``,  ``20161129-0``
 
       
 
@@ -36,10 +39,13 @@ rascaf
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends samtools: ``>=0.1.19,<1.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -87,7 +93,7 @@ rascaf
 
     <script>
         var package = "rascaf";
-        var versions = ["20161129","20161129","20161129","20161129","20161129"];
+        var versions = ["20180710","20161129","20161129","20161129","20161129"];
     </script>
 
 

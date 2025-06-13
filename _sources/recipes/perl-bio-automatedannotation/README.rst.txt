@@ -10,10 +10,10 @@ perl-bio-automatedannotation
    :replaces_section_title:
    :noindex:
 
-   Automated annotation of assemblies
+   Automated annotation of assemblies.
 
-   :homepage: http://www.sanger.ac.uk/
-   :license: open_source
+   :homepage: https://www.sanger.ac.uk
+   :license: Open Source
    :recipe: /`perl-bio-automatedannotation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-automatedannotation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-automatedannotation/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-bio-automatedannotation
       
       
 
-      ``2021.01.04.08.19.58.619-0``,  ``1.182770-1``,  ``1.182770-0``
+      ``2023.03.14.16.40.01.685-0``,  ``2021.01.04.08.19.58.619-0``,  ``1.182770-1``,  ``1.182770-0``
 
       
 
@@ -105,7 +105,7 @@ perl-bio-automatedannotation
 
     <script>
         var package = "perl-bio-automatedannotation";
-        var versions = ["2021.01.04.08.19.58.619","1.182770","1.182770"];
+        var versions = ["2023.03.14.16.40.01.685","2021.01.04.08.19.58.619","1.182770","1.182770"];
     </script>
 
 

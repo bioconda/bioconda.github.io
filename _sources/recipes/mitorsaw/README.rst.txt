@@ -27,7 +27,7 @@ mitorsaw
       
       
 
-      ``0.2.0-0``,  ``0.1.1-0``
+      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``
 
       
 
@@ -82,7 +82,7 @@ mitorsaw
 
     <script>
         var package = "mitorsaw";
-        var versions = ["0.2.0","0.1.1"];
+        var versions = ["0.2.1","0.2.0","0.1.1"];
     </script>
 
 

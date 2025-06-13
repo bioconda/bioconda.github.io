@@ -10,9 +10,9 @@ conifer
    :replaces_section_title:
    :noindex:
 
-   Calculate confidence scores from Kraken2 output
+   Calculate confidence scores from Kraken2 output.
 
-   :homepage: https://github.com/Ivarz/Conifer/
+   :homepage: https://github.com/Ivarz/Conifer
    :license: BSD / BSD-2-Clause
    :recipe: /`conifer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/conifer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/conifer/meta.yaml>`_
 
@@ -27,7 +27,7 @@ conifer
       
       
 
-      ``1.0.2-1``,  ``1.0.2-0``
+      ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
 
@@ -37,6 +37,10 @@ conifer
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -84,7 +88,7 @@ conifer
 
     <script>
         var package = "conifer";
-        var versions = ["1.0.2","1.0.2"];
+        var versions = ["1.0.2","1.0.2","1.0.2"];
     </script>
 
 

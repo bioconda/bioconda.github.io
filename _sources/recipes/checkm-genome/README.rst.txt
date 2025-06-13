@@ -17,6 +17,7 @@ checkm-genome
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`checkm-genome <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/checkm-genome>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/checkm-genome/meta.yaml>`_
+   :links: doi: :doi:`10.1101/gr.186072.114`, biotools: :biotools:`checkm`, usegalaxy-eu: :usegalaxy-eu:`checkm_taxonomy_wf`, usegalaxy-eu: :usegalaxy-eu:`checkm_tree`, usegalaxy-eu: :usegalaxy-eu:`checkm_lineage_wf`, usegalaxy-eu: :usegalaxy-eu:`checkm_tree_qa`, usegalaxy-eu: :usegalaxy-eu:`checkm_analyze`, usegalaxy-eu: :usegalaxy-eu:`checkm_tetra`, usegalaxy-eu: :usegalaxy-eu:`checkm_qa`, usegalaxy-eu: :usegalaxy-eu:`checkm_taxon_set`, usegalaxy-eu: :usegalaxy-eu:`checkm_plot`, usegalaxy-eu: :usegalaxy-eu:`checkm_lineage_set`
 
    
 
@@ -30,10 +31,10 @@ checkm-genome
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.3-1</code>,  <code>1.2.3-0</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.11-0</code>,  <code>1.1.10-0</code>,  <code>1.1.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.4-0</code>,  <code>1.2.3-1</code>,  <code>1.2.3-0</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.11-0</code>,  <code>1.1.10-0</code>,  </span></summary>
       
 
-      ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.11-0``,  ``1.1.10-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.18-0``,  ``1.0.17-0``,  ``1.0.16-0``,  ``1.0.13-1``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.7-0``,  ``1.0.5-0``
+      ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.11-0``,  ``1.1.10-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.18-0``,  ``1.0.17-0``,  ``1.0.16-0``,  ``1.0.13-1``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.7-0``,  ``1.0.5-0``
 
       
       .. raw:: html
@@ -102,7 +103,7 @@ checkm-genome
 
     <script>
         var package = "checkm-genome";
-        var versions = ["1.2.3","1.2.3","1.2.2","1.2.2","1.2.1"];
+        var versions = ["1.2.4","1.2.3","1.2.3","1.2.2","1.2.2"];
     </script>
 
 

@@ -12,8 +12,8 @@ grz-cli
 
    Tool for validation\, encryption and upload of MV submissions to GDCs.
 
-   :homepage: https://pypi.org/project/grz-cli
-   :license: MIT
+   :homepage: https://github.com/BfArM-MVH/grz-tools
+   :license: MIT / MIT
    :recipe: /`grz-cli <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grz-cli>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grz-cli/meta.yaml>`_
 
    
@@ -27,13 +27,14 @@ grz-cli
       
       
 
-      ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.1.4-0``,  ``0.1.1-0``
+      ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.1.4-0``,  ``0.1.1-0``
 
       
 
    
    :depends boto3: ``>=1.36,<2``
    :depends click: ``>=8.1.7,<9``
+   :depends grz-common: 
    :depends grz-pydantic-models: ``>=1.3.0,<2``
    :depends jsonschema: ``>=4.23.0,<5``
    :depends platformdirs: ``>=4.3.6,<5``
@@ -96,7 +97,7 @@ grz-cli
 
     <script>
         var package = "grz-cli";
-        var versions = ["0.6.1","0.6.0","0.5.0","0.4.0","0.3.0"];
+        var versions = ["0.7.0","0.6.1","0.6.0","0.5.0","0.4.0"];
     </script>
 
 

@@ -29,22 +29,23 @@ barcodeforge
       
       
 
-      ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends altair: ``>=5.0.0``
    :depends augur: ``>=31.1.0``
    :depends biopython: ``>=1.78``
    :depends dendropy: ``>=4.5.2``
    :depends ete4: ``>=4.3.0``
+   :depends matplotlib-base: ``>=3.10.3``
    :depends numpy: ``>=1.20.0``
    :depends pandas: ``>=1.3.0``
    :depends pathlib: ``>=1.0.1``
    :depends python: ``>=3.10``
    :depends rich: ``>=10.0.0``
    :depends rich-click: ``>=1.6.0``
+   :depends seaborn: ``>=0.13.2``
    :depends six: ``>=1.16.0``
    :depends ucsc-fatovcf: 
    :depends usher: 
@@ -98,7 +99,7 @@ barcodeforge
 
     <script>
         var package = "barcodeforge";
-        var versions = ["1.0.0"];
+        var versions = ["1.1.0","1.0.0"];
     </script>
 
 

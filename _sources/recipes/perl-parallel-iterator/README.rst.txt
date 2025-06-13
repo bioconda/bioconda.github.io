@@ -10,9 +10,9 @@ perl-parallel-iterator
    :replaces_section_title:
    :noindex:
 
-   Simple parallel execution
+   Simple parallel execution.
 
-   :homepage: http://metacpan.org/pod/Parallel::Iterator
+   :homepage: https://metacpan.org/pod/Parallel::Iterator
    :license: perl_5
    :recipe: /`perl-parallel-iterator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-parallel-iterator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-parallel-iterator/meta.yaml>`_
 
@@ -27,7 +27,7 @@ perl-parallel-iterator
       
       
 
-      ``1.00-1``,  ``1.00-0``
+      ``1.002-0``,  ``1.00-1``,  ``1.00-0``
 
       
 
@@ -84,7 +84,7 @@ perl-parallel-iterator
 
     <script>
         var package = "perl-parallel-iterator";
-        var versions = ["1.00","1.00"];
+        var versions = ["1.002","1.00","1.00"];
     </script>
 
 

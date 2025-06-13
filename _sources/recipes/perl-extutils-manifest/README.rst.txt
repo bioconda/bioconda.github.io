@@ -10,10 +10,10 @@ perl-extutils-manifest
    :replaces_section_title:
    :noindex:
 
-   Utilities to write and check a MANIFEST file
+   Utilities to write and check a MANIFEST file.
 
    :homepage: https://metacpan.org/release/ExtUtils-Manifest
-   :license: perl_5
+   :license: Perl_5
    :recipe: /`perl-extutils-manifest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-manifest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-manifest/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-extutils-manifest
       
       
 
-      ``1.73-0``,  ``1.72-1``,  ``1.72-0``,  ``1.71-0``,  ``1.70-2``,  ``1.70-1``,  ``1.70-0``
+      ``1.75-0``,  ``1.73-0``,  ``1.72-1``,  ``1.72-0``,  ``1.71-0``,  ``1.70-2``,  ``1.70-1``,  ``1.70-0``
 
       
 
@@ -83,7 +83,7 @@ perl-extutils-manifest
 
     <script>
         var package = "perl-extutils-manifest";
-        var versions = ["1.73","1.72","1.72","1.71","1.70"];
+        var versions = ["1.75","1.73","1.72","1.72","1.71"];
     </script>
 
 

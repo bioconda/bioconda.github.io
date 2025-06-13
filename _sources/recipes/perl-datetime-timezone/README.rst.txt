@@ -10,10 +10,10 @@ perl-datetime-timezone
    :replaces_section_title:
    :noindex:
 
-   Time zone object base class and factory
+   Time zone object base class and factory.
 
-   :homepage: http://metacpan.org/release/DateTime-TimeZone
-   :license: perl_5
+   :homepage: https://metacpan.org/release/DateTime-TimeZone
+   :license: Perl_5
    :recipe: /`perl-datetime-timezone <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime-timezone>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime-timezone/meta.yaml>`_
 
    
@@ -27,23 +27,28 @@ perl-datetime-timezone
       
       
 
-      ``2.52-1``,  ``2.52-0``,  ``2.51-1``,  ``2.51-0``,  ``2.09-4``,  ``2.09-3``,  ``2.09-2``,  ``2.09-0``
+      ``2.57-0``,  ``2.52-1``,  ``2.52-0``,  ``2.51-1``,  ``2.51-0``,  ``2.09-4``,  ``2.09-3``,  ``2.09-2``,  ``2.09-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-app-cpanminus: 
-   :depends perl-module-runtime: 
-   :depends perl-namespace-autoclean: 
-   :depends perl-params-validationcompiler: ``0.30.*``
-   :depends perl-specio: ``0.48.*``
-   :depends perl-try-tiny: 
+   :depends perl-module-runtime: ``0.016.*``
+   :depends perl-namespace-autoclean: ``>=0.31,<0.32.0a0``
+   :depends perl-params-validationcompiler: ``0.31.*``
+   :depends perl-specio: ``0.50.*``
+   :depends perl-test-fatal: ``0.016.*``
+   :depends perl-try-tiny: ``0.31.*``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -91,7 +96,7 @@ perl-datetime-timezone
 
     <script>
         var package = "perl-datetime-timezone";
-        var versions = ["2.52","2.52","2.51","2.51","2.09"];
+        var versions = ["2.57","2.52","2.52","2.51","2.51"];
     </script>
 
 

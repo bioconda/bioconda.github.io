@@ -28,10 +28,10 @@ perl-image-exiftool
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>12.60-0</code>,  <code>12.50-0</code>,  <code>12.42-0</code>,  <code>12.30-0</code>,  <code>11.50-1</code>,  <code>11.50-0</code>,  <code>11.30-0</code>,  <code>11.11-0</code>,  <code>11.01-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>13.30-0</code>,  <code>12.60-0</code>,  <code>12.50-0</code>,  <code>12.42-0</code>,  <code>12.30-0</code>,  <code>11.50-1</code>,  <code>11.50-0</code>,  <code>11.30-0</code>,  <code>11.11-0</code>,  </span></summary>
       
 
-      ``12.60-0``,  ``12.50-0``,  ``12.42-0``,  ``12.30-0``,  ``11.50-1``,  ``11.50-0``,  ``11.30-0``,  ``11.11-0``,  ``11.01-1``,  ``11.01-0``,  ``10.40-2``,  ``10.40-0``
+      ``13.30-0``,  ``12.60-0``,  ``12.50-0``,  ``12.42-0``,  ``12.30-0``,  ``11.50-1``,  ``11.50-0``,  ``11.30-0``,  ``11.11-0``,  ``11.01-1``,  ``11.01-0``,  ``10.40-2``,  ``10.40-0``
 
       
       .. raw:: html
@@ -91,7 +91,7 @@ perl-image-exiftool
 
     <script>
         var package = "perl-image-exiftool";
-        var versions = ["12.60","12.50","12.42","12.30","11.50"];
+        var versions = ["13.30","12.60","12.50","12.42","12.30"];
     </script>
 
 

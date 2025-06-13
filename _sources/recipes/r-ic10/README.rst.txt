@@ -10,7 +10,7 @@ r-ic10
    :replaces_section_title:
    :noindex:
 
-   Implementation of the classifier described in the paper \'Genome\-driven integrated classification of breast cancer validated in over 7\,500 samples\' \(Ali HR et al.\, Genome Biology 2014\). It uses copy number and\/or expression form breast cancer data\, trains a pamr classifier \(Tibshirani et al.\) with the features available and predicts the iC10 group.
+   Genome\-driven integrated classification of breast cancer validated in over 7\,500 samples
 
    :homepage: https://CRAN.R-project.org/package=iC10
    :license: GPL3 / GPL-3.0-or-later
@@ -28,10 +28,10 @@ r-ic10
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.2-1</code>,  <code>2.0.2-0</code>,  <code>1.5-6</code>,  <code>1.5-5</code>,  <code>1.5-4</code>,  <code>1.5-3</code>,  <code>1.5-2</code>,  <code>1.5-1</code>,  <code>1.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.2-2</code>,  <code>2.0.2-1</code>,  <code>2.0.2-0</code>,  <code>1.5-6</code>,  <code>1.5-5</code>,  <code>1.5-4</code>,  <code>1.5-3</code>,  <code>1.5-2</code>,  <code>1.5-1</code>,  </span></summary>
       
 
-      ``2.0.2-1``,  ``2.0.2-0``,  ``1.5-6``,  ``1.5-5``,  ``1.5-4``,  ``1.5-3``,  ``1.5-2``,  ``1.5-1``,  ``1.5-0``,  ``1.4.2-2``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.1.3-0``
+      ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``,  ``1.5-6``,  ``1.5-5``,  ``1.5-4``,  ``1.5-3``,  ``1.5-2``,  ``1.5-1``,  ``1.5-0``,  ``1.4.2-2``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.1.3-0``
 
       
       .. raw:: html
@@ -94,7 +94,7 @@ r-ic10
 
     <script>
         var package = "r-ic10";
-        var versions = ["2.0.2","2.0.2","1.5","1.5","1.5"];
+        var versions = ["2.0.2","2.0.2","2.0.2","1.5","1.5"];
     </script>
 
 

@@ -10,10 +10,10 @@ perl-extutils-parsexs
    :replaces_section_title:
    :noindex:
 
-   converts Perl XS code into C code
+   Converts Perl XS code into C code.
 
-   :homepage: http://metacpan.org/pod/ExtUtils::ParseXS
-   :license: unknown
+   :homepage: https://metacpan.org/pod/ExtUtils::ParseXS
+   :license: Unknown
    :recipe: /`perl-extutils-parsexs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-parsexs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-parsexs/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-extutils-parsexs
       
       
 
-      ``3.44-0``,  ``3.35-1``,  ``3.35-0``,  ``3.28-0``
+      ``3.57-0``,  ``3.44-0``,  ``3.35-1``,  ``3.35-0``,  ``3.28-0``
 
       
 
@@ -87,7 +87,7 @@ perl-extutils-parsexs
 
     <script>
         var package = "perl-extutils-parsexs";
-        var versions = ["3.44","3.35","3.35","3.28"];
+        var versions = ["3.57","3.44","3.35","3.35","3.28"];
     </script>
 
 

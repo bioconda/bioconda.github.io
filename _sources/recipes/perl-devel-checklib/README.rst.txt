@@ -10,10 +10,11 @@ perl-devel-checklib
    :replaces_section_title:
    :noindex:
 
-   check that a library is available
+   Check that a library is available.
 
-   :homepage: http://metacpan.org/pod/Devel-CheckLib
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/Devel::CheckLib
+   :developer docs: https://github.com/mattn/p5-Devel-CheckLib
+   :license: Perl_5
    :recipe: /`perl-devel-checklib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-devel-checklib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-devel-checklib/meta.yaml>`_
 
    
@@ -27,16 +28,21 @@ perl-devel-checklib
       
       
 
-      ``1.16-0``,  ``1.14-1``,  ``1.14-0``
+      ``1.16-1``,  ``1.16-0``,  ``1.14-1``,  ``1.14-0``
 
       
 
    
-   :depends gcc_linux-64: ``10.*``
+   :depends gcc_linux-64: ``13.*``
+   :depends libgcc: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -84,7 +90,7 @@ perl-devel-checklib
 
     <script>
         var package = "perl-devel-checklib";
-        var versions = ["1.16","1.14","1.14"];
+        var versions = ["1.16","1.16","1.14","1.14"];
     </script>
 
 

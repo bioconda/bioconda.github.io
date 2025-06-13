@@ -10,9 +10,9 @@ perl-graphviz
    :replaces_section_title:
    :noindex:
 
-   Interface to AT\&T\'s GraphViz. Deprecated. See GraphViz2
+   Interface to AT\&T\'s GraphViz. Deprecated. See GraphViz2.
 
-   :homepage: http://metacpan.org/pod/GraphViz
+   :homepage: https://metacpan.org/pod/GraphViz
    :license: perl_5
    :recipe: /`perl-graphviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-graphviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-graphviz/meta.yaml>`_
 
@@ -27,18 +27,17 @@ perl-graphviz
       
       
 
-      ``2.24-1``,  ``2.24-0``,  ``2.20-1``
+      ``2.26-0``,  ``2.25-0``,  ``2.24-1``,  ``2.24-0``,  ``2.20-1``
 
       
 
    
-   :depends graphviz: ``>=2.47.3,<3.0a0``
+   :depends graphviz: 
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-file-which: 
    :depends perl-getopt-long: 
    :depends perl-ipc-run: 
-   :depends perl-lib: 
    :depends perl-parse-recdescent: 
    :depends perl-pod-usage: 
    :depends perl-time-hires: 
@@ -94,7 +93,7 @@ perl-graphviz
 
     <script>
         var package = "perl-graphviz";
-        var versions = ["2.24","2.24","2.20"];
+        var versions = ["2.26","2.25","2.24","2.24","2.20"];
     </script>
 
 
