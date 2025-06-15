@@ -10,13 +10,13 @@ rdock
    :replaces_section_title:
    :noindex:
 
-   A Fast\, Versatile and Open Source Program for Docking Ligands to Proteins and Nucleic Acids
+   A Fast\, Versatile and Open Source Program for Docking Ligands to Proteins and Nucleic Acids.
 
-   :homepage: https://rdock.github.io/
-   :documentation: https://rdock.github.io/documentation/
+   :homepage: https://rdock.github.io
+   :documentation: https://rdock.github.io/documentation
    
    :developer docs: https://github.com/CBDD/rDock
-   :license: LGPL / LGPL-3
+   :license: LGPL / LGPL-3.0-or-later
    :recipe: /`rdock <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdock>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdock/meta.yaml>`_
    :links: doi: :doi:`10.1371/journal.pcbi.1003571`, usegalaxy-eu: :usegalaxy-eu:`rdock_rbdock`
 
@@ -33,7 +33,7 @@ rdock
       
       
 
-      ``2013.1-1``,  ``2013.1-0``,  ``24.04.204_legacy-1``,  ``24.04.204_legacy-0``
+      ``2013.1-1``,  ``2013.1-0``,  ``24.04.204_legacy-2``,  ``24.04.204_legacy-1``,  ``24.04.204_legacy-0``
 
       
 
@@ -97,7 +97,7 @@ rdock
 
     <script>
         var package = "rdock";
-        var versions = ["2013.1","2013.1","24.04.204_legacy","24.04.204_legacy"];
+        var versions = ["2013.1","2013.1","24.04.204_legacy","24.04.204_legacy","24.04.204_legacy"];
     </script>
 
 
