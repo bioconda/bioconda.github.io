@@ -30,10 +30,10 @@ comparem2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.13.1-0</code>,  <code>2.12.1-0</code>,  <code>2.11.2-1</code>,  <code>2.11.2-0</code>,  <code>2.11.1-0</code>,  <code>2.10.1-0</code>,  <code>2.9.1-1</code>,  <code>2.9.1-0</code>,  <code>2.8.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.14.1-0</code>,  <code>2.13.1-0</code>,  <code>2.12.1-0</code>,  <code>2.11.2-1</code>,  <code>2.11.2-0</code>,  <code>2.11.1-0</code>,  <code>2.10.1-0</code>,  <code>2.9.1-1</code>,  <code>2.9.1-0</code>,  </span></summary>
       
 
-      ``2.13.1-0``,  ``2.12.1-0``,  ``2.11.2-1``,  ``2.11.2-0``,  ``2.11.1-0``,  ``2.10.1-0``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.8.2-0``,  ``2.8.1-0``
+      ``2.14.1-0``,  ``2.13.1-0``,  ``2.12.1-0``,  ``2.11.2-1``,  ``2.11.2-0``,  ``2.11.1-0``,  ``2.10.1-0``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.8.2-0``,  ``2.8.1-0``
 
       
       .. raw:: html
@@ -97,7 +97,7 @@ comparem2
 
     <script>
         var package = "comparem2";
-        var versions = ["2.13.1","2.12.1","2.11.2","2.11.2","2.11.1"];
+        var versions = ["2.14.1","2.13.1","2.12.1","2.11.2","2.11.2"];
     </script>
 
 

@@ -10,9 +10,9 @@ kleborate
    :replaces_section_title:
    :noindex:
 
-   Kleborate\: a tool for typing and screening pathogen genome assemblies
+   Kleborate\: a tool for typing and screening pathogen genome assemblies.
 
-   :homepage: https://kleborate.readthedocs.io/
+   :homepage: https://kleborate.readthedocs.io
    :developer docs: https://github.com/klebgenomics/Kleborate
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`kleborate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kleborate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kleborate/meta.yaml>`_
@@ -30,10 +30,10 @@ kleborate
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.1.3-0</code>,  <code>3.1.2-0</code>,  <code>3.1.0-0</code>,  <code>3.0.9-0</code>,  <code>3.0.8-0</code>,  <code>3.0.6-0</code>,  <code>3.0.5-0</code>,  <code>2.3.2-0</code>,  <code>2.3.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.0-0</code>,  <code>3.1.3-0</code>,  <code>3.1.2-0</code>,  <code>3.1.0-0</code>,  <code>3.0.9-0</code>,  <code>3.0.8-0</code>,  <code>3.0.6-0</code>,  <code>3.0.5-0</code>,  <code>2.3.2-0</code>,  </span></summary>
       
 
-      ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.0-0``,  ``3.0.9-0``,  ``3.0.8-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.3.0-0``
+      ``3.2.0-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.0-0``,  ``3.0.9-0``,  ``3.0.8-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.3.0-0``
 
       
       .. raw:: html
@@ -44,11 +44,15 @@ kleborate
    
    :depends biopython: ``>=1.83``
    :depends dna_features_viewer: 
+   :depends ectyper: 
    :depends kaptive: 
    :depends mash: 
    :depends minimap2: 
+   :depends ncbi-amrfinderplus: 
    :depends numpy: ``>=1.22``
+   :depends pandas: 
    :depends python: ``>=3.9``
+   :depends stxtyper: 
    :requirements:
 
    :additional platforms:
@@ -99,7 +103,7 @@ kleborate
 
     <script>
         var package = "kleborate";
-        var versions = ["3.1.3","3.1.2","3.1.0","3.0.9","3.0.8"];
+        var versions = ["3.2.0","3.1.3","3.1.2","3.1.0","3.0.9"];
     </script>
 
 

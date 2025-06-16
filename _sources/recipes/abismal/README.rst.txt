@@ -12,9 +12,8 @@ abismal
 
    abismal is a fast and memory\-efficient mapper for short bisulfite sequencing reads.
 
-
    :homepage: https://github.com/smithlabcode/abismal
-   :documentation: https://github.com/smithlabcode/abismal/blob/v3.2.4/docs/MANUAL.md
+   :documentation: https://github.com/smithlabcode/abismal/blob/v3.3.0/docs/MANUAL.md
    
    :license: GPL3 / GPL-3.0-only
    :recipe: /`abismal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abismal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abismal/meta.yaml>`_
@@ -31,10 +30,10 @@ abismal
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.4-1</code>,  <code>3.2.4-0</code>,  <code>3.2.3-0</code>,  <code>3.2.2-0</code>,  <code>3.2.0-0</code>,  <code>3.1.1-2</code>,  <code>3.1.1-1</code>,  <code>3.1.1-0</code>,  <code>3.0.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.3.0-0</code>,  <code>3.2.4-1</code>,  <code>3.2.4-0</code>,  <code>3.2.3-0</code>,  <code>3.2.2-0</code>,  <code>3.2.0-0</code>,  <code>3.1.1-2</code>,  <code>3.1.1-1</code>,  <code>3.1.1-0</code>,  </span></summary>
       
 
-      ``3.2.4-1``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.0-0``,  ``3.1.1-2``,  ``3.1.1-1``,  ``3.1.1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``3.3.0-0``,  ``3.2.4-1``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.0-0``,  ``3.1.1-2``,  ``3.1.1-1``,  ``3.1.1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -44,7 +43,7 @@ abismal
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends htslib: ``>=1.22,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends libgomp: 
    :depends libstdcxx: ``>=13``
@@ -103,7 +102,7 @@ abismal
 
     <script>
         var package = "abismal";
-        var versions = ["3.2.4","3.2.4","3.2.3","3.2.2","3.2.0"];
+        var versions = ["3.3.0","3.2.4","3.2.4","3.2.3","3.2.2"];
     </script>
 
 

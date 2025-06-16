@@ -26,9 +26,17 @@ perl-datetime-timezone
    :versions:
       
       
+      .. raw:: html
 
-      ``2.57-0``,  ``2.52-1``,  ``2.52-0``,  ``2.51-1``,  ``2.51-0``,  ``2.09-4``,  ``2.09-3``,  ``2.09-2``,  ``2.09-0``
+         <details><summary><span class="truncated-version-list"><code>2.65-0</code>,  <code>2.57-0</code>,  <code>2.52-1</code>,  <code>2.52-0</code>,  <code>2.51-1</code>,  <code>2.51-0</code>,  <code>2.09-4</code>,  <code>2.09-3</code>,  <code>2.09-2</code>,  </span></summary>
+      
 
+      ``2.65-0``,  ``2.57-0``,  ``2.52-1``,  ``2.52-0``,  ``2.51-1``,  ``2.51-0``,  ``2.09-4``,  ``2.09-3``,  ``2.09-2``,  ``2.09-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -96,7 +104,7 @@ perl-datetime-timezone
 
     <script>
         var package = "perl-datetime-timezone";
-        var versions = ["2.57","2.52","2.52","2.51","2.51"];
+        var versions = ["2.65","2.57","2.52","2.52","2.51"];
     </script>
 
 

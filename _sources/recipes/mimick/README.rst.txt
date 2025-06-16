@@ -10,7 +10,7 @@ mimick
    :replaces_section_title:
    :noindex:
 
-   Simulate linked\-read data.
+   Simulate linked\-read data
 
    :homepage: https://github.com/pdimens/mimick
    :documentation: https://pdimens.github.io/mimick
@@ -34,10 +34,10 @@ mimick
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.1-0</code>,  <code>2.0-0</code>,  <code>1.3-0</code>,  <code>1.2.1-0</code>,  <code>1.2-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1-0</code>,  <code>2.0.1-0</code>,  <code>2.0-0</code>,  <code>1.3-0</code>,  <code>1.2.1-0</code>,  <code>1.2-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.2-0</code>,  </span></summary>
       
 
-      ``2.0.1-0``,  ``2.0-0``,  ``1.3-0``,  ``1.2.1-0``,  ``1.2-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
+      ``2.1-0``,  ``2.0.1-0``,  ``2.0-0``,  ``1.3-0``,  ``1.2.1-0``,  ``1.2-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
 
       
       .. raw:: html
@@ -47,12 +47,10 @@ mimick
 
    
    :depends click: ``>=8``
-   :depends htslib: ``>=1.21``
    :depends numpy: ``>=1.15.3``
-   :depends pyfaidx: ``>=0.8``
    :depends pysam: ``>=0.22.0``
-   :depends python: ``>=3.10``
-   :depends pywgsim: ``>=0.3.3``
+   :depends python: ``>=3.11``
+   :depends pywgsim: ``>=0.6``
    :depends rich-click: ``>=1.8``
    :requirements:
 
@@ -104,7 +102,7 @@ mimick
 
     <script>
         var package = "mimick";
-        var versions = ["2.0.1","2.0","1.3","1.2.1","1.2"];
+        var versions = ["2.1","2.0.1","2.0","1.3","1.2.1"];
     </script>
 
 

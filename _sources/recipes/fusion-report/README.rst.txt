@@ -29,10 +29,10 @@ fusion-report
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>3.1.2-0</code>,  <code>3.1.1-0</code>,  <code>2.1.5-0</code>,  <code>2.1.4-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.1-0</code>,  <code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>3.1.2-0</code>,  <code>3.1.1-0</code>,  <code>2.1.5-0</code>,  <code>2.1.4-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  </span></summary>
       
 
-      ``4.0.0-1``,  ``4.0.0-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``4.0.1-0``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
       .. raw:: html
@@ -106,7 +106,7 @@ fusion-report
 
     <script>
         var package = "fusion-report";
-        var versions = ["4.0.0","4.0.0","3.1.2","3.1.1","2.1.5"];
+        var versions = ["4.0.1","4.0.0","4.0.0","3.1.2","3.1.1"];
     </script>
 
 

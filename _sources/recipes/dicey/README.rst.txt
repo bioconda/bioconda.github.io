@@ -10,12 +10,14 @@ dicey
    :replaces_section_title:
    :noindex:
 
-   In\-silico PCR and variant primer design
+   In\-silico PCR and variant primer design.
 
    :homepage: https://github.com/gear-genomics/dicey
-   :license: GPL / GPL-3
+   :documentation: https://github.com/gear-genomics/dicey/blob/v0.3.4/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`dicey <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dicey>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dicey/meta.yaml>`_
-   :links: biotools: :biotools:`Gear-Genomics`
+   :links: biotools: :biotools:`Gear-Genomics`, doi: :doi:`10.1186/s12864-020-6635-8`
 
    
 
@@ -29,10 +31,10 @@ dicey
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.3-1</code>,  <code>0.3.3-0</code>,  <code>0.3.1-0</code>,  <code>0.2.8-0</code>,  <code>0.2.6-0</code>,  <code>0.2.3-2</code>,  <code>0.2.3-1</code>,  <code>0.2.3-0</code>,  <code>0.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.4-0</code>,  <code>0.3.3-1</code>,  <code>0.3.3-0</code>,  <code>0.3.1-0</code>,  <code>0.2.8-0</code>,  <code>0.2.6-0</code>,  <code>0.2.3-2</code>,  <code>0.2.3-1</code>,  <code>0.2.3-0</code>,  </span></summary>
       
 
-      ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.1-0``,  ``0.2.8-0``,  ``0.2.6-0``,  ``0.2.3-2``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.1-0``,  ``0.1.8-3``,  ``0.1.8-2``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``
+      ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.1-0``,  ``0.2.8-0``,  ``0.2.6-0``,  ``0.2.3-2``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.1-0``,  ``0.1.8-3``,  ``0.1.8-2``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``
 
       
       .. raw:: html
@@ -43,19 +45,18 @@ dicey
    
    :depends boost-cpp: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends htslib: ``>=1.22,<1.23.0a0``
    :depends libdeflate: ``>=1.22,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -103,7 +104,7 @@ dicey
 
     <script>
         var package = "dicey";
-        var versions = ["0.3.3","0.3.3","0.3.1","0.2.8","0.2.6"];
+        var versions = ["0.3.4","0.3.3","0.3.3","0.3.1","0.2.8"];
     </script>
 
 

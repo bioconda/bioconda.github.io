@@ -29,10 +29,10 @@ hostile
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  <code>0.2.0-0</code>,  <code>0.1.0-1</code>,  <code>0.1.0-0</code>,  <code>0.0.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  <code>0.2.0-0</code>,  <code>0.1.0-1</code>,  <code>0.1.0-0</code>,  </span></summary>
       
 
-      ``2.0.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-1``,  ``0.1.0-0``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``2.0.0-1``,  ``2.0.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-1``,  ``0.1.0-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
       .. raw:: html
@@ -45,7 +45,6 @@ hostile
    :depends bowtie2: ``2.5.4``
    :depends defopt: ``>=6.4.0``
    :depends dnaio: ``>=1.2.0``
-   :depends gawk: ``>=5.3.1``
    :depends httpx: ``>=0.24.1``
    :depends minimap2: ``>=2.28``
    :depends platformdirs: ``>=3.5.1``
@@ -102,7 +101,7 @@ hostile
 
     <script>
         var package = "hostile";
-        var versions = ["2.0.0","1.1.0","1.0.0","0.4.0","0.3.0"];
+        var versions = ["2.0.0","2.0.0","1.1.0","1.0.0","0.4.0"];
     </script>
 
 
