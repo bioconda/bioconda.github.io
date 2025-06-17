@@ -36,8 +36,8 @@ biobb_common
    \#\#\# Copyright \& Licensing
    This software has been developed in the \[MMB group\]\(http\:\/\/mmb.irbbarcelona.org\) at the \[BSC\]\(http\:\/\/www.bsc.es\/\) \& \[IRB\]\(https\:\/\/www.irbbarcelona.org\/\) for the \[European BioExcel\]\(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission \(EU H2020 \[823830\]\(http\:\/\/cordis.europa.eu\/projects\/823830\)\, EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
 
-   \* \(c\) 2015\-2024 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
-   \* \(c\) 2015\-2024 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
+   \* \(c\) 2015\-2025 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
+   \* \(c\) 2015\-2025 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
    Licensed under the
    \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file LICENSE for details.
 
@@ -56,10 +56,10 @@ biobb_common
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.0.1-0</code>,  <code>5.0.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.0-1</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.9.0-0</code>,  <code>3.8.1-0</code>,  <code>3.7.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.1.0-0</code>,  <code>5.0.1-0</code>,  <code>5.0.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.0-1</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.9.0-0</code>,  <code>3.8.1-0</code>,  </span></summary>
       
 
-      ``5.0.1-0``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.1-0``,  ``3.7.0-0``,  ``3.6.0-1``,  ``3.6.0-0``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-0``,  ``0.0.8-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
+      ``5.1.0-0``,  ``5.0.1-0``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.1-0``,  ``3.7.0-0``,  ``3.6.0-1``,  ``3.6.0-0``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-0``,  ``0.0.8-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
 
       
       .. raw:: html
@@ -123,7 +123,7 @@ biobb_common
 
     <script>
         var package = "biobb_common";
-        var versions = ["5.0.1","5.0.0","4.2.0","4.1.0","4.1.0"];
+        var versions = ["5.1.0","5.0.1","5.0.0","4.2.0","4.1.0"];
     </script>
 
 

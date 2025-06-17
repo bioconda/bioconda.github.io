@@ -29,7 +29,7 @@ barcodeforge
       
       
 
-      ``1.1.0-0``,  ``1.0.0-0``
+      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -99,7 +99,7 @@ barcodeforge
 
     <script>
         var package = "barcodeforge";
-        var versions = ["1.1.0","1.0.0"];
+        var versions = ["1.1.1","1.1.0","1.0.0"];
     </script>
 
 

@@ -33,7 +33,7 @@ openstructure
       
       
 
-      ``2.10.0-3``,  ``2.10.0-2``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.9.3-0``
+      ``2.11.0-0``,  ``2.10.0-3``,  ``2.10.0-2``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.9.3-0``
 
       
 
@@ -53,7 +53,7 @@ openstructure
    :depends libglx: ``>=1.7.0,<2.0a0``
    :depends libopengl: ``>=1.7.0,<2.0a0``
    :depends libpng: ``>=1.6.47,<1.7.0a0``
-   :depends libsqlite: ``>=3.50.0,<4.0a0``
+   :depends libsqlite: ``>=3.50.1,<4.0a0``
    :depends libstdcxx: ``>=13``
    :depends libtiff: ``>=4.7.0,<4.8.0a0``
    :depends libxcb: ``>=1.17.0,<2.0a0``
@@ -71,7 +71,7 @@ openstructure
    :depends python_abi: ``3.10.* *_cp310``
    :depends qt: ``>=5.15.8,<5.16.0a0``
    :depends scipy: ``>=1.15.2,<2.0a0``
-   :depends voronota: ``>=1.29.4408,<2.0a0``
+   :depends voronota: ``>=1.29.4412,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -126,7 +126,7 @@ openstructure
 
     <script>
         var package = "openstructure";
-        var versions = ["2.10.0","2.10.0","2.10.0","2.10.0","2.9.3"];
+        var versions = ["2.11.0","2.10.0","2.10.0","2.10.0","2.10.0"];
     </script>
 
 

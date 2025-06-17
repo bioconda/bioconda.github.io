@@ -27,7 +27,7 @@ mashpit
       
       
 
-      ``0.9.10-0``,  ``0.9.9-0``,  ``0.9.8-0``,  ``0.9.7-0``,  ``0.9.6-0``,  ``0.9.2-0``
+      ``0.9.10-1``,  ``0.9.10-0``,  ``0.9.9-0``,  ``0.9.8-0``,  ``0.9.7-0``,  ``0.9.6-0``,  ``0.9.2-0``
 
       
 
@@ -41,7 +41,7 @@ mashpit
    :depends pandas: ``>=2.0.3``
    :depends phytreeviz: 
    :depends psutil: 
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.9,<3.10``
    :depends requests: 
    :depends scikit-bio: 
    :depends scipy: ``>=1.0``
@@ -98,7 +98,7 @@ mashpit
 
     <script>
         var package = "mashpit";
-        var versions = ["0.9.10","0.9.9","0.9.8","0.9.7","0.9.6"];
+        var versions = ["0.9.10","0.9.10","0.9.9","0.9.8","0.9.7"];
     </script>
 
 
