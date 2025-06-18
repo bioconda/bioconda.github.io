@@ -10,10 +10,10 @@ tasmanian-mismatch
    :replaces_section_title:
    :noindex:
 
-   Tasmanian tool to analyze mismatches at read and position in high throughput sequencing data
+   Tasmanian tool to analyze mismatches at read and position in high throughput sequencing data.
 
    :homepage: https://github.com/nebiolabs/tasmanian-mismatch
-   :license: GNU Affero General Public License
+   :license: LGPL / LGPL-2.1-or-later
    :recipe: /`tasmanian-mismatch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tasmanian-mismatch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tasmanian-mismatch/meta.yaml>`_
 
    
@@ -27,22 +27,21 @@ tasmanian-mismatch
       
       
 
-      ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.4-0``,  ``0.1.3-0``,  ``0.1.1-0``
+      ``1.0.9-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.4-0``,  ``0.1.3-0``,  ``0.1.1-0``
 
       
 
    
-   :depends matplotlib-base: ``3.1.1``
+   :depends matplotlib-base: 
    :depends numpy: 
-   :depends numpy: ``1.16.4``
-   :depends pandas: ``0.25.1``
-   :depends plotly: ``4.3.0``
-   :depends python: ``>=3.6``
-   :depends scikit-learn: ``0.21.2``
-   :depends scipy: ``1.2.1``
-   :depends seaborn: ``0.9.0``
-   :depends statsmodels: ``0.10.1``
-   :depends termcolor: ``1.1.0``
+   :depends pandas: 
+   :depends plotly: 
+   :depends python: ``<3.13``
+   :depends scikit-learn: 
+   :depends scipy: 
+   :depends seaborn-base: 
+   :depends statsmodels: 
+   :depends termcolor: 
    :requirements:
 
    :additional platforms:
@@ -93,7 +92,7 @@ tasmanian-mismatch
 
     <script>
         var package = "tasmanian-mismatch";
-        var versions = ["1.0.7","1.0.6","1.0.4","0.1.3","0.1.1"];
+        var versions = ["1.0.9","1.0.7","1.0.6","1.0.4","0.1.3"];
     </script>
 
 

@@ -27,7 +27,7 @@ hmftools-bam-tools
       
       
 
-      ``1.3-0``,  ``1.3_beta-1``,  ``1.3_beta-0``,  ``1.2.1-0``,  ``1.2-1``,  ``1.2-0``
+      ``1.4-0``,  ``1.3-0``,  ``1.3_beta-1``,  ``1.3_beta-0``,  ``1.2.1-0``,  ``1.2-1``,  ``1.2-0``
 
       
 
@@ -83,7 +83,7 @@ hmftools-bam-tools
 
     <script>
         var package = "hmftools-bam-tools";
-        var versions = ["1.3","1.3_beta","1.3_beta","1.2.1","1.2"];
+        var versions = ["1.4","1.3","1.3_beta","1.3_beta","1.2.1"];
     </script>
 
 

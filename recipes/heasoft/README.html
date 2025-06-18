@@ -82,40 +82,32 @@
 <dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/heasoft">heasoft</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/heasoft/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>HEAsoft is a unified release of FTOOLS and XANADU software packages
-for high energy astrophysics data analysis, including tools like XSPEC.</p>
-<p>After installation, users should initialize the HEAsoft environment with:</p>
+<p>HEAsoft is a unified release of the FTOOLS and XANADU software packages for high-energy astrophysics data analysis, including tools like XSPEC.</p>
+<p>After installation, users must **initialize the HEAsoft environment** by running the following commands:</p>
 <p>```
 export HEADAS=$(ls -d &quot;${CONDA_PREFIX}/x86_64-pc-linux-gnu-libc&quot;*/ | head -n 1)
-source ${HEADAS}/headas-init.sh
-export LHEAPERL=${CONDA_PREFIX}/bin/perl
+source &quot;${HEADAS}/headas-init.sh&quot;
+export LHEAPERL=&quot;${CONDA_PREFIX}/bin/perl&quot;
 ```</p>
-<p>This setup configures numerous environment variables required for HEAsoft, including:
-PATH, LD_LIBRARY_PATH, PFILES, PERL5LIB, PYTHONPATH, and various component-specific
-variables like PGPLOT_DIR, XANADU, and POW_LIBRARY.</p>
-<p>Note that LHEAPERL needs to be manually set to point to your Conda environment's
-Perl interpreter after sourcing headas-init.sh.</p>
-<p>For mission-specific functionality (e.g., Swift, NuSTAR, IXPE), additional
-environment setup may be needed. See the HEAsoft documentation for details.</p>
-<p>**Warning for Xspec users**: The /spectral/modelData directory (~5.9GB) is excluded to reduce
-package size, rendering Xspec unusable without it.
-To enable Xspec:
-1. Download the HEASoft source tarball for the same version as this package (6.35.1):</p>
-<blockquote>
-<div><p>```bash
+<p>This setup configures several environment variables required for HEAsoft, including `PATH`, `LD_LIBRARY_PATH`, `PFILES`, `PERL5LIB`, `PYTHONPATH`, and component-specific variables such as `PGPLOT_DIR`, `XANADU`, and `POW_LIBRARY`.</p>
+<p>**Note**: `LHEAPERL` must be manually set to point to your Conda environment's Perl interpreter after sourcing `headas-init.sh`.</p>
+<p>For mission-specific functionality (e.g., Swift, NuSTAR, IXPE), additional environment setup may be required. Refer to the HEAsoft documentation for details.</p>
+<p>**Warning for XSPEC Users**: The `/spectral/modelData` directory (~5.9GB) is excluded from this package to reduce its size, making XSPEC unusable without it.</p>
+<p>To enable XSPEC, follow these steps:</p>
+<ol class="arabic simple">
+<li><p>Download the HEAsoft source tarball for the same version as this package (6.35.1):
+```
 wget https://heasarc.gsfc.nasa.gov/FTP/software/lheasoft/lheasoft6.35.1/heasoft-6.35.1src.tar.gz
 ```
-Replace 6.35.1 with the package version (e.g., 6.35.1).</p>
-</div></blockquote>
-<ol class="arabic simple" start="2">
-<li><p>Extract:
-```bash
+Replace `6.35.1` by the actual the package version (e.g., 6.35.1).</p></li>
+<li><p>Extract the tarball:
+```
 tar zxf heasoft-6.35.1src.tar.gz
 ```</p></li>
-<li><p>Copy the modelData directory:
-```bash
-mkdir -p $CONDA_PREFIX/spectral
-cp -r heasoft-6.35.1/Xspec/src/spectral/modelData $CONDA_PREFIX/spectral/
+<li><p>Copy the `modelData` directory to the appropriate location:
+```
+mkdir -p &quot;${CONDA_PREFIX}/spectral&quot;
+cp -r heasoft-6.35.1/Xspec/src/spectral/modelData &quot;${CONDA_PREFIX}/spectral/&quot;
 ```</p></li>
 </ol>
 </dd></dl>
@@ -127,7 +119,7 @@ cp -r heasoft-6.35.1/Xspec/src/spectral/modelData $CONDA_PREFIX/spectral/
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/heasoft"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/heasoft.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/heasoft"><img alt="docker_heasoft" src="https://quay.io/repository/biocontainers/heasoft/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">6.35.1-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">6.35.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">6.35.1-0</span></code></p>
 </dd>
 <dt class="field-even">depends astropy<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=6.1.4</span></code></p>
@@ -135,7 +127,7 @@ cp -r heasoft-6.35.1/Xspec/src/spectral/modelData $CONDA_PREFIX/spectral/
 <dt class="field-odd">depends astropy-iers-data<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends curl<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=8.13.0,&lt;9.0a0</span></code></p>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=8.14.0,&lt;9.0a0</span></code></p>
 </dd>
 <dt class="field-odd">depends gsl<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.7,&lt;2.8.0a0</span></code></p>
@@ -255,7 +247,7 @@ others.</p>
 
 <script>
     var package = "heasoft";
-    var versions = ["6.35.1"];
+    var versions = ["6.35.1","6.35.1"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

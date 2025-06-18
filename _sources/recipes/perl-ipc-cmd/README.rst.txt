@@ -27,11 +27,12 @@ perl-ipc-cmd
       
       
 
-      ``1.04-0``,  ``1.02-1``,  ``1.02-0``,  ``1.00-1``,  ``1.00-0``
+      ``1.04-1``,  ``1.04-0``,  ``1.02-1``,  ``1.02-0``,  ``1.00-1``,  ``1.00-0``
 
       
 
    
+   :depends perl: ``>=5.32.1,<6.0a0``
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-extutils-makemaker: 
    :depends perl-file-temp: 
@@ -88,7 +89,7 @@ perl-ipc-cmd
 
     <script>
         var package = "perl-ipc-cmd";
-        var versions = ["1.04","1.02","1.02","1.00","1.00"];
+        var versions = ["1.04","1.04","1.02","1.02","1.00"];
     </script>
 
 

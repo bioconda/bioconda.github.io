@@ -16,7 +16,7 @@ galaxy-files-full
    :documentation: https://docs.galaxyproject.org
    
    :developer docs: https://github.com/galaxyproject/galaxy
-   :license: MIT
+   :license: APACHE / Apache-2.0
    :recipe: /`galaxy-files-full <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galaxy-files-full>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galaxy-files-full/meta.yaml>`_
    :links: biotools: :biotools:`galaxy`, doi: :doi:`10.1093/nar/gky379`
 
@@ -31,7 +31,7 @@ galaxy-files-full
       
       
 
-      ``24.2.3-0``
+      ``24.2.4-0``,  ``24.2.3-0``
 
       
 
@@ -43,6 +43,7 @@ galaxy-files-full
    :depends fs.webdavfs: 
    :depends galaxy-util: ``>=24.2``
    :depends google-cloud-storage: 
+   :depends legacy-cgi: 
    :depends python: ``>=3.9``
    :depends typing-extensions: 
    :depends webdavclient3: 
@@ -96,7 +97,7 @@ galaxy-files-full
 
     <script>
         var package = "galaxy-files-full";
-        var versions = ["24.2.3"];
+        var versions = ["24.2.4","24.2.3"];
     </script>
 
 

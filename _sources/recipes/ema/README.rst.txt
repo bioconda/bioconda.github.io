@@ -10,13 +10,13 @@ ema
    :replaces_section_title:
    :noindex:
 
-   Fast \& accurate alignment of barcoded short\-reads
+   Fast \& accurate alignment of barcoded short\-reads.
 
-   :homepage: http://ema.csail.mit.edu/
+   :homepage: https://cb.csail.mit.edu/ema
    :documentation: https://github.com/arshajii/ema#usage
    
    :developer docs: https://github.com/arshajii/ema
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`ema <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ema>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ema/meta.yaml>`_
    :links: doi: :doi:`10.1101/220236`
 
@@ -32,10 +32,10 @@ ema
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.2-6</code>,  <code>0.6.2-5</code>,  <code>0.6.2-4</code>,  <code>0.6.2-3</code>,  <code>0.6.2-2</code>,  <code>0.6.2-1</code>,  <code>0.6.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.0-2</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.2-6</code>,  <code>0.6.2-5</code>,  <code>0.6.2-4</code>,  <code>0.6.2-3</code>,  <code>0.6.2-2</code>,  <code>0.6.2-1</code>,  </span></summary>
       
 
-      ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.2-6``,  ``0.6.2-5``,  ``0.6.2-4``,  ``0.6.2-3``,  ``0.6.2-2``,  ``0.6.2-1``,  ``0.6.2-0``,  ``v0.6.2-1``,  ``v0.6.1-1``,  ``v0.6.1-0``
+      ``0.7.0-2``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.2-6``,  ``0.6.2-5``,  ``0.6.2-4``,  ``0.6.2-3``,  ``0.6.2-2``,  ``0.6.2-1``,  ``0.6.2-0``,  ``v0.6.2-1``,  ``v0.6.1-1``,  ``v0.6.1-0``
 
       
       .. raw:: html
@@ -44,13 +44,18 @@ ema
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -98,7 +103,7 @@ ema
 
     <script>
         var package = "ema";
-        var versions = ["0.7.0","0.7.0","0.6.2","0.6.2","0.6.2"];
+        var versions = ["0.7.0","0.7.0","0.7.0","0.6.2","0.6.2"];
     </script>
 
 

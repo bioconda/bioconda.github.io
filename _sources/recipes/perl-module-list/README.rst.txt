@@ -10,10 +10,10 @@ perl-module-list
    :replaces_section_title:
    :noindex:
 
-   module \`directory\' listing
+   Module \`directory\' listing.
 
-   :homepage: http://metacpan.org/pod/Module::List
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/Module::List
+   :license: Perl_5
    :recipe: /`perl-module-list <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-list>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-list/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-module-list
       
       
 
-      ``0.004-1``,  ``0.004-0``
+      ``0.005-0``,  ``0.004-1``,  ``0.004-0``
 
       
 
@@ -35,6 +35,7 @@ perl-module-list
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-exporter: 
+   :depends perl-extutils-makemaker: 
    :depends perl-parent: 
    :requirements:
 
@@ -86,7 +87,7 @@ perl-module-list
 
     <script>
         var package = "perl-module-list";
-        var versions = ["0.004","0.004"];
+        var versions = ["0.005","0.004","0.004"];
     </script>
 
 

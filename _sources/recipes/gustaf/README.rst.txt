@@ -27,11 +27,13 @@ gustaf
       
       
 
-      ``1.0.8-2``,  ``1.0.8-1``,  ``1.0.8-0``
+      ``1.0.10-0``,  ``1.0.8-2``,  ``1.0.8-1``,  ``1.0.8-0``
 
       
 
    
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -82,7 +84,7 @@ gustaf
 
     <script>
         var package = "gustaf";
-        var versions = ["1.0.8","1.0.8","1.0.8"];
+        var versions = ["1.0.10","1.0.8","1.0.8","1.0.8"];
     </script>
 
 

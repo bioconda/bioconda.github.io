@@ -10,10 +10,10 @@ perl-data-munge
    :replaces_section_title:
    :noindex:
 
-   various utility functions
+   Various utility functions.
 
-   :homepage: http://metacpan.org/pod/Data::Munge
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/Data::Munge
+   :license: Perl_5
    :recipe: /`perl-data-munge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-munge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-munge/meta.yaml>`_
 
    
@@ -27,14 +27,12 @@ perl-data-munge
       
       
 
-      ``0.097-1``,  ``0.097-0``
+      ``0.111-0``,  ``0.097-1``,  ``0.097-0``
 
       
 
    
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends perl-base: 
-   :depends perl-exporter: 
    :requirements:
 
    :additional platforms:
@@ -85,7 +83,7 @@ perl-data-munge
 
     <script>
         var package = "perl-data-munge";
-        var versions = ["0.097","0.097"];
+        var versions = ["0.111","0.097","0.097"];
     </script>
 
 

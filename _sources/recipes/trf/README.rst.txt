@@ -18,7 +18,9 @@ trf
    :recipe: /`trf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trf/meta.yaml>`_
    :links: biotools: :biotools:`trf`
 
-   
+   Tandem Repeats Finder \(TRF\) is a bioinformatics tool used to identify and locate tandem repeats in DNA sequences. 
+   These repeats are consecutive copies of short sequence patterns found in many genomes and are of interest in genetic studies. 
+
 
 
 .. conda:package:: trf
@@ -30,10 +32,10 @@ trf
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.09.1-7</code>,  <code>4.09.1-6</code>,  <code>4.09.1-5</code>,  <code>4.09.1-4</code>,  <code>4.09.1-3</code>,  <code>4.09.1-2</code>,  <code>4.09.1-1</code>,  <code>4.09.1-0</code>,  <code>4.09-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.10.0rc2-0</code>,  <code>4.09.1-7</code>,  <code>4.09.1-6</code>,  <code>4.09.1-5</code>,  <code>4.09.1-4</code>,  <code>4.09.1-3</code>,  <code>4.09.1-2</code>,  <code>4.09.1-1</code>,  <code>4.09.1-0</code>,  </span></summary>
       
 
-      ``4.09.1-7``,  ``4.09.1-6``,  ``4.09.1-5``,  ``4.09.1-4``,  ``4.09.1-3``,  ``4.09.1-2``,  ``4.09.1-1``,  ``4.09.1-0``,  ``4.09-2``,  ``4.09-1``,  ``4.09-0``,  ``4.07b-0``
+      ``4.10.0rc2-0``,  ``4.09.1-7``,  ``4.09.1-6``,  ``4.09.1-5``,  ``4.09.1-4``,  ``4.09.1-3``,  ``4.09.1-2``,  ``4.09.1-1``,  ``4.09.1-0``,  ``4.09-2``,  ``4.09-1``,  ``4.09-0``,  ``4.07b-0``
 
       
       .. raw:: html
@@ -97,7 +99,7 @@ trf
 
     <script>
         var package = "trf";
-        var versions = ["4.09.1","4.09.1","4.09.1","4.09.1","4.09.1"];
+        var versions = ["4.10.0rc2","4.09.1","4.09.1","4.09.1","4.09.1"];
     </script>
 
 

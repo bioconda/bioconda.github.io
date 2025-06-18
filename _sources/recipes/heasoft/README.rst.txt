@@ -18,43 +18,41 @@ heasoft
    :license: Clear BSD License
    :recipe: /`heasoft <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/heasoft>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/heasoft/meta.yaml>`_
 
-   HEAsoft is a unified release of FTOOLS and XANADU software packages
-   for high energy astrophysics data analysis\, including tools like XSPEC.
+   HEAsoft is a unified release of the FTOOLS and XANADU software packages for high\-energy astrophysics data analysis\, including tools like XSPEC.
 
-   After installation\, users should initialize the HEAsoft environment with\:
+   After installation\, users must \*\*initialize the HEAsoft environment\*\* by running the following commands\:
 
    \`\`\`
    export HEADAS\=\$\(ls \-d \"\$\{CONDA\_PREFIX\}\/x86\_64\-pc\-linux\-gnu\-libc\"\*\/ \| head \-n 1\)
-   source \$\{HEADAS\}\/headas\-init.sh
-   export LHEAPERL\=\$\{CONDA\_PREFIX\}\/bin\/perl
+   source \"\$\{HEADAS\}\/headas\-init.sh\"
+   export LHEAPERL\=\"\$\{CONDA\_PREFIX\}\/bin\/perl\"
    \`\`\`
 
-   This setup configures numerous environment variables required for HEAsoft\, including\:
-   PATH\, LD\_LIBRARY\_PATH\, PFILES\, PERL5LIB\, PYTHONPATH\, and various component\-specific
-   variables like PGPLOT\_DIR\, XANADU\, and POW\_LIBRARY.
+   This setup configures several environment variables required for HEAsoft\, including \`PATH\`\, \`LD\_LIBRARY\_PATH\`\, \`PFILES\`\, \`PERL5LIB\`\, \`PYTHONPATH\`\, and component\-specific variables such as \`PGPLOT\_DIR\`\, \`XANADU\`\, and \`POW\_LIBRARY\`.
 
-   Note that LHEAPERL needs to be manually set to point to your Conda environment\'s
-   Perl interpreter after sourcing headas\-init.sh.
+   \*\*Note\*\*\: \`LHEAPERL\` must be manually set to point to your Conda environment\'s Perl interpreter after sourcing \`headas\-init.sh\`.
 
-   For mission\-specific functionality \(e.g.\, Swift\, NuSTAR\, IXPE\)\, additional 
-   environment setup may be needed. See the HEAsoft documentation for details.
+   For mission\-specific functionality \(e.g.\, Swift\, NuSTAR\, IXPE\)\, additional environment setup may be required. Refer to the HEAsoft documentation for details.
 
-   \*\*Warning for Xspec users\*\*\: The \/spectral\/modelData directory \(\~5.9GB\) is excluded to reduce
-   package size\, rendering Xspec unusable without it. 
-   To enable Xspec\:
-   1. Download the HEASoft source tarball for the same version as this package \(6.35.1\)\:
-      \`\`\`bash
+   \*\*Warning for XSPEC Users\*\*\: The \`\/spectral\/modelData\` directory \(\~5.9GB\) is excluded from this package to reduce its size\, making XSPEC unusable without it. 
+
+   To enable XSPEC\, follow these steps\:
+
+   1. Download the HEAsoft source tarball for the same version as this package \(6.35.1\)\:
+      \`\`\`
       wget https\:\/\/heasarc.gsfc.nasa.gov\/FTP\/software\/lheasoft\/lheasoft6.35.1\/heasoft\-6.35.1src.tar.gz
       \`\`\`
-      Replace 6.35.1 with the package version \(e.g.\, 6.35.1\). 
-   2. Extract\:
-      \`\`\`bash
+      Replace \`6.35.1\` by the actual the package version \(e.g.\, 6.35.1\).
+
+   2. Extract the tarball\:
+      \`\`\`
       tar zxf heasoft\-6.35.1src.tar.gz
       \`\`\`
-   3. Copy the modelData directory\:
-      \`\`\`bash
-      mkdir \-p \$CONDA\_PREFIX\/spectral
-      cp \-r heasoft\-6.35.1\/Xspec\/src\/spectral\/modelData \$CONDA\_PREFIX\/spectral\/
+
+   3. Copy the \`modelData\` directory to the appropriate location\:
+      \`\`\`
+      mkdir \-p \"\$\{CONDA\_PREFIX\}\/spectral\"
+      cp \-r heasoft\-6.35.1\/Xspec\/src\/spectral\/modelData \"\$\{CONDA\_PREFIX\}\/spectral\/\"
       \`\`\`
 
 
@@ -67,14 +65,14 @@ heasoft
       
       
 
-      ``6.35.1-0``
+      ``6.35.1-1``,  ``6.35.1-0``
 
       
 
    
    :depends astropy: ``>=6.1.4``
    :depends astropy-iers-data: 
-   :depends curl: ``>=8.13.0,<9.0a0``
+   :depends curl: ``>=8.14.0,<9.0a0``
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends gsl: ``>=2.7,<3.0a0``
    :depends libgcc: ``>=13``
@@ -152,7 +150,7 @@ heasoft
 
     <script>
         var package = "heasoft";
-        var versions = ["6.35.1"];
+        var versions = ["6.35.1","6.35.1"];
     </script>
 
 

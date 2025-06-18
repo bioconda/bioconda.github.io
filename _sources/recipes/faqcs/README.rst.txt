@@ -13,9 +13,9 @@ faqcs
    Quality Control of Next Generation Sequencing Data.
 
    :homepage: https://github.com/LANL-Bioinformatics/FaQCs
-   :license: BSD 3-Clause
+   :license: BSD / BSD-3-Clause
    :recipe: /`faqcs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/faqcs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/faqcs/meta.yaml>`_
-   :links: biotools: :biotools:`faqcs`
+   :links: biotools: :biotools:`faqcs`, doi: :doi:`10.1186/s12859-014-0366-2`
 
    
 
@@ -29,10 +29,10 @@ faqcs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.11-0</code>,  <code>2.10-8</code>,  <code>2.10-7</code>,  <code>2.10-6</code>,  <code>2.10-5</code>,  <code>2.10-4</code>,  <code>2.10-3</code>,  <code>2.10-2</code>,  <code>2.10-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.12-0</code>,  <code>2.11-0</code>,  <code>2.10-8</code>,  <code>2.10-7</code>,  <code>2.10-6</code>,  <code>2.10-5</code>,  <code>2.10-4</code>,  <code>2.10-3</code>,  <code>2.10-2</code>,  </span></summary>
       
 
-      ``2.11-0``,  ``2.10-8``,  ``2.10-7``,  ``2.10-6``,  ``2.10-5``,  ``2.10-4``,  ``2.10-3``,  ``2.10-2``,  ``2.10-1``,  ``2.10-0``,  ``2.09-3``,  ``2.09-2``,  ``2.09-1``,  ``2.09-0``,  ``2.08-0``
+      ``2.12-0``,  ``2.11-0``,  ``2.10-8``,  ``2.10-7``,  ``2.10-6``,  ``2.10-5``,  ``2.10-4``,  ``2.10-3``,  ``2.10-2``,  ``2.10-1``,  ``2.10-0``,  ``2.09-3``,  ``2.09-2``,  ``2.09-1``,  ``2.09-0``,  ``2.08-0``
 
       
       .. raw:: html
@@ -41,14 +41,19 @@ faqcs
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends r-base: ``>=4.4,<4.5.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -96,7 +101,7 @@ faqcs
 
     <script>
         var package = "faqcs";
-        var versions = ["2.11","2.10","2.10","2.10","2.10"];
+        var versions = ["2.12","2.11","2.10","2.10","2.10"];
     </script>
 
 

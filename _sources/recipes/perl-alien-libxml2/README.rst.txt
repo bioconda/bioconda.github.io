@@ -10,10 +10,11 @@ perl-alien-libxml2
    :replaces_section_title:
    :noindex:
 
-   Install the C libxml2 library on your system
+   Installs the C libxml2 library on your system.
 
    :homepage: https://metacpan.org/pod/Alien::Libxml2
-   :license: perl_5
+   :developer docs: https://github.com/PerlAlien/Alien-Libxml2
+   :license: Perl_5
    :recipe: /`perl-alien-libxml2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-alien-libxml2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-alien-libxml2/meta.yaml>`_
 
    
@@ -27,22 +28,27 @@ perl-alien-libxml2
       
       
 
-      ``0.17-1``,  ``0.17-0``
+      ``0.20-0``,  ``0.17-1``,  ``0.17-0``
 
       
 
    
    :depends libgcc: ``>=13``
+   :depends libiconv: ``>=1.18,<2.0a0``
+   :depends liblzma: ``>=5.8.1,<6.0a0``
+   :depends libxml2: ``>=2.14.4,<2.15.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-alien-build: ``>=2.84,<3.0a0``
+   :depends perl-alien-build-plugin-download-gitlab: ``>=0.1,<0.2.0a0``
+   :depends perl-test2-suite: ``0.000163.*``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -90,7 +96,7 @@ perl-alien-libxml2
 
     <script>
         var package = "perl-alien-libxml2";
-        var versions = ["0.17","0.17"];
+        var versions = ["0.20","0.17","0.17"];
     </script>
 
 

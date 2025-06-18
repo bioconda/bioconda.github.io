@@ -13,7 +13,9 @@ zol
    zol \(\& fai\)\: large\-scale targeted detection and evolutionary investigation of gene clusters.
 
    :homepage: https://github.com/Kalan-Lab/zol
-   :license: BSD / BSD-3-Clause license
+   :documentation: https://github.com/Kalan-Lab/zol/wiki
+   
+   :license: BSD / BSD-3-Clause
    :recipe: /`zol <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/zol>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/zol/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ zol
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.15-0</code>,  <code>1.5.14-0</code>,  <code>1.5.13-0</code>,  <code>1.5.12-0</code>,  <code>1.5.11-0</code>,  <code>1.5.10-0</code>,  <code>1.5.9-0</code>,  <code>1.5.8-0</code>,  <code>1.5.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.16-0</code>,  <code>1.5.15-0</code>,  <code>1.5.14-0</code>,  <code>1.5.13-0</code>,  <code>1.5.12-0</code>,  <code>1.5.11-0</code>,  <code>1.5.10-0</code>,  <code>1.5.9-0</code>,  <code>1.5.8-0</code>,  </span></summary>
       
 
-      ``1.5.15-0``,  ``1.5.14-0``,  ``1.5.13-0``,  ``1.5.12-0``,  ``1.5.11-0``,  ``1.5.10-0``,  ``1.5.9-0``,  ``1.5.8-0``,  ``1.5.7-0``,  ``1.5.6-0``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.12-0``,  ``1.4.11-0``,  ``1.4.10-1``,  ``1.4.10-0``,  ``1.4.9-1``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.20-0``,  ``1.3.19-0``,  ``1.3.18-0``,  ``1.3.17-0``,  ``1.3.16-0``,  ``1.3.15-0``,  ``1.3.14-0``,  ``1.3.12-0``,  ``1.3.11-0``,  ``1.3.10-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.8-0``,  ``1.2.7-0``
+      ``1.5.16-0``,  ``1.5.15-0``,  ``1.5.14-0``,  ``1.5.13-0``,  ``1.5.12-0``,  ``1.5.11-0``,  ``1.5.10-0``,  ``1.5.9-0``,  ``1.5.8-0``,  ``1.5.7-0``,  ``1.5.6-0``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.12-0``,  ``1.4.11-0``,  ``1.4.10-1``,  ``1.4.10-0``,  ``1.4.9-1``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.20-0``,  ``1.3.19-0``,  ``1.3.18-0``,  ``1.3.17-0``,  ``1.3.16-0``,  ``1.3.15-0``,  ``1.3.14-0``,  ``1.3.12-0``,  ``1.3.11-0``,  ``1.3.10-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.8-0``,  ``1.2.7-0``
 
       
       .. raw:: html
@@ -62,6 +64,7 @@ zol
    :depends muscle: ``>=5.0``
    :depends pal2nal: ``>=14.1``
    :depends pandas: ``>=2.0``
+   :depends pip: ``<=23.1.1``
    :depends pomegranate: ``>=1.0.0``
    :depends prodigal: 
    :depends prodigal-gv: 
@@ -76,6 +79,7 @@ zol
    :depends r-gridextra: 
    :depends rich-argparse: 
    :depends scikit-learn: 
+   :depends setuptools: ``<=80.0``
    :depends skani: ``>=0.2.2``
    :depends slclust: 
    :depends tqdm: 
@@ -135,7 +139,7 @@ zol
 
     <script>
         var package = "zol";
-        var versions = ["1.5.15","1.5.14","1.5.13","1.5.12","1.5.11"];
+        var versions = ["1.5.16","1.5.15","1.5.14","1.5.13","1.5.12"];
     </script>
 
 

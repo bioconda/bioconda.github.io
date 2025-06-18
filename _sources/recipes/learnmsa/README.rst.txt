@@ -29,10 +29,10 @@ learnmsa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.10-0</code>,  <code>2.0.1-0</code>,  <code>1.3.4-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.4-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.11-0</code>,  <code>2.0.10-0</code>,  <code>2.0.1-0</code>,  <code>1.3.4-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.4-0</code>,  <code>1.1.2-0</code>,  </span></summary>
       
 
-      ``2.0.10-0``,  ``2.0.1-0``,  ``1.3.4-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.4-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.1-0``
+      ``2.0.11-0``,  ``2.0.10-0``,  ``2.0.1-0``,  ``1.3.4-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.4-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -44,13 +44,15 @@ learnmsa
    :depends biopython: ``>=1.69``
    :depends imageio: 
    :depends logomaker: 
+   :depends mmseqs2: 
    :depends networkx: 
-   :depends numpy: ``<2.0``
    :depends pyfamsa: 
-   :depends python: ``>=3.9``
+   :depends python: ``3.12.*``
+   :depends pytorch: ``2.6.*``
    :depends seaborn: 
    :depends sentencepiece: 
-   :depends tensorflow: ``<2.18``
+   :depends tensorflow: ``2.18.*``
+   :depends tf-keras: ``2.18.*``
    :depends transformers: 
    :requirements:
 
@@ -102,7 +104,7 @@ learnmsa
 
     <script>
         var package = "learnmsa";
-        var versions = ["2.0.10","2.0.1","1.3.4","1.3.2","1.3.1"];
+        var versions = ["2.0.11","2.0.10","2.0.1","1.3.4","1.3.2"];
     </script>
 
 

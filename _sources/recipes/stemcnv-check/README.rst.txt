@@ -27,12 +27,13 @@ stemcnv-check
       
       
 
-      ``0.5.1-0``,  ``0.5.0-0``
+      ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``
 
       
 
    
-   :depends apptainer: 
+   :depends apptainer: ``>=1.3``
+   :depends bcftools-gtc2vcf-plugin: ``1.16.*``
    :depends deepdiff: ``>=8.0``
    :depends loguru: ``>=0.7``
    :depends openpyxl: ``>=3.1``
@@ -92,7 +93,7 @@ stemcnv-check
 
     <script>
         var package = "stemcnv-check";
-        var versions = ["0.5.1","0.5.0"];
+        var versions = ["0.5.1","0.5.1","0.5.0"];
     </script>
 
 

@@ -12,7 +12,9 @@ sak
 
    This tool allows one to cut sequences and parts of sequences out of sequence files.
 
-   :homepage: https://github.com/seqan/seqan/tree/master/apps/sak/README
+   :homepage: https://github.com/seqan/seqan/tree/master/apps/sak
+   :documentation: https://github.com/seqan/seqan/tree/master/apps/sak/README
+   
    :license: https://github.com/seqan/seqan/tree/master/apps/sak/LICENSE
    :recipe: /`sak <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sak>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sak/meta.yaml>`_
 
@@ -27,11 +29,13 @@ sak
       
       
 
-      ``0.4.6-2``,  ``0.4.6-1``,  ``0.4.6-0``
+      ``0.4.8-0``,  ``0.4.6-2``,  ``0.4.6-1``,  ``0.4.6-0``
 
       
 
    
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -82,7 +86,7 @@ sak
 
     <script>
         var package = "sak";
-        var versions = ["0.4.6","0.4.6","0.4.6"];
+        var versions = ["0.4.8","0.4.6","0.4.6","0.4.6"];
     </script>
 
 

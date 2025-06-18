@@ -10,10 +10,12 @@ covtobed
    :replaces_section_title:
    :noindex:
 
-   covtobed \- generate a BED file of covered regions from a BAM file
+   covtobed \- generate a BED file of covered regions from a BAM file.
 
-   :homepage: https://github.com/telatin/covtobed/
-   :license: MIT
+   :homepage: https://github.com/telatin/covtobed
+   :documentation: https://github.com/telatin/covtobed/wiki
+   
+   :license: MIT / MIT
    :recipe: /`covtobed <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/covtobed>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/covtobed/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ covtobed
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.5-5</code>,  <code>1.3.5-4</code>,  <code>1.3.5-3</code>,  <code>1.3.5-2</code>,  <code>1.3.5-1</code>,  <code>1.3.5-0</code>,  <code>1.3.3-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.0-0</code>,  <code>1.3.5-5</code>,  <code>1.3.5-4</code>,  <code>1.3.5-3</code>,  <code>1.3.5-2</code>,  <code>1.3.5-1</code>,  <code>1.3.5-0</code>,  <code>1.3.3-0</code>,  <code>1.3.1-0</code>,  </span></summary>
       
 
-      ``1.3.5-5``,  ``1.3.5-4``,  ``1.3.5-3``,  ``1.3.5-2``,  ``1.3.5-1``,  ``1.3.5-0``,  ``1.3.3-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.4-0``,  ``1.1.2-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.6-0``,  ``0.4-0``,  ``0.3-0``,  ``0.1-0``
+      ``1.4.0-0``,  ``1.3.5-5``,  ``1.3.5-4``,  ``1.3.5-3``,  ``1.3.5-2``,  ``1.3.5-1``,  ``1.3.5-0``,  ``1.3.3-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.4-0``,  ``1.1.2-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.6-0``,  ``0.4-0``,  ``0.3-0``,  ``0.1-0``
 
       
       .. raw:: html
@@ -40,18 +42,18 @@ covtobed
       
 
    
-   :depends bamtools: ``>=2.5.2,<2.6.0a0``
+   :depends bamtools: ``2.5.3``
+   :depends bamtools: ``>=2.5.3,<3.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -99,7 +101,7 @@ covtobed
 
     <script>
         var package = "covtobed";
-        var versions = ["1.3.5","1.3.5","1.3.5","1.3.5","1.3.5"];
+        var versions = ["1.4.0","1.3.5","1.3.5","1.3.5","1.3.5"];
     </script>
 
 

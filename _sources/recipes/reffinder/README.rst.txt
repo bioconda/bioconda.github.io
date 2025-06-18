@@ -10,10 +10,10 @@ reffinder
    :replaces_section_title:
    :noindex:
 
-   refFinder\: Fast Lightweighttool for extracting nucleotides from fastafile using streams
+   refFinder\: Fast Lightweighttool for extracting nucleotides from fastafile using streams.
 
    :homepage: https://github.com/ANGSD/refFinder
-   :license: GPLv3, MIT
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`reffinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reffinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reffinder/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ reffinder
       
       
 
-      ``0.81-3``,  ``0.81-2``,  ``0.81-1``,  ``0.81-0``
+      ``0.81-4``,  ``0.81-3``,  ``0.81-2``,  ``0.81-1``,  ``0.81-0``
 
       
 
@@ -35,10 +35,13 @@ reffinder
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -86,7 +89,7 @@ reffinder
 
     <script>
         var package = "reffinder";
-        var versions = ["0.81","0.81","0.81","0.81"];
+        var versions = ["0.81","0.81","0.81","0.81","0.81"];
     </script>
 
 

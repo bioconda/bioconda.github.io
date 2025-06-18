@@ -10,7 +10,7 @@ damasker
    :replaces_section_title:
    :noindex:
 
-   DAMASKER\: Module to determine where repeats are and make soft\-masks of said
+   DAMASKER\: Module to determine where repeats are and make soft\-masks of said.
 
    :homepage: https://github.com/thegenemyers/DAMASKER
    :license: Custom
@@ -27,7 +27,7 @@ damasker
       
       
 
-      ``1.0p1-7``,  ``1.0p1-6``,  ``1.0p1-5``,  ``1.0p1-4``,  ``1.0p1-3``,  ``1.0p1-2``,  ``1.0p1-1``,  ``1.0p1-0``
+      ``1.0p1-8``,  ``1.0p1-7``,  ``1.0p1-6``,  ``1.0p1-5``,  ``1.0p1-4``,  ``1.0p1-3``,  ``1.0p1-2``,  ``1.0p1-1``,  ``1.0p1-0``
 
       
 
@@ -36,6 +36,10 @@ damasker
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
