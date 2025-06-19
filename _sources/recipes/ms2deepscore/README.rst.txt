@@ -32,10 +32,10 @@ ms2deepscore
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5.2-0</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  <code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.0-0</code>,  <code>2.0.0-0</code>,  <code>1.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.5.2-1</code>,  <code>2.5.2-0</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  <code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.0-0</code>,  <code>2.0.0-0</code>,  </span></summary>
       
 
-      ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.0.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0.1-0``
+      ``2.5.2-1``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.0.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0.1-0``
 
       
       .. raw:: html
@@ -44,10 +44,10 @@ ms2deepscore
       
 
    
-   :depends matchms: ``>=0.18.0``
-   :depends matplotlib-base: ``3.7.2``
+   :depends matchms: ``>=0.21.0``
+   :depends matplotlib-base: ``>=3.8.3``
    :depends numba: 
-   :depends numpy: ``>=1.20.3``
+   :depends numpy: ``>=2.0``
    :depends pandas: 
    :depends python: ``>=3.9``
    :depends pytorch: 
@@ -105,7 +105,7 @@ ms2deepscore
 
     <script>
         var package = "ms2deepscore";
-        var versions = ["2.5.2","2.5.1","2.5.0","2.4.0","2.3.0"];
+        var versions = ["2.5.2","2.5.2","2.5.1","2.5.0","2.4.0"];
     </script>
 
 

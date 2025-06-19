@@ -13,11 +13,12 @@ ucsc-fatovcf
    Extract VCF from a multi\-sequence FASTA alignment.
 
    :homepage: https://hgdownload.cse.ucsc.edu/admin/exe
-   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/master/v473_base/README
+   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/master/v482_base/README
    
    :developer docs: https://github.com/ucscGenomeBrowser/kent
    :license: Varies; see https://genome.ucsc.edu/license
    :recipe: /`ucsc-fatovcf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-fatovcf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-fatovcf/meta.yaml>`_
+   :links: biotools: :biotools:`UCSC_Genome_Browser_Utilities`, doi: :doi:`10.1093/bib/bbs038`
 
    
 
@@ -30,19 +31,19 @@ ucsc-fatovcf
       
       
 
-      ``473-1``,  ``473-0``,  ``448-1``,  ``448-0``,  ``426-0``,  ``407-0``
+      ``482-0``,  ``473-1``,  ``473-0``,  ``448-1``,  ``448-0``,  ``426-0``,  ``407-0``
 
       
 
    
+   :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libgcc: ``>=13``
+   :depends liblzma: ``>=5.8.1,<6.0a0``
    :depends libopenssl-static: 
-   :depends libpng: ``>=1.6.44,<1.7.0a0``
-   :depends libstdcxx: ``>=13``
+   :depends libpng: ``>=1.6.49,<1.7.0a0``
    :depends libuuid: ``>=2.38.1,<3.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
-   :depends ucsc-stringify: ``>=472``
    :requirements:
 
    :additional platforms:
@@ -97,7 +98,7 @@ ucsc-fatovcf
 
     <script>
         var package = "ucsc-fatovcf";
-        var versions = ["473","473","448","448","426"];
+        var versions = ["482","473","473","448","448"];
     </script>
 
 

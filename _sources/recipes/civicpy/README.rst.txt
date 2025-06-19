@@ -12,8 +12,8 @@ civicpy
 
    CIViC variant knowledgebase analysis toolkit.
 
-   :homepage: http://civicpy.org
-   :documentation: https://docs.civicpy.org/en/latest/
+   :homepage: https://civicpy.org
+   :documentation: https://docs.civicpy.org/en/latest
    
    :developer docs: https://github.com/griffithlab/civicpy
    :license: MIT / MIT
@@ -30,19 +30,20 @@ civicpy
       
       
 
-      ``4.1.0-0``,  ``4.0.0-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.0-0``
+      ``5.0.0-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.0-0``
 
       
 
    
-   :depends backports-datetime-fromisoformat: ``2.0.0.*``
+   :depends backports: 
+   :depends backports-datetime-fromisoformat: 
    :depends click: 
    :depends deprecation: 
    :depends networkx: 
-   :depends obonet: ``0.2.3.*``
+   :depends obonet: 
    :depends pandas: 
    :depends pysam: 
-   :depends python: ``>=3.5``
+   :depends python: ``>=3.10``
    :depends requests: 
    :depends vcfpy: 
    :requirements:
@@ -95,7 +96,7 @@ civicpy
 
     <script>
         var package = "civicpy";
-        var versions = ["4.1.0","4.0.0","3.1.2","3.1.1","3.1.0"];
+        var versions = ["5.0.0","4.1.0","4.0.0","3.1.2","3.1.1"];
     </script>
 
 

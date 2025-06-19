@@ -14,7 +14,7 @@ lotus3
 
    :homepage: https://lotus3.earlham.ac.uk/
    :developer docs: https://github.com/hildebra/LotuS3/
-   :license: GPL-3.0-or-later
+   :license: GPL-2.0-only
    :recipe: /`lotus3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lotus3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lotus3/meta.yaml>`_
    :links: doi: :doi:`10.1186/s40168-022-01365-1`, biotools: :biotools:`lotus3`
 
@@ -29,7 +29,7 @@ lotus3
       
       
 
-      ``3.03-0``
+      ``3.03-1``,  ``3.03-0``
 
       
 
@@ -112,7 +112,7 @@ lotus3
 
     <script>
         var package = "lotus3";
-        var versions = ["3.03"];
+        var versions = ["3.03","3.03"];
     </script>
 
 

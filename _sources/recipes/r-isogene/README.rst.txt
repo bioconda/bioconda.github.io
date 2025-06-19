@@ -10,7 +10,7 @@ r-isogene
    :replaces_section_title:
    :noindex:
 
-   Offers framework for testing for monotonic relationship between gene expression and doses in a microarray experiment. Several testing procedures including the global likelihood\-ratio test \(Bartholomew\, 1961\)\, Williams \(1971\, 1972\)\, Marcus \(1976\)\, M \(Hu et al. 2005\) and the modified M \(Lin et al. 2007\) are used to test for the monotonic trend in gene expression with respect to doses. BH \(Benjamini and Hochberg 1995\) and BY \(Benjamini and Yekutieli 2004\) FDR controlling procedures are applied to adjust the raw p\-values obtained from the permutations.   
+   Offers framework for testing for monotonic relationship between gene expression.
 
    :homepage: https://CRAN.R-project.org/package=IsoGene
    :license: GPL3 / GPL-3
@@ -26,9 +26,17 @@ r-isogene
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0_24-8``,  ``1.0_24-7``,  ``1.0_24-6``,  ``1.0_24-5``,  ``1.0_24-4``,  ``1.0_24-3``,  ``1.0_24-2``,  ``1.0_24-1``,  ``1.0_24-0``
+         <details><summary><span class="truncated-version-list"><code>1.0_24-9</code>,  <code>1.0_24-8</code>,  <code>1.0_24-7</code>,  <code>1.0_24-6</code>,  <code>1.0_24-5</code>,  <code>1.0_24-4</code>,  <code>1.0_24-3</code>,  <code>1.0_24-2</code>,  <code>1.0_24-1</code>,  </span></summary>
+      
 
+      ``1.0_24-9``,  ``1.0_24-8``,  ``1.0_24-7``,  ``1.0_24-6``,  ``1.0_24-5``,  ``1.0_24-4``,  ``1.0_24-3``,  ``1.0_24-2``,  ``1.0_24-1``,  ``1.0_24-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    

@@ -15,7 +15,7 @@ eggnog-mapper
    :homepage: https://github.com/eggnogdb/eggnog-mapper
    :documentation: https://github.com/eggnogdb/eggnog-mapper/wiki
    
-   :license: GPL / AGPL-3.0-only
+   :license: AGPL / AGPL-3.0-only
    :recipe: /`eggnog-mapper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eggnog-mapper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eggnog-mapper/meta.yaml>`_
    :links: doi: :doi:`10.1093/nar/gky1085`, usegalaxy-eu: :usegalaxy-eu:`eggnog_mapper`
 
@@ -31,10 +31,10 @@ eggnog-mapper
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.12-2</code>,  <code>2.1.12-1</code>,  <code>2.1.12-0</code>,  <code>2.1.11-0</code>,  <code>2.1.10-0</code>,  <code>2.1.9-0</code>,  <code>2.1.8-0</code>,  <code>2.1.7-0</code>,  <code>2.1.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.13-0</code>,  <code>2.1.12-2</code>,  <code>2.1.12-1</code>,  <code>2.1.12-0</code>,  <code>2.1.11-0</code>,  <code>2.1.10-0</code>,  <code>2.1.9-0</code>,  <code>2.1.8-0</code>,  <code>2.1.7-0</code>,  </span></summary>
       
 
-      ``2.1.12-2``,  ``2.1.12-1``,  ``2.1.12-0``,  ``2.1.11-0``,  ``2.1.10-0``,  ``2.1.9-0``,  ``2.1.8-0``,  ``2.1.7-0``,  ``2.1.6-0``,  ``2.1.5-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``2.1.13-0``,  ``2.1.12-2``,  ``2.1.12-1``,  ``2.1.12-0``,  ``2.1.11-0``,  ``2.1.10-0``,  ``2.1.9-0``,  ``2.1.8-0``,  ``2.1.7-0``,  ``2.1.6-0``,  ``2.1.5-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -59,7 +59,7 @@ eggnog-mapper
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -107,7 +107,7 @@ eggnog-mapper
 
     <script>
         var package = "eggnog-mapper";
-        var versions = ["2.1.12","2.1.12","2.1.12","2.1.11","2.1.10"];
+        var versions = ["2.1.13","2.1.12","2.1.12","2.1.12","2.1.11"];
     </script>
 
 

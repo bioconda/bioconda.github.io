@@ -10,9 +10,9 @@ cvlr
    :replaces_section_title:
    :noindex:
 
-   Clustering and Visualization of Long Reads
+   Clustering and Visualization of Long Reads.
 
-   :homepage: https://github.com/EmanueleRaineri/releases/
+   :homepage: https://github.com/EmanueleRaineri/cvlr
    :license: MIT / MIT
    :recipe: /`cvlr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cvlr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cvlr/meta.yaml>`_
 
@@ -27,24 +27,29 @@ cvlr
       
       
 
-      ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends htslib: ``>=1.22,<1.23.0a0``
    :depends libdeflate: ``>=1.22,<1.23.0a0``
    :depends libgcc: ``>=13``
-   :depends liblzma: ``>=5.6.3,<6.0a0``
+   :depends liblzma: ``>=5.8.1,<6.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends matplotlib-base: 
    :depends numpy: 
-   :depends openssl: ``>=3.4.0,<4.0a0``
+   :depends openssl: ``>=3.5.0,<4.0a0``
    :depends python: ``>=3``
+   :depends scipy: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

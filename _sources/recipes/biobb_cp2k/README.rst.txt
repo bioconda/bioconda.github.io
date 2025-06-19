@@ -13,27 +13,24 @@ biobb_cp2k
    Biobb\_cp2k is a BioBB category for CP2K QM package.
 
    :homepage: https://github.com/bioexcel/biobb_cp2k
-   :license: APACHE / Apache Software License
+   :documentation: http://biobb-cp2k.readthedocs.io/en/latest/
+   
+   :license: Apache-2.0 license
    :recipe: /`biobb_cp2k <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_cp2k>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_cp2k/meta.yaml>`_
-
-   \[\!\[\]\(https\:\/\/readthedocs.org\/projects\/biobb\-cp2k\/badge\/\?version\=latest\)\]\(https\:\/\/biobb\-cp2k.readthedocs.io\/en\/latest\/\?badge\=latest\) \[\!\[\]\(https\:\/\/img.shields.io\/badge\/install\%20with\-bioconda\-brightgreen.svg\?style\=flat\)\]\(https\:\/\/anaconda.org\/bioconda\/biobb\_cp2k\) \[\!\[\]\(https\:\/\/img.shields.io\/badge\/docker\-Quay.io\-blue\)\]\(https\:\/\/quay.io\/repository\/biocontainers\/biobb\_cp2k\?tab\=tags\) \[\!\[\]\(https\:\/\/img.shields.io\/badge\/License\-Apache\%202.0\-blue.svg\)\]\(https\:\/\/opensource.org\/licenses\/Apache\-2.0\)
 
    \# biobb\_cp2k
 
    \#\#\# Introduction
-   Biobb\_cp2k allows setup and simulation of QM simulations using CP2K QM package. 
-   Biobb \(BioExcel building blocks\) packages are Python building blocks that
-   create   new layer of compatibility and interoperability over popular
-   bioinformatics tools.
+   Biobb\_cp2k is a BioBB category for CP2K QM package. Biobb \(BioExcel building blocks\) packages are Python building blocks that create new layer of compatibility and interoperability over popular bioinformatics tools.
    The latest documentation of this package can be found in our readthedocs site\:
-   \[latest API documentation\]\(http\:\/\/biobb\_ml.readthedocs.io\/en\/latest\/\).
+   \[latest API documentation\]\(http\:\/\/biobb\-cp2k.readthedocs.io\/en\/latest\/\).
 
 
    \#\#\# Copyright \& Licensing
-   This software has been developed in the \[MMB group\]\(https\:\/\/mmb.irbbarcelona.org\) at the \[BSC\]\(https\:\/\/www.bsc.es\/\) \& \[IRB\]\(https\:\/\/www.irbbarcelona.org\/\) for the \[European BioExcel\]\(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission \(EU H2020 \[823830\]\(http\:\/\/cordis.europa.eu\/projects\/823830\)\, EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
+   This software has been developed in the \[MMB group\]\(http\:\/\/mmb.irbbarcelona.org\) at the \[BSC\]\(http\:\/\/www.bsc.es\/\) \& \[IRB\]\(https\:\/\/www.irbbarcelona.org\/\) for the \[European BioExcel\]\(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission \(EU Horizon Europe \[101093290\]\(https\:\/\/cordis.europa.eu\/project\/id\/101093290\)\, EU H2020 \[823830\]\(http\:\/\/cordis.europa.eu\/projects\/823830\)\, EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
 
-   \* \(c\) 2015\-2024 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
-   \* \(c\) 2015\-2024 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
+   \* \(c\) 2015\-2025 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
+   \* \(c\) 2015\-2025 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
    Licensed under the
    \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file LICENSE for details.
 
@@ -50,13 +47,21 @@ biobb_cp2k
    :versions:
       
       
+      .. raw:: html
 
-      ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.3-0``,  ``3.8.2-0``,  ``3.8.1-0``,  ``3.8.0-0``
+         <details><summary><span class="truncated-version-list"><code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.9.0-0</code>,  <code>3.8.3-0</code>,  <code>3.8.2-0</code>,  <code>3.8.1-0</code>,  </span></summary>
+      
 
+      ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.3-0``,  ``3.8.2-0``,  ``3.8.1-0``,  ``3.8.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends biobb_common: ``5.0.0``
+   :depends biobb_common: ``5.1.0``
    :depends cp2k: ``7.1.0``
    :depends python: ``>=3.9``
    :requirements:
@@ -109,7 +114,7 @@ biobb_cp2k
 
     <script>
         var package = "biobb_cp2k";
-        var versions = ["5.0.0","4.2.0","4.1.0","4.0.0","3.9.0"];
+        var versions = ["5.1.0","5.0.0","4.2.0","4.1.0","4.0.0"];
     </script>
 
 

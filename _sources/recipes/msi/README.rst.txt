@@ -12,8 +12,8 @@ msi
 
    Metabarcoding sequences identification \- from nanopore reads to taxa tables.
 
-   :homepage: http://github.com/nunofonseca/msi/
-   :license: GPL / GPL-3
+   :homepage: https://github.com/nunofonseca/msi
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`msi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msi/meta.yaml>`_
    :links: biotools: :biotools:`msi`, doi: :doi:`10.5281/zenodo.3855032`
 
@@ -27,9 +27,17 @@ msi
    :versions:
       
       
+      .. raw:: html
 
-      ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-3``,  ``0.3.5-2``,  ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.3-0``,  ``0.3.1-0``,  ``0.3.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.3.8-0</code>,  <code>0.3.7-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-3</code>,  <code>0.3.5-2</code>,  <code>0.3.5-1</code>,  <code>0.3.5-0</code>,  <code>0.3.3-0</code>,  <code>0.3.1-0</code>,  </span></summary>
+      
 
+      ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-3``,  ``0.3.5-2``,  ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.3-0``,  ``0.3.1-0``,  ``0.3.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -49,7 +57,7 @@ msi
    :depends r-r.utils: 
    :depends r-tidyr: 
    :depends racon: 
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    :additional platforms:
@@ -100,7 +108,7 @@ msi
 
     <script>
         var package = "msi";
-        var versions = ["0.3.7","0.3.6","0.3.5","0.3.5","0.3.5"];
+        var versions = ["0.3.8","0.3.7","0.3.6","0.3.5","0.3.5"];
     </script>
 
 

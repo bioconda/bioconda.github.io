@@ -13,7 +13,7 @@ yacht
    YACHT is a mathematically rigorous hypothesis test for the presence or absence of organisms in a metagenomic sample\, based on average nucleotide identity \(ANI\).
 
    :homepage: https://github.com/KoslickiLab/YACHT
-   :documentation: https://github.com/KoslickiLab/YACHT/wiki
+   :documentation: https://usher-wiki.readthedocs.io/en/latest
    
    :license: MIT / MIT
    :recipe: /`yacht <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yacht>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yacht/meta.yaml>`_
@@ -30,19 +30,19 @@ yacht
       
       
 
-      ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.0-0``,  ``1.0-0``
+      ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.0-0``,  ``1.0-0``
 
       
 
    
    :depends biom-format: 
    :depends codecov: 
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends loguru: 
    :depends maturin: ``>=1,<2``
-   :depends numpy: ``>=1.21,<3``
    :depends numpy: ``>=1.22.4``
+   :depends numpy: ``>=1.23,<3``
    :depends openpyxl: 
    :depends pandas: 
    :depends pytaxonkit: ``>=0.9.1,<0.10.0a0``
@@ -54,8 +54,8 @@ yacht
    :depends ruff: 
    :depends scikit-learn: 
    :depends scipy: 
-   :depends sourmash: ``>=4.8.11,<5.0a0``
    :depends sourmash: ``>=4.8.3,<5``
+   :depends sourmash: ``>=4.9.2,<5.0a0``
    :depends sourmash_plugin_branchwater: 
    :depends tqdm: 
    :requirements:
@@ -64,7 +64,7 @@ yacht
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -112,7 +112,7 @@ yacht
 
     <script>
         var package = "yacht";
-        var versions = ["1.3.0","1.3.0","1.2.3","1.2.2","1.2.1"];
+        var versions = ["1.3.1","1.3.0","1.3.0","1.2.3","1.2.2"];
     </script>
 
 

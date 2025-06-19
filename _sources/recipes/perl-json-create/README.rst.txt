@@ -26,13 +26,22 @@ perl-json-create
    :versions:
       
       
+      .. raw:: html
 
-      ``0.35-4``,  ``0.35-3``,  ``0.35-2``,  ``0.35-1``,  ``0.35-0``,  ``0.24-3``,  ``0.24-2``,  ``0.24-1``,  ``0.24-0``
+         <details><summary><span class="truncated-version-list"><code>0.35-5</code>,  <code>0.35-4</code>,  <code>0.35-3</code>,  <code>0.35-2</code>,  <code>0.35-1</code>,  <code>0.35-0</code>,  <code>0.24-3</code>,  <code>0.24-2</code>,  <code>0.24-1</code>,  </span></summary>
+      
 
+      ``0.35-5``,  ``0.35-4``,  ``0.35-3``,  ``0.35-2``,  ``0.35-1``,  ``0.35-0``,  ``0.24-3``,  ``0.24-2``,  ``0.24-1``,  ``0.24-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends libgcc: ``>=13``
+   :depends perl: ``>=5.26.2``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-json-parse: ``>=0.60``

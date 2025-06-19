@@ -10,10 +10,10 @@ perl-xml-libxml
    :replaces_section_title:
    :noindex:
 
-   Interface to Gnome libxml2 xml parsing and DOM library
+   Interface to Gnome libxml2 xml parsing and DOM library.
 
    :homepage: https://bitbucket.org/shlomif/perl-xml-libxml
-   :license: Perl
+   :license: Perl_5
    :recipe: /`perl-xml-libxml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-libxml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-libxml/meta.yaml>`_
 
    
@@ -27,27 +27,28 @@ perl-xml-libxml
       
       
 
-      ``2.0210-0``,  ``2.0207-0``,  ``2.0132-3``,  ``2.0132-2``,  ``2.0132-1``,  ``2.0132-0``,  ``2.0124-0``
+      ``2.0210-1``,  ``2.0210-0``,  ``2.0207-0``,  ``2.0132-3``,  ``2.0132-2``,  ``2.0132-1``,  ``2.0132-0``,  ``2.0124-0``
 
       
 
    
    :depends libgcc: ``>=13``
-   :depends libxml2: ``>=2.13.5,<3.0a0``
+   :depends libiconv: ``>=1.18,<2.0a0``
+   :depends liblzma: ``>=5.8.1,<6.0a0``
+   :depends libxml2: ``>=2.14.4,<2.15.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-alien-build: ``>=2.84,<3.0a0``
-   :depends perl-alien-libxml2: ``>=0.17,<0.18.0a0``
+   :depends perl-alien-libxml2: ``>=0.20,<0.21.0a0``
    :depends perl-xml-namespacesupport: 
    :depends perl-xml-sax: 
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -95,7 +96,7 @@ perl-xml-libxml
 
     <script>
         var package = "perl-xml-libxml";
-        var versions = ["2.0210","2.0207","2.0132","2.0132","2.0132"];
+        var versions = ["2.0210","2.0210","2.0207","2.0132","2.0132"];
     </script>
 
 

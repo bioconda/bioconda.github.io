@@ -15,6 +15,7 @@ libccp4
    :homepage: https://www.ccp4.ac.uk
    :license: GPL3 / GPL-3.0-or-later AND LGPL-3.0-or-later
    :recipe: /`libccp4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libccp4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libccp4/meta.yaml>`_
+   :links: doi: :doi:`10.1107/S0907444994003112`
 
    CCP4 library provides an interface to the Collaborative Computational
    Project Number 4 \(CCP4\) suite of programs.
@@ -29,7 +30,7 @@ libccp4
       
       
 
-      ``8.0.0-0``
+      ``8.0.0-1``,  ``8.0.0-0``
 
       
 
@@ -94,7 +95,7 @@ libccp4
 
     <script>
         var package = "libccp4";
-        var versions = ["8.0.0"];
+        var versions = ["8.0.0","8.0.0"];
     </script>
 
 

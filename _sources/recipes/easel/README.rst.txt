@@ -28,10 +28,10 @@ easel
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.49-2</code>,  <code>0.49-1</code>,  <code>0.49-0</code>,  <code>0.48-3</code>,  <code>0.48-2</code>,  <code>0.48-1</code>,  <code>0.48-0</code>,  <code>0.47-0</code>,  <code>0.45-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.49-3</code>,  <code>0.49-2</code>,  <code>0.49-1</code>,  <code>0.49-0</code>,  <code>0.48-3</code>,  <code>0.48-2</code>,  <code>0.48-1</code>,  <code>0.48-0</code>,  <code>0.47-0</code>,  </span></summary>
       
 
-      ``0.49-2``,  ``0.49-1``,  ``0.49-0``,  ``0.48-3``,  ``0.48-2``,  ``0.48-1``,  ``0.48-0``,  ``0.47-0``,  ``0.45-1``,  ``0.45-0``
+      ``0.49-3``,  ``0.49-2``,  ``0.49-1``,  ``0.49-0``,  ``0.48-3``,  ``0.48-2``,  ``0.48-1``,  ``0.48-0``,  ``0.47-0``,  ``0.45-1``,  ``0.45-0``
 
       
       .. raw:: html
@@ -40,14 +40,16 @@ easel
       
 
    
+   :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libgcc: ``>=13``
+   :depends openmpi: ``>=4.1.6,<5.0a0``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -95,7 +97,7 @@ easel
 
     <script>
         var package = "easel";
-        var versions = ["0.49","0.49","0.49","0.48","0.48"];
+        var versions = ["0.49","0.49","0.49","0.49","0.48"];
     </script>
 
 

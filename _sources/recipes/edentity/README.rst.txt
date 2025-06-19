@@ -27,7 +27,7 @@ edentity
       
       
 
-      ``1.4.4-0``
+      ``1.4.5-0``,  ``1.4.4-0``
 
       
 
@@ -90,7 +90,7 @@ edentity
 
     <script>
         var package = "edentity";
-        var versions = ["1.4.4"];
+        var versions = ["1.4.5","1.4.4"];
     </script>
 
 

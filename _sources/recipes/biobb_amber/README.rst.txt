@@ -13,10 +13,31 @@ biobb_amber
    Biobb\_amber is a BioBB category for AMBER MD package.
 
    :homepage: https://github.com/bioexcel/biobb_amber
-   :license: APACHE / Apache Software License
+   :documentation: http://biobb-amber.readthedocs.io/en/latest/
+   
+   :license: Apache-2.0 license
    :recipe: /`biobb_amber <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_amber>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_amber/meta.yaml>`_
 
-   Biobb\_amber is a BioBB category for AMBER MD package. Biobb \(BioExcel building blocks\) packages are Python building blocks that create new layer of compatibility and interoperability over popular bioinformatics tools. The latest documentation of this package can be found in our readthedocs site\: http\:\/\/biobb\_amber.readthedocs.io\/en\/latest\/\)\]\(http\:\/\/biobb\_amber.readthedocs.io\/en\/latest\/
+   \# biobb\_amber
+
+   \#\#\# Introduction
+   Biobb\_amber is a BioBB category for AMBER MD package. Biobb \(BioExcel building blocks\) packages are Python building blocks that create new layer of compatibility and interoperability over popular bioinformatics tools.
+   The latest documentation of this package can be found in our readthedocs site\:
+   \[latest API documentation\]\(http\:\/\/biobb\-amber.readthedocs.io\/en\/latest\/\).
+
+
+   \#\#\# Copyright \& Licensing
+   This software has been developed in the \[MMB group\]\(http\:\/\/mmb.irbbarcelona.org\) at the \[BSC\]\(http\:\/\/www.bsc.es\/\) \& \[IRB\]\(https\:\/\/www.irbbarcelona.org\/\) for the \[European BioExcel\]\(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission \(EU Horizon Europe \[101093290\]\(https\:\/\/cordis.europa.eu\/project\/id\/101093290\)\, EU H2020 \[823830\]\(http\:\/\/cordis.europa.eu\/projects\/823830\)\, EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
+
+   \* \(c\) 2015\-2025 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
+   \* \(c\) 2015\-2025 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
+   Licensed under the
+   \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file LICENSE for details.
+
+   \!\[\]\(https\:\/\/bioexcel.eu\/wp\-content\/uploads\/2019\/04\/Bioexcell\_logo\_1080px\_transp.png \"Bioexcel\"\)
+
+
+
 
 
 .. conda:package:: biobb_amber
@@ -28,10 +49,10 @@ biobb_amber
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.0.4-0</code>,  <code>5.0.3-0</code>,  <code>5.0.2-0</code>,  <code>5.0.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.1-0</code>,  <code>4.0.0-0</code>,  <code>3.9.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.1.0-0</code>,  <code>5.0.4-0</code>,  <code>5.0.3-0</code>,  <code>5.0.2-0</code>,  <code>5.0.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.1-0</code>,  <code>4.0.0-0</code>,  </span></summary>
       
 
-      ``5.0.4-0``,  ``5.0.3-0``,  ``5.0.2-0``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.0-1``,  ``3.8.0-0``,  ``3.7.1-1``,  ``3.7.1-0``,  ``3.6.2-0``,  ``3.6.1-0``,  ``3.6.0-1``,  ``3.6.0-0``,  ``3.5.0-0``
+      ``5.1.0-0``,  ``5.0.4-0``,  ``5.0.3-0``,  ``5.0.2-0``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.0-1``,  ``3.8.0-0``,  ``3.7.1-1``,  ``3.7.1-0``,  ``3.6.2-0``,  ``3.6.1-0``,  ``3.6.0-1``,  ``3.6.0-0``,  ``3.5.0-0``
 
       
       .. raw:: html
@@ -40,9 +61,10 @@ biobb_amber
       
 
    
-   :depends ambertools: ``22.5.0``
-   :depends biobb_common: ``5.0.0``
-   :depends python: ``>=3.9,<3.11``
+   :depends ambertools: ``>=22.5``
+   :depends biobb_common: ``5.1.0``
+   :depends numpy: ``<=2.2.6``
+   :depends python: ``>=3.9``
    :requirements:
 
    :additional platforms:
@@ -93,7 +115,7 @@ biobb_amber
 
     <script>
         var package = "biobb_amber";
-        var versions = ["5.0.4","5.0.3","5.0.2","5.0.0","4.2.0"];
+        var versions = ["5.1.0","5.0.4","5.0.3","5.0.2","5.0.0"];
     </script>
 
 

@@ -10,14 +10,14 @@ usher
    :replaces_section_title:
    :noindex:
 
-   Ultrafast Sample Placement on Existing Trees \(UShER\)
+   Ultrafast Sample Placement on Existing Trees \(UShER\).
 
    :homepage: https://github.com/yatisht/usher
-   :documentation: https://usher-wiki.readthedocs.io/en/latest/
+   :documentation: https://usher-wiki.readthedocs.io/en/latest
    
    :license: MIT / MIT
    :recipe: /`usher <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/usher>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/usher/meta.yaml>`_
-   :links: doi: :doi:`10.1038/s41588-021-00862-7`
+   :links: doi: :doi:`10.1038/s41588-021-00862-7`, biotools: :biotools:`usher`, usegalaxy-eu: :usegalaxy-eu:`usher_matutils`, usegalaxy-eu: :usegalaxy-eu:`usher`
 
    
 
@@ -31,10 +31,10 @@ usher
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.3-1</code>,  <code>0.6.3-0</code>,  <code>0.6.2-1</code>,  <code>0.6.2-0</code>,  <code>0.6.1-1</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.6-2</code>,  <code>0.5.6-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.4-0</code>,  <code>0.6.3-1</code>,  <code>0.6.3-0</code>,  <code>0.6.2-1</code>,  <code>0.6.2-0</code>,  <code>0.6.1-1</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.6-2</code>,  </span></summary>
       
 
-      ``0.6.3-1``,  ``0.6.3-0``,  ``0.6.2-1``,  ``0.6.2-0``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.6-2``,  ``0.5.6-1``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-2``,  ``0.5.2-1``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.8-4``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.3-0``
+      ``0.6.4-0``,  ``0.6.3-1``,  ``0.6.3-0``,  ``0.6.2-1``,  ``0.6.2-0``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.6-2``,  ``0.5.6-1``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-2``,  ``0.5.2-1``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.8-4``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.3-0``
 
       
       .. raw:: html
@@ -43,15 +43,18 @@ usher
       
 
    
-   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
-   :depends isa-l: 
-   :depends libgcc-ng: ``>=12``
-   :depends libprotobuf: ``>=3.21.12,<3.22.0a0``
-   :depends libstdcxx-ng: ``>=12``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends boost-cpp: 
+   :depends isa-l: ``>=2.31.1,<3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=13``
    :depends mafft: 
-   :depends openmpi: ``4.1.2.*``
-   :depends openmpi: ``>=4.1.2,<5.0a0``
+   :depends openmpi: ``>=4.1.6,<5.0a0``
    :depends openssh: 
+   :depends protobuf: ``<4``
+   :depends tbb: ``>=2020.2,<2021.0.0a0``
+   :depends tbb-devel: ``<2021.1.1``
    :depends ucsc-fatovcf: 
    :requirements:
 
@@ -59,7 +62,7 @@ usher
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -107,7 +110,7 @@ usher
 
     <script>
         var package = "usher";
-        var versions = ["0.6.3","0.6.3","0.6.2","0.6.2","0.6.1"];
+        var versions = ["0.6.4","0.6.3","0.6.3","0.6.2","0.6.2"];
     </script>
 
 
