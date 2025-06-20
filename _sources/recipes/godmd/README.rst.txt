@@ -27,16 +27,16 @@ godmd
       
       
 
-      ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-0``
+      ``1.6-0``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends python_abi: ``3.9.* *_cp39``
+   :depends libgcc: ``>=13``
+   :depends libgfortran: 
+   :depends libgfortran5: ``>=13.3.0``
+   :depends libstdcxx: ``>=13``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    :additional platforms:
@@ -87,7 +87,7 @@ godmd
 
     <script>
         var package = "godmd";
-        var versions = ["1.0.0","1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.6","1.0.0","1.0.0","1.0.0","1.0.0"];
     </script>
 
 

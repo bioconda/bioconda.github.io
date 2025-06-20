@@ -28,10 +28,10 @@ ebi-eva-common-pyutils
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.16-0</code>,  <code>0.6.14-0</code>,  <code>0.6.12-0</code>,  <code>0.6.11-0</code>,  <code>0.6.10-0</code>,  <code>0.6.9-0</code>,  <code>0.6.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.3-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.16-0</code>,  <code>0.6.14-0</code>,  <code>0.6.12-0</code>,  <code>0.6.11-0</code>,  <code>0.6.10-0</code>,  <code>0.6.9-0</code>,  </span></summary>
       
 
-      ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.16-0``,  ``0.6.14-0``,  ``0.6.12-0``,  ``0.6.11-0``,  ``0.6.10-0``,  ``0.6.9-0``,  ``0.6.8-0``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``
+      ``0.7.3-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.16-0``,  ``0.6.14-0``,  ``0.6.12-0``,  ``0.6.11-0``,  ``0.6.10-0``,  ``0.6.9-0``,  ``0.6.8-0``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ ebi-eva-common-pyutils
 
    
    :depends cached-property: 
-   :depends lxml: ``4.*``
+   :depends lxml: ``5.*``
    :depends openpyxl: ``3.*``
    :depends python: 
    :depends pyyaml: 
@@ -97,7 +97,7 @@ ebi-eva-common-pyutils
 
     <script>
         var package = "ebi-eva-common-pyutils";
-        var versions = ["0.7.1","0.7.0","0.6.16","0.6.14","0.6.12"];
+        var versions = ["0.7.3","0.7.1","0.7.0","0.6.16","0.6.14"];
     </script>
 
 

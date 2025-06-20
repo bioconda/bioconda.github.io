@@ -10,11 +10,12 @@ demuxlet
    :replaces_section_title:
    :noindex:
 
-   Genetic multiplexing of barcoded single cell RNA\-seq
+   Genetic multiplexing of barcoded single cell RNA\-seq.
 
    :homepage: https://github.com/statgen/demuxlet
-   :license: GPL3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`demuxlet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/demuxlet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/demuxlet/meta.yaml>`_
+   :links: biotools: :biotools:`demuxlet`, doi: :doi:`10.1038/nbt.4042`
 
    
 
@@ -27,18 +28,26 @@ demuxlet
       
       
 
-      ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``
+      ``1.0-7``,  ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``
 
       
 
    
-   :depends htslib: ``>=1.10.2,<1.23.0a0``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends htslib: ``1.10.*``
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends samtools: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

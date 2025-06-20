@@ -27,15 +27,18 @@ perl-specio
       
       
 
-      ``0.50-0``,  ``0.49-0``,  ``0.48-0``,  ``0.47-0``,  ``0.43-0``,  ``0.42-0``
+      ``0.51-0``,  ``0.50-0``,  ``0.49-0``,  ``0.48-0``,  ``0.47-0``,  ``0.43-0``,  ``0.42-0``
 
       
 
    
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-clone: 
+   :depends perl-clone-choose: 
+   :depends perl-clone-pp: 
    :depends perl-devel-stacktrace: 
    :depends perl-eval-closure: 
+   :depends perl-module-implementation: 
    :depends perl-module-runtime: 
    :depends perl-mro-compat: 
    :depends perl-role-tiny: 
@@ -92,7 +95,7 @@ perl-specio
 
     <script>
         var package = "perl-specio";
-        var versions = ["0.50","0.49","0.48","0.47","0.43"];
+        var versions = ["0.51","0.50","0.49","0.48","0.47"];
     </script>
 
 

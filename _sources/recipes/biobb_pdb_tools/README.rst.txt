@@ -13,24 +13,24 @@ biobb_pdb_tools
    Biobb\_pdb\_tools is a swiss army knife for manipulating and editing PDB files.
 
    :homepage: https://github.com/bioexcel/biobb_pdb_tools
-   :license: APACHE / Apache Software License
+   :documentation: http://biobb-pdb-tools.readthedocs.io/en/latest/
+   
+   :license: Apache-2.0 license
    :recipe: /`biobb_pdb_tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_pdb_tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_pdb_tools/meta.yaml>`_
 
    \# biobb\_pdb\_tools
 
-   \#\#\# Introductioniobb\_pdb\_tools is a swiss army knife for manipulating and editing PDB files.
-   Biobb \(BioExcel building blocks\) packages are Python building blocks that
-   create new layer of compatibility and interoperability over popular
-   bioinformatics tools.
+   \#\#\# Introduction
+   Biobb\_pdb\_tools is a swiss army knife for manipulating and editing PDB files. Biobb \(BioExcel building blocks\) packages are Python building blocks that create new layer of compatibility and interoperability over popular bioinformatics tools.
    The latest documentation of this package can be found in our readthedocs site\:
-   \[latest API documentation\]\(https\:\/\/biobb\-pdb\-tools.readthedocs.io\/en\/latest\/\).
+   \[latest API documentation\]\(http\:\/\/biobb\-pdb\-tools.readthedocs.io\/en\/latest\/\).
 
 
    \#\#\# Copyright \& Licensing
-   This software has been developed in the \[MMB group\]\(http\:\/\/mmb.irbbarcelona.org\) at the \[BSC\]\(http\:\/\/www.bsc.es\/\) \& \[IRB\]\(https\:\/\/www.irbbarcelona.org\/\) for the \[European BioExcel\]\(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission \(EU H2020 \[823830\]\(http\:\/\/cordis.europa.eu\/projects\/823830\)\, EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
+   This software has been developed in the \[MMB group\]\(http\:\/\/mmb.irbbarcelona.org\) at the \[BSC\]\(http\:\/\/www.bsc.es\/\) \& \[IRB\]\(https\:\/\/www.irbbarcelona.org\/\) for the \[European BioExcel\]\(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission \(EU Horizon Europe \[101093290\]\(https\:\/\/cordis.europa.eu\/project\/id\/101093290\)\, EU H2020 \[823830\]\(http\:\/\/cordis.europa.eu\/projects\/823830\)\, EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
 
-   \* \(c\) 2015\-2024 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
-   \* \(c\) 2015\-2024 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
+   \* \(c\) 2015\-2025 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
+   \* \(c\) 2015\-2025 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
    Licensed under the
    \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file LICENSE for details.
 
@@ -48,12 +48,12 @@ biobb_pdb_tools
       
       
 
-      ``5.0.1-0``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.1.0-0``
+      ``5.1.0-0``,  ``5.0.1-0``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.1.0-0``
 
       
 
    
-   :depends biobb_common: ``5.0.0``
+   :depends biobb_common: ``5.1.0``
    :depends pdb-tools: 
    :depends python: ``>=3.9``
    :requirements:
@@ -106,7 +106,7 @@ biobb_pdb_tools
 
     <script>
         var package = "biobb_pdb_tools";
-        var versions = ["5.0.1","5.0.0","5.0.0","4.2.0","4.1.1"];
+        var versions = ["5.1.0","5.0.1","5.0.0","5.0.0","4.2.0"];
     </script>
 
 
