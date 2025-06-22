@@ -10,12 +10,12 @@ esviritu
    :replaces_section_title:
    :noindex:
 
-   EsViritu\: Read mapping pipeline for detection and measurement of virus pathogens from metagenomic or clinical data
+   Read mapping pipeline for detection and measurement of human and animal virus pathogens from short read metagenomic environmental or clinical samples.
 
    :homepage: https://github.com/cmmr/EsViritu
    :license: MIT
    :recipe: /`esviritu <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/esviritu>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/esviritu/meta.yaml>`_
-   :links: https: :https:`//doi.org/10.1101/2023.05.03.23289441`
+   :links: https: :https:`//doi.org/10.1038/s41467-023-42064-1`
 
    
 
@@ -28,42 +28,27 @@ esviritu
       
       
 
-      ``0.2.3-0``,  ``0.2.2-0``
+      ``1.0.1-0``,  ``0.2.3-0``,  ``0.2.2-0``
 
       
 
    
-   :depends bedtools: ``2.30.0.*``
-   :depends bioawk: ``1.0.*``
-   :depends biopython: 
-   :depends blast: ``>=2.13.0``
-   :depends bwa-mem2: ``2.2.1.*``
-   :depends coverm: ``0.6.1.*``
-   :depends dashing: ``1.0.*``
-   :depends fastani: ``>=1.3``
    :depends fastp: ``>=0.23.2``
    :depends minimap2: ``>=2.21``
    :depends numpy: 
-   :depends python: ``>=3.8``
+   :depends polars: 
+   :depends pysam: 
+   :depends python: ``>=3.11``
+   :depends pyyaml: 
    :depends r-base: 
-   :depends r-data.table: 
-   :depends r-dplyr: 
    :depends r-htmltools: 
-   :depends r-knitr: 
-   :depends r-lubridate: 
-   :depends r-rcolorbrewer: 
+   :depends r-magrittr: 
    :depends r-reactable: 
    :depends r-reactablefmtr: 
-   :depends r-readxl: 
    :depends r-remotes: 
    :depends r-scales: 
-   :depends r-stringr: 
-   :depends r-viridis: 
-   :depends samtools: ``>=1.9``
-   :depends scipy: 
-   :depends seqfu: ``>=1.17.1``
-   :depends seqkit: ``2.4.0.*``
-   :depends tqdm: 
+   :depends samtools: ``>=1.15``
+   :depends seqkit: 
    :requirements:
 
    :additional platforms:
@@ -114,7 +99,7 @@ esviritu
 
     <script>
         var package = "esviritu";
-        var versions = ["0.2.3","0.2.2"];
+        var versions = ["1.0.1","0.2.3","0.2.2"];
     </script>
 
 

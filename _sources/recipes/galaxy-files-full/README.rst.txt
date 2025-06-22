@@ -31,7 +31,7 @@ galaxy-files-full
       
       
 
-      ``24.2.4-0``,  ``24.2.3-0``
+      ``25.0.1-0``,  ``24.2.4-0``,  ``24.2.3-0``
 
       
 
@@ -41,7 +41,7 @@ galaxy-files-full
    :depends fs.googledrivefs: 
    :depends fs.sshfs: 
    :depends fs.webdavfs: 
-   :depends galaxy-util: ``>=24.2``
+   :depends galaxy-util: ``>=25.0``
    :depends google-cloud-storage: 
    :depends legacy-cgi: 
    :depends python: ``>=3.9``
@@ -97,7 +97,7 @@ galaxy-files-full
 
     <script>
         var package = "galaxy-files-full";
-        var versions = ["24.2.4","24.2.3"];
+        var versions = ["25.0.1","24.2.4","24.2.3"];
     </script>
 
 

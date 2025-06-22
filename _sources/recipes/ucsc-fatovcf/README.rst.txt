@@ -31,7 +31,7 @@ ucsc-fatovcf
       
       
 
-      ``482-0``,  ``473-1``,  ``473-0``,  ``448-1``,  ``448-0``,  ``426-0``,  ``407-0``
+      ``482-1``,  ``482-0``,  ``473-1``,  ``473-0``,  ``448-1``,  ``448-0``,  ``426-0``,  ``407-0``
 
       
 
@@ -50,7 +50,7 @@ ucsc-fatovcf
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -98,7 +98,7 @@ ucsc-fatovcf
 
     <script>
         var package = "ucsc-fatovcf";
-        var versions = ["482","473","473","448","448"];
+        var versions = ["482","482","473","473","448"];
     </script>
 
 

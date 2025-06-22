@@ -12,7 +12,7 @@ bioconductor-geometadb
 
    A compilation of metadata from NCBI GEO
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/GEOmetadb.html
+   :homepage: https://bioconductor.org/packages/3.20/bioc/html/GEOmetadb.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-geometadb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geometadb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geometadb/meta.yaml>`_
    :links: biotools: :biotools:`geometadb`
@@ -29,10 +29,10 @@ bioconductor-geometadb
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.64.0-0</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.56.0-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-1</code>,  <code>1.52.0-0</code>,  <code>1.50.0-0</code>,  <code>1.48.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.68.1-0</code>,  <code>1.64.0-0</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.56.0-0</code>,  <code>1.54.0-0</code>,  <code>1.52.0-1</code>,  <code>1.52.0-0</code>,  <code>1.50.0-0</code>,  </span></summary>
       
 
-      ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``
+      ``1.68.1-0``,  ``1.64.0-0``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.56.0-0``,  ``1.54.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-1``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-0``
 
       
       .. raw:: html
@@ -41,8 +41,8 @@ bioconductor-geometadb
       
 
    
-   :depends bioconductor-geoquery: ``>=2.70.0,<2.71.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-r.utils: 
    :depends r-rsqlite: 
    :requirements:
 
@@ -94,7 +94,7 @@ bioconductor-geometadb
 
     <script>
         var package = "bioconductor-geometadb";
-        var versions = ["1.64.0","1.62.0","1.60.0","1.56.0","1.54.0"];
+        var versions = ["1.68.1","1.64.0","1.62.0","1.60.0","1.56.0"];
     </script>
 
 

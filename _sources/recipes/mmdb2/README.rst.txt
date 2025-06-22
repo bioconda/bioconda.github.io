@@ -15,6 +15,7 @@ mmdb2
    :homepage: https://www.ccp4.ac.uk
    :license: GPL3 / GPL-3.0-or-later AND LGPL-3.0-or-later
    :recipe: /`mmdb2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mmdb2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mmdb2/meta.yaml>`_
+   :links: doi: :doi:`10.1107/S0907444904027167`
 
    MMDB2 is a C\+\+ toolkit for working with macromolecular coordinate files.
    It provides functionality for reading\, writing\, and manipulating PDB and mmCIF files\,
@@ -30,7 +31,7 @@ mmdb2
       
       
 
-      ``2.0.22-1``,  ``2.0.22-0``
+      ``2.0.22-2``,  ``2.0.22-1``,  ``2.0.22-0``
 
       
 
@@ -93,7 +94,7 @@ mmdb2
 
     <script>
         var package = "mmdb2";
-        var versions = ["2.0.22","2.0.22"];
+        var versions = ["2.0.22","2.0.22","2.0.22"];
     </script>
 
 

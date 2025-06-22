@@ -10,7 +10,7 @@ sawfish
    :replaces_section_title:
    :noindex:
 
-   Structural variant discovery and genotyping from mapped PacBio HiFi data
+   Joint structural variant and copy number variant caller for HiFi sequencing data
 
    :homepage: https://github.com/PacificBiosciences/sawfish
    :license: Pacific Biosciences Software License Agreement
@@ -28,10 +28,10 @@ sawfish
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.12.10-0</code>,  <code>0.12.9-0</code>,  <code>0.12.8-0</code>,  <code>0.12.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.12.10-0</code>,  <code>0.12.9-0</code>,  <code>0.12.8-0</code>,  </span></summary>
       
 
-      ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.12.10-0``,  ``0.12.9-0``,  ``0.12.8-0``,  ``0.12.7-0``,  ``0.12.6-0``,  ``0.12.5-0``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.12.2-0``,  ``0.12.1-0``
+      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.12.10-0``,  ``0.12.9-0``,  ``0.12.8-0``,  ``0.12.7-0``,  ``0.12.6-0``,  ``0.12.5-0``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.12.2-0``,  ``0.12.1-0``
 
       
       .. raw:: html
@@ -90,7 +90,7 @@ sawfish
 
     <script>
         var package = "sawfish";
-        var versions = ["2.0.1","2.0.0","1.0.2","1.0.1","1.0.0"];
+        var versions = ["2.0.1","2.0.1","2.0.0","1.0.2","1.0.1"];
     </script>
 
 

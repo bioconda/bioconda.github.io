@@ -28,7 +28,7 @@ mm2plus
       
       
 
-      ``1.1-0``,  ``1.0-0``
+      ``1.2-0``,  ``1.1-0``,  ``1.0-0``
 
       
 
@@ -84,7 +84,7 @@ mm2plus
 
     <script>
         var package = "mm2plus";
-        var versions = ["1.1","1.0"];
+        var versions = ["1.2","1.1","1.0"];
     </script>
 
 
