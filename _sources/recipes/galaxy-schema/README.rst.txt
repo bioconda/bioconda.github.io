@@ -30,16 +30,25 @@ galaxy-schema
    :versions:
       
       
+      .. raw:: html
 
-      ``24.2.4-0``,  ``24.2.3-0``,  ``24.2.2-0``,  ``24.2.1-0``,  ``24.2.0-0``,  ``24.1.4-0``,  ``24.1.3-0``,  ``24.1.2-0``,  ``24.1.1-0``
+         <details><summary><span class="truncated-version-list"><code>25.0.1-0</code>,  <code>24.2.4-0</code>,  <code>24.2.3-0</code>,  <code>24.2.2-0</code>,  <code>24.2.1-0</code>,  <code>24.2.0-0</code>,  <code>24.1.4-0</code>,  <code>24.1.3-0</code>,  <code>24.1.2-0</code>,  </span></summary>
+      
 
+      ``25.0.1-0``,  ``24.2.4-0``,  ``24.2.3-0``,  ``24.2.2-0``,  ``24.2.1-0``,  ``24.2.0-0``,  ``24.1.4-0``,  ``24.1.3-0``,  ``24.1.2-0``,  ``24.1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends email-validator: 
-   :depends galaxy-util: ``>=24.2``
+   :depends galaxy-tool-util-models: ``>=25.0``
+   :depends galaxy-util: ``>=25.0``
    :depends pydantic: ``>=2.7.4``
-   :depends python: ``>=3.8``
+   :depends python: ``3.9.*``
    :requirements:
 
    :additional platforms:
@@ -90,7 +99,7 @@ galaxy-schema
 
     <script>
         var package = "galaxy-schema";
-        var versions = ["24.2.4","24.2.3","24.2.2","24.2.1","24.2.0"];
+        var versions = ["25.0.1","24.2.4","24.2.3","24.2.2","24.2.1"];
     </script>
 
 

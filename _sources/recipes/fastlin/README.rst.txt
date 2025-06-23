@@ -13,7 +13,7 @@ fastlin
    fastlin\, ultra\-fast MTBC lineage typing.
 
    :homepage: https://github.com/rderelle/fastlin
-   :documentation: https://github.com/rderelle/fastlin/blob/0.4.2/README.md
+   :documentation: https://github.com/rderelle/fastlin/blob/0.4.2.1/README.md
    
    :license: MIT / MIT
    :recipe: /`fastlin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastlin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastlin/meta.yaml>`_
@@ -28,9 +28,17 @@ fastlin
    :versions:
       
       
+      .. raw:: html
 
-      ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2.1-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.4.2.1-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2.1-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  </span></summary>
+      
 
+      ``0.4.2.1-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2.1-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -88,7 +96,7 @@ fastlin
 
     <script>
         var package = "fastlin";
-        var versions = ["0.4.2","0.4.1","0.3.0","0.3.0","0.2.3"];
+        var versions = ["0.4.2.1","0.4.2","0.4.1","0.3.0","0.3.0"];
     </script>
 
 

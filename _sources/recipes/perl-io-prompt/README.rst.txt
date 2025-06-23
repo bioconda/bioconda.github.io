@@ -27,11 +27,12 @@ perl-io-prompt
       
       
 
-      ``0.997004-3``,  ``0.997004-2``,  ``0.997004-1``,  ``0.997004-0``
+      ``0.997004-4``,  ``0.997004-3``,  ``0.997004-2``,  ``0.997004-1``,  ``0.997004-0``
 
       
 
    
+   :depends perl: ``>=5.26.2``
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-termreadkey: 
    :depends perl-want: 
@@ -85,7 +86,7 @@ perl-io-prompt
 
     <script>
         var package = "perl-io-prompt";
-        var versions = ["0.997004","0.997004","0.997004","0.997004"];
+        var versions = ["0.997004","0.997004","0.997004","0.997004","0.997004"];
     </script>
 
 

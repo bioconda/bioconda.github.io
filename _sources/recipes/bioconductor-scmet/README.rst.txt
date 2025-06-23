@@ -27,7 +27,7 @@ bioconductor-scmet
       
       
 
-      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.8.0-1``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -67,6 +67,10 @@ bioconductor-scmet
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -114,7 +118,7 @@ bioconductor-scmet
 
     <script>
         var package = "bioconductor-scmet";
-        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0","1.0.0"];
+        var versions = ["1.8.0","1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

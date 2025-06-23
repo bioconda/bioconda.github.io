@@ -32,10 +32,10 @@ galaxy-data
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>24.2.4-0</code>,  <code>24.2.3-1</code>,  <code>24.2.3-0</code>,  <code>24.2.2-0</code>,  <code>24.2.1-0</code>,  <code>24.2.0-0</code>,  <code>24.1.4-0</code>,  <code>24.1.3-0</code>,  <code>24.1.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>25.0.1-0</code>,  <code>24.2.4-0</code>,  <code>24.2.3-1</code>,  <code>24.2.3-0</code>,  <code>24.2.2-0</code>,  <code>24.2.1-0</code>,  <code>24.2.0-0</code>,  <code>24.1.4-0</code>,  <code>24.1.3-0</code>,  </span></summary>
       
 
-      ``24.2.4-0``,  ``24.2.3-1``,  ``24.2.3-0``,  ``24.2.2-0``,  ``24.2.1-0``,  ``24.2.0-0``,  ``24.1.4-0``,  ``24.1.3-0``,  ``24.1.2-0``,  ``24.1.1-0``,  ``22.1.1-0``,  ``21.9.0-0``,  ``20.9.1-2``,  ``20.9.1-1``,  ``20.9.1-0``
+      ``25.0.1-0``,  ``24.2.4-0``,  ``24.2.3-1``,  ``24.2.3-0``,  ``24.2.2-0``,  ``24.2.1-0``,  ``24.2.0-0``,  ``24.1.4-0``,  ``24.1.3-0``,  ``24.1.2-0``,  ``24.1.1-0``,  ``22.1.1-0``,  ``21.9.0-0``,  ``20.9.1-2``,  ``20.9.1-1``,  ``20.9.1-0``
 
       
       .. raw:: html
@@ -50,11 +50,11 @@ galaxy-data
    :depends bx-python: 
    :depends dnspython: 
    :depends email-validator: 
-   :depends galaxy-files: ``>=24.2``
-   :depends galaxy-objectstore: ``>=24.2``
-   :depends galaxy-schema: ``>=24.2``
-   :depends galaxy-tool-util: ``>=24.2``
-   :depends galaxy-util: ``>=24.2``
+   :depends galaxy-files: ``>=25.0``
+   :depends galaxy-objectstore: ``>=25.0``
+   :depends galaxy-schema: ``>=25.0``
+   :depends galaxy-tool-util: ``>=25.0``
+   :depends galaxy-util: ``>=25.0``
    :depends galaxy_sequence_utils: 
    :depends h5grove: ``>=1.2.1``
    :depends h5py: 
@@ -126,7 +126,7 @@ galaxy-data
 
     <script>
         var package = "galaxy-data";
-        var versions = ["24.2.4","24.2.3","24.2.3","24.2.2","24.2.1"];
+        var versions = ["25.0.1","24.2.4","24.2.3","24.2.3","24.2.2"];
     </script>
 
 

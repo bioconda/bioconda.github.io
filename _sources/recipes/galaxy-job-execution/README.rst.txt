@@ -31,18 +31,19 @@ galaxy-job-execution
       
       
 
-      ``24.2.4-0``
+      ``25.0.1-0``,  ``24.2.4-0``
 
       
 
    
-   :depends galaxy-data: ``>=24.2``
-   :depends galaxy-files: ``>=24.2``
-   :depends galaxy-objectstore: ``>=24.2``
-   :depends galaxy-tool-util: ``>=24.2``
-   :depends galaxy-util: ``>=24.2``
+   :depends galaxy-data: ``>=25.0``
+   :depends galaxy-files: ``>=25.0``
+   :depends galaxy-objectstore: ``>=25.0``
+   :depends galaxy-tool-util: ``>=25.0``
+   :depends galaxy-util: ``>=25.0``
    :depends markupsafe: 
-   :depends python: ``>=3.8``
+   :depends pypng: 
+   :depends python: ``>=3.9``
    :depends sqlalchemy: ``>=2.0,<2.1``
    :requirements:
 
@@ -94,7 +95,7 @@ galaxy-job-execution
 
     <script>
         var package = "galaxy-job-execution";
-        var versions = ["24.2.4"];
+        var versions = ["25.0.1","24.2.4"];
     </script>
 
 

@@ -15,7 +15,7 @@ tmscoring
    :homepage: https://github.com/Dapid/tmscoring
    :documentation: https://github.com/Dapid/tmscoring/blob/master/README.md
    
-   :license: BSD / BSD 3-Clause
+   :license: BSD / BSD-3-Clause
    :recipe: /`tmscoring <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tmscoring>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tmscoring/meta.yaml>`_
 
    \# tmscoring
