@@ -10,10 +10,10 @@ planemo
    :replaces_section_title:
    :noindex:
 
-   Command\-line utilities to assist in building tools for the Galaxy project \(http\:\/\/galaxyproject.org\/\).
+   Command\-line utilities to assist in building tools for the Galaxy project \(https\:\/\/galaxyproject.org\).
 
    :homepage: https://github.com/galaxyproject/planemo
-   :documentation: https://planemo.readthedocs.io/en/latest/
+   :documentation: https://planemo.readthedocs.io/en/latest
    
    :license: MIT / MIT
    :recipe: /`planemo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/planemo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/planemo/meta.yaml>`_
@@ -30,10 +30,10 @@ planemo
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.75.30-0</code>,  <code>0.75.29-0</code>,  <code>0.75.27-0</code>,  <code>0.75.26-0</code>,  <code>0.75.25-0</code>,  <code>0.75.24-0</code>,  <code>0.75.22-0</code>,  <code>0.75.21-0</code>,  <code>0.75.20-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.75.31-0</code>,  <code>0.75.30-0</code>,  <code>0.75.29-0</code>,  <code>0.75.27-0</code>,  <code>0.75.26-0</code>,  <code>0.75.25-0</code>,  <code>0.75.24-0</code>,  <code>0.75.22-0</code>,  <code>0.75.21-0</code>,  </span></summary>
       
 
-      ``0.75.30-0``,  ``0.75.29-0``,  ``0.75.27-0``,  ``0.75.26-0``,  ``0.75.25-0``,  ``0.75.24-0``,  ``0.75.22-0``,  ``0.75.21-0``,  ``0.75.20-0``,  ``0.75.19-0``,  ``0.75.18-0``,  ``0.75.17-0``,  ``0.75.15-0``,  ``0.75.14-0``,  ``0.75.12-0``,  ``0.75.11-0``,  ``0.75.10-0``,  ``0.75.9-0``,  ``0.75.3-0``,  ``0.74.11-0``,  ``0.74.10-0``,  ``0.74.9-0``,  ``0.74.8-0``,  ``0.74.7-0``,  ``0.74.6-0``,  ``0.74.5-0``,  ``0.74.4-1``,  ``0.74.4-0``,  ``0.74.3-0``,  ``0.74.2-0``,  ``0.74.1-0``,  ``0.74.0-0``,  ``0.73.0-0``,  ``0.72.0-0``,  ``0.70.0-1``,  ``0.70.0-0``,  ``0.62.1-2``,  ``0.62.1-1``,  ``0.62.1-0``,  ``0.61.0-0``,  ``0.60.0-0``,  ``0.59.0-0``,  ``0.57.1-1``,  ``0.57.1-0``,  ``0.57.0-0``,  ``0.56.0-0``,  ``0.55.0-1``,  ``0.55.0-0``,  ``0.54.0-1``,  ``0.48.0-1``,  ``0.48.0-0``,  ``0.46.1-0``,  ``0.40.1-0``,  ``0.38.1-1``,  ``0.34.1-2``,  ``0.34.1-1``,  ``0.34.1-0``,  ``0.33.2-0``,  ``0.29.1-0``,  ``0.23.0-1``,  ``0.23.0-0``
+      ``0.75.31-0``,  ``0.75.30-0``,  ``0.75.29-0``,  ``0.75.27-0``,  ``0.75.26-0``,  ``0.75.25-0``,  ``0.75.24-0``,  ``0.75.22-0``,  ``0.75.21-0``,  ``0.75.20-0``,  ``0.75.19-0``,  ``0.75.18-0``,  ``0.75.17-0``,  ``0.75.15-0``,  ``0.75.14-0``,  ``0.75.12-0``,  ``0.75.11-0``,  ``0.75.10-0``,  ``0.75.9-0``,  ``0.75.3-0``,  ``0.74.11-0``,  ``0.74.10-0``,  ``0.74.9-0``,  ``0.74.8-0``,  ``0.74.7-0``,  ``0.74.6-0``,  ``0.74.5-0``,  ``0.74.4-1``,  ``0.74.4-0``,  ``0.74.3-0``,  ``0.74.2-0``,  ``0.74.1-0``,  ``0.74.0-0``,  ``0.73.0-0``,  ``0.72.0-0``,  ``0.70.0-1``,  ``0.70.0-0``,  ``0.62.1-2``,  ``0.62.1-1``,  ``0.62.1-0``,  ``0.61.0-0``,  ``0.60.0-0``,  ``0.59.0-0``,  ``0.57.1-1``,  ``0.57.1-0``,  ``0.57.0-0``,  ``0.56.0-0``,  ``0.55.0-1``,  ``0.55.0-0``,  ``0.54.0-1``,  ``0.48.0-1``,  ``0.48.0-0``,  ``0.46.1-0``,  ``0.40.1-0``,  ``0.38.1-1``,  ``0.34.1-2``,  ``0.34.1-1``,  ``0.34.1-0``,  ``0.33.2-0``,  ``0.29.1-0``,  ``0.23.0-1``,  ``0.23.0-0``
 
       
       .. raw:: html
@@ -43,12 +43,15 @@ planemo
 
    
    :depends allure-python-commons: 
-   :depends bioblend: ``>=1.0.0``
+   :depends backports: 
+   :depends backports.strenum: 
+   :depends bioblend: ``>=1.6.0``
    :depends click: ``!=8.0.2``
    :depends cwltool: ``>=1.0.20191225192155``
    :depends ephemeris: ``>=0.10.3``
-   :depends galaxy-tool-util: ``>=24.1,<25.0``
-   :depends galaxy-util: ``>=24.1,<25.0``
+   :depends galaxy-job-config-init: ``>=0.1.3``
+   :depends galaxy-tool-util: ``>=24.1,<25.1``
+   :depends galaxy-util: ``>=24.1,<25.1``
    :depends glob2: 
    :depends gxformat2: ``>=0.14.0``
    :depends h5py: 
@@ -110,7 +113,7 @@ planemo
 
     <script>
         var package = "planemo";
-        var versions = ["0.75.30","0.75.29","0.75.27","0.75.26","0.75.25"];
+        var versions = ["0.75.31","0.75.30","0.75.29","0.75.27","0.75.26"];
     </script>
 
 

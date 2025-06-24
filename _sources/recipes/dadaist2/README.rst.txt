@@ -30,10 +30,10 @@ dadaist2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.5-0</code>,  <code>1.2.4-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.5-0</code>,  <code>1.2.4-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.0-1</code>,  </span></summary>
       
 
-      ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.7-1``,  ``0.7.7-0``,  ``0.7.5-0``,  ``0.7.3-2``,  ``0.7.3-1``,  ``0.7.3-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.4.00-2``,  ``0.4.00-1``,  ``0.4.00-0``,  ``0.2.00-0``,  ``0.1.04-0``
+      ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.7-1``,  ``0.7.7-0``,  ``0.7.5-0``,  ``0.7.3-2``,  ``0.7.3-1``,  ``0.7.3-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.4.00-2``,  ``0.4.00-1``,  ``0.4.00-0``,  ``0.2.00-0``,  ``0.1.04-0``
 
       
       .. raw:: html
@@ -42,23 +42,29 @@ dadaist2
       
 
    
-   :depends bioconductor-dada2: ``>=1.18.0``
+   :depends bioconductor-dada2: ``>=1.34.0``
    :depends bioconductor-decipher: 
    :depends bioconductor-microbiome: 
    :depends bioconductor-phyloseq: 
    :depends biom-format: ``2.1.10.*``
+   :depends click: 
    :depends clustalo: 
    :depends cutadapt: ``>=3.4``
    :depends fastp: 
    :depends fasttree: 
+   :depends iqtree: 
+   :depends mafft: 
+   :depends matplotlib-base: 
    :depends pandas: ``>=1.0``
    :depends perl: 
    :depends perl-fastx-reader: ``>=0.90``
-   :depends python: ``>=3.6``
-   :depends qax: 
-   :depends r-matrix: ``1.3-2.*``
+   :depends python: ``>=3.7``
+   :depends r-matrix: ``>=1.4``
    :depends rich: 
+   :depends scikit-learn: 
+   :depends seaborn: 
    :depends seqfu: 
+   :depends usearch: 
    :requirements:
 
    :additional platforms:
@@ -109,7 +115,7 @@ dadaist2
 
     <script>
         var package = "dadaist2";
-        var versions = ["1.3.1","1.3.0","1.2.5","1.2.4","1.2.1"];
+        var versions = ["1.3.1","1.3.1","1.3.0","1.2.5","1.2.4"];
     </script>
 
 

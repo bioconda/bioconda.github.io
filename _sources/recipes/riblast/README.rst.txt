@@ -27,7 +27,7 @@ riblast
       
       
 
-      ``1.2.0-1``,  ``1.2.0-0``
+      ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
@@ -39,6 +39,10 @@ riblast
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -86,7 +90,7 @@ riblast
 
     <script>
         var package = "riblast";
-        var versions = ["1.2.0","1.2.0"];
+        var versions = ["1.2.0","1.2.0","1.2.0"];
     </script>
 
 

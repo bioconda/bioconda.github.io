@@ -12,10 +12,9 @@ tssv
 
    Targeted characterisation of short structural variation.
 
-   :homepage: The package home page
-   :documentation: https://tssv.readthedocs.io/en/latest/
+   :homepage: https://github.com/jfjlaros/tssv
+   :documentation: https://tssv.readthedocs.io/en/latest
    
-   :developer docs: https://github.com/jfjlaros/tssv
    :license: MIT / MIT
    :recipe: /`tssv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tssv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tssv/meta.yaml>`_
 
@@ -30,14 +29,13 @@ tssv
       
       
 
-      ``1.1.2-5``,  ``1.1.2-4``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.0-0``
+      ``1.1.2-6``,  ``1.1.2-5``,  ``1.1.2-4``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.0-0``
 
       
 
    
    :depends biopython: ``>=1.72``
    :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends requests: 
@@ -46,6 +44,10 @@ tssv
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

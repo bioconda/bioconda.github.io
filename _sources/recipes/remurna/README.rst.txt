@@ -10,11 +10,12 @@ remurna
    :replaces_section_title:
    :noindex:
 
-   Measurement of Single\-Nucleotide Polymorphism\-induced Changes of RNA Conformation
+   Measurement of Single\-Nucleotide Polymorphism\-induced Changes of RNA Conformation.
 
-   :homepage: https://www.ncbi.nlm.nih.gov/CBBresearch/Przytycka/index.cgi#remurna
-   :license: 
+   :homepage: https://www.ncbi.nlm.nih.gov/CBBresearch/Przytycka/software/remurna.html
+   :license: `PUBLIC-DOMAIN / LicenseRef-HHS-Public-Domain <https://www.hhs.gov/disclaimer.html>`_
    :recipe: /`remurna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/remurna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/remurna/meta.yaml>`_
+   :links: doi: :doi:`10.1093/nar/gks1009`
 
    
 
@@ -27,15 +28,22 @@ remurna
       
       
 
-      ``1.0-0``
+      ``1.0-1``,  ``1.0-0``
 
       
 
    
-   :depends libgcc: 
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -83,7 +91,7 @@ remurna
 
     <script>
         var package = "remurna";
-        var versions = ["1.0"];
+        var versions = ["1.0","1.0"];
     </script>
 
 

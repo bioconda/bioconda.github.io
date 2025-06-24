@@ -28,7 +28,7 @@ rfmix
       
       
 
-      ``2.03.r0.9505bfa-6``,  ``2.03.r0.9505bfa-5``,  ``2.03.r0.9505bfa-4``,  ``2.03.r0.9505bfa-3``,  ``2.03.r0.9505bfa-2``,  ``2.03.r0.9505bfa-1``,  ``2.03.r0.9505bfa-0``
+      ``2.03.r0.9505bfa-7``,  ``2.03.r0.9505bfa-6``,  ``2.03.r0.9505bfa-5``,  ``2.03.r0.9505bfa-4``,  ``2.03.r0.9505bfa-3``,  ``2.03.r0.9505bfa-2``,  ``2.03.r0.9505bfa-1``,  ``2.03.r0.9505bfa-0``
 
       
 
@@ -39,6 +39,10 @@ rfmix
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

@@ -13,7 +13,7 @@ ovrlpy
    A python tool to investigate cell overlaps in imaging\-based spatial transcriptomics data.
 
    :homepage: https://github.com/HiDiHlabs/ovrl.py
-   :documentation: https://ovrlpy.readthedocs.io/
+   :documentation: https://ovrlpy.readthedocs.io
    
    :license: MIT / MIT
    :recipe: /`ovrlpy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ovrlpy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ovrlpy/meta.yaml>`_
@@ -29,18 +29,20 @@ ovrlpy
       
       
 
-      ``0.2.1-0``
+      ``1.0.0-0``,  ``0.2.1-0``
 
       
 
    
+   :depends anndata: ``>=0.10``
    :depends matplotlib-base: ``>=3.8,<4.dev0``
    :depends matplotlib-scalebar: 
-   :depends numpy: ``>=1.25,<2.dev0``
+   :depends numpy: ``>=1.25,<3.dev0``
    :depends pandas: ``>=2.0,<3.dev0``
+   :depends polars: ``>=1.0,<2.dev0``
    :depends python: ``>=3.11,<3.14``
    :depends scikit-image: ``>=0.18``
-   :depends scikit-learn: ``>=1.1,<2.dev0``
+   :depends scikit-learn: ``>=1.4,<2.dev0``
    :depends scipy: ``>=1.11,<2.dev0``
    :depends tqdm: ``>=4.65,<5.dev0``
    :depends umap-learn: ``>=0.5,<1.dev0``
@@ -94,7 +96,7 @@ ovrlpy
 
     <script>
         var package = "ovrlpy";
-        var versions = ["0.2.1"];
+        var versions = ["1.0.0","0.2.1"];
     </script>
 
 

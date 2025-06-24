@@ -29,7 +29,7 @@ isodesign
       
       
 
-      ``2.0.1-0``
+      ``2.0.2-0``,  ``2.0.1-0``
 
       
 
@@ -92,7 +92,7 @@ isodesign
 
     <script>
         var package = "isodesign";
-        var versions = ["2.0.1"];
+        var versions = ["2.0.2","2.0.1"];
     </script>
 
 

@@ -70,19 +70,16 @@
 <dd><p>Targeted characterisation of short structural variation.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p>The package home page</p>
-</dd>
-<dt class="field-even">Documentation<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="reference external" href="https://tssv.readthedocs.io/en/latest/">https://tssv.readthedocs.io/en/latest/</a></p>
-</dd>
-<dt class="field-odd">Developer docs<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/jfjlaros/tssv">https://github.com/jfjlaros/tssv</a></p>
 </dd>
-<dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>MIT / MIT</p>
+<dt class="field-even">Documentation<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://tssv.readthedocs.io/en/latest">https://tssv.readthedocs.io/en/latest</a></p>
 </dd>
-<dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tssv">tssv</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tssv/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">License<span class="colon">:</span></dt>
+<dd class="field-odd"><p>MIT / MIT</p>
+</dd>
+<dt class="field-even">Recipe<span class="colon">:</span></dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tssv">tssv</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tssv/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -92,9 +89,9 @@
 <em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">tssv</span></span><a class="headerlink" href="#package-tssv" title="Link to this definition">¶</a></dt>
 <dd><blockquote>
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/tssv"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/tssv.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/tssv"><img alt="docker_tssv" src="https://quay.io/repository/biocontainers/tssv/status" /></a></p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.1.2-5</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.2-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.2-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.2-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.2-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.1.2-6</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.2-5</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.2-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.2-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.2-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.2-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.0-0</span></code></p>
 </dd>
 <dt class="field-even">depends biopython<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.72</span></code></p>
@@ -102,25 +99,22 @@
 <dt class="field-odd">depends libgcc<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
 </dd>
-<dt class="field-even">depends libstdcxx<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
+<dt class="field-even">depends python<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.10,&lt;3.11.0a0</span></code></p>
 </dd>
-<dt class="field-odd">depends python<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.10,&lt;3.11.0a0</span></code></p>
+<dt class="field-odd">depends python_abi<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">3.10.* *_cp310</span></code></p>
 </dd>
-<dt class="field-even">depends python_abi<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">3.10.* *_cp310</span></code></p>
-</dd>
-<dt class="field-odd">depends requests<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends setuptools<span class="colon">:</span></dt>
+<dt class="field-even">depends requests<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends xopen<span class="colon">:</span></dt>
+<dt class="field-odd">depends setuptools<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">requirements<span class="colon">:</span></dt>
+<dt class="field-even">depends xopen<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
+<dt class="field-odd">requirements<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
+<dt class="field-even">additional platforms<span class="colon">:</span></dt>
+<dd class="field-even"><span class="additional-platforms"><code>linux-aarch64</code></span></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>

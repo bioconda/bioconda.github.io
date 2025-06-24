@@ -67,15 +67,19 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">remurna</span></span></dt>
-<dd><p>Measurement of Single-Nucleotide Polymorphism-induced Changes of RNA Conformation</p>
+<dd><p>Measurement of Single-Nucleotide Polymorphism-induced Changes of RNA Conformation.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://www.ncbi.nlm.nih.gov/CBBresearch/Przytycka/index.cgi#remurna">https://www.ncbi.nlm.nih.gov/CBBresearch/Przytycka/index.cgi#remurna</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://www.ncbi.nlm.nih.gov/CBBresearch/Przytycka/software/remurna.html">https://www.ncbi.nlm.nih.gov/CBBresearch/Przytycka/software/remurna.html</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
+<dd class="field-even"><p><a class="reference external" href="https://www.hhs.gov/disclaimer.html">PUBLIC-DOMAIN / LicenseRef-HHS-Public-Domain</a></p>
+</dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/remurna">remurna</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/remurna/meta.yaml">meta.yaml</a></p>
+</dd>
+<dt class="field-even">Links<span class="colon">:</span></dt>
+<dd class="field-even"><p>doi: <a class="extlink-doi reference external" href="https://doi.org/10.1093/nar/gks1009">10.1093/nar/gks1009</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -85,16 +89,25 @@
 <em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">remurna</span></span><a class="headerlink" href="#package-remurna" title="Link to this definition">¶</a></dt>
 <dd><blockquote>
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/remurna"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/remurna.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/remurna"><img alt="docker_remurna" src="https://quay.io/repository/biocontainers/remurna/status" /></a></p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0-0</span></code></p>
 </dd>
-<dt class="field-even">depends libgcc<span class="colon">:</span></dt>
+<dt class="field-even">depends _openmp_mutex<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.5</span></code></p>
+</dd>
+<dt class="field-odd">depends libgcc<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
+</dd>
+<dt class="field-even">depends libgomp<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">requirements<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">additional platforms<span class="colon">:</span></dt>
+<dt class="field-odd">depends libstdcxx<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
+</dd>
+<dt class="field-even">requirements<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
+<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
+<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code></span></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -129,7 +142,7 @@ others.</p>
 
 <script>
     var package = "remurna";
-    var versions = ["1.0"];
+    var versions = ["1.0","1.0"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

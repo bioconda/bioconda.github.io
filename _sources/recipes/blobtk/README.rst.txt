@@ -29,7 +29,7 @@ blobtk
       
       
 
-      ``0.6.5-0``
+      ``0.7.1-0``,  ``0.6.5-0``
 
       
 
@@ -45,7 +45,7 @@ blobtk
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>osx-arm64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -93,7 +93,7 @@ blobtk
 
     <script>
         var package = "blobtk";
-        var versions = ["0.6.5"];
+        var versions = ["0.7.1","0.6.5"];
     </script>
 
 

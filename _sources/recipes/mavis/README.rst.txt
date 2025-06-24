@@ -10,12 +10,12 @@ mavis
    :replaces_section_title:
    :noindex:
 
-   A Structural Variant Post\-Processing Package
+   A Structural Variant Post\-Processing Package.
 
-   :homepage: https://github.com/bcgsc/mavis.git
+   :homepage: https://github.com/bcgsc/mavis
    :documentation: http://mavis.bcgsc.ca/docs/latest
    
-   :license: OTHER / Non-commercial use only
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`mavis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mavis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mavis/meta.yaml>`_
 
    
@@ -29,23 +29,25 @@ mavis
       
       
 
-      ``2.2.6-0``
+      ``3.1.2-0``,  ``2.2.6-0``
 
       
 
    
-   :depends biopython: ``>=1.70``
+   :depends biopython: ``>=1.70,<1.78``
    :depends braceexpand: ``0.1.2``
    :depends colour: 
    :depends distance: ``>=0.1.3``
-   :depends networkx: ``1.11.0``
+   :depends mavis-config: ``>=1.2.2``
+   :depends networkx: ``>=2.5,<3``
    :depends numpy: ``>=1.13.1``
-   :depends pysam: ``>=0.9``
-   :depends python: ``>=3``
-   :depends pyvcf: ``0.6.8``
-   :depends shapely: ``>=1.6.4``
+   :depends pandas: ``>=1.1,<2``
+   :depends pysam: 
+   :depends python: ``>=3.7``
+   :depends shapely: ``>=1.6.4.post1``
    :depends shortuuid: ``>=0.5.0``
    :depends svgwrite: 
+   :depends typing-extensions: ``>=4``
    :depends ucsc-blat: 
    :requirements:
 
@@ -97,7 +99,7 @@ mavis
 
     <script>
         var package = "mavis";
-        var versions = ["2.2.6"];
+        var versions = ["3.1.2","2.2.6"];
     </script>
 
 

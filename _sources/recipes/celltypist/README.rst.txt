@@ -10,9 +10,11 @@ celltypist
    :replaces_section_title:
    :noindex:
 
-   A tool for semi\-automatic cell type annotation
+   A tool for semi\-automatic cell type annotation.
 
    :homepage: https://github.com/Teichlab/celltypist
+   :documentation: https://www.celltypist.org
+   
    :license: MIT / MIT
    :recipe: /`celltypist <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/celltypist>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/celltypist/meta.yaml>`_
    :links: doi: :doi:`10.1126/science.abl5197`
@@ -29,10 +31,10 @@ celltypist
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.3-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.3-1</code>,  <code>1.5.3-0</code>,  <code>1.5.2-0</code>,  <code>1.5.0-0</code>,  <code>1.3.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7.0-0</code>,  <code>1.6.3-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.3-1</code>,  <code>1.5.3-0</code>,  <code>1.5.2-0</code>,  <code>1.5.0-0</code>,  </span></summary>
       
 
-      ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.3-1``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-1``,  ``0.1.3-0``
+      ``1.7.0-0``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.3-1``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-1``,  ``0.1.3-0``
 
       
       .. raw:: html
@@ -42,7 +44,7 @@ celltypist
 
    
    :depends click: ``>=7.1.2``
-   :depends leidenalg: ``>=0.8.3``
+   :depends leidenalg: ``>=0.9.0``
    :depends numpy: ``>=1.19.0``
    :depends openpyxl: ``>=3.0.4``
    :depends pandas: ``>=1.0.5``
@@ -101,7 +103,7 @@ celltypist
 
     <script>
         var package = "celltypist";
-        var versions = ["1.6.3","1.6.2","1.6.1","1.6.0","1.5.3"];
+        var versions = ["1.7.0","1.6.3","1.6.2","1.6.1","1.6.0"];
     </script>
 
 

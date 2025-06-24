@@ -10,11 +10,14 @@ plassembler
    :replaces_section_title:
    :noindex:
 
-   Quickly and accurately assemble plasmids in hybrid sequenced bacterial isolates
+   Quickly and accurately assemble plasmids in hybrid sequenced bacterial isolates.
 
    :homepage: https://github.com/gbouras13/plassembler
+   :documentation: https://plassembler.readthedocs.io/en/latest
+   
    :license: MIT / MIT
    :recipe: /`plassembler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plassembler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plassembler/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btad409`, biotools: :biotools:`plassembler`
 
    
 
@@ -28,10 +31,10 @@ plassembler
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.1-0</code>,  <code>1.7.0-0</code>,  <code>1.6.2-1</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8.0-0</code>,  <code>1.7.1-0</code>,  <code>1.7.0-0</code>,  <code>1.6.2-1</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  </span></summary>
       
 
-      ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
+      ``1.8.0-0``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
       .. raw:: html
@@ -53,7 +56,7 @@ plassembler
    :depends minimap2: ``>=2.11``
    :depends pandas: ``>=1.4.2``
    :depends pysam: ``>=0.16.0``
-   :depends python: ``>=3.8,<3.10``
+   :depends python: ``>=3.8,<3.14``
    :depends pyyaml: ``>=6.0``
    :depends raven-assembler: ``>=1.8``
    :depends requests: ``>=2.25.1``
@@ -109,7 +112,7 @@ plassembler
 
     <script>
         var package = "plassembler";
-        var versions = ["1.7.1","1.7.0","1.6.2","1.6.2","1.6.1"];
+        var versions = ["1.8.0","1.7.1","1.7.0","1.6.2","1.6.2"];
     </script>
 
 

@@ -10,12 +10,12 @@ dialign2
    :replaces_section_title:
    :noindex:
 
-   DIALIGN multiple sequence alignment using various sources of external information
+   DIALIGN multiple sequence alignment using various sources of external information.
 
    :homepage: http://dialign.gobics.de
    :license: LGPL
    :recipe: /`dialign2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dialign2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dialign2/meta.yaml>`_
-   :links: DOI: :DOI:`10.1093/nar/gkt283`
+   :links: doi: :doi:`10.1093/nar/gkt283`
 
    
 
@@ -27,9 +27,17 @@ dialign2
    :versions:
       
       
+      .. raw:: html
 
-      ``2.2.1-8``,  ``2.2.1-7``,  ``2.2.1-6``,  ``2.2.1-5``,  ``2.2.1-4``,  ``2.2.1-3``,  ``2.2.1-2``,  ``2.2.1-1``,  ``2.2.1-0``
+         <details><summary><span class="truncated-version-list"><code>2.2.1-9</code>,  <code>2.2.1-8</code>,  <code>2.2.1-7</code>,  <code>2.2.1-6</code>,  <code>2.2.1-5</code>,  <code>2.2.1-4</code>,  <code>2.2.1-3</code>,  <code>2.2.1-2</code>,  <code>2.2.1-1</code>,  </span></summary>
+      
 
+      ``2.2.1-9``,  ``2.2.1-8``,  ``2.2.1-7``,  ``2.2.1-6``,  ``2.2.1-5``,  ``2.2.1-4``,  ``2.2.1-3``,  ``2.2.1-2``,  ``2.2.1-1``,  ``2.2.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -38,6 +46,10 @@ dialign2
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

@@ -32,7 +32,7 @@ ssm
       
       
 
-      ``1.4-0``
+      ``1.4-1``,  ``1.4-0``
 
       
 
@@ -96,7 +96,7 @@ ssm
 
     <script>
         var package = "ssm";
-        var versions = ["1.4"];
+        var versions = ["1.4","1.4"];
     </script>
 
 
