@@ -13,7 +13,7 @@ haddock_biobb
    HADDOCK3 is the next generation integrative modelling software in the long\-lasting HADDOCK project.
 
    :homepage: https://github.com/haddocking/haddock3
-   :license: APACHE / Apache Software License
+   :license: APACHE / Apache-2.0
    :recipe: /`haddock_biobb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haddock_biobb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haddock_biobb/meta.yaml>`_
 
    HADDOCK3 is the next generation integrative modelling software in the long\-lasting HADDOCK project. It represents a complete rethinking and rewriting of the HADDOCK2.X series\, implementing a new way to interact with HADDOCK and offering new features to users who can now define custom workflows.
@@ -28,10 +28,10 @@ haddock_biobb
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.7-0</code>,  <code>3.0.6-2</code>,  <code>3.0.6-1</code>,  <code>3.0.6-0</code>,  <code>3.0.5-1</code>,  <code>3.0.5-0</code>,  <code>3.0.4-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2025.5-1</code>,  <code>2025.5-0</code>,  <code>3.0.7-0</code>,  <code>3.0.6-2</code>,  <code>3.0.6-1</code>,  <code>3.0.6-0</code>,  <code>3.0.5-1</code>,  <code>3.0.5-0</code>,  <code>3.0.4-0</code>,  </span></summary>
       
 
-      ``3.0.7-0``,  ``3.0.6-2``,  ``3.0.6-1``,  ``3.0.6-0``,  ``3.0.5-1``,  ``3.0.5-0``,  ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``
+      ``2025.5-1``,  ``2025.5-0``,  ``3.0.7-0``,  ``3.0.6-2``,  ``3.0.6-1``,  ``3.0.6-0``,  ``3.0.5-1``,  ``3.0.5-0``,  ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``
 
       
       .. raw:: html
@@ -104,7 +104,7 @@ haddock_biobb
 
     <script>
         var package = "haddock_biobb";
-        var versions = ["3.0.7","3.0.6","3.0.6","3.0.6","3.0.5"];
+        var versions = ["2025.5","2025.5","3.0.7","3.0.6","3.0.6"];
     </script>
 
 

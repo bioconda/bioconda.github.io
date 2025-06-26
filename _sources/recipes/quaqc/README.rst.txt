@@ -30,13 +30,13 @@ quaqc
       
       
 
-      ``1.3d-0``
+      ``1.3d-1``,  ``1.3d-0``
 
       
 
    
    :depends htslib: ``>=1.17``
-   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends htslib: ``>=1.22,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
@@ -93,7 +93,7 @@ quaqc
 
     <script>
         var package = "quaqc";
-        var versions = ["1.3d"];
+        var versions = ["1.3d","1.3d"];
     </script>
 
 

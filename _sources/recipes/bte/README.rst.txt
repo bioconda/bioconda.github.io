@@ -13,6 +13,8 @@ bte
    Cython wrapper enabling use of the MAT library in Python.
 
    :homepage: https://github.com/jmcbroome/BTE
+   :documentation: https://jmcbroome.github.io/BTE/build/html/index.html
+   
    :license: MIT / MIT
    :recipe: /`bte <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bte>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bte/meta.yaml>`_
 
@@ -27,22 +29,26 @@ bte
       
       
 
-      ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``
+      ``0.9.3-0``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``
 
       
 
    
-   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends protobuf: ``3.19.*``
-   :depends python: ``>=3.10,<3.11.0a0 *_cpython``
+   :depends boost-cpp: 
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends protobuf: ``<4``
+   :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends tbb: ``>=2019.0``
-   :depends tbb-devel: ``2019.0.*``
+   :depends tbb: ``>=2020.2,<2021.0.0a0``
+   :depends tbb-devel: ``<2021.1.1``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -90,7 +96,7 @@ bte
 
     <script>
         var package = "bte";
-        var versions = ["0.9.0","0.9.0","0.9.0","0.8.4","0.8.3"];
+        var versions = ["0.9.3","0.9.0","0.9.0","0.9.0","0.8.4"];
     </script>
 
 

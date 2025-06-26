@@ -27,7 +27,7 @@ eklipse
       
       
 
-      ``1.8-1``,  ``1.8-0``
+      ``1.8-2``,  ``1.8-1``,  ``1.8-0``
 
       
 
@@ -35,7 +35,7 @@ eklipse
    :depends biopython: 
    :depends blast: ``>=2.3.0``
    :depends circos: 
-   :depends python: ``2.7.*``
+   :depends python: 
    :depends samtools: 
    :depends tqdm: ``4.53.0.*``
    :requirements:
@@ -88,7 +88,7 @@ eklipse
 
     <script>
         var package = "eklipse";
-        var versions = ["1.8","1.8"];
+        var versions = ["1.8","1.8","1.8"];
     </script>
 
 

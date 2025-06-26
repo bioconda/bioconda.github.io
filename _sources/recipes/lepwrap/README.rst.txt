@@ -12,8 +12,8 @@ lepwrap
 
    The Snakemake pipeline to use Lep\-Map3 to create linkage maps and LepAnchor for anchoring\+orienting genome assemblies.
 
-   :homepage: https://github.com/pdimens/LepWrap/
-   :license: The GNU General Public License v3.0 (GPL3)
+   :homepage: https://github.com/pdimens/LepWrap
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`lepwrap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lepwrap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lepwrap/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ lepwrap
       
       
 
-      ``4.0.1-0``,  ``4.0-0``
+      ``5.0-0``,  ``4.0.1-0``,  ``4.0-0``
 
       
 
@@ -48,7 +48,7 @@ lepwrap
    :depends r-stringr: 
    :depends r-tidyr: 
    :depends sed: 
-   :depends snakemake: ``>=6.4``
+   :depends snakemake-minimal: ``>=6.4``
    :requirements:
 
    :additional platforms:
@@ -99,7 +99,7 @@ lepwrap
 
     <script>
         var package = "lepwrap";
-        var versions = ["4.0.1","4.0"];
+        var versions = ["5.0","4.0.1","4.0"];
     </script>
 
 

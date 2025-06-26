@@ -10,10 +10,12 @@ mumemto
    :replaces_section_title:
    :noindex:
 
-   Finding maximal unique matches across pangenomes
+   Finding maximal unique matches across pangenomes.
 
    :homepage: https://github.com/vikshiv/mumemto
-   :license: GPL-3.0-only
+   :documentation: https://github.com/vikshiv/mumemto/wiki
+   
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`mumemto <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mumemto>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mumemto/meta.yaml>`_
 
    Mumemto is a tool for finding a variety of matches across collections of sequences like a pangenome.
@@ -28,9 +30,17 @@ mumemto
    :versions:
       
       
+      .. raw:: html
 
-      ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-2</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  </span></summary>
+      
 
+      ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -97,7 +107,7 @@ mumemto
 
     <script>
         var package = "mumemto";
-        var versions = ["1.3.1","1.3.0","1.2.2","1.2.1","1.2.0"];
+        var versions = ["1.3.2","1.3.1","1.3.0","1.2.2","1.2.1"];
     </script>
 
 

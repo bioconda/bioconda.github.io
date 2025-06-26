@@ -10,7 +10,7 @@ rpbp
    :replaces_section_title:
    :noindex:
 
-   Ribosome profiling with Bayesian predictions \(Rp\-Bp\)
+   Ribosome profiling with Bayesian predictions \(Rp\-Bp\).
 
    :homepage: https://github.com/dieterich-lab/rp-bp
    :documentation: https://rp-bp.readthedocs.io/en/latest
@@ -30,7 +30,7 @@ rpbp
       
       
 
-      ``3.0.4-2``,  ``3.0.4-1``,  ``3.0.4-0``,  ``3.0.2-2``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``
+      ``3.0.4-3``,  ``3.0.4-2``,  ``3.0.4-1``,  ``3.0.4-0``,  ``3.0.2-2``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``
 
       
 
@@ -60,6 +60,10 @@ rpbp
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -107,7 +111,7 @@ rpbp
 
     <script>
         var package = "rpbp";
-        var versions = ["3.0.4","3.0.4","3.0.4","3.0.2","3.0.2"];
+        var versions = ["3.0.4","3.0.4","3.0.4","3.0.4","3.0.2"];
     </script>
 
 

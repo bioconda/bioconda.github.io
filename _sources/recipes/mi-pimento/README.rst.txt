@@ -10,13 +10,13 @@ mi-pimento
    :replaces_section_title:
    :noindex:
 
-   A PrIMEr infereNce TOolkit to facilitate large\-scale calling of metabarcoding amplicon sequence variants
+   A PrIMEr infereNce TOolkit to facilitate large\-scale calling of metabarcoding amplicon sequence variants.
 
    :homepage: https://github.com/EBI-Metagenomics/PIMENTO
-   :license: Apache-2.0
+   :license: APACHE / Apache-2.0
    :recipe: /`mi-pimento <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mi-pimento>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mi-pimento/meta.yaml>`_
 
-   A toolkit for performing primer inference in sequencing reads
+   A toolkit for performing primer inference in sequencing reads.
 
 
 
@@ -28,7 +28,7 @@ mi-pimento
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``,  ``0.0.4-0``
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.0.4-0``
 
       
 
@@ -91,7 +91,7 @@ mi-pimento
 
     <script>
         var package = "mi-pimento";
-        var versions = ["1.0.1","1.0.0","0.0.4"];
+        var versions = ["1.0.2","1.0.1","1.0.0","0.0.4"];
     </script>
 
 

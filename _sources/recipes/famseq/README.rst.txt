@@ -10,11 +10,12 @@ famseq
    :replaces_section_title:
    :noindex:
 
-   Peng G\, Fan Y\, Palculict TB\, Shen P\, Ruteshouser EC\, Chi A\, Davis RW\, Huff V\, Scharfe C\, Wang W. Rare variant detection using family\-based sequencing analysis. Proceedings of the National Academy of Sciences. 2013 Mar 5\;110\(10\)\:3985\-90
+   FamSeq is a computational tool for calculating probability of variants in family\-based sequencing data.
 
-   :homepage: http://bioinformatics.mdanderson.org/main/FamSeq
-   :license: GPL-3
+   :homepage: https://bioinformatics.mdanderson.org/public-software/famseq
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`famseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/famseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/famseq/meta.yaml>`_
+   :links: doi: :doi:`10.1073/pnas.1222158110`
 
    
 
@@ -27,7 +28,7 @@ famseq
       
       
 
-      ``1.0.3-7``,  ``1.0.3-6``,  ``1.0.3-5``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
+      ``1.0.3-8``,  ``1.0.3-7``,  ``1.0.3-6``,  ``1.0.3-5``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
 
       
 
@@ -37,6 +38,10 @@ famseq
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

@@ -34,6 +34,7 @@ lib-pod5
    Full documentation is found at https\:\/\/pod5\-file\-format.readthedocs.io
 
 
+
 .. conda:package:: lib-pod5
 
    |downloads_lib-pod5| |docker_lib-pod5|
@@ -42,16 +43,27 @@ lib-pod5
       
       
 
-      ``0.3.15-0``
+      ``0.3.27-0``,  ``0.3.15-0``
 
       
 
    
+   :depends flatbuffers: ``>=24.3.25,<24.3.26.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends numpy: ``>=1.21.0``
-   :depends python: ``>=3.8``
+   :depends pyarrow: 
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
+   :depends zstd: ``>=1.5.7,<1.6.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -99,7 +111,7 @@ lib-pod5
 
     <script>
         var package = "lib-pod5";
-        var versions = ["0.3.15"];
+        var versions = ["0.3.27","0.3.15"];
     </script>
 
 

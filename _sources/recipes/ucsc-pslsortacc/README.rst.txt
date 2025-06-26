@@ -12,9 +12,13 @@ ucsc-pslsortacc
 
    Remove chain\-breaking alignments from chains that break nested chains.
 
-   :homepage: http://hgdownload.cse.ucsc.edu/admin/exe/
-   :license: varies; see http://genome.ucsc.edu/license
+   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe
+   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/v482_base/README
+   
+   :developer docs: https://github.com/ucscGenomeBrowser/kent
+   :license: Varies; see https://genome.ucsc.edu/license
    :recipe: /`ucsc-pslsortacc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-pslsortacc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-pslsortacc/meta.yaml>`_
+   :links: biotools: :biotools:`UCSC_Genome_Browser_Utilities`, doi: :doi:`10.1093/bib/bbs038`
 
    
 
@@ -27,22 +31,28 @@ ucsc-pslsortacc
       
       
 
-      ``455-1``,  ``455-0``
+      ``482-0``,  ``455-1``,  ``455-0``
 
       
 
    
+   :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libgcc: ``>=13``
-   :depends libpng: ``>=1.6.44,<1.7.0a0``
+   :depends libiconv: ``>=1.18,<2.0a0``
+   :depends liblzma: ``>=5.8.1,<6.0a0``
+   :depends libopenssl-static: 
+   :depends libpng: ``>=1.6.49,<1.7.0a0``
    :depends libstdcxx: ``>=13``
    :depends libuuid: ``>=2.38.1,<3.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
-   :depends openssl: ``>=3.4.0,<4.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -90,7 +100,7 @@ ucsc-pslsortacc
 
     <script>
         var package = "ucsc-pslsortacc";
-        var versions = ["455","455"];
+        var versions = ["482","455","455"];
     </script>
 
 

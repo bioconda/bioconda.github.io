@@ -13,7 +13,7 @@ sr2silo
    Short\-read to SILO format converter.
 
    :homepage: https://github.com/cbg-ethz/sr2silo
-   :documentation: https://github.com/cbg-ethz/sr2silo/blob/v0.2.0/README.md
+   :documentation: https://github.com/cbg-ethz/sr2silo/blob/v1.0.1/README.md
    
    :license: MIT / MIT
    :recipe: /`sr2silo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sr2silo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sr2silo/meta.yaml>`_
@@ -31,7 +31,7 @@ sr2silo
       
       
 
-      ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.0.4-0``
+      ``1.0.1-0``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.0.4-0``
 
       
 
@@ -43,7 +43,8 @@ sr2silo
    :depends psutil: ``>=6.1.1``
    :depends pydantic: ``>=2.10.6``
    :depends pysam: ``>=0.23.0``
-   :depends python: ``>=3.10``
+   :depends python: ``>=3.11``
+   :depends python-dotenv: 
    :depends pyyaml: ``>=6.0.2``
    :depends requests: ``>=2.25.0``
    :depends tqdm: ``>=4.67.1``
@@ -99,7 +100,7 @@ sr2silo
 
     <script>
         var package = "sr2silo";
-        var versions = ["0.2.0","0.1.2","0.1.1","0.0.4"];
+        var versions = ["1.0.1","0.2.0","0.1.2","0.1.1","0.0.4"];
     </script>
 
 

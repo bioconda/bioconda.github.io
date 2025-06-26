@@ -35,22 +35,23 @@ pod5
       
       
 
-      ``0.3.15-0``
+      ``0.3.27-0``,  ``0.3.15-0``
 
       
 
    
-   :depends h5py: ``>=3.11.0,<3.12.dev0``
+   :depends h5py: ``>=3.11``
    :depends iso8601: 
-   :depends lib-pod5: ``0.3.15``
+   :depends lib-pod5: ``0.3.27``
    :depends more-itertools: 
    :depends numpy: ``>=1.21.0``
    :depends packaging: 
-   :depends polars: ``>=0.19,<1.dev0``
-   :depends pyarrow: ``>=16.1.0,<16.2.dev0``
+   :depends polars: ``>=1.20``
+   :depends pyarrow: ``>=18.0.0``
    :depends python: ``>=3.8``
    :depends pytz: 
    :depends tqdm: 
+   :depends vbz-h5py-plugin: 
    :requirements:
 
    :additional platforms:
@@ -101,7 +102,7 @@ pod5
 
     <script>
         var package = "pod5";
-        var versions = ["0.3.15"];
+        var versions = ["0.3.27","0.3.15"];
     </script>
 
 

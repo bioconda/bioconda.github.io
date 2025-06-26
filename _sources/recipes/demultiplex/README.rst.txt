@@ -29,7 +29,7 @@ demultiplex
       
       
 
-      ``1.2.2-0``
+      ``1.2.2-1``,  ``1.2.2-0``
 
       
 
@@ -38,6 +38,7 @@ demultiplex
    :depends dict-trie: ``>=1.0.1``
    :depends fastools: ``>=1.1.0``
    :depends jit-open: ``>=1.0.1``
+   :depends poetry: 
    :depends python: ``>=3.6``
    :depends tssv: ``>=1.1.0``
    :requirements:
@@ -90,7 +91,7 @@ demultiplex
 
     <script>
         var package = "demultiplex";
-        var versions = ["1.2.2"];
+        var versions = ["1.2.2","1.2.2"];
     </script>
 
 

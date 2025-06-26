@@ -10,12 +10,14 @@ flexbar
    :replaces_section_title:
    :noindex:
 
-   Flexible barcode and adapter removal
+   Flexible barcode and adapter removal.
 
    :homepage: https://github.com/seqan/flexbar
-   :license: BSD-3-Clause
+   :documentation: https://github.com/seqan/flexbar/wiki
+   
+   :license: BSD / BSD-3-Clause
    :recipe: /`flexbar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexbar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexbar/meta.yaml>`_
-   :links: biotools: :biotools:`flexbar`
+   :links: biotools: :biotools:`flexbar`, doi: :doi:`10.3390/biology1030895`, doi: :doi:`10.1093/bioinformatics/btx330`
 
    
 
@@ -29,10 +31,10 @@ flexbar
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.5.0-11</code>,  <code>3.5.0-10</code>,  <code>3.5.0-9</code>,  <code>3.5.0-8</code>,  <code>3.5.0-6</code>,  <code>3.5.0-5</code>,  <code>3.5.0-4</code>,  <code>3.5.0-3</code>,  <code>3.5.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.5.0-12</code>,  <code>3.5.0-11</code>,  <code>3.5.0-10</code>,  <code>3.5.0-9</code>,  <code>3.5.0-8</code>,  <code>3.5.0-6</code>,  <code>3.5.0-5</code>,  <code>3.5.0-4</code>,  <code>3.5.0-3</code>,  </span></summary>
       
 
-      ``3.5.0-11``,  ``3.5.0-10``,  ``3.5.0-9``,  ``3.5.0-8``,  ``3.5.0-6``,  ``3.5.0-5``,  ``3.5.0-4``,  ``3.5.0-3``,  ``3.5.0-2``,  ``3.3.0-1``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``
+      ``3.5.0-12``,  ``3.5.0-11``,  ``3.5.0-10``,  ``3.5.0-9``,  ``3.5.0-8``,  ``3.5.0-6``,  ``3.5.0-5``,  ``3.5.0-4``,  ``3.5.0-3``,  ``3.5.0-2``,  ``3.3.0-1``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``
 
       
       .. raw:: html
@@ -47,10 +49,13 @@ flexbar
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends seqan-library: 
    :depends tbb: ``>=2021.13.0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

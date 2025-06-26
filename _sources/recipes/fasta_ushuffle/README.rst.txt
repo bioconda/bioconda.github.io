@@ -10,10 +10,10 @@ fasta_ushuffle
    :replaces_section_title:
    :noindex:
 
-   a wrapper for uShuffle
+   A wrapper for uShuffle.
 
    :homepage: https://github.com/agordon/fasta_ushuffle
-   :license: custom
+   :license: Custom
    :recipe: /`fasta_ushuffle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fasta_ushuffle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fasta_ushuffle/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ fasta_ushuffle
       
       
 
-      ``0.2-7``,  ``0.2-6``,  ``0.2-5``,  ``0.2-4``,  ``0.2-3``,  ``0.2-2``,  ``0.2-1``,  ``0.2-0``
+      ``0.2-8``,  ``0.2-7``,  ``0.2-6``,  ``0.2-5``,  ``0.2-4``,  ``0.2-3``,  ``0.2-2``,  ``0.2-1``,  ``0.2-0``
 
       
 
@@ -36,6 +36,10 @@ fasta_ushuffle
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

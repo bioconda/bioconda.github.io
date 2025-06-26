@@ -10,11 +10,14 @@ beav
    :replaces_section_title:
    :noindex:
 
-   beav\: Bacterial genome and mobile element annotation pipeline
+   beav\: Bacterial genome and mobile element annotation pipeline.
 
    :homepage: https://github.com/weisberglab/beav
-   :license: GPL / GPL-3.0
+   :documentation: https://github.com/weisberglab/beav/blob/v1.4.0/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`beav <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/beav>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/beav/meta.yaml>`_
+   :links: doi: :doi:`10.1128/msphere.00209-24`
 
    
 
@@ -28,10 +31,10 @@ beav
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.5.5-1</code>,  <code>0.5.5-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.4.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.5.5-1</code>,  <code>0.5.5-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  </span></summary>
       
 
-      ``1.4.0-0``,  ``1.3.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.4.5-0``,  ``0.2-0``,  ``0.0.14-0``,  ``0.0.13-0``
+      ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.4.5-0``,  ``0.2-0``,  ``0.0.14-0``,  ``0.0.13-0``
 
       
       .. raw:: html
@@ -55,7 +58,7 @@ beav
    :depends infernal: ``>=1.1.2``
    :depends integron_finder: ``2.0.2.*``
    :depends macsyfinder: 
-   :depends numpy: ``>=1.19.4,<=1.22.1``
+   :depends numpy: ``>=1.19.4,<=1.26.5``
    :depends pandas: ``>=1.1.5,<=1.4.0``
    :depends perl: ``>=5.22.0``
    :depends perl-dbd-sqlite: 
@@ -64,10 +67,12 @@ beav
    :depends perl-findbin: 
    :depends perl-getopt-long: 
    :depends perl-ipc-run3: 
+   :depends perl-xml-libxml: 
    :depends pftools: 
    :depends prokka: ``>=1.11``
    :depends python: ``>=3.7,<=3.10``
    :depends scikit-learn: 
+   :depends scipy: ``>=1.6.0``
    :depends tqdm: 
    :depends trnascan-se: ``>=2.0.2``
    :requirements:
@@ -120,7 +125,7 @@ beav
 
     <script>
         var package = "beav";
-        var versions = ["1.4.0","1.3.0","1.1.0","1.0.0","0.5.5"];
+        var versions = ["1.4.0","1.4.0","1.3.0","1.1.0","1.0.0"];
     </script>
 
 
