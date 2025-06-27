@@ -27,12 +27,13 @@ blastbesties
       
       
 
-      ``1.1.2-0``,  ``1.1.1-2``,  ``1.1.1-0``
+      ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-2``,  ``1.1.1-0``
 
       
 
    
-   :depends python: ``>=3.7``
+   :depends argparse-tui: 
+   :depends python: ``>=3.8``
    :requirements:
 
    :additional platforms:
@@ -83,7 +84,7 @@ blastbesties
 
     <script>
         var package = "blastbesties";
-        var versions = ["1.1.2","1.1.1","1.1.1"];
+        var versions = ["1.2.0","1.1.2","1.1.1","1.1.1"];
     </script>
 
 

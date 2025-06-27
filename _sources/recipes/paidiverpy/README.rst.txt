@@ -13,7 +13,7 @@ paidiverpy
    A library to preprocess image data.
 
    :homepage: https://github.com/paidiver/paidiverpy
-   :license: Apache-2.0
+   :license: APACHE / Apache-2.0
    :recipe: /`paidiverpy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/paidiverpy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/paidiverpy/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ paidiverpy
       
       
 
-      ``0.1.3-0``
+      ``0.1.4-0``,  ``0.1.3-0``
 
       
 
@@ -48,9 +48,11 @@ paidiverpy
    :depends openpyxl: ``>=3.1``
    :depends pandas: ``>=2.2.2``
    :depends pillow: ``>=10.4.0``
+   :depends pydantic: 
    :depends python: ``>=3.10``
    :depends python-dotenv: ``>=1.0.1``
    :depends pyyaml: ``>=6.0``
+   :depends rawpy: 
    :depends scikit-image: ``>=0.24.0``
    :depends scipy: ``>=1.14``
    :depends shapely: ``2.0.7``
@@ -105,7 +107,7 @@ paidiverpy
 
     <script>
         var package = "paidiverpy";
-        var versions = ["0.1.3"];
+        var versions = ["0.1.4","0.1.3"];
     </script>
 
 

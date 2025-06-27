@@ -10,10 +10,10 @@ dwgsim
    :replaces_section_title:
    :noindex:
 
-   Whole Genome Simulator for Next\-Generation Sequencing
+   Whole Genome Simulator for Next\-Generation Sequencing.
 
    :homepage: https://github.com/nh13/DWGSIM
-   :license: GPL / GNU General Public License v2 (GPLv2)
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`dwgsim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dwgsim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dwgsim/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ dwgsim
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.14-1</code>,  <code>1.1.14-0</code>,  <code>1.1.13-3</code>,  <code>1.1.13-2</code>,  <code>1.1.13-1</code>,  <code>1.1.13-0</code>,  <code>1.1.11-8</code>,  <code>1.1.11-7</code>,  <code>1.1.11-6</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.14-2</code>,  <code>1.1.14-1</code>,  <code>1.1.14-0</code>,  <code>1.1.13-3</code>,  <code>1.1.13-2</code>,  <code>1.1.13-1</code>,  <code>1.1.13-0</code>,  <code>1.1.11-8</code>,  <code>1.1.11-7</code>,  </span></summary>
       
 
-      ``1.1.14-1``,  ``1.1.14-0``,  ``1.1.13-3``,  ``1.1.13-2``,  ``1.1.13-1``,  ``1.1.13-0``,  ``1.1.11-8``,  ``1.1.11-7``,  ``1.1.11-6``,  ``1.1.11-5``,  ``1.1.11-4``,  ``1.1.11-3``,  ``1.1.11-2``,  ``1.1.11-1``
+      ``1.1.14-2``,  ``1.1.14-1``,  ``1.1.14-0``,  ``1.1.13-3``,  ``1.1.13-2``,  ``1.1.13-1``,  ``1.1.13-0``,  ``1.1.11-8``,  ``1.1.11-7``,  ``1.1.11-6``,  ``1.1.11-5``,  ``1.1.11-4``,  ``1.1.11-3``,  ``1.1.11-2``,  ``1.1.11-1``
 
       
       .. raw:: html
@@ -43,10 +43,13 @@ dwgsim
    :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends ncurses: ``>=6.5,<7.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -94,7 +97,7 @@ dwgsim
 
     <script>
         var package = "dwgsim";
-        var versions = ["1.1.14","1.1.14","1.1.13","1.1.13","1.1.13"];
+        var versions = ["1.1.14","1.1.14","1.1.14","1.1.13","1.1.13"];
     </script>
 
 

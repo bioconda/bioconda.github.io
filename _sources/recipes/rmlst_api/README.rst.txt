@@ -10,9 +10,11 @@ rmlst_api
    :replaces_section_title:
    :noindex:
 
-   API to perform rMLST on PubMLST.org
+   Python package to perform rMLST through the PubMLST API.
 
-   :homepage: pypi.org/project/rmlst-api
+   :homepage: https://github.com/domenico-simone/rmlst_api
+   :documentation: https://pubmlst.org/species-id/species-identification-via-api
+   
    :license: MIT / MIT
    :recipe: /`rmlst_api <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rmlst_api>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rmlst_api/meta.yaml>`_
 
@@ -27,14 +29,14 @@ rmlst_api
       
       
 
-      ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.3-0``
+      ``0.1.8-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.3-0``
 
       
 
    
    :depends click: 
-   :depends python: 
-   :depends requests: ``2.28.1.*``
+   :depends python: ``>=3.9``
+   :depends requests: ``>=2.32.3``
    :requirements:
 
    :additional platforms:
@@ -85,7 +87,7 @@ rmlst_api
 
     <script>
         var package = "rmlst_api";
-        var versions = ["0.1.6","0.1.5","0.1.3"];
+        var versions = ["0.1.8","0.1.6","0.1.5","0.1.3"];
     </script>
 
 

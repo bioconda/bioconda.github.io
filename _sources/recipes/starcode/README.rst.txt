@@ -10,10 +10,10 @@ starcode
    :replaces_section_title:
    :noindex:
 
-   Starcode\: sequence clustering based on all\-pairs search
+   Starcode\: sequence clustering based on all\-pairs search.
 
    :homepage: https://github.com/gui11aume/starcode
-   :license: GPLv3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`starcode <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/starcode>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/starcode/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ starcode
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4-6</code>,  <code>1.4-5</code>,  <code>1.4-4</code>,  <code>1.4-3</code>,  <code>1.4-2</code>,  <code>1.4-1</code>,  <code>1.4-0</code>,  <code>1.3-2</code>,  <code>1.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4-7</code>,  <code>1.4-6</code>,  <code>1.4-5</code>,  <code>1.4-4</code>,  <code>1.4-3</code>,  <code>1.4-2</code>,  <code>1.4-1</code>,  <code>1.4-0</code>,  <code>1.3-2</code>,  </span></summary>
       
 
-      ``1.4-6``,  ``1.4-5``,  ``1.4-4``,  ``1.4-3``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.1-1``,  ``1.1-0``
+      ``1.4-7``,  ``1.4-6``,  ``1.4-5``,  ``1.4-4``,  ``1.4-3``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.1-1``,  ``1.1-0``
 
       
       .. raw:: html
@@ -47,7 +47,7 @@ starcode
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

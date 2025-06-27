@@ -13,8 +13,11 @@ apscale
    Advanced Pipeline for Simple yet Comprehensive AnaLysEs of DNA metabarcoding data.
 
    :homepage: https://github.com/DominikBuchner/apscale
+   :documentation: https://github.com/DominikBuchner/apscale/blob/main/README.md
+   
    :license: MIT / MIT
    :recipe: /`apscale <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/apscale>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/apscale/meta.yaml>`_
+   :links: doi: :doi:`biotools:apscale`
 
    
 
@@ -27,23 +30,23 @@ apscale
       
       
 
-      ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.0-0``,  ``1.7.1-0``,  ``1.6.3-0``,  ``1.5.5-0``
+      ``3.0.2-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.0-0``,  ``1.7.1-0``,  ``1.6.3-0``,  ``1.5.5-0``
 
       
 
    
    :depends biopython: ``>=1.78``
    :depends cutadapt: ``>=3.5``
-   :depends demultiplexer: ``>=1.1.0``
+   :depends demultiplexer2: ``>=1.1.5``
    :depends fastparquet: ``>=0.8.0``
    :depends joblib: ``>=1.0.0``
-   :depends openpyxl: ``>=3.0.6``
-   :depends pandas: ``>=1.2.1``
+   :depends openpyxl: ``>=3.0.10``
+   :depends pandas: ``>=1.5.0``
    :depends psutil: ``>=5.8.0``
    :depends pyarrow: ``>=7.0.0``
-   :depends python: ``>=3.7``
+   :depends python: ``>=3.8``
    :depends tqdm: ``>=4.56.0``
-   :depends vsearch: ``>=2.21,<3``
+   :depends vsearch: 
    :requirements:
 
    :additional platforms:
@@ -94,7 +97,7 @@ apscale
 
     <script>
         var package = "apscale";
-        var versions = ["2.0.4","2.0.3","2.0.2","2.0.0","1.7.1"];
+        var versions = ["3.0.2","2.0.4","2.0.3","2.0.2","2.0.0"];
     </script>
 
 

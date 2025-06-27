@@ -44,14 +44,13 @@ atlas
    :depends _openmp_mutex: ``>=4.5``
    :depends armadillo: ``>=14.4,<15.0a0``
    :depends fmt: ``>=10.2.1,<11.0a0``
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends htslib: ``>=1.21,<1.22.0a0``
    :depends jsoncpp: ``>=1.9.6,<1.9.7.0a0``
    :depends lapack: 
    :depends libgcc: ``>=13``
    :depends libgomp: 
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends mkl: 
    :depends nlohmann_json: 
    :depends openblas: 
    :depends sysroot_linux-64: ``2.17.*``

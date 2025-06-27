@@ -27,7 +27,7 @@ vpt-core
       
       
 
-      ``1.2.0-0``
+      ``1.2.0-1``,  ``1.2.0-0``
 
       
 
@@ -38,10 +38,10 @@ vpt-core
    :depends geopandas: ``>=0.13.2``
    :depends geos: ``>=3.10.2``
    :depends numpy: 
-   :depends opencv-python-headless: 
    :depends pandas: ``>=2.0.3,<3.0.0``
    :depends pillow: ``>=9.4.0``
    :depends psutil: 
+   :depends py-opencv: 
    :depends pyarrow: ``>=8.0.0,<14.0.0``
    :depends python: ``>=3.9,<3.11``
    :depends python-dotenv: ``>=0.20.0``
@@ -101,7 +101,7 @@ vpt-core
 
     <script>
         var package = "vpt-core";
-        var versions = ["1.2.0"];
+        var versions = ["1.2.0","1.2.0"];
     </script>
 
 
