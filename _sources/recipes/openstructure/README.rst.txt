@@ -66,10 +66,10 @@ openstructure
    :depends openmm: ``>=8.2.0,<9.0a0``
    :depends pandas: ``>=2.3.0,<3.0a0``
    :depends parasail: ``>=2.6.2,<3.0a0``
-   :depends pyqt: ``>=5.15.11,<5.16.0a0``
+   :depends pyqt: ``>=5.15.9,<5.16.0a0``
    :depends python: ``>=3.10,<3.11.0a0 *_cpython``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends qt: ``>=5.15.15,<5.16.0a0``
+   :depends qt: ``>=5.15.8,<5.16.0a0``
    :depends scipy: ``>=1.15.2,<2.0a0``
    :depends voronota: ``>=1.29.4412,<2.0a0``
    :requirements:

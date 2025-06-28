@@ -27,7 +27,7 @@ pytaxonkit
       
       
 
-      ``0.9.1-1``,  ``0.9.1-0``,  ``0.9-0``,  ``0.8-0``,  ``0.7.2-0``,  ``0.6.1-0``,  ``0.6-0``
+      ``0.10-0``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.9-0``,  ``0.8-0``,  ``0.7.2-0``,  ``0.6.1-0``,  ``0.6-0``
 
       
 
@@ -35,7 +35,7 @@ pytaxonkit
    :depends pandas: ``>=1.0``
    :depends pytest: ``>=5.4``
    :depends python: ``>=3,<3.12``
-   :depends taxonkit: ``>=0.17``
+   :depends taxonkit: ``>=0.20``
    :requirements:
 
    :additional platforms:
@@ -86,7 +86,7 @@ pytaxonkit
 
     <script>
         var package = "pytaxonkit";
-        var versions = ["0.9.1","0.9.1","0.9","0.8","0.7.2"];
+        var versions = ["0.10","0.9.1","0.9.1","0.9","0.8"];
     </script>
 
 

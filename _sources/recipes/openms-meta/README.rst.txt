@@ -141,7 +141,7 @@ openms-meta
    :depends hdf5: ``>=1.14.3,<1.14.4.0a0``
    :depends hdf5: ``>=1.14.3,<1.15.0a0``
    :depends libgomp: 
-   :depends libopenms: ``3.4.1 h6efa779_0``
+   :depends libopenms: ``3.4.1 heb594b5_0``
    :depends libsvm: ``>=335,<336.0a0``
    :depends libsvm: ``>=335,<400``
    :depends libzlib: ``>=1.3.1,<2.0a0``
@@ -303,7 +303,7 @@ openms-meta
    :depends gnuplot: 
    :depends luciphor2: ``2020_04_03``
    :depends msgf_plus: ``2024.03.26``
-   :depends openms: ``3.4.1 h6efa779_0``
+   :depends openms: ``3.4.1 heb594b5_0``
    :depends percolator: ``3.7.1``
    :depends r-gplots: 
    :depends sage-proteomics: ``0.14.7``

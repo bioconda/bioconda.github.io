@@ -50,7 +50,7 @@ augustus
    :depends cdbtools: 
    :depends diamond: 
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends htslib: ``>=1.21,<1.23.0a0``
    :depends libamd: ``>=3.3.3,<4.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libbtf: ``>=2.3.2,<3.0a0``
