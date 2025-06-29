@@ -27,7 +27,7 @@ reactome-cli
       
       
 
-      ``0.0.0-0``
+      ``1.0.0-0``,  ``0.0.0-0``
 
       
 
@@ -83,7 +83,7 @@ reactome-cli
 
     <script>
         var package = "reactome-cli";
-        var versions = ["0.0.0"];
+        var versions = ["1.0.0","0.0.0"];
     </script>
 
 
