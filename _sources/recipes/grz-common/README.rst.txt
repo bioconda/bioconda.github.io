@@ -27,14 +27,14 @@ grz-common
       
       
 
-      ``0.1.0-0``
+      ``1.0.0-0``,  ``0.1.0-0``
 
       
 
    
    :depends boto3: ``>=1.36,<2``
-   :depends click: ``>=8.1.7,<9``
-   :depends grz-pydantic-models: ``>=1.3.0``
+   :depends click: ``>=8.2,<9``
+   :depends grz-pydantic-models: ``2.*``
    :depends jsonschema: ``>=4.23.0,<5``
    :depends platformdirs: ``>=4.3.6,<5``
    :depends pydantic: ``>=2.9.2,<2.10``
@@ -96,7 +96,7 @@ grz-common
 
     <script>
         var package = "grz-common";
-        var versions = ["0.1.0"];
+        var versions = ["1.0.0","0.1.0"];
     </script>
 
 

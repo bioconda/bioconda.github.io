@@ -18,7 +18,11 @@ psosp
    :license: MIT
    :recipe: /`psosp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/psosp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/psosp/meta.yaml>`_
 
-   
+   PSOSP \(Prophage SOS\-dependency Predictor\) is a novel bioinformatics tool 
+   to predict prophage induction modes by analyzing the heterology index \(HI\) 
+   of LexA protein binding to target DNA\, classifying prophages into 
+   SOS\-dependent \(SdPs\) and SOS\-independent \(SiPs\).
+
 
 
 .. conda:package:: psosp
@@ -29,15 +33,15 @@ psosp
       
       
 
-      ``1.1.0-0``
+      ``1.1.1-0``,  ``1.1.0-0``
 
       
 
    
    :depends biopython: 
-   :depends checkv: ``1.0.3``
+   :depends checkv: ``>=1.0.1``
    :depends diamond: ``>=2.0.4``
-   :depends meme: ``5.5.5``
+   :depends meme: ``>=5.5.5``
    :depends prodigal: 
    :depends python: ``>=3.10``
    :depends scikit-learn: 
@@ -91,7 +95,7 @@ psosp
 
     <script>
         var package = "psosp";
-        var versions = ["1.1.0"];
+        var versions = ["1.1.1","1.1.0"];
     </script>
 
 

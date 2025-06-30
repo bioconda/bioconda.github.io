@@ -31,18 +31,21 @@ ucsc-hubcheck
       
       
 
-      ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-2``,  ``357-1``,  ``357-0``
+      ``482-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-2``,  ``357-1``,  ``357-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libpng: ``>=1.6.37,<1.7.0a0``
-   :depends libuuid: ``>=2.32.1,<3.0a0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libiconv: ``>=1.18,<2.0a0``
+   :depends liblzma: ``>=5.8.1,<6.0a0``
+   :depends libopenssl-static: 
+   :depends libpng: ``>=1.6.49,<1.7.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends libuuid: ``>=2.38.1,<3.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
-   :depends openssl: ``>=1.1.1l,<1.1.2a``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    :additional platforms:
@@ -93,7 +96,7 @@ ucsc-hubcheck
 
     <script>
         var package = "ucsc-hubcheck";
-        var versions = ["377","377","377","377","366"];
+        var versions = ["482","377","377","377","377"];
     </script>
 
 

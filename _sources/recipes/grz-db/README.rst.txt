@@ -27,7 +27,7 @@ grz-db
       
       
 
-      ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -86,7 +86,7 @@ grz-db
 
     <script>
         var package = "grz-db";
-        var versions = ["0.1.0"];
+        var versions = ["0.2.0","0.1.0"];
     </script>
 
 

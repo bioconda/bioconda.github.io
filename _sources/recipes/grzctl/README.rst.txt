@@ -27,16 +27,17 @@ grzctl
       
       
 
-      ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
    :depends boto3: ``>=1.36,<2``
-   :depends click: ``>=8.1.7,<9``
-   :depends grz-cli: ``>=0.7.0``
-   :depends grz-common: 
-   :depends grz-db: 
+   :depends click: ``>=8.2,<9``
+   :depends grz-cli: ``1.*``
+   :depends grz-common: ``1.*``
+   :depends grz-db: ``>=0.2.0``
+   :depends grz-pydantic-models: ``2.*``
    :depends grz-pydantic-models: ``>=1.3.0``
    :depends jsonschema: ``>=4.23.0,<5``
    :depends platformdirs: ``>=4.3.6,<5``
@@ -99,7 +100,7 @@ grzctl
 
     <script>
         var package = "grzctl";
-        var versions = ["0.1.0"];
+        var versions = ["0.2.0","0.1.0"];
     </script>
 
 

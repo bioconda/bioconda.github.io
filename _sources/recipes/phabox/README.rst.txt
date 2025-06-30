@@ -31,10 +31,10 @@ phabox
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.11-2</code>,  <code>2.1.11-1</code>,  <code>2.1.11-0</code>,  <code>2.1.10-0</code>,  <code>2.1.9-0</code>,  <code>2.1.8-0</code>,  <code>2.1.7-0</code>,  <code>2.1.6-0</code>,  <code>2.1.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.11-3</code>,  <code>2.1.11-2</code>,  <code>2.1.11-1</code>,  <code>2.1.11-0</code>,  <code>2.1.10-0</code>,  <code>2.1.9-0</code>,  <code>2.1.8-0</code>,  <code>2.1.7-0</code>,  <code>2.1.6-0</code>,  </span></summary>
       
 
-      ``2.1.11-2``,  ``2.1.11-1``,  ``2.1.11-0``,  ``2.1.10-0``,  ``2.1.9-0``,  ``2.1.8-0``,  ``2.1.7-0``,  ``2.1.6-0``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.0-0``,  ``2.0.0-0``
+      ``2.1.11-3``,  ``2.1.11-2``,  ``2.1.11-1``,  ``2.1.11-0``,  ``2.1.10-0``,  ``2.1.9-0``,  ``2.1.8-0``,  ``2.1.7-0``,  ``2.1.6-0``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.0-0``,  ``2.0.0-0``
 
       
       .. raw:: html
@@ -49,6 +49,7 @@ phabox
    :depends datasets: ``>=3``
    :depends diamond: ``0.9.14.*``
    :depends fasttree: ``>=2.1.11``
+   :depends joblib: ``1.5.1.*``
    :depends kcounter: ``>=0.1.1``
    :depends mafft: ``>=7.525``
    :depends mcl: ``>=22.282``
@@ -59,6 +60,7 @@ phabox
    :depends pyarrow: ``>=16``
    :depends python: ``>=3.8``
    :depends pytorch: ``>=2.4``
+   :depends scikit-learn: ``1.3.2.*``
    :depends scipy: ``>=1.14``
    :depends seaborn-base: ``>=0.13.2``
    :depends transformers: ``4.43.*``
@@ -112,7 +114,7 @@ phabox
 
     <script>
         var package = "phabox";
-        var versions = ["2.1.11","2.1.11","2.1.11","2.1.10","2.1.9"];
+        var versions = ["2.1.11","2.1.11","2.1.11","2.1.11","2.1.10"];
     </script>
 
 

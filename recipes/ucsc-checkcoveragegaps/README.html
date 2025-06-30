@@ -97,15 +97,27 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/ucsc-checkcoveragegaps"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/ucsc-checkcoveragegaps.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/ucsc-checkcoveragegaps"><img alt="docker_ucsc-checkcoveragegaps" src="https://quay.io/repository/biocontainers/ucsc-checkcoveragegaps/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>469-1</code>,  <code>469-0</code>,  <code>377-3</code>,  <code>377-2</code>,  <code>377-1</code>,  <code>377-0</code>,  <code>366-0</code>,  <code>357-2</code>,  <code>357-1</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">469-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">469-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">377-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">377-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">377-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">377-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">366-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">357-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">357-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">357-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">332-0</span></code></p>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>482-0</code>,  <code>469-1</code>,  <code>469-0</code>,  <code>377-3</code>,  <code>377-2</code>,  <code>377-1</code>,  <code>377-0</code>,  <code>366-0</code>,  <code>357-2</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">482-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">469-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">469-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">377-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">377-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">377-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">377-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">366-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">357-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">357-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">357-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">332-0</span></code></p>
 </details></dd>
-<dt class="field-even">depends libgcc<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
+<dt class="field-even">depends bzip2<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0.8,&lt;2.0a0</span></code></p>
 </dd>
-<dt class="field-odd">depends libopenssl-static<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends libpng<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.6.44,&lt;1.7.0a0</span></code></p>
+<dt class="field-odd">depends libgcc<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
+</dd>
+<dt class="field-even">depends libiconv<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.18,&lt;2.0a0</span></code></p>
+</dd>
+<dt class="field-odd">depends liblzma<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=5.8.1,&lt;6.0a0</span></code></p>
+</dd>
+<dt class="field-even">depends libopenssl-static<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends libpng<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.6.49,&lt;1.7.0a0</span></code></p>
+</dd>
+<dt class="field-even">depends libstdcxx<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
 </dd>
 <dt class="field-odd">depends libuuid<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.38.1,&lt;3.0a0</span></code></p>
@@ -116,12 +128,10 @@
 <dt class="field-odd">depends mysql-connector-c<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=6.1.11,&lt;6.1.12.0a0</span></code></p>
 </dd>
-<dt class="field-even">depends zlib<span class="colon">:</span></dt>
+<dt class="field-even">requirements<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">requirements<span class="colon">:</span></dt>
+<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">additional platforms<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -156,7 +166,7 @@ others.</p>
 
 <script>
     var package = "ucsc-checkcoveragegaps";
-    var versions = ["469","469","377","377","377"];
+    var versions = ["482","469","469","377","377"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

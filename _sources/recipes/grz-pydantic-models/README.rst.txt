@@ -12,7 +12,7 @@ grz-pydantic-models
 
    Pydantic models for the GRZ metadata schema
 
-   :homepage: https://github.com/BfArM-MVH/grz-pydantic-models
+   :homepage: https://github.com/BfArM-MVH/grz-tools
    :license: MIT
    :recipe: /`grz-pydantic-models <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grz-pydantic-models>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grz-pydantic-models/meta.yaml>`_
 
@@ -27,7 +27,7 @@ grz-pydantic-models
       
       
 
-      ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``
+      ``2.0.0-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``
 
       
 
@@ -84,7 +84,7 @@ grz-pydantic-models
 
     <script>
         var package = "grz-pydantic-models";
-        var versions = ["1.5.0","1.4.0","1.3.0","1.2.1","1.2.0"];
+        var versions = ["2.0.0","1.5.0","1.4.0","1.3.0","1.2.1"];
     </script>
 
 
