@@ -10,7 +10,7 @@ faststructure
    :replaces_section_title:
    :noindex:
 
-   A variational framework for inferring population structure from SNP genotype data.
+   A variational framework for inferring population structure from SNP genotype data. Ported to python3 by \@StuntsPT based on the work of \@jashapiro.
 
    :homepage: https://github.com/rajanil/fastStructure
    :license: MIT / MIT
@@ -27,22 +27,26 @@ faststructure
       
       
 
-      ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
-   :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends matplotlib: 
-   :depends numpy: 
-   :depends openblas: 
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends gsl: ``>=2.8,<2.9.0a0``
+   :depends libgcc: ``>=13``
+   :depends liblapack: ``>=3.9.0,<3.10.0a0``
+   :depends matplotlib-base: 
+   :depends numpy: ``>=1.23,<3``
+   :depends python: ``>=3.11,<3.12.0a0``
+   :depends python_abi: ``3.11.* *_cp311``
    :depends scipy: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

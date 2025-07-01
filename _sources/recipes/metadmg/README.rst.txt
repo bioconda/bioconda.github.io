@@ -13,7 +13,7 @@ metadmg
    metaDMG\-cpp\: fast and efficient method for estimating mutation and damage rates in ancient DNA data.
 
    :homepage: https://github.com/metaDMG-dev/metaDMG-cpp
-   :documentation: https://github.com/metaDMG-dev/metaDMG-cpp/blob/v0.4/README.md
+   :documentation: https://github.com/metaDMG-dev/metaDMG-cpp/blob/v0.4.1/README.md
    
    :license: GPL3 / GPL-3.0-or-later, MIT
    :recipe: /`metadmg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metadmg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metadmg/meta.yaml>`_
@@ -30,7 +30,7 @@ metadmg
       
       
 
-      ``0.4-2``,  ``0.4-1``,  ``0.4-0``,  ``0.3-1``,  ``0.3-0``
+      ``0.4.1-0``,  ``0.4-2``,  ``0.4-1``,  ``0.4-0``,  ``0.3-1``,  ``0.3-0``
 
       
 
@@ -98,7 +98,7 @@ metadmg
 
     <script>
         var package = "metadmg";
-        var versions = ["0.4","0.4","0.4","0.3","0.3"];
+        var versions = ["0.4.1","0.4","0.4","0.4","0.3"];
     </script>
 
 
