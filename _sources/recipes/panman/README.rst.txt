@@ -13,7 +13,7 @@ panman
    PanMAN
 
    :homepage: https://github.com/TurakhiaLab/panman
-   :documentation: https://turakhia.ucsd.edu/panman/
+   :documentation: https://turakhia.ucsd.edu/panman
    
    :license: MIT / MIT
    :recipe: /`panman <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panman>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panman/meta.yaml>`_
@@ -29,25 +29,27 @@ panman
       
       
 
-      ``0.1.3-0``,  ``0.1.2-0``
+      ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
 
    
    :depends boost-cpp: 
-   :depends capnproto: ``1.1.0.*``
-   :depends capnproto: ``>=1.1.0,<1.1.1.0a0``
+   :depends capnproto: ``>=1.0.2,<1.0.3.0a0``
    :depends jsoncpp: ``>=1.9.6,<1.9.7.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends protobuf: ``3.20.3.*``
-   :depends tbb: ``2019.9.*``
-   :depends tbb: ``>=2019.9``
-   :depends tbb-devel: ``2019.9.*``
+   :depends protobuf: ``<4``
+   :depends tbb: ``>=2020.2,<2021.0.0a0``
+   :depends tbb-devel: ``<2021.1.1``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -95,7 +97,7 @@ panman
 
     <script>
         var package = "panman";
-        var versions = ["0.1.3","0.1.2"];
+        var versions = ["0.1.4","0.1.3","0.1.2"];
     </script>
 
 

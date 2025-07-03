@@ -15,7 +15,7 @@ psosp
    :homepage: https://github.com/mujiezhang/PSOSP
    :documentation: https://github.com/mujiezhang/PSOSP/blob/main/README.md
    
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`psosp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/psosp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/psosp/meta.yaml>`_
 
    PSOSP \(Prophage SOS\-dependency Predictor\) is a novel bioinformatics tool 
@@ -33,13 +33,13 @@ psosp
       
       
 
-      ``1.1.1-0``,  ``1.1.0-0``
+      ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``
 
       
 
    
    :depends biopython: 
-   :depends checkv: ``>=1.0.1``
+   :depends checkv: ``>=1.0.3``
    :depends diamond: ``>=2.0.4``
    :depends meme: ``>=5.5.5``
    :depends prodigal: 
@@ -95,7 +95,7 @@ psosp
 
     <script>
         var package = "psosp";
-        var versions = ["1.1.1","1.1.0"];
+        var versions = ["1.1.2","1.1.2","1.1.1","1.1.0"];
     </script>
 
 

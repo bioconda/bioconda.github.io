@@ -10,12 +10,14 @@ bwa-mem2
    :replaces_section_title:
    :noindex:
 
-   The next version of bwa\-mem
+   The next version of bwa\-mem.
 
    :homepage: https://github.com/bwa-mem2/bwa-mem2
-   :license: MIT
+   :documentation: https://github.com/bwa-mem2/bwa-mem2/blob/v2.3/README.md
+   
+   :license: MIT / MIT
    :recipe: /`bwa-mem2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bwa-mem2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bwa-mem2/meta.yaml>`_
-   :links: doi: :doi:`10.1109/IPDPS.2019.00041`
+   :links: doi: :doi:`10.1109/IPDPS.2019.00041`, biotools: :biotools:`bwa-mem2`, usegalaxy-eu: :usegalaxy-eu:`bwa_mem2`, usegalaxy-eu: :usegalaxy-eu:`bwa_mem2_idx`
 
    
 
@@ -29,10 +31,10 @@ bwa-mem2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.1-8</code>,  <code>2.2.1-7</code>,  <code>2.2.1-6</code>,  <code>2.2.1-5</code>,  <code>2.2.1-4</code>,  <code>2.2.1-3</code>,  <code>2.2.1-2</code>,  <code>2.2.1-1</code>,  <code>2.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3-0</code>,  <code>2.2.1-8</code>,  <code>2.2.1-7</code>,  <code>2.2.1-6</code>,  <code>2.2.1-5</code>,  <code>2.2.1-4</code>,  <code>2.2.1-3</code>,  <code>2.2.1-2</code>,  <code>2.2.1-1</code>,  </span></summary>
       
 
-      ``2.2.1-8``,  ``2.2.1-7``,  ``2.2.1-6``,  ``2.2.1-5``,  ``2.2.1-4``,  ``2.2.1-3``,  ``2.2.1-2``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2-0``,  ``2.1-0``,  ``2.0-1``,  ``2.0-0``
+      ``2.3-0``,  ``2.2.1-8``,  ``2.2.1-7``,  ``2.2.1-6``,  ``2.2.1-5``,  ``2.2.1-4``,  ``2.2.1-3``,  ``2.2.1-2``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2-0``,  ``2.1-0``,  ``2.0-1``,  ``2.0-0``
 
       
       .. raw:: html
@@ -100,7 +102,7 @@ bwa-mem2
 
     <script>
         var package = "bwa-mem2";
-        var versions = ["2.2.1","2.2.1","2.2.1","2.2.1","2.2.1"];
+        var versions = ["2.3","2.2.1","2.2.1","2.2.1","2.2.1"];
     </script>
 
 

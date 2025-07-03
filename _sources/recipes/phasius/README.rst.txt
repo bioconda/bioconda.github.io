@@ -10,10 +10,10 @@ phasius
    :replaces_section_title:
    :noindex:
 
-   A rust tool to create phase\-block maps from phased cram\/bam files
+   A rust tool to create phase\-block maps from phased cram\/bam files.
 
    :homepage: https://github.com/wdecoster/phasius
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`phasius <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phasius>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phasius/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ phasius
       
       
 
-      ``0.5.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.6.0-0``,  ``0.5.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-3``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
@@ -40,7 +40,7 @@ phasius
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -88,7 +88,7 @@ phasius
 
     <script>
         var package = "phasius";
-        var versions = ["0.5.0","0.3.0","0.2.0","0.1.0","0.1.0"];
+        var versions = ["0.6.0","0.5.0","0.3.0","0.2.0","0.1.0"];
     </script>
 
 

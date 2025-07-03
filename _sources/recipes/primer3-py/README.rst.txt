@@ -10,10 +10,10 @@ primer3-py
    :replaces_section_title:
    :noindex:
 
-   Python bindings for Primer3
+   Python bindings for Primer3.
 
    :homepage: https://github.com/libnano/primer3-py
-   :documentation: https://libnano.github.io/primer3-py/
+   :documentation: https://libnano.github.io/primer3-py
    
    :license: GPL2 / GPL-2.0-only
    :recipe: /`primer3-py <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/primer3-py>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/primer3-py/meta.yaml>`_
@@ -30,10 +30,10 @@ primer3-py
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>2.0.3-4</code>,  <code>2.0.3-3</code>,  <code>2.0.3-2</code>,  <code>2.0.3-1</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.0.3-4</code>,  <code>2.0.3-3</code>,  <code>2.0.3-2</code>,  <code>2.0.3-1</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-1</code>,  </span></summary>
       
 
-      ``2.2.0-0``,  ``2.0.3-4``,  ``2.0.3-3``,  ``2.0.3-2``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.4-3``,  ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.1-0``
+      ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.3-4``,  ``2.0.3-3``,  ``2.0.3-2``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.4-3``,  ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.1-0``
 
       
       .. raw:: html
@@ -42,9 +42,11 @@ primer3-py
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends libgcc: ``>=13``
-   :depends python: ``>=3.13,<3.14.0a0``
-   :depends python_abi: ``3.13.* *_cp313``
+   :depends libgomp: 
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    :additional platforms:
@@ -99,7 +101,7 @@ primer3-py
 
     <script>
         var package = "primer3-py";
-        var versions = ["2.2.0","2.0.3","2.0.3","2.0.3","2.0.3"];
+        var versions = ["2.2.0","2.2.0","2.0.3","2.0.3","2.0.3"];
     </script>
 
 

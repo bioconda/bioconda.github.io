@@ -13,7 +13,7 @@ replidec
    Replication Cycle Decipher for Phages.
 
    :homepage: https://github.com/deng-lab/Replidec
-   :documentation: https://github.com/pengSherryYel/Replidec/blob/v.0.3.4/README.md
+   :documentation: https://github.com/pengSherryYel/Replidec/blob/v.0.3.5/README.md
    
    :developer docs: https://github.com/pengSherryYel/Replidec
    :license: MIT / MIT
@@ -30,7 +30,7 @@ replidec
       
       
 
-      ``0.3.4-0``,  ``0.3.1.1-0``
+      ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.1.1-0``
 
       
 
@@ -93,7 +93,7 @@ replidec
 
     <script>
         var package = "replidec";
-        var versions = ["0.3.4","0.3.1.1"];
+        var versions = ["0.3.5","0.3.4","0.3.1.1"];
     </script>
 
 

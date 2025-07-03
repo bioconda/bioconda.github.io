@@ -10,10 +10,10 @@ endorspy
    :replaces_section_title:
    :noindex:
 
-   endorS.py calculates endogenous DNA from samtools flagstat files and print to screen
+   endorS.py calculates endogenous DNA from samtools flagstat files and print to screen.
 
    :homepage: https://github.com/aidaanva/endorS.py
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`endorspy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/endorspy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/endorspy/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ endorspy
       
       
 
-      ``1.3-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``,  ``0.5-0``,  ``0.4-0``
+      ``1.4-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``,  ``0.5-0``,  ``0.4-0``
 
       
 
@@ -83,7 +83,7 @@ endorspy
 
     <script>
         var package = "endorspy";
-        var versions = ["1.3","1.2","1.1","1.0","0.5"];
+        var versions = ["1.4","1.3","1.2","1.1","1.0"];
     </script>
 
 

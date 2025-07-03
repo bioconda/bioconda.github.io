@@ -28,21 +28,26 @@ lorax
       
       
 
-      ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-2``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``
+      ``0.5.1-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-2``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``
 
       
 
    
-   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
+   :depends boost-cpp: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.18,<1.23.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends htslib: ``>=1.22,<1.23.0a0``
+   :depends libdeflate: ``>=1.22,<1.23.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -90,7 +95,7 @@ lorax
 
     <script>
         var package = "lorax";
-        var versions = ["0.3.9","0.3.8","0.3.7","0.3.7","0.3.7"];
+        var versions = ["0.5.1","0.3.9","0.3.8","0.3.7","0.3.7"];
     </script>
 
 

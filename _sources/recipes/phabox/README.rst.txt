@@ -31,10 +31,10 @@ phabox
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.11-3</code>,  <code>2.1.11-2</code>,  <code>2.1.11-1</code>,  <code>2.1.11-0</code>,  <code>2.1.10-0</code>,  <code>2.1.9-0</code>,  <code>2.1.8-0</code>,  <code>2.1.7-0</code>,  <code>2.1.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.12-0</code>,  <code>2.1.11-3</code>,  <code>2.1.11-2</code>,  <code>2.1.11-1</code>,  <code>2.1.11-0</code>,  <code>2.1.10-0</code>,  <code>2.1.9-0</code>,  <code>2.1.8-0</code>,  <code>2.1.7-0</code>,  </span></summary>
       
 
-      ``2.1.11-3``,  ``2.1.11-2``,  ``2.1.11-1``,  ``2.1.11-0``,  ``2.1.10-0``,  ``2.1.9-0``,  ``2.1.8-0``,  ``2.1.7-0``,  ``2.1.6-0``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.0-0``,  ``2.0.0-0``
+      ``2.1.12-0``,  ``2.1.11-3``,  ``2.1.11-2``,  ``2.1.11-1``,  ``2.1.11-0``,  ``2.1.10-0``,  ``2.1.9-0``,  ``2.1.8-0``,  ``2.1.7-0``,  ``2.1.6-0``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.0-0``,  ``2.0.0-0``
 
       
       .. raw:: html
@@ -114,7 +114,7 @@ phabox
 
     <script>
         var package = "phabox";
-        var versions = ["2.1.11","2.1.11","2.1.11","2.1.11","2.1.10"];
+        var versions = ["2.1.12","2.1.11","2.1.11","2.1.11","2.1.11"];
     </script>
 
 

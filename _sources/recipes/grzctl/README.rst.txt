@@ -13,7 +13,9 @@ grzctl
    Control CLI for GRZ administrators.
 
    :homepage: https://github.com/BfArM-MVH/grz-tools
-   :license: MIT
+   :documentation: https://github.com/BfArM-MVH/grz-tools/blob/grzctl-v0.2.2/packages/grz-cli/README.md
+   
+   :license: MIT / MIT
    :recipe: /`grzctl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grzctl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grzctl/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ grzctl
       
       
 
-      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -35,8 +37,8 @@ grzctl
    :depends boto3: ``>=1.36,<2``
    :depends click: ``>=8.2,<9``
    :depends grz-cli: ``1.*``
-   :depends grz-common: ``1.*``
-   :depends grz-db: ``>=0.2.0``
+   :depends grz-common: ``>=1.0.2,<2``
+   :depends grz-db: ``>=0.2.1``
    :depends grz-pydantic-models: ``>=2.0.1,<3``
    :depends jsonschema: ``>=4.23.0,<5``
    :depends platformdirs: ``>=4.3.6,<5``
@@ -99,7 +101,7 @@ grzctl
 
     <script>
         var package = "grzctl";
-        var versions = ["0.2.1","0.2.0","0.1.0"];
+        var versions = ["0.2.2","0.2.1","0.2.0","0.1.0"];
     </script>
 
 

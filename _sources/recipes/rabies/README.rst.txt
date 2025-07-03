@@ -13,7 +13,7 @@ rabies
    RABIES\: Rodent Automated Bold Improvement of EPI Sequences.
 
    :homepage: https://github.com/CoBrALab/RABIES
-   :license: GPL-2.0
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`rabies <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rabies>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rabies/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ rabies
       
       
 
-      ``0.5.1-0``
+      ``0.5.2-0``,  ``0.5.1-0``
 
       
 
@@ -46,8 +46,9 @@ rabies
    :depends qbatch: ``2.3``
    :depends scikit-learn: ``0.24.1``
    :depends scipy: ``1.8.1``
-   :depends seaborn: ``0.11.1``
+   :depends seaborn-base: ``0.11.1``
    :depends simpleitk: ``2.0.2``
+   :depends traits: ``<7.0``
    :requirements:
 
    :additional platforms:
@@ -98,7 +99,7 @@ rabies
 
     <script>
         var package = "rabies";
-        var versions = ["0.5.1"];
+        var versions = ["0.5.2","0.5.1"];
     </script>
 
 

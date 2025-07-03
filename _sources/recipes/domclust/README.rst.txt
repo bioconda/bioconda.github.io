@@ -10,11 +10,12 @@ domclust
    :replaces_section_title:
    :noindex:
 
-   Effective tool for orthologous grouping in multiple genomes
+   Effective tool for orthologous grouping in multiple genomes.
 
-   :homepage: http://mbgd.genome.ad.jp/domclust/
-   :license: GPL3
+   :homepage: https://mbgd.nibb.ac.jp/domclust
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`domclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/domclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/domclust/meta.yaml>`_
+   :links: doi: :doi:`10.1093/nar/gkj448`
 
    
 
@@ -27,16 +28,21 @@ domclust
       
       
 
-      ``1.2.8a-1``,  ``1.2.8a-0``,  ``1.0-1``,  ``1.0-0``
+      ``1.2.8-0``,  ``1.2.8a-1``,  ``1.2.8a-0``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=4.9``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends perl: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -84,7 +90,7 @@ domclust
 
     <script>
         var package = "domclust";
-        var versions = ["1.2.8a","1.2.8a","1.0","1.0"];
+        var versions = ["1.2.8","1.2.8a","1.2.8a","1.0","1.0"];
     </script>
 
 

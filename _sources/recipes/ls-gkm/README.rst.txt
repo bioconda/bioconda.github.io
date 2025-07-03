@@ -10,11 +10,14 @@ ls-gkm
    :replaces_section_title:
    :noindex:
 
-   gkm\-SVM\, a sequence\-based method for predicting regulatory DNA elements\, is a useful tool for studying gene regulatory mechanisms. In continuous efforts to improve the method\, new software\, LS\-GKM\, is introduced. It offers much better scalability and provides further advanced gapped k\-mer based kernel functions. As a result\, LS\-GKM achieves considerably higher accuracy than the original gkm\-SVM.
+   gkm\-SVM\, a sequence\-based method for predicting regulatory DNA elements.
 
    :homepage: https://github.com/Dongwon-Lee/lsgkm
-   :license: GPL3
+   :documentation: https://github.com/Dongwon-Lee/lsgkm/blob/v0.1.1/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`ls-gkm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ls-gkm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ls-gkm/meta.yaml>`_
+   :links: doi: :doi:`10.1371/journal.pcbi.1003711`, doi: :doi:`10.1093/bioinformatics/btw142`
 
    
 
@@ -27,15 +30,20 @@ ls-gkm
       
       
 
-      ``0.0.1-1``,  ``0.0.1-0``
+      ``0.1.1-0``,  ``0.0.1-1``,  ``0.0.1-0``
 
       
 
    
-   :depends libstdcxx-ng: ``>=4.9``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -83,7 +91,7 @@ ls-gkm
 
     <script>
         var package = "ls-gkm";
-        var versions = ["0.0.1","0.0.1"];
+        var versions = ["0.1.1","0.0.1","0.0.1"];
     </script>
 
 

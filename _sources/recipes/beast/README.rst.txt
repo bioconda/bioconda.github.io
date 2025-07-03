@@ -10,13 +10,13 @@ beast
    :replaces_section_title:
    :noindex:
 
-   BEAST is a cross\-platform program for Bayesian analysis of molecular sequences using MCMC
+   BEAST is a cross\-platform program for Bayesian analysis of molecular sequences using MCMC.
 
-   :homepage: http://beast.bio.ed.ac.uk
+   :homepage: https://beast.community
    :developer docs: https://github.com/beast-dev/beast-mcmc
-   :license: GPL / LGPL-2.1
+   :license: LGPL / LGPL-2.1-or-later
    :recipe: /`beast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/beast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/beast/meta.yaml>`_
-   :links: biotools: :biotools:`beast`, doi: :doi:`10.1093/molbev/mss075`
+   :links: biotools: :biotools:`beast`, doi: :doi:`10.1038/s41592-025-02751-x`
 
    
 
@@ -30,10 +30,10 @@ beast
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.10.4-2</code>,  <code>1.10.4-1</code>,  <code>1.10.4-0</code>,  <code>1.10.3-0</code>,  <code>1.10.2-0</code>,  <code>1.10.1-0</code>,  <code>1.10.0-2</code>,  <code>1.10.0-0</code>,  <code>1.8.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>10.5.0-0</code>,  <code>1.10.4-2</code>,  <code>1.10.4-1</code>,  <code>1.10.4-0</code>,  <code>1.10.3-0</code>,  <code>1.10.2-0</code>,  <code>1.10.1-0</code>,  <code>1.10.0-2</code>,  <code>1.10.0-0</code>,  </span></summary>
       
 
-      ``1.10.4-2``,  ``1.10.4-1``,  ``1.10.4-0``,  ``1.10.3-0``,  ``1.10.2-0``,  ``1.10.1-0``,  ``1.10.0-2``,  ``1.10.0-0``,  ``1.8.4-0``,  ``1.8.2-1``
+      ``10.5.0-0``,  ``1.10.4-2``,  ``1.10.4-1``,  ``1.10.4-0``,  ``1.10.3-0``,  ``1.10.2-0``,  ``1.10.1-0``,  ``1.10.0-2``,  ``1.10.0-0``,  ``1.8.4-0``,  ``1.8.2-1``
 
       
       .. raw:: html
@@ -94,7 +94,7 @@ beast
 
     <script>
         var package = "beast";
-        var versions = ["1.10.4","1.10.4","1.10.4","1.10.3","1.10.2"];
+        var versions = ["10.5.0","1.10.4","1.10.4","1.10.4","1.10.3"];
     </script>
 
 

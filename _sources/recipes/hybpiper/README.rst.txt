@@ -30,10 +30,10 @@ hybpiper
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.2-0</code>,  <code>2.3.1-0</code>,  <code>2.3.0-1</code>,  <code>2.3.0-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.8-0</code>,  <code>2.1.7-0</code>,  <code>2.1.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.3-0</code>,  <code>2.3.2-0</code>,  <code>2.3.1-0</code>,  <code>2.3.0-1</code>,  <code>2.3.0-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.8-0</code>,  <code>2.1.7-0</code>,  </span></summary>
       
 
-      ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.8-0``,  ``2.1.7-0``,  ``2.1.6-0``,  ``2.1.5-0``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.1-0``
+      ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.8-0``,  ``2.1.7-0``,  ``2.1.6-0``,  ``2.1.5-0``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.1-0``
 
       
       .. raw:: html
@@ -110,7 +110,7 @@ hybpiper
 
     <script>
         var package = "hybpiper";
-        var versions = ["2.3.2","2.3.1","2.3.0","2.3.0","2.2.0"];
+        var versions = ["2.3.3","2.3.2","2.3.1","2.3.0","2.3.0"];
     </script>
 
 
