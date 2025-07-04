@@ -18,7 +18,10 @@ libcifpp
    :license: BSD / BSD-2-Clause
    :recipe: /`libcifpp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libcifpp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libcifpp/meta.yaml>`_
 
-   
+   This library\, libcifpp\, is a generic CIF library with some specific additions to work with mmCIF files.
+   The main focus of this library is to make sure that files read or written are valid.
+   That is\, they are syntactically valid and their content is valid with respect to a CIF dictionary\, if such a dictionary is available and specified.
+
 
 
 .. conda:package:: libcifpp
@@ -30,10 +33,10 @@ libcifpp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>8.0.1-0</code>,  <code>8.0.0-1</code>,  <code>8.0.0-0</code>,  <code>7.0.9-0</code>,  <code>7.0.8-1</code>,  <code>7.0.8-0</code>,  <code>7.0.7-0</code>,  <code>7.0.6-0</code>,  <code>7.0.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>8.0.1-1</code>,  <code>8.0.1-0</code>,  <code>8.0.0-1</code>,  <code>8.0.0-0</code>,  <code>7.0.9-0</code>,  <code>7.0.8-1</code>,  <code>7.0.8-0</code>,  <code>7.0.7-0</code>,  <code>7.0.6-0</code>,  </span></summary>
       
 
-      ``8.0.1-0``,  ``8.0.0-1``,  ``8.0.0-0``,  ``7.0.9-0``,  ``7.0.8-1``,  ``7.0.8-0``,  ``7.0.7-0``,  ``7.0.6-0``,  ``7.0.5-0``,  ``7.0.4-1``,  ``7.0.4-0``,  ``7.0.3-0``,  ``5.0.0-2``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.2-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.0.0-0``,  ``3.0.3-0``,  ``3.0.0-0``
+      ``8.0.1-1``,  ``8.0.1-0``,  ``8.0.0-1``,  ``8.0.0-0``,  ``7.0.9-0``,  ``7.0.8-1``,  ``7.0.8-0``,  ``7.0.7-0``,  ``7.0.6-0``,  ``7.0.5-0``,  ``7.0.4-1``,  ``7.0.4-0``,  ``7.0.3-0``,  ``5.0.0-2``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.2-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.0.0-0``,  ``3.0.3-0``,  ``3.0.0-0``
 
       
       .. raw:: html
@@ -42,8 +45,7 @@ libcifpp
       
 
    
-   :depends boost-cpp: 
-   :depends eigen: 
+   :depends libboost: ``>=1.86.0,<1.87.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
@@ -101,7 +103,7 @@ libcifpp
 
     <script>
         var package = "libcifpp";
-        var versions = ["8.0.1","8.0.0","8.0.0","7.0.9","7.0.8"];
+        var versions = ["8.0.1","8.0.1","8.0.0","8.0.0","7.0.9"];
     </script>
 
 
