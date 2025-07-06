@@ -45,7 +45,7 @@ cyvcf2
    
    :depends click: 
    :depends coloredlogs: 
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends htslib: ``>=1.21,<1.22.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends numpy: ``>=1.21,<3``
    :depends numpy: ``>=2.2.0,<3.0a0``
