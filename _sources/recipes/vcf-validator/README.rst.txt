@@ -27,20 +27,20 @@ vcf-validator
       
       
 
-      ``0.10.0-2``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.7-0``,  ``0.9.6-0``
+      ``0.10.1-0``,  ``0.10.0-2``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.7-0``,  ``0.9.6-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends c-ares: ``>=1.34.3,<2.0a0``
+   :depends c-ares: ``>=1.34.5,<2.0a0``
    :depends libboost: ``>=1.84.0,<1.85.0a0``
-   :depends libcurl: ``>=8.11.1,<9.0a0``
+   :depends libcurl: ``>=8.14.1,<9.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends openssl: ``>=3.4.0,<4.0a0``
-   :depends zstd: ``>=1.5.6,<1.6.0a0``
+   :depends openssl: ``>=3.5.1,<4.0a0``
+   :depends zstd: ``>=1.5.7,<1.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -95,7 +95,7 @@ vcf-validator
 
     <script>
         var package = "vcf-validator";
-        var versions = ["0.10.0","0.10.0","0.10.0","0.9.7","0.9.6"];
+        var versions = ["0.10.1","0.10.0","0.10.0","0.10.0","0.9.7"];
     </script>
 
 

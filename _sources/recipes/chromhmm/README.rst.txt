@@ -29,10 +29,10 @@ chromhmm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.26-0</code>,  <code>1.25-0</code>,  <code>1.24-0</code>,  <code>1.23-0</code>,  <code>1.21-1</code>,  <code>1.21-0</code>,  <code>1.20-1</code>,  <code>1.20-0</code>,  <code>1.19-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.27-0</code>,  <code>1.26-0</code>,  <code>1.25-0</code>,  <code>1.24-0</code>,  <code>1.23-0</code>,  <code>1.21-1</code>,  <code>1.21-0</code>,  <code>1.20-1</code>,  <code>1.20-0</code>,  </span></summary>
       
 
-      ``1.26-0``,  ``1.25-0``,  ``1.24-0``,  ``1.23-0``,  ``1.21-1``,  ``1.21-0``,  ``1.20-1``,  ``1.20-0``,  ``1.19-0``,  ``1.15-0``,  ``1.14-0``,  ``1.12-0``,  ``1.11-0``
+      ``1.27-0``,  ``1.26-0``,  ``1.25-0``,  ``1.24-0``,  ``1.23-0``,  ``1.21-1``,  ``1.21-0``,  ``1.20-1``,  ``1.20-0``,  ``1.19-0``,  ``1.15-0``,  ``1.14-0``,  ``1.12-0``,  ``1.11-0``
 
       
       .. raw:: html
@@ -94,7 +94,7 @@ chromhmm
 
     <script>
         var package = "chromhmm";
-        var versions = ["1.26","1.25","1.24","1.23","1.21"];
+        var versions = ["1.27","1.26","1.25","1.24","1.23"];
     </script>
 
 

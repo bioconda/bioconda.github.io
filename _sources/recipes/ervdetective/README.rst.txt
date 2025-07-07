@@ -27,7 +27,7 @@ ervdetective
       
       
 
-      ``1.0.8-0``
+      ``1.0.9-0``,  ``1.0.8-0``
 
       
 
@@ -88,7 +88,7 @@ ervdetective
 
     <script>
         var package = "ervdetective";
-        var versions = ["1.0.8"];
+        var versions = ["1.0.9","1.0.8"];
     </script>
 
 

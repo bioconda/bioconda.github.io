@@ -29,9 +29,17 @@ vcfdist
    :versions:
       
       
+      .. raw:: html
 
-      ``2.6.2-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.3-1``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.6.3-0</code>,  <code>2.6.2-0</code>,  <code>2.6.1-0</code>,  <code>2.6.0-0</code>,  <code>2.5.3-1</code>,  <code>2.5.3-0</code>,  <code>2.5.2-0</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  </span></summary>
+      
 
+      ``2.6.3-0``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.3-1``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -88,7 +96,7 @@ vcfdist
 
     <script>
         var package = "vcfdist";
-        var versions = ["2.6.2","2.6.1","2.6.0","2.5.3","2.5.3"];
+        var versions = ["2.6.3","2.6.2","2.6.1","2.6.0","2.5.3"];
     </script>
 
 
