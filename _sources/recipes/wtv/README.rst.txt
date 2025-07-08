@@ -12,8 +12,8 @@ wtv
 
    A library and CLI for ion selection in mass spectrometry data.
 
-   :homepage: https://recetox.github.io/wtv/
-   :license: GPL-3.0-only
+   :homepage: https://recetox.github.io/wtv
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`wtv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wtv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wtv/meta.yaml>`_
 
    
@@ -27,15 +27,17 @@ wtv
       
       
 
-      ``0.0.2-0``
+      ``0.1.0-0``,  ``0.0.2-0``
 
       
 
    
-   :depends matchms: ``>=0.27.0,<0.28.0``
-   :depends numpy: ``>=1.26.4,<2.0.0``
+   :depends lxml: ``<6.0.0``
+   :depends matchms: ``>=0.30.2,<0.31.0``
+   :depends numpy: ``>=2.0.0``
    :depends pandas: ``>=2.2.3,<3.0.0``
-   :depends python: ``>=3.9,<3.13``
+   :depends python: ``>=3.10,<3.13``
+   :depends rdkit: ``<2025.0.0``
    :requirements:
 
    :additional platforms:
@@ -86,7 +88,7 @@ wtv
 
     <script>
         var package = "wtv";
-        var versions = ["0.0.2"];
+        var versions = ["0.1.0","0.0.2"];
     </script>
 
 

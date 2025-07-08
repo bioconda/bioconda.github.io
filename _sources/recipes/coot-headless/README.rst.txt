@@ -34,7 +34,7 @@ coot-headless
       
       
 
-      ``1.1.17-0``
+      ``1.1.17-1``,  ``1.1.17-0``
 
       
 
@@ -55,7 +55,7 @@ coot-headless
    :depends libfreetype6: ``>=2.13.3``
    :depends libgcc: ``>=13``
    :depends libopenblas: 
-   :depends libpng: ``>=1.6.49,<1.7.0a0``
+   :depends libpng: ``>=1.6.50,<1.7.0a0``
    :depends librdkit-dev: ``>=2024.9.5,<2025.0a0``
    :depends libsqlite: ``>=3.50.2,<4.0a0``
    :depends libstdcxx: ``>=13``
@@ -122,7 +122,7 @@ coot-headless
 
     <script>
         var package = "coot-headless";
-        var versions = ["1.1.17"];
+        var versions = ["1.1.17","1.1.17"];
     </script>
 
 

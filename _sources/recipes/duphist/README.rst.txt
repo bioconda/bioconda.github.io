@@ -27,7 +27,7 @@ duphist
       
       
 
-      ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``
+      ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``
 
       
 
@@ -38,11 +38,11 @@ duphist
    :depends perl-data-dumper: 
    :depends perl-statistics-r: 
    :depends prank: 
-   :depends r-agricolae: 
-   :depends r-ape: 
-   :depends r-base: 
+   :depends r-agricolae: ``>=1.3``
+   :depends r-ape: ``>=5.6``
+   :depends r-base: ``>=4.2,<4.4``
    :depends r-cluster: 
-   :depends r-desctools: 
+   :depends r-desctools: ``>=0.99``
    :depends r-doparallel: 
    :depends r-foreach: 
    :depends r-nbclust: 
@@ -97,7 +97,7 @@ duphist
 
     <script>
         var package = "duphist";
-        var versions = ["1.0.7","1.0.6","1.0.5","1.0.4","1.0.4"];
+        var versions = ["1.0.8","1.0.7","1.0.6","1.0.5","1.0.4"];
     </script>
 
 

@@ -10,14 +10,14 @@ funannotate
    :replaces_section_title:
    :noindex:
 
-   funannotate\: eukaryotic genome annotation pipeline
+   funannotate\: eukaryotic genome annotation pipeline.
 
    :homepage: https://github.com/nextgenusfs/funannotate
-   :documentation: https://funannotate.readthedocs.io/en/latest/
+   :documentation: https://funannotate.readthedocs.io/en/latest
    
    :license: BSD / BSD-2-Clause
    :recipe: /`funannotate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/funannotate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/funannotate/meta.yaml>`_
-   :links: biotools: :biotools:`funannotate`, usegalaxy-eu: :usegalaxy-eu:`funannotate_compare`, usegalaxy-eu: :usegalaxy-eu:`funannotate_clean`, usegalaxy-eu: :usegalaxy-eu:`funannotate_predict`, usegalaxy-eu: :usegalaxy-eu:`funannotate_annotate`
+   :links: doi: :doi:`10.5281/zenodo.1134477`, biotools: :biotools:`funannotate`, usegalaxy-eu: :usegalaxy-eu:`funannotate_compare`, usegalaxy-eu: :usegalaxy-eu:`funannotate_clean`, usegalaxy-eu: :usegalaxy-eu:`funannotate_predict`, usegalaxy-eu: :usegalaxy-eu:`funannotate_annotate`
 
    
 
@@ -31,10 +31,10 @@ funannotate
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.8.17-1</code>,  <code>1.8.17-0</code>,  <code>1.8.15-2</code>,  <code>1.8.15-1</code>,  <code>1.8.15-0</code>,  <code>1.8.13-0</code>,  <code>1.8.11-0</code>,  <code>1.8.9-3</code>,  <code>1.8.9-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8.17-2</code>,  <code>1.8.17-1</code>,  <code>1.8.17-0</code>,  <code>1.8.15-2</code>,  <code>1.8.15-1</code>,  <code>1.8.15-0</code>,  <code>1.8.13-0</code>,  <code>1.8.11-0</code>,  <code>1.8.9-3</code>,  </span></summary>
       
 
-      ``1.8.17-1``,  ``1.8.17-0``,  ``1.8.15-2``,  ``1.8.15-1``,  ``1.8.15-0``,  ``1.8.13-0``,  ``1.8.11-0``,  ``1.8.9-3``,  ``1.8.9-2``,  ``1.8.9-1``,  ``1.8.9-0``,  ``1.8.7-0``,  ``1.8.5-1``,  ``1.8.5-0``,  ``1.8.3-0``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.7.4-1``,  ``1.7.4-0``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-1``
+      ``1.8.17-2``,  ``1.8.17-1``,  ``1.8.17-0``,  ``1.8.15-2``,  ``1.8.15-1``,  ``1.8.15-0``,  ``1.8.13-0``,  ``1.8.11-0``,  ``1.8.9-3``,  ``1.8.9-2``,  ``1.8.9-1``,  ``1.8.9-0``,  ``1.8.7-0``,  ``1.8.5-1``,  ``1.8.5-0``,  ``1.8.3-0``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.7.4-1``,  ``1.7.4-0``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-1``
 
       
       .. raw:: html
@@ -52,7 +52,7 @@ funannotate
    :depends diamond: 
    :depends distro: 
    :depends ete3: 
-   :depends evidencemodeler: ``1.1.1``
+   :depends evidencemodeler: ``1.1.1.*``
    :depends exonerate: 
    :depends fasta3: 
    :depends glimmerhmm: 
@@ -85,7 +85,7 @@ funannotate
    :depends pigz: 
    :depends proteinortho: 
    :depends psutil: 
-   :depends python: ``>=3.6,<3.10``
+   :depends python: ``>=3.6,<3.12``
    :depends raxml: 
    :depends requests: 
    :depends salmon: 
@@ -93,6 +93,7 @@ funannotate
    :depends scikit-learn: 
    :depends scipy: 
    :depends seaborn-base: 
+   :depends setuptools: ``<81``
    :depends snap: 
    :depends stringtie: 
    :depends tantan: 
@@ -153,7 +154,7 @@ funannotate
 
     <script>
         var package = "funannotate";
-        var versions = ["1.8.17","1.8.17","1.8.15","1.8.15","1.8.15"];
+        var versions = ["1.8.17","1.8.17","1.8.17","1.8.15","1.8.15"];
     </script>
 
 

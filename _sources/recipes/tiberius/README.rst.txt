@@ -10,12 +10,14 @@ tiberius
    :replaces_section_title:
    :noindex:
 
-   Tiberius is a programme for quantifying and analysing genetic sequence data.
-
+   Tiberius is a deep learning gene\-finder.
 
    :homepage: https://github.com/Gaius-Augustus/Tiberius
+   :documentation: https://github.com/Gaius-Augustus/Tiberius/blob/v1.1.6/README.md
+   
    :license: MIT / MIT
    :recipe: /`tiberius <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tiberius>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tiberius/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btae685`, biotools: :biotools:`tiberius`
 
    
 
@@ -28,20 +30,16 @@ tiberius
       
       
 
-      ``1.1.1-0``,  ``1.0.0-0``
+      ``1.1.6-0``,  ``1.1.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bcbio-gff: 
    :depends biopython: 
-   :depends jax: 
-   :depends jaxlib: 
-   :depends pip: 
-   :depends pybigwig: 
-   :depends python: ``>=3.7``
-   :depends requests: 
-   :depends tensorflow: 
+   :depends learnmsa: 
+   :depends numpy: 
+   :depends python: ``>=3.10``
+   :depends tensorflow: ``<2.18``
    :depends transformers: 
    :requirements:
 
@@ -93,7 +91,7 @@ tiberius
 
     <script>
         var package = "tiberius";
-        var versions = ["1.1.1","1.0.0"];
+        var versions = ["1.1.6","1.1.1","1.0.0"];
     </script>
 
 

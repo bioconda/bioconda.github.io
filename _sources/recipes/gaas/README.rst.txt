@@ -27,13 +27,14 @@ gaas
       
       
 
-      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``
+      ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``
 
       
 
    
    :depends libdb: 
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends perl: ``>=5.8``
    :depends perl-bio-eutilities: 
    :depends perl-bioperl: ``>=1.7``
    :depends perl-clone: 
@@ -41,10 +42,12 @@ gaas
    :depends perl-file-share: 
    :depends perl-file-sharedir-install: 
    :depends perl-graph: 
+   :depends perl-list-moreutils: 
    :depends perl-lwp-simple: 
+   :depends perl-moose: 
    :depends perl-sort-naturally: 
    :depends perl-statistics-r: 
-   :depends r-base: ``>=3.5,<3.6.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :requirements:
 
    :additional platforms:
@@ -95,7 +98,7 @@ gaas
 
     <script>
         var package = "gaas";
-        var versions = ["1.2.0","1.1.0","1.0.1"];
+        var versions = ["1.2.0","1.2.0","1.1.0","1.0.1"];
     </script>
 
 

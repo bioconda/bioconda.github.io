@@ -27,11 +27,13 @@ snakemake-executor-plugin-cannon
       
       
 
-      ``1.4.0.post1-0``,  ``1.3.6.post2-0``,  ``1.3.6.post1-0``,  ``1.2.2.post1-0``,  ``1.2.1a0-0``
+      ``1.5.0.post1-0``,  ``1.4.0.post1-0``,  ``1.3.6.post2-0``,  ``1.3.6.post1-0``,  ``1.2.2.post1-0``,  ``1.2.1a0-0``
 
       
 
    
+   :depends numpy: ``>=1.26.4,<2.0.0``
+   :depends pandas: ``>=2.2.3,<3.0.0``
    :depends python: ``>=3.11.0,<4.0.0``
    :depends snakemake-executor-plugin-slurm-jobstep: ``>=0.3.0,<0.4.0``
    :depends snakemake-interface-common: ``>=1.13.0,<2.0.0``
@@ -87,7 +89,7 @@ snakemake-executor-plugin-cannon
 
     <script>
         var package = "snakemake-executor-plugin-cannon";
-        var versions = ["1.4.0.post1","1.3.6.post2","1.3.6.post1","1.2.2.post1","1.2.1a0"];
+        var versions = ["1.5.0.post1","1.4.0.post1","1.3.6.post2","1.3.6.post1","1.2.2.post1"];
     </script>
 
 

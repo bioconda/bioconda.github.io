@@ -67,16 +67,22 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">tiberius</span></span></dt>
-<dd><p>Tiberius is a programme for quantifying and analysing genetic sequence data.</p>
+<dd><p>Tiberius is a deep learning gene-finder.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/Gaius-Augustus/Tiberius">https://github.com/Gaius-Augustus/Tiberius</a></p>
 </dd>
-<dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>MIT / MIT</p>
+<dt class="field-even">Documentation<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://github.com/Gaius-Augustus/Tiberius/blob/v1.1.6/README.md">https://github.com/Gaius-Augustus/Tiberius/blob/v1.1.6/README.md</a></p>
 </dd>
-<dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tiberius">tiberius</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tiberius/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">License<span class="colon">:</span></dt>
+<dd class="field-odd"><p>MIT / MIT</p>
+</dd>
+<dt class="field-even">Recipe<span class="colon">:</span></dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tiberius">tiberius</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tiberius/meta.yaml">meta.yaml</a></p>
+</dd>
+<dt class="field-odd">Links<span class="colon">:</span></dt>
+<dd class="field-odd"><p>doi: <a class="extlink-doi reference external" href="https://doi.org/10.1093/bioinformatics/btae685">10.1093/bioinformatics/btae685</a>, biotools: <a class="extlink-biotools reference external" href="https://bio.tools/tiberius">tiberius</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -88,27 +94,20 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/tiberius"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/tiberius.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/tiberius"><img alt="docker_tiberius" src="https://quay.io/repository/biocontainers/tiberius/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.1.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.1.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
 </dd>
-<dt class="field-even">depends bcbio-gff<span class="colon">:</span></dt>
+<dt class="field-even">depends biopython<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends biopython<span class="colon">:</span></dt>
+<dt class="field-odd">depends learnmsa<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends jax<span class="colon">:</span></dt>
+<dt class="field-even">depends numpy<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends jaxlib<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends pip<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends pybigwig<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends python<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.7</span></code></p>
+<dt class="field-odd">depends python<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.10</span></code></p>
 </dd>
-<dt class="field-odd">depends requests<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends tensorflow<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&lt;2.18</span></code></p>
+</dd>
 <dt class="field-odd">depends transformers<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">requirements<span class="colon">:</span></dt>
@@ -149,7 +148,7 @@ others.</p>
 
 <script>
     var package = "tiberius";
-    var versions = ["1.1.1","1.0.0"];
+    var versions = ["1.1.6","1.1.1","1.0.0"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

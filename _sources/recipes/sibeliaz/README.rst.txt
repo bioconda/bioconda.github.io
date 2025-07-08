@@ -13,7 +13,7 @@ sibeliaz
    A fast whole\-genome aligner based on de Bruijn graphs.
 
    :homepage: https://github.com/medvedevgroup/SibeliaZ
-   :documentation: https://github.com/medvedevgroup/SibeliaZ/blob/v1.2.6/README.md
+   :documentation: https://github.com/medvedevgroup/SibeliaZ/blob/v1.2.7/README.md
    
    :license: Custom OSS
    :recipe: /`sibeliaz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sibeliaz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sibeliaz/meta.yaml>`_
@@ -31,10 +31,10 @@ sibeliaz
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.6-0</code>,  <code>1.2.5-4</code>,  <code>1.2.5-3</code>,  <code>1.2.5-2</code>,  <code>1.2.5-1</code>,  <code>1.2.5-0</code>,  <code>1.2.4-2</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.7-0</code>,  <code>1.2.6-0</code>,  <code>1.2.5-4</code>,  <code>1.2.5-3</code>,  <code>1.2.5-2</code>,  <code>1.2.5-1</code>,  <code>1.2.5-0</code>,  <code>1.2.4-2</code>,  <code>1.2.4-1</code>,  </span></summary>
       
 
-      ``1.2.6-0``,  ``1.2.5-4``,  ``1.2.5-3``,  ``1.2.5-2``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-1``,  ``1.2.2-0``
+      ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-4``,  ``1.2.5-3``,  ``1.2.5-2``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-1``,  ``1.2.2-0``
 
       
       .. raw:: html
@@ -49,7 +49,7 @@ sibeliaz
    :depends libstdcxx: ``>=13``
    :depends maf2synteny: 
    :depends spoa: 
-   :depends twopaco: ``>0.9.2``
+   :depends twopaco: 
    :requirements:
 
    :additional platforms:
@@ -104,7 +104,7 @@ sibeliaz
 
     <script>
         var package = "sibeliaz";
-        var versions = ["1.2.6","1.2.5","1.2.5","1.2.5","1.2.5"];
+        var versions = ["1.2.7","1.2.6","1.2.5","1.2.5","1.2.5"];
     </script>
 
 

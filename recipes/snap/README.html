@@ -67,16 +67,22 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">snap</span></span></dt>
-<dd><p>Semi-HMM-based Nucleic Acid Parser -- gene prediction tool</p>
+<dd><p>Semi-HMM-based Nucleic Acid Parser - a gene prediction tool.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="http://korflab.ucdavis.edu/software.html">http://korflab.ucdavis.edu/software.html</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/KorfLab/SNAP">https://github.com/KorfLab/SNAP</a></p>
 </dd>
-<dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>MIT</p>
+<dt class="field-even">Documentation<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://github.com/KorfLab/SNAP/blob/master/README.md">https://github.com/KorfLab/SNAP/blob/master/README.md</a></p>
 </dd>
-<dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snap">snap</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snap/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">License<span class="colon">:</span></dt>
+<dd class="field-odd"><p>MIT / MIT</p>
+</dd>
+<dt class="field-even">Recipe<span class="colon">:</span></dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snap">snap</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snap/meta.yaml">meta.yaml</a></p>
+</dd>
+<dt class="field-odd">Links<span class="colon">:</span></dt>
+<dd class="field-odd"><p>doi: <a class="extlink-doi reference external" href="https://doi.org/10.1186/1471-2105-5-59">10.1186/1471-2105-5-59</a>, biotools: <a class="extlink-biotools reference external" href="https://bio.tools/snap">snap</a>, usegalaxy-eu: <a class="extlink-usegalaxy-eu reference external" href="https://usegalaxy.eu/?tool_id=snap_training">snap_training</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -86,19 +92,19 @@
 <em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">snap</span></span><a class="headerlink" href="#package-snap" title="Link to this definition">¶</a></dt>
 <dd><blockquote>
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/snap"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/snap.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/snap"><img alt="docker_snap" src="https://quay.io/repository/biocontainers/snap/status" /></a></p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2013_11_29-6</span></code>,  <code class="docutils literal notranslate"><span class="pre">2013_11_29-5</span></code>,  <code class="docutils literal notranslate"><span class="pre">2013_11_29-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">2013_11_29-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">2013_11_29-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">2013_11_29-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2013_11_29-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2017_03_01-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2013_11_29-6</span></code>,  <code class="docutils literal notranslate"><span class="pre">2013_11_29-5</span></code>,  <code class="docutils literal notranslate"><span class="pre">2013_11_29-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">2013_11_29-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">2013_11_29-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">2013_11_29-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2013_11_29-0</span></code></p>
 </dd>
-<dt class="field-even">depends libgcc-ng<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p>
+<dt class="field-even">depends libgcc<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
 </dd>
 <dt class="field-odd">depends perl<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">requirements<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
+<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -133,7 +139,7 @@ others.</p>
 
 <script>
     var package = "snap";
-    var versions = ["2013_11_29","2013_11_29","2013_11_29","2013_11_29","2013_11_29"];
+    var versions = ["2017_03_01","2013_11_29","2013_11_29","2013_11_29","2013_11_29"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

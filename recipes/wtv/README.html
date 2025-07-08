@@ -70,10 +70,10 @@
 <dd><p>A library and CLI for ion selection in mass spectrometry data.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://recetox.github.io/wtv/">https://recetox.github.io/wtv/</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://recetox.github.io/wtv">https://recetox.github.io/wtv</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>GPL-3.0-only</p>
+<dd class="field-even"><p>GPL3 / GPL-3.0-only</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wtv">wtv</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wtv/meta.yaml">meta.yaml</a></p>
@@ -88,19 +88,25 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/wtv"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/wtv.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/wtv"><img alt="docker_wtv" src="https://quay.io/repository/biocontainers/wtv/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.0.2-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.2-0</span></code></p>
 </dd>
-<dt class="field-even">depends matchms<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.27.0,&lt;0.28.0</span></code></p>
+<dt class="field-even">depends lxml<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&lt;6.0.0</span></code></p>
 </dd>
-<dt class="field-odd">depends numpy<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.26.4,&lt;2.0.0</span></code></p>
+<dt class="field-odd">depends matchms<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.30.2,&lt;0.31.0</span></code></p>
 </dd>
-<dt class="field-even">depends pandas<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.2.3,&lt;3.0.0</span></code></p>
+<dt class="field-even">depends numpy<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.0.0</span></code></p>
 </dd>
-<dt class="field-odd">depends python<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.9,&lt;3.13</span></code></p>
+<dt class="field-odd">depends pandas<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.2.3,&lt;3.0.0</span></code></p>
+</dd>
+<dt class="field-even">depends python<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.10,&lt;3.13</span></code></p>
+</dd>
+<dt class="field-odd">depends rdkit<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&lt;2025.0.0</span></code></p>
 </dd>
 <dt class="field-even">requirements<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
@@ -140,7 +146,7 @@ others.</p>
 
 <script>
     var package = "wtv";
-    var versions = ["0.0.2"];
+    var versions = ["0.1.0","0.0.2"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

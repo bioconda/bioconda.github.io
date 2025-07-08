@@ -30,14 +30,14 @@ bifrost-httr
       
       
 
-      ``0.3.0-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
    :depends click: 
    :depends cmdstanpy: ``>=1.2.0,<2.0``
-   :depends multiqc: ``>=1.20,<2.0``
+   :depends multiqc: ``1.28``
    :depends numpy: ``>=2.0.0,<3.0``
    :depends pandas: ``>=2.0.0,<3.0``
    :depends plotly: ``>=6.0.0,<7.0``
@@ -94,7 +94,7 @@ bifrost-httr
 
     <script>
         var package = "bifrost-httr";
-        var versions = ["0.3.0","0.2.1","0.2.1","0.2.0","0.1.0"];
+        var versions = ["0.3.1","0.3.0","0.2.1","0.2.1","0.2.0"];
     </script>
 
 

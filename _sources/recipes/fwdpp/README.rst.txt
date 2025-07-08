@@ -10,10 +10,12 @@ fwdpp
    :replaces_section_title:
    :noindex:
 
-   A C\+\+ template library for forward\-time population genetic simulation. 
+   A C\+\+ template library for forward\-time population genetic simulation.
 
    :homepage: https://www.github.com/molpopgen/fwdpp
-   :license: https://raw.githubusercontent.com/molpopgen/fwdpp/master/LICENSE
+   :documentation: https://fwdpp.readthedocs.io/en/latest
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`fwdpp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fwdpp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fwdpp/meta.yaml>`_
    :links: doi: :doi:`10.1534/genetics.114.165019`
 
@@ -27,19 +29,33 @@ fwdpp
    :versions:
       
       
+      .. raw:: html
 
-      ``0.5.7-3``,  ``0.5.7-2``,  ``0.5.7-1``,  ``0.5.7-0``,  ``0.5.5-0``,  ``0.5.4-3``,  ``0.5.4-2``,  ``0.5.3-1``,  ``0.5.3-0``
+         <details><summary><span class="truncated-version-list"><code>0.9.2-0</code>,  <code>0.6.1-0</code>,  <code>0.5.7-3</code>,  <code>0.5.7-2</code>,  <code>0.5.7-1</code>,  <code>0.5.7-0</code>,  <code>0.5.5-0</code>,  <code>0.5.4-3</code>,  <code>0.5.4-2</code>,  </span></summary>
+      
 
+      ``0.9.2-0``,  ``0.6.1-0``,  ``0.5.7-3``,  ``0.5.7-2``,  ``0.5.7-1``,  ``0.5.7-0``,  ``0.5.5-0``,  ``0.5.4-3``,  ``0.5.4-2``,  ``0.5.3-1``,  ``0.5.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends boost: ``>=1.66.0,<1.66.1.0a0``
-   :depends gsl: ``>=2.2.1,<2.3.0a0``
-   :depends openblas: ``>=0.2.20,<0.2.21.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends boost-cpp: 
+   :depends gsl: ``>=2.7,<2.8.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends openblas: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -87,7 +103,7 @@ fwdpp
 
     <script>
         var package = "fwdpp";
-        var versions = ["0.5.7","0.5.7","0.5.7","0.5.7","0.5.5"];
+        var versions = ["0.9.2","0.6.1","0.5.7","0.5.7","0.5.7"];
     </script>
 
 

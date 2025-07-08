@@ -10,10 +10,10 @@ mantis-msi2
    :replaces_section_title:
    :noindex:
 
-   MANTIS2 is a program developed for detecting microsatellite instability from paired\-end BAM files
+   MANTIS2 is a program developed for detecting microsatellite instability from paired\-end BAM files.
 
-   :homepage: https://github.com/nh13/MANTIS2/
-   :license: GPL / GPL-3
+   :homepage: https://github.com/nh13/MANTIS2
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`mantis-msi2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mantis-msi2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mantis-msi2/meta.yaml>`_
 
    MANTIS2 \(Microsatellite Analysis for Normal\-Tumor InStability\) is a program developed for detecting microsatellite instability from paired\-end BAM files. To perform analysis\, the program needs a tumor BAM and a matched normal BAM file \(produced using the same pipeline\) to determine the instability score between the two samples within the pair. Longer reads \(ideally\, 100 bp or longer\) are recommended\, as shorter reads are unlikely to entirely cover the microsatellite loci\, and will be discarded after failing the quality control filters.  Originally developed and maintained here\: https\:\/\/github.com\/OSU\-SRLab\/MANTIS.
@@ -28,19 +28,23 @@ mantis-msi2
       
       
 
-      ``2.0.0-1``,  ``2.0.0-0``
+      ``2.0.0-3``,  ``2.0.0-1``,  ``2.0.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends numpy: ``>=1.11``
-   :depends pysam: ``>=0.13``
-   :depends python: ``>=3.6``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends numpy: ``>=1.19.0``
+   :depends pysam: ``>=0.23.0``
+   :depends python: ``>=3.6,<3.10``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -88,7 +92,7 @@ mantis-msi2
 
     <script>
         var package = "mantis-msi2";
-        var versions = ["2.0.0","2.0.0"];
+        var versions = ["2.0.0","2.0.0","2.0.0"];
     </script>
 
 

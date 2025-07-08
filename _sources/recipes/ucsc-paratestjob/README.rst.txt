@@ -31,7 +31,7 @@ ucsc-paratestjob
       
       
 
-      ``482-0``,  ``469-1``,  ``469-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``
+      ``482-1``,  ``482-0``,  ``469-1``,  ``469-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``
 
       
 
@@ -41,7 +41,7 @@ ucsc-paratestjob
    :depends libiconv: ``>=1.18,<2.0a0``
    :depends liblzma: ``>=5.8.1,<6.0a0``
    :depends libopenssl-static: 
-   :depends libpng: ``>=1.6.49,<1.7.0a0``
+   :depends libpng: ``>=1.6.50,<1.7.0a0``
    :depends libstdcxx: ``>=13``
    :depends libuuid: ``>=2.38.1,<3.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
@@ -100,7 +100,7 @@ ucsc-paratestjob
 
     <script>
         var package = "ucsc-paratestjob";
-        var versions = ["482","469","469","377","377"];
+        var versions = ["482","482","469","469","377"];
     </script>
 
 

@@ -10,7 +10,7 @@ xengsort
    :replaces_section_title:
    :noindex:
 
-   A fast xenograft read sorter based on space\-efficient k\-mer hashing
+   A fast xenograft read sorter based on space\-efficient k\-mer hashing.
 
    :homepage: https://gitlab.com/genomeinformatics/xengsort
    :license: MIT / MIT
@@ -28,18 +28,19 @@ xengsort
       
       
 
-      ``2.0.8-0``,  ``2.0.7-0``,  ``2.0.5-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.0.3-0``
+      ``2.0.9-0``,  ``2.0.8-0``,  ``2.0.7-0``,  ``2.0.5-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.0.3-0``
 
       
 
    
    :depends jsonargparse: 
-   :depends numba: ``>=0.56``
-   :depends numpy: ``>=1.22``
+   :depends numba: 
+   :depends numpy: 
    :depends pytest: 
    :depends python: ``>=3.12``
    :depends pyyaml: 
    :depends zarr: 
+   :depends zstd: 
    :requirements:
 
    :additional platforms:
@@ -90,7 +91,7 @@ xengsort
 
     <script>
         var package = "xengsort";
-        var versions = ["2.0.8","2.0.7","2.0.5","2.0.3","2.0.2"];
+        var versions = ["2.0.9","2.0.8","2.0.7","2.0.5","2.0.3"];
     </script>
 
 

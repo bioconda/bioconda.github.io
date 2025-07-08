@@ -10,12 +10,11 @@ saffrontree
    :replaces_section_title:
    :noindex:
 
-   SaffronTree\: Reference free rapid phylogenetic tree construction from raw read data
+   Reference\-free rapid phylogenetic tree construction from raw read data.
 
    :homepage: https://github.com/sanger-pathogens/saffrontree
-   :license: GNU General Public License v3 (GPLv3)
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`saffrontree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/saffrontree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/saffrontree/meta.yaml>`_
-   :links: doi: :doi:`10.21105/joss.00243`
 
    
 
@@ -28,17 +27,17 @@ saffrontree
       
       
 
-      ``0.1.2-0``
+      ``0.1.2-2``,  ``0.1.2-0``
 
       
 
    
-   :depends biopython: 
+   :depends biopython: ``>=1.68``
    :depends dendropy: ``>=4.1.0``
-   :depends kmc: ``>=2.3.0``
-   :depends libgcc: 
+   :depends kmc: ``>=3.2.4``
    :depends pyfastaq: ``>=3.12.0``
-   :depends python: ``3.5*``
+   :depends python: ``>=3``
+   :depends spades: ``>=4.2.0``
    :requirements:
 
    :additional platforms:
@@ -89,7 +88,7 @@ saffrontree
 
     <script>
         var package = "saffrontree";
-        var versions = ["0.1.2"];
+        var versions = ["0.1.2","0.1.2"];
     </script>
 
 

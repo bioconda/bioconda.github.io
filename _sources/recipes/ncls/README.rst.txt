@@ -10,10 +10,10 @@ ncls
    :replaces_section_title:
    :noindex:
 
-   Fast overlap datastructure.
+   A fast interval tree\-like implementation in C\, wrapped for the Python ecosystem. Basically a static interval\-tree that is silly fast for both construction and lookups.
 
    :homepage: https://github.com/endrebak/ncls
-   :license: BSD
+   :license: BSD / BSD-3-Clause
    :recipe: /`ncls <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncls>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncls/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ ncls
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.68-5</code>,  <code>0.0.68-4</code>,  <code>0.0.68-3</code>,  <code>0.0.68-2</code>,  <code>0.0.68-1</code>,  <code>0.0.68-0</code>,  <code>0.0.66-3</code>,  <code>0.0.66-1</code>,  <code>0.0.66-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.70-0</code>,  <code>0.0.68-5</code>,  <code>0.0.68-4</code>,  <code>0.0.68-3</code>,  <code>0.0.68-2</code>,  <code>0.0.68-1</code>,  <code>0.0.68-0</code>,  <code>0.0.66-3</code>,  <code>0.0.66-1</code>,  </span></summary>
       
 
-      ``0.0.68-5``,  ``0.0.68-4``,  ``0.0.68-3``,  ``0.0.68-2``,  ``0.0.68-1``,  ``0.0.68-0``,  ``0.0.66-3``,  ``0.0.66-1``,  ``0.0.66-0``,  ``0.0.65-1``,  ``0.0.65-0``,  ``0.0.64-1``,  ``0.0.64-0``,  ``0.0.63-0``,  ``0.0.62-0``,  ``0.0.60-0``,  ``0.0.57-1``,  ``0.0.57-0``,  ``0.0.56-0``,  ``0.0.54-0``,  ``0.0.53-2``,  ``0.0.53-1``,  ``0.0.53-0``,  ``0.0.52-0``,  ``0.0.51-0``,  ``0.0.50-0``,  ``0.0.49-0``,  ``0.0.48-0``,  ``0.0.47-0``,  ``0.0.46-0``,  ``0.0.45-0``,  ``0.0.44-0``,  ``0.0.43-0``,  ``0.0.42-3``,  ``0.0.42-2``,  ``0.0.42-1``,  ``0.0.42-0``
+      ``0.0.70-0``,  ``0.0.68-5``,  ``0.0.68-4``,  ``0.0.68-3``,  ``0.0.68-2``,  ``0.0.68-1``,  ``0.0.68-0``,  ``0.0.66-3``,  ``0.0.66-1``,  ``0.0.66-0``,  ``0.0.65-1``,  ``0.0.65-0``,  ``0.0.64-1``,  ``0.0.64-0``,  ``0.0.63-0``,  ``0.0.62-0``,  ``0.0.60-0``,  ``0.0.57-1``,  ``0.0.57-0``,  ``0.0.56-0``,  ``0.0.54-0``,  ``0.0.53-2``,  ``0.0.53-1``,  ``0.0.53-0``,  ``0.0.52-0``,  ``0.0.51-0``,  ``0.0.50-0``,  ``0.0.49-0``,  ``0.0.48-0``,  ``0.0.47-0``,  ``0.0.46-0``,  ``0.0.45-0``,  ``0.0.44-0``,  ``0.0.43-0``,  ``0.0.42-3``,  ``0.0.42-2``,  ``0.0.42-1``,  ``0.0.42-0``
 
       
       .. raw:: html
@@ -99,7 +99,7 @@ ncls
 
     <script>
         var package = "ncls";
-        var versions = ["0.0.68","0.0.68","0.0.68","0.0.68","0.0.68"];
+        var versions = ["0.0.70","0.0.68","0.0.68","0.0.68","0.0.68"];
     </script>
 
 

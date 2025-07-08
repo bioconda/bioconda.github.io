@@ -10,10 +10,10 @@ ldblockshow
    :replaces_section_title:
    :noindex:
 
-   a tool for showing linkage disequilibrium heatmaps from variant call format \(VCF\) files
+   A tool for showing linkage disequilibrium heatmaps from variant call format \(VCF\) files.
 
    :homepage: https://github.com/BGI-shenzhen/LDBlockShow
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`ldblockshow <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ldblockshow>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ldblockshow/meta.yaml>`_
    :links: biotools: :biotools:`ldblockshow`
 
@@ -29,10 +29,10 @@ ldblockshow
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.40-3</code>,  <code>1.40-2</code>,  <code>1.40-1</code>,  <code>1.40-0</code>,  <code>1.38-0</code>,  <code>1.37-0</code>,  <code>1.36-0</code>,  <code>1.35-0</code>,  <code>1.34-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.41-0</code>,  <code>1.40-3</code>,  <code>1.40-2</code>,  <code>1.40-1</code>,  <code>1.40-0</code>,  <code>1.38-0</code>,  <code>1.37-0</code>,  <code>1.36-0</code>,  <code>1.35-0</code>,  </span></summary>
       
 
-      ``1.40-3``,  ``1.40-2``,  ``1.40-1``,  ``1.40-0``,  ``1.38-0``,  ``1.37-0``,  ``1.36-0``,  ``1.35-0``,  ``1.34-0``,  ``1.33-0``,  ``1.32-0``,  ``1.31-0``,  ``1.27-0``,  ``1.25-0``
+      ``1.41-0``,  ``1.40-3``,  ``1.40-2``,  ``1.40-1``,  ``1.40-0``,  ``1.38-0``,  ``1.37-0``,  ``1.36-0``,  ``1.35-0``,  ``1.34-0``,  ``1.33-0``,  ``1.32-0``,  ``1.31-0``,  ``1.27-0``,  ``1.25-0``
 
       
       .. raw:: html
@@ -41,13 +41,12 @@ ldblockshow
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-svg: 
    :depends plink: 
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
@@ -98,7 +97,7 @@ ldblockshow
 
     <script>
         var package = "ldblockshow";
-        var versions = ["1.40","1.40","1.40","1.40","1.38"];
+        var versions = ["1.41","1.40","1.40","1.40","1.40"];
     </script>
 
 

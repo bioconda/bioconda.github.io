@@ -10,12 +10,12 @@ exonerate
    :replaces_section_title:
    :noindex:
 
-   Exonerate \- A generic tool for pairwise sequence comparison \/ alignment
+   Exonerate \- A generic tool for pairwise sequence comparison \/ alignment.
 
-   :homepage: https://www.ebi.ac.uk/about/vertebrate-genomics/software/exonerate
-   :license: GPL-3.0-or-later
+   :homepage: http://ftp.ebi.ac.uk/pub/software/vertebrategenomics/exonerate
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`exonerate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/exonerate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/exonerate/meta.yaml>`_
-   :links: biotools: :biotools:`exonerate`
+   :links: biotools: :biotools:`exonerate`, usegalaxy-eu: :usegalaxy-eu:`exonerate`
 
    
 
@@ -29,10 +29,10 @@ exonerate
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4.0-8</code>,  <code>2.4.0-7</code>,  <code>2.4.0-6</code>,  <code>2.4.0-5</code>,  <code>2.4.0-4</code>,  <code>2.4.0-3</code>,  <code>2.4.0-2</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4.0-9</code>,  <code>2.4.0-8</code>,  <code>2.4.0-7</code>,  <code>2.4.0-6</code>,  <code>2.4.0-5</code>,  <code>2.4.0-4</code>,  <code>2.4.0-3</code>,  <code>2.4.0-2</code>,  <code>2.4.0-1</code>,  </span></summary>
       
 
-      ``2.4.0-8``,  ``2.4.0-7``,  ``2.4.0-6``,  ``2.4.0-5``,  ``2.4.0-4``,  ``2.4.0-3``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.2.0-1``,  ``2.2.0-0``
+      ``2.4.0-9``,  ``2.4.0-8``,  ``2.4.0-7``,  ``2.4.0-6``,  ``2.4.0-5``,  ``2.4.0-4``,  ``2.4.0-3``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.2.0-1``,  ``2.2.0-0``
 
       
       .. raw:: html
@@ -42,8 +42,8 @@ exonerate
 
    
    :depends glib: 
-   :depends libgcc-ng: ``>=12``
-   :depends libglib: ``>=2.80.0,<3.0a0``
+   :depends libgcc: ``>=12``
+   :depends libglib: ``>=2.84.2,<3.0a0``
    :depends pcre: ``>=8.45,<9.0a0``
    :requirements:
 
@@ -51,7 +51,7 @@ exonerate
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

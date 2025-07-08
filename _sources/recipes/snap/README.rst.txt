@@ -10,11 +10,14 @@ snap
    :replaces_section_title:
    :noindex:
 
-   Semi\-HMM\-based Nucleic Acid Parser \-\- gene prediction tool
+   Semi\-HMM\-based Nucleic Acid Parser \- a gene prediction tool.
 
-   :homepage: http://korflab.ucdavis.edu/software.html
-   :license: MIT
+   :homepage: https://github.com/KorfLab/SNAP
+   :documentation: https://github.com/KorfLab/SNAP/blob/master/README.md
+   
+   :license: MIT / MIT
    :recipe: /`snap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snap/meta.yaml>`_
+   :links: doi: :doi:`10.1186/1471-2105-5-59`, biotools: :biotools:`snap`, usegalaxy-eu: :usegalaxy-eu:`snap_training`
 
    
 
@@ -27,16 +30,20 @@ snap
       
       
 
-      ``2013_11_29-6``,  ``2013_11_29-5``,  ``2013_11_29-4``,  ``2013_11_29-3``,  ``2013_11_29-2``,  ``2013_11_29-1``,  ``2013_11_29-0``
+      ``2017_03_01-0``,  ``2013_11_29-6``,  ``2013_11_29-5``,  ``2013_11_29-4``,  ``2013_11_29-3``,  ``2013_11_29-2``,  ``2013_11_29-1``,  ``2013_11_29-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends perl: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -84,7 +91,7 @@ snap
 
     <script>
         var package = "snap";
-        var versions = ["2013_11_29","2013_11_29","2013_11_29","2013_11_29","2013_11_29"];
+        var versions = ["2017_03_01","2013_11_29","2013_11_29","2013_11_29","2013_11_29"];
     </script>
 
 
