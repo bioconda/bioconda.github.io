@@ -1,44 +1,49 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'logomaker'
+.. title:: Package Recipe 'yame'
 .. highlight: bash
 
-logomaker
-=========
+yame
+====
 
-.. conda:recipe:: logomaker
+.. conda:recipe:: yame
    :replaces_section_title:
    :noindex:
 
-   Package for making Sequence Logos
+   YAME\: Yet Another Methylation Extractor.
 
-   :homepage: http://logomaker.readthedocs.io
+   :homepage: https://github.com/zhou-lab/YAME
+   :documentation: https://zhou-lab.github.io/YAME
+   
    :license: MIT / MIT
-   :recipe: /`logomaker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/logomaker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/logomaker/meta.yaml>`_
+   :recipe: /`yame <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yame>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yame/meta.yaml>`_
 
    
 
 
-.. conda:package:: logomaker
+.. conda:package:: yame
 
-   |downloads_logomaker| |docker_logomaker|
+   |downloads_yame| |docker_yame|
 
    :versions:
       
       
 
-      ``0.8-1``,  ``0.8-0``
+      ``1.0.5-0``,  ``1.0.4-0``
 
       
 
    
-   :depends matplotlib-base: 
-   :depends numpy: 
-   :depends pandas: 
-   :depends python: ``>=3.9``
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends ncurses: ``>=6.5,<7.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -54,39 +59,39 @@ logomaker
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install logomaker
+      mamba install yame
 
    and update with::
 
-      mamba update logomaker
+      mamba update yame
 
   To create a new environment, run::
 
-      mamba create --name myenvname logomaker
+      mamba create --name myenvname yame
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/logomaker:<tag>
+      docker pull quay.io/biocontainers/yame:<tag>
 
-   (see `logomaker/tags`_ for valid values for ``<tag>``)
+   (see `yame/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_logomaker| image:: https://img.shields.io/conda/dn/bioconda/logomaker.svg?style=flat
-   :target: https://anaconda.org/bioconda/logomaker
+.. |downloads_yame| image:: https://img.shields.io/conda/dn/bioconda/yame.svg?style=flat
+   :target: https://anaconda.org/bioconda/yame
    :alt:   (downloads)
-.. |docker_logomaker| image:: https://quay.io/repository/biocontainers/logomaker/status
-   :target: https://quay.io/repository/biocontainers/logomaker
-.. _`logomaker/tags`: https://quay.io/repository/biocontainers/logomaker?tab=tags
+.. |docker_yame| image:: https://quay.io/repository/biocontainers/yame/status
+   :target: https://quay.io/repository/biocontainers/yame
+.. _`yame/tags`: https://quay.io/repository/biocontainers/yame?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "logomaker";
-        var versions = ["0.8","0.8"];
+        var package = "yame";
+        var versions = ["1.0.5","1.0.4"];
     </script>
 
 
@@ -105,7 +110,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/logomaker/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/yame/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/logomaker/README.html
+   :target: http://bioconda.github.io/recipes/yame/README.html

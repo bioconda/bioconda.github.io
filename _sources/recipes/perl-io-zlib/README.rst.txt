@@ -13,7 +13,7 @@ perl-io-zlib
    IO\:\: style interface to Compress\:\:Zlib
 
    :homepage: https://metacpan.org/pod/IO::Zlib
-   :license: Unknown
+   :license: GPL-1.0-or-later OR Artistic-1.0-Perl
    :recipe: /`perl-io-zlib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-zlib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-zlib/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-io-zlib
       
       
 
-      ``1.15-0``,  ``1.14-0``,  ``1.12-0``,  ``1.11-0``,  ``1.10-3``,  ``1.10-2``,  ``1.10-1``
+      ``1.15-1``,  ``1.15-0``,  ``1.14-0``,  ``1.12-0``,  ``1.11-0``,  ``1.10-3``,  ``1.10-2``,  ``1.10-1``
 
       
 
@@ -83,7 +83,7 @@ perl-io-zlib
 
     <script>
         var package = "perl-io-zlib";
-        var versions = ["1.15","1.14","1.12","1.11","1.10"];
+        var versions = ["1.15","1.15","1.14","1.12","1.11"];
     </script>
 
 

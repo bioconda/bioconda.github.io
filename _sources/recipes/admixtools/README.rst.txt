@@ -13,7 +13,9 @@ admixtools
    ADMIXTOOLS \(Patterson et al. 2012\) is a software package that supports formal tests of whether admixture occurred\, and makes it possible to infer admixture proportions and dates.
 
    :homepage: https://github.com/DReichLab/AdmixTools
-   :license: Free for Academic Use
+   :documentation: https://github.com/DReichLab/AdmixTools/blob/v8.0.2/README
+   
+   :license: Academic License
    :recipe: /`admixtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/admixtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/admixtools/meta.yaml>`_
    :links: biotools: :biotools:`AdmixTools`, doi: :doi:`10.1534/genetics.112.145037`
 
@@ -29,10 +31,10 @@ admixtools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>7.0.2-5</code>,  <code>7.0.2-4</code>,  <code>7.0.2-3</code>,  <code>7.0.2-2</code>,  <code>7.0.2-1</code>,  <code>7.0.2-0</code>,  <code>7.0.1-1</code>,  <code>7.0.1-0</code>,  <code>6.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>8.0.2-0</code>,  <code>7.0.2-5</code>,  <code>7.0.2-4</code>,  <code>7.0.2-3</code>,  <code>7.0.2-2</code>,  <code>7.0.2-1</code>,  <code>7.0.2-0</code>,  <code>7.0.1-1</code>,  <code>7.0.1-0</code>,  </span></summary>
       
 
-      ``7.0.2-5``,  ``7.0.2-4``,  ``7.0.2-3``,  ``7.0.2-2``,  ``7.0.2-1``,  ``7.0.2-0``,  ``7.0.1-1``,  ``7.0.1-0``,  ``6.0-2``,  ``6.0-1``,  ``6.0-0``,  ``5.1-0``,  ``5.0-0``
+      ``8.0.2-0``,  ``7.0.2-5``,  ``7.0.2-4``,  ``7.0.2-3``,  ``7.0.2-2``,  ``7.0.2-1``,  ``7.0.2-0``,  ``7.0.1-1``,  ``7.0.1-0``,  ``6.0-2``,  ``6.0-1``,  ``6.0-0``,  ``5.1-0``,  ``5.0-0``
 
       
       .. raw:: html
@@ -47,6 +49,10 @@ admixtools
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -94,7 +100,7 @@ admixtools
 
     <script>
         var package = "admixtools";
-        var versions = ["7.0.2","7.0.2","7.0.2","7.0.2","7.0.2"];
+        var versions = ["8.0.2","7.0.2","7.0.2","7.0.2","7.0.2"];
     </script>
 
 

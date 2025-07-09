@@ -15,10 +15,10 @@ iqtree
    :homepage: http://www.iqtree.org
    :documentation: http://www.iqtree.org/doc
    
-   :developer docs: https://github.com/iqtree/iqtree2
+   :developer docs: https://github.com/iqtree/iqtree3
    :license: GPL2 / GPL-2.0-or-later
    :recipe: /`iqtree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/iqtree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/iqtree/meta.yaml>`_
-   :links: biotools: :biotools:`iqtree`, doi: :doi:`10.1093/molbev/msu300`, doi: :doi:`10.1038/nmeth.4285`, doi: :doi:`10.1093/molbev/msx281`, doi: :doi:`10.1093/sysbio/syae008`, doi: :doi:`10.1093/molbev/msae134`, usegalaxy-eu: :usegalaxy-eu:`iqtree`
+   :links: biotools: :biotools:`iqtree`, doi: :doi:`10.32942/X2P62N`, doi: :doi:`10.1093/molbev/msae264`, doi: :doi:`10.1093/molbev/msae174`, doi: :doi:`10.1093/molbev/msae134`, doi: :doi:`10.1093/sysbio/syae008`, doi: :doi:`10.1093/bioinformatics/btac741`, doi: :doi:`10.1093/bioinformatics/btad540`, doi: :doi:`10.1093/sysbio/syab010`, doi: :doi:`10.1093/sysbio/syz051`, doi: :doi:`10.1093/gbe/evz193`, doi: :doi:`10.1093/molbev/msz043`, doi: :doi:`10.1093/molbev/msx281`, doi: :doi:`10.1093/sysbio/syx068`, doi: :doi:`10.1038/nmeth.4285`, doi: :doi:`10.1093/sysbio/syw037`, doi: :doi:`10.1093/nar/gkw256`, doi: :doi:`10.1093/molbev/msu300`, doi: :doi:`10.1093/molbev/msaa015`, usegalaxy-eu: :usegalaxy-eu:`iqtree`
 
    
 
@@ -32,10 +32,10 @@ iqtree
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4.0-0</code>,  <code>2.3.6-1</code>,  <code>2.3.6-0</code>,  <code>2.3.5-3</code>,  <code>2.3.5-2</code>,  <code>2.3.5-1</code>,  <code>2.3.5-0</code>,  <code>2.3.4-2</code>,  <code>2.3.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.1-0</code>,  <code>2.4.0-0</code>,  <code>2.3.6-1</code>,  <code>2.3.6-0</code>,  <code>2.3.5-3</code>,  <code>2.3.5-2</code>,  <code>2.3.5-1</code>,  <code>2.3.5-0</code>,  <code>2.3.4-2</code>,  </span></summary>
       
 
-      ``2.4.0-0``,  ``2.3.6-1``,  ``2.3.6-0``,  ``2.3.5-3``,  ``2.3.5-2``,  ``2.3.5-1``,  ``2.3.5-0``,  ``2.3.4-2``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.3-0``,  ``2.3.0-0``,  ``2.2.6-0``,  ``2.2.5-0``,  ``2.2.3-0``,  ``2.2.2.9-0``,  ``2.2.2.7-2``,  ``2.2.2.7-0``,  ``2.2.2.3-2``,  ``2.2.2.3-1``,  ``2.2.2.3-0``,  ``2.2.0.3-1``,  ``2.2.0.3-0``,  ``2.2.0_beta-1``,  ``2.2.0_beta-0``,  ``2.1.4_beta-0``,  ``2.1.2-0``,  ``2.0.3-1``,  ``2.0.3-0``,  ``1.6.12-1``,  ``1.6.12-0``,  ``1.6.11.1-0``,  ``1.6.11-0``,  ``1.6.10-0``,  ``1.6.9-1``,  ``1.6.9-0``,  ``1.6.8-0``,  ``1.6.7.2-0``,  ``1.6.7.1-0``,  ``1.6.7-1``,  ``1.6.7-0``,  ``1.6.6-0``,  ``1.5.5-2``,  ``1.5.5-1``,  ``1.5.5-0``,  ``1.5.3-2``,  ``1.5.3-1``,  ``1.5.3-0``
+      ``3.0.1-0``,  ``2.4.0-0``,  ``2.3.6-1``,  ``2.3.6-0``,  ``2.3.5-3``,  ``2.3.5-2``,  ``2.3.5-1``,  ``2.3.5-0``,  ``2.3.4-2``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.3-0``,  ``2.3.0-0``,  ``2.2.6-0``,  ``2.2.5-0``,  ``2.2.3-0``,  ``2.2.2.9-0``,  ``2.2.2.7-2``,  ``2.2.2.7-0``,  ``2.2.2.3-2``,  ``2.2.2.3-1``,  ``2.2.2.3-0``,  ``2.2.0.3-1``,  ``2.2.0.3-0``,  ``2.2.0_beta-1``,  ``2.2.0_beta-0``,  ``2.1.4_beta-0``,  ``2.1.2-0``,  ``2.0.3-1``,  ``2.0.3-0``,  ``1.6.12-1``,  ``1.6.12-0``,  ``1.6.11.1-0``,  ``1.6.11-0``,  ``1.6.10-0``,  ``1.6.9-1``,  ``1.6.9-0``,  ``1.6.8-0``,  ``1.6.7.2-0``,  ``1.6.7.1-0``,  ``1.6.7-1``,  ``1.6.7-0``,  ``1.6.6-0``,  ``1.5.5-2``,  ``1.5.5-1``,  ``1.5.5-0``,  ``1.5.3-2``,  ``1.5.3-1``,  ``1.5.3-0``
 
       
       .. raw:: html
@@ -102,7 +102,7 @@ iqtree
 
     <script>
         var package = "iqtree";
-        var versions = ["2.4.0","2.3.6","2.3.6","2.3.5","2.3.5"];
+        var versions = ["3.0.1","2.4.0","2.3.6","2.3.6","2.3.5"];
     </script>
 
 

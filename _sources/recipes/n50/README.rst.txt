@@ -10,19 +10,16 @@ n50
    :replaces_section_title:
    :noindex:
 
-   calculate N50 from FASTA\/FASTQ files\, producing both machine and human friendly outputs
+   A command\-line tool to calculate the N50 value of a set of sequences and other utilities.
 
-   :homepage: http://metacpan.org/pod/Proch::N50
-   :documentation: https://github.com/quadram-institute-bioscience/seqfu/wiki/n50
+   :homepage: https://github.com/quadram-institute-bioscience/n50
+   :documentation: https://github.com/quadram-institute-bioscience/n50/blob/v1.9.3/README.md
    
-   :developer docs: https://github.com/quadram-institute-bioscience/seqfu/
-   :license: mit
+   :license: MIT / MIT
    :recipe: /`n50 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/n50>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/n50/meta.yaml>`_
    :links: biotools: :biotools:`n50`, doi: :doi:`10.3390/bioengineering8050059`
 
-   a program to calculate size metrics of a FASTA \(or FASTQ\) file\: minimum\, maximum\, average length\, N50\, N75\, N90 and the area of the Nx curve \(auN\).
-   Gzipped files are supported as input\, and the output can be in compact\, csv\, tsv\, json or screen friendly format.
-
+   This repository provides tools for N50 calculation and dataset simulation.
 
 
 .. conda:package:: n50
@@ -34,10 +31,10 @@ n50
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.0-0</code>,  <code>1.5.8-0</code>,  <code>1.5.6-0</code>,  <code>1.5.5-0</code>,  <code>1.5.4-0</code>,  <code>1.5.0-0</code>,  <code>1.4.10-1</code>,  <code>1.4.10-0</code>,  <code>1.4.2-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.9.3-0</code>,  <code>1.7.0-0</code>,  <code>1.5.8-0</code>,  <code>1.5.6-0</code>,  <code>1.5.5-0</code>,  <code>1.5.4-0</code>,  <code>1.5.0-0</code>,  <code>1.4.10-1</code>,  <code>1.4.10-0</code>,  </span></summary>
       
 
-      ``1.7.0-0``,  ``1.5.8-0``,  ``1.5.6-0``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.0-0``,  ``1.4.10-1``,  ``1.4.10-0``,  ``1.4.2-2``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.0.0-0``,  ``0.92-0``,  ``0.90-0``,  ``0.83-0``,  ``0.82-0``,  ``0.80-0``,  ``0.60-3``,  ``0.60-2``,  ``0.60-1``,  ``0.60-0``
+      ``1.9.3-0``,  ``1.7.0-0``,  ``1.5.8-0``,  ``1.5.6-0``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.0-0``,  ``1.4.10-1``,  ``1.4.10-0``,  ``1.4.2-2``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.0.0-0``,  ``0.92-0``,  ``0.90-0``,  ``0.83-0``,  ``0.82-0``,  ``0.80-0``,  ``0.60-3``,  ``0.60-2``,  ``0.60-1``,  ``0.60-0``
 
       
       .. raw:: html
@@ -46,18 +43,15 @@ n50
       
 
    
-   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends perl-exporter: 
-   :depends perl-fastx-reader: ``>=1.8.0``
-   :depends perl-file-which: 
-   :depends perl-getopt-long: 
-   :depends perl-json-pp: 
-   :depends perl-perlio-encoding: 
-   :depends perl-pod-usage: 
-   :depends perl-text-asciitable: 
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -105,7 +99,7 @@ n50
 
     <script>
         var package = "n50";
-        var versions = ["1.7.0","1.5.8","1.5.6","1.5.5","1.5.4"];
+        var versions = ["1.9.3","1.7.0","1.5.8","1.5.6","1.5.5"];
     </script>
 
 

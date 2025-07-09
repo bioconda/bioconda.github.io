@@ -10,10 +10,10 @@ bamdam
    :replaces_section_title:
    :noindex:
 
-   A post\-mapping\, post\-least\-common\-ancestor toolkit for ancient DNA analysis
+   A post\-mapping\, post\-least\-common\-ancestor toolkit for ancient DNA analysis.
 
    :homepage: https://github.com/bdesanctis/bamdam
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`bamdam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamdam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamdam/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ bamdam
       
       
 
-      ``0.2.0-0``,  ``0.1.1-0``
+      ``0.2.2-0``,  ``0.2.0-0``,  ``0.1.1-0``
 
       
 
@@ -87,7 +87,7 @@ bamdam
 
     <script>
         var package = "bamdam";
-        var versions = ["0.2.0","0.1.1"];
+        var versions = ["0.2.2","0.2.0","0.1.1"];
     </script>
 
 

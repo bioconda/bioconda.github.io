@@ -10,11 +10,14 @@ ngmlr
    :replaces_section_title:
    :noindex:
 
-   ngmlr is a long\-read mapper designed to align PacBio or Oxford Nanopore reads to a reference genome and optimized for structural variation detection
+   ngmlr is a long\-read mapper designed to align PacBio or Oxford Nanopore reads to a reference genome and optimized for structural variation detection.
 
    :homepage: https://github.com/philres/ngmlr
-   :license: MIT
+   :documentation: https://github.com/philres/ngmlr/blob/v0.2.7/README.md
+   
+   :license: MIT / MIT
    :recipe: /`ngmlr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngmlr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngmlr/meta.yaml>`_
+   :links: biotools: :biotools:`ngmlr`, doi: :doi:`10.1038/s41592-018-0001-7`
 
    
 
@@ -28,10 +31,10 @@ ngmlr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.7-9</code>,  <code>0.2.7-8</code>,  <code>0.2.7-7</code>,  <code>0.2.7-6</code>,  <code>0.2.7-5</code>,  <code>0.2.7-4</code>,  <code>0.2.7-3</code>,  <code>0.2.7-2</code>,  <code>0.2.7-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.7-10</code>,  <code>0.2.7-9</code>,  <code>0.2.7-8</code>,  <code>0.2.7-7</code>,  <code>0.2.7-6</code>,  <code>0.2.7-5</code>,  <code>0.2.7-4</code>,  <code>0.2.7-3</code>,  <code>0.2.7-2</code>,  </span></summary>
       
 
-      ``0.2.7-9``,  ``0.2.7-8``,  ``0.2.7-7``,  ``0.2.7-6``,  ``0.2.7-5``,  ``0.2.7-4``,  ``0.2.7-3``,  ``0.2.7-2``,  ``0.2.7-1``,  ``0.2.7-0``,  ``0.2.6-1``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-2``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3-2``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``
+      ``0.2.7-10``,  ``0.2.7-9``,  ``0.2.7-8``,  ``0.2.7-7``,  ``0.2.7-6``,  ``0.2.7-5``,  ``0.2.7-4``,  ``0.2.7-3``,  ``0.2.7-2``,  ``0.2.7-1``,  ``0.2.7-0``,  ``0.2.6-1``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-2``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3-2``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``
 
       
       .. raw:: html
@@ -43,14 +46,13 @@ ngmlr
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
