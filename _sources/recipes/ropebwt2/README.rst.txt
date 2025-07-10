@@ -10,10 +10,10 @@ ropebwt2
    :replaces_section_title:
    :noindex:
 
-   Incremental construction of FM\-index for DNA sequences
+   Incremental construction of FM\-index for DNA sequences.
 
    :homepage: https://github.com/lh3/ropebwt2
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`ropebwt2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ropebwt2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ropebwt2/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ ropebwt2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>r187-10</code>,  <code>r187-9</code>,  <code>r187-8</code>,  <code>r187-7</code>,  <code>r187-6</code>,  <code>r187-5</code>,  <code>r187-4</code>,  <code>r187-3</code>,  <code>r187-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>r187-11</code>,  <code>r187-10</code>,  <code>r187-9</code>,  <code>r187-8</code>,  <code>r187-7</code>,  <code>r187-6</code>,  <code>r187-5</code>,  <code>r187-4</code>,  <code>r187-3</code>,  </span></summary>
       
 
-      ``r187-10``,  ``r187-9``,  ``r187-8``,  ``r187-7``,  ``r187-6``,  ``r187-5``,  ``r187-4``,  ``r187-3``,  ``r187-2``,  ``r187-1``,  ``r187-0``
+      ``r187-11``,  ``r187-10``,  ``r187-9``,  ``r187-8``,  ``r187-7``,  ``r187-6``,  ``r187-5``,  ``r187-4``,  ``r187-3``,  ``r187-2``,  ``r187-1``,  ``r187-0``
 
       
       .. raw:: html
@@ -42,14 +42,13 @@ ropebwt2
    
    :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

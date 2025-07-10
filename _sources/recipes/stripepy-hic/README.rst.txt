@@ -13,7 +13,7 @@ stripepy-hic
    StripePy recognizes architectural stripes in 3C and Hi\-C contact maps using geometric reasoning
 
    :homepage: https://github.com/paulsengroup/StripePy
-   :documentation: https://github.com/paulsengroup/StripePy/blob/main/README.md
+   :documentation: https://stripepy.readthedocs.io/
    
    :license: MIT
    :recipe: /`stripepy-hic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stripepy-hic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stripepy-hic/meta.yaml>`_
@@ -30,7 +30,7 @@ stripepy-hic
       
       
 
-      ``1.1.0-0``,  ``1.0.0-0``,  ``0.0.2-0``
+      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.0.2-0``
 
       
 
@@ -40,6 +40,10 @@ stripepy-hic
    :depends hictkpy: ``>=1.2``
    :depends matplotlib-base: ``>=3.8``
    :depends numpy: ``>=2``
+   :depends opentelemetry-api: ``>=1``
+   :depends opentelemetry-exporter-otlp-proto-http: ``>=1``
+   :depends opentelemetry-sdk: ``>=1``
+   :depends packaging: 
    :depends pandas: ``>=2``
    :depends python: 
    :depends rich: ``>=13.9``
@@ -95,7 +99,7 @@ stripepy-hic
 
     <script>
         var package = "stripepy-hic";
-        var versions = ["1.1.0","1.0.0","0.0.2"];
+        var versions = ["1.1.1","1.1.0","1.0.0","0.0.2"];
     </script>
 
 

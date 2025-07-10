@@ -12,9 +12,12 @@ fmlrc2
 
    A rust implementation of fmlrc with faster run times.
 
-   :homepage: https://github.com/HudsonAlpha/rust-fmlrc
-   :license: MIT OR Apache-2.0
+   :homepage: https://github.com/HudsonAlpha/fmlrc2
+   :documentation: https://github.com/HudsonAlpha/fmlrc2/blob/v0.1.8/README.md
+   
+   :license: MIT / MIT OR Apache-2.0
    :recipe: /`fmlrc2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fmlrc2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fmlrc2/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s12859-018-2051-3`
 
    
 
@@ -27,22 +30,25 @@ fmlrc2
       
       
 
-      ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-2``,  ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.3-0``
+      ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-2``,  ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.3-0``
 
       
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libopenblas: ``>=0.3.20,<1.0a0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends openssl: ``>=1.1.1n,<1.1.2a``
+   :depends libgcc: ``>=13``
+   :depends libopenblas: ``>=0.3.30,<1.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends openssl: ``>=3.5.1,<4.0a0``
    :depends starcode: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -90,7 +96,7 @@ fmlrc2
 
     <script>
         var package = "fmlrc2";
-        var versions = ["0.1.7","0.1.6","0.1.5","0.1.5","0.1.5"];
+        var versions = ["0.1.8","0.1.7","0.1.6","0.1.5","0.1.5"];
     </script>
 
 

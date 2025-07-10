@@ -10,11 +10,14 @@ slivar
    :replaces_section_title:
    :noindex:
 
-   filter\/annotate variants in VCF\/BCF format with simple expressions
+   filter\/annotate variants in VCF\/BCF format with simple expressions.
 
    :homepage: https://github.com/brentp/slivar
-   :license: MIT
+   :documentation: https://github.com/brentp/slivar/blob/v0.3.2/README.md
+   
+   :license: MIT / MIT
    :recipe: /`slivar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/slivar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/slivar/meta.yaml>`_
+   :links: biotools: :biotools:`somalier`, doi: :doi:`10.1186/s13073-020-00761-2`
 
    
 
@@ -28,10 +31,10 @@ slivar
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.3.0-2</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  <code>0.2.9-0</code>,  <code>0.2.8-0</code>,  <code>0.2.7-0</code>,  <code>0.2.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.2-0</code>,  <code>0.3.1-2</code>,  <code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.3.0-2</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  <code>0.2.9-0</code>,  <code>0.2.8-0</code>,  </span></summary>
       
 
-      ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.13-1``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.5-0``
+      ``0.3.2-0``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.13-1``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.5-0``
 
       
       .. raw:: html
@@ -40,13 +43,15 @@ slivar
       
 
    
+   :depends htslib: ``>=1.22,<1.23.0a0``
+   :depends libgcc: ``>=13``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -94,7 +99,7 @@ slivar
 
     <script>
         var package = "slivar";
-        var versions = ["0.3.1","0.3.1","0.3.0","0.3.0","0.3.0"];
+        var versions = ["0.3.2","0.3.1","0.3.1","0.3.1","0.3.0"];
     </script>
 
 

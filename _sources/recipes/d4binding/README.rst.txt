@@ -12,10 +12,12 @@ d4binding
 
    The C\/C\+\+ binding for the D4 file format.
 
-
    :homepage: https://github.com/38/d4-format
+   :documentation: https://github.com/38/d4-format/blob/v0.3.11/README.md
+   
    :license: MIT / MIT
    :recipe: /`d4binding <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/d4binding>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/d4binding/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s43588-021-00085-0`
 
    
 
@@ -28,7 +30,7 @@ d4binding
       
       
 
-      ``0.3.11-2``,  ``0.3.11-1``,  ``0.3.11-0``,  ``0.3.4-0``
+      ``0.3.11-3``,  ``0.3.11-2``,  ``0.3.11-1``,  ``0.3.11-0``,  ``0.3.4-0``
 
       
 
@@ -42,7 +44,7 @@ d4binding
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -90,7 +92,7 @@ d4binding
 
     <script>
         var package = "d4binding";
-        var versions = ["0.3.11","0.3.11","0.3.11","0.3.4"];
+        var versions = ["0.3.11","0.3.11","0.3.11","0.3.11","0.3.4"];
     </script>
 
 

@@ -10,12 +10,12 @@ ebolaseq
    :replaces_section_title:
    :noindex:
 
-   Tool for downloading and analyzing Ebola virus sequences
+   Tool for downloading and analyzing Ebola virus sequences.
 
    :homepage: https://github.com/DaanJansen94/ebolaseq
-   :documentation: https://github.com/DaanJansen94/ebolaseq/blob/master/README.md
+   :documentation: https://github.com/DaanJansen94/ebolaseq/blob/v0.1.4/README.md
    
-   :license: GPL / GPL-3.0-or-later
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`ebolaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ebolaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ebolaseq/meta.yaml>`_
 
    Ebolaseq is a command\-line tool that simplifies the process of analyzing Ebola virus sequences. 
@@ -31,12 +31,12 @@ ebolaseq
       
       
 
-      ``0.1.3-0``
+      ``0.1.4-0``,  ``0.1.3-0``
 
       
 
    
-   :depends biopython: ``>=1.80``
+   :depends biopython: ``>=1.81``
    :depends iqtree: 
    :depends mafft: 
    :depends numpy: ``>=1.20.0``
@@ -92,7 +92,7 @@ ebolaseq
 
     <script>
         var package = "ebolaseq";
-        var versions = ["0.1.3"];
+        var versions = ["0.1.4","0.1.3"];
     </script>
 
 

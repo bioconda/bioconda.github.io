@@ -10,10 +10,10 @@ superintervals
    :replaces_section_title:
    :noindex:
 
-   Rapid interval intersections
+   Rapid interval intersections.
 
    :homepage: https://github.com/kcleal/superintervals
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`superintervals <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/superintervals>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/superintervals/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ superintervals
       
       
 
-      ``0.2.10-1``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.7-0``,  ``0.2.5-0``,  ``0.2.3-0``
+      ``0.3.1-0``,  ``0.2.10-1``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.7-0``,  ``0.2.5-0``,  ``0.2.3-0``
 
       
 
@@ -91,7 +91,7 @@ superintervals
 
     <script>
         var package = "superintervals";
-        var versions = ["0.2.10","0.2.10","0.2.9","0.2.7","0.2.5"];
+        var versions = ["0.3.1","0.2.10","0.2.10","0.2.9","0.2.7"];
     </script>
 
 

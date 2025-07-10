@@ -12,11 +12,10 @@ gtotree
 
    GToTree is a user\-friendly workflow for phylogenomics.
 
-   :homepage: https://github.com/AstrobioMike/GToTree/wiki/what-is-gtotree%3F
-   :documentation: https://github.com/AstrobioMike/GToTree/wiki/
+   :homepage: https://github.com/AstrobioMike/GToTree
+   :documentation: https://github.com/AstrobioMike/GToTree/wiki
    
-   :developer docs: https://github.com/AstrobioMike/GToTree/
-   :license: GPL / GPL3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`gtotree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gtotree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gtotree/meta.yaml>`_
 
    
@@ -41,10 +40,10 @@ gtotree
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.8.15-0</code>,  <code>1.8.14-0</code>,  <code>1.8.13-0</code>,  <code>1.8.12-0</code>,  <code>1.8.11-0</code>,  <code>1.8.10-0</code>,  <code>1.8.9-0</code>,  <code>1.8.8-1</code>,  <code>1.8.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8.16-0</code>,  <code>1.8.15-0</code>,  <code>1.8.14-0</code>,  <code>1.8.13-0</code>,  <code>1.8.12-0</code>,  <code>1.8.11-0</code>,  <code>1.8.10-0</code>,  <code>1.8.9-0</code>,  <code>1.8.8-1</code>,  </span></summary>
       
 
-      ``1.8.15-0``,  ``1.8.14-0``,  ``1.8.13-0``,  ``1.8.12-0``,  ``1.8.11-0``,  ``1.8.10-0``,  ``1.8.9-0``,  ``1.8.8-1``,  ``1.8.8-0``,  ``1.8.7-0``,  ``1.8.6-0``,  ``1.8.5-0``,  ``1.8.4-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.8.1-0``,  ``1.7.10-0``,  ``1.7.08-0``,  ``1.7.07-0``,  ``1.7.06-0``,  ``1.7.05-1``
+      ``1.8.16-0``,  ``1.8.15-0``,  ``1.8.14-0``,  ``1.8.13-0``,  ``1.8.12-0``,  ``1.8.11-0``,  ``1.8.10-0``,  ``1.8.9-0``,  ``1.8.8-1``,  ``1.8.8-0``,  ``1.8.7-0``,  ``1.8.6-0``,  ``1.8.5-0``,  ``1.8.4-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.8.1-0``,  ``1.7.10-0``,  ``1.7.08-0``,  ``1.7.07-0``,  ``1.7.06-0``,  ``1.7.05-1``
 
       
       .. raw:: html
@@ -72,6 +71,7 @@ gtotree
    :depends pyarrow: 
    :depends python: ``3.12.7.*``
    :depends sed: 
+   :depends tar: 
    :depends taxonkit: 
    :depends trimal: 
    :depends veryfasttree: 
@@ -125,7 +125,7 @@ gtotree
 
     <script>
         var package = "gtotree";
-        var versions = ["1.8.15","1.8.14","1.8.13","1.8.12","1.8.11"];
+        var versions = ["1.8.16","1.8.15","1.8.14","1.8.13","1.8.12"];
     </script>
 
 

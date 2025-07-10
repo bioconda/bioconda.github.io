@@ -10,10 +10,10 @@ multitax
    :replaces_section_title:
    :noindex:
 
-   Python package to obtain\, parse and explore biological taxonomies
+   Python package to obtain\, parse and explore biological taxonomies.
 
    :homepage: https://github.com/pirovc/multitax
-   :license: MIT / MIT License
+   :license: MIT / MIT
    :recipe: /`multitax <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/multitax>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/multitax/meta.yaml>`_
 
    MultiTax is a Python package that provides a common and generalized set 
@@ -31,7 +31,7 @@ multitax
       
       
 
-      ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -87,7 +87,7 @@ multitax
 
     <script>
         var package = "multitax";
-        var versions = ["1.3.1","1.3.0","1.2.1","1.2.0","1.1.1"];
+        var versions = ["1.3.2","1.3.1","1.3.0","1.2.1","1.2.0"];
     </script>
 
 

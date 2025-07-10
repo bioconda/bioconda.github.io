@@ -34,7 +34,7 @@ coot-headless
       
       
 
-      ``1.1.17-1``,  ``1.1.17-0``
+      ``1.1.17-2``,  ``1.1.17-1``,  ``1.1.17-0``
 
       
 
@@ -45,7 +45,7 @@ coot-headless
    :depends elfutils: ``>=0.191,<0.192.0a0``
    :depends fontconfig: ``>=2.15.0,<3.0a0``
    :depends fonts-conda-ecosystem: 
-   :depends gemmi: ``>=0.7.1,<1.0a0``
+   :depends gemmi: ``>=0.7.3,<1.0a0``
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libboost: ``>=1.86.0,<1.87.0a0``
    :depends libboost-python: ``>=1.86.0,<1.87.0a0``
@@ -64,7 +64,7 @@ coot-headless
    :depends mmdb2: ``>=2.0.22,<3.0a0``
    :depends numpy: ``>=1.26.4,<2.0a0``
    :depends pixman: ``>=0.46.2,<1.0a0``
-   :depends python: ``>=3.10,<3.11.0a0 *_cpython``
+   :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends rdkit: ``>=2024.9.5,<2025.0a0``
    :depends ssm: ``>=1.4,<2.0a0``
@@ -122,7 +122,7 @@ coot-headless
 
     <script>
         var package = "coot-headless";
-        var versions = ["1.1.17","1.1.17"];
+        var versions = ["1.1.17","1.1.17","1.1.17"];
     </script>
 
 

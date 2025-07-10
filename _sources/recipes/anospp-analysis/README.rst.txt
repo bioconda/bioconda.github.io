@@ -27,23 +27,23 @@ anospp-analysis
       
       
 
-      ``0.3.0-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.1.3-0``
+      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.1.3-0``
 
       
 
    
-   :depends biopython: 
-   :depends blast: 
-   :depends bokeh: 
-   :depends cutadapt: 
+   :depends blast: ``2.14.*``
+   :depends bokeh: ``3.5.2.*``
+   :depends cutadapt: ``4.9.*``
    :depends fasttree: 
-   :depends keras: ``>=2.12``
+   :depends keras: ``2.15.0.*``
    :depends mafft: 
-   :depends numpy: 
-   :depends pandas: 
+   :depends numpy: ``1.26.3.*``
+   :depends pandas: ``2.2.2.*``
    :depends python: ``3.10.*``
-   :depends seaborn: 
-   :depends tensorflow-base: ``>=2.12``
+   :depends scipy: ``1.14.1.*``
+   :depends seaborn: ``0.13.2.*``
+   :depends tensorflow-base: ``2.15.0.*``
    :requirements:
 
    :additional platforms:
@@ -94,7 +94,7 @@ anospp-analysis
 
     <script>
         var package = "anospp-analysis";
-        var versions = ["0.3.0","0.2.1","0.2.1","0.1.3"];
+        var versions = ["0.4.0","0.3.0","0.2.1","0.2.1","0.1.3"];
     </script>
 
 

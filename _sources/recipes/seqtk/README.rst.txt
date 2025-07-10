@@ -10,12 +10,14 @@ seqtk
    :replaces_section_title:
    :noindex:
 
-   Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FASTQ format
+   Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FASTQ format.
 
    :homepage: https://github.com/lh3/seqtk
-   :license: MIT
+   :documentation: https://github.com/lh3/seqtk/blob/v1.5/README.md
+   
+   :license: MIT / MIT
    :recipe: /`seqtk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqtk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqtk/meta.yaml>`_
-   :links: biotools: :biotools:`seqtk`
+   :links: biotools: :biotools:`seqtk`, usegalaxy-eu: :usegalaxy-eu:`seqtk_comp`, usegalaxy-eu: :usegalaxy-eu:`seqtk_cutN`, usegalaxy-eu: :usegalaxy-eu:`seqtk_dropse`, usegalaxy-eu: :usegalaxy-eu:`seqtk_fqchk`, usegalaxy-eu: :usegalaxy-eu:`seqtk_hety`, usegalaxy-eu: :usegalaxy-eu:`seqtk_listhet`, usegalaxy-eu: :usegalaxy-eu:`seqtk_mergefa`, usegalaxy-eu: :usegalaxy-eu:`seqtk_mergepe`, usegalaxy-eu: :usegalaxy-eu:`seqtk_mutfa`, usegalaxy-eu: :usegalaxy-eu:`seqtk_randbase`, usegalaxy-eu: :usegalaxy-eu:`seqtk_sample`, usegalaxy-eu: :usegalaxy-eu:`seqtk_seq`, usegalaxy-eu: :usegalaxy-eu:`seqtk_subseq`, usegalaxy-eu: :usegalaxy-eu:`seqtk_telo`, usegalaxy-eu: :usegalaxy-eu:`seqtk_trimfq`
 
    
 
@@ -29,10 +31,10 @@ seqtk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5-0</code>,  <code>1.4-3</code>,  <code>1.4-2</code>,  <code>1.4-1</code>,  <code>1.4-0</code>,  <code>1.3-6</code>,  <code>1.3-5</code>,  <code>1.3-4</code>,  <code>1.3-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5-1</code>,  <code>1.5-0</code>,  <code>1.4-3</code>,  <code>1.4-2</code>,  <code>1.4-1</code>,  <code>1.4-0</code>,  <code>1.3-6</code>,  <code>1.3-5</code>,  <code>1.3-4</code>,  </span></summary>
       
 
-      ``1.5-0``,  ``1.4-3``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``1.3-6``,  ``1.3-5``,  ``1.3-4``,  ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.2-1``,  ``1.2-0``,  ``r93-0``,  ``r82-1``,  ``r82-0``,  ``r75-0``
+      ``1.5-1``,  ``1.5-0``,  ``1.4-3``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``1.3-6``,  ``1.3-5``,  ``1.3-4``,  ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.2-1``,  ``1.2-0``,  ``r93-0``,  ``r82-1``,  ``r82-0``,  ``r75-0``
 
       
       .. raw:: html
@@ -43,14 +45,13 @@ seqtk
    
    :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -98,7 +99,7 @@ seqtk
 
     <script>
         var package = "seqtk";
-        var versions = ["1.5","1.4","1.4","1.4","1.4"];
+        var versions = ["1.5","1.5","1.4","1.4","1.4"];
     </script>
 
 
