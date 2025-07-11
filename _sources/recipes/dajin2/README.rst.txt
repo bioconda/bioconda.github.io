@@ -10,10 +10,12 @@ dajin2
    :replaces_section_title:
    :noindex:
 
-   One\-step genotyping tools for targeted long\-read sequencing
+   One\-step genotyping tools for targeted long\-read sequencing.
 
    :homepage: https://github.com/akikuno/DAJIN2
-   :license: MIT
+   :documentation: https://github.com/akikuno/DAJIN2/blob/0.7.0/README.md
+   
+   :license: MIT / MIT
    :recipe: /`dajin2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dajin2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dajin2/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ dajin2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.6-0</code>,  <code>0.5.5.1-0</code>,  <code>0.5.5-0</code>,  <code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.0-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.6-0</code>,  <code>0.5.5.1-0</code>,  <code>0.5.5-0</code>,  <code>0.5.4-0</code>,  <code>0.5.3-0</code>,  </span></summary>
       
 
-      ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.6-0``,  ``0.5.5.1-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``
+      ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.6-0``,  ``0.5.5.1-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``
 
       
       .. raw:: html
@@ -51,7 +53,7 @@ dajin2
    :depends pandas: ``>=1.0.0``
    :depends plotly: ``>=5.19.0``
    :depends pysam: ``>=0.21.0``
-   :depends python: ``>=3.8.0,<4.0.0``
+   :depends python: ``>=3.9,<3.13``
    :depends python-kaleido: ``>=0.2.0``
    :depends rapidfuzz: ``>=3.6.0``
    :depends ruptures: ``>=1.1.8``
@@ -109,7 +111,7 @@ dajin2
 
     <script>
         var package = "dajin2";
-        var versions = ["0.6.2","0.6.1","0.6.0","0.5.6","0.5.5.1"];
+        var versions = ["0.7.0","0.6.2","0.6.1","0.6.0","0.5.6"];
     </script>
 
 
