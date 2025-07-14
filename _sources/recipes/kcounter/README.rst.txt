@@ -10,9 +10,9 @@ kcounter
    :replaces_section_title:
    :noindex:
 
-   A simple package for counting DNA k\-mers in Python. Written in Rust.
+   A simple library for counting DNA k\-mers in Python. Written in Rust.
 
-   :homepage: http://apcamargo.github.io/kcounter/
+   :homepage: https://github.com/apcamargo/kcounter
    :license: GPL / GPL-3
    :recipe: /`kcounter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kcounter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kcounter/meta.yaml>`_
 
@@ -28,10 +28,10 @@ kcounter
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.1-7</code>,  <code>0.1.1-6</code>,  <code>0.1.1-5</code>,  <code>0.1.1-4</code>,  <code>0.1.1-2</code>,  <code>0.1.1-1</code>,  <code>0.1.1-0</code>,  <code>0.1.0-2</code>,  <code>0.1.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.1-8</code>,  <code>0.1.1-7</code>,  <code>0.1.1-6</code>,  <code>0.1.1-5</code>,  <code>0.1.1-4</code>,  <code>0.1.1-2</code>,  <code>0.1.1-1</code>,  <code>0.1.1-0</code>,  <code>0.1.0-2</code>,  </span></summary>
       
 
-      ``0.1.1-7``,  ``0.1.1-6``,  ``0.1.1-5``,  ``0.1.1-4``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.1.1-8``,  ``0.1.1-7``,  ``0.1.1-6``,  ``0.1.1-5``,  ``0.1.1-4``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -40,12 +40,17 @@ kcounter
       
 
    
+   :depends __glibc: ``>=2.17,<3.0.a0``
    :depends libgcc: ``>=13``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

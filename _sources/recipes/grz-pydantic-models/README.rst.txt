@@ -26,9 +26,17 @@ grz-pydantic-models
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.1.0-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.1-0</code>,  </span></summary>
+      
 
+      ``2.1.0-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -84,7 +92,7 @@ grz-pydantic-models
 
     <script>
         var package = "grz-pydantic-models";
-        var versions = ["2.0.3","2.0.2","2.0.1","2.0.0","1.5.0"];
+        var versions = ["2.1.0","2.0.3","2.0.2","2.0.1","2.0.0"];
     </script>
 
 

@@ -29,7 +29,7 @@ demultiplexer2
       
       
 
-      ``1.1.5-0``
+      ``1.1.6-0``,  ``1.1.5-0``
 
       
 
@@ -93,7 +93,7 @@ demultiplexer2
 
     <script>
         var package = "demultiplexer2";
-        var versions = ["1.1.5"];
+        var versions = ["1.1.6","1.1.5"];
     </script>
 
 

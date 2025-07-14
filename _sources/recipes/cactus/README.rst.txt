@@ -13,7 +13,7 @@ cactus
    Cactus is a reference\-free whole\-genome multiple alignment program based upon notion of Cactus graphs
 
    :homepage: https://github.com/ComparativeGenomicsToolkit/cactus
-   :license: https://github.com/ComparativeGenomicsToolkit/cactus/blob/master/LICENSE.txt
+   :license: MIT
    :recipe: /`cactus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cactus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cactus/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ cactus
       
       
 
-      ``2019.03.01-1``,  ``2019.03.01-0``,  ``0.0.2019.03.01-5``,  ``0.0.2019.03.01-4``,  ``0.0.2019.03.01-3``,  ``0.0.2019.03.01-2``
+      ``2019.03.01-1``,  ``2019.03.01-0``,  ``2.9.9-0``,  ``0.0.2019.03.01-5``,  ``0.0.2019.03.01-4``,  ``0.0.2019.03.01-3``,  ``0.0.2019.03.01-2``
 
       
 
@@ -101,7 +101,7 @@ cactus
 
     <script>
         var package = "cactus";
-        var versions = ["2019.03.01","2019.03.01","0.0.2019.03.01","0.0.2019.03.01","0.0.2019.03.01"];
+        var versions = ["2019.03.01","2019.03.01","2.9.9","0.0.2019.03.01","0.0.2019.03.01"];
     </script>
 
 

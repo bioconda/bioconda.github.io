@@ -27,7 +27,7 @@ r-floral
       
       
 
-      ``0.4.0-0``
+      ``0.5.0-0``,  ``0.4.0-0``
 
       
 
@@ -100,7 +100,7 @@ r-floral
 
     <script>
         var package = "r-floral";
-        var versions = ["0.4.0"];
+        var versions = ["0.5.0","0.4.0"];
     </script>
 
 

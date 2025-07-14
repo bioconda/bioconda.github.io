@@ -27,19 +27,19 @@ marker-magu
       
       
 
-      ``0.4.0-0``
+      ``0.4.0-1``,  ``0.4.0-0``
 
       
 
    
    :depends bwa-mem2: ``>=2.2.1``
    :depends coreutils: 
-   :depends coverm: ``>=0.6.1``
-   :depends dashing: ``>=1.0``
+   :depends coverm: ``>=0.7.0``
    :depends fastani: ``>=1.3``
    :depends fastp: ``>=0.23.2``
    :depends minimap2: ``>=2.21``
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.8,<3.11``
+   :depends python-dashing: 
    :depends r-base: 
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -96,7 +96,7 @@ marker-magu
 
     <script>
         var package = "marker-magu";
-        var versions = ["0.4.0"];
+        var versions = ["0.4.0","0.4.0"];
     </script>
 
 

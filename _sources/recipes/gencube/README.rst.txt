@@ -27,7 +27,7 @@ gencube
       
       
 
-      ``1.9.0-0``,  ``1.1.0-0``
+      ``1.11.0-0``,  ``1.9.0-0``,  ``1.1.0-0``
 
       
 
@@ -92,7 +92,7 @@ gencube
 
     <script>
         var package = "gencube";
-        var versions = ["1.9.0","1.1.0"];
+        var versions = ["1.11.0","1.9.0","1.1.0"];
     </script>
 
 

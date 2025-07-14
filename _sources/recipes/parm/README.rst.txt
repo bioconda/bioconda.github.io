@@ -10,7 +10,7 @@ parm
    :replaces_section_title:
    :noindex:
 
-   promoter activity regulatory model
+   PARM\: Promoter Activity Regulatory Model
 
    :homepage: https://github.com/vansteensellab/PARM
    :license: https://github.com/vansteensellab/PARM/blob/main/LICENSE
@@ -27,7 +27,7 @@ parm
       
       
 
-      ``0.1.0-0``,  ``0.0.7-0``,  ``0.0.6-2``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``0.1.27-0``,  ``0.1.0-0``,  ``0.0.7-0``,  ``0.0.6-2``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
 
@@ -95,7 +95,7 @@ parm
 
     <script>
         var package = "parm";
-        var versions = ["0.1.0","0.0.7","0.0.6","0.0.6","0.0.5"];
+        var versions = ["0.1.27","0.1.0","0.0.7","0.0.6","0.0.6"];
     </script>
 
 
