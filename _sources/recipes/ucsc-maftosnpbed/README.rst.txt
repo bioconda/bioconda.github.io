@@ -10,13 +10,13 @@ ucsc-maftosnpbed
    :replaces_section_title:
    :noindex:
 
-   finds SNPs in MAF and builds a bed with their functional consequence
+   Finds SNPs in MAF and builds a bed with their functional consequence.
 
-   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe/
-   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/master/README
+   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe
+   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/v482_base/README
    
    :developer docs: https://github.com/ucscGenomeBrowser/kent
-   :license: Varies; see http://genome.ucsc.edu/license
+   :license: Varies; see https://genome.ucsc.edu/license
    :recipe: /`ucsc-maftosnpbed <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-maftosnpbed>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-maftosnpbed/meta.yaml>`_
    :links: biotools: :biotools:`UCSC_Genome_Browser_Utilities`, doi: :doi:`10.1093/bib/bbs038`
 

@@ -42,7 +42,7 @@ arriba
    
    :depends bioconductor-genomicalignments: 
    :depends bioconductor-genomicranges: 
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends htslib: ``>=1.21,<1.22.0a0``
    :depends libgcc: ``>=13``
    :depends liblzma: ``>=5.6.4,<6.0a0``
    :depends libstdcxx: ``>=13``

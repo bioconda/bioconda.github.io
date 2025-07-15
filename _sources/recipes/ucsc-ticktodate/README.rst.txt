@@ -10,13 +10,13 @@ ucsc-ticktodate
    :replaces_section_title:
    :noindex:
 
-   Convert seconds since 1970 to time and date
+   Convert seconds since 1970 to time and date.
 
-   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe/
-   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/master/README
+   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe
+   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/v482_base/README
    
    :developer docs: https://github.com/ucscGenomeBrowser/kent
-   :license: Varies; see http://genome.ucsc.edu/license
+   :license: Varies; see https://genome.ucsc.edu/license
    :recipe: /`ucsc-ticktodate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-ticktodate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-ticktodate/meta.yaml>`_
    :links: biotools: :biotools:`UCSC_Genome_Browser_Utilities`, doi: :doi:`10.1093/bib/bbs038`
 
@@ -60,7 +60,7 @@ ucsc-ticktodate
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

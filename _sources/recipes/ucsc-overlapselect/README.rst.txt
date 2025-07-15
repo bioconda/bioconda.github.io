@@ -10,13 +10,13 @@ ucsc-overlapselect
    :replaces_section_title:
    :noindex:
 
-    Select records based on overlapping chromosome ranges.  The ranges are specified in the selectFile\, with each block specifying a range. Records are copied from the inFile to outFile based on the selection criteria.  Selection is based on blocks or exons rather than entire range. 
+   Select records based on overlapping chromosome ranges.  The ranges are specified in the selectFile\, with each block specifying a range. Records are copied from the inFile to outFile based on the selection criteria.  Selection is based on blocks or exons rather than entire range.
 
-   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe/
-   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/master/README
+   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe
+   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/v482_base/README
    
    :developer docs: https://github.com/ucscGenomeBrowser/kent
-   :license: Varies; see http://genome.ucsc.edu/license
+   :license: Varies; see https://genome.ucsc.edu/license
    :recipe: /`ucsc-overlapselect <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-overlapselect>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-overlapselect/meta.yaml>`_
    :links: biotools: :biotools:`UCSC_Genome_Browser_Utilities`, doi: :doi:`10.1093/bib/bbs038`
 

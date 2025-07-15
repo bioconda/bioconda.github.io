@@ -27,7 +27,7 @@ bioconductor-alabaster.base
       
       
 
-      ``1.6.0-0``,  ``1.2.1-0``,  ``1.0.0-0``
+      ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.1-0``,  ``1.0.0-0``
 
       
 
@@ -98,7 +98,7 @@ bioconductor-alabaster.base
 
     <script>
         var package = "bioconductor-alabaster.base";
-        var versions = ["1.6.0","1.2.1","1.0.0"];
+        var versions = ["1.6.0","1.6.0","1.2.1","1.0.0"];
     </script>
 
 

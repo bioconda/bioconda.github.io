@@ -41,7 +41,7 @@ wfmash
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends htslib: ``>=1.21,<1.22.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc: ``>=13``
    :depends libjemalloc: ``>=5.3.0``

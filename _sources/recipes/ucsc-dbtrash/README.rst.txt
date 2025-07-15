@@ -10,13 +10,13 @@ ucsc-dbtrash
    :replaces_section_title:
    :noindex:
 
-   drop tables from a database older than specified N hours
+   Drop tables from a database older than specified N hours.
 
-   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe/
-   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/master/README
+   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe
+   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/v482_base/README
    
    :developer docs: https://github.com/ucscGenomeBrowser/kent
-   :license: Varies; see http://genome.ucsc.edu/license
+   :license: Varies; see https://genome.ucsc.edu/license
    :recipe: /`ucsc-dbtrash <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-dbtrash>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-dbtrash/meta.yaml>`_
    :links: biotools: :biotools:`UCSC_Genome_Browser_Utilities`, doi: :doi:`10.1093/bib/bbs038`
 

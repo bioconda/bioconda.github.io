@@ -36,7 +36,6 @@ perl-bio-samtools
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-bioperl-core: ``1.7.8.*``
-   :depends perl-module-build: ``0.4234.*``
    :depends samtools: ``>=0.1.19,<1.0a0``
    :depends zlib: 
    :requirements:

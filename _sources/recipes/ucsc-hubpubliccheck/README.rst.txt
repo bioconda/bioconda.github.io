@@ -10,13 +10,13 @@ ucsc-hubpubliccheck
    :replaces_section_title:
    :noindex:
 
-   checks that the labels in hubPublic match what is in the hub labels
+   Checks that the labels in hubPublic match what is in the hub labels.
 
-   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe/
-   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/master/README
+   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe
+   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/v482_base/README
    
    :developer docs: https://github.com/ucscGenomeBrowser/kent
-   :license: Varies; see http://genome.ucsc.edu/license
+   :license: Varies; see https://genome.ucsc.edu/license
    :recipe: /`ucsc-hubpubliccheck <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-hubpubliccheck>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-hubpubliccheck/meta.yaml>`_
    :links: biotools: :biotools:`UCSC_Genome_Browser_Utilities`, doi: :doi:`10.1093/bib/bbs038`
 

@@ -10,13 +10,13 @@ ucsc-hgspeciesrna
    :replaces_section_title:
    :noindex:
 
-   Create fasta file with RNA from one species
+   Create fasta file with RNA from one species.
 
-   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe/
-   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/master/README
+   :homepage: https://hgdownload.cse.ucsc.edu/admin/exe
+   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/v482_base/README
    
    :developer docs: https://github.com/ucscGenomeBrowser/kent
-   :license: Varies; see http://genome.ucsc.edu/license
+   :license: Varies; see https://genome.ucsc.edu/license
    :recipe: /`ucsc-hgspeciesrna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-hgspeciesrna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-hgspeciesrna/meta.yaml>`_
    :links: biotools: :biotools:`UCSC_Genome_Browser_Utilities`, doi: :doi:`10.1093/bib/bbs038`
 
@@ -32,10 +32,10 @@ ucsc-hgspeciesrna
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>482-0</code>,  <code>469-1</code>,  <code>469-0</code>,  <code>377-3</code>,  <code>377-2</code>,  <code>377-1</code>,  <code>377-0</code>,  <code>366-0</code>,  <code>357-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>482-1</code>,  <code>482-0</code>,  <code>469-1</code>,  <code>469-0</code>,  <code>377-3</code>,  <code>377-2</code>,  <code>377-1</code>,  <code>377-0</code>,  <code>366-0</code>,  </span></summary>
       
 
-      ``482-0``,  ``469-1``,  ``469-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-2``,  ``357-1``,  ``357-0``
+      ``482-1``,  ``482-0``,  ``469-1``,  ``469-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-2``,  ``357-1``,  ``357-0``
 
       
       .. raw:: html
@@ -49,7 +49,7 @@ ucsc-hgspeciesrna
    :depends libiconv: ``>=1.18,<2.0a0``
    :depends liblzma: ``>=5.8.1,<6.0a0``
    :depends libopenssl-static: 
-   :depends libpng: ``>=1.6.49,<1.7.0a0``
+   :depends libpng: ``>=1.6.50,<1.7.0a0``
    :depends libstdcxx: ``>=13``
    :depends libuuid: ``>=2.38.1,<3.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
@@ -104,7 +104,7 @@ ucsc-hgspeciesrna
 
     <script>
         var package = "ucsc-hgspeciesrna";
-        var versions = ["482","469","469","377","377"];
+        var versions = ["482","482","469","469","377"];
     </script>
 
 

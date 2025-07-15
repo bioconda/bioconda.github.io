@@ -27,7 +27,7 @@ csubst
       
       
 
-      ``1.4.0-1``,  ``1.4.0-0``
+      ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
 
       
 
@@ -51,6 +51,10 @@ csubst
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -98,7 +102,7 @@ csubst
 
     <script>
         var package = "csubst";
-        var versions = ["1.4.0","1.4.0"];
+        var versions = ["1.4.0","1.4.0","1.4.0"];
     </script>
 
 
