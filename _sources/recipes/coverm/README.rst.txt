@@ -10,13 +10,16 @@ coverm
    :replaces_section_title:
    :noindex:
 
-   CoverM
+   CoverM aims to be a configurable\, easy to use and fast DNA read coverage and relative abundance calculator focused on metagenomics applications.
 
    :homepage: https://github.com/wwood/CoverM
-   :license: GPL3 / GPL3
+   :documentation: https://github.com/wwood/CoverM/blob/v0.7.0/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`coverm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/coverm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/coverm/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btaf147`, biotools: :biotools:`coverm`, usegalaxy-eu: :usegalaxy-eu:`coverm_contig`, usegalaxy-eu: :usegalaxy-eu:`coverm_genome`
 
-   CoverM aims to be a configurable\, easy to use and fast DNA read coverage and relative abundance calculator focused on metagenomics application
+   CoverM aims to be a configurable\, easy to use and fast DNA read coverage and relative abundance calculator focused on metagenomics application.
 
 
 .. conda:package:: coverm
@@ -28,10 +31,10 @@ coverm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.0-3</code>,  <code>0.7.0-2</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.1-6</code>,  <code>0.6.1-5</code>,  <code>0.6.1-4</code>,  <code>0.6.1-3</code>,  <code>0.6.1-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.0-4</code>,  <code>0.7.0-3</code>,  <code>0.7.0-2</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.1-6</code>,  <code>0.6.1-5</code>,  <code>0.6.1-4</code>,  <code>0.6.1-3</code>,  </span></summary>
       
 
-      ``0.7.0-3``,  ``0.7.0-2``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.1-6``,  ``0.6.1-5``,  ``0.6.1-4``,  ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0.alpha7-0``
+      ``0.7.0-4``,  ``0.7.0-3``,  ``0.7.0-2``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.1-6``,  ``0.6.1-5``,  ``0.6.1-4``,  ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0.alpha7-0``
 
       
       .. raw:: html
@@ -52,14 +55,13 @@ coverm
    :depends samtools: ``>=1.9``
    :depends starcode: 
    :depends strobealign: ``>=0.11.0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -107,7 +109,7 @@ coverm
 
     <script>
         var package = "coverm";
-        var versions = ["0.7.0","0.7.0","0.7.0","0.7.0","0.6.1"];
+        var versions = ["0.7.0","0.7.0","0.7.0","0.7.0","0.7.0"];
     </script>
 
 

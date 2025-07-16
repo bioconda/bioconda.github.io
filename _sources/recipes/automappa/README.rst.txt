@@ -10,12 +10,12 @@ automappa
    :replaces_section_title:
    :noindex:
 
-   Automappa\: An interactive interface for exploration of metagenomes
+   Automappa\: An interactive interface for exploration of metagenomes.
 
    :homepage: https://github.com/WiscEvan/Automappa
    :documentation: https://github.com/WiscEvan/Automappa/README.md
    
-   :license: AGPL / AGPL-3.0
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`automappa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/automappa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/automappa/meta.yaml>`_
 
    An interactive interface for exploration and refinment of metagenomes into metagenome\-assembled genomes.
@@ -30,22 +30,30 @@ automappa
       
       
 
-      ``2.1.0-0``
+      ``2.2.1-0``,  ``2.1.0-0``
 
       
 
    
    :depends autometa: 
-   :depends dash: 
+   :depends dash: ``>=2.13``
+   :depends dash-ag-grid: ``>=2.2``
    :depends dash-bootstrap-components: 
-   :depends dash-daq: 
-   :depends dash-extensions: 
+   :depends dash-extensions: ``1.*``
+   :depends dash-iconify: 
+   :depends dash-mantine-components: ``0.12.1``
+   :depends dash_cytoscape: ``0.2.0``
    :depends flask: 
    :depends msgpack-python: 
    :depends numpy: 
    :depends pandas: 
    :depends plotly: 
-   :depends python: ``>=3.7``
+   :depends psycopg2: 
+   :depends pydantic: ``<2``
+   :depends python: ``>=3.9``
+   :depends python-dotenv: 
+   :depends sqlalchemy: ``<2``
+   :depends sqlmodel: 
    :requirements:
 
    :additional platforms:
@@ -96,7 +104,7 @@ automappa
 
     <script>
         var package = "automappa";
-        var versions = ["2.1.0"];
+        var versions = ["2.2.1","2.1.0"];
     </script>
 
 

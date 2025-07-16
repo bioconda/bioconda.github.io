@@ -10,12 +10,15 @@ gffcompare
    :replaces_section_title:
    :noindex:
 
-   GffCompare by Geo Pertea
+   GffCompare by Geo Pertea.
 
    :homepage: https://ccb.jhu.edu/software/stringtie/gffcompare.shtml
+   :documentation: https://github.com/gpertea/gffcompare/blob/v0.12.10/README.md
+   
+   :developer docs: https://github.com/gpertea/gffcompare
    :license: Artistic License 2.0
    :recipe: /`gffcompare <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gffcompare>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gffcompare/meta.yaml>`_
-   :links: biotools: :biotools:`gffcompare`
+   :links: biotools: :biotools:`gffcompare`, usegalaxy-eu: :usegalaxy-eu:`gffcompare`
 
    
 
@@ -29,10 +32,10 @@ gffcompare
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.12.9-0</code>,  <code>0.12.6-4</code>,  <code>0.12.6-3</code>,  <code>0.12.6-2</code>,  <code>0.12.6-1</code>,  <code>0.12.6-0</code>,  <code>0.11.2-3</code>,  <code>0.11.2-2</code>,  <code>0.11.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.12.10-0</code>,  <code>0.12.9-0</code>,  <code>0.12.6-4</code>,  <code>0.12.6-3</code>,  <code>0.12.6-2</code>,  <code>0.12.6-1</code>,  <code>0.12.6-0</code>,  <code>0.11.2-3</code>,  <code>0.11.2-2</code>,  </span></summary>
       
 
-      ``0.12.9-0``,  ``0.12.6-4``,  ``0.12.6-3``,  ``0.12.6-2``,  ``0.12.6-1``,  ``0.12.6-0``,  ``0.11.2-3``,  ``0.11.2-2``,  ``0.11.2-1``,  ``0.11.2-0``,  ``0.10.6-0``,  ``0.9.8-0``
+      ``0.12.10-0``,  ``0.12.9-0``,  ``0.12.6-4``,  ``0.12.6-3``,  ``0.12.6-2``,  ``0.12.6-1``,  ``0.12.6-0``,  ``0.11.2-3``,  ``0.11.2-2``,  ``0.11.2-1``,  ``0.11.2-0``,  ``0.10.6-0``,  ``0.9.8-0``
 
       
       .. raw:: html
@@ -97,7 +100,7 @@ gffcompare
 
     <script>
         var package = "gffcompare";
-        var versions = ["0.12.9","0.12.6","0.12.6","0.12.6","0.12.6"];
+        var versions = ["0.12.10","0.12.9","0.12.6","0.12.6","0.12.6"];
     </script>
 
 

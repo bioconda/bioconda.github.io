@@ -10,10 +10,10 @@ anospp-analysis
    :replaces_section_title:
    :noindex:
 
-   ANOSPP data analysis
+   ANOSPP data analysis.
 
-   :homepage: https://pypi.org/project/anospp-analysis/
-   :license: MIT
+   :homepage: https://pypi.org/project/anospp-analysis
+   :license: MIT / MIT
    :recipe: /`anospp-analysis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/anospp-analysis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/anospp-analysis/meta.yaml>`_
 
    
@@ -27,23 +27,24 @@ anospp-analysis
       
       
 
-      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.1.3-0``
+      ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.1.3-0``
 
       
 
    
-   :depends blast: ``2.14.*``
-   :depends bokeh: ``3.5.2.*``
-   :depends cutadapt: ``4.9.*``
+   :depends blast: ``2.16``
+   :depends bokeh: 
+   :depends cutadapt: 
    :depends fasttree: 
-   :depends keras: ``2.15.0.*``
+   :depends keras: ``2.15.0``
    :depends mafft: 
-   :depends numpy: ``1.26.3.*``
-   :depends pandas: ``2.2.2.*``
-   :depends python: ``3.10.*``
-   :depends scipy: ``1.14.1.*``
-   :depends seaborn: ``0.13.2.*``
-   :depends tensorflow-base: ``2.15.0.*``
+   :depends numpy: 
+   :depends pandas: 
+   :depends pyarrow: 
+   :depends python: ``>=3.10,<3.11``
+   :depends scipy: 
+   :depends seaborn-base: 
+   :depends tensorflow-base: ``2.15.0``
    :requirements:
 
    :additional platforms:
@@ -94,7 +95,7 @@ anospp-analysis
 
     <script>
         var package = "anospp-analysis";
-        var versions = ["0.4.0","0.3.0","0.2.1","0.2.1","0.1.3"];
+        var versions = ["0.4.0","0.4.0","0.3.0","0.2.1","0.2.1"];
     </script>
 
 

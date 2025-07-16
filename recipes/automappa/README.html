@@ -67,7 +67,7 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">automappa</span></span></dt>
-<dd><p>Automappa: An interactive interface for exploration of metagenomes</p>
+<dd><p>Automappa: An interactive interface for exploration of metagenomes.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/WiscEvan/Automappa">https://github.com/WiscEvan/Automappa</a></p>
@@ -76,7 +76,7 @@
 <dd class="field-even"><p><a class="reference external" href="https://github.com/WiscEvan/Automappa/README.md">https://github.com/WiscEvan/Automappa/README.md</a></p>
 </dd>
 <dt class="field-odd">License<span class="colon">:</span></dt>
-<dd class="field-odd"><p>AGPL / AGPL-3.0</p>
+<dd class="field-odd"><p>AGPL / AGPL-3.0-or-later</p>
 </dd>
 <dt class="field-even">Recipe<span class="colon">:</span></dt>
 <dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/automappa">automappa</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/automappa/meta.yaml">meta.yaml</a></p>
@@ -92,31 +92,54 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/automappa"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/automappa.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/automappa"><img alt="docker_automappa" src="https://quay.io/repository/biocontainers/automappa/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.1.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.2.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.1.0-0</span></code></p>
 </dd>
 <dt class="field-even">depends autometa<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends dash<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends dash-bootstrap-components<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends dash-daq<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.13</span></code></p>
+</dd>
+<dt class="field-even">depends dash-ag-grid<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.2</span></code></p>
+</dd>
+<dt class="field-odd">depends dash-bootstrap-components<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends dash-extensions<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends flask<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends msgpack-python<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends numpy<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends pandas<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends plotly<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends python<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.7</span></code></p>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">1.*</span></code></p>
 </dd>
+<dt class="field-odd">depends dash-iconify<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends dash-mantine-components<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">0.12.1</span></code></p>
+</dd>
+<dt class="field-odd">depends dash_cytoscape<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.2.0</span></code></p>
+</dd>
+<dt class="field-even">depends flask<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends msgpack-python<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends numpy<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends pandas<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends plotly<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends psycopg2<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends pydantic<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&lt;2</span></code></p>
+</dd>
+<dt class="field-odd">depends python<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.9</span></code></p>
+</dd>
+<dt class="field-even">depends python-dotenv<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends sqlalchemy<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&lt;2</span></code></p>
+</dd>
+<dt class="field-even">depends sqlmodel<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
 <dt class="field-odd">requirements<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">additional platforms<span class="colon">:</span></dt>
@@ -155,7 +178,7 @@ others.</p>
 
 <script>
     var package = "automappa";
-    var versions = ["2.1.0"];
+    var versions = ["2.2.1","2.1.0"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

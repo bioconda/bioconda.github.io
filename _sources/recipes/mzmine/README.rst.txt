@@ -10,11 +10,14 @@ mzmine
    :replaces_section_title:
    :noindex:
 
-   Integrative analysis of multimodal mass spectrometry data
+   Integrative analysis of multimodal mass spectrometry data.
 
-   :homepage: http://mzmine.github.io/
-   :license: MIT
+   :homepage: https://github.com/mzmine/mzmine
+   :documentation: https://mzmine.github.io/mzmine_documentation
+   
+   :license: MIT / MIT
    :recipe: /`mzmine <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mzmine>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mzmine/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`mzmine_batch`, biotools: :biotools:`mzmine`
 
    MZmine 3 is an open\-source and platform\-independent software for mass
    spectrometry \(MS\) data processing and visualization. It enables large\-scale
@@ -32,12 +35,12 @@ mzmine
       
       
 
-      ``3.9.0-0``,  ``3.6.0-0``
+      ``4.7.8-0``,  ``3.9.0-0``,  ``3.6.0-0``
 
       
 
    
-   :depends openjdk: ``20.*``
+   :depends openjdk: ``>=23``
    :depends pango: 
    :requirements:
 
@@ -89,7 +92,7 @@ mzmine
 
     <script>
         var package = "mzmine";
-        var versions = ["3.9.0","3.6.0"];
+        var versions = ["4.7.8","3.9.0","3.6.0"];
     </script>
 
 

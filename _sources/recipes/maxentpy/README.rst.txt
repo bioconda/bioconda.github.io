@@ -13,7 +13,7 @@ maxentpy
    maxentpy is a python wrapper for MaxEntScan to calculate splice site strength.
 
    :homepage: https://github.com/kepbod/maxentpy
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`maxentpy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/maxentpy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/maxentpy/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ maxentpy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.02-1</code>,  <code>0.02-0</code>,  <code>0.0.3-2</code>,  <code>0.0.3-1</code>,  <code>0.0.3-0</code>,  <code>0.0.1-5</code>,  <code>0.0.1-4</code>,  <code>0.0.1-3</code>,  <code>0.0.1-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.02-1</code>,  <code>0.02-0</code>,  <code>0.0.3-4</code>,  <code>0.0.3-2</code>,  <code>0.0.3-1</code>,  <code>0.0.3-0</code>,  <code>0.0.1-5</code>,  <code>0.0.1-4</code>,  <code>0.0.1-3</code>,  </span></summary>
       
 
-      ``0.02-1``,  ``0.02-0``,  ``0.0.3-2``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.1-5``,  ``0.0.1-4``,  ``0.0.1-3``,  ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
+      ``0.02-1``,  ``0.02-0``,  ``0.0.3-4``,  ``0.0.3-2``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.1-5``,  ``0.0.1-4``,  ``0.0.1-3``,  ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -47,6 +47,10 @@ maxentpy
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

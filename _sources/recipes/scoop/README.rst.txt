@@ -10,10 +10,12 @@ scoop
    :replaces_section_title:
    :noindex:
 
-   Scalable COncurrent Operations in Python
+   Scalable COncurrent Operations in Python.
 
-   :homepage: http://github.com/soravux/scoop
-   :license: GNU Library or Lesser General Public License (LGPL)
+   :homepage: https://github.com/soravux/scoop
+   :documentation: https://scoop.readthedocs.io
+   
+   :license: LGPL / LGPL-3.0-only
    :recipe: /`scoop <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scoop>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scoop/meta.yaml>`_
 
    
@@ -27,13 +29,14 @@ scoop
       
       
 
-      ``0.7.1.1-4``,  ``0.7.1.1-3``,  ``0.7.1.1-2``,  ``0.7.1.1-1``,  ``0.7.1.1-0``
+      ``0.7.2.0-0``,  ``0.7.1.1-4``,  ``0.7.1.1-3``,  ``0.7.1.1-2``,  ``0.7.1.1-1``,  ``0.7.1.1-0``
 
       
 
    
    :depends greenlet: ``>=0.3.4``
-   :depends python: 
+   :depends psutil: 
+   :depends python: ``>=3``
    :depends pyzmq: ``>=13.1.0``
    :requirements:
 
@@ -85,7 +88,7 @@ scoop
 
     <script>
         var package = "scoop";
-        var versions = ["0.7.1.1","0.7.1.1","0.7.1.1","0.7.1.1","0.7.1.1"];
+        var versions = ["0.7.2.0","0.7.1.1","0.7.1.1","0.7.1.1","0.7.1.1"];
     </script>
 
 

@@ -10,10 +10,10 @@ aci
    :replaces_section_title:
    :noindex:
 
-   Visualizes coverage for amplicons
+   Visualizes coverage for amplicons.
 
    :homepage: https://github.com/erinyoung/ACI
-   :documentation: https://github.com/erinyoung/ACI/blob/main/README.md
+   :documentation: https://github.com/erinyoung/ACI/blob/1.15.250702/README.md
    
    :license: MIT / MIT
    :recipe: /`aci <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aci>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aci/meta.yaml>`_
@@ -29,11 +29,12 @@ aci
       
       
 
-      ``1.4.20240116-0``,  ``1.2.20231229-0``
+      ``1.15.250702-0``,  ``1.4.20240116-0``,  ``1.2.20231229-0``
 
       
 
    
+   :depends intervaltree: 
    :depends matplotlib-base: ``>=3.8.2``
    :depends numpy: ``>=1.26.2``
    :depends pandas: ``>=2.1.4``
@@ -89,7 +90,7 @@ aci
 
     <script>
         var package = "aci";
-        var versions = ["1.4.20240116","1.2.20231229"];
+        var versions = ["1.15.250702","1.4.20240116","1.2.20231229"];
     </script>
 
 

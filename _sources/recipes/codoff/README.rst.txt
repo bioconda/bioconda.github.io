@@ -13,7 +13,9 @@ codoff
    codoff\: program to measure the irregularity of the codon usage for a single genomic region \(e.g. a BGC\, phage\, etc.\) relative to the full genome.
 
    :homepage: https://github.com/Kalan-Lab/codoff
-   :license: BSD / BSD-3-Clause license
+   :documentation: https://github.com/Kalan-Lab/codoff/blob/v1.2.1/README.md
+   
+   :license: BSD / BSD-3-Clause
    :recipe: /`codoff <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/codoff>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/codoff/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ codoff
       
       
 
-      ``1.2.0-0``,  ``1.1.8-0``,  ``1.1.5-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.8-0``,  ``1.1.5-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -37,7 +39,7 @@ codoff
    :depends pyrodigal: 
    :depends python: ``>=3.10``
    :depends scipy: 
-   :depends seaborn: 
+   :depends seaborn-base: 
    :depends setuptools: 
    :depends tqdm: 
    :requirements:
@@ -90,7 +92,7 @@ codoff
 
     <script>
         var package = "codoff";
-        var versions = ["1.2.0","1.1.8","1.1.5","1.1.0","1.1.0"];
+        var versions = ["1.2.1","1.2.0","1.1.8","1.1.5","1.1.0"];
     </script>
 
 

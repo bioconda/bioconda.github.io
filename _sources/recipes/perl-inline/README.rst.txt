@@ -10,10 +10,10 @@ perl-inline
    :replaces_section_title:
    :noindex:
 
-   Write Perl Subroutines in Other Programming Languages
+   Write Perl Subroutines in Other Programming Languages.
 
    :homepage: https://github.com/ingydotnet/inline-pm
-   :license: perl_5
+   :license: Perl_5
    :recipe: /`perl-inline <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-inline>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-inline/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-inline
       
       
 
-      ``0.86-0``,  ``0.83-1``,  ``0.83-0``,  ``0.82-0``,  ``0.80-3``,  ``0.80-2``,  ``0.80-1``,  ``0.80-0``
+      ``0.87-0``,  ``0.86-0``,  ``0.83-1``,  ``0.83-0``,  ``0.82-0``,  ``0.80-3``,  ``0.80-2``,  ``0.80-1``,  ``0.80-0``
 
       
 
@@ -84,7 +84,7 @@ perl-inline
 
     <script>
         var package = "perl-inline";
-        var versions = ["0.86","0.83","0.83","0.82","0.80"];
+        var versions = ["0.87","0.86","0.83","0.83","0.82"];
     </script>
 
 

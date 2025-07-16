@@ -41,6 +41,7 @@ smudgeplot
 
    
    :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends numpy: 
    :depends pandas: 
    :depends python: ``>=3.10,<3.11.0a0``
@@ -49,7 +50,7 @@ smudgeplot
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-viridis: 
    :depends scipy: 
-   :depends xorg-libxrender: ``>=0.9.11,<0.10.0a0``
+   :depends xorg-libxrender: ``>=0.9.12,<0.10.0a0``
    :requirements:
 
    :additional platforms:

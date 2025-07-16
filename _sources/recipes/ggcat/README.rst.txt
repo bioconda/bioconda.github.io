@@ -12,8 +12,9 @@ ggcat
 
    Compacted and colored de Bruijn graph construction and querying.
 
-
    :homepage: https://github.com/algbio/ggcat
+   :documentation: https://github.com/algbio/ggcat/blob/v2.0.0/README.md
+   
    :license: MIT / MIT
    :recipe: /`ggcat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ggcat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ggcat/meta.yaml>`_
    :links: doi: :doi:`10.1101/gr.277615.122`
@@ -29,7 +30,7 @@ ggcat
       
       
 
-      ``1.1.0-1``,  ``1.1.0-0``
+      ``2.0.0-0``,  ``1.1.0-1``,  ``1.1.0-0``
 
       
 
@@ -90,7 +91,7 @@ ggcat
 
     <script>
         var package = "ggcat";
-        var versions = ["1.1.0","1.1.0"];
+        var versions = ["2.0.0","1.1.0","1.1.0"];
     </script>
 
 

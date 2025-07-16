@@ -13,8 +13,11 @@ biocommons.seqrepo
    Python package for writing and reading a local collection of biological sequences.
 
    :homepage: https://github.com/biocommons/biocommons.seqrepo
+   :documentation: https://github.com/biocommons/biocommons.seqrepo/blob/0.6.11/README.md
+   
    :license: APACHE / Apache-2.0
    :recipe: /`biocommons.seqrepo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biocommons.seqrepo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biocommons.seqrepo/meta.yaml>`_
+   :links: doi: :doi:`10.1371/journal.pone.0239883`
 
    
 
@@ -27,7 +30,7 @@ biocommons.seqrepo
       
       
 
-      ``0.6.9-0``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``
+      ``0.6.11-0``,  ``0.6.9-0``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``
 
       
 
@@ -36,11 +39,11 @@ biocommons.seqrepo
    :depends coloredlogs: 
    :depends ipython: 
    :depends pysam: 
-   :depends python: ``>=3.9``
+   :depends python: ``>=3.10``
    :depends requests: 
    :depends requests-html: 
-   :depends six: 
    :depends tqdm: 
+   :depends typing-extensions: 
    :depends yoyo-migrations: 
    :requirements:
 
@@ -92,7 +95,7 @@ biocommons.seqrepo
 
     <script>
         var package = "biocommons.seqrepo";
-        var versions = ["0.6.9","0.6.7","0.6.6","0.6.5","0.6.4"];
+        var versions = ["0.6.11","0.6.9","0.6.7","0.6.6","0.6.5"];
     </script>
 
 

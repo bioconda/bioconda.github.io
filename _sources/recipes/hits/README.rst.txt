@@ -13,6 +13,8 @@ hits
    Utilities for processing high\-throughput sequencing experiments.
 
    :homepage: https://github.com/jeffhussmann/hits
+   :documentation: https://github.com/jeffhussmann/hits/blob/v0.4.5/README.md
+   
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`hits <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hits>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hits/meta.yaml>`_
 
@@ -28,10 +30,10 @@ hits
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.3-1</code>,  <code>0.4.3-0</code>,  <code>0.4.2-1</code>,  <code>0.4.2-0</code>,  <code>0.4.0-2</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.3-1</code>,  <code>0.3.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.5-0</code>,  <code>0.4.3-1</code>,  <code>0.4.3-0</code>,  <code>0.4.2-1</code>,  <code>0.4.2-0</code>,  <code>0.4.0-2</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.3-1</code>,  </span></summary>
       
 
-      ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``,  ``0.0.7-0``
+      ``0.4.5-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``,  ``0.0.7-0``
 
       
       .. raw:: html
@@ -41,7 +43,7 @@ hits
 
    
    :depends biopython: ``>=1.72``
-   :depends bokeh: ``>=2.4.2``
+   :depends bokeh: ``>=3.2``
    :depends ipython: ``>=7.8.0``
    :depends ipywidgets: ``>=7.4.2``
    :depends libgcc: ``>=13``
@@ -53,6 +55,7 @@ hits
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends pyyaml: ``>=3.13``
+   :depends s3fs: 
    :depends scipy: ``>=1.2.1``
    :depends seaborn-base: ``>=0.11.0``
    :depends statsmodels: ``>=0.12.1``
@@ -110,7 +113,7 @@ hits
 
     <script>
         var package = "hits";
-        var versions = ["0.4.3","0.4.3","0.4.2","0.4.2","0.4.0"];
+        var versions = ["0.4.5","0.4.3","0.4.3","0.4.2","0.4.2"];
     </script>
 
 

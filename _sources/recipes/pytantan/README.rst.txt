@@ -29,7 +29,7 @@ pytantan
       
       
 
-      ``0.1.3-0``
+      ``0.1.3-1``,  ``0.1.3-0``
 
       
 
@@ -40,8 +40,8 @@ pytantan
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends scoring-matrices: ``>=0.3.0``
-   :depends scoring-matrices: ``>=0.3.0,<0.4.0a0``
+   :depends scoring-matrices: ``>=0.3.2``
+   :depends scoring-matrices: ``>=0.3.2,<0.4.0a0``
    :requirements:
 
    :additional platforms:
@@ -96,7 +96,7 @@ pytantan
 
     <script>
         var package = "pytantan";
-        var versions = ["0.1.3"];
+        var versions = ["0.1.3","0.1.3"];
     </script>
 
 

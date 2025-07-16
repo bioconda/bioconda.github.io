@@ -10,10 +10,12 @@ hgtools
    :replaces_section_title:
    :noindex:
 
-   Classes and setuptools plugin for Mercurial and Git repositories
+   Classes for Mercurial and Git repositories.
 
    :homepage: https://github.com/jaraco/hgtools
-   :license: GNU General Public License (GPL)
+   :documentation: https://github.com/jaraco/jaraco.vcs/blob/main/README.rst
+   
+   :license: MIT / MIT
    :recipe: /`hgtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hgtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hgtools/meta.yaml>`_
 
    
@@ -27,13 +29,17 @@ hgtools
       
       
 
-      ``8.2.1-0``,  ``8.2.0-0``,  ``8.1.1-2``,  ``8.1.1-1``,  ``8.1.1-0``,  ``6.5.1-2``,  ``6.5.1-0``
+      ``10.1.0-0``,  ``8.2.1-0``,  ``8.2.0-0``,  ``8.1.1-2``,  ``8.1.1-1``,  ``8.1.1-0``,  ``6.5.1-2``,  ``6.5.1-0``
 
       
 
    
-   :depends backports.unittest_mock: 
-   :depends python: ``>=3.6``
+   :depends jaraco.classes: 
+   :depends more-itertools: 
+   :depends packaging: 
+   :depends python: ``>=3.7``
+   :depends python-dateutil: 
+   :depends tempora: 
    :requirements:
 
    :additional platforms:
@@ -84,7 +90,7 @@ hgtools
 
     <script>
         var package = "hgtools";
-        var versions = ["8.2.1","8.2.0","8.1.1","8.1.1","8.1.1"];
+        var versions = ["10.1.0","8.2.1","8.2.0","8.1.1","8.1.1"];
     </script>
 
 

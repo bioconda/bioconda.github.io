@@ -10,10 +10,11 @@ bactopia-py
    :replaces_section_title:
    :noindex:
 
-   A Python package for working with Bactopia
+   A Python package for working with Bactopia.
 
-   :homepage: https://bactopia.github.io/
-   :license: MIT
+   :homepage: https://bactopia.github.io
+   :developer docs: https://github.com/bactopia/bactopia
+   :license: MIT / MIT
    :recipe: /`bactopia-py <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bactopia-py>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bactopia-py/meta.yaml>`_
 
    
@@ -28,10 +29,10 @@ bactopia-py
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.9-0</code>,  </span></summary>
       
 
-      ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -48,6 +49,7 @@ bactopia-py
    :depends pyyaml: 
    :depends rauth: 
    :depends requests: 
+   :depends rich: ``<14``
    :depends rich-click: ``>=1.6.0``
    :depends tqdm: 
    :requirements:
@@ -100,7 +102,7 @@ bactopia-py
 
     <script>
         var package = "bactopia-py";
-        var versions = ["1.5.0","1.4.0","1.3.0","1.2.1","1.2.0"];
+        var versions = ["1.5.1","1.5.0","1.4.0","1.3.0","1.2.1"];
     </script>
 
 

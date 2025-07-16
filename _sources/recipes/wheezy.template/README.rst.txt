@@ -10,9 +10,11 @@ wheezy.template
    :replaces_section_title:
    :noindex:
 
-   A lightweight template library
+   A lightweight template library.
 
-   :homepage: https://bitbucket.org/akorn/wheezy.template
+   :homepage: https://github.com/akornatskyy/wheezy.template
+   :documentation: https://wheezytemplate.readthedocs.io/en/latest
+   
    :license: MIT / MIT
    :recipe: /`wheezy.template <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wheezy.template>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wheezy.template/meta.yaml>`_
 
@@ -27,12 +29,12 @@ wheezy.template
       
       
 
-      ``0.1.178-0``,  ``0.1.169-0``,  ``0.1.167-1``,  ``0.1.167-0``
+      ``3.2.3-0``,  ``0.1.178-0``,  ``0.1.169-0``,  ``0.1.167-1``,  ``0.1.167-0``
 
       
 
    
-   :depends python: 
+   :depends python: ``>=3.9``
    :requirements:
 
    :additional platforms:
@@ -83,7 +85,7 @@ wheezy.template
 
     <script>
         var package = "wheezy.template";
-        var versions = ["0.1.178","0.1.169","0.1.167","0.1.167"];
+        var versions = ["3.2.3","0.1.178","0.1.169","0.1.167","0.1.167"];
     </script>
 
 

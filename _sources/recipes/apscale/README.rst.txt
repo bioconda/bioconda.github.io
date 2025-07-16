@@ -17,7 +17,7 @@ apscale
    
    :license: MIT / MIT
    :recipe: /`apscale <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/apscale>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/apscale/meta.yaml>`_
-   :links: doi: :doi:`biotools:apscale`
+   :links: biotools: :biotools:`apscale`
 
    
 
@@ -30,23 +30,34 @@ apscale
       
       
 
-      ``3.0.2-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.0-0``,  ``1.7.1-0``,  ``1.6.3-0``,  ``1.5.5-0``
+      ``4.0.5-0``,  ``3.0.2-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.0-0``,  ``1.7.1-0``,  ``1.6.3-0``,  ``1.5.5-0``
 
       
 
    
-   :depends biopython: ``>=1.78``
-   :depends cutadapt: ``>=3.5``
-   :depends demultiplexer2: ``>=1.1.5``
+   :depends biopython: ``>=1.85``
+   :depends cutadapt: ``>=5.0``
+   :depends dask-core: ``>=2025.3.0``
+   :depends demultiplexer2: ``>=1.1.6``
    :depends fastparquet: ``>=0.8.0``
    :depends joblib: ``>=1.0.0``
+   :depends more-itertools: ``>=10.5.0``
+   :depends numpy: 
    :depends openpyxl: ``>=3.0.10``
-   :depends pandas: ``>=1.5.0``
+   :depends pandas: ``>=2.3.0``
+   :depends powerlaw: 
    :depends psutil: ``>=5.8.0``
-   :depends pyarrow: ``>=7.0.0``
-   :depends python: ``>=3.8``
+   :depends pyarrow: ``>=17.0.0``
+   :depends pygbif: ``>=0.6.4``
+   :depends pyproj: ``>=3.4.1``
+   :depends pytables: ``>=3.9.0``
+   :depends python: ``>=3.11``
+   :depends python-duckdb: ``>=1.3.1``
+   :depends shapely: ``>=2.1.1``
+   :depends streamlit: ``>=1.45.1``
    :depends tqdm: ``>=4.56.0``
    :depends vsearch: 
+   :depends zict: ``>=3.0.0``
    :requirements:
 
    :additional platforms:
@@ -97,7 +108,7 @@ apscale
 
     <script>
         var package = "apscale";
-        var versions = ["3.0.2","2.0.4","2.0.3","2.0.2","2.0.0"];
+        var versions = ["4.0.5","3.0.2","2.0.4","2.0.3","2.0.2"];
     </script>
 
 

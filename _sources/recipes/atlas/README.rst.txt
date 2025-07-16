@@ -28,10 +28,10 @@ atlas
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.0-6</code>,  <code>2.0.0-5</code>,  <code>2.0.0-4</code>,  <code>2.0.0-3</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>0.9.9-3</code>,  <code>0.9.9-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.0-7</code>,  <code>2.0.0-6</code>,  <code>2.0.0-5</code>,  <code>2.0.0-4</code>,  <code>2.0.0-3</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>0.9.9-3</code>,  </span></summary>
       
 
-      ``2.0.0-6``,  ``2.0.0-5``,  ``2.0.0-4``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``0.9.9-3``,  ``0.9.9-2``,  ``0.9.9-1``,  ``0.9.9-0``
+      ``2.0.0-7``,  ``2.0.0-6``,  ``2.0.0-5``,  ``2.0.0-4``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``0.9.9-3``,  ``0.9.9-2``,  ``0.9.9-1``,  ``0.9.9-0``
 
       
       .. raw:: html
@@ -40,14 +40,15 @@ atlas
       
 
    
-   :depends armadillo: ``>=14.4,<15.0a0``
+   :depends armadillo: ``>=14.6,<15.0a0``
    :depends fmt: ``>=10.2.1,<11.0a0``
-   :depends htslib: ``>=1.22,<1.23.0a0``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
    :depends jsoncpp: ``>=1.9.6,<1.9.7.0a0``
    :depends lapack: 
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends mkl: 
    :depends nlohmann_json: 
    :depends openblas: 
    :requirements:

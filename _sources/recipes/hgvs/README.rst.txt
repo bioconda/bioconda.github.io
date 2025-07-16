@@ -10,10 +10,10 @@ hgvs
    :replaces_section_title:
    :noindex:
 
-   HGVS Parser\, Formatter\, Mapper\, Validator
+   HGVS Parser\, Formatter\, Mapper\, and Validator.
 
    :homepage: https://github.com/biocommons/hgvs
-   :documentation: https://pythonhosted.org/hgvs/
+   :documentation: https://hgvs.readthedocs.io
    
    :license: Apache-2.0
    :recipe: /`hgvs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hgvs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hgvs/meta.yaml>`_
@@ -29,20 +29,21 @@ hgvs
       
       
 
-      ``1.5.4-0``,  ``1.5.2-0``,  ``1.5.1-0``
+      ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.2-0``,  ``1.5.1-0``
 
       
 
    
    :depends attrs: ``>=17.4.0``
-   :depends biocommons.seqrepo: ``<1.0``
+   :depends biocommons.seqrepo: ``>=0.6.11``
    :depends bioutils: ``>=0.4.0,<1.0``
    :depends configparser: ``>=3.3.0``
+   :depends importlib-resources: 
    :depends ipython: 
    :depends parsley: 
+   :depends pre-commit: ``>=3.4``
    :depends psycopg2-binary: 
-   :depends python: 
-   :depends six: 
+   :depends python: ``>=3.10``
    :requirements:
 
    :additional platforms:
@@ -93,7 +94,7 @@ hgvs
 
     <script>
         var package = "hgvs";
-        var versions = ["1.5.4","1.5.2","1.5.1"];
+        var versions = ["1.5.5","1.5.4","1.5.2","1.5.1"];
     </script>
 
 
