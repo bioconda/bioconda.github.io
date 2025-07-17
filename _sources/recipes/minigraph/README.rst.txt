@@ -10,7 +10,7 @@ minigraph
    :replaces_section_title:
    :noindex:
 
-   Proof\-of\-concept seq\-to\-graph mapper and graph generator
+   Proof\-of\-concept seq\-to\-graph mapper and graph generator.
 
    :homepage: https://github.com/lh3/minigraph
    :documentation: https://lh3.github.io/minigraph/minigraph.html
@@ -31,10 +31,10 @@ minigraph
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.21-2</code>,  <code>0.21-1</code>,  <code>0.21-0</code>,  <code>0.20-2</code>,  <code>0.20-1</code>,  <code>0.20-0</code>,  <code>0.19-1</code>,  <code>0.19-0</code>,  <code>0.18-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.21-3</code>,  <code>0.21-2</code>,  <code>0.21-1</code>,  <code>0.21-0</code>,  <code>0.20-2</code>,  <code>0.20-1</code>,  <code>0.20-0</code>,  <code>0.19-1</code>,  <code>0.19-0</code>,  </span></summary>
       
 
-      ``0.21-2``,  ``0.21-1``,  ``0.21-0``,  ``0.20-2``,  ``0.20-1``,  ``0.20-0``,  ``0.19-1``,  ``0.19-0``,  ``0.18-0``,  ``0.17-0``,  ``0.16-1``,  ``0.16-0``,  ``0.15-1``,  ``0.15-0``
+      ``0.21-3``,  ``0.21-2``,  ``0.21-1``,  ``0.21-0``,  ``0.20-2``,  ``0.20-1``,  ``0.20-0``,  ``0.19-1``,  ``0.19-0``,  ``0.18-0``,  ``0.17-0``,  ``0.16-1``,  ``0.16-0``,  ``0.15-1``,  ``0.15-0``
 
       
       .. raw:: html
@@ -51,7 +51,7 @@ minigraph
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -99,7 +99,7 @@ minigraph
 
     <script>
         var package = "minigraph";
-        var versions = ["0.21","0.21","0.21","0.20","0.20"];
+        var versions = ["0.21","0.21","0.21","0.21","0.20"];
     </script>
 
 

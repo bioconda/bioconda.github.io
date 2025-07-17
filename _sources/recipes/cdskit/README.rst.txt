@@ -33,14 +33,14 @@ cdskit
       
       
 
-      ``0.14.4-0``,  ``0.14.3-0``,  ``0.14.2-0``,  ``0.14.1-0``
+      ``0.14.4-1``,  ``0.14.4-0``,  ``0.14.3-0``,  ``0.14.2-0``,  ``0.14.1-0``
 
       
 
    
-   :depends biopython: 
+   :depends biopython: ``>=1.77``
    :depends numpy: 
-   :depends python: ``>=3.9``
+   :depends python: ``>=3.8``
    :requirements:
 
    :additional platforms:
@@ -91,7 +91,7 @@ cdskit
 
     <script>
         var package = "cdskit";
-        var versions = ["0.14.4","0.14.3","0.14.2","0.14.1"];
+        var versions = ["0.14.4","0.14.4","0.14.3","0.14.2","0.14.1"];
     </script>
 
 

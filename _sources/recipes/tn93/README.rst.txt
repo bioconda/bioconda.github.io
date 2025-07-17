@@ -13,9 +13,11 @@ tn93
    This is a simple program meant to compute pairwise distances between aligned nucleotide sequences in sequential FASTA format using the Tamura Nei 93 distance.
 
    :homepage: https://github.com/veg/tn93
+   :documentation: https://github.com/veg/tn93/blob/v1.0.15/README.md
+   
    :license: MIT / MIT
    :recipe: /`tn93 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tn93>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tn93/meta.yaml>`_
-   :links: biotools: :biotools:`tn93`, doi: :doi:`10.1093/molbev/msy016`
+   :links: biotools: :biotools:`tn93`, usegalaxy-eu: :usegalaxy-eu:`tn93`, usegalaxy-eu: :usegalaxy-eu:`tn93_filter`, usegalaxy-eu: :usegalaxy-eu:`tn93_cluster`, doi: :doi:`10.1093/molbev/msy016`
 
    
 
@@ -29,10 +31,10 @@ tn93
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.14-1</code>,  <code>1.0.14-0</code>,  <code>1.0.13-1</code>,  <code>1.0.13-0</code>,  <code>1.0.12-0</code>,  <code>1.0.9-2</code>,  <code>1.0.9-1</code>,  <code>1.0.9-0</code>,  <code>1.0.6-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.15-0</code>,  <code>1.0.14-1</code>,  <code>1.0.14-0</code>,  <code>1.0.13-1</code>,  <code>1.0.13-0</code>,  <code>1.0.12-0</code>,  <code>1.0.9-2</code>,  <code>1.0.9-1</code>,  <code>1.0.9-0</code>,  </span></summary>
       
 
-      ``1.0.14-1``,  ``1.0.14-0``,  ``1.0.13-1``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.2-0``
+      ``1.0.15-0``,  ``1.0.14-1``,  ``1.0.14-0``,  ``1.0.13-1``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -43,10 +45,15 @@ tn93
    
    :depends _openmp_mutex: ``>=4.5``
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -94,7 +101,7 @@ tn93
 
     <script>
         var package = "tn93";
-        var versions = ["1.0.14","1.0.14","1.0.13","1.0.13","1.0.12"];
+        var versions = ["1.0.15","1.0.14","1.0.14","1.0.13","1.0.13"];
     </script>
 
 

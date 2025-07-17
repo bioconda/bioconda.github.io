@@ -27,7 +27,7 @@ phlame
       
       
 
-      ``1.0.8-0``
+      ``1.1.0-0``,  ``1.0.8-0``
 
       
 
@@ -91,7 +91,7 @@ phlame
 
     <script>
         var package = "phlame";
-        var versions = ["1.0.8"];
+        var versions = ["1.1.0","1.0.8"];
     </script>
 
 

@@ -28,7 +28,7 @@ unetcoreograph
       
       
 
-      ``2.4.4-0``,  ``2.4.3-0``
+      ``2.4.5-0``,  ``2.4.4-0``,  ``2.4.3-0``
 
       
 
@@ -92,7 +92,7 @@ unetcoreograph
 
     <script>
         var package = "unetcoreograph";
-        var versions = ["2.4.4","2.4.3"];
+        var versions = ["2.4.5","2.4.4","2.4.3"];
     </script>
 
 

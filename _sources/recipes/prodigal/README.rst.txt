@@ -10,12 +10,14 @@ prodigal
    :replaces_section_title:
    :noindex:
 
-   Prodigal \(Prokaryotic Dynamic Programming Genefinding Algorithm\) is a microbial \(bacterial and archaeal\) gene finding program
+   Prodigal \(Prokaryotic Dynamic Programming Genefinding Algorithm\) is a microbial \(bacterial and archaeal\) gene finding program.
 
-   :homepage: http://prodigal.ornl.gov/
-   :developer docs: https://github.com/hyattpd/Prodigal
-   :license: GPL v3
+   :homepage: https://github.com/hyattpd/Prodigal
+   :documentation: https://github.com/hyattpd/Prodigal/wiki
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`prodigal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prodigal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prodigal/meta.yaml>`_
+   :links: doi: :doi:`10.1186/1471-2105-11-119`, biotools: :biotools:`prodigal`, usegalaxy-eu: :usegalaxy-eu:`prodigal`
 
    
 
@@ -29,10 +31,10 @@ prodigal
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.6.3-10</code>,  <code>2.6.3-9</code>,  <code>2.6.3-8</code>,  <code>2.6.3-7</code>,  <code>2.6.3-6</code>,  <code>2.6.3-5</code>,  <code>2.6.3-4</code>,  <code>2.6.3-3</code>,  <code>2.6.3-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.6.3-11</code>,  <code>2.6.3-10</code>,  <code>2.6.3-9</code>,  <code>2.6.3-8</code>,  <code>2.6.3-7</code>,  <code>2.6.3-6</code>,  <code>2.6.3-5</code>,  <code>2.6.3-4</code>,  <code>2.6.3-3</code>,  </span></summary>
       
 
-      ``2.6.3-10``,  ``2.6.3-9``,  ``2.6.3-8``,  ``2.6.3-7``,  ``2.6.3-6``,  ``2.6.3-5``,  ``2.6.3-4``,  ``2.6.3-3``,  ``2.6.3-2``,  ``2.6.3-1``,  ``2.6.3-0``,  ``2.6.2-3``,  ``2.6.2-2``,  ``2.6.2-1``
+      ``2.6.3-11``,  ``2.6.3-10``,  ``2.6.3-9``,  ``2.6.3-8``,  ``2.6.3-7``,  ``2.6.3-6``,  ``2.6.3-5``,  ``2.6.3-4``,  ``2.6.3-3``,  ``2.6.3-2``,  ``2.6.3-1``,  ``2.6.3-0``,  ``2.6.2-3``,  ``2.6.2-2``,  ``2.6.2-1``
 
       
       .. raw:: html
@@ -42,13 +44,14 @@ prodigal
 
    
    :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

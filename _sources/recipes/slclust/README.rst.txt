@@ -12,7 +12,7 @@ slclust
 
    A utility that performs single\-linkage clustering with the option of applying a Jaccard similarity coefficient to break weakly bound clusters into distinct clusters.
 
-   :homepage: https://sourceforge.net/projects/slclust/
+   :homepage: https://sourceforge.net/projects/slclust
    :license: Artistic License
    :recipe: /`slclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/slclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/slclust/meta.yaml>`_
 
@@ -27,7 +27,7 @@ slclust
       
       
 
-      ``02022010-5``,  ``02022010-4``,  ``02022010-3``,  ``02022010-2``,  ``02022010-1``,  ``02022010-0``
+      ``02022010-6``,  ``02022010-5``,  ``02022010-4``,  ``02022010-3``,  ``02022010-2``,  ``02022010-1``,  ``02022010-0``
 
       
 
@@ -35,14 +35,13 @@ slclust
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

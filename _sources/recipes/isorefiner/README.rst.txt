@@ -27,11 +27,12 @@ isorefiner
       
       
 
-      ``0.1.0-0``
+      ``0.1.0-1``,  ``0.1.0-0``
 
       
 
    
+   :depends bedtools: ``>=2.31.0``
    :depends bioconductor-bambu: ``>=3.4.0``
    :depends espresso: ``>=1.3.2``
    :depends gffcompare: ``>=0.12.6``
@@ -99,7 +100,7 @@ isorefiner
 
     <script>
         var package = "isorefiner";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.0","0.1.0"];
     </script>
 
 

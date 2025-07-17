@@ -30,10 +30,10 @@ snakemake-storage-plugin-s3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.13-0</code>,  <code>0.2.12-0</code>,  <code>0.2.11-0</code>,  <code>0.2.10-0</code>,  <code>0.2.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.3-1</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.13-0</code>,  <code>0.2.12-0</code>,  <code>0.2.11-0</code>,  <code>0.2.10-0</code>,  </span></summary>
       
 
-      ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8-1``,  ``0.2.8-0``
+      ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8-1``,  ``0.2.8-0``
 
       
       .. raw:: html
@@ -42,12 +42,11 @@ snakemake-storage-plugin-s3
       
 
    
-   :depends boto3: ``>=1.33.0,<2.0.0``
-   :depends botocore: ``>=1.33.0,<2.0.0``
+   :depends boto3: ``>=1.34.63,<2.0.0``
+   :depends botocore: ``>=1.34.63,<2.0.0``
    :depends python: ``>=3.11.0,<4.0.0``
    :depends snakemake-interface-common: ``>=1.14.0,<2.0.0``
    :depends snakemake-interface-storage-plugins: ``>=4.1.0,<5.0.0``
-   :depends urllib3: ``>=2.0,<2.2``
    :requirements:
 
    :additional platforms:
@@ -98,7 +97,7 @@ snakemake-storage-plugin-s3
 
     <script>
         var package = "snakemake-storage-plugin-s3";
-        var versions = ["0.3.3","0.3.2","0.3.1","0.3.0","0.2.13"];
+        var versions = ["0.3.3","0.3.3","0.3.2","0.3.1","0.3.0"];
     </script>
 
 
