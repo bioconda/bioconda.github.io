@@ -10,10 +10,10 @@ gb_taxonomy_tools
    :replaces_section_title:
    :noindex:
 
-   These are four simple utilities which perform certain manipulations and  visualization tasks on GenBank taxonomic information.
+   These are four simple utilities which perform certain manipulations and visualization tasks on GenBank taxonomic information.
 
    :homepage: https://github.com/spond/gb_taxonomy_tools
-   :license: GNU General Public License v2.0
+   :license: GPL-2.0-or-later
    :recipe: /`gb_taxonomy_tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gb_taxonomy_tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gb_taxonomy_tools/meta.yaml>`_
 
    
@@ -26,9 +26,17 @@ gb_taxonomy_tools
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.1-6``,  ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.1-7</code>,  <code>1.0.1-6</code>,  <code>1.0.1-5</code>,  <code>1.0.1-4</code>,  <code>1.0.1-3</code>,  <code>1.0.1-2</code>,  <code>1.0.1-1</code>,  <code>1.0.1-0</code>,  <code>1.0.0-1</code>,  </span></summary>
+      
 
+      ``1.0.1-7``,  ``1.0.1-6``,  ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -37,6 +45,10 @@ gb_taxonomy_tools
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

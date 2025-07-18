@@ -38,21 +38,21 @@ heasoft
 
    To enable XSPEC\, follow these steps\:
 
-   1. Download the HEAsoft source tarball for the same version as this package \(6.35.1\)\:
+   1. Download the HEAsoft source tarball for the same version as this package \(6.35.2\)\:
       \`\`\`
-      wget https\:\/\/heasarc.gsfc.nasa.gov\/FTP\/software\/lheasoft\/lheasoft6.35.1\/heasoft\-6.35.1src.tar.gz
+      wget https\:\/\/heasarc.gsfc.nasa.gov\/FTP\/software\/lheasoft\/lheasoft6.35.2\/heasoft\-6.35.2src.tar.gz
       \`\`\`
-      Replace \`6.35.1\` by the actual the package version \(e.g.\, 6.35.1\).
+      Replace \`6.35.2\` by the actual the package version \(e.g.\, 6.35.2\).
 
    2. Extract the tarball\:
       \`\`\`
-      tar zxf heasoft\-6.35.1src.tar.gz
+      tar zxf heasoft\-6.35.2src.tar.gz
       \`\`\`
 
    3. Copy the \`modelData\` directory to the appropriate location\:
       \`\`\`
       mkdir \-p \"\$\{CONDA\_PREFIX\}\/spectral\"
-      cp \-r heasoft\-6.35.1\/Xspec\/src\/spectral\/modelData \"\$\{CONDA\_PREFIX\}\/spectral\/\"
+      cp \-r heasoft\-6.35.2\/Xspec\/src\/spectral\/modelData \"\$\{CONDA\_PREFIX\}\/spectral\/\"
       \`\`\`
 
 
@@ -65,14 +65,14 @@ heasoft
       
       
 
-      ``6.35.1-1``,  ``6.35.1-0``
+      ``6.35.2-0``,  ``6.35.1-1``,  ``6.35.1-0``
 
       
 
    
    :depends astropy: ``>=6.1.4``
    :depends astropy-iers-data: 
-   :depends curl: ``>=8.14.0,<9.0a0``
+   :depends curl: ``>=8.14.1,<9.0a0``
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends gsl: ``>=2.7,<3.0a0``
    :depends libgcc: ``>=13``
@@ -80,15 +80,15 @@ heasoft
    :depends libgfortran: 
    :depends libgfortran-ng: ``>=15.1.0,<16.0a0``
    :depends libgfortran5: ``>=13.3.0``
-   :depends libpng: ``>=1.6.47,<1.7.0a0``
-   :depends libpng: ``>=1.6.47,<2.0a0``
+   :depends libpng: ``>=1.6.50,<1.7.0a0``
+   :depends libpng: ``>=1.6.50,<2.0a0``
    :depends libstdcxx: ``>=13``
    :depends libstdcxx-ng: ``>=15.1.0,<16.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends matplotlib-base: ``>=3.9.2``
    :depends ncurses: ``>=6.5,<7.0a0``
-   :depends numpy: ``>=1.21,<3``
-   :depends numpy: ``>=2.2.6,<3.0a0``
+   :depends numpy: ``>=1.23,<3``
+   :depends numpy: ``>=2.3.1,<3.0a0``
    :depends perl: ``>=5.32.1``
    :depends python: ``>=3.13,<3.14.0a0``
    :depends python_abi: ``3.13.* *_cp313``
@@ -150,7 +150,7 @@ heasoft
 
     <script>
         var package = "heasoft";
-        var versions = ["6.35.1","6.35.1"];
+        var versions = ["6.35.2","6.35.1","6.35.1"];
     </script>
 
 

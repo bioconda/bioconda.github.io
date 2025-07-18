@@ -27,7 +27,7 @@ pupmapper
       
       
 
-      ``0.0.9-0``
+      ``0.1.0-0``,  ``0.0.9-0``
 
       
 
@@ -89,7 +89,7 @@ pupmapper
 
     <script>
         var package = "pupmapper";
-        var versions = ["0.0.9"];
+        var versions = ["0.1.0","0.0.9"];
     </script>
 
 

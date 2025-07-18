@@ -17,6 +17,7 @@ reduce
    
    :license: BSD / BSD-4-Clause-UC
    :recipe: /`reduce <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reduce>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reduce/meta.yaml>`_
+   :links: doi: :doi:`10.1006/jmbi.1998.2401`
 
    Reduce is a tool for adding and correcting hydrogens in PDB files.
    It is often used in computational biology and molecular modeling to
@@ -32,14 +33,16 @@ reduce
       
       
 
-      ``4.15-1``,  ``4.15-0``,  ``4.14-3``,  ``4.14-2``,  ``4.14-1``,  ``4.14-0``
+      ``4.15-2``,  ``4.15-1``,  ``4.15-0``,  ``4.14-3``,  ``4.14-2``,  ``4.14-1``,  ``4.14-0``
 
       
 
    
+   :depends libboost-python: ``>=1.86.0,<1.87.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
-   :depends python: 
+   :depends python: ``>=3.10,<3.11.0a0 *_cpython``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    :additional platforms:
@@ -94,7 +97,7 @@ reduce
 
     <script>
         var package = "reduce";
-        var versions = ["4.15","4.15","4.14","4.14","4.14"];
+        var versions = ["4.15","4.15","4.15","4.14","4.14"];
     </script>
 
 

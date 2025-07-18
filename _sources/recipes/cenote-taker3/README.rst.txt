@@ -13,7 +13,7 @@ cenote-taker3
    Cenote\-Taker 3\: Discover and annotate the virome.
 
    :homepage: https://github.com/mtisza1/Cenote-Taker3
-   :documentation: https://github.com/mtisza1/Cenote-Taker3/blob/v3.4.0/README.md
+   :documentation: https://github.com/mtisza1/Cenote-Taker3/blob/v3.4.1/README.md
    
    :license: MIT / MIT
    :recipe: /`cenote-taker3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cenote-taker3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cenote-taker3/meta.yaml>`_
@@ -29,7 +29,7 @@ cenote-taker3
       
       
 
-      ``3.4.0-0``,  ``3.3.2-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.1-0``,  ``3.2.0-0``
+      ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.2-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.1-0``,  ``3.2.0-0``
 
       
 
@@ -105,7 +105,7 @@ cenote-taker3
 
     <script>
         var package = "cenote-taker3";
-        var versions = ["3.4.0","3.3.2","3.3.1","3.3.0","3.2.1"];
+        var versions = ["3.4.1","3.4.0","3.3.2","3.3.1","3.3.0"];
     </script>
 
 
