@@ -13,8 +13,11 @@ cas-offinder
    Cas\-OFFinder is OpenCL based\, ultrafast and versatile program that searches for potential off\-target sites of CRISPR\/Cas\-derived RNA\-guided endonucleases \(RGEN\).
 
    :homepage: https://github.com/snugel/cas-offinder
-   :license: BSD-3-Clause AND MIT
+   :documentation: https://github.com/snugel/cas-offinder/blob/2.4.1/README.md
+   
+   :license: BSD / BSD-3-Clause
    :recipe: /`cas-offinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cas-offinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cas-offinder/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btu048`, biotools: :biotools:`cas-offinder`
 
    
 
@@ -27,15 +30,26 @@ cas-offinder
       
       
 
-      ``2.4-1``,  ``2.4-0``
+      ``2.4.1-0``,  ``2.4-1``,  ``2.4-0``
 
       
 
    
-   :depends cmake: 
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
+   :depends libopencl-devel: 
+   :depends libstdcxx: ``>=13``
+   :depends ocl-icd: ``>=2.3.3,<3.0a0``
+   :depends opencl-headers: 
+   :depends pocl: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -83,7 +97,7 @@ cas-offinder
 
     <script>
         var package = "cas-offinder";
-        var versions = ["2.4","2.4"];
+        var versions = ["2.4.1","2.4","2.4"];
     </script>
 
 

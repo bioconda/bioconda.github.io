@@ -10,11 +10,14 @@ sickle-trim
    :replaces_section_title:
    :noindex:
 
-   Windowed Adaptive Trimming for fastq files using quality
+   Windowed Adaptive Trimming for fastq files using quality.
 
    :homepage: https://github.com/najoshi/sickle
-   :license: MIT
+   :documentation: https://github.com/najoshi/sickle/blob/v1.33/README.md
+   
+   :license: MIT / MIT
    :recipe: /`sickle-trim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sickle-trim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sickle-trim/meta.yaml>`_
+   :links: biotools: :biotools:`sickle`, usegalaxy-eu: :usegalaxy-eu:`sickle`
 
    
 
@@ -28,10 +31,10 @@ sickle-trim
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.33-11</code>,  <code>1.33-10</code>,  <code>1.33-9</code>,  <code>1.33-8</code>,  <code>1.33-7</code>,  <code>1.33-6</code>,  <code>1.33-5</code>,  <code>1.33-4</code>,  <code>1.33-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.33-12</code>,  <code>1.33-11</code>,  <code>1.33-10</code>,  <code>1.33-9</code>,  <code>1.33-8</code>,  <code>1.33-7</code>,  <code>1.33-6</code>,  <code>1.33-5</code>,  <code>1.33-4</code>,  </span></summary>
       
 
-      ``1.33-11``,  ``1.33-10``,  ``1.33-9``,  ``1.33-8``,  ``1.33-7``,  ``1.33-6``,  ``1.33-5``,  ``1.33-4``,  ``1.33-3``,  ``1.33-2``,  ``1.33-1``,  ``1.33-0``
+      ``1.33-12``,  ``1.33-11``,  ``1.33-10``,  ``1.33-9``,  ``1.33-8``,  ``1.33-7``,  ``1.33-6``,  ``1.33-5``,  ``1.33-4``,  ``1.33-3``,  ``1.33-2``,  ``1.33-1``,  ``1.33-0``
 
       
       .. raw:: html
@@ -42,14 +45,13 @@ sickle-trim
    
    :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

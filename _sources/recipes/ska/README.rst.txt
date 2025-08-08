@@ -10,11 +10,14 @@ ska
    :replaces_section_title:
    :noindex:
 
-   SKA \(Split Kmer Analysis\)
+   SKA \(Split Kmer Analysis\).
 
    :homepage: https://github.com/simonrharris/SKA
-   :license: GPL / GPL-3
+   :documentation: https://github.com/simonrharris/SKA/wiki
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`ska <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ska>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ska/meta.yaml>`_
+   :links: doi: :doi:`10.1101/453142`
 
    
 
@@ -27,7 +30,7 @@ ska
       
       
 
-      ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0-7``,  ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
@@ -38,6 +41,10 @@ ska
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

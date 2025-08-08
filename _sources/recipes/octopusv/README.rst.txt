@@ -10,10 +10,10 @@ octopusv
    :replaces_section_title:
    :noindex:
 
-   OctopusV\: Advanced Structural Variant Analysis Toolkit
+   OctopusV\: Advanced Structural Variant Analysis Toolkit.
 
    :homepage: https://github.com/ylab-hi/octopusV
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`octopusv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/octopusv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/octopusv/meta.yaml>`_
 
    
@@ -27,20 +27,20 @@ octopusv
       
       
 
-      ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
-   :depends jinja2: ``>=3.1.5,<4.0.0``
-   :depends loguru: ``>=0.7.2,<0.8.0``
-   :depends matplotlib-base: ``>=3.9.2,<4.0.0``
-   :depends natsort: ``>=8.4.0,<9.0.0``
-   :depends pytest-cov: ``>=4.1.0,<5.0.0``
-   :depends python: ``>=3.10.0,<4.0.0``
-   :depends rich: ``>=13.7.1,<14.0.0``
-   :depends seaborn: ``>=0.13.2,<0.14.0``
-   :depends typer: ``>=0.12.3,<0.13.0``
+   :depends jinja2: ``>=3.1.5``
+   :depends loguru: ``>=0.7.2``
+   :depends matplotlib-base: ``>=3.9.2``
+   :depends natsort: ``>=8.4.0``
+   :depends pytest-cov: ``>=4.1.0``
+   :depends python: ``>=3.10,<3.13``
+   :depends rich: ``>=13.7.1``
+   :depends seaborn: ``>=0.13.2``
+   :depends typer: ``>=0.12.3``
    :requirements:
 
    :additional platforms:
@@ -91,7 +91,7 @@ octopusv
 
     <script>
         var package = "octopusv";
-        var versions = ["0.1.0"];
+        var versions = ["0.2.0","0.1.0"];
     </script>
 
 

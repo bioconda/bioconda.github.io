@@ -13,7 +13,7 @@ quaqc
    Quick ATAC\-seq Quality Control.
 
    :homepage: https://github.com/bjmt/quaqc
-   :documentation: https://github.com/bjmt/quaqc/blob/v1.3d/README.md
+   :documentation: https://github.com/bjmt/quaqc/blob/v1.3e/README.md
    
    :license: GPL3 / GPL-3.0-only
    :recipe: /`quaqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quaqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quaqc/meta.yaml>`_
@@ -30,13 +30,13 @@ quaqc
       
       
 
-      ``1.3d-1``,  ``1.3d-0``
+      ``1.3e-0``,  ``1.3d-1``,  ``1.3d-0``
 
       
 
    
    :depends htslib: ``>=1.17``
-   :depends htslib: ``>=1.22,<1.23.0a0``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
@@ -93,7 +93,7 @@ quaqc
 
     <script>
         var package = "quaqc";
-        var versions = ["1.3d","1.3d"];
+        var versions = ["1.3e","1.3d","1.3d"];
     </script>
 
 

@@ -10,11 +10,14 @@ metilene
    :replaces_section_title:
    :noindex:
 
-   Fast and sensitive detection of differential DNA methylation
+   Fast and sensitive detection of differential DNA methylation.
 
-   :homepage: http://www.bioinf.uni-leipzig.de/Software/metilene/
-   :license: GPLv2
+   :homepage: http://www.bioinf.uni-leipzig.de/Software/metilene
+   :documentation: http://www.bioinf.uni-leipzig.de/Software/metilene/manual_v02-8.pdf
+   
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`metilene <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metilene>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metilene/meta.yaml>`_
+   :links: doi: :doi:`10.1101/gr.196394.115`
 
    
 
@@ -27,7 +30,7 @@ metilene
       
       
 
-      ``0.2.8-4``,  ``0.2.8-3``,  ``0.2.8-2``,  ``0.2.8-1``,  ``0.2.8-0``,  ``0.2.6-2``,  ``0.2.6-1``,  ``0.2.6-0``
+      ``0.2.8-5``,  ``0.2.8-4``,  ``0.2.8-3``,  ``0.2.8-2``,  ``0.2.8-1``,  ``0.2.8-0``,  ``0.2.6-2``,  ``0.2.6-1``,  ``0.2.6-0``
 
       
 
@@ -40,6 +43,10 @@ metilene
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

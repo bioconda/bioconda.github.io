@@ -13,7 +13,7 @@ grzctl
    Control CLI for GRZ administrators.
 
    :homepage: https://github.com/BfArM-MVH/grz-tools
-   :documentation: https://github.com/BfArM-MVH/grz-tools/blob/grzctl-v0.2.4/packages/grz-cli/README.md
+   :documentation: https://github.com/BfArM-MVH/grz-tools/blob/grzctl-v0.4.0/packages/grz-cli/README.md
    
    :license: MIT / MIT
    :recipe: /`grzctl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grzctl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grzctl/meta.yaml>`_
@@ -28,18 +28,26 @@ grzctl
    :versions:
       
       
+      .. raw:: html
 
-      ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.4.0-0</code>,  <code>0.3.0-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  </span></summary>
+      
 
+      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends boto3: ``>=1.36,<2``
    :depends click: ``>=8.2,<9``
    :depends grz-cli: ``1.*``
-   :depends grz-common: ``>=1.0.3,<2``
-   :depends grz-db: ``>=0.2.1``
-   :depends grz-pydantic-models: ``>=2.1.0,<3``
+   :depends grz-common: ``>=1.2.1,<2``
+   :depends grz-db: ``>=0.4``
+   :depends grz-pydantic-models: ``>=2.2,<3``
    :depends jsonschema: ``>=4.23.0,<5``
    :depends platformdirs: ``>=4.3.6,<5``
    :depends pydantic: ``>=2.9.2,<2.10``
@@ -101,7 +109,7 @@ grzctl
 
     <script>
         var package = "grzctl";
-        var versions = ["0.2.4","0.2.3","0.2.2","0.2.1","0.2.0"];
+        var versions = ["0.4.0","0.3.0","0.2.6","0.2.5","0.2.4"];
     </script>
 
 

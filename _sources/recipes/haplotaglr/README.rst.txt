@@ -12,9 +12,12 @@ haplotaglr
 
    Haplotagging individual long reads using known haplotype information.
 
-   :homepage: https://github.com/Boyle-Lab/HaplotagLR.git
+   :homepage: https://github.com/Boyle-Lab/HaplotagLR
+   :documentation: https://github.com/Boyle-Lab/HaplotagLR/blob/v1.1.12/README.md
+   
    :license: MIT / MIT
    :recipe: /`haplotaglr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haplotaglr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haplotaglr/meta.yaml>`_
+   :links: doi: :doi:`10.1371/journal.pone.0298688`
 
    
 
@@ -27,7 +30,7 @@ haplotaglr
       
       
 
-      ``1.1.10-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.5-0``,  ``1.1.4-0``
+      ``1.1.12-0``,  ``1.1.10-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.5-0``,  ``1.1.4-0``
 
       
 
@@ -89,7 +92,7 @@ haplotaglr
 
     <script>
         var package = "haplotaglr";
-        var versions = ["1.1.10","1.1.9","1.1.8","1.1.7","1.1.5"];
+        var versions = ["1.1.12","1.1.10","1.1.9","1.1.8","1.1.7"];
     </script>
 
 

@@ -12,9 +12,12 @@ soapdenovo-trans
 
    SOAPdenovo\-Trans is a de novo transcriptome assembler basing on the SOAPdenovo framework\, adapt to alternative splicing and different expression level among transcripts.
 
-   :homepage: http://soap.genomics.org.cn/SOAPdenovo-Trans.html
-   :license: GPLv3
+   :homepage: https://github.com/aquaskyline/SOAPdenovo-Trans
+   :documentation: https://github.com/aquaskyline/SOAPdenovo-Trans/blob/1.0.5/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`soapdenovo-trans <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/soapdenovo-trans>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/soapdenovo-trans/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btu077`
 
    
 
@@ -31,7 +34,7 @@ soapdenovo-trans
          <details><summary><span class="truncated-version-list"><code>1.04-7</code>,  <code>1.04-6</code>,  <code>1.04-5</code>,  <code>1.04-4</code>,  <code>1.04-3</code>,  <code>1.04-2</code>,  <code>1.04-1</code>,  <code>1.04-0</code>,  <code>1.03-3</code>,  </span></summary>
       
 
-      ``1.04-7``,  ``1.04-6``,  ``1.04-5``,  ``1.04-4``,  ``1.04-3``,  ``1.04-2``,  ``1.04-1``,  ``1.04-0``,  ``1.03-3``,  ``1.03-2``,  ``1.03-1``,  ``1.03-0``
+      ``1.04-7``,  ``1.04-6``,  ``1.04-5``,  ``1.04-4``,  ``1.04-3``,  ``1.04-2``,  ``1.04-1``,  ``1.04-0``,  ``1.03-3``,  ``1.03-2``,  ``1.03-1``,  ``1.03-0``,  ``1.0.5-0``
 
       
       .. raw:: html
@@ -47,6 +50,10 @@ soapdenovo-trans
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

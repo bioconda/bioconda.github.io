@@ -12,10 +12,12 @@ bedops
 
    High\-performance genomic feature operations.
 
-   :homepage: http://bedops.readthedocs.io
-   :license: GPLv2
+   :homepage: https://github.com/bedops/bedops
+   :documentation: https://bedops.readthedocs.io
+   
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`bedops <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bedops>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bedops/meta.yaml>`_
-   :links: biotools: :biotools:`Bedops`, doi: :doi:`10.1093/bioinformatics/bts277`
+   :links: biotools: :biotools:`Bedops`, usegalaxy-eu: :usegalaxy-eu:`bedops-sort-bed`, doi: :doi:`10.1093/bioinformatics/bts277`
 
    
 
@@ -29,10 +31,10 @@ bedops
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4.42-0</code>,  <code>2.4.41-3</code>,  <code>2.4.41-2</code>,  <code>2.4.41-1</code>,  <code>2.4.41-0</code>,  <code>2.4.40-0</code>,  <code>2.4.39-1</code>,  <code>2.4.39-0</code>,  <code>2.4.38-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4.42-1</code>,  <code>2.4.42-0</code>,  <code>2.4.41-3</code>,  <code>2.4.41-2</code>,  <code>2.4.41-1</code>,  <code>2.4.41-0</code>,  <code>2.4.40-0</code>,  <code>2.4.39-1</code>,  <code>2.4.39-0</code>,  </span></summary>
       
 
-      ``2.4.42-0``,  ``2.4.41-3``,  ``2.4.41-2``,  ``2.4.41-1``,  ``2.4.41-0``,  ``2.4.40-0``,  ``2.4.39-1``,  ``2.4.39-0``,  ``2.4.38-0``,  ``2.4.37-0``,  ``2.4.36-1``,  ``2.4.36-0``,  ``2.4.35-2``,  ``2.4.35-1``,  ``2.4.35-0``,  ``2.4.34-0``,  ``2.4.33-0``,  ``2.4.32-0``,  ``2.4.30-0``,  ``2.4.27-0``,  ``2.4.26-0``,  ``2.4.25-0``,  ``2.4.24-0``,  ``2.4.23-0``,  ``2.4.22-0``,  ``2.4.21-0``,  ``2.4.20-0``,  ``2.4.19-0``
+      ``2.4.42-1``,  ``2.4.42-0``,  ``2.4.41-3``,  ``2.4.41-2``,  ``2.4.41-1``,  ``2.4.41-0``,  ``2.4.40-0``,  ``2.4.39-1``,  ``2.4.39-0``,  ``2.4.38-0``,  ``2.4.37-0``,  ``2.4.36-1``,  ``2.4.36-0``,  ``2.4.35-2``,  ``2.4.35-1``,  ``2.4.35-0``,  ``2.4.34-0``,  ``2.4.33-0``,  ``2.4.32-0``,  ``2.4.30-0``,  ``2.4.27-0``,  ``2.4.26-0``,  ``2.4.25-0``,  ``2.4.24-0``,  ``2.4.23-0``,  ``2.4.22-0``,  ``2.4.21-0``,  ``2.4.20-0``,  ``2.4.19-0``
 
       
       .. raw:: html
@@ -41,8 +43,11 @@ bedops
       
 
    
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends jansson: ``>=2.14.1,<3.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends samtools: 
    :requirements:
 
@@ -50,7 +55,7 @@ bedops
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -98,7 +103,7 @@ bedops
 
     <script>
         var package = "bedops";
-        var versions = ["2.4.42","2.4.41","2.4.41","2.4.41","2.4.41"];
+        var versions = ["2.4.42","2.4.42","2.4.41","2.4.41","2.4.41"];
     </script>
 
 

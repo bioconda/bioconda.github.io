@@ -10,12 +10,12 @@ jccirc
    :replaces_section_title:
    :noindex:
 
-   circRNA assembler through integrated junction contigs
+   circRNA assembler through integrated junction contigs.
 
    :homepage: https://github.com/cbbzhang/JCcirc
    :documentation: https://github.com/cbbzhang/JCcirc/blob/master/README.md
    
-   :license: unknown
+   :license: Unknown
    :recipe: /`jccirc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jccirc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jccirc/meta.yaml>`_
    :links: doi: :doi:`10.1093/bib/bbae062`
 
@@ -30,7 +30,7 @@ jccirc
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -40,10 +40,6 @@ jccirc
    :requirements:
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -91,7 +87,7 @@ jccirc
 
     <script>
         var package = "jccirc";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

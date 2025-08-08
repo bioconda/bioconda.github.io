@@ -13,7 +13,10 @@ rnashapes
    RNAshape abstraction maps structures to a tree\-like domain of shapes\, retaining adjacency and nesting of structural features\, but disregarding helix lengths. Shape abstraction integrates well with dynamic programming algorithms\, and hence it can be applied during structure prediction rather than afterwards. This avoids exponential explosion and can still give us a non\-heuristic and complete account of properties of the molecule\'s folding space.
 
    :homepage: https://bibiserv.cebitec.uni-bielefeld.de/rnashapes
-   :license: GPL-3.0-or-later
+   :documentation: https://bibiserv.cebitec.uni-bielefeld.de/fold-grammars
+   
+   :developer docs: https://github.com/jlab/fold-grammars
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`rnashapes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnashapes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnashapes/meta.yaml>`_
    :links: doi: :doi:`10.1093/bioinformatics/btu649`
 
@@ -29,10 +32,10 @@ rnashapes
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.0-2</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.3.2-3</code>,  <code>3.3.2-2</code>,  <code>3.3.2-1</code>,  <code>3.3.2-0</code>,  <code>3.3.0-7</code>,  <code>3.3.0-6</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.0-3</code>,  <code>3.4.0-2</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.3.2-3</code>,  <code>3.3.2-2</code>,  <code>3.3.2-1</code>,  <code>3.3.2-0</code>,  <code>3.3.0-7</code>,  </span></summary>
       
 
-      ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.2-3``,  ``3.3.2-2``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.3.0-7``,  ``3.3.0-6``,  ``3.3.0-5``,  ``3.3.0-4``,  ``3.3.0-3``,  ``3.3.0-0``,  ``2.1.6-4``,  ``2.1.6-3``,  ``2.1.6-2``,  ``2.1.6-1``,  ``2.1.6-0``
+      ``3.4.0-3``,  ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.2-3``,  ``3.3.2-2``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.3.0-7``,  ``3.3.0-6``,  ``3.3.0-5``,  ``3.3.0-4``,  ``3.3.0-3``,  ``3.3.0-0``,  ``2.1.6-4``,  ``2.1.6-3``,  ``2.1.6-2``,  ``2.1.6-1``,  ``2.1.6-0``
 
       
       .. raw:: html
@@ -44,7 +47,7 @@ rnashapes
    :depends bellmans-gapc: ``>=2024.01.12``
    :depends bellmans-gapc: ``>=2024.1.12``
    :depends libgcc: ``>=13``
-   :depends libopenblas: ``>=0.3.28,<1.0a0``
+   :depends libopenblas: ``>=0.3.30,<1.0a0``
    :depends libstdcxx: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
@@ -53,7 +56,7 @@ rnashapes
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -101,7 +104,7 @@ rnashapes
 
     <script>
         var package = "rnashapes";
-        var versions = ["3.4.0","3.4.0","3.4.0","3.3.2","3.3.2"];
+        var versions = ["3.4.0","3.4.0","3.4.0","3.4.0","3.3.2"];
     </script>
 
 

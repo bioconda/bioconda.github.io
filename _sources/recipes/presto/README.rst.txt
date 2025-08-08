@@ -12,7 +12,7 @@ presto
 
    A bioinformatics toolkit for processing high\-throughput lymphocyte receptor sequencing data.
 
-   :homepage: https://bitbucket.org/kleinstein/presto
+   :homepage: https://github.com/immcantation/presto
    :documentation: https://presto.readthedocs.io
    
    :license: AGPL / AGPL-3.0-or-later
@@ -30,10 +30,10 @@ presto
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.13-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.5-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  </span></summary>
       
 
-      ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.13-1``,  ``0.5.13-0``,  ``0.5.12-0``,  ``0.5.10-0``,  ``0.5.4-1``,  ``0.5.4-0``
+      ``0.7.5-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.13-1``,  ``0.5.13-0``,  ``0.5.12-0``,  ``0.5.10-0``,  ``0.5.4-1``,  ``0.5.4-0``
 
       
       .. raw:: html
@@ -43,14 +43,14 @@ presto
 
    
    :depends biopython: ``>=1.81``
-   :depends blast: ``>=2.5``
-   :depends muscle: ``>=3.8``
+   :depends blast: 
+   :depends muscle: 
    :depends numpy: ``>=1.8``
    :depends packaging: 
    :depends pandas: ``>=0.24``
    :depends python: ``>=3``
    :depends scipy: ``>=0.14``
-   :depends vsearch: ``>=2.3.2``
+   :depends vsearch: 
    :requirements:
 
    :additional platforms:
@@ -101,7 +101,7 @@ presto
 
     <script>
         var package = "presto";
-        var versions = ["0.7.4","0.7.3","0.7.2","0.7.1","0.7.0"];
+        var versions = ["0.7.5","0.7.4","0.7.3","0.7.2","0.7.1"];
     </script>
 
 

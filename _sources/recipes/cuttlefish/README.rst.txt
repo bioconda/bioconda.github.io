@@ -31,10 +31,10 @@ cuttlefish
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.0-4</code>,  <code>2.2.0-3</code>,  <code>2.2.0-2</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.0-5</code>,  <code>2.2.0-4</code>,  <code>2.2.0-3</code>,  <code>2.2.0-2</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.0-1</code>,  </span></summary>
       
 
-      ``2.2.0-4``,  ``2.2.0-3``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``2.2.0-5``,  ``2.2.0-4``,  ``2.2.0-3``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -44,8 +44,9 @@ cuttlefish
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=12``
    :depends libjemalloc: ``>=5.3.0``
+   :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 

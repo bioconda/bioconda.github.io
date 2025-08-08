@@ -31,10 +31,10 @@ checkm-genome
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.4-0</code>,  <code>1.2.3-1</code>,  <code>1.2.3-0</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.11-0</code>,  <code>1.1.10-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.2.3-1</code>,  <code>1.2.3-0</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.11-0</code>,  </span></summary>
       
 
-      ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.11-0``,  ``1.1.10-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.18-0``,  ``1.0.17-0``,  ``1.0.16-0``,  ``1.0.13-1``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.7-0``,  ``1.0.5-0``
+      ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.11-0``,  ``1.1.10-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.18-0``,  ``1.0.17-0``,  ``1.0.16-0``,  ``1.0.13-1``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.7-0``,  ``1.0.5-0``
 
       
       .. raw:: html
@@ -44,15 +44,14 @@ checkm-genome
 
    
    :depends dendropy: ``>=4.5.2``
-   :depends hmmer: ``>=3.1b1``
+   :depends hmmer: 
    :depends matplotlib-base: ``>=3.5.1``
    :depends numpy: ``>=1.21.3``
-   :depends pplacer: ``1.1.alpha19``
-   :depends prodigal: ``>=2.6.1``
+   :depends pplacer: ``1.1.alpha20``
+   :depends prodigal: 
    :depends pysam: ``>=0.19.0``
    :depends python: ``>=3.6,<3.12``
    :depends scipy: ``>=1.7.3``
-   :depends wget: 
    :requirements:
 
    :additional platforms:
@@ -103,7 +102,7 @@ checkm-genome
 
     <script>
         var package = "checkm-genome";
-        var versions = ["1.2.4","1.2.3","1.2.3","1.2.2","1.2.2"];
+        var versions = ["1.2.4","1.2.4","1.2.3","1.2.3","1.2.2"];
     </script>
 
 

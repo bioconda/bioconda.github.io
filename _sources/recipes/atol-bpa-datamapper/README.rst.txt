@@ -26,9 +26,17 @@ atol-bpa-datamapper
    :versions:
       
       
+      .. raw:: html
 
-      ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.1.11-0</code>,  <code>0.1.10-0</code>,  <code>0.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-0</code>,  <code>0.1.6-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4-0</code>,  <code>0.1.3-0</code>,  </span></summary>
+      
 
+      ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -86,7 +94,7 @@ atol-bpa-datamapper
 
     <script>
         var package = "atol-bpa-datamapper";
-        var versions = ["0.1.9","0.1.8","0.1.7","0.1.6","0.1.5"];
+        var versions = ["0.1.11","0.1.10","0.1.9","0.1.8","0.1.7"];
     </script>
 
 

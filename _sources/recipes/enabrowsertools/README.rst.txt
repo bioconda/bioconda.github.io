@@ -27,7 +27,7 @@ enabrowsertools
       
       
 
-      ``1.7.1-0``,  ``1.5.4-0``
+      ``1.7.2-0``,  ``1.7.1-0``,  ``1.5.4-0``
 
       
 
@@ -84,7 +84,7 @@ enabrowsertools
 
     <script>
         var package = "enabrowsertools";
-        var versions = ["1.7.1","1.5.4"];
+        var versions = ["1.7.2","1.7.1","1.5.4"];
     </script>
 
 

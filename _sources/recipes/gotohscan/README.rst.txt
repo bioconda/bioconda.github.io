@@ -10,10 +10,10 @@ gotohscan
    :replaces_section_title:
    :noindex:
 
-   a search tool that finds shorter sequences \(usually genes\) in large database sequences \(chromosomes\, genomes\, ..\) by computing all semi\-global alignments.
+   A search tool that finds shorter sequences \(usually genes\) in large database sequences \(chromosomes\, genomes\, ..\) by computing all semi\-global alignments.
 
-   :homepage: http://www.bioinf.uni-leipzig.de/
-   :license: GPL
+   :homepage: https://www.bioinf.uni-leipzig.de
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`gotohscan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gotohscan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gotohscan/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ gotohscan
       
       
 
-      ``1.3-7``,  ``1.3-6``,  ``1.3-5``,  ``1.3-4``,  ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``
+      ``2.0-0``,  ``1.3-7``,  ``1.3-6``,  ``1.3-5``,  ``1.3-4``,  ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``
 
       
 
@@ -36,6 +36,10 @@ gotohscan
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -83,7 +87,7 @@ gotohscan
 
     <script>
         var package = "gotohscan";
-        var versions = ["1.3","1.3","1.3","1.3","1.3"];
+        var versions = ["2.0","1.3","1.3","1.3","1.3"];
     </script>
 
 

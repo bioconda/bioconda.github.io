@@ -13,7 +13,9 @@ dinopy
    DNA input and output library for Python and Cython. Includes reader and writer for FASTA and FASTQ files\, support for samtools faidx files\, and generators for solid and gapped q\-grams \(k\-mers\).
 
    :homepage: https://bitbucket.org/HenningTimm/dinopy
-   :license: MIT
+   :documentation: https://dinopy.readthedocs.io/en/latest
+   
+   :license: MIT / MIT
    :recipe: /`dinopy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dinopy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dinopy/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ dinopy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.2.1-5</code>,  <code>2.2.1-3</code>,  <code>2.2.1-2</code>,  <code>2.2.1-0</code>,  <code>2.2.0-3</code>,  <code>2.2.0-2</code>,  <code>2.2.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.0-2</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.2.1-5</code>,  <code>2.2.1-3</code>,  <code>2.2.1-2</code>,  <code>2.2.1-0</code>,  <code>2.2.0-3</code>,  <code>2.2.0-2</code>,  </span></summary>
       
 
-      ``3.0.0-1``,  ``3.0.0-0``,  ``2.2.1-5``,  ``2.2.1-3``,  ``2.2.1-2``,  ``2.2.1-0``,  ``2.2.0-3``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.1-0``,  ``1.2.0-0``
+      ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.2.1-5``,  ``2.2.1-3``,  ``2.2.1-2``,  ``2.2.1-0``,  ``2.2.0-3``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.1-0``,  ``1.2.0-0``
 
       
       .. raw:: html
@@ -40,10 +42,10 @@ dinopy
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends numpy: ``1.21.*``
-   :depends numpy: ``>=1.21.6,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends numpy: ``1.26.4.*``
+   :depends numpy: ``>=1.26.4,<2.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:
@@ -52,7 +54,7 @@ dinopy
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -100,7 +102,7 @@ dinopy
 
     <script>
         var package = "dinopy";
-        var versions = ["3.0.0","3.0.0","2.2.1","2.2.1","2.2.1"];
+        var versions = ["3.0.0","3.0.0","3.0.0","2.2.1","2.2.1"];
     </script>
 
 

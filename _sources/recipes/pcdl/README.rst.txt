@@ -13,7 +13,7 @@ pcdl
    physicell data loader \(pcdl\) provides a platform independent\, python3 based\, pip installable interface to transform output\, generated with the PhysiCell agent based modeling framework\, into standard formats.
 
    :homepage: https://github.com/elmbeech/physicelldataloader
-   :documentation: https://github.com/elmbeech/physicelldataloader/blob/v3.3.7/README.md
+   :documentation: https://github.com/elmbeech/physicelldataloader/blob/v3.3.8/README.md
    
    :license: BSD / BSD-3-Clause
    :recipe: /`pcdl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pcdl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pcdl/meta.yaml>`_
@@ -29,7 +29,7 @@ pcdl
       
       
 
-      ``3.3.7-0``,  ``3.3.6-0``
+      ``3.3.8-0``,  ``3.3.7-0``,  ``3.3.6-0``
 
       
 
@@ -40,7 +40,7 @@ pcdl
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: ``>=2.2.2``
-   :depends python: ``>=3.8,<4.0``
+   :depends python: ``>=3.9,<4.0``
    :depends requests: 
    :depends scipy: ``>=1.13.0``
    :depends vtk: 
@@ -94,7 +94,7 @@ pcdl
 
     <script>
         var package = "pcdl";
-        var versions = ["3.3.7","3.3.6"];
+        var versions = ["3.3.8","3.3.7","3.3.6"];
     </script>
 
 

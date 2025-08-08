@@ -10,10 +10,10 @@ latch
    :replaces_section_title:
    :noindex:
 
-   The Latch python bioinformatics framework
+   The Latch python bioinformatics framework.
 
    :homepage: https://github.com/latchbio/latch
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`latch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/latch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/latch/meta.yaml>`_
 
    It takes months to build infrastructure with the compute\, storage\, and user\-friendly interface necessary to run bioinformatics pipelines at scale.
@@ -38,10 +38,10 @@ latch
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.65.2-0</code>,  <code>2.65.1-0</code>,  <code>2.64.1-0</code>,  <code>2.64.0-0</code>,  <code>2.63.1-0</code>,  <code>2.62.3-0</code>,  <code>2.62.2-0</code>,  <code>2.62.1-0</code>,  <code>2.62.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.66.3-0</code>,  <code>2.66.1-0</code>,  <code>2.65.7-0</code>,  <code>2.65.6-0</code>,  <code>2.65.5-0</code>,  <code>2.65.3-0</code>,  <code>2.65.2-0</code>,  <code>2.65.1-0</code>,  <code>2.64.1-0</code>,  </span></summary>
       
 
-      ``2.65.2-0``,  ``2.65.1-0``,  ``2.64.1-0``,  ``2.64.0-0``,  ``2.63.1-0``,  ``2.62.3-0``,  ``2.62.2-0``,  ``2.62.1-0``,  ``2.62.0-0``,  ``2.61.2-0``,  ``2.61.1-0``,  ``2.61.0-0``,  ``2.59.1-0``,  ``2.59.0-0``,  ``2.58.2-0``,  ``2.58.0-0``,  ``2.57.3-0``,  ``2.57.2-0``,  ``2.19.11-0``
+      ``2.66.3-0``,  ``2.66.1-0``,  ``2.65.7-0``,  ``2.65.6-0``,  ``2.65.5-0``,  ``2.65.3-0``,  ``2.65.2-0``,  ``2.65.1-0``,  ``2.64.1-0``,  ``2.64.0-0``,  ``2.63.1-0``,  ``2.62.3-0``,  ``2.62.2-0``,  ``2.62.1-0``,  ``2.62.0-0``,  ``2.61.2-0``,  ``2.61.1-0``,  ``2.61.0-0``,  ``2.59.1-0``,  ``2.59.0-0``,  ``2.58.2-0``,  ``2.58.0-0``,  ``2.57.3-0``,  ``2.57.2-0``,  ``2.19.11-0``
 
       
       .. raw:: html
@@ -128,7 +128,7 @@ latch
 
     <script>
         var package = "latch";
-        var versions = ["2.65.2","2.65.1","2.64.1","2.64.0","2.63.1"];
+        var versions = ["2.66.3","2.66.1","2.65.7","2.65.6","2.65.5"];
     </script>
 
 

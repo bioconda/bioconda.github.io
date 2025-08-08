@@ -10,10 +10,10 @@ perl-dbd-sqlite
    :replaces_section_title:
    :noindex:
 
-   Self Contained RDBMS in a DBI Driver
+   Self Contained RDBMS in a DBI Driver.
 
    :homepage: https://metacpan.org/pod/DBD::SQLite
-   :license: Perl
+   :license: Perl_5
    :recipe: /`perl-dbd-sqlite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-dbd-sqlite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-dbd-sqlite/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ perl-dbd-sqlite
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.76-1</code>,  <code>1.76-0</code>,  <code>1.72-2</code>,  <code>1.72-1</code>,  <code>1.72-0</code>,  <code>1.70-2</code>,  <code>1.70-1</code>,  <code>1.70-0</code>,  <code>1.64-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.76-2</code>,  <code>1.76-1</code>,  <code>1.76-0</code>,  <code>1.72-2</code>,  <code>1.72-1</code>,  <code>1.72-0</code>,  <code>1.70-2</code>,  <code>1.70-1</code>,  <code>1.70-0</code>,  </span></summary>
       
 
-      ``1.76-1``,  ``1.76-0``,  ``1.72-2``,  ``1.72-1``,  ``1.72-0``,  ``1.70-2``,  ``1.70-1``,  ``1.70-0``,  ``1.64-1``,  ``1.64-0``,  ``1.62-1``,  ``1.62-0``,  ``1.60-0``,  ``1.58-0``,  ``1.50-3``,  ``1.50-2``,  ``1.50-1``
+      ``1.76-2``,  ``1.76-1``,  ``1.76-0``,  ``1.72-2``,  ``1.72-1``,  ``1.72-0``,  ``1.70-2``,  ``1.70-1``,  ``1.70-0``,  ``1.64-1``,  ``1.64-0``,  ``1.62-1``,  ``1.62-0``,  ``1.60-0``,  ``1.58-0``,  ``1.50-3``,  ``1.50-2``,  ``1.50-1``
 
       
       .. raw:: html
@@ -49,7 +49,7 @@ perl-dbd-sqlite
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -97,7 +97,7 @@ perl-dbd-sqlite
 
     <script>
         var package = "perl-dbd-sqlite";
-        var versions = ["1.76","1.76","1.72","1.72","1.72"];
+        var versions = ["1.76","1.76","1.76","1.72","1.72"];
     </script>
 
 

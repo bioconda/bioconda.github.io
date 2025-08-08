@@ -12,8 +12,10 @@ liana
 
    LIANA\+\: a one\-stop\-shop framework for cell\-cell communication
 
-   :homepage: https://liana-py.readthedocs.io
-   :license: GPL-3.0-or-later
+   :homepage: https://github.com/saezlab/liana-py
+   :documentation: https://liana-py.readthedocs.io
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`liana <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/liana>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/liana/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ liana
       
       
 
-      ``1.5.1-0``,  ``1.4.0-1``,  ``1.4.0-0``
+      ``1.5.1-1``,  ``1.5.1-0``,  ``1.4.0-1``,  ``1.4.0-0``
 
       
 
@@ -55,10 +57,6 @@ liana
    :requirements:
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -106,7 +104,7 @@ liana
 
     <script>
         var package = "liana";
-        var versions = ["1.5.1","1.4.0","1.4.0"];
+        var versions = ["1.5.1","1.5.1","1.4.0","1.4.0"];
     </script>
 
 

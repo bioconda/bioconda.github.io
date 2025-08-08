@@ -27,7 +27,7 @@ alen
       
       
 
-      ``0.3.1-0``
+      ``0.3.2-0``,  ``0.3.1-0``
 
       
 
@@ -86,7 +86,7 @@ alen
 
     <script>
         var package = "alen";
-        var versions = ["0.3.1"];
+        var versions = ["0.3.2","0.3.1"];
     </script>
 
 

@@ -10,11 +10,14 @@ gencore
    :replaces_section_title:
    :noindex:
 
-   Generate consensus reads to reduce sequencing noises and remove duplications
+   Generate consensus reads to reduce sequencing noises and remove duplications.
 
    :homepage: https://github.com/OpenGene/gencore
-   :license: MIT
+   :documentation: https://github.com/OpenGene/gencore/blob/v0.17.2/README.md
+   
+   :license: MIT / MIT
    :recipe: /`gencore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gencore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gencore/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s12859-019-3280-9`, biotools: :biotools:`gencore`
 
    
 
@@ -27,19 +30,22 @@ gencore
       
       
 
-      ``0.17.2-3``,  ``0.17.2-2``,  ``0.17.2-1``,  ``0.17.2-0``,  ``0.17.1-0``,  ``0.17.0-0``,  ``0.13.0-1``,  ``0.13.0-0``
+      ``0.17.2-4``,  ``0.17.2-3``,  ``0.17.2-2``,  ``0.17.2-1``,  ``0.17.2-0``,  ``0.17.1-0``,  ``0.17.0-0``,  ``0.13.0-1``,  ``0.13.0-0``
 
       
 
    
-   :depends htslib: ``>=1.10.2,<1.23.0a0``
+   :depends htslib: ``>=1.10.2,<1.11.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.2.13,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -87,7 +93,7 @@ gencore
 
     <script>
         var package = "gencore";
-        var versions = ["0.17.2","0.17.2","0.17.2","0.17.2","0.17.1"];
+        var versions = ["0.17.2","0.17.2","0.17.2","0.17.2","0.17.2"];
     </script>
 
 

@@ -10,12 +10,12 @@ gndiff
    :replaces_section_title:
    :noindex:
 
-   GNdiff compares scientific names from two files
+   GNdiff compares scientific names from two files.
 
    :homepage: https://github.com/gnames/gndiff
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`gndiff <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gndiff>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gndiff/meta.yaml>`_
-   :links: doi: :doi:`https://doi.org/10.5281/zenodo.5111561`
+   :links: doi: :doi:`10.5281/zenodo.5111561`
 
    
 
@@ -28,7 +28,7 @@ gndiff
       
       
 
-      ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
 
@@ -36,6 +36,10 @@ gndiff
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -83,7 +87,7 @@ gndiff
 
     <script>
         var package = "gndiff";
-        var versions = ["0.3.0","0.2.1","0.2.0"];
+        var versions = ["0.3.0","0.3.0","0.2.1","0.2.0"];
     </script>
 
 

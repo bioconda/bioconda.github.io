@@ -12,8 +12,8 @@ libmems
 
    libMems is a freely available software development library to support DNA string matching and comparative genomics.
 
-   :homepage: http://darlinglab.org/mauve/
-   :license: GPL / GPL-2.0
+   :homepage: http://darlinglab.org/mauve
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`libmems <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libmems>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libmems/meta.yaml>`_
 
    
@@ -27,17 +27,22 @@ libmems
       
       
 
-      ``1.6.0-6``,  ``1.6.0-5``,  ``1.6.0-4``,  ``1.6.0-3``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``
+      ``1.6.0-8``,  ``1.6.0-6``,  ``1.6.0-5``,  ``1.6.0-4``,  ``1.6.0-3``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libgenome: ``>=1.3.1,<1.4.0a0``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libgenome: ``>=1.3.1,<2.0a0``
+   :depends libmuscle: ``>=3.7,<4.0a0``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

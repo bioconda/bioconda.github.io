@@ -36,19 +36,22 @@ plasann
       
       
 
-      ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.3-0``,  ``1.0.1-0``
+      ``1.1.3-0``,  ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.3-0``,  ``1.0.1-0``
 
       
 
    
-   :depends biopython: ``>=1.78``
+   :depends biopython: ``>=1.79``
    :depends blast: 
    :depends gdown: ``>=4.0.0``
-   :depends matplotlib-base: ``>=3.0.0``
-   :depends pandas: ``>=1.0.0``
+   :depends infernal: 
+   :depends matplotlib-base: ``>=3.5.0``
+   :depends numpy: ``>=1.21.0``
+   :depends pandas: ``>=1.3.0``
    :depends prodigal: 
-   :depends pycirclize: ``>=0.1.0``
-   :depends python: ``>=3.6``
+   :depends pycirclize: ``>=0.3.0``
+   :depends python: ``>=3.8``
+   :depends requests: ``>=2.25.0``
    :requirements:
 
    :additional platforms:
@@ -99,7 +102,7 @@ plasann
 
     <script>
         var package = "plasann";
-        var versions = ["1.0.8","1.0.8","1.0.3","1.0.1"];
+        var versions = ["1.1.3","1.0.8","1.0.8","1.0.3","1.0.1"];
     </script>
 
 

@@ -10,10 +10,10 @@ rtk
    :replaces_section_title:
    :noindex:
 
-   rtk \- rarefaction toolkit for OTU tables
+   rtk \- rarefaction toolkit for OTU tables.
 
-   :homepage: https://github.com/hildebra/Rarefaction/
-   :license: GPLv2
+   :homepage: https://github.com/hildebra/Rarefaction
+   :license: GPL-2.0-or-later
    :recipe: /`rtk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rtk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rtk/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ rtk
       
       
 
-      ``0.93.2-5``,  ``0.93.2-4``,  ``0.93.2-3``,  ``0.93.2-2``,  ``0.93.2-1``,  ``0.93.2-0``,  ``0.93.1-0``
+      ``0.93.2-6``,  ``0.93.2-5``,  ``0.93.2-4``,  ``0.93.2-3``,  ``0.93.2-2``,  ``0.93.2-1``,  ``0.93.2-0``,  ``0.93.1-0``
 
       
 
@@ -35,10 +35,13 @@ rtk
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

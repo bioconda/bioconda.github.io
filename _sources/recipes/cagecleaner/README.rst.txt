@@ -30,11 +30,12 @@ cagecleaner
       
       
 
-      ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``
+      ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``
 
       
 
    
+   :depends any2fasta: 
    :depends biopython: 
    :depends cblaster: ``>=1.3.20``
    :depends entrez-direct: 
@@ -93,7 +94,7 @@ cagecleaner
 
     <script>
         var package = "cagecleaner";
-        var versions = ["1.2.3","1.2.2","1.2.1","1.2.0"];
+        var versions = ["1.3.1","1.3.0","1.2.3","1.2.2","1.2.1"];
     </script>
 
 

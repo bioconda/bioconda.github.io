@@ -10,11 +10,14 @@ hapcut2
    :replaces_section_title:
    :noindex:
 
-   Tools for haplotype assembly from sequence data
+   Tools for haplotype assembly from sequence data.
 
-   :homepage: https://github.com/vibansal/HapCUT2/
+   :homepage: https://github.com/vibansal/HapCUT2
+   :documentation: https://github.com/vibansal/HapCUT2/blob/v1.3.4/README.md
+   
    :license: BSD / BSD-2-Clause
    :recipe: /`hapcut2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hapcut2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hapcut2/meta.yaml>`_
+   :links: doi: :doi:`10.1101/gr.213462.116`
 
    
 
@@ -28,10 +31,10 @@ hapcut2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.4-1</code>,  <code>1.3.4-0</code>,  <code>1.3.3-5</code>,  <code>1.3.3-4</code>,  <code>1.3.3-3</code>,  <code>1.3.3-2</code>,  <code>1.3.3-1</code>,  <code>1.3.3-0</code>,  <code>1.3.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.4-2</code>,  <code>1.3.4-1</code>,  <code>1.3.4-0</code>,  <code>1.3.3-5</code>,  <code>1.3.3-4</code>,  <code>1.3.3-3</code>,  <code>1.3.3-2</code>,  <code>1.3.3-1</code>,  <code>1.3.3-0</code>,  </span></summary>
       
 
-      ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.3-5``,  ``1.3.3-4``,  ``1.3.3-3``,  ``1.3.3-2``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.2-1``,  ``1.2-0``,  ``1.1-0``
+      ``1.3.4-2``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.3-5``,  ``1.3.3-4``,  ``1.3.3-3``,  ``1.3.3-2``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.2-1``,  ``1.2-0``,  ``1.1-0``
 
       
       .. raw:: html
@@ -40,16 +43,19 @@ hapcut2
       
 
    
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
    :depends libgcc: ``>=13``
-   :depends liblzma: ``>=5.6.3,<6.0a0``
+   :depends liblzma: ``>=5.8.1,<6.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends pysam: 
    :depends python: ``>=3.5``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -97,7 +103,7 @@ hapcut2
 
     <script>
         var package = "hapcut2";
-        var versions = ["1.3.4","1.3.4","1.3.3","1.3.3","1.3.3"];
+        var versions = ["1.3.4","1.3.4","1.3.4","1.3.3","1.3.3"];
     </script>
 
 

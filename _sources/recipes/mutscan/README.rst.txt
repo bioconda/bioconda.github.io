@@ -10,11 +10,14 @@ mutscan
    :replaces_section_title:
    :noindex:
 
-   Detect and visualize target mutations by scanning FastQ files directly
+   Detect and visualize target mutations by scanning FastQ files directly.
 
-   :homepage: https://github.com/OpenGene/genefuse
-   :license: MIT
+   :homepage: https://github.com/OpenGene/MutScan
+   :documentation: https://github.com/OpenGene/MutScan/blob/v1.14.1/README.md
+   
+   :license: MIT / MIT
    :recipe: /`mutscan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mutscan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mutscan/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s12859-018-2024-6`
 
    
 
@@ -27,7 +30,7 @@ mutscan
       
       
 
-      ``1.14.0-5``,  ``1.14.0-4``,  ``1.14.0-3``,  ``1.14.0-2``,  ``1.14.0-1``,  ``1.14.0-0``
+      ``1.14.1-0``,  ``1.14.0-5``,  ``1.14.0-4``,  ``1.14.0-3``,  ``1.14.0-2``,  ``1.14.0-1``,  ``1.14.0-0``
 
       
 
@@ -35,10 +38,13 @@ mutscan
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -86,7 +92,7 @@ mutscan
 
     <script>
         var package = "mutscan";
-        var versions = ["1.14.0","1.14.0","1.14.0","1.14.0","1.14.0"];
+        var versions = ["1.14.1","1.14.0","1.14.0","1.14.0","1.14.0"];
     </script>
 
 

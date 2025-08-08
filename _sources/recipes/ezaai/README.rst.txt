@@ -10,14 +10,11 @@ ezaai
    :replaces_section_title:
    :noindex:
 
-   EzAAI is a suite of workflows for improved AAI calculation performance 
-   along with the novel module that provides hierarchical clustering analysis 
-   and dendrogram representation.
+   EzAAI is a suite of workflows for improved AAI calculation performance along with the novel module that provides hierarchical clustering analysis and dendrogram representation.
 
-
-   :homepage: http://leb.snu.ac.kr/ezaai
+   :homepage: https://endixk.github.io/ezaai
    :developer docs: https://github.com/endixk/ezaai
-   :license: GPL3 / GNU General Public v3 (GPLv3)
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`ezaai <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ezaai>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ezaai/meta.yaml>`_
    :links: doi: :doi:`10.1007/s12275-021-1154-0`
 
@@ -32,7 +29,7 @@ ezaai
       
       
 
-      ``1.2.3-0``,  ``1.2.2-0``
+      ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``
 
       
 
@@ -92,7 +89,7 @@ ezaai
 
     <script>
         var package = "ezaai";
-        var versions = ["1.2.3","1.2.2"];
+        var versions = ["1.2.4","1.2.3","1.2.2"];
     </script>
 
 

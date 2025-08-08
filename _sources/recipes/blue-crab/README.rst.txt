@@ -13,6 +13,8 @@ blue-crab
    lossless nanopore pod5 \<\=\> s\/blow5 file conversion
 
    :homepage: https://github.com/Psy-Fer/blue-crab
+   :documentation: https://github.com/Psy-Fer/blue-crab/blob/v0.4.0/docs/cli.md
+   
    :license: MIT / MIT
    :recipe: /`blue-crab <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blue-crab>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blue-crab/meta.yaml>`_
 
@@ -27,21 +29,18 @@ blue-crab
       
       
 
-      ``0.4.0-0``
+      ``0.4.0-1``,  ``0.4.0-0``
 
       
 
    
    :depends pod5: ``>=0.3.27``
+   :depends pyarrow: ``20``
    :depends pyslow5: ``>=1.3.0``
    :depends python: ``>=3.9``
    :requirements:
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -89,7 +88,7 @@ blue-crab
 
     <script>
         var package = "blue-crab";
-        var versions = ["0.4.0"];
+        var versions = ["0.4.0","0.4.0"];
     </script>
 
 

@@ -13,7 +13,7 @@ oligomap
    Oligomap is a program for fast identification of nearly\-perfect matches of small RNAs in sequence databases.
 
    :homepage: https://github.com/zavolanlab/oligomap
-   :license: GNU Affero General Public License v3.0
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`oligomap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/oligomap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/oligomap/meta.yaml>`_
    :links: doi: :doi:`10.1016/j.ymeth.2007.10.002`
 
@@ -28,7 +28,7 @@ oligomap
       
       
 
-      ``1.0.1-1``,  ``1.0.1-0``
+      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
 
       
 
@@ -36,10 +36,13 @@ oligomap
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -87,7 +90,7 @@ oligomap
 
     <script>
         var package = "oligomap";
-        var versions = ["1.0.1","1.0.1"];
+        var versions = ["1.0.1","1.0.1","1.0.1"];
     </script>
 
 

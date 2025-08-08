@@ -12,8 +12,8 @@ yara
 
    Yara is an exact tool for aligning DNA sequencing reads to reference genomes.
 
-   :homepage: https://github.com/seqan/seqan/blob/develop/apps/yara/README.rst
-   :license: BSD / https://raw.githubusercontent.com/seqan/seqan/develop/apps/yara/LICENSE
+   :homepage: https://github.com/seqan/seqan/tree/seqan-v2.5.1/apps/yara/README.rst
+   :license: BSD / BSD 3-Clause
    :recipe: /`yara <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yara>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yara/meta.yaml>`_
    :links: biotools: :biotools:`yara`, doi: :doi:`10.1093/nar/gkt005`
 
@@ -27,16 +27,24 @@ yara
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.3-0``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``0.9.10-1``,  ``0.9.10-0``,  ``0.9.9-0``,  ``0.9.6-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.5-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-3</code>,  <code>1.0.2-2</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  <code>0.9.10-1</code>,  <code>0.9.10-0</code>,  <code>0.9.9-0</code>,  </span></summary>
+      
 
+      ``1.0.5-0``,  ``1.0.3-0``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``0.9.10-1``,  ``0.9.10-0``,  ``0.9.9-0``,  ``0.9.6-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bzip2: 
+   :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
-   :depends zlib: 
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -91,7 +99,7 @@ yara
 
     <script>
         var package = "yara";
-        var versions = ["1.0.3","1.0.2","1.0.2","1.0.2","1.0.2"];
+        var versions = ["1.0.5","1.0.3","1.0.2","1.0.2","1.0.2"];
     </script>
 
 

@@ -10,12 +10,14 @@ mupbwt
    :replaces_section_title:
    :noindex:
 
-   A light pbwt\-based index
+   A light pbwt\-based index.
 
    :homepage: https://github.com/dlcgold/muPBWT
-   :license: GPL-3.0-or-later
+   :documentation: https://github.com/dlcgold/muPBWT/blob/v0.1.2/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`mupbwt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mupbwt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mupbwt/meta.yaml>`_
-   :links: biotools: :biotools:`mupbwt`
+   :links: biotools: :biotools:`mupbwt`, doi: :doi:`10.1093/bioinformatics/btad552`
 
    
 
@@ -28,18 +30,24 @@ mupbwt
       
       
 
-      ``0.1.2-4``,  ``0.1.2-3``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``
+      ``0.1.2-5``,  ``0.1.2-4``,  ``0.1.2-3``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``
 
       
 
    
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

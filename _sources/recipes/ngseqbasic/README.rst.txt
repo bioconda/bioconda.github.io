@@ -13,7 +13,7 @@ ngseqbasic
    Basic ChIP\/DNaseI\/ATAC analysis \- from FASTQ to visualisation of tracks\, in one command.
 
    :homepage: http://userweb.molbiol.ox.ac.uk/public/telenius/NGseqBasicManual/external/instructionsBioconda.html
-   :license: GPL-3.0
+   :license: GPL-3.0-or-later
    :recipe: /`ngseqbasic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngseqbasic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngseqbasic/meta.yaml>`_
 
    
@@ -27,22 +27,24 @@ ngseqbasic
       
       
 
-      ``2.0.1-1``,  ``2.0.1-0``
+      ``20.0-0``,  ``2.0.1-1``,  ``2.0.1-0``
 
       
 
    
-   :depends bedtools: ``==2.17.0``
-   :depends bowtie: ``==1.0.0``
-   :depends bowtie2: ``==2.3.0``
-   :depends flash: ``==1.2.11``
-   :depends perl: ``5.22.0.1``
-   :depends samtools: ``==0.1.19``
-   :depends trim-galore: ``==0.4.1``
-   :depends ucsc-bedclip: ``==332``
-   :depends ucsc-bedgraphpack: ``==332``
-   :depends ucsc-bedgraphtobigwig: ``==332``
-   :depends ucsc-bedtobigbed: ``==332``
+   :depends bedtools: ``>=2.31.0``
+   :depends bowtie: ``>=1.3.1``
+   :depends bowtie2: ``>=2.5.1``
+   :depends fastqc: ``>=0.12.1``
+   :depends flash2: ``>=2.2.00``
+   :depends perl: ``>=5.32.1``
+   :depends samtools: ``>=1.18``
+   :depends trim-galore: ``>=0.4.1``
+   :depends ucsc-bedclip: ``>=357``
+   :depends ucsc-bedgraphpack: ``>=357``
+   :depends ucsc-bedgraphtobigwig: ``>=357``
+   :depends ucsc-bedtobigbed: ``>=357``
+   :depends ucsc-bigbedtobed: ``>=357``
    :requirements:
 
    :additional platforms:
@@ -93,7 +95,7 @@ ngseqbasic
 
     <script>
         var package = "ngseqbasic";
-        var versions = ["2.0.1","2.0.1"];
+        var versions = ["20.0","2.0.1","2.0.1"];
     </script>
 
 

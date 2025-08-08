@@ -27,7 +27,7 @@ snakemake-interface-logger-plugins
       
       
 
-      ``1.2.3-0``
+      ``1.2.4-0``,  ``1.2.3-0``
 
       
 
@@ -84,7 +84,7 @@ snakemake-interface-logger-plugins
 
     <script>
         var package = "snakemake-interface-logger-plugins";
-        var versions = ["1.2.3"];
+        var versions = ["1.2.4","1.2.3"];
     </script>
 
 

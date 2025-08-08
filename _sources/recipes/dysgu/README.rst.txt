@@ -13,7 +13,7 @@ dysgu
    A collection of tools for calling structural variants using short or long reads.
 
    :homepage: https://github.com/kcleal/dysgu
-   :documentation: https://github.com/kcleal/dysgu/blob/v1.8.5/README.rst
+   :documentation: https://github.com/kcleal/dysgu/blob/v1.8.6/README.rst
    
    :license: MIT / MIT
    :recipe: /`dysgu <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dysgu>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dysgu/meta.yaml>`_
@@ -31,10 +31,10 @@ dysgu
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.8.5-0</code>,  <code>1.8.4-0</code>,  <code>1.8.3-0</code>,  <code>1.8.2-1</code>,  <code>1.8.2-0</code>,  <code>1.8.1-1</code>,  <code>1.8.1-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8.6-0</code>,  <code>1.8.5-0</code>,  <code>1.8.4-0</code>,  <code>1.8.3-0</code>,  <code>1.8.2-1</code>,  <code>1.8.2-0</code>,  <code>1.8.1-1</code>,  <code>1.8.1-0</code>,  <code>1.8.0-1</code>,  </span></summary>
       
 
-      ``1.8.5-0``,  ``1.8.4-0``,  ``1.8.3-0``,  ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.7-0``,  ``1.6.6-0``,  ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.4-1``,  ``1.6.4-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.16-0``
+      ``1.8.6-0``,  ``1.8.5-0``,  ``1.8.4-0``,  ``1.8.3-0``,  ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.7-0``,  ``1.6.6-0``,  ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.4-1``,  ``1.6.4-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.16-0``
 
       
       .. raw:: html
@@ -47,8 +47,8 @@ dysgu
    :depends click: ``>=8.0``
    :depends cython: ``>=0.29``
    :depends htslib: ``>=1.12``
-   :depends htslib: ``>=1.21,<1.23.0a0``
-   :depends libcurl: ``>=8.13.0,<9.0a0``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
+   :depends libcurl: ``>=8.14.1,<9.0a0``
    :depends libgcc: ``>=13``
    :depends liblzma: ``>=5.8.1,<6.0a0``
    :depends libstdcxx: ``>=13``
@@ -58,17 +58,17 @@ dysgu
    :depends numpy: ``>=1.18``
    :depends numpy: ``>=1.21,<3``
    :depends openssl: ``>=1.1``
-   :depends openssl: ``>=3.5.0,<4.0a0``
+   :depends openssl: ``>=3.5.2,<4.0a0``
    :depends pandas: ``>=1.2``
    :depends pysam: ``>=0.23``
-   :depends pysam: ``>=0.23.0,<0.24.0a0``
+   :depends pysam: ``>=0.23.3,<0.24.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends scikit-learn: ``>=0.22``
    :depends scipy: ``>=1.7``
    :depends sortedcontainers: 
    :depends superintervals: ``>=0.2.10``
-   :depends superintervals: ``>=0.2.10,<0.3.0a0``
+   :depends superintervals: ``>=0.3.5,<0.4.0a0``
    :requirements:
 
    :additional platforms:
@@ -123,7 +123,7 @@ dysgu
 
     <script>
         var package = "dysgu";
-        var versions = ["1.8.5","1.8.4","1.8.3","1.8.2","1.8.2"];
+        var versions = ["1.8.6","1.8.5","1.8.4","1.8.3","1.8.2"];
     </script>
 
 

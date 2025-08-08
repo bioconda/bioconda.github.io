@@ -10,10 +10,10 @@ trtools
    :replaces_section_title:
    :noindex:
 
-   Toolkit for genome\-wide analysis of tandem repeats
+   Toolkit for genome\-wide analysis of tandem repeats.
 
    :homepage: https://github.com/gymreklab/TRTools
-   :documentation: https://trtools.readthedocs.io/
+   :documentation: https://trtools.readthedocs.io
    
    :license: MIT / MIT
    :recipe: /`trtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trtools/meta.yaml>`_
@@ -31,10 +31,10 @@ trtools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>6.1.0-0</code>,  <code>6.0.2-0</code>,  <code>6.0.1-0</code>,  <code>6.0.0-0</code>,  <code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.2-0</code>,  <code>5.0.1-0</code>,  <code>4.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>6.1.0-1</code>,  <code>6.1.0-0</code>,  <code>6.0.2-0</code>,  <code>6.0.1-0</code>,  <code>6.0.0-0</code>,  <code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.2-0</code>,  <code>5.0.1-0</code>,  </span></summary>
       
 
-      ``6.1.0-0``,  ``6.0.2-0``,  ``6.0.1-0``,  ``6.0.0-0``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.2-0``,  ``5.0.1-0``,  ``4.2.1-0``,  ``4.1.0-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``2.0.18-1``,  ``2.0.18-0``
+      ``6.1.0-1``,  ``6.1.0-0``,  ``6.0.2-0``,  ``6.0.1-0``,  ``6.0.0-0``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.2-0``,  ``5.0.1-0``,  ``4.2.1-0``,  ``4.1.0-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``2.0.18-1``,  ``2.0.18-0``
 
       
       .. raw:: html
@@ -58,10 +58,6 @@ trtools
    :requirements:
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>osx-arm64</code>,  <code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -109,7 +105,7 @@ trtools
 
     <script>
         var package = "trtools";
-        var versions = ["6.1.0","6.0.2","6.0.1","6.0.0","5.1.1"];
+        var versions = ["6.1.0","6.1.0","6.0.2","6.0.1","6.0.0"];
     </script>
 
 

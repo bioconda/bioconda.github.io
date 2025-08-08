@@ -10,7 +10,7 @@ strawc
    :replaces_section_title:
    :noindex:
 
-   Straw bound with pybind11
+   Straw bound with pybind11.
 
    :homepage: https://github.com/aidenlab/straw
    :license: MIT / MIT
@@ -27,22 +27,25 @@ strawc
       
       
 
-      ``0.0.2.1-5``,  ``0.0.2.1-4``,  ``0.0.2.1-3``,  ``0.0.2.1-2``,  ``0.0.2.1-1``,  ``0.0.2.1-0``
+      ``0.0.2.1-6``,  ``0.0.2.1-5``,  ``0.0.2.1-4``,  ``0.0.2.1-3``,  ``0.0.2.1-2``,  ``0.0.2.1-1``,  ``0.0.2.1-0``
 
       
 
    
-   :depends libcurl: ``>=8.10.1,<9.0a0``
+   :depends libcurl: ``>=8.14.1,<9.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends pybind11: ``>=2.4``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

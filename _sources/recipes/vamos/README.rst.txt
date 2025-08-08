@@ -28,10 +28,10 @@ vamos
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.6-0</code>,  <code>2.1.5-1</code>,  <code>2.1.5-0</code>,  <code>2.1.4-0</code>,  <code>2.1.3-1</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-1</code>,  <code>2.1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.7-0</code>,  <code>2.1.6-0</code>,  <code>2.1.5-1</code>,  <code>2.1.5-0</code>,  <code>2.1.4-0</code>,  <code>2.1.3-1</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-1</code>,  </span></summary>
       
 
-      ``2.1.6-0``,  ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``1.3.6-1``,  ``1.3.6-0``,  ``1.3.5.2-0``,  ``1.2.6-0``
+      ``2.1.7-0``,  ``2.1.6-0``,  ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``1.3.6-1``,  ``1.3.6-0``,  ``1.3.5.2-0``,  ``1.2.6-0``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ vamos
       
 
    
-   :depends htslib: ``>=1.22,<1.23.0a0``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
@@ -98,7 +98,7 @@ vamos
 
     <script>
         var package = "vamos";
-        var versions = ["2.1.6","2.1.5","2.1.5","2.1.4","2.1.3"];
+        var versions = ["2.1.7","2.1.6","2.1.5","2.1.5","2.1.4"];
     </script>
 
 

@@ -10,7 +10,7 @@ ms2rescore
    :replaces_section_title:
    :noindex:
 
-   Modular and user\-friendly platform for AI\-assisted rescoring of peptide identifications
+   Modular and user\-friendly platform for AI\-assisted rescoring of peptide identifications.
 
    :homepage: https://github.com/compomics/ms2rescore
    :documentation: https://ms2rescore.readthedocs.io/en/stable
@@ -30,10 +30,10 @@ ms2rescore
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.1.5-0</code>,  <code>3.1.4-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-0</code>,  <code>3.0.1-2</code>,  <code>3.0.1-1</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>3.0.0b1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1.5-1</code>,  <code>3.1.5-0</code>,  <code>3.1.4-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-0</code>,  <code>3.0.1-2</code>,  <code>3.0.1-1</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  </span></summary>
       
 
-      ``3.1.5-0``,  ``3.1.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-0``,  ``3.0.0b1-1``,  ``3.0.0b1-0``
+      ``3.1.5-1``,  ``3.1.5-0``,  ``3.1.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-0``,  ``3.0.0b1-1``,  ``3.0.0b1-0``
 
       
       .. raw:: html
@@ -59,15 +59,11 @@ ms2rescore
    :depends psm-utils: ``>=1.1``
    :depends pyopenms: ``>=3.0``
    :depends pyteomics: ``>=4.7.2``
-   :depends python: 
+   :depends python: ``>=3.9``
    :depends rich: ``>=12``
    :requirements:
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -115,7 +111,7 @@ ms2rescore
 
     <script>
         var package = "ms2rescore";
-        var versions = ["3.1.5","3.1.4","3.0.3","3.0.2","3.0.1"];
+        var versions = ["3.1.5","3.1.5","3.1.4","3.0.3","3.0.2"];
     </script>
 
 

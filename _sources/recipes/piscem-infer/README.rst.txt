@@ -27,11 +27,15 @@ piscem-infer
       
       
 
-      ``0.6.0-0``,  ``0.5.2-0``
+      ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.2-0``
 
       
 
    
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -82,7 +86,7 @@ piscem-infer
 
     <script>
         var package = "piscem-infer";
-        var versions = ["0.6.0","0.5.2"];
+        var versions = ["0.7.0","0.6.0","0.5.2"];
     </script>
 
 

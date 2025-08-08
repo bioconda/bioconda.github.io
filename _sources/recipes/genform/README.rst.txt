@@ -10,10 +10,10 @@ genform
    :replaces_section_title:
    :noindex:
 
-   Generation of molecular formulas by high\-resolution MS and MS\/MS data
+   Generation of molecular formulas by high\-resolution MS and MS\/MS data.
 
-   :homepage: https://sourceforge.net/projects/genform/
-   :license: GPL-2.0-only
+   :homepage: https://sourceforge.net/projects/genform
+   :license: GPL / GPL-2.0-only
    :recipe: /`genform <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genform>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genform/meta.yaml>`_
    :links: doi: :doi:`10.1101/295071`
 
@@ -28,7 +28,7 @@ genform
       
       
 
-      ``r8-5``,  ``r8-4``,  ``r8-3``,  ``r8-2``,  ``r8-1``,  ``r8-0``
+      ``r8-8``,  ``r8-5``,  ``r8-4``,  ``r8-3``,  ``r8-2``,  ``r8-1``,  ``r8-0``
 
       
 
@@ -38,6 +38,10 @@ genform
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

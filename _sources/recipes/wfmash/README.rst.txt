@@ -10,10 +10,12 @@ wfmash
    :replaces_section_title:
    :noindex:
 
-   a pangenome\-scale aligner
+   A pangenome\-scale aligner.
 
    :homepage: https://github.com/waveygang/wfmash
-   :license: MIT
+   :documentation: https://github.com/waveygang/wfmash/blob/v0.24.1/README.md
+   
+   :license: MIT / MIT
    :recipe: /`wfmash <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wfmash>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wfmash/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ wfmash
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.23.0-0</code>,  <code>0.22.0-1</code>,  <code>0.22.0-0</code>,  <code>0.21.0-0</code>,  <code>0.20.0-0</code>,  <code>0.19.0-0</code>,  <code>0.18.0-0</code>,  <code>0.17.0-0</code>,  <code>0.16.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.24.1-0</code>,  <code>0.24.0-0</code>,  <code>0.23.0-0</code>,  <code>0.22.0-1</code>,  <code>0.22.0-0</code>,  <code>0.21.0-0</code>,  <code>0.20.0-0</code>,  <code>0.19.0-0</code>,  <code>0.18.0-0</code>,  </span></summary>
       
 
-      ``0.23.0-0``,  ``0.22.0-1``,  ``0.22.0-0``,  ``0.21.0-0``,  ``0.20.0-0``,  ``0.19.0-0``,  ``0.18.0-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.0-1``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.1-0``,  ``0.13.0-0``,  ``0.12.6-1``,  ``0.12.6-0``,  ``0.12.5-0``,  ``0.10.5-0``,  ``0.10.4-0``,  ``0.10.3-2``,  ``0.10.3-1``,  ``0.10.3-0``,  ``0.10.2-1``,  ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-2``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.1-3``,  ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-2``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.1-0``
+      ``0.24.1-0``,  ``0.24.0-0``,  ``0.23.0-0``,  ``0.22.0-1``,  ``0.22.0-0``,  ``0.21.0-0``,  ``0.20.0-0``,  ``0.19.0-0``,  ``0.18.0-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.0-1``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.1-0``,  ``0.13.0-0``,  ``0.12.6-1``,  ``0.12.6-0``,  ``0.12.5-0``,  ``0.10.5-0``,  ``0.10.4-0``,  ``0.10.3-2``,  ``0.10.3-1``,  ``0.10.3-0``,  ``0.10.2-1``,  ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-2``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.1-3``,  ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-2``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.1-0``
 
       
       .. raw:: html
@@ -40,16 +42,17 @@ wfmash
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libjemalloc: ``>=5.3.0``
    :depends liblzma: ``>=5.8.1,<6.0a0``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends python: ``>=3.7``
-   :depends xz: 
    :requirements:
 
    :additional platforms:
@@ -104,7 +107,7 @@ wfmash
 
     <script>
         var package = "wfmash";
-        var versions = ["0.23.0","0.22.0","0.22.0","0.21.0","0.20.0"];
+        var versions = ["0.24.1","0.24.0","0.23.0","0.22.0","0.22.0"];
     </script>
 
 

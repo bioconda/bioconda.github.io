@@ -34,7 +34,7 @@ coot-headless
       
       
 
-      ``1.1.17-2``,  ``1.1.17-1``,  ``1.1.17-0``
+      ``1.1.18-0``,  ``1.1.17-3``,  ``1.1.17-2``,  ``1.1.17-1``,  ``1.1.17-0``
 
       
 
@@ -57,13 +57,13 @@ coot-headless
    :depends libopenblas: 
    :depends libpng: ``>=1.6.50,<1.7.0a0``
    :depends librdkit-dev: ``>=2024.9.5,<2025.0a0``
-   :depends libsqlite: ``>=3.50.2,<4.0a0``
+   :depends libsqlite: ``>=3.50.4,<4.0a0``
    :depends libstdcxx: ``>=13``
    :depends libxml2: ``>=2.13.8,<2.14.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends mmdb2: ``>=2.0.22,<3.0a0``
    :depends numpy: ``>=1.26.4,<2.0a0``
-   :depends pixman: ``>=0.46.2,<1.0a0``
+   :depends pixman: ``>=0.46.4,<1.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends rdkit: ``>=2024.9.5,<2025.0a0``
@@ -122,7 +122,7 @@ coot-headless
 
     <script>
         var package = "coot-headless";
-        var versions = ["1.1.17","1.1.17","1.1.17"];
+        var versions = ["1.1.18","1.1.17","1.1.17","1.1.17","1.1.17"];
     </script>
 
 

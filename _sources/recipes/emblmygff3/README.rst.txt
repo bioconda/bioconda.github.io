@@ -13,7 +13,9 @@ emblmygff3
    An efficient way to convert gff3 annotation files into EMBL format ready to submit.
 
    :homepage: https://github.com/NBISweden/EMBLmyGFF3
-   :license: GPL / GPLv3
+   :documentation: https://github.com/NBISweden/EMBLmyGFF3/blob/v2.4/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`emblmygff3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/emblmygff3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/emblmygff3/meta.yaml>`_
 
    
@@ -27,15 +29,15 @@ emblmygff3
       
       
 
-      ``2.3-0``,  ``2.2-1``,  ``2.2-0``,  ``2.1-0``,  ``2-1``,  ``2-0``,  ``1.3-0``
+      ``2.4-1``,  ``2.4-0``,  ``2.3-0``,  ``2.2-1``,  ``2.2-0``,  ``2.1-0``,  ``2-1``,  ``2-0``,  ``1.3-0``
 
       
 
    
-   :depends bcbio-gff: ``>=0.6.4``
+   :depends bcbio-gff: ``>=0.7.0``
    :depends biopython: ``>=1.78``
    :depends numpy: ``>=1.22``
-   :depends python: ``>=3.9.0``
+   :depends python: ``>=3.9``
    :requirements:
 
    :additional platforms:
@@ -86,7 +88,7 @@ emblmygff3
 
     <script>
         var package = "emblmygff3";
-        var versions = ["2.3","2.2","2.2","2.1","2"];
+        var versions = ["2.4","2.4","2.3","2.2","2.2"];
     </script>
 
 

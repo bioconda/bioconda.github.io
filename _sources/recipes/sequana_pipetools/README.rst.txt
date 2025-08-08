@@ -13,7 +13,9 @@ sequana_pipetools
    A set of tools to help building or using Sequana pipelines
 
    :homepage: https://github.com/sequana/sequana_pipetools
-   :license: BSD / BSD 3-clause
+   :documentation: https://sequana.readthedocs.io/en/main/
+   
+   :license: BSD / BSD-3-Clause
    :recipe: /`sequana_pipetools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sequana_pipetools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sequana_pipetools/meta.yaml>`_
 
    
@@ -27,21 +29,25 @@ sequana_pipetools
       
       
 
-      ``0.9.4-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.6-0``,  ``0.7.5-0``
+      ``1.2.2-0``,  ``0.9.4-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.6-0``,  ``0.7.5-0``
 
       
 
    
-   :depends aiohttp: 
-   :depends deprecated: 
-   :depends easydev: 
-   :depends importlib_resources: 
-   :depends parse: 
-   :depends pykwalify: 
-   :depends python: 
-   :depends pyyaml: 
-   :depends ruamel.yaml: 
-   :depends tqdm: 
+   :depends aiohttp: ``>=3.8.4``
+   :depends charset-normalizer: ``>=2.0.0,<3.0.0``
+   :depends deprecated: ``>=1.2.13``
+   :depends easydev: ``>=0.12.1``
+   :depends importlib_resources: ``>=5.4.0``
+   :depends packaging: ``>=23.1``
+   :depends parse: ``>=1.19.0``
+   :depends pykwalify: ``>=1.8``
+   :depends python: ``>=3.8``
+   :depends pyyaml: ``>=1.3``
+   :depends requests: 
+   :depends ruamel.yaml: ``>=0.17.32``
+   :depends tqdm: ``>=4.65``
+   :depends versionix: ``>=0.2.0``
    :requirements:
 
    :additional platforms:
@@ -92,7 +98,7 @@ sequana_pipetools
 
     <script>
         var package = "sequana_pipetools";
-        var versions = ["0.9.4","0.9.0","0.8.1","0.8.0","0.7.6"];
+        var versions = ["1.2.2","0.9.4","0.9.0","0.8.1","0.8.0"];
     </script>
 
 

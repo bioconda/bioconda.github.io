@@ -13,6 +13,9 @@ bcbio-gff
    A Python library to read and write Generic Feature Format \(GFF\).
 
    :homepage: https://github.com/chapmanb/bcbb/tree/master/gff
+   :documentation: https://biopython.org/wiki/GFF_Parsing
+   
+   :developer docs: https://github.com/chapmanb/bcbb
    :license: Biopython License Agreement
    :recipe: /`bcbio-gff <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcbio-gff>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcbio-gff/meta.yaml>`_
 
@@ -28,10 +31,10 @@ bcbio-gff
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.1-2</code>,  <code>0.7.1-1</code>,  <code>0.7.1-0</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.9-1</code>,  <code>0.6.9-0</code>,  <code>0.6.8-0</code>,  <code>0.6.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.1-3</code>,  <code>0.7.1-2</code>,  <code>0.7.1-1</code>,  <code>0.7.1-0</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.9-1</code>,  <code>0.6.9-0</code>,  <code>0.6.8-0</code>,  </span></summary>
       
 
-      ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.9-1``,  ``0.6.9-0``,  ``0.6.8-0``,  ``0.6.7-0``,  ``0.6.6-1``,  ``0.6.6-0``,  ``0.6.4-2``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.2-2``,  ``0.6.2-1``,  ``0.6.2-0``
+      ``0.7.1-3``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.9-1``,  ``0.6.9-0``,  ``0.6.8-0``,  ``0.6.7-0``,  ``0.6.6-1``,  ``0.6.6-0``,  ``0.6.4-2``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.2-2``,  ``0.6.2-1``,  ``0.6.2-0``
 
       
       .. raw:: html
@@ -40,9 +43,9 @@ bcbio-gff
       
 
    
-   :depends biopython: ``<=1.86``
+   :depends biopython: 
    :depends bx-python: 
-   :depends python: 
+   :depends python: ``>=3``
    :depends six: 
    :requirements:
 
@@ -94,7 +97,7 @@ bcbio-gff
 
     <script>
         var package = "bcbio-gff";
-        var versions = ["0.7.1","0.7.1","0.7.1","0.7.0","0.7.0"];
+        var versions = ["0.7.1","0.7.1","0.7.1","0.7.1","0.7.0"];
     </script>
 
 

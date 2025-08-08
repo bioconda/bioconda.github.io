@@ -10,11 +10,9 @@ sequana
    :replaces_section_title:
    :noindex:
 
-   A set of standalone application and snakemake pipelines dedicated to NGS \(new generation sequencing\) analysis
+   A set of standalone application and snakemake pipelines dedicated to NGS \(new generation sequencing\) analysis.
 
-   :homepage: http://sequana.readthedocs.io/
-   :documentation: https://sequana.readthedocs.io
-   
+   :homepage: https://sequana.readthedocs.io
    :developer docs: https://github.com/sequana/sequana
    :license: BSD / BSD-3-Clause
    :recipe: /`sequana <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sequana>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sequana/meta.yaml>`_
@@ -31,10 +29,10 @@ sequana
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.16.4-0</code>,  <code>0.16.3-0</code>,  <code>0.16.1-0</code>,  <code>0.15.4-0</code>,  <code>0.15.3-0</code>,  <code>0.15.2-0</code>,  <code>0.15.1-0</code>,  <code>0.14.3-0</code>,  <code>0.14.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.19.2-0</code>,  <code>0.16.4-0</code>,  <code>0.16.3-0</code>,  <code>0.16.1-0</code>,  <code>0.15.4-0</code>,  <code>0.15.3-0</code>,  <code>0.15.2-0</code>,  <code>0.15.1-0</code>,  <code>0.14.3-0</code>,  </span></summary>
       
 
-      ``0.16.4-0``,  ``0.16.3-0``,  ``0.16.1-0``,  ``0.15.4-0``,  ``0.15.3-0``,  ``0.15.2-0``,  ``0.15.1-0``,  ``0.14.3-0``,  ``0.14.2-0``,  ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.2-0``,  ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.0-0``,  ``0.6.3.post1-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.19.2-0``,  ``0.16.4-0``,  ``0.16.3-0``,  ``0.16.1-0``,  ``0.15.4-0``,  ``0.15.3-0``,  ``0.15.2-0``,  ``0.15.1-0``,  ``0.14.3-0``,  ``0.14.2-0``,  ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.2-0``,  ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.0-0``,  ``0.6.3.post1-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -44,38 +42,42 @@ sequana
 
    
    :depends adjusttext: 
+   :depends aiohttp: 
    :depends bioservices: ``>=1.10.0``
    :depends brokenaxes: 
    :depends bx-python: 
-   :depends click: ``>=8.1.0``
-   :depends colorlog: ``>=3.1.0``
+   :depends click: ``>=8.1.8``
+   :depends colorlog: ``>=6.9.0``
    :depends colormap: 
    :depends cookiecutter: ``<2``
    :depends cython: 
    :depends deprecated: 
    :depends docutils: 
-   :depends easydev: ``>=0.11.1``
+   :depends easydev: 
    :depends gseapy: 
    :depends itolapi: 
    :depends lxml: 
-   :depends matplotlib-base: ``<3.6``
+   :depends matplotlib-base: ``>3``
    :depends matplotlib-venn: 
    :depends mock: 
-   :depends multiqc: ``<=1.11``
+   :depends multiqc: ``>=1.18,<=1.27``
+   :depends natsort: ``>=8.4.0``
    :depends packaging: 
-   :depends pandas: ``>=0.22``
+   :depends pandas: ``>=2.2.3``
    :depends plotly: 
    :depends psutil: 
+   :depends pulp: ``<2.8.0``
    :depends pykwalify: 
-   :depends pysam: ``>=0.16``
-   :depends python: ``>=3.8``
+   :depends pysam: ``>=0.22.1``
+   :depends python: ``>=3.10``
+   :depends python-kaleido: ``>=0.1``
    :depends rich-click: 
    :depends ruamel.yaml: ``>=0.16.0``
    :depends scikit-learn: 
    :depends scipy: 
-   :depends seaborn: 
+   :depends seaborn-base: 
    :depends selenium: 
-   :depends snakemake-minimal: ``>=7.16``
+   :depends snakemake-minimal: ``<8``
    :depends statsmodels: 
    :depends tqdm: 
    :depends upsetplot: 
@@ -131,7 +133,7 @@ sequana
 
     <script>
         var package = "sequana";
-        var versions = ["0.16.4","0.16.3","0.16.1","0.15.4","0.15.3"];
+        var versions = ["0.19.2","0.16.4","0.16.3","0.16.1","0.15.4"];
     </script>
 
 

@@ -10,9 +10,9 @@ biocode
    :replaces_section_title:
    :noindex:
 
-   Bioinformatics code libraries and scripts
+   Bioinformatics code libraries and scripts.
 
-   :homepage: http://github.com/jorvis/biocode
+   :homepage: https://github.com/jorvis/biocode
    :license: MIT / MIT
    :recipe: /`biocode <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biocode>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biocode/meta.yaml>`_
 
@@ -27,7 +27,7 @@ biocode
       
       
 
-      ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-0``
+      ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-0``
 
       
 
@@ -38,6 +38,7 @@ biocode
    :depends numpy: 
    :depends python: ``>=3.6``
    :depends python-igraph: 
+   :depends setuptools: 
    :depends taxadb: 
    :requirements:
 
@@ -89,7 +90,7 @@ biocode
 
     <script>
         var package = "biocode";
-        var versions = ["0.12.0","0.11.0","0.10.0"];
+        var versions = ["0.12.1","0.12.0","0.11.0","0.10.0"];
     </script>
 
 

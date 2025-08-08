@@ -16,7 +16,7 @@ haplogrep3
    :documentation: https://haplogrep.readthedocs.io/en/latest
    
    :developer docs: https://github.com/genepi/haplogrep3
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`haplogrep3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haplogrep3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haplogrep3/meta.yaml>`_
    :links: doi: :doi:`10.1093/nar/gkad284`
 
@@ -31,7 +31,7 @@ haplogrep3
       
       
 
-      ``3.2.2-0``
+      ``3.2.2-1``,  ``3.2.2-0``
 
       
 
@@ -40,10 +40,6 @@ haplogrep3
    :requirements:
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -91,7 +87,7 @@ haplogrep3
 
     <script>
         var package = "haplogrep3";
-        var versions = ["3.2.2"];
+        var versions = ["3.2.2","3.2.2"];
     </script>
 
 

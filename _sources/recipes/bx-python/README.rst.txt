@@ -10,10 +10,10 @@ bx-python
    :replaces_section_title:
    :noindex:
 
-   Tools for manipulating biological data\, particularly multiple sequence alignments
+   Tools for manipulating biological data\, particularly multiple sequence alignments.
 
    :homepage: https://github.com/bxlab/bx-python
-   :documentation: https://buildmedia.readthedocs.org/media/pdf/bx-python/latest/bx-python.pdf
+   :documentation: https://bx-python.readthedocs.io/en/latest
    
    :license: MIT / MIT
    :recipe: /`bx-python <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bx-python>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bx-python/meta.yaml>`_
@@ -31,10 +31,10 @@ bx-python
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.13.0-1</code>,  <code>0.13.0-0</code>,  <code>0.12.0-0</code>,  <code>0.11.0-3</code>,  <code>0.11.0-2</code>,  <code>0.11.0-1</code>,  <code>0.11.0-0</code>,  <code>0.10.0-0</code>,  <code>0.9.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.14.0-0</code>,  <code>0.13.0-2</code>,  <code>0.13.0-1</code>,  <code>0.13.0-0</code>,  <code>0.12.0-0</code>,  <code>0.11.0-3</code>,  <code>0.11.0-2</code>,  <code>0.11.0-1</code>,  <code>0.11.0-0</code>,  </span></summary>
       
 
-      ``0.13.0-1``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.0-3``,  ``0.11.0-2``,  ``0.11.0-1``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.13-1``,  ``0.8.13-0``,  ``0.8.12-0``,  ``0.8.11-1``,  ``0.8.11-0``,  ``0.8.10-0``,  ``0.8.9-2``,  ``0.8.9-1``,  ``0.8.9-0``,  ``0.8.8-1``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.7.4-0``,  ``0.7.3-1``,  ``0.7.3-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.1-1``,  ``0.7.1-0``
+      ``0.14.0-0``,  ``0.13.0-2``,  ``0.13.0-1``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.0-3``,  ``0.11.0-2``,  ``0.11.0-1``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.13-1``,  ``0.8.13-0``,  ``0.8.12-0``,  ``0.8.11-1``,  ``0.8.11-0``,  ``0.8.10-0``,  ``0.8.9-2``,  ``0.8.9-1``,  ``0.8.9-0``,  ``0.8.8-1``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.7.4-0``,  ``0.7.3-1``,  ``0.7.3-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.1-1``,  ``0.7.1-0``
 
       
       .. raw:: html
@@ -47,7 +47,7 @@ bx-python
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends numpy: ``>=1.21,<3``
-   :depends numpy: ``>=2.2.0,<3.0a0``
+   :depends numpy: ``>=1.25``
    :depends pyparsing: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
@@ -105,7 +105,7 @@ bx-python
 
     <script>
         var package = "bx-python";
-        var versions = ["0.13.0","0.13.0","0.12.0","0.11.0","0.11.0"];
+        var versions = ["0.14.0","0.13.0","0.13.0","0.13.0","0.12.0"];
     </script>
 
 

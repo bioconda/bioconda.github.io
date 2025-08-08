@@ -10,10 +10,10 @@ perl-bio-samtools
    :replaces_section_title:
    :noindex:
 
-   Read SAM\/BAM files
+   Read SAM\/BAM files.
 
-   :homepage: http://search.cpan.org/~lds/Bio-SamTools-1.43/
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/Bio::DB::Sam
+   :license: Perl_5
    :recipe: /`perl-bio-samtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-samtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-samtools/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-bio-samtools
       
       
 
-      ``1.43-5``,  ``1.43-4``,  ``1.43-3``,  ``1.43-2``,  ``1.43-1``,  ``1.43-0``
+      ``1.43-6``,  ``1.43-5``,  ``1.43-4``,  ``1.43-3``,  ``1.43-2``,  ``1.43-1``,  ``1.43-0``
 
       
 
@@ -37,15 +37,14 @@ perl-bio-samtools
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-bioperl-core: ``1.7.8.*``
    :depends perl-module-build: ``0.4234.*``
-   :depends samtools: ``>=0.1.19,<1.0a0``
-   :depends zlib: 
+   :depends samtools: ``>=0.1.19,<0.2.0a0``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

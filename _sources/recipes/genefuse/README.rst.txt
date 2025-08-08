@@ -10,11 +10,12 @@ genefuse
    :replaces_section_title:
    :noindex:
 
-   Gene fusion detection and visualization
+   Gene fusion detection and visualization.
 
    :homepage: https://github.com/OpenGene/genefuse
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`genefuse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genefuse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genefuse/meta.yaml>`_
+   :links: doi: :doi:`10.7150/ijbs.24626`
 
    
 
@@ -27,7 +28,7 @@ genefuse
       
       
 
-      ``0.8.0-3``,  ``0.8.0-2``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``
+      ``0.8.0-4``,  ``0.8.0-3``,  ``0.8.0-2``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``
 
       
 
@@ -35,10 +36,13 @@ genefuse
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -86,7 +90,7 @@ genefuse
 
     <script>
         var package = "genefuse";
-        var versions = ["0.8.0","0.8.0","0.8.0","0.8.0","0.6.1"];
+        var versions = ["0.8.0","0.8.0","0.8.0","0.8.0","0.8.0"];
     </script>
 
 

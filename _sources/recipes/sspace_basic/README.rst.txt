@@ -10,10 +10,10 @@ sspace_basic
    :replaces_section_title:
    :noindex:
 
-   Scaffolding Pre\-Assemblies After Contig Extension \(SSPACE\)
+   Scaffolding Pre\-Assemblies After Contig Extension \(SSPACE\).
 
    :homepage: https://github.com/nsoranzo/sspace_basic
-   :license: GPL-2.0-only
+   :license: GPL / GPL-2.0-only
    :recipe: /`sspace_basic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sspace_basic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sspace_basic/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ sspace_basic
       
       
 
-      ``2.1.1-1``,  ``2.1.1-0``
+      ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``
 
       
 
@@ -38,10 +38,6 @@ sspace_basic
    :requirements:
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -89,7 +85,7 @@ sspace_basic
 
     <script>
         var package = "sspace_basic";
-        var versions = ["2.1.1","2.1.1"];
+        var versions = ["2.1.1","2.1.1","2.1.1"];
     </script>
 
 

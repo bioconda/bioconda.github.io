@@ -27,7 +27,7 @@ snakemake-executor-plugin-cluster-sync
       
       
 
-      ``0.1.4-0``,  ``0.1.3-0``
+      ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
 
       
 
@@ -85,7 +85,7 @@ snakemake-executor-plugin-cluster-sync
 
     <script>
         var package = "snakemake-executor-plugin-cluster-sync";
-        var versions = ["0.1.4","0.1.3"];
+        var versions = ["0.1.5","0.1.4","0.1.3"];
     </script>
 
 

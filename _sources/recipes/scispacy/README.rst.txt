@@ -28,7 +28,7 @@ scispacy
       
       
 
-      ``0.5.5-0``
+      ``0.5.5-1``,  ``0.5.5-0``
 
       
 
@@ -93,7 +93,7 @@ scispacy
 
     <script>
         var package = "scispacy";
-        var versions = ["0.5.5"];
+        var versions = ["0.5.5","0.5.5"];
     </script>
 
 

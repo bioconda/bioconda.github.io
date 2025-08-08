@@ -13,7 +13,9 @@ lsabgc
    lsaBGC\-Pan \- refined workflow for pan\-BGC\-omic evolutionary investigations.
 
    :homepage: https://github.com/Kalan-Lab/lsaBGC-Pan
-   :license: BSD / BSD-3-Clause license
+   :documentation: https://github.com/Kalan-Lab/lsaBGC-Pan/wiki
+   
+   :license: BSD / BSD-3-Clause
    :recipe: /`lsabgc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lsabgc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lsabgc/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ lsabgc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.4-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-3</code>,  <code>1.1.2-2</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.7-1</code>,  <code>1.1.7-0</code>,  <code>1.1.6-1</code>,  <code>1.1.6-0</code>,  <code>1.1.5-0</code>,  <code>1.1.4-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-3</code>,  <code>1.1.2-2</code>,  </span></summary>
       
 
-      ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``
+      ``1.1.7-1``,  ``1.1.7-0``,  ``1.1.6-1``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,7 +42,6 @@ lsabgc
       
 
    
-   :depends axel: 
    :depends bioconductor-ggtree: 
    :depends biopython: 
    :depends gecco: ``0.9.6.*``
@@ -66,7 +67,7 @@ lsabgc
    :depends scikit-learn: 
    :depends tar: 
    :depends xlsxwriter: ``>=3.0.3``
-   :depends zol: ``>=1.5.17``
+   :depends zol: ``>=1.6.3``
    :requirements:
 
    :additional platforms:
@@ -117,7 +118,7 @@ lsabgc
 
     <script>
         var package = "lsabgc";
-        var versions = ["1.1.4","1.1.3","1.1.2","1.1.2","1.1.2"];
+        var versions = ["1.1.7","1.1.7","1.1.6","1.1.6","1.1.5"];
     </script>
 
 

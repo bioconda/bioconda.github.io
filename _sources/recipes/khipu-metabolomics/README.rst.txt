@@ -10,10 +10,10 @@ khipu-metabolomics
    :replaces_section_title:
    :noindex:
 
-   Python library for generalized\, low\-level annotation of MS metabolomics
+   Python library for generalized\, low\-level annotation of MS metabolomics.
 
    :homepage: https://github.com/shuzhao-li/khipu
-   :license: BSD-3-Clause
+   :license: BSD / BSD-3-Clause
    :recipe: /`khipu-metabolomics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/khipu-metabolomics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/khipu-metabolomics/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ khipu-metabolomics
       
       
 
-      ``2.0.2-0``,  ``2.0.1-0``,  ``0.7.5-0``
+      ``2.0.4-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``0.7.5-0``
 
       
 
@@ -93,7 +93,7 @@ khipu-metabolomics
 
     <script>
         var package = "khipu-metabolomics";
-        var versions = ["2.0.2","2.0.1","0.7.5"];
+        var versions = ["2.0.4","2.0.2","2.0.1","0.7.5"];
     </script>
 
 

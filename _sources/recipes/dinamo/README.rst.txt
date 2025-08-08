@@ -10,10 +10,10 @@ dinamo
    :replaces_section_title:
    :noindex:
 
-   An exact and efficient method for IUPAC motif discovery in DNA sequences
+   An exact and efficient method for IUPAC motif discovery in DNA sequences.
 
-   :homepage: https://github.com/bonsai-team/DiNAMO/
-   :license: `GPL / GPLv3 <https://raw.githubusercontent.com/bonsai-team/DiNAMO/master/LICENSE>`_
+   :homepage: https://github.com/bonsai-team/DiNAMO
+   :license: `GPL3 / GPL-3.0-or-later <https://raw.githubusercontent.com/bonsai-team/DiNAMO/V1.0/LICENSE>`_
    :recipe: /`dinamo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dinamo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dinamo/meta.yaml>`_
    :links: biotools: :biotools:`DiNAMO`, doi: :doi:`10.1186/s12859-018-2215-1`
 
@@ -28,7 +28,7 @@ dinamo
       
       
 
-      ``1.0-7``,  ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0-8``,  ``1.0-7``,  ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
@@ -42,7 +42,7 @@ dinamo
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

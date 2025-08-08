@@ -30,18 +30,18 @@ svision-pro
       
       
 
-      ``2.4-0``,  ``2.3-0``,  ``2.2-0``,  ``2.1-0``,  ``2.0-0``
+      ``2.4-1``,  ``2.4-0``,  ``2.3-0``,  ``2.2-0``,  ``2.1-0``,  ``2.0-0``
 
       
 
    
    :depends numpy: ``1.21.6``
-   :depends pillow: ``9.2.0``
-   :depends py-opencv: ``>=4.5.3``
-   :depends pysam: ``>=0.20.0``
-   :depends python: ``>=3.7.9``
+   :depends pillow: 
+   :depends py-opencv: 
+   :depends pysam: 
+   :depends python: ``<3.8``
    :depends pytorch: ``1.10.1``
-   :depends scipy: ``1.7.3``
+   :depends scipy: 
    :requirements:
 
    :additional platforms:
@@ -92,7 +92,7 @@ svision-pro
 
     <script>
         var package = "svision-pro";
-        var versions = ["2.4","2.3","2.2","2.1","2.0"];
+        var versions = ["2.4","2.4","2.3","2.2","2.1"];
     </script>
 
 

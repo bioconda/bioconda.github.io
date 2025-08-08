@@ -1,35 +1,35 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'bio-unicorn'
+.. title:: Package Recipe 'enhjoerning'
 .. highlight: bash
 
-bio-unicorn
+enhjoerning
 ===========
 
-.. conda:recipe:: bio-unicorn
+.. conda:recipe:: enhjoerning
    :replaces_section_title:
    :noindex:
 
    A tool for computing statistics on short read alignments.
 
    :homepage: https://github.com/GeoGenetics/unicorn
-   :documentation: https://github.com/GeoGenetics/unicorn/blob/v1.0.0/README.md
+   :documentation: https://github.com/GeoGenetics/unicorn/blob/v2.0.3/README.md
    
    :license: MIT / MIT
-   :recipe: /`bio-unicorn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bio-unicorn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bio-unicorn/meta.yaml>`_
+   :recipe: /`enhjoerning <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/enhjoerning>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/enhjoerning/meta.yaml>`_
 
    
 
 
-.. conda:package:: bio-unicorn
+.. conda:package:: enhjoerning
 
-   |downloads_bio-unicorn| |docker_bio-unicorn|
+   |downloads_enhjoerning| |docker_enhjoerning|
 
    :versions:
       
       
 
-      ``1.0.0-0``
+      ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``
 
       
 
@@ -37,6 +37,7 @@ bio-unicorn
    :depends htslib: ``>=1.10``
    :depends htslib: ``>=1.22.1,<1.23.0a0``
    :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -59,39 +60,39 @@ bio-unicorn
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install bio-unicorn
+      mamba install enhjoerning
 
    and update with::
 
-      mamba update bio-unicorn
+      mamba update enhjoerning
 
   To create a new environment, run::
 
-      mamba create --name myenvname bio-unicorn
+      mamba create --name myenvname enhjoerning
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/bio-unicorn:<tag>
+      docker pull quay.io/biocontainers/enhjoerning:<tag>
 
-   (see `bio-unicorn/tags`_ for valid values for ``<tag>``)
+   (see `enhjoerning/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_bio-unicorn| image:: https://img.shields.io/conda/dn/bioconda/bio-unicorn.svg?style=flat
-   :target: https://anaconda.org/bioconda/bio-unicorn
+.. |downloads_enhjoerning| image:: https://img.shields.io/conda/dn/bioconda/enhjoerning.svg?style=flat
+   :target: https://anaconda.org/bioconda/enhjoerning
    :alt:   (downloads)
-.. |docker_bio-unicorn| image:: https://quay.io/repository/biocontainers/bio-unicorn/status
-   :target: https://quay.io/repository/biocontainers/bio-unicorn
-.. _`bio-unicorn/tags`: https://quay.io/repository/biocontainers/bio-unicorn?tab=tags
+.. |docker_enhjoerning| image:: https://quay.io/repository/biocontainers/enhjoerning/status
+   :target: https://quay.io/repository/biocontainers/enhjoerning
+.. _`enhjoerning/tags`: https://quay.io/repository/biocontainers/enhjoerning?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "bio-unicorn";
-        var versions = ["1.0.0"];
+        var package = "enhjoerning";
+        var versions = ["2.0.3","2.0.2","2.0.1","2.0.0"];
     </script>
 
 
@@ -110,7 +111,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bio-unicorn/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/enhjoerning/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/bio-unicorn/README.html
+   :target: http://bioconda.github.io/recipes/enhjoerning/README.html

@@ -27,11 +27,12 @@ cleanifier
       
       
 
-      ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.2.1-0``,  ``0.1.3-0``,  ``0.1.1-0``
+      ``1.1.2-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.2.1-0``,  ``0.1.3-0``,  ``0.1.1-0``
 
       
 
    
+   :depends bzip2: 
    :depends clangdev: 
    :depends jsonargparse: ``>=4.29.0``
    :depends llvmlite: 
@@ -39,6 +40,8 @@ cleanifier
    :depends numpy: 
    :depends pytest: 
    :depends python: ``>=3.12``
+   :depends tabix: 
+   :depends xz: 
    :requirements:
 
    :additional platforms:
@@ -89,7 +92,7 @@ cleanifier
 
     <script>
         var package = "cleanifier";
-        var versions = ["1.1.0","1.0.1","1.0.0","0.2.1","0.1.3"];
+        var versions = ["1.1.2","1.1.0","1.0.1","1.0.0","0.2.1"];
     </script>
 
 

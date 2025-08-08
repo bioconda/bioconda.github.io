@@ -31,7 +31,7 @@ ensembl-py
       
       
 
-      ``2.1.3-0``
+      ``3.0.0-0``,  ``2.1.3-0``
 
       
 
@@ -88,7 +88,7 @@ ensembl-py
 
     <script>
         var package = "ensembl-py";
-        var versions = ["2.1.3"];
+        var versions = ["3.0.0","2.1.3"];
     </script>
 
 

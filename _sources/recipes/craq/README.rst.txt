@@ -28,15 +28,17 @@ craq
       
       
 
-      ``1.0.9-0``
+      ``1.0.9-1``,  ``1.0.9-0``
 
       
 
    
+   :depends bc: 
    :depends minimap2: ``>=2.17``
    :depends perl: ``>=5``
    :depends python: ``>=3.7``
    :depends python_circos: 
+   :depends samtools: ``>=1.3.1``
    :requirements:
 
    :additional platforms:
@@ -87,7 +89,7 @@ craq
 
     <script>
         var package = "craq";
-        var versions = ["1.0.9"];
+        var versions = ["1.0.9","1.0.9"];
     </script>
 
 

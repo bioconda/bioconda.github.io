@@ -28,16 +28,24 @@ bte
    :versions:
       
       
+      .. raw:: html
 
-      ``0.9.3-0``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.9.3-1</code>,  <code>0.9.3-0</code>,  <code>0.9.0-2</code>,  <code>0.9.0-1</code>,  <code>0.9.0-0</code>,  <code>0.8.4-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  </span></summary>
+      
 
+      ``0.9.3-1``,  ``0.9.3-0``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends boost-cpp: 
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
-   :depends protobuf: ``<4``
+   :depends protobuf: ``<5``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends tbb: ``>=2020.2,<2021.0.0a0``
@@ -96,7 +104,7 @@ bte
 
     <script>
         var package = "bte";
-        var versions = ["0.9.3","0.9.0","0.9.0","0.9.0","0.8.4"];
+        var versions = ["0.9.3","0.9.3","0.9.0","0.9.0","0.9.0"];
     </script>
 
 

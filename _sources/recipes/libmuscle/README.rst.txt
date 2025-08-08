@@ -12,8 +12,8 @@ libmuscle
 
    libMuscle header files.
 
-   :homepage: http://darlinglab.org/mauve/
-   :license: GPLv2
+   :homepage: http://darlinglab.org/mauve
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`libmuscle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libmuscle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libmuscle/meta.yaml>`_
 
    
@@ -27,15 +27,20 @@ libmuscle
       
       
 
-      ``3.7-1``,  ``3.7-0``
+      ``3.7-2``,  ``3.7-1``,  ``3.7-0``
 
       
 
    
-   :depends libgcc-ng: ``>=4.9``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -83,7 +88,7 @@ libmuscle
 
     <script>
         var package = "libmuscle";
-        var versions = ["3.7","3.7"];
+        var versions = ["3.7","3.7","3.7"];
     </script>
 
 

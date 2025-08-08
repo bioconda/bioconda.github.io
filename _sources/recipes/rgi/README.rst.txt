@@ -10,7 +10,7 @@ rgi
    :replaces_section_title:
    :noindex:
 
-   This tool provides a preliminary annotation of your DNA sequence\(s\) based upon the data available in The Comprehensive Antibiotic Resistance Database \(CARD\). Hits to genes tagged with Antibiotic Resistance ontology terms will be highlighted. As CARD expands to include more pathogens\, genomes\, plasmids\, and ontology terms this tool will grow increasingly powerful in providing first\-pass detection of antibiotic resistance associated genes. See license at CARD website
+   This tool provides a preliminary annotation of your DNA sequence\(s\) based upon the data available in The Comprehensive Antibiotic Resistance Database \(CARD\). Hits to genes tagged with Antibiotic Resistance ontology terms will be highlighted. As CARD expands to include more pathogens\, genomes\, plasmids\, and ontology terms this tool will grow increasingly powerful in providing first\-pass detection of antibiotic resistance associated genes. See license at CARD website.
 
    :homepage: https://card.mcmaster.ca
    :license: https://card.mcmaster.ca/about
@@ -29,10 +29,10 @@ rgi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>6.0.4-0</code>,  <code>6.0.3-1</code>,  <code>6.0.3-0</code>,  <code>6.0.2-0</code>,  <code>6.0.1-1</code>,  <code>6.0.1-0</code>,  <code>6.0.0-0</code>,  <code>5.2.1-2</code>,  <code>5.2.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>6.0.4-1</code>,  <code>6.0.4-0</code>,  <code>6.0.3-1</code>,  <code>6.0.3-0</code>,  <code>6.0.2-0</code>,  <code>6.0.1-1</code>,  <code>6.0.1-0</code>,  <code>6.0.0-0</code>,  <code>5.2.1-2</code>,  </span></summary>
       
 
-      ``6.0.4-0``,  ``6.0.3-1``,  ``6.0.3-0``,  ``6.0.2-0``,  ``6.0.1-1``,  ``6.0.1-0``,  ``6.0.0-0``,  ``5.2.1-2``,  ``5.2.1-1``,  ``5.2.1-0``,  ``5.2.0-0``,  ``5.1.1-0``,  ``5.1.0-1``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.2-1``,  ``4.2.2-0``,  ``4.0.3-3``,  ``4.0.3-2``,  ``4.0.3-1``,  ``4.0.3-0``,  ``3.2.1-4``,  ``3.2.1-3``,  ``3.2.1-2``,  ``3.2.1-1``,  ``3.2.0-3``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.1.2-3``,  ``3.1.2-2``,  ``3.1.2-1``,  ``3.1.1-2``,  ``3.1.1-1``,  ``3.1.0-1``,  ``3.1.0-0``
+      ``6.0.4-1``,  ``6.0.4-0``,  ``6.0.3-1``,  ``6.0.3-0``,  ``6.0.2-0``,  ``6.0.1-1``,  ``6.0.1-0``,  ``6.0.0-0``,  ``5.2.1-2``,  ``5.2.1-1``,  ``5.2.1-0``,  ``5.2.0-0``,  ``5.1.1-0``,  ``5.1.0-1``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.2-1``,  ``4.2.2-0``,  ``4.0.3-3``,  ``4.0.3-2``,  ``4.0.3-1``,  ``4.0.3-0``,  ``3.2.1-4``,  ``3.2.1-3``,  ``3.2.1-2``,  ``3.2.1-1``,  ``3.2.0-3``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.1.2-3``,  ``3.1.2-2``,  ``3.1.2-1``,  ``3.1.1-2``,  ``3.1.1-1``,  ``3.1.0-1``,  ``3.1.0-0``
 
       
       .. raw:: html
@@ -65,17 +65,12 @@ rgi
    :depends python: ``>=3.6``
    :depends requests: ``2.31.0``
    :depends samtools: ``1.21.*``
-   :depends seaborn: ``>=0.8.1``
+   :depends seaborn-base: ``>=0.8.1``
    :depends setuptools: ``>=47.1.0``
    :depends wget: 
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -123,7 +118,7 @@ rgi
 
     <script>
         var package = "rgi";
-        var versions = ["6.0.4","6.0.3","6.0.3","6.0.2","6.0.1"];
+        var versions = ["6.0.4","6.0.4","6.0.3","6.0.3","6.0.2"];
     </script>
 
 

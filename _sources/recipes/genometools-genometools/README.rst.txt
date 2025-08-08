@@ -12,11 +12,11 @@ genometools-genometools
 
    GenomeTools genome analysis system.
 
-   :homepage: http://genometools.org/
-   :documentation: http://genometools.org/documentation.html
+   :homepage: https://genometools.org
+   :documentation: https://genometools.org/documentation.html
    
    :developer docs: https://github.com/genometools/genometools
-   :license: BSD
+   :license: BSD / BSD
    :recipe: /`genometools-genometools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genometools-genometools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genometools-genometools/meta.yaml>`_
    :links: doi: :doi:`10.1109/TCBB.2013.68`
 
@@ -32,10 +32,10 @@ genometools-genometools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.5-3</code>,  <code>1.6.5-2</code>,  <code>1.6.5-1</code>,  <code>1.6.5-0</code>,  <code>1.6.4-0</code>,  <code>1.6.3-0</code>,  <code>1.6.2-6</code>,  <code>1.6.2-4</code>,  <code>1.6.2-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.5-4</code>,  <code>1.6.5-3</code>,  <code>1.6.5-2</code>,  <code>1.6.5-1</code>,  <code>1.6.5-0</code>,  <code>1.6.4-0</code>,  <code>1.6.3-0</code>,  <code>1.6.2-6</code>,  <code>1.6.2-4</code>,  </span></summary>
       
 
-      ``1.6.5-3``,  ``1.6.5-2``,  ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.6.2-6``,  ``1.6.2-4``,  ``1.6.2-3``,  ``1.6.2-2``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.10-3``,  ``1.5.10-2``
+      ``1.6.5-4``,  ``1.6.5-3``,  ``1.6.5-2``,  ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.6.2-6``,  ``1.6.2-4``,  ``1.6.2-3``,  ``1.6.2-2``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.10-3``,  ``1.5.10-2``
 
       
       .. raw:: html
@@ -44,14 +44,14 @@ genometools-genometools
       
 
    
-   :depends cairo: ``>=1.18.0,<2.0a0``
+   :depends cairo: ``>=1.18.4,<2.0a0``
    :depends font-ttf-dejavu-sans-mono: 
    :depends fontconfig: 
    :depends gettext: 
-   :depends libgcc-ng: ``>=12``
-   :depends libglib: ``>=2.80.2,<3.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends pango: ``>=1.50.14,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libglib: ``>=2.84.2,<3.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends pango: ``>=1.56.4,<2.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends xorg-libsm: 
@@ -63,7 +63,7 @@ genometools-genometools
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -111,7 +111,7 @@ genometools-genometools
 
     <script>
         var package = "genometools-genometools";
-        var versions = ["1.6.5","1.6.5","1.6.5","1.6.5","1.6.4"];
+        var versions = ["1.6.5","1.6.5","1.6.5","1.6.5","1.6.5"];
     </script>
 
 

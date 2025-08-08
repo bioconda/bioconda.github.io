@@ -13,9 +13,11 @@ winnowmap
    Winnowmap is a long\-read mapping algorithm optimized for mapping ONT and PacBio reads to repetitive reference sequences.
 
    :homepage: https://github.com/marbl/Winnowmap
-   :license: LicenseRef-Public-Domain AND MIT
+   :documentation: https://github.com/marbl/Winnowmap/blob/v2.03/README.md
+   
+   :license: MIT / LicenseRef-Public-Domain AND MIT
    :recipe: /`winnowmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/winnowmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/winnowmap/meta.yaml>`_
-   :links: doi: :doi:`10.1093/bioinformatics/btaa435`
+   :links: usegalaxy-eu: :usegalaxy-eu:`winnowmap`, doi: :doi:`10.1093/bioinformatics/btaa435`, doi: :doi:`10.1038/s41592-022-01457-8`
 
    
 
@@ -28,19 +30,24 @@ winnowmap
       
       
 
-      ``2.03-3``,  ``2.03-2``,  ``2.03-1``,  ``2.03-0``,  ``2.02-0``,  ``2.01-0``,  ``2.0-1``,  ``2.0-0``
+      ``2.03-4``,  ``2.03-3``,  ``2.03-2``,  ``2.03-1``,  ``2.03-0``,  ``2.02-0``,  ``2.01-0``,  ``2.0-1``,  ``2.0-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends meryl: ``>=1.2,<2013``
+   :depends meryl: ``>=1.2``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -88,7 +95,7 @@ winnowmap
 
     <script>
         var package = "winnowmap";
-        var versions = ["2.03","2.03","2.03","2.03","2.02"];
+        var versions = ["2.03","2.03","2.03","2.03","2.03"];
     </script>
 
 

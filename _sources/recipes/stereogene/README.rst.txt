@@ -10,7 +10,7 @@ stereogene
    :replaces_section_title:
    :noindex:
 
-   StereoGene\: Rapid Estimation of Genomewide Correlation of Continuous or Interval Feature Data
+   StereoGene\: Rapid Estimation of Genomewide Correlation of Continuous or Interval Feature Data.
 
    :homepage: http://stereogene.bioinf.fbb.msu.ru
    :license: MIT / Artistic-2.0
@@ -28,7 +28,7 @@ stereogene
       
       
 
-      ``2.20-7``,  ``2.20-6``,  ``2.20-5``,  ``2.20-4``,  ``2.20-3``,  ``2.20-2``,  ``2.20-1``,  ``2.20-0``
+      ``2.20-8``,  ``2.20-7``,  ``2.20-6``,  ``2.20-5``,  ``2.20-4``,  ``2.20-3``,  ``2.20-2``,  ``2.20-1``,  ``2.20-0``
 
       
 
@@ -38,6 +38,10 @@ stereogene
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

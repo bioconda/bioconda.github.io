@@ -27,13 +27,14 @@ eukrep
       
       
 
-      ``0.6.7-2``,  ``0.6.7-1``,  ``0.6.7-0``
+      ``0.6.7-3``,  ``0.6.7-2``,  ``0.6.7-1``,  ``0.6.7-0``
 
       
 
    
    :depends biopython: 
    :depends kpal: 
+   :depends libgfortran: ``3.0.0.*``
    :depends numpy: 
    :depends python: 
    :depends scikit-learn: ``0.19.2.*``
@@ -87,7 +88,7 @@ eukrep
 
     <script>
         var package = "eukrep";
-        var versions = ["0.6.7","0.6.7","0.6.7"];
+        var versions = ["0.6.7","0.6.7","0.6.7","0.6.7"];
     </script>
 
 

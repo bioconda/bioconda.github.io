@@ -12,8 +12,10 @@ libsequence
 
    A C\+\+ class library for evolutionary genetics.
 
-   :homepage: http://http://molpopgen.github.io/libsequence/
-   :license: GNU Lesser General Public License v3 or later (LGPLv3+)
+   :homepage: https://github.com/molpopgen/libsequence
+   :documentation: https://molpopgen.github.io/libsequence
+   
+   :license: LGPL / LGPL-3.0-or-later
    :recipe: /`libsequence <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libsequence>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libsequence/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ libsequence
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.9.8-7</code>,  <code>1.9.8-6</code>,  <code>1.9.8-5</code>,  <code>1.9.8-4</code>,  <code>1.9.8-3</code>,  <code>1.9.8-2</code>,  <code>1.9.8-1</code>,  <code>1.9.8-0</code>,  <code>1.9.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.9.8-8</code>,  <code>1.9.8-7</code>,  <code>1.9.8-6</code>,  <code>1.9.8-5</code>,  <code>1.9.8-4</code>,  <code>1.9.8-3</code>,  <code>1.9.8-2</code>,  <code>1.9.8-1</code>,  <code>1.9.8-0</code>,  </span></summary>
       
 
-      ``1.9.8-7``,  ``1.9.8-6``,  ``1.9.8-5``,  ``1.9.8-4``,  ``1.9.8-3``,  ``1.9.8-2``,  ``1.9.8-1``,  ``1.9.8-0``,  ``1.9.7-0``,  ``1.9.6-0``,  ``1.9.5-0``,  ``1.9.4-0``,  ``1.9.3-0``,  ``1.9.2-2``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.9.1-1``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.4-9``,  ``1.8.4-8``,  ``1.8.4-7``,  ``1.8.4-6``,  ``1.8.4-5``,  ``1.8.4-4``,  ``1.8.4-3``,  ``1.8.4-2``,  ``1.8.4-1``,  ``1.8.4-0``
+      ``1.9.8-8``,  ``1.9.8-7``,  ``1.9.8-6``,  ``1.9.8-5``,  ``1.9.8-4``,  ``1.9.8-3``,  ``1.9.8-2``,  ``1.9.8-1``,  ``1.9.8-0``,  ``1.9.7-0``,  ``1.9.6-0``,  ``1.9.5-0``,  ``1.9.4-0``,  ``1.9.3-0``,  ``1.9.2-2``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.9.1-1``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.4-9``,  ``1.8.4-8``,  ``1.8.4-7``,  ``1.8.4-6``,  ``1.8.4-5``,  ``1.8.4-4``,  ``1.8.4-3``,  ``1.8.4-2``,  ``1.8.4-1``,  ``1.8.4-0``
 
       
       .. raw:: html
@@ -42,13 +44,14 @@ libsequence
    
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

@@ -13,7 +13,7 @@ impg
    impg\: implicit pangenome graphs.
 
    :homepage: https://github.com/pangenome/impg
-   :documentation: https://github.com/pangenome/impg/blob/v0.2.4/README.md
+   :documentation: https://github.com/pangenome/impg/blob/v0.3.1/README.md
    
    :license: MIT / MIT
    :recipe: /`impg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/impg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/impg/meta.yaml>`_
@@ -29,11 +29,14 @@ impg
       
       
 
-      ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.3.1-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
 
    
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -88,7 +91,7 @@ impg
 
     <script>
         var package = "impg";
-        var versions = ["0.2.4","0.2.3","0.2.2","0.2.1","0.2.1"];
+        var versions = ["0.3.1","0.2.4","0.2.3","0.2.2","0.2.1"];
     </script>
 
 

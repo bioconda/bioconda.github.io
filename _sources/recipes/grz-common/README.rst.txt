@@ -27,14 +27,14 @@ grz-common
       
       
 
-      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.1.0-0``
+      ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.1.0-0``
 
       
 
    
    :depends boto3: ``>=1.36,<2``
    :depends click: ``>=8.2,<9``
-   :depends grz-pydantic-models: ``>=2,<3``
+   :depends grz-pydantic-models: ``>=2.2,<3``
    :depends jsonschema: ``>=4.23.0,<5``
    :depends platformdirs: ``>=4.3.6,<5``
    :depends pydantic: ``>=2.9.2,<2.10``
@@ -96,7 +96,7 @@ grz-common
 
     <script>
         var package = "grz-common";
-        var versions = ["1.0.3","1.0.2","1.0.1","1.0.0","0.1.0"];
+        var versions = ["1.2.1","1.2.0","1.1.1","1.1.0","1.0.3"];
     </script>
 
 

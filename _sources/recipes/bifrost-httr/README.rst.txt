@@ -10,16 +10,13 @@ bifrost-httr
    :replaces_section_title:
    :noindex:
 
-   BIFROST HTTr Analysis Package \- Bayesian inference for region of signal threshold
+   Pre\-release version for testing purposes only
 
    :homepage: https://github.com/seqera-services/bifrost-httr
-   :license: GPL / GPL-3.0
+   :license: LGPL / LGPL-3.0
    :recipe: /`bifrost-httr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bifrost-httr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bifrost-httr/meta.yaml>`_
 
-   BIFROST HTTr Analysis Package provides Bayesian inference for region of signal threshold analysis.
-   The package implements statistical methods for analyzing high\-throughput data with a focus on
-   threshold detection and signal analysis.
-
+   Pre\-release version for testing purposes only
 
 
 .. conda:package:: bifrost-httr
@@ -30,7 +27,7 @@ bifrost-httr
       
       
 
-      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.4.2-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -94,7 +91,7 @@ bifrost-httr
 
     <script>
         var package = "bifrost-httr";
-        var versions = ["0.3.1","0.3.0","0.2.1","0.2.1","0.2.0"];
+        var versions = ["0.4.2","0.4.0","0.3.1","0.3.0","0.2.1"];
     </script>
 
 

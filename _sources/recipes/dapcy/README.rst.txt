@@ -29,13 +29,13 @@ dapcy
       
       
 
-      ``1.3.0.post1-0``,  ``1.3.0-0``,  ``1.0.1-0``,  ``0.1.1-0``
+      ``1.3.1-0``,  ``1.3.0.post1-0``,  ``1.3.0-0``,  ``1.0.1-0``,  ``0.1.1-0``
 
       
 
    
    :depends bed-reader: 
-   :depends bio2zarr: 
+   :depends bio2zarr: ``>=0.1.6``
    :depends joblib: 
    :depends matplotlib-base: 
    :depends numpy: 
@@ -43,7 +43,7 @@ dapcy
    :depends python: ``>=3.6``
    :depends scikit-learn: 
    :depends scipy: 
-   :depends seaborn-base: 
+   :depends seaborn: 
    :depends sgkit: 
    :requirements:
 
@@ -95,7 +95,7 @@ dapcy
 
     <script>
         var package = "dapcy";
-        var versions = ["1.3.0.post1","1.3.0","1.0.1","0.1.1"];
+        var versions = ["1.3.1","1.3.0.post1","1.3.0","1.0.1","0.1.1"];
     </script>
 
 

@@ -10,7 +10,7 @@ tortoize
    :replaces_section_title:
    :noindex:
 
-   Application to calculate ramachandran z\-scores
+   Application to calculate ramachandran z\-scores.
 
    :homepage: https://github.com/PDB-REDO/tortoize
    :documentation: https://github.com/PDB-REDO/tortoize/blob/trunk/doc/tortoize.pdf
@@ -34,7 +34,7 @@ tortoize
       
       
 
-      ``2.0.15-0``
+      ``2.0.15-1``,  ``2.0.15-0``
 
       
 
@@ -100,7 +100,7 @@ tortoize
 
     <script>
         var package = "tortoize";
-        var versions = ["2.0.15"];
+        var versions = ["2.0.15","2.0.15"];
     </script>
 
 

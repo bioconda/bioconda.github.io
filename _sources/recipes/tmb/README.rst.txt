@@ -13,8 +13,11 @@ tmb
    This tool was designed to calculate a Tumor Mutational Burden \(TMB\) score from a VCF file.
 
    :homepage: https://github.com/bioinfo-pf-curie/TMB
+   :documentation: https://github.com/bioinfo-pf-curie/TMB/blob/v1.5.0/README.md
+   
    :license: CeCILL FREE SOFTWARE LICENSE AGREEMENT
    :recipe: /`tmb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tmb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tmb/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s12915-024-01839-8`
 
    
 
@@ -27,7 +30,7 @@ tmb
       
       
 
-      ``1.3.0-0``
+      ``1.5.0-0``,  ``1.3.0-0``
 
       
 
@@ -35,7 +38,7 @@ tmb
    :depends cyvcf2: 
    :depends mosdepth: 
    :depends pybedtools: 
-   :depends python: 
+   :depends python: ``>=3``
    :depends pyyaml: 
    :requirements:
 
@@ -87,7 +90,7 @@ tmb
 
     <script>
         var package = "tmb";
-        var versions = ["1.3.0"];
+        var versions = ["1.5.0","1.3.0"];
     </script>
 
 

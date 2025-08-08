@@ -13,7 +13,7 @@ prosampler
    An ultra\-fast motif finding program in large ChIP\-seq datasets.
 
    :homepage: https://github.com/zhengchangsulab/ProSampler
-   :license: GPLv3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`prosampler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prosampler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prosampler/meta.yaml>`_
    :links: biotools: :biotools:`prosampler`
 
@@ -28,7 +28,7 @@ prosampler
       
       
 
-      ``1.5-1``,  ``1.5-0``,  ``1.0-0``
+      ``1.5-2``,  ``1.5-1``,  ``1.5-0``,  ``1.0-0``
 
       
 
@@ -41,7 +41,7 @@ prosampler
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -89,7 +89,7 @@ prosampler
 
     <script>
         var package = "prosampler";
-        var versions = ["1.5","1.5","1.0"];
+        var versions = ["1.5","1.5","1.5","1.0"];
     </script>
 
 

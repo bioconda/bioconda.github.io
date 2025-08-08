@@ -10,10 +10,12 @@ kmergenie
    :replaces_section_title:
    :noindex:
 
-   KmerGenie estimates the best k\-mer length for genome de novo assembly
+   KmerGenie estimates the best k\-mer length for genome de novo assembly.
 
    :homepage: http://kmergenie.bx.psu.edu
-   :license: free software license
+   :documentation: http://kmergenie.bx.psu.edu/README
+   
+   :license: Free Software License
    :recipe: /`kmergenie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kmergenie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kmergenie/meta.yaml>`_
    :links: biotools: :biotools:`kmergenie`, doi: :doi:`10.1093/bioinformatics/btt310`
 
@@ -29,10 +31,10 @@ kmergenie
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7051-9</code>,  <code>1.7051-8</code>,  <code>1.7051-7</code>,  <code>1.7051-5</code>,  <code>1.7051-4</code>,  <code>1.7051-3</code>,  <code>1.7051-2</code>,  <code>1.7051-1</code>,  <code>1.7051-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7051-11</code>,  <code>1.7051-10</code>,  <code>1.7051-9</code>,  <code>1.7051-8</code>,  <code>1.7051-7</code>,  <code>1.7051-5</code>,  <code>1.7051-4</code>,  <code>1.7051-3</code>,  <code>1.7051-2</code>,  </span></summary>
       
 
-      ``1.7051-9``,  ``1.7051-8``,  ``1.7051-7``,  ``1.7051-5``,  ``1.7051-4``,  ``1.7051-3``,  ``1.7051-2``,  ``1.7051-1``,  ``1.7051-0``,  ``1.7016-5``,  ``1.7016-4``,  ``1.7016-3``,  ``1.7016-2``,  ``1.7016-1``,  ``1.7016-0``
+      ``1.7051-11``,  ``1.7051-10``,  ``1.7051-9``,  ``1.7051-8``,  ``1.7051-7``,  ``1.7051-5``,  ``1.7051-4``,  ``1.7051-3``,  ``1.7051-2``,  ``1.7051-1``,  ``1.7051-0``,  ``1.7016-5``,  ``1.7016-4``,  ``1.7016-3``,  ``1.7016-2``,  ``1.7016-1``,  ``1.7016-0``
 
       
       .. raw:: html
@@ -43,13 +45,18 @@ kmergenie
    
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
-   :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends ntcard: 
+   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends r-base: ``>=4.0,<4.1.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

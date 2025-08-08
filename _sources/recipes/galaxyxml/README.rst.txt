@@ -28,10 +28,10 @@ galaxyxml
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.4.14-0</code>,  <code>0.4.13-0</code>,  <code>0.4.12-0</code>,  <code>0.4.11-0</code>,  <code>0.4.10-0</code>,  <code>0.4.9-1</code>,  <code>0.4.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.5-0</code>,  <code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.4.14-0</code>,  <code>0.4.13-0</code>,  <code>0.4.12-0</code>,  <code>0.4.11-0</code>,  <code>0.4.10-0</code>,  <code>0.4.9-1</code>,  </span></summary>
       
 
-      ``0.5.4-0``,  ``0.5.3-0``,  ``0.4.14-0``,  ``0.4.13-0``,  ``0.4.12-0``,  ``0.4.11-0``,  ``0.4.10-0``,  ``0.4.9-1``,  ``0.4.9-0``,  ``0.4.8-0``
+      ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.4.14-0``,  ``0.4.13-0``,  ``0.4.12-0``,  ``0.4.11-0``,  ``0.4.10-0``,  ``0.4.9-1``,  ``0.4.9-0``,  ``0.4.8-0``
 
       
       .. raw:: html
@@ -93,7 +93,7 @@ galaxyxml
 
     <script>
         var package = "galaxyxml";
-        var versions = ["0.5.4","0.5.3","0.4.14","0.4.13","0.4.12"];
+        var versions = ["0.5.5","0.5.4","0.5.3","0.4.14","0.4.13"];
     </script>
 
 

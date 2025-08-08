@@ -13,13 +13,16 @@ minialign
    Fast and accurate alignment tool for PacBio and Nanopore long reads.
 
    :homepage: https://github.com/ocxtal/minialign
-   :license: MIT
+   :documentation: https://github.com/ocxtal/minialign/blob/0.6.0/README.md
+   
+   :license: MIT / MIT
    :recipe: /`minialign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minialign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minialign/meta.yaml>`_
 
    Minialign is a little bit fast and moderately accurate nucleotide sequence
    alignment tool designed for PacBio and Nanopore long reads. It is built on
    three key algorithms\, minimizer\-based index of the minimap overlapper\,
    array\-based seed chaining\, and SIMD\-parallel Smith\-Waterman\-Gotoh extension.
+
 
 
 .. conda:package:: minialign
@@ -30,12 +33,13 @@ minialign
       
       
 
-      ``0.5.3-2``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.0-0``,  ``0.3.1-0``
+      ``0.6.0-0``,  ``0.5.3-2``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.0-0``,  ``0.3.1-0``
 
       
 
    
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -86,7 +90,7 @@ minialign
 
     <script>
         var package = "minialign";
-        var versions = ["0.5.3","0.5.3","0.5.3","0.5.2","0.4.2"];
+        var versions = ["0.6.0","0.5.3","0.5.3","0.5.3","0.5.2"];
     </script>
 
 

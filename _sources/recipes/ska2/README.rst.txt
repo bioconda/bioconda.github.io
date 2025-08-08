@@ -10,7 +10,7 @@ ska2
    :replaces_section_title:
    :noindex:
 
-   SKA \(Split Kmer Analysis\) version 2
+   SKA \(Split Kmer Analysis\) version 2.
 
    :homepage: https://github.com/bacpop/ska.rust
    :license: APACHE / Apache-2.0
@@ -28,10 +28,10 @@ ska2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.0-0</code>,  <code>0.3.11-0</code>,  <code>0.3.10-0</code>,  <code>0.3.9-0</code>,  <code>0.3.8-0</code>,  <code>0.3.7-2</code>,  <code>0.3.7-1</code>,  <code>0.3.7-0</code>,  <code>0.3.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.11-0</code>,  <code>0.3.10-0</code>,  <code>0.3.9-0</code>,  <code>0.3.8-0</code>,  <code>0.3.7-2</code>,  <code>0.3.7-1</code>,  <code>0.3.7-0</code>,  </span></summary>
       
 
-      ``0.4.0-0``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-2``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.0-0``
+      ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-2``,  ``0.3.7-1``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -46,7 +46,7 @@ ska2
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -94,7 +94,7 @@ ska2
 
     <script>
         var package = "ska2";
-        var versions = ["0.4.0","0.3.11","0.3.10","0.3.9","0.3.8"];
+        var versions = ["0.4.1","0.4.0","0.3.11","0.3.10","0.3.9"];
     </script>
 
 

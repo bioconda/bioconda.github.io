@@ -27,7 +27,7 @@ tetrimmer
       
       
 
-      ``1.4.0-0``
+      ``1.5.1-1``,  ``1.5.1-0``,  ``1.4.0-0``
 
       
 
@@ -61,7 +61,7 @@ tetrimmer
    :depends repeatmasker: 
    :depends repeatmodeler: 
    :depends requests: 
-   :depends samtools: 
+   :depends samtools: ``>=1.2``
    :depends scikit-learn: 
    :depends tk: 
    :depends trf: 
@@ -116,7 +116,7 @@ tetrimmer
 
     <script>
         var package = "tetrimmer";
-        var versions = ["1.4.0"];
+        var versions = ["1.5.1","1.5.1","1.4.0"];
     </script>
 
 

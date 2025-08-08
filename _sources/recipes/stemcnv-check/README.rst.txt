@@ -10,10 +10,12 @@ stemcnv-check
    :replaces_section_title:
    :noindex:
 
-   StemCNV\-check\: CNV Based Quality Control Workflow for Stem Cell SNP Array Data
+   StemCNV\-check\: CNV Based Quality Control Workflow for Stem Cell SNP Array Data.
 
    :homepage: https://github.com/bihealth/StemCNV-check
-   :license: MIT / MIT License
+   :documentation: https://github.com/bihealth/StemCNV-check/blob/v0.5.3/README.md
+   
+   :license: MIT / MIT
    :recipe: /`stemcnv-check <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stemcnv-check>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stemcnv-check/meta.yaml>`_
 
    
@@ -27,21 +29,22 @@ stemcnv-check
       
       
 
-      ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``
+      ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``
 
       
 
    
-   :depends apptainer: ``>=1.3``
-   :depends bcftools-gtc2vcf-plugin: ``1.16.*``
+   :depends apptainer: ``>=1.4``
+   :depends bcftools-gtc2vcf-plugin: ``1.22.*``
    :depends deepdiff: ``>=8.0``
-   :depends loguru: ``>=0.7``
+   :depends loguru: ``>=0.7.2``
    :depends openpyxl: ``>=3.1``
    :depends pandas: ``>=2.2``
+   :depends psutil: ``>=7.0.0``
    :depends pydantic: ``>=2.8``
    :depends python: ``>=3.12``
-   :depends ruamel.yaml: ``>=0.18``
-   :depends snakemake-minimal: ``>=8,<9``
+   :depends ruamel.yaml: ``>=0.18.6``
+   :depends snakemake-minimal: ``>=8.28.0,<9``
    :depends xlsxwriter: ``>=3.2``
    :requirements:
 
@@ -93,7 +96,7 @@ stemcnv-check
 
     <script>
         var package = "stemcnv-check";
-        var versions = ["0.5.2","0.5.1","0.5.1","0.5.0"];
+        var versions = ["0.5.3","0.5.3","0.5.2","0.5.1","0.5.1"];
     </script>
 
 

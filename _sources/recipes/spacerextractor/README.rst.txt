@@ -13,6 +13,8 @@ spacerextractor
    Extract CRISPR spacers from metagenome short reads.
 
    :homepage: https://code.jgi.doe.gov/SRoux/spacerextractor
+   :documentation: https://code.jgi.doe.gov/SRoux/spacerextractor/-/blob/0.9.7/README.md
+   
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`spacerextractor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spacerextractor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spacerextractor/meta.yaml>`_
 
@@ -27,7 +29,7 @@ spacerextractor
       
       
 
-      ``0.9.6-0``,  ``0.9.5-0``
+      ``0.9.7-0``,  ``0.9.6-0``,  ``0.9.5-0``
 
       
 
@@ -42,7 +44,7 @@ spacerextractor
    :depends pandas: ``>=2.0,<2.4``
    :depends polyleven: ``>=0.8,<0.9``
    :depends pyfaidx: ``>=0.8.1.3,<0.9``
-   :depends python: 
+   :depends python: ``>=3.8``
    :depends rich-click: ``>=1.4``
    :depends scipy: ``>=1.10,<=1.11``
    :depends seqkit: ``>=2.5,<2.6``
@@ -96,7 +98,7 @@ spacerextractor
 
     <script>
         var package = "spacerextractor";
-        var versions = ["0.9.6","0.9.5"];
+        var versions = ["0.9.7","0.9.6","0.9.5"];
     </script>
 
 

@@ -29,7 +29,7 @@ phold
       
       
 
-      ``0.2.0-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``1.0.0-0``,  ``0.2.0-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -38,7 +38,7 @@ phold
    :depends biopython: ``>=1.76``
    :depends click: ``>=8.0.0``
    :depends datasets: ``>=2.15``
-   :depends foldseek: ``9.427df8a``
+   :depends foldseek: ``10.941cd33``
    :depends h5py: ``>=3.5``
    :depends loguru: ``>=0.5.3``
    :depends numpy: ``>=1.20``
@@ -46,7 +46,7 @@ phold
    :depends pyarrow: ``>=14.0.0``
    :depends pycirclize: ``>=0.3.1``
    :depends pyrodigal-gv: ``>=0.3.1``
-   :depends python: ``>=3.8,<3.12``
+   :depends python: ``>=3.8,<4``
    :depends pytorch: ``>=2.1.2``
    :depends pyyaml: ``>=6.0``
    :depends requests: ``>=2.25``
@@ -102,7 +102,7 @@ phold
 
     <script>
         var package = "phold";
-        var versions = ["0.2.0","0.1.4","0.1.3","0.1.2","0.1.1"];
+        var versions = ["1.0.0","0.2.0","0.1.4","0.1.3","0.1.2"];
     </script>
 
 

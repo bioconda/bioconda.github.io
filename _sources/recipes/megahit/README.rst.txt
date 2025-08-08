@@ -10,13 +10,14 @@ megahit
    :replaces_section_title:
    :noindex:
 
-   MEGAHIT\: An ultra\-fast single\-node solution for large and complex
-   metagenomics assembly via succinct de Bruijn graph
+   MEGAHIT\: An ultra\-fast single\-node solution for large and complex metagenomics assembly via succinct de Bruijn graph.
 
    :homepage: https://github.com/voutcn/megahit
-   :license: GPL / GPL-3.0
+   :documentation: https://github.com/voutcn/megahit/blob/v1.2.9/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`megahit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/megahit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/megahit/meta.yaml>`_
-   :links: biotools: :biotools:`megahit`, doi: :doi:`10.1093/bioinformatics/btv033`
+   :links: biotools: :biotools:`megahit`, usegalaxy-eu: :usegalaxy-eu:`megahit`, usegalaxy-eu: :usegalaxy-eu:`megahit_contig2fastg`, doi: :doi:`10.1093/bioinformatics/btv033`, doi: :doi:`10.1016/j.ymeth.2016.02.020`
 
    
 
@@ -30,10 +31,10 @@ megahit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.9-6</code>,  <code>1.2.9-5</code>,  <code>1.2.9-4</code>,  <code>1.2.9-3</code>,  <code>1.2.9-2</code>,  <code>1.2.9-1</code>,  <code>1.2.9-0</code>,  <code>1.2.8-0</code>,  <code>1.2.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.9-7</code>,  <code>1.2.9-6</code>,  <code>1.2.9-5</code>,  <code>1.2.9-4</code>,  <code>1.2.9-3</code>,  <code>1.2.9-2</code>,  <code>1.2.9-1</code>,  <code>1.2.9-0</code>,  <code>1.2.8-0</code>,  </span></summary>
       
 
-      ``1.2.9-6``,  ``1.2.9-5``,  ``1.2.9-4``,  ``1.2.9-3``,  ``1.2.9-2``,  ``1.2.9-1``,  ``1.2.9-0``,  ``1.2.8-0``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.1.3-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.6-1``,  ``1.0.3-1``,  ``1.0.3-0``
+      ``1.2.9-7``,  ``1.2.9-6``,  ``1.2.9-5``,  ``1.2.9-4``,  ``1.2.9-3``,  ``1.2.9-2``,  ``1.2.9-1``,  ``1.2.9-0``,  ``1.2.8-0``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.1.3-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.6-1``,  ``1.0.3-1``,  ``1.0.3-0``
 
       
       .. raw:: html
@@ -42,18 +43,20 @@ megahit
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
+   :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends python: 
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

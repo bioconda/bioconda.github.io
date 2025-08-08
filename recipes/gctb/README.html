@@ -73,7 +73,7 @@
 <dd class="field-odd"><p><a class="reference external" href="https://cnsgenomics.com/software/gctb">https://cnsgenomics.com/software/gctb</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>MIT</p>
+<dd class="field-even"><p>MIT / MIT</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gctb">gctb</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gctb/meta.yaml">meta.yaml</a></p>
@@ -86,17 +86,24 @@
 <em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">gctb</span></span><a class="headerlink" href="#package-gctb" title="Link to this definition">¶</a></dt>
 <dd><blockquote>
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/gctb"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/gctb.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/gctb"><img alt="docker_gctb" src="https://quay.io/repository/biocontainers/gctb/status" /></a></p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.0-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.0-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0-0</span></code></p>
 </dd>
+<dt class="field-even">depends boost-cpp<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends eigen<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends libgcc<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
 </dd>
-<dt class="field-odd">requirements<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">additional platforms<span class="colon">:</span></dt>
+<dt class="field-odd">depends libstdcxx<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
+</dd>
+<dt class="field-even">requirements<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
+<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
+<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code></span></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -131,7 +138,7 @@ others.</p>
 
 <script>
     var package = "gctb";
-    var versions = ["2.0","2.0","2.0","2.0"];
+    var versions = ["2.0","2.0","2.0","2.0","2.0"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
@@ -285,7 +292,7 @@ others.</p>
       &#169;2016-2025, The Bioconda Team.
       
       |
-      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.1.3</a>
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.2.3</a>
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
       
       |

@@ -10,12 +10,14 @@ muscle
    :replaces_section_title:
    :noindex:
 
-   Multiple sequence and structure alignment with top benchmark scores scalable to thousands of sequences
+   Multiple sequence and structure alignment with top benchmark scores scalable to thousands of sequences.
 
    :homepage: https://github.com/rcedgar/muscle
-   :license: GPL-3.0-only
+   :documentation: https://drive5.com/muscle5
+   
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`muscle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/muscle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/muscle/meta.yaml>`_
-   :links: biotools: :biotools:`muscle`
+   :links: doi: :doi:`10.1038/s41467-022-34630-w`, biotools: :biotools:`muscle`, usegalaxy-eu: :usegalaxy-eu:`muscle`
 
    
 
@@ -29,10 +31,10 @@ muscle
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.3-2</code>,  <code>5.3-1</code>,  <code>5.3-0</code>,  <code>5.2-0</code>,  <code>5.1-3</code>,  <code>5.1-2</code>,  <code>5.1.0-1</code>,  <code>5.1-1</code>,  <code>5.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.3-3</code>,  <code>5.3-2</code>,  <code>5.3-1</code>,  <code>5.3-0</code>,  <code>5.2-0</code>,  <code>5.1-3</code>,  <code>5.1-2</code>,  <code>5.1.0-1</code>,  <code>5.1-1</code>,  </span></summary>
       
 
-      ``5.3-2``,  ``5.3-1``,  ``5.3-0``,  ``5.2-0``,  ``5.1-3``,  ``5.1-2``,  ``5.1.0-1``,  ``5.1-1``,  ``5.1-0``,  ``5.1.0-0``,  ``3.8.1551-9``,  ``3.8.1551-8``,  ``3.8.1551-7``,  ``3.8.1551-6``,  ``3.8.1551-5``,  ``3.8.1551-4``,  ``3.8.1551-3``,  ``3.8.1551-2``,  ``3.8.1551-1``,  ``3.8.31-0``
+      ``5.3-3``,  ``5.3-2``,  ``5.3-1``,  ``5.3-0``,  ``5.2-0``,  ``5.1-3``,  ``5.1-2``,  ``5.1.0-1``,  ``5.1-1``,  ``5.1.0-0``,  ``5.1-0``,  ``3.8.1551-9``,  ``3.8.1551-8``,  ``3.8.1551-7``,  ``3.8.1551-6``,  ``3.8.1551-5``,  ``3.8.1551-4``,  ``3.8.1551-3``,  ``3.8.1551-2``,  ``3.8.1551-1``,  ``3.8.31-0``
 
       
       .. raw:: html
@@ -41,7 +43,9 @@ muscle
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libstdcxx: ``>=13``
    :requirements:
 
@@ -97,7 +101,7 @@ muscle
 
     <script>
         var package = "muscle";
-        var versions = ["5.3","5.3","5.3","5.2","5.1"];
+        var versions = ["5.3","5.3","5.3","5.3","5.2"];
     </script>
 
 

@@ -15,6 +15,7 @@ structure-threader
    :homepage: https://gitlab.com/StuntsPT/Structure_threader
    :license: GPL3 / GPL-3.0-only
    :recipe: /`structure-threader <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/structure-threader>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/structure-threader/meta.yaml>`_
+   :links: doi: :doi:`10.1111/1755-0998.12702`
 
    
 
@@ -27,7 +28,7 @@ structure-threader
       
       
 
-      ``1.3.11-0``
+      ``1.3.11-1``,  ``1.3.11-0``
 
       
 
@@ -87,7 +88,7 @@ structure-threader
 
     <script>
         var package = "structure-threader";
-        var versions = ["1.3.11"];
+        var versions = ["1.3.11","1.3.11"];
     </script>
 
 

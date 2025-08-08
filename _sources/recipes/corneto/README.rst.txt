@@ -10,10 +10,10 @@ corneto
    :replaces_section_title:
    :noindex:
 
-   CORNETO\: A Unified Framework for Omics\-Driven Network Inference
+   CORNETO\: A Unified Framework for Omics\-Driven Network Inference.
 
-   :homepage: https://github.com/saezlab/corneto/
-   :license: GPL-3.0-or-later
+   :homepage: https://github.com/saezlab/corneto
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`corneto <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/corneto>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/corneto/meta.yaml>`_
 
    
@@ -27,15 +27,16 @@ corneto
       
       
 
-      ``1.0.0a0-0``
+      ``1.0.0b2-0``,  ``1.0.0b0-0``,  ``1.0.0a0-0``
 
       
 
    
-   :depends cvxpy-base: ``>=1.5.0,<2.0.0``
-   :depends numpy: ``>=1.15,<2.0.0``
-   :depends python: ``>=3.9``
-   :depends scipy: ``>=1.11.0,<2.0.0``
+   :depends cvxpy-base: ``>=1.6.5``
+   :depends ipython: 
+   :depends numpy: ``>=1.25``
+   :depends python: ``>=3.10``
+   :depends scipy: ``>=1.15.2``
    :requirements:
 
    :additional platforms:
@@ -86,7 +87,7 @@ corneto
 
     <script>
         var package = "corneto";
-        var versions = ["1.0.0a0"];
+        var versions = ["1.0.0b2","1.0.0b0","1.0.0a0"];
     </script>
 
 

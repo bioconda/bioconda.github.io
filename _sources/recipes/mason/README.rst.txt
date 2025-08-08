@@ -12,8 +12,8 @@ mason
 
    Mason is a collection of tools for the simulation of biological sequences.
 
-   :homepage: https://github.com/seqan/seqan/tree/master/apps/mason2/README
-   :license: https://github.com/seqan/seqan/tree/master/apps/mason2/LICENSE
+   :homepage: https://github.com/seqan/seqan/tree/seqan-v2.5.1/apps/mason2/README
+   :license: BSD / BSD 3-Clause
    :recipe: /`mason <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mason>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mason/meta.yaml>`_
    :links: biotools: :biotools:`mason`, doi: :doi:`10.1371/journal.pone.0049110`
 
@@ -27,23 +27,31 @@ mason
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0.9-4``,  ``2.0.9-3``,  ``2.0.9-2``,  ``2.0.9-1``,  ``2.0.9-0``,  ``2.0.8-1``,  ``2.0.8-0``,  ``2.0.7-0``
+         <details><summary><span class="truncated-version-list"><code>2.0.12-1</code>,  <code>2.0.12-0</code>,  <code>2.0.9-4</code>,  <code>2.0.9-3</code>,  <code>2.0.9-2</code>,  <code>2.0.9-1</code>,  <code>2.0.9-0</code>,  <code>2.0.8-1</code>,  <code>2.0.8-0</code>,  </span></summary>
+      
 
+      ``2.0.12-1``,  ``2.0.12-0``,  ``2.0.9-4``,  ``2.0.9-3``,  ``2.0.9-2``,  ``2.0.9-1``,  ``2.0.9-0``,  ``2.0.8-1``,  ``2.0.8-0``,  ``2.0.7-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
+   :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -91,7 +99,7 @@ mason
 
     <script>
         var package = "mason";
-        var versions = ["2.0.9","2.0.9","2.0.9","2.0.9","2.0.9"];
+        var versions = ["2.0.12","2.0.12","2.0.9","2.0.9","2.0.9"];
     </script>
 
 

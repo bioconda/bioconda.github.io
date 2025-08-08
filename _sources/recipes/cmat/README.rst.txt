@@ -10,11 +10,14 @@ cmat
    :replaces_section_title:
    :noindex:
 
-   ClinVar Mapping and Annotation Toolkit
+   ClinVar Mapping and Annotation Toolkit.
 
    :homepage: https://github.com/EBIvariation/CMAT
+   :documentation: https://github.com/EBIvariation/CMAT/blob/v3.4.0/README.md
+   
    :license: APACHE / Apache-2.0
    :recipe: /`cmat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cmat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cmat/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioadv/vbae018`
 
    
 
@@ -28,10 +31,10 @@ cmat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.3.4-0</code>,  <code>3.3.3-0</code>,  <code>3.3.2-0</code>,  <code>3.3.1-0</code>,  <code>3.3.0-0</code>,  <code>3.2.2-0</code>,  <code>3.2.1-0</code>,  <code>3.1.3-0</code>,  <code>3.1.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.0-0</code>,  <code>3.3.4-0</code>,  <code>3.3.3-0</code>,  <code>3.3.2-0</code>,  <code>3.3.1-0</code>,  <code>3.3.0-0</code>,  <code>3.2.2-0</code>,  <code>3.2.1-0</code>,  <code>3.1.3-0</code>,  </span></summary>
       
 
-      ``3.3.4-0``,  ``3.3.3-0``,  ``3.3.2-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``
+      ``3.4.0-0``,  ``3.3.4-0``,  ``3.3.3-0``,  ``3.3.2-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``
 
       
       .. raw:: html
@@ -40,18 +43,18 @@ cmat
       
 
    
-   :depends biopython: ``1.77``
+   :depends biopython: 
    :depends coverage: ``6.5.0``
    :depends coveralls: ``3.3.1``
-   :depends jsonschema: ``3.2.0``
-   :depends nextflow: ``>=21.10.0``
-   :depends numpy: ``1.24.3``
-   :depends pandas: ``1.5.3``
+   :depends jsonschema: ``4.23.0``
+   :depends nextflow: ``>=21.10``
+   :depends numpy: ``1.26.0``
+   :depends pandas: ``2.2.3``
    :depends pytest: ``7.2.2``
    :depends pytest-cov: ``2.10.0``
-   :depends python: ``>=3.8,<3.10``
+   :depends python: ``>=3.8``
    :depends pyyaml: ``6.0.1``
-   :depends requests: ``2.32.3``
+   :depends requests: ``2.32.4``
    :depends requests-mock: ``1.8.0``
    :depends retry: ``0.9.2``
    :requirements:
@@ -104,7 +107,7 @@ cmat
 
     <script>
         var package = "cmat";
-        var versions = ["3.3.4","3.3.3","3.3.2","3.3.1","3.3.0"];
+        var versions = ["3.4.0","3.3.4","3.3.3","3.3.2","3.3.1"];
     </script>
 
 

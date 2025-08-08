@@ -6,15 +6,15 @@
 gocr
 ====
 
-.. conda:recipe:: gocr/0.50
+.. conda:recipe:: gocr
    :replaces_section_title:
    :noindex:
 
-   GOCR is an OCR \(Optical Character Recognition\) program
+   GOCR is an OCR \(Optical Character Recognition\) program.
 
-   :homepage: http://jocr.sourceforge.net/
-   :license: GPL
-   :recipe: /`gocr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gocr>`_/`0.50 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gocr/0.50>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gocr/0.50/meta.yaml>`_
+   :homepage: https://jocr.sourceforge.net
+   :license: GPL3 / GPL-3.0-or-later
+   :recipe: /`gocr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gocr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gocr/meta.yaml>`_
 
    
 
@@ -27,7 +27,7 @@ gocr
       
       
 
-      ``0.50-6``,  ``0.50-5``,  ``0.50-4``,  ``0.50-3``,  ``0.50-2``,  ``0.50-1``,  ``0.50-0``
+      ``0.52-0``,  ``0.50-7``,  ``0.50-6``,  ``0.50-5``,  ``0.50-4``,  ``0.50-3``,  ``0.50-2``,  ``0.50-1``,  ``0.50-0``
 
       
 
@@ -36,6 +36,10 @@ gocr
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -83,7 +87,7 @@ gocr
 
     <script>
         var package = "gocr";
-        var versions = ["0.50","0.50","0.50","0.50","0.50"];
+        var versions = ["0.52","0.50","0.50","0.50","0.50"];
     </script>
 
 

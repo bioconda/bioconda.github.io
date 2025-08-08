@@ -28,7 +28,7 @@ r-bpcells
       
       
 
-      ``0.3.0-1``,  ``0.3.0-0``
+      ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``
 
       
 
@@ -111,7 +111,7 @@ r-bpcells
 
     <script>
         var package = "r-bpcells";
-        var versions = ["0.3.0","0.3.0"];
+        var versions = ["0.3.1","0.3.0","0.3.0"];
     </script>
 
 

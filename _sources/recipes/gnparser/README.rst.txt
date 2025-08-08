@@ -10,13 +10,13 @@ gnparser
    :replaces_section_title:
    :noindex:
 
-   GNparser normalises scientific names and extracts their semantic elements
+   GNparser normalises scientific names and extracts their semantic elements.
 
-   :homepage: https://parser.globalnames.org/
+   :homepage: https://parser.globalnames.org
    :developer docs: https://github.com/gnames/gnparser
    :license: MIT / MIT
    :recipe: /`gnparser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gnparser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gnparser/meta.yaml>`_
-   :links: doi: :doi:`https://doi.org/10.5281/zenodo.5111569`
+   :links: doi: :doi:`10.5281/zenodo.5111569`
 
    
 
@@ -30,10 +30,10 @@ gnparser
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.11.7-0</code>,  <code>1.11.6-0</code>,  <code>1.11.5-0</code>,  <code>1.11.4-0</code>,  <code>1.11.3-0</code>,  <code>1.11.2-0</code>,  <code>1.11.1-0</code>,  <code>1.11.0-0</code>,  <code>1.10.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.11.8-0</code>,  <code>1.11.7-0</code>,  <code>1.11.6-0</code>,  <code>1.11.5-0</code>,  <code>1.11.4-0</code>,  <code>1.11.3-0</code>,  <code>1.11.2-0</code>,  <code>1.11.1-0</code>,  <code>1.11.0-0</code>,  </span></summary>
       
 
-      ``1.11.7-0``,  ``1.11.6-0``,  ``1.11.5-0``,  ``1.11.4-0``,  ``1.11.3-0``,  ``1.11.2-0``,  ``1.11.1-0``,  ``1.11.0-0``,  ``1.10.4-0``,  ``1.10.3-1``,  ``1.10.3-0``,  ``1.10.1-0``,  ``1.10.0-0``,  ``1.9.2-0``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.0-0``,  ``1.7.5-0``,  ``1.7.4-0``,  ``1.7.3-0``
+      ``1.11.8-0``,  ``1.11.7-0``,  ``1.11.6-0``,  ``1.11.5-0``,  ``1.11.4-0``,  ``1.11.3-0``,  ``1.11.2-0``,  ``1.11.1-0``,  ``1.11.0-0``,  ``1.10.4-0``,  ``1.10.3-1``,  ``1.10.3-0``,  ``1.10.1-0``,  ``1.10.0-0``,  ``1.9.2-0``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.0-0``,  ``1.7.5-0``,  ``1.7.4-0``,  ``1.7.3-0``
 
       
       .. raw:: html
@@ -96,7 +96,7 @@ gnparser
 
     <script>
         var package = "gnparser";
-        var versions = ["1.11.7","1.11.6","1.11.5","1.11.4","1.11.3"];
+        var versions = ["1.11.8","1.11.7","1.11.6","1.11.5","1.11.4"];
     </script>
 
 

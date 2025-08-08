@@ -10,7 +10,7 @@ ontime
    :replaces_section_title:
    :noindex:
 
-   Extract subsets of ONT \(Nanopore\) reads based on time
+   Extract subsets of ONT \(Nanopore\) reads based on time.
 
    :homepage: https://github.com/mbhall88/ontime
    :license: MIT / MIT
@@ -27,15 +27,19 @@ ontime
       
       
 
-      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.3-2``,  ``0.1.3-1``,  ``0.1.3-0``
+      ``0.3.1-2``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.3-2``,  ``0.1.3-1``,  ``0.1.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -83,7 +87,7 @@ ontime
 
     <script>
         var package = "ontime";
-        var versions = ["0.3.1","0.3.0","0.2.3","0.2.2","0.2.1"];
+        var versions = ["0.3.1","0.3.1","0.3.0","0.2.3","0.2.2"];
     </script>
 
 

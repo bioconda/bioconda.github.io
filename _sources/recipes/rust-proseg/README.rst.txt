@@ -14,7 +14,7 @@ rust-proseg
 
 
    :homepage: https://github.com/dcjones/proseg
-   :license: GPL3 / GPLv3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`rust-proseg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-proseg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-proseg/meta.yaml>`_
 
    
@@ -28,7 +28,7 @@ rust-proseg
       
       
 
-      ``2.0.5-0``,  ``2.0.4-0``
+      ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``
 
       
 
@@ -87,7 +87,7 @@ rust-proseg
 
     <script>
         var package = "rust-proseg";
-        var versions = ["2.0.5","2.0.4"];
+        var versions = ["2.0.6","2.0.5","2.0.4"];
     </script>
 
 

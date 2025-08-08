@@ -10,10 +10,12 @@ evofr
    :replaces_section_title:
    :noindex:
 
-   Tools for evolutionary forecasting
+   Tools for evolutionary forecasting.
 
    :homepage: https://github.com/blab/evofr
-   :license: AGPL-3.0
+   :documentation: https://github.com/blab/evofr/blob/0.1.27/README.md
+   
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`evofr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/evofr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/evofr/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ evofr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.26-0</code>,  <code>0.1.25-0</code>,  <code>0.1.23-0</code>,  <code>0.1.22-0</code>,  <code>0.1.21-0</code>,  <code>0.1.20-1</code>,  <code>0.1.20-0</code>,  <code>0.1.19-0</code>,  <code>0.1.18-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.27-0</code>,  <code>0.1.26-0</code>,  <code>0.1.25-0</code>,  <code>0.1.23-0</code>,  <code>0.1.22-0</code>,  <code>0.1.21-0</code>,  <code>0.1.20-1</code>,  <code>0.1.20-0</code>,  <code>0.1.19-0</code>,  </span></summary>
       
 
-      ``0.1.26-0``,  ``0.1.25-0``,  ``0.1.23-0``,  ``0.1.22-0``,  ``0.1.21-0``,  ``0.1.20-1``,  ``0.1.20-0``,  ``0.1.19-0``,  ``0.1.18-1``,  ``0.1.18-0``,  ``0.1.17-0``,  ``0.1.16-0``,  ``0.1.15-0``,  ``0.1.14-0``
+      ``0.1.27-0``,  ``0.1.26-0``,  ``0.1.25-0``,  ``0.1.23-0``,  ``0.1.22-0``,  ``0.1.21-0``,  ``0.1.20-1``,  ``0.1.20-0``,  ``0.1.19-0``,  ``0.1.18-1``,  ``0.1.18-0``,  ``0.1.17-0``,  ``0.1.16-0``,  ``0.1.15-0``,  ``0.1.14-0``
 
       
       .. raw:: html
@@ -43,10 +45,12 @@ evofr
    :depends blackjax: ``>=0.9.6,<0.10.0``
    :depends jax: ``>=0.4.14,<0.5.0``
    :depends jaxlib: ``>=0.4.1,<0.5.0``
-   :depends numpy: ``>=1.22.4``
+   :depends matplotlib-base: ``>=3.9,<4``
+   :depends numpy: ``>=1.22.4,<2.0.0``
    :depends numpyro: ``>=0.13.2,<0.14.0``
-   :depends pandas: ``>=1.4.2``
-   :depends python: ``>=3.9,<4``
+   :depends pandas: ``>=1.4.2,<2.0.0``
+   :depends python: ``>=3.9``
+   :depends seaborn-base: ``>=0.13.2,<0.14.0``
    :requirements:
 
    :additional platforms:
@@ -97,7 +101,7 @@ evofr
 
     <script>
         var package = "evofr";
-        var versions = ["0.1.26","0.1.25","0.1.23","0.1.22","0.1.21"];
+        var versions = ["0.1.27","0.1.26","0.1.25","0.1.23","0.1.22"];
     </script>
 
 

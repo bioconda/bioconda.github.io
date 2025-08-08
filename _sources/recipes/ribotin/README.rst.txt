@@ -10,10 +10,12 @@ ribotin
    :replaces_section_title:
    :noindex:
 
-   Ribosomal DNA assembly tool
+   Ribosomal DNA assembly tool.
 
    :homepage: https://github.com/maickrau/ribotin
-   :license: MIT
+   :documentation: https://github.com/maickrau/ribotin/blob/v1.5/README.md
+   
+   :license: MIT / MIT
    :recipe: /`ribotin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribotin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribotin/meta.yaml>`_
 
    
@@ -27,18 +29,18 @@ ribotin
       
       
 
-      ``1.4-0``,  ``1.3-0``,  ``1.2-1``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``
+      ``1.5-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2-1``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``
 
       
 
    
-   :depends bamtools: ``>=2.5.2,<2.6.0a0``
+   :depends bamtools: ``>=2.5.3,<3.0a0``
    :depends graphaligner: 
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends liftoff: ``1.6.3.*``
-   :depends mbg: 
+   :depends mbg: ``>=1.0.17``
    :depends samtools: 
    :depends winnowmap: 
    :requirements:
@@ -91,7 +93,7 @@ ribotin
 
     <script>
         var package = "ribotin";
-        var versions = ["1.4","1.3","1.2","1.2","1.1"];
+        var versions = ["1.5","1.4","1.3","1.2","1.2"];
     </script>
 
 

@@ -10,16 +10,15 @@ phables
    :replaces_section_title:
    :noindex:
 
-   Phables\: from fragmented assemblies to high\-quality bacteriophage genomes
+   Phables\: from fragmented assemblies to high\-quality bacteriophage genomes.
 
    :homepage: https://github.com/Vini2/phables
-   :documentation: https://phables.readthedocs.io/
+   :documentation: https://phables.readthedocs.io
    
    :license: MIT / MIT
    :recipe: /`phables <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phables>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phables/meta.yaml>`_
 
    Phables resolves bacteriophage genomes using phage bubbles in viral metagenomic data.
-
 
 
 .. conda:package:: phables
@@ -31,10 +30,10 @@ phables
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.1-2</code>,  <code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.2-0</code>,  </span></summary>
       
 
-      ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.1.0b7-0``
+      ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.1.0b7-0``
 
       
       .. raw:: html
@@ -47,18 +46,13 @@ phables
    :depends jinja2: ``>=3.0.2``
    :depends mamba: ``<1.4.2``
    :depends metasnek: ``>=0.0.5``
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends python: ``>=3.9,<3.11``
    :depends pyyaml: ``>=6.0``
    :depends snakemake-minimal: ``>=7.14.0``
    :depends snaketool-utils: ``>=0.0.3``
    :requirements:
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -106,7 +100,7 @@ phables
 
     <script>
         var package = "phables";
-        var versions = ["1.4.1","1.4.1","1.4.0","1.3.3","1.3.2"];
+        var versions = ["1.4.1","1.4.1","1.4.1","1.4.0","1.3.3"];
     </script>
 
 

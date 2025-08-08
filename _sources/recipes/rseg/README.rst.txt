@@ -12,8 +12,11 @@ rseg
 
    The RSEG software package is used to analyze ChIP\-Seq data\, especially for identifying genomic regions and their boundaries marked by diffusive histone modification markers\, such as H3K36me3 and H3K27me3.
 
-   :homepage: http://smithlabresearch.org/software/rseg
-   :license: GPLv3
+   :homepage: https://smithlabresearch.org/software/rseg
+   :documentation: https://smithlabresearch.org/wp-content/uploads/rseg_manual-v0.4.9.pdf
+   
+   :developer docs: https://github.com/smithlabcode/rseg
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`rseg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rseg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rseg/meta.yaml>`_
 
    
@@ -27,16 +30,22 @@ rseg
       
       
 
-      ``0.4.9-1``,  ``0.4.9-0``
+      ``0.4.9-3``,  ``0.4.9-1``,  ``0.4.9-0``
 
       
 
    
-   :depends libstdcxx-ng: ``>=4.9``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends bayestyper: 
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -84,7 +93,7 @@ rseg
 
     <script>
         var package = "rseg";
-        var versions = ["0.4.9","0.4.9"];
+        var versions = ["0.4.9","0.4.9","0.4.9"];
     </script>
 
 

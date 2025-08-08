@@ -31,9 +31,17 @@ egap
    :versions:
       
       
+      .. raw:: html
 
-      ``3.1-0``,  ``3.0.0f-0``,  ``3.0.0b-0``,  ``2.6.6-0``,  ``2.6.5-0``,  ``2.6.4-0``,  ``2.6.2-0``,  ``2.5.4-0``,  ``2.5.3-0``
+         <details><summary><span class="truncated-version-list"><code>3.1-0</code>,  <code>3.1b-0</code>,  <code>3.0.0f-0</code>,  <code>3.0.0b-0</code>,  <code>2.6.6-0</code>,  <code>2.6.5-0</code>,  <code>2.6.4-0</code>,  <code>2.6.2-0</code>,  <code>2.5.4-0</code>,  </span></summary>
+      
 
+      ``3.1-0``,  ``3.1b-0``,  ``3.0.0f-0``,  ``3.0.0b-0``,  ``2.6.6-0``,  ``2.6.5-0``,  ``2.6.4-0``,  ``2.6.2-0``,  ``2.5.4-0``,  ``2.5.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -128,7 +136,7 @@ egap
 
     <script>
         var package = "egap";
-        var versions = ["3.1","3.0.0f","3.0.0b","2.6.6","2.6.5"];
+        var versions = ["3.1","3.1b","3.0.0f","3.0.0b","2.6.6"];
     </script>
 
 

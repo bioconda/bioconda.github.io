@@ -10,10 +10,10 @@ r-circrnafull
    :replaces_section_title:
    :noindex:
 
-   An R package for reconstruction of full length circRNA sequence using chimeric alignment information
+   An R package for reconstruction of full length circRNA sequence using chimeric alignment information.
 
    :homepage: https://github.com/tofazzalh/circRNAFull
-   :license: unknown
+   :license: Unknown
    :recipe: /`r-circrnafull <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-circrnafull>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-circrnafull/meta.yaml>`_
    :links: doi: :doi:`10.3390/ijms23126776`
 
@@ -28,23 +28,19 @@ r-circrnafull
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends bioconductor-biostrings: 
    :depends bioconductor-rsamtools: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-seqinr: 
    :depends r-stringi: 
    :requirements:
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -92,7 +88,7 @@ r-circrnafull
 
     <script>
         var package = "r-circrnafull";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

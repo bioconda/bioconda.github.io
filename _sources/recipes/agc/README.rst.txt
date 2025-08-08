@@ -13,7 +13,7 @@ agc
    Assembled Genomes Compressor \(AGC\) is a tool designed to compress collections of de\-novo assembled genomes. It can be used for various types of datasets\: short genomes \(viruses\) as well as long \(humans\).
 
    :homepage: https://github.com/refresh-bio/agc
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`agc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/agc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/agc/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ agc
       
       
 
-      ``3.2-0``,  ``3.1-2``,  ``3.1-1``,  ``3.1-0``,  ``3.0-0``,  ``2.1-0``,  ``2.0-0``,  ``1.1-0``
+      ``3.2.1-0``,  ``3.2-0``,  ``3.1-2``,  ``3.1-1``,  ``3.1-0``,  ``3.0-0``,  ``2.1-0``,  ``2.0-0``,  ``1.1-0``
 
       
 
@@ -86,7 +86,7 @@ agc
 
     <script>
         var package = "agc";
-        var versions = ["3.2","3.1","3.1","3.1","3.0"];
+        var versions = ["3.2.1","3.2","3.1","3.1","3.1"];
     </script>
 
 

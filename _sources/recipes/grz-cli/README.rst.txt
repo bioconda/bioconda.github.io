@@ -28,10 +28,10 @@ grz-cli
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.1-0</code>,  </span></summary>
       
 
-      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.1.4-0``,  ``0.1.1-0``
+      ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.1.4-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -42,8 +42,8 @@ grz-cli
    
    :depends boto3: ``>=1.36,<2``
    :depends click: ``>=8.2,<9``
-   :depends grz-common: ``>=1.0.3,<2``
-   :depends grz-pydantic-models: ``>=2.1.0,<3``
+   :depends grz-common: ``>=1.2.1,<2``
+   :depends grz-pydantic-models: ``>=2.1.2,<3``
    :depends jsonschema: ``>=4.23.0,<5``
    :depends platformdirs: ``>=4.3.6,<5``
    :depends pydantic: ``>=2.9.2,<2.10``
@@ -105,7 +105,7 @@ grz-cli
 
     <script>
         var package = "grz-cli";
-        var versions = ["1.0.3","1.0.2","1.0.1","1.0.0","0.7.0"];
+        var versions = ["1.1.2","1.1.1","1.1.0","1.0.3","1.0.2"];
     </script>
 
 

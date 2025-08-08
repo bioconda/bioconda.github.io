@@ -12,8 +12,11 @@ paml
 
    A package of programs for phylogenetic analyses of DNA or protein sequences using maximum likelihood.
 
-   :homepage: http://abacus.gene.ucl.ac.uk/software/paml.html
-   :license: GNU General Public License v3 (GPLv3)
+   :homepage: https://evomics.org/resources/software/molecular-evolution-software/paml
+   :documentation: https://github.com/abacus-gene/paml/wiki
+   
+   :developer docs: https://github.com/abacus-gene/paml
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`paml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/paml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/paml/meta.yaml>`_
    :links: biotools: :biotools:`paml`, doi: :doi:`10.1093/bioinformatics/13.5.555`
 
@@ -29,10 +32,10 @@ paml
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.10.7-2</code>,  <code>4.10.7-1</code>,  <code>4.10.7-0</code>,  <code>4.10.6-2</code>,  <code>4.10.6-1</code>,  <code>4.10.6-0</code>,  <code>4.9-7</code>,  <code>4.9-6</code>,  <code>4.9-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.10.9-0</code>,  <code>4.10.7-2</code>,  <code>4.10.7-1</code>,  <code>4.10.7-0</code>,  <code>4.10.6-2</code>,  <code>4.10.6-1</code>,  <code>4.10.6-0</code>,  <code>4.9-7</code>,  <code>4.9-6</code>,  </span></summary>
       
 
-      ``4.10.7-2``,  ``4.10.7-1``,  ``4.10.7-0``,  ``4.10.6-2``,  ``4.10.6-1``,  ``4.10.6-0``,  ``4.9-7``,  ``4.9-6``,  ``4.9-5``,  ``4.9-4``,  ``4.9-3``,  ``4.9-2``,  ``4.9-1``,  ``4.9-0``
+      ``4.10.9-0``,  ``4.10.7-2``,  ``4.10.7-1``,  ``4.10.7-0``,  ``4.10.6-2``,  ``4.10.6-1``,  ``4.10.6-0``,  ``4.9-7``,  ``4.9-6``,  ``4.9-5``,  ``4.9-4``,  ``4.9-3``,  ``4.9-2``,  ``4.9-1``,  ``4.9-0``
 
       
       .. raw:: html
@@ -48,7 +51,7 @@ paml
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -96,7 +99,7 @@ paml
 
     <script>
         var package = "paml";
-        var versions = ["4.10.7","4.10.7","4.10.7","4.10.6","4.10.6"];
+        var versions = ["4.10.9","4.10.7","4.10.7","4.10.7","4.10.6"];
     </script>
 
 

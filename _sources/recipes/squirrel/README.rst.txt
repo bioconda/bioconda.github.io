@@ -13,7 +13,7 @@ squirrel
    Some QUIck Reconstruction to Resolve Evolutionary Links.
 
    :homepage: https://github.com/aineniamh/squirrel
-   :documentation: https://github.com/aineniamh/squirrel/blob/1.1.7/README.md
+   :documentation: https://github.com/aineniamh/squirrel/blob/1.2/README.md
    
    :license: GPL3 / GPL-3.0-only
    :recipe: /`squirrel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/squirrel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/squirrel/meta.yaml>`_
@@ -31,10 +31,10 @@ squirrel
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.7-0</code>,  <code>1.1.6-0</code>,  <code>1.1.5-0</code>,  <code>1.1.4-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-0</code>,  <code>1.0.13-0</code>,  <code>1.0.12-0</code>,  <code>1.0.11-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2-0</code>,  <code>1.1.7-0</code>,  <code>1.1.6-0</code>,  <code>1.1.5-0</code>,  <code>1.1.4-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-0</code>,  <code>1.0.13-0</code>,  <code>1.0.12-0</code>,  </span></summary>
       
 
-      ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-1``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``
+      ``1.2-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-1``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``
 
       
       .. raw:: html
@@ -106,7 +106,7 @@ squirrel
 
     <script>
         var package = "squirrel";
-        var versions = ["1.1.7","1.1.6","1.1.5","1.1.4","1.1.3"];
+        var versions = ["1.2","1.1.7","1.1.6","1.1.5","1.1.4"];
     </script>
 
 

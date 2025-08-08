@@ -30,10 +30,10 @@ rdeval
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.7-1</code>,  <code>0.0.7-0</code>,  <code>0.0.6-1</code>,  <code>0.0.6-0</code>,  <code>0.0.5-2</code>,  <code>0.0.5-1</code>,  <code>0.0.5-0</code>,  <code>0.0.4-0</code>,  <code>0.0.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.7-2</code>,  <code>0.0.7-1</code>,  <code>0.0.7-0</code>,  <code>0.0.6-1</code>,  <code>0.0.6-0</code>,  <code>0.0.5-2</code>,  <code>0.0.5-1</code>,  <code>0.0.5-0</code>,  <code>0.0.4-0</code>,  </span></summary>
       
 
-      ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-1``,  ``0.0.2-0``
+      ``0.0.7-2``,  ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-1``,  ``0.0.2-0``
 
       
       .. raw:: html
@@ -42,11 +42,11 @@ rdeval
       
 
    
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends openssl: ``>=3.5.0,<4.0a0``
+   :depends openssl: ``>=3.5.1,<4.0a0``
    :depends pandoc: 
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-bit64: 
@@ -54,6 +54,7 @@ rdeval
    :depends r-plotly: 
    :depends r-rmarkdown: 
    :depends r-tidyverse: 
+   :depends tectonic: 
    :requirements:
 
    :additional platforms:
@@ -108,7 +109,7 @@ rdeval
 
     <script>
         var package = "rdeval";
-        var versions = ["0.0.7","0.0.7","0.0.6","0.0.6","0.0.5"];
+        var versions = ["0.0.7","0.0.7","0.0.7","0.0.6","0.0.6"];
     </script>
 
 

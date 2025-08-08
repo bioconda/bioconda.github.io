@@ -12,8 +12,8 @@ libgenome
 
    A C\+\+ development library designed to make common operations on DNA and protein sequences easy. libGenome provides functionality to read\, write\, and manipulate sequence and annotation data in several file formats.
 
-   :homepage: http://darlinglab.org/mauve/
-   :license: GPL / GPL-2.0
+   :homepage: https://darlinglab.org/mauve/mauve.html
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`libgenome <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libgenome>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libgenome/meta.yaml>`_
 
    
@@ -26,9 +26,17 @@ libgenome
    :versions:
       
       
+      .. raw:: html
 
-      ``1.3.1-8``,  ``1.3.1-7``,  ``1.3.1-6``,  ``1.3.1-5``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.3.1-9</code>,  <code>1.3.1-8</code>,  <code>1.3.1-7</code>,  <code>1.3.1-6</code>,  <code>1.3.1-5</code>,  <code>1.3.1-4</code>,  <code>1.3.1-3</code>,  <code>1.3.1-2</code>,  <code>1.3.1-1</code>,  </span></summary>
+      
 
+      ``1.3.1-9``,  ``1.3.1-8``,  ``1.3.1-7``,  ``1.3.1-6``,  ``1.3.1-5``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -37,6 +45,10 @@ libgenome
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

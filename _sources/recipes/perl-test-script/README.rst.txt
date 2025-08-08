@@ -27,7 +27,7 @@ perl-test-script
       
       
 
-      ``1.29-0``,  ``1.25-0``
+      ``1.30-0``,  ``1.29-0``,  ``1.25-0``
 
       
 
@@ -85,7 +85,7 @@ perl-test-script
 
     <script>
         var package = "perl-test-script";
-        var versions = ["1.29","1.25"];
+        var versions = ["1.30","1.29","1.25"];
     </script>
 
 

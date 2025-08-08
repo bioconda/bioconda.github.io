@@ -13,7 +13,7 @@ gctb
    GCTB \(Genome\-wide Complex Trait Bayesian \) is a software tool that comprises a family of Bayesian linear mixed models for complex trait analyses using genome\-wide SNPs.
 
    :homepage: https://cnsgenomics.com/software/gctb
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`gctb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gctb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gctb/meta.yaml>`_
 
    
@@ -27,15 +27,22 @@ gctb
       
       
 
-      ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+      ``2.0-4``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
 
       
 
    
+   :depends boost-cpp: 
+   :depends eigen: 
    :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -83,7 +90,7 @@ gctb
 
     <script>
         var package = "gctb";
-        var versions = ["2.0","2.0","2.0","2.0"];
+        var versions = ["2.0","2.0","2.0","2.0","2.0"];
     </script>
 
 

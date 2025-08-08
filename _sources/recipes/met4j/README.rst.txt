@@ -12,7 +12,7 @@ met4j
 
    Met4J is an open\-source Java library dedicated to the structural analysis of metabolic networks
 
-   :homepage: https://forgemia.inra.fr/metexplore/met4j/-/blob/master/met4j-toolbox/README.md
+   :homepage: https://forge.inrae.fr/metexplore/met4j/-/blob/master/met4j-toolbox/README.md
    :license: CeCILL-2.1
    :recipe: /`met4j <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/met4j>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/met4j/meta.yaml>`_
 
@@ -27,7 +27,7 @@ met4j
       
       
 
-      ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``
+      ``2.1.0-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``
 
       
 
@@ -83,7 +83,7 @@ met4j
 
     <script>
         var package = "met4j";
-        var versions = ["2.0.2","2.0.2","2.0.1","2.0.0"];
+        var versions = ["2.1.0","2.0.2","2.0.2","2.0.1","2.0.0"];
     </script>
 
 

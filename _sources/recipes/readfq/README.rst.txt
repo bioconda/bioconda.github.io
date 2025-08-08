@@ -10,9 +10,9 @@ readfq
    :replaces_section_title:
    :noindex:
 
-   A high\-speed tool to calculate reads number and total base count in FASTQ file\, forked from Li Heng\'s original version
+   A high\-speed tool to calculate reads number and total base count in FASTQ file\, forked from Li Heng\'s original version.
 
-   :homepage: https://github.com/billzt/readfq
+   :homepage: https://github.com/tao-bioinfo/readfq
    :license: MIT / MIT
    :recipe: /`readfq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/readfq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/readfq/meta.yaml>`_
 
@@ -27,17 +27,20 @@ readfq
       
       
 
-      ``2015.08.30-6``,  ``2015.08.30-5``,  ``2015.08.30-4``,  ``2015.08.30-3``,  ``2015.08.30-2``,  ``2015.08.30-1``,  ``2015.08.30-0``
+      ``2015.08.30-7``,  ``2015.08.30-6``,  ``2015.08.30-5``,  ``2015.08.30-4``,  ``2015.08.30-3``,  ``2015.08.30-2``,  ``2015.08.30-1``,  ``2015.08.30-0``
 
       
 
    
    :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

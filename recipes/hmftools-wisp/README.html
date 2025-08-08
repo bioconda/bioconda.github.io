@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Package Recipe &#39;bio-unicorn&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;hmftools-wisp&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
     <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css?v=39de963d" />
     <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
@@ -63,49 +63,42 @@
 
           <div class="body" role="main">
             
-  <section id="bio-unicorn">
+  <section id="hmftools-wisp">
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
-<em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">bio-unicorn</span></span></dt>
-<dd><p>A tool for computing statistics on short read alignments.</p>
+<em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">hmftools-wisp</span></span></dt>
+<dd><p>WISP performs tumor fraction estimate for longitudinal samples</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/GeoGenetics/unicorn">https://github.com/GeoGenetics/unicorn</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/hartwigmedical/hmftools/tree/master/wisp">https://github.com/hartwigmedical/hmftools/tree/master/wisp</a></p>
 </dd>
-<dt class="field-even">Documentation<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="reference external" href="https://github.com/GeoGenetics/unicorn/blob/v1.0.0/README.md">https://github.com/GeoGenetics/unicorn/blob/v1.0.0/README.md</a></p>
+<dt class="field-even">License<span class="colon">:</span></dt>
+<dd class="field-even"><p>GPL3 / GPL-3.0-only</p>
 </dd>
-<dt class="field-odd">License<span class="colon">:</span></dt>
-<dd class="field-odd"><p>MIT / MIT</p>
-</dd>
-<dt class="field-even">Recipe<span class="colon">:</span></dt>
-<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bio-unicorn">bio-unicorn</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bio-unicorn/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">Recipe<span class="colon">:</span></dt>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-wisp">hmftools-wisp</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-wisp/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="conda package">
-<dt class="sig sig-object conda" id="package-bio-unicorn">
-<em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">bio-unicorn</span></span><a class="headerlink" href="#package-bio-unicorn" title="Link to this definition">¶</a></dt>
+<dt class="sig sig-object conda" id="package-hmftools-wisp">
+<em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">hmftools-wisp</span></span><a class="headerlink" href="#package-hmftools-wisp" title="Link to this definition">¶</a></dt>
 <dd><blockquote>
-<div><p><a class="reference external" href="https://anaconda.org/bioconda/bio-unicorn"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bio-unicorn.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bio-unicorn"><img alt="docker_bio-unicorn" src="https://quay.io/repository/biocontainers/bio-unicorn/status" /></a></p>
-<dl class="field-list">
+<div><p><a class="reference external" href="https://anaconda.org/bioconda/hmftools-wisp"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/hmftools-wisp.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/hmftools-wisp"><img alt="docker_hmftools-wisp" src="https://quay.io/repository/biocontainers/hmftools-wisp/status" /></a></p>
+<dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.2-0</span></code></p>
 </dd>
-<dt class="field-even">depends htslib<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.10</span></code></p>
+<dt class="field-even">depends openjdk<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=8,&lt;=21</span></code></p>
 </dd>
-<dt class="field-odd">depends htslib<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.22.1,&lt;1.23.0a0</span></code></p>
-</dd>
-<dt class="field-even">depends libgcc<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
-</dd>
-<dt class="field-odd">requirements<span class="colon">:</span></dt>
+<dt class="field-odd">depends r-tidyverse<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">additional platforms<span class="colon">:</span></dt>
-<dd class="field-even"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
+<dt class="field-even">requirements<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -117,30 +110,30 @@ micromamba or mamba (see <a class="reference external" href="https://mamba.readt
 We will show all commands using mamba below, but the arguments are the same for the two
 others.</p>
 <p>Given that you already have a conda environment in which you want to have this package, install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   <span class="n">mamba</span> <span class="n">install</span> <span class="n">bio</span><span class="o">-</span><span class="n">unicorn</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   <span class="n">mamba</span> <span class="n">install</span> <span class="n">hmftools</span><span class="o">-</span><span class="n">wisp</span>
 
 <span class="ow">and</span> <span class="n">update</span> <span class="k">with</span><span class="p">::</span>
 
-   <span class="n">mamba</span> <span class="n">update</span> <span class="n">bio</span><span class="o">-</span><span class="n">unicorn</span>
+   <span class="n">mamba</span> <span class="n">update</span> <span class="n">hmftools</span><span class="o">-</span><span class="n">wisp</span>
 </pre></div>
 </div>
 <p>To create a new environment, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">create</span> <span class="o">--</span><span class="n">name</span> <span class="n">myenvname</span> <span class="n">bio</span><span class="o">-</span><span class="n">unicorn</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">create</span> <span class="o">--</span><span class="n">name</span> <span class="n">myenvname</span> <span class="n">hmftools</span><span class="o">-</span><span class="n">wisp</span>
 </pre></div>
 </div>
 <p>with <code class="docutils literal notranslate"><span class="pre">myenvname</span></code> being a reasonable name for the environment
 (see e.g. the <a class="reference external" href="https://mamba.readthedocs.io">mamba docs</a> for details and further options).</p>
 <p>Alternatively, use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   docker pull quay.io/biocontainers/bio-unicorn:&lt;tag&gt;
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   docker pull quay.io/biocontainers/hmftools-wisp:&lt;tag&gt;
 
-(see `bio-unicorn/tags`_ for valid values for ``&lt;tag&gt;``)
+(see `hmftools-wisp/tags`_ for valid values for ``&lt;tag&gt;``)
 </pre></div>
 </div>
 </dd></dl>
 
 <script>
-    var package = "bio-unicorn";
-    var versions = ["1.0.0"];
+    var package = "hmftools-wisp";
+    var versions = ["1.2"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
@@ -216,8 +209,8 @@ others.</p>
 </section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Link to this heading">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/bio-unicorn/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bio-unicorn/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/hmftools-wisp/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/hmftools-wisp/README.html)
 </pre></div>
 </div>
 </section>
@@ -294,18 +287,18 @@ others.</p>
       &#169;2016-2025, The Bioconda Team.
       
       |
-      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.1.3</a>
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.2.3</a>
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
       
       |
-      <a href="../../_sources/recipes/bio-unicorn/README.rst.txt"
+      <a href="../../_sources/recipes/hmftools-wisp/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/bio-unicorn/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/hmftools-wisp/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>

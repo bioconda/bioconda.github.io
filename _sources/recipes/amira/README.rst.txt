@@ -29,11 +29,12 @@ amira
       
       
 
-      ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``
+      ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``
 
       
 
    
+   :depends flye: ``2.9.3``
    :depends joblib: ``1.2.0``
    :depends kmer-jellyfish: ``2.3.0``
    :depends matplotlib-base: ``3.6.2``
@@ -100,7 +101,7 @@ amira
 
     <script>
         var package = "amira";
-        var versions = ["0.9.3","0.9.2","0.9.1"];
+        var versions = ["0.11.0","0.10.0","0.9.3","0.9.2","0.9.1"];
     </script>
 
 

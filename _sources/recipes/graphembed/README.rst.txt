@@ -15,6 +15,7 @@ graphembed
    :homepage: https://github.com/jianshu93/graphembed
    :license: MIT / MIT
    :recipe: /`graphembed <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphembed>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphembed/meta.yaml>`_
+   :links: doi: :doi:`10.1101/2025.06.18.660497`
 
    
 
@@ -26,19 +27,24 @@ graphembed
    :versions:
       
       
+      .. raw:: html
 
-      ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.1.8-0</code>,  <code>0.1.7-0</code>,  <code>0.1.6-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4-0</code>,  <code>0.1.3-0</code>,  <code>0.1.2-0</code>,  <code>0.1.1-1</code>,  <code>0.1.1-0</code>,  </span></summary>
+      
 
+      ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends libgcc: ``>=13``
    :depends libgfortran: 
-   :depends libgfortran5: ``>=13.3.0``
-   :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends liblapacke: ``>=3.9.0,<4.0a0``
+   :depends libgfortran5: ``>=13.4.0``
    :depends libstdcxx: ``>=13``
-   :depends openblas: 
    :requirements:
 
    :additional platforms:
@@ -93,7 +99,7 @@ graphembed
 
     <script>
         var package = "graphembed";
-        var versions = ["0.1.7","0.1.6","0.1.5","0.1.4","0.1.3"];
+        var versions = ["0.1.8","0.1.7","0.1.6","0.1.5","0.1.4"];
     </script>
 
 

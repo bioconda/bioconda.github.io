@@ -10,10 +10,10 @@ nanoblaster
    :replaces_section_title:
    :noindex:
 
-   Basic Local Alignment and Search Tool for Oxford Nanopore Long Sequences
+   Basic Local Alignment and Search Tool for Oxford Nanopore Long Sequences.
 
    :homepage: https://github.com/ruhulsbu/NanoBLASTer
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`nanoblaster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanoblaster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanoblaster/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ nanoblaster
       
       
 
-      ``0.16-7``,  ``0.16-6``,  ``0.16-5``,  ``0.16-4``,  ``0.16-3``,  ``0.16-2``,  ``0.16-1``,  ``0.16-0``
+      ``0.16-8``,  ``0.16-7``,  ``0.16-6``,  ``0.16-5``,  ``0.16-4``,  ``0.16-3``,  ``0.16-2``,  ``0.16-1``,  ``0.16-0``
 
       
 
@@ -37,6 +37,10 @@ nanoblaster
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

@@ -10,11 +10,14 @@ ntcard
    :replaces_section_title:
    :noindex:
 
-   Estimating k\-mer coverage histogram of genomics data
+   Estimating k\-mer coverage histogram of genomics data.
 
    :homepage: https://github.com/bcgsc/ntCard
-   :license: MIT
+   :documentation: https://github.com/bcgsc/ntCard/blob/1.2.2/README.md
+   
+   :license: MIT / MIT
    :recipe: /`ntcard <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ntcard>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ntcard/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btw832`
 
    
 
@@ -28,10 +31,10 @@ ntcard
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.2-6</code>,  <code>1.2.2-5</code>,  <code>1.2.2-4</code>,  <code>1.2.2-3</code>,  <code>1.2.2-2</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.2-7</code>,  <code>1.2.2-6</code>,  <code>1.2.2-5</code>,  <code>1.2.2-4</code>,  <code>1.2.2-3</code>,  <code>1.2.2-2</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  </span></summary>
       
 
-      ``1.2.2-6``,  ``1.2.2-5``,  ``1.2.2-4``,  ``1.2.2-3``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.2.2-7``,  ``1.2.2-6``,  ``1.2.2-5``,  ``1.2.2-4``,  ``1.2.2-3``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,11 +43,12 @@ ntcard
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:

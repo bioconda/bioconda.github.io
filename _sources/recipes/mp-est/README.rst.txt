@@ -10,10 +10,10 @@ mp-est
    :replaces_section_title:
    :noindex:
 
-   Maximum Pseudo\-likelihood Estimation of Species Trees
+   Maximum Pseudo\-likelihood Estimation of Species Trees.
 
    :homepage: https://github.com/lliu1871/mp-est
-   :license: GPL / GNU GPLv3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`mp-est <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mp-est>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mp-est/meta.yaml>`_
 
    Maximum Pseudo\-likelihood Estimation of Species Trees
@@ -27,7 +27,7 @@ mp-est
       
       
 
-      ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``
+      ``3.0.0-3``,  ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``
 
       
 
@@ -36,6 +36,10 @@ mp-est
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -83,7 +87,7 @@ mp-est
 
     <script>
         var package = "mp-est";
-        var versions = ["3.0.0","3.0.0","3.0.0"];
+        var versions = ["3.0.0","3.0.0","3.0.0","3.0.0"];
     </script>
 
 

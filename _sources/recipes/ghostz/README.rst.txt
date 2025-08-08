@@ -10,12 +10,12 @@ ghostz
    :replaces_section_title:
    :noindex:
 
-   GHOSTZ is a highly efficient remote homologue detection tool
+   GHOSTZ is a highly efficient remote homologue detection tool.
 
-   :homepage: http://www.bi.cs.titech.ac.jp/ghostz/
-   :license: BSD-2-Clause
+   :homepage: http://www.bi.cs.titech.ac.jp/ghostz
+   :license: BSD / BSD-2-Clause
    :recipe: /`ghostz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ghostz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ghostz/meta.yaml>`_
-   :links: doi: :doi:`10.1093/bioinformatics/btu780`
+   :links: doi: :doi:`10.1093/bioinformatics/btu780`, biotools: :biotools:`ghostz`
 
    GHOSTZ is a homology search tool which can detect remote homologues like BLAST and is about 200 times more efficient than BLAST by using database subsequence clustering. GHOSTZ outputs search results in the format similar to BLAST\-tabular format.
 
@@ -27,17 +27,31 @@ ghostz
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.2-6``,  ``1.0.2-5``,  ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-1``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.2-7</code>,  <code>1.0.2-6</code>,  <code>1.0.2-5</code>,  <code>1.0.2-4</code>,  <code>1.0.2-3</code>,  <code>1.0.2-2</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  <code>1.0.0-1</code>,  </span></summary>
+      
 
+      ``1.0.2-7``,  ``1.0.2-6``,  ``1.0.2-5``,  ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

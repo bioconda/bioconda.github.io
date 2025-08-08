@@ -10,12 +10,12 @@ geno2phenotb
    :replaces_section_title:
    :noindex:
 
-   Prediction of Mycobacterium tuberculosis drug resistance from WGS data
+   Prediction of Mycobacterium tuberculosis drug resistance from WGS data.
 
    :homepage: https://github.com/msmdev/geno2phenoTB
    :documentation: https://geno2phenotb.readthedocs.io/en/latest
    
-   :license: LGPL-3.0-only
+   :license: LGPL / LGPL-3.0-only
    :recipe: /`geno2phenotb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/geno2phenotb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/geno2phenotb/meta.yaml>`_
 
    geno2phenoTB is a machine learning based tool to predict resistance of Mycobacterium tuberculosis against antibiotics using whole\-genome sequencing data.
@@ -30,17 +30,17 @@ geno2phenotb
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bwa: ``0.7.17.*``
+   :depends bwa: 
    :depends gatk: ``3.8.*``
    :depends imbalanced-learn: ``0.8.1.*``
    :depends importlib_metadata: 
    :depends joblib: ``1.2.*``
-   :depends mtbseq: ``1.0.4.*``
+   :depends mtbseq: 
    :depends numpy: ``1.21.5.*``
    :depends packaging: ``21.*``
    :depends pandas: ``0.25.3.*``
@@ -103,7 +103,7 @@ geno2phenotb
 
     <script>
         var package = "geno2phenotb";
-        var versions = ["1.0.1","1.0.0"];
+        var versions = ["1.0.1","1.0.1","1.0.0"];
     </script>
 
 

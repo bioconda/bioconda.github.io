@@ -30,7 +30,7 @@ commec
       
       
 
-      ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.0-0``,  ``0.1.2-0``
+      ``1.0.0-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.0-0``,  ``0.1.2-0``
 
       
 
@@ -38,15 +38,17 @@ commec
    :depends biopython: 
    :depends blast: ``>=2.16``
    :depends diamond: ``>=2.1``
-   :depends emboss: 
    :depends hmmer: 
    :depends infernal: 
+   :depends mako: 
    :depends numpy: 
    :depends pandas: 
+   :depends plotly: 
    :depends pytaxonkit: 
    :depends python: ``>=3.10``
    :depends pyyaml: 
    :depends wget: 
+   :depends yaml: 
    :requirements:
 
    :additional platforms:
@@ -97,7 +99,7 @@ commec
 
     <script>
         var package = "commec";
-        var versions = ["0.3.2","0.3.2","0.3.1","0.2.0","0.1.2"];
+        var versions = ["1.0.0","0.3.2","0.3.2","0.3.1","0.2.0"];
     </script>
 
 

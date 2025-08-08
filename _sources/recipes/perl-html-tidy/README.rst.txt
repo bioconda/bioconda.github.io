@@ -10,10 +10,12 @@ perl-html-tidy
    :replaces_section_title:
    :noindex:
 
-   \(X\)HTML validation in a Perl object
+   \(X\)HTML validation in a Perl object.
 
-   :homepage: http://github.com/petdance/html-tidy
-   :license: artistic_2
+   :homepage: https://github.com/petdance/html-tidy
+   :documentation: https://metacpan.org/pod/HTML::Tidy
+   
+   :license: Artistic_2
    :recipe: /`perl-html-tidy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-tidy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-tidy/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ perl-html-tidy
       
       
 
-      ``1.60-6``,  ``1.60-5``,  ``1.60-3``,  ``1.60-2``,  ``1.60-1``,  ``1.60-0``,  ``1.56-2``,  ``1.56-1``
+      ``1.60-7``,  ``1.60-6``,  ``1.60-5``,  ``1.60-3``,  ``1.60-2``,  ``1.60-1``,  ``1.60-0``,  ``1.56-2``,  ``1.56-1``
 
       
 

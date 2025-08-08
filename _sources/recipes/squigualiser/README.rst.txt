@@ -27,7 +27,7 @@ squigualiser
       
       
 
-      ``0.6.3-0``
+      ``0.6.4-0``,  ``0.6.3-0``
 
       
 
@@ -92,7 +92,7 @@ squigualiser
 
     <script>
         var package = "squigualiser";
-        var versions = ["0.6.3"];
+        var versions = ["0.6.4","0.6.3"];
     </script>
 
 

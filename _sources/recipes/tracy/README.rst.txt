@@ -13,6 +13,8 @@ tracy
    Basecalling\, alignment\, assembly and deconvolution of Sanger chromatogram trace files
 
    :homepage: https://github.com/gear-genomics/tracy
+   :documentation: https://github.com/gear-genomics/tracy/blob/v0.8.1/README.md
+   
    :license: BSD / BSD-3-Clause
    :recipe: /`tracy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tracy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tracy/meta.yaml>`_
    :links: doi: :doi:`10.1186/s12864-020-6635-8`, biotools: :biotools:`Gear-Genomics`
@@ -29,10 +31,10 @@ tracy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.8-1</code>,  <code>0.7.8-0</code>,  <code>0.7.6-2</code>,  <code>0.7.6-1</code>,  <code>0.7.6-0</code>,  <code>0.7.5-2</code>,  <code>0.7.5-1</code>,  <code>0.7.5-0</code>,  <code>0.7.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.1-0</code>,  <code>0.7.8-1</code>,  <code>0.7.8-0</code>,  <code>0.7.6-2</code>,  <code>0.7.6-1</code>,  <code>0.7.6-0</code>,  <code>0.7.5-2</code>,  <code>0.7.5-1</code>,  <code>0.7.5-0</code>,  </span></summary>
       
 
-      ``0.7.8-1``,  ``0.7.8-0``,  ``0.7.6-2``,  ``0.7.6-1``,  ``0.7.6-0``,  ``0.7.5-2``,  ``0.7.5-1``,  ``0.7.5-0``,  ``0.7.3-1``,  ``0.7.3-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.9-0``,  ``0.5.8-1``,  ``0.5.8-0``,  ``0.5.7-1``,  ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.3.10-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-1``,  ``0.3.6-0``
+      ``0.8.1-0``,  ``0.7.8-1``,  ``0.7.8-0``,  ``0.7.6-2``,  ``0.7.6-1``,  ``0.7.6-0``,  ``0.7.5-2``,  ``0.7.5-1``,  ``0.7.5-0``,  ``0.7.3-1``,  ``0.7.3-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.9-0``,  ``0.5.8-1``,  ``0.5.8-0``,  ``0.5.7-1``,  ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.3.10-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-1``,  ``0.3.6-0``
 
       
       .. raw:: html
@@ -43,18 +45,18 @@ tracy
    
    :depends boost-cpp: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.21,<1.23.0a0``
-   :depends libcxx: ``>=18``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
    :depends libdeflate: ``>=1.22,<1.23.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -102,7 +104,7 @@ tracy
 
     <script>
         var package = "tracy";
-        var versions = ["0.7.8","0.7.8","0.7.6","0.7.6","0.7.6"];
+        var versions = ["0.8.1","0.7.8","0.7.8","0.7.6","0.7.6"];
     </script>
 
 

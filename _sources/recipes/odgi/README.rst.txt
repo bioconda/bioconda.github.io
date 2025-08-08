@@ -13,7 +13,7 @@ odgi
    An optimized dynamic genome\/graph implementation.
 
    :homepage: https://github.com/pangenome/odgi
-   :documentation: https://github.com/pangenome/odgi/blob/v0.9.2/README.md
+   :documentation: https://github.com/pangenome/odgi/blob/v0.9.3/README.md
    
    :license: MIT / MIT
    :recipe: /`odgi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/odgi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/odgi/meta.yaml>`_
@@ -31,10 +31,10 @@ odgi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.2-1</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-1</code>,  <code>0.9.0-0</code>,  <code>0.8.6-2</code>,  <code>0.8.6-1</code>,  <code>0.8.6-0</code>,  <code>0.8.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.3-0</code>,  <code>0.9.2-1</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-1</code>,  <code>0.9.0-0</code>,  <code>0.8.6-2</code>,  <code>0.8.6-1</code>,  <code>0.8.6-0</code>,  </span></summary>
       
 
-      ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.6-2``,  ``0.8.6-1``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.3-1``,  ``0.7.3-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.3-1``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6-1``,  ``0.6-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3-1``,  ``0.3-0``,  ``0.2-0``,  ``v0.3-0``
+      ``0.9.3-0``,  ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.6-2``,  ``0.8.6-1``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.3-1``,  ``0.7.3-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.3-1``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6-1``,  ``0.6-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3-1``,  ``0.3-0``,  ``0.2-0``,  ``v0.3-0``
 
       
       .. raw:: html
@@ -43,11 +43,14 @@ odgi
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends jemalloc: 
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libjemalloc: ``>=5.3.0``
+   :depends libstdcxx: ``>=13``
+   :depends libstdcxx-ng: 
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends llvm-openmp: ``>=18.1.8``
    :depends pybind11: 
    :depends python: ``>=3``
    :requirements:
@@ -56,7 +59,7 @@ odgi
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>osx-arm64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -104,7 +107,7 @@ odgi
 
     <script>
         var package = "odgi";
-        var versions = ["0.9.2","0.9.2","0.9.1","0.9.0","0.9.0"];
+        var versions = ["0.9.3","0.9.2","0.9.2","0.9.1","0.9.0"];
     </script>
 
 

@@ -27,13 +27,14 @@ grz-db
       
       
 
-      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
    :depends alembic: ``>=1.16.1``
    :depends cryptography: ``>=45.0.3``
+   :depends grz-pydantic-models: ``2.*``
    :depends python: ``>=3.12,<4.0``
    :depends sqlmodel: ``>=0.0.24``
    :requirements:
@@ -86,7 +87,7 @@ grz-db
 
     <script>
         var package = "grz-db";
-        var versions = ["0.2.1","0.2.0","0.1.0"];
+        var versions = ["0.4.0","0.3.0","0.2.1","0.2.0","0.1.0"];
     </script>
 
 

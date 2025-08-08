@@ -10,10 +10,10 @@ perl-perlio-utf8_strict
    :replaces_section_title:
    :noindex:
 
-   Fast and correct UTF\-8 IO
+   Fast and correct UTF\-8 IO.
 
-   :homepage: http://metacpan.org/pod/PerlIO::utf8_strict
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/PerlIO::utf8_strict
+   :license: Perl_5
    :recipe: /`perl-perlio-utf8_strict <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-perlio-utf8_strict>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-perlio-utf8_strict/meta.yaml>`_
 
    
@@ -27,17 +27,21 @@ perl-perlio-utf8_strict
       
       
 
-      ``0.009-1``,  ``0.009-0``,  ``0.007-3``,  ``0.007-1``,  ``0.007-0``,  ``0.006-1``,  ``0.006-0``
+      ``0.010-0``,  ``0.009-2``,  ``0.009-1``,  ``0.009-0``,  ``0.007-3``,  ``0.007-1``,  ``0.007-0``,  ``0.006-1``,  ``0.006-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -85,7 +89,7 @@ perl-perlio-utf8_strict
 
     <script>
         var package = "perl-perlio-utf8_strict";
-        var versions = ["0.009","0.009","0.007","0.007","0.007"];
+        var versions = ["0.010","0.009","0.009","0.009","0.007"];
     </script>
 
 

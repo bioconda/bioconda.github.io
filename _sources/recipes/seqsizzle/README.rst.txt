@@ -27,14 +27,14 @@ seqsizzle
       
       
 
-      ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.4-0``
+      ``0.2.0-0``,  ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.4-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libgcc: ``>=13``
-   :depends liblzma: ``>=5.6.3,<6.0a0``
+   :depends liblzma: ``>=5.8.1,<6.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
@@ -90,7 +90,7 @@ seqsizzle
 
     <script>
         var package = "seqsizzle";
-        var versions = ["0.1.5","0.1.5","0.1.4"];
+        var versions = ["0.2.0","0.1.5","0.1.5","0.1.4"];
     </script>
 
 

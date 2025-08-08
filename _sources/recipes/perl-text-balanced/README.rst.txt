@@ -10,10 +10,10 @@ perl-text-balanced
    :replaces_section_title:
    :noindex:
 
-   Extract delimited text sequences from strings
+   Extract delimited text sequences from strings.
 
-   :homepage: http://metacpan.org/pod/Text::Balanced
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/Text::Balanced
+   :license: Perl_5
    :recipe: /`perl-text-balanced <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-balanced>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-balanced/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-text-balanced
       
       
 
-      ``2.06-0``,  ``2.05-0``,  ``2.04-0``,  ``2.03-4``,  ``2.03-3``,  ``2.03-2``,  ``2.03-1``,  ``2.03-0``
+      ``2.07-0``,  ``2.06-0``,  ``2.05-0``,  ``2.04-0``,  ``2.03-4``,  ``2.03-3``,  ``2.03-2``,  ``2.03-1``,  ``2.03-0``
 
       
 
@@ -86,7 +86,7 @@ perl-text-balanced
 
     <script>
         var package = "perl-text-balanced";
-        var versions = ["2.06","2.05","2.04","2.03","2.03"];
+        var versions = ["2.07","2.06","2.05","2.04","2.03"];
     </script>
 
 

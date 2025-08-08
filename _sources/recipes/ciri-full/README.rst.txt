@@ -14,7 +14,7 @@ ciri-full
 
    :homepage: https://ciri-cookbook.readthedocs.io/en/latest/CIRI-full.html
    :developer docs: https://github.com/bioinfo-biols/CIRI-full
-   :license: unknown
+   :license: Unknown
    :recipe: /`ciri-full <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ciri-full>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ciri-full/meta.yaml>`_
    :links: doi: :doi:`10.1186/s13073-019-0614-1`
 
@@ -29,7 +29,7 @@ ciri-full
       
       
 
-      ``2.1.2-0``
+      ``2.1.2-1``,  ``2.1.2-0``
 
       
 
@@ -40,10 +40,6 @@ ciri-full
    :requirements:
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -91,7 +87,7 @@ ciri-full
 
     <script>
         var package = "ciri-full";
-        var versions = ["2.1.2"];
+        var versions = ["2.1.2","2.1.2"];
     </script>
 
 

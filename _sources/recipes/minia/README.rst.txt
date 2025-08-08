@@ -13,9 +13,11 @@ minia
    Minia is a short\-read assembler based on a de Bruijn graph\, capable of assembling a human genome on a desktop computer in a day.
 
    :homepage: https://github.com/GATB/minia
-   :license: file
+   :documentation: https://gatb.inria.fr/software/minia
+   
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`minia <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minia>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minia/meta.yaml>`_
-   :links: biotools: :biotools:`minia`
+   :links: biotools: :biotools:`minia`, usegalaxy-eu: :usegalaxy-eu:`minia`, doi: :doi:`10.1186/1748-7188-8-22`
 
    
 
@@ -29,10 +31,10 @@ minia
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.6-5</code>,  <code>3.2.6-3</code>,  <code>3.2.6-2</code>,  <code>3.2.6-1</code>,  <code>3.2.6-0</code>,  <code>3.2.4-1</code>,  <code>3.2.4-0</code>,  <code>3.2.3-0</code>,  <code>3.2.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.6-6</code>,  <code>3.2.6-5</code>,  <code>3.2.6-3</code>,  <code>3.2.6-2</code>,  <code>3.2.6-1</code>,  <code>3.2.6-0</code>,  <code>3.2.4-1</code>,  <code>3.2.4-0</code>,  <code>3.2.3-0</code>,  </span></summary>
       
 
-      ``3.2.6-5``,  ``3.2.6-3``,  ``3.2.6-2``,  ``3.2.6-1``,  ``3.2.6-0``,  ``3.2.4-1``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``
+      ``3.2.6-6``,  ``3.2.6-5``,  ``3.2.6-3``,  ``3.2.6-2``,  ``3.2.6-1``,  ``3.2.6-0``,  ``3.2.4-1``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``
 
       
       .. raw:: html
@@ -44,14 +46,13 @@ minia
    :depends libgcc: ``>=12``
    :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

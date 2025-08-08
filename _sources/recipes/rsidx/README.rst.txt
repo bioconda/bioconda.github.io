@@ -10,10 +10,10 @@ rsidx
    :replaces_section_title:
    :noindex:
 
-   Library for indexing VCF files for random access searches by rsID
+   Library for indexing VCF files for random access searches by rsID.
 
-   :homepage: https://github.com/bioforensics/rsidx/
-   :license: BSD / BSD License
+   :homepage: https://github.com/bioforensics/rsidx
+   :license: BSD / BSD-3-Clause
    :recipe: /`rsidx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rsidx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rsidx/meta.yaml>`_
 
    
@@ -27,13 +27,16 @@ rsidx
       
       
 
-      ``0.3-0``,  ``0.2-2``,  ``0.2-1``,  ``0.2-0``,  ``0.1.1-0``
+      ``0.3.1-0``,  ``0.3-0``,  ``0.2-2``,  ``0.2-1``,  ``0.2-0``,  ``0.1.1-0``
 
       
 
    
    :depends htslib: ``>=1.10``
+   :depends pytest: 
+   :depends pytest-cov: 
    :depends python: ``>=3``
+   :depends setuptools: 
    :requirements:
 
    :additional platforms:
@@ -84,7 +87,7 @@ rsidx
 
     <script>
         var package = "rsidx";
-        var versions = ["0.3","0.2","0.2","0.2","0.1.1"];
+        var versions = ["0.3.1","0.3","0.2","0.2","0.2"];
     </script>
 
 

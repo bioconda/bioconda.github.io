@@ -30,7 +30,7 @@ cats-rb
       
       
 
-      ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -105,7 +105,7 @@ cats-rb
 
     <script>
         var package = "cats-rb";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.1","1.0.0"];
     </script>
 
 

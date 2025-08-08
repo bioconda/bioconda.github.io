@@ -30,10 +30,10 @@ snakemake-storage-plugin-s3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.3-1</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.13-0</code>,  <code>0.2.12-0</code>,  <code>0.2.11-0</code>,  <code>0.2.10-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.4-0</code>,  <code>0.3.3-1</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.13-0</code>,  <code>0.2.12-0</code>,  <code>0.2.11-0</code>,  </span></summary>
       
 
-      ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8-1``,  ``0.2.8-0``
+      ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8-1``,  ``0.2.8-0``
 
       
       .. raw:: html
@@ -97,7 +97,7 @@ snakemake-storage-plugin-s3
 
     <script>
         var package = "snakemake-storage-plugin-s3";
-        var versions = ["0.3.3","0.3.3","0.3.2","0.3.1","0.3.0"];
+        var versions = ["0.3.4","0.3.3","0.3.3","0.3.2","0.3.1"];
     </script>
 
 

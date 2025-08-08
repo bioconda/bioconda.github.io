@@ -10,10 +10,12 @@ perl-inline-c
    :replaces_section_title:
    :noindex:
 
-   C Language Support for Inline
+   C Language Support for Inline.
 
    :homepage: https://github.com/ingydotnet/inline-c-pm
-   :license: perl_5
+   :documentation: https://metacpan.org/dist/Inline-C
+   
+   :license: Perl_5
    :recipe: /`perl-inline-c <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-inline-c>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-inline-c/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ perl-inline-c
       
       
 
-      ``0.81-3``,  ``0.81-2``,  ``0.81-1``,  ``0.81-0``,  ``0.78-1``,  ``0.78-0``,  ``0.76-1``,  ``0.76-0``
+      ``0.82-0``,  ``0.81-3``,  ``0.81-2``,  ``0.81-1``,  ``0.81-0``,  ``0.78-1``,  ``0.78-0``,  ``0.76-1``,  ``0.76-0``
 
       
 
@@ -38,7 +40,9 @@ perl-inline-c
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-extutils-makemaker: 
    :depends perl-file-copy-recursive: ``>=0.45,<0.46.0a0``
-   :depends perl-inline: 
+   :depends perl-file-sharedir-install: ``>=0.14,<0.15.0a0``
+   :depends perl-file-spec: 
+   :depends perl-inline: ``>=0.87,<0.88.0a0``
    :depends perl-parse-recdescent: 
    :depends perl-pegex: 
    :requirements:
@@ -91,7 +95,7 @@ perl-inline-c
 
     <script>
         var package = "perl-inline-c";
-        var versions = ["0.81","0.81","0.81","0.81","0.78"];
+        var versions = ["0.82","0.81","0.81","0.81","0.81"];
     </script>
 
 
