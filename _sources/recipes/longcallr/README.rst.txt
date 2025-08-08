@@ -27,7 +27,7 @@ longcallr
       
       
 
-      ``1.11.0-0``
+      ``1.12.0-0``,  ``1.11.0-0``
 
       
 
@@ -35,7 +35,7 @@ longcallr
    :depends intervaltree: 
    :depends networkx: 
    :depends numpy: ``>=1.22.4,<2.0a0``
-   :depends pysam: ``>=0.23.0,<0.24.0a0``
+   :depends pysam: ``>=0.23.3,<0.24.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends scipy: 
@@ -90,7 +90,7 @@ longcallr
 
     <script>
         var package = "longcallr";
-        var versions = ["1.11.0"];
+        var versions = ["1.12.0","1.11.0"];
     </script>
 
 
