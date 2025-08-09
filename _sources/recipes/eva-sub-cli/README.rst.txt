@@ -30,10 +30,10 @@ eva-sub-cli
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.11-0</code>,  <code>0.4.10-0</code>,  <code>0.4.9-0</code>,  <code>0.4.8-0</code>,  <code>0.4.7-0</code>,  <code>0.4.6-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.12-0</code>,  <code>0.4.11-0</code>,  <code>0.4.10-0</code>,  <code>0.4.9-0</code>,  <code>0.4.8-0</code>,  <code>0.4.7-0</code>,  <code>0.4.6-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  </span></summary>
       
 
-      ``0.4.11-0``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``
+      ``0.4.12-0``,  ``0.4.11-0``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3-0``,  ``0.2-0``
 
       
       .. raw:: html
@@ -104,7 +104,7 @@ eva-sub-cli
 
     <script>
         var package = "eva-sub-cli";
-        var versions = ["0.4.11","0.4.10","0.4.9","0.4.8","0.4.7"];
+        var versions = ["0.4.12","0.4.11","0.4.10","0.4.9","0.4.8"];
     </script>
 
 

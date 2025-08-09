@@ -13,7 +13,7 @@ kled
    An ultra\-fast and sensitive structural variant detection tool for long\-read sequencing data.
 
    :homepage: https://github.com/CoREse/kled
-   :documentation: https://github.com/CoREse/kled/blob/v1.2.9H11/README.md
+   :documentation: https://github.com/CoREse/kled/blob/v1.2.10/README.md
    
    :license: MIT / MIT
    :recipe: /`kled <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kled>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kled/meta.yaml>`_
@@ -35,7 +35,7 @@ kled
       
       
 
-      ``1.2.9H11-0``
+      ``1.2.10-0``,  ``1.2.9H11-0``
 
       
 
@@ -52,7 +52,7 @@ kled
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends openmpi: ``>=4.1.6,<5.0a0``
-   :depends openssl: ``>=3.5.1,<4.0a0``
+   :depends openssl: ``>=3.5.2,<4.0a0``
    :requirements:
 
    :additional platforms:
@@ -107,7 +107,7 @@ kled
 
     <script>
         var package = "kled";
-        var versions = ["1.2.9H11"];
+        var versions = ["1.2.10","1.2.9H11"];
     </script>
 
 

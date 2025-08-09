@@ -29,21 +29,29 @@ minute
    :versions:
       
       
+      .. raw:: html
 
-      ``0.12.1-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.6.0-0``,  ``0.4.0-0``,  ``0.3.3-0``,  ``0.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.12.1-1</code>,  <code>0.12.1-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.6.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.3-0</code>,  </span></summary>
+      
 
+      ``0.12.1-1``,  ``0.12.1-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.6.0-0``,  ``0.4.0-0``,  ``0.3.3-0``,  ``0.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bedtools: ``>=2.30.0``
-   :depends bowtie2: ``>=2.5.3``
-   :depends cutadapt: ``>=3.7``
+   :depends bowtie2: ``>=2.5.4``
+   :depends click: ``8.2.1.*``
+   :depends cutadapt: ``>=5.1``
    :depends deeptools: ``>=3.5.0``
    :depends fastqc: ``>=0.11.9``
-   :depends igvtools: ``>=2.5.3``
    :depends je-suite: ``>=2.0.RC``
-   :depends multiqc: ``1.17.*``
-   :depends picard: ``>=2.26.0``
+   :depends multiqc: ``>1.20``
+   :depends picard: ``>=3.4.0``
    :depends python: ``>=3.7``
    :depends r-base: ``>=4.0.0``
    :depends r-dplyr: ``>=1.0.0``
@@ -104,7 +112,7 @@ minute
 
     <script>
         var package = "minute";
-        var versions = ["0.12.1","0.10.1","0.10.0","0.9.0","0.8.0"];
+        var versions = ["0.12.1","0.12.1","0.10.1","0.10.0","0.9.0"];
     </script>
 
 
