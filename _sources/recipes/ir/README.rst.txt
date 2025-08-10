@@ -27,14 +27,19 @@ ir
       
       
 
-      ``2.8.0-7``,  ``2.8.0-6``,  ``2.8.0-5``,  ``2.8.0-4``,  ``2.8.0-3``,  ``2.8.0-2``,  ``2.8.0-1``
+      ``2.8.0-8``,  ``2.8.0-7``,  ``2.8.0-6``,  ``2.8.0-5``,  ``2.8.0-4``,  ``2.8.0-3``,  ``2.8.0-2``,  ``2.8.0-1``
 
       
 
    
+   :depends libgcc: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

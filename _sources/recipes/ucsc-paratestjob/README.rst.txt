@@ -30,9 +30,17 @@ ucsc-paratestjob
    :versions:
       
       
+      .. raw:: html
 
-      ``482-1``,  ``482-0``,  ``469-1``,  ``469-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``
+         <details><summary><span class="truncated-version-list"><code>482-2</code>,  <code>482-1</code>,  <code>482-0</code>,  <code>469-1</code>,  <code>469-0</code>,  <code>377-3</code>,  <code>377-2</code>,  <code>377-1</code>,  <code>377-0</code>,  </span></summary>
+      
 
+      ``482-2``,  ``482-1``,  ``482-0``,  ``469-1``,  ``469-0``,  ``377-3``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -45,6 +53,7 @@ ucsc-paratestjob
    :depends libstdcxx: ``>=13``
    :depends libuuid: ``>=2.38.1,<3.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends mariadb-connector-c: 
    :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
    :requirements:
 
@@ -100,7 +109,7 @@ ucsc-paratestjob
 
     <script>
         var package = "ucsc-paratestjob";
-        var versions = ["482","482","469","469","377"];
+        var versions = ["482","482","482","469","469"];
     </script>
 
 

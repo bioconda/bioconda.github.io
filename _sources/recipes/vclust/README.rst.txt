@@ -27,13 +27,15 @@ vclust
       
       
 
-      ``1.3.1-0``,  ``1.2.9-0``,  ``1.2.8-0``,  ``1.2.7-0``
+      ``1.3.1-1``,  ``1.3.1-0``,  ``1.2.9-0``,  ``1.2.8-0``,  ``1.2.7-0``
 
       
 
    
-   :depends python: ``>=3.13,<3.14.0a0``
-   :depends python_abi: ``3.13.* *_cp313``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    :additional platforms:
@@ -88,7 +90,7 @@ vclust
 
     <script>
         var package = "vclust";
-        var versions = ["1.3.1","1.2.9","1.2.8","1.2.7"];
+        var versions = ["1.3.1","1.3.1","1.2.9","1.2.8","1.2.7"];
     </script>
 
 

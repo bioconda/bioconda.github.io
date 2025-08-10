@@ -10,10 +10,10 @@ bwameth
    :replaces_section_title:
    :noindex:
 
-   A fast and accurate aligner of BS\-seq reads
+   A fast and accurate aligner of BS\-seq reads.
 
    :homepage: https://github.com/brentp/bwa-meth
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`bwameth <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bwameth>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bwameth/meta.yaml>`_
    :links: usegalaxy-eu: :usegalaxy-eu:`bwameth`
 
@@ -29,10 +29,10 @@ bwameth
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.8-0</code>,  <code>0.2.7-1</code>,  <code>0.2.7-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-4</code>,  <code>0.2.2-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.9-0</code>,  <code>0.2.8-0</code>,  <code>0.2.7-1</code>,  <code>0.2.7-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-4</code>,  </span></summary>
       
 
-      ``0.2.8-0``,  ``0.2.7-1``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-4``,  ``0.2.2-3``,  ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``
+      ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-1``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-4``,  ``0.2.2-3``,  ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -96,7 +96,7 @@ bwameth
 
     <script>
         var package = "bwameth";
-        var versions = ["0.2.8","0.2.7","0.2.7","0.2.6","0.2.5"];
+        var versions = ["0.2.9","0.2.8","0.2.7","0.2.7","0.2.6"];
     </script>
 
 

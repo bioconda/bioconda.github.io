@@ -10,14 +10,16 @@ gimmemotifs
    :replaces_section_title:
    :noindex:
 
-   Motif prediction pipeline and various motif\-related tools
+   Motif prediction pipeline and various motif\-related tools.
 
    :homepage: https://github.com/vanheeringen-lab/gimmemotifs
-   :license: MIT
+   :documentation: https://gimmemotifs.readthedocs.io/en/master
+   
+   :license: MIT / MIT
    :recipe: /`gimmemotifs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gimmemotifs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gimmemotifs/meta.yaml>`_
-   :links: biotools: :biotools:`gimmemotifs`
+   :links: biotools: :biotools:`gimmemotifs`, doi: :doi:`10.1093/bioinformatics/btq636`, doi: :doi:`10.1101/474403`
 
-   Motif prediction pipeline and various motif\-related tools
+   Motif prediction pipeline and various motif\-related tools.
 
 
 .. conda:package:: gimmemotifs
@@ -29,10 +31,10 @@ gimmemotifs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.18.0-5</code>,  <code>0.18.0-4</code>,  <code>0.18.0-2</code>,  <code>0.18.0-1</code>,  <code>0.18.0-0</code>,  <code>0.17.2-1</code>,  <code>0.17.2-0</code>,  <code>0.17.1-2</code>,  <code>0.17.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.18.0-7</code>,  <code>0.18.0-5</code>,  <code>0.18.0-4</code>,  <code>0.18.0-2</code>,  <code>0.18.0-1</code>,  <code>0.18.0-0</code>,  <code>0.17.2-1</code>,  <code>0.17.2-0</code>,  <code>0.17.1-2</code>,  </span></summary>
       
 
-      ``0.18.0-5``,  ``0.18.0-4``,  ``0.18.0-2``,  ``0.18.0-1``,  ``0.18.0-0``,  ``0.17.2-1``,  ``0.17.2-0``,  ``0.17.1-2``,  ``0.17.1-1``,  ``0.17.1-0``,  ``0.17.0-2``,  ``0.17.0-1``,  ``0.17.0-0``,  ``0.16.1-1``,  ``0.16.1-0``,  ``0.16.0-2``,  ``0.16.0-0``,  ``0.15.3-0``,  ``0.15.2-0``,  ``0.15.1-0``,  ``0.15.0-1``,  ``0.15.0-0``,  ``0.14.4-2``,  ``0.14.4-1``,  ``0.14.4-0``,  ``0.14.3-1``,  ``0.14.3-0``,  ``0.14.2-0``,  ``0.14.1-2``,  ``0.14.1-1``,  ``0.14.1-0``,  ``0.14.0-1``,  ``0.14.0-0``,  ``0.13.1-4``,  ``0.13.1-3``,  ``0.13.1-2``,  ``0.13.1-1``,  ``0.13.1-0``,  ``0.13.0-1``,  ``0.13.0-0``,  ``0.12.0-1``,  ``0.12.0-0``,  ``0.11.1-1``,  ``0.11.1-0``,  ``0.10.0-0``,  ``0.10.0b6-1``,  ``0.10.0b5-1``,  ``0.10.0b4-1``,  ``0.10.0b4-0``,  ``0.10.0b1-0``,  ``0.9.0.6-0``,  ``0.9.0.5-0``,  ``0.9.0.4-0``,  ``0.9.0.3-2``,  ``0.8.9.1-1``
+      ``0.18.0-7``,  ``0.18.0-5``,  ``0.18.0-4``,  ``0.18.0-2``,  ``0.18.0-1``,  ``0.18.0-0``,  ``0.17.2-1``,  ``0.17.2-0``,  ``0.17.1-2``,  ``0.17.1-1``,  ``0.17.1-0``,  ``0.17.0-2``,  ``0.17.0-1``,  ``0.17.0-0``,  ``0.16.1-1``,  ``0.16.1-0``,  ``0.16.0-2``,  ``0.16.0-0``,  ``0.15.3-0``,  ``0.15.2-0``,  ``0.15.1-0``,  ``0.15.0-1``,  ``0.15.0-0``,  ``0.14.4-2``,  ``0.14.4-1``,  ``0.14.4-0``,  ``0.14.3-1``,  ``0.14.3-0``,  ``0.14.2-0``,  ``0.14.1-2``,  ``0.14.1-1``,  ``0.14.1-0``,  ``0.14.0-1``,  ``0.14.0-0``,  ``0.13.1-4``,  ``0.13.1-3``,  ``0.13.1-2``,  ``0.13.1-1``,  ``0.13.1-0``,  ``0.13.0-1``,  ``0.13.0-0``,  ``0.12.0-1``,  ``0.12.0-0``,  ``0.11.1-1``,  ``0.11.1-0``,  ``0.10.0-0``,  ``0.10.0b6-1``,  ``0.10.0b5-1``,  ``0.10.0b4-1``,  ``0.10.0b4-0``,  ``0.10.0b1-0``,  ``0.9.0.6-0``,  ``0.9.0.5-0``,  ``0.9.0.4-0``,  ``0.9.0.3-2``,  ``0.8.9.1-1``
 
       
       .. raw:: html
@@ -45,14 +47,18 @@ gimmemotifs
    :depends gadem: ``>=1.3.1``
    :depends gimmemotifs-minimal: ``0.18.0.*``
    :depends homer: ``>=4.11``
-   :depends meme: ``>=5.4.1``
-   :depends prosampler: ``>=1.0``
+   :depends meme: ``>=5.5.7``
+   :depends prosampler: ``>=1.5``
    :depends trawler: ``>=2.0``
    :depends weeder: ``>=2.0``
    :depends xxmotif: ``>=1.6``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -112,11 +118,12 @@ gimmemotifs
       
       
 
-      ``0.18.0-5``,  ``0.18.0-4``,  ``0.18.0-2``,  ``0.18.0-1``,  ``0.18.0-0``,  ``0.17.2-1``,  ``0.17.2-0``,  ``0.17.1-2``
+      ``0.18.0-7``,  ``0.18.0-5``,  ``0.18.0-4``,  ``0.18.0-2``,  ``0.18.0-1``,  ``0.18.0-0``,  ``0.17.2-1``,  ``0.17.2-0``,  ``0.17.1-2``
 
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends biofluff: ``>=3.0.4``
    :depends configparser: 
    :depends diskcache: 
@@ -124,13 +131,13 @@ gimmemotifs
    :depends genomepy: ``>=0.13.0``
    :depends iteround: 
    :depends jinja2: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends logomaker: 
    :depends loguru: 
    :depends matplotlib-base: ``>=3.3``
    :depends numpy: ``>=1.18``
-   :depends pandas: ``>=1.3,<2``
+   :depends pandas: ``>=1.3``
    :depends pybedtools: ``>=0.9.0``
    :depends pysam: ``>=0.16``
    :depends python: ``>=3.10,<3.11.0a0``
@@ -139,13 +146,17 @@ gimmemotifs
    :depends qnorm: ``>=0.8.1``
    :depends scikit-learn: ``>=0.23.2``
    :depends scipy: ``>=1.5``
-   :depends seaborn: ``>=0.10.1``
+   :depends seaborn-base: ``>=0.10.1``
    :depends statsmodels: 
    :depends tqdm: ``>=4.46.1``
    :depends xdg: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

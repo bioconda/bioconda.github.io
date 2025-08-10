@@ -28,15 +28,20 @@ gtfsort
       
       
 
-      ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``
+      ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``
 
       
 
    
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -84,7 +89,7 @@ gtfsort
 
     <script>
         var package = "gtfsort";
-        var versions = ["0.2.2","0.2.2","0.2.1"];
+        var versions = ["0.2.2","0.2.2","0.2.2","0.2.1"];
     </script>
 
 

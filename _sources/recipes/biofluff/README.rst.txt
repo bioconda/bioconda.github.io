@@ -10,11 +10,14 @@ biofluff
    :replaces_section_title:
    :noindex:
 
-   Exploratory analysis and visualization of high\-throughput sequencing data
+   Exploratory analysis and visualization of high\-throughput sequencing data.
 
    :homepage: https://github.com/simonvh/fluff
-   :license: MIT
+   :documentation: https://fluff.readthedocs.io/en/latest
+   
+   :license: MIT / MIT
    :recipe: /`biofluff <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biofluff>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biofluff/meta.yaml>`_
+   :links: doi: :doi:`10.7717/peerj.2209`
 
    
 
@@ -28,10 +31,10 @@ biofluff
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.4-0</code>,  <code>3.0.3-1</code>,  <code>3.0.3-0</code>,  <code>3.0.2-1</code>,  <code>3.0.2-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.4-1</code>,  <code>3.0.4-0</code>,  <code>3.0.3-1</code>,  <code>3.0.3-0</code>,  <code>3.0.2-1</code>,  <code>3.0.2-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  </span></summary>
       
 
-      ``3.0.4-0``,  ``3.0.3-1``,  ``3.0.3-0``,  ``3.0.2-1``,  ``3.0.2-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-1``
+      ``3.0.4-1``,  ``3.0.4-0``,  ``3.0.3-1``,  ``3.0.3-0``,  ``3.0.2-1``,  ``3.0.2-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-1``
 
       
       .. raw:: html
@@ -41,11 +44,11 @@ biofluff
 
    
    :depends htseq: 
-   :depends matplotlib-base: ``>=2``
+   :depends matplotlib-base: 
    :depends palettable: 
    :depends pybedtools: 
    :depends pybigwig: 
-   :depends pysam: ``>=0.15.0``
+   :depends pysam: 
    :depends python: ``>=3``
    :depends scikit-learn: 
    :depends scipy: 
@@ -99,7 +102,7 @@ biofluff
 
     <script>
         var package = "biofluff";
-        var versions = ["3.0.4","3.0.3","3.0.3","3.0.2","3.0.2"];
+        var versions = ["3.0.4","3.0.4","3.0.3","3.0.3","3.0.2"];
     </script>
 
 
