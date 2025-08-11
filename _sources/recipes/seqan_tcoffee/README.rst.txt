@@ -10,11 +10,11 @@ seqan_tcoffee
    :replaces_section_title:
    :noindex:
 
-   SeqAn\:\:T\-Coffee \- Multiple Sequence Alignment
+   SeqAn\:\:T\-Coffee \- Multiple Sequence Alignment.
 
-   :homepage: http://www.seqan.de/apps/seqan-t-coffee/
+   :homepage: http://www.seqan.de/apps/seqan-t-coffee
    :developer docs: https://github.com/seqan/seqan/tree/master/apps/seqan_tcoffee
-   :license: GPL / GPL (>=3)
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`seqan_tcoffee <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqan_tcoffee>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqan_tcoffee/meta.yaml>`_
    :links: doi: :doi:`10.1093/bioinformatics/btn281`
 
@@ -28,9 +28,17 @@ seqan_tcoffee
    :versions:
       
       
+      .. raw:: html
 
-      ``1.13.8-5``,  ``1.13.8-4``,  ``1.13.8-3``,  ``1.13.8-2``,  ``1.13.8-1``,  ``1.13.8-0``,  ``1.13.3-2``,  ``1.13.3-1``,  ``1.13.3-0``
+         <details><summary><span class="truncated-version-list"><code>1.13.8-6</code>,  <code>1.13.8-5</code>,  <code>1.13.8-4</code>,  <code>1.13.8-3</code>,  <code>1.13.8-2</code>,  <code>1.13.8-1</code>,  <code>1.13.8-0</code>,  <code>1.13.3-2</code>,  <code>1.13.3-1</code>,  </span></summary>
+      
 
+      ``1.13.8-6``,  ``1.13.8-5``,  ``1.13.8-4``,  ``1.13.8-3``,  ``1.13.8-2``,  ``1.13.8-1``,  ``1.13.8-0``,  ``1.13.3-2``,  ``1.13.3-1``,  ``1.13.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -38,10 +46,13 @@ seqan_tcoffee
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

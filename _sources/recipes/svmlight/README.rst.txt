@@ -10,9 +10,9 @@ svmlight
    :replaces_section_title:
    :noindex:
 
-   SVMLight Library by Thorsten Joachim
+   SVMLight Library by Thorsten Joachim.
 
-   :homepage: http://svmlight.joachims.org/
+   :homepage: http://svmlight.joachims.org
    :license: Modified MIT
    :recipe: /`svmlight <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svmlight>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svmlight/meta.yaml>`_
 
@@ -27,7 +27,7 @@ svmlight
       
       
 
-      ``6.02-7``,  ``6.02-6``,  ``6.02-5``,  ``6.02-4``,  ``6.02-3``,  ``6.02-2``,  ``6.02-1``
+      ``6.02-8``,  ``6.02-7``,  ``6.02-6``,  ``6.02-5``,  ``6.02-4``,  ``6.02-3``,  ``6.02-2``,  ``6.02-1``
 
       
 
@@ -36,6 +36,10 @@ svmlight
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -96,7 +100,7 @@ License requires users to cite
 T. Joachims\, Making large\-Scale SVM Learning
 Practical. Advances in Kernel Methods \- Support Vector
 Learning\, B. Schölkopf and C. Burges and A. Smola \(ed.\)\,
-MIT\-Press\, 1999. 
+MIT\-Press\, 1999.
 
 
 Download stats

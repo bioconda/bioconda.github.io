@@ -15,7 +15,7 @@ lightassembler
    :homepage: https://github.com/SaraEl-Metwally/LightAssembler
    :license: GPL
    :recipe: /`lightassembler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lightassembler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lightassembler/meta.yaml>`_
-   :links: biotools: :biotools:`LightAssembler`, doi: :doi:`10.1093/bioinformatics/btw470`
+   :links: biotools: :biotools:`LightAssembler`, doi: :doi:`1i0.1093/bioinformatics/btw470`
 
    
 
@@ -28,19 +28,21 @@ lightassembler
       
       
 
-      ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0-7``,  ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
-   :depends libtool: 
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

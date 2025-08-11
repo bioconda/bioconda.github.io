@@ -10,7 +10,7 @@ spectral_hk
    :replaces_section_title:
    :noindex:
 
-   NCGC Spectral HashKey
+   NCGC Spectral HashKey.
 
    :homepage: https://bitbucket.org/ncgc/spectral_hk
    :license: PUBLIC DOMAIN
@@ -27,15 +27,21 @@ spectral_hk
       
       
 
-      ``0.1-1``,  ``0.1-0``
+      ``0.1-2``,  ``0.1-1``,  ``0.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=4.9``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -83,7 +89,7 @@ spectral_hk
 
     <script>
         var package = "spectral_hk";
-        var versions = ["0.1","0.1"];
+        var versions = ["0.1","0.1","0.1"];
     </script>
 
 

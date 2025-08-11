@@ -10,9 +10,11 @@ proda
    :replaces_section_title:
    :noindex:
 
-   ProDA \- Multiple alignment of protein sequences with repeated and shuffled elements
+   ProDA \- Multiple alignment of protein sequences with repeated and shuffled elements.
 
-   :homepage: http://proda.stanford.edu/
+   :homepage: http://proda.stanford.edu
+   :documentation: http://proda.stanford.edu/manual.htm
+   
    :license: Public Domain Software
    :recipe: /`proda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/proda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/proda/meta.yaml>`_
    :links: doi: :doi:`10.1093/nar/gkl511`
@@ -28,7 +30,7 @@ proda
       
       
 
-      ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0-7``,  ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
@@ -38,6 +40,10 @@ proda
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

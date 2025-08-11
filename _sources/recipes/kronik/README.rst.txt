@@ -10,10 +10,10 @@ kronik
    :replaces_section_title:
    :noindex:
 
-   Utility for processing Hardklor features to find candidate peptides by chromatographic profiling
+   Utility for processing Hardklor features to find candidate peptides by chromatographic profiling.
 
    :homepage: https://github.com/mhoopmann/kronik
-   :license: Apache License, Version 2.0
+   :license: APACHE / Apache-2.0
    :recipe: /`kronik <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kronik>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kronik/meta.yaml>`_
    :links: doi: :doi:`10.1002/0471250953.bi1318s37`
 
@@ -27,9 +27,17 @@ kronik
    :versions:
       
       
+      .. raw:: html
 
-      ``2.20-8``,  ``2.20-7``,  ``2.20-6``,  ``2.20-5``,  ``2.20-4``,  ``2.20-3``,  ``2.20-2``,  ``2.20-1``,  ``2.20-0``
+         <details><summary><span class="truncated-version-list"><code>2.20-9</code>,  <code>2.20-8</code>,  <code>2.20-7</code>,  <code>2.20-6</code>,  <code>2.20-5</code>,  <code>2.20-4</code>,  <code>2.20-3</code>,  <code>2.20-2</code>,  <code>2.20-1</code>,  </span></summary>
+      
 
+      ``2.20-9``,  ``2.20-8``,  ``2.20-7``,  ``2.20-6``,  ``2.20-5``,  ``2.20-4``,  ``2.20-3``,  ``2.20-2``,  ``2.20-1``,  ``2.20-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -41,7 +49,7 @@ kronik
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

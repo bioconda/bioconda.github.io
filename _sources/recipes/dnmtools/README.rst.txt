@@ -31,10 +31,10 @@ dnmtools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.0-0</code>,  <code>1.4.4-1</code>,  <code>1.4.4-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.4-1</code>,  <code>1.4.4-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.1-1</code>,  </span></summary>
       
 
-      ``1.5.0-0``,  ``1.4.4-1``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.4-1``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -45,7 +45,7 @@ dnmtools
    
    :depends _openmp_mutex: ``>=4.5``
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends htslib: ``>=1.22,<1.23.0a0``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends libgomp: 
    :depends libstdcxx: ``>=13``
@@ -104,7 +104,7 @@ dnmtools
 
     <script>
         var package = "dnmtools";
-        var versions = ["1.5.0","1.4.4","1.4.4","1.4.3","1.4.2"];
+        var versions = ["1.5.1","1.5.0","1.4.4","1.4.4","1.4.3"];
     </script>
 
 
