@@ -13,7 +13,7 @@ methpipe
    A pipeline for analyzing DNA methylation data from bisulfite sequencing.
 
    :homepage: https://github.com/smithlabcode/methpipe
-   :license: GPL-3 / GPL-3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`methpipe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/methpipe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/methpipe/meta.yaml>`_
 
    
@@ -27,19 +27,23 @@ methpipe
       
       
 
-      ``5.0.1-5``,  ``5.0.1-4``,  ``5.0.1-3``,  ``5.0.1-2``,  ``5.0.1-1``,  ``5.0.1-0``
+      ``5.0.1-6``,  ``5.0.1-5``,  ``5.0.1-4``,  ``5.0.1-3``,  ``5.0.1-2``,  ``5.0.1-1``,  ``5.0.1-0``
 
       
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends htslib: ``>=1.21,<1.23.0a0``
-   :depends libcxx: ``>=18``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

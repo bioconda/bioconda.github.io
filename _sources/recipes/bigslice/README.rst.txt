@@ -13,7 +13,7 @@ bigslice
    A highly scalable\, user\-interactive tool for the large scale analysis of Biosynthetic Gene Clusters data.
 
    :homepage: https://github.com/satriaphd/bigslice
-   :documentation: https://github.com/medema-group/bigslice/blob/v2.0/README.md
+   :documentation: https://github.com/medema-group/bigslice/blob/v2.0.2/README.md
    
    :license: AGPL / AGPL-3.0-or-later
    :recipe: /`bigslice <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bigslice>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bigslice/meta.yaml>`_
@@ -30,7 +30,7 @@ bigslice
       
       
 
-      ``2.0-0``
+      ``2.0.2-0``,  ``2.0-0``
 
       
 
@@ -94,7 +94,7 @@ bigslice
 
     <script>
         var package = "bigslice";
-        var versions = ["2.0"];
+        var versions = ["2.0.2","2.0"];
     </script>
 
 

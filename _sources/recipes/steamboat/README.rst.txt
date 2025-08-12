@@ -27,7 +27,7 @@ steamboat
       
       
 
-      ``1.0.0-0``
+      ``1.1.1-0``,  ``1.0.0-0``
 
       
 
@@ -37,6 +37,7 @@ steamboat
    :depends pigz: 
    :depends python: ``>=3.9``
    :depends pyyaml: 
+   :depends rich: ``<14``
    :depends rich-click: ``>=1.6.0``
    :requirements:
 
@@ -88,7 +89,7 @@ steamboat
 
     <script>
         var package = "steamboat";
-        var versions = ["1.0.0"];
+        var versions = ["1.1.1","1.0.0"];
     </script>
 
 

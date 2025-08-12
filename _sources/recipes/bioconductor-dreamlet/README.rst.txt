@@ -12,7 +12,7 @@ bioconductor-dreamlet
 
    Cohort\-scale differential expression analysis of single cell data using linear \(mixed\) models
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/dreamlet.html
+   :homepage: https://bioconductor.org/packages/3.21/bioc/html/dreamlet.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-dreamlet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dreamlet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dreamlet/meta.yaml>`_
 
@@ -27,11 +27,51 @@ bioconductor-dreamlet
       
       
 
-      
+      ``1.6.0-0``
 
       
 
    
+   :depends bioconductor-beachmat: ``>=2.22.0,<2.23.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0a0``
+   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0a0``
+   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0a0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.28.0,<1.29.0a0``
+   :depends bioconductor-edger: ``>=4.4.0,<4.5.0a0``
+   :depends bioconductor-gseabase: ``>=1.68.0,<1.69.0a0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
+   :depends bioconductor-limma: ``>=3.62.1,<3.63.0a0``
+   :depends bioconductor-matrixgenerics: ``>=1.18.0,<1.19.0a0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
+   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0a0``
+   :depends bioconductor-sparsematrixstats: ``>=1.18.0,<1.19.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0a0``
+   :depends bioconductor-variancepartition: ``>=1.36.2,<1.37.0a0``
+   :depends bioconductor-zenith: ``>=1.1.2``
+   :depends bioconductor-zenith: ``>=1.8.0,<1.9.0a0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc: ``>=13``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends r-ashr: 
+   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-data.table: 
+   :depends r-dplyr: 
+   :depends r-ggbeeswarm: 
+   :depends r-ggplot2: 
+   :depends r-ggrepel: 
+   :depends r-gtools: 
+   :depends r-lme4: ``>=1.1-33``
+   :depends r-mashr: ``>=0.2.52``
+   :depends r-mass: 
+   :depends r-matrix: 
+   :depends r-metafor: 
+   :depends r-purrr: 
+   :depends r-rcpp: 
+   :depends r-rdpack: 
+   :depends r-reshape2: 
+   :depends r-scattermore: 
+   :depends r-tidyr: 
    :requirements:
 
    :additional platforms:
@@ -82,7 +122,7 @@ bioconductor-dreamlet
 
     <script>
         var package = "bioconductor-dreamlet";
-        var versions = [];
+        var versions = ["1.6.0"];
     </script>
 
 

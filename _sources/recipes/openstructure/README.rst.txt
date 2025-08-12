@@ -10,7 +10,7 @@ openstructure
    :replaces_section_title:
    :noindex:
 
-   Open\-Source Computational Structural Biology Framework
+   Open\-Source Computational Structural Biology Framework.
 
    :homepage: https://openstructure.org
    :documentation: https://openstructure.org/docs
@@ -33,7 +33,7 @@ openstructure
       
       
 
-      ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.0-3``,  ``2.10.0-2``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.9.3-0``
+      ``2.11.1-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.0-3``,  ``2.10.0-2``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.9.3-0``
 
       
 
@@ -46,31 +46,31 @@ openstructure
    :depends libegl: ``>=1.7.0,<2.0a0``
    :depends libgcc: ``>=13``
    :depends libgfortran: 
-   :depends libgfortran5: ``>=13.3.0``
+   :depends libgfortran5: ``>=13.4.0``
    :depends libgl: ``>=1.7.0,<2.0a0``
    :depends libgles: ``>=1.7.0,<2.0a0``
    :depends libglvnd: ``>=1.7.0,<2.0a0``
    :depends libglx: ``>=1.7.0,<2.0a0``
    :depends libopengl: ``>=1.7.0,<2.0a0``
-   :depends libpng: ``>=1.6.49,<1.7.0a0``
-   :depends libsqlite: ``>=3.50.2,<4.0a0``
+   :depends libpng: ``>=1.6.50,<1.7.0a0``
+   :depends libsqlite: ``>=3.50.4,<4.0a0``
    :depends libstdcxx: ``>=13``
    :depends libtiff: ``>=4.7.0,<4.8.0a0``
    :depends libxcb: ``>=1.17.0,<2.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends mesalib: ``>=25.0.5,<25.1.0a0``
-   :depends networkx: ``>=2.8.8,<3.0a0``
+   :depends networkx: ``>=3.4.2,<4.0a0``
    :depends numpy: ``>=1.26.4,<2.0a0``
    :depends ocl-icd: ``>=2.3.3,<3.0a0``
    :depends ocl-icd-system: 
-   :depends openmm: ``>=8.3.0,<9.0a0``
-   :depends pandas: ``>=2.3.0,<3.0a0``
+   :depends openmm: ``>=8.3.1,<9.0a0``
+   :depends pandas: ``>=2.3.1,<3.0a0``
    :depends parasail: ``>=2.6.2,<3.0a0``
-   :depends pyqt: ``>=5.15.9,<5.16.0a0``
+   :depends pyqt: ``>=5.15.11,<5.16.0a0``
    :depends python: ``>=3.10,<3.11.0a0 *_cpython``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends qt: ``>=5.15.8,<5.16.0a0``
-   :depends scipy: ``>=1.15.2,<2.0a0``
+   :depends qt: ``>=5.15.15,<5.16.0a0``
+   :depends scipy: ``>=1.13.1,<2.0a0``
    :depends voronota: ``>=1.29.4415,<2.0a0``
    :requirements:
 
@@ -126,7 +126,7 @@ openstructure
 
     <script>
         var package = "openstructure";
-        var versions = ["2.11.0","2.11.0","2.10.0","2.10.0","2.10.0"];
+        var versions = ["2.11.1","2.11.0","2.11.0","2.10.0","2.10.0"];
     </script>
 
 

@@ -13,7 +13,7 @@ sepp
    SATe\-enabled phylogenetic placement.
 
    :homepage: https://github.com/smirarab/sepp
-   :documentation: https://github.com/smirarab/sepp/blob/v4.5.5/README.md
+   :documentation: https://github.com/smirarab/sepp/blob/v4.5.6/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`sepp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sepp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sepp/meta.yaml>`_
@@ -31,10 +31,10 @@ sepp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.5.5-3</code>,  <code>4.5.5-2</code>,  <code>4.5.5-1</code>,  <code>4.5.5-0</code>,  <code>4.5.4-1</code>,  <code>4.5.4-0</code>,  <code>4.5.1-4</code>,  <code>4.5.1-3</code>,  <code>4.5.1-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.5.6-0</code>,  <code>4.5.5-3</code>,  <code>4.5.5-2</code>,  <code>4.5.5-1</code>,  <code>4.5.5-0</code>,  <code>4.5.4-1</code>,  <code>4.5.4-0</code>,  <code>4.5.1-4</code>,  <code>4.5.1-3</code>,  </span></summary>
       
 
-      ``4.5.5-3``,  ``4.5.5-2``,  ``4.5.5-1``,  ``4.5.5-0``,  ``4.5.4-1``,  ``4.5.4-0``,  ``4.5.1-4``,  ``4.5.1-3``,  ``4.5.1-2``,  ``4.5.1-1``,  ``4.5.1-0``,  ``4.4.0-0``,  ``4.3.10-3``,  ``4.3.10-2``,  ``4.3.10-0``,  ``4.3.9-0``,  ``4.3.8-0``,  ``v4.5.0-0``
+      ``4.5.6-0``,  ``4.5.5-3``,  ``4.5.5-2``,  ``4.5.5-1``,  ``4.5.5-0``,  ``4.5.4-1``,  ``4.5.4-0``,  ``4.5.1-4``,  ``4.5.1-3``,  ``4.5.1-2``,  ``4.5.1-1``,  ``4.5.1-0``,  ``4.4.0-0``,  ``4.3.10-3``,  ``4.3.10-2``,  ``4.3.10-0``,  ``4.3.9-0``,  ``4.3.8-0``,  ``v4.5.0-0``
 
       
       .. raw:: html
@@ -43,10 +43,11 @@ sepp
       
 
    
-   :depends dendropy: ``>=5.0.6,<6.0a0``
+   :depends dendropy: ``>=5.0.8,<6.0a0``
    :depends hmmer: ``>=3.4,<3.5.0a0``
    :depends libgcc: ``>=13``
    :depends pasta: 
+   :depends pplacer: ``1.1.alpha17``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:
@@ -99,7 +100,7 @@ sepp
 
     <script>
         var package = "sepp";
-        var versions = ["4.5.5","4.5.5","4.5.5","4.5.5","4.5.4"];
+        var versions = ["4.5.6","4.5.5","4.5.5","4.5.5","4.5.5"];
     </script>
 
 

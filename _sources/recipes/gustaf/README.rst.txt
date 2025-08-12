@@ -13,6 +13,7 @@ gustaf
    Gustaf is a tool primarily designed for multi\-split mapping of sequencing reads.
 
    :homepage: https://github.com/seqan/seqan/tree/master/apps/gustaf/README.rst
+   :developer docs: https://github.com/seqan/seqan/tree/master/apps/gustaf
    :license: https://github.com/seqan/seqan/tree/master/apps/gustaf/LICENSE
    :recipe: /`gustaf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gustaf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gustaf/meta.yaml>`_
 
@@ -27,16 +28,23 @@ gustaf
       
       
 
-      ``1.0.10-0``,  ``1.0.8-2``,  ``1.0.8-1``,  ``1.0.8-0``
+      ``1.0.10-1``,  ``1.0.10-0``,  ``1.0.8-3``,  ``1.0.8-2``,  ``1.0.8-1``,  ``1.0.8-0``
 
       
 
    
+   :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
+   :depends libxml2: ``>=2.14.5,<2.15.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -84,7 +92,7 @@ gustaf
 
     <script>
         var package = "gustaf";
-        var versions = ["1.0.10","1.0.8","1.0.8","1.0.8"];
+        var versions = ["1.0.10","1.0.10","1.0.8","1.0.8","1.0.8"];
     </script>
 
 

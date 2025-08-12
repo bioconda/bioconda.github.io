@@ -10,9 +10,9 @@ phylip
    :replaces_section_title:
    :noindex:
 
-   Package of programs for inferring phylogenies
+   Package of programs for inferring phylogenies.
 
-   :homepage: http://evolution.genetics.washington.edu/phylip/
+   :homepage: https://phylipweb.github.io/phylip
    :license: BSD
    :recipe: /`phylip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phylip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phylip/meta.yaml>`_
    :links: biotools: :biotools:`PHYLIP`
@@ -28,7 +28,7 @@ phylip
       
       
 
-      ``3.697-2``,  ``3.697-1``,  ``3.697-0``,  ``3.696-3``,  ``3.696-2``,  ``3.696-1``,  ``3.696-0``
+      ``3.697-3``,  ``3.697-2``,  ``3.697-1``,  ``3.697-0``,  ``3.696-3``,  ``3.696-2``,  ``3.696-1``,  ``3.696-0``
 
       
 
@@ -42,7 +42,7 @@ phylip
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -90,7 +90,7 @@ phylip
 
     <script>
         var package = "phylip";
-        var versions = ["3.697","3.697","3.697","3.696","3.696"];
+        var versions = ["3.697","3.697","3.697","3.697","3.696"];
     </script>
 
 

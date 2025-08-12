@@ -12,8 +12,8 @@ kraken-ea
 
    Kraken is a system for assigning taxonomic labels to short DNA sequences\, usually obtained through metagenomic studies. This is a modified version allowing for splitting of fastq files based on read classifications.
 
-   :homepage: https://github.com/ExpressionAnalysis/kraken/tree/v0.10.5-beta-ea.2
-   :license: GPLv3
+   :homepage: https://github.com/ExpressionAnalysis/kraken/tree/v0.10.5-beta-ea.3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`kraken-ea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kraken-ea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kraken-ea/meta.yaml>`_
 
    
@@ -27,18 +27,25 @@ kraken-ea
       
       
 
-      ``0.10.5ea.3-3``,  ``0.10.5ea.3-2``,  ``0.10.5ea.3-1``,  ``0.10.5ea.3-0``
+      ``0.10.5ea.3-5``,  ``0.10.5ea.3-3``,  ``0.10.5ea.3-2``,  ``0.10.5ea.3-1``,  ``0.10.5ea.3-0``
 
       
 
    
-   :depends jellyfish: ``1.1.11.*``
-   :depends libgcc-ng: ``>=4.9``
-   :depends perl: ``>=5.26.2,<5.27.0a0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends kmer-jellyfish: ``1.*``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -86,7 +93,7 @@ kraken-ea
 
     <script>
         var package = "kraken-ea";
-        var versions = ["0.10.5ea.3","0.10.5ea.3","0.10.5ea.3","0.10.5ea.3"];
+        var versions = ["0.10.5ea.3","0.10.5ea.3","0.10.5ea.3","0.10.5ea.3","0.10.5ea.3"];
     </script>
 
 

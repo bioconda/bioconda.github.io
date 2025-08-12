@@ -31,7 +31,7 @@ ligand-validation
       
       
 
-      ``0.0.1-0``
+      ``0.0.1-1``,  ``0.0.1-0``
 
       
 
@@ -91,7 +91,7 @@ ligand-validation
 
     <script>
         var package = "ligand-validation";
-        var versions = ["0.0.1"];
+        var versions = ["0.0.1","0.0.1"];
     </script>
 
 

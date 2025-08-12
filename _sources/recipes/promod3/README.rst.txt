@@ -34,7 +34,7 @@ promod3
       
       
 
-      ``3.5.0-0``
+      ``3.6.0-0``,  ``3.5.0-0``
 
       
 
@@ -101,7 +101,7 @@ promod3
 
     <script>
         var package = "promod3";
-        var versions = ["3.5.0"];
+        var versions = ["3.6.0","3.5.0"];
     </script>
 
 
