@@ -27,7 +27,7 @@ taxburst
       
       
 
-      ``0.3.0-0``
+      ``0.3.1-0``,  ``0.3.0-0``
 
       
 
@@ -85,7 +85,7 @@ taxburst
 
     <script>
         var package = "taxburst";
-        var versions = ["0.3.0"];
+        var versions = ["0.3.1","0.3.0"];
     </script>
 
 
