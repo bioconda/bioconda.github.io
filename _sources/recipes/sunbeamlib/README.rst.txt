@@ -10,12 +10,12 @@ sunbeamlib
    :replaces_section_title:
    :noindex:
 
-   A robust\, extensible metagenomic sequencing pipeline
+   A robust\, extensible metagenomic sequencing pipeline.
 
    :homepage: https://github.com/sunbeam-labs/sunbeam
-   :documentation: https://sunbeam.readthedocs.io/
+   :documentation: https://sunbeam.readthedocs.io
    
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`sunbeamlib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sunbeamlib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sunbeamlib/meta.yaml>`_
 
    
@@ -29,7 +29,7 @@ sunbeamlib
       
       
 
-      ``5.1.2-0``,  ``5.1.0-0``,  ``5.0.5-0``,  ``5.0.4-0``,  ``5.0.1-0``
+      ``5.2.1-0``,  ``5.1.2-0``,  ``5.1.0-0``,  ``5.0.5-0``,  ``5.0.4-0``,  ``5.0.1-0``
 
       
 
@@ -38,7 +38,7 @@ sunbeamlib
    :depends pandas: ``2.2.3``
    :depends python: ``>=3.11``
    :depends pyyaml: ``6.0.2``
-   :depends snakemake: ``9.3.3``
+   :depends snakemake-minimal: ``9.3.3``
    :requirements:
 
    :additional platforms:
@@ -89,7 +89,7 @@ sunbeamlib
 
     <script>
         var package = "sunbeamlib";
-        var versions = ["5.1.2","5.1.0","5.0.5","5.0.4","5.0.1"];
+        var versions = ["5.2.1","5.1.2","5.1.0","5.0.5","5.0.4"];
     </script>
 
 

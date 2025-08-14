@@ -10,10 +10,10 @@ haproh
    :replaces_section_title:
    :noindex:
 
-   Identify runs of homozygosity \(hapROH\) and contamination \(hapCon\) in low coverage ancient human DNA data \(1240K SNPs\) using modern reference panel
+   Identify runs of homozygosity \(hapROH\) and contamination \(hapCon\) in low coverage ancient human DNA data \(1240K SNPs\) using modern reference panel.
 
    :homepage: https://github.com/hringbauer/hapROH
-   :license: GPL-3.0
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`haproh <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haproh>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haproh/meta.yaml>`_
 
    
@@ -26,9 +26,17 @@ haproh
    :versions:
       
       
+      .. raw:: html
 
-      ``0.64-3``,  ``0.64-2``,  ``0.64-1``,  ``0.64-0``,  ``0.63-0``,  ``0.62-0``,  ``0.61-0``,  ``0.60-0``,  ``0.53-0``
+         <details><summary><span class="truncated-version-list"><code>0.64-4</code>,  <code>0.64-3</code>,  <code>0.64-2</code>,  <code>0.64-1</code>,  <code>0.64-0</code>,  <code>0.63-0</code>,  <code>0.62-0</code>,  <code>0.61-0</code>,  <code>0.60-0</code>,  </span></summary>
+      
 
+      ``0.64-4``,  ``0.64-3``,  ``0.64-2``,  ``0.64-1``,  ``0.64-0``,  ``0.63-0``,  ``0.62-0``,  ``0.61-0``,  ``0.60-0``,  ``0.53-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -47,6 +55,10 @@ haproh
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -94,7 +106,7 @@ haproh
 
     <script>
         var package = "haproh";
-        var versions = ["0.64","0.64","0.64","0.64","0.63"];
+        var versions = ["0.64","0.64","0.64","0.64","0.64"];
     </script>
 
 

@@ -10,10 +10,12 @@ flexiplex
    :replaces_section_title:
    :noindex:
 
-   flexiplex\: the flexible demultiplexer
+   flexiplex\: the flexible demultiplexer \(filter barcodes by whitelist and inflection point\)
 
-   :homepage: https://github.com/DavidsonGroup/flexiplex/
-   :license: MIT / MIT License
+   :homepage: https://github.com/DavidsonGroup/flexiplex
+   :documentation: https://davidsongroup.github.io/flexiplex
+   
+   :license: MIT / MIT
    :recipe: /`flexiplex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexiplex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexiplex/meta.yaml>`_
    :links: doi: :doi:`10.1101/2023.08.21.554084`
 
@@ -31,11 +33,12 @@ flexiplex
       
       
 
-      ``1.02.4-0``,  ``1.02.3-0``,  ``1.01-2``,  ``1.01-1``,  ``1.01-0``,  ``0.97.1-1``,  ``0.97.1-0``,  ``0.97-0``
+      ``1.02.5-0``,  ``1.02.4-0``,  ``1.02.3-0``,  ``1.01-2``,  ``1.01-1``,  ``1.01-0``,  ``0.97.1-1``,  ``0.97.1-0``,  ``0.97-0``
 
       
 
    
+   :depends cachetools: 
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends matplotlib-base: 
@@ -43,9 +46,14 @@ flexiplex
    :depends pandas: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
+   :depends requests: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>osx-arm64</code>,  <code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -93,7 +101,7 @@ flexiplex
 
     <script>
         var package = "flexiplex";
-        var versions = ["1.02.4","1.02.3","1.01","1.01","1.01"];
+        var versions = ["1.02.5","1.02.4","1.02.3","1.01","1.01"];
     </script>
 
 

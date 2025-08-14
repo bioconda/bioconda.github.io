@@ -10,7 +10,7 @@ mea
    :replaces_section_title:
    :noindex:
 
-   Mea was developed as part of the lab class \"Bioinformatik von RNA\- und Proteinstrukturen \(Praktikum\, Modul 10\-202\-2208\)\". The package predicts maximum expected accuracy \(MEA\) RNA secondary structures from dot plots of RNAs while correcting the score in dependence of base pair span. Furthermore\, it provides tools to evaluate predictions and optimize parameters.
+   Mea was developed as part of the lab class parameters.
 
    :homepage: http://www.bioinf.uni-leipzig.de/Software/mea/
    :license: GPLv3
@@ -26,9 +26,17 @@ mea
    :versions:
       
       
+      .. raw:: html
 
-      ``0.6.4-9``,  ``0.6.4-8``,  ``0.6.4-7``,  ``0.6.4-6``,  ``0.6.4-5``,  ``0.6.4-4``,  ``0.6.4-3``,  ``0.6.4-2``,  ``0.6.4-1``
+         <details><summary><span class="truncated-version-list"><code>0.6.4-10</code>,  <code>0.6.4-9</code>,  <code>0.6.4-8</code>,  <code>0.6.4-7</code>,  <code>0.6.4-6</code>,  <code>0.6.4-5</code>,  <code>0.6.4-4</code>,  <code>0.6.4-3</code>,  <code>0.6.4-2</code>,  </span></summary>
+      
 
+      ``0.6.4-10``,  ``0.6.4-9``,  ``0.6.4-8``,  ``0.6.4-7``,  ``0.6.4-6``,  ``0.6.4-5``,  ``0.6.4-4``,  ``0.6.4-3``,  ``0.6.4-2``,  ``0.6.4-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -37,6 +45,10 @@ mea
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

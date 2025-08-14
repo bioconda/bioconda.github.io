@@ -10,10 +10,10 @@ panoct
    :replaces_section_title:
    :noindex:
 
-   PanOCT\, Pan\-genome Ortholog Clustering Tool\, is a program for pan\-genomic analysis of closely related prokaryotic species or strains
+   PanOCT\, Pan\-genome Ortholog Clustering Tool\, is a program for pan\-genomic analysis of closely related prokaryotic species or strains.
 
-   :homepage: https://panoct.sourceforge.io/
-   :license: GPL-3.0
+   :homepage: https://panoct.sourceforge.io
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`panoct <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panoct>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panoct/meta.yaml>`_
 
    
@@ -27,12 +27,13 @@ panoct
       
       
 
-      ``3.23-1``,  ``3.23-0``
+      ``3.23-2``,  ``3.23-1``,  ``3.23-0``
 
       
 
    
-   :depends perl: ``>=5.26.2,<5.27.0a0``
+   :depends perl: ``>=5.26.2``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    :additional platforms:
@@ -83,7 +84,7 @@ panoct
 
     <script>
         var package = "panoct";
-        var versions = ["3.23","3.23"];
+        var versions = ["3.23","3.23","3.23"];
     </script>
 
 

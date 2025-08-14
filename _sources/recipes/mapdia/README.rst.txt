@@ -12,7 +12,7 @@ mapdia
 
    Performs essential data preprocessing\, including novel retention time\-based normalization method and a sequence of peptide\/fragment selection steps\, and more importantly\, hierarchical model\-based statistical significance analysis for multi\-group comparisons under representative experimental designs.
 
-   :homepage: http://sourceforge.net/projects/mapdia/.
+   :homepage: https://sourceforge.net/projects/mapdia
    :license: file
    :recipe: /`mapdia <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mapdia>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mapdia/meta.yaml>`_
    :links: biotools: :biotools:`MAPDIA`, doi: :doi:`10.1016/j.jprot.2015.09.013`
@@ -28,7 +28,7 @@ mapdia
       
       
 
-      ``3.1.0-6``,  ``3.1.0-5``,  ``3.1.0-4``,  ``3.1.0-3``,  ``3.1.0-2``,  ``3.1.0-1``,  ``3.1.0-0``,  ``1.0-0``
+      ``3.1.0-7``,  ``3.1.0-6``,  ``3.1.0-5``,  ``3.1.0-4``,  ``3.1.0-3``,  ``3.1.0-2``,  ``3.1.0-1``,  ``3.1.0-0``,  ``1.0-0``
 
       
 
@@ -38,6 +38,10 @@ mapdia
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

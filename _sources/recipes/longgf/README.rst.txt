@@ -13,7 +13,7 @@ longgf
    A fast tool to detect gene fusion from long\-read RNA\-seq data.
 
    :homepage: https://github.com/WGLab/LongGF
-   :license: GPL3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`longgf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/longgf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/longgf/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ longgf
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.2-8</code>,  <code>0.1.2-7</code>,  <code>0.1.2-6</code>,  <code>0.1.2-5</code>,  <code>0.1.2-4</code>,  <code>0.1.2-3</code>,  <code>0.1.2-2</code>,  <code>0.1.2-1</code>,  <code>0.1.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.2-9</code>,  <code>0.1.2-8</code>,  <code>0.1.2-7</code>,  <code>0.1.2-6</code>,  <code>0.1.2-5</code>,  <code>0.1.2-4</code>,  <code>0.1.2-3</code>,  <code>0.1.2-2</code>,  <code>0.1.2-1</code>,  </span></summary>
       
 
-      ``0.1.2-8``,  ``0.1.2-7``,  ``0.1.2-6``,  ``0.1.2-5``,  ``0.1.2-4``,  ``0.1.2-3``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.1.2-9``,  ``0.1.2-8``,  ``0.1.2-7``,  ``0.1.2-6``,  ``0.1.2-5``,  ``0.1.2-4``,  ``0.1.2-3``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -40,12 +40,16 @@ longgf
       
 
    
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

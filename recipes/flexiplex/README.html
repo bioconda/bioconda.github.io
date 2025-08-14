@@ -67,19 +67,22 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">flexiplex</span></span></dt>
-<dd><p>flexiplex: the flexible demultiplexer</p>
+<dd><p>flexiplex: the flexible demultiplexer (filter barcodes by whitelist and inflection point)</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/DavidsonGroup/flexiplex/">https://github.com/DavidsonGroup/flexiplex/</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/DavidsonGroup/flexiplex">https://github.com/DavidsonGroup/flexiplex</a></p>
 </dd>
-<dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>MIT / MIT License</p>
+<dt class="field-even">Documentation<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://davidsongroup.github.io/flexiplex">https://davidsongroup.github.io/flexiplex</a></p>
 </dd>
-<dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexiplex">flexiplex</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexiplex/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">License<span class="colon">:</span></dt>
+<dd class="field-odd"><p>MIT / MIT</p>
 </dd>
-<dt class="field-even">Links<span class="colon">:</span></dt>
-<dd class="field-even"><p>doi: <a class="extlink-doi reference external" href="https://doi.org/10.1101/2023.08.21.554084">10.1101/2023.08.21.554084</a></p>
+<dt class="field-even">Recipe<span class="colon">:</span></dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexiplex">flexiplex</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexiplex/meta.yaml">meta.yaml</a></p>
+</dd>
+<dt class="field-odd">Links<span class="colon">:</span></dt>
+<dd class="field-odd"><p>doi: <a class="extlink-doi reference external" href="https://doi.org/10.1101/2023.08.21.554084">10.1101/2023.08.21.554084</a></p>
 </dd>
 </dl>
 <p>Flexiplex is a fast and versatile sequence searching and demultiplexing tool
@@ -92,32 +95,36 @@ for omics data. For more information, see the accompanying bioRxiv preprint
 <em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">flexiplex</span></span><a class="headerlink" href="#package-flexiplex" title="Link to this definition">¶</a></dt>
 <dd><blockquote>
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/flexiplex"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/flexiplex.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/flexiplex"><img alt="docker_flexiplex" src="https://quay.io/repository/biocontainers/flexiplex/status" /></a></p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.02.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.02.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.01-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.01-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.01-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.97.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.97.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.97-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.02.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.02.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.02.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.01-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.01-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.01-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.97.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.97.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.97-0</span></code></p>
 </dd>
-<dt class="field-even">depends libgcc<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
-</dd>
-<dt class="field-odd">depends libstdcxx<span class="colon">:</span></dt>
+<dt class="field-even">depends cachetools<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends libgcc<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
 </dd>
-<dt class="field-even">depends matplotlib-base<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends numpy<span class="colon">:</span></dt>
+<dt class="field-even">depends libstdcxx<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
+</dd>
+<dt class="field-odd">depends matplotlib-base<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends pandas<span class="colon">:</span></dt>
+<dt class="field-even">depends numpy<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends python<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.10,&lt;3.11.0a0</span></code></p>
+<dt class="field-odd">depends pandas<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends python<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.10,&lt;3.11.0a0</span></code></p>
 </dd>
-<dt class="field-even">depends python_abi<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">3.10.* *_cp310</span></code></p>
+<dt class="field-odd">depends python_abi<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">3.10.* *_cp310</span></code></p>
 </dd>
+<dt class="field-even">depends requests<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
 <dt class="field-odd">requirements<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">additional platforms<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
+<dd class="field-even"><span class="additional-platforms"><code>osx-arm64</code>,  <code>linux-aarch64</code></span></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -152,7 +159,7 @@ others.</p>
 
 <script>
     var package = "flexiplex";
-    var versions = ["1.02.4","1.02.3","1.01","1.01","1.01"];
+    var versions = ["1.02.5","1.02.4","1.02.3","1.01","1.01"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

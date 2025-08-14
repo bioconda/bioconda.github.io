@@ -13,12 +13,12 @@ pybdei
    Maximum likelihood estimation of Birth\-Death Exposed\-Infectious \(BDEI\) epidemiological model parameters from phylogenetic trees.
 
    :homepage: https://github.com/evolbioinfo/bdei
-   :license: GPL2 / LGPL-2.1
+   :license: LGPL / LGPL-2.1-or-later
    :recipe: /`pybdei <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybdei>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybdei/meta.yaml>`_
    :links: doi: :doi:`10.1093/sysbio/syad059`
 
-   PyBDEI provides tools for fast and accurate maximum likelihood estimation 
-   of Birth\-Death Exposed\-Infectious \(BDEI\) epidemiological model parameters 
+   PyBDEI provides tools for fast and accurate maximum likelihood estimation
+   of Birth\-Death Exposed\-Infectious \(BDEI\) epidemiological model parameters
    from phylogenetic trees.
 
 
@@ -31,25 +31,29 @@ pybdei
       
       
 
-      ``0.13-0``
+      ``0.13-1``,  ``0.13-0``
 
       
 
    
    :depends ete3: ``>=3.1.3``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends nlopt: ``>=2.7.1,<2.8.0a0``
-   :depends numpy: ``>=1.19,<3``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends nlopt: ``>=2.8.0,<2.9.0a0``
+   :depends numpy: ``>=1.21,<3``
    :depends numpy: ``>=1.24.0``
-   :depends python: ``>=3.12,<3.13.0a0``
-   :depends python_abi: ``3.12.* *_cp312``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends scipy: ``>=1.11.1``
    :depends six: ``>=1.16.0``
    :depends treesimulator: ``>=0.1.22``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -97,7 +101,7 @@ pybdei
 
     <script>
         var package = "pybdei";
-        var versions = ["0.13"];
+        var versions = ["0.13","0.13"];
     </script>
 
 

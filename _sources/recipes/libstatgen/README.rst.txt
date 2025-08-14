@@ -14,7 +14,7 @@ libstatgen
 
    :homepage: https://genome.sph.umich.edu/wiki/C++_Library:_libStatGen
    :developer docs: https://github.com/statgen/libStatGen
-   :license: GPL3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`libstatgen <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libstatgen>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libstatgen/meta.yaml>`_
 
    
@@ -29,10 +29,10 @@ libstatgen
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.15-6</code>,  <code>1.0.15-5</code>,  <code>1.0.15-4</code>,  <code>1.0.15-3</code>,  <code>1.0.15-2</code>,  <code>1.0.15-1</code>,  <code>1.0.15-0</code>,  <code>1.0.14-1</code>,  <code>1.0.14-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.15-7</code>,  <code>1.0.15-6</code>,  <code>1.0.15-5</code>,  <code>1.0.15-4</code>,  <code>1.0.15-3</code>,  <code>1.0.15-2</code>,  <code>1.0.15-1</code>,  <code>1.0.15-0</code>,  <code>1.0.14-1</code>,  </span></summary>
       
 
-      ``1.0.15-6``,  ``1.0.15-5``,  ``1.0.15-4``,  ``1.0.15-3``,  ``1.0.15-2``,  ``1.0.15-1``,  ``1.0.15-0``,  ``1.0.14-1``,  ``1.0.14-0``,  ``1.0.5-0``
+      ``1.0.15-7``,  ``1.0.15-6``,  ``1.0.15-5``,  ``1.0.15-4``,  ``1.0.15-3``,  ``1.0.15-2``,  ``1.0.15-1``,  ``1.0.15-0``,  ``1.0.14-1``,  ``1.0.14-0``,  ``1.0.5-0``
 
       
       .. raw:: html
@@ -44,10 +44,13 @@ libstatgen
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

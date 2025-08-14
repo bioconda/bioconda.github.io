@@ -29,12 +29,14 @@ hyperloglog
       
       
 
-      ``0.0.14-0``
+      ``0.1.3-0``,  ``0.0.14-0``
 
       
 
    
-   :depends python: ``>=3``
+   :depends msgpack-python: 
+   :depends numpy: 
+   :depends python: ``>=3.7``
    :requirements:
 
    :additional platforms:
@@ -85,7 +87,7 @@ hyperloglog
 
     <script>
         var package = "hyperloglog";
-        var versions = ["0.0.14"];
+        var versions = ["0.1.3","0.0.14"];
     </script>
 
 

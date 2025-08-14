@@ -31,7 +31,7 @@ galaxy-job-execution
       
       
 
-      ``25.0.1-0``,  ``24.2.4-0``
+      ``25.0.2-0``,  ``25.0.1-0``,  ``24.2.4-0``
 
       
 
@@ -95,7 +95,7 @@ galaxy-job-execution
 
     <script>
         var package = "galaxy-job-execution";
-        var versions = ["25.0.1","24.2.4"];
+        var versions = ["25.0.2","25.0.1","24.2.4"];
     </script>
 
 

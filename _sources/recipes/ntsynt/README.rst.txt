@@ -10,10 +10,10 @@ ntsynt
    :replaces_section_title:
    :noindex:
 
-   Detecting multi\-genome synteny blocks using minimizer graph mapping
+   Detecting multi\-genome synteny blocks using minimizer graph mapping.
 
    :homepage: https://github.com/bcgsc/ntsynt
-   :license: GPL-3.0
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`ntsynt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ntsynt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ntsynt/meta.yaml>`_
 
    
@@ -27,16 +27,17 @@ ntsynt
       
       
 
-      ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
    :depends btllib: ``>=1.7.1``
-   :depends btllib: ``>=1.7.3,<2.0a0``
+   :depends btllib: ``>=1.7.5,<2.0a0``
    :depends intervaltree: 
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libstdcxx: ``>=13``
    :depends ncls: 
    :depends pybedtools: 
@@ -45,7 +46,7 @@ ntsynt
    :depends python_abi: ``3.10.* *_cp310``
    :depends samtools: 
    :depends seqtk: 
-   :depends snakemake: 
+   :depends snakemake-minimal: 
    :requirements:
 
    :additional platforms:
@@ -100,7 +101,7 @@ ntsynt
 
     <script>
         var package = "ntsynt";
-        var versions = ["1.0.2","1.0.2","1.0.1","1.0.1","1.0.1"];
+        var versions = ["1.0.3","1.0.2","1.0.2","1.0.1","1.0.1"];
     </script>
 
 

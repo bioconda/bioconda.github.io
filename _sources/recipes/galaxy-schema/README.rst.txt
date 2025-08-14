@@ -32,10 +32,10 @@ galaxy-schema
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>25.0.1-0</code>,  <code>24.2.4-0</code>,  <code>24.2.3-0</code>,  <code>24.2.2-0</code>,  <code>24.2.1-0</code>,  <code>24.2.0-0</code>,  <code>24.1.4-0</code>,  <code>24.1.3-0</code>,  <code>24.1.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>25.0.2-0</code>,  <code>25.0.1-0</code>,  <code>24.2.4-0</code>,  <code>24.2.3-0</code>,  <code>24.2.2-0</code>,  <code>24.2.1-0</code>,  <code>24.2.0-0</code>,  <code>24.1.4-0</code>,  <code>24.1.3-0</code>,  </span></summary>
       
 
-      ``25.0.1-0``,  ``24.2.4-0``,  ``24.2.3-0``,  ``24.2.2-0``,  ``24.2.1-0``,  ``24.2.0-0``,  ``24.1.4-0``,  ``24.1.3-0``,  ``24.1.2-0``,  ``24.1.1-0``
+      ``25.0.2-0``,  ``25.0.1-0``,  ``24.2.4-0``,  ``24.2.3-0``,  ``24.2.2-0``,  ``24.2.1-0``,  ``24.2.0-0``,  ``24.1.4-0``,  ``24.1.3-0``,  ``24.1.2-0``,  ``24.1.1-0``
 
       
       .. raw:: html
@@ -99,7 +99,7 @@ galaxy-schema
 
     <script>
         var package = "galaxy-schema";
-        var versions = ["25.0.1","24.2.4","24.2.3","24.2.2","24.2.1"];
+        var versions = ["25.0.2","25.0.1","24.2.4","24.2.3","24.2.2"];
     </script>
 
 

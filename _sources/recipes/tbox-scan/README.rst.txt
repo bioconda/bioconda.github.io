@@ -12,8 +12,9 @@ tbox-scan
 
    tbox\-scan is for detecting and classifying T\-boxes in DNA sequences.
 
-   :homepage: https://tbdb.io/
-   :license: MIT
+   :homepage: https://tbdb.io
+   :developer docs: https://github.com/mpiersonsmela/tbox
+   :license: MIT / MIT
    :recipe: /`tbox-scan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tbox-scan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tbox-scan/meta.yaml>`_
 
    
@@ -27,13 +28,13 @@ tbox-scan
       
       
 
-      ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.1.3-0``,  ``0.1.2-0``
+      ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
 
    
    :depends biopython: 
-   :depends infernal: ``1.1.2.*``
+   :depends infernal: ``1.1.5.*``
    :depends pandas: 
    :depends perl: 
    :depends python: 
@@ -88,7 +89,7 @@ tbox-scan
 
     <script>
         var package = "tbox-scan";
-        var versions = ["1.0.2","1.0.2","1.0.1","0.1.3","0.1.2"];
+        var versions = ["1.0.2","1.0.2","1.0.2","1.0.1","0.1.3"];
     </script>
 
 

@@ -31,7 +31,7 @@ galaxy-files-full
       
       
 
-      ``25.0.1-0``,  ``24.2.4-0``,  ``24.2.3-0``
+      ``25.0.2-0``,  ``25.0.1-0``,  ``24.2.4-0``,  ``24.2.3-0``
 
       
 
@@ -97,7 +97,7 @@ galaxy-files-full
 
     <script>
         var package = "galaxy-files-full";
-        var versions = ["25.0.1","24.2.4","24.2.3"];
+        var versions = ["25.0.2","25.0.1","24.2.4","24.2.3"];
     </script>
 
 

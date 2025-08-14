@@ -31,7 +31,7 @@ clumppling
       
       
 
-      ``0.3.2-0``
+      ``1.0.0-0``,  ``0.3.2-0``
 
       
 
@@ -95,7 +95,7 @@ clumppling
 
     <script>
         var package = "clumppling";
-        var versions = ["0.3.2"];
+        var versions = ["1.0.0","0.3.2"];
     </script>
 
 

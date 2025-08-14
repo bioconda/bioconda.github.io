@@ -1,9 +1,9 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'esme_mvapich__ucx'
+.. title:: Package Recipe 'esme_mvapich__ofi'
 .. highlight: bash
 
-esme_mvapich__ucx
+esme_mvapich__ofi
 =================
 
 .. conda:recipe:: esme
@@ -27,9 +27,9 @@ esme_mvapich__ucx
 
 
 
-.. conda:package:: esme_esmf_mvapich__ucx
+.. conda:package:: esme_esmf_mvapich__ofi
 
-   |downloads_esme_esmf_mvapich__ucx| |docker_esme_esmf_mvapich__ucx|
+   |downloads_esme_esmf_mvapich__ofi| |docker_esme_esmf_mvapich__ofi|
 
    :versions:
       
@@ -62,45 +62,45 @@ esme_mvapich__ucx
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install esme_esmf_mvapich__ucx
+      mamba install esme_esmf_mvapich__ofi
 
    and update with::
 
-      mamba update esme_esmf_mvapich__ucx
+      mamba update esme_esmf_mvapich__ofi
 
   To create a new environment, run::
 
-      mamba create --name myenvname esme_esmf_mvapich__ucx
+      mamba create --name myenvname esme_esmf_mvapich__ofi
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/esme_esmf_mvapich__ucx:<tag>
+      docker pull quay.io/biocontainers/esme_esmf_mvapich__ofi:<tag>
 
-   (see `esme_esmf_mvapich__ucx/tags`_ for valid values for ``<tag>``)
+   (see `esme_esmf_mvapich__ofi/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_esme_esmf_mvapich__ucx| image:: https://img.shields.io/conda/dn/bioconda/esme_esmf_mvapich__ucx.svg?style=flat
-   :target: https://anaconda.org/bioconda/esme_esmf_mvapich__ucx
+.. |downloads_esme_esmf_mvapich__ofi| image:: https://img.shields.io/conda/dn/bioconda/esme_esmf_mvapich__ofi.svg?style=flat
+   :target: https://anaconda.org/bioconda/esme_esmf_mvapich__ofi
    :alt:   (downloads)
-.. |docker_esme_esmf_mvapich__ucx| image:: https://quay.io/repository/biocontainers/esme_mvapich__ucx/status
-   :target: https://quay.io/repository/biocontainers/esme_mvapich__ucx
-.. _`esme_esmf_mvapich__ucx/tags`: https://quay.io/repository/biocontainers/esme_esmf_mvapich__ucx?tab=tags
+.. |docker_esme_esmf_mvapich__ofi| image:: https://quay.io/repository/biocontainers/esme_mvapich__ofi/status
+   :target: https://quay.io/repository/biocontainers/esme_mvapich__ofi
+.. _`esme_esmf_mvapich__ofi/tags`: https://quay.io/repository/biocontainers/esme_esmf_mvapich__ofi?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "esme_mvapich__ucx";
+        var package = "esme_mvapich__ofi";
         var versions = [];
     </script>
 
 
-.. conda:package:: esme_hdf5_mvapich__ucx
+.. conda:package:: esme_hdf5_mvapich__ofi
 
-   |downloads_esme_hdf5_mvapich__ucx| |docker_esme_hdf5_mvapich__ucx|
+   |downloads_esme_hdf5_mvapich__ofi| |docker_esme_hdf5_mvapich__ofi|
 
    :versions:
       
@@ -133,45 +133,45 @@ esme_mvapich__ucx
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install esme_hdf5_mvapich__ucx
+      mamba install esme_hdf5_mvapich__ofi
 
    and update with::
 
-      mamba update esme_hdf5_mvapich__ucx
+      mamba update esme_hdf5_mvapich__ofi
 
   To create a new environment, run::
 
-      mamba create --name myenvname esme_hdf5_mvapich__ucx
+      mamba create --name myenvname esme_hdf5_mvapich__ofi
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/esme_hdf5_mvapich__ucx:<tag>
+      docker pull quay.io/biocontainers/esme_hdf5_mvapich__ofi:<tag>
 
-   (see `esme_hdf5_mvapich__ucx/tags`_ for valid values for ``<tag>``)
+   (see `esme_hdf5_mvapich__ofi/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_esme_hdf5_mvapich__ucx| image:: https://img.shields.io/conda/dn/bioconda/esme_hdf5_mvapich__ucx.svg?style=flat
-   :target: https://anaconda.org/bioconda/esme_hdf5_mvapich__ucx
+.. |downloads_esme_hdf5_mvapich__ofi| image:: https://img.shields.io/conda/dn/bioconda/esme_hdf5_mvapich__ofi.svg?style=flat
+   :target: https://anaconda.org/bioconda/esme_hdf5_mvapich__ofi
    :alt:   (downloads)
-.. |docker_esme_hdf5_mvapich__ucx| image:: https://quay.io/repository/biocontainers/esme_mvapich__ucx/status
-   :target: https://quay.io/repository/biocontainers/esme_mvapich__ucx
-.. _`esme_hdf5_mvapich__ucx/tags`: https://quay.io/repository/biocontainers/esme_hdf5_mvapich__ucx?tab=tags
+.. |docker_esme_hdf5_mvapich__ofi| image:: https://quay.io/repository/biocontainers/esme_mvapich__ofi/status
+   :target: https://quay.io/repository/biocontainers/esme_mvapich__ofi
+.. _`esme_hdf5_mvapich__ofi/tags`: https://quay.io/repository/biocontainers/esme_hdf5_mvapich__ofi?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "esme_mvapich__ucx";
+        var package = "esme_mvapich__ofi";
         var versions = [];
     </script>
 
 
-.. conda:package:: esme_mvapich__ucx
+.. conda:package:: esme_mvapich__ofi
 
-   |downloads_esme_mvapich__ucx| |docker_esme_mvapich__ucx|
+   |downloads_esme_mvapich__ofi| |docker_esme_mvapich__ofi|
 
    :versions:
       
@@ -204,45 +204,45 @@ esme_mvapich__ucx
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install esme_mvapich__ucx
+      mamba install esme_mvapich__ofi
 
    and update with::
 
-      mamba update esme_mvapich__ucx
+      mamba update esme_mvapich__ofi
 
   To create a new environment, run::
 
-      mamba create --name myenvname esme_mvapich__ucx
+      mamba create --name myenvname esme_mvapich__ofi
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/esme_mvapich__ucx:<tag>
+      docker pull quay.io/biocontainers/esme_mvapich__ofi:<tag>
 
-   (see `esme_mvapich__ucx/tags`_ for valid values for ``<tag>``)
+   (see `esme_mvapich__ofi/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_esme_mvapich__ucx| image:: https://img.shields.io/conda/dn/bioconda/esme_mvapich__ucx.svg?style=flat
-   :target: https://anaconda.org/bioconda/esme_mvapich__ucx
+.. |downloads_esme_mvapich__ofi| image:: https://img.shields.io/conda/dn/bioconda/esme_mvapich__ofi.svg?style=flat
+   :target: https://anaconda.org/bioconda/esme_mvapich__ofi
    :alt:   (downloads)
-.. |docker_esme_mvapich__ucx| image:: https://quay.io/repository/biocontainers/esme_mvapich__ucx/status
-   :target: https://quay.io/repository/biocontainers/esme_mvapich__ucx
-.. _`esme_mvapich__ucx/tags`: https://quay.io/repository/biocontainers/esme_mvapich__ucx?tab=tags
+.. |docker_esme_mvapich__ofi| image:: https://quay.io/repository/biocontainers/esme_mvapich__ofi/status
+   :target: https://quay.io/repository/biocontainers/esme_mvapich__ofi
+.. _`esme_mvapich__ofi/tags`: https://quay.io/repository/biocontainers/esme_mvapich__ofi?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "esme_mvapich__ucx";
+        var package = "esme_mvapich__ofi";
         var versions = [];
     </script>
 
 
-.. conda:package:: esme_netcdf-c_mvapich__ucx
+.. conda:package:: esme_netcdf-c_mvapich__ofi
 
-   |downloads_esme_netcdf-c_mvapich__ucx| |docker_esme_netcdf-c_mvapich__ucx|
+   |downloads_esme_netcdf-c_mvapich__ofi| |docker_esme_netcdf-c_mvapich__ofi|
 
    :versions:
       
@@ -275,45 +275,45 @@ esme_mvapich__ucx
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install esme_netcdf-c_mvapich__ucx
+      mamba install esme_netcdf-c_mvapich__ofi
 
    and update with::
 
-      mamba update esme_netcdf-c_mvapich__ucx
+      mamba update esme_netcdf-c_mvapich__ofi
 
   To create a new environment, run::
 
-      mamba create --name myenvname esme_netcdf-c_mvapich__ucx
+      mamba create --name myenvname esme_netcdf-c_mvapich__ofi
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/esme_netcdf-c_mvapich__ucx:<tag>
+      docker pull quay.io/biocontainers/esme_netcdf-c_mvapich__ofi:<tag>
 
-   (see `esme_netcdf-c_mvapich__ucx/tags`_ for valid values for ``<tag>``)
+   (see `esme_netcdf-c_mvapich__ofi/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_esme_netcdf-c_mvapich__ucx| image:: https://img.shields.io/conda/dn/bioconda/esme_netcdf-c_mvapich__ucx.svg?style=flat
-   :target: https://anaconda.org/bioconda/esme_netcdf-c_mvapich__ucx
+.. |downloads_esme_netcdf-c_mvapich__ofi| image:: https://img.shields.io/conda/dn/bioconda/esme_netcdf-c_mvapich__ofi.svg?style=flat
+   :target: https://anaconda.org/bioconda/esme_netcdf-c_mvapich__ofi
    :alt:   (downloads)
-.. |docker_esme_netcdf-c_mvapich__ucx| image:: https://quay.io/repository/biocontainers/esme_mvapich__ucx/status
-   :target: https://quay.io/repository/biocontainers/esme_mvapich__ucx
-.. _`esme_netcdf-c_mvapich__ucx/tags`: https://quay.io/repository/biocontainers/esme_netcdf-c_mvapich__ucx?tab=tags
+.. |docker_esme_netcdf-c_mvapich__ofi| image:: https://quay.io/repository/biocontainers/esme_mvapich__ofi/status
+   :target: https://quay.io/repository/biocontainers/esme_mvapich__ofi
+.. _`esme_netcdf-c_mvapich__ofi/tags`: https://quay.io/repository/biocontainers/esme_netcdf-c_mvapich__ofi?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "esme_mvapich__ucx";
+        var package = "esme_mvapich__ofi";
         var versions = [];
     </script>
 
 
-.. conda:package:: esme_netcdf-fortran_mvapich__ucx
+.. conda:package:: esme_netcdf-fortran_mvapich__ofi
 
-   |downloads_esme_netcdf-fortran_mvapich__ucx| |docker_esme_netcdf-fortran_mvapich__ucx|
+   |downloads_esme_netcdf-fortran_mvapich__ofi| |docker_esme_netcdf-fortran_mvapich__ofi|
 
    :versions:
       
@@ -346,45 +346,45 @@ esme_mvapich__ucx
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install esme_netcdf-fortran_mvapich__ucx
+      mamba install esme_netcdf-fortran_mvapich__ofi
 
    and update with::
 
-      mamba update esme_netcdf-fortran_mvapich__ucx
+      mamba update esme_netcdf-fortran_mvapich__ofi
 
   To create a new environment, run::
 
-      mamba create --name myenvname esme_netcdf-fortran_mvapich__ucx
+      mamba create --name myenvname esme_netcdf-fortran_mvapich__ofi
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/esme_netcdf-fortran_mvapich__ucx:<tag>
+      docker pull quay.io/biocontainers/esme_netcdf-fortran_mvapich__ofi:<tag>
 
-   (see `esme_netcdf-fortran_mvapich__ucx/tags`_ for valid values for ``<tag>``)
+   (see `esme_netcdf-fortran_mvapich__ofi/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_esme_netcdf-fortran_mvapich__ucx| image:: https://img.shields.io/conda/dn/bioconda/esme_netcdf-fortran_mvapich__ucx.svg?style=flat
-   :target: https://anaconda.org/bioconda/esme_netcdf-fortran_mvapich__ucx
+.. |downloads_esme_netcdf-fortran_mvapich__ofi| image:: https://img.shields.io/conda/dn/bioconda/esme_netcdf-fortran_mvapich__ofi.svg?style=flat
+   :target: https://anaconda.org/bioconda/esme_netcdf-fortran_mvapich__ofi
    :alt:   (downloads)
-.. |docker_esme_netcdf-fortran_mvapich__ucx| image:: https://quay.io/repository/biocontainers/esme_mvapich__ucx/status
-   :target: https://quay.io/repository/biocontainers/esme_mvapich__ucx
-.. _`esme_netcdf-fortran_mvapich__ucx/tags`: https://quay.io/repository/biocontainers/esme_netcdf-fortran_mvapich__ucx?tab=tags
+.. |docker_esme_netcdf-fortran_mvapich__ofi| image:: https://quay.io/repository/biocontainers/esme_mvapich__ofi/status
+   :target: https://quay.io/repository/biocontainers/esme_mvapich__ofi
+.. _`esme_netcdf-fortran_mvapich__ofi/tags`: https://quay.io/repository/biocontainers/esme_netcdf-fortran_mvapich__ofi?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "esme_mvapich__ucx";
+        var package = "esme_mvapich__ofi";
         var versions = [];
     </script>
 
 
-.. conda:package:: esme_pio_mvapich__ucx
+.. conda:package:: esme_pio_mvapich__ofi
 
-   |downloads_esme_pio_mvapich__ucx| |docker_esme_pio_mvapich__ucx|
+   |downloads_esme_pio_mvapich__ofi| |docker_esme_pio_mvapich__ofi|
 
    :versions:
       
@@ -417,45 +417,45 @@ esme_mvapich__ucx
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install esme_pio_mvapich__ucx
+      mamba install esme_pio_mvapich__ofi
 
    and update with::
 
-      mamba update esme_pio_mvapich__ucx
+      mamba update esme_pio_mvapich__ofi
 
   To create a new environment, run::
 
-      mamba create --name myenvname esme_pio_mvapich__ucx
+      mamba create --name myenvname esme_pio_mvapich__ofi
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/esme_pio_mvapich__ucx:<tag>
+      docker pull quay.io/biocontainers/esme_pio_mvapich__ofi:<tag>
 
-   (see `esme_pio_mvapich__ucx/tags`_ for valid values for ``<tag>``)
+   (see `esme_pio_mvapich__ofi/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_esme_pio_mvapich__ucx| image:: https://img.shields.io/conda/dn/bioconda/esme_pio_mvapich__ucx.svg?style=flat
-   :target: https://anaconda.org/bioconda/esme_pio_mvapich__ucx
+.. |downloads_esme_pio_mvapich__ofi| image:: https://img.shields.io/conda/dn/bioconda/esme_pio_mvapich__ofi.svg?style=flat
+   :target: https://anaconda.org/bioconda/esme_pio_mvapich__ofi
    :alt:   (downloads)
-.. |docker_esme_pio_mvapich__ucx| image:: https://quay.io/repository/biocontainers/esme_mvapich__ucx/status
-   :target: https://quay.io/repository/biocontainers/esme_mvapich__ucx
-.. _`esme_pio_mvapich__ucx/tags`: https://quay.io/repository/biocontainers/esme_pio_mvapich__ucx?tab=tags
+.. |docker_esme_pio_mvapich__ofi| image:: https://quay.io/repository/biocontainers/esme_mvapich__ofi/status
+   :target: https://quay.io/repository/biocontainers/esme_mvapich__ofi
+.. _`esme_pio_mvapich__ofi/tags`: https://quay.io/repository/biocontainers/esme_pio_mvapich__ofi?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "esme_mvapich__ucx";
+        var package = "esme_mvapich__ofi";
         var versions = [];
     </script>
 
 
-.. conda:package:: esme_pnetcdf_mvapich__ucx
+.. conda:package:: esme_pnetcdf_mvapich__ofi
 
-   |downloads_esme_pnetcdf_mvapich__ucx| |docker_esme_pnetcdf_mvapich__ucx|
+   |downloads_esme_pnetcdf_mvapich__ofi| |docker_esme_pnetcdf_mvapich__ofi|
 
    :versions:
       
@@ -488,38 +488,38 @@ esme_mvapich__ucx
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install esme_pnetcdf_mvapich__ucx
+      mamba install esme_pnetcdf_mvapich__ofi
 
    and update with::
 
-      mamba update esme_pnetcdf_mvapich__ucx
+      mamba update esme_pnetcdf_mvapich__ofi
 
   To create a new environment, run::
 
-      mamba create --name myenvname esme_pnetcdf_mvapich__ucx
+      mamba create --name myenvname esme_pnetcdf_mvapich__ofi
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/esme_pnetcdf_mvapich__ucx:<tag>
+      docker pull quay.io/biocontainers/esme_pnetcdf_mvapich__ofi:<tag>
 
-   (see `esme_pnetcdf_mvapich__ucx/tags`_ for valid values for ``<tag>``)
+   (see `esme_pnetcdf_mvapich__ofi/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_esme_pnetcdf_mvapich__ucx| image:: https://img.shields.io/conda/dn/bioconda/esme_pnetcdf_mvapich__ucx.svg?style=flat
-   :target: https://anaconda.org/bioconda/esme_pnetcdf_mvapich__ucx
+.. |downloads_esme_pnetcdf_mvapich__ofi| image:: https://img.shields.io/conda/dn/bioconda/esme_pnetcdf_mvapich__ofi.svg?style=flat
+   :target: https://anaconda.org/bioconda/esme_pnetcdf_mvapich__ofi
    :alt:   (downloads)
-.. |docker_esme_pnetcdf_mvapich__ucx| image:: https://quay.io/repository/biocontainers/esme_mvapich__ucx/status
-   :target: https://quay.io/repository/biocontainers/esme_mvapich__ucx
-.. _`esme_pnetcdf_mvapich__ucx/tags`: https://quay.io/repository/biocontainers/esme_pnetcdf_mvapich__ucx?tab=tags
+.. |docker_esme_pnetcdf_mvapich__ofi| image:: https://quay.io/repository/biocontainers/esme_mvapich__ofi/status
+   :target: https://quay.io/repository/biocontainers/esme_mvapich__ofi
+.. _`esme_pnetcdf_mvapich__ofi/tags`: https://quay.io/repository/biocontainers/esme_pnetcdf_mvapich__ofi?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "esme_mvapich__ucx";
+        var package = "esme_mvapich__ofi";
         var versions = [];
     </script>
 
@@ -539,7 +539,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/esme_mvapich__ucx/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/esme_mvapich__ofi/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/esme_mvapich__ucx/README.html
+   :target: http://bioconda.github.io/recipes/esme_mvapich__ofi/README.html

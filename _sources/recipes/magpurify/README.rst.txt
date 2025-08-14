@@ -13,7 +13,7 @@ magpurify
    Identify and remove incorrectly binned contigs from metagenome\-assembled genomes.
 
    :homepage: https://github.com/snayfach/MAGpurify
-   :license: GPL / GPL-3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`magpurify <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/magpurify>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/magpurify/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ magpurify
       
       
 
-      ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``1.0-2``,  ``1.0-1``
+      ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``1.0-2``,  ``1.0-1``
 
       
 
@@ -41,7 +41,7 @@ magpurify
    :depends numpy: 
    :depends pandas: 
    :depends prodigal: 
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.6,<=3.12``
    :depends scikit-learn: 
    :requirements:
 
@@ -93,7 +93,7 @@ magpurify
 
     <script>
         var package = "magpurify";
-        var versions = ["2.1.2","2.1.2","2.1.1","2.1.0","2.0.1"];
+        var versions = ["2.1.2","2.1.2","2.1.2","2.1.1","2.1.0"];
     </script>
 
 

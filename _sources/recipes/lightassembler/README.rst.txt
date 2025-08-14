@@ -15,7 +15,7 @@ lightassembler
    :homepage: https://github.com/SaraEl-Metwally/LightAssembler
    :license: GPL
    :recipe: /`lightassembler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lightassembler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lightassembler/meta.yaml>`_
-   :links: biotools: :biotools:`LightAssembler`, doi: :doi:`1i0.1093/bioinformatics/btw470`
+   :links: biotools: :biotools:`LightAssembler`, doi: :doi:`10.1093/bioinformatics/btw470`
 
    
 
@@ -28,7 +28,7 @@ lightassembler
       
       
 
-      ``1.0-7``,  ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0-8``,  ``1.0-7``,  ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
