@@ -10,10 +10,10 @@ perl-date-manip
    :replaces_section_title:
    :noindex:
 
-   Date manipulation routines
+   Date manipulation routines.
 
-   :homepage: http://metacpan.org/pod/Date::Manip
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/Date::Manip
+   :license: Perl_5
    :recipe: /`perl-date-manip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-date-manip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-date-manip/meta.yaml>`_
 
    
@@ -26,9 +26,17 @@ perl-date-manip
    :versions:
       
       
+      .. raw:: html
 
-      ``6.88-0``,  ``6.86-0``,  ``6.76-1``,  ``6.76-0``,  ``6.75-0``,  ``6.73-0``,  ``6.72-0``,  ``6.57-1``,  ``6.57-0``
+         <details><summary><span class="truncated-version-list"><code>6.98-0</code>,  <code>6.88-0</code>,  <code>6.86-0</code>,  <code>6.76-1</code>,  <code>6.76-0</code>,  <code>6.75-0</code>,  <code>6.73-0</code>,  <code>6.72-0</code>,  <code>6.57-1</code>,  </span></summary>
+      
 
+      ``6.98-0``,  ``6.88-0``,  ``6.86-0``,  ``6.76-1``,  ``6.76-0``,  ``6.75-0``,  ``6.73-0``,  ``6.72-0``,  ``6.57-1``,  ``6.57-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -87,7 +95,7 @@ perl-date-manip
 
     <script>
         var package = "perl-date-manip";
-        var versions = ["6.88","6.86","6.76","6.76","6.75"];
+        var versions = ["6.98","6.88","6.86","6.76","6.76"];
     </script>
 
 

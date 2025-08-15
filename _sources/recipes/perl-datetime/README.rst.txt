@@ -28,10 +28,10 @@ perl-datetime
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.65-0</code>,  <code>1.59-2</code>,  <code>1.59-1</code>,  <code>1.59-0</code>,  <code>1.58-1</code>,  <code>1.58-0</code>,  <code>1.57-0</code>,  <code>1.55-1</code>,  <code>1.55-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.66-0</code>,  <code>1.65-0</code>,  <code>1.59-2</code>,  <code>1.59-1</code>,  <code>1.59-0</code>,  <code>1.58-1</code>,  <code>1.58-0</code>,  <code>1.57-0</code>,  <code>1.55-1</code>,  </span></summary>
       
 
-      ``1.65-0``,  ``1.59-2``,  ``1.59-1``,  ``1.59-0``,  ``1.58-1``,  ``1.58-0``,  ``1.57-0``,  ``1.55-1``,  ``1.55-0``,  ``1.42-5``,  ``1.42-4``,  ``1.42-2``,  ``1.42-0``
+      ``1.66-0``,  ``1.65-0``,  ``1.59-2``,  ``1.59-1``,  ``1.59-0``,  ``1.58-1``,  ``1.58-0``,  ``1.57-0``,  ``1.55-1``,  ``1.55-0``,  ``1.42-5``,  ``1.42-4``,  ``1.42-2``,  ``1.42-0``
 
       
       .. raw:: html
@@ -44,21 +44,25 @@ perl-datetime
    :depends libstdcxx: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-cpan-meta-check: ``0.014.*``
-   :depends perl-datetime-locale: 
-   :depends perl-datetime-timezone: ``>=2.44``
+   :depends perl-datetime-locale: ``>=1.45,<2.0a0``
+   :depends perl-datetime-timezone: ``>=2.65,<3.0a0``
    :depends perl-namespace-autoclean: ``>=0.31,<0.32.0a0``
-   :depends perl-params-validationcompiler: ``0.30.*``
+   :depends perl-params-validationcompiler: ``0.31.*``
    :depends perl-params-validationcompiler: ``>=0.26``
-   :depends perl-specio: ``0.48.*``
+   :depends perl-specio: ``0.52.*``
    :depends perl-test-fatal: ``0.016.*``
    :depends perl-test-warnings: ``0.031.*``
    :depends perl-test-without-module: 
    :depends perl-try-tiny: ``0.31.*``
-   :depends perl-variable-magic: ``0.63.*``
+   :depends perl-variable-magic: ``0.64.*``
    :depends perl-warnings-register: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -106,7 +110,7 @@ perl-datetime
 
     <script>
         var package = "perl-datetime";
-        var versions = ["1.65","1.59","1.59","1.59","1.58"];
+        var versions = ["1.66","1.65","1.59","1.59","1.59"];
     </script>
 
 

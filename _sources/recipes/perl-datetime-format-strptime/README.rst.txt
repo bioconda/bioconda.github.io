@@ -10,10 +10,10 @@ perl-datetime-format-strptime
    :replaces_section_title:
    :noindex:
 
-   Parse and format strp and strf time patterns
+   Parse and format strp and strf time patterns.
 
-   :homepage: http://metacpan.org/release/DateTime-Format-Strptime
-   :license: artistic_2
+   :homepage: https://metacpan.org/dist/DateTime-Format-Strptime
+   :license: Artistic_2
    :recipe: /`perl-datetime-format-strptime <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime-format-strptime>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime-format-strptime/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-datetime-format-strptime
       
       
 
-      ``1.75-1``,  ``1.75-0``,  ``1.73-0``
+      ``1.79-0``,  ``1.75-1``,  ``1.75-0``,  ``1.73-0``
 
       
 
@@ -36,7 +36,7 @@ perl-datetime-format-strptime
    :depends perl-carp: 
    :depends perl-constant: 
    :depends perl-datetime: 
-   :depends perl-datetime-locale: ``>=1.05``
+   :depends perl-datetime-locale: ``>=1.30``
    :depends perl-datetime-timezone: 
    :depends perl-exporter: 
    :depends perl-package-deprecationmanager: 
@@ -94,7 +94,7 @@ perl-datetime-format-strptime
 
     <script>
         var package = "perl-datetime-format-strptime";
-        var versions = ["1.75","1.75","1.73"];
+        var versions = ["1.79","1.75","1.75","1.73"];
     </script>
 
 

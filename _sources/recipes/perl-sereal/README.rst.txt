@@ -10,10 +10,10 @@ perl-sereal
    :replaces_section_title:
    :noindex:
 
-   Fast\, compact\, powerful binary \(de\-\)serialization
+   Fast\, compact\, powerful binary \(de\-\)serialization.
 
-   :homepage: http://metacpan.org/pod/Sereal
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/Sereal
+   :license: Perl_5
    :recipe: /`perl-sereal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sereal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sereal/meta.yaml>`_
 
    
@@ -27,14 +27,14 @@ perl-sereal
       
       
 
-      ``4.019-0``,  ``4.007-1``,  ``4.007-0``,  ``4.005-0``,  ``3.015-1``,  ``3.015-0``
+      ``5.004-0``,  ``4.019-0``,  ``4.007-1``,  ``4.007-0``,  ``4.005-0``,  ``3.015-1``,  ``3.015-0``
 
       
 
    
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends perl-sereal-decoder: ``>=4.019``
-   :depends perl-sereal-encoder: ``>=4.019``
+   :depends perl-sereal-decoder: ``>=5.004``
+   :depends perl-sereal-encoder: ``>=5.004``
    :requirements:
 
    :additional platforms:
@@ -85,7 +85,7 @@ perl-sereal
 
     <script>
         var package = "perl-sereal";
-        var versions = ["4.019","4.007","4.007","4.005","3.015"];
+        var versions = ["5.004","4.019","4.007","4.007","4.005"];
     </script>
 
 

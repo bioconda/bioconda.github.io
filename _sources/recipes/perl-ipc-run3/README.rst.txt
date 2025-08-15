@@ -10,10 +10,10 @@ perl-ipc-run3
    :replaces_section_title:
    :noindex:
 
-   run a subprocess with input\/ouput redirection
+   Run a subprocess with input\/ouput redirection.
 
-   :homepage: http://metacpan.org/pod/IPC::Run3
-   :license: open_source
+   :homepage: https://metacpan.org/pod/IPC::Run3
+   :license: Open-Source
    :recipe: /`perl-ipc-run3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ipc-run3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ipc-run3/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-ipc-run3
       
       
 
-      ``0.048-1``,  ``0.048-0``
+      ``0.049-0``,  ``0.048-1``,  ``0.048-0``
 
       
 
@@ -84,7 +84,7 @@ perl-ipc-run3
 
     <script>
         var package = "perl-ipc-run3";
-        var versions = ["0.048","0.048"];
+        var versions = ["0.049","0.048","0.048"];
     </script>
 
 

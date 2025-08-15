@@ -10,10 +10,10 @@ perl-mailtools
    :replaces_section_title:
    :noindex:
 
-   Various e\-mail related modules
+   Various e\-mail related modules.
 
-   :homepage: http://metacpan.org/pod/MailTools
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/MailTools
+   :license: Perl_5
    :recipe: /`perl-mailtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mailtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mailtools/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-mailtools
       
       
 
-      ``2.21-1``,  ``2.21-0``,  ``2.20-0``,  ``2.14-1``,  ``2.14-0``
+      ``2.22-0``,  ``2.21-1``,  ``2.21-0``,  ``2.20-0``,  ``2.14-1``,  ``2.14-0``
 
       
 
@@ -84,7 +84,7 @@ perl-mailtools
 
     <script>
         var package = "perl-mailtools";
-        var versions = ["2.21","2.21","2.20","2.14","2.14"];
+        var versions = ["2.22","2.21","2.21","2.20","2.14"];
     </script>
 
 

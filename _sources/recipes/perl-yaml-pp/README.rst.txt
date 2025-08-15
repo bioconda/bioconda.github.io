@@ -6,15 +6,15 @@
 perl-yaml-pp
 ============
 
-.. conda:recipe:: perl-yaml-pp/0.021
+.. conda:recipe:: perl-yaml-pp
    :replaces_section_title:
    :noindex:
 
    YAML 1.2 Processor
 
-   :homepage: http://metacpan.org/pod/YAML::PP
-   :license: perl artistic
-   :recipe: /`perl-yaml-pp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-yaml-pp>`_/`0.021 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-yaml-pp/0.021>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-yaml-pp/0.021/meta.yaml>`_
+   :homepage: https://metacpan.org/pod/YAML::PP
+   :license: Perl Artistic
+   :recipe: /`perl-yaml-pp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-yaml-pp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-yaml-pp/meta.yaml>`_
 
    
 
@@ -27,12 +27,13 @@ perl-yaml-pp
       
       
 
-      ``0.021-2``,  ``0.021-1``,  ``0.021-0``
+      ``0.39.0-0``,  ``0.021-2``,  ``0.021-1``,  ``0.021-0``
 
       
 
    
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends perl-b: 
    :depends perl-base: 
    :depends perl-carp: 
    :depends perl-constant: 
@@ -41,6 +42,7 @@ perl-yaml-pp
    :depends perl-exporter: 
    :depends perl-mime-base64: 
    :depends perl-module-load: 
+   :depends perl-scalar-list-utils: 
    :requirements:
 
    :additional platforms:
@@ -91,7 +93,7 @@ perl-yaml-pp
 
     <script>
         var package = "perl-yaml-pp";
-        var versions = ["0.021","0.021","0.021"];
+        var versions = ["0.39.0","0.021","0.021","0.021"];
     </script>
 
 

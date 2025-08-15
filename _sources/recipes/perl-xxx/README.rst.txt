@@ -6,15 +6,17 @@
 perl-xxx
 ========
 
-.. conda:recipe:: perl-xxx/0.35
+.. conda:recipe:: perl-xxx
    :replaces_section_title:
    :noindex:
 
-   See Your Data in the Nude
+   See Your Data in the Nude.
 
    :homepage: https://github.com/ingydotnet/xxx-pm
-   :license: perl artistic
-   :recipe: /`perl-xxx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xxx>`_/`0.35 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xxx/0.35>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xxx/0.35/meta.yaml>`_
+   :documentation: https://metacpan.org/dist/XXX/view/lib/XXX.pod
+   
+   :license: Perl Artistic
+   :recipe: /`perl-xxx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xxx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xxx/meta.yaml>`_
 
    
 
@@ -27,7 +29,7 @@ perl-xxx
       
       
 
-      ``0.35-1``,  ``0.35-0``
+      ``0.38-0``,  ``0.35-1``,  ``0.35-0``
 
       
 
@@ -84,7 +86,7 @@ perl-xxx
 
     <script>
         var package = "perl-xxx";
-        var versions = ["0.35","0.35"];
+        var versions = ["0.38","0.35","0.35"];
     </script>
 
 

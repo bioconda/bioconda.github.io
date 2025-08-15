@@ -10,10 +10,10 @@ perl-sereal-encoder
    :replaces_section_title:
    :noindex:
 
-   Fast\, compact\, powerful binary serialization
+   Fast\, compact\, powerful binary serialization.
 
-   :homepage: http://metacpan.org/pod/Sereal::Encoder
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/Sereal::Encoder
+   :license: Perl_5
    :recipe: /`perl-sereal-encoder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sereal-encoder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sereal-encoder/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ perl-sereal-encoder
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.025-3</code>,  <code>4.025-2</code>,  <code>4.025-1</code>,  <code>4.025-0</code>,  <code>4.024-0</code>,  <code>4.023-0</code>,  <code>4.021-1</code>,  <code>4.021-0</code>,  <code>4.020-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.004-0</code>,  <code>4.025-3</code>,  <code>4.025-2</code>,  <code>4.025-1</code>,  <code>4.025-0</code>,  <code>4.024-0</code>,  <code>4.023-0</code>,  <code>4.021-1</code>,  <code>4.021-0</code>,  </span></summary>
       
 
-      ``4.025-3``,  ``4.025-2``,  ``4.025-1``,  ``4.025-0``,  ``4.024-0``,  ``4.023-0``,  ``4.021-1``,  ``4.021-0``,  ``4.020-0``,  ``4.019-0``,  ``4.007-1``,  ``4.007-0``,  ``4.005-0``,  ``3.015-1``,  ``3.015-0``
+      ``5.004-0``,  ``4.025-3``,  ``4.025-2``,  ``4.025-1``,  ``4.025-0``,  ``4.024-0``,  ``4.023-0``,  ``4.021-1``,  ``4.021-0``,  ``4.020-0``,  ``4.019-0``,  ``4.007-1``,  ``4.007-0``,  ``4.005-0``,  ``3.015-1``,  ``3.015-0``
 
       
       .. raw:: html
@@ -42,7 +42,10 @@ perl-sereal-encoder
    
    :depends libgcc: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends perl-sereal-decoder: ``>=4.25,<5.0a0``
+   :depends perl-devel-checklib: ``>=1.16,<2.0a0``
+   :depends perl-extutils-parsexs: ``>=3.58,<4.0a0``
+   :depends perl-sereal-decoder: ``>=5.004``
+   :depends perl-sereal-decoder: ``>=5.4,<6.0a0``
    :requirements:
 
    :additional platforms:
@@ -97,7 +100,7 @@ perl-sereal-encoder
 
     <script>
         var package = "perl-sereal-encoder";
-        var versions = ["4.025","4.025","4.025","4.025","4.024"];
+        var versions = ["5.004","4.025","4.025","4.025","4.025"];
     </script>
 
 

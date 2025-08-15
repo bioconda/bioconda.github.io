@@ -10,10 +10,10 @@ perl-module-scandeps
    :replaces_section_title:
    :noindex:
 
-   Recursively scan Perl code for dependencies
+   Recursively scan Perl code for dependencies.
 
-   :homepage: http://metacpan.org/pod/Module::ScanDeps
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/Module::ScanDeps
+   :license: Perl_5
    :recipe: /`perl-module-scandeps <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-scandeps>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-scandeps/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ perl-module-scandeps
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.33-0</code>,  <code>1.32-0</code>,  <code>1.31-0</code>,  <code>1.27-1</code>,  <code>1.27-0</code>,  <code>1.26-1</code>,  <code>1.26-0</code>,  <code>1.25-0</code>,  <code>1.23-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.37-0</code>,  <code>1.33-0</code>,  <code>1.32-0</code>,  <code>1.31-0</code>,  <code>1.27-1</code>,  <code>1.27-0</code>,  <code>1.26-1</code>,  <code>1.26-0</code>,  <code>1.25-0</code>,  </span></summary>
       
 
-      ``1.33-0``,  ``1.32-0``,  ``1.31-0``,  ``1.27-1``,  ``1.27-0``,  ``1.26-1``,  ``1.26-0``,  ``1.25-0``,  ``1.23-1``,  ``1.23-0``
+      ``1.37-0``,  ``1.33-0``,  ``1.32-0``,  ``1.31-0``,  ``1.27-1``,  ``1.27-0``,  ``1.26-1``,  ``1.26-0``,  ``1.25-0``,  ``1.23-1``,  ``1.23-0``
 
       
       .. raw:: html
@@ -44,6 +44,7 @@ perl-module-scandeps
    :depends perl-file-temp: 
    :depends perl-getopt-long: 
    :depends perl-module-metadata: 
+   :depends perl-scalar-list-utils: 
    :depends perl-text-parsewords: 
    :depends perl-version: 
    :requirements:
@@ -96,7 +97,7 @@ perl-module-scandeps
 
     <script>
         var package = "perl-module-scandeps";
-        var versions = ["1.33","1.32","1.31","1.27","1.27"];
+        var versions = ["1.37","1.33","1.32","1.31","1.27"];
     </script>
 
 

@@ -10,10 +10,10 @@ perl-term-progressbar
    :replaces_section_title:
    :noindex:
 
-   provide a progress meter on a standard terminal
+   Provide a progress meter on a standard terminal.
 
-   :homepage: http://metacpan.org/pod/Term::ProgressBar
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/Term::ProgressBar
+   :license: Perl_5
    :recipe: /`perl-term-progressbar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-term-progressbar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-term-progressbar/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-term-progressbar
       
       
 
-      ``2.22-1``,  ``2.22-0``,  ``2.21-1``,  ``2.21-0``
+      ``2.23-0``,  ``2.22-1``,  ``2.22-0``,  ``2.21-1``,  ``2.21-0``
 
       
 
@@ -85,7 +85,7 @@ perl-term-progressbar
 
     <script>
         var package = "perl-term-progressbar";
-        var versions = ["2.22","2.22","2.21","2.21"];
+        var versions = ["2.23","2.22","2.22","2.21","2.21"];
     </script>
 
 

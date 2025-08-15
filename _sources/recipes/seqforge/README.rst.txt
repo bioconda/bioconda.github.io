@@ -30,7 +30,7 @@ seqforge
       
       
 
-      ``1.0.0-0``
+      ``1.0.4-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -92,7 +92,7 @@ seqforge
 
     <script>
         var package = "seqforge";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.4","1.0.1","1.0.0"];
     </script>
 
 

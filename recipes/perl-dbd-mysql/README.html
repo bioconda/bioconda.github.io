@@ -67,13 +67,13 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">perl-dbd-mysql</span></span></dt>
-<dd><p>A MySQL driver for the Perl5 Database Interface (DBI)</p>
+<dd><p>A MySQL driver for the Perl5 Database Interface (DBI).</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="http://dbi.perl.org/">http://dbi.perl.org/</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://dbi.perl.org">https://dbi.perl.org</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>perl_5</p>
+<dd class="field-even"><p>Perl_5</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-dbd-mysql">perl-dbd-mysql</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-dbd-mysql/meta.yaml">meta.yaml</a></p>
@@ -91,7 +91,7 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/perl-dbd-mysql"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/perl-dbd-mysql.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/perl-dbd-mysql"><img alt="docker_perl-dbd-mysql" src="https://quay.io/repository/biocontainers/perl-dbd-mysql/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>4.050-3</code>,  <code>4.050-2</code>,  <code>4.050-1</code>,  <code>4.050-0</code>,  <code>4.046-4</code>,  <code>4.046-3</code>,  <code>4.046-2</code>,  <code>4.046-1</code>,  <code>4.046-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">4.050-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.050-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.050-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.050-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.046-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.046-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.046-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.046-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.046-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.033-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.033-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.033-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.033-0</span></code></p>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>5.013-0</code>,  <code>4.050-3</code>,  <code>4.050-2</code>,  <code>4.050-1</code>,  <code>4.050-0</code>,  <code>4.046-4</code>,  <code>4.046-3</code>,  <code>4.046-2</code>,  <code>4.046-1</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">5.013-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.050-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.050-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.050-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.050-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.046-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.046-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.046-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.046-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.046-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.033-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.033-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.033-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.033-0</span></code></p>
 </details></dd>
 <dt class="field-even">depends libgcc<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
@@ -99,8 +99,20 @@
 <dt class="field-odd">depends libstdcxx<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
 </dd>
-<dt class="field-even">depends mysql-connector-c<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=6.1.11,&lt;6.1.12.0a0</span></code></p>
+<dt class="field-even">depends libzlib<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.3.1,&lt;2.0a0</span></code></p>
+</dd>
+<dt class="field-odd">depends mysql<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&lt;9</span></code></p>
+</dd>
+<dt class="field-even">depends mysql-common<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&lt;9</span></code></p>
+</dd>
+<dt class="field-odd">depends mysql-libs<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&lt;9</span></code></p>
+</dd>
+<dt class="field-even">depends openssl<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.5.2,&lt;4.0a0</span></code></p>
 </dd>
 <dt class="field-odd">depends perl<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=5.32.1,&lt;5.33.0a0 *_perl5</span></code></p>
@@ -108,15 +120,18 @@
 <dt class="field-even">depends perl-dbi<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends perl-devel-checklib<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.16.*</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.16,&lt;2.0a0</span></code></p>
 </dd>
 <dt class="field-even">depends perl-time-hires<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.9764,&lt;2.0a0</span></code></p>
 </dd>
-<dt class="field-odd">requirements<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">additional platforms<span class="colon">:</span></dt>
-<dd class="field-even"><span class="additional-platforms"><code>linux-aarch64</code></span></dd>
+<dt class="field-odd">depends zstd<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.5.7,&lt;1.6.0a0</span></code></p>
+</dd>
+<dt class="field-even">requirements<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
+<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -151,7 +166,7 @@ others.</p>
 
 <script>
     var package = "perl-dbd-mysql";
-    var versions = ["4.050","4.050","4.050","4.050","4.046"];
+    var versions = ["5.013","4.050","4.050","4.050","4.050"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

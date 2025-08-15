@@ -10,9 +10,9 @@ perl-sereal-decoder
    :replaces_section_title:
    :noindex:
 
-   Fast\, compact\, powerful binary deserialization
+   Fast\, compact\, powerful binary deserialization.
 
-   :homepage: http://metacpan.org/pod/Sereal::Decoder
+   :homepage: https://metacpan.org/pod/Sereal::Decoder
    :license: perl_5
    :recipe: /`perl-sereal-decoder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sereal-decoder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sereal-decoder/meta.yaml>`_
 
@@ -28,10 +28,10 @@ perl-sereal-decoder
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.025-2</code>,  <code>4.025-1</code>,  <code>4.025-0</code>,  <code>4.023-1</code>,  <code>4.023-0</code>,  <code>4.020-0</code>,  <code>4.019-0</code>,  <code>4.007-1</code>,  <code>4.007-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.004-0</code>,  <code>4.025-2</code>,  <code>4.025-1</code>,  <code>4.025-0</code>,  <code>4.023-1</code>,  <code>4.023-0</code>,  <code>4.020-0</code>,  <code>4.019-0</code>,  <code>4.007-1</code>,  </span></summary>
       
 
-      ``4.025-2``,  ``4.025-1``,  ``4.025-0``,  ``4.023-1``,  ``4.023-0``,  ``4.020-0``,  ``4.019-0``,  ``4.007-1``,  ``4.007-0``,  ``4.005-0``,  ``3.015-1``,  ``3.015-0``
+      ``5.004-0``,  ``4.025-2``,  ``4.025-1``,  ``4.025-0``,  ``4.023-1``,  ``4.023-0``,  ``4.020-0``,  ``4.019-0``,  ``4.007-1``,  ``4.007-0``,  ``4.005-0``,  ``3.015-1``,  ``3.015-0``
 
       
       .. raw:: html
@@ -42,13 +42,15 @@ perl-sereal-decoder
    
    :depends libgcc: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends perl-devel-checklib: ``>=1.16,<2.0a0``
+   :depends perl-extutils-parsexs: ``>=3.58,<4.0a0``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -96,7 +98,7 @@ perl-sereal-decoder
 
     <script>
         var package = "perl-sereal-decoder";
-        var versions = ["4.025","4.025","4.025","4.023","4.023"];
+        var versions = ["5.004","4.025","4.025","4.025","4.023"];
     </script>
 
 

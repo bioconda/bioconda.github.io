@@ -12,9 +12,12 @@ virulign
 
    VIRULIGN is a tool for codon\-correct pairwise alignments\, with an augmented functionality to annotate the alignment according the positions of the proteins.
 
-   :homepage: https://github.com/rega-cev/virulign
-   :license: GPL-2.0-only
+   :homepage: https://github.com/mirand863/virulign
+   :documentation: https://github.com/mirand863/virulign/blob/v1.1.1/README.md
+   
+   :license: GPL / GPL-2.0-only
    :recipe: /`virulign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/virulign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/virulign/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/bty851`
 
    
 
@@ -26,18 +29,32 @@ virulign
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.1-5``,  ``1.1.1-4``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1-0``,  ``1.0.2-1``,  ``1.0.2-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.1-6</code>,  <code>1.1.1-5</code>,  <code>1.1.1-4</code>,  <code>1.1.1-3</code>,  <code>1.1.1-2</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1-0</code>,  <code>1.0.2-1</code>,  </span></summary>
+      
 
+      ``1.1.1-6``,  ``1.1.1-5``,  ``1.1.1-4``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1-0``,  ``1.0.2-1``,  ``1.0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libstdcxx: ``>=13``
-   :depends openmp: 
+   :depends openmpi: ``>=4.1.6,<5.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

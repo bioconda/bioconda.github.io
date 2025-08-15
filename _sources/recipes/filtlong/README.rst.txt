@@ -13,8 +13,11 @@ filtlong
    Filtlong is a tool for filtering long reads. It can take a set of long reads and produce a smaller\, better subset. It uses both read length \(longer is better\) and read identity \(higher is better\) when choosing which reads pass the filter.
 
    :homepage: https://github.com/rrwick/Filtlong
-   :license: GPL-3.0
+   :documentation: https://github.com/rrwick/Filtlong/blob/v0.3.0/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`filtlong <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/filtlong>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/filtlong/meta.yaml>`_
+   :links: biotools: :biotools:`filtlong`, usegalaxy-eu: :usegalaxy-eu:`filtlong`
 
    
 
@@ -28,10 +31,10 @@ filtlong
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.1-5</code>,  <code>0.2.1-4</code>,  <code>0.2.1-3</code>,  <code>0.2.1-2</code>,  <code>0.2.1-1</code>,  <code>0.2.1-0</code>,  <code>0.2.0-4</code>,  <code>0.2.0-3</code>,  <code>0.2.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.0-0</code>,  <code>0.2.1-5</code>,  <code>0.2.1-4</code>,  <code>0.2.1-3</code>,  <code>0.2.1-2</code>,  <code>0.2.1-1</code>,  <code>0.2.1-0</code>,  <code>0.2.0-4</code>,  <code>0.2.0-3</code>,  </span></summary>
       
 
-      ``0.2.1-5``,  ``0.2.1-4``,  ``0.2.1-3``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-4``,  ``0.2.0-3``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.3.0-0``,  ``0.2.1-5``,  ``0.2.1-4``,  ``0.2.1-3``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-4``,  ``0.2.0-3``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -40,9 +43,9 @@ filtlong
       
 
    
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
@@ -97,7 +100,7 @@ filtlong
 
     <script>
         var package = "filtlong";
-        var versions = ["0.2.1","0.2.1","0.2.1","0.2.1","0.2.1"];
+        var versions = ["0.3.0","0.2.1","0.2.1","0.2.1","0.2.1"];
     </script>
 
 

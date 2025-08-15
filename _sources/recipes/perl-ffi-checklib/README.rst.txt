@@ -10,10 +10,10 @@ perl-ffi-checklib
    :replaces_section_title:
    :noindex:
 
-   Check that a library is available for FFI
+   Check that a library is available for FFI.
 
    :homepage: https://metacpan.org/pod/FFI::CheckLib
-   :license: perl_5
+   :license: Perl_5
    :recipe: /`perl-ffi-checklib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ffi-checklib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ffi-checklib/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-ffi-checklib
       
       
 
-      ``0.28-0``
+      ``0.31-0``,  ``0.28-0``
 
       
 
@@ -83,7 +83,7 @@ perl-ffi-checklib
 
     <script>
         var package = "perl-ffi-checklib";
-        var versions = ["0.28"];
+        var versions = ["0.31","0.28"];
     </script>
 
 

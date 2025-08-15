@@ -10,10 +10,10 @@ perl-datetime-locale
    :replaces_section_title:
    :noindex:
 
-   Localization support for DateTime.pm
+   Localization support for DateTime.pm.
 
-   :homepage: http://metacpan.org/release/DateTime-Locale
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/DateTime::Locale
+   :license: Perl_5
    :recipe: /`perl-datetime-locale <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime-locale>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime-locale/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ perl-datetime-locale
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.45-0</code>,  <code>1.44-1</code>,  <code>1.44-0</code>,  <code>1.43-0</code>,  <code>1.39-0</code>,  <code>1.38-1</code>,  <code>1.38-0</code>,  <code>1.37-0</code>,  <code>1.36-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.45-1</code>,  <code>1.45-0</code>,  <code>1.44-1</code>,  <code>1.44-0</code>,  <code>1.43-0</code>,  <code>1.39-0</code>,  <code>1.38-1</code>,  <code>1.38-0</code>,  <code>1.37-0</code>,  </span></summary>
       
 
-      ``1.45-0``,  ``1.44-1``,  ``1.44-0``,  ``1.43-0``,  ``1.39-0``,  ``1.38-1``,  ``1.38-0``,  ``1.37-0``,  ``1.36-0``,  ``1.35-0``,  ``1.34-0``,  ``1.33-0``,  ``1.12-5``,  ``1.12-4``,  ``1.12-3``,  ``1.12-2``,  ``1.12-0``
+      ``1.45-1``,  ``1.45-0``,  ``1.44-1``,  ``1.44-0``,  ``1.43-0``,  ``1.39-0``,  ``1.38-1``,  ``1.38-0``,  ``1.37-0``,  ``1.36-0``,  ``1.35-0``,  ``1.34-0``,  ``1.33-0``,  ``1.12-5``,  ``1.12-4``,  ``1.12-3``,  ``1.12-2``,  ``1.12-0``
 
       
       .. raw:: html
@@ -46,14 +46,19 @@ perl-datetime-locale
    :depends perl-cpan-meta-check: ``0.014.*``
    :depends perl-dist-checkconflicts: ``0.11.*``
    :depends perl-file-sharedir: 
+   :depends perl-file-sharedir-install: ``>=0.14,<0.15.0a0``
    :depends perl-namespace-autoclean: ``>=0.31,<0.32.0a0``
    :depends perl-params-validationcompiler: ``0.31.*``
-   :depends perl-specio: ``0.50.*``
+   :depends perl-specio: ``0.52.*``
    :depends perl-test-warnings: ``0.031.*``
    :depends perl-test2-plugin-nowarnings: ``0.09.*``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -101,7 +106,7 @@ perl-datetime-locale
 
     <script>
         var package = "perl-datetime-locale";
-        var versions = ["1.45","1.44","1.44","1.43","1.39"];
+        var versions = ["1.45","1.45","1.44","1.44","1.43"];
     </script>
 
 

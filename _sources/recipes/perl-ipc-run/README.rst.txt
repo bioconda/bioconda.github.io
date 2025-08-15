@@ -10,10 +10,10 @@ perl-ipc-run
    :replaces_section_title:
    :noindex:
 
-   system\(\) and background procs w\/ piping\, redirs\, ptys \(Unix\, Win32\)
+   system\(\) and background procs w\/ piping\, redirs\, ptys \(Unix\, Win32\).
 
-   :homepage: http://metacpan.org/pod/IPC-Run
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/IPC::Run
+   :license: Perl_5
    :recipe: /`perl-ipc-run <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ipc-run>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ipc-run/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-ipc-run
       
       
 
-      ``20200505.0-0``,  ``20180523.0-1``,  ``20180523.0-0``,  ``0.94-1``,  ``0.94-0``
+      ``20250809.0-0``,  ``20200505.0-0``,  ``20180523.0-1``,  ``20180523.0-0``,  ``0.94-1``,  ``0.94-0``
 
       
 
@@ -84,7 +84,7 @@ perl-ipc-run
 
     <script>
         var package = "perl-ipc-run";
-        var versions = ["20200505.0","20180523.0","20180523.0","0.94","0.94"];
+        var versions = ["20250809.0","20200505.0","20180523.0","20180523.0","0.94"];
     </script>
 
 

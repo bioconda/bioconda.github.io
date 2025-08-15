@@ -10,10 +10,10 @@ perl-dbd-mysql
    :replaces_section_title:
    :noindex:
 
-   A MySQL driver for the Perl5 Database Interface \(DBI\)
+   A MySQL driver for the Perl5 Database Interface \(DBI\).
 
-   :homepage: http://dbi.perl.org/
-   :license: perl_5
+   :homepage: https://dbi.perl.org
+   :license: Perl_5
    :recipe: /`perl-dbd-mysql <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-dbd-mysql>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-dbd-mysql/meta.yaml>`_
    :links: biotools: :biotools:`dbd`, doi: :doi:`10.1093/nar/gkm964`
 
@@ -29,10 +29,10 @@ perl-dbd-mysql
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.050-3</code>,  <code>4.050-2</code>,  <code>4.050-1</code>,  <code>4.050-0</code>,  <code>4.046-4</code>,  <code>4.046-3</code>,  <code>4.046-2</code>,  <code>4.046-1</code>,  <code>4.046-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.013-0</code>,  <code>4.050-3</code>,  <code>4.050-2</code>,  <code>4.050-1</code>,  <code>4.050-0</code>,  <code>4.046-4</code>,  <code>4.046-3</code>,  <code>4.046-2</code>,  <code>4.046-1</code>,  </span></summary>
       
 
-      ``4.050-3``,  ``4.050-2``,  ``4.050-1``,  ``4.050-0``,  ``4.046-4``,  ``4.046-3``,  ``4.046-2``,  ``4.046-1``,  ``4.046-0``,  ``4.033-3``,  ``4.033-2``,  ``4.033-1``,  ``4.033-0``
+      ``5.013-0``,  ``4.050-3``,  ``4.050-2``,  ``4.050-1``,  ``4.050-0``,  ``4.046-4``,  ``4.046-3``,  ``4.046-2``,  ``4.046-1``,  ``4.046-0``,  ``4.033-3``,  ``4.033-2``,  ``4.033-1``,  ``4.033-0``
 
       
       .. raw:: html
@@ -43,18 +43,23 @@ perl-dbd-mysql
    
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
-   :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends mysql: ``<9``
+   :depends mysql-common: ``<9``
+   :depends mysql-libs: ``<9``
+   :depends openssl: ``>=3.5.2,<4.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-dbi: 
-   :depends perl-devel-checklib: ``1.16.*``
+   :depends perl-devel-checklib: ``>=1.16,<2.0a0``
    :depends perl-time-hires: ``>=1.9764,<2.0a0``
+   :depends zstd: ``>=1.5.7,<1.6.0a0``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -102,7 +107,7 @@ perl-dbd-mysql
 
     <script>
         var package = "perl-dbd-mysql";
-        var versions = ["4.050","4.050","4.050","4.050","4.046"];
+        var versions = ["5.013","4.050","4.050","4.050","4.050"];
     </script>
 
 

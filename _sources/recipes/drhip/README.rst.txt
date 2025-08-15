@@ -31,7 +31,7 @@ drhip
       
       
 
-      ``0.1.1-0``
+      ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -91,7 +91,7 @@ drhip
 
     <script>
         var package = "drhip";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.2","0.1.1"];
     </script>
 
 

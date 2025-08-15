@@ -10,10 +10,10 @@ perl-autodie
    :replaces_section_title:
    :noindex:
 
-   Replace functions with ones that succeed or die with lexical scope
+   Replace functions with ones that succeed or die with lexical scope.
 
-   :homepage: http://metacpan.org/pod/autodie
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/autodie
+   :license: Perl_5
    :recipe: /`perl-autodie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-autodie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-autodie/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-autodie
       
       
 
-      ``2.36-0``,  ``2.35-0``,  ``2.34-0``,  ``2.29-1``,  ``2.29-0``
+      ``2.37-0``,  ``2.36-0``,  ``2.35-0``,  ``2.34-0``,  ``2.29-1``,  ``2.29-0``
 
       
 
@@ -88,7 +88,7 @@ perl-autodie
 
     <script>
         var package = "perl-autodie";
-        var versions = ["2.36","2.35","2.34","2.29","2.29"];
+        var versions = ["2.37","2.36","2.35","2.34","2.29"];
     </script>
 
 

@@ -12,8 +12,8 @@ perl-acme-damn
 
    \'Unbless\' Perl objects.
 
-   :homepage: http://metacpan.org/pod/Acme::Damn
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/Acme::Damn
+   :license: Perl_5
    :recipe: /`perl-acme-damn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-acme-damn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-acme-damn/meta.yaml>`_
 
    
@@ -26,9 +26,17 @@ perl-acme-damn
    :versions:
       
       
+      .. raw:: html
 
-      ``0.08-8``,  ``0.08-7``,  ``0.08-6``,  ``0.08-5``,  ``0.08-4``,  ``0.08-3``,  ``0.08-2``,  ``0.08-1``,  ``0.08-0``
+         <details><summary><span class="truncated-version-list"><code>0.08-9</code>,  <code>0.08-8</code>,  <code>0.08-7</code>,  <code>0.08-6</code>,  <code>0.08-5</code>,  <code>0.08-4</code>,  <code>0.08-3</code>,  <code>0.08-2</code>,  <code>0.08-1</code>,  </span></summary>
+      
 
+      ``0.08-9``,  ``0.08-8``,  ``0.08-7``,  ``0.08-6``,  ``0.08-5``,  ``0.08-4``,  ``0.08-3``,  ``0.08-2``,  ``0.08-1``,  ``0.08-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -38,6 +46,10 @@ perl-acme-damn
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

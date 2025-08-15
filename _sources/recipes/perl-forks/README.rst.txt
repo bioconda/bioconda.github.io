@@ -10,10 +10,10 @@ perl-forks
    :replaces_section_title:
    :noindex:
 
-   drop\-in replacement for Perl threads using fork\(\)
+   Drop\-in replacement for Perl threads using fork\(\).
 
-   :homepage: http://search.cpan.org/~rybskej/forks/lib/forks.pm
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/forks
+   :license: Perl_5
    :recipe: /`perl-forks <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-forks>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-forks/meta.yaml>`_
 
    
@@ -26,15 +26,23 @@ perl-forks
    :versions:
       
       
+      .. raw:: html
 
-      ``0.36-9``,  ``0.36-8``,  ``0.36-7``,  ``0.36-6``,  ``0.36-5``,  ``0.36-4``,  ``0.36-3``,  ``0.36-2``,  ``0.36-1``
+         <details><summary><span class="truncated-version-list"><code>0.36-10</code>,  <code>0.36-9</code>,  <code>0.36-8</code>,  <code>0.36-7</code>,  <code>0.36-6</code>,  <code>0.36-5</code>,  <code>0.36-4</code>,  <code>0.36-3</code>,  <code>0.36-2</code>,  </span></summary>
+      
 
+      ``0.36-10``,  ``0.36-9``,  ``0.36-8``,  ``0.36-7``,  ``0.36-6``,  ``0.36-5``,  ``0.36-4``,  ``0.36-3``,  ``0.36-2``,  ``0.36-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends libgcc: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends perl-acme-damn: 
+   :depends perl-acme-damn: ``>=0.8,<0.9.0a0``
    :depends perl-attribute-handlers: 
    :depends perl-devel-symdump: 
    :depends perl-list-moreutils: 
@@ -44,6 +52,10 @@ perl-forks
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
