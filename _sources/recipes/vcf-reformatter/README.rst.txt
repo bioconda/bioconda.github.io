@@ -33,7 +33,7 @@ vcf-reformatter
       
       
 
-      ``0.2.0-0``
+      ``0.3.0-0``,  ``0.2.0-0``
 
       
 
@@ -88,7 +88,7 @@ vcf-reformatter
 
     <script>
         var package = "vcf-reformatter";
-        var versions = ["0.2.0"];
+        var versions = ["0.3.0","0.2.0"];
     </script>
 
 

@@ -10,10 +10,13 @@ arvados-cwl-runner
    :replaces_section_title:
    :noindex:
 
-   Arvados Common Workflow Language runner
+   Arvados Common Workflow Language runner.
 
-   :homepage: https://github.com/curoverse/arvados/tree/master/sdk/cwl
-   :license: Apache 2.0
+   :homepage: https://arvados.org
+   :documentation: https://doc.arvados.org
+   
+   :developer docs: https://github.com/curoverse/arvados/tree/master/sdk/cwl
+   :license: APACHE / Apache-2.0
    :recipe: /`arvados-cwl-runner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/arvados-cwl-runner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/arvados-cwl-runner/meta.yaml>`_
 
    
@@ -28,10 +31,10 @@ arvados-cwl-runner
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.7.0-0</code>,  <code>2.6.3-0</code>,  <code>2.0.4-0</code>,  <code>2.0.3.1-1</code>,  <code>2.0.3.1-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1.2-0</code>,  <code>2.7.0-0</code>,  <code>2.6.3-0</code>,  <code>2.0.4-0</code>,  <code>2.0.3.1-1</code>,  <code>2.0.3.1-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  </span></summary>
       
 
-      ``2.7.0-0``,  ``2.6.3-0``,  ``2.0.4-0``,  ``2.0.3.1-1``,  ``2.0.3.1-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.3.20190419203205-0``,  ``1.3.2.20190419203205-0``,  ``1.3.1.20190419203205-0``,  ``1.3.1.20190301150258-0``,  ``1.3.0.20190221150417-0``,  ``1.3.0.20190206223817-0``,  ``1.3.0.20181218191458-0``,  ``1.0.20180216164101-1``,  ``1.0.20180216164101-0``,  ``1.0.20171211211613-0``,  ``1.0.20171010180436-1``,  ``1.0.20171010180436-0``,  ``1.0.20170914161842-0``,  ``1.0.20170414202629-0``,  ``1.0.20170327202303-0``,  ``1.0.20170216151734-0``,  ``1.0.20161230191227-0``,  ``1.0.20161123235904-0``,  ``1.0.20161031135838-0``,  ``1.0.20160715171107-0``,  ``1.0.20160502202716-0``,  ``1.0.20160421150319-0``,  ``1.0.20160411202258-0``,  ``1.0.20160406195023-0``,  ``1.0.20160401183214-0``,  ``1.0.20160318143738-0``,  ``1.0.20160314171956-0``,  ``1.0.20160311144647-0``,  ``1.0.20160323-0``
+      ``3.1.2-0``,  ``2.7.0-0``,  ``2.6.3-0``,  ``2.0.4-0``,  ``2.0.3.1-1``,  ``2.0.3.1-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.3.20190419203205-0``,  ``1.3.2.20190419203205-0``,  ``1.3.1.20190419203205-0``,  ``1.3.1.20190301150258-0``,  ``1.3.0.20190221150417-0``,  ``1.3.0.20190206223817-0``,  ``1.3.0.20181218191458-0``,  ``1.0.20180216164101-1``,  ``1.0.20180216164101-0``,  ``1.0.20171211211613-0``,  ``1.0.20171010180436-1``,  ``1.0.20171010180436-0``,  ``1.0.20170914161842-0``,  ``1.0.20170414202629-0``,  ``1.0.20170327202303-0``,  ``1.0.20170216151734-0``,  ``1.0.20161230191227-0``,  ``1.0.20161123235904-0``,  ``1.0.20161031135838-0``,  ``1.0.20160715171107-0``,  ``1.0.20160502202716-0``,  ``1.0.20160421150319-0``,  ``1.0.20160411202258-0``,  ``1.0.20160406195023-0``,  ``1.0.20160401183214-0``,  ``1.0.20160318143738-0``,  ``1.0.20160314171956-0``,  ``1.0.20160311144647-0``,  ``1.0.20160323-0``
 
       
       .. raw:: html
@@ -40,11 +43,16 @@ arvados-cwl-runner
       
 
    
-   :depends arvados-python-client: ``>=2.6``
-   :depends cwltool: ``>=3.1``
-   :depends python: 
-   :depends ruamel.yaml: ``>=0.15.54``
-   :depends schema-salad: ``>=3.0.20181129082112``
+   :depends arvados-python-client: ``<=3.1.2``
+   :depends ciso8601: ``>=2.0.0``
+   :depends crunchstat-summary: ``<=3.1.2``
+   :depends cwltool: ``3.1.20240508115724``
+   :depends importlib-metadata: ``<5``
+   :depends msgpack-python: ``1.0.3``
+   :depends networkx: ``<2.6``
+   :depends pydot: ``<2``
+   :depends python: ``>=3.8``
+   :depends schema-salad: ``8.5.20240503091721``
    :requirements:
 
    :additional platforms:
@@ -95,7 +103,7 @@ arvados-cwl-runner
 
     <script>
         var package = "arvados-cwl-runner";
-        var versions = ["2.7.0","2.6.3","2.0.4","2.0.3.1","2.0.3.1"];
+        var versions = ["3.1.2","2.7.0","2.6.3","2.0.4","2.0.3.1"];
     </script>
 
 

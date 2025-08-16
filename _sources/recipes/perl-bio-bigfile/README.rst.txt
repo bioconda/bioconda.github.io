@@ -10,10 +10,10 @@ perl-bio-bigfile
    :replaces_section_title:
    :noindex:
 
-   Low\-level interface to BigWig \& BigBed files
+   Low\-level interface to BigWig \& BigBed files.
 
    :homepage: https://metacpan.org/pod/Bio::DB::BigFile
-   :license: Apache v2.0
+   :license: Apache-2.0
    :recipe: /`perl-bio-bigfile <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-bigfile>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-bigfile/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-bio-bigfile
       
       
 
-      ``1.07-5``,  ``1.07-4``,  ``1.07-3``,  ``1.07-2``,  ``1.07-1``,  ``1.07-0``
+      ``1.07-6``,  ``1.07-5``,  ``1.07-4``,  ``1.07-3``,  ``1.07-2``,  ``1.07-1``,  ``1.07-0``
 
       
 
@@ -35,7 +35,7 @@ perl-bio-bigfile
    :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends mysql: 
-   :depends openssl: ``>=3.4.0,<4.0a0``
+   :depends openssl: ``>=3.5.2,<4.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-bioperl: 
    :depends perl-io-string: 
@@ -43,6 +43,10 @@ perl-bio-bigfile
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

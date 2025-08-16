@@ -28,9 +28,17 @@ perl-inline-c
    :versions:
       
       
+      .. raw:: html
 
-      ``0.82-0``,  ``0.81-3``,  ``0.81-2``,  ``0.81-1``,  ``0.81-0``,  ``0.78-1``,  ``0.78-0``,  ``0.76-1``,  ``0.76-0``
+         <details><summary><span class="truncated-version-list"><code>0.82-1</code>,  <code>0.82-0</code>,  <code>0.81-3</code>,  <code>0.81-2</code>,  <code>0.81-1</code>,  <code>0.81-0</code>,  <code>0.78-1</code>,  <code>0.78-0</code>,  <code>0.76-1</code>,  </span></summary>
+      
 
+      ``0.82-1``,  ``0.82-0``,  ``0.81-3``,  ``0.81-2``,  ``0.81-1``,  ``0.81-0``,  ``0.78-1``,  ``0.78-0``,  ``0.76-1``,  ``0.76-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -38,16 +46,22 @@ perl-inline-c
    :depends libgcc: ``>=13``
    :depends make: 
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends perl-autodie: ``>=2.37,<3.0a0``
    :depends perl-extutils-makemaker: 
    :depends perl-file-copy-recursive: ``>=0.45,<0.46.0a0``
    :depends perl-file-sharedir-install: ``>=0.14,<0.15.0a0``
    :depends perl-file-spec: 
    :depends perl-inline: ``>=0.87,<0.88.0a0``
    :depends perl-parse-recdescent: 
-   :depends perl-pegex: 
+   :depends perl-pegex: ``>=0.75,<0.76.0a0``
+   :depends perl-yaml-libyaml: ``0.904.0.*``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -95,7 +109,7 @@ perl-inline-c
 
     <script>
         var package = "perl-inline-c";
-        var versions = ["0.82","0.81","0.81","0.81","0.81"];
+        var versions = ["0.82","0.82","0.81","0.81","0.81"];
     </script>
 
 

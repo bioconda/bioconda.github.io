@@ -67,16 +67,19 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">homopolish</span></span></dt>
-<dd><p>Homopolish is a polish tools</p>
+<dd><p>High-quality Nanopore-only genome polisher.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/ythuang0522/homopolish">https://github.com/ythuang0522/homopolish</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>GNU GENERAL PUBLIC LICENSE</p>
+<dd class="field-even"><p>GPL3 / GPL-3.0-or-later</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/homopolish">homopolish</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/homopolish/meta.yaml">meta.yaml</a></p>
+</dd>
+<dt class="field-even">Links<span class="colon">:</span></dt>
+<dd class="field-even"><p>doi: <a class="extlink-doi reference external" href="https://doi.org/10.1186/s13059-021-02282-6">10.1186/s13059-021-02282-6</a>, biotools: <a class="extlink-biotools reference external" href="https://bio.tools/homopolish">homopolish</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -88,271 +91,50 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/homopolish"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/homopolish.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/homopolish"><img alt="docker_homopolish" src="https://quay.io/repository/biocontainers/homopolish/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.4.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.4.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.1-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.4.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.4.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.4.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.1-0</span></code></p>
 </dd>
-<dt class="field-even">depends _libgcc_mutex<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.1</span></code></p>
+<dt class="field-even">depends biopython<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.76</span></code></p>
 </dd>
-<dt class="field-odd">depends _openmp_mutex<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.5</span></code></p>
-</dd>
-<dt class="field-even">depends arrow-cpp<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.15.1</span></code></p>
-</dd>
-<dt class="field-odd">depends biopython<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.76</span></code></p>
-</dd>
-<dt class="field-even">depends blas<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.17</span></code></p>
-</dd>
-<dt class="field-odd">depends boost<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.70.0,&lt;1.70.1.0a0</span></code></p>
-</dd>
-<dt class="field-even">depends boost-cpp<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.70.0</span></code></p>
-</dd>
-<dt class="field-odd">depends brotli<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0.9</span></code></p>
-</dd>
-<dt class="field-even">depends brotlipy<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.7.0</span></code></p>
-</dd>
-<dt class="field-odd">depends bzip2<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0.8,&lt;2.0a0</span></code></p>
-</dd>
-<dt class="field-even">depends c-ares<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.16.1</span></code></p>
-</dd>
-<dt class="field-odd">depends ca-certificates<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2022.07.19</span></code></p>
-</dd>
-<dt class="field-even">depends capnproto<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.6.1</span></code></p>
-</dd>
-<dt class="field-odd">depends certifi<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2022.6.15</span></code></p>
-</dd>
-<dt class="field-even">depends cffi<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.14.3</span></code></p>
-</dd>
-<dt class="field-odd">depends chardet<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.0.4</span></code></p>
-</dd>
-<dt class="field-even">depends colorama<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.4.4</span></code></p>
-</dd>
-<dt class="field-odd">depends cryptography<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.1.1</span></code></p>
-</dd>
-<dt class="field-even">depends curl<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=7.78.0</span></code></p>
-</dd>
-<dt class="field-odd">depends double-conversion<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.1.5</span></code></p>
-</dd>
-<dt class="field-even">depends fastani<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">1.32.*</span></code></p>
-</dd>
-<dt class="field-odd">depends feather-format<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.4.1</span></code></p>
-</dd>
-<dt class="field-even">depends gflags<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.2.2</span></code></p>
-</dd>
-<dt class="field-odd">depends glog<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.4.0</span></code></p>
-</dd>
-<dt class="field-even">depends grpc-cpp<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.25.0</span></code></p>
-</dd>
-<dt class="field-odd">depends gsl<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.4.*</span></code></p>
-</dd>
-<dt class="field-even">depends icu<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=58.2</span></code></p>
-</dd>
-<dt class="field-odd">depends idna<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.10</span></code></p>
-</dd>
-<dt class="field-even">depends joblib<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.15.1</span></code></p>
-</dd>
-<dt class="field-odd">depends k8<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.2.5</span></code></p>
-</dd>
-<dt class="field-even">depends krb5<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.19.2</span></code></p>
-</dd>
-<dt class="field-odd">depends ld_impl_linux-64<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.33.1</span></code></p>
-</dd>
-<dt class="field-even">depends libblas<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.8.0</span></code></p>
-</dd>
-<dt class="field-odd">depends libcblas<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.8.0</span></code></p>
-</dd>
-<dt class="field-even">depends libcurl<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=7.78.0</span></code></p>
-</dd>
-<dt class="field-odd">depends libdeflate<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0</span></code></p>
-</dd>
-<dt class="field-even">depends libedit<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.1.20210910</span></code></p>
-</dd>
-<dt class="field-odd">depends libev<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.33</span></code></p>
-</dd>
-<dt class="field-even">depends libffi<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.4.2,&lt;3.5.0a0</span></code></p>
-</dd>
-<dt class="field-odd">depends libgcc-ng<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12.1.0</span></code></p>
-</dd>
-<dt class="field-even">depends libgfortran-ng<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=7.3.0</span></code></p>
-</dd>
-<dt class="field-odd">depends liblapack<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.8.0</span></code></p>
-</dd>
-<dt class="field-even">depends liblapacke<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.8.0</span></code></p>
-</dd>
-<dt class="field-odd">depends libnghttp2<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.41.0</span></code></p>
-</dd>
-<dt class="field-even">depends libopenblas<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.3.10</span></code></p>
-</dd>
-<dt class="field-odd">depends libprotobuf<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.10.1</span></code></p>
-</dd>
-<dt class="field-even">depends libssh2<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.9.0</span></code></p>
-</dd>
-<dt class="field-odd">depends libstdcxx-ng<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12.1.0</span></code></p>
-</dd>
-<dt class="field-even">depends llvm-openmp<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12.0.1</span></code></p>
-</dd>
-<dt class="field-odd">depends lz4-c<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.8.3</span></code></p>
+<dt class="field-odd">depends fastani<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends feather-format<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends joblib<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.15.1</span></code></p>
 </dd>
 <dt class="field-even">depends mash<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">2.1.1.*</span></code></p>
-</dd>
+<dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends minimap2<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.17</span></code></p>
-</dd>
+<dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends more-itertools<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=8.4.0</span></code></p>
 </dd>
-<dt class="field-odd">depends ncbi-datasets-cli<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13.37.2</span></code></p>
-</dd>
-<dt class="field-even">depends ncurses<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=6.3</span></code></p>
-</dd>
 <dt class="field-odd">depends numpy<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.18.5.*</span></code></p>
-</dd>
-<dt class="field-even">depends numpy-base<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">1.18.5.*</span></code></p>
-</dd>
-<dt class="field-odd">depends openssl<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.1.0,&lt;=1.1.1</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&lt;2</span></code></p>
 </dd>
 <dt class="field-even">depends pandas<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.23.4</span></code></p>
 </dd>
-<dt class="field-odd">depends parquet-cpp<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.5.1</span></code></p>
-</dd>
-<dt class="field-even">depends pyarrow<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.15.1</span></code></p>
-</dd>
-<dt class="field-odd">depends pycparser<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.20</span></code></p>
+<dt class="field-odd">depends pyarrow<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.15.1</span></code></p>
 </dd>
 <dt class="field-even">depends pycurl<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=7.43.0.6</span></code></p>
 </dd>
-<dt class="field-odd">depends pyopenssl<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=19.1.0</span></code></p>
-</dd>
-<dt class="field-even">depends pysam<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.15.3</span></code></p>
-</dd>
-<dt class="field-odd">depends pysocks<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.7.1</span></code></p>
+<dt class="field-odd">depends pysam<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.15.3</span></code></p>
 </dd>
 <dt class="field-even">depends python<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends python-dateutil<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.8.1</span></code></p>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.7,&lt;3.13</span></code></p>
 </dd>
-<dt class="field-even">depends python-wget<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.2</span></code></p>
-</dd>
-<dt class="field-odd">depends pytz<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2020.1</span></code></p>
-</dd>
-<dt class="field-even">depends re2<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2019.08.01</span></code></p>
-</dd>
-<dt class="field-odd">depends readline<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=8.1.2,&lt;9.0a0</span></code></p>
-</dd>
+<dt class="field-odd">depends python-wget<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends requests<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.24.0</span></code></p>
 </dd>
 <dt class="field-odd">depends scikit-learn<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.21.3.*</span></code></p>
-</dd>
-<dt class="field-even">depends scipy<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.5.2</span></code></p>
-</dd>
-<dt class="field-odd">depends setuptools<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=50.3.0</span></code></p>
-</dd>
-<dt class="field-even">depends six<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.15.0</span></code></p>
-</dd>
-<dt class="field-odd">depends snappy<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.1.8</span></code></p>
-</dd>
-<dt class="field-even">depends sqlite<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.33.0</span></code></p>
-</dd>
-<dt class="field-odd">depends thrift-cpp<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.12.0</span></code></p>
-</dd>
-<dt class="field-even">depends tk<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=8.6.12,&lt;8.7.0a0</span></code></p>
-</dd>
-<dt class="field-odd">depends tqdm<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.63.0</span></code></p>
-</dd>
-<dt class="field-even">depends uriparser<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.9.3</span></code></p>
-</dd>
-<dt class="field-odd">depends urllib3<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.25.11</span></code></p>
-</dd>
-<dt class="field-even">depends wheel<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.35.1</span></code></p>
-</dd>
-<dt class="field-odd">depends xz<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=5.2.6,&lt;5.3.0a0</span></code></p>
-</dd>
-<dt class="field-even">depends zlib<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.2.11,&lt;1.3.0a0</span></code></p>
-</dd>
-<dt class="field-odd">depends zstd<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.4.4</span></code></p>
-</dd>
+<dd class="field-odd"><p></p></dd>
 <dt class="field-even">requirements<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">additional platforms<span class="colon">:</span></dt>
@@ -391,7 +173,7 @@ others.</p>
 
 <script>
     var package = "homopolish";
-    var versions = ["0.4.1","0.4.1","0.3.3","0.2.1","0.0.2"];
+    var versions = ["0.4.2","0.4.1","0.4.1","0.3.3","0.2.1"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

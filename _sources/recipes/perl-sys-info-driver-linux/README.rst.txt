@@ -12,8 +12,8 @@ perl-sys-info-driver-linux
 
    Linux driver for Sys\:\:Info
 
-   :homepage: http://metacpan.org/pod/Sys::Info::Driver::Linux
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/Sys::Info::Driver::Linux
+   :license: Perl_5
    :recipe: /`perl-sys-info-driver-linux <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sys-info-driver-linux>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sys-info-driver-linux/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-sys-info-driver-linux
       
       
 
-      ``0.7905-1``,  ``0.7905-0``,  ``0.7904-0``,  ``0.7903-0``
+      ``0.7908-0``,  ``0.7906-0``,  ``0.7905-1``,  ``0.7905-0``,  ``0.7904-0``,  ``0.7903-0``
 
       
 
@@ -86,7 +86,7 @@ perl-sys-info-driver-linux
 
     <script>
         var package = "perl-sys-info-driver-linux";
-        var versions = ["0.7905","0.7905","0.7904","0.7903"];
+        var versions = ["0.7908","0.7906","0.7905","0.7905","0.7904"];
     </script>
 
 

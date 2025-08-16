@@ -10,10 +10,10 @@ perl-pegex
    :replaces_section_title:
    :noindex:
 
-   Pegex Grammar for the Pegex Grammar Language
+   Pegex Grammar for the Pegex Grammar Language.
 
-   :homepage: http://search.cpan.org/~ingy/Pegex-0.61/lib/Pegex.pod
-   :license: perl_5
+   :homepage: https://metacpan.org/dist/Pegex/view/lib/Pegex.pod
+   :license: Perl_5
    :recipe: /`perl-pegex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pegex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pegex/meta.yaml>`_
 
    
@@ -27,15 +27,19 @@ perl-pegex
       
       
 
-      ``0.61-2``,  ``0.61-1``,  ``0.61-0``
+      ``0.75-0``,  ``0.61-2``,  ``0.61-1``,  ``0.61-0``
 
       
 
    
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends perl-carp: 
    :depends perl-extutils-makemaker: 
    :depends perl-file-sharedir-install: 
-   :depends perl-yaml-libyaml: 
+   :depends perl-json-pp: 
+   :depends perl-scalar-list-utils: 
+   :depends perl-xxx: 
+   :depends perl-yaml-pp: 
    :requirements:
 
    :additional platforms:
@@ -86,7 +90,7 @@ perl-pegex
 
     <script>
         var package = "perl-pegex";
-        var versions = ["0.61","0.61","0.61"];
+        var versions = ["0.75","0.61","0.61","0.61"];
     </script>
 
 

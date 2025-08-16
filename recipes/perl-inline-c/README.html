@@ -89,10 +89,10 @@
 <em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">perl-inline-c</span></span><a class="headerlink" href="#package-perl-inline-c" title="Link to this definition">¶</a></dt>
 <dd><blockquote>
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/perl-inline-c"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/perl-inline-c.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/perl-inline-c"><img alt="docker_perl-inline-c" src="https://quay.io/repository/biocontainers/perl-inline-c/status" /></a></p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.82-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.81-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.81-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.81-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.81-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.78-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.78-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.76-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.76-0</span></code></p>
-</dd>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>0.82-1</code>,  <code>0.82-0</code>,  <code>0.81-3</code>,  <code>0.81-2</code>,  <code>0.81-1</code>,  <code>0.81-0</code>,  <code>0.78-1</code>,  <code>0.78-0</code>,  <code>0.76-1</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">0.82-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.82-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.81-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.81-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.81-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.81-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.78-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.78-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.76-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.76-0</span></code></p>
+</details></dd>
 <dt class="field-even">depends gcc_linux-64<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">13.*</span></code></p>
 </dd>
@@ -104,27 +104,34 @@
 <dt class="field-odd">depends perl<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=5.32.1,&lt;5.33.0a0 *_perl5</span></code></p>
 </dd>
-<dt class="field-even">depends perl-extutils-makemaker<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends perl-file-copy-recursive<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.45,&lt;0.46.0a0</span></code></p>
+<dt class="field-even">depends perl-autodie<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.37,&lt;3.0a0</span></code></p>
 </dd>
-<dt class="field-even">depends perl-file-sharedir-install<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.14,&lt;0.15.0a0</span></code></p>
-</dd>
-<dt class="field-odd">depends perl-file-spec<span class="colon">:</span></dt>
+<dt class="field-odd">depends perl-extutils-makemaker<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends perl-inline<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.87,&lt;0.88.0a0</span></code></p>
+<dt class="field-even">depends perl-file-copy-recursive<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.45,&lt;0.46.0a0</span></code></p>
 </dd>
-<dt class="field-odd">depends perl-parse-recdescent<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends perl-pegex<span class="colon">:</span></dt>
+<dt class="field-odd">depends perl-file-sharedir-install<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.14,&lt;0.15.0a0</span></code></p>
+</dd>
+<dt class="field-even">depends perl-file-spec<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends perl-inline<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.87,&lt;0.88.0a0</span></code></p>
+</dd>
+<dt class="field-even">depends perl-parse-recdescent<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends perl-pegex<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.75,&lt;0.76.0a0</span></code></p>
+</dd>
+<dt class="field-even">depends perl-yaml-libyaml<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">0.904.0.*</span></code></p>
+</dd>
 <dt class="field-odd">requirements<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">additional platforms<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
+<dd class="field-even"><span class="additional-platforms"><code>linux-aarch64</code></span></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -159,7 +166,7 @@ others.</p>
 
 <script>
     var package = "perl-inline-c";
-    var versions = ["0.82","0.81","0.81","0.81","0.81"];
+    var versions = ["0.82","0.82","0.81","0.81","0.81"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

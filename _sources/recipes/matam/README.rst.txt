@@ -13,7 +13,7 @@ matam
    MATAM is a software dedicated to the fast and accurate targeted assembly of short reads.
 
    :homepage: https://github.com/bonsai-team/matam
-   :license: AGPL-3.0
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`matam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/matam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/matam/meta.yaml>`_
    :links: doi: :doi:`10.1093/bioinformatics/btx644`
 
@@ -28,12 +28,12 @@ matam
       
       
 
-      ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-3``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``
+      ``1.6.2-0``,  ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-3``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``
 
       
 
    
-   :depends bzip2: 
+   :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends coreutils: 
    :depends krona: 
    :depends libgcc: ``>=13``
@@ -44,13 +44,16 @@ matam
    :depends rdptools: 
    :depends samtools: 
    :depends sga: 
-   :depends sortmerna: ``2.1b.*``
+   :depends sortmerna: 
    :depends vsearch: 
    :depends wget: 
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -98,7 +101,7 @@ matam
 
     <script>
         var package = "matam";
-        var versions = ["1.6.1","1.6.1","1.6.1","1.6.0","1.6.0"];
+        var versions = ["1.6.2","1.6.1","1.6.1","1.6.1","1.6.0"];
     </script>
 
 

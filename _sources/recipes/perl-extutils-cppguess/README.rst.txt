@@ -10,10 +10,10 @@ perl-extutils-cppguess
    :replaces_section_title:
    :noindex:
 
-   guess C\+\+ compiler and flags
+   Guess C\+\+ compiler and flags.
 
-   :homepage: http://metacpan.org/pod/ExtUtils::CppGuess
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/ExtUtils::CppGuess
+   :license: Perl_5
    :recipe: /`perl-extutils-cppguess <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-cppguess>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-cppguess/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ perl-extutils-cppguess
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.26-3</code>,  <code>0.26-2</code>,  <code>0.26-1</code>,  <code>0.26-0</code>,  <code>0.12-5</code>,  <code>0.12-4</code>,  <code>0.12-3</code>,  <code>0.12-2</code>,  <code>0.12-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.27-0</code>,  <code>0.26-4</code>,  <code>0.26-3</code>,  <code>0.26-2</code>,  <code>0.26-1</code>,  <code>0.26-0</code>,  <code>0.12-5</code>,  <code>0.12-4</code>,  <code>0.12-3</code>,  </span></summary>
       
 
-      ``0.26-3``,  ``0.26-2``,  ``0.26-1``,  ``0.26-0``,  ``0.12-5``,  ``0.12-4``,  ``0.12-3``,  ``0.12-2``,  ``0.12-1``,  ``0.12-0``
+      ``0.27-0``,  ``0.26-4``,  ``0.26-3``,  ``0.26-2``,  ``0.26-1``,  ``0.26-0``,  ``0.12-5``,  ``0.12-4``,  ``0.12-3``,  ``0.12-2``,  ``0.12-1``,  ``0.12-0``
 
       
       .. raw:: html
@@ -44,6 +44,7 @@ perl-extutils-cppguess
    :depends libstdcxx: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-capture-tiny: 
+   :depends perl-extutils-manifest: ``>=1.75,<2.0a0``
    :depends perl-module-build: ``0.4234.*``
    :requirements:
 
@@ -51,7 +52,7 @@ perl-extutils-cppguess
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -99,7 +100,7 @@ perl-extutils-cppguess
 
     <script>
         var package = "perl-extutils-cppguess";
-        var versions = ["0.26","0.26","0.26","0.26","0.12"];
+        var versions = ["0.27","0.26","0.26","0.26","0.26"];
     </script>
 
 

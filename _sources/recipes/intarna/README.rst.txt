@@ -10,10 +10,12 @@ intarna
    :replaces_section_title:
    :noindex:
 
-   Efficient RNA\-RNA interaction prediction incorporating seeding and accessibility of interacting sites
+   Efficient RNA\-RNA interaction prediction incorporating seeding and accessibility of interacting sites.
 
    :homepage: https://github.com/BackofenLab/IntaRNA
-   :license: MIT
+   :documentation: https://backofenlab.github.io/IntaRNA
+   
+   :license: MIT / MIT
    :recipe: /`intarna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/intarna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/intarna/meta.yaml>`_
    :links: biotools: :biotools:`intarna`, doi: :doi:`10.1093/nar/gkx279`, doi: :doi:`10.1093/bioinformatics/btn544`, doi: :doi:`10.1093/nar/gky329`
 
@@ -29,10 +31,10 @@ intarna
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.1-2</code>,  <code>3.4.1-1</code>,  <code>3.4.1-0</code>,  <code>3.4.0-2</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.3.2-1</code>,  <code>3.3.2-0</code>,  <code>3.3.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.1-3</code>,  <code>3.4.1-2</code>,  <code>3.4.1-1</code>,  <code>3.4.1-0</code>,  <code>3.4.0-2</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.3.2-1</code>,  <code>3.3.2-0</code>,  </span></summary>
       
 
-      ``3.4.1-2``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.3.1-1``,  ``3.3.1-0``,  ``3.3.0.1-1``,  ``3.3.0.1-0``,  ``3.2.2-0``,  ``3.2.0-0``,  ``3.1.5-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0.2-1``,  ``3.1.0.2-0``,  ``3.0.0-0``,  ``2.4.1-5``,  ``2.4.1-4``,  ``2.4.1-3``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.1-0``,  ``2.2.0-3``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.5-0``,  ``2.0.4-1``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.2.5-2``,  ``1.2.5-1``
+      ``3.4.1-3``,  ``3.4.1-2``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.3.1-1``,  ``3.3.1-0``,  ``3.3.0.1-1``,  ``3.3.0.1-0``,  ``3.2.2-0``,  ``3.2.0-0``,  ``3.1.5-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0.2-1``,  ``3.1.0.2-0``,  ``3.0.0-0``,  ``2.4.1-5``,  ``2.4.1-4``,  ``2.4.1-3``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.1-0``,  ``2.2.0-3``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.5-0``,  ``2.0.4-1``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.2.5-2``,  ``1.2.5-1``
 
       
       .. raw:: html
@@ -41,20 +43,21 @@ intarna
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends boost-cpp: 
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends viennarna: ``>=2.7.0,<2.8.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -102,7 +105,7 @@ intarna
 
     <script>
         var package = "intarna";
-        var versions = ["3.4.1","3.4.1","3.4.1","3.4.0","3.4.0"];
+        var versions = ["3.4.1","3.4.1","3.4.1","3.4.1","3.4.0"];
     </script>
 
 

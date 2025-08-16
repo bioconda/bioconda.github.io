@@ -34,10 +34,10 @@ unifrac-binaries
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5-0</code>,  <code>1.4-1</code>,  <code>1.4-0</code>,  <code>1.3.2-2</code>,  <code>1.3.2-0</code>,  <code>1.3.1-2</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.1-0</code>,  <code>1.5-0</code>,  <code>1.4-1</code>,  <code>1.4-0</code>,  <code>1.3.2-2</code>,  <code>1.3.2-0</code>,  <code>1.3.1-2</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  </span></summary>
       
 
-      ``1.5-0``,  ``1.4-1``,  ``1.4-0``,  ``1.3.2-2``,  ``1.3.2-0``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2.1-0``,  ``1.2-1``,  ``1.2-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-4``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.5.1-0``,  ``1.5-0``,  ``1.4-1``,  ``1.4-0``,  ``1.3.2-2``,  ``1.3.2-0``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2.1-0``,  ``1.2-1``,  ``1.2-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-4``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -46,7 +46,7 @@ unifrac-binaries
       
 
    
-   :depends libaec: ``>=1.1.3,<2.0a0``
+   :depends libaec: ``>=1.1.4,<2.0a0``
    :depends libcblas: ``>=3.9.0,<4.0a0``
    :depends libgcc: ``>=13``
    :depends liblapacke: ``>=3.9.0,<4.0a0``
@@ -108,7 +108,7 @@ unifrac-binaries
 
     <script>
         var package = "unifrac-binaries";
-        var versions = ["1.5","1.4","1.4","1.3.2","1.3.2"];
+        var versions = ["1.5.1","1.5","1.4","1.4","1.3.2"];
     </script>
 
 

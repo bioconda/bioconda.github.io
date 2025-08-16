@@ -10,10 +10,10 @@ mdasim
    :replaces_section_title:
    :noindex:
 
-   This is MDAsim 2\+\, a tool to simulate whole genome amplification of a DNA sequence with multiple displacement amplification. A citation for this version will be provided when available. MDAsim 2\+ extends MDAsim 1.2\, so please also always cite\: Tagliavi Z\, Draghici S. MDAsim\: A multiple displacement amplification simulator. 2012 IEEE International Conference on Bioinformatics and Biomedicine \(BIBM\). 2012. pp. 1–4. doi\:10.1109\/BIBM.2012.6392622
+   This is MDAsim 2\+\, a tool to simulate whole genome amplification.
 
    :homepage: https://github.com/hzi-bifo/mdasim
-   :license: GPL / GPL-3.0
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`mdasim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mdasim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mdasim/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ mdasim
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.1-6</code>,  <code>2.1.1-5</code>,  <code>2.1.1-4</code>,  <code>2.1.1-3</code>,  <code>2.1.1-2</code>,  <code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.1-7</code>,  <code>2.1.1-6</code>,  <code>2.1.1-5</code>,  <code>2.1.1-4</code>,  <code>2.1.1-3</code>,  <code>2.1.1-2</code>,  <code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  </span></summary>
       
 
-      ``2.1.1-6``,  ``2.1.1-5``,  ``2.1.1-4``,  ``2.1.1-3``,  ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.2-0``
+      ``2.1.1-7``,  ``2.1.1-6``,  ``2.1.1-5``,  ``2.1.1-4``,  ``2.1.1-3``,  ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.2-0``
 
       
       .. raw:: html
@@ -46,6 +46,10 @@ mdasim
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

@@ -13,7 +13,7 @@ perl-set-intervaltree
    An interval tree implementation in PERL.
 
    :homepage: https://metacpan.org/pod/Set::IntervalTree
-   :license: perl_5
+   :license: Perl_5
    :recipe: /`perl-set-intervaltree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-set-intervaltree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-set-intervaltree/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ perl-set-intervaltree
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.12-5</code>,  <code>0.12-4</code>,  <code>0.12-3</code>,  <code>0.12-2</code>,  <code>0.12-1</code>,  <code>0.12-0</code>,  <code>0.11-1</code>,  <code>0.11-0</code>,  <code>0.10-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.12-6</code>,  <code>0.12-5</code>,  <code>0.12-4</code>,  <code>0.12-3</code>,  <code>0.12-2</code>,  <code>0.12-1</code>,  <code>0.12-0</code>,  <code>0.11-1</code>,  <code>0.11-0</code>,  </span></summary>
       
 
-      ``0.12-5``,  ``0.12-4``,  ``0.12-3``,  ``0.12-2``,  ``0.12-1``,  ``0.12-0``,  ``0.11-1``,  ``0.11-0``,  ``0.10-4``,  ``0.10-3``,  ``0.10-2``,  ``0.10-1``,  ``0.10-0``,  ``0.1-0``
+      ``0.12-6``,  ``0.12-5``,  ``0.12-4``,  ``0.12-3``,  ``0.12-2``,  ``0.12-1``,  ``0.12-0``,  ``0.11-1``,  ``0.11-0``,  ``0.10-4``,  ``0.10-3``,  ``0.10-2``,  ``0.10-1``,  ``0.10-0``,  ``0.1-0``
 
       
       .. raw:: html
@@ -50,7 +50,7 @@ perl-set-intervaltree
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
