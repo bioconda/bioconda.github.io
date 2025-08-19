@@ -10,9 +10,11 @@ ultraplex
    :replaces_section_title:
    :noindex:
 
-   fastq demultiplexer
+   An all\-in\-one software package for processing and demultiplexing fastq files.
 
-   :homepage: https://github.com/ulelab/ultraplex.git
+   :homepage: https://github.com/ulelab/ultraplex
+   :documentation: https://github.com/ulelab/ultraplex/blob/1.2.10/README.md
+   
    :license: MIT / MIT
    :recipe: /`ultraplex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ultraplex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ultraplex/meta.yaml>`_
 
@@ -28,10 +30,10 @@ ultraplex
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.9-3</code>,  <code>1.2.9-2</code>,  <code>1.2.9-1</code>,  <code>1.2.9-0</code>,  <code>1.2.5-2</code>,  <code>1.2.5-1</code>,  <code>1.2.5-0</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.10-0</code>,  <code>1.2.9-4</code>,  <code>1.2.9-3</code>,  <code>1.2.9-2</code>,  <code>1.2.9-1</code>,  <code>1.2.9-0</code>,  <code>1.2.5-2</code>,  <code>1.2.5-1</code>,  <code>1.2.5-0</code>,  </span></summary>
       
 
-      ``1.2.9-3``,  ``1.2.9-2``,  ``1.2.9-1``,  ``1.2.9-0``,  ``1.2.5-2``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.0.3-0``
+      ``1.2.10-0``,  ``1.2.9-4``,  ``1.2.9-3``,  ``1.2.9-2``,  ``1.2.9-1``,  ``1.2.9-0``,  ``1.2.5-2``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.0.3-0``
 
       
       .. raw:: html
@@ -46,11 +48,14 @@ ultraplex
    :depends pigz: 
    :depends python: ``>=3.9,<3.10.0a0``
    :depends python_abi: ``3.9.* *_cp39``
-   :depends setuptools_scm: ``>8``
    :depends xopen: ``>=1.0.0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -98,7 +103,7 @@ ultraplex
 
     <script>
         var package = "ultraplex";
-        var versions = ["1.2.9","1.2.9","1.2.9","1.2.9","1.2.5"];
+        var versions = ["1.2.10","1.2.9","1.2.9","1.2.9","1.2.9"];
     </script>
 
 

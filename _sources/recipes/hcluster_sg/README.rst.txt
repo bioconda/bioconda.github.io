@@ -10,10 +10,10 @@ hcluster_sg
    :replaces_section_title:
    :noindex:
 
-   A tool for hierarchically clustering on a sparse graph
+   A tool for hierarchically clustering on a sparse graph.
 
    :homepage: https://github.com/douglasgscofield/hcluster
-   :license: GPLv2
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`hcluster_sg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hcluster_sg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hcluster_sg/meta.yaml>`_
 
    
@@ -26,9 +26,17 @@ hcluster_sg
    :versions:
       
       
+      .. raw:: html
 
-      ``0.5.1-8``,  ``0.5.1-7``,  ``0.5.1-6``,  ``0.5.1-5``,  ``0.5.1-4``,  ``0.5.1-3``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.5.1-9</code>,  <code>0.5.1-8</code>,  <code>0.5.1-7</code>,  <code>0.5.1-6</code>,  <code>0.5.1-5</code>,  <code>0.5.1-4</code>,  <code>0.5.1-3</code>,  <code>0.5.1-2</code>,  <code>0.5.1-1</code>,  </span></summary>
+      
 
+      ``0.5.1-9``,  ``0.5.1-8``,  ``0.5.1-7``,  ``0.5.1-6``,  ``0.5.1-5``,  ``0.5.1-4``,  ``0.5.1-3``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -37,6 +45,10 @@ hcluster_sg
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

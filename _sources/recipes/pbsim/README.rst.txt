@@ -10,10 +10,10 @@ pbsim
    :replaces_section_title:
    :noindex:
 
-   PBSIM simulates PacBio reads
+   PBSIM simulates PacBio reads.
 
-   :homepage: https://code.google.com/archive/p/pbsim/
-   :license: GPLv2
+   :homepage: https://code.google.com/archive/p/pbsim
+   :license: GPL-2.0-or-later
    :recipe: /`pbsim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbsim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbsim/meta.yaml>`_
 
    
@@ -26,9 +26,17 @@ pbsim
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.3-8``,  ``1.0.3-7``,  ``1.0.3-6``,  ``1.0.3-5``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.3-9</code>,  <code>1.0.3-8</code>,  <code>1.0.3-7</code>,  <code>1.0.3-6</code>,  <code>1.0.3-5</code>,  <code>1.0.3-4</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  </span></summary>
+      
 
+      ``1.0.3-9``,  ``1.0.3-8``,  ``1.0.3-7``,  ``1.0.3-6``,  ``1.0.3-5``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -37,6 +45,10 @@ pbsim
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

@@ -10,11 +10,14 @@ cactus
    :replaces_section_title:
    :noindex:
 
-   Cactus is a reference\-free whole\-genome multiple alignment program based upon notion of Cactus graphs
+   Cactus is a reference\-free whole\-genome multiple alignment program based upon notion of Cactus graphs.
 
    :homepage: https://github.com/ComparativeGenomicsToolkit/cactus
-   :license: MIT
+   :documentation: https://github.com/ComparativeGenomicsToolkit/cactus/blob/v2.9.9/README.md
+   
+   :license: MIT / MIT
    :recipe: /`cactus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cactus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cactus/meta.yaml>`_
+   :links: biotools: :biotools:`cactus`, usegalaxy-eu: :usegalaxy-eu:`cactus_cactus`, usegalaxy-eu: :usegalaxy-eu:`cactus_export`, doi: :doi:`10.1038/s41586-020-2871-y`, doi: :doi:`10.1101/gr.123356.111`, doi: :doi:`10.1089/cmb.2010.0252`
 
    
 
@@ -27,7 +30,7 @@ cactus
       
       
 
-      ``2019.03.01-1``,  ``2019.03.01-0``,  ``2.9.9-1``,  ``2.9.9-0``,  ``0.0.2019.03.01-5``,  ``0.0.2019.03.01-4``,  ``0.0.2019.03.01-3``,  ``0.0.2019.03.01-2``
+      ``2019.03.01-1``,  ``2019.03.01-0``,  ``2.9.9-2``,  ``2.9.9-1``,  ``2.9.9-0``,  ``0.0.2019.03.01-5``,  ``0.0.2019.03.01-4``,  ``0.0.2019.03.01-3``,  ``0.0.2019.03.01-2``
 
       
 
@@ -54,6 +57,10 @@ cactus
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -101,7 +108,7 @@ cactus
 
     <script>
         var package = "cactus";
-        var versions = ["2019.03.01","2019.03.01","2.9.9","2.9.9","0.0.2019.03.01"];
+        var versions = ["2019.03.01","2019.03.01","2.9.9","2.9.9","2.9.9"];
     </script>
 
 

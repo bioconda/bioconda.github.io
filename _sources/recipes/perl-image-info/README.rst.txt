@@ -10,10 +10,10 @@ perl-image-info
    :replaces_section_title:
    :noindex:
 
-   Extract meta information from image files
+   Extract meta information from image files.
 
-   :homepage: http://metacpan.org/pod/Image-Info
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/Image::Info
+   :license: Perl_5
    :recipe: /`perl-image-info <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-image-info>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-image-info/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-image-info
       
       
 
-      ``1.42-0``,  ``1.38-2``,  ``1.38-1``,  ``1.38-0``
+      ``1.45-0``,  ``1.42-0``,  ``1.38-2``,  ``1.38-1``,  ``1.38-0``
 
       
 
@@ -85,7 +85,7 @@ perl-image-info
 
     <script>
         var package = "perl-image-info";
-        var versions = ["1.42","1.38","1.38","1.38"];
+        var versions = ["1.45","1.42","1.38","1.38","1.38"];
     </script>
 
 

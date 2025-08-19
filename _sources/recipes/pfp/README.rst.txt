@@ -13,7 +13,7 @@ pfp
    Prefix Free Parsing.
 
    :homepage: https://github.com/marco-oliva/pfp
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`pfp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pfp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pfp/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ pfp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.9-2</code>,  <code>0.3.9-1</code>,  <code>0.3.9-0</code>,  <code>0.3.8-2</code>,  <code>0.3.8-1</code>,  <code>0.3.8-0</code>,  <code>0.3.7-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.9-3</code>,  <code>0.3.9-2</code>,  <code>0.3.9-1</code>,  <code>0.3.9-0</code>,  <code>0.3.8-2</code>,  <code>0.3.8-1</code>,  <code>0.3.8-0</code>,  <code>0.3.7-0</code>,  <code>0.3.6-0</code>,  </span></summary>
       
 
-      ``0.3.9-2``,  ``0.3.9-1``,  ``0.3.9-0``,  ``0.3.8-2``,  ``0.3.8-1``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-1``,  ``0.3.5-0``
+      ``0.3.9-3``,  ``0.3.9-2``,  ``0.3.9-1``,  ``0.3.9-0``,  ``0.3.8-2``,  ``0.3.8-1``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-1``,  ``0.3.5-0``
 
       
       .. raw:: html
@@ -40,14 +40,18 @@ pfp
       
 
    
-   :depends htslib: ``>=1.21,<1.23.0a0``
-   :depends libcxx: ``>=18``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
+   :depends libgcc: ``>=13``
+   :depends liblzma: ``>=5.8.1,<6.0a0``
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends llvm-openmp: ``>=18.1.8``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -95,7 +99,7 @@ pfp
 
     <script>
         var package = "pfp";
-        var versions = ["0.3.9","0.3.9","0.3.9","0.3.8","0.3.8"];
+        var versions = ["0.3.9","0.3.9","0.3.9","0.3.9","0.3.8"];
     </script>
 
 

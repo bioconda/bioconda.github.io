@@ -30,7 +30,7 @@ agtools
       
       
 
-      ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``1.0.0-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -41,7 +41,7 @@ agtools
    :depends loguru: 
    :depends pandas: 
    :depends pycairo: 
-   :depends python: ``>=3.9``
+   :depends python: ``>=3.13,<3.14.0a0``
    :depends python-igraph: 
    :requirements:
 
@@ -93,7 +93,7 @@ agtools
 
     <script>
         var package = "agtools";
-        var versions = ["0.1.2","0.1.1","0.1.0"];
+        var versions = ["1.0.0","0.1.2","0.1.1","0.1.0"];
     </script>
 
 

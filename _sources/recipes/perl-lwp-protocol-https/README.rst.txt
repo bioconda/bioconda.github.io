@@ -10,10 +10,10 @@ perl-lwp-protocol-https
    :replaces_section_title:
    :noindex:
 
-   Provide https support for LWP\:\:UserAgent
+   Provide https support for LWP\:\:UserAgent.
 
    :homepage: https://metacpan.org/pod/LWP::Protocol::https
-   :license: Perl
+   :license: Perl_5
    :recipe: /`perl-lwp-protocol-https <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-lwp-protocol-https>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-lwp-protocol-https/meta.yaml>`_
 
    
@@ -27,15 +27,13 @@ perl-lwp-protocol-https
       
       
 
-      ``6.10-0``,  ``6.07-5``,  ``6.07-4``,  ``6.06-3``,  ``6.06-2``,  ``6.06-1``,  ``6.06-0``
+      ``6.14-1``,  ``6.14-0``,  ``6.10-0``,  ``6.07-5``,  ``6.07-4``,  ``6.06-3``,  ``6.06-2``,  ``6.06-1``,  ``6.06-0``
 
       
 
    
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends perl-http-message: ``>=6.18``
    :depends perl-io-socket-ssl: 
-   :depends perl-libwww-perl: 
    :depends perl-mozilla-ca: 
    :depends perl-net-http: 
    :depends perl-test-requiresinternet: 
@@ -89,7 +87,7 @@ perl-lwp-protocol-https
 
     <script>
         var package = "perl-lwp-protocol-https";
-        var versions = ["6.10","6.07","6.07","6.06","6.06"];
+        var versions = ["6.14","6.14","6.10","6.07","6.07"];
     </script>
 
 

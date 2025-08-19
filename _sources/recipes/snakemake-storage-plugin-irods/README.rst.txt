@@ -10,10 +10,10 @@ snakemake-storage-plugin-irods
    :replaces_section_title:
    :noindex:
 
-   A Snakemake plugin for handling input and output on iRODS
+   A Snakemake plugin for handling input and output on iRODS.
 
    :homepage: https://github.com/snakemake/snakemake-storage-plugin-irods
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`snakemake-storage-plugin-irods <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-storage-plugin-irods>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-storage-plugin-irods/meta.yaml>`_
 
    
@@ -27,15 +27,15 @@ snakemake-storage-plugin-irods
       
       
 
-      ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.3.1-0``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
    
    :depends python: ``>=3.11.0,<4.0.0``
-   :depends python-irodsclient: ``>=1.1.9,<2.0.0``
+   :depends python-irodsclient: ``>=3.0.0,<4.0.0``
    :depends snakemake-interface-common: ``>=1.15.0,<2.0.0``
-   :depends snakemake-interface-storage-plugins: ``>=3.0.0,<4.0.0``
+   :depends snakemake-interface-storage-plugins: ``>=4.1.0,<5.0.0``
    :requirements:
 
    :additional platforms:
@@ -86,7 +86,7 @@ snakemake-storage-plugin-irods
 
     <script>
         var package = "snakemake-storage-plugin-irods";
-        var versions = ["0.2.0","0.1.2","0.1.1"];
+        var versions = ["0.3.1","0.2.0","0.1.2","0.1.1"];
     </script>
 
 

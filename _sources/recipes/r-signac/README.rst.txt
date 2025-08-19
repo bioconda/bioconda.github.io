@@ -10,13 +10,14 @@ r-signac
    :replaces_section_title:
    :noindex:
 
-   A framework for the analysis and exploration of single\-cell chromatin data. The \'Signac\' package contains functions for quantifying single\-cell chromatin data\, computing per\-cell quality control metrics\, dimension reduction and normalization\, visualization\, and DNA sequence motif analysis. Reference\: Stuart and Butler et al. \(2019\) \<doi\:10.1016\/j.cell.2019.05.031\>.
+   A framework for the analysis and exploration of single\-cell chromatin data. The \'Signac\' package contains functions for quantifying single\-cell chromatin data\, computing per\-cell quality control metrics\, dimension reduction and normalization\, visualization\, and DNA sequence motif analysis.
 
    :homepage: https://github.com/timoast/signac
    :documentation: https://satijalab.org/signac
    
    :license: MIT / MIT
    :recipe: /`r-signac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-signac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-signac/meta.yaml>`_
+   :links: doi: :doi:`10.1016/j.cell.2019.05.031`
 
    
 
@@ -30,10 +31,10 @@ r-signac
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.14.0-2</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.13.0-1</code>,  <code>1.13.0-0</code>,  <code>1.12.0-0</code>,  <code>1.11.0-0</code>,  <code>1.10.0-2</code>,  <code>1.10.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.15.0-0</code>,  <code>1.14.0-2</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.13.0-1</code>,  <code>1.13.0-0</code>,  <code>1.12.0-0</code>,  <code>1.11.0-0</code>,  <code>1.10.0-2</code>,  </span></summary>
       
 
-      ``1.14.0-2``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.13.0-1``,  ``1.13.0-0``,  ``1.12.0-0``,  ``1.11.0-0``,  ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.9.0-2``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``
+      ``1.15.0-0``,  ``1.14.0-2``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.13.0-1``,  ``1.13.0-0``,  ``1.12.0-0``,  ``1.11.0-0``,  ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.9.0-2``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -78,7 +79,7 @@ r-signac
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -126,7 +127,7 @@ r-signac
 
     <script>
         var package = "r-signac";
-        var versions = ["1.14.0","1.14.0","1.14.0","1.13.0","1.13.0"];
+        var versions = ["1.15.0","1.14.0","1.14.0","1.14.0","1.13.0"];
     </script>
 
 

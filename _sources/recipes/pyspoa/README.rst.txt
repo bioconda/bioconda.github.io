@@ -15,7 +15,7 @@ pyspoa
    :homepage: https://github.com/nanoporetech/pyspoa
    :documentation: https://github.com/nanoporetech/spoa
    
-   :developer docs: https://github.com/nanoporetech/spoa
+   :developer docs: https://github.com/nanoporetech/pyspoa/blob/v0.3.1/README.md
    :license: MIT / MIT
    :recipe: /`pyspoa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyspoa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyspoa/meta.yaml>`_
 
@@ -31,10 +31,10 @@ pyspoa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.1-4</code>,  <code>0.2.1-3</code>,  <code>0.2.1-2</code>,  <code>0.2.1-1</code>,  <code>0.2.1-0</code>,  <code>0.0.10-1</code>,  <code>0.0.10-0</code>,  <code>0.0.9-0</code>,  <code>0.0.3-6</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.1-0</code>,  <code>0.2.1-4</code>,  <code>0.2.1-3</code>,  <code>0.2.1-2</code>,  <code>0.2.1-1</code>,  <code>0.2.1-0</code>,  <code>0.0.10-1</code>,  <code>0.0.10-0</code>,  <code>0.0.9-0</code>,  </span></summary>
       
 
-      ``0.2.1-4``,  ``0.2.1-3``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.0.10-1``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.3-6``,  ``0.0.3-4``,  ``0.0.3-3``,  ``0.0.3-2``,  ``0.0.3-1``,  ``0.0.3-0``
+      ``0.3.1-0``,  ``0.2.1-4``,  ``0.2.1-3``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.0.10-1``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.3-6``,  ``0.0.3-4``,  ``0.0.3-3``,  ``0.0.3-2``,  ``0.0.3-1``,  ``0.0.3-0``
 
       
       .. raw:: html
@@ -102,7 +102,7 @@ pyspoa
 
     <script>
         var package = "pyspoa";
-        var versions = ["0.2.1","0.2.1","0.2.1","0.2.1","0.2.1"];
+        var versions = ["0.3.1","0.2.1","0.2.1","0.2.1","0.2.1"];
     </script>
 
 

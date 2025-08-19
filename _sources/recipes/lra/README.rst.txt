@@ -28,10 +28,10 @@ lra
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.7.2-3</code>,  <code>1.3.7.2-2</code>,  <code>1.3.7.2-1</code>,  <code>1.3.7.2-0</code>,  <code>1.3.4-2</code>,  <code>1.3.4-1</code>,  <code>1.3.4-0</code>,  <code>1.3.2-2</code>,  <code>1.3.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.7.2-4</code>,  <code>1.3.7.2-3</code>,  <code>1.3.7.2-2</code>,  <code>1.3.7.2-1</code>,  <code>1.3.7.2-0</code>,  <code>1.3.4-2</code>,  <code>1.3.4-1</code>,  <code>1.3.4-0</code>,  <code>1.3.2-2</code>,  </span></summary>
       
 
-      ``1.3.7.2-3``,  ``1.3.7.2-2``,  ``1.3.7.2-1``,  ``1.3.7.2-0``,  ``1.3.4-2``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.2-2``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.9-0``
+      ``1.3.7.2-4``,  ``1.3.7.2-3``,  ``1.3.7.2-2``,  ``1.3.7.2-1``,  ``1.3.7.2-0``,  ``1.3.4-2``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.2-2``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.9-0``
 
       
       .. raw:: html
@@ -40,13 +40,17 @@ lra
       
 
    
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -94,7 +98,7 @@ lra
 
     <script>
         var package = "lra";
-        var versions = ["1.3.7.2","1.3.7.2","1.3.7.2","1.3.7.2","1.3.4"];
+        var versions = ["1.3.7.2","1.3.7.2","1.3.7.2","1.3.7.2","1.3.7.2"];
     </script>
 
 

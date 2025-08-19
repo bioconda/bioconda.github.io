@@ -10,10 +10,12 @@ folddisco
    :replaces_section_title:
    :noindex:
 
-   Folddisco\: fast indexing and search of discontinuous motifs in protein structures
+   Folddisco\: fast indexing and search of discontinuous motifs in protein structures.
 
    :homepage: https://github.com/steineggerlab/folddisco
-   :license: GPL / GPL-3
+   :documentation: https://github.com/steineggerlab/folddisco/blob/1-7514114/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`folddisco <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/folddisco>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/folddisco/meta.yaml>`_
    :links: doi: :doi:`10.1101/2025.07.06.663357`
 
@@ -28,7 +30,7 @@ folddisco
       
       
 
-      ``1.7514114-0``
+      ``1.7514114-1``,  ``1.7514114-0``
 
       
 
@@ -89,7 +91,7 @@ folddisco
 
     <script>
         var package = "folddisco";
-        var versions = ["1.7514114"];
+        var versions = ["1.7514114","1.7514114"];
     </script>
 
 

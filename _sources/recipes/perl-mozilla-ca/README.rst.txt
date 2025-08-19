@@ -10,10 +10,10 @@ perl-mozilla-ca
    :replaces_section_title:
    :noindex:
 
-   Mozilla\'s CA cert bundle in PEM format
+   Mozilla\'s CA cert bundle in PEM format.
 
-   :homepage: http://metacpan.org/pod/Mozilla::CA
-   :license: unknown
+   :homepage: https://metacpan.org/pod/Mozilla::CA
+   :license: Unknown
    :recipe: /`perl-mozilla-ca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mozilla-ca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mozilla-ca/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-mozilla-ca
       
       
 
-      ``20211001-0``,  ``20180117-2``,  ``20180117-1``,  ``20180117-0``,  ``20160104-2``,  ``20160104-1``,  ``20160104-0``
+      ``20250602-0``,  ``20211001-0``,  ``20180117-2``,  ``20180117-1``,  ``20180117-0``,  ``20160104-2``,  ``20160104-1``,  ``20160104-0``
 
       
 
@@ -83,7 +83,7 @@ perl-mozilla-ca
 
     <script>
         var package = "perl-mozilla-ca";
-        var versions = ["20211001","20180117","20180117","20180117","20160104"];
+        var versions = ["20250602","20211001","20180117","20180117","20180117"];
     </script>
 
 

@@ -18,11 +18,11 @@ harpy
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`harpy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/harpy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/harpy/meta.yaml>`_
 
-   Harpy is a command\-line tool to easily process haplotag or 10x linked\-read data. It uses
+   Harpy is a command\-line tool to easily process platform\-agnostic linked\-read or WGS data. It uses
    Snakemake under the hood to execute different workflows \(quality control\, trimming\, 
    alignment\, variant calling\, phasing\, etc.\)\, but the user is rarely\, if ever\, exposed
    to Snakemake directly. With an emphasis on user\-friendliness\, parallelization\, transparency\,
-   and reproducibility\, Harpy aims to quickly handle data processing so that you can focus more
+   and reproducibility\, Harpy quickly handles data processing so that you can focus more
    on analyzing your data. 
 
 
@@ -36,10 +36,10 @@ harpy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.6.1-0</code>,  <code>2.6.0-0</code>,  <code>2.5.0-1</code>,  <code>2.5.0-0</code>,  <code>2.4.2-0</code>,  <code>2.4.1-0</code>,  <code>2.4-1</code>,  <code>2.4-0</code>,  <code>2.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.7-0</code>,  <code>2.6.1-1</code>,  <code>2.6.1-0</code>,  <code>2.6.0-0</code>,  <code>2.5.0-1</code>,  <code>2.5.0-0</code>,  <code>2.4.2-0</code>,  <code>2.4.1-0</code>,  <code>2.4-1</code>,  </span></summary>
       
 
-      ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4-1``,  ``2.4-0``,  ``2.3-1``,  ``2.3-0``,  ``2.2-0``,  ``2.1-0``,  ``2.0-0``,  ``1.16.3-1``,  ``1.16.3-0``,  ``1.16.2-0``,  ``1.16.1-0``,  ``1.16.0-0``,  ``1.15.0-0``,  ``1.14.3-0``,  ``1.14.2-0``,  ``1.14.1-1``,  ``1.14.1-0``,  ``1.14-0``,  ``1.13-0``,  ``1.12-0``,  ``1.11-0``,  ``1.10.1-0``,  ``1.10-0``,  ``1.9-1``,  ``1.9-0``,  ``1.8.2-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.0-0``,  ``1.6.1-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0-1``,  ``1.0-0``,  ``0.9.1-0``,  ``0.8.0-0``,  ``0.7.3-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``2.7-0``,  ``2.6.1-1``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4-1``,  ``2.4-0``,  ``2.3-1``,  ``2.3-0``,  ``2.2-0``,  ``2.1-0``,  ``2.0-0``,  ``1.16.3-1``,  ``1.16.3-0``,  ``1.16.2-0``,  ``1.16.1-0``,  ``1.16.0-0``,  ``1.15.0-0``,  ``1.14.3-0``,  ``1.14.2-0``,  ``1.14.1-1``,  ``1.14.1-0``,  ``1.14-0``,  ``1.13-0``,  ``1.12-0``,  ``1.11-0``,  ``1.10.1-0``,  ``1.10-0``,  ``1.9-1``,  ``1.9-0``,  ``1.8.2-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.0-0``,  ``1.6.1-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0-1``,  ``1.0-0``,  ``0.9.1-0``,  ``0.8.0-0``,  ``0.7.3-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -48,7 +48,6 @@ harpy
       
 
    
-   :depends apptainer: 
    :depends bcftools: ``>=1.22``
    :depends conda: ``>24.7``
    :depends htslib: ``>=1.22``
@@ -108,7 +107,7 @@ harpy
 
     <script>
         var package = "harpy";
-        var versions = ["2.6.1","2.6.0","2.5.0","2.5.0","2.4.2"];
+        var versions = ["2.7","2.6.1","2.6.1","2.6.0","2.5.0"];
     </script>
 
 

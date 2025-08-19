@@ -13,7 +13,7 @@ vcontact3
    Viral Contig Automatic Clustering and Taxonomy.
 
    :homepage: https://bitbucket.org/MAVERICLab/vcontact3
-   :documentation: https://bitbucket.org/MAVERICLab/vcontact3/src/3.1.3/README.md
+   :documentation: https://bitbucket.org/MAVERICLab/vcontact3/src/3.1.4/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`vcontact3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcontact3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcontact3/meta.yaml>`_
@@ -29,7 +29,7 @@ vcontact3
       
       
 
-      ``3.1.3-0``,  ``3.0.5-0``,  ``3.0.3-0``,  ``3.0.0.b74-0``,  ``3.0.0.b65-0``,  ``3.0.0.b38-0``
+      ``3.1.4-0``,  ``3.1.3-0``,  ``3.0.5-0``,  ``3.0.3-0``,  ``3.0.0.b74-0``,  ``3.0.0.b65-0``,  ``3.0.0.b38-0``
 
       
 
@@ -109,7 +109,7 @@ vcontact3
 
     <script>
         var package = "vcontact3";
-        var versions = ["3.1.3","3.0.5","3.0.3","3.0.0.b74","3.0.0.b65"];
+        var versions = ["3.1.4","3.1.3","3.0.5","3.0.3","3.0.0.b74"];
     </script>
 
 

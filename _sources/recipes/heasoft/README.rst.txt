@@ -12,8 +12,8 @@ heasoft
 
    NASA High Energy Astrophysics Software \(HEAsoft\)
 
-   :homepage: https://heasarc.gsfc.nasa.gov/lheasoft/
-   :documentation: https://heasarc.gsfc.nasa.gov/docs/software/heasoft/
+   :homepage: https://heasarc.gsfc.nasa.gov/lheasoft
+   :documentation: https://heasarc.gsfc.nasa.gov/docs/software/heasoft
    
    :license: Clear BSD License
    :recipe: /`heasoft <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/heasoft>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/heasoft/meta.yaml>`_
@@ -65,30 +65,29 @@ heasoft
       
       
 
-      ``6.35.2-0``,  ``6.35.1-1``,  ``6.35.1-0``
+      ``6.35.2-1``,  ``6.35.2-0``,  ``6.35.1-1``,  ``6.35.1-0``
 
       
 
    
    :depends astropy: ``>=6.1.4``
    :depends astropy-iers-data: 
-   :depends curl: ``>=8.14.1,<9.0a0``
+   :depends curl: 
+   :depends gsl: ``2.7.*``
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends gsl: ``>=2.7,<3.0a0``
    :depends libgcc: ``>=13``
    :depends libgcc-ng: ``>=15.1.0,<16.0a0``
    :depends libgfortran: 
    :depends libgfortran-ng: ``>=15.1.0,<16.0a0``
-   :depends libgfortran5: ``>=13.3.0``
+   :depends libgfortran5: ``>=13.4.0``
    :depends libpng: ``>=1.6.50,<1.7.0a0``
-   :depends libpng: ``>=1.6.50,<2.0a0``
    :depends libstdcxx: ``>=13``
    :depends libstdcxx-ng: ``>=15.1.0,<16.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends matplotlib-base: ``>=3.9.2``
    :depends ncurses: ``>=6.5,<7.0a0``
    :depends numpy: ``>=1.23,<3``
-   :depends numpy: ``>=2.3.1,<3.0a0``
+   :depends numpy: ``>=2.1.2``
    :depends perl: ``>=5.32.1``
    :depends python: ``>=3.13,<3.14.0a0``
    :depends python_abi: ``3.13.* *_cp313``
@@ -99,7 +98,6 @@ heasoft
    :depends xorg-libxt: ``>=1.3.1,<2.0a0``
    :depends xorg-xextproto: ``>=7.3.0,<8.0a0``
    :depends xorg-xproto: ``>=7.0.31,<8.0a0``
-   :depends zlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -150,7 +148,7 @@ heasoft
 
     <script>
         var package = "heasoft";
-        var versions = ["6.35.2","6.35.1","6.35.1"];
+        var versions = ["6.35.2","6.35.2","6.35.1","6.35.1"];
     </script>
 
 

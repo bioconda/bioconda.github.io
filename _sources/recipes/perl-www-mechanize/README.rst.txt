@@ -10,10 +10,10 @@ perl-www-mechanize
    :replaces_section_title:
    :noindex:
 
-   Handy web browsing in a Perl object
+   Handy web browsing in a Perl object.
 
    :homepage: https://metacpan.org/pod/WWW::Mechanize
-   :license: perl_5
+   :license: Perl_5
    :recipe: /`perl-www-mechanize <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-www-mechanize>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-www-mechanize/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-www-mechanize
       
       
 
-      ``1.91-2``,  ``1.91-1``,  ``1.91-0``
+      ``2.19-0``,  ``1.91-2``,  ``1.91-1``,  ``1.91-0``
 
       
 
@@ -90,7 +90,7 @@ perl-www-mechanize
 
     <script>
         var package = "perl-www-mechanize";
-        var versions = ["1.91","1.91","1.91"];
+        var versions = ["2.19","1.91","1.91","1.91"];
     </script>
 
 

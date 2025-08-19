@@ -10,11 +10,14 @@ pyprophet
    :replaces_section_title:
    :noindex:
 
-   Python reimplementation of mProphet peak scoring
+   PyProphet\: Semi\-supervised learning and scoring of OpenSWATH results.
 
    :homepage: https://github.com/PyProphet/pyprophet
-   :license: BSD / BSD License
+   :documentation: https://openswath.org/en/latest
+   
+   :license: BSD / BSD-3-Clause
    :recipe: /`pyprophet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyprophet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyprophet/meta.yaml>`_
+   :links: doi: :doi:`10.1038/nmeth.1584`
 
    
 
@@ -28,10 +31,10 @@ pyprophet
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.5-4</code>,  <code>2.2.5-3</code>,  <code>2.2.5-1</code>,  <code>2.2.5-0</code>,  <code>2.2.4-0</code>,  <code>2.2.3-0</code>,  <code>2.1.12-0</code>,  <code>2.1.11-0</code>,  <code>2.1.10-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.1-0</code>,  <code>2.2.5-4</code>,  <code>2.2.5-3</code>,  <code>2.2.5-1</code>,  <code>2.2.5-0</code>,  <code>2.2.4-0</code>,  <code>2.2.3-0</code>,  <code>2.1.12-0</code>,  <code>2.1.11-0</code>,  </span></summary>
       
 
-      ``2.2.5-4``,  ``2.2.5-3``,  ``2.2.5-1``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.1.12-0``,  ``2.1.11-0``,  ``2.1.10-2``,  ``2.1.10-1``,  ``2.1.10-0``,  ``2.1.6-0``,  ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``0.24.1-1``,  ``0.24.1-0``,  ``0.22.0-0``
+      ``3.0.1-0``,  ``2.2.5-4``,  ``2.2.5-3``,  ``2.2.5-1``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.1.12-0``,  ``2.1.11-0``,  ``2.1.10-2``,  ``2.1.10-1``,  ``2.1.10-0``,  ``2.1.6-0``,  ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``0.24.1-1``,  ``0.24.1-0``,  ``0.22.0-0``
 
       
       .. raw:: html
@@ -40,21 +43,27 @@ pyprophet
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends click: 
-   :depends dataclasses: 
    :depends hyperopt: 
    :depends libgcc: ``>=13``
-   :depends matplotlib-base: 
-   :depends numexpr: ``>=2.1``
-   :depends numpy: ``>=1.21,<3``
-   :depends numpy: ``>=2.2.0,<3.0a0``
-   :depends pandas: ``>=0.17``
-   :depends pypdf2: 
+   :depends libgomp: 
+   :depends loguru: 
+   :depends numexpr: ``2.10.2``
+   :depends numpy: ``2.0.2``
+   :depends numpy: ``>=1.19,<3``
+   :depends pandas: ``>=2.0``
+   :depends polars: 
+   :depends psutil: 
+   :depends pyarrow: 
+   :depends pyopenms: 
+   :depends pypdf: 
    :depends python: ``>=3.10,<3.11.0a0``
+   :depends python-duckdb: 
    :depends python_abi: ``3.10.* *_cp310``
-   :depends scikit-learn: ``>=0.17``
+   :depends scikit-learn: ``>=1.5``
    :depends scipy: 
-   :depends seaborn: 
+   :depends seaborn-base: 
    :depends statsmodels: ``>=0.8.0``
    :depends tabulate: 
    :depends typing-extensions: 
@@ -113,7 +122,7 @@ pyprophet
 
     <script>
         var package = "pyprophet";
-        var versions = ["2.2.5","2.2.5","2.2.5","2.2.5","2.2.4"];
+        var versions = ["3.0.1","2.2.5","2.2.5","2.2.5","2.2.5"];
     </script>
 
 

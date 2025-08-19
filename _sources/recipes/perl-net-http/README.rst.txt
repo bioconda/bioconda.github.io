@@ -10,10 +10,12 @@ perl-net-http
    :replaces_section_title:
    :noindex:
 
-   Low\-level HTTP connection \(client\)
+   Low\-level HTTP connection \(client\).
 
    :homepage: https://github.com/libwww-perl/Net-HTTP
-   :license: perl_5
+   :documentation: https://metacpan.org/pod/Net::HTTP
+   
+   :license: Perl_5
    :recipe: /`perl-net-http <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-net-http>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-net-http/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ perl-net-http
       
       
 
-      ``6.22-0``,  ``6.19-1``,  ``6.19-0``,  ``6.18-0``,  ``6.09-1``,  ``6.09-0``
+      ``6.23-0``,  ``6.22-0``,  ``6.19-1``,  ``6.19-0``,  ``6.18-0``,  ``6.09-1``,  ``6.09-0``
 
       
 
@@ -88,7 +90,7 @@ perl-net-http
 
     <script>
         var package = "perl-net-http";
-        var versions = ["6.22","6.19","6.19","6.18","6.09"];
+        var versions = ["6.23","6.22","6.19","6.19","6.18"];
     </script>
 
 

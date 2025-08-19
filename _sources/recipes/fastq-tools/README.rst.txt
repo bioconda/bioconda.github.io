@@ -12,8 +12,8 @@ fastq-tools
 
    A collection of fastq manipulation scripts written in C for speed.
 
-   :homepage: http://homes.cs.washington.edu/~dcjones/fastq-tools/
-   :license: MIT
+   :homepage: https://github.com/dcjones/fastq-tools
+   :license: MIT / MIT
    :recipe: /`fastq-tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastq-tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastq-tools/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ fastq-tools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.3-5</code>,  <code>0.8.3-4</code>,  <code>0.8.3-3</code>,  <code>0.8.3-2</code>,  <code>0.8.3-1</code>,  <code>0.8.3-0</code>,  <code>0.8.1-0</code>,  <code>0.8-3</code>,  <code>0.8-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.3-6</code>,  <code>0.8.3-5</code>,  <code>0.8.3-4</code>,  <code>0.8.3-3</code>,  <code>0.8.3-2</code>,  <code>0.8.3-1</code>,  <code>0.8.3-0</code>,  <code>0.8.1-0</code>,  <code>0.8-3</code>,  </span></summary>
       
 
-      ``0.8.3-5``,  ``0.8.3-4``,  ``0.8.3-3``,  ``0.8.3-2``,  ``0.8.3-1``,  ``0.8.3-0``,  ``0.8.1-0``,  ``0.8-3``,  ``0.8-2``,  ``0.8-1``,  ``0.8-0``
+      ``0.8.3-6``,  ``0.8.3-5``,  ``0.8.3-4``,  ``0.8.3-3``,  ``0.8.3-2``,  ``0.8.3-1``,  ``0.8.3-0``,  ``0.8.1-0``,  ``0.8-3``,  ``0.8-2``,  ``0.8-1``,  ``0.8-0``
 
       
       .. raw:: html
@@ -43,10 +43,13 @@ fastq-tools
    :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends pcre: ``>=8.45,<9.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

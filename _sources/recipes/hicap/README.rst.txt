@@ -30,16 +30,16 @@ hicap
       
       
 
-      ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends biopython: ``>=1.79``
+   :depends biopython: 
    :depends blast: ``>=2.2.28``
    :depends prodigal: ``>=2.6.1``
-   :depends python: ``>=3.6``
-   :depends reportlab: ``3.4.0``
+   :depends python: ``>=3.6,<3.13``
+   :depends reportlab: 
    :requirements:
 
    :additional platforms:
@@ -90,7 +90,7 @@ hicap
 
     <script>
         var package = "hicap";
-        var versions = ["1.0.4","1.0.4","1.0.3","1.0.2","1.0.1"];
+        var versions = ["1.0.4","1.0.4","1.0.4","1.0.3","1.0.2"];
     </script>
 
 

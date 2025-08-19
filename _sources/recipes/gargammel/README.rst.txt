@@ -10,10 +10,10 @@ gargammel
    :replaces_section_title:
    :noindex:
 
-   Tool for simulating ancient DNA datasets
+   Tool for simulating ancient DNA datasets.
 
    :homepage: https://github.com/grenaud/gargammel
-   :license: GPL-3.0-only
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`gargammel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gargammel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gargammel/meta.yaml>`_
 
    gargammel is a set of programs aimed at simulating ancient DNA
@@ -31,23 +31,28 @@ gargammel
       
       
 
-      ``1.1.2-6``,  ``1.1.2-5``,  ``1.1.2-4``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``
+      ``1.1.2-8``,  ``1.1.2-6``,  ``1.1.2-5``,  ``1.1.2-4``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``
 
       
 
    
    :depends art: 
+   :depends bamtools: ``>=2.5.3,<3.0a0``
+   :depends gsl: ``>=2.7,<2.8.0``
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends openssl: ``1.0.2n.*``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends openssl: 
    :depends perl: 
    :depends samtools: 
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

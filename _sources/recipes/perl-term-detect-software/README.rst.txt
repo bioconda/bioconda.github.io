@@ -10,10 +10,10 @@ perl-term-detect-software
    :replaces_section_title:
    :noindex:
 
-   Detect terminal \(emulator\) software and its capabilities
+   Detect terminal \(emulator\) software and its capabilities.
 
-   :homepage: https://metacpan.org/release/Term-Detect-Software
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/Term::Detect::Software
+   :license: Perl_5
    :recipe: /`perl-term-detect-software <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-term-detect-software>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-term-detect-software/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-term-detect-software
       
       
 
-      ``0.223-0``,  ``0.21-3``,  ``0.21-2``,  ``0.21-1``,  ``0.21-0``
+      ``0.227-0``,  ``0.223-0``,  ``0.21-3``,  ``0.21-2``,  ``0.21-1``,  ``0.21-0``
 
       
 
@@ -85,7 +85,7 @@ perl-term-detect-software
 
     <script>
         var package = "perl-term-detect-software";
-        var versions = ["0.223","0.21","0.21","0.21","0.21"];
+        var versions = ["0.227","0.223","0.21","0.21","0.21"];
     </script>
 
 

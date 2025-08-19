@@ -13,7 +13,7 @@ r-phewas
    Phenome Wide Association Studies \(PheWAS\) \- Functions to perform Phenome Wide Association Studies \(PheWAS\). These functions include the conversion of ICD9 codes to PheWAS codes \(v1.2\)\, statistical analysis\, and plotting.
 
    :homepage: https://github.com/PheWAS/PheWAS
-   :license: GPL / GPL-3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`r-phewas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-phewas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-phewas/meta.yaml>`_
    :links: doi: :doi:`10.1093/bioinformatics/btu197`
 
@@ -29,10 +29,10 @@ r-phewas
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.99.6-1</code>,  <code>0.99.6-0</code>,  <code>0.12.1-8</code>,  <code>0.12.1-7</code>,  <code>0.12.1-6</code>,  <code>0.12.1-5</code>,  <code>0.12.1-4</code>,  <code>0.12.1-3</code>,  <code>0.12.1-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.99.6-2</code>,  <code>0.99.6-1</code>,  <code>0.99.6-0</code>,  <code>0.12.1-8</code>,  <code>0.12.1-7</code>,  <code>0.12.1-6</code>,  <code>0.12.1-5</code>,  <code>0.12.1-4</code>,  <code>0.12.1-3</code>,  </span></summary>
       
 
-      ``0.99.6-1``,  ``0.99.6-0``,  ``0.12.1-8``,  ``0.12.1-7``,  ``0.12.1-6``,  ``0.12.1-5``,  ``0.12.1-4``,  ``0.12.1-3``,  ``0.12.1-2``,  ``0.12.1-1``,  ``0.12.1-0``
+      ``0.99.6-2``,  ``0.99.6-1``,  ``0.99.6-0``,  ``0.12.1-8``,  ``0.12.1-7``,  ``0.12.1-6``,  ``0.12.1-5``,  ``0.12.1-4``,  ``0.12.1-3``,  ``0.12.1-2``,  ``0.12.1-1``,  ``0.12.1-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ r-phewas
    
    :depends libgcc: ``>=13``
    :depends libgfortran: 
-   :depends libgfortran5: ``>=13.3.0``
+   :depends libgfortran5: ``>=13.4.0``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
    :depends r-dt: 
@@ -58,6 +58,10 @@ r-phewas
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -105,7 +109,7 @@ r-phewas
 
     <script>
         var package = "r-phewas";
-        var versions = ["0.99.6","0.99.6","0.12.1","0.12.1","0.12.1"];
+        var versions = ["0.99.6","0.99.6","0.99.6","0.12.1","0.12.1"];
     </script>
 
 

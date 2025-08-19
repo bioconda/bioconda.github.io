@@ -10,10 +10,10 @@ perl-text-format
    :replaces_section_title:
    :noindex:
 
-   Format text
+   Format text.
 
-   :homepage: http://www.shlomifish.org/open-source/projects/Text-Format/
-   :license: perl_5
+   :homepage: http://www.shlomifish.org/open-source/projects/Text-Format
+   :license: Perl_5
    :recipe: /`perl-text-format <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-format>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-format/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-text-format
       
       
 
-      ``0.62-0``,  ``0.59-3``,  ``0.59-2``,  ``0.59-1``,  ``0.59-0``
+      ``0.63-0``,  ``0.62-0``,  ``0.59-3``,  ``0.59-2``,  ``0.59-1``,  ``0.59-0``
 
       
 
@@ -83,7 +83,7 @@ perl-text-format
 
     <script>
         var package = "perl-text-format";
-        var versions = ["0.62","0.59","0.59","0.59","0.59"];
+        var versions = ["0.63","0.62","0.59","0.59","0.59"];
     </script>
 
 
