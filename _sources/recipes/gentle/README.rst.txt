@@ -10,10 +10,10 @@ gentle
    :replaces_section_title:
    :noindex:
 
-   Software suite for DNA cloning
+   Software suite for DNA cloning.
 
    :homepage: https://github.com/GENtle-persons/gentle-m
-   :license: GPL-2.0-or-later
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`gentle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gentle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gentle/meta.yaml>`_
    :links: debian: :debian:`gentle`, biotools: :biotools:`gentle`
 
@@ -31,21 +31,26 @@ gentle
       
       
 
-      ``1.9.5.alpha1-0``
+      ``1.9.5.alpha1-2``,  ``1.9.5.alpha1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libsqlite: ``>=3.43.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
+   :depends clustalw: ``>=2.1,<3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libsqlite: ``>=3.50.4,<4.0a0``
+   :depends libstdcxx: ``>=13``
    :depends mysql: 
    :depends sqlite: 
    :depends tinyxml: 
-   :depends wxwidgets: ``>=3.2.2.1,<3.3.0a0``
+   :depends wxwidgets: ``>=3.2.8.1,<3.2.9.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -93,7 +98,7 @@ gentle
 
     <script>
         var package = "gentle";
-        var versions = ["1.9.5.alpha1"];
+        var versions = ["1.9.5.alpha1","1.9.5.alpha1"];
     </script>
 
 

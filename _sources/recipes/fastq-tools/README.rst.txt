@@ -28,10 +28,10 @@ fastq-tools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.3-6</code>,  <code>0.8.3-5</code>,  <code>0.8.3-4</code>,  <code>0.8.3-3</code>,  <code>0.8.3-2</code>,  <code>0.8.3-1</code>,  <code>0.8.3-0</code>,  <code>0.8.1-0</code>,  <code>0.8-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.3-7</code>,  <code>0.8.3-6</code>,  <code>0.8.3-5</code>,  <code>0.8.3-4</code>,  <code>0.8.3-3</code>,  <code>0.8.3-2</code>,  <code>0.8.3-1</code>,  <code>0.8.3-0</code>,  <code>0.8.1-0</code>,  </span></summary>
       
 
-      ``0.8.3-6``,  ``0.8.3-5``,  ``0.8.3-4``,  ``0.8.3-3``,  ``0.8.3-2``,  ``0.8.3-1``,  ``0.8.3-0``,  ``0.8.1-0``,  ``0.8-3``,  ``0.8-2``,  ``0.8-1``,  ``0.8-0``
+      ``0.8.3-7``,  ``0.8.3-6``,  ``0.8.3-5``,  ``0.8.3-4``,  ``0.8.3-3``,  ``0.8.3-2``,  ``0.8.3-1``,  ``0.8.3-0``,  ``0.8.1-0``,  ``0.8-3``,  ``0.8-2``,  ``0.8-1``,  ``0.8-0``
 
       
       .. raw:: html

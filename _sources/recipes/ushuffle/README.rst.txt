@@ -10,10 +10,11 @@ ushuffle
    :replaces_section_title:
    :noindex:
 
-   uShuffle\-\-\-a useful tool for shuffling biological sequences while preserving the k\-let counts
+   uShuffle\-\-\-a useful tool for shuffling biological sequences while preserving the k\-let counts.
 
-   :homepage: http://digital.cs.usu.edu/~mjiang/ushuffle/
-   :license: custom
+   :homepage: http://digital.cs.usu.edu/~mjiang/ushuffle
+   :developer docs: https://github.com/s-will/ushuffle
+   :license: Custom
    :recipe: /`ushuffle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ushuffle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ushuffle/meta.yaml>`_
 
    
@@ -28,10 +29,10 @@ ushuffle
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.2-9</code>,  <code>1.2.2-8</code>,  <code>1.2.2-7</code>,  <code>1.2.2-6</code>,  <code>1.2.2-5</code>,  <code>1.2.2-4</code>,  <code>1.2.2-3</code>,  <code>1.2.2-2</code>,  <code>1.2.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.2-10</code>,  <code>1.2.2-9</code>,  <code>1.2.2-8</code>,  <code>1.2.2-7</code>,  <code>1.2.2-6</code>,  <code>1.2.2-5</code>,  <code>1.2.2-4</code>,  <code>1.2.2-3</code>,  <code>1.2.2-2</code>,  </span></summary>
       
 
-      ``1.2.2-9``,  ``1.2.2-8``,  ``1.2.2-7``,  ``1.2.2-6``,  ``1.2.2-5``,  ``1.2.2-4``,  ``1.2.2-3``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``
+      ``1.2.2-10``,  ``1.2.2-9``,  ``1.2.2-8``,  ``1.2.2-7``,  ``1.2.2-6``,  ``1.2.2-5``,  ``1.2.2-4``,  ``1.2.2-3``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``
 
       
       .. raw:: html
@@ -46,6 +47,10 @@ ushuffle
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

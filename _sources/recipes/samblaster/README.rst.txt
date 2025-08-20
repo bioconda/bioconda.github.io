@@ -13,8 +13,11 @@ samblaster
    Mark duplicates in and extract discordant and split reads from SAM files.
 
    :homepage: https://github.com/GregoryFaust/samblaster
-   :license: MIT
+   :documentation: https://github.com/GregoryFaust/samblaster/blob/v.0.1.26/README.md
+   
+   :license: MIT / MIT
    :recipe: /`samblaster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samblaster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samblaster/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btu314`, biotools: :biotools:`samblaster`
 
    
 
@@ -28,10 +31,10 @@ samblaster
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.26-6</code>,  <code>0.1.26-5</code>,  <code>0.1.26-4</code>,  <code>0.1.26-3</code>,  <code>0.1.26-2</code>,  <code>0.1.26-1</code>,  <code>0.1.26-0</code>,  <code>0.1.25-0</code>,  <code>0.1.24-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.26-7</code>,  <code>0.1.26-6</code>,  <code>0.1.26-5</code>,  <code>0.1.26-4</code>,  <code>0.1.26-3</code>,  <code>0.1.26-2</code>,  <code>0.1.26-1</code>,  <code>0.1.26-0</code>,  <code>0.1.25-0</code>,  </span></summary>
       
 
-      ``0.1.26-6``,  ``0.1.26-5``,  ``0.1.26-4``,  ``0.1.26-3``,  ``0.1.26-2``,  ``0.1.26-1``,  ``0.1.26-0``,  ``0.1.25-0``,  ``0.1.24-3``,  ``0.1.24-2``,  ``0.1.24-1``,  ``0.1.24-0``,  ``0.1.23-0``,  ``0.1.22-0``,  ``0.1.20-5``,  ``0.1.20-4``,  ``0.1.20-3``,  ``0.1.20-2``,  ``0.1.20-1``,  ``0.1.20-0``
+      ``0.1.26-7``,  ``0.1.26-6``,  ``0.1.26-5``,  ``0.1.26-4``,  ``0.1.26-3``,  ``0.1.26-2``,  ``0.1.26-1``,  ``0.1.26-0``,  ``0.1.25-0``,  ``0.1.24-3``,  ``0.1.24-2``,  ``0.1.24-1``,  ``0.1.24-0``,  ``0.1.23-0``,  ``0.1.22-0``,  ``0.1.20-5``,  ``0.1.20-4``,  ``0.1.20-3``,  ``0.1.20-2``,  ``0.1.20-1``,  ``0.1.20-0``
 
       
       .. raw:: html
@@ -48,7 +51,7 @@ samblaster
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

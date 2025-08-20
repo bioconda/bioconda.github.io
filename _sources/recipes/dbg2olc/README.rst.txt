@@ -10,10 +10,12 @@ dbg2olc
    :replaces_section_title:
    :noindex:
 
-   Efficient Assembly of Large Genomes Using Long Erroneous Reads of the Third Generation Sequencing Technologies
+   Efficient Assembly of Large Genomes Using Long Erroneous Reads of the Third Generation Sequencing Technologies.
 
    :homepage: https://github.com/yechengxi/DBG2OLC
-   :license: unknown
+   :documentation: https://github.com/yechengxi/DBG2OLC/raw/master/Manual.docx
+   
+   :license: Unknown
    :recipe: /`dbg2olc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dbg2olc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dbg2olc/meta.yaml>`_
 
    
@@ -50,6 +52,10 @@ dbg2olc
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

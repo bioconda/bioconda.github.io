@@ -12,8 +12,10 @@ jvarkit-bamstats04
 
    Coverage statistics for a BED file.
 
-   :homepage: http://lindenb.github.io/jvarkit/BamStats04.html
-   :license: MIT
+   :homepage: https://github.com/lindenb/jvarkit
+   :documentation: https://lindenb.github.io/jvarkit/BamStats04.html
+   
+   :license: MIT / MIT
    :recipe: /`jvarkit-bamstats04 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jvarkit-bamstats04>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jvarkit-bamstats04/meta.yaml>`_
 
    
@@ -27,12 +29,12 @@ jvarkit-bamstats04
       
       
 
-      ``2021.10.13-0``
+      ``2025.07.28-0``,  ``2021.10.13-0``
 
       
 
    
-   :depends openjdk: ``>=11``
+   :depends openjdk: ``<21``
    :requirements:
 
    :additional platforms:
@@ -83,7 +85,7 @@ jvarkit-bamstats04
 
     <script>
         var package = "jvarkit-bamstats04";
-        var versions = ["2021.10.13"];
+        var versions = ["2025.07.28","2021.10.13"];
     </script>
 
 

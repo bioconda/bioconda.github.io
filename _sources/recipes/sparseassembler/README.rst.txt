@@ -10,10 +10,10 @@ sparseassembler
    :replaces_section_title:
    :noindex:
 
-   A sparse k\-mer graph based\, memory\-efficient genome assembler
+   A sparse k\-mer graph based\, memory\-efficient genome assembler.
 
    :homepage: https://github.com/yechengxi/SparseAssembler
-   :license: GPL / GPL-3.0
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`sparseassembler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sparseassembler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sparseassembler/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ sparseassembler
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>20160205-10</code>,  <code>20160205-9</code>,  <code>20160205-8</code>,  <code>20160205-7</code>,  <code>20160205-6</code>,  <code>20160205-5</code>,  <code>20160205-4</code>,  <code>20160205-3</code>,  <code>20160205-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>20160205-11</code>,  <code>20160205-10</code>,  <code>20160205-9</code>,  <code>20160205-8</code>,  <code>20160205-7</code>,  <code>20160205-6</code>,  <code>20160205-5</code>,  <code>20160205-4</code>,  <code>20160205-3</code>,  </span></summary>
       
 
-      ``20160205-10``,  ``20160205-9``,  ``20160205-8``,  ``20160205-7``,  ``20160205-6``,  ``20160205-5``,  ``20160205-4``,  ``20160205-3``,  ``20160205-2``,  ``20160205-1``,  ``20160205-0``
+      ``20160205-11``,  ``20160205-10``,  ``20160205-9``,  ``20160205-8``,  ``20160205-7``,  ``20160205-6``,  ``20160205-5``,  ``20160205-4``,  ``20160205-3``,  ``20160205-2``,  ``20160205-1``,  ``20160205-0``
 
       
       .. raw:: html
@@ -45,6 +45,10 @@ sparseassembler
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

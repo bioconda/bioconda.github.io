@@ -6,15 +6,15 @@
 disco
 =====
 
-.. conda:recipe:: disco/1.0
+.. conda:recipe:: disco
    :replaces_section_title:
    :noindex:
 
-   Multi\-threaded Distributed Memory Overlap\-Layout\-Consensus \(OLC\) Metagenome Assembler
+   Multi\-threaded Distributed Memory Overlap\-Layout\-Consensus \(OLC\) Metagenome Assembler.
 
-   :homepage: http://disco.omicsbio.org/
-   :license: GPL-3.0
-   :recipe: /`disco <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/disco>`_/`1.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/disco/1.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/disco/1.0/meta.yaml>`_
+   :homepage: http://disco.omicsbio.org
+   :license: GPL3 / GPL-3.0-or-later
+   :recipe: /`disco <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/disco>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/disco/meta.yaml>`_
 
    
 
@@ -53,6 +53,10 @@ disco
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

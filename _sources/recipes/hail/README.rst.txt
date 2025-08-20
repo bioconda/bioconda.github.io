@@ -12,10 +12,9 @@ hail
 
    Hail is Python\-based data analysis tool for working with genomic data.
 
-
    :homepage: https://hail.is
    :developer docs: https://github.com/hail-is/hail
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`hail <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hail>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hail/meta.yaml>`_
 
    
@@ -29,7 +28,7 @@ hail
       
       
 
-      ``0.2.61-2``,  ``0.2.61-1``,  ``0.2.61-0``,  ``0.2.58-0``,  ``0.2.33-1``,  ``0.2.33-0``
+      ``0.2.61-3``,  ``0.2.61-2``,  ``0.2.61-1``,  ``0.2.61-0``,  ``0.2.58-0``,  ``0.2.33-1``,  ``0.2.33-0``
 
       
 
@@ -37,7 +36,7 @@ hail
    :depends aiohttp: 
    :depends aiohttp-session: 
    :depends asyncinit: 
-   :depends bokeh: ``>1.1,<1.3``
+   :depends bokeh: ``>=2.4.0,<3.0.0``
    :depends decorator: ``<5``
    :depends deprecated: 
    :depends dill: 
@@ -48,15 +47,18 @@ hail
    :depends humanize: 
    :depends hurry.filesize: 
    :depends jinja2: ``<3.1``
-   :depends libcxx: ``>=14.0.4``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends nest-asyncio: 
+   :depends numpy: ``<1.24``
+   :depends numpy: ``>=1.23.5,<2.0a0``
    :depends openjdk: ``8.*``
    :depends parsimonious: 
    :depends pyjwt: 
-   :depends pyspark: ``>=2.4,<2.4.2``
-   :depends python: ``>=3.6,<3.7.0a0``
+   :depends pyspark: 
+   :depends python: ``>=3.11,<3.12.0a0``
    :depends python-json-logger: ``0.1.11``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python_abi: ``3.11.* *_cp311``
    :depends requests: 
    :depends scipy: 
    :depends tabulate: ``0.8.3``
@@ -64,6 +66,10 @@ hail
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -111,7 +117,7 @@ hail
 
     <script>
         var package = "hail";
-        var versions = ["0.2.61","0.2.61","0.2.61","0.2.58","0.2.33"];
+        var versions = ["0.2.61","0.2.61","0.2.61","0.2.61","0.2.58"];
     </script>
 
 

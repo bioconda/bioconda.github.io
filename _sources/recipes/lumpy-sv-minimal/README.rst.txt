@@ -10,11 +10,14 @@ lumpy-sv-minimal
    :replaces_section_title:
    :noindex:
 
-   A general probabilistic framework for structural variant discovery. This package contains only the lumpy executable
+   A general probabilistic framework for structural variant discovery. This package contains only the lumpy executable.
 
    :homepage: https://github.com/arq5x/lumpy-sv
+   :documentation: https://github.com/arq5x/lumpy-sv/blob/v0.3.1/README.md
+   
    :license: MIT / MIT
    :recipe: /`lumpy-sv-minimal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lumpy-sv-minimal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lumpy-sv-minimal/meta.yaml>`_
+   :links: doi: :doi:`10.1186/gb-2014-15-6-r84`
 
    
 
@@ -27,12 +30,12 @@ lumpy-sv-minimal
       
       
 
-      ``0.3.1-6``,  ``0.3.1-5``,  ``0.3.1-4``,  ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``
+      ``0.3.1-7``,  ``0.3.1-6``,  ``0.3.1-5``,  ``0.3.1-4``,  ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``
 
       
 
    
-   :depends htslib: ``>=1.22,<1.23.0a0``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
@@ -42,7 +45,7 @@ lumpy-sv-minimal
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

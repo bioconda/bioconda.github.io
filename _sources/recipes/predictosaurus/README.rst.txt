@@ -13,7 +13,7 @@ predictosaurus
    Predictosaurus is a command\-line tool designed for uncertainty\-aware haplotype\-based genomic variant effect prediction.
 
    :homepage: https://github.com/fxwiegand/predictosaurus
-   :documentation: https://github.com/fxwiegand/predictosaurus/blob/v0.4.1/README.md
+   :documentation: https://github.com/fxwiegand/predictosaurus/blob/v0.4.2/README.md
    
    :license: MIT / MIT
    :recipe: /`predictosaurus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/predictosaurus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/predictosaurus/meta.yaml>`_
@@ -30,10 +30,10 @@ predictosaurus
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.1-1</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.10-0</code>,  <code>0.2.9-0</code>,  <code>0.2.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.2-0</code>,  <code>0.4.1-1</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.10-0</code>,  <code>0.2.9-0</code>,  </span></summary>
       
 
-      ``0.4.1-1``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.4.2-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -102,7 +102,7 @@ predictosaurus
 
     <script>
         var package = "predictosaurus";
-        var versions = ["0.4.1","0.4.1","0.4.0","0.3.2","0.3.1"];
+        var versions = ["0.4.2","0.4.1","0.4.1","0.4.0","0.3.2"];
     </script>
 
 

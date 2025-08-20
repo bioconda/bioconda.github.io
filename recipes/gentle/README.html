@@ -67,13 +67,13 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">gentle</span></span></dt>
-<dd><p>Software suite for DNA cloning</p>
+<dd><p>Software suite for DNA cloning.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/GENtle-persons/gentle-m">https://github.com/GENtle-persons/gentle-m</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>GPL-2.0-or-later</p>
+<dd class="field-even"><p>GPL / GPL-2.0-or-later</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gentle">gentle</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gentle/meta.yaml">meta.yaml</a></p>
@@ -92,32 +92,35 @@ calculators, gel image display, PCR, and much more.</p>
 <em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">gentle</span></span><a class="headerlink" href="#package-gentle" title="Link to this definition">¶</a></dt>
 <dd><blockquote>
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/gentle"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/gentle.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/gentle"><img alt="docker_gentle" src="https://quay.io/repository/biocontainers/gentle/status" /></a></p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.9.5.alpha1-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.9.5.alpha1-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.9.5.alpha1-0</span></code></p>
 </dd>
-<dt class="field-even">depends libgcc-ng<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p>
+<dt class="field-even">depends clustalw<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.1,&lt;3.0a0</span></code></p>
 </dd>
-<dt class="field-odd">depends libsqlite<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.43.0,&lt;4.0a0</span></code></p>
+<dt class="field-odd">depends libgcc<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
 </dd>
-<dt class="field-even">depends libstdcxx-ng<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p>
+<dt class="field-even">depends libsqlite<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.50.4,&lt;4.0a0</span></code></p>
 </dd>
-<dt class="field-odd">depends mysql<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends sqlite<span class="colon">:</span></dt>
+<dt class="field-odd">depends libstdcxx<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
+</dd>
+<dt class="field-even">depends mysql<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends tinyxml<span class="colon">:</span></dt>
+<dt class="field-odd">depends sqlite<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends wxwidgets<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.2.2.1,&lt;3.3.0a0</span></code></p>
-</dd>
-<dt class="field-odd">requirements<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">additional platforms<span class="colon">:</span></dt>
+<dt class="field-even">depends tinyxml<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends wxwidgets<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.2.8.1,&lt;3.2.9.0a0</span></code></p>
+</dd>
+<dt class="field-even">requirements<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
+<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -152,7 +155,7 @@ others.</p>
 
 <script>
     var package = "gentle";
-    var versions = ["1.9.5.alpha1"];
+    var versions = ["1.9.5.alpha1","1.9.5.alpha1"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

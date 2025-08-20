@@ -30,10 +30,10 @@ perl-inline-c
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.82-1</code>,  <code>0.82-0</code>,  <code>0.81-3</code>,  <code>0.81-2</code>,  <code>0.81-1</code>,  <code>0.81-0</code>,  <code>0.78-1</code>,  <code>0.78-0</code>,  <code>0.76-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.82-2</code>,  <code>0.82-1</code>,  <code>0.82-0</code>,  <code>0.81-3</code>,  <code>0.81-2</code>,  <code>0.81-1</code>,  <code>0.81-0</code>,  <code>0.78-1</code>,  <code>0.78-0</code>,  </span></summary>
       
 
-      ``0.82-1``,  ``0.82-0``,  ``0.81-3``,  ``0.81-2``,  ``0.81-1``,  ``0.81-0``,  ``0.78-1``,  ``0.78-0``,  ``0.76-1``,  ``0.76-0``
+      ``0.82-2``,  ``0.82-1``,  ``0.82-0``,  ``0.81-3``,  ``0.81-2``,  ``0.81-1``,  ``0.81-0``,  ``0.78-1``,  ``0.78-0``,  ``0.76-1``,  ``0.76-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ perl-inline-c
       
 
    
-   :depends gcc_linux-64: ``13.*``
+   :depends gcc_linux-aarch64: ``13.*``
    :depends libgcc: ``>=13``
    :depends make: 
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
@@ -61,7 +61,7 @@ perl-inline-c
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -109,7 +109,7 @@ perl-inline-c
 
     <script>
         var package = "perl-inline-c";
-        var versions = ["0.82","0.82","0.81","0.81","0.81"];
+        var versions = ["0.82","0.82","0.82","0.81","0.81"];
     </script>
 
 

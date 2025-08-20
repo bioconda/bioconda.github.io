@@ -10,10 +10,10 @@ assemblyutility
    :replaces_section_title:
    :noindex:
 
-   Tools for DBG2OLC genoome assembler
+   Tools for DBG2OLC genoome assembler.
 
    :homepage: https://github.com/yechengxi/AssemblyUtility
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`assemblyutility <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/assemblyutility>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/assemblyutility/meta.yaml>`_
 
    
@@ -26,19 +26,30 @@ assemblyutility
    :versions:
       
       
+      .. raw:: html
 
-      ``20160209-8``,  ``20160209-7``,  ``20160209-6``,  ``20160209-5``,  ``20160209-4``,  ``20160209-3``,  ``20160209-2``,  ``20160209-1``,  ``20160209-0``
+         <details><summary><span class="truncated-version-list"><code>20160209-9</code>,  <code>20160209-8</code>,  <code>20160209-7</code>,  <code>20160209-6</code>,  <code>20160209-5</code>,  <code>20160209-4</code>,  <code>20160209-3</code>,  <code>20160209-2</code>,  <code>20160209-1</code>,  </span></summary>
+      
 
+      ``20160209-9``,  ``20160209-8``,  ``20160209-7``,  ``20160209-6``,  ``20160209-5``,  ``20160209-4``,  ``20160209-3``,  ``20160209-2``,  ``20160209-1``,  ``20160209-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
