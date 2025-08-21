@@ -28,10 +28,10 @@ disco
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2-7</code>,  <code>1.2-6</code>,  <code>1.2-5</code>,  <code>1.2-4</code>,  <code>1.2-3</code>,  <code>1.2-2</code>,  <code>1.2-1</code>,  <code>1.2-0</code>,  <code>1.0-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3-0</code>,  <code>1.2-7</code>,  <code>1.2-6</code>,  <code>1.2-5</code>,  <code>1.2-4</code>,  <code>1.2-3</code>,  <code>1.2-2</code>,  <code>1.2-1</code>,  <code>1.2-0</code>,  </span></summary>
       
 
-      ``1.2-7``,  ``1.2-6``,  ``1.2-5``,  ``1.2-4``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.3-0``,  ``1.2-7``,  ``1.2-6``,  ``1.2-5``,  ``1.2-4``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
       .. raw:: html
@@ -42,14 +42,10 @@ disco
    
    :depends bbmap: 
    :depends biopython: 
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends llvm-openmp: ``>=18.1.8``
-   :depends llvm-openmp: ``>=19.1.6``
-   :depends openmpi: ``>=1.8``
-   :depends openmpi: ``>=5.0.6,<6.0a0``
-   :depends openssh: 
-   :depends zlib: 
+   :depends mpich-mpicxx: 
    :requirements:
 
    :additional platforms:
@@ -104,7 +100,7 @@ disco
 
     <script>
         var package = "disco";
-        var versions = ["1.2","1.2","1.2","1.2","1.2"];
+        var versions = ["1.3","1.2","1.2","1.2","1.2"];
     </script>
 
 

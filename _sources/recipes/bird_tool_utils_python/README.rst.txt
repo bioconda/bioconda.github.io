@@ -13,7 +13,7 @@ bird_tool_utils_python
    Python utilities used as part of the bird suite of bioinformatic tools.
 
    :homepage: https://github.com/wwood/bird_tool_utils-python
-   :license: GPL / GPL-3.0-or-later
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`bird_tool_utils_python <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bird_tool_utils_python>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bird_tool_utils_python/meta.yaml>`_
 
    
@@ -27,13 +27,13 @@ bird_tool_utils_python
       
       
 
-      ``0.4.1-0``,  ``0.3.6-0``,  ``0.2.17-0``
+      ``0.5.1-0``,  ``0.4.1-0``,  ``0.3.6-0``,  ``0.2.17-0``
 
       
 
    
-   :depends argparse-manpage-birdtools: ``>=1.6``
-   :depends python: ``>=3.6``
+   :depends argparse-manpage-birdtools: ``>=1.7.0``
+   :depends python: ``>=3.7``
    :requirements:
 
    :additional platforms:
@@ -84,7 +84,7 @@ bird_tool_utils_python
 
     <script>
         var package = "bird_tool_utils_python";
-        var versions = ["0.4.1","0.3.6","0.2.17"];
+        var versions = ["0.5.1","0.4.1","0.3.6","0.2.17"];
     </script>
 
 

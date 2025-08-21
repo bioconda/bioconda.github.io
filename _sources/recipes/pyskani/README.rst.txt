@@ -29,7 +29,7 @@ pyskani
       
       
 
-      ``0.1.3-0``
+      ``0.2.0-0``,  ``0.1.3-0``
 
       
 
@@ -90,7 +90,7 @@ pyskani
 
     <script>
         var package = "pyskani";
-        var versions = ["0.1.3"];
+        var versions = ["0.2.0","0.1.3"];
     </script>
 
 

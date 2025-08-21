@@ -32,7 +32,7 @@ shiba
       
       
 
-      ``0.7.0-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``
+      ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``
 
       
 
@@ -43,7 +43,7 @@ shiba
    :depends pandas: ``>=1.5.3``
    :depends plotly: ``>=5.13.0``
    :depends pysam: ``>=0.23.0``
-   :depends python: 
+   :depends python: ``>=3.13,<3.14.0a0``
    :depends pyyaml: ``>=6.0.2``
    :depends r-base: ``>=4.1.3``
    :depends r-data.table: ``>=1.14.2``
@@ -103,7 +103,7 @@ shiba
 
     <script>
         var package = "shiba";
-        var versions = ["0.7.0","0.6.3","0.6.2","0.6.1"];
+        var versions = ["0.7.1","0.7.0","0.6.3","0.6.2","0.6.1"];
     </script>
 
 

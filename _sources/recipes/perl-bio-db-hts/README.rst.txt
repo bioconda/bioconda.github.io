@@ -10,10 +10,10 @@ perl-bio-db-hts
    :replaces_section_title:
    :noindex:
 
-   Read files using HTSlib including BAM\/CRAM\, Tabix and BCF database files
+   Read files using HTSlib including BAM\/CRAM\, Tabix and BCF database files.
 
    :homepage: https://metacpan.org/pod/Bio::DB::HTS
-   :license: Apache v2.0
+   :license: APACHE / Apache-2.0
    :recipe: /`perl-bio-db-hts <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-db-hts>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-db-hts/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ perl-bio-db-hts
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.01-11</code>,  <code>3.01-10</code>,  <code>3.01-9</code>,  <code>3.01-8</code>,  <code>3.01-7</code>,  <code>3.01-6</code>,  <code>3.01-5</code>,  <code>3.01-4</code>,  <code>3.01-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.01-12</code>,  <code>3.01-11</code>,  <code>3.01-10</code>,  <code>3.01-9</code>,  <code>3.01-8</code>,  <code>3.01-7</code>,  <code>3.01-6</code>,  <code>3.01-5</code>,  <code>3.01-4</code>,  </span></summary>
       
 
-      ``3.01-11``,  ``3.01-10``,  ``3.01-9``,  ``3.01-8``,  ``3.01-7``,  ``3.01-6``,  ``3.01-5``,  ``3.01-4``,  ``3.01-3``,  ``3.01-2``,  ``3.01-1``,  ``3.01-0``,  ``2.7-3``,  ``2.7-2``,  ``2.7-1``,  ``2.7-0``,  ``2.4-0``
+      ``3.01-12``,  ``3.01-11``,  ``3.01-10``,  ``3.01-9``,  ``3.01-8``,  ``3.01-7``,  ``3.01-6``,  ``3.01-5``,  ``3.01-4``,  ``3.01-3``,  ``3.01-2``,  ``3.01-1``,  ``3.01-0``,  ``2.7-3``,  ``2.7-2``,  ``2.7-1``,  ``2.7-0``,  ``2.4-0``
 
       
       .. raw:: html
@@ -42,18 +42,17 @@ perl-bio-db-hts
    
    :depends htslib: ``>=1.21,<1.22.0a0``
    :depends libgcc: ``>=13``
-   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-bioperl: 
    :depends perl-module-build: ``0.4234.*``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

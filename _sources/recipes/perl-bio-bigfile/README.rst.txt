@@ -27,13 +27,13 @@ perl-bio-bigfile
       
       
 
-      ``1.07-6``,  ``1.07-5``,  ``1.07-4``,  ``1.07-3``,  ``1.07-2``,  ``1.07-1``,  ``1.07-0``
+      ``1.07-7``,  ``1.07-6``,  ``1.07-5``,  ``1.07-4``,  ``1.07-3``,  ``1.07-2``,  ``1.07-1``,  ``1.07-0``
 
       
 
    
    :depends libgcc: ``>=13``
-   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends mysql: 
    :depends openssl: ``>=3.5.2,<4.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
@@ -46,7 +46,7 @@ perl-bio-bigfile
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

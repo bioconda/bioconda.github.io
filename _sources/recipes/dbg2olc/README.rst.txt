@@ -30,10 +30,10 @@ dbg2olc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>20200723-3</code>,  <code>20200723-2</code>,  <code>20200723-1</code>,  <code>20200723-0</code>,  <code>20180222-3</code>,  <code>20180222-2</code>,  <code>20180222-1</code>,  <code>20180222-0</code>,  <code>20160205-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>20200723-4</code>,  <code>20200723-3</code>,  <code>20200723-2</code>,  <code>20200723-1</code>,  <code>20200723-0</code>,  <code>20180222-3</code>,  <code>20180222-2</code>,  <code>20180222-1</code>,  <code>20180222-0</code>,  </span></summary>
       
 
-      ``20200723-3``,  ``20200723-2``,  ``20200723-1``,  ``20200723-0``,  ``20180222-3``,  ``20180222-2``,  ``20180222-1``,  ``20180222-0``,  ``20160205-1``,  ``20160205-0``
+      ``20200723-4``,  ``20200723-3``,  ``20200723-2``,  ``20200723-1``,  ``20200723-0``,  ``20180222-3``,  ``20180222-2``,  ``20180222-1``,  ``20180222-0``,  ``20160205-1``,  ``20160205-0``
 
       
       .. raw:: html
@@ -48,7 +48,6 @@ dbg2olc
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends sparc: 
    :depends sparseassembler: 
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
@@ -103,7 +102,7 @@ dbg2olc
 
     <script>
         var package = "dbg2olc";
-        var versions = ["20200723","20200723","20200723","20200723","20180222"];
+        var versions = ["20200723","20200723","20200723","20200723","20200723"];
     </script>
 
 

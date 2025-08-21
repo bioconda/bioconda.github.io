@@ -12,8 +12,8 @@ perl-bio-phylo
 
    An object\-oriented Perl toolkit for analyzing and manipulating phyloinformatic data.
 
-   :homepage: http://biophylo.blogspot.com/
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/Bio::Phylo
+   :license: Perl_5
    :recipe: /`perl-bio-phylo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-phylo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-phylo/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-bio-phylo
       
       
 
-      ``0.58-5``,  ``0.58-4``,  ``0.58-3``,  ``0.58-2``,  ``0.58-1``,  ``0.58-0``
+      ``2.0.1-0``,  ``0.58-5``,  ``0.58-4``,  ``0.58-3``,  ``0.58-2``,  ``0.58-1``,  ``0.58-0``
 
       
 
@@ -95,7 +95,7 @@ perl-bio-phylo
 
     <script>
         var package = "perl-bio-phylo";
-        var versions = ["0.58","0.58","0.58","0.58","0.58"];
+        var versions = ["2.0.1","0.58","0.58","0.58","0.58"];
     </script>
 
 

@@ -6,15 +6,15 @@
 perl-findbin
 ============
 
-.. conda:recipe:: perl-findbin/1.51
+.. conda:recipe:: perl-findbin
    :replaces_section_title:
    :noindex:
 
-   Locate directory of original perl script
+   Locate directory of original perl script.
 
-   :homepage: http://metacpan.org/pod/FindBin
-   :license: perl_5
-   :recipe: /`perl-findbin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-findbin>`_/`1.51 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-findbin/1.51>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-findbin/1.51/meta.yaml>`_
+   :homepage: https://metacpan.org/pod/FindBin
+   :license: Perl_5
+   :recipe: /`perl-findbin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-findbin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-findbin/meta.yaml>`_
 
    
 
@@ -27,7 +27,7 @@ perl-findbin
       
       
 
-      ``1.51-3``,  ``1.51-2``,  ``1.51-1``,  ``1.51-0``
+      ``1.54-0``,  ``1.51-3``,  ``1.51-2``,  ``1.51-1``,  ``1.51-0``
 
       
 
@@ -83,7 +83,7 @@ perl-findbin
 
     <script>
         var package = "perl-findbin";
-        var versions = ["1.51","1.51","1.51","1.51"];
+        var versions = ["1.54","1.51","1.51","1.51","1.51"];
     </script>
 
 

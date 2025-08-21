@@ -27,12 +27,12 @@ hmnillumina
       
       
 
-      ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.3-0``
+      ``1.5.1-2``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.3-0``
 
       
 
    
-   :depends illumina-interop: ``>=1.3.2,<1.4.0a0``
+   :depends illumina-interop: ``>=1.5.0,<1.6.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
@@ -42,6 +42,10 @@ hmnillumina
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -89,7 +93,7 @@ hmnillumina
 
     <script>
         var package = "hmnillumina";
-        var versions = ["1.5.1","1.5.1","1.5.0","1.5.0","1.4.3"];
+        var versions = ["1.5.1","1.5.1","1.5.1","1.5.0","1.5.0"];
     </script>
 
 

@@ -43,8 +43,10 @@ bwa-mem2
       
 
    
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libgcc: 
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx: 
+   :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 

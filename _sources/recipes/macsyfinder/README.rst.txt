@@ -30,22 +30,15 @@ macsyfinder
       
       
 
-      ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1-0``,  ``2.0-0``
+      ``2.1.5-0``,  ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1-0``,  ``2.0-0``
 
       
 
    
-   :depends certifi: 
-   :depends colorama: ``>=0.4.4``
-   :depends colorlog: 
    :depends git: ``>1.7.0``
-   :depends gitpython: ``>=3.1.30``
    :depends hmmer: ``>=3.1b2,<=3.4``
-   :depends networkx: ``>=2.4``
-   :depends packaging: ``>=18.0``
-   :depends pandas: ``>=1.1.5,<=2.2.3``
+   :depends macsylib: ``>=1.0.3,<1.5``
    :depends python: ``>=3.10``
-   :depends pyyaml: ``>=5.1.1``
    :requirements:
 
    :additional platforms:
@@ -96,7 +89,7 @@ macsyfinder
 
     <script>
         var package = "macsyfinder";
-        var versions = ["2.1.4","2.1.4","2.1.3","2.1.2","2.1.1"];
+        var versions = ["2.1.5","2.1.4","2.1.4","2.1.3","2.1.2"];
     </script>
 
 
