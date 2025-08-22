@@ -18,6 +18,7 @@ r-archr
    :developer docs: https://github.com/GreenleafLab/ArchR
    :license: MIT / MIT
    :recipe: /`r-archr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-archr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-archr/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41588-021-00790-6`, biotools: :biotools:`archr`
 
    
 
@@ -30,30 +31,30 @@ r-archr
       
       
 
-      ``1.0.3-0``,  ``1.0.2-0``
+      ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-0``,  ``1.0.2-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.48.1,<0.49.0a0``
-   :depends bioconductor-biostrings: ``>=2.70.1,<2.71.0a0``
-   :depends bioconductor-chromvar: ``>=1.24.0,<1.25.0a0``
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0a0``
-   :depends bioconductor-genomicranges: ``>=1.54.1,<1.55.0a0``
-   :depends bioconductor-motifmatchr: ``>=1.24.0,<1.25.0a0``
-   :depends bioconductor-rhdf5: ``>=2.46.1,<2.47.0a0``
-   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0a0``
-   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0a0``
+   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0a0``
+   :depends bioconductor-chromvar: ``>=1.30.1,<2.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0a0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0a0``
+   :depends bioconductor-motifmatchr: ``>=1.28.0,<1.29.0a0``
+   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0a0``
+   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0a0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
    :depends bioconductor-s4vectors: ``>=0.9.25``
-   :depends bioconductor-sparsematrixstats: ``>=1.14.0,<1.15.0a0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0a0``
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-sparsematrixstats: ``>=1.18.0,<1.19.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-chromvarmotifs: ``>=0.2.0,<0.3.0a0``
    :depends r-data.table: 
    :depends r-devtools: 
-   :depends r-ggplot2: ``<3.5``
+   :depends r-ggplot2: 
    :depends r-ggrastr: 
    :depends r-ggrepel: 
    :depends r-gridextra: 
@@ -65,7 +66,7 @@ r-archr
    :depends r-matrixstats: 
    :depends r-nabor: 
    :depends r-plyr: 
-   :depends r-presto: ``>=1.0.0,<1.0.1.0a0``
+   :depends r-presto: ``>=1.0.0,<2.0a0``
    :depends r-rcpp: ``>=0.12.16``
    :depends r-rcpparmadillo: 
    :depends r-seurat: 
@@ -122,7 +123,7 @@ r-archr
 
     <script>
         var package = "r-archr";
-        var versions = ["1.0.3","1.0.2"];
+        var versions = ["1.0.3","1.0.3","1.0.3","1.0.2"];
     </script>
 
 

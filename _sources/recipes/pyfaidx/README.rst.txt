@@ -12,10 +12,10 @@ pyfaidx
 
    pyfaidx\: efficient pythonic random access to fasta subsequences
 
-   :homepage: https://github.com/mdshw5/pyfaidx/
-   :documentation: https://pythonhosted.org/pyfaidx/
+   :homepage: https://github.com/mdshw5/pyfaidx
+   :documentation: https://pypi.org/project/pyfaidx
    
-   :license: BSD / BSD License
+   :license: BSD / BSD
    :recipe: /`pyfaidx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyfaidx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyfaidx/meta.yaml>`_
    :links: biotools: :biotools:`pyfaidx`, doi: :doi:`10.7287/peerj.preprints.970v1`
 
@@ -31,10 +31,10 @@ pyfaidx
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.0-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1.4-0</code>,  <code>0.8.1.3-0</code>,  <code>0.8.1.2-0</code>,  <code>0.8.1.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.2.2-0</code>,  <code>0.7.2.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.0.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1.4-0</code>,  <code>0.8.1.3-0</code>,  <code>0.8.1.2-0</code>,  <code>0.8.1.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.2.2-0</code>,  </span></summary>
       
 
-      ``0.9.0-0``,  ``0.8.2-0``,  ``0.8.1.4-0``,  ``0.8.1.3-0``,  ``0.8.1.2-0``,  ``0.8.1.1-0``,  ``0.8.0-0``,  ``0.7.2.2-0``,  ``0.7.2.1-1``,  ``0.7.2.1-0``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.4-0``,  ``0.6.3.1-1``,  ``0.6.3.1-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.9.5-0``,  ``0.5.9.4-0``,  ``0.5.9.2-0``,  ``0.5.9.1-1``,  ``0.5.9.1-0``,  ``0.5.9-1``,  ``0.5.9-0``,  ``0.5.8-1``,  ``0.5.8-0``,  ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.5.2-1``,  ``0.5.5.2-0``,  ``0.5.4.1-0``,  ``0.5.3-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.9.2-0``,  ``0.4.8.1-4``,  ``0.4.8.1-3``,  ``0.4.8.1-2``,  ``0.4.8.1-0``,  ``0.4.7.1-3``,  ``0.4.7.1-2``,  ``0.4.7.1-0``,  ``0.4.4-0``
+      ``0.9.0.1-0``,  ``0.9.0-0``,  ``0.8.2-0``,  ``0.8.1.4-0``,  ``0.8.1.3-0``,  ``0.8.1.2-0``,  ``0.8.1.1-0``,  ``0.8.0-0``,  ``0.7.2.2-0``,  ``0.7.2.1-1``,  ``0.7.2.1-0``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.4-0``,  ``0.6.3.1-1``,  ``0.6.3.1-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.9.5-0``,  ``0.5.9.4-0``,  ``0.5.9.2-0``,  ``0.5.9.1-1``,  ``0.5.9.1-0``,  ``0.5.9-1``,  ``0.5.9-0``,  ``0.5.8-1``,  ``0.5.8-0``,  ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.5.2-1``,  ``0.5.5.2-0``,  ``0.5.4.1-0``,  ``0.5.3-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.9.2-0``,  ``0.4.8.1-4``,  ``0.4.8.1-3``,  ``0.4.8.1-2``,  ``0.4.8.1-0``,  ``0.4.7.1-3``,  ``0.4.7.1-2``,  ``0.4.7.1-0``,  ``0.4.4-0``
 
       
       .. raw:: html
@@ -100,7 +100,7 @@ pyfaidx
 
     <script>
         var package = "pyfaidx";
-        var versions = ["0.9.0","0.8.2","0.8.1.4","0.8.1.3","0.8.1.2"];
+        var versions = ["0.9.0.1","0.9.0","0.8.2","0.8.1.4","0.8.1.3"];
     </script>
 
 

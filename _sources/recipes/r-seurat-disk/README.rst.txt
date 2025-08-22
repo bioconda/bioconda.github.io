@@ -12,7 +12,7 @@ r-seurat-disk
 
    The h5Seurat file format is specifically designed for the storage and analysis of multi\-modal single\-cell and spatially\-resolved expression experiments\, for example\, from CITE\-seq or 10X Visium technologies. It holds all molecular information and associated metadata\, including \(for example\) nearest\-neighbor graphs\, dimensional reduction information\, spatial coordinates and image data\, and cluster labels. We also support rapid and on\-disk conversion between h5Seurat and AnnData objects\, with the goal of enhancing interoperability between Seurat and Scanpy.
 
-   :homepage: https://mojaveazure.github.io/seurat-disk/
+   :homepage: https://mojaveazure.github.io/seurat-disk
    :developer docs: https://github.com/mojaveazure/seurat-disk
    :license: GPL3 / GPL-3.0-only
    :recipe: /`r-seurat-disk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-seurat-disk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-seurat-disk/meta.yaml>`_
@@ -28,7 +28,7 @@ r-seurat-disk
       
       
 
-      ``0.0.0.9021-1``,  ``0.0.0.9021-0``
+      ``0.0.0.9021-2``,  ``0.0.0.9021-1``,  ``0.0.0.9021-0``
 
       
 
@@ -94,7 +94,7 @@ r-seurat-disk
 
     <script>
         var package = "r-seurat-disk";
-        var versions = ["0.0.0.9021","0.0.0.9021"];
+        var versions = ["0.0.0.9021","0.0.0.9021","0.0.0.9021"];
     </script>
 
 

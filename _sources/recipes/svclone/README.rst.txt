@@ -10,7 +10,7 @@ svclone
    :replaces_section_title:
    :noindex:
 
-   Computational method for inferring cancer cell fraction of tumour SVs from WGS
+   Computational method for inferring cancer cell fraction of tumour SVs from WGS.
 
    :homepage: https://github.com/mcmero/SVclone
    :license: BSD / BSD-3-Clause
@@ -31,7 +31,7 @@ svclone
       
       
 
-      ``1.1.3-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``v1.1.0-0``
+      ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``v1.1.0-0``
 
       
 
@@ -41,7 +41,7 @@ svclone
    :depends pysam: 
    :depends python: ``>=3``
    :depends pyvcf: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ccube: 
    :depends r-doparallel: 
    :requirements:
@@ -94,7 +94,7 @@ svclone
 
     <script>
         var package = "svclone";
-        var versions = ["1.1.3","1.1.2","1.1.2","1.1.1","1.1.0"];
+        var versions = ["1.1.4","1.1.3","1.1.2","1.1.2","1.1.1"];
     </script>
 
 

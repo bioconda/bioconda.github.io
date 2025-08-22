@@ -12,7 +12,9 @@ r-seurat-data
 
    Single cell RNA sequencing datasets can be large\, consisting of matrices that contain expression data for several thousand features across several thousand cells. This package is designed to easily install\, manage\, and learn about various single\-cell datasets\, provided Seurat objects and distributed as independent packages.
 
-   :homepage: http://www.satijalab.org/seurat
+   :homepage: https://www.satijalab.org/seurat
+   :documentation: https://github.com/satijalab/seurat-data/blob/main/README.md
+   
    :developer docs: https://github.com/satijalab/seurat-data
    :license: GPL3 / GPL-3.0-only
    :recipe: /`r-seurat-data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-seurat-data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-seurat-data/meta.yaml>`_
@@ -28,7 +30,7 @@ r-seurat-data
       
       
 
-      ``0.2.1-1``,  ``0.2.1-0``
+      ``0.2.2.9002-0``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``
 
       
 
@@ -37,6 +39,8 @@ r-seurat-data
    :depends r-cli: 
    :depends r-crayon: 
    :depends r-rappdirs: 
+   :depends r-seurat: ``>=5``
+   :depends r-seuratobject: ``>=5``
    :requirements:
 
    :additional platforms:
@@ -87,7 +91,7 @@ r-seurat-data
 
     <script>
         var package = "r-seurat-data";
-        var versions = ["0.2.1","0.2.1"];
+        var versions = ["0.2.2.9002","0.2.1","0.2.1","0.2.1"];
     </script>
 
 

@@ -10,11 +10,14 @@ skesa
    :replaces_section_title:
    :noindex:
 
-   Strategic Kmer Extension for Scrupulous Assemblies \& Sequence Assembly Using Target Enrichment
+   Strategic Kmer Extension for Scrupulous Assemblies \& Sequence Assembly Using Target Enrichment.
 
    :homepage: https://github.com/ncbi/SKESA
+   :documentation: https://github.com/ncbi/SKESA/blob/skesa.2.4.0_saute.1.3.0_2/README.md
+   
    :license: Public Domain
    :recipe: /`skesa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/skesa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/skesa/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s13059-018-1540-z`, doi: :doi:`10.1186/s12859-021-04174-9`
 
    
 
@@ -28,10 +31,10 @@ skesa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5.1-2</code>,  <code>2.5.1-1</code>,  <code>2.5.1-0</code>,  <code>2.4.0-0</code>,  <code>2.3.0-2</code>,  <code>2.3.0-1</code>,  <code>2.3.0-0</code>,  <code>2.2-2</code>,  <code>2.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.5.1-3</code>,  <code>2.5.1-2</code>,  <code>2.5.1-1</code>,  <code>2.5.1-0</code>,  <code>2.4.0-0</code>,  <code>2.3.0-2</code>,  <code>2.3.0-1</code>,  <code>2.3.0-0</code>,  <code>2.2-2</code>,  </span></summary>
       
 
-      ``2.5.1-2``,  ``2.5.1-1``,  ``2.5.1-0``,  ``2.4.0-0``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2-2``,  ``2.2-1``,  ``2.1-0``
+      ``2.5.1-3``,  ``2.5.1-2``,  ``2.5.1-1``,  ``2.5.1-0``,  ``2.4.0-0``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2-2``,  ``2.2-1``,  ``2.1-0``
 
       
       .. raw:: html
@@ -40,6 +43,7 @@ skesa
       
 
    
+   :depends boost-cpp: ``>=1.70,<1.72``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libstdcxx-ng: 
@@ -50,7 +54,7 @@ skesa
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -98,7 +102,7 @@ skesa
 
     <script>
         var package = "skesa";
-        var versions = ["2.5.1","2.5.1","2.5.1","2.4.0","2.3.0"];
+        var versions = ["2.5.1","2.5.1","2.5.1","2.5.1","2.4.0"];
     </script>
 
 

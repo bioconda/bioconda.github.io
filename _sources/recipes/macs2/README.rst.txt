@@ -10,12 +10,11 @@ macs2
    :replaces_section_title:
    :noindex:
 
-   Model Based Analysis for ChIP\-Seq data
+   Model Based Analysis for ChIP\-Seq data.
 
-   :homepage: https://pypi.org/project/MACS2/
-   :documentation: https://macs3-project.github.io/MACS/
+   :homepage: https://github.com/macs3-project/MACS
+   :documentation: https://macs3-project.github.io/MACS
    
-   :developer docs: https://github.com/macs3-project/MACS/
    :license: BSD / BSD-3-Clause
    :recipe: /`macs2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/macs2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/macs2/meta.yaml>`_
    :links: usegalaxy-eu: :usegalaxy-eu:`peakcalling_macs`, biotools: :biotools:`macs`, doi: :doi:`10.1186/gb-2008-9-9-r137`
@@ -32,10 +31,10 @@ macs2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.9.1-3</code>,  <code>2.2.9.1-2</code>,  <code>2.2.9.1-1</code>,  <code>2.2.9.1-0</code>,  <code>2.2.7.1-5</code>,  <code>2.2.7.1-4</code>,  <code>2.2.7.1-3</code>,  <code>2.2.7.1-2</code>,  <code>2.2.7.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.9.1-4</code>,  <code>2.2.9.1-3</code>,  <code>2.2.9.1-2</code>,  <code>2.2.9.1-1</code>,  <code>2.2.9.1-0</code>,  <code>2.2.7.1-5</code>,  <code>2.2.7.1-4</code>,  <code>2.2.7.1-3</code>,  <code>2.2.7.1-2</code>,  </span></summary>
       
 
-      ``2.2.9.1-3``,  ``2.2.9.1-2``,  ``2.2.9.1-1``,  ``2.2.9.1-0``,  ``2.2.7.1-5``,  ``2.2.7.1-4``,  ``2.2.7.1-3``,  ``2.2.7.1-2``,  ``2.2.7.1-1``,  ``2.2.7.1-0``,  ``2.2.6-0``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.1.4-0``,  ``2.1.3.3-0``,  ``2.1.3.2-0``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1.20160309-3``,  ``2.1.1.20160309-2``,  ``2.1.1.20160309-1``,  ``2.1.1.20160309-0``,  ``2.1.1-0``,  ``2.1.0-0``
+      ``2.2.9.1-4``,  ``2.2.9.1-3``,  ``2.2.9.1-2``,  ``2.2.9.1-1``,  ``2.2.9.1-0``,  ``2.2.7.1-5``,  ``2.2.7.1-4``,  ``2.2.7.1-3``,  ``2.2.7.1-2``,  ``2.2.7.1-1``,  ``2.2.7.1-0``,  ``2.2.6-0``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.1.4-0``,  ``2.1.3.3-0``,  ``2.1.3.2-0``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1.20160309-3``,  ``2.1.1.20160309-2``,  ``2.1.1.20160309-1``,  ``2.1.1.20160309-0``,  ``2.1.1-0``,  ``2.1.0-0``
 
       
       .. raw:: html
@@ -45,8 +44,8 @@ macs2
 
    
    :depends libgcc: ``>=13``
+   :depends numpy: ``>=1.19.0``
    :depends numpy: ``>=1.21,<3``
-   :depends numpy: ``>=2.2.3,<3.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends r-base: 
@@ -56,7 +55,7 @@ macs2
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -104,7 +103,7 @@ macs2
 
     <script>
         var package = "macs2";
-        var versions = ["2.2.9.1","2.2.9.1","2.2.9.1","2.2.9.1","2.2.7.1"];
+        var versions = ["2.2.9.1","2.2.9.1","2.2.9.1","2.2.9.1","2.2.9.1"];
     </script>
 
 

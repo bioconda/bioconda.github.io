@@ -13,7 +13,7 @@ annotsv
    Annotation and Ranking of Structural Variation.
 
    :homepage: https://github.com/lgmgeo/AnnotSV
-   :documentation: https://github.com/lgmgeo/AnnotSV/blob/master/README.AnnotSV_3.5.pdf
+   :documentation: https://github.com/lgmgeo/AnnotSV/blob/master/README.AnnotSV_3.5.1.pdf
    
    :license: GPL3 / GPL-3.0-only
    :recipe: /`annotsv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/annotsv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/annotsv/meta.yaml>`_
@@ -30,10 +30,10 @@ annotsv
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.5-0</code>,  <code>3.4.6-0</code>,  <code>3.4.4-0</code>,  <code>3.4.3-0</code>,  <code>3.4.2-0</code>,  <code>3.4.1-1</code>,  <code>3.4.1-0</code>,  <code>3.4-1</code>,  <code>3.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.5.1-0</code>,  <code>3.5-0</code>,  <code>3.4.6-0</code>,  <code>3.4.4-0</code>,  <code>3.4.3-0</code>,  <code>3.4.2-0</code>,  <code>3.4.1-1</code>,  <code>3.4.1-0</code>,  <code>3.4-1</code>,  </span></summary>
       
 
-      ``3.5-0``,  ``3.4.6-0``,  ``3.4.4-0``,  ``3.4.3-0``,  ``3.4.2-0``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4-1``,  ``3.4-0``,  ``3.3.9-0``,  ``3.3.8-0``,  ``3.3.7-0``,  ``3.3.6-0``,  ``3.3.5-0``,  ``3.3.4-1``,  ``3.3.4-0``
+      ``3.5.1-0``,  ``3.5-0``,  ``3.4.6-0``,  ``3.4.4-0``,  ``3.4.3-0``,  ``3.4.2-0``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4-1``,  ``3.4-0``,  ``3.3.9-0``,  ``3.3.8-0``,  ``3.3.7-0``,  ``3.3.6-0``,  ``3.3.5-0``,  ``3.3.4-1``,  ``3.3.4-0``
 
       
       .. raw:: html
@@ -55,7 +55,7 @@ annotsv
    :depends pandas: ``>=1.5.2``
    :depends polars: ``>=0.16.5``
    :depends pyfaidx: ``>=0.7.1``
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.13,<3.14.0a0``
    :depends tk: ``>=8.5``
    :depends tqdm: ``>=4.64.1``
    :depends unzip: 
@@ -109,7 +109,7 @@ annotsv
 
     <script>
         var package = "annotsv";
-        var versions = ["3.5","3.4.6","3.4.4","3.4.3","3.4.2"];
+        var versions = ["3.5.1","3.5","3.4.6","3.4.4","3.4.3"];
     </script>
 
 

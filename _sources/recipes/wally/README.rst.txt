@@ -15,6 +15,7 @@ wally
    :homepage: https://github.com/tobiasrausch/wally
    :license: BSD / BSD-3-Clause
    :recipe: /`wally <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wally>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wally/meta.yaml>`_
+   :links: doi: :doi:`10.1016/j.xgen.2023.100281`
 
    
 
@@ -28,10 +29,10 @@ wally
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.1-0</code>,  <code>0.6.1-1</code>,  <code>0.6.1-0</code>,  <code>0.5.9-0</code>,  <code>0.5.8-2</code>,  <code>0.5.8-1</code>,  <code>0.5.8-0</code>,  <code>0.5.7-0</code>,  <code>0.5.6-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.1-1</code>,  <code>0.7.1-0</code>,  <code>0.6.1-1</code>,  <code>0.6.1-0</code>,  <code>0.5.9-0</code>,  <code>0.5.8-2</code>,  <code>0.5.8-1</code>,  <code>0.5.8-0</code>,  <code>0.5.7-0</code>,  </span></summary>
       
 
-      ``0.7.1-0``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.9-0``,  ``0.5.8-2``,  ``0.5.8-1``,  ``0.5.8-0``,  ``0.5.7-0``,  ``0.5.6-2``,  ``0.5.6-1``,  ``0.5.6-0``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2.5-1``,  ``0.2.5-0``
+      ``0.7.1-1``,  ``0.7.1-0``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.9-0``,  ``0.5.8-2``,  ``0.5.8-1``,  ``0.5.8-0``,  ``0.5.7-0``,  ``0.5.6-2``,  ``0.5.6-1``,  ``0.5.6-0``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2.5-1``,  ``0.2.5-0``
 
       
       .. raw:: html
@@ -42,21 +43,20 @@ wally
    
    :depends boost-cpp: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
    :depends libdeflate: ``>=1.22,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends libopencv: ``>=4.11.0,<4.11.1.0a0``
    :depends libopencv: ``>=4.5.3``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -104,7 +104,7 @@ wally
 
     <script>
         var package = "wally";
-        var versions = ["0.7.1","0.6.1","0.6.1","0.5.9","0.5.8"];
+        var versions = ["0.7.1","0.7.1","0.6.1","0.6.1","0.5.9"];
     </script>
 
 

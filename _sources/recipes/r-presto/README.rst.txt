@@ -13,7 +13,7 @@ r-presto
    Scalable implementation of the Wilcoxon rank sum test and auROC statistic. Interfaces to dense and sparse matrices\, as well as genomics analysis frameworks Seurat and SingleCellExperiment.
 
    :homepage: https://github.com/immunogenomics/presto
-   :documentation: https://immunogenomics.github.io/presto/
+   :documentation: https://immunogenomics.github.io/presto
    
    :license: GPL3 / GPL-3.0-only
    :recipe: /`r-presto <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-presto>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-presto/meta.yaml>`_
@@ -29,14 +29,14 @@ r-presto
       
       
 
-      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-matrix: 
@@ -49,6 +49,10 @@ r-presto
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -96,7 +100,7 @@ r-presto
 
     <script>
         var package = "r-presto";
-        var versions = ["1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.0.0","1.0.0","1.0.0","1.0.0"];
     </script>
 
 

@@ -10,12 +10,13 @@ bioconductor-chromvar
    :replaces_section_title:
    :noindex:
 
-   Chromatin Variation Across Regions
+   Chromatin Variation Across Regions.
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/chromVAR.html
-   :license: MIT + file LICENSE
+   :homepage: https://bioconductor.org/packages/3.21/bioc/html/chromVAR.html
+   :developer docs: https://bioconductor.org/packages/devel/bioc/html/chromVAR.html
+   :license: MIT / MIT
    :recipe: /`bioconductor-chromvar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromvar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromvar/meta.yaml>`_
-   :links: biotools: :biotools:`chromvar`
+   :links: biotools: :biotools:`chromvar`, doi: :doi:`10.1038/nmeth.4401`
 
    Determine variation in chromatin accessibility across sets of annotations or peaks. Designed primarily for single\-cell or sparse chromatin accessibility data\, e.g. from scATAC\-seq or sparse bulk ATAC or DNAse\-seq experiments.
 
@@ -29,10 +30,10 @@ bioconductor-chromvar
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.1-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.16.0-2</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.30.1-0</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.1-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.16.0-2</code>,  <code>1.16.0-1</code>,  </span></summary>
       
 
-      ``1.28.0-1``,  ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.1-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.16.0-2``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.30.1-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.1-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.16.0-2``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
       .. raw:: html
@@ -65,6 +66,8 @@ bioconductor-chromvar
    :depends bioconductor-tfbstools: ``>=1.44.0,<1.45.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc: ``>=13``
+   :depends libgfortran: 
+   :depends libgfortran5: ``>=13.4.0``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
@@ -85,7 +88,7 @@ bioconductor-chromvar
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -133,7 +136,7 @@ bioconductor-chromvar
 
     <script>
         var package = "bioconductor-chromvar";
-        var versions = ["1.28.0","1.28.0","1.24.0","1.22.1","1.20.0"];
+        var versions = ["1.30.1","1.28.0","1.28.0","1.24.0","1.22.1"];
     </script>
 
 
