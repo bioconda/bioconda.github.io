@@ -31,10 +31,10 @@ pyopenms
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.0-5</code>,  <code>3.3.0-0</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>3.1.0-0</code>,  <code>3.0.0-0</code>,  <code>2.9.1-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.1-1</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.0-5</code>,  <code>3.3.0-0</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>3.1.0-0</code>,  <code>3.0.0-0</code>,  </span></summary>
       
 
-      ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.0-5``,  ``3.3.0-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.9.1-3``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``,  ``2.4.0-0``
+      ``3.4.1-1``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.0-5``,  ``3.3.0-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.9.1-3``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``,  ``2.4.0-0``
 
       
       .. raw:: html
@@ -43,41 +43,27 @@ pyopenms
       
 
    
-   :depends __glibc: ``>=2.17,<3.0.a0``
-   :depends _openmp_mutex: ``>=4.5``
-   :depends boost-cpp: ``>=1.85.0,<1.86.0a0``
-   :depends bzip2: ``>=1.0.8,<1.1.0a0``
-   :depends coinmp: ``>=1.8.4,<1.9.0a0``
-   :depends eigen: ``>=3.4.0``
    :depends eigen: ``>=3.4.0,<3.5.0a0``
-   :depends hdf5: ``>=1.14.3,<1.15.0a0``
-   :depends icu: ``>=75.1,<76.0a0``
    :depends libgcc: ``>=13``
-   :depends libgomp: 
+   :depends libopenms: ``3.4.1``
    :depends libopenms: ``3.4.1.*``
-   :depends libopenms: ``>=3.4.1``
    :depends libstdcxx: ``>=13``
-   :depends libsvm: ``>=335,<336.0a0``
    :depends libsvm: ``>=335,<400``
-   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends matplotlib-base: 
    :depends numpy: ``>=1.21,<3``
    :depends numpy: ``>=2.0``
    :depends pandas: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends qt6-main: 
-   :depends sysroot_linux-64: ``2.17.*``
+   :depends qt6-main: ``>=6.7.3,<6.8.0a0``
    :depends xerces-c: ``>=3.2.5,<3.3.0a0``
-   :depends yaml-cpp: ``>=0.8.0,<0.9.0a0``
-   :depends zlib: ``>=1.3.1,<1.4.0a0``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -125,7 +111,7 @@ pyopenms
 
     <script>
         var package = "pyopenms";
-        var versions = ["3.4.1","3.4.0","3.3.0","3.3.0","3.2.0"];
+        var versions = ["3.4.1","3.4.1","3.4.0","3.3.0","3.3.0"];
     </script>
 
 

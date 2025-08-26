@@ -30,7 +30,7 @@ pyani-plus
       
       
 
-      ``0.0.1-0``
+      ``1.0.0-0``,  ``0.0.1-0``
 
       
 
@@ -101,7 +101,7 @@ pyani-plus
 
     <script>
         var package = "pyani-plus";
-        var versions = ["0.0.1"];
+        var versions = ["1.0.0","0.0.1"];
     </script>
 
 

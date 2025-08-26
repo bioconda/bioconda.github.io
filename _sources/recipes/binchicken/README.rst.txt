@@ -30,10 +30,10 @@ binchicken
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.13.2-0</code>,  <code>0.13.1-0</code>,  <code>0.13.0-0</code>,  <code>0.12.11-0</code>,  <code>0.12.6-1</code>,  <code>0.12.6-0</code>,  <code>0.12.5-1</code>,  <code>0.12.5-0</code>,  <code>0.12.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.13.2-1</code>,  <code>0.13.2-0</code>,  <code>0.13.1-0</code>,  <code>0.13.0-0</code>,  <code>0.12.11-0</code>,  <code>0.12.6-1</code>,  <code>0.12.6-0</code>,  <code>0.12.5-1</code>,  <code>0.12.5-0</code>,  </span></summary>
       
 
-      ``0.13.2-0``,  ``0.13.1-0``,  ``0.13.0-0``,  ``0.12.11-0``,  ``0.12.6-1``,  ``0.12.6-0``,  ``0.12.5-1``,  ``0.12.5-0``,  ``0.12.4-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-1``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.5-0``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.0-0``
+      ``0.13.2-1``,  ``0.13.2-0``,  ``0.13.1-0``,  ``0.13.0-0``,  ``0.12.11-0``,  ``0.12.6-1``,  ``0.12.6-0``,  ``0.12.5-1``,  ``0.12.5-0``,  ``0.12.4-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-1``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.5-0``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.0-0``
 
       
       .. raw:: html
@@ -42,13 +42,14 @@ binchicken
       
 
    
-   :depends bird_tool_utils_python: 
+   :depends bird_tool_utils_python: ``>=0.5.1``
    :depends extern: 
    :depends mamba: ``1.4.*``
    :depends networkx: 
    :depends parallel: 
    :depends pigz: 
-   :depends polars: ``1.2.*``
+   :depends pixi: 
+   :depends polars: ``1.26.*``
    :depends pyarrow: 
    :depends pyopenssl: ``>22.1.0``
    :depends python: ``3.10.*``
@@ -106,7 +107,7 @@ binchicken
 
     <script>
         var package = "binchicken";
-        var versions = ["0.13.2","0.13.1","0.13.0","0.12.11","0.12.6"];
+        var versions = ["0.13.2","0.13.2","0.13.1","0.13.0","0.12.11"];
     </script>
 
 
