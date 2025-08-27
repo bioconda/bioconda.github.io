@@ -37,10 +37,8 @@ bioconductor-rarr
    :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0``
    :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libcxx: ``>=18``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-httr: 
    :depends r-jsonlite: 

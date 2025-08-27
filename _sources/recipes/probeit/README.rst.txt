@@ -35,8 +35,7 @@ probeit
    :depends bedtools: 
    :depends biopython: 
    :depends genmap: 
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libcxx: ``>=18``
    :depends mmseqs2: ``>=13.45111``
    :depends numpy: 
    :depends pandas: 

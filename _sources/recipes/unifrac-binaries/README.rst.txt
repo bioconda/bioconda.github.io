@@ -46,14 +46,12 @@ unifrac-binaries
       
 
    
-   :depends libaec: ``>=1.1.4,<2.0a0``
    :depends libcblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libcxx: ``>=17``
    :depends liblapacke: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends llvm-openmp: ``>=18.1.8``
+   :depends llvm-openmp: ``>=20.1.8``
    :depends lz4: 
-   :depends zlib: 
    :requirements:
 
    :additional platforms:

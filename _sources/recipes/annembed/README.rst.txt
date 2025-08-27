@@ -41,8 +41,8 @@ annembed
       
 
    
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libcxx: ``>=18``
+   :depends openblas: 
    :requirements:
 
    :additional platforms:

@@ -32,7 +32,6 @@ smudgeplot_rn
       
 
    
-   :depends libgcc: ``>=13``
    :depends numpy: 
    :depends python: ``>=3.13,<3.14.0a0``
    :depends r-argparse: 

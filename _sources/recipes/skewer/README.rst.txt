@@ -33,8 +33,7 @@ skewer
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libcxx: ``>=9.0.1``
    :requirements:
 
    :additional platforms:

@@ -34,8 +34,7 @@ genomeconstellation
 
    
    :depends boost-cpp: 
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libcxx: ``>=18``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 

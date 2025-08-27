@@ -45,20 +45,19 @@ b2btools
       
 
    
-   :depends biopython: ``>=1.80,<2``
+   :depends biopython: ``>=1.83,<2``
    :depends hmmer: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=17``
    :depends matplotlib-base: ``>=3.5.3,<3.6``
-   :depends numpy: ``1.24.4``
+   :depends numpy: ``>=1.21.6,<1.27``
    :depends pandas: ``>=1.5.3,<1.6``
    :depends pomegranate: ``>=0.14.8,<=0.14.9``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends pytorch: ``>=1.11.0,<=1.13.1``
-   :depends requests: ``>=2.0``
+   :depends requests: ``>=2.31.0,<2.32``
    :depends scikit-learn: ``1.0.2``
-   :depends scipy: ``1.10.1``
+   :depends scipy: ``1.12.0``
    :depends t-coffee: 
    :depends urllib3: ``>=1.26.6,<1.27``
    :requirements:

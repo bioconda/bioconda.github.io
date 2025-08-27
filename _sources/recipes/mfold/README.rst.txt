@@ -33,10 +33,9 @@ mfold
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libgfortran-ng: 
+   :depends libcxx: ``>=15.0.7``
+   :depends libgfortran: ``5.*``
    :depends libgfortran5: ``>=12.2.0``
-   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    :additional platforms:

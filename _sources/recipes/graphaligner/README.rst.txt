@@ -45,9 +45,8 @@ graphaligner
    
    :depends bamtools: ``>=2.5.3,<3.0a0``
    :depends jemalloc: ``5.2.0``
+   :depends libcxx: ``>=18``
    :depends libdivsufsort: ``>=2.0.2,<2.1.0a0``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends protobuf: ``<5``
    :requirements:

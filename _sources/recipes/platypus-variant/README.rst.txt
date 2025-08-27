@@ -41,9 +41,8 @@ platypus-variant
 
    
    :depends htslib: ``>=1.17,<1.23.0a0``
-   :depends libgcc-ng: ``>=12``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :requirements:
 
    :additional platforms:

@@ -41,7 +41,6 @@ fanc
    :depends gridmap: ``>=0.14.0``
    :depends h5py: 
    :depends intervaltree: 
-   :depends libgcc-ng: ``>=10.3.0``
    :depends matplotlib-base: 
    :depends msgpack-numpy: ``>=0.4.4.3``
    :depends msgpack-python: 

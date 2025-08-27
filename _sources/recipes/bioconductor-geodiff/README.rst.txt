@@ -39,9 +39,8 @@ bioconductor-geodiff
    :depends bioconductor-nanostringnctools: ``>=1.14.0,<1.15.0``
    :depends bioconductor-nanostringnctools: ``>=1.14.0,<1.15.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libcxx: ``>=18``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-lme4: 
    :depends r-matrix: 

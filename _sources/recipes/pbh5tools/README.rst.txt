@@ -33,11 +33,10 @@ pbh5tools
 
    
    :depends h5py: ``>=1.3.0``
-   :depends libgcc-ng: ``>=10.3.0``
    :depends numpy: ``>=1.6.0``
    :depends pbcore: ``>=0.8.0``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :depends setuptools: 
    :requirements:
 

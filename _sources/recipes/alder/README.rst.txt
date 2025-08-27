@@ -33,11 +33,11 @@ alder
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
    :depends fftw: ``>=3.3.10,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libcxx: ``>=18``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
+   :depends llvm-openmp: ``>=18.1.8``
+   :depends llvm-openmp: ``>=19.1.5``
    :requirements:
 
    :additional platforms:

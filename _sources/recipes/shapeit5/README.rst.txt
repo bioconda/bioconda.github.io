@@ -38,10 +38,9 @@ shapeit5
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends htslib: ``>=1.21,<1.23.0a0``
    :depends libcurl: ``>=8.12.1,<9.0a0``
+   :depends libcxx: ``>=18``
    :depends libdeflate: ``>=1.22,<1.23.0a0``
-   :depends libgcc: ``>=13``
    :depends liblzma: ``>=5.6.4,<6.0a0``
-   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 

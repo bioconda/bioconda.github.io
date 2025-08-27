@@ -42,7 +42,7 @@ b2b-utils
    
    :depends bwa: ``>=0.7.18,<0.8.0a0``
    :depends mafft: ``>=7.526,<8.0a0``
-   :depends medaka: ``>=2.0.1,<3.0a0``
+   :depends medaka: ``>=1.11.3,<2.0a0``
    :depends miniasm: ``>=0.3,<0.4.0a0``
    :depends minimap2: ``>=2.28,<3.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
@@ -53,7 +53,6 @@ b2b-utils
    :depends perl-list-moreutils: 
    :depends perl-module-build: ``0.4234.*``
    :depends perl-perlio-gzip: ``>=0.20,<0.21.0a0``
-   :depends samtools: ``>=1.21,<2.0a0``
    :requirements:
 
    :additional platforms:

@@ -32,8 +32,7 @@ hmftools-bwa-plus
       
 
    
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libcxx: ``>=18``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends sambamba: ``>=1.0.1``
    :requirements:

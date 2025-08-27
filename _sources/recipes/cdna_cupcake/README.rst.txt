@@ -44,7 +44,6 @@ cdna_cupcake
    :depends biopython: 
    :depends bx-python: ``>=0.7.3``
    :depends graphviz: 
-   :depends libgcc-ng: ``>=12``
    :depends numpy: ``>=1.21.6,<2.0a0``
    :depends pysam: 
    :depends python: ``>=3.10,<3.11.0a0``

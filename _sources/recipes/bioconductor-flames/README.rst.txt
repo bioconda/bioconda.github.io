@@ -32,6 +32,7 @@ bioconductor-flames
       
 
    
+   :depends __osx: ``>=10.9``
    :depends bioconductor-bambu: ``>=3.4.0,<3.5.0``
    :depends bioconductor-bambu: ``>=3.4.0,<3.5.0a0``
    :depends bioconductor-basilisk: ``>=1.14.0,<1.15.0``
@@ -77,9 +78,8 @@ bioconductor-flames
    :depends bioconductor-zlibbioc: ``>=1.48.0,<1.49.0``
    :depends bioconductor-zlibbioc: ``>=1.48.0,<1.49.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-circlize: 
    :depends r-cowplot: 

@@ -34,8 +34,7 @@ corona_lineage_dynamics
    
    :depends boost: 
    :depends libboost: ``>=1.84.0,<1.85.0a0``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libcxx: ``>=18``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-binom: 

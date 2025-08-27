@@ -41,7 +41,6 @@ sqt
 
    
    :depends cutadapt: 
-   :depends libgcc-ng: ``>=12``
    :depends matplotlib: 
    :depends pysam: 
    :depends python: ``>=3.10,<3.11.0a0``

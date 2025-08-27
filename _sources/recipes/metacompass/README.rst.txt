@@ -37,8 +37,7 @@ metacompass
    
    :depends blast: ``>=2.4.0``
    :depends bowtie2: ``>=2.2.5``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libcxx: ``>=18``
    :depends megahit: ``>=1.0.6``
    :depends openjdk: ``>=7``
    :depends perl: ``>=5.16``

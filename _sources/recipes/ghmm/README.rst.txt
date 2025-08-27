@@ -32,11 +32,10 @@ ghmm
       
 
    
-   :depends libgcc-ng: ``>=12``
    :depends libxml2: ``>=2.9.14,<2.10.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :depends swig: 
    :requirements:
 

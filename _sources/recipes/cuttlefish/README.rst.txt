@@ -44,9 +44,8 @@ cuttlefish
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc: ``>=12``
+   :depends libcxx: ``>=16``
    :depends libjemalloc: ``>=5.3.0``
-   :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 

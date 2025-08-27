@@ -41,14 +41,12 @@ hifive
 
    
    :depends h5py: 
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
-   :depends mpi4py: 
+   :depends libcxx: ``>=12.0.1``
    :depends numpy: 
    :depends pillow: 
    :depends pysam: 
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :depends pyx: ``0.12.1``
    :depends scipy: 
    :depends setuptools_cython: 

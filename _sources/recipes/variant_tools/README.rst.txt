@@ -36,8 +36,7 @@ variant_tools
    :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
    :depends gsl: ``>=2.6,<2.7.0a0``
    :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libcxx: ``>=9.0.1``
    :depends numpy: 
    :depends pycurl: 
    :depends pytables: 

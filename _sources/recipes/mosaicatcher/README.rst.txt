@@ -34,8 +34,7 @@ mosaicatcher
    
    :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
    :depends htslib: ``>=1.17,<1.23.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :requirements:
 
    :additional platforms:

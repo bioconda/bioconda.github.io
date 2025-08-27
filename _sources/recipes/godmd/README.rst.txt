@@ -32,11 +32,11 @@ godmd
       
 
    
-   :depends libgcc: ``>=13``
-   :depends libgfortran: 
+   :depends libcxx: ``>=18``
+   :depends libgfortran: ``5.*``
    :depends libgfortran5: ``>=13.3.0``
-   :depends libstdcxx: ``>=13``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends libgfortran5: ``>=14.2.0``
+   :depends python_abi: ``3.12.* *_cp312``
    :requirements:
 
    :additional platforms:

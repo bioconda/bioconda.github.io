@@ -34,7 +34,6 @@ svviz
    
    :depends flask: 
    :depends joblib: 
-   :depends libgcc-ng: ``>=12``
    :depends numpy: 
    :depends pyfaidx: 
    :depends pysam: ``>=0.7.8``

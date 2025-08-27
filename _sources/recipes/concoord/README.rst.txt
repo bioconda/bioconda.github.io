@@ -32,6 +32,7 @@ concoord
       
 
    
+   :depends libgcc: ``==4.8.5 1``
    :requirements:
 
    :additional platforms:

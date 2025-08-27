@@ -36,14 +36,13 @@ tadbit
    :depends future: 
    :depends gem3-mapper: 
    :depends h5py: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=14.0.4``
    :depends matplotlib-base: 
    :depends mcl: 
    :depends numpy: 
    :depends pysam: 
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :depends samtools: 
    :depends scipy: 
    :requirements:

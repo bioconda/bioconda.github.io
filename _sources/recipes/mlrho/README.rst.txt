@@ -43,7 +43,6 @@ mlrho
    
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
    :requirements:
 
    :additional platforms:

@@ -34,7 +34,6 @@ phcue-ck
 
    
    :depends ca-certificates: 
-   :depends libgcc: ``>=13``
    :requirements:
 
    :additional platforms:

@@ -41,10 +41,9 @@ rsat-core
    :depends ghostscript: 
    :depends gnuplot: 
    :depends httplib2: 
-   :depends libgcc: ``>=13``
-   :depends libgfortran: 
+   :depends libcxx: ``>=18``
+   :depends libgfortran: ``5.*``
    :depends libgfortran5: ``>=13.3.0``
-   :depends libstdcxx: ``>=13``
    :depends matplotlib-base: 
    :depends numpy: 
    :depends opencv: 

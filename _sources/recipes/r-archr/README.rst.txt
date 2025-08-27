@@ -48,8 +48,7 @@ r-archr
    :depends bioconductor-s4vectors: ``>=0.9.25``
    :depends bioconductor-sparsematrixstats: ``>=1.18.0,<1.19.0a0``
    :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0a0``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libcxx: ``>=18``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-chromvarmotifs: ``>=0.2.0,<0.3.0a0``
    :depends r-data.table: 

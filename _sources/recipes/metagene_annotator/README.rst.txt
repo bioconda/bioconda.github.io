@@ -32,7 +32,6 @@ metagene_annotator
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
    :requirements:
 
    :additional platforms:

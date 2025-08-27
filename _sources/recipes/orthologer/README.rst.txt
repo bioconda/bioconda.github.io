@@ -36,7 +36,6 @@ orthologer
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
    :depends bash: ``>=4.1``
    :depends biopython: 
    :depends blast: 
@@ -45,9 +44,8 @@ orthologer
    :depends cd-hit: 
    :depends diamond: 
    :depends ete3: 
-   :depends libgcc: ``>=13``
-   :depends libgomp: 
-   :depends libstdcxx: ``>=13``
+   :depends libcxx: ``>=18``
+   :depends llvm-openmp: ``>=18.1.8``
    :depends mmseqs2: 
    :depends numpy: 
    :depends python: ``>=3.11,<3.12.0a0``

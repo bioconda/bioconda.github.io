@@ -32,8 +32,7 @@ treeqmc
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends libcxx: ``>=14``
    :requirements:
 
    :additional platforms:

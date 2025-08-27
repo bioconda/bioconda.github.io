@@ -43,9 +43,8 @@ bioconductor-plotgardener
    :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0``
    :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libcxx: ``>=18``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-curl: 
    :depends r-data.table: 

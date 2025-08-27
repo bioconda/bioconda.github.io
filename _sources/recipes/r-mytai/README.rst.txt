@@ -35,8 +35,7 @@ r-mytai
    :depends bioconductor-edger: 
    :depends fribidi: ``>=1.0.10,<2.0a0``
    :depends harfbuzz: ``>=6.0.0,<7.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-doparallel: ``>=1.0.8``
    :depends r-dplyr: ``>=0.3.0``

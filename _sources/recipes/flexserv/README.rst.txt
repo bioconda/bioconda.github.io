@@ -32,10 +32,9 @@ flexserv
       
 
    
-   :depends libgcc: ``>=13``
-   :depends libgfortran: 
-   :depends libgfortran5: ``>=13.3.0``
-   :depends libstdcxx: ``>=13``
+   :depends libcxx: ``>=18``
+   :depends libgfortran: ``5.*``
+   :depends libgfortran5: ``>=13.2.0``
    :requirements:
 
    :additional platforms:

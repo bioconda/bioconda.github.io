@@ -33,7 +33,6 @@ pygenetic_code
       
 
    
-   :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends python: ``>=3.12,<3.13.0a0``
    :depends python_abi: ``3.12.* *_cp312``

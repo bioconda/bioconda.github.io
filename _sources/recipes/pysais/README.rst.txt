@@ -32,7 +32,6 @@ pysais
       
 
    
-   :depends libgcc: ``>=13``
    :depends numpy: ``>=1.22.4,<2.0a0``
    :depends pytables: 
    :depends python: ``>=3.10,<3.11.0a0``

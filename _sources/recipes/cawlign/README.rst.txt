@@ -41,12 +41,10 @@ cawlign
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
    :depends libcurl: ``>=8.13.0,<9.0a0``
-   :depends libgcc: ``>=13``
-   :depends libgomp: 
-   :depends libstdcxx: ``>=13``
+   :depends libcxx: ``>=18``
    :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends llvm-openmp: ``>=18.1.8``
    :depends openmpi: ``>=4.1.6,<5.0a0``
    :requirements:
 

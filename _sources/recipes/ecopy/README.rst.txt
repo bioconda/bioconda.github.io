@@ -33,7 +33,6 @@ ecopy
 
    
    :depends cython: 
-   :depends libgcc-ng: ``>=4.9``
    :depends matplotlib: ``>=1.3.1``
    :depends numpy: ``>=1.7``
    :depends pandas: ``>=0.13``

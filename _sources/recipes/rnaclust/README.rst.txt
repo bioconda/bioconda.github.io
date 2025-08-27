@@ -43,7 +43,6 @@ rnaclust
       
 
    
-   :depends libgcc: 
    :depends locarna: 
    :depends perl: ``5.22.0*``
    :depends viennarna: 

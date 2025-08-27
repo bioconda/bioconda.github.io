@@ -43,8 +43,7 @@ popgen-entropy
    
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends hdf5: ``>=1.14.3,<1.14.4.0a0``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libcxx: ``>=18``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:

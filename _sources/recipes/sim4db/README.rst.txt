@@ -32,7 +32,6 @@ sim4db
       
 
    
-   :depends libgcc: 
    :requirements:
 
    :additional platforms:

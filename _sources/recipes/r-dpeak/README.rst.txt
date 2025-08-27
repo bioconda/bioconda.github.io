@@ -42,8 +42,7 @@ r-dpeak
    
    :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0a0``
    :depends bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libcxx: ``>=18``
    :depends perl: 
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-mass: 

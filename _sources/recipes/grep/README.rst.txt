@@ -32,7 +32,6 @@ grep
       
 
    
-   :depends libgcc-ng: ``>=12``
    :depends pcre: ``>=8.45,<9.0a0``
    :requirements:
 

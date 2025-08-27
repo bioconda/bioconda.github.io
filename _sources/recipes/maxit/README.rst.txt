@@ -42,9 +42,7 @@ maxit
       
 
    
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
-   :depends tcsh: 
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:

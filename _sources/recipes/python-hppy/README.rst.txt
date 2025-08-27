@@ -40,7 +40,6 @@ python-hppy
       
 
    
-   :depends libgcc: ``>=13``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python-fakemp: ``>=0.9.1``
    :depends python-hyphy-python: ``>=0.1.8``

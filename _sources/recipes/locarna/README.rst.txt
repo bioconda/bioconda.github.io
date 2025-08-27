@@ -41,8 +41,7 @@ locarna
       
 
    
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libcxx: ``>=18``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends viennarna: ``>=2.5.1,<3``
    :depends viennarna: ``>=2.7.0,<2.8.0a0``

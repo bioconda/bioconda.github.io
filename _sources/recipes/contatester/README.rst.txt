@@ -37,8 +37,7 @@ contatester
 
    
    :depends bcftools: ``>=1.9``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libcxx: ``>=18``
    :depends openmpi: ``>=4.1.6,<5.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python-pegasus-wms: ``>=4.8.2``

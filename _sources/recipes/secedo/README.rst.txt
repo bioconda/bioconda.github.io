@@ -33,8 +33,7 @@ secedo
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=14.0.6``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends openblas: 
    :depends openmp: 

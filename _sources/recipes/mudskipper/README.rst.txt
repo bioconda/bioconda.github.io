@@ -32,8 +32,7 @@ mudskipper
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
-   :depends libstdcxx-ng: ``>=10.3.0``
+   :depends libcxx: ``>=12.0.1``
    :requirements:
 
    :additional platforms:

@@ -33,7 +33,6 @@ turbocor
 
    
    :depends hdf5: ``>=1.10.6,<1.10.7.0a0``
-   :depends libgcc-ng: ``>=9.4.0``
    :requirements:
 
    :additional platforms:

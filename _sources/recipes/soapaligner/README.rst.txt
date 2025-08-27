@@ -32,7 +32,6 @@ soapaligner
       
 
    
-   :depends libgcc: 
    :depends zlib: ``1.2.11*``
    :requirements:
 

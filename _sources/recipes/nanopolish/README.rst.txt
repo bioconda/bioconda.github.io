@@ -41,13 +41,13 @@ nanopolish
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
    :depends biopython: 
    :depends hdf5: ``>=1.14.3,<1.14.4.0a0``
    :depends htslib: ``>=1.21,<1.23.0a0``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libcxx: ``>=18``
    :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends llvm-openmp: ``>=18.1.8``
+   :depends llvm-openmp: ``>=19.1.5``
    :depends ont_vbz_hdf_plugin: 
    :depends python: 
    :requirements:

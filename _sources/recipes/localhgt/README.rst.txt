@@ -36,8 +36,7 @@ localhgt
    :depends biopython: 
    :depends bwa: ``>=0.7.17``
    :depends fastp: ``>=0.23.2``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libcxx: ``>=18``
    :depends networkx: ``>=2.6.3``
    :depends numpy: ``<=1.24``
    :depends pandas: 

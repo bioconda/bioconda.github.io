@@ -34,8 +34,7 @@ r-virfinder
 
    
    :depends bioconductor-qvalue: ``>=2.38.0,<2.39.0a0``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libcxx: ``>=18``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-glmnet: 
    :depends r-rcpp: 

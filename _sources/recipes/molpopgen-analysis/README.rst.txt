@@ -41,9 +41,8 @@ molpopgen-analysis
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libgcc: ``>=13``
+   :depends libcxx: ``>=18``
    :depends libsequence: ``1.8.4.*``
-   :depends libstdcxx: ``>=13``
    :depends openblas: 
    :requirements:
 

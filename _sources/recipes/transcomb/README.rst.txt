@@ -35,7 +35,6 @@ transcomb
    :depends bamtools: 
    :depends boost: ``1.60*``
    :depends icu: ``==56.1``
-   :depends libgcc: 
    :depends samtools: 
    :depends zlib: 
    :requirements:

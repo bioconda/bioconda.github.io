@@ -35,8 +35,7 @@ r-bayesprism
    
    :depends bioconductor-biocparallel: 
    :depends bioconductor-scran: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-gplots: 
    :depends r-knitr: 

@@ -34,8 +34,7 @@ emerald
 
    
    :depends gmp: ``>=6.3.0,<7.0a0``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libcxx: ``>=18``
    :depends openmp: 
    :requirements:
 

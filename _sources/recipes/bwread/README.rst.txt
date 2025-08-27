@@ -40,7 +40,6 @@ bwread
       
 
    
-   :depends libgcc: ``>=13``
    :depends natsort: 
    :depends numpy: 
    :depends pandas: 

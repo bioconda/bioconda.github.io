@@ -33,7 +33,6 @@ genomelake
 
    
    :depends bcolz: ``>=1.1``
-   :depends libgcc-ng: ``>=12``
    :depends numpy: 
    :depends pybedtools: 
    :depends pybigwig: 

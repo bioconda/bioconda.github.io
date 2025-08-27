@@ -41,9 +41,8 @@ meta-neuro
    :depends libboost: ``>=1.82.0,<1.83.0a0``
    :depends libboost-python: ``>=1.82.0,<1.83.0a0``
    :depends libboost-python-devel: ``>=1.82.0,<1.83.0``
-   :depends libgcc: ``>=13``
+   :depends libcxx: ``>=18``
    :depends libitk-devel: ``5.3.0``
-   :depends libstdcxx: ``>=13``
    :depends nibabel: 
    :depends numpy: 
    :depends pandas: 
@@ -56,7 +55,7 @@ meta-neuro
    :depends setuptools: 
    :depends tqdm: 
    :depends tslearn: 
-   :depends vtk: ``>=9.2.6,<9.3.0build *osmesa*``
+   :depends vtk: ``>=9.2.6,<9.3.0build *qt*``
    :depends vtk-base: ``>=9.2.6,<9.2.7.0a0``
    :requirements:
 

@@ -37,7 +37,6 @@ microview
    :depends decorator: 
    :depends frictionless: ``>=4.32.0,<5``
    :depends jinja2: 
-   :depends libgcc-ng: ``>=12``
    :depends numpy: 
    :depends pandas: 
    :depends plotly: 

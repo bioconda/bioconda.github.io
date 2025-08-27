@@ -32,7 +32,6 @@ fastq-count
       
 
    
-   :depends libgcc: ``>=13``
    :requirements:
 
    :additional platforms:

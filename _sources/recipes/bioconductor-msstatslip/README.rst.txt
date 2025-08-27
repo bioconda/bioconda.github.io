@@ -32,6 +32,7 @@ bioconductor-msstatslip
       
 
    
+   :depends __osx: ``>=10.9``
    :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
    :depends bioconductor-biostrings: ``>=2.70.1,<2.71.0a0``
    :depends bioconductor-msstats: ``>=4.10.0,<4.11.0``
@@ -41,9 +42,8 @@ bioconductor-msstatslip
    :depends bioconductor-msstatsptm: ``>=2.4.0,<2.5.0``
    :depends bioconductor-msstatsptm: ``>=2.4.1,<2.5.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=15.0.7``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-checkmate: 
    :depends r-data.table: 

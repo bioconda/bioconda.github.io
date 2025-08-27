@@ -34,8 +34,7 @@ coral
    
    :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
    :depends htslib: ``>=1.10.2,<1.23.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libcxx: ``>=9.0.1``
    :requirements:
 
    :additional platforms:

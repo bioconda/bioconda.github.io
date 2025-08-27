@@ -60,7 +60,7 @@ zol
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends mcl: 
-   :depends miniprot: ``0.13.*``
+   :depends miniprot: ``>=0.13``
    :depends muscle: ``>=5.0``
    :depends pal2nal: ``>=14.1``
    :depends pandas: ``>=2.0``

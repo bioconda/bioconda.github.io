@@ -49,7 +49,6 @@ rgt
    :depends hmmlearn: ``0.2.2``
    :depends htseq: 
    :depends joblib: 
-   :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends logomaker: 
    :depends matplotlib-base: ``>=1.1.0``

@@ -32,8 +32,7 @@ leviathan
       
 
    
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libcxx: ``>=18``
    :depends lrez: ``>=2.2.4,<2.3.0a0``
    :requirements:
 

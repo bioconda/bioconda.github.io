@@ -32,10 +32,9 @@ cistrome_beta
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
    :depends numpy: 
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python_abi: ``2.7.* *_cp27m``
    :depends r-base: 
    :requirements:
 

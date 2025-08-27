@@ -34,8 +34,7 @@ splicemap
 
    
    :depends bowtie: 
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libcxx: ``>=18``
    :requirements:
 
    :additional platforms:

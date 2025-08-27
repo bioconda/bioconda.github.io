@@ -41,7 +41,6 @@ poseidon-trident
 
    
    :depends gmp: ``>=6.3.0,<7.0a0``
-   :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:

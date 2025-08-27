@@ -32,9 +32,9 @@ mnnpy
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
    :depends anndata: 
-   :depends libgcc-ng: ``>=12``
+   :depends llvm-openmp: ``>=15.0.7``
+   :depends llvm-openmp: ``>=16.0.3``
    :depends numba: 
    :depends numpy: 
    :depends pandas: 

@@ -32,12 +32,9 @@ strobemap
       
 
    
-   :depends _openmp_mutex: ``* *_llvm``
-   :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libcxx: ``>=18``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends llvm-openmp: ``>=19.1.5``
+   :depends llvm-openmp: ``>=18.1.8``
    :depends python: ``>=3.9``
    :requirements:
 

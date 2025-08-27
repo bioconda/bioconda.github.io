@@ -33,14 +33,14 @@ gromacs_mpi
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
    :depends fftw: ``>=3.3.9,<4.0a0``
-   :depends libgcc-ng: ``>=9.3.0``
+   :depends khronos-opencl-icd-loader: ``>=2020.12.18``
+   :depends libcxx: ``>=11.1.0``
    :depends libhwloc: ``2.*``
    :depends libhwloc: ``>=2.4.1,<2.4.2.0a0``
-   :depends libstdcxx-ng: ``>=9.3.0``
+   :depends llvm-openmp: ``>=11.1.0``
    :depends mpich: ``>=3.4.1,<4.0a0``
-   :depends ocl-icd: ``>=2.3.0,<3.0a0``
+   :depends ocl_icd_wrapper_apple: 
    :requirements:
 
    :additional platforms:
