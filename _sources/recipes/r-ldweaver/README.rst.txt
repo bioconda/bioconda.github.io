@@ -35,7 +35,8 @@ r-ldweaver
    :depends bioconductor-genbankr: 
    :depends bioconductor-genomicranges: 
    :depends bioconductor-ggtree: ``>=3.10.0,<3.11.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends openjdk: 
    :depends r-ape: 

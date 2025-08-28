@@ -12,10 +12,10 @@ seqmap
 
    SeqMap is a tool for mapping large amount of oligonucleotide to the genome.
 
-   :homepage: http://www-personal.umich.edu/~jianghui/seqmap/
+   :homepage: http://www-personal.umich.edu/~jianghui/seqmap
    :license: Custom OSS
    :recipe: /`seqmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqmap/meta.yaml>`_
-   :links: doi: :doi:`https://doi.org/10.1093/bioinformatics/btn429`
+   :links: doi: :doi:`10.1093/bioinformatics/btn429`
 
    
 
@@ -28,15 +28,20 @@ seqmap
       
       
 
-      ``1.0.13-1``,  ``1.0.13-0``
+      ``1.0.13-3``,  ``1.0.13-1``,  ``1.0.13-0``
 
       
 
    
-   :depends libcxx: ``>=9.0.1``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -84,7 +89,7 @@ seqmap
 
     <script>
         var package = "seqmap";
-        var versions = ["1.0.13","1.0.13"];
+        var versions = ["1.0.13","1.0.13","1.0.13"];
     </script>
 
 

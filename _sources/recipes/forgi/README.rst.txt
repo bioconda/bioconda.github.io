@@ -45,7 +45,8 @@ forgi
    :depends beautifulsoup4: ``>=4.6``
    :depends biopython: ``>=1.70``
    :depends future: 
-   :depends libcxx: ``>=16``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends logging_exceptions: ``>=0.1.6``
    :depends matplotlib-base: ``>=2``
    :depends networkx: ``>=2.0``

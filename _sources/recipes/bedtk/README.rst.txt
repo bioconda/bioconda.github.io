@@ -13,7 +13,7 @@ bedtk
    Bedtk is a set of simple tools to process BED files.
 
    :homepage: https://github.com/lh3/bedtk
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`bedtk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bedtk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bedtk/meta.yaml>`_
    :links: biotools: :biotools:`bedtk`
 
@@ -29,7 +29,7 @@ bedtk
       
       
 
-      ``0.0.r25.dirty-6``,  ``0.0.r25.dirty-5``,  ``0.0.r25.dirty-4``,  ``0.0.r25.dirty-3``,  ``0.0.r25.dirty-2``,  ``0.0.r25.dirty-1``,  ``0.0.r25.dirty-0``
+      ``1.2-0``,  ``1.1-0``,  ``0.0.r25.dirty-6``,  ``0.0.r25.dirty-5``,  ``0.0.r25.dirty-4``,  ``0.0.r25.dirty-3``,  ``0.0.r25.dirty-2``,  ``0.0.r25.dirty-1``,  ``0.0.r25.dirty-0``
 
       
 
@@ -42,7 +42,7 @@ bedtk
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -90,7 +90,7 @@ bedtk
 
     <script>
         var package = "bedtk";
-        var versions = ["0.0.r25.dirty","0.0.r25.dirty","0.0.r25.dirty","0.0.r25.dirty","0.0.r25.dirty"];
+        var versions = ["1.2","1.1","0.0.r25.dirty","0.0.r25.dirty","0.0.r25.dirty"];
     </script>
 
 

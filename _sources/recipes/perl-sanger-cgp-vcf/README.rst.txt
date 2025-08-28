@@ -40,6 +40,7 @@ perl-sanger-cgp-vcf
       
 
    
+   :depends libgcc: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-const-fast: 
    :depends perl-data-uuid: 

@@ -44,6 +44,7 @@ bamtocov
 
    
    :depends htslib: ``>=1.17,<1.23.0a0``
+   :depends libgcc-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends pcre: ``>=8.45,<9.0a0``
    :requirements:

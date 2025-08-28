@@ -10,10 +10,10 @@ bioconductor-motifmatchr
    :replaces_section_title:
    :noindex:
 
-   Fast Motif Matching in R
+   Fast Motif Matching in R.
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/motifmatchr.html
-   :license: GPL-3 + file LICENSE
+   :homepage: https://bioconductor.org/packages/3.21/bioc/html/motifmatchr.html
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`bioconductor-motifmatchr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifmatchr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifmatchr/meta.yaml>`_
    :links: biotools: :biotools:`motifmatchr`
 
@@ -29,10 +29,10 @@ bioconductor-motifmatchr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.16.0-2</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.16.0-2</code>,  <code>1.16.0-1</code>,  </span></summary>
       
 
-      ``1.28.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.16.0-2``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
+      ``1.30.0-0``,  ``1.28.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.16.0-2``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -73,7 +73,7 @@ bioconductor-motifmatchr
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -121,7 +121,7 @@ bioconductor-motifmatchr
 
     <script>
         var package = "bioconductor-motifmatchr";
-        var versions = ["1.28.0","1.24.0","1.24.0","1.22.0","1.20.0"];
+        var versions = ["1.30.0","1.28.0","1.24.0","1.24.0","1.22.0"];
     </script>
 
 

@@ -10,10 +10,10 @@ pin_hic
    :replaces_section_title:
    :noindex:
 
-   A Hi\-C scaffolding method
+   A Hi\-C scaffolding method.
 
-   :homepage: https://github.com/dfguan/pin_hic/
-   :license: MIT
+   :homepage: https://github.com/dfguan/pin_hic
+   :license: MIT / MIT
    :recipe: /`pin_hic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pin_hic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pin_hic/meta.yaml>`_
 
    
@@ -27,16 +27,20 @@ pin_hic
       
       
 
-      ``3.0.0-4``,  ``3.0.0-3``,  ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``
+      ``3.0.0-5``,  ``3.0.0-4``,  ``3.0.0-3``,  ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``
 
       
 
    
+   :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

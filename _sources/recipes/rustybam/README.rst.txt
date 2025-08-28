@@ -46,10 +46,12 @@ rustybam
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libcblas: ``>=3.9.0,<4.0a0``
    :depends libcurl: ``>=8.14.0,<9.0a0``
-   :depends libcxx: ``>=18``
    :depends libdeflate: ``>=1.22,<1.23.0a0``
+   :depends libgcc: ``>=13``
    :depends liblzma: ``>=5.8.1,<6.0a0``
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends openssl: ``>=3.5.0,<4.0a0``
    :requirements:
 
    :additional platforms:

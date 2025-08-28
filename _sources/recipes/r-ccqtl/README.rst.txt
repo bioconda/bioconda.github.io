@@ -32,7 +32,8 @@ r-ccqtl
       
 
    
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-argparse: ``>=2.2.0``
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-dplyr: 

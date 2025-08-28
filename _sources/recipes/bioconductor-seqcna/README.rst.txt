@@ -45,8 +45,9 @@ bioconductor-seqcna
    :depends bioconductor-seqcna.annot: ``>=1.38.0,<1.39.0``
    :depends bioconductor-seqcna.annot: ``>=1.38.0,<1.39.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=14``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-adehabitatlt: ``>=0.3.4``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-dosnow: ``>=1.0.5``

@@ -32,6 +32,7 @@ ecopcr
       
 
    
+   :depends libgcc: 
    :depends python: ``2.7*``
    :depends reportlab: 
    :depends zlib: ``1.2.11*``

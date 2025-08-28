@@ -62,8 +62,9 @@ bioconductor-rgreat
    :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: ``>=3.20.0,<3.21.0``
    :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: ``>=3.20.0,<3.21.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-circlize: 
    :depends r-digest: 

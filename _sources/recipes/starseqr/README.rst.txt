@@ -34,6 +34,7 @@ starseqr
    
    :depends gffread: 
    :depends intervaltree_bio: 
+   :depends libgcc-ng: ``>=12``
    :depends networkx: 
    :depends numpy: ``>=1.21.6,<2.0a0``
    :depends pandas: ``>=0.18.1``

@@ -44,13 +44,14 @@ epic
    :depends docopt: 
    :depends functools32: 
    :depends joblib: 
+   :depends libgcc-ng: ``>=10.3.0``
    :depends natsort: 
    :depends numpy: 
    :depends pandas: 
    :depends pybigwig: 
    :depends pyfaidx: 
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27m``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends scipy: 
    :depends typing: 
    :requirements:

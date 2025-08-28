@@ -34,7 +34,8 @@ phyx
    
    :depends armadillo: ``>=14.2,<15.0a0``
    :depends lapack: 
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends nlopt: ``>=2.8.0,<2.9.0a0``
    :depends openblas: 
    :requirements:

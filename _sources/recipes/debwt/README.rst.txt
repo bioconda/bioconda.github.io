@@ -36,6 +36,7 @@ debwt
       
 
    
+   :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:

@@ -40,6 +40,7 @@ kfoots
       
 
    
+   :depends libgcc: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-rcpp: ``>=0.10.6``
    :requirements:

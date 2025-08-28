@@ -42,6 +42,7 @@ rpbp
    :depends dash-bio: 
    :depends dash-bootstrap-components: 
    :depends fastqc: 
+   :depends flexbar: 
    :depends joblib: 
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``

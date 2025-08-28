@@ -67,13 +67,13 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">enrichm</span></span></dt>
-<dd><p>EnrichM is a toolbox for comparing the functional composition of population genomes</p>
+<dd><p>EnrichM is a toolbox for comparing the functional composition of population genomes.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/geronimp/enrichM">https://github.com/geronimp/enrichM</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>GPL3 / GPL3+</p>
+<dd class="field-even"><p>GPL3 / GPL-3.0-or-later</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/enrichm">enrichm</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/enrichm/meta.yaml">meta.yaml</a></p>
@@ -88,63 +88,68 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/enrichm"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/enrichm.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/enrichm"><img alt="docker_enrichm" src="https://quay.io/repository/biocontainers/enrichm/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.6.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.6.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.0-0</span></code></p>
 </dd>
 <dt class="field-even">depends biopython<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.66</span></code></p>
 </dd>
 <dt class="field-odd">depends diamond<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.9.22</span></code></p>
-</dd>
-<dt class="field-even">depends hmmer<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.1b</span></code></p>
-</dd>
-<dt class="field-odd">depends mcl<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=14.137</span></code></p>
-</dd>
-<dt class="field-even">depends mmseqs2<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.23394</span></code></p>
-</dd>
-<dt class="field-odd">depends moreutils<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends numpy<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.9.1</span></code></p>
+<dt class="field-even">depends fuzzywuzzy<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.18.0</span></code></p>
 </dd>
-<dt class="field-odd">depends openmp<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends pandas<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.17.1</span></code></p>
+<dt class="field-odd">depends hmmer<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.1b</span></code></p>
 </dd>
-<dt class="field-odd">depends parallel<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=20180222</span></code></p>
+<dt class="field-even">depends mcl<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=14.137</span></code></p>
 </dd>
-<dt class="field-even">depends prodigal<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.6.3</span></code></p>
+<dt class="field-odd">depends mmseqs2<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.23394</span></code></p>
 </dd>
-<dt class="field-odd">depends python<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.6</span></code></p>
-</dd>
-<dt class="field-even">depends python-dateutil<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.5.1</span></code></p>
-</dd>
-<dt class="field-odd">depends r-base<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-gridextra<span class="colon">:</span></dt>
+<dt class="field-even">depends moreutils<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends r-optparse<span class="colon">:</span></dt>
+<dt class="field-odd">depends numpy<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.9.1</span></code></p>
+</dd>
+<dt class="field-even">depends openmpi<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends pandas<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.17.1</span></code></p>
+</dd>
+<dt class="field-even">depends parallel<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=20180222</span></code></p>
+</dd>
+<dt class="field-odd">depends prodigal<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.6.3</span></code></p>
+</dd>
+<dt class="field-even">depends python<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.6</span></code></p>
+</dd>
+<dt class="field-odd">depends python-dateutil<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.8.0</span></code></p>
+</dd>
+<dt class="field-even">depends r-base<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends r-gridextra<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends scikit-learn<span class="colon">:</span></dt>
+<dt class="field-even">depends r-optparse<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends scipy<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.17.0</span></code></p>
+<dt class="field-odd">depends scikit-learn<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends scipy<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.17.0</span></code></p>
 </dd>
-<dt class="field-even">depends seqmagick<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends six<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.10.0</span></code></p>
+<dt class="field-odd">depends seqmagick<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends six<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.10.0</span></code></p>
 </dd>
-<dt class="field-even">depends statsmodels<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.8.0rc1</span></code></p>
+<dt class="field-odd">depends statsmodels<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.8.0rc1</span></code></p>
+</dd>
+<dt class="field-even">depends tempdir<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.7.1</span></code></p>
 </dd>
 <dt class="field-odd">requirements<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
@@ -184,7 +189,7 @@ others.</p>
 
 <script>
     var package = "enrichm";
-    var versions = ["0.6.5","0.6.4","0.6.3","0.6.2","0.5.0"];
+    var versions = ["0.6.6","0.6.5","0.6.4","0.6.3","0.6.2"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

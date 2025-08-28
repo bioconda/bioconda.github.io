@@ -37,6 +37,7 @@ semeta
 
    
    :depends blast: 
+   :depends libgcc: 
    :requirements:
 
    :additional platforms:

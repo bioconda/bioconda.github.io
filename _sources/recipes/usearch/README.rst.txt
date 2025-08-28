@@ -6,15 +6,17 @@
 usearch
 =======
 
-.. conda:recipe:: usearch
+.. conda:recipe:: usearch/5.2.32
    :replaces_section_title:
    :noindex:
 
    USEARCH is a unique sequence analysis tool which offers search and clustering algorithms that are often orders of magnitude faster than BLAST.
 
-   :homepage: https://github.com/rcedgar/usearch12
-   :license: GPL3 / GPL-3.0-or-later
-   :recipe: /`usearch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/usearch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/usearch/meta.yaml>`_
+   :homepage: https://github.com/rcedgar/usearch_old_binaries
+   :documentation: https://drive5.com/usearch/
+   
+   :license: CC / CC0
+   :recipe: /`usearch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/usearch>`_/`5.2.32 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/usearch/5.2.32>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/usearch/5.2.32/meta.yaml>`_
 
    
 
@@ -26,19 +28,23 @@ usearch
    :versions:
       
       
+      .. raw:: html
 
-      ``12.0_beta-1``,  ``12.0_beta-0``
+         <details><summary><span class="truncated-version-list"><code>12.0_beta-1</code>,  <code>12.0_beta-0</code>,  <code>11.0.667-0</code>,  <code>10.0.259-0</code>,  <code>10.0.240-0</code>,  <code>9.2.64-0</code>,  <code>9.1.13-0</code>,  <code>9.0.2132-0</code>,  <code>8.1.1861-0</code>,  </span></summary>
+      
 
+      ``12.0_beta-1``,  ``12.0_beta-0``,  ``11.0.667-0``,  ``10.0.259-0``,  ``10.0.240-0``,  ``9.2.64-0``,  ``9.1.13-0``,  ``9.0.2132-0``,  ``8.1.1861-0``,  ``8.0.1623-0``,  ``7.0.1090-0``,  ``6.1.544-0``,  ``5.2.236-0``,  ``5.2.32-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :requirements:
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -86,7 +92,7 @@ usearch
 
     <script>
         var package = "usearch";
-        var versions = ["12.0_beta","12.0_beta"];
+        var versions = ["12.0_beta","12.0_beta","11.0.667","10.0.259","10.0.240"];
     </script>
 
 

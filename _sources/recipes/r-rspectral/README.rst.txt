@@ -33,7 +33,8 @@ r-rspectral
 
    
    :depends bioconductor-graph: ``>=1.84.0,<1.85.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-igraph: 
    :depends r-rcpp: ``>=1.0.8.3``

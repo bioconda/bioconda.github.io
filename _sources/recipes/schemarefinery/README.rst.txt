@@ -29,7 +29,7 @@ schemarefinery
       
       
 
-      ``0.3.3.1-0``
+      ``0.4.0-0``,  ``0.3.3.1-0``
 
       
 
@@ -97,7 +97,7 @@ schemarefinery
 
     <script>
         var package = "schemarefinery";
-        var versions = ["0.3.3.1"];
+        var versions = ["0.4.0","0.3.3.1"];
     </script>
 
 

@@ -44,9 +44,11 @@ revbayes
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends boost-cpp: ``>=1.71``
-   :depends libcxx: ``>=18``
-   :depends llvm-openmp: ``>=18.1.8``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=13``
    :depends openmpi: ``>=4.1.6,<5.0a0``
    :requirements:
 

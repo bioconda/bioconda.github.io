@@ -43,7 +43,8 @@ roadies
    :depends ete3: 
    :depends fasttree: ``>=2.1.11``
    :depends lastz: ``>=1.04.52``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends mash: ``>=2``
    :depends mashtree: ``1.4.6``

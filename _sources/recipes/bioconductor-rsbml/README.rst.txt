@@ -45,10 +45,11 @@ bioconductor-rsbml
    :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
    :depends bioconductor-graph: ``>=1.80.0,<1.81.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=14``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libsbml: ``>=5.10.2``
    :depends libsbml: ``>=5.18.0,<5.19.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :requirements:
 

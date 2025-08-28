@@ -32,11 +32,12 @@ pysnptools
       
 
    
-   :depends libcxx: ``>=12.0.1``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends numpy: ``>=1.9.2``
    :depends pandas: ``>=0.16.2``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27m``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends scipy: ``>=0.15.1``
    :requirements:
 

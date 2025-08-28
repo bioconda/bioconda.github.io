@@ -53,20 +53,21 @@ arb-bio
       
 
    
-   :depends arb-bio-tools: ``6.0.6 h82bc0eb_8``
+   :depends arb-bio-tools: ``6.0.6 haa8b8d8_8``
    :depends fasttree: 
    :depends fig2dev: 
    :depends gettext: ``>=0.19.8.1,<1.0a0``
    :depends glib: ``>=2.58.2,<3.0a0``
    :depends gnuplot: 
-   :depends libcxx: ``>=4.0.1``
+   :depends libgcc-ng: ``>=7.3.0``
    :depends libpng: ``>=1.6.35,<1.7.0a0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends libtiff: ``>=4.0.9,<5.0a0``
    :depends libxslt: ``>=1.1.32,<2.0a0``
    :depends mafft: 
    :depends mrbayes: 
    :depends muscle: 
-   :depends openmotif: ``>=2.3.8,<3.0a0``
+   :depends openmotif: 
    :depends perl: ``>=5.26.2,<5.26.3.0a0``
    :depends phylip: 
    :depends phyml: ``3.2.0.*``
@@ -148,8 +149,9 @@ arb-bio
       
 
    
-   :depends arb-bio: ``6.0.6 pl526h7e5b878_8``
-   :depends libcxx: ``>=4.0.1``
+   :depends arb-bio: ``6.0.6 pl526h7ded70a_8``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends openmotif-dev: 
    :requirements:
 
@@ -219,8 +221,9 @@ arb-bio
 
    
    :depends glib: ``>=2.58.2,<3.0a0``
-   :depends libarbdb: ``6.0.6 h82bc0eb_8``
-   :depends libcxx: ``>=4.0.1``
+   :depends libarbdb: ``6.0.6 haa8b8d8_8``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    :additional platforms:
@@ -290,7 +293,8 @@ arb-bio
    
    :depends gettext: 
    :depends glib: ``>=2.58.2,<3.0a0``
-   :depends libcxx: ``>=4.0.1``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    :additional platforms:

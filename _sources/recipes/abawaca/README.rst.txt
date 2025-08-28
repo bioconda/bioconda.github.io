@@ -10,10 +10,10 @@ abawaca
    :replaces_section_title:
    :noindex:
 
-   abawaca is a binning program for metagenomics
+   abawaca is a binning program for metagenomics.
 
    :homepage: https://github.com/CK7/abawaca
-   :license: open source
+   :license: Open Source
    :recipe: /`abawaca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abawaca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abawaca/meta.yaml>`_
    :links: doi: :doi:`10.1038/nature14486`
 
@@ -27,9 +27,17 @@ abawaca
    :versions:
       
       
+      .. raw:: html
 
-      ``1.00-8``,  ``1.00-7``,  ``1.00-6``,  ``1.00-5``,  ``1.00-4``,  ``1.00-3``,  ``1.00-2``,  ``1.00-1``,  ``1.00-0``
+         <details><summary><span class="truncated-version-list"><code>1.00-9</code>,  <code>1.00-8</code>,  <code>1.00-7</code>,  <code>1.00-6</code>,  <code>1.00-5</code>,  <code>1.00-4</code>,  <code>1.00-3</code>,  <code>1.00-2</code>,  <code>1.00-1</code>,  </span></summary>
+      
 
+      ``1.00-9``,  ``1.00-8``,  ``1.00-7``,  ``1.00-6``,  ``1.00-5``,  ``1.00-4``,  ``1.00-3``,  ``1.00-2``,  ``1.00-1``,  ``1.00-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -41,7 +49,7 @@ abawaca
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

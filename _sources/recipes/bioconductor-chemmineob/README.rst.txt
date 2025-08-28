@@ -38,8 +38,9 @@ bioconductor-chemmineob
    :depends bioconductor-zlibbioc: ``>=1.48.0,<1.49.0a0``
    :depends eigen: 
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=14.0.6``
+   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx-ng: ``>=12``
    :depends openbabel: ``>=3``
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-bh: 

@@ -61,8 +61,9 @@ bioconductor-outrider
    :depends bioconductor-txdbmaker: ``>=1.2.0,<1.3.0``
    :depends bioconductor-txdbmaker: ``>=1.2.0,<1.3.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-bbmisc: 
    :depends r-data.table: 

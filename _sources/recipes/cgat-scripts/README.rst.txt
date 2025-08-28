@@ -39,6 +39,7 @@ cgat-scripts
    :depends cython: ``0.27.*``
    :depends future: ``0.16.*``
    :depends grep: ``2.14.*``
+   :depends libgcc-ng: ``>=4.9``
    :depends libpng: ``>=1.6.34,<1.7.0a0``
    :depends matplotlib: ``2.1.*``
    :depends numpy: ``1.12.*``

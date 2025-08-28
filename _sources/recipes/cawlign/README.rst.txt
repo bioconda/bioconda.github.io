@@ -10,7 +10,7 @@ cawlign
    :replaces_section_title:
    :noindex:
 
-   A tool for aligning consensus sequences to reference genomes
+   A tool for aligning consensus sequences to reference genomes.
 
    :homepage: https://github.com/veg/cawlign
    :license: MIT / MIT
@@ -36,19 +36,25 @@ cawlign
       
       
 
-      ``0.1.11-0``
+      ``0.1.12-0``,  ``0.1.11-0``
 
       
 
    
-   :depends libcurl: ``>=8.13.0,<9.0a0``
-   :depends libcxx: ``>=18``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libcurl: ``>=8.14.1,<9.0a0``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends llvm-openmp: ``>=18.1.8``
    :depends openmpi: ``>=4.1.6,<5.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -96,7 +102,7 @@ cawlign
 
     <script>
         var package = "cawlign";
-        var versions = ["0.1.11"];
+        var versions = ["0.1.12","0.1.11"];
     </script>
 
 

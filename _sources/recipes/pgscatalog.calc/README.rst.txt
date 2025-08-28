@@ -10,10 +10,10 @@ pgscatalog.calc
    :replaces_section_title:
    :noindex:
 
-   Libraries and applications for working with calculated polygenic scores
+   Libraries and applications for working with calculated polygenic scores.
 
-   :homepage: https://github.com/PGScatalog/pygscatalog/
-   :license: Apache-2.0
+   :homepage: https://github.com/PGScatalog/pygscatalog
+   :license: APACHE / Apache-2.0
    :recipe: /`pgscatalog.calc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pgscatalog.calc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pgscatalog.calc/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ pgscatalog.calc
       
       
 
-      ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``
+      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``
 
       
 
@@ -89,7 +89,7 @@ pgscatalog.calc
 
     <script>
         var package = "pgscatalog.calc";
-        var versions = ["0.3.0","0.2.2","0.2.1"];
+        var versions = ["0.3.1","0.3.0","0.2.2","0.2.1"];
     </script>
 
 

@@ -35,7 +35,8 @@ hylight
    :depends bfc: ``r181``
    :depends boost-cpp: ``1.82``
    :depends fmlrc2: ``0.1.7``
-   :depends libcxx: ``>=16``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends minimap2: ``2.26``
    :depends numpy: ``1.19.5``

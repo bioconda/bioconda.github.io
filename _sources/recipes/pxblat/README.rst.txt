@@ -46,7 +46,8 @@ pxblat
    
    :depends biopython: 
    :depends deprecated: 
-   :depends libcxx: ``>=14``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends loguru: 
    :depends mashumaro: 
    :depends pybind11: ``>=2.10.4``

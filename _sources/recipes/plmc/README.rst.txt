@@ -32,7 +32,8 @@ plmc
       
 
    
-   :depends llvm-openmp: ``>=14.0.6``
+   :depends libgcc-ng: ``>=12``
+   :depends openmp: 
    :requirements:
 
    :additional platforms:

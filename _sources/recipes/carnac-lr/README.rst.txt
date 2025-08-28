@@ -32,7 +32,8 @@ carnac-lr
       
 
    
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends python: ``>=3``
    :requirements:
 

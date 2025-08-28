@@ -46,10 +46,10 @@ r-exomedepth
    :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0a0``
    :depends bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
    :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends libgfortran: 
-   :depends libgfortran5: ``>=13.4.0``
-   :depends libgfortran5: ``>=15.1.0``
+   :depends libgfortran5: ``>=13.3.0``
+   :depends libstdcxx: ``>=13``
    :depends r-aod: 
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 

@@ -31,11 +31,12 @@ orthologer
       
       
 
-      ``3.7.1-0``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.2-0``,  ``3.3.1-0``
+      ``3.8.0-0``,  ``3.7.1-0``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.2-0``,  ``3.3.1-0``
 
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends bash: ``>=4.1``
    :depends biopython: 
    :depends blast: 
@@ -44,8 +45,9 @@ orthologer
    :depends cd-hit: 
    :depends diamond: 
    :depends ete3: 
-   :depends libcxx: ``>=18``
-   :depends llvm-openmp: ``>=18.1.8``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=13``
    :depends mmseqs2: 
    :depends numpy: 
    :depends python: ``>=3.11,<3.12.0a0``
@@ -103,7 +105,7 @@ orthologer
 
     <script>
         var package = "orthologer";
-        var versions = ["3.7.1","3.5.0","3.5.0","3.4.2","3.4.1"];
+        var versions = ["3.8.0","3.7.1","3.5.0","3.5.0","3.4.2"];
     </script>
 
 

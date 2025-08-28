@@ -34,7 +34,7 @@ coot-headless
       
       
 
-      ``1.1.18-0``,  ``1.1.17-3``,  ``1.1.17-2``,  ``1.1.17-1``,  ``1.1.17-0``
+      ``1.1.18-1``,  ``1.1.18-0``,  ``1.1.17-3``,  ``1.1.17-2``,  ``1.1.17-1``,  ``1.1.17-0``
 
       
 
@@ -48,7 +48,6 @@ coot-headless
    :depends gemmi: ``>=0.7.3,<1.0a0``
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libboost: ``>=1.86.0,<1.87.0a0``
-   :depends libboost-python: ``>=1.86.0,<1.87.0a0``
    :depends libccp4: ``>=8.0.0,<9.0a0``
    :depends libffi: ``>=3.4.6,<3.5.0a0``
    :depends libfreetype: ``>=2.13.3``
@@ -122,7 +121,7 @@ coot-headless
 
     <script>
         var package = "coot-headless";
-        var versions = ["1.1.18","1.1.17","1.1.17","1.1.17","1.1.17"];
+        var versions = ["1.1.18","1.1.18","1.1.17","1.1.17","1.1.17"];
     </script>
 
 

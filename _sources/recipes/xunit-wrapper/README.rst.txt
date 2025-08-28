@@ -10,7 +10,7 @@ xunit-wrapper
    :replaces_section_title:
    :noindex:
 
-   Wrap python functions with a decorator to handle building XUnit reports
+   Wrap python functions with a decorator to handle building XUnit reports.
 
    :homepage: https://github.com/TAMU-CPT/xunit-python-decorator
    :license: GPL3 / GNU General Public License v3 (GPLv3)
@@ -27,13 +27,13 @@ xunit-wrapper
       
       
 
-      ``0.12-2``,  ``0.12-1``,  ``0.12-0``
+      ``0.12-3``,  ``0.12-2``,  ``0.12-1``,  ``0.12-0``
 
       
 
    
    :depends future: 
-   :depends junit-xml: ``1.7``
+   :depends junit-xml: 
    :depends python: 
    :requirements:
 
@@ -85,7 +85,7 @@ xunit-wrapper
 
     <script>
         var package = "xunit-wrapper";
-        var versions = ["0.12","0.12","0.12"];
+        var versions = ["0.12","0.12","0.12","0.12"];
     </script>
 
 

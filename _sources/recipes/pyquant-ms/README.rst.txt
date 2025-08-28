@@ -40,13 +40,14 @@ pyquant-ms
       
 
    
+   :depends libgcc-ng: ``>=10.3.0``
    :depends lxml: 
    :depends numpy: ``>=1.16.5,<2.0a0``
    :depends pandas: 
    :depends patsy: 
    :depends pythomics: ``>=0.3.41``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27m``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends scikit-learn: 
    :depends scipy: ``>=0.18.*``
    :depends setuptools: 

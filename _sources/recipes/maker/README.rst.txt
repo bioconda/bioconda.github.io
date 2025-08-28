@@ -44,6 +44,7 @@ maker
    :depends augustus: ``>=3.5.0``
    :depends blast: ``2.14.1.*``
    :depends exonerate: 
+   :depends libgcc: ``>=13``
    :depends mpich-mpicc: 
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-bioperl-core: ``1.7.8.*``

@@ -32,6 +32,7 @@ ncrf
       
 
    
+   :depends libgcc: ``>=13``
    :depends python: ``<3``
    :requirements:
 

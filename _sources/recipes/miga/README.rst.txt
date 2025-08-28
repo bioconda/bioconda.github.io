@@ -33,8 +33,9 @@ miga
       
 
    
-   :depends libcxx: ``>=12.0.1``
-   :depends llvm-openmp: ``>=12.0.1``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends numpy: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``

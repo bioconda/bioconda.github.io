@@ -10,9 +10,9 @@ r-histonehmm
    :replaces_section_title:
    :noindex:
 
-   histoneHMM is a software to analyse ChIP\-seq data of histone modifications with broad genomic footprints like H3K27me3. It allows for calling modified regions in single samples as well as for calling differentially modified regions in a comparison of two samples
+   histoneHMM is a software to analyse ChIP\-seq data of histone modifications with broad genomic footprints like H3K27me3. It allows for calling modified regions in single samples as well as for calling differentially modified regions in a comparison of two samples.
 
-   :homepage: http://histonehmm.molgen.mpg.de/
+   :homepage: http://histonehmm.molgen.mpg.de
    :developer docs: https://github.com/matthiasheinig/histoneHMM
    :license: GPL
    :recipe: /`r-histonehmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-histonehmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-histonehmm/meta.yaml>`_
@@ -29,10 +29,10 @@ r-histonehmm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.8-6</code>,  <code>1.8-5</code>,  <code>1.8-4</code>,  <code>1.8-3</code>,  <code>1.8-2</code>,  <code>1.8-1</code>,  <code>1.8-0</code>,  <code>1.7.1-1</code>,  <code>1.7.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8-8</code>,  <code>1.8-6</code>,  <code>1.8-5</code>,  <code>1.8-4</code>,  <code>1.8-3</code>,  <code>1.8-2</code>,  <code>1.8-1</code>,  <code>1.8-0</code>,  <code>1.7.1-1</code>,  </span></summary>
       
 
-      ``1.8-6``,  ``1.8-5``,  ``1.8-4``,  ``1.8-3``,  ``1.8-2``,  ``1.8-1``,  ``1.8-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.7-1``,  ``1.7-0``,  ``1.6-1``,  ``1.6-0``
+      ``1.8-8``,  ``1.8-6``,  ``1.8-5``,  ``1.8-4``,  ``1.8-3``,  ``1.8-2``,  ``1.8-1``,  ``1.8-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.7-1``,  ``1.7-0``,  ``1.6-1``,  ``1.6-0``
 
       
       .. raw:: html
@@ -41,20 +41,24 @@ r-histonehmm
       
 
    
-   :depends bioconductor-biocstyle: 
-   :depends bioconductor-genomicranges: 
-   :depends bioconductor-rsamtools: 
-   :depends libgcc-ng: ``>=12``
-   :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=12.2.0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.2,<4.3.0a0``
+   :depends bioconductor-biocstyle: ``>=2.34.0,<2.35.0a0``
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0a0``
+   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0a0``
+   :depends libgcc: ``>=13``
+   :depends libgfortran: 
+   :depends libgfortran5: ``>=13.4.0``
+   :depends libstdcxx: ``>=13``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-mvtnorm: 
    :depends r-optparse: 
    :depends r-rcpp: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

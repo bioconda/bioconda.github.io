@@ -27,7 +27,7 @@ maaslin3
       
       
 
-      ``0.99.16-0``
+      ``0.99.16-1``,  ``0.99.16-0``
 
       
 
@@ -102,7 +102,7 @@ maaslin3
 
     <script>
         var package = "maaslin3";
-        var versions = ["0.99.16"];
+        var versions = ["0.99.16","0.99.16"];
     </script>
 
 

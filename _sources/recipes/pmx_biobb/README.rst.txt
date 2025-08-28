@@ -103,9 +103,10 @@ pmx_biobb
    
    :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
    :depends cxx-compiler: 
-   :depends libcxx: ``>=15.0.7``
-   :depends libgfortran: ``5.*``
-   :depends libgfortran5: ``>=12.2.0``
+   :depends libgcc-ng: ``>=12``
+   :depends libgfortran-ng: 
+   :depends libgfortran5: ``>=12.3.0``
+   :depends libstdcxx-ng: ``>=12``
    :depends matplotlib-base: 
    :depends python: ``>=3.7,<3.8.0a0``
    :depends python_abi: ``3.7.* *_cp37m``

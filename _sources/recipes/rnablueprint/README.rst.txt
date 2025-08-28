@@ -42,9 +42,10 @@ rnablueprint
 
    
    :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    :additional platforms:

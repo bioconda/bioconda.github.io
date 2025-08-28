@@ -65,6 +65,7 @@ biobb_mem
    :depends biobb_common: ``5.1.0``
    :depends biobb_common: ``>=5.1.0,<6.0a0``
    :depends gromacs: 
+   :depends libgcc: ``>=13``
    :depends lipyphilic: ``0.10.0``
    :depends mdahole2: 
    :depends numpy: ``1.23.5``

@@ -41,10 +41,11 @@ curves
 
    
    :depends ambertools: ``>=22.0``
-   :depends libcxx: ``>=18``
-   :depends libgfortran: ``5.*``
-   :depends libgfortran5: ``>=13.2.0``
+   :depends libgcc: ``>=13``
+   :depends libgfortran: 
+   :depends libgfortran5: ``>=13.3.0``
    :depends libnetcdf: ``>=4.9.2,<4.9.3.0a0``
+   :depends libstdcxx: ``>=13``
    :depends netcdf-fortran: ``>=4.6.1,<4.7.0a0``
    :depends python_abi: ``3.9.* *_cp39``
    :requirements:

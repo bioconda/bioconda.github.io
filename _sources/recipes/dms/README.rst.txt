@@ -33,8 +33,8 @@ dms
       
 
    
-   :depends libcxx: ``>=9.0.1``
-   :depends llvm-openmp: ``>=8.0.1``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends openmp: 
    :requirements:
 

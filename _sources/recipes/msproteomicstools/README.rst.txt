@@ -34,14 +34,15 @@ msproteomicstools
    
    :depends biopython: 
    :depends configobj: 
-   :depends libcxx: ``>=12.0.1``
+   :depends libgcc-ng: ``>=10.3.0``
+   :depends libstdcxx-ng: ``>=10.3.0``
    :depends lxml: 
    :depends numpy: ``>=1.16.5,<2.0a0``
    :depends pymzml: ``0.7.8``
    :depends pyteomics: ``>=2.4.0``
    :depends python: ``>=2.7,<2.8.0a0``
    :depends python-cluster: ``1.3.3``
-   :depends python_abi: ``2.7.* *_cp27m``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends scikits-datasmooth: 
    :depends scipy: 
    :depends statsmodels: 

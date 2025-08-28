@@ -10,9 +10,9 @@ pipmir
    :replaces_section_title:
    :noindex:
 
-   We developed the PIPmiR algorithm to identify novel plant miRNA genes from a combination of deep sequencing data and genomic features.
+   We developed the PIPmiR algorithm to identify novel plant miRNA.
 
-   :homepage: https://ohlerlab.mdc-berlin.de/software/Pipeline_for_the_Identification_of_Plant_miRNAs_84/
+   :homepage: https://ohlerlab.mdc-berlin.de/software/Pipeline_for_the_Identification_of_Plant_miRNAs_84
    :license: PIPmiR is provided for academic use only, if you wish to use it in another setting please contact Uwe Ohler.
    :recipe: /`pipmir <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pipmir>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pipmir/meta.yaml>`_
    :links: biotools: :biotools:`pipmir`, doi: :doi:`10.1101/gr.123547.111`
@@ -28,14 +28,14 @@ pipmir
       
       
 
-      ``1.1-5``,  ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``
+      ``1.1-6``,  ``1.1-5``,  ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``
 
       
 
    
    :depends openjdk: 
    :depends samtools: 
-   :depends viennarna: ``1.8.5.*``
+   :depends viennarna: ``>=2.6.4``
    :requirements:
 
    :additional platforms:

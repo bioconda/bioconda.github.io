@@ -10,10 +10,10 @@ perl-string-approx
    :replaces_section_title:
    :noindex:
 
-   Perl extension for approximate matching \(fuzzy matching\)
+   Perl extension for approximate matching \(fuzzy matching\).
 
-   :homepage: http://metacpan.org/pod/String::Approx
-   :license: unknown
+   :homepage: https://metacpan.org/pod/String::Approx
+   :license: Unknown
    :recipe: /`perl-string-approx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-string-approx>`_/`3.27 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-string-approx/3.27>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-string-approx/3.27/meta.yaml>`_
 
    
@@ -27,16 +27,22 @@ perl-string-approx
       
       
 
-      ``3.27-5``,  ``3.27-4``,  ``3.27-3``,  ``3.27-2``,  ``3.27-1``,  ``3.27-0``
+      ``3.27-6``,  ``3.27-5``,  ``3.27-4``,  ``3.27-3``,  ``3.27-2``,  ``3.27-1``,  ``3.27-0``
 
       
 
    
+   :depends libgcc: ``>=13``
+   :depends perl: ``>=5.26``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-test-more: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

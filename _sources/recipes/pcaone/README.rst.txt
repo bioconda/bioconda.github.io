@@ -40,9 +40,14 @@ pcaone
       
 
    
-   :depends libcxx: ``>=18``
+   :depends __glibc: ``>=2.17,<3.0.a0``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends llvm-openmp: ``>=18.1.8``
+   :depends mkl: ``>=2025.1.0``
+   :depends mkl-include: ``>=2025.1.0``
    :requirements:
 
    :additional platforms:

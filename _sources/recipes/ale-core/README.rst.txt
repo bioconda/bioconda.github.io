@@ -32,6 +32,7 @@ ale-core
       
 
    
+   :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends samtools: ``>=1.21,<2.0a0``
    :depends zlib: 

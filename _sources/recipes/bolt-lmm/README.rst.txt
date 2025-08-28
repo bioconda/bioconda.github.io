@@ -34,7 +34,8 @@ bolt-lmm
 
    
    :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
-   :depends libcxx: ``>=9.0.1``
+   :depends libgcc-ng: ``>=7.5.0``
+   :depends libstdcxx-ng: ``>=7.5.0``
    :depends nlopt: ``>=2.6.2,<2.6.3.0a0``
    :depends openblas: 
    :depends zlib: ``>=1.2.11,<1.3.0a0``

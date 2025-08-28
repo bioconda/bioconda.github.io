@@ -10,11 +10,10 @@ arborator
    :replaces_section_title:
    :noindex:
 
-   Arborator\: Simplifying operationalized pathogen surveillance and outbreak detection
+   Arborator\: Simplifying operationalized pathogen surveillance and outbreak detection.
 
-   :homepage: https://pypi.org/project/arborator/
-   :developer docs: https://github.com/phac-nml/arborator
-   :license: Apache-2.0
+   :homepage: https://github.com/phac-nml/arborator
+   :license: APACHE / Apache-2.0
    :recipe: /`arborator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/arborator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/arborator/meta.yaml>`_
 
    
@@ -28,7 +27,7 @@ arborator
       
       
 
-      ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -95,7 +94,7 @@ arborator
 
     <script>
         var package = "arborator";
-        var versions = ["1.0.6","1.0.6","1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.1.0","1.0.6","1.0.6","1.0.0","1.0.0"];
     </script>
 
 

@@ -41,13 +41,10 @@ graphembed
       
 
    
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends libgfortran: 
    :depends libgfortran5: ``>=13.4.0``
-   :depends libgfortran5: ``>=15.1.0``
-   :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends liblapacke: ``>=3.9.0,<4.0a0``
-   :depends openblas: 
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:

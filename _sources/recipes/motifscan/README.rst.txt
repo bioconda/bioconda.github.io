@@ -40,6 +40,7 @@ motifscan
       
 
    
+   :depends libgcc: ``>=13``
    :depends matplotlib-base: ``>=3.0.0``
    :depends numpy: ``>=1.15``
    :depends pysam: ``>=0.15.0``

@@ -33,7 +33,8 @@ spydrpick
       
 
    
-   :depends libcxx: ``>=4.0.1``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :depends pthread-stubs: 
    :depends tbb: ``>=2019.9,<2021.0.0a0``
    :requirements:

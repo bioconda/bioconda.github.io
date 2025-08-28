@@ -13,7 +13,7 @@ phist
    Phage\-Host Interaction Search Tool.
 
    :homepage: https://github.com/refresh-bio/PHIST
-   :license: GPL-3 / GPL-3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`phist <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phist>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phist/meta.yaml>`_
    :links: doi: :doi:`10.1093/bioinformatics/btab837`
 
@@ -28,20 +28,24 @@ phist
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends kmer-db: 
-   :depends libcxx: ``>=14.0.4``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
+   :depends kmer-db: ``>=2.3.1,<3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -89,7 +93,7 @@ phist
 
     <script>
         var package = "phist";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

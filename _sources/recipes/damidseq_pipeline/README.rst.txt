@@ -28,9 +28,17 @@ damidseq_pipeline
    :versions:
       
       
+      .. raw:: html
 
-      ``1.6.1-0``,  ``1.6-0``,  ``1.5.3-0``,  ``1.4-5``,  ``1.4-4``,  ``1.4-3``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``
+         <details><summary><span class="truncated-version-list"><code>1.6.2-0</code>,  <code>1.6.1-0</code>,  <code>1.6-0</code>,  <code>1.5.3-0</code>,  <code>1.4-5</code>,  <code>1.4-4</code>,  <code>1.4-3</code>,  <code>1.4-2</code>,  <code>1.4-1</code>,  </span></summary>
+      
 
+      ``1.6.2-0``,  ``1.6.1-0``,  ``1.6-0``,  ``1.5.3-0``,  ``1.4-5``,  ``1.4-4``,  ``1.4-3``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -89,7 +97,7 @@ damidseq_pipeline
 
     <script>
         var package = "damidseq_pipeline";
-        var versions = ["1.6.1","1.6","1.5.3","1.4","1.4"];
+        var versions = ["1.6.2","1.6.1","1.6","1.5.3","1.4"];
     </script>
 
 

@@ -41,6 +41,7 @@ r-sigtree
 
    
    :depends bioconductor-phyloseq: 
+   :depends libgcc-ng: ``>=12``
    :depends r-ape: 
    :depends r-base: ``>=4.3,<4.4.0a0``
    :depends r-mass: 

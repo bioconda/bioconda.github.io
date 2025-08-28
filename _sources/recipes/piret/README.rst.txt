@@ -13,7 +13,7 @@ piret
    A tool for conducting RNA seq analysis.
 
    :homepage: https://github.com/mshakya/PyPiReT
-   :license: GPLV2
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`piret <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/piret>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/piret/meta.yaml>`_
    :links: biotools: :biotools:`piret`
 
@@ -28,12 +28,11 @@ piret
       
       
 
-      ``0.3.4-1``,  ``0.3.4-0``
+      ``0.3.4-3``,  ``0.3.4-1``,  ``0.3.4-0``
 
       
 
    
-   :depends argparse: 
    :depends bamtools: ``>=2.4.0``
    :depends bioconductor-deseq2: ``>=1.20.0``
    :depends bioconductor-edger: ``>=3.22.5``
@@ -43,7 +42,8 @@ piret
    :depends pandas: ``>=0.23.4``
    :depends plumbum: ``>=1.6.0``
    :depends python: 
-   :depends r: 
+   :depends r-argparse: ``>=2.0.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends samtools: ``>=1.3.1``
    :depends stringtie: ``>=1.3.3``
    :depends subread: ``>=1.5.0``
@@ -97,7 +97,7 @@ piret
 
     <script>
         var package = "piret";
-        var versions = ["0.3.4","0.3.4"];
+        var versions = ["0.3.4","0.3.4","0.3.4"];
     </script>
 
 

@@ -39,8 +39,9 @@ bioconductor-vsclust
    :depends bioconductor-qvalue: ``>=2.38.0,<2.39.0``
    :depends bioconductor-qvalue: ``>=2.38.0,<2.39.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-matrixstats: 
    :depends r-rcpp: 

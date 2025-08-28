@@ -30,10 +30,10 @@ flexynesis
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.20-0</code>,  <code>0.2.19-0</code>,  <code>0.2.18-0</code>,  <code>0.2.17-0</code>,  <code>0.2.16-0</code>,  <code>0.2.14-0</code>,  <code>0.2.13-0</code>,  <code>0.2.12-0</code>,  <code>0.2.11-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.3-0</code>,  <code>0.2.20-0</code>,  <code>0.2.19-0</code>,  <code>0.2.18-0</code>,  <code>0.2.17-0</code>,  <code>0.2.16-0</code>,  <code>0.2.14-0</code>,  <code>0.2.13-0</code>,  <code>0.2.12-0</code>,  </span></summary>
       
 
-      ``0.2.20-0``,  ``0.2.19-0``,  ``0.2.18-0``,  ``0.2.17-0``,  ``0.2.16-0``,  ``0.2.14-0``,  ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-0``
+      ``1.0.3-0``,  ``0.2.20-0``,  ``0.2.19-0``,  ``0.2.18-0``,  ``0.2.17-0``,  ``0.2.16-0``,  ``0.2.14-0``,  ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-0``
 
       
       .. raw:: html
@@ -60,6 +60,7 @@ flexynesis
    :depends pytorch_geometric: 
    :depends pyyaml: 
    :depends rich: 
+   :depends safetensors: 
    :depends scikit-optimize: 
    :depends scikit-survival: 
    :depends scipy: 
@@ -118,7 +119,7 @@ flexynesis
 
     <script>
         var package = "flexynesis";
-        var versions = ["0.2.20","0.2.19","0.2.18","0.2.17","0.2.16"];
+        var versions = ["1.0.3","0.2.20","0.2.19","0.2.18","0.2.17"];
     </script>
 
 

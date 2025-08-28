@@ -31,7 +31,7 @@ r-archr
       
       
 
-      ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-0``,  ``1.0.2-0``
+      ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-0``,  ``1.0.2-0``
 
       
 
@@ -48,7 +48,8 @@ r-archr
    :depends bioconductor-s4vectors: ``>=0.9.25``
    :depends bioconductor-sparsematrixstats: ``>=1.18.0,<1.19.0a0``
    :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-chromvarmotifs: ``>=0.2.0,<0.3.0a0``
    :depends r-data.table: 
@@ -75,6 +76,10 @@ r-archr
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -122,7 +127,7 @@ r-archr
 
     <script>
         var package = "r-archr";
-        var versions = ["1.0.3","1.0.3","1.0.3","1.0.2"];
+        var versions = ["1.0.3","1.0.3","1.0.3","1.0.3","1.0.2"];
     </script>
 
 

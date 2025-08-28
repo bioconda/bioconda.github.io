@@ -45,7 +45,9 @@ desman
    :depends biopython: 
    :depends cython: ``>=0.19.1``
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends numpy: ``>=1.22.4,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends numpy: ``>=1.21,<3``
+   :depends numpy: ``>=2.2.0,<3.0a0``
    :depends pandas: ``>=0.11.0``
    :depends pysam: 
    :depends python: ``>=3.10,<3.11.0a0``

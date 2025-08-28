@@ -28,18 +28,24 @@ unitig-counter
       
       
 
-      ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.4-0``
+      ``1.1.0-2``,  ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.4-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends boost-cpp: 
+   :depends hdf5: ``>=1.10.6,<1.10.7.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends pthread-stubs: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -87,7 +93,7 @@ unitig-counter
 
     <script>
         var package = "unitig-counter";
-        var versions = ["1.1.0","1.0.5","1.0.4"];
+        var versions = ["1.1.0","1.1.0","1.0.5","1.0.4"];
     </script>
 
 

@@ -32,8 +32,8 @@ cath-tools
       
 
    
-   :depends libcxx: ``>=9.0.1``
-   :depends llvm-openmp: ``>=10.0.0``
+   :depends libgcc-ng: ``>=7.3.0``
+   :depends libstdcxx-ng: ``>=7.3.0``
    :requirements:
 
    :additional platforms:

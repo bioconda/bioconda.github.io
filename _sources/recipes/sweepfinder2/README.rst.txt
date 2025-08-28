@@ -32,6 +32,7 @@ sweepfinder2
       
 
    
+   :depends libgcc-ng: ``>=10.3.0``
    :requirements:
 
    :additional platforms:

@@ -32,7 +32,6 @@ recontig
       
 
    
-   :depends htslib: ``>=1.15,<1.23.0a0``
    :requirements:
 
    :additional platforms:

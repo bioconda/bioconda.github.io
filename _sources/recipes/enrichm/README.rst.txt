@@ -10,10 +10,10 @@ enrichm
    :replaces_section_title:
    :noindex:
 
-   EnrichM is a toolbox for comparing the functional composition of population genomes
+   EnrichM is a toolbox for comparing the functional composition of population genomes.
 
    :homepage: https://github.com/geronimp/enrichM
-   :license: GPL3 / GPL3+
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`enrichm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/enrichm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/enrichm/meta.yaml>`_
 
    
@@ -27,24 +27,25 @@ enrichm
       
       
 
-      ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.5.0-0``
+      ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.5.0-0``
 
       
 
    
    :depends biopython: ``>=1.66``
-   :depends diamond: ``0.9.22``
+   :depends diamond: 
+   :depends fuzzywuzzy: ``>=0.18.0``
    :depends hmmer: ``>=3.1b``
    :depends mcl: ``>=14.137``
    :depends mmseqs2: ``>=2.23394``
    :depends moreutils: 
    :depends numpy: ``>=1.9.1``
-   :depends openmp: 
+   :depends openmpi: 
    :depends pandas: ``>=0.17.1``
    :depends parallel: ``>=20180222``
    :depends prodigal: ``>=2.6.3``
    :depends python: ``>=3.6``
-   :depends python-dateutil: ``>=2.5.1``
+   :depends python-dateutil: ``>=2.8.0``
    :depends r-base: 
    :depends r-gridextra: 
    :depends r-optparse: 
@@ -53,6 +54,7 @@ enrichm
    :depends seqmagick: 
    :depends six: ``>=1.10.0``
    :depends statsmodels: ``>=0.8.0rc1``
+   :depends tempdir: ``>=0.7.1``
    :requirements:
 
    :additional platforms:
@@ -103,7 +105,7 @@ enrichm
 
     <script>
         var package = "enrichm";
-        var versions = ["0.6.5","0.6.4","0.6.3","0.6.2","0.5.0"];
+        var versions = ["0.6.6","0.6.5","0.6.4","0.6.3","0.6.2"];
     </script>
 
 

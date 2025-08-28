@@ -13,8 +13,11 @@ gubbins
    Rapid phylogenetic analysis of large samples of recombinant bacterial whole genome sequences using Gubbins.
 
    :homepage: https://github.com/nickjcroucher/gubbins
-   :license: GPL-2.0
+   :documentation: https://nickjcroucher.github.io/gubbins
+   
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`gubbins <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gubbins>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gubbins/meta.yaml>`_
+   :links: doi: :doi:`10.1093/nar/gku1196`, biotools: :biotools:`gubbins`, usegalaxy-eu: :usegalaxy-eu:`gubbins`
 
    
 
@@ -28,10 +31,10 @@ gubbins
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.1-0</code>,  <code>3.4-3</code>,  <code>3.4-2</code>,  <code>3.4-1</code>,  <code>3.4-0</code>,  <code>3.3.5-0</code>,  <code>3.3.4-1</code>,  <code>3.3.4-0</code>,  <code>3.3.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.3-0</code>,  <code>3.4.2-0</code>,  <code>3.4.1-0</code>,  <code>3.4-3</code>,  <code>3.4-2</code>,  <code>3.4-1</code>,  <code>3.4-0</code>,  <code>3.3.5-0</code>,  <code>3.3.4-1</code>,  </span></summary>
       
 
-      ``3.4.1-0``,  ``3.4-3``,  ``3.4-2``,  ``3.4-1``,  ``3.4-0``,  ``3.3.5-0``,  ``3.3.4-1``,  ``3.3.4-0``,  ``3.3.3-1``,  ``3.3.3-0``,  ``3.3.1-0``,  ``3.3-0``,  ``3.3.0-0``,  ``3.2.2-0``,  ``3.2.1-1``,  ``3.2.1-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.6-1``,  ``3.1.6-0``,  ``3.1.5-0``,  ``3.1.4-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.5-0``,  ``2.3.4-2``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.2-0``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.2.1-0``
+      ``3.4.3-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4-3``,  ``3.4-2``,  ``3.4-1``,  ``3.4-0``,  ``3.3.5-0``,  ``3.3.4-1``,  ``3.3.4-0``,  ``3.3.3-1``,  ``3.3.3-0``,  ``3.3.1-0``,  ``3.3-0``,  ``3.3.0-0``,  ``3.2.2-0``,  ``3.2.1-1``,  ``3.2.1-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.6-1``,  ``3.1.6-0``,  ``3.1.5-0``,  ``3.1.4-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.5-0``,  ``2.3.4-2``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.2-0``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.2.1-0``
 
       
       .. raw:: html
@@ -44,15 +47,16 @@ gubbins
    :depends bioconductor-treeio: 
    :depends biopython: 
    :depends dendropy: ``>=5.0.8,<6.0a0``
-   :depends fasttree: ``>2.1.10*``
-   :depends iqtree: ``>=2.2``
+   :depends fasttree: ``>=2.1.10``
+   :depends iqtree: ``>=2.2,<3``
    :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends multiprocess: 
    :depends numba: 
    :depends numpy: ``<=1.23.0``
    :depends numpy: ``>=1.23.0,<2.0a0``
-   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends perl: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends r-aplot: 
@@ -63,18 +67,19 @@ gubbins
    :depends r-rcolorbrewer: 
    :depends r-tidyverse: 
    :depends rapidnj: 
-   :depends raxml: ``>8.2.12*``
-   :depends raxml-ng: ``>1.0.1*``
+   :depends raxml: ``>=8.2.12``
+   :depends raxml-ng: ``>=1.0.1``
    :depends scipy: 
    :depends setuptools: 
    :depends ska2: ``>=0.3.0``
+   :depends veryfasttree: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -122,7 +127,7 @@ gubbins
 
     <script>
         var package = "gubbins";
-        var versions = ["3.4.1","3.4","3.4","3.4","3.4"];
+        var versions = ["3.4.3","3.4.2","3.4.1","3.4","3.4"];
     </script>
 
 

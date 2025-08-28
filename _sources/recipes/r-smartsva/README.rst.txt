@@ -41,7 +41,8 @@ r-smartsva
 
    
    :depends bioconductor-sva: ``>=3.54.0,<3.55.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-isva: 
    :depends r-rcpp: 

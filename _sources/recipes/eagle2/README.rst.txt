@@ -35,7 +35,8 @@ eagle2
    :depends boost-cpp: ``>=1.85.0,<2.0a0``
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends htslib: ``>=1.21,<1.23.0a0``
-   :depends libcxx: ``>=16``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends openblas: ``>=0.3.28,<1.0a0``
    :depends zlib: ``>=1.2.13,<2.0a0``

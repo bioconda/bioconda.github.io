@@ -40,6 +40,7 @@ gnu-wget
       
 
    
+   :depends libgcc: ``>=13``
    :depends libidn2: ``>=2,<3.0a0``
    :depends libunistring: ``>=0,<1.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``

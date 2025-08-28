@@ -32,6 +32,7 @@ pywfa
       
 
    
+   :depends libgcc-ng: ``>=12``
    :depends python: ``>=3.8,<3.9.0a0``
    :depends python_abi: ``3.8.* *_cp38``
    :requirements:

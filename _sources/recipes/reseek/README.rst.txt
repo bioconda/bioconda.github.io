@@ -34,8 +34,10 @@ reseek
       
 
    
-   :depends libcxx: ``>=18``
-   :depends llvm-openmp: ``>=18.1.8``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:

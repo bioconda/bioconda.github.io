@@ -33,7 +33,8 @@ chia-rep
 
    
    :depends click: ``>=7.0``
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends numpy: ``>=1.17.0``
    :depends pybedgraph: ``>=0.5.40``
    :depends python: ``>=3.10,<3.11.0a0``

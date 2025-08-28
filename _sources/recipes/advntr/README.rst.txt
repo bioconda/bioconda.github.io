@@ -45,14 +45,15 @@ advntr
    :depends htslib: ``1.9.*``
    :depends joblib: 
    :depends keras: ``2.2.4.*``
-   :depends libcxx: ``>=14.0.4``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends matplotlib-base: 
    :depends muscle: ``3.8.1551.*``
    :depends networkx: ``1.11.*``
    :depends numpy: ``>=1.16.5,<2.0a0``
    :depends pysam: ``0.15.1.*``
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27m``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends scikit-learn: 
    :depends scipy: ``>=1.2.1,<2.0a0``
    :depends tensorflow: ``1.13.1.*``

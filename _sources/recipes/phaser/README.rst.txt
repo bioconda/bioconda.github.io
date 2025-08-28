@@ -33,13 +33,14 @@ phaser
 
    
    :depends intervaltree: 
-   :depends libcxx: ``>=14.0.6``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends numpy: 
    :depends pandas: 
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends pysam: 
    :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27m``
+   :depends python_abi: ``2.7.* *_cp27mu``
    :depends pyvcf: 
    :depends scipy: 
    :requirements:

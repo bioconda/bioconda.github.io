@@ -32,6 +32,7 @@ igblast-parser
       
 
    
+   :depends libgcc-ng: ``>=12``
    :depends numpy: 
    :depends pandas: 
    :depends python: ``>=3.10,<3.11.0a0``

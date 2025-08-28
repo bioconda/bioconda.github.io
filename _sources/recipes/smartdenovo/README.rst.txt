@@ -32,6 +32,7 @@ smartdenovo
       
 
    
+   :depends libgcc: ``>=13``
    :depends perl: 
    :requirements:
 

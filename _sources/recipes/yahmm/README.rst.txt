@@ -33,6 +33,7 @@ yahmm
 
    
    :depends cython: ``>=0.20.1``
+   :depends libgcc-ng: ``>=12``
    :depends matplotlib-base: ``>=1.3.1``
    :depends networkx: ``>=1.8.1``
    :depends numpy: ``>=1.24.3,<2.0a0``

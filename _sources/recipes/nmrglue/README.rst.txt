@@ -40,6 +40,7 @@ nmrglue
       
 
    
+   :depends libgcc: ``>=13``
    :depends numpy: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``

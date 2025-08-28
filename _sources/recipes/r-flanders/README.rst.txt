@@ -33,7 +33,7 @@ r-flanders
       
       
 
-      ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -99,7 +99,7 @@ r-flanders
 
     <script>
         var package = "r-flanders";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.1","1.0.0"];
     </script>
 
 

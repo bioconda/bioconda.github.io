@@ -40,6 +40,7 @@ qax
       
 
    
+   :depends libgcc-ng: ``>=12``
    :depends libzip: ``>=1.9.2,<2.0a0``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``
    :depends zip: 

@@ -41,6 +41,7 @@ r-rphast
 
    
    :depends blis: ``>=0.9.0``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends pcre: ``>=8.45,<9.0a0``
    :depends r-base: ``>=4.5,<4.6.0a0``

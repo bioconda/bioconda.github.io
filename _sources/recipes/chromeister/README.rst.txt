@@ -43,6 +43,7 @@ chromeister
    
    :depends cycler: 
    :depends kiwisolver: 
+   :depends libgcc: ``>=13``
    :depends numpy: 
    :depends opencv: 
    :depends pillow: 

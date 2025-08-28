@@ -12,8 +12,8 @@ crass
 
    Crass \(The CRISPR Assembler\) is a program that searches through raw metagenomic reads for Clustered Regularly Interspersed Short Palindromic Repeats
 
-   :homepage: https://mummer4.github.io/
-   :license: GNU General Public License v3.0
+   :homepage: https://github.com/ctSkennerton/crass
+   :license: GPL-3.0-or-later
    :recipe: /`crass <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crass>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crass/meta.yaml>`_
 
    
@@ -27,20 +27,23 @@ crass
       
       
 
-      ``1.0.1-6``,  ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
+      ``1.0.1-7``,  ``1.0.1-6``,  ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
 
       
 
    
+   :depends graphviz: ``>=12.2.1,<13.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
-   :depends libtool: ``>=2.2``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends xerces-c: ``3.1.*``
-   :depends zlib: 
+   :depends xerces-c: ``>=3.2.5,<3.3.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

@@ -12,9 +12,8 @@ phcue-ck
 
    phcue\-ck \(pronounced \"F\-Q\-Seek\"\) is a simple tool to get FTP urls for FASTQ files on ENA.
 
-
-   :homepage: https://lgi-onehealth.github.io/phcue-ck/
-   :license: MIT
+   :homepage: https://lgi-onehealth.github.io/phcue-ck
+   :license: MIT / MIT
    :recipe: /`phcue-ck <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phcue-ck>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phcue-ck/meta.yaml>`_
 
    
@@ -28,15 +27,21 @@ phcue-ck
       
       
 
-      ``0.2.0-3``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.2-0``
+      ``0.2.0-4``,  ``0.2.0-3``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.2-0``
 
       
 
    
    :depends ca-certificates: 
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -84,7 +89,7 @@ phcue-ck
 
     <script>
         var package = "phcue-ck";
-        var versions = ["0.2.0","0.2.0","0.2.0","0.2.0","0.1.2"];
+        var versions = ["0.2.0","0.2.0","0.2.0","0.2.0","0.2.0"];
     </script>
 
 

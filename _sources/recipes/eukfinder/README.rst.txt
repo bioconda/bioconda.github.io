@@ -35,7 +35,8 @@ eukfinder
    :depends bowtie2: 
    :depends centrifuge: 
    :depends joblib: 
-   :depends libcxx: ``>=17``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends numpy: 
    :depends pandas: 
    :depends pip: 

@@ -42,7 +42,8 @@ scallop-lr
    
    :depends boost-cpp: 
    :depends htslib: ``>=1.21,<1.23.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:

@@ -10,10 +10,10 @@ popscle
    :replaces_section_title:
    :noindex:
 
-   A suite of population scale analysis tools for single\-cell genomics data including implementation of Demuxlet \/ Freemuxlet methods and auxilary tools
+   A suite of population scale analysis tools for single\-cell genomics data including implementation of Demuxlet \/ Freemuxlet methods and auxilary tools.
 
    :homepage: https://github.com/statgen/popscle
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`popscle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/popscle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/popscle/meta.yaml>`_
 
    
@@ -27,22 +27,26 @@ popscle
       
       
 
-      ``0.1-0``,  ``0.1beta-1``,  ``0.1beta-0``
+      ``0.1-1``,  ``0.1-0``,  ``0.1beta-1``,  ``0.1beta-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.16,<1.23.0a0``
-   :depends libcxx: ``>=14.0.4``
-   :depends libzlib: ``>=1.2.12,<1.3.0a0``
-   :depends openssl: ``>=1.1.1q,<1.1.2a``
-   :depends samtools: 
-   :depends xz: ``>=5.2.6,<5.3.0a0``
-   :depends zlib: ``>=1.2.12,<1.3.0a0``
+   :depends htslib: ``1.10.*``
+   :depends htslib: ``>=1.10,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends liblzma: ``>=5.8.1,<6.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends openssl: ``>=3.5.2,<4.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -90,7 +94,7 @@ popscle
 
     <script>
         var package = "popscle";
-        var versions = ["0.1","0.1beta","0.1beta"];
+        var versions = ["0.1","0.1","0.1beta","0.1beta"];
     </script>
 
 

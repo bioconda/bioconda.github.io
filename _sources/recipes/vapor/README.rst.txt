@@ -10,10 +10,10 @@ vapor
    :replaces_section_title:
    :noindex:
 
-   VAPOR is a tool for classification of Influenza samples from raw short read sequence data for downstream bioinformatics analysis.
+   VAPOR is a tool for classification of Influenza samples from short read sequence data for further bioinformatics analysis.
 
-   :homepage: https://github.com/connor-lab/vapor
-   :license: GPL / GPL-3.0-only
+   :homepage: https://github.com/wm75/vaporup
+   :license: GPL / GPL-3.0-or-later
    :recipe: /`vapor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vapor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vapor/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ vapor
       
       
 
-      ``1.0.2-0``
+      ``1.0.3-0``,  ``1.0.2-0``
 
       
 
@@ -84,7 +84,7 @@ vapor
 
     <script>
         var package = "vapor";
-        var versions = ["1.0.2"];
+        var versions = ["1.0.3","1.0.2"];
     </script>
 
 

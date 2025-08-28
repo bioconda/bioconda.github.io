@@ -28,11 +28,12 @@ allelecodes
       
       
 
-      
+      ``2.1-0``
 
       
 
    
+   :depends python: ``>=3.13,<3.14.0a0``
    :requirements:
 
    :additional platforms:
@@ -83,7 +84,7 @@ allelecodes
 
     <script>
         var package = "allelecodes";
-        var versions = [];
+        var versions = ["2.1"];
     </script>
 
 

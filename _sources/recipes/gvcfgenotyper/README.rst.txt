@@ -33,8 +33,9 @@ gvcfgenotyper
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends liblzma: ``>=5.6.3,<6.0a0``
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends xz: 
    :depends zlib: 

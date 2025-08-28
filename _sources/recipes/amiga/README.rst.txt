@@ -36,6 +36,7 @@ amiga
    :depends decorator: ``>=5.1.0``
    :depends gpy: ``>=1.13.2``
    :depends kiwisolver: ``>=1.3.2``
+   :depends libgcc: ``>=13``
    :depends matplotlib-base: ``>=3.5.1``
    :depends numpy: ``>=1.21.0``
    :depends pandas: ``>=1.3.0``

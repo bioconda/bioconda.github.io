@@ -32,7 +32,8 @@ r-scoper
       
 
    
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :depends r-alakazam: ``>=1.2.0``
    :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-data.table: 

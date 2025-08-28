@@ -34,6 +34,7 @@ perl-bio-kmer
    
    :depends kmer-jellyfish: ``>=2``
    :depends kmer-jellyfish: ``>=2.3.1,<2.3.2.0a0``
+   :depends libgcc-ng: ``>=12``
    :depends perl: ``>=5.26``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-bioperl: 

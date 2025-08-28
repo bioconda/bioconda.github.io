@@ -32,7 +32,8 @@ dbghaplo
       
 
    
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends lofreq: ``>=2.1.5``
    :depends minimap2: 
    :depends pysam: ``>=0.16``

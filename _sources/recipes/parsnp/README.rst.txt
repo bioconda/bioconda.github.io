@@ -46,11 +46,12 @@ parsnp
    :depends fastani: 
    :depends fasttree: 
    :depends harvesttools: 
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends llvm-openmp: ``>=18.1.8``
    :depends mash: 
    :depends numpy: 
+   :depends openmp: 
    :depends phipack: 
    :depends pyspoa: 
    :depends python: ``>=3.7``

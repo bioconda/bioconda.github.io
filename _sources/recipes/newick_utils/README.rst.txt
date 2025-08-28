@@ -40,6 +40,7 @@ newick_utils
       
 
    
+   :depends libgcc: ``>=13``
    :depends libxml2: ``>=2.13.5,<3.0a0``
    :requirements:
 

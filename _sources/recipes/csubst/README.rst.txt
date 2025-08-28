@@ -36,7 +36,8 @@ csubst
    :depends ete3: 
    :depends iqtree: ``>=2.0.0``
    :depends joblib: 
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends mafft: 
    :depends matplotlib-base: 
    :depends numpy: ``>=1.22.4,<2.0a0``

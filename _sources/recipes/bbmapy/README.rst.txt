@@ -29,7 +29,7 @@ bbmapy
       
       
 
-      ``0.0.46-0``
+      ``0.0.51-0``,  ``0.0.46-0``
 
       
 
@@ -87,7 +87,7 @@ bbmapy
 
     <script>
         var package = "bbmapy";
-        var versions = ["0.0.46"];
+        var versions = ["0.0.51","0.0.46"];
     </script>
 
 

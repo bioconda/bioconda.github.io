@@ -33,7 +33,8 @@ rust-mdbg
       
 
    
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc-ng: ``>=12``
+   :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    :additional platforms:

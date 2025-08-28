@@ -47,8 +47,9 @@ bioconductor-methylclock
    :depends bioconductor-preprocesscore: ``>=1.68.0,<1.69.0``
    :depends bioconductor-preprocesscore: ``>=1.68.0,<1.69.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-devtools: 
    :depends r-dplyr: 
