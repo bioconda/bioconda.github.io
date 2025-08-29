@@ -12,8 +12,8 @@ mreps
 
    mreps is a flexible and efficient software for identifying serial repeats \(usually called tandem repeats\) in DNA sequences.
 
-   :homepage: http://mreps.univ-mlv.fr/
-   :license: GNU GENERAL PUBLIC LICENSE
+   :homepage: http://mreps.univ-mlv.fr
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`mreps <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mreps>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mreps/meta.yaml>`_
    :links: biotools: :biotools:`mreps`
 
@@ -28,7 +28,7 @@ mreps
       
       
 
-      ``2.6.01-5``,  ``2.6.01-4``,  ``2.6.01-3``,  ``2.6.01-2``,  ``2.6.01-1``,  ``2.6.01-0``,  ``0.1-0``
+      ``2.6.01-6``,  ``2.6.01-5``,  ``2.6.01-4``,  ``2.6.01-3``,  ``2.6.01-2``,  ``2.6.01-1``,  ``2.6.01-0``,  ``0.1-0``
 
       
 
@@ -37,6 +37,10 @@ mreps
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

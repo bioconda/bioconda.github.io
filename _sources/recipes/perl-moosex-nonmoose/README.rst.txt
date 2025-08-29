@@ -10,10 +10,10 @@ perl-moosex-nonmoose
    :replaces_section_title:
    :noindex:
 
-   MooseX\:\:NonMoose \- easy subclassing of non\-Moose classes
+   MooseX\:\:NonMoose \- easy subclassing of non\-Moose classes.
 
    :homepage: https://github.com/moose/MooseX-NonMoose
-   :license: perl_5
+   :license: Perl_5
    :recipe: /`perl-moosex-nonmoose <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-nonmoose>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-nonmoose/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-moosex-nonmoose
       
       
 
-      ``0.26-4``,  ``0.26-3``,  ``0.26-2``,  ``0.26-1``,  ``0.26-0``
+      ``0.27-0``,  ``0.26-4``,  ``0.26-3``,  ``0.26-2``,  ``0.26-1``,  ``0.26-0``
 
       
 
@@ -36,6 +36,8 @@ perl-moosex-nonmoose
    :depends perl-list-moreutils: 
    :depends perl-module-runtime: 
    :depends perl-moose: 
+   :depends perl-scalar-list-utils: 
+   :depends perl-scalar-util-numeric: 
    :depends perl-try-tiny: 
    :requirements:
 
@@ -87,7 +89,7 @@ perl-moosex-nonmoose
 
     <script>
         var package = "perl-moosex-nonmoose";
-        var versions = ["0.26","0.26","0.26","0.26","0.26"];
+        var versions = ["0.27","0.26","0.26","0.26","0.26"];
     </script>
 
 

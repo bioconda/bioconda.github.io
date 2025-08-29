@@ -10,10 +10,10 @@ perl-test-class-moose
    :replaces_section_title:
    :noindex:
 
-   Serious testing for serious Perl
+   Serious testing for serious Perl.
 
-   :homepage: http://metacpan.org/release/Test-Class-Moose/
-   :license: perl_5
+   :homepage: https://metacpan.org/release/Test-Class-Moose
+   :license: Perl_5
    :recipe: /`perl-test-class-moose <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-class-moose>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-class-moose/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-test-class-moose
       
       
 
-      ``0.99-0``,  ``0.96-2``,  ``0.96-1``,  ``0.96-0``,  ``0.95-0``,  ``0.94-0``,  ``0.80-0``
+      ``1.00-0``,  ``0.99-0``,  ``0.96-2``,  ``0.96-1``,  ``0.96-0``,  ``0.95-0``,  ``0.94-0``,  ``0.80-0``
 
       
 
@@ -51,7 +51,7 @@ perl-test-class-moose
    :depends perl-parallel-forkmanager: 
    :depends perl-sub-attribute: 
    :depends perl-test-most: 
-   :depends perl-test-simple: ``>=1.302118``
+   :depends perl-test-simple: 
    :depends perl-try-tiny: 
    :requirements:
 
@@ -103,7 +103,7 @@ perl-test-class-moose
 
     <script>
         var package = "perl-test-class-moose";
-        var versions = ["0.99","0.96","0.96","0.96","0.95"];
+        var versions = ["1.00","0.99","0.96","0.96","0.96"];
     </script>
 
 

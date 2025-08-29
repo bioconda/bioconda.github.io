@@ -10,10 +10,10 @@ perl-test2-plugin-nowarnings
    :replaces_section_title:
    :noindex:
 
-   Fail if tests warn
+   Fail if tests warn.
 
-   :homepage: https://metacpan.org/release/Test2-Plugin-NoWarnings
-   :license: artistic_2
+   :homepage: https://metacpan.org/pod/Test2::Plugin::NoWarnings
+   :license: Artistic-2.0
    :recipe: /`perl-test2-plugin-nowarnings <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test2-plugin-nowarnings>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test2-plugin-nowarnings/meta.yaml>`_
 
    
@@ -27,12 +27,13 @@ perl-test2-plugin-nowarnings
       
       
 
-      ``0.09-0``
+      ``0.10-0``,  ``0.09-0``
 
       
 
    
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends perl-ipc-run3: 
    :requirements:
 
    :additional platforms:
@@ -83,7 +84,7 @@ perl-test2-plugin-nowarnings
 
     <script>
         var package = "perl-test2-plugin-nowarnings";
-        var versions = ["0.09"];
+        var versions = ["0.10","0.09"];
     </script>
 
 

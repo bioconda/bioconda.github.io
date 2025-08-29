@@ -10,10 +10,12 @@ perl-file-copy-recursive-reduced
    :replaces_section_title:
    :noindex:
 
-   Recursive copying of files and directories within Perl 5 toolchain
+   Recursive copying of files and directories within Perl 5 toolchain.
 
-   :homepage: http://thenceforward.net/perl/modules/File-Copy-Recursive-Reduced/
-   :license: perl_5
+   :homepage: https://thenceforward.net/perl/modules/File-Copy-Recursive-Reduced
+   :documentation: https://metacpan.org/pod/File::Copy::Recursive::Reduced
+   
+   :license: Perl_5
    :recipe: /`perl-file-copy-recursive-reduced <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-copy-recursive-reduced>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-copy-recursive-reduced/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ perl-file-copy-recursive-reduced
       
       
 
-      ``0.006-1``,  ``0.006-0``
+      ``0.008-0``,  ``0.006-1``,  ``0.006-0``
 
       
 
@@ -84,7 +86,7 @@ perl-file-copy-recursive-reduced
 
     <script>
         var package = "perl-file-copy-recursive-reduced";
-        var versions = ["0.006","0.006"];
+        var versions = ["0.008","0.006","0.006"];
     </script>
 
 

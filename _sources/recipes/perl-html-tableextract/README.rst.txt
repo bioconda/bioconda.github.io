@@ -12,8 +12,8 @@ perl-html-tableextract
 
    Perl module for extracting the content contained in tables within an HTML document\, either as text or encoded element trees.
 
-   :homepage: http://metacpan.org/pod/HTML-TableExtract
-   :license: unknown
+   :homepage: https://metacpan.org/pod/HTML::TableExtract
+   :license: Unknown
    :recipe: /`perl-html-tableextract <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-tableextract>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-tableextract/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-html-tableextract
       
       
 
-      ``2.13-3``,  ``2.13-2``,  ``2.13-1``,  ``2.13-0``
+      ``2.15-0``,  ``2.13-3``,  ``2.13-2``,  ``2.13-1``,  ``2.13-0``
 
       
 
@@ -85,7 +85,7 @@ perl-html-tableextract
 
     <script>
         var package = "perl-html-tableextract";
-        var versions = ["2.13","2.13","2.13","2.13"];
+        var versions = ["2.15","2.13","2.13","2.13","2.13"];
     </script>
 
 

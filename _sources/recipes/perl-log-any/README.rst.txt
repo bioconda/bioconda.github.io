@@ -10,10 +10,12 @@ perl-log-any
    :replaces_section_title:
    :noindex:
 
-   Bringing loggers and listeners together
+   Bringing loggers and listeners together.
 
    :homepage: https://github.com/preaction/Log-Any
-   :license: perl_5
+   :documentation: https://metacpan.org/pod/Log::Any
+   
+   :license: Perl_5
    :recipe: /`perl-log-any <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-log-any>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-log-any/meta.yaml>`_
 
    
@@ -27,13 +29,17 @@ perl-log-any
       
       
 
-      ``1.710-0``,  ``1.045-2``,  ``1.045-1``,  ``1.045-0``
+      ``1.718-0``,  ``1.710-0``,  ``1.045-2``,  ``1.045-1``,  ``1.045-0``
 
       
 
    
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends perl-apache-test: 
+   :depends perl-carp: 
+   :depends perl-constant: 
+   :depends perl-data-dumper: 
+   :depends perl-exporter: 
    :depends perl-test-simple: 
    :requirements:
 
@@ -85,7 +91,7 @@ perl-log-any
 
     <script>
         var package = "perl-log-any";
-        var versions = ["1.710","1.045","1.045","1.045"];
+        var versions = ["1.718","1.710","1.045","1.045","1.045"];
     </script>
 
 

@@ -10,10 +10,10 @@ perl-digest-hmac
    :replaces_section_title:
    :noindex:
 
-   Keyed\-Hashing for Message Authentication
+   Keyed\-Hashing for Message Authentication.
 
-   :homepage: http://metacpan.org/pod/Digest-HMAC
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/Digest-HMAC
+   :license: Perl_5
    :recipe: /`perl-digest-hmac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-digest-hmac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-digest-hmac/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-digest-hmac
       
       
 
-      ``1.04-0``,  ``1.03-4``,  ``1.03-3``,  ``1.03-2``,  ``1.03-1``,  ``1.03-0``
+      ``1.05-0``,  ``1.04-0``,  ``1.03-4``,  ``1.03-3``,  ``1.03-2``,  ``1.03-1``,  ``1.03-0``
 
       
 
@@ -83,7 +83,7 @@ perl-digest-hmac
 
     <script>
         var package = "perl-digest-hmac";
-        var versions = ["1.04","1.03","1.03","1.03","1.03"];
+        var versions = ["1.05","1.04","1.03","1.03","1.03"];
     </script>
 
 

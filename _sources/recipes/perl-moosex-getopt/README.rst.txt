@@ -10,10 +10,12 @@ perl-moosex-getopt
    :replaces_section_title:
    :noindex:
 
-   A Moose role for processing command line options
+   A Moose role for processing command line options.
 
    :homepage: https://github.com/moose/MooseX-Getopt
-   :license: perl_5
+   :documentation: https://metacpan.org/pod/MooseX::Getopt
+   
+   :license: Perl_5
    :recipe: /`perl-moosex-getopt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-getopt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-getopt/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ perl-moosex-getopt
       
       
 
-      ``0.75-0``,  ``0.74-1``,  ``0.74-0``,  ``0.72-0``,  ``0.71-2``,  ``0.71-1``,  ``0.71-0``
+      ``0.78-0``,  ``0.75-0``,  ``0.74-1``,  ``0.74-0``,  ``0.72-0``,  ``0.71-2``,  ``0.71-1``,  ``0.71-0``
 
       
 
@@ -90,7 +92,7 @@ perl-moosex-getopt
 
     <script>
         var package = "perl-moosex-getopt";
-        var versions = ["0.75","0.74","0.74","0.72","0.71"];
+        var versions = ["0.78","0.75","0.74","0.74","0.72"];
     </script>
 
 

@@ -10,10 +10,10 @@ perl-bignum
    :replaces_section_title:
    :noindex:
 
-   Transparent BigNumber support for Perl
+   Transparent BigNumber support for Perl.
 
-   :homepage: http://metacpan.org/pod/bignum
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/bignum
+   :license: Perl_5
    :recipe: /`perl-bignum <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bignum>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bignum/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-bignum
       
       
 
-      ``0.66-0``,  ``0.65-0``,  ``0.64-0``,  ``0.51-1``,  ``0.51-0``
+      ``0.67-0``,  ``0.66-0``,  ``0.65-0``,  ``0.64-0``,  ``0.51-1``,  ``0.51-0``
 
       
 
@@ -86,7 +86,7 @@ perl-bignum
 
     <script>
         var package = "perl-bignum";
-        var versions = ["0.66","0.65","0.64","0.51","0.51"];
+        var versions = ["0.67","0.66","0.65","0.64","0.51"];
     </script>
 
 

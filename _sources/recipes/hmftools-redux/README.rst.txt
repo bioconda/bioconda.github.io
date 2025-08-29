@@ -28,10 +28,10 @@ hmftools-redux
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1-1</code>,  <code>1.1-0</code>,  <code>1.0_beta-6</code>,  <code>1.0_beta-5</code>,  <code>1.0_beta-4</code>,  <code>1.0_beta-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.1-0</code>,  <code>1.2-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1-1</code>,  <code>1.1-0</code>,  <code>1.0_beta-6</code>,  <code>1.0_beta-5</code>,  <code>1.0_beta-4</code>,  </span></summary>
       
 
-      ``1.2-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0_beta-6``,  ``1.0_beta-5``,  ``1.0_beta-4``,  ``1.0_beta-3``,  ``1.0_beta-2``,  ``1.0_beta-1``,  ``1.0_beta-0``
+      ``1.2.1-0``,  ``1.2-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0_beta-6``,  ``1.0_beta-5``,  ``1.0_beta-4``,  ``1.0_beta-3``,  ``1.0_beta-2``,  ``1.0_beta-1``,  ``1.0_beta-0``
 
       
       .. raw:: html
@@ -92,7 +92,7 @@ hmftools-redux
 
     <script>
         var package = "hmftools-redux";
-        var versions = ["1.2","1.1.2","1.1.1","1.1","1.1"];
+        var versions = ["1.2.1","1.2","1.1.2","1.1.1","1.1"];
     </script>
 
 

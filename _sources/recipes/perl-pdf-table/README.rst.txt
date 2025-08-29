@@ -12,8 +12,8 @@ perl-pdf-table
 
    A utility class for building table layouts in a PDF\:\:API2 object.
 
-   :homepage: http://metacpan.org/pod/PDF::Table
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/PDF::Table
+   :license: Perl_5
    :recipe: /`perl-pdf-table <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pdf-table>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pdf-table/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-pdf-table
       
       
 
-      ``1.005-0``,  ``1.004-0``,  ``1.003-0``,  ``1.002-0``,  ``0.11.0-1``,  ``0.11.0-0``
+      ``1.007-0``,  ``1.005-0``,  ``1.004-0``,  ``1.003-0``,  ``1.002-0``,  ``0.11.0-1``,  ``0.11.0-0``
 
       
 
@@ -83,7 +83,7 @@ perl-pdf-table
 
     <script>
         var package = "perl-pdf-table";
-        var versions = ["1.005","1.004","1.003","1.002","0.11.0"];
+        var versions = ["1.007","1.005","1.004","1.003","1.002"];
     </script>
 
 

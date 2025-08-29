@@ -10,10 +10,12 @@ perl-getopt-long-descriptive
    :replaces_section_title:
    :noindex:
 
-   Getopt\:\:Long\, but simpler and more powerful
+   Getopt\:\:Long\, but simpler and more powerful.
 
    :homepage: https://github.com/rjbs/Getopt-Long-Descriptive
-   :license: perl_5
+   :documentation: https://metacpan.org/pod/Getopt::Long::Descriptive
+   
+   :license: Perl_5
    :recipe: /`perl-getopt-long-descriptive <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-getopt-long-descriptive>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-getopt-long-descriptive/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ perl-getopt-long-descriptive
       
       
 
-      ``0.111-0``,  ``0.110-0``,  ``0.104-1``,  ``0.104-0``,  ``0.103-0``
+      ``0.116-0``,  ``0.111-0``,  ``0.110-0``,  ``0.104-1``,  ``0.104-0``,  ``0.103-0``
 
       
 
@@ -87,7 +89,7 @@ perl-getopt-long-descriptive
 
     <script>
         var package = "perl-getopt-long-descriptive";
-        var versions = ["0.111","0.110","0.104","0.104","0.103"];
+        var versions = ["0.116","0.111","0.110","0.104","0.104"];
     </script>
 
 
