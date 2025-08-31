@@ -27,7 +27,7 @@ perl-parallel-forkmanager
       
       
 
-      ``2.03-0``,  ``2.02-1``,  ``2.02-0``,  ``1.17-1``,  ``1.17-0``
+      ``2.04-0``,  ``2.03-0``,  ``2.02-1``,  ``2.02-0``,  ``1.17-1``,  ``1.17-0``
 
       
 
@@ -88,7 +88,7 @@ perl-parallel-forkmanager
 
     <script>
         var package = "perl-parallel-forkmanager";
-        var versions = ["2.03","2.02","2.02","1.17","1.17"];
+        var versions = ["2.04","2.03","2.02","2.02","1.17"];
     </script>
 
 

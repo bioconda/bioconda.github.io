@@ -23,7 +23,7 @@ mitosalt
      \- \`download\-mitosalt\-db.sh \-m \[mouse\_genome\_url\, blank for custom GRCm38.p6 genome\]\`
      \- \`download\-mitosalt\-db.sh \-h \[human\_genome\_url\, blank for custom hg19 genome\] \-m \[mouse\_genome\_url\, blank for custom GRCm38.p6 genome\]\`
    \- let us choose the destination folder of the reference genomes and indices
-     \- \`export MITOSALTDATA\=\/path\/to\/mitosalt\/genomedata\`
+     \- \`export MITOSALT\_DATA\=\/path\/to\/mitosalt\/genomedata\`
    \- specify custom config files that are available in the package at \`\$CONDA\_PREFIX\/share\/mitosalt\-1.1.1\-0\/\`
 
 
@@ -36,7 +36,7 @@ mitosalt
       
       
 
-      ``1.1.1-0``
+      ``1.1.1-1``,  ``1.1.1-0``
 
       
 
@@ -100,7 +100,7 @@ mitosalt
 
     <script>
         var package = "mitosalt";
-        var versions = ["1.1.1"];
+        var versions = ["1.1.1","1.1.1"];
     </script>
 
 

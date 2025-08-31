@@ -27,7 +27,7 @@ mach2
       
       
 
-      ``1.0.1.1-0``
+      ``1.0.2-0``,  ``1.0.1.1-0``
 
       
 
@@ -87,7 +87,7 @@ mach2
 
     <script>
         var package = "mach2";
-        var versions = ["1.0.1.1"];
+        var versions = ["1.0.2","1.0.1.1"];
     </script>
 
 

@@ -13,7 +13,7 @@ netmd
    NetMD is a computational method for identifying consensus behavior across multiple molecular dynamics simulations.
 
    :homepage: https://github.com/mazzalab/NetMD
-   :documentation: https://github.com/mazzalab/NetMD/tree/main/tutorial
+   :documentation: https://mazzalab.github.io/NetMD
    
    :license: MIT / MIT
    :recipe: /`netmd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/netmd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/netmd/meta.yaml>`_
@@ -33,7 +33,7 @@ netmd
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -110,7 +110,7 @@ netmd
 
     <script>
         var package = "netmd";
-        var versions = ["1.0.1","1.0.0"];
+        var versions = ["1.0.2","1.0.1","1.0.0"];
     </script>
 
 

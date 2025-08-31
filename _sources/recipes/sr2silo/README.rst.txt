@@ -13,7 +13,7 @@ sr2silo
    Short\-read to SILO format converter.
 
    :homepage: https://github.com/cbg-ethz/sr2silo
-   :documentation: https://github.com/cbg-ethz/sr2silo/blob/v1.3.0/README.md
+   :documentation: https://github.com/cbg-ethz/sr2silo/blob/v1.4.0/README.md
    
    :license: MIT / MIT
    :recipe: /`sr2silo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sr2silo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sr2silo/meta.yaml>`_
@@ -30,9 +30,17 @@ sr2silo
    :versions:
       
       
+      .. raw:: html
 
-      ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.0.4-0``
+         <details><summary><span class="truncated-version-list"><code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.2-0</code>,  <code>0.1.1-0</code>,  </span></summary>
+      
 
+      ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.0.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -100,7 +108,7 @@ sr2silo
 
     <script>
         var package = "sr2silo";
-        var versions = ["1.3.0","1.2.0","1.1.1","1.1.0","1.0.1"];
+        var versions = ["1.4.0","1.3.0","1.2.0","1.1.1","1.1.0"];
     </script>
 
 
