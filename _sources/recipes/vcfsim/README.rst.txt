@@ -27,9 +27,17 @@ vcfsim
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.18.alpha-0``,  ``1.0.16.alpha-0``,  ``1.0.15.alpha-0``,  ``1.0.13.alpha-0``,  ``1.0.12.alpha-0``,  ``1.0.11.alpha-0``,  ``1.0.10.alpha-0``,  ``1.0.9.alpha-0``,  ``1.0.8.alpha-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.22.alpha-0</code>,  <code>1.0.18.alpha-0</code>,  <code>1.0.16.alpha-0</code>,  <code>1.0.15.alpha-0</code>,  <code>1.0.13.alpha-0</code>,  <code>1.0.12.alpha-0</code>,  <code>1.0.11.alpha-0</code>,  <code>1.0.10.alpha-0</code>,  <code>1.0.9.alpha-0</code>,  </span></summary>
+      
 
+      ``1.0.22.alpha-0``,  ``1.0.18.alpha-0``,  ``1.0.16.alpha-0``,  ``1.0.15.alpha-0``,  ``1.0.13.alpha-0``,  ``1.0.12.alpha-0``,  ``1.0.11.alpha-0``,  ``1.0.10.alpha-0``,  ``1.0.9.alpha-0``,  ``1.0.8.alpha-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -88,7 +96,7 @@ vcfsim
 
     <script>
         var package = "vcfsim";
-        var versions = ["1.0.18.alpha","1.0.16.alpha","1.0.15.alpha","1.0.13.alpha","1.0.12.alpha"];
+        var versions = ["1.0.22.alpha","1.0.18.alpha","1.0.16.alpha","1.0.15.alpha","1.0.13.alpha"];
     </script>
 
 

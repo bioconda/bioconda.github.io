@@ -10,7 +10,7 @@ bacpage
    :replaces_section_title:
    :noindex:
 
-   An easy\-to\-use pipeline for the assembly and analysis of bacterial genomes
+   An easy\-to\-use pipeline for the assembly and analysis of bacterial genomes.
 
    :homepage: https://github.com/CholGen/bacpage
    :documentation: https://cholgen.github.io/sequencing-resources/bacpage-command.html
@@ -29,14 +29,14 @@ bacpage
       
       
 
-      ``2024.03.08-0``,  ``2023.11.10.1-0``
+      ``2025.08.21-0``,  ``2024.03.08-0``,  ``2023.11.10.1-0``
 
       
 
    
    :depends abricate: 
    :depends bc: 
-   :depends bcftools: ``1.17.*``
+   :depends bcftools: 
    :depends bedtools: 
    :depends biopython: 
    :depends bwa: 
@@ -52,8 +52,8 @@ bacpage
    :depends python: ``>=3.9,<3.12``
    :depends qualimap: 
    :depends quast: 
-   :depends samtools: ``1.17.*``
-   :depends snakemake-minimal: 
+   :depends samtools: 
+   :depends snakemake-minimal: ``<8``
    :depends snp-sites: 
    :depends unicycler: 
    :requirements:
@@ -106,7 +106,7 @@ bacpage
 
     <script>
         var package = "bacpage";
-        var versions = ["2024.03.08","2023.11.10.1"];
+        var versions = ["2025.08.21","2024.03.08","2023.11.10.1"];
     </script>
 
 

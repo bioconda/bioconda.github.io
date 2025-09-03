@@ -10,10 +10,10 @@ pureclip
    :replaces_section_title:
    :noindex:
 
-   PureCLIP is a tool to detect protein\-RNA interaction footprints from single\-nucleotide CLIP\-seq data\, such as iCLIP and eCLIP.
+   PureCLIP is a tool to detect protein\-RNA interaction footprints.
 
    :homepage: https://github.com/skrakau/PureCLIP
-   :license: GPLv3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`pureclip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pureclip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pureclip/meta.yaml>`_
    :links: doi: :doi:`10.1186/s13059-017-1364-2`
 
@@ -27,17 +27,30 @@ pureclip
    :versions:
       
       
+      .. raw:: html
 
-      ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
+         <details><summary><span class="truncated-version-list"><code>1.3.1-2</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-1</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  </span></summary>
+      
 
+      ``1.3.1-2``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bedtools: 
    :depends meme: 
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -85,7 +98,7 @@ pureclip
 
     <script>
         var package = "pureclip";
-        var versions = ["1.3.1","1.3.0","1.2.0","1.1.2","1.1.1"];
+        var versions = ["1.3.1","1.3.1","1.3.0","1.2.0","1.1.2"];
     </script>
 
 

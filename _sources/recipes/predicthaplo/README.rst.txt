@@ -13,9 +13,9 @@ predicthaplo
    This software aims at reconstructing haplotypes from next\-generation sequencing data.
 
    :homepage: https://github.com/cbg-ethz/PredictHaplo
-   :license: GPLv3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`predicthaplo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/predicthaplo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/predicthaplo/meta.yaml>`_
-   :links: biotools: :biotools:`PredictHaplo`
+   :links: biotools: :biotools:`PredictHaplo`, doi: :doi:`10.1109/TCBB.2013.145`
 
    
 
@@ -28,18 +28,24 @@ predicthaplo
       
       
 
-      ``2.1.4-5``,  ``2.1.4-4``,  ``2.1.4-3``,  ``2.1.4-2``,  ``2.1.4-1``,  ``2.1.4-0``
+      ``2.1.4-6``,  ``2.1.4-5``,  ``2.1.4-4``,  ``2.1.4-3``,  ``2.1.4-2``,  ``2.1.4-1``,  ``2.1.4-0``
 
       
 
    
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc: 
    :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx: 
    :depends libstdcxx-ng: ``>=12``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

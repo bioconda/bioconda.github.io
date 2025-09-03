@@ -10,7 +10,7 @@ verticall
    :replaces_section_title:
    :noindex:
 
-   A tool for building recombination\-free trees
+   A tool for building recombination\-free trees.
 
    :homepage: https://github.com/rrwick/Verticall
    :documentation: https://github.com/rrwick/Verticall/wiki
@@ -29,7 +29,7 @@ verticall
       
       
 
-      ``0.4.2-0``,  ``0.4.1-0``
+      ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``
 
       
 
@@ -92,7 +92,7 @@ verticall
 
     <script>
         var package = "verticall";
-        var versions = ["0.4.2","0.4.1"];
+        var versions = ["0.4.3","0.4.2","0.4.1"];
     </script>
 
 

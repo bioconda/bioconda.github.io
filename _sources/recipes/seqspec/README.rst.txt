@@ -27,14 +27,19 @@ seqspec
       
       
 
-      ``0.3.1-0``,  ``0.3.0-0``
+      ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``
 
       
 
    
    :depends biopython: 
    :depends jsonschema: 
+   :depends matplotlib-base: 
+   :depends openai-agents: ``>=0.2.8``
+   :depends openinference-instrumentation-openai-agents: ``>=1.2.0``
+   :depends opentelemetry-sdk: ``>=1.36.0``
    :depends packaging: 
+   :depends pydantic: 
    :depends python: ``>=3.6``
    :depends python-newick: 
    :depends pyyaml: ``>=6.0``
@@ -89,7 +94,7 @@ seqspec
 
     <script>
         var package = "seqspec";
-        var versions = ["0.3.1","0.3.0"];
+        var versions = ["0.4.0","0.3.1","0.3.0"];
     </script>
 
 

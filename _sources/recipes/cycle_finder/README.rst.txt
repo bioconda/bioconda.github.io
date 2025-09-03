@@ -10,10 +10,10 @@ cycle_finder
    :replaces_section_title:
    :noindex:
 
-   A de novo analysis tool for tandem and interspersed repeats based on cycle\-finding
+   A de novo analysis tool for tandem and interspersed repeats based on cycle\-finding.
 
    :homepage: https://github.com/rkajitani/cycle_finder
-   :license: GPL / GPL-3.0
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`cycle_finder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cycle_finder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cycle_finder/meta.yaml>`_
 
    
@@ -27,25 +27,28 @@ cycle_finder
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
    :depends blast: 
-   :depends bzip2: 
+   :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends cd-hit: 
-   :depends gzip: 
-   :depends jellyfish: 
+   :depends kmer-jellyfish: 
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libstdcxx: ``>=13``
-   :depends openmp: 
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends trf: 
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -93,7 +96,7 @@ cycle_finder
 
     <script>
         var package = "cycle_finder";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["1.0.0","1.0.0","1.0.0"];
     </script>
 
 

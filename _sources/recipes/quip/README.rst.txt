@@ -12,7 +12,7 @@ quip
 
    Aggressive compression of FASTQ and SAM\/BAM files.
 
-   :homepage: http://homes.cs.washington.edu/%7Edcjones/quip/
+   :homepage: http://homes.cs.washington.edu/%7Edcjones/quip
    :license: Custom
    :recipe: /`quip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quip/meta.yaml>`_
    :links: biotools: :biotools:`quip`, doi: :doi:`10.1093/nar/gks754`
@@ -28,16 +28,21 @@ quip
       
       
 
-      ``1.1.8-1``,  ``1.1.8-0``
+      ``1.1.8-3``,  ``1.1.8-1``,  ``1.1.8-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -85,7 +90,7 @@ quip
 
     <script>
         var package = "quip";
-        var versions = ["1.1.8","1.1.8"];
+        var versions = ["1.1.8","1.1.8","1.1.8"];
     </script>
 
 

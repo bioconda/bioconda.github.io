@@ -10,10 +10,10 @@ probeit
    :replaces_section_title:
    :noindex:
 
-   Probeit\: a probe designer for detecting and genotyping pathogen\!\!\!
+   Probeit\: a probe designer for detecting and genotyping pathogen\!
 
    :homepage: https://github.com/steineggerlab/probeit
-   :license: AGPL-3.0
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`probeit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/probeit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/probeit/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ probeit
       
       
 
-      ``2.2-4``,  ``2.2-3``,  ``2.2-2``,  ``2.2-1``,  ``2.2-0``,  ``2.0-0``,  ``v1.9-1``,  ``v1.9-0``
+      ``2.2-5``,  ``2.2-4``,  ``2.2-3``,  ``2.2-2``,  ``2.2-1``,  ``2.2-0``,  ``2.0-0``,  ``v1.9-1``,  ``v1.9-0``
 
       
 
@@ -48,6 +48,10 @@ probeit
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
