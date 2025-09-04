@@ -18,7 +18,7 @@ lib-pod5
    :license: OTHER / MPL-2.0
    :recipe: /`lib-pod5 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lib-pod5>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lib-pod5/meta.yaml>`_
 
-   \[\!\[Documentation Status\]\(https\:\/\/readthedocs.org\/projects\/pod5\-file\-format\/badge\/\?version\=latest\)\]\(https\:\/\/pod5\-file\-format.readthedocs.io\/\)
+   \[\!\[Documentation Status\]\(https\:\/\/readthedocs.org\/projects\/pod5\-file\-format\/badge\/\?version\=latest\)\]\(https\:\/\/pod5\-file\-format.readthedocs.io\)
 
    \*\*Python bindings for the POD5 file format\*\*
 
@@ -43,7 +43,7 @@ lib-pod5
       
       
 
-      ``0.3.27-0``,  ``0.3.15-0``
+      ``0.3.33-0``,  ``0.3.27-0``,  ``0.3.23-0``,  ``0.3.15-0``
 
       
 
@@ -53,7 +53,7 @@ lib-pod5
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends numpy: ``>=1.21.0``
-   :depends pyarrow: 
+   :depends pyarrow: ``<21``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends zstd: ``>=1.5.7,<1.6.0a0``
@@ -111,7 +111,7 @@ lib-pod5
 
     <script>
         var package = "lib-pod5";
-        var versions = ["0.3.27","0.3.15"];
+        var versions = ["0.3.33","0.3.27","0.3.23","0.3.15"];
     </script>
 
 

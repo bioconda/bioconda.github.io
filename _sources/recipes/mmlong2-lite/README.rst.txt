@@ -15,7 +15,7 @@ mmlong2-lite
    :homepage: https://github.com/Serka-M/mmlong2-lite
    :license: GPL-3.0-only
    :recipe: /`mmlong2-lite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mmlong2-lite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mmlong2-lite/meta.yaml>`_
-   :links: doi: :doi:`10.5281/zenodo.11499494`
+   :links: doi: :doi:`10.5281/zenodo.15782630`
 
    
 
@@ -28,17 +28,18 @@ mmlong2-lite
       
       
 
-      ``1.1.0-0``
+      ``1.2.0-0``,  ``1.1.0-0``
 
       
 
    
-   :depends pigz: ``2.6.*``
-   :depends pv: ``1.6.6.*``
+   :depends pigz: 
+   :depends pv: 
+   :depends rsync: 
    :depends singularity: ``3.8.6.*``
-   :depends snakemake: ``8.2.3.*``
-   :depends tar: ``1.34.*``
-   :depends zenodo_get: ``1.6.1.*``
+   :depends snakemake: ``9.9.0.*``
+   :depends tar: 
+   :depends zenodo_get: 
    :requirements:
 
    :additional platforms:
@@ -89,7 +90,7 @@ mmlong2-lite
 
     <script>
         var package = "mmlong2-lite";
-        var versions = ["1.1.0"];
+        var versions = ["1.2.0","1.1.0"];
     </script>
 
 

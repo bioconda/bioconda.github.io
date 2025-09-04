@@ -10,10 +10,10 @@ hmmcopy
    :replaces_section_title:
    :noindex:
 
-   C\+\+ based programs for analyzing BAM files and preparing read counts \-\- used with bioconductor\-hmmcopy
+   C\+\+ based programs for analyzing BAM files and preparing read counts \-\- used with bioconductor\-hmmcopy.
 
-   :homepage: http://compbio.bccrc.ca/software/hmmcopy/
-   :license: GPL-3
+   :homepage: http://compbio.bccrc.ca/software/hmmcopy
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`hmmcopy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmmcopy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmmcopy/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ hmmcopy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.1-11</code>,  <code>0.1.1-10</code>,  <code>0.1.1-9</code>,  <code>0.1.1-8</code>,  <code>0.1.1-7</code>,  <code>0.1.1-6</code>,  <code>0.1.1-5</code>,  <code>0.1.1-4</code>,  <code>0.1.1-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.1-12</code>,  <code>0.1.1-11</code>,  <code>0.1.1-10</code>,  <code>0.1.1-9</code>,  <code>0.1.1-8</code>,  <code>0.1.1-7</code>,  <code>0.1.1-6</code>,  <code>0.1.1-5</code>,  <code>0.1.1-4</code>,  </span></summary>
       
 
-      ``0.1.1-11``,  ``0.1.1-10``,  ``0.1.1-9``,  ``0.1.1-8``,  ``0.1.1-7``,  ``0.1.1-6``,  ``0.1.1-5``,  ``0.1.1-4``,  ``0.1.1-3``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.1.1-12``,  ``0.1.1-11``,  ``0.1.1-10``,  ``0.1.1-9``,  ``0.1.1-8``,  ``0.1.1-7``,  ``0.1.1-6``,  ``0.1.1-5``,  ``0.1.1-4``,  ``0.1.1-3``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -45,14 +45,14 @@ hmmcopy
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends perl: 
-   :depends zlib: 
+   :depends zstd: ``>=1.5.7,<1.6.0a0``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

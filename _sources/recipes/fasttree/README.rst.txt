@@ -10,12 +10,13 @@ fasttree
    :replaces_section_title:
    :noindex:
 
-   FastTree infers approximately\-maximum\-likelihood phylogenetic trees from alignments of nucleotide or protein sequences
+   FastTree infers approximately\-maximum\-likelihood phylogenetic trees from alignments of nucleotide or protein sequences.
 
-   :homepage: http://www.microbesonline.org/fasttree/
-   :license: GPL / GPL-2
+   :homepage: https://morgannprice.github.io/fasttree
+   :developer docs: https://github.com/morgannprice/fasttree
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`fasttree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fasttree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fasttree/meta.yaml>`_
-   :links: biotools: :biotools:`fasttree`, doi: :doi:`10.1093/molbev/msp077`
+   :links: biotools: :biotools:`fasttree`, usegalaxy-eu: :usegalaxy-eu:`fasttree`, doi: :doi:`10.1093/molbev/msp077`
 
    
 
@@ -29,10 +30,10 @@ fasttree
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.11-5</code>,  <code>2.1.11-4</code>,  <code>2.1.11-3</code>,  <code>2.1.11-2</code>,  <code>2.1.11-1</code>,  <code>2.1.11-0</code>,  <code>2.1.10-6</code>,  <code>2.1.10-5</code>,  <code>2.1.10-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>2.1.11-5</code>,  <code>2.1.11-4</code>,  <code>2.1.11-3</code>,  <code>2.1.11-2</code>,  <code>2.1.11-1</code>,  <code>2.1.11-0</code>,  <code>2.1.10-6</code>,  <code>2.1.10-5</code>,  </span></summary>
       
 
-      ``2.1.11-5``,  ``2.1.11-4``,  ``2.1.11-3``,  ``2.1.11-2``,  ``2.1.11-1``,  ``2.1.11-0``,  ``2.1.10-6``,  ``2.1.10-5``,  ``2.1.10-4``,  ``2.1.10-3``,  ``2.1.10-2``,  ``2.1.10-0``,  ``2.1.9-2``,  ``2.1.9-1``,  ``2.1.9-0``,  ``2.1.8-9``,  ``2.1.8-8``,  ``2.1.8-7``,  ``2.1.8-6``,  ``2.1.8-5``,  ``2.1.8-4``,  ``2.1.8-2``,  ``2.1.8-1``,  ``2.1.3-7``,  ``2.1.3-6``,  ``2.1.3-5``,  ``2.1.3-4``,  ``2.1.3-3``,  ``2.1.3-2``,  ``2.1.3-0``
+      ``2.2.0-0``,  ``2.1.11-5``,  ``2.1.11-4``,  ``2.1.11-3``,  ``2.1.11-2``,  ``2.1.11-1``,  ``2.1.11-0``,  ``2.1.10-6``,  ``2.1.10-5``,  ``2.1.10-4``,  ``2.1.10-3``,  ``2.1.10-2``,  ``2.1.10-0``,  ``2.1.9-2``,  ``2.1.9-1``,  ``2.1.9-0``,  ``2.1.8-9``,  ``2.1.8-8``,  ``2.1.8-7``,  ``2.1.8-6``,  ``2.1.8-5``,  ``2.1.8-4``,  ``2.1.8-2``,  ``2.1.8-1``,  ``2.1.3-7``,  ``2.1.3-6``,  ``2.1.3-5``,  ``2.1.3-4``,  ``2.1.3-3``,  ``2.1.3-2``,  ``2.1.3-0``
 
       
       .. raw:: html
@@ -43,6 +44,7 @@ fasttree
    
    :depends _openmp_mutex: ``>=4.5``
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :requirements:
 
    :additional platforms:
@@ -97,7 +99,7 @@ fasttree
 
     <script>
         var package = "fasttree";
-        var versions = ["2.1.11","2.1.11","2.1.11","2.1.11","2.1.11"];
+        var versions = ["2.2.0","2.1.11","2.1.11","2.1.11","2.1.11"];
     </script>
 
 

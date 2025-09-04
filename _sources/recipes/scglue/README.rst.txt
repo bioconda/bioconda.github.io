@@ -32,7 +32,7 @@ scglue
       
       
 
-      ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
+      ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
 
       
 
@@ -42,6 +42,7 @@ scglue
    :depends h5py: ``>=2.10``
    :depends leidenalg: ``>=0.7``
    :depends matplotlib-base: ``>=3.1.2``
+   :depends muon: ``>=0.1.5``
    :depends networkx: ``>=2``
    :depends numpy: ``>=1.19,<1.22``
    :depends packaging: ``>=16.8``
@@ -49,6 +50,7 @@ scglue
    :depends parse: ``>=1.3.2``
    :depends pybedtools: ``>=0.8.1``
    :depends pynvml: ``>=8.0.1``
+   :depends pyro-ppl: ``>=1.0``
    :depends python: ``>=3.6``
    :depends pytorch: ``>=1.8``
    :depends pytorch-ignite: ``>=0.4.1``
@@ -110,7 +112,7 @@ scglue
 
     <script>
         var package = "scglue";
-        var versions = ["0.3.2","0.3.1","0.2.3","0.2.2","0.2.1"];
+        var versions = ["0.4.0","0.3.2","0.3.1","0.2.3","0.2.2"];
     </script>
 
 

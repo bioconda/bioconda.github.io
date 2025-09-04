@@ -10,9 +10,11 @@ snakefmt
    :replaces_section_title:
    :noindex:
 
-   The uncompromising Snakemake code formatter
+   The uncompromising Snakemake code formatter.
 
    :homepage: https://github.com/snakemake/snakefmt
+   :documentation: https://github.com/snakemake/snakefmt/blob/v0.11.2/README.md
+   
    :license: MIT / MIT
    :recipe: /`snakefmt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakefmt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakefmt/meta.yaml>`_
 
@@ -28,10 +30,10 @@ snakefmt
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.11.1-0</code>,  <code>0.11.0-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.0-1</code>,  <code>0.9.0-0</code>,  <code>0.8.5-0</code>,  <code>0.8.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.11.2-0</code>,  <code>0.11.1-0</code>,  <code>0.11.0-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.0-1</code>,  <code>0.9.0-0</code>,  <code>0.8.5-0</code>,  </span></summary>
       
 
-      ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.3-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.3-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -41,7 +43,7 @@ snakefmt
 
    
    :depends black: ``>=24.3,<25.0``
-   :depends click: ``>=8.0.0,<9.0.0``
+   :depends click: ``>=8.2.0``
    :depends python: ``>=3.11``
    :requirements:
 
@@ -93,7 +95,7 @@ snakefmt
 
     <script>
         var package = "snakefmt";
-        var versions = ["0.11.1","0.11.0","0.10.2","0.10.1","0.10.0"];
+        var versions = ["0.11.2","0.11.1","0.11.0","0.10.2","0.10.1"];
     </script>
 
 

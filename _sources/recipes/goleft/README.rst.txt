@@ -10,10 +10,12 @@ goleft
    :replaces_section_title:
    :noindex:
 
-   goleft is a collection of bioinformatics tools distributed under MIT license in a single static binary
+   goleft is a collection of bioinformatics tools distributed under MIT license in a single static binary.
 
    :homepage: https://github.com/brentp/goleft
-   :license: MIT
+   :documentation: https://github.com/brentp/goleft/blob/v0.2.6/README.md
+   
+   :license: MIT / MIT
    :recipe: /`goleft <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/goleft>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/goleft/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ goleft
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.6-0</code>,  <code>0.2.4-1</code>,  <code>0.2.4-0</code>,  <code>0.2.0-0</code>,  <code>0.1.18-1</code>,  <code>0.1.18-0</code>,  <code>0.1.17-0</code>,  <code>0.1.16-1</code>,  <code>0.1.16-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.6-1</code>,  <code>0.2.6-0</code>,  <code>0.2.4-1</code>,  <code>0.2.4-0</code>,  <code>0.2.0-0</code>,  <code>0.1.18-1</code>,  <code>0.1.18-0</code>,  <code>0.1.17-0</code>,  <code>0.1.16-1</code>,  </span></summary>
       
 
-      ``0.2.6-0``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.0-0``,  ``0.1.18-1``,  ``0.1.18-0``,  ``0.1.17-0``,  ``0.1.16-1``,  ``0.1.16-0``,  ``0.1.14-0``,  ``0.1.13-1``,  ``0.1.12-1``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.6-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.2.6-1``,  ``0.2.6-0``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.0-0``,  ``0.1.18-1``,  ``0.1.18-0``,  ``0.1.17-0``,  ``0.1.16-1``,  ``0.1.16-0``,  ``0.1.14-0``,  ``0.1.13-1``,  ``0.1.12-1``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.6-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -47,7 +49,7 @@ goleft
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -95,7 +97,7 @@ goleft
 
     <script>
         var package = "goleft";
-        var versions = ["0.2.6","0.2.4","0.2.4","0.2.0","0.1.18"];
+        var versions = ["0.2.6","0.2.6","0.2.4","0.2.4","0.2.0"];
     </script>
 
 

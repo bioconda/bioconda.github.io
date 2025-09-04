@@ -10,7 +10,7 @@ pyrle
    :replaces_section_title:
    :noindex:
 
-   Genomic Rle\-objects for Python
+   Genomic Rle\-objects for Python.
 
    :homepage: https://github.com/endrebak/pyrle
    :license: MIT / MIT
@@ -28,10 +28,10 @@ pyrle
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.42-0</code>,  <code>0.0.40-2</code>,  <code>0.0.40-1</code>,  <code>0.0.40-0</code>,  <code>0.0.39-1</code>,  <code>0.0.39-0</code>,  <code>0.0.38-3</code>,  <code>0.0.38-0</code>,  <code>0.0.36-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.42-1</code>,  <code>0.0.42-0</code>,  <code>0.0.40-2</code>,  <code>0.0.40-1</code>,  <code>0.0.40-0</code>,  <code>0.0.39-1</code>,  <code>0.0.39-0</code>,  <code>0.0.38-3</code>,  <code>0.0.38-0</code>,  </span></summary>
       
 
-      ``0.0.42-0``,  ``0.0.40-2``,  ``0.0.40-1``,  ``0.0.40-0``,  ``0.0.39-1``,  ``0.0.39-0``,  ``0.0.38-3``,  ``0.0.38-0``,  ``0.0.36-3``,  ``0.0.36-1``,  ``0.0.36-0``,  ``0.0.35-1``,  ``0.0.35-0``,  ``0.0.34-1``,  ``0.0.34-0``,  ``0.0.33-0``,  ``0.0.32-1``,  ``0.0.32-0``,  ``0.0.31-1``,  ``0.0.31-0``,  ``0.0.30-0``,  ``0.0.29-0``,  ``0.0.28-0``,  ``0.0.27-0``,  ``0.0.26-0``,  ``0.0.25-0``,  ``0.0.24-1``,  ``0.0.24-0``,  ``0.0.23-0``
+      ``0.0.42-1``,  ``0.0.42-0``,  ``0.0.40-2``,  ``0.0.40-1``,  ``0.0.40-0``,  ``0.0.39-1``,  ``0.0.39-0``,  ``0.0.38-3``,  ``0.0.38-0``,  ``0.0.36-3``,  ``0.0.36-1``,  ``0.0.36-0``,  ``0.0.35-1``,  ``0.0.35-0``,  ``0.0.34-1``,  ``0.0.34-0``,  ``0.0.33-0``,  ``0.0.32-1``,  ``0.0.32-0``,  ``0.0.31-1``,  ``0.0.31-0``,  ``0.0.30-0``,  ``0.0.29-0``,  ``0.0.28-0``,  ``0.0.27-0``,  ``0.0.26-0``,  ``0.0.25-0``,  ``0.0.24-1``,  ``0.0.24-0``,  ``0.0.23-0``
 
       
       .. raw:: html
@@ -54,7 +54,7 @@ pyrle
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -102,7 +102,7 @@ pyrle
 
     <script>
         var package = "pyrle";
-        var versions = ["0.0.42","0.0.40","0.0.40","0.0.40","0.0.39"];
+        var versions = ["0.0.42","0.0.42","0.0.40","0.0.40","0.0.40"];
     </script>
 
 

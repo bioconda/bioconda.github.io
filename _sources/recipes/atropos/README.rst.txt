@@ -10,7 +10,7 @@ atropos
    :replaces_section_title:
    :noindex:
 
-   trim adapters from high\-throughput sequencing reads
+   Trim adapters from high\-throughput sequencing reads.
 
    :homepage: https://github.com/jdidion/atropos
    :documentation: https://atropos.readthedocs.io
@@ -30,10 +30,10 @@ atropos
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.32-3</code>,  <code>1.1.32-2</code>,  <code>1.1.32-1</code>,  <code>1.1.32-0</code>,  <code>1.1.31-3</code>,  <code>1.1.31-2</code>,  <code>1.1.31-1</code>,  <code>1.1.31-0</code>,  <code>1.1.29-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.32-4</code>,  <code>1.1.32-3</code>,  <code>1.1.32-2</code>,  <code>1.1.32-1</code>,  <code>1.1.32-0</code>,  <code>1.1.31-3</code>,  <code>1.1.31-2</code>,  <code>1.1.31-1</code>,  <code>1.1.31-0</code>,  </span></summary>
       
 
-      ``1.1.32-3``,  ``1.1.32-2``,  ``1.1.32-1``,  ``1.1.32-0``,  ``1.1.31-3``,  ``1.1.31-2``,  ``1.1.31-1``,  ``1.1.31-0``,  ``1.1.29-1``,  ``1.1.29-0``,  ``1.1.28-1``,  ``1.1.28-0``,  ``1.1.27-0``,  ``1.1.26-0``,  ``1.1.25-0``,  ``1.1.24-0``,  ``1.1.23-0``,  ``1.1.22-1``,  ``1.1.22-0``,  ``1.1.21-0``,  ``1.1.19-0``,  ``1.1.18-1``,  ``1.1.18-0``,  ``1.1.16-0``,  ``1.1.10-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.2-0``,  ``1.0.23-0``
+      ``1.1.32-4``,  ``1.1.32-3``,  ``1.1.32-2``,  ``1.1.32-1``,  ``1.1.32-0``,  ``1.1.31-3``,  ``1.1.31-2``,  ``1.1.31-1``,  ``1.1.31-0``,  ``1.1.29-1``,  ``1.1.29-0``,  ``1.1.28-1``,  ``1.1.28-0``,  ``1.1.27-0``,  ``1.1.26-0``,  ``1.1.25-0``,  ``1.1.24-0``,  ``1.1.23-0``,  ``1.1.22-1``,  ``1.1.22-0``,  ``1.1.21-0``,  ``1.1.19-0``,  ``1.1.18-1``,  ``1.1.18-0``,  ``1.1.16-0``,  ``1.1.10-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.2-0``,  ``1.0.23-0``
 
       
       .. raw:: html
@@ -54,7 +54,7 @@ atropos
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -102,7 +102,7 @@ atropos
 
     <script>
         var package = "atropos";
-        var versions = ["1.1.32","1.1.32","1.1.32","1.1.32","1.1.31"];
+        var versions = ["1.1.32","1.1.32","1.1.32","1.1.32","1.1.32"];
     </script>
 
 

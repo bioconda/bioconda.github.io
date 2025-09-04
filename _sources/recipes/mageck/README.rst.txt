@@ -12,8 +12,8 @@ mageck
 
    MAGeCK \(Model\-based Analysis of Genome\-wide CRISPR\-Cas9 Knockout\)\, an algorithm to process\, QC\, analyze and visualize CRISPR screening data.
 
-   :homepage: http://mageck.sourceforge.net
-   :license: BSD License
+   :homepage: https://mageck.sourceforge.net
+   :license: BSD / BSD-3-Clause
    :recipe: /`mageck <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mageck>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mageck/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ mageck
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.9.5-6</code>,  <code>0.5.9.5-5</code>,  <code>0.5.9.5-4</code>,  <code>0.5.9.5-3</code>,  <code>0.5.9.5-2</code>,  <code>0.5.9.5-1</code>,  <code>0.5.9.5-0</code>,  <code>0.5.9.4-1</code>,  <code>0.5.9.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.9.5-7</code>,  <code>0.5.9.5-6</code>,  <code>0.5.9.5-5</code>,  <code>0.5.9.5-4</code>,  <code>0.5.9.5-3</code>,  <code>0.5.9.5-2</code>,  <code>0.5.9.5-1</code>,  <code>0.5.9.5-0</code>,  <code>0.5.9.4-1</code>,  </span></summary>
       
 
-      ``0.5.9.5-6``,  ``0.5.9.5-5``,  ``0.5.9.5-4``,  ``0.5.9.5-3``,  ``0.5.9.5-2``,  ``0.5.9.5-1``,  ``0.5.9.5-0``,  ``0.5.9.4-1``,  ``0.5.9.4-0``,  ``0.5.9.3-2``,  ``0.5.9.3-1``,  ``0.5.9.3-0``,  ``0.5.9.2-0``,  ``0.5.9.1-0``,  ``0.5.9-0``,  ``0.5.8-0``,  ``0.5.8a-1``,  ``0.5.8a-0``,  ``0.5.7-7``,  ``0.5.7-6``,  ``0.5.7-5``,  ``0.5.7-4``,  ``0.5.7-2``,  ``0.5.7-1``,  ``0.5.7-0``,  ``0.5.7a-0``,  ``0.5.6-1``,  ``0.5.6-0``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``
+      ``0.5.9.5-7``,  ``0.5.9.5-6``,  ``0.5.9.5-5``,  ``0.5.9.5-4``,  ``0.5.9.5-3``,  ``0.5.9.5-2``,  ``0.5.9.5-1``,  ``0.5.9.5-0``,  ``0.5.9.4-1``,  ``0.5.9.4-0``,  ``0.5.9.3-2``,  ``0.5.9.3-1``,  ``0.5.9.3-0``,  ``0.5.9.2-0``,  ``0.5.9.1-0``,  ``0.5.9-0``,  ``0.5.8-0``,  ``0.5.8a-1``,  ``0.5.8a-0``,  ``0.5.7-7``,  ``0.5.7-6``,  ``0.5.7-5``,  ``0.5.7-4``,  ``0.5.7-2``,  ``0.5.7-1``,  ``0.5.7-0``,  ``0.5.7a-0``,  ``0.5.6-1``,  ``0.5.6-0``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``
 
       
       .. raw:: html
@@ -53,7 +53,7 @@ mageck
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

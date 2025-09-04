@@ -12,7 +12,7 @@ mawk
 
    mawk is an interpreter for the AWK Programming Language.
 
-   :homepage: http://invisible-island.net/mawk/
+   :homepage: http://invisible-island.net/mawk
    :license: Copyright (c) 2009-2014,2015 by Thomas E. Dickey
    :recipe: /`mawk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mawk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mawk/meta.yaml>`_
 
@@ -28,10 +28,10 @@ mawk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.4-10</code>,  <code>1.3.4-9</code>,  <code>1.3.4-8</code>,  <code>1.3.4-7</code>,  <code>1.3.4-6</code>,  <code>1.3.4-5</code>,  <code>1.3.4-4</code>,  <code>1.3.4-3</code>,  <code>1.3.4-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.4-11</code>,  <code>1.3.4-10</code>,  <code>1.3.4-9</code>,  <code>1.3.4-8</code>,  <code>1.3.4-7</code>,  <code>1.3.4-6</code>,  <code>1.3.4-5</code>,  <code>1.3.4-4</code>,  <code>1.3.4-3</code>,  </span></summary>
       
 
-      ``1.3.4-10``,  ``1.3.4-9``,  ``1.3.4-8``,  ``1.3.4-7``,  ``1.3.4-6``,  ``1.3.4-5``,  ``1.3.4-4``,  ``1.3.4-3``,  ``1.3.4-2``,  ``1.3.4-1``,  ``1.3.4-0``
+      ``1.3.4-11``,  ``1.3.4-10``,  ``1.3.4-9``,  ``1.3.4-8``,  ``1.3.4-7``,  ``1.3.4-6``,  ``1.3.4-5``,  ``1.3.4-4``,  ``1.3.4-3``,  ``1.3.4-2``,  ``1.3.4-1``,  ``1.3.4-0``
 
       
       .. raw:: html
@@ -47,7 +47,7 @@ mawk
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

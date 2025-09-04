@@ -13,7 +13,7 @@ haploclique
    Viral quasispecies assembly via maximal clique finding. A method to reconstruct viral haplotypes and detect large insertions and deletions from NGS data.
 
    :homepage: https://github.com/cbg-ethz/haploclique
-   :license: GPL3 / GPLv3+
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`haploclique <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haploclique>`_/`1.3.1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haploclique/1.3.1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haploclique/1.3.1/meta.yaml>`_
 
    
@@ -27,18 +27,26 @@ haploclique
       
       
 
-      ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``
+      ``1.3.1-4``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``
 
       
 
    
-   :depends boost: ``>=1.66.0,<1.66.1.0a0``
-   :depends bzip2: ``>=1.0.6,<2.0a0``
-   :depends libstdcxx-ng: ``>=4.9``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends bamtools: ``>=2.5.3,<3.0a0``
+   :depends boost-cpp: 
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends jsoncpp: ``>=1.9.6,<1.9.7.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends python_abi: ``3.9.* *_cp39``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -86,7 +94,7 @@ haploclique
 
     <script>
         var package = "haploclique";
-        var versions = ["1.3.1","1.3.1","1.3.1"];
+        var versions = ["1.3.1","1.3.1","1.3.1","1.3.1"];
     </script>
 
 

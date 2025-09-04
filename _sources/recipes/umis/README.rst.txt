@@ -10,10 +10,12 @@ umis
    :replaces_section_title:
    :noindex:
 
-   Tools for processing UMI RNA\-tag data
+   Tools for processing UMI RNA\-tag data.
 
    :homepage: https://github.com/vals/umis
-   :license: MIT
+   :documentation: https://github.com/vals/umis/blob/v1.0.9/README.md
+   
+   :license: MIT / MIT
    :recipe: /`umis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/umis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/umis/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ umis
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.9-4</code>,  <code>1.0.9-3</code>,  <code>1.0.9-2</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-3</code>,  <code>1.0.7-2</code>,  <code>1.0.7-1</code>,  <code>1.0.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.9-5</code>,  <code>1.0.9-4</code>,  <code>1.0.9-3</code>,  <code>1.0.9-2</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-3</code>,  <code>1.0.7-2</code>,  <code>1.0.7-1</code>,  </span></summary>
       
 
-      ``1.0.9-4``,  ``1.0.9-3``,  ``1.0.9-2``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-3``,  ``1.0.7-2``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.9.0b-2``,  ``0.9.0b-1``,  ``0.9.0b-0``,  ``0.9.0a-0``,  ``0.7.0-1``,  ``0.7.0a-1``,  ``0.6.0a-2``,  ``0.6.0a-1``,  ``0.6.0a-0``,  ``0.5.0a-3``,  ``0.5.0a-2``,  ``0.5.0a-1``,  ``0.5.0a-0``,  ``0.4.0a-0``,  ``0.3.1a0-2``,  ``0.3.1a0-1``,  ``0.3.1a0-0``,  ``0.2.2a0-0``
+      ``1.0.9-5``,  ``1.0.9-4``,  ``1.0.9-3``,  ``1.0.9-2``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-3``,  ``1.0.7-2``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.9.0b-2``,  ``0.9.0b-1``,  ``0.9.0b-0``,  ``0.9.0a-0``,  ``0.7.0-1``,  ``0.7.0a-1``,  ``0.6.0a-2``,  ``0.6.0a-1``,  ``0.6.0a-0``,  ``0.5.0a-3``,  ``0.5.0a-2``,  ``0.5.0a-1``,  ``0.5.0a-0``,  ``0.4.0a-0``,  ``0.3.1a0-2``,  ``0.3.1a0-1``,  ``0.3.1a0-0``,  ``0.2.2a0-0``
 
       
       .. raw:: html
@@ -55,7 +57,7 @@ umis
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -103,7 +105,7 @@ umis
 
     <script>
         var package = "umis";
-        var versions = ["1.0.9","1.0.9","1.0.9","1.0.9","1.0.8"];
+        var versions = ["1.0.9","1.0.9","1.0.9","1.0.9","1.0.9"];
     </script>
 
 

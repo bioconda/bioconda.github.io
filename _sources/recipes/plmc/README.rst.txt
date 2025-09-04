@@ -13,7 +13,7 @@ plmc
    Inference of couplings in proteins and RNAs from sequence variation.
 
    :homepage: https://github.com/debbiemarkslab/plmc
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`plmc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plmc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plmc/meta.yaml>`_
 
    
@@ -27,16 +27,22 @@ plmc
       
       
 
-      ``20221105-0``
+      ``20221105-2``,  ``20221105-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends openmp: 
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -84,7 +90,7 @@ plmc
 
     <script>
         var package = "plmc";
-        var versions = ["20221105"];
+        var versions = ["20221105","20221105"];
     </script>
 
 

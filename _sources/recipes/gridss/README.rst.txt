@@ -10,10 +10,10 @@ gridss
    :replaces_section_title:
    :noindex:
 
-   GRIDSS\: the Genomic Rearrangement IDentification Software Suite
+   GRIDSS\: The Genomic Rearrangement IDentification Software Suite.
 
    :homepage: https://github.com/PapenfussLab/gridss
-   :license: GPL / GPL-3.0-only
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`gridss <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gridss>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gridss/meta.yaml>`_
    :links: biotools: :biotools:`gridss`, doi: :doi:`10.1101/gr.222109.117`, doi: :doi:`10.1186/s13059-021-02423-x`
 
@@ -29,10 +29,10 @@ gridss
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.13.2-5</code>,  <code>2.13.2-4</code>,  <code>2.13.2-3</code>,  <code>2.13.2-2</code>,  <code>2.13.2-1</code>,  <code>2.13.2-0</code>,  <code>2.13.1-0</code>,  <code>2.13.0-0</code>,  <code>2.12.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.13.2-6</code>,  <code>2.13.2-5</code>,  <code>2.13.2-4</code>,  <code>2.13.2-3</code>,  <code>2.13.2-2</code>,  <code>2.13.2-1</code>,  <code>2.13.2-0</code>,  <code>2.13.1-0</code>,  <code>2.13.0-0</code>,  </span></summary>
       
 
-      ``2.13.2-5``,  ``2.13.2-4``,  ``2.13.2-3``,  ``2.13.2-2``,  ``2.13.2-1``,  ``2.13.2-0``,  ``2.13.1-0``,  ``2.13.0-0``,  ``2.12.2-0``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.11.1-1``,  ``2.11.1-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.2-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.9.4-0``,  ``2.9.3-0``,  ``2.9.2-0``,  ``2.9.1-0``,  ``2.8.3-0``,  ``2.8.2-0``,  ``2.8.1-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.3-0``,  ``2.7.2-0``,  ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.3-0``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``1.9.0-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.2-2``,  ``1.7.2-0``,  ``1.3.4-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.2.4-0``
+      ``2.13.2-6``,  ``2.13.2-5``,  ``2.13.2-4``,  ``2.13.2-3``,  ``2.13.2-2``,  ``2.13.2-1``,  ``2.13.2-0``,  ``2.13.1-0``,  ``2.13.0-0``,  ``2.12.2-0``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.11.1-1``,  ``2.11.1-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.2-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.9.4-0``,  ``2.9.3-0``,  ``2.9.2-0``,  ``2.9.1-0``,  ``2.8.3-0``,  ``2.8.2-0``,  ``2.8.1-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.3-0``,  ``2.7.2-0``,  ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.3-0``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``1.9.0-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.2-2``,  ``1.7.2-0``,  ``1.3.4-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.2.4-0``
 
       
       .. raw:: html
@@ -47,10 +47,10 @@ gridss
    :depends bwa: ``>=0.7``
    :depends entrez-direct: 
    :depends htslib: ``>=1.14``
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
    :depends kraken2: ``>=2.1``
    :depends libgcc: ``>=13``
-   :depends liblzma: ``>=5.6.4,<6.0a0``
+   :depends liblzma: ``>=5.8.1,<6.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends ncurses: ``>=6.5,<7.0a0``
    :depends openjdk: ``>=8``
@@ -61,14 +61,13 @@ gridss
    :depends r-tidyverse: 
    :depends repeatmasker: ``>=4.1.1``
    :depends samtools: ``>=1.14``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

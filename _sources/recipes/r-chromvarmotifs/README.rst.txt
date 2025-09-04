@@ -27,13 +27,13 @@ r-chromvarmotifs
       
       
 
-      ``0.2.0-1``,  ``0.2.0-0``
+      ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``
 
       
 
    
    :depends bioconductor-tfbstools: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :requirements:
 
    :additional platforms:
@@ -84,7 +84,7 @@ r-chromvarmotifs
 
     <script>
         var package = "r-chromvarmotifs";
-        var versions = ["0.2.0","0.2.0"];
+        var versions = ["0.2.0","0.2.0","0.2.0"];
     </script>
 
 

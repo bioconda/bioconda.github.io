@@ -48,12 +48,12 @@ biobb_pdb_tools
       
       
 
-      ``5.1.0-0``,  ``5.0.1-0``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.1.0-0``
+      ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.1-0``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.1.0-0``
 
       
 
    
-   :depends biobb_common: ``5.1.0``
+   :depends biobb_common: ``5.1.1``
    :depends pdb-tools: 
    :depends python: ``>=3.9``
    :requirements:
@@ -106,7 +106,7 @@ biobb_pdb_tools
 
     <script>
         var package = "biobb_pdb_tools";
-        var versions = ["5.1.0","5.0.1","5.0.0","5.0.0","4.2.0"];
+        var versions = ["5.1.1","5.1.0","5.0.1","5.0.0","5.0.0"];
     </script>
 
 

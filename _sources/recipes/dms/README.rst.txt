@@ -10,10 +10,10 @@ dms
    :replaces_section_title:
    :noindex:
 
-   Comprehensive taxonomic and phylogenetic comparison of shotgun metagenomes at the species level
+   Comprehensive taxonomic and phylogenetic comparison of shotgun metagenomes at the species level.
 
    :homepage: https://github.com/qibebt-bioinfo/dynamic-meta-storms
-   :license: GPL3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`dms <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dms>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dms/meta.yaml>`_
    :links: doi: :doi:`10.1093/bioinformatics/btz910`
 
@@ -28,17 +28,22 @@ dms
       
       
 
-      ``1.1-0``
+      ``1.1-2``,  ``1.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends openmp: 
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -86,7 +91,7 @@ dms
 
     <script>
         var package = "dms";
-        var versions = ["1.1"];
+        var versions = ["1.1","1.1"];
     </script>
 
 

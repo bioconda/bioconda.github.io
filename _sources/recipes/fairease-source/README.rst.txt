@@ -10,7 +10,7 @@ fairease-source
    :replaces_section_title:
    :noindex:
 
-   SOURCE\: Sea Observations Utility for Reprocessing\, Calibration and Evaluation
+   SOURCE\: Sea Observations Utility for Reprocessing\, Calibration and Evaluation.
 
    :homepage: https://github.com/fair-ease/Source
    :license: CC / CC-BY-NC-4.0
@@ -27,16 +27,18 @@ fairease-source
       
       
 
-      ``1.4.4-0``,  ``1.4.1-0``
+      ``1.4.6-0``,  ``1.4.4-0``,  ``1.4.1-0``
 
       
 
    
+   :depends gsw: 
    :depends netcdf4: 
    :depends numpy: 
    :depends pandas: 
+   :depends psutil: 
    :depends pykml: 
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.6,<3.13``
    :depends scikit-learn: 
    :depends scipy: 
    :depends seawater: 
@@ -91,7 +93,7 @@ fairease-source
 
     <script>
         var package = "fairease-source";
-        var versions = ["1.4.4","1.4.1"];
+        var versions = ["1.4.6","1.4.4","1.4.1"];
     </script>
 
 

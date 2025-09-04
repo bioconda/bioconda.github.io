@@ -35,14 +35,15 @@ pod5
       
       
 
-      ``0.3.27-0``,  ``0.3.15-0``
+      ``0.3.33-0``,  ``0.3.27-0``,  ``0.3.23-0``,  ``0.3.15-0``
 
       
 
    
+   :depends deprecated: 
    :depends h5py: ``>=3.11``
    :depends iso8601: 
-   :depends lib-pod5: ``0.3.27``
+   :depends lib-pod5: ``0.3.33``
    :depends more-itertools: 
    :depends numpy: ``>=1.21.0``
    :depends packaging: 
@@ -102,7 +103,7 @@ pod5
 
     <script>
         var package = "pod5";
-        var versions = ["0.3.27","0.3.15"];
+        var versions = ["0.3.33","0.3.27","0.3.23","0.3.15"];
     </script>
 
 

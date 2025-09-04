@@ -13,7 +13,7 @@ perl-bio-easel
    Perl modules and scripts for interfacing with Sean Eddy\'s C easel sequence analysis library using Perl\'s Inline.
 
    :homepage: https://github.com/nawrockie/Bio-Easel
-   :license: BSD
+   :license: BSD / BSD-3-Clause
    :recipe: /`perl-bio-easel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-easel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-easel/meta.yaml>`_
 
    
@@ -27,18 +27,22 @@ perl-bio-easel
       
       
 
-      ``0.16-2``,  ``0.16-1``,  ``0.16-0``,  ``0.15-2``,  ``0.15-1``,  ``0.15-0``,  ``0.14-0``
+      ``0.17-0``,  ``0.16-2``,  ``0.16-1``,  ``0.16-0``,  ``0.15-2``,  ``0.15-1``,  ``0.15-0``,  ``0.14-0``
 
       
 
    
    :depends libgcc: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends perl-inline: 
-   :depends perl-inline-c: 
+   :depends perl-inline: ``>=0.87,<0.88.0a0``
+   :depends perl-inline-c: ``>=0.82,<0.83.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -86,7 +90,7 @@ perl-bio-easel
 
     <script>
         var package = "perl-bio-easel";
-        var versions = ["0.16","0.16","0.16","0.15","0.15"];
+        var versions = ["0.17","0.16","0.16","0.16","0.15"];
     </script>
 
 
