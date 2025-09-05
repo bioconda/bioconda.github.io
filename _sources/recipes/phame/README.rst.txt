@@ -28,36 +28,34 @@ phame
       
       
 
-      ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0-0``
+      ``1.0.3-3``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0-0``
 
       
 
    
-   :depends bbmap: ``>=37.62``
-   :depends bcftools: ``>=1.7``
-   :depends bowtie2: ``>=2.3.4.1``
-   :depends bwa: ``>=0.7.12``
-   :depends cmake: ``>=3.0.1``
-   :depends curl: ``>=7.60.0``
-   :depends fasttree: ``>=2.1.9``
-   :depends hyphy: ``>=2.3.12``
-   :depends iqtree: ``>=1.6.7``
-   :depends mafft: ``>=7.313``
-   :depends mummer: ``>=3.23``
-   :depends muscle: ``>=3.8.31``
-   :depends openmpi: ``>=3.1.0``
-   :depends paml: ``>=4.9``
-   :depends perl: 
-   :depends perl-app-cpanminus: ``>=1.7039``
-   :depends perl-bioperl: ``>=1.7.2``
+   :depends bbmap: ``>=38.0``
+   :depends bcftools: 
+   :depends bowtie2: ``>=2.4.1``
+   :depends bwa: ``>=0.7.17,<0.8.0``
+   :depends curl: ``>=7.68.0``
+   :depends fasttree: ``>=2.1.10,<2.2.0``
+   :depends hyphy: ``>=2.5.0``
+   :depends iqtree: ``>=2.0.0``
+   :depends mafft: ``>=7.471``
+   :depends mummer: 
+   :depends muscle: ``>=3.8.31,<4.0.0``
+   :depends openmpi: ``>=4.0.0``
+   :depends paml: ``>=4.9,<5.0``
+   :depends perl: ``>=5.26.0,<5.35.0``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends perl-bioperl: ``>=1.7.2,<1.8.0``
    :depends perl-file-path: ``>=2.12``
    :depends perl-getopt-long: ``>=2.50``
-   :depends perl-io-handle: ``>=1.28``
-   :depends perl-io-handle: ``>=1.35``
    :depends perl-parallel-forkmanager: ``>=1.17``
    :depends perl-statistics-distributions: ``>=1.02``
-   :depends raxml: ``>=8.2.10``
-   :depends samtools: ``>=1.7``
+   :depends raxml-ng: ``>=1.0.0``
+   :depends samtools: ``>=0.1.18,<1.12``
+   :depends zlib: ``>=1.2.11``
    :requirements:
 
    :additional platforms:
@@ -108,7 +106,7 @@ phame
 
     <script>
         var package = "phame";
-        var versions = ["1.0.3","1.0.3","1.0.2","1.0.1","1.0.0"];
+        var versions = ["1.0.3","1.0.3","1.0.3","1.0.2","1.0.1"];
     </script>
 
 

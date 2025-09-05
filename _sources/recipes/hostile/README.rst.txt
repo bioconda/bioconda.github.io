@@ -10,12 +10,14 @@ hostile
    :replaces_section_title:
    :noindex:
 
-   Hostile\: accurate host decontamination
+   Hostile\: accurate host decontamination.
 
    :homepage: https://github.com/bede/hostile
+   :documentation: https://github.com/bede/hostile/blob/2.0.2/README.md
+   
    :license: MIT / MIT
    :recipe: /`hostile <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hostile>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hostile/meta.yaml>`_
-   :links: doi: :doi:`10.1093/bioinformatics/btad728`
+   :links: doi: :doi:`10.1093/bioinformatics/btad728`, biotools: :biotools:`hostile`
 
    
 
@@ -29,10 +31,10 @@ hostile
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.1-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  <code>0.2.0-0</code>,  <code>0.1.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  <code>0.2.0-0</code>,  </span></summary>
       
 
-      ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-1``,  ``0.1.0-0``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-1``,  ``0.1.0-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
       .. raw:: html
@@ -43,7 +45,7 @@ hostile
    
    :depends bedtools: ``>=2.31.1``
    :depends bowtie2: ``2.5.4``
-   :depends defopt: ``>=6.4.0``
+   :depends defopt: ``>=7.0.0``
    :depends dnaio: ``>=1.2.0``
    :depends httpx: ``>=0.24.1``
    :depends minimap2: ``>=2.28``
@@ -101,7 +103,7 @@ hostile
 
     <script>
         var package = "hostile";
-        var versions = ["2.0.1","2.0.0","2.0.0","1.1.0","1.0.0"];
+        var versions = ["2.0.2","2.0.1","2.0.0","2.0.0","1.1.0"];
     </script>
 
 

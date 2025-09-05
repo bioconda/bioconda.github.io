@@ -10,10 +10,10 @@ cell2cell
    :replaces_section_title:
    :noindex:
 
-   Inferring cell\-cell interactions from transcriptomes with cell2cell
+   Inferring cell\-cell interactions from transcriptomes with cell2cell.
 
    :homepage: https://github.com/earmingol/cell2cell
-   :license: BSD-3-Clause
+   :license: BSD / BSD-3-Clause
    :recipe: /`cell2cell <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cell2cell>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cell2cell/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ cell2cell
       
       
 
-      ``0.8.0-0``,  ``0.7.4-3``,  ``0.7.4-2``,  ``0.7.4-1``,  ``0.7.4-0``
+      ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.4-3``,  ``0.7.4-2``,  ``0.7.4-1``,  ``0.7.4-0``
 
       
 
@@ -45,7 +45,7 @@ cell2cell
    :depends python_abi: ``3.10.* *_cp310``
    :depends scanpy: ``<=1.9.3``
    :depends scikit-learn: 
-   :depends seaborn: ``>=0.11.0``
+   :depends seaborn-base: ``>=0.11.0``
    :depends statannotations: 
    :depends statsmodels: 
    :depends tensorly: ``0.8.1``
@@ -58,7 +58,7 @@ cell2cell
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -106,7 +106,7 @@ cell2cell
 
     <script>
         var package = "cell2cell";
-        var versions = ["0.8.0","0.7.4","0.7.4","0.7.4","0.7.4"];
+        var versions = ["0.8.1","0.8.0","0.7.4","0.7.4","0.7.4"];
     </script>
 
 

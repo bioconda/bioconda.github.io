@@ -31,10 +31,10 @@ rseqc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.0.4-0</code>,  <code>5.0.3-3</code>,  <code>5.0.3-2</code>,  <code>5.0.3-1</code>,  <code>5.0.3-0</code>,  <code>5.0.1-1</code>,  <code>5.0.1-0</code>,  <code>5.0.0-0</code>,  <code>4.0.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.0.4-1</code>,  <code>5.0.4-0</code>,  <code>5.0.3-3</code>,  <code>5.0.3-2</code>,  <code>5.0.3-1</code>,  <code>5.0.3-0</code>,  <code>5.0.1-1</code>,  <code>5.0.1-0</code>,  <code>5.0.0-0</code>,  </span></summary>
       
 
-      ``5.0.4-0``,  ``5.0.3-3``,  ``5.0.3-2``,  ``5.0.3-1``,  ``5.0.3-0``,  ``5.0.1-1``,  ``5.0.1-0``,  ``5.0.0-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-3``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.6.4-2``,  ``2.6.4-1``,  ``2.6.4-0``,  ``2.6.2-0``
+      ``5.0.4-1``,  ``5.0.4-0``,  ``5.0.3-3``,  ``5.0.3-2``,  ``5.0.3-1``,  ``5.0.3-0``,  ``5.0.1-1``,  ``5.0.1-0``,  ``5.0.0-0``,  ``4.0.0-2``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-3``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.6.4-2``,  ``2.6.4-1``,  ``2.6.4-0``,  ``2.6.2-0``
 
       
       .. raw:: html
@@ -49,6 +49,7 @@ rseqc
    :depends pybigwig: 
    :depends pysam: 
    :depends python: ``>=3.5``
+   :depends r-base: 
    :requirements:
 
    :additional platforms:
@@ -99,7 +100,7 @@ rseqc
 
     <script>
         var package = "rseqc";
-        var versions = ["5.0.4","5.0.3","5.0.3","5.0.3","5.0.3"];
+        var versions = ["5.0.4","5.0.4","5.0.3","5.0.3","5.0.3"];
     </script>
 
 

@@ -10,10 +10,10 @@ scalpel
    :replaces_section_title:
    :noindex:
 
-   Sensitive detection of INDELs \(INsertions and DELetions\)
+   Sensitive detection of INDELs \(INsertions and DELetions\).
 
-   :homepage: http://scalpel.sourceforge.net/
-   :license: MIT
+   :homepage: https://scalpel.sourceforge.net
+   :license: MIT / MIT
    :recipe: /`scalpel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scalpel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scalpel/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ scalpel
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.4-8</code>,  <code>0.5.4-7</code>,  <code>0.5.4-6</code>,  <code>0.5.4-5</code>,  <code>0.5.4-4</code>,  <code>0.5.4-3</code>,  <code>0.5.4-2</code>,  <code>0.5.4-1</code>,  <code>0.5.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.4-9</code>,  <code>0.5.4-8</code>,  <code>0.5.4-7</code>,  <code>0.5.4-6</code>,  <code>0.5.4-5</code>,  <code>0.5.4-4</code>,  <code>0.5.4-3</code>,  <code>0.5.4-2</code>,  <code>0.5.4-1</code>,  </span></summary>
       
 
-      ``0.5.4-8``,  ``0.5.4-7``,  ``0.5.4-6``,  ``0.5.4-5``,  ``0.5.4-4``,  ``0.5.4-3``,  ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-2``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.1-3``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``
+      ``0.5.4-9``,  ``0.5.4-8``,  ``0.5.4-7``,  ``0.5.4-6``,  ``0.5.4-5``,  ``0.5.4-4``,  ``0.5.4-3``,  ``0.5.4-2``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-2``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.1-3``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``
 
       
       .. raw:: html
@@ -40,19 +40,19 @@ scalpel
       
 
    
-   :depends bamtools: 
-   :depends bcftools: 
+   :depends bamtools: ``>=2.5.3,<3.0a0``
+   :depends bcftools: ``>=1.22,<2.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends perl: 
-   :depends samtools: 
+   :depends samtools: ``>=1.22.1,<2.0a0``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

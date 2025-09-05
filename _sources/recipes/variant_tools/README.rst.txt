@@ -10,10 +10,12 @@ variant_tools
    :replaces_section_title:
    :noindex:
 
-   Integrated annotation and analysis of next gen sequencing data
+   Integrated annotation and analysis of next gen sequencing data.
 
    :homepage: https://github.com/vatlab/varianttools
-   :license: GNU General Public License (GPL)
+   :documentation: https://vatlab.github.io/vat-docs
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`variant_tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/variant_tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/variant_tools/meta.yaml>`_
 
    
@@ -27,28 +29,32 @@ variant_tools
       
       
 
-      ``3.1.3-2``,  ``3.1.3-1``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.9-0``,  ``3.0.8-0``
+      ``3.1.3-4``,  ``3.1.3-2``,  ``3.1.3-1``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.9-0``,  ``3.0.8-0``
 
       
 
    
-   :depends blosc: ``>=1.20.0,<2.0a0``
-   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
-   :depends gsl: ``>=2.6,<2.7.0a0``
-   :depends hdf5: ``>=1.10.5,<1.10.6.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends numpy: 
+   :depends blosc: ``>=1.21.6,<2.0a0``
+   :depends boost-cpp: ``<1.73.0``
+   :depends gsl: ``>=2.7,<2.8.0a0``
+   :depends hdf5: ``>=1.14.3,<1.14.4.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends numpy: ``>=1.22.4,<2.0a0``
    :depends pycurl: 
    :depends pytables: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.8,<3.9.0a0``
+   :depends python_abi: ``3.8.* *_cp38``
    :depends pyzmq: 
    :depends scipy: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -96,7 +102,7 @@ variant_tools
 
     <script>
         var package = "variant_tools";
-        var versions = ["3.1.3","3.1.3","3.1.3","3.1.2","3.1.1"];
+        var versions = ["3.1.3","3.1.3","3.1.3","3.1.3","3.1.2"];
     </script>
 
 

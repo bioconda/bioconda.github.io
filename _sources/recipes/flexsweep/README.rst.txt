@@ -10,10 +10,12 @@ flexsweep
    :replaces_section_title:
    :noindex:
 
-   A versatile tool for detecting selective sweeps
+   A versatile tool for detecting selective sweeps.
 
    :homepage: https://github.com/jmurga/flexsweep
-   :license: MIT
+   :documentation: https://flexsweep.readthedocs.io/en/latest
+   
+   :license: MIT / MIT
    :recipe: /`flexsweep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexsweep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexsweep/meta.yaml>`_
 
    
@@ -27,27 +29,27 @@ flexsweep
       
       
 
-      ``1.0-0``
+      ``1.3-0``,  ``1.0-0``
 
       
 
    
-   :depends click: ``<9.0.0,>=8.1.7``
-   :depends cudatoolkit: ``>=11.2,<12``
-   :depends demes: ``<0.3.0,>=0.2.3``
-   :depends joblib: ``<2.0.0,>=1.4.2``
-   :depends matplotlib-base: ``<4.0.0,>=3.9.2``
-   :depends numba: ``<0.61.0,>=0.60.0``
+   :depends click: ``>=8.1.7,<9.0.0``
+   :depends demes: ``>=0.2.3,<0.3.0``
+   :depends joblib: ``>=1.4.2,<2.0.0``
+   :depends matplotlib-base: ``>=3.9.2,<4.0.0``
+   :depends numba: ``>=0.60.0,<0.61.0``
    :depends numpy: ``1.26.4``
-   :depends pip: 
-   :depends polars: ``<2.0.0,>=1.14.0``
-   :depends pyarrow: ``<18.0.0,>=17.0.0``
-   :depends python: ``>=3.10,<3.12``
-   :depends scikit-allel: ``<2.0.0,>=1.3.8``
-   :depends scikit-learn: ``<2.0.0,>=1.5.1``
-   :depends scipy: ``<2.0.0,>=1.14.0``
-   :depends tensorflow: 
-   :depends threadpoolctl: ``<4.0.0,>=3.5.0``
+   :depends polars: ``>=1.14.0,<2.0.0``
+   :depends pyarrow: ``>=17.0.0,<18.0.0``
+   :depends pybedtools: ``>=0.12.0``
+   :depends python: ``>=3.12``
+   :depends scikit-allel: ``>=1.3.8,<2.0.0``
+   :depends scikit-learn: ``>=1.5.1,<2.0.0``
+   :depends scipy: ``>=1.14.0,<2.0.0``
+   :depends tbb: ``>=2022.1.0,<2023.0.0``
+   :depends tensorflow: ``2.17.*``
+   :depends threadpoolctl: ``>=3.5.0,<4.0.0``
    :requirements:
 
    :additional platforms:
@@ -98,7 +100,7 @@ flexsweep
 
     <script>
         var package = "flexsweep";
-        var versions = ["1.0"];
+        var versions = ["1.3","1.0"];
     </script>
 
 

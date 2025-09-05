@@ -27,18 +27,20 @@ genome2tree
       
       
 
-      ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends biopython: ``>=1.79``
-   :depends clipkit: 
+   :depends clipkit: ``>=0.1.2``
    :depends mafft: 
-   :depends numpy: ``>=1.21.0``
+   :depends numpy: ``>=1.21``
    :depends orthofinder: 
    :depends phykit: 
+   :depends prodigal: 
    :depends python: ``>=3.7``
+   :depends tqdm: ``>=4.45``
    :requirements:
 
    :additional platforms:
@@ -89,7 +91,7 @@ genome2tree
 
     <script>
         var package = "genome2tree";
-        var versions = ["1.0.0"];
+        var versions = ["1.1.0","1.0.0"];
     </script>
 
 

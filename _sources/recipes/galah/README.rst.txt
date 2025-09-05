@@ -13,6 +13,8 @@ galah
    Galah aims to be a more scalable metagenome assembled genome \(MAG\) dereplication method.
 
    :homepage: https://github.com/wwood/galah
+   :documentation: https://github.com/wwood/galah/blob/v0.4.2/README.md
+   
    :license: GPL3 / GPL-3.0-only
    :recipe: /`galah <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galah>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galah/meta.yaml>`_
 
@@ -28,10 +30,10 @@ galah
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.2-1</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.1-3</code>,  <code>0.3.1-2</code>,  <code>0.3.1-1</code>,  <code>0.3.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.2-2</code>,  <code>0.4.2-1</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.1-3</code>,  <code>0.3.1-2</code>,  <code>0.3.1-1</code>,  </span></summary>
       
 
-      ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.4.2-2``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -40,12 +42,16 @@ galah
       
 
    
-   :depends dashing: ``0.4.0``
-   :depends fastani: ``>=1.31``
+   :depends fastani: ``>=1.34``
    :depends libgcc: ``>=13``
+   :depends skani: ``>=0.2.2``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -93,7 +99,7 @@ galah
 
     <script>
         var package = "galah";
-        var versions = ["0.4.2","0.4.2","0.4.1","0.4.0","0.4.0"];
+        var versions = ["0.4.2","0.4.2","0.4.2","0.4.1","0.4.0"];
     </script>
 
 

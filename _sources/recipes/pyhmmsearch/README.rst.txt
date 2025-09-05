@@ -29,7 +29,7 @@ pyhmmsearch
       
       
 
-      ``2024.10.20-0``
+      ``2025.9.4.post1-0``,  ``2025.9.4-0``,  ``2025.1.23-0``,  ``2024.10.20-0``
 
       
 
@@ -88,7 +88,7 @@ pyhmmsearch
 
     <script>
         var package = "pyhmmsearch";
-        var versions = ["2024.10.20"];
+        var versions = ["2025.9.4.post1","2025.9.4","2025.1.23","2024.10.20"];
     </script>
 
 

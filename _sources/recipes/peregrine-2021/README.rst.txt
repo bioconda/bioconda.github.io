@@ -10,9 +10,11 @@ peregrine-2021
    :replaces_section_title:
    :noindex:
 
-   A genome assembler designed for long\-reads that have good enough accuracy
+   A genome assembler designed for long\-reads that have good enough accuracy.
 
    :homepage: https://github.com/cschin/peregrine-2021
+   :documentation: https://github.com/cschin/peregrine-2021/blob/v0.4.13/README.md
+   
    :license: CC / CC BY-NC-SA 4.0
    :recipe: /`peregrine-2021 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peregrine-2021>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peregrine-2021/meta.yaml>`_
 
@@ -27,7 +29,7 @@ peregrine-2021
       
       
 
-      ``0.4.13-4``,  ``0.4.13-3``,  ``0.4.13-2``,  ``0.4.13-1``,  ``0.4.13-0``,  ``0.4.12-0``
+      ``0.4.13-6``,  ``0.4.13-4``,  ``0.4.13-3``,  ``0.4.13-2``,  ``0.4.13-1``,  ``0.4.13-0``,  ``0.4.12-0``
 
       
 
@@ -38,6 +40,10 @@ peregrine-2021
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

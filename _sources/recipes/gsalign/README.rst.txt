@@ -10,14 +10,14 @@ gsalign
    :replaces_section_title:
    :noindex:
 
-   GSAlign\: an ultra\-fast sequence alignment tool
+   GSAlign\: An ultra\-fast sequence alignment tool
 
    :homepage: https://github.com/hsinnan75/GSAlign
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`gsalign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gsalign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gsalign/meta.yaml>`_
    :links: doi: :doi:`10.1101/782193`
 
-   an ultra\-fast sequence alignment tool for genome sequence comparison.
+   An ultra\-fast sequence alignment tool for genome sequence comparison.
 
 
 .. conda:package:: gsalign
@@ -29,10 +29,10 @@ gsalign
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.22-7</code>,  <code>1.0.22-6</code>,  <code>1.0.22-5</code>,  <code>1.0.22-4</code>,  <code>1.0.22-3</code>,  <code>1.0.22-2</code>,  <code>1.0.22-1</code>,  <code>1.0.22-0</code>,  <code>1.0.21-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.22-8</code>,  <code>1.0.22-7</code>,  <code>1.0.22-6</code>,  <code>1.0.22-5</code>,  <code>1.0.22-4</code>,  <code>1.0.22-3</code>,  <code>1.0.22-2</code>,  <code>1.0.22-1</code>,  <code>1.0.22-0</code>,  </span></summary>
       
 
-      ``1.0.22-7``,  ``1.0.22-6``,  ``1.0.22-5``,  ``1.0.22-4``,  ``1.0.22-3``,  ``1.0.22-2``,  ``1.0.22-1``,  ``1.0.22-0``,  ``1.0.21-0``,  ``1.0.20-0``,  ``1.0.16-0``,  ``1.0.15-0``,  ``1.0.14-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.22-8``,  ``1.0.22-7``,  ``1.0.22-6``,  ``1.0.22-5``,  ``1.0.22-4``,  ``1.0.22-3``,  ``1.0.22-2``,  ``1.0.22-1``,  ``1.0.22-0``,  ``1.0.21-0``,  ``1.0.20-0``,  ``1.0.16-0``,  ``1.0.15-0``,  ``1.0.14-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -43,18 +43,16 @@ gsalign
    
    :depends boost-cpp: 
    :depends libgcc: ``>=13``
-   :depends liblzma: ``>=5.6.3,<6.0a0``
+   :depends liblzma: ``>=5.8.1,<6.0a0``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends xz: 
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
