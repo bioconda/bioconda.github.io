@@ -31,7 +31,7 @@ phu
       
       
 
-      ``0.1.1-0``
+      ``0.2.1-0``,  ``0.1.1-0``
 
       
 
@@ -93,7 +93,7 @@ phu
 
     <script>
         var package = "phu";
-        var versions = ["0.1.1"];
+        var versions = ["0.2.1","0.1.1"];
     </script>
 
 

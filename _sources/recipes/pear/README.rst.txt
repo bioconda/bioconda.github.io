@@ -10,10 +10,10 @@ pear
    :replaces_section_title:
    :noindex:
 
-   paired\-end read merger
+   Paired\-End reAd mergeR
 
-   :homepage: http://sco.h-its.org/exelixis/web/software/pear/
-   :license: Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported
+   :homepage: https://sco.h-its.org/exelixis/web/software/pear/
+   :license: CC-BY-NC-SA-3.0
    :recipe: /`pear <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pear>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pear/meta.yaml>`_
    :links: biotools: :biotools:`PEAR`
 
@@ -29,10 +29,10 @@ pear
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.6-12</code>,  <code>0.9.6-11</code>,  <code>0.9.6-10</code>,  <code>0.9.6-9</code>,  <code>0.9.6-8</code>,  <code>0.9.6-7</code>,  <code>0.9.6-6</code>,  <code>0.9.6-5</code>,  <code>0.9.6-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.6-13</code>,  <code>0.9.6-12</code>,  <code>0.9.6-11</code>,  <code>0.9.6-10</code>,  <code>0.9.6-9</code>,  <code>0.9.6-8</code>,  <code>0.9.6-7</code>,  <code>0.9.6-6</code>,  <code>0.9.6-5</code>,  </span></summary>
       
 
-      ``0.9.6-12``,  ``0.9.6-11``,  ``0.9.6-10``,  ``0.9.6-9``,  ``0.9.6-8``,  ``0.9.6-7``,  ``0.9.6-6``,  ``0.9.6-5``,  ``0.9.6-4``,  ``0.9.6-3``,  ``0.9.6-2``,  ``0.9.6-1``,  ``0.9.6-0``
+      ``0.9.6-13``,  ``0.9.6-12``,  ``0.9.6-11``,  ``0.9.6-10``,  ``0.9.6-9``,  ``0.9.6-8``,  ``0.9.6-7``,  ``0.9.6-6``,  ``0.9.6-5``,  ``0.9.6-4``,  ``0.9.6-3``,  ``0.9.6-2``,  ``0.9.6-1``,  ``0.9.6-0``
 
       
       .. raw:: html
@@ -44,14 +44,13 @@ pear
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
