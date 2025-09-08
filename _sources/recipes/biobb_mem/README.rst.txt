@@ -49,10 +49,10 @@ biobb_mem
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.1.0-0</code>,  <code>5.0.6-0</code>,  <code>5.0.5-0</code>,  <code>5.0.4-0</code>,  <code>5.0.3-0</code>,  <code>5.0.2-3</code>,  <code>5.0.2-2</code>,  <code>5.0.2-1</code>,  <code>5.0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.6-0</code>,  <code>5.0.5-0</code>,  <code>5.0.4-0</code>,  <code>5.0.3-0</code>,  <code>5.0.2-3</code>,  <code>5.0.2-2</code>,  <code>5.0.2-1</code>,  </span></summary>
       
 
-      ``5.1.0-0``,  ``5.0.6-0``,  ``5.0.5-0``,  ``5.0.4-0``,  ``5.0.3-0``,  ``5.0.2-3``,  ``5.0.2-2``,  ``5.0.2-1``,  ``5.0.2-0``,  ``5.0.1-0``
+      ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.6-0``,  ``5.0.5-0``,  ``5.0.4-0``,  ``5.0.3-0``,  ``5.0.2-3``,  ``5.0.2-2``,  ``5.0.2-1``,  ``5.0.2-0``,  ``5.0.1-0``
 
       
       .. raw:: html
@@ -62,8 +62,8 @@ biobb_mem
 
    
    :depends ambertools: ``>=22.5``
-   :depends biobb_common: ``5.1.0``
-   :depends biobb_common: ``>=5.1.0,<6.0a0``
+   :depends biobb_common: ``5.1.1``
+   :depends biobb_common: ``>=5.1.1,<6.0a0``
    :depends gromacs: 
    :depends libgcc: ``>=13``
    :depends lipyphilic: ``0.10.0``
@@ -123,7 +123,7 @@ biobb_mem
 
     <script>
         var package = "biobb_mem";
-        var versions = ["5.1.0","5.0.6","5.0.5","5.0.4","5.0.3"];
+        var versions = ["5.1.1","5.1.0","5.0.6","5.0.5","5.0.4"];
     </script>
 
 

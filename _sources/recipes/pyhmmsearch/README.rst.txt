@@ -12,8 +12,8 @@ pyhmmsearch
 
    Fast implementation of HMMSEARCH optimized for high\-memory systems using PyHmmer.
 
-   :homepage: https://github.com/new-atlantis-labs/pyhmmsearch-stable
-   :documentation: https://github.com/new-atlantis-labs/pyhmmsearch-stable/blob/main/README.md
+   :homepage: https://github.com/jolespin/pyhmmsearch
+   :documentation: https://github.com/jolespin/pyhmmsearch/blob/main/README.md
    
    :license: MIT / MIT
    :recipe: /`pyhmmsearch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyhmmsearch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyhmmsearch/meta.yaml>`_
@@ -29,13 +29,14 @@ pyhmmsearch
       
       
 
-      ``2025.9.4.post1-0``,  ``2025.9.4-0``,  ``2025.1.23-0``,  ``2024.10.20-0``
+      ``2025.9.5-0``,  ``2025.9.4.post1-0``,  ``2025.9.4-0``,  ``2025.1.23-0``,  ``2024.10.20-0``
 
       
 
    
+   :depends biopython: 
    :depends pandas: ``>=2``
-   :depends pyhmmer: ``>=0.10.12``
+   :depends pyhmmer: ``>=0.10.12,<0.11.0``
    :depends python: 
    :depends tqdm: ``>=4``
    :requirements:
@@ -88,7 +89,7 @@ pyhmmsearch
 
     <script>
         var package = "pyhmmsearch";
-        var versions = ["2025.9.4.post1","2025.9.4","2025.1.23","2024.10.20"];
+        var versions = ["2025.9.5","2025.9.4.post1","2025.9.4","2025.1.23","2024.10.20"];
     </script>
 
 
