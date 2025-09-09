@@ -12,8 +12,8 @@ rastair
 
    Rust tool for TAPS\-based methylation calling.
 
-   :homepage: https://bitbucket.org/bsblabludwig/rastair/src/v0.8.2/
-   :license: GPL-3.0
+   :homepage: https://bitbucket.org/bsblabludwig/rastair
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`rastair <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rastair>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rastair/meta.yaml>`_
 
    rastair is a fast and accurate tool for methylation calling from TAPS sequencing data\, written in Rust.
@@ -27,18 +27,22 @@ rastair
       
       
 
-      ``0.8.2-0``
+      ``0.8.2-1``,  ``0.8.2-0``
 
       
 
    
    :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0a0``
    :depends r-base: ``>=4.4,<4.5.0a0``
-   :depends r-ggplot2: ``>=3.5.1,<4.0.0``
-   :depends r-gtable: ``>=0.3.6,<0.4.0``
+   :depends r-ggplot2: ``>=3.5.1``
+   :depends r-gtable: ``>=0.3.6``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -86,7 +90,7 @@ rastair
 
     <script>
         var package = "rastair";
-        var versions = ["0.8.2"];
+        var versions = ["0.8.2","0.8.2"];
     </script>
 
 

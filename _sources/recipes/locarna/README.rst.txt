@@ -10,12 +10,14 @@ locarna
    :replaces_section_title:
    :noindex:
 
-   Multiple alignment of RNAs
+   Multiple alignment of RNAs.
 
-   :homepage: https://s-will.github.io/LocARNA
-   :license: GPL
+   :homepage: https://github.com/s-will/LocARNA
+   :documentation: https://s-will.github.io/LocARNA
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`locarna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/locarna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/locarna/meta.yaml>`_
-   :links: biotools: :biotools:`locarna`, doi: :doi:`10.1371/journal.pcbi.0030065`
+   :links: biotools: :biotools:`locarna`, usegalaxy-eu: :usegalaxy-eu:`locarna_multiple`, doi: :doi:`10.1371/journal.pcbi.0030065`
 
    
 
@@ -29,10 +31,10 @@ locarna
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-5</code>,  <code>2.0.0-3</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>2.0.0RC10-1</code>,  <code>2.0.0RC10-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.1-2</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-5</code>,  <code>2.0.0-3</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>2.0.0RC10-1</code>,  </span></summary>
       
 
-      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-5``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``2.0.0RC10-1``,  ``2.0.0RC10-0``,  ``2.0.0RC8-2``,  ``2.0.0RC8-1``,  ``2.0.0RC8-0``,  ``2.0.0RC6-2``,  ``2.0.0RC6-1``,  ``2.0.0RC6-0``,  ``1.9.2.3-2``,  ``1.9.2.3-1``,  ``1.9.2.3-0``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.9.1-2``,  ``1.9.1-1``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.12-0``,  ``1.8.11-1``,  ``1.8.10-0``,  ``1.8.9-3``,  ``1.8.9-2``,  ``1.8.9-1``,  ``1.8.7-1``,  ``1.8.7-0``
+      ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-5``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``2.0.0RC10-1``,  ``2.0.0RC10-0``,  ``2.0.0RC8-2``,  ``2.0.0RC8-1``,  ``2.0.0RC8-0``,  ``2.0.0RC6-2``,  ``2.0.0RC6-1``,  ``2.0.0RC6-0``,  ``1.9.2.3-2``,  ``1.9.2.3-1``,  ``1.9.2.3-0``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.9.1-2``,  ``1.9.1-1``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.12-0``,  ``1.8.11-1``,  ``1.8.10-0``,  ``1.8.9-3``,  ``1.8.9-2``,  ``1.8.9-1``,  ``1.8.7-1``,  ``1.8.7-0``
 
       
       .. raw:: html
@@ -49,6 +51,10 @@ locarna
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -96,7 +102,7 @@ locarna
 
     <script>
         var package = "locarna";
-        var versions = ["2.0.1","2.0.1","2.0.0","2.0.0","2.0.0"];
+        var versions = ["2.0.1","2.0.1","2.0.1","2.0.0","2.0.0"];
     </script>
 
 

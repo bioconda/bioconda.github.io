@@ -13,7 +13,9 @@ wiggletools
    The WiggleTools package allows genomewide data files to be manipulated as numerical functions\, equipped with all the standard functional analysis operators \(sum\, product\, product by a scalar\, comparators\)\, and derived statistics \(mean\, median\, variance\, stddev\, t\-test\, Wilcoxon\'s rank sum test\, etc\).
 
    :homepage: https://github.com/Ensembl/WiggleTools
-   :license: Apache / Apache
+   :documentation: https://github.com/Ensembl/WiggleTools/blob/v1.2.11/README.md
+   
+   :license: APACHE / Apache-2.0
    :recipe: /`wiggletools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wiggletools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wiggletools/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ wiggletools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.11-9</code>,  <code>1.2.11-8</code>,  <code>1.2.11-7</code>,  <code>1.2.11-6</code>,  <code>1.2.11-5</code>,  <code>1.2.11-4</code>,  <code>1.2.11-3</code>,  <code>1.2.11-2</code>,  <code>1.2.11-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.11-10</code>,  <code>1.2.11-9</code>,  <code>1.2.11-8</code>,  <code>1.2.11-7</code>,  <code>1.2.11-6</code>,  <code>1.2.11-5</code>,  <code>1.2.11-4</code>,  <code>1.2.11-3</code>,  <code>1.2.11-2</code>,  </span></summary>
       
 
-      ``1.2.11-9``,  ``1.2.11-8``,  ``1.2.11-7``,  ``1.2.11-6``,  ``1.2.11-5``,  ``1.2.11-4``,  ``1.2.11-3``,  ``1.2.11-2``,  ``1.2.11-1``,  ``1.2.11-0``,  ``1.2.10-1``,  ``1.2.10-0``,  ``1.2.8-2``,  ``1.2.8-1``,  ``1.2.8-0``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-4``,  ``1.2.2-3``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``
+      ``1.2.11-10``,  ``1.2.11-9``,  ``1.2.11-8``,  ``1.2.11-7``,  ``1.2.11-6``,  ``1.2.11-5``,  ``1.2.11-4``,  ``1.2.11-3``,  ``1.2.11-2``,  ``1.2.11-1``,  ``1.2.11-0``,  ``1.2.10-1``,  ``1.2.10-0``,  ``1.2.8-2``,  ``1.2.8-1``,  ``1.2.8-0``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-4``,  ``1.2.2-3``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``
 
       
       .. raw:: html
@@ -41,8 +43,8 @@ wiggletools
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends htslib: ``>=1.21,<1.23.0a0``
-   :depends libbigwig: ``>=0.4.7,<0.5.0a0``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
+   :depends libbigwig: ``>=0.4.8,<0.5.0a0``
    :depends libcblas: ``>=3.9.0,<4.0a0``
    :depends libgcc: ``>=13``
    :requirements:
@@ -51,7 +53,7 @@ wiggletools
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

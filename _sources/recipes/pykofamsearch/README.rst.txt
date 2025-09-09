@@ -27,15 +27,16 @@ pykofamsearch
       
       
 
-      ``2024.11.9-0``,  ``2024.11.8.post1-0``,  ``2024.10.20-0``
+      ``2025.9.5-1``,  ``2025.9.5-0``,  ``2024.11.9-0``,  ``2024.11.8.post1-0``,  ``2024.10.20-0``
 
       
 
    
-   :depends pandas: 
-   :depends pyhmmer: ``>=0.10.12``
+   :depends biopython: 
+   :depends pandas: ``>=2``
+   :depends pyhmmer: ``>=0.10.12,<0.11.0``
    :depends python: ``>=3``
-   :depends tqdm: 
+   :depends tqdm: ``>=4``
    :requirements:
 
    :additional platforms:
@@ -86,7 +87,7 @@ pykofamsearch
 
     <script>
         var package = "pykofamsearch";
-        var versions = ["2024.11.9","2024.11.8.post1","2024.10.20"];
+        var versions = ["2025.9.5","2025.9.5","2024.11.9","2024.11.8.post1","2024.10.20"];
     </script>
 
 

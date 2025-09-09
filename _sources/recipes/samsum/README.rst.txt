@@ -10,10 +10,10 @@ samsum
    :replaces_section_title:
    :noindex:
 
-   A light\-weight python package for summarizing sequence coverage from SAM and BAM files
+   A light\-weight python package for summarizing sequence coverage from SAM and BAM files.
 
    :homepage: https://github.com/hallamlab/samsum
-   :license: GPL3 / GNU General Public v3 (GPLv3)
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`samsum <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samsum>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samsum/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ samsum
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.4-6</code>,  <code>0.1.4-5</code>,  <code>0.1.4-4</code>,  <code>0.1.4-3</code>,  <code>0.1.4-2</code>,  <code>0.1.4-1</code>,  <code>0.1.4-0</code>,  <code>0.1.2-2</code>,  <code>0.1.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.4-7</code>,  <code>0.1.4-6</code>,  <code>0.1.4-5</code>,  <code>0.1.4-4</code>,  <code>0.1.4-3</code>,  <code>0.1.4-2</code>,  <code>0.1.4-1</code>,  <code>0.1.4-0</code>,  <code>0.1.2-2</code>,  </span></summary>
       
 
-      ``0.1.4-6``,  ``0.1.4-5``,  ``0.1.4-4``,  ``0.1.4-3``,  ``0.1.4-2``,  ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.1.4-7``,  ``0.1.4-6``,  ``0.1.4-5``,  ``0.1.4-4``,  ``0.1.4-3``,  ``0.1.4-2``,  ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -53,7 +53,7 @@ samsum
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

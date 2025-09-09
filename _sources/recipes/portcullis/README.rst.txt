@@ -10,10 +10,12 @@ portcullis
    :replaces_section_title:
    :noindex:
 
-   Splice junction analysis and filtering from BAM files
+   Splice junction analysis and filtering from BAM files.
 
    :homepage: https://github.com/maplesond/portcullis
-   :license: GPL3
+   :documentation: https://ei-corebioinformatics.github.io/portcullis
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`portcullis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/portcullis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/portcullis/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ portcullis
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.4-3</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-2</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.4-4</code>,  <code>1.2.4-3</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-2</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.2.0-0</code>,  </span></summary>
       
 
-      ``1.2.4-3``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-3``,  ``1.1.0-0``
+      ``1.2.4-4``,  ``1.2.4-3``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-3``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -50,7 +52,7 @@ portcullis
    :depends pandas: 
    :depends python: ``>=3.9,<3.10.0a0``
    :depends python_abi: ``3.9.* *_cp39``
-   :depends samtools: ``>=1.21,<2.0a0``
+   :depends samtools: ``>=1.22.1,<2.0a0``
    :depends samtools: ``>=1.9``
    :depends tabulate: 
    :requirements:
@@ -59,7 +61,7 @@ portcullis
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -107,7 +109,7 @@ portcullis
 
     <script>
         var package = "portcullis";
-        var versions = ["1.2.4","1.2.4","1.2.4","1.2.3","1.2.2"];
+        var versions = ["1.2.4","1.2.4","1.2.4","1.2.4","1.2.3"];
     </script>
 
 

@@ -13,7 +13,7 @@ pygtftk
    The gtftk suite providing facilities to manipulate genomic annotations in gtf format.
 
    :homepage: http://github.com/dputhier/pygtftk
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`pygtftk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pygtftk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pygtftk/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ pygtftk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.2-4</code>,  <code>1.6.2-3</code>,  <code>1.6.2-2</code>,  <code>1.6.2-1</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.3-1</code>,  <code>1.5.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.2-5</code>,  <code>1.6.2-4</code>,  <code>1.6.2-3</code>,  <code>1.6.2-2</code>,  <code>1.6.2-1</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.3-1</code>,  </span></summary>
       
 
-      ``1.6.2-4``,  ``1.6.2-3``,  ``1.6.2-2``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.3-1``,  ``1.5.3-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.7-2``,  ``1.2.7-1``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.4-2``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.6.2-5``,  ``1.6.2-4``,  ``1.6.2-3``,  ``1.6.2-2``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.3-1``,  ``1.5.3-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.7-2``,  ``1.2.7-1``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.4-2``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -43,13 +43,12 @@ pygtftk
    :depends bedtools: ``>=2.23.1``
    :depends billiard: ``>=3.6.4.0``
    :depends biopython: ``>=1.69``
-   :depends bzip2: 
    :depends cffi: ``>=1.10.0``
    :depends cloudpickle: ``>=0.4.0``
    :depends ftputil: ``>=3.3.1,<4.0.0``
    :depends future: 
    :depends libgcc: ``>=13``
-   :depends liblapack: ``>=3.9.0``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends matplotlib-base: ``>=2.0.2``
@@ -57,7 +56,6 @@ pygtftk
    :depends nose: 
    :depends numpy: ``>=1.15.3``
    :depends numpy: ``>=1.19,<3``
-   :depends openblas: ``>=0.3.17``
    :depends pandas: ``>=0.23.3``
    :depends plotnine: ``>=0.4.0``
    :depends pybedtools: ``>=0.7.8``
@@ -70,15 +68,14 @@ pygtftk
    :depends requests: ``>=2.13.0``
    :depends scikit-learn: ``>=0.21.2,<1``
    :depends scipy: ``>=1.1.0``
-   :depends seaborn: 
-   :depends xz: 
+   :depends seaborn-base: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

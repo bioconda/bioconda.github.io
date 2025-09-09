@@ -10,13 +10,12 @@ bioconvert
    :replaces_section_title:
    :noindex:
 
-   Convert between bioinformatics formats
+   Convert between bioinformatics formats.
 
-   :homepage: https://pypi.org/project/bioconvert/
-   :documentation: https://bioconvert.readthedocs.io/en/dev/
+   :homepage: https://github.com/bioconvert/bioconvert
+   :documentation: https://bioconvert.readthedocs.io/en/dev
    
-   :developer docs: https://github.com/bioconvert/bioconvert
-   :license: GPL-3.0
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`bioconvert <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconvert>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconvert/meta.yaml>`_
 
    
@@ -31,10 +30,10 @@ bioconvert
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0.post0-0</code>,  <code>0.6.3-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.1-2</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0.post0-0</code>,  <code>0.6.3-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  </span></summary>
       
 
-      ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0.post0-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.0.10-1``,  ``0.0.10-0``
+      ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0.post0-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.0.10-1``,  ``0.0.10-0``
 
       
       .. raw:: html
@@ -44,7 +43,7 @@ bioconvert
 
    
    :depends bamtools: 
-   :depends bcftools: 
+   :depends bcftools: ``>=1.19,<1.20``
    :depends bedops: 
    :depends bedtools: 
    :depends biopython: ``>=1.70``
@@ -54,10 +53,11 @@ bioconvert
    :depends dsrc: 
    :depends easydev: 
    :depends gffread: 
-   :depends go: ``1.10.*``
+   :depends go: ``1.24.*``
    :depends goalign: 
    :depends gotree: 
    :depends graphviz: 
+   :depends htslib: ``>=1.19.1,<1.20.0a0``
    :depends jinja2: ``<3.1``
    :depends mappy: 
    :depends matplotlib-base: 
@@ -82,7 +82,7 @@ bioconvert
    :depends python: ``>=3.8``
    :depends pyyaml: 
    :depends sambamba: 
-   :depends samtools: ``>=1.17``
+   :depends samtools: 
    :depends sed: 
    :depends seqkit: 
    :depends seqtk: 
@@ -95,7 +95,7 @@ bioconvert
    :depends ucsc-fatotwobit: 
    :depends ucsc-twobittofa: 
    :depends ucsc-wigtobigwig: 
-   :depends wiggletools: ``1.2.*``
+   :depends wiggletools: ``>=1.2.11,<1.3``
    :depends xlrd: ``>2.0``
    :requirements:
 
@@ -147,7 +147,7 @@ bioconvert
 
     <script>
         var package = "bioconvert";
-        var versions = ["1.1.1","1.1.1","1.1.0","1.0.0.post0","0.6.3"];
+        var versions = ["1.1.1","1.1.1","1.1.1","1.1.0","1.0.0.post0"];
     </script>
 
 

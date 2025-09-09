@@ -10,9 +10,9 @@ sdm
    :replaces_section_title:
    :noindex:
 
-   sdm \- simple demultiplex tool for FASTQ demultiplexing and dereplication
+   sdm \- simple demultiplex tool for FASTQ demultiplexing and dereplication.
 
-   :homepage: https://github.com/hildebra/sdm/
+   :homepage: https://github.com/hildebra/sdm
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`sdm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sdm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sdm/meta.yaml>`_
 
@@ -28,10 +28,10 @@ sdm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.08-1</code>,  <code>3.08-0</code>,  <code>2.18-0</code>,  <code>2.17-1</code>,  <code>2.17-0</code>,  <code>2.14-0</code>,  <code>2.13-0</code>,  <code>2.11-0</code>,  <code>2.10-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.10-0</code>,  <code>3.08-1</code>,  <code>3.08-0</code>,  <code>2.18-0</code>,  <code>2.17-1</code>,  <code>2.17-0</code>,  <code>2.14-0</code>,  <code>2.13-0</code>,  <code>2.11-0</code>,  </span></summary>
       
 
-      ``3.08-1``,  ``3.08-0``,  ``2.18-0``,  ``2.17-1``,  ``2.17-0``,  ``2.14-0``,  ``2.13-0``,  ``2.11-0``,  ``2.10-0``,  ``2.09-0``,  ``2.08-2``,  ``2.08-1``,  ``2.08-0``,  ``2.06-0``,  ``2.05-0``,  ``2.02-1``,  ``2.02-0``,  ``1.94-1``,  ``1.94-0``,  ``1.93-0``,  ``1.92-0``,  ``1.90-0``,  ``1.89-0``,  ``1.87-0``,  ``1.86-0``,  ``1.85-0``,  ``1.84.1-0``,  ``1.84-0``,  ``1.83post0-0``,  ``1.83-0``,  ``1.73-2``,  ``1.73-1``,  ``1.73-0``,  ``1.47-0``
+      ``3.10-0``,  ``3.08-1``,  ``3.08-0``,  ``2.18-0``,  ``2.17-1``,  ``2.17-0``,  ``2.14-0``,  ``2.13-0``,  ``2.11-0``,  ``2.10-0``,  ``2.09-0``,  ``2.08-2``,  ``2.08-1``,  ``2.08-0``,  ``2.06-0``,  ``2.05-0``,  ``2.02-1``,  ``2.02-0``,  ``1.94-1``,  ``1.94-0``,  ``1.93-0``,  ``1.92-0``,  ``1.90-0``,  ``1.89-0``,  ``1.87-0``,  ``1.86-0``,  ``1.85-0``,  ``1.84.1-0``,  ``1.84-0``,  ``1.83post0-0``,  ``1.83-0``,  ``1.73-2``,  ``1.73-1``,  ``1.73-0``,  ``1.47-0``
 
       
       .. raw:: html
@@ -43,14 +43,13 @@ sdm
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -98,7 +97,7 @@ sdm
 
     <script>
         var package = "sdm";
-        var versions = ["3.08","3.08","2.18","2.17","2.17"];
+        var versions = ["3.10","3.08","3.08","2.18","2.17"];
     </script>
 
 

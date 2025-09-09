@@ -13,7 +13,7 @@ cryptogenotyper
    This package crypto\_typer\: tool to subtype the parasite\, Cryptosporidium\, based on the 18S and gp60 markers.
 
    :homepage: https://github.com/phac-nml/CryptoGenotyper
-   :license: Apache License, Version 2.0
+   :license: APACHE / Apache-2.0
    :recipe: /`cryptogenotyper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cryptogenotyper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cryptogenotyper/meta.yaml>`_
 
    
@@ -27,16 +27,16 @@ cryptogenotyper
       
       
 
-      ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.5.0-0``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
    :depends biopython: ``>=1.70,<1.78``
-   :depends blast: ``2.9.0``
+   :depends blast: ``>=2.9.0``
    :depends clustalw: ``>=2.1``
    :depends numpy: ``>=1.15.4``
-   :depends python: ``>=3.4``
+   :depends python: ``>=3.6``
    :requirements:
 
    :additional platforms:
@@ -87,7 +87,7 @@ cryptogenotyper
 
     <script>
         var package = "cryptogenotyper";
-        var versions = ["1.0","1.0","1.0","1.0"];
+        var versions = ["1.5.0","1.0","1.0","1.0","1.0"];
     </script>
 
 

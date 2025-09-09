@@ -13,7 +13,9 @@ tgv
    Explore genomes in the terminal. Light\, blazing fast 🚀\, vim\-motion.
 
    :homepage: https://github.com/zeqianli/tgv
-   :license: MIT
+   :documentation: https://github.com/zeqianli/tgv/blob/v0.1.0/README.md
+   
+   :license: MIT / MIT
    :recipe: /`tgv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tgv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tgv/meta.yaml>`_
 
    
@@ -27,21 +29,24 @@ tgv
       
       
 
-      ``0.0.6-0``
+      ``0.1.0-0``,  ``0.0.6-0``
 
       
 
    
    :depends htslib: ``>=1.22.1,<1.23.0a0``
-   :depends libclang13: ``>=20.1.8``
    :depends libgcc: ``>=13``
-   :depends libsqlite: ``>=3.50.3,<4.0a0``
+   :depends libsqlite: ``>=3.50.4,<4.0a0``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends openssl: ``>=3.5.1,<4.0a0``
+   :depends openssl: ``>=3.5.2,<4.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -89,7 +94,7 @@ tgv
 
     <script>
         var package = "tgv";
-        var versions = ["0.0.6"];
+        var versions = ["0.1.0","0.0.6"];
     </script>
 
 

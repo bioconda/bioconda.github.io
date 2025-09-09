@@ -10,18 +10,18 @@ flexiplex
    :replaces_section_title:
    :noindex:
 
-   flexiplex\: the flexible demultiplexer \(filter barcodes by whitelist and inflection point\)
+   flexiplex\: the flexible demultiplexer
 
    :homepage: https://github.com/DavidsonGroup/flexiplex
    :documentation: https://davidsongroup.github.io/flexiplex
    
    :license: MIT / MIT
    :recipe: /`flexiplex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexiplex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexiplex/meta.yaml>`_
-   :links: doi: :doi:`10.1101/2023.08.21.554084`
+   :links: doi: :doi:`10.1093/bioinformatics/btae102`
 
    Flexiplex is a fast and versatile sequence searching and demultiplexing tool 
-   for omics data. For more information\, see the accompanying bioRxiv preprint
-   \"Davidson et al. Flexiplex\: A versatile demultiplexer and search tool for omics data.\"
+   for omics data. For more information\, see the accompanying paper
+   \"Cheng et al. Flexiplex\: A versatile demultiplexer and search tool for omics data.\"
 
 
 
@@ -32,9 +32,17 @@ flexiplex
    :versions:
       
       
+      .. raw:: html
 
-      ``1.02.5-0``,  ``1.02.4-0``,  ``1.02.3-0``,  ``1.01-2``,  ``1.01-1``,  ``1.01-0``,  ``0.97.1-1``,  ``0.97.1-0``,  ``0.97-0``
+         <details><summary><span class="truncated-version-list"><code>1.02.5-1</code>,  <code>1.02.5-0</code>,  <code>1.02.4-0</code>,  <code>1.02.3-0</code>,  <code>1.01-2</code>,  <code>1.01-1</code>,  <code>1.01-0</code>,  <code>0.97.1-1</code>,  <code>0.97.1-0</code>,  </span></summary>
+      
 
+      ``1.02.5-1``,  ``1.02.5-0``,  ``1.02.4-0``,  ``1.02.3-0``,  ``1.01-2``,  ``1.01-1``,  ``1.01-0``,  ``0.97.1-1``,  ``0.97.1-0``,  ``0.97-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -44,8 +52,8 @@ flexiplex
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends python: ``>=3.13,<3.14.0a0``
+   :depends python_abi: ``3.13.* *_cp313``
    :depends requests: 
    :requirements:
 
@@ -101,7 +109,7 @@ flexiplex
 
     <script>
         var package = "flexiplex";
-        var versions = ["1.02.5","1.02.4","1.02.3","1.01","1.01"];
+        var versions = ["1.02.5","1.02.5","1.02.4","1.02.3","1.01"];
     </script>
 
 

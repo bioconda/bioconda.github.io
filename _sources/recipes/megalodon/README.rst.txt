@@ -30,10 +30,10 @@ megalodon
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5.0-2</code>,  <code>2.5.0-1</code>,  <code>2.5.0-0</code>,  <code>2.4.1-2</code>,  <code>2.4.1-1</code>,  <code>2.4.1-0</code>,  <code>2.4.0-0</code>,  <code>2.3.5-0</code>,  <code>2.3.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.5.0-4</code>,  <code>2.5.0-2</code>,  <code>2.5.0-1</code>,  <code>2.5.0-0</code>,  <code>2.4.1-2</code>,  <code>2.4.1-1</code>,  <code>2.4.1-0</code>,  <code>2.4.0-0</code>,  <code>2.3.5-0</code>,  </span></summary>
       
 
-      ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.5-0``,  ``2.3.4-0``,  ``2.3.3-0``,  ``2.3.1-0``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.10-0``,  ``2.2.9-0``,  ``2.2.8-0``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.0.2-0``
+      ``2.5.0-4``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.5-0``,  ``2.3.4-0``,  ``2.3.3-0``,  ``2.3.1-0``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.10-0``,  ``2.2.9-0``,  ``2.2.8-0``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -43,17 +43,17 @@ megalodon
 
    
    :depends h5py: ``>=2.2.1``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :depends mappy: ``>=2.16``
-   :depends numpy: ``>=1.26.4,<2.0a0``
-   :depends numpy: ``>=1.9.0``
+   :depends numpy: ``>=1.19,<3``
+   :depends numpy: ``>=1.9.0,2``
    :depends ont-fast5-api: ``>=3.2``
    :depends pysam: ``>=0.15``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends scikit-learn: 
    :depends scipy: ``>=1.1.0``
-   :depends seaborn: 
+   :depends seaborn-base: 
    :depends tqdm: ``>=2.17``
    :requirements:
 
@@ -61,7 +61,7 @@ megalodon
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -109,7 +109,7 @@ megalodon
 
     <script>
         var package = "megalodon";
-        var versions = ["2.5.0","2.5.0","2.5.0","2.4.1","2.4.1"];
+        var versions = ["2.5.0","2.5.0","2.5.0","2.5.0","2.4.1"];
     </script>
 
 

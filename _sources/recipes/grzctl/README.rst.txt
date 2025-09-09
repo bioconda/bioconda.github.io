@@ -13,7 +13,7 @@ grzctl
    Control CLI for GRZ administrators.
 
    :homepage: https://github.com/BfArM-MVH/grz-tools
-   :documentation: https://github.com/BfArM-MVH/grz-tools/blob/grzctl-v0.5.0/packages/grz-cli/README.md
+   :documentation: https://github.com/BfArM-MVH/grz-tools/blob/grzctl-v0.6.0/packages/grz-cli/README.md
    
    :license: MIT / MIT
    :recipe: /`grzctl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grzctl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grzctl/meta.yaml>`_
@@ -30,10 +30,10 @@ grzctl
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  </span></summary>
       
 
-      ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -109,7 +109,7 @@ grzctl
 
     <script>
         var package = "grzctl";
-        var versions = ["0.5.0","0.4.0","0.3.0","0.2.6","0.2.5"];
+        var versions = ["0.6.0","0.5.0","0.4.0","0.3.0","0.2.6"];
     </script>
 
 

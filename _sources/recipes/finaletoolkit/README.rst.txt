@@ -13,10 +13,12 @@ finaletoolkit
    Extract cfDNA fragmentation features from sequencing data.
 
    :homepage: https://github.com/epifluidlab/FinaleToolkit
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`finaletoolkit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/finaletoolkit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/finaletoolkit/meta.yaml>`_
 
-   
+   \"FinaleToolkit \(FragmentatIoN AnaLysis of cEll\-free DNA Toolkit\) is a package and standalone program to extract fragmentation features of cell\-free DNA from paired\-end sequencing data.
+   It has support for many cfDNA fragmentation features\, such as fragment length\, coverage\, end motifs\, DELFI\, and more.\"
+
 
 
 .. conda:package:: finaletoolkit
@@ -27,7 +29,7 @@ finaletoolkit
       
       
 
-      ``0.10.7-0``
+      ``0.11.0-0``,  ``0.10.7-0``
 
       
 
@@ -93,7 +95,7 @@ finaletoolkit
 
     <script>
         var package = "finaletoolkit";
-        var versions = ["0.10.7"];
+        var versions = ["0.11.0","0.10.7"];
     </script>
 
 
