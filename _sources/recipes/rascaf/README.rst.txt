@@ -29,23 +29,31 @@ rascaf
    :versions:
       
       
+      .. raw:: html
 
-      ``20180710-0``,  ``20161129-7``,  ``20161129-6``,  ``20161129-5``,  ``20161129-4``,  ``20161129-3``,  ``20161129-2``,  ``20161129-1``,  ``20161129-0``
+         <details><summary><span class="truncated-version-list"><code>20180710-1</code>,  <code>20180710-0</code>,  <code>20161129-7</code>,  <code>20161129-6</code>,  <code>20161129-5</code>,  <code>20161129-4</code>,  <code>20161129-3</code>,  <code>20161129-2</code>,  <code>20161129-1</code>,  </span></summary>
+      
 
+      ``20180710-1``,  ``20180710-0``,  ``20161129-7``,  ``20161129-6``,  ``20161129-5``,  ``20161129-4``,  ``20161129-3``,  ``20161129-2``,  ``20161129-1``,  ``20161129-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends samtools: ``>=0.1.19,<1.0a0``
+   :depends samtools: ``>=0.1.19,<0.2.0a0``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -93,7 +101,7 @@ rascaf
 
     <script>
         var package = "rascaf";
-        var versions = ["20180710","20161129","20161129","20161129","20161129"];
+        var versions = ["20180710","20180710","20161129","20161129","20161129"];
     </script>
 
 

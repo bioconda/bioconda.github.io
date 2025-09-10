@@ -12,7 +12,8 @@
 
    3SEQ tests all sequence triplets in an alignment for a mosaic recombination signal.
 
-   :homepage: https://mol.ax/software/3seq/
+   :homepage: https://mol.ax/software/3seq
+   :developer docs: https://gitlab.com/lamhm/3seq
    :license: CC-BY-NC-SA-4.0
    :recipe: /`3seq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/3seq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/3seq/meta.yaml>`_
 
@@ -27,7 +28,7 @@
       
       
 
-      ``1.8-5``,  ``1.8-4``,  ``1.8-3``,  ``1.8-2``,  ``1.8-1``,  ``1.8-0``
+      ``1.8-6``,  ``1.8-5``,  ``1.8-4``,  ``1.8-3``,  ``1.8-2``,  ``1.8-1``,  ``1.8-0``
 
       
 
@@ -40,7 +41,7 @@
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

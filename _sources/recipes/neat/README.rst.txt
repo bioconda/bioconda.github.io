@@ -28,10 +28,10 @@ neat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.2.8-0</code>,  <code>4.2.7-0</code>,  <code>4.2.6-0</code>,  <code>4.2.5-0</code>,  <code>4.2.4-0</code>,  <code>4.2.3-0</code>,  <code>4.2.2-0</code>,  <code>4.2.1-0</code>,  <code>4.1.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.3.0-0</code>,  <code>4.2.8-0</code>,  <code>4.2.7-0</code>,  <code>4.2.6-0</code>,  <code>4.2.5-0</code>,  <code>4.2.4-0</code>,  <code>4.2.3-0</code>,  <code>4.2.2-0</code>,  <code>4.2.1-0</code>,  </span></summary>
       
 
-      ``4.2.8-0``,  ``4.2.7-0``,  ``4.2.6-0``,  ``4.2.5-0``,  ``4.2.4-0``,  ``4.2.3-0``,  ``4.2.2-0``,  ``4.2.1-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.0-0``
+      ``4.3.0-0``,  ``4.2.8-0``,  ``4.2.7-0``,  ``4.2.6-0``,  ``4.2.5-0``,  ``4.2.4-0``,  ``4.2.3-0``,  ``4.2.2-0``,  ``4.2.1-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.0-0``
 
       
       .. raw:: html
@@ -103,7 +103,7 @@ neat
 
     <script>
         var package = "neat";
-        var versions = ["4.2.8","4.2.7","4.2.6","4.2.5","4.2.4"];
+        var versions = ["4.3.0","4.2.8","4.2.7","4.2.6","4.2.5"];
     </script>
 
 

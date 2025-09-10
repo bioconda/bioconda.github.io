@@ -13,7 +13,9 @@ phu
    Phage Utilities \(phu\)\: modular toolkit for clustering\, classifying\, and analyzing viral sequences.
 
    :homepage: https://github.com/camilogarciabotero/phu
-   :license: MIT
+   :documentation: https://camilogarciabotero.github.io/phu
+   
+   :license: MIT / MIT
    :recipe: /`phu <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phu>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phu/meta.yaml>`_
 
    \*\*phu\*\* \(Phage Utilities\) is a Python toolkit designed for viral bioinformatics workflows. 
@@ -31,12 +33,13 @@ phu
       
       
 
-      ``0.2.1-0``,  ``0.1.1-0``
+      ``0.3.0-0``,  ``0.2.1-0``,  ``0.1.1-0``
 
       
 
    
    :depends mypy: 
+   :depends pandas: 
    :depends pytest: 
    :depends python: ``>=3.10``
    :depends ruff: 
@@ -93,7 +96,7 @@ phu
 
     <script>
         var package = "phu";
-        var versions = ["0.2.1","0.1.1"];
+        var versions = ["0.3.0","0.2.1","0.1.1"];
     </script>
 
 

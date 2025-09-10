@@ -10,10 +10,12 @@ pathoscope
    :replaces_section_title:
    :noindex:
 
-   Species identification and strain attribution with unassembled sequencing data
+   Species identification and strain attribution with unassembled sequencing data.
 
    :homepage: https://github.com/PathoScope/PathoScope
-   :license: GPLv3
+   :documentation: https://github.com/PathoScope/PathoScope/wiki
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`pathoscope <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pathoscope>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pathoscope/meta.yaml>`_
 
    
@@ -27,14 +29,14 @@ pathoscope
       
       
 
-      ``2.0.7-1``,  ``2.0.7-0``,  ``2.0.6-1``,  ``2.0.6-0``
+      ``2.0.7-2``,  ``2.0.7-1``,  ``2.0.7-0``,  ``2.0.6-1``,  ``2.0.6-0``
 
       
 
    
    :depends bowtie2: 
-   :depends python: ``<3``
-   :depends samtools: ``<1.0``
+   :depends python: ``>=3``
+   :depends samtools: 
    :requirements:
 
    :additional platforms:
@@ -85,7 +87,7 @@ pathoscope
 
     <script>
         var package = "pathoscope";
-        var versions = ["2.0.7","2.0.7","2.0.6","2.0.6"];
+        var versions = ["2.0.7","2.0.7","2.0.7","2.0.6","2.0.6"];
     </script>
 
 

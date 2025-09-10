@@ -13,7 +13,7 @@ phyling
    A phylogenetic inference tool based on protein\-coding genomic sequences
 
    :homepage: https://github.com/stajichlab/Phyling
-   :documentation: https://github.com/stajichlab/Phyling/blob/v2.3.0/README.md
+   :documentation: https://github.com/stajichlab/Phyling/blob/v2.3.1/README.md
    
    :license: MIT / MIT
    :recipe: /`phyling <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phyling>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phyling/meta.yaml>`_
@@ -33,7 +33,7 @@ phyling
       
       
 
-      ``2.3.0-0``
+      ``2.3.1-0``,  ``2.3.0-0``
 
       
 
@@ -101,7 +101,7 @@ phyling
 
     <script>
         var package = "phyling";
-        var versions = ["2.3.0"];
+        var versions = ["2.3.1","2.3.0"];
     </script>
 
 

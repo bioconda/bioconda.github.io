@@ -12,8 +12,8 @@ splicemap
 
    Detects splice junctions from RNA\-seq data. This method does not depend on any existing annotation of gene structures and is capable of finding novel splice junctions with high sensitivity and specificity. It can handle long reads \(50–100 nt\) and can exploit paired\-read information to improve mapping accuracy.
 
-   :homepage: http://www.stanford.edu/group/wonglab/SpliceMap/
-   :license: file
+   :homepage: https://web.stanford.edu/group/wonglab/SpliceMap
+   :license: Custom
    :recipe: /`splicemap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/splicemap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/splicemap/meta.yaml>`_
    :links: biotools: :biotools:`splicemap`, doi: :doi:`10.1093/nar/gkq211`
 
@@ -28,7 +28,7 @@ splicemap
       
       
 
-      ``3.3.5.2-6``,  ``3.3.5.2-5``,  ``3.3.5.2-4``,  ``3.3.5.2-3``,  ``3.3.5.2-2``,  ``3.3.5.2-1``,  ``3.3.5.2-0``
+      ``3.3.5.2-7``,  ``3.3.5.2-6``,  ``3.3.5.2-5``,  ``3.3.5.2-4``,  ``3.3.5.2-3``,  ``3.3.5.2-2``,  ``3.3.5.2-1``,  ``3.3.5.2-0``
 
       
 
@@ -39,6 +39,10 @@ splicemap
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

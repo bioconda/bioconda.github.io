@@ -10,11 +10,14 @@ porechop_abi
    :replaces_section_title:
    :noindex:
 
-   Adapter inferrence and removal of Oxford Nanopore reads
+   Adapter inferrence and removal of Oxford Nanopore reads.
 
    :homepage: https://github.com/bonsai-team/Porechop_ABI
-   :license: GPL3
+   :documentation: https://github.com/bonsai-team/Porechop_ABI/blob/master/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`porechop_abi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/porechop_abi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/porechop_abi/meta.yaml>`_
+   :links: biotools: :biotools:`porechop_abi`
 
    
 
@@ -27,19 +30,19 @@ porechop_abi
       
       
 
-      ``0.5.0post1-0``,  ``0.5.0-5``,  ``0.5.0-4``,  ``0.5.0-3``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``
+      ``0.5.1-0``,  ``0.5.0post1-0``,  ``0.5.0-5``,  ``0.5.0-4``,  ``0.5.0-3``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends networkx: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
@@ -94,7 +97,7 @@ porechop_abi
 
     <script>
         var package = "porechop_abi";
-        var versions = ["0.5.0post1","0.5.0","0.5.0","0.5.0","0.5.0"];
+        var versions = ["0.5.1","0.5.0post1","0.5.0","0.5.0","0.5.0"];
     </script>
 
 

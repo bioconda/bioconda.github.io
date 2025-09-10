@@ -49,6 +49,7 @@ hictk
    :depends libarchive: ``>=3.8.1,<3.9.0a0``
    :depends libdeflate: ``>=1``
    :depends libdeflate: ``>=1.24,<1.25.0a0``
+   :depends libgcc: ``>=13``
    :depends libgcc: ``>=15``
    :depends libopentelemetry-cpp: ``>=1``
    :depends libopentelemetry-cpp: ``>=1.21.0,<1.22.0a0``

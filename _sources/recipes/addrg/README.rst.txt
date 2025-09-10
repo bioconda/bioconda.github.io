@@ -10,10 +10,10 @@ addrg
    :replaces_section_title:
    :noindex:
 
-   Add read group to BAM files
+   Add read group to BAM files.
 
    :homepage: https://github.com/holtgrewe/addrg
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`addrg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/addrg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/addrg/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ addrg
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.1-13</code>,  <code>0.2.1-12</code>,  <code>0.2.1-11</code>,  <code>0.2.1-10</code>,  <code>0.2.1-9</code>,  <code>0.2.1-8</code>,  <code>0.2.1-7</code>,  <code>0.2.1-6</code>,  <code>0.2.1-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.1-14</code>,  <code>0.2.1-13</code>,  <code>0.2.1-12</code>,  <code>0.2.1-11</code>,  <code>0.2.1-10</code>,  <code>0.2.1-9</code>,  <code>0.2.1-8</code>,  <code>0.2.1-7</code>,  <code>0.2.1-6</code>,  </span></summary>
       
 
-      ``0.2.1-13``,  ``0.2.1-12``,  ``0.2.1-11``,  ``0.2.1-10``,  ``0.2.1-9``,  ``0.2.1-8``,  ``0.2.1-7``,  ``0.2.1-6``,  ``0.2.1-5``,  ``0.2.1-4``,  ``0.2.1-3``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2-0``,  ``0.1-0``
+      ``0.2.1-14``,  ``0.2.1-13``,  ``0.2.1-12``,  ``0.2.1-11``,  ``0.2.1-10``,  ``0.2.1-9``,  ``0.2.1-8``,  ``0.2.1-7``,  ``0.2.1-6``,  ``0.2.1-5``,  ``0.2.1-4``,  ``0.2.1-3``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2-0``,  ``0.1-0``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ addrg
       
 
    
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
@@ -49,7 +49,7 @@ addrg
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

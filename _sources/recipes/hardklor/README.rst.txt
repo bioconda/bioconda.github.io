@@ -10,10 +10,10 @@ hardklor
    :replaces_section_title:
    :noindex:
 
-   Analyze mass spectra
+   Analyze mass spectra.
 
    :homepage: https://github.com/mhoopmann/hardklor
-   :license: Apache License, Version 2.0
+   :license: APACHE / Apache-2.0
    :recipe: /`hardklor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hardklor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hardklor/meta.yaml>`_
    :links: doi: :doi:`10.1002/0471250953.bi1318s37`
 
@@ -28,7 +28,7 @@ hardklor
       
       
 
-      ``2.3.2-5``,  ``2.3.2-4``,  ``2.3.2-3``,  ``2.3.2-2``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.3.0-1``,  ``2.3.0-0``
+      ``2.3.2-6``,  ``2.3.2-5``,  ``2.3.2-4``,  ``2.3.2-3``,  ``2.3.2-2``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.3.0-1``,  ``2.3.0-0``
 
       
 
@@ -38,6 +38,10 @@ hardklor
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

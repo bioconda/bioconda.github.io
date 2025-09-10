@@ -12,10 +12,10 @@ fusioncatcher
 
    Finder of Somatic Fusion Genes in RNA\-seq data.
 
-   :homepage: https://github.com/ndaniel/fusioncatcher
-   :license: GPL / GPL-3.0
+   :homepage: https://github.com/bioinformaticsorphanage/fusioncatcher
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`fusioncatcher <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fusioncatcher>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fusioncatcher/meta.yaml>`_
-   :links: doi: :doi:`10.1101/011650`
+   :links: biotools: :biotools:`fusioncatcher`, doi: :doi:`10.1101/011650`
 
    
 
@@ -29,10 +29,10 @@ fusioncatcher
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.33-6</code>,  <code>1.33-5</code>,  <code>1.33-4</code>,  <code>1.33-3</code>,  <code>1.33-2</code>,  <code>1.33-1</code>,  <code>1.33-0</code>,  <code>1.30-1</code>,  <code>1.30-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.33-6</code>,  <code>1.33-5</code>,  <code>1.33-4</code>,  <code>1.33-3</code>,  <code>1.33-2</code>,  <code>1.33-1</code>,  <code>1.33-0</code>,  <code>1.33b-0</code>,  <code>1.30-1</code>,  </span></summary>
       
 
-      ``1.33-6``,  ``1.33-5``,  ``1.33-4``,  ``1.33-3``,  ``1.33-2``,  ``1.33-1``,  ``1.33-0``,  ``1.30-1``,  ``1.30-0``,  ``1.20-2``,  ``1.20-1``,  ``1.20-0``,  ``1.10-3``,  ``1.10-2``,  ``1.10-0``,  ``1.00-1``,  ``1.00-0``
+      ``1.33-6``,  ``1.33-5``,  ``1.33-4``,  ``1.33-3``,  ``1.33-2``,  ``1.33-1``,  ``1.33-0``,  ``1.33b-0``,  ``1.30-1``,  ``1.30-0``,  ``1.20-2``,  ``1.20-1``,  ``1.20-0``,  ``1.10-3``,  ``1.10-2``,  ``1.10-0``,  ``1.00-1``,  ``1.00-0``
 
       
       .. raw:: html

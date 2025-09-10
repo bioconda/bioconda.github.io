@@ -10,10 +10,10 @@ bamread
    :replaces_section_title:
    :noindex:
 
-   Read bam files quickly into dataframes in Python
+   Read bam files quickly into dataframes in Python.
 
-   :homepage: http://github.com/endrebak/bamread
-   :license: MIT
+   :homepage: https://github.com/endrebak/bamread
+   :license: MIT / MIT
    :recipe: /`bamread <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamread>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamread/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ bamread
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.20-0</code>,  <code>0.0.18-0</code>,  <code>0.0.16-5</code>,  <code>0.0.16-4</code>,  <code>0.0.16-3</code>,  <code>0.0.16-2</code>,  <code>0.0.16-1</code>,  <code>0.0.16-0</code>,  <code>0.0.13-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.20-1</code>,  <code>0.0.20-0</code>,  <code>0.0.18-0</code>,  <code>0.0.16-5</code>,  <code>0.0.16-4</code>,  <code>0.0.16-3</code>,  <code>0.0.16-2</code>,  <code>0.0.16-1</code>,  <code>0.0.16-0</code>,  </span></summary>
       
 
-      ``0.0.20-0``,  ``0.0.18-0``,  ``0.0.16-5``,  ``0.0.16-4``,  ``0.0.16-3``,  ``0.0.16-2``,  ``0.0.16-1``,  ``0.0.16-0``,  ``0.0.13-0``,  ``0.0.11-2``,  ``0.0.11-1``,  ``0.0.11-0``,  ``0.0.9-1``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-2``,  ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``
+      ``0.0.20-1``,  ``0.0.20-0``,  ``0.0.18-0``,  ``0.0.16-5``,  ``0.0.16-4``,  ``0.0.16-3``,  ``0.0.16-2``,  ``0.0.16-1``,  ``0.0.16-0``,  ``0.0.13-0``,  ``0.0.11-2``,  ``0.0.11-1``,  ``0.0.11-0``,  ``0.0.9-1``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-2``,  ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``
 
       
       .. raw:: html
@@ -55,7 +55,7 @@ bamread
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -103,7 +103,7 @@ bamread
 
     <script>
         var package = "bamread";
-        var versions = ["0.0.20","0.0.18","0.0.16","0.0.16","0.0.16"];
+        var versions = ["0.0.20","0.0.20","0.0.18","0.0.16","0.0.16"];
     </script>
 
 

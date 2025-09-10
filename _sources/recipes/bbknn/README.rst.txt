@@ -10,11 +10,12 @@ bbknn
    :replaces_section_title:
    :noindex:
 
-   Batch balanced KNN
+   Batch balanced KNN.
 
    :homepage: https://github.com/Teichlab/bbknn
    :license: MIT / MIT
    :recipe: /`bbknn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bbknn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bbknn/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btz625`
 
    
 
@@ -28,10 +29,10 @@ bbknn
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.0-4</code>,  <code>1.6.0-3</code>,  <code>1.6.0-2</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.1-2</code>,  <code>1.5.1-1</code>,  <code>1.5.1-0</code>,  <code>1.4.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.0-5</code>,  <code>1.6.0-4</code>,  <code>1.6.0-3</code>,  <code>1.6.0-2</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.1-2</code>,  <code>1.5.1-1</code>,  <code>1.5.1-0</code>,  </span></summary>
       
 
-      ``1.6.0-4``,  ``1.6.0-3``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.1-2``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.12-1``,  ``1.3.12-0``,  ``1.3.9-1``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.3-0``
+      ``1.6.0-5``,  ``1.6.0-4``,  ``1.6.0-3``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.1-2``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.12-1``,  ``1.3.12-0``,  ``1.3.9-1``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.3-0``
 
       
       .. raw:: html
@@ -42,7 +43,7 @@ bbknn
    
    :depends libgcc: ``>=13``
    :depends numpy: ``>=1.13``
-   :depends numpy: ``>=1.19,<3``
+   :depends numpy: ``>=1.21,<3``
    :depends pandas: 
    :depends pynndescent: 
    :depends python: ``>=3.10,<3.11.0a0``
@@ -51,13 +52,14 @@ bbknn
    :depends scikit-learn: ``>=1.0.2``
    :depends scipy: ``>=1.6.0``
    :depends umap-learn: 
+   :depends zstd: ``>=1.5.7,<1.6.0a0``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

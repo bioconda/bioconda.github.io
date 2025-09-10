@@ -10,15 +10,14 @@ velvet
    :replaces_section_title:
    :noindex:
 
-   Sequence Assembler for short reads
+   Sequence Assembler for short reads.
 
-   :homepage: https://europepmc.org/article/pmc/2336801
-   :documentation: https://europepmc.org/article/pmc/2336801#free-full-text
+   :homepage: https://github.com/dzerbino/velvet
+   :documentation: https://github.com/dzerbino/velvet/blob/master/Manual.pdf
    
-   :developer docs: https://github.com/dzerbino/velvet
    :license: GPL / GPL-2.0-only
    :recipe: /`velvet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/velvet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/velvet/meta.yaml>`_
-   :links: biotools: :biotools:`velvet`
+   :links: biotools: :biotools:`velvet`, usegalaxy-eu: :usegalaxy-eu:`velvetg`, usegalaxy-eu: :usegalaxy-eu:`velveth`, doi: :doi:`10.1101/gr.074492.107`
 
    
 
@@ -30,22 +29,31 @@ velvet
    :versions:
       
       
+      .. raw:: html
 
-      ``1.2.10-8``,  ``1.2.10-7``,  ``1.2.10-6``,  ``1.2.10-5``,  ``1.2.10-4``,  ``1.2.10-3``,  ``1.2.10-2``,  ``1.2.10-1``,  ``1.2.10-0``
+         <details><summary><span class="truncated-version-list"><code>1.2.10-9</code>,  <code>1.2.10-8</code>,  <code>1.2.10-7</code>,  <code>1.2.10-6</code>,  <code>1.2.10-5</code>,  <code>1.2.10-4</code>,  <code>1.2.10-3</code>,  <code>1.2.10-2</code>,  <code>1.2.10-1</code>,  </span></summary>
+      
 
+      ``1.2.10-9``,  ``1.2.10-8``,  ``1.2.10-7``,  ``1.2.10-6``,  ``1.2.10-5``,  ``1.2.10-4``,  ``1.2.10-3``,  ``1.2.10-2``,  ``1.2.10-1``,  ``1.2.10-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

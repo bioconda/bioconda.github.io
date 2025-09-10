@@ -28,10 +28,10 @@ fermi2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>r193-9</code>,  <code>r193-8</code>,  <code>r193-7</code>,  <code>r193-6</code>,  <code>r193-5</code>,  <code>r193-4</code>,  <code>r193-3</code>,  <code>r193-2</code>,  <code>r193-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>r204-0</code>,  <code>r193-10</code>,  <code>r193-9</code>,  <code>r193-8</code>,  <code>r193-7</code>,  <code>r193-6</code>,  <code>r193-5</code>,  <code>r193-4</code>,  <code>r193-3</code>,  </span></summary>
       
 
-      ``r193-9``,  ``r193-8``,  ``r193-7``,  ``r193-6``,  ``r193-5``,  ``r193-4``,  ``r193-3``,  ``r193-2``,  ``r193-1``,  ``r193-0``,  ``r188-0``,  ``r170-4``,  ``r170-3``,  ``r170-2``,  ``r170-1``,  ``r170-0``
+      ``r204-0``,  ``r193-10``,  ``r193-9``,  ``r193-8``,  ``r193-7``,  ``r193-6``,  ``r193-5``,  ``r193-4``,  ``r193-3``,  ``r193-2``,  ``r193-1``,  ``r193-0``,  ``r188-0``,  ``r170-4``,  ``r170-3``,  ``r170-2``,  ``r170-1``,  ``r170-0``
 
       
       .. raw:: html
@@ -52,7 +52,7 @@ fermi2
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -100,7 +100,7 @@ fermi2
 
     <script>
         var package = "fermi2";
-        var versions = ["r193","r193","r193","r193","r193"];
+        var versions = ["r204","r193","r193","r193","r193"];
     </script>
 
 

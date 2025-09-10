@@ -13,7 +13,7 @@ fermikit
    FermiKit is a de novo assembly based variant calling pipeline for deep Illumina resequencing data.
 
    :homepage: https://github.com/lh3/fermikit
-   :license: Unknown
+   :license: MIT
    :recipe: /`fermikit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fermikit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fermikit/meta.yaml>`_
 
    
@@ -27,23 +27,28 @@ fermikit
       
       
 
-      ``0.14.dev1-1``,  ``0.14.dev1-0``
+      ``0.14.dev1-2``,  ``0.14.dev1-1``,  ``0.14.dev1-0``
 
       
 
    
-   :depends bfc: ``==r181``
-   :depends bwa: ``==0.7.15``
-   :depends fermi2: ``==r193``
-   :depends htsbox: ``==r327``
-   :depends perl: ``5.22.0*``
-   :depends ropebwt2: ``==r187``
-   :depends seqtk: ``==r82``
-   :depends trimadap: ``==r10``
-   :depends zlib: ``1.2.11*``
+   :depends bfc: ``r181``
+   :depends bwa: 
+   :depends fermi2: 
+   :depends htsbox: 
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends ropebwt2: ``r187``
+   :depends seqtk: 
+   :depends trimadap: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -91,7 +96,7 @@ fermikit
 
     <script>
         var package = "fermikit";
-        var versions = ["0.14.dev1","0.14.dev1"];
+        var versions = ["0.14.dev1","0.14.dev1","0.14.dev1"];
     </script>
 
 

@@ -10,10 +10,10 @@ callerpp
    :replaces_section_title:
    :noindex:
 
-   A simple consensus caller based on partial order alignment with spoa
+   A simple consensus caller based on partial order alignment with spoa.
 
    :homepage: https://github.com/nh13/callerpp
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`callerpp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/callerpp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/callerpp/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ callerpp
       
       
 
-      ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.4-1``,  ``0.1.4-0``
+      ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.4-1``,  ``0.1.4-0``
 
       
 
@@ -42,7 +42,7 @@ callerpp
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -90,7 +90,7 @@ callerpp
 
     <script>
         var package = "callerpp";
-        var versions = ["0.1.6","0.1.6","0.1.5","0.1.5","0.1.4"];
+        var versions = ["0.1.6","0.1.6","0.1.6","0.1.5","0.1.5"];
     </script>
 
 

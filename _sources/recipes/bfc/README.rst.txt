@@ -13,7 +13,7 @@ bfc
    BFC is a standalone high\-performance tool for correcting sequencing errors from Illumina sequencing data.
 
    :homepage: https://github.com/lh3/bfc
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`bfc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bfc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bfc/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ bfc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>r181-11</code>,  <code>r181-10</code>,  <code>r181-9</code>,  <code>r181-8</code>,  <code>r181-7</code>,  <code>r181-6</code>,  <code>r181-5</code>,  <code>r181-4</code>,  <code>r181-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>r181-12</code>,  <code>r181-11</code>,  <code>r181-10</code>,  <code>r181-9</code>,  <code>r181-8</code>,  <code>r181-7</code>,  <code>r181-6</code>,  <code>r181-5</code>,  <code>r181-4</code>,  </span></summary>
       
 
-      ``r181-11``,  ``r181-10``,  ``r181-9``,  ``r181-8``,  ``r181-7``,  ``r181-6``,  ``r181-5``,  ``r181-4``,  ``r181-3``,  ``r181-2``,  ``r181-1``,  ``r181-0``
+      ``r181-12``,  ``r181-11``,  ``r181-10``,  ``r181-9``,  ``r181-8``,  ``r181-7``,  ``r181-6``,  ``r181-5``,  ``r181-4``,  ``r181-3``,  ``r181-2``,  ``r181-1``,  ``r181-0``
 
       
       .. raw:: html
@@ -42,14 +42,13 @@ bfc
    
    :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
