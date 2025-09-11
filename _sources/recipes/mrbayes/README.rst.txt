@@ -48,7 +48,6 @@ mrbayes
 
    
    :depends beagle-lib: ``<4``
-   :depends beagle-lib: ``>=3.1.2,<4.0a0``
    :depends libgcc: ``>=13``
    :depends ncurses: ``>=6.5,<7.0a0``
    :depends openmpi: ``>=4.1.6,<5.0a0``
