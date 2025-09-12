@@ -10,7 +10,7 @@ agtools
    :replaces_section_title:
    :noindex:
 
-   agtools\: Tools for manipulating assembly graphs
+   agtools\: A Software Framework to Manipulate Assembly Graphs
 
    :homepage: https://github.com/Vini2/agtools
    :documentation: https://agtools.readthedocs.io/
@@ -18,7 +18,7 @@ agtools
    :license: MIT / MIT
    :recipe: /`agtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/agtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/agtools/meta.yaml>`_
 
-   agtools is a toolkit for manipulating assembly graphs for downstream metagenomic applications\, with a focus on the Graphical Fragment Assembly \(GFA\) format.
+   agtools is a Python framework for manipulating assembly graphs for downstream metagenomic applications\, with a focus on the Graphical Fragment Assembly \(GFA\) format.
 
 
 
@@ -30,7 +30,7 @@ agtools
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -93,7 +93,7 @@ agtools
 
     <script>
         var package = "agtools";
-        var versions = ["1.0.1","1.0.0","0.1.2","0.1.1","0.1.0"];
+        var versions = ["1.0.1","1.0.1","1.0.0","0.1.2","0.1.1"];
     </script>
 
 
