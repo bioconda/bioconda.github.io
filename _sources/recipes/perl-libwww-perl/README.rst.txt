@@ -29,10 +29,10 @@ perl-libwww-perl
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>6.79-0</code>,  <code>6.68-0</code>,  <code>6.67-1</code>,  <code>6.67-0</code>,  <code>6.66-0</code>,  <code>6.64-0</code>,  <code>6.62-0</code>,  <code>6.61-0</code>,  <code>6.39-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>6.80-0</code>,  <code>6.79-0</code>,  <code>6.68-0</code>,  <code>6.67-1</code>,  <code>6.67-0</code>,  <code>6.66-0</code>,  <code>6.64-0</code>,  <code>6.62-0</code>,  <code>6.61-0</code>,  </span></summary>
       
 
-      ``6.79-0``,  ``6.68-0``,  ``6.67-1``,  ``6.67-0``,  ``6.66-0``,  ``6.64-0``,  ``6.62-0``,  ``6.61-0``,  ``6.39-1``,  ``6.39-0``,  ``6.36-1``,  ``6.36-0``,  ``6.15-1``,  ``6.15-0``
+      ``6.80-0``,  ``6.79-0``,  ``6.68-0``,  ``6.67-1``,  ``6.67-0``,  ``6.66-0``,  ``6.64-0``,  ``6.62-0``,  ``6.61-0``,  ``6.39-1``,  ``6.39-0``,  ``6.36-1``,  ``6.36-0``,  ``6.15-1``,  ``6.15-0``
 
       
       .. raw:: html
@@ -113,7 +113,7 @@ perl-libwww-perl
 
     <script>
         var package = "perl-libwww-perl";
-        var versions = ["6.79","6.68","6.67","6.67","6.66"];
+        var versions = ["6.80","6.79","6.68","6.67","6.67"];
     </script>
 
 

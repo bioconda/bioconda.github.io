@@ -30,13 +30,14 @@ tmb
       
       
 
-      ``1.5.0-0``,  ``1.3.0-0``
+      ``1.5.0-1``,  ``1.5.0-0``,  ``1.3.0-0``
 
       
 
    
    :depends cyvcf2: 
    :depends mosdepth: 
+   :depends pandas: 
    :depends pybedtools: 
    :depends python: ``>=3``
    :depends pyyaml: 
@@ -90,7 +91,7 @@ tmb
 
     <script>
         var package = "tmb";
-        var versions = ["1.5.0","1.3.0"];
+        var versions = ["1.5.0","1.5.0","1.3.0"];
     </script>
 
 

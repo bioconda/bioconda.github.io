@@ -27,16 +27,16 @@ r-pairadise
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends r-base: ``>=3.6,<3.7.0a0``
-   :depends r-doparallel: ``1.0.14``
-   :depends r-foreach: ``1.4.4``
-   :depends r-iterators: ``1.0.10``
-   :depends r-nloptr: ``1.2.1``
+   :depends r-base: ``>=4.5,<4.6.0a0``
+   :depends r-doparallel: ``>=1.0.14``
+   :depends r-foreach: ``>=1.4.4``
+   :depends r-iterators: ``>=1.0.10``
+   :depends r-nloptr: ``>=1.2.1``
    :requirements:
 
    :additional platforms:
@@ -87,7 +87,7 @@ r-pairadise
 
     <script>
         var package = "r-pairadise";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["1.0.0","1.0.0","1.0.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ perl-excel-writer-xlsx
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.14-0</code>,  <code>1.13-0</code>,  <code>1.11-0</code>,  <code>1.10-0</code>,  <code>1.09-0</code>,  <code>1.00-1</code>,  <code>1.00-0</code>,  <code>0.98-0</code>,  <code>0.95-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.15-0</code>,  <code>1.14-0</code>,  <code>1.13-0</code>,  <code>1.11-0</code>,  <code>1.10-0</code>,  <code>1.09-0</code>,  <code>1.00-1</code>,  <code>1.00-0</code>,  <code>0.98-0</code>,  </span></summary>
       
 
-      ``1.14-0``,  ``1.13-0``,  ``1.11-0``,  ``1.10-0``,  ``1.09-0``,  ``1.00-1``,  ``1.00-0``,  ``0.98-0``,  ``0.95-1``,  ``0.95-0``
+      ``1.15-0``,  ``1.14-0``,  ``1.13-0``,  ``1.11-0``,  ``1.10-0``,  ``1.09-0``,  ``1.00-1``,  ``1.00-0``,  ``0.98-0``,  ``0.95-1``,  ``0.95-0``
 
       
       .. raw:: html
@@ -93,7 +93,7 @@ perl-excel-writer-xlsx
 
     <script>
         var package = "perl-excel-writer-xlsx";
-        var versions = ["1.14","1.13","1.11","1.10","1.09"];
+        var versions = ["1.15","1.14","1.13","1.11","1.10"];
     </script>
 
 

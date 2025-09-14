@@ -10,10 +10,10 @@ art_modern
    :replaces_section_title:
    :noindex:
 
-   Simulator of Diverse Next\-Generation Sequencing Reads
+   Modernized ART simulator of diverse Next\-Generation Sequencing reads
 
    :homepage: https://github.com/YU-Zhejian/art_modern
-   :documentation: https://github.com/YU-Zhejian/art_modern/releases/download/1.1.4/art_modern.pdf
+   :documentation: https://github.com/YU-Zhejian/art_modern/releases/download/1.1.6/art_modern.pdf
    
    :license: GPL3 / GPL-3.0-only
    :recipe: /`art_modern <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/art_modern>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/art_modern/meta.yaml>`_
@@ -29,7 +29,7 @@ art_modern
       
       
 
-      ``1.1.4-0``
+      ``1.1.6-0``,  ``1.1.4-0``
 
       
 
@@ -39,8 +39,6 @@ art_modern
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends python: ``>=3.10,<3.11.0a0 *_cpython``
-   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    :additional platforms:
@@ -95,7 +93,7 @@ art_modern
 
     <script>
         var package = "art_modern";
-        var versions = ["1.1.4"];
+        var versions = ["1.1.6","1.1.4"];
     </script>
 
 

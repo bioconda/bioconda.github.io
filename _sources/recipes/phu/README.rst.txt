@@ -33,13 +33,14 @@ phu
       
       
 
-      ``0.3.0-0``,  ``0.2.1-0``,  ``0.1.1-0``
+      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.1.1-0``
 
       
 
    
    :depends mypy: 
    :depends pandas: 
+   :depends pyrodigal: 
    :depends pytest: 
    :depends python: ``>=3.10``
    :depends ruff: 
@@ -96,7 +97,7 @@ phu
 
     <script>
         var package = "phu";
-        var versions = ["0.3.0","0.2.1","0.1.1"];
+        var versions = ["0.4.0","0.3.0","0.2.1","0.1.1"];
     </script>
 
 

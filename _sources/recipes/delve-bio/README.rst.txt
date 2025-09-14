@@ -27,7 +27,7 @@ delve-bio
       
       
 
-      ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -86,7 +86,7 @@ delve-bio
 
     <script>
         var package = "delve-bio";
-        var versions = ["0.1.0"];
+        var versions = ["0.2.0","0.1.0"];
     </script>
 
 

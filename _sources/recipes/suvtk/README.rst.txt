@@ -15,7 +15,7 @@ suvtk
    :homepage: https://github.com/LanderDC/suvtk
    :documentation: https://landerdc.github.io/suvtk/
    
-   :license: Apache-2.0
+   :license: GPL-3.0-or-later
    :recipe: /`suvtk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/suvtk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/suvtk/meta.yaml>`_
 
    
@@ -29,7 +29,7 @@ suvtk
       
       
 
-      ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
+      ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
 
       
 
@@ -95,7 +95,7 @@ suvtk
 
     <script>
         var package = "suvtk";
-        var versions = ["0.1.5","0.1.4","0.1.3"];
+        var versions = ["0.1.6","0.1.5","0.1.4","0.1.3"];
     </script>
 
 
