@@ -13,7 +13,7 @@ kf2vec
    K\-mer frequency to vector tool.
 
    :homepage: https://github.com/noraracht/kf2vec
-   :license: MIT
+   :license: APACHE / Apache-2.0
    :recipe: /`kf2vec <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kf2vec>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kf2vec/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ kf2vec
       
       
 
-      ``1.0.62-0``
+      ``1.0.62-0``,  ``0.1.3-0``
 
       
 
@@ -94,7 +94,7 @@ kf2vec
 
     <script>
         var package = "kf2vec";
-        var versions = ["1.0.62"];
+        var versions = ["1.0.62","0.1.3"];
     </script>
 
 

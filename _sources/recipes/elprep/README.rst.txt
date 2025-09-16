@@ -29,10 +29,10 @@ elprep
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.1.3-1</code>,  <code>5.1.3-0</code>,  <code>5.1.2-0</code>,  <code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.2-0</code>,  <code>5.0.1-1</code>,  <code>5.0.1-0</code>,  <code>4.1.6-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.1.3-2</code>,  <code>5.1.3-1</code>,  <code>5.1.3-0</code>,  <code>5.1.2-0</code>,  <code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.2-0</code>,  <code>5.0.1-1</code>,  <code>5.0.1-0</code>,  </span></summary>
       
 
-      ``5.1.3-1``,  ``5.1.3-0``,  ``5.1.2-0``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.2-0``,  ``5.0.1-1``,  ``5.0.1-0``,  ``4.1.6-1``,  ``4.1.6-0``,  ``4.1.5-0``,  ``4.1.4-0``,  ``4.1.3-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.04-1``,  ``3.04-0``
+      ``5.1.3-2``,  ``5.1.3-1``,  ``5.1.3-0``,  ``5.1.2-0``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.2-0``,  ``5.0.1-1``,  ``5.0.1-0``,  ``4.1.6-1``,  ``4.1.6-0``,  ``4.1.5-0``,  ``4.1.4-0``,  ``4.1.3-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.04-1``,  ``3.04-0``
 
       
       .. raw:: html
@@ -47,7 +47,7 @@ elprep
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -95,7 +95,7 @@ elprep
 
     <script>
         var package = "elprep";
-        var versions = ["5.1.3","5.1.3","5.1.2","5.1.1","5.1.0"];
+        var versions = ["5.1.3","5.1.3","5.1.3","5.1.2","5.1.1"];
     </script>
 
 

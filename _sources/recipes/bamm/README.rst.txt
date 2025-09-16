@@ -10,10 +10,12 @@ bamm
    :replaces_section_title:
    :noindex:
 
-   Metagenomics\-focused BAM file manipulation
+   Metagenomics\-focused BAM file manipulation.
 
    :homepage: https://github.com/Ecogenomics/BamM
-   :license: LGPL-3.0
+   :documentation: https://ecogenomics.github.io/BamM
+   
+   :license: LGPL / LGPL-3.0-or-later
    :recipe: /`bamm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamm/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ bamm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.3-14</code>,  <code>1.7.3-13</code>,  <code>1.7.3-12</code>,  <code>1.7.3-11</code>,  <code>1.7.3-10</code>,  <code>1.7.3-9</code>,  <code>1.7.3-8</code>,  <code>1.7.3-7</code>,  <code>1.7.3-6</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7.3-15</code>,  <code>1.7.3-14</code>,  <code>1.7.3-13</code>,  <code>1.7.3-12</code>,  <code>1.7.3-11</code>,  <code>1.7.3-10</code>,  <code>1.7.3-9</code>,  <code>1.7.3-8</code>,  <code>1.7.3-7</code>,  </span></summary>
       
 
-      ``1.7.3-14``,  ``1.7.3-13``,  ``1.7.3-12``,  ``1.7.3-11``,  ``1.7.3-10``,  ``1.7.3-9``,  ``1.7.3-8``,  ``1.7.3-7``,  ``1.7.3-6``,  ``1.7.3-5``,  ``1.7.3-4``,  ``1.7.3-3``,  ``1.7.3-2``,  ``1.7.3-1``,  ``1.7.3-0``
+      ``1.7.3-15``,  ``1.7.3-14``,  ``1.7.3-13``,  ``1.7.3-12``,  ``1.7.3-11``,  ``1.7.3-10``,  ``1.7.3-9``,  ``1.7.3-8``,  ``1.7.3-7``,  ``1.7.3-6``,  ``1.7.3-5``,  ``1.7.3-4``,  ``1.7.3-3``,  ``1.7.3-2``,  ``1.7.3-1``,  ``1.7.3-0``
 
       
       .. raw:: html
@@ -49,14 +51,13 @@ bamm
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends samtools: ``>=1.3.1``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

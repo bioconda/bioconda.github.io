@@ -28,10 +28,10 @@ mpralib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.0-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  </span></summary>
       
 
-      ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``
+      ``0.9.0-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``
 
       
       .. raw:: html
@@ -102,7 +102,7 @@ mpralib
 
     <script>
         var package = "mpralib";
-        var versions = ["0.8.2","0.8.1","0.8.0","0.7.4","0.7.3"];
+        var versions = ["0.9.0","0.8.2","0.8.1","0.8.0","0.7.4"];
     </script>
 
 

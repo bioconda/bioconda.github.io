@@ -15,7 +15,7 @@ sonicparanoid
    :homepage: https://gitlab.com/salvo981/sonicparanoid2
    :documentation: https://gitlab.com/salvo981/sonicparanoid2/-/wikis/home
    
-   :license: GPL / GPL-3.0-only
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`sonicparanoid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sonicparanoid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sonicparanoid/meta.yaml>`_
    :links: doi: :doi:`10.1101/2023.05.14.540736`, doi: :doi:`10.1093/bioinformatics/bty631`, biotools: :biotools:`SonicParanoid`
 
@@ -31,10 +31,10 @@ sonicparanoid
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.8-1</code>,  <code>2.0.8-0</code>,  <code>2.0.7-0</code>,  <code>1.3.8-4</code>,  <code>1.3.8-3</code>,  <code>1.3.8-2</code>,  <code>1.3.8-1</code>,  <code>1.3.8-0</code>,  <code>1.3.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.9-0</code>,  <code>2.0.8-1</code>,  <code>2.0.8-0</code>,  <code>2.0.7-0</code>,  <code>1.3.8-4</code>,  <code>1.3.8-3</code>,  <code>1.3.8-2</code>,  <code>1.3.8-1</code>,  <code>1.3.8-0</code>,  </span></summary>
       
 
-      ``2.0.8-1``,  ``2.0.8-0``,  ``2.0.7-0``,  ``1.3.8-4``,  ``1.3.8-3``,  ``1.3.8-2``,  ``1.3.8-1``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-1``,  ``1.3.6-0``,  ``1.0.14-4``,  ``1.0.14-3``,  ``1.0.14-2``,  ``1.0.14-1``,  ``1.0.14-0``,  ``1.0.13-0``
+      ``2.0.9-0``,  ``2.0.8-1``,  ``2.0.8-0``,  ``2.0.7-0``,  ``1.3.8-4``,  ``1.3.8-3``,  ``1.3.8-2``,  ``1.3.8-1``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-1``,  ``1.3.6-0``,  ``1.0.14-4``,  ``1.0.14-3``,  ``1.0.14-2``,  ``1.0.14-1``,  ``1.0.14-0``,  ``1.0.13-0``
 
       
       .. raw:: html
@@ -68,7 +68,7 @@ sonicparanoid
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -116,7 +116,7 @@ sonicparanoid
 
     <script>
         var package = "sonicparanoid";
-        var versions = ["2.0.8","2.0.8","2.0.7","1.3.8","1.3.8"];
+        var versions = ["2.0.9","2.0.8","2.0.8","2.0.7","1.3.8"];
     </script>
 
 

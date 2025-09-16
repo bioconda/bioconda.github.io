@@ -15,7 +15,6 @@ phispy
    :homepage: https://github.com/linsalrob/PhiSpy
    :documentation: https://github.com/linsalrob/PhiSpy/blob/master/README.md
    
-   :developer docs: https://github.com/linsalrob/PhiSpy/
    :license: MIT / MIT
    :recipe: /`phispy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phispy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phispy/meta.yaml>`_
    :links: doi: :doi:`10.5281/zenodo.3475717`
@@ -32,10 +31,10 @@ phispy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.2.21-7</code>,  <code>4.2.21-6</code>,  <code>4.2.21-5</code>,  <code>4.2.21-4</code>,  <code>4.2.21-3</code>,  <code>4.2.21-2</code>,  <code>4.2.21-1</code>,  <code>4.2.21-0</code>,  <code>4.2.19-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.2.21-8</code>,  <code>4.2.21-7</code>,  <code>4.2.21-6</code>,  <code>4.2.21-5</code>,  <code>4.2.21-4</code>,  <code>4.2.21-3</code>,  <code>4.2.21-2</code>,  <code>4.2.21-1</code>,  <code>4.2.21-0</code>,  </span></summary>
       
 
-      ``4.2.21-7``,  ``4.2.21-6``,  ``4.2.21-5``,  ``4.2.21-4``,  ``4.2.21-3``,  ``4.2.21-2``,  ``4.2.21-1``,  ``4.2.21-0``,  ``4.2.19-0``,  ``4.2.17-0``,  ``4.2.12-0``,  ``4.2.6-1``,  ``4.2.6-0``,  ``4.1.22-0``,  ``4.1.20-0``,  ``4.1.17-0``,  ``4.1.16-0``,  ``4.1.14-0``,  ``4.1.7-0``,  ``4.1.0-0``,  ``4.0.3-0``,  ``4.0.0-0``,  ``3.7.8-0``
+      ``4.2.21-8``,  ``4.2.21-7``,  ``4.2.21-6``,  ``4.2.21-5``,  ``4.2.21-4``,  ``4.2.21-3``,  ``4.2.21-2``,  ``4.2.21-1``,  ``4.2.21-0``,  ``4.2.19-0``,  ``4.2.17-0``,  ``4.2.12-0``,  ``4.2.6-1``,  ``4.2.6-0``,  ``4.1.22-0``,  ``4.1.20-0``,  ``4.1.17-0``,  ``4.1.16-0``,  ``4.1.14-0``,  ``4.1.7-0``,  ``4.1.0-0``,  ``4.0.3-0``,  ``4.0.0-0``,  ``3.7.8-0``
 
       
       .. raw:: html
@@ -59,7 +58,7 @@ phispy
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

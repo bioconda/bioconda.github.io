@@ -10,10 +10,10 @@ perl-math-base-convert
    :replaces_section_title:
    :noindex:
 
-   very fast base to base conversion
+   Very fast base to base conversion.
 
-   :homepage: http://metacpan.org/pod/Math-Base-Convert
-   :license: unknown
+   :homepage: https://metacpan.org/pod/Math::Base::Convert
+   :license: Unknown
    :recipe: /`perl-math-base-convert <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-math-base-convert>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-math-base-convert/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-math-base-convert
       
       
 
-      ``0.11-2``,  ``0.11-1``,  ``0.11-0``
+      ``0.13-0``,  ``0.11-2``,  ``0.11-1``,  ``0.11-0``
 
       
 
@@ -83,7 +83,7 @@ perl-math-base-convert
 
     <script>
         var package = "perl-math-base-convert";
-        var versions = ["0.11","0.11","0.11"];
+        var versions = ["0.13","0.11","0.11","0.11"];
     </script>
 
 

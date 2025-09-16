@@ -10,7 +10,7 @@ bamrescue
    :replaces_section_title:
    :noindex:
 
-   Utility to check BAM files for corruption and repair by skipping corrupted BGZF blocks
+   Utility to check BAM files for corruption and repair by skipping corrupted BGZF blocks.
 
    :homepage: https://github.com/Arkanosis/bamrescue
    :license: ISC
@@ -30,7 +30,7 @@ bamrescue
       
       
 
-      ``0.3.0-0``
+      ``0.3.0-1``,  ``0.3.0-0``
 
       
 
@@ -38,6 +38,10 @@ bamrescue
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -85,7 +89,7 @@ bamrescue
 
     <script>
         var package = "bamrescue";
-        var versions = ["0.3.0"];
+        var versions = ["0.3.0","0.3.0"];
     </script>
 
 

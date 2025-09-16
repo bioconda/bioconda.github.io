@@ -13,7 +13,9 @@ snp-sites
    Finds SNP sites from a multi\-FASTA alignment file.
 
    :homepage: https://github.com/sanger-pathogens/snp-sites
-   :license: GPL / GPL-3.0
+   :documentation: https://sanger-pathogens.github.io/snp-sites
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`snp-sites <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snp-sites>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snp-sites/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ snp-sites
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5.1-6</code>,  <code>2.5.1-5</code>,  <code>2.5.1-4</code>,  <code>2.5.1-3</code>,  <code>2.5.1-2</code>,  <code>2.5.1-1</code>,  <code>2.5.1-0</code>,  <code>2.4.1-1</code>,  <code>2.4.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.5.1-7</code>,  <code>2.5.1-6</code>,  <code>2.5.1-5</code>,  <code>2.5.1-4</code>,  <code>2.5.1-3</code>,  <code>2.5.1-2</code>,  <code>2.5.1-1</code>,  <code>2.5.1-0</code>,  <code>2.4.1-1</code>,  </span></summary>
       
 
-      ``2.5.1-6``,  ``2.5.1-5``,  ``2.5.1-4``,  ``2.5.1-3``,  ``2.5.1-2``,  ``2.5.1-1``,  ``2.5.1-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-3``,  ``2.4.0-0``,  ``2.3.3-1``,  ``2.3.3-0``,  ``2.3.2-0``
+      ``2.5.1-7``,  ``2.5.1-6``,  ``2.5.1-5``,  ``2.5.1-4``,  ``2.5.1-3``,  ``2.5.1-2``,  ``2.5.1-1``,  ``2.5.1-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-3``,  ``2.4.0-0``,  ``2.3.3-1``,  ``2.3.3-0``,  ``2.3.2-0``
 
       
       .. raw:: html
@@ -42,14 +44,13 @@ snp-sites
    
    :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

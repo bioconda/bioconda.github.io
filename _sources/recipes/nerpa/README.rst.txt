@@ -10,9 +10,9 @@ nerpa
    :replaces_section_title:
    :noindex:
 
-   A tool for discovering biosynthetic gene clusters of nonribosomal peptides
+   A tool for discovering biosynthetic gene clusters of nonribosomal peptides.
 
-   :homepage: https://cab.spbu.ru/software/nerpa/
+   :homepage: https://cab.spbu.ru/software/nerpa
    :documentation: https://github.com/ablab/nerpa
    
    :developer docs: https://github.com/ablab/nerpa
@@ -31,12 +31,13 @@ nerpa
       
       
 
-      ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.0-7``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends libcxx: ``>=15.0.7``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends networkx: 
    :depends openjdk: 
    :depends python: ``>=3.10,<3.11.0a0``
@@ -45,6 +46,10 @@ nerpa
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

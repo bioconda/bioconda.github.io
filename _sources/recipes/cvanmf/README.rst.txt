@@ -27,7 +27,7 @@ cvanmf
       
       
 
-      ``0.5.1-0``
+      ``1.0.0-0``,  ``0.5.1-0``
 
       
 
@@ -95,7 +95,7 @@ cvanmf
 
     <script>
         var package = "cvanmf";
-        var versions = ["0.5.1"];
+        var versions = ["1.0.0","0.5.1"];
     </script>
 
 

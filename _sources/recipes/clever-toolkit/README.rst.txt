@@ -10,7 +10,7 @@ clever-toolkit
    :replaces_section_title:
    :noindex:
 
-   The CLEVER Toolkit
+   The CLEVER Toolkit.
 
    :homepage: https://bitbucket.org/tobiasmarschall/clever-toolkit
    :documentation: https://bitbucket.org/tobiasmarschall/clever-toolkit/wiki/Home
@@ -30,10 +30,10 @@ clever-toolkit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4-13</code>,  <code>2.4-12</code>,  <code>2.4-11</code>,  <code>2.4-10</code>,  <code>2.4-9</code>,  <code>2.4-8</code>,  <code>2.4-7</code>,  <code>2.4-6</code>,  <code>2.4-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4-14</code>,  <code>2.4-13</code>,  <code>2.4-12</code>,  <code>2.4-11</code>,  <code>2.4-10</code>,  <code>2.4-9</code>,  <code>2.4-8</code>,  <code>2.4-7</code>,  <code>2.4-6</code>,  </span></summary>
       
 
-      ``2.4-13``,  ``2.4-12``,  ``2.4-11``,  ``2.4-10``,  ``2.4-9``,  ``2.4-8``,  ``2.4-7``,  ``2.4-6``,  ``2.4-5``,  ``2.4-0``,  ``2.3-0``,  ``2.2.1-0``,  ``2.1-3``,  ``2.0rc4-3``,  ``2.0rc4-2``,  ``2.0rc3-1``,  ``2.0rc3-0``
+      ``2.4-14``,  ``2.4-13``,  ``2.4-12``,  ``2.4-11``,  ``2.4-10``,  ``2.4-9``,  ``2.4-8``,  ``2.4-7``,  ``2.4-6``,  ``2.4-5``,  ``2.4-0``,  ``2.3-0``,  ``2.2.1-0``,  ``2.1-3``,  ``2.0rc4-3``,  ``2.0rc4-2``,  ``2.0rc3-1``,  ``2.0rc3-0``
 
       
       .. raw:: html
@@ -44,9 +44,9 @@ clever-toolkit
    
    :depends bedtools: 
    :depends bwa: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends matplotlib-base: 
    :depends python: ``3.*``
    :depends samtools: 
@@ -56,7 +56,7 @@ clever-toolkit
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

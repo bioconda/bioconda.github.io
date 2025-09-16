@@ -28,7 +28,7 @@ genepop
       
       
 
-      ``4.8.2-1``,  ``4.8.2-0``,  ``4.6-0``,  ``4.5.1-0``
+      ``4.8.4-0``,  ``4.8.2-2``,  ``4.8.2-1``,  ``4.8.2-0``,  ``4.6-0``,  ``4.5.1-0``
 
       
 
@@ -41,7 +41,7 @@ genepop
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -89,7 +89,7 @@ genepop
 
     <script>
         var package = "genepop";
-        var versions = ["4.8.2","4.8.2","4.6","4.5.1"];
+        var versions = ["4.8.4","4.8.2","4.8.2","4.8.2","4.6"];
     </script>
 
 

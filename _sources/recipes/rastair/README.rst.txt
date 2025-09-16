@@ -27,7 +27,7 @@ rastair
       
       
 
-      ``0.8.2-1``,  ``0.8.2-0``
+      ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``
 
       
 
@@ -90,7 +90,7 @@ rastair
 
     <script>
         var package = "rastair";
-        var versions = ["0.8.2","0.8.2"];
+        var versions = ["0.8.2","0.8.2","0.8.2"];
     </script>
 
 

@@ -13,7 +13,7 @@ ruranges
    Rust\-backed interval kernels exposed to Python\/NumPy.
 
    :homepage: https://github.com/pyranges/ruranges
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`ruranges <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ruranges>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ruranges/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ ruranges
       
       
 
-      ``0.0.13-0``
+      ``0.0.13-1``,  ``0.0.13-0``
 
       
 
@@ -38,6 +38,10 @@ ruranges
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -85,7 +89,7 @@ ruranges
 
     <script>
         var package = "ruranges";
-        var versions = ["0.0.13"];
+        var versions = ["0.0.13","0.0.13"];
     </script>
 
 

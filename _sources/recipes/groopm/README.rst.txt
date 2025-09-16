@@ -10,10 +10,10 @@ groopm
    :replaces_section_title:
    :noindex:
 
-   Metagenomic binning suite
+   Metagenomic binning suite.
 
-   :homepage: https://ecogenomics.github.io/GroopM/
-   :license: LGPL-3.0
+   :homepage: https://github.com/centre-for-microbiome-research/GroopM
+   :license: LGPL / LGPL-3.0-or-later
    :recipe: /`groopm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/groopm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/groopm/meta.yaml>`_
 
    
@@ -27,18 +27,19 @@ groopm
       
       
 
-      ``0.3.4-0``
+      ``0.3.4-2``,  ``0.3.4-0``
 
       
 
    
    :depends bamm: 
-   :depends matplotlib: ``>=1.1.0``
-   :depends numpy: ``>=1.6.1``
+   :depends imageio: 
+   :depends matplotlib-base: 
+   :depends numpy: 
    :depends pillow: 
-   :depends pytables: ``>=2.3``
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends scipy: ``>=0.10.1``
+   :depends pytables: 
+   :depends python: ``>=3``
+   :depends scipy: 
    :requirements:
 
    :additional platforms:
@@ -89,7 +90,7 @@ groopm
 
     <script>
         var package = "groopm";
-        var versions = ["0.3.4"];
+        var versions = ["0.3.4","0.3.4"];
     </script>
 
 
