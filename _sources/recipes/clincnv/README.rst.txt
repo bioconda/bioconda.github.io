@@ -27,7 +27,7 @@ clincnv
       
       
 
-      ``1.18.3-0``
+      ``1.19.1-0``,  ``1.18.3-0``
 
       
 
@@ -96,7 +96,7 @@ clincnv
 
     <script>
         var package = "clincnv";
-        var versions = ["1.18.3"];
+        var versions = ["1.19.1","1.18.3"];
     </script>
 
 

@@ -52,8 +52,6 @@ relion
    :depends libtiff: ``>=4.7.0,<4.8.0a0``
    :depends openmpi: ``>=4.1.6,<5.0a0``
    :depends pytorch: 
-   :depends tbb: ``>=2021.13.0``
-   :depends tbb-devel: 
    :depends zstd: ``>=1.5.6,<1.6.0a0``
    :requirements:
 

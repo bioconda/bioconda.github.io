@@ -10,10 +10,12 @@ camlhmp
    :replaces_section_title:
    :noindex:
 
-   Classification through yAML Heuristic Mapping Protocol
+   Classification through yAML Heuristic Mapping Protocol.
 
    :homepage: https://github.com/rpetit3/camlhmp
-   :license: MIT
+   :documentation: https://rpetit3.github.io/camlhmp/latest
+   
+   :license: MIT / MIT
    :recipe: /`camlhmp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/camlhmp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/camlhmp/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ camlhmp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.3-0</code>,  <code>1.1.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  </span></summary>
       
 
-      ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``,  ``0.0.1-0``
+      ``1.1.3-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -46,6 +48,7 @@ camlhmp
    :depends pigz: 
    :depends python: ``>=3.8``
    :depends pyyaml: 
+   :depends rich: ``<14``
    :depends rich-click: ``>=1.6.0``
    :requirements:
 
@@ -97,7 +100,7 @@ camlhmp
 
     <script>
         var package = "camlhmp";
-        var versions = ["1.1.0","1.0.1","1.0.0","0.3.1","0.3.0"];
+        var versions = ["1.1.3","1.1.0","1.0.1","1.0.0","0.3.1"];
     </script>
 
 

@@ -48,7 +48,6 @@ t1k
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends perl: 
    :depends python: 
-   :depends samtools: ``>=0.1.19,<1.0a0``
    :requirements:
 
    :additional platforms:

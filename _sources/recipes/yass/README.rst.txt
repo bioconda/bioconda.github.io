@@ -12,7 +12,8 @@ yass
 
    YASS is a genomic similarity search tool\, for nucleic \(DNA\/RNA\) sequences in fasta or plain text format.
 
-   :homepage: http://bioinfo.lifl.fr/yass/
+   :homepage: https://bioinfo.lifl.fr/yass
+   :developer docs: https://github.com/laurentnoe/yass
    :license: CeCILL Free Software License
    :recipe: /`yass <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yass>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yass/meta.yaml>`_
    :links: biotools: :biotools:`yass`
@@ -28,15 +29,19 @@ yass
       
       
 
-      ``1.14-6``,  ``1.14-5``,  ``1.14-4``,  ``1.14-3``,  ``1.14-2``,  ``1.14-1``,  ``1.14-0``
+      ``1.16-0``,  ``1.14-6``,  ``1.14-5``,  ``1.14-4``,  ``1.14-3``,  ``1.14-2``,  ``1.14-1``,  ``1.14-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -84,7 +89,7 @@ yass
 
     <script>
         var package = "yass";
-        var versions = ["1.14","1.14","1.14","1.14","1.14"];
+        var versions = ["1.16","1.14","1.14","1.14","1.14"];
     </script>
 
 

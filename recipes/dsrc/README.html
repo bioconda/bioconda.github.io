@@ -67,13 +67,13 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">dsrc</span></span></dt>
-<dd><p>high-performance compression of sequencing reads stored in FASTQ format</p>
+<dd><p>High-performance compression of sequencing reads stored in FASTQ format.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/refresh-bio/DSRC">https://github.com/refresh-bio/DSRC</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>GNU GPL 2</p>
+<dd class="field-even"><p>GPL-2.0-or-later</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dsrc">dsrc</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dsrc/meta.yaml">meta.yaml</a></p>
@@ -91,7 +91,7 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/dsrc"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/dsrc.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/dsrc"><img alt="docker_dsrc" src="https://quay.io/repository/biocontainers/dsrc/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>2015.06.04-9</code>,  <code>2015.06.04-8</code>,  <code>2015.06.04-7</code>,  <code>2015.06.04-6</code>,  <code>2015.06.04-5</code>,  <code>2015.06.04-4</code>,  <code>2015.06.04-3</code>,  <code>2015.06.04-2</code>,  <code>2015.06.04-1</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">2015.06.04-9</span></code>,  <code class="docutils literal notranslate"><span class="pre">2015.06.04-8</span></code>,  <code class="docutils literal notranslate"><span class="pre">2015.06.04-7</span></code>,  <code class="docutils literal notranslate"><span class="pre">2015.06.04-6</span></code>,  <code class="docutils literal notranslate"><span class="pre">2015.06.04-5</span></code>,  <code class="docutils literal notranslate"><span class="pre">2015.06.04-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">2015.06.04-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">2015.06.04-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">2015.06.04-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2015.06.04-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2014.12.17-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">2014.12.17-1</span></code></p>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>2015.06.04-10</code>,  <code>2015.06.04-9</code>,  <code>2015.06.04-8</code>,  <code>2015.06.04-7</code>,  <code>2015.06.04-6</code>,  <code>2015.06.04-5</code>,  <code>2015.06.04-4</code>,  <code>2015.06.04-3</code>,  <code>2015.06.04-2</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">2015.06.04-10</span></code>,  <code class="docutils literal notranslate"><span class="pre">2015.06.04-9</span></code>,  <code class="docutils literal notranslate"><span class="pre">2015.06.04-8</span></code>,  <code class="docutils literal notranslate"><span class="pre">2015.06.04-7</span></code>,  <code class="docutils literal notranslate"><span class="pre">2015.06.04-6</span></code>,  <code class="docutils literal notranslate"><span class="pre">2015.06.04-5</span></code>,  <code class="docutils literal notranslate"><span class="pre">2015.06.04-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">2015.06.04-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">2015.06.04-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">2015.06.04-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2015.06.04-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2014.12.17-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">2014.12.17-1</span></code></p>
 </details></dd>
 <dt class="field-even">depends boost-cpp<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
@@ -104,12 +104,10 @@
 <dt class="field-odd">depends libzlib<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.3.1,&lt;2.0a0</span></code></p>
 </dd>
-<dt class="field-even">depends zlib<span class="colon">:</span></dt>
+<dt class="field-even">requirements<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">requirements<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">additional platforms<span class="colon">:</span></dt>
-<dd class="field-even"><span class="additional-platforms"><code>linux-aarch64</code></span></dd>
+<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
+<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>

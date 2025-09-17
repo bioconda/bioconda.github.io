@@ -15,6 +15,7 @@ zerone
    :homepage: https://github.com/nanakiksc/zerone
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`zerone <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/zerone>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/zerone/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btw336`
 
    
 
@@ -27,7 +28,7 @@ zerone
       
       
 
-      ``1.0-8``,  ``1.0-7``,  ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``
+      ``1.0-9``,  ``1.0-8``,  ``1.0-7``,  ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``
 
       
 
@@ -40,7 +41,7 @@ zerone
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

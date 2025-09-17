@@ -10,10 +10,10 @@ dsrc
    :replaces_section_title:
    :noindex:
 
-   high\-performance compression of sequencing reads stored in FASTQ format
+   High\-performance compression of sequencing reads stored in FASTQ format.
 
    :homepage: https://github.com/refresh-bio/DSRC
-   :license: GNU GPL 2
+   :license: GPL-2.0-or-later
    :recipe: /`dsrc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dsrc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dsrc/meta.yaml>`_
    :links: biotools: :biotools:`dsrc`
 
@@ -29,10 +29,10 @@ dsrc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2015.06.04-9</code>,  <code>2015.06.04-8</code>,  <code>2015.06.04-7</code>,  <code>2015.06.04-6</code>,  <code>2015.06.04-5</code>,  <code>2015.06.04-4</code>,  <code>2015.06.04-3</code>,  <code>2015.06.04-2</code>,  <code>2015.06.04-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2015.06.04-10</code>,  <code>2015.06.04-9</code>,  <code>2015.06.04-8</code>,  <code>2015.06.04-7</code>,  <code>2015.06.04-6</code>,  <code>2015.06.04-5</code>,  <code>2015.06.04-4</code>,  <code>2015.06.04-3</code>,  <code>2015.06.04-2</code>,  </span></summary>
       
 
-      ``2015.06.04-9``,  ``2015.06.04-8``,  ``2015.06.04-7``,  ``2015.06.04-6``,  ``2015.06.04-5``,  ``2015.06.04-4``,  ``2015.06.04-3``,  ``2015.06.04-2``,  ``2015.06.04-1``,  ``2015.06.04-0``,  ``2014.12.17-2``,  ``2014.12.17-1``
+      ``2015.06.04-10``,  ``2015.06.04-9``,  ``2015.06.04-8``,  ``2015.06.04-7``,  ``2015.06.04-6``,  ``2015.06.04-5``,  ``2015.06.04-4``,  ``2015.06.04-3``,  ``2015.06.04-2``,  ``2015.06.04-1``,  ``2015.06.04-0``,  ``2014.12.17-2``,  ``2014.12.17-1``
 
       
       .. raw:: html
@@ -45,14 +45,13 @@ dsrc
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

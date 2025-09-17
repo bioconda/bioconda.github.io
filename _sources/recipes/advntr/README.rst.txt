@@ -10,10 +10,10 @@ advntr
    :replaces_section_title:
    :noindex:
 
-   A tool for genotyping Variable Number Tandem Repeats \(VNTR\) from sequence data
+   A tool for genotyping Variable Number Tandem Repeats \(VNTR\) from sequence data.
 
    :homepage: https://github.com/mehrdadbakhtiari/adVNTR
-   :license: BSD 3-Clause
+   :license: BSD / BSD-3-Clause
    :recipe: /`advntr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/advntr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/advntr/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ advntr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.0-0</code>,  <code>1.4.1-2</code>,  <code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.4.0-2</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.3.3-2</code>,  <code>1.3.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.0-1</code>,  <code>1.5.0-0</code>,  <code>1.4.1-2</code>,  <code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.4.0-2</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.3.3-2</code>,  </span></summary>
       
 
-      ``1.5.0-0``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.3-2``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.2.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.3-0``
+      ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.3-2``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.2.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.3-0``
 
       
       .. raw:: html
@@ -41,25 +41,28 @@ advntr
 
    
    :depends biopython: 
-   :depends cython: 
-   :depends htslib: ``1.9.*``
+   :depends cython: ``<3``
+   :depends htslib: 
    :depends joblib: 
-   :depends keras: ``2.2.4.*``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends matplotlib-base: 
-   :depends muscle: ``3.8.1551.*``
-   :depends networkx: ``1.11.*``
-   :depends numpy: ``>=1.16.5,<2.0a0``
-   :depends pysam: ``0.15.1.*``
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends muscle: 
+   :depends networkx: 
+   :depends numpy: ``>=1.22.4,<2.0a0``
+   :depends pysam: 
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends scikit-learn: 
-   :depends scipy: ``>=1.2.1,<2.0a0``
-   :depends tensorflow: ``1.13.1.*``
+   :depends scipy: 
+   :depends tensorflow: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -107,7 +110,7 @@ advntr
 
     <script>
         var package = "advntr";
-        var versions = ["1.5.0","1.4.1","1.4.1","1.4.1","1.4.0"];
+        var versions = ["1.5.0","1.5.0","1.4.1","1.4.1","1.4.1"];
     </script>
 
 

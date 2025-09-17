@@ -12,10 +12,11 @@ idba
 
    IDBA is a practical iterative De Bruijn Graph De Novo Assembler for sequence assembly in bioinformatics.
 
-   :homepage: http://i.cs.hku.hk/~alse/hkubrg/projects/idba_ud/
+   :homepage: https://i.cs.hku.hk/~alse/hkubrg/projects/idba_ud
+   :developer docs: https://github.com/loneknightpy/idba
    :license: GPL2
    :recipe: /`idba <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/idba>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/idba/meta.yaml>`_
-   :links: biotools: :biotools:`idba`, doi: :doi:`10.1007/978-3-642-12683-3_28`
+   :links: biotools: :biotools:`idba`, usegalaxy-eu: :usegalaxy-eu:`idba_ud`, doi: :doi:`10.1007/978-3-642-12683-3_28`
 
    
 
@@ -28,22 +29,24 @@ idba
       
       
 
-      ``1.1.3-4``,  ``1.1.3-3``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.1-2``,  ``1.1.1-1``
+      ``1.1.3-5``,  ``1.1.3-4``,  ``1.1.3-3``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.1-2``,  ``1.1.1-1``
 
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libstdcxx: ``>=13``
-   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends python_abi: ``3.11.* *_cp311``
+   :depends perl: 
+   :depends python: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -91,7 +94,7 @@ idba
 
     <script>
         var package = "idba";
-        var versions = ["1.1.3","1.1.3","1.1.3","1.1.3","1.1.1"];
+        var versions = ["1.1.3","1.1.3","1.1.3","1.1.3","1.1.3"];
     </script>
 
 

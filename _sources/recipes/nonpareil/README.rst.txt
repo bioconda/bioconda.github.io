@@ -10,10 +10,11 @@ nonpareil
    :replaces_section_title:
    :noindex:
 
-   Estimate average coverage and create curves for metagenomic datasets
+   Estimate average coverage and create curves for metagenomic datasets.
 
-   :homepage: http://nonpareil.readthedocs.io/
-   :developer docs: https://github.com/lmrodriguezr/nonpareil
+   :homepage: https://github.com/lmrodriguezr/nonpareil
+   :documentation: https://nonpareil.readthedocs.io
+   
    :license: Artistic License 2.0
    :recipe: /`nonpareil <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nonpareil>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nonpareil/meta.yaml>`_
 
@@ -29,10 +30,10 @@ nonpareil
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.5.5-1</code>,  <code>3.5.5-0</code>,  <code>3.5.4-0</code>,  <code>3.5.3-0</code>,  <code>3.5.2-0</code>,  <code>3.5.1-1</code>,  <code>3.5.1-0</code>,  <code>3.4.1-5</code>,  <code>3.4.1-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.5.5-2</code>,  <code>3.5.5-1</code>,  <code>3.5.5-0</code>,  <code>3.5.4-0</code>,  <code>3.5.3-0</code>,  <code>3.5.2-0</code>,  <code>3.5.1-1</code>,  <code>3.5.1-0</code>,  <code>3.4.1-5</code>,  </span></summary>
       
 
-      ``3.5.5-1``,  ``3.5.5-0``,  ``3.5.4-0``,  ``3.5.3-0``,  ``3.5.2-0``,  ``3.5.1-1``,  ``3.5.1-0``,  ``3.4.1-5``,  ``3.4.1-4``,  ``3.4.1-3``,  ``3.4.1-2``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.4-2``,  ``3.3.4-1``,  ``3.3.4-0``,  ``3.3.3-2``,  ``3.3.3-1``,  ``3.3.3-0``,  ``3.3.1-0``,  ``3.2-0``,  ``3.1.1-0``,  ``2.4.01-0``,  ``2.4-0``
+      ``3.5.5-2``,  ``3.5.5-1``,  ``3.5.5-0``,  ``3.5.4-0``,  ``3.5.3-0``,  ``3.5.2-0``,  ``3.5.1-1``,  ``3.5.1-0``,  ``3.4.1-5``,  ``3.4.1-4``,  ``3.4.1-3``,  ``3.4.1-2``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.4-2``,  ``3.3.4-1``,  ``3.3.4-0``,  ``3.3.3-2``,  ``3.3.3-1``,  ``3.3.3-0``,  ``3.3.1-0``,  ``3.2-0``,  ``3.1.1-0``,  ``2.4.01-0``,  ``2.4-0``
 
       
       .. raw:: html
@@ -47,14 +48,13 @@ nonpareil
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-jsonlite: 
    :depends r-optparse: 
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -102,7 +102,7 @@ nonpareil
 
     <script>
         var package = "nonpareil";
-        var versions = ["3.5.5","3.5.5","3.5.4","3.5.3","3.5.2"];
+        var versions = ["3.5.5","3.5.5","3.5.5","3.5.4","3.5.3"];
     </script>
 
 

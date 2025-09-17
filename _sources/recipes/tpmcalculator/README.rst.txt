@@ -28,10 +28,10 @@ tpmcalculator
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.5-2</code>,  <code>0.0.5-1</code>,  <code>0.0.5-0</code>,  <code>0.0.4-4</code>,  <code>0.0.4-3</code>,  <code>0.0.4-2</code>,  <code>0.0.4-1</code>,  <code>0.0.4-0</code>,  <code>0.0.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.5-3</code>,  <code>0.0.5-2</code>,  <code>0.0.5-1</code>,  <code>0.0.5-0</code>,  <code>0.0.4-4</code>,  <code>0.0.4-3</code>,  <code>0.0.4-2</code>,  <code>0.0.4-1</code>,  <code>0.0.4-0</code>,  </span></summary>
       
 
-      ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-4``,  ``0.0.4-3``,  ``0.0.4-2``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``
+      ``0.0.5-3``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-4``,  ``0.0.4-3``,  ``0.0.4-2``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``
 
       
       .. raw:: html
@@ -40,18 +40,17 @@ tpmcalculator
       
 
    
-   :depends bamtools: ``>=2.5.2,<2.6.0a0``
+   :depends bamtools: ``>=2.5.3,<3.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -99,7 +98,7 @@ tpmcalculator
 
     <script>
         var package = "tpmcalculator";
-        var versions = ["0.0.5","0.0.5","0.0.5","0.0.4","0.0.4"];
+        var versions = ["0.0.5","0.0.5","0.0.5","0.0.5","0.0.4"];
     </script>
 
 

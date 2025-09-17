@@ -10,12 +10,14 @@
    :replaces_section_title:
    :noindex:
 
-   Tool for converting 10x BAMs produced by Cell Ranger\, Space Ranger\, Cell Ranger ATAC\, Cell Ranger DNA\, 
-   and Long Ranger back to FASTQ files that can be used as inputs to re\-run analysis
+   Tool for converting 10x BAMs produced by Cell Ranger\, Space Ranger\, Cell Ranger ATAC\, Cell Ranger DNA\, and Long Ranger back to FASTQ files that can be used as inputs to re\-run analysis.
 
    :homepage: https://github.com/10XGenomics/bamtofastq
-   :license: MIT
+   :documentation: https://github.com/10XGenomics/bamtofastq/blob/v1.4.1/README.md
+   
+   :license: MIT / MIT
    :recipe: /`10x_bamtofastq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/10x_bamtofastq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/10x_bamtofastq/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`10x_bamtofastq`
 
    
 
@@ -28,7 +30,7 @@
       
       
 
-      ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``
+      ``1.4.1-4``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``
 
       
 
@@ -38,6 +40,10 @@
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -85,7 +91,7 @@
 
     <script>
         var package = "10x_bamtofastq";
-        var versions = ["1.4.1","1.4.1","1.4.1","1.4.1"];
+        var versions = ["1.4.1","1.4.1","1.4.1","1.4.1","1.4.1"];
     </script>
 
 

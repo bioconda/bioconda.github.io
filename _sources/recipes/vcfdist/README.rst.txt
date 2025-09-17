@@ -10,7 +10,7 @@ vcfdist
    :replaces_section_title:
    :noindex:
 
-   vcfdist\: benchmarking phased germline variant calls in VCF format
+   vcfdist\: benchmarking phased germline variant calls in VCF format.
 
    :homepage: https://github.com/TimD1/vcfdist
    :documentation: https://github.com/TimD1/vcfdist/wiki
@@ -31,10 +31,10 @@ vcfdist
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.6.3-0</code>,  <code>2.6.2-0</code>,  <code>2.6.1-0</code>,  <code>2.6.0-0</code>,  <code>2.5.3-1</code>,  <code>2.5.3-0</code>,  <code>2.5.2-0</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.6.4-0</code>,  <code>2.6.3-0</code>,  <code>2.6.2-0</code>,  <code>2.6.1-0</code>,  <code>2.6.0-0</code>,  <code>2.5.3-1</code>,  <code>2.5.3-0</code>,  <code>2.5.2-0</code>,  <code>2.5.1-0</code>,  </span></summary>
       
 
-      ``2.6.3-0``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.3-1``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.0-0``
+      ``2.6.4-0``,  ``2.6.3-0``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.3-1``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.0-0``
 
       
       .. raw:: html
@@ -43,12 +43,17 @@ vcfdist
       
 
    
-   :depends htslib: ``>=1.17,<1.23.0a0``
+   :depends htslib: ``>=1.22,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -96,7 +101,7 @@ vcfdist
 
     <script>
         var package = "vcfdist";
-        var versions = ["2.6.3","2.6.2","2.6.1","2.6.0","2.5.3"];
+        var versions = ["2.6.4","2.6.3","2.6.2","2.6.1","2.6.0"];
     </script>
 
 
