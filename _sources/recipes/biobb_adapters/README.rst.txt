@@ -13,7 +13,7 @@ biobb_adapters
    Biobb\_adapters is the Biobb module collection to use the building blocks with several workflow managers.
 
    :homepage: https://github.com/bioexcel/biobb_adapters
-   :license: APACHE / Apache Software License
+   :license: APACHE / Apache-2.0
    :recipe: /`biobb_adapters <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_adapters>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_adapters/meta.yaml>`_
 
    \# biobb\_adapters
@@ -48,9 +48,17 @@ biobb_adapters
    :versions:
       
       
+      .. raw:: html
 
-      ``5.1.1-0``,  ``5.1.0-0``,  ``4.0.0-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.0-0``,  ``3.6.1-0``,  ``3.6.0-0``,  ``0.1.4-0``
+         <details><summary><span class="truncated-version-list"><code>5.1.2-0</code>,  <code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.8.1-0</code>,  <code>3.8.0-0</code>,  <code>3.7.0-0</code>,  <code>3.6.1-0</code>,  <code>3.6.0-0</code>,  </span></summary>
+      
 
+      ``5.1.2-0``,  ``5.1.1-0``,  ``5.1.0-0``,  ``4.0.0-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.0-0``,  ``3.6.1-0``,  ``3.6.0-0``,  ``0.1.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -105,7 +113,7 @@ biobb_adapters
 
     <script>
         var package = "biobb_adapters";
-        var versions = ["5.1.1","5.1.0","4.0.0","3.8.1","3.8.0"];
+        var versions = ["5.1.2","5.1.1","5.1.0","4.0.0","3.8.1"];
     </script>
 
 

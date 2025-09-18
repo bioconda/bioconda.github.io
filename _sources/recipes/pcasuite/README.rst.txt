@@ -12,7 +12,7 @@ pcasuite
 
    PCAzip compresses a trajectory\, recentering the snapshots using a standard RMS or a gaussian version.
 
-   :homepage: https://mmb.irbbarcelona.org/gitlab/andrio/pcasuite
+   :homepage: https://github.com/mmb-irb/pcasuite
    :license: APACHE / Apache Software License
    :recipe: /`pcasuite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pcasuite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pcasuite/meta.yaml>`_
 
@@ -27,17 +27,16 @@ pcasuite
       
       
 
-      ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.0-6``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends bison: 
-   :depends lapack: 
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc: ``>=13``
    :depends libgfortran: 
-   :depends libgfortran5: ``>=13.3.0``
+   :depends libgfortran5: ``>=13.4.0``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libnetcdf: ``>=4.9.2,<4.9.3.0a0``
    :depends libstdcxx: ``>=13``

@@ -89,7 +89,7 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/haddock_biobb"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/haddock_biobb.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/haddock_biobb"><img alt="docker_haddock_biobb" src="https://quay.io/repository/biocontainers/haddock_biobb/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>2025.5-1</code>,  <code>2025.5-0</code>,  <code>3.0.7-0</code>,  <code>3.0.6-2</code>,  <code>3.0.6-1</code>,  <code>3.0.6-0</code>,  <code>3.0.5-1</code>,  <code>3.0.5-0</code>,  <code>3.0.4-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">2025.5-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2025.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.7-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.6-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.6-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.5-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.0-0</span></code></p>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>2025.5-3</code>,  <code>2025.5-2</code>,  <code>2025.5-1</code>,  <code>2025.5-0</code>,  <code>3.0.7-0</code>,  <code>3.0.6-2</code>,  <code>3.0.6-1</code>,  <code>3.0.6-0</code>,  <code>3.0.5-1</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">2025.5-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">2025.5-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">2025.5-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2025.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.7-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.6-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.6-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.5-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.0-0</span></code></p>
 </details></dd>
 <dt class="field-even">depends biopython<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
@@ -99,6 +99,12 @@
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends kaleido-core<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends libgcc<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
+</dd>
+<dt class="field-odd">depends libstdcxx<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
+</dd>
 <dt class="field-even">depends numpy<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends pandas<span class="colon">:</span></dt>
@@ -110,20 +116,23 @@
 <dt class="field-even">depends plotly<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends python<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.9,&lt;3.13</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.10,&lt;3.11.0a0</span></code></p>
 </dd>
-<dt class="field-even">depends pyyaml<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends scipy<span class="colon">:</span></dt>
+<dt class="field-even">depends python_abi<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">3.10.* *_cp310</span></code></p>
+</dd>
+<dt class="field-odd">depends pyyaml<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends toml<span class="colon">:</span></dt>
+<dt class="field-even">depends scipy<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends tox<span class="colon">:</span></dt>
+<dt class="field-odd">depends toml<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">requirements<span class="colon">:</span></dt>
+<dt class="field-even">depends tox<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
+<dt class="field-odd">requirements<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
+<dt class="field-even">additional platforms<span class="colon">:</span></dt>
+<dd class="field-even"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -158,12 +167,8 @@ others.</p>
 
 <script>
     var package = "haddock_biobb";
-    var versions = ["2025.5","2025.5","3.0.7","3.0.6","3.0.6"];
-</script><section id="notes">
-<h2>Notes<a class="headerlink" href="#notes" title="Link to this heading">¶</a></h2>
-<p>The Haddock3 package requires `gcc` hardcoded in the `setup.py`, which is unavailable in the Bioconda test environment. Therefore, the post-link test is skipped.</p>
-</section>
-<section id="download-stats">
+    var versions = ["2025.5","2025.5","2025.5","2025.5","3.0.7"];
+</script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
 <div style="width: 100%" id="platform_plot"></div>
@@ -316,7 +321,7 @@ others.</p>
       &#169;2016-2025, The Bioconda Team.
       
       |
-      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.3.0</a>
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.2.3</a>
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
       
       |
