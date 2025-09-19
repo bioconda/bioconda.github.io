@@ -10,10 +10,10 @@ ngs-disambiguate
    :replaces_section_title:
    :noindex:
 
-   Disambiguation algorithm for reads aligned to human and mouse genomes using Tophat or BWA mem
+   Disambiguation algorithm for reads aligned to human and mouse genomes using Tophat or BWA mem.
 
    :homepage: https://github.com/AstraZeneca-NGS/disambiguate
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`ngs-disambiguate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngs-disambiguate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngs-disambiguate/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ ngs-disambiguate
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2018.05.03-11</code>,  <code>2018.05.03-10</code>,  <code>2018.05.03-9</code>,  <code>2018.05.03-8</code>,  <code>2018.05.03-7</code>,  <code>2018.05.03-6</code>,  <code>2018.05.03-5</code>,  <code>2018.05.03-4</code>,  <code>2018.05.03-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2018.05.03-12</code>,  <code>2018.05.03-11</code>,  <code>2018.05.03-10</code>,  <code>2018.05.03-9</code>,  <code>2018.05.03-8</code>,  <code>2018.05.03-7</code>,  <code>2018.05.03-6</code>,  <code>2018.05.03-5</code>,  <code>2018.05.03-4</code>,  </span></summary>
       
 
-      ``2018.05.03-11``,  ``2018.05.03-10``,  ``2018.05.03-9``,  ``2018.05.03-8``,  ``2018.05.03-7``,  ``2018.05.03-6``,  ``2018.05.03-5``,  ``2018.05.03-4``,  ``2018.05.03-3``,  ``2018.05.03-2``,  ``2018.05.03-1``,  ``2018.05.03-0``,  ``2016.11.10-0``,  ``1.0.0-0``
+      ``2018.05.03-12``,  ``2018.05.03-11``,  ``2018.05.03-10``,  ``2018.05.03-9``,  ``2018.05.03-8``,  ``2018.05.03-7``,  ``2018.05.03-6``,  ``2018.05.03-5``,  ``2018.05.03-4``,  ``2018.05.03-3``,  ``2018.05.03-2``,  ``2018.05.03-1``,  ``2018.05.03-0``,  ``2016.11.10-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,19 +40,17 @@ ngs-disambiguate
       
 
    
-   :depends bamtools: ``<=2.5.2``
-   :depends bamtools: ``>=2.5.2,<2.6.0a0``
+   :depends bamtools: ``>=2.5.3,<3.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

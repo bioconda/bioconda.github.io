@@ -12,10 +12,10 @@ smalt
 
    SMALT aligns DNA sequencing reads with a reference genome.
 
-   :homepage: http://www.sanger.ac.uk/science/tools/smalt-0
-   :license: GPLv3
+   :homepage: https://www.sanger.ac.uk/tool/smalt
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`smalt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smalt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smalt/meta.yaml>`_
-   :links: biotools: :biotools:`Smalt`
+   :links: biotools: :biotools:`smalt`
 
    
 
@@ -28,17 +28,22 @@ smalt
       
       
 
-      ``0.7.6-1``,  ``0.7.6-0``
+      ``0.7.6-2``,  ``0.7.6-1``,  ``0.7.6-0``
 
       
 
    
-   :depends bambamc: 
-   :depends libgcc: 
-   :depends zlib: ``1.2.11*``
+   :depends bambamc: ``>=0.0.50,<0.0.51.0a0``
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends samtools: ``>=1.22.1,<2.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -86,7 +91,7 @@ smalt
 
     <script>
         var package = "smalt";
-        var versions = ["0.7.6","0.7.6"];
+        var versions = ["0.7.6","0.7.6","0.7.6"];
     </script>
 
 

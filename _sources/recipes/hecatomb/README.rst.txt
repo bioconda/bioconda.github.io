@@ -32,10 +32,10 @@ hecatomb
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0.beta.5-0</code>,  <code>1.0.0.beta.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.4-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0.beta.5-0</code>,  </span></summary>
       
 
-      ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0.beta.5-0``,  ``1.0.0.beta.4-0``,  ``1.0.0.beta.3-0``,  ``1.0.0.beta.2-1``,  ``1.0.0.beta.2-0``
+      ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0.beta.5-0``,  ``1.0.0.beta.4-0``,  ``1.0.0.beta.3-0``,  ``1.0.0.beta.2-1``,  ``1.0.0.beta.2-0``
 
       
       .. raw:: html
@@ -47,10 +47,10 @@ hecatomb
    :depends click: ``>=8.1.3``
    :depends metasnek: ``>=0.0.7``
    :depends pulp: ``<2.8``
-   :depends python: ``>=3.9,<=3.12``
+   :depends python: ``>=3.9``
    :depends pyyaml: ``>=6.0``
-   :depends snakemake: ``>=7.14.0,<8``
-   :depends snaketool-utils: ``>=0.0.4``
+   :depends snakemake: ``>=8``
+   :depends snaketool-utils: ``>=0.0.5``
    :requirements:
 
    :additional platforms:
@@ -101,7 +101,7 @@ hecatomb
 
     <script>
         var package = "hecatomb";
-        var versions = ["1.3.3","1.3.2","1.3.1","1.3.0","1.2.0"];
+        var versions = ["1.3.4","1.3.3","1.3.2","1.3.1","1.3.0"];
     </script>
 
 

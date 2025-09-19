@@ -10,12 +10,12 @@ edena
    :replaces_section_title:
    :noindex:
 
-   de novo short reads assembler
+   De novo short reads assembler.
 
    :homepage: http://www.genomic.ch/edena.php
-   :license: GPL3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`edena <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/edena>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/edena/meta.yaml>`_
-   :links: biotools: :biotools:`edena`
+   :links: biotools: :biotools:`edena`, usegalaxy-eu: :usegalaxy-eu:`edena_ass_wrapper`, usegalaxy-eu: :usegalaxy-eu:`edena_ovl_wrapper`
 
    
 
@@ -28,7 +28,7 @@ edena
       
       
 
-      ``3.131028-7``,  ``3.131028-6``,  ``3.131028-5``,  ``3.131028-4``,  ``3.131028-3``,  ``3.131028-2``,  ``3.131028-1``,  ``3.131028-0``
+      ``3.131028-8``,  ``3.131028-7``,  ``3.131028-6``,  ``3.131028-5``,  ``3.131028-4``,  ``3.131028-3``,  ``3.131028-2``,  ``3.131028-1``,  ``3.131028-0``
 
       
 
@@ -38,6 +38,10 @@ edena
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

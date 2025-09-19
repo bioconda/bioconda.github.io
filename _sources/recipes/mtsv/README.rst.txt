@@ -27,35 +27,40 @@ mtsv
       
       
 
-      ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
+      ``1.0.6-5``,  ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
 
       
 
    
    :depends biopython: 
+   :depends bracken: ``>=2.6.1``
    :depends bwa: 
    :depends click: 
    :depends concoct: 
    :depends ete3: 
    :depends gsl: 
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends kraken2: ``>=2.1.2``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends megahit: 
-   :depends mtsv-tools: 
    :depends numpy: 
    :depends pandas: ``>=0.20.3``
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends python_abi: ``3.6.* *_cp36m``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends pyyaml: 
    :depends samtools: 
    :depends scipy: 
    :depends six: 
-   :depends snakemake: ``>=4.1.0``
+   :depends snakemake-minimal: ``>=4.1.0``
    :depends wgfast: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -103,7 +108,7 @@ mtsv
 
     <script>
         var package = "mtsv";
-        var versions = ["1.0.6","1.0.6","1.0.6","1.0.5","1.0.4"];
+        var versions = ["1.0.6","1.0.6","1.0.6","1.0.6","1.0.5"];
     </script>
 
 

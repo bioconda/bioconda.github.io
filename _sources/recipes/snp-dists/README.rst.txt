@@ -10,10 +10,10 @@ snp-dists
    :replaces_section_title:
    :noindex:
 
-   Convert a FASTA alignment to SNP distance matrix
+   Convert a FASTA alignment to SNP distance matrix.
 
    :homepage: https://github.com/tseemann/snp-dists
-   :license: GPL3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`snp-dists <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snp-dists>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snp-dists/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ snp-dists
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.2-5</code>,  <code>0.8.2-4</code>,  <code>0.8.2-3</code>,  <code>0.8.2-2</code>,  <code>0.8.2-1</code>,  <code>0.8.2-0</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.2-6</code>,  <code>0.8.2-5</code>,  <code>0.8.2-4</code>,  <code>0.8.2-3</code>,  <code>0.8.2-2</code>,  <code>0.8.2-1</code>,  <code>0.8.2-0</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  </span></summary>
       
 
-      ``0.8.2-5``,  ``0.8.2-4``,  ``0.8.2-3``,  ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.3-1``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6-1``,  ``0.6-0``,  ``0.5-0``,  ``0.2-3``,  ``0.2-2``,  ``0.2-1``,  ``0.2-0``
+      ``0.8.2-6``,  ``0.8.2-5``,  ``0.8.2-4``,  ``0.8.2-3``,  ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.3-1``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6-1``,  ``0.6-0``,  ``0.5-0``,  ``0.2-3``,  ``0.2-2``,  ``0.2-1``,  ``0.2-0``
 
       
       .. raw:: html
@@ -42,15 +42,15 @@ snp-dists
    
    :depends _openmp_mutex: ``>=4.5``
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

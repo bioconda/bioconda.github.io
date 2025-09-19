@@ -10,10 +10,10 @@ aardvark
    :replaces_section_title:
    :noindex:
 
-   A tool for sniffing out the differences in vari\-Ants
+   A tool for sniffing out the differences in vari\-Ants.
 
    :homepage: https://github.com/PacificBiosciences/aardvark
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`aardvark <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aardvark>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aardvark/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ aardvark
       
       
 
-      ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``
+      ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``
 
       
 
@@ -35,6 +35,10 @@ aardvark
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -82,7 +86,7 @@ aardvark
 
     <script>
         var package = "aardvark";
-        var versions = ["0.8.1","0.8.0","0.7.4","0.7.3","0.7.2"];
+        var versions = ["0.8.1","0.8.1","0.8.0","0.7.4","0.7.3"];
     </script>
 
 

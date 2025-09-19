@@ -10,10 +10,9 @@ aminoextract
    :replaces_section_title:
    :noindex:
 
-   AminoExtract is an application to extract aminoacid sequences from a fasta file based on a GFF.
+   Extract amino acid sequences from a fasta file based on a GFF
 
-   :homepage: https://pypi.org/project/AminoExtract/
-   :developer docs: https://github.com/RIVM-bioinformatics/AminoExtract
+   :homepage: https://github.com/RIVM-bioinformatics/AminoExtract
    :license: MIT / MIT
    :recipe: /`aminoextract <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aminoextract>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aminoextract/meta.yaml>`_
 
@@ -28,7 +27,7 @@ aminoextract
       
       
 
-      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-0``
+      ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-0``
 
       
 
@@ -88,7 +87,7 @@ aminoextract
 
     <script>
         var package = "aminoextract";
-        var versions = ["0.3.1","0.3.0","0.2.1"];
+        var versions = ["0.4.0","0.3.1","0.3.0","0.2.1"];
     </script>
 
 

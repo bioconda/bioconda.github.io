@@ -13,7 +13,7 @@ samsift
    Advanced filtering and tagging of SAM\/BAM alignments using Python expressions.
 
    :homepage: https://github.com/karel-brinda/samsift
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`samsift <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samsift>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samsift/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ samsift
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.5-3</code>,  <code>0.2.5-2</code>,  <code>0.2.5-1</code>,  <code>0.2.5-0</code>,  <code>0.2.3-1</code>,  <code>0.2.3-0</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.1-0</code>,  <code>0.2.5-3</code>,  <code>0.2.5-2</code>,  <code>0.2.5-1</code>,  <code>0.2.5-0</code>,  <code>0.2.3-1</code>,  <code>0.2.3-0</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  </span></summary>
       
 
-      ``0.2.5-3``,  ``0.2.5-2``,  ``0.2.5-1``,  ``0.2.5-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.3.1-0``,  ``0.2.5-3``,  ``0.2.5-2``,  ``0.2.5-1``,  ``0.2.5-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -40,8 +40,9 @@ samsift
       
 
    
+   :depends curl: 
    :depends pysam: 
-   :depends python: ``>=3``
+   :depends python: ``>=3.8``
    :depends python-dateutil: 
    :requirements:
 
@@ -93,7 +94,7 @@ samsift
 
     <script>
         var package = "samsift";
-        var versions = ["0.2.5","0.2.5","0.2.5","0.2.5","0.2.3"];
+        var versions = ["0.3.1","0.2.5","0.2.5","0.2.5","0.2.5"];
     </script>
 
 
