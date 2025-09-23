@@ -13,7 +13,7 @@ visceral-evaluatesegmentation
    EvaluateSegmentation is a tool that compares two volumes \(a test segmentation and a ground truth segmentation\) using 22 different metrics that were selected as a result of a comprehensive research into the metrics used in the medical volume segmentations.
 
    :homepage: https://github.com/Visceral-Project/EvaluateSegmentation
-   :license: Apache License, Version 2.0
+   :license: Apache-2.0
    :recipe: /`visceral-evaluatesegmentation <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/visceral-evaluatesegmentation>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/visceral-evaluatesegmentation/meta.yaml>`_
 
    
@@ -27,18 +27,22 @@ visceral-evaluatesegmentation
       
       
 
-      ``2015.07.03-1``,  ``2015.07.03-0``,  ``2015.07.02-1``,  ``2015.07.02-0``
+      ``2021.03.25-0``,  ``2015.07.03-1``,  ``2015.07.03-0``,  ``2015.07.02-1``,  ``2015.07.02-0``
 
       
 
    
-   :depends jpeg: ``>=9d,<10a``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libitk: ``<5``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc: ``>=13``
+   :depends libitk: ``>=5.4.4,<5.5.0a0``
+   :depends libitk-devel: 
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -86,7 +90,7 @@ visceral-evaluatesegmentation
 
     <script>
         var package = "visceral-evaluatesegmentation";
-        var versions = ["2015.07.03","2015.07.03","2015.07.02","2015.07.02"];
+        var versions = ["2021.03.25","2015.07.03","2015.07.03","2015.07.02","2015.07.02"];
     </script>
 
 

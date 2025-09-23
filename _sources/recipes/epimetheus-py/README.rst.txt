@@ -27,7 +27,7 @@ epimetheus-py
       
       
 
-      ``0.6.2-0``
+      ``0.7.2-0``,  ``0.6.2-0``
 
       
 
@@ -86,7 +86,7 @@ epimetheus-py
 
     <script>
         var package = "epimetheus-py";
-        var versions = ["0.6.2"];
+        var versions = ["0.7.2","0.6.2"];
     </script>
 
 

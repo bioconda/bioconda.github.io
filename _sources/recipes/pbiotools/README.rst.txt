@@ -10,7 +10,7 @@ pbiotools
    :replaces_section_title:
    :noindex:
 
-   Miscellaneous bioinformatics and other supporting utilities for Python 3
+   Miscellaneous bioinformatics and other supporting utilities for Python 3.
 
    :homepage: https://github.com/dieterich-lab/pbiotools
    :license: MIT / MIT
@@ -27,28 +27,22 @@ pbiotools
       
       
 
-      ``4.0.2-0``,  ``4.0.1-1``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.0.0-0``,  ``2.0.0-0``
+      ``5.0.0-0``,  ``4.0.2-0``,  ``4.0.1-1``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.0.0-0``,  ``2.0.0-0``
 
       
 
    
    :depends biopython: 
-   :depends dask-core: 
-   :depends fastparquet: 
    :depends joblib: 
    :depends matplotlib-base: 
-   :depends matplotlib-venn: 
-   :depends more-itertools: 
    :depends mygene: 
    :depends numpy: 
-   :depends openpyxl: 
    :depends pandas: 
-   :depends pyensembl: 
-   :depends pysam: ``>0.9.1``
-   :depends python: ``>=3.7,<3.11``
+   :depends pysam: 
+   :depends python: ``>=3.11,<3.14``
    :depends scikit-learn: 
    :depends scipy: 
-   :depends seaborn: 
+   :depends seaborn-base: 
    :depends tqdm: 
    :requirements:
 
@@ -100,7 +94,7 @@ pbiotools
 
     <script>
         var package = "pbiotools";
-        var versions = ["4.0.2","4.0.1","4.0.1","4.0.0","3.0.0"];
+        var versions = ["5.0.0","4.0.2","4.0.1","4.0.1","4.0.0"];
     </script>
 
 

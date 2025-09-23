@@ -12,8 +12,8 @@ ltr_finder
 
    LTR\_Finder is an efficient program for finding full\-length LTR retrotranspsons in genome sequences.
 
-   :homepage: https://github.com/NBISweden/LTR_Finder/
-   :license: MIT
+   :homepage: https://github.com/NBISweden/LTR_Finder
+   :license: MIT / MIT
    :recipe: /`ltr_finder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ltr_finder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ltr_finder/meta.yaml>`_
 
    
@@ -27,18 +27,24 @@ ltr_finder
       
       
 
-      ``1.07-4``,  ``1.07-3``,  ``1.07-2``,  ``1.07-1``,  ``1.07-0``
+      ``1.07-5``,  ``1.07-4``,  ``1.07-3``,  ``1.07-2``,  ``1.07-1``,  ``1.07-0``
 
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libstdcxx: ``>=13``
    :depends perl: 
    :depends perl-gd: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

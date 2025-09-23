@@ -10,7 +10,7 @@ quatradis
    :replaces_section_title:
    :noindex:
 
-   A set of tools to analyse the output from TraDIS analyses
+   A set of tools to analyse the output from TraDIS analyses.
 
    :homepage: https://github.com/quadram-institute-bioscience/QuaTradis
    :license: GPL3 / GPL-3.0-only
@@ -29,10 +29,10 @@ quatradis
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.0-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-1</code>,  <code>1.3.2-0</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-1</code>,  <code>1.3.2-0</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
       
 
-      ``1.4.0-0``,  ``1.3.3-0``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.5.4-0``,  ``0.4.9-0``,  ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.3.4-0``
+      ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.3-0``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.5.4-0``,  ``0.4.9-0``,  ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.3.4-0``
 
       
       .. raw:: html
@@ -68,6 +68,10 @@ quatradis
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -115,7 +119,7 @@ quatradis
 
     <script>
         var package = "quatradis";
-        var versions = ["1.4.0","1.3.3","1.3.2","1.3.2","1.3.1"];
+        var versions = ["1.4.0","1.4.0","1.3.3","1.3.2","1.3.2"];
     </script>
 
 

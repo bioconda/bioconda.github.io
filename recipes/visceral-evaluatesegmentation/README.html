@@ -73,7 +73,7 @@
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/Visceral-Project/EvaluateSegmentation">https://github.com/Visceral-Project/EvaluateSegmentation</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>Apache License, Version 2.0</p>
+<dd class="field-even"><p>Apache-2.0</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/visceral-evaluatesegmentation">visceral-evaluatesegmentation</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/visceral-evaluatesegmentation/meta.yaml">meta.yaml</a></p>
@@ -86,26 +86,25 @@
 <em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">visceral-evaluatesegmentation</span></span><a class="headerlink" href="#package-visceral-evaluatesegmentation" title="Link to this definition">¶</a></dt>
 <dd><blockquote>
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/visceral-evaluatesegmentation"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/visceral-evaluatesegmentation.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/visceral-evaluatesegmentation"><img alt="docker_visceral-evaluatesegmentation" src="https://quay.io/repository/biocontainers/visceral-evaluatesegmentation/status" /></a></p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2015.07.03-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2015.07.03-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2015.07.02-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2015.07.02-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2021.03.25-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2015.07.03-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2015.07.03-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2015.07.02-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2015.07.02-0</span></code></p>
 </dd>
-<dt class="field-even">depends jpeg<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=9d,&lt;10a</span></code></p>
+<dt class="field-even">depends libgcc<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
 </dd>
-<dt class="field-odd">depends libgcc-ng<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=7.5.0</span></code></p>
+<dt class="field-odd">depends libitk<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=5.4.4,&lt;5.5.0a0</span></code></p>
 </dd>
-<dt class="field-even">depends libitk<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&lt;5</span></code></p>
-</dd>
-<dt class="field-odd">depends libstdcxx-ng<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=7.5.0</span></code></p>
+<dt class="field-even">depends libitk-devel<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends libstdcxx<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
 </dd>
 <dt class="field-even">requirements<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
+<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -140,7 +139,7 @@ others.</p>
 
 <script>
     var package = "visceral-evaluatesegmentation";
-    var versions = ["2015.07.03","2015.07.03","2015.07.02","2015.07.02"];
+    var versions = ["2021.03.25","2015.07.03","2015.07.03","2015.07.02","2015.07.02"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

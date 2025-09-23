@@ -10,7 +10,7 @@ espresso
    :replaces_section_title:
    :noindex:
 
-   ESPRESSO \(Error Statistics PRomoted Evaluator of Splice Site Options\) processes long read RNA\-seq data
+   ESPRESSO \(Error Statistics PRomoted Evaluator of Splice Site Options\) processes long read RNA\-seq data.
 
    :homepage: https://github.com/Xinglab/espresso
    :license: Free for non-commercial use, see LICENSE file
@@ -27,14 +27,16 @@ espresso
       
       
 
-      ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.1-0``
+      ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.1-0``
 
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends blast: ``>=2.8.1``
    :depends hmmer: ``>=3.3.1``
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
@@ -44,6 +46,10 @@ espresso
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -91,7 +97,7 @@ espresso
 
     <script>
         var package = "espresso";
-        var versions = ["1.6.0","1.5.0","1.5.0","1.4.0","1.3.2"];
+        var versions = ["1.6.0","1.6.0","1.5.0","1.5.0","1.4.0"];
     </script>
 
 

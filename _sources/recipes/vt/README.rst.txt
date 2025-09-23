@@ -10,10 +10,10 @@ vt
    :replaces_section_title:
    :noindex:
 
-   A tool set for manipulating and generating VCF files
+   A tool set for manipulating and generating VCF files.
 
    :homepage: https://genome.sph.umich.edu/wiki/Vt
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`vt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vt/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ vt
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2015.11.10-4</code>,  <code>2015.11.10-3</code>,  <code>2015.11.10-2</code>,  <code>2015.11.10-1</code>,  <code>2015.11.10-0</code>,  <code>0.57721-12</code>,  <code>0.57721-11</code>,  <code>0.57721-10</code>,  <code>0.57721-9</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2015.11.10-4</code>,  <code>2015.11.10-3</code>,  <code>2015.11.10-2</code>,  <code>2015.11.10-1</code>,  <code>2015.11.10-0</code>,  <code>0.57721-13</code>,  <code>0.57721-12</code>,  <code>0.57721-11</code>,  <code>0.57721-10</code>,  </span></summary>
       
 
-      ``2015.11.10-4``,  ``2015.11.10-3``,  ``2015.11.10-2``,  ``2015.11.10-1``,  ``2015.11.10-0``,  ``0.57721-12``,  ``0.57721-11``,  ``0.57721-10``,  ``0.57721-9``,  ``0.57721-8``,  ``0.57721-7``,  ``0.57721-6``,  ``0.57721-5``,  ``0.57721-4``,  ``0.57721-3``,  ``0.57721-2``,  ``0.57721-1``,  ``0.57721-0``
+      ``2015.11.10-4``,  ``2015.11.10-3``,  ``2015.11.10-2``,  ``2015.11.10-1``,  ``2015.11.10-0``,  ``0.57721-13``,  ``0.57721-12``,  ``0.57721-11``,  ``0.57721-10``,  ``0.57721-9``,  ``0.57721-8``,  ``0.57721-7``,  ``0.57721-6``,  ``0.57721-5``,  ``0.57721-4``,  ``0.57721-3``,  ``0.57721-2``,  ``0.57721-1``,  ``0.57721-0``
 
       
       .. raw:: html
@@ -51,7 +51,7 @@ vt
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

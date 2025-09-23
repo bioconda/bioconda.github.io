@@ -10,12 +10,12 @@ read2tree
    :replaces_section_title:
    :noindex:
 
-   Building phylogenetic trees directly from sequencing reads
+   Building phylogenetic trees directly from sequencing reads.
 
    :homepage: https://github.com/DessimozLab/read2tree
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`read2tree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/read2tree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/read2tree/meta.yaml>`_
-   :links: doi: :doi:`10.1101/2022.04.18.488678`
+   :links: doi: :doi:`10.1038/s41587-023-01753-4`
 
    
 
@@ -28,7 +28,7 @@ read2tree
       
       
 
-      ``0.1.5-0``
+      ``2.0.0-0``,  ``0.1.5-0``
 
       
 
@@ -46,7 +46,7 @@ read2tree
    :depends pyham: 
    :depends pyparsing: 
    :depends pysam: 
-   :depends python: 
+   :depends python: ``>=3.7``
    :depends pyyaml: 
    :depends requests: 
    :depends samtools: 
@@ -102,7 +102,7 @@ read2tree
 
     <script>
         var package = "read2tree";
-        var versions = ["0.1.5"];
+        var versions = ["2.0.0","0.1.5"];
     </script>
 
 

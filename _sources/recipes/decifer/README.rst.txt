@@ -10,10 +10,10 @@ decifer
    :replaces_section_title:
    :noindex:
 
-   DeCiFer simultaneously selects mutation multiplicities and clusters SNVs by their corresponding descendant cell fractions \(DCF\)
+   DeCiFer simultaneously selects mutation multiplicities and clusters SNVs by their corresponding descendant cell fractions \(DCF\).
 
    :homepage: https://github.com/raphael-group/decifer
-   :license: BSD-3
+   :license: BSD / BSD-3-Clause
    :recipe: /`decifer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/decifer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/decifer/meta.yaml>`_
 
    DeCiFer is an algorithm that simultaneously selects mutation multiplicities and clusters SNVs by their corresponding descendant cell fractions \(DCF\)\, a statistic that quantifies the proportion of cells which acquired the SNV or whose ancestors acquired the SNV. DCF is related to the commonly used cancer cell fraction \(CCF\) but further accounts for SNVs which are lost due to deleterious somatic copy\-number aberrations \(CNAs\)\, identifying clusters of SNVs which occur in the same phylogenetic branch of tumour evolution.
@@ -29,10 +29,10 @@ decifer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.4-3</code>,  <code>2.1.4-2</code>,  <code>2.1.4-1</code>,  <code>2.1.4-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-1</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.4-4</code>,  <code>2.1.4-3</code>,  <code>2.1.4-2</code>,  <code>2.1.4-1</code>,  <code>2.1.4-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-1</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  </span></summary>
       
 
-      ``2.1.4-3``,  ``2.1.4-2``,  ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1-0``,  ``1.0.0-0``,  ``0.0.2-1``,  ``0.0.2-0``
+      ``2.1.4-4``,  ``2.1.4-3``,  ``2.1.4-2``,  ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1-0``,  ``1.0.0-0``,  ``0.0.2-1``,  ``0.0.2-0``
 
       
       .. raw:: html
@@ -46,17 +46,17 @@ decifer
    :depends libstdcxx: ``>=13``
    :depends numpy: ``>=1.16.1``
    :depends pandas: 
-   :depends python: ``>=3.13,<3.14.0a0``
-   :depends python_abi: ``3.13.* *_cp313``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends scipy: ``>=1.2.1``
-   :depends seaborn: ``>=0.7.1``
+   :depends seaborn-base: ``>=0.7.1``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -104,7 +104,7 @@ decifer
 
     <script>
         var package = "decifer";
-        var versions = ["2.1.4","2.1.4","2.1.4","2.1.4","2.1.3"];
+        var versions = ["2.1.4","2.1.4","2.1.4","2.1.4","2.1.4"];
     </script>
 
 

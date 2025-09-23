@@ -70,10 +70,10 @@
 <dd><p>LTR_Finder is an efficient program for finding full-length LTR retrotranspsons in genome sequences.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/NBISweden/LTR_Finder/">https://github.com/NBISweden/LTR_Finder/</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/NBISweden/LTR_Finder">https://github.com/NBISweden/LTR_Finder</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>MIT</p>
+<dd class="field-even"><p>MIT / MIT</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ltr_finder">ltr_finder</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ltr_finder/meta.yaml">meta.yaml</a></p>
@@ -86,13 +86,18 @@
 <em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">ltr_finder</span></span><a class="headerlink" href="#package-ltr_finder" title="Link to this definition">¶</a></dt>
 <dd><blockquote>
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/ltr_finder"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/ltr_finder.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/ltr_finder"><img alt="docker_ltr_finder" src="https://quay.io/repository/biocontainers/ltr_finder/status" /></a></p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.07-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.07-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.07-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.07-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.07-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.07-5</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.07-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.07-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.07-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.07-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.07-0</span></code></p>
 </dd>
-<dt class="field-even">depends libgcc<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
+<dt class="field-even">depends _openmp_mutex<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.5</span></code></p>
 </dd>
+<dt class="field-odd">depends libgcc<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
+</dd>
+<dt class="field-even">depends libgomp<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends libstdcxx<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
 </dd>
@@ -103,7 +108,7 @@
 <dt class="field-even">requirements<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
+<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code></span></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>

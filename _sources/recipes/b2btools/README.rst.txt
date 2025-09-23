@@ -10,13 +10,11 @@ b2btools
    :replaces_section_title:
    :noindex:
 
-   The bio2Byte software suite to predict protein biophysical properties
+   The bio2Byte software suite to predict protein biophysical properties.
 
    :homepage: https://bio2byte.be/b2btools
-   :documentation: https://pypi.org/project/b2bTools/
-   
-   :developer docs: http://bitbucket.org/bio2byte/b2btools_releases
-   :license: GPL3 / GNU General Public License v3 (GPLv3)
+   :developer docs: https://bitbucket.org/bio2byte/b2btools_releases
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`b2btools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b2btools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b2btools/meta.yaml>`_
    :links: doi: :doi:`10.48550/arXiv.2405.02136`, biotools: :biotools:`b2btools`
 
@@ -40,30 +38,34 @@ b2btools
       
       
 
-      ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.4-0``
+      ``3.0.7-1``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.4-0``
 
       
 
    
-   :depends biopython: ``>=1.80,<2``
+   :depends biopython: ``>=1.83,<2``
    :depends hmmer: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends matplotlib-base: ``>=3.5.3,<3.6``
-   :depends numpy: ``1.24.4``
+   :depends numpy: ``>=1.21.6,<1.27``
    :depends pandas: ``>=1.5.3,<1.6``
    :depends pomegranate: ``>=0.14.8,<=0.14.9``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends pytorch: ``>=1.11.0,<=1.13.1``
-   :depends requests: ``>=2.0``
+   :depends requests: ``>=2.31.0,<2.32``
    :depends scikit-learn: ``1.0.2``
-   :depends scipy: ``1.10.1``
+   :depends scipy: ``1.12.0``
    :depends t-coffee: 
    :depends urllib3: ``>=1.26.6,<1.27``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -111,7 +113,7 @@ b2btools
 
     <script>
         var package = "b2btools";
-        var versions = ["3.0.7","3.0.6","3.0.5","3.0.4"];
+        var versions = ["3.0.7","3.0.7","3.0.6","3.0.5","3.0.4"];
     </script>
 
 

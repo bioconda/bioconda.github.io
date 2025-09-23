@@ -10,9 +10,9 @@ fastuniq
    :replaces_section_title:
    :noindex:
 
-   FastUniq\, A Fast De Novo Duplicates Removal Tool for Paired Short Reads
+   FastUniq\, A Fast De Novo Duplicates Removal Tool for Paired Short Reads.
 
-   :homepage: https://sourceforge.net/projects/fastuniq/
+   :homepage: https://sourceforge.net/projects/fastuniq
    :license: Creative Commons Attribution License
    :recipe: /`fastuniq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastuniq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastuniq/meta.yaml>`_
 
@@ -27,15 +27,19 @@ fastuniq
       
       
 
-      ``1.1-1``,  ``1.1-0``
+      ``1.1-2``,  ``1.1-1``,  ``1.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=4.9``
+   :depends libgcc: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -83,7 +87,7 @@ fastuniq
 
     <script>
         var package = "fastuniq";
-        var versions = ["1.1","1.1"];
+        var versions = ["1.1","1.1","1.1"];
     </script>
 
 

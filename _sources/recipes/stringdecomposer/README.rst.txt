@@ -10,10 +10,10 @@ stringdecomposer
    :replaces_section_title:
    :noindex:
 
-   A tool for decomposing of strings into a set of given monomers
+   A tool for decomposing of strings into a set of given monomers.
 
    :homepage: https://github.com/ablab/stringdecomposer
-   :license: GPL / GPLv2
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`stringdecomposer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stringdecomposer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stringdecomposer/meta.yaml>`_
 
    StringDecomposer \(SD\) algorithm takes the set of monomers and a long error\-prone read \(or a genomic segment\) and partitions this read into distinct monomers.
@@ -28,10 +28,10 @@ stringdecomposer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.2-4</code>,  <code>1.1.2-3</code>,  <code>1.1.2-2</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.2-5</code>,  <code>1.1.2-4</code>,  <code>1.1.2-3</code>,  <code>1.1.2-2</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  </span></summary>
       
 
-      ``1.1.2-4``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.0-0``
+      ``1.1.2-5``,  ``1.1.2-4``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -43,6 +43,7 @@ stringdecomposer
    :depends _openmp_mutex: ``>=4.5``
    :depends biopython: 
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libstdcxx: ``>=13``
    :depends pandas: 
    :depends python: ``>=3.10,<3.11.0a0``
@@ -51,6 +52,10 @@ stringdecomposer
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

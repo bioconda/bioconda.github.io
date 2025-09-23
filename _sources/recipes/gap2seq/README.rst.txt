@@ -12,8 +12,9 @@ gap2seq
 
    Gap2Seq is a tool for filling gaps between contigs in genome assemblies.
 
-   :homepage: https://www.cs.helsinki.fi/u/lmsalmel/Gap2Seq/
-   :license: GPLv3
+   :homepage: https://www.cs.helsinki.fi/u/lmsalmel/Gap2Seq
+   :developer docs: https://github.com/rikuu/Gap2Seq
+   :license: GPL-3.0-or-later
    :recipe: /`gap2seq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gap2seq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gap2seq/meta.yaml>`_
 
    
@@ -28,10 +29,10 @@ gap2seq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.1.1a-5</code>,  <code>3.1.1a-4</code>,  <code>3.1.1a-3</code>,  <code>3.1.1a-2</code>,  <code>3.1.1a-1</code>,  <code>3.1.1a-0</code>,  <code>3.1-3</code>,  <code>3.1-2</code>,  <code>3.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1.1a-6</code>,  <code>3.1.1a-5</code>,  <code>3.1.1a-4</code>,  <code>3.1.1a-3</code>,  <code>3.1.1a-2</code>,  <code>3.1.1a-1</code>,  <code>3.1.1a-0</code>,  <code>3.1-3</code>,  <code>3.1-2</code>,  </span></summary>
       
 
-      ``3.1.1a-5``,  ``3.1.1a-4``,  ``3.1.1a-3``,  ``3.1.1a-2``,  ``3.1.1a-1``,  ``3.1.1a-0``,  ``3.1-3``,  ``3.1-2``,  ``3.1-1``,  ``3.1-0``,  ``2.1-4``,  ``2.1-3``,  ``2.1-2``,  ``2.1-1``,  ``2.1-0``,  ``2.0-8``,  ``2.0-7``,  ``2.0-6``,  ``2.0-5``,  ``2.0-4``,  ``2.0-1``
+      ``3.1.1a-6``,  ``3.1.1a-5``,  ``3.1.1a-4``,  ``3.1.1a-3``,  ``3.1.1a-2``,  ``3.1.1a-1``,  ``3.1.1a-0``,  ``3.1-3``,  ``3.1-2``,  ``3.1-1``,  ``3.1-0``,  ``2.1-4``,  ``2.1-3``,  ``2.1-2``,  ``2.1-1``,  ``2.1-0``,  ``2.0-8``,  ``2.0-7``,  ``2.0-6``,  ``2.0-5``,  ``2.0-4``,  ``2.0-1``
 
       
       .. raw:: html
@@ -40,20 +41,19 @@ gap2seq
       
 
    
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

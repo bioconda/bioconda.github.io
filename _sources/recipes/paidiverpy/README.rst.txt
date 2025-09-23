@@ -27,7 +27,7 @@ paidiverpy
       
       
 
-      ``0.1.4-0``,  ``0.1.3-0``
+      ``0.2.0-0``,  ``0.1.4-0``,  ``0.1.3-0``
 
       
 
@@ -57,6 +57,7 @@ paidiverpy
    :depends scipy: ``>=1.14``
    :depends shapely: ``2.0.7``
    :depends tqdm: ``>=4.66.4``
+   :depends xarray: 
    :requirements:
 
    :additional platforms:
@@ -107,7 +108,7 @@ paidiverpy
 
     <script>
         var package = "paidiverpy";
-        var versions = ["0.1.4","0.1.3"];
+        var versions = ["0.2.0","0.1.4","0.1.3"];
     </script>
 
 

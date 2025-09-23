@@ -10,10 +10,10 @@ short-read-connector
    :replaces_section_title:
    :noindex:
 
-   Short read connector enables the comparisons of two read sets
+   Short read connector enables the comparisons of two read sets.
 
    :homepage: https://github.com/GATB/short_read_connector
-   :license: AGPL / AGPL-3.0
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`short-read-connector <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/short-read-connector>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/short-read-connector/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ short-read-connector
       
       
 
-      ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.2.0-3``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
@@ -36,14 +36,13 @@ short-read-connector
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -91,7 +90,7 @@ short-read-connector
 
     <script>
         var package = "short-read-connector";
-        var versions = ["1.2.0","1.2.0","1.2.0"];
+        var versions = ["1.2.0","1.2.0","1.2.0","1.2.0"];
     </script>
 
 

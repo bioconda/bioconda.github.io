@@ -10,7 +10,7 @@ physher
    :replaces_section_title:
    :noindex:
 
-   A multi\-algorithmic framework for phylogenetic inference
+   A multi\-algorithmic framework for phylogenetic inference.
 
    :homepage: https://github.com/4ment/physher
    :license: GPL2 / GPL-2.0-or-later
@@ -28,21 +28,21 @@ physher
       
       
 
-      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``
+      ``2.0.1-3``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``
 
       
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -90,7 +90,7 @@ physher
 
     <script>
         var package = "physher";
-        var versions = ["2.0.1","2.0.1","2.0.0"];
+        var versions = ["2.0.1","2.0.1","2.0.1","2.0.0"];
     </script>
 
 

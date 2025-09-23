@@ -13,7 +13,7 @@ gangstr
    GangSTR is a tool for genome\-wide profiling tandem repeats from short reads.
 
    :homepage: https://github.com/gymreklab/GangSTR
-   :license: GPL-3.0-or-later
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`gangstr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gangstr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gangstr/meta.yaml>`_
    :links: doi: :doi:`10.1093/nar/gkz501`
 
@@ -28,24 +28,26 @@ gangstr
       
       
 
-      ``2.5.0-8``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``
+      ``2.5.0-10``,  ``2.5.0-8``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``
 
       
 
    
+   :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends htslib: ``>=1.20,<1.23.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
-   :depends nlopt: ``>=2.7.1,<2.8.0a0``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
+   :depends libgcc: ``>=13``
+   :depends liblzma: ``>=5.8.1,<6.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends nlopt: ``>=2.8.0,<2.9.0a0``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

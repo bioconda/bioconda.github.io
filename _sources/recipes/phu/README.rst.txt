@@ -33,11 +33,12 @@ phu
       
       
 
-      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.1.1-0``
+      ``0.4.3-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.1.1-0``
 
       
 
    
+   :depends hmmer: 
    :depends mypy: 
    :depends pandas: 
    :depends pyrodigal: 
@@ -97,7 +98,7 @@ phu
 
     <script>
         var package = "phu";
-        var versions = ["0.4.0","0.3.0","0.2.1","0.1.1"];
+        var versions = ["0.4.3","0.4.0","0.3.0","0.2.1","0.1.1"];
     </script>
 
 

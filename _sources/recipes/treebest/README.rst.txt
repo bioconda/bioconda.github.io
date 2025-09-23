@@ -12,7 +12,7 @@ treebest
 
    TreeBeST\: Tree Building guided by Species Tree\, used in the Ensembl Compara pipeline.
 
-   :homepage: http://treesoft.sourceforge.net/treebest.shtml
+   :homepage: https://treesoft.sourceforge.net/treebest.shtml
    :license: GPLv2
    :recipe: /`treebest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treebest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treebest/meta.yaml>`_
 
@@ -28,10 +28,10 @@ treebest
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.9.2.post1-6</code>,  <code>1.9.2.post1-5</code>,  <code>1.9.2.post1-4</code>,  <code>1.9.2.post1-3</code>,  <code>1.9.2.post1-2</code>,  <code>1.9.2.post1-1</code>,  <code>1.9.2.post1-0</code>,  <code>1.9.2.post0-0</code>,  <code>1.9.2_ep78-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.9.2.post1-7</code>,  <code>1.9.2.post1-6</code>,  <code>1.9.2.post1-5</code>,  <code>1.9.2.post1-4</code>,  <code>1.9.2.post1-3</code>,  <code>1.9.2.post1-2</code>,  <code>1.9.2.post1-1</code>,  <code>1.9.2.post1-0</code>,  <code>1.9.2.post0-0</code>,  </span></summary>
       
 
-      ``1.9.2.post1-6``,  ``1.9.2.post1-5``,  ``1.9.2.post1-4``,  ``1.9.2.post1-3``,  ``1.9.2.post1-2``,  ``1.9.2.post1-1``,  ``1.9.2.post1-0``,  ``1.9.2.post0-0``,  ``1.9.2_ep78-2``,  ``1.9.2_ep78-1``,  ``1.9.2_ep78-0``
+      ``1.9.2.post1-7``,  ``1.9.2.post1-6``,  ``1.9.2.post1-5``,  ``1.9.2.post1-4``,  ``1.9.2.post1-3``,  ``1.9.2.post1-2``,  ``1.9.2.post1-1``,  ``1.9.2.post1-0``,  ``1.9.2.post0-0``,  ``1.9.2_ep78-2``,  ``1.9.2_ep78-1``,  ``1.9.2_ep78-0``
 
       
       .. raw:: html
@@ -45,6 +45,10 @@ treebest
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

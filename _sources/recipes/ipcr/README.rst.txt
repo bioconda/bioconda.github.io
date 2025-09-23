@@ -27,11 +27,12 @@ ipcr
       
       
 
-      
+      ``2.0.0-0``,  ``1.1.0-0``
 
       
 
    
+   :depends __glibc: ``>=2.17``
    :requirements:
 
    :additional platforms:
@@ -82,7 +83,7 @@ ipcr
 
     <script>
         var package = "ipcr";
-        var versions = [];
+        var versions = ["2.0.0","1.1.0"];
     </script>
 
 

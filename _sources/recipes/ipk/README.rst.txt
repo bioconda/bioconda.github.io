@@ -15,6 +15,7 @@ ipk
    :homepage: https://github.com/phylo42/ipk
    :license: MIT / MIT
    :recipe: /`ipk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ipk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ipk/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btad692`
 
    IPK is a tool for computing phylo\-k\-mers for a fixed phylogeny. Please cite\: doi.org\/10.1093\/bioinformatics\/btad692
 
@@ -27,7 +28,7 @@ ipk
       
       
 
-      ``0.5.1-3``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``
+      ``0.5.1-4``,  ``0.5.1-3``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``
 
       
 
@@ -94,7 +95,7 @@ ipk
 
     <script>
         var package = "ipk";
-        var versions = ["0.5.1","0.5.1","0.5.1","0.5.1","0.5.0"];
+        var versions = ["0.5.1","0.5.1","0.5.1","0.5.1","0.5.1"];
     </script>
 
 

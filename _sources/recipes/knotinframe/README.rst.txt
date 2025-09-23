@@ -10,7 +10,7 @@ knotinframe
    :replaces_section_title:
    :noindex:
 
-   Predicts \-1 frameshift sites with simple pseudoknots
+   Predicts \-1 frameshift sites with simple pseudoknots.
 
    :homepage: https://bibiserv.cebitec.uni-bielefeld.de/knotinframe
    :license: GPL3 / GPL-3.0-or-later
@@ -28,7 +28,7 @@ knotinframe
       
       
 
-      ``2.3.2-1``,  ``2.3.2-0``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.14-1``,  ``2.2.14-0``
+      ``2.3.2-2``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.14-1``,  ``2.2.14-0``
 
       
 
@@ -44,7 +44,7 @@ knotinframe
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -92,7 +92,7 @@ knotinframe
 
     <script>
         var package = "knotinframe";
-        var versions = ["2.3.2","2.3.2","2.3.1","2.3.1","2.3.0"];
+        var versions = ["2.3.2","2.3.2","2.3.2","2.3.1","2.3.1"];
     </script>
 
 

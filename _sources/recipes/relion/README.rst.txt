@@ -30,10 +30,10 @@ relion
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.0.0-0</code>,  <code>4.0.2-2</code>,  <code>4.0.2-1</code>,  <code>4.0.2-0</code>,  <code>4.0.1-3</code>,  <code>4.0.1-2</code>,  <code>4.0.1-1</code>,  <code>4.0.1-0</code>,  <code>4.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.0.1-0</code>,  <code>5.0.0-0</code>,  <code>4.0.2-2</code>,  <code>4.0.2-1</code>,  <code>4.0.2-0</code>,  <code>4.0.1-3</code>,  <code>4.0.1-2</code>,  <code>4.0.1-1</code>,  <code>4.0.1-0</code>,  </span></summary>
       
 
-      ``5.0.0-0``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.2-0``,  ``4.0.1-3``,  ``4.0.1-2``,  ``4.0.1-1``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.1.3-0``
+      ``5.0.1-0``,  ``5.0.0-0``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.2-0``,  ``4.0.1-3``,  ``4.0.1-2``,  ``4.0.1-1``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.1.3-0``
 
       
       .. raw:: html
@@ -46,15 +46,15 @@ relion
    :depends fftw: ``>=3.3.10,<4.0a0``
    :depends libgcc: ``>=13``
    :depends libgomp: 
-   :depends liblzma: ``>=5.6.4,<6.0a0``
-   :depends libpng: ``>=1.6.46,<1.7.0a0``
+   :depends liblzma: ``>=5.8.1,<6.0a0``
+   :depends libpng: ``>=1.6.50,<1.7.0a0``
    :depends libstdcxx: ``>=13``
-   :depends libtiff: ``>=4.7.0,<4.8.0a0``
+   :depends libtiff: ``>=4.7.1,<4.8.0a0``
    :depends openmpi: ``>=4.1.6,<5.0a0``
    :depends pytorch: 
    :depends tbb: ``>=2021.13.0``
    :depends tbb-devel: 
-   :depends zstd: ``>=1.5.6,<1.6.0a0``
+   :depends zstd: ``>=1.5.7,<1.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -109,7 +109,7 @@ relion
 
     <script>
         var package = "relion";
-        var versions = ["5.0.0","4.0.2","4.0.2","4.0.2","4.0.1"];
+        var versions = ["5.0.1","5.0.0","4.0.2","4.0.2","4.0.2"];
     </script>
 
 

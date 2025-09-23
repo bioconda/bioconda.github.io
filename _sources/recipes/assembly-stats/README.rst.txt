@@ -13,7 +13,7 @@ assembly-stats
    Get assembly statistics from FASTA and FASTQ files
 
    :homepage: https://github.com/sanger-pathogens/assembly-stats
-   :license: GPL-3.0
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`assembly-stats <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/assembly-stats>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/assembly-stats/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ assembly-stats
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.1-9</code>,  <code>1.0.1-8</code>,  <code>1.0.1-7</code>,  <code>1.0.1-6</code>,  <code>1.0.1-5</code>,  <code>1.0.1-4</code>,  <code>1.0.1-3</code>,  <code>1.0.1-2</code>,  <code>1.0.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.1-10</code>,  <code>1.0.1-9</code>,  <code>1.0.1-8</code>,  <code>1.0.1-7</code>,  <code>1.0.1-6</code>,  <code>1.0.1-5</code>,  <code>1.0.1-4</code>,  <code>1.0.1-3</code>,  <code>1.0.1-2</code>,  </span></summary>
       
 
-      ``1.0.1-9``,  ``1.0.1-8``,  ``1.0.1-7``,  ``1.0.1-6``,  ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.1-10``,  ``1.0.1-9``,  ``1.0.1-8``,  ``1.0.1-7``,  ``1.0.1-6``,  ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -48,7 +48,7 @@ assembly-stats
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

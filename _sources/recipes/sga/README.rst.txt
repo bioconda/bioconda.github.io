@@ -13,7 +13,7 @@ sga
    SGA \- String Graph Assembler. SGA is a de novo assembler for DNA sequence reads. It is based on Gene Myers string graph formulation of assembly and uses the FM\-index\/Burrows\-Wheeler transform to efficiently find overlaps between sequence reads.
 
    :homepage: https://github.com/jts/sga
-   :license: GPL / GPLv3
+   :license: GPL / GPL-3.0-or-later
    :recipe: /`sga <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sga>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sga/meta.yaml>`_
    :links: biotools: :biotools:`sga`
 
@@ -29,10 +29,10 @@ sga
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.10.15-10</code>,  <code>0.10.15-9</code>,  <code>0.10.15-8</code>,  <code>0.10.15-7</code>,  <code>0.10.15-6</code>,  <code>0.10.15-5</code>,  <code>0.10.15-4</code>,  <code>0.10.15-3</code>,  <code>0.10.15-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10.15-11</code>,  <code>0.10.15-10</code>,  <code>0.10.15-9</code>,  <code>0.10.15-8</code>,  <code>0.10.15-7</code>,  <code>0.10.15-6</code>,  <code>0.10.15-5</code>,  <code>0.10.15-4</code>,  <code>0.10.15-3</code>,  </span></summary>
       
 
-      ``0.10.15-10``,  ``0.10.15-9``,  ``0.10.15-8``,  ``0.10.15-7``,  ``0.10.15-6``,  ``0.10.15-5``,  ``0.10.15-4``,  ``0.10.15-3``,  ``0.10.15-2``,  ``0.10.15-1``,  ``0.10.15-0``,  ``0.10.13-0``
+      ``0.10.15-11``,  ``0.10.15-10``,  ``0.10.15-9``,  ``0.10.15-8``,  ``0.10.15-7``,  ``0.10.15-6``,  ``0.10.15-5``,  ``0.10.15-4``,  ``0.10.15-3``,  ``0.10.15-2``,  ``0.10.15-1``,  ``0.10.15-0``,  ``0.10.13-0``
 
       
       .. raw:: html
@@ -41,15 +41,18 @@ sga
       
 
    
-   :depends bamtools: ``>=2.5.2,<2.6.0a0``
+   :depends bamtools: ``>=2.5.3,<3.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends sparsehash: 
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
