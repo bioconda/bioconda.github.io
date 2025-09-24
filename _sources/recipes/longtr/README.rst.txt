@@ -28,7 +28,7 @@ longtr
       
       
 
-      ``1.2-0``
+      ``1.2-1``,  ``1.2-0``
 
       
 
@@ -41,6 +41,10 @@ longtr
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -88,7 +92,7 @@ longtr
 
     <script>
         var package = "longtr";
-        var versions = ["1.2"];
+        var versions = ["1.2","1.2"];
     </script>
 
 

@@ -27,7 +27,7 @@ conifer
       
       
 
-      ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``1.0.3-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
 
@@ -40,7 +40,7 @@ conifer
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -88,7 +88,7 @@ conifer
 
     <script>
         var package = "conifer";
-        var versions = ["1.0.2","1.0.2","1.0.2"];
+        var versions = ["1.0.3","1.0.2","1.0.2","1.0.2"];
     </script>
 
 

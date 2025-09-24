@@ -10,10 +10,10 @@ perl-sys-info-driver-osx
    :replaces_section_title:
    :noindex:
 
-   OSX driver for Sys\:\:Info
+   OSX driver for Sys\:\:Info.
 
-   :homepage: http://metacpan.org/pod/Sys::Info::Driver::OSX
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/Sys::Info::Driver::OSX
+   :license: Perl_5
    :recipe: /`perl-sys-info-driver-osx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sys-info-driver-osx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sys-info-driver-osx/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-sys-info-driver-osx
       
       
 
-      ``0.7960-0``,  ``0.7959-1``,  ``0.7959-0``,  ``0.7958-0``
+      ``0.7963-0``,  ``0.7960-0``,  ``0.7959-1``,  ``0.7959-0``,  ``0.7958-0``
 
       
 
@@ -40,6 +40,10 @@ perl-sys-info-driver-osx
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -87,7 +91,7 @@ perl-sys-info-driver-osx
 
     <script>
         var package = "perl-sys-info-driver-osx";
-        var versions = ["0.7960","0.7959","0.7959","0.7958"];
+        var versions = ["0.7963","0.7960","0.7959","0.7959","0.7958"];
     </script>
 
 

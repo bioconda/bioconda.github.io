@@ -10,11 +10,12 @@ flash2
    :replaces_section_title:
    :noindex:
 
-   Merge paired\-end reads from fragments that are shorter than twice the read length
+   Merge paired\-end reads from fragments that are shorter than twice the read length.
 
    :homepage: https://github.com/dstreett/FLASH2
-   :license: GPLv3+
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`flash2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flash2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flash2/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btr507`, biotools: :biotools:`flash`, usegalaxy-eu: :usegalaxy-eu:`flash`
 
    
 
@@ -26,22 +27,29 @@ flash2
    :versions:
       
       
+      .. raw:: html
 
-      ``2.2.00-8``,  ``2.2.00-7``,  ``2.2.00-6``,  ``2.2.00-5``,  ``2.2.00-4``,  ``2.2.00-3``,  ``2.2.00-2``,  ``2.2.00-1``,  ``2.2.00-0``
+         <details><summary><span class="truncated-version-list"><code>2.2.00-9</code>,  <code>2.2.00-8</code>,  <code>2.2.00-7</code>,  <code>2.2.00-6</code>,  <code>2.2.00-5</code>,  <code>2.2.00-4</code>,  <code>2.2.00-3</code>,  <code>2.2.00-2</code>,  <code>2.2.00-1</code>,  </span></summary>
+      
 
+      ``2.2.00-9``,  ``2.2.00-8``,  ``2.2.00-7``,  ``2.2.00-6``,  ``2.2.00-5``,  ``2.2.00-4``,  ``2.2.00-3``,  ``2.2.00-2``,  ``2.2.00-1``,  ``2.2.00-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

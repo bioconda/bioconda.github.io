@@ -66,17 +66,20 @@
   <section id="imfusion">
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
-<em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">imfusion/0.3.2</span></span></dt>
+<em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">imfusion</span></span></dt>
 <dd><p>IM-Fusion - Tool for identifying transposon insertions and their effects from RNA-sequencing data</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/jrderuiter/imfusion">https://github.com/jrderuiter/imfusion</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/NKI-CCB/imfusion">https://github.com/NKI-CCB/imfusion</a></p>
 </dd>
-<dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>MIT</p>
+<dt class="field-even">Documentation<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://nki-ccb.github.io/imfusion">https://nki-ccb.github.io/imfusion</a></p>
 </dd>
-<dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/imfusion">imfusion</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/imfusion/0.3.2">0.3.2</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/imfusion/0.3.2/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">License<span class="colon">:</span></dt>
+<dd class="field-odd"><p>MIT / MIT</p>
+</dd>
+<dt class="field-even">Recipe<span class="colon">:</span></dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/imfusion">imfusion</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/imfusion/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -88,44 +91,36 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/imfusion"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/imfusion.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/imfusion"><img alt="docker_imfusion" src="https://quay.io/repository/biocontainers/imfusion/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.3.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.3.2-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.0-0</span></code></p>
 </dd>
 <dt class="field-even">depends bowtie<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends future<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends htseq<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.7.2</span></code></p>
-</dd>
+<dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends htslib<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&lt;1.4</span></code></p>
-</dd>
+<dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends intervaltree<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends intervaltree<span class="colon">:</span></dt>
+<dt class="field-odd">depends matplotlib-base<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends matplotlib<span class="colon">:</span></dt>
+<dt class="field-even">depends numexpr<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends numexpr<span class="colon">:</span></dt>
+<dt class="field-odd">depends pandas<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends pandas<span class="colon">:</span></dt>
+<dt class="field-even">depends pathlib2<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends pathlib2<span class="colon">:</span></dt>
+<dt class="field-odd">depends pyfaidx<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends pyfaidx<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.4.8.1</span></code></p>
-</dd>
-<dt class="field-odd">depends pysam<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.9.1</span></code></p>
-</dd>
-<dt class="field-even">depends python<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">2.7*</span></code></p>
-</dd>
-<dt class="field-odd">depends scipy<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends seaborn<span class="colon">:</span></dt>
+<dt class="field-even">depends pysam<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends seaborn<span class="colon">:</span></dt>
+<dt class="field-odd">depends python<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&lt;3.10</span></code></p>
+</dd>
+<dt class="field-even">depends scipy<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends seaborn-base<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends star<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
@@ -178,7 +173,7 @@ others.</p>
 
 <script>
     var package = "imfusion";
-    var versions = ["0.3.2","0.3.0"];
+    var versions = ["0.3.2","0.3.2","0.3.0"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

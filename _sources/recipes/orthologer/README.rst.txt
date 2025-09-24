@@ -30,9 +30,17 @@ orthologer
    :versions:
       
       
+      .. raw:: html
 
-      ``3.8.0-0``,  ``3.7.1-0``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.2-0``,  ``3.3.1-0``
+         <details><summary><span class="truncated-version-list"><code>3.8.1-0</code>,  <code>3.8.0-0</code>,  <code>3.7.1-0</code>,  <code>3.5.0-1</code>,  <code>3.5.0-0</code>,  <code>3.4.2-0</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.2-0</code>,  </span></summary>
+      
 
+      ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.1-0``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.2-0``,  ``3.3.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -50,8 +58,8 @@ orthologer
    :depends libstdcxx: ``>=13``
    :depends mmseqs2: 
    :depends numpy: 
-   :depends python: ``>=3.11,<3.12.0a0``
-   :depends python_abi: ``3.11.* *_cp311``
+   :depends python: ``>=3.12,<3.13.0a0``
+   :depends python_abi: ``3.12.* *_cp312``
    :depends rsync: 
    :depends spdlog: ``>=1.12.0,<1.13.0a0``
    :depends wget: 
@@ -105,7 +113,7 @@ orthologer
 
     <script>
         var package = "orthologer";
-        var versions = ["3.8.0","3.7.1","3.5.0","3.5.0","3.4.2"];
+        var versions = ["3.8.1","3.8.0","3.7.1","3.5.0","3.5.0"];
     </script>
 
 

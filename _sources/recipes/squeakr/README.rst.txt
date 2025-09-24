@@ -10,7 +10,7 @@ squeakr
    :replaces_section_title:
    :noindex:
 
-   An Exact and Approximate k\-mer Counting System
+   An Exact and Approximate k\-mer Counting System.
 
    :homepage: https://github.com/splatlab/squeakr
    :license: BSD / BSD-3-Clause
@@ -28,10 +28,10 @@ squeakr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7-1</code>,  <code>0.7-0</code>,  <code>0.6-5</code>,  <code>0.6-4</code>,  <code>0.6-3</code>,  <code>0.6-2</code>,  <code>0.6-1</code>,  <code>0.6-0</code>,  <code>0.5-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8-0</code>,  <code>0.7-1</code>,  <code>0.7-0</code>,  <code>0.6-5</code>,  <code>0.6-4</code>,  <code>0.6-3</code>,  <code>0.6-2</code>,  <code>0.6-1</code>,  <code>0.6-0</code>,  </span></summary>
       
 
-      ``0.7-1``,  ``0.7-0``,  ``0.6-5``,  ``0.6-4``,  ``0.6-3``,  ``0.6-2``,  ``0.6-1``,  ``0.6-0``,  ``0.5-2``,  ``0.5-1``,  ``0.5-0``
+      ``0.8-0``,  ``0.7-1``,  ``0.7-0``,  ``0.6-5``,  ``0.6-4``,  ``0.6-3``,  ``0.6-2``,  ``0.6-1``,  ``0.6-0``,  ``0.5-2``,  ``0.5-1``,  ``0.5-0``
 
       
       .. raw:: html
@@ -42,10 +42,10 @@ squeakr
    
    :depends boost-cpp: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
-   :depends openssl: ``>=3.3.0,<4.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends openssl: ``>=3.5.3,<4.0a0``
    :depends pthread-stubs: 
    :requirements:
 
@@ -97,7 +97,7 @@ squeakr
 
     <script>
         var package = "squeakr";
-        var versions = ["0.7","0.7","0.6","0.6","0.6"];
+        var versions = ["0.8","0.7","0.7","0.6","0.6"];
     </script>
 
 

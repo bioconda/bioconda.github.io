@@ -10,9 +10,10 @@ tophat
    :replaces_section_title:
    :noindex:
 
-   A spliced read mapper for RNA\-Seq
+   A spliced read mapper for RNA\-Seq.
 
-   :homepage: http://ccb.jhu.edu/software/tophat/index.shtml
+   :homepage: http://ccb.jhu.edu/software/tophat
+   :developer docs: https://github.com/infphilo/tophat
    :license: Boost Software License
    :recipe: /`tophat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tophat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tophat/meta.yaml>`_
    :links: biotools: :biotools:`tophat2`, usegalaxy-eu: :usegalaxy-eu:`tophat2`
@@ -29,10 +30,10 @@ tophat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.1-3</code>,  <code>2.1.1-2</code>,  <code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.14-0</code>,  <code>2.0.13-6</code>,  <code>2.0.13-5</code>,  <code>2.0.13-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.2-0</code>,  <code>2.1.1-3</code>,  <code>2.1.1-2</code>,  <code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.14-0</code>,  <code>2.0.13-6</code>,  <code>2.0.13-5</code>,  </span></summary>
       
 
-      ``2.1.1-3``,  ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.14-0``,  ``2.0.13-6``,  ``2.0.13-5``,  ``2.0.13-4``,  ``2.0.13-3``,  ``2.0.13-2``
+      ``2.1.2-0``,  ``2.1.1-3``,  ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.14-0``,  ``2.0.13-6``,  ``2.0.13-5``,  ``2.0.13-4``,  ``2.0.13-3``,  ``2.0.13-2``
 
       
       .. raw:: html
@@ -41,11 +42,23 @@ tophat
       
 
    
-   :depends bowtie2: ``<=2.2.5``
-   :depends python: ``>=2.7,<2.8.0a0``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends boost-cpp: 
+   :depends bowtie2: 
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends ncurses: ``>=6.5,<7.0a0``
+   :depends python: ``>=3``
+   :depends setuptools: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -93,7 +106,7 @@ tophat
 
     <script>
         var package = "tophat";
-        var versions = ["2.1.1","2.1.1","2.1.1","2.1.1","2.1.0"];
+        var versions = ["2.1.2","2.1.1","2.1.1","2.1.1","2.1.1"];
     </script>
 
 

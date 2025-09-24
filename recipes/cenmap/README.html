@@ -76,7 +76,7 @@
 <dd class="field-even"><p><a class="reference external" href="https://github.com/logsdon-lab/CenMAP/blob/v1.0.4/README.md">https://github.com/logsdon-lab/CenMAP/blob/v1.0.4/README.md</a></p>
 </dd>
 <dt class="field-odd">License<span class="colon">:</span></dt>
-<dd class="field-odd"><p>MIT</p>
+<dd class="field-odd"><p>MIT / MIT</p>
 </dd>
 <dt class="field-even">Recipe<span class="colon">:</span></dt>
 <dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cenmap">cenmap</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cenmap/meta.yaml">meta.yaml</a></p>
@@ -91,23 +91,27 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/cenmap"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/cenmap.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/cenmap"><img alt="docker_cenmap" src="https://quay.io/repository/biocontainers/cenmap/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.4-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.4-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.4-0</span></code></p>
 </dd>
-<dt class="field-even">depends bedtools<span class="colon">:</span></dt>
+<dt class="field-even">depends bedops<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends cenplot<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.1.4</span></code></p>
-</dd>
-<dt class="field-even">depends censtats<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.1.0</span></code></p>
-</dd>
-<dt class="field-odd">depends coreutils<span class="colon">:</span></dt>
+<dt class="field-odd">depends bedtools<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends findutils<span class="colon">:</span></dt>
+<dt class="field-even">depends cenplot<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.1.4</span></code></p>
+</dd>
+<dt class="field-odd">depends censtats<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.1.0</span></code></p>
+</dd>
+<dt class="field-even">depends coreutils<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends gawk<span class="colon">:</span></dt>
+<dt class="field-odd">depends findutils<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends gzip<span class="colon">:</span></dt>
+<dt class="field-even">depends gawk<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends gzip<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends hmmer<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends intervaltree<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
@@ -136,45 +140,43 @@
 <dt class="field-even">depends pbmm2<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.17.0</span></code></p>
 </dd>
-<dt class="field-odd">depends pip<span class="colon">:</span></dt>
+<dt class="field-odd">depends polars<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends polars<span class="colon">:</span></dt>
+<dt class="field-even">depends pyarrow<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends pyarrow<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends python<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.12</span></code></p>
+<dt class="field-odd">depends python<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.12</span></code></p>
 </dd>
-<dt class="field-odd">depends pyyaml<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends repeatmasker<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">4.1.7p1</span></code></p>
-</dd>
-<dt class="field-odd">depends rustybam<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends samtools<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.13</span></code></p>
-</dd>
-<dt class="field-odd">depends scipy<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends seaborn<span class="colon">:</span></dt>
+<dt class="field-even">depends pyyaml<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends seqkit<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends seqtk<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends snakemake<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=8.24.0,&lt;9.11.4</span></code></p>
+<dt class="field-odd">depends repeatmasker<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">4.1.7p1</span></code></p>
 </dd>
-<dt class="field-even">depends srf-n-trf<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.1.1</span></code></p>
-</dd>
-<dt class="field-odd">depends stringdecomposer<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">requirements<span class="colon">:</span></dt>
+<dt class="field-even">depends rustybam<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
+<dt class="field-odd">depends samtools<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.13</span></code></p>
+</dd>
+<dt class="field-even">depends scipy<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends seaborn<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends seqkit<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends seqtk<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends snakemake<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=8.24.0,&lt;9.11.4</span></code></p>
+</dd>
+<dt class="field-odd">depends srf-n-trf<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.1.1</span></code></p>
+</dd>
+<dt class="field-even">depends stringdecomposer<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">requirements<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">additional platforms<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -209,7 +211,7 @@ others.</p>
 
 <script>
     var package = "cenmap";
-    var versions = ["1.0.4"];
+    var versions = ["1.0.4","1.0.4"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

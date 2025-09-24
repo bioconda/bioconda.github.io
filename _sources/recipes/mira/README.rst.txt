@@ -10,12 +10,14 @@ mira
    :replaces_section_title:
    :noindex:
 
-   MIRA is a whole genome shotgun and EST sequence assembler for Sanger\, 454\, Solexa \(Illumina\)\, IonTorrent data and PacBio \(the later at the moment only CCS and error\-corrected CLR reads\)
+   MIRA is a whole genome shotgun and EST sequence assembler for Sanger\, 454\, Solexa \(Illumina\)\, IonTorrent data and PacBio \(the later at the moment only CCS and error\-corrected CLR reads\).
 
-   :homepage: https://sourceforge.net/p/mira-assembler/wiki/Home/
-   :license: GNU General Public License v2 or later (GPLv2+)
+   :homepage: https://github.com/DrMicrobit/mira
+   :documentation: https://mira-assembler.sourceforge.net/docs/DefinitiveGuideToMIRA.html
+   
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`mira <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mira>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mira/meta.yaml>`_
-   :links: biotools: :biotools:`mira`
+   :links: biotools: :biotools:`mira`, usegalaxy-eu: :usegalaxy-eu:`mira_assembler`, doi: :doi:`10.1101/gr.1917404`
 
    
 
@@ -27,15 +29,36 @@ mira
    :versions:
       
       
+      .. raw:: html
 
-      ``4.9.6-1``,  ``4.9.6-0``,  ``4.9.5-1``,  ``4.9.5-0``,  ``4.0.2-3``,  ``4.0.2-2``,  ``4.0.2-1``,  ``3.4.1.1-1``,  ``3.4.1.1-0``
+         <details><summary><span class="truncated-version-list"><code>5.0.0rc2-0</code>,  <code>4.9.6-1</code>,  <code>4.9.6-0</code>,  <code>4.9.5-1</code>,  <code>4.9.5-0</code>,  <code>4.0.2-3</code>,  <code>4.0.2-2</code>,  <code>4.0.2-1</code>,  <code>3.4.1.1-1</code>,  </span></summary>
+      
 
+      ``5.0.0rc2-0``,  ``4.9.6-1``,  ``4.9.6-0``,  ``4.9.5-1``,  ``4.9.5-0``,  ``4.0.2-3``,  ``4.0.2-2``,  ``4.0.2-1``,  ``3.4.1.1-1``,  ``3.4.1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
+   :depends boost-cpp: 
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends expat: 
+   :depends libexpat: ``>=2.7.1,<3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -83,7 +106,7 @@ mira
 
     <script>
         var package = "mira";
-        var versions = ["4.9.6","4.9.6","4.9.5","4.9.5","4.0.2"];
+        var versions = ["5.0.0rc2","4.9.6","4.9.6","4.9.5","4.9.5"];
     </script>
 
 

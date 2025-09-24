@@ -10,7 +10,7 @@ genomeconstellation
    :replaces_section_title:
    :noindex:
 
-   Fast\, accurate and versatile k\-mer based classification system
+   Fast\, accurate and versatile k\-mer based classification system.
 
    :homepage: https://bitbucket.org/berkeleylab/jgi-genomeconstellation
    :license: BSD
@@ -28,7 +28,7 @@ genomeconstellation
       
       
 
-      ``0.21.1-6``,  ``0.21.1-5``,  ``0.21.1-4``,  ``0.21.1-3``,  ``0.21.1-2``,  ``0.21.1-1``,  ``0.21.1-0``
+      ``0.21.1-7``,  ``0.21.1-6``,  ``0.21.1-5``,  ``0.21.1-4``,  ``0.21.1-3``,  ``0.21.1-2``,  ``0.21.1-1``,  ``0.21.1-0``
 
       
 
@@ -40,6 +40,10 @@ genomeconstellation
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

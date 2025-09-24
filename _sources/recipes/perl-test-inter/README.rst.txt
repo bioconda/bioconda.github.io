@@ -10,10 +10,10 @@ perl-test-inter
    :replaces_section_title:
    :noindex:
 
-   framework for more readable interactive test scripts
+   Framework for more readable interactive test scripts.
 
-   :homepage: http://metacpan.org/pod/Test::Inter
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/Test::Inter
+   :license: Perl_5
    :recipe: /`perl-test-inter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-inter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-inter/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-test-inter
       
       
 
-      ``1.10-0``,  ``1.09-1``,  ``1.09-0``,  ``1.07-0``,  ``1.06-1``,  ``1.06-0``
+      ``1.12-0``,  ``1.10-0``,  ``1.09-1``,  ``1.09-0``,  ``1.07-0``,  ``1.06-1``,  ``1.06-0``
 
       
 
@@ -83,7 +83,7 @@ perl-test-inter
 
     <script>
         var package = "perl-test-inter";
-        var versions = ["1.10","1.09","1.09","1.07","1.06"];
+        var versions = ["1.12","1.10","1.09","1.09","1.07"];
     </script>
 
 

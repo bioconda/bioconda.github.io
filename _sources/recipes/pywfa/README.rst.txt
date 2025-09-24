@@ -10,10 +10,10 @@ pywfa
    :replaces_section_title:
    :noindex:
 
-   A python wrapper for wavefront alignment using WFA2\-lib
+   A python wrapper for wavefront alignment using WFA2\-lib.
 
    :homepage: https://github.com/kcleal/pywfa
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`pywfa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pywfa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pywfa/meta.yaml>`_
 
    
@@ -26,18 +26,30 @@ pywfa
    :versions:
       
       
+      .. raw:: html
 
-      ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-2``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.5.1-4</code>,  <code>0.5.1-2</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.5.0-2</code>,  <code>0.5.0-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-2</code>,  <code>0.4.1-1</code>,  </span></summary>
+      
 
+      ``0.5.1-4``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-2``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends python_abi: ``3.8.* *_cp38``
+   :depends libgcc: ``>=13``
+   :depends python: ``>=3.9,<3.10.0a0``
+   :depends python_abi: ``3.9.* *_cp39``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -85,7 +97,7 @@ pywfa
 
     <script>
         var package = "pywfa";
-        var versions = ["0.5.1","0.5.1","0.5.1","0.5.0","0.5.0"];
+        var versions = ["0.5.1","0.5.1","0.5.1","0.5.1","0.5.0"];
     </script>
 
 

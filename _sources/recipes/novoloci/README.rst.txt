@@ -28,7 +28,7 @@ novoloci
       
       
 
-      ``0.3-0``
+      ``0.4-0``,  ``0.3-0``
 
       
 
@@ -88,7 +88,7 @@ novoloci
 
     <script>
         var package = "novoloci";
-        var versions = ["0.3"];
+        var versions = ["0.4","0.3"];
     </script>
 
 

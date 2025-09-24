@@ -10,9 +10,9 @@ vmatch
    :replaces_section_title:
    :noindex:
 
-   The Vmatch large scale sequence analysis software
+   The Vmatch large scale sequence analysis software.
 
-   :homepage: http://www.vmatch.de/
+   :homepage: http://www.vmatch.de
    :license: OTHER / Unknown
    :recipe: /`vmatch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vmatch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vmatch/meta.yaml>`_
    :links: biotools: :biotools:`vmatch`
@@ -28,11 +28,12 @@ vmatch
       
       
 
-      ``2.3.0-6``,  ``2.3.0-5``,  ``2.3.0-4``,  ``2.3.0-3``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``
+      ``2.3.1-0``,  ``2.3.0-6``,  ``2.3.0-5``,  ``2.3.0-4``,  ``2.3.0-3``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``
 
       
 
    
+   :depends libgcc: ``>=13``
    :depends perl: ``>=5.10,<6``
    :requirements:
 
@@ -84,7 +85,7 @@ vmatch
 
     <script>
         var package = "vmatch";
-        var versions = ["2.3.0","2.3.0","2.3.0","2.3.0","2.3.0"];
+        var versions = ["2.3.1","2.3.0","2.3.0","2.3.0","2.3.0"];
     </script>
 
 

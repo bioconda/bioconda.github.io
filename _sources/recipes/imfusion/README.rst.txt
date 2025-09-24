@@ -6,15 +6,17 @@
 imfusion
 ========
 
-.. conda:recipe:: imfusion/0.3.2
+.. conda:recipe:: imfusion
    :replaces_section_title:
    :noindex:
 
    IM\-Fusion \- Tool for identifying transposon insertions and their effects from RNA\-sequencing data
 
-   :homepage: https://github.com/jrderuiter/imfusion
-   :license: MIT
-   :recipe: /`imfusion <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/imfusion>`_/`0.3.2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/imfusion/0.3.2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/imfusion/0.3.2/meta.yaml>`_
+   :homepage: https://github.com/NKI-CCB/imfusion
+   :documentation: https://nki-ccb.github.io/imfusion
+   
+   :license: MIT / MIT
+   :recipe: /`imfusion <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/imfusion>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/imfusion/meta.yaml>`_
 
    
 
@@ -27,27 +29,25 @@ imfusion
       
       
 
-      ``0.3.2-0``,  ``0.3.0-0``
+      ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.0-0``
 
       
 
    
    :depends bowtie: 
    :depends future: 
-   :depends htseq: ``>=0.7.2``
-   :depends htslib: ``<1.4``
+   :depends htseq: 
+   :depends htslib: 
    :depends intervaltree: 
-   :depends intervaltree: 
-   :depends matplotlib: 
+   :depends matplotlib-base: 
    :depends numexpr: 
    :depends pandas: 
    :depends pathlib2: 
-   :depends pyfaidx: ``>=0.4.8.1``
-   :depends pysam: ``>=0.9.1``
-   :depends python: ``2.7*``
+   :depends pyfaidx: 
+   :depends pysam: 
+   :depends python: ``<3.10``
    :depends scipy: 
-   :depends seaborn: 
-   :depends seaborn: 
+   :depends seaborn-base: 
    :depends star: 
    :depends stringtie: 
    :depends subread: 
@@ -104,7 +104,7 @@ imfusion
 
     <script>
         var package = "imfusion";
-        var versions = ["0.3.2","0.3.0"];
+        var versions = ["0.3.2","0.3.2","0.3.0"];
     </script>
 
 

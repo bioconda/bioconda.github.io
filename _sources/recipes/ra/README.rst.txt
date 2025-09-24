@@ -13,8 +13,9 @@ ra
    Ra is short for RNA Assembler and it is a C\+\+ implementation of an overlap\-layout\-consensus transcriptome assembler.
 
    :homepage: https://github.com/mariokostelac/ra
-   :license: GPL3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`ra <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ra>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ra/meta.yaml>`_
+   :links: biotools: :biotools:`ra`
 
    
 
@@ -27,16 +28,22 @@ ra
       
       
 
-      ``0.9-6``,  ``0.9-5``,  ``0.9-4``,  ``0.9-3``,  ``0.9-2``,  ``0.9-1``,  ``0.9-0``,  ``0.2.1-0``
+      ``0.9-8``,  ``0.9-6``,  ``0.9-5``,  ``0.9-4``,  ``0.9-3``,  ``0.9-2``,  ``0.9-1``,  ``0.9-0``,  ``0.2.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

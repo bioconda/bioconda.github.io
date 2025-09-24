@@ -15,7 +15,7 @@ cenmap
    :homepage: https://github.com/logsdon-lab/CenMAP
    :documentation: https://github.com/logsdon-lab/CenMAP/blob/v1.0.4/README.md
    
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`cenmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cenmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cenmap/meta.yaml>`_
 
    
@@ -29,11 +29,12 @@ cenmap
       
       
 
-      ``1.0.4-0``
+      ``1.0.4-1``,  ``1.0.4-0``
 
       
 
    
+   :depends bedops: 
    :depends bedtools: 
    :depends cenplot: ``>=0.1.4``
    :depends censtats: ``>=0.1.0``
@@ -41,6 +42,7 @@ cenmap
    :depends findutils: 
    :depends gawk: 
    :depends gzip: 
+   :depends hmmer: 
    :depends intervaltree: 
    :depends kmc: ``>=3.2.4``
    :depends libgcc: ``>=13``
@@ -51,7 +53,6 @@ cenmap
    :depends numpy: 
    :depends ont-modkit: ``>=0.3.2``
    :depends pbmm2: ``>=1.17.0``
-   :depends pip: 
    :depends polars: 
    :depends pyarrow: 
    :depends python: ``>=3.12``
@@ -116,7 +117,7 @@ cenmap
 
     <script>
         var package = "cenmap";
-        var versions = ["1.0.4"];
+        var versions = ["1.0.4","1.0.4"];
     </script>
 
 

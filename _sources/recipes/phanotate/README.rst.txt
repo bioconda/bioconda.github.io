@@ -31,10 +31,10 @@ phanotate
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.7-0</code>,  <code>1.6.6-0</code>,  <code>1.6.5-1</code>,  <code>1.6.5-0</code>,  <code>1.6.4-0</code>,  <code>1.5.1-1</code>,  <code>1.5.1-0</code>,  <code>1.5.0-2</code>,  <code>1.5.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.7-1</code>,  <code>1.6.7-0</code>,  <code>1.6.6-0</code>,  <code>1.6.5-1</code>,  <code>1.6.5-0</code>,  <code>1.6.4-0</code>,  <code>1.5.1-1</code>,  <code>1.5.1-0</code>,  <code>1.5.0-2</code>,  </span></summary>
       
 
-      ``1.6.7-0``,  ``1.6.6-0``,  ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.4-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``
+      ``1.6.7-1``,  ``1.6.7-0``,  ``1.6.6-0``,  ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.4-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``
 
       
       .. raw:: html
@@ -44,7 +44,6 @@ phanotate
 
    
    :depends backports.tempfile: 
-   :depends fastpath: 
    :depends genbank: 
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
@@ -52,7 +51,7 @@ phanotate
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends scipy: 
-   :depends seaborn: 
+   :depends seaborn-base: 
    :depends setuptools: 
    :depends statsmodels: 
    :depends textwrap3: 
@@ -60,6 +59,10 @@ phanotate
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -107,7 +110,7 @@ phanotate
 
     <script>
         var package = "phanotate";
-        var versions = ["1.6.7","1.6.6","1.6.5","1.6.5","1.6.4"];
+        var versions = ["1.6.7","1.6.7","1.6.6","1.6.5","1.6.5"];
     </script>
 
 

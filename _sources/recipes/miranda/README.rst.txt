@@ -10,9 +10,10 @@ miranda
    :replaces_section_title:
    :noindex:
 
-   An algorithm for finding genomic targets for microRNAs
+   An algorithm for finding genomic targets for microRNAs.
 
-   :homepage: http://www.microrna.org/
+   :homepage: http://www.microrna.org
+   :developer docs: https://github.com/hacktrackgnulinux/miranda
    :license: GPLv2 + RNAlib license (no commercial redistribution)
    :recipe: /`miranda <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/miranda>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/miranda/meta.yaml>`_
 
@@ -27,7 +28,7 @@ miranda
       
       
 
-      ``3.3a-8``,  ``3.3a-6``,  ``3.3a-5``,  ``3.3a-4``,  ``3.3a-3``,  ``3.3a-2``,  ``3.3a-1``,  ``3.3a-0``
+      ``3.3a-9``,  ``3.3a-8``,  ``3.3a-6``,  ``3.3a-5``,  ``3.3a-4``,  ``3.3a-3``,  ``3.3a-2``,  ``3.3a-1``,  ``3.3a-0``
 
       
 
@@ -39,7 +40,7 @@ miranda
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

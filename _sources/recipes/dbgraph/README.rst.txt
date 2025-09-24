@@ -12,8 +12,8 @@ dbgraph
 
    A graph\-centric approach for metagenome\-guided peptide identification in metaproteomics. 
 
-   :homepage: https://github.com/COL-IU/graph2pro-var/tree/master/Graph2Pro
-   :license: GNU General Public License
+   :homepage: https://github.com/jj-umn/graph2pro-var
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`dbgraph <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dbgraph>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dbgraph/meta.yaml>`_
 
    Includes program DBGraph2Pro and DBGraphPep2Pro. Creates a peptide and protein database from graph generated from nucleotide sequencing data using MEGAHIT or MetaSpades. A graph\-centric approach for metagenome\-guided peptide identification in metaproteomics. 
@@ -27,16 +27,20 @@ dbgraph
       
       
 
-      ``1.0.0-0``,  ``v1.0.0-1``
+      ``1.0.0-2``,  ``1.0.0-0``,  ``v1.0.0-1``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -84,7 +88,7 @@ dbgraph
 
     <script>
         var package = "dbgraph";
-        var versions = ["1.0.0","v1.0.0"];
+        var versions = ["1.0.0","1.0.0","v1.0.0"];
     </script>
 
 

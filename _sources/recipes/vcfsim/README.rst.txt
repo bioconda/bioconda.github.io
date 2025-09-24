@@ -10,9 +10,9 @@ vcfsim
    :replaces_section_title:
    :noindex:
 
-   Script for generating simulated VCF\'s leveraging a coalescent simulating backend.
+   Script for generating simulated VCF\'s leveraging a coalescent simulating backend
 
-   :homepage: https://github.com/Pie115/VCFSimulator-SamukLab
+   :homepage: https://github.com/samuk-lab/vcfsim
    :license: MIT
    :recipe: /`vcfsim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcfsim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcfsim/meta.yaml>`_
 
@@ -29,10 +29,10 @@ vcfsim
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.24.alpha-0</code>,  <code>1.0.23.alpha-0</code>,  <code>1.0.22.alpha-0</code>,  <code>1.0.18.alpha-0</code>,  <code>1.0.16.alpha-0</code>,  <code>1.0.15.alpha-0</code>,  <code>1.0.13.alpha-0</code>,  <code>1.0.12.alpha-0</code>,  <code>1.0.11.alpha-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.24.alpha-2</code>,  <code>1.0.24.alpha-0</code>,  <code>1.0.23.alpha-0</code>,  <code>1.0.22.alpha-0</code>,  <code>1.0.18.alpha-0</code>,  <code>1.0.16.alpha-0</code>,  <code>1.0.15.alpha-0</code>,  <code>1.0.13.alpha-0</code>,  <code>1.0.12.alpha-0</code>,  </span></summary>
       
 
-      ``1.0.24.alpha-0``,  ``1.0.23.alpha-0``,  ``1.0.22.alpha-0``,  ``1.0.18.alpha-0``,  ``1.0.16.alpha-0``,  ``1.0.15.alpha-0``,  ``1.0.13.alpha-0``,  ``1.0.12.alpha-0``,  ``1.0.11.alpha-0``,  ``1.0.10.alpha-0``,  ``1.0.9.alpha-0``,  ``1.0.8.alpha-0``
+      ``1.0.24.alpha-2``,  ``1.0.24.alpha-0``,  ``1.0.23.alpha-0``,  ``1.0.22.alpha-0``,  ``1.0.18.alpha-0``,  ``1.0.16.alpha-0``,  ``1.0.15.alpha-0``,  ``1.0.13.alpha-0``,  ``1.0.12.alpha-0``,  ``1.0.11.alpha-0``,  ``1.0.10.alpha-0``,  ``1.0.9.alpha-0``,  ``1.0.8.alpha-0``
 
       
       .. raw:: html
@@ -96,7 +96,7 @@ vcfsim
 
     <script>
         var package = "vcfsim";
-        var versions = ["1.0.24.alpha","1.0.23.alpha","1.0.22.alpha","1.0.18.alpha","1.0.16.alpha"];
+        var versions = ["1.0.24.alpha","1.0.24.alpha","1.0.23.alpha","1.0.22.alpha","1.0.18.alpha"];
     </script>
 
 
