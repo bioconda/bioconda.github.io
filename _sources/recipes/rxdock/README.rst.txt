@@ -13,8 +13,8 @@ rxdock
    RxDock is a fork of rDock \(GitLab\)\, a fast\, versatile and open\-source program for docking ligands to proteins and nucleic acids.
 
    :homepage: https://www.rxdock.org
-   :developer docs: https://gitlab.com/rxdock/rxdock/
-   :license: LGPL-3.0
+   :developer docs: https://gitlab.com/rxdock/rxdock
+   :license: LGPL / LGPL-3.0-or-later
    :recipe: /`rxdock <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rxdock>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rxdock/meta.yaml>`_
    :links: usegalaxy-eu: :usegalaxy-eu:`rxdock_rbdock`
 
@@ -29,20 +29,24 @@ rxdock
       
       
 
-      ``2013.1.1_148c5bd1-1``,  ``2013.1.1_148c5bd1-0``,  ``2013.1.0_b93747f3-0``
+      ``2013.1.1_148c5bd1-3``,  ``2013.1.1_148c5bd1-1``,  ``2013.1.1_148c5bd1-0``,  ``2013.1.0_b93747f3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends numpy: 
    :depends openbabel: 
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends python: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -90,7 +94,7 @@ rxdock
 
     <script>
         var package = "rxdock";
-        var versions = ["2013.1.1_148c5bd1","2013.1.1_148c5bd1","2013.1.0_b93747f3"];
+        var versions = ["2013.1.1_148c5bd1","2013.1.1_148c5bd1","2013.1.1_148c5bd1","2013.1.0_b93747f3"];
     </script>
 
 

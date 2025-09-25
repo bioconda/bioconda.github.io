@@ -29,10 +29,10 @@ relecov-tools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.0-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.5-0</code>,  <code>1.5.4-0</code>,  <code>1.5.3-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7.1-0</code>,  <code>1.7.0-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.5-0</code>,  <code>1.5.4-0</code>,  <code>1.5.3-0</code>,  <code>1.5.2-0</code>,  </span></summary>
       
 
-      ``1.7.0-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``
+      ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``
 
       
       .. raw:: html
@@ -111,7 +111,7 @@ relecov-tools
 
     <script>
         var package = "relecov-tools";
-        var versions = ["1.7.0","1.6.2","1.6.1","1.6.0","1.5.5"];
+        var versions = ["1.7.1","1.7.0","1.6.2","1.6.1","1.6.0"];
     </script>
 
 

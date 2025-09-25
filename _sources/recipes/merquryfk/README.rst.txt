@@ -13,7 +13,7 @@ merquryfk
    MerquryFK replaces meryl with the FastK k\-mer counter suite to considerably speed up analyses.
 
    :homepage: https://github.com/thegenemyers/MERQURY.FK
-   :documentation: https://github.com/thegenemyers/MERQURY.FK/blob/v1.1.2/README.md
+   :documentation: https://github.com/thegenemyers/MERQURY.FK/blob/v1.1.3/README.md
    
    :license: https://github.com/thegenemyers/MERQURY.FK/blob/main/LICENSE
    :recipe: /`merquryfk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/merquryfk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/merquryfk/meta.yaml>`_
@@ -29,14 +29,14 @@ merquryfk
       
       
 
-      ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends fastk: 
-   :depends libcurl: ``>=8.13.0,<9.0a0``
+   :depends libcurl: ``>=8.14.1,<9.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
@@ -98,7 +98,7 @@ merquryfk
 
     <script>
         var package = "merquryfk";
-        var versions = ["1.1.2","1.1.1","1.1.1","1.1.0","1.1.0"];
+        var versions = ["1.1.3","1.1.2","1.1.1","1.1.1","1.1.0"];
     </script>
 
 

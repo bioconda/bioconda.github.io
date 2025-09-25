@@ -10,12 +10,7 @@ vuegen
    :replaces_section_title:
    :noindex:
 
-   VueGen automates the creation of reports from bioinformatics outputs\, 
-   supporting formats like PDF\, HTML\, DOCX\, ODT\, PPTX\, Reveal.js\, 
-   Jupyter notebooks\, and Streamlit web applications. Users simply 
-   provide a directory with output files—such as plots\, tables\, networks\, 
-   Markdown text\, and HTML files—and VueGen compiles them into a structured report.
-
+   VueGen automates the creation of reports from bioinformatics outputs\, supporting formats like PDF\, HTML\, DOCX\, ODT\, PPTX\, Reveal.js\, Jupyter notebooks\, and Streamlit web applications. Users simply provide a directory with output files and VueGen compiles them into a structured report.
 
    :homepage: https://github.com/Multiomics-Analytics-Group/vuegen
    :documentation: https://vuegen.readthedocs.io
@@ -35,10 +30,10 @@ vuegen
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.0-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.3-1</code>,  <code>0.3.3-0</code>,  <code>0.3.2-2</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.2.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.3-1</code>,  <code>0.3.3-0</code>,  <code>0.3.2-2</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  </span></summary>
       
 
-      ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-2``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.2-1``,  ``0.2.2-0``
+      ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-2``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.2-1``,  ``0.2.2-0``
 
       
       .. raw:: html
@@ -58,7 +53,7 @@ vuegen
    :depends openpyxl: ``>=3.1.5,<4.0.0``
    :depends pandas: ``>=2.2.3,<3.0.0``
    :depends plotly: ``5.15.0.*``
-   :depends python: ``>=3.11,<4.0``
+   :depends python: ``>3.9.7,<4.0``
    :depends python-kaleido: ``0.2.0.*``
    :depends pyvis: ``>=0.3.2,<0.4.0``
    :depends pyyaml: ``>=6.0.2,<7.0.0``
@@ -117,7 +112,7 @@ vuegen
 
     <script>
         var package = "vuegen";
-        var versions = ["0.5.0","0.4.1","0.4.0","0.3.3","0.3.3"];
+        var versions = ["0.5.1","0.5.0","0.4.1","0.4.0","0.3.3"];
     </script>
 
 

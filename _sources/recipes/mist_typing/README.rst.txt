@@ -27,7 +27,7 @@ mist_typing
       
       
 
-      ``0.0.2-1``,  ``0.0.2-0``
+      ``0.0.3-0``,  ``0.0.2-1``,  ``0.0.2-0``
 
       
 
@@ -35,6 +35,7 @@ mist_typing
    :depends biopython: 
    :depends bs4: 
    :depends cd-hit: ``>=4.6.8``
+   :depends click: 
    :depends furl: 
    :depends minimap2: ``>=2.26``
    :depends mummer4: 
@@ -93,7 +94,7 @@ mist_typing
 
     <script>
         var package = "mist_typing";
-        var versions = ["0.0.2","0.0.2"];
+        var versions = ["0.0.3","0.0.2","0.0.2"];
     </script>
 
 

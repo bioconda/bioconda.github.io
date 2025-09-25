@@ -28,10 +28,10 @@ ggcaller
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.7-0</code>,  <code>1.3.6-0</code>,  <code>1.3.5-0</code>,  <code>1.3.4-0</code>,  <code>1.3.3-1</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.1-0</code>,  <code>1.3.7-0</code>,  <code>1.3.6-0</code>,  <code>1.3.5-0</code>,  <code>1.3.4-0</code>,  <code>1.3.3-1</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  </span></summary>
       
 
-      ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.0-0``
+      ``1.4.1-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ ggcaller
    :depends _openmp_mutex: ``>=4.5``
    :depends bcbio-gff: 
    :depends bifrost: ``>=1.2``
-   :depends bifrost: ``>=1.3.5,<1.4.0a0``
+   :depends bifrost: ``>=1.3.5,<2.0a0``
    :depends biopython: ``1.80.*``
    :depends boost-cpp: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
@@ -53,9 +53,9 @@ ggcaller
    :depends hmmer: 
    :depends intbitset: 
    :depends joblib: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends mafft: 
    :depends matplotlib-base: 
    :depends mkl: ``>=2022.2.1,<2023.0a0``
@@ -74,7 +74,7 @@ ggcaller
    :depends scipy: 
    :depends seaborn: 
    :depends snp-sites: 
-   :depends tbb: ``>=2021.12.0``
+   :depends tbb: ``>=2021.13.0``
    :depends tqdm: 
    :depends uncertainties: 
    :depends xorg-libxaw: 
@@ -137,7 +137,7 @@ ggcaller
 
     <script>
         var package = "ggcaller";
-        var versions = ["1.3.7","1.3.6","1.3.5","1.3.4","1.3.3"];
+        var versions = ["1.4.1","1.3.7","1.3.6","1.3.5","1.3.4"];
     </script>
 
 

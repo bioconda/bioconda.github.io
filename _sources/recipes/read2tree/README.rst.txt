@@ -28,7 +28,7 @@ read2tree
       
       
 
-      ``2.0.0-0``,  ``0.1.5-0``
+      ``2.0.1-0``,  ``2.0.0-0``,  ``0.1.5-0``
 
       
 
@@ -39,6 +39,7 @@ read2tree
    :depends iqtree: 
    :depends lxml: 
    :depends mafft: 
+   :depends minimap2: 
    :depends natsort: 
    :depends nextgenmap: 
    :depends ngmlr: 
@@ -102,7 +103,7 @@ read2tree
 
     <script>
         var package = "read2tree";
-        var versions = ["2.0.0","0.1.5"];
+        var versions = ["2.0.1","2.0.0","0.1.5"];
     </script>
 
 

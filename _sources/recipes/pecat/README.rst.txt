@@ -10,11 +10,12 @@ pecat
    :replaces_section_title:
    :noindex:
 
-   A phased error correction and assembly tool
+   A phased error correction and assembly tool.
 
    :homepage: https://github.com/lemene/PECAT
-   :license: BSD-2-Clause
+   :license: BSD / BSD-2-Clause
    :recipe: /`pecat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pecat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pecat/meta.yaml>`_
+   :links: biotools: :biotools:`pecat`, doi: :doi:`10.1038/s41467-024-47349-7`
 
    
 
@@ -27,7 +28,7 @@ pecat
       
       
 
-      ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.2-1``,  ``0.0.2-0``,  ``0.0.1-1``,  ``0.0.1-0``
+      ``0.0.3-2``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.2-1``,  ``0.0.2-0``,  ``0.0.1-1``,  ``0.0.1-0``
 
       
 
@@ -45,6 +46,10 @@ pecat
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -92,7 +97,7 @@ pecat
 
     <script>
         var package = "pecat";
-        var versions = ["0.0.3","0.0.3","0.0.2","0.0.2","0.0.1"];
+        var versions = ["0.0.3","0.0.3","0.0.3","0.0.2","0.0.2"];
     </script>
 
 
