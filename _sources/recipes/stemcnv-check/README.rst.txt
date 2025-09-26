@@ -13,7 +13,7 @@ stemcnv-check
    StemCNV\-check\: CNV Based Quality Control Workflow for Stem Cell SNP Array Data.
 
    :homepage: https://github.com/bihealth/StemCNV-check
-   :documentation: https://github.com/bihealth/StemCNV-check/blob/v0.5.4/README.md
+   :documentation: https://stemcnv-check.readthedocs.io
    
    :license: MIT / MIT
    :recipe: /`stemcnv-check <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stemcnv-check>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stemcnv-check/meta.yaml>`_
@@ -29,7 +29,7 @@ stemcnv-check
       
       
 
-      ``0.5.4-0``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``
+      ``1.0.0-0``,  ``0.5.4-0``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``
 
       
 
@@ -96,7 +96,7 @@ stemcnv-check
 
     <script>
         var package = "stemcnv-check";
-        var versions = ["0.5.4","0.5.3","0.5.3","0.5.2","0.5.1"];
+        var versions = ["1.0.0","0.5.4","0.5.3","0.5.3","0.5.2"];
     </script>
 
 

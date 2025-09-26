@@ -27,14 +27,14 @@ gnuplot-py
       
       
 
-      ``1.8-1``,  ``1.8-0``
+      ``1.8-2``,  ``1.8-1``,  ``1.8-0``
 
       
 
    
    :depends gnuplot: 
    :depends numpy: 
-   :depends python: ``>=2.7,<2.8.0a0``
+   :depends python: ``<3.12``
    :requirements:
 
    :additional platforms:
@@ -85,7 +85,7 @@ gnuplot-py
 
     <script>
         var package = "gnuplot-py";
-        var versions = ["1.8","1.8"];
+        var versions = ["1.8","1.8","1.8"];
     </script>
 
 

@@ -10,10 +10,10 @@ soapdenovo2-gapcloser
    :replaces_section_title:
    :noindex:
 
-   a tool named GapCloser for SOAPdenovo.
+   A tool named GapCloser for SOAPdenovo.
 
-   :homepage: http://soap.genomics.org.cn/soapdenovo.html
-   :license: GNU
+   :homepage: https://sourceforge.net/projects/soapdenovo2/files/GapCloser
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`soapdenovo2-gapcloser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/soapdenovo2-gapcloser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/soapdenovo2-gapcloser/meta.yaml>`_
 
    
@@ -27,16 +27,21 @@ soapdenovo2-gapcloser
       
       
 
-      ``1.12-2``,  ``1.12-1``,  ``1.12-0``
+      ``1.12-3``,  ``1.12-2``,  ``1.12-1``,  ``1.12-0``
 
       
 
    
-   :depends libstdcxx-ng: ``>=4.9``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -84,7 +89,7 @@ soapdenovo2-gapcloser
 
     <script>
         var package = "soapdenovo2-gapcloser";
-        var versions = ["1.12","1.12","1.12"];
+        var versions = ["1.12","1.12","1.12","1.12"];
     </script>
 
 

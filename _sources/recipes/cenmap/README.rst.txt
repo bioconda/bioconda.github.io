@@ -29,7 +29,7 @@ cenmap
       
       
 
-      ``1.0.4-1``,  ``1.0.4-0``
+      ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``
 
       
 
@@ -57,7 +57,7 @@ cenmap
    :depends pyarrow: 
    :depends python: ``>=3.12``
    :depends pyyaml: 
-   :depends repeatmasker: ``4.1.7p1``
+   :depends repeatmasker: ``4.1.2.p1``
    :depends rustybam: 
    :depends samtools: ``>=1.13``
    :depends scipy: 
@@ -117,7 +117,7 @@ cenmap
 
     <script>
         var package = "cenmap";
-        var versions = ["1.0.4","1.0.4"];
+        var versions = ["1.0.4","1.0.4","1.0.4"];
     </script>
 
 

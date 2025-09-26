@@ -10,10 +10,10 @@ clustalo
    :replaces_section_title:
    :noindex:
 
-   Latest version of Clustal\: a multiple sequence alignment program for DNA or proteins
+   Latest version of Clustal\: a multiple sequence alignment program for DNA or proteins.
 
-   :homepage: http://www.clustal.org/omega/
-   :license: GPLv2
+   :homepage: http://www.clustal.org/omega
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`clustalo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clustalo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clustalo/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ clustalo
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.4-9</code>,  <code>1.2.4-8</code>,  <code>1.2.4-7</code>,  <code>1.2.4-6</code>,  <code>1.2.4-5</code>,  <code>1.2.4-4</code>,  <code>1.2.4-3</code>,  <code>1.2.4-2</code>,  <code>1.2.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.4-10</code>,  <code>1.2.4-9</code>,  <code>1.2.4-8</code>,  <code>1.2.4-7</code>,  <code>1.2.4-6</code>,  <code>1.2.4-5</code>,  <code>1.2.4-4</code>,  <code>1.2.4-3</code>,  <code>1.2.4-2</code>,  </span></summary>
       
 
-      ``1.2.4-9``,  ``1.2.4-8``,  ``1.2.4-7``,  ``1.2.4-6``,  ``1.2.4-5``,  ``1.2.4-4``,  ``1.2.4-3``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``
+      ``1.2.4-10``,  ``1.2.4-9``,  ``1.2.4-8``,  ``1.2.4-7``,  ``1.2.4-6``,  ``1.2.4-5``,  ``1.2.4-4``,  ``1.2.4-3``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``
 
       
       .. raw:: html
@@ -49,7 +49,7 @@ clustalo
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

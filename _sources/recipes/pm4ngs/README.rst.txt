@@ -10,10 +10,9 @@ pm4ngs
    :replaces_section_title:
    :noindex:
 
-   PM4NGS generates a standard organizational structure for Next Generation Sequencing \(ngs\) data analysis
+   PM4NGS generates a standard organizational structure for Next Generation Sequencing \(ngs\) data analysis.
 
-   :homepage: https://pypi.org/project/pm4ngs/
-   :developer docs: https://github.com/ncbi/pm4ngs
+   :homepage: https://github.com/ncbi/pm4ngs
    :license: PUBLIC-DOMAIN / Public Domain
    :recipe: /`pm4ngs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pm4ngs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pm4ngs/meta.yaml>`_
 
@@ -29,10 +28,10 @@ pm4ngs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.21-0</code>,  <code>0.0.20-0</code>,  <code>0.0.19-0</code>,  <code>0.0.18-0</code>,  <code>0.0.17-0</code>,  <code>0.0.16-0</code>,  <code>0.0.15-0</code>,  <code>0.0.14-0</code>,  <code>0.0.13-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.2-0</code>,  <code>0.0.21-0</code>,  <code>0.0.20-0</code>,  <code>0.0.19-0</code>,  <code>0.0.18-0</code>,  <code>0.0.17-0</code>,  <code>0.0.16-0</code>,  <code>0.0.15-0</code>,  <code>0.0.14-0</code>,  </span></summary>
       
 
-      ``0.0.21-0``,  ``0.0.20-0``,  ``0.0.19-0``,  ``0.0.18-0``,  ``0.0.17-0``,  ``0.0.16-0``,  ``0.0.15-0``,  ``0.0.14-0``,  ``0.0.13-0``,  ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.1-0``
+      ``0.1.2-0``,  ``0.0.21-0``,  ``0.0.20-0``,  ``0.0.19-0``,  ``0.0.18-0``,  ``0.0.17-0``,  ``0.0.16-0``,  ``0.0.15-0``,  ``0.0.14-0``,  ``0.0.13-0``,  ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -46,7 +45,6 @@ pm4ngs
    :depends cookiecutter: 
    :depends cwltool: 
    :depends docker-py: 
-   :depends galaxy-tool-util: 
    :depends gitpython: 
    :depends goenrichment: 
    :depends jupyter: 
@@ -55,12 +53,11 @@ pm4ngs
    :depends numpy: 
    :depends pandas: 
    :depends pdf2image: 
-   :depends poppler: 
-   :depends python: ``>=3.7``
+   :depends python: ``>=3.9``
    :depends pyyaml: 
    :depends requests: 
    :depends scipy: 
-   :depends seaborn: 
+   :depends seaborn-base: 
    :depends statsmodels: 
    :depends urllib3: 
    :depends xmltodict: 
@@ -114,7 +111,7 @@ pm4ngs
 
     <script>
         var package = "pm4ngs";
-        var versions = ["0.0.21","0.0.20","0.0.19","0.0.18","0.0.17"];
+        var versions = ["0.1.2","0.0.21","0.0.20","0.0.19","0.0.18"];
     </script>
 
 

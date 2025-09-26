@@ -10,10 +10,12 @@ consel
    :replaces_section_title:
    :noindex:
 
-   CONSEL calculates the probability value \(i.e.\, p\-value\) to assess the confidence in the selection problem. Although CONSEL is applicable to any selection problem\, it is mainly designed for the phylogenetic tree selection
+   CONSEL calculates the probability value \(i.e.\, p\-value\) to assess the confidence in the selection problem.
 
-   :homepage: http://stat.sys.i.kyoto-u.ac.jp/prog/consel/
-   :license: GNU GENERAL PUBLIC LICENSE Version 2
+   :homepage: https://github.com/shimo-lab/consel
+   :documentation: https://stat.sys.i.kyoto-u.ac.jp/prog/consel
+   
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`consel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/consel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/consel/meta.yaml>`_
 
    
@@ -27,15 +29,19 @@ consel
       
       
 
-      ``0.20-1``,  ``0.20-0``
+      ``0.20-3``,  ``0.20-1``,  ``0.20-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
+   :depends libgcc: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -83,7 +89,7 @@ consel
 
     <script>
         var package = "consel";
-        var versions = ["0.20","0.20"];
+        var versions = ["0.20","0.20","0.20"];
     </script>
 
 

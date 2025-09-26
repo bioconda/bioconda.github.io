@@ -13,6 +13,8 @@ orthanq
    Uncertainty aware HLA typing and general haplotype quantification.
 
    :homepage: https://github.com/orthanq/orthanq
+   :documentation: https://orthanq.github.io
+   
    :license: MIT / MIT
    :recipe: /`orthanq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/orthanq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/orthanq/meta.yaml>`_
 
@@ -28,10 +30,10 @@ orthanq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.14.0-0</code>,  <code>1.13.0-0</code>,  <code>1.12.1-1</code>,  <code>1.12.1-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.9.3-0</code>,  <code>1.9.2-0</code>,  <code>1.9.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.15.0-0</code>,  <code>1.14.0-0</code>,  <code>1.13.0-0</code>,  <code>1.12.1-1</code>,  <code>1.12.1-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.9.3-0</code>,  <code>1.9.2-0</code>,  </span></summary>
       
 
-      ``1.14.0-0``,  ``1.13.0-0``,  ``1.12.1-1``,  ``1.12.1-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.9.3-0``,  ``1.9.2-0``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.0-0``,  ``1.7.9-1``,  ``1.7.9-0``,  ``1.7.8-0``,  ``1.7.7-0``,  ``1.7.6-0``,  ``1.7.5-0``,  ``1.7.4-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.7.0-2``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``
+      ``1.15.0-0``,  ``1.14.0-0``,  ``1.13.0-0``,  ``1.12.1-1``,  ``1.12.1-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.9.3-0``,  ``1.9.2-0``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.0-0``,  ``1.7.9-1``,  ``1.7.9-0``,  ``1.7.8-0``,  ``1.7.7-0``,  ``1.7.6-0``,  ``1.7.5-0``,  ``1.7.4-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.7.0-2``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -40,31 +42,33 @@ orthanq
       
 
    
-   :depends bwa: ``>=0.7.18,<0.8.0a0``
+   :depends bwa: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends clangdev: 
    :depends coin-or-cbc: ``>=2.10.12,<2.11.0a0``
-   :depends coincbc: 
-   :depends fontconfig: ``>=2.14.2,<3.0a0``
+   :depends fontconfig: ``>=2.15.0,<3.0a0``
    :depends fonts-conda-ecosystem: 
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends htslib: 
    :depends libcblas: ``>=3.9.0,<4.0a0``
    :depends libgcc: ``>=13``
    :depends liblzma: ``>=5.8.1,<6.0a0``
    :depends libstdcxx: ``>=13``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
-   :depends minimap2: ``>=2.28,<3.0a0``
-   :depends openssl: ``>=3.5.1,<4.0a0``
-   :depends python: ``>=3.12,<3.13.0a0``
-   :depends python_abi: ``3.12.* *_cp312``
-   :depends samtools: ``>=1.19.2,<2.0a0``
-   :depends varlociraptor: ``>=8.4.7,<9.0a0``
-   :depends vg: ``>=1.63.1,<2.0a0``
-   :depends yte: 
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends minimap2: 
+   :depends nodejs: ``>=20.19.5,<21.0a0``
+   :depends openssl: ``>=3.5.3,<4.0a0``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
+   :depends samtools: ``1.20``
+   :depends varlociraptor: ``8.7.3``
+   :depends vg: ``1.63.1``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -112,7 +116,7 @@ orthanq
 
     <script>
         var package = "orthanq";
-        var versions = ["1.14.0","1.13.0","1.12.1","1.12.1","1.10.0"];
+        var versions = ["1.15.0","1.14.0","1.13.0","1.12.1","1.12.1"];
     </script>
 
 

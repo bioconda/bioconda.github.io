@@ -10,11 +10,14 @@ amiga
    :replaces_section_title:
    :noindex:
 
-   Analysis of Microbial Growth Assays
+   Analysis of Microbial Growth Assays.
 
    :homepage: https://github.com/firasmidani/amiga
-   :license: GPL-3.0-or-later
+   :documentation: https://firasmidani.github.io/amiga
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`amiga <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/amiga>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/amiga/meta.yaml>`_
+   :links: doi: :doi:`10.1128/msystems.00508-21`
 
    
 
@@ -27,7 +30,7 @@ amiga
       
       
 
-      ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-0``
+      ``3.0.4-1``,  ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-0``
 
       
 
@@ -36,18 +39,16 @@ amiga
    :depends decorator: ``>=5.1.0``
    :depends gpy: ``>=1.13.2``
    :depends kiwisolver: ``>=1.3.2``
-   :depends libgcc: ``>=13``
    :depends matplotlib-base: ``>=3.5.1``
    :depends numpy: ``>=1.21.0``
    :depends pandas: ``>=1.3.0``
    :depends paramz: ``>=0.9.5``
    :depends pyparsing: ``>=3.0.0``
-   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python: ``>=3.10,<3.13``
    :depends python-dateutil: ``>=2.8.2``
-   :depends python_abi: ``3.10.* *_cp310``
    :depends pytz: ``>=2021.3``
    :depends scipy: ``>=1.8.0``
-   :depends seaborn: ``>=0.11.2``
+   :depends seaborn-base: ``>=0.11.2``
    :depends six: ``>=1.16.0``
    :depends tabulate: ``>=0.8.8``
    :requirements:
@@ -100,7 +101,7 @@ amiga
 
     <script>
         var package = "amiga";
-        var versions = ["3.0.4","3.0.3","3.0.2"];
+        var versions = ["3.0.4","3.0.4","3.0.3","3.0.2"];
     </script>
 
 

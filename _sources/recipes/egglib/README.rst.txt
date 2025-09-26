@@ -32,10 +32,10 @@ egglib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.3.5-0</code>,  <code>3.3.4-1</code>,  <code>3.3.4-0</code>,  <code>3.3.3-1</code>,  <code>3.3.3-0</code>,  <code>3.3.2-1</code>,  <code>3.3.2-0</code>,  <code>3.3.1-0</code>,  <code>3.3.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.5.2-0</code>,  <code>3.3.5-0</code>,  <code>3.3.4-1</code>,  <code>3.3.4-0</code>,  <code>3.3.3-1</code>,  <code>3.3.3-0</code>,  <code>3.3.2-1</code>,  <code>3.3.2-0</code>,  <code>3.3.1-0</code>,  </span></summary>
       
 
-      ``3.3.5-0``,  ``3.3.4-1``,  ``3.3.4-0``,  ``3.3.3-1``,  ``3.3.3-0``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.1.0-3``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.0b21-1``,  ``3.0.0b21-0``
+      ``3.5.2-0``,  ``3.3.5-0``,  ``3.3.4-1``,  ``3.3.4-0``,  ``3.3.3-1``,  ``3.3.3-0``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.1.0-3``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.0b21-1``,  ``3.0.0b21-0``
 
       
       .. raw:: html
@@ -45,18 +45,16 @@ egglib
 
    
    :depends click: 
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends platformdirs: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
+   :depends scipy: 
    :requirements:
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -104,7 +102,7 @@ egglib
 
     <script>
         var package = "egglib";
-        var versions = ["3.3.5","3.3.4","3.3.4","3.3.3","3.3.3"];
+        var versions = ["3.5.2","3.3.5","3.3.4","3.3.4","3.3.3"];
     </script>
 
 

@@ -13,9 +13,9 @@ pxblat
    PxBLAT\: An Efficient and Ergonomics Python Binding Library for BLAT.
 
    :homepage: https://github.com/ylab-hi/pxblat
-   :documentation: https://pxblat.readthedocs.io/en/latest/
+   :documentation: https://pxblat.readthedocs.io/en/latest
    
-   :developer docs: https://pypi.org/project/pxblat/
+   :developer docs: https://pypi.org/project/pxblat
    :license: OTHER
    :recipe: /`pxblat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pxblat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pxblat/meta.yaml>`_
    :links: doi: :doi:`10.1101/2023.08.02.551686`
@@ -32,10 +32,10 @@ pxblat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.1-0</code>,  <code>1.1.20-0</code>,  <code>1.1.19-0</code>,  <code>1.1.18-0</code>,  <code>1.1.10-0</code>,  <code>1.1.8-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.0.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.1.20-0</code>,  <code>1.1.19-0</code>,  <code>1.1.18-0</code>,  <code>1.1.10-0</code>,  <code>1.1.8-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  </span></summary>
       
 
-      ``1.2.1-0``,  ``1.1.20-0``,  ``1.1.19-0``,  ``1.1.18-0``,  ``1.1.10-0``,  ``1.1.8-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.3-0``,  ``1.0.0-0``,  ``0.3.10-1``,  ``0.3.10-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``
+      ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.20-0``,  ``1.1.19-0``,  ``1.1.18-0``,  ``1.1.10-0``,  ``1.1.8-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.3-0``,  ``1.0.0-0``,  ``0.3.10-1``,  ``0.3.10-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -46,12 +46,13 @@ pxblat
    
    :depends biopython: 
    :depends deprecated: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends loguru: 
    :depends mashumaro: 
    :depends pybind11: ``>=2.10.4``
-   :depends pysimdjson: 
+   :depends pysimdjson: ``>=6.0.2``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends rich: 
@@ -60,6 +61,10 @@ pxblat
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -107,7 +112,7 @@ pxblat
 
     <script>
         var package = "pxblat";
-        var versions = ["1.2.1","1.1.20","1.1.19","1.1.18","1.1.10"];
+        var versions = ["1.2.1","1.2.1","1.1.20","1.1.19","1.1.18"];
     </script>
 
 

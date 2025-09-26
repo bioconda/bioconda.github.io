@@ -27,7 +27,7 @@ lodei
       
       
 
-      ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -36,6 +36,7 @@ lodei
    :depends pandas: 
    :depends pysamstats: 
    :depends python: 
+   :depends samtools: 
    :requirements:
 
    :additional platforms:
@@ -86,7 +87,7 @@ lodei
 
     <script>
         var package = "lodei";
-        var versions = ["1.0.0"];
+        var versions = ["1.1.0","1.0.0"];
     </script>
 
 

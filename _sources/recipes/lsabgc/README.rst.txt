@@ -30,10 +30,10 @@ lsabgc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.7-1</code>,  <code>1.1.7-0</code>,  <code>1.1.6-1</code>,  <code>1.1.6-0</code>,  <code>1.1.5-0</code>,  <code>1.1.4-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-3</code>,  <code>1.1.2-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.8-0</code>,  <code>1.1.7-1</code>,  <code>1.1.7-0</code>,  <code>1.1.6-1</code>,  <code>1.1.6-0</code>,  <code>1.1.5-0</code>,  <code>1.1.4-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-3</code>,  </span></summary>
       
 
-      ``1.1.7-1``,  ``1.1.7-0``,  ``1.1.6-1``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``
+      ``1.1.8-0``,  ``1.1.7-1``,  ``1.1.7-0``,  ``1.1.6-1``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -44,8 +44,14 @@ lsabgc
    
    :depends bioconductor-ggtree: 
    :depends biopython: 
+   :depends cd-hit: 
+   :depends edlib: 
    :depends gecco: ``0.9.6.*``
+   :depends gffutils: 
+   :depends intbitset: 
+   :depends joblib: 
    :depends muscle: ``>=5.0``
+   :depends networkx: 
    :depends numpy: 
    :depends orthofinder: ``2.5.5.*``
    :depends pandas: 
@@ -118,7 +124,7 @@ lsabgc
 
     <script>
         var package = "lsabgc";
-        var versions = ["1.1.7","1.1.7","1.1.6","1.1.6","1.1.5"];
+        var versions = ["1.1.8","1.1.7","1.1.7","1.1.6","1.1.6"];
     </script>
 
 

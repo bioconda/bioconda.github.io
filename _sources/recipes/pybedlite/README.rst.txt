@@ -10,15 +10,14 @@ pybedlite
    :replaces_section_title:
    :noindex:
 
-   Lightweight python classes for interfacing with bed intervals
+   Lightweight python classes for interfacing with bed intervals.
 
-   :homepage: https://pypi.org/project/pybedlite/
-   :documentation: https://pybedlite.readthedocs.io/en/latest/
+   :homepage: https://github.com/fulcrumgenomics/pybedlite
+   :documentation: https://pybedlite.readthedocs.io/en/latest
    
-   :developer docs: https://github.com/fulcrumgenomics/pybedlite
    :license: MIT / MIT
    :recipe: /`pybedlite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybedlite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybedlite/meta.yaml>`_
-   :links: DOI: :DOI:`10.5281/zenodo.11223166`
+   :links: doi: :doi:`10.5281/zenodo.11223166`
 
    
 
@@ -32,10 +31,10 @@ pybedlite
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.0-3</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.1.0-1</code>,  <code>0.1.0-0</code>,  <code>0.0.4-0</code>,  <code>0.0.3-0</code>,  <code>0.0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.0-0</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.1.0-1</code>,  <code>0.1.0-0</code>,  <code>0.0.4-0</code>,  <code>0.0.3-0</code>,  </span></summary>
       
 
-      ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.0-1``,  ``0.1.0-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-1``,  ``0.0.1-0``
+      ``1.1.0-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.0-1``,  ``0.1.0-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-1``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -49,6 +48,7 @@ pybedlite
    :depends libgcc: ``>=13``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
+   :depends superintervals: ``>=0.2.10``
    :depends typing_extensions: ``>=3.7.4``
    :depends typing_inspect: ``>=0.3.1``
    :requirements:
@@ -105,7 +105,7 @@ pybedlite
 
     <script>
         var package = "pybedlite";
-        var versions = ["1.0.0","1.0.0","1.0.0","1.0.0","0.1.0"];
+        var versions = ["1.1.0","1.0.0","1.0.0","1.0.0","1.0.0"];
     </script>
 
 
