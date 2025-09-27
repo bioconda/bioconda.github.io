@@ -10,13 +10,16 @@ feems
    :replaces_section_title:
    :noindex:
 
-   Fast Estimation of Effective Migration Surfaces
+   Fast Estimation of Effective Migration Surfaces.
 
    :homepage: https://github.com/NovembreLab/feems
-   :license: MIT
+   :documentation: https://github.com/NovembreLab/feems/blob/v2.0.0/README.md
+   
+   :license: MIT / MIT
    :recipe: /`feems <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/feems>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/feems/meta.yaml>`_
+   :links: doi: :doi:`10.7554/eLife.61927`
 
-   A python package implementing a statistical method for inferring and visualizing gene\-flow in spatial population genetic data
+   A python package implementing a statistical method for inferring and visualizing gene\-flow in spatial population genetic data.
 
 
 .. conda:package:: feems
@@ -27,22 +30,35 @@ feems
       
       
 
-      ``1.0.0-0``
+      ``2.0.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends cartopy: ``0.18.*``
+   :depends cartopy: 
+   :depends click: 
    :depends fiona: 
+   :depends flake8: 
    :depends matplotlib-base: 
    :depends msprime: 
    :depends networkx: 
-   :depends numpy: 
+   :depends numpy: ``<2``
+   :depends openpyxl: 
+   :depends pandas: 
+   :depends pandas-plink: 
+   :depends pep8: 
    :depends pyproj: 
-   :depends python: ``3.9.*``
+   :depends pytest: 
+   :depends python: ``>=3.8``
+   :depends pyyaml: 
    :depends scikit-learn: 
-   :depends scikit-sparse: ``0.4.*``
-   :depends suitesparse: ``5.7.*``
+   :depends scikit-sparse: 
+   :depends scipy: 
+   :depends setuptools: 
+   :depends shapely: 
+   :depends statsmodels: 
+   :depends suitesparse: 
+   :depends xlrd: 
    :requirements:
 
    :additional platforms:
@@ -93,7 +109,7 @@ feems
 
     <script>
         var package = "feems";
-        var versions = ["1.0.0"];
+        var versions = ["2.0.0","1.0.0"];
     </script>
 
 

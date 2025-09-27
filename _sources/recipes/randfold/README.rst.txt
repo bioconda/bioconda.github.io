@@ -10,10 +10,10 @@ randfold
    :replaces_section_title:
    :noindex:
 
-   Minimum free energy of folding randomization test software
+   Minimum free energy of folding randomization test software.
 
    :homepage: http://bioinformatics.psb.ugent.be/software/details/Randfold
-   :license: GNU GPLv2
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`randfold <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/randfold>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/randfold/meta.yaml>`_
    :links: biotools: :biotools:`randfold`, doi: :doi:`10.1093/bioinformatics/bth374`
 
@@ -27,9 +27,17 @@ randfold
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0.1-8``,  ``2.0.1-7``,  ``2.0.1-6``,  ``2.0.1-5``,  ``2.0.1-4``,  ``2.0.1-3``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``
+         <details><summary><span class="truncated-version-list"><code>2.0.1-9</code>,  <code>2.0.1-8</code>,  <code>2.0.1-7</code>,  <code>2.0.1-6</code>,  <code>2.0.1-5</code>,  <code>2.0.1-4</code>,  <code>2.0.1-3</code>,  <code>2.0.1-2</code>,  <code>2.0.1-1</code>,  </span></summary>
+      
 
+      ``2.0.1-9``,  ``2.0.1-8``,  ``2.0.1-7``,  ``2.0.1-6``,  ``2.0.1-5``,  ``2.0.1-4``,  ``2.0.1-3``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -40,7 +48,7 @@ randfold
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

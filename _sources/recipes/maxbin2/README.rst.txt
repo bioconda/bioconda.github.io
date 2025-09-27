@@ -12,9 +12,10 @@ maxbin2
 
    MaxBin is software for binning assembled metagenomic sequences based on an Expectation\-Maximization algorithm.
 
-   :homepage: http://downloads.jbei.org/data/microbial_communities/MaxBin/MaxBin.html
-   :license: BSD 3-clause
+   :homepage: https://sourceforge.net/projects/maxbin
+   :license: BSD / BSD-3-Clause
    :recipe: /`maxbin2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/maxbin2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/maxbin2/meta.yaml>`_
+   :links: doi: :doi:`10.1186/2049-2618-2-26`, doi: :doi:`10.1093/bioinformatics/btv638`
 
    
 
@@ -28,10 +29,10 @@ maxbin2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.7-7</code>,  <code>2.2.7-6</code>,  <code>2.2.7-5</code>,  <code>2.2.7-4</code>,  <code>2.2.7-3</code>,  <code>2.2.7-2</code>,  <code>2.2.7-1</code>,  <code>2.2.7-0</code>,  <code>2.2.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.7-8</code>,  <code>2.2.7-7</code>,  <code>2.2.7-6</code>,  <code>2.2.7-5</code>,  <code>2.2.7-4</code>,  <code>2.2.7-3</code>,  <code>2.2.7-2</code>,  <code>2.2.7-1</code>,  <code>2.2.7-0</code>,  </span></summary>
       
 
-      ``2.2.7-7``,  ``2.2.7-6``,  ``2.2.7-5``,  ``2.2.7-4``,  ``2.2.7-3``,  ``2.2.7-2``,  ``2.2.7-1``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.1-1``,  ``2.2.1-0``
+      ``2.2.7-8``,  ``2.2.7-7``,  ``2.2.7-6``,  ``2.2.7-5``,  ``2.2.7-4``,  ``2.2.7-3``,  ``2.2.7-2``,  ``2.2.7-1``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.1-1``,  ``2.2.1-0``
 
       
       .. raw:: html
@@ -57,7 +58,7 @@ maxbin2
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

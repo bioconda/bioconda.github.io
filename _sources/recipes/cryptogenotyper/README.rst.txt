@@ -16,7 +16,10 @@ cryptogenotyper
    :license: APACHE / Apache-2.0
    :recipe: /`cryptogenotyper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cryptogenotyper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cryptogenotyper/meta.yaml>`_
 
-   
+   A comprehensive tool for subtyping the parasite Cryptosporidium based on two key genetic markers\: 18S and gp60.
+   The tool provides a streamlined workflow for analyzing sequencing data and assigning species and subtypes\,
+   making it a valuable resource for research and public health surveillance.
+
 
 
 .. conda:package:: cryptogenotyper
@@ -27,7 +30,7 @@ cryptogenotyper
       
       
 
-      ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
@@ -87,7 +90,7 @@ cryptogenotyper
 
     <script>
         var package = "cryptogenotyper";
-        var versions = ["1.5.0","1.5.0","1.5.0","1.0","1.0"];
+        var versions = ["1.5.0","1.5.0","1.5.0","1.5.0","1.0"];
     </script>
 
 

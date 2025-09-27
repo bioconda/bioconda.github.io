@@ -27,7 +27,7 @@ oxbow
       
       
 
-      ``0.4.1-0``
+      ``0.4.2-0``,  ``0.4.1-0``
 
       
 
@@ -93,7 +93,7 @@ oxbow
 
     <script>
         var package = "oxbow";
-        var versions = ["0.4.1"];
+        var versions = ["0.4.2","0.4.1"];
     </script>
 
 

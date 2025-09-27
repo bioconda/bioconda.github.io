@@ -67,19 +67,25 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">feems</span></span></dt>
-<dd><p>Fast Estimation of Effective Migration Surfaces</p>
+<dd><p>Fast Estimation of Effective Migration Surfaces.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/NovembreLab/feems">https://github.com/NovembreLab/feems</a></p>
 </dd>
-<dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>MIT</p>
+<dt class="field-even">Documentation<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://github.com/NovembreLab/feems/blob/v2.0.0/README.md">https://github.com/NovembreLab/feems/blob/v2.0.0/README.md</a></p>
 </dd>
-<dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/feems">feems</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/feems/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">License<span class="colon">:</span></dt>
+<dd class="field-odd"><p>MIT / MIT</p>
+</dd>
+<dt class="field-even">Recipe<span class="colon">:</span></dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/feems">feems</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/feems/meta.yaml">meta.yaml</a></p>
+</dd>
+<dt class="field-odd">Links<span class="colon">:</span></dt>
+<dd class="field-odd"><p>doi: <a class="extlink-doi reference external" href="https://doi.org/10.7554/eLife.61927">10.7554/eLife.61927</a></p>
 </dd>
 </dl>
-<p>A python package implementing a statistical method for inferring and visualizing gene-flow in spatial population genetic data</p>
+<p>A python package implementing a statistical method for inferring and visualizing gene-flow in spatial population genetic data.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -89,12 +95,15 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/feems"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/feems.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/feems"><img alt="docker_feems" src="https://quay.io/repository/biocontainers/feems/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.0.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
 </dd>
 <dt class="field-even">depends cartopy<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">0.18.*</span></code></p>
-</dd>
-<dt class="field-odd">depends fiona<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends click<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends fiona<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends flake8<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends matplotlib-base<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
@@ -103,24 +112,45 @@
 <dt class="field-even">depends networkx<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends numpy<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&lt;2</span></code></p>
+</dd>
+<dt class="field-even">depends openpyxl<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends pandas<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends pandas-plink<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends pep8<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends pyproj<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends python<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">3.9.*</span></code></p>
+<dt class="field-odd">depends pytest<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends python<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.8</span></code></p>
 </dd>
+<dt class="field-odd">depends pyyaml<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends scikit-learn<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends scikit-sparse<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.4.*</span></code></p>
-</dd>
-<dt class="field-even">depends suitesparse<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">5.7.*</span></code></p>
-</dd>
-<dt class="field-odd">requirements<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">additional platforms<span class="colon">:</span></dt>
+<dt class="field-even">depends scipy<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends setuptools<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends shapely<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends statsmodels<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends suitesparse<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends xlrd<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">requirements<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -155,7 +185,7 @@ others.</p>
 
 <script>
     var package = "feems";
-    var versions = ["1.0.0"];
+    var versions = ["2.0.0","1.0.0"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

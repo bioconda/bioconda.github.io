@@ -10,7 +10,7 @@ wakhan
    :replaces_section_title:
    :noindex:
 
-   A tool to analyze haplotype\-specific chromosome\-scale somatic copy number aberrations and aneuploidy using long reads
+   A tool to analyze haplotype\-specific chromosome\-scale somatic copy number aberrations and aneuploidy using long reads.
 
    :homepage: https://github.com/KolmogorovLab/Wakhan
    :license: MIT / MIT
@@ -27,12 +27,13 @@ wakhan
       
       
 
-      ``0.1.2-0``,  ``0.1.1-3``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-3``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
    
    :depends bcftools: ``>=1.14``
+   :depends intervaltree: 
    :depends numpy: ``1.24.4``
    :depends pandas: 
    :depends parse-vcf: 
@@ -96,7 +97,7 @@ wakhan
 
     <script>
         var package = "wakhan";
-        var versions = ["0.1.2","0.1.1","0.1.1","0.1.1","0.1.1"];
+        var versions = ["0.2.0","0.1.2","0.1.1","0.1.1","0.1.1"];
     </script>
 
 

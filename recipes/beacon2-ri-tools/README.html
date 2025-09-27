@@ -67,19 +67,19 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">beacon2-ri-tools</span></span></dt>
-<dd><p>Script to parse a VCF having SnepEff/SnpSift annotations</p>
+<dd><p>Package of tools designed to simplify the population of a Beacon v2 mongoDB database</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/EGA-archive/beacon2-ri-tools/tree/main">https://github.com/EGA-archive/beacon2-ri-tools/tree/main</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/EGA-archive/beacon2-ri-tools-v2/tree/main">https://github.com/EGA-archive/beacon2-ri-tools-v2/tree/main</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>GPL-3.0-only</p>
+<dd class="field-even"><p>Apache-2.0</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/beacon2-ri-tools">beacon2-ri-tools</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/beacon2-ri-tools/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>Beacon v2 Reference Implementation (Data ingestion tools)</p>
+<p>Beacon2 RI Tools v2 is a software created with the main goal of generating BFF data from .csv or .vcf (and probably more types of datafiles in the future). This is based on the first beacon ri tools. Currently, the supported input formats are VCF, CSV, and Phenopackets. These formats are converted to BFF (Beacon Friendly Format JSON, following Beacon v2 official specifications) and inserted into a Beacon database.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -89,60 +89,54 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/beacon2-ri-tools"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/beacon2-ri-tools.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/beacon2-ri-tools"><img alt="docker_beacon2-ri-tools" src="https://quay.io/repository/biocontainers/beacon2-ri-tools/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.0.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.0.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0.0-0</span></code></p>
 </dd>
-<dt class="field-even">depends json_schema_validator<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends perl<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;5.32*</span></code></p>
+<dt class="field-even">depends annotated-types<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">0.6.0</span></code></p>
 </dd>
-<dt class="field-even">depends perl<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=5.32.1,&lt;6.0a0 *_perl5</span></code></p>
+<dt class="field-odd">depends certifi<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2023.7.22</span></code></p>
 </dd>
-<dt class="field-odd">depends perl-app-cpanminus<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends perl-autodie<span class="colon">:</span></dt>
+<dt class="field-even">depends charset-normalizer<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">3.3.1</span></code></p>
+</dd>
+<dt class="field-odd">depends cyvcf2<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.30.28</span></code></p>
+</dd>
+<dt class="field-even">depends openpyxl<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">3.1.2</span></code></p>
+</dd>
+<dt class="field-odd">depends pandas<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.1.2</span></code></p>
+</dd>
+<dt class="field-even">depends pydantic<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">2.6.4</span></code></p>
+</dd>
+<dt class="field-odd">depends pymongo<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">4.6.1</span></code></p>
+</dd>
+<dt class="field-even">depends python<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.10,&lt;3.11.0a0</span></code></p>
+</dd>
+<dt class="field-odd">depends python-dateutil<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.8.2</span></code></p>
+</dd>
+<dt class="field-even">depends tqdm<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">4.66.1</span></code></p>
+</dd>
+<dt class="field-odd">depends typing<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">3.7.4.3</span></code></p>
+</dd>
+<dt class="field-even">depends typing_extensions<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">4.11.0</span></code></p>
+</dd>
+<dt class="field-odd">depends urllib3<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.0.7</span></code></p>
+</dd>
+<dt class="field-even">requirements<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends perl-data-dumper<span class="colon">:</span></dt>
+<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends perl-data-structure-util<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends perl-date-calc<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends perl-encode<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends perl-excel-writer-xlsx<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends perl-file-which<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends perl-json-validator<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends perl-json-xs<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends perl-list-moreutils<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends perl-minion<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends perl-minion-backend-sqlite<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends perl-mojolicious<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends perl-path-tiny<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends perl-perldoc<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends perl-perlio-gzip<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends perl-text-csv_xs<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends perl-text-unidecode<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends perl-yaml-libyaml<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">requirements<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">additional platforms<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -177,7 +171,7 @@ others.</p>
 
 <script>
     var package = "beacon2-ri-tools";
-    var versions = ["2.0.0"];
+    var versions = ["2.0.5","2.0.0"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

@@ -10,11 +10,14 @@ psiclass
    :replaces_section_title:
    :noindex:
 
-   Simultaneous multi\-sample transcript assembler for RNA\-seq data
+   Simultaneous multi\-sample transcript assembler for RNA\-seq data.
 
    :homepage: https://github.com/splicebox/PsiCLASS
-   :license: GPL-3.0-only
+   :documentation: https://github.com/splicebox/PsiCLASS/blob/v1.0.3/README.md
+   
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`psiclass <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/psiclass>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/psiclass/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41467-019-12990-0`, biotools: :biotools:`psiclass`, usegalaxy-eu: :usegalaxy-eu:`psiclass`
 
    
 
@@ -26,9 +29,17 @@ psiclass
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.3-5``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.3-6</code>,  <code>1.0.3-5</code>,  <code>1.0.3-4</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.2-2</code>,  <code>1.0.2-1</code>,  </span></summary>
+      
 
+      ``1.0.3-6``,  ``1.0.3-5``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -37,10 +48,14 @@ psiclass
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends perl: 
    :depends samtools: ``0.1.19.*``
-   :depends samtools: ``>=0.1.19,<1.0a0``
+   :depends samtools: ``>=0.1.19,<0.2.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

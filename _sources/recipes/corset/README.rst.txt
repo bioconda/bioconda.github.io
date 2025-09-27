@@ -13,7 +13,9 @@ corset
    Software for clustering de novo assembled transcripts and counting overlapping reads.
 
    :homepage: https://github.com/Oshlack/Corset
-   :license: GPLv3
+   :documentation: https://github.com/Oshlack/Corset/wiki
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`corset <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/corset>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/corset/meta.yaml>`_
    :links: biotools: :biotools:`corset`, doi: :doi:`10.1186/s13059-014-0410-6`
 
@@ -28,17 +30,23 @@ corset
       
       
 
-      ``1.09-4``,  ``1.09-3``,  ``1.09-2``,  ``1.09-1``,  ``1.09-0``,  ``1.07-0``,  ``1.06-1``,  ``1.06-0``
+      ``1.09-6``,  ``1.09-4``,  ``1.09-3``,  ``1.09-2``,  ``1.09-1``,  ``1.09-0``,  ``1.07-0``,  ``1.06-1``,  ``1.06-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends samtools: ``0.1.19.*``
+   :depends samtools: ``>=0.1.19,<0.2.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

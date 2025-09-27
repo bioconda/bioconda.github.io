@@ -10,10 +10,10 @@ lca
    :replaces_section_title:
    :noindex:
 
-   LCA \- Lowest Common Ancestor calculation tool
+   LCA \- Lowest Common Ancestor calculation tool.
 
-   :homepage: https://github.com/hildebra/LCA/
-   :license: GPL-3.0-only
+   :homepage: https://github.com/hildebra/LCA
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`lca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lca/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ lca
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.25-1</code>,  <code>0.25-0</code>,  <code>0.24-2</code>,  <code>0.24-1</code>,  <code>0.24-0</code>,  <code>0.23-1</code>,  <code>0.23-0</code>,  <code>0.22-0</code>,  <code>0.21-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.25-2</code>,  <code>0.25-1</code>,  <code>0.25-0</code>,  <code>0.24-2</code>,  <code>0.24-1</code>,  <code>0.24-0</code>,  <code>0.23-1</code>,  <code>0.23-0</code>,  <code>0.22-0</code>,  </span></summary>
       
 
-      ``0.25-1``,  ``0.25-0``,  ``0.24-2``,  ``0.24-1``,  ``0.24-0``,  ``0.23-1``,  ``0.23-0``,  ``0.22-0``,  ``0.21-1``,  ``0.21-0``,  ``0.18-0``
+      ``0.25-2``,  ``0.25-1``,  ``0.25-0``,  ``0.24-2``,  ``0.24-1``,  ``0.24-0``,  ``0.23-1``,  ``0.23-0``,  ``0.22-0``,  ``0.21-1``,  ``0.21-0``,  ``0.18-0``
 
       
       .. raw:: html
@@ -43,10 +43,13 @@ lca
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -94,7 +97,7 @@ lca
 
     <script>
         var package = "lca";
-        var versions = ["0.25","0.25","0.24","0.24","0.24"];
+        var versions = ["0.25","0.25","0.25","0.24","0.24"];
     </script>
 
 

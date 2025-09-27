@@ -13,7 +13,9 @@ metabolights-utils
    MetaboLights open metabolomics data repository command line interface \(CLI\)\, common MetaboLights data models\, utility methods and classes.
 
    :homepage: https://github.com/EBI-Metabolights/metabolights-utils
-   :license: Apache-2.0
+   :documentation: https://github.com/EBI-Metabolights/metabolights-utils/blob/v1.4.5/README.md
+   
+   :license: APACHE / Apache-2.0
    :recipe: /`metabolights-utils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metabolights-utils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metabolights-utils/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ metabolights-utils
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.4-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.12-0</code>,  <code>1.3.10-0</code>,  <code>1.3.9-0</code>,  <code>1.3.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.5-0</code>,  <code>1.4.4-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.12-0</code>,  <code>1.3.10-0</code>,  <code>1.3.9-0</code>,  </span></summary>
       
 
-      ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.12-0``,  ``1.3.10-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.1-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.12-0``,  ``1.1.11-0``,  ``1.1.10-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``
+      ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.12-0``,  ``1.3.10-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.1-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.12-0``,  ``1.1.11-0``,  ``1.1.10-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -40,16 +42,16 @@ metabolights-utils
       
 
    
-   :depends beautifulsoup4: ``>=4.12.3,<5.0.0``
-   :depends click: ``>=8.1.7,<9.0.0``
-   :depends httpx: ``>=0.27.0,<0.28.0``
-   :depends jsonpath-ng: ``>=1.6.1,<2.0.0``
-   :depends jsonschema: ``>=4.22.0,<5.0.0``
-   :depends pydantic: ``>=2.0.0,<3.0.0``
-   :depends pydantic-settings: ``>=2.0.3,<3.0.0``
-   :depends python: ``>=3.8,<4.0``
-   :depends python-dateutil: ``>=2.9.0,<3.0.0``
-   :depends unidecode: ``>=1.3.8,<2.0.0``
+   :depends beautifulsoup4: ``>=4.12.3``
+   :depends click: ``>=8.1.7``
+   :depends httpx: ``>=0.27.0``
+   :depends jsonpath-ng: ``>=1.7.0``
+   :depends jsonschema: ``>=4.24.0``
+   :depends pydantic: ``>=2.11.7``
+   :depends pydantic-settings: ``>=2.0.3``
+   :depends python: ``>=3.12``
+   :depends python-dateutil: 
+   :depends unidecode: ``>=1.3.8``
    :requirements:
 
    :additional platforms:
@@ -100,7 +102,7 @@ metabolights-utils
 
     <script>
         var package = "metabolights-utils";
-        var versions = ["1.4.4","1.4.3","1.4.2","1.4.1","1.4.0"];
+        var versions = ["1.4.5","1.4.4","1.4.3","1.4.2","1.4.1"];
     </script>
 
 

@@ -10,13 +10,13 @@ beacon2-ri-tools
    :replaces_section_title:
    :noindex:
 
-   Script to parse a VCF having SnepEff\/SnpSift annotations
+   Package of tools designed to simplify the population of a Beacon v2 mongoDB database
 
-   :homepage: https://github.com/EGA-archive/beacon2-ri-tools/tree/main
-   :license: GPL-3.0-only
+   :homepage: https://github.com/EGA-archive/beacon2-ri-tools-v2/tree/main
+   :license: Apache-2.0
    :recipe: /`beacon2-ri-tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/beacon2-ri-tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/beacon2-ri-tools/meta.yaml>`_
 
-   Beacon v2 Reference Implementation \(Data ingestion tools\)
+   Beacon2 RI Tools v2 is a software created with the main goal of generating BFF data from .csv or .vcf \(and probably more types of datafiles in the future\). This is based on the first beacon ri tools. Currently\, the supported input formats are VCF\, CSV\, and Phenopackets. These formats are converted to BFF \(Beacon Friendly Format JSON\, following Beacon v2 official specifications\) and inserted into a Beacon database.
 
 
 .. conda:package:: beacon2-ri-tools
@@ -27,34 +27,25 @@ beacon2-ri-tools
       
       
 
-      ``2.0.0-0``
+      ``2.0.5-0``,  ``2.0.0-0``
 
       
 
    
-   :depends json_schema_validator: 
-   :depends perl: ``>5.32*``
-   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends perl-app-cpanminus: 
-   :depends perl-autodie: 
-   :depends perl-data-dumper: 
-   :depends perl-data-structure-util: 
-   :depends perl-date-calc: 
-   :depends perl-encode: 
-   :depends perl-excel-writer-xlsx: 
-   :depends perl-file-which: 
-   :depends perl-json-validator: 
-   :depends perl-json-xs: 
-   :depends perl-list-moreutils: 
-   :depends perl-minion: 
-   :depends perl-minion-backend-sqlite: 
-   :depends perl-mojolicious: 
-   :depends perl-path-tiny: 
-   :depends perl-perldoc: 
-   :depends perl-perlio-gzip: 
-   :depends perl-text-csv_xs: 
-   :depends perl-text-unidecode: 
-   :depends perl-yaml-libyaml: 
+   :depends annotated-types: ``0.6.0``
+   :depends certifi: ``2023.7.22``
+   :depends charset-normalizer: ``3.3.1``
+   :depends cyvcf2: ``0.30.28``
+   :depends openpyxl: ``3.1.2``
+   :depends pandas: ``2.1.2``
+   :depends pydantic: ``2.6.4``
+   :depends pymongo: ``4.6.1``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python-dateutil: ``2.8.2``
+   :depends tqdm: ``4.66.1``
+   :depends typing: ``3.7.4.3``
+   :depends typing_extensions: ``4.11.0``
+   :depends urllib3: ``2.0.7``
    :requirements:
 
    :additional platforms:
@@ -105,7 +96,7 @@ beacon2-ri-tools
 
     <script>
         var package = "beacon2-ri-tools";
-        var versions = ["2.0.0"];
+        var versions = ["2.0.5","2.0.0"];
     </script>
 
 

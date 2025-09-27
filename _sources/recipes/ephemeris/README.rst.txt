@@ -13,7 +13,7 @@ ephemeris
    Ephemeris is an opinionated library and set of scripts for managing the bootstrapping of Galaxy project plugins \- tools\, index data\, and workflows.
 
    :homepage: https://github.com/galaxyproject/ephemeris
-   :documentation: https://ephemeris.readthedocs.io/en/latest/
+   :documentation: https://ephemeris.readthedocs.io/en/latest
    
    :license: OTHER / Academic Free License (AFL)
    :recipe: /`ephemeris <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ephemeris>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ephemeris/meta.yaml>`_
@@ -30,10 +30,10 @@ ephemeris
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.10.10-0</code>,  <code>0.10.9-0</code>,  <code>0.10.8-0</code>,  <code>0.10.7-0</code>,  <code>0.10.6-2</code>,  <code>0.10.6-1</code>,  <code>0.10.6-0</code>,  <code>0.10.5-0</code>,  <code>0.10.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10.11-0</code>,  <code>0.10.10-0</code>,  <code>0.10.9-0</code>,  <code>0.10.8-0</code>,  <code>0.10.7-0</code>,  <code>0.10.6-2</code>,  <code>0.10.6-1</code>,  <code>0.10.6-0</code>,  <code>0.10.5-0</code>,  </span></summary>
       
 
-      ``0.10.10-0``,  ``0.10.9-0``,  ``0.10.8-0``,  ``0.10.7-0``,  ``0.10.6-2``,  ``0.10.6-1``,  ``0.10.6-0``,  ``0.10.5-0``,  ``0.10.4-0``,  ``0.10.2-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-2``,  ``0.8.0-0``
+      ``0.10.11-0``,  ``0.10.10-0``,  ``0.10.9-0``,  ``0.10.8-0``,  ``0.10.7-0``,  ``0.10.6-2``,  ``0.10.6-1``,  ``0.10.6-0``,  ``0.10.5-0``,  ``0.10.4-0``,  ``0.10.2-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-2``,  ``0.8.0-0``
 
       
       .. raw:: html
@@ -46,10 +46,12 @@ ephemeris
    :depends galaxy-tool-util: ``>=20.9.1``
    :depends galaxy-util: ``>=20.9.0``
    :depends jinja2: 
+   :depends pydantic: ``>=2.0``
    :depends pysam: 
-   :depends python: ``>=3.7``
+   :depends python: ``>=3.9``
    :depends pyyaml: 
    :depends rich: 
+   :depends setuptools: 
    :depends six: ``>=1.9.0``
    :requirements:
 
@@ -101,7 +103,7 @@ ephemeris
 
     <script>
         var package = "ephemeris";
-        var versions = ["0.10.10","0.10.9","0.10.8","0.10.7","0.10.6"];
+        var versions = ["0.10.11","0.10.10","0.10.9","0.10.8","0.10.7"];
     </script>
 
 

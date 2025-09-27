@@ -10,10 +10,10 @@ prinseq-plus-plus
    :replaces_section_title:
    :noindex:
 
-   PRINSEQ\+\+ \- Multi\-threaded C\+\+ sequence cleaning
+   PRINSEQ\+\+ \- Multi\-threaded C\+\+ sequence cleaning.
 
    :homepage: https://github.com/Adrian-Cantu/PRINSEQ-plus-plus
-   :license: GNU General Public License v2.0
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`prinseq-plus-plus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prinseq-plus-plus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prinseq-plus-plus/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ prinseq-plus-plus
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.4-7</code>,  <code>1.2.4-6</code>,  <code>1.2.4-5</code>,  <code>1.2.4-4</code>,  <code>1.2.4-3</code>,  <code>1.2.4-2</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.2.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.4-8</code>,  <code>1.2.4-7</code>,  <code>1.2.4-6</code>,  <code>1.2.4-5</code>,  <code>1.2.4-4</code>,  <code>1.2.4-3</code>,  <code>1.2.4-2</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  </span></summary>
       
 
-      ``1.2.4-7``,  ``1.2.4-6``,  ``1.2.4-5``,  ``1.2.4-4``,  ``1.2.4-3``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.3-0``
+      ``1.2.4-8``,  ``1.2.4-7``,  ``1.2.4-6``,  ``1.2.4-5``,  ``1.2.4-4``,  ``1.2.4-3``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.3-0``
 
       
       .. raw:: html
@@ -40,19 +40,18 @@ prinseq-plus-plus
       
 
    
-   :depends boost-cpp: 
+   :depends boost-cpp: ``>=1.70.0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends pthread-stubs: 
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
