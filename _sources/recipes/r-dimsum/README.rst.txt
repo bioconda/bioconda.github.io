@@ -28,10 +28,10 @@ r-dimsum
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4-3</code>,  <code>1.4-2</code>,  <code>1.4-1</code>,  <code>1.4-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3-2</code>,  <code>1.3-1</code>,  <code>1.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4-4</code>,  <code>1.4-3</code>,  <code>1.4-2</code>,  <code>1.4-1</code>,  <code>1.4-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3-2</code>,  <code>1.3-1</code>,  </span></summary>
       
 
-      ``1.4-3``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.2.11-1``,  ``1.2.11-0``,  ``1.2.10-0``,  ``1.2.9-0``,  ``1.2.8-0``,  ``1.2.7-2``,  ``1.2.7-1``,  ``1.2.7-0``,  ``1.2.5-0``,  ``1.2.0-0``,  ``1.1.4-0``,  ``1.1.3-0``
+      ``1.4-4``,  ``1.4-3``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.2.11-1``,  ``1.2.11-0``,  ``1.2.10-0``,  ``1.2.9-0``,  ``1.2.8-0``,  ``1.2.7-2``,  ``1.2.7-1``,  ``1.2.7-0``,  ``1.2.5-0``,  ``1.2.0-0``,  ``1.1.4-0``,  ``1.1.3-0``
 
       
       .. raw:: html
@@ -45,7 +45,7 @@ r-dimsum
    :depends bioconductor-shortread: 
    :depends cutadapt: ``>=2.4-0``
    :depends fastqc: ``0.11.*``
-   :depends pandoc: ``>=1.17.2``
+   :depends pandoc: ``>=1.17.2,<3``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-cairo: 
    :depends r-cowplot: 
@@ -112,7 +112,7 @@ r-dimsum
 
     <script>
         var package = "r-dimsum";
-        var versions = ["1.4","1.4","1.4","1.4","1.3.2"];
+        var versions = ["1.4","1.4","1.4","1.4","1.4"];
     </script>
 
 

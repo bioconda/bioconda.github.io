@@ -31,7 +31,7 @@ ensembl-genomio
       
       
 
-      ``1.6.1-0``
+      ``1.6.2-0``,  ``1.6.1-0``
 
       
 
@@ -97,7 +97,7 @@ ensembl-genomio
 
     <script>
         var package = "ensembl-genomio";
-        var versions = ["1.6.1"];
+        var versions = ["1.6.2","1.6.1"];
     </script>
 
 
