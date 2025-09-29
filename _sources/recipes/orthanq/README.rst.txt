@@ -55,10 +55,10 @@ orthanq
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends minimap2: 
-   :depends nodejs: ``>=22.6.0,<23.0a0``
+   :depends nodejs: ``>=20.19.5,<21.0a0``
    :depends openssl: ``>=3.5.3,<4.0a0``
-   :depends python: ``>=3.11,<3.12.0a0``
-   :depends python_abi: ``3.11.* *_cp311``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends samtools: ``1.20``
    :depends varlociraptor: ``8.7.3``
    :depends vg: ``1.63.1``

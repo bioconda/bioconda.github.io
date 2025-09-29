@@ -30,10 +30,10 @@ lsabgc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.8-0</code>,  <code>1.1.7-1</code>,  <code>1.1.7-0</code>,  <code>1.1.6-1</code>,  <code>1.1.6-0</code>,  <code>1.1.5-0</code>,  <code>1.1.4-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.9-0</code>,  <code>1.1.8-0</code>,  <code>1.1.7-1</code>,  <code>1.1.7-0</code>,  <code>1.1.6-1</code>,  <code>1.1.6-0</code>,  <code>1.1.5-0</code>,  <code>1.1.4-0</code>,  <code>1.1.3-0</code>,  </span></summary>
       
 
-      ``1.1.8-0``,  ``1.1.7-1``,  ``1.1.7-0``,  ``1.1.6-1``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``
+      ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.7-1``,  ``1.1.7-0``,  ``1.1.6-1``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -50,9 +50,9 @@ lsabgc
    :depends gffutils: 
    :depends intbitset: 
    :depends joblib: 
-   :depends muscle: ``>=5.0``
+   :depends muscle: ``5.1.*``
    :depends networkx: 
-   :depends numpy: 
+   :depends numpy: ``>=2.0.0,<=2.2.6``
    :depends orthofinder: ``2.5.5.*``
    :depends pandas: 
    :depends prodigal: 
@@ -73,7 +73,7 @@ lsabgc
    :depends scikit-learn: 
    :depends tar: 
    :depends xlsxwriter: ``>=3.0.3``
-   :depends zol: ``>=1.6.3``
+   :depends zol: ``>=1.6.10``
    :requirements:
 
    :additional platforms:
@@ -124,7 +124,7 @@ lsabgc
 
     <script>
         var package = "lsabgc";
-        var versions = ["1.1.8","1.1.7","1.1.7","1.1.6","1.1.6"];
+        var versions = ["1.1.9","1.1.8","1.1.7","1.1.7","1.1.6"];
     </script>
 
 

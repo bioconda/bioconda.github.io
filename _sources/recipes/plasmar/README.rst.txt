@@ -27,7 +27,7 @@ plasmar
       
       
 
-      ``1.4-0``
+      ``1.5-0``,  ``1.4-0``
 
       
 
@@ -88,7 +88,7 @@ plasmar
 
     <script>
         var package = "plasmar";
-        var versions = ["1.4"];
+        var versions = ["1.5","1.4"];
     </script>
 
 
