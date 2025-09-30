@@ -10,7 +10,7 @@ liana
    :replaces_section_title:
    :noindex:
 
-   LIANA\+\: a one\-stop\-shop framework for cell\-cell communication
+   LIANA\+\: a one\-stop\-shop framework for cell\-cell communication.
 
    :homepage: https://github.com/saezlab/liana-py
    :documentation: https://liana-py.readthedocs.io
@@ -29,7 +29,7 @@ liana
       
       
 
-      ``1.5.1-1``,  ``1.5.1-0``,  ``1.4.0-1``,  ``1.4.0-0``
+      ``1.6.1-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.4.0-1``,  ``1.4.0-0``
 
       
 
@@ -47,13 +47,14 @@ liana
    :depends numba: ``>=0.60.0,<0.61.0``
    :depends omnipath: ``>=1.0.6``
    :depends pandas: ``>2.0.1``
-   :depends plotnine: ``>=0.10.0``
+   :depends plotnine: ``>=0.10.1``
    :depends pre-commit: ``>=3.0.0``
    :depends pydeseq2: ``>=0.3.5``
-   :depends python: ``>=3.10,<3.12``
+   :depends python: ``>=3.10,<3.14``
    :depends requests: ``>=2.25.1,<3.0.0``
    :depends scanpy: ``>=1.8.0``
-   :depends tqdm: ``>=4.0.0,<5.0.0``
+   :depends session-info2: 
+   :depends tqdm: ``>=4.0.0``
    :requirements:
 
    :additional platforms:
@@ -104,7 +105,7 @@ liana
 
     <script>
         var package = "liana";
-        var versions = ["1.5.1","1.5.1","1.4.0","1.4.0"];
+        var versions = ["1.6.1","1.5.1","1.5.1","1.4.0","1.4.0"];
     </script>
 
 

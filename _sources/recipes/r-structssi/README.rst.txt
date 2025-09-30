@@ -13,7 +13,7 @@ r-structssi
    Performs multiple testing corrections that take specific structure of hypotheses into account.
 
    :homepage: https://CRAN.R-project.org/package=structSSI
-   :license: GPL2 / GPL-2
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`r-structssi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-structssi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-structssi/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ r-structssi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.1-11</code>,  <code>1.1.1-10</code>,  <code>1.1.1-9</code>,  <code>1.1.1-8</code>,  <code>1.1.1-7</code>,  <code>1.1.1-6</code>,  <code>1.1.1-5</code>,  <code>1.1.1-4</code>,  <code>1.1.1-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>1.1.1-11</code>,  <code>1.1.1-10</code>,  <code>1.1.1-9</code>,  <code>1.1.1-8</code>,  <code>1.1.1-7</code>,  <code>1.1.1-6</code>,  <code>1.1.1-5</code>,  <code>1.1.1-4</code>,  </span></summary>
       
 
-      ``1.1.1-11``,  ``1.1.1-10``,  ``1.1.1-9``,  ``1.1.1-8``,  ``1.1.1-7``,  ``1.1.1-6``,  ``1.1.1-5``,  ``1.1.1-4``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``
+      ``1.2.0-0``,  ``1.1.1-11``,  ``1.1.1-10``,  ``1.1.1-9``,  ``1.1.1-8``,  ``1.1.1-7``,  ``1.1.1-6``,  ``1.1.1-5``,  ``1.1.1-4``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``
 
       
       .. raw:: html
@@ -41,11 +41,12 @@ r-structssi
 
    
    :depends bioconductor-multtest: 
+   :depends bioconductor-phyloseq: 
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-ggplot2: 
    :depends r-igraph: 
+   :depends r-jsonlite: 
    :depends r-reshape2: 
-   :depends r-rjson: 
    :requirements:
 
    :additional platforms:
@@ -96,7 +97,7 @@ r-structssi
 
     <script>
         var package = "r-structssi";
-        var versions = ["1.1.1","1.1.1","1.1.1","1.1.1","1.1.1"];
+        var versions = ["1.2.0","1.1.1","1.1.1","1.1.1","1.1.1"];
     </script>
 
 

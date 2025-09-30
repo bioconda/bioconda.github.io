@@ -72,11 +72,14 @@
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/phac-nml/wade">https://github.com/phac-nml/wade</a></p>
 </dd>
-<dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>APACHE / Apache License, Version 2.0</p>
+<dt class="field-even">Documentation<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://github.com/phac-nml/wade/blob/v1.2.0/README.md">https://github.com/phac-nml/wade/blob/v1.2.0/README.md</a></p>
 </dd>
-<dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wade">wade</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wade/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">License<span class="colon">:</span></dt>
+<dd class="field-odd"><p>APACHE / Apache-2.0</p>
+</dd>
+<dt class="field-even">Recipe<span class="colon">:</span></dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wade">wade</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wade/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -88,33 +91,35 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/wade"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/wade.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/wade"><img alt="docker_wade" src="https://quay.io/repository/biocontainers/wade/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.2.6-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.3-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.6-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.3-0</span></code></p>
 </dd>
 <dt class="field-even">depends bioconductor-biostrings<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends blast<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends r-base<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.1,&lt;4.2.0a0</span></code></p>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.4,&lt;4.5.0a0</span></code></p>
 </dd>
-<dt class="field-odd">depends r-biocmanager<span class="colon">:</span></dt>
+<dt class="field-odd">depends r-dplyr<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-dplyr<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends r-here<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-magrittr<span class="colon">:</span></dt>
+<dt class="field-even">depends r-dt<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends r-optparse<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-purrr<span class="colon">:</span></dt>
+<dt class="field-even">depends r-readxl<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends r-shiny<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends r-shinywidgets<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends r-stringr<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">requirements<span class="colon">:</span></dt>
+<dt class="field-even">depends r-tidyverse<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
+<dt class="field-odd">requirements<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
+<dt class="field-even">additional platforms<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -149,7 +154,7 @@ others.</p>
 
 <script>
     var package = "wade";
-    var versions = ["0.2.6","0.2.6","0.2.5","0.2.4","0.2.3"];
+    var versions = ["1.2.0","0.2.6","0.2.6","0.2.5","0.2.4"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

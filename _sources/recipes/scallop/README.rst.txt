@@ -10,10 +10,10 @@ scallop
    :replaces_section_title:
    :noindex:
 
-   Scallop is a reference\-based transcriptome assembler for RNA\-seq
+   Scallop is a reference\-based transcriptome assembler for RNA\-seq.
 
    :homepage: https://github.com/Kingsford-Group/scallop
-   :license: BSD 3-Clause License
+   :license: BSD / BSD-3-Clause
    :recipe: /`scallop <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scallop>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scallop/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ scallop
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.10.5-8</code>,  <code>0.10.5-7</code>,  <code>0.10.5-6</code>,  <code>0.10.5-5</code>,  <code>0.10.5-4</code>,  <code>0.10.5-3</code>,  <code>0.10.5-2</code>,  <code>0.10.5-1</code>,  <code>0.10.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10.5-9</code>,  <code>0.10.5-8</code>,  <code>0.10.5-7</code>,  <code>0.10.5-6</code>,  <code>0.10.5-5</code>,  <code>0.10.5-4</code>,  <code>0.10.5-3</code>,  <code>0.10.5-2</code>,  <code>0.10.5-1</code>,  </span></summary>
       
 
-      ``0.10.5-8``,  ``0.10.5-7``,  ``0.10.5-6``,  ``0.10.5-5``,  ``0.10.5-4``,  ``0.10.5-3``,  ``0.10.5-2``,  ``0.10.5-1``,  ``0.10.5-0``,  ``0.10.4-2``,  ``0.10.4-1``,  ``0.10.4-0``
+      ``0.10.5-9``,  ``0.10.5-8``,  ``0.10.5-7``,  ``0.10.5-6``,  ``0.10.5-5``,  ``0.10.5-4``,  ``0.10.5-3``,  ``0.10.5-2``,  ``0.10.5-1``,  ``0.10.5-0``,  ``0.10.4-2``,  ``0.10.4-1``,  ``0.10.4-0``
 
       
       .. raw:: html
@@ -40,13 +40,23 @@ scallop
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends boost-cpp: 
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends coin-or-clp: ``>=1.17,<1.18.0a0``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
    :depends libgcc: ``>=13``
+   :depends libgomp: 
+   :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx: ``>=13``
+   :depends libxcrypt: ``>=4.4.36``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

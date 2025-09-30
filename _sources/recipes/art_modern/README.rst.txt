@@ -13,7 +13,7 @@ art_modern
    Modernized ART simulator of diverse Next\-Generation Sequencing reads
 
    :homepage: https://github.com/YU-Zhejian/art_modern
-   :documentation: https://github.com/YU-Zhejian/art_modern/releases/download/1.1.7/art_modern.pdf
+   :documentation: https://github.com/YU-Zhejian/art_modern/releases/download/1.1.8/art_modern.pdf
    
    :license: GPL3 / GPL-3.0-only
    :recipe: /`art_modern <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/art_modern>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/art_modern/meta.yaml>`_
@@ -29,7 +29,7 @@ art_modern
       
       
 
-      ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.4-0``
+      ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.4-0``
 
       
 
@@ -96,7 +96,7 @@ art_modern
 
     <script>
         var package = "art_modern";
-        var versions = ["1.1.7","1.1.6","1.1.4"];
+        var versions = ["1.1.8","1.1.7","1.1.6","1.1.4"];
     </script>
 
 

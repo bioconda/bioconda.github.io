@@ -12,8 +12,9 @@ kraken
 
    Kraken is a system for assigning taxonomic labels to short DNA sequences\, usually obtained through metagenomic studies.
 
-   :homepage: http://ccb.jhu.edu/software/kraken/
-   :license: GPLv3
+   :homepage: https://ccb.jhu.edu/software/kraken
+   :developer docs: https://github.com/DerrickWood/kraken
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`kraken <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kraken>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kraken/meta.yaml>`_
    :links: biotools: :biotools:`kraken`, doi: :doi:`10.1186/gb-2014-15-3-r46`
 
@@ -29,10 +30,10 @@ kraken
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.1-11</code>,  <code>1.1.1-10</code>,  <code>1.1.1-9</code>,  <code>1.1.1-8</code>,  <code>1.1.1-7</code>,  <code>1.1.1-6</code>,  <code>1.1.1-5</code>,  <code>1.1.1-4</code>,  <code>1.1.1-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.1-12</code>,  <code>1.1.1-11</code>,  <code>1.1.1-10</code>,  <code>1.1.1-9</code>,  <code>1.1.1-8</code>,  <code>1.1.1-7</code>,  <code>1.1.1-6</code>,  <code>1.1.1-5</code>,  <code>1.1.1-4</code>,  </span></summary>
       
 
-      ``1.1.1-11``,  ``1.1.1-10``,  ``1.1.1-9``,  ``1.1.1-8``,  ``1.1.1-7``,  ``1.1.1-6``,  ``1.1.1-5``,  ``1.1.1-4``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-0``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-0``,  ``0.10.6_eaf8fb68-4``,  ``0.10.6_eaf8fb68-3``,  ``0.10.6_eaf8fb68-2``,  ``0.10.6_eaf8fb68-1``,  ``0.10.6_eaf8fb68-0``,  ``0.10.5beta-2``,  ``0.10.5beta-0``
+      ``1.1.1-12``,  ``1.1.1-11``,  ``1.1.1-10``,  ``1.1.1-9``,  ``1.1.1-8``,  ``1.1.1-7``,  ``1.1.1-6``,  ``1.1.1-5``,  ``1.1.1-4``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-0``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-0``,  ``0.10.6_eaf8fb68-4``,  ``0.10.6_eaf8fb68-3``,  ``0.10.6_eaf8fb68-2``,  ``0.10.6_eaf8fb68-1``,  ``0.10.6_eaf8fb68-0``,  ``0.10.5beta-2``,  ``0.10.5beta-0``
 
       
       .. raw:: html
@@ -54,7 +55,7 @@ kraken
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

@@ -13,7 +13,7 @@ scallop2
    A reference\-based transcript assembler optimized for paired\-\/multiple\-end RNA\-seq data.
 
    :homepage: https://github.com/Shao-Group/scallop2
-   :license: BSD-3-Clause
+   :license: BSD / BSD-3-Clause
    :recipe: /`scallop2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scallop2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scallop2/meta.yaml>`_
 
    
@@ -26,19 +26,35 @@ scallop2
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.2-7``,  ``1.1.2-6``,  ``1.1.2-5``,  ``1.1.2-4``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.2-8</code>,  <code>1.1.2-7</code>,  <code>1.1.2-6</code>,  <code>1.1.2-5</code>,  <code>1.1.2-4</code>,  <code>1.1.2-3</code>,  <code>1.1.2-2</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  </span></summary>
+      
 
+      ``1.1.2-8``,  ``1.1.2-7``,  ``1.1.2-6``,  ``1.1.2-5``,  ``1.1.2-4``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends boost-cpp: 
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libstdcxx: ``>=13``
+   :depends libxcrypt: ``>=4.4.36``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

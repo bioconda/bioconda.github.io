@@ -10,11 +10,14 @@ desalt
    :replaces_section_title:
    :noindex:
 
-   De Bruijn graph\-based Spliced Aligner for Long Transcriptome reads
+   De Bruijn graph\-based Spliced Aligner for Long Transcriptome reads.
 
    :homepage: https://github.com/ydLiu-HIT/deSALT
-   :license: MIT
+   :documentation: https://github.com/ydLiu-HIT/deSALT/blob/v1.5.6/README.md
+   
+   :license: MIT / MIT
    :recipe: /`desalt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/desalt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/desalt/meta.yaml>`_
+   :links: biotools: :biotools:`deSALT`
 
    
 
@@ -28,10 +31,10 @@ desalt
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.6-6</code>,  <code>1.5.6-5</code>,  <code>1.5.6-4</code>,  <code>1.5.6-3</code>,  <code>1.5.6-2</code>,  <code>1.5.6-1</code>,  <code>1.5.6-0</code>,  <code>1.5.5-0</code>,  <code>1.5.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.6-7</code>,  <code>1.5.6-6</code>,  <code>1.5.6-5</code>,  <code>1.5.6-4</code>,  <code>1.5.6-3</code>,  <code>1.5.6-2</code>,  <code>1.5.6-1</code>,  <code>1.5.6-0</code>,  <code>1.5.5-0</code>,  </span></summary>
       
 
-      ``1.5.6-6``,  ``1.5.6-5``,  ``1.5.6-4``,  ``1.5.6-3``,  ``1.5.6-2``,  ``1.5.6-1``,  ``1.5.6-0``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5-0``,  ``1.4-1``,  ``1.4-0``,  ``1.3-0``
+      ``1.5.6-7``,  ``1.5.6-6``,  ``1.5.6-5``,  ``1.5.6-4``,  ``1.5.6-3``,  ``1.5.6-2``,  ``1.5.6-1``,  ``1.5.6-0``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5-0``,  ``1.4-1``,  ``1.4-0``,  ``1.3-0``
 
       
       .. raw:: html
@@ -40,12 +43,17 @@ desalt
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

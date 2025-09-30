@@ -10,11 +10,14 @@ trycycler
    :replaces_section_title:
    :noindex:
 
-   Trycycler is a tool for generating consensus long\-read assemblies for bacterial genomes
+   Trycycler is a tool for generating consensus long\-read assemblies for bacterial genomes.
 
    :homepage: https://github.com/rrwick/Trycycler
-   :license: GPLv3
+   :documentation: https://github.com/rrwick/Trycycler/wiki
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`trycycler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trycycler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trycycler/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s13059-021-02483-z`, biotools: :biotools:`trycycler`, usegalaxy-eu: :usegalaxy-eu:`trycycler_cluster`, usegalaxy-eu: :usegalaxy-eu:`trycycler_consensus`, usegalaxy-eu: :usegalaxy-eu:`trycycler_partition`, usegalaxy-eu: :usegalaxy-eu:`trycycler_reconcile_msa`, usegalaxy-eu: :usegalaxy-eu:`trycycler_subsample`
 
    
 
@@ -26,9 +29,17 @@ trycycler
    :versions:
       
       
+      .. raw:: html
 
-      ``0.5.5-1``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.5.6-0</code>,  <code>0.5.5-1</code>,  <code>0.5.5-0</code>,  <code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  </span></summary>
+      
 
+      ``0.5.6-0``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -38,7 +49,7 @@ trycycler
    :depends muscle: ``<4``
    :depends numpy: 
    :depends pillow: 
-   :depends python: ``>=3.6,<3.11``
+   :depends python: ``>=3.9``
    :depends python-edlib: 
    :depends r-ape: 
    :depends r-base: 
@@ -95,7 +106,7 @@ trycycler
 
     <script>
         var package = "trycycler";
-        var versions = ["0.5.5","0.5.5","0.5.4","0.5.3","0.5.1"];
+        var versions = ["0.5.6","0.5.5","0.5.5","0.5.4","0.5.3"];
     </script>
 
 

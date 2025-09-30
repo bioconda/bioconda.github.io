@@ -13,7 +13,9 @@ wade
    WADE provides a flexible and customizable method to extract specific genes from a large number of genomes at once.
 
    :homepage: https://github.com/phac-nml/wade
-   :license: APACHE / Apache License, Version 2.0
+   :documentation: https://github.com/phac-nml/wade/blob/v1.2.0/README.md
+   
+   :license: APACHE / Apache-2.0
    :recipe: /`wade <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wade>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wade/meta.yaml>`_
 
    
@@ -27,21 +29,22 @@ wade
       
       
 
-      ``0.2.6-1``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``
+      ``1.2.0-0``,  ``0.2.6-1``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``
 
       
 
    
    :depends bioconductor-biostrings: 
    :depends blast: 
-   :depends r-base: ``>=4.1,<4.2.0a0``
-   :depends r-biocmanager: 
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-dplyr: 
-   :depends r-here: 
-   :depends r-magrittr: 
+   :depends r-dt: 
    :depends r-optparse: 
-   :depends r-purrr: 
+   :depends r-readxl: 
+   :depends r-shiny: 
+   :depends r-shinywidgets: 
    :depends r-stringr: 
+   :depends r-tidyverse: 
    :requirements:
 
    :additional platforms:
@@ -92,7 +95,7 @@ wade
 
     <script>
         var package = "wade";
-        var versions = ["0.2.6","0.2.6","0.2.5","0.2.4","0.2.3"];
+        var versions = ["1.2.0","0.2.6","0.2.6","0.2.5","0.2.4"];
     </script>
 
 

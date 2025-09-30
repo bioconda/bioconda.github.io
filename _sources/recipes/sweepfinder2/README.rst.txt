@@ -10,9 +10,9 @@ sweepfinder2
    :replaces_section_title:
    :noindex:
 
-   The BWA read mapper.
+   A program written in C that can perform genomic scans for recent selective sweeps selection while controlling for background selection and mutation rate variation.
 
-   :homepage: http://www.personal.psu.edu/mxd60/sf2.html
+   :homepage: https://degiorgiogroup.fau.edu/sf2.html
    :license: Unknown
    :recipe: /`sweepfinder2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sweepfinder2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sweepfinder2/meta.yaml>`_
 
@@ -27,15 +27,19 @@ sweepfinder2
       
       
 
-      ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0-6``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

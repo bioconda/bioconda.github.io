@@ -13,7 +13,7 @@ amulety
    Python package to create embeddings of BCR amino acid sequences.
 
    :homepage: https://github.com/immcantation/amulety
-   :license: GPL-3.0-only
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`amulety <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/amulety>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/amulety/meta.yaml>`_
 
    
@@ -27,11 +27,13 @@ amulety
       
       
 
-      ``1.1-0``,  ``1.0-0``
+      ``2.0-0``,  ``1.1-0``,  ``1.0-0``
 
       
 
    
+   :depends ablang: 
+   :depends anndata: 
    :depends antiberty: 
    :depends numpy: 
    :depends pandas: 
@@ -40,10 +42,13 @@ amulety
    :depends pytest: ``>=7.0.0``
    :depends pytest-workflow: ``>=1.6.0``
    :depends python: ``>=3.8,<4.0``
+   :depends python-isal: 
    :depends pytorch: 
    :depends rjieba: 
+   :depends sentencepiece: 
    :depends transformers: 
    :depends typer: 
+   :depends zlib-ng: 
    :requirements:
 
    :additional platforms:
@@ -94,7 +99,7 @@ amulety
 
     <script>
         var package = "amulety";
-        var versions = ["1.1","1.0"];
+        var versions = ["2.0","1.1","1.0"];
     </script>
 
 

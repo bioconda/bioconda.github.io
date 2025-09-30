@@ -10,10 +10,10 @@ epimetheus-py
    :replaces_section_title:
    :noindex:
 
-   Cli tool for fast lookup in pileup for motif methylation
+   CLI tool for fast lookup in pileup for motif methylation.
 
    :homepage: https://github.com/SebastianDall/epimetheus
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`epimetheus-py <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/epimetheus-py>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/epimetheus-py/meta.yaml>`_
 
    
@@ -27,18 +27,23 @@ epimetheus-py
       
       
 
-      ``0.7.2-0``,  ``0.6.2-0``
+      ``0.7.4-0``,  ``0.7.2-0``,  ``0.6.2-0``
 
       
 
    
    :depends __glibc: ``>=2.17,<3.0.a0``
    :depends libgcc: ``>=13``
+   :depends polars: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -86,7 +91,7 @@ epimetheus-py
 
     <script>
         var package = "epimetheus-py";
-        var versions = ["0.7.2","0.6.2"];
+        var versions = ["0.7.4","0.7.2","0.6.2"];
     </script>
 
 

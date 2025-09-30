@@ -12,9 +12,12 @@ rnacode
 
    RNAcode \- Analyze the protein coding potential in multiple sequence alignments RNAcode relies on evolutionary signatures including synonymous\/conservative mutations and conservation of the reading frame. It does not use any species specific sequence characteristics whatsoever and does not use any machine learning techniques.
 
-   :homepage: http://wash.github.io/rnacode/
-   :license: unknown
+   :homepage: https://github.com/ViennaRNA/RNAcode
+   :documentation: https://viennarna.github.io/RNAcode
+   
+   :license: Unknown
    :recipe: /`rnacode <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnacode>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnacode/meta.yaml>`_
+   :links: biotools: :biotools:`rnacode`, usegalaxy-eu: :usegalaxy-eu:`rbc_rnacode`, doi: :doi:`10.1261/rna.2536111`
 
    
 
@@ -27,15 +30,19 @@ rnacode
       
       
 
-      ``0.3-3``,  ``0.3-2``,  ``0.3-1``,  ``0.3-0``
+      ``0.3.1-0``,  ``0.3-3``,  ``0.3-2``,  ``0.3-1``,  ``0.3-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -83,7 +90,7 @@ rnacode
 
     <script>
         var package = "rnacode";
-        var versions = ["0.3","0.3","0.3","0.3"];
+        var versions = ["0.3.1","0.3","0.3","0.3","0.3"];
     </script>
 
 
