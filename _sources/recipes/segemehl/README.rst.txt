@@ -10,10 +10,10 @@ segemehl
    :replaces_section_title:
    :noindex:
 
-   Short read mapping with gaps
+   Short read mapping with gaps.
 
-   :homepage: http://www.bioinf.uni-leipzig.de/Software/segemehl/
-   :license: GPL3
+   :homepage: http://www.bioinf.uni-leipzig.de/Software/segemehl
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`segemehl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/segemehl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/segemehl/meta.yaml>`_
    :links: biotools: :biotools:`segemehl`, usegalaxy-eu: :usegalaxy-eu:`segemehl`
 
@@ -29,10 +29,10 @@ segemehl
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.4-12</code>,  <code>0.3.4-11</code>,  <code>0.3.4-10</code>,  <code>0.3.4-9</code>,  <code>0.3.4-8</code>,  <code>0.3.4-7</code>,  <code>0.3.4-6</code>,  <code>0.3.4-5</code>,  <code>0.3.4-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.4-13</code>,  <code>0.3.4-12</code>,  <code>0.3.4-11</code>,  <code>0.3.4-10</code>,  <code>0.3.4-9</code>,  <code>0.3.4-8</code>,  <code>0.3.4-7</code>,  <code>0.3.4-6</code>,  <code>0.3.4-5</code>,  </span></summary>
       
 
-      ``0.3.4-12``,  ``0.3.4-11``,  ``0.3.4-10``,  ``0.3.4-9``,  ``0.3.4-8``,  ``0.3.4-7``,  ``0.3.4-6``,  ``0.3.4-5``,  ``0.3.4-4``,  ``0.3.4-3``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.1-10``,  ``0.3.1-9``,  ``0.3.1-8``,  ``0.3.1-7``,  ``0.3.1-6``,  ``0.3.1-5``,  ``0.3.1-4``,  ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2.0-11``,  ``0.2.0-10``,  ``0.2.0-9``,  ``0.2.0-8``,  ``0.2.0-7``,  ``0.2.0-6``,  ``0.2.0-5``,  ``0.2.0-4``,  ``0.2.0-3``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``
+      ``0.3.4-13``,  ``0.3.4-12``,  ``0.3.4-11``,  ``0.3.4-10``,  ``0.3.4-9``,  ``0.3.4-8``,  ``0.3.4-7``,  ``0.3.4-6``,  ``0.3.4-5``,  ``0.3.4-4``,  ``0.3.4-3``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.1-10``,  ``0.3.1-9``,  ``0.3.1-8``,  ``0.3.1-7``,  ``0.3.1-6``,  ``0.3.1-5``,  ``0.3.1-4``,  ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2.0-11``,  ``0.2.0-10``,  ``0.2.0-9``,  ``0.2.0-8``,  ``0.2.0-7``,  ``0.2.0-6``,  ``0.2.0-5``,  ``0.2.0-4``,  ``0.2.0-3``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ segemehl
       
 
    
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
@@ -52,7 +52,7 @@ segemehl
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

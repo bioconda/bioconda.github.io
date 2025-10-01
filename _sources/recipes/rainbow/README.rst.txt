@@ -10,10 +10,10 @@ rainbow
    :replaces_section_title:
    :noindex:
 
-   Efficient tool for clustering and assembling short reads\, especially for RAD
+   Efficient tool for clustering and assembling short reads\, especially for RAD.
 
-   :homepage: https://sourceforge.net/projects/bio-rainbow/
-   :license: GNU General Public License version 2.0 (GPLv2)
+   :homepage: https://sourceforge.net/projects/bio-rainbow
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`rainbow <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rainbow>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rainbow/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ rainbow
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.4-10</code>,  <code>2.0.4-9</code>,  <code>2.0.4-8</code>,  <code>2.0.4-7</code>,  <code>2.0.4-6</code>,  <code>2.0.4-5</code>,  <code>2.0.4-4</code>,  <code>2.0.4-3</code>,  <code>2.0.4-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.4-11</code>,  <code>2.0.4-10</code>,  <code>2.0.4-9</code>,  <code>2.0.4-8</code>,  <code>2.0.4-7</code>,  <code>2.0.4-6</code>,  <code>2.0.4-5</code>,  <code>2.0.4-4</code>,  <code>2.0.4-3</code>,  </span></summary>
       
 
-      ``2.0.4-10``,  ``2.0.4-9``,  ``2.0.4-8``,  ``2.0.4-7``,  ``2.0.4-6``,  ``2.0.4-5``,  ``2.0.4-4``,  ``2.0.4-3``,  ``2.0.4-2``,  ``2.0.4-0``
+      ``2.0.4-11``,  ``2.0.4-10``,  ``2.0.4-9``,  ``2.0.4-8``,  ``2.0.4-7``,  ``2.0.4-6``,  ``2.0.4-5``,  ``2.0.4-4``,  ``2.0.4-3``,  ``2.0.4-2``,  ``2.0.4-0``
 
       
       .. raw:: html
@@ -41,10 +41,14 @@ rainbow
 
    
    :depends libgcc: ``>=13``
-   :depends perl: 
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

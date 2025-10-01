@@ -10,10 +10,10 @@ nwalign3
    :replaces_section_title:
    :noindex:
 
-   Updated version of nwalign with Python 3.x compatibility.
+   Updated version of nwalign \(Needleman\-Wunsch global sequence alignment\) with Python 3.x compatibility.
 
    :homepage: https://github.com/briney/nwalign3
-   :license: BSD
+   :license: BSD / BSD-4-Clause-UC
    :recipe: /`nwalign3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nwalign3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nwalign3/meta.yaml>`_
    :links: biotools: :biotools:`nwalign3`
 
@@ -28,18 +28,22 @@ nwalign3
       
       
 
-      ``0.1.2-3``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``
+      ``0.1.6-0``,  ``0.1.2-3``,  ``0.1.2-2``,  ``0.1.2-1``,  ``0.1.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends numpy: ``>=1.21.6,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends numpy: ``>=1.22.4,<2.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -87,7 +91,7 @@ nwalign3
 
     <script>
         var package = "nwalign3";
-        var versions = ["0.1.2","0.1.2","0.1.2","0.1.2"];
+        var versions = ["0.1.6","0.1.2","0.1.2","0.1.2","0.1.2"];
     </script>
 
 

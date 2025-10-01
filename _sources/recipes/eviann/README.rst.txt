@@ -13,7 +13,7 @@ eviann
    Evidence\-based eukaryotic genome annotation software.
 
    :homepage: https://github.com/alekseyzimin/EviAnn_release
-   :documentation: https://github.com/alekseyzimin/EviAnn_release/blob/v2.0.3/README.md
+   :documentation: https://github.com/alekseyzimin/EviAnn_release/blob/v2.0.4/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`eviann <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eviann>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eviann/meta.yaml>`_
@@ -30,7 +30,7 @@ eviann
       
       
 
-      ``2.0.3-4``,  ``2.0.3-3``,  ``2.0.3-2``,  ``2.0.3-1``,  ``2.0.3-0``
+      ``2.0.4-0``,  ``2.0.3-4``,  ``2.0.3-3``,  ``2.0.3-2``,  ``2.0.3-1``,  ``2.0.3-0``
 
       
 
@@ -101,7 +101,7 @@ eviann
 
     <script>
         var package = "eviann";
-        var versions = ["2.0.3","2.0.3","2.0.3","2.0.3","2.0.3"];
+        var versions = ["2.0.4","2.0.3","2.0.3","2.0.3","2.0.3"];
     </script>
 
 

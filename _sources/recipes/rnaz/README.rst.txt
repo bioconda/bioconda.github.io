@@ -10,12 +10,14 @@ rnaz
    :replaces_section_title:
    :noindex:
 
-   predicting structural noncoding RNAs
+   Predicting structural noncoding RNAs.
 
-   :homepage: https://www.tbi.univie.ac.at/~wash/RNAz/
+   :homepage: https://github.com/ViennaRNA/RNAz
+   :documentation: https://www.tbi.univie.ac.at/software/RNAz
+   
    :license: MIT-like
    :recipe: /`rnaz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnaz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnaz/meta.yaml>`_
-   :links: biotools: :biotools:`rnaz`
+   :links: biotools: :biotools:`rnaz`, usegalaxy-eu: :usegalaxy-eu:`rnaz_cluster`, usegalaxy-eu: :usegalaxy-eu:`rnaz_randomize_aln`, usegalaxy-eu: :usegalaxy-eu:`rnaz_select_seqs`, usegalaxy-eu: :usegalaxy-eu:`rnaz_window`, usegalaxy-eu: :usegalaxy-eu:`rnaz_annotate`, usegalaxy-eu: :usegalaxy-eu:`rnaz`
 
    
 
@@ -29,10 +31,10 @@ rnaz
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.1-7</code>,  <code>2.1.1-6</code>,  <code>2.1.1-5</code>,  <code>2.1.1-4</code>,  <code>2.1.1-3</code>,  <code>2.1.1-2</code>,  <code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.1-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.1-8</code>,  <code>2.1.1-7</code>,  <code>2.1.1-6</code>,  <code>2.1.1-5</code>,  <code>2.1.1-4</code>,  <code>2.1.1-3</code>,  <code>2.1.1-2</code>,  <code>2.1.1-1</code>,  <code>2.1.1-0</code>,  </span></summary>
       
 
-      ``2.1.1-7``,  ``2.1.1-6``,  ``2.1.1-5``,  ``2.1.1-4``,  ``2.1.1-3``,  ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1-4``,  ``2.1-3``,  ``2.1-2``,  ``2.1-1``,  ``2.1-0``
+      ``2.1.1-8``,  ``2.1.1-7``,  ``2.1.1-6``,  ``2.1.1-5``,  ``2.1.1-4``,  ``2.1.1-3``,  ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1-4``,  ``2.1-3``,  ``2.1-2``,  ``2.1-1``,  ``2.1-0``
 
       
       .. raw:: html
@@ -47,6 +49,10 @@ rnaz
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

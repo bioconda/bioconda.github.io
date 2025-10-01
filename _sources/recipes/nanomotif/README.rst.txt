@@ -10,7 +10,7 @@ nanomotif
    :replaces_section_title:
    :noindex:
 
-   Identifying methlyation motifs in nanopore data
+   Identifying methlyation motifs in nanopore data.
 
    :homepage: https://github.com/MicrobialDarkMatter/nanomotif
    :documentation: https://nanomotif.readthedocs.io/en/latest
@@ -30,10 +30,10 @@ nanomotif
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.8-0</code>,  <code>0.5.6-0</code>,  <code>0.5.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.8-0</code>,  <code>0.5.6-0</code>,  </span></summary>
       
 
-      ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.8-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-1``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.17-0``,  ``0.4.16-0``,  ``0.4.15-0``,  ``0.4.14-0``,  ``0.4.13-0``,  ``0.4.12-0``,  ``0.4.11-0``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.1.20-0``,  ``0.1.19-0``,  ``0.1.18-0``,  ``0.1.17-0``,  ``0.1.15-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.7-0``
+      ``1.0.0-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.8-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-1``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.17-0``,  ``0.4.16-0``,  ``0.4.15-0``,  ``0.4.14-0``,  ``0.4.13-0``,  ``0.4.12-0``,  ``0.4.11-0``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.1.20-0``,  ``0.1.19-0``,  ``0.1.18-0``,  ``0.1.17-0``,  ``0.1.15-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.7-0``
 
       
       .. raw:: html
@@ -43,16 +43,17 @@ nanomotif
 
    
    :depends bio: ``>=1.6.2``
-   :depends epimetheus-py: 
+   :depends epimetheus-py: ``0.7.4``
    :depends hdbscan: 
    :depends networkx: ``>=3.1``
-   :depends numpy: ``>=1.24.4``
+   :depends numpy: ``>=1.24.4,<=2.0.0``
    :depends pandas: ``>=2.0.2``
-   :depends polars: ``>=0.19,<=0.20.23``
+   :depends polars: ``>=1.31``
    :depends progressbar2: ``>=3.53.1``
    :depends pyarrow: ``>=15.0.2``
-   :depends pymethylation_utils: ``0.5.2``
-   :depends python: 
+   :depends pyfastx: ``>=0.2.10``
+   :depends pysam: ``>=0.22.0``
+   :depends python: ``>=3``
    :depends requests: 
    :depends scikit-learn: ``>=1.5.2``
    :depends scipy: ``>=1.10.1``
@@ -107,7 +108,7 @@ nanomotif
 
     <script>
         var package = "nanomotif";
-        var versions = ["0.8.0","0.7.1","0.7.0","0.6.2","0.6.1"];
+        var versions = ["1.0.0","0.8.0","0.7.1","0.7.0","0.6.2"];
     </script>
 
 
