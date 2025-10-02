@@ -30,7 +30,7 @@ coreprofiler
       
       
 
-      ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``
+      ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``
 
       
 
@@ -41,6 +41,7 @@ coreprofiler
    :depends bs4: 
    :depends pandas: ``>=2.0.3``
    :depends python: ``>=3.11``
+   :depends rauth: ``>=0.7.3,<0.8.0``
    :depends tqdm: ``>=4.65.0``
    :requirements:
 
@@ -92,7 +93,7 @@ coreprofiler
 
     <script>
         var package = "coreprofiler";
-        var versions = ["1.1.4","1.1.3","1.1.2","1.1.1"];
+        var versions = ["1.1.5","1.1.4","1.1.3","1.1.2","1.1.1"];
     </script>
 
 

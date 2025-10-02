@@ -10,7 +10,7 @@ seqsero2
    :replaces_section_title:
    :noindex:
 
-   Salmonella serotype prediction from genome sequencing data
+   Salmonella serotype prediction from genome sequencing data.
 
    :homepage: https://github.com/denglab/SeqSero2
    :license: GPL / GPL-2.0-or-later
@@ -28,7 +28,7 @@ seqsero2
       
       
 
-      ``1.3.1-1``,  ``1.3.1-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.01-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.3.2-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.01-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
@@ -93,7 +93,7 @@ seqsero2
 
     <script>
         var package = "seqsero2";
-        var versions = ["1.3.1","1.3.1","1.2.1","1.1.1","1.01"];
+        var versions = ["1.3.2","1.3.1","1.3.1","1.2.1","1.1.1"];
     </script>
 
 

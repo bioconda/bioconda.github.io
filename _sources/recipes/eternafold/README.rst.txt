@@ -10,13 +10,14 @@ eternafold
    :replaces_section_title:
    :noindex:
 
-   RNA structure prediction algorithm improved through crowdsourced training data
+   RNA structure prediction algorithm improved through crowdsourced training data.
 
    :homepage: https://github.com/eternagame/EternaFold
    :documentation: https://eternagame.github.io/EternaFold
    
    :license: BSD / BSD-3-Clause
    :recipe: /`eternafold <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eternafold>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eternafold/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41592-022-01605-0`
 
    EternaFold performs multitask learning to improve RNA structure prediction. 
    Its training tasks include 1\) predicting single structures\, 2\) maximizing the 
@@ -34,16 +35,21 @@ eternafold
       
       
 
-      ``1.3.1-1``,  ``1.3.1-0``
+      ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``
 
       
 
    
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
+   :depends openmpi-mpicxx: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -91,7 +97,7 @@ eternafold
 
     <script>
         var package = "eternafold";
-        var versions = ["1.3.1","1.3.1"];
+        var versions = ["1.3.1","1.3.1","1.3.1"];
     </script>
 
 

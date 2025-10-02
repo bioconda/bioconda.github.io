@@ -78,6 +78,9 @@
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cell2cell">cell2cell</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cell2cell/meta.yaml">meta.yaml</a></p>
 </dd>
+<dt class="field-even">Links<span class="colon">:</span></dt>
+<dd class="field-even"><p>doi: <a class="extlink-doi reference external" href="https://doi.org/10.1371/journal.pcbi.1010715">10.1371/journal.pcbi.1010715</a></p>
+</dd>
 </dl>
 </dd></dl>
 
@@ -86,68 +89,65 @@
 <em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">cell2cell</span></span><a class="headerlink" href="#package-cell2cell" title="Link to this definition">¶</a></dt>
 <dd><blockquote>
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/cell2cell"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/cell2cell.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/cell2cell"><img alt="docker_cell2cell" src="https://quay.io/repository/biocontainers/cell2cell/status" /></a></p>
-<dl class="field-list">
+<dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.8.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.4-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.4-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.4-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.4-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.8.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.4-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.4-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.4-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.4-0</span></code></p>
 </dd>
 <dt class="field-even">depends gseapy<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">1.0.3</span></code></p>
 </dd>
 <dt class="field-odd">depends kneed<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends libgcc<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
+<dt class="field-even">depends libcxx<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=18</span></code></p>
 </dd>
-<dt class="field-odd">depends libstdcxx<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
+<dt class="field-odd">depends matplotlib-base<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.2.0,&lt;3.7.3</span></code></p>
 </dd>
-<dt class="field-even">depends matplotlib-base<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.2.0,&lt;3.7.3</span></code></p>
+<dt class="field-even">depends networkx<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.3</span></code></p>
 </dd>
-<dt class="field-odd">depends networkx<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.3</span></code></p>
+<dt class="field-odd">depends numpy<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.16,&lt;2.0</span></code></p>
 </dd>
-<dt class="field-even">depends numpy<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.16,&lt;2.0</span></code></p>
+<dt class="field-even">depends openpyxl<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.6.2</span></code></p>
 </dd>
-<dt class="field-odd">depends openpyxl<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.6.2</span></code></p>
+<dt class="field-odd">depends pandas<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0.0</span></code></p>
 </dd>
-<dt class="field-even">depends pandas<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0.0</span></code></p>
+<dt class="field-even">depends python<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.10,&lt;3.11.0a0</span></code></p>
 </dd>
-<dt class="field-odd">depends python<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.10,&lt;3.11.0a0</span></code></p>
+<dt class="field-odd">depends python_abi<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">3.10.* *_cp310</span></code></p>
 </dd>
-<dt class="field-even">depends python_abi<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">3.10.* *_cp310</span></code></p>
+<dt class="field-even">depends scanpy<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&lt;=1.9.3</span></code></p>
 </dd>
-<dt class="field-odd">depends scanpy<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&lt;=1.9.3</span></code></p>
-</dd>
-<dt class="field-even">depends scikit-learn<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends seaborn-base<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.11.0</span></code></p>
-</dd>
-<dt class="field-even">depends statannotations<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends statsmodels<span class="colon">:</span></dt>
+<dt class="field-odd">depends scikit-learn<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends tensorly<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">0.8.1</span></code></p>
+<dt class="field-even">depends seaborn-base<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.11.0</span></code></p>
 </dd>
-<dt class="field-odd">depends tqdm<span class="colon">:</span></dt>
+<dt class="field-odd">depends statannotations<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends umap-learn<span class="colon">:</span></dt>
+<dt class="field-even">depends statsmodels<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends xlrd<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.1</span></code></p>
+<dt class="field-odd">depends tensorly<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.8.1</span></code></p>
 </dd>
-<dt class="field-even">requirements<span class="colon">:</span></dt>
+<dt class="field-even">depends tqdm<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
+<dt class="field-odd">depends umap-learn<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends xlrd<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.1</span></code></p>
+</dd>
+<dt class="field-odd">requirements<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">additional platforms<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -182,7 +182,7 @@ others.</p>
 
 <script>
     var package = "cell2cell";
-    var versions = ["0.8.1","0.8.1","0.8.0","0.7.4","0.7.4"];
+    var versions = ["0.8.2","0.8.1","0.8.1","0.8.0","0.7.4"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

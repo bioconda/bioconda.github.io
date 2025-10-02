@@ -15,6 +15,7 @@ cell2cell
    :homepage: https://github.com/earmingol/cell2cell
    :license: BSD / BSD-3-Clause
    :recipe: /`cell2cell <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cell2cell>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cell2cell/meta.yaml>`_
+   :links: doi: :doi:`10.1371/journal.pcbi.1010715`
 
    
 
@@ -27,15 +28,14 @@ cell2cell
       
       
 
-      ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.4-3``,  ``0.7.4-2``,  ``0.7.4-1``,  ``0.7.4-0``
+      ``0.8.2-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.4-3``,  ``0.7.4-2``,  ``0.7.4-1``,  ``0.7.4-0``
 
       
 
    
    :depends gseapy: ``1.0.3``
    :depends kneed: 
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libcxx: ``>=18``
    :depends matplotlib-base: ``>=3.2.0,<3.7.3``
    :depends networkx: ``>=2.3``
    :depends numpy: ``>=1.16,<2.0``
@@ -55,10 +55,6 @@ cell2cell
    :requirements:
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -106,7 +102,7 @@ cell2cell
 
     <script>
         var package = "cell2cell";
-        var versions = ["0.8.1","0.8.1","0.8.0","0.7.4","0.7.4"];
+        var versions = ["0.8.2","0.8.1","0.8.1","0.8.0","0.7.4"];
     </script>
 
 

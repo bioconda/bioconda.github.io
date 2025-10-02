@@ -13,9 +13,11 @@ rnablueprint
    The RNAblueprint library solves the problem of uniformly sampling RNA\/DNA sequences compatible to multiple structural constraints and sequence constraints.
 
    :homepage: https://github.com/ViennaRNA/RNAblueprint
-   :license: GPL3
+   :documentation: https://viennarna.github.io/RNAblueprint
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`rnablueprint <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnablueprint>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnablueprint/meta.yaml>`_
-   :links: doi: :doi:`10.1093/bioinformatics/btx263`
+   :links: biotools: :biotools:`rnablueprint`, doi: :doi:`10.1093/bioinformatics/btx263`
 
    
 
@@ -29,10 +31,10 @@ rnablueprint
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.2-6</code>,  <code>1.3.2-5</code>,  <code>1.3.2-4</code>,  <code>1.3.2-3</code>,  <code>1.3.2-2</code>,  <code>1.3.2-1</code>,  <code>1.3.2-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.3-0</code>,  <code>1.3.2-6</code>,  <code>1.3.2-5</code>,  <code>1.3.2-4</code>,  <code>1.3.2-3</code>,  <code>1.3.2-2</code>,  <code>1.3.2-1</code>,  <code>1.3.2-0</code>,  <code>1.3.0-1</code>,  </span></summary>
       
 
-      ``1.3.2-6``,  ``1.3.2-5``,  ``1.3.2-4``,  ``1.3.2-3``,  ``1.3.2-2``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2-1``,  ``1.2-0``
+      ``1.3.3-0``,  ``1.3.2-6``,  ``1.3.2-5``,  ``1.3.2-4``,  ``1.3.2-3``,  ``1.3.2-2``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2-1``,  ``1.2-0``
 
       
       .. raw:: html
@@ -41,14 +43,20 @@ rnablueprint
       
 
    
-   :depends boost-cpp: ``>=1.78.0,<1.78.1.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends boost-cpp: 
+   :depends gmp: ``>=6.3.0,<7.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -96,7 +104,7 @@ rnablueprint
 
     <script>
         var package = "rnablueprint";
-        var versions = ["1.3.2","1.3.2","1.3.2","1.3.2","1.3.2"];
+        var versions = ["1.3.3","1.3.2","1.3.2","1.3.2","1.3.2"];
     </script>
 
 

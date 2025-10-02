@@ -10,10 +10,10 @@ secedo
    :replaces_section_title:
    :noindex:
 
-   SNV\-based clustering for single\-cell sequencing data
+   SNV\-based clustering for single\-cell sequencing data.
 
    :homepage: https://github.com/ratschlab/secedo
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`secedo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/secedo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/secedo/meta.yaml>`_
    :links: biotools: :biotools:`secedo`
 
@@ -27,21 +27,37 @@ secedo
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.7-2``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.7-4</code>,  <code>1.0.7-2</code>,  <code>1.0.7-1</code>,  <code>1.0.7-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-1</code>,  <code>1.0.5-0</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  </span></summary>
+      
 
+      ``1.0.7-4``,  ``1.0.7-2``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends arpack: ``>=3.9.1,<3.10.0a0 nompi_*``
+   :depends hdf5: ``>=1.14.3,<1.14.4.0a0``
+   :depends jsoncpp: ``>=1.9.6,<1.9.7.0a0``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
+   :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends openblas: 
-   :depends openmp: 
-   :depends zlib: ``>=1.2.13,<1.3.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -89,7 +105,7 @@ secedo
 
     <script>
         var package = "secedo";
-        var versions = ["1.0.7","1.0.7","1.0.7","1.0.6","1.0.5"];
+        var versions = ["1.0.7","1.0.7","1.0.7","1.0.7","1.0.6"];
     </script>
 
 

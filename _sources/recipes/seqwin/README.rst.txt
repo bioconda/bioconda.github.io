@@ -27,7 +27,7 @@ seqwin
       
       
 
-      ``0.1.0-1``,  ``0.1.0-0``
+      ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
@@ -40,7 +40,7 @@ seqwin
    :depends numba: 
    :depends numpy: ``>=2``
    :depends pandas: ``>=2``
-   :depends pydantic: 
+   :depends pydantic: ``>=2``
    :depends python: ``>=3.10``
    :depends typer: 
    :requirements:
@@ -93,7 +93,7 @@ seqwin
 
     <script>
         var package = "seqwin";
-        var versions = ["0.1.0","0.1.0"];
+        var versions = ["0.1.0","0.1.0","0.1.0"];
     </script>
 
 

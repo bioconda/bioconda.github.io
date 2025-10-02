@@ -10,10 +10,10 @@ linearfold
    :replaces_section_title:
    :noindex:
 
-   Linear\-Time Prediction for RNA Secondary Structures
+   Linear\-Time Prediction for RNA Secondary Structures.
 
    :homepage: https://github.com/LinearFold/LinearFold
-   :license: custom
+   :license: Custom
    :recipe: /`linearfold <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/linearfold>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/linearfold/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ linearfold
       
       
 
-      ``1.0.1.dev20220829-1``,  ``1.0.1.dev20220829-0``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0.1.dev20220829-2``,  ``1.0.1.dev20220829-1``,  ``1.0.1.dev20220829-0``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
@@ -39,6 +39,10 @@ linearfold
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -86,7 +90,7 @@ linearfold
 
     <script>
         var package = "linearfold";
-        var versions = ["1.0.1.dev20220829","1.0.1.dev20220829","1.0","1.0","1.0"];
+        var versions = ["1.0.1.dev20220829","1.0.1.dev20220829","1.0.1.dev20220829","1.0","1.0"];
     </script>
 
 

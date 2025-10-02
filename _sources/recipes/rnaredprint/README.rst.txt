@@ -10,10 +10,12 @@ rnaredprint
    :replaces_section_title:
    :noindex:
 
-   Tree\-decomposition based dynamic programming algorithm for multiple target RNA design
+   Tree\-decomposition based dynamic programming algorithm for multiple target RNA design.
 
    :homepage: https://github.com/yannponty/RNARedPrint
-   :license: GPL
+   :documentation: https://github.com/yannponty/RNARedPrint/blob/v0.3/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`rnaredprint <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnaredprint>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnaredprint/meta.yaml>`_
    :links: doi: :doi:`10.1186/s12859-019-2784-7`
 
@@ -28,7 +30,7 @@ rnaredprint
       
       
 
-      ``0.3-1``,  ``0.3-0``,  ``0.3pre-4``,  ``0.3pre-3``,  ``0.3pre-2``,  ``0.3pre-1``,  ``0.3pre-0``
+      ``0.3-2``,  ``0.3-1``,  ``0.3-0``,  ``0.3pre-4``,  ``0.3pre-3``,  ``0.3pre-2``,  ``0.3pre-1``,  ``0.3pre-0``
 
       
 
@@ -38,13 +40,17 @@ rnaredprint
    :depends matplotlib-base: 
    :depends numpy: 
    :depends openjdk: 
-   :depends python: ``>=3.12,<3.13.0a0``
+   :depends python: 
    :depends scipy: 
+   :depends setuptools: 
    :depends viennarna: ``>=2.4``
-   :depends viennarna: ``>=2.7.0,<2.8.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -92,7 +98,7 @@ rnaredprint
 
     <script>
         var package = "rnaredprint";
-        var versions = ["0.3","0.3","0.3pre","0.3pre","0.3pre"];
+        var versions = ["0.3","0.3","0.3","0.3pre","0.3pre"];
     </script>
 
 

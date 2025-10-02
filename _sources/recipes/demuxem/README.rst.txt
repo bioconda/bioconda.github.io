@@ -30,7 +30,7 @@ demuxem
       
       
 
-      ``0.1.7.post1-0``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5.post1-0``
+      ``0.1.8-0``,  ``0.1.7.post1-0``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5.post1-0``
 
       
 
@@ -38,11 +38,11 @@ demuxem
    :depends docopt: 
    :depends numpy: 
    :depends pandas: 
-   :depends pegasusio: ``>=0.2.12``
+   :depends pegasusio: ``>=0.10.0``
    :depends python: ``>=3.8``
    :depends scikit-learn: 
    :depends scipy: 
-   :depends seaborn: 
+   :depends seaborn-base: 
    :requirements:
 
    :additional platforms:
@@ -93,7 +93,7 @@ demuxem
 
     <script>
         var package = "demuxem";
-        var versions = ["0.1.7.post1","0.1.7","0.1.7","0.1.6","0.1.5.post1"];
+        var versions = ["0.1.8","0.1.7.post1","0.1.7","0.1.7","0.1.6"];
     </script>
 
 
