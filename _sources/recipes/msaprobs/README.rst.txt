@@ -12,10 +12,10 @@ msaprobs
 
    MSAProbs is a well\-established state\-of\-the\-art multiple sequence alignment algorithm for protein sequences.
 
-   :homepage: http://msaprobs.sourceforge.net/homepage.htm
-   :license: GPL3
+   :homepage: https://msaprobs.sourceforge.net/homepage.htm#latest
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`msaprobs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msaprobs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msaprobs/meta.yaml>`_
-   :links: doi: :doi:`10.1093/bioinformatics/btq338`
+   :links: biotools: :biotools:`msaprobs`, doi: :doi:`10.1093/bioinformatics/btq338`
 
    
 
@@ -28,17 +28,23 @@ msaprobs
       
       
 
-      ``0.9.7-4``,  ``0.9.7-3``,  ``0.9.7-2``,  ``0.9.7-1``,  ``0.9.7-0``
+      ``0.9.7-5``,  ``0.9.7-4``,  ``0.9.7-3``,  ``0.9.7-2``,  ``0.9.7-1``,  ``0.9.7-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
    :depends libgcc: ``>=13``
+   :depends libgomp: 
    :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

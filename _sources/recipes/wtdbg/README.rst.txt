@@ -10,11 +10,14 @@ wtdbg
    :replaces_section_title:
    :noindex:
 
-   Wtdbg2\: A fuzzy Bruijn graph approach to long noisy reads assembly
+   Wtdbg2\: A fuzzy Bruijn graph approach to long noisy reads assembly.
 
    :homepage: https://github.com/ruanjue/wtdbg2
-   :license: GPL / GPL-3.0+
+   :documentation: https://github.com/ruanjue/wtdbg2/blob/v2.5/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`wtdbg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wtdbg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wtdbg/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41592-019-0669-3`, biotools: :biotools:`wtdbg2`, usegalaxy-eu: :usegalaxy-eu:`wtdbg`
 
    
 
@@ -28,10 +31,10 @@ wtdbg
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5-5</code>,  <code>2.5-4</code>,  <code>2.5-3</code>,  <code>2.5-2</code>,  <code>2.5-1</code>,  <code>2.5-0</code>,  <code>2.3-0</code>,  <code>2.1-0</code>,  <code>2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.5-6</code>,  <code>2.5-5</code>,  <code>2.5-4</code>,  <code>2.5-3</code>,  <code>2.5-2</code>,  <code>2.5-1</code>,  <code>2.5-0</code>,  <code>2.3-0</code>,  <code>2.1-0</code>,  </span></summary>
       
 
-      ``2.5-5``,  ``2.5-4``,  ``2.5-3``,  ``2.5-2``,  ``2.5-1``,  ``2.5-0``,  ``2.3-0``,  ``2.1-0``,  ``2.0-0``,  ``1.2.8.1-2``,  ``1.2.8.1-0``
+      ``2.5-6``,  ``2.5-5``,  ``2.5-4``,  ``2.5-3``,  ``2.5-2``,  ``2.5-1``,  ``2.5-0``,  ``2.3-0``,  ``2.1-0``,  ``2.0-0``,  ``1.2.8.1-2``,  ``1.2.8.1-0``
 
       
       .. raw:: html
@@ -41,12 +44,14 @@ wtdbg
 
    
    :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

@@ -12,8 +12,8 @@ phipack
 
    Simple\, rapid\, and statistically efficient test for recombination.
 
-   :homepage: http://www.maths.otago.ac.nz/~dbryant/software.html
-   :license: GPL3
+   :homepage: https://www.maths.otago.ac.nz/~dbryant/software.html
+   :license: GPL-3.0-or-later
    :recipe: /`phipack <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phipack>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phipack/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ phipack
       
       
 
-      ``1.1-6``,  ``1.1-5``,  ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-0``
+      ``1.1-7``,  ``1.1-6``,  ``1.1-5``,  ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-0``
 
       
 
@@ -39,7 +39,7 @@ phipack
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

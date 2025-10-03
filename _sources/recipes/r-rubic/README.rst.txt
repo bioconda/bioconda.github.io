@@ -10,11 +10,12 @@ r-rubic
    :replaces_section_title:
    :noindex:
 
-   RUBIC detects recurrent copy number aberrations using copy number breaks\, rather than recurrently amplified or deleted regions. This allows for a vastly simplified approach as recursive peak splitting procedures and repeated re\-estimation of the background model are avoided. Furthermore\, the false discovery rate is controlled on the level of called regions\, rather than at the probe level.
+   Pinpoint driver genes in focal recurrent aberrations \(across tumor samples\) in DNA somatic copy number data.
 
    :homepage: http://ccb.nki.nl/software/
    :license: Apache-2.0
    :recipe: /`r-rubic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rubic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rubic/meta.yaml>`_
+   :links: doi: :doi:`10.1038/ncomms12159`
 
    
 
@@ -28,10 +29,10 @@ r-rubic
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.3-7</code>,  <code>1.0.3-6</code>,  <code>1.0.3-5</code>,  <code>1.0.3-4</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.3-8</code>,  <code>1.0.3-7</code>,  <code>1.0.3-6</code>,  <code>1.0.3-5</code>,  <code>1.0.3-4</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  </span></summary>
       
 
-      ``1.0.3-7``,  ``1.0.3-6``,  ``1.0.3-5``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``1.0.3-8``,  ``1.0.3-7``,  ``1.0.3-6``,  ``1.0.3-5``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -40,8 +41,9 @@ r-rubic
       
 
    
-   :depends r-base: ``>=4.4,<4.5.0a0``
-   :depends r-data.table: ``>1.9.6``
+   :depends libgfortran: ``3.0.0.*``
+   :depends r-base: ``>=3.4,<3.5.0a0``
+   :depends r-data.table: ``>1.9.6,<=1.11.4``
    :depends r-digest: 
    :depends r-ggplot2: 
    :depends r-gtable: 

@@ -29,10 +29,10 @@ pkiss
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.0-3</code>,  <code>2.3.0-2</code>,  <code>2.3.0-1</code>,  <code>2.3.0-0</code>,  <code>2.2.14-3</code>,  <code>2.2.14-2</code>,  <code>2.2.14-1</code>,  <code>2.2.14-0</code>,  <code>2.2.12-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.0-4</code>,  <code>2.3.0-3</code>,  <code>2.3.0-2</code>,  <code>2.3.0-1</code>,  <code>2.3.0-0</code>,  <code>2.2.14-3</code>,  <code>2.2.14-2</code>,  <code>2.2.14-1</code>,  <code>2.2.14-0</code>,  </span></summary>
       
 
-      ``2.3.0-3``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.14-3``,  ``2.2.14-2``,  ``2.2.14-1``,  ``2.2.14-0``,  ``2.2.12-5``,  ``2.2.12-4``,  ``2.2.12-3``,  ``2.2.12-1``,  ``2.2.12-0``
+      ``2.3.0-4``,  ``2.3.0-3``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``,  ``2.2.14-3``,  ``2.2.14-2``,  ``2.2.14-1``,  ``2.2.14-0``,  ``2.2.12-5``,  ``2.2.12-4``,  ``2.2.12-3``,  ``2.2.12-1``,  ``2.2.12-0``
 
       
       .. raw:: html
@@ -52,7 +52,7 @@ pkiss
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -100,7 +100,7 @@ pkiss
 
     <script>
         var package = "pkiss";
-        var versions = ["2.3.0","2.3.0","2.3.0","2.3.0","2.2.14"];
+        var versions = ["2.3.0","2.3.0","2.3.0","2.3.0","2.3.0"];
     </script>
 
 

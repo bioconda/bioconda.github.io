@@ -10,9 +10,9 @@ godmd
    :replaces_section_title:
    :noindex:
 
-   GOdMD Conformational Transitions with discrete Molecular Dynamics
+   GOdMD Conformational Transitions with discrete Molecular Dynamics.
 
-   :homepage: http://mmb.irbbarcelona.org/gitlab/adam/GOdMD
+   :homepage: https://github.com/mmb-irb/godmd
    :license: APACHE / Apache Software License
    :recipe: /`godmd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/godmd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/godmd/meta.yaml>`_
 
@@ -27,19 +27,22 @@ godmd
       
       
 
-      ``1.6-0``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-0``
+      ``1.7-0``,  ``1.6-0``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-0``
 
       
 
    
    :depends libgcc: ``>=13``
    :depends libgfortran: 
-   :depends libgfortran5: ``>=13.3.0``
+   :depends libgfortran5: ``>=13.4.0``
    :depends libstdcxx: ``>=13``
-   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -87,7 +90,7 @@ godmd
 
     <script>
         var package = "godmd";
-        var versions = ["1.6","1.0.0","1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.7","1.6","1.0.0","1.0.0","1.0.0"];
     </script>
 
 

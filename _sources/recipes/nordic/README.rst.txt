@@ -30,7 +30,7 @@ nordic
       
       
 
-      ``2.7.0-0``,  ``2.6.0-0``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.4-0``
+      ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.0-0``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.4-0``
 
       
 
@@ -39,12 +39,12 @@ nordic
    :depends cmappy: ``>=4.0.1``
    :depends cmappy: ``>=4.0.1,<5.0a0``
    :depends graphviz: ``>=0.20.1``
-   :depends graphviz: ``>=13.1.0,<14.0a0``
+   :depends graphviz: ``>=13.1.2,<14.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends matplotlib-base: 
-   :depends numpy: ``<2.0.0,>=1.22.4``
-   :depends numpy: ``>=1.26.4,<2.0a0``
+   :depends numpy: ``>=1.21,<3``
+   :depends numpy: ``>=1.22.4,!=2.0.*,!=2.1.*``
    :depends omnipath: 
    :depends openpyxl: ``>=3.0.10``
    :depends python: ``>=3.10,<3.11.0a0``
@@ -109,7 +109,7 @@ nordic
 
     <script>
         var package = "nordic";
-        var versions = ["2.7.0","2.6.0","2.5.0","2.5.0","2.4.4"];
+        var versions = ["2.7.1","2.7.0","2.6.0","2.5.0","2.5.0"];
     </script>
 
 

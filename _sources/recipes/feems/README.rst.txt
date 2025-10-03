@@ -10,14 +10,14 @@ feems
    :replaces_section_title:
    :noindex:
 
-   Fast Estimation of Effective Migration Surfaces.
+   Fast Estimation of Effective Migration Surfaces \(FEEMS\) \+ admixture \(FEEMSmix\)
 
    :homepage: https://github.com/NovembreLab/feems
    :documentation: https://github.com/NovembreLab/feems/blob/v2.0.0/README.md
    
    :license: MIT / MIT
    :recipe: /`feems <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/feems>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/feems/meta.yaml>`_
-   :links: doi: :doi:`10.7554/eLife.61927`
+   :links: doi: :doi:`10.7554/eLife.61927`, doi: :doi:`10.1371/journal.pgen.1011612`
 
    A python package implementing a statistical method for inferring and visualizing gene\-flow in spatial population genetic data.
 
@@ -30,7 +30,7 @@ feems
       
       
 
-      ``2.0.0-0``,  ``1.0.0-0``
+      ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.0-0``
 
       
 
@@ -109,7 +109,7 @@ feems
 
     <script>
         var package = "feems";
-        var versions = ["2.0.0","1.0.0"];
+        var versions = ["2.0.0","2.0.0","1.0.0"];
     </script>
 
 

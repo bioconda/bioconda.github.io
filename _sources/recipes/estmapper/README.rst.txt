@@ -12,8 +12,8 @@ estmapper
 
    Software package for the high\-throughput alignment of large cDNA \(EST\, mRNA\) sequence sets to a large eukaryotic genome of the same species.
 
-   :homepage: http://kmer.sourceforge.net/wiki/index.php/Getting_Started_with_ESTmapper
-   :license: GPL
+   :homepage: https://sourceforge.net/projects/kmer
+   :license: GPL-3.0-or-later
    :recipe: /`estmapper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/estmapper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/estmapper/meta.yaml>`_
 
    
@@ -27,20 +27,24 @@ estmapper
       
       
 
-      ``2008-6``,  ``2008-5``,  ``2008-4``,  ``2008-3``,  ``2008-2``,  ``2008-1``,  ``2008-0``
+      ``2008-7``,  ``2008-6``,  ``2008-5``,  ``2008-4``,  ``2008-3``,  ``2008-2``,  ``2008-1``,  ``2008-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends python_abi: ``2.7.* *_cp27mu``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

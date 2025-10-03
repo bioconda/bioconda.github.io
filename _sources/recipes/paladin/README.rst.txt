@@ -10,16 +10,16 @@ paladin
    :replaces_section_title:
    :noindex:
 
-   Protein Alignment and Detection Interface
+   Protein Alignment and Detection Interface.
 
-   :homepage: http://genomebio.org/paladin/
-   :developer docs: https://github.com/twestbrookunh/paladin
-   :license: MIT
+   :homepage: https://github.com/ToniWestbrook/paladin
+   :documentation: https://genomebio.org/paladin
+   
+   :license: MIT / MIT
    :recipe: /`paladin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/paladin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/paladin/meta.yaml>`_
+   :links: biotools: :biotools:`paladin`, doi: :doi:`10.1093/bioinformatics/btx021`
 
-   PALADIN is a protein sequence alignment tool designed for the accurate
-   functional characterization of metagenomes.
-
+   PALADIN is a protein sequence alignment tool designed for the accurate functional characterization of metagenomes.
 
 
 .. conda:package:: paladin
@@ -31,10 +31,10 @@ paladin
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.6-6</code>,  <code>1.4.6-5</code>,  <code>1.4.6-4</code>,  <code>1.4.6-3</code>,  <code>1.4.6-2</code>,  <code>1.4.6-1</code>,  <code>1.4.6-0</code>,  <code>1.4.4-0</code>,  <code>1.3.1-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.0-0</code>,  <code>1.4.6-6</code>,  <code>1.4.6-5</code>,  <code>1.4.6-4</code>,  <code>1.4.6-3</code>,  <code>1.4.6-2</code>,  <code>1.4.6-1</code>,  <code>1.4.6-0</code>,  <code>1.4.4-0</code>,  </span></summary>
       
 
-      ``1.4.6-6``,  ``1.4.6-5``,  ``1.4.6-4``,  ``1.4.6-3``,  ``1.4.6-2``,  ``1.4.6-1``,  ``1.4.6-0``,  ``1.4.4-0``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``
+      ``1.6.0-0``,  ``1.4.6-6``,  ``1.4.6-5``,  ``1.4.6-4``,  ``1.4.6-3``,  ``1.4.6-2``,  ``1.4.6-1``,  ``1.4.6-0``,  ``1.4.4-0``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``
 
       
       .. raw:: html
@@ -43,13 +43,16 @@ paladin
       
 
    
-   :depends curl: 
+   :depends libcurl: ``>=8.14.1,<9.0a0``
    :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -97,7 +100,7 @@ paladin
 
     <script>
         var package = "paladin";
-        var versions = ["1.4.6","1.4.6","1.4.6","1.4.6","1.4.6"];
+        var versions = ["1.6.0","1.4.6","1.4.6","1.4.6","1.4.6"];
     </script>
 
 
