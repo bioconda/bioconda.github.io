@@ -31,7 +31,7 @@ meta-neuro
       
       
 
-      ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``2.0.0-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -40,7 +40,6 @@ meta-neuro
    :depends hdf5: ``>=1.14.2,<1.14.3.0a0``
    :depends libboost: ``>=1.82.0,<1.83.0a0``
    :depends libboost-python: ``>=1.82.0,<1.83.0a0``
-   :depends libboost-python-devel: ``>=1.82.0,<1.83.0``
    :depends libgcc: ``>=13``
    :depends libitk-devel: ``5.3.0``
    :depends libstdcxx: ``>=13``
@@ -112,7 +111,7 @@ meta-neuro
 
     <script>
         var package = "meta-neuro";
-        var versions = ["1.0.1","1.0.0","1.0.0"];
+        var versions = ["2.0.0","1.0.1","1.0.0","1.0.0"];
     </script>
 
 

@@ -10,11 +10,14 @@ mikado
    :replaces_section_title:
    :noindex:
 
-   A Python3 annotation program to select the best gene model in each locus
+   A Python3 annotation program to select the best gene model in each locus.
 
    :homepage: https://github.com/EI-CoreBioinformatics/mikado
-   :license: LGPL-3.0-or-later
+   :documentation: https://mikado.readthedocs.io/en/stable
+   
+   :license: LGPL / LGPL-3.0-or-later
    :recipe: /`mikado <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mikado>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mikado/meta.yaml>`_
+   :links: biotools: :biotools:`mikado`
 
    
 
@@ -28,10 +31,10 @@ mikado
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.4-0</code>,  <code>2.3.3-1</code>,  <code>2.3.3-0</code>,  <code>2.3.2-0</code>,  <code>2.3.1-0</code>,  <code>2.3.0-0</code>,  <code>2.2.5-0</code>,  <code>2.2.4-0</code>,  <code>2.2.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.4-2</code>,  <code>2.3.4-0</code>,  <code>2.3.3-1</code>,  <code>2.3.3-0</code>,  <code>2.3.2-0</code>,  <code>2.3.1-0</code>,  <code>2.3.0-0</code>,  <code>2.2.5-0</code>,  <code>2.2.4-0</code>,  </span></summary>
       
 
-      ``2.3.4-0``,  ``2.3.3-1``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0-0``,  ``2.0rc2-1``,  ``2.0rc2-0``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.2-0``
+      ``2.3.4-2``,  ``2.3.4-0``,  ``2.3.3-1``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0-0``,  ``2.0rc2-1``,  ``2.0rc2-0``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -44,13 +47,14 @@ mikado
    :depends datrie: ``>=0.8``
    :depends drmaa: 
    :depends hypothesis: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends marshmallow: ``>=3.1.0``
    :depends marshmallow-dataclass: ``>=8.3.1``
    :depends msgpack-python: ``>=1.0.0``
    :depends networkx: ``>=2.3``
-   :depends numpy: ``>=1.21.6,<2.0a0``
+   :depends numpy: ``<2``
+   :depends numpy: ``>=1.26.4,<2.0a0``
    :depends pandas: ``>=1.0``
    :depends pyfaidx: ``>=0.5.8``
    :depends pysam: ``>=0.15.3``
@@ -59,10 +63,10 @@ mikado
    :depends python-rapidjson: ``>=1.0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends pyyaml: ``>=5.1.2``
-   :depends scipy: ``>=1.9.1,<2.0a0``
+   :depends scipy: 
    :depends six: ``>=1.12.0``
-   :depends snakemake-minimal: ``>=5.7.0``
-   :depends sqlalchemy: ``>=1.4.0``
+   :depends snakemake-minimal: ``<8``
+   :depends sqlalchemy: ``<2``
    :depends sqlalchemy-utils: ``>=0.34.1``
    :depends sqlite: 
    :depends tabulate: ``>=0.8.5``
@@ -71,6 +75,10 @@ mikado
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -118,7 +126,7 @@ mikado
 
     <script>
         var package = "mikado";
-        var versions = ["2.3.4","2.3.3","2.3.3","2.3.2","2.3.1"];
+        var versions = ["2.3.4","2.3.4","2.3.3","2.3.3","2.3.2"];
     </script>
 
 

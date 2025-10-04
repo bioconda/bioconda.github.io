@@ -41,7 +41,7 @@ r-cnaqc
       
       
 
-      ``1.1.2-0``
+      ``1.1.3-0``,  ``1.1.2-0``
 
       
 
@@ -128,7 +128,7 @@ r-cnaqc
 
     <script>
         var package = "r-cnaqc";
-        var versions = ["1.1.2"];
+        var versions = ["1.1.3","1.1.2"];
     </script>
 
 
