@@ -13,7 +13,7 @@ cmat
    ClinVar Mapping and Annotation Toolkit.
 
    :homepage: https://github.com/EBIvariation/CMAT
-   :documentation: https://github.com/EBIvariation/CMAT/blob/v3.4.0/README.md
+   :documentation: https://github.com/EBIvariation/CMAT/blob/v3.4.1/README.md
    
    :license: APACHE / Apache-2.0
    :recipe: /`cmat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cmat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cmat/meta.yaml>`_
@@ -31,10 +31,10 @@ cmat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.0-0</code>,  <code>3.3.4-0</code>,  <code>3.3.3-0</code>,  <code>3.3.2-0</code>,  <code>3.3.1-0</code>,  <code>3.3.0-0</code>,  <code>3.2.2-0</code>,  <code>3.2.1-0</code>,  <code>3.1.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.4-0</code>,  <code>3.3.3-0</code>,  <code>3.3.2-0</code>,  <code>3.3.1-0</code>,  <code>3.3.0-0</code>,  <code>3.2.2-0</code>,  <code>3.2.1-0</code>,  </span></summary>
       
 
-      ``3.4.0-0``,  ``3.3.4-0``,  ``3.3.3-0``,  ``3.3.2-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``
+      ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.4-0``,  ``3.3.3-0``,  ``3.3.2-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``
 
       
       .. raw:: html
@@ -52,7 +52,7 @@ cmat
    :depends pandas: ``2.2.3``
    :depends pytest: ``7.2.2``
    :depends pytest-cov: ``2.10.0``
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.11,<3.12.0a0``
    :depends pyyaml: ``6.0.1``
    :depends requests: ``2.32.4``
    :depends requests-mock: ``1.8.0``
@@ -107,7 +107,7 @@ cmat
 
     <script>
         var package = "cmat";
-        var versions = ["3.4.0","3.3.4","3.3.3","3.3.2","3.3.1"];
+        var versions = ["3.4.1","3.4.0","3.3.4","3.3.3","3.3.2"];
     </script>
 
 

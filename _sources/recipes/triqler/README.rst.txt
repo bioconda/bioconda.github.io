@@ -29,9 +29,17 @@ triqler
    :versions:
       
       
+      .. raw:: html
 
-      ``0.9.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  <code>0.2.1-0</code>,  </span></summary>
+      
 
+      ``0.9.1-0``,  ``0.9.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -93,7 +101,7 @@ triqler
 
     <script>
         var package = "triqler";
-        var versions = ["0.9.0","0.6.2","0.6.1","0.6.0","0.5.0"];
+        var versions = ["0.9.1","0.9.0","0.6.2","0.6.1","0.6.0"];
     </script>
 
 
