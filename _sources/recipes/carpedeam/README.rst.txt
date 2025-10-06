@@ -10,12 +10,14 @@ carpedeam
    :replaces_section_title:
    :noindex:
 
-   CarpeDeam \- A metagenomic assembler for heavily damaged ancient datasets
+   CarpeDeam \- A metagenomic assembler for heavily damaged ancient datasets.
 
    :homepage: https://github.com/LouisPwr/CarpeDeam
+   :documentation: https://github.com/LouisPwr/CarpeDeam/blob/v1.0.1/README.md
+   
    :license: GPL3 / GPL-3.0-only
    :recipe: /`carpedeam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/carpedeam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/carpedeam/meta.yaml>`_
-   :links: biotools: :biotools:`carpedeam`
+   :links: doi: :doi:`10.1101/2024.08.09.607291`
 
    
 
@@ -28,19 +30,17 @@ carpedeam
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gawk: 
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends llvm-openmp: ``>=18.1.8``
-   :depends llvm-openmp: ``>=19.1.5``
-   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends zlib: 
+   :depends perl: 
    :requirements:
 
    :additional platforms:
@@ -91,7 +91,7 @@ carpedeam
 
     <script>
         var package = "carpedeam";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["1.0.1","1.0.0","1.0.0"];
     </script>
 
 

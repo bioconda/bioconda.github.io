@@ -10,10 +10,10 @@ sim4db
    :replaces_section_title:
    :noindex:
 
-   Sim4db and leaff\: Utilities for fast batch spliced alignment and sequence indexing
+   Sim4db and leaff\: Utilities for fast batch spliced alignment and sequence indexing.
 
-   :homepage: http://kmer.sourceforge.net/wiki/index.php/Getting_Started_with_Sim4db
-   :license: GPL
+   :homepage: https://sourceforge.net/projects/kmer
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`sim4db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sim4db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sim4db/meta.yaml>`_
 
    
@@ -27,15 +27,22 @@ sim4db
       
       
 
-      ``2008-0``
+      ``2008-2``,  ``2008-0``
 
       
 
    
-   :depends libgcc: 
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -83,7 +90,7 @@ sim4db
 
     <script>
         var package = "sim4db";
-        var versions = ["2008"];
+        var versions = ["2008","2008"];
     </script>
 
 

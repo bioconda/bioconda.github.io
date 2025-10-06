@@ -10,10 +10,10 @@ atac
    :replaces_section_title:
    :noindex:
 
-   ATAC is a computational process for comparative mapping between two genome assemblies\, or between two different genomes
+   ATAC is a computational process for comparative mapping between two genome assemblies\, or between two different genomes.
 
-   :homepage: http://kmer.sourceforge.net/wiki/index.php/Overview_of_the_ATAC_process
-   :license: GPL
+   :homepage: https://sourceforge.net/projects/kmer
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`atac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/atac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/atac/meta.yaml>`_
    :links: biotools: :biotools:`atac`
 
@@ -28,7 +28,7 @@ atac
       
       
 
-      ``2008-7``,  ``2008-6``,  ``2008-5``,  ``2008-4``,  ``2008-3``,  ``2008-2``,  ``2008-1``,  ``2008-0``
+      ``2008-8``,  ``2008-7``,  ``2008-6``,  ``2008-5``,  ``2008-4``,  ``2008-3``,  ``2008-2``,  ``2008-1``,  ``2008-0``
 
       
 
@@ -45,7 +45,7 @@ atac
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

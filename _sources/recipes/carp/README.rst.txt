@@ -16,7 +16,7 @@ carp
    :license: MIT / MIT
    :recipe: /`carp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/carp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/carp/meta.yaml>`_
 
-   Carp is a software based on the rearrangement problem of the same name. Version 0.1.0 supports only the SCJ \(Single\-Cut or Join\) model.
+   Carp is a software based on the rearrangement problem of the same name. Version 0.1.1 supports only the SCJ \(Single\-Cut or Join\) model.
 
 
 
@@ -28,7 +28,7 @@ carp
       
       
 
-      ``0.1.0-0``
+      ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -87,7 +87,7 @@ carp
 
     <script>
         var package = "carp";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.1","0.1.0"];
     </script>
 
 

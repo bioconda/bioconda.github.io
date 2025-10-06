@@ -28,7 +28,7 @@ alloshp
       
       
 
-      ``2025.09.08-0``,  ``2025.09.08d-0``
+      ``2025.09.12-0``,  ``2025.09.08-0``,  ``2025.09.08d-0``
 
       
 
@@ -39,6 +39,8 @@ alloshp
    :depends grep: 
    :depends gsalign: 
    :depends gzip: 
+   :depends libgcc: ``>=13``
+   :depends make: 
    :depends perl: 
    :depends perl-db_file: 
    :depends red: 
@@ -92,7 +94,7 @@ alloshp
 
     <script>
         var package = "alloshp";
-        var versions = ["2025.09.08","2025.09.08d"];
+        var versions = ["2025.09.12","2025.09.08","2025.09.08d"];
     </script>
 
 

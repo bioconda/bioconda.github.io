@@ -28,7 +28,7 @@ scispacy
       
       
 
-      ``0.5.5-1``,  ``0.5.5-0``
+      ``0.6.2-0``,  ``0.5.5-1``,  ``0.5.5-0``
 
       
 
@@ -36,13 +36,13 @@ scispacy
    :depends conllu: 
    :depends joblib: 
    :depends nmslib-metabrainz: ``2.1.3``
-   :depends numpy: 
+   :depends numpy: ``<2.0``
    :depends pysbd: 
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.9,<3.13``
    :depends requests: ``>=2.0.0,<3.0.0``
    :depends scikit-learn: ``>=0.20.3``
    :depends scipy: 
-   :depends spacy: ``>=3.7.0,<3.8.0``
+   :depends spacy: ``>=3.7.0,<3.9.0``
    :requirements:
 
    :additional platforms:
@@ -93,7 +93,7 @@ scispacy
 
     <script>
         var package = "scispacy";
-        var versions = ["0.5.5","0.5.5"];
+        var versions = ["0.6.2","0.5.5","0.5.5"];
     </script>
 
 

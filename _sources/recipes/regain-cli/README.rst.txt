@@ -31,7 +31,7 @@ regain-cli
       
       
 
-      ``1.6.2-0``
+      ``1.6.3-0``,  ``1.6.2-0``
 
       
 
@@ -43,7 +43,7 @@ regain-cli
    :depends pandas: 
    :depends python: ``>=3.10``
    :depends r-ape: 
-   :depends r-base: ``>=4.2``
+   :depends r-base: ``>=4.4``
    :depends r-bnlearn: 
    :depends r-cluster: 
    :depends r-compositions: 
@@ -117,7 +117,7 @@ regain-cli
 
     <script>
         var package = "regain-cli";
-        var versions = ["1.6.2"];
+        var versions = ["1.6.3","1.6.2"];
     </script>
 
 

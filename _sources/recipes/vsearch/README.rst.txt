@@ -10,12 +10,14 @@ vsearch
    :replaces_section_title:
    :noindex:
 
-   A versatile open source tool for metagenomics \(USEARCH alternative\)
+   A versatile open source tool for metagenomics \(USEARCH alternative\).
 
    :homepage: https://github.com/torognes/vsearch
+   :documentation: https://torognes.github.io/vsearch
+   
    :license: GPL3 / GPL-3.0-or-later OR BSD-2-Clause
    :recipe: /`vsearch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vsearch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vsearch/meta.yaml>`_
-   :links: biotools: :biotools:`vsearch`, doi: :doi:`10.7717/peerj.2584`
+   :links: biotools: :biotools:`vsearch`, usegalaxy-eu: :usegalaxy-eu:`vsearch_search`, usegalaxy-eu: :usegalaxy-eu:`vsearch_sorting`, usegalaxy-eu: :usegalaxy-eu:`vsearch_chimera_detection`, usegalaxy-eu: :usegalaxy-eu:`vsearch_clustering`, usegalaxy-eu: :usegalaxy-eu:`vsearch_masking`, usegalaxy-eu: :usegalaxy-eu:`vsearch_alignment`, usegalaxy-eu: :usegalaxy-eu:`vsearch_dereplication`, usegalaxy-eu: :usegalaxy-eu:`vsearch_shuffling`, doi: :doi:`10.7717/peerj.2584`
 
    
 
@@ -29,10 +31,10 @@ vsearch
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.30.0-0</code>,  <code>2.29.4-0</code>,  <code>2.29.3-0</code>,  <code>2.29.2-1</code>,  <code>2.29.2-0</code>,  <code>2.29.1-1</code>,  <code>2.29.1-0</code>,  <code>2.29.0-0</code>,  <code>2.28.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.30.1-0</code>,  <code>2.30.0-0</code>,  <code>2.29.4-0</code>,  <code>2.29.3-0</code>,  <code>2.29.2-1</code>,  <code>2.29.2-0</code>,  <code>2.29.1-1</code>,  <code>2.29.1-0</code>,  <code>2.29.0-0</code>,  </span></summary>
       
 
-      ``2.30.0-0``,  ``2.29.4-0``,  ``2.29.3-0``,  ``2.29.2-1``,  ``2.29.2-0``,  ``2.29.1-1``,  ``2.29.1-0``,  ``2.29.0-0``,  ``2.28.1-1``,  ``2.28.1-0``,  ``2.27.1-0``,  ``2.27.0-1``,  ``2.27.0-0``,  ``2.26.1-0``,  ``2.26.0-0``,  ``2.25.0-0``,  ``2.24.0-0``,  ``2.23.0-0``,  ``2.22.1-2``,  ``2.22.1-1``,  ``2.22.1-0``,  ``2.21.2-0``,  ``2.21.1-1``,  ``2.21.1-0``,  ``2.21.0-0``,  ``2.20.1-0``,  ``2.20.0-0``,  ``2.19.0-0``,  ``2.18.0-0``,  ``2.17.1-0``,  ``2.17.0-1``,  ``2.17.0-0``,  ``2.16.0-0``,  ``2.15.2-1``,  ``2.15.2-0``,  ``2.15.1-0``,  ``2.15.0-0``,  ``2.14.2-0``,  ``2.14.1-0``,  ``2.14.0-0``,  ``2.13.7-0``,  ``2.13.6-0``,  ``2.13.4-4``,  ``2.13.4-0``,  ``2.13.3-0``,  ``2.13.1-0``,  ``2.13.0-0``,  ``2.11.1-0``,  ``2.10.4-1``,  ``2.10.4-0``,  ``2.10.3-0``,  ``2.10.2-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.9.1-0``,  ``2.9.0-0``,  ``2.8.5-0``,  ``2.8.3-0``,  ``2.8.2-0``,  ``2.8.1-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.7.0-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.5.0-0``,  ``2.4.4-0``,  ``2.4.3-0``,  ``2.4.0-0``,  ``2.3.4-0``,  ``2.3.2-0``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.0-0``,  ``1.11.1-0``,  ``1.10.2-0``,  ``1.9.7-0``,  ``1.9.5-0``,  ``1.1.3-0``
+      ``2.30.1-0``,  ``2.30.0-0``,  ``2.29.4-0``,  ``2.29.3-0``,  ``2.29.2-1``,  ``2.29.2-0``,  ``2.29.1-1``,  ``2.29.1-0``,  ``2.29.0-0``,  ``2.28.1-1``,  ``2.28.1-0``,  ``2.27.1-0``,  ``2.27.0-1``,  ``2.27.0-0``,  ``2.26.1-0``,  ``2.26.0-0``,  ``2.25.0-0``,  ``2.24.0-0``,  ``2.23.0-0``,  ``2.22.1-2``,  ``2.22.1-1``,  ``2.22.1-0``,  ``2.21.2-0``,  ``2.21.1-1``,  ``2.21.1-0``,  ``2.21.0-0``,  ``2.20.1-0``,  ``2.20.0-0``,  ``2.19.0-0``,  ``2.18.0-0``,  ``2.17.1-0``,  ``2.17.0-1``,  ``2.17.0-0``,  ``2.16.0-0``,  ``2.15.2-1``,  ``2.15.2-0``,  ``2.15.1-0``,  ``2.15.0-0``,  ``2.14.2-0``,  ``2.14.1-0``,  ``2.14.0-0``,  ``2.13.7-0``,  ``2.13.6-0``,  ``2.13.4-4``,  ``2.13.4-0``,  ``2.13.3-0``,  ``2.13.1-0``,  ``2.13.0-0``,  ``2.11.1-0``,  ``2.10.4-1``,  ``2.10.4-0``,  ``2.10.3-0``,  ``2.10.2-0``,  ``2.10.1-0``,  ``2.10.0-0``,  ``2.9.1-0``,  ``2.9.0-0``,  ``2.8.5-0``,  ``2.8.3-0``,  ``2.8.2-0``,  ``2.8.1-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.7.0-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.5.0-0``,  ``2.4.4-0``,  ``2.4.3-0``,  ``2.4.0-0``,  ``2.3.4-0``,  ``2.3.2-0``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.0-0``,  ``1.11.1-0``,  ``1.10.2-0``,  ``1.9.7-0``,  ``1.9.5-0``,  ``1.1.3-0``
 
       
       .. raw:: html
@@ -45,7 +47,6 @@ vsearch
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
@@ -100,7 +101,7 @@ vsearch
 
     <script>
         var package = "vsearch";
-        var versions = ["2.30.0","2.29.4","2.29.3","2.29.2","2.29.2"];
+        var versions = ["2.30.1","2.30.0","2.29.4","2.29.3","2.29.2"];
     </script>
 
 

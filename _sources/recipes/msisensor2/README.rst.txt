@@ -13,7 +13,9 @@ msisensor2
    MSIsensor2 is a novel algorithm based machine learning\, featuring a large upgrade in the microsatellite instability \(MSI\) detection for tumor only sequencing data\, including Cell\-Free DNA \(cfDNA\)\, Formalin\-Fixed Paraffin\-Embedded\(FFPE\) and other sample types.
 
    :homepage: https://github.com/niu-lab/msisensor2
-   :license: GPL / GPL3
+   :documentation: https://github.com/niu-lab/msisensor2/blob/master/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`msisensor2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msisensor2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msisensor2/meta.yaml>`_
 
    
@@ -27,15 +29,17 @@ msisensor2
       
       
 
-      ``0.1-3``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
+      ``0.1-4``,  ``0.1-3``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
    :depends libgcc: ``>=13``
+   :depends libgcc-ng: 
    :depends libgomp: 
    :depends libstdcxx: ``>=13``
+   :depends libstdcxx-ng: 
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
@@ -88,7 +92,7 @@ msisensor2
 
     <script>
         var package = "msisensor2";
-        var versions = ["0.1","0.1","0.1","0.1"];
+        var versions = ["0.1","0.1","0.1","0.1","0.1"];
     </script>
 
 
