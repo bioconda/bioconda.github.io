@@ -27,20 +27,21 @@ dartunifrac
       
       
 
-      ``0.2.4-0``,  ``0.2.3-0``
+      ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``
 
       
 
    
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
+   :depends openssl: ``>=3.5.4,<4.0a0``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>osx-arm64</code></span>
+         <span class="additional-platforms"><code>osx-arm64</code>,  <code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -88,7 +89,7 @@ dartunifrac
 
     <script>
         var package = "dartunifrac";
-        var versions = ["0.2.4","0.2.3"];
+        var versions = ["0.2.5","0.2.4","0.2.3"];
     </script>
 
 

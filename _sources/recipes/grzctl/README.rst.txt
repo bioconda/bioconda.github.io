@@ -13,7 +13,7 @@ grzctl
    Control CLI for GRZ administrators.
 
    :homepage: https://github.com/BfArM-MVH/grz-tools
-   :documentation: https://github.com/BfArM-MVH/grz-tools/blob/grzctl-v0.6.0/packages/grz-cli/README.md
+   :documentation: https://github.com/BfArM-MVH/grz-tools/blob/grzctl-v1.0.0/packages/grz-cli/README.md
    
    :license: MIT / MIT
    :recipe: /`grzctl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grzctl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grzctl/meta.yaml>`_
@@ -30,10 +30,10 @@ grzctl
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  </span></summary>
       
 
-      ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``1.0.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -44,10 +44,10 @@ grzctl
    
    :depends boto3: ``>=1.36,<2``
    :depends click: ``>=8.2,<9``
-   :depends grz-cli: ``>=1.2.0,<2``
+   :depends grz-cli: ``>=1.3,<2``
    :depends grz-common: ``>=1.3.0,<2``
-   :depends grz-db: ``>=0.5``
-   :depends grz-pydantic-models: ``>=2.2.1,<3``
+   :depends grz-db: ``>=1,<2``
+   :depends grz-pydantic-models: ``>=2.3,<3``
    :depends jsonschema: ``>=4.23.0,<5``
    :depends platformdirs: ``>=4.3.6,<5``
    :depends pydantic: ``>=2.9.2,<2.10``
@@ -58,6 +58,7 @@ grzctl
    :depends pyyaml: ``>=6.0.2,<7``
    :depends requests: ``>=2.32.3,<3``
    :depends rich: ``13.*``
+   :depends textual: ``>=5.3,<5.4``
    :depends tqdm: ``>=4.66.5,<5``
    :requirements:
 
@@ -109,7 +110,7 @@ grzctl
 
     <script>
         var package = "grzctl";
-        var versions = ["0.6.0","0.5.0","0.4.0","0.3.0","0.2.6"];
+        var versions = ["1.0.0","0.6.0","0.5.0","0.4.0","0.3.0"];
     </script>
 
 

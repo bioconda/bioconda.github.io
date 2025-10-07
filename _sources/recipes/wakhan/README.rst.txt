@@ -27,7 +27,7 @@ wakhan
       
       
 
-      ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-3``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-3``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
@@ -41,7 +41,7 @@ wakhan
    :depends pyfaidx: 
    :depends pysam: 
    :depends python: ``>=3.7``
-   :depends python-kaleido: 
+   :depends python-kaleido: ``<1.0``
    :depends ruptures: 
    :depends samtools: ``>=1.14``
    :depends scikit-learn: ``1.2.0``
@@ -97,7 +97,7 @@ wakhan
 
     <script>
         var package = "wakhan";
-        var versions = ["0.2.0","0.1.2","0.1.1","0.1.1","0.1.1"];
+        var versions = ["0.2.0","0.2.0","0.1.2","0.1.1","0.1.1"];
     </script>
 
 

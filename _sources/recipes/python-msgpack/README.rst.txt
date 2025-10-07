@@ -12,8 +12,10 @@ python-msgpack
 
    It\'s like JSON. But fast and small.
 
-   :homepage: https://pypi.org/project/msgpack/#description
-   :license: Apache 2.0
+   :homepage: https://github.com/msgpack/msgpack-python
+   :documentation: https://msgpack.org
+   
+   :license: APACHE / Apache-2.0
    :recipe: /`python-msgpack <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-msgpack>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-msgpack/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ python-msgpack
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.1-11</code>,  <code>0.6.1-10</code>,  <code>0.6.1-9</code>,  <code>0.6.1-8</code>,  <code>0.6.1-6</code>,  <code>0.6.1-5</code>,  <code>0.6.1-4</code>,  <code>0.6.1-3</code>,  <code>0.6.1-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.1-0</code>,  <code>0.6.1-11</code>,  <code>0.6.1-10</code>,  <code>0.6.1-9</code>,  <code>0.6.1-8</code>,  <code>0.6.1-6</code>,  <code>0.6.1-5</code>,  <code>0.6.1-4</code>,  <code>0.6.1-3</code>,  </span></summary>
       
 
-      ``0.6.1-11``,  ``0.6.1-10``,  ``0.6.1-9``,  ``0.6.1-8``,  ``0.6.1-6``,  ``0.6.1-5``,  ``0.6.1-4``,  ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.6-0``
+      ``1.1.1-0``,  ``0.6.1-11``,  ``0.6.1-10``,  ``0.6.1-9``,  ``0.6.1-8``,  ``0.6.1-6``,  ``0.6.1-5``,  ``0.6.1-4``,  ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.6-0``
 
       
       .. raw:: html
@@ -41,7 +43,6 @@ python-msgpack
 
    
    :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:
@@ -50,7 +51,7 @@ python-msgpack
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -98,7 +99,7 @@ python-msgpack
 
     <script>
         var package = "python-msgpack";
-        var versions = ["0.6.1","0.6.1","0.6.1","0.6.1","0.6.1"];
+        var versions = ["1.1.1","0.6.1","0.6.1","0.6.1","0.6.1"];
     </script>
 
 

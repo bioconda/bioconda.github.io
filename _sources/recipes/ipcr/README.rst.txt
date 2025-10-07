@@ -13,7 +13,9 @@ ipcr
    In\-silico PCR with mismatch thresholds and pretty alignment output.
 
    :homepage: https://github.com/KPU-AGC/ipcr
-   :license: MIT
+   :documentation: https://github.com/KPU-AGC/ipcr/blob/v4.1.1/README.md
+   
+   :license: MIT / MIT
    :recipe: /`ipcr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ipcr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ipcr/meta.yaml>`_
 
    
@@ -27,15 +29,18 @@ ipcr
       
       
 
-      ``3.0.0-0``,  ``2.3.1-0``,  ``2.0.0-0``,  ``1.1.0-0``
+      ``4.1.1-0``,  ``3.0.0-0``,  ``2.3.1-0``,  ``2.0.0-0``,  ``1.1.0-0``
 
       
 
    
-   :depends __glibc: ``>=2.17``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -83,7 +88,7 @@ ipcr
 
     <script>
         var package = "ipcr";
-        var versions = ["3.0.0","2.3.1","2.0.0","1.1.0"];
+        var versions = ["4.1.1","3.0.0","2.3.1","2.0.0","1.1.0"];
     </script>
 
 

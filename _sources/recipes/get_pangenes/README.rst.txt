@@ -28,7 +28,7 @@ get_pangenes
       
       
 
-      ``20250123-0``
+      ``20250904-0``,  ``20250123-0``,  ``1.3-0``
 
       
 
@@ -97,7 +97,7 @@ get_pangenes
 
     <script>
         var package = "get_pangenes";
-        var versions = ["20250123"];
+        var versions = ["20250904","20250123","1.3"];
     </script>
 
 

@@ -27,7 +27,7 @@ amulety
       
       
 
-      ``2.0-0``,  ``1.1-0``,  ``1.0-0``
+      ``2.0-1``,  ``2.0-0``,  ``1.1-0``,  ``1.0-0``
 
       
 
@@ -35,12 +35,9 @@ amulety
    :depends ablang: 
    :depends anndata: 
    :depends antiberty: 
+   :depends igblast: 
    :depends numpy: 
    :depends pandas: 
-   :depends pre-commit: 
-   :depends protobuf: 
-   :depends pytest: ``>=7.0.0``
-   :depends pytest-workflow: ``>=1.6.0``
    :depends python: ``>=3.8,<4.0``
    :depends python-isal: 
    :depends pytorch: 
@@ -99,7 +96,7 @@ amulety
 
     <script>
         var package = "amulety";
-        var versions = ["2.0","1.1","1.0"];
+        var versions = ["2.0","2.0","1.1","1.0"];
     </script>
 
 

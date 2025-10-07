@@ -13,8 +13,11 @@ csubst
    Tool for analyzing combinatorial codon substitutions in DNA sequences.
 
    :homepage: https://github.com/kfuku52/csubst
-   :license: BSD-3-Clause
+   :documentation: https://github.com/kfuku52/csubst/blob/v1.4.20/README.md
+   
+   :license: BSD / BSD-3-Clause
    :recipe: /`csubst <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/csubst>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/csubst/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41559-022-01932-7`
 
    
 
@@ -27,7 +30,7 @@ csubst
       
       
 
-      ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
+      ``1.4.20-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
 
       
 
@@ -54,7 +57,7 @@ csubst
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>osx-arm64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -102,7 +105,7 @@ csubst
 
     <script>
         var package = "csubst";
-        var versions = ["1.4.0","1.4.0","1.4.0"];
+        var versions = ["1.4.20","1.4.0","1.4.0","1.4.0"];
     </script>
 
 

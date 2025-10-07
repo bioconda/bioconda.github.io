@@ -31,12 +31,12 @@ kegalign-full
       
       
 
-      ``0.1.2.7-0``
+      ``0.1.2.8-0``,  ``0.1.2.7-0``
 
       
 
    
-   :depends kegalign: ``0.1.2.7.*``
+   :depends kegalign: ``0.1.2.8.*``
    :depends lastz: 
    :depends mbuffer: 
    :depends samtools: 
@@ -91,7 +91,7 @@ kegalign-full
 
     <script>
         var package = "kegalign-full";
-        var versions = ["0.1.2.7"];
+        var versions = ["0.1.2.8","0.1.2.7"];
     </script>
 
 
