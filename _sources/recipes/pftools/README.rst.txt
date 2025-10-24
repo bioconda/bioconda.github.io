@@ -12,9 +12,10 @@ pftools
 
    A generalized profile syntax for biomolecular sequence motifs and its function in automatic sequence interpretation.
 
-   :homepage: https://web.expasy.org/pftools/
-   :developer docs: https://github.com/sib-swiss/pftools3
-   :license: GPL / GPLv2
+   :homepage: https://github.com/sib-swiss/pftools3
+   :documentation: https://web.expasy.org/pftools
+   
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`pftools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pftools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pftools/meta.yaml>`_
 
    
@@ -29,10 +30,10 @@ pftools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.12-5</code>,  <code>3.2.12-4</code>,  <code>3.2.12-3</code>,  <code>3.2.12-2</code>,  <code>3.2.12-1</code>,  <code>3.2.12-0</code>,  <code>3.2.11-2</code>,  <code>3.2.11-1</code>,  <code>3.2.11-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.13-0</code>,  <code>3.2.12-5</code>,  <code>3.2.12-4</code>,  <code>3.2.12-3</code>,  <code>3.2.12-2</code>,  <code>3.2.12-1</code>,  <code>3.2.12-0</code>,  <code>3.2.11-2</code>,  <code>3.2.11-1</code>,  </span></summary>
       
 
-      ``3.2.12-5``,  ``3.2.12-4``,  ``3.2.12-3``,  ``3.2.12-2``,  ``3.2.12-1``,  ``3.2.12-0``,  ``3.2.11-2``,  ``3.2.11-1``,  ``3.2.11-0``,  ``3.2.10-0``,  ``2.3.5-1``,  ``2.3.5-0``
+      ``3.2.13-0``,  ``3.2.12-5``,  ``3.2.12-4``,  ``3.2.12-3``,  ``3.2.12-2``,  ``3.2.12-1``,  ``3.2.12-0``,  ``3.2.11-2``,  ``3.2.11-1``,  ``3.2.11-0``,  ``3.2.10-0``,  ``2.3.5-1``,  ``2.3.5-0``
 
       
       .. raw:: html
@@ -43,14 +44,13 @@ pftools
    
    :depends libgcc: ``>=13``
    :depends libgfortran: 
-   :depends libgfortran5: ``>=13.3.0``
+   :depends libgfortran5: ``>=13.4.0``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends pcre2: ``>=10.44,<10.45.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-file-slurp: ``9999.32.*``
    :depends r-base: ``>=4.4,<4.5.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
@@ -101,7 +101,7 @@ pftools
 
     <script>
         var package = "pftools";
-        var versions = ["3.2.12","3.2.12","3.2.12","3.2.12","3.2.12"];
+        var versions = ["3.2.13","3.2.12","3.2.12","3.2.12","3.2.12"];
     </script>
 
 

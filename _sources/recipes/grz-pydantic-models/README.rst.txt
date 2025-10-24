@@ -28,10 +28,10 @@ grz-pydantic-models
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.0-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4.0-0</code>,  <code>2.3.1-0</code>,  <code>2.3.0-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.3-0</code>,  </span></summary>
       
 
-      ``2.3.0-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``
+      ``2.4.0-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``
 
       
       .. raw:: html
@@ -92,7 +92,7 @@ grz-pydantic-models
 
     <script>
         var package = "grz-pydantic-models";
-        var versions = ["2.3.0","2.2.1","2.2.0","2.1.2","2.1.1"];
+        var versions = ["2.4.0","2.3.1","2.3.0","2.2.1","2.2.0"];
     </script>
 
 

@@ -13,7 +13,7 @@ cmat
    ClinVar Mapping and Annotation Toolkit.
 
    :homepage: https://github.com/EBIvariation/CMAT
-   :documentation: https://github.com/EBIvariation/CMAT/blob/v3.4.1/README.md
+   :documentation: https://github.com/EBIvariation/CMAT/blob/v3.4.2/README.md
    
    :license: APACHE / Apache-2.0
    :recipe: /`cmat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cmat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cmat/meta.yaml>`_
@@ -31,10 +31,10 @@ cmat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.4-0</code>,  <code>3.3.3-0</code>,  <code>3.3.2-0</code>,  <code>3.3.1-0</code>,  <code>3.3.0-0</code>,  <code>3.2.2-0</code>,  <code>3.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.2-0</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.4-0</code>,  <code>3.3.3-0</code>,  <code>3.3.2-0</code>,  <code>3.3.1-0</code>,  <code>3.3.0-0</code>,  <code>3.2.2-0</code>,  </span></summary>
       
 
-      ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.4-0``,  ``3.3.3-0``,  ``3.3.2-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``
+      ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.4-0``,  ``3.3.3-0``,  ``3.3.2-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``
 
       
       .. raw:: html
@@ -107,7 +107,7 @@ cmat
 
     <script>
         var package = "cmat";
-        var versions = ["3.4.1","3.4.0","3.3.4","3.3.3","3.3.2"];
+        var versions = ["3.4.2","3.4.1","3.4.0","3.3.4","3.3.3"];
     </script>
 
 

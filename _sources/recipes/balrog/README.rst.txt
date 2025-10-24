@@ -10,10 +10,10 @@ balrog
    :replaces_section_title:
    :noindex:
 
-   Balrog\: A universal protein model for prokaryotic gene prediction
+   Balrog\: A universal protein model for prokaryotic gene prediction.
 
-   :homepage: https://github.com/Markusjsommer/BalrogCPP
-   :license: MIT
+   :homepage: https://github.com/salzberg-lab/BalrogCPP
+   :license: MIT / MIT
    :recipe: /`balrog <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/balrog>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/balrog/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ balrog
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.1-6</code>,  <code>0.5.1-5</code>,  <code>0.5.1-4</code>,  <code>0.5.1-3</code>,  <code>0.5.1-2</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.1-7</code>,  <code>0.5.1-6</code>,  <code>0.5.1-5</code>,  <code>0.5.1-4</code>,  <code>0.5.1-3</code>,  <code>0.5.1-2</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.3.2-0</code>,  </span></summary>
       
 
-      ``0.5.1-6``,  ``0.5.1-5``,  ``0.5.1-4``,  ``0.5.1-3``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2.19-0``
+      ``0.5.1-7``,  ``0.5.1-6``,  ``0.5.1-5``,  ``0.5.1-4``,  ``0.5.1-3``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2.19-0``
 
       
       .. raw:: html
@@ -43,18 +43,18 @@ balrog
    :depends _openmp_mutex: ``>=4.5``
    :depends libgcc: 
    :depends libgcc-ng: ``>=12``
+   :depends libgomp: 
    :depends libstdcxx: 
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends scipy: 
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

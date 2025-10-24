@@ -29,13 +29,12 @@ dipper
       
       
 
-      ``0.1.1-0``
+      ``0.1.2-0``,  ``0.1.1-0``
 
       
 
    
    :depends boost-cpp: 
-   :depends libboost: 
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
@@ -45,6 +44,10 @@ dipper
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -92,7 +95,7 @@ dipper
 
     <script>
         var package = "dipper";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.2","0.1.1"];
     </script>
 
 

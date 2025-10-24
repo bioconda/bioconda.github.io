@@ -15,7 +15,7 @@ foldmason
    :homepage: https://github.com/steineggerlab/foldmason
    :license: GPL / GPL-3
    :recipe: /`foldmason <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/foldmason>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/foldmason/meta.yaml>`_
-   :links: biotools: :biotools:`foldmason`
+   :links: doi: :doi:`10.1101/2024.08.01.606130v3`, biotools: :biotools:`foldmason`
 
    
 
@@ -28,7 +28,7 @@ foldmason
       
       
 
-      ``3.954d202-0``,  ``2.7bd21ed-0``,  ``1.763a428-0``
+      ``4.dd3c235-0``,  ``3.954d202-0``,  ``2.7bd21ed-0``,  ``1.763a428-0``
 
       
 
@@ -96,7 +96,7 @@ foldmason
 
     <script>
         var package = "foldmason";
-        var versions = ["3.954d202","2.7bd21ed","1.763a428"];
+        var versions = ["4.dd3c235","3.954d202","2.7bd21ed","1.763a428"];
     </script>
 
 

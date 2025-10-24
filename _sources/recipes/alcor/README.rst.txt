@@ -12,8 +12,10 @@ alcor
 
    Software for alignment\-free simulation\, mapping\, and visualization of low\-complexity regions in FASTA data.
 
-   :homepage: https://cobilab.github.io/alcor/
-   :license: GPL / GPL v3 License
+   :homepage: https://github.com/cobilab/alcor
+   :documentation: https://cobilab.github.io/alcor
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`alcor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alcor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alcor/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ alcor
       
       
 
-      ``1.9-5``,  ``1.9-4``,  ``1.9-3``,  ``1.9-2``,  ``1.9-1``,  ``1.9-0``,  ``1.8-0``
+      ``1.9-6``,  ``1.9-5``,  ``1.9-4``,  ``1.9-3``,  ``1.9-2``,  ``1.9-1``,  ``1.9-0``,  ``1.8-0``
 
       
 
@@ -35,14 +37,13 @@ alcor
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

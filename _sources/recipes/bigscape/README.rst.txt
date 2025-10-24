@@ -15,7 +15,7 @@ bigscape
    :homepage: https://github.com/medema-group/BiG-SCAPE
    :documentation: https://github.com/medema-group/BiG-SCAPE/wiki
    
-   :license: AGPL-3.0-or-later
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`bigscape <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bigscape>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bigscape/meta.yaml>`_
    :links: doi: :doi:`10.1038/s41589-019-0400-9`
 
@@ -30,19 +30,28 @@ bigscape
       
       
 
-      ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-0``
+      ``2.0.0-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-0``
 
       
 
    
    :depends biopython: 
+   :depends click: 
    :depends fasttree: 
-   :depends hmmer: 
-   :depends networkx: 
+   :depends importlib-metadata: 
+   :depends matplotlib-base: 
    :depends numpy: 
-   :depends python: ``3.7``
+   :depends pandas: 
+   :depends pyhmmer: 
+   :depends python: ``>=3.11``
+   :depends pyyaml: 
+   :depends requests: 
    :depends scikit-learn: 
    :depends scipy: 
+   :depends sortedcontainers: 
+   :depends sourmash_plugin_branchwater: 
+   :depends sqlalchemy: ``>=2.0.2``
+   :depends tqdm: 
    :requirements:
 
    :additional platforms:
@@ -93,7 +102,7 @@ bigscape
 
     <script>
         var package = "bigscape";
-        var versions = ["1.1.9","1.1.8","1.1.6","1.1.5","1.1.4"];
+        var versions = ["2.0.0","1.1.9","1.1.8","1.1.6","1.1.5"];
     </script>
 
 

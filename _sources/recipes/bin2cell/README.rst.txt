@@ -27,17 +27,16 @@ bin2cell
       
       
 
-      ``0.3.3-0``
+      ``0.3.4-0``,  ``0.3.3-0``
 
       
 
    
    :depends fastparquet: 
-   :depends numpy: ``<2``
    :depends opencv: 
    :depends python: ``>=3.7``
    :depends scanpy: 
-   :depends stardist: 
+   :depends scikit-image: 
    :requirements:
 
    :additional platforms:
@@ -88,7 +87,7 @@ bin2cell
 
     <script>
         var package = "bin2cell";
-        var versions = ["0.3.3"];
+        var versions = ["0.3.4","0.3.3"];
     </script>
 
 

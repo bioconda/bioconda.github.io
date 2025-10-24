@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Package Recipe &#39;haphic&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;bronko&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
     <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css?v=39de963d" />
     <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
@@ -63,59 +63,43 @@
 
           <div class="body" role="main">
             
-  <section id="haphic">
+  <section id="bronko">
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
-<em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">haphic</span></span></dt>
-<dd><p>HapHiC: a fast, reference-independent, allele-aware scaffolding tool based on Hi-C data</p>
+<em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">bronko</span></span></dt>
+<dd><p>bronko is an ultra-rapid mapping free variant caller for viral amplicon sequencing data</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/zengxiaofei/HapHiC">https://github.com/zengxiaofei/HapHiC</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/treangenlab/bronko">https://github.com/treangenlab/bronko</a></p>
 </dd>
-<dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>BSD 3-Clause License</p>
+<dt class="field-even">Documentation<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://github.com/treangenlab/bronko/blob/main/README.md">https://github.com/treangenlab/bronko/blob/main/README.md</a></p>
 </dd>
-<dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haphic">haphic</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haphic/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">License<span class="colon">:</span></dt>
+<dd class="field-odd"><p>MIT / MIT</p>
+</dd>
+<dt class="field-even">Recipe<span class="colon">:</span></dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bronko">bronko</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bronko/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="conda package">
-<dt class="sig sig-object conda" id="package-haphic">
-<em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">haphic</span></span><a class="headerlink" href="#package-haphic" title="Link to this definition">¶</a></dt>
+<dt class="sig sig-object conda" id="package-bronko">
+<em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">bronko</span></span><a class="headerlink" href="#package-bronko" title="Link to this definition">¶</a></dt>
 <dd><blockquote>
-<div><p><a class="reference external" href="https://anaconda.org/bioconda/haphic"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/haphic.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/haphic"><img alt="docker_haphic" src="https://quay.io/repository/biocontainers/haphic/status" /></a></p>
-<dl class="field-list simple">
+<div><p><a class="reference external" href="https://anaconda.org/bioconda/bronko"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bronko.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bronko"><img alt="docker_bronko" src="https://quay.io/repository/biocontainers/bronko/status" /></a></p>
+<dl class="field-list">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.7-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.1-0</span></code></p>
 </dd>
-<dt class="field-even">depends matplotlib-base<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends mkl<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends networkx<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends numpy<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&lt;2.0.0</span></code></p>
+<dt class="field-even">depends kmc<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.2</span></code></p>
 </dd>
-<dt class="field-even">depends portion<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends pysam<span class="colon">:</span></dt>
+<dt class="field-odd">requirements<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends python<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.12</span></code></p>
-</dd>
-<dt class="field-odd">depends scikit-learn<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends scipy<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends sparse_dot_mkl<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">requirements<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
+<dt class="field-even">additional platforms<span class="colon">:</span></dt>
+<dd class="field-even"><span class="additional-platforms"><code>-</code>,  <code>l</code>,  <code>i</code>,  <code>n</code>,  <code>u</code>,  <code>x</code>,  <code>-</code>,  <code>a</code>,  <code>a</code>,  <code>r</code>,  <code>c</code>,  <code>h</code>,  <code>6</code>,  <code>4</code>,  <code> </code>,  <code>-</code>,  <code>o</code>,  <code>s</code>,  <code>x</code>,  <code>-</code>,  <code>a</code>,  <code>r</code>,  <code>m</code>,  <code>6</code>,  <code>4</code></span></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -127,30 +111,30 @@ micromamba or mamba (see <a class="reference external" href="https://mamba.readt
 We will show all commands using mamba below, but the arguments are the same for the two
 others.</p>
 <p>Given that you already have a conda environment in which you want to have this package, install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   <span class="n">mamba</span> <span class="n">install</span> <span class="n">haphic</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   <span class="n">mamba</span> <span class="n">install</span> <span class="n">bronko</span>
 
 <span class="ow">and</span> <span class="n">update</span> <span class="k">with</span><span class="p">::</span>
 
-   <span class="n">mamba</span> <span class="n">update</span> <span class="n">haphic</span>
+   <span class="n">mamba</span> <span class="n">update</span> <span class="n">bronko</span>
 </pre></div>
 </div>
 <p>To create a new environment, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">create</span> <span class="o">--</span><span class="n">name</span> <span class="n">myenvname</span> <span class="n">haphic</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">create</span> <span class="o">--</span><span class="n">name</span> <span class="n">myenvname</span> <span class="n">bronko</span>
 </pre></div>
 </div>
 <p>with <code class="docutils literal notranslate"><span class="pre">myenvname</span></code> being a reasonable name for the environment
 (see e.g. the <a class="reference external" href="https://mamba.readthedocs.io">mamba docs</a> for details and further options).</p>
 <p>Alternatively, use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   docker pull quay.io/biocontainers/haphic:&lt;tag&gt;
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   docker pull quay.io/biocontainers/bronko:&lt;tag&gt;
 
-(see `haphic/tags`_ for valid values for ``&lt;tag&gt;``)
+(see `bronko/tags`_ for valid values for ``&lt;tag&gt;``)
 </pre></div>
 </div>
 </dd></dl>
 
 <script>
-    var package = "haphic";
-    var versions = ["1.0.7"];
+    var package = "bronko";
+    var versions = ["0.0.2","0.0.1"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
@@ -226,8 +210,8 @@ others.</p>
 </section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Link to this heading">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/haphic/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/haphic/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/bronko/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bronko/README.html)
 </pre></div>
 </div>
 </section>
@@ -308,14 +292,14 @@ others.</p>
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
       
       |
-      <a href="../../_sources/recipes/haphic/README.rst.txt"
+      <a href="../../_sources/recipes/bronko/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/haphic/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/bronko/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>

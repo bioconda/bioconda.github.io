@@ -10,10 +10,12 @@ commet
    :replaces_section_title:
    :noindex:
 
-   Comparing and combining multiple metagenomic datasets
+   Comparing and combining multiple metagenomic datasets.
 
-   :homepage: https://colibread.inria.fr/software/commet/
-   :license: GNU Affero General Public License
+   :homepage: https://github.com/pierrepeterlongo/commet
+   :documentation: https://colibread.inria.fr/software/commet
+   
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`commet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/commet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/commet/meta.yaml>`_
    :links: biotools: :biotools:`commet`, doi: :doi:`10.1109/BIBM.2014.6999135`
 
@@ -29,10 +31,10 @@ commet
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>24.7.14-11</code>,  <code>24.7.14-10</code>,  <code>24.7.14-9</code>,  <code>24.7.14-8</code>,  <code>24.7.14-7</code>,  <code>24.7.14-6</code>,  <code>24.7.14-5</code>,  <code>24.7.14-4</code>,  <code>24.7.14-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>24.7.14-13</code>,  <code>24.7.14-11</code>,  <code>24.7.14-10</code>,  <code>24.7.14-9</code>,  <code>24.7.14-8</code>,  <code>24.7.14-7</code>,  <code>24.7.14-6</code>,  <code>24.7.14-5</code>,  <code>24.7.14-4</code>,  </span></summary>
       
 
-      ``24.7.14-11``,  ``24.7.14-10``,  ``24.7.14-9``,  ``24.7.14-8``,  ``24.7.14-7``,  ``24.7.14-6``,  ``24.7.14-5``,  ``24.7.14-4``,  ``24.7.14-3``,  ``24.7.14-2``,  ``24.7.14-1``,  ``24.7.14-0``
+      ``24.7.14-13``,  ``24.7.14-11``,  ``24.7.14-10``,  ``24.7.14-9``,  ``24.7.14-8``,  ``24.7.14-7``,  ``24.7.14-6``,  ``24.7.14-5``,  ``24.7.14-4``,  ``24.7.14-3``,  ``24.7.14-2``,  ``24.7.14-1``,  ``24.7.14-0``
 
       
       .. raw:: html
@@ -41,18 +43,20 @@ commet
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=12.3.0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends python: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-gplots: 
-   :depends zlib: 
+   :depends setuptools: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

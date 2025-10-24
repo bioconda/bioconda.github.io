@@ -25,6 +25,40 @@ biomedical research using the `conda <https://conda.io>`_ package manager.
 Usage
 =====
 
+With Pixi
+---------
+
+Pixi is a modern, extremely fast, frontend for conda packages and environments.
+First, `install pixi`_.
+Then, configure pixi to use bioconda in addition to it's default (`conda-forge`_)::
+
+  pixi config set default-channels '["conda-forge", "bioconda"]'
+
+Afterwards, you can install any package from bioconda globally::
+
+  pixi global install <somepackage>
+
+or locally into an environment associated with a directory::
+
+  cd myproject
+  pixi init
+  pixi add <somepackage>
+
+While globally installed packages are available everywhere on your system,
+locally installed packages are only available when you activate the associated
+environment via::
+
+  pixi shell
+
+in the respective directory.
+For more options and details see the `pixi documentation <https://pixi.sh>`__.
+
+.. _`Install pixi`: https://pixi.sh/latest/installation
+.. _`conda-forge`: https://conda-forge.org/docs/index.html
+
+With Conda
+----------
+
 First, `install conda`_.
 
 Then perform a one-time set up of Bioconda with the following commands. This

@@ -15,7 +15,7 @@ phabox
    :homepage: https://github.com/KennthShang/PhaBOX
    :documentation: https://github.com/KennthShang/PhaBOX/wiki
    
-   :license: OTHER / AFL-3.0
+   :license: OTHER / GPL-3.0
    :recipe: /`phabox <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phabox>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phabox/meta.yaml>`_
    :links: doi: :doi:`10.1093/bioadv/vbad101`, biotools: :biotools:`phabox`
 
@@ -31,10 +31,10 @@ phabox
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.12-0</code>,  <code>2.1.11-3</code>,  <code>2.1.11-2</code>,  <code>2.1.11-1</code>,  <code>2.1.11-0</code>,  <code>2.1.10-0</code>,  <code>2.1.9-0</code>,  <code>2.1.8-0</code>,  <code>2.1.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.13-0</code>,  <code>2.1.12-0</code>,  <code>2.1.11-3</code>,  <code>2.1.11-2</code>,  <code>2.1.11-1</code>,  <code>2.1.11-0</code>,  <code>2.1.10-0</code>,  <code>2.1.9-0</code>,  <code>2.1.8-0</code>,  </span></summary>
       
 
-      ``2.1.12-0``,  ``2.1.11-3``,  ``2.1.11-2``,  ``2.1.11-1``,  ``2.1.11-0``,  ``2.1.10-0``,  ``2.1.9-0``,  ``2.1.8-0``,  ``2.1.7-0``,  ``2.1.6-0``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.0-0``,  ``2.0.0-0``
+      ``2.1.13-0``,  ``2.1.12-0``,  ``2.1.11-3``,  ``2.1.11-2``,  ``2.1.11-1``,  ``2.1.11-0``,  ``2.1.10-0``,  ``2.1.9-0``,  ``2.1.8-0``,  ``2.1.7-0``,  ``2.1.6-0``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.0-0``,  ``2.0.0-0``
 
       
       .. raw:: html
@@ -44,6 +44,7 @@ phabox
 
    
    :depends accelerate: ``>=1.0.1``
+   :depends aragorn: ``>=1.2.41``
    :depends biopython: ``>=1.84``
    :depends blast: ``>=2.16.0``
    :depends datasets: ``>=3``
@@ -114,7 +115,7 @@ phabox
 
     <script>
         var package = "phabox";
-        var versions = ["2.1.12","2.1.11","2.1.11","2.1.11","2.1.11"];
+        var versions = ["2.1.13","2.1.12","2.1.11","2.1.11","2.1.11"];
     </script>
 
 

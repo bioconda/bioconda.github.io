@@ -27,43 +27,43 @@ metawrap-mg
       
       
 
-      ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``
+      ``1.3.0-1``,  ``1.3.0-0``
 
       
 
    
-   :depends biopython: ``>=1.78,<1.85``
-   :depends blas: ``* *mkl``
-   :depends blast: ``>=2.6.0``
-   :depends bmtagger: ``>=3.101``
-   :depends bowtie2: ``>=2.3.5``
-   :depends bwa: ``>=0.7.17``
-   :depends checkm-genome: ``>=1.0.12``
-   :depends concoct: ``>=1.1.0,<1.2.0``
-   :depends fastqc: ``>=0.11.8``
-   :depends kraken: ``>=1.1``
-   :depends kraken2: ``>=2.0``
-   :depends krona: ``>=2.7``
-   :depends matplotlib-base: ``>=3.3.0,<3.6.0``
-   :depends maxbin2: ``>=2.2.6``
-   :depends megahit: ``>=1.1.3``
-   :depends metabat2: ``>=2.12.1``
-   :depends openssl: 
-   :depends pandas: ``>=1.0.0,<1.5.0``
-   :depends perl: ``>=5.26,<5.33``
+   :depends biopython: ``1.68.*``
+   :depends blas: ``2.5 mkl``
+   :depends blast: ``2.6.0.*``
+   :depends bmtagger: ``3.101.*``
+   :depends bowtie2: ``2.3.5.*``
+   :depends bwa: ``0.7.17.*``
+   :depends checkm-genome: ``1.0.12.*``
+   :depends concoct: ``1.0.0.*``
+   :depends fastqc: ``0.11.8.*``
+   :depends kraken: ``1.1.*``
+   :depends kraken2: ``2.0.*``
+   :depends krona: ``2.7.*``
+   :depends matplotlib-base: ``2.2.3.*``
+   :depends maxbin2: ``2.2.6.*``
+   :depends megahit: ``1.1.3.*``
+   :depends metabat2: ``2.12.1.*``
+   :depends openssl: ``1.0.*``
+   :depends pandas: ``0.24.2.*``
    :depends perl-bioperl: 
-   :depends pplacer: 
-   :depends prokka: ``>=1.14,<1.15``
-   :depends python: ``>=3.9,<3.10.0a0``
-   :depends quast: ``>=5.0.2``
-   :depends r-ggplot2: ``>=3.1.0``
-   :depends r-recommended: ``>=3.5.1``
+   :depends pplacer: ``1.1.alpha19.*``
+   :depends prokka: ``1.*``
+   :depends python: ``2.7.15.*``
+   :depends quast: ``5.0.2.*``
+   :depends r-ggplot2: ``3.1.0.*``
+   :depends r-recommended: ``3.5.1.*``
    :depends r-reshape2: 
-   :depends salmon: ``>=0.13.1``
-   :depends samtools: ``>=1.9``
-   :depends seaborn-base: ``>=0.9.0``
-   :depends spades: ``>=3.13.0``
-   :depends trim-galore: ``>=0.5.0``
+   :depends salmon: ``0.13.1.*``
+   :depends samtools: ``1.9.*``
+   :depends seaborn: ``0.9.0.*``
+   :depends spades: ``3.13.0.*``
+   :depends taxator-tk: ``1.3.3e.*``
+   :depends trim-galore: ``0.5.0.*``
    :requirements:
 
    :additional platforms:
@@ -114,7 +114,7 @@ metawrap-mg
 
     <script>
         var package = "metawrap-mg";
-        var versions = ["1.3.0","1.3.0","1.3.0"];
+        var versions = ["1.3.0","1.3.0"];
     </script>
 
 

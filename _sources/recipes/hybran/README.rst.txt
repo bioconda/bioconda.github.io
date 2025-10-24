@@ -28,7 +28,7 @@ hybran
       
       
 
-      ``1.8-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.7-0``,  ``1.6.1-0``,  ``1.6-0``,  ``1.5.2-1``,  ``1.5.2-0``
+      ``1.9-0``,  ``1.8-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.7-0``,  ``1.6.1-0``,  ``1.6-0``,  ``1.5.2-1``,  ``1.5.2-0``
 
       
 
@@ -46,7 +46,7 @@ hybran
    :depends multiprocess: 
    :depends networkx: 
    :depends prokka: ``>=1.14``
-   :depends python: ``>=3.9``
+   :depends python: ``>=3.12``
    :depends ratt: 
    :depends tbl2asn-forever: 
    :requirements:
@@ -99,7 +99,7 @@ hybran
 
     <script>
         var package = "hybran";
-        var versions = ["1.8","1.7.1","1.7.1","1.7","1.6.1"];
+        var versions = ["1.9","1.8","1.7.1","1.7.1","1.7"];
     </script>
 
 

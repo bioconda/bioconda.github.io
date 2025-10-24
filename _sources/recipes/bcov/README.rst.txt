@@ -12,7 +12,7 @@ bcov
 
    BCov is a software package designed for predicting protein beta\-sheet topology from amino acid sequence.
 
-   :homepage: http://biocomp.unibo.it/savojard/bcov/index.html
+   :homepage: https://biocomp.unibo.it/savojard/bcov/index.html
    :license: file
    :recipe: /`bcov <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcov>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcov/meta.yaml>`_
    :links: biotools: :biotools:`bcov`, doi: :doi:`10.1093/bioinformatics/btt555`
@@ -29,10 +29,10 @@ bcov
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0-10</code>,  <code>1.0-9</code>,  <code>1.0-8</code>,  <code>1.0-7</code>,  <code>1.0-6</code>,  <code>1.0-5</code>,  <code>1.0-4</code>,  <code>1.0-3</code>,  <code>1.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0-11</code>,  <code>1.0-10</code>,  <code>1.0-9</code>,  <code>1.0-8</code>,  <code>1.0-7</code>,  <code>1.0-6</code>,  <code>1.0-5</code>,  <code>1.0-4</code>,  <code>1.0-3</code>,  </span></summary>
       
 
-      ``1.0-10``,  ``1.0-9``,  ``1.0-8``,  ``1.0-7``,  ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0-11``,  ``1.0-10``,  ``1.0-9``,  ``1.0-8``,  ``1.0-7``,  ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
       .. raw:: html
@@ -44,14 +44,14 @@ bcov
    :depends glpk: ``>=5.0,<6.0a0``
    :depends libgcc: ``>=13``
    :depends libgfortran: 
-   :depends libgfortran5: ``>=13.3.0``
+   :depends libgfortran5: ``>=13.4.0``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

@@ -27,7 +27,7 @@ srf-n-trf
       
       
 
-      ``0.1.1-0``
+      ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -86,7 +86,7 @@ srf-n-trf
 
     <script>
         var package = "srf-n-trf";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.2","0.1.1"];
     </script>
 
 

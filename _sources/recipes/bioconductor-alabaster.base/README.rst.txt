@@ -13,7 +13,7 @@ bioconductor-alabaster.base
    Save Bioconductor Objects To File
 
    :homepage: https://bioconductor.org/packages/3.20/bioc/html/alabaster.base.html
-   :license: MIT + file LICENSE
+   :license: MIT
    :recipe: /`bioconductor-alabaster.base <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.base>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.base/meta.yaml>`_
 
    Save Bioconductor data structures into file artifacts\, and load them back into memory. This is a more robust and portable alternative to serialization of such objects into RDS files. Each artifact is associated with metadata for further interpretation\; downstream applications can enrich this metadata with context\-specific properties.
@@ -27,7 +27,7 @@ bioconductor-alabaster.base
       
       
 
-      ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.1-0``,  ``1.0.0-0``
+      ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.1-0``,  ``1.0.0-0``
 
       
 
@@ -44,6 +44,7 @@ bioconductor-alabaster.base
    :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-jsonlite: 
    :depends r-jsonvalidate: 
@@ -51,6 +52,10 @@ bioconductor-alabaster.base
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -98,7 +103,7 @@ bioconductor-alabaster.base
 
     <script>
         var package = "bioconductor-alabaster.base";
-        var versions = ["1.6.0","1.6.0","1.2.1","1.0.0"];
+        var versions = ["1.6.1","1.6.0","1.6.0","1.2.1","1.0.0"];
     </script>
 
 

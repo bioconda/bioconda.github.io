@@ -27,12 +27,12 @@ atol-qc-raw-ont
       
       
 
-      ``0.1.2-0``
+      ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
 
    
-   :depends bbmap: ``<=38.95``
+   :depends bbmap: ``>=39.37``
    :depends filtlong: ``>=0.3.1``
    :depends gawk: 
    :depends pandas: ``>=2.3.3,<3``
@@ -89,7 +89,7 @@ atol-qc-raw-ont
 
     <script>
         var package = "atol-qc-raw-ont";
-        var versions = ["0.1.2"];
+        var versions = ["0.1.11","0.1.10","0.1.9","0.1.7","0.1.6"];
     </script>
 
 

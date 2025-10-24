@@ -13,7 +13,7 @@ grz-check
    grz\-check is a tool for validating incoming files of Modellvorhaben §64e submissions to Genomrechenzentren \(GRZ\) in Germany.
 
    :homepage: https://github.com/BfArM-MVH/grz-tools/packages/grz-check
-   :documentation: https://github.com/BfArM-MVH/grz-tools/packages/grz-check/blob/v0.1.0/README.md
+   :documentation: https://github.com/BfArM-MVH/grz-tools/packages/grz-check/blob/v0.2.0/README.md
    
    :license: MIT / MIT
    :recipe: /`grz-check <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grz-check>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grz-check/meta.yaml>`_
@@ -29,7 +29,7 @@ grz-check
       
       
 
-      ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -37,7 +37,7 @@ grz-check
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends openssl: ``>=3.5.1,<4.0a0``
+   :depends openssl: ``>=3.5.4,<4.0a0``
    :requirements:
 
    :additional platforms:
@@ -92,7 +92,7 @@ grz-check
 
     <script>
         var package = "grz-check";
-        var versions = ["0.1.0"];
+        var versions = ["0.2.0","0.1.0"];
     </script>
 
 

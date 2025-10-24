@@ -13,7 +13,7 @@ baitfisher
    The BaitFisher\-package is a software package for designing hybrid enrichment probes.
 
    :homepage: https://github.com/cmayer/BaitFisher-package
-   :license: GPL3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`baitfisher <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/baitfisher>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/baitfisher/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ baitfisher
       
       
 
-      ``1.0-7``,  ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0-8``,  ``1.0-7``,  ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
@@ -40,7 +40,7 @@ baitfisher
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

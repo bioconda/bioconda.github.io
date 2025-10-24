@@ -30,7 +30,7 @@ rearr
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -38,6 +38,7 @@ rearr
    :depends bedtools: 
    :depends bowtie2: 
    :depends cutadapt: 
+   :depends file: 
    :depends gawk: 
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
@@ -46,6 +47,7 @@ rearr
    :depends perl: 
    :depends python: 
    :depends samtools: 
+   :depends sed: 
    :requirements:
 
    :additional platforms:
@@ -96,7 +98,7 @@ rearr
 
     <script>
         var package = "rearr";
-        var versions = ["1.0.1","1.0.0"];
+        var versions = ["1.0.3","1.0.2","1.0.1","1.0.0"];
     </script>
 
 

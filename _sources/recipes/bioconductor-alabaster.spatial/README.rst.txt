@@ -13,7 +13,7 @@ bioconductor-alabaster.spatial
    Save and Load Spatial \'Omics Data to\/from File
 
    :homepage: https://bioconductor.org/packages/3.20/bioc/html/alabaster.spatial.html
-   :license: MIT + file LICENSE
+   :license: MIT
    :recipe: /`bioconductor-alabaster.spatial <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.spatial>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.spatial/meta.yaml>`_
 
    Save SpatialExperiment objects and their images into file artifacts\, and load them back into memory. This is a more portable alternative to serialization of such objects into RDS files. Each artifact is associated with metadata for further interpretation\; downstream applications can enrich this metadata with context\-specific properties.
@@ -27,12 +27,12 @@ bioconductor-alabaster.spatial
       
       
 
-      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.1-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-alabaster.base: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-alabaster.base: ``>=1.6.1,<1.7.0``
    :depends bioconductor-alabaster.sce: ``>=1.6.0,<1.7.0``
    :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0``
    :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
@@ -88,7 +88,7 @@ bioconductor-alabaster.spatial
 
     <script>
         var package = "bioconductor-alabaster.spatial";
-        var versions = ["1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.6.1","1.6.0","1.2.0","1.0.0"];
     </script>
 
 

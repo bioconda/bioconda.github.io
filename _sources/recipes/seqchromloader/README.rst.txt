@@ -10,13 +10,13 @@ seqchromloader
    :replaces_section_title:
    :noindex:
 
-   Sequence and chromatin dataloader for deep learning
+   Sequence and chromatin dataloader for deep learning.
 
    :homepage: https://github.com/yztxwd/seqchromloader
    :documentation: https://github.com/seqcode/seqchromloader
    
    :developer docs: https://github.com/seqcode/seqchromloader
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`seqchromloader <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqchromloader>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqchromloader/meta.yaml>`_
 
    
@@ -31,10 +31,10 @@ seqchromloader
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.6-0</code>,  <code>0.8.3-0</code>,  <code>0.7.8-0</code>,  <code>0.7.7-0</code>,  <code>0.7.6-0</code>,  <code>0.7.5-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.1-0</code>,  <code>0.8.6-0</code>,  <code>0.8.3-0</code>,  <code>0.7.8-0</code>,  <code>0.7.7-0</code>,  <code>0.7.6-0</code>,  <code>0.7.5-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  </span></summary>
       
 
-      ``0.8.6-0``,  ``0.8.3-0``,  ``0.7.8-0``,  ``0.7.7-0``,  ``0.7.6-0``,  ``0.7.5-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.8-0``,  ``0.6.5-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.5.3-0``,  ``0.4.0-0``,  ``0.2.4-0``,  ``0.2.1-0``
+      ``0.9.1-0``,  ``0.8.6-0``,  ``0.8.3-0``,  ``0.7.8-0``,  ``0.7.7-0``,  ``0.7.6-0``,  ``0.7.5-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.8-0``,  ``0.6.5-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.5.3-0``,  ``0.4.0-0``,  ``0.2.4-0``,  ``0.2.1-0``
 
       
       .. raw:: html
@@ -104,7 +104,7 @@ seqchromloader
 
     <script>
         var package = "seqchromloader";
-        var versions = ["0.8.6","0.8.3","0.7.8","0.7.7","0.7.6"];
+        var versions = ["0.9.1","0.8.6","0.8.3","0.7.8","0.7.7"];
     </script>
 
 

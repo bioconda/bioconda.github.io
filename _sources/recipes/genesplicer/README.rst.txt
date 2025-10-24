@@ -10,12 +10,12 @@ genesplicer
    :replaces_section_title:
    :noindex:
 
-   GeneSplicer \: A computational method for splice site prediction
+   GeneSplicer \: A computational method for splice site prediction.
 
-   :homepage: http://www.cs.jhu.edu/~genomics/GeneSplicer
+   :homepage: https://ccb.jhu.edu/software/genesplicer
    :license: OSI
    :recipe: /`genesplicer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genesplicer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genesplicer/meta.yaml>`_
-   :links: biotools: :biotools:`GeneSplicer`
+   :links: biotools: :biotools:`genesplicer`
 
    
 
@@ -29,10 +29,10 @@ genesplicer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0-1</code>,  <code>1.0-0</code>,  <code>0_2003.04.03-7</code>,  <code>0_2003.04.03-6</code>,  <code>0_2003.04.03-5</code>,  <code>0_2003.04.03-4</code>,  <code>0_2003.04.03-3</code>,  <code>0_2003.04.03-2</code>,  <code>0_2003.04.03-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0-1</code>,  <code>1.0-0</code>,  <code>0_2003.04.03-8</code>,  <code>0_2003.04.03-7</code>,  <code>0_2003.04.03-6</code>,  <code>0_2003.04.03-5</code>,  <code>0_2003.04.03-4</code>,  <code>0_2003.04.03-3</code>,  <code>0_2003.04.03-2</code>,  </span></summary>
       
 
-      ``1.0-1``,  ``1.0-0``,  ``0_2003.04.03-7``,  ``0_2003.04.03-6``,  ``0_2003.04.03-5``,  ``0_2003.04.03-4``,  ``0_2003.04.03-3``,  ``0_2003.04.03-2``,  ``0_2003.04.03-1``,  ``0_2003.04.03-0``
+      ``1.0-1``,  ``1.0-0``,  ``0_2003.04.03-8``,  ``0_2003.04.03-7``,  ``0_2003.04.03-6``,  ``0_2003.04.03-5``,  ``0_2003.04.03-4``,  ``0_2003.04.03-3``,  ``0_2003.04.03-2``,  ``0_2003.04.03-1``,  ``0_2003.04.03-0``
 
       
       .. raw:: html
@@ -45,6 +45,10 @@ genesplicer
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

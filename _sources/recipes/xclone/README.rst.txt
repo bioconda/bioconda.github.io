@@ -29,7 +29,7 @@ xclone
       
       
 
-      ``0.3.8-0``
+      ``0.4.0-0``,  ``0.3.8-0``
 
       
 
@@ -97,7 +97,7 @@ xclone
 
     <script>
         var package = "xclone";
-        var versions = ["0.3.8"];
+        var versions = ["0.4.0","0.3.8"];
     </script>
 
 

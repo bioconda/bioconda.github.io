@@ -12,7 +12,7 @@ baypass
 
    Genome\-Wide Scan for Adaptive Differentiation and Association Analysis with population\-specific covariables.
 
-   :homepage: http://www1.montpellier.inra.fr/CBGP/software/baypass/index.html
+   :homepage: https://forge.inrae.fr/mathieu.gautier/baypass_public
    :license: CECILL-B
    :recipe: /`baypass <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/baypass>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/baypass/meta.yaml>`_
 
@@ -27,17 +27,21 @@ baypass
       
       
 
-      ``2.31-2``,  ``2.31-1``,  ``2.31-0``
+      ``3.1-0``,  ``2.31-2``,  ``2.31-1``,  ``2.31-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=12.2.0``
+   :depends libgcc: ``>=13``
+   :depends libgfortran: 
+   :depends libgfortran5: ``>=13.4.0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -85,7 +89,7 @@ baypass
 
     <script>
         var package = "baypass";
-        var versions = ["2.31","2.31","2.31"];
+        var versions = ["3.1","2.31","2.31","2.31"];
     </script>
 
 

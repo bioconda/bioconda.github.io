@@ -173,17 +173,30 @@ Patching
 ~~~~~~~~
 Some recipes require small patches to get the tests to pass, for example,
 fixing hard-coded shebang lines (as described at
-:ref:`perl-or-python-not-found`). Other patches are more extensive. When
-patching a recipe, please first make an effort to fix the issue upstream and
-document that effort in your pull request by either linking to the relevant
+:ref:`perl-or-python-not-found`). Other patches are more extensive.
+
+When patching a recipe, please first make an effort to fix the issue upstream
+and document that effort in your pull request by either linking to the relevant
 upstream PR or indicating that you have contacted the author. The goal is not
 to block merging your PR until upstream is fixed, but rather to make sure
 upstream authors know there's an issue that other users (including non-bioconda
-users) might be having. Ideally, upstream would fix the issue quickly and the
+users) might be having.
+
+Ideally, upstream would fix the issue quickly and the
 PR could be modified, but it's fine to merge with the patches and if/when
 upstream fixes, a separate bioconda PR could be opened that pulls in those
 upstream changes.
 
+Complex or extensive patches done without the original authors involved have
+the risk of breaking the software. PRs with extensive patching may need
+additional review or discussion to make sure that only high-quality recipes are
+distributed by Bioconda.
+
+In all cases, you should document what the patching does and why, and how you
+tested its correctness. Recall that Bioconda tests are only to make sure the
+package was installed correctly, so you may need to do additional manual
+testing (and document the results) to be sure that the patch does not affect
+the functionality of the software.
 
 Python
 ------
@@ -690,6 +703,19 @@ tests or otherwise), including these in the recipe is not recommended
 since it may timeout the build system on CircleCI. We especially want to avoid
 including any kind of test data in the repository.
 
+.. note::
+
+  To emphasize: **bioconda-recipes tests do not test functionality.**
+
+  Correct functionality should be handled by the software authors, typically in
+  the upstream repository.
+
+  There are exceptions, where sufficiently small examples are shipped with
+  the packaged tool itself, or the tool has a built-in example routine that has
+  sufficiently small resource requirements, such that the tests can be run as
+  part of the Bioconda recipe, but this is rare.
+
+
 Note that a test must return an exit code of 0. The test can be in the ``test``
 field of ``meta.yaml``, or can be a separate script (see the `relevant conda
 docs <https://docs.conda.io/projects/conda-build/en/stable/resources/define-metadata.html?highlight=test-section#test-section>`_ for
@@ -744,3 +770,16 @@ version and put the recipe there. Examples of this can be found in `bowtie2
 `bx-python
 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bx-python>`_,
 and others.
+
+Support for other platforms
+---------------------------
+
+There are many cases where a package does not explicitly support a platform (like
+osx-arm64 or linux-aarch64) and yet there is a demand for such support.
+
+These issues should be raised with the package authors first, ideally by
+creating an issue on the respective upstream repo. Bioconda is just
+a distribution mechanism for packages, so it is not appropriate for software
+development work on a package (like supporting an additional platform) to be
+exclusivly performed in the Bioconda repo. It's important to engage the
+upstream authors on such efforts if at all possible.

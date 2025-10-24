@@ -31,13 +31,13 @@ regain-cli
       
       
 
-      ``1.6.3-0``,  ``1.6.2-0``
+      ``1.7.1-0``,  ``1.6.3-0``,  ``1.6.2-0``
 
       
 
    
    :depends bioconductor-graph: 
-   :depends biopython: 
+   :depends biopython: ``>=1.83``
    :depends blast: 
    :depends ncbi-amrfinderplus: 
    :depends pandas: 
@@ -67,6 +67,7 @@ regain-cli
    :depends r-tidyr: 
    :depends r-vegan: 
    :depends r-visnetwork: 
+   :depends tqdm: ``>=4.67``
    :requirements:
 
    :additional platforms:
@@ -117,7 +118,7 @@ regain-cli
 
     <script>
         var package = "regain-cli";
-        var versions = ["1.6.3","1.6.2"];
+        var versions = ["1.7.1","1.6.3","1.6.2"];
     </script>
 
 

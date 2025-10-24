@@ -29,7 +29,7 @@ bifidoannotator
       
       
 
-      ``1.0.0-0``
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -38,7 +38,7 @@ bifidoannotator
    :depends mmseqs2: 
    :depends numpy: ``>=1.18.0``
    :depends pandas: ``>=1.0.0``
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.10``
    :depends scipy: ``>=1.5.0``
    :depends seaborn: ``>=0.11.0``
    :requirements:
@@ -91,7 +91,7 @@ bifidoannotator
 
     <script>
         var package = "bifidoannotator";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.2","1.0.1","1.0.0"];
     </script>
 
 

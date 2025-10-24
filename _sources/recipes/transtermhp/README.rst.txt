@@ -10,10 +10,10 @@ transtermhp
    :replaces_section_title:
    :noindex:
 
-   TransTermHP finds rho\-independent transcription terminators in bacterial genomes
+   TransTermHP finds rho\-independent transcription terminators in bacterial genomes.
 
-   :homepage: http://transterm.cbcb.umd.edu/index.php
-   :license: GPL
+   :homepage: https://transterm.cbcb.umd.edu/index.php
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`transtermhp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transtermhp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transtermhp/meta.yaml>`_
 
    
@@ -27,15 +27,20 @@ transtermhp
       
       
 
-      ``2.09-1``,  ``2.09-0``
+      ``2.09-2``,  ``2.09-1``,  ``2.09-0``
 
       
 
    
-   :depends libstdcxx-ng: ``>=4.9``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -83,7 +88,7 @@ transtermhp
 
     <script>
         var package = "transtermhp";
-        var versions = ["2.09","2.09"];
+        var versions = ["2.09","2.09","2.09"];
     </script>
 
 

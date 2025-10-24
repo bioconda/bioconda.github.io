@@ -32,10 +32,10 @@ remag
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.5-0</code>,  <code>0.1.3-0</code>,  <code>0.1.2-0</code>,  <code>0.1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.1-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.5-0</code>,  <code>0.1.3-0</code>,  </span></summary>
       
 
-      ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.3.1-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -44,12 +44,12 @@ remag
       
 
    
-   :depends biopython: 
-   :depends hdbscan: ``>=0.8.28``
+   :depends biopython: ``>=1.80``
+   :depends einops: ``>=0.6.0``
    :depends joblib: ``>=1.1.0``
    :depends leidenalg: ``>=0.9.0``
    :depends loguru: ``>=0.6.0``
-   :depends matplotlib-base: ``>=3.5.0``
+   :depends miniprot: 
    :depends numpy: ``>=1.21.0``
    :depends pandas: ``>=1.3.0``
    :depends psutil: ``>=5.8.0``
@@ -60,8 +60,7 @@ remag
    :depends rich-click: ``>=1.5.0``
    :depends scikit-learn: ``>=1.0.0``
    :depends tqdm: ``>=4.62.0``
-   :depends umap-learn: ``>=0.5.0``
-   :depends xgboost: ``>=1.6.0``
+   :depends transformers: ``>=4.30.0``
    :requirements:
 
    :additional platforms:
@@ -112,7 +111,7 @@ remag
 
     <script>
         var package = "remag";
-        var versions = ["0.2.4","0.2.3","0.2.2","0.2.1","0.2.0"];
+        var versions = ["0.3.1","0.2.5","0.2.4","0.2.3","0.2.2"];
     </script>
 
 

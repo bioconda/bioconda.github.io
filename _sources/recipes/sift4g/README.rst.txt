@@ -12,8 +12,10 @@ sift4g
 
    SIFT 4G is a faster version of SIFT that enables us to scale up and provide SIFT predictions for more organisms.
 
-   :homepage: http://sift.bii.a-star.edu.sg/sift4g/
-   :license: GPL-3.0
+   :homepage: https://github.com/rvaser/sift4g
+   :documentation: https://sift.bii.a-star.edu.sg/sift4g
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`sift4g <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sift4g>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sift4g/meta.yaml>`_
 
    
@@ -27,16 +29,22 @@ sift4g
       
       
 
-      ``2.0.0-6``,  ``2.0.0-5``,  ``2.0.0-4``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``
+      ``2.0.0-8``,  ``2.0.0-6``,  ``2.0.0-5``,  ``2.0.0-4``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

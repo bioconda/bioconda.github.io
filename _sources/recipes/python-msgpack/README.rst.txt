@@ -30,10 +30,10 @@ python-msgpack
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.1-0</code>,  <code>0.6.1-11</code>,  <code>0.6.1-10</code>,  <code>0.6.1-9</code>,  <code>0.6.1-8</code>,  <code>0.6.1-6</code>,  <code>0.6.1-5</code>,  <code>0.6.1-4</code>,  <code>0.6.1-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>0.6.1-11</code>,  <code>0.6.1-10</code>,  <code>0.6.1-9</code>,  <code>0.6.1-8</code>,  <code>0.6.1-6</code>,  <code>0.6.1-5</code>,  <code>0.6.1-4</code>,  </span></summary>
       
 
-      ``1.1.1-0``,  ``0.6.1-11``,  ``0.6.1-10``,  ``0.6.1-9``,  ``0.6.1-8``,  ``0.6.1-6``,  ``0.6.1-5``,  ``0.6.1-4``,  ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.6-0``
+      ``1.1.2-0``,  ``1.1.1-0``,  ``0.6.1-11``,  ``0.6.1-10``,  ``0.6.1-9``,  ``0.6.1-8``,  ``0.6.1-6``,  ``0.6.1-5``,  ``0.6.1-4``,  ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.5.6-0``
 
       
       .. raw:: html
@@ -99,7 +99,7 @@ python-msgpack
 
     <script>
         var package = "python-msgpack";
-        var versions = ["1.1.1","0.6.1","0.6.1","0.6.1","0.6.1"];
+        var versions = ["1.1.2","1.1.1","0.6.1","0.6.1","0.6.1"];
     </script>
 
 

@@ -13,7 +13,7 @@ treesimulator
    Simulation of rooted phylogenetic trees under a given Multitype Birth–Death \(MTBD\) model.
 
    :homepage: https://github.com/evolbioinfo/treesimulator
-   :documentation: https://github.com/evolbioinfo/treesimulator/blob/0.2.19/README.md
+   :documentation: https://github.com/evolbioinfo/treesimulator/blob/0.2.20/README.md
    
    :license: GPL3 / GPL-3.0-only
    :recipe: /`treesimulator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treesimulator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treesimulator/meta.yaml>`_
@@ -34,10 +34,10 @@ treesimulator
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.19-0</code>,  <code>0.2.18-0</code>,  <code>0.2.17-0</code>,  <code>0.2.15-0</code>,  <code>0.2.8-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.20-0</code>,  <code>0.2.19-0</code>,  <code>0.2.18-0</code>,  <code>0.2.17-0</code>,  <code>0.2.15-0</code>,  <code>0.2.8-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.2.1-0</code>,  </span></summary>
       
 
-      ``0.2.19-0``,  ``0.2.18-0``,  ``0.2.17-0``,  ``0.2.15-0``,  ``0.2.8-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.22-0``
+      ``0.2.20-0``,  ``0.2.19-0``,  ``0.2.18-0``,  ``0.2.17-0``,  ``0.2.15-0``,  ``0.2.8-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.22-0``
 
       
       .. raw:: html
@@ -48,6 +48,7 @@ treesimulator
    
    :depends ete3: 
    :depends legacy-cgi: 
+   :depends lifelines: 
    :depends numpy: 
    :depends python: ``>=3.9``
    :depends python-build: 
@@ -104,7 +105,7 @@ treesimulator
 
     <script>
         var package = "treesimulator";
-        var versions = ["0.2.19","0.2.18","0.2.17","0.2.15","0.2.8"];
+        var versions = ["0.2.20","0.2.19","0.2.18","0.2.17","0.2.15"];
     </script>
 
 

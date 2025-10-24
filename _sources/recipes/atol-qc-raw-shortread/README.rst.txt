@@ -27,7 +27,7 @@ atol-qc-raw-shortread
       
       
 
-      ``0.1.2-0``,  ``0.1.1-0``
+      ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -86,7 +86,7 @@ atol-qc-raw-shortread
 
     <script>
         var package = "atol-qc-raw-shortread";
-        var versions = ["0.1.2","0.1.1"];
+        var versions = ["0.1.7","0.1.6","0.1.5","0.1.4","0.1.3"];
     </script>
 
 

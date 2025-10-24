@@ -30,10 +30,10 @@ bioconvert
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.1-2</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0.post0-0</code>,  <code>0.6.3-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.1-3</code>,  <code>1.1.1-2</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0.post0-0</code>,  <code>0.6.3-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  </span></summary>
       
 
-      ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0.post0-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.0.10-1``,  ``0.0.10-0``
+      ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0.post0-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.0.10-1``,  ``0.0.10-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ bioconvert
 
    
    :depends bamtools: 
-   :depends bcftools: ``>=1.19,<1.20``
+   :depends bcftools: 
    :depends bedops: 
    :depends bedtools: 
    :depends biopython: ``>=1.70``
@@ -57,7 +57,7 @@ bioconvert
    :depends goalign: 
    :depends gotree: 
    :depends graphviz: 
-   :depends htslib: ``>=1.19.1,<1.20.0a0``
+   :depends htslib: 
    :depends jinja2: ``<3.1``
    :depends mappy: 
    :depends matplotlib-base: 
@@ -95,7 +95,7 @@ bioconvert
    :depends ucsc-fatotwobit: 
    :depends ucsc-twobittofa: 
    :depends ucsc-wigtobigwig: 
-   :depends wiggletools: ``>=1.2.11,<1.3``
+   :depends wiggletools: 
    :depends xlrd: ``>2.0``
    :requirements:
 
@@ -147,7 +147,7 @@ bioconvert
 
     <script>
         var package = "bioconvert";
-        var versions = ["1.1.1","1.1.1","1.1.1","1.1.0","1.0.0.post0"];
+        var versions = ["1.1.1","1.1.1","1.1.1","1.1.1","1.1.0"];
     </script>
 
 

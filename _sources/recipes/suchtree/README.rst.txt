@@ -30,7 +30,7 @@ suchtree
       
       
 
-      ``1.2-1``,  ``1.2-0``
+      ``1.3-0``,  ``1.2-1``,  ``1.2-0``
 
       
 
@@ -97,7 +97,7 @@ suchtree
 
     <script>
         var package = "suchtree";
-        var versions = ["1.2","1.2"];
+        var versions = ["1.3","1.2","1.2"];
     </script>
 
 

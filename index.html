@@ -70,6 +70,35 @@ biomedical research using the <a class="reference external" href="https://conda.
 <p><strong>NOTE</strong>: <em>Bioconda supports only Linux (64-bit and AArch64) and macOS (x86_64 and ARM64)</em></p>
 <section id="usage">
 <h1>Usage<a class="headerlink" href="#usage" title="Link to this heading">¶</a></h1>
+<section id="with-pixi">
+<h2>With Pixi<a class="headerlink" href="#with-pixi" title="Link to this heading">¶</a></h2>
+<p>Pixi is a modern, extremely fast, frontend for conda packages and environments.
+First, <a class="reference external" href="https://pixi.sh/latest/installation">install pixi</a>.
+Then, configure pixi to use bioconda in addition to it’s default (<a class="reference external" href="https://conda-forge.org/docs/index.html">conda-forge</a>):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">config</span> <span class="nb">set</span> <span class="n">default</span><span class="o">-</span><span class="n">channels</span> <span class="s1">&#39;[&quot;conda-forge&quot;, &quot;bioconda&quot;]&#39;</span>
+</pre></div>
+</div>
+<p>Afterwards, you can install any package from bioconda globally:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="o">&lt;</span><span class="n">somepackage</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>or locally into an environment associated with a directory:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="n">myproject</span>
+<span class="n">pixi</span> <span class="n">init</span>
+<span class="n">pixi</span> <span class="n">add</span> <span class="o">&lt;</span><span class="n">somepackage</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>While globally installed packages are available everywhere on your system,
+locally installed packages are only available when you activate the associated
+environment via:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">shell</span>
+</pre></div>
+</div>
+<p>in the respective directory.
+For more options and details see the <a class="reference external" href="https://pixi.sh">pixi documentation</a>.</p>
+</section>
+<section id="with-conda">
+<h2>With Conda<a class="headerlink" href="#with-conda" title="Link to this heading">¶</a></h2>
 <p>First, <a class="reference external" href="https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html">install conda</a>.</p>
 <p>Then perform a one-time set up of Bioconda with the following commands. This
 will modify your <code class="file docutils literal notranslate"><span class="pre">~/.condarc</span></code> file:</p>
@@ -145,6 +174,7 @@ containers can be found at the <a class="reference external" href="https://bioco
 <p>If you have docker installed, you do not need any additional configuration.</p>
 </div></blockquote>
 </div></details></section>
+</section>
 <section id="overview">
 <h1>Overview<a class="headerlink" href="#overview" title="Link to this heading">¶</a></h1>
 <p>While Bioconda channel is the primary output for users, it takes a team of

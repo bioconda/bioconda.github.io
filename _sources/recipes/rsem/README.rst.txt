@@ -42,10 +42,10 @@ rsem
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.3-11</code>,  <code>1.3.3-10</code>,  <code>1.3.3-9</code>,  <code>1.3.3-7</code>,  <code>1.3.3-6</code>,  <code>1.3.3-5</code>,  <code>1.3.3-4</code>,  <code>1.3.3-3</code>,  <code>1.3.3-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.3-12</code>,  <code>1.3.3-11</code>,  <code>1.3.3-10</code>,  <code>1.3.3-9</code>,  <code>1.3.3-7</code>,  <code>1.3.3-6</code>,  <code>1.3.3-5</code>,  <code>1.3.3-4</code>,  <code>1.3.3-3</code>,  </span></summary>
       
 
-      ``1.3.3-11``,  ``1.3.3-10``,  ``1.3.3-9``,  ``1.3.3-7``,  ``1.3.3-6``,  ``1.3.3-5``,  ``1.3.3-4``,  ``1.3.3-3``,  ``1.3.3-2``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-4``,  ``1.3.0-3``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.28-2``,  ``1.2.28-0``,  ``1.2.22-0``,  ``1.2.21-5``,  ``1.2.21-4``,  ``1.2.21-3``
+      ``1.3.3-12``,  ``1.3.3-11``,  ``1.3.3-10``,  ``1.3.3-9``,  ``1.3.3-7``,  ``1.3.3-6``,  ``1.3.3-5``,  ``1.3.3-4``,  ``1.3.3-3``,  ``1.3.3-2``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-4``,  ``1.3.0-3``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.28-2``,  ``1.2.28-0``,  ``1.2.22-0``,  ``1.2.21-5``,  ``1.2.21-4``,  ``1.2.21-3``
 
       
       .. raw:: html
@@ -56,7 +56,7 @@ rsem
    
    :depends bioconductor-biobase: 
    :depends bioconductor-ebseq: 
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
@@ -71,7 +71,7 @@ rsem
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

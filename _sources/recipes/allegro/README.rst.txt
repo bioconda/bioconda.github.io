@@ -12,7 +12,7 @@ allegro
 
    A fast linkage and haplotype analysis utility making use of MTBDD to reduce complexity.
 
-   :homepage: http://www.nature.com/ng/journal/v37/n10/full/ng1005-1015.html?foxtrotcallback=true
+   :homepage: https://www.decode.com/software/allegro
    :license: INDIVIDUAL
    :recipe: /`allegro <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/allegro>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/allegro/meta.yaml>`_
 
@@ -28,10 +28,10 @@ allegro
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3-9</code>,  <code>3-8</code>,  <code>3-7</code>,  <code>3-6</code>,  <code>3-5</code>,  <code>3-4</code>,  <code>3-3</code>,  <code>3-2</code>,  <code>3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3-10</code>,  <code>3-9</code>,  <code>3-8</code>,  <code>3-7</code>,  <code>3-6</code>,  <code>3-5</code>,  <code>3-4</code>,  <code>3-3</code>,  <code>3-2</code>,  </span></summary>
       
 
-      ``3-9``,  ``3-8``,  ``3-7``,  ``3-6``,  ``3-5``,  ``3-4``,  ``3-3``,  ``3-2``,  ``3-1``,  ``2-0``
+      ``3-10``,  ``3-9``,  ``3-8``,  ``3-7``,  ``3-6``,  ``3-5``,  ``3-4``,  ``3-3``,  ``3-2``,  ``3-1``,  ``2-0``
 
       
       .. raw:: html
@@ -43,14 +43,13 @@ allegro
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

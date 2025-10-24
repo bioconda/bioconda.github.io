@@ -28,7 +28,7 @@ lamps
       
       
 
-      ``1.0.3-0``
+      ``1.0.4-0``,  ``1.0.3-0``
 
       
 
@@ -91,7 +91,7 @@ lamps
 
     <script>
         var package = "lamps";
-        var versions = ["1.0.3"];
+        var versions = ["1.0.4","1.0.3"];
     </script>
 
 

@@ -29,7 +29,7 @@ nomadic
       
       
 
-      ``0.5.0-0``,  ``0.4.0-0``
+      ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``
 
       
 
@@ -38,6 +38,7 @@ nomadic
    :depends bedtools: 
    :depends click: 
    :depends dash: 
+   :depends delve-bio: ``0.2.*``
    :depends i18nice: 
    :depends minimap2: 
    :depends numpy: 
@@ -98,7 +99,7 @@ nomadic
 
     <script>
         var package = "nomadic";
-        var versions = ["0.5.0","0.4.0"];
+        var versions = ["0.6.0","0.5.0","0.4.0"];
     </script>
 
 

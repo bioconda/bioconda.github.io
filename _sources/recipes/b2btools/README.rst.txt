@@ -38,22 +38,25 @@ b2btools
       
       
 
-      ``3.0.7-1``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.4-0``
+      ``3.0.7-2``,  ``3.0.7-1``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.4-0``
 
       
 
    
    :depends biopython: ``>=1.83,<2``
    :depends hmmer: 
+   :depends joblib: ``>=0.9.0b4``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends matplotlib-base: ``>=3.5.3,<3.6``
+   :depends networkx: ``>=2.4``
    :depends numpy: ``>=1.21.6,<1.27``
-   :depends pandas: ``>=1.5.3,<1.6``
-   :depends pomegranate: ``>=0.14.8,<=0.14.9``
+   :depends numpy: ``>=1.26.4,<2.0a0``
+   :depends pandas: ``>=1.5.3``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends pytorch: ``>=1.11.0,<=1.13.1``
+   :depends pyyaml: 
    :depends requests: ``>=2.31.0,<2.32``
    :depends scikit-learn: ``1.0.2``
    :depends scipy: ``1.12.0``
@@ -65,7 +68,7 @@ b2btools
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -113,7 +116,7 @@ b2btools
 
     <script>
         var package = "b2btools";
-        var versions = ["3.0.7","3.0.7","3.0.6","3.0.5","3.0.4"];
+        var versions = ["3.0.7","3.0.7","3.0.7","3.0.6","3.0.5"];
     </script>
 
 

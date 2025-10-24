@@ -27,24 +27,27 @@ iobrpy
       
       
 
-      ``0.1.3-0``
+      ``0.1.4-0``,  ``0.1.3-0``
 
       
 
    
    :depends fastp: 
    :depends gseapy: ``>=1.0.6``
+   :depends gzip: 
    :depends joblib: ``>=1.3``
    :depends matplotlib-base: ``>=3.7``
-   :depends multiqc: ``>=1.31``
+   :depends multiqc: ``1.31``
    :depends numpy: ``>=1.22``
    :depends pandas: ``>=1.5``
    :depends python: ``>=3.9``
+   :depends regex: ``>=2024.5``
    :depends salmon: 
    :depends scikit-learn: ``>=1.2``
    :depends scipy: ``>=1.9``
    :depends star: 
    :depends statsmodels: ``>=0.13``
+   :depends tiktoken: ``>=0.11,<0.13``
    :depends tqdm: ``>=4.66``
    :requirements:
 
@@ -96,7 +99,7 @@ iobrpy
 
     <script>
         var package = "iobrpy";
-        var versions = ["0.1.3"];
+        var versions = ["0.1.4","0.1.3"];
     </script>
 
 

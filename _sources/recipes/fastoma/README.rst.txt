@@ -10,10 +10,10 @@ fastoma
    :replaces_section_title:
    :noindex:
 
-   FastOMA \- a package to infer orthology information among proteomes
+   FastOMA \- a package to infer orthology information among proteomes.
 
    :homepage: https://github.com/DessimozLab/FastOMA
-   :license: Mozilla Public License 2.0
+   :license: MPL-2.0
    :recipe: /`fastoma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastoma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastoma/meta.yaml>`_
    :links: doi: :doi:`10.1038/s41592-024-02552-8`
 
@@ -28,7 +28,7 @@ fastoma
       
       
 
-      ``0.3.5-0``,  ``0.3.4-0``
+      ``0.4.0-0``,  ``0.3.5-0``,  ``0.3.4-0``
 
       
 
@@ -45,8 +45,8 @@ fastoma
    :depends omamer: 
    :depends papermill: 
    :depends pyparsing: 
-   :depends python: 
-   :depends seaborn: 
+   :depends python: ``>=3.8,<3.13``
+   :depends seaborn-base: 
    :requirements:
 
    :additional platforms:
@@ -97,7 +97,7 @@ fastoma
 
     <script>
         var package = "fastoma";
-        var versions = ["0.3.5","0.3.4"];
+        var versions = ["0.4.0","0.3.5","0.3.4"];
     </script>
 
 

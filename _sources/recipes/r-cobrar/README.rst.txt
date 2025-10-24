@@ -29,7 +29,7 @@ r-cobrar
       
       
 
-      ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.2.2-0``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -38,7 +38,7 @@ r-cobrar
    :depends glpk: ``>=5.0,<6.0a0``
    :depends libgcc: ``>=13``
    :depends libsbml: ``>=5.18.0``
-   :depends libsbml: ``>=5.20.4,<5.21.0a0``
+   :depends libsbml: ``>=5.20.5,<5.21.0a0``
    :depends libstdcxx: ``>=13``
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-matrix: 
@@ -98,7 +98,7 @@ r-cobrar
 
     <script>
         var package = "r-cobrar";
-        var versions = ["0.2.0","0.1.2","0.1.1","0.1.1","0.1.1"];
+        var versions = ["0.2.2","0.2.0","0.1.2","0.1.1","0.1.1"];
     </script>
 
 

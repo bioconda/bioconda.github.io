@@ -12,8 +12,8 @@ barriers
 
    Compute local minima and energy barriers of a landscape.
 
-   :homepage: https://www.tbi.univie.ac.at/RNA/Barriers/
-   :license: GPL
+   :homepage: https://www.tbi.univie.ac.at/RNA/Barriers
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`barriers <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/barriers>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/barriers/meta.yaml>`_
 
    
@@ -27,16 +27,22 @@ barriers
       
       
 
-      ``1.8.1-2``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.0-1``,  ``1.7.0-0``
+      ``1.8.1-4``,  ``1.8.1-2``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.0-1``,  ``1.7.0-0``
 
       
 
    
-   :depends libcxx: ``>=12.0.1``
-   :depends viennarna: ``>=2.5.0,<2.6.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends viennarna: ``>=2.7.0,<2.8.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -84,7 +90,7 @@ barriers
 
     <script>
         var package = "barriers";
-        var versions = ["1.8.1","1.8.1","1.8.1","1.8.0","1.7.0"];
+        var versions = ["1.8.1","1.8.1","1.8.1","1.8.1","1.8.0"];
     </script>
 
 

@@ -13,7 +13,7 @@ impg
    impg\: implicit pangenome graphs.
 
    :homepage: https://github.com/pangenome/impg
-   :documentation: https://github.com/pangenome/impg/blob/v0.3.1/README.md
+   :documentation: https://github.com/pangenome/impg/blob/v0.3.2/README.md
    
    :license: MIT / MIT
    :recipe: /`impg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/impg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/impg/meta.yaml>`_
@@ -29,7 +29,7 @@ impg
       
       
 
-      ``0.3.1-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
 
@@ -91,7 +91,7 @@ impg
 
     <script>
         var package = "impg";
-        var versions = ["0.3.1","0.2.4","0.2.3","0.2.2","0.2.1"];
+        var versions = ["0.3.2","0.3.1","0.2.4","0.2.3","0.2.2"];
     </script>
 
 

@@ -13,7 +13,7 @@ bioconductor-alabaster.matrix
    Load and Save Artifacts from File
 
    :homepage: https://bioconductor.org/packages/3.20/bioc/html/alabaster.matrix.html
-   :license: MIT + file LICENSE
+   :license: MIT
    :recipe: /`bioconductor-alabaster.matrix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.matrix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.matrix/meta.yaml>`_
 
    Save matrices\, arrays and similar objects into file artifacts\, and load them back into memory. This is a more portable alternative to serialization of such objects into RDS files. Each artifact is associated with metadata for further interpretation\; downstream applications can enrich this metadata with context\-specific properties.
@@ -27,13 +27,13 @@ bioconductor-alabaster.matrix
       
       
 
-      ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends bioconductor-alabaster.base: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-alabaster.base: ``>=1.6.0,<1.7.0a0``
+   :depends bioconductor-alabaster.base: ``>=1.6.1,<1.7.0a0``
    :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
    :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0a0``
    :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0``
@@ -58,6 +58,10 @@ bioconductor-alabaster.matrix
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -105,7 +109,7 @@ bioconductor-alabaster.matrix
 
     <script>
         var package = "bioconductor-alabaster.matrix";
-        var versions = ["1.6.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.6.1","1.6.0","1.6.0","1.2.0","1.0.0"];
     </script>
 
 

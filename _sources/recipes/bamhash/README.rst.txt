@@ -6,15 +6,15 @@
 bamhash
 =======
 
-.. conda:recipe:: bamhash/1.0
+.. conda:recipe:: bamhash
    :replaces_section_title:
    :noindex:
 
-   Hash BAM and FASTQ files to verify data integrity
+   Hash BAM and FASTQ files to verify data integrity.
 
    :homepage: https://github.com/DecodeGenetics/BamHash
-   :license: GPL-3-0
-   :recipe: /`bamhash <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamhash>`_/`1.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamhash/1.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamhash/1.0/meta.yaml>`_
+   :license: GPL3 / GPL-3-0-or-later
+   :recipe: /`bamhash <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamhash>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamhash/meta.yaml>`_
 
    
 
@@ -28,10 +28,10 @@ bamhash
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1-9</code>,  <code>1.1-8</code>,  <code>1.1-7</code>,  <code>1.1-6</code>,  <code>1.1-5</code>,  <code>1.1-4</code>,  <code>1.1-3</code>,  <code>1.1-2</code>,  <code>1.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0-0</code>,  <code>1.1-9</code>,  <code>1.1-8</code>,  <code>1.1-7</code>,  <code>1.1-6</code>,  <code>1.1-5</code>,  <code>1.1-4</code>,  <code>1.1-3</code>,  <code>1.1-2</code>,  </span></summary>
       
 
-      ``1.1-9``,  ``1.1-8``,  ``1.1-7``,  ``1.1-6``,  ``1.1-5``,  ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-8``,  ``1.0-7``,  ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``2.0-0``,  ``1.1-9``,  ``1.1-8``,  ``1.1-7``,  ``1.1-6``,  ``1.1-5``,  ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-8``,  ``1.0-7``,  ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
       .. raw:: html
@@ -40,14 +40,18 @@ bamhash
       
 
    
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends openssl: ``>=3.4.0,<4.0a0``
-   :depends zlib: 
+   :depends openssl: ``>=3.5.4,<4.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -95,7 +99,7 @@ bamhash
 
     <script>
         var package = "bamhash";
-        var versions = ["1.1","1.1","1.1","1.1","1.1"];
+        var versions = ["2.0","1.1","1.1","1.1","1.1"];
     </script>
 
 

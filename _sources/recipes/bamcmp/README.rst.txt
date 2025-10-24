@@ -13,7 +13,7 @@ bamcmp
    Tools for deconvolving host and graft reads using full\-length alignments and their scores.
 
    :homepage: https://github.com/CRUKMI-ComputationalBiology/bamcmp
-   :license: GPL-3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`bamcmp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamcmp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamcmp/meta.yaml>`_
 
    
@@ -27,12 +27,12 @@ bamcmp
       
       
 
-      ``2.2-6``,  ``2.2-5``,  ``2.2-4``,  ``2.2-3``,  ``2.2-2``,  ``2.2-1``,  ``2.2-0``
+      ``2.2-7``,  ``2.2-6``,  ``2.2-5``,  ``2.2-4``,  ``2.2-3``,  ``2.2-2``,  ``2.2-1``,  ``2.2-0``
 
       
 
    
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :requirements:
@@ -41,7 +41,7 @@ bamcmp
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

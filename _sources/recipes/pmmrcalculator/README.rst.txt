@@ -27,12 +27,12 @@ pmmrcalculator
       
       
 
-      ``1.1.0-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-0``
+      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.1-0``
 
       
 
    
-   :depends python: ``3.7.*``
+   :depends python: ``>=3.7``
    :requirements:
 
    :additional platforms:
@@ -83,7 +83,7 @@ pmmrcalculator
 
     <script>
         var package = "pmmrcalculator";
-        var versions = ["1.1.0","1.0.5","1.0.5","1.0.4","1.0.3"];
+        var versions = ["1.1.0","1.1.0","1.0.5","1.0.5","1.0.4"];
     </script>
 
 
