@@ -32,10 +32,10 @@ ucsc-axtchain
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>482-1</code>,  <code>482-0</code>,  <code>469-1</code>,  <code>469-0</code>,  <code>455-0</code>,  <code>377-2</code>,  <code>377-1</code>,  <code>377-0</code>,  <code>366-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>482-2</code>,  <code>482-1</code>,  <code>482-0</code>,  <code>469-1</code>,  <code>469-0</code>,  <code>455-0</code>,  <code>377-2</code>,  <code>377-1</code>,  <code>377-0</code>,  </span></summary>
       
 
-      ``482-1``,  ``482-0``,  ``469-1``,  ``469-0``,  ``455-0``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``
+      ``482-2``,  ``482-1``,  ``482-0``,  ``469-1``,  ``469-0``,  ``455-0``,  ``377-2``,  ``377-1``,  ``377-0``,  ``366-0``,  ``357-2``,  ``357-1``,  ``357-0``,  ``332-0``
 
       
       .. raw:: html
@@ -45,6 +45,7 @@ ucsc-axtchain
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends gzip: 
    :depends libgcc: ``>=13``
    :depends libiconv: ``>=1.18,<2.0a0``
    :depends liblzma: ``>=5.8.1,<6.0a0``
@@ -108,7 +109,7 @@ ucsc-axtchain
 
     <script>
         var package = "ucsc-axtchain";
-        var versions = ["482","482","469","469","455"];
+        var versions = ["482","482","482","469","469"];
     </script>
 
 
