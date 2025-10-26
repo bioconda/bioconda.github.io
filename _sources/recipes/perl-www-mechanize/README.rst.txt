@@ -27,7 +27,7 @@ perl-www-mechanize
       
       
 
-      ``2.19-0``,  ``1.91-2``,  ``1.91-1``,  ``1.91-0``
+      ``2.20-0``,  ``2.19-0``,  ``1.91-2``,  ``1.91-1``,  ``1.91-0``
 
       
 
@@ -90,7 +90,7 @@ perl-www-mechanize
 
     <script>
         var package = "perl-www-mechanize";
-        var versions = ["2.19","1.91","1.91","1.91"];
+        var versions = ["2.20","2.19","1.91","1.91","1.91"];
     </script>
 
 
