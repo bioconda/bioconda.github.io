@@ -28,7 +28,7 @@ mmlong2
       
       
 
-      ``1.1.0-0``
+      ``1.2.1-0``,  ``1.1.0-0``
 
       
 
@@ -91,7 +91,7 @@ mmlong2
 
     <script>
         var package = "mmlong2";
-        var versions = ["1.1.0"];
+        var versions = ["1.2.1","1.1.0"];
     </script>
 
 

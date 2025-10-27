@@ -17,6 +17,7 @@ binette
    
    :license: GPL / GPL-3.0-only
    :recipe: /`binette <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/binette>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/binette/meta.yaml>`_
+   :links: biotools: :biotools:`binette`, usegalaxy-eu: :usegalaxy-eu:`binette`, doi: :doi:`10.21105/joss.06782`
 
    
 
@@ -30,10 +31,10 @@ binette
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.5-1</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.5-1</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  </span></summary>
       
 
-      ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.7-0``,  ``0.1.6-0``
+      ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.7-0``,  ``0.1.6-0``
 
       
       .. raw:: html
@@ -42,15 +43,17 @@ binette
       
 
    
-   :depends checkm2: ``>=1.0,<1.2``
+   :depends checkm2: ``>=1.1,<2.0``
    :depends diamond: ``>=2.1,<3``
    :depends networkx: ``>=3.0,<4.0``
    :depends numpy: ``>=1.24,<3.0``
    :depends pandas: ``>=2,<3``
    :depends pyfastx: ``>=2,<3``
-   :depends pyrodigal: ``>=2``
+   :depends pyroaring: ``>=1.0.0,<2.0.0``
+   :depends pyrodigal: ``>=3.0,<4.0``
    :depends python: 
-   :depends tqdm: 
+   :depends rich: ``>=12.0.0,<14.0.0``
+   :depends typer: ``>=0.9,<1.0``
    :requirements:
 
    :additional platforms:
@@ -101,7 +104,7 @@ binette
 
     <script>
         var package = "binette";
-        var versions = ["1.1.2","1.1.1","1.1.0","1.0.5","1.0.5"];
+        var versions = ["1.2.0","1.1.2","1.1.1","1.1.0","1.0.5"];
     </script>
 
 
