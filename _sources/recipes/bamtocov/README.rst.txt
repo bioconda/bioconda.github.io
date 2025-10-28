@@ -20,6 +20,10 @@ bamtocov
    A collection of tools to extract coverage information from BAM and CRAM files\,
    supporting target \(BED\, GFF\) and reporting the output in bedGraph \(BED\) or WIG format.
 
+   The suite includes\:
+   \- bamtocov\: fast BAM\/CRAM to coverage converter
+   \- covtotarget\: extract coverage for specific targets
+
 
 
 .. conda:package:: bamtocov
@@ -31,10 +35,10 @@ bamtocov
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.7.0-2</code>,  <code>2.7.0-1</code>,  <code>2.7.0-0</code>,  <code>2.6.1-1</code>,  <code>2.6.1-0</code>,  <code>2.6.0-0</code>,  <code>2.5.0-1</code>,  <code>2.5.0-0</code>,  <code>2.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.8.0-0</code>,  <code>2.7.0-2</code>,  <code>2.7.0-1</code>,  <code>2.7.0-0</code>,  <code>2.6.1-1</code>,  <code>2.6.1-0</code>,  <code>2.6.0-0</code>,  <code>2.5.0-1</code>,  <code>2.5.0-0</code>,  </span></summary>
       
 
-      ``2.7.0-2``,  ``2.7.0-1``,  ``2.7.0-0``,  ``2.6.1-1``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.4-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.001-0``,  ``2.0.000-0``
+      ``2.8.0-0``,  ``2.7.0-2``,  ``2.7.0-1``,  ``2.7.0-0``,  ``2.6.1-1``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.4-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.001-0``,  ``2.0.000-0``
 
       
       .. raw:: html
@@ -43,9 +47,9 @@ bamtocov
       
 
    
-   :depends htslib: ``>=1.17,<1.23.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends pcre: ``>=8.45,<9.0a0``
    :requirements:
 
@@ -97,7 +101,7 @@ bamtocov
 
     <script>
         var package = "bamtocov";
-        var versions = ["2.7.0","2.7.0","2.7.0","2.6.1","2.6.1"];
+        var versions = ["2.8.0","2.7.0","2.7.0","2.7.0","2.6.1"];
     </script>
 
 

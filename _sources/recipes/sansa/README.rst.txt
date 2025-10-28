@@ -13,6 +13,8 @@ sansa
    Structural variant annotation
 
    :homepage: https://github.com/dellytools/sansa
+   :documentation: https://github.com/dellytools/sansa/blob/v0.2.5/README.md
+   
    :license: BSD / BSD-3-Clause
    :recipe: /`sansa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sansa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sansa/meta.yaml>`_
 
