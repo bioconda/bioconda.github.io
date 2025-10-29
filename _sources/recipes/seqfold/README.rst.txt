@@ -27,7 +27,7 @@ seqfold
       
       
 
-      ``0.7.17-0``
+      ``0.9.0-0``,  ``0.7.17-0``
 
       
 
@@ -83,7 +83,7 @@ seqfold
 
     <script>
         var package = "seqfold";
-        var versions = ["0.7.17"];
+        var versions = ["0.9.0","0.7.17"];
     </script>
 
 
