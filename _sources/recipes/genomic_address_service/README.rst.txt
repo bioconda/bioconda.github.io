@@ -27,9 +27,17 @@ genomic_address_service
    :versions:
       
       
+      .. raw:: html
 
-      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.3.0-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.5-1</code>,  <code>0.1.5-0</code>,  <code>0.1.4-0</code>,  <code>0.1.3-0</code>,  <code>0.1.2-0</code>,  <code>0.1.1-1</code>,  </span></summary>
+      
 
+      ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -40,6 +48,7 @@ genomic_address_service
    :depends pytables: ``>=3.9.1``
    :depends pytest: ``>=8.3.3``
    :depends python: ``>=3.10,<3.13``
+   :depends scikit-bio: ``>=0.4.2``
    :depends scipy: ``>=1.14.1``
    :depends six: ``>=1.16.0``
    :requirements:
@@ -92,7 +101,7 @@ genomic_address_service
 
     <script>
         var package = "genomic_address_service";
-        var versions = ["0.2.1","0.2.0","0.1.5","0.1.5","0.1.4"];
+        var versions = ["0.3.0","0.2.1","0.2.0","0.1.5","0.1.5"];
     </script>
 
 

@@ -10,7 +10,7 @@ kmetashot
    :replaces_section_title:
    :noindex:
 
-   Fast taxonomic classifier for metagenome bins basato su k\-mer\/minimizer
+   Fast taxonomic classifier for metagenome bins\/MAGs based on k\-mer\/minimizer
 
    :homepage: https://github.com/gdefazio/kMetaShot
    :documentation: https://github.com/gdefazio/kMetaShot#readme
@@ -29,15 +29,20 @@ kmetashot
       
       
 
-      ``0.1.0-0``
+      ``2.0-0``,  ``0.1.0-0``
 
       
 
    
-   :depends argcomplete: 
-   :depends h5py: 
-   :depends numpy: 
-   :depends pandas: 
+   :depends argcomplete: ``>=1.11.1``
+   :depends bitarray: ``>=1.2.1``
+   :depends h5py: ``>=2.9.0``
+   :depends hdf5: ``>=1.10.4``
+   :depends mmh3: 
+   :depends numba: ``>=0.51.2``
+   :depends numpy: ``>=1.18.1``
+   :depends pandas: ``>=1.0.4``
+   :depends pytables: ``>=3.6.1``
    :depends python: ``>=3.8``
    :requirements:
 
@@ -89,7 +94,7 @@ kmetashot
 
     <script>
         var package = "kmetashot";
-        var versions = ["0.1.0"];
+        var versions = ["2.0","0.1.0"];
     </script>
 
 

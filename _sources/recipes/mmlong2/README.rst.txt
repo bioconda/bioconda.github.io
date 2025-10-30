@@ -15,7 +15,7 @@ mmlong2
    :homepage: https://github.com/Serka-M/mmlong2
    :license: GPL-3.0-only
    :recipe: /`mmlong2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mmlong2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mmlong2/meta.yaml>`_
-   :links: doi: :doi:`10.5281/zenodo.11563692`
+   :links: doi: :doi:`10.1038/s41564-025-02062-z`
 
    
 
@@ -28,7 +28,7 @@ mmlong2
       
       
 
-      ``1.2.1-0``,  ``1.1.0-0``
+      ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.0-0``
 
       
 
@@ -36,8 +36,9 @@ mmlong2
    :depends ncbi-amrfinderplus: 
    :depends pigz: 
    :depends pv: 
+   :depends rsync: 
    :depends singularity: ``3.8.6.*``
-   :depends snakemake: ``8.2.3.*``
+   :depends snakemake: 
    :depends tar: 
    :depends yq: 
    :depends zenodo_get: 
@@ -91,7 +92,7 @@ mmlong2
 
     <script>
         var package = "mmlong2";
-        var versions = ["1.2.1","1.1.0"];
+        var versions = ["1.2.1","1.2.1","1.1.0"];
     </script>
 
 

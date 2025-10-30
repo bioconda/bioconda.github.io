@@ -13,7 +13,7 @@ madre
    Strain\-level metagenomic classification with Metagenome Assembly driven Database Reduction approach.
 
    :homepage: https://github.com/lbcb-sci/MADRe
-   :documentation: https://github.com/lbcb-sci/MADRe/blob/v0.0.4/README.md
+   :documentation: https://github.com/lbcb-sci/MADRe/blob/v0.0.5/README.md
    
    :license: MIT / MIT
    :recipe: /`madre <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/madre>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/madre/meta.yaml>`_
@@ -29,13 +29,20 @@ madre
       
       
 
-      ``0.0.4-0``
+      ``0.0.5-0``,  ``0.0.4-0``
 
       
 
    
+   :depends flye: 
+   :depends hairsplitter: 
+   :depends kraken2: 
+   :depends metamdbg: 
+   :depends minimap2: ``>=2.28``
+   :depends myloasm: 
    :depends python: ``>=3``
    :depends scikit-learn: 
+   :depends seqkit: 
    :requirements:
 
    :additional platforms:
@@ -86,7 +93,7 @@ madre
 
     <script>
         var package = "madre";
-        var versions = ["0.0.4"];
+        var versions = ["0.0.5","0.0.4"];
     </script>
 
 
