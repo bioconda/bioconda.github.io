@@ -29,7 +29,7 @@ kmetashot
       
       
 
-      ``2.0-0``,  ``0.1.0-0``
+      ``2.0-1``,  ``2.0-0``,  ``0.1.0-0``
 
       
 
@@ -94,7 +94,7 @@ kmetashot
 
     <script>
         var package = "kmetashot";
-        var versions = ["2.0","0.1.0"];
+        var versions = ["2.0","2.0","0.1.0"];
     </script>
 
 

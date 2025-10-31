@@ -28,27 +28,25 @@ cell2cell
       
       
 
-      ``0.8.2-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.4-3``,  ``0.7.4-2``,  ``0.7.4-1``,  ``0.7.4-0``
+      ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.4-3``,  ``0.7.4-2``,  ``0.7.4-1``,  ``0.7.4-0``
 
       
 
    
-   :depends gseapy: ``1.0.3``
+   :depends gseapy: ``>=1.1.6``
    :depends kneed: 
-   :depends libcxx: ``>=18``
-   :depends matplotlib-base: ``>=3.2.0,<3.7.3``
+   :depends matplotlib-base: ``>=3.2.0``
    :depends networkx: ``>=2.3``
-   :depends numpy: ``>=1.16,<2.0``
+   :depends numpy: ``>=1.16``
    :depends openpyxl: ``>=2.6.2``
    :depends pandas: ``>=1.0.0``
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
-   :depends scanpy: ``<=1.9.3``
+   :depends python: ``>=3``
+   :depends scanpy: 
    :depends scikit-learn: 
    :depends seaborn-base: ``>=0.11.0``
    :depends statannotations: 
    :depends statsmodels: 
-   :depends tensorly: ``0.8.1``
+   :depends tensorly: 
    :depends tqdm: 
    :depends umap-learn: 
    :depends xlrd: ``>=1.1``
@@ -102,7 +100,7 @@ cell2cell
 
     <script>
         var package = "cell2cell";
-        var versions = ["0.8.2","0.8.1","0.8.1","0.8.0","0.7.4"];
+        var versions = ["0.8.3","0.8.2","0.8.1","0.8.1","0.8.0"];
     </script>
 
 

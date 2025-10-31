@@ -19,6 +19,7 @@ protal
    Protal is a computational tool for taxonomic profiling and strain\-resolved analyses of bacterial communities from 
    metagenomic shotgun sequencing data \(short\-reads\). Following a reference\-based approach\, protal uses the same
    120 universal marker genes GTDB uses to build their phylogeny \(TIGRFAM\, PFAM\) and thus integrates well with other
+   120 universal marker genes GTDB uses to build their phylogeny \(TIGRFAM\, PFAM\) and thus integrates well with other
    tools working in the GTDB taxonomy space.
 
 
@@ -30,7 +31,7 @@ protal
       
       
 
-      ``0.1.0a-0``
+      ``0.2.0a-0``,  ``0.1.0a-0``
 
       
 
@@ -40,6 +41,7 @@ protal
    :depends libgomp: 
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends pigz: 
    :depends python: ``>=3``
    :requirements:
 
@@ -91,7 +93,7 @@ protal
 
     <script>
         var package = "protal";
-        var versions = ["0.1.0a"];
+        var versions = ["0.2.0a","0.1.0a"];
     </script>
 
 

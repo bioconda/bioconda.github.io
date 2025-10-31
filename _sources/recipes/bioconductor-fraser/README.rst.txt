@@ -29,10 +29,10 @@ bioconductor-fraser
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>1.99.4-0</code>,  <code>1.99.3-0</code>,  <code>1.14.0-0</code>,  <code>1.12.1-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.6.1-2</code>,  <code>1.6.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4.6-0</code>,  <code>2.2.0-0</code>,  <code>1.99.4-0</code>,  <code>1.99.3-0</code>,  <code>1.14.0-0</code>,  <code>1.12.1-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.6.1-2</code>,  </span></summary>
       
 
-      ``2.2.0-0``,  ``1.99.4-0``,  ``1.99.3-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``2.4.6-0``,  ``2.2.0-0``,  ``1.99.4-0``,  ``1.99.3-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -69,8 +69,8 @@ bioconductor-fraser
    :depends bioconductor-hdf5array: ``>=1.34.0,<1.35.0a0``
    :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
    :depends bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
-   :depends bioconductor-outrider: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-outrider: ``>=1.24.0,<1.25.0a0``
+   :depends bioconductor-outrider: ``>=1.26.3,<1.27.0``
+   :depends bioconductor-outrider: ``>=1.26.3,<1.27.0a0``
    :depends bioconductor-pcamethods: ``>=1.98.0,<1.99.0``
    :depends bioconductor-pcamethods: ``>=1.98.0,<1.99.0a0``
    :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0``
@@ -155,7 +155,7 @@ bioconductor-fraser
 
     <script>
         var package = "bioconductor-fraser";
-        var versions = ["2.2.0","1.99.4","1.99.3","1.14.0","1.12.1"];
+        var versions = ["2.4.6","2.2.0","1.99.4","1.99.3","1.14.0"];
     </script>
 
 

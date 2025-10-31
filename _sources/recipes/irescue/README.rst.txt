@@ -10,14 +10,14 @@ irescue
    :replaces_section_title:
    :noindex:
 
-   A tool to quantify transposable elements expression in scRNA\-seq.
+   Uncertainty\-aware quantification of transposable elements expression in scRNA\-seq.
 
    :homepage: https://github.com/bodegalab/irescue
    :documentation: https://pypi.org/project/IRescue
    
    :license: MIT / MIT
    :recipe: /`irescue <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/irescue>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/irescue/meta.yaml>`_
-   :links: doi: :doi:`10.1101/2022.09.16.508229`
+   :links: doi: :doi:`10.1093/nar/gkae793`
 
    
 
@@ -30,7 +30,7 @@ irescue
       
       
 
-      ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
@@ -39,12 +39,13 @@ irescue
    :depends coreutils: ``>=9.3``
    :depends gawk: ``>=5.0.1``
    :depends gzip: ``>=1.12``
-   :depends networkx: ``>=3.1``
-   :depends numpy: ``>=1.20.2``
-   :depends pysam: ``>=0.16.0.1``
-   :depends python: ``>=3.8``
-   :depends requests: ``>=2.27.1``
+   :depends networkx: ``>=2.6,<4``
+   :depends numpy: ``>=1.21,<3``
+   :depends pysam: ``>=0.17,<1``
+   :depends python: ``>=3.10``
+   :depends requests: ``>=2.25,<3``
    :depends samtools: ``>=1.12``
+   :depends scipy: ``>=1.6,<2``
    :requirements:
 
    :additional platforms:
@@ -95,7 +96,7 @@ irescue
 
     <script>
         var package = "irescue";
-        var versions = ["1.1.2","1.1.1","1.1.0","1.0.3","1.0.3"];
+        var versions = ["1.2.0","1.1.2","1.1.1","1.1.0","1.0.3"];
     </script>
 
 

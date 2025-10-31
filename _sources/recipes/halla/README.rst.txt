@@ -27,20 +27,25 @@ halla
       
       
 
-      ``0.8.17-0``
+      ``0.8.40-0``,  ``0.8.17-0``
 
       
 
    
-   :depends jenkspy: ``>=0.1.4``
-   :depends matplotlib: ``>=1.5.1``
-   :depends minepy: ``>=1.0.0``
-   :depends numpy: ``>=1.9.2``
-   :depends pandas: ``>=0.18.1``
-   :depends python: ``>=2.7,<2.8.0a0``
-   :depends scikit-learn: ``>=0.14.1``
-   :depends scipy: ``>=0.17.0``
-   :depends setuptools: 
+   :depends jenkspy: ``>=0.1.5``
+   :depends matplotlib-base: ``>=3.5.3``
+   :depends numpy: ``>=1.19.0``
+   :depends pandas: ``>=1.0.5``
+   :depends python: 
+   :depends pyyaml: ``>=5.4``
+   :depends r-eva: ``>=0.2.6``
+   :depends r-xicor: ``>=0.3.3``
+   :depends rpy2: ``>=3.3.5``
+   :depends scikit-learn: ``>=0.23.1``
+   :depends scipy: ``>=1.5.1``
+   :depends seaborn: ``>=0.10.1``
+   :depends statsmodels: ``>=0.11.1``
+   :depends tqdm: ``>=4.50.2``
    :requirements:
 
    :additional platforms:
@@ -91,7 +96,7 @@ halla
 
     <script>
         var package = "halla";
-        var versions = ["0.8.17"];
+        var versions = ["0.8.40","0.8.17"];
     </script>
 
 

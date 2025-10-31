@@ -12,7 +12,7 @@ cutefc
 
    Regenotyping structural variants through an accurate and efficient force\-calling method
 
-   :homepage: https://github.com/tjiangHIT/cuteFC
+   :homepage: https://github.com/Meltpinkg/cuteFC
    :license: MIT
    :recipe: /`cutefc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cutefc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cutefc/meta.yaml>`_
 
@@ -27,7 +27,7 @@ cutefc
       
       
 
-      ``1.0.0-0``
+      ``1.0.2-0``,  ``1.0.0-0``
 
       
 
@@ -90,7 +90,7 @@ cutefc
 
     <script>
         var package = "cutefc";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.2","1.0.0"];
     </script>
 
 

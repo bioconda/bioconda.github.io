@@ -10,16 +10,16 @@ hymet
    :replaces_section_title:
    :noindex:
 
-   HYMET \(Hybrid Metagenomic Tool\) for taxonomic identification of metagenomic sequences.
+   HYMET provides hybrid Mash\+minimap2 metagenomic classification with benchmark and case\-study tooling.
 
-   :homepage: https://github.com/inesbmartins02/HYMET
+   :homepage: https://github.com/ieeta-pt/HYMET
    :license: MIT / MIT
    :recipe: /`hymet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hymet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hymet/meta.yaml>`_
    :links: biotools: :biotools:`hymet`
 
-   HYMET is a taxonomic identification tool designed for metagenomic sequence analysis. 
-   It uses a combination of tools including Mash\, Minimap2\, and custom classification 
-   algorithms to identify the taxonomic origin of metagenomic sequences with high accuracy.
+   HYMET couples Mash candidate filtering\, minimap2 alignment\, and a weighted LCA resolver to classify contigs
+   and reads. The project bundles the new Python CLI \(\`bin\/hymet\`\)\, the legacy Perl pipeline\, CAMI benchmark
+   harnesses\, and case\-study analysis scripts so users can reproduce the published experiments directly.
 
 
 
@@ -31,7 +31,7 @@ hymet
       
       
 
-      ``1.0.0-0``
+      ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -39,12 +39,14 @@ hymet
    :depends biopython: 
    :depends csvkit: 
    :depends mash: 
+   :depends matplotlib-base: 
    :depends minimap2: 
    :depends numpy: 
    :depends pandas: 
    :depends perl: 
-   :depends python: ``>=3.8``
-   :depends tqdm: 
+   :depends python: ``>=3.9``
+   :depends seaborn: 
+   :depends taxonkit: 
    :depends wget: 
    :requirements:
 
@@ -96,7 +98,7 @@ hymet
 
     <script>
         var package = "hymet";
-        var versions = ["1.0.0"];
+        var versions = ["1.2.0","1.0.0"];
     </script>
 
 

@@ -12,7 +12,7 @@ bioconductor-updhmm
 
    Detecting Uniparental Disomy through NGS trio data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/UPDhmm.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/UPDhmm.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-updhmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-updhmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-updhmm/meta.yaml>`_
 
@@ -27,11 +27,17 @@ bioconductor-updhmm
       
       
 
-      
+      ``1.6.0-0``
 
       
 
    
+   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-variantannotation: ``>=1.52.0,<1.53.0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-hmm: 
    :requirements:
 
    :additional platforms:
@@ -82,7 +88,7 @@ bioconductor-updhmm
 
     <script>
         var package = "bioconductor-updhmm";
-        var versions = [];
+        var versions = ["1.6.0"];
     </script>
 
 
