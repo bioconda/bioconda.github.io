@@ -13,7 +13,9 @@ scprep
    Tools for loading and preprocessing biological matrices in Python.
 
    :homepage: https://github.com/KrishnaswamyLab/scprep
-   :license: GPL2 / GNU General Public Version 2
+   :documentation: https://scprep.readthedocs.io/en/stable/
+   
+   :license: GPL / GPL-3.0-only
    :recipe: /`scprep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scprep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scprep/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ scprep
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.13-0</code>,  <code>1.0.12-0</code>,  <code>1.0.11-0</code>,  <code>1.0.10-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.3-1</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.13-0</code>,  <code>1.0.12-0</code>,  <code>1.0.11-0</code>,  </span></summary>
       
 
-      ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5.post2-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.8.1-0``,  ``0.7.1-0``
+      ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5.post2-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.8.1-0``,  ``0.7.1-0``
 
       
       .. raw:: html
@@ -43,8 +45,8 @@ scprep
    :depends decorator: ``>=4.3.0``
    :depends numpy: ``>=1.12.0``
    :depends packaging: 
-   :depends pandas: ``>=0.25``
-   :depends python: ``>=3.5``
+   :depends pandas: ``>=0.25,<2.1``
+   :depends python: ``>=3.6``
    :depends scikit-learn: ``>=0.19.1``
    :depends scipy: ``>=0.18.1``
    :requirements:
@@ -97,7 +99,7 @@ scprep
 
     <script>
         var package = "scprep";
-        var versions = ["1.2.3","1.2.2","1.2.1","1.2.0","1.1.0"];
+        var versions = ["1.2.3","1.2.3","1.2.2","1.2.1","1.2.0"];
     </script>
 
 
