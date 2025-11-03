@@ -28,10 +28,10 @@ pilea
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.0-0</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  </span></summary>
       
 
-      ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``1.3.0-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -40,13 +40,16 @@ pilea
       
 
    
-   :depends biopython: 
-   :depends kmc: ``>=3.2.4``
-   :depends mmh3: ``>=5.1.0``
-   :depends python: ``>=3.7``
+   :depends libgcc: ``>=13``
+   :depends needletail: ``>=0.7.0``
+   :depends numpy: 
+   :depends pigz: 
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends rich-argparse: 
    :depends scikit-learn: ``>=1.6.1``
    :depends statsmodels: ``>=0.14.4``
+   :depends tar: 
    :depends threadpoolctl: 
    :depends tqdm: 
    :requirements:
@@ -99,7 +102,7 @@ pilea
 
     <script>
         var package = "pilea";
-        var versions = ["1.2.4","1.2.3","1.2.2","1.2.1","1.2.0"];
+        var versions = ["1.3.0","1.2.4","1.2.3","1.2.2","1.2.1"];
     </script>
 
 
