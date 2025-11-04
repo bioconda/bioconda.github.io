@@ -27,7 +27,7 @@ r-numbat
       
       
 
-      ``1.4.2-0``
+      ``1.5.1-0``,  ``1.4.2-0``
 
       
 
@@ -120,7 +120,7 @@ r-numbat
 
     <script>
         var package = "r-numbat";
-        var versions = ["1.4.2"];
+        var versions = ["1.5.1","1.4.2"];
     </script>
 
 

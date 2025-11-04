@@ -15,6 +15,7 @@ poseidon-trident
    :homepage: https://www.poseidon-adna.org/#/
    :license: MIT
    :recipe: /`poseidon-trident <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/poseidon-trident>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/poseidon-trident/meta.yaml>`_
+   :links: doi: :doi:`10.7554/eLife.98317.1`
 
    
 
@@ -28,10 +29,10 @@ poseidon-trident
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.7.1-0</code>,  <code>1.6.2.1-0</code>,  <code>1.5.7.0-1</code>,  <code>1.5.7.0-0</code>,  <code>1.5.4.0-0</code>,  <code>1.5.0.1-0</code>,  <code>1.4.1.0-0</code>,  <code>1.3.0.4-0</code>,  <code>1.2.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.7.1-1</code>,  <code>1.6.7.1-0</code>,  <code>1.6.2.1-0</code>,  <code>1.5.7.0-1</code>,  <code>1.5.7.0-0</code>,  <code>1.5.4.0-0</code>,  <code>1.5.0.1-0</code>,  <code>1.4.1.0-0</code>,  <code>1.3.0.4-0</code>,  </span></summary>
       
 
-      ``1.6.7.1-0``,  ``1.6.2.1-0``,  ``1.5.7.0-1``,  ``1.5.7.0-0``,  ``1.5.4.0-0``,  ``1.5.0.1-0``,  ``1.4.1.0-0``,  ``1.3.0.4-0``,  ``1.2.0.0-0``,  ``1.1.11.0-2``,  ``1.1.11.0-1``,  ``1.1.11.0-0``,  ``1.1.6.0-0``,  ``0.28.0-0``,  ``0.26.3-1``,  ``0.26.3-0``,  ``0.26.1-1``,  ``0.26.1-0``,  ``0.21.0-0``,  ``0.18.1-0``
+      ``1.6.7.1-1``,  ``1.6.7.1-0``,  ``1.6.2.1-0``,  ``1.5.7.0-1``,  ``1.5.7.0-0``,  ``1.5.4.0-0``,  ``1.5.0.1-0``,  ``1.4.1.0-0``,  ``1.3.0.4-0``,  ``1.2.0.0-0``,  ``1.1.11.0-2``,  ``1.1.11.0-1``,  ``1.1.11.0-0``,  ``1.1.6.0-0``,  ``0.28.0-0``,  ``0.26.3-1``,  ``0.26.3-0``,  ``0.26.1-1``,  ``0.26.1-0``,  ``0.21.0-0``,  ``0.18.1-0``
 
       
       .. raw:: html
@@ -40,6 +41,7 @@ poseidon-trident
       
 
    
+   :depends ca-certificates: 
    :depends gmp: ``>=6.3.0,<7.0a0``
    :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
@@ -98,7 +100,7 @@ poseidon-trident
 
     <script>
         var package = "poseidon-trident";
-        var versions = ["1.6.7.1","1.6.2.1","1.5.7.0","1.5.7.0","1.5.4.0"];
+        var versions = ["1.6.7.1","1.6.7.1","1.6.2.1","1.5.7.0","1.5.7.0"];
     </script>
 
 
