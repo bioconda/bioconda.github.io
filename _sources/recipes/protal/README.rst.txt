@@ -31,7 +31,7 @@ protal
       
       
 
-      ``0.2.0a-0``,  ``0.1.0a-0``
+      ``0.2.1a-0``,  ``0.2.0a-0``,  ``0.1.0a-0``
 
       
 
@@ -93,7 +93,7 @@ protal
 
     <script>
         var package = "protal";
-        var versions = ["0.2.0a","0.1.0a"];
+        var versions = ["0.2.1a","0.2.0a","0.1.0a"];
     </script>
 
 

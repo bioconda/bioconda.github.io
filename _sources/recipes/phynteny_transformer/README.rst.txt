@@ -13,7 +13,7 @@ phynteny_transformer
    Phynteny\: Synteny\-based prediction of bacteriophage genes.
 
    :homepage: https://github.com/susiegriggo/Phynteny_transformer
-   :documentation: https://github.com/susiegriggo/Phynteny_transformer/blob/v0.1.2/README.md
+   :documentation: https://github.com/susiegriggo/Phynteny_transformer/blob/v0.1.3/README.md
    
    :license: MIT / MIT
    :recipe: /`phynteny_transformer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phynteny_transformer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phynteny_transformer/meta.yaml>`_
@@ -29,7 +29,7 @@ phynteny_transformer
       
       
 
-      ``0.1.2-0``
+      ``0.1.3-0``,  ``0.1.2-0``
 
       
 
@@ -94,7 +94,7 @@ phynteny_transformer
 
     <script>
         var package = "phynteny_transformer";
-        var versions = ["0.1.2"];
+        var versions = ["0.1.3","0.1.2"];
     </script>
 
 

@@ -13,7 +13,7 @@ nextpolish2
    Repeat\-aware polishing genomes assembled using HiFi long reads.
 
    :homepage: https://github.com/Nextomics/NextPolish2
-   :documentation: https://github.com/Nextomics/NextPolish2/blob/0.2.1/README.md
+   :documentation: https://github.com/Nextomics/NextPolish2/blob/0.2.2/README.md
    
    :license: GBPL
    :recipe: /`nextpolish2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextpolish2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextpolish2/meta.yaml>`_
@@ -30,7 +30,7 @@ nextpolish2
       
       
 
-      ``0.2.1-3``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.2.2-0``,  ``0.2.1-3``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -93,7 +93,7 @@ nextpolish2
 
     <script>
         var package = "nextpolish2";
-        var versions = ["0.2.1","0.2.1","0.2.1","0.2.1","0.2.0"];
+        var versions = ["0.2.2","0.2.1","0.2.1","0.2.1","0.2.1"];
     </script>
 
 

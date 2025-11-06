@@ -28,7 +28,7 @@ plasmidfinder
       
       
 
-      ``2.1.6-1``,  ``2.1.6-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1-1``,  ``2.1-0``,  ``2.0.1-0``
+      ``2.1.6-2``,  ``2.1.6-1``,  ``2.1.6-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1-1``,  ``2.1-0``,  ``2.0.1-0``
 
       
 
@@ -37,7 +37,8 @@ plasmidfinder
    :depends blast: 
    :depends cgecore: 
    :depends kma: 
-   :depends python: ``>=3``
+   :depends python: ``>=3.14,<3.15.0a0``
+   :depends setuptools: 
    :depends tabulate: 
    :requirements:
 
@@ -89,7 +90,7 @@ plasmidfinder
 
     <script>
         var package = "plasmidfinder";
-        var versions = ["2.1.6","2.1.6","2.1.1","2.1.1","2.1"];
+        var versions = ["2.1.6","2.1.6","2.1.6","2.1.1","2.1.1"];
     </script>
 
 

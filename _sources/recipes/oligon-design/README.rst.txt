@@ -28,7 +28,7 @@ oligon-design
       
       
 
-      ``0.4.0-0``
+      ``1.0.0-0``,  ``0.4.0-0``
 
       
 
@@ -39,7 +39,7 @@ oligon-design
    :depends mafft: ``>=7.526``
    :depends matplotlib-base: ``>=3.10.1``
    :depends pandas: ``>=2.1.4``
-   :depends python: ``>=3.12``
+   :depends python: ``>=3.14,<3.15.0a0``
    :requirements:
 
    :additional platforms:
@@ -90,7 +90,7 @@ oligon-design
 
     <script>
         var package = "oligon-design";
-        var versions = ["0.4.0"];
+        var versions = ["1.0.0","0.4.0"];
     </script>
 
 
