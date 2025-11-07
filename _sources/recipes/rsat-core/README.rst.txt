@@ -28,73 +28,64 @@ rsat-core
       
       
 
-      ``2025.04.04-0``,  ``2020.02.29-1``,  ``2020.02.29-0``,  ``2020.02.28-0``,  ``2020.01.04-0``
+      ``2025.04.04-1``,  ``2025.04.04-0``,  ``2020.02.29-1``,  ``2020.02.29-0``,  ``2020.02.28-0``,  ``2020.01.04-0``
 
       
 
    
-   :depends bedtools: 
-   :depends bioconductor-ctc: 
    :depends bioconductor-qvalue: 
-   :depends blast: 
    :depends d3: 
    :depends ghostscript: 
-   :depends gnuplot: 
    :depends httplib2: 
    :depends libgcc: ``>=13``
    :depends libgfortran: 
-   :depends libgfortran5: ``>=13.3.0``
+   :depends libgfortran5: ``>=13.4.0``
+   :depends libpq: 
    :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends matplotlib-base: 
    :depends numpy: 
    :depends opencv: 
+   :depends openssl: ``3.5.4.*``
    :depends perl: 
    :depends perl-algorithm-cluster: 
    :depends perl-app-cpanminus: 
    :depends perl-bio-das: 
-   :depends perl-bioperl: 
    :depends perl-cgi: 
    :depends perl-class-std-fast: 
    :depends perl-data-dumper: 
    :depends perl-db_file: 
    :depends perl-dbd-mysql: 
    :depends perl-dbi: 
-   :depends perl-digest-md5-file: 
    :depends perl-email-simple: 
-   :depends perl-ensembl-api: 
    :depends perl-ensembl-genomes: 
    :depends perl-file-spec: 
-   :depends perl-gd: 
    :depends perl-http-tiny: 
    :depends perl-io-all: 
    :depends perl-json: 
+   :depends perl-libwww-perl: 
    :depends perl-lockfile-simple: 
    :depends perl-log-log4perl: 
    :depends perl-lwp-simple: 
    :depends perl-math-cdf: 
    :depends perl-mce-shared: 
+   :depends perl-net-http: ``>=6.18``
+   :depends perl-net-ssleay: 
    :depends perl-number-format: 
    :depends perl-object-insideout: 
    :depends perl-parallel-forkmanager: 
    :depends perl-posix: 
    :depends perl-postscript-simple: 
    :depends perl-readonly: 
-   :depends perl-rest-client: 
-   :depends perl-soap-lite: 
    :depends perl-statistics-distributions: 
-   :depends perl-util-properties: 
-   :depends perl-xml-dom: 
-   :depends perl-xml-libxml: 
    :depends perl-xml-parser: 
    :depends perl-yaml: 
    :depends pygraphviz: 
    :depends python: 
    :depends pyyaml: 
-   :depends r-amap: 
-   :depends r-base: 
+   :depends r-base: ``4.2.3.*``
    :depends r-data.table: 
    :depends r-dendextend: 
-   :depends r-devtools: 
    :depends r-dplyr: 
    :depends r-dynamictreecut: 
    :depends r-egg: 
@@ -110,12 +101,16 @@ rsat-core
    :depends r-zoo: 
    :depends scipy: 
    :depends seqlogo: 
-   :depends snakemake: 
-   :depends vmatch: 
+   :depends snakemake: ``>=7.0``
    :depends weblogo: 
+   :depends zlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -163,7 +158,7 @@ rsat-core
 
     <script>
         var package = "rsat-core";
-        var versions = ["2025.04.04","2020.02.29","2020.02.29","2020.02.28","2020.01.04"];
+        var versions = ["2025.04.04","2025.04.04","2020.02.29","2020.02.29","2020.02.28"];
     </script>
 
 

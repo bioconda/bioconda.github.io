@@ -28,12 +28,12 @@ codan
       
       
 
-      ``1.2-0``,  ``1.1-0``
+      ``1.2-1``,  ``1.2-0``,  ``1.1-0``
 
       
 
    
-   :depends biopython: 
+   :depends biopython: ``>=1.86``
    :depends blast: 
    :depends perl: 
    :depends perl-bioperl: 
@@ -89,7 +89,7 @@ codan
 
     <script>
         var package = "codan";
-        var versions = ["1.2","1.1"];
+        var versions = ["1.2","1.2","1.1"];
     </script>
 
 

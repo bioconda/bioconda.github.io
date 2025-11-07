@@ -15,6 +15,7 @@ orfm
    :homepage: https://github.com/wwood/OrfM
    :license: LGPL / LGPL-3.0
    :recipe: /`orfm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/orfm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/orfm/meta.yaml>`_
+   :links: biotools: :biotools:`orfm`, doi: :doi:`10.1093/bioinformatics/btw241`
 
    
 
@@ -27,16 +28,21 @@ orfm
       
       
 
-      ``1.3-0``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.6.1-0``
+      ``1.4.0-0``,  ``1.3-0``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.6.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -84,7 +90,7 @@ orfm
 
     <script>
         var package = "orfm";
-        var versions = ["1.3","0.7.1","0.7.1","0.7.1","0.6.1"];
+        var versions = ["1.4.0","1.3","0.7.1","0.7.1","0.7.1"];
     </script>
 
 

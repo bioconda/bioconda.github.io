@@ -27,12 +27,12 @@ cocoscore
       
       
 
-      ``1.0.0-0``,  ``0.2.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``,  ``0.2.0-0``
 
       
 
    
-   :depends fasttext: ``0.1.0``
+   :depends fasttext: 
    :depends gensim: ``>=3.4.0``
    :depends pandas: ``>=0.23.0``
    :depends python: ``>=3``
@@ -87,7 +87,7 @@ cocoscore
 
     <script>
         var package = "cocoscore";
-        var versions = ["1.0.0","0.2.0"];
+        var versions = ["1.0.0","1.0.0","0.2.0"];
     </script>
 
 

@@ -29,10 +29,10 @@ gecco
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.10-0</code>,  <code>0.9.8-0</code>,  <code>0.9.6-0</code>,  <code>0.9.5-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.8.10-0</code>,  <code>0.8.9-0</code>,  <code>0.8.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10.0-0</code>,  <code>0.9.10-0</code>,  <code>0.9.8-0</code>,  <code>0.9.6-0</code>,  <code>0.9.5-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.8.10-0</code>,  <code>0.8.9-0</code>,  </span></summary>
       
 
-      ``0.9.10-0``,  ``0.9.8-0``,  ``0.9.6-0``,  ``0.9.5-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.8.10-0``,  ``0.8.9-0``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.3-0``,  ``0.6.2-0``
+      ``0.10.0-0``,  ``0.9.10-0``,  ``0.9.8-0``,  ``0.9.6-0``,  ``0.9.5-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.8.10-0``,  ``0.8.9-0``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.3-0``,  ``0.6.2-0``
 
       
       .. raw:: html
@@ -41,22 +41,21 @@ gecco
       
 
    
-   :depends biopython: ``>=1.73``
-   :depends docopt: ``>=0.6.2``
-   :depends fisher: ``>=0.1.9``
+   :depends biopython: ``>=1.73,<2.0``
    :depends importlib_metadata: ``>=4.0``
-   :depends importlib_resources: ``>=1.0``
-   :depends numpy: ``>=1.16``
-   :depends polars: ``>=0.16.1``
-   :depends psutil: ``>=5.8``
-   :depends pyhmmer: ``>=0.10.0``
-   :depends pyrodigal: ``>=3.0``
+   :depends importlib_resources: ``>=5.7``
+   :depends numpy: ``>=1.0,<3.0``
+   :depends polars: ``>=1.0,<2.0``
+   :depends psutil: ``>=7.0,<8.0``
+   :depends pyhmmer: ``>=0.11.0,<0.12.0``
+   :depends pyrodigal: ``>=3.0,<4.0``
    :depends python: ``>=3.7``
    :depends rich: ``>=12.4.0``
-   :depends scikit-learn: ``>=1.0``
-   :depends scipy: ``>=1.4``
-   :depends sklearn-crfsuite: ``>=0.3.6``
-   :depends statsmodels: ``>=0.13``
+   :depends rich-argparse: ``>=1.0,<2.0``
+   :depends scikit-learn: ``>=1.0,<2.0``
+   :depends scipy: ``>=1.4,<2.0``
+   :depends sklearn-crfsuite: ``>=0.5.0,<0.6.0``
+   :depends statsmodels: ``>=0.13,<0.15``
    :requirements:
 
    :additional platforms:
@@ -107,7 +106,7 @@ gecco
 
     <script>
         var package = "gecco";
-        var versions = ["0.9.10","0.9.8","0.9.6","0.9.5","0.9.2"];
+        var versions = ["0.10.0","0.9.10","0.9.8","0.9.6","0.9.5"];
     </script>
 
 

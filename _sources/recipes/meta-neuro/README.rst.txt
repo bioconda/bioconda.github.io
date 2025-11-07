@@ -13,8 +13,6 @@ meta-neuro
    Medial Tractography Analysis \(MeTA\)
 
    :homepage: https://github.com/USC-LoBeS/meta
-   :documentation: https://github.com/USC-LoBeS/meta/wiki
-   
    :developer docs: https://github.com/bagari/meta
    :license: BSD-3-Clause
    :recipe: /`meta-neuro <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meta-neuro>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meta-neuro/meta.yaml>`_
@@ -31,32 +29,32 @@ meta-neuro
       
       
 
-      ``2.0.0-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends dipy: 
-   :depends hdf5: ``>=1.14.2,<1.14.3.0a0``
-   :depends libboost: ``>=1.82.0,<1.83.0a0``
-   :depends libboost-python: ``>=1.82.0,<1.83.0a0``
    :depends libgcc: ``>=13``
-   :depends libitk-devel: ``5.3.0``
+   :depends libitk: ``>=5.4.4,<5.5.0a0``
+   :depends libitk-devel: ``>=5.4.0,<5.5.0``
    :depends libstdcxx: ``>=13``
+   :depends libxml2: 
+   :depends libxml2-16: ``>=2.15.1``
    :depends nibabel: 
    :depends numpy: 
    :depends pandas: 
    :depends pip: 
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends python: ``>=3.11,<3.12.0a0``
+   :depends python_abi: ``3.11.* *_cp311``
    :depends pyvista: 
    :depends qhull: 
-   :depends scipy: 
+   :depends scipy: ``>=1.15.0``
    :depends setuptools: 
    :depends tqdm: 
    :depends tslearn: 
-   :depends vtk: ``>=9.2.6,<9.3.0build *osmesa*``
-   :depends vtk-base: ``>=9.2.6,<9.2.7.0a0``
+   :depends vtk: ``>=9.4.1,<9.6``
+   :depends vtk-base: ``>=9.5.2,<9.5.3.0a0``
    :requirements:
 
    :additional platforms:
@@ -111,7 +109,7 @@ meta-neuro
 
     <script>
         var package = "meta-neuro";
-        var versions = ["2.0.0","1.0.1","1.0.0","1.0.0"];
+        var versions = ["2.0.1","2.0.0","1.0.1","1.0.0","1.0.0"];
     </script>
 
 
