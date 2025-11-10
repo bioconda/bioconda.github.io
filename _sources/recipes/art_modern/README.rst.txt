@@ -13,7 +13,7 @@ art_modern
    Modernized ART simulator of diverse Next\-Generation Sequencing reads
 
    :homepage: https://github.com/YU-Zhejian/art_modern
-   :documentation: https://github.com/YU-Zhejian/art_modern/releases/download/1.2.0/art_modern.pdf
+   :documentation: https://github.com/YU-Zhejian/art_modern/releases/download/1.2.1/art_modern.pdf
    
    :license: GPL3 / GPL-3.0-only
    :recipe: /`art_modern <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/art_modern>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/art_modern/meta.yaml>`_
@@ -29,7 +29,7 @@ art_modern
       
       
 
-      ``1.2.0-0``,  ``1.1.10-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.4-0``
+      ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.10-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.4-0``
 
       
 
@@ -39,8 +39,7 @@ art_modern
    :depends libabseil: ``20220623.0 cxx17*``
    :depends libboost: ``>=1.86,<1.87``
    :depends libboost: ``>=1.86.0,<1.87.0a0``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libcxx: ``>=18``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
@@ -96,7 +95,7 @@ art_modern
 
     <script>
         var package = "art_modern";
-        var versions = ["1.2.0","1.1.10","1.1.8","1.1.7","1.1.6"];
+        var versions = ["1.2.1","1.2.0","1.1.10","1.1.8","1.1.7"];
     </script>
 
 

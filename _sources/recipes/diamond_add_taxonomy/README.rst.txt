@@ -27,14 +27,14 @@ diamond_add_taxonomy
       
       
 
-      ``0.1.2-0``,  ``0.1.0-0``
+      ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.0-0``
 
       
 
    
    :depends click: 
    :depends ete3: 
-   :depends python: ``>=3.6,<3.7.0a0``
+   :depends python: ``<=3.10``
    :requirements:
 
    :additional platforms:
@@ -85,7 +85,7 @@ diamond_add_taxonomy
 
     <script>
         var package = "diamond_add_taxonomy";
-        var versions = ["0.1.2","0.1.0"];
+        var versions = ["0.1.2","0.1.2","0.1.0"];
     </script>
 
 

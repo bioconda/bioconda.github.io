@@ -29,7 +29,7 @@ opticlust
       
       
 
-      ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``
+      ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``
 
       
 
@@ -39,6 +39,7 @@ opticlust
    :depends natsort: 
    :depends networkx: ``>=2.7``
    :depends numpy: ``>=1.23``
+   :depends pygraphviz: 
    :depends python: ``>=3.9``
    :depends python-igraph: ``>=0.10``
    :depends scanpy: ``>=1.10``
@@ -94,7 +95,7 @@ opticlust
 
     <script>
         var package = "opticlust";
-        var versions = ["0.4.3","0.4.2","0.4.1","0.4.0","0.3.0"];
+        var versions = ["0.5.0","0.4.3","0.4.2","0.4.1","0.4.0"];
     </script>
 
 

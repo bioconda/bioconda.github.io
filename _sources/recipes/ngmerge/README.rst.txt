@@ -13,7 +13,7 @@ ngmerge
    Merging paired\-end reads and removing sequencing adapters.
 
    :homepage: https://github.com/jsh58/NGmerge
-   :documentation: https://github.com/jsh58/NGmerge/blob/v0.4/README.md
+   :documentation: https://github.com/jsh58/NGmerge/blob/v0.5/README.md
    
    :license: MIT / MIT
    :recipe: /`ngmerge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngmerge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngmerge/meta.yaml>`_
@@ -30,7 +30,7 @@ ngmerge
       
       
 
-      ``0.4-0``,  ``0.3-1``,  ``0.3-0``
+      ``0.5-0``,  ``0.4-0``,  ``0.3-1``,  ``0.3-0``
 
       
 
@@ -94,7 +94,7 @@ ngmerge
 
     <script>
         var package = "ngmerge";
-        var versions = ["0.4","0.3","0.3"];
+        var versions = ["0.5","0.4","0.3","0.3"];
     </script>
 
 
