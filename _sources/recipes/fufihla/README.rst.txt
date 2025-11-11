@@ -27,14 +27,14 @@ fufihla
       
       
 
-      ``0.1.0-0``
+      ``0.2.2-0``,  ``0.1.0-0``
 
       
 
    
    :depends bcftools: 
    :depends htslib: 
-   :depends longcalld: 
+   :depends longcalld: ``0.0.4``
    :depends minimap2: 
    :depends python: 
    :depends samtools: 
@@ -91,7 +91,7 @@ fufihla
 
     <script>
         var package = "fufihla";
-        var versions = ["0.1.0"];
+        var versions = ["0.2.2","0.1.0"];
     </script>
 
 

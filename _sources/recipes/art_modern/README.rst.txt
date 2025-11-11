@@ -39,7 +39,8 @@ art_modern
    :depends libabseil: ``20220623.0 cxx17*``
    :depends libboost: ``>=1.86,<1.87``
    :depends libboost: ``>=1.86.0,<1.87.0a0``
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
