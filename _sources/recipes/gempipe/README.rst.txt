@@ -30,10 +30,10 @@ gempipe
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.38.3-0</code>,  <code>1.38.2-0</code>,  <code>1.38.1-0</code>,  <code>1.38.0-0</code>,  <code>1.37.7-0</code>,  <code>1.37.6-0</code>,  <code>1.37.5-0</code>,  <code>1.37.4-0</code>,  <code>1.37.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.38.4-0</code>,  <code>1.38.3-0</code>,  <code>1.38.2-0</code>,  <code>1.38.1-0</code>,  <code>1.38.0-0</code>,  <code>1.37.7-0</code>,  <code>1.37.6-0</code>,  <code>1.37.5-0</code>,  <code>1.37.4-0</code>,  </span></summary>
       
 
-      ``1.38.3-0``,  ``1.38.2-0``,  ``1.38.1-0``,  ``1.38.0-0``,  ``1.37.7-0``,  ``1.37.6-0``,  ``1.37.5-0``,  ``1.37.4-0``,  ``1.37.3-0``,  ``1.37.0-0``,  ``1.36.0-0``,  ``1.35.5-0``,  ``1.35.4-0``,  ``1.35.3-0``,  ``1.35.2-0``,  ``1.35.1-0``,  ``1.35.0-0``,  ``1.34.2-0``,  ``1.34.1-0``,  ``1.34.0-0``,  ``1.33.4-0``,  ``1.33.3-0``,  ``1.33.2-0``,  ``1.33.1-0``,  ``1.33.0-0``
+      ``1.38.4-0``,  ``1.38.3-0``,  ``1.38.2-0``,  ``1.38.1-0``,  ``1.38.0-0``,  ``1.37.7-0``,  ``1.37.6-0``,  ``1.37.5-0``,  ``1.37.4-0``,  ``1.37.3-0``,  ``1.37.0-0``,  ``1.36.0-0``,  ``1.35.5-0``,  ``1.35.4-0``,  ``1.35.3-0``,  ``1.35.2-0``,  ``1.35.1-0``,  ``1.35.0-0``,  ``1.34.2-0``,  ``1.34.1-0``,  ``1.34.0-0``,  ``1.33.4-0``,  ``1.33.3-0``,  ``1.33.2-0``,  ``1.33.1-0``,  ``1.33.0-0``
 
       
       .. raw:: html
@@ -49,6 +49,7 @@ gempipe
    :depends cobra: ``>=0.29``
    :depends diamond: ``>=2.0.15``
    :depends eggnog-mapper: ``>=2.1.7``
+   :depends gzip: 
    :depends ipython: ``>=8.7.0``
    :depends matplotlib-base: ``>=3.7.0``
    :depends ncbi-genome-download: ``>=0.3.3``
@@ -62,6 +63,8 @@ gempipe
    :depends scipy: ``>=1.10.0``
    :depends seaborn: ``>=0.13.0``
    :depends seqkit: ``>=2.2.0``
+   :depends tar: 
+   :depends wget: 
    :requirements:
 
    :additional platforms:
@@ -112,7 +115,7 @@ gempipe
 
     <script>
         var package = "gempipe";
-        var versions = ["1.38.3","1.38.2","1.38.1","1.38.0","1.37.7"];
+        var versions = ["1.38.4","1.38.3","1.38.2","1.38.1","1.38.0"];
     </script>
 
 
