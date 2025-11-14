@@ -13,7 +13,7 @@ dampa
    DAMPA designs probes for use in targetted metagenomics. It leverages pangenome graphs to increase speed and accuracy.
 
    :homepage: https://github.com/MultipathogenGenomics/dampa
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`dampa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dampa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dampa/meta.yaml>`_
 
    
@@ -27,17 +27,18 @@ dampa
       
       
 
-      ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
    :depends biopython: ``>=1.84``
    :depends blast: ``>=2.16``
+   :depends jsonschema: 
    :depends matplotlib-base: ``>=3.10``
    :depends pandas: ``>=2.0``
-   :depends python: ``>=3.8``
-   :depends seaborn: ``>=0.13``
+   :depends python: ``>=3.9``
+   :depends seaborn-base: ``>=0.13``
    :depends vsearch: ``>=2``
    :requirements:
 
@@ -89,7 +90,7 @@ dampa
 
     <script>
         var package = "dampa";
-        var versions = ["0.1.4","0.1.3","0.1.2","0.1.1","0.1.0"];
+        var versions = ["0.2.0","0.1.4","0.1.3","0.1.2","0.1.1"];
     </script>
 
 

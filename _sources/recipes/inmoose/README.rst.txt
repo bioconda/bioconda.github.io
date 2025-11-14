@@ -29,7 +29,7 @@ inmoose
       
       
 
-      ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.8-0``,  ``0.7.7-0``,  ``0.7.6-0``,  ``0.7.2-1``,  ``0.7.2-0``
+      ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.8-0``,  ``0.7.7-0``,  ``0.7.6-0``,  ``0.7.2-1``,  ``0.7.2-0``
 
       
 
@@ -42,11 +42,11 @@ inmoose
    :depends libstdcxx: ``>=13``
    :depends matplotlib-base: 
    :depends mpmath: ``>=1.1.0``
-   :depends numpy: ``>=1.21,<3``
+   :depends numpy: ``>=1.23,<3``
    :depends pandas: 
    :depends patsy: 
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends python: ``>=3.11,<3.12.0a0``
+   :depends python_abi: ``3.11.* *_cp311``
    :depends scikit-learn: 
    :depends scipy: 
    :depends seaborn-base: 
@@ -105,7 +105,7 @@ inmoose
 
     <script>
         var package = "inmoose";
-        var versions = ["0.8.1","0.8.0","0.7.8","0.7.7","0.7.6"];
+        var versions = ["0.9.0","0.8.1","0.8.0","0.7.8","0.7.7"];
     </script>
 
 

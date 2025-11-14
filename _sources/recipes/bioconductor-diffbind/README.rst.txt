@@ -29,10 +29,10 @@ bioconductor-diffbind
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.16.0-0</code>,  <code>3.12.0-1</code>,  <code>3.12.0-0</code>,  <code>3.10.0-0</code>,  <code>3.8.0-0</code>,  <code>3.4.11-1</code>,  <code>3.4.11-0</code>,  <code>3.4.0-0</code>,  <code>3.2.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.16.0-1</code>,  <code>3.16.0-0</code>,  <code>3.12.0-1</code>,  <code>3.12.0-0</code>,  <code>3.10.0-0</code>,  <code>3.8.0-0</code>,  <code>3.4.11-1</code>,  <code>3.4.11-0</code>,  <code>3.4.0-0</code>,  </span></summary>
       
 
-      ``3.16.0-0``,  ``3.12.0-1``,  ``3.12.0-0``,  ``3.10.0-0``,  ``3.8.0-0``,  ``3.4.11-1``,  ``3.4.11-0``,  ``3.4.0-0``,  ``3.2.7-0``,  ``3.2.1-0``,  ``3.0.15-0``,  ``3.0.3-0``,  ``2.16.0-2``,  ``2.16.0-1``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.6-0``,  ``2.6.5-0``,  ``2.6.0-0``,  ``2.4.8-16``,  ``2.2.12-1``,  ``2.2.12-0``,  ``2.0.9-3``,  ``2.0.9-2``,  ``1.16.3-0``
+      ``3.16.0-1``,  ``3.16.0-0``,  ``3.12.0-1``,  ``3.12.0-0``,  ``3.10.0-0``,  ``3.8.0-0``,  ``3.4.11-1``,  ``3.4.11-0``,  ``3.4.0-0``,  ``3.2.7-0``,  ``3.2.1-0``,  ``3.0.15-0``,  ``3.0.3-0``,  ``2.16.0-2``,  ``2.16.0-1``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-1``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.6-0``,  ``2.6.5-0``,  ``2.6.0-0``,  ``2.4.8-16``,  ``2.2.12-1``,  ``2.2.12-0``,  ``2.0.9-3``,  ``2.0.9-2``,  ``1.16.3-0``
 
       
       .. raw:: html
@@ -56,7 +56,7 @@ bioconductor-diffbind
    :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
    :depends bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
    :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0a0``
+   :depends bioconductor-limma: ``>=3.62.1,<3.63.0a0``
    :depends bioconductor-rhtslib: ``>=3.2.0,<3.3.0``
    :depends bioconductor-rhtslib: ``>=3.2.0,<3.3.0a0``
    :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0``
@@ -70,7 +70,7 @@ bioconductor-diffbind
    :depends libblas: ``>=3.9.0,<4.0a0``
    :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends liblzma: ``>=5.6.3,<6.0a0``
+   :depends liblzma: ``>=5.8.1,<6.0a0``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends r-amap: 
@@ -90,7 +90,7 @@ bioconductor-diffbind
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -138,7 +138,7 @@ bioconductor-diffbind
 
     <script>
         var package = "bioconductor-diffbind";
-        var versions = ["3.16.0","3.12.0","3.12.0","3.10.0","3.8.0"];
+        var versions = ["3.16.0","3.16.0","3.12.0","3.12.0","3.10.0"];
     </script>
 
 

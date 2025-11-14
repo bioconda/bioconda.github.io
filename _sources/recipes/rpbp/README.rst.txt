@@ -29,13 +29,21 @@ rpbp
    :versions:
       
       
+      .. raw:: html
 
-      ``3.0.4-3``,  ``3.0.4-2``,  ``3.0.4-1``,  ``3.0.4-0``,  ``3.0.2-2``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``
+         <details><summary><span class="truncated-version-list"><code>4.0.0-0</code>,  <code>3.0.4-3</code>,  <code>3.0.4-2</code>,  <code>3.0.4-1</code>,  <code>3.0.4-0</code>,  <code>3.0.2-2</code>,  <code>3.0.2-1</code>,  <code>3.0.2-0</code>,  <code>3.0.1-1</code>,  </span></summary>
+      
 
+      ``4.0.0-0``,  ``3.0.4-3``,  ``3.0.4-2``,  ``3.0.4-1``,  ``3.0.4-0``,  ``3.0.2-2``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends biopython: 
+   :depends appdirs: 
    :depends bowtie2: 
    :depends cmdstanpy: ``>=1.0.0``
    :depends dash: 
@@ -43,18 +51,15 @@ rpbp
    :depends dash-bootstrap-components: 
    :depends fastqc: 
    :depends flexbar: 
-   :depends joblib: 
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends numpy: 
-   :depends pandas: 
-   :depends pbiotools: ``>=4.0.2``
-   :depends pysam: ``>0.9.1``
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends pbiotools: ``>=5.0.0``
+   :depends pytest: 
+   :depends python: ``>=3.11,<3.12.0a0``
+   :depends python_abi: ``3.11.* *_cp311``
    :depends pyyaml: 
    :depends samtools: 
-   :depends scipy: 
    :depends star: 
    :depends statsmodels: 
    :requirements:
@@ -63,7 +68,7 @@ rpbp
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -111,7 +116,7 @@ rpbp
 
     <script>
         var package = "rpbp";
-        var versions = ["3.0.4","3.0.4","3.0.4","3.0.4","3.0.2"];
+        var versions = ["4.0.0","3.0.4","3.0.4","3.0.4","3.0.4"];
     </script>
 
 

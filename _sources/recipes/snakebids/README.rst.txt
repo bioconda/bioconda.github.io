@@ -10,10 +10,10 @@ snakebids
    :replaces_section_title:
    :noindex:
 
-   BIDS integration into snakemake workflows
+   BIDS integration into snakemake workflows.
 
    :homepage: https://github.com/khanlab/snakebids
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`snakebids <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakebids>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakebids/meta.yaml>`_
 
    Snakebids is a Python package that extends Snakemake\, enabling 
@@ -30,7 +30,7 @@ snakebids
       
       
 
-      ``0.14.0-2``,  ``0.14.0-1``,  ``0.14.0-0``,  ``0.13.1-0``
+      ``0.15.0-0``,  ``0.14.0-2``,  ``0.14.0-1``,  ``0.14.0-0``,  ``0.13.1-0``
 
       
 
@@ -103,7 +103,7 @@ snakebids
 
     <script>
         var package = "snakebids";
-        var versions = ["0.14.0","0.14.0","0.14.0","0.13.1"];
+        var versions = ["0.15.0","0.14.0","0.14.0","0.14.0","0.13.1"];
     </script>
 
 

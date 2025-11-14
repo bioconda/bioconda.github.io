@@ -67,7 +67,7 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">r-mytai</span></span></dt>
-<dd><p>Investigate the evolution of biological processes by capturing evolutionary signatures in transcriptomes (Drost et al. (2018) doi:10.1093/bioinformatics/btx835). This package aims to provide a transcriptome analysis environment to quantify the average evolutionary age of genes contributing to a transcriptome of interest.</p>
+<dd><p>Investigate the evolution of biological processes by capturing evolutionary signatures in transcriptomes. This package aims to provide a transcriptome analysis environment to quantify the average evolutionary age of genes contributing to a transcriptome of interest.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/drostlab/myTAI">https://github.com/drostlab/myTAI</a></p>
@@ -78,6 +78,9 @@
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-mytai">r-mytai</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-mytai/meta.yaml">meta.yaml</a></p>
 </dd>
+<dt class="field-even">Links<span class="colon">:</span></dt>
+<dd class="field-even"><p>doi: <a class="extlink-doi reference external" href="https://doi.org/10.1093/bioinformatics/btx835">10.1093/bioinformatics/btx835</a></p>
+</dd>
 </dl>
 </dd></dl>
 
@@ -86,26 +89,27 @@
 <em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">r-mytai</span></span><a class="headerlink" href="#package-r-mytai" title="Link to this definition">¶</a></dt>
 <dd><blockquote>
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/r-mytai"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-mytai.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-mytai"><img alt="docker_r-mytai" src="https://quay.io/repository/biocontainers/r-mytai/status" /></a></p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.9.3-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.3-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.3.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.3-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.3-0</span></code></p>
 </dd>
 <dt class="field-even">depends bioconductor-edger<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.4.0,&lt;4.5.0a0</span></code></p>
+</dd>
 <dt class="field-odd">depends fribidi<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0.10,&lt;2.0a0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0.16,&lt;2.0a0</span></code></p>
 </dd>
 <dt class="field-even">depends harfbuzz<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=6.0.0,&lt;7.0a0</span></code></p>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=9.0.0,&lt;10.0a0</span></code></p>
 </dd>
-<dt class="field-odd">depends libgcc-ng<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p>
+<dt class="field-odd">depends libgcc<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
 </dd>
-<dt class="field-even">depends libstdcxx-ng<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=12</span></code></p>
+<dt class="field-even">depends libstdcxx<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
 </dd>
 <dt class="field-odd">depends r-base<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.2,&lt;4.3.0a0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.4,&lt;4.5.0a0</span></code></p>
 </dd>
 <dt class="field-even">depends r-doparallel<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0.8</span></code></p>
@@ -119,24 +123,40 @@
 <dt class="field-odd">depends r-foreach<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.4.2</span></code></p>
 </dd>
-<dt class="field-even">depends r-ggplot2<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0.1</span></code></p>
+<dt class="field-even">depends r-ggforce<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends r-ggplot2<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0.1</span></code></p>
 </dd>
-<dt class="field-odd">depends r-gridextra<span class="colon">:</span></dt>
+<dt class="field-even">depends r-ggplotify<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends r-ggrepel<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-nortest<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0_2</span></code></p>
+<dt class="field-even">depends r-ggridges<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends r-ggtext<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends r-gridextra<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends r-nortest<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0_2</span></code></p>
 </dd>
-<dt class="field-odd">depends r-r.utils<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.12.2</span></code></p>
+<dt class="field-even">depends r-patchwork<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends r-pheatmap<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends r-r.utils<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.12.2</span></code></p>
 </dd>
-<dt class="field-even">depends r-rcolorbrewer<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.1_2</span></code></p>
+<dt class="field-odd">depends r-rcolorbrewer<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.1_2</span></code></p>
 </dd>
-<dt class="field-odd">depends r-rcpp<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.12.0</span></code></p>
+<dt class="field-even">depends r-rcpp<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.12.0</span></code></p>
 </dd>
-<dt class="field-even">depends r-rcpparmadillo<span class="colon">:</span></dt>
+<dt class="field-odd">depends r-rcpparmadillo<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends r-rcppthread<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends r-readr<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.2.2</span></code></p>
@@ -153,10 +173,12 @@
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends r-tibble<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">requirements<span class="colon">:</span></dt>
+<dt class="field-odd">depends r-tidyr<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">additional platforms<span class="colon">:</span></dt>
+<dt class="field-even">requirements<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
+<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
+<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code></span></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -191,7 +213,7 @@ others.</p>
 
 <script>
     var package = "r-mytai";
-    var versions = ["0.9.3","0.9.3"];
+    var versions = ["2.3.4","0.9.3","0.9.3"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

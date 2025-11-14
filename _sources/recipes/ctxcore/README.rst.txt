@@ -30,11 +30,12 @@ ctxcore
       
       
 
-      ``0.2.0-0``
+      ``0.2.0-1``,  ``0.2.0-0``
 
       
 
    
+   :depends attrs: 
    :depends cytoolz: 
    :depends frozendict: 
    :depends numba: ``>=0.51.2``
@@ -43,6 +44,7 @@ ctxcore
    :depends pyarrow: ``>=8.0.0``
    :depends python: 
    :depends pyyaml: 
+   :depends setuptools: 
    :depends tqdm: 
    :requirements:
 
@@ -94,7 +96,7 @@ ctxcore
 
     <script>
         var package = "ctxcore";
-        var versions = ["0.2.0"];
+        var versions = ["0.2.0","0.2.0"];
     </script>
 
 

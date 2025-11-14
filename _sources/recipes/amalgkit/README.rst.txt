@@ -27,7 +27,7 @@ amalgkit
       
       
 
-      ``0.12.19-0``,  ``0.12.18-0``,  ``0.12.17-0``,  ``0.12.16-0``,  ``0.12.15-0``
+      ``0.12.20-0``,  ``0.12.19-0``,  ``0.12.18-0``,  ``0.12.17-0``,  ``0.12.16-0``,  ``0.12.15-0``
 
       
 
@@ -37,6 +37,7 @@ amalgkit
    :depends bioconductor-ruvseq: 
    :depends bioconductor-sva: 
    :depends biopython: 
+   :depends ete4: 
    :depends fastp: 
    :depends kallisto: 
    :depends lxml: 
@@ -106,7 +107,7 @@ amalgkit
 
     <script>
         var package = "amalgkit";
-        var versions = ["0.12.19","0.12.18","0.12.17","0.12.16","0.12.15"];
+        var versions = ["0.12.20","0.12.19","0.12.18","0.12.17","0.12.16"];
     </script>
 
 

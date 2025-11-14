@@ -13,7 +13,7 @@ singlem
    At heart\, SingleM is a tool for profiling shotgun metagenomes. It was originally designed to determine the relative abundance of bacterial and archaeal taxa in a sample. As of version 0.19.0\, it can also be used to profile dsDNA phages \(see Lyrebird\). It shows good accuracy in estimating the relative abundances of community members\, and has a particular strength in dealing with novel lineages. The method it uses also makes it suitable for some related tasks\, such as assessing eukaryotic contamination\, finding bias in genome recovery\, and lineage\-targeted MAG recovery. It can also be used as the basis for choosing metagenomes which\, when coassembled\, maximise the recovery of novel MAGs \(see Bin Chicken\).
 
    :homepage: https://github.com/wwood/singlem
-   :documentation: https://wwood.github.io/singlem/
+   :documentation: https://wwood.github.io/singlem
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`singlem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/singlem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/singlem/meta.yaml>`_
@@ -30,10 +30,10 @@ singlem
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.19.0-0</code>,  <code>0.18.3-0</code>,  <code>0.18.2-0</code>,  <code>0.18.1-1</code>,  <code>0.18.1-0</code>,  <code>0.18.0-0</code>,  <code>0.17.0-0</code>,  <code>0.16.0-0</code>,  <code>0.15.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.20.2-1</code>,  <code>0.20.2-0</code>,  <code>0.19.0-0</code>,  <code>0.18.3-0</code>,  <code>0.18.2-0</code>,  <code>0.18.1-1</code>,  <code>0.18.1-0</code>,  <code>0.18.0-0</code>,  <code>0.17.0-0</code>,  </span></summary>
       
 
-      ``0.19.0-0``,  ``0.18.3-0``,  ``0.18.2-0``,  ``0.18.1-1``,  ``0.18.1-0``,  ``0.18.0-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.1-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.2-2``,  ``0.13.2-1``,  ``0.13.2-0``
+      ``0.20.2-1``,  ``0.20.2-0``,  ``0.19.0-0``,  ``0.18.3-0``,  ``0.18.2-0``,  ``0.18.1-1``,  ``0.18.1-0``,  ``0.18.0-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.1-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.2-2``,  ``0.13.2-1``,  ``0.13.2-0``
 
       
       .. raw:: html
@@ -42,40 +42,39 @@ singlem
       
 
    
-   :depends biopython: ``1.*``
-   :depends bird_tool_utils_python: ``=0.*,>=0.4.1``
+   :depends biopython: ``1.86.*``
+   :depends bird_tool_utils_python: ``0.6.*``
    :depends cd-hit: ``4.8.*``
-   :depends diamond: ``2.1.10.*``
+   :depends diamond: ``2.1.15.*``
    :depends expressbetadiversity: ``1.0.*``
    :depends extern: ``0.4.*``
    :depends fastalite: ``0.4.*``
-   :depends fasttree: ``2.1.*``
+   :depends fasttree: ``2.2.*``
    :depends galah: ``0.4.*``
    :depends graftm: ``0.15.*``
-   :depends gtdbtk: ``2.4.1.*``
    :depends hmmer: ``3.2.*``
    :depends jinja2: ``3.1.*``
    :depends krona: ``2.8.*``
    :depends mafft: ``7.*``
    :depends mfqe: ``0.5.*``
    :depends ncbi-ngs-sdk: ``3.0.*``
-   :depends orfm: ``1.*``
-   :depends pandas: ``2.*``
-   :depends polars: ``1.27.*``
-   :depends pplacer: ``1.1.alpha19.*``
-   :depends prodigal: ``2.*``
-   :depends pyarrow: ``16.*``
+   :depends orfm: ``>=0.7.1``
+   :depends pandas: ``2.3.*``
+   :depends polars: ``1.35.*``
+   :depends pplacer: ``1.1.*``
+   :depends prodigal: ``2.6.*``
+   :depends pyarrow: ``22.0.*``
    :depends pyranges: ``0.1.*``
-   :depends python: ``>=3.7``
-   :depends seqmagick: ``0.*``
+   :depends python: ``3.12.*``
+   :depends seqmagick: ``0.8.*``
    :depends smafa: ``0.8.*``
    :depends sqlalchemy: ``2.0.*``
-   :depends sqlite: ``3.*``
-   :depends sqlparse: ``0.*``
+   :depends sqlite: ``3.51.*``
+   :depends sqlparse: ``0.5.*``
    :depends squarify: ``0.4.*``
-   :depends sra-tools: ``2.9.*``
-   :depends tqdm: ``>=4.66.0,<5.0``
-   :depends zenodo_backpack: ``0.3.*``
+   :depends sra-tools: ``3.2.*``
+   :depends tqdm: ``4.67.*``
+   :depends zenodo_backpack: ``0.4.*``
    :requirements:
 
    :additional platforms:
@@ -126,7 +125,7 @@ singlem
 
     <script>
         var package = "singlem";
-        var versions = ["0.19.0","0.18.3","0.18.2","0.18.1","0.18.1"];
+        var versions = ["0.20.2","0.20.2","0.19.0","0.18.3","0.18.2"];
     </script>
 
 

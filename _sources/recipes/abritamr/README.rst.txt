@@ -10,7 +10,7 @@ abritamr
    :replaces_section_title:
    :noindex:
 
-   Running AMRFinderPlus for MDU
+   Running AMRFinderPlus for MDU.
 
    :homepage: https://github.com/MDU-PHL/abritamr
    :license: GPL3 / GPL-3.0-only
@@ -29,10 +29,10 @@ abritamr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.19-0</code>,  <code>1.0.18-0</code>,  <code>1.0.17-2</code>,  <code>1.0.17-1</code>,  <code>1.0.17-0</code>,  <code>1.0.14-1</code>,  <code>1.0.14-0</code>,  <code>1.0.13-0</code>,  <code>1.0.12-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.20-0</code>,  <code>1.0.19-0</code>,  <code>1.0.18-0</code>,  <code>1.0.17-2</code>,  <code>1.0.17-1</code>,  <code>1.0.17-0</code>,  <code>1.0.14-1</code>,  <code>1.0.14-0</code>,  <code>1.0.13-0</code>,  </span></summary>
       
 
-      ``1.0.19-0``,  ``1.0.18-0``,  ``1.0.17-2``,  ``1.0.17-1``,  ``1.0.17-0``,  ``1.0.14-1``,  ``1.0.14-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``,  ``0.2.2-0``,  ``0.1.0-0``
+      ``1.0.20-0``,  ``1.0.19-0``,  ``1.0.18-0``,  ``1.0.17-2``,  ``1.0.17-1``,  ``1.0.17-0``,  ``1.0.14-1``,  ``1.0.14-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``,  ``0.2.2-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -43,7 +43,6 @@ abritamr
    
    :depends blast: 
    :depends hmmer: 
-   :depends libcurl: 
    :depends ncbi-amrfinderplus: ``3.12.8.*``
    :depends pandas: 
    :depends parallel: 
@@ -99,7 +98,7 @@ abritamr
 
     <script>
         var package = "abritamr";
-        var versions = ["1.0.19","1.0.18","1.0.17","1.0.17","1.0.17"];
+        var versions = ["1.0.20","1.0.19","1.0.18","1.0.17","1.0.17"];
     </script>
 
 

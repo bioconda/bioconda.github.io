@@ -31,10 +31,10 @@ metagraph
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.3-0</code>,  <code>0.3.6-4</code>,  <code>0.3.6-3</code>,  <code>0.3.6-2</code>,  <code>0.3.6-1</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-1</code>,  <code>0.3.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.5-0</code>,  <code>0.4.3-0</code>,  <code>0.3.6-4</code>,  <code>0.3.6-3</code>,  <code>0.3.6-2</code>,  <code>0.3.6-1</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-1</code>,  </span></summary>
       
 
-      ``0.4.3-0``,  ``0.3.6-4``,  ``0.3.6-3``,  ``0.3.6-2``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.2.0-0``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.4.5-0``,  ``0.4.3-0``,  ``0.3.6-4``,  ``0.3.6-3``,  ``0.3.6-2``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.2.0-0``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -43,22 +43,22 @@ metagraph
       
 
    
+   :depends _openmp_mutex: ``* *_llvm``
    :depends _openmp_mutex: ``>=4.5``
-   :depends boost-cpp: ``1.71.0``
-   :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends boost-cpp: 
    :depends jemalloc: 
    :depends libgcc: ``>=13``
    :depends libgomp: 
    :depends libjemalloc: ``>=5.3.0``
    :depends libstdcxx: ``>=13``
+   :depends llvm-openmp: ``>=21.1.3``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -106,7 +106,7 @@ metagraph
 
     <script>
         var package = "metagraph";
-        var versions = ["0.4.3","0.3.6","0.3.6","0.3.6","0.3.6"];
+        var versions = ["0.4.5","0.4.3","0.3.6","0.3.6","0.3.6"];
     </script>
 
 

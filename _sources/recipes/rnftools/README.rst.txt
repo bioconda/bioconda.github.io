@@ -28,10 +28,10 @@ rnftools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.1.3-0</code>,  <code>0.3.1.2-2</code>,  <code>0.3.1.2-1</code>,  <code>0.3.1.1-2</code>,  <code>0.3.1.1-1</code>,  <code>0.3.1.0-2</code>,  <code>0.3.1.0-1</code>,  <code>0.3.0.2-2</code>,  <code>0.3.0.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.0.0-0</code>,  <code>0.3.1.3-0</code>,  <code>0.3.1.2-2</code>,  <code>0.3.1.2-1</code>,  <code>0.3.1.1-2</code>,  <code>0.3.1.1-1</code>,  <code>0.3.1.0-2</code>,  <code>0.3.1.0-1</code>,  <code>0.3.0.2-2</code>,  </span></summary>
       
 
-      ``0.3.1.3-0``,  ``0.3.1.2-2``,  ``0.3.1.2-1``,  ``0.3.1.1-2``,  ``0.3.1.1-1``,  ``0.3.1.0-2``,  ``0.3.1.0-1``,  ``0.3.0.2-2``,  ``0.3.0.2-1``,  ``0.3.0.2-0``
+      ``0.4.0.0-0``,  ``0.3.1.3-0``,  ``0.3.1.2-2``,  ``0.3.1.2-1``,  ``0.3.1.1-2``,  ``0.3.1.1-1``,  ``0.3.1.0-2``,  ``0.3.1.0-1``,  ``0.3.0.2-2``,  ``0.3.0.2-1``,  ``0.3.0.2-0``
 
       
       .. raw:: html
@@ -49,12 +49,12 @@ rnftools
    :depends mason: 
    :depends pyfaidx: 
    :depends pysam: 
-   :depends python: ``>=3.6,<3.7.0a0``
-   :depends reportlab: ``3.3.0``
+   :depends python: ``>=3``
+   :depends reportlab: ``>=3.3.0``
    :depends samtools: 
    :depends snakemake-minimal: 
    :depends svg42pdf: ``>=0.2.2``
-   :depends wgsim: 
+   :depends xopen: 
    :requirements:
 
    :additional platforms:
@@ -105,7 +105,7 @@ rnftools
 
     <script>
         var package = "rnftools";
-        var versions = ["0.3.1.3","0.3.1.2","0.3.1.2","0.3.1.1","0.3.1.1"];
+        var versions = ["0.4.0.0","0.3.1.3","0.3.1.2","0.3.1.2","0.3.1.1"];
     </script>
 
 

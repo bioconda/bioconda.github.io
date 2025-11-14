@@ -28,10 +28,10 @@ altamisa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.0-0</code>,  <code>0.2.9-0</code>,  <code>0.2.8-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.9-0</code>,  <code>0.2.8-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  </span></summary>
       
 
-      ``0.3.0-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -92,7 +92,7 @@ altamisa
 
     <script>
         var package = "altamisa";
-        var versions = ["0.3.0","0.2.9","0.2.8","0.2.6","0.2.5"];
+        var versions = ["0.3.1","0.3.0","0.2.9","0.2.8","0.2.6"];
     </script>
 
 

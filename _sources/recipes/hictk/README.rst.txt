@@ -31,10 +31,10 @@ hictk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.5-0</code>,  <code>2.1.4-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.2-1</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>2.1.5-0</code>,  <code>2.1.4-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.2-1</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  </span></summary>
       
 
-      ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.0.12-1``,  ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``2.2.0-0``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.0.12-1``,  ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -46,14 +46,13 @@ hictk
    :depends hdf5: ``>=1.12``
    :depends hdf5: ``>=1.14.6,<1.14.7.0a0``
    :depends libarchive: ``>=3``
-   :depends libarchive: ``>=3.8.1,<3.9.0a0``
+   :depends libarchive: ``>=3.8.2,<3.9.0a0``
    :depends libdeflate: ``>=1``
-   :depends libdeflate: ``>=1.24,<1.25.0a0``
-   :depends libgcc: ``>=14``
-   :depends libgcc: ``>=15``
+   :depends libdeflate: ``>=1.25,<1.26.0a0``
+   :depends libgcc: ``>=13``
    :depends libopentelemetry-cpp: ``>=1``
    :depends libopentelemetry-cpp: ``>=1.21.0,<1.22.0a0``
-   :depends libstdcxx: ``>=15``
+   :depends libstdcxx: ``>=13``
    :depends zstd: ``>=1.5``
    :depends zstd: ``>=1.5.7,<1.6.0a0``
    :requirements:
@@ -110,7 +109,7 @@ hictk
 
     <script>
         var package = "hictk";
-        var versions = ["2.1.5","2.1.4","2.1.2","2.1.1","2.1.0"];
+        var versions = ["2.2.0","2.1.5","2.1.4","2.1.2","2.1.1"];
     </script>
 
 

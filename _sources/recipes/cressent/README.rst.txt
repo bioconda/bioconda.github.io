@@ -13,6 +13,8 @@ cressent
    A comprehensive toolkit for ssDNA virus analysis
 
    :homepage: https://github.com/ricrocha82/cressent
+   :documentation: https://cressent.readthedocs.io/en/latest/
+   
    :license: MIT / MIT
    :recipe: /`cressent <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cressent>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cressent/meta.yaml>`_
 
@@ -29,7 +31,7 @@ cressent
       
       
 
-      ``1.0.0-0``
+      ``1.0.2-0``,  ``1.0.0-0``
 
       
 
@@ -44,7 +46,7 @@ cressent
    :depends cd-hit: ``>=4.5``
    :depends click: 
    :depends diamond: ``>=2.0``
-   :depends gffutils: ``0.13.*``
+   :depends gffutils: ``>=0.13``
    :depends iqtree: ``>=2.3.6``
    :depends mafft: ``>=7.0``
    :depends matplotlib-base: ``>=3.10.0``
@@ -120,7 +122,7 @@ cressent
 
     <script>
         var package = "cressent";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.2","1.0.0"];
     </script>
 
 

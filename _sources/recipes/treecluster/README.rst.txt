@@ -10,7 +10,7 @@ treecluster
    :replaces_section_title:
    :noindex:
 
-   Identify clusters in phylogenetic trees based on a distance threshold and other constraints
+   Identify clusters in phylogenetic trees based on a distance threshold and other constraints.
 
    :homepage: https://github.com/niemasd/TreeCluster
    :license: GPL3 / GPL-3.0-only
@@ -28,7 +28,7 @@ treecluster
       
       
 
-      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
@@ -86,7 +86,7 @@ treecluster
 
     <script>
         var package = "treecluster";
-        var versions = ["1.0.4","1.0.3","1.0.2","1.0.1"];
+        var versions = ["1.0.5","1.0.4","1.0.3","1.0.2","1.0.1"];
     </script>
 
 

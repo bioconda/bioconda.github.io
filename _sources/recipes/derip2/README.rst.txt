@@ -27,7 +27,7 @@ derip2
       
       
 
-      ``0.4.0-0``
+      ``0.4.1-0``,  ``0.4.0-0``
 
       
 
@@ -89,7 +89,7 @@ derip2
 
     <script>
         var package = "derip2";
-        var versions = ["0.4.0"];
+        var versions = ["0.4.1","0.4.0"];
     </script>
 
 

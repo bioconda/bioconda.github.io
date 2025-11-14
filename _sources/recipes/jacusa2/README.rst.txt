@@ -27,12 +27,12 @@ jacusa2
       
       
 
-      ``2.0.4-0``
+      ``2.1.15-0``,  ``2.0.4-0``
 
       
 
    
-   :depends openjdk: ``>=8,<9``
+   :depends openjdk: ``>=9``
    :requirements:
 
    :additional platforms:
@@ -83,7 +83,7 @@ jacusa2
 
     <script>
         var package = "jacusa2";
-        var versions = ["2.0.4"];
+        var versions = ["2.1.15","2.0.4"];
     </script>
 
 

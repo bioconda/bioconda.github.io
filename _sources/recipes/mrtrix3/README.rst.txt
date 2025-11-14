@@ -30,7 +30,7 @@ mrtrix3
       
       
 
-      ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.4-0``
+      ``3.0.8-0``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.4-0``
 
       
 
@@ -41,7 +41,7 @@ mrtrix3
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libtiff: ``>=4.0``
-   :depends libtiff: ``>=4.7.0,<4.8.0a0``
+   :depends libtiff: ``>=4.7.1,<4.8.0a0``
    :depends libxcb: ``>=1.17.0,<2.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends qt: ``>=5.15``
@@ -100,7 +100,7 @@ mrtrix3
 
     <script>
         var package = "mrtrix3";
-        var versions = ["3.0.7","3.0.6","3.0.5","3.0.4"];
+        var versions = ["3.0.8","3.0.7","3.0.6","3.0.5","3.0.4"];
     </script>
 
 

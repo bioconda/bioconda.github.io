@@ -15,7 +15,7 @@ phate
    :homepage: https://github.com/KrishnaswamyLab/PHATE
    :documentation: https://phate.readthedocs.io
    
-   :license: GPL / GPL-2.0
+   :license: GPL / GPL-2.0-only
    :recipe: /`phate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phate/meta.yaml>`_
    :links: doi: :doi:`10.1038/s41587-019-0336-3`
 
@@ -29,9 +29,17 @@ phate
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``0.4.5-0``
+         <details><summary><span class="truncated-version-list"><code>2.0.0-0</code>,  <code>1.0.11-0</code>,  <code>1.0.10-0</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  </span></summary>
+      
 
+      ``2.0.0-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``0.4.5-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -39,13 +47,13 @@ phate
    :depends future: 
    :depends graphtools: ``>=1.5.3``
    :depends matplotlib-base: ``>=3.0``
-   :depends numpy: ``>=1.16.0``
-   :depends python: ``>=3.5``
+   :depends numpy: ``>=1.20.0``
+   :depends python: ``>=3.9``
    :depends s_gd2: ``>=1.5``
-   :depends scikit-learn: ``>=0.20.0``
-   :depends scipy: ``>=1.1.0``
+   :depends scikit-learn: ``>=1.5.0``
+   :depends scipy: ``>=1.7.0``
    :depends scprep: ``>=0.11.1``
-   :depends tasklogger: ``>=1.0``
+   :depends tasklogger: ``>=1.2``
    :requirements:
 
    :additional platforms:
@@ -96,7 +104,7 @@ phate
 
     <script>
         var package = "phate";
-        var versions = ["1.0.11","1.0.10","1.0.9","1.0.8","1.0.7"];
+        var versions = ["2.0.0","1.0.11","1.0.10","1.0.9","1.0.8"];
     </script>
 
 

@@ -16,7 +16,7 @@ meteor
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`meteor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meteor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meteor/meta.yaml>`_
 
-   Meteor relies on genes catalogue to perform specie level taxonomic assignments\, functional and strain diffusion analysis.
+   Meteor is a plateform for quantitative metagenomics profiling of complex ecosystems. Meteor relies on genes catalogue to perform species\-level taxonomic profiling \(Bacteria\, Archaea and Eukaryotes\)\, functional analysis and strain\-level population structure inference.
 
 
 
@@ -29,10 +29,10 @@ meteor
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.20-0</code>,  <code>2.0.19-0</code>,  <code>2.0.18-0</code>,  <code>2.0.17-0</code>,  <code>2.0.16-0</code>,  <code>2.0.14-2</code>,  <code>2.0.14-1</code>,  <code>2.0.14-0</code>,  <code>2.0.13-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.21-0</code>,  <code>2.0.20-0</code>,  <code>2.0.19-0</code>,  <code>2.0.18-0</code>,  <code>2.0.17-0</code>,  <code>2.0.16-0</code>,  <code>2.0.14-2</code>,  <code>2.0.14-1</code>,  <code>2.0.14-0</code>,  </span></summary>
       
 
-      ``2.0.20-0``,  ``2.0.19-0``,  ``2.0.18-0``,  ``2.0.17-0``,  ``2.0.16-0``,  ``2.0.14-2``,  ``2.0.14-1``,  ``2.0.14-0``,  ``2.0.13-0``,  ``2.0.11-0``,  ``2.0.9-0``
+      ``2.0.21-0``,  ``2.0.20-0``,  ``2.0.19-0``,  ``2.0.18-0``,  ``2.0.17-0``,  ``2.0.16-0``,  ``2.0.14-2``,  ``2.0.14-1``,  ``2.0.14-0``,  ``2.0.13-0``,  ``2.0.11-0``,  ``2.0.9-0``
 
       
       .. raw:: html
@@ -44,7 +44,7 @@ meteor
    :depends biom-format: 
    :depends bowtie2: ``>=2.3.5``
    :depends cogent3: 
-   :depends ete3: 
+   :depends ete4: 
    :depends freebayes: ``>=1.3.6``
    :depends packaging: 
    :depends pandas: 
@@ -102,7 +102,7 @@ meteor
 
     <script>
         var package = "meteor";
-        var versions = ["2.0.20","2.0.19","2.0.18","2.0.17","2.0.16"];
+        var versions = ["2.0.21","2.0.20","2.0.19","2.0.18","2.0.17"];
     </script>
 
 

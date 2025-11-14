@@ -10,12 +10,12 @@ pyjaspar
    :replaces_section_title:
    :noindex:
 
-   pyJASPAR\: a serverless interface to Biopython to access different versions of JASPAR database
+   pyJASPAR\: a serverless interface to Biopython to access different versions of JASPAR database.
 
    :homepage: https://github.com/asntech/pyjaspar
    :documentation: https://pyjaspar.rtfd.io
    
-   :license: GPL3 / GPL-3.0-or-later
+   :license: MIT / MIT
    :recipe: /`pyjaspar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyjaspar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyjaspar/meta.yaml>`_
 
    A serverless interface to Biopython to query and access JASPAR motifs from different releases of JASPAR database using sqlite3.
@@ -29,13 +29,13 @@ pyjaspar
       
       
 
-      ``3.0.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.6.0-0``,  ``1.5.5-0``,  ``1.5.0-0``,  ``1.0.0-0``
+      ``4.0.0-0``,  ``3.0.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.6.0-0``,  ``1.5.5-0``,  ``1.5.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends biopython: 
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.8``
    :requirements:
 
    :additional platforms:
@@ -86,7 +86,7 @@ pyjaspar
 
     <script>
         var package = "pyjaspar";
-        var versions = ["3.0.0","2.1.1","2.1.0","2.0.0","1.6.0"];
+        var versions = ["4.0.0","3.0.0","2.1.1","2.1.0","2.0.0"];
     </script>
 
 

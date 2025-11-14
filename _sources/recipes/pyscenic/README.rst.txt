@@ -30,39 +30,30 @@ pyscenic
       
       
 
-      ``0.12.1-0``
+      ``0.12.1-1``,  ``0.12.1-0``
 
       
 
    
-   :depends aiohttp: 
-   :depends arboreto: 
-   :depends attrs: 
+   :depends arboreto: ``>=0.1.6``
    :depends boltons: 
-   :depends cloudpickle: 
-   :depends ctxcore: 
+   :depends ctxcore: ``>=0.2.0``
    :depends cytoolz: 
-   :depends dask-core: ``>=2023.4.1``
-   :depends dill: 
-   :depends distributed: ``>=2023.4.1,<2023.5.0``
-   :depends frozendict: 
-   :depends fsspec: 
+   :depends dask: 
+   :depends diptest: 
+   :depends distributed: 
    :depends interlap: 
-   :depends llvmlite: 
    :depends loompy: 
+   :depends multiprocessing_on_dill: 
    :depends networkx: 
    :depends numba: ``>=0.51.2``
    :depends numexpr: 
-   :depends numpy: ``1.23.5``
+   :depends numpy: ``<1.24``
    :depends pandas: ``>=1.3.5``
-   :depends pyarrow: 
-   :depends python: ``>=3.6``
-   :depends pyyaml: 
-   :depends requests: 
-   :depends scikit-learn: 
+   :depends python: ``>=3.7,<=3.10``
+   :depends scikit-learn: ``>=0.22.2``
    :depends scipy: 
    :depends tqdm: 
-   :depends umap-learn: 
    :requirements:
 
    :additional platforms:
@@ -113,7 +104,7 @@ pyscenic
 
     <script>
         var package = "pyscenic";
-        var versions = ["0.12.1"];
+        var versions = ["0.12.1","0.12.1"];
     </script>
 
 

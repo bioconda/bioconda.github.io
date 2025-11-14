@@ -13,7 +13,7 @@ flexidot
    Flexible dotplotting of genomic sequences.
 
    :homepage: https://github.com/flexidot-bio/flexidot
-   :documentation: https://github.com/flexidot-bio/flexidot/blob/v2.0.1/README.md
+   :documentation: https://github.com/flexidot-bio/flexidot/blob/v2.0.2/README.md
    
    :license: LGPL / LGPL-2.1-or-later
    :recipe: /`flexidot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexidot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexidot/meta.yaml>`_
@@ -30,7 +30,7 @@ flexidot
       
       
 
-      ``2.0.1-0``
+      ``2.0.2-0``,  ``2.0.1-0``
 
       
 
@@ -94,7 +94,7 @@ flexidot
 
     <script>
         var package = "flexidot";
-        var versions = ["2.0.1"];
+        var versions = ["2.0.2","2.0.1"];
     </script>
 
 

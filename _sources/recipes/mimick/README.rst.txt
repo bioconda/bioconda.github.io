@@ -18,10 +18,10 @@ mimick
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`mimick <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mimick>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mimick/meta.yaml>`_
 
-   Mimick\, formerly known as XENIA from the VISOR project\, is a simple but effective way of
-   simulating linked\-read FASTQ data \(10x\, haplotagging\, stlfr\, tellseq\). Mimick allows
-   you to simulate an arbitrary number of haplotypes\, set overall coverage\, molecule coverage\,
-   and mix\-match barcodes with linked\-read chemistries.
+   Mimick\, formerly known as XENIA from the VISOR project\, can simulate all manner of available
+   linked\-read chemistries \(10x\, haplotagging\, stlfr\, tellseq\). It allows you to simulate an
+   arbitrary number of haplotypes\, set overall coverage\, molecule coverage\, molecules per barcode\,
+   whether DNA is circular\, etc.
 
 
 
@@ -34,10 +34,10 @@ mimick
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0-0</code>,  <code>2.3-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.2-0</code>,  <code>2.1-0</code>,  <code>2.0.1-0</code>,  <code>2.0-0</code>,  <code>1.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0-1</code>,  <code>3.0-0</code>,  <code>2.3-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.2-0</code>,  <code>2.1-0</code>,  <code>2.0.1-0</code>,  <code>2.0-0</code>,  </span></summary>
       
 
-      ``3.0-0``,  ``2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2-0``,  ``2.1-0``,  ``2.0.1-0``,  ``2.0-0``,  ``1.3-0``,  ``1.2.1-0``,  ``1.2-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
+      ``3.0-1``,  ``3.0-0``,  ``2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2-0``,  ``2.1-0``,  ``2.0.1-0``,  ``2.0-0``,  ``1.3-0``,  ``1.2.1-0``,  ``1.2-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-0``
 
       
       .. raw:: html
@@ -46,12 +46,10 @@ mimick
       
 
    
-   :depends click: ``>=8``
-   :depends numpy: ``>=1.15.3``
-   :depends pysam: ``>=0.22.0``
-   :depends python: ``>=3.11``
-   :depends pywgsim: ``>=0.6``
-   :depends rich-click: ``>=1.8``
+   :depends click: ``>=8.2``
+   :depends pyjuliacall: ``>=0.9.26``
+   :depends python: ``>=3.10``
+   :depends rich-click: ``>=1.9.3``
    :requirements:
 
    :additional platforms:
@@ -102,7 +100,7 @@ mimick
 
     <script>
         var package = "mimick";
-        var versions = ["3.0","2.3","2.2.2","2.2.1","2.2"];
+        var versions = ["3.0","3.0","2.3","2.2.2","2.2.1"];
     </script>
 
 

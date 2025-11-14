@@ -28,7 +28,7 @@ parnas
       
       
 
-      ``0.1.7-0``,  ``0.1.6-0``
+      ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-0``
 
       
 
@@ -37,7 +37,7 @@ parnas
    :depends dendropy: ``>=4.5.0``
    :depends numba: ``>=0.57.0``
    :depends numpy: ``>=1.17``
-   :depends python: ``>=3.7,<=3.12``
+   :depends python: ``>=3.7``
    :depends setuptools: ``>=75``
    :depends treetime: ``>=0.9.4``
    :requirements:
@@ -90,7 +90,7 @@ parnas
 
     <script>
         var package = "parnas";
-        var versions = ["0.1.7","0.1.6"];
+        var versions = ["0.1.7","0.1.7","0.1.6"];
     </script>
 
 

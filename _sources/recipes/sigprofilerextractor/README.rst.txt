@@ -27,7 +27,7 @@ sigprofilerextractor
       
       
 
-      ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``
+      ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``
 
       
 
@@ -94,7 +94,7 @@ sigprofilerextractor
 
     <script>
         var package = "sigprofilerextractor";
-        var versions = ["1.2.4","1.2.3","1.2.2","1.2.1"];
+        var versions = ["1.2.5","1.2.4","1.2.3","1.2.2","1.2.1"];
     </script>
 
 
