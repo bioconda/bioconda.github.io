@@ -30,10 +30,10 @@ bali-phy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0-0</code>,  <code>4.0beta17-0</code>,  <code>4.0beta16-1</code>,  <code>4.0beta16-0</code>,  <code>4.0beta15-1</code>,  <code>4.0beta15-0</code>,  <code>4.0beta14-0</code>,  <code>4.0beta13-0</code>,  <code>3.6.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.1-0</code>,  <code>4.0-0</code>,  <code>4.0beta17-0</code>,  <code>4.0beta16-1</code>,  <code>4.0beta16-0</code>,  <code>4.0beta15-1</code>,  <code>4.0beta15-0</code>,  <code>4.0beta14-0</code>,  <code>4.0beta13-0</code>,  </span></summary>
       
 
-      ``4.0-0``,  ``4.0beta17-0``,  ``4.0beta16-1``,  ``4.0beta16-0``,  ``4.0beta15-1``,  ``4.0beta15-0``,  ``4.0beta14-0``,  ``4.0beta13-0``,  ``3.6.0-2``,  ``3.6.0-1``,  ``3.6.0-0``
+      ``4.1-0``,  ``4.0-0``,  ``4.0beta17-0``,  ``4.0beta16-1``,  ``4.0beta16-0``,  ``4.0beta15-1``,  ``4.0beta15-0``,  ``4.0beta14-0``,  ``4.0beta13-0``,  ``3.6.0-2``,  ``3.6.0-1``,  ``3.6.0-0``
 
       
       .. raw:: html
@@ -43,18 +43,18 @@ bali-phy
 
    
    :depends boost-cpp: ``>=1.83.0``
-   :depends cairo: ``>=1.18.2,<2.0a0``
+   :depends cairo: ``>=1.18.4,<2.0a0``
    :depends eigen: ``>=3.3.7``
-   :depends fmt: ``>=10``
-   :depends fmt: ``>=11.0.2,<12.0a0``
+   :depends fmt: ``>=10,<12``
+   :depends fmt: ``>=11.2.0,<11.3.0a0``
    :depends glib: 
    :depends gnuplot: 
    :depends libgcc: ``>=13``
-   :depends libglib: ``>=2.82.2,<3.0a0``
+   :depends libglib: ``>=2.86.1,<3.0a0``
    :depends libstdcxx: ``>=13``
    :depends pandoc: 
    :depends perl: 
-   :depends python: ``>=3.13,<3.14.0a0``
+   :depends python: ``>=3.14,<3.15.0a0``
    :depends r-base: 
    :requirements:
 
@@ -110,7 +110,7 @@ bali-phy
 
     <script>
         var package = "bali-phy";
-        var versions = ["4.0","4.0beta17","4.0beta16","4.0beta16","4.0beta15"];
+        var versions = ["4.1","4.0","4.0beta17","4.0beta16","4.0beta16"];
     </script>
 
 

@@ -27,7 +27,7 @@ circminer
       
       
 
-      ``0.4.2-5``,  ``0.4.2-4``,  ``0.4.2-3``,  ``0.4.2-2``,  ``0.4.2-1``,  ``0.4.2-0``
+      ``0.4.2-6``,  ``0.4.2-5``,  ``0.4.2-4``,  ``0.4.2-3``,  ``0.4.2-2``,  ``0.4.2-1``,  ``0.4.2-0``
 
       
 
@@ -40,6 +40,10 @@ circminer
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

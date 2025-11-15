@@ -27,20 +27,24 @@ contammix
       
       
 
-      ``1.0.11-4``,  ``1.0.11-3``,  ``1.0.11-2``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.10-1``,  ``1.0.10-0``
+      ``1.0.11-5``,  ``1.0.11-4``,  ``1.0.11-3``,  ``1.0.11-2``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.10-1``,  ``1.0.10-0``
 
       
 
    
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-coda: 
    :depends r-getopt: 
    :depends samtools: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

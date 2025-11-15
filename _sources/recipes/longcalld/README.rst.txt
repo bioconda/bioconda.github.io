@@ -27,7 +27,7 @@ longcalld
       
       
 
-      ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``
+      ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``
 
       
 
@@ -39,7 +39,7 @@ longcalld
    :depends liblzma: ``>=5.8.1,<6.0a0``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends openssl: ``>=3.5.4,<4.0a0``
+   :depends openssl: ``>=3.6.0,<4.0a0``
    :requirements:
 
    :additional platforms:
@@ -94,7 +94,7 @@ longcalld
 
     <script>
         var package = "longcalld";
-        var versions = ["0.0.6","0.0.5","0.0.4","0.0.4"];
+        var versions = ["0.0.7","0.0.6","0.0.5","0.0.4","0.0.4"];
     </script>
 
 

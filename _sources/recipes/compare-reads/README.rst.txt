@@ -27,17 +27,22 @@ compare-reads
       
       
 
-      ``0.0.1-0``
+      ``0.0.1-2``,  ``0.0.1-0``
 
       
 
    
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends pysam: 
-   :depends python: ``>=2.7,<2.8.0a0``
+   :depends libgcc: ``>=13``
+   :depends pysam: ``>=0.23.3,<0.24.0a0``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -85,7 +90,7 @@ compare-reads
 
     <script>
         var package = "compare-reads";
-        var versions = ["0.0.1"];
+        var versions = ["0.0.1","0.0.1"];
     </script>
 
 
