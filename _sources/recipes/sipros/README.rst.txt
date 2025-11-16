@@ -12,12 +12,12 @@ sipros
 
    Tools for stable isotopic mass spectrometry\-based metaproteomics
 
-   :homepage: https://github.com/thepanlab/Sipros4
+   :homepage: https://github.com/thepanlab/sipros5/
    :license: MIT
    :recipe: /`sipros <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sipros>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sipros/meta.yaml>`_
    :links: biotools: :biotools:`sipros`, doi: :doi:`10.1186/s40168-024-01866-1`
 
-   \"Tools for stable isotopic mass spectrometry\-based metaproteomics research developed by Sipros team. These include Raxport\, SiprosV4\, SiprosEnsemble and some python \/ R scripts.\"
+   \"Tools for stable isotopic mass spectrometry\-based metaproteomics research developed by Sipros team.\"
 
 
 
@@ -29,19 +29,17 @@ sipros
       
       
 
-      ``4.02-1``,  ``4.02-0``,  ``4.01-0``
+      ``5.0-0``,  ``4.02-1``,  ``4.02-0``,  ``4.01-0``
 
       
 
    
-   :depends bioconductor-biostrings: 
-   :depends mono: ``<6``
-   :depends numpy: ``1.16.*``
-   :depends python: ``2.7.*``
-   :depends r-base: 
-   :depends r-stringr: 
-   :depends r-tidyr: 
-   :depends scikit-learn: ``0.20.3.*``
+   :depends icu: 
+   :depends lxml: 
+   :depends pandas: 
+   :depends philosopher: ``>=5.1.0,<5.2.0``
+   :depends python: ``>=3.12,<3.13``
+   :depends seqkit: 
    :requirements:
 
    :additional platforms:
@@ -92,7 +90,7 @@ sipros
 
     <script>
         var package = "sipros";
-        var versions = ["4.02","4.02","4.01"];
+        var versions = ["5.0","4.02","4.02","4.01"];
     </script>
 
 
