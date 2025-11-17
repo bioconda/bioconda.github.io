@@ -12,12 +12,15 @@ virmet
 
    A pipeline for viral metagenomics
 
-   :homepage: http://virmet.readthedocs.io
-   :developer docs: https://github.com/ozagordi/VirMet
+   :homepage: https://github.com/medvir/VirMet
+   :documentation: https://medvir.github.io/VirMet/
+   
    :license: MIT / MIT
    :recipe: /`virmet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/virmet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/virmet/meta.yaml>`_
 
-   
+   VirMet is a Python package for viral metagenomics analysis in clinical applications.
+   It includes command\-line utilities and depends on common bioinformatics tools.
+
 
 
 .. conda:package:: virmet
@@ -29,10 +32,10 @@ virmet
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.1-0</code>,  <code>v1.1.1-5</code>,  <code>v1.1.1-4</code>,  <code>v1.1.1-3</code>,  <code>v1.1.1-2</code>,  <code>v1.1.1-1</code>,  <code>v1.1.1-0</code>,  <code>v1.1-2</code>,  <code>v1.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.0-0</code>,  <code>1.1.1-0</code>,  <code>v1.1.1-5</code>,  <code>v1.1.1-4</code>,  <code>v1.1.1-3</code>,  <code>v1.1.1-2</code>,  <code>v1.1.1-1</code>,  <code>v1.1.1-0</code>,  <code>v1.1-2</code>,  </span></summary>
       
 
-      ``1.1.1-0``,  ``v1.1.1-5``,  ``v1.1.1-4``,  ``v1.1.1-3``,  ``v1.1.1-2``,  ``v1.1.1-1``,  ``v1.1.1-0``,  ``v1.1-2``,  ``v1.1-1``,  ``v1.1-0``,  ``v1.0-0``
+      ``2.0.0-0``,  ``1.1.1-0``,  ``v1.1.1-5``,  ``v1.1.1-4``,  ``v1.1.1-3``,  ``v1.1.1-2``,  ``v1.1.1-1``,  ``v1.1.1-0``,  ``v1.1-2``,  ``v1.1-1``,  ``v1.1-0``,  ``v1.0-0``
 
       
       .. raw:: html
@@ -44,13 +47,17 @@ virmet
    :depends biopython: 
    :depends blast: ``>=2.3``
    :depends bwa: 
-   :depends entrez-direct: 
+   :depends fastp: 
    :depends htslib: 
+   :depends kraken2: ``>=2.1.6``
+   :depends ncbi-datasets-cli: 
+   :depends numpy: 
    :depends pandas: 
-   :depends prinseq: 
-   :depends python: ``>=3``
+   :depends python: ``>=3.9``
    :depends r-ggplot2: 
+   :depends requests: 
    :depends samtools: ``>=1.3``
+   :depends seqkit: 
    :depends seqtk: 
    :requirements:
 
@@ -102,7 +109,7 @@ virmet
 
     <script>
         var package = "virmet";
-        var versions = ["1.1.1","v1.1.1","v1.1.1","v1.1.1","v1.1.1"];
+        var versions = ["2.0.0","1.1.1","v1.1.1","v1.1.1","v1.1.1"];
     </script>
 
 
