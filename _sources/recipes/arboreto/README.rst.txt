@@ -27,12 +27,13 @@ arboreto
       
       
 
-      ``0.1.6-0``,  ``0.1.5-0``
+      ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.5-0``
 
       
 
    
    :depends dask: 
+   :depends dask-expr: ``<1.0.0``
    :depends distributed: 
    :depends numpy: 
    :depends pandas: 
@@ -89,7 +90,7 @@ arboreto
 
     <script>
         var package = "arboreto";
-        var versions = ["0.1.6","0.1.5"];
+        var versions = ["0.1.6","0.1.6","0.1.5"];
     </script>
 
 

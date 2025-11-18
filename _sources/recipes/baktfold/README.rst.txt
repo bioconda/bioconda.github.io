@@ -29,7 +29,7 @@ baktfold
       
       
 
-      ``0.0.2-0``
+      ``0.0.3-0``,  ``0.0.2-0``
 
       
 
@@ -102,7 +102,7 @@ baktfold
 
     <script>
         var package = "baktfold";
-        var versions = ["0.0.2"];
+        var versions = ["0.0.3","0.0.2"];
     </script>
 
 

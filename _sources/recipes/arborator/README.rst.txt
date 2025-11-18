@@ -26,9 +26,17 @@ arborator
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.0-0``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.6-1</code>,  <code>1.0.6-0</code>,  <code>1.0.0-5</code>,  <code>1.0.0-4</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  </span></summary>
+      
 
+      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -94,7 +102,7 @@ arborator
 
     <script>
         var package = "arborator";
-        var versions = ["1.1.0","1.0.6","1.0.6","1.0.0","1.0.0"];
+        var versions = ["1.2.0","1.1.0","1.0.6","1.0.6","1.0.0"];
     </script>
 
 

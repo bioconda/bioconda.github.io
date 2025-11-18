@@ -27,23 +27,20 @@ ctyper
       
       
 
-      ``1.0.1-0``,  ``1.0-0``
+      ``1.0.5-0``,  ``1.0.1-0``,  ``1.0-0``
 
       
 
    
    :depends eigen: 
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends htslib: ``>=1.21``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -91,7 +88,7 @@ ctyper
 
     <script>
         var package = "ctyper";
-        var versions = ["1.0.1","1.0"];
+        var versions = ["1.0.5","1.0.1","1.0"];
     </script>
 
 
