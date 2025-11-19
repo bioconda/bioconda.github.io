@@ -41,7 +41,7 @@ gromacs_mddb
       
       
 
-      ``2025.3-0``
+      ``2025.3-1``,  ``2025.3-0``
 
       
 
@@ -103,7 +103,7 @@ gromacs_mddb
 
     <script>
         var package = "gromacs_mddb";
-        var versions = ["2025.3"];
+        var versions = ["2025.3","2025.3"];
     </script>
 
 

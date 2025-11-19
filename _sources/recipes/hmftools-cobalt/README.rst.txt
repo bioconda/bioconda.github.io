@@ -28,10 +28,10 @@ hmftools-cobalt
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1-1</code>,  <code>2.1-0</code>,  <code>2.0-0</code>,  <code>2.0_beta-1</code>,  <code>2.0_beta-0</code>,  <code>1.16-0</code>,  <code>1.13-1</code>,  <code>1.13-0</code>,  <code>1.11-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2-0</code>,  <code>2.1-1</code>,  <code>2.1-0</code>,  <code>2.0-0</code>,  <code>2.0_beta-1</code>,  <code>2.0_beta-0</code>,  <code>1.16-0</code>,  <code>1.13-1</code>,  <code>1.13-0</code>,  </span></summary>
       
 
-      ``2.1-1``,  ``2.1-0``,  ``2.0-0``,  ``2.0_beta-1``,  ``2.0_beta-0``,  ``1.16-0``,  ``1.13-1``,  ``1.13-0``,  ``1.11-1``,  ``1.11-0``,  ``1.10-0``,  ``1.9-0``,  ``1.8-1``,  ``1.8-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``
+      ``2.2-0``,  ``2.1-1``,  ``2.1-0``,  ``2.0-0``,  ``2.0_beta-1``,  ``2.0_beta-0``,  ``1.16-0``,  ``1.13-1``,  ``1.13-0``,  ``1.11-1``,  ``1.11-0``,  ``1.10-0``,  ``1.9-0``,  ``1.8-1``,  ``1.8-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``
 
       
       .. raw:: html
@@ -93,7 +93,7 @@ hmftools-cobalt
 
     <script>
         var package = "hmftools-cobalt";
-        var versions = ["2.1","2.1","2.0","2.0_beta","2.0_beta"];
+        var versions = ["2.2","2.1","2.1","2.0","2.0_beta"];
     </script>
 
 

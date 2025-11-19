@@ -10,9 +10,11 @@ vcfpy
    :replaces_section_title:
    :noindex:
 
-   Python 3 VCF library with good support for both reading and writing
+   Python 3 VCF library with good support for both reading and writing.
 
    :homepage: https://github.com/bihealth/vcfpy
+   :documentation: https://vcfpy.readthedocs.io/en/stable
+   
    :license: MIT / MIT
    :recipe: /`vcfpy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcfpy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcfpy/meta.yaml>`_
 
@@ -28,10 +30,10 @@ vcfpy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.13.8-0</code>,  <code>0.13.6-0</code>,  <code>0.13.5-0</code>,  <code>0.13.4-0</code>,  <code>0.13.3-0</code>,  <code>0.13.2-0</code>,  <code>0.13.0-0</code>,  <code>0.12.2-0</code>,  <code>0.12.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.14.2-0</code>,  <code>0.13.8-0</code>,  <code>0.13.6-0</code>,  <code>0.13.5-0</code>,  <code>0.13.4-0</code>,  <code>0.13.3-0</code>,  <code>0.13.2-0</code>,  <code>0.13.0-0</code>,  <code>0.12.2-0</code>,  </span></summary>
       
 
-      ``0.13.8-0``,  ``0.13.6-0``,  ``0.13.5-0``,  ``0.13.4-0``,  ``0.13.3-0``,  ``0.13.2-0``,  ``0.13.0-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-3``,  ``0.11.2-3``,  ``0.11.2-2``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-1``,  ``0.11.0-0``
+      ``0.14.2-0``,  ``0.13.8-0``,  ``0.13.6-0``,  ``0.13.5-0``,  ``0.13.4-0``,  ``0.13.3-0``,  ``0.13.2-0``,  ``0.13.0-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-3``,  ``0.11.2-3``,  ``0.11.2-2``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-1``,  ``0.11.0-0``
 
       
       .. raw:: html
@@ -40,8 +42,7 @@ vcfpy
       
 
    
-   :depends pysam: ``>=0.10.0``
-   :depends python: ``>=3.8``
+   :depends python: ``>=3.10,<3.14``
    :requirements:
 
    :additional platforms:
@@ -92,7 +93,7 @@ vcfpy
 
     <script>
         var package = "vcfpy";
-        var versions = ["0.13.8","0.13.6","0.13.5","0.13.4","0.13.3"];
+        var versions = ["0.14.2","0.13.8","0.13.6","0.13.5","0.13.4"];
     </script>
 
 

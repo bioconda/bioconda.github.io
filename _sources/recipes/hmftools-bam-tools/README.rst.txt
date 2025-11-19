@@ -26,9 +26,17 @@ hmftools-bam-tools
    :versions:
       
       
+      .. raw:: html
 
-      ``1.4.2-0``,  ``1.4.1-0``,  ``1.4-0``,  ``1.3-0``,  ``1.3_beta-1``,  ``1.3_beta-0``,  ``1.2.1-0``,  ``1.2-1``,  ``1.2-0``
+         <details><summary><span class="truncated-version-list"><code>1.5-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.4-0</code>,  <code>1.3-0</code>,  <code>1.3_beta-1</code>,  <code>1.3_beta-0</code>,  <code>1.2.1-0</code>,  <code>1.2-1</code>,  </span></summary>
+      
 
+      ``1.5-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4-0``,  ``1.3-0``,  ``1.3_beta-1``,  ``1.3_beta-0``,  ``1.2.1-0``,  ``1.2-1``,  ``1.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -83,7 +91,7 @@ hmftools-bam-tools
 
     <script>
         var package = "hmftools-bam-tools";
-        var versions = ["1.4.2","1.4.1","1.4","1.3","1.3_beta"];
+        var versions = ["1.5","1.4.2","1.4.1","1.4","1.3"];
     </script>
 
 

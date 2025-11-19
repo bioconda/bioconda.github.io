@@ -10,10 +10,10 @@ proteowizard
    :replaces_section_title:
    :noindex:
 
-   Tools for dealing with mass spectrometry files \(e.g.\, mzML\, mzXML\, mzIdentML\, MGF\)
+   Tools for dealing with mass spectrometry files \(e.g.\, mzML\, mzXML\, mzIdentML\, MGF\).
 
    :homepage: https://proteowizard.sourceforge.net
-   :license: Apache 2.0
+   :license: APACHE / Apache 2.0
    :recipe: /`proteowizard <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/proteowizard>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/proteowizard/meta.yaml>`_
    :links: biotools: :biotools:`proteowizard`, doi: :doi:`10.1038/nbt.2377`
 
@@ -28,12 +28,13 @@ proteowizard
       
       
 
-      ``3_0_9992-2``,  ``3_0_9992-0``
+      ``3_0_25292_c9a6a18-0``,  ``3_0_9992-2``,  ``3_0_9992-0``
 
       
 
    
-   :depends libstdcxx-ng: ``>=4.9``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -84,7 +85,7 @@ proteowizard
 
     <script>
         var package = "proteowizard";
-        var versions = ["3_0_9992","3_0_9992"];
+        var versions = ["3_0_25292_c9a6a18","3_0_9992","3_0_9992"];
     </script>
 
 

@@ -34,7 +34,7 @@ bamslice
       
       
 
-      ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -45,7 +45,7 @@ bamslice
    :depends libgcc: ``>=13``
    :depends liblzma: ``>=5.8.1,<6.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends openssl: ``>=3.5.4,<4.0a0``
+   :depends openssl: ``>=3.6.0,<4.0a0``
    :requirements:
 
    :additional platforms:
@@ -100,7 +100,7 @@ bamslice
 
     <script>
         var package = "bamslice";
-        var versions = ["0.1.1","0.1.0"];
+        var versions = ["0.1.2","0.1.1","0.1.0"];
     </script>
 
 

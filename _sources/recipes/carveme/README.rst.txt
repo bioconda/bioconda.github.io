@@ -29,12 +29,12 @@ carveme
       
       
 
-      ``1.6.6-0``,  ``1.6.5-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.1-0``
+      ``1.6.6-1``,  ``1.6.6-0``,  ``1.6.5-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.1-0``
 
       
 
    
-   :depends diamond: 
+   :depends diamond: ``2.1.13``
    :depends numpy: 
    :depends pandas: 
    :depends pyscipopt: 
@@ -92,7 +92,7 @@ carveme
 
     <script>
         var package = "carveme";
-        var versions = ["1.6.6","1.6.5","1.6.4","1.6.3","1.6.2"];
+        var versions = ["1.6.6","1.6.6","1.6.5","1.6.4","1.6.3"];
     </script>
 
 

@@ -31,10 +31,10 @@ smoothxg
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-1</code>,  <code>0.8.0-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.2-1</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-1</code>,  <code>0.8.0-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  </span></summary>
       
 
-      ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-2``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.8-0``,  ``0.6.7-1``,  ``0.6.7-0``,  ``0.6.5-2``,  ``0.6.5-1``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.2-1``,  ``0.6.2-0``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``
+      ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-2``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.8-0``,  ``0.6.7-1``,  ``0.6.7-0``,  ``0.6.5-2``,  ``0.6.5-1``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.2-1``,  ``0.6.2-0``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.2-0``
 
       
       .. raw:: html
@@ -43,6 +43,7 @@ smoothxg
       
 
    
+   :depends _openmp_mutex: ``* *_llvm``
    :depends _openmp_mutex: ``>=4.5``
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends jemalloc: 
@@ -51,11 +52,17 @@ smoothxg
    :depends libjemalloc: ``>=5.3.0``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends llvm-openmp: ``>=21.1.4``
+   :depends odgi: ``>=0.9.3,<0.10.0a0``
    :depends sdsl-lite: 
    :depends zstd: ``>=1.5.7,<1.6.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -103,7 +110,7 @@ smoothxg
 
     <script>
         var package = "smoothxg";
-        var versions = ["0.8.2","0.8.1","0.8.0","0.8.0","0.7.4"];
+        var versions = ["0.8.2","0.8.2","0.8.1","0.8.0","0.8.0"];
     </script>
 
 

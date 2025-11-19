@@ -12,7 +12,7 @@ cutesv-ol
 
    cuteSV\-OL\: real\-time structural variation detection for nanopore sequencing
 
-   :homepage: https://github.com/120L022331/cuteSV-OL
+   :homepage: https://github.com/gwmHIT/cuteSV-OL
    :license: MIT
    :recipe: /`cutesv-ol <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cutesv-ol>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cutesv-ol/meta.yaml>`_
 
@@ -27,7 +27,7 @@ cutesv-ol
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -37,7 +37,7 @@ cutesv-ol
    :depends libgcc: ``>=13``
    :depends minimap2: 
    :depends numpy: ``>=1.24.4,<2.0``
-   :depends pysam: ``>=0.23.0,<0.24.0a0``
+   :depends pysam: ``>=0.23.3,<0.24.0a0``
    :depends python: ``>=3.12,<3.13.0a0``
    :depends python_abi: ``3.12.* *_cp312``
    :depends pyvcf3: 
@@ -95,7 +95,7 @@ cutesv-ol
 
     <script>
         var package = "cutesv-ol";
-        var versions = ["1.0.1","1.0.0"];
+        var versions = ["1.0.2","1.0.1","1.0.0"];
     </script>
 
 
