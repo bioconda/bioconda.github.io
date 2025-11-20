@@ -30,10 +30,10 @@ ms2rescore
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.1.5-1</code>,  <code>3.1.5-0</code>,  <code>3.1.4-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-0</code>,  <code>3.0.1-2</code>,  <code>3.0.1-1</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.0.post1-0</code>,  <code>3.1.5-1</code>,  <code>3.1.5-0</code>,  <code>3.1.4-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-0</code>,  <code>3.0.1-2</code>,  <code>3.0.1-1</code>,  <code>3.0.1-0</code>,  </span></summary>
       
 
-      ``3.1.5-1``,  ``3.1.5-0``,  ``3.1.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-0``,  ``3.0.0b1-1``,  ``3.0.0b1-0``
+      ``3.2.0.post1-0``,  ``3.1.5-1``,  ``3.1.5-0``,  ``3.1.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-0``,  ``3.0.0b1-1``,  ``3.0.0b1-0``
 
       
       .. raw:: html
@@ -45,22 +45,23 @@ ms2rescore
    :depends cascade-config: ``>=0.4.0``
    :depends click: ``>=7``
    :depends customtkinter: ``>=5,<6``
-   :depends deeplc: ``>=3.0``
+   :depends deeplc: ``>=3.1``
    :depends deeplcretrainer: 
-   :depends im2deep: ``>=0.1.3``
+   :depends im2deep: ``>=0.3.1``
    :depends jinja2: ``>=3``
    :depends lxml: ``>=4.5``
    :depends mokapot: ``0.10``
    :depends ms2pip: ``>=4.0``
-   :depends ms2rescore-rs: 
+   :depends ms2rescore-rs: ``>=0.4.3``
    :depends numpy: ``>=1.25``
    :depends pandas: ``>=1``
    :depends plotly: ``>=5``
    :depends psm-utils: ``>=1.1``
    :depends pyopenms: ``>=3.0``
    :depends pyteomics: ``>=4.7.2``
-   :depends python: ``>=3.9``
+   :depends python: ``>=3.10``
    :depends rich: ``>=12``
+   :depends sqlalchemy: ``>=2``
    :requirements:
 
    :additional platforms:
@@ -111,7 +112,7 @@ ms2rescore
 
     <script>
         var package = "ms2rescore";
-        var versions = ["3.1.5","3.1.5","3.1.4","3.0.3","3.0.2"];
+        var versions = ["3.2.0.post1","3.1.5","3.1.5","3.1.4","3.0.3"];
     </script>
 
 

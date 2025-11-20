@@ -27,11 +27,12 @@ olga
       
       
 
-      ``1.2.4-0``
+      ``1.3.0-0``,  ``1.2.4-0``
 
       
 
    
+   :depends numba: 
    :depends numpy: ``>=1.20``
    :depends python: 
    :requirements:
@@ -84,7 +85,7 @@ olga
 
     <script>
         var package = "olga";
-        var versions = ["1.2.4"];
+        var versions = ["1.3.0","1.2.4"];
     </script>
 
 

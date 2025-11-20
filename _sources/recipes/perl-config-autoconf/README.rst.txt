@@ -13,7 +13,7 @@ perl-config-autoconf
    A module to implement some of AutoConf macros in pure perl.
 
    :homepage: https://metacpan.org/release/Config-AutoConf
-   :license: perl_5
+   :license: Perl_5
    :recipe: /`perl-config-autoconf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-config-autoconf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-config-autoconf/meta.yaml>`_
 
    
@@ -26,13 +26,22 @@ perl-config-autoconf
    :versions:
       
       
+      .. raw:: html
 
-      ``0.320-3``,  ``0.320-2``,  ``0.320-1``,  ``0.320-0``,  ``0.317-1``,  ``0.317-0``,  ``0.311-2``,  ``0.311-1``,  ``0.311-0``
+         <details><summary><span class="truncated-version-list"><code>0.320-4</code>,  <code>0.320-3</code>,  <code>0.320-2</code>,  <code>0.320-1</code>,  <code>0.320-0</code>,  <code>0.317-1</code>,  <code>0.317-0</code>,  <code>0.311-2</code>,  <code>0.311-1</code>,  </span></summary>
+      
 
+      ``0.320-4``,  ``0.320-3``,  ``0.320-2``,  ``0.320-1``,  ``0.320-0``,  ``0.317-1``,  ``0.317-0``,  ``0.311-2``,  ``0.311-1``,  ``0.311-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends libgcc: ``>=13``
+   :depends perl: ``>=5.32.1``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-base: 
    :depends perl-capture-tiny: 
@@ -43,6 +52,10 @@ perl-config-autoconf
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -90,7 +103,7 @@ perl-config-autoconf
 
     <script>
         var package = "perl-config-autoconf";
-        var versions = ["0.320","0.320","0.320","0.320","0.317"];
+        var versions = ["0.320","0.320","0.320","0.320","0.320"];
     </script>
 
 

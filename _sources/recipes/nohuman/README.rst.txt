@@ -13,7 +13,7 @@ nohuman
    Remove human reads from a sequencing run.
 
    :homepage: https://github.com/mbhall88/nohuman
-   :documentation: https://github.com/mbhall88/nohuman/blob/0.4.0/README.md
+   :documentation: https://github.com/mbhall88/nohuman/blob/0.5.0/README.md
    
    :license: MIT / MIT
    :recipe: /`nohuman <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nohuman>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nohuman/meta.yaml>`_
@@ -30,7 +30,7 @@ nohuman
       
       
 
-      ``0.4.0-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -92,7 +92,7 @@ nohuman
 
     <script>
         var package = "nohuman";
-        var versions = ["0.4.0","0.3.0","0.3.0","0.2.1","0.2.0"];
+        var versions = ["0.5.0","0.4.0","0.3.0","0.3.0","0.2.1"];
     </script>
 
 

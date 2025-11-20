@@ -27,7 +27,7 @@ fufihla
       
       
 
-      ``0.2.2-0``,  ``0.1.0-0``
+      ``0.2.3-0``,  ``0.2.2-0``,  ``0.1.0-0``
 
       
 
@@ -91,7 +91,7 @@ fufihla
 
     <script>
         var package = "fufihla";
-        var versions = ["0.2.2","0.1.0"];
+        var versions = ["0.2.3","0.2.2","0.1.0"];
     </script>
 
 

@@ -10,10 +10,12 @@ clark
    :replaces_section_title:
    :noindex:
 
-   Fast\, accurate and versatile k\-mer based classification system
+   Fast\, accurate and versatile k\-mer based classification system.
 
-   :homepage: http://clark.cs.ucr.edu/
-   :license: GPL3
+   :homepage: https://github.com/rouni001/CLARK
+   :documentation: http://clark.cs.ucr.edu
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`clark <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clark>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clark/meta.yaml>`_
    :links: biotools: :biotools:`clark`, doi: :doi:`10.1186/s12864-015-1419-2`
 
@@ -29,10 +31,10 @@ clark
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.6.1-5</code>,  <code>1.2.6.1-4</code>,  <code>1.2.6.1-3</code>,  <code>1.2.6.1-2</code>,  <code>1.2.6.1-1</code>,  <code>1.2.6.1-0</code>,  <code>1.2.5.1-0</code>,  <code>1.2.5-1</code>,  <code>1.2.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.0.0-0</code>,  <code>1.2.6.1-5</code>,  <code>1.2.6.1-4</code>,  <code>1.2.6.1-3</code>,  <code>1.2.6.1-2</code>,  <code>1.2.6.1-1</code>,  <code>1.2.6.1-0</code>,  <code>1.2.5.1-0</code>,  <code>1.2.5-1</code>,  </span></summary>
       
 
-      ``1.2.6.1-5``,  ``1.2.6.1-4``,  ``1.2.6.1-3``,  ``1.2.6.1-2``,  ``1.2.6.1-1``,  ``1.2.6.1-0``,  ``1.2.5.1-0``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.3.1-0``,  ``1.2.3-2``,  ``1.2.3-1``,  ``1.2.2_b-0``
+      ``1.3.0.0-0``,  ``1.2.6.1-5``,  ``1.2.6.1-4``,  ``1.2.6.1-3``,  ``1.2.6.1-2``,  ``1.2.6.1-1``,  ``1.2.6.1-0``,  ``1.2.5.1-0``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.3.1-0``,  ``1.2.3-2``,  ``1.2.3-1``,  ``1.2.2_b-0``
 
       
       .. raw:: html
@@ -47,6 +49,10 @@ clark
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -94,7 +100,7 @@ clark
 
     <script>
         var package = "clark";
-        var versions = ["1.2.6.1","1.2.6.1","1.2.6.1","1.2.6.1","1.2.6.1"];
+        var versions = ["1.3.0.0","1.2.6.1","1.2.6.1","1.2.6.1","1.2.6.1"];
     </script>
 
 

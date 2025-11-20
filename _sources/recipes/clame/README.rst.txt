@@ -13,7 +13,7 @@ clame
    CLAME is a binning software for metagenomic reads. It immplements a fm\-index search algorithm for nucleotide sequence alignment. Then it uses strongly connected component strategy to bin sequences with similar DNA composition.
 
    :homepage: https://github.com/andvides/CLAME
-   :license: GPL / GPL-3.0
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`clame <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clame>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clame/meta.yaml>`_
    :links: doi: :doi:`10.1186/s12864-018-5191-y`
 
@@ -28,17 +28,23 @@ clame
       
       
 
-      ``1.0-1``,  ``1.0-0``
+      ``1.0-3``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
+   :depends libgcc: ``>=13``
+   :depends libgomp: 
+   :depends libopenlibm4: ``>=0.8.1,<1.0a0``
+   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -86,7 +92,7 @@ clame
 
     <script>
         var package = "clame";
-        var versions = ["1.0","1.0"];
+        var versions = ["1.0","1.0","1.0"];
     </script>
 
 

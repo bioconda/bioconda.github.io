@@ -28,17 +28,18 @@ bolt-lmm
       
       
 
-      ``2.3.4-0``
+      ``2.5-0``,  ``2.3.4-0``
 
       
 
    
-   :depends boost-cpp: ``>=1.70.0,<1.70.1.0a0``
-   :depends libgcc-ng: ``>=7.5.0``
-   :depends libstdcxx-ng: ``>=7.5.0``
-   :depends nlopt: ``>=2.6.2,<2.6.3.0a0``
+   :depends boost-cpp: 
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends nlopt: ``>=2.8.0,<2.9.0a0``
    :depends openblas: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends zlib: 
    :requirements:
 
    :additional platforms:
@@ -89,7 +90,7 @@ bolt-lmm
 
     <script>
         var package = "bolt-lmm";
-        var versions = ["2.3.4"];
+        var versions = ["2.5","2.3.4"];
     </script>
 
 

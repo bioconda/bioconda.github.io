@@ -10,10 +10,10 @@ fastmlst
    :replaces_section_title:
    :noindex:
 
-   A Fast Multilocus Sequence Typing scan against PubMLST typing schemes
+   A Fast Multilocus Sequence Typing scan against PubMLST typing schemes.
 
    :homepage: https://github.com/EnzoAndree/FastMLST
-   :license: LGPL-3.0-only
+   :license: LGPL / LGPL-3.0-only
    :recipe: /`fastmlst <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastmlst>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastmlst/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ fastmlst
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.16-0</code>,  <code>0.0.15-0</code>,  <code>0.0.14-0</code>,  <code>0.0.13-0</code>,  <code>0.0.12-0</code>,  <code>0.0.11-0</code>,  <code>0.0.10-0</code>,  <code>0.0.9-0</code>,  <code>0.0.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.19-0</code>,  <code>0.0.16-0</code>,  <code>0.0.15-0</code>,  <code>0.0.14-0</code>,  <code>0.0.13-0</code>,  <code>0.0.12-0</code>,  <code>0.0.11-0</code>,  <code>0.0.10-0</code>,  <code>0.0.9-0</code>,  </span></summary>
       
 
-      ``0.0.16-0``,  ``0.0.15-0``,  ``0.0.14-0``,  ``0.0.13-0``,  ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``
+      ``0.0.19-0``,  ``0.0.16-0``,  ``0.0.15-0``,  ``0.0.14-0``,  ``0.0.13-0``,  ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``
 
       
       .. raw:: html
@@ -95,7 +95,7 @@ fastmlst
 
     <script>
         var package = "fastmlst";
-        var versions = ["0.0.16","0.0.15","0.0.14","0.0.13","0.0.12"];
+        var versions = ["0.0.19","0.0.16","0.0.15","0.0.14","0.0.13"];
     </script>
 
 

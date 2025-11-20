@@ -28,10 +28,10 @@ perl-config-any
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.33-4</code>,  <code>0.33-3</code>,  <code>0.33-2</code>,  <code>0.33-1</code>,  <code>0.33-0</code>,  <code>0.32-3</code>,  <code>0.32-2</code>,  <code>0.32-1</code>,  <code>0.32-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.33-5</code>,  <code>0.33-4</code>,  <code>0.33-3</code>,  <code>0.33-2</code>,  <code>0.33-1</code>,  <code>0.33-0</code>,  <code>0.32-3</code>,  <code>0.32-2</code>,  <code>0.32-1</code>,  </span></summary>
       
 
-      ``0.33-4``,  ``0.33-3``,  ``0.33-2``,  ``0.33-1``,  ``0.33-0``,  ``0.32-3``,  ``0.32-2``,  ``0.32-1``,  ``0.32-0``,  ``0.27-2``,  ``0.27-1``,  ``0.27-0``
+      ``0.33-5``,  ``0.33-4``,  ``0.33-3``,  ``0.33-2``,  ``0.33-1``,  ``0.33-0``,  ``0.32-3``,  ``0.32-2``,  ``0.32-1``,  ``0.32-0``,  ``0.27-2``,  ``0.27-1``,  ``0.27-0``
 
       
       .. raw:: html
@@ -41,6 +41,7 @@ perl-config-any
 
    
    :depends libgcc: ``>=13``
+   :depends perl: ``>=5.32.1``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-app-cpanminus: 
    :requirements:
@@ -49,7 +50,7 @@ perl-config-any
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>osx-arm64</code></span>
+         <span class="additional-platforms"><code>osx-arm64</code>,  <code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

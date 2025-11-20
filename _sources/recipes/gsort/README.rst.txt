@@ -10,10 +10,12 @@ gsort
    :replaces_section_title:
    :noindex:
 
-   sort genomic files according to a genomefile
+   Sort genomic files according to a genomefile.
 
    :homepage: https://github.com/brentp/gsort
-   :license: MIT
+   :documentation: https://github.com/brentp/gsort/blob/v0.1.5/README.md
+   
+   :license: MIT / MIT
    :recipe: /`gsort <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gsort>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gsort/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ gsort
       
       
 
-      ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``0.1.5-0``,  ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
@@ -35,6 +37,10 @@ gsort
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -82,7 +88,7 @@ gsort
 
     <script>
         var package = "gsort";
-        var versions = ["0.1.4","0.1.4","0.1.3","0.1.2","0.0.6"];
+        var versions = ["0.1.5","0.1.4","0.1.4","0.1.3","0.1.2"];
     </script>
 
 
