@@ -28,10 +28,10 @@ arborator
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.6-1</code>,  <code>1.0.6-0</code>,  <code>1.0.0-5</code>,  <code>1.0.0-4</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.6-1</code>,  <code>1.0.6-0</code>,  <code>1.0.0-5</code>,  <code>1.0.0-4</code>,  <code>1.0.0-3</code>,  <code>1.0.0-2</code>,  </span></summary>
       
 
-      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -44,6 +44,7 @@ arborator
    :depends genomic_address_service: 
    :depends numba: ``>=0.57.1,<=0.61.2``
    :depends numpy: ``>=1.24.4,<2.0.0``
+   :depends openpyxl: 
    :depends pandas: ``>=2.0.2,<2.2.0``
    :depends profile_dists: 
    :depends psutil: 
@@ -102,7 +103,7 @@ arborator
 
     <script>
         var package = "arborator";
-        var versions = ["1.2.0","1.1.0","1.0.6","1.0.6","1.0.0"];
+        var versions = ["1.2.0","1.2.0","1.1.0","1.0.6","1.0.6"];
     </script>
 
 
