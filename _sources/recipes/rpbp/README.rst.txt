@@ -31,10 +31,10 @@ rpbp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.0-0</code>,  <code>3.0.4-3</code>,  <code>3.0.4-2</code>,  <code>3.0.4-1</code>,  <code>3.0.4-0</code>,  <code>3.0.2-2</code>,  <code>3.0.2-1</code>,  <code>3.0.2-0</code>,  <code>3.0.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.1-0</code>,  <code>4.0.0-0</code>,  <code>3.0.4-3</code>,  <code>3.0.4-2</code>,  <code>3.0.4-1</code>,  <code>3.0.4-0</code>,  <code>3.0.2-2</code>,  <code>3.0.2-1</code>,  <code>3.0.2-0</code>,  </span></summary>
       
 
-      ``4.0.0-0``,  ``3.0.4-3``,  ``3.0.4-2``,  ``3.0.4-1``,  ``3.0.4-0``,  ``3.0.2-2``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``
+      ``4.0.1-0``,  ``4.0.0-0``,  ``3.0.4-3``,  ``3.0.4-2``,  ``3.0.4-1``,  ``3.0.4-0``,  ``3.0.2-2``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``
 
       
       .. raw:: html
@@ -116,7 +116,7 @@ rpbp
 
     <script>
         var package = "rpbp";
-        var versions = ["4.0.0","3.0.4","3.0.4","3.0.4","3.0.4"];
+        var versions = ["4.0.1","4.0.0","3.0.4","3.0.4","3.0.4"];
     </script>
 
 

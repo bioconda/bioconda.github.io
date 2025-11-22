@@ -28,7 +28,7 @@ metaxaqr
       
       
 
-      ``3.0rc1.1-0``
+      ``3.0rc2-0``,  ``3.0rc1.1-0``
 
       
 
@@ -88,7 +88,7 @@ metaxaqr
 
     <script>
         var package = "metaxaqr";
-        var versions = ["3.0rc1.1"];
+        var versions = ["3.0rc2","3.0rc1.1"];
     </script>
 
 
