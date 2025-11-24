@@ -13,8 +13,11 @@ spapros
    Probe set selection for targeted spatial transcriptomics.
 
    :homepage: https://github.com/theislab/spapros
-   :license: MIT
+   :documentation: https://spapros.readthedocs.io/en/latest
+   
+   :license: MIT / MIT
    :recipe: /`spapros <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spapros>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spapros/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41592-024-02496-z`, biotools: :biotools:`spapros`
 
    
 
@@ -27,7 +30,7 @@ spapros
       
       
 
-      ``0.1.5-0``
+      ``0.1.6-0``,  ``0.1.5-0``
 
       
 
@@ -40,17 +43,17 @@ spapros
    :depends matplotlib-base: ``>=3.6.3``
    :depends nox: ``>=2023.04.22``
    :depends nox-poetry: ``>=1.0.3``
-   :depends numpy: ``1.26.4``
-   :depends pandas: ``>=1.3.0,<2.0.0``
+   :depends numpy: ``<2``
+   :depends pandas: ``>=2.0.0,<3.0.0``
    :depends pandoc: ``>=2.1``
    :depends pillow: ``>=10.0.2``
-   :depends python: ``>=3.9,<3.10``
+   :depends python: ``>=3.11,<3.14``
    :depends pyyaml: ``>=6.0.1``
    :depends questionary: ``>=1.10.0``
    :depends rich: ``>=10.1.0``
    :depends ruamel.yaml: ``>=0.17.10``
    :depends scanpy: ``>=1.9.8``
-   :depends seaborn: ``>=0.11.1``
+   :depends seaborn-base: ``>=0.11.1``
    :depends upsetplot: ``>=0.7.0``
    :depends venndata: ``>=0.1.0``
    :depends xgboost: ``>=1.6.1``
@@ -104,7 +107,7 @@ spapros
 
     <script>
         var package = "spapros";
-        var versions = ["0.1.5"];
+        var versions = ["0.1.6","0.1.5"];
     </script>
 
 

@@ -28,7 +28,7 @@ bioemu
       
       
 
-      ``1.1.0-0``
+      ``1.2.0-0``,  ``1.1.0-0``
 
       
 
@@ -95,7 +95,7 @@ bioemu
 
     <script>
         var package = "bioemu";
-        var versions = ["1.1.0"];
+        var versions = ["1.2.0","1.1.0"];
     </script>
 
 

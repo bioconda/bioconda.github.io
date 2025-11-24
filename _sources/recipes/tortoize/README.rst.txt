@@ -34,13 +34,13 @@ tortoize
       
       
 
-      ``2.0.15-1``,  ``2.0.15-0``
+      ``2.0.16-0``,  ``2.0.15-1``,  ``2.0.15-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends dssp: ``>=4.5.3,<4.6.0a0``
+   :depends dssp: ``>=4.5.6,<4.6.0a0``
    :depends libboost: ``>=1.86.0,<1.87.0a0``
    :depends libcifpp: ``>=8.0.1,<9.0a0``
    :depends libgcc: ``>=13``
@@ -100,7 +100,7 @@ tortoize
 
     <script>
         var package = "tortoize";
-        var versions = ["2.0.15","2.0.15"];
+        var versions = ["2.0.16","2.0.15","2.0.15"];
     </script>
 
 

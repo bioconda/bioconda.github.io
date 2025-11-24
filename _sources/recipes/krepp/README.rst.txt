@@ -28,13 +28,13 @@ krepp
       
       
 
-      ``0.5.1-0``
+      ``0.6.0-0``,  ``0.5.1-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libcurl: ``>=8.14.1,<9.0a0``
+   :depends libcurl: ``>=8.17.0,<9.0a0``
    :depends libgcc: ``>=13``
    :depends libgomp: 
    :depends libstdcxx: ``>=13``
@@ -93,7 +93,7 @@ krepp
 
     <script>
         var package = "krepp";
-        var versions = ["0.5.1"];
+        var versions = ["0.6.0","0.5.1"];
     </script>
 
 

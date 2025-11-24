@@ -30,10 +30,10 @@ macrel
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  </span></summary>
       
 
-      ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2-0``
+      ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2-0``
 
       
       .. raw:: html
@@ -43,14 +43,16 @@ macrel
 
    
    :depends atomicwrites: 
-   :depends joblib: ``<1.3.0``
+   :depends joblib: 
    :depends megahit: 
    :depends ngless: 
+   :depends onnxruntime: 
    :depends paladin: 
    :depends pandas: 
    :depends pyrodigal: ``>=0.7.3``
    :depends python: 
-   :depends scikit-learn: ``<1.3.0``
+   :depends requests: 
+   :depends scikit-learn: 
    :depends tzlocal: 
    :requirements:
 
@@ -102,7 +104,7 @@ macrel
 
     <script>
         var package = "macrel";
-        var versions = ["1.5.0","1.4.0","1.3.0","1.2.0","1.2.0"];
+        var versions = ["1.6.0","1.6.0","1.5.0","1.4.0","1.3.0"];
     </script>
 
 

@@ -13,6 +13,8 @@ expansionhunterdenovo
    ExpansionHunter Denovo \(EHdn\) is a suite of tools for detecting novel expansions of short tandem repeats \(STRs\).
 
    :homepage: https://github.com/Illumina/ExpansionHunterDenovo
+   :documentation: https://github.com/Illumina/ExpansionHunterDenovo/blob/v0.9.0/documentation/00_Introduction.md
+   
    :license: APACHE / Apache-2.0
    :recipe: /`expansionhunterdenovo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/expansionhunterdenovo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/expansionhunterdenovo/meta.yaml>`_
 
@@ -28,10 +30,10 @@ expansionhunterdenovo
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.0-10</code>,  <code>0.9.0-9</code>,  <code>0.9.0-8</code>,  <code>0.9.0-7</code>,  <code>0.9.0-6</code>,  <code>0.9.0-5</code>,  <code>0.9.0-4</code>,  <code>0.9.0-3</code>,  <code>0.9.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.0-11</code>,  <code>0.9.0-10</code>,  <code>0.9.0-9</code>,  <code>0.9.0-8</code>,  <code>0.9.0-7</code>,  <code>0.9.0-6</code>,  <code>0.9.0-5</code>,  <code>0.9.0-4</code>,  <code>0.9.0-3</code>,  </span></summary>
       
 
-      ``0.9.0-10``,  ``0.9.0-9``,  ``0.9.0-8``,  ``0.9.0-7``,  ``0.9.0-6``,  ``0.9.0-5``,  ``0.9.0-4``,  ``0.9.0-3``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``
+      ``0.9.0-11``,  ``0.9.0-10``,  ``0.9.0-9``,  ``0.9.0-8``,  ``0.9.0-7``,  ``0.9.0-6``,  ``0.9.0-5``,  ``0.9.0-4``,  ``0.9.0-3``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``
 
       
       .. raw:: html
@@ -44,7 +46,7 @@ expansionhunterdenovo
    :depends boost-cpp: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends fmt: ``>=10.2.1,<11.0a0``
-   :depends htslib: ``>=1.22,<1.23.0a0``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``

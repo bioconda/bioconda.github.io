@@ -10,10 +10,10 @@ itolapi
    :replaces_section_title:
    :noindex:
 
-   API for interacting with itol.embl.de
+   API for interacting with itol.embl.de.
 
    :homepage: https://github.com/albertyw/itolapi
-   :license: MIT / MIT License
+   :license: MIT / MIT
    :recipe: /`itolapi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/itolapi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/itolapi/meta.yaml>`_
 
    iTOL Python API for the Interactive Tree of Life \(iTOL\). Created by Albert Wang \(git at albertyw.com\) With Complements to\: \`iTOL \(Interactive Tree of Life\). This iTOL API allows local software to upload trees to iTOL using itol.py and export uploaded trees using itolexport.py using direct Python calls or through shell.  An active internet connection to the iTOL website is required.
@@ -27,12 +27,12 @@ itolapi
       
       
 
-      ``4.1.5-0``,  ``4.1.4-0``,  ``4.1.3-0``,  ``4.1.2-0``,  ``4.1.0-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-0``
+      ``4.1.6-0``,  ``4.1.5-0``,  ``4.1.4-0``,  ``4.1.3-0``,  ``4.1.2-0``,  ``4.1.0-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-0``
 
       
 
    
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.7``
    :depends requests: ``>=2.0,<3.0``
    :requirements:
 
@@ -84,7 +84,7 @@ itolapi
 
     <script>
         var package = "itolapi";
-        var versions = ["4.1.5","4.1.4","4.1.3","4.1.2","4.1.0"];
+        var versions = ["4.1.6","4.1.5","4.1.4","4.1.3","4.1.2"];
     </script>
 
 

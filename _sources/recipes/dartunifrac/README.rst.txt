@@ -13,7 +13,9 @@ dartunifrac
    DartUniFrac is an ultra\-fast UniFrac algorithm that scales to millions of samples. It was designed based on optimal balanced parenthesis and Weighted MinHash sketching.
 
    :homepage: https://github.com/jianshu93/DartUniFrac
-   :license: MIT
+   :documentation: https://github.com/jianshu93/DartUniFrac/blob/v0.2.7/README.md
+   
+   :license: MIT / MIT
    :recipe: /`dartunifrac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dartunifrac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dartunifrac/meta.yaml>`_
 
    
@@ -27,14 +29,15 @@ dartunifrac
       
       
 
-      ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``
+      ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``
 
       
 
    
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
-   :depends openssl: ``>=3.5.4,<4.0a0``
+   :depends openblas: 
+   :depends openssl: ``>=3.6.0,<4.0a0``
    :requirements:
 
    :additional platforms:
@@ -89,7 +92,7 @@ dartunifrac
 
     <script>
         var package = "dartunifrac";
-        var versions = ["0.2.6","0.2.5","0.2.4","0.2.3"];
+        var versions = ["0.2.7","0.2.6","0.2.5","0.2.4","0.2.3"];
     </script>
 
 

@@ -28,7 +28,7 @@ reditools3
       
       
 
-      ``3.4-0``
+      ``3.5-0``,  ``3.4-0``
 
       
 
@@ -86,7 +86,7 @@ reditools3
 
     <script>
         var package = "reditools3";
-        var versions = ["3.4"];
+        var versions = ["3.5","3.4"];
     </script>
 
 
