@@ -27,13 +27,13 @@ hamronization
       
       
 
-      ``1.1.9-0``,  ``1.1.4-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``
+      ``1.1.9-1``,  ``1.1.9-0``,  ``1.1.4-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``
 
       
 
    
    :depends pandas: 
-   :depends python: ``>=3.7``
+   :depends python: ``>=3.7,<3.14``
    :requirements:
 
    :additional platforms:
@@ -84,7 +84,7 @@ hamronization
 
     <script>
         var package = "hamronization";
-        var versions = ["1.1.9","1.1.4","1.1.1","1.1.0","1.0.3"];
+        var versions = ["1.1.9","1.1.9","1.1.4","1.1.1","1.1.0"];
     </script>
 
 

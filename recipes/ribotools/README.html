@@ -67,16 +67,16 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">ribotools</span></span></dt>
-<dd><p>Ribo-seq analysis tools associated with the Rp-Bp package and more</p>
+<dd><p>Ribotools: a toolbox for translation efficiency (TE) and differential expression (DE) analyses.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/eboileau/ribotools">https://github.com/eboileau/ribotools</a></p>
 </dd>
 <dt class="field-even">Documentation<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="reference external" href="https://ribotools.readthedocs.io/en/latest/">https://ribotools.readthedocs.io/en/latest/</a></p>
+<dd class="field-even"><p><a class="reference external" href="https://ribotools.readthedocs.io/en/latest">https://ribotools.readthedocs.io/en/latest</a></p>
 </dd>
 <dt class="field-odd">License<span class="colon">:</span></dt>
-<dd class="field-odd"><p>MIT</p>
+<dd class="field-odd"><p>MIT / MIT</p>
 </dd>
 <dt class="field-even">Recipe<span class="colon">:</span></dt>
 <dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribotools">ribotools</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribotools/meta.yaml">meta.yaml</a></p>
@@ -91,7 +91,7 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/ribotools"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/ribotools.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/ribotools"><img alt="docker_ribotools" src="https://quay.io/repository/biocontainers/ribotools/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.4-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.0.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.4-0</span></code></p>
 </dd>
 <dt class="field-even">depends bioconductor-apeglm<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
@@ -100,33 +100,34 @@
 <dt class="field-even">depends bioconductor-ihw<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends htseq<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.0.2</span></code></p>
-</dd>
+<dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends python<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.7,&lt;3.11</span></code></p>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.11,&lt;3.14</span></code></p>
 </dd>
-<dt class="field-odd">depends r-ashr<span class="colon">:</span></dt>
+<dt class="field-odd">depends r-argparser<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-base<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.2.3</span></code></p>
+<dt class="field-even">depends r-ashr<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends r-base<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.4.3</span></code></p>
 </dd>
-<dt class="field-odd">depends r-devtools<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-openxlsx<span class="colon">:</span></dt>
+<dt class="field-even">depends r-devtools<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends r-r.utils<span class="colon">:</span></dt>
+<dt class="field-odd">depends r-openxlsx<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends r-tidyverse<span class="colon">:</span></dt>
+<dt class="field-even">depends r-r.utils<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends r-yaml<span class="colon">:</span></dt>
+<dt class="field-odd">depends r-tidyverse<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends rpbp<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.0.1</span></code></p>
+<dt class="field-even">depends r-yaml<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends rpbp<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.0.1</span></code></p>
 </dd>
-<dt class="field-odd">requirements<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">additional platforms<span class="colon">:</span></dt>
+<dt class="field-even">requirements<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
+<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -161,7 +162,7 @@ others.</p>
 
 <script>
     var package = "ribotools";
-    var versions = ["1.0.4"];
+    var versions = ["2.0.0","1.0.4"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

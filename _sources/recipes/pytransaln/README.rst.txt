@@ -27,7 +27,7 @@ pytransaln
       
       
 
-      ``0.2.1-0``
+      ``0.2.2-0``,  ``0.2.1-0``
 
       
 
@@ -35,7 +35,7 @@ pytransaln
    :depends biopython: ``>=1.80,<2``
    :depends matplotlib-base: ``>=3.6,<4``
    :depends pandas: ``>=1.3,<3``
-   :depends pyhmmer: ``0.10``
+   :depends pyhmmer: ``>=0.11``
    :depends python: 
    :requirements:
 
@@ -87,7 +87,7 @@ pytransaln
 
     <script>
         var package = "pytransaln";
-        var versions = ["0.2.1"];
+        var versions = ["0.2.2","0.2.1"];
     </script>
 
 

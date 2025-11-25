@@ -13,7 +13,7 @@ ultra
    ULTRA is a tool for finding and annotating tandem repeats within genomic sequence.
 
    :homepage: https://github.com/TravisWheelerLab/ULTRA
-   :documentation: https://github.com/TravisWheelerLab/ULTRA/blob/v1.2.0/README.md
+   :documentation: https://github.com/TravisWheelerLab/ULTRA/blob/v1.2.1/README.md
    
    :license: BSD / BSD-3-Clause
    :recipe: /`ultra <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ultra>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ultra/meta.yaml>`_
@@ -29,7 +29,7 @@ ultra
       
       
 
-      ``1.2.0-0``,  ``1.1.0-0``
+      ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``
 
       
 
@@ -90,7 +90,7 @@ ultra
 
     <script>
         var package = "ultra";
-        var versions = ["1.2.0","1.1.0"];
+        var versions = ["1.2.1","1.2.0","1.1.0"];
     </script>
 
 

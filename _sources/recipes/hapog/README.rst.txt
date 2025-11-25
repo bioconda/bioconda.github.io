@@ -10,14 +10,14 @@ hapog
    :replaces_section_title:
    :noindex:
 
-   Haplotype\-Aware Polishing of Genomes
+   Haplotype\-Aware Polishing of Genomes.
 
    :homepage: https://github.com/institut-de-genomique/HAPO-G
-   :documentation: https://www.genoscope.cns.fr/hapog/
+   :documentation: https://www.genoscope.cns.fr/hapog
    
    :license: OTHER / CECILL-2.1
    :recipe: /`hapog <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hapog>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hapog/meta.yaml>`_
-   :links: doi: :doi:`10.1093/nargab/lqab034`
+   :links: doi: :doi:`10.1093/nargab/lqab034`, biotools: :biotools:`hapog`, usegalaxy-eu: :usegalaxy-eu:`hapog`
 
    
 
@@ -31,10 +31,10 @@ hapog
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.8-1</code>,  <code>1.3.8-0</code>,  <code>1.3.7-0</code>,  <code>1.3.6-0</code>,  <code>1.3.5-0</code>,  <code>1.3.4-3</code>,  <code>1.3.4-2</code>,  <code>1.3.4-1</code>,  <code>1.3.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.8-3</code>,  <code>1.3.8-1</code>,  <code>1.3.8-0</code>,  <code>1.3.7-0</code>,  <code>1.3.6-0</code>,  <code>1.3.5-0</code>,  <code>1.3.4-3</code>,  <code>1.3.4-2</code>,  <code>1.3.4-1</code>,  </span></summary>
       
 
-      ``1.3.8-1``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-3``,  ``1.3.4-2``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``
+      ``1.3.8-3``,  ``1.3.8-1``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-3``,  ``1.3.4-2``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``
 
       
       .. raw:: html
@@ -45,9 +45,11 @@ hapog
    
    :depends biopython: 
    :depends bwa: 
-   :depends htslib: ``>=1.20,<1.23.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
+   :depends libgcc: ``>=13``
+   :depends liblzma: ``>=5.8.1,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends minimap2: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
@@ -55,6 +57,10 @@ hapog
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -102,7 +108,7 @@ hapog
 
     <script>
         var package = "hapog";
-        var versions = ["1.3.8","1.3.8","1.3.7","1.3.6","1.3.5"];
+        var versions = ["1.3.8","1.3.8","1.3.8","1.3.7","1.3.6"];
     </script>
 
 

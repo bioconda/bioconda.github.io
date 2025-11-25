@@ -13,7 +13,7 @@ suppa
    A tool to study splicing across multiple conditions at high speed and accuracy.
 
    :homepage: https://github.com/comprna/SUPPA
-   :license: MIT / MIT License
+   :license: MIT / MIT
    :recipe: /`suppa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/suppa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/suppa/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ suppa
       
       
 
-      ``2.3-2``,  ``2.3-1``,  ``2.3-0``
+      ``2.4-0``,  ``2.3-2``,  ``2.3-1``,  ``2.3-0``
 
       
 
@@ -88,7 +88,7 @@ suppa
 
     <script>
         var package = "suppa";
-        var versions = ["2.3","2.3","2.3"];
+        var versions = ["2.4","2.3","2.3","2.3"];
     </script>
 
 

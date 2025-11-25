@@ -10,7 +10,7 @@ nail
    :replaces_section_title:
    :noindex:
 
-   Profile Hidden Markov Model \(pHMM\) biological sequence alignment tool
+   Profile Hidden Markov Model \(pHMM\) biological sequence alignment tool.
 
    :homepage: https://github.com/TravisWheelerLab/nail
    :license: BSD / BSD-3-Clause
@@ -28,7 +28,7 @@ nail
       
       
 
-      ``0.4.0-0``,  ``0.3.0-1``,  ``0.3.0-0``
+      ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.3.0-0``
 
       
 
@@ -37,6 +37,10 @@ nail
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -84,7 +88,7 @@ nail
 
     <script>
         var package = "nail";
-        var versions = ["0.4.0","0.3.0","0.3.0"];
+        var versions = ["0.4.0","0.4.0","0.3.0","0.3.0"];
     </script>
 
 

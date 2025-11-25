@@ -27,7 +27,7 @@ longdust
       
       
 
-      ``1.3-0``,  ``1.2-0``
+      ``1.4-0``,  ``1.3-0``,  ``1.2-0``
 
       
 
@@ -88,7 +88,7 @@ longdust
 
     <script>
         var package = "longdust";
-        var versions = ["1.3","1.2"];
+        var versions = ["1.4","1.3","1.2"];
     </script>
 
 

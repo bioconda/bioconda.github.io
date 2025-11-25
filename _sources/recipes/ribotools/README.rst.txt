@@ -10,12 +10,12 @@ ribotools
    :replaces_section_title:
    :noindex:
 
-   Ribo\-seq analysis tools associated with the Rp\-Bp package and more
+   Ribotools\: a toolbox for translation efficiency \(TE\) and differential expression \(DE\) analyses.
 
    :homepage: https://github.com/eboileau/ribotools
-   :documentation: https://ribotools.readthedocs.io/en/latest/
+   :documentation: https://ribotools.readthedocs.io/en/latest
    
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`ribotools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribotools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribotools/meta.yaml>`_
 
    
@@ -29,7 +29,7 @@ ribotools
       
       
 
-      ``1.0.4-0``
+      ``2.0.0-0``,  ``1.0.4-0``
 
       
 
@@ -37,16 +37,17 @@ ribotools
    :depends bioconductor-apeglm: 
    :depends bioconductor-deseq2: 
    :depends bioconductor-ihw: 
-   :depends htseq: ``>=2.0.2``
-   :depends python: ``>=3.7,<3.11``
+   :depends htseq: 
+   :depends python: ``>=3.11,<3.14``
+   :depends r-argparser: 
    :depends r-ashr: 
-   :depends r-base: ``>=4.2.3``
+   :depends r-base: ``>=4.4.3``
    :depends r-devtools: 
    :depends r-openxlsx: 
    :depends r-r.utils: 
    :depends r-tidyverse: 
    :depends r-yaml: 
-   :depends rpbp: ``>=3.0.1``
+   :depends rpbp: ``>=4.0.1``
    :requirements:
 
    :additional platforms:
@@ -97,7 +98,7 @@ ribotools
 
     <script>
         var package = "ribotools";
-        var versions = ["1.0.4"];
+        var versions = ["2.0.0","1.0.4"];
     </script>
 
 
