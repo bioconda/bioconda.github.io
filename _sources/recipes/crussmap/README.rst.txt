@@ -12,9 +12,10 @@ crussmap
 
    crussmap is a faster tool to convert genome coordinates between difference reference assemblies.
 
-
    :homepage: https://github.com/wjwei-handsome/crussmap
-   :license: MIT
+   :documentation: https://crates.io/crates/crussmap
+   
+   :license: MIT / MIT
    :recipe: /`crussmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crussmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crussmap/meta.yaml>`_
 
    
@@ -28,7 +29,7 @@ crussmap
       
       
 
-      ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -37,10 +38,14 @@ crussmap
    :depends libcblas: ``>=3.9.0,<4.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
-   :depends openssl: ``>=3.4.0,<4.0a0``
+   :depends openssl: ``>=3.6.0,<4.0a0``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -88,7 +93,7 @@ crussmap
 
     <script>
         var package = "crussmap";
-        var versions = ["1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.0.1","1.0.0","1.0.0","1.0.0"];
     </script>
 
 

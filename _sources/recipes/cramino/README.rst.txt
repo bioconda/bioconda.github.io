@@ -13,7 +13,7 @@ cramino
    A tool for very fast quality assessment of long read cram\/bam files.
 
    :homepage: https://github.com/wdecoster/cramino
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`cramino <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cramino>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cramino/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ cramino
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.17.0-0</code>,  <code>0.16.0-0</code>,  <code>0.15.0-1</code>,  <code>0.15.0-0</code>,  <code>0.14.5-0</code>,  <code>0.14.4-0</code>,  <code>0.14.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.17.0-0</code>,  <code>0.16.0-0</code>,  <code>0.15.0-1</code>,  <code>0.15.0-0</code>,  <code>0.14.5-0</code>,  <code>0.14.4-0</code>,  </span></summary>
       
 
-      ``1.1.0-0``,  ``1.0.0-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.0-1``,  ``0.15.0-0``,  ``0.14.5-0``,  ``0.14.4-0``,  ``0.14.3-0``,  ``0.14.1-0``,  ``0.13.1-0``,  ``0.13.0-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.9-0``,  ``0.9.7-2``,  ``0.9.7-1``,  ``0.9.7-0``
+      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.0-1``,  ``0.15.0-0``,  ``0.14.5-0``,  ``0.14.4-0``,  ``0.14.3-0``,  ``0.14.1-0``,  ``0.13.1-0``,  ``0.13.0-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.9-0``,  ``0.9.7-2``,  ``0.9.7-1``,  ``0.9.7-0``
 
       
       .. raw:: html
@@ -42,13 +42,14 @@ cramino
    
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
+   :depends openssl: ``>=3.6.0,<4.0a0``
    :requirements:
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -96,7 +97,7 @@ cramino
 
     <script>
         var package = "cramino";
-        var versions = ["1.1.0","1.0.0","0.17.0","0.16.0","0.15.0"];
+        var versions = ["1.2.0","1.1.0","1.0.0","0.17.0","0.16.0"];
     </script>
 
 

@@ -12,8 +12,10 @@ r-rphast
 
    Provides an R interface to the \'PHAST\'\(\<http\:\/\/compgen.cshl.edu\/phast\/\>\) software \(Phylogenetic Analysis with Space\/Time Models\).  It can be used for many types of analysis in comparative and evolutionary genomics\, such as estimating models of evolution from sequence data\, scoring alignments for conservation or acceleration\, and predicting elements based on conservation or custom phylogenetic hidden Markov models.  It can also perform many basic operations on multiple sequence alignments and phylogenetic trees.
 
-   :homepage: http://compgen.cshl.edu/rphast
-   :license: BSD / BSD_3_clause + file LICENSE
+   :homepage: https://github.com/CshlSiepelLab/RPHAST
+   :documentation: http://compgen.cshl.edu/phast
+   
+   :license: BSD / BSD-3-Clause
    :recipe: /`r-rphast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rphast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rphast/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ r-rphast
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.11-0</code>,  <code>1.6.9-9</code>,  <code>1.6.9-8</code>,  <code>1.6.9-7</code>,  <code>1.6.9-6</code>,  <code>1.6.9-5</code>,  <code>1.6.9-4</code>,  <code>1.6.9-3</code>,  <code>1.6.9-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.11-1</code>,  <code>1.6.11-0</code>,  <code>1.6.9-9</code>,  <code>1.6.9-8</code>,  <code>1.6.9-7</code>,  <code>1.6.9-6</code>,  <code>1.6.9-5</code>,  <code>1.6.9-4</code>,  <code>1.6.9-3</code>,  </span></summary>
       
 
-      ``1.6.11-0``,  ``1.6.9-9``,  ``1.6.9-8``,  ``1.6.9-7``,  ``1.6.9-6``,  ``1.6.9-5``,  ``1.6.9-4``,  ``1.6.9-3``,  ``1.6.9-2``,  ``1.6.9-1``,  ``1.6.9-0``
+      ``1.6.11-1``,  ``1.6.11-0``,  ``1.6.9-9``,  ``1.6.9-8``,  ``1.6.9-7``,  ``1.6.9-6``,  ``1.6.9-5``,  ``1.6.9-4``,  ``1.6.9-3``,  ``1.6.9-2``,  ``1.6.9-1``,  ``1.6.9-0``
 
       
       .. raw:: html
@@ -48,6 +50,10 @@ r-rphast
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -95,7 +101,7 @@ r-rphast
 
     <script>
         var package = "r-rphast";
-        var versions = ["1.6.11","1.6.9","1.6.9","1.6.9","1.6.9"];
+        var versions = ["1.6.11","1.6.11","1.6.9","1.6.9","1.6.9"];
     </script>
 
 

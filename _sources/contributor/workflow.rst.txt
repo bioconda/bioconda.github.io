@@ -114,10 +114,12 @@ during the build you will have to fix. Repeat :ref:`make_edits` and
 
 Eventually, your build will "turn green". If you are a member of
 Bioconda, you can now add the ``please review & merge`` label to
-submit your PR for review. Otherwise, just ask on `Gitter`_ or ping
-``@bioconda/core``.
+submit your PR for review. Otherwise, leave a comment in the PR with
+the line ``@BiocondaBot please add label`` and the bot will label
+the PR for you. If you run into problems or have questions just ask
+on `Gitter`_ or ping ``@bioconda/core``.
 
-Once you changes have been approved, they will be "merged" into our
+Once your changes have been approved, they will be "merged" into our
 main repository and the altered packages uploaded to our channel.
 
 .. _`About Pull Requests`: https://help.github.com/articles/about-pull-requests/

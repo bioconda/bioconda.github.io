@@ -13,7 +13,7 @@ metabolights-utils
    MetaboLights open metabolomics data repository command line interface \(CLI\)\, common MetaboLights data models\, utility methods and classes.
 
    :homepage: https://github.com/EBI-Metabolights/metabolights-utils
-   :documentation: https://github.com/EBI-Metabolights/metabolights-utils/blob/v1.4.13/README.md
+   :documentation: https://github.com/EBI-Metabolights/metabolights-utils/blob/v1.4.15/README.md
    
    :license: APACHE / Apache-2.0
    :recipe: /`metabolights-utils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metabolights-utils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metabolights-utils/meta.yaml>`_
@@ -30,10 +30,10 @@ metabolights-utils
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.13-0</code>,  <code>1.4.12-0</code>,  <code>1.4.11-0</code>,  <code>1.4.9-0</code>,  <code>1.4.8-0</code>,  <code>1.4.5-0</code>,  <code>1.4.4-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.15-0</code>,  <code>1.4.13-0</code>,  <code>1.4.12-0</code>,  <code>1.4.11-0</code>,  <code>1.4.9-0</code>,  <code>1.4.8-0</code>,  <code>1.4.5-0</code>,  <code>1.4.4-0</code>,  <code>1.4.3-0</code>,  </span></summary>
       
 
-      ``1.4.13-0``,  ``1.4.12-0``,  ``1.4.11-0``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.12-0``,  ``1.3.10-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.1-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.12-0``,  ``1.1.11-0``,  ``1.1.10-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``
+      ``1.4.15-0``,  ``1.4.13-0``,  ``1.4.12-0``,  ``1.4.11-0``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.12-0``,  ``1.3.10-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.1-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.12-0``,  ``1.1.11-0``,  ``1.1.10-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -103,7 +103,7 @@ metabolights-utils
 
     <script>
         var package = "metabolights-utils";
-        var versions = ["1.4.13","1.4.12","1.4.11","1.4.9","1.4.8"];
+        var versions = ["1.4.15","1.4.13","1.4.12","1.4.11","1.4.9"];
     </script>
 
 
