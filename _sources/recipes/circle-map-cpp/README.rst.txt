@@ -10,10 +10,10 @@ circle-map-cpp
    :replaces_section_title:
    :noindex:
 
-   Circle\-Map\-cpp is the C\+\+ version of Circle\-Map
+   Circle\-Map\-cpp is the C\+\+ version of Circle\-Map.
 
    :homepage: https://github.com/BGI-Qingdao/Circle-Map-cpp
-   :license: GPL-3.0-only
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`circle-map-cpp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/circle-map-cpp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/circle-map-cpp/meta.yaml>`_
 
    
@@ -27,20 +27,26 @@ circle-map-cpp
       
       
 
-      ``0.5.0-1``,  ``0.5.0-0``
+      ``1.0.0-0``,  ``0.5.0-1``,  ``0.5.0-0``
 
       
 
    
    :depends bedtools: 
-   :depends htslib: ``>=1.17,<1.23.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends numpy: 
    :depends pysam: ``>=0.20.0``
+   :depends python: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -88,7 +94,7 @@ circle-map-cpp
 
     <script>
         var package = "circle-map-cpp";
-        var versions = ["0.5.0","0.5.0"];
+        var versions = ["1.0.0","0.5.0","0.5.0"];
     </script>
 
 

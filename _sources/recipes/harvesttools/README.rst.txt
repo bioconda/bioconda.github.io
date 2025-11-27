@@ -10,10 +10,10 @@ harvesttools
    :replaces_section_title:
    :noindex:
 
-   HarvestTools is a part of the Harvest software suite and provides file conversion between Gingr files and various standard text formats
+   HarvestTools is a part of the Harvest software suite and provides file conversion between Gingr files and various standard text formats.
 
    :homepage: https://github.com/marbl/harvest-tools
-   :license: custom; see https://raw.githubusercontent.com/marbl/harvest-tools/master/LICENSE.txt
+   :license: Custom; see https://raw.githubusercontent.com/marbl/harvest-tools/master/LICENSE.txt
    :recipe: /`harvesttools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/harvesttools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/harvesttools/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ harvesttools
       
       
 
-      ``1.2-2``,  ``1.2-1``,  ``1.2-0``
+      ``1.3-0``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
 
       
 
@@ -84,7 +84,7 @@ harvesttools
 
     <script>
         var package = "harvesttools";
-        var versions = ["1.2","1.2","1.2"];
+        var versions = ["1.3","1.2","1.2","1.2"];
     </script>
 
 

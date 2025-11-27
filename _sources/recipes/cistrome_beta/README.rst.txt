@@ -10,7 +10,7 @@ cistrome_beta
    :replaces_section_title:
    :noindex:
 
-   Binding and Expression Target Analysis of ChIP\-seq TF with differential gene expression
+   Binding and Expression Target Analysis of ChIP\-seq TF with differential gene expression.
 
    :homepage: https://github.com/hanfeisun/BETA
    :license: This code is free software; you can redistribute it and/or modify it.
@@ -27,12 +27,12 @@ cistrome_beta
       
       
 
-      ``1.0.7-5``,  ``1.0.7-4``,  ``1.0.7-3``,  ``1.0.7-2``,  ``1.0.7-1``,  ``1.0.7-0``
+      ``1.0.7-6``,  ``1.0.7-5``,  ``1.0.7-4``,  ``1.0.7-3``,  ``1.0.7-2``,  ``1.0.7-1``,  ``1.0.7-0``
 
       
 
    
-   :depends libgcc-ng: ``>=10.3.0``
+   :depends libgcc: ``>=13``
    :depends numpy: 
    :depends python: ``>=2.7,<2.8.0a0``
    :depends python_abi: ``2.7.* *_cp27mu``
@@ -40,6 +40,10 @@ cistrome_beta
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

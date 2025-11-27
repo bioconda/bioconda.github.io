@@ -10,10 +10,10 @@ gecco
    :replaces_section_title:
    :noindex:
 
-   Biosynthetic Gene Cluster prediction with Conditional Random Fields.
+   Gene Cluster prediction with Conditional Random Fields.
 
    :homepage: https://gecco.embl.de/
-   :license: GPL / GPL-3
+   :license: GPL / GPL-3.0-or-later
    :recipe: /`gecco <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gecco>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gecco/meta.yaml>`_
    :links: doi: :doi:`10.1101/2021.05.03.442509`
 
@@ -29,10 +29,10 @@ gecco
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.10.0-0</code>,  <code>0.9.10-0</code>,  <code>0.9.8-0</code>,  <code>0.9.6-0</code>,  <code>0.9.5-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.8.10-0</code>,  <code>0.8.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.10-0</code>,  <code>0.9.8-0</code>,  <code>0.9.6-0</code>,  <code>0.9.5-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.8.10-0</code>,  </span></summary>
       
 
-      ``0.10.0-0``,  ``0.9.10-0``,  ``0.9.8-0``,  ``0.9.6-0``,  ``0.9.5-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.8.10-0``,  ``0.8.9-0``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.3-0``,  ``0.6.2-0``
+      ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.10-0``,  ``0.9.8-0``,  ``0.9.6-0``,  ``0.9.5-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.8.10-0``,  ``0.8.9-0``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.3-0``,  ``0.6.2-0``
 
       
       .. raw:: html
@@ -46,7 +46,6 @@ gecco
    :depends importlib_resources: ``>=5.7``
    :depends numpy: ``>=1.0,<3.0``
    :depends polars: ``>=1.0,<2.0``
-   :depends psutil: ``>=7.0,<8.0``
    :depends pyhmmer: ``>=0.11.0,<0.12.0``
    :depends pyrodigal: ``>=3.0,<4.0``
    :depends python: ``>=3.7``
@@ -106,7 +105,7 @@ gecco
 
     <script>
         var package = "gecco";
-        var versions = ["0.10.0","0.9.10","0.9.8","0.9.6","0.9.5"];
+        var versions = ["0.10.1","0.10.0","0.9.10","0.9.8","0.9.6"];
     </script>
 
 

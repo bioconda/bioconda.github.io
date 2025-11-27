@@ -13,7 +13,7 @@ aci
    Visualizes coverage for amplicons.
 
    :homepage: https://github.com/erinyoung/ACI
-   :documentation: https://github.com/erinyoung/ACI/blob/1.15.250702/README.md
+   :documentation: https://github.com/erinyoung/ACI/blob/1.45.251125/README.md
    
    :license: MIT / MIT
    :recipe: /`aci <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aci>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aci/meta.yaml>`_
@@ -29,7 +29,7 @@ aci
       
       
 
-      ``1.15.250702-0``,  ``1.4.20240116-0``,  ``1.2.20231229-0``
+      ``1.45.251125-0``,  ``1.15.250702-0``,  ``1.4.20240116-0``,  ``1.2.20231229-0``
 
       
 
@@ -90,7 +90,7 @@ aci
 
     <script>
         var package = "aci";
-        var versions = ["1.15.250702","1.4.20240116","1.2.20231229"];
+        var versions = ["1.45.251125","1.15.250702","1.4.20240116","1.2.20231229"];
     </script>
 
 

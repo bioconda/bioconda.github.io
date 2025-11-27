@@ -26,9 +26,17 @@ perl-term-table
    :versions:
       
       
+      .. raw:: html
 
-      ``0.027-0``,  ``0.025-0``,  ``0.024-0``,  ``0.023-0``,  ``0.022-0``,  ``0.016-0``,  ``0.013-1``,  ``0.013-0``,  ``0.012-0``
+         <details><summary><span class="truncated-version-list"><code>0.028-0</code>,  <code>0.027-0</code>,  <code>0.025-0</code>,  <code>0.024-0</code>,  <code>0.023-0</code>,  <code>0.022-0</code>,  <code>0.016-0</code>,  <code>0.013-1</code>,  <code>0.013-0</code>,  </span></summary>
+      
 
+      ``0.028-0``,  ``0.027-0``,  ``0.025-0``,  ``0.024-0``,  ``0.023-0``,  ``0.022-0``,  ``0.016-0``,  ``0.013-1``,  ``0.013-0``,  ``0.012-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -85,7 +93,7 @@ perl-term-table
 
     <script>
         var package = "perl-term-table";
-        var versions = ["0.027","0.025","0.024","0.023","0.022"];
+        var versions = ["0.028","0.027","0.025","0.024","0.023"];
     </script>
 
 

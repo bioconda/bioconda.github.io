@@ -10,12 +10,12 @@ mantis
    :replaces_section_title:
    :noindex:
 
-   Mantis\: A Fast\, Small\, and Exact Large\-Scale Sequence\-Search Index
+   Mantis\: A Fast\, Small\, and Exact Large\-Scale Sequence\-Search Index.
 
    :homepage: https://github.com/splatlab/mantis
    :license: BSD / BSD-3-Clause
    :recipe: /`mantis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mantis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mantis/meta.yaml>`_
-   :links: doi: :doi:`10.1016/j.cels.2018.05.021`
+   :links: doi: :doi:`10.1016/j.cels.2018.05.021`, biotools: :biotools:`mantis_index`
 
    
 
@@ -28,14 +28,16 @@ mantis
       
       
 
-      ``0.2-3``,  ``0.2-2``,  ``0.2-1``,  ``0.2-0``
+      ``0.2-4``,  ``0.2-3``,  ``0.2-2``,  ``0.2-1``,  ``0.2-0``
 
       
 
    
-   :depends libgcc-ng: ``>=9.3.0``
-   :depends libstdcxx-ng: ``>=9.3.0``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends openssl: ``>=3.6.0,<4.0a0``
+   :depends sdsl-lite: 
    :requirements:
 
    :additional platforms:
@@ -86,7 +88,7 @@ mantis
 
     <script>
         var package = "mantis";
-        var versions = ["0.2","0.2","0.2","0.2"];
+        var versions = ["0.2","0.2","0.2","0.2","0.2"];
     </script>
 
 

@@ -12,8 +12,8 @@ yahmm
 
    YAHMM is a HMM package for Python\, implemented in Cython for speed.
 
-   :homepage: http://pypi.python.org/pypi/yahmm/
-   :license: MIT
+   :homepage: https://pypi.org/project/yahmm
+   :license: MIT / MIT
    :recipe: /`yahmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yahmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yahmm/meta.yaml>`_
 
    
@@ -26,17 +26,25 @@ yahmm
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.3-9``,  ``1.1.3-8``,  ``1.1.3-7``,  ``1.1.3-6``,  ``1.1.3-5``,  ``1.1.3-4``,  ``1.1.3-3``,  ``1.1.3-1``,  ``1.1.3-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.3-11</code>,  <code>1.1.3-9</code>,  <code>1.1.3-8</code>,  <code>1.1.3-7</code>,  <code>1.1.3-6</code>,  <code>1.1.3-5</code>,  <code>1.1.3-4</code>,  <code>1.1.3-3</code>,  <code>1.1.3-1</code>,  </span></summary>
+      
 
+      ``1.1.3-11``,  ``1.1.3-9``,  ``1.1.3-8``,  ``1.1.3-7``,  ``1.1.3-6``,  ``1.1.3-5``,  ``1.1.3-4``,  ``1.1.3-3``,  ``1.1.3-1``,  ``1.1.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends cython: ``>=0.20.1``
-   :depends libgcc-ng: ``>=12``
+   :depends cython: ``>=0.20.1,<3``
+   :depends libgcc: ``>=13``
    :depends matplotlib-base: ``>=1.3.1``
    :depends networkx: ``>=1.8.1``
-   :depends numpy: ``>=1.24.3,<2.0a0``
+   :depends numpy: ``>=1.21,<3``
    :depends numpy: ``>=1.8.0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
@@ -44,6 +52,10 @@ yahmm
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

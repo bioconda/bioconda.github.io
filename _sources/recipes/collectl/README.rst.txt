@@ -10,9 +10,11 @@ collectl
    :replaces_section_title:
    :noindex:
 
-   collectl monitoring tool
+   Collectl is a light\-weight performance monitoring tool capable of reporting interactively as well as logging to disk.
 
-   :homepage: http://collectl.sourceforge.net/
+   :homepage: https://github.com/sharkcz/collectl
+   :documentation: https://collectl.sourceforge.net
+   
    :license: Artistic License
    :recipe: /`collectl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/collectl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/collectl/meta.yaml>`_
 
@@ -27,13 +29,12 @@ collectl
       
       
 
-      ``4.0.4-3``,  ``4.0.4-2``,  ``4.0.4-1``,  ``4.0.4-0``
+      ``4.3.20.1-0``,  ``4.0.4-3``,  ``4.0.4-2``,  ``4.0.4-1``,  ``4.0.4-0``
 
       
 
    
-   :depends perl: ``5.22.0*``
-   :depends zlib: ``1.2.11*``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
    :requirements:
 
    :additional platforms:
@@ -84,7 +85,7 @@ collectl
 
     <script>
         var package = "collectl";
-        var versions = ["4.0.4","4.0.4","4.0.4","4.0.4"];
+        var versions = ["4.3.20.1","4.0.4","4.0.4","4.0.4","4.0.4"];
     </script>
 
 

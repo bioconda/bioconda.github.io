@@ -29,7 +29,7 @@ fgsmk
       
       
 
-      ``0.1.1-0``
+      ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -88,7 +88,7 @@ fgsmk
 
     <script>
         var package = "fgsmk";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.2","0.1.1"];
     </script>
 
 
