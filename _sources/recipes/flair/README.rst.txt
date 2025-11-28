@@ -31,10 +31,10 @@ flair
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.7.0-1</code>,  <code>1.7.0-0</code>,  <code>1.6.4-0</code>,  <code>1.6.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.0b1-0</code>,  <code>2.2.0-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.7.0-1</code>,  <code>1.7.0-0</code>,  <code>1.6.4-0</code>,  </span></summary>
       
 
-      ``2.2.0-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.5-4``,  ``1.5-3``,  ``1.4-0``
+      ``3.0.0b1-0``,  ``2.2.0-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.5-4``,  ``1.5-3``,  ``1.4-0``
 
       
       .. raw:: html
@@ -45,12 +45,13 @@ flair
    
    :depends bedtools: ``>=2.31.1,<3.0``
    :depends mappy: ``>=2.28,<3.0``
+   :depends matplotlib-base: ``>=3.10,<4.0``
    :depends minimap2: ``>=2.28,<3.00``
-   :depends ncls: ``>=0.0.68,<0.0.69``
+   :depends ncls: ``>=0.0.70,<0.1.0``
    :depends numpy: ``>=2.2,<3.0``
-   :depends pipettor: ``>=1.1,<2.0.0``
+   :depends pipettor: ``>=1.1.0,<2.0.0``
    :depends pybedtools: ``>=0.11.0,<0.12.0``
-   :depends pysam: ``>=0.22.1,<0.23.0``
+   :depends pysam: ``>=0.23.0,<0.24.0``
    :depends python: ``>=3.12,<3.13``
    :depends samtools: ``>=1.21``
    :depends scipy: ``>=1.15.1,<2.0.0``
@@ -105,7 +106,7 @@ flair
 
     <script>
         var package = "flair";
-        var versions = ["2.2.0","2.1.2","2.1.1","2.0.0","2.0.0"];
+        var versions = ["3.0.0b1","2.2.0","2.1.2","2.1.1","2.0.0"];
     </script>
 
 

@@ -10,11 +10,14 @@ greenhill
    :replaces_section_title:
    :noindex:
 
-   A de novo chromosomal\-level scaffolding and phasing tool using Hi\-C
+   A de novo chromosomal\-level scaffolding and phasing tool using Hi\-C.
 
    :homepage: https://github.com/ShunOuchi/GreenHill
-   :license: GPL / GPL-3.0
+   :documentation: https://github.com/ShunOuchi/GreenHill/blob/v1.1.0/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`greenhill <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/greenhill>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/greenhill/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s13059-023-03006-8`
 
    
 
@@ -27,7 +30,7 @@ greenhill
       
       
 
-      ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -37,14 +40,18 @@ greenhill
    :depends gzip: 
    :depends libgcc: 
    :depends libgcc-ng: ``>=12``
+   :depends libgomp: 
    :depends libstdcxx: 
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends minimap2: 
-   :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -92,7 +99,7 @@ greenhill
 
     <script>
         var package = "greenhill";
-        var versions = ["1.1.0","1.1.0","1.1.0","1.0.0"];
+        var versions = ["1.1.0","1.1.0","1.1.0","1.1.0","1.0.0"];
     </script>
 
 

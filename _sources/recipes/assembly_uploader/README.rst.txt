@@ -29,12 +29,14 @@ assembly_uploader
       
       
 
-      ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.2-0``
+      ``1.3.5-1``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.2-0``
 
       
 
    
-   :depends click: ``>=8.1``
+   :depends click: ``>=8.1.8``
+   :depends ena-webin-cli: ``>=9.0.1``
+   :depends mgnify-pipelines-toolkit: ``>=1.4.5``
    :depends python: ``>=3.8``
    :depends requests: ``2.32.3``
    :requirements:
@@ -87,7 +89,7 @@ assembly_uploader
 
     <script>
         var package = "assembly_uploader";
-        var versions = ["1.3.5","1.3.4","1.3.2"];
+        var versions = ["1.3.5","1.3.5","1.3.4","1.3.2"];
     </script>
 
 

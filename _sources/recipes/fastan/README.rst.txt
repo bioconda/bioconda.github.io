@@ -1,42 +1,37 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'tedna'
+.. title:: Package Recipe 'fastan'
 .. highlight: bash
 
-tedna
-=====
+fastan
+======
 
-.. conda:recipe:: tedna
+.. conda:recipe:: fastan
    :replaces_section_title:
    :noindex:
 
-   Tedna is a lightweight de novo transposable element assembler.
+   Fast Tandem Repeat Finder.
 
-   :homepage: https://github.com/mzytnicki/tedna
-   :documentation: https://github.com/mzytnicki/tedna/blob/1.3.1/README.md
-   
-   :license: GPL3 / GPL-3.0-or-later
-   :recipe: /`tedna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tedna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tedna/meta.yaml>`_
-   :links: doi: :doi:`10.1093/bioinformatics/btu365`, biotools: :biotools:`tedna`
+   :homepage: https://github.com/thegenemyers/FASTAN
+   :license: Custom
+   :recipe: /`fastan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastan/meta.yaml>`_
 
    
 
 
-.. conda:package:: tedna
+.. conda:package:: fastan
 
-   |downloads_tedna| |docker_tedna|
+   |downloads_fastan| |docker_fastan|
 
    :versions:
       
       
 
-      ``1.3.1-0``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``
+      
 
       
 
    
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
    :requirements:
 
    :additional platforms:
@@ -59,39 +54,39 @@ tedna
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install tedna
+      mamba install fastan
 
    and update with::
 
-      mamba update tedna
+      mamba update fastan
 
   To create a new environment, run::
 
-      mamba create --name myenvname tedna
+      mamba create --name myenvname fastan
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/tedna:<tag>
+      docker pull quay.io/biocontainers/fastan:<tag>
 
-   (see `tedna/tags`_ for valid values for ``<tag>``)
+   (see `fastan/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_tedna| image:: https://img.shields.io/conda/dn/bioconda/tedna.svg?style=flat
-   :target: https://anaconda.org/bioconda/tedna
+.. |downloads_fastan| image:: https://img.shields.io/conda/dn/bioconda/fastan.svg?style=flat
+   :target: https://anaconda.org/bioconda/fastan
    :alt:   (downloads)
-.. |docker_tedna| image:: https://quay.io/repository/biocontainers/tedna/status
-   :target: https://quay.io/repository/biocontainers/tedna
-.. _`tedna/tags`: https://quay.io/repository/biocontainers/tedna?tab=tags
+.. |docker_fastan| image:: https://quay.io/repository/biocontainers/fastan/status
+   :target: https://quay.io/repository/biocontainers/fastan
+.. _`fastan/tags`: https://quay.io/repository/biocontainers/fastan?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "tedna";
-        var versions = ["1.3.1","1.2.2","1.2.2","1.2.2"];
+        var package = "fastan";
+        var versions = [];
     </script>
 
 
@@ -110,7 +105,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/tedna/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fastan/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/tedna/README.html
+   :target: http://bioconda.github.io/recipes/fastan/README.html

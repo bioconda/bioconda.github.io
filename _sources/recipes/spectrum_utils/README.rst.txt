@@ -10,12 +10,12 @@ spectrum_utils
    :replaces_section_title:
    :noindex:
 
-   Mass spectrometry utility functions
+   Mass spectrometry utility functions.
 
    :homepage: https://github.com/bittremieux/spectrum_utils
-   :documentation: https://spectrum-utils.readthedocs.io/
+   :documentation: https://spectrum-utils.readthedocs.io
    
-   :license: APACHE / Apache Software
+   :license: APACHE / Apache-2.0
    :recipe: /`spectrum_utils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spectrum_utils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spectrum_utils/meta.yaml>`_
 
    
@@ -30,10 +30,10 @@ spectrum_utils
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-2</code>,  <code>0.3.2-1</code>,  <code>0.3.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.0-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-2</code>,  <code>0.3.2-1</code>,  </span></summary>
       
 
-      ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -47,11 +47,11 @@ spectrum_utils
    :depends fastobo: 
    :depends lark: ``>=1.0``
    :depends matplotlib-base: 
-   :depends numba: ``>=0.47``
+   :depends numba: ``>=0.57``
    :depends numpy: 
    :depends pandas: 
-   :depends pyteomics: ``>=4.5``
-   :depends python: ``>=3.8``
+   :depends pyteomics: ``>=4.6``
+   :depends python: ``>=3.10``
    :requirements:
 
    :additional platforms:
@@ -102,7 +102,7 @@ spectrum_utils
 
     <script>
         var package = "spectrum_utils";
-        var versions = ["0.4.2","0.4.1","0.4.0","0.3.5","0.3.4"];
+        var versions = ["0.5.0","0.4.2","0.4.1","0.4.0","0.3.5"];
     </script>
 
 

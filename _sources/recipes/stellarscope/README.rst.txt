@@ -10,9 +10,11 @@ stellarscope
    :replaces_section_title:
    :noindex:
 
-   Single\-cell Transposable Element Locus Level Analysis of scRNA Sequencing
+   Single\-cell Transposable Element Locus Level Analysis of scRNA Sequencing.
 
    :homepage: https://github.com/nixonlab/stellarscope
+   :documentation: https://github.com/nixonlab/stellarscope/blob/1.5/docs/protocol.md
+   
    :license: MIT / MIT
    :recipe: /`stellarscope <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stellarscope>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stellarscope/meta.yaml>`_
    :links: doi: :doi:`10.1016/j.crmeth.2025.101086`
@@ -28,7 +30,7 @@ stellarscope
       
       
 
-      ``1.5-0``
+      ``1.5-1``,  ``1.5-0``
 
       
 
@@ -49,6 +51,10 @@ stellarscope
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -96,7 +102,7 @@ stellarscope
 
     <script>
         var package = "stellarscope";
-        var versions = ["1.5"];
+        var versions = ["1.5","1.5"];
     </script>
 
 

@@ -10,9 +10,11 @@ daligner
    :replaces_section_title:
    :noindex:
 
-   DALIGNER\: Find all significant local alignments between reads
+   DALIGNER\: Find all significant local alignments between reads.
 
    :homepage: https://github.com/thegenemyers/DALIGNER
+   :documentation: https://github.com/thegenemyers/DALIGNER/blob/master/README.md
+   
    :license: Custom
    :recipe: /`daligner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/daligner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/daligner/meta.yaml>`_
 
@@ -28,10 +30,10 @@ daligner
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.20230620-1</code>,  <code>1.0.20230620-0</code>,  <code>1.0.20200322-4</code>,  <code>1.0.20200322-3</code>,  <code>1.0.20200322-2</code>,  <code>1.0.20200322-1</code>,  <code>1.0.20200322-0</code>,  <code>1.0-0</code>,  <code>1.0p2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.20240118-0</code>,  <code>1.0.20230620-1</code>,  <code>1.0.20230620-0</code>,  <code>1.0.20200322-4</code>,  <code>1.0.20200322-3</code>,  <code>1.0.20200322-2</code>,  <code>1.0.20200322-1</code>,  <code>1.0.20200322-0</code>,  <code>1.0-0</code>,  </span></summary>
       
 
-      ``1.0.20230620-1``,  ``1.0.20230620-0``,  ``1.0.20200322-4``,  ``1.0.20200322-3``,  ``1.0.20200322-2``,  ``1.0.20200322-1``,  ``1.0.20200322-0``,  ``1.0-0``,  ``1.0p2-1``,  ``1.0p2-0``,  ``1.0p1-2``,  ``1.0p1-1``,  ``1.0p1-0``
+      ``2.0.20240118-0``,  ``1.0.20230620-1``,  ``1.0.20230620-0``,  ``1.0.20200322-4``,  ``1.0.20200322-3``,  ``1.0.20200322-2``,  ``1.0.20200322-1``,  ``1.0.20200322-0``,  ``1.0-0``,  ``1.0p2-1``,  ``1.0p2-0``,  ``1.0p1-2``,  ``1.0p1-1``,  ``1.0p1-0``
 
       
       .. raw:: html
@@ -44,6 +46,10 @@ daligner
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -91,7 +97,7 @@ daligner
 
     <script>
         var package = "daligner";
-        var versions = ["1.0.20230620","1.0.20230620","1.0.20200322","1.0.20200322","1.0.20200322"];
+        var versions = ["2.0.20240118","1.0.20230620","1.0.20230620","1.0.20200322","1.0.20200322"];
     </script>
 
 
