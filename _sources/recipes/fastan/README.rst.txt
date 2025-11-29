@@ -27,11 +27,13 @@ fastan
       
       
 
-      
+      ``0.5-0``
 
       
 
    
+   :depends libgcc: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -86,7 +88,7 @@ fastan
 
     <script>
         var package = "fastan";
-        var versions = [];
+        var versions = ["0.5"];
     </script>
 
 

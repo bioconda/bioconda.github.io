@@ -13,7 +13,7 @@ enhjoerning
    A tool for computing statistics on short read alignments.
 
    :homepage: https://github.com/GeoGenetics/unicorn
-   :documentation: https://github.com/GeoGenetics/unicorn/blob/v2.3.0/README.md
+   :documentation: https://github.com/GeoGenetics/unicorn/blob/v2.4.0/README.md
    
    :license: MIT / MIT
    :recipe: /`enhjoerning <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/enhjoerning>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/enhjoerning/meta.yaml>`_
@@ -29,7 +29,7 @@ enhjoerning
       
       
 
-      ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``
+      ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``
 
       
 
@@ -92,7 +92,7 @@ enhjoerning
 
     <script>
         var package = "enhjoerning";
-        var versions = ["2.3.0","2.2.0","2.1.0","2.0.3","2.0.2"];
+        var versions = ["2.4.0","2.3.0","2.2.0","2.1.0","2.0.3"];
     </script>
 
 

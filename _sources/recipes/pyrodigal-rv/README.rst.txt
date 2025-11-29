@@ -1,38 +1,39 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'jacusa2'
+.. title:: Package Recipe 'pyrodigal-rv'
 .. highlight: bash
 
-jacusa2
-=======
+pyrodigal-rv
+============
 
-.. conda:recipe:: jacusa2
+.. conda:recipe:: pyrodigal-rv
    :replaces_section_title:
    :noindex:
 
-   JACUSA2 is a framework for accurate variant assessment\, detecting SNVs and arrest events in NGS data.
+   A Pyrodigal extension to predict genes in RNA viruses.
 
-   :homepage: https://github.com/dieterich-lab/JACUSA2
-   :license: GPL-3.0-or-later
-   :recipe: /`jacusa2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jacusa2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jacusa2/meta.yaml>`_
+   :homepage: https://github.com/LanderDC/pyrodigal-rv
+   :license: GPL3 / GPL-3.0-or-later
+   :recipe: /`pyrodigal-rv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyrodigal-rv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyrodigal-rv/meta.yaml>`_
 
    
 
 
-.. conda:package:: jacusa2
+.. conda:package:: pyrodigal-rv
 
-   |downloads_jacusa2| |docker_jacusa2|
+   |downloads_pyrodigal-rv| |docker_pyrodigal-rv|
 
    :versions:
       
       
 
-      ``2.1.16-0``,  ``2.1.15-0``,  ``2.0.4-0``
+      ``0.1.0-0``
 
       
 
    
-   :depends openjdk: ``>=9``
+   :depends pyrodigal: ``>=3.1,<4``
+   :depends python: 
    :requirements:
 
    :additional platforms:
@@ -51,39 +52,39 @@ jacusa2
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install jacusa2
+      mamba install pyrodigal-rv
 
    and update with::
 
-      mamba update jacusa2
+      mamba update pyrodigal-rv
 
   To create a new environment, run::
 
-      mamba create --name myenvname jacusa2
+      mamba create --name myenvname pyrodigal-rv
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/jacusa2:<tag>
+      docker pull quay.io/biocontainers/pyrodigal-rv:<tag>
 
-   (see `jacusa2/tags`_ for valid values for ``<tag>``)
+   (see `pyrodigal-rv/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_jacusa2| image:: https://img.shields.io/conda/dn/bioconda/jacusa2.svg?style=flat
-   :target: https://anaconda.org/bioconda/jacusa2
+.. |downloads_pyrodigal-rv| image:: https://img.shields.io/conda/dn/bioconda/pyrodigal-rv.svg?style=flat
+   :target: https://anaconda.org/bioconda/pyrodigal-rv
    :alt:   (downloads)
-.. |docker_jacusa2| image:: https://quay.io/repository/biocontainers/jacusa2/status
-   :target: https://quay.io/repository/biocontainers/jacusa2
-.. _`jacusa2/tags`: https://quay.io/repository/biocontainers/jacusa2?tab=tags
+.. |docker_pyrodigal-rv| image:: https://quay.io/repository/biocontainers/pyrodigal-rv/status
+   :target: https://quay.io/repository/biocontainers/pyrodigal-rv
+.. _`pyrodigal-rv/tags`: https://quay.io/repository/biocontainers/pyrodigal-rv?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "jacusa2";
-        var versions = ["2.1.16","2.1.15","2.0.4"];
+        var package = "pyrodigal-rv";
+        var versions = ["0.1.0"];
     </script>
 
 
@@ -102,7 +103,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/jacusa2/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pyrodigal-rv/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/jacusa2/README.html
+   :target: http://bioconda.github.io/recipes/pyrodigal-rv/README.html

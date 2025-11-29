@@ -27,7 +27,7 @@ genome-uploader
       
       
 
-      ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.4-0``
+      ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.4-0``
 
       
 
@@ -89,7 +89,7 @@ genome-uploader
 
     <script>
         var package = "genome-uploader";
-        var versions = ["2.5.0","2.4.0","2.3.4"];
+        var versions = ["2.5.1","2.5.0","2.4.0","2.3.4"];
     </script>
 
 
