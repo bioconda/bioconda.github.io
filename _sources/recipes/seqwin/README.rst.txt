@@ -10,7 +10,7 @@ seqwin
    :replaces_section_title:
    :noindex:
 
-   Ultrafast identification of signature sequences in microbial genomes via minimizer graphs
+   Ultrafast identification of signature sequences in microbial genomes
 
    :homepage: https://github.com/treangenlab/seqwin
    :license: GPL3 / GPL-3.0-only

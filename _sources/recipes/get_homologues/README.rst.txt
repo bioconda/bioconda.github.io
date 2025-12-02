@@ -29,10 +29,10 @@ get_homologues
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.7.4-0</code>,  <code>3.7.3-0</code>,  <code>3.7.2-0</code>,  <code>3.7.1-0</code>,  <code>3.6.3-0</code>,  <code>3.6.2-0</code>,  <code>3.6.1-0</code>,  <code>3.5.5-0</code>,  <code>3.5.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.7.5-0</code>,  <code>3.7.4-0</code>,  <code>3.7.3-0</code>,  <code>3.7.2-0</code>,  <code>3.7.1-0</code>,  <code>3.6.3-0</code>,  <code>3.6.2-0</code>,  <code>3.6.1-0</code>,  <code>3.5.5-0</code>,  </span></summary>
       
 
-      ``3.7.4-0``,  ``3.7.3-0``,  ``3.7.2-0``,  ``3.7.1-0``,  ``3.6.3-0``,  ``3.6.2-0``,  ``3.6.1-0``,  ``3.5.5-0``,  ``3.5.4-0``,  ``3.5.1-0``
+      ``3.7.5-0``,  ``3.7.4-0``,  ``3.7.3-0``,  ``3.7.2-0``,  ``3.7.1-0``,  ``3.6.3-0``,  ``3.6.2-0``,  ``3.6.1-0``,  ``3.5.5-0``,  ``3.5.4-0``,  ``3.5.1-0``
 
       
       .. raw:: html
@@ -105,7 +105,7 @@ get_homologues
 
     <script>
         var package = "get_homologues";
-        var versions = ["3.7.4","3.7.3","3.7.2","3.7.1","3.6.3"];
+        var versions = ["3.7.5","3.7.4","3.7.3","3.7.2","3.7.1"];
     </script>
 
 

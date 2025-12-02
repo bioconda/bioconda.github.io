@@ -27,7 +27,7 @@ py_nucflag
       
       
 
-      ``0.1.4-0``,  ``0.1.3-0``
+      ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
 
       
 
@@ -85,7 +85,7 @@ py_nucflag
 
     <script>
         var package = "py_nucflag";
-        var versions = ["0.1.4","0.1.3"];
+        var versions = ["0.1.5","0.1.4","0.1.3"];
     </script>
 
 

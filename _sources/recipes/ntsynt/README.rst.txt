@@ -27,7 +27,7 @@ ntsynt
       
       
 
-      ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -42,7 +42,7 @@ ntsynt
    :depends ncls: 
    :depends pybedtools: 
    :depends python: ``>=3.10,<3.11.0a0``
-   :depends python-igraph: 
+   :depends python-igraph: ``<1.0.0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends samtools: 
    :depends seqtk: 
@@ -101,7 +101,7 @@ ntsynt
 
     <script>
         var package = "ntsynt";
-        var versions = ["1.0.3","1.0.2","1.0.2","1.0.1","1.0.1"];
+        var versions = ["1.0.4","1.0.3","1.0.2","1.0.2","1.0.1"];
     </script>
 
 

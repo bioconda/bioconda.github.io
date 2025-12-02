@@ -28,10 +28,10 @@ snakemake-interface-storage-plugins
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.2.3-0</code>,  <code>4.2.2-0</code>,  <code>4.2.1-0</code>,  <code>4.1.0-0</code>,  <code>3.5.0-0</code>,  <code>3.4.0-0</code>,  <code>3.3.0-0</code>,  <code>3.2.4-0</code>,  <code>3.2.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.3.1-0</code>,  <code>4.2.3-0</code>,  <code>4.2.2-0</code>,  <code>4.2.1-0</code>,  <code>4.1.0-0</code>,  <code>3.5.0-0</code>,  <code>3.4.0-0</code>,  <code>3.3.0-0</code>,  <code>3.2.4-0</code>,  </span></summary>
       
 
-      ``4.2.3-0``,  ``4.2.2-0``,  ``4.2.1-0``,  ``4.1.0-0``,  ``3.5.0-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.0-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.0-0``
+      ``4.3.1-0``,  ``4.2.3-0``,  ``4.2.2-0``,  ``4.2.1-0``,  ``4.1.0-0``,  ``3.5.0-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.0-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.0-0``
 
       
       .. raw:: html
@@ -95,7 +95,7 @@ snakemake-interface-storage-plugins
 
     <script>
         var package = "snakemake-interface-storage-plugins";
-        var versions = ["4.2.3","4.2.2","4.2.1","4.1.0","3.5.0"];
+        var versions = ["4.3.1","4.2.3","4.2.2","4.2.1","4.1.0"];
     </script>
 
 

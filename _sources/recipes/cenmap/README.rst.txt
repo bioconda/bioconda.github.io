@@ -13,7 +13,7 @@ cenmap
    A centromere mapping and annotation pipeline for T2T human and primate genome assemblies implemented in Snakemake.
 
    :homepage: https://github.com/logsdon-lab/CenMAP
-   :documentation: https://github.com/logsdon-lab/CenMAP/blob/v1.1.0/README.md
+   :documentation: https://github.com/logsdon-lab/CenMAP/blob/v1.1.1/README.md
    
    :license: MIT / MIT
    :recipe: /`cenmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cenmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cenmap/meta.yaml>`_
@@ -29,7 +29,7 @@ cenmap
       
       
 
-      ``1.1.0-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``
+      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``
 
       
 
@@ -117,7 +117,7 @@ cenmap
 
     <script>
         var package = "cenmap";
-        var versions = ["1.1.0","1.0.4","1.0.4","1.0.4"];
+        var versions = ["1.1.1","1.1.0","1.0.4","1.0.4","1.0.4"];
     </script>
 
 
