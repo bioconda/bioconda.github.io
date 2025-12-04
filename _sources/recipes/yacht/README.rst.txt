@@ -13,7 +13,7 @@ yacht
    YACHT is a mathematically rigorous hypothesis test for the presence or absence of organisms in a metagenomic sample\, based on average nucleotide identity \(ANI\).
 
    :homepage: https://github.com/KoslickiLab/YACHT
-   :documentation: https://usher-wiki.readthedocs.io/en/latest
+   :documentation: https://github.com/KoslickiLab/YACHT/wiki
    
    :license: MIT / MIT
    :recipe: /`yacht <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yacht>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yacht/meta.yaml>`_
@@ -30,7 +30,7 @@ yacht
       
       
 
-      ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.0-0``,  ``1.0-0``
+      ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.0-0``,  ``1.0-0``
 
       
 
@@ -45,7 +45,7 @@ yacht
    :depends numpy: ``>=1.23,<3``
    :depends openpyxl: 
    :depends pandas: 
-   :depends pytaxonkit: ``>=0.9.1,<0.10.0a0``
+   :depends pytaxonkit: ``>=0.10,<0.11.0a0``
    :depends pytest: 
    :depends pytest-cov: 
    :depends python: ``>=3.11,<3.12.0a0``
@@ -55,7 +55,7 @@ yacht
    :depends scikit-learn: 
    :depends scipy: 
    :depends sourmash: ``>=4.8.3,<5``
-   :depends sourmash: ``>=4.9.2,<5.0a0``
+   :depends sourmash: ``>=4.9.4,<5.0a0``
    :depends sourmash_plugin_branchwater: 
    :depends tqdm: 
    :requirements:
@@ -112,7 +112,7 @@ yacht
 
     <script>
         var package = "yacht";
-        var versions = ["1.3.1","1.3.0","1.3.0","1.2.3","1.2.2"];
+        var versions = ["1.3.2","1.3.1","1.3.0","1.3.0","1.2.3"];
     </script>
 
 

@@ -15,7 +15,7 @@ spatialleiden
    :homepage: https://github.com/HiDiHlabs/SpatialLeiden
    :documentation: https://spatialleiden.readthedocs.io/
    
-   :license: MIT / MIT
+   :license: GPL / GPL-3.0-or-later
    :recipe: /`spatialleiden <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spatialleiden>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spatialleiden/meta.yaml>`_
 
    
@@ -29,7 +29,7 @@ spatialleiden
       
       
 
-      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-0``
+      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-0``
 
       
 
@@ -91,7 +91,7 @@ spatialleiden
 
     <script>
         var package = "spatialleiden";
-        var versions = ["0.3.0","0.2.0","0.1.1"];
+        var versions = ["0.4.0","0.3.0","0.2.0","0.1.1"];
     </script>
 
 

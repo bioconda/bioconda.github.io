@@ -34,7 +34,7 @@ telogator2
       
       
 
-      ``2.2.2-0``
+      ``2.2.3-0``,  ``2.2.2-0``
 
       
 
@@ -101,7 +101,7 @@ telogator2
 
     <script>
         var package = "telogator2";
-        var versions = ["2.2.2"];
+        var versions = ["2.2.3","2.2.2"];
     </script>
 
 

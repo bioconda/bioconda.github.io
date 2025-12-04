@@ -27,18 +27,19 @@ genome-uploader
       
       
 
-      ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.4-0``
+      ``2.5.1-1``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.4-0``
 
       
 
    
-   :depends click: ``8.1.7``
-   :depends ena-webin-cli: 
-   :depends numpy: ``1.24.4``
-   :depends pandas: ``1.4.1``
-   :depends python: ``>=3.8``
-   :depends python-dotenv: ``1.0.1``
-   :depends requests: ``2.26.0``
+   :depends click: ``>=8.1.8,<9``
+   :depends ena-webin-cli: ``>=9.0.1``
+   :depends mgnify-pipelines-toolkit: ``>=1.4.5``
+   :depends numpy: ``1.26.0``
+   :depends pandas: ``2.0.2``
+   :depends python: ``>=3.9``
+   :depends python-dotenv: ``>=1.0``
+   :depends requests: ``>=2.31,<3``
    :requirements:
 
    :additional platforms:
@@ -89,7 +90,7 @@ genome-uploader
 
     <script>
         var package = "genome-uploader";
-        var versions = ["2.5.1","2.5.0","2.4.0","2.3.4"];
+        var versions = ["2.5.1","2.5.1","2.5.0","2.4.0","2.3.4"];
     </script>
 
 

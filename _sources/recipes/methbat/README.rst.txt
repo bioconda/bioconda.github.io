@@ -28,10 +28,10 @@ methbat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.16.1-0</code>,  <code>0.16.0-0</code>,  <code>0.15.0-0</code>,  <code>0.14.2-0</code>,  <code>0.14.1-0</code>,  <code>0.14.0-0</code>,  <code>0.13.3-0</code>,  <code>0.13.2-0</code>,  <code>0.13.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.17.0-0</code>,  <code>0.16.1-0</code>,  <code>0.16.0-0</code>,  <code>0.15.0-0</code>,  <code>0.14.2-0</code>,  <code>0.14.1-0</code>,  <code>0.14.0-0</code>,  <code>0.13.3-0</code>,  <code>0.13.2-0</code>,  </span></summary>
       
 
-      ``0.16.1-0``,  ``0.16.0-0``,  ``0.15.0-0``,  ``0.14.2-0``,  ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.3-0``,  ``0.13.2-0``,  ``0.13.1-0``,  ``0.13.0-0``
+      ``0.17.0-0``,  ``0.16.1-0``,  ``0.16.0-0``,  ``0.15.0-0``,  ``0.14.2-0``,  ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.3-0``,  ``0.13.2-0``,  ``0.13.1-0``,  ``0.13.0-0``
 
       
       .. raw:: html
@@ -90,7 +90,7 @@ methbat
 
     <script>
         var package = "methbat";
-        var versions = ["0.16.1","0.16.0","0.15.0","0.14.2","0.14.1"];
+        var versions = ["0.17.0","0.16.1","0.16.0","0.15.0","0.14.2"];
     </script>
 
 

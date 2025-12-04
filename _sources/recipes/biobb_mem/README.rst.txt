@@ -49,10 +49,10 @@ biobb_mem
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.1.1-1</code>,  <code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.6-0</code>,  <code>5.0.5-0</code>,  <code>5.0.4-0</code>,  <code>5.0.3-0</code>,  <code>5.0.2-3</code>,  <code>5.0.2-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.1.2-0</code>,  <code>5.1.1-1</code>,  <code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.6-0</code>,  <code>5.0.5-0</code>,  <code>5.0.4-0</code>,  <code>5.0.3-0</code>,  <code>5.0.2-3</code>,  </span></summary>
       
 
-      ``5.1.1-1``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.6-0``,  ``5.0.5-0``,  ``5.0.4-0``,  ``5.0.3-0``,  ``5.0.2-3``,  ``5.0.2-2``,  ``5.0.2-1``,  ``5.0.2-0``,  ``5.0.1-0``
+      ``5.1.2-0``,  ``5.1.1-1``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.6-0``,  ``5.0.5-0``,  ``5.0.4-0``,  ``5.0.3-0``,  ``5.0.2-3``,  ``5.0.2-2``,  ``5.0.2-1``,  ``5.0.2-0``,  ``5.0.1-0``
 
       
       .. raw:: html
@@ -63,16 +63,12 @@ biobb_mem
    
    :depends ambertools: ``>=22.5``
    :depends biobb_common: ``5.1.1``
-   :depends biobb_common: ``>=5.1.1,<6.0a0``
-   :depends libgcc: ``>=13``
-   :depends lipyphilic: ``0.10.0``
+   :depends fatslim_biobb: 
+   :depends lipyphilic: ``>=0.11.0``
    :depends mdahole2: 
-   :depends numpy: ``1.26.4``
-   :depends numpy: ``>=1.26.4,<2.0a0``
-   :depends pip: 
+   :depends numpy: 
    :depends pygorder: 
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends python: 
    :requirements:
 
    :additional platforms:
@@ -123,7 +119,7 @@ biobb_mem
 
     <script>
         var package = "biobb_mem";
-        var versions = ["5.1.1","5.1.1","5.1.0","5.0.6","5.0.5"];
+        var versions = ["5.1.2","5.1.1","5.1.1","5.1.0","5.0.6"];
     </script>
 
 

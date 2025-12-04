@@ -36,13 +36,13 @@ cawlign
       
       
 
-      ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``
+      ``0.1.15-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libcurl: ``>=8.14.1,<9.0a0``
+   :depends libcurl: ``>=8.17.0,<9.0a0``
    :depends libgcc: ``>=13``
    :depends libgomp: 
    :depends libstdcxx: ``>=13``
@@ -102,7 +102,7 @@ cawlign
 
     <script>
         var package = "cawlign";
-        var versions = ["0.1.14","0.1.13","0.1.12","0.1.11"];
+        var versions = ["0.1.15","0.1.14","0.1.13","0.1.12","0.1.11"];
     </script>
 
 

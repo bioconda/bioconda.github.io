@@ -12,8 +12,8 @@
     <link rel="stylesheet" type="text/css" href="../../_static/style.css?v=48720263" />
     <link rel="stylesheet" type="text/css" href="../../_static/font-awesome-4.7.0/css/font-awesome.min.css?v=02f538dc" />
     <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
-    <script src="../../_static/doctools.js?v=9bcbadda"></script>
-    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script src="../../_static/vega.min.js?v=d54ef115"></script>
     <script src="../../_static/vega-lite.min.js?v=4fab2bf4"></script>
     <script src="../../_static/vega-embed.min.js?v=2f6bc6e4"></script>
@@ -66,14 +66,14 @@
   <section id="bandage-ng">
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
-<em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">bandage_ng</span></span></dt>
+<span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">bandage_ng</span></span></dt>
 <dd><p>Bandage - a Bioinformatics Application for Navigating De novo Assembly Graphs Easily.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/asl/BandageNG">https://github.com/asl/BandageNG</a></p>
 </dd>
 <dt class="field-even">Documentation<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="reference external" href="https://github.com/asl/BandageNG/blob/v2025.6.1/README.md">https://github.com/asl/BandageNG/blob/v2025.6.1/README.md</a></p>
+<dd class="field-even"><p><a class="reference external" href="https://github.com/asl/BandageNG/blob/v2025.12.1/README.md">https://github.com/asl/BandageNG/blob/v2025.12.1/README.md</a></p>
 </dd>
 <dt class="field-odd">License<span class="colon">:</span></dt>
 <dd class="field-odd"><p>GPL3 / GPL-3.0-or-later</p>
@@ -89,12 +89,12 @@
 
 <dl class="conda package">
 <dt class="sig sig-object conda" id="package-bandage_ng">
-<em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">bandage_ng</span></span><a class="headerlink" href="#package-bandage_ng" title="Link to this definition">¶</a></dt>
+<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">bandage_ng</span></span><a class="headerlink" href="#package-bandage_ng" title="Link to this definition">¶</a></dt>
 <dd><blockquote>
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/bandage_ng"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bandage_ng.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bandage_ng"><img alt="docker_bandage_ng" src="https://quay.io/repository/biocontainers/bandage_ng/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2025.6.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2025.5.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2025.4.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2022.09-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">2022.09-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">2022.09-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">2022.09-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2022.09-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2025.12.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2025.6.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2025.5.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2025.4.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2022.09-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">2022.09-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">2022.09-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">2022.09-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2022.09-0</span></code></p>
 </dd>
 <dt class="field-even">depends fonts-conda-ecosystem<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
@@ -104,33 +104,36 @@
 <dt class="field-even">depends libstdcxx<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
 </dd>
-<dt class="field-odd">depends qt6-main<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends xorg-libice<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.1.2,&lt;2.0a0</span></code></p>
+<dt class="field-odd">depends libvulkan-loader<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.4.328.1,&lt;2.0a0</span></code></p>
 </dd>
-<dt class="field-odd">depends xorg-libsm<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.2.6,&lt;2.0a0</span></code></p>
+<dt class="field-even">depends qt6-main<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends xorg-libice<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.1.2,&lt;2.0a0</span></code></p>
 </dd>
-<dt class="field-even">depends xorg-libx11<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.8.12,&lt;2.0a0</span></code></p>
+<dt class="field-even">depends xorg-libsm<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.2.6,&lt;2.0a0</span></code></p>
 </dd>
-<dt class="field-odd">depends xorg-libxcomposite<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.4.6,&lt;1.0a0</span></code></p>
+<dt class="field-odd">depends xorg-libx11<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.8.12,&lt;2.0a0</span></code></p>
 </dd>
-<dt class="field-even">depends xorg-libxdamage<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.1.6,&lt;2.0a0</span></code></p>
+<dt class="field-even">depends xorg-libxcomposite<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.4.6,&lt;1.0a0</span></code></p>
 </dd>
-<dt class="field-odd">depends xorg-libxext<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.3.6,&lt;2.0a0</span></code></p>
+<dt class="field-odd">depends xorg-libxdamage<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.1.6,&lt;2.0a0</span></code></p>
 </dd>
-<dt class="field-even">depends xorg-libxxf86vm<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.1.6,&lt;2.0a0</span></code></p>
+<dt class="field-even">depends xorg-libxext<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.3.6,&lt;2.0a0</span></code></p>
 </dd>
-<dt class="field-odd">requirements<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">additional platforms<span class="colon">:</span></dt>
-<dd class="field-even"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
+<dt class="field-odd">depends xorg-libxxf86vm<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.1.6,&lt;2.0a0</span></code></p>
+</dd>
+<dt class="field-even">requirements<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
+<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -165,7 +168,7 @@ others.</p>
 
 <script>
     var package = "bandage_ng";
-    var versions = ["2025.6.1","2025.5.1","2025.4.1","2022.09","2022.09"];
+    var versions = ["2025.12.1","2025.6.1","2025.5.1","2025.4.1","2022.09"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
@@ -319,7 +322,7 @@ others.</p>
       &#169;2016-2025, The Bioconda Team.
       
       |
-      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.2.3</a>
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 9.0.4</a>
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
       
       |

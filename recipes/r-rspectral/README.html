@@ -12,8 +12,8 @@
     <link rel="stylesheet" type="text/css" href="../../_static/style.css?v=48720263" />
     <link rel="stylesheet" type="text/css" href="../../_static/font-awesome-4.7.0/css/font-awesome.min.css?v=02f538dc" />
     <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
-    <script src="../../_static/doctools.js?v=9bcbadda"></script>
-    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script src="../../_static/vega.min.js?v=d54ef115"></script>
     <script src="../../_static/vega-lite.min.js?v=4fab2bf4"></script>
     <script src="../../_static/vega-embed.min.js?v=2f6bc6e4"></script>
@@ -66,7 +66,7 @@
   <section id="r-rspectral">
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
-<em class="property"><span class="pre">recipe</span> </em><span class="sig-name descname"><span class="pre">r-rspectral</span></span></dt>
+<span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">r-rspectral</span></span></dt>
 <dd><p>Implements the network clustering algorithm described in Newman (2006) &lt;doi:10.1103/PhysRevE.74.036104&gt;. The complete iterative algorithm comprises of two steps. In the first step, the network is expressed in terms of its leading eigenvalue and eigenvector and recursively partition into two communities. Partitioning occurs if the maximum positive eigenvalue is greater than the tolerance (10e-5) for the current partition, and if it results in a positive contribution to the Modularity. Given an initial separation using the leading eigen step, 'rSpectral' then continues to maximise for the change in Modularity using a fine-tuning step - or variate thereof. The first stage here is to find the node which, when moved from one community to another, gives the maximum change in Modularity. This node’s community is then fixed and we repeat the process until all nodes have been moved. The whole process is repeated from this new state until the change in the Modularity, between the new and old state, is less than the predefined tolerance. A slight variant of the fine-tuning step, which can improve speed of the calculation, is also provided. Instead of moving each node into each community in turn, we only consider moves of neighbouring nodes, found in different communities, to the community of the current node of interest. The two steps process is repeatedly applied to each new community found, subdivided each community into two new communities, until we are unable to find any division that results in a positive change in Modularity.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
@@ -83,7 +83,7 @@
 
 <dl class="conda package">
 <dt class="sig sig-object conda" id="package-r-rspectral">
-<em class="property"><span class="pre">package</span> </em><span class="sig-name descname"><span class="pre">r-rspectral</span></span><a class="headerlink" href="#package-r-rspectral" title="Link to this definition">¶</a></dt>
+<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">r-rspectral</span></span><a class="headerlink" href="#package-r-rspectral" title="Link to this definition">¶</a></dt>
 <dd><blockquote>
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/r-rspectral"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-rspectral.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-rspectral"><img alt="docker_r-rspectral" src="https://quay.io/repository/biocontainers/r-rspectral/status" /></a></p>
 <dl class="field-list simple">
@@ -304,7 +304,7 @@ others.</p>
       &#169;2016-2025, The Bioconda Team.
       
       |
-      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.2.3</a>
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 9.0.4</a>
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
       
       |

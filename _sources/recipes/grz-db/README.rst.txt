@@ -28,10 +28,10 @@ grz-db
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  <code>0.2.1-0</code>,  </span></summary>
       
 
-      ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -42,7 +42,8 @@ grz-db
    
    :depends alembic: ``>=1.16.1``
    :depends cryptography: ``>=45.0.3``
-   :depends grz-pydantic-models: ``>=2.4,<3``
+   :depends grz-pydantic-models: ``>=2.5,<3``
+   :depends psycopg: ``>=3.2,<4``
    :depends python: ``>=3.12,<4.0``
    :depends sqlmodel: ``>=0.0.24``
    :requirements:
@@ -95,7 +96,7 @@ grz-db
 
     <script>
         var package = "grz-db";
-        var versions = ["1.1.0","1.0.1","1.0.0","0.6.0","0.5.0"];
+        var versions = ["1.2.0","1.1.0","1.0.1","1.0.0","0.6.0"];
     </script>
 
 

@@ -13,7 +13,7 @@ bandage_ng
    Bandage \- a Bioinformatics Application for Navigating De novo Assembly Graphs Easily.
 
    :homepage: https://github.com/asl/BandageNG
-   :documentation: https://github.com/asl/BandageNG/blob/v2025.6.1/README.md
+   :documentation: https://github.com/asl/BandageNG/blob/v2025.12.1/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`bandage_ng <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bandage_ng>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bandage_ng/meta.yaml>`_
@@ -30,7 +30,7 @@ bandage_ng
       
       
 
-      ``2025.6.1-0``,  ``2025.5.1-0``,  ``2025.4.1-0``,  ``2022.09-4``,  ``2022.09-3``,  ``2022.09-2``,  ``2022.09-1``,  ``2022.09-0``
+      ``2025.12.1-0``,  ``2025.6.1-0``,  ``2025.5.1-0``,  ``2025.4.1-0``,  ``2022.09-4``,  ``2022.09-3``,  ``2022.09-2``,  ``2022.09-1``,  ``2022.09-0``
 
       
 
@@ -38,6 +38,7 @@ bandage_ng
    :depends fonts-conda-ecosystem: 
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
+   :depends libvulkan-loader: ``>=1.4.328.1,<2.0a0``
    :depends qt6-main: 
    :depends xorg-libice: ``>=1.1.2,<2.0a0``
    :depends xorg-libsm: ``>=1.2.6,<2.0a0``
@@ -100,7 +101,7 @@ bandage_ng
 
     <script>
         var package = "bandage_ng";
-        var versions = ["2025.6.1","2025.5.1","2025.4.1","2022.09","2022.09"];
+        var versions = ["2025.12.1","2025.6.1","2025.5.1","2025.4.1","2022.09"];
     </script>
 
 

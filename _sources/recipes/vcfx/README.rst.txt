@@ -12,10 +12,9 @@ vcfx
 
    VCFX\: A Comprehensive VCF Manipulation Toolkit
 
-   :homepage: https://github.com/jorgeMFS/VCFX
+   :homepage: https://github.com/ieeta-pt/VCFX
    :documentation: https://ieeta-pt.github.io/VCFX/
    
-   :developer docs: https://github.com/ieeta-pt/VCFX
    :license: MIT
    :recipe: /`vcfx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcfx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcfx/meta.yaml>`_
 
@@ -35,7 +34,7 @@ vcfx
       
       
 
-      ``1.0.3-0``,  ``1.0.2-0``
+      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
 
       
 
@@ -97,7 +96,7 @@ vcfx
 
     <script>
         var package = "vcfx";
-        var versions = ["1.0.3","1.0.2"];
+        var versions = ["1.0.4","1.0.3","1.0.2"];
     </script>
 
 

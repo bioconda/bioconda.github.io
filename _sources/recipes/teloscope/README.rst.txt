@@ -13,7 +13,7 @@ teloscope
    A telomere annotation tools for genome assemblies.
 
    :homepage: https://github.com/vgl-hub/teloscope
-   :documentation: https://github.com/vgl-hub/teloscope/blob/v0.1.2/README.md
+   :documentation: https://github.com/vgl-hub/teloscope/blob/v0.1.3/README.md
    
    :license: MIT
    :recipe: /`teloscope <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/teloscope>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/teloscope/meta.yaml>`_
@@ -31,10 +31,10 @@ teloscope
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.2-0</code>,  <code>0.1.1-0</code>,  <code>0.1.0-0</code>,  <code>0.0.9-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-0</code>,  <code>0.0.6-1</code>,  <code>0.0.6-0</code>,  <code>0.0.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.3-0</code>,  <code>0.1.2-0</code>,  <code>0.1.1-0</code>,  <code>0.1.0-0</code>,  <code>0.0.9-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-0</code>,  <code>0.0.6-1</code>,  <code>0.0.6-0</code>,  </span></summary>
       
 
-      ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
       .. raw:: html
@@ -46,7 +46,7 @@ teloscope
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends openssl: ``>=3.5.2,<4.0a0``
+   :depends openssl: ``>=3.6.0,<4.0a0``
    :requirements:
 
    :additional platforms:
@@ -101,7 +101,7 @@ teloscope
 
     <script>
         var package = "teloscope";
-        var versions = ["0.1.2","0.1.1","0.1.0","0.0.9","0.0.8"];
+        var versions = ["0.1.3","0.1.2","0.1.1","0.1.0","0.0.9"];
     </script>
 
 

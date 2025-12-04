@@ -28,10 +28,10 @@ grz-common
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.0-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  </span></summary>
       
 
-      ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.1.0-0``
+      ``1.6.0-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -45,8 +45,8 @@ grz-common
    :depends grz-pydantic-models: ``>=2.4,<3``
    :depends jsonschema: ``>=4.23.0,<5``
    :depends platformdirs: ``>=4.3.6,<5``
-   :depends pydantic: ``>=2.9.2,<2.10``
-   :depends pydantic-settings: ``>=2.9.0,<2.10``
+   :depends pydantic: ``>=2.12,<3``
+   :depends pydantic-settings: ``>=2.11,<3``
    :depends pysam: ``0.23.*``
    :depends python: ``>=3.12``
    :depends python-crypt4gh: ``>=1.7,<2``
@@ -104,7 +104,7 @@ grz-common
 
     <script>
         var package = "grz-common";
-        var versions = ["1.5.0","1.4.0","1.3.1","1.3.0","1.2.1"];
+        var versions = ["1.6.0","1.5.0","1.4.0","1.3.1","1.3.0"];
     </script>
 
 
