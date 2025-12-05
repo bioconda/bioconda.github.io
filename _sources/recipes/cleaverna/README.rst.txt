@@ -1,0 +1,127 @@
+:orphan:  .. only available via index, not via toctree
+
+.. title:: Package Recipe 'cleaverna'
+.. highlight: bash
+
+cleaverna
+=========
+
+.. conda:recipe:: cleaverna
+   :replaces_section_title:
+   :noindex:
+
+   Computational tool for scoring candidate cleavage sites of DNAzyme
+
+   :homepage: https://github.com/reyhaneh-tavakoli/CleaveRNA
+   :documentation: https://github.com/reyhaneh-tavakoli/CleaveRNA/blob/main/README.md
+   
+   :license: MIT / MIT
+   :recipe: /`cleaverna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cleaverna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cleaverna/meta.yaml>`_
+
+   CleaveRNA is Advanced machine learning\-based computational tool for scoring candidate
+   DNAzyme cleavage sites in substrate RNA sequences using structural and
+   thermodynamic features. The tool supports multiple
+   analysis modes including training and prediction.
+   Key features\:
+   \- Machine learning\-based cleavage site prediction
+   \- Multiple prediction modes for different use cases
+   \- Feature extraction and model training capabilities
+   \- Cross\-validation and performance metrics
+   \- Single command\-line interface for all workflows
+
+
+
+.. conda:package:: cleaverna
+
+   |downloads_cleaverna| |docker_cleaverna|
+
+   :versions:
+      
+      
+
+      ``1.0.0-0``
+
+      
+
+   
+   :depends intarna: ``>=3.0``
+   :depends matplotlib-base: ``>=3.3.0``
+   :depends numpy: ``>=1.20.0``
+   :depends pandas: ``>=1.3.0``
+   :depends python: ``>=3.7``
+   :depends scikit-learn: ``>=1.0.0``
+   :depends tqdm: ``>=4.60.0``
+   :depends viennarna: 
+   :requirements:
+
+   :additional platforms:
+      
+
+   .. rubric:: Installation
+
+  You need a conda-compatible package manager
+  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
+  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+
+  While any of above package managers is fine, it is currently recommended to use either
+  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
+  We will show all commands using mamba below, but the arguments are the same for the two
+  others.
+
+  Given that you already have a conda environment in which you want to have this package, install with::
+
+      mamba install cleaverna
+
+   and update with::
+
+      mamba update cleaverna
+
+  To create a new environment, run::
+
+      mamba create --name myenvname cleaverna
+
+  with ``myenvname`` being a reasonable name for the environment
+  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+
+  Alternatively, use the docker container::
+
+      docker pull quay.io/biocontainers/cleaverna:<tag>
+
+   (see `cleaverna/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_cleaverna| image:: https://img.shields.io/conda/dn/bioconda/cleaverna.svg?style=flat
+   :target: https://anaconda.org/bioconda/cleaverna
+   :alt:   (downloads)
+.. |docker_cleaverna| image:: https://quay.io/repository/biocontainers/cleaverna/status
+   :target: https://quay.io/repository/biocontainers/cleaverna
+.. _`cleaverna/tags`: https://quay.io/repository/biocontainers/cleaverna?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "cleaverna";
+        var versions = ["1.0.0"];
+    </script>
+
+
+
+
+
+
+Download stats
+-----------------
+
+.. raw:: html
+    :file: ../../templates/package_dashboard.html
+
+Link to this page
+-----------------
+
+Render an |install-with-bioconda| badge with the following MarkDown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/cleaverna/README.html)
+
+.. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
+   :target: http://bioconda.github.io/recipes/cleaverna/README.html

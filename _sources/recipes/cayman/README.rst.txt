@@ -28,7 +28,7 @@ cayman
       
       
 
-      ``0.10.1-0``
+      ``0.10.2-0``,  ``0.10.1-0``
 
       
 
@@ -87,7 +87,7 @@ cayman
 
     <script>
         var package = "cayman";
-        var versions = ["0.10.1"];
+        var versions = ["0.10.2","0.10.1"];
     </script>
 
 

@@ -29,10 +29,10 @@ xengsort
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.0-0</code>,  <code>2.0.9-0</code>,  <code>2.0.8-0</code>,  <code>2.0.7-0</code>,  <code>2.0.5-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.9-0</code>,  <code>2.0.8-0</code>,  <code>2.0.7-0</code>,  <code>2.0.5-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  </span></summary>
       
 
-      ``2.1.0-0``,  ``2.0.9-0``,  ``2.0.8-0``,  ``2.0.7-0``,  ``2.0.5-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.0.3-0``
+      ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.9-0``,  ``2.0.8-0``,  ``2.0.7-0``,  ``2.0.5-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.0.3-0``
 
       
       .. raw:: html
@@ -41,14 +41,14 @@ xengsort
       
 
    
-   :depends jsonargparse: 
-   :depends numba: 
-   :depends numpy: 
+   :depends bzip2: 
+   :depends jsonargparse: ``>=4.29.0``
+   :depends numba: ``>=0.60``
+   :depends numpy: ``>=2``
    :depends pytest: 
    :depends python: ``>=3.12``
-   :depends pyyaml: 
-   :depends zarr: 
-   :depends zstd: 
+   :depends tabix: 
+   :depends xz: 
    :requirements:
 
    :additional platforms:
@@ -99,7 +99,7 @@ xengsort
 
     <script>
         var package = "xengsort";
-        var versions = ["2.1.0","2.0.9","2.0.8","2.0.7","2.0.5"];
+        var versions = ["2.1.0","2.1.0","2.0.9","2.0.8","2.0.7"];
     </script>
 
 
