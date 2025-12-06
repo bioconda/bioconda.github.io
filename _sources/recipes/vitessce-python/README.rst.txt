@@ -30,24 +30,18 @@ vitessce-python
       
       
 
-      ``3.1.0-0``
+      ``3.7.7-0``,  ``3.1.0-0``
 
       
 
    
-   :depends anndata: ``>=0.7.8,<0.9``
    :depends black: ``>=21.11b1``
-   :depends jsonschema: ``>=3.2``
-   :depends negspy: ``>=0.2.24``
-   :depends numcodecs: ``>=0.5.7``
-   :depends numpy: ``>=1.21.2,<2.3``
-   :depends ome-zarr: ``0.2.1``
+   :depends numcodecs: ``>=0.5.7,<0.16.0``
+   :depends numpy: ``>=1.21.2``
    :depends pandas: ``>=1.1.2``
-   :depends python: ``>=3.7``
-   :depends scanpy: ``>=1.9.3``
+   :depends python: ``>=3.10``
    :depends scipy: ``>=1.2.1``
-   :depends tifffile: ``>=2020.10.1``
-   :depends zarr: ``>=2.5.0``
+   :depends zarr: ``>=2.5.0,<3``
    :requirements:
 
    :additional platforms:
@@ -98,7 +92,7 @@ vitessce-python
 
     <script>
         var package = "vitessce-python";
-        var versions = ["3.1.0"];
+        var versions = ["3.7.7","3.1.0"];
     </script>
 
 
