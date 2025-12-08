@@ -29,10 +29,10 @@ viroconstrictor
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.5-0</code>,  <code>1.5.4-0</code>,  <code>1.5.3-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.6-0</code>,  <code>1.4.5-1</code>,  <code>1.4.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.0-0</code>,  <code>1.5.5-0</code>,  <code>1.5.4-0</code>,  <code>1.5.3-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.6-0</code>,  <code>1.4.5-1</code>,  </span></summary>
       
 
-      ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.6-0``,  ``1.4.5-1``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``
+      ``1.6.0-0``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.6-0``,  ``1.4.5-1``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``
 
       
       .. raw:: html
@@ -41,20 +41,26 @@ viroconstrictor
       
 
    
-   :depends aminoextract: ``0.3.1``
-   :depends biopython: ``1.81``
+   :depends aminoextract: ``0.4.1``
+   :depends bcbio-gff: ``0.7.1``
+   :depends biopython: ``1.85``
+   :depends biovalid: ``0.3.0``
    :depends conda: 
    :depends drmaa: ``0.7.9``
-   :depends fpdf2: ``2.5.1``
+   :depends fpdf2: ``2.8.4``
    :depends mamba: ``>=1.5.0,<2.0.0``
-   :depends openpyxl: ``3.1.*``
-   :depends pandas: ``2.0.*``
-   :depends pyopenssl: ``24.*``
+   :depends openpyxl: ``3.1.5``
+   :depends pandas: ``2.3.3``
    :depends python: ``>=3.10``
-   :depends pyyaml: ``6.0``
-   :depends rich: ``13.*``
-   :depends snakemake: ``7.25.2``
-   :depends urllib3: ``1.26.*``
+   :depends python-magic: ``0.4.27``
+   :depends pyyaml: ``6.0.3``
+   :depends rich: ``13.9.4``
+   :depends snakemake-executor-plugin-drmaa: ``0.1.5``
+   :depends snakemake-executor-plugin-lsf: ``0.2.6``
+   :depends snakemake-executor-plugin-slurm: ``2.0.0``
+   :depends snakemake-interface-logger-plugins: ``1.2.4``
+   :depends snakemake-minimal: ``9.5.1``
+   :depends urllib3: ``2.5.0``
    :requirements:
 
    :additional platforms:
@@ -105,7 +111,7 @@ viroconstrictor
 
     <script>
         var package = "viroconstrictor";
-        var versions = ["1.5.5","1.5.4","1.5.3","1.5.2","1.5.1"];
+        var versions = ["1.6.0","1.5.5","1.5.4","1.5.3","1.5.2"];
     </script>
 
 

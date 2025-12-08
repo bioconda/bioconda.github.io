@@ -29,21 +29,23 @@ libcarna-python
       
       
 
-      ``0.2.0-0``
+      ``0.2.0-1``,  ``0.2.0-0``
 
       
 
    
-   :depends ffmpeg: 
+   :depends ffmpeg: ``>=4.3.2``
    :depends libcarna: ``3.4``
    :depends libcarna: ``>=3.4.0,<3.5.0a0``
    :depends libegl: ``>=1.7.0,<2.0a0``
    :depends libgcc: ``>=13``
    :depends libgl: ``>=1.7.0,<2.0a0``
+   :depends libglu: ``>=9.0.3,<9.1.0a0``
    :depends libopengl: ``>=1.7.0,<2.0a0``
    :depends libstdcxx: ``>=13``
    :depends matplotlib-base: 
    :depends numpngw: ``>=0.1.4,<0.2``
+   :depends numpy: ``<2.3``
    :depends pooch: 
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
@@ -102,7 +104,7 @@ libcarna-python
 
     <script>
         var package = "libcarna-python";
-        var versions = ["0.2.0"];
+        var versions = ["0.2.0","0.2.0"];
     </script>
 
 

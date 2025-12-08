@@ -27,7 +27,7 @@ perl-datetime-format-strptime
       
       
 
-      ``1.79-0``,  ``1.75-1``,  ``1.75-0``,  ``1.73-0``
+      ``1.80-0``,  ``1.79-0``,  ``1.75-1``,  ``1.75-0``,  ``1.73-0``
 
       
 
@@ -94,7 +94,7 @@ perl-datetime-format-strptime
 
     <script>
         var package = "perl-datetime-format-strptime";
-        var versions = ["1.79","1.75","1.75","1.73"];
+        var versions = ["1.80","1.79","1.75","1.75","1.73"];
     </script>
 
 

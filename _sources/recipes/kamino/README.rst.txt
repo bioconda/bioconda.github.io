@@ -13,7 +13,7 @@ kamino
    Tool for building phylogenomic datasets quickly and reproducibly.
 
    :homepage: https://github.com/rderelle/kamino
-   :documentation: https://github.com/rderelle/kamino/blob/0.1.0/README.md
+   :documentation: https://github.com/rderelle/kamino/blob/0.2.1/README.md
    
    :license: MIT / MIT
    :recipe: /`kamino <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kamino>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kamino/meta.yaml>`_
@@ -29,7 +29,7 @@ kamino
       
       
 
-      ``0.1.0-0``
+      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -88,7 +88,7 @@ kamino
 
     <script>
         var package = "kamino";
-        var versions = ["0.1.0"];
+        var versions = ["0.2.1","0.2.0","0.1.0"];
     </script>
 
 

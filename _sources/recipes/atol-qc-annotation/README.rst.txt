@@ -27,7 +27,7 @@ atol-qc-annotation
       
       
 
-      ``0.1.0-0``
+      ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -89,7 +89,7 @@ atol-qc-annotation
 
     <script>
         var package = "atol-qc-annotation";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.1","0.1.0"];
     </script>
 
 

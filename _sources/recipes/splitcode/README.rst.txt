@@ -31,10 +31,10 @@ splitcode
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.31.5-0</code>,  <code>0.31.4-0</code>,  <code>0.31.3-0</code>,  <code>0.31.2-2</code>,  <code>0.31.2-1</code>,  <code>0.31.2-0</code>,  <code>0.31.1-0</code>,  <code>0.31.0-0</code>,  <code>0.30.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.31.6-0</code>,  <code>0.31.5-0</code>,  <code>0.31.4-0</code>,  <code>0.31.3-0</code>,  <code>0.31.2-2</code>,  <code>0.31.2-1</code>,  <code>0.31.2-0</code>,  <code>0.31.1-0</code>,  <code>0.31.0-0</code>,  </span></summary>
       
 
-      ``0.31.5-0``,  ``0.31.4-0``,  ``0.31.3-0``,  ``0.31.2-2``,  ``0.31.2-1``,  ``0.31.2-0``,  ``0.31.1-0``,  ``0.31.0-0``,  ``0.30.0-1``,  ``0.30.0-0``,  ``0.29.4-0``
+      ``0.31.6-0``,  ``0.31.5-0``,  ``0.31.4-0``,  ``0.31.3-0``,  ``0.31.2-2``,  ``0.31.2-1``,  ``0.31.2-0``,  ``0.31.1-0``,  ``0.31.0-0``,  ``0.30.0-1``,  ``0.30.0-0``,  ``0.29.4-0``
 
       
       .. raw:: html
@@ -100,7 +100,7 @@ splitcode
 
     <script>
         var package = "splitcode";
-        var versions = ["0.31.5","0.31.4","0.31.3","0.31.2","0.31.2"];
+        var versions = ["0.31.6","0.31.5","0.31.4","0.31.3","0.31.2"];
     </script>
 
 

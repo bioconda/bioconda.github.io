@@ -29,7 +29,7 @@ ourotools
       
       
 
-      ``0.2.8-0``,  ``0.2.7-0``
+      ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``
 
       
 
@@ -104,7 +104,7 @@ ourotools
 
     <script>
         var package = "ourotools";
-        var versions = ["0.2.8","0.2.7"];
+        var versions = ["0.2.9","0.2.8","0.2.7"];
     </script>
 
 
