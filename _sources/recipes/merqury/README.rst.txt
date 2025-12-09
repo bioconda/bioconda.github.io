@@ -26,15 +26,23 @@ merqury
    :versions:
       
       
+      .. raw:: html
 
-      ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``v1.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.3-4</code>,  <code>1.3-3</code>,  <code>1.3-2</code>,  <code>1.3-1</code>,  <code>1.3-0</code>,  <code>1.1-3</code>,  <code>1.1-2</code>,  <code>1.1-1</code>,  <code>1.1-0</code>,  </span></summary>
+      
 
+      ``1.3-4``,  ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``v1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bedtools: ``>=2.29.2``
    :depends gawk: 
-   :depends meryl: ``1.3.*``
+   :depends meryl: ``1.4.1.*``
    :depends mscorefonts: 
    :depends openjdk: ``>=11.0.1``
    :depends r-argparse: ``>=2.0.1``
@@ -93,7 +101,7 @@ merqury
 
     <script>
         var package = "merqury";
-        var versions = ["1.3","1.3","1.3","1.3","1.1"];
+        var versions = ["1.3","1.3","1.3","1.3","1.3"];
     </script>
 
 

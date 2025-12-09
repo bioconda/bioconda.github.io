@@ -13,7 +13,7 @@ clusty
    Clusty is a tool for large\-scale data clustering.
 
    :homepage: https://github.com/refresh-bio/clusty
-   :documentation: https://github.com/refresh-bio/clusty/blob/v1.2.0/README.md
+   :documentation: https://github.com/refresh-bio/clusty/blob/v1.2.2/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`clusty <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clusty>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clusty/meta.yaml>`_
@@ -29,7 +29,7 @@ clusty
       
       
 
-      ``1.2.0-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -88,7 +88,7 @@ clusty
 
     <script>
         var package = "clusty";
-        var versions = ["1.2.0","1.1.5","1.1.4","1.1.1","1.1.0"];
+        var versions = ["1.2.2","1.2.0","1.1.5","1.1.4","1.1.1"];
     </script>
 
 
