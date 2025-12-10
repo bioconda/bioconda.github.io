@@ -13,7 +13,7 @@ crisprme
    CRISPRme\, tool package for CRISPR experiments assessment and analysis.
 
    :homepage: https://github.com/pinellolab/CRISPRme
-   :documentation: https://github.com/pinellolab/CRISPRme/blob/v2.1.7/README.md
+   :documentation: https://github.com/pinellolab/CRISPRme/blob/v2.1.8/README.md
    
    :license: AGPL / AGPL-3.0-or-later
    :recipe: /`crisprme <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crisprme>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crisprme/meta.yaml>`_

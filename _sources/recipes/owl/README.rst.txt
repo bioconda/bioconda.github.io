@@ -1,41 +1,37 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'logomaker'
+.. title:: Package Recipe 'owl'
 .. highlight: bash
 
-logomaker
-=========
+owl
+===
 
-.. conda:recipe:: logomaker
+.. conda:recipe:: owl
    :replaces_section_title:
    :noindex:
 
-   Package for making Sequence Logos
+   Microsatellite analysis for HiFi data
 
-   :homepage: http://logomaker.readthedocs.io
-   :license: MIT / MIT
-   :recipe: /`logomaker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/logomaker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/logomaker/meta.yaml>`_
+   :homepage: https://github.com/PacificBiosciences/owl
+   :license: BSD-3-Clause-Clear
+   :recipe: /`owl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/owl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/owl/meta.yaml>`_
 
    
 
 
-.. conda:package:: logomaker
+.. conda:package:: owl
 
-   |downloads_logomaker| |docker_logomaker|
+   |downloads_owl| |docker_owl|
 
    :versions:
       
       
 
-      ``0.8-1``,  ``0.8-0``
+      ``0.4.0-0``
 
       
 
    
-   :depends matplotlib-base: 
-   :depends numpy: 
-   :depends pandas: 
-   :depends python: ``>=3.9``
    :requirements:
 
    :additional platforms:
@@ -54,39 +50,39 @@ logomaker
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install logomaker
+      mamba install owl
 
    and update with::
 
-      mamba update logomaker
+      mamba update owl
 
   To create a new environment, run::
 
-      mamba create --name myenvname logomaker
+      mamba create --name myenvname owl
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/logomaker:<tag>
+      docker pull quay.io/biocontainers/owl:<tag>
 
-   (see `logomaker/tags`_ for valid values for ``<tag>``)
+   (see `owl/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_logomaker| image:: https://img.shields.io/conda/dn/bioconda/logomaker.svg?style=flat
-   :target: https://anaconda.org/bioconda/logomaker
+.. |downloads_owl| image:: https://img.shields.io/conda/dn/bioconda/owl.svg?style=flat
+   :target: https://anaconda.org/bioconda/owl
    :alt:   (downloads)
-.. |docker_logomaker| image:: https://quay.io/repository/biocontainers/logomaker/status
-   :target: https://quay.io/repository/biocontainers/logomaker
-.. _`logomaker/tags`: https://quay.io/repository/biocontainers/logomaker?tab=tags
+.. |docker_owl| image:: https://quay.io/repository/biocontainers/owl/status
+   :target: https://quay.io/repository/biocontainers/owl
+.. _`owl/tags`: https://quay.io/repository/biocontainers/owl?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "logomaker";
-        var versions = ["0.8","0.8"];
+        var package = "owl";
+        var versions = ["0.4.0"];
     </script>
 
 
@@ -105,7 +101,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/logomaker/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/owl/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/logomaker/README.html
+   :target: http://bioconda.github.io/recipes/owl/README.html
