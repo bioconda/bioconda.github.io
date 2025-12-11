@@ -29,7 +29,7 @@ enhancedsppider
       
       
 
-      ``0.2.0-0``
+      ``0.2.2-0``,  ``0.2.0-0``
 
       
 
@@ -93,7 +93,7 @@ enhancedsppider
 
     <script>
         var package = "enhancedsppider";
-        var versions = ["0.2.0"];
+        var versions = ["0.2.2","0.2.0"];
     </script>
 
 

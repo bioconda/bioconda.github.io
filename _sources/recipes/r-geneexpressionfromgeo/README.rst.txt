@@ -27,7 +27,7 @@ r-geneexpressionfromgeo
       
       
 
-      ``1.2-0``,  ``0.9-3``,  ``0.9-2``,  ``0.9-1``,  ``0.9-0``
+      ``1.3-0``,  ``1.2-0``,  ``0.9-3``,  ``0.9-2``,  ``0.9-1``,  ``0.9-0``
 
       
 
@@ -88,7 +88,7 @@ r-geneexpressionfromgeo
 
     <script>
         var package = "r-geneexpressionfromgeo";
-        var versions = ["1.2","0.9","0.9","0.9","0.9"];
+        var versions = ["1.3","1.2","0.9","0.9","0.9"];
     </script>
 
 

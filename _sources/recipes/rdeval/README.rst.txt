@@ -13,7 +13,7 @@ rdeval
    A general purpose\, multithreaded read analysis and manipulation tool.
 
    :homepage: https://github.com/vgl-hub/rdeval
-   :documentation: https://github.com/vgl-hub/rdeval/blob/v0.0.7/README.md
+   :documentation: https://github.com/vgl-hub/rdeval/blob/v0.0.8/README.md
    
    :license: MIT / MIT
    :recipe: /`rdeval <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdeval>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdeval/meta.yaml>`_
@@ -30,10 +30,10 @@ rdeval
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.7-2</code>,  <code>0.0.7-1</code>,  <code>0.0.7-0</code>,  <code>0.0.6-1</code>,  <code>0.0.6-0</code>,  <code>0.0.5-2</code>,  <code>0.0.5-1</code>,  <code>0.0.5-0</code>,  <code>0.0.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.8-0</code>,  <code>0.0.7-2</code>,  <code>0.0.7-1</code>,  <code>0.0.7-0</code>,  <code>0.0.6-1</code>,  <code>0.0.6-0</code>,  <code>0.0.5-2</code>,  <code>0.0.5-1</code>,  <code>0.0.5-0</code>,  </span></summary>
       
 
-      ``0.0.7-2``,  ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-1``,  ``0.0.2-0``
+      ``0.0.8-0``,  ``0.0.7-2``,  ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-1``,  ``0.0.2-0``
 
       
       .. raw:: html
@@ -46,7 +46,7 @@ rdeval
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends openssl: ``>=3.5.1,<4.0a0``
+   :depends openssl: ``>=3.6.0,<4.0a0``
    :depends pandoc: 
    :depends r-base: ``>=4.4,<4.5.0a0``
    :depends r-bit64: 
@@ -109,7 +109,7 @@ rdeval
 
     <script>
         var package = "rdeval";
-        var versions = ["0.0.7","0.0.7","0.0.7","0.0.6","0.0.6"];
+        var versions = ["0.0.8","0.0.7","0.0.7","0.0.7","0.0.6"];
     </script>
 
 

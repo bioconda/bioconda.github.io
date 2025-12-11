@@ -31,10 +31,10 @@ hictkpy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.0-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.0.5-2</code>,  <code>0.0.5-1</code>,  <code>0.0.5-0</code>,  <code>0.0.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.0.5-2</code>,  <code>0.0.5-1</code>,  <code>0.0.5-0</code>,  </span></summary>
       
 
-      ``1.3.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
       .. raw:: html
@@ -45,16 +45,16 @@ hictkpy
    
    :depends hdf5: ``>=1.14,<2.0a0``
    :depends hdf5: ``>=1.14.6,<1.14.7.0a0``
-   :depends libarrow: ``>=20.0.0,<20.1.0a0``
+   :depends libarrow: ``>=22.0.0,<22.1.0a0``
+   :depends libarrow-compute: ``>=22.0.0,<22.1.0a0``
    :depends libdeflate: ``>=1,<2.0a0``
-   :depends libdeflate: ``>=1.24,<1.25.0a0``
-   :depends libgcc: ``>=12``
-   :depends libgcc: ``>=15``
-   :depends libstdcxx: ``>=15``
+   :depends libdeflate: ``>=1.25,<1.26.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
    :depends numpy: ``>=1.21,<3``
    :depends numpy: ``>=2,<3.0a0``
    :depends pandas: 
-   :depends pyarrow: 
+   :depends pyarrow: ``>=22,<23.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends scipy: 
@@ -114,7 +114,7 @@ hictkpy
 
     <script>
         var package = "hictkpy";
-        var versions = ["1.3.0","1.2.0","1.2.0","1.1.0","1.0.0"];
+        var versions = ["1.4.0","1.3.0","1.2.0","1.2.0","1.1.0"];
     </script>
 
 
