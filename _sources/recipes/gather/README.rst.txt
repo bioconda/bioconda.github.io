@@ -29,14 +29,15 @@ gather
       
       
 
-      ``0.1.0-0``
+      ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
    :depends argcomplete: 
-   :depends bcalm: ``2.2.3.*``
+   :depends bcalm: ``>=2.2.3``
    :depends biopython: 
+   :depends glob2: 
    :depends joblib: 
    :depends matplotlib-base: 
    :depends networkx: 
@@ -95,7 +96,7 @@ gather
 
     <script>
         var package = "gather";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.1","0.1.0"];
     </script>
 
 

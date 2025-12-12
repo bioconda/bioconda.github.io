@@ -29,10 +29,10 @@ meteor
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.21-0</code>,  <code>2.0.20-0</code>,  <code>2.0.19-0</code>,  <code>2.0.18-0</code>,  <code>2.0.17-0</code>,  <code>2.0.16-0</code>,  <code>2.0.14-2</code>,  <code>2.0.14-1</code>,  <code>2.0.14-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.22-0</code>,  <code>2.0.21-0</code>,  <code>2.0.20-0</code>,  <code>2.0.19-0</code>,  <code>2.0.18-0</code>,  <code>2.0.17-0</code>,  <code>2.0.16-0</code>,  <code>2.0.14-2</code>,  <code>2.0.14-1</code>,  </span></summary>
       
 
-      ``2.0.21-0``,  ``2.0.20-0``,  ``2.0.19-0``,  ``2.0.18-0``,  ``2.0.17-0``,  ``2.0.16-0``,  ``2.0.14-2``,  ``2.0.14-1``,  ``2.0.14-0``,  ``2.0.13-0``,  ``2.0.11-0``,  ``2.0.9-0``
+      ``2.0.22-0``,  ``2.0.21-0``,  ``2.0.20-0``,  ``2.0.19-0``,  ``2.0.18-0``,  ``2.0.17-0``,  ``2.0.16-0``,  ``2.0.14-2``,  ``2.0.14-1``,  ``2.0.14-0``,  ``2.0.13-0``,  ``2.0.11-0``,  ``2.0.9-0``
 
       
       .. raw:: html
@@ -102,7 +102,7 @@ meteor
 
     <script>
         var package = "meteor";
-        var versions = ["2.0.21","2.0.20","2.0.19","2.0.18","2.0.17"];
+        var versions = ["2.0.22","2.0.21","2.0.20","2.0.19","2.0.18"];
     </script>
 
 

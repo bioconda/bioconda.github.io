@@ -28,10 +28,10 @@ atol-bpa-datamapper
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.16-0</code>,  <code>0.1.14-0</code>,  <code>0.1.13-0</code>,  <code>0.1.12-0</code>,  <code>0.1.11-0</code>,  <code>0.1.10-0</code>,  <code>0.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.17-0</code>,  <code>0.1.16-0</code>,  <code>0.1.14-0</code>,  <code>0.1.13-0</code>,  <code>0.1.12-0</code>,  <code>0.1.11-0</code>,  <code>0.1.10-0</code>,  <code>0.1.9-0</code>,  <code>0.1.8-0</code>,  </span></summary>
       
 
-      ``0.1.16-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.1.17-0``,  ``0.1.16-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -94,7 +94,7 @@ atol-bpa-datamapper
 
     <script>
         var package = "atol-bpa-datamapper";
-        var versions = ["0.1.16","0.1.14","0.1.13","0.1.12","0.1.11"];
+        var versions = ["0.1.17","0.1.16","0.1.14","0.1.13","0.1.12"];
     </script>
 
 

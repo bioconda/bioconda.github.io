@@ -28,10 +28,10 @@ perl-mime-types
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.29-0</code>,  <code>2.28-0</code>,  <code>2.27-0</code>,  <code>2.24-0</code>,  <code>2.23-0</code>,  <code>2.22-0</code>,  <code>2.17-1</code>,  <code>2.17-0</code>,  <code>2.12-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.30-0</code>,  <code>2.29-0</code>,  <code>2.28-0</code>,  <code>2.27-0</code>,  <code>2.24-0</code>,  <code>2.23-0</code>,  <code>2.22-0</code>,  <code>2.17-1</code>,  <code>2.17-0</code>,  </span></summary>
       
 
-      ``2.29-0``,  ``2.28-0``,  ``2.27-0``,  ``2.24-0``,  ``2.23-0``,  ``2.22-0``,  ``2.17-1``,  ``2.17-0``,  ``2.12-1``,  ``2.12-0``
+      ``2.30-0``,  ``2.29-0``,  ``2.28-0``,  ``2.27-0``,  ``2.24-0``,  ``2.23-0``,  ``2.22-0``,  ``2.17-1``,  ``2.17-0``,  ``2.12-1``,  ``2.12-0``
 
       
       .. raw:: html
@@ -91,7 +91,7 @@ perl-mime-types
 
     <script>
         var package = "perl-mime-types";
-        var versions = ["2.29","2.28","2.27","2.24","2.23"];
+        var versions = ["2.30","2.29","2.28","2.27","2.24"];
     </script>
 
 

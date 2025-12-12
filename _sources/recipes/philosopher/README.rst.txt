@@ -27,7 +27,7 @@ philosopher
       
       
 
-      ``5.1.0-0``
+      ``5.1.2-0``,  ``5.1.0-0``
 
       
 
@@ -82,7 +82,7 @@ philosopher
 
     <script>
         var package = "philosopher";
-        var versions = ["5.1.0"];
+        var versions = ["5.1.2","5.1.0"];
     </script>
 
 

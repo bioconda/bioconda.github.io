@@ -27,12 +27,13 @@ flagx
       
       
 
-      ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
    :depends click: 
+   :depends flowio: 
    :depends matplotlib-base: 
    :depends numba: 
    :depends numpy: 
@@ -45,6 +46,7 @@ flagx
    :depends scipy: 
    :depends somoclu: 
    :depends typing_extensions: 
+   :depends umap-learn: 
    :requirements:
 
    :additional platforms:
@@ -95,7 +97,7 @@ flagx
 
     <script>
         var package = "flagx";
-        var versions = ["0.1.0"];
+        var versions = ["0.2.0","0.1.0"];
     </script>
 
 

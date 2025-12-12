@@ -32,10 +32,10 @@ virmet
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.0-0</code>,  <code>1.1.1-0</code>,  <code>v1.1.1-5</code>,  <code>v1.1.1-4</code>,  <code>v1.1.1-3</code>,  <code>v1.1.1-2</code>,  <code>v1.1.1-1</code>,  <code>v1.1.1-0</code>,  <code>v1.1-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.1.1-0</code>,  <code>v1.1.1-5</code>,  <code>v1.1.1-4</code>,  <code>v1.1.1-3</code>,  <code>v1.1.1-2</code>,  <code>v1.1.1-1</code>,  <code>v1.1.1-0</code>,  </span></summary>
       
 
-      ``2.0.0-0``,  ``1.1.1-0``,  ``v1.1.1-5``,  ``v1.1.1-4``,  ``v1.1.1-3``,  ``v1.1.1-2``,  ``v1.1.1-1``,  ``v1.1.1-0``,  ``v1.1-2``,  ``v1.1-1``,  ``v1.1-0``,  ``v1.0-0``
+      ``2.0.0-1``,  ``2.0.0-0``,  ``1.1.1-0``,  ``v1.1.1-5``,  ``v1.1.1-4``,  ``v1.1.1-3``,  ``v1.1.1-2``,  ``v1.1.1-1``,  ``v1.1.1-0``,  ``v1.1-2``,  ``v1.1-1``,  ``v1.1-0``,  ``v1.0-0``
 
       
       .. raw:: html
@@ -109,7 +109,7 @@ virmet
 
     <script>
         var package = "virmet";
-        var versions = ["2.0.0","1.1.1","v1.1.1","v1.1.1","v1.1.1"];
+        var versions = ["2.0.0","2.0.0","1.1.1","v1.1.1","v1.1.1"];
     </script>
 
 
