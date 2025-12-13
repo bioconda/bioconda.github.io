@@ -31,10 +31,10 @@ gene-fetch
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.20-0</code>,  <code>1.0.19-0</code>,  <code>1.0.18-0</code>,  <code>1.0.17-0</code>,  <code>1.0.15-0</code>,  <code>1.0.14-0</code>,  <code>1.0.13-0</code>,  <code>1.0.12-0</code>,  <code>1.0.11-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.21-0</code>,  <code>1.0.20-0</code>,  <code>1.0.19-0</code>,  <code>1.0.18-0</code>,  <code>1.0.17-0</code>,  <code>1.0.15-0</code>,  <code>1.0.14-0</code>,  <code>1.0.13-0</code>,  <code>1.0.12-0</code>,  </span></summary>
       
 
-      ``1.0.20-0``,  ``1.0.19-0``,  ``1.0.18-0``,  ``1.0.17-0``,  ``1.0.15-0``,  ``1.0.14-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.9-0``
+      ``1.0.21-0``,  ``1.0.20-0``,  ``1.0.19-0``,  ``1.0.18-0``,  ``1.0.17-0``,  ``1.0.15-0``,  ``1.0.14-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.9-0``
 
       
       .. raw:: html
@@ -96,7 +96,7 @@ gene-fetch
 
     <script>
         var package = "gene-fetch";
-        var versions = ["1.0.20","1.0.19","1.0.18","1.0.17","1.0.15"];
+        var versions = ["1.0.21","1.0.20","1.0.19","1.0.18","1.0.17"];
     </script>
 
 

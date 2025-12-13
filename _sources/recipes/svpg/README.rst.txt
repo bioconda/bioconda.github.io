@@ -27,15 +27,19 @@ svpg
       
       
 
-      ``1.2.0-0``,  ``1.1-0``
+      ``1.3.0-0``,  ``1.2.0-0``,  ``1.1-0``
 
       
 
    
+   :depends mappy: 
    :depends numpy: 
+   :depends pyabpoa: 
    :depends pysam: ``>=0.15.0``
    :depends python: ``>=3``
+   :depends scikit-learn: 
    :depends scipy: 
+   :depends truvari: 
    :requirements:
 
    :additional platforms:
@@ -86,7 +90,7 @@ svpg
 
     <script>
         var package = "svpg";
-        var versions = ["1.2.0","1.1"];
+        var versions = ["1.3.0","1.2.0","1.1"];
     </script>
 
 

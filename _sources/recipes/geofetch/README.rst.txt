@@ -30,10 +30,10 @@ geofetch
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.12.8-0</code>,  <code>0.12.7-0</code>,  <code>0.12.6-0</code>,  <code>0.12.5-0</code>,  <code>0.12.4-0</code>,  <code>0.12.3-0</code>,  <code>0.12.2-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.12.9-0</code>,  <code>0.12.8-0</code>,  <code>0.12.7-0</code>,  <code>0.12.6-0</code>,  <code>0.12.5-0</code>,  <code>0.12.4-0</code>,  <code>0.12.3-0</code>,  <code>0.12.2-0</code>,  <code>0.12.1-0</code>,  </span></summary>
       
 
-      ``0.12.8-0``,  ``0.12.7-0``,  ``0.12.6-0``,  ``0.12.5-0``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``
+      ``0.12.9-0``,  ``0.12.8-0``,  ``0.12.7-0``,  ``0.12.6-0``,  ``0.12.5-0``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``
 
       
       .. raw:: html
@@ -104,7 +104,7 @@ geofetch
 
     <script>
         var package = "geofetch";
-        var versions = ["0.12.8","0.12.7","0.12.6","0.12.5","0.12.4"];
+        var versions = ["0.12.9","0.12.8","0.12.7","0.12.6","0.12.5"];
     </script>
 
 

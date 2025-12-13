@@ -29,7 +29,7 @@ chamois
       
       
 
-      ``0.1.3-0``
+      ``0.2.0-0``,  ``0.1.3-0``
 
       
 
@@ -101,7 +101,7 @@ chamois
 
     <script>
         var package = "chamois";
-        var versions = ["0.1.3"];
+        var versions = ["0.2.0","0.1.3"];
     </script>
 
 

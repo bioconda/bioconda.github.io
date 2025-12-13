@@ -13,7 +13,7 @@ trim-galore
    Trim Galore\! is a wrapper script to automate quality and adapter trimming as well as quality control
 
    :homepage: https://github.com/FelixKrueger/TrimGalore
-   :license: GPL / GPL
+   :license: GPL / GPL-3.0-only
    :recipe: /`trim-galore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trim-galore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trim-galore/meta.yaml>`_
    :links: usegalaxy-eu: :usegalaxy-eu:`trim_galore`
 
@@ -29,10 +29,10 @@ trim-galore
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.10-1</code>,  <code>0.6.10-0</code>,  <code>0.6.9-0</code>,  <code>0.6.7-0</code>,  <code>0.6.6-1</code>,  <code>0.6.6-0</code>,  <code>0.6.5-0</code>,  <code>0.6.4-1</code>,  <code>0.6.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.10-2</code>,  <code>0.6.10-1</code>,  <code>0.6.10-0</code>,  <code>0.6.9-0</code>,  <code>0.6.7-0</code>,  <code>0.6.6-1</code>,  <code>0.6.6-0</code>,  <code>0.6.5-0</code>,  <code>0.6.4-1</code>,  </span></summary>
       
 
-      ``0.6.10-1``,  ``0.6.10-0``,  ``0.6.9-0``,  ``0.6.7-0``,  ``0.6.6-1``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.0-0``,  ``0.4.5-2``,  ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.1-3``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
+      ``0.6.10-2``,  ``0.6.10-1``,  ``0.6.10-0``,  ``0.6.9-0``,  ``0.6.7-0``,  ``0.6.6-1``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.0-0``,  ``0.4.5-2``,  ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.1-3``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ trim-galore
       
 
    
-   :depends cutadapt: 
+   :depends cutadapt: ``5.2``
    :depends fastqc: 
    :depends perl: 
    :requirements:
@@ -94,7 +94,7 @@ trim-galore
 
     <script>
         var package = "trim-galore";
-        var versions = ["0.6.10","0.6.10","0.6.9","0.6.7","0.6.6"];
+        var versions = ["0.6.10","0.6.10","0.6.10","0.6.9","0.6.7"];
     </script>
 
 

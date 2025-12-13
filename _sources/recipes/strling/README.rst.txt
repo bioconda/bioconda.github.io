@@ -28,10 +28,10 @@ strling
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.2-1</code>,  <code>0.5.2-0</code>,  <code>0.5.1-4</code>,  <code>0.5.1-3</code>,  <code>0.5.1-2</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.0-0</code>,  <code>0.5.2-1</code>,  <code>0.5.2-0</code>,  <code>0.5.1-4</code>,  <code>0.5.1-3</code>,  <code>0.5.1-2</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  </span></summary>
       
 
-      ``0.5.2-1``,  ``0.5.2-0``,  ``0.5.1-4``,  ``0.5.1-3``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.1.0-0``
+      ``0.6.0-0``,  ``0.5.2-1``,  ``0.5.2-0``,  ``0.5.1-4``,  ``0.5.1-3``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -42,8 +42,8 @@ strling
    
    :depends biopython: 
    :depends bpipe: 
-   :depends htslib: ``>=1.17,<1.23.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
+   :depends libgcc: ``>=13``
    :depends pandas: 
    :depends pysam: 
    :depends pytest: 
@@ -102,7 +102,7 @@ strling
 
     <script>
         var package = "strling";
-        var versions = ["0.5.2","0.5.2","0.5.1","0.5.1","0.5.1"];
+        var versions = ["0.6.0","0.5.2","0.5.2","0.5.1","0.5.1"];
     </script>
 
 

@@ -27,7 +27,7 @@ massdash
       
       
 
-      ``0.1.0-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.6-0``,  ``0.0.5-0``
+      ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.6-0``,  ``0.0.5-0``
 
       
 
@@ -36,11 +36,11 @@ massdash
    :depends click: ``>=8.1``
    :depends joblib: 
    :depends matplotlib-base: 
-   :depends numpy: ``>=1.9.0``
+   :depends numpy: ``>=2.2.6``
    :depends pandas: ``>=0.17``
-   :depends plotly: ``5.24.1``
+   :depends plotly: ``6.5.0``
    :depends psutil: 
-   :depends pyopenms: ``>=3.2.0``
+   :depends pyopenms: ``>=3.4.0,<=3.5.0``
    :depends python: ``>=3.10,<=3.12``
    :depends requests: 
    :depends scipy: ``>=1.12.0``
@@ -97,7 +97,7 @@ massdash
 
     <script>
         var package = "massdash";
-        var versions = ["0.1.0","0.0.9","0.0.8","0.0.6","0.0.5"];
+        var versions = ["0.1.1","0.1.0","0.0.9","0.0.8","0.0.6"];
     </script>
 
 

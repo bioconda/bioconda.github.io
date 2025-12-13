@@ -28,7 +28,7 @@ svarp
       
       
 
-      ``1.0.1-0``
+      ``1.1.1-0``,  ``1.0.1-0``
 
       
 
@@ -40,6 +40,7 @@ svarp
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends minimap2: 
    :depends samtools: 
+   :depends wtdbg: 
    :requirements:
 
    :additional platforms:
@@ -90,7 +91,7 @@ svarp
 
     <script>
         var package = "svarp";
-        var versions = ["1.0.1"];
+        var versions = ["1.1.1","1.0.1"];
     </script>
 
 

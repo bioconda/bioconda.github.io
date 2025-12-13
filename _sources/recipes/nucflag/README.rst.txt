@@ -27,7 +27,7 @@ nucflag
       
       
 
-      ``0.3.7-0``
+      ``0.3.8-0``,  ``0.3.7-0``
 
       
 
@@ -90,7 +90,7 @@ nucflag
 
     <script>
         var package = "nucflag";
-        var versions = ["0.3.7"];
+        var versions = ["0.3.8","0.3.7"];
     </script>
 
 

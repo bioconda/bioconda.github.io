@@ -13,7 +13,7 @@ ezcharts
    eCharts plotting API.
 
    :homepage: https://github.com/epi2me-labs/ezcharts
-   :documentation: https://github.com/epi2me-labs/ezcharts/blob/v0.15.1/README.md
+   :documentation: https://github.com/epi2me-labs/ezcharts/blob/v0.15.2/README.md
    
    :license: BSD / BSD-4-Clause
    :recipe: /`ezcharts <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ezcharts>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ezcharts/meta.yaml>`_
@@ -29,12 +29,12 @@ ezcharts
       
       
 
-      ``0.15.1-0``,  ``0.15.0-0``,  ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.1-0``,  ``0.11.2-0``,  ``0.10.2-0``
+      ``0.15.2-0``,  ``0.15.1-0``,  ``0.15.0-0``,  ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.1-0``,  ``0.11.2-0``,  ``0.10.2-0``
 
       
 
    
-   :depends biopython: 
+   :depends biopython: ``1.86``
    :depends bokeh: ``>=3.1.0,<3.2.dev0``
    :depends dominate: 
    :depends jinja2: 
@@ -43,7 +43,7 @@ ezcharts
    :depends numpy: 
    :depends pandas: 
    :depends pydantic: ``<2.0.0``
-   :depends pymsaviz: ``0.4.2``
+   :depends pymsaviz: ``0.5.0``
    :depends pysam: 
    :depends python: ``>=3.7``
    :depends scipy: 
@@ -101,7 +101,7 @@ ezcharts
 
     <script>
         var package = "ezcharts";
-        var versions = ["0.15.1","0.15.0","0.14.1","0.14.0","0.13.1"];
+        var versions = ["0.15.2","0.15.1","0.15.0","0.14.1","0.14.0"];
     </script>
 
 

@@ -13,7 +13,7 @@ perbase
    Per\-base metrics on BAM\/CRAM files.
 
    :homepage: https://github.com/sstadick/perbase
-   :documentation: https://github.com/sstadick/perbase/blob/v1.1.0/README.md
+   :documentation: https://github.com/sstadick/perbase/blob/v1.2.0/README.md
    
    :license: MIT / MIT
    :recipe: /`perbase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perbase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perbase/meta.yaml>`_
@@ -30,10 +30,10 @@ perbase
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.10.3-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.0-2</code>,  <code>0.9.0-1</code>,  <code>0.9.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.10.3-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.0-2</code>,  <code>0.9.0-1</code>,  </span></summary>
       
 
-      ``1.1.0-0``,  ``1.0.0-0``,  ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.5-3``,  ``0.8.5-2``,  ``0.8.5-1``,  ``0.8.5-0``,  ``0.8.3-1``,  ``0.8.3-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.6.3-1``,  ``0.6.3-0``,  ``0.4.2-0``,  ``0.4.0-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.2.3-0``,  ``0.2.1-0``,  ``0.1.0-0``
+      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.5-3``,  ``0.8.5-2``,  ``0.8.5-1``,  ``0.8.5-0``,  ``0.8.3-1``,  ``0.8.3-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.6.3-1``,  ``0.6.3-0``,  ``0.4.2-0``,  ``0.4.0-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.2.3-0``,  ``0.2.1-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -47,7 +47,7 @@ perbase
    :depends liblzma: ``>=5.8.1,<6.0a0``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends openssl: ``>=3.5.2,<4.0a0``
+   :depends openssl: ``>=3.6.0,<4.0a0``
    :requirements:
 
    :additional platforms:
@@ -102,7 +102,7 @@ perbase
 
     <script>
         var package = "perbase";
-        var versions = ["1.1.0","1.0.0","0.10.3","0.10.2","0.10.1"];
+        var versions = ["1.2.0","1.1.0","1.0.0","0.10.3","0.10.2"];
     </script>
 
 

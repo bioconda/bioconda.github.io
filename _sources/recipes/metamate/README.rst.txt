@@ -27,7 +27,7 @@ metamate
       
       
 
-      ``0.4.3-0``
+      ``0.5.0-0``,  ``0.4.3-0``
 
       
 
@@ -37,7 +37,7 @@ metamate
    :depends mafft: 
    :depends pysam: 
    :depends python: ``>=3.6``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.4,<4.5.0a0``
    :depends scipy: ``>=1.4.1``
    :requirements:
 
@@ -89,7 +89,7 @@ metamate
 
     <script>
         var package = "metamate";
-        var versions = ["0.4.3"];
+        var versions = ["0.5.0","0.4.3"];
     </script>
 
 

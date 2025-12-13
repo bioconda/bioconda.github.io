@@ -13,7 +13,7 @@ bamdash
    Aggregate pathogen NGS results into an interactive plot.
 
    :homepage: https://github.com/jonas-fuchs/BAMdash
-   :documentation: https://github.com/jonas-fuchs/BAMdash/blob/v.0.4.4/README.md
+   :documentation: https://github.com/jonas-fuchs/BAMdash/blob/v.0.4.5/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`bamdash <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamdash>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamdash/meta.yaml>`_
@@ -30,10 +30,10 @@ bamdash
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4-0</code>,  <code>0.3.1-0</code>,  <code>0.3-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.5-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4-0</code>,  <code>0.3.1-0</code>,  <code>0.3-0</code>,  <code>0.2.4-0</code>,  </span></summary>
       
 
-      ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3.1-0``,  ``0.3-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2-0``
+      ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-0``,  ``0.3.1-0``,  ``0.3-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2-0``
 
       
       .. raw:: html
@@ -46,7 +46,7 @@ bamdash
    :depends pandas: ``>=1.4.4``
    :depends plotly: ``>=5.17.0``
    :depends pysam: ``>=0.21.0``
-   :depends python: ``>=3.9``
+   :depends python: ``>=3.9,<3.14``
    :depends python-kaleido: ``>=0.2.1``
    :requirements:
 
@@ -98,7 +98,7 @@ bamdash
 
     <script>
         var package = "bamdash";
-        var versions = ["0.4.4","0.4.3","0.4.2","0.4.1","0.4"];
+        var versions = ["0.4.5","0.4.4","0.4.3","0.4.2","0.4.1"];
     </script>
 
 
