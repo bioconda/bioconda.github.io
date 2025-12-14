@@ -27,11 +27,18 @@ minkemap
       
       
 
-      
+      ``0.1.0-0``
 
       
 
    
+   :depends biopython: 
+   :depends mappy: 
+   :depends matplotlib-base: 
+   :depends numpy: 
+   :depends pandas: 
+   :depends pycirclize: 
+   :depends python: ``>=3.9``
    :requirements:
 
    :additional platforms:
@@ -82,7 +89,7 @@ minkemap
 
     <script>
         var package = "minkemap";
-        var versions = [];
+        var versions = ["0.1.0"];
     </script>
 
 

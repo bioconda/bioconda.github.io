@@ -27,18 +27,18 @@ metav
       
       
 
-      ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``
+      ``2.0.0-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``
 
       
 
    
    :depends bowtie2: ``>=2.3.0``
+   :depends colorama: ``>=0.4.5``
    :depends diamond: ``>=2.0.9``
+   :depends megahit: ``>=1.2.6``
    :depends python: ``>=3.5``
-   :depends salmon: ``>=1.10.0``
    :depends samtools: ``>=1.14``
    :depends trimmomatic: ``>=0.39``
-   :depends trinity: ``>=2.15.1``
    :requirements:
 
    :additional platforms:
@@ -89,7 +89,7 @@ metav
 
     <script>
         var package = "metav";
-        var versions = ["1.0.6","1.0.5","1.0.4","1.0.4"];
+        var versions = ["2.0.0","1.0.6","1.0.5","1.0.4","1.0.4"];
     </script>
 
 

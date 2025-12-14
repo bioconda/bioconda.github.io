@@ -30,17 +30,21 @@ kmtricks
       
       
 
-      ``1.4.0-0``
+      ``1.5.0-0``,  ``1.4.0-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=12``
+   :depends libstdcxx: ``>=12``
    :depends zlib: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -88,7 +92,7 @@ kmtricks
 
     <script>
         var package = "kmtricks";
-        var versions = ["1.4.0"];
+        var versions = ["1.5.0","1.4.0"];
     </script>
 
 
