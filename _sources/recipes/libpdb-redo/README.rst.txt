@@ -30,14 +30,14 @@ libpdb-redo
       
       
 
-      ``3.3.0-0``
+      ``3.3.1-0``,  ``3.3.0-0``
 
       
 
    
    :depends clipper: ``>=2.1.20180802,<3.0a0``
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libcifpp: ``>=8.0.1,<9.0a0``
+   :depends libcifpp: ``>=9.0.4,<10.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
@@ -95,7 +95,7 @@ libpdb-redo
 
     <script>
         var package = "libpdb-redo";
-        var versions = ["3.3.0"];
+        var versions = ["3.3.1","3.3.0"];
     </script>
 
 

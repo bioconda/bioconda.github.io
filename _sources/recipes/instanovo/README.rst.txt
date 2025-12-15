@@ -13,9 +13,11 @@ instanovo
    InstaNovo enables diffusion\-powered de novo peptide sequencing in large scale proteomics experiments.
 
    :homepage: https://github.com/instadeepai/instanovo
+   :documentation: https://instadeepai.github.io/InstaNovo/
+   
    :license: APACHE / Apache-2.0
    :recipe: /`instanovo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/instanovo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/instanovo/meta.yaml>`_
-   :links: doi: :doi:`10.1038/s42256-025-01019-5`
+   :links: doi: :doi:`10.1038/s42256-025-01019-5`, biotools: :biotools:`instanovo`
 
    
 
@@ -28,7 +30,7 @@ instanovo
       
       
 
-      ``1.2.2-0``,  ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.0-0``
+      ``1.2.2-1``,  ``1.2.2-0``,  ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.0-0``
 
       
 
@@ -37,6 +39,7 @@ instanovo
    :depends datasets: ``>=3.5.0``
    :depends gitpython: ``>=3.1.44``
    :depends hydra-core: ``>=1.3.2``
+   :depends importlib-resources: ``>=6.5.2``
    :depends jaxtyping: ``>=0.2.34``
    :depends jiwer: ``>=3.0.5``
    :depends matchms: ``>=0.28.1``
@@ -44,6 +47,7 @@ instanovo
    :depends numpy: ``>=2.0.2``
    :depends omegaconf: ``>=2.3.0``
    :depends pandas: ``>=2.2.3``
+   :depends platformdirs: ``>=4.5.1``
    :depends polars: ``>=1.12.0``
    :depends pubchempy: ``>=1.0.4``
    :depends pyteomics: ``>=4.7.5``
@@ -53,7 +57,7 @@ instanovo
    :depends requests: ``>=2.32.3``
    :depends s3fs: ``>=2024.12.0``
    :depends scikit-learn: ``>=1.5.2``
-   :depends signalrcore: 
+   :depends signalrcore: ``>=0.9.5``
    :depends spectrum_utils: ``>=0.4.2``
    :depends tensorboard: ``>=2.18.0``
    :depends tqdm: ``>=4.67.0``
@@ -109,7 +113,7 @@ instanovo
 
     <script>
         var package = "instanovo";
-        var versions = ["1.2.2","1.1.4","1.1.3","1.1.3","1.1.2"];
+        var versions = ["1.2.2","1.2.2","1.1.4","1.1.3","1.1.3"];
     </script>
 
 

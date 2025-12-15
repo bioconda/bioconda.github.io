@@ -31,10 +31,10 @@ ncbi-datasets-pyclient
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>18.4.0-0</code>,  <code>18.3.1-0</code>,  <code>18.3.0-0</code>,  <code>18.2.3-0</code>,  <code>18.2.2-0</code>,  <code>18.2.0-0</code>,  <code>18.1.0-0</code>,  <code>18.0.5-0</code>,  <code>18.0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>18.13.0-0</code>,  <code>18.4.0-0</code>,  <code>18.3.1-0</code>,  <code>18.3.0-0</code>,  <code>18.2.3-0</code>,  <code>18.2.2-0</code>,  <code>18.2.0-0</code>,  <code>18.1.0-0</code>,  <code>18.0.5-0</code>,  </span></summary>
       
 
-      ``18.4.0-0``,  ``18.3.1-0``,  ``18.3.0-0``,  ``18.2.3-0``,  ``18.2.2-0``,  ``18.2.0-0``,  ``18.1.0-0``,  ``18.0.5-0``,  ``18.0.2-0``,  ``18.0.1-0``,  ``17.3.0-0``,  ``17.2.0-0``
+      ``18.13.0-0``,  ``18.4.0-0``,  ``18.3.1-0``,  ``18.3.0-0``,  ``18.2.3-0``,  ``18.2.2-0``,  ``18.2.0-0``,  ``18.1.0-0``,  ``18.0.5-0``,  ``18.0.2-0``,  ``18.0.1-0``,  ``17.3.0-0``,  ``17.2.0-0``
 
       
       .. raw:: html
@@ -98,7 +98,7 @@ ncbi-datasets-pyclient
 
     <script>
         var package = "ncbi-datasets-pyclient";
-        var versions = ["18.4.0","18.3.1","18.3.0","18.2.3","18.2.2"];
+        var versions = ["18.13.0","18.4.0","18.3.1","18.3.0","18.2.3"];
     </script>
 
 

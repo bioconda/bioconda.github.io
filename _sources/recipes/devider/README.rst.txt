@@ -27,7 +27,7 @@ devider
       
       
 
-      ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
+      ``0.0.1-3``,  ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
 
       
 
@@ -46,7 +46,7 @@ devider
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -94,7 +94,7 @@ devider
 
     <script>
         var package = "devider";
-        var versions = ["0.0.1","0.0.1","0.0.1"];
+        var versions = ["0.0.1","0.0.1","0.0.1","0.0.1"];
     </script>
 
 

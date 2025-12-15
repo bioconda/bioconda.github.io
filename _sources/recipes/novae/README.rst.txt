@@ -28,12 +28,13 @@ novae
       
       
 
-      ``1.0.0-0``,  ``0.2.4-0``,  ``0.2.2-0``
+      ``1.0.1-0``,  ``1.0.0-0``,  ``0.2.4-0``,  ``0.2.2-0``
 
       
 
    
-   :depends huggingface_hub: ``>=0.24.0``
+   :depends fast-array-utils: ``>=1.3.1``
+   :depends huggingface_hub: ``>=0.32.0``
    :depends lightning: ``>=2.2.1``
    :depends pandas: ``>=2.0.0``
    :depends python: ``>=3.10,<3.13``
@@ -92,7 +93,7 @@ novae
 
     <script>
         var package = "novae";
-        var versions = ["1.0.0","0.2.4","0.2.2"];
+        var versions = ["1.0.1","1.0.0","0.2.4","0.2.2"];
     </script>
 
 

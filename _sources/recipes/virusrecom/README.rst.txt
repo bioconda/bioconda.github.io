@@ -29,10 +29,10 @@ virusrecom
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.7-0</code>,  <code>1.3.6-0</code>,  <code>1.3.5-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.7-0</code>,  <code>1.1.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.7-1</code>,  <code>1.3.7-0</code>,  <code>1.3.6-0</code>,  <code>1.3.5-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.7-0</code>,  </span></summary>
       
 
-      ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.7-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3.1-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2.2-0``
+      ``1.3.7-1``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.7-0``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3.1-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2.2-0``
 
       
       .. raw:: html
@@ -98,7 +98,7 @@ virusrecom
 
     <script>
         var package = "virusrecom";
-        var versions = ["1.3.7","1.3.6","1.3.5","1.3.2","1.3.1"];
+        var versions = ["1.3.7","1.3.7","1.3.6","1.3.5","1.3.2"];
     </script>
 
 

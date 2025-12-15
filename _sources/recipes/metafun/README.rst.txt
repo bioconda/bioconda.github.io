@@ -10,15 +10,15 @@ metafun
    :replaces_section_title:
    :noindex:
 
-   Custom package for metafun workflow management
+   Scalable and agile analysis pipeline for metagenomic and comparative genomic analysis
 
    :homepage: https://github.com/aababc1/metaFun
+   :documentation: https://metafun-doc.readthedocs.io/
+   
    :license: MIT
    :recipe: /`metafun <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metafun>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metafun/meta.yaml>`_
 
-   A comprehensive package that includes custom scripts and workflows
-   for metafun analysis pipeline.
-
+   metaFun is a comprehensive pipeline for metagenomic analysis including quality control\, assembly\, binning\, taxonomy profiling\, and functional analysis. Version 1.0.0 adds WMS\_STRAIN module for strain\-level microbial diversity analysis.
 
 
 .. conda:package:: metafun
@@ -29,25 +29,26 @@ metafun
       
       
 
-      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-0``
+      ``1.0.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-0``
 
       
 
    
-   :depends apptainer: ``>=1.3.0``
-   :depends dash: ``>=2.17.1``
-   :depends dash-bootstrap-components: ``>=1.7.1``
-   :depends dash-core-components: ``>=2.0.0``
-   :depends dash-daq: ``>=0.5.0``
-   :depends dash-html-components: ``>=2.0.0``
-   :depends dash-table: ``>=5.0.0``
-   :depends nextflow: ``>=24.04.2``
-   :depends numpy: ``>=2.0.0``
-   :depends pandas: ``>=2.2.2``
-   :depends plotly: ``>=5.22.0``
-   :depends python: ``>=3.12``
-   :depends sylph: ``>=0.6.1``
-   :depends tqdm: ``>=4.66.4``
+   :depends apptainer: ``1.3.0.*``
+   :depends dash: ``2.17.1.*``
+   :depends dash-bootstrap-components: 
+   :depends dash-core-components: 
+   :depends dash-daq: 
+   :depends dash-html-components: 
+   :depends dash-table: 
+   :depends nextflow: ``24.04.2.*``
+   :depends numpy: ``>=1.26``
+   :depends pandas: ``>=2.0``
+   :depends plotly: ``>=5.0``
+   :depends python: ``>=3.10``
+   :depends squashfuse: 
+   :depends sylph: ``0.6.1.*``
+   :depends tqdm: 
    :requirements:
 
    :additional platforms:
@@ -98,7 +99,7 @@ metafun
 
     <script>
         var package = "metafun";
-        var versions = ["0.3.0","0.2.0","0.1.1"];
+        var versions = ["1.0.0","0.3.0","0.2.0","0.1.1"];
     </script>
 
 

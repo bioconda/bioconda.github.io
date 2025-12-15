@@ -29,14 +29,13 @@ art_modern-openmpi
       
       
 
-      ``1.3.0-0``,  ``1.2.0-0``
+      ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-0``
 
       
 
    
    :depends fmt: ``>=10.2.1,<11.0a0``
    :depends htslib: ``>=1.22.1,<1.23.0a0``
-   :depends libabseil: ``20220623.0 cxx17*``
    :depends libboost: ``>=1.86,<1.87``
    :depends libboost: ``>=1.86.0,<1.87.0a0``
    :depends libgcc: ``>=13``
@@ -97,7 +96,7 @@ art_modern-openmpi
 
     <script>
         var package = "art_modern-openmpi";
-        var versions = ["1.3.0","1.2.0"];
+        var versions = ["1.3.0","1.3.0","1.2.0"];
     </script>
 
 

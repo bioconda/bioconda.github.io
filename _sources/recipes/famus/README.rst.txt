@@ -32,7 +32,7 @@ famus
       
       
 
-      ``0.1.1-0``
+      ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -101,7 +101,7 @@ famus
 
     <script>
         var package = "famus";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.2","0.1.1"];
     </script>
 
 

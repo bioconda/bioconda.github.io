@@ -28,10 +28,10 @@ saccharis
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-1</code>,  <code>2.0.2-0</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.1.dev21-9</code>,  <code>2.0.1.dev21-8</code>,  <code>2.0.1.dev21-7</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.5-0</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-1</code>,  <code>2.0.2-0</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.1.dev21-9</code>,  <code>2.0.1.dev21-8</code>,  </span></summary>
       
 
-      ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.1.dev21-9``,  ``2.0.1.dev21-8``,  ``2.0.1.dev21-7``,  ``2.0.1.dev21-6``,  ``2.0.1.dev21-5``,  ``2.0.1.dev21-4``,  ``2.0.1.dev21-3``,  ``2.0.1.dev21-2``,  ``2.0.1.dev21-0``,  ``2.0.0.dev21-2``,  ``2.0.0.dev21-0``,  ``2.0.0.dev20-0``,  ``2.0.0.dev19-7``,  ``2.0.0.dev19-0``,  ``2.0.0.dev18-0``
+      ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.1.dev21-9``,  ``2.0.1.dev21-8``,  ``2.0.1.dev21-7``,  ``2.0.1.dev21-6``,  ``2.0.1.dev21-5``,  ``2.0.1.dev21-4``,  ``2.0.1.dev21-3``,  ``2.0.1.dev21-2``,  ``2.0.1.dev21-0``,  ``2.0.0.dev21-2``,  ``2.0.0.dev21-0``,  ``2.0.0.dev20-0``,  ``2.0.0.dev19-7``,  ``2.0.0.dev19-0``,  ``2.0.0.dev18-0``
 
       
       .. raw:: html
@@ -109,7 +109,7 @@ saccharis
 
     <script>
         var package = "saccharis";
-        var versions = ["2.0.4","2.0.3","2.0.2","2.0.2","2.0.1"];
+        var versions = ["2.0.5","2.0.4","2.0.3","2.0.2","2.0.2"];
     </script>
 
 
