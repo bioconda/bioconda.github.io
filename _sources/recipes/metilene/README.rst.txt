@@ -31,10 +31,10 @@ metilene
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.8-6</code>,  <code>0.2.8-5</code>,  <code>0.2.8-4</code>,  <code>0.2.8-3</code>,  <code>0.2.8-2</code>,  <code>0.2.8-1</code>,  <code>0.2.8-0</code>,  <code>0.2.6-2</code>,  <code>0.2.6-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.9-0</code>,  <code>0.2.8-6</code>,  <code>0.2.8-5</code>,  <code>0.2.8-4</code>,  <code>0.2.8-3</code>,  <code>0.2.8-2</code>,  <code>0.2.8-1</code>,  <code>0.2.8-0</code>,  <code>0.2.6-2</code>,  </span></summary>
       
 
-      ``0.2.8-6``,  ``0.2.8-5``,  ``0.2.8-4``,  ``0.2.8-3``,  ``0.2.8-2``,  ``0.2.8-1``,  ``0.2.8-0``,  ``0.2.6-2``,  ``0.2.6-1``,  ``0.2.6-0``
+      ``0.2.9-0``,  ``0.2.8-6``,  ``0.2.8-5``,  ``0.2.8-4``,  ``0.2.8-3``,  ``0.2.8-2``,  ``0.2.8-1``,  ``0.2.8-0``,  ``0.2.6-2``,  ``0.2.6-1``,  ``0.2.6-0``
 
       
       .. raw:: html
@@ -102,7 +102,7 @@ metilene
 
     <script>
         var package = "metilene";
-        var versions = ["0.2.8","0.2.8","0.2.8","0.2.8","0.2.8"];
+        var versions = ["0.2.9","0.2.8","0.2.8","0.2.8","0.2.8"];
     </script>
 
 

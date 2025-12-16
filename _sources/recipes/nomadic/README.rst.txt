@@ -29,7 +29,7 @@ nomadic
       
       
 
-      ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``
+      ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``
 
       
 
@@ -42,11 +42,13 @@ nomadic
    :depends i18nice: 
    :depends minimap2: 
    :depends numpy: 
+   :depends openpyxl: 
    :depends pandas: 
    :depends platformdirs: 
    :depends pysam: 
    :depends python: ``>=3.10``
    :depends pyyaml: 
+   :depends rsync: 
    :depends samtools: ``>=1.20``
    :depends seaborn: 
    :requirements:
@@ -99,7 +101,7 @@ nomadic
 
     <script>
         var package = "nomadic";
-        var versions = ["0.6.0","0.5.0","0.4.0"];
+        var versions = ["0.7.0","0.6.0","0.5.0","0.4.0"];
     </script>
 
 

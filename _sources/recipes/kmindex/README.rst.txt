@@ -30,12 +30,12 @@ kmindex
       
       
 
-      ``0.6.0-0``
+      ``0.6.0-1``,  ``0.6.0-0``
 
       
 
    
-   :depends kmtricks: ``>=1.5.0``
+   :depends kmtricks: ``>=1.5.1``
    :depends libgcc: ``>=12``
    :depends libstdcxx: ``>=12``
    :requirements:
@@ -92,7 +92,7 @@ kmindex
 
     <script>
         var package = "kmindex";
-        var versions = ["0.6.0"];
+        var versions = ["0.6.0","0.6.0"];
     </script>
 
 

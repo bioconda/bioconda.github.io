@@ -13,7 +13,7 @@ gotree
    gotree is a set of command line tools to manipulate phylogenetic trees.
 
    :homepage: https://github.com/evolbioinfo/gotree
-   :documentation: https://github.com/evolbioinfo/gotree/blob/v0.5.0/README.md
+   :documentation: https://github.com/evolbioinfo/gotree/blob/v0.5.1/README.md
    
    :license: GPL / GPL-2.0-or-later
    :recipe: /`gotree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gotree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gotree/meta.yaml>`_
@@ -31,10 +31,10 @@ gotree
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.0-0</code>,  <code>0.4.5-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-2</code>,  <code>0.4.3-1</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-1</code>,  <code>0.4.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.5-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-2</code>,  <code>0.4.3-1</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-1</code>,  </span></summary>
       
 
-      ``0.5.0-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-2``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.2.10-1``,  ``0.2.10-0``
+      ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-2``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.2.10-1``,  ``0.2.10-0``
 
       
       .. raw:: html
@@ -97,7 +97,7 @@ gotree
 
     <script>
         var package = "gotree";
-        var versions = ["0.5.0","0.4.5","0.4.4","0.4.3","0.4.3"];
+        var versions = ["0.5.1","0.5.0","0.4.5","0.4.4","0.4.3"];
     </script>
 
 

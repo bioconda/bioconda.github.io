@@ -13,7 +13,7 @@ stranger
    Annotate VCF files with STR variants with pathogenicity implications.
 
    :homepage: https://github.com/Clinical-Genomics/stranger
-   :documentation: https://github.com/Clinical-Genomics/stranger/blob/v0.9.5/README.md
+   :documentation: https://github.com/Clinical-Genomics/stranger/blob/v0.10.0/README.md
    
    :license: MIT / MIT
    :recipe: /`stranger <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stranger>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stranger/meta.yaml>`_
@@ -29,7 +29,7 @@ stranger
       
       
 
-      ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-0``
+      ``0.10.0-0``,  ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-0``
 
       
 
@@ -89,7 +89,7 @@ stranger
 
     <script>
         var package = "stranger";
-        var versions = ["0.9.5","0.9.4","0.9.3","0.9.2","0.9.2"];
+        var versions = ["0.10.0","0.9.5","0.9.4","0.9.3","0.9.2"];
     </script>
 
 

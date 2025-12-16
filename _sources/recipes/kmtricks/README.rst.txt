@@ -30,7 +30,7 @@ kmtricks
       
       
 
-      ``1.5.0-0``,  ``1.4.0-0``
+      ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``
 
       
 
@@ -92,7 +92,7 @@ kmtricks
 
     <script>
         var package = "kmtricks";
-        var versions = ["1.5.0","1.4.0"];
+        var versions = ["1.5.1","1.5.0","1.4.0"];
     </script>
 
 

@@ -13,7 +13,7 @@ verkko
    A hybrid genome assembly pipeline developed for telomere\-to\-telomere assembly of accurate \(HiFi\, ONT Duplex\, ONT HERRO\) and long \(ONT UL\) reads.
 
    :homepage: https://github.com/marbl/verkko
-   :documentation: https://github.com/marbl/verkko/blob/v2.2.1/README.md
+   :documentation: https://github.com/marbl/verkko/blob/v2.3/README.md
    
    :license: CC0
    :recipe: /`verkko <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/verkko>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/verkko/meta.yaml>`_
@@ -31,10 +31,10 @@ verkko
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.1-0</code>,  <code>2.2-0</code>,  <code>2.1-0</code>,  <code>2.0-0</code>,  <code>1.4.1-0</code>,  <code>1.4-0</code>,  <code>1.3.1-0</code>,  <code>1.3-0</code>,  <code>1.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3-0</code>,  <code>2.2.1-0</code>,  <code>2.2-0</code>,  <code>2.1-0</code>,  <code>2.0-0</code>,  <code>1.4.1-0</code>,  <code>1.4-0</code>,  <code>1.3.1-0</code>,  <code>1.3-0</code>,  </span></summary>
       
 
-      ``2.2.1-0``,  ``2.2-0``,  ``2.1-0``,  ``2.0-0``,  ``1.4.1-0``,  ``1.4-0``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``2.3-0``,  ``2.2.1-0``,  ``2.2-0``,  ``2.1-0``,  ``2.0-0``,  ``1.4.1-0``,  ``1.4-0``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
       .. raw:: html
@@ -44,16 +44,20 @@ verkko
 
    
    :depends _openmp_mutex: ``>=4.5``
+   :depends bamtools: ``>=2.5``
+   :depends bamtools: ``>=2.5.3,<3.0a0``
    :depends biopython: 
    :depends bwa: ``>=0.7.17``
+   :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends findutils: ``>=4.6.0``
    :depends graphaligner: ``>=1.0.19``
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends htslib: ``>=1.21,<1.23.0a0``
-   :depends libgcc: ``>=12``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
+   :depends libgcc: ``>=13``
    :depends libgomp: 
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends liblzma: ``>=5.8.1,<6.0a0``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends mashmap: ``>=3.0.6``
    :depends minimap2: ``>=2.28``
    :depends networkx: ``>=2.6.3``
@@ -116,7 +120,7 @@ verkko
 
     <script>
         var package = "verkko";
-        var versions = ["2.2.1","2.2","2.1","2.0","1.4.1"];
+        var versions = ["2.3","2.2.1","2.2","2.1","2.0"];
     </script>
 
 

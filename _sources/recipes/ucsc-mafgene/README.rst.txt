@@ -13,7 +13,7 @@ ucsc-mafgene
    Output protein alignments using maf and genePred.
 
    :homepage: https://hgdownload.cse.ucsc.edu/admin/exe
-   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/v482_base/README
+   :documentation: https://github.com/ucscGenomeBrowser/kent/blob/v490_base/README
    
    :developer docs: https://github.com/ucscGenomeBrowser/kent
    :license: Varies; see https://genome.ucsc.edu/license
