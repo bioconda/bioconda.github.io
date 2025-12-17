@@ -30,7 +30,7 @@ macsylib
       
       
 
-      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
@@ -41,6 +41,7 @@ macsylib
    :depends git: ``>1.7.0``
    :depends gitpython: ``>=3.1.30``
    :depends hmmer: ``>=3.1b2,<=3.4``
+   :depends lxml: ``>=6.0``
    :depends networkx: ``>=2.4``
    :depends packaging: ``>=18.0``
    :depends pandas: ``>=1.03``
@@ -96,7 +97,7 @@ macsylib
 
     <script>
         var package = "macsylib";
-        var versions = ["1.0.4","1.0.3","1.0.2","1.0.1"];
+        var versions = ["1.0.4","1.0.4","1.0.3","1.0.2","1.0.1"];
     </script>
 
 

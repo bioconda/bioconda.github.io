@@ -30,7 +30,7 @@ blobtoolkit
       
       
 
-      ``4.4.6-0``
+      ``4.5.0-0``,  ``4.4.6-0``
 
       
 
@@ -99,7 +99,7 @@ blobtoolkit
 
     <script>
         var package = "blobtoolkit";
-        var versions = ["4.4.6"];
+        var versions = ["4.5.0","4.4.6"];
     </script>
 
 

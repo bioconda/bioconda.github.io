@@ -42,7 +42,7 @@ glimpse-bio
    
    :depends boost-cpp: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends htslib: ``>=1.21,<1.24.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``

@@ -34,7 +34,7 @@ lrsim
 
    
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends htslib: ``>=1.18,<1.23.0a0``
+   :depends htslib: ``>=1.18,<1.24.0a0``
    :depends libgcc-ng: ``>=12``
    :depends libstdcxx-ng: ``>=12``
    :depends libzlib: ``>=1.2.13,<1.3.0a0``

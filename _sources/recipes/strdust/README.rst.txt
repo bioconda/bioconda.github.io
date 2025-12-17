@@ -13,7 +13,7 @@ strdust
    Tandem repeat genotyper for long reads.
 
    :homepage: https://github.com/wdecoster/STRdust
-   :documentation: https://github.com/wdecoster/STRdust/blob/v0.11.4/README.md
+   :documentation: https://github.com/wdecoster/STRdust/blob/v0.13.0/README.md
    
    :license: MIT / MIT
    :recipe: /`strdust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strdust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strdust/meta.yaml>`_
@@ -30,7 +30,7 @@ strdust
       
       
 
-      ``0.11.4-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.8.2-0``,  ``0.8.0-0``
+      ``0.13.0-0``,  ``0.11.4-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.8.2-0``,  ``0.8.0-0``
 
       
 
@@ -92,7 +92,7 @@ strdust
 
     <script>
         var package = "strdust";
-        var versions = ["0.11.4","0.11.1","0.11.0","0.8.2","0.8.0"];
+        var versions = ["0.13.0","0.11.4","0.11.1","0.11.0","0.8.2"];
     </script>
 
 

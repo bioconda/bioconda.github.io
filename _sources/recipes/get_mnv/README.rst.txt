@@ -35,7 +35,7 @@ get_mnv
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends curl: ``>=8.8.0,<9.0a0``
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends htslib: ``>=1.21,<1.24.0a0``
    :depends htslib: ``>=1.21,<2.0a0``
    :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends openssl: ``>=3.3.2,<4.0a0``

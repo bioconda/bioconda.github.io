@@ -41,7 +41,7 @@ libgab
 
    
    :depends bamtools: ``>=2.5.2,<2.6.0a0``
-   :depends htslib: ``>=1.21,<1.23.0a0``
+   :depends htslib: ``>=1.21,<1.24.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
