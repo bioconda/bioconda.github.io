@@ -13,7 +13,7 @@ vartovcf
    Convert variants from VarDict\/VarDictJava into VCF v4.2 format.
 
    :homepage: https://github.com/clintval/vartovcf
-   :documentation: https://github.com/clintval/vartovcf/blob/1.1.0/README.md
+   :documentation: https://github.com/clintval/vartovcf/blob/1.2.0/README.md
    
    :license: MIT / MIT
    :recipe: /`vartovcf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vartovcf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vartovcf/meta.yaml>`_
@@ -29,7 +29,7 @@ vartovcf
       
       
 
-      ``1.1.0-0``,  ``1.0.0-0``
+      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -90,7 +90,7 @@ vartovcf
 
     <script>
         var package = "vartovcf";
-        var versions = ["1.1.0","1.0.0"];
+        var versions = ["1.2.0","1.1.0","1.0.0"];
     </script>
 
 

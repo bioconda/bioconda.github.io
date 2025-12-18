@@ -28,10 +28,10 @@ giatools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.2-0</code>,  <code>0.5.0-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3-0</code>,  <code>0.2-0</code>,  <code>0.1.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.0-0</code>,  <code>0.5.2-0</code>,  <code>0.5.0-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3-0</code>,  <code>0.2-0</code>,  </span></summary>
       
 
-      ``0.5.2-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1-0``
+      ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3-0``,  ``0.2-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1-0``
 
       
       .. raw:: html
@@ -40,9 +40,11 @@ giatools
       
 
    
+   :depends attrs: ``>=25.4``
    :depends numpy: ``>=1.18``
+   :depends ome-zarr: ``>=0.12.2,<0.13``
    :depends python: ``>=3.9``
-   :depends scikit-image: ``>=0.18``
+   :depends scikit-image: ``>=0.18,<0.27``
    :requirements:
 
    :additional platforms:
@@ -93,7 +95,7 @@ giatools
 
     <script>
         var package = "giatools";
-        var versions = ["0.5.2","0.5.0","0.4.1","0.4.0","0.3.2"];
+        var versions = ["0.6.0","0.5.2","0.5.0","0.4.1","0.4.0"];
     </script>
 
 

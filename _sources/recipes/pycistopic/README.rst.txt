@@ -27,11 +27,39 @@ pycistopic
       
       
 
-      
+      ``2.0a-0``
 
       
 
    
+   :depends adjusttext: 
+   :depends bbknn: 
+   :depends bs4: 
+   :depends gensim: 
+   :depends harmonypy: 
+   :depends igraph: 
+   :depends leidenalg: 
+   :depends loomxpy: 
+   :depends lxml: 
+   :depends macs2: 
+   :depends matplotlib-base: ``<3.7``
+   :depends numpy: ``>=1.20.3``
+   :depends pandas: ``>=1.5,<2``
+   :depends polars: ``>=0.18.3``
+   :depends pyarrow: ``>=8.0.0``
+   :depends pybiomart: 
+   :depends pyranges: ``<0.0.128``
+   :depends pyscenic: 
+   :depends python: ``>=3.9``
+   :depends ray-default: 
+   :depends scanorama: 
+   :depends scanpy: 
+   :depends scatac-fragment-tools: 
+   :depends scikit-learn: 
+   :depends scrublet: 
+   :depends seaborn: 
+   :depends statsmodels: 
+   :depends tmtoolkit: 
    :requirements:
 
    :additional platforms:
@@ -82,7 +110,7 @@ pycistopic
 
     <script>
         var package = "pycistopic";
-        var versions = [];
+        var versions = ["2.0a"];
     </script>
 
 

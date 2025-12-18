@@ -29,7 +29,7 @@ sipros
       
       
 
-      ``5.0.1-0``,  ``5.0-0``,  ``4.02-1``,  ``4.02-0``,  ``4.01-0``
+      ``5.0.1-1``,  ``5.0.1-0``,  ``5.0-0``,  ``4.02-1``,  ``4.02-0``,  ``4.01-0``
 
       
 
@@ -40,6 +40,7 @@ sipros
    :depends philosopher: ``>=5.1.0,<5.2.0``
    :depends python: ``>=3.12,<3.13``
    :depends seqkit: 
+   :depends zlib: 
    :requirements:
 
    :additional platforms:
@@ -90,7 +91,7 @@ sipros
 
     <script>
         var package = "sipros";
-        var versions = ["5.0.1","5.0","4.02","4.02","4.01"];
+        var versions = ["5.0.1","5.0.1","5.0","4.02","4.02"];
     </script>
 
 

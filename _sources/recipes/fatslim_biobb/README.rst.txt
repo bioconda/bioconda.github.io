@@ -30,7 +30,7 @@ fatslim_biobb
       
       
 
-      ``0.2.2-0``
+      ``0.2.2-1``,  ``0.2.2-0``
 
       
 
@@ -43,6 +43,10 @@ fatslim_biobb
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -90,7 +94,7 @@ fatslim_biobb
 
     <script>
         var package = "fatslim_biobb";
-        var versions = ["0.2.2"];
+        var versions = ["0.2.2","0.2.2"];
     </script>
 
 

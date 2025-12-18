@@ -27,7 +27,7 @@ iobrpy
       
       
 
-      ``0.1.4-0``,  ``0.1.3-0``
+      ``0.1.6-0``,  ``0.1.4-0``,  ``0.1.3-0``
 
       
 
@@ -49,6 +49,8 @@ iobrpy
    :depends statsmodels: ``>=0.13``
    :depends tiktoken: ``>=0.11,<0.13``
    :depends tqdm: ``>=4.66``
+   :depends trust4: 
+   :depends xarray: ``>=0.20``
    :requirements:
 
    :additional platforms:
@@ -99,7 +101,7 @@ iobrpy
 
     <script>
         var package = "iobrpy";
-        var versions = ["0.1.4","0.1.3"];
+        var versions = ["0.1.6","0.1.4","0.1.3"];
     </script>
 
 

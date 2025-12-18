@@ -27,12 +27,12 @@ methurator
       
       
 
-      ``0.1.6-0``,  ``0.1.5-0``
+      ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``
 
       
 
    
-   :depends htslib: ``1.21.*``
+   :depends htslib: ``>=1.21,<1.23.0a0``
    :depends matplotlib-base: 
    :depends methyldackel: ``0.6.1.*``
    :depends numpy: 
@@ -42,14 +42,19 @@ methurator
    :depends pyfaidx: 
    :depends pysam: 
    :depends python: ``>=3.10,<3.14``
+   :depends pyyaml: 
    :depends rich: 
    :depends rich-click: 
-   :depends samtools: ``1.21.*``
+   :depends samtools: ``>=1.21``
    :depends scipy: 
    :depends tqdm: 
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -97,7 +102,7 @@ methurator
 
     <script>
         var package = "methurator";
-        var versions = ["0.1.6","0.1.5"];
+        var versions = ["0.1.7","0.1.6","0.1.5"];
     </script>
 
 
