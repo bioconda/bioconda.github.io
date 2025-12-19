@@ -27,7 +27,7 @@ neodisambiguate
       
       
 
-      ``1.1.0-0``,  ``1.0.0-0``
+      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -83,7 +83,7 @@ neodisambiguate
 
     <script>
         var package = "neodisambiguate";
-        var versions = ["1.1.0","1.0.0"];
+        var versions = ["1.1.1","1.1.0","1.0.0"];
     </script>
 
 

@@ -10,10 +10,10 @@ smudgeplot
    :replaces_section_title:
    :noindex:
 
-   Inference of ploidy and heterozygosity structure using whole genome sequencing data.
+   Inference of ploidy and heterozygosity structure using whole genome sequencing data
 
    :homepage: https://github.com/KamilSJaron/smudgeplot
-   :license: APACHE / Apache-2.0
+   :license: Apache-2.0
    :recipe: /`smudgeplot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smudgeplot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smudgeplot/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ smudgeplot
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  <code>0.2.5-4</code>,  <code>0.2.5-3</code>,  <code>0.2.5-2</code>,  <code>0.2.5-1</code>,  <code>0.2.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.3-0</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  <code>0.2.5-4</code>,  <code>0.2.5-3</code>,  <code>0.2.5-2</code>,  <code>0.2.5-1</code>,  </span></summary>
       
 
-      ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.5-4``,  ``0.2.5-3``,  ``0.2.5-2``,  ``0.2.5-1``,  ``0.2.5-0``,  ``0.2.4-4``,  ``0.2.4-3``,  ``0.2.4-2``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
+      ``0.5.3-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.5-4``,  ``0.2.5-3``,  ``0.2.5-2``,  ``0.2.5-1``,  ``0.2.5-0``,  ``0.2.4-4``,  ``0.2.4-3``,  ``0.2.4-2``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
 
       
       .. raw:: html
@@ -42,15 +42,11 @@ smudgeplot
    
    :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends numpy: 
-   :depends pandas: 
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
-   :depends r-argparse: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
-   :depends r-viridis: 
-   :depends scipy: 
-   :depends xorg-libxrender: ``>=0.9.12,<0.10.0a0``
+   :depends matplotlib-base: ``>=3.4.0``
+   :depends numpy: ``>=1.20.0``
+   :depends pandas: ``>=1.3.0``
+   :depends python: ``>=3.14,<3.15.0a0``
+   :depends python_abi: ``3.14.* *_cp314``
    :requirements:
 
    :additional platforms:
@@ -105,7 +101,7 @@ smudgeplot
 
     <script>
         var package = "smudgeplot";
-        var versions = ["0.4.0","0.4.0","0.3.0","0.3.0","0.2.5"];
+        var versions = ["0.5.3","0.4.0","0.4.0","0.3.0","0.3.0"];
     </script>
 
 
