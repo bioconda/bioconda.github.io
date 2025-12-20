@@ -30,7 +30,7 @@ wepp
       
       
 
-      ``0.1.4.1-0``
+      ``0.1.5-0``,  ``0.1.4.1-0``
 
       
 
@@ -100,7 +100,7 @@ wepp
 
     <script>
         var package = "wepp";
-        var versions = ["0.1.4.1"];
+        var versions = ["0.1.5","0.1.4.1"];
     </script>
 
 

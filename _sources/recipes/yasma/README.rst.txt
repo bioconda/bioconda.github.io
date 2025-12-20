@@ -29,7 +29,7 @@ yasma
       
       
 
-      ``1.0.1-0``
+      ``1.1.0-0``,  ``1.0.1-0``
 
       
 
@@ -96,7 +96,7 @@ yasma
 
     <script>
         var package = "yasma";
-        var versions = ["1.0.1"];
+        var versions = ["1.1.0","1.0.1"];
     </script>
 
 

@@ -27,7 +27,7 @@ viralrecall
       
       
 
-      ``3.0.1-0``
+      ``3.0.2-0``,  ``3.0.1-0``
 
       
 
@@ -91,7 +91,7 @@ viralrecall
 
     <script>
         var package = "viralrecall";
-        var versions = ["3.0.1"];
+        var versions = ["3.0.2","3.0.1"];
     </script>
 
 

@@ -27,7 +27,7 @@ snkmt
       
       
 
-      ``0.2.3-0``
+      ``0.2.4-0``,  ``0.2.3-0``
 
       
 
@@ -91,7 +91,7 @@ snkmt
 
     <script>
         var package = "snkmt";
-        var versions = ["0.2.3"];
+        var versions = ["0.2.4","0.2.3"];
     </script>
 
 
