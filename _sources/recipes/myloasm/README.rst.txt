@@ -13,7 +13,7 @@ myloasm
    myloasm \- high\-resolution metagenome assembly for \(noisy\) long reads
 
    :homepage: https://github.com/bluenote-1577/myloasm
-   :documentation: https://github.com/bluenote-1577/myloasm/blob/v0.2.0/README.md
+   :documentation: https://github.com/bluenote-1577/myloasm/blob/v0.3.0/README.md
    
    :license: MIT / MIT
    :recipe: /`myloasm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/myloasm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/myloasm/meta.yaml>`_
@@ -29,7 +29,7 @@ myloasm
       
       
 
-      ``0.2.0-0``,  ``0.1.0-0``
+      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -86,7 +86,7 @@ myloasm
 
     <script>
         var package = "myloasm";
-        var versions = ["0.2.0","0.1.0"];
+        var versions = ["0.3.0","0.2.0","0.1.0"];
     </script>
 
 

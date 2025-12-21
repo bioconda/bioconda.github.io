@@ -34,10 +34,10 @@ egap
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.3.4-0</code>,  <code>3.3c-0</code>,  <code>3.2c-0</code>,  <code>3.1-0</code>,  <code>3.1b-0</code>,  <code>3.0.0f-0</code>,  <code>3.0.0b-0</code>,  <code>2.6.6-0</code>,  <code>2.6.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.3.5-0</code>,  <code>3.3.4-0</code>,  <code>3.3c-0</code>,  <code>3.2c-0</code>,  <code>3.1-0</code>,  <code>3.1b-0</code>,  <code>3.0.0f-0</code>,  <code>3.0.0b-0</code>,  <code>2.6.6-0</code>,  </span></summary>
       
 
-      ``3.3.4-0``,  ``3.3c-0``,  ``3.2c-0``,  ``3.1-0``,  ``3.1b-0``,  ``3.0.0f-0``,  ``3.0.0b-0``,  ``2.6.6-0``,  ``2.6.5-0``,  ``2.6.4-0``,  ``2.6.2-0``,  ``2.5.4-0``,  ``2.5.3-0``
+      ``3.3.5-0``,  ``3.3.4-0``,  ``3.3c-0``,  ``3.2c-0``,  ``3.1-0``,  ``3.1b-0``,  ``3.0.0f-0``,  ``3.0.0b-0``,  ``2.6.6-0``,  ``2.6.5-0``,  ``2.6.4-0``,  ``2.6.2-0``,  ``2.5.4-0``,  ``2.5.3-0``
 
       
       .. raw:: html
@@ -67,7 +67,7 @@ egap
    :depends matplotlib-base: ``>=3.7.3``
    :depends minimap2: ``>=2.28``
    :depends nanoplot: ``>=1.43.0``
-   :depends ncbi-datasets-cli: ``>=16.39.0``
+   :depends ncbi-datasets-cli: ``>=18.9.0``
    :depends openpyxl: ``>=3.1.5``
    :depends pbccs: ``>=6.4.0``
    :depends pilon: ``>=1.22``
@@ -137,7 +137,7 @@ egap
 
     <script>
         var package = "egap";
-        var versions = ["3.3.4","3.3c","3.2c","3.1","3.1b"];
+        var versions = ["3.3.5","3.3.4","3.3c","3.2c","3.1"];
     </script>
 
 

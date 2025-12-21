@@ -13,7 +13,7 @@ python-intervaltree
    Faster than intervaltree\_bio
 
    :homepage: https://pypi.org/project/intervaltree/#description
-   :license: Apache
+   :license: Apache-2.0
    :recipe: /`python-intervaltree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-intervaltree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-intervaltree/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ python-intervaltree
       
       
 
-      ``3.1.0-0``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.1.0-0``
+      ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.1.0-0``
 
       
 
@@ -84,7 +84,7 @@ python-intervaltree
 
     <script>
         var package = "python-intervaltree";
-        var versions = ["3.1.0","3.0.2","3.0.2","3.0.1","2.1.0"];
+        var versions = ["3.2.0","3.1.0","3.0.2","3.0.2","3.0.1"];
     </script>
 
 
