@@ -27,7 +27,7 @@ syny
       
       
 
-      ``1.3.0-0``,  ``1.2-0``,  ``1.1b-0``,  ``1.1a-0``
+      ``1.3.1-0``,  ``1.3.0-0``,  ``1.2-0``,  ``1.1b-0``,  ``1.1a-0``
 
       
 
@@ -59,7 +59,7 @@ syny
    :depends perl-svg: 
    :depends perl-text-format: 
    :depends perl-text-roman: 
-   :depends python: 
+   :depends python: ``>=3.12,<3.13.0a0``
    :depends scipy: 
    :depends seaborn: 
    :requirements:
@@ -112,7 +112,7 @@ syny
 
     <script>
         var package = "syny";
-        var versions = ["1.3.0","1.2","1.1b","1.1a"];
+        var versions = ["1.3.1","1.3.0","1.2","1.1b","1.1a"];
     </script>
 
 
