@@ -49,10 +49,10 @@ biobb_pmx
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.2.1-0</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.8.1-0</code>,  <code>3.7.0-0</code>,  <code>3.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.2.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.2.1-0</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.8.1-0</code>,  <code>3.7.0-0</code>,  </span></summary>
       
 
-      ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.1-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.8.1-0``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.0-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``5.2.1-0``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.1-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.8.1-0``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.0-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -61,10 +61,10 @@ biobb_pmx
       
 
    
-   :depends biobb_common: ``5.1.0``
-   :depends pmx_biobb: ``4.1.3``
-   :depends python: ``>=3.9,<3.11``
-   :depends scipy: ``<1.14``
+   :depends biobb_common: ``5.2.0``
+   :depends pmx_biobb: ``>=5.2.2``
+   :depends python: ``>=3.10``
+   :depends scipy: 
    :requirements:
 
    :additional platforms:
@@ -115,7 +115,7 @@ biobb_pmx
 
     <script>
         var package = "biobb_pmx";
-        var versions = ["5.1.0","5.0.0","4.2.1","4.2.0","4.1.0"];
+        var versions = ["5.2.1","5.1.0","5.0.0","4.2.1","4.2.0"];
     </script>
 
 

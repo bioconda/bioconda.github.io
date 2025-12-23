@@ -47,15 +47,23 @@ biobb_pdb_tools
    :versions:
       
       
+      .. raw:: html
 
-      ``5.1.1-1``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.1-0``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>5.2.0-0</code>,  <code>5.1.1-1</code>,  <code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.1-0</code>,  <code>5.0.0-1</code>,  <code>5.0.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.1-0</code>,  </span></summary>
+      
 
+      ``5.2.0-0``,  ``5.1.1-1``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.1-0``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends biobb_common: ``5.1.1``
+   :depends biobb_common: ``5.2.0``
    :depends pdb-tools: 
-   :depends python: ``>=3.9``
+   :depends python: ``>=3.10``
    :requirements:
 
    :additional platforms:
@@ -106,7 +114,7 @@ biobb_pdb_tools
 
     <script>
         var package = "biobb_pdb_tools";
-        var versions = ["5.1.1","5.1.1","5.1.0","5.0.1","5.0.0"];
+        var versions = ["5.2.0","5.1.1","5.1.1","5.1.0","5.0.1"];
     </script>
 
 

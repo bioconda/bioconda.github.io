@@ -49,10 +49,10 @@ biobb_flexdyn
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.1.0-0</code>,  <code>5.0.0-1</code>,  <code>5.0.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.3-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  <code>4.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.2.0-0</code>,  <code>5.1.0-0</code>,  <code>5.0.0-1</code>,  <code>5.0.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.3-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  </span></summary>
       
 
-      ``5.1.0-0``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.9.0-1``,  ``3.9.0-0``
+      ``5.2.0-0``,  ``5.1.0-0``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.9.0-1``,  ``3.9.0-0``
 
       
       .. raw:: html
@@ -61,12 +61,12 @@ biobb_flexdyn
       
 
    
-   :depends biobb_common: ``5.1.0``
+   :depends biobb_common: ``5.2.0``
    :depends concoord: 
    :depends imods: 
    :depends nolb: 
    :depends prody: 
-   :depends python: ``>=3.9,<3.12``
+   :depends python: ``>=3.10,<3.12``
    :depends scipy: ``>=1.13.0,<1.14.0``
    :requirements:
 
@@ -118,7 +118,7 @@ biobb_flexdyn
 
     <script>
         var package = "biobb_flexdyn";
-        var versions = ["5.1.0","5.0.0","5.0.0","4.2.0","4.1.0"];
+        var versions = ["5.2.0","5.1.0","5.0.0","5.0.0","4.2.0"];
     </script>
 
 

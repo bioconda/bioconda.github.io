@@ -49,10 +49,10 @@ biobb_cmip
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.9.0-0</code>,  <code>3.7.8-0</code>,  <code>3.7.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.2.0-0</code>,  <code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.9.0-0</code>,  <code>3.7.8-0</code>,  </span></summary>
       
 
-      ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.7.8-0``,  ``3.7.7-0``,  ``3.7.6-1``,  ``3.7.6-0``,  ``3.7.5-1``,  ``3.7.5-0``,  ``3.7.4-0``,  ``3.7.3-0``,  ``3.7.2-0``,  ``3.6.0-0``
+      ``5.2.0-0``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.7.8-0``,  ``3.7.7-0``,  ``3.7.6-1``,  ``3.7.6-0``,  ``3.7.5-1``,  ``3.7.5-0``,  ``3.7.4-0``,  ``3.7.3-0``,  ``3.7.2-0``,  ``3.6.0-0``
 
       
       .. raw:: html
@@ -61,11 +61,11 @@ biobb_cmip
       
 
    
-   :depends biobb_common: ``5.1.0``
+   :depends biobb_common: ``5.2.0``
    :depends biobb_structure_checking: ``3.15.6``
    :depends cmip: ``2.7.0``
    :depends mdanalysis: ``>=2.0.0``
-   :depends python: ``>=3.9``
+   :depends python: ``>=3.10``
    :requirements:
 
    :additional platforms:
@@ -116,7 +116,7 @@ biobb_cmip
 
     <script>
         var package = "biobb_cmip";
-        var versions = ["5.1.0","5.0.0","4.2.0","4.1.1","4.1.0"];
+        var versions = ["5.2.0","5.1.0","5.0.0","4.2.0","4.1.1"];
     </script>
 
 

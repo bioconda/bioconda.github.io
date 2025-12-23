@@ -49,10 +49,10 @@ biobb_cp2k
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.9.0-0</code>,  <code>3.8.3-0</code>,  <code>3.8.2-0</code>,  <code>3.8.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.2.0-0</code>,  <code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.9.0-0</code>,  <code>3.8.3-0</code>,  <code>3.8.2-0</code>,  </span></summary>
       
 
-      ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.3-0``,  ``3.8.2-0``,  ``3.8.1-0``,  ``3.8.0-0``
+      ``5.2.0-0``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.3-0``,  ``3.8.2-0``,  ``3.8.1-0``,  ``3.8.0-0``
 
       
       .. raw:: html
@@ -61,9 +61,9 @@ biobb_cp2k
       
 
    
-   :depends biobb_common: ``5.1.0``
+   :depends biobb_common: ``5.2.0``
    :depends cp2k: ``7.1.0``
-   :depends python: ``>=3.9``
+   :depends python: ``>=3.10``
    :requirements:
 
    :additional platforms:
@@ -114,7 +114,7 @@ biobb_cp2k
 
     <script>
         var package = "biobb_cp2k";
-        var versions = ["5.1.0","5.0.0","4.2.0","4.1.0","4.0.0"];
+        var versions = ["5.2.0","5.1.0","5.0.0","4.2.0","4.1.0"];
     </script>
 
 

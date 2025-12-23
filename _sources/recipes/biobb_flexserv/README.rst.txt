@@ -49,10 +49,10 @@ biobb_flexserv
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.1.0-1</code>,  <code>5.1.0-0</code>,  <code>5.0.0-1</code>,  <code>5.0.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.3-0</code>,  <code>4.0.2-0</code>,  <code>4.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.2.0-0</code>,  <code>5.1.0-1</code>,  <code>5.1.0-0</code>,  <code>5.0.0-1</code>,  <code>5.0.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.3-0</code>,  <code>4.0.2-0</code>,  </span></summary>
       
 
-      ``5.1.0-1``,  ``5.1.0-0``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.9.1-1``,  ``3.9.1-0``
+      ``5.2.0-0``,  ``5.1.0-1``,  ``5.1.0-0``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.9.1-1``,  ``3.9.1-0``
 
       
       .. raw:: html
@@ -61,11 +61,11 @@ biobb_flexserv
       
 
    
-   :depends biobb_common: ``5.1.0``
+   :depends biobb_common: ``5.2.0``
    :depends flexserv: ``1.0.2``
    :depends pcasuite: ``==1.0.0 h7baada4_6``
    :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends python: ``>=3.9``
+   :depends python: ``>=3.10``
    :requirements:
 
    :additional platforms:
@@ -116,7 +116,7 @@ biobb_flexserv
 
     <script>
         var package = "biobb_flexserv";
-        var versions = ["5.1.0","5.1.0","5.0.0","5.0.0","4.2.0"];
+        var versions = ["5.2.0","5.1.0","5.1.0","5.0.0","5.0.0"];
     </script>
 
 

@@ -10,7 +10,7 @@ babappalign
    :replaces_section_title:
    :noindex:
 
-   Deep learning–based progressive multiple sequence alignment engine
+   Deep learning–based progressive multiple sequence alignment engine with learned residue scoring
 
    :homepage: https://github.com/sinhakrishnendu/BABAPPAlign
    :license: MIT
@@ -27,7 +27,7 @@ babappalign
       
       
 
-      ``1.0.0-0``
+      ``1.0.4-0``,  ``1.0.0-0``
 
       
 
@@ -36,10 +36,12 @@ babappalign
    :depends fair-esm: 
    :depends numpy: 
    :depends pandas: 
-   :depends python: ``>=3.9``
-   :depends pytorch: 
+   :depends python: ``>=3.13,<3.14.0a0``
+   :depends python_abi: ``3.13.* *_cp313``
+   :depends pytorch: ``>=1.12``
    :depends scipy: 
    :depends tqdm: 
+   :depends transformers: ``>=4.30``
    :requirements:
 
    :additional platforms:
@@ -90,7 +92,7 @@ babappalign
 
     <script>
         var package = "babappalign";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.4","1.0.0"];
     </script>
 
 
