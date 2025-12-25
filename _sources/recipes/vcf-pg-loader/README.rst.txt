@@ -34,7 +34,7 @@ vcf-pg-loader
       
       
 
-      ``0.5.1-0``
+      ``0.5.3-0``,  ``0.5.1-0``
 
       
 
@@ -97,7 +97,7 @@ vcf-pg-loader
 
     <script>
         var package = "vcf-pg-loader";
-        var versions = ["0.5.1"];
+        var versions = ["0.5.3","0.5.1"];
     </script>
 
 

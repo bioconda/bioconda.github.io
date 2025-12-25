@@ -13,8 +13,9 @@ any2fasta
    Convert various sequence formats to FASTA
 
    :homepage: https://github.com/tseemann/any2fasta
-   :license: GPL-3.0
+   :license: GPL / GPL-3.0
    :recipe: /`any2fasta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/any2fasta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/any2fasta/meta.yaml>`_
+   :links: biotools: :biotools:`any2fasta`
 
    
 
@@ -27,12 +28,16 @@ any2fasta
       
       
 
-      ``0.4.2-3``,  ``0.4.2-2``,  ``0.4.2-1``
+      ``0.6.0-0``,  ``0.4.2-3``,  ``0.4.2-2``,  ``0.4.2-1``
 
       
 
    
-   :depends perl: 
+   :depends bzip2: 
+   :depends gzip: 
+   :depends perl: ``>=5.18.0``
+   :depends unzip: 
+   :depends xz: 
    :requirements:
 
    :additional platforms:
@@ -83,7 +88,7 @@ any2fasta
 
     <script>
         var package = "any2fasta";
-        var versions = ["0.4.2","0.4.2","0.4.2"];
+        var versions = ["0.6.0","0.4.2","0.4.2","0.4.2"];
     </script>
 
 

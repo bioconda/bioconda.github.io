@@ -10,13 +10,15 @@ sequenoscope
    :replaces_section_title:
    :noindex:
 
-   sequenoscope is a versatile bioinformatic pipeline for the analysis of sequencing data.
+   Sequenoscope \- A Modular Pipeline for ONT Adaptive Sampling and Comparative Microbial Genomics Visualization
 
    :homepage: https://github.com/phac-nml/sequenoscope
-   :license: Apache-2.0
+   :documentation: https://github.com/phac-nml/sequenoscope/blob/master/README.md
+   
+   :license: Apache / Apache-2.0
    :recipe: /`sequenoscope <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sequenoscope>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sequenoscope/meta.yaml>`_
 
-   
+   Sequenoscope is an integrated modular pipeline for evaluating Oxford Nanopore adaptive sampling performance and automating microbial genomic analysis through interactive visualizations.
 
 
 .. conda:package:: sequenoscope
@@ -27,7 +29,7 @@ sequenoscope
       
       
 
-      ``1.0.0-0``,  ``0.0.5-1``,  ``0.0.5-0``
+      ``1.0.0-1``,  ``1.0.0-0``,  ``0.0.5-1``,  ``0.0.5-0``
 
       
 
@@ -42,7 +44,7 @@ sequenoscope
    :depends pysam: ``>=0.16.0``
    :depends python: ``>=3.7.12,<4``
    :depends samtools: ``>=1.6``
-   :depends scipy: ``>=1.7.3``
+   :depends scipy: 
    :depends seqtk: ``>=1.4``
    :depends six: ``>=1.14.0``
    :requirements:
@@ -95,7 +97,7 @@ sequenoscope
 
     <script>
         var package = "sequenoscope";
-        var versions = ["1.0.0","0.0.5","0.0.5"];
+        var versions = ["1.0.0","1.0.0","0.0.5","0.0.5"];
     </script>
 
 
