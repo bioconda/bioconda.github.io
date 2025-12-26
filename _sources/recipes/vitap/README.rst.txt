@@ -18,7 +18,7 @@ vitap
    :license: GPL / GPL-3.0-only
    :recipe: /`vitap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vitap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vitap/meta.yaml>`_
 
-   Viral Taxonomic Assignment Pipeline \(VITAP\) is a cutting\-edge tool designed to address the growing need for accurate and comprehensive taxonomic assignments of DNA and RNA viral sequences. By integrating alignment\-based techniques with graph theory\, VITAP achieves high precision in classifying viral sequences\, including those as short as 1000 base pairs\, down to the genus level.
+   Viral Taxonomic Assignment Pipeline \(VITAP\) is a cutting\-edge tool designed to address the growing need for accurate and comprehensive taxonomic assignments of DNA and RNA viral sequences based on ICTV VMR and UniRef90.
 
 
 .. conda:package:: vitap
@@ -29,22 +29,23 @@ vitap
       
       
 
-      ``1.7.1-0``,  ``1.7-1``,  ``1.7-0``,  ``1.5-0``,  ``1.2-0``,  ``1.1-0``
+      ``1.10-0``,  ``1.7.1-0``,  ``1.7-1``,  ``1.7-0``,  ``1.5-0``,  ``1.2-0``,  ``1.1-0``
 
       
 
    
    :depends biopython: ``>=1.78``
-   :depends diamond: ``>=0.9``
-   :depends entrez-direct: ``16.2.*``
-   :depends networkx: ``>=3.1``
-   :depends numpy: ``>=1.25``
+   :depends diamond: ``2.1.16.*``
+   :depends entrez-direct: ``>=16.2``
    :depends pandas: ``>=1.5``
-   :depends prodigal: ``>=2.6``
-   :depends python: ``>=3.9``
-   :depends scipy: ``>=1.10``
-   :depends seqkit: ``>=2.5.1``
-   :depends tqdm: ``>=4.65``
+   :depends polars: ``>=0.19``
+   :depends pyarrow: ``>=10``
+   :depends pyrodigal: ``>=3.6``
+   :depends python: 
+   :depends seqkit: 
+   :depends taxonkit: 
+   :depends tqdm: ``>=4.65.0``
+   :depends wget: 
    :requirements:
 
    :additional platforms:
@@ -95,7 +96,7 @@ vitap
 
     <script>
         var package = "vitap";
-        var versions = ["1.7.1","1.7","1.7","1.5","1.2"];
+        var versions = ["1.10","1.7.1","1.7","1.7","1.5"];
     </script>
 
 
