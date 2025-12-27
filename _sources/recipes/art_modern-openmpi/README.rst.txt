@@ -13,7 +13,7 @@ art_modern-openmpi
    Modernized ART simulator of diverse Next\-Generation Sequencing reads with MPI support
 
    :homepage: https://github.com/YU-Zhejian/art_modern
-   :documentation: https://github.com/YU-Zhejian/art_modern/releases/download/1.3.1/art_modern.pdf
+   :documentation: https://github.com/YU-Zhejian/art_modern/releases/download/1.3.2/art_modern.pdf
    
    :license: GPL3 / GPL-3.0-only
    :recipe: /`art_modern-openmpi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/art_modern-openmpi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/art_modern-openmpi/meta.yaml>`_
@@ -29,13 +29,13 @@ art_modern-openmpi
       
       
 
-      ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-0``
+      ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-0``
 
       
 
    
    :depends fmt: ``>=10.2.1,<11.0a0``
-   :depends htslib: ``>=1.22.1,<1.23.0a0``
+   :depends htslib: ``>=1.23,<1.24.0a0``
    :depends libboost: ``>=1.86,<1.87``
    :depends libboost: ``>=1.86.0,<1.87.0a0``
    :depends libgcc: ``>=13``
@@ -96,7 +96,7 @@ art_modern-openmpi
 
     <script>
         var package = "art_modern-openmpi";
-        var versions = ["1.3.1","1.3.0","1.3.0","1.2.0"];
+        var versions = ["1.3.2","1.3.1","1.3.0","1.3.0","1.2.0"];
     </script>
 
 

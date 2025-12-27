@@ -12,7 +12,7 @@ fastqe
 
    A emoji based bioinformatics command line tool.
 
-   :homepage: https://github.com/lonsbio/fastqe
+   :homepage: https://github.com/fastqe/fastqe
    :license: BSD / BSD-3-Clause
    :recipe: /`fastqe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastqe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastqe/meta.yaml>`_
 
@@ -30,7 +30,7 @@ fastqe
       
       
 
-      ``0.3.3-0``,  ``0.3.1-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.5.0-0``,  ``0.3.3-0``,  ``0.3.1-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
@@ -88,7 +88,7 @@ fastqe
 
     <script>
         var package = "fastqe";
-        var versions = ["0.3.3","0.3.1","0.2.7","0.2.6","0.1.1"];
+        var versions = ["0.5.0","0.3.3","0.3.1","0.2.7","0.2.6"];
     </script>
 
 

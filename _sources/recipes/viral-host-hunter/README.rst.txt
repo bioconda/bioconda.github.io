@@ -30,12 +30,13 @@ viral-host-hunter
       
       
 
-      ``0.1.11-0``
+      ``0.2.0-0``,  ``0.1.11-0``
 
       
 
    
    :depends biopython: ``>=1.81``
+   :depends h5py: ``>=3.11.0``
    :depends numpy: ``>=1.24``
    :depends openpyxl: ``>=3.1``
    :depends pandas: ``>=2.0``
@@ -44,7 +45,7 @@ viral-host-hunter
    :depends scikit-learn: ``>=1.3.0,<1.4.0``
    :depends sentencepiece: ``>=0.1.99``
    :depends tqdm: ``>=4.60``
-   :depends transformers: ``>=4.37``
+   :depends transformers: ``>=4.37,<4.52``
    :requirements:
 
    :additional platforms:
@@ -95,7 +96,7 @@ viral-host-hunter
 
     <script>
         var package = "viral-host-hunter";
-        var versions = ["0.1.11"];
+        var versions = ["0.2.0","0.1.11"];
     </script>
 
 
