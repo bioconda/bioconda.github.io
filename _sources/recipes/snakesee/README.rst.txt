@@ -29,7 +29,7 @@ snakesee
       
       
 
-      ``0.2.1-0``,  ``0.1.0-0``
+      ``0.4.1-0``,  ``0.2.1-0``,  ``0.1.0-0``
 
       
 
@@ -88,7 +88,7 @@ snakesee
 
     <script>
         var package = "snakesee";
-        var versions = ["0.2.1","0.1.0"];
+        var versions = ["0.4.1","0.2.1","0.1.0"];
     </script>
 
 
