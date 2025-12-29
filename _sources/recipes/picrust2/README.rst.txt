@@ -28,10 +28,10 @@ picrust2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.6.3-0</code>,  <code>2.6.2-1</code>,  <code>2.6.2-0</code>,  <code>2.6.1-0</code>,  <code>2.6.0-0</code>,  <code>2.5.3-0</code>,  <code>2.5.2-0</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.6.3-1</code>,  <code>2.6.3-0</code>,  <code>2.6.2-1</code>,  <code>2.6.2-0</code>,  <code>2.6.1-0</code>,  <code>2.6.0-0</code>,  <code>2.5.3-0</code>,  <code>2.5.2-0</code>,  <code>2.5.1-0</code>,  </span></summary>
       
 
-      ``2.6.3-0``,  ``2.6.2-1``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.0_b-0``,  ``2.2.0_b-0``,  ``2.1.4_b-0``,  ``2.1.3_b-0``,  ``2.1.2_b-0``,  ``2.1.1_b-0``,  ``2.1.0_b-0``,  ``2.0.3_b-0``
+      ``2.6.3-1``,  ``2.6.3-0``,  ``2.6.2-1``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.0_b-0``,  ``2.2.0_b-0``,  ``2.1.4_b-0``,  ``2.1.3_b-0``,  ``2.1.2_b-0``,  ``2.1.1_b-0``,  ``2.1.0_b-0``,  ``2.0.3_b-0``
 
       
       .. raw:: html
@@ -41,13 +41,13 @@ picrust2
 
    
    :depends biom-format: ``>=2.1.10``
-   :depends dendropy: ``4.5.2.*``
+   :depends dendropy: ``>=5.0.1,<=5.0.6``
    :depends epa-ng: ``0.3.8.*``
    :depends ete3: 
    :depends gappa: ``>=0.8.0,<=0.8.5``
    :depends glpk: ``>=4.65``
    :depends h5py: ``>=2.10.0``
-   :depends hmmer: ``>=3.1b2,<=3.2.1``
+   :depends hmmer: ``>=3.1b2,<3.5.0a0``
    :depends jinja2: ``>=2.11.3``
    :depends joblib: ``>=1.0.1``
    :depends numpy: ``>=1.19.5``
@@ -58,7 +58,7 @@ picrust2
    :depends r-base: ``>=3.5.1``
    :depends r-castor: ``>=1.7.2``
    :depends scipy: ``>=1.2.1``
-   :depends sepp: ``4.4.0.*``
+   :depends sepp: ``4.5.5.*``
    :depends wget: 
    :requirements:
 
@@ -110,7 +110,7 @@ picrust2
 
     <script>
         var package = "picrust2";
-        var versions = ["2.6.3","2.6.2","2.6.2","2.6.1","2.6.0"];
+        var versions = ["2.6.3","2.6.3","2.6.2","2.6.2","2.6.1"];
     </script>
 
 
