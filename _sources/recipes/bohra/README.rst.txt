@@ -13,7 +13,7 @@ bohra
    Pipeline for analysing Illumina data for microbiological public health.
 
    :homepage: https://github.com/MDU-PHL/bohra
-   :documentation: https://github.com/MDU-PHL/bohra/wiki
+   :documentation: https://mdu-phl.github.io/bohra/
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`bohra <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bohra>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bohra/meta.yaml>`_
@@ -30,10 +30,10 @@ bohra
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.10-0</code>,  <code>2.3.9-0</code>,  <code>2.3.8-0</code>,  <code>2.3.7-0</code>,  <code>2.3.6-0</code>,  <code>2.3.4-0</code>,  <code>2.3.3-0</code>,  <code>2.3.2-0</code>,  <code>2.3.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.6-0</code>,  <code>2.3.10-0</code>,  <code>2.3.9-0</code>,  <code>2.3.8-0</code>,  <code>2.3.7-0</code>,  <code>2.3.6-0</code>,  <code>2.3.4-0</code>,  <code>2.3.3-0</code>,  <code>2.3.2-0</code>,  </span></summary>
       
 
-      ``2.3.10-0``,  ``2.3.9-0``,  ``2.3.8-0``,  ``2.3.7-0``,  ``2.3.6-0``,  ``2.3.4-0``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.0-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``1.2.20-0``,  ``1.2.19-1``,  ``1.2.19-0``,  ``1.2.18-0``,  ``1.2.16-0``,  ``1.2.15-0``,  ``1.2.14-0``,  ``1.2.12-0``,  ``1.2.11-0``,  ``1.2.10-1``,  ``1.2.10-0``,  ``1.2.9-0``,  ``1.2.6-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.1-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.27-0``,  ``1.0.26-0``,  ``1.0.25-0``,  ``1.0.24-0``,  ``1.0.23-0``,  ``1.0.22-0``,  ``1.0.20-1``,  ``1.0.20-0``,  ``1.0.19-0``
+      ``3.0.6-0``,  ``2.3.10-0``,  ``2.3.9-0``,  ``2.3.8-0``,  ``2.3.7-0``,  ``2.3.6-0``,  ``2.3.4-0``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.0-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``1.2.20-0``,  ``1.2.19-1``,  ``1.2.19-0``,  ``1.2.18-0``,  ``1.2.16-0``,  ``1.2.15-0``,  ``1.2.14-0``,  ``1.2.12-0``,  ``1.2.11-0``,  ``1.2.10-1``,  ``1.2.10-0``,  ``1.2.9-0``,  ``1.2.6-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.1-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.27-0``,  ``1.0.26-0``,  ``1.0.25-0``,  ``1.0.24-0``,  ``1.0.23-0``,  ``1.0.22-0``,  ``1.0.20-1``,  ``1.0.20-0``,  ``1.0.19-0``
 
       
       .. raw:: html
@@ -42,23 +42,15 @@ bohra
       
 
    
-   :depends altair: 
-   :depends any2fasta: 
-   :depends biopython: ``1.81.*``
+   :depends click: 
    :depends csvtk: 
    :depends jinja2: 
-   :depends nextflow: ``22.10.6.*``
-   :depends numpy: ``1.23.1.*``
-   :depends packaging: 
-   :depends pandas: ``1.0.5.*``
-   :depends perl-list-moreutils: 
-   :depends perl-svg: 
-   :depends perl-text-csv: 
+   :depends nextflow: 
+   :depends numpy: 
+   :depends pandas: 
    :depends psutil: 
    :depends pytest: 
-   :depends pytest-runner: 
-   :depends python: ``>=3.8``
-   :depends sh: 
+   :depends python: ``>=3.11``
    :requirements:
 
    :additional platforms:
@@ -109,7 +101,7 @@ bohra
 
     <script>
         var package = "bohra";
-        var versions = ["2.3.10","2.3.9","2.3.8","2.3.7","2.3.6"];
+        var versions = ["3.0.6","2.3.10","2.3.9","2.3.8","2.3.7"];
     </script>
 
 
