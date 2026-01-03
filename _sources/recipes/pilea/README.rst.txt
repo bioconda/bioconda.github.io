@@ -28,10 +28,10 @@ pilea
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.4-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  </span></summary>
       
 
-      ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -40,8 +40,9 @@ pilea
       
 
    
+   :depends htslib: ``>=1.23,<1.24.0a0``
    :depends libgcc: ``>=13``
-   :depends needletail: ``>=0.7.1``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends numpy: 
    :depends pigz: 
    :depends python: ``>=3.10,<3.11.0a0``
@@ -52,6 +53,7 @@ pilea
    :depends tar: 
    :depends threadpoolctl: 
    :depends tqdm: 
+   :depends wget: 
    :requirements:
 
    :additional platforms:
@@ -106,7 +108,7 @@ pilea
 
     <script>
         var package = "pilea";
-        var versions = ["1.3.3","1.3.2","1.3.1","1.3.0","1.2.4"];
+        var versions = ["1.3.4","1.3.3","1.3.2","1.3.1","1.3.0"];
     </script>
 
 

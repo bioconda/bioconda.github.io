@@ -27,7 +27,7 @@ biovalid
       
       
 
-      ``0.3.0-0``
+      ``0.4.0-0``,  ``0.3.0-0``
 
       
 
@@ -83,7 +83,7 @@ biovalid
 
     <script>
         var package = "biovalid";
-        var versions = ["0.3.0"];
+        var versions = ["0.4.0","0.3.0"];
     </script>
 
 

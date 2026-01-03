@@ -27,7 +27,7 @@ babappalign
       
       
 
-      ``1.0.4-0``,  ``1.0.0-0``
+      ``1.1.3-0``,  ``1.0.4-0``,  ``1.0.0-0``
 
       
 
@@ -92,7 +92,7 @@ babappalign
 
     <script>
         var package = "babappalign";
-        var versions = ["1.0.4","1.0.0"];
+        var versions = ["1.1.3","1.0.4","1.0.0"];
     </script>
 
 

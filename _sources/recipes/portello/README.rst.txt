@@ -27,7 +27,7 @@ portello
       
       
 
-      ``0.6.1-0``
+      ``0.7.0-0``,  ``0.6.1-0``
 
       
 
@@ -82,7 +82,7 @@ portello
 
     <script>
         var package = "portello";
-        var versions = ["0.6.1"];
+        var versions = ["0.7.0","0.6.1"];
     </script>
 
 
