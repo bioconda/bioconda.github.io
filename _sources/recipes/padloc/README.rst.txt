@@ -28,15 +28,15 @@ padloc
       
       
 
-      ``2.0.0-0``
+      ``2.0.0-1``,  ``2.0.0-0``
 
       
 
    
    :depends curl: 
    :depends grep: 
-   :depends hmmer: ``3.3.2``
-   :depends prodigal: ``2.6.3``
+   :depends hmmer: ``>=3.3.2``
+   :depends prodigal: ``>=2.6.3``
    :depends r-base: ``4.3.1``
    :depends r-getopt: ``1.20.3``
    :depends r-tidyverse: ``2.0.0``
@@ -91,7 +91,7 @@ padloc
 
     <script>
         var package = "padloc";
-        var versions = ["2.0.0"];
+        var versions = ["2.0.0","2.0.0"];
     </script>
 
 

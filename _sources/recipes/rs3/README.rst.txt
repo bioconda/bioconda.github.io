@@ -27,7 +27,7 @@ rs3
       
       
 
-      ``0.0.18-0``
+      ``0.0.18-0``,  ``0.0.16-0``
 
       
 
@@ -94,7 +94,7 @@ rs3
 
     <script>
         var package = "rs3";
-        var versions = ["0.0.18"];
+        var versions = ["0.0.18","0.0.16"];
     </script>
 
 
