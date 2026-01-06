@@ -13,7 +13,7 @@ dartunifrac-gpu
    DartUniFrac is an ultra\-fast UniFrac algorithm that scales to millions of samples. It was designed based on optimal balanced parenthesis and Weighted MinHash sketching.
 
    :homepage: https://github.com/jianshu93/DartUniFrac
-   :documentation: https://github.com/jianshu93/DartUniFrac/blob/v0.2.8/README.md
+   :documentation: https://github.com/jianshu93/DartUniFrac/blob/v0.2.9/README.md
    
    :license: MIT / MIT
    :recipe: /`dartunifrac-gpu <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dartunifrac-gpu>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dartunifrac-gpu/meta.yaml>`_
@@ -29,7 +29,7 @@ dartunifrac-gpu
       
       
 
-      ``0.2.8-0``,  ``0.2.7-0``
+      ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``
 
       
 
@@ -89,7 +89,7 @@ dartunifrac-gpu
 
     <script>
         var package = "dartunifrac-gpu";
-        var versions = ["0.2.8","0.2.7"];
+        var versions = ["0.2.9","0.2.8","0.2.7"];
     </script>
 
 

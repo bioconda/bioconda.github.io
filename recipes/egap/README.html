@@ -94,7 +94,7 @@ and Assembly GC-content.</p>
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/egap"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/egap.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/egap"><img alt="docker_egap" src="https://quay.io/repository/biocontainers/egap/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>3.3.5-0</code>,  <code>3.3.4-0</code>,  <code>3.3c-0</code>,  <code>3.2c-0</code>,  <code>3.1-0</code>,  <code>3.1b-0</code>,  <code>3.0.0f-0</code>,  <code>3.0.0b-0</code>,  <code>2.6.6-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">3.3.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.3.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.3c-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.2c-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.1b-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.0f-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.0b-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.6.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.6.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.6.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.6.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.3-0</span></code></p>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>3.3.7-0</code>,  <code>3.3.6-0</code>,  <code>3.3.5-0</code>,  <code>3.3.4-0</code>,  <code>3.3c-0</code>,  <code>3.2c-0</code>,  <code>3.1-0</code>,  <code>3.1b-0</code>,  <code>3.0.0f-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">3.3.7-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.3.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.3.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.3.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.3c-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.2c-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.1b-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.0f-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.0b-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.6.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.6.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.6.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.6.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.3-0</span></code></p>
 </details></dd>
 <dt class="field-even">depends abyss<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.0.2</span></code></p>
@@ -160,10 +160,16 @@ and Assembly GC-content.</p>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.43.0</span></code></p>
 </dd>
 <dt class="field-odd">depends ncbi-datasets-cli<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=18.9.0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=18.3.1</span></code></p>
 </dd>
-<dt class="field-even">depends openpyxl<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.1.5</span></code></p>
+<dt class="field-even">depends numpy<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.24.3</span></code></p>
+</dd>
+<dt class="field-odd">depends openpyxl<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.1.5</span></code></p>
+</dd>
+<dt class="field-even">depends pandas<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.0.3</span></code></p>
 </dd>
 <dt class="field-odd">depends pbccs<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=6.4.0</span></code></p>
@@ -195,34 +201,37 @@ and Assembly GC-content.</p>
 <dt class="field-even">depends ratatosk<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.9.0</span></code></p>
 </dd>
-<dt class="field-odd">depends samtools<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.21</span></code></p>
+<dt class="field-odd">depends requests<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.32.3</span></code></p>
 </dd>
-<dt class="field-even">depends sepp<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.5.1</span></code></p>
+<dt class="field-even">depends samtools<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.21</span></code></p>
 </dd>
-<dt class="field-odd">depends spades<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.0.0</span></code></p>
+<dt class="field-odd">depends sepp<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.5.1</span></code></p>
 </dd>
-<dt class="field-even">depends sra-tools<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.2.0</span></code></p>
+<dt class="field-even">depends spades<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.0.0</span></code></p>
 </dd>
-<dt class="field-odd">depends tabulate<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.9.0</span></code></p>
+<dt class="field-odd">depends sra-tools<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.2.0</span></code></p>
 </dd>
-<dt class="field-even">depends termcolor<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.3.0</span></code></p>
+<dt class="field-even">depends tabulate<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.9.0</span></code></p>
 </dd>
-<dt class="field-odd">depends tgsgapcloser<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.2.1</span></code></p>
+<dt class="field-odd">depends termcolor<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.3.0</span></code></p>
 </dd>
-<dt class="field-even">depends trimmomatic<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.39</span></code></p>
+<dt class="field-even">depends tgsgapcloser<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.2.1</span></code></p>
 </dd>
-<dt class="field-odd">requirements<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">additional platforms<span class="colon">:</span></dt>
+<dt class="field-odd">depends trimmomatic<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.39</span></code></p>
+</dd>
+<dt class="field-even">requirements<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
+<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -257,7 +266,7 @@ others.</p>
 
 <script>
     var package = "egap";
-    var versions = ["3.3.5","3.3.4","3.3c","3.2c","3.1"];
+    var versions = ["3.3.7","3.3.6","3.3.5","3.3.4","3.3c"];
 </script><section id="notes">
 <h2>Notes<a class="headerlink" href="#notes" title="Link to this heading">¶</a></h2>
 <p>This package installs a custom executable named &quot;EGAP&quot; in $PREFIX/bin.

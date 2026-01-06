@@ -28,10 +28,10 @@ amdirt
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.5-1</code>,  <code>1.6.5-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-1</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.0-1</code>,  <code>1.5.0-0</code>,  <code>1.4.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7.0-0</code>,  <code>1.6.5-1</code>,  <code>1.6.5-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-1</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.0-1</code>,  <code>1.5.0-0</code>,  </span></summary>
       
 
-      ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.2-0``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``
+      ``1.7.0-0``,  ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.2-0``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``
 
       
       .. raw:: html
@@ -50,7 +50,7 @@ amdirt
    :depends requests: 
    :depends rich: 
    :depends streamlit: ``<=1.35.0``
-   :depends streamlit-aggrid: ``<=0.3.5``
+   :depends streamlit-aggrid: ``0.3.4.post3``
    :depends tabulate: 
    :requirements:
 
@@ -102,7 +102,7 @@ amdirt
 
     <script>
         var package = "amdirt";
-        var versions = ["1.6.5","1.6.5","1.6.2","1.6.1","1.6.1"];
+        var versions = ["1.7.0","1.6.5","1.6.5","1.6.2","1.6.1"];
     </script>
 
 

@@ -30,7 +30,7 @@ r-rldne
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -93,7 +93,7 @@ r-rldne
 
     <script>
         var package = "r-rldne";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 
