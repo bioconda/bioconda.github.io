@@ -30,10 +30,10 @@ hybracter
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.11.2-0</code>,  <code>0.11.1-0</code>,  <code>0.11.0-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  <code>0.7.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.12.0-0</code>,  <code>0.11.2-0</code>,  <code>0.11.1-0</code>,  <code>0.11.0-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.0-0</code>,  </span></summary>
       
 
-      ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.2-0``
+      ``0.12.0-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.2-0``
 
       
       .. raw:: html
@@ -45,6 +45,7 @@ hybracter
    :depends attrmap: ``>=0.0.5``
    :depends biopython: ``>=1.76``
    :depends click: ``>=8.1.3``
+   :depends minimap2: ``>=2.26``
    :depends python: ``>=3.9``
    :depends pyyaml: ``>=6.0``
    :depends snakemake-minimal: ``>=7.14.0``
@@ -98,7 +99,7 @@ hybracter
 
     <script>
         var package = "hybracter";
-        var versions = ["0.11.2","0.11.1","0.11.0","0.10.1","0.10.0"];
+        var versions = ["0.12.0","0.11.2","0.11.1","0.11.0","0.10.1"];
     </script>
 
 

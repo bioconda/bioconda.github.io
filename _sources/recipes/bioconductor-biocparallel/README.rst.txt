@@ -12,7 +12,7 @@ bioconductor-biocparallel
 
    Bioconductor facilities for parallel evaluation
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/BiocParallel.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/BiocParallel.html
    :license: GPL-2 | GPL-3
    :recipe: /`bioconductor-biocparallel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocparallel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocparallel/meta.yaml>`_
    :links: biotools: :biotools:`biocparallel`, doi: :doi:`10.1214/14-STS476`
@@ -29,10 +29,10 @@ bioconductor-biocparallel
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.40.0-1</code>,  <code>1.40.0-0</code>,  <code>1.36.0-2</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.2-0</code>,  <code>1.32.5-1</code>,  <code>1.32.5-0</code>,  <code>1.32.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.44.0-0</code>,  <code>1.40.0-1</code>,  <code>1.40.0-0</code>,  <code>1.36.0-2</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.2-0</code>,  <code>1.32.5-1</code>,  <code>1.32.5-0</code>,  </span></summary>
       
 
-      ``1.40.0-1``,  ``1.40.0-0``,  ``1.36.0-2``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.2-0``,  ``1.32.5-1``,  ``1.32.5-0``,  ``1.32.0-0``,  ``1.28.3-1``,  ``1.28.3-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.1-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.6-0``,  ``1.16.2-1``,  ``1.16.2-0``,  ``1.14.2-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.1-0``,  ``1.6.6-1``,  ``1.6.6-0``,  ``1.5.0-0``,  ``1.4.3-0``,  ``1.4.0-0``,  ``1.2.22-0``
+      ``1.44.0-0``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.36.0-2``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.2-0``,  ``1.32.5-1``,  ``1.32.5-0``,  ``1.32.0-0``,  ``1.28.3-1``,  ``1.28.3-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.1-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.6-0``,  ``1.16.2-1``,  ``1.16.2-0``,  ``1.14.2-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.1-0``,  ``1.6.6-1``,  ``1.6.6-0``,  ``1.5.0-0``,  ``1.4.3-0``,  ``1.4.0-0``,  ``1.2.22-0``
 
       
       .. raw:: html
@@ -45,7 +45,7 @@ bioconductor-biocparallel
    :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-bh: 
    :depends r-codetools: 
    :depends r-cpp11: 
@@ -105,7 +105,7 @@ bioconductor-biocparallel
 
     <script>
         var package = "bioconductor-biocparallel";
-        var versions = ["1.40.0","1.40.0","1.36.0","1.36.0","1.36.0"];
+        var versions = ["1.44.0","1.40.0","1.40.0","1.36.0","1.36.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ local-cd-search
       
       
 
-      ``0.2.0-0``
+      ``0.3.0-0``,  ``0.2.0-0``
 
       
 
@@ -88,7 +88,7 @@ local-cd-search
 
     <script>
         var package = "local-cd-search";
-        var versions = ["0.2.0"];
+        var versions = ["0.3.0","0.2.0"];
     </script>
 
 
