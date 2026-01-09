@@ -70,10 +70,10 @@
 <dd><p>Splicing Diversity Analysis for Transcriptome Data</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.20/bioc/html/SplicingFactory.html">https://bioconductor.org/packages/3.20/bioc/html/SplicingFactory.html</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://www.bioconductor.org/packages/release/bioc/html/SplicingFactory.html">https://www.bioconductor.org/packages/release/bioc/html/SplicingFactory.html</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>GPL-3 + file LICENSE</p>
+<dd class="field-even"><p>GPL-3.0-only</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splicingfactory">bioconductor-splicingfactory</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splicingfactory/meta.yaml">meta.yaml</a></p>
@@ -89,7 +89,7 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-splicingfactory"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bioconductor-splicingfactory.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-splicingfactory"><img alt="docker_bioconductor-splicingfactory" src="https://quay.io/repository/biocontainers/bioconductor-splicingfactory/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.14.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.10.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.8.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.6.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.18.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.14.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.10.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.8.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.6.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
 </dd>
 <dt class="field-even">depends bioconductor-summarizedexperiment<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.36.0,&lt;1.37.0</span></code></p>
@@ -97,10 +97,16 @@
 <dt class="field-odd">depends r-base<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.4,&lt;4.5.0a0</span></code></p>
 </dd>
-<dt class="field-even">requirements<span class="colon">:</span></dt>
+<dt class="field-even">depends r-ggplot2<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
+<dt class="field-odd">depends r-optparse<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends r-reshape2<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">requirements<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">additional platforms<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -135,7 +141,7 @@ others.</p>
 
 <script>
     var package = "bioconductor-splicingfactory";
-    var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.2.0"];
+    var versions = ["1.18.0","1.14.0","1.10.0","1.8.0","1.6.0"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

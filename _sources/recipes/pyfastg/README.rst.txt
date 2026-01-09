@@ -10,7 +10,7 @@ pyfastg
    :replaces_section_title:
    :noindex:
 
-   Minimal Python library for parsing SPAdes FASTG files
+   Minimal Python library for parsing FASTG files
 
    :homepage: https://github.com/fedarko/pyfastg
    :license: MIT / MIT
@@ -27,7 +27,7 @@ pyfastg
       
       
 
-      ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -84,7 +84,7 @@ pyfastg
 
     <script>
         var package = "pyfastg";
-        var versions = ["0.1.0"];
+        var versions = ["0.2.0","0.1.0"];
     </script>
 
 
