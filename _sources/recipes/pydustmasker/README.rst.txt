@@ -13,7 +13,8 @@ pydustmasker
    Python library for identification and masking of low\-complexity regions in nucleotide sequences.
 
 
-   :homepage: https://github.com/apcamargo/pydustmasker
+   :homepage: https://apcamargo.github.io/pydustmasker
+   :developer docs: https://github.com/apcamargo/pydustmasker
    :license: MIT / MIT
    :recipe: /`pydustmasker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pydustmasker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pydustmasker/meta.yaml>`_
 
@@ -28,15 +29,15 @@ pydustmasker
       
       
 
-      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``2.0.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends __glibc: ``>=2.17,<3.0.a0``
    :depends libgcc: ``>=13``
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends python: ``>=3.14,<3.15.0a0``
+   :depends python_abi: ``3.14.* *_cp314``
    :requirements:
 
    :additional platforms:
@@ -91,7 +92,7 @@ pydustmasker
 
     <script>
         var package = "pydustmasker";
-        var versions = ["1.0.3","1.0.2","1.0.0","1.0.0","1.0.0"];
+        var versions = ["2.0.0","1.0.3","1.0.2","1.0.0","1.0.0"];
     </script>
 
 
