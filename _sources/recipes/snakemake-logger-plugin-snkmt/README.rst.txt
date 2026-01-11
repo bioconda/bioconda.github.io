@@ -27,7 +27,7 @@ snakemake-logger-plugin-snkmt
       
       
 
-      ``0.1.5-0``
+      ``0.1.6-0``,  ``0.1.5-0``
 
       
 
@@ -86,7 +86,7 @@ snakemake-logger-plugin-snkmt
 
     <script>
         var package = "snakemake-logger-plugin-snkmt";
-        var versions = ["0.1.5"];
+        var versions = ["0.1.6","0.1.5"];
     </script>
 
 
