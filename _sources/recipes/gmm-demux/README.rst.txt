@@ -28,13 +28,13 @@ gmm-demux
       
       
 
-      ``0.2.2.3-0``
+      ``0.2.2.3-1``,  ``0.2.2.3-0``
 
       
 
    
    :depends bitvector: 
-   :depends numpy: ``>=1.22.4``
+   :depends numpy: ``>=1.22.4,<2.4``
    :depends pandas: ``>=1.4.3``
    :depends python: 
    :depends scikit-learn: 
@@ -90,7 +90,7 @@ gmm-demux
 
     <script>
         var package = "gmm-demux";
-        var versions = ["0.2.2.3"];
+        var versions = ["0.2.2.3","0.2.2.3"];
     </script>
 
 

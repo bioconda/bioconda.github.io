@@ -27,7 +27,7 @@ stainwarpy
       
       
 
-      ``0.1.7-0``
+      ``0.1.8-0``,  ``0.1.7-0``
 
       
 
@@ -89,7 +89,7 @@ stainwarpy
 
     <script>
         var package = "stainwarpy";
-        var versions = ["0.1.7"];
+        var versions = ["0.1.8","0.1.7"];
     </script>
 
 
