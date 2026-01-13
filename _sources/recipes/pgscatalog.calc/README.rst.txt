@@ -27,14 +27,14 @@ pgscatalog.calc
       
       
 
-      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``
+      ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``
 
       
 
    
    :depends numpy: ``>=1.26.4,<2.0.0``
    :depends pandas: ``>=2.2.0,<3.0.0``
-   :depends pgscatalog.core: ``>=0.3.0,<0.4.0``
+   :depends pgscatalog.core: ``>=0.3.0,<2.0.0``
    :depends pyarrow: ``>=15.0.0,<16.0.0``
    :depends python: ``>=3.10``
    :depends scikit-learn: ``>=1.4.0,<2.0.0``
@@ -89,7 +89,7 @@ pgscatalog.calc
 
     <script>
         var package = "pgscatalog.calc";
-        var versions = ["0.3.1","0.3.0","0.2.2","0.2.1"];
+        var versions = ["0.3.1","0.3.1","0.3.0","0.2.2","0.2.1"];
     </script>
 
 

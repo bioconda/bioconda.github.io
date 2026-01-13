@@ -33,7 +33,7 @@ nirvana
       
       
 
-      ``3.18.1-0``
+      ``3.18.1-1``,  ``3.18.1-0``
 
       
 
@@ -89,7 +89,7 @@ nirvana
 
     <script>
         var package = "nirvana";
-        var versions = ["3.18.1"];
+        var versions = ["3.18.1","3.18.1"];
     </script>
 
 
