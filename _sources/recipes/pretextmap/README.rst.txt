@@ -12,7 +12,7 @@ pretextmap
 
    Paired REad TEXTure Mapper. Converts SAM formatted read pairs into genome contact maps.
 
-   :homepage: https://github.com/wtsi-hpag/PretextMap
+   :homepage: https://github.com/sanger-tol/PretextMap
    :license: MIT / MIT
    :recipe: /`pretextmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pretextmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pretextmap/meta.yaml>`_
 
@@ -28,10 +28,10 @@ pretextmap
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.9-4</code>,  <code>0.1.9-3</code>,  <code>0.1.9-2</code>,  <code>0.1.9-1</code>,  <code>0.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-0</code>,  <code>0.1.6-0</code>,  <code>0.1.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.2-0</code>,  <code>0.1.9-4</code>,  <code>0.1.9-3</code>,  <code>0.1.9-2</code>,  <code>0.1.9-1</code>,  <code>0.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-0</code>,  <code>0.1.6-0</code>,  </span></summary>
       
 
-      ``0.1.9-4``,  ``0.1.9-3``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.2.2-0``,  ``0.1.9-4``,  ``0.1.9-3``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -92,7 +92,7 @@ pretextmap
 
     <script>
         var package = "pretextmap";
-        var versions = ["0.1.9","0.1.9","0.1.9","0.1.9","0.1.9"];
+        var versions = ["0.2.2","0.1.9","0.1.9","0.1.9","0.1.9"];
     </script>
 
 

@@ -42,7 +42,7 @@ arcs
    
    :depends btllib: ``>=1.7.3,<2.0a0``
    :depends libcxx: ``>=18``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends llvm-openmp: ``>=18.1.8``
    :depends make: 
    :requirements:

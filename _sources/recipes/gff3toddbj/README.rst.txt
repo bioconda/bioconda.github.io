@@ -27,15 +27,15 @@ gff3toddbj
       
       
 
-      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.1-0``,  ``0.1.1-0``
+      ``0.4.3-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.1-0``,  ``0.1.1-0``
 
       
 
    
-   :depends bcbio-gff: ``>=0.6.6``
-   :depends biopython: ``>=1.75``
+   :depends bcbio-gff: ``<=0.7.1``
+   :depends biopython: ``<=1.86``
    :depends pysam: 
-   :depends python: 
+   :depends python: ``>=3.9,<3.14``
    :depends samtools: 
    :depends toml: 
    :requirements:
@@ -88,7 +88,7 @@ gff3toddbj
 
     <script>
         var package = "gff3toddbj";
-        var versions = ["0.4.0","0.3.0","0.2.4","0.2.3","0.2.1"];
+        var versions = ["0.4.3","0.4.0","0.3.0","0.2.4","0.2.3"];
     </script>
 
 

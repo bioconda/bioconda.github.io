@@ -29,7 +29,7 @@ cenmap
       
       
 
-      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``
+      ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``
 
       
 
@@ -37,7 +37,7 @@ cenmap
    :depends bedops: 
    :depends bedtools: 
    :depends cenplot: ``>=0.1.4``
-   :depends censtats: ``>=0.1.0``
+   :depends censtats: ``>=0.1.3``
    :depends coreutils: 
    :depends findutils: 
    :depends gawk: 
@@ -51,7 +51,7 @@ cenmap
    :depends minimap2: ``>=2.29``
    :depends nucflag: ``>=0.3.7``
    :depends numpy: 
-   :depends ont-modkit: ``>=0.3.2``
+   :depends ont-modkit: ``>=0.6.0``
    :depends pbmm2: ``>=1.17.0``
    :depends polars: 
    :depends pyarrow: 
@@ -64,7 +64,7 @@ cenmap
    :depends seaborn: 
    :depends seqkit: 
    :depends seqtk: 
-   :depends snakemake: ``>=8.24.0,<9.11.4``
+   :depends snakemake: ``>=8.24.0,<=9.5.0``
    :depends srf-n-trf: ``>=0.1.1``
    :depends stringdecomposer: 
    :requirements:
@@ -117,7 +117,7 @@ cenmap
 
     <script>
         var package = "cenmap";
-        var versions = ["1.1.1","1.1.0","1.0.4","1.0.4","1.0.4"];
+        var versions = ["1.2.0","1.1.1","1.1.0","1.0.4","1.0.4"];
     </script>
 
 
