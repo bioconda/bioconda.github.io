@@ -28,7 +28,7 @@ scispacy
       
       
 
-      ``0.6.2-0``,  ``0.5.5-1``,  ``0.5.5-0``
+      ``0.6.2-1``,  ``0.6.2-0``,  ``0.5.5-1``,  ``0.5.5-0``
 
       
 
@@ -42,7 +42,7 @@ scispacy
    :depends requests: ``>=2.0.0,<3.0.0``
    :depends scikit-learn: ``>=0.20.3``
    :depends scipy: 
-   :depends spacy: ``>=3.7.0,<3.9.0``
+   :depends spacy: ``>=3.7.0,<3.8.0``
    :requirements:
 
    :additional platforms:
@@ -93,7 +93,7 @@ scispacy
 
     <script>
         var package = "scispacy";
-        var versions = ["0.6.2","0.5.5","0.5.5"];
+        var versions = ["0.6.2","0.6.2","0.5.5","0.5.5"];
     </script>
 
 

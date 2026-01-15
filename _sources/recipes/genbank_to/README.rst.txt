@@ -28,15 +28,16 @@ genbank_to
       
       
 
-      ``0.42-0``,  ``0.41-0``,  ``0.35-0``
+      ``0.54-0``,  ``0.42-0``,  ``0.41-0``,  ``0.35-0``
 
       
 
    
-   :depends bcbio-gff: 
-   :depends biopython: 
+   :depends bcbio-gff: ``>=0.6.6``
+   :depends biopython: ``>=1.74``
+   :depends numpy: ``>=1.16.0``
    :depends pandas: 
-   :depends python: ``>=3``
+   :depends python: ``>=3.9``
    :requirements:
 
    :additional platforms:
@@ -87,7 +88,7 @@ genbank_to
 
     <script>
         var package = "genbank_to";
-        var versions = ["0.42","0.41","0.35"];
+        var versions = ["0.54","0.42","0.41","0.35"];
     </script>
 
 

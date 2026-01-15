@@ -27,14 +27,15 @@ harmonypy
       
       
 
-      ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``
+      ``0.2.0-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``
 
       
 
    
    :depends numpy: 
    :depends pandas: 
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.9``
+   :depends pytorch: 
    :depends scikit-learn: 
    :depends scipy: 
    :requirements:
@@ -87,7 +88,7 @@ harmonypy
 
     <script>
         var package = "harmonypy";
-        var versions = ["0.0.10","0.0.9","0.0.6","0.0.5","0.0.4"];
+        var versions = ["0.2.0","0.0.10","0.0.9","0.0.6","0.0.5"];
     </script>
 
 

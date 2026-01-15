@@ -29,12 +29,13 @@ snakesee
       
       
 
-      ``0.4.1-0``,  ``0.2.1-0``,  ``0.1.0-0``
+      ``0.6.1-0``,  ``0.4.1-0``,  ``0.2.1-0``,  ``0.1.0-0``
 
       
 
    
    :depends defopt: ``>=6.4.0``
+   :depends orjson: ``>=3.9.0``
    :depends python: ``>=3.11``
    :depends rich: ``>=13.0.0``
    :depends snakemake: ``>=8.0.0``
@@ -88,7 +89,7 @@ snakesee
 
     <script>
         var package = "snakesee";
-        var versions = ["0.4.1","0.2.1","0.1.0"];
+        var versions = ["0.6.1","0.4.1","0.2.1","0.1.0"];
     </script>
 
 

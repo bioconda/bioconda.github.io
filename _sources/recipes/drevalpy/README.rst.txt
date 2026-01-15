@@ -30,7 +30,7 @@ drevalpy
       
       
 
-      ``1.4.0-0``
+      ``1.4.1-0``,  ``1.4.0-0``
 
       
 
@@ -106,7 +106,7 @@ drevalpy
 
     <script>
         var package = "drevalpy";
-        var versions = ["1.4.0"];
+        var versions = ["1.4.1","1.4.0"];
     </script>
 
 

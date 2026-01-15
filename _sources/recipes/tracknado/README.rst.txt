@@ -27,7 +27,7 @@ tracknado
       
       
 
-      ``0.2.4-0``,  ``0.2.3-0``
+      ``0.3.0-0``,  ``0.2.4-0``,  ``0.2.3-0``
 
       
 
@@ -36,10 +36,13 @@ tracknado
    :depends cookiecutter: 
    :depends loguru: 
    :depends pandas: 
+   :depends pandera: ``>=0.18``
    :depends pillow: 
+   :depends pydantic: ``>=2.0``
    :depends python: ``>=3.7``
    :depends seaborn: 
    :depends trackhub: 
+   :depends typer: 
    :requirements:
 
    :additional platforms:
@@ -90,7 +93,7 @@ tracknado
 
     <script>
         var package = "tracknado";
-        var versions = ["0.2.4","0.2.3"];
+        var versions = ["0.3.0","0.2.4","0.2.3"];
     </script>
 
 

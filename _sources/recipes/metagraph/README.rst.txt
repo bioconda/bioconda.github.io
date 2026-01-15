@@ -31,10 +31,10 @@ metagraph
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.5-0</code>,  <code>0.4.3-0</code>,  <code>0.3.6-4</code>,  <code>0.3.6-3</code>,  <code>0.3.6-2</code>,  <code>0.3.6-1</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.0-0</code>,  <code>0.4.5-0</code>,  <code>0.4.3-0</code>,  <code>0.3.6-4</code>,  <code>0.3.6-3</code>,  <code>0.3.6-2</code>,  <code>0.3.6-1</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  </span></summary>
       
 
-      ``0.4.5-0``,  ``0.4.3-0``,  ``0.3.6-4``,  ``0.3.6-3``,  ``0.3.6-2``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.2.0-0``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.5.0-0``,  ``0.4.5-0``,  ``0.4.3-0``,  ``0.3.6-4``,  ``0.3.6-3``,  ``0.3.6-2``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.2.0-0``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -46,12 +46,16 @@ metagraph
    :depends _openmp_mutex: ``* *_llvm``
    :depends _openmp_mutex: ``>=4.5``
    :depends boost-cpp: 
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends icu: ``>=73.2,<74.0a0``
    :depends jemalloc: 
+   :depends libdeflate: ``>=1.22,<1.23.0a0``
    :depends libgcc: ``>=13``
    :depends libgomp: 
    :depends libjemalloc: ``>=5.3.0``
    :depends libstdcxx: ``>=13``
-   :depends llvm-openmp: ``>=21.1.3``
+   :depends llvm-openmp: ``>=21.1.8``
+   :depends zstd: ``>=1.5.7,<1.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -106,7 +110,7 @@ metagraph
 
     <script>
         var package = "metagraph";
-        var versions = ["0.4.5","0.4.3","0.3.6","0.3.6","0.3.6"];
+        var versions = ["0.5.0","0.4.5","0.4.3","0.3.6","0.3.6"];
     </script>
 
 

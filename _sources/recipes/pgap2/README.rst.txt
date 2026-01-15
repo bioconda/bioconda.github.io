@@ -27,24 +27,26 @@ pgap2
       
       
 
-      ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.3-0``
+      ``1.0.8-0``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.3-0``
 
       
 
    
+   :depends bcbio-gff: ``0.7.1``
    :depends biopython: ``1.82``
    :depends blast: 
    :depends cd-hit: 
    :depends clipkit: 
    :depends clonalframeml: 
    :depends diamond: 
+   :depends ete3: ``3.1.3``
    :depends fasttree: 
    :depends htslib: 
    :depends iqtree: 
    :depends loguru: ``0.6.0``
    :depends mafft: 
    :depends mcl: 
-   :depends minifasta: 
+   :depends minifasta: ``3.0.2``
    :depends miniprot: 
    :depends mmseqs2: 
    :depends muscle: 
@@ -69,7 +71,8 @@ pgap2
    :depends scikit-learn: ``1.1.2``
    :depends scipy: ``1.9.1``
    :depends seqtk: 
-   :depends tajimas_d: 
+   :depends svgwrite: 
+   :depends tajimas_d: ``2.0.2``
    :depends tqdm: ``4.64.1``
    :requirements:
 
@@ -121,7 +124,7 @@ pgap2
 
     <script>
         var package = "pgap2";
-        var versions = ["1.0.6","1.0.4","1.0.3"];
+        var versions = ["1.0.8","1.0.6","1.0.4","1.0.3"];
     </script>
 
 
