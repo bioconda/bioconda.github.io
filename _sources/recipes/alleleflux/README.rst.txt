@@ -32,7 +32,7 @@ alleleflux
       
       
 
-      ``0.1.4-0``
+      ``0.1.14-0``,  ``0.1.4-0``
 
       
 
@@ -106,7 +106,7 @@ alleleflux
 
     <script>
         var package = "alleleflux";
-        var versions = ["0.1.4"];
+        var versions = ["0.1.14","0.1.4"];
     </script>
 
 
