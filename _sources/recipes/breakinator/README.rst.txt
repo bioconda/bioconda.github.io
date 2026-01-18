@@ -10,10 +10,10 @@ breakinator
    :replaces_section_title:
    :noindex:
 
-   Detection of foldback and chimeric read artifacts in PAF files.
+   Detection of foldback and chimeric read artifacts in SAM\/BAM\/CRAM and PAF files
 
    :homepage: https://github.com/jheinz27/breakinator
-   :license: MIT / MIT
+   :license: MIT
    :recipe: /`breakinator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/breakinator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/breakinator/meta.yaml>`_
 
    
@@ -27,12 +27,19 @@ breakinator
       
       
 
-      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.1-0``
+      ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.1-0``
 
       
 
    
-   :depends python: ``>=3.7``
+   :depends htslib: ``>=1.23,<1.24.0a0``
+   :depends libcurl: ``>=8.18.0,<9.0a0``
+   :depends libgcc: ``>=13``
+   :depends liblzma: ``>=5.8.1,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends openssl: ``>=3.6.0,<4.0a0``
+   :depends xz: 
+   :depends zlib: 
    :requirements:
 
    :additional platforms:
@@ -83,7 +90,7 @@ breakinator
 
     <script>
         var package = "breakinator";
-        var versions = ["1.1.1","1.1.0","1.0.3","1.0.1"];
+        var versions = ["1.1.1","1.1.1","1.1.0","1.0.3","1.0.1"];
     </script>
 
 

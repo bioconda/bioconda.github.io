@@ -1,41 +1,41 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'logomaker'
+.. title:: Package Recipe 'h5max'
 .. highlight: bash
 
-logomaker
-=========
+h5max
+=====
 
-.. conda:recipe:: logomaker
+.. conda:recipe:: h5max
    :replaces_section_title:
    :noindex:
 
-   Package for making Sequence Logos
+   scipy.sparse support on h5py
 
-   :homepage: http://logomaker.readthedocs.io
-   :license: MIT / MIT
-   :recipe: /`logomaker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/logomaker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/logomaker/meta.yaml>`_
+   :homepage: https://github.com/jdcla/h5max
+   :license: MIT
+   :recipe: /`h5max <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/h5max>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/h5max/meta.yaml>`_
 
    
 
 
-.. conda:package:: logomaker
+.. conda:package:: h5max
 
-   |downloads_logomaker| |docker_logomaker|
+   |downloads_h5max| |docker_h5max|
 
    :versions:
       
       
 
-      ``0.8-1``,  ``0.8-0``
+      ``0.3.4-0``
 
       
 
    
-   :depends matplotlib-base: 
-   :depends numpy: 
-   :depends pandas: 
+   :depends h5py: ``>=3.15.1``
+   :depends numpy: ``>=1.21.0``
    :depends python: ``>=3.9``
+   :depends scipy: ``>=1.7.3``
    :requirements:
 
    :additional platforms:
@@ -54,39 +54,39 @@ logomaker
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install logomaker
+      mamba install h5max
 
    and update with::
 
-      mamba update logomaker
+      mamba update h5max
 
   To create a new environment, run::
 
-      mamba create --name myenvname logomaker
+      mamba create --name myenvname h5max
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/logomaker:<tag>
+      docker pull quay.io/biocontainers/h5max:<tag>
 
-   (see `logomaker/tags`_ for valid values for ``<tag>``)
+   (see `h5max/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_logomaker| image:: https://img.shields.io/conda/dn/bioconda/logomaker.svg?style=flat
-   :target: https://anaconda.org/bioconda/logomaker
+.. |downloads_h5max| image:: https://img.shields.io/conda/dn/bioconda/h5max.svg?style=flat
+   :target: https://anaconda.org/bioconda/h5max
    :alt:   (downloads)
-.. |docker_logomaker| image:: https://quay.io/repository/biocontainers/logomaker/status
-   :target: https://quay.io/repository/biocontainers/logomaker
-.. _`logomaker/tags`: https://quay.io/repository/biocontainers/logomaker?tab=tags
+.. |docker_h5max| image:: https://quay.io/repository/biocontainers/h5max/status
+   :target: https://quay.io/repository/biocontainers/h5max
+.. _`h5max/tags`: https://quay.io/repository/biocontainers/h5max?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "logomaker";
-        var versions = ["0.8","0.8"];
+        var package = "h5max";
+        var versions = ["0.3.4"];
     </script>
 
 
@@ -105,7 +105,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/logomaker/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/h5max/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/logomaker/README.html
+   :target: http://bioconda.github.io/recipes/h5max/README.html

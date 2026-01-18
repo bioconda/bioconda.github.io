@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Package Recipe &#39;kamino&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;h5max&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
     <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css?v=39de963d" />
     <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
@@ -63,40 +63,49 @@
 
           <div class="body" role="main">
             
-  <section id="kamino">
+  <section id="h5max">
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
-<span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">kamino</span></span></dt>
-<dd><p>Tool for building phylogenomic datasets quickly and reproducibly.</p>
+<span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">h5max</span></span></dt>
+<dd><p>scipy.sparse support on h5py</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/rderelle/kamino">https://github.com/rderelle/kamino</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/jdcla/h5max">https://github.com/jdcla/h5max</a></p>
 </dd>
-<dt class="field-even">Documentation<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="reference external" href="https://github.com/rderelle/kamino/blob/0.4.0/README.md">https://github.com/rderelle/kamino/blob/0.4.0/README.md</a></p>
+<dt class="field-even">License<span class="colon">:</span></dt>
+<dd class="field-even"><p>MIT</p>
 </dd>
-<dt class="field-odd">License<span class="colon">:</span></dt>
-<dd class="field-odd"><p>MIT / MIT</p>
-</dd>
-<dt class="field-even">Recipe<span class="colon">:</span></dt>
-<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kamino">kamino</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kamino/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">Recipe<span class="colon">:</span></dt>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/h5max">h5max</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/h5max/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="conda package">
-<dt class="sig sig-object conda" id="package-kamino">
-<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">kamino</span></span><a class="headerlink" href="#package-kamino" title="Link to this definition">¶</a></dt>
+<dt class="sig sig-object conda" id="package-h5max">
+<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">h5max</span></span><a class="headerlink" href="#package-h5max" title="Link to this definition">¶</a></dt>
 <dd><blockquote>
-<div><p><a class="reference external" href="https://anaconda.org/bioconda/kamino"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/kamino.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/kamino"><img alt="docker_kamino" src="https://quay.io/repository/biocontainers/kamino/status" /></a></p>
-<dl class="field-list">
+<div><p><a class="reference external" href="https://anaconda.org/bioconda/h5max"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/h5max.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/h5max"><img alt="docker_h5max" src="https://quay.io/repository/biocontainers/h5max/status" /></a></p>
+<dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.3.4-0</span></code></p>
+</dd>
+<dt class="field-even">depends h5py<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.15.1</span></code></p>
+</dd>
+<dt class="field-odd">depends numpy<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.21.0</span></code></p>
+</dd>
+<dt class="field-even">depends python<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.9</span></code></p>
+</dd>
+<dt class="field-odd">depends scipy<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.7.3</span></code></p>
 </dd>
 <dt class="field-even">requirements<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
 <dt class="field-odd">additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
+<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -108,30 +117,30 @@ micromamba or mamba (see <a class="reference external" href="https://mamba.readt
 We will show all commands using mamba below, but the arguments are the same for the two
 others.</p>
 <p>Given that you already have a conda environment in which you want to have this package, install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   <span class="n">mamba</span> <span class="n">install</span> <span class="n">kamino</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   <span class="n">mamba</span> <span class="n">install</span> <span class="n">h5max</span>
 
 <span class="ow">and</span> <span class="n">update</span> <span class="k">with</span><span class="p">::</span>
 
-   <span class="n">mamba</span> <span class="n">update</span> <span class="n">kamino</span>
+   <span class="n">mamba</span> <span class="n">update</span> <span class="n">h5max</span>
 </pre></div>
 </div>
 <p>To create a new environment, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">create</span> <span class="o">--</span><span class="n">name</span> <span class="n">myenvname</span> <span class="n">kamino</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">create</span> <span class="o">--</span><span class="n">name</span> <span class="n">myenvname</span> <span class="n">h5max</span>
 </pre></div>
 </div>
 <p>with <code class="docutils literal notranslate"><span class="pre">myenvname</span></code> being a reasonable name for the environment
 (see e.g. the <a class="reference external" href="https://mamba.readthedocs.io">mamba docs</a> for details and further options).</p>
 <p>Alternatively, use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   docker pull quay.io/biocontainers/kamino:&lt;tag&gt;
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   docker pull quay.io/biocontainers/h5max:&lt;tag&gt;
 
-(see `kamino/tags`_ for valid values for ``&lt;tag&gt;``)
+(see `h5max/tags`_ for valid values for ``&lt;tag&gt;``)
 </pre></div>
 </div>
 </dd></dl>
 
 <script>
-    var package = "kamino";
-    var versions = ["0.4.0","0.3.0","0.2.1","0.2.0","0.1.0"];
+    var package = "h5max";
+    var versions = ["0.3.4"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
@@ -207,8 +216,8 @@ others.</p>
 </section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Link to this heading">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/kamino/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/kamino/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/h5max/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/h5max/README.html)
 </pre></div>
 </div>
 </section>
@@ -289,14 +298,14 @@ others.</p>
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
       
       |
-      <a href="../../_sources/recipes/kamino/README.rst.txt"
+      <a href="../../_sources/recipes/h5max/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/kamino/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/h5max/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>
