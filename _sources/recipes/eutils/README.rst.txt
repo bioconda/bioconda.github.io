@@ -29,13 +29,13 @@ eutils
       
       
 
-      ``0.6.1-0``
+      ``0.6.1-1``,  ``0.6.1-0``
 
       
 
    
    :depends lxml: 
-   :depends python: ``>=3.12``
+   :depends python: ``>=3.10``
    :depends requests: 
    :requirements:
 
@@ -87,7 +87,7 @@ eutils
 
     <script>
         var package = "eutils";
-        var versions = ["0.6.1"];
+        var versions = ["0.6.1","0.6.1"];
     </script>
 
 

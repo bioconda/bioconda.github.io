@@ -27,7 +27,7 @@ metapub
       
       
 
-      ``0.6.4-0``
+      ``0.6.4-1``,  ``0.6.4-0``
 
       
 
@@ -39,7 +39,7 @@ metapub
    :depends habanero: 
    :depends lxml: 
    :depends lxml-html-clean: 
-   :depends python: ``>=3.10,<=3.13``
+   :depends python: ``>=3.8``
    :depends python-levenshtein: 
    :depends pyyaml: 
    :depends requests: 
@@ -97,7 +97,7 @@ metapub
 
     <script>
         var package = "metapub";
-        var versions = ["0.6.4"];
+        var versions = ["0.6.4","0.6.4"];
     </script>
 
 
