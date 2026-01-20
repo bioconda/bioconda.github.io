@@ -31,7 +31,7 @@ tirank
       
       
 
-      ``0.1.3-0``
+      ``1.0.0-0``,  ``0.1.3-0``
 
       
 
@@ -104,7 +104,7 @@ tirank
 
     <script>
         var package = "tirank";
-        var versions = ["0.1.3"];
+        var versions = ["1.0.0","0.1.3"];
     </script>
 
 

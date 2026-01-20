@@ -26,17 +26,25 @@ varpubs
    :versions:
       
       
+      .. raw:: html
 
-      ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.5.0-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.2-0</code>,  </span></summary>
+      
 
+      ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends biopython: ``>=1.85,<2``
    :depends cyvcf2: ``>=0.31.1,<0.32``
    :depends duckdb: ``>=1.2.1,<2``
    :depends duckdb-engine: ``>=0.15.0,<0.16``
    :depends openai: ``>=1.97.0,<2``
+   :depends pubgator: ``>=0.2``
    :depends python: ``>=3.11``
    :depends simple-parsing: 
    :depends sqlalchemy: ``>=2.0.39,<3``
@@ -92,7 +100,7 @@ varpubs
 
     <script>
         var package = "varpubs";
-        var versions = ["0.4.1","0.4.0","0.3.1","0.3.0","0.2.2"];
+        var versions = ["0.5.0","0.4.1","0.4.0","0.3.1","0.3.0"];
     </script>
 
 
