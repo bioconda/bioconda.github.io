@@ -29,7 +29,7 @@ panorama
       
       
 
-      ``0.5.0-0``
+      ``1.0.0-0``,  ``0.5.0-0``
 
       
 
@@ -90,7 +90,7 @@ panorama
 
     <script>
         var package = "panorama";
-        var versions = ["0.5.0"];
+        var versions = ["1.0.0","0.5.0"];
     </script>
 
 

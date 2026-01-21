@@ -31,7 +31,7 @@ pubgator
       
       
 
-      ``0.2.0-0``
+      ``0.3.0-0``,  ``0.2.0-0``
 
       
 
@@ -89,7 +89,7 @@ pubgator
 
     <script>
         var package = "pubgator";
-        var versions = ["0.2.0"];
+        var versions = ["0.3.0","0.2.0"];
     </script>
 
 

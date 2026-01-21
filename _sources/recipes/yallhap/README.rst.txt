@@ -15,7 +15,7 @@ yallhap
    :homepage: https://github.com/trianglegrrl/yallHap
    :documentation: https://github.com/trianglegrrl/yallHap#readme
    
-   :license: MIT / MIT
+   :license: PolyForm-Noncommercial-1.0.0
    :recipe: /`yallhap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yallhap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yallhap/meta.yaml>`_
 
    yallHap is a pipeline\-friendly tool for Y\-chromosome haplogroup
@@ -33,7 +33,7 @@ yallhap
       
       
 
-      ``0.4.0-0``
+      ``0.5.0-0``,  ``0.4.0-0``
 
       
 
@@ -95,7 +95,7 @@ yallhap
 
     <script>
         var package = "yallhap";
-        var versions = ["0.4.0"];
+        var versions = ["0.5.0","0.4.0"];
     </script>
 
 

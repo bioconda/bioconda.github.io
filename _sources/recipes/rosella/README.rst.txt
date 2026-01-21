@@ -13,7 +13,7 @@ rosella
    Metagenomic binning pipeline and algorithm using UMAP and HDBSCAN
 
    :homepage: https://github.com/rhysnewell/rosella.git
-   :license: GPL3
+   :license: BSD-3-Clause
    :recipe: /`rosella <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rosella>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rosella/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ rosella
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.5-0</code>,  <code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.2-2</code>,  <code>0.4.2-1</code>,  <code>0.4.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.7-0</code>,  <code>0.5.5-0</code>,  <code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.2-2</code>,  <code>0.4.2-1</code>,  </span></summary>
       
 
-      ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.2-2``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.4-0``,  ``0.2.3-0``
+      ``0.5.7-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.2-2``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.2.4-0``,  ``0.2.3-0``
 
       
       .. raw:: html
@@ -48,19 +48,19 @@ rosella
    :depends joblib: ``>=1.1.0,<=1.3``
    :depends joblib: ``>=1.3.0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=12``
-   :depends libstdcxx: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=13``
+   :depends libstdcxx: ``>=13``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends matplotlib-base: ``>=3.8``
    :depends numba: ``>=0.53,<=0.57``
    :depends numpy: ``<=1.24``
-   :depends openssl: ``>=3.3.2,<4.0a0``
+   :depends openssl: ``>=3.6.0,<4.0a0``
    :depends pandas: ``>=1.3``
    :depends pebble: ``>=5.0``
    :depends pynndescent: ``>=0.5.7``
    :depends python: ``>=3.8,<=3.10``
    :depends scikit-bio: ``>=0.5.7``
-   :depends scikit-learn: ``>=1.0.2,<=1.1``
+   :depends scikit-learn: ``>=1.2.0``
    :depends scipy: ``<=1.11``
    :depends seaborn: ``>=0.12``
    :depends tbb: ``>=2021.10.0``
@@ -117,7 +117,7 @@ rosella
 
     <script>
         var package = "rosella";
-        var versions = ["0.5.5","0.5.4","0.5.3","0.5.2","0.5.1"];
+        var versions = ["0.5.7","0.5.5","0.5.4","0.5.3","0.5.2"];
     </script>
 
 

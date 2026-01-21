@@ -10,7 +10,7 @@ gpatch
    :replaces_section_title:
    :noindex:
 
-   Starting with alignments of contigs to a reference genome\, produce a chromosome\-scale pseudoassembly by patching gaps between mapped contigs with sequences from the reference.\"
+   Starting with alignments of contigs to a reference genome\, produce a chromosome\-scale pseudoassembly by patching gaps between mapped contigs with sequences from the reference. Download the github repository for helper scripts to automate GPatch workflows\, identify and correct misjoins in the contig assembly\, produce dot\-plots of patched pseudoassemblies to a reference assembly\, and generate chrom.sizes and liftover chains for patched pseudoassemblies.\"
 
    :homepage: https://github.com/adadiehl/GPatch.git
    :license: MIT / MIT
@@ -27,7 +27,7 @@ gpatch
       
       
 
-      ``0.3.8-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``
+      ``0.4.0-0``,  ``0.3.8-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``
 
       
 
@@ -85,7 +85,7 @@ gpatch
 
     <script>
         var package = "gpatch";
-        var versions = ["0.3.8","0.3.6","0.3.5","0.3.4"];
+        var versions = ["0.4.0","0.3.8","0.3.6","0.3.5","0.3.4"];
     </script>
 
 

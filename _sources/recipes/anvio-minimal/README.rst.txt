@@ -32,10 +32,10 @@ anvio-minimal
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>8-0</code>,  <code>7.1-0</code>,  <code>7-0</code>,  <code>6.2-1</code>,  <code>6.2-0</code>,  <code>6.1-1</code>,  <code>6.1-0</code>,  <code>6-0</code>,  <code>5.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>9-0</code>,  <code>8-0</code>,  <code>7.1-0</code>,  <code>7-0</code>,  <code>6.2-1</code>,  <code>6.2-0</code>,  <code>6.1-1</code>,  <code>6.1-0</code>,  <code>6-0</code>,  </span></summary>
       
 
-      ``8-0``,  ``7.1-0``,  ``7-0``,  ``6.2-1``,  ``6.2-0``,  ``6.1-1``,  ``6.1-0``,  ``6-0``,  ``5.5.0-0``,  ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.0-1``,  ``5.2.0-0``
+      ``9-0``,  ``8-0``,  ``7.1-0``,  ``7-0``,  ``6.2-1``,  ``6.2-0``,  ``6.1-1``,  ``6.1-0``,  ``6-0``,  ``5.5.0-0``,  ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.0-1``,  ``5.2.0-0``
 
       
       .. raw:: html
@@ -44,6 +44,7 @@ anvio-minimal
       
 
    
+   :depends biopython: 
    :depends bottle: 
    :depends colored: 
    :depends django: 
@@ -59,9 +60,13 @@ anvio-minimal
    :depends paste: 
    :depends plotext: 
    :depends psutil: 
+   :depends pulp: ``2.7.0``
    :depends pyani: ``0.2.10``
+   :depends pymupdf: 
+   :depends pyrodigal-gv: 
    :depends pysam: 
-   :depends python: ``>=3``
+   :depends python: ``3.10.*``
+   :depends reportlab: 
    :depends requests: 
    :depends rich-argparse: 
    :depends scikit-learn: ``1.2.2``
@@ -71,6 +76,7 @@ anvio-minimal
    :depends sqlite: ``>=3.31.1``
    :depends statsmodels: 
    :depends tabulate: 
+   :depends tomli: ``2.2.1``
    :requirements:
 
    :additional platforms:
@@ -121,7 +127,7 @@ anvio-minimal
 
     <script>
         var package = "anvio-minimal";
-        var versions = ["8","7.1","7","6.2","6.2"];
+        var versions = ["9","8","7.1","7","6.2"];
     </script>
 
 

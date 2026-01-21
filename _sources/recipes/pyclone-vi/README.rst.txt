@@ -28,18 +28,19 @@ pyclone-vi
       
       
 
-      ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.2.0-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
    
-   :depends click: 
-   :depends h5py: 
-   :depends numba: 
-   :depends numpy: 
-   :depends pandas: 
-   :depends python: ``>=3.7``
+   :depends click: ``>=8.3``
+   :depends h5py: ``>=3.0``
+   :depends numba: ``>=0.61.2``
+   :depends numpy: ``>=2.0``
+   :depends pandas: ``>=2.2.2``
+   :depends python: ``>=3.12``
    :depends scipy: 
+   :depends threadpoolctl: ``>=3.6.0``
    :requirements:
 
    :additional platforms:
@@ -90,7 +91,7 @@ pyclone-vi
 
     <script>
         var package = "pyclone-vi";
-        var versions = ["0.1.6","0.1.5","0.1.4","0.1.3","0.1.2"];
+        var versions = ["0.2.0","0.1.6","0.1.5","0.1.4","0.1.3"];
     </script>
 
 

@@ -30,10 +30,10 @@ singlem
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.20.3-0</code>,  <code>0.20.2-1</code>,  <code>0.20.2-0</code>,  <code>0.19.0-0</code>,  <code>0.18.3-0</code>,  <code>0.18.2-0</code>,  <code>0.18.1-1</code>,  <code>0.18.1-0</code>,  <code>0.18.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.20.3-1</code>,  <code>0.20.3-0</code>,  <code>0.20.2-1</code>,  <code>0.20.2-0</code>,  <code>0.19.0-0</code>,  <code>0.18.3-0</code>,  <code>0.18.2-0</code>,  <code>0.18.1-1</code>,  <code>0.18.1-0</code>,  </span></summary>
       
 
-      ``0.20.3-0``,  ``0.20.2-1``,  ``0.20.2-0``,  ``0.19.0-0``,  ``0.18.3-0``,  ``0.18.2-0``,  ``0.18.1-1``,  ``0.18.1-0``,  ``0.18.0-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.1-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.2-2``,  ``0.13.2-1``,  ``0.13.2-0``
+      ``0.20.3-1``,  ``0.20.3-0``,  ``0.20.2-1``,  ``0.20.2-0``,  ``0.19.0-0``,  ``0.18.3-0``,  ``0.18.2-0``,  ``0.18.1-1``,  ``0.18.1-0``,  ``0.18.0-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.1-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.2-2``,  ``0.13.2-1``,  ``0.13.2-0``
 
       
       .. raw:: html
@@ -45,7 +45,7 @@ singlem
    :depends biopython: ``1.86.*``
    :depends bird_tool_utils_python: ``0.6.*``
    :depends cd-hit: ``4.8.*``
-   :depends diamond: ``2.1.15.*``
+   :depends diamond: ``2.1.19.*``
    :depends expressbetadiversity: ``1.0.*``
    :depends extern: ``0.4.*``
    :depends fastalite: ``0.4.*``
@@ -125,7 +125,7 @@ singlem
 
     <script>
         var package = "singlem";
-        var versions = ["0.20.3","0.20.2","0.20.2","0.19.0","0.18.3"];
+        var versions = ["0.20.3","0.20.3","0.20.2","0.20.2","0.19.0"];
     </script>
 
 
