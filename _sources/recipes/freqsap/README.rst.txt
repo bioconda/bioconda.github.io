@@ -27,12 +27,14 @@ freqsap
       
       
 
-      ``0.1.0-0``
+      ``1.1.0-0``,  ``0.1.0-0``
 
       
 
    
+   :depends openpyxl: 
    :depends python: ``>=3.8``
+   :depends requests: 
    :requirements:
 
    :additional platforms:
@@ -83,7 +85,7 @@ freqsap
 
     <script>
         var package = "freqsap";
-        var versions = ["0.1.0"];
+        var versions = ["1.1.0","0.1.0"];
     </script>
 
 
