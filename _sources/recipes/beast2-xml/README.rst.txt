@@ -27,7 +27,7 @@ beast2-xml
       
       
 
-      ``1.5.0-0``
+      ``1.5.1-0``,  ``1.5.0-0``
 
       
 
@@ -88,7 +88,7 @@ beast2-xml
 
     <script>
         var package = "beast2-xml";
-        var versions = ["1.5.0"];
+        var versions = ["1.5.1","1.5.0"];
     </script>
 
 

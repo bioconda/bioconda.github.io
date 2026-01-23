@@ -13,7 +13,7 @@ biobb_structure_utils
    Biobb\_structure\_utils is the Biobb module collection to modify or extract information from a PDB structure file.
 
    :homepage: https://github.com/bioexcel/biobb_structure_utils
-   :license: APACHE / Apache Software License
+   :license: APACHE / Apache-2.0
    :recipe: /`biobb_structure_utils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_structure_utils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_structure_utils/meta.yaml>`_
 
    \[\!\[\]\(https\:\/\/readthedocs.org\/projects\/biobb\-structure\-utils\/badge\/\?version\=latest\)\]\(https\:\/\/biobb\-structure\-utils.readthedocs.io\/en\/latest\/\?badge\=latest\) \[\!\[\]\(https\:\/\/img.shields.io\/badge\/License\-Apache\%202.0\-blue.svg\)\]\(https\:\/\/opensource.org\/licenses\/Apache\-2.0\)
@@ -27,8 +27,8 @@ biobb_structure_utils
    \#\#\# Copyright \& Licensing
    This software has been developed in the \[MMB group\]\(http\:\/\/mmb.irbbarcelona.org\) at the \[BSC\]\(http\:\/\/www.bsc.es\/\) \& \[IRB\]\(https\:\/\/www.irbbarcelona.org\/\) for the \[European BioExcel\]\(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission \(EU H2020 \[823830\]\(http\:\/\/cordis.europa.eu\/projects\/823830\)\, EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
 
-   \* \(c\) 2015\-2024 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
-   \* \(c\) 2015\-2024 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
+   \* \(c\) 2015\-2026 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
+   \* \(c\) 2015\-2026 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
    Licensed under the
    \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file LICENSE for details.
 
@@ -47,10 +47,10 @@ biobb_structure_utils
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>3.9.0-0</code>,  <code>3.8.0-0</code>,  <code>3.7.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.2.0-0</code>,  <code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>3.9.0-0</code>,  <code>3.8.0-0</code>,  </span></summary>
       
 
-      ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.0-0``,  ``3.7.6-0``,  ``3.7.4-0``,  ``3.7.3-0``,  ``3.7.2-0``,  ``3.7.1-0``,  ``3.7.0-0``,  ``3.6.1-0``,  ``3.6.0-0``,  ``3.5.3-0``,  ``3.5.2-0``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.0-0``
+      ``5.2.0-0``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.0-0``,  ``3.7.6-0``,  ``3.7.4-0``,  ``3.7.3-0``,  ``3.7.2-0``,  ``3.7.1-0``,  ``3.7.0-0``,  ``3.6.1-0``,  ``3.6.0-0``,  ``3.5.3-0``,  ``3.5.2-0``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.0-0``
 
       
       .. raw:: html
@@ -59,9 +59,9 @@ biobb_structure_utils
       
 
    
-   :depends biobb_common: ``5.1.0``
-   :depends biobb_structure_checking: ``>=3.15.6``
-   :depends python: ``>=3.9``
+   :depends biobb_common: ``5.2.0``
+   :depends biobb_structure_checking: ``>=3.13.5``
+   :depends python: ``>=3.10``
    :requirements:
 
    :additional platforms:
@@ -112,7 +112,7 @@ biobb_structure_utils
 
     <script>
         var package = "biobb_structure_utils";
-        var versions = ["5.1.0","5.0.0","4.2.0","4.1.0","4.0.0"];
+        var versions = ["5.2.0","5.1.0","5.0.0","4.2.0","4.1.0"];
     </script>
 
 

@@ -41,7 +41,7 @@ gromacs_mddb
       
       
 
-      ``2025.3-1``,  ``2025.3-0``
+      ``2025.3-2``,  ``2025.3-1``,  ``2025.3-0``
 
       
 
@@ -50,7 +50,7 @@ gromacs_mddb
    :depends fftw: ``>=3.3.10,<4.0a0``
    :depends libgcc: ``>=13``
    :depends libhwloc: ``2.*``
-   :depends libhwloc: ``>=2.12.1,<2.12.2.0a0``
+   :depends libhwloc: ``>=2.12.2,<2.12.3.0a0``
    :depends libstdcxx: ``>=13``
    :depends ocl-icd: ``>=2.3.3,<3.0a0``
    :requirements:
@@ -103,7 +103,7 @@ gromacs_mddb
 
     <script>
         var package = "gromacs_mddb";
-        var versions = ["2025.3","2025.3"];
+        var versions = ["2025.3","2025.3","2025.3"];
     </script>
 
 

@@ -33,7 +33,7 @@ yallhap
       
       
 
-      ``0.5.0-0``,  ``0.4.0-0``
+      ``1.0.1-0``,  ``0.5.0-0``,  ``0.4.0-0``
 
       
 
@@ -95,7 +95,7 @@ yallhap
 
     <script>
         var package = "yallhap";
-        var versions = ["0.5.0","0.4.0"];
+        var versions = ["1.0.1","0.5.0","0.4.0"];
     </script>
 
 

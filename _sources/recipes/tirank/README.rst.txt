@@ -10,17 +10,15 @@ tirank
    :replaces_section_title:
    :noindex:
 
-   A comprehensive analysis tool for transferring phenotype of bulk transcriptomic data to single\-cell or spatial transcriptomic data.
+   A comprehensive analysis tool for prioritizing phenotypic niches in tumor microenvironment.
 
    :homepage: https://github.com/LenisLin/TiRank
+   :documentation: https://tirank.readthedocs.io/
+   
    :license: MIT
    :recipe: /`tirank <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tirank>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tirank/meta.yaml>`_
 
-   TiRank integrates deep learning and statistical analysis to infer phenotype
-   transfer from bulk transcriptomic data to single\-cell or spatial transcriptomic data.
-   GPU\-accelerated modules rely on PyTorch \(\>\=2.1\) and torchvision \(\>\=0.16\)\,
-   which should be installed manually according to the user\'s CUDA environment.
-
+   
 
 
 .. conda:package:: tirank
@@ -31,29 +29,35 @@ tirank
       
       
 
-      ``1.0.2-0``,  ``1.0.0-0``,  ``0.1.3-0``
+      ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-0``,  ``0.1.3-0``
 
       
 
    
-   :depends dash: ``>=2.14``
-   :depends dash-bootstrap-components: ``>=1.5``
-   :depends gseapy: ``>=1.1``
+   :depends click: 
+   :depends dash: ``>=2.0``
+   :depends dash-bootstrap-components: ``>=1.0``
+   :depends gseapy: ``>=1.0``
    :depends imbalanced-learn: ``>=0.11``
-   :depends lifelines: ``>=0.28``
-   :depends matplotlib-base: ``>=3.8``
-   :depends numpy: ``>=1.26``
-   :depends optuna: ``>=3.5``
-   :depends pandas: ``>=2.1``
-   :depends pillow: ``>=10.2``
+   :depends leidenalg: 
+   :depends lifelines: ``>=0.27``
+   :depends matplotlib-base: ``>=3.7``
+   :depends numpy: ``>=1.22,<2.0``
+   :depends openpyxl: 
+   :depends optuna: ``>=3.0``
+   :depends pandas: ``>=1.5``
+   :depends pillow: ``>=9.0``
    :depends python: ``>=3.9``
+   :depends python-igraph: 
+   :depends pytorch: ``>=2.0``
    :depends scanpy: ``>=1.9``
-   :depends scikit-learn: ``>=1.3``
-   :depends scipy: ``>=1.11``
-   :depends seaborn-base: ``>=0.13``
+   :depends scikit-learn: ``>=1.0``
+   :depends scipy: ``>=1.8``
+   :depends seaborn-base: ``>=0.12``
+   :depends snakemake: ``7.32.4``
    :depends statsmodels: ``>=0.14``
-   :depends timm: ``>=0.9``
-   :depends tqdm: 
+   :depends timm: ``0.5.4``
+   :depends torchvision: ``>=0.15``
    :requirements:
 
    :additional platforms:
@@ -104,7 +108,7 @@ tirank
 
     <script>
         var package = "tirank";
-        var versions = ["1.0.2","1.0.0","0.1.3"];
+        var versions = ["1.0.2","1.0.2","1.0.0","0.1.3"];
     </script>
 
 

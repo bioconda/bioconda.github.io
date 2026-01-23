@@ -13,7 +13,7 @@ liftoff
    An accurate GFF3\/GTF lift over pipeline
 
    :homepage: https://github.com/agshumate/Liftoff
-   :license: GPL / GPL-3 License
+   :license: GPL / GPL-3.0-only
    :recipe: /`liftoff <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/liftoff>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/liftoff/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ liftoff
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.3-1</code>,  <code>1.6.3-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.3-2</code>,  <code>1.6.3-1</code>,  <code>1.6.3-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  </span></summary>
       
 
-      ``1.6.3-1``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.0-0``
+      ``1.6.3-2``,  ``1.6.3-1``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.0-0``
 
       
       .. raw:: html
@@ -101,7 +101,7 @@ liftoff
 
     <script>
         var package = "liftoff";
-        var versions = ["1.6.3","1.6.3","1.6.2","1.6.1","1.6.0"];
+        var versions = ["1.6.3","1.6.3","1.6.3","1.6.2","1.6.1"];
     </script>
 
 

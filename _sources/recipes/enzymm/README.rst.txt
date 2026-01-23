@@ -33,13 +33,14 @@ enzymm
       
       
 
-      ``0.3.1-0``
+      ``0.3.1-1``,  ``0.3.1-0``
 
       
 
    
+   :depends gemmi: ``>=0.7.0``
    :depends pyjess: ``>=0.9.0,<0.10.dev0``
-   :depends python: ``3.9.*``
+   :depends python: ``>=3.9``
    :depends readerwriterlock: ``>=1.0.9,<1.1.dev0``
    :depends rich: ``>=10.0.0``
    :requirements:
@@ -92,7 +93,7 @@ enzymm
 
     <script>
         var package = "enzymm";
-        var versions = ["0.3.1"];
+        var versions = ["0.3.1","0.3.1"];
     </script>
 
 

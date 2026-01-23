@@ -28,16 +28,16 @@ phyclone
       
       
 
-      ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.1-0``
+      ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.1-0``
 
       
 
    
-   :depends click: ``>=8.0``
-   :depends llvmdev: 
-   :depends networkx: 
+   :depends click: ``>=8.3``
+   :depends h5py: ``>=3.15``
+   :depends networkx: ``>=3.6.1``
    :depends numba: ``>=0.61.2``
-   :depends numpy: ``>=1.26.4``
+   :depends numpy: ``>=2.0.0``
    :depends pandas: ``>=2.2.2``
    :depends python: ``>=3.12``
    :depends python-xxhash: ``>=3.3.0``
@@ -93,7 +93,7 @@ phyclone
 
     <script>
         var package = "phyclone";
-        var versions = ["0.7.1","0.7.0","0.6.0","0.5.1"];
+        var versions = ["0.8.0","0.7.1","0.7.0","0.6.0","0.5.1"];
     </script>
 
 
