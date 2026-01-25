@@ -28,9 +28,17 @@ merquryfk
    :versions:
       
       
+      .. raw:: html
 
-      ``1.2-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.2-1</code>,  <code>1.2-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.0-1</code>,  </span></summary>
+      
 
+      ``1.2-1``,  ``1.2-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -42,8 +50,9 @@ merquryfk
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends r-argparse: ``>=2.0.1``
    :depends r-base: ``>=4``
-   :depends r-ggplot2: ``>=3.3.2``
+   :depends r-ggplot2: ``<=3.4.4``
    :depends r-scales: ``>=1.1.1``
+   :depends r-viridis: ``>=0.6``
    :requirements:
 
    :additional platforms:
@@ -98,7 +107,7 @@ merquryfk
 
     <script>
         var package = "merquryfk";
-        var versions = ["1.2","1.1.3","1.1.2","1.1.1","1.1.1"];
+        var versions = ["1.2","1.2","1.1.3","1.1.2","1.1.1"];
     </script>
 
 

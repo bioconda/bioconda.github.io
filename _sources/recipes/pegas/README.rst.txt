@@ -10,7 +10,7 @@ pegas
    :replaces_section_title:
    :noindex:
 
-   PeGAS is a Snakemake pipeline for genome analysis
+   PeGAS is a Snakemake pipeline for genome analysis \(with a lightweight CLI option\)
 
    :homepage: https://github.com/liviurotiul/PeGAS
    :documentation: https://github.com/liviurotiul/PeGAS#readme
@@ -20,7 +20,8 @@ pegas
    :recipe: /`pegas <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pegas>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pegas/meta.yaml>`_
 
    PeGAS is a Snakemake pipeline for genome analysis. It is designed to be
-   lightweight\, easy to install\, and easy to use.
+   lightweight\, easy to install\, and easy to use. A separate lite entrypoint
+   is provided for running the pipeline without Snakemake.
 
 
 
@@ -33,10 +34,10 @@ pegas
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.0-0</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  </span></summary>
       
 
-      ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.2.13-0``
+      ``1.2.1-0``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.2.13-0``
 
       
       .. raw:: html
@@ -45,15 +46,9 @@ pegas
       
 
    
-   :depends beautifulsoup4: ``>=4.12.3``
-   :depends conda: ``>=24.7.1``
-   :depends matplotlib-base: ``>=3.9.2``
-   :depends networkx: ``>=3.2``
-   :depends pandas: ``>=1.3.5``
-   :depends plotly: ``>=5.0.0,<6``
-   :depends python: ``>=3.10``
+   :depends pegas-lite: ``1.2.1.*``
+   :depends python: 
    :depends snakemake-minimal: ``>=7.32.4``
-   :depends tqdm: ``>=4.66.5``
    :requirements:
 
    :additional platforms:
@@ -104,7 +99,84 @@ pegas
 
     <script>
         var package = "pegas";
-        var versions = ["1.1.0","1.0.9","1.0.8","1.0.7","1.0.6"];
+        var versions = ["1.2.1","1.1.0","1.0.9","1.0.8","1.0.7"];
+    </script>
+
+
+.. conda:package:: pegas-lite
+
+   |downloads_pegas-lite| |docker_pegas-lite|
+
+   :versions:
+      
+      
+
+      ``1.2.1-0``
+
+      
+
+   
+   :depends beautifulsoup4: ``>=4.12.3``
+   :depends conda: ``>=24.7.1``
+   :depends jinja2: ``>=3.0``
+   :depends matplotlib-base: ``>=3.9.2``
+   :depends networkx: ``>=3.2``
+   :depends numpy: 
+   :depends pandas: ``>=1.3.5``
+   :depends plotly: ``>=5.0.0,<6``
+   :depends python: ``>=3.10``
+   :depends tqdm: ``>=4.66.5``
+   :requirements:
+
+   :additional platforms:
+      
+
+   .. rubric:: Installation
+
+  You need a conda-compatible package manager
+  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
+  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+
+  While any of above package managers is fine, it is currently recommended to use either
+  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
+  We will show all commands using mamba below, but the arguments are the same for the two
+  others.
+
+  Given that you already have a conda environment in which you want to have this package, install with::
+
+      mamba install pegas-lite
+
+   and update with::
+
+      mamba update pegas-lite
+
+  To create a new environment, run::
+
+      mamba create --name myenvname pegas-lite
+
+  with ``myenvname`` being a reasonable name for the environment
+  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+
+  Alternatively, use the docker container::
+
+      docker pull quay.io/biocontainers/pegas-lite:<tag>
+
+   (see `pegas-lite/tags`_ for valid values for ``<tag>``)
+
+
+.. |downloads_pegas-lite| image:: https://img.shields.io/conda/dn/bioconda/pegas-lite.svg?style=flat
+   :target: https://anaconda.org/bioconda/pegas-lite
+   :alt:   (downloads)
+.. |docker_pegas-lite| image:: https://quay.io/repository/biocontainers/pegas/status
+   :target: https://quay.io/repository/biocontainers/pegas
+.. _`pegas-lite/tags`: https://quay.io/repository/biocontainers/pegas-lite?tab=tags
+
+
+.. raw:: html
+
+    <script>
+        var package = "pegas";
+        var versions = ["1.2.1"];
     </script>
 
 

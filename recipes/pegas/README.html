@@ -67,7 +67,7 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">pegas</span></span></dt>
-<dd><p>PeGAS is a Snakemake pipeline for genome analysis</p>
+<dd><p>PeGAS is a Snakemake pipeline for genome analysis (with a lightweight CLI option)</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/liviurotiul/PeGAS">https://github.com/liviurotiul/PeGAS</a></p>
@@ -86,7 +86,8 @@
 </dd>
 </dl>
 <p>PeGAS is a Snakemake pipeline for genome analysis. It is designed to be
-lightweight, easy to install, and easy to use.</p>
+lightweight, easy to install, and easy to use. A separate lite entrypoint
+is provided for running the pipeline without Snakemake.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -96,34 +97,15 @@ lightweight, easy to install, and easy to use.</p>
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/pegas"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/pegas.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/pegas"><img alt="docker_pegas" src="https://quay.io/repository/biocontainers/pegas/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>1.1.0-0</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">1.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.9-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.8-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.7-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.13-0</span></code></p>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>1.2.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">1.2.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.9-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.8-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.7-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.13-0</span></code></p>
 </details></dd>
-<dt class="field-even">depends beautifulsoup4<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.12.3</span></code></p>
+<dt class="field-even">depends pegas-lite<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">1.2.1.*</span></code></p>
 </dd>
-<dt class="field-odd">depends conda<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=24.7.1</span></code></p>
-</dd>
-<dt class="field-even">depends matplotlib-base<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.9.2</span></code></p>
-</dd>
-<dt class="field-odd">depends networkx<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.2</span></code></p>
-</dd>
-<dt class="field-even">depends pandas<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.3.5</span></code></p>
-</dd>
-<dt class="field-odd">depends plotly<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=5.0.0,&lt;6</span></code></p>
-</dd>
-<dt class="field-even">depends python<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.10</span></code></p>
-</dd>
-<dt class="field-odd">depends snakemake-minimal<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=7.32.4</span></code></p>
-</dd>
-<dt class="field-even">depends tqdm<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.66.5</span></code></p>
+<dt class="field-odd">depends python<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends snakemake-minimal<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=7.32.4</span></code></p>
 </dd>
 <dt class="field-odd">requirements<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
@@ -163,7 +145,84 @@ others.</p>
 
 <script>
     var package = "pegas";
-    var versions = ["1.1.0","1.0.9","1.0.8","1.0.7","1.0.6"];
+    var versions = ["1.2.1","1.1.0","1.0.9","1.0.8","1.0.7"];
+</script><dl class="conda package">
+<dt class="sig sig-object conda" id="package-pegas-lite">
+<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">pegas-lite</span></span><a class="headerlink" href="#package-pegas-lite" title="Link to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p><a class="reference external" href="https://anaconda.org/bioconda/pegas-lite"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/pegas-lite.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/pegas"><img alt="docker_pegas-lite" src="https://quay.io/repository/biocontainers/pegas/status" /></a></p>
+<dl class="field-list simple">
+<dt class="field-odd">versions<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.2.1-0</span></code></p>
+</dd>
+<dt class="field-even">depends beautifulsoup4<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.12.3</span></code></p>
+</dd>
+<dt class="field-odd">depends conda<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=24.7.1</span></code></p>
+</dd>
+<dt class="field-even">depends jinja2<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.0</span></code></p>
+</dd>
+<dt class="field-odd">depends matplotlib-base<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.9.2</span></code></p>
+</dd>
+<dt class="field-even">depends networkx<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.2</span></code></p>
+</dd>
+<dt class="field-odd">depends numpy<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends pandas<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.3.5</span></code></p>
+</dd>
+<dt class="field-odd">depends plotly<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=5.0.0,&lt;6</span></code></p>
+</dd>
+<dt class="field-even">depends python<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.10</span></code></p>
+</dd>
+<dt class="field-odd">depends tqdm<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=4.66.5</span></code></p>
+</dd>
+<dt class="field-even">requirements<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+</dl>
+<p class="rubric">Installation</p>
+</div></blockquote>
+<p>You need a conda-compatible package manager
+(currently either <a class="reference external" href="https://mamba.readthedocs.io">micromamba</a>, <a class="reference external" href="https://mamba.readthedocs.io">mamba</a>, or <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>)
+and the Bioconda channel already activated (see <span class="xref std std-ref">set-up-channels</span>).</p>
+<p>While any of above package managers is fine, it is currently recommended to use either
+micromamba or mamba (see <a class="reference external" href="https://mamba.readthedocs.io">here</a> for installation instructions).
+We will show all commands using mamba below, but the arguments are the same for the two
+others.</p>
+<p>Given that you already have a conda environment in which you want to have this package, install with:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   <span class="n">mamba</span> <span class="n">install</span> <span class="n">pegas</span><span class="o">-</span><span class="n">lite</span>
+
+<span class="ow">and</span> <span class="n">update</span> <span class="k">with</span><span class="p">::</span>
+
+   <span class="n">mamba</span> <span class="n">update</span> <span class="n">pegas</span><span class="o">-</span><span class="n">lite</span>
+</pre></div>
+</div>
+<p>To create a new environment, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">create</span> <span class="o">--</span><span class="n">name</span> <span class="n">myenvname</span> <span class="n">pegas</span><span class="o">-</span><span class="n">lite</span>
+</pre></div>
+</div>
+<p>with <code class="docutils literal notranslate"><span class="pre">myenvname</span></code> being a reasonable name for the environment
+(see e.g. the <a class="reference external" href="https://mamba.readthedocs.io">mamba docs</a> for details and further options).</p>
+<p>Alternatively, use the docker container:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   docker pull quay.io/biocontainers/pegas-lite:&lt;tag&gt;
+
+(see `pegas-lite/tags`_ for valid values for ``&lt;tag&gt;``)
+</pre></div>
+</div>
+</dd></dl>
+
+<script>
+    var package = "pegas";
+    var versions = ["1.2.1"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

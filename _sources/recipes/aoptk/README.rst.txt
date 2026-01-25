@@ -27,7 +27,7 @@ aoptk
       
       
 
-      ``0.1.4-0``
+      ``0.1.5-0``,  ``0.1.4-0``
 
       
 
@@ -97,7 +97,7 @@ aoptk
 
     <script>
         var package = "aoptk";
-        var versions = ["0.1.4"];
+        var versions = ["0.1.5","0.1.4"];
     </script>
 
 

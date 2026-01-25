@@ -27,7 +27,7 @@ bammap2
       
       
 
-      ``0.1.1-0``
+      ``0.1.4-0``,  ``0.1.1-0``
 
       
 
@@ -87,7 +87,7 @@ bammap2
 
     <script>
         var package = "bammap2";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.4","0.1.1"];
     </script>
 
 

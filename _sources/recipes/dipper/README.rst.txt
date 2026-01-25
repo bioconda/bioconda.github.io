@@ -29,7 +29,7 @@ dipper
       
       
 
-      ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.1.3-0``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -39,7 +39,6 @@ dipper
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends tbb: ``>=2021.13.0``
-   :depends tbb-devel: 
    :requirements:
 
    :additional platforms:
@@ -94,7 +93,7 @@ dipper
 
     <script>
         var package = "dipper";
-        var versions = ["0.1.2","0.1.2","0.1.1"];
+        var versions = ["0.1.3","0.1.2","0.1.2","0.1.1"];
     </script>
 
 

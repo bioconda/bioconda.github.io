@@ -16,14 +16,15 @@ esme_
    :license: BSD / BSD-3-Clause
    :recipe: /`esme <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/esme>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/esme/meta.yaml>`_
 
-   ESME \(Earth System Modelling Environment\) is a package designed to facilitate the installation and management of various scientific computing libraries with support for multiple MPI implementations \(namely MPIch\, OpenMPI\, MVApich and ParaStationMPI\). This bundle currently includes\:
+   ESME \(Earth System Modelling Environment\) is a package designed to facilitate the installation and management of various scientific computing libraries with support for multiple MPI implementations \(namely MPIch\, OpenMPI\, MVApich and ParaStationMPI\). 
+   This bundle currently includes\:
    \- PnetCDF\: Version 1.14.1
-   \- HDF5\: Version 1.14.6
+   \- HDF5\: Version 2.0.0
    \- netCDF\_C\: Version 4.9.3
    \- netCDF\_Fortran\: Version 4.6.2
    \- ParallelIO\: Version 2.6.6 
    \- ESMF\: Version 8.9.0
-   \- OSU\_Micro\_Benchmarks\: Version 7.5.1
+   \- OSU\_Micro\_Benchmarks\: Version 8.0b2
    \- VFD\_GDS\: Version 1.0.2 \(only for the MVAPIch version with CUDA\)
 
 
@@ -44,6 +45,10 @@ esme_
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -112,6 +117,10 @@ esme_
 
    :additional platforms:
       
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
+      
 
    .. rubric:: Installation
 
@@ -178,6 +187,10 @@ esme_
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -246,6 +259,10 @@ esme_
 
    :additional platforms:
       
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
+      
 
    .. rubric:: Installation
 
@@ -312,6 +329,10 @@ esme_
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -380,6 +401,10 @@ esme_
 
    :additional platforms:
       
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
+      
 
    .. rubric:: Installation
 
@@ -447,6 +472,10 @@ esme_
 
    :additional platforms:
       
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
+      
 
    .. rubric:: Installation
 
@@ -513,6 +542,10 @@ esme_
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation

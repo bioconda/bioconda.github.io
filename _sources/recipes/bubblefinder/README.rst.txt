@@ -27,13 +27,11 @@ bubblefinder
       
       
 
-      ``1.0.1-0``
+      ``1.0.3-0``,  ``1.0.1-0``
 
       
 
    
-   :depends coin-or-cbc: ``>=2.10.12,<2.11.0a0``
-   :depends coincbc: 
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :requirements:
@@ -86,7 +84,7 @@ bubblefinder
 
     <script>
         var package = "bubblefinder";
-        var versions = ["1.0.1"];
+        var versions = ["1.0.3","1.0.1"];
     </script>
 
 

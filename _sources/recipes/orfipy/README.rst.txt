@@ -26,9 +26,17 @@ orfipy
    :versions:
       
       
+      .. raw:: html
 
-      ``0.0.4-4``,  ``0.0.4-3``,  ``0.0.4-2``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.0.4-5</code>,  <code>0.0.4-4</code>,  <code>0.0.4-3</code>,  <code>0.0.4-2</code>,  <code>0.0.4-1</code>,  <code>0.0.4-0</code>,  <code>0.0.3-1</code>,  <code>0.0.3-0</code>,  <code>0.0.2-0</code>,  </span></summary>
+      
 
+      ``0.0.4-5``,  ``0.0.4-4``,  ``0.0.4-3``,  ``0.0.4-2``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -37,12 +45,16 @@ orfipy
    :depends libstdcxx: ``>=13``
    :depends psutil: 
    :depends pyahocorasick: 
-   :depends pyfastx: ``>=2.1.0,<3.0a0``
+   :depends pyfastx: ``>=2.3.0,<3.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation

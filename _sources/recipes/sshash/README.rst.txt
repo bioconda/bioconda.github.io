@@ -27,7 +27,7 @@ sshash
       
       
 
-      ``4.0.0-0``,  ``4.0.0_test_bioconda-0``
+      ``5.0.0-0``,  ``4.0.0-0``,  ``4.0.0_test_bioconda-0``
 
       
 
@@ -91,7 +91,7 @@ sshash
 
     <script>
         var package = "sshash";
-        var versions = ["4.0.0","4.0.0_test_bioconda"];
+        var versions = ["5.0.0","4.0.0","4.0.0_test_bioconda"];
     </script>
 
 

@@ -12,7 +12,7 @@ bioconductor-bambu
 
    Context\-Aware Transcript Quantification from Long Read RNA\-Seq data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/bambu.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/bambu.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-bambu <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bambu>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bambu/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-bambu
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.8.3-0</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.2.4-0</code>,  <code>3.0.8-1</code>,  <code>3.0.8-0</code>,  <code>3.0.6-0</code>,  <code>3.0.5-0</code>,  <code>3.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.12.1-0</code>,  <code>3.8.3-0</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.2.4-0</code>,  <code>3.0.8-1</code>,  <code>3.0.8-0</code>,  <code>3.0.6-0</code>,  <code>3.0.5-0</code>,  </span></summary>
       
 
-      ``3.8.3-0``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.2.4-0``,  ``3.0.8-1``,  ``3.0.8-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.1-0``,  ``2.0.6-1``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.3-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-2``
+      ``3.12.1-0``,  ``3.8.3-0``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.2.4-0``,  ``3.0.8-1``,  ``3.0.8-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.1-0``,  ``2.0.6-1``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.3-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-2``
 
       
       .. raw:: html
@@ -127,7 +127,7 @@ bioconductor-bambu
 
     <script>
         var package = "bioconductor-bambu";
-        var versions = ["3.8.3","3.4.0","3.4.0","3.2.4","3.0.8"];
+        var versions = ["3.12.1","3.8.3","3.4.0","3.4.0","3.2.4"];
     </script>
 
 
