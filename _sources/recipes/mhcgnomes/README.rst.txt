@@ -27,7 +27,7 @@ mhcgnomes
       
       
 
-      ``1.8.6-0``,  ``1.8.4-0``
+      ``2.0-0``,  ``1.8.6-0``,  ``1.8.4-0``
 
       
 
@@ -87,7 +87,7 @@ mhcgnomes
 
     <script>
         var package = "mhcgnomes";
-        var versions = ["1.8.6","1.8.4"];
+        var versions = ["2.0","1.8.6","1.8.4"];
     </script>
 
 

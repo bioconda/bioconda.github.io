@@ -27,7 +27,7 @@ snakemake-storage-plugin-cached-http
       
       
 
-      ``0.1.0-0``
+      ``0.2.1-0``,  ``0.1.0-0``
 
       
 
@@ -41,6 +41,7 @@ snakemake-storage-plugin-cached-http
    :depends snakemake-storage-plugin-http: ``>=0.3,<1.dev0``
    :depends tqdm-loggable: ``>=0.2,<1.dev0``
    :depends typing_extensions: ``>=4.15,<5.dev0``
+   :depends zstandard: ``>=0.25.0,<0.26.0``
    :requirements:
 
    :additional platforms:
@@ -91,7 +92,7 @@ snakemake-storage-plugin-cached-http
 
     <script>
         var package = "snakemake-storage-plugin-cached-http";
-        var versions = ["0.1.0"];
+        var versions = ["0.2.1","0.1.0"];
     </script>
 
 

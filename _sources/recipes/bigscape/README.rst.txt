@@ -30,7 +30,7 @@ bigscape
       
       
 
-      ``2.0.0-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-0``
+      ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-0``
 
       
 
@@ -39,6 +39,7 @@ bigscape
    :depends click: 
    :depends fasttree: 
    :depends importlib-metadata: 
+   :depends importlib_resources: 
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
@@ -102,7 +103,7 @@ bigscape
 
     <script>
         var package = "bigscape";
-        var versions = ["2.0.0","1.1.9","1.1.8","1.1.6","1.1.5"];
+        var versions = ["2.0.1","2.0.0","1.1.9","1.1.8","1.1.6"];
     </script>
 
 

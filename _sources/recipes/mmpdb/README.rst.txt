@@ -30,7 +30,7 @@ mmpdb
       
       
 
-      ``3.1.3-0``
+      ``3.1.4-0``,  ``3.1.3-0``
 
       
 
@@ -92,7 +92,7 @@ mmpdb
 
     <script>
         var package = "mmpdb";
-        var versions = ["3.1.3"];
+        var versions = ["3.1.4","3.1.3"];
     </script>
 
 

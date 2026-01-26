@@ -29,7 +29,7 @@ chamois
       
       
 
-      ``0.2.0-0``,  ``0.1.3-0``
+      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.3-0``
 
       
 
@@ -43,7 +43,7 @@ chamois
    :depends numpy: ``>=1.16,<3.0``
    :depends pandas: ``>=1.3,<3.0``
    :depends platformdirs: ``>=3.0,<5.0``
-   :depends pyhmmer: ``>=0.11.0,<0.12.0``
+   :depends pyhmmer: ``>=0.12.0,<0.13.0``
    :depends pyrodigal: ``>=3.0,<4.0``
    :depends python: ``>=3.7``
    :depends rdkit: ``>=2023.3``
@@ -101,7 +101,7 @@ chamois
 
     <script>
         var package = "chamois";
-        var versions = ["0.2.0","0.1.3"];
+        var versions = ["0.2.1","0.2.0","0.1.3"];
     </script>
 
 
