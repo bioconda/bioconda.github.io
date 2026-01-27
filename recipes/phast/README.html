@@ -67,18 +67,20 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">phast</span></span></dt>
-<dd><p>PHAST is a freely available software package for comparative and evolutionary genomics.</p>
+<dd><p>PHAST: Phylogenetic Analysis with Space/Time models</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="http://compgen.cshl.edu/phast/">http://compgen.cshl.edu/phast/</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/CshlSiepelLab/phast">https://github.com/CshlSiepelLab/phast</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>BSD</p>
+<dd class="field-even"><p>BSD-3-Clause</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phast">phast</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phast/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
+<p>PHAST is a C-based toolkit for phylogenetic analysis, comparative genomics,
+and evolutionary modeling.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -88,10 +90,15 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/phast"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/phast.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/phast"><img alt="docker_phast" src="https://quay.io/repository/biocontainers/phast/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.5-7</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.5-6</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.5-5</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.5-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.5-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.5-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.5-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.5-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.9.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.5-7</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.5-6</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.5-5</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.5-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.5-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.5-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.5-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.5-0</span></code></p>
 </dd>
 <dt class="field-even">depends libgcc<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p>
+</dd>
+<dt class="field-odd">depends libopenblas<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends pcre<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=8.45,&lt;9.0a0</span></code></p>
 </dd>
 <dt class="field-odd">requirements<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
@@ -131,7 +138,7 @@ others.</p>
 
 <script>
     var package = "phast";
-    var versions = ["1.5","1.5","1.5","1.5","1.5"];
+    var versions = ["1.9.6","1.5","1.5","1.5","1.5"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

@@ -10,13 +10,15 @@ phast
    :replaces_section_title:
    :noindex:
 
-   PHAST is a freely available software package for comparative and evolutionary genomics.
+   PHAST\: Phylogenetic Analysis with Space\/Time models
 
-   :homepage: http://compgen.cshl.edu/phast/
-   :license: BSD
+   :homepage: https://github.com/CshlSiepelLab/phast
+   :license: BSD-3-Clause
    :recipe: /`phast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phast/meta.yaml>`_
 
-   
+   PHAST is a C\-based toolkit for phylogenetic analysis\, comparative genomics\,
+   and evolutionary modeling.
+
 
 
 .. conda:package:: phast
@@ -27,12 +29,14 @@ phast
       
       
 
-      ``1.5-7``,  ``1.5-6``,  ``1.5-5``,  ``1.5-4``,  ``1.5-3``,  ``1.5-2``,  ``1.5-1``,  ``1.5-0``
+      ``1.9.6-0``,  ``1.5-7``,  ``1.5-6``,  ``1.5-5``,  ``1.5-4``,  ``1.5-3``,  ``1.5-2``,  ``1.5-1``,  ``1.5-0``
 
       
 
    
    :depends libgcc: ``>=13``
+   :depends libopenblas: 
+   :depends pcre: ``>=8.45,<9.0a0``
    :requirements:
 
    :additional platforms:
@@ -83,7 +87,7 @@ phast
 
     <script>
         var package = "phast";
-        var versions = ["1.5","1.5","1.5","1.5","1.5"];
+        var versions = ["1.9.6","1.5","1.5","1.5","1.5"];
     </script>
 
 

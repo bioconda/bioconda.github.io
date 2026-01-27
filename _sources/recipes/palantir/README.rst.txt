@@ -29,17 +29,19 @@ palantir
       
       
 
-      ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.6-0``,  ``1.3.4-0``,  ``1.3.3-0``
+      ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.6-0``,  ``1.3.4-0``,  ``1.3.3-0``
 
       
 
    
    :depends anndata: ``>=0.8.0``
    :depends fcsparser: ``>=0.1.2``
+   :depends igraph: ``>=0.11.8``
    :depends joblib: 
    :depends leidenalg: ``>=0.9.1``
-   :depends matplotlib-base: ``>=2.2.2``
-   :depends mellon: ``>=1.3.0``
+   :depends matplotlib-base: ``>=3.8.0``
+   :depends mellon: ``>=1.6.1``
+   :depends ml_dtypes: ``>=0.5.0``
    :depends networkx: ``>=2.1``
    :depends numpy: ``>=1.14.2``
    :depends pandas: ``>=0.22.0``
@@ -98,7 +100,7 @@ palantir
 
     <script>
         var package = "palantir";
-        var versions = ["1.4.2","1.4.1","1.4.0","1.3.6","1.3.4"];
+        var versions = ["1.4.3","1.4.2","1.4.1","1.4.0","1.3.6"];
     </script>
 
 

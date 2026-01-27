@@ -28,7 +28,7 @@ seqsero2s
       
       
 
-      ``1.1.4-0``,  ``1.1.3-0``
+      ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-0``
 
       
 
@@ -36,6 +36,7 @@ seqsero2s
    :depends bedtools: ``>=2.17``
    :depends blast: ``>=2.2``
    :depends bwa: ``>=0.7``
+   :depends mlst: ``>=2.32.2``
    :depends python: ``>=3``
    :depends salmid: 
    :depends samtools: 
@@ -93,7 +94,7 @@ seqsero2s
 
     <script>
         var package = "seqsero2s";
-        var versions = ["1.1.4","1.1.3"];
+        var versions = ["1.1.4","1.1.4","1.1.3"];
     </script>
 
 
