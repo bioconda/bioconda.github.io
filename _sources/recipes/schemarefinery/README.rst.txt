@@ -15,7 +15,7 @@ schemarefinery
    :homepage: https://github.com/B-UMMI/Schema_Refinery
    :documentation: https://schema-refinery.readthedocs.io/en/latest/index.html
    
-   :license: GPL3 / GNU General Public v3 (GPLv3)
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`schemarefinery <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/schemarefinery>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/schemarefinery/meta.yaml>`_
 
    The SchemaRefinery is a comprehensive toolkit designed for refining and managing genomic schemas. It provides a suite of modules for various tasks such as identifying paralogous loci\, downloading genomic assemblies\, and adapting loci into standardized schemas.
@@ -29,7 +29,7 @@ schemarefinery
       
       
 
-      ``0.4.0-0``,  ``0.3.3.1-0``
+      ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.3.1-0``
 
       
 
@@ -97,7 +97,7 @@ schemarefinery
 
     <script>
         var package = "schemarefinery";
-        var versions = ["0.4.0","0.3.3.1"];
+        var versions = ["0.5.0","0.4.0","0.3.3.1"];
     </script>
 
 

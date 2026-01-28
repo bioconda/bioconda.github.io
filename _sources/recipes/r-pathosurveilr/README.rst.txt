@@ -27,12 +27,11 @@ r-pathosurveilr
       
       
 
-      ``0.4.4-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``
+      ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``
 
       
 
    
-   :depends bioconductor-ggtree: 
    :depends r-adegenet: 
    :depends r-ape: 
    :depends r-base: ``>=4.4,<4.5.0a0``
@@ -109,7 +108,7 @@ r-pathosurveilr
 
     <script>
         var package = "r-pathosurveilr";
-        var versions = ["0.4.4","0.4.2","0.4.1","0.4.0","0.3.1"];
+        var versions = ["0.4.5","0.4.4","0.4.2","0.4.1","0.4.0"];
     </script>
 
 

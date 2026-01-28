@@ -1,41 +1,37 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'synth-pdb'
+.. title:: Package Recipe 'crisprhawk'
 .. highlight: bash
 
-synth-pdb
-=========
+crisprhawk
+==========
 
-.. conda:recipe:: synth-pdb
+.. conda:recipe:: crisprhawk
    :replaces_section_title:
    :noindex:
 
-   Realistic Protein Structure Generator
+   CRISPR\-HAWK\: Haplotype and vAriant\-aWare guide design toolKit
 
-   :homepage: https://github.com/elkins/synth-pdb
-   :license: MIT / MIT
-   :recipe: /`synth-pdb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/synth-pdb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/synth-pdb/meta.yaml>`_
+   :homepage: https://github.com/pinellolab/CRISPR-HAWK
+   :license: AGPL-3.0-or-later AND BSD-3-Clause
+   :recipe: /`crisprhawk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crisprhawk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crisprhawk/meta.yaml>`_
 
    
 
 
-.. conda:package:: synth-pdb
+.. conda:package:: crisprhawk
 
-   |downloads_synth-pdb| |docker_synth-pdb|
+   |downloads_crisprhawk| |docker_crisprhawk|
 
    :versions:
       
       
 
-      ``1.9.0-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.6.3-0``
+      
 
       
 
    
-   :depends biotite: ``>=0.35.0``
-   :depends numpy: ``>=1.20``
-   :depends openmm: 
-   :depends python: ``>=3.8``
    :requirements:
 
    :additional platforms:
@@ -54,39 +50,39 @@ synth-pdb
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install synth-pdb
+      mamba install crisprhawk
 
    and update with::
 
-      mamba update synth-pdb
+      mamba update crisprhawk
 
   To create a new environment, run::
 
-      mamba create --name myenvname synth-pdb
+      mamba create --name myenvname crisprhawk
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/synth-pdb:<tag>
+      docker pull quay.io/biocontainers/crisprhawk:<tag>
 
-   (see `synth-pdb/tags`_ for valid values for ``<tag>``)
+   (see `crisprhawk/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_synth-pdb| image:: https://img.shields.io/conda/dn/bioconda/synth-pdb.svg?style=flat
-   :target: https://anaconda.org/bioconda/synth-pdb
+.. |downloads_crisprhawk| image:: https://img.shields.io/conda/dn/bioconda/crisprhawk.svg?style=flat
+   :target: https://anaconda.org/bioconda/crisprhawk
    :alt:   (downloads)
-.. |docker_synth-pdb| image:: https://quay.io/repository/biocontainers/synth-pdb/status
-   :target: https://quay.io/repository/biocontainers/synth-pdb
-.. _`synth-pdb/tags`: https://quay.io/repository/biocontainers/synth-pdb?tab=tags
+.. |docker_crisprhawk| image:: https://quay.io/repository/biocontainers/crisprhawk/status
+   :target: https://quay.io/repository/biocontainers/crisprhawk
+.. _`crisprhawk/tags`: https://quay.io/repository/biocontainers/crisprhawk?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "synth-pdb";
-        var versions = ["1.9.0","1.8.3","1.8.2","1.6.3"];
+        var package = "crisprhawk";
+        var versions = [];
     </script>
 
 
@@ -105,7 +101,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/synth-pdb/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/crisprhawk/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/synth-pdb/README.html
+   :target: http://bioconda.github.io/recipes/crisprhawk/README.html

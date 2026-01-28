@@ -1,41 +1,42 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'synth-pdb'
+.. title:: Package Recipe 'psortem'
 .. highlight: bash
 
-synth-pdb
-=========
+psortem
+=======
 
-.. conda:recipe:: synth-pdb
+.. conda:recipe:: psortem
    :replaces_section_title:
    :noindex:
 
-   Realistic Protein Structure Generator
+   Parallel external merge sort
 
-   :homepage: https://github.com/elkins/synth-pdb
-   :license: MIT / MIT
-   :recipe: /`synth-pdb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/synth-pdb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/synth-pdb/meta.yaml>`_
+   :homepage: https://github.com/tseemann/psortem
+   :license: GPL / GPL-3.0
+   :recipe: /`psortem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/psortem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/psortem/meta.yaml>`_
+   :links: biotools: :biotools:`psortem`
 
    
 
 
-.. conda:package:: synth-pdb
+.. conda:package:: psortem
 
-   |downloads_synth-pdb| |docker_synth-pdb|
+   |downloads_psortem| |docker_psortem|
 
    :versions:
       
       
 
-      ``1.9.0-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.6.3-0``
+      ``0.4.2-0``
 
       
 
    
-   :depends biotite: ``>=0.35.0``
-   :depends numpy: ``>=1.20``
-   :depends openmm: 
-   :depends python: ``>=3.8``
+   :depends coreutils: ``>=9.5``
+   :depends make: 
+   :depends perl: ``>=5.32.0``
+   :depends vmtouch: 
    :requirements:
 
    :additional platforms:
@@ -54,39 +55,39 @@ synth-pdb
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install synth-pdb
+      mamba install psortem
 
    and update with::
 
-      mamba update synth-pdb
+      mamba update psortem
 
   To create a new environment, run::
 
-      mamba create --name myenvname synth-pdb
+      mamba create --name myenvname psortem
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/synth-pdb:<tag>
+      docker pull quay.io/biocontainers/psortem:<tag>
 
-   (see `synth-pdb/tags`_ for valid values for ``<tag>``)
+   (see `psortem/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_synth-pdb| image:: https://img.shields.io/conda/dn/bioconda/synth-pdb.svg?style=flat
-   :target: https://anaconda.org/bioconda/synth-pdb
+.. |downloads_psortem| image:: https://img.shields.io/conda/dn/bioconda/psortem.svg?style=flat
+   :target: https://anaconda.org/bioconda/psortem
    :alt:   (downloads)
-.. |docker_synth-pdb| image:: https://quay.io/repository/biocontainers/synth-pdb/status
-   :target: https://quay.io/repository/biocontainers/synth-pdb
-.. _`synth-pdb/tags`: https://quay.io/repository/biocontainers/synth-pdb?tab=tags
+.. |docker_psortem| image:: https://quay.io/repository/biocontainers/psortem/status
+   :target: https://quay.io/repository/biocontainers/psortem
+.. _`psortem/tags`: https://quay.io/repository/biocontainers/psortem?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "synth-pdb";
-        var versions = ["1.9.0","1.8.3","1.8.2","1.6.3"];
+        var package = "psortem";
+        var versions = ["0.4.2"];
     </script>
 
 
@@ -105,7 +106,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/synth-pdb/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/psortem/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/synth-pdb/README.html
+   :target: http://bioconda.github.io/recipes/psortem/README.html

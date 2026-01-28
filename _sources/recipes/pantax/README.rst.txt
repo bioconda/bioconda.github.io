@@ -27,28 +27,28 @@ pantax
       
       
 
-      ``2.0.1-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.2-0``
+      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.2-0``
 
       
 
    
-   :depends bcftools: ``1.19.*``
+   :depends bcftools: ``>=1.19``
    :depends glpk: ``>=5.0,<6.0a0``
-   :depends graphaligner: ``1.0.17.*``
+   :depends graphaligner: ``>=1.0.17``
    :depends hdf5: ``1.10.5.*``
-   :depends htslib: ``1.19.1.*``
+   :depends htslib: ``>=1.19.1``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
-   :depends networkx: ``3.2.1.*``
-   :depends numpy: ``1.26.3.*``
-   :depends pandas: ``2.2.0.*``
+   :depends networkx: ``>=3.2.1``
+   :depends numpy: ``>=1.26.3``
+   :depends pandas: ``>=2.2.0``
    :depends pggb: ``0.6.0.*``
-   :depends pyarrow: ``14.0.2.*``
+   :depends pyarrow: ``>=14.0.2``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends r-base: ``>=4.2``
-   :depends samtools: ``1.19.2.*``
-   :depends sylph: ``0.6.1.*``
+   :depends samtools: ``>=1.19.2``
+   :depends sylph: ``>=0.6.1``
    :depends tqdm: 
    :depends vg: ``>=1.59``
    :requirements:
@@ -101,7 +101,7 @@ pantax
 
     <script>
         var package = "pantax";
-        var versions = ["2.0.1","2.0.0","1.2.0","1.0.2"];
+        var versions = ["2.0.1","2.0.1","2.0.0","1.2.0","1.0.2"];
     </script>
 
 
