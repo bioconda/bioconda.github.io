@@ -30,7 +30,7 @@ pygrgl
       
       
 
-      ``2.4-0``
+      ``2.5-0``,  ``2.4-0``
 
       
 
@@ -91,7 +91,7 @@ pygrgl
 
     <script>
         var package = "pygrgl";
-        var versions = ["2.4"];
+        var versions = ["2.5","2.4"];
     </script>
 
 
