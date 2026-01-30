@@ -13,7 +13,7 @@ bakta
    Rapid \& standardized annotation of bacterial genomes\, MAGs \& plasmids.
 
    :homepage: https://github.com/oschwengers/bakta
-   :documentation: https://github.com/oschwengers/bakta/blob/v1.11.4/README.md
+   :documentation: https://github.com/oschwengers/bakta/blob/v1.12.0/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`bakta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bakta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bakta/meta.yaml>`_
@@ -31,10 +31,10 @@ bakta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.11.4-0</code>,  <code>1.11.3-0</code>,  <code>1.11.2-0</code>,  <code>1.11.1-0</code>,  <code>1.11.0-0</code>,  <code>1.10.4-1</code>,  <code>1.10.4-0</code>,  <code>1.10.3-0</code>,  <code>1.10.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.12.0-0</code>,  <code>1.11.4-0</code>,  <code>1.11.3-0</code>,  <code>1.11.2-0</code>,  <code>1.11.1-0</code>,  <code>1.11.0-0</code>,  <code>1.10.4-1</code>,  <code>1.10.4-0</code>,  <code>1.10.3-0</code>,  </span></summary>
       
 
-      ``1.11.4-0``,  ``1.11.3-0``,  ``1.11.2-0``,  ``1.11.1-0``,  ``1.11.0-0``,  ``1.10.4-1``,  ``1.10.4-0``,  ``1.10.3-0``,  ``1.10.2-0``,  ``1.10.1-0``,  ``1.10.0-0``,  ``1.9.4-0``,  ``1.9.3-0``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.3-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3-0``
+      ``1.12.0-0``,  ``1.11.4-0``,  ``1.11.3-0``,  ``1.11.2-0``,  ``1.11.1-0``,  ``1.11.0-0``,  ``1.10.4-1``,  ``1.10.4-0``,  ``1.10.3-0``,  ``1.10.2-0``,  ``1.10.1-0``,  ``1.10.0-0``,  ``1.9.4-0``,  ``1.9.3-0``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.3-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0-0``,  ``0.5-0``,  ``0.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3-0``
 
       
       .. raw:: html
@@ -46,18 +46,18 @@ bakta
    :depends alive-progress: ``3.0.1``
    :depends aragorn: ``>=1.2.41``
    :depends biopython: ``>=1.78``
-   :depends blast: ``>=2.14.0``
-   :depends diamond: ``>=2.1.10``
-   :depends infernal: ``>=1.1.4``
-   :depends ncbi-amrfinderplus: ``>=4.0.3``
+   :depends blast: ``>=2.17.0``
+   :depends diamond: ``>=2.1.21``
+   :depends infernal: ``>=1.1.5``
+   :depends ncbi-amrfinderplus: ``>=4.2.7``
    :depends piler-cr: 
    :depends pycirclize: ``>=1.7.0``
-   :depends pyhmmer: ``>=0.10.15``
-   :depends pyrodigal: ``>=3.5.0``
-   :depends python: ``>=3.9,<3.12``
+   :depends pyhmmer: ``>=0.12.0``
+   :depends pyrodigal: ``>=3.7.0``
+   :depends python: ``>=3.9,<3.14``
    :depends pyyaml: ``>=6.0``
    :depends requests: ``>=2.25.1``
-   :depends trnascan-se: ``>=2.0.11``
+   :depends trnascan-se: ``>=2.0.12``
    :depends xopen: ``>=1.5.0``
    :requirements:
 
@@ -109,7 +109,7 @@ bakta
 
     <script>
         var package = "bakta";
-        var versions = ["1.11.4","1.11.3","1.11.2","1.11.1","1.11.0"];
+        var versions = ["1.12.0","1.11.4","1.11.3","1.11.2","1.11.1"];
     </script>
 
 

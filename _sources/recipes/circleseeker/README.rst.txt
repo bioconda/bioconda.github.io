@@ -10,7 +10,7 @@ circleseeker
    :replaces_section_title:
    :noindex:
 
-   Comprehensive eccDNA detection from PacBio HiFi sequencing data with dual\-engine support
+   Comprehensive eccDNA detection from PacBio HiFi sequencing data
 
    :homepage: https://github.com/leoxqy/CircleSeeker
    :documentation: https://github.com/leoxqy/CircleSeeker#readme
@@ -23,8 +23,9 @@ circleseeker
    circular DNA \(eccDNA\) from PacBio HiFi long\-read sequencing data.
 
    Key features\:
-   \- Dual\-engine support\: Cresil \(preferred\) and Cyrcular \(fallback\) with intelligent auto\-selection
-   \- Hybrid detection strategy combining tandem repeat detection with Split\-Read assembly
+   \- CtcReads\-Core\: TideHunter\-based confirmed eccDNA detection
+   \- SplitReads\-Core\: Built\-in split\-read inference \(HiFi optimized\)
+   \- Hybrid detection strategy combining tandem repeat detection with split\-read assembly
    \- Comprehensive eccDNA classification \(UeccDNA\, MeccDNA\, CeccDNA\, XeccDNA\)
    \- Automated pipeline with checkpoint and resumption capabilities
    \- Detailed HTML reports and comprehensive output formats
@@ -40,29 +41,28 @@ circleseeker
       
       
 
-      ``1.0.0-0``
+      ``1.1.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bcftools: 
    :depends biopython: ``>=1.81``
    :depends cd-hit: 
    :depends click: ``>=8.1``
-   :depends cyrcular: 
    :depends intervaltree: ``>=3.1``
    :depends last: 
+   :depends mappy: ``>=2.26``
    :depends minimap2: 
    :depends networkx: ``>=3.0``
    :depends numpy: ``>=1.23``
    :depends packaging: ``>=23``
    :depends pandas: ``>=2.0``
+   :depends pybedtools: ``>=0.9.0``
    :depends pysam: ``>=0.22``
    :depends python: ``>=3.9``
    :depends pyyaml: ``>=6.0``
    :depends samtools: 
    :depends tidehunter: 
-   :depends varlociraptor: 
    :requirements:
 
    :additional platforms:
@@ -113,7 +113,7 @@ circleseeker
 
     <script>
         var package = "circleseeker";
-        var versions = ["1.0.0"];
+        var versions = ["1.1.1","1.0.0"];
     </script>
 
 

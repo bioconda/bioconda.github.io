@@ -27,12 +27,21 @@ pirate
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.5-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.5-1</code>,  <code>1.0.5-0</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.2-1</code>,  </span></summary>
+      
 
+      ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
+   :depends bioconductor-ggtree: 
    :depends blast: ``>=2.2.31``
    :depends cd-hit: ``>=4.7``
    :depends diamond: ``>=0.9.14``
@@ -43,6 +52,8 @@ pirate
    :depends perl-bioperl: ``>=1.7.2``
    :depends r-dplyr: 
    :depends r-ggplot2: 
+   :depends r-gridextra: 
+   :depends r-phangorn: 
    :depends unzip: 
    :requirements:
 
@@ -94,7 +105,7 @@ pirate
 
     <script>
         var package = "pirate";
-        var versions = ["1.0.5","1.0.4","1.0.4","1.0.4","1.0.3"];
+        var versions = ["1.0.5","1.0.5","1.0.4","1.0.4","1.0.4"];
     </script>
 
 

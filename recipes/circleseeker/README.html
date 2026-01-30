@@ -67,7 +67,7 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">circleseeker</span></span></dt>
-<dd><p>Comprehensive eccDNA detection from PacBio HiFi sequencing data with dual-engine support</p>
+<dd><p>Comprehensive eccDNA detection from PacBio HiFi sequencing data</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/leoxqy/CircleSeeker">https://github.com/leoxqy/CircleSeeker</a></p>
@@ -86,8 +86,9 @@
 identification, classification, and characterization of extrachromosomal
 circular DNA (eccDNA) from PacBio HiFi long-read sequencing data.</p>
 <p>Key features:
-- Dual-engine support: Cresil (preferred) and Cyrcular (fallback) with intelligent auto-selection
-- Hybrid detection strategy combining tandem repeat detection with Split-Read assembly
+- CtcReads-Core: TideHunter-based confirmed eccDNA detection
+- SplitReads-Core: Built-in split-read inference (HiFi optimized)
+- Hybrid detection strategy combining tandem repeat detection with split-read assembly
 - Comprehensive eccDNA classification (UeccDNA, MeccDNA, CeccDNA, XeccDNA)
 - Automated pipeline with checkpoint and resumption capabilities
 - Detailed HTML reports and comprehensive output formats
@@ -101,38 +102,40 @@ circular DNA (eccDNA) from PacBio HiFi long-read sequencing data.</p>
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/circleseeker"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/circleseeker.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/circleseeker"><img alt="docker_circleseeker" src="https://quay.io/repository/biocontainers/circleseeker/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.1.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
 </dd>
-<dt class="field-even">depends bcftools<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends biopython<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.81</span></code></p>
+<dt class="field-even">depends biopython<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.81</span></code></p>
 </dd>
-<dt class="field-even">depends cd-hit<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends click<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=8.1</span></code></p>
+<dt class="field-odd">depends cd-hit<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">depends click<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=8.1</span></code></p>
 </dd>
-<dt class="field-even">depends cyrcular<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
 <dt class="field-odd">depends intervaltree<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.1</span></code></p>
 </dd>
 <dt class="field-even">depends last<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends minimap2<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-<dt class="field-even">depends networkx<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.0</span></code></p>
+<dt class="field-odd">depends mappy<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.26</span></code></p>
 </dd>
-<dt class="field-odd">depends numpy<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.23</span></code></p>
+<dt class="field-even">depends minimap2<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+<dt class="field-odd">depends networkx<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.0</span></code></p>
 </dd>
-<dt class="field-even">depends packaging<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=23</span></code></p>
+<dt class="field-even">depends numpy<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.23</span></code></p>
 </dd>
-<dt class="field-odd">depends pandas<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.0</span></code></p>
+<dt class="field-odd">depends packaging<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=23</span></code></p>
+</dd>
+<dt class="field-even">depends pandas<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=2.0</span></code></p>
+</dd>
+<dt class="field-odd">depends pybedtools<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.9.0</span></code></p>
 </dd>
 <dt class="field-even">depends pysam<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=0.22</span></code></p>
@@ -147,12 +150,10 @@ circular DNA (eccDNA) from PacBio HiFi long-read sequencing data.</p>
 <dd class="field-odd"><p></p></dd>
 <dt class="field-even">depends tidehunter<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">depends varlociraptor<span class="colon">:</span></dt>
+<dt class="field-odd">requirements<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">requirements<span class="colon">:</span></dt>
+<dt class="field-even">additional platforms<span class="colon">:</span></dt>
 <dd class="field-even"><p></p></dd>
-<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -187,7 +188,7 @@ others.</p>
 
 <script>
     var package = "circleseeker";
-    var versions = ["1.0.0"];
+    var versions = ["1.1.1","1.0.0"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

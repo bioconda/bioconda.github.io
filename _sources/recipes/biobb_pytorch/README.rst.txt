@@ -27,8 +27,8 @@ biobb_pytorch
    \#\#\# Copyright \& Licensing
    This software has been developed in the \[MMB group\]\(http\:\/\/mmb.irbbarcelona.org\) at the \[BSC\]\(http\:\/\/www.bsc.es\/\) \& \[IRB\]\(https\:\/\/www.irbbarcelona.org\/\) for the \[European BioExcel\]\(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission \(EU H2020 \[823830\]\(http\:\/\/cordis.europa.eu\/projects\/823830\)\, EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
 
-   \* \(c\) 2015\-2024 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
-   \* \(c\) 2015\-2024 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
+   \* \(c\) 2015\-2026 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
+   \* \(c\) 2015\-2026 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
    Licensed under the
    \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file LICENSE for details.
 
@@ -46,13 +46,15 @@ biobb_pytorch
       
       
 
-      ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.1-0``,  ``4.2.0-0``,  ``4.1.3-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1.0-0``
+      ``5.2.0-0``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.1-0``,  ``4.2.0-0``,  ``4.1.3-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1.0-0``
 
       
 
    
-   :depends biobb_common: ``5.1.0``
-   :depends python: ``>=3.9``
+   :depends biobb_common: ``5.2.0``
+   :depends lightning: 
+   :depends mdtraj: 
+   :depends python: ``>=3.10``
    :depends pytorch: 
    :requirements:
 
@@ -104,7 +106,7 @@ biobb_pytorch
 
     <script>
         var package = "biobb_pytorch";
-        var versions = ["5.1.0","5.0.0","4.2.1","4.2.0","4.1.3"];
+        var versions = ["5.2.0","5.1.0","5.0.0","4.2.1","4.2.0"];
     </script>
 
 

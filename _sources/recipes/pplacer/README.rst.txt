@@ -28,14 +28,14 @@ pplacer
       
       
 
-      ``1.1.alpha20-0``,  ``1.1.alpha19-2``,  ``1.1.alpha19-1``,  ``1.1.alpha19-0``,  ``1.1.alpha17-3``,  ``1.1.alpha17-0``
+      ``1.1.alpha22-0``,  ``1.1.alpha20-0``,  ``1.1.alpha19-2``,  ``1.1.alpha19-1``,  ``1.1.alpha19-0``,  ``1.1.alpha17-3``,  ``1.1.alpha17-0``
 
       
 
    
    :depends gsl: ``>=2.8,<2.9.0a0``
    :depends libgcc: ``>=13``
-   :depends libsqlite: ``>=3.50.4,<4.0a0``
+   :depends libsqlite: ``>=3.51.2,<4.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
@@ -91,7 +91,7 @@ pplacer
 
     <script>
         var package = "pplacer";
-        var versions = ["1.1.alpha20","1.1.alpha19","1.1.alpha19","1.1.alpha19","1.1.alpha17"];
+        var versions = ["1.1.alpha22","1.1.alpha20","1.1.alpha19","1.1.alpha19","1.1.alpha19"];
     </script>
 
 

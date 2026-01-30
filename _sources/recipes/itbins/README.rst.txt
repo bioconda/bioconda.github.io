@@ -1,39 +1,40 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'npyscreen'
+.. title:: Package Recipe 'itbins'
 .. highlight: bash
 
-npyscreen
-=========
+itbins
+======
 
-.. conda:recipe:: npyscreen
+.. conda:recipe:: itbins
    :replaces_section_title:
    :noindex:
 
-   Writing user interfaces without all that ugly mucking about in hyperspace
+   itBins is a superfast cli\-tool for the automated refinement of metagenome\-assembled genomes \(MAGs\).
 
-   :homepage: http://www.npcole.com/npyscreen/
-   :license: BSD / BSD-2-Clause
-   :recipe: /`npyscreen <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/npyscreen>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/npyscreen/meta.yaml>`_
+   :homepage: https://codeberg.org/JMK/itBins
+   :license: EUPL-1.2
+   :recipe: /`itbins <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/itbins>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/itbins/meta.yaml>`_
 
    
 
 
-.. conda:package:: npyscreen
+.. conda:package:: itbins
 
-   |downloads_npyscreen| |docker_npyscreen|
+   |downloads_itbins| |docker_itbins|
 
    :versions:
       
       
 
-      ``5.0.2-0``,  ``4.10.5-3``,  ``4.10.5-2``,  ``4.10.5-1``,  ``4.10.5-0``
+      ``0.8.4-0``
 
       
 
    
-   :depends ncurses: 
-   :depends python: 
+   :depends numpy: ``>=1.21.5,<2``
+   :depends pandas: ``>=1.4.2,<2``
+   :depends python: ``>=3.10,<3.11``
    :requirements:
 
    :additional platforms:
@@ -52,39 +53,39 @@ npyscreen
 
   Given that you already have a conda environment in which you want to have this package, install with::
 
-      mamba install npyscreen
+      mamba install itbins
 
    and update with::
 
-      mamba update npyscreen
+      mamba update itbins
 
   To create a new environment, run::
 
-      mamba create --name myenvname npyscreen
+      mamba create --name myenvname itbins
 
   with ``myenvname`` being a reasonable name for the environment
   (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
 
   Alternatively, use the docker container::
 
-      docker pull quay.io/biocontainers/npyscreen:<tag>
+      docker pull quay.io/biocontainers/itbins:<tag>
 
-   (see `npyscreen/tags`_ for valid values for ``<tag>``)
+   (see `itbins/tags`_ for valid values for ``<tag>``)
 
 
-.. |downloads_npyscreen| image:: https://img.shields.io/conda/dn/bioconda/npyscreen.svg?style=flat
-   :target: https://anaconda.org/bioconda/npyscreen
+.. |downloads_itbins| image:: https://img.shields.io/conda/dn/bioconda/itbins.svg?style=flat
+   :target: https://anaconda.org/bioconda/itbins
    :alt:   (downloads)
-.. |docker_npyscreen| image:: https://quay.io/repository/biocontainers/npyscreen/status
-   :target: https://quay.io/repository/biocontainers/npyscreen
-.. _`npyscreen/tags`: https://quay.io/repository/biocontainers/npyscreen?tab=tags
+.. |docker_itbins| image:: https://quay.io/repository/biocontainers/itbins/status
+   :target: https://quay.io/repository/biocontainers/itbins
+.. _`itbins/tags`: https://quay.io/repository/biocontainers/itbins?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "npyscreen";
-        var versions = ["5.0.2","4.10.5","4.10.5","4.10.5","4.10.5"];
+        var package = "itbins";
+        var versions = ["0.8.4"];
     </script>
 
 
@@ -103,7 +104,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/npyscreen/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/itbins/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/npyscreen/README.html
+   :target: http://bioconda.github.io/recipes/itbins/README.html

@@ -30,7 +30,7 @@ wepp
       
       
 
-      ``0.1.5-0``,  ``0.1.4.1-0``
+      ``0.1.5.1-0``,  ``0.1.5-0``,  ``0.1.4.1-0``
 
       
 
@@ -44,12 +44,13 @@ wepp
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends mpich: ``>=4.3.1,<5.0a0``
-   :depends nodejs: ``>=20.12.2,<21.0a0``
+   :depends nodejs: ``>=22.6.0,<23.0a0``
    :depends pandas: 
    :depends pip: 
    :depends protobuf: ``<4``
    :depends snakemake-minimal: ``>=7.0``
-   :depends tbb: ``>=2020.2,<2021.0.0a0``
+   :depends tbb: ``>=2021.0``
+   :depends tbb: ``>=2021.13.0``
    :requirements:
 
    :additional platforms:
@@ -100,7 +101,7 @@ wepp
 
     <script>
         var package = "wepp";
-        var versions = ["0.1.5","0.1.4.1"];
+        var versions = ["0.1.5.1","0.1.5","0.1.4.1"];
     </script>
 
 
