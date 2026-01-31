@@ -28,9 +28,17 @@ phold
    :versions:
       
       
+      .. raw:: html
 
-      ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.2.0-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.2.0-0</code>,  <code>0.1.4-0</code>,  <code>0.1.3-0</code>,  <code>0.1.2-0</code>,  </span></summary>
+      
 
+      ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.2.0-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -43,6 +51,7 @@ phold
    :depends loguru: ``>=0.5.3``
    :depends numpy: ``>=1.20``
    :depends pandas: ``>=1.4.2``
+   :depends protobuf: ``>=6.0``
    :depends pyarrow: ``>=14.0.0``
    :depends pycirclize: ``>=0.3.1``
    :depends pyrodigal-gv: ``>=0.3.1``
@@ -102,7 +111,7 @@ phold
 
     <script>
         var package = "phold";
-        var versions = ["1.2.1","1.2.0","1.1.0","1.0.0","0.2.0"];
+        var versions = ["1.2.2","1.2.1","1.2.0","1.1.0","1.0.0"];
     </script>
 
 
