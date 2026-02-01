@@ -13,7 +13,7 @@ medaka
    A tool to create consensus sequences and variant calls from nanopore sequencing data using neural networks.
 
    :homepage: https://github.com/nanoporetech/medaka
-   :documentation: https://github.com/nanoporetech/medaka/blob/v2.1.1/README.md
+   :documentation: https://github.com/nanoporetech/medaka/blob/v2.2.0/README.md
    
    :license: OTHER / Oxford Nanopore Technologies PLC. Public License Version 1.0
    :recipe: /`medaka <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/medaka>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/medaka/meta.yaml>`_
@@ -31,10 +31,10 @@ medaka
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.1-2</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.11.3-0</code>,  <code>1.11.2-0</code>,  <code>1.11.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.1-2</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.11.3-0</code>,  <code>1.11.2-0</code>,  </span></summary>
       
 
-      ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.1-2``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.11.3-0``,  ``1.11.2-0``,  ``1.11.1-0``,  ``1.11.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.7.2-1``,  ``1.7.2-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.2.6-1``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.12.1-0``,  ``0.11.5-1``,  ``0.11.5-0``,  ``0.11.4-0``,  ``0.11.3-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-1``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-1``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.2-0``,  ``0.6.0-0``,  ``0.5.2-0``
+      ``2.2.0-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.1-2``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.11.3-0``,  ``1.11.2-0``,  ``1.11.1-0``,  ``1.11.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.7.2-1``,  ``1.7.2-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.2.6-1``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.12.1-0``,  ``0.11.5-1``,  ``0.11.5-0``,  ``0.11.4-0``,  ``0.11.3-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-1``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-1``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.2-0``,  ``0.6.0-0``,  ``0.5.2-0``
 
       
       .. raw:: html
@@ -48,7 +48,7 @@ medaka
    :depends cffi: 
    :depends grpcio: 
    :depends h5py: 
-   :depends htslib: ``>=1.14``
+   :depends htslib: ``>=1.20``
    :depends htslib: ``>=1.23,<1.24.0a0``
    :depends intervaltree: 
    :depends libcurl: ``>=8.18.0,<9.0a0``
@@ -57,7 +57,7 @@ medaka
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends mappy: 
    :depends minimap2: ``>=2.24``
-   :depends numpy: ``>=1.21.0,<2.0.0``
+   :depends numpy: ``>=2.0.0``
    :depends ont-fast5-api: 
    :depends parasail-python: 
    :depends pyabpoa: 
@@ -66,9 +66,10 @@ medaka
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python-edlib: 
    :depends python_abi: ``3.10.* *_cp310``
-   :depends pytorch: ``>=2.3,<2.4``
+   :depends pytorch: ``>=2.9.*``
    :depends requests: 
    :depends samtools: ``>=1.14``
+   :depends tensordict: 
    :depends toml: 
    :depends tqdm: 
    :depends wurlitzer: 
@@ -126,7 +127,7 @@ medaka
 
     <script>
         var package = "medaka";
-        var versions = ["2.1.1","2.1.1","2.1.0","2.0.1","2.0.1"];
+        var versions = ["2.2.0","2.1.1","2.1.1","2.1.0","2.0.1"];
     </script>
 
 

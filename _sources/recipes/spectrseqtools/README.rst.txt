@@ -29,11 +29,27 @@ spectrseqtools
       
       
 
-      
+      ``0.1.2-0``
 
       
 
    
+   :depends altair: ``>=5.4.1,<6.0``
+   :depends clr_loader: ``>=0.2.7.post0,<0.3``
+   :depends dbscan1d: ``>=0.2.3,<0.3``
+   :depends loguru: ``>=0.7.2,<0.8``
+   :depends mono: ``>=6.12.0.199,<7``
+   :depends ms_deisotope: ``>=0.0.60,<0.1``
+   :depends numpy: ``>=2.2.3,<3.0``
+   :depends platformdirs: ``>=4.3.8,<5.0``
+   :depends polars: ``>=1.9.0,<2.0``
+   :depends pulp: ``>=2.3.0,<3.0``
+   :depends python: ``>=3.12,<3.14``
+   :depends pythonnet: ``>=3.0.5,<4.0``
+   :depends pyyaml: ``>=6.0.2,<7.0``
+   :depends scikit-learn: ``>=1.7.2,<2.0``
+   :depends tqdm: ``>=4.67.1,<5.0``
+   :depends typed-argument-parser: ``>=1.10.1,<2.0``
    :requirements:
 
    :additional platforms:
@@ -84,7 +100,7 @@ spectrseqtools
 
     <script>
         var package = "spectrseqtools";
-        var versions = [];
+        var versions = ["0.1.2"];
     </script>
 
 

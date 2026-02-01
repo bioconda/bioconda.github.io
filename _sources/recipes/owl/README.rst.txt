@@ -27,7 +27,7 @@ owl
       
       
 
-      ``0.4.0-0``
+      ``0.4.0-1``,  ``0.4.0-0``
 
       
 
@@ -82,7 +82,7 @@ owl
 
     <script>
         var package = "owl";
-        var versions = ["0.4.0"];
+        var versions = ["0.4.0","0.4.0"];
     </script>
 
 

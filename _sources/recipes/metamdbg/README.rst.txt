@@ -13,7 +13,7 @@ metamdbg
    MetaMDBG\: a lightweight assembler for long and accurate metagenomics reads.
 
    :homepage: https://github.com/GaetanBenoitDev/metaMDBG
-   :documentation: https://github.com/GaetanBenoitDev/metaMDBG/blob/metaMDBG-1.2/README.md
+   :documentation: https://github.com/GaetanBenoitDev/metaMDBG/blob/metaMDBG-1.3/README.md
    
    :license: MIT / MIT
    :recipe: /`metamdbg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metamdbg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metamdbg/meta.yaml>`_
@@ -30,7 +30,7 @@ metamdbg
       
       
 
-      ``1.2-0``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``,  ``0.3-0``
+      ``1.3-0``,  ``1.2-0``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``,  ``0.3-0``
 
       
 
@@ -45,10 +45,6 @@ metamdbg
    :requirements:
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -96,7 +92,7 @@ metamdbg
 
     <script>
         var package = "metamdbg";
-        var versions = ["1.2","1.1","1.1","1.1","1.0"];
+        var versions = ["1.3","1.2","1.1","1.1","1.1"];
     </script>
 
 

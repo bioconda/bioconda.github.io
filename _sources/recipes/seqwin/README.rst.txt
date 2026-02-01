@@ -12,7 +12,7 @@ seqwin
 
    Ultrafast identification of signature sequences in microbial genomes
 
-   :homepage: https://github.com/treangenlab/seqwin
+   :homepage: https://github.com/treangenlab/Seqwin
    :license: GPL3 / GPL-3.0-only
    :recipe: /`seqwin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqwin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqwin/meta.yaml>`_
 
@@ -27,7 +27,7 @@ seqwin
       
       
 
-      ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
 
@@ -93,7 +93,7 @@ seqwin
 
     <script>
         var package = "seqwin";
-        var versions = ["0.2.0","0.2.0","0.1.0","0.1.0","0.1.0"];
+        var versions = ["0.2.1","0.2.0","0.2.0","0.1.0","0.1.0"];
     </script>
 
 
