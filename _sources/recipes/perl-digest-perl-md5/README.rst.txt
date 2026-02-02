@@ -27,7 +27,7 @@ perl-digest-perl-md5
       
       
 
-      ``1.9-2``,  ``1.9-1``,  ``1.9-0``
+      ``1.91-0``,  ``1.9-2``,  ``1.9-1``,  ``1.9-0``
 
       
 
@@ -83,7 +83,7 @@ perl-digest-perl-md5
 
     <script>
         var package = "perl-digest-perl-md5";
-        var versions = ["1.9","1.9","1.9"];
+        var versions = ["1.91","1.9","1.9","1.9"];
     </script>
 
 
