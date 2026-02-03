@@ -38,8 +38,7 @@ inmoose
    :depends click: 
    :depends fastcluster: 
    :depends jinja2: 
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libcxx: ``>=18``
    :depends matplotlib-base: 
    :depends mpmath: ``>=1.1.0``
    :depends numpy: ``>=1.23,<3``

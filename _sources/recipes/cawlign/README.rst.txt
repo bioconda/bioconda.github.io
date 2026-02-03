@@ -42,7 +42,7 @@ cawlign
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libcurl: ``>=8.18.0,<9.0a0``
+   :depends libcurl: ``>=8.17.0,<9.0a0``
    :depends libgcc: ``>=13``
    :depends libgomp: 
    :depends libstdcxx: ``>=13``

@@ -10,13 +10,13 @@ famus
    :replaces_section_title:
    :noindex:
 
-   Functional Annotation Method Using Siamese neural networks \(FAMUS\)
+   Functional Annotation Method Using Supervised contrastive learning
 
    :homepage: https://github.com/burstein-lab/famus
    :license: MIT / MIT
    :recipe: /`famus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/famus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/famus/meta.yaml>`_
 
-   FAMUS is a Siamese Neural Network based framework that annotates 
+   FAMUS is a supervised contrastive learning \(supcon\) based framework that annotates 
    protein sequences with function using pre\-trained models or custom training.
 
    NOTE\: PyTorch must be installed separately according to your system configuration.
@@ -32,7 +32,7 @@ famus
       
       
 
-      ``0.2.1-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -101,7 +101,7 @@ famus
 
     <script>
         var package = "famus";
-        var versions = ["0.2.1","0.1.2","0.1.1"];
+        var versions = ["0.2.2","0.2.1","0.1.2","0.1.1"];
     </script>
 
 

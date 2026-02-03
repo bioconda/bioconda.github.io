@@ -40,7 +40,7 @@ gvcf2coverage
       
 
    
-   :depends htslib: ``>=1.22.1,<1.24.0a0``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
    :depends libgcc: ``>=13``
    :requirements:
 

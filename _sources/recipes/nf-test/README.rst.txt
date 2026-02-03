@@ -28,10 +28,10 @@ nf-test
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.3-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.4-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.3-1</code>,  <code>0.9.3-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.4-0</code>,  <code>0.8.3-0</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  </span></summary>
       
 
-      ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.3-2``,  ``0.7.3-1``,  ``0.7.3-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``
+      ``0.9.3-1``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.3-2``,  ``0.7.3-1``,  ``0.7.3-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ nf-test
    
    :depends coreutils: 
    :depends curl: 
-   :depends openjdk: ``>=11,<=18``
+   :depends openjdk: ``>=17,<24``
    :requirements:
 
    :additional platforms:
@@ -93,7 +93,7 @@ nf-test
 
     <script>
         var package = "nf-test";
-        var versions = ["0.9.3","0.9.2","0.9.1","0.9.0","0.8.4"];
+        var versions = ["0.9.3","0.9.3","0.9.2","0.9.1","0.9.0"];
     </script>
 
 

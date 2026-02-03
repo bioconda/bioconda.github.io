@@ -43,6 +43,7 @@ annembed
    
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
+   :depends openblas: 
    :depends openssl: ``>=3.5.4,<4.0a0``
    :requirements:
 

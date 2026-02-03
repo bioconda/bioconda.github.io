@@ -49,8 +49,8 @@ hictkpy
    :depends libarrow-compute: ``>=22.0.0,<22.1.0a0``
    :depends libdeflate: ``>=1,<2.0a0``
    :depends libdeflate: ``>=1.25,<1.26.0a0``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libgcc: ``>=15``
+   :depends libstdcxx: ``>=15``
    :depends numpy: ``>=1.21,<3``
    :depends numpy: ``>=2,<3.0a0``
    :depends pandas: 
