@@ -32,6 +32,7 @@ epimetheus-py
       
 
    
+   :depends __glibc: ``>=2.17,<3.0.a0``
    :depends libgcc: ``>=13``
    :depends polars: 
    :depends python: ``>=3.10,<3.11.0a0``

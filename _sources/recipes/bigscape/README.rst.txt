@@ -31,10 +31,10 @@ bigscape
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.1.9-0</code>,  <code>1.1.8-0</code>,  <code>1.1.6-0</code>,  <code>1.1.5-0</code>,  <code>1.1.4-1</code>,  <code>1.1.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.2-0</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.1.9-0</code>,  <code>1.1.8-0</code>,  <code>1.1.6-0</code>,  <code>1.1.5-0</code>,  <code>1.1.4-1</code>,  </span></summary>
       
 
-      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-0``
+      ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-0``
 
       
       .. raw:: html
@@ -51,7 +51,7 @@ bigscape
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
-   :depends pyhmmer: ``>=0.4.7,<0.12.0``
+   :depends pyhmmer: ``>=0.12.0``
    :depends python: ``>=3.11``
    :depends pyyaml: 
    :depends requests: 
@@ -111,7 +111,7 @@ bigscape
 
     <script>
         var package = "bigscape";
-        var versions = ["2.0.1","2.0.1","2.0.0","1.1.9","1.1.8"];
+        var versions = ["2.0.2","2.0.1","2.0.1","2.0.0","1.1.9"];
     </script>
 
 

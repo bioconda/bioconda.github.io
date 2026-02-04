@@ -139,7 +139,7 @@ openms-meta
    :depends eigen: ``>=3.4.0,<3.5.0a0``
    :depends libarrow: ``>=21.0.0,<21.1.0a0``
    :depends libgcc: ``>=13``
-   :depends libopenms: ``3.5.0 h80c9f57_0``
+   :depends libopenms: ``3.5.0 hdd6e20e_0``
    :depends libparquet: ``>=21.0.0,<21.1.0a0``
    :depends libstdcxx: ``>=13``
    :depends libsvm: ``>=335,<400``
@@ -299,7 +299,7 @@ openms-meta
    :depends gnuplot: 
    :depends luciphor2: ``2020_04_03``
    :depends msgf_plus: ``2024.03.26``
-   :depends openms: ``3.5.0 h1ce2723_0``
+   :depends openms: ``3.5.0 h78fb946_0``
    :depends percolator: ``3.7.1``
    :depends r-gplots: 
    :depends sage-proteomics: ``0.14.7``

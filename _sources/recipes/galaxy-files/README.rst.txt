@@ -32,10 +32,10 @@ galaxy-files
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>25.1.0-0</code>,  <code>25.0.4-0</code>,  <code>25.0.3-0</code>,  <code>25.0.2-0</code>,  <code>25.0.1-0</code>,  <code>24.2.4-0</code>,  <code>24.2.3-0</code>,  <code>24.2.2-0</code>,  <code>24.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>25.1.1-0</code>,  <code>25.1.0-0</code>,  <code>25.0.4-0</code>,  <code>25.0.3-0</code>,  <code>25.0.2-0</code>,  <code>25.0.1-0</code>,  <code>24.2.4-0</code>,  <code>24.2.3-0</code>,  <code>24.2.2-0</code>,  </span></summary>
       
 
-      ``25.1.0-0``,  ``25.0.4-0``,  ``25.0.3-0``,  ``25.0.2-0``,  ``25.0.1-0``,  ``24.2.4-0``,  ``24.2.3-0``,  ``24.2.2-0``,  ``24.2.1-0``,  ``24.2.0-0``,  ``24.1.4-0``,  ``24.1.3-0``,  ``24.1.2-0``,  ``24.1.1-0``,  ``24.0.0-0``,  ``23.2.1-0``,  ``23.1.4-0``,  ``23.1.3-0``,  ``23.1.2-0``,  ``23.1.1-0``,  ``23.0.6-0``,  ``23.0.5-0``,  ``23.0.4-0``
+      ``25.1.1-0``,  ``25.1.0-0``,  ``25.0.4-0``,  ``25.0.3-0``,  ``25.0.2-0``,  ``25.0.1-0``,  ``24.2.4-0``,  ``24.2.3-0``,  ``24.2.2-0``,  ``24.2.1-0``,  ``24.2.0-0``,  ``24.1.4-0``,  ``24.1.3-0``,  ``24.1.2-0``,  ``24.1.1-0``,  ``24.0.0-0``,  ``23.2.1-0``,  ``23.1.4-0``,  ``23.1.3-0``,  ``23.1.2-0``,  ``23.1.1-0``,  ``23.0.6-0``,  ``23.0.5-0``,  ``23.0.4-0``
 
       
       .. raw:: html
@@ -44,12 +44,10 @@ galaxy-files
       
 
    
-   :depends fissix: 
    :depends fs: 
    :depends fsspec: 
    :depends galaxy-util: ``>=25.1``
-   :depends legacy-cgi: 
-   :depends pydantic: ``<2.12``
+   :depends pydantic: ``>=2.7.4``
    :depends python: ``>=3.9,<3.14``
    :depends typing-extensions: 
    :requirements:
@@ -102,7 +100,7 @@ galaxy-files
 
     <script>
         var package = "galaxy-files";
-        var versions = ["25.1.0","25.0.4","25.0.3","25.0.2","25.0.1"];
+        var versions = ["25.1.1","25.1.0","25.0.4","25.0.3","25.0.2"];
     </script>
 
 

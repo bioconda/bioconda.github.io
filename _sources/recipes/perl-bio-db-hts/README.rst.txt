@@ -40,9 +40,9 @@ perl-bio-db-hts
       
 
    
-   :depends htslib: ``>=1.22.1,<1.23.0a0``
+   :depends htslib: ``>=1.21,<1.22.0a0``
    :depends libgcc: ``>=13``
-   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-bioperl: 
    :depends perl-module-build: ``0.4234.*``
