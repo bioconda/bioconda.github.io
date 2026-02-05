@@ -27,12 +27,12 @@ bioconductor-informeasure
       
       
 
-      ``1.16.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.20.0-0``,  ``1.16.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-entropy: 
    :requirements:
 
@@ -84,7 +84,7 @@ bioconductor-informeasure
 
     <script>
         var package = "bioconductor-informeasure";
-        var versions = ["1.16.0","1.10.0","1.8.0","1.4.0","1.2.0"];
+        var versions = ["1.20.0","1.16.0","1.10.0","1.8.0","1.4.0"];
     </script>
 
 

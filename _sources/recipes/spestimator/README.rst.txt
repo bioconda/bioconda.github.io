@@ -27,7 +27,7 @@ spestimator
       
       
 
-      ``0.1.0.232-0``
+      ``0.3.0.233-0``,  ``0.1.0.232-0``
 
       
 
@@ -88,7 +88,7 @@ spestimator
 
     <script>
         var package = "spestimator";
-        var versions = ["0.1.0.232"];
+        var versions = ["0.3.0.233","0.1.0.232"];
     </script>
 
 

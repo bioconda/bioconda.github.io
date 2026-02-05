@@ -28,7 +28,7 @@ orforise
       
       
 
-      ``1.6.4-0``,  ``1.6.3-0``
+      ``1.6.5-0``,  ``1.6.4-0``,  ``1.6.3-0``
 
       
 
@@ -85,7 +85,7 @@ orforise
 
     <script>
         var package = "orforise";
-        var versions = ["1.6.4","1.6.3"];
+        var versions = ["1.6.5","1.6.4","1.6.3"];
     </script>
 
 

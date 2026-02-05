@@ -78,7 +78,7 @@ constava
       
       
 
-      ``1.1.0-0``
+      ``1.2.0-0``,  ``1.1.0-0``
 
       
 
@@ -139,7 +139,7 @@ constava
 
     <script>
         var package = "constava";
-        var versions = ["1.1.0"];
+        var versions = ["1.2.0","1.1.0"];
     </script>
 
 

@@ -13,7 +13,7 @@ toulligqc
    A post sequencing QC tool for Oxford Nanopore sequencers.
 
    :homepage: https://github.com/GenomicParisCentre/toulligQC
-   :documentation: https://github.com/GenomiqueENS/toulligQC/blob/v2.7.1/README.md
+   :documentation: https://github.com/GenomiqueENS/toulligQC/blob/v2.8/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`toulligqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/toulligqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/toulligqc/meta.yaml>`_
@@ -31,10 +31,10 @@ toulligqc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.7.1-1</code>,  <code>2.7.1-0</code>,  <code>2.5.6-0</code>,  <code>2.5.5-0</code>,  <code>2.5.4-0</code>,  <code>2.5.3-0</code>,  <code>2.5.2-0</code>,  <code>2.5-0</code>,  <code>2.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.8-0</code>,  <code>2.7.1-1</code>,  <code>2.7.1-0</code>,  <code>2.5.6-0</code>,  <code>2.5.5-0</code>,  <code>2.5.4-0</code>,  <code>2.5.3-0</code>,  <code>2.5.2-0</code>,  <code>2.5-0</code>,  </span></summary>
       
 
-      ``2.7.1-1``,  ``2.7.1-0``,  ``2.5.6-0``,  ``2.5.5-0``,  ``2.5.4-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5-0``,  ``2.4-0``,  ``2.3-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2-0``,  ``2.1.1-0``,  ``2.1-0``,  ``2.0.1-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``,  ``0.10-0``,  ``0.9-2``,  ``0.9-0``,  ``0.5-0``
+      ``2.8-0``,  ``2.7.1-1``,  ``2.7.1-0``,  ``2.5.6-0``,  ``2.5.5-0``,  ``2.5.4-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5-0``,  ``2.4-0``,  ``2.3-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2-0``,  ``2.1.1-0``,  ``2.1-0``,  ``2.0.1-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-0``,  ``1.0-0``,  ``0.10-0``,  ``0.9-2``,  ``0.9-0``,  ``0.5-0``
 
       
       .. raw:: html
@@ -104,7 +104,7 @@ toulligqc
 
     <script>
         var package = "toulligqc";
-        var versions = ["2.7.1","2.7.1","2.5.6","2.5.5","2.5.4"];
+        var versions = ["2.8","2.7.1","2.7.1","2.5.6","2.5.5"];
     </script>
 
 

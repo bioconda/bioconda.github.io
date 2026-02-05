@@ -10,9 +10,9 @@ seqnado
    :replaces_section_title:
    :noindex:
 
-   Pipelines for genomics analysis
+   A unified and user\-friendly collection of pipelines for\: ATAC\-seq\, ChIP\-seq\, CUT\&RUN\/TAG\, RNA\-seq\, WGS\, Methylation \(Bisulphite\/TAPS\)\, CRISPR screens and Micro\-Capture\-C.
 
-   :homepage: https://alsmith151.github.io/SeqNado/
+   :homepage: https://github.com/Milne-Group/SeqNado
    :license: GPL-3.0-or-later
    :recipe: /`seqnado <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqnado>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqnado/meta.yaml>`_
 
@@ -28,10 +28,10 @@ seqnado
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.6-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.7-0</code>,  <code>0.6.6-0</code>,  <code>0.6.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.1-0</code>,  <code>0.7.6-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.7-0</code>,  <code>0.6.6-0</code>,  </span></summary>
       
 
-      ``0.7.6-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.1-0``
+      ``1.0.1-0``,  ``0.7.6-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.1-0``
 
       
       .. raw:: html
@@ -104,7 +104,7 @@ seqnado
 
     <script>
         var package = "seqnado";
-        var versions = ["0.7.6","0.7.4","0.7.3","0.7.2","0.7.1"];
+        var versions = ["1.0.1","0.7.6","0.7.4","0.7.3","0.7.2"];
     </script>
 
 

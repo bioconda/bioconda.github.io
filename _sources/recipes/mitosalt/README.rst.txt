@@ -28,7 +28,7 @@ mitosalt
      \- \`mitosalt.pl \<config\_file\> \<fastq file 1\> \<fastq file 2\> \<study name\>\`
    \- runs the pipeline with single\-end reads
      \- \`mitosalt\_se.pl \<config\_file\> \<fastq file\> \<study name\>\`
-   \- provides configuration file template in the package at \`\$CONDA\_PREFIX\/share\/mitosalt\-1.1.1\-2\/\`
+   \- provides configuration file template in the package at \`\$CONDA\_PREFIX\/share\/mitosalt\-1.1.1\-3\/\`
 
 
 
@@ -40,20 +40,26 @@ mitosalt
       
       
 
-      ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``
+      ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``
 
       
 
    
+   :depends bbmap: 
    :depends bedtools: ``2.31.1.*``
    :depends bioconductor-biostrings: ``2.70.1.*``
+   :depends hisat2: 
    :depends last: ``1608.*``
    :depends openjdk: ``>=11.0.1``
    :depends perl: ``5.32.*``
    :depends r-base: ``4.3.3.*``
    :depends r-plotrix: ``3.8_4.*``
    :depends r-rcolorbrewer: ``1.1.*``
+   :depends sambamba: 
    :depends samtools: ``1.21.*``
+   :depends ucsc-bedgraphtobigwig: 
+   :depends ucsc-fasize: 
+   :depends ucsc-fasomerecords: 
    :requirements:
 
    :additional platforms:
@@ -104,7 +110,7 @@ mitosalt
 
     <script>
         var package = "mitosalt";
-        var versions = ["1.1.1","1.1.1","1.1.1"];
+        var versions = ["1.1.1","1.1.1","1.1.1","1.1.1"];
     </script>
 
 

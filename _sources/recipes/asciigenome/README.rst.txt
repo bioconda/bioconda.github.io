@@ -30,10 +30,10 @@ asciigenome
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.19.0-0</code>,  <code>1.18.0-0</code>,  <code>1.17.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.15.0-0</code>,  <code>1.14.0-2</code>,  <code>1.14.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.19.0-0</code>,  <code>1.18.0-0</code>,  <code>1.17.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.15.0-0</code>,  <code>1.14.0-2</code>,  </span></summary>
       
 
-      ``1.20.0-0``,  ``1.19.0-0``,  ``1.18.0-0``,  ``1.17.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.15.0-0``,  ``1.14.0-2``,  ``1.14.0-0``,  ``1.13.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.6.4-0``,  ``0.2.0-0``
+      ``1.20.0-1``,  ``1.20.0-0``,  ``1.19.0-0``,  ``1.18.0-0``,  ``1.17.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.15.0-0``,  ``1.14.0-2``,  ``1.14.0-0``,  ``1.13.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.6.4-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ asciigenome
       
 
    
-   :depends openjdk: 
+   :depends openjdk: ``>=17``
    :depends zlib: 
    :requirements:
 
@@ -94,7 +94,7 @@ asciigenome
 
     <script>
         var package = "asciigenome";
-        var versions = ["1.20.0","1.19.0","1.18.0","1.17.0","1.16.0"];
+        var versions = ["1.20.0","1.20.0","1.19.0","1.18.0","1.17.0"];
     </script>
 
 

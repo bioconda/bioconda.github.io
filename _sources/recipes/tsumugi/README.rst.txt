@@ -13,7 +13,7 @@ tsumugi
    TSUMUGI\: Phenotype\-driven gene network identifier
 
    :homepage: https://github.com/akikuno/TSUMUGI-dev
-   :documentation: https://github.com/akikuno/TSUMUGI-dev/blob/1.0.1/README.md
+   :documentation: https://github.com/akikuno/TSUMUGI-dev/blob/1.0.2/README.md
    
    :license: MIT
    :recipe: /`tsumugi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tsumugi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tsumugi/meta.yaml>`_
@@ -29,7 +29,7 @@ tsumugi
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``,  ``0.5.0-0``
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.5.0-0``
 
       
 
@@ -88,7 +88,7 @@ tsumugi
 
     <script>
         var package = "tsumugi";
-        var versions = ["1.0.1","1.0.0","0.5.0"];
+        var versions = ["1.0.2","1.0.1","1.0.0","0.5.0"];
     </script>
 
 

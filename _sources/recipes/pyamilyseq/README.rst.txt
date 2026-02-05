@@ -29,7 +29,7 @@ pyamilyseq
       
       
 
-      ``1.3.2-0``
+      ``1.3.3-0``,  ``1.3.2-0``
 
       
 
@@ -86,7 +86,7 @@ pyamilyseq
 
     <script>
         var package = "pyamilyseq";
-        var versions = ["1.3.2"];
+        var versions = ["1.3.3","1.3.2"];
     </script>
 
 

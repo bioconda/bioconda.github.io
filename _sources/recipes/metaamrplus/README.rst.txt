@@ -32,7 +32,7 @@ metaamrplus
       
       
 
-      ``1.4-0``
+      ``1.4.1-0``,  ``1.4-0``
 
       
 
@@ -93,7 +93,7 @@ metaamrplus
 
     <script>
         var package = "metaamrplus";
-        var versions = ["1.4"];
+        var versions = ["1.4.1","1.4"];
     </script>
 
 

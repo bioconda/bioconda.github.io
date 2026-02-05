@@ -27,15 +27,17 @@ nwkit
       
       
 
-      ``0.18.2-1``,  ``0.18.2-0``,  ``0.18.1-0``,  ``0.18.0-0``,  ``0.17.2-0``
+      ``0.19.2-0``,  ``0.18.2-1``,  ``0.18.2-0``,  ``0.18.1-0``,  ``0.18.0-0``,  ``0.17.2-0``
 
       
 
    
    :depends biopython: 
    :depends ete3: 
+   :depends numpy: 
    :depends pandas: 
    :depends python: ``>=3.8``
+   :depends requests: 
    :requirements:
 
    :additional platforms:
@@ -86,7 +88,7 @@ nwkit
 
     <script>
         var package = "nwkit";
-        var versions = ["0.18.2","0.18.2","0.18.1","0.18.0","0.17.2"];
+        var versions = ["0.19.2","0.18.2","0.18.2","0.18.1","0.18.0"];
     </script>
 
 

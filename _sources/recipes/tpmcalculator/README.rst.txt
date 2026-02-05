@@ -12,7 +12,7 @@ tpmcalculator
 
    TPMCalculator quantifies mRNA abundance directly from the alignments by parsing BAM files.
 
-   :homepage: https://github.com/ncbi/TPMCalculator
+   :homepage: https://github.com/NLM-DIR/TPMCalculator
    :license: Public Domain
    :recipe: /`tpmcalculator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tpmcalculator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tpmcalculator/meta.yaml>`_
 
@@ -28,10 +28,10 @@ tpmcalculator
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.5-3</code>,  <code>0.0.5-2</code>,  <code>0.0.5-1</code>,  <code>0.0.5-0</code>,  <code>0.0.4-4</code>,  <code>0.0.4-3</code>,  <code>0.0.4-2</code>,  <code>0.0.4-1</code>,  <code>0.0.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.6-0</code>,  <code>0.0.5-3</code>,  <code>0.0.5-2</code>,  <code>0.0.5-1</code>,  <code>0.0.5-0</code>,  <code>0.0.4-4</code>,  <code>0.0.4-3</code>,  <code>0.0.4-2</code>,  <code>0.0.4-1</code>,  </span></summary>
       
 
-      ``0.0.5-3``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-4``,  ``0.0.4-3``,  ``0.0.4-2``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``
+      ``0.0.6-0``,  ``0.0.5-3``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-4``,  ``0.0.4-3``,  ``0.0.4-2``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``
 
       
       .. raw:: html
@@ -98,7 +98,7 @@ tpmcalculator
 
     <script>
         var package = "tpmcalculator";
-        var versions = ["0.0.5","0.0.5","0.0.5","0.0.5","0.0.4"];
+        var versions = ["0.0.6","0.0.5","0.0.5","0.0.5","0.0.5"];
     </script>
 
 

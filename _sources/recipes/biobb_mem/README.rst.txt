@@ -49,10 +49,10 @@ biobb_mem
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.2.0-0</code>,  <code>5.1.2-0</code>,  <code>5.1.1-1</code>,  <code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.6-0</code>,  <code>5.0.5-0</code>,  <code>5.0.4-0</code>,  <code>5.0.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.2.1-0</code>,  <code>5.2.0-0</code>,  <code>5.1.2-0</code>,  <code>5.1.1-1</code>,  <code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.6-0</code>,  <code>5.0.5-0</code>,  <code>5.0.4-0</code>,  </span></summary>
       
 
-      ``5.2.0-0``,  ``5.1.2-0``,  ``5.1.1-1``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.6-0``,  ``5.0.5-0``,  ``5.0.4-0``,  ``5.0.3-0``,  ``5.0.2-3``,  ``5.0.2-2``,  ``5.0.2-1``,  ``5.0.2-0``,  ``5.0.1-0``
+      ``5.2.1-0``,  ``5.2.0-0``,  ``5.1.2-0``,  ``5.1.1-1``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.6-0``,  ``5.0.5-0``,  ``5.0.4-0``,  ``5.0.3-0``,  ``5.0.2-3``,  ``5.0.2-2``,  ``5.0.2-1``,  ``5.0.2-0``,  ``5.0.1-0``
 
       
       .. raw:: html
@@ -119,7 +119,7 @@ biobb_mem
 
     <script>
         var package = "biobb_mem";
-        var versions = ["5.2.0","5.1.2","5.1.1","5.1.1","5.1.0"];
+        var versions = ["5.2.1","5.2.0","5.1.2","5.1.1","5.1.1"];
     </script>
 
 

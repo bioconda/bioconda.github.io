@@ -26,9 +26,17 @@ mpra-data-access-portal
    :versions:
       
       
+      .. raw:: html
 
-      ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-3``,  ``0.1.8-2``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``
+         <details><summary><span class="truncated-version-list"><code>0.1.11-0</code>,  <code>0.1.10-0</code>,  <code>0.1.9-0</code>,  <code>0.1.8-3</code>,  <code>0.1.8-2</code>,  <code>0.1.8-1</code>,  <code>0.1.8-0</code>,  <code>0.1.7-2</code>,  <code>0.1.7-1</code>,  </span></summary>
+      
 
+      ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-3``,  ``0.1.8-2``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -93,7 +101,7 @@ mpra-data-access-portal
 
     <script>
         var package = "mpra-data-access-portal";
-        var versions = ["0.1.10","0.1.9","0.1.8","0.1.8","0.1.8"];
+        var versions = ["0.1.11","0.1.10","0.1.9","0.1.8","0.1.8"];
     </script>
 
 

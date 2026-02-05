@@ -27,12 +27,12 @@ r-scistreer
       
       
 
-      ``1.2.0-0``
+      ``1.2.1-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-ggtree: ``>=3.14.0,<3.15.0a0``
+   :depends bioconductor-ggtree: ``>=4.0.4,<4.1.0a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends r-ape: 
@@ -50,6 +50,7 @@ r-scistreer
    :depends r-rhpcblasctl: 
    :depends r-stringr: 
    :depends r-tidygraph: 
+   :depends tbb-devel: ``>=2022.3.0,<2022.4.0a0``
    :requirements:
 
    :additional platforms:
@@ -100,7 +101,7 @@ r-scistreer
 
     <script>
         var package = "r-scistreer";
-        var versions = ["1.2.0"];
+        var versions = ["1.2.1","1.2.0"];
     </script>
 
 

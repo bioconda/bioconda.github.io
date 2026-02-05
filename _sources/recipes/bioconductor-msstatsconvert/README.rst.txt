@@ -27,15 +27,21 @@ bioconductor-msstatsconvert
       
       
 
-      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.3-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.20.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.3-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libcxx: ``>=19``
+   :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-checkmate: 
    :depends r-data.table: 
    :depends r-log4r: 
+   :depends r-rcpp: 
    :depends r-stringi: 
    :requirements:
 
@@ -87,7 +93,7 @@ bioconductor-msstatsconvert
 
     <script>
         var package = "bioconductor-msstatsconvert";
-        var versions = ["1.16.0","1.12.0","1.10.3","1.8.0","1.4.0"];
+        var versions = ["1.20.0","1.16.0","1.12.0","1.10.3","1.8.0"];
     </script>
 
 
