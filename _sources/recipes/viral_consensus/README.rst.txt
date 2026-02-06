@@ -29,16 +29,16 @@ viral_consensus
       
       
 
-      ``1.0.0-0``,  ``0.0.6-2``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
+      ``1.0.1-0``,  ``1.0.0-0``,  ``0.0.6-2``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.22,<1.24.0a0``
-   :depends libcurl: ``>=8.14.1,<9.0a0``
+   :depends htslib: ``>=1.23,<1.24.0a0``
+   :depends libcurl: ``>=8.18.0,<9.0a0``
    :depends libgcc: ``>=13``
-   :depends liblzma: ``>=5.8.1,<6.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
@@ -95,7 +95,7 @@ viral_consensus
 
     <script>
         var package = "viral_consensus";
-        var versions = ["1.0.0","0.0.6","0.0.6","0.0.6","0.0.5"];
+        var versions = ["1.0.1","1.0.0","0.0.6","0.0.6","0.0.6"];
     </script>
 
 
