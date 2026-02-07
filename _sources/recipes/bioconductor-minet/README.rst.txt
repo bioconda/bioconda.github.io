@@ -29,10 +29,10 @@ bioconductor-minet
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.64.0-0</code>,  <code>3.60.0-1</code>,  <code>3.60.0-0</code>,  <code>3.58.0-0</code>,  <code>3.56.0-2</code>,  <code>3.56.0-1</code>,  <code>3.56.0-0</code>,  <code>3.52.0-2</code>,  <code>3.52.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.68.0-0</code>,  <code>3.64.0-0</code>,  <code>3.60.0-1</code>,  <code>3.60.0-0</code>,  <code>3.58.0-0</code>,  <code>3.56.0-2</code>,  <code>3.56.0-1</code>,  <code>3.56.0-0</code>,  <code>3.52.0-2</code>,  </span></summary>
       
 
-      ``3.64.0-0``,  ``3.60.0-1``,  ``3.60.0-0``,  ``3.58.0-0``,  ``3.56.0-2``,  ``3.56.0-1``,  ``3.56.0-0``,  ``3.52.0-2``,  ``3.52.0-1``,  ``3.52.0-0``,  ``3.50.0-0``,  ``3.48.0-1``,  ``3.48.0-0``,  ``3.46.0-0``,  ``3.44.0-0``,  ``3.42.0-1``,  ``3.42.0-0``,  ``3.40.0-0``,  ``3.38.0-0``,  ``3.36.0-0``
+      ``3.68.0-0``,  ``3.64.0-0``,  ``3.60.0-1``,  ``3.60.0-0``,  ``3.58.0-0``,  ``3.56.0-2``,  ``3.56.0-1``,  ``3.56.0-0``,  ``3.52.0-2``,  ``3.52.0-1``,  ``3.52.0-0``,  ``3.50.0-0``,  ``3.48.0-1``,  ``3.48.0-0``,  ``3.46.0-0``,  ``3.44.0-0``,  ``3.42.0-1``,  ``3.42.0-0``,  ``3.40.0-0``,  ``3.38.0-0``,  ``3.36.0-0``
 
       
       .. raw:: html
@@ -42,10 +42,12 @@ bioconductor-minet
 
    
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libstdcxx: ``>=14``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-infotheo: 
    :requirements:
 
@@ -101,7 +103,7 @@ bioconductor-minet
 
     <script>
         var package = "bioconductor-minet";
-        var versions = ["3.64.0","3.60.0","3.60.0","3.58.0","3.56.0"];
+        var versions = ["3.68.0","3.64.0","3.60.0","3.60.0","3.58.0"];
     </script>
 
 

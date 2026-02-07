@@ -29,10 +29,10 @@ bioconductor-ebseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4.0-0</code>,  <code>2.0.0-3</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.8.0-0</code>,  <code>2.4.0-0</code>,  <code>2.0.0-3</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.34.0-0</code>,  </span></summary>
       
 
-      ``2.4.0-0``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.1-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``
+      ``2.8.0-0``,  ``2.4.0-0``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.1-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``
 
       
       .. raw:: html
@@ -42,11 +42,13 @@ bioconductor-ebseq
 
    
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
-   :depends r-bh: 
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libstdcxx: ``>=14``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
+   :depends r-bh: ``<=1.87.0-1``
    :depends r-blockmodeling: 
    :depends r-gplots: 
    :depends r-rcpp: ``>=0.12.11``
@@ -106,7 +108,7 @@ bioconductor-ebseq
 
     <script>
         var package = "bioconductor-ebseq";
-        var versions = ["2.4.0","2.0.0","2.0.0","2.0.0","2.0.0"];
+        var versions = ["2.8.0","2.4.0","2.0.0","2.0.0","2.0.0"];
     </script>
 
 

@@ -26,13 +26,21 @@ bioconductor-herper
    :versions:
       
       
+      .. raw:: html
 
-      ``1.16.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.7.2-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.0.2-0``,  ``1.0.0-1``
+         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.7.2-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.0.2-0</code>,  </span></summary>
+      
 
+      ``1.20.0-0``,  ``1.16.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.7.2-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.0.2-0``,  ``1.0.0-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-reticulate: 
    :depends r-rjson: 
    :depends r-withr: 
@@ -86,7 +94,7 @@ bioconductor-herper
 
     <script>
         var package = "bioconductor-herper";
-        var versions = ["1.16.0","1.12.0","1.12.0","1.10.0","1.7.2"];
+        var versions = ["1.20.0","1.16.0","1.12.0","1.12.0","1.10.0"];
     </script>
 
 

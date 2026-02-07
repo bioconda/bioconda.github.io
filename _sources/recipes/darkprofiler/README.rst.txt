@@ -27,7 +27,7 @@ darkprofiler
       
       
 
-      ``0.1.3-0``
+      ``0.2.6-0``,  ``0.1.3-0``
 
       
 
@@ -85,7 +85,7 @@ darkprofiler
 
     <script>
         var package = "darkprofiler";
-        var versions = ["0.1.3"];
+        var versions = ["0.2.6","0.1.3"];
     </script>
 
 

@@ -29,7 +29,7 @@ domainator
       
       
 
-      ``0.8.0-0``
+      ``0.8.1-0``,  ``0.8.0-0``
 
       
 
@@ -44,7 +44,7 @@ domainator
    :depends jsonschema: ``>=4.0``
    :depends pandas: ``>=2.1.0``
    :depends psutil: ``>=5.9.6``
-   :depends pyhmmer: ``>=0.10.2``
+   :depends pyhmmer: ``>=0.12.0,<0.13.0``
    :depends pyrodigal: ``>=3.0.1``
    :depends python: ``>=3.10,<3.14``
    :depends requests: ``>=2.31.0``
@@ -104,7 +104,7 @@ domainator
 
     <script>
         var package = "domainator";
-        var versions = ["0.8.0"];
+        var versions = ["0.8.1","0.8.0"];
     </script>
 
 

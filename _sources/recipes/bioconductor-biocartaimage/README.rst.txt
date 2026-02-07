@@ -27,12 +27,12 @@ bioconductor-biocartaimage
       
       
 
-      ``1.4.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-magick: 
    :requirements:
 
@@ -84,7 +84,7 @@ bioconductor-biocartaimage
 
     <script>
         var package = "bioconductor-biocartaimage";
-        var versions = ["1.4.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.0.0"];
     </script>
 
 

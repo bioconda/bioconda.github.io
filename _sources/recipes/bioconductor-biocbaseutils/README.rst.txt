@@ -27,12 +27,12 @@ bioconductor-biocbaseutils
       
       
 
-      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -83,7 +83,7 @@ bioconductor-biocbaseutils
 
     <script>
         var package = "bioconductor-biocbaseutils";
-        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.12.0","1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

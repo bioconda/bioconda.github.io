@@ -27,12 +27,12 @@ bioconductor-rcx
       
       
 
-      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-igraph: 
    :depends r-jsonlite: 
    :depends r-plyr: 
@@ -86,7 +86,7 @@ bioconductor-rcx
 
     <script>
         var package = "bioconductor-rcx";
-        var versions = ["1.10.0","1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.14.0","1.10.0","1.6.0","1.4.0","1.2.0"];
     </script>
 
 

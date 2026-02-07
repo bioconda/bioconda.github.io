@@ -27,12 +27,12 @@ bioconductor-ttgsea
       
       
 
-      ``1.14.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-data.table: 
    :depends r-diagrammer: 
    :depends r-keras: 
@@ -92,7 +92,7 @@ bioconductor-ttgsea
 
     <script>
         var package = "bioconductor-ttgsea";
-        var versions = ["1.14.0","1.10.0","1.10.0","1.8.0","1.6.0"];
+        var versions = ["1.18.0","1.14.0","1.10.0","1.10.0","1.8.0"];
     </script>
 
 

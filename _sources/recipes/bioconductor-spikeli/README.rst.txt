@@ -29,10 +29,10 @@ bioconductor-spikeli
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.66.0-0</code>,  <code>2.62.0-0</code>,  <code>2.60.0-0</code>,  <code>2.58.0-0</code>,  <code>2.54.0-0</code>,  <code>2.52.0-0</code>,  <code>2.50.0-1</code>,  <code>2.50.0-0</code>,  <code>2.48.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.70.0-0</code>,  <code>2.66.0-0</code>,  <code>2.62.0-0</code>,  <code>2.60.0-0</code>,  <code>2.58.0-0</code>,  <code>2.54.0-0</code>,  <code>2.52.0-0</code>,  <code>2.50.0-1</code>,  <code>2.50.0-0</code>,  </span></summary>
       
 
-      ``2.66.0-0``,  ``2.62.0-0``,  ``2.60.0-0``,  ``2.58.0-0``,  ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-1``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.44.0-1``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-0``
+      ``2.70.0-0``,  ``2.66.0-0``,  ``2.62.0-0``,  ``2.60.0-0``,  ``2.58.0-0``,  ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-1``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.44.0-1``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ bioconductor-spikeli
       
 
    
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -92,7 +92,7 @@ bioconductor-spikeli
 
     <script>
         var package = "bioconductor-spikeli";
-        var versions = ["2.66.0","2.62.0","2.60.0","2.58.0","2.54.0"];
+        var versions = ["2.70.0","2.66.0","2.62.0","2.60.0","2.58.0"];
     </script>
 
 

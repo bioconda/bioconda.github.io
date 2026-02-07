@@ -26,9 +26,17 @@ ntsynt
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  <code>1.0.1-3</code>,  <code>1.0.1-2</code>,  <code>1.0.1-0</code>,  <code>1.0.0-1</code>,  </span></summary>
+      
 
+      ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -42,7 +50,7 @@ ntsynt
    :depends ncls: 
    :depends pybedtools: 
    :depends python: ``>=3.10,<3.11.0a0``
-   :depends python-igraph: ``<1.0.0``
+   :depends python-igraph: 
    :depends python_abi: ``3.10.* *_cp310``
    :depends samtools: 
    :depends seqtk: 
@@ -101,7 +109,7 @@ ntsynt
 
     <script>
         var package = "ntsynt";
-        var versions = ["1.0.4","1.0.3","1.0.2","1.0.2","1.0.1"];
+        var versions = ["1.0.5","1.0.4","1.0.3","1.0.2","1.0.2"];
     </script>
 
 

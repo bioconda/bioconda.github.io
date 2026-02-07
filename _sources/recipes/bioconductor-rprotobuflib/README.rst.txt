@@ -28,10 +28,10 @@ bioconductor-rprotobuflib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.18.0-0</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-2</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.6.0-2</code>,  <code>2.6.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.22.0-0</code>,  <code>2.18.0-0</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-2</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.6.0-2</code>,  </span></summary>
       
 
-      ``2.18.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-2``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.6.0-2``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``2.22.0-0``,  ``2.18.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-2``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.6.0-2``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -41,10 +41,12 @@ bioconductor-rprotobuflib
 
    
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libstdcxx: ``>=14``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -99,7 +101,7 @@ bioconductor-rprotobuflib
 
     <script>
         var package = "bioconductor-rprotobuflib";
-        var versions = ["2.18.0","2.14.0","2.14.0","2.12.0","2.10.0"];
+        var versions = ["2.22.0","2.18.0","2.14.0","2.14.0","2.12.0"];
     </script>
 
 

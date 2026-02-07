@@ -28,10 +28,10 @@ bioconductor-sbmlr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>1.98.0-0</code>,  <code>1.96.0-0</code>,  <code>1.94.0-0</code>,  <code>1.90.0-0</code>,  <code>1.88.0-0</code>,  <code>1.86.0-1</code>,  <code>1.86.0-0</code>,  <code>1.84.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.6.0-0</code>,  <code>2.2.0-0</code>,  <code>1.98.0-0</code>,  <code>1.96.0-0</code>,  <code>1.94.0-0</code>,  <code>1.90.0-0</code>,  <code>1.88.0-0</code>,  <code>1.86.0-1</code>,  <code>1.86.0-0</code>,  </span></summary>
       
 
-      ``2.2.0-0``,  ``1.98.0-0``,  ``1.96.0-0``,  ``1.94.0-0``,  ``1.90.0-0``,  ``1.88.0-0``,  ``1.86.0-1``,  ``1.86.0-0``,  ``1.84.0-0``,  ``1.82.0-0``,  ``1.80.0-1``,  ``1.80.0-0``,  ``1.78.0-0``
+      ``2.6.0-0``,  ``2.2.0-0``,  ``1.98.0-0``,  ``1.96.0-0``,  ``1.94.0-0``,  ``1.90.0-0``,  ``1.88.0-0``,  ``1.86.0-1``,  ``1.86.0-0``,  ``1.84.0-0``,  ``1.82.0-0``,  ``1.80.0-1``,  ``1.80.0-0``,  ``1.78.0-0``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ bioconductor-sbmlr
       
 
    
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-desolve: 
    :depends r-xml: 
    :requirements:
@@ -93,7 +93,7 @@ bioconductor-sbmlr
 
     <script>
         var package = "bioconductor-sbmlr";
-        var versions = ["2.2.0","1.98.0","1.96.0","1.94.0","1.90.0"];
+        var versions = ["2.6.0","2.2.0","1.98.0","1.96.0","1.94.0"];
     </script>
 
 

@@ -27,12 +27,12 @@ bioconductor-hubmapr
       
       
 
-      ``0.99.6-0``
+      ``1.4.0-0``,  ``0.99.6-0``
 
       
 
    
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dplyr: 
    :depends r-httr2: 
    :depends r-purrr: 
@@ -92,7 +92,7 @@ bioconductor-hubmapr
 
     <script>
         var package = "bioconductor-hubmapr";
-        var versions = ["0.99.6"];
+        var versions = ["1.4.0","0.99.6"];
     </script>
 
 

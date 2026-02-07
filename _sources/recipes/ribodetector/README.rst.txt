@@ -27,9 +27,17 @@ ribodetector
    :versions:
       
       
+      .. raw:: html
 
-      ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.4-0``,  ``0.2.3-0``
+         <details><summary><span class="truncated-version-list"><code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.9-0</code>,  <code>0.2.8-0</code>,  <code>0.2.7-0</code>,  <code>0.2.6-0</code>,  <code>0.2.4-0</code>,  </span></summary>
+      
 
+      ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.4-0``,  ``0.2.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -90,7 +98,7 @@ ribodetector
 
     <script>
         var package = "ribodetector";
-        var versions = ["0.3.2","0.3.1","0.3.0","0.2.9","0.2.8"];
+        var versions = ["0.3.3","0.3.2","0.3.1","0.3.0","0.2.9"];
     </script>
 
 
