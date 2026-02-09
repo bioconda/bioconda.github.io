@@ -28,10 +28,10 @@ bioconductor-hyper
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4.0-0</code>,  <code>2.0.0-0</code>,  <code>1.14.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.8.2-0</code>,  <code>2.4.0-0</code>,  <code>2.0.0-0</code>,  <code>1.14.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  </span></summary>
       
 
-      ``2.4.0-0``,  ``2.0.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.00.0-1``
+      ``2.8.2-0``,  ``2.4.0-0``,  ``2.0.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.00.0-1``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ bioconductor-hyper
       
 
    
-   :depends bioconductor-biocstyle: ``>=2.34.0,<2.35.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biocstyle: ``>=2.38.0,<2.39.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dplyr: 
    :depends r-ggforce: 
    :depends r-ggplot2: 
@@ -61,6 +61,7 @@ bioconductor-hyper
    :depends r-scales: 
    :depends r-shiny: 
    :depends r-stringr: 
+   :depends r-tibble: 
    :depends r-visnetwork: 
    :requirements:
 
@@ -112,7 +113,7 @@ bioconductor-hyper
 
     <script>
         var package = "bioconductor-hyper";
-        var versions = ["2.4.0","2.0.0","1.14.0","1.10.0","1.8.0"];
+        var versions = ["2.8.2","2.4.0","2.0.0","1.14.0","1.10.0"];
     </script>
 
 

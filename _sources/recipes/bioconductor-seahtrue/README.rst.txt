@@ -27,12 +27,12 @@ bioconductor-seahtrue
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-cli: ``>=3.4.1``
    :depends r-colorspace: ``>=2.1.0``
    :depends r-dplyr: ``>=1.1.2``
@@ -104,7 +104,7 @@ bioconductor-seahtrue
 
     <script>
         var package = "bioconductor-seahtrue";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

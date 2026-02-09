@@ -26,16 +26,24 @@ bioconductor-anvil
    :versions:
       
       
+      .. raw:: html
 
-      ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.3-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.3-0``
+         <details><summary><span class="truncated-version-list"><code>1.22.3-0</code>,  <code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.3-0</code>,  <code>1.10.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  </span></summary>
+      
 
+      ``1.22.3-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.3-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-anvilbase: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-biocbaseutils: ``>=1.8.0,<1.9.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
-   :depends r-biocmanager: 
+   :depends bioconductor-anvilbase: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-biocbaseutils: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-gcptools: ``>=1.0.0,<1.1.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dplyr: 
    :depends r-dt: 
    :depends r-futile.logger: 
@@ -43,12 +51,9 @@ bioconductor-anvil
    :depends r-httr: 
    :depends r-jsonlite: 
    :depends r-miniui: 
-   :depends r-rapiclient: ``>=0.1.3``
-   :depends r-rlang: 
+   :depends r-rapiclient: 
    :depends r-shiny: 
    :depends r-tibble: 
-   :depends r-tidyr: 
-   :depends r-tidyselect: 
    :depends r-yaml: 
    :requirements:
 
@@ -100,7 +105,7 @@ bioconductor-anvil
 
     <script>
         var package = "bioconductor-anvil";
-        var versions = ["1.18.0","1.14.0","1.12.3","1.10.0","1.6.0"];
+        var versions = ["1.22.3","1.18.0","1.14.0","1.12.3","1.10.0"];
     </script>
 
 

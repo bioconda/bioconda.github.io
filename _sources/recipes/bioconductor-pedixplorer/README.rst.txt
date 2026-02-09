@@ -27,28 +27,29 @@ bioconductor-pedixplorer
       
       
 
-      ``1.2.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-colourpicker: 
-   :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-dt: 
    :depends r-ggplot2: 
-   :depends r-gridextra: 
    :depends r-htmlwidgets: 
+   :depends r-igraph: 
    :depends r-matrix: 
    :depends r-plotly: 
    :depends r-plyr: 
    :depends r-quadprog: 
    :depends r-readxl: 
-   :depends r-scales: 
    :depends r-shiny: 
    :depends r-shinycssloaders: 
+   :depends r-shinyhelper: 
+   :depends r-shinyjqui: 
+   :depends r-shinyjs: 
    :depends r-shinytoastr: 
    :depends r-shinywidgets: 
    :depends r-stringr: 
@@ -103,7 +104,7 @@ bioconductor-pedixplorer
 
     <script>
         var package = "bioconductor-pedixplorer";
-        var versions = ["1.2.0"];
+        var versions = ["1.6.0","1.2.0"];
     </script>
 
 

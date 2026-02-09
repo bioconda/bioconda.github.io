@@ -28,10 +28,10 @@ bioconductor-bioccheck
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.42.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.1-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.46.3-0</code>,  <code>1.42.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.1-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  </span></summary>
       
 
-      ``1.42.0-0``,  ``1.38.0-0``,  ``1.36.1-0``,  ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
+      ``1.46.3-0``,  ``1.42.0-0``,  ``1.38.0-0``,  ``1.36.1-0``,  ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-bioccheck
       
 
    
-   :depends bioconductor-biocbaseutils: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-biocviews: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-graph: ``>=1.84.0,<1.85.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biocbaseutils: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-biocfilecache: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-biocviews: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-graph: ``>=1.88.0,<1.89.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-biocmanager: 
    :depends r-callr: 
    :depends r-cli: 
@@ -103,7 +103,7 @@ bioconductor-bioccheck
 
     <script>
         var package = "bioconductor-bioccheck";
-        var versions = ["1.42.0","1.38.0","1.36.1","1.34.0","1.30.0"];
+        var versions = ["1.46.3","1.42.0","1.38.0","1.36.1","1.34.0"];
     </script>
 
 

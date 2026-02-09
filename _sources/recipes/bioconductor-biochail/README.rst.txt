@@ -27,15 +27,15 @@ bioconductor-biochail
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-basilisk: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-basilisk: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biocfilecache: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dplyr: 
    :depends r-reticulate: 
    :requirements:
@@ -88,7 +88,7 @@ bioconductor-biochail
 
     <script>
         var package = "bioconductor-biochail";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.10.0","1.2.0","1.0.0"];
     </script>
 
 

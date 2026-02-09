@@ -13,7 +13,7 @@ dehomopolymerate
    Collapse homopolymer runs in FASTQ files
 
    :homepage: https://github.com/tseemann/dehomopolymerate
-   :license: GPL3
+   :license: GPL-3.0-or-later
    :recipe: /`dehomopolymerate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dehomopolymerate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dehomopolymerate/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ dehomopolymerate
       
       
 
-      ``0.4.0-5``,  ``0.4.0-4``,  ``0.4.0-3``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3-0``
+      ``0.4.1-0``,  ``0.4.0-5``,  ``0.4.0-4``,  ``0.4.0-3``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3-0``
 
       
 
@@ -85,7 +85,7 @@ dehomopolymerate
 
     <script>
         var package = "dehomopolymerate";
-        var versions = ["0.4.0","0.4.0","0.4.0","0.4.0","0.4.0"];
+        var versions = ["0.4.1","0.4.0","0.4.0","0.4.0","0.4.0"];
     </script>
 
 

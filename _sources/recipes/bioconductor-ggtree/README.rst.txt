@@ -29,10 +29,10 @@ bioconductor-ggtree
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.4-0</code>,  <code>3.14.0-0</code>,  <code>3.10.0-0</code>,  <code>3.8.0-0</code>,  <code>3.6.0-0</code>,  <code>3.2.0-0</code>,  <code>3.0.1-0</code>,  <code>2.4.1-0</code>,  <code>2.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.4-1</code>,  <code>4.0.4-0</code>,  <code>3.14.0-0</code>,  <code>3.10.0-0</code>,  <code>3.8.0-0</code>,  <code>3.6.0-0</code>,  <code>3.2.0-0</code>,  <code>3.0.1-0</code>,  <code>2.4.1-0</code>,  </span></summary>
       
 
-      ``4.0.4-0``,  ``3.14.0-0``,  ``3.10.0-0``,  ``3.8.0-0``,  ``3.6.0-0``,  ``3.2.0-0``,  ``3.0.1-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.2.1-0``,  ``2.0.0-0``,  ``1.16.3-0``,  ``1.16.0-0``,  ``1.14.6-0``,  ``1.14.4-0``,  ``1.12.7-0``,  ``1.10.0-0``,  ``1.8.2-0``,  ``1.4.20-0``,  ``1.2.12-0``
+      ``4.0.4-1``,  ``4.0.4-0``,  ``3.14.0-0``,  ``3.10.0-0``,  ``3.8.0-0``,  ``3.6.0-0``,  ``3.2.0-0``,  ``3.0.1-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.2.1-0``,  ``2.0.0-0``,  ``1.16.3-0``,  ``1.16.0-0``,  ``1.14.6-0``,  ``1.14.4-0``,  ``1.12.7-0``,  ``1.10.0-0``,  ``1.8.2-0``,  ``1.4.20-0``,  ``1.2.12-0``
 
       
       .. raw:: html
@@ -41,15 +41,15 @@ bioconductor-ggtree
       
 
    
-   :depends bioconductor-treeio: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-treeio: ``>=1.34.0,<1.35.0``
    :depends r-ape: 
    :depends r-aplot: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-cli: 
    :depends r-dplyr: 
    :depends r-ggfun: ``>=0.1.7``
    :depends r-ggiraph: ``>=0.9.1``
-   :depends r-ggplot2: ``>4.0.0``
+   :depends r-ggplot2: ``>=4.0.0``
    :depends r-magrittr: 
    :depends r-purrr: 
    :depends r-rlang: 
@@ -107,7 +107,7 @@ bioconductor-ggtree
 
     <script>
         var package = "bioconductor-ggtree";
-        var versions = ["4.0.4","3.14.0","3.10.0","3.8.0","3.6.0"];
+        var versions = ["4.0.4","4.0.4","3.14.0","3.10.0","3.8.0"];
     </script>
 
 

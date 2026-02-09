@@ -27,27 +27,29 @@ bioconductor-sparsearray
       
       
 
-      ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.0.10-0``
+      ``1.10.8-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.0.10-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0a0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
-   :depends bioconductor-matrixgenerics: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-matrixgenerics: ``>=1.18.0,<1.19.0a0``
-   :depends bioconductor-s4arrays: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-s4arrays: ``>=1.6.0,<1.7.0a0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
-   :depends bioconductor-xvector: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-xvector: ``>=0.46.0,<0.47.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0a0``
+   :depends bioconductor-matrixgenerics: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-matrixgenerics: ``>=1.22.0,<1.23.0a0``
+   :depends bioconductor-s4arrays: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-s4arrays: ``>=1.10.1,<1.11.0a0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
+   :depends bioconductor-xvector: ``>=0.50.0,<0.51.0``
+   :depends bioconductor-xvector: ``>=0.50.0,<0.51.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-matrix: 
    :depends r-matrixstats: 
    :requirements:
@@ -104,7 +106,7 @@ bioconductor-sparsearray
 
     <script>
         var package = "bioconductor-sparsearray";
-        var versions = ["1.6.0","1.6.0","1.2.2","1.2.2","1.2.2"];
+        var versions = ["1.10.8","1.6.0","1.6.0","1.2.2","1.2.2"];
     </script>
 
 

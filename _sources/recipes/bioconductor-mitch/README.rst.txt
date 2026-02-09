@@ -27,13 +27,14 @@ bioconductor-mitch
       
       
 
-      ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.22.1-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-beeswarm: 
+   :depends r-dplyr: 
    :depends r-echarts4r: 
    :depends r-ggally: 
    :depends r-ggplot2: 
@@ -42,6 +43,7 @@ bioconductor-mitch
    :depends r-kableextra: 
    :depends r-knitr: 
    :depends r-mass: 
+   :depends r-network: 
    :depends r-plyr: 
    :depends r-reshape2: 
    :depends r-rmarkdown: 
@@ -95,7 +97,7 @@ bioconductor-mitch
 
     <script>
         var package = "bioconductor-mitch";
-        var versions = ["1.14.0","1.12.0","1.10.0","1.6.0","1.4.0"];
+        var versions = ["1.22.1","1.14.0","1.12.0","1.10.0","1.6.0"];
     </script>
 
 

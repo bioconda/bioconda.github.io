@@ -28,10 +28,10 @@ bioconductor-humanomni5quadv1bcrlmm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.0-13</code>,  <code>1.0.0-12</code>,  <code>1.0.0-11</code>,  <code>1.0.0-10</code>,  <code>1.0.0-9</code>,  <code>1.0.0-8</code>,  <code>1.0.0-7</code>,  <code>1.0.0-6</code>,  <code>1.0.0-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.0-14</code>,  <code>1.0.0-13</code>,  <code>1.0.0-12</code>,  <code>1.0.0-11</code>,  <code>1.0.0-10</code>,  <code>1.0.0-9</code>,  <code>1.0.0-8</code>,  <code>1.0.0-7</code>,  <code>1.0.0-6</code>,  </span></summary>
       
 
-      ``1.0.0-13``,  ``1.0.0-12``,  ``1.0.0-11``,  ``1.0.0-10``,  ``1.0.0-9``,  ``1.0.0-8``,  ``1.0.0-7``,  ``1.0.0-6``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.0-14``,  ``1.0.0-13``,  ``1.0.0-12``,  ``1.0.0-11``,  ``1.0.0-10``,  ``1.0.0-9``,  ``1.0.0-8``,  ``1.0.0-7``,  ``1.0.0-6``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-humanomni5quadv1bcrlmm
       
 
    
-   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-data-packages: ``>=20260207``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:

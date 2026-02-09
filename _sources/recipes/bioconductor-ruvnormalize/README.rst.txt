@@ -29,10 +29,10 @@ bioconductor-ruvnormalize
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.40.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-2</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.44.0-0</code>,  <code>1.40.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-2</code>,  <code>1.24.0-0</code>,  </span></summary>
       
 
-      ``1.40.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-2``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``
+      ``1.44.0-0``,  ``1.40.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-2``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``
 
       
       .. raw:: html
@@ -41,9 +41,9 @@ bioconductor-ruvnormalize
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-ruvnormalizedata: ``>=1.26.0,<1.27.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-ruvnormalizedata: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -94,7 +94,7 @@ bioconductor-ruvnormalize
 
     <script>
         var package = "bioconductor-ruvnormalize";
-        var versions = ["1.40.0","1.36.0","1.34.0","1.32.0","1.28.0"];
+        var versions = ["1.44.0","1.40.0","1.36.0","1.34.0","1.32.0"];
     </script>
 
 

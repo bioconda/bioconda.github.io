@@ -27,14 +27,14 @@ bioconductor-anvilaz
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-anvilbase: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-biocbaseutils: ``>=1.8.0,<1.9.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-anvilbase: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-biocbaseutils: ``>=1.12.0,<1.13.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-curl: 
    :depends r-httr2: 
    :depends r-jsonlite: 
@@ -90,7 +90,7 @@ bioconductor-anvilaz
 
     <script>
         var package = "bioconductor-anvilaz";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

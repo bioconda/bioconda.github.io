@@ -28,10 +28,10 @@ bioconductor-gsean
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.2-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.2-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  </span></summary>
       
 
-      ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.2-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+      ``1.30.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.2-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
 
       
       .. raw:: html
@@ -40,14 +40,15 @@ bioconductor-gsean
       
 
    
-   :depends bioconductor-fgsea: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-fgsea: ``>=1.32.0,<1.33.0a0``
-   :depends bioconductor-ppinfer: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-ppinfer: ``>=1.32.0,<1.33.0a0``
+   :depends bioconductor-fgsea: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-fgsea: ``>=1.36.2,<1.37.0a0``
+   :depends bioconductor-ppinfer: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-ppinfer: ``>=1.36.0,<1.37.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -98,7 +99,7 @@ bioconductor-gsean
 
     <script>
         var package = "bioconductor-gsean";
-        var versions = ["1.26.0","1.22.0","1.20.2","1.18.0","1.18.0"];
+        var versions = ["1.30.0","1.26.0","1.22.0","1.20.2","1.18.0"];
     </script>
 
 

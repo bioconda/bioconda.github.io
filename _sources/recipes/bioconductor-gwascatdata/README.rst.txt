@@ -27,14 +27,14 @@ bioconductor-gwascatdata
       
       
 
-      ``0.99.6-6``,  ``0.99.6-5``,  ``0.99.6-4``,  ``0.99.6-3``,  ``0.99.6-2``,  ``0.99.6-1``,  ``0.99.6-0``
+      ``0.99.6-7``,  ``0.99.6-6``,  ``0.99.6-5``,  ``0.99.6-4``,  ``0.99.6-3``,  ``0.99.6-2``,  ``0.99.6-1``,  ``0.99.6-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-data-packages: ``>=20260207``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-data.table: 
    :requirements:
 

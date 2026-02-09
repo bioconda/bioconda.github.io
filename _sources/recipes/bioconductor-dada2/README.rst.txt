@@ -29,10 +29,10 @@ bioconductor-dada2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.34.0-2</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.22.0-2</code>,  <code>1.22.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.34.0-2</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.22.0-2</code>,  </span></summary>
       
 
-      ``1.34.0-2``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.22.0-2``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.4-0``,  ``1.2-0``,  ``1.0.3-0``,  ``0.99.10-0``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.1-0``,  ``0.10.0-0``
+      ``1.38.0-0``,  ``1.34.0-2``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.22.0-2``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.4-0``,  ``1.2-0``,  ``1.0.3-0``,  ``0.99.10-0``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.1-0``,  ``0.10.0-0``
 
       
       .. raw:: html
@@ -41,25 +41,27 @@ bioconductor-dada2
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0a0``
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0a0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
-   :depends bioconductor-shortread: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-shortread: ``>=1.64.0,<1.65.0a0``
-   :depends bioconductor-xvector: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-xvector: ``>=0.46.0,<0.47.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0a0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0a0``
+   :depends bioconductor-shortread: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-shortread: ``>=1.68.0,<1.69.0a0``
+   :depends bioconductor-xvector: ``>=0.50.0,<0.51.0``
+   :depends bioconductor-xvector: ``>=0.50.0,<0.51.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libcxx: ``>=19``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-ggplot2: ``>=2.1.0``
    :depends r-rcpp: ``>=0.12.0``
    :depends r-rcppparallel: ``>=4.3.0``
    :depends r-reshape2: ``>=1.4.1``
+   :depends tbb-devel: ``>=2022.3.0,<2022.4.0a0``
    :requirements:
 
    :additional platforms:
@@ -114,7 +116,7 @@ bioconductor-dada2
 
     <script>
         var package = "bioconductor-dada2";
-        var versions = ["1.34.0","1.34.0","1.34.0","1.30.0","1.28.0"];
+        var versions = ["1.38.0","1.34.0","1.34.0","1.34.0","1.30.0"];
     </script>
 
 

@@ -26,19 +26,28 @@ bioconductor-omnipathr
    :versions:
       
       
+      .. raw:: html
 
-      ``3.10.1-0``,  ``3.8.0-0``,  ``3.5.25-0``,  ``3.2.0-0``,  ``3.0.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>3.18.4-0</code>,  <code>3.10.1-0</code>,  <code>3.8.0-0</code>,  <code>3.5.25-0</code>,  <code>3.2.0-0</code>,  <code>3.0.0-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+      
 
+      ``3.18.4-0``,  ``3.10.1-0``,  ``3.8.0-0``,  ``3.5.25-0``,  ``3.2.0-0``,  ``3.0.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-checkmate: 
    :depends r-crayon: 
    :depends r-curl: 
    :depends r-digest: 
    :depends r-dplyr: ``>=1.1.0``
-   :depends r-httr: 
+   :depends r-fs: 
+   :depends r-httr2: 
    :depends r-igraph: 
    :depends r-jsonlite: 
    :depends r-later: 
@@ -47,20 +56,26 @@ bioconductor-omnipathr
    :depends r-magrittr: 
    :depends r-progress: 
    :depends r-purrr: 
+   :depends r-r.utils: 
    :depends r-rappdirs: 
    :depends r-readr: ``>=2.0.0``
    :depends r-readxl: 
    :depends r-rlang: 
    :depends r-rmarkdown: 
+   :depends r-rsqlite: 
    :depends r-rvest: 
+   :depends r-sessioninfo: 
    :depends r-stringi: 
    :depends r-stringr: 
    :depends r-tibble: 
    :depends r-tidyr: 
    :depends r-tidyselect: 
+   :depends r-vctrs: 
    :depends r-withr: 
+   :depends r-xml: 
    :depends r-xml2: 
    :depends r-yaml: 
+   :depends r-zip: 
    :requirements:
 
    :additional platforms:
@@ -111,7 +126,7 @@ bioconductor-omnipathr
 
     <script>
         var package = "bioconductor-omnipathr";
-        var versions = ["3.10.1","3.8.0","3.5.25","3.2.0","3.0.0"];
+        var versions = ["3.18.4","3.10.1","3.8.0","3.5.25","3.2.0"];
     </script>
 
 

@@ -27,12 +27,12 @@ bioconductor-gypsum
       
       
 
-      ``1.2.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-filelock: 
    :depends r-httr2: 
    :depends r-jsonlite: 
@@ -87,7 +87,7 @@ bioconductor-gypsum
 
     <script>
         var package = "bioconductor-gypsum";
-        var versions = ["1.2.0"];
+        var versions = ["1.6.0","1.2.0"];
     </script>
 
 

@@ -27,12 +27,12 @@ bioconductor-anvilbase
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dplyr: 
    :depends r-httr: 
    :depends r-httr2: 
@@ -88,7 +88,7 @@ bioconductor-anvilbase
 
     <script>
         var package = "bioconductor-anvilbase";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

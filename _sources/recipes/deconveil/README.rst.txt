@@ -28,12 +28,13 @@ deconveil
       
       
 
-      ``0.1.4-0``
+      ``0.2.0-0``,  ``0.1.4-0``
 
       
 
    
    :depends anndata: ``>=0.8.0``
+   :depends cmdstanpy: ``>=1.2.0``
    :depends formulaic: ``>=1.0.2``
    :depends formulaic-contrasts: ``>=0.2.0``
    :depends ipython: 
@@ -43,6 +44,7 @@ deconveil
    :depends pandas: ``>=1.4.0``
    :depends pydeseq2: ``>=0.4.12``
    :depends python: ``>=3.10``
+   :depends rpy2: ``>=3.5.0``
    :depends scikit-learn: ``>=1.1.0``
    :depends scipy: ``>=1.11.0``
    :depends seaborn: ``>=0.12.2``
@@ -96,7 +98,7 @@ deconveil
 
     <script>
         var package = "deconveil";
-        var versions = ["0.1.4"];
+        var versions = ["0.2.0","0.1.4"];
     </script>
 
 

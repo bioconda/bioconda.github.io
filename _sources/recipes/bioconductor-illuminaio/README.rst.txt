@@ -29,10 +29,10 @@ bioconductor-illuminaio
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.48.0-0</code>,  <code>0.44.0-2</code>,  <code>0.44.0-1</code>,  <code>0.44.0-0</code>,  <code>0.42.0-0</code>,  <code>0.40.0-2</code>,  <code>0.40.0-1</code>,  <code>0.40.0-0</code>,  <code>0.36.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.52.0-0</code>,  <code>0.48.0-0</code>,  <code>0.44.0-2</code>,  <code>0.44.0-1</code>,  <code>0.44.0-0</code>,  <code>0.42.0-0</code>,  <code>0.40.0-2</code>,  <code>0.40.0-1</code>,  <code>0.40.0-0</code>,  </span></summary>
       
 
-      ``0.48.0-0``,  ``0.44.0-2``,  ``0.44.0-1``,  ``0.44.0-0``,  ``0.42.0-0``,  ``0.40.0-2``,  ``0.40.0-1``,  ``0.40.0-0``,  ``0.36.0-2``,  ``0.36.0-1``,  ``0.36.0-0``,  ``0.34.0-0``,  ``0.32.0-1``,  ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.0-0``,  ``0.26.0-1``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-0``,  ``0.20.0-0``,  ``0.18.0-0``,  ``0.14.0-0``,  ``0.12.0-0``
+      ``0.52.0-0``,  ``0.48.0-0``,  ``0.44.0-2``,  ``0.44.0-1``,  ``0.44.0-0``,  ``0.42.0-0``,  ``0.40.0-2``,  ``0.40.0-1``,  ``0.40.0-0``,  ``0.36.0-2``,  ``0.36.0-1``,  ``0.36.0-0``,  ``0.34.0-0``,  ``0.32.0-1``,  ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.0-0``,  ``0.26.0-1``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-0``,  ``0.20.0-0``,  ``0.18.0-0``,  ``0.14.0-0``,  ``0.12.0-0``
 
       
       .. raw:: html
@@ -42,9 +42,11 @@ bioconductor-illuminaio
 
    
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-base64: 
    :requirements:
 
@@ -100,7 +102,7 @@ bioconductor-illuminaio
 
     <script>
         var package = "bioconductor-illuminaio";
-        var versions = ["0.48.0","0.44.0","0.44.0","0.44.0","0.42.0"];
+        var versions = ["0.52.0","0.48.0","0.44.0","0.44.0","0.44.0"];
     </script>
 
 

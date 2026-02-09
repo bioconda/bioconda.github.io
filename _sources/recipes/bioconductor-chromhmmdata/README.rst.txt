@@ -27,14 +27,14 @@ bioconductor-chromhmmdata
       
       
 
-      ``0.99.2-5``,  ``0.99.2-4``,  ``0.99.2-3``,  ``0.99.2-2``,  ``0.99.2-1``,  ``0.99.2-0``
+      ``0.99.2-6``,  ``0.99.2-5``,  ``0.99.2-4``,  ``0.99.2-3``,  ``0.99.2-2``,  ``0.99.2-1``,  ``0.99.2-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-data-packages: ``>=20260207``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:

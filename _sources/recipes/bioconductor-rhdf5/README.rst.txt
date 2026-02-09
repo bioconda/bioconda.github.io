@@ -29,10 +29,10 @@ bioconductor-rhdf5
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.50.0-1</code>,  <code>2.50.0-0</code>,  <code>2.46.1-1</code>,  <code>2.46.1-0</code>,  <code>2.44.0-1</code>,  <code>2.44.0-0</code>,  <code>2.42.0-2</code>,  <code>2.42.0-1</code>,  <code>2.42.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.54.1-0</code>,  <code>2.50.0-1</code>,  <code>2.50.0-0</code>,  <code>2.46.1-1</code>,  <code>2.46.1-0</code>,  <code>2.44.0-1</code>,  <code>2.44.0-0</code>,  <code>2.42.0-2</code>,  <code>2.42.0-1</code>,  </span></summary>
       
 
-      ``2.50.0-1``,  ``2.50.0-0``,  ``2.46.1-1``,  ``2.46.1-0``,  ``2.44.0-1``,  ``2.44.0-0``,  ``2.42.0-2``,  ``2.42.0-1``,  ``2.42.0-0``,  ``2.38.1-0``,  ``2.38.0-2``,  ``2.38.0-1``,  ``2.36.0-2``,  ``2.34.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.28.0-0``,  ``2.26.2-2``,  ``2.26.2-1``,  ``2.26.2-0``,  ``2.26.1-0``,  ``2.26.0-2``,  ``2.26.0-1``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.16.0-1``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-0``
+      ``2.54.1-0``,  ``2.50.0-1``,  ``2.50.0-0``,  ``2.46.1-1``,  ``2.46.1-0``,  ``2.44.0-1``,  ``2.44.0-0``,  ``2.42.0-2``,  ``2.42.0-1``,  ``2.42.0-0``,  ``2.38.1-0``,  ``2.38.0-2``,  ``2.38.0-1``,  ``2.36.0-2``,  ``2.34.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.28.0-0``,  ``2.26.2-2``,  ``2.26.2-1``,  ``2.26.2-0``,  ``2.26.1-0``,  ``2.26.0-2``,  ``2.26.0-1``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.16.0-1``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-0``
 
       
       .. raw:: html
@@ -41,16 +41,17 @@ bioconductor-rhdf5
       
 
    
-   :depends bioconductor-rhdf5filters: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-rhdf5filters: ``>=1.18.0,<1.19.0a0``
-   :depends bioconductor-rhdf5lib: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-rhdf5lib: ``>=1.28.0,<1.29.0a0``
+   :depends bioconductor-rhdf5filters: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-rhdf5filters: ``>=1.22.0,<1.23.0a0``
+   :depends bioconductor-rhdf5lib: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-rhdf5lib: ``>=1.32.0,<1.33.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libstdcxx: ``>=14``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -105,7 +106,7 @@ bioconductor-rhdf5
 
     <script>
         var package = "bioconductor-rhdf5";
-        var versions = ["2.50.0","2.50.0","2.46.1","2.46.1","2.44.0"];
+        var versions = ["2.54.1","2.50.0","2.50.0","2.46.1","2.46.1"];
     </script>
 
 

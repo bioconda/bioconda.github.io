@@ -27,32 +27,39 @@ bioconductor-clustirr
       
       
 
-      ``1.4.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-pwalign: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-pwalign: ``>=1.2.0,<1.3.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libstdcxx: ``>=14``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-bh: ``>=1.66.0``
    :depends r-blaster: 
+   :depends r-dplyr: 
    :depends r-future: 
    :depends r-future.apply: 
+   :depends r-ggforce: 
+   :depends r-ggplot2: 
    :depends r-igraph: 
+   :depends r-posterior: 
    :depends r-rcpp: ``>=0.12.0``
    :depends r-rcppeigen: ``>=0.3.3.3.0``
    :depends r-rcppparallel: ``>=5.0.1``
    :depends r-reshape2: 
    :depends r-rstan: ``>=2.18.1``
    :depends r-rstantools: ``>=2.4.0``
+   :depends r-scales: 
    :depends r-stanheaders: ``>=2.18.0``
    :depends r-stringdist: 
+   :depends r-tidyr: 
    :depends r-visnetwork: 
+   :depends tbb-devel: ``>=2022.3.0,<2022.4.0a0``
    :requirements:
 
    :additional platforms:
@@ -103,7 +110,7 @@ bioconductor-clustirr
 
     <script>
         var package = "bioconductor-clustirr";
-        var versions = ["1.4.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.0.0"];
     </script>
 
 

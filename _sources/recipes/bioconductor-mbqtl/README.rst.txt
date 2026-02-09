@@ -27,13 +27,13 @@ bioconductor-mbqtl
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-metagenomeseq: ``>=1.43.0,<1.44.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-metagenomeseq: ``>=1.52.0,<1.53.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-broom: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
@@ -92,7 +92,7 @@ bioconductor-mbqtl
 
     <script>
         var package = "bioconductor-mbqtl";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.10.0","1.2.0","1.0.0"];
     </script>
 
 

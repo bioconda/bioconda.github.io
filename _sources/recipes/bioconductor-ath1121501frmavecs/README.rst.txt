@@ -27,14 +27,14 @@ bioconductor-ath1121501frmavecs
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-data-packages: ``>=20260207``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -85,7 +85,7 @@ bioconductor-ath1121501frmavecs
 
     <script>
         var package = "bioconductor-ath1121501frmavecs";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

@@ -42,6 +42,7 @@ bioconductor-dnacopy
 
    
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc: ``>=14``
    :depends libgfortran: 
    :depends libgfortran5: ``>=14.3.0``
    :depends liblapack: ``>=3.9.0,<4.0a0``

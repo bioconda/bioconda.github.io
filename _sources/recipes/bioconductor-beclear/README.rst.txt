@@ -29,10 +29,10 @@ bioconductor-beclear
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.22.0-0</code>,  <code>2.18.0-1</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  <code>2.10.0-2</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.26.0-0</code>,  <code>2.22.0-0</code>,  <code>2.18.0-1</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  <code>2.10.0-2</code>,  <code>2.10.0-1</code>,  </span></summary>
       
 
-      ``2.22.0-0``,  ``2.18.0-1``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.10.0-2``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.8.0-0``
+      ``2.26.0-0``,  ``2.22.0-0``,  ``2.18.0-1``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.10.0-2``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.8.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,16 @@ bioconductor-beclear
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0a0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libstdcxx: ``>=14``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends r-abind: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-data.table: ``>=1.11.8``
    :depends r-dixontest: 
    :depends r-futile.logger: 
@@ -110,7 +112,7 @@ bioconductor-beclear
 
     <script>
         var package = "bioconductor-beclear";
-        var versions = ["2.22.0","2.18.0","2.18.0","2.16.0","2.14.0"];
+        var versions = ["2.26.0","2.22.0","2.18.0","2.18.0","2.16.0"];
     </script>
 
 

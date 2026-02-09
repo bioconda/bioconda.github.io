@@ -29,10 +29,10 @@ bioconductor-compass
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.44.0-0</code>,  <code>1.40.0-1</code>,  <code>1.40.0-0</code>,  <code>1.38.1-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.32.0-2</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.48.0-0</code>,  <code>1.44.0-0</code>,  <code>1.40.0-1</code>,  <code>1.40.0-0</code>,  <code>1.38.1-0</code>,  <code>1.36.0-1</code>,  <code>1.36.0-0</code>,  <code>1.32.0-2</code>,  <code>1.32.0-1</code>,  </span></summary>
       
 
-      ``1.44.0-0``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.1-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.32.0-2``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.18.0-0``,  ``1.16.0-0``
+      ``1.48.0-0``,  ``1.44.0-0``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.1-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.32.0-2``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.18.0-0``,  ``1.16.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,16 @@ bioconductor-compass
       
 
    
-   :depends bioconductor-biocstyle: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-biocstyle: ``>=2.34.0,<2.35.0a0``
+   :depends bioconductor-biocstyle: ``>=2.38.0,<2.39.0``
+   :depends bioconductor-biocstyle: ``>=2.38.0,<2.39.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libstdcxx: ``>=14``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends r-abind: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-clue: 
    :depends r-coda: 
    :depends r-data.table: 
@@ -119,7 +121,7 @@ bioconductor-compass
 
     <script>
         var package = "bioconductor-compass";
-        var versions = ["1.44.0","1.40.0","1.40.0","1.38.1","1.36.0"];
+        var versions = ["1.48.0","1.44.0","1.40.0","1.40.0","1.38.1"];
     </script>
 
 

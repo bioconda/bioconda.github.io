@@ -30,20 +30,19 @@ ngscheckmate
       
       
 
-      ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-3``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.1-5``,  ``1.0.1-4``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-3``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bcftools: ``>=1.21,<2.0a0``
+   :depends bcftools: ``>=1.23,<2.0a0``
    :depends bowtie: ``>=1.3.1,<1.4.0a0``
-   :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends perl: 
-   :depends python: ``>=3.12,<3.13.0a0``
-   :depends python_abi: ``3.12.* *_cp312``
-   :depends r-base: ``>=4``
-   :depends samtools: ``>=1.21,<2.0a0``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
+   :depends r-base: 
+   :depends samtools: ``>=1.23,<2.0a0``
    :requirements:
 
    :additional platforms:

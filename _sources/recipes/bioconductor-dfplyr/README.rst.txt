@@ -27,14 +27,14 @@ bioconductor-dfplyr
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dplyr: 
    :depends r-rlang: 
    :depends r-tidyselect: 
@@ -88,7 +88,7 @@ bioconductor-dfplyr
 
     <script>
         var package = "bioconductor-dfplyr";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

@@ -29,10 +29,10 @@ bioconductor-tweedeseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.52.0-1</code>,  <code>1.52.0-0</code>,  <code>1.48.0-0</code>,  <code>1.45.0-0</code>,  <code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.40.0-2</code>,  <code>1.40.0-1</code>,  <code>1.40.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.56.0-0</code>,  <code>1.52.0-1</code>,  <code>1.52.0-0</code>,  <code>1.48.0-0</code>,  <code>1.45.0-0</code>,  <code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.40.0-2</code>,  <code>1.40.0-1</code>,  </span></summary>
       
 
-      ``1.52.0-1``,  ``1.52.0-0``,  ``1.48.0-0``,  ``1.45.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.40.0-2``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.1-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
+      ``1.56.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.48.0-0``,  ``1.45.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.40.0-2``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.1-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
 
       
       .. raw:: html
@@ -41,17 +41,19 @@ bioconductor-tweedeseq
       
 
    
-   :depends bioconductor-cqn: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-cqn: ``>=1.52.0,<1.53.0a0``
-   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
-   :depends bioconductor-edger: ``>=4.4.0,<4.5.0a0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
-   :depends bioconductor-limma: ``>=3.62.1,<3.63.0a0``
+   :depends bioconductor-cqn: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-cqn: ``>=1.56.0,<1.57.0a0``
+   :depends bioconductor-edger: ``>=4.8.0,<4.9.0``
+   :depends bioconductor-edger: ``>=4.8.2,<4.9.0a0``
+   :depends bioconductor-limma: ``>=3.66.0,<3.67.0``
+   :depends bioconductor-limma: ``>=3.66.0,<3.67.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libstdcxx: ``>=14``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-mass: 
    :depends r-rcpp: ``>=1.0.10``
    :requirements:
@@ -108,7 +110,7 @@ bioconductor-tweedeseq
 
     <script>
         var package = "bioconductor-tweedeseq";
-        var versions = ["1.52.0","1.52.0","1.48.0","1.45.0","1.44.0"];
+        var versions = ["1.56.0","1.52.0","1.52.0","1.48.0","1.45.0"];
     </script>
 
 

@@ -27,16 +27,18 @@ bioconductor-omada
       
       
 
-      ``1.8.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libstdcxx: ``>=14``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-clvalid: ``>=0.7``
    :depends r-dicer: ``>=0.6.0``
    :depends r-dplyr: ``>=1.0.7``
@@ -98,7 +100,7 @@ bioconductor-omada
 
     <script>
         var package = "bioconductor-omada";
-        var versions = ["1.8.0","1.4.0","1.4.0","1.1.0","1.0.0"];
+        var versions = ["1.12.0","1.8.0","1.4.0","1.4.0","1.1.0"];
     </script>
 
 

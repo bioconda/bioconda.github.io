@@ -27,22 +27,24 @@ bioconductor-cardinalio
       
       
 
-      ``1.4.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0a0``
-   :depends bioconductor-matter: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-matter: ``>=2.8.0,<2.9.0a0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0a0``
+   :depends bioconductor-matter: ``>=2.12.0,<2.13.0``
+   :depends bioconductor-matter: ``>=2.12.0,<2.13.0a0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libstdcxx: ``>=14``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-ontologyindex: 
    :requirements:
 
@@ -94,7 +96,7 @@ bioconductor-cardinalio
 
     <script>
         var package = "bioconductor-cardinalio";
-        var versions = ["1.4.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.0.0"];
     </script>
 
 

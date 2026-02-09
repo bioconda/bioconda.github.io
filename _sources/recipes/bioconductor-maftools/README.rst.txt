@@ -29,10 +29,10 @@ bioconductor-maftools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.22.0-0</code>,  <code>2.18.0-1</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  <code>2.10.05-0</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.26.0-0</code>,  <code>2.22.0-0</code>,  <code>2.18.0-1</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  <code>2.10.05-0</code>,  <code>2.10.0-1</code>,  </span></summary>
       
 
-      ``2.22.0-0``,  ``2.18.0-1``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.10.05-0``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.05-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.10-0``,  ``2.0.0-0``,  ``1.8.0-0``,  ``1.6.15-0``,  ``1.4.27-0``
+      ``2.26.0-0``,  ``2.22.0-0``,  ``2.18.0-1``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.10.05-0``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.05-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.10-0``,  ``2.0.0-0``,  ``1.8.0-0``,  ``1.6.15-0``,  ``1.4.27-0``
 
       
       .. raw:: html
@@ -41,18 +41,16 @@ bioconductor-maftools
       
 
    
-   :depends bioconductor-dnacopy: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-dnacopy: ``>=1.80.0,<1.81.0a0``
-   :depends bioconductor-rhtslib: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-rhtslib: ``>=3.2.0,<3.3.0a0``
-   :depends bioconductor-zlibbioc: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-zlibbioc: ``>=1.52.0,<1.53.0a0``
+   :depends bioconductor-dnacopy: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-dnacopy: ``>=1.84.0,<1.85.0a0``
+   :depends bioconductor-rhtslib: ``>=3.6.0,<3.7.0``
+   :depends bioconductor-rhtslib: ``>=3.6.0,<3.7.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends liblzma: ``>=5.6.3,<6.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-data.table: 
    :depends r-pheatmap: 
    :depends r-rcolorbrewer: 
@@ -111,7 +109,7 @@ bioconductor-maftools
 
     <script>
         var package = "bioconductor-maftools";
-        var versions = ["2.22.0","2.18.0","2.18.0","2.16.0","2.14.0"];
+        var versions = ["2.26.0","2.22.0","2.18.0","2.18.0","2.16.0"];
     </script>
 
 

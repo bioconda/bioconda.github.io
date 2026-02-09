@@ -29,10 +29,10 @@ bioconductor-geneselectmmd
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.50.0-0</code>,  <code>2.46.0-1</code>,  <code>2.46.0-0</code>,  <code>2.44.1-0</code>,  <code>2.42.0-1</code>,  <code>2.42.0-0</code>,  <code>2.38.0-2</code>,  <code>2.38.0-1</code>,  <code>2.38.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.54.0-0</code>,  <code>2.50.0-0</code>,  <code>2.46.0-1</code>,  <code>2.46.0-0</code>,  <code>2.44.1-0</code>,  <code>2.42.0-1</code>,  <code>2.42.0-0</code>,  <code>2.38.0-2</code>,  <code>2.38.0-1</code>,  </span></summary>
       
 
-      ``2.50.0-0``,  ``2.46.0-1``,  ``2.46.0-0``,  ``2.44.1-0``,  ``2.42.0-1``,  ``2.42.0-0``,  ``2.38.0-2``,  ``2.38.0-1``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.26.0-1``,  ``2.26.0-0``
+      ``2.54.0-0``,  ``2.50.0-0``,  ``2.46.0-1``,  ``2.46.0-0``,  ``2.44.1-0``,  ``2.42.0-1``,  ``2.42.0-0``,  ``2.38.0-2``,  ``2.38.0-1``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.26.0-1``,  ``2.26.0-0``
 
       
       .. raw:: html
@@ -41,16 +41,18 @@ bioconductor-geneselectmmd
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0a0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0a0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0a0``
+   :depends bioconductor-limma: ``>=3.66.0,<3.67.0``
+   :depends bioconductor-limma: ``>=3.66.0,<3.67.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends libgfortran: 
-   :depends libgfortran5: ``>=13.3.0``
+   :depends libgfortran5: ``>=14.3.0``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-mass: 
    :requirements:
 
@@ -106,7 +108,7 @@ bioconductor-geneselectmmd
 
     <script>
         var package = "bioconductor-geneselectmmd";
-        var versions = ["2.50.0","2.46.0","2.46.0","2.44.1","2.42.0"];
+        var versions = ["2.54.0","2.50.0","2.46.0","2.46.0","2.44.1"];
     </script>
 
 

@@ -27,12 +27,12 @@ bioconductor-biocroxytest
       
       
 
-      ``1.2.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-cli: 
    :depends r-glue: 
    :depends r-roxygen2: 
@@ -87,7 +87,7 @@ bioconductor-biocroxytest
 
     <script>
         var package = "bioconductor-biocroxytest";
-        var versions = ["1.2.0"];
+        var versions = ["1.6.0","1.2.0"];
     </script>
 
 

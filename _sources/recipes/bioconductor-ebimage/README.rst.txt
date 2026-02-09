@@ -29,10 +29,10 @@ bioconductor-ebimage
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.48.0-0</code>,  <code>4.44.0-1</code>,  <code>4.44.0-0</code>,  <code>4.42.0-0</code>,  <code>4.40.0-1</code>,  <code>4.40.0-0</code>,  <code>4.36.0-2</code>,  <code>4.36.0-1</code>,  <code>4.36.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.52.0-0</code>,  <code>4.48.0-0</code>,  <code>4.44.0-1</code>,  <code>4.44.0-0</code>,  <code>4.42.0-0</code>,  <code>4.40.0-1</code>,  <code>4.40.0-0</code>,  <code>4.36.0-2</code>,  <code>4.36.0-1</code>,  </span></summary>
       
 
-      ``4.48.0-0``,  ``4.44.0-1``,  ``4.44.0-0``,  ``4.42.0-0``,  ``4.40.0-1``,  ``4.40.0-0``,  ``4.36.0-2``,  ``4.36.0-1``,  ``4.36.0-0``,  ``4.34.0-0``,  ``4.32.0-1``,  ``4.32.0-0``,  ``4.30.0-0``,  ``4.28.0-0``,  ``4.26.0-1``,  ``4.24.0-0``,  ``4.22.1-0``,  ``4.20.0-0``,  ``4.18.3-0``,  ``4.13.0-0``,  ``4.12.2-0``
+      ``4.52.0-0``,  ``4.48.0-0``,  ``4.44.0-1``,  ``4.44.0-0``,  ``4.42.0-0``,  ``4.40.0-1``,  ``4.40.0-0``,  ``4.36.0-2``,  ``4.36.0-1``,  ``4.36.0-0``,  ``4.34.0-0``,  ``4.32.0-1``,  ``4.32.0-0``,  ``4.30.0-0``,  ``4.28.0-0``,  ``4.26.0-1``,  ``4.24.0-0``,  ``4.22.1-0``,  ``4.20.0-0``,  ``4.18.3-0``,  ``4.13.0-0``,  ``4.12.2-0``
 
       
       .. raw:: html
@@ -41,14 +41,16 @@ bioconductor-ebimage
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libstdcxx: ``>=14``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends r-abind: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-fftwtools: ``>=0.9-7``
    :depends r-htmltools: 
    :depends r-htmlwidgets: 
@@ -111,7 +113,7 @@ bioconductor-ebimage
 
     <script>
         var package = "bioconductor-ebimage";
-        var versions = ["4.48.0","4.44.0","4.44.0","4.42.0","4.40.0"];
+        var versions = ["4.52.0","4.48.0","4.44.0","4.44.0","4.42.0"];
     </script>
 
 

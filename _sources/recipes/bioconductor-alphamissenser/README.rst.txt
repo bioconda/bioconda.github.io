@@ -27,18 +27,18 @@ bioconductor-alphamissenser
       
       
 
-      ``1.2.0-0``
+      ``1.6.1-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biocbaseutils: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biocbaseutils: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-biocfilecache: ``>=3.0.0,<3.1.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-curl: 
    :depends r-dbi: 
    :depends r-dplyr: 
-   :depends r-duckdb: ``>=0.9.1``
+   :depends r-duckdb: ``>=1.3.1``
    :depends r-ggplot2: 
    :depends r-memoise: 
    :depends r-rjsoncons: ``>=1.0.1``
@@ -95,7 +95,7 @@ bioconductor-alphamissenser
 
     <script>
         var package = "bioconductor-alphamissenser";
-        var versions = ["1.2.0"];
+        var versions = ["1.6.1","1.2.0"];
     </script>
 
 

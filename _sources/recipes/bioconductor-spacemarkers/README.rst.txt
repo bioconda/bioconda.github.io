@@ -27,22 +27,33 @@ bioconductor-spacemarkers
       
       
 
-      ``1.2.1-0``
+      ``2.0.0-0``,  ``1.2.1-0``
 
       
 
    
-   :depends bioconductor-qvalue: ``>=2.38.0,<2.39.0``
+   :depends bioconductor-qvalue: ``>=2.42.0,<2.43.0``
    :depends r-ape: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
+   :depends r-circlize: 
+   :depends r-dplyr: 
+   :depends r-effsize: 
+   :depends r-ggplot2: 
    :depends r-hdf5r: 
    :depends r-jsonlite: 
    :depends r-matrix: 
    :depends r-matrixstats: 
    :depends r-matrixtests: 
+   :depends r-mixtools: 
+   :depends r-nanoparquet: 
+   :depends r-rcolorbrewer: 
+   :depends r-readbitmap: 
+   :depends r-reshape2: 
+   :depends r-rlang: 
    :depends r-rstatix: 
    :depends r-spatstat.explore: 
    :depends r-spatstat.geom: 
+   :depends r-viridis: 
    :requirements:
 
    :additional platforms:
@@ -93,7 +104,7 @@ bioconductor-spacemarkers
 
     <script>
         var package = "bioconductor-spacemarkers";
-        var versions = ["1.2.1"];
+        var versions = ["2.0.0","1.2.1"];
     </script>
 
 

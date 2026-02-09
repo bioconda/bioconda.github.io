@@ -27,15 +27,15 @@ bioconductor-anvilpublish
       
       
 
-      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.1-0``,  ``1.2.0-0``,  ``1.0.0-3``,  ``1.0.0-2``
+      ``1.20.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.1-0``,  ``1.2.0-0``,  ``1.0.0-3``,  ``1.0.0-2``
 
       
 
    
-   :depends bioconductor-anvil: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-anvilgcp: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-biocbaseutils: ``>=1.8.0,<1.9.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-anvil: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-anvilgcp: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-biocbaseutils: ``>=1.12.0,<1.13.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-biocmanager: 
    :depends r-httr: 
    :depends r-jsonlite: 
@@ -93,7 +93,7 @@ bioconductor-anvilpublish
 
     <script>
         var package = "bioconductor-anvilpublish";
-        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.4.1"];
+        var versions = ["1.20.0","1.16.0","1.12.0","1.10.0","1.8.0"];
     </script>
 
 

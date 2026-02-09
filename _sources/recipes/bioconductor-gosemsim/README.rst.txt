@@ -29,10 +29,10 @@ bioconductor-gosemsim
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.32.0-1</code>,  <code>2.32.0-0</code>,  <code>2.28.0-1</code>,  <code>2.28.0-0</code>,  <code>2.26.0-0</code>,  <code>2.24.0-1</code>,  <code>2.24.0-0</code>,  <code>2.20.0-2</code>,  <code>2.20.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.36.0-0</code>,  <code>2.32.0-1</code>,  <code>2.32.0-0</code>,  <code>2.28.0-1</code>,  <code>2.28.0-0</code>,  <code>2.26.0-0</code>,  <code>2.24.0-1</code>,  <code>2.24.0-0</code>,  <code>2.20.0-2</code>,  </span></summary>
       
 
-      ``2.32.0-1``,  ``2.32.0-0``,  ``2.28.0-1``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-1``,  ``2.24.0-0``,  ``2.20.0-2``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.1-0``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-1``,  ``2.8.0-0``,  ``2.6.2-0``,  ``2.4.0-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``1.30.3-0``,  ``1.29.0-0``,  ``1.28.2-0``
+      ``2.36.0-0``,  ``2.32.0-1``,  ``2.32.0-0``,  ``2.28.0-1``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-1``,  ``2.24.0-0``,  ``2.20.0-2``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.1-0``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-1``,  ``2.8.0-0``,  ``2.6.2-0``,  ``2.4.0-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``1.30.3-0``,  ``1.29.0-0``,  ``1.28.2-0``
 
       
       .. raw:: html
@@ -41,21 +41,22 @@ bioconductor-gosemsim
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0a0``
-   :depends bioconductor-go.db: ``>=3.20.0,<3.21.0``
-   :depends bioconductor-go.db: ``>=3.20.0,<3.21.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0a0``
+   :depends bioconductor-go.db: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-go.db: ``>=3.22.0,<3.23.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libcxx: ``>=19``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dbi: 
    :depends r-digest: 
    :depends r-r.utils: 
    :depends r-rcpp: 
    :depends r-rlang: 
-   :depends r-yulab.utils: ``>=0.1.6``
+   :depends r-yulab.utils: ``>=0.2.1``
    :requirements:
 
    :additional platforms:
@@ -110,7 +111,7 @@ bioconductor-gosemsim
 
     <script>
         var package = "bioconductor-gosemsim";
-        var versions = ["2.32.0","2.32.0","2.28.0","2.28.0","2.26.0"];
+        var versions = ["2.36.0","2.32.0","2.32.0","2.28.0","2.28.0"];
     </script>
 
 

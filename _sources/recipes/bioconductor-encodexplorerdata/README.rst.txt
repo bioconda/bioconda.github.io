@@ -28,10 +28,10 @@ bioconductor-encodexplorerdata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.99.5-9</code>,  <code>0.99.5-8</code>,  <code>0.99.5-7</code>,  <code>0.99.5-6</code>,  <code>0.99.5-5</code>,  <code>0.99.5-4</code>,  <code>0.99.5-3</code>,  <code>0.99.5-2</code>,  <code>0.99.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.99.5-10</code>,  <code>0.99.5-9</code>,  <code>0.99.5-8</code>,  <code>0.99.5-7</code>,  <code>0.99.5-6</code>,  <code>0.99.5-5</code>,  <code>0.99.5-4</code>,  <code>0.99.5-3</code>,  <code>0.99.5-2</code>,  </span></summary>
       
 
-      ``0.99.5-9``,  ``0.99.5-8``,  ``0.99.5-7``,  ``0.99.5-6``,  ``0.99.5-5``,  ``0.99.5-4``,  ``0.99.5-3``,  ``0.99.5-2``,  ``0.99.5-1``,  ``0.99.5-0``,  ``0.99.4-0``,  ``0.99.1-1``
+      ``0.99.5-10``,  ``0.99.5-9``,  ``0.99.5-8``,  ``0.99.5-7``,  ``0.99.5-6``,  ``0.99.5-5``,  ``0.99.5-4``,  ``0.99.5-3``,  ``0.99.5-2``,  ``0.99.5-1``,  ``0.99.5-0``,  ``0.99.4-0``,  ``0.99.1-1``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-encodexplorerdata
       
 
    
-   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-data-packages: ``>=20260207``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-data.table: 
    :depends r-jsonlite: 
    :depends r-rcurl: 

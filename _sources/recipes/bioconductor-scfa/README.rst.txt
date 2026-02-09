@@ -27,13 +27,13 @@ bioconductor-scfa
       
       
 
-      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.20.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-cluster: 
    :depends r-coro: 
    :depends r-glmnet: 
@@ -94,7 +94,7 @@ bioconductor-scfa
 
     <script>
         var package = "bioconductor-scfa";
-        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.4.0"];
+        var versions = ["1.20.0","1.16.0","1.12.0","1.10.0","1.8.0"];
     </script>
 
 

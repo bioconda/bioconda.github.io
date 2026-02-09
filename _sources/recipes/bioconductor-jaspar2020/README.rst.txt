@@ -26,15 +26,23 @@ bioconductor-jaspar2020
    :versions:
       
       
+      .. raw:: html
 
-      ``0.99.10-8``,  ``0.99.10-7``,  ``0.99.10-6``,  ``0.99.10-5``,  ``0.99.10-4``,  ``0.99.10-3``,  ``0.99.10-2``,  ``0.99.10-1``,  ``0.99.10-0``
+         <details><summary><span class="truncated-version-list"><code>0.99.10-9</code>,  <code>0.99.10-8</code>,  <code>0.99.10-7</code>,  <code>0.99.10-6</code>,  <code>0.99.10-5</code>,  <code>0.99.10-4</code>,  <code>0.99.10-3</code>,  <code>0.99.10-2</code>,  <code>0.99.10-1</code>,  </span></summary>
+      
 
+      ``0.99.10-9``,  ``0.99.10-8``,  ``0.99.10-7``,  ``0.99.10-6``,  ``0.99.10-5``,  ``0.99.10-4``,  ``0.99.10-3``,  ``0.99.10-2``,  ``0.99.10-1``,  ``0.99.10-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-data-packages: ``>=20260207``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:

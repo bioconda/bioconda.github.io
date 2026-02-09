@@ -26,19 +26,27 @@ bioconductor-geneplast.data
    :versions:
       
       
+      .. raw:: html
 
-      ``0.99.9-0``,  ``0.99.7-0``,  ``0.99.6-2``,  ``0.99.6-1``,  ``0.99.6-0``,  ``0.99.4-0``,  ``0.99.2-2``,  ``0.99.2-1``,  ``0.99.2-0``
+         <details><summary><span class="truncated-version-list"><code>0.99.9-1</code>,  <code>0.99.9-0</code>,  <code>0.99.7-0</code>,  <code>0.99.6-2</code>,  <code>0.99.6-1</code>,  <code>0.99.6-0</code>,  <code>0.99.4-0</code>,  <code>0.99.2-2</code>,  <code>0.99.2-1</code>,  </span></summary>
+      
 
+      ``0.99.9-1``,  ``0.99.9-0``,  ``0.99.7-0``,  ``0.99.6-2``,  ``0.99.6-1``,  ``0.99.6-0``,  ``0.99.4-0``,  ``0.99.2-2``,  ``0.99.2-1``,  ``0.99.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-data-packages: ``>=20241103``
-   :depends bioconductor-geneplast: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-treeio: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-biocfilecache: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-data-packages: ``>=20260207``
+   :depends bioconductor-geneplast: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-treeio: ``>=1.34.0,<1.35.0``
    :depends curl: 
    :depends r-ape: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dplyr: 
    :depends r-igraph: 
    :depends r-purrr: 
@@ -95,7 +103,7 @@ bioconductor-geneplast.data
 
     <script>
         var package = "bioconductor-geneplast.data";
-        var versions = ["0.99.9","0.99.7","0.99.6","0.99.6","0.99.6"];
+        var versions = ["0.99.9","0.99.9","0.99.7","0.99.6","0.99.6"];
     </script>
 
 

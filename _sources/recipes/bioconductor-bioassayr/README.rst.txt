@@ -28,10 +28,10 @@ bioconductor-bioassayr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.44.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.2-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.48.0-0</code>,  <code>1.44.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.2-0</code>,  <code>1.28.0-0</code>,  </span></summary>
       
 
-      ``1.44.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.2-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.1-0``,  ``1.20.0-0``
+      ``1.48.0-0``,  ``1.44.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.2-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.20.1-0``,  ``1.20.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-bioassayr
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-chemminer: ``>=3.58.0,<3.59.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-chemminer: ``>=3.62.0,<3.63.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dbi: ``>=0.3.1``
    :depends r-matrix: 
    :depends r-rjson: 
@@ -98,7 +98,7 @@ bioconductor-bioassayr
 
     <script>
         var package = "bioconductor-bioassayr";
-        var versions = ["1.44.0","1.40.0","1.38.0","1.36.0","1.32.0"];
+        var versions = ["1.48.0","1.44.0","1.40.0","1.38.0","1.36.0"];
     </script>
 
 

@@ -1020,9 +1020,9 @@ needs to be added manually if your package makes use of OpenMP.</p>
 <h4><a class="toc-backref" href="#id54" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_setuptools</span></code>”</a><a class="headerlink" href="#uses-setuptools" title="Link to this heading">¶</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe uses setuptools in run depends</p>
-<p>Most Python packages only need setuptools during installation.
-Check if the package really needs setuptools (e.g. because it uses
-pkg_resources or setuptools console scripts).</p>
+<p>Most Python packages only need setuptools during installation. Check if the
+package really needs setuptools (e.g. because it uses pkg_resources
+(deprecated; slated for removal) or setuptools console scripts).</p>
 </div>
 <p><p><code class="docutils literal notranslate"><span class="pre">setuptools</span></code> is typically used to install dependencies for Python
 packages but most of the time this is not needed within a conda

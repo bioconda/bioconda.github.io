@@ -27,15 +27,15 @@ bioconductor-anvilworkflow
       
       
 
-      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.1-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-anvil: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-anvilbase: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-anvilgcp: ``>=1.0.0,<1.1.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-anvil: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-anvilbase: ``>=1.4.0,<1.5.0``
+   :depends bioconductor-anvilgcp: ``>=1.4.0,<1.5.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dplyr: 
    :depends r-httr: 
    :depends r-jsonlite: 
@@ -94,7 +94,7 @@ bioconductor-anvilworkflow
 
     <script>
         var package = "bioconductor-anvilworkflow";
-        var versions = ["1.6.0","1.2.0","1.0.1"];
+        var versions = ["1.10.0","1.6.0","1.2.0","1.0.1"];
     </script>
 
 

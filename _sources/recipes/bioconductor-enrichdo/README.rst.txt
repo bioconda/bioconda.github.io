@@ -27,26 +27,22 @@ bioconductor-enrichdo
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-clusterprofiler: ``>=4.14.0,<4.15.0``
-   :depends bioconductor-graph: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-rgraphviz: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-graph: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-rgraphviz: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-hash: 
    :depends r-magrittr: 
    :depends r-pheatmap: 
    :depends r-purrr: 
-   :depends r-rcolorbrewer: 
-   :depends r-readr: 
-   :depends r-stringr: 
    :depends r-tidyr: 
    :requirements:
 
@@ -98,7 +94,7 @@ bioconductor-enrichdo
 
     <script>
         var package = "bioconductor-enrichdo";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

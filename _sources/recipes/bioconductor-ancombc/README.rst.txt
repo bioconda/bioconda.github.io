@@ -27,12 +27,12 @@ bioconductor-ancombc
       
       
 
-      ``2.8.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.1-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.5-0``,  ``1.0.0-2``
+      ``2.12.0-0``,  ``2.8.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.1-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.5-0``,  ``1.0.0-2``
 
       
 
    
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-cvxr: 
    :depends r-desctools: 
    :depends r-doparallel: 
@@ -98,7 +98,7 @@ bioconductor-ancombc
 
     <script>
         var package = "bioconductor-ancombc";
-        var versions = ["2.8.0","2.4.0","2.2.0","2.0.1","1.4.0"];
+        var versions = ["2.12.0","2.8.0","2.4.0","2.2.0","2.0.1"];
     </script>
 
 

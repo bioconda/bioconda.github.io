@@ -29,10 +29,10 @@ bioconductor-ncdfflow
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.52.0-1</code>,  <code>2.52.0-0</code>,  <code>2.48.0-0</code>,  <code>2.46.0-0</code>,  <code>2.44.0-1</code>,  <code>2.44.0-0</code>,  <code>2.40.0-2</code>,  <code>2.40.0-1</code>,  <code>2.40.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.56.0-0</code>,  <code>2.52.0-1</code>,  <code>2.52.0-0</code>,  <code>2.48.0-0</code>,  <code>2.46.0-0</code>,  <code>2.44.0-1</code>,  <code>2.44.0-0</code>,  <code>2.40.0-2</code>,  <code>2.40.0-1</code>,  </span></summary>
       
 
-      ``2.52.0-1``,  ``2.52.0-0``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.44.0-1``,  ``2.44.0-0``,  ``2.40.0-2``,  ``2.40.0-1``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-2``,  ``2.36.0-1``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.1-0``,  ``2.28.1-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-1``,  ``2.24.0-0``,  ``2.22.2-0``,  ``2.22.0-0``
+      ``2.56.0-0``,  ``2.52.0-1``,  ``2.52.0-0``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.44.0-1``,  ``2.44.0-0``,  ``2.40.0-2``,  ``2.40.0-1``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-2``,  ``2.36.0-1``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.1-0``,  ``2.28.1-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-1``,  ``2.24.0-0``,  ``2.22.2-0``,  ``2.22.0-0``
 
       
       .. raw:: html
@@ -41,22 +41,21 @@ bioconductor-ncdfflow
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0a0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0a0``
-   :depends bioconductor-flowcore: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-flowcore: ``>=2.18.0,<2.19.0a0``
-   :depends bioconductor-rhdf5lib: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-rhdf5lib: ``>=1.28.0,<1.29.0a0``
-   :depends bioconductor-zlibbioc: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-zlibbioc: ``>=1.52.0,<1.53.0a0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
+   :depends bioconductor-flowcore: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-flowcore: ``>=2.22.1,<2.23.0a0``
+   :depends bioconductor-rhdf5lib: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-rhdf5lib: ``>=1.32.0,<1.33.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libstdcxx: ``>=14``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-bh: 
    :depends r-cpp11: 
    :requirements:
@@ -113,7 +112,7 @@ bioconductor-ncdfflow
 
     <script>
         var package = "bioconductor-ncdfflow";
-        var versions = ["2.52.0","2.52.0","2.48.0","2.46.0","2.44.0"];
+        var versions = ["2.56.0","2.52.0","2.52.0","2.48.0","2.46.0"];
     </script>
 
 

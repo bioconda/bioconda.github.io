@@ -27,13 +27,13 @@ bioconductor-decoupler
       
       
 
-      ``2.12.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.0.0-0``,  ``1.0.0-0``
+      ``2.16.0-0``,  ``2.12.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.0.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-broom: 
    :depends r-dplyr: 
    :depends r-magrittr: 
@@ -96,7 +96,7 @@ bioconductor-decoupler
 
     <script>
         var package = "bioconductor-decoupler";
-        var versions = ["2.12.0","2.8.0","2.6.0","2.4.0","2.0.0"];
+        var versions = ["2.16.0","2.12.0","2.8.0","2.6.0","2.4.0"];
     </script>
 
 

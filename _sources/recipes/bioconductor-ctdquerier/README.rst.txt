@@ -26,15 +26,23 @@ bioconductor-ctdquerier
    :versions:
       
       
+      .. raw:: html
 
-      ``2.14.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.5.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.18.0-0</code>,  <code>2.14.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-1</code>,  </span></summary>
+      
 
+      ``2.18.0-0``,  ``2.14.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.5.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biocfilecache: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-ggplot2: 
    :depends r-gridextra: 
    :depends r-igraph: 
@@ -91,7 +99,7 @@ bioconductor-ctdquerier
 
     <script>
         var package = "bioconductor-ctdquerier";
-        var versions = ["2.14.0","2.10.0","2.8.0","2.6.0","2.2.0"];
+        var versions = ["2.18.0","2.14.0","2.10.0","2.8.0","2.6.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-flowspecs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  </span></summary>
       
 
-      ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.24.0-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-flowspecs
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-flowcore: ``>=2.18.0,<2.19.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-flowcore: ``>=2.22.0,<2.23.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-ggplot2: ``>=3.1.0``
    :depends r-reshape2: ``>=1.4.3``
    :depends r-zoo: ``>=1.8.6``
@@ -98,7 +98,7 @@ bioconductor-flowspecs
 
     <script>
         var package = "bioconductor-flowspecs";
-        var versions = ["1.20.0","1.16.0","1.14.0","1.12.0","1.8.0"];
+        var versions = ["1.24.0","1.20.0","1.16.0","1.14.0","1.12.0"];
     </script>
 
 

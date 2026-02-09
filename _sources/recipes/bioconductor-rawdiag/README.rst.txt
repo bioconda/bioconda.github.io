@@ -27,11 +27,23 @@ bioconductor-rawdiag
       
       
 
-      
+      ``1.6.0-0``
 
       
 
    
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-rawrr: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
+   :depends r-biocmanager: 
+   :depends r-dplyr: 
+   :depends r-ggplot2: ``>=3.4``
+   :depends r-hexbin: 
+   :depends r-htmltools: 
+   :depends r-reshape2: 
+   :depends r-rlang: 
+   :depends r-scales: 
+   :depends r-shiny: ``>=1.5``
    :requirements:
 
    :additional platforms:
@@ -82,7 +94,7 @@ bioconductor-rawdiag
 
     <script>
         var package = "bioconductor-rawdiag";
-        var versions = [];
+        var versions = ["1.6.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ buscolite
       
       
 
-      ``25.4.24-0``,  ``25.4.23-0``,  ``25.4.3-0``,  ``24.11.3-0``,  ``23.10.26-0``
+      ``26.1.26-0``,  ``25.4.24-0``,  ``25.4.23-0``,  ``25.4.3-0``,  ``24.11.3-0``,  ``23.10.26-0``
 
       
 
@@ -36,8 +36,8 @@ buscolite
    :depends miniprot: 
    :depends natsort: 
    :depends packaging: 
-   :depends pyfastx: 
-   :depends pyhmmer: 
+   :depends pyfastx: ``>=2.0.0``
+   :depends pyhmmer: ``>=0.12.0``
    :depends python: ``>=3.6``
    :requirements:
 
@@ -89,7 +89,7 @@ buscolite
 
     <script>
         var package = "buscolite";
-        var versions = ["25.4.24","25.4.23","25.4.3","24.11.3","23.10.26"];
+        var versions = ["26.1.26","25.4.24","25.4.23","25.4.3","24.11.3"];
     </script>
 
 

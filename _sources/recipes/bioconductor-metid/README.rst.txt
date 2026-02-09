@@ -28,10 +28,10 @@ bioconductor-metid
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  </span></summary>
       
 
-      ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
+      ``1.28.0-0``,  ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ bioconductor-metid
       
 
    
-   :depends bioconductor-chemminer: ``>=3.58.0,<3.59.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-chemminer: ``>=3.62.0,<3.63.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-devtools: ``>=1.13.0``
    :depends r-igraph: ``>=1.2.1``
    :depends r-matrix: ``>=1.2-12``
@@ -96,7 +96,7 @@ bioconductor-metid
 
     <script>
         var package = "bioconductor-metid";
-        var versions = ["1.24.0","1.20.0","1.18.0","1.16.0","1.12.0"];
+        var versions = ["1.28.0","1.24.0","1.20.0","1.18.0","1.16.0"];
     </script>
 
 
