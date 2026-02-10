@@ -27,14 +27,14 @@ bioconductor-tidyflowcore
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-flowcore: ``>=2.18.0,<2.19.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-flowcore: ``>=2.22.0,<2.23.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-purrr: 
@@ -92,7 +92,7 @@ bioconductor-tidyflowcore
 
     <script>
         var package = "bioconductor-tidyflowcore";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 
