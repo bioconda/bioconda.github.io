@@ -10,15 +10,15 @@ ganon
    :replaces_section_title:
    :noindex:
 
-   ganon2 classifies genomic sequences against large sets of references efficiently\,
+   ganon2 classifies genomic sequences against large sets of references efficiently
 
    :homepage: https://github.com/pirovc/ganon
    :license: MIT / MIT License
    :recipe: /`ganon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ganon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ganon/meta.yaml>`_
-   :links: doi: :doi:`10.1101/406017`
+   :links: doi: :doi:`10.1093/nargab/lqaf094`
 
-   ganon2 classifies genomic sequences against large sets of references efficiently\, 
-   with integrated download and update of databases \(refseq\/genbank\)\, taxonomic profiling 
+   ganon2 classifies genomic sequences against large sets of references efficiently\,
+   with integrated download and update of databases \(refseq\/genbank\)\, taxonomic profiling
    \(ncbi\/gtdb\)\, binning and hierarchical classification\, customized reporting and more
 
 

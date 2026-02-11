@@ -288,6 +288,10 @@ software.</p>
 </div>
 <p>and/or any file named <code class="docutils literal notranslate"><span class="pre">run_test.py`,</span> <span class="pre">``run_test.sh</span></code> or
 <code class="docutils literal notranslate"><span class="pre">run_test.pl</span></code> executing tests.</p>
+<p>You can either add the test section on the top level of
+your meta.yaml file; or if you use an <code class="docutils literal notranslate"><span class="pre">outputs:</span></code> section
+to specify multiple outputs, add a test to each of your
+<code class="docutils literal notranslate"><span class="pre">outputs:</span></code> entries.</p>
 </div>
 <p><p>In order to provide a collection of actually working tools, some
 basic testing is required. The tests should make sure the tool was

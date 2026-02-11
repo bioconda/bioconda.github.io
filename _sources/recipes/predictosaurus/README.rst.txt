@@ -13,7 +13,7 @@ predictosaurus
    Predictosaurus is a command\-line tool designed for uncertainty\-aware haplotype\-based genomic variant effect prediction.
 
    :homepage: https://github.com/fxwiegand/predictosaurus
-   :documentation: https://github.com/fxwiegand/predictosaurus/blob/v0.8.0/README.md
+   :documentation: https://github.com/fxwiegand/predictosaurus/blob/v0.8.1/README.md
    
    :license: MIT / MIT
    :recipe: /`predictosaurus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/predictosaurus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/predictosaurus/meta.yaml>`_

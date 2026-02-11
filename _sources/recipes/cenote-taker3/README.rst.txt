@@ -13,7 +13,7 @@ cenote-taker3
    Cenote\-Taker 3\: Discover and annotate the virome.
 
    :homepage: https://github.com/mtisza1/Cenote-Taker3
-   :documentation: https://github.com/mtisza1/Cenote-Taker3/blob/v3.4.3/README.md
+   :documentation: https://github.com/mtisza1/Cenote-Taker3/blob/v3.4.4/README.md
    
    :license: MIT / MIT
    :recipe: /`cenote-taker3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cenote-taker3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cenote-taker3/meta.yaml>`_
