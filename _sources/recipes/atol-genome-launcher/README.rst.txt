@@ -27,14 +27,15 @@ atol-genome-launcher
       
       
 
-      ``0.1.5-0``
+      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``
 
       
 
    
    :depends pandas: ``>=2.3.3,<3``
-   :depends python: ``>=3.12,<3.13``
+   :depends python: ``>=3.12,<3.15``
    :depends snakemake: ``>=9.11.6,<10``
+   :depends wget: 
    :requirements:
 
    :additional platforms:
@@ -85,7 +86,7 @@ atol-genome-launcher
 
     <script>
         var package = "atol-genome-launcher";
-        var versions = ["0.1.5"];
+        var versions = ["0.2.1","0.2.0","0.1.5"];
     </script>
 
 

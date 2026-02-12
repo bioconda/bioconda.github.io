@@ -30,19 +30,19 @@ crocodeel
       
       
 
-      ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
+      ``1.1.0-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
 
       
 
    
-   :depends joblib: ``>=1.4``
-   :depends matplotlib-base: ``>=3.8``
-   :depends numpy: ``>=1.26``
-   :depends pandas: ``>=2.2``
+   :depends joblib: ``>=1.5``
+   :depends matplotlib-base: ``>=3.10``
+   :depends numpy: ``>=2.4``
+   :depends pandas: ``>=2.3``
    :depends python: ``>=3.12``
-   :depends scikit-learn: ``>=1.3,<1.4``
-   :depends scipy: ``>=1.13``
-   :depends tqdm: ``>=4.66``
+   :depends scikit-learn: ``>=1.8,<1.9``
+   :depends scipy: ``>=1.17``
+   :depends tqdm: ``>=4.67``
    :requirements:
 
    :additional platforms:
@@ -93,7 +93,7 @@ crocodeel
 
     <script>
         var package = "crocodeel";
-        var versions = ["1.0.8","1.0.7","1.0.6","1.0.5","1.0.4"];
+        var versions = ["1.1.0","1.0.8","1.0.7","1.0.6","1.0.5"];
     </script>
 
 

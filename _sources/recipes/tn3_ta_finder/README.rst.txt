@@ -32,11 +32,15 @@ tn3_ta_finder
       
       
 
-      
+      ``1.0.1-0``
 
       
 
    
+   :depends biopython: ``>=1.66,<1.78``
+   :depends blast: ``>=2.2.28``
+   :depends prodigal: ``>=2.6.1``
+   :depends python: ``>=3.6``
    :requirements:
 
    :additional platforms:
@@ -87,7 +91,7 @@ tn3_ta_finder
 
     <script>
         var package = "tn3_ta_finder";
-        var versions = [];
+        var versions = ["1.0.1"];
     </script>
 
 

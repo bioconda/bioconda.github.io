@@ -27,7 +27,7 @@ atol-qc-raw-shortread
       
       
 
-      ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -35,6 +35,7 @@ atol-qc-raw-shortread
    :depends bbmap: ``<=38.95``
    :depends pandas: ``>=2.3.3,<3``
    :depends python: ``>=3.12,<3.13``
+   :depends samtools: ``>=1.23``
    :depends snakemake: ``>=9.11.6,<10``
    :requirements:
 
@@ -86,7 +87,7 @@ atol-qc-raw-shortread
 
     <script>
         var package = "atol-qc-raw-shortread";
-        var versions = ["0.1.7","0.1.6","0.1.5","0.1.4","0.1.3"];
+        var versions = ["0.2.1","0.2.0","0.1.7","0.1.6","0.1.5"];
     </script>
 
 

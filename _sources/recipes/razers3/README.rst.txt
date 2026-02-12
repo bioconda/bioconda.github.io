@@ -29,10 +29,10 @@ razers3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.5.8-7</code>,  <code>3.5.8-6</code>,  <code>3.5.8-5</code>,  <code>3.5.8-4</code>,  <code>3.5.8-3</code>,  <code>3.5.8-2</code>,  <code>3.5.8-1</code>,  <code>3.5.8-0</code>,  <code>3.5.3-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.5.12-0</code>,  <code>3.5.8-7</code>,  <code>3.5.8-6</code>,  <code>3.5.8-5</code>,  <code>3.5.8-4</code>,  <code>3.5.8-3</code>,  <code>3.5.8-2</code>,  <code>3.5.8-1</code>,  <code>3.5.8-0</code>,  </span></summary>
       
 
-      ``3.5.8-7``,  ``3.5.8-6``,  ``3.5.8-5``,  ``3.5.8-4``,  ``3.5.8-3``,  ``3.5.8-2``,  ``3.5.8-1``,  ``3.5.8-0``,  ``3.5.3-3``,  ``3.5.3-2``,  ``3.5.3-1``,  ``3.5.3-0``,  ``3.5.0-1``,  ``3.5.0-0``
+      ``3.5.12-0``,  ``3.5.8-7``,  ``3.5.8-6``,  ``3.5.8-5``,  ``3.5.8-4``,  ``3.5.8-3``,  ``3.5.8-2``,  ``3.5.8-1``,  ``3.5.8-0``,  ``3.5.3-3``,  ``3.5.3-2``,  ``3.5.3-1``,  ``3.5.3-0``,  ``3.5.0-1``,  ``3.5.0-0``
 
       
       .. raw:: html
@@ -43,9 +43,9 @@ razers3
    
    :depends _openmp_mutex: ``>=4.5``
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends libgomp: 
-   :depends libstdcxx: ``>=13``
+   :depends libstdcxx: ``>=14``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
@@ -101,7 +101,7 @@ razers3
 
     <script>
         var package = "razers3";
-        var versions = ["3.5.8","3.5.8","3.5.8","3.5.8","3.5.8"];
+        var versions = ["3.5.12","3.5.8","3.5.8","3.5.8","3.5.8"];
     </script>
 
 

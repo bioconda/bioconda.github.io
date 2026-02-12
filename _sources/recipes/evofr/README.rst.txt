@@ -13,7 +13,7 @@ evofr
    Tools for evolutionary forecasting.
 
    :homepage: https://github.com/blab/evofr
-   :documentation: https://github.com/blab/evofr/blob/0.1.27/README.md
+   :documentation: https://github.com/blab/evofr/blob/0.2.0/README.md
    
    :license: AGPL / AGPL-3.0-or-later
    :recipe: /`evofr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/evofr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/evofr/meta.yaml>`_
@@ -30,10 +30,10 @@ evofr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.27-0</code>,  <code>0.1.26-0</code>,  <code>0.1.25-0</code>,  <code>0.1.23-0</code>,  <code>0.1.22-0</code>,  <code>0.1.21-0</code>,  <code>0.1.20-1</code>,  <code>0.1.20-0</code>,  <code>0.1.19-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.0-0</code>,  <code>0.1.27-0</code>,  <code>0.1.26-0</code>,  <code>0.1.25-0</code>,  <code>0.1.23-0</code>,  <code>0.1.22-0</code>,  <code>0.1.21-0</code>,  <code>0.1.20-1</code>,  <code>0.1.20-0</code>,  </span></summary>
       
 
-      ``0.1.27-0``,  ``0.1.26-0``,  ``0.1.25-0``,  ``0.1.23-0``,  ``0.1.22-0``,  ``0.1.21-0``,  ``0.1.20-1``,  ``0.1.20-0``,  ``0.1.19-0``,  ``0.1.18-1``,  ``0.1.18-0``,  ``0.1.17-0``,  ``0.1.16-0``,  ``0.1.15-0``,  ``0.1.14-0``
+      ``0.2.0-0``,  ``0.1.27-0``,  ``0.1.26-0``,  ``0.1.25-0``,  ``0.1.23-0``,  ``0.1.22-0``,  ``0.1.21-0``,  ``0.1.20-1``,  ``0.1.20-0``,  ``0.1.19-0``,  ``0.1.18-1``,  ``0.1.18-0``,  ``0.1.17-0``,  ``0.1.16-0``,  ``0.1.15-0``,  ``0.1.14-0``
 
       
       .. raw:: html
@@ -50,6 +50,7 @@ evofr
    :depends numpyro: ``>=0.13.2,<0.14.0``
    :depends pandas: ``>=1.4.2,<2.0.0``
    :depends python: ``>=3.9``
+   :depends pyyaml: ``>=5,<7``
    :depends seaborn-base: ``>=0.13.2,<0.14.0``
    :requirements:
 
@@ -101,7 +102,7 @@ evofr
 
     <script>
         var package = "evofr";
-        var versions = ["0.1.27","0.1.26","0.1.25","0.1.23","0.1.22"];
+        var versions = ["0.2.0","0.1.27","0.1.26","0.1.25","0.1.23"];
     </script>
 
 

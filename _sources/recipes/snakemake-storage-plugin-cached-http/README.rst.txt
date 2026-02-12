@@ -27,7 +27,7 @@ snakemake-storage-plugin-cached-http
       
       
 
-      ``0.2.1-0``,  ``0.1.0-0``
+      ``0.3-0``,  ``0.2.1-0``,  ``0.1.0-0``
 
       
 
@@ -92,7 +92,7 @@ snakemake-storage-plugin-cached-http
 
     <script>
         var package = "snakemake-storage-plugin-cached-http";
-        var versions = ["0.2.1","0.1.0"];
+        var versions = ["0.3","0.2.1","0.1.0"];
     </script>
 
 

@@ -29,10 +29,10 @@ foldcomp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.0-0</code>,  <code>0.0.7-2</code>,  <code>0.0.7-1</code>,  <code>0.0.7-0</code>,  <code>0.0.6-0</code>,  <code>0.0.5-2</code>,  <code>0.0.5-1</code>,  <code>0.0.5-0</code>,  <code>0.0.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>0.1.0-0</code>,  <code>0.0.7-2</code>,  <code>0.0.7-1</code>,  <code>0.0.7-0</code>,  <code>0.0.6-0</code>,  <code>0.0.5-2</code>,  <code>0.0.5-1</code>,  <code>0.0.5-0</code>,  </span></summary>
       
 
-      ``0.1.0-0``,  ``0.0.7-2``,  ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``1.0.0-0``,  ``0.1.0-0``,  ``0.0.7-2``,  ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-2``,  ``0.0.5-1``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
       .. raw:: html
@@ -42,8 +42,8 @@ foldcomp
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libgcc: ``>=14``
+   :depends libstdcxx: ``>=14``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends zlib: 
    :requirements:
@@ -100,7 +100,7 @@ foldcomp
 
     <script>
         var package = "foldcomp";
-        var versions = ["0.1.0","0.0.7","0.0.7","0.0.7","0.0.6"];
+        var versions = ["1.0.0","0.1.0","0.0.7","0.0.7","0.0.7"];
     </script>
 
 

@@ -27,7 +27,7 @@ cutehap
       
       
 
-      ``1.0.2-0``
+      ``1.0.3-0``,  ``1.0.2-0``
 
       
 
@@ -91,7 +91,7 @@ cutehap
 
     <script>
         var package = "cutehap";
-        var versions = ["1.0.2"];
+        var versions = ["1.0.3","1.0.2"];
     </script>
 
 

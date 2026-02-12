@@ -28,10 +28,10 @@ seqnado
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.1-0</code>,  <code>0.7.6-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.7-0</code>,  <code>0.6.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.2-0</code>,  <code>1.0.1-1</code>,  <code>1.0.1-0</code>,  <code>0.7.6-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  </span></summary>
       
 
-      ``1.0.1-0``,  ``0.7.6-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.1-0``
+      ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``0.7.6-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.1-0``
 
       
       .. raw:: html
@@ -40,7 +40,8 @@ seqnado
       
 
    
-   :depends pandas: 
+   :depends numpy: ``>=1.24,<=2.1.0``
+   :depends pandas: ``>=2.0,<=2.3.3``
    :depends pandera: 
    :depends pulp: ``<=2.9.0``
    :depends pydantic: 
@@ -49,7 +50,7 @@ seqnado
    :depends pyyaml: 
    :depends seaborn: 
    :depends setuptools_scm: 
-   :depends snakemake: ``>8,<9``
+   :depends snakemake: ``>=9.12.0,<=9.14.5``
    :depends snakemake-executor-plugin-slurm: 
    :depends snakemake-wrapper-utils: 
    :depends tracknado: 
@@ -104,7 +105,7 @@ seqnado
 
     <script>
         var package = "seqnado";
-        var versions = ["1.0.1","0.7.6","0.7.4","0.7.3","0.7.2"];
+        var versions = ["1.0.2","1.0.1","1.0.1","0.7.6","0.7.4"];
     </script>
 
 

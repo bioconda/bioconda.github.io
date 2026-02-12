@@ -28,9 +28,17 @@ cenote-taker3
    :versions:
       
       
+      .. raw:: html
 
-      ``3.4.3-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.2-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.1-0``,  ``3.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>3.4.4-0</code>,  <code>3.4.3-0</code>,  <code>3.4.2-0</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.2-0</code>,  <code>3.3.1-0</code>,  <code>3.3.0-0</code>,  <code>3.2.1-0</code>,  </span></summary>
+      
 
+      ``3.4.4-0``,  ``3.4.3-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.2-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.1-0``,  ``3.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -41,13 +49,13 @@ cenote-taker3
    :depends grep: 
    :depends hhsuite: 
    :depends minimap2: 
-   :depends mmseqs2: 
+   :depends mmseqs2: ``>=18.8cc5c``
    :depends numpy: 
    :depends pandas: 
    :depends phanotate: 
    :depends prodigal: 
    :depends pyarrow: 
-   :depends pyhmmer: ``>=0.11.0``
+   :depends pyhmmer: ``>=0.12.0``
    :depends pyrodigal-gv: ``>=0.3.1``
    :depends python: ``>=3.6``
    :depends samtools: 
@@ -105,7 +113,7 @@ cenote-taker3
 
     <script>
         var package = "cenote-taker3";
-        var versions = ["3.4.3","3.4.2","3.4.1","3.4.0","3.3.2"];
+        var versions = ["3.4.4","3.4.3","3.4.2","3.4.1","3.4.0"];
     </script>
 
 

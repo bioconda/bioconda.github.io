@@ -15,7 +15,6 @@ rnastructure
    :homepage: http://rna.urmc.rochester.edu/RNAstructure.html
    :license: GPL / GPL-2.0-only
    :recipe: /`rnastructure <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnastructure>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnastructure/meta.yaml>`_
-   :links: biotools: :biotools:`rnastructure`
 
    
 
@@ -29,10 +28,10 @@ rnastructure
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>6.4-2</code>,  <code>6.4-1</code>,  <code>6.4-0</code>,  <code>6.3-3</code>,  <code>6.3-2</code>,  <code>6.3-1</code>,  <code>6.3-0</code>,  <code>6.1-2</code>,  <code>6.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>6.5-0</code>,  <code>6.4-2</code>,  <code>6.4-1</code>,  <code>6.4-0</code>,  <code>6.3-3</code>,  <code>6.3-2</code>,  <code>6.3-1</code>,  <code>6.3-0</code>,  <code>6.1-2</code>,  </span></summary>
       
 
-      ``6.4-2``,  ``6.4-1``,  ``6.4-0``,  ``6.3-3``,  ``6.3-2``,  ``6.3-1``,  ``6.3-0``,  ``6.1-2``,  ``6.1-1``,  ``6.1-0``,  ``6.0-1``,  ``6.0-0``,  ``5.7-2``,  ``5.7-1``,  ``5.7-0``
+      ``6.5-0``,  ``6.4-2``,  ``6.4-1``,  ``6.4-0``,  ``6.3-3``,  ``6.3-2``,  ``6.3-1``,  ``6.3-0``,  ``6.1-2``,  ``6.1-1``,  ``6.1-0``,  ``6.0-1``,  ``6.0-0``,  ``5.7-2``,  ``5.7-1``,  ``5.7-0``
 
       
       .. raw:: html
@@ -42,15 +41,11 @@ rnastructure
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libgcc: ``>=14``
+   :depends libstdcxx: ``>=14``
    :requirements:
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -98,7 +93,7 @@ rnastructure
 
     <script>
         var package = "rnastructure";
-        var versions = ["6.4","6.4","6.4","6.3","6.3"];
+        var versions = ["6.5","6.4","6.4","6.4","6.3"];
     </script>
 
 

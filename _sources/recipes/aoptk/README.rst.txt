@@ -27,7 +27,7 @@ aoptk
       
       
 
-      ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``
+      ``0.2.0-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``
 
       
 
@@ -37,15 +37,17 @@ aoptk
    :depends click: ``>=8.1``
    :depends huggingface_hub: ``>=0.1.0,<1.0``
    :depends metapub: 
+   :depends openai: 
    :depends openpyxl: 
    :depends pandas: 
    :depends pymupdf: 
    :depends python: 
+   :depends python-dotenv: 
    :depends pytorch: 
    :depends requests: 
    :depends scispacy: 
    :depends spacy: ``>=3.0.0,<3.8.0``
-   :depends spacy-transformers: 
+   :depends spacy-layout: 
    :depends transformers: 
    :requirements:
 
@@ -97,7 +99,7 @@ aoptk
 
     <script>
         var package = "aoptk";
-        var versions = ["0.1.6","0.1.5","0.1.4"];
+        var versions = ["0.2.0","0.1.6","0.1.5","0.1.4"];
     </script>
 
 

@@ -29,7 +29,7 @@ rdrpcatch
       
       
 
-      ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.1-0``
+      ``1.0.1-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.1-0``
 
       
 
@@ -38,6 +38,8 @@ rdrpcatch
    :depends matplotlib-base: ``3.10.1``
    :depends mmseqs2: ``17.b804f``
    :depends needletail: ``0.6.3``
+   :depends numpy: ``2.2.4``
+   :depends pandas: ``2.2.3``
    :depends polars: ``1.26.0``
    :depends pyhmmer: ``0.11.0``
    :depends python: ``>=3.12``
@@ -96,7 +98,7 @@ rdrpcatch
 
     <script>
         var package = "rdrpcatch";
-        var versions = ["0.0.9","0.0.8","0.0.7","0.0.6","0.0.5"];
+        var versions = ["1.0.1","0.0.9","0.0.8","0.0.7","0.0.6"];
     </script>
 
 

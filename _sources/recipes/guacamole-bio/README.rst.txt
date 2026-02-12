@@ -27,12 +27,13 @@ guacamole-bio
       
       
 
-      ``1.0.2-0``
+      ``1.0.3-0``,  ``1.0.2-0``
 
       
 
    
    :depends biopython: 
+   :depends cvxopt: 
    :depends matplotlib-base: 
    :depends numpy: 
    :depends pandas: 
@@ -90,7 +91,7 @@ guacamole-bio
 
     <script>
         var package = "guacamole-bio";
-        var versions = ["1.0.2"];
+        var versions = ["1.0.3","1.0.2"];
     </script>
 
 

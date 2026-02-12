@@ -27,7 +27,7 @@ snakemake-storage-plugin-xrootd
       
       
 
-      ``0.4.1-0``,  ``0.4.0-0``
+      ``1.0.0-0``,  ``0.4.1-0``,  ``0.4.0-0``
 
       
 
@@ -86,7 +86,7 @@ snakemake-storage-plugin-xrootd
 
     <script>
         var package = "snakemake-storage-plugin-xrootd";
-        var versions = ["0.4.1","0.4.0"];
+        var versions = ["1.0.0","0.4.1","0.4.0"];
     </script>
 
 

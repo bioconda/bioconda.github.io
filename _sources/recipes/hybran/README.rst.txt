@@ -14,7 +14,7 @@ hybran
 
    :homepage: https://lpcdrp.gitlab.io/hybran
    :developer docs: https://gitlab.com/LPCDRP/hybran
-   :license: GPLv3
+   :license: GPL-3.0-or-later
    :recipe: /`hybran <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hybran>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hybran/meta.yaml>`_
 
    
@@ -27,9 +27,17 @@ hybran
    :versions:
       
       
+      .. raw:: html
 
-      ``1.9-0``,  ``1.8-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.7-0``,  ``1.6.1-0``,  ``1.6-0``,  ``1.5.2-1``,  ``1.5.2-0``
+         <details><summary><span class="truncated-version-list"><code>1.10-0</code>,  <code>1.9-0</code>,  <code>1.8-0</code>,  <code>1.7.1-1</code>,  <code>1.7.1-0</code>,  <code>1.7-0</code>,  <code>1.6.1-0</code>,  <code>1.6-0</code>,  <code>1.5.2-1</code>,  </span></summary>
+      
 
+      ``1.10-0``,  ``1.9-0``,  ``1.8-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.7-0``,  ``1.6.1-0``,  ``1.6-0``,  ``1.5.2-1``,  ``1.5.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -41,6 +49,7 @@ hybran
    :depends eggnog-mapper: 
    :depends emboss: 
    :depends entrez-direct: 
+   :depends frozendict: 
    :depends intervaltree: 
    :depends mcl: 
    :depends multiprocess: 
@@ -99,7 +108,7 @@ hybran
 
     <script>
         var package = "hybran";
-        var versions = ["1.9","1.8","1.7.1","1.7.1","1.7"];
+        var versions = ["1.10","1.9","1.8","1.7.1","1.7.1"];
     </script>
 
 

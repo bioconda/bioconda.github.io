@@ -30,7 +30,7 @@ biobb_cmip
    This software has been developed in the \[MMB group\]\(http\:\/\/mmb.irbbarcelona.org\) at the \[BSC\]\(http\:\/\/www.bsc.es\/\) \& \[IRB\]\(https\:\/\/www.irbbarcelona.org\/\) for the \[European BioExcel\]\(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission \(EU Horizon Europe \[101093290\]\(https\:\/\/cordis.europa.eu\/project\/id\/101093290\)\, EU H2020 \[823830\]\(http\:\/\/cordis.europa.eu\/projects\/823830\)\, EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
 
    \* \(c\) 2015\-2026 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
-   \* \(c\) 2015\-2026 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
+   \* \(c\) 2015\-2026 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\).
    Licensed under the
    \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file LICENSE for details.
 
@@ -49,10 +49,10 @@ biobb_cmip
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.2.1-0</code>,  <code>5.2.0-0</code>,  <code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.9.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.2.2-0</code>,  <code>5.2.1-0</code>,  <code>5.2.0-0</code>,  <code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.1-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  </span></summary>
       
 
-      ``5.2.1-0``,  ``5.2.0-0``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.7.8-0``,  ``3.7.7-0``,  ``3.7.6-1``,  ``3.7.6-0``,  ``3.7.5-1``,  ``3.7.5-0``,  ``3.7.4-0``,  ``3.7.3-0``,  ``3.7.2-0``,  ``3.6.0-0``
+      ``5.2.2-0``,  ``5.2.1-0``,  ``5.2.0-0``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.7.8-0``,  ``3.7.7-0``,  ``3.7.6-1``,  ``3.7.6-0``,  ``3.7.5-1``,  ``3.7.5-0``,  ``3.7.4-0``,  ``3.7.3-0``,  ``3.7.2-0``,  ``3.6.0-0``
 
       
       .. raw:: html
@@ -61,7 +61,7 @@ biobb_cmip
       
 
    
-   :depends biobb_common: ``5.2.0``
+   :depends biobb_common: ``5.2.1``
    :depends biobb_structure_checking: ``3.15.6``
    :depends cmip: ``2.7.0``
    :depends mdanalysis: ``>=2.0.0``
@@ -116,7 +116,7 @@ biobb_cmip
 
     <script>
         var package = "biobb_cmip";
-        var versions = ["5.2.1","5.2.0","5.1.0","5.0.0","4.2.0"];
+        var versions = ["5.2.2","5.2.1","5.2.0","5.1.0","5.0.0"];
     </script>
 
 

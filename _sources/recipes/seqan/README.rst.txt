@@ -10,13 +10,22 @@ seqan
    :replaces_section_title:
    :noindex:
 
-   SeqAn is an open source C\+\+ library of efficient algorithms and data structures for the analysis of sequences with the focus on biological data.
+   SeqAn is a C\+\+ template library for the analysis of biological sequences.
 
-   :homepage: http://www.seqan.de/
-   :license: BSD-3-Clause
+   :homepage: https://www.seqan.de
+   :documentation: https://seqan.readthedocs.io/en/seqan-v2.5.2
+   
+   :developer docs: https://github.com/seqan/seqan
+   :license: BSD / BSD-3-Clause
    :recipe: /`seqan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqan/meta.yaml>`_
 
-   
+   SeqAn is an open source C\+\+ library of efficient algorithms and data
+   structures for the analysis of sequences with the focus on biological data.
+   Our library applies a unique generic design that guarantees high
+   performance\, generality\, extensibility\, and integration with other
+   libraries. SeqAn is easy to use and simplifies the development of new
+   software tools with a minimal loss of performance.
+
 
 
 .. conda:package:: seqan
@@ -27,7 +36,7 @@ seqan
       
       
 
-      ``2.4.0-2``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``
+      ``2.5.2-0``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``
 
       
 
@@ -35,6 +44,10 @@ seqan
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -82,7 +95,7 @@ seqan
 
     <script>
         var package = "seqan";
-        var versions = ["2.4.0","2.4.0","2.4.0","2.1.1","2.1.1"];
+        var versions = ["2.5.2","2.4.0","2.4.0","2.4.0","2.1.1"];
     </script>
 
 

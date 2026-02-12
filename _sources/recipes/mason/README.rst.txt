@@ -12,7 +12,10 @@ mason
 
    Mason is a collection of tools for the simulation of biological sequences.
 
-   :homepage: https://github.com/seqan/seqan/tree/seqan-v2.5.1/apps/mason2/README
+   :homepage: https://www.seqan.de/apps/mason.html
+   :documentation: https://github.com/seqan/seqan/tree/seqan-v2.5.2/apps/mason2/README
+   
+   :developer docs: https://github.com/seqan/seqan/tree/main/apps/mason2
    :license: BSD / BSD 3-Clause
    :recipe: /`mason <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mason>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mason/meta.yaml>`_
    :links: biotools: :biotools:`mason`, doi: :doi:`10.1371/journal.pone.0049110`
@@ -29,10 +32,10 @@ mason
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.12-1</code>,  <code>2.0.12-0</code>,  <code>2.0.9-4</code>,  <code>2.0.9-3</code>,  <code>2.0.9-2</code>,  <code>2.0.9-1</code>,  <code>2.0.9-0</code>,  <code>2.0.8-1</code>,  <code>2.0.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.13-0</code>,  <code>2.0.12-1</code>,  <code>2.0.12-0</code>,  <code>2.0.9-4</code>,  <code>2.0.9-3</code>,  <code>2.0.9-2</code>,  <code>2.0.9-1</code>,  <code>2.0.9-0</code>,  <code>2.0.8-1</code>,  </span></summary>
       
 
-      ``2.0.12-1``,  ``2.0.12-0``,  ``2.0.9-4``,  ``2.0.9-3``,  ``2.0.9-2``,  ``2.0.9-1``,  ``2.0.9-0``,  ``2.0.8-1``,  ``2.0.8-0``,  ``2.0.7-0``
+      ``2.0.13-0``,  ``2.0.12-1``,  ``2.0.12-0``,  ``2.0.9-4``,  ``2.0.9-3``,  ``2.0.9-2``,  ``2.0.9-1``,  ``2.0.9-0``,  ``2.0.8-1``,  ``2.0.8-0``,  ``2.0.7-0``
 
       
       .. raw:: html
@@ -42,8 +45,8 @@ mason
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libgcc: ``>=14``
+   :depends libstdcxx: ``>=14``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
@@ -99,7 +102,7 @@ mason
 
     <script>
         var package = "mason";
-        var versions = ["2.0.12","2.0.12","2.0.9","2.0.9","2.0.9"];
+        var versions = ["2.0.13","2.0.12","2.0.12","2.0.9","2.0.9"];
     </script>
 
 

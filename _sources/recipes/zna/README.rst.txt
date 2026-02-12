@@ -40,11 +40,16 @@ zna
       
       
 
-      
+      ``0.1.8-0``
 
       
 
    
+   :depends libgcc: ``>=14``
+   :depends libstdcxx: ``>=14``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
+   :depends zstandard: 
    :requirements:
 
    :additional platforms:
@@ -95,7 +100,7 @@ zna
 
     <script>
         var package = "zna";
-        var versions = [];
+        var versions = ["0.1.8"];
     </script>
 
 

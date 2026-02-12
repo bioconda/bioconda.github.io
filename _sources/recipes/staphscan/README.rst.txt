@@ -29,11 +29,16 @@ staphscan
       
       
 
-      
+      ``0.1.2-0``
 
       
 
    
+   :depends biopython: ``>=1.78``
+   :depends blast: 
+   :depends mash: ``>=2.0``
+   :depends pandas: 
+   :depends python: ``>=3.10``
    :requirements:
 
    :additional platforms:
@@ -84,7 +89,7 @@ staphscan
 
     <script>
         var package = "staphscan";
-        var versions = [];
+        var versions = ["0.1.2"];
     </script>
 
 
