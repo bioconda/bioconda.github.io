@@ -31,10 +31,10 @@ sepp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.5.6-3</code>,  <code>4.5.6-2</code>,  <code>4.5.6-1</code>,  <code>4.5.6-0</code>,  <code>4.5.5-3</code>,  <code>4.5.5-2</code>,  <code>4.5.5-1</code>,  <code>4.5.5-0</code>,  <code>4.5.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.5.6-4</code>,  <code>4.5.6-3</code>,  <code>4.5.6-2</code>,  <code>4.5.6-1</code>,  <code>4.5.6-0</code>,  <code>4.5.5-3</code>,  <code>4.5.5-2</code>,  <code>4.5.5-1</code>,  <code>4.5.5-0</code>,  </span></summary>
       
 
-      ``4.5.6-3``,  ``4.5.6-2``,  ``4.5.6-1``,  ``4.5.6-0``,  ``4.5.5-3``,  ``4.5.5-2``,  ``4.5.5-1``,  ``4.5.5-0``,  ``4.5.4-1``,  ``4.5.4-0``,  ``4.5.1-4``,  ``4.5.1-3``,  ``4.5.1-2``,  ``4.5.1-1``,  ``4.5.1-0``,  ``4.4.0-0``,  ``4.3.10-3``,  ``4.3.10-2``,  ``4.3.10-0``,  ``4.3.9-0``,  ``4.3.8-0``,  ``v4.5.0-0``
+      ``4.5.6-4``,  ``4.5.6-3``,  ``4.5.6-2``,  ``4.5.6-1``,  ``4.5.6-0``,  ``4.5.5-3``,  ``4.5.5-2``,  ``4.5.5-1``,  ``4.5.5-0``,  ``4.5.4-1``,  ``4.5.4-0``,  ``4.5.1-4``,  ``4.5.1-3``,  ``4.5.1-2``,  ``4.5.1-1``,  ``4.5.1-0``,  ``4.4.0-0``,  ``4.3.10-3``,  ``4.3.10-2``,  ``4.3.10-0``,  ``4.3.9-0``,  ``4.3.8-0``,  ``v4.5.0-0``
 
       
       .. raw:: html
@@ -45,11 +45,11 @@ sepp
    
    :depends dendropy: ``>=5.0.8,<6.0a0``
    :depends hmmer: ``>=3.4,<3.5.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends pasta: 
    :depends pplacer: ``>=1.1.alpha17``
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends python: ``>=3.12,<3.13.0a0``
+   :depends python_abi: ``3.12.* *_cp312``
    :requirements:
 
    :additional platforms:
@@ -104,7 +104,7 @@ sepp
 
     <script>
         var package = "sepp";
-        var versions = ["4.5.6","4.5.6","4.5.6","4.5.6","4.5.5"];
+        var versions = ["4.5.6","4.5.6","4.5.6","4.5.6","4.5.6"];
     </script>
 
 

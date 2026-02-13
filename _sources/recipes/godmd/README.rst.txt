@@ -27,15 +27,15 @@ godmd
       
       
 
-      ``1.7-0``,  ``1.6-0``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-0``
+      ``1.8-0``,  ``1.7-0``,  ``1.6-0``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-0``
 
       
 
    
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends libgfortran: 
-   :depends libgfortran5: ``>=13.4.0``
-   :depends libstdcxx: ``>=13``
+   :depends libgfortran5: ``>=14.3.0``
+   :depends libstdcxx: ``>=14``
    :requirements:
 
    :additional platforms:
@@ -90,7 +90,7 @@ godmd
 
     <script>
         var package = "godmd";
-        var versions = ["1.7","1.6","1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.8","1.7","1.6","1.0.0","1.0.0"];
     </script>
 
 
