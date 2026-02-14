@@ -31,21 +31,20 @@ galaxy-files-full
       
       
 
-      ``25.0.4-0``,  ``25.0.3-0``,  ``25.0.2-0``,  ``25.0.1-0``,  ``24.2.4-0``,  ``24.2.3-0``
+      ``25.1.1-0``,  ``25.0.4-0``,  ``25.0.3-0``,  ``25.0.2-0``,  ``25.0.1-0``,  ``24.2.4-0``,  ``24.2.3-0``
 
       
 
    
-   :depends fissix: 
    :depends fs: 
    :depends fs-gcsfs: 
    :depends fs.googledrivefs: 
    :depends fs.sshfs: 
    :depends fs.webdavfs: 
-   :depends galaxy-util: ``>=25.0``
+   :depends galaxy-util: ``>=25.1``
    :depends google-cloud-storage: 
-   :depends legacy-cgi: 
-   :depends python: ``>=3.9``
+   :depends pydantic: ``>=2.7.4``
+   :depends python: ``>=3.10``
    :depends typing-extensions: 
    :depends webdavclient3: 
    :requirements:
@@ -98,7 +97,7 @@ galaxy-files-full
 
     <script>
         var package = "galaxy-files-full";
-        var versions = ["25.0.4","25.0.3","25.0.2","25.0.1","24.2.4"];
+        var versions = ["25.1.1","25.0.4","25.0.3","25.0.2","25.0.1"];
     </script>
 
 

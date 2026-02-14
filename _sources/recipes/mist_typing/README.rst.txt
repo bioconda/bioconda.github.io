@@ -27,7 +27,7 @@ mist_typing
       
       
 
-      ``1.1.0-0``,  ``1.0.0-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-1``,  ``0.0.2-0``
+      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-1``,  ``0.0.2-0``
 
       
 
@@ -44,6 +44,7 @@ mist_typing
    :depends pyyaml: 
    :depends rauth: 
    :depends requests: 
+   :depends scipy: 
    :requirements:
 
    :additional platforms:
@@ -94,7 +95,7 @@ mist_typing
 
     <script>
         var package = "mist_typing";
-        var versions = ["1.1.0","1.0.0","0.0.5","0.0.4","0.0.3"];
+        var versions = ["1.2.0","1.1.0","1.0.0","0.0.5","0.0.4"];
     </script>
 
 

@@ -29,7 +29,7 @@ chamois
       
       
 
-      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.3-0``
+      ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.3-0``
 
       
 
@@ -38,7 +38,6 @@ chamois
    :depends gb-io: ``>=0.3.1,<0.4``
    :depends importlib_resources: ``>=1.0``
    :depends kennard-stone: ``>=2.1,<3.0``
-   :depends lz4: ``>=4.0,<5.0``
    :depends numpy: ``>=1.0,<3.0``
    :depends numpy: ``>=1.16,<3.0``
    :depends pandas: ``>=1.3,<3.0``
@@ -51,6 +50,7 @@ chamois
    :depends rich-argparse: ``>=1.1,<2.0``
    :depends scikit-learn: ``>=1.0,<2.0``
    :depends scipy: ``>=1.4,<2.0``
+   :depends zstandard: ``>=0.25,<1.0``
    :requirements:
 
    :additional platforms:
@@ -101,7 +101,7 @@ chamois
 
     <script>
         var package = "chamois";
-        var versions = ["0.2.1","0.2.0","0.1.3"];
+        var versions = ["0.2.2","0.2.1","0.2.0","0.1.3"];
     </script>
 
 
