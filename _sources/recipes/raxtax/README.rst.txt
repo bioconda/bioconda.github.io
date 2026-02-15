@@ -27,7 +27,7 @@ raxtax
       
       
 
-      ``1.5.0-0``
+      ``1.5.0-1``,  ``1.5.0-0``
 
       
 
@@ -82,7 +82,7 @@ raxtax
 
     <script>
         var package = "raxtax";
-        var versions = ["1.5.0"];
+        var versions = ["1.5.0","1.5.0"];
     </script>
 
 

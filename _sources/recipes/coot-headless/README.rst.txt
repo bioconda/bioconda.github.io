@@ -35,10 +35,10 @@ coot-headless
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.20-0</code>,  <code>1.1.19-0</code>,  <code>1.1.18-3</code>,  <code>1.1.18-2</code>,  <code>1.1.18-1</code>,  <code>1.1.18-0</code>,  <code>1.1.17-3</code>,  <code>1.1.17-2</code>,  <code>1.1.17-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.20-1</code>,  <code>1.1.20-0</code>,  <code>1.1.19-0</code>,  <code>1.1.18-3</code>,  <code>1.1.18-2</code>,  <code>1.1.18-1</code>,  <code>1.1.18-0</code>,  <code>1.1.17-3</code>,  <code>1.1.17-2</code>,  </span></summary>
       
 
-      ``1.1.20-0``,  ``1.1.19-0``,  ``1.1.18-3``,  ``1.1.18-2``,  ``1.1.18-1``,  ``1.1.18-0``,  ``1.1.17-3``,  ``1.1.17-2``,  ``1.1.17-1``,  ``1.1.17-0``
+      ``1.1.20-1``,  ``1.1.20-0``,  ``1.1.19-0``,  ``1.1.18-3``,  ``1.1.18-2``,  ``1.1.18-1``,  ``1.1.18-0``,  ``1.1.17-3``,  ``1.1.17-2``,  ``1.1.17-1``,  ``1.1.17-0``
 
       
       .. raw:: html
@@ -52,7 +52,7 @@ coot-headless
    :depends elfutils: ``>=0.191,<0.192.0a0``
    :depends fontconfig: ``>=2.15.0,<3.0a0``
    :depends fonts-conda-ecosystem: 
-   :depends gemmi: ``>=0.7.4,<1.0a0``
+   :depends gemmi: ``>=0.7.4,<0.7.5.0a0``
    :depends gsl: ``>=2.7,<2.8.0a0``
    :depends libboost: ``>=1.86.0,<1.87.0a0``
    :depends libccp4: ``>=8.0.0,<9.0a0``
@@ -60,19 +60,19 @@ coot-headless
    :depends libfreetype: ``>=2.14.1``
    :depends libfreetype6: ``>=2.14.1``
    :depends libgcc: ``>=13``
-   :depends libopenblas: 
-   :depends libpng: ``>=1.6.53,<1.7.0a0``
-   :depends librdkit-dev: ``>=2024.9.5,<2025.0a0``
-   :depends libsqlite: ``>=3.51.1,<4.0a0``
+   :depends libpng: ``>=1.6.54,<1.7.0a0``
+   :depends libsqlite: ``>=3.51.2,<4.0a0``
    :depends libstdcxx: ``>=13``
    :depends libxml2: ``>=2.13.9,<2.14.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends mmdb2: ``>=2.0.22,<3.0a0``
+   :depends numpy: ``1.26.*``
    :depends numpy: ``>=1.26.4,<2.0a0``
    :depends pixman: ``>=0.46.4,<1.0a0``
-   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python: ``>=3.10,<3.11.0a0 *_cpython``
    :depends python_abi: ``3.10.* *_cp310``
-   :depends rdkit: ``>=2024.9.5,<2025.0a0``
+   :depends rdkit: 
+   :depends servalcat: 
    :depends ssm: ``>=1.4,<2.0a0``
    :requirements:
 
@@ -128,7 +128,7 @@ coot-headless
 
     <script>
         var package = "coot-headless";
-        var versions = ["1.1.20","1.1.19","1.1.18","1.1.18","1.1.18"];
+        var versions = ["1.1.20","1.1.20","1.1.19","1.1.18","1.1.18"];
     </script>
 
 
