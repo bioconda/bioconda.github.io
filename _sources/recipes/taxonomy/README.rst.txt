@@ -30,10 +30,10 @@ taxonomy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.10.2-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-3</code>,  <code>0.10.0-2</code>,  <code>0.10.0-1</code>,  <code>0.10.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.3-0</code>,  <code>0.7.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10.3-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-3</code>,  <code>0.10.0-2</code>,  <code>0.10.0-1</code>,  <code>0.10.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.3-0</code>,  </span></summary>
       
 
-      ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-3``,  ``0.10.0-2``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.3-0``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.4.0-0``
+      ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-3``,  ``0.10.0-2``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.3-0``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.4.0-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ taxonomy
       
 
    
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:
@@ -99,7 +99,7 @@ taxonomy
 
     <script>
         var package = "taxonomy";
-        var versions = ["0.10.2","0.10.1","0.10.0","0.10.0","0.10.0"];
+        var versions = ["0.10.3","0.10.2","0.10.1","0.10.0","0.10.0"];
     </script>
 
 

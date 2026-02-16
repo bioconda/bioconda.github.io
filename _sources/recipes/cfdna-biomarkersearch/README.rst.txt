@@ -36,7 +36,7 @@ cfdna-biomarkersearch
       
       
 
-      ``0.1.1-0``
+      ``0.1.3-0``,  ``0.1.1-0``
 
       
 
@@ -54,6 +54,7 @@ cfdna-biomarkersearch
    :depends samtools: 
    :depends scikit-bio: 
    :depends scipy: 
+   :depends setuptools: ``<81``
    :depends sklearn-compat: 
    :depends tar: 
    :depends trimmomatic: 
@@ -110,7 +111,7 @@ cfdna-biomarkersearch
 
     <script>
         var package = "cfdna-biomarkersearch";
-        var versions = ["0.1.1"];
+        var versions = ["0.1.3","0.1.1"];
     </script>
 
 

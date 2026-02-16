@@ -13,7 +13,7 @@ mhcgnomes
    Python library for parsing MHC nomenclature in the wild
 
    :homepage: https://github.com/til-unc/mhcgnomes
-   :license: APACHE / Apache Software
+   :license: APACHE / Apache-2.0
    :recipe: /`mhcgnomes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mhcgnomes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mhcgnomes/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ mhcgnomes
       
       
 
-      ``2.0-0``,  ``1.8.6-0``,  ``1.8.4-0``
+      ``2.0.2-0``,  ``2.0-0``,  ``1.8.6-0``,  ``1.8.4-0``
 
       
 
@@ -87,7 +87,7 @@ mhcgnomes
 
     <script>
         var package = "mhcgnomes";
-        var versions = ["2.0","1.8.6","1.8.4"];
+        var versions = ["2.0.2","2.0","1.8.6","1.8.4"];
     </script>
 
 

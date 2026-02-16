@@ -13,7 +13,7 @@ csubst
    Tool for analyzing combinatorial codon substitutions in DNA sequences.
 
    :homepage: https://github.com/kfuku52/csubst
-   :documentation: https://github.com/kfuku52/csubst/blob/v1.4.20/README.md
+   :documentation: https://github.com/kfuku52/csubst/blob/v1.8.0/README.md
    
    :license: BSD / BSD-3-Clause
    :recipe: /`csubst <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/csubst>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/csubst/meta.yaml>`_
@@ -30,34 +30,28 @@ csubst
       
       
 
-      ``1.4.20-1``,  ``1.4.20-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
+      ``1.8.0-0``,  ``1.4.20-1``,  ``1.4.20-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
 
       
 
    
    :depends biopython: 
-   :depends ete3: 
+   :depends ete4: ``>=4.3.0``
    :depends iqtree: ``>=2.0.0``
-   :depends joblib: 
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libgcc: ``>=14``
+   :depends libstdcxx: ``>=14``
    :depends mafft: 
    :depends matplotlib-base: 
-   :depends numpy: ``>=1.22.4,<2.0a0``
+   :depends numpy: ``>=1.23,<3``
    :depends pandas: 
    :depends pymol-open-source: 
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends python: ``>=3.13,<3.14.0a0``
+   :depends python_abi: ``3.13.* *_cp313``
    :depends pyvolve: 
    :depends scipy: 
-   :depends threadpoolctl: 
    :requirements:
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -105,7 +99,7 @@ csubst
 
     <script>
         var package = "csubst";
-        var versions = ["1.4.20","1.4.20","1.4.0","1.4.0","1.4.0"];
+        var versions = ["1.8.0","1.4.20","1.4.20","1.4.0","1.4.0"];
     </script>
 
 

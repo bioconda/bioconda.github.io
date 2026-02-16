@@ -27,13 +27,14 @@ wakhan
       
       
 
-      ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-3``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.4.1-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-3``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
    
    :depends bcftools: ``>=1.14``
    :depends intervaltree: 
+   :depends matplotlib-base: 
    :depends numpy: ``1.24.4``
    :depends pandas: 
    :depends parse-vcf: 
@@ -46,6 +47,7 @@ wakhan
    :depends samtools: ``>=1.14``
    :depends scikit-learn: ``1.2.0``
    :depends scipy: ``1.9.2``
+   :depends setuptools: ``<81``
    :depends vcf_parser: 
    :requirements:
 
@@ -97,7 +99,7 @@ wakhan
 
     <script>
         var package = "wakhan";
-        var versions = ["0.2.0","0.2.0","0.1.2","0.1.1","0.1.1"];
+        var versions = ["0.4.1","0.2.0","0.2.0","0.1.2","0.1.1"];
     </script>
 
 
