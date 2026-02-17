@@ -10,13 +10,14 @@ rastair
    :replaces_section_title:
    :noindex:
 
-   Rust tool for TAPS\-based methylation calling.
+   Fast and flexible extraction of methylation information from BAM files
 
-   :homepage: https://bitbucket.org/bsblabludwig/rastair
-   :license: GPL3 / GPL-3.0-or-later
+   :homepage: https://docs.rastair.com/
+   :developer docs: https://bitbucket.org/bsblabludwig/rastair
+   :license: LicenseRef-NonCommercial
    :recipe: /`rastair <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rastair>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rastair/meta.yaml>`_
 
-   rastair is a fast and accurate tool for methylation calling from TAPS sequencing data\, written in Rust.
+   
 
 
 .. conda:package:: rastair
@@ -27,15 +28,22 @@ rastair
       
       
 
-      ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``
+      ``2.0.0-0``,  ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``
 
       
 
    
-   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0a0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
-   :depends r-ggplot2: ``>=3.5.1``
-   :depends r-gtable: ``>=0.3.6``
+   :depends bzip2: ``>=1.0.8,<2.0a0``
+   :depends libgcc: ``>=14``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libstdcxx: ``>=14``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends pandoc: 
+   :depends r-argparser: 
+   :depends r-base: 
+   :depends r-data.table: 
+   :depends r-ggplot2: 
+   :depends r-rmarkdown: 
    :requirements:
 
    :additional platforms:
@@ -90,7 +98,7 @@ rastair
 
     <script>
         var package = "rastair";
-        var versions = ["0.8.2","0.8.2","0.8.2"];
+        var versions = ["2.0.0","0.8.2","0.8.2","0.8.2"];
     </script>
 
 

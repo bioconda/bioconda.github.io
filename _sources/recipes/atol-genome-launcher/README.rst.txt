@@ -27,7 +27,7 @@ atol-genome-launcher
       
       
 
-      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``
+      ``0.3.1-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``
 
       
 
@@ -86,7 +86,7 @@ atol-genome-launcher
 
     <script>
         var package = "atol-genome-launcher";
-        var versions = ["0.2.1","0.2.0","0.1.5"];
+        var versions = ["0.3.1","0.2.1","0.2.0","0.1.5"];
     </script>
 
 
