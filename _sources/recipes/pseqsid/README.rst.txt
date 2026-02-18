@@ -29,7 +29,7 @@ pseqsid
       
       
 
-      ``1.0.2-0``
+      ``1.1.0-0``,  ``1.0.2-0``
 
       
 
@@ -88,7 +88,7 @@ pseqsid
 
     <script>
         var package = "pseqsid";
-        var versions = ["1.0.2"];
+        var versions = ["1.1.0","1.0.2"];
     </script>
 
 

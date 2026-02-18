@@ -31,10 +31,10 @@ chorus2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.01-2</code>,  <code>2.01-1</code>,  <code>2.1-0</code>,  <code>2.01-0</code>,  <code>2.0.1-0</code>,  <code>2.0-5</code>,  <code>2.0-4</code>,  <code>2.0-3</code>,  <code>2.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.01-2</code>,  <code>2.01-1</code>,  <code>2.01-0</code>,  <code>2.1-0</code>,  <code>2.0.1-0</code>,  <code>2.0-5</code>,  <code>2.0-4</code>,  <code>2.0-3</code>,  <code>2.0-2</code>,  </span></summary>
       
 
-      ``2.01-2``,  ``2.01-1``,  ``2.1-0``,  ``2.01-0``,  ``2.0.1-0``,  ``2.0-5``,  ``2.0-4``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+      ``2.01-2``,  ``2.01-1``,  ``2.01-0``,  ``2.1-0``,  ``2.0.1-0``,  ``2.0-5``,  ``2.0-4``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
 
       
       .. raw:: html
@@ -112,7 +112,7 @@ chorus2
 
     <script>
         var package = "chorus2";
-        var versions = ["2.01","2.01","2.1","2.01","2.0.1"];
+        var versions = ["2.01","2.01","2.01","2.1","2.0.1"];
     </script>
 
 
