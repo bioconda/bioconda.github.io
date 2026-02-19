@@ -13,7 +13,7 @@ metamdbg
    MetaMDBG\: a lightweight assembler for long and accurate metagenomics reads.
 
    :homepage: https://github.com/GaetanBenoitDev/metaMDBG
-   :documentation: https://github.com/GaetanBenoitDev/metaMDBG/blob/metaMDBG-1.3/README.md
+   :documentation: https://github.com/GaetanBenoitDev/metaMDBG/blob/metaMDBG-1.3.1/README.md
    
    :license: MIT / MIT
    :recipe: /`metamdbg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metamdbg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metamdbg/meta.yaml>`_
@@ -29,16 +29,24 @@ metamdbg
    :versions:
       
       
+      .. raw:: html
 
-      ``1.3-0``,  ``1.2-0``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``,  ``0.3-0``
+         <details><summary><span class="truncated-version-list"><code>1.3.1-0</code>,  <code>1.3-0</code>,  <code>1.2-0</code>,  <code>1.1-2</code>,  <code>1.1-1</code>,  <code>1.1-0</code>,  <code>1.0-2</code>,  <code>1.0-1</code>,  <code>1.0-0</code>,  </span></summary>
+      
 
+      ``1.3.1-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``,  ``0.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends libgomp: 
-   :depends libstdcxx: ``>=13``
+   :depends libstdcxx: ``>=14``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends minimap2: ``2.28.*``
    :depends time: ``1.8.*``
@@ -92,7 +100,7 @@ metamdbg
 
     <script>
         var package = "metamdbg";
-        var versions = ["1.3","1.2","1.1","1.1","1.1"];
+        var versions = ["1.3.1","1.3","1.2","1.1","1.1"];
     </script>
 
 

@@ -26,9 +26,17 @@ atol-qc-raw-shortread
    :versions:
       
       
+      .. raw:: html
 
-      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.7-0</code>,  <code>0.1.6-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4-0</code>,  <code>0.1.3-0</code>,  <code>0.1.2-0</code>,  </span></summary>
+      
 
+      ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -87,7 +95,7 @@ atol-qc-raw-shortread
 
     <script>
         var package = "atol-qc-raw-shortread";
-        var versions = ["0.2.1","0.2.0","0.1.7","0.1.6","0.1.5"];
+        var versions = ["0.2.2","0.2.1","0.2.0","0.1.7","0.1.6"];
     </script>
 
 
