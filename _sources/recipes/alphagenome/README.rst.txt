@@ -33,7 +33,7 @@ alphagenome
       
       
 
-      ``0.5.1-0``
+      ``0.6.0-0``,  ``0.5.1-0``
 
       
 
@@ -107,7 +107,7 @@ alphagenome
 
     <script>
         var package = "alphagenome";
-        var versions = ["0.5.1"];
+        var versions = ["0.6.0","0.5.1"];
     </script>
 
 

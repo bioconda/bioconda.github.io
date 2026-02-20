@@ -49,7 +49,6 @@ perl-cgi
    :depends perl-file-temp: 
    :depends perl-html-parser: ``>=3.83,<4.0a0``
    :depends perl-parent: 
-   :depends perl-test-nowarnings: ``1.06.*``
    :depends perl-uri: 
    :requirements:
 

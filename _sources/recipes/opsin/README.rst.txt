@@ -6,7 +6,7 @@
 opsin
 =====
 
-.. conda:recipe:: opsin/2.1.0
+.. conda:recipe:: opsin/1.4.0
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ opsin
 
    :homepage: https://bitbucket.org/dan2097/opsin/
    :license: Artistic License 2.0
-   :recipe: /`opsin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/opsin>`_/`2.1.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/opsin/2.1.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/opsin/2.1.0/meta.yaml>`_
+   :recipe: /`opsin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/opsin>`_/`1.4.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/opsin/1.4.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/opsin/1.4.0/meta.yaml>`_
 
    
 

@@ -41,7 +41,7 @@ pb-falcon
 
    
    :depends future: ``>=0.16.0``
-   :depends htslib: ``>=1.21,<1.24.0a0``
+   :depends htslib: ``>=1.21,<1.22.0a0``
    :depends libgcc: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends networkx: ``>=1.9.1``

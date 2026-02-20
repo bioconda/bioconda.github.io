@@ -49,10 +49,10 @@ biobb_haddock
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.2.0-0</code>,  <code>5.1.1-2</code>,  <code>5.1.1-1</code>,  <code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.1-0</code>,  <code>5.0.0-4</code>,  <code>5.0.0-3</code>,  <code>5.0.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.2.0-1</code>,  <code>5.2.0-0</code>,  <code>5.1.1-2</code>,  <code>5.1.1-1</code>,  <code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.1-0</code>,  <code>5.0.0-4</code>,  <code>5.0.0-3</code>,  </span></summary>
       
 
-      ``5.2.0-0``,  ``5.1.1-2``,  ``5.1.1-1``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.1-0``,  ``5.0.0-4``,  ``5.0.0-3``,  ``5.0.0-2``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.1-0``
+      ``5.2.0-1``,  ``5.2.0-0``,  ``5.1.1-2``,  ``5.1.1-1``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.1-0``,  ``5.0.0-4``,  ``5.0.0-3``,  ``5.0.0-2``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.1-0``
 
       
       .. raw:: html
@@ -62,7 +62,7 @@ biobb_haddock
 
    
    :depends biobb_common: ``5.2.0``
-   :depends haddock_biobb: ``==2025.5 *_3``
+   :depends haddock_biobb: ``2025.11``
    :depends python: ``>=3.10``
    :requirements:
 
@@ -114,7 +114,7 @@ biobb_haddock
 
     <script>
         var package = "biobb_haddock";
-        var versions = ["5.2.0","5.1.1","5.1.1","5.1.1","5.1.0"];
+        var versions = ["5.2.0","5.2.0","5.1.1","5.1.1","5.1.1"];
     </script>
 
 
