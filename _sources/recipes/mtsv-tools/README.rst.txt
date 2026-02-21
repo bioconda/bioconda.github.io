@@ -10,7 +10,7 @@ mtsv-tools
    :replaces_section_title:
    :noindex:
 
-   mtsv\_tools contains core tools for alignment\-based metagenomic binning
+   mtsv\_tools contains core tools for alignment\-based metagenomic\/metatranscriptomic assignment
 
 
    :homepage: https://github.com/FofanovLab/mtsv_tools
@@ -29,10 +29,10 @@ mtsv-tools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.2-4</code>,  <code>2.0.2-3</code>,  <code>2.0.2-2</code>,  <code>2.0.2-1</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.0.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.0-0</code>,  <code>2.0.2-4</code>,  <code>2.0.2-3</code>,  <code>2.0.2-2</code>,  <code>2.0.2-1</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  </span></summary>
       
 
-      ``2.0.2-4``,  ``2.0.2-3``,  ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``2.1.0-0``,  ``2.0.2-4``,  ``2.0.2-3``,  ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ mtsv-tools
       
 
    
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :requirements:
 
    :additional platforms:
@@ -92,7 +92,7 @@ mtsv-tools
 
     <script>
         var package = "mtsv-tools";
-        var versions = ["2.0.2","2.0.2","2.0.2","2.0.2","2.0.2"];
+        var versions = ["2.1.0","2.0.2","2.0.2","2.0.2","2.0.2"];
     </script>
 
 

@@ -27,7 +27,7 @@ floco
       
       
 
-      ``1.0.1-0``
+      ``1.1.0-0``,  ``1.0.1-0``
 
       
 
@@ -86,7 +86,7 @@ floco
 
     <script>
         var package = "floco";
-        var versions = ["1.0.1"];
+        var versions = ["1.1.0","1.0.1"];
     </script>
 
 

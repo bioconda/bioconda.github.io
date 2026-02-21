@@ -29,7 +29,7 @@ tolkein
       
       
 
-      ``0.5.0-0``
+      ``0.5.0-1``,  ``0.5.0-0``
 
       
 
@@ -38,6 +38,7 @@ tolkein
    :depends python: 
    :depends pyyaml: 
    :depends requests: ``>=2.24.0``
+   :depends setuptools: ``<78``
    :depends tqdm: ``>=4.48.1``
    :depends ujson: ``>=3.0.0``
    :depends xmltodict: ``>=0.12.0``
@@ -91,7 +92,7 @@ tolkein
 
     <script>
         var package = "tolkein";
-        var versions = ["0.5.0"];
+        var versions = ["0.5.0","0.5.0"];
     </script>
 
 

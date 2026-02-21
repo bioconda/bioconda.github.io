@@ -29,10 +29,10 @@ metabuli
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.0-0</code>,  <code>1.0.9.2-1</code>,  <code>1.0.9.2-0</code>,  <code>1.0.8-1</code>,  <code>1.0.8-0</code>,  <code>1.0.5-2</code>,  <code>1.0.5-1</code>,  <code>1.0.5-0</code>,  <code>1.0.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.9.2-1</code>,  <code>1.0.9.2-0</code>,  <code>1.0.8-1</code>,  <code>1.0.8-0</code>,  <code>1.0.5-2</code>,  <code>1.0.5-1</code>,  <code>1.0.5-0</code>,  </span></summary>
       
 
-      ``1.1.0-0``,  ``1.0.9.2-1``,  ``1.0.9.2-0``,  ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.9.2-1``,  ``1.0.9.2-0``,  ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -45,8 +45,8 @@ metabuli
    :depends aria2: 
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends gawk: 
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libgcc: ``>=14``
+   :depends libstdcxx: ``>=14``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends wget: 
@@ -105,7 +105,7 @@ metabuli
 
     <script>
         var package = "metabuli";
-        var versions = ["1.1.0","1.0.9.2","1.0.9.2","1.0.8","1.0.8"];
+        var versions = ["1.1.1","1.1.0","1.0.9.2","1.0.9.2","1.0.8"];
     </script>
 
 

@@ -32,27 +32,27 @@ shiba
       
       
 
-      ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``
+      ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``
 
       
 
    
-   :depends bioconductor-deseq2: ``>=1.34.0``
-   :depends numexpr: ``>=2.8.4``
-   :depends numpy: ``>=1.26.4``
-   :depends pandas: ``>=1.5.3``
-   :depends plotly: ``>=5.13.0``
-   :depends pysam: ``>=0.23.0``
+   :depends bioconductor-deseq2: ``>=1.34.0,<2.0.0``
+   :depends numexpr: ``>=2.8.4,<3.0.0``
+   :depends numpy: ``>=1.26.4,<2.0.0``
+   :depends pandas: ``>=1.5.3,<3.0.0``
+   :depends plotly: ``>=5.13.0,<6.0.0``
+   :depends pysam: ``>=0.23.0,<1.0.0``
    :depends python: ``>=3.12,<3.13.0a0``
-   :depends pyyaml: ``>=6.0.2``
-   :depends r-base: ``>=4.1.3``
-   :depends r-data.table: ``>=1.14.2``
-   :depends r-locfit: ``>=1.5_9.4``
-   :depends regtools: ``>=1.0.0``
-   :depends scanpy: ``>=1.9.5``
-   :depends statsmodels: ``>=0.13.5``
-   :depends stringtie: ``>=3.0.0``
-   :depends subread: ``>=2.0.8``
+   :depends pyyaml: ``>=6.0.2,<7.0.0``
+   :depends r-base: ``>=4.1.3,<5.0.0``
+   :depends r-data.table: ``>=1.14.2,<2.0.0``
+   :depends r-locfit: ``>=1.5_9.4,<2.0.0``
+   :depends regtools: ``>=1.0.0,<2.0.0``
+   :depends scanpy: ``>=1.9.5,<2.0.0``
+   :depends statsmodels: ``>=0.13.5,<1.0.0``
+   :depends stringtie: ``>=3.0.0,<4.0.0``
+   :depends subread: ``>=2.0.8,<3.0.0``
    :requirements:
 
    :additional platforms:
@@ -103,7 +103,7 @@ shiba
 
     <script>
         var package = "shiba";
-        var versions = ["0.8.1","0.8.0","0.7.1","0.7.0","0.6.3"];
+        var versions = ["0.8.1","0.8.1","0.8.0","0.7.1","0.7.0"];
     </script>
 
 

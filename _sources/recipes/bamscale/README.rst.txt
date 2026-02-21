@@ -46,7 +46,7 @@ bamscale
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.21,<1.22.0a0``
+   :depends htslib: ``>=1.21,<1.24.0a0``
    :depends libbigwig: ``>=0.4.7,<0.5.0a0``
    :depends libcurl: ``>=8.10.1,<9.0a0``
    :depends libgcc: ``>=13``

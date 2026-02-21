@@ -59,7 +59,7 @@ openstructure
    :depends libxcb: ``>=1.17.0,<2.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends mesalib: ``>=25.0.5,<25.1.0a0``
-   :depends networkx: ``>=3.5,<4.0a0``
+   :depends networkx: ``>=3.4.2,<4.0a0``
    :depends numpy: ``>=1.26.4,<2.0a0``
    :depends ocl-icd: ``>=2.3.3,<3.0a0``
    :depends ocl-icd-system: 
@@ -67,8 +67,8 @@ openstructure
    :depends pandas: ``>=2.3.1,<3.0a0``
    :depends parasail: ``>=2.6.2,<3.0a0``
    :depends pyqt: ``>=5.15.11,<5.16.0a0``
-   :depends python: ``>=3.12,<3.13.0a0 *_cpython``
-   :depends python_abi: ``3.12.* *_cp312``
+   :depends python: ``>=3.10,<3.11.0a0 *_cpython``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends qt: ``>=5.15.15,<5.16.0a0``
    :depends scipy: ``>=1.13.1,<2.0a0``
    :depends voronota: ``>=1.29.4415,<2.0a0``

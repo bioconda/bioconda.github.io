@@ -51,6 +51,7 @@ dfast
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends metagene_annotator: ``>=1.0``
    :depends openjdk: 
    :depends plasmidfinder: ``>=2.1.6``
    :depends python: ``>=3.7``

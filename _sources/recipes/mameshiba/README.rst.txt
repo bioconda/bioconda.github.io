@@ -31,22 +31,22 @@ mameshiba
       
       
 
-      ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``
+      ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``
 
       
 
    
-   :depends numexpr: ``2.8.4``
-   :depends numpy: ``1.26.4``
-   :depends pandas: ``1.5.3``
-   :depends pysam: ``0.23.0``
-   :depends python: ``3.11.0.*``
-   :depends pyyaml: ``6.0.2``
-   :depends regtools: ``1.0.0``
-   :depends scanpy: ``1.9.5``
-   :depends statsmodels: ``0.13.5``
-   :depends stringtie: ``3.0.0``
-   :depends subread: ``2.0.8``
+   :depends numexpr: ``>=2.8.4,<3.0.0``
+   :depends numpy: ``>=1.26.4,<2.0.0``
+   :depends pandas: ``>=1.5.3,<3.0.0``
+   :depends pysam: ``>=0.23.0,<1.0.0``
+   :depends python: ``>=3.11.0,<3.13.0``
+   :depends pyyaml: ``>=6.0.2,<7.0.0``
+   :depends regtools: ``>=1.0.0,<2.0.0``
+   :depends scanpy: ``>=1.9.5,<2.0.0``
+   :depends statsmodels: ``>=0.13.5,<1.0.0``
+   :depends stringtie: ``>=3.0.0,<4.0.0``
+   :depends subread: ``>=2.0.8,<3.0.0``
    :requirements:
 
    :additional platforms:
@@ -97,7 +97,7 @@ mameshiba
 
     <script>
         var package = "mameshiba";
-        var versions = ["0.8.1","0.8.0","0.7.1","0.7.0","0.6.3"];
+        var versions = ["0.8.1","0.8.1","0.8.0","0.7.1","0.7.0"];
     </script>
 
 

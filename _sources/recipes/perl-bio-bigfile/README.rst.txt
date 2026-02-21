@@ -33,7 +33,7 @@ perl-bio-bigfile
 
    
    :depends libgcc: ``>=13``
-   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends libzlib: ``>=1.2.13,<2.0a0``
    :depends mysql: 
    :depends openssl: ``>=3.5.2,<4.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``

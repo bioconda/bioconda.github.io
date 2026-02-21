@@ -27,14 +27,14 @@ foldtree
       
       
 
-      ``1.1.0rc2-0``
+      ``1.1.0rc2-1``,  ``1.1.0rc2-0``
 
       
 
    
    :depends click: 
    :depends python: 
-   :depends snakemake-minimal: 
+   :depends snakemake-minimal: ``<8``
    :requirements:
 
    :additional platforms:
@@ -85,7 +85,7 @@ foldtree
 
     <script>
         var package = "foldtree";
-        var versions = ["1.1.0rc2"];
+        var versions = ["1.1.0rc2","1.1.0rc2"];
     </script>
 
 

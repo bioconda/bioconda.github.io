@@ -42,9 +42,11 @@ k8
       
 
    
+   :depends __glibc: ``>=2.17,<3.0.a0``
    :depends libgcc: ``>=13``
    :depends libstdcxx: ``>=13``
    :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends sysroot_linux-64: ``>=2.17``
    :requirements:
 
    :additional platforms:

@@ -27,7 +27,7 @@ cutehap
       
       
 
-      ``1.0.3-0``,  ``1.0.2-0``
+      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
 
       
 
@@ -35,7 +35,7 @@ cutehap
    :depends biopython: 
    :depends cigar: 
    :depends cython: 
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends numpy: 
    :depends pysam: 
    :depends python: ``>=3.12,<3.13.0a0``
@@ -91,7 +91,7 @@ cutehap
 
     <script>
         var package = "cutehap";
-        var versions = ["1.0.3","1.0.2"];
+        var versions = ["1.0.4","1.0.3","1.0.2"];
     </script>
 
 

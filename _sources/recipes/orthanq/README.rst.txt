@@ -56,8 +56,8 @@ orthanq
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends minimap2: 
    :depends openssl: ``>=3.5.5,<4.0a0``
-   :depends python: ``>=3.11,<3.12.0a0``
-   :depends python_abi: ``3.11.* *_cp311``
+   :depends python: ``>=3.10,<3.11.0a0``
+   :depends python_abi: ``3.10.* *_cp310``
    :depends samtools: ``1.20``
    :depends varlociraptor: ``8.7.3``
    :depends vg: ``1.63.1``
