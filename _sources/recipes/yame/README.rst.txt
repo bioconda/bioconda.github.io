@@ -15,7 +15,7 @@ yame
    :homepage: https://github.com/zhou-lab/YAME
    :documentation: https://zhou-lab.github.io/YAME
    
-   :license: MIT / MIT
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`yame <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yame>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yame/meta.yaml>`_
 
    
@@ -29,12 +29,12 @@ yame
       
       
 
-      ``1.0.5-0``,  ``1.0.4-0``
+      ``1.8-0``,  ``1.0.5-0``,  ``1.0.4-0``
 
       
 
    
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends ncurses: ``>=6.5,<7.0a0``
    :requirements:
@@ -91,7 +91,7 @@ yame
 
     <script>
         var package = "yame";
-        var versions = ["1.0.5","1.0.4"];
+        var versions = ["1.8","1.0.5","1.0.4"];
     </script>
 
 

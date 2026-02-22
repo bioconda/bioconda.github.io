@@ -12,7 +12,7 @@ genomextract
 
    GenomeXtract \- A toolkit to easily find\, compare\, and assemble NCBI genomes.
 
-   :homepage: https://github.com/KK260/GenomeXtract
+   :homepage: https://github.com/kevinkarbstein/GenomeXtract
    :license: GPL-3.0-only
    :recipe: /`genomextract <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genomextract>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genomextract/meta.yaml>`_
 
@@ -27,7 +27,7 @@ genomextract
       
       
 
-      ``0.1.5-0``,  ``0.1.2-0``
+      ``0.1.7-0``,  ``0.1.5-0``,  ``0.1.2-0``
 
       
 
@@ -92,7 +92,7 @@ genomextract
 
     <script>
         var package = "genomextract";
-        var versions = ["0.1.5","0.1.2"];
+        var versions = ["0.1.7","0.1.5","0.1.2"];
     </script>
 
 

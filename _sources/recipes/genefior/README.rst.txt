@@ -30,11 +30,20 @@ genefior
       
       
 
-      
+      ``0.6.0-0``
 
       
 
    
+   :depends blast: ``>=2.17.0``
+   :depends bowtie2: ``>=2.5.4``
+   :depends bwa: ``>=0.7.19``
+   :depends diamond: ``>=2.1.13``
+   :depends minimap2: ``>=2.30``
+   :depends mmseqs2: 
+   :depends python: ``>=3.10``
+   :depends samtools: ``>=1.19.2``
+   :depends seqtk: ``>=1.4``
    :requirements:
 
    :additional platforms:
@@ -85,7 +94,7 @@ genefior
 
     <script>
         var package = "genefior";
-        var versions = [];
+        var versions = ["0.6.0"];
     </script>
 
 

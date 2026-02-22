@@ -13,7 +13,7 @@ mosdepth
    Fast BAM\/CRAM depth calculation for WGS\, exome\, or targeted sequencing.
 
    :homepage: https://github.com/brentp/mosdepth
-   :documentation: https://github.com/brentp/mosdepth/blob/v0.3.12/README.md
+   :documentation: https://github.com/brentp/mosdepth/blob/v0.3.13/README.md
    
    :license: MIT / MIT
    :recipe: /`mosdepth <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mosdepth>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mosdepth/meta.yaml>`_
@@ -31,10 +31,10 @@ mosdepth
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.12-0</code>,  <code>0.3.11-1</code>,  <code>0.3.11-0</code>,  <code>0.3.10-1</code>,  <code>0.3.10-0</code>,  <code>0.3.8-0</code>,  <code>0.3.7-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.13-0</code>,  <code>0.3.12-0</code>,  <code>0.3.11-1</code>,  <code>0.3.11-0</code>,  <code>0.3.10-1</code>,  <code>0.3.10-0</code>,  <code>0.3.8-0</code>,  <code>0.3.7-0</code>,  <code>0.3.6-0</code>,  </span></summary>
       
 
-      ``0.3.12-0``,  ``0.3.11-1``,  ``0.3.11-0``,  ``0.3.10-1``,  ``0.3.10-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-3``,  ``0.3.3-2``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2.9-1``,  ``0.2.9-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-1``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4a-0``,  ``0.1.3-0``,  ``0.1.1-0``
+      ``0.3.13-0``,  ``0.3.12-0``,  ``0.3.11-1``,  ``0.3.11-0``,  ``0.3.10-1``,  ``0.3.10-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-3``,  ``0.3.3-2``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.2.9-1``,  ``0.2.9-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-1``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4a-0``,  ``0.1.3-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -44,10 +44,9 @@ mosdepth
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.22.1,<1.23.0a0``
-   :depends libdeflate: ``>=1.22,<1.23.0a0``
-   :depends libgcc: ``>=13``
-   :depends liblzma: ``>=5.8.1,<6.0a0``
+   :depends htslib: ``>=1.23,<1.24.0a0``
+   :depends libgcc: ``>=14``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
@@ -103,7 +102,7 @@ mosdepth
 
     <script>
         var package = "mosdepth";
-        var versions = ["0.3.12","0.3.11","0.3.11","0.3.10","0.3.10"];
+        var versions = ["0.3.13","0.3.12","0.3.11","0.3.11","0.3.10"];
     </script>
 
 

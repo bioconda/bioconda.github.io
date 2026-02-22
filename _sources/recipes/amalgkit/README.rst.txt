@@ -13,7 +13,7 @@ amalgkit
    Tools for transcriptome amalgamation
 
    :homepage: https://github.com/kfuku52/amalgkit
-   :license: BSD-3-Clause
+   :license: MIT
    :recipe: /`amalgkit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/amalgkit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/amalgkit/meta.yaml>`_
 
    
@@ -27,36 +27,25 @@ amalgkit
       
       
 
-      ``0.12.20-0``,  ``0.12.19-0``,  ``0.12.18-0``,  ``0.12.17-0``,  ``0.12.16-0``,  ``0.12.15-0``
+      ``0.14.0-0``,  ``0.12.20-0``,  ``0.12.19-0``,  ``0.12.18-0``,  ``0.12.17-0``,  ``0.12.16-0``,  ``0.12.15-0``
 
       
 
    
    :depends bioconductor-edger: 
-   :depends bioconductor-pcamethods: 
-   :depends bioconductor-ruvseq: 
    :depends bioconductor-sva: 
    :depends biopython: 
    :depends ete4: 
    :depends fastp: 
    :depends kallisto: 
-   :depends lxml: 
    :depends numpy: 
    :depends pandas: 
-   :depends parallel-fastq-dump: 
-   :depends python: ``>=3.9``
-   :depends r-amap: 
+   :depends python: ``>=3.10``
    :depends r-base: 
-   :depends r-colorspace: 
-   :depends r-dendextend: 
    :depends r-ggplot2: 
-   :depends r-mass: 
-   :depends r-nmf: 
-   :depends r-patchwork: 
-   :depends r-pvclust: 
-   :depends r-rcolorbrewer: 
    :depends r-rtsne: 
    :depends seqkit: 
+   :depends sra-tools: 
    :requirements:
 
    :additional platforms:
@@ -107,7 +96,7 @@ amalgkit
 
     <script>
         var package = "amalgkit";
-        var versions = ["0.12.20","0.12.19","0.12.18","0.12.17","0.12.16"];
+        var versions = ["0.14.0","0.12.20","0.12.19","0.12.18","0.12.17"];
     </script>
 
 

@@ -27,7 +27,7 @@ lodei
       
       
 
-      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -35,7 +35,7 @@ lodei
    :depends matplotlib-base: 
    :depends pandas: 
    :depends pysamstats: 
-   :depends python: 
+   :depends python: ``>=3.10,<3.11``
    :depends samtools: 
    :requirements:
 
@@ -87,7 +87,7 @@ lodei
 
     <script>
         var package = "lodei";
-        var versions = ["1.1.1","1.1.0","1.0.0"];
+        var versions = ["1.1.2","1.1.1","1.1.0","1.0.0"];
     </script>
 
 
