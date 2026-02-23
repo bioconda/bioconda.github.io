@@ -29,20 +29,19 @@ scarap
       
       
 
-      ``1.0.1-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends biopython: ``>=1.67``
-   :depends ete3: ``>=3.1.1``
-   :depends mafft: 
-   :depends mmseqs2: 
-   :depends numpy: ``>=1.16.5``
-   :depends pandas: 
-   :depends python: ``>=3.6.7,<=3.12``
-   :depends scipy: ``>=1.4.1``
-   :depends wheel: 
+   :depends biopython: ``>=1.79,<2``
+   :depends ete3: ``>=3.1,<4``
+   :depends mafft: ``>=7.407``
+   :depends mmseqs2: ``>=11``
+   :depends numpy: ``>=1.18,<3``
+   :depends pandas: ``>=1.3,<3``
+   :depends python: ``>=3.8,<3.13``
+   :depends scipy: ``>=1.4,<2``
    :requirements:
 
    :additional platforms:
@@ -93,7 +92,7 @@ scarap
 
     <script>
         var package = "scarap";
-        var versions = ["1.0.1","1.0.0","1.0.0","1.0.0"];
+        var versions = ["1.0.2","1.0.1","1.0.0","1.0.0","1.0.0"];
     </script>
 
 

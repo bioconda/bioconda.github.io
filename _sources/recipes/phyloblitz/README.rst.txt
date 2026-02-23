@@ -15,7 +15,7 @@ phyloblitz
    :homepage: https://github.com/kbseah/phyloblitz
    :documentation: https://github.com/kbseah/phyloblitz#readme
    
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`phyloblitz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phyloblitz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phyloblitz/meta.yaml>`_
 
    
@@ -29,11 +29,23 @@ phyloblitz
       
       
 
-      
+      ``0.2.0-0``
 
       
 
    
+   :depends isonclust3: ``>=0.3.0,<0.4``
+   :depends matplotlib-base: ``>=3.10.8,<4``
+   :depends minimap2: ``>=2.30,<3``
+   :depends mistune: ``>=3.1.4,<4``
+   :depends numpy: ``>=2.3.5,<3``
+   :depends oxli: ``>=0.3.0,<0.4``
+   :depends pyfastx: ``>=2.2.0,<3``
+   :depends pymarkovclustering: ``>=0.1.1,<0.2``
+   :depends pysam: ``>=0.23.3,<0.24``
+   :depends python: ``>=3.10,<3.14``
+   :depends rich-click: ``>=1.9.4,<2``
+   :depends spoa: ``>=4.1.5,<5``
    :requirements:
 
    :additional platforms:
@@ -84,7 +96,7 @@ phyloblitz
 
     <script>
         var package = "phyloblitz";
-        var versions = [];
+        var versions = ["0.2.0"];
     </script>
 
 

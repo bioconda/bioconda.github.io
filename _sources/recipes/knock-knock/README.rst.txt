@@ -27,16 +27,17 @@ knock-knock
       
       
 
-      ``0.4.2-0``,  ``0.2.1-0``
+      ``0.8.0-0``,  ``0.4.2-0``,  ``0.2.1-0``
 
       
 
    
-   :depends biopython: ``>=1.80``
+   :depends anndata: 
+   :depends biopython: ``>=1.86``
    :depends blast: ``>=2.7.1``
    :depends bokeh: ``>=2.4.2``
    :depends h5py: ``>=3.1.0``
-   :depends hits: ``>=0.4.0``
+   :depends hits: ``>=0.4.3``
    :depends ipywidgets: ``>=7.1.2``
    :depends matplotlib-base: ``>=2.1.2``
    :depends minimap2: ``2.16``
@@ -47,11 +48,14 @@ knock-knock
    :depends parallel: ``>=20190522``
    :depends pillow: ``>=5.0.0``
    :depends pysam: ``>=0.14``
-   :depends python: ``>=3.7``
+   :depends pytables: 
+   :depends python: ``>=3.12``
    :depends pyyaml: ``>=3.12``
    :depends samtools: ``>=1.9``
+   :depends scipy: ``>=1.16.2``
    :depends star: ``>=2.7.1``
    :depends tqdm: ``>=4.31.1``
+   :depends viennarna: ``>=2.6.4``
    :requirements:
 
    :additional platforms:
@@ -102,7 +106,7 @@ knock-knock
 
     <script>
         var package = "knock-knock";
-        var versions = ["0.4.2","0.2.1"];
+        var versions = ["0.8.0","0.4.2","0.2.1"];
     </script>
 
 

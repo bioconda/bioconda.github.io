@@ -27,7 +27,7 @@ meningotype
       
       
 
-      ``0.8.5-1``,  ``0.8.5-0``,  ``0.8.4-1``,  ``0.8.4-0``
+      ``0.8.6b-0``,  ``0.8.5-1``,  ``0.8.5-0``,  ``0.8.4-1``,  ``0.8.4-0``
 
       
 
@@ -35,8 +35,8 @@ meningotype
    :depends biopython: 
    :depends blast: 
    :depends ispcr: 
-   :depends mlst: ``>=2.12``
-   :depends python: ``>=3.6``
+   :depends mlst: 
+   :depends python: ``>=3.12``
    :requirements:
 
    :additional platforms:
@@ -87,7 +87,7 @@ meningotype
 
     <script>
         var package = "meningotype";
-        var versions = ["0.8.5","0.8.5","0.8.4","0.8.4"];
+        var versions = ["0.8.6b","0.8.5","0.8.5","0.8.4","0.8.4"];
     </script>
 
 

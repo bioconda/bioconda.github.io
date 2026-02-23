@@ -27,15 +27,19 @@ distle
       
       
 
-      ``0.3.0-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.1-0``
+      ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.1-0``
 
       
 
    
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -83,7 +87,7 @@ distle
 
     <script>
         var package = "distle";
-        var versions = ["0.3.0","0.2.0","0.2.0","0.1.1"];
+        var versions = ["0.3.0","0.3.0","0.2.0","0.2.0","0.1.1"];
     </script>
 
 

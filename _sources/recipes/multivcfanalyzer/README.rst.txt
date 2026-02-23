@@ -13,7 +13,7 @@ multivcfanalyzer
    MultiVCFAnalyzer is a VCF file post\-processing tool tailored for aDNA. License on Github repository.
 
    :homepage: https://github.com/alexherbig/MultiVCFAnalyzer
-   :license: GPL >=3
+   :license: GPL / GPL >=3
    :recipe: /`multivcfanalyzer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/multivcfanalyzer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/multivcfanalyzer/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ multivcfanalyzer
       
       
 
-      ``0.85.2-1``,  ``0.85.2-0``,  ``0.85.1-0``
+      ``0.88.1-0``,  ``0.85.2-1``,  ``0.85.2-0``,  ``0.85.1-0``
 
       
 
@@ -84,7 +84,7 @@ multivcfanalyzer
 
     <script>
         var package = "multivcfanalyzer";
-        var versions = ["0.85.2","0.85.2","0.85.1"];
+        var versions = ["0.88.1","0.85.2","0.85.2","0.85.1"];
     </script>
 
 

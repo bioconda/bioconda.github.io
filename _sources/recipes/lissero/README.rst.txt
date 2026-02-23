@@ -29,7 +29,7 @@ lissero
       
       
 
-      ``0.4.9-0``,  ``0.4.8-0``,  ``0.4.5-0``
+      ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.8-0``,  ``0.4.5-0``
 
       
 
@@ -39,7 +39,7 @@ lissero
    :depends click: 
    :depends ispcr: 
    :depends loguru: 
-   :depends python: ``>=3.6``
+   :depends python: ``>=3.12``
    :requirements:
 
    :additional platforms:
@@ -90,7 +90,7 @@ lissero
 
     <script>
         var package = "lissero";
-        var versions = ["0.4.9","0.4.8","0.4.5"];
+        var versions = ["0.4.10","0.4.9","0.4.8","0.4.5"];
     </script>
 
 

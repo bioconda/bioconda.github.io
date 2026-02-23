@@ -13,7 +13,7 @@ abpoa
    abPOA\: fast SIMD\-based partial order alignment using adaptive band.
 
    :homepage: https://github.com/yangao07/abPOA
-   :documentation: https://github.com/yangao07/abPOA/blob/v1.5.5/README.md
+   :documentation: https://github.com/yangao07/abPOA/blob/v1.5.6/README.md
    
    :license: MIT / MIT
    :recipe: /`abpoa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abpoa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abpoa/meta.yaml>`_
@@ -31,10 +31,10 @@ abpoa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.5-0</code>,  <code>1.5.4-1</code>,  <code>1.5.4-0</code>,  <code>1.5.3-1</code>,  <code>1.5.3-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-1</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.6-0</code>,  <code>1.5.5-0</code>,  <code>1.5.4-1</code>,  <code>1.5.4-0</code>,  <code>1.5.3-1</code>,  <code>1.5.3-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-1</code>,  <code>1.5.1-0</code>,  </span></summary>
       
 
-      ``1.5.5-0``,  ``1.5.4-1``,  ``1.5.4-0``,  ``1.5.3-1``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-4``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.5.6-0``,  ``1.5.5-0``,  ``1.5.4-1``,  ``1.5.4-0``,  ``1.5.3-1``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-4``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ abpoa
       
 
    
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
@@ -99,7 +99,7 @@ abpoa
 
     <script>
         var package = "abpoa";
-        var versions = ["1.5.5","1.5.4","1.5.4","1.5.3","1.5.3"];
+        var versions = ["1.5.6","1.5.5","1.5.4","1.5.4","1.5.3"];
     </script>
 
 

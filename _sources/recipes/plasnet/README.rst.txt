@@ -27,15 +27,15 @@ plasnet
       
       
 
-      ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.1-0``
+      ``0.7.0-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.1-0``
 
       
 
    
-   :depends click: 
-   :depends networkx: 
-   :depends pandas: 
-   :depends python: ``>=3.9``
+   :depends click: ``>=8.1.7,<9``
+   :depends networkx: ``>=3.2,<4``
+   :depends pandas: ``>=2.1.2,<3``
+   :depends python: ``>=3.9,<3.13``
    :requirements:
 
    :additional platforms:
@@ -86,7 +86,7 @@ plasnet
 
     <script>
         var package = "plasnet";
-        var versions = ["0.6.0","0.6.0","0.5.1"];
+        var versions = ["0.7.0","0.6.0","0.6.0","0.5.1"];
     </script>
 
 

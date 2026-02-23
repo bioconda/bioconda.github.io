@@ -13,7 +13,7 @@ toolshed
    flexible and easy file manipulation
 
    :homepage: https://github.com/brentp/toolshed
-   :license: MIT License
+   :license: BSD-2-Clause
    :recipe: /`toolshed <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/toolshed>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/toolshed/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ toolshed
       
       
 
-      ``0.4.6-3``,  ``0.4.6-2``,  ``0.4.6-1``,  ``0.4.6-0``
+      ``0.4.8-0``,  ``0.4.6-3``,  ``0.4.6-2``,  ``0.4.6-1``,  ``0.4.6-0``
 
       
 
@@ -83,7 +83,7 @@ toolshed
 
     <script>
         var package = "toolshed";
-        var versions = ["0.4.6","0.4.6","0.4.6","0.4.6"];
+        var versions = ["0.4.8","0.4.6","0.4.6","0.4.6","0.4.6"];
     </script>
 
 
