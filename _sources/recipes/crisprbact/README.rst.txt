@@ -13,7 +13,7 @@ crisprbact
    Tools to design and analyse CRISPRi experiments
 
    :homepage: https://gitlab.pasteur.fr/dbikard/crisprbact
-   :license: GPL3 / GNU General Public v3 (GPLv3)
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`crisprbact <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crisprbact>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crisprbact/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ crisprbact
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.11-0</code>,  <code>0.3.10-0</code>,  <code>0.3.9-0</code>,  <code>0.3.8-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.0-0</code>,  <code>0.3.11-0</code>,  <code>0.3.10-0</code>,  <code>0.3.9-0</code>,  <code>0.3.8-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  </span></summary>
       
 
-      ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.1.0-0``
+      ``1.1.0-0``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -40,13 +40,14 @@ crisprbact
       
 
    
-   :depends biopython: ``>=1.75,<2.0``
-   :depends click: ``>=7.0,<8.0``
-   :depends numpy: ``>=1.17,<2.0``
-   :depends pandas: ``>=0.25.3``
+   :depends biopython: ``>=1.79,<2.0``
+   :depends click: ``>=8.0,<9.0``
+   :depends matplotlib-base: ``>=3.5``
+   :depends numpy: ``>=1.21,<3.0``
+   :depends pandas: ``>=1.3``
    :depends poetry: 
-   :depends python: ``>=3.7``
-   :depends rope: ``>=0.16.0``
+   :depends python: ``>=3.10,<4``
+   :depends tqdm: ``>=4.40``
    :requirements:
 
    :additional platforms:
@@ -97,7 +98,7 @@ crisprbact
 
     <script>
         var package = "crisprbact";
-        var versions = ["0.3.11","0.3.10","0.3.9","0.3.8","0.3.6"];
+        var versions = ["1.1.0","0.3.11","0.3.10","0.3.9","0.3.8"];
     </script>
 
 

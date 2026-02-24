@@ -31,7 +31,7 @@ amplirust
       
       
 
-      ``0.1.2-0``
+      ``0.2.0-0``,  ``0.1.2-0``
 
       
 
@@ -88,7 +88,7 @@ amplirust
 
     <script>
         var package = "amplirust";
-        var versions = ["0.1.2"];
+        var versions = ["0.2.0","0.1.2"];
     </script>
 
 

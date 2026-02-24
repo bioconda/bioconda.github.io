@@ -27,16 +27,16 @@ hifi_trimmer
       
       
 
-      ``2.1.0-0``,  ``2.0.0-0``,  ``1.2.3-0``,  ``1.2.2-0``
+      ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.2.3-0``,  ``1.2.2-0``
 
       
 
    
    :depends click: ``>=8.1.8``
    :depends polars: ``<=1.22.0``
-   :depends py-bgzip: ``>=0.5.0``
+   :depends py-bgzip: ``>=0.5.1``
    :depends pysam: ``>=0.23.0``
-   :depends python: ``>=3.10,<3.13``
+   :depends python: ``>=3.10``
    :depends pyyaml: ``>=6.0.2``
    :requirements:
 
@@ -88,7 +88,7 @@ hifi_trimmer
 
     <script>
         var package = "hifi_trimmer";
-        var versions = ["2.1.0","2.0.0","1.2.3","1.2.2"];
+        var versions = ["2.2.0","2.1.0","2.0.0","1.2.3","1.2.2"];
     </script>
 
 

@@ -27,7 +27,7 @@ altex-be
       
       
 
-      ``1.0.5-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.0-0``
+      ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.0-0``
 
       
 
@@ -35,7 +35,8 @@ altex-be
    :depends pandas: ``>=2.3.0,<3.0.0``
    :depends pyahocorasick: ``>=2.2.0,<3.0.0``
    :depends pybedtools: ``>=0.12.0,<0.13.0``
-   :depends python: ``>=3.12.0,<4.0.0``
+   :depends python: ``>=3.10,<3.13``
+   :depends streamlit: ``>=1.53.1,<2.0``
    :depends tqdm: ``>=4.67.1,<5.0.0``
    :requirements:
 
@@ -87,7 +88,7 @@ altex-be
 
     <script>
         var package = "altex-be";
-        var versions = ["1.0.5","1.0.3","1.0.2","1.0.0"];
+        var versions = ["1.0.6","1.0.5","1.0.3","1.0.2","1.0.0"];
     </script>
 
 

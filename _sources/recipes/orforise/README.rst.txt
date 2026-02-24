@@ -13,7 +13,7 @@ orforise
    ORForise \- A platform for analysing and comparing genome annotations
 
    :homepage: https://github.com/NickJD/ORForise
-   :license: GPL-3.0-only
+   :license: GPL / GPL-3.0-only
    :recipe: /`orforise <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/orforise>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/orforise/meta.yaml>`_
 
    ORForise \- A platform for analysing and comparing genome annotations.
@@ -28,7 +28,7 @@ orforise
       
       
 
-      ``1.6.5-0``,  ``1.6.4-0``,  ``1.6.3-0``
+      ``1.6.6-0``,  ``1.6.5-0``,  ``1.6.4-0``,  ``1.6.3-0``
 
       
 
@@ -85,7 +85,7 @@ orforise
 
     <script>
         var package = "orforise";
-        var versions = ["1.6.5","1.6.4","1.6.3"];
+        var versions = ["1.6.6","1.6.5","1.6.4","1.6.3"];
     </script>
 
 

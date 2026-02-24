@@ -29,41 +29,43 @@ phylogenize
       
       
 
-      ``2.0a0-0``,  ``0.91-1``,  ``0.91-0``
+      ``2.0.0-0``,  ``2.0a0-0``,  ``0.91-1``,  ``0.91-0``
 
       
 
    
-   :depends bioconductor-ancombc: ``1.4.0.*``
-   :depends bioconductor-biomformat: ``1.22.0.*``
-   :depends bioconductor-clusterprofiler: ``4.2.0.*``
-   :depends bioconductor-ggtree: ``3.2.0.*``
-   :depends bioconductor-maaslin2: ``1.8.0.*``
-   :depends bioconductor-qvalue: ``2.26.0.*``
-   :depends perl: ``5.32.1.*``
-   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends bioconductor-ancombc: ``2.0.1.*``
+   :depends bioconductor-biomformat: ``1.26.0.*``
+   :depends bioconductor-clusterprofiler: ``4.6.0.*``
+   :depends bioconductor-ggtree: ``3.6.0.*``
+   :depends bioconductor-maaslin2: ``1.12.0.*``
+   :depends bioconductor-qvalue: ``2.30.0.*``
    :depends r-ashr: ``2.2_54.*``
-   :depends r-base: ``>=4.1,<4.2.0a0``
+   :depends r-base: ``>=4.2,<4.3.0a0``
    :depends r-castor: ``1.7.10.*``
    :depends r-extradistr: ``1.9.1.*``
    :depends r-functional: ``0.6.*``
    :depends r-furrr: ``0.3.1.*``
-   :depends r-ggiraph: ``0.8.7.*``
-   :depends r-gtools: ``3.9.4.*``
-   :depends r-kableextra: ``1.3.4.*``
+   :depends r-ggiraph: ``0.8.10.*``
+   :depends r-gtools: ``3.9.5.*``
+   :depends r-kableextra: ``1.4.0.*``
    :depends r-pbapply: ``1.7_0.*``
    :depends r-phangorn: ``2.11.1.*``
    :depends r-phylolm: ``2.6.2.*``
-   :depends r-phytools: ``1.5_1.*``
-   :depends r-plotly: ``4.10.2.*``
+   :depends r-phytools: ``2.3_0.*``
+   :depends r-plotly: ``4.10.4.*``
    :depends r-pryr: ``0.1.6.*``
-   :depends r-ragg: ``1.2.5.*``
+   :depends r-ragg: ``1.3.2.*``
+   :depends r-scales: ``1.3.0.*``
    :depends r-seqinr: ``4.2_30.*``
    :depends r-settings: ``0.2.7.*``
-   :depends r-svglite: ``2.1.1.*``
-   :depends r-testthat: ``3.1.8.*``
-   :depends r-tidymodels: ``1.1.0.*``
+   :depends r-stringi: ``>=1.8.0``
+   :depends r-stringr: ``1.5.0.*``
+   :depends r-svglite: ``2.1.3.*``
+   :depends r-testthat: ``3.2.1.1.*``
+   :depends r-tidymodels: ``1.2.0.*``
    :depends r-tidyverse: ``2.0.0.*``
+   :depends repermulize: ``1.0.0.*``
    :depends vsearch: ``2.30.0.*``
    :requirements:
 
@@ -115,7 +117,7 @@ phylogenize
 
     <script>
         var package = "phylogenize";
-        var versions = ["2.0a0","0.91","0.91"];
+        var versions = ["2.0.0","2.0a0","0.91","0.91"];
     </script>
 
 
