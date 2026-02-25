@@ -10,7 +10,7 @@ ipcr
    :replaces_section_title:
    :noindex:
 
-   In\-silico PCR with mismatch thresholds and pretty alignment output.
+   Fast\, streaming\, IUPAC\-aware in\-silico PCR toolkit \(probe\, nested\, multiplex\, thermo CLIs\).
 
    :homepage: https://github.com/KPU-AGC/ipcr
    :documentation: https://github.com/KPU-AGC/ipcr/blob/v4.1.1/README.md
@@ -29,7 +29,7 @@ ipcr
       
       
 
-      ``4.1.1-1``,  ``4.1.1-0``,  ``3.0.0-0``,  ``2.3.1-0``,  ``2.0.0-0``,  ``1.1.0-0``
+      ``4.1.1-2``,  ``4.1.1-1``,  ``4.1.1-0``,  ``3.0.0-0``,  ``2.3.1-0``,  ``2.0.0-0``,  ``1.1.0-0``
 
       
 
@@ -88,7 +88,7 @@ ipcr
 
     <script>
         var package = "ipcr";
-        var versions = ["4.1.1","4.1.1","3.0.0","2.3.1","2.0.0"];
+        var versions = ["4.1.1","4.1.1","4.1.1","3.0.0","2.3.1"];
     </script>
 
 

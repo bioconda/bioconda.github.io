@@ -31,10 +31,10 @@ phyloacc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4.5-0</code>,  <code>2.4.3-0</code>,  <code>2.4.2-1</code>,  <code>2.4.2-0</code>,  <code>2.4.1-2</code>,  <code>2.4.1-1</code>,  <code>2.4.1-0</code>,  <code>2.4.0-0</code>,  <code>2.3.4-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4.5-1</code>,  <code>2.4.5-0</code>,  <code>2.4.3-0</code>,  <code>2.4.2-1</code>,  <code>2.4.2-0</code>,  <code>2.4.1-2</code>,  <code>2.4.1-1</code>,  <code>2.4.1-0</code>,  <code>2.4.0-0</code>,  </span></summary>
       
 
-      ``2.4.5-0``,  ``2.4.3-0``,  ``2.4.2-1``,  ``2.4.2-0``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.4-2``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.3-1``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.1.1-0``,  ``1.1.0-0``
+      ``2.4.5-1``,  ``2.4.5-0``,  ``2.4.3-0``,  ``2.4.2-1``,  ``2.4.2-0``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.4-2``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.3-1``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.1.1-0``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -48,10 +48,10 @@ phyloacc
    :depends biopython: ``>=1.79``
    :depends blis: 
    :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends libgomp: 
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
+   :depends libstdcxx: ``>=14``
    :depends matplotlib-base: ``>=3.5``
    :depends mkl: 
    :depends numpy: ``>=1.22``
@@ -113,7 +113,7 @@ phyloacc
 
     <script>
         var package = "phyloacc";
-        var versions = ["2.4.5","2.4.3","2.4.2","2.4.2","2.4.1"];
+        var versions = ["2.4.5","2.4.5","2.4.3","2.4.2","2.4.2"];
     </script>
 
 

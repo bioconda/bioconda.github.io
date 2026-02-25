@@ -31,10 +31,10 @@ rpbp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.0.1-0</code>,  <code>4.0.0-0</code>,  <code>3.0.4-3</code>,  <code>3.0.4-2</code>,  <code>3.0.4-1</code>,  <code>3.0.4-0</code>,  <code>3.0.2-2</code>,  <code>3.0.2-1</code>,  <code>3.0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.1-1</code>,  <code>4.0.1-0</code>,  <code>4.0.0-0</code>,  <code>3.0.4-3</code>,  <code>3.0.4-2</code>,  <code>3.0.4-1</code>,  <code>3.0.4-0</code>,  <code>3.0.2-2</code>,  <code>3.0.2-1</code>,  </span></summary>
       
 
-      ``4.0.1-0``,  ``4.0.0-0``,  ``3.0.4-3``,  ``3.0.4-2``,  ``3.0.4-1``,  ``3.0.4-0``,  ``3.0.2-2``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``
+      ``4.0.1-1``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.0.4-3``,  ``3.0.4-2``,  ``3.0.4-1``,  ``3.0.4-0``,  ``3.0.2-2``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``
 
       
       .. raw:: html
@@ -51,8 +51,7 @@ rpbp
    :depends dash-bootstrap-components: 
    :depends fastqc: 
    :depends flexbar: 
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libcxx: ``>=19``
    :depends numpy: 
    :depends pbiotools: ``>=5.0.0``
    :depends pytest: 
@@ -116,7 +115,7 @@ rpbp
 
     <script>
         var package = "rpbp";
-        var versions = ["4.0.1","4.0.0","3.0.4","3.0.4","3.0.4"];
+        var versions = ["4.0.1","4.0.1","4.0.0","3.0.4","3.0.4"];
     </script>
 
 

@@ -29,14 +29,23 @@ snapatac2
    :versions:
       
       
+      .. raw:: html
 
-      ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.1-1``,  ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.4-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``
+         <details><summary><span class="truncated-version-list"><code>2.8.0-2</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.7.1-1</code>,  <code>2.7.1-0</code>,  <code>2.7.0-0</code>,  <code>2.6.4-0</code>,  <code>2.5.3-0</code>,  <code>2.5.2-0</code>,  </span></summary>
+      
 
+      ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.1-1``,  ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.4-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends anndata: 
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
+   :depends libstdcxx: ``>=14``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends macs3: 
    :depends multiprocess: 
@@ -108,7 +117,7 @@ snapatac2
 
     <script>
         var package = "snapatac2";
-        var versions = ["2.8.0","2.8.0","2.7.1","2.7.1","2.7.0"];
+        var versions = ["2.8.0","2.8.0","2.8.0","2.7.1","2.7.1"];
     </script>
 
 

@@ -32,10 +32,10 @@ genometools-genometools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.6-0</code>,  <code>1.6.5-4</code>,  <code>1.6.5-3</code>,  <code>1.6.5-2</code>,  <code>1.6.5-1</code>,  <code>1.6.5-0</code>,  <code>1.6.4-0</code>,  <code>1.6.3-0</code>,  <code>1.6.2-6</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.6-1</code>,  <code>1.6.6-0</code>,  <code>1.6.5-4</code>,  <code>1.6.5-3</code>,  <code>1.6.5-2</code>,  <code>1.6.5-1</code>,  <code>1.6.5-0</code>,  <code>1.6.4-0</code>,  <code>1.6.3-0</code>,  </span></summary>
       
 
-      ``1.6.6-0``,  ``1.6.5-4``,  ``1.6.5-3``,  ``1.6.5-2``,  ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.6.2-6``,  ``1.6.2-4``,  ``1.6.2-3``,  ``1.6.2-2``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.10-3``,  ``1.5.10-2``
+      ``1.6.6-1``,  ``1.6.6-0``,  ``1.6.5-4``,  ``1.6.5-3``,  ``1.6.5-2``,  ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.6.2-6``,  ``1.6.2-4``,  ``1.6.2-3``,  ``1.6.2-2``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.10-3``,  ``1.5.10-2``
 
       
       .. raw:: html
@@ -48,9 +48,9 @@ genometools-genometools
    :depends font-ttf-dejavu-sans-mono: 
    :depends fontconfig: 
    :depends gettext: 
-   :depends libgcc: ``>=13``
-   :depends libglib: ``>=2.86.0,<3.0a0``
-   :depends libstdcxx: ``>=13``
+   :depends libgcc: ``>=14``
+   :depends libglib: ``>=2.86.4,<3.0a0``
+   :depends libstdcxx: ``>=14``
    :depends pango: ``>=1.56.4,<2.0a0``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
@@ -111,7 +111,7 @@ genometools-genometools
 
     <script>
         var package = "genometools-genometools";
-        var versions = ["1.6.6","1.6.5","1.6.5","1.6.5","1.6.5"];
+        var versions = ["1.6.6","1.6.6","1.6.5","1.6.5","1.6.5"];
     </script>
 
 

@@ -32,10 +32,10 @@ pxblat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.8-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.1.20-0</code>,  <code>1.1.19-0</code>,  <code>1.1.18-0</code>,  <code>1.1.10-0</code>,  <code>1.1.8-0</code>,  <code>1.1.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.8-1</code>,  <code>1.2.8-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.1.20-0</code>,  <code>1.1.19-0</code>,  <code>1.1.18-0</code>,  <code>1.1.10-0</code>,  <code>1.1.8-0</code>,  </span></summary>
       
 
-      ``1.2.8-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.20-0``,  ``1.1.19-0``,  ``1.1.18-0``,  ``1.1.10-0``,  ``1.1.8-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.3-0``,  ``1.0.0-0``,  ``0.3.10-1``,  ``0.3.10-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``
+      ``1.2.8-1``,  ``1.2.8-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.20-0``,  ``1.1.19-0``,  ``1.1.18-0``,  ``1.1.10-0``,  ``1.1.8-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.3-0``,  ``1.0.0-0``,  ``0.3.10-1``,  ``0.3.10-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -46,8 +46,8 @@ pxblat
    
    :depends biopython: 
    :depends deprecated: 
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libgcc: ``>=14``
+   :depends libstdcxx: ``>=14``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends loguru: 
    :depends mashumaro: 
@@ -112,7 +112,7 @@ pxblat
 
     <script>
         var package = "pxblat";
-        var versions = ["1.2.8","1.2.1","1.2.1","1.1.20","1.1.19"];
+        var versions = ["1.2.8","1.2.8","1.2.1","1.2.1","1.1.20"];
     </script>
 
 

@@ -26,13 +26,21 @@ genbank
    :versions:
       
       
+      .. raw:: html
 
-      ``0.121-1``,  ``0.121-0``,  ``0.120-0``,  ``0.119-1``,  ``0.119-0``,  ``0.118-1``,  ``0.118-0``,  ``0.110-1``,  ``0.110-0``
+         <details><summary><span class="truncated-version-list"><code>0.121-2</code>,  <code>0.121-1</code>,  <code>0.121-0</code>,  <code>0.120-0</code>,  <code>0.119-1</code>,  <code>0.119-0</code>,  <code>0.118-1</code>,  <code>0.118-0</code>,  <code>0.110-1</code>,  </span></summary>
+      
 
+      ``0.121-2``,  ``0.121-1``,  ``0.121-0``,  ``0.120-0``,  ``0.119-1``,  ``0.119-0``,  ``0.118-1``,  ``0.118-0``,  ``0.110-1``,  ``0.110-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:
@@ -89,7 +97,7 @@ genbank
 
     <script>
         var package = "genbank";
-        var versions = ["0.121","0.121","0.120","0.119","0.119"];
+        var versions = ["0.121","0.121","0.121","0.120","0.119"];
     </script>
 
 

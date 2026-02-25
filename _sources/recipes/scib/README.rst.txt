@@ -30,7 +30,7 @@ scib
       
       
 
-      ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-1``,  ``1.1.5-0``,  ``1.1.4-1``,  ``1.1.4-0``
+      ``1.1.7-1``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.5-1``,  ``1.1.5-0``,  ``1.1.4-1``,  ``1.1.4-0``
 
       
 
@@ -40,8 +40,8 @@ scib
    :depends h5py: 
    :depends igraph: ``>=0.10``
    :depends leidenalg: 
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libgcc: ``>=14``
+   :depends libstdcxx: ``>=14``
    :depends llvmlite: 
    :depends matplotlib-base: 
    :depends numpy: 
@@ -105,7 +105,7 @@ scib
 
     <script>
         var package = "scib";
-        var versions = ["1.1.7","1.1.6","1.1.5","1.1.5","1.1.4"];
+        var versions = ["1.1.7","1.1.7","1.1.6","1.1.5","1.1.5"];
     </script>
 
 

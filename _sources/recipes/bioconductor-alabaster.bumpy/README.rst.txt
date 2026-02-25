@@ -27,18 +27,18 @@ bioconductor-alabaster.bumpy
       
       
 
-      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-alabaster.base: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-bumpymatrix: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-alabaster.base: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-bumpymatrix: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-rhdf5: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-matrix: 
    :requirements:
 
@@ -90,7 +90,7 @@ bioconductor-alabaster.bumpy
 
     <script>
         var package = "bioconductor-alabaster.bumpy";
-        var versions = ["1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.10.0","1.6.0","1.2.0","1.0.0"];
     </script>
 
 

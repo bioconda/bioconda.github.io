@@ -10,12 +10,12 @@ krepp
    :replaces_section_title:
    :noindex:
 
-   A k\-mer\-based maximum likelihood method for estimating distances of reads to genomes and phylogenetic placement of metagenomic samples.
+   krepp\: a k\-mer\-based maximum pseudo\-likelihood method for estimating read distances and genome\-wide phylogenetic placement.
 
    :homepage: https://github.com/bo1929/krepp
    :license: MIT / MIT
    :recipe: /`krepp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/krepp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/krepp/meta.yaml>`_
-   :links: doi: :doi:`10.5281/zenodo.15466359`, doi: :doi:`10.1101/2025.01.20.633730`
+   :links: doi: :doi:`10.1186/s13059-026-03999-y`, doi: :doi:`10.5281/zenodo.15466359`
 
    
 
@@ -28,7 +28,7 @@ krepp
       
       
 
-      ``0.7.1-0``,  ``0.6.0-0``,  ``0.5.1-0``
+      ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.0-0``,  ``0.5.1-0``
 
       
 
@@ -93,7 +93,7 @@ krepp
 
     <script>
         var package = "krepp";
-        var versions = ["0.7.1","0.6.0","0.5.1"];
+        var versions = ["0.7.2","0.7.1","0.6.0","0.5.1"];
     </script>
 
 

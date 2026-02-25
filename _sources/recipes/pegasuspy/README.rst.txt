@@ -33,10 +33,10 @@ pegasuspy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.10.2-0</code>,  <code>1.10.1-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.9.1.post1-0</code>,  <code>1.9.0-0</code>,  <code>1.8.1-0</code>,  <code>1.7.1-2</code>,  <code>1.7.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.10.2-1</code>,  <code>1.10.2-0</code>,  <code>1.10.1-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.9.1.post1-0</code>,  <code>1.9.0-0</code>,  <code>1.8.1-0</code>,  <code>1.7.1-2</code>,  </span></summary>
       
 
-      ``1.10.2-0``,  ``1.10.1-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.9.1.post1-0``,  ``1.9.0-0``,  ``1.8.1-0``,  ``1.7.1-2``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.10.2-1``,  ``1.10.2-0``,  ``1.10.1-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.9.1.post1-0``,  ``1.9.0-0``,  ``1.8.1-0``,  ``1.7.1-2``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
       .. raw:: html
@@ -54,7 +54,7 @@ pegasuspy
    :depends hnswlib: 
    :depends joblib: ``>=0.14``
    :depends leidenalg: ``>=0.8.0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends lightgbm: ``>=2.2.1``
    :depends loompy: 
    :depends louvain: ``>=0.7.0``
@@ -64,6 +64,7 @@ pegasuspy
    :depends numpy: ``<2``
    :depends pandas: ``>=1.2.0``
    :depends pegasusio: ``>=0.9.1``
+   :depends pip: ``<25.3``
    :depends psutil: 
    :depends pybind11: 
    :depends pyfit-sne: ``>=1.1.1``
@@ -74,6 +75,7 @@ pegasuspy
    :depends scikit-misc: 
    :depends scipy: 
    :depends seaborn-base: ``>=0.13.0``
+   :depends setuptools: ``<81``
    :depends statsmodels: 
    :depends tbb: 
    :depends threadpoolctl: 
@@ -131,7 +133,7 @@ pegasuspy
 
     <script>
         var package = "pegasuspy";
-        var versions = ["1.10.2","1.10.1","1.10.0","1.10.0","1.9.1.post1"];
+        var versions = ["1.10.2","1.10.2","1.10.1","1.10.0","1.10.0"];
     </script>
 
 

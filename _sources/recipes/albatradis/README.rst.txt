@@ -28,10 +28,10 @@ albatradis
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.2-0</code>,  <code>1.0.4-4</code>,  <code>1.0.4-3</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.0.4-4</code>,  <code>1.0.4-3</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  </span></summary>
       
 
-      ``1.1.2-0``,  ``1.0.4-4``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.0.5-4``
+      ``1.1.2-1``,  ``1.1.2-0``,  ``1.0.4-4``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.0.5-4``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ albatradis
    :depends biopython: ``>=1.68``
    :depends cython: 
    :depends dendropy: 
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends numpy: 
    :depends pandas: 
    :depends pyfastaq: ``>=3.12.0``
@@ -107,7 +107,7 @@ albatradis
 
     <script>
         var package = "albatradis";
-        var versions = ["1.1.2","1.0.4","1.0.4","1.0.4","1.0.4"];
+        var versions = ["1.1.2","1.1.2","1.0.4","1.0.4","1.0.4"];
     </script>
 
 

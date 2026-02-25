@@ -38,7 +38,7 @@ b2btools
       
       
 
-      ``3.0.7-2``,  ``3.0.7-1``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.4-0``
+      ``3.0.7-3``,  ``3.0.7-2``,  ``3.0.7-1``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.4-0``
 
       
 
@@ -46,8 +46,7 @@ b2btools
    :depends biopython: ``>=1.83,<2``
    :depends hmmer: 
    :depends joblib: ``>=0.9.0b4``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libcxx: ``>=19``
    :depends matplotlib-base: ``>=3.5.3,<3.6``
    :depends networkx: ``>=2.4``
    :depends numpy: ``>=1.21.6,<1.27``
@@ -116,7 +115,7 @@ b2btools
 
     <script>
         var package = "b2btools";
-        var versions = ["3.0.7","3.0.7","3.0.7","3.0.6","3.0.5"];
+        var versions = ["3.0.7","3.0.7","3.0.7","3.0.7","3.0.6"];
     </script>
 
 

@@ -26,9 +26,17 @@ nf-metro
    :versions:
       
       
+      .. raw:: html
 
-      ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.7-0</code>,  <code>0.4.6-0</code>,  <code>0.4.5-0</code>,  <code>0.4.4-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  </span></summary>
+      
 
+      ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -87,7 +95,7 @@ nf-metro
 
     <script>
         var package = "nf-metro";
-        var versions = ["0.4.7","0.4.6","0.4.5","0.4.4","0.4.2"];
+        var versions = ["0.5.1","0.5.0","0.4.7","0.4.6","0.4.5"];
     </script>
 
 

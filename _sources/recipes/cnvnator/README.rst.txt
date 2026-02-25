@@ -28,10 +28,10 @@ cnvnator
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.1-11</code>,  <code>0.4.1-10</code>,  <code>0.4.1-9</code>,  <code>0.4.1-8</code>,  <code>0.4.1-7</code>,  <code>0.4.1-6</code>,  <code>0.4.1-5</code>,  <code>0.4.1-4</code>,  <code>0.4.1-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.1-12</code>,  <code>0.4.1-11</code>,  <code>0.4.1-10</code>,  <code>0.4.1-9</code>,  <code>0.4.1-8</code>,  <code>0.4.1-7</code>,  <code>0.4.1-6</code>,  <code>0.4.1-5</code>,  <code>0.4.1-4</code>,  </span></summary>
       
 
-      ``0.4.1-11``,  ``0.4.1-10``,  ``0.4.1-9``,  ``0.4.1-8``,  ``0.4.1-7``,  ``0.4.1-6``,  ``0.4.1-5``,  ``0.4.1-4``,  ``0.4.1-3``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
+      ``0.4.1-12``,  ``0.4.1-11``,  ``0.4.1-10``,  ``0.4.1-9``,  ``0.4.1-8``,  ``0.4.1-7``,  ``0.4.1-6``,  ``0.4.1-5``,  ``0.4.1-4``,  ``0.4.1-3``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
 
       
       .. raw:: html
@@ -41,16 +41,17 @@ cnvnator
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends htslib: ``>=1.21,<1.24.0a0``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends htslib: ``>=1.23,<1.24.0a0``
+   :depends libgcc: ``>=14``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libstdcxx: ``>=14``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends matplotlib-base: 
    :depends ncurses: ``>=6.5,<7.0a0``
    :depends numpy: 
    :depends perl-getopt-long: 
-   :depends python: ``>=3.12,<3.13.0a0``
-   :depends root_base: ``>=6.32.2,<6.32.3.0a0``
+   :depends python: ``>=3.13,<3.14.0a0``
+   :depends root_base: ``>=6.34.10,<6.34.11.0a0``
    :requirements:
 
    :additional platforms:

@@ -29,10 +29,10 @@ bioconductor-cardinal
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.8.0-0</code>,  <code>3.4.3-0</code>,  <code>3.2.1-0</code>,  <code>3.0.1-1</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>2.12.0-2</code>,  <code>2.12.0-1</code>,  <code>2.12.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.12.0-0</code>,  <code>3.8.0-0</code>,  <code>3.4.3-0</code>,  <code>3.2.1-0</code>,  <code>3.0.1-1</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>2.12.0-2</code>,  <code>2.12.0-1</code>,  </span></summary>
       
 
-      ``3.8.0-0``,  ``3.4.3-0``,  ``3.2.1-0``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.12.0-2``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.6-0``,  ``2.0.4-0``,  ``2.0.2-0``,  ``1.12.1-1``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.7.0-0``
+      ``3.12.0-0``,  ``3.8.0-0``,  ``3.4.3-0``,  ``3.2.1-0``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.12.0-2``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.6-0``,  ``2.0.4-0``,  ``2.0.2-0``,  ``1.12.1-1``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.7.0-0``
 
       
       .. raw:: html
@@ -41,15 +41,15 @@ bioconductor-cardinal
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-cardinalio: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-ebimage: ``>=4.48.0,<4.49.0``
-   :depends bioconductor-matter: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-protgenerics: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-cardinalio: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-ebimage: ``>=4.52.0,<4.53.0``
+   :depends bioconductor-matter: ``>=2.12.0,<2.13.0``
+   :depends bioconductor-protgenerics: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-irlba: 
    :depends r-matrix: 
    :depends r-nlme: 
@@ -103,7 +103,7 @@ bioconductor-cardinal
 
     <script>
         var package = "bioconductor-cardinal";
-        var versions = ["3.8.0","3.4.3","3.2.1","3.0.1","3.0.1"];
+        var versions = ["3.12.0","3.8.0","3.4.3","3.2.1","3.0.1"];
     </script>
 
 

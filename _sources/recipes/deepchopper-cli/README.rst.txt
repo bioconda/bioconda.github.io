@@ -29,12 +29,12 @@ deepchopper-cli
       
       
 
-      ``1.2.9-0``,  ``1.2.6-1``,  ``1.2.6-0``,  ``1.2.5-0``
+      ``1.2.9-1``,  ``1.2.9-0``,  ``1.2.6-1``,  ``1.2.6-0``,  ``1.2.5-0``
 
       
 
    
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:
@@ -91,7 +91,7 @@ deepchopper-cli
 
     <script>
         var package = "deepchopper-cli";
-        var versions = ["1.2.9","1.2.6","1.2.6","1.2.5"];
+        var versions = ["1.2.9","1.2.9","1.2.6","1.2.6","1.2.5"];
     </script>
 
 

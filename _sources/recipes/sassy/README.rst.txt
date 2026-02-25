@@ -27,7 +27,7 @@ sassy
       
       
 
-      ``0.1.8-0``
+      ``0.2.0-0``,  ``0.1.8-0``
 
       
 
@@ -86,7 +86,7 @@ sassy
 
     <script>
         var package = "sassy";
-        var versions = ["0.1.8"];
+        var versions = ["0.2.0","0.1.8"];
     </script>
 
 

@@ -41,23 +41,23 @@ voronota
       
       
 
-      ``1.29.4602-0``,  ``1.29.4592-0``,  ``1.29.4415-0``,  ``1.29.4412-0``,  ``1.29.4408-0``,  ``1.29.4370-0``
+      ``1.29.4723-0``,  ``1.29.4602-0``,  ``1.29.4592-0``,  ``1.29.4415-0``,  ``1.29.4412-0``,  ``1.29.4408-0``,  ``1.29.4370-0``
 
       
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends glew: ``>=2.1.0,<2.2.0a0``
+   :depends glew: ``>=2.3.0,<2.4.0a0``
    :depends glfw: ``>=3.4,<4.0a0``
    :depends libegl: ``>=1.7.0,<2.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends libgl: ``>=1.7.0,<2.0a0``
    :depends libgles: ``>=1.7.0,<2.0a0``
    :depends libglx: ``>=1.7.0,<2.0a0``
    :depends libgomp: 
-   :depends libstdcxx: ``>=13``
+   :depends libstdcxx: ``>=14``
    :depends libxcb: ``>=1.17.0,<2.0a0``
-   :depends mesalib: ``>=25.0.5,<25.1.0a0``
+   :depends mesalib: ``>=25.3.5,<25.4.0a0``
    :requirements:
 
    :additional platforms:
@@ -112,7 +112,7 @@ voronota
 
     <script>
         var package = "voronota";
-        var versions = ["1.29.4602","1.29.4592","1.29.4415","1.29.4412","1.29.4408"];
+        var versions = ["1.29.4723","1.29.4602","1.29.4592","1.29.4415","1.29.4412"];
     </script>
 
 
