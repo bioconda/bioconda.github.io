@@ -27,19 +27,20 @@ bioconductor-ggtreeextra
       
       
 
-      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.2-0``,  ``1.0.0-0``
+      ``1.20.1-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.2-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-ggtree: ``>=3.14.0,<3.15.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-ggtree: ``>=4.0.0,<4.1.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-cli: 
    :depends r-ggnewscale: 
-   :depends r-ggplot2: 
+   :depends r-ggplot2: ``>=4.0.0``
    :depends r-magrittr: 
    :depends r-rlang: 
    :depends r-tidytree: ``>=0.3.9``
+   :depends r-yulab.utils: 
    :requirements:
 
    :additional platforms:
@@ -90,7 +91,7 @@ bioconductor-ggtreeextra
 
     <script>
         var package = "bioconductor-ggtreeextra";
-        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.4.0"];
+        var versions = ["1.20.1","1.16.0","1.12.0","1.10.0","1.8.0"];
     </script>
 
 

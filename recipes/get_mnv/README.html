@@ -89,36 +89,45 @@
 <div><p><a class="reference external" href="https://anaconda.org/bioconda/get_mnv"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/get_mnv.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/get_mnv"><img alt="docker_get_mnv" src="https://quay.io/repository/biocontainers/get_mnv/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
 </dd>
 <dt class="field-even">depends bzip2<span class="colon">:</span></dt>
 <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.0.8,&lt;2.0a0</span></code></p>
 </dd>
 <dt class="field-odd">depends curl<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=8.8.0,&lt;9.0a0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=8.18.0,&lt;9.0a0</span></code></p>
 </dd>
 <dt class="field-even">depends htslib<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.21,&lt;1.24.0a0</span></code></p>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.22.1,&lt;1.23.0a0</span></code></p>
 </dd>
 <dt class="field-odd">depends htslib<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.21,&lt;2.0a0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.22.1,&lt;2.0a0</span></code></p>
 </dd>
-<dt class="field-even">depends libzlib<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.2.13,&lt;2.0a0</span></code></p>
+<dt class="field-even">depends libgcc<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p>
 </dd>
-<dt class="field-odd">depends openssl<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.3.2,&lt;4.0a0</span></code></p>
+<dt class="field-odd">depends liblzma<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=5.8.2,&lt;6.0a0</span></code></p>
 </dd>
-<dt class="field-even">depends xz<span class="colon">:</span></dt>
-<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=5.2.6,&lt;6.0a0</span></code></p>
+<dt class="field-even">depends libstdcxx<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p>
 </dd>
-<dt class="field-odd">depends zlib<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.2.13,&lt;2.0a0</span></code></p>
+<dt class="field-odd">depends libzlib<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.3.1,&lt;2.0a0</span></code></p>
 </dd>
-<dt class="field-even">requirements<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
+<dt class="field-even">depends openssl<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=3.5.5,&lt;4.0a0</span></code></p>
+</dd>
+<dt class="field-odd">depends xz<span class="colon">:</span></dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">&gt;=5.8.2,&lt;6.0a0</span></code></p>
+</dd>
+<dt class="field-even">depends zlib<span class="colon">:</span></dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">&gt;=1.3.1,&lt;2.0a0</span></code></p>
+</dd>
+<dt class="field-odd">requirements<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
+<dt class="field-even">additional platforms<span class="colon">:</span></dt>
+<dd class="field-even"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
 </dl>
 <p class="rubric">Installation</p>
 </div></blockquote>
@@ -153,7 +162,7 @@ others.</p>
 
 <script>
     var package = "get_mnv";
-    var versions = ["1.0.0","1.0.0"];
+    var versions = ["1.0.1","1.0.0","1.0.0"];
 </script><section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>

@@ -28,10 +28,10 @@ duphist
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.1-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-1</code>,  </span></summary>
       
 
-      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``
+      ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -108,7 +108,7 @@ duphist
 
     <script>
         var package = "duphist";
-        var versions = ["1.1.0","1.1.0","1.0.9","1.0.8","1.0.7"];
+        var versions = ["1.1.1","1.1.0","1.1.0","1.0.9","1.0.8"];
     </script>
 
 

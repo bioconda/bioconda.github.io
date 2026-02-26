@@ -28,10 +28,10 @@ bioconductor-cola
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.12.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.16.1-0</code>,  <code>2.12.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  </span></summary>
       
 
-      ``2.12.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``2.16.1-0``,  ``2.12.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,17 +40,19 @@ bioconductor-cola
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0a0``
-   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0a0``
-   :depends bioconductor-impute: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-impute: ``>=1.80.0,<1.81.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-complexheatmap: ``>=2.26.1,<2.27.0a0``
+   :depends bioconductor-impute: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-impute: ``>=1.84.0,<1.85.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libstdcxx: ``>=14``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-brew: 
    :depends r-circlize: ``>=0.4.7``
    :depends r-clue: 
@@ -67,7 +69,7 @@ bioconductor-cola
    :depends r-irlba: 
    :depends r-knitr: ``>=1.4.0``
    :depends r-markdown: ``>=1.6``
-   :depends r-matrixstats: 
+   :depends r-matrixstats: ``>=1.2.0``
    :depends r-mclust: 
    :depends r-microbenchmark: 
    :depends r-png: 
@@ -125,7 +127,7 @@ bioconductor-cola
 
     <script>
         var package = "bioconductor-cola";
-        var versions = ["2.12.0","2.8.0","2.6.0","2.4.0","2.4.0"];
+        var versions = ["2.16.1","2.12.0","2.8.0","2.6.0","2.4.0"];
     </script>
 
 

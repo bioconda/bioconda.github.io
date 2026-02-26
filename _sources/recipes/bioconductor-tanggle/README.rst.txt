@@ -27,16 +27,18 @@ bioconductor-tanggle
       
       
 
-      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-ggtree: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-ggtree: ``>=4.0.0,<4.1.0``
    :depends r-ape: ``>=5.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
-   :depends r-ggplot2: ``>=2.2.0``
-   :depends r-phangorn: ``>=2.5``
+   :depends r-base: ``>=4.5,<4.6.0a0``
+   :depends r-dplyr: 
+   :depends r-ggplot2: ``>=3.0.0``
+   :depends r-phangorn: ``>=2.12``
+   :depends r-rlang: 
    :requirements:
 
    :additional platforms:
@@ -87,7 +89,7 @@ bioconductor-tanggle
 
     <script>
         var package = "bioconductor-tanggle";
-        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.0.0"];
+        var versions = ["1.16.0","1.12.0","1.8.0","1.6.0","1.4.0"];
     </script>
 
 

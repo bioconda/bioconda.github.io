@@ -28,7 +28,7 @@ aliview
       
       
 
-      ``1.30-0``
+      ``1.31-0``,  ``1.30-0``
 
       
 
@@ -84,7 +84,7 @@ aliview
 
     <script>
         var package = "aliview";
-        var versions = ["1.30"];
+        var versions = ["1.31","1.30"];
     </script>
 
 

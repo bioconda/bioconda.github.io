@@ -27,17 +27,17 @@ rcx-tk
       
       
 
-      ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
    :depends click: ``>=8.1.7,<9.0.0``
    :depends mypy: ``>=1.10.1,<2.0.0``
-   :depends pandas: ``>=2.2.2,<3.0.0``
-   :depends pandas-stubs: ``>=2.2.2,<3.0.0``
+   :depends openpyxl: ``>=3.1.5,<4.0.0``
+   :depends pandas: ``>=3.0.1,<4.0.0``
+   :depends pandas-stubs: ``>=2.2.2.240603,<3.0.0``
    :depends python: ``>=3.11.0,<4.0.0``
-   :depends pyxlsx: ``>=1.1.3,<2.0.0``
    :requirements:
 
    :additional platforms:
@@ -88,7 +88,7 @@ rcx-tk
 
     <script>
         var package = "rcx-tk";
-        var versions = ["0.1.0"];
+        var versions = ["0.2.0","0.1.0"];
     </script>
 
 

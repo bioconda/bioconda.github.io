@@ -28,9 +28,17 @@ inmoose
    :versions:
       
       
+      .. raw:: html
 
-      ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.8-0``,  ``0.7.7-0``,  ``0.7.6-0``,  ``0.7.2-1``,  ``0.7.2-0``
+         <details><summary><span class="truncated-version-list"><code>0.9.1-1</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.8-0</code>,  <code>0.7.7-0</code>,  <code>0.7.6-0</code>,  <code>0.7.2-1</code>,  </span></summary>
+      
 
+      ``0.9.1-1``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.8-0``,  ``0.7.7-0``,  ``0.7.6-0``,  ``0.7.2-1``,  ``0.7.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -38,8 +46,8 @@ inmoose
    :depends click: 
    :depends fastcluster: 
    :depends jinja2: 
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libgcc: ``>=14``
+   :depends libstdcxx: ``>=14``
    :depends matplotlib-base: 
    :depends mpmath: ``>=1.1.0``
    :depends numpy: ``>=1.23,<3``
@@ -105,7 +113,7 @@ inmoose
 
     <script>
         var package = "inmoose";
-        var versions = ["0.9.1","0.9.0","0.8.1","0.8.0","0.7.8"];
+        var versions = ["0.9.1","0.9.1","0.9.0","0.8.1","0.8.0"];
     </script>
 
 

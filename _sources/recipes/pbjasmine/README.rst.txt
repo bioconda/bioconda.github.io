@@ -27,13 +27,13 @@ pbjasmine
       
       
 
-      ``2.7.99-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.0.0-0``
+      ``26.1.2-0``,  ``2.7.99-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.0.0-0``
 
       
 
    
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libgcc: ``>=14``
+   :depends libstdcxx: ``>=14``
    :requirements:
 
    :additional platforms:
@@ -84,7 +84,7 @@ pbjasmine
 
     <script>
         var package = "pbjasmine";
-        var versions = ["2.7.99","2.4.0","2.4.0","2.0.0"];
+        var versions = ["26.1.2","2.7.99","2.4.0","2.4.0","2.0.0"];
     </script>
 
 

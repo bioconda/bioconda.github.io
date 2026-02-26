@@ -27,15 +27,15 @@ bioconductor-interactivecomplexheatmap
       
       
 
-      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.18.1-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-clisymbols: 
    :depends r-digest: 
    :depends r-fontawesome: 
@@ -96,7 +96,7 @@ bioconductor-interactivecomplexheatmap
 
     <script>
         var package = "bioconductor-interactivecomplexheatmap";
-        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.2.0"];
+        var versions = ["1.18.1","1.14.0","1.10.0","1.8.0","1.6.0"];
     </script>
 
 

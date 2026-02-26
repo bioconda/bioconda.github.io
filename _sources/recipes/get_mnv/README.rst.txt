@@ -28,19 +28,22 @@ get_mnv
       
       
 
-      ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends curl: ``>=8.8.0,<9.0a0``
-   :depends htslib: ``>=1.21,<1.24.0a0``
-   :depends htslib: ``>=1.21,<2.0a0``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
-   :depends openssl: ``>=3.3.2,<4.0a0``
-   :depends xz: ``>=5.2.6,<6.0a0``
-   :depends zlib: ``>=1.2.13,<2.0a0``
+   :depends curl: ``>=8.18.0,<9.0a0``
+   :depends htslib: ``>=1.22.1,<1.23.0a0``
+   :depends htslib: ``>=1.22.1,<2.0a0``
+   :depends libgcc: ``>=14``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libstdcxx: ``>=14``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends openssl: ``>=3.5.5,<4.0a0``
+   :depends xz: ``>=5.8.2,<6.0a0``
+   :depends zlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
    :additional platforms:
@@ -95,7 +98,7 @@ get_mnv
 
     <script>
         var package = "get_mnv";
-        var versions = ["1.0.0","1.0.0"];
+        var versions = ["1.0.1","1.0.0","1.0.0"];
     </script>
 
 

@@ -27,13 +27,13 @@ bioconductor-clustall
       
       
 
-      ``1.2.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.26.0,<2.27.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-bigstatsr: 
    :depends r-circlize: 
    :depends r-cluster: 
@@ -100,7 +100,7 @@ bioconductor-clustall
 
     <script>
         var package = "bioconductor-clustall";
-        var versions = ["1.2.0"];
+        var versions = ["1.6.0","1.2.0"];
     </script>
 
 

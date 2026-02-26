@@ -36,6 +36,7 @@ mutyper
    
    :depends biopython: 
    :depends cyvcf2: ``>=0.30.15``
+   :depends libgcc: ``>=14``
    :depends pandas: 
    :depends pyfaidx: 
    :depends pyliftover: 

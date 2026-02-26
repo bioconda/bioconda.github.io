@@ -35,7 +35,7 @@ covsnap
       
       
 
-      ``0.1.0-0``
+      ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -96,7 +96,7 @@ covsnap
 
     <script>
         var package = "covsnap";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.1","0.1.0"];
     </script>
 
 

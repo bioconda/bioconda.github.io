@@ -29,16 +29,24 @@ syri
    :versions:
       
       
+      .. raw:: html
 
-      ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.3-2``,  ``1.6.3-1``,  ``1.6.3-0``,  ``1.6-1``,  ``1.6-0``,  ``1.5.4-0``,  ``1.5.3-0``
+         <details><summary><span class="truncated-version-list"><code>1.7.1-1</code>,  <code>1.7.1-0</code>,  <code>1.7.0-0</code>,  <code>1.6.3-2</code>,  <code>1.6.3-1</code>,  <code>1.6.3-0</code>,  <code>1.6-1</code>,  <code>1.6-0</code>,  <code>1.5.4-0</code>,  </span></summary>
+      
 
+      ``1.7.1-1``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.3-2``,  ``1.6.3-1``,  ``1.6.3-0``,  ``1.6-1``,  ``1.6-0``,  ``1.5.4-0``,  ``1.5.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libgcc: ``>=14``
+   :depends libstdcxx: ``>=14``
    :depends longestrunsubsequence: 
-   :depends numpy: ``>=1.22.4,<2.0a0``
+   :depends numpy: ``>=1.21,<3``
    :depends pandas: 
    :depends psutil: 
    :depends pulp: 
@@ -101,7 +109,7 @@ syri
 
     <script>
         var package = "syri";
-        var versions = ["1.7.1","1.7.0","1.6.3","1.6.3","1.6.3"];
+        var versions = ["1.7.1","1.7.1","1.7.0","1.6.3","1.6.3"];
     </script>
 
 

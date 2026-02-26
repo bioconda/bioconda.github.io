@@ -29,10 +29,10 @@ bioconductor-flowsom
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.14.0-0</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.0-1</code>,  <code>2.6.0-0</code>,  <code>2.2.0-2</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.18.0-0</code>,  <code>2.14.0-0</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.0-1</code>,  <code>2.6.0-0</code>,  <code>2.2.0-2</code>,  <code>2.2.0-1</code>,  </span></summary>
       
 
-      ``2.14.0-0``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.22.0-2``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``
+      ``2.18.0-0``,  ``2.14.0-0``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.22.0-2``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``
 
       
       .. raw:: html
@@ -41,16 +41,18 @@ bioconductor-flowsom
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0a0``
-   :depends bioconductor-consensusclusterplus: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-consensusclusterplus: ``>=1.70.0,<1.71.0a0``
-   :depends bioconductor-flowcore: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-flowcore: ``>=2.18.0,<2.19.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
+   :depends bioconductor-consensusclusterplus: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-consensusclusterplus: ``>=1.74.0,<1.75.0a0``
+   :depends bioconductor-flowcore: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-flowcore: ``>=2.22.1,<2.23.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-colorramps: 
    :depends r-dplyr: 
    :depends r-ggforce: 
@@ -117,7 +119,7 @@ bioconductor-flowsom
 
     <script>
         var package = "bioconductor-flowsom";
-        var versions = ["2.14.0","2.10.0","2.10.0","2.8.0","2.6.0"];
+        var versions = ["2.18.0","2.14.0","2.10.0","2.10.0","2.8.0"];
     </script>
 
 

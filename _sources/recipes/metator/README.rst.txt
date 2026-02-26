@@ -30,7 +30,7 @@ metator
       
       
 
-      ``1.3.10-0``,  ``1.3.7-0``
+      ``1.3.10-1``,  ``1.3.10-0``,  ``1.3.7-0``
 
       
 
@@ -42,8 +42,8 @@ metator
    :depends cooler: 
    :depends hicstuff: 
    :depends hmmer: 
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libgcc: ``>=14``
+   :depends libstdcxx: ``>=14``
    :depends looseversion: 
    :depends micomplete: 
    :depends networkx: 
@@ -111,7 +111,7 @@ metator
 
     <script>
         var package = "metator";
-        var versions = ["1.3.10","1.3.7"];
+        var versions = ["1.3.10","1.3.10","1.3.7"];
     </script>
 
 

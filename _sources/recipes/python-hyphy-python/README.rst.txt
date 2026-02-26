@@ -42,7 +42,7 @@ python-hyphy-python
 
    
    :depends _openmp_mutex: ``>=4.5``
-   :depends libcurl: ``>=8.10.1,<9.0a0``
+   :depends libcurl: ``>=8.11.1,<9.0a0``
    :depends libgcc: ``>=13``
    :depends libgomp: 
    :depends libstdcxx: ``>=13``

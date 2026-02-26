@@ -31,22 +31,22 @@ pytximport
       
       
 
-      ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``
+      ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``
 
       
 
    
-   :depends anndata: ``>=0.8.0``
-   :depends click: ``>=8.1.7``
-   :depends click-default-group: ``>=1.2.0``
-   :depends flox: ``>=0.9.8``
-   :depends h5py: ``>=3.11.0``
-   :depends numpy: ``>=1.23.0``
-   :depends pandas: ``>=1.4.0``
-   :depends pybiomart: ``>=0.2.0``
-   :depends python: ``>=3.9``
-   :depends tqdm: ``>=4.66.4``
-   :depends xarray: ``>=2024.6.0``
+   :depends anndata: ``>=0.11.0``
+   :depends click: ``>=8.0.0,<9``
+   :depends click-default-group: ``>=1.2.0,<2``
+   :depends flox: ``>=0.10.0,<0.11.0``
+   :depends h5py: ``>=3.0.0,<4``
+   :depends numpy: ``>=2.0.0,<3``
+   :depends pandas: ``>=2.2.0,<4``
+   :depends pybiomart: ``0.2.0.*``
+   :depends python: ``>=3.11``
+   :depends tqdm: ``>=4.0.0,<5``
+   :depends xarray: ``>=2024.0.0``
    :requirements:
 
    :additional platforms:
@@ -97,7 +97,7 @@ pytximport
 
     <script>
         var package = "pytximport";
-        var versions = ["0.12.0","0.11.0","0.10.0","0.9.0","0.8.0"];
+        var versions = ["0.13.0","0.12.0","0.11.0","0.10.0","0.9.0"];
     </script>
 
 

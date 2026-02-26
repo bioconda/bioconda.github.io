@@ -29,7 +29,7 @@ pharmcat3
       
       
 
-      ``3.1.1-0``
+      ``3.2.0-0``,  ``3.1.1-0``
 
       
 
@@ -40,7 +40,7 @@ pharmcat3
    :depends openjdk: ``>=17``
    :depends packaging: 
    :depends pandas: 
-   :depends python: ``>=3.12,<3.13.0a0``
+   :depends python: ``>=3.13,<3.14.0a0``
    :requirements:
 
    :additional platforms:
@@ -91,7 +91,7 @@ pharmcat3
 
     <script>
         var package = "pharmcat3";
-        var versions = ["3.1.1"];
+        var versions = ["3.2.0","3.1.1"];
     </script>
 
 

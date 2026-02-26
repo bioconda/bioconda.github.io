@@ -28,10 +28,10 @@ simlord
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.4-5</code>,  <code>1.0.4-3</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  <code>1.0.2-2</code>,  <code>1.0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.4-6</code>,  <code>1.0.4-5</code>,  <code>1.0.4-3</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  <code>1.0.2-2</code>,  </span></summary>
       
 
-      ``1.0.4-5``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.2-2``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.7.3-0``
+      ``1.0.4-6``,  ``1.0.4-5``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.2-2``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.7.3-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ simlord
 
    
    :depends dinopy: 
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends numpy: ``<2``
    :depends pysam: ``>=0.8.4``
    :depends python: ``>=3.10,<3.11.0a0``

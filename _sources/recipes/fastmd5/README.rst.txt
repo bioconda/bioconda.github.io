@@ -29,13 +29,13 @@ fastmd5
       
       
 
-      ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libgcc: ``>=14``
+   :depends libstdcxx: ``>=14``
    :requirements:
 
    :additional platforms:
@@ -90,7 +90,7 @@ fastmd5
 
     <script>
         var package = "fastmd5";
-        var versions = ["1.0.0"];
+        var versions = ["1.1.0","1.0.0"];
     </script>
 
 

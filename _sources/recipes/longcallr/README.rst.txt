@@ -27,17 +27,17 @@ longcallr
       
       
 
-      ``1.12.0-0``,  ``1.11.0-0``
+      ``1.12.0-1``,  ``1.12.0-0``,  ``1.11.0-0``
 
       
 
    
    :depends intervaltree: 
    :depends networkx: 
-   :depends numpy: ``>=1.22.4,<2.0a0``
+   :depends numpy: ``>=1.23,<3``
    :depends pysam: ``>=0.23.3,<0.24.0a0``
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends python: ``>=3.13,<3.14.0a0``
+   :depends python_abi: ``3.13.* *_cp313``
    :depends scipy: 
    :depends statsmodels: 
    :requirements:
@@ -90,7 +90,7 @@ longcallr
 
     <script>
         var package = "longcallr";
-        var versions = ["1.12.0","1.11.0"];
+        var versions = ["1.12.0","1.12.0","1.11.0"];
     </script>
 
 

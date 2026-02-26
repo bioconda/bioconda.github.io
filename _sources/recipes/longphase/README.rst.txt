@@ -27,15 +27,15 @@ longphase
       
       
 
-      ``2.0-0``,  ``1.7.3-0``
+      ``2.0.1-0``,  ``2.0-0``,  ``1.7.3-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc: ``>=13``
-   :depends liblzma: ``>=5.8.1,<6.0a0``
-   :depends libstdcxx: ``>=13``
+   :depends libgcc: ``>=14``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libstdcxx: ``>=14``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
@@ -91,7 +91,7 @@ longphase
 
     <script>
         var package = "longphase";
-        var versions = ["2.0","1.7.3"];
+        var versions = ["2.0.1","2.0","1.7.3"];
     </script>
 
 

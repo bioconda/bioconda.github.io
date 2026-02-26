@@ -46,7 +46,8 @@ b2btools
    :depends biopython: ``>=1.83,<2``
    :depends hmmer: 
    :depends joblib: ``>=0.9.0b4``
-   :depends libcxx: ``>=19``
+   :depends libgcc: ``>=14``
+   :depends libstdcxx: ``>=14``
    :depends matplotlib-base: ``>=3.5.3,<3.6``
    :depends networkx: ``>=2.4``
    :depends numpy: ``>=1.21.6,<1.27``

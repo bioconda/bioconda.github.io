@@ -27,7 +27,7 @@ itsxrust
       
       
 
-      ``0.1.0-0``
+      ``0.2.1-0``,  ``0.1.0-0``
 
       
 
@@ -83,7 +83,7 @@ itsxrust
 
     <script>
         var package = "itsxrust";
-        var versions = ["0.1.0"];
+        var versions = ["0.2.1","0.1.0"];
     </script>
 
 

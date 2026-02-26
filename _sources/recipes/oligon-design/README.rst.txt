@@ -28,7 +28,7 @@ oligon-design
       
       
 
-      ``1.0.0-0``,  ``0.4.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``,  ``0.4.0-0``
 
       
 
@@ -90,7 +90,7 @@ oligon-design
 
     <script>
         var package = "oligon-design";
-        var versions = ["1.0.0","0.4.0"];
+        var versions = ["1.1.0","1.0.0","0.4.0"];
     </script>
 
 
