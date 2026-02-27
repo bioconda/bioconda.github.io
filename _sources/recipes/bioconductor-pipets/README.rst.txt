@@ -27,14 +27,14 @@ bioconductor-pipets
       
       
 
-      ``1.2.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dplyr: 
    :requirements:
 
@@ -86,7 +86,7 @@ bioconductor-pipets
 
     <script>
         var package = "bioconductor-pipets";
-        var versions = ["1.2.0"];
+        var versions = ["1.6.0","1.2.0"];
     </script>
 
 

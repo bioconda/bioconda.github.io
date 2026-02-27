@@ -31,15 +31,17 @@ ebolaseq
       
       
 
-      ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
+      ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
 
       
 
    
    :depends biopython: ``>=1.81``
-   :depends iqtree: 
+   :depends iqtree: ``2.4.0.*``
    :depends mafft: 
+   :depends minimap2: 
    :depends numpy: ``>=1.20.0``
+   :depends pal2nal: 
    :depends python: ``>=3.9``
    :depends trimal: 
    :requirements:
@@ -92,7 +94,7 @@ ebolaseq
 
     <script>
         var package = "ebolaseq";
-        var versions = ["0.1.7","0.1.6","0.1.5","0.1.4","0.1.3"];
+        var versions = ["0.1.7","0.1.7","0.1.6","0.1.5","0.1.4"];
     </script>
 
 

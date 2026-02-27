@@ -28,10 +28,10 @@ bioconductor-phyloprofile
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.5-0</code>,  <code>1.12.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.1-0</code>,  <code>1.4.9-0</code>,  <code>1.4.0-0</code>,  <code>1.2.8-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.2-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.5-0</code>,  <code>1.12.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.1-0</code>,  <code>1.4.9-0</code>,  <code>1.4.0-0</code>,  </span></summary>
       
 
-      ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.5-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.9-0``,  ``1.4.0-0``,  ``1.2.8-1``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.2-0``,  ``1.0.1-0``
+      ``2.2.2-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.5-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.9-0``,  ``1.4.0-0``,  ``1.2.8-1``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.2-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -40,30 +40,34 @@ bioconductor-phyloprofile
       
 
    
-   :depends bioconductor-biocstyle: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-biodist: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
-   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-biocstyle: ``>=2.38.0,<2.39.0``
+   :depends bioconductor-biodist: ``>=1.82.0,<1.83.0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
    :depends r-ape: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
+   :depends r-bsplus: 
    :depends r-colourpicker: 
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-dt: 
    :depends r-energy: 
-   :depends r-extrafont: 
+   :depends r-fastcluster: 
    :depends r-ggplot2: 
    :depends r-gridextra: 
+   :depends r-htmlwidgets: 
    :depends r-pbapply: 
+   :depends r-plotly: 
    :depends r-rcolorbrewer: 
    :depends r-rcurl: 
+   :depends r-rfast: 
    :depends r-scattermore: 
    :depends r-shiny: 
-   :depends r-shinybs: 
    :depends r-shinycssloaders: 
    :depends r-shinyfiles: 
    :depends r-shinyjs: 
    :depends r-stringr: 
+   :depends r-svglite: 
+   :depends r-tsne: 
    :depends r-umap: 
    :depends r-xml2: 
    :depends r-yaml: 
@@ -118,7 +122,7 @@ bioconductor-phyloprofile
 
     <script>
         var package = "bioconductor-phyloprofile";
-        var versions = ["1.20.0","1.16.0","1.14.5","1.12.0","1.8.0"];
+        var versions = ["2.2.2","1.20.0","1.16.0","1.14.5","1.12.0"];
     </script>
 
 

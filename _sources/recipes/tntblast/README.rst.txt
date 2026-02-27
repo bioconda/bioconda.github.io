@@ -30,15 +30,16 @@ tntblast
       
       
 
-      ``2.66-1``,  ``2.66-0``,  ``2.61-0``,  ``2.4-1``,  ``2.4-0``
+      ``2.77-0``,  ``2.66-1``,  ``2.66-0``,  ``2.61-0``,  ``2.4-1``,  ``2.4-0``
 
       
 
    
-   :depends libcxx: ``>=18``
+   :depends libgcc: ``>=14``
+   :depends libstdcxx: ``>=14``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends llvm-openmp: ``>=18.1.8``
-   :depends mpich: ``>=4.2.3,<5.0a0``
+   :depends mpich: ``>=4.3,<5.0a0``
+   :depends openmp: 
    :depends zlib: 
    :requirements:
 
@@ -90,7 +91,7 @@ tntblast
 
     <script>
         var package = "tntblast";
-        var versions = ["2.66","2.66","2.61","2.4","2.4"];
+        var versions = ["2.77","2.66","2.66","2.61","2.4"];
     </script>
 
 

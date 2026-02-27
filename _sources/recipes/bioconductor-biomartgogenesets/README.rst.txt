@@ -27,16 +27,16 @@ bioconductor-biomartgogenesets
       
       
 
-      ``0.99.11-1``,  ``0.99.11-0``
+      ``0.99.11-2``,  ``0.99.11-1``,  ``0.99.11-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20241103``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-data-packages: ``>=20260207``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -87,7 +87,7 @@ bioconductor-biomartgogenesets
 
     <script>
         var package = "bioconductor-biomartgogenesets";
-        var versions = ["0.99.11","0.99.11"];
+        var versions = ["0.99.11","0.99.11","0.99.11"];
     </script>
 
 

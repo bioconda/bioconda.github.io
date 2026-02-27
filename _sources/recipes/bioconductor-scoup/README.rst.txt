@@ -27,13 +27,13 @@ bioconductor-scoup
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-matrix: 
    :requirements:
 
@@ -85,7 +85,7 @@ bioconductor-scoup
 
     <script>
         var package = "bioconductor-scoup";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

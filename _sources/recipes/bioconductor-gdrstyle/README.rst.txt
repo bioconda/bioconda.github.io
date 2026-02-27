@@ -27,13 +27,14 @@ bioconductor-gdrstyle
       
       
 
-      ``1.4.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-bioccheck: ``>=1.42.0,<1.43.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-bioccheck: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-biocstyle: ``>=2.38.0,<2.39.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-biocmanager: 
    :depends r-checkmate: 
    :depends r-desc: 
@@ -95,7 +96,7 @@ bioconductor-gdrstyle
 
     <script>
         var package = "bioconductor-gdrstyle";
-        var versions = ["1.4.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.0.0"];
     </script>
 
 

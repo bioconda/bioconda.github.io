@@ -26,15 +26,22 @@ superintervals
    :versions:
       
       
+      .. raw:: html
 
-      ``0.3.5-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.10-1``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.7-0``,  ``0.2.5-0``,  ``0.2.3-0``
+         <details><summary><span class="truncated-version-list"><code>0.3.5-1</code>,  <code>0.3.5-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.2.10-1</code>,  <code>0.2.10-0</code>,  <code>0.2.9-0</code>,  <code>0.2.7-0</code>,  <code>0.2.5-0</code>,  </span></summary>
+      
 
+      ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.10-1``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.7-0``,  ``0.2.5-0``,  ``0.2.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends cython: 
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libgcc: ``>=14``
+   :depends libstdcxx: ``>=14``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :requirements:
@@ -91,7 +98,7 @@ superintervals
 
     <script>
         var package = "superintervals";
-        var versions = ["0.3.5","0.3.2","0.3.1","0.2.10","0.2.10"];
+        var versions = ["0.3.5","0.3.5","0.3.2","0.3.1","0.2.10"];
     </script>
 
 

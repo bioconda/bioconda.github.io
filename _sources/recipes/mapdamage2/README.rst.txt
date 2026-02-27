@@ -49,6 +49,7 @@ mapdamage2
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``
    :depends r-base: 
+   :depends r-gam: 
    :depends r-ggplot2: ``>=2.1.0``
    :depends r-inline: 
    :depends r-rcpp: 
