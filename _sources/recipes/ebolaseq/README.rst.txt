@@ -13,7 +13,7 @@ ebolaseq
    Tool for downloading and analyzing Ebola virus sequences.
 
    :homepage: https://github.com/DaanJansen94/ebolaseq
-   :documentation: https://github.com/DaanJansen94/ebolaseq/blob/v0.1.7/README.md
+   :documentation: https://github.com/DaanJansen94/ebolaseq/blob/v0.1.8/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`ebolaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ebolaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ebolaseq/meta.yaml>`_
@@ -31,7 +31,7 @@ ebolaseq
       
       
 
-      ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
+      ``0.1.8-0``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
 
       
 
@@ -94,7 +94,7 @@ ebolaseq
 
     <script>
         var package = "ebolaseq";
-        var versions = ["0.1.7","0.1.7","0.1.6","0.1.5","0.1.4"];
+        var versions = ["0.1.8","0.1.7","0.1.7","0.1.6","0.1.5"];
     </script>
 
 

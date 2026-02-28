@@ -27,13 +27,13 @@ perl-unicode-utf8
       
       
 
-      ``0.62-8``,  ``0.62-7``,  ``0.62-6``,  ``0.62-5``,  ``0.62-4``,  ``0.62-3``,  ``0.62-1``,  ``0.62-0``
+      ``0.66-0``,  ``0.62-8``,  ``0.62-7``,  ``0.62-6``,  ``0.62-5``,  ``0.62-4``,  ``0.62-3``,  ``0.62-1``,  ``0.62-0``
 
       
 
    
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libgcc: ``>=14``
+   :depends libstdcxx: ``>=14``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-carp: 
    :depends perl-exporter: 
@@ -92,7 +92,7 @@ perl-unicode-utf8
 
     <script>
         var package = "perl-unicode-utf8";
-        var versions = ["0.62","0.62","0.62","0.62","0.62"];
+        var versions = ["0.66","0.62","0.62","0.62","0.62"];
     </script>
 
 

@@ -27,23 +27,23 @@ bioconductor-orthogene
       
       
 
-      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``1.16.1-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-ggtree: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-delayedarray: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-ggtree: ``>=4.0.0,<4.1.0``
    :depends r-babelgene: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-ggpubr: 
    :depends r-gprofiler2: 
-   :depends r-grr: 
    :depends r-homologene: 
    :depends r-jsonlite: 
+   :depends r-magrittr: 
    :depends r-matrix: 
    :depends r-patchwork: 
    :depends r-repmis: 
@@ -97,7 +97,7 @@ bioconductor-orthogene
 
     <script>
         var package = "bioconductor-orthogene";
-        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.0.0"];
+        var versions = ["1.16.1","1.12.0","1.8.0","1.6.0","1.4.0"];
     </script>
 
 

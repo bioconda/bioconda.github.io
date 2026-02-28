@@ -27,24 +27,25 @@ bioconductor-msstatslip
       
       
 
-      ``1.8.1-0``,  ``1.6.0-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.8.1-0``,  ``1.6.0-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-biostrings: ``>=2.70.1,<2.71.0a0``
-   :depends bioconductor-msstats: ``>=4.10.0,<4.11.0``
-   :depends bioconductor-msstats: ``>=4.10.0,<4.11.0a0``
-   :depends bioconductor-msstatsconvert: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-msstatsconvert: ``>=1.12.0,<1.13.0a0``
-   :depends bioconductor-msstatsptm: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-msstatsptm: ``>=2.4.1,<2.5.0a0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0a0``
+   :depends bioconductor-msstats: ``>=4.18.0,<4.19.0``
+   :depends bioconductor-msstats: ``>=4.18.1,<4.19.0a0``
+   :depends bioconductor-msstatsconvert: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-msstatsconvert: ``>=1.20.0,<1.21.0a0``
+   :depends bioconductor-msstatsptm: ``>=2.12.0,<2.13.0``
+   :depends bioconductor-msstatsptm: ``>=2.12.0,<2.13.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=19``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-checkmate: 
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -52,6 +53,8 @@ bioconductor-msstatslip
    :depends r-ggplot2: 
    :depends r-ggpubr: 
    :depends r-gridextra: 
+   :depends r-htmltools: 
+   :depends r-plotly: 
    :depends r-purrr: 
    :depends r-rcpp: 
    :depends r-scales: 
@@ -109,7 +112,7 @@ bioconductor-msstatslip
 
     <script>
         var package = "bioconductor-msstatslip";
-        var versions = ["1.8.1","1.6.0","1.3.1","1.3.1","1.0.0"];
+        var versions = ["1.16.0","1.8.1","1.6.0","1.3.1","1.3.1"];
     </script>
 
 

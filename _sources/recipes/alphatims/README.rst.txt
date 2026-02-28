@@ -31,7 +31,7 @@ alphatims
       
       
 
-      ``1.0.9-0``
+      ``1.0.10-0``,  ``1.0.9-0``
 
       
 
@@ -94,7 +94,7 @@ alphatims
 
     <script>
         var package = "alphatims";
-        var versions = ["1.0.9"];
+        var versions = ["1.0.10","1.0.9"];
     </script>
 
 

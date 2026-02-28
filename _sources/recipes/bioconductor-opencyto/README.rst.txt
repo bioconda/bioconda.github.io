@@ -28,10 +28,10 @@ bioconductor-opencyto
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.18.0-0</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.6.0-2</code>,  <code>2.6.0-1</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.22.0-0</code>,  <code>2.18.0-0</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.6.0-2</code>,  <code>2.6.0-1</code>,  <code>2.6.0-0</code>,  </span></summary>
       
 
-      ``2.18.0-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.6.0-2``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.24.0-0``,  ``1.22.2-0``,  ``1.20.1-0``
+      ``2.22.0-0``,  ``2.18.0-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.6.0-2``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.24.0-0``,  ``1.22.2-0``,  ``1.20.1-0``
 
       
       .. raw:: html
@@ -40,30 +40,31 @@ bioconductor-opencyto
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0a0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0a0``
-   :depends bioconductor-flowclust: ``>=3.44.0,<3.45.0``
-   :depends bioconductor-flowclust: ``>=3.44.0,<3.45.0a0``
-   :depends bioconductor-flowcore: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-flowcore: ``>=2.18.0,<2.19.0a0``
-   :depends bioconductor-flowviz: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-flowviz: ``>=1.70.0,<1.71.0a0``
-   :depends bioconductor-flowworkspace: ``>=4.18.0,<4.19.0``
-   :depends bioconductor-flowworkspace: ``>=4.18.0,<4.19.0a0``
-   :depends bioconductor-graph: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-graph: ``>=1.84.0,<1.85.0a0``
-   :depends bioconductor-ncdfflow: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-ncdfflow: ``>=2.52.0,<2.53.0a0``
-   :depends bioconductor-rbgl: ``>=1.82.0,<1.83.0``
-   :depends bioconductor-rbgl: ``>=1.82.0,<1.83.0a0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
+   :depends bioconductor-flowclust: ``>=3.48.0,<3.49.0``
+   :depends bioconductor-flowclust: ``>=3.48.0,<3.49.0a0``
+   :depends bioconductor-flowcore: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-flowcore: ``>=2.22.1,<2.23.0a0``
+   :depends bioconductor-flowviz: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-flowviz: ``>=1.74.0,<1.75.0a0``
+   :depends bioconductor-flowworkspace: ``>=4.22.0,<4.23.0``
+   :depends bioconductor-flowworkspace: ``>=4.22.1,<4.23.0a0``
+   :depends bioconductor-graph: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-graph: ``>=1.88.1,<1.89.0a0``
+   :depends bioconductor-ncdfflow: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-ncdfflow: ``>=2.56.0,<2.57.0a0``
+   :depends bioconductor-rbgl: ``>=1.86.0,<1.87.0``
+   :depends bioconductor-rbgl: ``>=1.86.0,<1.87.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libcxx: ``>=19``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
-   :depends r-bh: 
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
+   :depends r-bh: ``>=1.62.0-1``
    :depends r-cpp11: 
    :depends r-data.table: 
    :depends r-rcolorbrewer: 
@@ -117,7 +118,7 @@ bioconductor-opencyto
 
     <script>
         var package = "bioconductor-opencyto";
-        var versions = ["2.18.0","2.14.0","2.12.0","2.10.0","2.10.0"];
+        var versions = ["2.22.0","2.18.0","2.14.0","2.12.0","2.10.0"];
     </script>
 
 

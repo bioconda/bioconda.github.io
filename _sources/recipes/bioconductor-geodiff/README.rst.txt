@@ -27,22 +27,23 @@ bioconductor-geodiff
       
       
 
-      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0a0``
-   :depends bioconductor-geomxtools: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-geomxtools: ``>=3.10.0,<3.11.0a0``
-   :depends bioconductor-nanostringnctools: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-nanostringnctools: ``>=1.14.0,<1.15.0a0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0a0``
+   :depends bioconductor-geomxtools: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-geomxtools: ``>=3.14.0,<3.15.0a0``
+   :depends bioconductor-nanostringnctools: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-nanostringnctools: ``>=1.18.0,<1.19.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libcxx: ``>=19``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-lme4: 
    :depends r-matrix: 
    :depends r-plyr: 
@@ -102,7 +103,7 @@ bioconductor-geodiff
 
     <script>
         var package = "bioconductor-geodiff";
-        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.4.0"];
+        var versions = ["1.16.0","1.12.0","1.8.0","1.6.0","1.4.0"];
     </script>
 
 

@@ -27,25 +27,27 @@ bioconductor-gbscleanr
       
       
 
-      ``2.0.2-0``,  ``1.6.0-0``,  ``1.4.4-0``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``2.4.4-0``,  ``2.0.2-0``,  ``1.6.0-0``,  ``1.4.4-0``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-gdsfmt: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-gdsfmt: ``>=1.42.0,<1.43.0a0``
-   :depends bioconductor-seqarray: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-seqarray: ``>=1.46.0,<1.47.0a0``
+   :depends bioconductor-gdsfmt: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-gdsfmt: ``>=1.46.0,<1.47.0a0``
+   :depends bioconductor-seqarray: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-seqarray: ``>=1.50.1,<1.51.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libcxx: ``>=19``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-expm: 
    :depends r-ggplot2: 
    :depends r-rcpp: 
    :depends r-rcppparallel: 
    :depends r-tidyr: 
+   :depends tbb-devel: ``>=2022.3.0,<2022.4.0a0``
    :requirements:
 
    :additional platforms:
@@ -96,7 +98,7 @@ bioconductor-gbscleanr
 
     <script>
         var package = "bioconductor-gbscleanr";
-        var versions = ["2.0.2","1.6.0","1.4.4","1.2.0","1.2.0"];
+        var versions = ["2.4.4","2.0.2","1.6.0","1.4.4","1.2.0"];
     </script>
 
 

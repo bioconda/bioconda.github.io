@@ -30,13 +30,13 @@ pcangsd
       
       
 
-      ``1.36.4-0``
+      ``1.36.4-1``,  ``1.36.4-0``
 
       
 
    
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libgcc: ``>=14``
+   :depends libstdcxx: ``>=14``
    :depends numpy: ``>2.0.0``
    :depends numpy: ``>=1.21,<3``
    :depends python: ``>=3.10,<3.11.0a0``
@@ -96,7 +96,7 @@ pcangsd
 
     <script>
         var package = "pcangsd";
-        var versions = ["1.36.4"];
+        var versions = ["1.36.4","1.36.4"];
     </script>
 
 

@@ -27,15 +27,15 @@ bioconductor-sketchr
       
       
 
-      ``1.2.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-basilisk: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-basilisk: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-delayedarray: ``>=0.36.0,<0.37.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-reticulate: 
@@ -91,7 +91,7 @@ bioconductor-sketchr
 
     <script>
         var package = "bioconductor-sketchr";
-        var versions = ["1.2.0"];
+        var versions = ["1.6.0","1.2.0"];
     </script>
 
 

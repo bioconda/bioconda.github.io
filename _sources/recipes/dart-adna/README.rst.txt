@@ -29,7 +29,7 @@ dart-adna
       
       
 
-      ``1.0.4-0``
+      ``1.0.4-1``,  ``1.0.4-0``
 
       
 
@@ -44,6 +44,10 @@ dart-adna
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -91,7 +95,7 @@ dart-adna
 
     <script>
         var package = "dart-adna";
-        var versions = ["1.0.4"];
+        var versions = ["1.0.4","1.0.4"];
     </script>
 
 

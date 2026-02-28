@@ -50,6 +50,7 @@ rpbp
    :depends dash-bio: 
    :depends dash-bootstrap-components: 
    :depends fastqc: 
+   :depends flexbar: 
    :depends libgcc: ``>=14``
    :depends libstdcxx: ``>=14``
    :depends numpy: 

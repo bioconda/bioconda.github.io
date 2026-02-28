@@ -28,10 +28,10 @@ bioconductor-bayesspace
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.12.0-0</code>,  <code>1.10.1-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  <code>1.0.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.20.2-0</code>,  <code>1.12.0-0</code>,  <code>1.10.1-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
       
 
-      ``1.12.0-0``,  ``1.10.1-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.20.2-0``,  ``1.12.0-0``,  ``1.10.1-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,41 +40,52 @@ bioconductor-bayesspace
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-biocfilecache: ``>=2.10.1,<2.11.0a0``
-   :depends bioconductor-biocsingular: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-biocsingular: ``>=1.18.0,<1.19.0a0``
-   :depends bioconductor-rhdf5: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-rhdf5: ``>=2.46.1,<2.47.0a0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
-   :depends bioconductor-scater: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-scater: ``>=1.30.1,<1.31.0a0``
-   :depends bioconductor-scran: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-scran: ``>=1.30.0,<1.31.0a0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0a0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0a0``
+   :depends bioconductor-biocfilecache: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-biocfilecache: ``>=3.0.0,<3.1.0a0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0a0``
+   :depends bioconductor-biocsingular: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-biocsingular: ``>=1.26.1,<1.27.0a0``
+   :depends bioconductor-rhdf5: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-rhdf5: ``>=2.54.1,<2.55.0a0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
+   :depends bioconductor-scater: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-scater: ``>=1.38.0,<1.39.0a0``
+   :depends bioconductor-scran: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-scran: ``>=1.38.0,<1.39.0a0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=19``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-arrow: 
    :depends r-assertthat: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-coda: 
    :depends r-dirichletreg: 
+   :depends r-dplyr: 
    :depends r-ggplot2: 
+   :depends r-magrittr: 
    :depends r-matrix: 
    :depends r-mclust: 
+   :depends r-microbenchmark: 
    :depends r-purrr: 
    :depends r-rcpp: ``>=1.0.4.6``
    :depends r-rcpparmadillo: 
    :depends r-rcppdist: 
    :depends r-rcppprogress: 
    :depends r-rcurl: 
+   :depends r-rjson: 
+   :depends r-rlang: 
    :depends r-scales: 
-   :depends r-xgboost: 
+   :depends r-tibble: 
+   :depends r-tidyr: 
+   :depends r-xgboost: ``>=3.0.0``
    :requirements:
 
    :additional platforms:
@@ -125,7 +136,7 @@ bioconductor-bayesspace
 
     <script>
         var package = "bioconductor-bayesspace";
-        var versions = ["1.12.0","1.10.1","1.8.0","1.8.0","1.4.1"];
+        var versions = ["1.20.2","1.12.0","1.10.1","1.8.0","1.8.0"];
     </script>
 
 

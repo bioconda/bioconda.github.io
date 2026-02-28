@@ -13,8 +13,6 @@ hits
    Utilities for processing high\-throughput sequencing experiments.
 
    :homepage: https://github.com/jeffhussmann/hits
-   :documentation: https://github.com/jeffhussmann/hits/blob/v0.4.5/README.md
-   
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`hits <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hits>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hits/meta.yaml>`_
 
@@ -30,10 +28,10 @@ hits
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.5-0</code>,  <code>0.4.3-1</code>,  <code>0.4.3-0</code>,  <code>0.4.2-1</code>,  <code>0.4.2-0</code>,  <code>0.4.0-2</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.1-0</code>,  <code>0.4.5-0</code>,  <code>0.4.3-1</code>,  <code>0.4.3-0</code>,  <code>0.4.2-1</code>,  <code>0.4.2-0</code>,  <code>0.4.0-2</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  </span></summary>
       
 
-      ``0.4.5-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``,  ``0.0.7-0``
+      ``0.5.1-0``,  ``0.4.5-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``,  ``0.0.7-0``
 
       
       .. raw:: html
@@ -46,14 +44,14 @@ hits
    :depends bokeh: ``>=3.2``
    :depends ipython: ``>=7.8.0``
    :depends ipywidgets: ``>=7.4.2``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends matplotlib-base: ``>=3.0.2``
    :depends numpy: ``>=1.15.4``
    :depends pandas: ``>=0.23.4``
    :depends pillow: ``>=5.3.0``
    :depends pysam: ``>=0.15.1``
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
+   :depends python: ``>=3.13,<3.14.0a0``
+   :depends python_abi: ``3.13.* *_cp313``
    :depends pyyaml: ``>=3.13``
    :depends s3fs: 
    :depends scipy: ``>=1.2.1``
@@ -62,10 +60,6 @@ hits
    :requirements:
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -113,7 +107,7 @@ hits
 
     <script>
         var package = "hits";
-        var versions = ["0.4.5","0.4.3","0.4.3","0.4.2","0.4.2"];
+        var versions = ["0.5.1","0.4.5","0.4.3","0.4.3","0.4.2"];
     </script>
 
 

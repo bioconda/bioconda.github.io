@@ -28,10 +28,10 @@ yahmm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.3-11</code>,  <code>1.1.3-9</code>,  <code>1.1.3-8</code>,  <code>1.1.3-7</code>,  <code>1.1.3-6</code>,  <code>1.1.3-5</code>,  <code>1.1.3-4</code>,  <code>1.1.3-3</code>,  <code>1.1.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.3-12</code>,  <code>1.1.3-11</code>,  <code>1.1.3-9</code>,  <code>1.1.3-8</code>,  <code>1.1.3-7</code>,  <code>1.1.3-6</code>,  <code>1.1.3-5</code>,  <code>1.1.3-4</code>,  <code>1.1.3-3</code>,  </span></summary>
       
 
-      ``1.1.3-11``,  ``1.1.3-9``,  ``1.1.3-8``,  ``1.1.3-7``,  ``1.1.3-6``,  ``1.1.3-5``,  ``1.1.3-4``,  ``1.1.3-3``,  ``1.1.3-1``,  ``1.1.3-0``
+      ``1.1.3-12``,  ``1.1.3-11``,  ``1.1.3-9``,  ``1.1.3-8``,  ``1.1.3-7``,  ``1.1.3-6``,  ``1.1.3-5``,  ``1.1.3-4``,  ``1.1.3-3``,  ``1.1.3-1``,  ``1.1.3-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ yahmm
 
    
    :depends cython: ``>=0.20.1,<3``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends matplotlib-base: ``>=1.3.1``
    :depends networkx: ``>=1.8.1``
    :depends numpy: ``>=1.21,<3``

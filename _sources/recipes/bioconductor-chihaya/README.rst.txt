@@ -27,23 +27,25 @@ bioconductor-chihaya
       
       
 
-      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0a0``
-   :depends bioconductor-hdf5array: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-hdf5array: ``>=1.34.0,<1.35.0a0``
-   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0a0``
-   :depends bioconductor-rhdf5lib: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-rhdf5lib: ``>=1.28.0,<1.29.0a0``
+   :depends bioconductor-delayedarray: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-delayedarray: ``>=0.36.0,<0.37.0a0``
+   :depends bioconductor-hdf5array: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-hdf5array: ``>=1.38.0,<1.39.0a0``
+   :depends bioconductor-rhdf5: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-rhdf5: ``>=2.54.1,<2.55.0a0``
+   :depends bioconductor-rhdf5lib: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-rhdf5lib: ``>=1.32.0,<1.33.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=18``
+   :depends libcxx: ``>=19``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-matrix: 
    :depends r-rcpp: 
    :requirements:
@@ -96,7 +98,7 @@ bioconductor-chihaya
 
     <script>
         var package = "bioconductor-chihaya";
-        var versions = ["1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.10.0","1.6.0","1.2.0","1.0.0"];
     </script>
 
 

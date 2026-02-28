@@ -15,6 +15,7 @@ parm
    :homepage: https://github.com/vansteensellab/PARM
    :license: https://github.com/vansteensellab/PARM/blob/main/LICENSE
    :recipe: /`parm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/parm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/parm/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41586-025-10093-z`
 
    
 
@@ -28,10 +29,10 @@ parm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.44-0</code>,  <code>0.1.39-0</code>,  <code>0.1.27-0</code>,  <code>0.1.0-0</code>,  <code>0.0.7-0</code>,  <code>0.0.6-2</code>,  <code>0.0.6-0</code>,  <code>0.0.5-0</code>,  <code>0.0.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.0-0</code>,  <code>0.1.44-0</code>,  <code>0.1.39-0</code>,  <code>0.1.27-0</code>,  <code>0.1.0-0</code>,  <code>0.0.7-0</code>,  <code>0.0.6-2</code>,  <code>0.0.6-0</code>,  <code>0.0.5-0</code>,  </span></summary>
       
 
-      ``0.1.44-0``,  ``0.1.39-0``,  ``0.1.27-0``,  ``0.1.0-0``,  ``0.0.7-0``,  ``0.0.6-2``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``0.2.0-0``,  ``0.1.44-0``,  ``0.1.39-0``,  ``0.1.27-0``,  ``0.1.0-0``,  ``0.0.7-0``,  ``0.0.6-2``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
       .. raw:: html
@@ -103,7 +104,7 @@ parm
 
     <script>
         var package = "parm";
-        var versions = ["0.1.44","0.1.39","0.1.27","0.1.0","0.0.7"];
+        var versions = ["0.2.0","0.1.44","0.1.39","0.1.27","0.1.0"];
     </script>
 
 

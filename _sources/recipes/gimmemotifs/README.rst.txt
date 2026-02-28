@@ -44,9 +44,11 @@ gimmemotifs
 
    
    :depends dinamo: ``>=1.0``
+   :depends gadem: ``>=1.3.1``
    :depends gimmemotifs-minimal: ``0.18.1.*``
    :depends meme: ``>=5.5.7``
    :depends prosampler: ``>=1.5``
+   :depends trawler: ``>=2.0``
    :requirements:
 
    :additional platforms:

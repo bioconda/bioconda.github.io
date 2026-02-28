@@ -29,10 +29,10 @@ bioconductor-gsva
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.50.0-1</code>,  <code>1.50.0-0</code>,  <code>1.48.2-0</code>,  <code>1.46.0-1</code>,  <code>1.46.0-0</code>,  <code>1.42.0-2</code>,  <code>1.42.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4.4-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.50.0-1</code>,  <code>1.50.0-0</code>,  <code>1.48.2-0</code>,  <code>1.46.0-1</code>,  <code>1.46.0-0</code>,  <code>1.42.0-2</code>,  </span></summary>
       
 
-      ``2.0.0-1``,  ``2.0.0-0``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.2-0``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.42.0-2``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.2-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.2-0``,  ``1.24.1-0``
+      ``2.4.4-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.2-0``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.42.0-2``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.2-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.2-0``,  ``1.24.1-0``
 
       
       .. raw:: html
@@ -41,38 +41,46 @@ bioconductor-gsva
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0a0``
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0a0``
-   :depends bioconductor-biocsingular: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-biocsingular: ``>=1.22.0,<1.23.0a0``
-   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0a0``
-   :depends bioconductor-delayedmatrixstats: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-delayedmatrixstats: ``>=1.28.0,<1.29.0a0``
-   :depends bioconductor-gseabase: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-gseabase: ``>=1.68.0,<1.69.0a0``
-   :depends bioconductor-hdf5array: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-hdf5array: ``>=1.34.0,<1.35.0a0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
-   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0a0``
-   :depends bioconductor-sparsematrixstats: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-sparsematrixstats: ``>=1.18.0,<1.19.0a0``
-   :depends bioconductor-spatialexperiment: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-spatialexperiment: ``>=1.16.0,<1.17.0a0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0a0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0a0``
+   :depends bioconductor-biocsingular: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-biocsingular: ``>=1.26.1,<1.27.0a0``
+   :depends bioconductor-delayedarray: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-delayedarray: ``>=0.36.0,<0.37.0a0``
+   :depends bioconductor-gseabase: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-gseabase: ``>=1.72.0,<1.73.0a0``
+   :depends bioconductor-hdf5array: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-hdf5array: ``>=1.38.0,<1.39.0a0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0a0``
+   :depends bioconductor-matrixgenerics: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-matrixgenerics: ``>=1.22.0,<1.23.0a0``
+   :depends bioconductor-s4arrays: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-s4arrays: ``>=1.10.1,<1.11.0a0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0a0``
+   :depends bioconductor-sparsearray: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-sparsearray: ``>=1.10.8,<1.11.0a0``
+   :depends bioconductor-sparsematrixstats: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-sparsematrixstats: ``>=1.22.0,<1.23.0a0``
+   :depends bioconductor-spatialexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-spatialexperiment: ``>=1.20.0,<1.21.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-cli: 
    :depends r-matrix: ``>=1.5-0``
+   :depends r-memuse: 
    :requirements:
 
    :additional platforms:
@@ -127,7 +135,7 @@ bioconductor-gsva
 
     <script>
         var package = "bioconductor-gsva";
-        var versions = ["2.0.0","2.0.0","1.50.0","1.50.0","1.48.2"];
+        var versions = ["2.4.4","2.0.0","2.0.0","1.50.0","1.50.0"];
     </script>
 
 
