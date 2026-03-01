@@ -27,21 +27,27 @@ bioconductor-gloscope
       
       
 
-      ``1.4.0-0``,  ``1.0.0-0``
+      ``2.0.1-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
+   :depends r-boot: 
+   :depends r-cluster: 
    :depends r-fnn: 
    :depends r-ggplot2: 
    :depends r-mass: 
    :depends r-mclust: 
    :depends r-mvnfast: 
+   :depends r-permute: 
+   :depends r-pheatmap: 
    :depends r-rann: 
+   :depends r-rcolorbrewer: 
    :depends r-rlang: 
+   :depends r-vegan: 
    :requirements:
 
    :additional platforms:
@@ -92,7 +98,7 @@ bioconductor-gloscope
 
     <script>
         var package = "bioconductor-gloscope";
-        var versions = ["1.4.0","1.0.0"];
+        var versions = ["2.0.1","1.4.0","1.0.0"];
     </script>
 
 

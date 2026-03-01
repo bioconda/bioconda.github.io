@@ -27,14 +27,14 @@ bioconductor-mslp
       
       
 
-      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
-   :depends bioconductor-rankprod: ``>=3.32.0,<3.33.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-rankprod: ``>=3.36.0,<3.37.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-data.table: ``>=1.13.0``
    :depends r-dorng: 
    :depends r-fmsb: 
@@ -92,7 +92,7 @@ bioconductor-mslp
 
     <script>
         var package = "bioconductor-mslp";
-        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.12.0","1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

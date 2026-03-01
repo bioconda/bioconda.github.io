@@ -27,18 +27,18 @@ bioconductor-xcore
       
       
 
-      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-delayedarray: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-edger: ``>=4.8.0,<4.9.0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-foreach: ``>=1.5.1``
    :depends r-glmnet: ``>=4.1.2``
    :depends r-iterators: ``>=1.0.13``
@@ -94,7 +94,7 @@ bioconductor-xcore
 
     <script>
         var package = "bioconductor-xcore";
-        var versions = ["1.10.0","1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.14.0","1.10.0","1.6.0","1.4.0","1.2.0"];
     </script>
 
 

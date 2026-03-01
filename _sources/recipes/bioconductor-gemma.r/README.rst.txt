@@ -27,16 +27,16 @@ bioconductor-gemma.r
       
       
 
-      ``3.2.0-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``3.6.1-0``,  ``3.2.0-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
    :depends r-assertthat: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-base64enc: 
    :depends r-bit64: 
    :depends r-data.table: 
@@ -44,6 +44,7 @@ bioconductor-gemma.r
    :depends r-glue: 
    :depends r-httr: 
    :depends r-jsonlite: 
+   :depends r-kableextra: 
    :depends r-lubridate: 
    :depends r-magrittr: 
    :depends r-memoise: 
@@ -103,7 +104,7 @@ bioconductor-gemma.r
 
     <script>
         var package = "bioconductor-gemma.r";
-        var versions = ["3.2.0","2.0.0","1.2.0","1.0.0"];
+        var versions = ["3.6.1","3.2.0","2.0.0","1.2.0","1.0.0"];
     </script>
 
 

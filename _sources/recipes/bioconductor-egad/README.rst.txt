@@ -28,10 +28,10 @@ bioconductor-egad
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  </span></summary>
       
 
-      ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
+      ``1.38.0-0``,  ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-egad
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-geoquery: ``>=2.74.0,<2.75.0``
-   :depends bioconductor-impute: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-geoquery: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-impute: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-limma: ``>=3.66.0,<3.67.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-gplots: 
    :depends r-igraph: 
    :depends r-mass: 
@@ -102,7 +102,7 @@ bioconductor-egad
 
     <script>
         var package = "bioconductor-egad";
-        var versions = ["1.34.0","1.30.0","1.28.0","1.26.0","1.22.0"];
+        var versions = ["1.38.0","1.34.0","1.30.0","1.28.0","1.26.0"];
     </script>
 
 

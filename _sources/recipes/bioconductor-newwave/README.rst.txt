@@ -27,17 +27,17 @@ bioconductor-newwave
       
       
 
-      ``1.16.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.2-0``,  ``0.99.10-1``
+      ``1.20.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.2-0``,  ``0.99.10-1``
 
       
 
    
-   :depends bioconductor-biocsingular: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-sharedobject: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biocsingular: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-delayedarray: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-sharedobject: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-irlba: 
    :depends r-matrix: 
    :requirements:
@@ -90,7 +90,7 @@ bioconductor-newwave
 
     <script>
         var package = "bioconductor-newwave";
-        var versions = ["1.16.0","1.12.0","1.8.0","1.4.0","1.2.0"];
+        var versions = ["1.20.0","1.16.0","1.12.0","1.8.0","1.4.0"];
     </script>
 
 

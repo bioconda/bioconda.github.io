@@ -13,7 +13,7 @@ seqan3
    SeqAn3 is the new version of the popular SeqAn template library for the analysis of biological sequences.
 
    :homepage: https://www.seqan.de
-   :documentation: https://github.com/seqan/seqan3/blob/3.4.0/README.md
+   :documentation: https://github.com/seqan/seqan3/blob/3.4.1/README.md
    
    :developer docs: https://github.com/seqan/seqan3
    :license: BSD / BSD-3-Clause
@@ -31,10 +31,10 @@ seqan3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.0-0</code>,  <code>3.3.0-1</code>,  <code>3.3.0-0</code>,  <code>3.2.0-0</code>,  <code>3.1.0-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-1</code>,  <code>3.0.2-0</code>,  <code>3.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.0-1</code>,  <code>3.3.0-0</code>,  <code>3.2.0-0</code>,  <code>3.1.0-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-1</code>,  <code>3.0.2-0</code>,  </span></summary>
       
 
-      ``3.4.0-0``,  ``3.3.0-1``,  ``3.3.0-0``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.3-0``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-1``,  ``3.0.0-0``
+      ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.0-1``,  ``3.3.0-0``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.3-0``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-0``,  ``3.0.0-1``,  ``3.0.0-0``
 
       
       .. raw:: html
@@ -44,8 +44,8 @@ seqan3
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libgcc: ``>=14``
+   :depends libstdcxx: ``>=14``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
@@ -101,7 +101,7 @@ seqan3
 
     <script>
         var package = "seqan3";
-        var versions = ["3.4.0","3.3.0","3.3.0","3.2.0","3.1.0"];
+        var versions = ["3.4.1","3.4.0","3.3.0","3.3.0","3.2.0"];
     </script>
 
 

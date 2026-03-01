@@ -27,18 +27,18 @@ bioconductor-treekor
       
       
 
-      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-diffcyt: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
-   :depends bioconductor-ggtree: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-hopach: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-diffcyt: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-edger: ``>=4.8.0,<4.9.0``
+   :depends bioconductor-ggtree: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-hopach: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
    :depends r-ape: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-ggiraph: 
@@ -97,7 +97,7 @@ bioconductor-treekor
 
     <script>
         var package = "bioconductor-treekor";
-        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.2.0"];
+        var versions = ["1.18.0","1.14.0","1.10.0","1.8.0","1.6.0"];
     </script>
 
 

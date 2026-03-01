@@ -13,7 +13,7 @@ fgumi
    High\-performance tools for UMI\-tagged sequencing data.
 
    :homepage: https://github.com/fulcrumgenomics/fgumi
-   :documentation: https://github.com/fulcrumgenomics/fgumi/blob/fgumi-v0.1.0/README.md
+   :documentation: https://github.com/fulcrumgenomics/fgumi/blob/fgumi-v0.1.1/README.md
    
    :license: MIT / MIT
    :recipe: /`fgumi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fgumi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fgumi/meta.yaml>`_
@@ -29,7 +29,7 @@ fgumi
       
       
 
-      ``0.1.0-0``
+      ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -92,7 +92,7 @@ fgumi
 
     <script>
         var package = "fgumi";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.1","0.1.0"];
     </script>
 
 

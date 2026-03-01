@@ -28,10 +28,10 @@ bioconductor-destiny
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.16.0-0</code>,  <code>3.14.0-0</code>,  <code>3.12.0-1</code>,  <code>3.12.0-0</code>,  <code>3.8.1-1</code>,  <code>3.8.1-0</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.24.0-0</code>,  <code>3.16.0-0</code>,  <code>3.14.0-0</code>,  <code>3.12.0-1</code>,  <code>3.12.0-0</code>,  <code>3.8.1-1</code>,  <code>3.8.1-0</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  </span></summary>
       
 
-      ``3.16.0-0``,  ``3.14.0-0``,  ``3.12.0-1``,  ``3.12.0-0``,  ``3.8.1-1``,  ``3.8.1-0``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.2.0-0``,  ``2.15.0-0``,  ``2.14.0-1``,  ``2.12.0-0``
+      ``3.24.0-0``,  ``3.16.0-0``,  ``3.14.0-0``,  ``3.12.0-1``,  ``3.12.0-0``,  ``3.8.1-1``,  ``3.8.1-0``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.2.0-0``,  ``2.15.0-0``,  ``2.14.0-1``,  ``2.12.0-0``
 
       
       .. raw:: html
@@ -40,21 +40,23 @@ bioconductor-destiny
       
 
    
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.1,<0.49.0a0``
-   :depends bioconductor-pcamethods: ``>=1.94.0,<1.95.0``
-   :depends bioconductor-pcamethods: ``>=1.94.0,<1.95.0a0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0a0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0a0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
+   :depends bioconductor-pcamethods: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-pcamethods: ``>=2.2.0,<2.3.0a0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libstdcxx: ``>=14``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-ggplot.multistats: 
    :depends r-ggplot2: 
    :depends r-ggthemes: 
@@ -65,6 +67,7 @@ bioconductor-destiny
    :depends r-rcpp: ``>=0.10.3``
    :depends r-rcppeigen: 
    :depends r-rcpphnsw: 
+   :depends r-rlang: 
    :depends r-rspectra: ``>=0.14-0``
    :depends r-scales: 
    :depends r-scatterplot3d: 
@@ -122,7 +125,7 @@ bioconductor-destiny
 
     <script>
         var package = "bioconductor-destiny";
-        var versions = ["3.16.0","3.14.0","3.12.0","3.12.0","3.8.1"];
+        var versions = ["3.24.0","3.16.0","3.14.0","3.12.0","3.12.0"];
     </script>
 
 

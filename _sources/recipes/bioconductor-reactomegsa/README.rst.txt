@@ -28,10 +28,10 @@ bioconductor-reactomegsa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.16.1-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.24.1-0</code>,  <code>1.20.0-0</code>,  <code>1.16.1-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  </span></summary>
       
 
-      ``1.20.0-0``,  ``1.16.1-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.24.1-0``,  ``1.20.0-0``,  ``1.16.1-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,12 +40,15 @@ bioconductor-reactomegsa
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biocsingular: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-gplots: 
    :depends r-httr: 
+   :depends r-igraph: 
    :depends r-jsonlite: 
    :depends r-progress: 
    :depends r-rcolorbrewer: 
@@ -100,7 +103,7 @@ bioconductor-reactomegsa
 
     <script>
         var package = "bioconductor-reactomegsa";
-        var versions = ["1.20.0","1.16.1","1.14.0","1.12.0","1.8.0"];
+        var versions = ["1.24.1","1.20.0","1.16.1","1.14.0","1.12.0"];
     </script>
 
 

@@ -27,15 +27,15 @@ bioconductor-geotcgadata
       
       
 
-      ``2.6.0-0``,  ``2.2.0-0``,  ``2.0.0-0``
+      ``2.10.0-0``,  ``2.6.0-0``,  ``2.2.0-0``,  ``2.0.0-0``
 
       
 
    
-   :depends bioconductor-cqn: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-topconfects: ``>=1.22.0,<1.23.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-cqn: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-topconfects: ``>=1.26.0,<1.27.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-data.table: 
    :depends r-plyr: 
    :requirements:
@@ -88,7 +88,7 @@ bioconductor-geotcgadata
 
     <script>
         var package = "bioconductor-geotcgadata";
-        var versions = ["2.6.0","2.2.0","2.0.0"];
+        var versions = ["2.10.0","2.6.0","2.2.0","2.0.0"];
     </script>
 
 

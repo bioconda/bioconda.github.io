@@ -28,10 +28,10 @@ bioconductor-genesis
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.36.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-1</code>,  <code>2.28.0-0</code>,  <code>2.24.2-0</code>,  <code>2.24.1-0</code>,  <code>2.24.0-0</code>,  <code>2.22.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.40.0-0</code>,  <code>2.36.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-1</code>,  <code>2.28.0-0</code>,  <code>2.24.2-0</code>,  <code>2.24.1-0</code>,  <code>2.24.0-0</code>,  </span></summary>
       
 
-      ``2.36.0-0``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.28.0-0``,  ``2.24.2-0``,  ``2.24.1-0``,  ``2.24.0-0``,  ``2.22.1-0``,  ``2.20.1-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.3-0``,  ``2.12.0-0``
+      ``2.40.0-0``,  ``2.36.0-0``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.28.0-0``,  ``2.24.2-0``,  ``2.24.1-0``,  ``2.24.0-0``,  ``2.22.1-0``,  ``2.20.1-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.3-0``,  ``2.12.0-0``
 
       
       .. raw:: html
@@ -40,32 +40,34 @@ bioconductor-genesis
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0a0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0a0``
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0a0``
-   :depends bioconductor-gdsfmt: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-gdsfmt: ``>=1.42.0,<1.43.0a0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0a0``
-   :depends bioconductor-gwastools: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-gwastools: ``>=1.52.0,<1.53.0a0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
-   :depends bioconductor-seqarray: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-seqarray: ``>=1.46.0,<1.47.0a0``
-   :depends bioconductor-seqvartools: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-seqvartools: ``>=1.44.0,<1.45.0a0``
-   :depends bioconductor-snprelate: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-snprelate: ``>=1.40.0,<1.41.0a0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0a0``
+   :depends bioconductor-gdsfmt: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-gdsfmt: ``>=1.46.0,<1.47.0a0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-genomicranges: ``>=1.62.1,<1.63.0a0``
+   :depends bioconductor-gwastools: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-gwastools: ``>=1.56.0,<1.57.0a0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0a0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
+   :depends bioconductor-seqarray: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-seqarray: ``>=1.50.1,<1.51.0a0``
+   :depends bioconductor-seqvartools: ``>=1.48.0,<1.49.0``
+   :depends bioconductor-seqvartools: ``>=1.48.0,<1.49.0a0``
+   :depends bioconductor-snprelate: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-snprelate: ``>=1.44.0,<1.45.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libopenblas: ``>=0.3.31,<1.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-data.table: 
    :depends r-igraph: 
    :depends r-matrix: 
@@ -120,7 +122,7 @@ bioconductor-genesis
 
     <script>
         var package = "bioconductor-genesis";
-        var versions = ["2.36.0","2.32.0","2.30.0","2.28.0","2.28.0"];
+        var versions = ["2.40.0","2.36.0","2.32.0","2.30.0","2.28.0"];
     </script>
 
 

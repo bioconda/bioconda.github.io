@@ -27,13 +27,15 @@ bioconductor-rhinotyper
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-msa: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-msa2dist: ``>=1.14.0,<1.15.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -84,7 +86,7 @@ bioconductor-rhinotyper
 
     <script>
         var package = "bioconductor-rhinotyper";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

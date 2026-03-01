@@ -31,10 +31,10 @@ chorus2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.01-2</code>,  <code>2.1-2</code>,  <code>2.01-1</code>,  <code>2.1-1</code>,  <code>2.1-0</code>,  <code>2.01-0</code>,  <code>2.0.1-0</code>,  <code>2.0-5</code>,  <code>2.0-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1-2</code>,  <code>2.01-2</code>,  <code>2.01-1</code>,  <code>2.1-1</code>,  <code>2.1-0</code>,  <code>2.01-0</code>,  <code>2.0.1-0</code>,  <code>2.0-5</code>,  <code>2.0-4</code>,  </span></summary>
       
 
-      ``2.01-2``,  ``2.1-2``,  ``2.01-1``,  ``2.1-1``,  ``2.1-0``,  ``2.01-0``,  ``2.0.1-0``,  ``2.0-5``,  ``2.0-4``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+      ``2.1-2``,  ``2.01-2``,  ``2.01-1``,  ``2.1-1``,  ``2.1-0``,  ``2.01-0``,  ``2.0.1-0``,  ``2.0-5``,  ``2.0-4``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
 
       
       .. raw:: html
@@ -44,18 +44,17 @@ chorus2
 
    
    :depends bcftools: 
-   :depends bwa: ``>=0.7.3a,<=0.7.8``
-   :depends kmer-jellyfish: ``2.*``
-   :depends matplotlib-base: ``>=3``
+   :depends bwa: 
+   :depends kmer-jellyfish: ``>1``
+   :depends matplotlib-base: ``>=3.5.0``
    :depends numpy: 
-   :depends pandas: 
-   :depends primer3-py: ``>=0.4.2``
+   :depends pandas: ``<2``
+   :depends primer3-py: ``>=1.0.0``
    :depends pybedtools: 
    :depends pybigwig: 
    :depends pyfasta: 
-   :depends pyqt: ``<5.11``
-   :depends python: ``>=3.9,<3.10.0a0``
-   :depends python_abi: ``3.9.* *_cp39``
+   :depends pyqt: ``<6``
+   :depends python: ``>=3,<3.10``
    :depends samtools: 
    :depends sip: ``>=4``
    :requirements:
@@ -112,7 +111,7 @@ chorus2
 
     <script>
         var package = "chorus2";
-        var versions = ["2.01","2.1","2.01","2.1","2.1"];
+        var versions = ["2.1","2.01","2.01","2.1","2.1"];
     </script>
 
 

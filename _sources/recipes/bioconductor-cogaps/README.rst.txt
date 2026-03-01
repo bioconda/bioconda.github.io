@@ -28,10 +28,10 @@ bioconductor-cogaps
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.26.0-0</code>,  <code>3.22.0-0</code>,  <code>3.19.1-0</code>,  <code>3.18.0-1</code>,  <code>3.18.0-0</code>,  <code>3.14.0-2</code>,  <code>3.14.0-1</code>,  <code>3.14.0-0</code>,  <code>3.12.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.30.0-0</code>,  <code>3.26.0-0</code>,  <code>3.22.0-0</code>,  <code>3.19.1-0</code>,  <code>3.18.0-1</code>,  <code>3.18.0-0</code>,  <code>3.14.0-2</code>,  <code>3.14.0-1</code>,  <code>3.14.0-0</code>,  </span></summary>
       
 
-      ``3.26.0-0``,  ``3.22.0-0``,  ``3.19.1-0``,  ``3.18.0-1``,  ``3.18.0-0``,  ``3.14.0-2``,  ``3.14.0-1``,  ``3.14.0-0``,  ``3.12.0-0``,  ``3.10.0-1``,  ``3.10.0-0``,  ``3.8.0-0``,  ``3.6.0-0``,  ``3.4.1-0``,  ``3.2.1-0``
+      ``3.30.0-0``,  ``3.26.0-0``,  ``3.22.0-0``,  ``3.19.1-0``,  ``3.18.0-1``,  ``3.18.0-0``,  ``3.14.0-2``,  ``3.14.0-1``,  ``3.14.0-0``,  ``3.12.0-0``,  ``3.10.0-1``,  ``3.10.0-0``,  ``3.8.0-0``,  ``3.6.0-0``,  ``3.4.1-0``,  ``3.2.1-0``
 
       
       .. raw:: html
@@ -40,23 +40,25 @@ bioconductor-cogaps
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0a0``
-   :depends bioconductor-fgsea: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-fgsea: ``>=1.32.0,<1.33.0a0``
-   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0a0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
-   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0a0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0a0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0a0``
+   :depends bioconductor-fgsea: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-fgsea: ``>=1.36.2,<1.37.0a0``
+   :depends bioconductor-rhdf5: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-rhdf5: ``>=2.54.1,<2.55.0a0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libstdcxx: ``>=14``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-bh: 
    :depends r-cluster: 
    :depends r-dplyr: 
@@ -65,6 +67,7 @@ bioconductor-cogaps
    :depends r-gplots: 
    :depends r-rcolorbrewer: 
    :depends r-rcpp: 
+   :depends r-testthat: 
    :requirements:
 
    :additional platforms:
@@ -115,7 +118,7 @@ bioconductor-cogaps
 
     <script>
         var package = "bioconductor-cogaps";
-        var versions = ["3.26.0","3.22.0","3.19.1","3.18.0","3.18.0"];
+        var versions = ["3.30.0","3.26.0","3.22.0","3.19.1","3.18.0"];
     </script>
 
 

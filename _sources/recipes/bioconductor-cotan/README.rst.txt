@@ -27,38 +27,36 @@ bioconductor-cotan
       
       
 
-      ``2.6.0-0``,  ``2.2.1-0``,  ``2.0.4-0``,  ``1.2.0-0``
+      ``2.10.1-0``,  ``2.6.0-0``,  ``2.2.1-0``,  ``2.0.4-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biocsingular: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-pcatools: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-biocsingular: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-complexheatmap: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
    :depends r-assertthat: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-circlize: 
    :depends r-dendextend: 
    :depends r-dplyr: 
+   :depends r-ggdist: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 
    :depends r-ggthemes: 
    :depends r-matrix: 
    :depends r-paralleldist: 
    :depends r-parallelly: 
-   :depends r-plyr: 
+   :depends r-proxy: 
    :depends r-rcolorbrewer: 
    :depends r-rfast: 
    :depends r-rlang: 
+   :depends r-rspectra: 
    :depends r-scales: 
    :depends r-seurat: 
    :depends r-stringr: 
    :depends r-tibble: 
    :depends r-tidyr: 
-   :depends r-umap: 
    :depends r-withr: 
    :depends r-zeallot: 
    :requirements:
@@ -111,7 +109,7 @@ bioconductor-cotan
 
     <script>
         var package = "bioconductor-cotan";
-        var versions = ["2.6.0","2.2.1","2.0.4","1.2.0"];
+        var versions = ["2.10.1","2.6.0","2.2.1","2.0.4","1.2.0"];
     </script>
 
 

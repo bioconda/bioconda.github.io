@@ -29,10 +29,10 @@ bioconductor-globaltest
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.60.0-0</code>,  <code>5.56.0-0</code>,  <code>5.54.0-0</code>,  <code>5.52.0-0</code>,  <code>5.48.0-0</code>,  <code>5.46.0-0</code>,  <code>5.44.0-1</code>,  <code>5.44.0-0</code>,  <code>5.42.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.64.0-0</code>,  <code>5.60.0-0</code>,  <code>5.56.0-0</code>,  <code>5.54.0-0</code>,  <code>5.52.0-0</code>,  <code>5.48.0-0</code>,  <code>5.46.0-0</code>,  <code>5.44.0-1</code>,  <code>5.44.0-0</code>,  </span></summary>
       
 
-      ``5.60.0-0``,  ``5.56.0-0``,  ``5.54.0-0``,  ``5.52.0-0``,  ``5.48.0-0``,  ``5.46.0-0``,  ``5.44.0-1``,  ``5.44.0-0``,  ``5.42.0-0``,  ``5.40.0-0``,  ``5.38.0-1``,  ``5.36.0-1``,  ``5.36.0-0``,  ``5.34.1-0``,  ``5.32.0-0``,  ``5.30.0-0``
+      ``5.64.0-0``,  ``5.60.0-0``,  ``5.56.0-0``,  ``5.54.0-0``,  ``5.52.0-0``,  ``5.48.0-0``,  ``5.46.0-0``,  ``5.44.0-1``,  ``5.44.0-0``,  ``5.42.0-0``,  ``5.40.0-0``,  ``5.38.0-1``,  ``5.36.0-1``,  ``5.36.0-0``,  ``5.34.1-0``,  ``5.32.0-0``,  ``5.30.0-0``
 
       
       .. raw:: html
@@ -41,10 +41,10 @@ bioconductor-globaltest
       
 
    
-   :depends bioconductor-annotate: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-annotate: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-survival: 
    :requirements:
 
@@ -96,7 +96,7 @@ bioconductor-globaltest
 
     <script>
         var package = "bioconductor-globaltest";
-        var versions = ["5.60.0","5.56.0","5.54.0","5.52.0","5.48.0"];
+        var versions = ["5.64.0","5.60.0","5.56.0","5.54.0","5.52.0"];
     </script>
 
 

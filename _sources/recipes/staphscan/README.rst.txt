@@ -29,7 +29,7 @@ staphscan
       
       
 
-      ``0.1.3-0``,  ``0.1.2-0``
+      ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
 
@@ -89,7 +89,7 @@ staphscan
 
     <script>
         var package = "staphscan";
-        var versions = ["0.1.3","0.1.2"];
+        var versions = ["0.2.0","0.1.3","0.1.2"];
     </script>
 
 

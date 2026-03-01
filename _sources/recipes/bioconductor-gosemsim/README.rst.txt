@@ -46,9 +46,10 @@ bioconductor-gosemsim
    :depends bioconductor-go.db: ``>=3.22.0,<3.23.0``
    :depends bioconductor-go.db: ``>=3.22.0,<3.23.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=19``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libstdcxx: ``>=14``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dbi: 

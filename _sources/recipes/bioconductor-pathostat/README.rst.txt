@@ -29,10 +29,10 @@ bioconductor-pathostat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.32.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.36.0-0</code>,  <code>1.32.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  </span></summary>
       
 
-      ``1.32.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.4-0``,  ``1.6.1-0``,  ``1.4.1-0``
+      ``1.36.0-0``,  ``1.32.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.4-0``,  ``1.6.1-0``,  ``1.4.1-0``
 
       
       .. raw:: html
@@ -41,14 +41,14 @@ bioconductor-pathostat
       
 
    
-   :depends bioconductor-biocstyle: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-deseq2: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
-   :depends bioconductor-phyloseq: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-biocstyle: ``>=2.38.0,<2.39.0``
+   :depends bioconductor-complexheatmap: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-deseq2: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-edger: ``>=4.8.0,<4.9.0``
+   :depends bioconductor-limma: ``>=3.66.0,<3.67.0``
+   :depends bioconductor-phyloseq: ``>=1.54.0,<1.55.0``
    :depends r-ape: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-corpcor: 
    :depends r-devtools: 
    :depends r-dplyr: 
@@ -121,7 +121,7 @@ bioconductor-pathostat
 
     <script>
         var package = "bioconductor-pathostat";
-        var versions = ["1.32.0","1.28.0","1.26.0","1.24.0","1.20.0"];
+        var versions = ["1.36.0","1.32.0","1.28.0","1.26.0","1.24.0"];
     </script>
 
 

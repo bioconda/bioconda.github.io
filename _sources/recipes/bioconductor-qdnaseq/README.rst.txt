@@ -29,10 +29,10 @@ bioconductor-qdnaseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.42.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.46.0-0</code>,  <code>1.42.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  </span></summary>
       
 
-      ``1.42.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``
+      ``1.46.0-0``,  ``1.42.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,16 @@ bioconductor-qdnaseq
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-cghbase: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-cghcall: ``>=2.68.0,<2.69.0``
-   :depends bioconductor-dnacopy: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-cghbase: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-cghcall: ``>=2.72.0,<2.73.0``
+   :depends bioconductor-dnacopy: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-rsamtools: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-seqinfo: ``>=1.0.0,<1.1.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-future.apply: ``>=1.8.1``
    :depends r-matrixstats: ``>=0.60.0``
    :depends r-r.utils: ``>=2.9.0``
@@ -102,7 +104,7 @@ bioconductor-qdnaseq
 
     <script>
         var package = "bioconductor-qdnaseq";
-        var versions = ["1.42.0","1.38.0","1.36.0","1.34.0","1.30.0"];
+        var versions = ["1.46.0","1.42.0","1.38.0","1.36.0","1.34.0"];
     </script>
 
 

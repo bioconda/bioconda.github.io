@@ -29,10 +29,10 @@ bioconductor-gage
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.56.0-0</code>,  <code>2.52.0-0</code>,  <code>2.50.0-0</code>,  <code>2.48.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-0</code>,  <code>2.40.1-0</code>,  <code>2.40.0-0</code>,  <code>2.37.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.60.0-0</code>,  <code>2.56.0-0</code>,  <code>2.52.0-0</code>,  <code>2.50.0-0</code>,  <code>2.48.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-0</code>,  <code>2.40.1-0</code>,  <code>2.40.0-0</code>,  </span></summary>
       
 
-      ``2.56.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.1-0``,  ``2.40.0-0``,  ``2.37.0-0``,  ``2.36.0-0``,  ``2.34.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.3-0``,  ``2.21.1-0``
+      ``2.60.0-0``,  ``2.56.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.1-0``,  ``2.40.0-0``,  ``2.37.0-0``,  ``2.36.0-0``,  ``2.34.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.3-0``,  ``2.21.1-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ bioconductor-gage
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-go.db: ``>=3.20.0,<3.21.0``
-   :depends bioconductor-graph: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-keggrest: ``>=1.46.0,<1.47.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-go.db: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-graph: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-keggrest: ``>=1.50.0,<1.51.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -96,7 +96,7 @@ bioconductor-gage
 
     <script>
         var package = "bioconductor-gage";
-        var versions = ["2.56.0","2.52.0","2.50.0","2.48.0","2.44.0"];
+        var versions = ["2.60.0","2.56.0","2.52.0","2.50.0","2.48.0"];
     </script>
 
 

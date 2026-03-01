@@ -29,10 +29,10 @@ bioconductor-mosaics
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.44.0-1</code>,  <code>2.44.0-0</code>,  <code>2.40.0-0</code>,  <code>2.38.0-0</code>,  <code>2.36.0-0</code>,  <code>2.32.0-2</code>,  <code>2.32.0-1</code>,  <code>2.32.0-0</code>,  <code>2.30.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.48.0-0</code>,  <code>2.44.0-1</code>,  <code>2.44.0-0</code>,  <code>2.40.0-0</code>,  <code>2.38.0-0</code>,  <code>2.36.0-0</code>,  <code>2.32.0-2</code>,  <code>2.32.0-1</code>,  <code>2.32.0-0</code>,  </span></summary>
       
 
-      ``2.44.0-1``,  ``2.44.0-0``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.32.0-2``,  ``2.32.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.10.0-0``,  ``2.4.1-0``
+      ``2.48.0-0``,  ``2.44.0-1``,  ``2.44.0-0``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.32.0-2``,  ``2.32.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.10.0-0``,  ``2.4.1-0``
 
       
       .. raw:: html
@@ -41,25 +41,27 @@ bioconductor-mosaics
       
 
    
-   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0a0``
-   :depends bioconductor-genomicalignments: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-genomicalignments: ``>=1.42.0,<1.43.0a0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0a0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
-   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0a0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
+   :depends bioconductor-genomicalignments: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-genomicalignments: ``>=1.46.0,<1.47.0a0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-genomicranges: ``>=1.62.1,<1.63.0a0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0a0``
+   :depends bioconductor-rsamtools: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-rsamtools: ``>=2.26.0,<2.27.0a0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
+   :depends bioconductor-seqinfo: ``>=1.0.0,<1.1.0``
+   :depends bioconductor-seqinfo: ``>=1.0.0,<1.1.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libstdcxx: ``>=14``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl: ``>=5.6.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-lattice: 
    :depends r-mass: 
    :depends r-rcpp: 
@@ -117,7 +119,7 @@ bioconductor-mosaics
 
     <script>
         var package = "bioconductor-mosaics";
-        var versions = ["2.44.0","2.44.0","2.40.0","2.38.0","2.36.0"];
+        var versions = ["2.48.0","2.44.0","2.44.0","2.40.0","2.38.0"];
     </script>
 
 

@@ -27,13 +27,13 @@ bioconductor-gatom
       
       
 
-      ``1.4.0-0``
+      ``1.8.4-0``,  ``1.4.0-0``
 
       
 
    
-   :depends bioconductor-bionet: ``>=1.66.0,<1.67.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-bionet: ``>=1.70.0,<1.71.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-data.table: 
    :depends r-ggally: 
    :depends r-ggplot2: 
@@ -44,7 +44,6 @@ bioconductor-gatom
    :depends r-mwcsr: 
    :depends r-network: 
    :depends r-plyr: 
-   :depends r-pryr: 
    :depends r-shinycyjs: ``>=1.0.0``
    :depends r-sna: 
    :depends r-xml: 
@@ -98,7 +97,7 @@ bioconductor-gatom
 
     <script>
         var package = "bioconductor-gatom";
-        var versions = ["1.4.0"];
+        var versions = ["1.8.4","1.4.0"];
     </script>
 
 

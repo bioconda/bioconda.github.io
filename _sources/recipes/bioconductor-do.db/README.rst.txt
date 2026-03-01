@@ -28,10 +28,10 @@ bioconductor-do.db
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.9-17</code>,  <code>2.9-16</code>,  <code>2.9-15</code>,  <code>2.9-14</code>,  <code>2.9-13</code>,  <code>2.9-12</code>,  <code>2.9-11</code>,  <code>2.9-10</code>,  <code>2.9-9</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.9-18</code>,  <code>2.9-17</code>,  <code>2.9-16</code>,  <code>2.9-15</code>,  <code>2.9-14</code>,  <code>2.9-13</code>,  <code>2.9-12</code>,  <code>2.9-11</code>,  <code>2.9-10</code>,  </span></summary>
       
 
-      ``2.9-17``,  ``2.9-16``,  ``2.9-15``,  ``2.9-14``,  ``2.9-13``,  ``2.9-12``,  ``2.9-11``,  ``2.9-10``,  ``2.9-9``,  ``2.9-8``,  ``2.9-7``,  ``2.9-6``,  ``2.9-4``,  ``2.9-3``,  ``2.9-1``,  ``2.9-0``
+      ``2.9-18``,  ``2.9-17``,  ``2.9-16``,  ``2.9-15``,  ``2.9-14``,  ``2.9-13``,  ``2.9-12``,  ``2.9-11``,  ``2.9-10``,  ``2.9-9``,  ``2.9-8``,  ``2.9-7``,  ``2.9-6``,  ``2.9-4``,  ``2.9-3``,  ``2.9-1``,  ``2.9-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-do.db
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-data-packages: ``>=20260207``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:

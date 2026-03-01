@@ -27,15 +27,15 @@ bioconductor-gg4way
       
       
 
-      ``1.4.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-deseq2: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-deseq2: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-edger: ``>=4.8.0,<4.9.0``
+   :depends bioconductor-limma: ``>=3.66.0,<3.67.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 
@@ -98,7 +98,7 @@ bioconductor-gg4way
 
     <script>
         var package = "bioconductor-gg4way";
-        var versions = ["1.4.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.0.0"];
     </script>
 
 

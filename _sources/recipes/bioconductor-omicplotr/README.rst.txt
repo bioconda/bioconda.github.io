@@ -28,10 +28,10 @@ bioconductor-omicplotr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  </span></summary>
       
 
-      ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
+      ``1.30.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ bioconductor-omicplotr
       
 
    
-   :depends bioconductor-aldex2: ``>=1.38.0,<1.39.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-aldex2: ``>=1.42.0,<1.43.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-compositions: 
    :depends r-dt: 
    :depends r-jsonlite: 
@@ -101,7 +101,7 @@ bioconductor-omicplotr
 
     <script>
         var package = "bioconductor-omicplotr";
-        var versions = ["1.26.0","1.22.0","1.20.0","1.18.0","1.14.0"];
+        var versions = ["1.30.0","1.26.0","1.22.0","1.20.0","1.18.0"];
     </script>
 
 

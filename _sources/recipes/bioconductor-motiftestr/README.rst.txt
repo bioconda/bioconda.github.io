@@ -27,19 +27,19 @@ bioconductor-motiftestr
       
       
 
-      ``1.2.1-0``
+      ``1.6.1-0``,  ``1.2.1-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
-   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-universalmotif: ``>=1.24.0,<1.25.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
-   :depends r-ggplot2: ``>=3.5.0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-seqinfo: ``>=1.0.0,<1.1.0``
+   :depends bioconductor-universalmotif: ``>=1.28.0,<1.29.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
+   :depends r-ggplot2: ``>=4.0.0``
    :depends r-harmonicmeanp: 
    :depends r-matrixstats: 
    :depends r-patchwork: 
@@ -94,7 +94,7 @@ bioconductor-motiftestr
 
     <script>
         var package = "bioconductor-motiftestr";
-        var versions = ["1.2.1"];
+        var versions = ["1.6.1","1.2.1"];
     </script>
 
 

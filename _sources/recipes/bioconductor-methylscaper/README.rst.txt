@@ -27,16 +27,16 @@ bioconductor-methylscaper
       
       
 
-      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.4-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.4-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
-   :depends bioconductor-pwalign: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-pwalign: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-data.table: 
    :depends r-rfast: 
    :depends r-seqinr: 
@@ -94,7 +94,7 @@ bioconductor-methylscaper
 
     <script>
         var package = "bioconductor-methylscaper";
-        var versions = ["1.14.0","1.10.0","1.8.4","1.6.0","1.2.0"];
+        var versions = ["1.18.0","1.14.0","1.10.0","1.8.4","1.6.0"];
     </script>
 
 

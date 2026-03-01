@@ -28,10 +28,10 @@ bioconductor-flowvs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.19.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.42.0-0</code>,  <code>1.38.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.19.0-0</code>,  <code>1.18.0-0</code>,  </span></summary>
       
 
-      ``1.38.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.19.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.1-0``
+      ``1.42.0-0``,  ``1.38.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.19.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.1-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-flowvs
       
 
    
-   :depends bioconductor-flowcore: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-flowstats: ``>=4.18.0,<4.19.0``
-   :depends bioconductor-flowviz: ``>=1.70.0,<1.71.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-flowcore: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-flowstats: ``>=4.22.0,<4.23.0``
+   :depends bioconductor-flowviz: ``>=1.74.0,<1.75.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -94,7 +94,7 @@ bioconductor-flowvs
 
     <script>
         var package = "bioconductor-flowvs";
-        var versions = ["1.38.0","1.34.0","1.32.0","1.30.0","1.26.0"];
+        var versions = ["1.42.0","1.38.0","1.34.0","1.32.0","1.30.0"];
     </script>
 
 

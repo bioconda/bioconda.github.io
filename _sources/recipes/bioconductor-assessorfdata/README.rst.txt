@@ -28,10 +28,10 @@ bioconductor-assessorfdata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  </span></summary>
       
 
-      ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.28.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,11 @@ bioconductor-assessorfdata
       
 
    
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-decipher: ``>=2.30.0,<2.31.0``
+   :depends bioconductor-data-packages: ``>=20260207``
+   :depends bioconductor-decipher: ``>=3.6.0,<3.7.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
+   :depends r-rsqlite: ``>=1.1``
    :requirements:
 
    :additional platforms:
@@ -94,7 +95,7 @@ bioconductor-assessorfdata
 
     <script>
         var package = "bioconductor-assessorfdata";
-        var versions = ["1.20.0","1.18.0","1.16.0","1.12.0","1.12.0"];
+        var versions = ["1.28.0","1.20.0","1.18.0","1.16.0","1.12.0"];
     </script>
 
 

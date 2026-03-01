@@ -27,15 +27,15 @@ bioconductor-peacoqc
       
       
 
-      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``0.99.25-2``,  ``0.99.25-1``
+      ``1.20.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``0.99.25-2``,  ``0.99.25-1``
 
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-flowcore: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-flowworkspace: ``>=4.18.0,<4.19.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-flowcore: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-flowworkspace: ``>=4.22.0,<4.23.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-circlize: 
    :depends r-ggplot2: 
    :depends r-gridextra: 
@@ -90,7 +90,7 @@ bioconductor-peacoqc
 
     <script>
         var package = "bioconductor-peacoqc";
-        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.4.0"];
+        var versions = ["1.20.0","1.16.0","1.12.0","1.10.0","1.8.0"];
     </script>
 
 

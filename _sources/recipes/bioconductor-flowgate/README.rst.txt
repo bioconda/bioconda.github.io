@@ -27,15 +27,15 @@ bioconductor-flowgate
       
       
 
-      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-flowcore: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-flowworkspace: ``>=4.18.0,<4.19.0``
-   :depends bioconductor-ggcyto: ``>=1.34.0,<1.35.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-flowcore: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-flowworkspace: ``>=4.22.0,<4.23.0``
+   :depends bioconductor-ggcyto: ``>=1.38.0,<1.39.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-biocmanager: ``>=1.30.10``
    :depends r-dplyr: ``>=1.0.0``
    :depends r-ggplot2: ``>=3.3.2``
@@ -93,7 +93,7 @@ bioconductor-flowgate
 
     <script>
         var package = "bioconductor-flowgate";
-        var versions = ["1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.10.0","1.6.0","1.2.0","1.0.0"];
     </script>
 
 

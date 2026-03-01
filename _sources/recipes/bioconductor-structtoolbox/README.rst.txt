@@ -28,10 +28,10 @@ bioconductor-structtoolbox
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.18.2-0</code>,  <code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.2-0</code>,  <code>1.12.0-0</code>,  <code>1.10.1-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.6.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.18.2-0</code>,  <code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.2-0</code>,  <code>1.12.0-0</code>,  <code>1.10.1-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  </span></summary>
       
 
-      ``1.18.2-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.2-0``,  ``1.12.0-0``,  ``1.10.1-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.22.0-0``,  ``1.18.2-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.2-0``,  ``1.12.0-0``,  ``1.10.1-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,34 +40,13 @@ bioconductor-structtoolbox
       
 
    
-   :depends bioconductor-biocfilecache: 
-   :depends bioconductor-biocstyle: 
-   :depends bioconductor-pmp: 
-   :depends bioconductor-ropls: 
-   :depends bioconductor-struct: ``>=1.18.0,<1.19.0``
-   :depends r-agricolae: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
-   :depends r-car: 
-   :depends r-covr: 
-   :depends r-cowplot: 
-   :depends r-e1071: 
-   :depends r-emmeans: 
-   :depends r-ggdendro: 
+   :depends bioconductor-struct: ``>=1.22.0,<1.23.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-ggplot2: 
    :depends r-ggthemes: 
    :depends r-gridextra: 
-   :depends r-knitr: 
-   :depends r-magick: 
-   :depends r-nlme: 
-   :depends r-openxlsx: 
-   :depends r-pls: 
-   :depends r-rappdirs: 
-   :depends r-reshape2: 
-   :depends r-rmarkdown: 
-   :depends r-rtsne: 
    :depends r-scales: 
    :depends r-sp: 
-   :depends r-testthat: 
    :requirements:
 
    :additional platforms:
@@ -118,7 +97,7 @@ bioconductor-structtoolbox
 
     <script>
         var package = "bioconductor-structtoolbox";
-        var versions = ["1.18.2","1.18.0","1.14.0","1.12.2","1.12.0"];
+        var versions = ["1.22.0","1.18.2","1.18.0","1.14.0","1.12.2"];
     </script>
 
 

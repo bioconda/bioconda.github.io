@@ -27,15 +27,15 @@ bioconductor-orthology.eg.db
       
       
 
-      ``3.20.0-0``,  ``3.18.0-0``,  ``3.17.0-0``,  ``3.16.0-0``,  ``3.14.0-1``,  ``3.14.0-0``
+      ``3.22.0-0``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.17.0-0``,  ``3.16.0-0``,  ``3.14.0-1``,  ``3.14.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-data-packages: ``>=20260207``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -86,7 +86,7 @@ bioconductor-orthology.eg.db
 
     <script>
         var package = "bioconductor-orthology.eg.db";
-        var versions = ["3.20.0","3.18.0","3.17.0","3.16.0","3.14.0"];
+        var versions = ["3.22.0","3.20.0","3.18.0","3.17.0","3.16.0"];
     </script>
 
 

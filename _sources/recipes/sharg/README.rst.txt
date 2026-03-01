@@ -13,7 +13,7 @@ sharg
    A modern argument parser for C\+\+ tools.
 
    :homepage: https://github.com/seqan/sharg-parser
-   :documentation: https://docs.seqan.de/sharg/1.2.1/index.html
+   :documentation: https://docs.seqan.de/sharg/1.2.2/index.html
    
    :license: BSD / BSD-3-Clause
    :recipe: /`sharg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sharg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sharg/meta.yaml>`_
@@ -29,7 +29,7 @@ sharg
       
       
 
-      ``1.2.1-0``,  ``1.1.1-1``,  ``1.1.1-0``
+      ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-1``,  ``1.1.1-0``
 
       
 
@@ -91,7 +91,7 @@ sharg
 
     <script>
         var package = "sharg";
-        var versions = ["1.2.1","1.1.1","1.1.1"];
+        var versions = ["1.2.2","1.2.1","1.1.1","1.1.1"];
     </script>
 
 

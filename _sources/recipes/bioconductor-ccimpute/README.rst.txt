@@ -27,24 +27,26 @@ bioconductor-ccimpute
       
       
 
-      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0a0``
-   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0a0``
-   :depends bioconductor-sparsematrixstats: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-sparsematrixstats: ``>=1.18.0,<1.19.0a0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0a0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0a0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0a0``
+   :depends bioconductor-sparsematrixstats: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-sparsematrixstats: ``>=1.22.0,<1.23.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libstdcxx: ``>=14``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-irlba: 
    :depends r-matrix: 
    :depends r-rcpp: 
@@ -99,7 +101,7 @@ bioconductor-ccimpute
 
     <script>
         var package = "bioconductor-ccimpute";
-        var versions = ["1.8.0","1.4.0","1.2.1","1.0.0","1.0.0"];
+        var versions = ["1.12.0","1.8.0","1.4.0","1.2.1","1.0.0"];
     </script>
 
 

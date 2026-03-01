@@ -26,17 +26,25 @@ bioconductor-scry
    :versions:
       
       
+      .. raw:: html
 
-      ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  </span></summary>
+      
 
+      ``1.22.0-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biocsingular: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biocsingular: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-delayedarray: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-glmpca: ``>=0.2.0``
    :depends r-matrix: 
    :requirements:
@@ -89,7 +97,7 @@ bioconductor-scry
 
     <script>
         var package = "bioconductor-scry";
-        var versions = ["1.18.0","1.14.0","1.12.0","1.10.0","1.6.0"];
+        var versions = ["1.22.0","1.18.0","1.14.0","1.12.0","1.10.0"];
     </script>
 
 

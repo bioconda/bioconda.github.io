@@ -29,10 +29,10 @@ bioconductor-edge
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.38.0-0</code>,  <code>2.34.0-1</code>,  <code>2.34.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.0-1</code>,  <code>2.30.0-0</code>,  <code>2.26.0-2</code>,  <code>2.26.0-1</code>,  <code>2.26.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.42.0-0</code>,  <code>2.38.0-0</code>,  <code>2.34.0-1</code>,  <code>2.34.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.0-1</code>,  <code>2.30.0-0</code>,  <code>2.26.0-2</code>,  <code>2.26.0-1</code>,  </span></summary>
       
 
-      ``2.38.0-0``,  ``2.34.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-1``,  ``2.30.0-0``,  ``2.26.0-2``,  ``2.26.0-1``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.0-0``
+      ``2.42.0-0``,  ``2.38.0-0``,  ``2.34.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-1``,  ``2.30.0-0``,  ``2.26.0-2``,  ``2.26.0-1``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-1``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.0-0``
 
       
       .. raw:: html
@@ -41,16 +41,18 @@ bioconductor-edge
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0a0``
-   :depends bioconductor-qvalue: ``>=2.38.0,<2.39.0``
-   :depends bioconductor-qvalue: ``>=2.38.0,<2.39.0a0``
-   :depends bioconductor-sva: ``>=3.54.0,<3.55.0``
-   :depends bioconductor-sva: ``>=3.54.0,<3.55.0a0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0a0``
+   :depends bioconductor-qvalue: ``>=2.42.0,<2.43.0``
+   :depends bioconductor-qvalue: ``>=2.42.0,<2.43.0a0``
+   :depends bioconductor-sva: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-sva: ``>=3.58.0,<3.59.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-mass: 
    :requirements:
 
@@ -106,7 +108,7 @@ bioconductor-edge
 
     <script>
         var package = "bioconductor-edge";
-        var versions = ["2.38.0","2.34.0","2.34.0","2.32.0","2.30.0"];
+        var versions = ["2.42.0","2.38.0","2.34.0","2.34.0","2.32.0"];
     </script>
 
 

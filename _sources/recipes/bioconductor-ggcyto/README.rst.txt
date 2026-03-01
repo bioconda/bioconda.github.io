@@ -29,10 +29,10 @@ bioconductor-ggcyto
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.38.1-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  </span></summary>
       
 
-      ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.2-0``,  ``1.10.0-0``,  ``1.8.2-0``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.4.0-0``
+      ``1.38.1-0``,  ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.2-0``,  ``1.10.0-0``,  ``1.8.2-0``,  ``1.6.0-0``,  ``1.4.1-0``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -41,10 +41,10 @@ bioconductor-ggcyto
       
 
    
-   :depends bioconductor-flowcore: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-flowworkspace: ``>=4.18.0,<4.19.0``
-   :depends bioconductor-ncdfflow: ``>=2.52.0,<2.53.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-flowcore: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-flowworkspace: ``>=4.22.0,<4.23.0``
+   :depends bioconductor-ncdfflow: ``>=2.56.0,<2.57.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-data.table: 
    :depends r-ggplot2: ``>=3.5.0``
    :depends r-gridextra: 
@@ -103,7 +103,7 @@ bioconductor-ggcyto
 
     <script>
         var package = "bioconductor-ggcyto";
-        var versions = ["1.34.0","1.30.0","1.28.0","1.26.0","1.22.0"];
+        var versions = ["1.38.1","1.34.0","1.30.0","1.28.0","1.26.0"];
     </script>
 
 

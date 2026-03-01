@@ -27,15 +27,15 @@ bioconductor-scdesign3
       
       
 
-      ``1.4.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-coop: 
    :depends r-dplyr: 
    :depends r-gamlss: 
@@ -48,7 +48,6 @@ bioconductor-scdesign3
    :depends r-mgcv: 
    :depends r-mvtnorm: 
    :depends r-pbmcapply: 
-   :depends r-rvinecopulib: 
    :depends r-sparsemvn: 
    :depends r-tibble: 
    :depends r-umap: 
@@ -103,7 +102,7 @@ bioconductor-scdesign3
 
     <script>
         var package = "bioconductor-scdesign3";
-        var versions = ["1.4.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.0.0"];
     </script>
 
 

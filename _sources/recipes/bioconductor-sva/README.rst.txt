@@ -29,10 +29,10 @@ bioconductor-sva
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.54.0-1</code>,  <code>3.54.0-0</code>,  <code>3.50.0-1</code>,  <code>3.50.0-0</code>,  <code>3.48.0-0</code>,  <code>3.46.0-1</code>,  <code>3.46.0-0</code>,  <code>3.42.0-2</code>,  <code>3.42.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.58.0-0</code>,  <code>3.54.0-1</code>,  <code>3.54.0-0</code>,  <code>3.50.0-1</code>,  <code>3.50.0-0</code>,  <code>3.48.0-0</code>,  <code>3.46.0-1</code>,  <code>3.46.0-0</code>,  <code>3.42.0-2</code>,  </span></summary>
       
 
-      ``3.54.0-1``,  ``3.54.0-0``,  ``3.50.0-1``,  ``3.50.0-0``,  ``3.48.0-0``,  ``3.46.0-1``,  ``3.46.0-0``,  ``3.42.0-2``,  ``3.42.0-1``,  ``3.42.0-0``,  ``3.40.0-0``,  ``3.38.0-1``,  ``3.38.0-0``,  ``3.36.0-0``,  ``3.34.0-0``,  ``3.32.1-0``,  ``3.30.1-0``,  ``3.30.0-0``,  ``3.28.0-0``,  ``3.26.0-0``,  ``3.24.4-0``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.15.0-0``
+      ``3.58.0-0``,  ``3.54.0-1``,  ``3.54.0-0``,  ``3.50.0-1``,  ``3.50.0-0``,  ``3.48.0-0``,  ``3.46.0-1``,  ``3.46.0-0``,  ``3.42.0-2``,  ``3.42.0-1``,  ``3.42.0-0``,  ``3.40.0-0``,  ``3.38.0-1``,  ``3.38.0-0``,  ``3.36.0-0``,  ``3.34.0-0``,  ``3.32.1-0``,  ``3.30.1-0``,  ``3.30.0-0``,  ``3.28.0-0``,  ``3.26.0-0``,  ``3.24.4-0``,  ``3.20.0-0``,  ``3.18.0-0``,  ``3.15.0-0``
 
       
       .. raw:: html
@@ -41,18 +41,20 @@ bioconductor-sva
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0a0``
-   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
-   :depends bioconductor-edger: ``>=4.4.0,<4.5.0a0``
-   :depends bioconductor-genefilter: ``>=1.88.0,<1.89.0``
-   :depends bioconductor-genefilter: ``>=1.88.0,<1.89.0a0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
-   :depends bioconductor-limma: ``>=3.62.1,<3.63.0a0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0a0``
+   :depends bioconductor-edger: ``>=4.8.0,<4.9.0``
+   :depends bioconductor-edger: ``>=4.8.2,<4.9.0a0``
+   :depends bioconductor-genefilter: ``>=1.92.0,<1.93.0``
+   :depends bioconductor-genefilter: ``>=1.92.0,<1.93.0a0``
+   :depends bioconductor-limma: ``>=3.66.0,<3.67.0``
+   :depends bioconductor-limma: ``>=3.66.0,<3.67.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-matrixstats: 
    :depends r-mgcv: 
    :requirements:
@@ -109,7 +111,7 @@ bioconductor-sva
 
     <script>
         var package = "bioconductor-sva";
-        var versions = ["3.54.0","3.54.0","3.50.0","3.50.0","3.48.0"];
+        var versions = ["3.58.0","3.54.0","3.54.0","3.50.0","3.50.0"];
     </script>
 
 

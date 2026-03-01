@@ -28,10 +28,10 @@ bioconductor-amaretto
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.13.0-0</code>,  <code>1.10.0-2</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.13.0-0</code>,  <code>1.10.0-2</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  </span></summary>
       
 
-      ``1.22.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.13.0-0``,  ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.1.1-1``,  ``1.0.0-1``
+      ``1.26.0-0``,  ``1.22.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.13.0-0``,  ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.1.1-1``,  ``1.0.0-1``
 
       
       .. raw:: html
@@ -40,23 +40,24 @@ bioconductor-amaretto
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0a0``
-   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0a0``
-   :depends bioconductor-curatedtcgadata: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-curatedtcgadata: ``>=1.28.1,<1.29.0a0``
-   :depends bioconductor-impute: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-impute: ``>=1.80.0,<1.81.0a0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0a0``
-   :depends bioconductor-multiassayexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.32.0,<1.33.0a0``
+   :depends bioconductor-biocfilecache: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-biocfilecache: ``>=3.0.0,<3.1.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-complexheatmap: ``>=2.26.1,<2.27.0a0``
+   :depends bioconductor-curatedtcgadata: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-curatedtcgadata: ``>=1.32.1,<1.33.0a0``
+   :depends bioconductor-impute: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-impute: ``>=1.84.0,<1.85.0a0``
+   :depends bioconductor-limma: ``>=3.66.0,<3.67.0``
+   :depends bioconductor-limma: ``>=3.66.0,<3.67.0a0``
+   :depends bioconductor-multiassayexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.36.1,<1.37.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libcxx: ``>=19``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-callr: ``>=3.0.0.9001``
    :depends r-circlize: 
    :depends r-doparallel: 
@@ -125,7 +126,7 @@ bioconductor-amaretto
 
     <script>
         var package = "bioconductor-amaretto";
-        var versions = ["1.22.0","1.18.0","1.16.0","1.13.0","1.10.0"];
+        var versions = ["1.26.0","1.22.0","1.18.0","1.16.0","1.13.0"];
     </script>
 
 

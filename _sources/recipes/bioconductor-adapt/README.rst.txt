@@ -27,23 +27,26 @@ bioconductor-adapt
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-phyloseq: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-phyloseq: ``>=1.50.0,<1.51.0a0``
+   :depends bioconductor-phyloseq: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-phyloseq: ``>=1.54.0,<1.55.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libstdcxx: ``>=14``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-ggplot2: ``>=3.4.1``
    :depends r-ggrepel: ``>=0.9.1``
    :depends r-rcpp: ``>=1.0.8``
    :depends r-rcpparmadillo: ``>=0.10.8``
    :depends r-rcppparallel: ``>=5.1.5``
+   :depends tbb-devel: ``>=2022.3.0,<2022.4.0a0``
    :requirements:
 
    :additional platforms:
@@ -94,7 +97,7 @@ bioconductor-adapt
 
     <script>
         var package = "bioconductor-adapt";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-lungcancerlines
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.44.0-0</code>,  <code>0.40.0-0</code>,  <code>0.38.0-0</code>,  <code>0.36.0-0</code>,  <code>0.32.0-1</code>,  <code>0.32.0-0</code>,  <code>0.30.0-0</code>,  <code>0.28.0-1</code>,  <code>0.28.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.48.0-0</code>,  <code>0.44.0-0</code>,  <code>0.40.0-0</code>,  <code>0.38.0-0</code>,  <code>0.36.0-0</code>,  <code>0.32.0-1</code>,  <code>0.32.0-0</code>,  <code>0.30.0-0</code>,  <code>0.28.0-1</code>,  </span></summary>
       
 
-      ``0.44.0-0``,  ``0.40.0-0``,  ``0.38.0-0``,  ``0.36.0-0``,  ``0.32.0-1``,  ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.0-1``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
+      ``0.48.0-0``,  ``0.44.0-0``,  ``0.40.0-0``,  ``0.38.0-0``,  ``0.36.0-0``,  ``0.32.0-1``,  ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.0-1``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-lungcancerlines
       
 
    
-   :depends bioconductor-data-packages: ``>=20241103``
-   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-data-packages: ``>=20260207``
+   :depends bioconductor-rsamtools: ``>=2.26.0,<2.27.0``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -94,7 +94,7 @@ bioconductor-lungcancerlines
 
     <script>
         var package = "bioconductor-lungcancerlines";
-        var versions = ["0.44.0","0.40.0","0.38.0","0.36.0","0.32.0"];
+        var versions = ["0.48.0","0.44.0","0.40.0","0.38.0","0.36.0"];
     </script>
 
 

@@ -27,31 +27,31 @@ bioconductor-metascope
       
       
 
-      ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-rbowtie2: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-biocfilecache: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-data-packages: ``>=20260207``
+   :depends bioconductor-multiassayexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-rbowtie2: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-rsamtools: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-data.table: 
+   :depends r-base: ``>=4.5,<4.6.0a0``
+   :depends r-data.table: ``>=1.16.2``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-magrittr: 
    :depends r-matrix: 
-   :depends r-qlcmatrix: 
    :depends r-readr: 
    :depends r-rlang: 
    :depends r-stringr: 
-   :depends r-taxize: 
+   :depends r-taxonomizr: 
+   :depends r-tibble: 
    :depends r-tidyr: 
    :requirements:
 
@@ -103,7 +103,7 @@ bioconductor-metascope
 
     <script>
         var package = "bioconductor-metascope";
-        var versions = ["1.2.0","1.0.0"];
+        var versions = ["1.10.0","1.2.0","1.0.0"];
     </script>
 
 

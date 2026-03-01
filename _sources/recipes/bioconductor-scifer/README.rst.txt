@@ -27,18 +27,19 @@ bioconductor-scifer
       
       
 
-      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-basilisk: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-basilisk.utils: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
-   :depends bioconductor-decipher: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-flowcore: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-sangerseqr: ``>=1.42.0,<1.43.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-basilisk: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-basilisk.utils: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-decipher: ``>=3.6.0,<3.7.0``
+   :depends bioconductor-flowcore: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-pwalign: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-sangerseqr: ``>=1.46.0,<1.47.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
@@ -103,7 +104,7 @@ bioconductor-scifer
 
     <script>
         var package = "bioconductor-scifer";
-        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.12.0","1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

@@ -29,10 +29,10 @@ bioconductor-rtracklayer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.66.0-1</code>,  <code>1.66.0-0</code>,  <code>1.62.0-1</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.58.0-2</code>,  <code>1.58.0-1</code>,  <code>1.54.0-4</code>,  <code>1.54.0-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.70.1-0</code>,  <code>1.66.0-1</code>,  <code>1.66.0-0</code>,  <code>1.62.0-1</code>,  <code>1.62.0-0</code>,  <code>1.60.0-0</code>,  <code>1.58.0-2</code>,  <code>1.58.0-1</code>,  <code>1.54.0-4</code>,  </span></summary>
       
 
-      ``1.66.0-1``,  ``1.66.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-2``,  ``1.58.0-1``,  ``1.54.0-4``,  ``1.54.0-3``,  ``1.54.0-2``,  ``1.54.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-2``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.2-1``,  ``1.44.2-0``,  ``1.44.0-1``,  ``1.42.1-1``,  ``1.42.1-0``,  ``1.40.6-0``,  ``1.38.3-0``,  ``1.38.0-0``,  ``1.36.6-0``,  ``1.34.2-1``,  ``1.34.1-0``,  ``1.32.2-1``,  ``1.30.1-0``,  ``1.30.0-1``
+      ``1.70.1-0``,  ``1.66.0-1``,  ``1.66.0-0``,  ``1.62.0-1``,  ``1.62.0-0``,  ``1.60.0-0``,  ``1.58.0-2``,  ``1.58.0-1``,  ``1.54.0-4``,  ``1.54.0-3``,  ``1.54.0-2``,  ``1.54.0-1``,  ``1.54.0-0``,  ``1.52.0-0``,  ``1.50.0-2``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.2-1``,  ``1.44.2-0``,  ``1.44.0-1``,  ``1.42.1-1``,  ``1.42.1-0``,  ``1.40.6-0``,  ``1.38.3-0``,  ``1.38.0-0``,  ``1.36.6-0``,  ``1.34.2-1``,  ``1.34.1-0``,  ``1.32.2-1``,  ``1.30.1-0``,  ``1.30.0-1``
 
       
       .. raw:: html
@@ -41,37 +41,36 @@ bioconductor-rtracklayer
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0a0``
-   :depends bioconductor-biocio: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-biocio: ``>=1.16.0,<1.17.0a0``
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0a0``
-   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0a0``
-   :depends bioconductor-genomicalignments: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-genomicalignments: ``>=1.42.0,<1.43.0a0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0a0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
-   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0a0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
-   :depends bioconductor-xvector: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-xvector: ``>=0.46.0,<0.47.0a0``
-   :depends bioconductor-zlibbioc: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-zlibbioc: ``>=1.52.0,<1.53.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
+   :depends bioconductor-biocio: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-biocio: ``>=1.20.0,<1.21.0a0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0a0``
+   :depends bioconductor-genomicalignments: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-genomicalignments: ``>=1.46.0,<1.47.0a0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-genomicranges: ``>=1.62.1,<1.63.0a0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0a0``
+   :depends bioconductor-rsamtools: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-rsamtools: ``>=2.26.0,<2.27.0a0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
+   :depends bioconductor-seqinfo: ``>=1.0.0,<1.1.0``
+   :depends bioconductor-seqinfo: ``>=1.0.0,<1.1.0a0``
+   :depends bioconductor-xvector: ``>=0.50.0,<0.51.0``
+   :depends bioconductor-xvector: ``>=0.50.0,<0.51.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-curl: 
    :depends r-httr: 
    :depends r-restfulr: ``>=0.0.13``
-   :depends r-restfulr: ``>=0.0.15,<0.1.0a0``
+   :depends r-restfulr: ``>=0.0.16,<0.1.0a0``
    :depends r-xml: ``>=1.98-0``
    :requirements:
 
@@ -127,7 +126,7 @@ bioconductor-rtracklayer
 
     <script>
         var package = "bioconductor-rtracklayer";
-        var versions = ["1.66.0","1.66.0","1.62.0","1.62.0","1.60.0"];
+        var versions = ["1.70.1","1.66.0","1.66.0","1.62.0","1.62.0"];
     </script>
 
 

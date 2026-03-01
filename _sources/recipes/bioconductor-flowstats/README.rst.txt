@@ -28,10 +28,10 @@ bioconductor-flowstats
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.18.0-0</code>,  <code>4.14.0-0</code>,  <code>4.12.0-0</code>,  <code>4.10.0-0</code>,  <code>4.6.0-0</code>,  <code>4.4.0-0</code>,  <code>4.2.0-1</code>,  <code>4.2.0-0</code>,  <code>4.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.22.0-0</code>,  <code>4.18.0-0</code>,  <code>4.14.0-0</code>,  <code>4.12.0-0</code>,  <code>4.10.0-0</code>,  <code>4.6.0-0</code>,  <code>4.4.0-0</code>,  <code>4.2.0-1</code>,  <code>4.2.0-0</code>,  </span></summary>
       
 
-      ``4.18.0-0``,  ``4.14.0-0``,  ``4.12.0-0``,  ``4.10.0-0``,  ``4.6.0-0``,  ``4.4.0-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.0.0-0``,  ``3.44.0-0``,  ``3.42.0-1``,  ``3.40.1-0``
+      ``4.22.0-0``,  ``4.18.0-0``,  ``4.14.0-0``,  ``4.12.0-0``,  ``4.10.0-0``,  ``4.6.0-0``,  ``4.4.0-0``,  ``4.2.0-1``,  ``4.2.0-0``,  ``4.0.0-0``,  ``3.44.0-0``,  ``3.42.0-1``,  ``3.40.1-0``
 
       
       .. raw:: html
@@ -40,13 +40,13 @@ bioconductor-flowstats
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-flowcore: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-flowviz: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-flowworkspace: ``>=4.18.0,<4.19.0``
-   :depends bioconductor-ncdfflow: ``>=2.52.0,<2.53.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-flowcore: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-flowviz: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-flowworkspace: ``>=4.22.0,<4.23.0``
+   :depends bioconductor-ncdfflow: ``>=2.56.0,<2.57.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-clue: 
    :depends r-cluster: 
    :depends r-corpcor: 
@@ -108,7 +108,7 @@ bioconductor-flowstats
 
     <script>
         var package = "bioconductor-flowstats";
-        var versions = ["4.18.0","4.14.0","4.12.0","4.10.0","4.6.0"];
+        var versions = ["4.22.0","4.18.0","4.14.0","4.12.0","4.10.0"];
     </script>
 
 

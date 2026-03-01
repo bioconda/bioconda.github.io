@@ -27,16 +27,16 @@ bioconductor-gse103322
       
       
 
-      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-data-packages: ``>=20241103``
-   :depends bioconductor-geoquery: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-data-packages: ``>=20260207``
+   :depends bioconductor-geoquery: ``>=2.78.0,<2.79.0``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -87,7 +87,7 @@ bioconductor-gse103322
 
     <script>
         var package = "bioconductor-gse103322";
-        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.0.0"];
+        var versions = ["1.16.0","1.12.0","1.8.0","1.6.0","1.4.0"];
     </script>
 
 

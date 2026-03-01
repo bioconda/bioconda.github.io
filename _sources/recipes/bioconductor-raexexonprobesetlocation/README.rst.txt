@@ -28,10 +28,10 @@ bioconductor-raexexonprobesetlocation
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.15.0-13</code>,  <code>1.15.0-12</code>,  <code>1.15.0-11</code>,  <code>1.15.0-10</code>,  <code>1.15.0-9</code>,  <code>1.15.0-8</code>,  <code>1.15.0-7</code>,  <code>1.15.0-6</code>,  <code>1.15.0-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.15.0-14</code>,  <code>1.15.0-13</code>,  <code>1.15.0-12</code>,  <code>1.15.0-11</code>,  <code>1.15.0-10</code>,  <code>1.15.0-9</code>,  <code>1.15.0-8</code>,  <code>1.15.0-7</code>,  <code>1.15.0-6</code>,  </span></summary>
       
 
-      ``1.15.0-13``,  ``1.15.0-12``,  ``1.15.0-11``,  ``1.15.0-10``,  ``1.15.0-9``,  ``1.15.0-8``,  ``1.15.0-7``,  ``1.15.0-6``,  ``1.15.0-5``,  ``1.15.0-4``,  ``1.15.0-3``,  ``1.15.0-2``,  ``1.15.0-0``
+      ``1.15.0-14``,  ``1.15.0-13``,  ``1.15.0-12``,  ``1.15.0-11``,  ``1.15.0-10``,  ``1.15.0-9``,  ``1.15.0-8``,  ``1.15.0-7``,  ``1.15.0-6``,  ``1.15.0-5``,  ``1.15.0-4``,  ``1.15.0-3``,  ``1.15.0-2``,  ``1.15.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-raexexonprobesetlocation
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-data-packages: ``>=20260207``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
