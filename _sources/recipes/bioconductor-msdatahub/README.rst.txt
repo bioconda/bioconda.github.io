@@ -27,13 +27,13 @@ bioconductor-msdatahub
       
       
 
-      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-experimenthub: ``>=3.0.0,<3.1.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -84,7 +84,7 @@ bioconductor-msdatahub
 
     <script>
         var package = "bioconductor-msdatahub";
-        var versions = ["1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.10.0","1.6.0","1.2.0","1.0.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-adacgh2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.42.0-0</code>,  <code>2.40.0-0</code>,  <code>2.38.0-1</code>,  <code>2.38.0-0</code>,  <code>2.34.0-2</code>,  <code>2.34.0-1</code>,  <code>2.34.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.50.0-1</code>,  <code>2.42.0-0</code>,  <code>2.40.0-0</code>,  <code>2.38.0-1</code>,  <code>2.38.0-0</code>,  <code>2.34.0-2</code>,  <code>2.34.0-1</code>,  <code>2.34.0-0</code>,  <code>2.32.0-0</code>,  </span></summary>
       
 
-      ``2.42.0-0``,  ``2.40.0-0``,  ``2.38.0-1``,  ``2.38.0-0``,  ``2.34.0-2``,  ``2.34.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-1``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-1``
+      ``2.50.0-1``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.38.0-1``,  ``2.38.0-0``,  ``2.34.0-2``,  ``2.34.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-1``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-1``
 
       
       .. raw:: html
@@ -40,20 +40,18 @@ bioconductor-adacgh2
       
 
    
-   :depends bioconductor-acgh: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-acgh: ``>=1.80.0,<1.81.0a0``
-   :depends bioconductor-dnacopy: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-dnacopy: ``>=1.76.0,<1.77.0a0``
-   :depends bioconductor-glad: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-glad: ``>=2.66.0,<2.67.0a0``
-   :depends bioconductor-snapcgh: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-snapcgh: ``>=1.72.0,<1.73.0a0``
-   :depends bioconductor-tilingarray: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-tilingarray: ``>=1.80.0,<1.81.0a0``
+   :depends bioconductor-acgh: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-acgh: ``>=1.88.0,<1.89.0a0``
+   :depends bioconductor-dnacopy: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-dnacopy: ``>=1.84.0,<1.85.0a0``
+   :depends bioconductor-tilingarray: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-tilingarray: ``>=1.88.0,<1.89.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libopenblas: ``>=0.3.31,<1.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-bit: 
    :depends r-cluster: 
    :depends r-ff: 
@@ -108,7 +106,7 @@ bioconductor-adacgh2
 
     <script>
         var package = "bioconductor-adacgh2";
-        var versions = ["2.42.0","2.40.0","2.38.0","2.38.0","2.34.0"];
+        var versions = ["2.50.0","2.42.0","2.40.0","2.38.0","2.38.0"];
     </script>
 
 

@@ -27,28 +27,29 @@ bioconductor-tekrabber
       
       
 
-      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.14.1-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-apeglm: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-apeglm: ``>=1.28.0,<1.29.0a0``
-   :depends bioconductor-biomart: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biomart: ``>=2.62.0,<2.63.0a0``
-   :depends bioconductor-deseq2: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-deseq2: ``>=1.46.0,<1.47.0a0``
-   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0a0``
-   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0a0``
-   :depends bioconductor-scbn: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-scbn: ``>=1.24.0,<1.25.0a0``
+   :depends bioconductor-annotationhub: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-annotationhub: ``>=4.0.0,<4.1.0a0``
+   :depends bioconductor-apeglm: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-apeglm: ``>=1.32.0,<1.33.0a0``
+   :depends bioconductor-biomart: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biomart: ``>=2.66.0,<2.67.0a0``
+   :depends bioconductor-deseq2: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-deseq2: ``>=1.50.2,<1.51.0a0``
+   :depends bioconductor-rtracklayer: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-rtracklayer: ``>=1.70.1,<1.71.0a0``
+   :depends bioconductor-scbn: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-scbn: ``>=1.28.0,<1.29.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libcxx: ``>=19``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-doparallel: 
    :depends r-dplyr: 
    :depends r-foreach: 
@@ -104,7 +105,7 @@ bioconductor-tekrabber
 
     <script>
         var package = "bioconductor-tekrabber";
-        var versions = ["1.10.0","1.6.0","1.4.0","1.2.0","1.2.0"];
+        var versions = ["1.14.1","1.10.0","1.6.0","1.4.0","1.2.0"];
     </script>
 
 

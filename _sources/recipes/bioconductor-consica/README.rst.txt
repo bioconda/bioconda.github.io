@@ -27,18 +27,18 @@ bioconductor-consica
       
       
 
-      ``2.4.0-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``2.8.0-0``,  ``2.4.0-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-go.db: ``>=3.20.0,<3.21.0``
-   :depends bioconductor-graph: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-topgo: ``>=2.58.0,<2.59.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-go.db: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-graph: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-topgo: ``>=2.62.0,<2.63.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-fastica: ``>=1.2.1``
    :depends r-ggplot2: 
    :depends r-pheatmap: 
@@ -95,7 +95,7 @@ bioconductor-consica
 
     <script>
         var package = "bioconductor-consica";
-        var versions = ["2.4.0","2.0.0","1.2.0","1.0.0"];
+        var versions = ["2.8.0","2.4.0","2.0.0","1.2.0","1.0.0"];
     </script>
 
 

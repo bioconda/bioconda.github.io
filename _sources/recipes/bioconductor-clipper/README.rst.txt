@@ -29,10 +29,10 @@ bioconductor-clipper
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.46.0-0</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.34.0-2</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.50.0-0</code>,  <code>1.46.0-0</code>,  <code>1.42.0-1</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  <code>1.34.0-2</code>,  <code>1.34.0-1</code>,  </span></summary>
       
 
-      ``1.46.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.34.0-2``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
+      ``1.50.0-0``,  ``1.46.0-0``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.34.0-2``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-0``
 
       
       .. raw:: html
@@ -41,19 +41,20 @@ bioconductor-clipper
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0a0``
-   :depends bioconductor-graph: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-graph: ``>=1.84.0,<1.85.0a0``
-   :depends bioconductor-kegggraph: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-kegggraph: ``>=1.66.0,<1.67.0a0``
-   :depends bioconductor-qpgraph: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-qpgraph: ``>=2.40.0,<2.41.0a0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0a0``
+   :depends bioconductor-graph: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-graph: ``>=1.88.1,<1.89.0a0``
+   :depends bioconductor-kegggraph: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-kegggraph: ``>=1.70.0,<1.71.0a0``
+   :depends bioconductor-qpgraph: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-qpgraph: ``>=2.44.0,<2.45.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libcxx: ``>=19``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-corpcor: 
    :depends r-grbase: ``>=1.6.6``
    :depends r-grbase: ``>=2.0.3,<3.0a0``
@@ -114,7 +115,7 @@ bioconductor-clipper
 
     <script>
         var package = "bioconductor-clipper";
-        var versions = ["1.46.0","1.42.0","1.42.0","1.40.0","1.38.0"];
+        var versions = ["1.50.0","1.46.0","1.42.0","1.42.0","1.40.0"];
     </script>
 
 

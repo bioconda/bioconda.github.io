@@ -27,14 +27,14 @@ bioconductor-cytopipelinegui
       
       
 
-      ``1.4.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-cytopipeline: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-flowcore: ``>=2.18.0,<2.19.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-cytopipeline: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-flowcore: ``>=2.22.0,<2.23.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-ggplot2: 
    :depends r-plotly: 
    :depends r-shiny: 
@@ -88,7 +88,7 @@ bioconductor-cytopipelinegui
 
     <script>
         var package = "bioconductor-cytopipelinegui";
-        var versions = ["1.4.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.0.0"];
     </script>
 
 

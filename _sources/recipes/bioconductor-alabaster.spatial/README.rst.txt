@@ -27,17 +27,17 @@ bioconductor-alabaster.spatial
       
       
 
-      ``1.6.1-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-alabaster.base: ``>=1.6.1,<1.7.0``
-   :depends bioconductor-alabaster.sce: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-spatialexperiment: ``>=1.16.0,<1.17.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-alabaster.base: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-alabaster.sce: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-rhdf5: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-spatialexperiment: ``>=1.20.0,<1.21.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -88,7 +88,7 @@ bioconductor-alabaster.spatial
 
     <script>
         var package = "bioconductor-alabaster.spatial";
-        var versions = ["1.6.1","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.10.0","1.6.1","1.6.0","1.2.0","1.0.0"];
     </script>
 
 

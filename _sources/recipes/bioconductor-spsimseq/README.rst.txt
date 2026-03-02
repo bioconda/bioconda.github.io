@@ -27,16 +27,16 @@ bioconductor-spsimseq
       
       
 
-      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.20.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
-   :depends bioconductor-phyloseq: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-edger: ``>=4.8.0,<4.9.0``
+   :depends bioconductor-limma: ``>=3.66.0,<3.67.0``
+   :depends bioconductor-phyloseq: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-fitdistrplus: 
    :depends r-hmisc: 
    :depends r-mvtnorm: 
@@ -91,7 +91,7 @@ bioconductor-spsimseq
 
     <script>
         var package = "bioconductor-spsimseq";
-        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.4.0"];
+        var versions = ["1.20.0","1.16.0","1.12.0","1.10.0","1.8.0"];
     </script>
 
 

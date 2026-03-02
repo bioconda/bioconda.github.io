@@ -27,15 +27,15 @@ bioconductor-nanoporernaseq
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.20.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
+   :depends bioconductor-data-packages: ``>=20260207``
+   :depends bioconductor-experimenthub: ``>=3.0.0,<3.1.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -86,7 +86,7 @@ bioconductor-nanoporernaseq
 
     <script>
         var package = "bioconductor-nanoporernaseq";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.4.0"];
+        var versions = ["1.20.0","1.12.0","1.10.0","1.8.0","1.4.0"];
     </script>
 
 

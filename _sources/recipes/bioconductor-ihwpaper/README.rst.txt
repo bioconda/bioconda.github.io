@@ -28,10 +28,10 @@ bioconductor-ihwpaper
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.22.0-3</code>,  <code>1.22.0-2</code>,  <code>1.22.0-1</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.34.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.22.0-3</code>,  <code>1.22.0-2</code>,  <code>1.22.0-1</code>,  <code>1.22.0-0</code>,  </span></summary>
       
 
-      ``1.34.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.22.0-3``,  ``1.22.0-2``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
+      ``1.38.0-0``,  ``1.34.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.22.0-3``,  ``1.22.0-2``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
 
       
       .. raw:: html
@@ -40,29 +40,31 @@ bioconductor-ihwpaper
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0a0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0a0``
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0a0``
-   :depends bioconductor-data-packages: ``>=20241103``
-   :depends bioconductor-deseq2: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-deseq2: ``>=1.46.0,<1.47.0a0``
-   :depends bioconductor-genefilter: ``>=1.88.0,<1.89.0``
-   :depends bioconductor-genefilter: ``>=1.88.0,<1.89.0a0``
-   :depends bioconductor-ihw: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-ihw: ``>=1.34.0,<1.35.0a0``
-   :depends bioconductor-qvalue: ``>=2.38.0,<2.39.0``
-   :depends bioconductor-qvalue: ``>=2.38.0,<2.39.0a0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0a0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0a0``
+   :depends bioconductor-data-packages: ``>=20260207``
+   :depends bioconductor-deseq2: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-deseq2: ``>=1.50.2,<1.51.0a0``
+   :depends bioconductor-genefilter: ``>=1.92.0,<1.93.0``
+   :depends bioconductor-genefilter: ``>=1.92.0,<1.93.0a0``
+   :depends bioconductor-ihw: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-ihw: ``>=1.38.0,<1.39.0a0``
+   :depends bioconductor-qvalue: ``>=2.42.0,<2.43.0``
+   :depends bioconductor-qvalue: ``>=2.42.0,<2.43.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0a0``
    :depends curl: 
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libstdcxx: ``>=14``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-cowplot: 
    :depends r-dplyr: 
    :depends r-fdrtool: 
@@ -118,7 +120,7 @@ bioconductor-ihwpaper
 
     <script>
         var package = "bioconductor-ihwpaper";
-        var versions = ["1.34.0","1.28.0","1.26.0","1.26.0","1.22.0"];
+        var versions = ["1.38.0","1.34.0","1.28.0","1.26.0","1.26.0"];
     </script>
 
 

@@ -46,9 +46,12 @@ gimmemotifs
    :depends dinamo: ``>=1.0``
    :depends gadem: ``>=1.3.1``
    :depends gimmemotifs-minimal: ``0.18.1.*``
+   :depends homer: ``>=4.11``
    :depends meme: ``>=5.5.7``
    :depends prosampler: ``>=1.5``
    :depends trawler: ``>=2.0``
+   :depends weeder: ``>=2.0``
+   :depends xxmotif: ``>=1.6``
    :requirements:
 
    :additional platforms:
@@ -128,6 +131,7 @@ gimmemotifs
       
 
    
+   :depends _openmp_mutex: ``>=4.5``
    :depends biofluff: ``>=3.0.4``
    :depends configparser: 
    :depends diskcache: 
@@ -135,7 +139,8 @@ gimmemotifs
    :depends genomepy: ``>=0.14.0``
    :depends iteround: 
    :depends jinja2: 
-   :depends llvm-openmp: ``>=19.1.7``
+   :depends libgcc: ``>=14``
+   :depends libgomp: 
    :depends logomaker: 
    :depends loguru: 
    :depends matplotlib-base: ``>=3.3``

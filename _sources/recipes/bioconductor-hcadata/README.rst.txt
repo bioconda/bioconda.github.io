@@ -28,10 +28,10 @@ bioconductor-hcadata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-2</code>,  <code>1.6.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-2</code>,  </span></summary>
       
 
-      ``1.22.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.26.0-0``,  ``1.22.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
       .. raw:: html
@@ -40,13 +40,13 @@ bioconductor-hcadata
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-data-packages: ``>=20241103``
-   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-hdf5array: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-annotationhub: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-data-packages: ``>=20260207``
+   :depends bioconductor-experimenthub: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-hdf5array: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -97,7 +97,7 @@ bioconductor-hcadata
 
     <script>
         var package = "bioconductor-hcadata";
-        var versions = ["1.22.0","1.18.0","1.16.0","1.14.0","1.10.0"];
+        var versions = ["1.26.0","1.22.0","1.18.0","1.16.0","1.14.0"];
     </script>
 
 

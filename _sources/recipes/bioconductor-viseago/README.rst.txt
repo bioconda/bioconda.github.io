@@ -26,20 +26,30 @@ bioconductor-viseago
    :versions:
       
       
+      .. raw:: html
 
-      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+      
 
+      ``1.24.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-annotationforge: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-fgsea: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-gosemsim: ``>=2.28.0,<2.29.0``
-   :depends bioconductor-topgo: ``>=2.54.0,<2.55.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-annotationforge: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-biomart: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-complexheatmap: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-fgsea: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-go.db: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-gosemsim: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-topgo: ``>=2.62.0,<2.63.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
+   :depends r-circlize: 
    :depends r-data.table: 
    :depends r-dendextend: 
    :depends r-diagrammer: 
@@ -50,7 +60,6 @@ bioconductor-viseago
    :depends r-htmlwidgets: 
    :depends r-igraph: 
    :depends r-plotly: 
-   :depends r-processx: 
    :depends r-r.utils: 
    :depends r-rcolorbrewer: 
    :depends r-scales: 
@@ -105,7 +114,7 @@ bioconductor-viseago
 
     <script>
         var package = "bioconductor-viseago";
-        var versions = ["1.16.0","1.14.0","1.12.0","1.8.0","1.6.0"];
+        var versions = ["1.24.0","1.16.0","1.14.0","1.12.0","1.8.0"];
     </script>
 
 

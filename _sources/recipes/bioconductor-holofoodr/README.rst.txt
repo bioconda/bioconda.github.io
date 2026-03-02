@@ -27,18 +27,20 @@ bioconductor-holofoodr
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-multiassayexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-treesummarizedexperiment: ``>=2.14.0,<2.15.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-multiassayexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-treesummarizedexperiment: ``>=2.18.0,<2.19.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dplyr: 
    :depends r-httr2: 
    :depends r-jsonlite: 
+   :depends r-stringi: 
    :requirements:
 
    :additional platforms:
@@ -89,7 +91,7 @@ bioconductor-holofoodr
 
     <script>
         var package = "bioconductor-holofoodr";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

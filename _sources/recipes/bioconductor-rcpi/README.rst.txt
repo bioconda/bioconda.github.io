@@ -28,10 +28,10 @@ bioconductor-rcpi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.42.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.1-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.46.0-0</code>,  <code>1.42.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.1-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  </span></summary>
       
 
-      ``1.42.0-0``,  ``1.38.0-0``,  ``1.36.1-0``,  ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.18.1-0``
+      ``1.46.0-0``,  ``1.42.0-0``,  ``1.38.0-0``,  ``1.36.1-0``,  ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.18.1-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-rcpi
       
 
    
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
-   :depends bioconductor-gosemsim: ``>=2.32.0,<2.33.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-gosemsim: ``>=2.36.0,<2.37.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-curl: 
    :depends r-doparallel: 
    :depends r-foreach: 
@@ -99,7 +99,7 @@ bioconductor-rcpi
 
     <script>
         var package = "bioconductor-rcpi";
-        var versions = ["1.42.0","1.38.0","1.36.1","1.34.0","1.30.0"];
+        var versions = ["1.46.0","1.42.0","1.38.0","1.36.1","1.34.0"];
     </script>
 
 

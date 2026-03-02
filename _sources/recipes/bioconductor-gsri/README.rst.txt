@@ -29,10 +29,10 @@ bioconductor-gsri
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.54.0-0</code>,  <code>2.50.0-0</code>,  <code>2.48.0-0</code>,  <code>2.46.0-0</code>,  <code>2.42.0-0</code>,  <code>2.40.0-0</code>,  <code>2.38.0-1</code>,  <code>2.38.0-0</code>,  <code>2.36.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.58.0-0</code>,  <code>2.54.0-0</code>,  <code>2.50.0-0</code>,  <code>2.48.0-0</code>,  <code>2.46.0-0</code>,  <code>2.42.0-0</code>,  <code>2.40.0-0</code>,  <code>2.38.0-1</code>,  <code>2.38.0-0</code>,  </span></summary>
       
 
-      ``2.54.0-0``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.38.0-1``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-1``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``
+      ``2.58.0-0``,  ``2.54.0-0``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.38.0-1``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-1``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ bioconductor-gsri
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-genefilter: ``>=1.88.0,<1.89.0``
-   :depends bioconductor-gseabase: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-les: ``>=1.56.0,<1.57.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-genefilter: ``>=1.92.0,<1.93.0``
+   :depends bioconductor-gseabase: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-les: ``>=1.60.0,<1.61.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-fdrtool: 
    :requirements:
 
@@ -97,7 +97,7 @@ bioconductor-gsri
 
     <script>
         var package = "bioconductor-gsri";
-        var versions = ["2.54.0","2.50.0","2.48.0","2.46.0","2.42.0"];
+        var versions = ["2.58.0","2.54.0","2.50.0","2.48.0","2.46.0"];
     </script>
 
 

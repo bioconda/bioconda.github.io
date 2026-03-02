@@ -30,10 +30,10 @@ mashtree
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.6-3</code>,  <code>1.4.6-2</code>,  <code>1.4.6-1</code>,  <code>1.4.6-0</code>,  <code>1.4.5-0</code>,  <code>1.4.3-0</code>,  <code>1.2.0-2</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.6-4</code>,  <code>1.4.6-3</code>,  <code>1.4.6-2</code>,  <code>1.4.6-1</code>,  <code>1.4.6-0</code>,  <code>1.4.5-0</code>,  <code>1.4.3-0</code>,  <code>1.2.0-2</code>,  <code>1.2.0-1</code>,  </span></summary>
       
 
-      ``1.4.6-3``,  ``1.4.6-2``,  ``1.4.6-1``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.3-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1-0``,  ``1.0.4-0``,  ``1.0.1-0``,  ``1.0-0``,  ``0.57-1``,  ``0.57-0``,  ``0.55-0``,  ``0.37-0``,  ``0.36-0``,  ``0.35.4-0``,  ``0.30-2``,  ``0.30-0``,  ``0.28-0``,  ``0.26-0``,  ``0.25-0``,  ``0.21-0``,  ``0.20-0``,  ``0.12-0``
+      ``1.4.6-4``,  ``1.4.6-3``,  ``1.4.6-2``,  ``1.4.6-1``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.3-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1-0``,  ``1.0.4-0``,  ``1.0.1-0``,  ``1.0-0``,  ``0.57-1``,  ``0.57-0``,  ``0.55-0``,  ``0.37-0``,  ``0.36-0``,  ``0.35.4-0``,  ``0.30-2``,  ``0.30-0``,  ``0.28-0``,  ``0.26-0``,  ``0.25-0``,  ``0.21-0``,  ``0.20-0``,  ``0.12-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ mashtree
       
 
    
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends mash: ``>=2``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-bioperl: 
@@ -55,7 +55,7 @@ mashtree
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -103,7 +103,7 @@ mashtree
 
     <script>
         var package = "mashtree";
-        var versions = ["1.4.6","1.4.6","1.4.6","1.4.6","1.4.5"];
+        var versions = ["1.4.6","1.4.6","1.4.6","1.4.6","1.4.6"];
     </script>
 
 

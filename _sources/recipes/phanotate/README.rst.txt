@@ -31,10 +31,10 @@ phanotate
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.7-2</code>,  <code>1.6.7-1</code>,  <code>1.6.7-0</code>,  <code>1.6.6-0</code>,  <code>1.6.5-1</code>,  <code>1.6.5-0</code>,  <code>1.6.4-0</code>,  <code>1.5.1-1</code>,  <code>1.5.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.7-4</code>,  <code>1.6.7-2</code>,  <code>1.6.7-1</code>,  <code>1.6.7-0</code>,  <code>1.6.6-0</code>,  <code>1.6.5-1</code>,  <code>1.6.5-0</code>,  <code>1.6.4-0</code>,  <code>1.5.1-1</code>,  </span></summary>
       
 
-      ``1.6.7-2``,  ``1.6.7-1``,  ``1.6.7-0``,  ``1.6.6-0``,  ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.4-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``
+      ``1.6.7-4``,  ``1.6.7-2``,  ``1.6.7-1``,  ``1.6.7-0``,  ``1.6.6-0``,  ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.4-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``
 
       
       .. raw:: html
@@ -52,7 +52,7 @@ phanotate
    :depends python_abi: ``3.10.* *_cp310``
    :depends scipy: 
    :depends seaborn-base: 
-   :depends setuptools: ``>=67.7.2,<81``
+   :depends setuptools: 
    :depends statsmodels: 
    :depends textwrap3: 
    :depends trnascan-se: 
@@ -110,7 +110,7 @@ phanotate
 
     <script>
         var package = "phanotate";
-        var versions = ["1.6.7","1.6.7","1.6.7","1.6.6","1.6.5"];
+        var versions = ["1.6.7","1.6.7","1.6.7","1.6.7","1.6.6"];
     </script>
 
 

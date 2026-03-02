@@ -28,10 +28,10 @@ bioconductor-degnorm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.16.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.1-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.4.0-2</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.1-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.4.0-2</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  </span></summary>
       
 
-      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.1-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.20.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.1-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
       .. raw:: html
@@ -40,25 +40,26 @@ bioconductor-degnorm
       
 
    
-   :depends bioconductor-genomicalignments: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-genomicalignments: ``>=1.42.0,<1.43.0a0``
-   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0a0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0a0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
-   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0a0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
-   :depends bioconductor-txdbmaker: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-txdbmaker: ``>=1.2.0,<1.3.0a0``
+   :depends bioconductor-genomicalignments: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-genomicalignments: ``>=1.46.0,<1.47.0a0``
+   :depends bioconductor-genomicfeatures: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-genomicfeatures: ``>=1.62.0,<1.63.0a0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-genomicranges: ``>=1.62.1,<1.63.0a0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0a0``
+   :depends bioconductor-rsamtools: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-rsamtools: ``>=2.26.0,<2.27.0a0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
+   :depends bioconductor-txdbmaker: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-txdbmaker: ``>=1.6.2,<1.7.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libcxx: ``>=19``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-data.table: 
    :depends r-doparallel: 
    :depends r-foreach: 
@@ -119,7 +120,7 @@ bioconductor-degnorm
 
     <script>
         var package = "bioconductor-degnorm";
-        var versions = ["1.16.0","1.12.0","1.10.1","1.8.0","1.8.0"];
+        var versions = ["1.20.0","1.16.0","1.12.0","1.10.1","1.8.0"];
     </script>
 
 

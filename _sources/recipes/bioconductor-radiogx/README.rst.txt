@@ -27,19 +27,19 @@ bioconductor-radiogx
       
       
 
-      ``2.10.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``2.14.0-0``,  ``2.10.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-coregx: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-coregx: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
    :depends r-assertthat: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-catools: 
    :depends r-data.table: 
    :depends r-downloader: 
@@ -98,7 +98,7 @@ bioconductor-radiogx
 
     <script>
         var package = "bioconductor-radiogx";
-        var versions = ["2.10.0","2.6.0","2.4.0","2.2.0","1.4.0"];
+        var versions = ["2.14.0","2.10.0","2.6.0","2.4.0","2.2.0"];
     </script>
 
 

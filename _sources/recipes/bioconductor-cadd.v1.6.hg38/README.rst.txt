@@ -27,16 +27,16 @@ bioconductor-cadd.v1.6.hg38
       
       
 
-      ``3.18.1-1``,  ``3.18.1-0``
+      ``3.18.1-2``,  ``3.18.1-1``,  ``3.18.1-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-data-packages: ``>=20241103``
-   :depends bioconductor-genomicscores: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-annotationhub: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-data-packages: ``>=20260207``
+   :depends bioconductor-genomicscores: ``>=2.22.0,<2.23.0``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -87,7 +87,7 @@ bioconductor-cadd.v1.6.hg38
 
     <script>
         var package = "bioconductor-cadd.v1.6.hg38";
-        var versions = ["3.18.1","3.18.1"];
+        var versions = ["3.18.1","3.18.1","3.18.1"];
     </script>
 
 

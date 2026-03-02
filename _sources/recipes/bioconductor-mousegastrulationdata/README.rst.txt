@@ -28,10 +28,10 @@ bioconductor-mousegastrulationdata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  </span></summary>
       
 
-      ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.24.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,16 +40,16 @@ bioconductor-mousegastrulationdata
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-bumpymatrix: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-spatialexperiment: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-bumpymatrix: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-data-packages: ``>=20260207``
+   :depends bioconductor-experimenthub: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-spatialexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -100,7 +100,7 @@ bioconductor-mousegastrulationdata
 
     <script>
         var package = "bioconductor-mousegastrulationdata";
-        var versions = ["1.16.0","1.14.0","1.12.0","1.8.0","1.8.0"];
+        var versions = ["1.24.0","1.16.0","1.14.0","1.12.0","1.8.0"];
     </script>
 
 

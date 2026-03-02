@@ -27,22 +27,22 @@ bioconductor-hicontacts
       
       
 
-      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-biocio: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-hicexperiment: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-interactionset: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biocio: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-genomeinfodb: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-hicexperiment: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-interactionset: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-ggrastr: 
@@ -103,7 +103,7 @@ bioconductor-hicontacts
 
     <script>
         var package = "bioconductor-hicontacts";
-        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.12.0","1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

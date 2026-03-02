@@ -27,30 +27,31 @@ bioconductor-methylclock
       
       
 
-      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0a0``
-   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0a0``
-   :depends bioconductor-impute: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-impute: ``>=1.80.0,<1.81.0a0``
-   :depends bioconductor-methylclockdata: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-methylclockdata: ``>=1.14.0,<1.15.0a0``
-   :depends bioconductor-minfi: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-minfi: ``>=1.52.0,<1.53.0a0``
-   :depends bioconductor-planet: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-planet: ``>=1.14.0,<1.15.0a0``
-   :depends bioconductor-preprocesscore: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-preprocesscore: ``>=1.68.0,<1.69.0a0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0a0``
+   :depends bioconductor-experimenthub: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-experimenthub: ``>=3.0.0,<3.1.0a0``
+   :depends bioconductor-impute: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-impute: ``>=1.84.0,<1.85.0a0``
+   :depends bioconductor-methylclockdata: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-methylclockdata: ``>=1.18.0,<1.19.0a0``
+   :depends bioconductor-minfi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-minfi: ``>=1.56.0,<1.57.0a0``
+   :depends bioconductor-planet: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-planet: ``>=1.18.0,<1.19.0a0``
+   :depends bioconductor-preprocesscore: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-preprocesscore: ``>=1.72.0,<1.73.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libcxx: ``>=19``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-devtools: 
    :depends r-dplyr: 
    :depends r-dynamictreecut: 
@@ -115,7 +116,7 @@ bioconductor-methylclock
 
     <script>
         var package = "bioconductor-methylclock";
-        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.4.0"];
+        var versions = ["1.16.0","1.12.0","1.8.0","1.6.0","1.4.0"];
     </script>
 
 

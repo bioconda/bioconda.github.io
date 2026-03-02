@@ -28,10 +28,10 @@ bioconductor-pd.mirna.3.1
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.8.1-13</code>,  <code>3.8.1-12</code>,  <code>3.8.1-11</code>,  <code>3.8.1-10</code>,  <code>3.8.1-9</code>,  <code>3.8.1-8</code>,  <code>3.8.1-7</code>,  <code>3.8.1-6</code>,  <code>3.8.1-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.8.1-14</code>,  <code>3.8.1-13</code>,  <code>3.8.1-12</code>,  <code>3.8.1-11</code>,  <code>3.8.1-10</code>,  <code>3.8.1-9</code>,  <code>3.8.1-8</code>,  <code>3.8.1-7</code>,  <code>3.8.1-6</code>,  </span></summary>
       
 
-      ``3.8.1-13``,  ``3.8.1-12``,  ``3.8.1-11``,  ``3.8.1-10``,  ``3.8.1-9``,  ``3.8.1-8``,  ``3.8.1-7``,  ``3.8.1-6``,  ``3.8.1-5``,  ``3.8.1-4``,  ``3.8.1-3``,  ``3.8.1-2``,  ``3.8.1-0``
+      ``3.8.1-14``,  ``3.8.1-13``,  ``3.8.1-12``,  ``3.8.1-11``,  ``3.8.1-10``,  ``3.8.1-9``,  ``3.8.1-8``,  ``3.8.1-7``,  ``3.8.1-6``,  ``3.8.1-5``,  ``3.8.1-4``,  ``3.8.1-3``,  ``3.8.1-2``,  ``3.8.1-0``
 
       
       .. raw:: html
@@ -40,13 +40,13 @@ bioconductor-pd.mirna.3.1
       
 
    
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
-   :depends bioconductor-data-packages: ``>=20241103``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-oligo: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-oligoclasses: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-data-packages: ``>=20260207``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-oligo: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-oligoclasses: ``>=1.72.0,<1.73.0``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dbi: 
    :depends r-rsqlite: ``>=0.11.1``
    :requirements:

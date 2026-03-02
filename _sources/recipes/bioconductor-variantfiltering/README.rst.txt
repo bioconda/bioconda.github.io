@@ -29,10 +29,10 @@ bioconductor-variantfiltering
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.42.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.1-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.30.0-2</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.46.0-0</code>,  <code>1.42.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.1-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.30.0-2</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  </span></summary>
       
 
-      ``1.42.0-0``,  ``1.38.0-0``,  ``1.36.1-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.30.0-2``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``
+      ``1.46.0-0``,  ``1.42.0-0``,  ``1.38.0-0``,  ``1.36.1-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.30.0-2``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``
 
       
       .. raw:: html
@@ -41,48 +41,51 @@ bioconductor-variantfiltering
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0a0``
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0a0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0a0``
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0a0``
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0a0``
-   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0a0``
-   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0a0``
-   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0a0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0a0``
-   :depends bioconductor-genomicscores: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-genomicscores: ``>=2.18.0,<2.19.0a0``
-   :depends bioconductor-graph: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-graph: ``>=1.84.0,<1.85.0a0``
-   :depends bioconductor-gviz: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-gviz: ``>=1.50.0,<1.51.0a0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
-   :depends bioconductor-rbgl: ``>=1.82.0,<1.83.0``
-   :depends bioconductor-rbgl: ``>=1.82.0,<1.83.0a0``
-   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0a0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0a0``
-   :depends bioconductor-variantannotation: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-variantannotation: ``>=1.52.0,<1.53.0a0``
-   :depends bioconductor-xvector: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-xvector: ``>=0.46.0,<0.47.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0a0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0a0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0a0``
+   :depends bioconductor-bsgenome: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-bsgenome: ``>=1.78.0,<1.79.0a0``
+   :depends bioconductor-genomeinfodb: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-genomeinfodb: ``>=1.46.2,<1.47.0a0``
+   :depends bioconductor-genomicfeatures: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-genomicfeatures: ``>=1.62.0,<1.63.0a0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-genomicranges: ``>=1.62.1,<1.63.0a0``
+   :depends bioconductor-genomicscores: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-genomicscores: ``>=2.22.0,<2.23.0a0``
+   :depends bioconductor-graph: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-graph: ``>=1.88.1,<1.89.0a0``
+   :depends bioconductor-gviz: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-gviz: ``>=1.54.0,<1.55.0a0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0a0``
+   :depends bioconductor-rbgl: ``>=1.86.0,<1.87.0``
+   :depends bioconductor-rbgl: ``>=1.86.0,<1.87.0a0``
+   :depends bioconductor-rsamtools: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-rsamtools: ``>=2.26.0,<2.27.0a0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
+   :depends bioconductor-seqinfo: ``>=1.0.0,<1.1.0``
+   :depends bioconductor-seqinfo: ``>=1.0.0,<1.1.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0a0``
+   :depends bioconductor-variantannotation: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-variantannotation: ``>=1.56.0,<1.57.0a0``
+   :depends bioconductor-xvector: ``>=0.50.0,<0.51.0``
+   :depends bioconductor-xvector: ``>=0.50.0,<0.51.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dt: 
    :depends r-shiny: 
    :depends r-shinyjs: 
@@ -138,7 +141,7 @@ bioconductor-variantfiltering
 
     <script>
         var package = "bioconductor-variantfiltering";
-        var versions = ["1.42.0","1.38.0","1.36.1","1.34.0","1.34.0"];
+        var versions = ["1.46.0","1.42.0","1.38.0","1.36.1","1.34.0"];
     </script>
 
 

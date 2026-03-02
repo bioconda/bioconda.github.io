@@ -29,10 +29,10 @@ bioconductor-scan.upc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.48.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-0</code>,  <code>2.40.0-0</code>,  <code>2.36.0-0</code>,  <code>2.34.0-0</code>,  <code>2.32.0-1</code>,  <code>2.32.0-0</code>,  <code>2.30.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.52.0-0</code>,  <code>2.48.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-0</code>,  <code>2.40.0-0</code>,  <code>2.36.0-0</code>,  <code>2.34.0-0</code>,  <code>2.32.0-1</code>,  <code>2.32.0-0</code>,  </span></summary>
       
 
-      ``2.48.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-1``,  ``2.24.1-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``
+      ``2.52.0-0``,  ``2.48.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-1``,  ``2.24.1-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``
 
       
       .. raw:: html
@@ -41,15 +41,15 @@ bioconductor-scan.upc
       
 
    
-   :depends bioconductor-affy: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-affyio: ``>=1.76.0,<1.77.0``
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
-   :depends bioconductor-geoquery: ``>=2.74.0,<2.75.0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-oligo: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-sva: ``>=3.54.0,<3.55.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-affy: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-affyio: ``>=1.80.0,<1.81.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-geoquery: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-oligo: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-sva: ``>=3.58.0,<3.59.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-foreach: 
    :depends r-mass: 
    :requirements:
@@ -102,7 +102,7 @@ bioconductor-scan.upc
 
     <script>
         var package = "bioconductor-scan.upc";
-        var versions = ["2.48.0","2.44.0","2.42.0","2.40.0","2.36.0"];
+        var versions = ["2.52.0","2.48.0","2.44.0","2.42.0","2.40.0"];
     </script>
 
 

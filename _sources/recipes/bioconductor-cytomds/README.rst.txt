@@ -27,15 +27,16 @@ bioconductor-cytomds
       
       
 
-      ``1.2.0-0``
+      ``1.6.1-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-cytopipeline: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-flowcore: ``>=2.18.0,<2.19.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-cytopipeline: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-flowcore: ``>=2.22.0,<2.23.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-ggforce: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 
@@ -96,7 +97,7 @@ bioconductor-cytomds
 
     <script>
         var package = "bioconductor-cytomds";
-        var versions = ["1.2.0"];
+        var versions = ["1.6.1","1.2.0"];
     </script>
 
 

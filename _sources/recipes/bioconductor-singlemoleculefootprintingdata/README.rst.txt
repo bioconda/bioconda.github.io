@@ -27,15 +27,15 @@ bioconductor-singlemoleculefootprintingdata
       
       
 
-      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20241103``
-   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-data-packages: ``>=20260207``
+   :depends bioconductor-experimenthub: ``>=3.0.0,<3.1.0``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -86,7 +86,7 @@ bioconductor-singlemoleculefootprintingdata
 
     <script>
         var package = "bioconductor-singlemoleculefootprintingdata";
-        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.2.0"];
+        var versions = ["1.18.0","1.14.0","1.10.0","1.8.0","1.6.0"];
     </script>
 
 

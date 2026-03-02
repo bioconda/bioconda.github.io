@@ -28,10 +28,10 @@ bioconductor-easyrnaseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.42.0-0</code>,  <code>2.38.0-0</code>,  <code>2.36.0-0</code>,  <code>2.34.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.24.1-0</code>,  <code>2.22.0-0</code>,  <code>2.20.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.46.0-0</code>,  <code>2.42.0-0</code>,  <code>2.38.0-0</code>,  <code>2.36.0-0</code>,  <code>2.34.0-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  <code>2.24.1-0</code>,  <code>2.22.0-0</code>,  </span></summary>
       
 
-      ``2.42.0-0``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.24.1-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.18.2-0``,  ``2.16.0-0``,  ``2.14.0-0``
+      ``2.46.0-0``,  ``2.42.0-0``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.24.1-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.18.2-0``,  ``2.16.0-0``,  ``2.14.0-0``
 
       
       .. raw:: html
@@ -40,23 +40,23 @@ bioconductor-easyrnaseq
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-biomart: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
-   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
-   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-genomeintervals: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-genomicalignments: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-shortread: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biocfilecache: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-biomart: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-edger: ``>=4.8.0,<4.9.0``
+   :depends bioconductor-genomeintervals: ``>=1.66.0,<1.67.0``
+   :depends bioconductor-genomicalignments: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-rsamtools: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-seqinfo: ``>=1.0.0,<1.1.0``
+   :depends bioconductor-shortread: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-lsd: ``>=4.1-0``
    :depends r-rappdirs: ``>=0.3.3``
    :requirements:
@@ -109,7 +109,7 @@ bioconductor-easyrnaseq
 
     <script>
         var package = "bioconductor-easyrnaseq";
-        var versions = ["2.42.0","2.38.0","2.36.0","2.34.0","2.30.0"];
+        var versions = ["2.46.0","2.42.0","2.38.0","2.36.0","2.34.0"];
     </script>
 
 

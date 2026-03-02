@@ -29,10 +29,10 @@ bioconductor-egsea
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.1-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.34.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.1-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  </span></summary>
       
 
-      ``1.34.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``
+      ``1.38.0-0``,  ``1.34.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-1``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``
 
       
       .. raw:: html
@@ -41,22 +41,22 @@ bioconductor-egsea
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
-   :depends bioconductor-egseadata: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-gage: ``>=2.56.0,<2.57.0``
-   :depends bioconductor-globaltest: ``>=5.60.0,<5.61.0``
-   :depends bioconductor-gsva: ``>=2.0.0,<2.1.0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
-   :depends bioconductor-org.mm.eg.db: ``>=3.20.0,<3.21.0``
-   :depends bioconductor-org.rn.eg.db: ``>=3.20.0,<3.21.0``
-   :depends bioconductor-padog: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-pathview: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-safe: ``>=3.46.0,<3.47.0``
-   :depends bioconductor-topgo: ``>=2.58.0,<2.59.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-edger: ``>=4.8.0,<4.9.0``
+   :depends bioconductor-egseadata: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-gage: ``>=2.60.0,<2.61.0``
+   :depends bioconductor-globaltest: ``>=5.64.0,<5.65.0``
+   :depends bioconductor-gsva: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-limma: ``>=3.66.0,<3.67.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-org.rn.eg.db: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-padog: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-pathview: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-safe: ``>=3.50.0,<3.51.0``
+   :depends bioconductor-topgo: ``>=2.62.0,<2.63.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dt: 
    :depends r-ggplot2: ``>=1.0.0``
    :depends r-gplots: ``>=2.14.2``
@@ -117,7 +117,7 @@ bioconductor-egsea
 
     <script>
         var package = "bioconductor-egsea";
-        var versions = ["1.34.0","1.28.0","1.26.0","1.22.0","1.20.0"];
+        var versions = ["1.38.0","1.34.0","1.28.0","1.26.0","1.22.0"];
     </script>
 
 

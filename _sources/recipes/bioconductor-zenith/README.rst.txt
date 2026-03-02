@@ -27,18 +27,19 @@ bioconductor-zenith
       
       
 
-      ``1.8.0-0``,  ``1.4.2-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.4.2-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-enrichmentbrowser: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-gseabase: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
-   :depends bioconductor-variancepartition: ``>=1.36.0,<1.37.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-enrichmentbrowser: ``>=2.40.0,<2.41.0``
+   :depends bioconductor-gseabase: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-limma: ``>=3.66.0,<3.67.0``
+   :depends bioconductor-variancepartition: ``>=1.40.0,<1.41.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
+   :depends r-dplyr: 
    :depends r-ggplot2: 
-   :depends r-msigdbr: ``>=7.5.1``
+   :depends r-msigdbr: 
    :depends r-progress: 
    :depends r-rdpack: 
    :depends r-reshape2: 
@@ -94,7 +95,7 @@ bioconductor-zenith
 
     <script>
         var package = "bioconductor-zenith";
-        var versions = ["1.8.0","1.4.2","1.2.0","1.0.0"];
+        var versions = ["1.12.0","1.8.0","1.4.2","1.2.0","1.0.0"];
     </script>
 
 

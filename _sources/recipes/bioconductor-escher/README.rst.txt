@@ -27,15 +27,15 @@ bioconductor-escher
       
       
 
-      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-spatialexperiment: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-spatialexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-ggplot2: 
    :depends r-rlang: 
    :requirements:
@@ -88,7 +88,7 @@ bioconductor-escher
 
     <script>
         var package = "bioconductor-escher";
-        var versions = ["1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.10.0","1.6.0","1.2.0","1.0.0"];
     </script>
 
 

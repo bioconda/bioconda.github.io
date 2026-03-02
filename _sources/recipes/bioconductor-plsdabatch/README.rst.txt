@@ -27,16 +27,16 @@ bioconductor-plsdabatch
       
       
 
-      ``1.2.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-biocstyle: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-mixomics: ``>=6.30.0,<6.31.0``
-   :depends bioconductor-treesummarizedexperiment: ``>=2.14.0,<2.15.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biocstyle: ``>=2.38.0,<2.39.0``
+   :depends bioconductor-mixomics: ``>=6.34.0,<6.35.0``
+   :depends bioconductor-treesummarizedexperiment: ``>=2.18.0,<2.19.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-ggplot2: 
    :depends r-ggpubr: 
    :depends r-gridextra: 
@@ -96,7 +96,7 @@ bioconductor-plsdabatch
 
     <script>
         var package = "bioconductor-plsdabatch";
-        var versions = ["1.2.0"];
+        var versions = ["1.6.0","1.2.0"];
     </script>
 
 

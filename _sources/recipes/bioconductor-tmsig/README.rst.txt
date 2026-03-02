@@ -27,15 +27,15 @@ bioconductor-tmsig
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-gseabase: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-gseabase: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-limma: ``>=3.66.0,<3.67.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-circlize: 
    :depends r-data.table: 
    :depends r-matrix: 
@@ -89,7 +89,7 @@ bioconductor-tmsig
 
     <script>
         var package = "bioconductor-tmsig";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

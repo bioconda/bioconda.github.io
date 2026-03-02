@@ -29,10 +29,10 @@ bioconductor-systempiper
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.12.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.3-0</code>,  <code>2.4.0-0</code>,  <code>2.0.0-0</code>,  <code>1.26.2-0</code>,  <code>1.24.3-0</code>,  <code>1.24.2-0</code>,  <code>1.22.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.16.3-0</code>,  <code>2.12.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.3-0</code>,  <code>2.4.0-0</code>,  <code>2.0.0-0</code>,  <code>1.26.2-0</code>,  <code>1.24.3-0</code>,  <code>1.24.2-0</code>,  </span></summary>
       
 
-      ``2.12.0-0``,  ``2.8.0-0``,  ``2.6.3-0``,  ``2.4.0-0``,  ``2.0.0-0``,  ``1.26.2-0``,  ``1.24.3-0``,  ``1.24.2-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.2-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.2-0``,  ``1.9.0-0``,  ``1.4.8-0``,  ``1.4.7-0``
+      ``2.16.3-0``,  ``2.12.0-0``,  ``2.8.0-0``,  ``2.6.3-0``,  ``2.4.0-0``,  ``2.0.0-0``,  ``1.26.2-0``,  ``1.24.3-0``,  ``1.24.2-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.2-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.2-0``,  ``1.9.0-0``,  ``1.4.8-0``,  ``1.4.7-0``
 
       
       .. raw:: html
@@ -41,14 +41,14 @@ bioconductor-systempiper
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-shortread: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-rsamtools: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-shortread: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-crayon: 
    :depends r-ggplot2: 
    :depends r-htmlwidgets: 
@@ -105,7 +105,7 @@ bioconductor-systempiper
 
     <script>
         var package = "bioconductor-systempiper";
-        var versions = ["2.12.0","2.8.0","2.6.3","2.4.0","2.0.0"];
+        var versions = ["2.16.3","2.12.0","2.8.0","2.6.3","2.4.0"];
     </script>
 
 

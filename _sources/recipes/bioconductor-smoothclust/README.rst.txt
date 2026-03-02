@@ -27,16 +27,16 @@ bioconductor-smoothclust
       
       
 
-      ``1.2.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-sparsematrixstats: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-spatialexperiment: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
-   :depends r-spdep: 
+   :depends bioconductor-biocneighbors: ``>=2.4.0,<2.5.0``
+   :depends bioconductor-spatialexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
+   :depends r-matrix: 
    :requirements:
 
    :additional platforms:
@@ -87,7 +87,7 @@ bioconductor-smoothclust
 
     <script>
         var package = "bioconductor-smoothclust";
-        var versions = ["1.2.0"];
+        var versions = ["1.6.0","1.2.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ atol-reference-data-lookups
       
       
 
-      ``0.1.0-0``
+      ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -85,7 +85,7 @@ atol-reference-data-lookups
 
     <script>
         var package = "atol-reference-data-lookups";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.1","0.1.0"];
     </script>
 
 

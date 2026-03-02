@@ -26,27 +26,36 @@ bioconductor-plotgardener
    :versions:
       
       
+      .. raw:: html
 
-      ``1.12.0-0``,  ``1.8.1-0``,  ``1.6.2-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.0.17-0``,  ``1.0.14-0``,  ``1.0.1-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.16.0-0</code>,  <code>1.12.0-0</code>,  <code>1.8.1-0</code>,  <code>1.6.2-0</code>,  <code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.0.17-0</code>,  <code>1.0.14-0</code>,  <code>1.0.1-0</code>,  </span></summary>
+      
 
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.8.1-0``,  ``1.6.2-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.0.17-0``,  ``1.0.14-0``,  ``1.0.1-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0a0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0a0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
-   :depends bioconductor-plyranges: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-plyranges: ``>=1.26.0,<1.27.0a0``
-   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0a0``
+   :depends bioconductor-genomeinfodb: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-genomeinfodb: ``>=1.46.2,<1.47.0a0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-genomicranges: ``>=1.62.1,<1.63.0a0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0a0``
+   :depends bioconductor-plyranges: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-plyranges: ``>=1.30.1,<1.31.0a0``
+   :depends bioconductor-rhdf5: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-rhdf5: ``>=2.54.1,<2.55.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libcxx: ``>=19``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-curl: 
    :depends r-data.table: 
    :depends r-dplyr: 
@@ -108,7 +117,7 @@ bioconductor-plotgardener
 
     <script>
         var package = "bioconductor-plotgardener";
-        var versions = ["1.12.0","1.8.1","1.6.2","1.4.1","1.4.1"];
+        var versions = ["1.16.0","1.12.0","1.8.1","1.6.2","1.4.1"];
     </script>
 
 

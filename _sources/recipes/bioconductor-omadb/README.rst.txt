@@ -28,10 +28,10 @@ bioconductor-omadb
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.22.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.1-0</code>,  <code>2.6.0-0</code>,  <code>2.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.26.0-0</code>,  <code>2.22.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.1-0</code>,  <code>2.6.0-0</code>,  </span></summary>
       
 
-      ``2.22.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``1.2.0-0``
+      ``2.26.0-0``,  ``2.22.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``1.2.0-0``
 
       
       .. raw:: html
@@ -40,12 +40,12 @@ bioconductor-omadb
       
 
    
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-topgo: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-topgo: ``>=2.62.0,<2.63.0``
    :depends r-ape: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-httr: ``>=1.2.1``
    :depends r-jsonlite: 
    :depends r-plyr: ``>=1.8.4``
@@ -99,7 +99,7 @@ bioconductor-omadb
 
     <script>
         var package = "bioconductor-omadb";
-        var versions = ["2.22.0","2.18.0","2.16.0","2.14.0","2.10.0"];
+        var versions = ["2.26.0","2.22.0","2.18.0","2.16.0","2.14.0"];
     </script>
 
 

@@ -27,24 +27,25 @@ bioconductor-apl
       
       
 
-      ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.14.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-org.mm.eg.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-topgo: ``>=2.54.0,<2.55.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-topgo: ``>=2.62.0,<2.63.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-ggplot2: 
    :depends r-ggrepel: 
    :depends r-magrittr: 
+   :depends r-matrix: 
    :depends r-plotly: 
-   :depends r-reticulate: 
    :depends r-rlang: 
-   :depends r-seurat: 
+   :depends r-rspectra: 
+   :depends r-seuratobject: 
    :depends r-viridislite: 
    :requirements:
 
@@ -96,7 +97,7 @@ bioconductor-apl
 
     <script>
         var package = "bioconductor-apl";
-        var versions = ["1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.14.0","1.6.0","1.4.0","1.2.0"];
     </script>
 
 

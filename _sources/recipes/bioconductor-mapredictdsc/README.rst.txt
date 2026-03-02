@@ -29,10 +29,10 @@ bioconductor-mapredictdsc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.44.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.48.0-0</code>,  <code>1.44.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  </span></summary>
       
 
-      ``1.44.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``
+      ``1.48.0-0``,  ``1.44.0-0``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.22.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,14 @@ bioconductor-mapredictdsc
       
 
    
-   :depends bioconductor-affy: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-gcrma: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-affy: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-gcrma: ``>=2.82.0,<2.83.0``
    :depends bioconductor-hgu133plus2.db: ``>=3.13.0,<3.14.0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
-   :depends bioconductor-lungcanceracvssccgeo: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-roc: ``>=1.82.0,<1.83.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-limma: ``>=3.66.0,<3.67.0``
+   :depends bioconductor-lungcanceracvssccgeo: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-roc: ``>=1.86.0,<1.87.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-caret: 
    :depends r-class: 
    :depends r-e1071: 
@@ -104,7 +104,7 @@ bioconductor-mapredictdsc
 
     <script>
         var package = "bioconductor-mapredictdsc";
-        var versions = ["1.44.0","1.40.0","1.38.0","1.36.0","1.32.0"];
+        var versions = ["1.48.0","1.44.0","1.40.0","1.38.0","1.36.0"];
     </script>
 
 

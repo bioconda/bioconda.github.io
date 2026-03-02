@@ -27,17 +27,17 @@ bioconductor-spatialheatmap
       
       
 
-      ``2.12.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``2.16.3-0``,  ``2.12.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
-   :depends bioconductor-genefilter: ``>=1.88.0,<1.89.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-edger: ``>=4.8.0,<4.9.0``
+   :depends bioconductor-genefilter: ``>=1.92.0,<1.93.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
@@ -103,7 +103,7 @@ bioconductor-spatialheatmap
 
     <script>
         var package = "bioconductor-spatialheatmap";
-        var versions = ["2.12.0","2.8.0","2.6.0","2.4.0","2.0.0"];
+        var versions = ["2.16.3","2.12.0","2.8.0","2.6.0","2.4.0"];
     </script>
 
 

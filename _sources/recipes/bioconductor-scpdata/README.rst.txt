@@ -27,19 +27,19 @@ bioconductor-scpdata
       
       
 
-      ``1.13.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.18.0-0``,  ``1.13.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-data-packages: ``>=20241103``
-   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-qfeatures: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-annotationhub: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-data-packages: ``>=20260207``
+   :depends bioconductor-experimenthub: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-qfeatures: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -90,7 +90,7 @@ bioconductor-scpdata
 
     <script>
         var package = "bioconductor-scpdata";
-        var versions = ["1.13.0","1.10.0","1.8.0","1.6.0","1.2.0"];
+        var versions = ["1.18.0","1.13.0","1.10.0","1.8.0","1.6.0"];
     </script>
 
 

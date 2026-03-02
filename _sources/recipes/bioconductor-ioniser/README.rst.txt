@@ -29,10 +29,10 @@ bioconductor-ioniser
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.30.0-0</code>,  <code>2.26.0-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.34.0-0</code>,  <code>2.30.0-0</code>,  <code>2.26.0-0</code>,  <code>2.24.0-0</code>,  <code>2.22.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  </span></summary>
       
 
-      ``2.30.0-0``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``
+      ``2.34.0-0``,  ``2.30.0-0``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-0``
 
       
       .. raw:: html
@@ -41,13 +41,13 @@ bioconductor-ioniser
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
-   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-shortread: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-xvector: ``>=0.46.0,<0.47.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-rhdf5: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-shortread: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-xvector: ``>=0.50.0,<0.51.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-bit64: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
@@ -105,7 +105,7 @@ bioconductor-ioniser
 
     <script>
         var package = "bioconductor-ioniser";
-        var versions = ["2.30.0","2.26.0","2.24.0","2.22.0","2.18.0"];
+        var versions = ["2.34.0","2.30.0","2.26.0","2.24.0","2.22.0"];
     </script>
 
 

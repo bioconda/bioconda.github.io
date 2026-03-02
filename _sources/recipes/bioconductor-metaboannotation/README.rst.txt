@@ -27,23 +27,23 @@ bioconductor-metaboannotation
       
       
 
-      ``1.10.0-0``,  ``1.6.1-0``,  ``1.4.1-0``,  ``1.2.0-0``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.6.1-0``,  ``1.4.1-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-compounddb: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-metabocoreutils: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-mscoreutils: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-protgenerics: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-qfeatures: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-spectra: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-annotationhub: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-compounddb: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-metabocoreutils: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-mscoreutils: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-protgenerics: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-qfeatures: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-spectra: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -94,7 +94,7 @@ bioconductor-metaboannotation
 
     <script>
         var package = "bioconductor-metaboannotation";
-        var versions = ["1.10.0","1.6.1","1.4.1","1.2.0"];
+        var versions = ["1.14.0","1.10.0","1.6.1","1.4.1","1.2.0"];
     </script>
 
 

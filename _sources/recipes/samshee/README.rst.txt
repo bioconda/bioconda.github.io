@@ -28,10 +28,10 @@ samshee
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.13-0</code>,  <code>0.2.12-0</code>,  <code>0.2.11-0</code>,  <code>0.2.10-0</code>,  <code>0.2.9-0</code>,  <code>0.2.8-0</code>,  <code>0.2.5-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.14-0</code>,  <code>0.2.13-0</code>,  <code>0.2.12-0</code>,  <code>0.2.11-0</code>,  <code>0.2.10-0</code>,  <code>0.2.9-0</code>,  <code>0.2.8-0</code>,  <code>0.2.5-0</code>,  <code>0.2.3-0</code>,  </span></summary>
       
 
-      ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.5-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
+      ``0.2.14-0``,  ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.5-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
 
       
       .. raw:: html
@@ -93,7 +93,7 @@ samshee
 
     <script>
         var package = "samshee";
-        var versions = ["0.2.13","0.2.12","0.2.11","0.2.10","0.2.9"];
+        var versions = ["0.2.14","0.2.13","0.2.12","0.2.11","0.2.10"];
     </script>
 
 

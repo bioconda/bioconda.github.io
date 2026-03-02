@@ -50,6 +50,7 @@ bioconductor-bicare
    :depends bioconductor-multtest: ``>=2.66.0,<2.67.0``
    :depends bioconductor-multtest: ``>=2.66.0,<2.67.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends liblzma: ``>=5.8.2,<6.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``

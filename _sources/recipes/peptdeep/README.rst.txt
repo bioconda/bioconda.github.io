@@ -33,7 +33,7 @@ peptdeep
       
       
 
-      ``1.4.1-0``
+      ``1.4.1-1``,  ``1.4.1-0``
 
       
 
@@ -44,7 +44,7 @@ peptdeep
    :depends lxml: 
    :depends numba: 
    :depends numpy: ``<2``
-   :depends pandas: 
+   :depends pandas: ``<3.0``
    :depends psutil: 
    :depends pyteomics: 
    :depends python: ``>=3.8``
@@ -102,7 +102,7 @@ peptdeep
 
     <script>
         var package = "peptdeep";
-        var versions = ["1.4.1"];
+        var versions = ["1.4.1","1.4.1"];
     </script>
 
 

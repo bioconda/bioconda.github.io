@@ -27,19 +27,19 @@ bioconductor-treeclimbr
       
       
 
-      ``1.2.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-diffcyt: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
-   :depends bioconductor-ggtree: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-treesummarizedexperiment: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-diffcyt: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-edger: ``>=4.8.0,<4.9.0``
+   :depends bioconductor-ggtree: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-treesummarizedexperiment: ``>=2.18.0,<2.19.0``
    :depends r-ape: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dirmult: 
    :depends r-dplyr: 
    :depends r-ggnewscale: 
@@ -98,7 +98,7 @@ bioconductor-treeclimbr
 
     <script>
         var package = "bioconductor-treeclimbr";
-        var versions = ["1.2.0"];
+        var versions = ["1.6.0","1.2.0"];
     </script>
 
 

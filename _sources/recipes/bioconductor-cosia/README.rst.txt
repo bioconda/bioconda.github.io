@@ -27,22 +27,22 @@ bioconductor-cosia
       
       
 
-      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.1-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-annotationtools: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-biomart: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-org.ce.eg.db: ``>=3.20.0,<3.21.0``
-   :depends bioconductor-org.dm.eg.db: ``>=3.20.0,<3.21.0``
-   :depends bioconductor-org.dr.eg.db: ``>=3.20.0,<3.21.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
-   :depends bioconductor-org.mm.eg.db: ``>=3.20.0,<3.21.0``
-   :depends bioconductor-org.rn.eg.db: ``>=3.20.0,<3.21.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-annotationtools: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-biomart: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-experimenthub: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-org.ce.eg.db: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-org.dm.eg.db: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-org.dr.eg.db: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-org.rn.eg.db: ``>=3.22.0,<3.23.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dplyr: ``>=1.0.7``
    :depends r-ggplot2: ``>=3.3.5``
    :depends r-homologene: ``>=1.4.68.19``
@@ -104,7 +104,7 @@ bioconductor-cosia
 
     <script>
         var package = "bioconductor-cosia";
-        var versions = ["1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.10.1","1.6.0","1.2.0","1.0.0"];
     </script>
 
 

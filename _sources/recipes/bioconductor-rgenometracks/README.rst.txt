@@ -27,13 +27,13 @@ bioconductor-rgenometracks
       
       
 
-      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends bioconductor-rgenometracksdata: ``>=0.99.0,<0.100.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-imager: 
    :depends r-reticulate: 
    :requirements:
@@ -86,7 +86,7 @@ bioconductor-rgenometracks
 
     <script>
         var package = "bioconductor-rgenometracks";
-        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.0.0"];
+        var versions = ["1.16.0","1.12.0","1.8.0","1.6.0","1.4.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ pantax
       
       
 
-      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.2-0``
+      ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.2-0``
 
       
 
@@ -37,8 +37,8 @@ pantax
    :depends graphaligner: ``>=1.0.17``
    :depends hdf5: ``1.10.5.*``
    :depends htslib: ``>=1.19.1``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libgcc: ``>=14``
+   :depends libstdcxx: ``>=14``
    :depends networkx: ``>=3.2.1``
    :depends numpy: ``>=1.26.3``
    :depends pandas: ``>=2.2.0``
@@ -101,7 +101,7 @@ pantax
 
     <script>
         var package = "pantax";
-        var versions = ["2.0.1","2.0.1","2.0.0","1.2.0","1.0.2"];
+        var versions = ["2.0.2","2.0.1","2.0.1","2.0.0","1.2.0"];
     </script>
 
 
