@@ -26,16 +26,24 @@ bioconductor-bsgenome.ppaniscus.ucsc.panpan1
    :versions:
       
       
+      .. raw:: html
 
-      ``1.4.3-8``,  ``1.4.3-7``,  ``1.4.3-6``,  ``1.4.3-5``,  ``1.4.3-4``,  ``1.4.3-3``,  ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``
+         <details><summary><span class="truncated-version-list"><code>1.4.3-9</code>,  <code>1.4.3-8</code>,  <code>1.4.3-7</code>,  <code>1.4.3-6</code>,  <code>1.4.3-5</code>,  <code>1.4.3-4</code>,  <code>1.4.3-3</code>,  <code>1.4.3-2</code>,  <code>1.4.3-1</code>,  </span></summary>
+      
 
+      ``1.4.3-9``,  ``1.4.3-8``,  ``1.4.3-7``,  ``1.4.3-6``,  ``1.4.3-5``,  ``1.4.3-4``,  ``1.4.3-3``,  ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-bsgenome: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-data-packages: ``>=20260207``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:

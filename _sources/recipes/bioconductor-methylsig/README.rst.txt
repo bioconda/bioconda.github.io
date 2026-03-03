@@ -27,20 +27,20 @@ bioconductor-methylsig
       
       
 
-      ``1.18.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.22.0-0``,  ``1.18.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-bsseq: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-delayedmatrixstats: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-dss: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-bsseq: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-delayedarray: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-dss: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-seqinfo: ``>=1.0.0,<1.1.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -91,7 +91,7 @@ bioconductor-methylsig
 
     <script>
         var package = "bioconductor-methylsig";
-        var versions = ["1.18.0","1.12.0","1.10.0","1.6.0","1.4.0"];
+        var versions = ["1.22.0","1.18.0","1.12.0","1.10.0","1.6.0"];
     </script>
 
 

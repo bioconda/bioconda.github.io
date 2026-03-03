@@ -27,17 +27,17 @@ bioconductor-scdotplot
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-ggtree: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-scater: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-ggtree: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-scater: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
    :depends r-aplot: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-cli: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
@@ -100,7 +100,7 @@ bioconductor-scdotplot
 
     <script>
         var package = "bioconductor-scdotplot";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

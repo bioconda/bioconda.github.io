@@ -27,27 +27,28 @@ bioconductor-mitoclone2
       
       
 
-      ``1.12.0-0``,  ``1.8.1-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.8.1-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-deepsnv: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-deepsnv: ``>=1.52.0,<1.53.0a0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0a0``
-   :depends bioconductor-rhtslib: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-rhtslib: ``>=3.2.0,<3.3.0a0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
+   :depends bioconductor-deepsnv: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-deepsnv: ``>=1.56.0,<1.57.0a0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-genomicranges: ``>=1.62.1,<1.63.0a0``
+   :depends bioconductor-rhtslib: ``>=3.6.0,<3.7.0``
+   :depends bioconductor-rhtslib: ``>=3.6.0,<3.7.0a0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends liblzma: ``>=5.6.3,<6.0a0``
-   :depends libstdcxx: ``>=13``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libstdcxx: ``>=14``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-ggplot2: 
+   :depends r-matrix: 
    :depends r-pheatmap: 
    :depends r-reshape2: 
    :requirements:
@@ -100,7 +101,7 @@ bioconductor-mitoclone2
 
     <script>
         var package = "bioconductor-mitoclone2";
-        var versions = ["1.12.0","1.8.1","1.6.0","1.4.0","1.4.0"];
+        var versions = ["1.16.0","1.12.0","1.8.1","1.6.0","1.4.0"];
     </script>
 
 

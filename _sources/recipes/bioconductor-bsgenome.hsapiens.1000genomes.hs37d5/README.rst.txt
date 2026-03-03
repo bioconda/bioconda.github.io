@@ -28,10 +28,10 @@ bioconductor-bsgenome.hsapiens.1000genomes.hs37d5
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.99.1-13</code>,  <code>0.99.1-12</code>,  <code>0.99.1-11</code>,  <code>0.99.1-10</code>,  <code>0.99.1-9</code>,  <code>0.99.1-8</code>,  <code>0.99.1-7</code>,  <code>0.99.1-6</code>,  <code>0.99.1-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.99.1-14</code>,  <code>0.99.1-13</code>,  <code>0.99.1-12</code>,  <code>0.99.1-11</code>,  <code>0.99.1-10</code>,  <code>0.99.1-9</code>,  <code>0.99.1-8</code>,  <code>0.99.1-7</code>,  <code>0.99.1-6</code>,  </span></summary>
       
 
-      ``0.99.1-13``,  ``0.99.1-12``,  ``0.99.1-11``,  ``0.99.1-10``,  ``0.99.1-9``,  ``0.99.1-8``,  ``0.99.1-7``,  ``0.99.1-6``,  ``0.99.1-5``,  ``0.99.1-4``,  ``0.99.1-3``,  ``0.99.1-2``,  ``0.99.1-0``
+      ``0.99.1-14``,  ``0.99.1-13``,  ``0.99.1-12``,  ``0.99.1-11``,  ``0.99.1-10``,  ``0.99.1-9``,  ``0.99.1-8``,  ``0.99.1-7``,  ``0.99.1-6``,  ``0.99.1-5``,  ``0.99.1-4``,  ``0.99.1-3``,  ``0.99.1-2``,  ``0.99.1-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-bsgenome.hsapiens.1000genomes.hs37d5
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-bsgenome: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-data-packages: ``>=20260207``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:

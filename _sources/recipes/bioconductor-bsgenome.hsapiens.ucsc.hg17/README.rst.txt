@@ -28,10 +28,10 @@ bioconductor-bsgenome.hsapiens.ucsc.hg17
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.1001-0</code>,  <code>1.3.1000-12</code>,  <code>1.3.1000-11</code>,  <code>1.3.1000-10</code>,  <code>1.3.1000-9</code>,  <code>1.3.1000-8</code>,  <code>1.3.1000-7</code>,  <code>1.3.1000-6</code>,  <code>1.3.1000-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.1001-1</code>,  <code>1.3.1001-0</code>,  <code>1.3.1000-12</code>,  <code>1.3.1000-11</code>,  <code>1.3.1000-10</code>,  <code>1.3.1000-9</code>,  <code>1.3.1000-8</code>,  <code>1.3.1000-7</code>,  <code>1.3.1000-6</code>,  </span></summary>
       
 
-      ``1.3.1001-0``,  ``1.3.1000-12``,  ``1.3.1000-11``,  ``1.3.1000-10``,  ``1.3.1000-9``,  ``1.3.1000-8``,  ``1.3.1000-7``,  ``1.3.1000-6``,  ``1.3.1000-5``,  ``1.3.1000-4``,  ``1.3.1000-3``,  ``1.3.1000-2``,  ``1.3.1000-0``
+      ``1.3.1001-1``,  ``1.3.1001-0``,  ``1.3.1000-12``,  ``1.3.1000-11``,  ``1.3.1000-10``,  ``1.3.1000-9``,  ``1.3.1000-8``,  ``1.3.1000-7``,  ``1.3.1000-6``,  ``1.3.1000-5``,  ``1.3.1000-4``,  ``1.3.1000-3``,  ``1.3.1000-2``,  ``1.3.1000-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-bsgenome.hsapiens.ucsc.hg17
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-bsgenome: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-data-packages: ``>=20260207``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -94,7 +94,7 @@ bioconductor-bsgenome.hsapiens.ucsc.hg17
 
     <script>
         var package = "bioconductor-bsgenome.hsapiens.ucsc.hg17";
-        var versions = ["1.3.1001","1.3.1000","1.3.1000","1.3.1000","1.3.1000"];
+        var versions = ["1.3.1001","1.3.1001","1.3.1000","1.3.1000","1.3.1000"];
     </script>
 
 

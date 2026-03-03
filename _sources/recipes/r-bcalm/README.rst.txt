@@ -32,7 +32,7 @@ r-bcalm
       
       
 
-      ``0.99.0-0``
+      ``0.100.0-0``,  ``0.99.0-0``
 
       
 
@@ -47,7 +47,7 @@ r-bcalm
    :depends bioconductor-mpra: 
    :depends bioconductor-s4vectors: 
    :depends bioconductor-summarizedexperiment: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-curl: 
    :depends r-scales: 
    :depends r-statmod: 
@@ -102,7 +102,7 @@ r-bcalm
 
     <script>
         var package = "r-bcalm";
-        var versions = ["0.99.0"];
+        var versions = ["0.100.0","0.99.0"];
     </script>
 
 

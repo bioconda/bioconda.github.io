@@ -27,15 +27,15 @@ bioconductor-illuminahumanmethylationepicv2anno.20a1.hg38
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20250625``
-   :depends bioconductor-minfi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-data-packages: ``>=20260207``
+   :depends bioconductor-minfi: ``>=1.56.0,<1.57.0``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -86,7 +86,7 @@ bioconductor-illuminahumanmethylationepicv2anno.20a1.hg38
 
     <script>
         var package = "bioconductor-illuminahumanmethylationepicv2anno.20a1.hg38";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

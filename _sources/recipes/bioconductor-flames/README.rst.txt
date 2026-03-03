@@ -27,75 +27,91 @@ bioconductor-flames
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``0.99.31-0``
+      ``2.4.2-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``0.99.31-0``
 
       
 
    
-   :depends bioconductor-bambu: ``>=3.4.0,<3.5.0``
-   :depends bioconductor-bambu: ``>=3.4.0,<3.5.0a0``
-   :depends bioconductor-basilisk: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-basilisk: ``>=1.14.1,<1.15.0a0``
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.1,<0.49.0a0``
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-biostrings: ``>=2.70.1,<2.71.0a0``
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0a0``
-   :depends bioconductor-dropletutils: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-dropletutils: ``>=1.22.0,<1.23.0a0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.1,<1.39.0a0``
-   :depends bioconductor-genomicalignments: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomicalignments: ``>=1.38.0,<1.39.0a0``
-   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-genomicfeatures: ``>=1.54.1,<1.55.0a0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-genomicranges: ``>=1.54.1,<1.55.0a0``
-   :depends bioconductor-ggbio: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-ggbio: ``>=1.50.0,<1.51.0a0``
-   :depends bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0a0``
-   :depends bioconductor-rhtslib: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-rhtslib: ``>=2.4.0,<2.5.0a0``
-   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0a0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0a0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-s4vectors: ``>=0.40.2,<0.41.0a0``
-   :depends bioconductor-scater: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-scater: ``>=1.30.1,<1.31.0a0``
-   :depends bioconductor-scran: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-scran: ``>=1.30.0,<1.31.0a0``
-   :depends bioconductor-scuttle: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-scuttle: ``>=1.12.0,<1.13.0a0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.24.0,<1.25.0a0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0a0``
-   :depends bioconductor-zlibbioc: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-zlibbioc: ``>=1.48.0,<1.49.0a0``
+   :depends bioconductor-bambu: ``>=3.12.0,<3.13.0``
+   :depends bioconductor-bambu: ``>=3.12.1,<3.13.0a0``
+   :depends bioconductor-basilisk: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-basilisk: ``>=1.22.0,<1.23.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0a0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-complexheatmap: ``>=2.26.1,<2.27.0a0``
+   :depends bioconductor-genomicalignments: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-genomicalignments: ``>=1.46.0,<1.47.0a0``
+   :depends bioconductor-genomicfeatures: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-genomicfeatures: ``>=1.62.0,<1.63.0a0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-genomicranges: ``>=1.62.1,<1.63.0a0``
+   :depends bioconductor-ggbio: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-ggbio: ``>=1.58.0,<1.59.0a0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0a0``
+   :depends bioconductor-matrixgenerics: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-matrixgenerics: ``>=1.22.0,<1.23.0a0``
+   :depends bioconductor-rhtslib: ``>=3.6.0,<3.7.0``
+   :depends bioconductor-rhtslib: ``>=3.6.0,<3.7.0a0``
+   :depends bioconductor-rsamtools: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-rsamtools: ``>=2.26.0,<2.27.0a0``
+   :depends bioconductor-rtracklayer: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-rtracklayer: ``>=1.70.1,<1.71.0a0``
+   :depends bioconductor-s4arrays: ``>=1.10.0,<1.11.0``
+   :depends bioconductor-s4arrays: ``>=1.10.1,<1.11.0a0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
+   :depends bioconductor-scater: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-scater: ``>=1.38.0,<1.39.0a0``
+   :depends bioconductor-scran: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-scran: ``>=1.38.0,<1.39.0a0``
+   :depends bioconductor-scuttle: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-scuttle: ``>=1.20.0,<1.21.0a0``
+   :depends bioconductor-seqinfo: ``>=1.0.0,<1.1.0``
+   :depends bioconductor-seqinfo: ``>=1.0.0,<1.1.0a0``
+   :depends bioconductor-shortread: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-shortread: ``>=1.68.0,<1.69.0a0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0a0``
+   :depends bioconductor-spatialexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-spatialexperiment: ``>=1.20.0,<1.21.0a0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc-ng: ``>=12``
+   :depends libcxx: ``>=19``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-abind: 
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-circlize: 
+   :depends r-cli: 
    :depends r-cowplot: 
+   :depends r-crew: 
    :depends r-dplyr: 
-   :depends r-future: 
    :depends r-ggplot2: 
    :depends r-gridextra: 
    :depends r-igraph: 
    :depends r-jsonlite: 
+   :depends r-magick: 
    :depends r-magrittr: 
    :depends r-matrix: 
+   :depends r-r.utils: 
    :depends r-rcolorbrewer: 
    :depends r-rcpp: 
+   :depends r-readr: 
    :depends r-reticulate: 
+   :depends r-scatterpie: 
    :depends r-stringr: 
+   :depends r-testthat: 
+   :depends r-tibble: 
    :depends r-tidyr: 
+   :depends r-tidyselect: 
    :depends r-withr: 
    :requirements:
 
@@ -147,7 +163,7 @@ bioconductor-flames
 
     <script>
         var package = "bioconductor-flames";
-        var versions = ["1.8.0","1.6.0","1.3.4","1.3.4","1.0.2"];
+        var versions = ["2.4.2","1.8.0","1.6.0","1.3.4","1.3.4"];
     </script>
 
 

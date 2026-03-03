@@ -27,22 +27,22 @@ bioconductor-scrnaseqapp
       
       
 
-      ``1.6.0-0``,  ``1.2.2-0``,  ``1.0.1-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.2.2-0``,  ``1.0.1-0``
 
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-slingshot: ``>=2.14.0,<2.15.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-genomeinfodb: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-rhdf5: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-rsamtools: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-rtracklayer: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-slingshot: ``>=2.18.0,<2.19.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-bibtex: 
    :depends r-bslib: 
    :depends r-circlize: 
@@ -50,6 +50,7 @@ bioconductor-scrnaseqapp
    :depends r-data.table: 
    :depends r-dbi: 
    :depends r-dt: 
+   :depends r-fs: 
    :depends r-ggdendro: 
    :depends r-ggforce: 
    :depends r-ggplot2: 
@@ -59,10 +60,12 @@ bioconductor-scrnaseqapp
    :depends r-htmltools: 
    :depends r-jsonlite: 
    :depends r-magrittr: 
+   :depends r-matrix: 
    :depends r-patchwork: 
    :depends r-plotly: 
    :depends r-rcolorbrewer: 
    :depends r-refmanager: 
+   :depends r-reshape2: 
    :depends r-rsqlite: 
    :depends r-scales: 
    :depends r-scrypt: 
@@ -124,7 +127,7 @@ bioconductor-scrnaseqapp
 
     <script>
         var package = "bioconductor-scrnaseqapp";
-        var versions = ["1.6.0","1.2.2","1.0.1"];
+        var versions = ["1.10.0","1.6.0","1.2.2","1.0.1"];
     </script>
 
 

@@ -27,20 +27,20 @@ bioconductor-gdrimport
       
       
 
-      ``1.4.0-0``,  ``1.0.0-0``
+      ``1.8.1-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-bumpymatrix: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-coregx: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-gdrutils: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-pharmacogx: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-bumpymatrix: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-coregx: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-gdrutils: ``>=1.8.0,<1.9.0``
+   :depends bioconductor-multiassayexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-pharmacogx: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
    :depends r-assertthat: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-checkmate: 
    :depends r-data.table: 
    :depends r-futile.logger: 
@@ -102,7 +102,7 @@ bioconductor-gdrimport
 
     <script>
         var package = "bioconductor-gdrimport";
-        var versions = ["1.4.0","1.0.0"];
+        var versions = ["1.8.1","1.4.0","1.0.0"];
     </script>
 
 

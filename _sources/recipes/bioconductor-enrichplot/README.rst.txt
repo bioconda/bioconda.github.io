@@ -28,10 +28,10 @@ bioconductor-enrichplot
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.26.1-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.14.1-0</code>,  <code>1.12.0-0</code>,  <code>1.10.2-0</code>,  <code>1.10.0-0</code>,  <code>1.8.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.30.4-0</code>,  <code>1.26.1-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.14.1-0</code>,  <code>1.12.0-0</code>,  <code>1.10.2-0</code>,  <code>1.10.0-0</code>,  </span></summary>
       
 
-      ``1.26.1-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.1-0``,  ``1.12.0-0``,  ``1.10.2-0``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``,  ``1.0.2-0``
+      ``1.30.4-0``,  ``1.26.1-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.1-0``,  ``1.12.0-0``,  ``1.10.2-0``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -40,24 +40,24 @@ bioconductor-enrichplot
       
 
    
-   :depends bioconductor-dose: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-ggtree: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-gosemsim: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-dose: ``>=4.4.0,<4.5.0``
+   :depends bioconductor-ggtree: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-gosemsim: ``>=2.36.0,<2.37.0``
    :depends r-aplot: ``>=0.2.1``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-ggfun: ``>=0.1.7``
    :depends r-ggnewscale: 
-   :depends r-ggplot2: 
+   :depends r-ggplot2: ``>=3.5.0``
    :depends r-ggrepel: ``>=0.9.0``
-   :depends r-ggtangle: ``>=0.0.4``
+   :depends r-ggtangle: ``>=0.0.9``
    :depends r-igraph: 
-   :depends r-magrittr: 
    :depends r-plyr: 
    :depends r-purrr: 
    :depends r-rcolorbrewer: 
    :depends r-reshape2: 
    :depends r-rlang: 
    :depends r-scatterpie: 
+   :depends r-tidydr: 
    :depends r-yulab.utils: ``>=0.1.6``
    :requirements:
 
@@ -109,7 +109,7 @@ bioconductor-enrichplot
 
     <script>
         var package = "bioconductor-enrichplot";
-        var versions = ["1.26.1","1.22.0","1.20.0","1.18.0","1.14.1"];
+        var versions = ["1.30.4","1.26.1","1.22.0","1.20.0","1.18.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-ccpromise
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.32.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.36.0-0</code>,  <code>1.32.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  </span></summary>
       
 
-      ``1.32.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
+      ``1.36.0-0``,  ``1.32.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-ccpromise
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-gseabase: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-promise: ``>=1.58.0,<1.59.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-gseabase: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-promise: ``>=1.62.0,<1.63.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-ccp: 
    :requirements:
 
@@ -95,7 +95,7 @@ bioconductor-ccpromise
 
     <script>
         var package = "bioconductor-ccpromise";
-        var versions = ["1.32.0","1.26.0","1.24.0","1.20.0","1.18.0"];
+        var versions = ["1.36.0","1.32.0","1.26.0","1.24.0","1.20.0"];
     </script>
 
 

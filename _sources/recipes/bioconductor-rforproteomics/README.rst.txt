@@ -28,10 +28,10 @@ bioconductor-rforproteomics
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.44.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.1-0</code>,  <code>1.35.1-0</code>,  <code>1.32.0-1</code>,  <code>1.31.1-0</code>,  <code>1.30.0-0</code>,  <code>1.28.1-0</code>,  <code>1.27.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.48.0-0</code>,  <code>1.44.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.1-0</code>,  <code>1.35.1-0</code>,  <code>1.32.0-1</code>,  <code>1.31.1-0</code>,  <code>1.30.0-0</code>,  <code>1.28.1-0</code>,  </span></summary>
       
 
-      ``1.44.0-0``,  ``1.40.0-0``,  ``1.38.1-0``,  ``1.35.1-0``,  ``1.32.0-1``,  ``1.31.1-0``,  ``1.30.0-0``,  ``1.28.1-0``,  ``1.27.1-0``,  ``1.26.0-0``,  ``1.23.1-0``,  ``1.22.0-1``,  ``1.20.0-0``
+      ``1.48.0-0``,  ``1.44.0-0``,  ``1.40.0-0``,  ``1.38.1-0``,  ``1.35.1-0``,  ``1.32.0-1``,  ``1.31.1-0``,  ``1.30.0-0``,  ``1.28.1-0``,  ``1.27.1-0``,  ``1.26.0-0``,  ``1.23.1-0``,  ``1.22.0-1``,  ``1.20.0-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-rforproteomics
       
 
    
-   :depends bioconductor-biocviews: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-data-packages: ``>=20241103``
-   :depends bioconductor-msnbase: ``>=2.32.0,<2.33.0``
+   :depends bioconductor-biocviews: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-data-packages: ``>=20260207``
+   :depends bioconductor-msnbase: ``>=2.36.0,<2.37.0``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-biocmanager: 
    :depends r-r.utils: 
    :requirements:
@@ -97,7 +97,7 @@ bioconductor-rforproteomics
 
     <script>
         var package = "bioconductor-rforproteomics";
-        var versions = ["1.44.0","1.40.0","1.38.1","1.35.1","1.32.0"];
+        var versions = ["1.48.0","1.44.0","1.40.0","1.38.1","1.35.1"];
     </script>
 
 

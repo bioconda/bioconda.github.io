@@ -27,24 +27,31 @@ bioconductor-lefser
       
       
 
-      ``1.16.0-0``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.20.2-0``,  ``1.16.0-0``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-ggtree: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-ggtree: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-mia: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-treeio: ``>=1.34.0,<1.35.0``
+   :depends r-ape: 
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-coin: 
    :depends r-dplyr: 
    :depends r-forcats: 
    :depends r-ggplot2: 
+   :depends r-ggrepel: 
    :depends r-mass: 
+   :depends r-purrr: 
    :depends r-stringr: 
    :depends r-testthat: 
    :depends r-tibble: 
    :depends r-tidyr: 
+   :depends r-tidyselect: 
    :requirements:
 
    :additional platforms:
@@ -95,7 +102,7 @@ bioconductor-lefser
 
     <script>
         var package = "bioconductor-lefser";
-        var versions = ["1.16.0","1.12.1","1.10.0","1.8.0","1.4.0"];
+        var versions = ["1.20.2","1.16.0","1.12.1","1.10.0","1.8.0"];
     </script>
 
 

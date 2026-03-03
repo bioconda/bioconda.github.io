@@ -29,10 +29,10 @@ bioconductor-batchqc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.6.0-0</code>,  <code>2.2.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  </span></summary>
       
 
-      ``2.2.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.1-0``,  ``1.8.1-0``,  ``1.6.1-0``
+      ``2.6.0-0``,  ``2.2.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.1-0``,  ``1.8.1-0``,  ``1.6.1-0``
 
       
       .. raw:: html
@@ -41,19 +41,22 @@ bioconductor-batchqc
       
 
    
-   :depends bioconductor-deseq2: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-ebseq: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-scran: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-sva: ``>=3.54.0,<3.55.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-deseq2: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-ebseq: ``>=2.8.0,<2.9.0``
+   :depends bioconductor-edger: ``>=4.8.0,<4.9.0``
+   :depends bioconductor-limma: ``>=3.66.0,<3.67.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-scran: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-sva: ``>=3.58.0,<3.59.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
+   :depends r-fnn: 
    :depends r-ggdendro: 
    :depends r-ggnewscale: 
    :depends r-ggplot2: 
+   :depends r-mass: 
    :depends r-matrixstats: 
    :depends r-pheatmap: 
    :depends r-rcolorbrewer: 
@@ -65,6 +68,7 @@ bioconductor-batchqc
    :depends r-tibble: 
    :depends r-tidyr: 
    :depends r-tidyverse: 
+   :depends r-umap: 
    :requirements:
 
    :additional platforms:
@@ -115,7 +119,7 @@ bioconductor-batchqc
 
     <script>
         var package = "bioconductor-batchqc";
-        var versions = ["2.2.0","1.30.0","1.28.0","1.26.0","1.22.0"];
+        var versions = ["2.6.0","2.2.0","1.30.0","1.28.0","1.26.0"];
     </script>
 
 

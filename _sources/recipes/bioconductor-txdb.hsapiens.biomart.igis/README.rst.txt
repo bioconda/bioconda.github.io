@@ -28,10 +28,10 @@ bioconductor-txdb.hsapiens.biomart.igis
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.2-14</code>,  <code>2.3.2-13</code>,  <code>2.3.2-12</code>,  <code>2.3.2-11</code>,  <code>2.3.2-10</code>,  <code>2.3.2-9</code>,  <code>2.3.2-8</code>,  <code>2.3.2-7</code>,  <code>2.3.2-6</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.2-15</code>,  <code>2.3.2-14</code>,  <code>2.3.2-13</code>,  <code>2.3.2-12</code>,  <code>2.3.2-11</code>,  <code>2.3.2-10</code>,  <code>2.3.2-9</code>,  <code>2.3.2-8</code>,  <code>2.3.2-7</code>,  </span></summary>
       
 
-      ``2.3.2-14``,  ``2.3.2-13``,  ``2.3.2-12``,  ``2.3.2-11``,  ``2.3.2-10``,  ``2.3.2-9``,  ``2.3.2-8``,  ``2.3.2-7``,  ``2.3.2-6``,  ``2.3.2-5``,  ``2.3.2-4``,  ``2.3.2-3``,  ``2.3.2-1``,  ``2.3.2-0``
+      ``2.3.2-15``,  ``2.3.2-14``,  ``2.3.2-13``,  ``2.3.2-12``,  ``2.3.2-11``,  ``2.3.2-10``,  ``2.3.2-9``,  ``2.3.2-8``,  ``2.3.2-7``,  ``2.3.2-6``,  ``2.3.2-5``,  ``2.3.2-4``,  ``2.3.2-3``,  ``2.3.2-1``,  ``2.3.2-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-txdb.hsapiens.biomart.igis
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-data-packages: ``>=20241103``
-   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-data-packages: ``>=20260207``
+   :depends bioconductor-genomicfeatures: ``>=1.62.0,<1.63.0``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:

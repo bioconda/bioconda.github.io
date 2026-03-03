@@ -27,18 +27,18 @@ bioconductor-doubletrouble
       
       
 
-      ``1.6.0-0``,  ``1.2.1-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.2.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
-   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-msa2dist: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-syntenet: ``>=1.8.0,<1.9.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-genomicfeatures: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-msa2dist: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-syntenet: ``>=1.12.0,<1.13.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-ggplot2: 
    :depends r-mclust: 
    :depends r-rlang: 
@@ -92,7 +92,7 @@ bioconductor-doubletrouble
 
     <script>
         var package = "bioconductor-doubletrouble";
-        var versions = ["1.6.0","1.2.1","1.0.0"];
+        var versions = ["1.10.0","1.6.0","1.2.1","1.0.0"];
     </script>
 
 

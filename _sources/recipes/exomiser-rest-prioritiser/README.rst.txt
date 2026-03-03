@@ -29,9 +29,17 @@ exomiser-rest-prioritiser
    :versions:
       
       
+      .. raw:: html
 
-      ``14.1.0-0``,  ``14.0.2-0``,  ``14.0.0-0``,  ``13.3.0-0``,  ``13.2.1-0``,  ``13.2.0-0``,  ``12.1.0-2``,  ``12.1.0-1``,  ``12.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>15.0.0-0</code>,  <code>14.1.0-0</code>,  <code>14.0.2-0</code>,  <code>14.0.0-0</code>,  <code>13.3.0-0</code>,  <code>13.2.1-0</code>,  <code>13.2.0-0</code>,  <code>12.1.0-2</code>,  <code>12.1.0-1</code>,  </span></summary>
+      
 
+      ``15.0.0-0``,  ``14.1.0-0``,  ``14.0.2-0``,  ``14.0.0-0``,  ``13.3.0-0``,  ``13.2.1-0``,  ``13.2.0-0``,  ``12.1.0-2``,  ``12.1.0-1``,  ``12.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -87,7 +95,7 @@ exomiser-rest-prioritiser
 
     <script>
         var package = "exomiser-rest-prioritiser";
-        var versions = ["14.1.0","14.0.2","14.0.0","13.3.0","13.2.1"];
+        var versions = ["15.0.0","14.1.0","14.0.2","14.0.0","13.3.0"];
     </script>
 
 

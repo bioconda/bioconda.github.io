@@ -27,16 +27,16 @@ bioconductor-txdb.hsapiens.ucsc.hg38.refgene
       
       
 
-      ``3.19.0-0``,  ``3.18.0-0``,  ``3.15.0-1``,  ``3.15.0-0``,  ``3.13.0-2``,  ``3.13.0-1``,  ``3.13.0-0``
+      ``3.19.0-1``,  ``3.19.0-0``,  ``3.18.0-0``,  ``3.15.0-1``,  ``3.15.0-0``,  ``3.13.0-2``,  ``3.13.0-1``,  ``3.13.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-data-packages: ``>=20241103``
-   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-data-packages: ``>=20260207``
+   :depends bioconductor-genomicfeatures: ``>=1.62.0,<1.63.0``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -87,7 +87,7 @@ bioconductor-txdb.hsapiens.ucsc.hg38.refgene
 
     <script>
         var package = "bioconductor-txdb.hsapiens.ucsc.hg38.refgene";
-        var versions = ["3.19.0","3.18.0","3.15.0","3.15.0","3.13.0"];
+        var versions = ["3.19.0","3.19.0","3.18.0","3.15.0","3.15.0"];
     </script>
 
 

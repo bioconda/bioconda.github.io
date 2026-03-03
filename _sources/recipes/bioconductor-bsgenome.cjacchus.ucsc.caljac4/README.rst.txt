@@ -27,15 +27,15 @@ bioconductor-bsgenome.cjacchus.ucsc.caljac4
       
       
 
-      ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``
+      ``1.5.0-4``,  ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``
 
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-bsgenome: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-data-packages: ``>=20260207``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -86,7 +86,7 @@ bioconductor-bsgenome.cjacchus.ucsc.caljac4
 
     <script>
         var package = "bioconductor-bsgenome.cjacchus.ucsc.caljac4";
-        var versions = ["1.5.0","1.5.0","1.5.0","1.5.0"];
+        var versions = ["1.5.0","1.5.0","1.5.0","1.5.0","1.5.0"];
     </script>
 
 

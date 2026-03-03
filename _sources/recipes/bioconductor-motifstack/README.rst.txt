@@ -29,10 +29,10 @@ bioconductor-motifstack
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.50.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.1-0</code>,  <code>1.42.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.54.0-0</code>,  <code>1.50.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.1-0</code>,  <code>1.42.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  </span></summary>
       
 
-      ``1.50.0-0``,  ``1.46.0-0``,  ``1.44.1-0``,  ``1.42.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.1-0``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.18.0-0``
+      ``1.54.0-0``,  ``1.50.0-0``,  ``1.46.0-0``,  ``1.44.1-0``,  ``1.42.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.1-0``,  ``1.22.0-0``,  ``1.20.1-0``,  ``1.18.0-0``
 
       
       .. raw:: html
@@ -41,10 +41,10 @@ bioconductor-motifstack
       
 
    
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
-   :depends bioconductor-tfbstools: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-tfbstools: ``>=1.48.0,<1.49.0``
    :depends r-ade4: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-ggplot2: 
    :depends r-htmlwidgets: 
    :depends r-xml: 
@@ -98,7 +98,7 @@ bioconductor-motifstack
 
     <script>
         var package = "bioconductor-motifstack";
-        var versions = ["1.50.0","1.46.0","1.44.1","1.42.0","1.38.0"];
+        var versions = ["1.54.0","1.50.0","1.46.0","1.44.1","1.42.0"];
     </script>
 
 

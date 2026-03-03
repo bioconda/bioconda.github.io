@@ -27,19 +27,18 @@ bioconductor-crisprscore
       
       
 
-      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-basilisk: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-basilisk.utils: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
-   :depends bioconductor-crisprscoredata: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-xvector: ``>=0.46.0,<0.47.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-basilisk: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-crisprscoredata: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-xvector: ``>=0.50.0,<0.51.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-randomforest: 
    :depends r-reticulate: 
    :depends r-stringr: 
@@ -93,7 +92,7 @@ bioconductor-crisprscore
 
     <script>
         var package = "bioconductor-crisprscore";
-        var versions = ["1.10.0","1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.14.0","1.10.0","1.6.0","1.4.0","1.2.0"];
     </script>
 
 

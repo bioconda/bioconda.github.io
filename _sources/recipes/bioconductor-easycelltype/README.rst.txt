@@ -27,17 +27,17 @@ bioconductor-easycelltype
       
       
 
-      ``1.8.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-biocstyle: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-clusterprofiler: ``>=4.14.0,<4.15.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
-   :depends bioconductor-org.mm.eg.db: ``>=3.20.0,<3.21.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-biocstyle: ``>=2.38.0,<2.39.0``
+   :depends bioconductor-clusterprofiler: ``>=4.18.0,<4.19.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-org.mm.eg.db: ``>=3.22.0,<3.23.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dplyr: 
    :depends r-forcats: 
    :depends r-ggplot2: 
@@ -94,7 +94,7 @@ bioconductor-easycelltype
 
     <script>
         var package = "bioconductor-easycelltype";
-        var versions = ["1.8.0","1.2.0","1.0.0"];
+        var versions = ["1.12.0","1.8.0","1.2.0","1.0.0"];
     </script>
 
 

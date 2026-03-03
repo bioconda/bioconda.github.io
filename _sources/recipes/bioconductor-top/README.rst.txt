@@ -27,15 +27,15 @@ bioconductor-top
       
       
 
-      ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.10.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-classifyr: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends bioconductor-classifyr: ``>=3.14.0,<3.15.0``
+   :depends bioconductor-limma: ``>=3.66.0,<3.67.0``
    :depends r-assertthat: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-caret: 
    :depends r-directpa: 
    :depends r-doparallel: 
@@ -110,7 +110,7 @@ bioconductor-top
 
     <script>
         var package = "bioconductor-top";
-        var versions = ["1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.10.0","1.6.0","1.2.0","1.0.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ bioconductor-phastcons100way.ucsc.hg19
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.7.2-15</code>,  <code>3.7.2-14</code>,  <code>3.7.2-13</code>,  <code>3.7.2-12</code>,  <code>3.7.2-11</code>,  <code>3.7.2-10</code>,  <code>3.7.2-9</code>,  <code>3.7.2-8</code>,  <code>3.7.2-7</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.7.2-16</code>,  <code>3.7.2-15</code>,  <code>3.7.2-14</code>,  <code>3.7.2-13</code>,  <code>3.7.2-12</code>,  <code>3.7.2-11</code>,  <code>3.7.2-10</code>,  <code>3.7.2-9</code>,  <code>3.7.2-8</code>,  </span></summary>
       
 
-      ``3.7.2-15``,  ``3.7.2-14``,  ``3.7.2-13``,  ``3.7.2-12``,  ``3.7.2-11``,  ``3.7.2-10``,  ``3.7.2-9``,  ``3.7.2-8``,  ``3.7.2-7``,  ``3.7.2-6``,  ``3.7.2-5``,  ``3.7.2-4``,  ``3.7.2-2``,  ``3.7.2-1``,  ``3.7.2-0``,  ``3.6.0-0``
+      ``3.7.2-16``,  ``3.7.2-15``,  ``3.7.2-14``,  ``3.7.2-13``,  ``3.7.2-12``,  ``3.7.2-11``,  ``3.7.2-10``,  ``3.7.2-9``,  ``3.7.2-8``,  ``3.7.2-7``,  ``3.7.2-6``,  ``3.7.2-5``,  ``3.7.2-4``,  ``3.7.2-2``,  ``3.7.2-1``,  ``3.7.2-0``,  ``3.6.0-0``
 
       
       .. raw:: html
@@ -40,15 +40,15 @@ bioconductor-phastcons100way.ucsc.hg19
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-data-packages: ``>=20241103``
-   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-genomicscores: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends bioconductor-bsgenome: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-data-packages: ``>=20260207``
+   :depends bioconductor-genomeinfodb: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-genomicscores: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:

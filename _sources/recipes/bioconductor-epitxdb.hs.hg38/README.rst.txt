@@ -28,10 +28,10 @@ bioconductor-epitxdb.hs.hg38
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.99.7-8</code>,  <code>0.99.7-7</code>,  <code>0.99.7-6</code>,  <code>0.99.7-5</code>,  <code>0.99.7-4</code>,  <code>0.99.7-3</code>,  <code>0.99.7-2</code>,  <code>0.99.7-1</code>,  <code>0.99.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.99.7-9</code>,  <code>0.99.7-8</code>,  <code>0.99.7-7</code>,  <code>0.99.7-6</code>,  <code>0.99.7-5</code>,  <code>0.99.7-4</code>,  <code>0.99.7-3</code>,  <code>0.99.7-2</code>,  <code>0.99.7-1</code>,  </span></summary>
       
 
-      ``0.99.7-8``,  ``0.99.7-7``,  ``0.99.7-6``,  ``0.99.7-5``,  ``0.99.7-4``,  ``0.99.7-3``,  ``0.99.7-2``,  ``0.99.7-1``,  ``0.99.7-0``,  ``0.99.3-0``
+      ``0.99.7-9``,  ``0.99.7-8``,  ``0.99.7-7``,  ``0.99.7-6``,  ``0.99.7-5``,  ``0.99.7-4``,  ``0.99.7-3``,  ``0.99.7-2``,  ``0.99.7-1``,  ``0.99.7-0``,  ``0.99.3-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-epitxdb.hs.hg38
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-data-packages: ``>=20241103``
-   :depends bioconductor-epitxdb: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-annotationhub: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-data-packages: ``>=20260207``
+   :depends bioconductor-epitxdb: ``>=1.22.0,<1.23.0``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:

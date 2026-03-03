@@ -28,10 +28,10 @@ bioconductor-dmrcatedata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.12.0-1</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.2-0</code>,  <code>2.8.0-0</code>,  <code>2.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.28.0-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-0</code>,  <code>2.12.0-1</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.2-0</code>,  <code>2.8.0-0</code>,  </span></summary>
       
 
-      ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.2-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.2.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``
+      ``2.28.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.2-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.2.0-0``,  ``1.20.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``
 
       
       .. raw:: html
@@ -40,15 +40,15 @@ bioconductor-dmrcatedata
       
 
    
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-gviz: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-data-packages: ``>=20260207``
+   :depends bioconductor-experimenthub: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-genomicfeatures: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-gviz: ``>=1.54.0,<1.55.0``
    :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: ``>=0.6.0,<0.7.0``
    :depends bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19: ``>=0.6.0,<0.7.0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-rtracklayer: ``>=1.70.0,<1.71.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-plyr: 
    :depends r-readxl: 
    :requirements:
@@ -101,7 +101,7 @@ bioconductor-dmrcatedata
 
     <script>
         var package = "bioconductor-dmrcatedata";
-        var versions = ["2.20.0","2.18.0","2.16.0","2.12.0","2.12.0"];
+        var versions = ["2.28.0","2.20.0","2.18.0","2.16.0","2.12.0"];
     </script>
 
 

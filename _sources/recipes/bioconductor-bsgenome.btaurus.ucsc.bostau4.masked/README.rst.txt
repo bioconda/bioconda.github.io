@@ -28,10 +28,10 @@ bioconductor-bsgenome.btaurus.ucsc.bostau4.masked
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.99-13</code>,  <code>1.3.99-12</code>,  <code>1.3.99-11</code>,  <code>1.3.99-10</code>,  <code>1.3.99-9</code>,  <code>1.3.99-8</code>,  <code>1.3.99-7</code>,  <code>1.3.99-6</code>,  <code>1.3.99-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.99-14</code>,  <code>1.3.99-13</code>,  <code>1.3.99-12</code>,  <code>1.3.99-11</code>,  <code>1.3.99-10</code>,  <code>1.3.99-9</code>,  <code>1.3.99-8</code>,  <code>1.3.99-7</code>,  <code>1.3.99-6</code>,  </span></summary>
       
 
-      ``1.3.99-13``,  ``1.3.99-12``,  ``1.3.99-11``,  ``1.3.99-10``,  ``1.3.99-9``,  ``1.3.99-8``,  ``1.3.99-7``,  ``1.3.99-6``,  ``1.3.99-5``,  ``1.3.99-4``,  ``1.3.99-3``,  ``1.3.99-2``,  ``1.3.99-0``
+      ``1.3.99-14``,  ``1.3.99-13``,  ``1.3.99-12``,  ``1.3.99-11``,  ``1.3.99-10``,  ``1.3.99-9``,  ``1.3.99-8``,  ``1.3.99-7``,  ``1.3.99-6``,  ``1.3.99-5``,  ``1.3.99-4``,  ``1.3.99-3``,  ``1.3.99-2``,  ``1.3.99-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-bsgenome.btaurus.ucsc.bostau4.masked
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-bsgenome: ``>=1.78.0,<1.79.0``
    :depends bioconductor-bsgenome.btaurus.ucsc.bostau4: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-data-packages: ``>=20260207``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:

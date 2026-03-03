@@ -28,10 +28,10 @@ bioconductor-cemitool
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.30.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.18.1-0</code>,  <code>1.16.0-0</code>,  <code>1.14.1-0</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.18.1-0</code>,  <code>1.16.0-0</code>,  <code>1.14.1-0</code>,  <code>1.14.0-0</code>,  </span></summary>
       
 
-      ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.18.1-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.3-0``,  ``1.6.10-0``
+      ``1.34.0-0``,  ``1.30.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.18.1-0``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.3-0``,  ``1.6.10-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-cemitool
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=4.14.0,<4.15.0``
-   :depends bioconductor-fgsea: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-clusterprofiler: ``>=4.18.0,<4.19.0``
+   :depends bioconductor-fgsea: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-data.table: ``>=1.9.4``
    :depends r-dplyr: 
    :depends r-dt: 
@@ -116,7 +116,7 @@ bioconductor-cemitool
 
     <script>
         var package = "bioconductor-cemitool";
-        var versions = ["1.30.0","1.26.0","1.24.0","1.22.0","1.18.1"];
+        var versions = ["1.34.0","1.30.0","1.26.0","1.24.0","1.22.0"];
     </script>
 
 

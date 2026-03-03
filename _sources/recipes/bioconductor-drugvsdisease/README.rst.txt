@@ -29,10 +29,10 @@ bioconductor-drugvsdisease
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.48.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-0</code>,  <code>2.40.0-0</code>,  <code>2.36.0-0</code>,  <code>2.34.0-0</code>,  <code>2.32.0-1</code>,  <code>2.32.0-0</code>,  <code>2.30.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.52.0-0</code>,  <code>2.48.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-0</code>,  <code>2.40.0-0</code>,  <code>2.36.0-0</code>,  <code>2.34.0-0</code>,  <code>2.32.0-1</code>,  <code>2.32.0-0</code>,  </span></summary>
       
 
-      ``2.48.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.26.0-1``,  ``2.24.2-0``,  ``2.22.0-0``,  ``2.20.1-0``
+      ``2.52.0-0``,  ``2.48.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-1``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.26.0-1``,  ``2.24.2-0``,  ``2.22.0-0``,  ``2.20.1-0``
 
       
       .. raw:: html
@@ -41,20 +41,20 @@ bioconductor-drugvsdisease
       
 
    
-   :depends bioconductor-affy: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-annotate: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-arrayexpress: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-biomart: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-cmap2data: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-drugvsdiseasedata: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-geoquery: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-affy: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-annotate: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-arrayexpress: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biomart: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-cmap2data: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-drugvsdiseasedata: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-geoquery: ``>=2.78.0,<2.79.0``
    :depends bioconductor-hgu133a.db: ``>=3.13.0,<3.14.0``
    :depends bioconductor-hgu133a2.db: ``>=3.13.0,<3.14.0``
    :depends bioconductor-hgu133plus2.db: ``>=3.13.0,<3.14.0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
-   :depends bioconductor-qvalue: ``>=2.38.0,<2.39.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-limma: ``>=3.66.0,<3.67.0``
+   :depends bioconductor-qvalue: ``>=2.42.0,<2.43.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-runit: 
    :depends r-xtable: 
    :requirements:
@@ -107,7 +107,7 @@ bioconductor-drugvsdisease
 
     <script>
         var package = "bioconductor-drugvsdisease";
-        var versions = ["2.48.0","2.44.0","2.42.0","2.40.0","2.36.0"];
+        var versions = ["2.52.0","2.48.0","2.44.0","2.42.0","2.40.0"];
     </script>
 
 

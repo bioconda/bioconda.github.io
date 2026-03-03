@@ -27,14 +27,14 @@ bioconductor-gnosis
       
       
 
-      ``1.4.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-cbioportaldata: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-maftools: ``>=2.22.0,<2.23.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-cbioportaldata: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-maftools: ``>=2.26.0,<2.27.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-car: 
    :depends r-comparegroups: 
    :depends r-dashboardthemes: 
@@ -110,7 +110,7 @@ bioconductor-gnosis
 
     <script>
         var package = "bioconductor-gnosis";
-        var versions = ["1.4.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.0.0"];
     </script>
 
 

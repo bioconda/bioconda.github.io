@@ -27,31 +27,31 @@ bioconductor-miaviz
       
       
 
-      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-delayedarray: ``>=0.32.0,<0.33.0``
-   :depends bioconductor-dirichletmultinomial: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-ggtree: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-mia: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-scater: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-treesummarizedexperiment: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-delayedarray: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-dirichletmultinomial: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-ggtree: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-mia: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-scater: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-treesummarizedexperiment: ``>=2.18.0,<2.19.0``
    :depends r-ape: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dplyr: 
    :depends r-ggnewscale: 
    :depends r-ggplot2: 
    :depends r-ggraph: ``>=2.0``
    :depends r-ggrepel: 
-   :depends r-purrr: 
    :depends r-rlang: 
+   :depends r-scales: 
    :depends r-tibble: 
    :depends r-tidygraph: 
    :depends r-tidyr: 
@@ -108,7 +108,7 @@ bioconductor-miaviz
 
     <script>
         var package = "bioconductor-miaviz";
-        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.2.0"];
+        var versions = ["1.18.0","1.14.0","1.10.0","1.8.0","1.6.0"];
     </script>
 
 

@@ -27,15 +27,15 @@ bioconductor-dar
       
       
 
-      ``1.2.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-mia: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-phyloseq: ``>=1.50.0,<1.51.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-mia: ``>=1.18.0,<1.19.0``
+   :depends bioconductor-phyloseq: ``>=1.54.0,<1.55.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-cli: 
    :depends r-crayon: 
    :depends r-dplyr: 
@@ -104,7 +104,7 @@ bioconductor-dar
 
     <script>
         var package = "bioconductor-dar";
-        var versions = ["1.2.0"];
+        var versions = ["1.6.0","1.2.0"];
     </script>
 
 

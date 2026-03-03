@@ -27,16 +27,16 @@ bioconductor-camutqc
       
       
 
-      ``1.2.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=4.14.0,<4.15.0``
-   :depends bioconductor-maftools: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-meskit: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-clusterprofiler: ``>=4.18.0,<4.19.0``
+   :depends bioconductor-maftools: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-meskit: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.22.0,<3.23.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-dt: 
@@ -94,7 +94,7 @@ bioconductor-camutqc
 
     <script>
         var package = "bioconductor-camutqc";
-        var versions = ["1.2.0"];
+        var versions = ["1.6.0","1.2.0"];
     </script>
 
 

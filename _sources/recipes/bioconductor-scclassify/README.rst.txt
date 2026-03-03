@@ -27,17 +27,17 @@ bioconductor-scclassify
       
       
 
-      ``1.18.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.22.0-0``,  ``1.18.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-cepo: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-hopach: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-cepo: ``>=1.16.0,<1.17.0``
+   :depends bioconductor-hopach: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-limma: ``>=3.66.0,<3.67.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-cluster: 
    :depends r-diptest: 
    :depends r-ggplot2: 
@@ -100,7 +100,7 @@ bioconductor-scclassify
 
     <script>
         var package = "bioconductor-scclassify";
-        var versions = ["1.18.0","1.12.0","1.10.0","1.6.0","1.4.0"];
+        var versions = ["1.22.0","1.18.0","1.12.0","1.10.0","1.6.0"];
     </script>
 
 

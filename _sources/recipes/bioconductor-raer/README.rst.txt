@@ -27,7 +27,7 @@ bioconductor-raer
       
       
 
-      ``1.8.0-1``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``1.8.0-2``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
@@ -65,6 +65,7 @@ bioconductor-raer
    :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
    :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends liblzma: ``>=5.8.2,<6.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``
@@ -121,7 +122,7 @@ bioconductor-raer
 
     <script>
         var package = "bioconductor-raer";
-        var versions = ["1.8.0","1.8.0","1.4.0","1.0.0"];
+        var versions = ["1.8.0","1.8.0","1.8.0","1.4.0","1.0.0"];
     </script>
 
 

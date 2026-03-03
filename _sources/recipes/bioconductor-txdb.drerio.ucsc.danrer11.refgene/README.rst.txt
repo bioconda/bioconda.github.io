@@ -28,10 +28,10 @@ bioconductor-txdb.drerio.ucsc.danrer11.refgene
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.6-12</code>,  <code>3.4.6-11</code>,  <code>3.4.6-10</code>,  <code>3.4.6-9</code>,  <code>3.4.6-8</code>,  <code>3.4.6-7</code>,  <code>3.4.6-6</code>,  <code>3.4.6-5</code>,  <code>3.4.6-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.6-13</code>,  <code>3.4.6-12</code>,  <code>3.4.6-11</code>,  <code>3.4.6-10</code>,  <code>3.4.6-9</code>,  <code>3.4.6-8</code>,  <code>3.4.6-7</code>,  <code>3.4.6-6</code>,  <code>3.4.6-5</code>,  </span></summary>
       
 
-      ``3.4.6-12``,  ``3.4.6-11``,  ``3.4.6-10``,  ``3.4.6-9``,  ``3.4.6-8``,  ``3.4.6-7``,  ``3.4.6-6``,  ``3.4.6-5``,  ``3.4.6-4``,  ``3.4.6-3``,  ``3.4.6-2``,  ``3.4.6-1``
+      ``3.4.6-13``,  ``3.4.6-12``,  ``3.4.6-11``,  ``3.4.6-10``,  ``3.4.6-9``,  ``3.4.6-8``,  ``3.4.6-7``,  ``3.4.6-6``,  ``3.4.6-5``,  ``3.4.6-4``,  ``3.4.6-3``,  ``3.4.6-2``,  ``3.4.6-1``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-txdb.drerio.ucsc.danrer11.refgene
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-data-packages: ``>=20241103``
-   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-data-packages: ``>=20260207``
+   :depends bioconductor-genomicfeatures: ``>=1.62.0,<1.63.0``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:

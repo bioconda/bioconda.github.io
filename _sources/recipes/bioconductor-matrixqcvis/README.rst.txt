@@ -27,21 +27,21 @@ bioconductor-matrixqcvis
       
       
 
-      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-impute: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
-   :depends bioconductor-pcamethods: ``>=1.98.0,<1.99.0``
-   :depends bioconductor-proda: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-sva: ``>=3.54.0,<3.55.0``
-   :depends bioconductor-vsn: ``>=3.74.0,<3.75.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-complexheatmap: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-experimenthub: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-impute: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-limma: ``>=3.66.0,<3.67.0``
+   :depends bioconductor-pcamethods: ``>=2.2.0,<2.3.0``
+   :depends bioconductor-proda: ``>=1.24.0,<1.25.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-sva: ``>=3.58.0,<3.59.0``
+   :depends bioconductor-vsn: ``>=3.78.0,<3.79.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dplyr: ``>=1.0.5``
    :depends r-dt: ``>=0.33``
    :depends r-ggplot2: ``>=3.3.3``
@@ -111,7 +111,7 @@ bioconductor-matrixqcvis
 
     <script>
         var package = "bioconductor-matrixqcvis";
-        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.2.0"];
+        var versions = ["1.18.0","1.14.0","1.10.0","1.8.0","1.6.0"];
     </script>
 
 

@@ -27,18 +27,18 @@ bioconductor-cardelino
       
       
 
-      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-ggtree: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-snpstats: ``>=1.56.0,<1.57.0``
-   :depends bioconductor-variantannotation: ``>=1.52.0,<1.53.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-genomeinfodb: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-ggtree: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-snpstats: ``>=1.60.0,<1.61.0``
+   :depends bioconductor-variantannotation: ``>=1.56.0,<1.57.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-combinat: 
    :depends r-ggplot2: 
    :depends r-matrix: 
@@ -95,7 +95,7 @@ bioconductor-cardelino
 
     <script>
         var package = "bioconductor-cardelino";
-        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.12.0","1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

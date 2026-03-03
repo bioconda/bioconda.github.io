@@ -27,18 +27,18 @@ bioconductor-condiments
       
       
 
-      ``1.14.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-distinct: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-slingshot: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-trajectoryutils: ``>=1.14.0,<1.15.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-distinct: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-slingshot: ``>=2.18.0,<2.19.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-trajectoryutils: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dplyr: ``>=1.0``
    :depends r-ecume: ``>=0.9.1``
    :depends r-igraph: 
@@ -97,7 +97,7 @@ bioconductor-condiments
 
     <script>
         var package = "bioconductor-condiments";
-        var versions = ["1.14.0","1.8.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.18.0","1.14.0","1.8.0","1.6.0","1.2.0"];
     </script>
 
 

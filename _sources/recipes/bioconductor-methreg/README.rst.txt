@@ -27,31 +27,35 @@ bioconductor-methreg
       
       
 
-      ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.20.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-delayedarray: ``>=0.28.0,<0.29.0``
-   :depends bioconductor-experimenthub: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-sesame: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-sesamedata: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationhub: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-delayedarray: ``>=0.36.0,<0.37.0``
+   :depends bioconductor-experimenthub: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-jaspar2024: ``>=0.99.0,<0.100.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-sesame: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-sesamedata: ``>=1.28.0,<1.29.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-tfbstools: ``>=1.48.0,<1.49.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
    :depends r-ggpubr: 
    :depends r-mass: 
    :depends r-matrix: 
+   :depends r-openxlsx: 
    :depends r-plyr: 
    :depends r-progress: 
    :depends r-pscl: 
    :depends r-readr: 
    :depends r-rlang: 
+   :depends r-rsqlite: 
    :depends r-sfsmisc: 
    :depends r-stringr: 
    :depends r-tibble: 
@@ -106,7 +110,7 @@ bioconductor-methreg
 
     <script>
         var package = "bioconductor-methreg";
-        var versions = ["1.12.0","1.10.0","1.8.0","1.4.0","1.2.1"];
+        var versions = ["1.20.0","1.12.0","1.10.0","1.8.0","1.4.0"];
     </script>
 
 

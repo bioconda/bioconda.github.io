@@ -27,15 +27,15 @@ bioconductor-mbecs
       
       
 
-      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
-   :depends bioconductor-phyloseq: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-sva: ``>=3.54.0,<3.55.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-limma: ``>=3.66.0,<3.67.0``
+   :depends bioconductor-phyloseq: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-sva: ``>=3.58.0,<3.59.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-cluster: 
    :depends r-dplyr: 
    :depends r-ggplot2: 
@@ -100,7 +100,7 @@ bioconductor-mbecs
 
     <script>
         var package = "bioconductor-mbecs";
-        var versions = ["1.10.0","1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.14.0","1.10.0","1.6.0","1.4.0","1.2.0"];
     </script>
 
 

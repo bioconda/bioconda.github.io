@@ -27,24 +27,24 @@ bioconductor-katdetectr
       
       
 
-      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-bsgenome: ``>=1.78.0,<1.79.0``
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: ``>=1.4.0,<1.5.0``
    :depends bioconductor-bsgenome.hsapiens.ucsc.hg38: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-maftools: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-plyranges: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-variantannotation: ``>=1.52.0,<1.53.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-genomeinfodb: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-maftools: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-plyranges: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-variantannotation: ``>=1.56.0,<1.57.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-changepoint: ``>=2.2.3``
    :depends r-changepoint.np: ``>=1.0.3``
    :depends r-checkmate: ``>=2.0.0``
@@ -106,7 +106,7 @@ bioconductor-katdetectr
 
     <script>
         var package = "bioconductor-katdetectr";
-        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.12.0","1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

@@ -29,10 +29,10 @@ bioconductor-prolocgui
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.16.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.22.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.20.0-0</code>,  <code>2.16.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  </span></summary>
       
 
-      ``2.16.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.12.0-0``
+      ``2.20.0-0``,  ``2.16.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.16.0-0``,  ``1.12.0-0``
 
       
       .. raw:: html
@@ -41,11 +41,11 @@ bioconductor-prolocgui
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-msnbase: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-proloc: ``>=1.46.0,<1.47.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-msnbase: ``>=2.36.0,<2.37.0``
+   :depends bioconductor-proloc: ``>=1.50.0,<1.51.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-colorspace: 
    :depends r-colourpicker: 
    :depends r-dplyr: 
@@ -108,7 +108,7 @@ bioconductor-prolocgui
 
     <script>
         var package = "bioconductor-prolocgui";
-        var versions = ["2.16.0","2.12.0","2.10.0","2.8.0","2.4.0"];
+        var versions = ["2.20.0","2.16.0","2.12.0","2.10.0","2.8.0"];
     </script>
 
 

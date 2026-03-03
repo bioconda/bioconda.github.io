@@ -26,25 +26,42 @@ bioconductor-bgeecall
    :versions:
       
       
+      .. raw:: html
 
-      ``1.22.0-0``,  ``1.18.1-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.6.0-0``,  ``1.4.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.18.1-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.2-0</code>,  <code>1.6.0-0</code>,  </span></summary>
+      
 
+      ``1.26.0-0``,  ``1.22.0-0``,  ``1.18.1-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.2-0``,  ``1.6.0-0``,  ``1.4.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends bioconductor-biomart: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
-   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-txdbmaker: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-tximport: ``>=1.34.0,<1.35.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-genomicfeatures: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-rhdf5: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-rtracklayer: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-txdbmaker: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-tximport: ``>=1.38.0,<1.39.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
+   :depends r-curl: 
    :depends r-data.table: 
    :depends r-dplyr: 
+   :depends r-ggplot2: 
    :depends r-jsonlite: 
+   :depends r-rcurl: 
+   :depends r-readr: 
    :depends r-rslurm: 
+   :depends r-rsqlite: 
+   :depends r-scales: 
    :depends r-sjmisc: 
+   :depends r-spatstat.univar: 
+   :depends r-stringr: 
    :requirements:
 
    :additional platforms:
@@ -95,7 +112,7 @@ bioconductor-bgeecall
 
     <script>
         var package = "bioconductor-bgeecall";
-        var versions = ["1.22.0","1.18.1","1.16.0","1.14.0","1.10.0"];
+        var versions = ["1.26.0","1.22.0","1.18.1","1.16.0","1.14.0"];
     </script>
 
 

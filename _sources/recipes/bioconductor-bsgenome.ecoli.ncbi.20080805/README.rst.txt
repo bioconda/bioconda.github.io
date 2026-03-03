@@ -28,10 +28,10 @@ bioconductor-bsgenome.ecoli.ncbi.20080805
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.1000-18</code>,  <code>1.3.1000-17</code>,  <code>1.3.1000-16</code>,  <code>1.3.1000-15</code>,  <code>1.3.1000-14</code>,  <code>1.3.1000-13</code>,  <code>1.3.1000-12</code>,  <code>1.3.1000-11</code>,  <code>1.3.1000-10</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.1000-19</code>,  <code>1.3.1000-18</code>,  <code>1.3.1000-17</code>,  <code>1.3.1000-16</code>,  <code>1.3.1000-15</code>,  <code>1.3.1000-14</code>,  <code>1.3.1000-13</code>,  <code>1.3.1000-12</code>,  <code>1.3.1000-11</code>,  </span></summary>
       
 
-      ``1.3.1000-18``,  ``1.3.1000-17``,  ``1.3.1000-16``,  ``1.3.1000-15``,  ``1.3.1000-14``,  ``1.3.1000-13``,  ``1.3.1000-12``,  ``1.3.1000-11``,  ``1.3.1000-10``,  ``1.3.1000-9``,  ``1.3.1000-8``,  ``1.3.1000-7``,  ``1.3.1000-5``,  ``1.3.1000-4``,  ``1.3.1000-2``,  ``1.3.1000-1``,  ``1.3.1000-0``
+      ``1.3.1000-19``,  ``1.3.1000-18``,  ``1.3.1000-17``,  ``1.3.1000-16``,  ``1.3.1000-15``,  ``1.3.1000-14``,  ``1.3.1000-13``,  ``1.3.1000-12``,  ``1.3.1000-11``,  ``1.3.1000-10``,  ``1.3.1000-9``,  ``1.3.1000-8``,  ``1.3.1000-7``,  ``1.3.1000-5``,  ``1.3.1000-4``,  ``1.3.1000-2``,  ``1.3.1000-1``,  ``1.3.1000-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-bsgenome.ecoli.ncbi.20080805
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-bsgenome: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-data-packages: ``>=20260207``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:

@@ -27,15 +27,15 @@ bioconductor-bsgenome.gmax.ncbi.gmv40
       
       
 
-      ``4.0-3``,  ``4.0-2``,  ``4.0-1``,  ``4.0-0``
+      ``4.0-4``,  ``4.0-3``,  ``4.0-2``,  ``4.0-1``,  ``4.0-0``
 
       
 
    
-   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-bsgenome: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-data-packages: ``>=20260207``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -86,7 +86,7 @@ bioconductor-bsgenome.gmax.ncbi.gmv40
 
     <script>
         var package = "bioconductor-bsgenome.gmax.ncbi.gmv40";
-        var versions = ["4.0","4.0","4.0","4.0"];
+        var versions = ["4.0","4.0","4.0","4.0","4.0"];
     </script>
 
 

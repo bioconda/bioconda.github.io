@@ -28,10 +28,10 @@ bioconductor-txdb.athaliana.biomart.plantsmart28
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.2-13</code>,  <code>3.2.2-12</code>,  <code>3.2.2-11</code>,  <code>3.2.2-10</code>,  <code>3.2.2-9</code>,  <code>3.2.2-8</code>,  <code>3.2.2-7</code>,  <code>3.2.2-6</code>,  <code>3.2.2-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.2-14</code>,  <code>3.2.2-13</code>,  <code>3.2.2-12</code>,  <code>3.2.2-11</code>,  <code>3.2.2-10</code>,  <code>3.2.2-9</code>,  <code>3.2.2-8</code>,  <code>3.2.2-7</code>,  <code>3.2.2-6</code>,  </span></summary>
       
 
-      ``3.2.2-13``,  ``3.2.2-12``,  ``3.2.2-11``,  ``3.2.2-10``,  ``3.2.2-9``,  ``3.2.2-8``,  ``3.2.2-7``,  ``3.2.2-6``,  ``3.2.2-5``,  ``3.2.2-4``,  ``3.2.2-3``,  ``3.2.2-2``,  ``3.2.2-0``
+      ``3.2.2-14``,  ``3.2.2-13``,  ``3.2.2-12``,  ``3.2.2-11``,  ``3.2.2-10``,  ``3.2.2-9``,  ``3.2.2-8``,  ``3.2.2-7``,  ``3.2.2-6``,  ``3.2.2-5``,  ``3.2.2-4``,  ``3.2.2-3``,  ``3.2.2-2``,  ``3.2.2-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-txdb.athaliana.biomart.plantsmart28
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-data-packages: ``>=20241103``
-   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-data-packages: ``>=20260207``
+   :depends bioconductor-genomicfeatures: ``>=1.62.0,<1.63.0``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:

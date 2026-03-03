@@ -27,17 +27,18 @@ bioconductor-enrichviewnet
       
       
 
-      ``1.4.0-0``,  ``1.0.0-0``
+      ``1.8.1-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-dose: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-enrichplot: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-rcy3: ``>=2.26.0,<2.27.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-enrichplot: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-rcy3: ``>=2.30.0,<2.31.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-gprofiler2: 
+   :depends r-igraph: 
    :depends r-jsonlite: 
+   :depends r-reshape2: 
    :depends r-strex: 
    :depends r-stringr: 
    :requirements:
@@ -90,7 +91,7 @@ bioconductor-enrichviewnet
 
     <script>
         var package = "bioconductor-enrichviewnet";
-        var versions = ["1.4.0","1.0.0"];
+        var versions = ["1.8.1","1.4.0","1.0.0"];
     </script>
 
 

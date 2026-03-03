@@ -27,14 +27,14 @@ bioconductor-rmspc
       
       
 
-      ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-rtracklayer: ``>=1.70.0,<1.71.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-biocmanager: 
    :depends r-processx: 
    :depends r-stringr: 
@@ -88,7 +88,7 @@ bioconductor-rmspc
 
     <script>
         var package = "bioconductor-rmspc";
-        var versions = ["1.8.0","1.6.0","1.4.0","1.0.0"];
+        var versions = ["1.16.0","1.8.0","1.6.0","1.4.0","1.0.0"];
     </script>
 
 

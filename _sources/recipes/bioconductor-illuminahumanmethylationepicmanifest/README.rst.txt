@@ -28,10 +28,10 @@ bioconductor-illuminahumanmethylationepicmanifest
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.0-17</code>,  <code>0.3.0-16</code>,  <code>0.3.0-15</code>,  <code>0.3.0-14</code>,  <code>0.3.0-13</code>,  <code>0.3.0-12</code>,  <code>0.3.0-11</code>,  <code>0.3.0-10</code>,  <code>0.3.0-9</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.0-18</code>,  <code>0.3.0-17</code>,  <code>0.3.0-16</code>,  <code>0.3.0-15</code>,  <code>0.3.0-14</code>,  <code>0.3.0-13</code>,  <code>0.3.0-12</code>,  <code>0.3.0-11</code>,  <code>0.3.0-10</code>,  </span></summary>
       
 
-      ``0.3.0-17``,  ``0.3.0-16``,  ``0.3.0-15``,  ``0.3.0-14``,  ``0.3.0-13``,  ``0.3.0-12``,  ``0.3.0-11``,  ``0.3.0-10``,  ``0.3.0-9``,  ``0.3.0-7``,  ``0.3.0-6``,  ``0.3.0-5``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-0``
+      ``0.3.0-18``,  ``0.3.0-17``,  ``0.3.0-16``,  ``0.3.0-15``,  ``0.3.0-14``,  ``0.3.0-13``,  ``0.3.0-12``,  ``0.3.0-11``,  ``0.3.0-10``,  ``0.3.0-9``,  ``0.3.0-7``,  ``0.3.0-6``,  ``0.3.0-5``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bioconductor-illuminahumanmethylationepicmanifest
       
 
    
-   :depends bioconductor-data-packages: ``>=20241103``
-   :depends bioconductor-minfi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-data-packages: ``>=20260207``
+   :depends bioconductor-minfi: ``>=1.56.0,<1.57.0``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:

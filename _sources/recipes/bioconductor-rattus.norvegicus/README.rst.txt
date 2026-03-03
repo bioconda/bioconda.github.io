@@ -28,10 +28,10 @@ bioconductor-rattus.norvegicus
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.1-12</code>,  <code>1.3.1-11</code>,  <code>1.3.1-10</code>,  <code>1.3.1-9</code>,  <code>1.3.1-8</code>,  <code>1.3.1-7</code>,  <code>1.3.1-6</code>,  <code>1.3.1-5</code>,  <code>1.3.1-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.1-13</code>,  <code>1.3.1-12</code>,  <code>1.3.1-11</code>,  <code>1.3.1-10</code>,  <code>1.3.1-9</code>,  <code>1.3.1-8</code>,  <code>1.3.1-7</code>,  <code>1.3.1-6</code>,  <code>1.3.1-5</code>,  </span></summary>
       
 
-      ``1.3.1-12``,  ``1.3.1-11``,  ``1.3.1-10``,  ``1.3.1-9``,  ``1.3.1-8``,  ``1.3.1-7``,  ``1.3.1-6``,  ``1.3.1-5``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-0``
+      ``1.3.1-13``,  ``1.3.1-12``,  ``1.3.1-11``,  ``1.3.1-10``,  ``1.3.1-9``,  ``1.3.1-8``,  ``1.3.1-7``,  ``1.3.1-6``,  ``1.3.1-5``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-0``
 
       
       .. raw:: html
@@ -40,15 +40,15 @@ bioconductor-rattus.norvegicus
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-go.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-org.rn.eg.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-organismdbi: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-data-packages: ``>=20260207``
+   :depends bioconductor-genomicfeatures: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-go.db: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-org.rn.eg.db: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-organismdbi: ``>=1.52.0,<1.53.0``
    :depends bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene: ``>=3.12.0,<3.13.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:

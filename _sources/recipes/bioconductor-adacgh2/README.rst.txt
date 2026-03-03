@@ -47,6 +47,7 @@ bioconductor-adacgh2
    :depends bioconductor-tilingarray: ``>=1.88.0,<1.89.0``
    :depends bioconductor-tilingarray: ``>=1.88.0,<1.89.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends liblzma: ``>=5.8.2,<6.0a0``
    :depends libopenblas: ``>=0.3.31,<1.0a0``

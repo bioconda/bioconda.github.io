@@ -28,10 +28,10 @@ bioconductor-categorycompare
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.50.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.54.0-0</code>,  <code>1.50.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-0</code>,  <code>1.42.0-0</code>,  <code>1.38.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  </span></summary>
       
 
-      ``1.50.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``
+      ``1.54.0-0``,  ``1.50.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``
 
       
       .. raw:: html
@@ -40,17 +40,17 @@ bioconductor-categorycompare
       
 
    
-   :depends bioconductor-annotate: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-category: ``>=2.72.0,<2.73.0``
-   :depends bioconductor-gostats: ``>=2.72.0,<2.73.0``
-   :depends bioconductor-graph: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-gseabase: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-rcy3: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-annotate: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-category: ``>=2.76.0,<2.77.0``
+   :depends bioconductor-gostats: ``>=2.76.0,<2.77.0``
+   :depends bioconductor-graph: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-gseabase: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-rcy3: ``>=2.30.0,<2.31.0``
    :depends cytoscape: ``>=3.6.1``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-colorspace: 
    :depends r-hwriter: 
    :requirements:
@@ -103,7 +103,7 @@ bioconductor-categorycompare
 
     <script>
         var package = "bioconductor-categorycompare";
-        var versions = ["1.50.0","1.46.0","1.44.0","1.42.0","1.38.0"];
+        var versions = ["1.54.0","1.50.0","1.46.0","1.44.0","1.42.0"];
     </script>
 
 

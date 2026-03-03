@@ -27,13 +27,13 @@ bioconductor-regionereloaded
       
       
 
-      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-regioner: ``>=1.38.0,<1.39.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-regioner: ``>=1.42.0,<1.43.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-cluster: 
    :depends r-ggplot2: 
    :depends r-ggrepel: 
@@ -92,7 +92,7 @@ bioconductor-regionereloaded
 
     <script>
         var package = "bioconductor-regionereloaded";
-        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.12.0","1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

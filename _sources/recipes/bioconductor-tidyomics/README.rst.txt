@@ -27,17 +27,16 @@ bioconductor-tidyomics
       
       
 
-      ``1.2.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-nullranges: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-plyranges: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-tidybulk: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-tidysinglecellexperiment: ``>=1.16.0,<1.17.0``
-   :depends bioconductor-tidysummarizedexperiment: ``>=1.16.0,<1.17.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-plyranges: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-tidysinglecellexperiment: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-tidyspatialexperiment: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-tidysummarizedexperiment: ``>=1.20.0,<1.21.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-cli: 
    :depends r-purrr: 
    :depends r-rlang: 
@@ -93,7 +92,7 @@ bioconductor-tidyomics
 
     <script>
         var package = "bioconductor-tidyomics";
-        var versions = ["1.2.0"];
+        var versions = ["1.6.0","1.2.0"];
     </script>
 
 

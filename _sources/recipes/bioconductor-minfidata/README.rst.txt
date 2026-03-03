@@ -28,10 +28,10 @@ bioconductor-minfidata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.52.0-0</code>,  <code>0.48.0-0</code>,  <code>0.46.0-0</code>,  <code>0.44.0-0</code>,  <code>0.40.0-1</code>,  <code>0.40.0-0</code>,  <code>0.38.0-0</code>,  <code>0.36.0-1</code>,  <code>0.36.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.56.0-0</code>,  <code>0.52.0-0</code>,  <code>0.48.0-0</code>,  <code>0.46.0-0</code>,  <code>0.44.0-0</code>,  <code>0.40.0-1</code>,  <code>0.40.0-0</code>,  <code>0.38.0-0</code>,  <code>0.36.0-1</code>,  </span></summary>
       
 
-      ``0.52.0-0``,  ``0.48.0-0``,  ``0.46.0-0``,  ``0.44.0-0``,  ``0.40.0-1``,  ``0.40.0-0``,  ``0.38.0-0``,  ``0.36.0-1``,  ``0.36.0-0``,  ``0.34.0-0``,  ``0.32.0-0``,  ``0.30.0-1``,  ``0.28.0-1``,  ``0.28.0-0``
+      ``0.56.0-0``,  ``0.52.0-0``,  ``0.48.0-0``,  ``0.46.0-0``,  ``0.44.0-0``,  ``0.40.0-1``,  ``0.40.0-0``,  ``0.38.0-0``,  ``0.36.0-1``,  ``0.36.0-0``,  ``0.34.0-0``,  ``0.32.0-0``,  ``0.30.0-1``,  ``0.28.0-1``,  ``0.28.0-0``
 
       
       .. raw:: html
@@ -40,12 +40,12 @@ bioconductor-minfidata
       
 
    
-   :depends bioconductor-data-packages: ``>=20241103``
+   :depends bioconductor-data-packages: ``>=20260207``
    :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: ``>=0.6.0,<0.7.0``
    :depends bioconductor-illuminahumanmethylation450kmanifest: ``>=0.4.0,<0.5.0``
-   :depends bioconductor-minfi: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-minfi: ``>=1.56.0,<1.57.0``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -96,7 +96,7 @@ bioconductor-minfidata
 
     <script>
         var package = "bioconductor-minfidata";
-        var versions = ["0.52.0","0.48.0","0.46.0","0.44.0","0.40.0"];
+        var versions = ["0.56.0","0.52.0","0.48.0","0.46.0","0.44.0"];
     </script>
 
 
