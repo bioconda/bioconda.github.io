@@ -28,10 +28,10 @@ bioconductor-icheck
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.36.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.40.0-0</code>,  <code>1.36.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-1</code>,  <code>1.20.0-0</code>,  </span></summary>
       
 
-      ``1.36.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``
+      ``1.40.0-0``,  ``1.36.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.12.0-0``
 
       
       .. raw:: html
@@ -40,13 +40,13 @@ bioconductor-icheck
       
 
    
-   :depends bioconductor-affy: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-geneselectmmd: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
-   :depends bioconductor-lumi: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-preprocesscore: ``>=1.68.0,<1.69.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-affy: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-geneselectmmd: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-limma: ``>=3.66.0,<3.67.0``
+   :depends bioconductor-lumi: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-preprocesscore: ``>=1.72.0,<1.73.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-gplots: 
    :depends r-lmtest: 
    :depends r-mass: 
@@ -103,7 +103,7 @@ bioconductor-icheck
 
     <script>
         var package = "bioconductor-icheck";
-        var versions = ["1.36.0","1.32.0","1.30.0","1.28.0","1.24.0"];
+        var versions = ["1.40.0","1.36.0","1.32.0","1.30.0","1.28.0"];
     </script>
 
 

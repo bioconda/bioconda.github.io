@@ -27,18 +27,20 @@ bioconductor-famat
       
       
 
-      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.20.3-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=4.14.0,<4.15.0``
-   :depends bioconductor-go.db: ``>=3.20.0,<3.21.0``
-   :depends bioconductor-keggrest: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
-   :depends bioconductor-reactome.db: ``>=1.89.0,<1.90.0``
-   :depends bioconductor-rwikipathways: ``>=1.26.0,<1.27.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-clusterprofiler: ``>=4.18.0,<4.19.0``
+   :depends bioconductor-enrichplot: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-go.db: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-keggrest: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-reactome.db: ``>=1.95.0,<1.96.0``
+   :depends bioconductor-reactomepa: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-rwikipathways: ``>=1.30.0,<1.31.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-biasedurn: 
    :depends r-dplyr: 
    :depends r-dt: 
@@ -102,7 +104,7 @@ bioconductor-famat
 
     <script>
         var package = "bioconductor-famat";
-        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.4.0"];
+        var versions = ["1.20.3","1.16.0","1.12.0","1.10.0","1.8.0"];
     </script>
 
 

@@ -28,10 +28,10 @@ r-samr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0-8</code>,  <code>3.0-7</code>,  <code>3.0-6</code>,  <code>3.0-5</code>,  <code>3.0-4</code>,  <code>3.0-3</code>,  <code>3.0-2</code>,  <code>3.0-1</code>,  <code>3.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0-9</code>,  <code>3.0-8</code>,  <code>3.0-7</code>,  <code>3.0-6</code>,  <code>3.0-5</code>,  <code>3.0-4</code>,  <code>3.0-3</code>,  <code>3.0-2</code>,  <code>3.0-1</code>,  </span></summary>
       
 
-      ``3.0-8``,  ``3.0-7``,  ``3.0-6``,  ``3.0-5``,  ``3.0-4``,  ``3.0-3``,  ``3.0-2``,  ``3.0-1``,  ``3.0-0``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+      ``3.0-9``,  ``3.0-8``,  ``3.0-7``,  ``3.0-6``,  ``3.0-5``,  ``3.0-4``,  ``3.0-3``,  ``3.0-2``,  ``3.0-1``,  ``3.0-0``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
 
       
       .. raw:: html
@@ -41,8 +41,9 @@ r-samr
 
    
    :depends bioconductor-impute: ``>=1.56.0``
-   :depends libgcc-ng: ``>=12``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-impute: ``>=1.84.0,<1.85.0a0``
+   :depends libgcc: ``>=14``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-gsa: 
    :depends r-matrixstats: 
    :depends r-openxlsx: 

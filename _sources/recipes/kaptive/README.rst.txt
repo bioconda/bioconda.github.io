@@ -29,10 +29,10 @@ kaptive
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.0-0</code>,  <code>3.1.0-0</code>,  <code>3.0.0b6-0</code>,  <code>3.0.0b5-0</code>,  <code>3.0.0b4-0</code>,  <code>3.0.0b1-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.1-0</code>,  <code>3.2.0-0</code>,  <code>3.1.0-0</code>,  <code>3.0.0b6-0</code>,  <code>3.0.0b5-0</code>,  <code>3.0.0b4-0</code>,  <code>3.0.0b1-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  </span></summary>
       
 
-      ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0b6-0``,  ``3.0.0b5-0``,  ``3.0.0b4-0``,  ``3.0.0b1-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.0-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-2``,  ``0.5.1-0``,  ``0.3-0``,  ``0.2-0``
+      ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0b6-0``,  ``3.0.0b5-0``,  ``3.0.0b4-0``,  ``3.0.0b1-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.0-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-2``,  ``0.5.1-0``,  ``0.3-0``,  ``0.2-0``
 
       
       .. raw:: html
@@ -44,6 +44,7 @@ kaptive
    :depends biopython: ``>=1.83``
    :depends dna_features_viewer: 
    :depends minimap2: 
+   :depends numpy: 
    :depends python: ``>=3.9``
    :requirements:
 
@@ -95,7 +96,7 @@ kaptive
 
     <script>
         var package = "kaptive";
-        var versions = ["3.2.0","3.1.0","3.0.0b6","3.0.0b5","3.0.0b4"];
+        var versions = ["3.2.1","3.2.0","3.1.0","3.0.0b6","3.0.0b5"];
     </script>
 
 

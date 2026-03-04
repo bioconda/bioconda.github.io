@@ -26,14 +26,22 @@ r-mkmisc
    :versions:
       
       
+      .. raw:: html
 
-      ``1.9-2``,  ``1.9-1``,  ``1.9-0``,  ``1.8-1``,  ``1.8-0``,  ``1.6-3``,  ``1.6-2``,  ``1.6-1``,  ``1.6-0``
+         <details><summary><span class="truncated-version-list"><code>1.9-3</code>,  <code>1.9-2</code>,  <code>1.9-1</code>,  <code>1.9-0</code>,  <code>1.8-1</code>,  <code>1.8-0</code>,  <code>1.6-3</code>,  <code>1.6-2</code>,  <code>1.6-1</code>,  </span></summary>
+      
 
+      ``1.9-3``,  ``1.9-2``,  ``1.9-1``,  ``1.9-0``,  ``1.8-1``,  ``1.8-0``,  ``1.6-3``,  ``1.6-2``,  ``1.6-1``,  ``1.6-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-limma: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-ggplot2: 
    :depends r-rcolorbrewer: 
    :depends r-robustbase: 
@@ -88,7 +96,7 @@ r-mkmisc
 
     <script>
         var package = "r-mkmisc";
-        var versions = ["1.9","1.9","1.9","1.8","1.8"];
+        var versions = ["1.9","1.9","1.9","1.9","1.8"];
     </script>
 
 

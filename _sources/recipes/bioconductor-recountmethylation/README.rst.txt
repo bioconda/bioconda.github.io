@@ -27,19 +27,19 @@ bioconductor-recountmethylation
       
       
 
-      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.20.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-basilisk: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-delayedmatrixstats: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-hdf5array: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-minfi: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-rhdf5: ``>=2.50.0,<2.51.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-basilisk: ``>=1.22.0,<1.23.0``
+   :depends bioconductor-biocfilecache: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-delayedmatrixstats: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-hdf5array: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-minfi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-rhdf5: ``>=2.54.0,<2.55.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-r.utils: 
    :depends r-rcurl: 
    :depends r-reticulate: 
@@ -93,7 +93,7 @@ bioconductor-recountmethylation
 
     <script>
         var package = "bioconductor-recountmethylation";
-        var versions = ["1.16.0","1.12.0","1.10.0","1.8.0","1.4.0"];
+        var versions = ["1.20.0","1.16.0","1.12.0","1.10.0","1.8.0"];
     </script>
 
 

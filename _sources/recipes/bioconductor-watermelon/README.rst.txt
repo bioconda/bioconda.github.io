@@ -29,10 +29,10 @@ bioconductor-watermelon
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.12.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.0.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.16.0-0</code>,  <code>2.12.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.0.0-1</code>,  <code>1.36.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  </span></summary>
       
 
-      ``2.12.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.0.0-1``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
+      ``2.16.0-0``,  ``2.12.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.0.0-1``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,14 @@ bioconductor-watermelon
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
    :depends bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19: ``>=0.6.0,<0.7.0``
-   :depends bioconductor-illuminaio: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
-   :depends bioconductor-lumi: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-methylumi: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-roc: ``>=1.82.0,<1.83.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-illuminaio: ``>=0.52.0,<0.53.0``
+   :depends bioconductor-limma: ``>=3.66.0,<3.67.0``
+   :depends bioconductor-lumi: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-methylumi: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-roc: ``>=1.86.0,<1.87.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-matrixstats: 
    :requirements:
 
@@ -100,7 +100,7 @@ bioconductor-watermelon
 
     <script>
         var package = "bioconductor-watermelon";
-        var versions = ["2.12.0","2.8.0","2.6.0","2.4.0","2.0.0"];
+        var versions = ["2.16.0","2.12.0","2.8.0","2.6.0","2.4.0"];
     </script>
 
 

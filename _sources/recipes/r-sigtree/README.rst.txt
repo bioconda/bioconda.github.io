@@ -28,10 +28,10 @@ r-sigtree
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.10.6-12</code>,  <code>1.10.6-11</code>,  <code>1.10.6-10</code>,  <code>1.10.6-9</code>,  <code>1.10.6-8</code>,  <code>1.10.6-7</code>,  <code>1.10.6-6</code>,  <code>1.10.6-5</code>,  <code>1.10.6-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.10.6-13</code>,  <code>1.10.6-12</code>,  <code>1.10.6-11</code>,  <code>1.10.6-10</code>,  <code>1.10.6-9</code>,  <code>1.10.6-8</code>,  <code>1.10.6-7</code>,  <code>1.10.6-6</code>,  <code>1.10.6-5</code>,  </span></summary>
       
 
-      ``1.10.6-12``,  ``1.10.6-11``,  ``1.10.6-10``,  ``1.10.6-9``,  ``1.10.6-8``,  ``1.10.6-7``,  ``1.10.6-6``,  ``1.10.6-5``,  ``1.10.6-4``,  ``1.10.6-3``,  ``1.10.6-2``,  ``1.10.6-1``,  ``1.10.6-0``
+      ``1.10.6-13``,  ``1.10.6-12``,  ``1.10.6-11``,  ``1.10.6-10``,  ``1.10.6-9``,  ``1.10.6-8``,  ``1.10.6-7``,  ``1.10.6-6``,  ``1.10.6-5``,  ``1.10.6-4``,  ``1.10.6-3``,  ``1.10.6-2``,  ``1.10.6-1``,  ``1.10.6-0``
 
       
       .. raw:: html
@@ -40,12 +40,12 @@ r-sigtree
       
 
    
-   :depends bioconductor-phyloseq: 
-   :depends libgcc-ng: ``>=12``
+   :depends bioconductor-phyloseq: ``>=1.54.0,<1.55.0a0``
+   :depends libgcc: ``>=14``
    :depends r-ape: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-mass: 
-   :depends r-phyext2: 
+   :depends r-phyext2: ``>=0.0.4,<1.0a0``
    :depends r-phylobase: 
    :depends r-rcolorbrewer: 
    :depends r-vegan: 

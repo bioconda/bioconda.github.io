@@ -28,10 +28,10 @@ bioconductor-mirsponger
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.10.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>1.20.1-1</code>,  <code>1.20.1-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.14.1-0</code>,  <code>2.10.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>1.20.1-1</code>,  <code>1.20.1-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  </span></summary>
       
 
-      ``2.10.0-0``,  ``2.4.0-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``1.20.1-1``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.2-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.1-0``
+      ``2.14.1-0``,  ``2.10.0-0``,  ``2.4.0-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``1.20.1-1``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.2-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.1-0``
 
       
       .. raw:: html
@@ -40,27 +40,29 @@ bioconductor-mirsponger
       
 
    
-   :depends bioconductor-clusterprofiler: ``>=4.14.0,<4.15.0``
-   :depends bioconductor-clusterprofiler: ``>=4.14.0,<4.15.0a0``
-   :depends bioconductor-dose: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-dose: ``>=4.0.0,<4.1.0a0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0a0``
-   :depends bioconductor-reactomepa: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-reactomepa: ``>=1.50.0,<1.51.0a0``
-   :depends bioconductor-sponge: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-sponge: ``>=1.28.0,<1.29.0a0``
+   :depends bioconductor-clusterprofiler: ``>=4.18.0,<4.19.0``
+   :depends bioconductor-clusterprofiler: ``>=4.18.4,<4.19.0a0``
+   :depends bioconductor-dose: ``>=4.4.0,<4.5.0``
+   :depends bioconductor-dose: ``>=4.4.0,<4.5.0a0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.22.0,<3.23.0a0``
+   :depends bioconductor-reactomepa: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-reactomepa: ``>=1.54.0,<1.55.0a0``
+   :depends bioconductor-sponge: ``>=1.32.0,<1.33.0``
+   :depends bioconductor-sponge: ``>=1.32.0,<1.33.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libstdcxx: ``>=14``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-corpcor: 
    :depends r-doparallel: 
    :depends r-foreach: 
    :depends r-igraph: 
-   :depends r-linkcomm: 
    :depends r-mcl: 
+   :depends r-rcolorbrewer: 
    :depends r-rcpp: 
    :depends r-survival: 
    :requirements:
@@ -113,7 +115,7 @@ bioconductor-mirsponger
 
     <script>
         var package = "bioconductor-mirsponger";
-        var versions = ["2.10.0","2.4.0","2.2.0","2.2.0","1.20.1"];
+        var versions = ["2.14.1","2.10.0","2.4.0","2.2.0","2.2.0"];
     </script>
 
 

@@ -26,9 +26,17 @@ bioconductor-msstatsconvert
    :versions:
       
       
+      .. raw:: html
 
-      ``1.20.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.3-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+         <details><summary><span class="truncated-version-list"><code>1.20.0-1</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.3-0</code>,  <code>1.8.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  <code>1.0.0-2</code>,  </span></summary>
+      
 
+      ``1.20.0-1``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.3-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -94,7 +102,7 @@ bioconductor-msstatsconvert
 
     <script>
         var package = "bioconductor-msstatsconvert";
-        var versions = ["1.20.0","1.16.0","1.12.0","1.10.3","1.8.0"];
+        var versions = ["1.20.0","1.20.0","1.16.0","1.12.0","1.10.3"];
     </script>
 
 

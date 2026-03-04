@@ -27,7 +27,7 @@ lovis4u
       
       
 
-      ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5.1-0``,  ``0.1.5-0``,  ``0.1.4.1-0``,  ``0.1.1.2-0``
+      ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5.1-0``,  ``0.1.5-0``,  ``0.1.4.1-0``,  ``0.1.1.2-0``
 
       
 
@@ -39,7 +39,7 @@ lovis4u
    :depends matplotlib-base: 
    :depends pandas: 
    :depends progress: 
-   :depends pyhmmer: 
+   :depends pyhmmer: ``>=0.12.0``
    :depends python: 
    :depends reportlab: 
    :depends requests: 
@@ -95,7 +95,7 @@ lovis4u
 
     <script>
         var package = "lovis4u";
-        var versions = ["0.1.7","0.1.6","0.1.5.1","0.1.5","0.1.4.1"];
+        var versions = ["0.1.8","0.1.7","0.1.6","0.1.5.1","0.1.5"];
     </script>
 
 

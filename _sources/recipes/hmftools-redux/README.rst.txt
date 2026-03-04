@@ -28,10 +28,10 @@ hmftools-redux
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1-1</code>,  <code>1.1-0</code>,  <code>1.0_beta-6</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.3-1</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1-1</code>,  <code>1.1-0</code>,  </span></summary>
       
 
-      ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0_beta-6``,  ``1.0_beta-5``,  ``1.0_beta-4``,  ``1.0_beta-3``,  ``1.0_beta-2``,  ``1.0_beta-1``,  ``1.0_beta-0``
+      ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0_beta-6``,  ``1.0_beta-5``,  ``1.0_beta-4``,  ``1.0_beta-3``,  ``1.0_beta-2``,  ``1.0_beta-1``,  ``1.0_beta-0``
 
       
       .. raw:: html
@@ -40,8 +40,16 @@ hmftools-redux
       
 
    
+   :depends bioconductor-genomicranges: 
+   :depends bioconductor-variantannotation: 
+   :depends font-ttf-dejavu: 
    :depends openjdk: ``>=8,<=21``
+   :depends r-dplyr: 
+   :depends r-ggplot2: 
+   :depends r-patchwork: 
+   :depends r-tidyr: 
    :depends samtools: ``>=1.14``
+   :depends xorg-libxt: 
    :requirements:
 
    :additional platforms:
@@ -92,7 +100,7 @@ hmftools-redux
 
     <script>
         var package = "hmftools-redux";
-        var versions = ["1.2.3","1.2.2","1.2.1","1.2","1.1.2"];
+        var versions = ["1.2.3","1.2.3","1.2.2","1.2.1","1.2"];
     </script>
 
 

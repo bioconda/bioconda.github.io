@@ -29,10 +29,10 @@ bioconductor-lumi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.58.0-0</code>,  <code>2.54.0-0</code>,  <code>2.52.0-0</code>,  <code>2.50.0-0</code>,  <code>2.46.0-1</code>,  <code>2.44.0-0</code>,  <code>2.42.0-1</code>,  <code>2.42.0-0</code>,  <code>2.40.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.62.0-1</code>,  <code>2.58.0-0</code>,  <code>2.54.0-0</code>,  <code>2.52.0-0</code>,  <code>2.50.0-0</code>,  <code>2.46.0-1</code>,  <code>2.44.0-0</code>,  <code>2.42.0-1</code>,  <code>2.42.0-0</code>,  </span></summary>
       
 
-      ``2.58.0-0``,  ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.46.0-1``,  ``2.44.0-0``,  ``2.42.0-1``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``
+      ``2.62.0-1``,  ``2.58.0-0``,  ``2.54.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.46.0-1``,  ``2.44.0-0``,  ``2.42.0-1``,  ``2.42.0-0``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``
 
       
       .. raw:: html
@@ -41,15 +41,15 @@ bioconductor-lumi
       
 
    
-   :depends bioconductor-affy: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-annotate: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-methylumi: ``>=2.52.0,<2.53.0``
-   :depends bioconductor-preprocesscore: ``>=1.68.0,<1.69.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-affy: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-annotate: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-genomicfeatures: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-methylumi: ``>=2.56.0,<2.57.0``
+   :depends bioconductor-preprocesscore: ``>=1.72.0,<1.73.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dbi: 
    :depends r-kernsmooth: 
    :depends r-lattice: 
@@ -107,7 +107,7 @@ bioconductor-lumi
 
     <script>
         var package = "bioconductor-lumi";
-        var versions = ["2.58.0","2.54.0","2.52.0","2.50.0","2.46.0"];
+        var versions = ["2.62.0","2.58.0","2.54.0","2.52.0","2.50.0"];
     </script>
 
 

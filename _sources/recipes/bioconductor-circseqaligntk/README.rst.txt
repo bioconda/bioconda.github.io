@@ -27,24 +27,30 @@ bioconductor-circseqaligntk
       
       
 
-      ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-rbowtie2: ``>=2.8.0,<2.9.0``
-   :depends bioconductor-rhisat2: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-shortread: ``>=1.60.0,<1.61.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-rbowtie2: ``>=2.16.0,<2.17.0``
+   :depends bioconductor-rhisat2: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-rsamtools: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-shortread: ``>=1.68.0,<1.69.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dplyr: 
    :depends r-ggplot2: 
+   :depends r-htmltools: 
    :depends r-magrittr: 
+   :depends r-plotly: 
+   :depends r-r.utils: 
    :depends r-rlang: 
+   :depends r-shiny: 
+   :depends r-shinyfiles: 
+   :depends r-shinyjs: 
    :depends r-tidyr: 
    :requirements:
 
@@ -96,7 +102,7 @@ bioconductor-circseqaligntk
 
     <script>
         var package = "bioconductor-circseqaligntk";
-        var versions = ["1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.12.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

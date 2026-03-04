@@ -27,18 +27,18 @@ bioconductor-duplexdiscoverer
       
       
 
-      ``1.0.0-0``
+      ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
-   :depends bioconductor-genomicalignments: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-gviz: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-interactionset: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-genomicalignments: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-gviz: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-interactionset: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-rtracklayer: ``>=1.70.0,<1.71.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dplyr: 
    :depends r-ggsci: 
    :depends r-igraph: 
@@ -48,6 +48,7 @@ bioconductor-duplexdiscoverer
    :depends r-stringr: 
    :depends r-tibble: 
    :depends r-tidyr: 
+   :depends r-vctrs: 
    :requirements:
 
    :additional platforms:
@@ -98,7 +99,7 @@ bioconductor-duplexdiscoverer
 
     <script>
         var package = "bioconductor-duplexdiscoverer";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.0","1.0.0"];
     </script>
 
 

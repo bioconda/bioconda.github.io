@@ -29,10 +29,10 @@ bioconductor-reportingtools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.46.0-0</code>,  <code>2.42.2-0</code>,  <code>2.39.0-0</code>,  <code>2.38.0-0</code>,  <code>2.34.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.2-0</code>,  <code>2.30.0-0</code>,  <code>2.28.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.50.0-0</code>,  <code>2.46.0-0</code>,  <code>2.42.2-0</code>,  <code>2.39.0-0</code>,  <code>2.38.0-0</code>,  <code>2.34.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.2-0</code>,  <code>2.30.0-0</code>,  </span></summary>
       
 
-      ``2.46.0-0``,  ``2.42.2-0``,  ``2.39.0-0``,  ``2.38.0-0``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.2-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-1``,  ``2.22.1-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.17.3-0``
+      ``2.50.0-0``,  ``2.46.0-0``,  ``2.42.2-0``,  ``2.39.0-0``,  ``2.38.0-0``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.2-0``,  ``2.30.0-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-1``,  ``2.22.1-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.17.3-0``
 
       
       .. raw:: html
@@ -41,20 +41,20 @@ bioconductor-reportingtools
       
 
    
-   :depends bioconductor-annotate: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-category: ``>=2.72.0,<2.73.0``
-   :depends bioconductor-deseq2: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
-   :depends bioconductor-ggbio: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-gostats: ``>=2.72.0,<2.73.0``
-   :depends bioconductor-gseabase: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
-   :depends bioconductor-pfam.db: ``>=3.20.0,<3.21.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-annotate: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-category: ``>=2.76.0,<2.77.0``
+   :depends bioconductor-deseq2: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-edger: ``>=4.8.0,<4.9.0``
+   :depends bioconductor-ggbio: ``>=1.58.0,<1.59.0``
+   :depends bioconductor-gostats: ``>=2.76.0,<2.77.0``
+   :depends bioconductor-gseabase: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-limma: ``>=3.66.0,<3.67.0``
+   :depends bioconductor-pfam.db: ``>=3.22.0,<3.23.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-ggplot2: 
    :depends r-hwriter: 
    :depends r-knitr: 
@@ -111,7 +111,7 @@ bioconductor-reportingtools
 
     <script>
         var package = "bioconductor-reportingtools";
-        var versions = ["2.46.0","2.42.2","2.39.0","2.38.0","2.34.0"];
+        var versions = ["2.50.0","2.46.0","2.42.2","2.39.0","2.38.0"];
     </script>
 
 

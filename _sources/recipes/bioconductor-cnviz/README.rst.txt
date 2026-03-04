@@ -27,15 +27,15 @@ bioconductor-cnviz
       
       
 
-      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-copynumberplots: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-karyoploter: ``>=1.32.0,<1.33.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-copynumberplots: ``>=1.26.0,<1.27.0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-karyoploter: ``>=1.36.0,<1.37.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dplyr: 
    :depends r-dt: 
    :depends r-magrittr: 
@@ -92,7 +92,7 @@ bioconductor-cnviz
 
     <script>
         var package = "bioconductor-cnviz";
-        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.2.0"];
+        var versions = ["1.18.0","1.14.0","1.10.0","1.8.0","1.6.0"];
     </script>
 
 

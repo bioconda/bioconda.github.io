@@ -75,6 +75,7 @@ bioconductor-eventpointer
    :depends bioconductor-tximport: ``>=1.38.0,<1.39.0``
    :depends bioconductor-tximport: ``>=1.38.2,<1.39.0a0``
    :depends libblas: ``>=3.9.0,<4.0a0``
+   :depends libgcc: ``>=14``
    :depends liblapack: ``>=3.9.0,<4.0a0``
    :depends liblzma: ``>=5.8.2,<6.0a0``
    :depends libzlib: ``>=1.3.1,<2.0a0``

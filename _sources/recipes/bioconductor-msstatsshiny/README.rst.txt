@@ -27,17 +27,20 @@ bioconductor-msstatsshiny
       
       
 
-      ``1.4.1-0``,  ``1.2.3-0``,  ``1.0.0-0``
+      ``1.12.1-0``,  ``1.4.1-0``,  ``1.2.3-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-marray: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-msstats: ``>=4.10.0,<4.11.0``
-   :depends bioconductor-msstatsconvert: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-msstatsptm: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-msstatstmt: ``>=2.10.0,<2.11.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-marray: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-msstats: ``>=4.18.0,<4.19.0``
+   :depends bioconductor-msstatsbionet: ``>=1.2.0,<1.3.0``
+   :depends bioconductor-msstatsconvert: ``>=1.20.0,<1.21.0``
+   :depends bioconductor-msstatsptm: ``>=2.12.0,<2.13.0``
+   :depends bioconductor-msstatsresponse: ``>=1.0.0,<1.1.0``
+   :depends bioconductor-msstatstmt: ``>=2.18.0,<2.19.0``
+   :depends r-arrow: 
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-data.table: 
    :depends r-dplyr: 
    :depends r-dt: 
@@ -46,10 +49,13 @@ bioconductor-msstatsshiny
    :depends r-gplots: 
    :depends r-hmisc: 
    :depends r-htmltools: 
+   :depends r-mockery: 
+   :depends r-plotly: 
    :depends r-readxl: 
    :depends r-shiny: 
    :depends r-shinybs: 
    :depends r-shinybusy: 
+   :depends r-shinydashboard: 
    :depends r-shinyjs: 
    :depends r-tidyr: 
    :depends r-uuid: 
@@ -103,7 +109,7 @@ bioconductor-msstatsshiny
 
     <script>
         var package = "bioconductor-msstatsshiny";
-        var versions = ["1.4.1","1.2.3","1.0.0"];
+        var versions = ["1.12.1","1.4.1","1.2.3","1.0.0"];
     </script>
 
 

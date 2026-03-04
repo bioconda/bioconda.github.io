@@ -28,15 +28,15 @@ mfold
       
       
 
-      ``3.6-3``,  ``3.6-2``,  ``3.6-1``,  ``3.6-0``
+      ``3.6-4``,  ``3.6-3``,  ``3.6-2``,  ``3.6-1``,  ``3.6-0``
 
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libgfortran-ng: 
-   :depends libgfortran5: ``>=12.2.0``
-   :depends libstdcxx-ng: ``>=12``
+   :depends libgcc: ``>=14``
+   :depends libgfortran: 
+   :depends libgfortran5: ``>=14.3.0``
+   :depends libstdcxx: ``>=14``
    :requirements:
 
    :additional platforms:
@@ -87,7 +87,7 @@ mfold
 
     <script>
         var package = "mfold";
-        var versions = ["3.6","3.6","3.6","3.6"];
+        var versions = ["3.6","3.6","3.6","3.6","3.6"];
     </script>
 
 

@@ -26,19 +26,28 @@ starseqr
    :versions:
       
       
+      .. raw:: html
 
-      ``0.6.7-5``,  ``0.6.7-4``,  ``0.6.7-3``,  ``0.6.7-2``,  ``0.6.7-1``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.3-0``,  ``0.5.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.6.7-6</code>,  <code>0.6.7-5</code>,  <code>0.6.7-4</code>,  <code>0.6.7-3</code>,  <code>0.6.7-2</code>,  <code>0.6.7-1</code>,  <code>0.6.7-0</code>,  <code>0.6.6-0</code>,  <code>0.6.3-0</code>,  </span></summary>
+      
 
+      ``0.6.7-6``,  ``0.6.7-5``,  ``0.6.7-4``,  ``0.6.7-3``,  ``0.6.7-2``,  ``0.6.7-1``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.3-0``,  ``0.5.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends gffread: 
+   :depends gffread: ``>=0.12.7,<0.13.0a0``
    :depends intervaltree_bio: 
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=14``
    :depends networkx: 
-   :depends numpy: ``>=1.21.6,<2.0a0``
+   :depends numpy: ``>=1.21,<3``
    :depends pandas: ``>=0.18.1``
-   :depends primer3-py: 
+   :depends primer3-py: ``>=2.3.0,<3.0a0``
+   :depends pysam: ``>=0.23.3,<0.24.0a0``
    :depends pysam: ``>=0.9.1.4``
    :depends python: ``>=3.10,<3.11.0a0``
    :depends python_abi: ``3.10.* *_cp310``

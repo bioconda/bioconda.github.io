@@ -28,10 +28,10 @@ cancerit-allelecount
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.3.0-7</code>,  <code>4.3.0-6</code>,  <code>4.3.0-5</code>,  <code>4.3.0-4</code>,  <code>4.3.0-3</code>,  <code>4.3.0-2</code>,  <code>4.3.0-1</code>,  <code>4.3.0-0</code>,  <code>4.2.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.3.0-9</code>,  <code>4.3.0-7</code>,  <code>4.3.0-6</code>,  <code>4.3.0-5</code>,  <code>4.3.0-4</code>,  <code>4.3.0-3</code>,  <code>4.3.0-2</code>,  <code>4.3.0-1</code>,  <code>4.3.0-0</code>,  </span></summary>
       
 
-      ``4.3.0-7``,  ``4.3.0-6``,  ``4.3.0-5``,  ``4.3.0-4``,  ``4.3.0-3``,  ``4.3.0-2``,  ``4.3.0-1``,  ``4.3.0-0``,  ``4.2.1-1``,  ``4.2.1-0``,  ``4.2.0-0``,  ``4.0.2-2``,  ``4.0.2-1``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``
+      ``4.3.0-9``,  ``4.3.0-7``,  ``4.3.0-6``,  ``4.3.0-5``,  ``4.3.0-4``,  ``4.3.0-3``,  ``4.3.0-2``,  ``4.3.0-1``,  ``4.3.0-0``,  ``4.2.1-1``,  ``4.2.1-0``,  ``4.2.0-0``,  ``4.0.2-2``,  ``4.0.2-1``,  ``2.1.2-3``,  ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``
 
       
       .. raw:: html
@@ -41,10 +41,11 @@ cancerit-allelecount
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends htslib: ``>=1.20,<1.24.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
-   :depends xz: ``>=5.2.6,<6.0a0``
+   :depends htslib: ``>=1.23,<1.24.0a0``
+   :depends libgcc: ``>=14``
+   :depends liblzma: ``>=5.8.2,<6.0a0``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
+   :depends xz: 
    :depends zlib: 
    :requirements:
 

@@ -27,26 +27,26 @@ bioconductor-genomicplot
       
       
 
-      ``1.4.0-0``,  ``1.0.0-0``
+      ``1.8.1-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-edger: ``>=4.4.0,<4.5.0``
-   :depends bioconductor-genomation: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-genomicalignments: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-plyranges: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-rcas: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-rsamtools: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-txdbmaker: ``>=1.2.0,<1.3.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-complexheatmap: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-edger: ``>=4.8.0,<4.9.0``
+   :depends bioconductor-genomation: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-genomicalignments: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-genomicfeatures: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-plyranges: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-rcas: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-rsamtools: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-rtracklayer: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-seqinfo: ``>=1.0.0,<1.1.0``
+   :depends bioconductor-txdbmaker: ``>=1.6.0,<1.7.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-circlize: 
    :depends r-cowplot: ``>=1.1.1``
    :depends r-dplyr: 
@@ -109,7 +109,7 @@ bioconductor-genomicplot
 
     <script>
         var package = "bioconductor-genomicplot";
-        var versions = ["1.4.0","1.0.0"];
+        var versions = ["1.8.1","1.4.0","1.0.0"];
     </script>
 
 

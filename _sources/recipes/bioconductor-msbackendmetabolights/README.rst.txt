@@ -27,17 +27,18 @@ bioconductor-msbackendmetabolights
       
       
 
-      ``1.0.0-0``
+      ``1.4.2-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-protgenerics: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-spectra: ``>=1.16.0,<1.17.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biocfilecache: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-protgenerics: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-spectra: ``>=1.20.0,<1.21.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-curl: 
+   :depends r-progress: 
    :requirements:
 
    :additional platforms:
@@ -88,7 +89,7 @@ bioconductor-msbackendmetabolights
 
     <script>
         var package = "bioconductor-msbackendmetabolights";
-        var versions = ["1.0.0"];
+        var versions = ["1.4.2","1.0.0"];
     </script>
 
 

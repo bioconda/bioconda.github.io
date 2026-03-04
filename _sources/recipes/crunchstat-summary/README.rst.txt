@@ -29,12 +29,12 @@ crunchstat-summary
       
       
 
-      ``3.2.0-0``,  ``3.1.2-0``
+      ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.2-0``
 
       
 
    
-   :depends arvados-python-client: ``3.2.0``
+   :depends arvados-python-client: ``3.2.1``
    :depends python: ``>=3.8``
    :requirements:
 
@@ -86,7 +86,7 @@ crunchstat-summary
 
     <script>
         var package = "crunchstat-summary";
-        var versions = ["3.2.0","3.1.2"];
+        var versions = ["3.2.1","3.2.0","3.1.2"];
     </script>
 
 

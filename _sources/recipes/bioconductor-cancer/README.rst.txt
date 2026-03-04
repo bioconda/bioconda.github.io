@@ -27,17 +27,17 @@ bioconductor-cancer
       
       
 
-      ``1.40.0-0``,  ``1.36.0-0``,  ``1.32.0-0``
+      ``1.44.0-0``,  ``1.40.0-0``,  ``1.36.0-0``,  ``1.32.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-cbioportaldata: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-genetclassifier: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-gseabase: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-phenotest: ``>=1.54.0,<1.55.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-cbioportaldata: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-genetclassifier: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-gseabase: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-phenotest: ``>=1.58.0,<1.59.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-circlize: 
    :depends r-dplyr: 
    :depends r-formula: 
@@ -99,7 +99,7 @@ bioconductor-cancer
 
     <script>
         var package = "bioconductor-cancer";
-        var versions = ["1.40.0","1.36.0","1.32.0"];
+        var versions = ["1.44.0","1.40.0","1.36.0","1.32.0"];
     </script>
 
 

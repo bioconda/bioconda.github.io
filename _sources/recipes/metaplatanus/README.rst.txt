@@ -27,7 +27,7 @@ metaplatanus
       
       
 
-      ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``
+      ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``
 
       
 
@@ -36,9 +36,9 @@ metaplatanus
    :depends bzip2: ``>=1.0.8,<2.0a0``
    :depends file: 
    :depends gzip: 
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<1.3.0a0``
+   :depends libgcc: ``>=14``
+   :depends libstdcxx: ``>=14``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends megahit: ``>=1.2.9``
    :depends metabat2: ``>=2.12.1``
    :depends minimap2: ``>=2.17``
@@ -100,7 +100,7 @@ metaplatanus
 
     <script>
         var package = "metaplatanus";
-        var versions = ["1.3.1","1.3.1","1.3.0","1.3.0"];
+        var versions = ["1.3.1","1.3.1","1.3.1","1.3.0","1.3.0"];
     </script>
 
 

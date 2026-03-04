@@ -28,10 +28,10 @@ bioconductor-biocancer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  </span></summary>
       
 
-      ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
+      ``1.38.0-0``,  ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.0-0``
 
       
       .. raw:: html
@@ -40,19 +40,19 @@ bioconductor-biocancer
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-cbioportaldata: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-clusterprofiler: ``>=4.14.0,<4.15.0``
-   :depends bioconductor-dose: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-genetclassifier: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-go.db: ``>=3.20.0,<3.21.0``
-   :depends bioconductor-org.bt.eg.db: ``>=3.20.0,<3.21.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
-   :depends bioconductor-reactome.db: ``>=1.89.0,<1.90.0``
-   :depends bioconductor-reactomepa: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-cbioportaldata: ``>=2.22.0,<2.23.0``
+   :depends bioconductor-clusterprofiler: ``>=4.18.0,<4.19.0``
+   :depends bioconductor-dose: ``>=4.4.0,<4.5.0``
+   :depends bioconductor-genetclassifier: ``>=1.50.0,<1.51.0``
+   :depends bioconductor-go.db: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-org.bt.eg.db: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-reactome.db: ``>=1.95.0,<1.96.0``
+   :depends bioconductor-reactomepa: ``>=1.54.0,<1.55.0``
    :depends r-algdesign: ``>=1.1.7.3``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-diagrammer: ``<=1.01``
    :depends r-dplyr: ``>=0.7.2``
    :depends r-dt: ``>=0.3``
@@ -118,7 +118,7 @@ bioconductor-biocancer
 
     <script>
         var package = "bioconductor-biocancer";
-        var versions = ["1.34.0","1.30.0","1.28.0","1.26.0","1.22.0"];
+        var versions = ["1.38.0","1.34.0","1.30.0","1.28.0","1.26.0"];
     </script>
 
 

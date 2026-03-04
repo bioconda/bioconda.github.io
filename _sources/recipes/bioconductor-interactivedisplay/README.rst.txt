@@ -28,16 +28,16 @@ bioconductor-interactivedisplay
       
       
 
-      ``1.38.0-0``,  ``1.36.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.18.0-0``,  ``1.16.0-0``
+      ``1.48.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.18.0-0``,  ``1.16.0-0``
 
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-biocgenerics: ``>=0.46.0,<0.47.0``
-   :depends bioconductor-category: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-interactivedisplaybase: ``>=1.38.0,<1.39.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-category: ``>=2.76.0,<2.77.0``
+   :depends bioconductor-interactivedisplaybase: ``>=1.48.0,<1.49.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-biocmanager: 
    :depends r-ggplot2: 
    :depends r-gridsvg: 
@@ -96,7 +96,7 @@ bioconductor-interactivedisplay
 
     <script>
         var package = "bioconductor-interactivedisplay";
-        var versions = ["1.38.0","1.36.0","1.32.0","1.30.0","1.28.0"];
+        var versions = ["1.48.0","1.38.0","1.36.0","1.32.0","1.30.0"];
     </script>
 
 

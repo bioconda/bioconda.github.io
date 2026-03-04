@@ -28,10 +28,10 @@ bioconductor-biocpkgtools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.12.2-0</code>,  <code>1.10.1-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.27.12-0</code>,  <code>1.24.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.12.2-0</code>,  <code>1.10.1-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  </span></summary>
       
 
-      ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.12.2-0``,  ``1.10.1-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.2-0``
+      ``1.27.12-0``,  ``1.24.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.12.2-0``,  ``1.10.1-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -40,28 +40,33 @@ bioconductor-biocpkgtools
       
 
    
-   :depends bioconductor-biocfilecache: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-biocviews: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-graph: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-rbgl: ``>=1.82.0,<1.83.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biocfilecache: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-biocviews: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-graph: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-rbgl: ``>=1.86.0,<1.87.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-biocmanager: 
+   :depends r-curl: 
    :depends r-dplyr: 
    :depends r-dt: 
    :depends r-gh: 
+   :depends r-glue: 
    :depends r-htmltools: 
    :depends r-htmlwidgets: 
    :depends r-httr: 
-   :depends r-igraph: 
+   :depends r-httr2: 
+   :depends r-igraph: ``>=2.0.0``
    :depends r-jsonlite: 
-   :depends r-magrittr: 
+   :depends r-lubridate: 
+   :depends r-purrr: 
    :depends r-readr: 
    :depends r-rlang: 
-   :depends r-rorcid: 
    :depends r-rvest: 
    :depends r-stringr: 
    :depends r-tibble: 
+   :depends r-tidyr: 
    :depends r-xml2: 
+   :depends r-yaml: 
    :requirements:
 
    :additional platforms:
@@ -112,7 +117,7 @@ bioconductor-biocpkgtools
 
     <script>
         var package = "bioconductor-biocpkgtools";
-        var versions = ["1.24.0","1.20.0","1.18.0","1.16.0","1.12.2"];
+        var versions = ["1.27.12","1.24.0","1.20.0","1.18.0","1.16.0"];
     </script>
 
 

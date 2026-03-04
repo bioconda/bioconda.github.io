@@ -10,7 +10,7 @@ priorcons
    :replaces_section_title:
    :noindex:
 
-   Tool for integrating consensus sequences using prior information.
+   Prior\-guided integration tool that improves viral consensus sequences by filling masked regions using candidate sequences validated against evolutionary priors.
 
    :homepage: https://github.com/GERMAN00VP/priorcons
    :license: APL-1.0
@@ -27,7 +27,7 @@ priorcons
       
       
 
-      ``0.1.0-0``
+      ``0.1.4-0``,  ``0.1.0-0``
 
       
 
@@ -87,7 +87,7 @@ priorcons
 
     <script>
         var package = "priorcons";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.4","0.1.0"];
     </script>
 
 

@@ -27,14 +27,14 @@ bioconductor-rebook
       
       
 
-      ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.1-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.20.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.1-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
    
-   :depends bioconductor-biocstyle: ``>=2.34.0,<2.35.0``
-   :depends bioconductor-dir.expiry: ``>=1.14.0,<1.15.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biocstyle: ``>=2.38.0,<2.39.0``
+   :depends bioconductor-dir.expiry: ``>=1.18.0,<1.19.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-codedepends: 
    :depends r-filelock: 
    :depends r-knitr: ``>=1.32``
@@ -89,7 +89,7 @@ bioconductor-rebook
 
     <script>
         var package = "bioconductor-rebook";
-        var versions = ["1.16.0","1.12.0","1.10.1","1.8.0","1.4.0"];
+        var versions = ["1.20.0","1.16.0","1.12.0","1.10.1","1.8.0"];
     </script>
 
 

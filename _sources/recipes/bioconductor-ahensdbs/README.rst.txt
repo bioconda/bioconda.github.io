@@ -28,10 +28,10 @@ bioconductor-ahensdbs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.10-0</code>,  <code>1.1.8-1</code>,  <code>1.1.8-0</code>,  <code>1.1.4-1</code>,  <code>1.1.2-0</code>,  <code>1.0.18-1</code>,  <code>1.0.18-0</code>,  <code>1.0.15-0</code>,  <code>1.0.14-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7.0-0</code>,  <code>1.1.10-0</code>,  <code>1.1.8-1</code>,  <code>1.1.8-0</code>,  <code>1.1.4-1</code>,  <code>1.1.2-0</code>,  <code>1.0.18-1</code>,  <code>1.0.18-0</code>,  <code>1.0.15-0</code>,  </span></summary>
       
 
-      ``1.1.10-0``,  ``1.1.8-1``,  ``1.1.8-0``,  ``1.1.4-1``,  ``1.1.2-0``,  ``1.0.18-1``,  ``1.0.18-0``,  ``1.0.15-0``,  ``1.0.14-0``,  ``1.0.12-0``,  ``1.0.9-1``,  ``1.0.8-0``
+      ``1.7.0-0``,  ``1.1.10-0``,  ``1.1.8-1``,  ``1.1.8-0``,  ``1.1.4-1``,  ``1.1.2-0``,  ``1.0.18-1``,  ``1.0.18-0``,  ``1.0.15-0``,  ``1.0.14-0``,  ``1.0.12-0``,  ``1.0.9-1``,  ``1.0.8-0``
 
       
       .. raw:: html
@@ -40,11 +40,11 @@ bioconductor-ahensdbs
       
 
    
-   :depends bioconductor-annotationhubdata: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-data-packages: ``>=20231203``
-   :depends bioconductor-ensembldb: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-annotationhubdata: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-data-packages: ``>=20260207``
+   :depends bioconductor-ensembldb: ``>=2.34.0,<2.35.0``
    :depends curl: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -95,7 +95,7 @@ bioconductor-ahensdbs
 
     <script>
         var package = "bioconductor-ahensdbs";
-        var versions = ["1.1.10","1.1.8","1.1.8","1.1.4","1.1.2"];
+        var versions = ["1.7.0","1.1.10","1.1.8","1.1.8","1.1.4"];
     </script>
 
 

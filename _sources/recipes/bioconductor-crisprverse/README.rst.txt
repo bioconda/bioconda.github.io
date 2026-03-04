@@ -27,18 +27,18 @@ bioconductor-crisprverse
       
       
 
-      ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-crisprbase: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-crisprbowtie: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-crisprdesign: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-crisprscore: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-crisprscoredata: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-crisprviz: ``>=1.8.0,<1.9.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-crisprbase: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-crisprbowtie: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-crisprdesign: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-crisprscore: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-crisprscoredata: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-crisprviz: ``>=1.12.0,<1.13.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-biocmanager: 
    :depends r-cli: 
    :depends r-rlang: 
@@ -92,7 +92,7 @@ bioconductor-crisprverse
 
     <script>
         var package = "bioconductor-crisprverse";
-        var versions = ["1.8.0","1.4.0","1.2.0","1.0.0"];
+        var versions = ["1.12.0","1.8.0","1.4.0","1.2.0","1.0.0"];
     </script>
 
 

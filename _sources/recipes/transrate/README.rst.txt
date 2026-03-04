@@ -28,14 +28,15 @@ transrate
       
       
 
-      ``1.0.3-5``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
+      ``1.0.3-7``,  ``1.0.3-5``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``
 
       
 
    
    :depends blast: ``2.2.31.*``
    :depends boost: ``1.60.*``
-   :depends libgcc-ng: ``>=12``
+   :depends libgcc: ``>=14``
+   :depends libxcrypt: ``>=4.4.36``
    :depends rb-bundler: 
    :depends ruby: ``>=2``
    :depends ruby: ``>=2.5.7,<2.6.0a0``

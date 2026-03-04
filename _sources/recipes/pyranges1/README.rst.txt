@@ -27,7 +27,7 @@ pyranges1
       
       
 
-      ``1.3.0-0``,  ``1.1.6-0``
+      ``1.3.2-0``,  ``1.3.0-0``,  ``1.1.6-0``
 
       
 
@@ -90,7 +90,7 @@ pyranges1
 
     <script>
         var package = "pyranges1";
-        var versions = ["1.3.0","1.1.6"];
+        var versions = ["1.3.2","1.3.0","1.1.6"];
     </script>
 
 

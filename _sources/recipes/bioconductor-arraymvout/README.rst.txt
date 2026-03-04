@@ -28,10 +28,10 @@ bioconductor-arraymvout
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.64.0-0</code>,  <code>1.60.0-0</code>,  <code>1.58.0-0</code>,  <code>1.56.0-0</code>,  <code>1.52.0-0</code>,  <code>1.50.0-0</code>,  <code>1.48.0-1</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.68.0-0</code>,  <code>1.64.0-0</code>,  <code>1.60.0-0</code>,  <code>1.58.0-0</code>,  <code>1.56.0-0</code>,  <code>1.52.0-0</code>,  <code>1.50.0-0</code>,  <code>1.48.0-1</code>,  <code>1.48.0-0</code>,  </span></summary>
       
 
-      ``1.64.0-0``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-1``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.40.0-0``
+      ``1.68.0-0``,  ``1.64.0-0``,  ``1.60.0-0``,  ``1.58.0-0``,  ``1.56.0-0``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-1``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-0``,  ``1.42.0-1``,  ``1.40.0-0``
 
       
       .. raw:: html
@@ -40,13 +40,13 @@ bioconductor-arraymvout
       
 
    
-   :depends bioconductor-affy: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-affycontam: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-lumi: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-mdqc: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-parody: ``>=1.64.0,<1.65.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-affy: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-affycontam: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-lumi: ``>=2.62.0,<2.63.0``
+   :depends bioconductor-mdqc: ``>=1.72.0,<1.73.0``
+   :depends bioconductor-parody: ``>=1.68.0,<1.69.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -97,7 +97,7 @@ bioconductor-arraymvout
 
     <script>
         var package = "bioconductor-arraymvout";
-        var versions = ["1.64.0","1.60.0","1.58.0","1.56.0","1.52.0"];
+        var versions = ["1.68.0","1.64.0","1.60.0","1.58.0","1.56.0"];
     </script>
 
 

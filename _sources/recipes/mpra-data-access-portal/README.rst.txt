@@ -28,10 +28,10 @@ mpra-data-access-portal
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.12-0</code>,  <code>0.1.11-0</code>,  <code>0.1.10-0</code>,  <code>0.1.9-0</code>,  <code>0.1.8-3</code>,  <code>0.1.8-2</code>,  <code>0.1.8-1</code>,  <code>0.1.8-0</code>,  <code>0.1.7-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.13-0</code>,  <code>0.1.12-0</code>,  <code>0.1.11-0</code>,  <code>0.1.10-0</code>,  <code>0.1.9-0</code>,  <code>0.1.8-3</code>,  <code>0.1.8-2</code>,  <code>0.1.8-1</code>,  <code>0.1.8-0</code>,  </span></summary>
       
 
-      ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-3``,  ``0.1.8-2``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``
+      ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-3``,  ``0.1.8-2``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``
 
       
       .. raw:: html
@@ -45,6 +45,7 @@ mpra-data-access-portal
    :depends r-dt: 
    :depends r-ggplot2: 
    :depends r-htmlwidgets: 
+   :depends r-markdown: 
    :depends r-plotly: 
    :depends r-readr: 
    :depends r-shiny: 
@@ -99,7 +100,7 @@ mpra-data-access-portal
 
     <script>
         var package = "mpra-data-access-portal";
-        var versions = ["0.1.12","0.1.11","0.1.10","0.1.9","0.1.8"];
+        var versions = ["0.1.13","0.1.12","0.1.11","0.1.10","0.1.9"];
     </script>
 
 

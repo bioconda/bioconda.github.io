@@ -27,15 +27,23 @@ r-fgwas
    :versions:
       
       
+      .. raw:: html
 
-      ``0.3.6-7``,  ``0.3.6-6``,  ``0.3.6-5``,  ``0.3.6-4``,  ``0.3.6-3``,  ``0.3.6-2``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``
+         <details><summary><span class="truncated-version-list"><code>0.3.6-8</code>,  <code>0.3.6-7</code>,  <code>0.3.6-6</code>,  <code>0.3.6-5</code>,  <code>0.3.6-4</code>,  <code>0.3.6-3</code>,  <code>0.3.6-2</code>,  <code>0.3.6-1</code>,  <code>0.3.6-0</code>,  </span></summary>
+      
 
+      ``0.3.6-8``,  ``0.3.6-7``,  ``0.3.6-6``,  ``0.3.6-5``,  ``0.3.6-4``,  ``0.3.6-3``,  ``0.3.6-2``,  ``0.3.6-1``,  ``0.3.6-0``,  ``0.3.5-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-snpstats: 
    :depends parallel: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-devtools: 
    :depends r-minpack.lm: 
    :depends r-mvtnorm: 

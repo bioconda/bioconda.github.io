@@ -26,14 +26,22 @@ r-ontologyplot
    :versions:
       
       
+      .. raw:: html
 
-      ``1.7-1``,  ``1.7-0``,  ``1.6-4``,  ``1.6-3``,  ``1.6-2``,  ``1.6-1``,  ``1.6-0``,  ``1.4-1``,  ``1.4-0``
+         <details><summary><span class="truncated-version-list"><code>1.7-2</code>,  <code>1.7-1</code>,  <code>1.7-0</code>,  <code>1.6-4</code>,  <code>1.6-3</code>,  <code>1.6-2</code>,  <code>1.6-1</code>,  <code>1.6-0</code>,  <code>1.4-1</code>,  </span></summary>
+      
 
+      ``1.7-2``,  ``1.7-1``,  ``1.7-0``,  ``1.6-4``,  ``1.6-3``,  ``1.6-2``,  ``1.6-1``,  ``1.6-0``,  ``1.4-1``,  ``1.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends bioconductor-rgraphviz: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-ontologyindex: 
    :depends r-paintmap: 
    :requirements:
@@ -86,7 +94,7 @@ r-ontologyplot
 
     <script>
         var package = "r-ontologyplot";
-        var versions = ["1.7","1.7","1.6","1.6","1.6"];
+        var versions = ["1.7","1.7","1.7","1.6","1.6"];
     </script>
 
 

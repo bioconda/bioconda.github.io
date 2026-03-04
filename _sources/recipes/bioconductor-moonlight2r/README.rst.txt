@@ -27,25 +27,26 @@ bioconductor-moonlight2r
       
       
 
-      ``1.4.0-0``,  ``1.0.0-0``
+      ``1.8.1-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-clusterprofiler: ``>=4.14.0,<4.15.0``
-   :depends bioconductor-complexheatmap: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-dose: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-epimix: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-experimenthub: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-geoquery: ``>=2.74.0,<2.75.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.20.0,<3.21.0``
-   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-annotationhub: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-clusterprofiler: ``>=4.18.0,<4.19.0``
+   :depends bioconductor-complexheatmap: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-dose: ``>=4.4.0,<4.5.0``
+   :depends bioconductor-epimix: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-experimenthub: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-geoquery: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-org.hs.eg.db: ``>=3.22.0,<3.23.0``
+   :depends bioconductor-rtracklayer: ``>=1.70.0,<1.71.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-circlize: 
+   :depends r-data.table: 
    :depends r-doparallel: 
    :depends r-dplyr: 
    :depends r-easypubmed: 
@@ -62,11 +63,13 @@ bioconductor-moonlight2r
    :depends r-rcolorbrewer: 
    :depends r-readr: 
    :depends r-rismed: 
+   :depends r-rlang: 
    :depends r-seqminer: 
    :depends r-stringr: 
    :depends r-tibble: 
    :depends r-tidyheatmap: 
    :depends r-tidyr: 
+   :depends r-withr: 
    :requirements:
 
    :additional platforms:
@@ -117,7 +120,7 @@ bioconductor-moonlight2r
 
     <script>
         var package = "bioconductor-moonlight2r";
-        var versions = ["1.4.0","1.0.0"];
+        var versions = ["1.8.1","1.4.0","1.0.0"];
     </script>
 
 

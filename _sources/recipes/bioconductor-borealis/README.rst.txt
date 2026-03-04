@@ -27,16 +27,16 @@ bioconductor-borealis
       
       
 
-      ``1.10.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-bsseq: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-dss: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-bsseq: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-dss: ``>=2.58.0,<2.59.0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-cowplot: 
    :depends r-doparallel: 
    :depends r-dplyr: 
@@ -99,7 +99,7 @@ bioconductor-borealis
 
     <script>
         var package = "bioconductor-borealis";
-        var versions = ["1.10.0","1.4.0","1.2.0"];
+        var versions = ["1.14.0","1.10.0","1.4.0","1.2.0"];
     </script>
 
 
