@@ -27,22 +27,22 @@ bioconductor-crisprshiny
       
       
 
-      ``1.2.0-0``
+      ``1.6.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
-   :depends bioconductor-bsgenome: ``>=1.74.0,<1.75.0``
-   :depends bioconductor-crisprbase: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-crisprdesign: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-crisprscore: ``>=1.10.0,<1.11.0``
-   :depends bioconductor-crisprviz: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-pwalign: ``>=1.2.0,<1.3.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-bsgenome: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-crisprbase: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-crisprdesign: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-crisprscore: ``>=1.14.0,<1.15.0``
+   :depends bioconductor-crisprviz: ``>=1.12.0,<1.13.0``
+   :depends bioconductor-pwalign: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-seqinfo: ``>=1.0.0,<1.1.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dt: 
    :depends r-htmlwidgets: 
    :depends r-shiny: 
@@ -99,7 +99,7 @@ bioconductor-crisprshiny
 
     <script>
         var package = "bioconductor-crisprshiny";
-        var versions = ["1.2.0"];
+        var versions = ["1.6.0","1.2.0"];
     </script>
 
 

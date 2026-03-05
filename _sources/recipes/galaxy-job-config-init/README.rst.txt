@@ -27,7 +27,7 @@ galaxy-job-config-init
       
       
 
-      ``0.1.3-0``
+      ``0.1.4-0``,  ``0.1.3-0``
 
       
 
@@ -86,7 +86,7 @@ galaxy-job-config-init
 
     <script>
         var package = "galaxy-job-config-init";
-        var versions = ["0.1.3"];
+        var versions = ["0.1.4","0.1.3"];
     </script>
 
 

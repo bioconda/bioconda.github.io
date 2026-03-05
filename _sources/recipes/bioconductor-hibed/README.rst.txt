@@ -27,19 +27,19 @@ bioconductor-hibed
       
       
 
-      ``1.4.0-0``,  ``1.0.0-0``
+      ``1.8.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-annotationhub: ``>=3.14.0,<3.15.0``
-   :depends bioconductor-data-packages: ``>=20241103``
-   :depends bioconductor-flowsorted.blood.epic: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-flowsorted.dlpfc.450k: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-minfi: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends bioconductor-annotationhub: ``>=4.0.0,<4.1.0``
+   :depends bioconductor-data-packages: ``>=20260207``
+   :depends bioconductor-flowsorted.blood.epic: ``>=2.14.0,<2.15.0``
+   :depends bioconductor-flowsorted.dlpfc.450k: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-minfi: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-dplyr: 
    :depends r-tibble: 
    :requirements:
@@ -92,7 +92,7 @@ bioconductor-hibed
 
     <script>
         var package = "bioconductor-hibed";
-        var versions = ["1.4.0","1.0.0"];
+        var versions = ["1.8.0","1.4.0","1.0.0"];
     </script>
 
 

@@ -27,20 +27,20 @@ bioconductor-magar
       
       
 
-      ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.18.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-crlmm: ``>=1.64.0,<1.65.0``
-   :depends bioconductor-hdf5array: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-impute: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-rnbeads: ``>=2.24.0,<2.25.0``
-   :depends bioconductor-rnbeads.hg19: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-rnbeads.hg38: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-snpstats: ``>=1.56.0,<1.57.0``
+   :depends bioconductor-crlmm: ``>=1.68.0,<1.69.0``
+   :depends bioconductor-hdf5array: ``>=1.38.0,<1.39.0``
+   :depends bioconductor-impute: ``>=1.84.0,<1.85.0``
+   :depends bioconductor-rnbeads: ``>=2.28.0,<2.29.0``
+   :depends bioconductor-rnbeads.hg19: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-rnbeads.hg38: ``>=1.42.0,<1.43.0``
+   :depends bioconductor-snpstats: ``>=1.60.0,<1.61.0``
    :depends r-argparse: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-bigstatsr: 
    :depends r-data.table: 
    :depends r-doparallel: 
@@ -101,7 +101,7 @@ bioconductor-magar
 
     <script>
         var package = "bioconductor-magar";
-        var versions = ["1.14.0","1.10.0","1.8.0","1.6.0","1.2.0"];
+        var versions = ["1.18.0","1.14.0","1.10.0","1.8.0","1.6.0"];
     </script>
 
 
