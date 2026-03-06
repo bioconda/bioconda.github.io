@@ -40,9 +40,9 @@ r-biodb
       
 
    
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends libgcc: ``>=14``
+   :depends libstdcxx: ``>=14``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-bitops: 
    :depends r-digest: 
    :depends r-jsonlite: 

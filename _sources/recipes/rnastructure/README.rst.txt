@@ -28,10 +28,10 @@ rnastructure
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>6.5-0</code>,  <code>6.4-2</code>,  <code>6.4-1</code>,  <code>6.4-0</code>,  <code>6.3-3</code>,  <code>6.3-2</code>,  <code>6.3-1</code>,  <code>6.3-0</code>,  <code>6.1-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>6.5-1</code>,  <code>6.5-0</code>,  <code>6.4-2</code>,  <code>6.4-1</code>,  <code>6.4-0</code>,  <code>6.3-3</code>,  <code>6.3-2</code>,  <code>6.3-1</code>,  <code>6.3-0</code>,  </span></summary>
       
 
-      ``6.5-0``,  ``6.4-2``,  ``6.4-1``,  ``6.4-0``,  ``6.3-3``,  ``6.3-2``,  ``6.3-1``,  ``6.3-0``,  ``6.1-2``,  ``6.1-1``,  ``6.1-0``,  ``6.0-1``,  ``6.0-0``,  ``5.7-2``,  ``5.7-1``,  ``5.7-0``
+      ``6.5-1``,  ``6.5-0``,  ``6.4-2``,  ``6.4-1``,  ``6.4-0``,  ``6.3-3``,  ``6.3-2``,  ``6.3-1``,  ``6.3-0``,  ``6.1-2``,  ``6.1-1``,  ``6.1-0``,  ``6.0-1``,  ``6.0-0``,  ``5.7-2``,  ``5.7-1``,  ``5.7-0``
 
       
       .. raw:: html
@@ -46,6 +46,10 @@ rnastructure
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -93,7 +97,7 @@ rnastructure
 
     <script>
         var package = "rnastructure";
-        var versions = ["6.5","6.4","6.4","6.4","6.3"];
+        var versions = ["6.5","6.5","6.4","6.4","6.4"];
     </script>
 
 

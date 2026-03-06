@@ -28,10 +28,10 @@ perl-date-manip
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>6.98-0</code>,  <code>6.88-0</code>,  <code>6.86-0</code>,  <code>6.76-1</code>,  <code>6.76-0</code>,  <code>6.75-0</code>,  <code>6.73-0</code>,  <code>6.72-0</code>,  <code>6.57-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>6.99-0</code>,  <code>6.98-0</code>,  <code>6.88-0</code>,  <code>6.86-0</code>,  <code>6.76-1</code>,  <code>6.76-0</code>,  <code>6.75-0</code>,  <code>6.73-0</code>,  <code>6.72-0</code>,  </span></summary>
       
 
-      ``6.98-0``,  ``6.88-0``,  ``6.86-0``,  ``6.76-1``,  ``6.76-0``,  ``6.75-0``,  ``6.73-0``,  ``6.72-0``,  ``6.57-1``,  ``6.57-0``
+      ``6.99-0``,  ``6.98-0``,  ``6.88-0``,  ``6.86-0``,  ``6.76-1``,  ``6.76-0``,  ``6.75-0``,  ``6.73-0``,  ``6.72-0``,  ``6.57-1``,  ``6.57-0``
 
       
       .. raw:: html
@@ -95,7 +95,7 @@ perl-date-manip
 
     <script>
         var package = "perl-date-manip";
-        var versions = ["6.98","6.88","6.86","6.76","6.76"];
+        var versions = ["6.99","6.98","6.88","6.86","6.76"];
     </script>
 
 

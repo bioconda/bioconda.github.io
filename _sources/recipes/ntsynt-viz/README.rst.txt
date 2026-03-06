@@ -27,7 +27,7 @@ ntsynt-viz
       
       
 
-      ``1.0.2-0``,  ``1.0.1-0``
+      ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
@@ -40,7 +40,7 @@ ntsynt-viz
    :depends r-argparse: 
    :depends r-base: 
    :depends r-dplyr: 
-   :depends r-gggenomes: 
+   :depends r-gggenomes: ``>=1.1.0``
    :depends r-ggpubr: 
    :depends r-phytools: 
    :depends r-scales: 
@@ -97,7 +97,7 @@ ntsynt-viz
 
     <script>
         var package = "ntsynt-viz";
-        var versions = ["1.0.2","1.0.1"];
+        var versions = ["1.0.2","1.0.2","1.0.1"];
     </script>
 
 

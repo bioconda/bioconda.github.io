@@ -27,15 +27,15 @@ bioconductor-healthycontrolspresencechecker
       
       
 
-      ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.14.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends bioconductor-data-packages: ``>=20241103``
-   :depends bioconductor-geoquery: ``>=2.74.0,<2.75.0``
+   :depends bioconductor-data-packages: ``>=20260207``
+   :depends bioconductor-geoquery: ``>=2.78.0,<2.79.0``
    :depends curl: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-geneexpressionfromgeo: 
    :depends r-magrittr: 
    :depends r-xml2: 
@@ -89,7 +89,7 @@ bioconductor-healthycontrolspresencechecker
 
     <script>
         var package = "bioconductor-healthycontrolspresencechecker";
-        var versions = ["1.10.0","1.6.0","1.4.0","1.2.0"];
+        var versions = ["1.14.0","1.10.0","1.6.0","1.4.0","1.2.0"];
     </script>
 
 

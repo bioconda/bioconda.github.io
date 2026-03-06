@@ -27,7 +27,7 @@ busco_phylogenomics
       
       
 
-      ``20240919-0``
+      ``20260305-0``,  ``20240919-0``
 
       
 
@@ -35,8 +35,10 @@ busco_phylogenomics
    :depends biopython: 
    :depends fasttree: 
    :depends iqtree: 
+   :depends mafft: 
    :depends muscle: ``>=5.1``
    :depends python: ``>=3.8``
+   :depends tqdm: 
    :depends trimal: 
    :requirements:
 
@@ -88,7 +90,7 @@ busco_phylogenomics
 
     <script>
         var package = "busco_phylogenomics";
-        var versions = ["20240919"];
+        var versions = ["20260305","20240919"];
     </script>
 
 

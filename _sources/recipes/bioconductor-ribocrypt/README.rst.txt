@@ -27,23 +27,29 @@ bioconductor-ribocrypt
       
       
 
-      ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``1.16.0-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
-   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-orfik: ``>=1.26.0,<1.27.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-complexheatmap: ``>=2.26.0,<2.27.0``
+   :depends bioconductor-genomicfeatures: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-orfik: ``>=1.30.0,<1.31.0``
+   :depends bioconductor-rtracklayer: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-seqinfo: ``>=1.0.0,<1.1.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :depends r-bslib: 
+   :depends r-cowplot: 
+   :depends r-crosstalk: 
    :depends r-data.table: 
    :depends r-dplyr: 
+   :depends r-dt: 
+   :depends r-fst: 
    :depends r-ggplot2: 
    :depends r-htmlwidgets: 
    :depends r-httr: 
@@ -52,13 +58,17 @@ bioconductor-ribocrypt
    :depends r-markdown: 
    :depends r-nglviewer: 
    :depends r-plotly: 
+   :depends r-rclipboard: 
    :depends r-rcurl: 
    :depends r-rlang: 
    :depends r-shiny: 
    :depends r-shinycssloaders: 
    :depends r-shinyhelper: 
    :depends r-shinyjqui: 
+   :depends r-shinyjs: 
+   :depends r-shinywidgets: 
    :depends r-stringr: 
+   :depends r-writexl: 
    :requirements:
 
    :additional platforms:
@@ -109,7 +119,7 @@ bioconductor-ribocrypt
 
     <script>
         var package = "bioconductor-ribocrypt";
-        var versions = ["1.12.0","1.8.0","1.6.0","1.4.0","1.0.0"];
+        var versions = ["1.16.0","1.12.0","1.8.0","1.6.0","1.4.0"];
     </script>
 
 

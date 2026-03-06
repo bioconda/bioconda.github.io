@@ -30,7 +30,7 @@ biobb_pytorch
    \* \(c\) 2015\-2026 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
    \* \(c\) 2015\-2026 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
    Licensed under the
-   \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file LICENSE for details.
+   \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file LICENSE for details
 
    \!\[\]\(https\:\/\/bioexcel.eu\/wp\-content\/uploads\/2019\/04\/Bioexcell\_logo\_1080px\_transp.png \"Bioexcel\"\)
 
@@ -47,10 +47,10 @@ biobb_pytorch
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.2.1-0</code>,  <code>5.2.0-0</code>,  <code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.2.1-0</code>,  <code>4.2.0-0</code>,  <code>4.1.3-0</code>,  <code>4.1.2-0</code>,  <code>4.1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.2.2-0</code>,  <code>5.2.1-0</code>,  <code>5.2.0-0</code>,  <code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.2.1-0</code>,  <code>4.2.0-0</code>,  <code>4.1.3-0</code>,  <code>4.1.2-0</code>,  </span></summary>
       
 
-      ``5.2.1-0``,  ``5.2.0-0``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.1-0``,  ``4.2.0-0``,  ``4.1.3-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1.0-0``
+      ``5.2.2-0``,  ``5.2.1-0``,  ``5.2.0-0``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.1-0``,  ``4.2.0-0``,  ``4.1.3-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1.0-0``
 
       
       .. raw:: html
@@ -59,7 +59,7 @@ biobb_pytorch
       
 
    
-   :depends biobb_common: ``5.2.0``
+   :depends biobb_common: ``5.2.2``
    :depends lightning: 
    :depends mdtraj: 
    :depends python: ``>=3.10``
@@ -114,7 +114,7 @@ biobb_pytorch
 
     <script>
         var package = "biobb_pytorch";
-        var versions = ["5.2.1","5.2.0","5.1.0","5.0.0","4.2.1"];
+        var versions = ["5.2.2","5.2.1","5.2.0","5.1.0","5.0.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ epicore
       
       
 
-      ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
+      ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
 
@@ -37,8 +37,9 @@ epicore
    :depends matplotlib-base: ``>=3.4``
    :depends mpld3: 
    :depends numpy: ``>=2``
-   :depends openpyxl: ``>=3.1.3``
    :depends pandas: ``>=2``
+   :depends polars: ``>=1.32.3``
+   :depends pyarrow: ``>=22.0.0``
    :depends python: ``>=3.12``
    :depends pyyaml: ``>=6.0.2``
    :requirements:
@@ -91,7 +92,7 @@ epicore
 
     <script>
         var package = "epicore";
-        var versions = ["0.1.7","0.1.6","0.1.5","0.1.4","0.1.3"];
+        var versions = ["0.1.8","0.1.7","0.1.6","0.1.5","0.1.4"];
     </script>
 
 

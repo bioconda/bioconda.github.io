@@ -49,10 +49,10 @@ biobb_godmd
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.2.0-3</code>,  <code>5.2.0-2</code>,  <code>5.2.0-1</code>,  <code>5.2.0-0</code>,  <code>5.1.2-0</code>,  <code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.0-1</code>,  <code>5.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.2.1-0</code>,  <code>5.2.0-3</code>,  <code>5.2.0-2</code>,  <code>5.2.0-1</code>,  <code>5.2.0-0</code>,  <code>5.1.2-0</code>,  <code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.0-1</code>,  </span></summary>
       
 
-      ``5.2.0-3``,  ``5.2.0-2``,  ``5.2.0-1``,  ``5.2.0-0``,  ``5.1.2-0``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.8.1-0``,  ``3.8.0-0``
+      ``5.2.1-0``,  ``5.2.0-3``,  ``5.2.0-2``,  ``5.2.0-1``,  ``5.2.0-0``,  ``5.1.2-0``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.8.1-0``,  ``3.8.0-0``
 
       
       .. raw:: html
@@ -61,7 +61,7 @@ biobb_godmd
       
 
    
-   :depends biobb_common: ``5.2.0``
+   :depends biobb_common: ``5.2.2``
    :depends emboss: 
    :depends godmd: ``1.8``
    :depends python: ``>=3.10``
@@ -115,7 +115,7 @@ biobb_godmd
 
     <script>
         var package = "biobb_godmd";
-        var versions = ["5.2.0","5.2.0","5.2.0","5.2.0","5.1.2"];
+        var versions = ["5.2.1","5.2.0","5.2.0","5.2.0","5.2.0"];
     </script>
 
 

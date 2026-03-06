@@ -28,10 +28,10 @@ bioconductor-agimicrorna
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.56.0-0</code>,  <code>2.52.0-0</code>,  <code>2.50.0-0</code>,  <code>2.48.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-0</code>,  <code>2.40.0-1</code>,  <code>2.40.0-0</code>,  <code>2.38.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.60.0-0</code>,  <code>2.56.0-0</code>,  <code>2.52.0-0</code>,  <code>2.50.0-0</code>,  <code>2.48.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-0</code>,  <code>2.40.0-1</code>,  <code>2.40.0-0</code>,  </span></summary>
       
 
-      ``2.56.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-1``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-1``,  ``2.32.0-1``,  ``2.32.0-0``
+      ``2.60.0-0``,  ``2.56.0-0``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.48.0-0``,  ``2.44.0-0``,  ``2.42.0-0``,  ``2.40.0-1``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-1``,  ``2.32.0-1``,  ``2.32.0-0``
 
       
       .. raw:: html
@@ -40,12 +40,12 @@ bioconductor-agimicrorna
       
 
    
-   :depends bioconductor-affy: ``>=1.84.0,<1.85.0``
-   :depends bioconductor-affycoretools: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
-   :depends bioconductor-preprocesscore: ``>=1.68.0,<1.69.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
+   :depends bioconductor-affy: ``>=1.88.0,<1.89.0``
+   :depends bioconductor-affycoretools: ``>=1.82.0,<1.83.0``
+   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends bioconductor-limma: ``>=3.66.0,<3.67.0``
+   :depends bioconductor-preprocesscore: ``>=1.72.0,<1.73.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
    :requirements:
 
    :additional platforms:
@@ -96,7 +96,7 @@ bioconductor-agimicrorna
 
     <script>
         var package = "bioconductor-agimicrorna";
-        var versions = ["2.56.0","2.52.0","2.50.0","2.48.0","2.44.0"];
+        var versions = ["2.60.0","2.56.0","2.52.0","2.50.0","2.48.0"];
     </script>
 
 
