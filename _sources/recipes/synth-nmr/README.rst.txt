@@ -27,7 +27,7 @@ synth-nmr
       
       
 
-      ``0.6.1-0``,  ``0.2.0-0``
+      ``0.7.2-0``,  ``0.6.1-0``,  ``0.2.0-0``
 
       
 
@@ -85,7 +85,7 @@ synth-nmr
 
     <script>
         var package = "synth-nmr";
-        var versions = ["0.6.1","0.2.0"];
+        var versions = ["0.7.2","0.6.1","0.2.0"];
     </script>
 
 

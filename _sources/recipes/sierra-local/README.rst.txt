@@ -27,7 +27,7 @@ sierra-local
       
       
 
-      ``0.4.3-0``,  ``0.4.2-0``
+      ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``
 
       
 
@@ -85,7 +85,7 @@ sierra-local
 
     <script>
         var package = "sierra-local";
-        var versions = ["0.4.3","0.4.2"];
+        var versions = ["0.4.4","0.4.3","0.4.2"];
     </script>
 
 

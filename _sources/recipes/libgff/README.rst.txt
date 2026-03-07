@@ -13,7 +13,7 @@ libgff
    A simple \"libraryfication\" of the GFF\/GTF parsing code that is used in GFFRead codebase.
 
    :homepage: https://github.com/COMBINE-lab/libgff
-   :documentation: https://github.com/COMBINE-lab/libgff/blob/v2.0.0/Readme.md
+   :documentation: https://github.com/COMBINE-lab/libgff/blob/v2.0.1/Readme.md
    
    :license: MIT / MIT
    :recipe: /`libgff <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libgff>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libgff/meta.yaml>`_
@@ -29,13 +29,13 @@ libgff
       
       
 
-      ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``
+      ``2.0.1-0``,  ``2.0.0-3``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``
 
       
 
    
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libgcc: ``>=14``
+   :depends libstdcxx: ``>=14``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
@@ -91,7 +91,7 @@ libgff
 
     <script>
         var package = "libgff";
-        var versions = ["2.0.0","2.0.0","2.0.0","2.0.0"];
+        var versions = ["2.0.1","2.0.0","2.0.0","2.0.0","2.0.0"];
     </script>
 
 

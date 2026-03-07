@@ -12,9 +12,9 @@ motus
 
    Marker gene\-based OTU \(mOTU\) profiling
 
-   :homepage: http://motu-tool.org/
+   :homepage: http://motus-tool.org/
    :developer docs: https://github.com/motu-tool/mOTUs
-   :license: GPL / GPL-3.0
+   :license: GPL / GPL-3.0-or-later
    :recipe: /`motus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/motus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/motus/meta.yaml>`_
 
    
@@ -29,10 +29,10 @@ motus
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.1.0-0</code>,  <code>3.0.3-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>2.6.1-0</code>,  <code>2.6.0-0</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  <code>2.1.1-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.4-0</code>,  <code>3.1.0-0</code>,  <code>3.0.3-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>2.6.1-0</code>,  <code>2.6.0-0</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  </span></summary>
       
 
-      ``3.1.0-0``,  ``3.0.3-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.1.1-3``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0-1``,  ``1.0-0``
+      ``4.0.4-0``,  ``3.1.0-0``,  ``3.0.3-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.1.1-3``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0-1``,  ``1.0-0``
 
       
       .. raw:: html
@@ -41,13 +41,22 @@ motus
       
 
    
-   :depends bwa: ``>=0.7.17``
-   :depends metasnv: ``1.0.3.*``
-   :depends python: ``>=3.8``
-   :depends samtools: ``>=1.9``
+   :depends biopython: ``>=1.8.5``
+   :depends bwa: ``>=0.7.19``
+   :depends fetchmgs: ``>=2.1.2``
+   :depends polars: ``>=1.32.2``
+   :depends pysam: ``>=0.23.3``
+   :depends python: ``>=3.12``
+   :depends rapidfuzz: ``>=3.13.0``
+   :depends tqdm: ``>=4.67.3``
+   :depends vsearch: ``>=2.30.4``
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>osx-arm64</code>,  <code>linux-aarch64</code></span>
       
 
    .. rubric:: Installation
@@ -95,7 +104,7 @@ motus
 
     <script>
         var package = "motus";
-        var versions = ["3.1.0","3.0.3","3.0.1","3.0.0","2.6.1"];
+        var versions = ["4.0.4","3.1.0","3.0.3","3.0.1","3.0.0"];
     </script>
 
 

@@ -29,10 +29,10 @@ bioconductor-motifbreakr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.16.0-0</code>,  <code>2.13.7-0</code>,  <code>2.12.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.24.0-0</code>,  <code>2.16.0-0</code>,  <code>2.13.7-0</code>,  <code>2.12.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  </span></summary>
       
 
-      ``2.16.0-0``,  ``2.13.7-0``,  ``2.12.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.14.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``
+      ``2.24.0-0``,  ``2.16.0-0``,  ``2.13.7-0``,  ``2.12.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.14.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -41,24 +41,32 @@ bioconductor-motifbreakr
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-bsgenome: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-gviz: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-motifdb: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-motifstack: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-rtracklayer: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-variantannotation: ``>=1.48.0,<1.49.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
+   :depends bioconductor-biocfilecache: ``>=3.0.0,<3.1.0``
+   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends bioconductor-biomart: ``>=2.66.0,<2.67.0``
+   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends bioconductor-bsgenome: ``>=1.78.0,<1.79.0``
+   :depends bioconductor-genomeinfodb: ``>=1.46.0,<1.47.0``
+   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends bioconductor-gviz: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends bioconductor-motifdb: ``>=1.52.0,<1.53.0``
+   :depends bioconductor-motifstack: ``>=1.54.0,<1.55.0``
+   :depends bioconductor-pwalign: ``>=1.6.0,<1.7.0``
+   :depends bioconductor-rtracklayer: ``>=1.70.0,<1.71.0``
+   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends bioconductor-variantannotation: ``>=1.56.0,<1.57.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
+   :depends r-bsicons: 
+   :depends r-bslib: 
+   :depends r-dt: 
    :depends r-matrixstats: 
+   :depends r-shiny: 
    :depends r-stringr: 
    :depends r-tfmpvalue: 
+   :depends r-vroom: 
    :requirements:
 
    :additional platforms:
@@ -109,7 +117,7 @@ bioconductor-motifbreakr
 
     <script>
         var package = "bioconductor-motifbreakr";
-        var versions = ["2.16.0","2.13.7","2.12.0","2.8.0","2.6.0"];
+        var versions = ["2.24.0","2.16.0","2.13.7","2.12.0","2.8.0"];
     </script>
 
 

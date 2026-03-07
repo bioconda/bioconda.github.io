@@ -27,11 +27,24 @@ bioconductor-faers
       
       
 
-      
+      ``1.6.0-0``
 
       
 
    
+   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends r-base: ``>=4.5,<4.6.0a0``
+   :depends r-brio: 
+   :depends r-cli: 
+   :depends r-curl: ``>=6.0.0``
+   :depends r-data.table: 
+   :depends r-httr2: ``>=1.0.0``
+   :depends r-mcmcpack: 
+   :depends r-openebgm: 
+   :depends r-rlang: 
+   :depends r-rvest: 
+   :depends r-vroom: 
+   :depends r-xml2: 
    :requirements:
 
    :additional platforms:
@@ -82,7 +95,7 @@ bioconductor-faers
 
     <script>
         var package = "bioconductor-faers";
-        var versions = [];
+        var versions = ["1.6.0"];
     </script>
 
 

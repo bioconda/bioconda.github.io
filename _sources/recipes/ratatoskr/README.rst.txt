@@ -27,7 +27,7 @@ ratatoskr
       
       
 
-      ``1.0.2-0``
+      ``1.0.4-0``,  ``1.0.2-0``
 
       
 
@@ -93,7 +93,7 @@ ratatoskr
 
     <script>
         var package = "ratatoskr";
-        var versions = ["1.0.2"];
+        var versions = ["1.0.4","1.0.2"];
     </script>
 
 

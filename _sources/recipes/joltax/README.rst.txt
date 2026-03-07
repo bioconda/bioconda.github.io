@@ -27,7 +27,7 @@ joltax
       
       
 
-      ``0.1.2-0``
+      ``0.2.0-0``,  ``0.1.2-0``
 
       
 
@@ -86,7 +86,7 @@ joltax
 
     <script>
         var package = "joltax";
-        var versions = ["0.1.2"];
+        var versions = ["0.2.0","0.1.2"];
     </script>
 
 

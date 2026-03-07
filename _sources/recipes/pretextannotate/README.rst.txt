@@ -30,7 +30,7 @@ pretextannotate
       
       
 
-      ``1.1.0-0``
+      ``1.1.2-0``,  ``1.1.0-0``
 
       
 
@@ -91,7 +91,7 @@ pretextannotate
 
     <script>
         var package = "pretextannotate";
-        var versions = ["1.1.0"];
+        var versions = ["1.1.2","1.1.0"];
     </script>
 
 
