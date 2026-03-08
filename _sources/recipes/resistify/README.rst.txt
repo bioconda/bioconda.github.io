@@ -32,10 +32,10 @@ resistify
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.5-1</code>,  <code>1.1.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>1.1.5-1</code>,  </span></summary>
       
 
-      ``2.0.1-0``,  ``2.0.0-0``,  ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.5-1``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.70.0-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-2``,  ``0.6.1-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.5-1``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.70.0-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-2``,  ``0.6.1-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -44,18 +44,18 @@ resistify
       
 
    
-   :depends einops: ``>=0.8.2``
+   :depends einops: 
    :depends fair-esm: 
    :depends numpy: 
-   :depends pyhmmer: ``>=0.12.0``
-   :depends python: ``>=3.13,<3.14``
+   :depends pyhmmer: 
+   :depends python: ``>=3.11``
    :depends pytorch: 
    :depends scikit-learn: 
-   :depends sentencepiece: ``>=0.2.1``
-   :depends svg.py: ``>=1.9.1``
+   :depends sentencepiece: 
+   :depends svg.py: 
    :depends tqdm: 
    :depends transformers: 
-   :depends xgboost: ``>=3.2.0``
+   :depends xgboost: 
    :requirements:
 
    :additional platforms:
@@ -106,7 +106,7 @@ resistify
 
     <script>
         var package = "resistify";
-        var versions = ["2.0.1","2.0.0","1.3.0","1.2.1","1.2.1"];
+        var versions = ["2.0.1","2.0.1","2.0.0","1.3.0","1.2.1"];
     </script>
 
 

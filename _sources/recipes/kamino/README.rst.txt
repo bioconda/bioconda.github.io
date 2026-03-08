@@ -13,7 +13,7 @@ kamino
    Tool for building phylogenomic datasets quickly and reproducibly.
 
    :homepage: https://github.com/rderelle/kamino
-   :documentation: https://github.com/rderelle/kamino/blob/0.7.0/README.md
+   :documentation: https://github.com/rderelle/kamino/blob/0.8.0/README.md
    
    :license: MIT / MIT
    :recipe: /`kamino <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kamino>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kamino/meta.yaml>`_
@@ -30,10 +30,10 @@ kamino
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.0-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  <code>0.2.1-0</code>,  </span></summary>
       
 
-      ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -96,7 +96,7 @@ kamino
 
     <script>
         var package = "kamino";
-        var versions = ["0.7.0","0.6.1","0.6.0","0.5.1","0.5.0"];
+        var versions = ["0.8.0","0.7.0","0.6.1","0.6.0","0.5.1"];
     </script>
 
 
