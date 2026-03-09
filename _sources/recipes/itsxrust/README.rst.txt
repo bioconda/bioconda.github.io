@@ -10,7 +10,7 @@ itsxrust
    :replaces_section_title:
    :noindex:
 
-   ITSxRust is a tool for extracting ITS regions from DNA sequences.
+   HMMER\-based ITS subregion extraction for long\-read fungal metabarcoding.
 
    :homepage: https://github.com/ayobi/ITSxRust
    :license: MIT
@@ -27,12 +27,13 @@ itsxrust
       
       
 
-      ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.0-0``
+      ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.0-0``
 
       
 
    
    :depends hmmer: 
+   :depends openssl: ``>=3.5.5,<4.0a0``
    :requirements:
 
    :additional platforms:
@@ -83,7 +84,7 @@ itsxrust
 
     <script>
         var package = "itsxrust";
-        var versions = ["0.2.2","0.2.1","0.1.0"];
+        var versions = ["0.2.2","0.2.2","0.2.1","0.1.0"];
     </script>
 
 

@@ -13,7 +13,7 @@ foldtree
    Foldtree creates phylogenetic trees from protein structures using Foldseek.
 
    :homepage: https://github.com/DessimozLab/fold_tree
-   :license: GPL3 / MIT
+   :license: MIT / MIT
    :recipe: /`foldtree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/foldtree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/foldtree/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ foldtree
       
       
 
-      ``1.1.0rc2-1``,  ``1.1.0rc2-0``
+      ``1.1.0-0``,  ``1.1.0rc2-1``,  ``1.1.0rc2-0``
 
       
 
@@ -85,7 +85,7 @@ foldtree
 
     <script>
         var package = "foldtree";
-        var versions = ["1.1.0rc2","1.1.0rc2"];
+        var versions = ["1.1.0","1.1.0rc2","1.1.0rc2"];
     </script>
 
 

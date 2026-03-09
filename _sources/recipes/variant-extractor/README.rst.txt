@@ -27,7 +27,7 @@ variant-extractor
       
       
 
-      ``5.0.0-0``
+      ``5.1.0-0``,  ``5.0.0-0``
 
       
 
@@ -84,7 +84,7 @@ variant-extractor
 
     <script>
         var package = "variant-extractor";
-        var versions = ["5.0.0"];
+        var versions = ["5.1.0","5.0.0"];
     </script>
 
 

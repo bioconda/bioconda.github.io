@@ -28,9 +28,17 @@ sequana_pipetools
    :versions:
       
       
+      .. raw:: html
 
-      ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``0.9.4-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.6-0``,  ``0.7.5-0``
+         <details><summary><span class="truncated-version-list"><code>1.4.0-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.2-0</code>,  <code>0.9.4-0</code>,  <code>0.9.0-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.6-0</code>,  </span></summary>
+      
 
+      ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``0.9.4-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.6-0``,  ``0.7.5-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -98,7 +106,7 @@ sequana_pipetools
 
     <script>
         var package = "sequana_pipetools";
-        var versions = ["1.3.1","1.3.0","1.2.2","0.9.4","0.9.0"];
+        var versions = ["1.4.0","1.3.1","1.3.0","1.2.2","0.9.4"];
     </script>
 
 

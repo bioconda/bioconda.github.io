@@ -28,10 +28,10 @@ perl-datetime-timezone
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.66-0</code>,  <code>2.65-1</code>,  <code>2.65-0</code>,  <code>2.57-0</code>,  <code>2.52-1</code>,  <code>2.52-0</code>,  <code>2.51-1</code>,  <code>2.51-0</code>,  <code>2.09-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.67-0</code>,  <code>2.66-0</code>,  <code>2.65-1</code>,  <code>2.65-0</code>,  <code>2.57-0</code>,  <code>2.52-1</code>,  <code>2.52-0</code>,  <code>2.51-1</code>,  <code>2.51-0</code>,  </span></summary>
       
 
-      ``2.66-0``,  ``2.65-1``,  ``2.65-0``,  ``2.57-0``,  ``2.52-1``,  ``2.52-0``,  ``2.51-1``,  ``2.51-0``,  ``2.09-4``,  ``2.09-3``,  ``2.09-2``,  ``2.09-0``
+      ``2.67-0``,  ``2.66-0``,  ``2.65-1``,  ``2.65-0``,  ``2.57-0``,  ``2.52-1``,  ``2.52-0``,  ``2.51-1``,  ``2.51-0``,  ``2.09-4``,  ``2.09-3``,  ``2.09-2``,  ``2.09-0``
 
       
       .. raw:: html
@@ -40,8 +40,8 @@ perl-datetime-timezone
       
 
    
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
+   :depends libgcc: ``>=14``
+   :depends libstdcxx: ``>=14``
    :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends perl-app-cpanminus: 
    :depends perl-module-runtime: ``0.016.*``
@@ -104,7 +104,7 @@ perl-datetime-timezone
 
     <script>
         var package = "perl-datetime-timezone";
-        var versions = ["2.66","2.65","2.65","2.57","2.52"];
+        var versions = ["2.67","2.66","2.65","2.65","2.57"];
     </script>
 
 
