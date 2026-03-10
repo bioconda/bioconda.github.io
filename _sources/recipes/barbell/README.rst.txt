@@ -27,12 +27,12 @@ barbell
       
       
 
-      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``
+      ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``
 
       
 
    
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :requirements:
 
    :additional platforms:
@@ -87,7 +87,7 @@ barbell
 
     <script>
         var package = "barbell";
-        var versions = ["0.3.1","0.3.0","0.2.2"];
+        var versions = ["0.3.2","0.3.1","0.3.0","0.2.2"];
     </script>
 
 

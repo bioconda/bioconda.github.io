@@ -29,7 +29,7 @@ raccoon
       
       
 
-      ``1.0-0``
+      ``1.0.1-0``,  ``1.0-0``
 
       
 
@@ -44,6 +44,7 @@ raccoon
    :depends python: ``>=3.10``
    :depends scipy: 
    :depends seaborn: 
+   :depends unidecode: ``>=1.3.0``
    :requirements:
 
    :additional platforms:
@@ -94,7 +95,7 @@ raccoon
 
     <script>
         var package = "raccoon";
-        var versions = ["1.0"];
+        var versions = ["1.0.1","1.0"];
     </script>
 
 
