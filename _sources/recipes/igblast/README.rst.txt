@@ -29,10 +29,10 @@ igblast
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.22.0-1</code>,  <code>1.22.0-0</code>,  <code>1.21.0-1</code>,  <code>1.21.0-0</code>,  <code>1.20.0-0</code>,  <code>1.19.0-0</code>,  <code>1.17.1-1</code>,  <code>1.17.1-0</code>,  <code>1.15.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.22.0-2</code>,  <code>1.22.0-1</code>,  <code>1.22.0-0</code>,  <code>1.21.0-1</code>,  <code>1.21.0-0</code>,  <code>1.20.0-0</code>,  <code>1.19.0-0</code>,  <code>1.17.1-1</code>,  <code>1.17.1-0</code>,  </span></summary>
       
 
-      ``1.22.0-1``,  ``1.22.0-0``,  ``1.21.0-1``,  ``1.21.0-0``,  ``1.20.0-0``,  ``1.19.0-0``,  ``1.17.1-1``,  ``1.17.1-0``,  ``1.15.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.9.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.4.0-6``,  ``1.4.0-5``,  ``1.4.0-4``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
+      ``1.22.0-2``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.21.0-1``,  ``1.21.0-0``,  ``1.20.0-0``,  ``1.19.0-0``,  ``1.17.1-1``,  ``1.17.1-0``,  ``1.15.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.9.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.4.0-6``,  ``1.4.0-5``,  ``1.4.0-4``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -42,12 +42,12 @@ igblast
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc-ng: ``>=12``
-   :depends libsqlite: ``>=3.45.3,<4.0a0``
-   :depends libstdcxx-ng: ``>=12``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
+   :depends libgcc: ``>=14``
+   :depends libsqlite: ``>=3.52.0,<4.0a0``
+   :depends libstdcxx: ``>=14``
+   :depends libzlib: ``>=1.3.1,<2.0a0``
    :depends ncbi-vdb: ``>=2.9.6``
-   :depends ncbi-vdb: ``>=3.1.1,<4.0a0``
+   :depends ncbi-vdb: ``>=3.3.0,<4.0a0``
    :depends perl: 
    :requirements:
 
@@ -55,7 +55,7 @@ igblast
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -103,7 +103,7 @@ igblast
 
     <script>
         var package = "igblast";
-        var versions = ["1.22.0","1.22.0","1.21.0","1.21.0","1.20.0"];
+        var versions = ["1.22.0","1.22.0","1.22.0","1.21.0","1.21.0"];
     </script>
 
 

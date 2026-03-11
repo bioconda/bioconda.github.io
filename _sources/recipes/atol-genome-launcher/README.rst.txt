@@ -27,7 +27,7 @@ atol-genome-launcher
       
       
 
-      ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``
+      ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``
 
       
 
@@ -35,6 +35,7 @@ atol-genome-launcher
    :depends pandas: ``>=2.3.3,<3``
    :depends pydantic: ``>=2.12.5``
    :depends python: ``>=3.12,<3.15``
+   :depends rclone: 
    :depends snakemake: ``>=9.11.6,<10``
    :depends wget: 
    :requirements:
@@ -87,7 +88,7 @@ atol-genome-launcher
 
     <script>
         var package = "atol-genome-launcher";
-        var versions = ["0.4.1","0.4.0","0.3.1","0.2.1","0.2.0"];
+        var versions = ["0.5.0","0.4.1","0.4.0","0.3.1","0.2.1"];
     </script>
 
 

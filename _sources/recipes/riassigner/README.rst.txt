@@ -29,10 +29,10 @@ riassigner
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.0-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.4-4</code>,  <code>0.3.4-3</code>,  <code>0.3.4-2</code>,  <code>0.3.4-1</code>,  <code>0.3.4-0</code>,  <code>0.3.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.4-4</code>,  <code>0.3.4-3</code>,  <code>0.3.4-2</code>,  <code>0.3.4-1</code>,  <code>0.3.4-0</code>,  </span></summary>
       
 
-      ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.4-4``,  ``0.3.4-3``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``
+      ``0.6.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.4-4``,  ``0.3.4-3``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,15 @@ riassigner
       
 
    
-   :depends fastparquet: ``>=2023.10.1,<2024.0.0``
-   :depends matchms: ``>=0.24.1,<0.25.0``
+   :depends click: ``>=8.0``
+   :depends fastparquet: ``>=2025.12.0``
+   :depends matchms: ``>=0.30.1``
    :depends numpy: 
    :depends pandas: 
-   :depends pint: ``>=0.23.0,<0.24.0``
-   :depends python: ``>=3.10,<3.13``
+   :depends pint: ``>=0.25.2``
+   :depends python: ``>=3.11,<3.14``
    :depends scipy: 
-   :depends urllib3: ``1.26.15.*``
+   :depends urllib3: ``>=2.6.3``
    :requirements:
 
    :additional platforms:
@@ -99,7 +100,7 @@ riassigner
 
     <script>
         var package = "riassigner";
-        var versions = ["0.5.0","0.4.1","0.4.0","0.3.4","0.3.4"];
+        var versions = ["0.6.1","0.5.0","0.4.1","0.4.0","0.3.4"];
     </script>
 
 

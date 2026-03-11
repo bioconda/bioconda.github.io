@@ -28,10 +28,10 @@ crisprbact
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.0-0</code>,  <code>0.3.11-0</code>,  <code>0.3.10-0</code>,  <code>0.3.9-0</code>,  <code>0.3.8-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.1-0</code>,  <code>1.1.0-0</code>,  <code>0.3.11-0</code>,  <code>0.3.10-0</code>,  <code>0.3.9-0</code>,  <code>0.3.8-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  </span></summary>
       
 
-      ``1.1.0-0``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.1.0-0``
+      ``1.3.1-0``,  ``1.1.0-0``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -45,7 +45,6 @@ crisprbact
    :depends matplotlib-base: ``>=3.5``
    :depends numpy: ``>=1.21,<3.0``
    :depends pandas: ``>=1.3``
-   :depends poetry: 
    :depends python: ``>=3.10,<4``
    :depends tqdm: ``>=4.40``
    :requirements:
@@ -98,7 +97,7 @@ crisprbact
 
     <script>
         var package = "crisprbact";
-        var versions = ["1.1.0","0.3.11","0.3.10","0.3.9","0.3.8"];
+        var versions = ["1.3.1","1.1.0","0.3.11","0.3.10","0.3.9"];
     </script>
 
 
