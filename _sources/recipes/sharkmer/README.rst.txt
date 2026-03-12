@@ -27,7 +27,7 @@ sharkmer
       
       
 
-      ``1.0.1-0``
+      ``1.0.1-1``,  ``1.0.1-0``
 
       
 
@@ -35,6 +35,10 @@ sharkmer
    :requirements:
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
    .. rubric:: Installation
@@ -82,7 +86,7 @@ sharkmer
 
     <script>
         var package = "sharkmer";
-        var versions = ["1.0.1"];
+        var versions = ["1.0.1","1.0.1"];
     </script>
 
 

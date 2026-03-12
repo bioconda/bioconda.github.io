@@ -27,25 +27,28 @@ beacon2-ri-tools
       
       
 
-      ``2.0.5-0``,  ``2.0.0-0``
+      ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.0-0``
 
       
 
    
-   :depends annotated-types: ``0.6.0``
-   :depends certifi: ``2023.7.22``
-   :depends charset-normalizer: ``3.3.1``
-   :depends cyvcf2: ``0.30.28``
-   :depends openpyxl: ``3.1.2``
-   :depends pandas: ``2.1.2``
-   :depends pydantic: ``2.6.4``
-   :depends pymongo: ``4.6.1``
+   :depends annotated-types: ``>=0.6.0``
+   :depends certifi: ``>=2023.7.22``
+   :depends charset-normalizer: ``>=3.3.1``
+   :depends coverage: ``>=7.6.0``
+   :depends cyvcf2: ``>=0.30.28``
+   :depends openpyxl: ``>=3.1.2``
+   :depends pandas: ``>=2.1.2``
+   :depends pydantic: ``>=2.6.4``
+   :depends pydantic-core: ``>=2.16.3``
+   :depends pymongo: ``>=4.6.1``
    :depends python: ``>=3.10,<3.11.0a0``
-   :depends python-dateutil: ``2.8.2``
-   :depends tqdm: ``4.66.1``
-   :depends typing: ``3.7.4.3``
-   :depends typing_extensions: ``4.11.0``
-   :depends urllib3: ``2.0.7``
+   :depends python-dateutil: ``>=2.8.2``
+   :depends rfc3339-validator: ``>=0.1.4``
+   :depends tqdm: ``>=4.66.1``
+   :depends typing: ``>=3.7.4.3``
+   :depends typing_extensions: ``>=4.11.0``
+   :depends urllib3: ``>=2.0.7``
    :requirements:
 
    :additional platforms:
@@ -96,7 +99,7 @@ beacon2-ri-tools
 
     <script>
         var package = "beacon2-ri-tools";
-        var versions = ["2.0.5","2.0.0"];
+        var versions = ["2.0.6","2.0.5","2.0.0"];
     </script>
 
 

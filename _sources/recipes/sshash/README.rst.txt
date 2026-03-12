@@ -27,15 +27,15 @@ sshash
       
       
 
-      ``5.0.0-0``,  ``4.0.0-0``,  ``4.0.0_test_bioconda-0``
+      ``5.1.0-0``,  ``5.0.0-0``,  ``4.0.0-0``,  ``4.0.0_test_bioconda-0``
 
       
 
    
    :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends libgcc: ``>=13``
+   :depends libgcc: ``>=14``
    :depends libjemalloc: ``>=5.3.0``
-   :depends libstdcxx: ``>=13``
+   :depends libstdcxx: ``>=14``
    :depends libzlib: ``>=1.3.1,<2.0a0``
    :requirements:
 
@@ -91,7 +91,7 @@ sshash
 
     <script>
         var package = "sshash";
-        var versions = ["5.0.0","4.0.0","4.0.0_test_bioconda"];
+        var versions = ["5.1.0","5.0.0","4.0.0","4.0.0_test_bioconda"];
     </script>
 
 

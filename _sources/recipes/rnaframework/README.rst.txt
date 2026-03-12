@@ -46,11 +46,25 @@ rnaframework
       
       
 
-      
+      ``2.9.6-0``
 
       
 
    
+   :depends bedtools: ``>=2.31``
+   :depends bowtie: ``>=1.2.3``
+   :depends bowtie2: ``>=2.3.5``
+   :depends cutadapt: ``>=2.1``
+   :depends perl: ``>=5.12``
+   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends perl-termreadkey: 
+   :depends r-base: ``>=4.4,<4.6``
+   :depends r-ggplot2: ``>=3.5.2``
+   :depends r-patchwork: ``>=1.3.2``
+   :depends r-rcolorbrewer: ``>=1.1_3``
+   :depends rnastructure: ``>=6.4``
+   :depends samtools: ``>=1.15``
+   :depends viennarna: ``>=2.5.0``
    :requirements:
 
    :additional platforms:
@@ -105,7 +119,7 @@ rnaframework
 
     <script>
         var package = "rnaframework";
-        var versions = [];
+        var versions = ["2.9.6"];
     </script>
 
 

@@ -37,7 +37,7 @@ csi-ssu
       
       
 
-      ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -104,7 +104,7 @@ csi-ssu
 
     <script>
         var package = "csi-ssu";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.1","1.0.0"];
     </script>
 
 

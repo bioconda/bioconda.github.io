@@ -34,10 +34,10 @@ egap
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.3.7-0</code>,  <code>3.3.6-0</code>,  <code>3.3.5-0</code>,  <code>3.3.4-0</code>,  <code>3.3c-0</code>,  <code>3.2c-0</code>,  <code>3.1-0</code>,  <code>3.1b-0</code>,  <code>3.0.0f-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.3.8-0</code>,  <code>3.3.7-0</code>,  <code>3.3.6-0</code>,  <code>3.3.5-0</code>,  <code>3.3.4-0</code>,  <code>3.3c-0</code>,  <code>3.2c-0</code>,  <code>3.1-0</code>,  <code>3.1b-0</code>,  </span></summary>
       
 
-      ``3.3.7-0``,  ``3.3.6-0``,  ``3.3.5-0``,  ``3.3.4-0``,  ``3.3c-0``,  ``3.2c-0``,  ``3.1-0``,  ``3.1b-0``,  ``3.0.0f-0``,  ``3.0.0b-0``,  ``2.6.6-0``,  ``2.6.5-0``,  ``2.6.4-0``,  ``2.6.2-0``,  ``2.5.4-0``,  ``2.5.3-0``
+      ``3.3.8-0``,  ``3.3.7-0``,  ``3.3.6-0``,  ``3.3.5-0``,  ``3.3.4-0``,  ``3.3c-0``,  ``3.2c-0``,  ``3.1-0``,  ``3.1b-0``,  ``3.0.0f-0``,  ``3.0.0b-0``,  ``2.6.6-0``,  ``2.6.5-0``,  ``2.6.4-0``,  ``2.6.2-0``,  ``2.5.4-0``,  ``2.5.3-0``
 
       
       .. raw:: html
@@ -54,7 +54,7 @@ egap
    :depends biopython: ``>=1.81``
    :depends busco: ``>=5.8.2``
    :depends bwa-mem2: ``>=2.2.1``
-   :depends compleasm: ``>=0.2.6``
+   :depends compleasm: ``>=0.2.7``
    :depends fastqc: ``>=0.12.1``
    :depends filtlong: ``>=0.2.1``
    :depends flye: ``>=2.9.5``
@@ -82,12 +82,14 @@ egap
    :depends ragtag: ``>=2.1.0``
    :depends ratatosk: ``>=0.9.0``
    :depends requests: ``>=2.32.3``
+   :depends rich: ``>=13.3.3``
    :depends samtools: ``>=1.21``
    :depends sepp: ``>=4.5.1``
    :depends spades: ``>=4.0.0``
    :depends sra-tools: ``>=3.2.0``
    :depends tabulate: ``>=0.9.0``
    :depends termcolor: ``>=2.3.0``
+   :depends textual: ``>=0.4.2``
    :depends tgsgapcloser: ``>=1.2.1``
    :depends trimmomatic: ``>=0.39``
    :requirements:
@@ -140,7 +142,7 @@ egap
 
     <script>
         var package = "egap";
-        var versions = ["3.3.7","3.3.6","3.3.5","3.3.4","3.3c"];
+        var versions = ["3.3.8","3.3.7","3.3.6","3.3.5","3.3.4"];
     </script>
 
 

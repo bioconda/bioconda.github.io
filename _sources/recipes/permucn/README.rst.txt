@@ -29,7 +29,7 @@ permucn
       
       
 
-      ``0.1.0-0``
+      ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -85,7 +85,7 @@ permucn
 
     <script>
         var package = "permucn";
-        var versions = ["0.1.0"];
+        var versions = ["0.1.1","0.1.0"];
     </script>
 
 

@@ -12,7 +12,7 @@ arcs
 
    Scaffolding genome sequence assemblies using linked or long reads
 
-   :homepage: https://github.com/bcgsc/arcs
+   :homepage: https://github.com/BirolLab/arcs
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`arcs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/arcs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/arcs/meta.yaml>`_
 
@@ -28,10 +28,10 @@ arcs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.8-1</code>,  <code>1.2.8-0</code>,  <code>1.2.7-2</code>,  <code>1.2.7-1</code>,  <code>1.2.7-0</code>,  <code>1.2.6-0</code>,  <code>1.2.5-1</code>,  <code>1.2.5-0</code>,  <code>1.2.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.8-2</code>,  <code>1.2.8-1</code>,  <code>1.2.8-0</code>,  <code>1.2.7-2</code>,  <code>1.2.7-1</code>,  <code>1.2.7-0</code>,  <code>1.2.6-0</code>,  <code>1.2.5-1</code>,  <code>1.2.5-0</code>,  </span></summary>
       
 
-      ``1.2.8-1``,  ``1.2.8-0``,  ``1.2.7-2``,  ``1.2.7-1``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``
+      ``1.2.8-2``,  ``1.2.8-1``,  ``1.2.8-0``,  ``1.2.7-2``,  ``1.2.7-1``,  ``1.2.7-0``,  ``1.2.6-0``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,11 @@ arcs
       
 
    
-   :depends btllib: ``>=1.7.3,<2.0a0``
-   :depends libcxx: ``>=18``
+   :depends _openmp_mutex: ``>=4.5``
+   :depends btllib: ``>=1.7.5,<2.0a0``
+   :depends libgcc: ``>=14``
+   :depends libstdcxx: ``>=14``
    :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends llvm-openmp: ``>=18.1.8``
    :depends make: 
    :requirements:
 
@@ -99,7 +100,7 @@ arcs
 
     <script>
         var package = "arcs";
-        var versions = ["1.2.8","1.2.8","1.2.7","1.2.7","1.2.7"];
+        var versions = ["1.2.8","1.2.8","1.2.8","1.2.7","1.2.7"];
     </script>
 
 

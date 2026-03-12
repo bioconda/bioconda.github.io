@@ -29,20 +29,19 @@ gunc
       
       
 
-      ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends diamond: ``2.0.4.*``
+   :depends diamond: ``2.1.24.*``
    :depends numpy: 
-   :depends pandas: 
+   :depends pandas: ``>=2.0.0``
    :depends plotly: 
    :depends prodigal: 
    :depends python: ``>=3.6``
    :depends requests: ``>=2.22.0``
    :depends scipy: 
-   :depends setuptools: ``<81``
    :requirements:
 
    :additional platforms:
@@ -93,7 +92,7 @@ gunc
 
     <script>
         var package = "gunc";
-        var versions = ["1.0.6","1.0.6","1.0.5","1.0.4","1.0.3"];
+        var versions = ["1.1.0","1.0.6","1.0.6","1.0.5","1.0.4"];
     </script>
 
 
