@@ -40,65 +40,88 @@ bcbio-nextgen-vm
       
 
    
-   :depends arvados-cwl-runner: ``>=1.3.1.20190301150258``
-   :depends bcbio-nextgen: ``>1.1.4``
-   :depends boto3: 
-   :depends cachecontrol: ``0.11.7``
-   :depends cromwell: ``>=0.36``
-   :depends cwltool: 
-   :depends dx-cwl: ``>=0.1.0a20180820``
-   :depends dxpy: 
-   :depends google-cloud-sdk: 
-   :depends ipyparallel: ``>=6.0.2``
-   :depends nodejs: 
-   :depends nose: 
-   :depends pathlib2: ``2.3.2``
-   :depends pysam: ``>=0.15.2``
-   :depends python: 
-   :depends python-dateutil: ``>=2.5.0``
-   :depends rabix-bunny: ``>=1.0.4``
-   :depends ruamel.yaml: ``>=0.13.0``
-   :depends sevenbridges-python: ``>=0.17.5``
-   :depends six: 
-   :depends synapseclient: 
-   :requirements:
+   :depends on arvados-cwl-runner: ``>=1.3.1.20190301150258``
+   :depends on bcbio-nextgen: ``>1.1.4``
+   :depends on boto3: 
+   :depends on cachecontrol: ``0.11.7``
+   :depends on cromwell: ``>=0.36``
+   :depends on cwltool: 
+   :depends on dx-cwl: ``>=0.1.0a20180820``
+   :depends on dxpy: 
+   :depends on google-cloud-sdk: 
+   :depends on ipyparallel: ``>=6.0.2``
+   :depends on nodejs: 
+   :depends on nose: 
+   :depends on pathlib2: ``2.3.2``
+   :depends on pysam: ``>=0.15.2``
+   :depends on python: 
+   :depends on python-dateutil: ``>=2.5.0``
+   :depends on rabix-bunny: ``>=1.0.4``
+   :depends on ruamel.yaml: ``>=0.13.0``
+   :depends on sevenbridges-python: ``>=0.17.5``
+   :depends on six: 
+   :depends on synapseclient: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install bcbio-nextgen-vm
+    pixi global install bcbio-nextgen-vm
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update bcbio-nextgen-vm
+    pixi add bcbio-nextgen-vm
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname bcbio-nextgen-vm
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/bcbio-nextgen-vm:<tag>
+    conda install bcbio-nextgen-vm
 
-   (see `bcbio-nextgen-vm/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname bcbio-nextgen-vm
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/bcbio-nextgen-vm:<tag>
+
+(see `bcbio-nextgen-vm/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_bcbio-nextgen-vm| image:: https://img.shields.io/conda/dn/bioconda/bcbio-nextgen-vm.svg?style=flat
    :target: https://anaconda.org/bioconda/bcbio-nextgen-vm
    :alt:   (downloads)

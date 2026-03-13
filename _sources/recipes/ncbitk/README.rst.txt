@@ -32,52 +32,75 @@ ncbitk
       
 
    
-   :depends biopython: ``>=1.68``
-   :depends click: 
-   :depends numpy: ``>=1.12.0``
-   :depends pandas: ``>=0.19.2``
-   :depends python: ``>=3``
-   :depends python-dateutil: ``>=2.6.0``
-   :depends pytz: ``>=2016.10``
-   :depends six: ``>=1.10.0``
-   :requirements:
+   :depends on biopython: ``>=1.68``
+   :depends on click: 
+   :depends on numpy: ``>=1.12.0``
+   :depends on pandas: ``>=0.19.2``
+   :depends on python: ``>=3``
+   :depends on python-dateutil: ``>=2.6.0``
+   :depends on pytz: ``>=2016.10``
+   :depends on six: ``>=1.10.0``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install ncbitk
+    pixi global install ncbitk
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update ncbitk
+    pixi add ncbitk
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname ncbitk
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/ncbitk:<tag>
+    conda install ncbitk
 
-   (see `ncbitk/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname ncbitk
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/ncbitk:<tag>
+
+(see `ncbitk/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_ncbitk| image:: https://img.shields.io/conda/dn/bioconda/ncbitk.svg?style=flat
    :target: https://anaconda.org/bioconda/ncbitk
    :alt:   (downloads)

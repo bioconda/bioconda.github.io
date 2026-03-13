@@ -32,61 +32,84 @@ pangwas
       
 
    
-   :depends bakta: ``1.9.2.*``
-   :depends cairosvg: ``>=2.7.1``
-   :depends dendropy: ``5.0.1.*``
-   :depends diamond: ``2.1.8.*``
-   :depends iqtree: ``2.3.6.*``
-   :depends mafft: ``7.526.*``
-   :depends mmseqs2: ``15.6f452.*``
-   :depends ncbi-amrfinderplus: ``3.11.26.*``
-   :depends networkx: ``3.4.2.*``
-   :depends nextflow: ``>=24.10``
-   :depends pip: 
-   :depends pycairo: ``>=1.27.0``
-   :depends pyseer: ``1.3.12.*``
-   :depends python: 
-   :depends svgpathtools: ``>=1.6.0``
-   :depends tar: ``>=1.34``
-   :depends tqdm: ``>=4.66``
-   :requirements:
+   :depends on bakta: ``1.9.2.*``
+   :depends on cairosvg: ``>=2.7.1``
+   :depends on dendropy: ``5.0.1.*``
+   :depends on diamond: ``2.1.8.*``
+   :depends on iqtree: ``2.3.6.*``
+   :depends on mafft: ``7.526.*``
+   :depends on mmseqs2: ``15.6f452.*``
+   :depends on ncbi-amrfinderplus: ``3.11.26.*``
+   :depends on networkx: ``3.4.2.*``
+   :depends on nextflow: ``>=24.10``
+   :depends on pip: 
+   :depends on pycairo: ``>=1.27.0``
+   :depends on pyseer: ``1.3.12.*``
+   :depends on python: 
+   :depends on svgpathtools: ``>=1.6.0``
+   :depends on tar: ``>=1.34``
+   :depends on tqdm: ``>=4.66``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install pangwas
+    pixi global install pangwas
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update pangwas
+    pixi add pangwas
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname pangwas
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/pangwas:<tag>
+    conda install pangwas
 
-   (see `pangwas/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname pangwas
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/pangwas:<tag>
+
+(see `pangwas/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_pangwas| image:: https://img.shields.io/conda/dn/bioconda/pangwas.svg?style=flat
    :target: https://anaconda.org/bioconda/pangwas
    :alt:   (downloads)

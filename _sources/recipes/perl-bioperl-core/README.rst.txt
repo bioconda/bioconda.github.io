@@ -40,76 +40,99 @@ perl-bioperl-core
       
 
    
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
-   :depends perl-aceperl: 
-   :depends perl-algorithm-munkres: 
-   :depends perl-array-compare: 
-   :depends perl-bio-phylo: 
-   :depends perl-clone: 
-   :depends perl-convert-binary-c: 
-   :depends perl-data-stag: 
-   :depends perl-db-file: 
-   :depends perl-dbd-sqlite: 
-   :depends perl-dbi: 
-   :depends perl-error: 
-   :depends perl-gd: 
-   :depends perl-graphviz: 
-   :depends perl-html-tableextract: 
-   :depends perl-io-string: 
-   :depends perl-io-stringy: 
-   :depends perl-list-moreutils: 
-   :depends perl-postscript: 
-   :depends perl-set-scalar: 
-   :depends perl-soap-lite: 
-   :depends perl-sort-naturally: 
-   :depends perl-spreadsheet-parseexcel: 
-   :depends perl-svg: 
-   :depends perl-svg-graph: 
-   :depends perl-xml-dom: 
-   :depends perl-xml-dom-xpath: 
-   :depends perl-xml-sax-writer: 
-   :depends perl-xml-simple: 
-   :depends perl-xml-twig: 
-   :depends perl-xml-writer: 
-   :depends perl-yaml: 
-   :requirements:
+   :depends on perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends on perl-aceperl: 
+   :depends on perl-algorithm-munkres: 
+   :depends on perl-array-compare: 
+   :depends on perl-bio-phylo: 
+   :depends on perl-clone: 
+   :depends on perl-convert-binary-c: 
+   :depends on perl-data-stag: 
+   :depends on perl-db-file: 
+   :depends on perl-dbd-sqlite: 
+   :depends on perl-dbi: 
+   :depends on perl-error: 
+   :depends on perl-gd: 
+   :depends on perl-graphviz: 
+   :depends on perl-html-tableextract: 
+   :depends on perl-io-string: 
+   :depends on perl-io-stringy: 
+   :depends on perl-list-moreutils: 
+   :depends on perl-postscript: 
+   :depends on perl-set-scalar: 
+   :depends on perl-soap-lite: 
+   :depends on perl-sort-naturally: 
+   :depends on perl-spreadsheet-parseexcel: 
+   :depends on perl-svg: 
+   :depends on perl-svg-graph: 
+   :depends on perl-xml-dom: 
+   :depends on perl-xml-dom-xpath: 
+   :depends on perl-xml-sax-writer: 
+   :depends on perl-xml-simple: 
+   :depends on perl-xml-twig: 
+   :depends on perl-xml-writer: 
+   :depends on perl-yaml: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install perl-bioperl-core
+    pixi global install perl-bioperl-core
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update perl-bioperl-core
+    pixi add perl-bioperl-core
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname perl-bioperl-core
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/perl-bioperl-core:<tag>
+    conda install perl-bioperl-core
 
-   (see `perl-bioperl-core/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname perl-bioperl-core
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/perl-bioperl-core:<tag>
+
+(see `perl-bioperl-core/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_perl-bioperl-core| image:: https://img.shields.io/conda/dn/bioconda/perl-bioperl-core.svg?style=flat
    :target: https://anaconda.org/bioconda/perl-bioperl-core
    :alt:   (downloads)

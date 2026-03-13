@@ -41,24 +41,23 @@ bioconductor-mzr
       
 
    
-   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0a0``
-   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
-   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
-   :depends bioconductor-protgenerics: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-protgenerics: ``>=1.42.0,<1.43.0a0``
-   :depends bioconductor-rhdf5lib: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-rhdf5lib: ``>=1.32.0,<1.33.0a0``
-   :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=14``
-   :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends liblzma: ``>=5.8.2,<6.0a0``
-   :depends libstdcxx: ``>=14``
-   :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends r-base: ``>=4.5,<4.6.0a0``
-   :depends r-ncdf4: 
-   :depends r-rcpp: ``>=0.10.1``
-   :requirements:
+   :depends on bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends on bioconductor-biobase: ``>=2.70.0,<2.71.0a0``
+   :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
+   :depends on bioconductor-protgenerics: ``>=1.42.0,<1.43.0``
+   :depends on bioconductor-protgenerics: ``>=1.42.0,<1.43.0a0``
+   :depends on bioconductor-rhdf5lib: ``>=1.32.0,<1.33.0``
+   :depends on bioconductor-rhdf5lib: ``>=1.32.0,<1.33.0a0``
+   :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on liblapack: ``>=3.9.0,<4.0a0``
+   :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-ncdf4: 
+   :depends on r-rcpp: ``>=0.10.1``
 
    :additional platforms:
       
@@ -67,39 +66,63 @@ bioconductor-mzr
          <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install bioconductor-mzr
+    pixi global install bioconductor-mzr
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update bioconductor-mzr
+    pixi add bioconductor-mzr
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname bioconductor-mzr
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/bioconductor-mzr:<tag>
+    conda install bioconductor-mzr
 
-   (see `bioconductor-mzr/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname bioconductor-mzr
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/bioconductor-mzr:<tag>
+
+(see `bioconductor-mzr/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_bioconductor-mzr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mzr.svg?style=flat
    :target: https://anaconda.org/bioconda/bioconductor-mzr
    :alt:   (downloads)

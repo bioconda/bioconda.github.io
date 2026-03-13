@@ -42,99 +42,122 @@ bioconvert
       
 
    
-   :depends bamtools: 
-   :depends bcftools: 
-   :depends bedops: 
-   :depends bedtools: 
-   :depends biopython: ``>=1.70``
-   :depends biosniff: 
-   :depends colorlog: 
-   :depends deeptools: 
-   :depends dsrc: 
-   :depends easydev: 
-   :depends gffread: 
-   :depends go: ``1.24.*``
-   :depends goalign: 
-   :depends gotree: 
-   :depends graphviz: 
-   :depends htslib: 
-   :depends jinja2: ``<3.1``
-   :depends mappy: 
-   :depends matplotlib-base: 
-   :depends mawk: 
-   :depends mosdepth: 
-   :depends networkx: 
-   :depends numpydoc: 
-   :depends openpyxl: ``<=3.0.10``
-   :depends pandas: 
-   :depends pbzip2: 
-   :depends picard-slim: 
-   :depends pigz: 
-   :depends plink: 
-   :depends psutil: 
-   :depends py2bit: 
-   :depends pybigwig: 
-   :depends pyexcel: 
-   :depends pyexcel-ods3: 
-   :depends pyexcel-xls: 
-   :depends pyexcel-xlsx: 
-   :depends pysam: 
-   :depends python: ``>=3.8``
-   :depends pyyaml: 
-   :depends sambamba: 
-   :depends samtools: 
-   :depends sed: 
-   :depends seqkit: 
-   :depends seqtk: 
-   :depends squizz: 
-   :depends sra-tools: 
-   :depends statsmodels: 
-   :depends tqdm: 
-   :depends ucsc-bedgraphtobigwig: 
-   :depends ucsc-bigwigtobedgraph: 
-   :depends ucsc-fatotwobit: 
-   :depends ucsc-twobittofa: 
-   :depends ucsc-wigtobigwig: 
-   :depends wiggletools: 
-   :depends xlrd: ``>2.0``
-   :requirements:
+   :depends on bamtools: 
+   :depends on bcftools: 
+   :depends on bedops: 
+   :depends on bedtools: 
+   :depends on biopython: ``>=1.70``
+   :depends on biosniff: 
+   :depends on colorlog: 
+   :depends on deeptools: 
+   :depends on dsrc: 
+   :depends on easydev: 
+   :depends on gffread: 
+   :depends on go: ``1.24.*``
+   :depends on goalign: 
+   :depends on gotree: 
+   :depends on graphviz: 
+   :depends on htslib: 
+   :depends on jinja2: ``<3.1``
+   :depends on mappy: 
+   :depends on matplotlib-base: 
+   :depends on mawk: 
+   :depends on mosdepth: 
+   :depends on networkx: 
+   :depends on numpydoc: 
+   :depends on openpyxl: ``<=3.0.10``
+   :depends on pandas: 
+   :depends on pbzip2: 
+   :depends on picard-slim: 
+   :depends on pigz: 
+   :depends on plink: 
+   :depends on psutil: 
+   :depends on py2bit: 
+   :depends on pybigwig: 
+   :depends on pyexcel: 
+   :depends on pyexcel-ods3: 
+   :depends on pyexcel-xls: 
+   :depends on pyexcel-xlsx: 
+   :depends on pysam: 
+   :depends on python: ``>=3.8``
+   :depends on pyyaml: 
+   :depends on sambamba: 
+   :depends on samtools: 
+   :depends on sed: 
+   :depends on seqkit: 
+   :depends on seqtk: 
+   :depends on squizz: 
+   :depends on sra-tools: 
+   :depends on statsmodels: 
+   :depends on tqdm: 
+   :depends on ucsc-bedgraphtobigwig: 
+   :depends on ucsc-bigwigtobedgraph: 
+   :depends on ucsc-fatotwobit: 
+   :depends on ucsc-twobittofa: 
+   :depends on ucsc-wigtobigwig: 
+   :depends on wiggletools: 
+   :depends on xlrd: ``>2.0``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install bioconvert
+    pixi global install bioconvert
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update bioconvert
+    pixi add bioconvert
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname bioconvert
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/bioconvert:<tag>
+    conda install bioconvert
 
-   (see `bioconvert/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname bioconvert
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/bioconvert:<tag>
+
+(see `bioconvert/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_bioconvert| image:: https://img.shields.io/conda/dn/bioconda/bioconvert.svg?style=flat
    :target: https://anaconda.org/bioconda/bioconvert
    :alt:   (downloads)

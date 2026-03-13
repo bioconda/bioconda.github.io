@@ -33,39 +33,38 @@ r-mytai
       
 
    
-   :depends bioconductor-edger: ``>=4.4.0,<4.5.0a0``
-   :depends fribidi: ``>=1.0.16,<2.0a0``
-   :depends harfbuzz: ``>=9.0.0,<10.0a0``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
-   :depends r-doparallel: ``>=1.0.8``
-   :depends r-dplyr: ``>=0.3.0``
-   :depends r-fitdistrplus: ``>=1.0_2``
-   :depends r-foreach: ``>=1.4.2``
-   :depends r-ggforce: 
-   :depends r-ggplot2: ``>=1.0.1``
-   :depends r-ggplotify: 
-   :depends r-ggrepel: 
-   :depends r-ggridges: 
-   :depends r-ggtext: 
-   :depends r-gridextra: 
-   :depends r-nortest: ``>=1.0_2``
-   :depends r-patchwork: 
-   :depends r-pheatmap: 
-   :depends r-r.utils: ``>=2.12.2``
-   :depends r-rcolorbrewer: ``>=1.1_2``
-   :depends r-rcpp: ``>=0.12.0``
-   :depends r-rcpparmadillo: 
-   :depends r-rcppthread: 
-   :depends r-readr: ``>=0.2.2``
-   :depends r-reshape2: ``>=1.4.1``
-   :depends r-scales: 
-   :depends r-taxize: ``>=0.6.0``
-   :depends r-textshaping: 
-   :depends r-tibble: 
-   :depends r-tidyr: 
-   :requirements:
+   :depends on bioconductor-edger: ``>=4.4.0,<4.5.0a0``
+   :depends on fribidi: ``>=1.0.16,<2.0a0``
+   :depends on harfbuzz: ``>=9.0.0,<10.0a0``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
+   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on r-doparallel: ``>=1.0.8``
+   :depends on r-dplyr: ``>=0.3.0``
+   :depends on r-fitdistrplus: ``>=1.0_2``
+   :depends on r-foreach: ``>=1.4.2``
+   :depends on r-ggforce: 
+   :depends on r-ggplot2: ``>=1.0.1``
+   :depends on r-ggplotify: 
+   :depends on r-ggrepel: 
+   :depends on r-ggridges: 
+   :depends on r-ggtext: 
+   :depends on r-gridextra: 
+   :depends on r-nortest: ``>=1.0_2``
+   :depends on r-patchwork: 
+   :depends on r-pheatmap: 
+   :depends on r-r.utils: ``>=2.12.2``
+   :depends on r-rcolorbrewer: ``>=1.1_2``
+   :depends on r-rcpp: ``>=0.12.0``
+   :depends on r-rcpparmadillo: 
+   :depends on r-rcppthread: 
+   :depends on r-readr: ``>=0.2.2``
+   :depends on r-reshape2: ``>=1.4.1``
+   :depends on r-scales: 
+   :depends on r-taxize: ``>=0.6.0``
+   :depends on r-textshaping: 
+   :depends on r-tibble: 
+   :depends on r-tidyr: 
 
    :additional platforms:
       
@@ -74,39 +73,63 @@ r-mytai
          <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install r-mytai
+    pixi global install r-mytai
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update r-mytai
+    pixi add r-mytai
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname r-mytai
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/r-mytai:<tag>
+    conda install r-mytai
 
-   (see `r-mytai/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname r-mytai
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/r-mytai:<tag>
+
+(see `r-mytai/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_r-mytai| image:: https://img.shields.io/conda/dn/bioconda/r-mytai.svg?style=flat
    :target: https://anaconda.org/bioconda/r-mytai
    :alt:   (downloads)

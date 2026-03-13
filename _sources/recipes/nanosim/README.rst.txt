@@ -12,7 +12,7 @@ nanosim
 
    NanoSim is a fast and scalable read simulator for Nanopore sequencing data.
 
-   :homepage: https://github.com/bcgsc/NanoSim
+   :homepage: https://github.com/BirolLab/NanoSim
    :license: GPL3 / GPL-3.0-only
    :recipe: /`nanosim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanosim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanosim/meta.yaml>`_
    :links: doi: :doi:`10.1093/gigascience/gix010`, doi: :doi:`10.1093/gigascience/giaa061`
@@ -29,10 +29,10 @@ nanosim
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.3-1</code>,  <code>3.2.3-0</code>,  <code>3.2.2-1</code>,  <code>3.2.2-0</code>,  <code>3.2.1-1</code>,  <code>3.2.1-0</code>,  <code>3.2.0-2</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.3-2</code>,  <code>3.2.3-1</code>,  <code>3.2.3-0</code>,  <code>3.2.2-1</code>,  <code>3.2.2-0</code>,  <code>3.2.1-1</code>,  <code>3.2.1-0</code>,  <code>3.2.0-2</code>,  <code>3.2.0-1</code>,  </span></summary>
       
 
-      ``3.2.3-1``,  ``3.2.3-0``,  ``3.2.2-1``,  ``3.2.2-0``,  ``3.2.1-1``,  ``3.2.1-0``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.2-0``,  ``3.0.0-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.5.1-1``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``v1.3.0-0``,  ``v1.2.0-0``,  ``v1.0.1-1``
+      ``3.2.3-2``,  ``3.2.3-1``,  ``3.2.3-0``,  ``3.2.2-1``,  ``3.2.2-0``,  ``3.2.1-1``,  ``3.2.1-0``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.2-0``,  ``3.0.0-0``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.5.1-1``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``v1.3.0-0``,  ``v1.2.0-0``,  ``v1.0.1-1``
 
       
       .. raw:: html
@@ -41,60 +41,83 @@ nanosim
       
 
    
-   :depends genometools-genometools: 
-   :depends htseq: ``>=0.9.1``
-   :depends joblib: 
-   :depends last: 
-   :depends minimap2: ``>=2.18``
-   :depends numpy: ``>=1.13.3,<1.24``
-   :depends piecewise-regression: 
-   :depends pybedtools: ``>=0.7.10``
-   :depends pysam: ``>=0.13``
-   :depends python: 
-   :depends regex: 
-   :depends sam2pairwise: 
-   :depends samtools: 
-   :depends scikit-learn: ``~=0.23.2``
-   :depends scipy: ``>=1.0.0``
-   :depends six: ``>=1.10.0``
-   :requirements:
+   :depends on genometools-genometools: 
+   :depends on htseq: ``>=0.9.1``
+   :depends on joblib: 
+   :depends on last: 
+   :depends on minimap2: ``>=2.18``
+   :depends on numpy: ``>=1.13.3,<1.24``
+   :depends on piecewise-regression: 
+   :depends on pybedtools: ``>=0.7.10``
+   :depends on pysam: ``>=0.13``
+   :depends on python: 
+   :depends on regex: 
+   :depends on sam2pairwise: 
+   :depends on samtools: 
+   :depends on scikit-learn: ``~=0.23.2``
+   :depends on scipy: ``>=1.0.0``
+   :depends on six: ``>=1.10.0``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install nanosim
+    pixi global install nanosim
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update nanosim
+    pixi add nanosim
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname nanosim
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/nanosim:<tag>
+    conda install nanosim
 
-   (see `nanosim/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname nanosim
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/nanosim:<tag>
+
+(see `nanosim/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_nanosim| image:: https://img.shields.io/conda/dn/bioconda/nanosim.svg?style=flat
    :target: https://anaconda.org/bioconda/nanosim
    :alt:   (downloads)
@@ -107,7 +130,7 @@ nanosim
 
     <script>
         var package = "nanosim";
-        var versions = ["3.2.3","3.2.3","3.2.2","3.2.2","3.2.1"];
+        var versions = ["3.2.3","3.2.3","3.2.3","3.2.2","3.2.2"];
     </script>
 
 

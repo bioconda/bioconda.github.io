@@ -43,88 +43,111 @@ bioconda-utils
       
 
    
-   :depends aiofiles: ``24.*``
-   :depends aioftp: ``0.26.*``
-   :depends aiohttp: ``>=3.12.14``
-   :depends aiohttp-jinja2: 
-   :depends aiohttp-security: 
-   :depends aiohttp-session: 
-   :depends anaconda-client: ``1.13.*``
-   :depends argh: ``0.31.*``
-   :depends backoff: ``2.2.*``
-   :depends beautifulsoup4: ``4.*``
-   :depends boltons: ``25.0.*``
-   :depends cachetools: ``5.3.*``
-   :depends colorlog: ``6.*``
-   :depends conda: ``25.7.*``
-   :depends conda-build: ``25.7.*``
-   :depends conda-forge-pinning: ``2024.11.29.12.37.53.*``
-   :depends conda-index: ``0.6.*``
-   :depends conda-libmamba-solver: ``25.4.*``
-   :depends conda-package-streaming: ``0.12.*``
-   :depends diskcache: ``5.*``
-   :depends findutils: 
-   :depends galaxy-tool-util: ``25.*``
-   :depends gidgethub: ``5.*``
-   :depends git: ``2.*``
-   :depends gitpython: ``3.1.*``
-   :depends involucro: ``1.1.*``
-   :depends jinja2: ``3.1.*``
-   :depends jsonschema: ``4.25.*``
-   :depends libblas: ``* *openblas``
-   :depends mamba: ``2.3.*``
-   :depends networkx: ``3.5.*``
-   :depends pandas: ``2.3.*``
-   :depends platformdirs: ``4.*``
-   :depends pyaml: ``25.7.*``
-   :depends pygithub: 
-   :depends pyjwt: ``>=2.4.0``
-   :depends python: ``3.12.*``
-   :depends regex: ``2025.*``
-   :depends requests: ``2.32.*``
-   :depends ruamel.yaml: ``0.18.*``
-   :depends skopeo: ``1.15.*``
-   :depends tabulate: ``0.9.*``
-   :depends tqdm: ``4.67.*``
-   :depends yaspin: ``3.*``
-   :requirements:
+   :depends on aiofiles: ``24.*``
+   :depends on aioftp: ``0.26.*``
+   :depends on aiohttp: ``>=3.12.14``
+   :depends on aiohttp-jinja2: 
+   :depends on aiohttp-security: 
+   :depends on aiohttp-session: 
+   :depends on anaconda-client: ``1.13.*``
+   :depends on argh: ``0.31.*``
+   :depends on backoff: ``2.2.*``
+   :depends on beautifulsoup4: ``4.*``
+   :depends on boltons: ``25.0.*``
+   :depends on cachetools: ``5.3.*``
+   :depends on colorlog: ``6.*``
+   :depends on conda: ``25.7.*``
+   :depends on conda-build: ``25.7.*``
+   :depends on conda-forge-pinning: ``2024.11.29.12.37.53.*``
+   :depends on conda-index: ``0.6.*``
+   :depends on conda-libmamba-solver: ``25.4.*``
+   :depends on conda-package-streaming: ``0.12.*``
+   :depends on diskcache: ``5.*``
+   :depends on findutils: 
+   :depends on galaxy-tool-util: ``25.*``
+   :depends on gidgethub: ``5.*``
+   :depends on git: ``2.*``
+   :depends on gitpython: ``3.1.*``
+   :depends on involucro: ``1.1.*``
+   :depends on jinja2: ``3.1.*``
+   :depends on jsonschema: ``4.25.*``
+   :depends on libblas: ``* *openblas``
+   :depends on mamba: ``2.3.*``
+   :depends on networkx: ``3.5.*``
+   :depends on pandas: ``2.3.*``
+   :depends on platformdirs: ``4.*``
+   :depends on pyaml: ``25.7.*``
+   :depends on pygithub: 
+   :depends on pyjwt: ``>=2.4.0``
+   :depends on python: ``3.12.*``
+   :depends on regex: ``2025.*``
+   :depends on requests: ``2.32.*``
+   :depends on ruamel.yaml: ``0.18.*``
+   :depends on skopeo: ``1.15.*``
+   :depends on tabulate: ``0.9.*``
+   :depends on tqdm: ``4.67.*``
+   :depends on yaspin: ``3.*``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install bioconda-utils
+    pixi global install bioconda-utils
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update bioconda-utils
+    pixi add bioconda-utils
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname bioconda-utils
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/bioconda-utils:<tag>
+    conda install bioconda-utils
 
-   (see `bioconda-utils/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname bioconda-utils
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/bioconda-utils:<tag>
+
+(see `bioconda-utils/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_bioconda-utils| image:: https://img.shields.io/conda/dn/bioconda/bioconda-utils.svg?style=flat
    :target: https://anaconda.org/bioconda/bioconda-utils
    :alt:   (downloads)

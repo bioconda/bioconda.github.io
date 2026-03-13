@@ -44,24 +44,23 @@ ganon
       
 
    
-   :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends coreutils: 
-   :depends curl: 
-   :depends diffutils: 
-   :depends genome_updater: ``>=0.7.0``
-   :depends genome_updater: ``>=0.7.0,<0.8.0a0``
-   :depends grep: 
-   :depends libgcc: ``>=14``
-   :depends libstdcxx: ``>=14``
-   :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends multitax: ``>=1.4.0``
-   :depends multitax: ``>=1.4.0,<2.0a0``
-   :depends pandas: ``>=1.2.0``
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
-   :depends raptor: ``3.*``
-   :depends raptor: ``>=3.0.1,<4.0a0``
-   :requirements:
+   :depends on bzip2: ``>=1.0.8,<2.0a0``
+   :depends on coreutils: 
+   :depends on curl: 
+   :depends on diffutils: 
+   :depends on genome_updater: ``>=0.7.0``
+   :depends on genome_updater: ``>=0.7.0,<0.8.0a0``
+   :depends on grep: 
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on multitax: ``>=1.4.0``
+   :depends on multitax: ``>=1.4.0,<2.0a0``
+   :depends on pandas: ``>=1.2.0``
+   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on raptor: ``3.*``
+   :depends on raptor: ``>=3.0.1,<4.0a0``
 
    :additional platforms:
       
@@ -70,39 +69,63 @@ ganon
          <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install ganon
+    pixi global install ganon
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update ganon
+    pixi add ganon
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname ganon
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/ganon:<tag>
+    conda install ganon
 
-   (see `ganon/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname ganon
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/ganon:<tag>
+
+(see `ganon/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_ganon| image:: https://img.shields.io/conda/dn/bioconda/ganon.svg?style=flat
    :target: https://anaconda.org/bioconda/ganon
    :alt:   (downloads)

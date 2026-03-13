@@ -46,90 +46,113 @@ egap
       
 
    
-   :depends abyss: ``>=2.0.2``
-   :depends bamtools: ``>=2.5.2``
-   :depends bbmap: ``>=39.15``
-   :depends beautifulsoup4: ``>=4.12.3``
-   :depends bifrost: ``>=1.3.5``
-   :depends biopython: ``>=1.81``
-   :depends busco: ``>=5.8.2``
-   :depends bwa-mem2: ``>=2.2.1``
-   :depends compleasm: ``>=0.2.7``
-   :depends fastqc: ``>=0.12.1``
-   :depends filtlong: ``>=0.2.1``
-   :depends flye: ``>=2.9.5``
-   :depends geopy: ``>=2.4.1``
-   :depends gfatools: ``>=0.5``
-   :depends hifiasm: ``>=0.21.0``
-   :depends jinja2: ``>=3.1.4``
-   :depends kmc: ``>=3.2.4``
-   :depends masurca: ``>=4.1.2``
-   :depends matplotlib-base: ``>=3.7.3``
-   :depends minimap2: ``>=2.28``
-   :depends nanoplot: ``>=1.43.0``
-   :depends ncbi-datasets-cli: ``>=18.3.1``
-   :depends numpy: ``>=1.24.3``
-   :depends openpyxl: ``>=3.1.5``
-   :depends pandas: ``>=2.0.3``
-   :depends pbccs: ``>=6.4.0``
-   :depends pilon: ``>=1.22``
-   :depends psutil: ``>=6.0.0``
-   :depends purge_dups: ``>=1.2.6``
-   :depends pyinaturalist: ``>=0.20``
-   :depends python: ``>=3.8,<3.9``
-   :depends quast: ``>=5.2.0``
-   :depends racon: ``>=1.5.0``
-   :depends ragtag: ``>=2.1.0``
-   :depends ratatosk: ``>=0.9.0``
-   :depends requests: ``>=2.32.3``
-   :depends rich: ``>=13.3.3``
-   :depends samtools: ``>=1.21``
-   :depends sepp: ``>=4.5.1``
-   :depends spades: ``>=4.0.0``
-   :depends sra-tools: ``>=3.2.0``
-   :depends tabulate: ``>=0.9.0``
-   :depends termcolor: ``>=2.3.0``
-   :depends textual: ``>=0.4.2``
-   :depends tgsgapcloser: ``>=1.2.1``
-   :depends trimmomatic: ``>=0.39``
-   :requirements:
+   :depends on abyss: ``>=2.0.2``
+   :depends on bamtools: ``>=2.5.2``
+   :depends on bbmap: ``>=39.15``
+   :depends on beautifulsoup4: ``>=4.12.3``
+   :depends on bifrost: ``>=1.3.5``
+   :depends on biopython: ``>=1.81``
+   :depends on busco: ``>=5.8.2``
+   :depends on bwa-mem2: ``>=2.2.1``
+   :depends on compleasm: ``>=0.2.7``
+   :depends on fastqc: ``>=0.12.1``
+   :depends on filtlong: ``>=0.2.1``
+   :depends on flye: ``>=2.9.5``
+   :depends on geopy: ``>=2.4.1``
+   :depends on gfatools: ``>=0.5``
+   :depends on hifiasm: ``>=0.21.0``
+   :depends on jinja2: ``>=3.1.4``
+   :depends on kmc: ``>=3.2.4``
+   :depends on masurca: ``>=4.1.2``
+   :depends on matplotlib-base: ``>=3.7.3``
+   :depends on minimap2: ``>=2.28``
+   :depends on nanoplot: ``>=1.43.0``
+   :depends on ncbi-datasets-cli: ``>=18.3.1``
+   :depends on numpy: ``>=1.24.3``
+   :depends on openpyxl: ``>=3.1.5``
+   :depends on pandas: ``>=2.0.3``
+   :depends on pbccs: ``>=6.4.0``
+   :depends on pilon: ``>=1.22``
+   :depends on psutil: ``>=6.0.0``
+   :depends on purge_dups: ``>=1.2.6``
+   :depends on pyinaturalist: ``>=0.20``
+   :depends on python: ``>=3.8,<3.9``
+   :depends on quast: ``>=5.2.0``
+   :depends on racon: ``>=1.5.0``
+   :depends on ragtag: ``>=2.1.0``
+   :depends on ratatosk: ``>=0.9.0``
+   :depends on requests: ``>=2.32.3``
+   :depends on rich: ``>=13.3.3``
+   :depends on samtools: ``>=1.21``
+   :depends on sepp: ``>=4.5.1``
+   :depends on spades: ``>=4.0.0``
+   :depends on sra-tools: ``>=3.2.0``
+   :depends on tabulate: ``>=0.9.0``
+   :depends on termcolor: ``>=2.3.0``
+   :depends on textual: ``>=0.4.2``
+   :depends on tgsgapcloser: ``>=1.2.1``
+   :depends on trimmomatic: ``>=0.39``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install egap
+    pixi global install egap
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update egap
+    pixi add egap
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname egap
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/egap:<tag>
+    conda install egap
 
-   (see `egap/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname egap
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/egap:<tag>
+
+(see `egap/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_egap| image:: https://img.shields.io/conda/dn/bioconda/egap.svg?style=flat
    :target: https://anaconda.org/bioconda/egap
    :alt:   (downloads)

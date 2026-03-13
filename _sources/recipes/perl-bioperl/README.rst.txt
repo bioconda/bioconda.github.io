@@ -41,55 +41,78 @@ perl-bioperl
       
 
    
-   :depends perl: 
-   :depends perl-bio-asn1-entrezgene: 
-   :depends perl-bio-coordinate: 
-   :depends perl-bio-featureio: 
-   :depends perl-bio-samtools: 
-   :depends perl-bio-searchio-hmmer: 
-   :depends perl-bio-tools-phylo-paml: 
-   :depends perl-bio-tools-run-alignment-clustalw: 
-   :depends perl-bio-tools-run-alignment-tcoffee: 
-   :depends perl-bioperl-core: ``1.7.8.*``
-   :depends perl-bioperl-run: 
-   :requirements:
+   :depends on perl: 
+   :depends on perl-bio-asn1-entrezgene: 
+   :depends on perl-bio-coordinate: 
+   :depends on perl-bio-featureio: 
+   :depends on perl-bio-samtools: 
+   :depends on perl-bio-searchio-hmmer: 
+   :depends on perl-bio-tools-phylo-paml: 
+   :depends on perl-bio-tools-run-alignment-clustalw: 
+   :depends on perl-bio-tools-run-alignment-tcoffee: 
+   :depends on perl-bioperl-core: ``1.7.8.*``
+   :depends on perl-bioperl-run: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install perl-bioperl
+    pixi global install perl-bioperl
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update perl-bioperl
+    pixi add perl-bioperl
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname perl-bioperl
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/perl-bioperl:<tag>
+    conda install perl-bioperl
 
-   (see `perl-bioperl/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname perl-bioperl
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/perl-bioperl:<tag>
+
+(see `perl-bioperl/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_perl-bioperl| image:: https://img.shields.io/conda/dn/bioconda/perl-bioperl.svg?style=flat
    :target: https://anaconda.org/bioconda/perl-bioperl
    :alt:   (downloads)

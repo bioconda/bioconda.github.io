@@ -13,7 +13,7 @@ earlgrey
    Earl Grey\: A fully automated TE curation and annotation pipeline.
 
    :homepage: https://github.com/TobyBaril/EarlGrey
-   :documentation: https://github.com/TobyBaril/EarlGrey/blob/v7.0.3/README.md
+   :documentation: https://github.com/TobyBaril/EarlGrey/blob/v7.1.0/README.md
    
    :license: OSL-2.1
    :recipe: /`earlgrey <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/earlgrey>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/earlgrey/meta.yaml>`_
@@ -35,10 +35,10 @@ earlgrey
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>7.0.3-0</code>,  <code>7.0.2-0</code>,  <code>7.0.1-1</code>,  <code>7.0.1-0</code>,  <code>7.0.0-0</code>,  <code>6.3.6-0</code>,  <code>6.3.5-0</code>,  <code>6.3.4-0</code>,  <code>6.3.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>7.1.0-0</code>,  <code>7.0.3-0</code>,  <code>7.0.2-0</code>,  <code>7.0.1-1</code>,  <code>7.0.1-0</code>,  <code>7.0.0-0</code>,  <code>6.3.6-0</code>,  <code>6.3.5-0</code>,  <code>6.3.4-0</code>,  </span></summary>
       
 
-      ``7.0.3-0``,  ``7.0.2-0``,  ``7.0.1-1``,  ``7.0.1-0``,  ``7.0.0-0``,  ``6.3.6-0``,  ``6.3.5-0``,  ``6.3.4-0``,  ``6.3.3-0``,  ``6.3.2-0``,  ``6.3.1-0``,  ``6.3.0-0``,  ``6.2.0-1``,  ``6.2.0-0``,  ``6.1.1-0``,  ``6.1.0-0``,  ``6.0.3-0``,  ``6.0.1-0``,  ``6.0.0-0``,  ``5.1.1-0``,  ``5.1.0-1``,  ``5.1.0-0``,  ``5.0.3-0``,  ``5.0.0-2``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.5.0-2``,  ``4.5.0-1``,  ``4.5.0-0``,  ``4.4.5-1``,  ``4.4.5-0``,  ``4.4.4-0``,  ``4.4.1-0``,  ``4.4.0-0``,  ``4.3.0-0``,  ``4.2.4-1``,  ``4.2.4-0``,  ``4.2.3-0``,  ``4.1.1-1``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.8-0``,  ``4.0.7-0``,  ``4.0.6-0``,  ``4.0.5-0``,  ``4.0.4-0``,  ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-1``,  ``4.0.1-0``,  ``4.0-1``,  ``4.0-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2-0``,  ``3.1-0``
+      ``7.1.0-0``,  ``7.0.3-0``,  ``7.0.2-0``,  ``7.0.1-1``,  ``7.0.1-0``,  ``7.0.0-0``,  ``6.3.6-0``,  ``6.3.5-0``,  ``6.3.4-0``,  ``6.3.3-0``,  ``6.3.2-0``,  ``6.3.1-0``,  ``6.3.0-0``,  ``6.2.0-1``,  ``6.2.0-0``,  ``6.1.1-0``,  ``6.1.0-0``,  ``6.0.3-0``,  ``6.0.1-0``,  ``6.0.0-0``,  ``5.1.1-0``,  ``5.1.0-1``,  ``5.1.0-0``,  ``5.0.3-0``,  ``5.0.0-2``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.5.0-2``,  ``4.5.0-1``,  ``4.5.0-0``,  ``4.4.5-1``,  ``4.4.5-0``,  ``4.4.4-0``,  ``4.4.1-0``,  ``4.4.0-0``,  ``4.3.0-0``,  ``4.2.4-1``,  ``4.2.4-0``,  ``4.2.3-0``,  ``4.1.1-1``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.8-0``,  ``4.0.7-0``,  ``4.0.6-0``,  ``4.0.5-0``,  ``4.0.4-0``,  ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-1``,  ``4.0.1-0``,  ``4.0-1``,  ``4.0-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2-0``,  ``3.1-0``
 
       
       .. raw:: html
@@ -47,83 +47,106 @@ earlgrey
       
 
    
-   :depends bedtools: 
-   :depends bioconductor-bsgenome: 
-   :depends bioconductor-genomeinfodb: 
-   :depends bioconductor-genomeinfodbdata: 
-   :depends bioconductor-plyranges: 
-   :depends cd-hit: 
-   :depends emboss: 
-   :depends genometools-genometools: 
-   :depends heliano: 
-   :depends hmmer: 
-   :depends libgcc: ``>=14``
-   :depends libstdcxx: ``>=14``
-   :depends ltr_retriever: 
-   :depends mafft: 
-   :depends mreps: 
-   :depends ncls: ``0.0.64.*``
-   :depends ninja-nj: 
-   :depends pandas: 
-   :depends parallel: 
-   :depends pybedtools: 
-   :depends pyfaidx: 
-   :depends pyranges: 
-   :depends python: ``3.9.*``
-   :depends r-ape: 
-   :depends r-cowplot: 
-   :depends r-data.table: 
-   :depends r-ggtext: 
-   :depends r-kableextra: 
-   :depends r-magrittr: 
-   :depends r-optparse: 
-   :depends r-plyr: 
-   :depends r-tidyverse: 
-   :depends r-viridis: 
-   :depends recon: 
-   :depends repeatmasker: ``4.2.2.*``
-   :depends repeatmodeler: ``>=2.0.4``
-   :depends repeatscout: 
-   :depends samtools: 
-   :depends trf: 
-   :requirements:
+   :depends on bedtools: 
+   :depends on bioconductor-bsgenome: 
+   :depends on bioconductor-genomeinfodb: 
+   :depends on bioconductor-genomeinfodbdata: 
+   :depends on bioconductor-plyranges: 
+   :depends on cd-hit: 
+   :depends on emboss: 
+   :depends on genometools-genometools: 
+   :depends on heliano: 
+   :depends on hmmer: 
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on ltr_retriever: 
+   :depends on mafft: 
+   :depends on mreps: 
+   :depends on ncls: 
+   :depends on ninja-nj: 
+   :depends on pandas: 
+   :depends on parallel: 
+   :depends on pybedtools: 
+   :depends on pyfaidx: 
+   :depends on pyranges: 
+   :depends on python: 
+   :depends on r-ape: 
+   :depends on r-cowplot: 
+   :depends on r-data.table: 
+   :depends on r-ggtext: 
+   :depends on r-kableextra: 
+   :depends on r-magrittr: 
+   :depends on r-optparse: 
+   :depends on r-plyr: 
+   :depends on r-tidyverse: 
+   :depends on r-viridis: 
+   :depends on recon: 
+   :depends on repeatmasker: ``4.2.2.*``
+   :depends on repeatmodeler: ``>=2.0.4``
+   :depends on repeatscout: 
+   :depends on samtools: 
+   :depends on trf: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install earlgrey
+    pixi global install earlgrey
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update earlgrey
+    pixi add earlgrey
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname earlgrey
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/earlgrey:<tag>
+    conda install earlgrey
 
-   (see `earlgrey/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname earlgrey
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/earlgrey:<tag>
+
+(see `earlgrey/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_earlgrey| image:: https://img.shields.io/conda/dn/bioconda/earlgrey.svg?style=flat
    :target: https://anaconda.org/bioconda/earlgrey
    :alt:   (downloads)
@@ -136,7 +159,7 @@ earlgrey
 
     <script>
         var package = "earlgrey";
-        var versions = ["7.0.3","7.0.2","7.0.1","7.0.1","7.0.0"];
+        var versions = ["7.1.0","7.0.3","7.0.2","7.0.1","7.0.1"];
     </script>
 
 

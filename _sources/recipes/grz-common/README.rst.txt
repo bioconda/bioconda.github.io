@@ -40,58 +40,81 @@ grz-common
       
 
    
-   :depends boto3: ``>=1.36,<2``
-   :depends click: ``>=8.2,<9``
-   :depends grz-pydantic-models: ``>=2.4,<3``
-   :depends jsonschema: ``>=4.23.0,<5``
-   :depends platformdirs: ``>=4.3.6,<5``
-   :depends pydantic: ``>=2.12,<3``
-   :depends pydantic-settings: ``>=2.11,<3``
-   :depends pysam: ``0.23.*``
-   :depends python: ``>=3.12``
-   :depends python-crypt4gh: ``>=1.7,<2``
-   :depends pyyaml: ``>=6.0.2,<7``
-   :depends requests: ``>=2.32.3,<3``
-   :depends rich: ``13.*``
-   :depends tqdm: ``>=4.66.5,<5``
-   :requirements:
+   :depends on boto3: ``>=1.36,<2``
+   :depends on click: ``>=8.2,<9``
+   :depends on grz-pydantic-models: ``>=2.4,<3``
+   :depends on jsonschema: ``>=4.23.0,<5``
+   :depends on platformdirs: ``>=4.3.6,<5``
+   :depends on pydantic: ``>=2.12,<3``
+   :depends on pydantic-settings: ``>=2.11,<3``
+   :depends on pysam: ``0.23.*``
+   :depends on python: ``>=3.12``
+   :depends on python-crypt4gh: ``>=1.7,<2``
+   :depends on pyyaml: ``>=6.0.2,<7``
+   :depends on requests: ``>=2.32.3,<3``
+   :depends on rich: ``13.*``
+   :depends on tqdm: ``>=4.66.5,<5``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install grz-common
+    pixi global install grz-common
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update grz-common
+    pixi add grz-common
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname grz-common
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/grz-common:<tag>
+    conda install grz-common
 
-   (see `grz-common/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname grz-common
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/grz-common:<tag>
+
+(see `grz-common/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_grz-common| image:: https://img.shields.io/conda/dn/bioconda/grz-common.svg?style=flat
    :target: https://anaconda.org/bioconda/grz-common
    :alt:   (downloads)

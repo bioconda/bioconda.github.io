@@ -40,79 +40,102 @@ bioconductor-ideal
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-deseq2: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-go.db: ``>=3.22.0,<3.23.0``
-   :depends bioconductor-goseq: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-gostats: ``>=2.76.0,<2.77.0``
-   :depends bioconductor-ihw: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
-   :depends bioconductor-limma: ``>=3.66.0,<3.67.0``
-   :depends bioconductor-mosdef: ``>=1.6.0,<1.7.0``
-   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-topgo: ``>=2.62.0,<2.63.0``
-   :depends r-base: ``>=4.5,<4.6.0a0``
-   :depends r-base64enc: 
-   :depends r-dplyr: 
-   :depends r-dt: 
-   :depends r-ggplot2: ``>=2.0.0``
-   :depends r-ggrepel: 
-   :depends r-gplots: 
-   :depends r-heatmaply: 
-   :depends r-knitr: 
-   :depends r-pheatmap: 
-   :depends r-plotly: 
-   :depends r-rentrez: 
-   :depends r-rintrojs: 
-   :depends r-rlang: 
-   :depends r-rmarkdown: 
-   :depends r-shiny: ``>=0.12.0``
-   :depends r-shinyace: 
-   :depends r-shinybs: 
-   :depends r-shinydashboard: 
-   :depends r-stringr: 
-   :depends r-upsetr: 
-   :requirements:
+   :depends on bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends on bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends on bioconductor-deseq2: ``>=1.50.0,<1.51.0``
+   :depends on bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends on bioconductor-go.db: ``>=3.22.0,<3.23.0``
+   :depends on bioconductor-goseq: ``>=1.62.0,<1.63.0``
+   :depends on bioconductor-gostats: ``>=2.76.0,<2.77.0``
+   :depends on bioconductor-ihw: ``>=1.38.0,<1.39.0``
+   :depends on bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends on bioconductor-limma: ``>=3.66.0,<3.67.0``
+   :depends on bioconductor-mosdef: ``>=1.6.0,<1.7.0``
+   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends on bioconductor-topgo: ``>=2.62.0,<2.63.0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-base64enc: 
+   :depends on r-dplyr: 
+   :depends on r-dt: 
+   :depends on r-ggplot2: ``>=2.0.0``
+   :depends on r-ggrepel: 
+   :depends on r-gplots: 
+   :depends on r-heatmaply: 
+   :depends on r-knitr: 
+   :depends on r-pheatmap: 
+   :depends on r-plotly: 
+   :depends on r-rentrez: 
+   :depends on r-rintrojs: 
+   :depends on r-rlang: 
+   :depends on r-rmarkdown: 
+   :depends on r-shiny: ``>=0.12.0``
+   :depends on r-shinyace: 
+   :depends on r-shinybs: 
+   :depends on r-shinydashboard: 
+   :depends on r-stringr: 
+   :depends on r-upsetr: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install bioconductor-ideal
+    pixi global install bioconductor-ideal
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update bioconductor-ideal
+    pixi add bioconductor-ideal
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname bioconductor-ideal
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/bioconductor-ideal:<tag>
+    conda install bioconductor-ideal
 
-   (see `bioconductor-ideal/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname bioconductor-ideal
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/bioconductor-ideal:<tag>
+
+(see `bioconductor-ideal/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_bioconductor-ideal| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ideal.svg?style=flat
    :target: https://anaconda.org/bioconda/bioconductor-ideal
    :alt:   (downloads)

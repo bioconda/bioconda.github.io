@@ -43,65 +43,88 @@ gsmap
       
 
    
-   :depends bitarray: 
-   :depends jinja2: 
-   :depends matplotlib-base: 
-   :depends numpy: ``<2.0.0``
-   :depends pandas: 
-   :depends plotly: 
-   :depends progress: 
-   :depends psutil: 
-   :depends pyarrow: 
-   :depends pyfiglet: 
-   :depends pyranges: 
-   :depends python: ``>=3.10``
-   :depends python-kaleido: 
-   :depends pyyaml: 
-   :depends scanpy: ``>=1.8``
-   :depends scikit-learn: 
-   :depends scikit-misc: 
-   :depends scipy: 
-   :depends seaborn-base: 
-   :depends tqdm: 
-   :depends zarr: 
-   :requirements:
+   :depends on bitarray: 
+   :depends on jinja2: 
+   :depends on matplotlib-base: 
+   :depends on numpy: ``<2.0.0``
+   :depends on pandas: 
+   :depends on plotly: 
+   :depends on progress: 
+   :depends on psutil: 
+   :depends on pyarrow: 
+   :depends on pyfiglet: 
+   :depends on pyranges: 
+   :depends on python: ``>=3.10``
+   :depends on python-kaleido: 
+   :depends on pyyaml: 
+   :depends on scanpy: ``>=1.8``
+   :depends on scikit-learn: 
+   :depends on scikit-misc: 
+   :depends on scipy: 
+   :depends on seaborn-base: 
+   :depends on tqdm: 
+   :depends on zarr: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install gsmap
+    pixi global install gsmap
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update gsmap
+    pixi add gsmap
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname gsmap
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/gsmap:<tag>
+    conda install gsmap
 
-   (see `gsmap/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname gsmap
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/gsmap:<tag>
+
+(see `gsmap/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_gsmap| image:: https://img.shields.io/conda/dn/bioconda/gsmap.svg?style=flat
    :target: https://anaconda.org/bioconda/gsmap
    :alt:   (downloads)

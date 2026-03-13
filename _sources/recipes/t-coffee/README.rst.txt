@@ -43,32 +43,31 @@ t-coffee
       
 
    
-   :depends clustalo: ``1.2.4``
-   :depends clustalw: ``2.1``
-   :depends consan: ``1.2``
-   :depends dialign-tx: ``>=1.0.2``
-   :depends famsa: ``2.2.3``
-   :depends kalign2: ``2.04``
-   :depends libgcc: ``>=13``
-   :depends libgfortran: 
-   :depends libgfortran5: ``>=13.4.0``
-   :depends libstdcxx: ``>=13``
-   :depends mafft: ``7.526``
-   :depends muscle: ``3.8.1551``
-   :depends mustang: ``>=3.2.3``
-   :depends pasta: ``1.9.2``
-   :depends perl: ``5.32.*``
-   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends phylip: ``3.697``
-   :depends poa: ``>=2.0``
-   :depends prank: ``170427``
-   :depends probcons: ``1.12``
-   :depends probconsrna: ``1.10``
-   :depends proda: ``1.0``
-   :depends sap: ``1.1.3``
-   :depends tmalign: ``20170708``
-   :depends viennarna: ``2.7.0``
-   :requirements:
+   :depends on clustalo: ``1.2.4``
+   :depends on clustalw: ``2.1``
+   :depends on consan: ``1.2``
+   :depends on dialign-tx: ``>=1.0.2``
+   :depends on famsa: ``2.2.3``
+   :depends on kalign2: ``2.04``
+   :depends on libgcc: ``>=13``
+   :depends on libgfortran: 
+   :depends on libgfortran5: ``>=13.4.0``
+   :depends on libstdcxx: ``>=13``
+   :depends on mafft: ``7.526``
+   :depends on muscle: ``3.8.1551``
+   :depends on mustang: ``>=3.2.3``
+   :depends on pasta: ``1.9.2``
+   :depends on perl: ``5.32.*``
+   :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends on phylip: ``3.697``
+   :depends on poa: ``>=2.0``
+   :depends on prank: ``170427``
+   :depends on probcons: ``1.12``
+   :depends on probconsrna: ``1.10``
+   :depends on proda: ``1.0``
+   :depends on sap: ``1.1.3``
+   :depends on tmalign: ``20170708``
+   :depends on viennarna: ``2.7.0``
 
    :additional platforms:
       
@@ -77,39 +76,63 @@ t-coffee
          <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install t-coffee
+    pixi global install t-coffee
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update t-coffee
+    pixi add t-coffee
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname t-coffee
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/t-coffee:<tag>
+    conda install t-coffee
 
-   (see `t-coffee/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname t-coffee
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/t-coffee:<tag>
+
+(see `t-coffee/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_t-coffee| image:: https://img.shields.io/conda/dn/bioconda/t-coffee.svg?style=flat
    :target: https://anaconda.org/bioconda/t-coffee
    :alt:   (downloads)

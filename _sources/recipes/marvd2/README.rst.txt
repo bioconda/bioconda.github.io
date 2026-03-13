@@ -34,58 +34,81 @@ marvd2
       
 
    
-   :depends biopython: ``1.80``
-   :depends ete3: ``>=3.1.2``
-   :depends hmmer: ``>=3.3.2``
-   :depends joblib: ``>=1.2.0``
-   :depends matplotlib-base: ``>=3.4.3``
-   :depends mmseqs2: ``>=13.45111``
-   :depends numpy: ``>=1.23.5,<2.0a0``
-   :depends pandas: ``>=1.5.2``
-   :depends prodigal: ``2.6.3``
-   :depends psutil: ``>=5.9.4``
-   :depends python: ``>=3.9,<3.10.0a0``
-   :depends scikit-learn: ``>=1.1.2``
-   :depends scipy: ``>=1.10.0``
-   :depends swifter: ``>=1.3.4``
-   :requirements:
+   :depends on biopython: ``1.80``
+   :depends on ete3: ``>=3.1.2``
+   :depends on hmmer: ``>=3.3.2``
+   :depends on joblib: ``>=1.2.0``
+   :depends on matplotlib-base: ``>=3.4.3``
+   :depends on mmseqs2: ``>=13.45111``
+   :depends on numpy: ``>=1.23.5,<2.0a0``
+   :depends on pandas: ``>=1.5.2``
+   :depends on prodigal: ``2.6.3``
+   :depends on psutil: ``>=5.9.4``
+   :depends on python: ``>=3.9,<3.10.0a0``
+   :depends on scikit-learn: ``>=1.1.2``
+   :depends on scipy: ``>=1.10.0``
+   :depends on swifter: ``>=1.3.4``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install marvd2
+    pixi global install marvd2
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update marvd2
+    pixi add marvd2
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname marvd2
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/marvd2:<tag>
+    conda install marvd2
 
-   (see `marvd2/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname marvd2
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/marvd2:<tag>
+
+(see `marvd2/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_marvd2| image:: https://img.shields.io/conda/dn/bioconda/marvd2.svg?style=flat
    :target: https://anaconda.org/bioconda/marvd2
    :alt:   (downloads)

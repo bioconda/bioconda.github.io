@@ -40,117 +40,140 @@ perl-atlas-modules
       
 
    
-   :depends libgcc-ng: ``>=12``
-   :depends libstdcxx-ng: ``>=12``
-   :depends perl: ``5.26.2.*``
-   :depends perl-algorithm-diff: 
-   :depends perl-archive-extract: 
-   :depends perl-archive-zip: 
-   :depends perl-array-compare: 
-   :depends perl-array-utils: 
-   :depends perl-base: 
-   :depends perl-capture-tiny: 
-   :depends perl-carp: 
-   :depends perl-carp-clan: 
-   :depends perl-class-accessor: 
-   :depends perl-class-std: 
-   :depends perl-clone: 
-   :depends perl-data-compare: 
-   :depends perl-data-dumper: 
-   :depends perl-date-manip: 
-   :depends perl-datetime: 
-   :depends perl-datetime-format-strptime: 
-   :depends perl-dbd-mysql: 
-   :depends perl-dbd-pg: 
-   :depends perl-dbi: ``<1.642``
-   :depends perl-devel-symdump: 
-   :depends perl-extutils-cbuilder: 
-   :depends perl-extutils-config: 
-   :depends perl-extutils-helpers: 
-   :depends perl-extutils-installpaths: 
-   :depends perl-file-spec: 
-   :depends perl-graphviz: 
-   :depends perl-io-scalar: 
-   :depends perl-io-stringy: 
-   :depends perl-ipc-cmd: 
-   :depends perl-ipc-run3: 
-   :depends perl-json: 
-   :depends perl-json-parse: 
-   :depends perl-list-moreutils: 
-   :depends perl-log-log4perl: 
-   :depends perl-lwp-protocol-https: 
-   :depends perl-lwp-simple: 
-   :depends perl-mailtools: 
-   :depends perl-mime-lite: 
-   :depends perl-module-build: 
-   :depends perl-module-build-tiny: 
-   :depends perl-module-pluggable: 
-   :depends perl-moose: 
-   :depends perl-moosex-types: 
-   :depends perl-params-coerce: 
-   :depends perl-params-validate: 
-   :depends perl-parse-recdescent: 
-   :depends perl-path-tiny: 
-   :depends perl-readonly: 
-   :depends perl-scalar-list-utils: 
-   :depends perl-spiffy: 
-   :depends perl-sub-exporter-formethods: 
-   :depends perl-sub-uplevel: 
-   :depends perl-test-exception: 
-   :depends perl-test-inter: 
-   :depends perl-test-needs: 
-   :depends perl-test-nowarnings: 
-   :depends perl-test-pod: 
-   :depends perl-test-pod-coverage: 
-   :depends perl-test-warn: 
-   :depends perl-text-csv: 
-   :depends perl-text-csv_xs: 
-   :depends perl-text-diff: 
-   :depends perl-tie-ixhash: 
-   :depends perl-timedate: 
-   :depends perl-uri: 
-   :depends perl-xml-parser: 
-   :depends perl-xml-simple: 
-   :depends perl-xml-writer: 
-   :depends perl-yaml: 
-   :requirements:
+   :depends on libgcc-ng: ``>=12``
+   :depends on libstdcxx-ng: ``>=12``
+   :depends on perl: ``5.26.2.*``
+   :depends on perl-algorithm-diff: 
+   :depends on perl-archive-extract: 
+   :depends on perl-archive-zip: 
+   :depends on perl-array-compare: 
+   :depends on perl-array-utils: 
+   :depends on perl-base: 
+   :depends on perl-capture-tiny: 
+   :depends on perl-carp: 
+   :depends on perl-carp-clan: 
+   :depends on perl-class-accessor: 
+   :depends on perl-class-std: 
+   :depends on perl-clone: 
+   :depends on perl-data-compare: 
+   :depends on perl-data-dumper: 
+   :depends on perl-date-manip: 
+   :depends on perl-datetime: 
+   :depends on perl-datetime-format-strptime: 
+   :depends on perl-dbd-mysql: 
+   :depends on perl-dbd-pg: 
+   :depends on perl-dbi: ``<1.642``
+   :depends on perl-devel-symdump: 
+   :depends on perl-extutils-cbuilder: 
+   :depends on perl-extutils-config: 
+   :depends on perl-extutils-helpers: 
+   :depends on perl-extutils-installpaths: 
+   :depends on perl-file-spec: 
+   :depends on perl-graphviz: 
+   :depends on perl-io-scalar: 
+   :depends on perl-io-stringy: 
+   :depends on perl-ipc-cmd: 
+   :depends on perl-ipc-run3: 
+   :depends on perl-json: 
+   :depends on perl-json-parse: 
+   :depends on perl-list-moreutils: 
+   :depends on perl-log-log4perl: 
+   :depends on perl-lwp-protocol-https: 
+   :depends on perl-lwp-simple: 
+   :depends on perl-mailtools: 
+   :depends on perl-mime-lite: 
+   :depends on perl-module-build: 
+   :depends on perl-module-build-tiny: 
+   :depends on perl-module-pluggable: 
+   :depends on perl-moose: 
+   :depends on perl-moosex-types: 
+   :depends on perl-params-coerce: 
+   :depends on perl-params-validate: 
+   :depends on perl-parse-recdescent: 
+   :depends on perl-path-tiny: 
+   :depends on perl-readonly: 
+   :depends on perl-scalar-list-utils: 
+   :depends on perl-spiffy: 
+   :depends on perl-sub-exporter-formethods: 
+   :depends on perl-sub-uplevel: 
+   :depends on perl-test-exception: 
+   :depends on perl-test-inter: 
+   :depends on perl-test-needs: 
+   :depends on perl-test-nowarnings: 
+   :depends on perl-test-pod: 
+   :depends on perl-test-pod-coverage: 
+   :depends on perl-test-warn: 
+   :depends on perl-text-csv: 
+   :depends on perl-text-csv_xs: 
+   :depends on perl-text-diff: 
+   :depends on perl-tie-ixhash: 
+   :depends on perl-timedate: 
+   :depends on perl-uri: 
+   :depends on perl-xml-parser: 
+   :depends on perl-xml-simple: 
+   :depends on perl-xml-writer: 
+   :depends on perl-yaml: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install perl-atlas-modules
+    pixi global install perl-atlas-modules
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update perl-atlas-modules
+    pixi add perl-atlas-modules
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname perl-atlas-modules
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/perl-atlas-modules:<tag>
+    conda install perl-atlas-modules
 
-   (see `perl-atlas-modules/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname perl-atlas-modules
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/perl-atlas-modules:<tag>
+
+(see `perl-atlas-modules/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_perl-atlas-modules| image:: https://img.shields.io/conda/dn/bioconda/perl-atlas-modules.svg?style=flat
    :target: https://anaconda.org/bioconda/perl-atlas-modules
    :alt:   (downloads)

@@ -40,63 +40,86 @@ bioconductor-epitxdb
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-biocfilecache: ``>=3.0.0,<3.1.0``
-   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
-   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
-   :depends bioconductor-genomicfeatures: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
-   :depends bioconductor-modstrings: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-seqinfo: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-trnadbimport: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-txdbmaker: ``>=1.6.0,<1.7.0``
-   :depends r-base: ``>=4.5,<4.6.0a0``
-   :depends r-curl: 
-   :depends r-dbi: 
-   :depends r-httr: 
-   :depends r-rex: 
-   :depends r-rsqlite: 
-   :depends r-xml2: 
-   :requirements:
+   :depends on bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends on bioconductor-biocfilecache: ``>=3.0.0,<3.1.0``
+   :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends on bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends on bioconductor-genomicfeatures: ``>=1.62.0,<1.63.0``
+   :depends on bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends on bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends on bioconductor-modstrings: ``>=1.26.0,<1.27.0``
+   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends on bioconductor-seqinfo: ``>=1.0.0,<1.1.0``
+   :depends on bioconductor-trnadbimport: ``>=1.28.0,<1.29.0``
+   :depends on bioconductor-txdbmaker: ``>=1.6.0,<1.7.0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-curl: 
+   :depends on r-dbi: 
+   :depends on r-httr: 
+   :depends on r-rex: 
+   :depends on r-rsqlite: 
+   :depends on r-xml2: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install bioconductor-epitxdb
+    pixi global install bioconductor-epitxdb
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update bioconductor-epitxdb
+    pixi add bioconductor-epitxdb
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname bioconductor-epitxdb
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/bioconductor-epitxdb:<tag>
+    conda install bioconductor-epitxdb
 
-   (see `bioconductor-epitxdb/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname bioconductor-epitxdb
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/bioconductor-epitxdb:<tag>
+
+(see `bioconductor-epitxdb/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_bioconductor-epitxdb| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-epitxdb.svg?style=flat
    :target: https://anaconda.org/bioconda/bioconductor-epitxdb
    :alt:   (downloads)

@@ -40,68 +40,91 @@ bioconductor-circrnaprofiler
       
 
    
-   :depends bioconductor-annotationhub: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
-   :depends bioconductor-bsgenome: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-deseq2: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-edger: ``>=4.8.0,<4.9.0``
-   :depends bioconductor-genomeinfodb: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-gwascat: ``>=2.42.0,<2.43.0``
-   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
-   :depends bioconductor-rtracklayer: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-universalmotif: ``>=1.28.0,<1.29.0``
-   :depends r-base: ``>=4.5,<4.6.0a0``
-   :depends r-dplyr: 
-   :depends r-ggplot2: 
-   :depends r-magrittr: 
-   :depends r-r.utils: 
-   :depends r-readr: 
-   :depends r-reshape2: 
-   :depends r-rlang: 
-   :depends r-seqinr: 
-   :depends r-stringi: 
-   :depends r-stringr: 
-   :requirements:
+   :depends on bioconductor-annotationhub: ``>=4.0.0,<4.1.0``
+   :depends on bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends on bioconductor-bsgenome: ``>=1.78.0,<1.79.0``
+   :depends on bioconductor-bsgenome.hsapiens.ucsc.hg19: ``>=1.4.0,<1.5.0``
+   :depends on bioconductor-deseq2: ``>=1.50.0,<1.51.0``
+   :depends on bioconductor-edger: ``>=4.8.0,<4.9.0``
+   :depends on bioconductor-genomeinfodb: ``>=1.46.0,<1.47.0``
+   :depends on bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends on bioconductor-gwascat: ``>=2.42.0,<2.43.0``
+   :depends on bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends on bioconductor-rtracklayer: ``>=1.70.0,<1.71.0``
+   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends on bioconductor-universalmotif: ``>=1.28.0,<1.29.0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-dplyr: 
+   :depends on r-ggplot2: 
+   :depends on r-magrittr: 
+   :depends on r-r.utils: 
+   :depends on r-readr: 
+   :depends on r-reshape2: 
+   :depends on r-rlang: 
+   :depends on r-seqinr: 
+   :depends on r-stringi: 
+   :depends on r-stringr: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install bioconductor-circrnaprofiler
+    pixi global install bioconductor-circrnaprofiler
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update bioconductor-circrnaprofiler
+    pixi add bioconductor-circrnaprofiler
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname bioconductor-circrnaprofiler
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/bioconductor-circrnaprofiler:<tag>
+    conda install bioconductor-circrnaprofiler
 
-   (see `bioconductor-circrnaprofiler/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname bioconductor-circrnaprofiler
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/bioconductor-circrnaprofiler:<tag>
+
+(see `bioconductor-circrnaprofiler/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_bioconductor-circrnaprofiler| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-circrnaprofiler.svg?style=flat
    :target: https://anaconda.org/bioconda/bioconductor-circrnaprofiler
    :alt:   (downloads)

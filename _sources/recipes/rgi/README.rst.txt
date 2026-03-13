@@ -41,71 +41,94 @@ rgi
       
 
    
-   :depends bamtools: ``2.5.2.*``
-   :depends beautifulsoup4: ``>=4.9.3``
-   :depends bedtools: ``>=2.31.1``
-   :depends biopython: ``>=1.78``
-   :depends blast: ``2.16.0``
-   :depends bowtie2: ``>=2.5.4``
-   :depends bwa: ``>=0.7.18``
-   :depends dask: 
-   :depends diamond: ``0.8.36.*``
-   :depends filetype: ``>=1.0.0``
-   :depends kma: ``>=1.4.17``
-   :depends lxml: ``>=4.9.1``
-   :depends matplotlib-base: ``>=2.1.2``
-   :depends oligoarrayaux: ``3.8.*``
-   :depends pandas: ``>=0.15.0``
-   :depends prodigal: ``2.6.3.*``
-   :depends pyahocorasick: ``2.1.0``
-   :depends pyfaidx: ``>=0.5.4.1``
-   :depends pyrodigal: ``>=3.0.0``
-   :depends pysam: ``>=0.16.0.1``
-   :depends pytest: ``>=3.0.0``
-   :depends python: ``>=3.6``
-   :depends requests: ``2.32.4``
-   :depends samtools: ``1.21.*``
-   :depends seaborn-base: ``>=0.8.1``
-   :depends setuptools: ``>=47.1.0``
-   :depends wget: 
-   :requirements:
+   :depends on bamtools: ``2.5.2.*``
+   :depends on beautifulsoup4: ``>=4.9.3``
+   :depends on bedtools: ``>=2.31.1``
+   :depends on biopython: ``>=1.78``
+   :depends on blast: ``2.16.0``
+   :depends on bowtie2: ``>=2.5.4``
+   :depends on bwa: ``>=0.7.18``
+   :depends on dask: 
+   :depends on diamond: ``0.8.36.*``
+   :depends on filetype: ``>=1.0.0``
+   :depends on kma: ``>=1.4.17``
+   :depends on lxml: ``>=4.9.1``
+   :depends on matplotlib-base: ``>=2.1.2``
+   :depends on oligoarrayaux: ``3.8.*``
+   :depends on pandas: ``>=0.15.0``
+   :depends on prodigal: ``2.6.3.*``
+   :depends on pyahocorasick: ``2.1.0``
+   :depends on pyfaidx: ``>=0.5.4.1``
+   :depends on pyrodigal: ``>=3.0.0``
+   :depends on pysam: ``>=0.16.0.1``
+   :depends on pytest: ``>=3.0.0``
+   :depends on python: ``>=3.6``
+   :depends on requests: ``2.32.4``
+   :depends on samtools: ``1.21.*``
+   :depends on seaborn-base: ``>=0.8.1``
+   :depends on setuptools: ``>=47.1.0``
+   :depends on wget: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install rgi
+    pixi global install rgi
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update rgi
+    pixi add rgi
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname rgi
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/rgi:<tag>
+    conda install rgi
 
-   (see `rgi/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname rgi
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/rgi:<tag>
+
+(see `rgi/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_rgi| image:: https://img.shields.io/conda/dn/bioconda/rgi.svg?style=flat
    :target: https://anaconda.org/bioconda/rgi
    :alt:   (downloads)

@@ -32,75 +32,98 @@ bioconductor-dce
       
 
    
-   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-epinem: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-graph: ``>=1.80.0,<1.81.0``
-   :depends bioconductor-graphite: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-mnem: ``>=1.18.0,<1.19.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
-   :depends bioconductor-rgraphviz: ``>=2.46.0,<2.47.0``
-   :depends r-assertthat: 
-   :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-dplyr: 
-   :depends r-expm: 
-   :depends r-ggplot2: 
-   :depends r-ggraph: 
-   :depends r-glm2: 
-   :depends r-glue: 
-   :depends r-harmonicmeanp: 
-   :depends r-igraph: 
-   :depends r-logger: 
-   :depends r-magrittr: 
-   :depends r-mass: 
-   :depends r-matrix: 
-   :depends r-metap: 
-   :depends r-naturalsort: 
-   :depends r-pcalg: 
-   :depends r-ppcor: 
-   :depends r-purrr: 
-   :depends r-reshape2: 
-   :depends r-rlang: 
-   :depends r-shadowtext: 
-   :depends r-tidygraph: 
-   :depends r-tidyverse: 
-   :requirements:
+   :depends on bioconductor-edger: ``>=4.0.0,<4.1.0``
+   :depends on bioconductor-epinem: ``>=1.26.0,<1.27.0``
+   :depends on bioconductor-graph: ``>=1.80.0,<1.81.0``
+   :depends on bioconductor-graphite: ``>=1.48.0,<1.49.0``
+   :depends on bioconductor-mnem: ``>=1.18.0,<1.19.0``
+   :depends on bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
+   :depends on bioconductor-rgraphviz: ``>=2.46.0,<2.47.0``
+   :depends on r-assertthat: 
+   :depends on r-base: ``>=4.3,<4.4.0a0``
+   :depends on r-dplyr: 
+   :depends on r-expm: 
+   :depends on r-ggplot2: 
+   :depends on r-ggraph: 
+   :depends on r-glm2: 
+   :depends on r-glue: 
+   :depends on r-harmonicmeanp: 
+   :depends on r-igraph: 
+   :depends on r-logger: 
+   :depends on r-magrittr: 
+   :depends on r-mass: 
+   :depends on r-matrix: 
+   :depends on r-metap: 
+   :depends on r-naturalsort: 
+   :depends on r-pcalg: 
+   :depends on r-ppcor: 
+   :depends on r-purrr: 
+   :depends on r-reshape2: 
+   :depends on r-rlang: 
+   :depends on r-shadowtext: 
+   :depends on r-tidygraph: 
+   :depends on r-tidyverse: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install bioconductor-dce
+    pixi global install bioconductor-dce
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update bioconductor-dce
+    pixi add bioconductor-dce
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname bioconductor-dce
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/bioconductor-dce:<tag>
+    conda install bioconductor-dce
 
-   (see `bioconductor-dce/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname bioconductor-dce
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/bioconductor-dce:<tag>
+
+(see `bioconductor-dce/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_bioconductor-dce| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-dce.svg?style=flat
    :target: https://anaconda.org/bioconda/bioconductor-dce
    :alt:   (downloads)

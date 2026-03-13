@@ -42,68 +42,91 @@ pharokka
       
 
    
-   :depends alive-progress: ``>=3.0.1``
-   :depends aragorn: ``>=1.2.41``
-   :depends bcbio-gff: ``>=0.7.0``
-   :depends biopython: ``>=1.80``
-   :depends black: ``>=22.3.0``
-   :depends dnaapler: ``>=1.0.1``
-   :depends isort: ``>=5.10.1``
-   :depends loguru: ``>=0.5.4``
-   :depends mash: ``>=2.2``
-   :depends minced: ``>=0.4.2``
-   :depends mmseqs2: ``>=14.7e284``
-   :depends phanotate: ``=1.6.7,<2``
-   :depends pycirclize: ``>=0.3.1``
-   :depends pyhmmer: ``>=0.12.0``
-   :depends pyrodigal: ``>=3.1.0``
-   :depends pyrodigal-gv: ``>=0.2.0``
-   :depends pyrodigal-rv: ``>=0.1.0``
-   :depends pytest: ``>=6.2.5``
-   :depends pytest-cov: ``>=3.0.0``
-   :depends python: ``>=3.5``
-   :depends pyyaml: ``>=6.0``
-   :depends requests: ``>=2.25.1``
-   :depends setuptools: ``>=67.7.2,<81``
-   :depends trnascan-se: ``>=2.0.9``
-   :requirements:
+   :depends on alive-progress: ``>=3.0.1``
+   :depends on aragorn: ``>=1.2.41``
+   :depends on bcbio-gff: ``>=0.7.0``
+   :depends on biopython: ``>=1.80``
+   :depends on black: ``>=22.3.0``
+   :depends on dnaapler: ``>=1.0.1``
+   :depends on isort: ``>=5.10.1``
+   :depends on loguru: ``>=0.5.4``
+   :depends on mash: ``>=2.2``
+   :depends on minced: ``>=0.4.2``
+   :depends on mmseqs2: ``>=14.7e284``
+   :depends on phanotate: ``=1.6.7,<2``
+   :depends on pycirclize: ``>=0.3.1``
+   :depends on pyhmmer: ``>=0.12.0``
+   :depends on pyrodigal: ``>=3.1.0``
+   :depends on pyrodigal-gv: ``>=0.2.0``
+   :depends on pyrodigal-rv: ``>=0.1.0``
+   :depends on pytest: ``>=6.2.5``
+   :depends on pytest-cov: ``>=3.0.0``
+   :depends on python: ``>=3.5``
+   :depends on pyyaml: ``>=6.0``
+   :depends on requests: ``>=2.25.1``
+   :depends on setuptools: ``>=67.7.2,<81``
+   :depends on trnascan-se: ``>=2.0.9``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install pharokka
+    pixi global install pharokka
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update pharokka
+    pixi add pharokka
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname pharokka
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/pharokka:<tag>
+    conda install pharokka
 
-   (see `pharokka/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname pharokka
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/pharokka:<tag>
+
+(see `pharokka/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_pharokka| image:: https://img.shields.io/conda/dn/bioconda/pharokka.svg?style=flat
    :target: https://anaconda.org/bioconda/pharokka
    :alt:   (downloads)

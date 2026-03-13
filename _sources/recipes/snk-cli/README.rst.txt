@@ -32,54 +32,77 @@ snk-cli
       
 
    
-   :depends ascii-art: ``>=5.9,<6.dev0``
-   :depends datrie: ``>=0.8.2``
-   :depends graphviz: ``>=2.38.0``
-   :depends makefun: ``>=1.15,<2.dev0``
-   :depends pulp: ``<2.8``
-   :depends python: ``>=3.8``
-   :depends rich: ``>=10.11.0``
-   :depends shellingham: ``>=1.3.0``
-   :depends snakemake-minimal: ``>=7``
-   :depends typer: ``>=0.9,<1.dev0``
-   :requirements:
+   :depends on ascii-art: ``>=5.9,<6.dev0``
+   :depends on datrie: ``>=0.8.2``
+   :depends on graphviz: ``>=2.38.0``
+   :depends on makefun: ``>=1.15,<2.dev0``
+   :depends on pulp: ``<2.8``
+   :depends on python: ``>=3.8``
+   :depends on rich: ``>=10.11.0``
+   :depends on shellingham: ``>=1.3.0``
+   :depends on snakemake-minimal: ``>=7``
+   :depends on typer: ``>=0.9,<1.dev0``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install snk-cli
+    pixi global install snk-cli
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update snk-cli
+    pixi add snk-cli
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname snk-cli
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/snk-cli:<tag>
+    conda install snk-cli
 
-   (see `snk-cli/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname snk-cli
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/snk-cli:<tag>
+
+(see `snk-cli/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_snk-cli| image:: https://img.shields.io/conda/dn/bioconda/snk-cli.svg?style=flat
    :target: https://anaconda.org/bioconda/snk-cli
    :alt:   (downloads)

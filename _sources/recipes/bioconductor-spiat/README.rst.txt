@@ -32,65 +32,88 @@ bioconductor-spiat
       
 
    
-   :depends bioconductor-dittoseq: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-spatialexperiment: ``>=1.20.0,<1.21.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
-   :depends r-apcluster: ``>=1.4.7``
-   :depends r-base: ``>=4.5,<4.6.0a0``
-   :depends r-dbscan: ``>=1.1-5``
-   :depends r-dplyr: ``>=0.8.3``
-   :depends r-ggplot2: ``>=3.2.1``
-   :depends r-gridextra: ``>=2.3``
-   :depends r-gtools: ``>=3.8.1``
-   :depends r-mmand: ``>=1.5.4``
-   :depends r-pracma: ``>=2.2.5``
-   :depends r-rann: ``>=2.6.1``
-   :depends r-raster: 
-   :depends r-reshape2: ``>=1.4.3``
-   :depends r-rlang: 
-   :depends r-sp: 
-   :depends r-spatstat.explore: 
-   :depends r-spatstat.geom: 
-   :depends r-tibble: ``>=2.1.3``
-   :depends r-vroom: 
-   :requirements:
+   :depends on bioconductor-dittoseq: ``>=1.22.0,<1.23.0``
+   :depends on bioconductor-spatialexperiment: ``>=1.20.0,<1.21.0``
+   :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends on r-apcluster: ``>=1.4.7``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-dbscan: ``>=1.1-5``
+   :depends on r-dplyr: ``>=0.8.3``
+   :depends on r-ggplot2: ``>=3.2.1``
+   :depends on r-gridextra: ``>=2.3``
+   :depends on r-gtools: ``>=3.8.1``
+   :depends on r-mmand: ``>=1.5.4``
+   :depends on r-pracma: ``>=2.2.5``
+   :depends on r-rann: ``>=2.6.1``
+   :depends on r-raster: 
+   :depends on r-reshape2: ``>=1.4.3``
+   :depends on r-rlang: 
+   :depends on r-sp: 
+   :depends on r-spatstat.explore: 
+   :depends on r-spatstat.geom: 
+   :depends on r-tibble: ``>=2.1.3``
+   :depends on r-vroom: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install bioconductor-spiat
+    pixi global install bioconductor-spiat
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update bioconductor-spiat
+    pixi add bioconductor-spiat
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname bioconductor-spiat
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/bioconductor-spiat:<tag>
+    conda install bioconductor-spiat
 
-   (see `bioconductor-spiat/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname bioconductor-spiat
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/bioconductor-spiat:<tag>
+
+(see `bioconductor-spiat/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_bioconductor-spiat| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-spiat.svg?style=flat
    :target: https://anaconda.org/bioconda/bioconductor-spiat
    :alt:   (downloads)

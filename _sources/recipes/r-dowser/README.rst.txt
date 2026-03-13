@@ -32,61 +32,84 @@ r-dowser
       
 
    
-   :depends bioconductor-biostrings: 
-   :depends bioconductor-ggtree: 
-   :depends r-alakazam: ``>=1.1.0``
-   :depends r-ape: ``>=5.5``
-   :depends r-base: ``>=4.2,<4.3.0a0``
-   :depends r-dplyr: ``>=0.8.1``
-   :depends r-ggplot2: ``>=3.2.0``
-   :depends r-gridextra: 
-   :depends r-markdown: 
-   :depends r-phangorn: ``>=2.7.1``
-   :depends r-phylotate: 
-   :depends r-rcolorbrewer: 
-   :depends r-rlang: 
-   :depends r-shazam: ``>=1.1.0``
-   :depends r-stringr: 
-   :depends r-tidyr: 
-   :depends r-tidyselect: 
-   :requirements:
+   :depends on bioconductor-biostrings: 
+   :depends on bioconductor-ggtree: 
+   :depends on r-alakazam: ``>=1.1.0``
+   :depends on r-ape: ``>=5.5``
+   :depends on r-base: ``>=4.2,<4.3.0a0``
+   :depends on r-dplyr: ``>=0.8.1``
+   :depends on r-ggplot2: ``>=3.2.0``
+   :depends on r-gridextra: 
+   :depends on r-markdown: 
+   :depends on r-phangorn: ``>=2.7.1``
+   :depends on r-phylotate: 
+   :depends on r-rcolorbrewer: 
+   :depends on r-rlang: 
+   :depends on r-shazam: ``>=1.1.0``
+   :depends on r-stringr: 
+   :depends on r-tidyr: 
+   :depends on r-tidyselect: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install r-dowser
+    pixi global install r-dowser
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update r-dowser
+    pixi add r-dowser
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname r-dowser
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/r-dowser:<tag>
+    conda install r-dowser
 
-   (see `r-dowser/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname r-dowser
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/r-dowser:<tag>
+
+(see `r-dowser/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_r-dowser| image:: https://img.shields.io/conda/dn/bioconda/r-dowser.svg?style=flat
    :target: https://anaconda.org/bioconda/r-dowser
    :alt:   (downloads)

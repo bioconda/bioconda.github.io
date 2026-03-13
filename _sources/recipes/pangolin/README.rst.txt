@@ -41,63 +41,86 @@ pangolin
       
 
    
-   :depends biopython: ``>=1.74``
-   :depends conda: 
-   :depends constellations: ``>=0.0.15``
-   :depends git: 
-   :depends git-lfs: 
-   :depends gofasta: 
-   :depends joblib: ``>=0.11``
-   :depends minimap2: ``>=2.16``
-   :depends pandas: ``>=1.0.1``
-   :depends pangolin-data: ``>=1.2.133.2``
-   :depends pip: ``<25.3``
-   :depends pulp: ``>=2``
-   :depends python: ``>=3.7``
-   :depends scikit-learn: ``>=0.23.1,<1.3.0``
-   :depends scorpio: ``>=0.3.12``
-   :depends setuptools: ``<81``
-   :depends snakemake-minimal: ``>=5.13,!=7.30.1,<8``
-   :depends ucsc-fatovcf: ``>=426``
-   :depends usher: ``>=0.6.2``
-   :requirements:
+   :depends on biopython: ``>=1.74``
+   :depends on conda: 
+   :depends on constellations: ``>=0.0.15``
+   :depends on git: 
+   :depends on git-lfs: 
+   :depends on gofasta: 
+   :depends on joblib: ``>=0.11``
+   :depends on minimap2: ``>=2.16``
+   :depends on pandas: ``>=1.0.1``
+   :depends on pangolin-data: ``>=1.2.133.2``
+   :depends on pip: ``<25.3``
+   :depends on pulp: ``>=2``
+   :depends on python: ``>=3.7``
+   :depends on scikit-learn: ``>=0.23.1,<1.3.0``
+   :depends on scorpio: ``>=0.3.12``
+   :depends on setuptools: ``<81``
+   :depends on snakemake-minimal: ``>=5.13,!=7.30.1,<8``
+   :depends on ucsc-fatovcf: ``>=426``
+   :depends on usher: ``>=0.6.2``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install pangolin
+    pixi global install pangolin
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update pangolin
+    pixi add pangolin
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname pangolin
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/pangolin:<tag>
+    conda install pangolin
 
-   (see `pangolin/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname pangolin
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/pangolin:<tag>
+
+(see `pangolin/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_pangolin| image:: https://img.shields.io/conda/dn/bioconda/pangolin.svg?style=flat
    :target: https://anaconda.org/bioconda/pangolin
    :alt:   (downloads)

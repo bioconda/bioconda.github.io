@@ -42,74 +42,97 @@ nf-core
       
 
    
-   :depends click: 
-   :depends filetype: 
-   :depends git: 
-   :depends gitpython: 
-   :depends jinja2: 
-   :depends jsonschema: ``>=4.0``
-   :depends linkify-it-py: ``>=1,<3``
-   :depends markdown: ``>=3.3``
-   :depends nextflow: ``>=25.04.2``
-   :depends nf-test: 
-   :depends packaging: 
-   :depends pillow: 
-   :depends pre-commit: 
-   :depends prompt_toolkit: ``>=3.0.52``
-   :depends pydantic: ``>=2.2.1``
-   :depends pygithub: 
-   :depends python: ``>=3.10``
-   :depends pyyaml: 
-   :depends questionary: ``>=2.0.1``
-   :depends refgenie: 
-   :depends repo2rocrate: 
-   :depends requests: 
-   :depends requests-cache: 
-   :depends rich: ``>=13.3.1``
-   :depends rich-click: ``1.9.*``
-   :depends rocrate: 
-   :depends ruamel.yaml: 
-   :depends tabulate: 
-   :depends textual: ``6.2.1``
-   :depends trogon: 
-   :requirements:
+   :depends on click: 
+   :depends on filetype: 
+   :depends on git: 
+   :depends on gitpython: 
+   :depends on jinja2: 
+   :depends on jsonschema: ``>=4.0``
+   :depends on linkify-it-py: ``>=1,<3``
+   :depends on markdown: ``>=3.3``
+   :depends on nextflow: ``>=25.04.2``
+   :depends on nf-test: 
+   :depends on packaging: 
+   :depends on pillow: 
+   :depends on pre-commit: 
+   :depends on prompt_toolkit: ``>=3.0.52``
+   :depends on pydantic: ``>=2.2.1``
+   :depends on pygithub: 
+   :depends on python: ``>=3.10``
+   :depends on pyyaml: 
+   :depends on questionary: ``>=2.0.1``
+   :depends on refgenie: 
+   :depends on repo2rocrate: 
+   :depends on requests: 
+   :depends on requests-cache: 
+   :depends on rich: ``>=13.3.1``
+   :depends on rich-click: ``1.9.*``
+   :depends on rocrate: 
+   :depends on ruamel.yaml: 
+   :depends on tabulate: 
+   :depends on textual: ``6.2.1``
+   :depends on trogon: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install nf-core
+    pixi global install nf-core
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update nf-core
+    pixi add nf-core
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname nf-core
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/nf-core:<tag>
+    conda install nf-core
 
-   (see `nf-core/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname nf-core
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/nf-core:<tag>
+
+(see `nf-core/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_nf-core| image:: https://img.shields.io/conda/dn/bioconda/nf-core.svg?style=flat
    :target: https://anaconda.org/bioconda/nf-core
    :alt:   (downloads)

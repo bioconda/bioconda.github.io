@@ -32,66 +32,89 @@ bioconductor-phenomis
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-biodb: ``>=1.14.0,<1.15.0``
-   :depends bioconductor-biodbchebi: ``>=1.12.0,<1.13.0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-multidataset: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-ropls: ``>=1.38.0,<1.39.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
-   :depends r-data.table: 
-   :depends r-futile.logger: 
-   :depends r-ggplot2: 
-   :depends r-ggrepel: 
-   :depends r-htmlwidgets: 
-   :depends r-igraph: 
-   :depends r-plotly: 
-   :depends r-pmcmrplus: 
-   :depends r-ranger: 
-   :depends r-rcolorbrewer: 
-   :depends r-tibble: 
-   :depends r-tidyr: 
-   :depends r-venndiagram: 
-   :requirements:
+   :depends on bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends on bioconductor-biodb: ``>=1.14.0,<1.15.0``
+   :depends on bioconductor-biodbchebi: ``>=1.12.0,<1.13.0``
+   :depends on bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends on bioconductor-multiassayexperiment: ``>=1.32.0,<1.33.0``
+   :depends on bioconductor-multidataset: ``>=1.34.0,<1.35.0``
+   :depends on bioconductor-ropls: ``>=1.38.0,<1.39.0``
+   :depends on bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0``
+   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on r-data.table: 
+   :depends on r-futile.logger: 
+   :depends on r-ggplot2: 
+   :depends on r-ggrepel: 
+   :depends on r-htmlwidgets: 
+   :depends on r-igraph: 
+   :depends on r-plotly: 
+   :depends on r-pmcmrplus: 
+   :depends on r-ranger: 
+   :depends on r-rcolorbrewer: 
+   :depends on r-tibble: 
+   :depends on r-tidyr: 
+   :depends on r-venndiagram: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install bioconductor-phenomis
+    pixi global install bioconductor-phenomis
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update bioconductor-phenomis
+    pixi add bioconductor-phenomis
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname bioconductor-phenomis
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/bioconductor-phenomis:<tag>
+    conda install bioconductor-phenomis
 
-   (see `bioconductor-phenomis/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname bioconductor-phenomis
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/bioconductor-phenomis:<tag>
+
+(see `bioconductor-phenomis/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_bioconductor-phenomis| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-phenomis.svg?style=flat
    :target: https://anaconda.org/bioconda/bioconductor-phenomis
    :alt:   (downloads)

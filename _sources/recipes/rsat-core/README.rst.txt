@@ -33,78 +33,77 @@ rsat-core
       
 
    
-   :depends bioconductor-qvalue: 
-   :depends d3: 
-   :depends ghostscript: 
-   :depends httplib2: 
-   :depends libgcc: ``>=13``
-   :depends libgfortran: 
-   :depends libgfortran5: ``>=13.4.0``
-   :depends libpq: 
-   :depends libstdcxx: ``>=13``
-   :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends matplotlib-base: 
-   :depends numpy: 
-   :depends opencv: 
-   :depends openssl: ``3.5.4.*``
-   :depends perl: 
-   :depends perl-algorithm-cluster: 
-   :depends perl-app-cpanminus: 
-   :depends perl-bio-das: 
-   :depends perl-cgi: 
-   :depends perl-class-std-fast: 
-   :depends perl-data-dumper: 
-   :depends perl-db_file: 
-   :depends perl-dbd-mysql: 
-   :depends perl-dbi: 
-   :depends perl-email-simple: 
-   :depends perl-ensembl-genomes: 
-   :depends perl-file-spec: 
-   :depends perl-http-tiny: 
-   :depends perl-io-all: 
-   :depends perl-json: 
-   :depends perl-libwww-perl: 
-   :depends perl-lockfile-simple: 
-   :depends perl-log-log4perl: 
-   :depends perl-lwp-simple: 
-   :depends perl-math-cdf: 
-   :depends perl-mce-shared: 
-   :depends perl-net-http: ``>=6.18``
-   :depends perl-net-ssleay: 
-   :depends perl-number-format: 
-   :depends perl-object-insideout: 
-   :depends perl-parallel-forkmanager: 
-   :depends perl-posix: 
-   :depends perl-postscript-simple: 
-   :depends perl-readonly: 
-   :depends perl-statistics-distributions: 
-   :depends perl-xml-parser: 
-   :depends perl-yaml: 
-   :depends pygraphviz: 
-   :depends python: 
-   :depends pyyaml: 
-   :depends r-base: ``4.2.3.*``
-   :depends r-data.table: 
-   :depends r-dendextend: 
-   :depends r-dplyr: 
-   :depends r-dynamictreecut: 
-   :depends r-egg: 
-   :depends r-flux: 
-   :depends r-ggplot2: 
-   :depends r-gplots: 
-   :depends r-gridextra: 
-   :depends r-jpeg: 
-   :depends r-png: 
-   :depends r-rcolorbrewer: 
-   :depends r-reshape2: 
-   :depends r-rjsonio: 
-   :depends r-zoo: 
-   :depends scipy: 
-   :depends seqlogo: 
-   :depends snakemake: ``>=7.0``
-   :depends weblogo: 
-   :depends zlib: ``>=1.3.1,<2.0a0``
-   :requirements:
+   :depends on bioconductor-qvalue: 
+   :depends on d3: 
+   :depends on ghostscript: 
+   :depends on httplib2: 
+   :depends on libgcc: ``>=13``
+   :depends on libgfortran: 
+   :depends on libgfortran5: ``>=13.4.0``
+   :depends on libpq: 
+   :depends on libstdcxx: ``>=13``
+   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on matplotlib-base: 
+   :depends on numpy: 
+   :depends on opencv: 
+   :depends on openssl: ``3.5.4.*``
+   :depends on perl: 
+   :depends on perl-algorithm-cluster: 
+   :depends on perl-app-cpanminus: 
+   :depends on perl-bio-das: 
+   :depends on perl-cgi: 
+   :depends on perl-class-std-fast: 
+   :depends on perl-data-dumper: 
+   :depends on perl-db_file: 
+   :depends on perl-dbd-mysql: 
+   :depends on perl-dbi: 
+   :depends on perl-email-simple: 
+   :depends on perl-ensembl-genomes: 
+   :depends on perl-file-spec: 
+   :depends on perl-http-tiny: 
+   :depends on perl-io-all: 
+   :depends on perl-json: 
+   :depends on perl-libwww-perl: 
+   :depends on perl-lockfile-simple: 
+   :depends on perl-log-log4perl: 
+   :depends on perl-lwp-simple: 
+   :depends on perl-math-cdf: 
+   :depends on perl-mce-shared: 
+   :depends on perl-net-http: ``>=6.18``
+   :depends on perl-net-ssleay: 
+   :depends on perl-number-format: 
+   :depends on perl-object-insideout: 
+   :depends on perl-parallel-forkmanager: 
+   :depends on perl-posix: 
+   :depends on perl-postscript-simple: 
+   :depends on perl-readonly: 
+   :depends on perl-statistics-distributions: 
+   :depends on perl-xml-parser: 
+   :depends on perl-yaml: 
+   :depends on pygraphviz: 
+   :depends on python: 
+   :depends on pyyaml: 
+   :depends on r-base: ``4.2.3.*``
+   :depends on r-data.table: 
+   :depends on r-dendextend: 
+   :depends on r-dplyr: 
+   :depends on r-dynamictreecut: 
+   :depends on r-egg: 
+   :depends on r-flux: 
+   :depends on r-ggplot2: 
+   :depends on r-gplots: 
+   :depends on r-gridextra: 
+   :depends on r-jpeg: 
+   :depends on r-png: 
+   :depends on r-rcolorbrewer: 
+   :depends on r-reshape2: 
+   :depends on r-rjsonio: 
+   :depends on r-zoo: 
+   :depends on scipy: 
+   :depends on seqlogo: 
+   :depends on snakemake: ``>=7.0``
+   :depends on weblogo: 
+   :depends on zlib: ``>=1.3.1,<2.0a0``
 
    :additional platforms:
       
@@ -113,39 +112,63 @@ rsat-core
          <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install rsat-core
+    pixi global install rsat-core
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update rsat-core
+    pixi add rsat-core
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname rsat-core
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/rsat-core:<tag>
+    conda install rsat-core
 
-   (see `rsat-core/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname rsat-core
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/rsat-core:<tag>
+
+(see `rsat-core/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_rsat-core| image:: https://img.shields.io/conda/dn/bioconda/rsat-core.svg?style=flat
    :target: https://anaconda.org/bioconda/rsat-core
    :alt:   (downloads)

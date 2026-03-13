@@ -42,65 +42,88 @@ orthofinder
       
 
    
-   :depends aster: 
-   :depends biopython: 
-   :depends blast: 
-   :depends bzip2: 
-   :depends diamond: ``<2.2|>=2.1.7``
-   :depends ete4: 
-   :depends famsa: 
-   :depends fastme: 
-   :depends fasttree: 
-   :depends iqtree: 
-   :depends mafft: 
-   :depends mcl: 
-   :depends mmseqs2: 
-   :depends muscle: 
-   :depends numpy: 
-   :depends python: ``>=3.11,<=3.14``
-   :depends raxml: 
-   :depends raxml-ng: 
-   :depends rich: 
-   :depends scikit-learn: 
-   :depends scipy: 
-   :requirements:
+   :depends on aster: 
+   :depends on biopython: 
+   :depends on blast: 
+   :depends on bzip2: 
+   :depends on diamond: ``<2.2|>=2.1.7``
+   :depends on ete4: 
+   :depends on famsa: 
+   :depends on fastme: 
+   :depends on fasttree: 
+   :depends on iqtree: 
+   :depends on mafft: 
+   :depends on mcl: 
+   :depends on mmseqs2: 
+   :depends on muscle: 
+   :depends on numpy: 
+   :depends on python: ``>=3.11,<=3.14``
+   :depends on raxml: 
+   :depends on raxml-ng: 
+   :depends on rich: 
+   :depends on scikit-learn: 
+   :depends on scipy: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install orthofinder
+    pixi global install orthofinder
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update orthofinder
+    pixi add orthofinder
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname orthofinder
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/orthofinder:<tag>
+    conda install orthofinder
 
-   (see `orthofinder/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname orthofinder
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/orthofinder:<tag>
+
+(see `orthofinder/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_orthofinder| image:: https://img.shields.io/conda/dn/bioconda/orthofinder.svg?style=flat
    :target: https://anaconda.org/bioconda/orthofinder
    :alt:   (downloads)

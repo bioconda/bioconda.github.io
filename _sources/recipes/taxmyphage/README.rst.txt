@@ -40,60 +40,83 @@ taxmyphage
       
 
    
-   :depends biopython: ``>=1.81.0,<2.0.0``
-   :depends blast: ``>=2.14.0,<3.0.0``
-   :depends icecream: ``>=2.1.3,<3.0.0``
-   :depends importlib-metadata: ``>=6.8.0,<7.0.0``
-   :depends mash: ``>=2.3,<3.0.0``
-   :depends matplotlib-base: ``>=3.8.0,<4.0.0``
-   :depends networkx: ``>=3.1.0,<4.0.0``
-   :depends numpy: ``>=1.26.0,<2.0.0``
-   :depends openpyxl: ``>=3.1.2,<4.0.0``
-   :depends pandas: ``>=2.1.1,<3.0.0``
-   :depends python: ``>=3.9,<3.13``
-   :depends python-wget: ``>=3.2.0,<4.0.0``
-   :depends scipy: ``>=1.11.3,<2.0.0``
-   :depends seaborn: ``>=0.13.0,<0.14.0``
-   :depends tqdm: ``>=4.66.1,<5.0.0``
-   :depends zipp: ``>=3.17.0,<4.0.0``
-   :requirements:
+   :depends on biopython: ``>=1.81.0,<2.0.0``
+   :depends on blast: ``>=2.14.0,<3.0.0``
+   :depends on icecream: ``>=2.1.3,<3.0.0``
+   :depends on importlib-metadata: ``>=6.8.0,<7.0.0``
+   :depends on mash: ``>=2.3,<3.0.0``
+   :depends on matplotlib-base: ``>=3.8.0,<4.0.0``
+   :depends on networkx: ``>=3.1.0,<4.0.0``
+   :depends on numpy: ``>=1.26.0,<2.0.0``
+   :depends on openpyxl: ``>=3.1.2,<4.0.0``
+   :depends on pandas: ``>=2.1.1,<3.0.0``
+   :depends on python: ``>=3.9,<3.13``
+   :depends on python-wget: ``>=3.2.0,<4.0.0``
+   :depends on scipy: ``>=1.11.3,<2.0.0``
+   :depends on seaborn: ``>=0.13.0,<0.14.0``
+   :depends on tqdm: ``>=4.66.1,<5.0.0``
+   :depends on zipp: ``>=3.17.0,<4.0.0``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install taxmyphage
+    pixi global install taxmyphage
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update taxmyphage
+    pixi add taxmyphage
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname taxmyphage
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/taxmyphage:<tag>
+    conda install taxmyphage
 
-   (see `taxmyphage/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname taxmyphage
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/taxmyphage:<tag>
+
+(see `taxmyphage/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_taxmyphage| image:: https://img.shields.io/conda/dn/bioconda/taxmyphage.svg?style=flat
    :target: https://anaconda.org/bioconda/taxmyphage
    :alt:   (downloads)

@@ -42,64 +42,87 @@ ms2rescore
       
 
    
-   :depends cascade-config: ``>=0.4.0``
-   :depends click: ``>=7``
-   :depends customtkinter: ``>=5,<6``
-   :depends deeplc: ``>=3.1``
-   :depends deeplcretrainer: 
-   :depends im2deep: ``>=0.3.1``
-   :depends jinja2: ``>=3``
-   :depends lxml: ``>=4.5``
-   :depends mokapot: ``0.10``
-   :depends ms2pip: ``>=4.0``
-   :depends ms2rescore-rs: ``>=0.4.3``
-   :depends numpy: ``>=1.25``
-   :depends pandas: ``>=1``
-   :depends plotly: ``>=5``
-   :depends psm-utils: ``>=1.1``
-   :depends pyopenms: ``>=3.0``
-   :depends pyteomics: ``>=4.7.2``
-   :depends python: ``>=3.10``
-   :depends rich: ``>=12``
-   :depends sqlalchemy: ``>=2``
-   :requirements:
+   :depends on cascade-config: ``>=0.4.0``
+   :depends on click: ``>=7``
+   :depends on customtkinter: ``>=5,<6``
+   :depends on deeplc: ``>=3.1``
+   :depends on deeplcretrainer: 
+   :depends on im2deep: ``>=0.3.1``
+   :depends on jinja2: ``>=3``
+   :depends on lxml: ``>=4.5``
+   :depends on mokapot: ``0.10``
+   :depends on ms2pip: ``>=4.0``
+   :depends on ms2rescore-rs: ``>=0.4.3``
+   :depends on numpy: ``>=1.25``
+   :depends on pandas: ``>=1``
+   :depends on plotly: ``>=5``
+   :depends on psm-utils: ``>=1.1``
+   :depends on pyopenms: ``>=3.0``
+   :depends on pyteomics: ``>=4.7.2``
+   :depends on python: ``>=3.10``
+   :depends on rich: ``>=12``
+   :depends on sqlalchemy: ``>=2``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install ms2rescore
+    pixi global install ms2rescore
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update ms2rescore
+    pixi add ms2rescore
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname ms2rescore
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/ms2rescore:<tag>
+    conda install ms2rescore
 
-   (see `ms2rescore/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname ms2rescore
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/ms2rescore:<tag>
+
+(see `ms2rescore/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_ms2rescore| image:: https://img.shields.io/conda/dn/bioconda/ms2rescore.svg?style=flat
    :target: https://anaconda.org/bioconda/ms2rescore
    :alt:   (downloads)

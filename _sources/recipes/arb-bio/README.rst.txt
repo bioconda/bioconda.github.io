@@ -53,73 +53,96 @@ arb-bio
       
 
    
-   :depends arb-bio-tools: ``6.0.6 haa8b8d8_8``
-   :depends fasttree: 
-   :depends fig2dev: 
-   :depends gettext: ``>=0.19.8.1,<1.0a0``
-   :depends glib: ``>=2.58.2,<3.0a0``
-   :depends gnuplot: 
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libpng: ``>=1.6.35,<1.7.0a0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends libtiff: ``>=4.0.9,<5.0a0``
-   :depends libxslt: ``>=1.1.32,<2.0a0``
-   :depends mafft: 
-   :depends mrbayes: 
-   :depends muscle: 
-   :depends openmotif: 
-   :depends perl: ``>=5.26.2,<5.26.3.0a0``
-   :depends phylip: 
-   :depends phyml: ``3.2.0.*``
-   :depends raxml: 
-   :depends sed: ``>=4.4``
-   :depends xerces-c: ``>=3.2.2,<3.2.3.0a0``
-   :depends xfig: 
-   :depends xorg-libxaw: 
-   :depends xorg-libxft: 
-   :depends xorg-libxi: 
-   :depends xorg-libxmu: 
-   :depends xorg-libxp: 
-   :depends xorg-libxpm: 
-   :depends xorg-libxt: 
-   :requirements:
+   :depends on arb-bio-tools: ``6.0.6 haa8b8d8_8``
+   :depends on fasttree: 
+   :depends on fig2dev: 
+   :depends on gettext: ``>=0.19.8.1,<1.0a0``
+   :depends on glib: ``>=2.58.2,<3.0a0``
+   :depends on gnuplot: 
+   :depends on libgcc-ng: ``>=7.3.0``
+   :depends on libpng: ``>=1.6.35,<1.7.0a0``
+   :depends on libstdcxx-ng: ``>=7.3.0``
+   :depends on libtiff: ``>=4.0.9,<5.0a0``
+   :depends on libxslt: ``>=1.1.32,<2.0a0``
+   :depends on mafft: 
+   :depends on mrbayes: 
+   :depends on muscle: 
+   :depends on openmotif: 
+   :depends on perl: ``>=5.26.2,<5.26.3.0a0``
+   :depends on phylip: 
+   :depends on phyml: ``3.2.0.*``
+   :depends on raxml: 
+   :depends on sed: ``>=4.4``
+   :depends on xerces-c: ``>=3.2.2,<3.2.3.0a0``
+   :depends on xfig: 
+   :depends on xorg-libxaw: 
+   :depends on xorg-libxft: 
+   :depends on xorg-libxi: 
+   :depends on xorg-libxmu: 
+   :depends on xorg-libxp: 
+   :depends on xorg-libxpm: 
+   :depends on xorg-libxt: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install arb-bio
+    pixi global install arb-bio
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update arb-bio
+    pixi add arb-bio
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname arb-bio
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/arb-bio:<tag>
+    conda install arb-bio
 
-   (see `arb-bio/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname arb-bio
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/arb-bio:<tag>
+
+(see `arb-bio/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_arb-bio| image:: https://img.shields.io/conda/dn/bioconda/arb-bio.svg?style=flat
    :target: https://anaconda.org/bioconda/arb-bio
    :alt:   (downloads)
@@ -149,48 +172,71 @@ arb-bio
       
 
    
-   :depends arb-bio: ``6.0.6 pl526h7ded70a_8``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :depends openmotif-dev: 
-   :requirements:
+   :depends on arb-bio: ``6.0.6 pl526h7ded70a_8``
+   :depends on libgcc-ng: ``>=7.3.0``
+   :depends on libstdcxx-ng: ``>=7.3.0``
+   :depends on openmotif-dev: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install arb-bio-devel
+    pixi global install arb-bio-devel
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update arb-bio-devel
+    pixi add arb-bio-devel
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname arb-bio-devel
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/arb-bio-devel:<tag>
+    conda install arb-bio-devel
 
-   (see `arb-bio-devel/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname arb-bio-devel
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/arb-bio-devel:<tag>
+
+(see `arb-bio-devel/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_arb-bio-devel| image:: https://img.shields.io/conda/dn/bioconda/arb-bio-devel.svg?style=flat
    :target: https://anaconda.org/bioconda/arb-bio-devel
    :alt:   (downloads)
@@ -220,48 +266,71 @@ arb-bio
       
 
    
-   :depends glib: ``>=2.58.2,<3.0a0``
-   :depends libarbdb: ``6.0.6 haa8b8d8_8``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :requirements:
+   :depends on glib: ``>=2.58.2,<3.0a0``
+   :depends on libarbdb: ``6.0.6 haa8b8d8_8``
+   :depends on libgcc-ng: ``>=7.3.0``
+   :depends on libstdcxx-ng: ``>=7.3.0``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install arb-bio-tools
+    pixi global install arb-bio-tools
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update arb-bio-tools
+    pixi add arb-bio-tools
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname arb-bio-tools
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/arb-bio-tools:<tag>
+    conda install arb-bio-tools
 
-   (see `arb-bio-tools/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname arb-bio-tools
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/arb-bio-tools:<tag>
+
+(see `arb-bio-tools/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_arb-bio-tools| image:: https://img.shields.io/conda/dn/bioconda/arb-bio-tools.svg?style=flat
    :target: https://anaconda.org/bioconda/arb-bio-tools
    :alt:   (downloads)
@@ -291,48 +360,71 @@ arb-bio
       
 
    
-   :depends gettext: 
-   :depends glib: ``>=2.58.2,<3.0a0``
-   :depends libgcc-ng: ``>=7.3.0``
-   :depends libstdcxx-ng: ``>=7.3.0``
-   :requirements:
+   :depends on gettext: 
+   :depends on glib: ``>=2.58.2,<3.0a0``
+   :depends on libgcc-ng: ``>=7.3.0``
+   :depends on libstdcxx-ng: ``>=7.3.0``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install libarbdb
+    pixi global install libarbdb
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update libarbdb
+    pixi add libarbdb
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname libarbdb
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/libarbdb:<tag>
+    conda install libarbdb
 
-   (see `libarbdb/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname libarbdb
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/libarbdb:<tag>
+
+(see `libarbdb/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_libarbdb| image:: https://img.shields.io/conda/dn/bioconda/libarbdb.svg?style=flat
    :target: https://anaconda.org/bioconda/libarbdb
    :alt:   (downloads)

@@ -32,120 +32,143 @@ jass
       
 
    
-   :depends aiohttp: 
-   :depends aiosignal: 
-   :depends amqp: 
-   :depends anyio: 
-   :depends apispec: 
-   :depends async-timeout: 
-   :depends attrs: 
-   :depends billiard: 
-   :depends blinker: 
-   :depends blosc: 
-   :depends celery: 
-   :depends certifi: 
-   :depends charset-normalizer: 
-   :depends click: 
-   :depends click-didyoumean: 
-   :depends click-plugins: 
-   :depends click-repl: 
-   :depends contourpy: 
-   :depends cycler: 
-   :depends exceptiongroup: 
-   :depends fastapi: 
-   :depends flask: 
-   :depends flask-cors: 
-   :depends flask-smorest: 
-   :depends fonttools: 
-   :depends frozenlist: 
-   :depends h11: 
-   :depends httpcore: 
-   :depends httptools: 
-   :depends httpx: 
-   :depends idna: 
-   :depends importlib-metadata: 
-   :depends itsdangerous: 
-   :depends jinja2: 
-   :depends kiwisolver: 
-   :depends kombu: 
-   :depends markupsafe: 
-   :depends marshmallow: 
-   :depends matplotlib-base: 
-   :depends msgpack-python: 
-   :depends multidict: 
-   :depends ndindex: 
-   :depends numexpr: 
-   :depends numpy: 
-   :depends packaging: 
-   :depends pandas: 
-   :depends pillow: 
-   :depends prompt-toolkit: 
-   :depends py-cpuinfo: 
-   :depends pydantic: ``<2.0``
-   :depends pyparsing: 
-   :depends python: ``>=3.10``
-   :depends python-dateutil: 
-   :depends python-dotenv: 
-   :depends pytz: 
-   :depends pyyaml: 
-   :depends requests: 
-   :depends scipy: 
-   :depends seaborn: 
-   :depends six: 
-   :depends sniffio: 
-   :depends starlette: 
-   :depends tables: 
-   :depends typing_extensions: 
-   :depends tzdata: 
-   :depends urllib3: 
-   :depends uvicorn: 
-   :depends uvloop: 
-   :depends vine: 
-   :depends watchfiles: 
-   :depends wcwidth: 
-   :depends webargs: 
-   :depends websockets: 
-   :depends werkzeug: 
-   :depends yarl: 
-   :depends zipp: 
-   :requirements:
+   :depends on aiohttp: 
+   :depends on aiosignal: 
+   :depends on amqp: 
+   :depends on anyio: 
+   :depends on apispec: 
+   :depends on async-timeout: 
+   :depends on attrs: 
+   :depends on billiard: 
+   :depends on blinker: 
+   :depends on blosc: 
+   :depends on celery: 
+   :depends on certifi: 
+   :depends on charset-normalizer: 
+   :depends on click: 
+   :depends on click-didyoumean: 
+   :depends on click-plugins: 
+   :depends on click-repl: 
+   :depends on contourpy: 
+   :depends on cycler: 
+   :depends on exceptiongroup: 
+   :depends on fastapi: 
+   :depends on flask: 
+   :depends on flask-cors: 
+   :depends on flask-smorest: 
+   :depends on fonttools: 
+   :depends on frozenlist: 
+   :depends on h11: 
+   :depends on httpcore: 
+   :depends on httptools: 
+   :depends on httpx: 
+   :depends on idna: 
+   :depends on importlib-metadata: 
+   :depends on itsdangerous: 
+   :depends on jinja2: 
+   :depends on kiwisolver: 
+   :depends on kombu: 
+   :depends on markupsafe: 
+   :depends on marshmallow: 
+   :depends on matplotlib-base: 
+   :depends on msgpack-python: 
+   :depends on multidict: 
+   :depends on ndindex: 
+   :depends on numexpr: 
+   :depends on numpy: 
+   :depends on packaging: 
+   :depends on pandas: 
+   :depends on pillow: 
+   :depends on prompt-toolkit: 
+   :depends on py-cpuinfo: 
+   :depends on pydantic: ``<2.0``
+   :depends on pyparsing: 
+   :depends on python: ``>=3.10``
+   :depends on python-dateutil: 
+   :depends on python-dotenv: 
+   :depends on pytz: 
+   :depends on pyyaml: 
+   :depends on requests: 
+   :depends on scipy: 
+   :depends on seaborn: 
+   :depends on six: 
+   :depends on sniffio: 
+   :depends on starlette: 
+   :depends on tables: 
+   :depends on typing_extensions: 
+   :depends on tzdata: 
+   :depends on urllib3: 
+   :depends on uvicorn: 
+   :depends on uvloop: 
+   :depends on vine: 
+   :depends on watchfiles: 
+   :depends on wcwidth: 
+   :depends on webargs: 
+   :depends on websockets: 
+   :depends on werkzeug: 
+   :depends on yarl: 
+   :depends on zipp: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install jass
+    pixi global install jass
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update jass
+    pixi add jass
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname jass
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/jass:<tag>
+    conda install jass
 
-   (see `jass/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname jass
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/jass:<tag>
+
+(see `jass/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_jass| image:: https://img.shields.io/conda/dn/bioconda/jass.svg?style=flat
    :target: https://anaconda.org/bioconda/jass
    :alt:   (downloads)

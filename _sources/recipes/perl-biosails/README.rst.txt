@@ -32,67 +32,90 @@ perl-biosails
       
 
    
-   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends perl-capture-tiny: 
-   :depends perl-config-any: 
-   :depends perl-data-dumper: 
-   :depends perl-datetime: 
-   :depends perl-file-homedir: 
-   :depends perl-file-path: 
-   :depends perl-file-slurp: 
-   :depends perl-file-temp: 
-   :depends perl-git-wrapper: 
-   :depends perl-git-wrapper-plus: 
-   :depends perl-hash-merge: 
-   :depends perl-ipc-cmd: 
-   :depends perl-moosex-app: 
-   :depends perl-moosex-object-pluggable: 
-   :depends perl-moosex-types: 
-   :depends perl-moosex-types-path-tiny: 
-   :depends perl-namespace-autoclean: 
-   :depends perl-path-tiny: 
-   :depends perl-sort-versions: 
-   :depends perl-try-tiny: 
-   :depends perl-version-next: 
-   :depends perl-yaml: 
-   :requirements:
+   :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends on perl-capture-tiny: 
+   :depends on perl-config-any: 
+   :depends on perl-data-dumper: 
+   :depends on perl-datetime: 
+   :depends on perl-file-homedir: 
+   :depends on perl-file-path: 
+   :depends on perl-file-slurp: 
+   :depends on perl-file-temp: 
+   :depends on perl-git-wrapper: 
+   :depends on perl-git-wrapper-plus: 
+   :depends on perl-hash-merge: 
+   :depends on perl-ipc-cmd: 
+   :depends on perl-moosex-app: 
+   :depends on perl-moosex-object-pluggable: 
+   :depends on perl-moosex-types: 
+   :depends on perl-moosex-types-path-tiny: 
+   :depends on perl-namespace-autoclean: 
+   :depends on perl-path-tiny: 
+   :depends on perl-sort-versions: 
+   :depends on perl-try-tiny: 
+   :depends on perl-version-next: 
+   :depends on perl-yaml: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install perl-biosails
+    pixi global install perl-biosails
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update perl-biosails
+    pixi add perl-biosails
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname perl-biosails
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/perl-biosails:<tag>
+    conda install perl-biosails
 
-   (see `perl-biosails/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname perl-biosails
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/perl-biosails:<tag>
+
+(see `perl-biosails/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_perl-biosails| image:: https://img.shields.io/conda/dn/bioconda/perl-biosails.svg?style=flat
    :target: https://anaconda.org/bioconda/perl-biosails
    :alt:   (downloads)

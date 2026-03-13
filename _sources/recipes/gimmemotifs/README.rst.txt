@@ -43,16 +43,15 @@ gimmemotifs
       
 
    
-   :depends dinamo: ``>=1.0``
-   :depends gadem: ``>=1.3.1``
-   :depends gimmemotifs-minimal: ``0.18.1.*``
-   :depends homer: ``>=4.11``
-   :depends meme: ``>=5.5.7``
-   :depends prosampler: ``>=1.5``
-   :depends trawler: ``>=2.0``
-   :depends weeder: ``>=2.0``
-   :depends xxmotif: ``>=1.6``
-   :requirements:
+   :depends on dinamo: ``>=1.0``
+   :depends on gadem: ``>=1.3.1``
+   :depends on gimmemotifs-minimal: ``0.18.1.*``
+   :depends on homer: ``>=4.11``
+   :depends on meme: ``>=5.5.7``
+   :depends on prosampler: ``>=1.5``
+   :depends on trawler: ``>=2.0``
+   :depends on weeder: ``>=2.0``
+   :depends on xxmotif: ``>=1.6``
 
    :additional platforms:
       
@@ -61,39 +60,63 @@ gimmemotifs
          <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install gimmemotifs
+    pixi global install gimmemotifs
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update gimmemotifs
+    pixi add gimmemotifs
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname gimmemotifs
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/gimmemotifs:<tag>
+    conda install gimmemotifs
 
-   (see `gimmemotifs/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname gimmemotifs
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/gimmemotifs:<tag>
+
+(see `gimmemotifs/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_gimmemotifs| image:: https://img.shields.io/conda/dn/bioconda/gimmemotifs.svg?style=flat
    :target: https://anaconda.org/bioconda/gimmemotifs
    :alt:   (downloads)
@@ -131,34 +154,33 @@ gimmemotifs
       
 
    
-   :depends _openmp_mutex: ``>=4.5``
-   :depends biofluff: ``>=3.0.4``
-   :depends configparser: 
-   :depends diskcache: 
-   :depends feather-format: 
-   :depends genomepy: ``>=0.14.0``
-   :depends iteround: 
-   :depends jinja2: 
-   :depends libgcc: ``>=14``
-   :depends libgomp: 
-   :depends logomaker: 
-   :depends loguru: 
-   :depends matplotlib-base: ``>=3.3``
-   :depends numpy: ``>=1.18``
-   :depends pandas: ``>=1.3``
-   :depends pybedtools: ``>=0.9.0``
-   :depends pysam: ``>=0.16``
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python-xxhash: 
-   :depends python_abi: ``3.10.* *_cp310``
-   :depends qnorm: ``>=0.8.1``
-   :depends scikit-learn: ``>=0.23.2``
-   :depends scipy: ``>=1.5``
-   :depends seaborn-base: ``>=0.10.1``
-   :depends statsmodels: 
-   :depends tqdm: ``>=4.46.1``
-   :depends xdg: 
-   :requirements:
+   :depends on _openmp_mutex: ``>=4.5``
+   :depends on biofluff: ``>=3.0.4``
+   :depends on configparser: 
+   :depends on diskcache: 
+   :depends on feather-format: 
+   :depends on genomepy: ``>=0.14.0``
+   :depends on iteround: 
+   :depends on jinja2: 
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
+   :depends on logomaker: 
+   :depends on loguru: 
+   :depends on matplotlib-base: ``>=3.3``
+   :depends on numpy: ``>=1.18``
+   :depends on pandas: ``>=1.3``
+   :depends on pybedtools: ``>=0.9.0``
+   :depends on pysam: ``>=0.16``
+   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on python-xxhash: 
+   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on qnorm: ``>=0.8.1``
+   :depends on scikit-learn: ``>=0.23.2``
+   :depends on scipy: ``>=1.5``
+   :depends on seaborn-base: ``>=0.10.1``
+   :depends on statsmodels: 
+   :depends on tqdm: ``>=4.46.1``
+   :depends on xdg: 
 
    :additional platforms:
       
@@ -167,39 +189,63 @@ gimmemotifs
          <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install gimmemotifs-minimal
+    pixi global install gimmemotifs-minimal
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update gimmemotifs-minimal
+    pixi add gimmemotifs-minimal
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname gimmemotifs-minimal
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/gimmemotifs-minimal:<tag>
+    conda install gimmemotifs-minimal
 
-   (see `gimmemotifs-minimal/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname gimmemotifs-minimal
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/gimmemotifs-minimal:<tag>
+
+(see `gimmemotifs-minimal/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_gimmemotifs-minimal| image:: https://img.shields.io/conda/dn/bioconda/gimmemotifs-minimal.svg?style=flat
    :target: https://anaconda.org/bioconda/gimmemotifs-minimal
    :alt:   (downloads)

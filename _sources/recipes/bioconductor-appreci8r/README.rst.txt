@@ -32,74 +32,97 @@ bioconductor-appreci8r
       
 
    
-   :depends bioconductor-biostrings: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-bsgenome: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-bsgenome.hsapiens.ucsc.hg19: ``>=1.4.0,<1.5.0``
-   :depends bioconductor-cosmic.67: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-genomicfeatures: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-genomicscores: ``>=2.10.0,<2.11.0``
-   :depends bioconductor-homo.sapiens: ``>=1.3.0,<1.4.0``
-   :depends bioconductor-iranges: ``>=2.32.0,<2.33.0``
-   :depends bioconductor-mafdb.1kgenomes.phase3.hs37d5: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-mafdb.exac.r1.0.hs37d5: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-mafdb.gnomadex.r2.1.hs37d5: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-polyphen.hsapiens.dbsnp131: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-rsamtools: ``>=2.14.0,<2.15.0``
-   :depends bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
-   :depends bioconductor-sift.hsapiens.dbsnp137: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-snplocs.hsapiens.dbsnp144.grch37: ``>=0.99.0,<0.100.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: ``>=3.2.0,<3.3.0``
-   :depends bioconductor-variantannotation: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-xtrasnplocs.hsapiens.dbsnp144.grch37: ``>=0.99.0,<0.100.0``
-   :depends r-base: ``>=4.2,<4.3.0a0``
-   :depends r-dt: 
-   :depends r-openxlsx: 
-   :depends r-rentrez: 
-   :depends r-rsnps: 
-   :depends r-seqinr: 
-   :depends r-shiny: 
-   :depends r-shinyjs: 
-   :depends r-stringr: 
-   :requirements:
+   :depends on bioconductor-biostrings: ``>=2.66.0,<2.67.0``
+   :depends on bioconductor-bsgenome: ``>=1.66.0,<1.67.0``
+   :depends on bioconductor-bsgenome.hsapiens.ucsc.hg19: ``>=1.4.0,<1.5.0``
+   :depends on bioconductor-cosmic.67: ``>=1.34.0,<1.35.0``
+   :depends on bioconductor-genomicfeatures: ``>=1.50.0,<1.51.0``
+   :depends on bioconductor-genomicranges: ``>=1.50.0,<1.51.0``
+   :depends on bioconductor-genomicscores: ``>=2.10.0,<2.11.0``
+   :depends on bioconductor-homo.sapiens: ``>=1.3.0,<1.4.0``
+   :depends on bioconductor-iranges: ``>=2.32.0,<2.33.0``
+   :depends on bioconductor-mafdb.1kgenomes.phase3.hs37d5: ``>=3.10.0,<3.11.0``
+   :depends on bioconductor-mafdb.exac.r1.0.hs37d5: ``>=3.10.0,<3.11.0``
+   :depends on bioconductor-mafdb.gnomadex.r2.1.hs37d5: ``>=3.10.0,<3.11.0``
+   :depends on bioconductor-polyphen.hsapiens.dbsnp131: ``>=1.0.0,<1.1.0``
+   :depends on bioconductor-rsamtools: ``>=2.14.0,<2.15.0``
+   :depends on bioconductor-s4vectors: ``>=0.36.0,<0.37.0``
+   :depends on bioconductor-sift.hsapiens.dbsnp137: ``>=1.0.0,<1.1.0``
+   :depends on bioconductor-snplocs.hsapiens.dbsnp144.grch37: ``>=0.99.0,<0.100.0``
+   :depends on bioconductor-summarizedexperiment: ``>=1.28.0,<1.29.0``
+   :depends on bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: ``>=3.2.0,<3.3.0``
+   :depends on bioconductor-variantannotation: ``>=1.44.0,<1.45.0``
+   :depends on bioconductor-xtrasnplocs.hsapiens.dbsnp144.grch37: ``>=0.99.0,<0.100.0``
+   :depends on r-base: ``>=4.2,<4.3.0a0``
+   :depends on r-dt: 
+   :depends on r-openxlsx: 
+   :depends on r-rentrez: 
+   :depends on r-rsnps: 
+   :depends on r-seqinr: 
+   :depends on r-shiny: 
+   :depends on r-shinyjs: 
+   :depends on r-stringr: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install bioconductor-appreci8r
+    pixi global install bioconductor-appreci8r
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update bioconductor-appreci8r
+    pixi add bioconductor-appreci8r
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname bioconductor-appreci8r
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/bioconductor-appreci8r:<tag>
+    conda install bioconductor-appreci8r
 
-   (see `bioconductor-appreci8r/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname bioconductor-appreci8r
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/bioconductor-appreci8r:<tag>
+
+(see `bioconductor-appreci8r/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_bioconductor-appreci8r| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-appreci8r.svg?style=flat
    :target: https://anaconda.org/bioconda/bioconductor-appreci8r
    :alt:   (downloads)

@@ -34,71 +34,94 @@ r-redeemr
       
 
    
-   :depends bioconductor-ggtree: ``>=3.14.0,<3.15.0a0``
-   :depends bioconductor-ggtreeextra: ``>=1.16.0,<1.17.0a0``
-   :depends bioconductor-qvalue: ``>=2.38.0,<2.39.0a0``
-   :depends bioconductor-treeio: ``>=1.30.0,<1.31.0a0``
-   :depends libgcc: ``>=13``
-   :depends r-ape: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
-   :depends r-domc: 
-   :depends r-doparallel: 
-   :depends r-dplyr: 
-   :depends r-foreach: 
-   :depends r-ggextra: 
-   :depends r-ggnewscale: 
-   :depends r-ggplot2: 
-   :depends r-gridextra: 
-   :depends r-igraph: 
-   :depends r-matrix: 
-   :depends r-matrixstats: 
-   :depends r-phangorn: 
-   :depends r-phytools: 
-   :depends r-pryr: 
-   :depends r-rcolorbrewer: 
-   :depends r-reshape2: 
-   :depends r-scavenge: ``>=1.0.2,<1.1.0a0``
-   :depends r-seurat: 
-   :depends r-tibble: 
-   :depends r-tidytree: 
-   :requirements:
+   :depends on bioconductor-ggtree: ``>=3.14.0,<3.15.0a0``
+   :depends on bioconductor-ggtreeextra: ``>=1.16.0,<1.17.0a0``
+   :depends on bioconductor-qvalue: ``>=2.38.0,<2.39.0a0``
+   :depends on bioconductor-treeio: ``>=1.30.0,<1.31.0a0``
+   :depends on libgcc: ``>=13``
+   :depends on r-ape: 
+   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on r-domc: 
+   :depends on r-doparallel: 
+   :depends on r-dplyr: 
+   :depends on r-foreach: 
+   :depends on r-ggextra: 
+   :depends on r-ggnewscale: 
+   :depends on r-ggplot2: 
+   :depends on r-gridextra: 
+   :depends on r-igraph: 
+   :depends on r-matrix: 
+   :depends on r-matrixstats: 
+   :depends on r-phangorn: 
+   :depends on r-phytools: 
+   :depends on r-pryr: 
+   :depends on r-rcolorbrewer: 
+   :depends on r-reshape2: 
+   :depends on r-scavenge: ``>=1.0.2,<1.1.0a0``
+   :depends on r-seurat: 
+   :depends on r-tibble: 
+   :depends on r-tidytree: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install r-redeemr
+    pixi global install r-redeemr
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update r-redeemr
+    pixi add r-redeemr
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname r-redeemr
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/r-redeemr:<tag>
+    conda install r-redeemr
 
-   (see `r-redeemr/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname r-redeemr
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/r-redeemr:<tag>
+
+(see `r-redeemr/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_r-redeemr| image:: https://img.shields.io/conda/dn/bioconda/r-redeemr.svg?style=flat
    :target: https://anaconda.org/bioconda/r-redeemr
    :alt:   (downloads)

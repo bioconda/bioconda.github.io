@@ -47,58 +47,81 @@ thapbi-pict
       
 
    
-   :depends biom-format: ``>=2.1.14``
-   :depends biopython: ``>=1.84``
-   :depends blast: 
-   :depends cutadapt: ``>=4.9``
-   :depends flash: ``>=1.2.11``
-   :depends graphviz: 
-   :depends matplotlib-base: ``>=3.9.2``
-   :depends networkx: ``>=3.4.2``
-   :depends pydot: ``>=3.0.1``
-   :depends python: ``>=3.10``
-   :depends rapidfuzz: ``>=3.10.1``
-   :depends sqlalchemy: ``>=2.0.36``
-   :depends vsearch: 
-   :depends xlsxwriter: ``>=3.2``
-   :requirements:
+   :depends on biom-format: ``>=2.1.14``
+   :depends on biopython: ``>=1.84``
+   :depends on blast: 
+   :depends on cutadapt: ``>=4.9``
+   :depends on flash: ``>=1.2.11``
+   :depends on graphviz: 
+   :depends on matplotlib-base: ``>=3.9.2``
+   :depends on networkx: ``>=3.4.2``
+   :depends on pydot: ``>=3.0.1``
+   :depends on python: ``>=3.10``
+   :depends on rapidfuzz: ``>=3.10.1``
+   :depends on sqlalchemy: ``>=2.0.36``
+   :depends on vsearch: 
+   :depends on xlsxwriter: ``>=3.2``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install thapbi-pict
+    pixi global install thapbi-pict
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update thapbi-pict
+    pixi add thapbi-pict
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname thapbi-pict
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/thapbi-pict:<tag>
+    conda install thapbi-pict
 
-   (see `thapbi-pict/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname thapbi-pict
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/thapbi-pict:<tag>
+
+(see `thapbi-pict/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_thapbi-pict| image:: https://img.shields.io/conda/dn/bioconda/thapbi-pict.svg?style=flat
    :target: https://anaconda.org/bioconda/thapbi-pict
    :alt:   (downloads)

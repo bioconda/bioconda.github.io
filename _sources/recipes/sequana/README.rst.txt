@@ -41,86 +41,109 @@ sequana
       
 
    
-   :depends adjusttext: 
-   :depends aiohttp: 
-   :depends bioservices: ``>=1.10.0``
-   :depends brokenaxes: 
-   :depends bx-python: 
-   :depends click: ``>=8.1.8``
-   :depends colorlog: ``>=6.9.0``
-   :depends colormap: 
-   :depends cookiecutter: ``<2``
-   :depends cython: 
-   :depends deprecated: 
-   :depends docutils: 
-   :depends easydev: 
-   :depends gseapy: 
-   :depends itolapi: 
-   :depends lxml: 
-   :depends matplotlib-base: ``>3``
-   :depends matplotlib-venn: 
-   :depends mock: 
-   :depends multiqc: ``>=1.18,<=1.27``
-   :depends natsort: ``>=8.4.0``
-   :depends packaging: 
-   :depends pandas: ``>=2.2.3``
-   :depends plotly: 
-   :depends psutil: 
-   :depends pulp: ``<2.8.0``
-   :depends pykwalify: 
-   :depends pysam: ``>=0.22.1``
-   :depends python: ``>=3.10``
-   :depends python-kaleido: ``>=0.1``
-   :depends rich-click: 
-   :depends ruamel.yaml: ``>=0.16.0``
-   :depends scikit-learn: 
-   :depends scipy: 
-   :depends seaborn-base: 
-   :depends selenium: 
-   :depends snakemake-minimal: ``<8``
-   :depends statsmodels: 
-   :depends tqdm: 
-   :depends upsetplot: 
-   :depends vcfpy: 
-   :depends xlrd: 
-   :requirements:
+   :depends on adjusttext: 
+   :depends on aiohttp: 
+   :depends on bioservices: ``>=1.10.0``
+   :depends on brokenaxes: 
+   :depends on bx-python: 
+   :depends on click: ``>=8.1.8``
+   :depends on colorlog: ``>=6.9.0``
+   :depends on colormap: 
+   :depends on cookiecutter: ``<2``
+   :depends on cython: 
+   :depends on deprecated: 
+   :depends on docutils: 
+   :depends on easydev: 
+   :depends on gseapy: 
+   :depends on itolapi: 
+   :depends on lxml: 
+   :depends on matplotlib-base: ``>3``
+   :depends on matplotlib-venn: 
+   :depends on mock: 
+   :depends on multiqc: ``>=1.18,<=1.27``
+   :depends on natsort: ``>=8.4.0``
+   :depends on packaging: 
+   :depends on pandas: ``>=2.2.3``
+   :depends on plotly: 
+   :depends on psutil: 
+   :depends on pulp: ``<2.8.0``
+   :depends on pykwalify: 
+   :depends on pysam: ``>=0.22.1``
+   :depends on python: ``>=3.10``
+   :depends on python-kaleido: ``>=0.1``
+   :depends on rich-click: 
+   :depends on ruamel.yaml: ``>=0.16.0``
+   :depends on scikit-learn: 
+   :depends on scipy: 
+   :depends on seaborn-base: 
+   :depends on selenium: 
+   :depends on snakemake-minimal: ``<8``
+   :depends on statsmodels: 
+   :depends on tqdm: 
+   :depends on upsetplot: 
+   :depends on vcfpy: 
+   :depends on xlrd: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install sequana
+    pixi global install sequana
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update sequana
+    pixi add sequana
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname sequana
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/sequana:<tag>
+    conda install sequana
 
-   (see `sequana/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname sequana
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/sequana:<tag>
+
+(see `sequana/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_sequana| image:: https://img.shields.io/conda/dn/bioconda/sequana.svg?style=flat
    :target: https://anaconda.org/bioconda/sequana
    :alt:   (downloads)

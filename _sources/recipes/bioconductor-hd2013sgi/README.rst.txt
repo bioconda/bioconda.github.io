@@ -40,55 +40,78 @@ bioconductor-hd2013sgi
       
 
    
-   :depends bioconductor-data-packages: ``>=20260207``
-   :depends bioconductor-ebimage: ``>=4.52.0,<4.53.0``
-   :depends bioconductor-geneplotter: ``>=1.88.0,<1.89.0``
-   :depends bioconductor-limma: ``>=3.66.0,<3.67.0``
-   :depends bioconductor-splots: ``>=1.76.0,<1.77.0``
-   :depends curl: 
-   :depends r-base: ``>=4.5,<4.6.0a0``
-   :depends r-gplots: 
-   :depends r-lsd: 
-   :depends r-rcolorbrewer: 
-   :depends r-vcd: 
-   :requirements:
+   :depends on bioconductor-data-packages: ``>=20260207``
+   :depends on bioconductor-ebimage: ``>=4.52.0,<4.53.0``
+   :depends on bioconductor-geneplotter: ``>=1.88.0,<1.89.0``
+   :depends on bioconductor-limma: ``>=3.66.0,<3.67.0``
+   :depends on bioconductor-splots: ``>=1.76.0,<1.77.0``
+   :depends on curl: 
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-gplots: 
+   :depends on r-lsd: 
+   :depends on r-rcolorbrewer: 
+   :depends on r-vcd: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install bioconductor-hd2013sgi
+    pixi global install bioconductor-hd2013sgi
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update bioconductor-hd2013sgi
+    pixi add bioconductor-hd2013sgi
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname bioconductor-hd2013sgi
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/bioconductor-hd2013sgi:<tag>
+    conda install bioconductor-hd2013sgi
 
-   (see `bioconductor-hd2013sgi/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname bioconductor-hd2013sgi
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/bioconductor-hd2013sgi:<tag>
+
+(see `bioconductor-hd2013sgi/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_bioconductor-hd2013sgi| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-hd2013sgi.svg?style=flat
    :target: https://anaconda.org/bioconda/bioconductor-hd2013sgi
    :alt:   (downloads)

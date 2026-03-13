@@ -43,63 +43,86 @@ plassembler
       
 
    
-   :depends alive-progress: ``>=3.0.1``
-   :depends biopython: ``>=1.76``
-   :depends canu: ``>=2.2``
-   :depends chopper: ``>=0.5.0``
-   :depends click: ``>=8.0.0``
-   :depends dnaapler: ``>=0.4.0``
-   :depends fastp: ``>=0.24.2``
-   :depends flye: ``>=2.9``
-   :depends loguru: ``>=0.5.3``
-   :depends mash: ``>=2.2``
-   :depends minimap2: ``>=2.11``
-   :depends pandas: ``>=1.4.2``
-   :depends pysam: ``>=0.16.0``
-   :depends python: ``>=3.8,<3.14``
-   :depends pyyaml: ``>=6.0``
-   :depends raven-assembler: ``>=1.8``
-   :depends requests: ``>=2.25.1``
-   :depends samtools: ``>=0.15.0``
-   :depends unicycler: ``>=0.4.8``
-   :requirements:
+   :depends on alive-progress: ``>=3.0.1``
+   :depends on biopython: ``>=1.76``
+   :depends on canu: ``>=2.2``
+   :depends on chopper: ``>=0.5.0``
+   :depends on click: ``>=8.0.0``
+   :depends on dnaapler: ``>=0.4.0``
+   :depends on fastp: ``>=0.24.2``
+   :depends on flye: ``>=2.9``
+   :depends on loguru: ``>=0.5.3``
+   :depends on mash: ``>=2.2``
+   :depends on minimap2: ``>=2.11``
+   :depends on pandas: ``>=1.4.2``
+   :depends on pysam: ``>=0.16.0``
+   :depends on python: ``>=3.8,<3.14``
+   :depends on pyyaml: ``>=6.0``
+   :depends on raven-assembler: ``>=1.8``
+   :depends on requests: ``>=2.25.1``
+   :depends on samtools: ``>=0.15.0``
+   :depends on unicycler: ``>=0.4.8``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install plassembler
+    pixi global install plassembler
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update plassembler
+    pixi add plassembler
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname plassembler
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/plassembler:<tag>
+    conda install plassembler
 
-   (see `plassembler/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname plassembler
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/plassembler:<tag>
+
+(see `plassembler/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_plassembler| image:: https://img.shields.io/conda/dn/bioconda/plassembler.svg?style=flat
    :target: https://anaconda.org/bioconda/plassembler
    :alt:   (downloads)

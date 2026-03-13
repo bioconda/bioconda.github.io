@@ -32,70 +32,93 @@ paidiverpy
       
 
    
-   :depends boto3: ``>=1.35.92``
-   :depends botocore: ``>=1.35.92``
-   :depends dask: ``>=2024.10.0``
-   :depends dask-image: ``2024.5.3``
-   :depends dask-jobqueue: ``>=0.9.0``
-   :depends distributed: ``>=2024.10.0``
-   :depends geopandas: ``>=1.0.1``
-   :depends geopy: ``>=2.4.1``
-   :depends ipython: ``>=8.26.0``
-   :depends jsonschema: ``>=4.23.0``
-   :depends matplotlib-base: ``>=3.5.0``
-   :depends numpy: ``<2.0``
-   :depends opencv: ``>=4.11``
-   :depends openpyxl: ``>=3.1``
-   :depends pandas: ``>=2.2.2``
-   :depends pillow: ``>=10.4.0``
-   :depends pydantic: 
-   :depends python: ``>=3.10``
-   :depends python-dotenv: ``>=1.0.1``
-   :depends pyyaml: ``>=6.0``
-   :depends rawpy: 
-   :depends scikit-image: ``>=0.24.0``
-   :depends scipy: ``>=1.14``
-   :depends shapely: ``2.0.7``
-   :depends tqdm: ``>=4.66.4``
-   :depends xarray: 
-   :requirements:
+   :depends on boto3: ``>=1.35.92``
+   :depends on botocore: ``>=1.35.92``
+   :depends on dask: ``>=2024.10.0``
+   :depends on dask-image: ``2024.5.3``
+   :depends on dask-jobqueue: ``>=0.9.0``
+   :depends on distributed: ``>=2024.10.0``
+   :depends on geopandas: ``>=1.0.1``
+   :depends on geopy: ``>=2.4.1``
+   :depends on ipython: ``>=8.26.0``
+   :depends on jsonschema: ``>=4.23.0``
+   :depends on matplotlib-base: ``>=3.5.0``
+   :depends on numpy: ``<2.0``
+   :depends on opencv: ``>=4.11``
+   :depends on openpyxl: ``>=3.1``
+   :depends on pandas: ``>=2.2.2``
+   :depends on pillow: ``>=10.4.0``
+   :depends on pydantic: 
+   :depends on python: ``>=3.10``
+   :depends on python-dotenv: ``>=1.0.1``
+   :depends on pyyaml: ``>=6.0``
+   :depends on rawpy: 
+   :depends on scikit-image: ``>=0.24.0``
+   :depends on scipy: ``>=1.14``
+   :depends on shapely: ``2.0.7``
+   :depends on tqdm: ``>=4.66.4``
+   :depends on xarray: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install paidiverpy
+    pixi global install paidiverpy
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update paidiverpy
+    pixi add paidiverpy
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname paidiverpy
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/paidiverpy:<tag>
+    conda install paidiverpy
 
-   (see `paidiverpy/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname paidiverpy
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/paidiverpy:<tag>
+
+(see `paidiverpy/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_paidiverpy| image:: https://img.shields.io/conda/dn/bioconda/paidiverpy.svg?style=flat
    :target: https://anaconda.org/bioconda/paidiverpy
    :alt:   (downloads)

@@ -43,59 +43,82 @@ arcas-hla
       
 
    
-   :depends bedtools: 
-   :depends biopython: 
-   :depends coreutils: 
-   :depends git: 
-   :depends git-lfs: 
-   :depends kallisto: ``0.44``
-   :depends numpy: 
-   :depends pandas: 
-   :depends pigz: 
-   :depends pip: 
-   :depends pyarrow: 
-   :depends pytest: 
-   :depends python: 
-   :depends samtools: 
-   :depends scipy: 
-   :requirements:
+   :depends on bedtools: 
+   :depends on biopython: 
+   :depends on coreutils: 
+   :depends on git: 
+   :depends on git-lfs: 
+   :depends on kallisto: ``0.44``
+   :depends on numpy: 
+   :depends on pandas: 
+   :depends on pigz: 
+   :depends on pip: 
+   :depends on pyarrow: 
+   :depends on pytest: 
+   :depends on python: 
+   :depends on samtools: 
+   :depends on scipy: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install arcas-hla
+    pixi global install arcas-hla
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update arcas-hla
+    pixi add arcas-hla
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname arcas-hla
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/arcas-hla:<tag>
+    conda install arcas-hla
 
-   (see `arcas-hla/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname arcas-hla
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/arcas-hla:<tag>
+
+(see `arcas-hla/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_arcas-hla| image:: https://img.shields.io/conda/dn/bioconda/arcas-hla.svg?style=flat
    :target: https://anaconda.org/bioconda/arcas-hla
    :alt:   (downloads)

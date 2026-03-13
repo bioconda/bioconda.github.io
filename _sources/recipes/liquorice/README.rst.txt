@@ -32,61 +32,84 @@ liquorice
       
 
    
-   :depends biopython: ``1.79``
-   :depends deeptools: ``3.5.1``
-   :depends joblib: ``1.0.1``
-   :depends lmfit: ``1.0.2``
-   :depends matplotlib-base: ``3.1.1``
-   :depends modin: ``0.8.2``
-   :depends numpy: ``1.21.2``
-   :depends pandas: ``1.1.4``
-   :depends parallel: 
-   :depends pybedtools: ``0.8.2``
-   :depends pybigwig: ``0.3.18``
-   :depends pysam: ``0.16.0.1``
-   :depends python: ``>=3.7.9``
-   :depends scikit-learn: ``0.24.2``
-   :depends scipy: ``1.7.1``
-   :depends seaborn: ``0.11.2``
-   :depends swifter: ``1.0.9``
-   :requirements:
+   :depends on biopython: ``1.79``
+   :depends on deeptools: ``3.5.1``
+   :depends on joblib: ``1.0.1``
+   :depends on lmfit: ``1.0.2``
+   :depends on matplotlib-base: ``3.1.1``
+   :depends on modin: ``0.8.2``
+   :depends on numpy: ``1.21.2``
+   :depends on pandas: ``1.1.4``
+   :depends on parallel: 
+   :depends on pybedtools: ``0.8.2``
+   :depends on pybigwig: ``0.3.18``
+   :depends on pysam: ``0.16.0.1``
+   :depends on python: ``>=3.7.9``
+   :depends on scikit-learn: ``0.24.2``
+   :depends on scipy: ``1.7.1``
+   :depends on seaborn: ``0.11.2``
+   :depends on swifter: ``1.0.9``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install liquorice
+    pixi global install liquorice
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update liquorice
+    pixi add liquorice
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname liquorice
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/liquorice:<tag>
+    conda install liquorice
 
-   (see `liquorice/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname liquorice
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/liquorice:<tag>
+
+(see `liquorice/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_liquorice| image:: https://img.shields.io/conda/dn/bioconda/liquorice.svg?style=flat
    :target: https://anaconda.org/bioconda/liquorice
    :alt:   (downloads)

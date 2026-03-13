@@ -44,77 +44,100 @@ anvio-minimal
       
 
    
-   :depends biopython: 
-   :depends bottle: 
-   :depends colored: 
-   :depends django: 
-   :depends ete3: 
-   :depends illumina-utils: 
-   :depends matplotlib-base: 
-   :depends mistune: 
-   :depends multiprocess: 
-   :depends networkx: 
-   :depends numba: 
-   :depends numpy: ``<=1.24``
-   :depends pandas: ``1.4.4``
-   :depends paste: 
-   :depends plotext: 
-   :depends psutil: 
-   :depends pulp: ``2.7.0``
-   :depends pyani: ``0.2.10``
-   :depends pymupdf: 
-   :depends pyrodigal-gv: 
-   :depends pysam: 
-   :depends python: ``3.10.*``
-   :depends reportlab: 
-   :depends requests: 
-   :depends rich-argparse: 
-   :depends scikit-learn: ``1.2.2``
-   :depends scipy: 
-   :depends six: 
-   :depends snakemake-minimal: ``5.10.0``
-   :depends sqlite: ``>=3.31.1``
-   :depends statsmodels: 
-   :depends tabulate: 
-   :depends tomli: ``2.2.1``
-   :requirements:
+   :depends on biopython: 
+   :depends on bottle: 
+   :depends on colored: 
+   :depends on django: 
+   :depends on ete3: 
+   :depends on illumina-utils: 
+   :depends on matplotlib-base: 
+   :depends on mistune: 
+   :depends on multiprocess: 
+   :depends on networkx: 
+   :depends on numba: 
+   :depends on numpy: ``<=1.24``
+   :depends on pandas: ``1.4.4``
+   :depends on paste: 
+   :depends on plotext: 
+   :depends on psutil: 
+   :depends on pulp: ``2.7.0``
+   :depends on pyani: ``0.2.10``
+   :depends on pymupdf: 
+   :depends on pyrodigal-gv: 
+   :depends on pysam: 
+   :depends on python: ``3.10.*``
+   :depends on reportlab: 
+   :depends on requests: 
+   :depends on rich-argparse: 
+   :depends on scikit-learn: ``1.2.2``
+   :depends on scipy: 
+   :depends on six: 
+   :depends on snakemake-minimal: ``5.10.0``
+   :depends on sqlite: ``>=3.31.1``
+   :depends on statsmodels: 
+   :depends on tabulate: 
+   :depends on tomli: ``2.2.1``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install anvio-minimal
+    pixi global install anvio-minimal
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update anvio-minimal
+    pixi add anvio-minimal
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname anvio-minimal
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/anvio-minimal:<tag>
+    conda install anvio-minimal
 
-   (see `anvio-minimal/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname anvio-minimal
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/anvio-minimal:<tag>
+
+(see `anvio-minimal/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_anvio-minimal| image:: https://img.shields.io/conda/dn/bioconda/anvio-minimal.svg?style=flat
    :target: https://anaconda.org/bioconda/anvio-minimal
    :alt:   (downloads)

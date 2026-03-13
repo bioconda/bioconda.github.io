@@ -42,64 +42,87 @@ ariba
       
 
    
-   :depends bcftools: ``>=1.2``
-   :depends beautifulsoup4: ``>=4.1.0``
-   :depends biopython: 
-   :depends bowtie2: 
-   :depends cd-hit: ``>=4.6.5``
-   :depends dendropy: ``>=4.2.0``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
-   :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends matplotlib-base: ``>=3.1.0``
-   :depends mummer: ``>=3.23``
-   :depends pyfastaq: ``>=3.12.0``
-   :depends pymummer: ``>=0.11.0``
-   :depends pysam: ``>=0.21.0``
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
-   :depends samtools: ``>=1.2``
-   :depends setuptools: 
-   :depends spades: ``>=3.5.0``
-   :depends wget: 
-   :requirements:
+   :depends on bcftools: ``>=1.2``
+   :depends on beautifulsoup4: ``>=4.1.0``
+   :depends on biopython: 
+   :depends on bowtie2: 
+   :depends on cd-hit: ``>=4.6.5``
+   :depends on dendropy: ``>=4.2.0``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
+   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on matplotlib-base: ``>=3.1.0``
+   :depends on mummer: ``>=3.23``
+   :depends on pyfastaq: ``>=3.12.0``
+   :depends on pymummer: ``>=0.11.0``
+   :depends on pysam: ``>=0.21.0``
+   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on samtools: ``>=1.2``
+   :depends on setuptools: 
+   :depends on spades: ``>=3.5.0``
+   :depends on wget: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install ariba
+    pixi global install ariba
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update ariba
+    pixi add ariba
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname ariba
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/ariba:<tag>
+    conda install ariba
 
-   (see `ariba/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname ariba
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/ariba:<tag>
+
+(see `ariba/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_ariba| image:: https://img.shields.io/conda/dn/bioconda/ariba.svg?style=flat
    :target: https://anaconda.org/bioconda/ariba
    :alt:   (downloads)

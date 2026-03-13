@@ -32,70 +32,93 @@ bioconductor-uncoverapplib
       
 
    
-   :depends bioconductor-biocfilecache: ``>=3.0.0,<3.1.0``
-   :depends bioconductor-ensdb.hsapiens.v75: ``>=2.99.0,<2.100.0``
-   :depends bioconductor-ensdb.hsapiens.v86: ``>=2.99.0,<2.100.0``
-   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-gviz: ``>=1.54.0,<1.55.0``
-   :depends bioconductor-homo.sapiens: ``>=1.3.0,<1.4.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.22.0,<3.23.0``
-   :depends bioconductor-organismdbi: ``>=1.52.0,<1.53.0``
-   :depends bioconductor-rsamtools: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: ``>=3.22.0,<3.23.0``
-   :depends bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: ``>=3.22.0,<3.23.0``
-   :depends r-base: ``>=4.5,<4.6.0a0``
-   :depends r-condformat: 
-   :depends r-dt: 
-   :depends r-markdown: 
-   :depends r-openxlsx: 
-   :depends r-processx: 
-   :depends r-rappdirs: 
-   :depends r-rlist: 
-   :depends r-shiny: 
-   :depends r-shinybs: 
-   :depends r-shinycssloaders: 
-   :depends r-shinyjs: 
-   :depends r-shinywidgets: 
-   :depends r-stringr: 
-   :requirements:
+   :depends on bioconductor-biocfilecache: ``>=3.0.0,<3.1.0``
+   :depends on bioconductor-ensdb.hsapiens.v75: ``>=2.99.0,<2.100.0``
+   :depends on bioconductor-ensdb.hsapiens.v86: ``>=2.99.0,<2.100.0``
+   :depends on bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends on bioconductor-gviz: ``>=1.54.0,<1.55.0``
+   :depends on bioconductor-homo.sapiens: ``>=1.3.0,<1.4.0``
+   :depends on bioconductor-org.hs.eg.db: ``>=3.22.0,<3.23.0``
+   :depends on bioconductor-organismdbi: ``>=1.52.0,<1.53.0``
+   :depends on bioconductor-rsamtools: ``>=2.26.0,<2.27.0``
+   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends on bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: ``>=3.22.0,<3.23.0``
+   :depends on bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: ``>=3.22.0,<3.23.0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-condformat: 
+   :depends on r-dt: 
+   :depends on r-markdown: 
+   :depends on r-openxlsx: 
+   :depends on r-processx: 
+   :depends on r-rappdirs: 
+   :depends on r-rlist: 
+   :depends on r-shiny: 
+   :depends on r-shinybs: 
+   :depends on r-shinycssloaders: 
+   :depends on r-shinyjs: 
+   :depends on r-shinywidgets: 
+   :depends on r-stringr: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install bioconductor-uncoverapplib
+    pixi global install bioconductor-uncoverapplib
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update bioconductor-uncoverapplib
+    pixi add bioconductor-uncoverapplib
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname bioconductor-uncoverapplib
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/bioconductor-uncoverapplib:<tag>
+    conda install bioconductor-uncoverapplib
 
-   (see `bioconductor-uncoverapplib/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname bioconductor-uncoverapplib
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/bioconductor-uncoverapplib:<tag>
+
+(see `bioconductor-uncoverapplib/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_bioconductor-uncoverapplib| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-uncoverapplib.svg?style=flat
    :target: https://anaconda.org/bioconda/bioconductor-uncoverapplib
    :alt:   (downloads)

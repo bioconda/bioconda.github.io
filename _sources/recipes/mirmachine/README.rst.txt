@@ -42,75 +42,98 @@ mirmachine
       
 
    
-   :depends appdirs: ``>=1.4.4``
-   :depends attrs: ``>=25.3.0``
-   :depends bedtools: ``>=2.31.1``
-   :depends biopython: ``>=1.85``
-   :depends configargparse: ``>=1.7``
-   :depends coreutils: ``>=8.31``
-   :depends datrie: 
-   :depends decorator: ``>=4.4.2``
-   :depends docopt: ``>=0.6.2``
-   :depends docutils: ``>=0.21.2``
-   :depends gawk: ``>=5.0.1``
-   :depends gitdb: ``>=4.0.12``
-   :depends gitpython: ``>=3.1.44``
-   :depends infernal: ``1.1.5``
-   :depends jsonschema: ``>=4.23.0``
-   :depends moreutils: ``>=0.5.7``
-   :depends nbformat: ``>=5.10.4``
-   :depends numpy: ``>=2.2.5``
-   :depends psutil: ``>=7.0.0``
-   :depends pyrsistent: ``>=0.15.7``
-   :depends python: ``>=3.6``
-   :depends python-newick: ``>=1.0.0``
-   :depends pyyaml: 
-   :depends rich: ``>=14.0.0``
-   :depends samtools: ``>=1.6``
-   :depends smmap: ``>=5.0.2``
-   :depends snakemake-minimal: ``>=9.3.3``
-   :depends toposort: ``>=1.10``
-   :depends traitlets: ``>=5.14.3``
-   :depends wrapt: ``>=1.17.2``
-   :depends zipp: ``>=3.21.0``
-   :requirements:
+   :depends on appdirs: ``>=1.4.4``
+   :depends on attrs: ``>=25.3.0``
+   :depends on bedtools: ``>=2.31.1``
+   :depends on biopython: ``>=1.85``
+   :depends on configargparse: ``>=1.7``
+   :depends on coreutils: ``>=8.31``
+   :depends on datrie: 
+   :depends on decorator: ``>=4.4.2``
+   :depends on docopt: ``>=0.6.2``
+   :depends on docutils: ``>=0.21.2``
+   :depends on gawk: ``>=5.0.1``
+   :depends on gitdb: ``>=4.0.12``
+   :depends on gitpython: ``>=3.1.44``
+   :depends on infernal: ``1.1.5``
+   :depends on jsonschema: ``>=4.23.0``
+   :depends on moreutils: ``>=0.5.7``
+   :depends on nbformat: ``>=5.10.4``
+   :depends on numpy: ``>=2.2.5``
+   :depends on psutil: ``>=7.0.0``
+   :depends on pyrsistent: ``>=0.15.7``
+   :depends on python: ``>=3.6``
+   :depends on python-newick: ``>=1.0.0``
+   :depends on pyyaml: 
+   :depends on rich: ``>=14.0.0``
+   :depends on samtools: ``>=1.6``
+   :depends on smmap: ``>=5.0.2``
+   :depends on snakemake-minimal: ``>=9.3.3``
+   :depends on toposort: ``>=1.10``
+   :depends on traitlets: ``>=5.14.3``
+   :depends on wrapt: ``>=1.17.2``
+   :depends on zipp: ``>=3.21.0``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install mirmachine
+    pixi global install mirmachine
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update mirmachine
+    pixi add mirmachine
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname mirmachine
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/mirmachine:<tag>
+    conda install mirmachine
 
-   (see `mirmachine/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname mirmachine
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/mirmachine:<tag>
+
+(see `mirmachine/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_mirmachine| image:: https://img.shields.io/conda/dn/bioconda/mirmachine.svg?style=flat
    :target: https://anaconda.org/bioconda/mirmachine
    :alt:   (downloads)

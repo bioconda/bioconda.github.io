@@ -43,78 +43,101 @@ drop
       
 
    
-   :depends bc: 
-   :depends bcftools: ``>=1.9``
-   :depends bioconductor-deseq2: 
-   :depends bioconductor-fraser: ``>=2.4.6``
-   :depends bioconductor-genomicscores: 
-   :depends bioconductor-outrider: ``>=1.26.3``
-   :depends bioconductor-variantannotation: 
-   :depends click: ``>=7.0``
-   :depends click-log: 
-   :depends gatk4: ``>=4.0.4``
-   :depends graphviz: 
-   :depends htslib: 
-   :depends pandas: ``>=2.2``
-   :depends pandoc: 
-   :depends python: ``>=3.6``
-   :depends python-dateutil: 
-   :depends r-base: ``>=4.0.0``
-   :depends r-cowplot: 
-   :depends r-data.table: 
-   :depends r-devtools: 
-   :depends r-dplyr: 
-   :depends r-dt: 
-   :depends r-ggplot2: 
-   :depends r-ggthemes: 
-   :depends r-knitr: 
-   :depends r-magrittr: 
-   :depends r-rmarkdown: 
-   :depends r-tidyr: 
-   :depends r-tmae: ``>=1.0.5``
-   :depends samtools: ``>=1.9``
-   :depends snakemake-minimal: ``>=5.5.2``
-   :depends star: ``>=2.7``
-   :depends wbuild: ``>=1.8 pyhdfd78af_2``
-   :depends wget: 
-   :requirements:
+   :depends on bc: 
+   :depends on bcftools: ``>=1.9``
+   :depends on bioconductor-deseq2: 
+   :depends on bioconductor-fraser: ``>=2.4.6``
+   :depends on bioconductor-genomicscores: 
+   :depends on bioconductor-outrider: ``>=1.26.3``
+   :depends on bioconductor-variantannotation: 
+   :depends on click: ``>=7.0``
+   :depends on click-log: 
+   :depends on gatk4: ``>=4.0.4``
+   :depends on graphviz: 
+   :depends on htslib: 
+   :depends on pandas: ``>=2.2``
+   :depends on pandoc: 
+   :depends on python: ``>=3.6``
+   :depends on python-dateutil: 
+   :depends on r-base: ``>=4.0.0``
+   :depends on r-cowplot: 
+   :depends on r-data.table: 
+   :depends on r-devtools: 
+   :depends on r-dplyr: 
+   :depends on r-dt: 
+   :depends on r-ggplot2: 
+   :depends on r-ggthemes: 
+   :depends on r-knitr: 
+   :depends on r-magrittr: 
+   :depends on r-rmarkdown: 
+   :depends on r-tidyr: 
+   :depends on r-tmae: ``>=1.0.5``
+   :depends on samtools: ``>=1.9``
+   :depends on snakemake-minimal: ``>=5.5.2``
+   :depends on star: ``>=2.7``
+   :depends on wbuild: ``>=1.8 pyhdfd78af_2``
+   :depends on wget: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install drop
+    pixi global install drop
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update drop
+    pixi add drop
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname drop
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/drop:<tag>
+    conda install drop
 
-   (see `drop/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname drop
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/drop:<tag>
+
+(see `drop/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_drop| image:: https://img.shields.io/conda/dn/bioconda/drop.svg?style=flat
    :target: https://anaconda.org/bioconda/drop
    :alt:   (downloads)

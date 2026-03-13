@@ -32,76 +32,99 @@ bioconductor-protgear
       
 
    
-   :depends bioconductor-biobase: ``>=2.66.0,<2.67.0``
-   :depends bioconductor-genefilter: ``>=1.88.0,<1.89.0``
-   :depends bioconductor-limma: ``>=3.62.0,<3.63.0``
-   :depends bioconductor-vsn: ``>=3.74.0,<3.75.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
-   :depends r-data.table: ``>=1.14.0``
-   :depends r-dplyr: ``>=0.8.0``
-   :depends r-factoextra: ``>=1.0.7``
-   :depends r-factominer: ``>=2.4``
-   :depends r-flexdashboard: ``>=0.5.2``
-   :depends r-ggally: ``>=2.1.2``
-   :depends r-ggplot2: ``>=3.3.0``
-   :depends r-ggpubr: ``>=0.4.0``
-   :depends r-gtools: ``>=3.8.2``
-   :depends r-htmltools: ``>=0.4.0``
-   :depends r-kendall: ``>=2.2``
-   :depends r-knitr: ``>=1.33``
-   :depends r-magrittr: ``>=1.5``
-   :depends r-mass: ``>=7.3``
-   :depends r-pheatmap: ``>=1.0.12``
-   :depends r-plotly: ``>=4.9.0``
-   :depends r-plyr: ``>=1.8.6``
-   :depends r-purrr: ``>=0.3.4``
-   :depends r-readr: ``>=2.0.1``
-   :depends r-remotes: ``>=2.4.0``
-   :depends r-rlang: ``>=0.4.11``
-   :depends r-rmarkdown: ``>=2.9``
-   :depends r-shiny: ``>=1.0.0``
-   :depends r-shinydashboard: ``>=0.7.1``
-   :depends r-styler: ``>=1.6.1``
-   :depends r-tibble: ``>=3.1.0``
-   :depends r-tidyr: ``>=1.1.3``
-   :requirements:
+   :depends on bioconductor-biobase: ``>=2.66.0,<2.67.0``
+   :depends on bioconductor-genefilter: ``>=1.88.0,<1.89.0``
+   :depends on bioconductor-limma: ``>=3.62.0,<3.63.0``
+   :depends on bioconductor-vsn: ``>=3.74.0,<3.75.0``
+   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on r-data.table: ``>=1.14.0``
+   :depends on r-dplyr: ``>=0.8.0``
+   :depends on r-factoextra: ``>=1.0.7``
+   :depends on r-factominer: ``>=2.4``
+   :depends on r-flexdashboard: ``>=0.5.2``
+   :depends on r-ggally: ``>=2.1.2``
+   :depends on r-ggplot2: ``>=3.3.0``
+   :depends on r-ggpubr: ``>=0.4.0``
+   :depends on r-gtools: ``>=3.8.2``
+   :depends on r-htmltools: ``>=0.4.0``
+   :depends on r-kendall: ``>=2.2``
+   :depends on r-knitr: ``>=1.33``
+   :depends on r-magrittr: ``>=1.5``
+   :depends on r-mass: ``>=7.3``
+   :depends on r-pheatmap: ``>=1.0.12``
+   :depends on r-plotly: ``>=4.9.0``
+   :depends on r-plyr: ``>=1.8.6``
+   :depends on r-purrr: ``>=0.3.4``
+   :depends on r-readr: ``>=2.0.1``
+   :depends on r-remotes: ``>=2.4.0``
+   :depends on r-rlang: ``>=0.4.11``
+   :depends on r-rmarkdown: ``>=2.9``
+   :depends on r-shiny: ``>=1.0.0``
+   :depends on r-shinydashboard: ``>=0.7.1``
+   :depends on r-styler: ``>=1.6.1``
+   :depends on r-tibble: ``>=3.1.0``
+   :depends on r-tidyr: ``>=1.1.3``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install bioconductor-protgear
+    pixi global install bioconductor-protgear
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update bioconductor-protgear
+    pixi add bioconductor-protgear
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname bioconductor-protgear
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/bioconductor-protgear:<tag>
+    conda install bioconductor-protgear
 
-   (see `bioconductor-protgear/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname bioconductor-protgear
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/bioconductor-protgear:<tag>
+
+(see `bioconductor-protgear/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_bioconductor-protgear| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-protgear.svg?style=flat
    :target: https://anaconda.org/bioconda/bioconductor-protgear
    :alt:   (downloads)

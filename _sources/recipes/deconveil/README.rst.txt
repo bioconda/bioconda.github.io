@@ -33,59 +33,82 @@ deconveil
       
 
    
-   :depends anndata: ``>=0.8.0``
-   :depends cmdstanpy: ``>=1.2.0``
-   :depends formulaic: ``>=1.0.2``
-   :depends formulaic-contrasts: ``>=0.2.0``
-   :depends ipython: 
-   :depends jupyter: 
-   :depends matplotlib-base: ``>=3.6.2``
-   :depends numpy: ``>=1.23.0``
-   :depends pandas: ``>=1.4.0``
-   :depends pydeseq2: ``>=0.4.12``
-   :depends python: ``>=3.10``
-   :depends rpy2: ``>=3.5.0``
-   :depends scikit-learn: ``>=1.1.0``
-   :depends scipy: ``>=1.11.0``
-   :depends seaborn: ``>=0.12.2``
-   :requirements:
+   :depends on anndata: ``>=0.8.0``
+   :depends on cmdstanpy: ``>=1.2.0``
+   :depends on formulaic: ``>=1.0.2``
+   :depends on formulaic-contrasts: ``>=0.2.0``
+   :depends on ipython: 
+   :depends on jupyter: 
+   :depends on matplotlib-base: ``>=3.6.2``
+   :depends on numpy: ``>=1.23.0``
+   :depends on pandas: ``>=1.4.0``
+   :depends on pydeseq2: ``>=0.4.12``
+   :depends on python: ``>=3.10``
+   :depends on rpy2: ``>=3.5.0``
+   :depends on scikit-learn: ``>=1.1.0``
+   :depends on scipy: ``>=1.11.0``
+   :depends on seaborn: ``>=0.12.2``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install deconveil
+    pixi global install deconveil
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update deconveil
+    pixi add deconveil
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname deconveil
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/deconveil:<tag>
+    conda install deconveil
 
-   (see `deconveil/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname deconveil
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/deconveil:<tag>
+
+(see `deconveil/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_deconveil| image:: https://img.shields.io/conda/dn/bioconda/deconveil.svg?style=flat
    :target: https://anaconda.org/bioconda/deconveil
    :alt:   (downloads)

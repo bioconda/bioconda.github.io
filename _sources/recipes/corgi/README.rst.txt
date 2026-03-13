@@ -35,62 +35,85 @@ corgi
       
 
    
-   :depends appdirs: ``>=1.4.4,<2.0.0``
-   :depends beautifulsoup4: ``>=4.10.0,<5.0.0``
-   :depends biopython: ``>=1.79.0,<2.0.0``
-   :depends cryptography: ``>=36.0.1,<37.0.0``
-   :depends dask-core: ``>=2021.7.1,<2022.0.0``
-   :depends fastai: ``>=2.4.1,<3.0.0``
-   :depends h5py: ``>=3.1.0,<4.0.0``
-   :depends httpx: ``>=0.20.0,<0.21.0``
-   :depends humanize: ``>=3.10.0,<4.0.0``
-   :depends optuna: ``>=2.10.0,<3.0.0``
-   :depends plotly: ``>=5.3.1,<6.0.0``
-   :depends progressbar2: ``>=3.53.1,<4.0.0``
-   :depends pyarrow: ``>=5.0.0``
-   :depends pymysql: ``>=1.0.2,<2.0.0``
-   :depends python: ``>=3.8,<3.12``
-   :depends termgraph: ``>=0.5.3,<0.6.0``
-   :depends torchapp: ``>=0.3.1``
-   :depends wandb: ``>=0.12.9,<0.13.0``
-   :requirements:
+   :depends on appdirs: ``>=1.4.4,<2.0.0``
+   :depends on beautifulsoup4: ``>=4.10.0,<5.0.0``
+   :depends on biopython: ``>=1.79.0,<2.0.0``
+   :depends on cryptography: ``>=36.0.1,<37.0.0``
+   :depends on dask-core: ``>=2021.7.1,<2022.0.0``
+   :depends on fastai: ``>=2.4.1,<3.0.0``
+   :depends on h5py: ``>=3.1.0,<4.0.0``
+   :depends on httpx: ``>=0.20.0,<0.21.0``
+   :depends on humanize: ``>=3.10.0,<4.0.0``
+   :depends on optuna: ``>=2.10.0,<3.0.0``
+   :depends on plotly: ``>=5.3.1,<6.0.0``
+   :depends on progressbar2: ``>=3.53.1,<4.0.0``
+   :depends on pyarrow: ``>=5.0.0``
+   :depends on pymysql: ``>=1.0.2,<2.0.0``
+   :depends on python: ``>=3.8,<3.12``
+   :depends on termgraph: ``>=0.5.3,<0.6.0``
+   :depends on torchapp: ``>=0.3.1``
+   :depends on wandb: ``>=0.12.9,<0.13.0``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install corgi
+    pixi global install corgi
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update corgi
+    pixi add corgi
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname corgi
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/corgi:<tag>
+    conda install corgi
 
-   (see `corgi/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname corgi
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/corgi:<tag>
+
+(see `corgi/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_corgi| image:: https://img.shields.io/conda/dn/bioconda/corgi.svg?style=flat
    :target: https://anaconda.org/bioconda/corgi
    :alt:   (downloads)

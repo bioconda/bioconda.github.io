@@ -45,82 +45,105 @@ pegasuspy
       
 
    
-   :depends adjusttext: 
-   :depends anndata: ``>=0.7.1``
-   :depends demuxem: 
-   :depends docopt: 
-   :depends forceatlas2-python: 
-   :depends harmony-pytorch: 
-   :depends hnswlib: 
-   :depends joblib: ``>=0.14``
-   :depends leidenalg: ``>=0.8.0``
-   :depends libgcc: ``>=14``
-   :depends lightgbm: ``>=2.2.1``
-   :depends loompy: 
-   :depends louvain: ``>=0.7.0``
-   :depends matplotlib-base: ``>=3.7.0``
-   :depends natsort: 
-   :depends numba: 
-   :depends numpy: ``<2``
-   :depends pandas: ``>=1.2.0``
-   :depends pegasusio: ``>=0.9.1``
-   :depends pip: ``<25.3``
-   :depends psutil: 
-   :depends pybind11: 
-   :depends pyfit-sne: ``>=1.1.1``
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python-igraph: ``>=0.8.0``
-   :depends python_abi: ``3.10.* *_cp310``
-   :depends scikit-learn: ``>=0.23.2``
-   :depends scikit-misc: 
-   :depends scipy: 
-   :depends seaborn-base: ``>=0.13.0``
-   :depends setuptools: ``<81``
-   :depends statsmodels: 
-   :depends tbb: 
-   :depends threadpoolctl: 
-   :depends umap-learn: ``>=0.5.2``
-   :depends wordcloud: 
-   :depends xlsxwriter: 
-   :depends zarr: ``<3``
-   :requirements:
+   :depends on adjusttext: 
+   :depends on anndata: ``>=0.7.1``
+   :depends on demuxem: 
+   :depends on docopt: 
+   :depends on forceatlas2-python: 
+   :depends on harmony-pytorch: 
+   :depends on hnswlib: 
+   :depends on joblib: ``>=0.14``
+   :depends on leidenalg: ``>=0.8.0``
+   :depends on libgcc: ``>=14``
+   :depends on lightgbm: ``>=2.2.1``
+   :depends on loompy: 
+   :depends on louvain: ``>=0.7.0``
+   :depends on matplotlib-base: ``>=3.7.0``
+   :depends on natsort: 
+   :depends on numba: 
+   :depends on numpy: ``<2``
+   :depends on pandas: ``>=1.2.0``
+   :depends on pegasusio: ``>=0.9.1``
+   :depends on pip: ``<25.3``
+   :depends on psutil: 
+   :depends on pybind11: 
+   :depends on pyfit-sne: ``>=1.1.1``
+   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on python-igraph: ``>=0.8.0``
+   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on scikit-learn: ``>=0.23.2``
+   :depends on scikit-misc: 
+   :depends on scipy: 
+   :depends on seaborn-base: ``>=0.13.0``
+   :depends on setuptools: ``<81``
+   :depends on statsmodels: 
+   :depends on tbb: 
+   :depends on threadpoolctl: 
+   :depends on umap-learn: ``>=0.5.2``
+   :depends on wordcloud: 
+   :depends on xlsxwriter: 
+   :depends on zarr: ``<3``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install pegasuspy
+    pixi global install pegasuspy
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update pegasuspy
+    pixi add pegasuspy
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname pegasuspy
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/pegasuspy:<tag>
+    conda install pegasuspy
 
-   (see `pegasuspy/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname pegasuspy
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/pegasuspy:<tag>
+
+(see `pegasuspy/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_pegasuspy| image:: https://img.shields.io/conda/dn/bioconda/pegasuspy.svg?style=flat
    :target: https://anaconda.org/bioconda/pegasuspy
    :alt:   (downloads)

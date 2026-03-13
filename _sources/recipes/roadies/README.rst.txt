@@ -36,71 +36,94 @@ roadies
       
 
    
-   :depends alive-progress: 
-   :depends aster: ``>=1.19``
-   :depends biopython: 
-   :depends boost-cpp: 
-   :depends ete3: 
-   :depends fasttree: ``>=2.1.11``
-   :depends lastz: ``>=1.04.52``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
-   :depends libzlib: ``>=1.2.13,<2.0a0``
-   :depends mash: ``>=2``
-   :depends mashtree: ``1.4.6``
-   :depends matplotlib-base: 
-   :depends numpy: 
-   :depends pasta: ``>=1.9.0``
-   :depends perl: ``>=5.22``
-   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends perl-bioperl: ``>=1.7.2``
-   :depends perl-module-build: ``0.4234.*``
-   :depends python: ``>=3.9,<3.10.0a0``
-   :depends python_abi: ``3.9.* *_cp39``
-   :depends pyyaml: 
-   :depends quicktree: 
-   :depends raxml-ng: 
-   :depends seaborn-base: 
-   :depends snakemake-minimal: 
-   :depends treeswift: ``>=1.1.28``
-   :requirements:
+   :depends on alive-progress: 
+   :depends on aster: ``>=1.19``
+   :depends on biopython: 
+   :depends on boost-cpp: 
+   :depends on ete3: 
+   :depends on fasttree: ``>=2.1.11``
+   :depends on lastz: ``>=1.04.52``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
+   :depends on libzlib: ``>=1.2.13,<2.0a0``
+   :depends on mash: ``>=2``
+   :depends on mashtree: ``1.4.6``
+   :depends on matplotlib-base: 
+   :depends on numpy: 
+   :depends on pasta: ``>=1.9.0``
+   :depends on perl: ``>=5.22``
+   :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends on perl-bioperl: ``>=1.7.2``
+   :depends on perl-module-build: ``0.4234.*``
+   :depends on python: ``>=3.9,<3.10.0a0``
+   :depends on python_abi: ``3.9.* *_cp39``
+   :depends on pyyaml: 
+   :depends on quicktree: 
+   :depends on raxml-ng: 
+   :depends on seaborn-base: 
+   :depends on snakemake-minimal: 
+   :depends on treeswift: ``>=1.1.28``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install roadies
+    pixi global install roadies
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update roadies
+    pixi add roadies
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname roadies
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/roadies:<tag>
+    conda install roadies
 
-   (see `roadies/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname roadies
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/roadies:<tag>
+
+(see `roadies/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_roadies| image:: https://img.shields.io/conda/dn/bioconda/roadies.svg?style=flat
    :target: https://anaconda.org/bioconda/roadies
    :alt:   (downloads)

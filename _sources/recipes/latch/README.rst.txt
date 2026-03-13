@@ -50,72 +50,95 @@ latch
       
 
    
-   :depends aioconsole: ``0.6.1``
-   :depends apscheduler: ``>=3.10.0``
-   :depends asyncssh: ``2.13.2``
-   :depends boto3: ``>=1.26.0``
-   :depends click: ``>=8.0``
-   :depends dill: ``>=0.4.0``
-   :depends docker-py: ``>=7.1.0``
-   :depends gitpython: ``3.1.40``
-   :depends gql: ``3.5.0``
-   :depends graphql-core: ``3.2.3``
-   :depends latch-persistence: ``>=0.1.5``
-   :depends lytekit: ``0.15.28``
-   :depends lytekitplugins-pods: ``0.7.4``
-   :depends orjson: ``>=3.10.12``
-   :depends paramiko: ``>=3.4.0``
-   :depends pyjwt: ``>=0.2.0``
-   :depends python: ``>=3.9``
-   :depends python-dateutil: ``>=2.8``
-   :depends python-kubernetes: ``>=24.2.0``
-   :depends pyxattr: ``>=0.8.1``
-   :depends requests: ``>=2.28.1``
-   :depends requests-toolbelt: ``>=1.0.0,<2``
-   :depends scp: ``>=0.14.0``
-   :depends setuptools: ``>=75.3.0``
-   :depends tqdm: ``>=4.63.0``
-   :depends typing-extensions: ``>=4.12.0``
-   :depends watchfiles: ``0.19.0``
-   :depends websockets: ``11.0.3``
-   :requirements:
+   :depends on aioconsole: ``0.6.1``
+   :depends on apscheduler: ``>=3.10.0``
+   :depends on asyncssh: ``2.13.2``
+   :depends on boto3: ``>=1.26.0``
+   :depends on click: ``>=8.0``
+   :depends on dill: ``>=0.4.0``
+   :depends on docker-py: ``>=7.1.0``
+   :depends on gitpython: ``3.1.40``
+   :depends on gql: ``3.5.0``
+   :depends on graphql-core: ``3.2.3``
+   :depends on latch-persistence: ``>=0.1.5``
+   :depends on lytekit: ``0.15.28``
+   :depends on lytekitplugins-pods: ``0.7.4``
+   :depends on orjson: ``>=3.10.12``
+   :depends on paramiko: ``>=3.4.0``
+   :depends on pyjwt: ``>=0.2.0``
+   :depends on python: ``>=3.9``
+   :depends on python-dateutil: ``>=2.8``
+   :depends on python-kubernetes: ``>=24.2.0``
+   :depends on pyxattr: ``>=0.8.1``
+   :depends on requests: ``>=2.28.1``
+   :depends on requests-toolbelt: ``>=1.0.0,<2``
+   :depends on scp: ``>=0.14.0``
+   :depends on setuptools: ``>=75.3.0``
+   :depends on tqdm: ``>=4.63.0``
+   :depends on typing-extensions: ``>=4.12.0``
+   :depends on watchfiles: ``0.19.0``
+   :depends on websockets: ``11.0.3``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install latch
+    pixi global install latch
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update latch
+    pixi add latch
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname latch
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/latch:<tag>
+    conda install latch
 
-   (see `latch/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname latch
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/latch:<tag>
+
+(see `latch/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_latch| image:: https://img.shields.io/conda/dn/bioconda/latch.svg?style=flat
    :target: https://anaconda.org/bioconda/latch
    :alt:   (downloads)

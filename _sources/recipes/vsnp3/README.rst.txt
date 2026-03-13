@@ -40,69 +40,92 @@ vsnp3
       
 
    
-   :depends bcftools: 
-   :depends biopython: ``>=1.79``
-   :depends bwa: 
-   :depends cairosvg: ``>=2.5.2``
-   :depends dask: ``>=2022.01.1``
-   :depends freebayes: ``>=1.3.5``
-   :depends humanize: ``>=3.14.0``
-   :depends minimap2: ``>=2.24``
-   :depends numpy: ``>=1.16,<=1.26``
-   :depends openpyxl: ``>=3.0.9``
-   :depends pandas: ``>=1.3,<=2.2``
-   :depends parallel: 
-   :depends pigz: 
-   :depends plotly: 
-   :depends py-cpuinfo: 
-   :depends python: ``>=3.8,<=3.12``
-   :depends raxml: ``>=8.2.12``
-   :depends regex: ``>=2.5.110``
-   :depends samtools: ``>=1.14``
-   :depends seqkit: ``>=2.1.0``
-   :depends sourmash: ``>=4.2.4``
-   :depends spades: ``>=3.15.2``
-   :depends svgwrite: ``>=1.4.1``
-   :depends vcflib: ``1.0.12.*``
-   :depends xlsxwriter: ``>=3.0.2``
-   :requirements:
+   :depends on bcftools: 
+   :depends on biopython: ``>=1.79``
+   :depends on bwa: 
+   :depends on cairosvg: ``>=2.5.2``
+   :depends on dask: ``>=2022.01.1``
+   :depends on freebayes: ``>=1.3.5``
+   :depends on humanize: ``>=3.14.0``
+   :depends on minimap2: ``>=2.24``
+   :depends on numpy: ``>=1.16,<=1.26``
+   :depends on openpyxl: ``>=3.0.9``
+   :depends on pandas: ``>=1.3,<=2.2``
+   :depends on parallel: 
+   :depends on pigz: 
+   :depends on plotly: 
+   :depends on py-cpuinfo: 
+   :depends on python: ``>=3.8,<=3.12``
+   :depends on raxml: ``>=8.2.12``
+   :depends on regex: ``>=2.5.110``
+   :depends on samtools: ``>=1.14``
+   :depends on seqkit: ``>=2.1.0``
+   :depends on sourmash: ``>=4.2.4``
+   :depends on spades: ``>=3.15.2``
+   :depends on svgwrite: ``>=1.4.1``
+   :depends on vcflib: ``1.0.12.*``
+   :depends on xlsxwriter: ``>=3.0.2``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install vsnp3
+    pixi global install vsnp3
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update vsnp3
+    pixi add vsnp3
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname vsnp3
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/vsnp3:<tag>
+    conda install vsnp3
 
-   (see `vsnp3/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname vsnp3
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/vsnp3:<tag>
+
+(see `vsnp3/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_vsnp3| image:: https://img.shields.io/conda/dn/bioconda/vsnp3.svg?style=flat
    :target: https://anaconda.org/bioconda/vsnp3
    :alt:   (downloads)

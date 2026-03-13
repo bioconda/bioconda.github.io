@@ -42,56 +42,79 @@ eva-sub-cli
       
 
    
-   :depends ebi-eva-common-pyutils: ``>=0.7.1``
-   :depends jinja2: 
-   :depends jsonschema: 
-   :depends nextflow: ``>=23.10.1``
-   :depends nodejs: ``>=20.1.0``
-   :depends openpyxl: 
-   :depends packaging: 
-   :depends pysam: 
-   :depends python: ``>=3.13,<3.14.0a0``
-   :depends pyyaml: 
-   :depends requests: 
-   :depends vcf-validator: ``>=0.10.0``
-   :requirements:
+   :depends on ebi-eva-common-pyutils: ``>=0.7.1``
+   :depends on jinja2: 
+   :depends on jsonschema: 
+   :depends on nextflow: ``>=23.10.1``
+   :depends on nodejs: ``>=20.1.0``
+   :depends on openpyxl: 
+   :depends on packaging: 
+   :depends on pysam: 
+   :depends on python: ``>=3.13,<3.14.0a0``
+   :depends on pyyaml: 
+   :depends on requests: 
+   :depends on vcf-validator: ``>=0.10.0``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install eva-sub-cli
+    pixi global install eva-sub-cli
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update eva-sub-cli
+    pixi add eva-sub-cli
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname eva-sub-cli
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/eva-sub-cli:<tag>
+    conda install eva-sub-cli
 
-   (see `eva-sub-cli/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname eva-sub-cli
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/eva-sub-cli:<tag>
+
+(see `eva-sub-cli/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_eva-sub-cli| image:: https://img.shields.io/conda/dn/bioconda/eva-sub-cli.svg?style=flat
    :target: https://anaconda.org/bioconda/eva-sub-cli
    :alt:   (downloads)

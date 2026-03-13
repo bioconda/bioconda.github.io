@@ -32,64 +32,87 @@ perl-moosex-types
       
 
    
-   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends perl-base: 
-   :depends perl-carp: 
-   :depends perl-carp-clan: 
-   :depends perl-class-load: 
-   :depends perl-devel-globaldestruction: 
-   :depends perl-devel-overloadinfo: 
-   :depends perl-devel-stacktrace: 
-   :depends perl-eval-closure: 
-   :depends perl-exporter: 
-   :depends perl-module-runtime: 
-   :depends perl-moose: 
-   :depends perl-mro-compat: 
-   :depends perl-namespace-autoclean: 
-   :depends perl-package-deprecationmanager: 
-   :depends perl-parent: 
-   :depends perl-sub-exporter: 
-   :depends perl-sub-exporter-formethods: 
-   :depends perl-sub-install: 
-   :depends perl-sub-name: 
-   :requirements:
+   :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends on perl-base: 
+   :depends on perl-carp: 
+   :depends on perl-carp-clan: 
+   :depends on perl-class-load: 
+   :depends on perl-devel-globaldestruction: 
+   :depends on perl-devel-overloadinfo: 
+   :depends on perl-devel-stacktrace: 
+   :depends on perl-eval-closure: 
+   :depends on perl-exporter: 
+   :depends on perl-module-runtime: 
+   :depends on perl-moose: 
+   :depends on perl-mro-compat: 
+   :depends on perl-namespace-autoclean: 
+   :depends on perl-package-deprecationmanager: 
+   :depends on perl-parent: 
+   :depends on perl-sub-exporter: 
+   :depends on perl-sub-exporter-formethods: 
+   :depends on perl-sub-install: 
+   :depends on perl-sub-name: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install perl-moosex-types
+    pixi global install perl-moosex-types
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update perl-moosex-types
+    pixi add perl-moosex-types
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname perl-moosex-types
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/perl-moosex-types:<tag>
+    conda install perl-moosex-types
 
-   (see `perl-moosex-types/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname perl-moosex-types
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/perl-moosex-types:<tag>
+
+(see `perl-moosex-types/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_perl-moosex-types| image:: https://img.shields.io/conda/dn/bioconda/perl-moosex-types.svg?style=flat
    :target: https://anaconda.org/bioconda/perl-moosex-types
    :alt:   (downloads)

@@ -32,78 +32,101 @@ r-graphstatsr
       
 
    
-   :depends bioconductor-rhdf5: 
-   :depends r-base: ``>=4.4,<4.5.0a0``
-   :depends r-base64enc: 
-   :depends r-bit64: 
-   :depends r-car: 
-   :depends r-config: ``>=0.3.1``
-   :depends r-datamods: 
-   :depends r-dplyr: 
-   :depends r-dt: 
-   :depends r-factoextra: 
-   :depends r-ggplot2: 
-   :depends r-ggrepel: 
-   :depends r-ggstatsplot: 
-   :depends r-glue: 
-   :depends r-golem: ``>=0.3.1``
-   :depends r-gridextra: 
-   :depends r-htmltools: 
-   :depends r-openxlsx: 
-   :depends r-plotly: 
-   :depends r-pmcmrplus: 
-   :depends r-rcolorbrewer: 
-   :depends r-reshape2: 
-   :depends r-rlang: 
-   :depends r-shiny: ``>=1.6.0``
-   :depends r-shinyalert: 
-   :depends r-shinybs: 
-   :depends r-shinydashboard: 
-   :depends r-shinywidgets: 
-   :depends r-sortable: 
-   :depends r-stringr: 
-   :depends r-tibble: 
-   :depends r-tidyr: 
-   :depends r-waiter: 
-   :depends r-yaml: 
-   :requirements:
+   :depends on bioconductor-rhdf5: 
+   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on r-base64enc: 
+   :depends on r-bit64: 
+   :depends on r-car: 
+   :depends on r-config: ``>=0.3.1``
+   :depends on r-datamods: 
+   :depends on r-dplyr: 
+   :depends on r-dt: 
+   :depends on r-factoextra: 
+   :depends on r-ggplot2: 
+   :depends on r-ggrepel: 
+   :depends on r-ggstatsplot: 
+   :depends on r-glue: 
+   :depends on r-golem: ``>=0.3.1``
+   :depends on r-gridextra: 
+   :depends on r-htmltools: 
+   :depends on r-openxlsx: 
+   :depends on r-plotly: 
+   :depends on r-pmcmrplus: 
+   :depends on r-rcolorbrewer: 
+   :depends on r-reshape2: 
+   :depends on r-rlang: 
+   :depends on r-shiny: ``>=1.6.0``
+   :depends on r-shinyalert: 
+   :depends on r-shinybs: 
+   :depends on r-shinydashboard: 
+   :depends on r-shinywidgets: 
+   :depends on r-sortable: 
+   :depends on r-stringr: 
+   :depends on r-tibble: 
+   :depends on r-tidyr: 
+   :depends on r-waiter: 
+   :depends on r-yaml: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install r-graphstatsr
+    pixi global install r-graphstatsr
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update r-graphstatsr
+    pixi add r-graphstatsr
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname r-graphstatsr
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/r-graphstatsr:<tag>
+    conda install r-graphstatsr
 
-   (see `r-graphstatsr/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname r-graphstatsr
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/r-graphstatsr:<tag>
+
+(see `r-graphstatsr/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_r-graphstatsr| image:: https://img.shields.io/conda/dn/bioconda/r-graphstatsr.svg?style=flat
    :target: https://anaconda.org/bioconda/r-graphstatsr
    :alt:   (downloads)

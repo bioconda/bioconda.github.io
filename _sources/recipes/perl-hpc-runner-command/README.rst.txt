@@ -40,89 +40,112 @@ perl-hpc-runner-command
       
 
    
-   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends perl-algorithm-dependency: 
-   :depends perl-app-cpanminus: 
-   :depends perl-archive-tar: 
-   :depends perl-archive-tar-wrapper: 
-   :depends perl-array-compare: 
-   :depends perl-biosails: 
-   :depends perl-data-uuid: 
-   :depends perl-datetime: 
-   :depends perl-dbm-deep: 
-   :depends perl-file-find-rule: 
-   :depends perl-file-homedir: 
-   :depends perl-file-path: 
-   :depends perl-file-slurp: 
-   :depends perl-git-wrapper: 
-   :depends perl-git-wrapper-plus: 
-   :depends perl-io-interactive: 
-   :depends perl-json: 
-   :depends perl-json-xs: 
-   :depends perl-list-moreutils: ``>=0.428``
-   :depends perl-list-uniq: 
-   :depends perl-log-log4perl: 
-   :depends perl-mce: 
-   :depends perl-moose: 
-   :depends perl-moosex-app: 
-   :depends perl-moosex-app-role-log4perl: 
-   :depends perl-moosex-getopt: 
-   :depends perl-moosex-nonmoose: 
-   :depends perl-moosex-types: 
-   :depends perl-moosex-types-path-tiny: 
-   :depends perl-namespace-autoclean: 
-   :depends perl-number-compare: 
-   :depends perl-params-validate: 
-   :depends perl-path-tiny: 
-   :depends perl-slurp: 
-   :depends perl-sort-versions: 
-   :depends perl-string-approx: 
-   :depends perl-template-toolkit: 
-   :depends perl-text-ansitable: 
-   :depends perl-text-asciitable: 
-   :depends perl-try-tiny: 
-   :depends perl-type-tiny: 
-   :depends perl-version-next: 
-   :depends perl-yaml: 
-   :depends perl-yaml-libyaml: 
-   :requirements:
+   :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends on perl-algorithm-dependency: 
+   :depends on perl-app-cpanminus: 
+   :depends on perl-archive-tar: 
+   :depends on perl-archive-tar-wrapper: 
+   :depends on perl-array-compare: 
+   :depends on perl-biosails: 
+   :depends on perl-data-uuid: 
+   :depends on perl-datetime: 
+   :depends on perl-dbm-deep: 
+   :depends on perl-file-find-rule: 
+   :depends on perl-file-homedir: 
+   :depends on perl-file-path: 
+   :depends on perl-file-slurp: 
+   :depends on perl-git-wrapper: 
+   :depends on perl-git-wrapper-plus: 
+   :depends on perl-io-interactive: 
+   :depends on perl-json: 
+   :depends on perl-json-xs: 
+   :depends on perl-list-moreutils: ``>=0.428``
+   :depends on perl-list-uniq: 
+   :depends on perl-log-log4perl: 
+   :depends on perl-mce: 
+   :depends on perl-moose: 
+   :depends on perl-moosex-app: 
+   :depends on perl-moosex-app-role-log4perl: 
+   :depends on perl-moosex-getopt: 
+   :depends on perl-moosex-nonmoose: 
+   :depends on perl-moosex-types: 
+   :depends on perl-moosex-types-path-tiny: 
+   :depends on perl-namespace-autoclean: 
+   :depends on perl-number-compare: 
+   :depends on perl-params-validate: 
+   :depends on perl-path-tiny: 
+   :depends on perl-slurp: 
+   :depends on perl-sort-versions: 
+   :depends on perl-string-approx: 
+   :depends on perl-template-toolkit: 
+   :depends on perl-text-ansitable: 
+   :depends on perl-text-asciitable: 
+   :depends on perl-try-tiny: 
+   :depends on perl-type-tiny: 
+   :depends on perl-version-next: 
+   :depends on perl-yaml: 
+   :depends on perl-yaml-libyaml: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install perl-hpc-runner-command
+    pixi global install perl-hpc-runner-command
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update perl-hpc-runner-command
+    pixi add perl-hpc-runner-command
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname perl-hpc-runner-command
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/perl-hpc-runner-command:<tag>
+    conda install perl-hpc-runner-command
 
-   (see `perl-hpc-runner-command/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname perl-hpc-runner-command
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/perl-hpc-runner-command:<tag>
+
+(see `perl-hpc-runner-command/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_perl-hpc-runner-command| image:: https://img.shields.io/conda/dn/bioconda/perl-hpc-runner-command.svg?style=flat
    :target: https://anaconda.org/bioconda/perl-hpc-runner-command
    :alt:   (downloads)

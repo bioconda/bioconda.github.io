@@ -32,79 +32,102 @@ bioconductor-microbiomemarker
       
 
    
-   :depends bioconductor-aldex2: ``>=1.34.0,<1.35.0``
-   :depends bioconductor-ancombc: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-biobase: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-biomformat: ``>=1.30.0,<1.31.0``
-   :depends bioconductor-biostrings: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
-   :depends bioconductor-deseq2: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-edger: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-ggtree: ``>=3.10.0,<3.11.0``
-   :depends bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends bioconductor-metagenomeseq: ``>=1.43.0,<1.44.0``
-   :depends bioconductor-multtest: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-phyloseq: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-caret: 
-   :depends r-coin: 
-   :depends r-dplyr: 
-   :depends r-ggplot2: 
-   :depends r-ggsignif: 
-   :depends r-magrittr: 
-   :depends r-mass: 
-   :depends r-patchwork: 
-   :depends r-plotroc: 
-   :depends r-proc: 
-   :depends r-purrr: 
-   :depends r-rlang: 
-   :depends r-tibble: 
-   :depends r-tidyr: 
-   :depends r-tidytree: 
-   :depends r-vegan: 
-   :depends r-yaml: 
-   :requirements:
+   :depends on bioconductor-aldex2: ``>=1.34.0,<1.35.0``
+   :depends on bioconductor-ancombc: ``>=2.4.0,<2.5.0``
+   :depends on bioconductor-biobase: ``>=2.62.0,<2.63.0``
+   :depends on bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
+   :depends on bioconductor-biocparallel: ``>=1.36.0,<1.37.0``
+   :depends on bioconductor-biomformat: ``>=1.30.0,<1.31.0``
+   :depends on bioconductor-biostrings: ``>=2.70.0,<2.71.0``
+   :depends on bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
+   :depends on bioconductor-deseq2: ``>=1.42.0,<1.43.0``
+   :depends on bioconductor-edger: ``>=4.0.0,<4.1.0``
+   :depends on bioconductor-ggtree: ``>=3.10.0,<3.11.0``
+   :depends on bioconductor-iranges: ``>=2.36.0,<2.37.0``
+   :depends on bioconductor-limma: ``>=3.58.0,<3.59.0``
+   :depends on bioconductor-metagenomeseq: ``>=1.43.0,<1.44.0``
+   :depends on bioconductor-multtest: ``>=2.58.0,<2.59.0``
+   :depends on bioconductor-phyloseq: ``>=1.46.0,<1.47.0``
+   :depends on bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
+   :depends on r-base: ``>=4.3,<4.4.0a0``
+   :depends on r-caret: 
+   :depends on r-coin: 
+   :depends on r-dplyr: 
+   :depends on r-ggplot2: 
+   :depends on r-ggsignif: 
+   :depends on r-magrittr: 
+   :depends on r-mass: 
+   :depends on r-patchwork: 
+   :depends on r-plotroc: 
+   :depends on r-proc: 
+   :depends on r-purrr: 
+   :depends on r-rlang: 
+   :depends on r-tibble: 
+   :depends on r-tidyr: 
+   :depends on r-tidytree: 
+   :depends on r-vegan: 
+   :depends on r-yaml: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install bioconductor-microbiomemarker
+    pixi global install bioconductor-microbiomemarker
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update bioconductor-microbiomemarker
+    pixi add bioconductor-microbiomemarker
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname bioconductor-microbiomemarker
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/bioconductor-microbiomemarker:<tag>
+    conda install bioconductor-microbiomemarker
 
-   (see `bioconductor-microbiomemarker/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname bioconductor-microbiomemarker
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/bioconductor-microbiomemarker:<tag>
+
+(see `bioconductor-microbiomemarker/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_bioconductor-microbiomemarker| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-microbiomemarker.svg?style=flat
    :target: https://anaconda.org/bioconda/bioconductor-microbiomemarker
    :alt:   (downloads)

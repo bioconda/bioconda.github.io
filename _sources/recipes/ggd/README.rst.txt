@@ -40,67 +40,90 @@ ggd
       
 
    
-   :depends check-sort-order: ``>=0.0.7``
-   :depends conda: ``>=4.8.2,<=4.9.0``
-   :depends conda-build: ``>=3.18.12,<=3.19.3``
-   :depends cyvcf2: 
-   :depends future: 
-   :depends fuzzywuzzy: 
-   :depends git: 
-   :depends gitpython: 
-   :depends gsort: ``>=0.1.4``
-   :depends htslib: 
-   :depends krb5: 
-   :depends oyaml: 
-   :depends pysam: 
-   :depends pytest: 
-   :depends pytest-socket: 
-   :depends python: 
-   :depends python-levenshtein: 
-   :depends pyyaml: 
-   :depends requests: ``>=2.22.*``
-   :depends ripgrep: 
-   :depends samtools: ``>=1.10``
-   :depends wget: 
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
-   :requirements:
+   :depends on check-sort-order: ``>=0.0.7``
+   :depends on conda: ``>=4.8.2,<=4.9.0``
+   :depends on conda-build: ``>=3.18.12,<=3.19.3``
+   :depends on cyvcf2: 
+   :depends on future: 
+   :depends on fuzzywuzzy: 
+   :depends on git: 
+   :depends on gitpython: 
+   :depends on gsort: ``>=0.1.4``
+   :depends on htslib: 
+   :depends on krb5: 
+   :depends on oyaml: 
+   :depends on pysam: 
+   :depends on pytest: 
+   :depends on pytest-socket: 
+   :depends on python: 
+   :depends on python-levenshtein: 
+   :depends on pyyaml: 
+   :depends on requests: ``>=2.22.*``
+   :depends on ripgrep: 
+   :depends on samtools: ``>=1.10``
+   :depends on wget: 
+   :depends on zlib: ``>=1.2.11,<1.3.0a0``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install ggd
+    pixi global install ggd
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update ggd
+    pixi add ggd
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname ggd
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/ggd:<tag>
+    conda install ggd
 
-   (see `ggd/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname ggd
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/ggd:<tag>
+
+(see `ggd/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_ggd| image:: https://img.shields.io/conda/dn/bioconda/ggd.svg?style=flat
    :target: https://anaconda.org/bioconda/ggd
    :alt:   (downloads)

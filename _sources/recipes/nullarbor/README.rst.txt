@@ -32,81 +32,104 @@ nullarbor
       
 
    
-   :depends abricate: ``>=1.0.1``
-   :depends any2fasta: ``>=0.4.2``
-   :depends centrifuge: ``>=1.0``
-   :depends fasttree: ``>=2.1.10``
-   :depends iqtree: ``>=2.2.0``
-   :depends kraken: ``>=1.1``
-   :depends kraken2: ``>=2.1.2``
-   :depends make: ``>=4.2``
-   :depends mash: ``>=2.3``
-   :depends megahit: ``>=1.1.3``
-   :depends mlst: ``>=2.22.0``
-   :depends newick_utils: ``>=1.6``
-   :depends perl: ``5.26.2.*``
-   :depends perl-bioperl: ``1.7.2.*``
-   :depends perl-file-spec: 
-   :depends perl-file-which: 
-   :depends perl-findbin: 
-   :depends perl-json: 
-   :depends perl-list-moreutils: ``>=0.428``
-   :depends perl-path-tiny: 
-   :depends perl-svg: 
-   :depends perl-text-csv: 
-   :depends perl-time-piece: 
-   :depends perl-yaml-tiny: 
-   :depends pigz: 
-   :depends prokka: ``>=1.14.6``
-   :depends quicktree: ``>=2.5``
-   :depends roary: ``>=3.13``
-   :depends samtools: ``>=1.9``
-   :depends seqtk: ``>=1.3``
-   :depends shovill: ``>=1.1.0``
-   :depends skesa: ``>=2.4``
-   :depends snippy: ``>=4.4.3``
-   :depends snp-dists: ``>=0.8.2``
-   :depends snpeff: ``5.0.*``
-   :depends spades: ``>=3.15``
-   :depends trimmomatic: ``>=0.39``
-   :requirements:
+   :depends on abricate: ``>=1.0.1``
+   :depends on any2fasta: ``>=0.4.2``
+   :depends on centrifuge: ``>=1.0``
+   :depends on fasttree: ``>=2.1.10``
+   :depends on iqtree: ``>=2.2.0``
+   :depends on kraken: ``>=1.1``
+   :depends on kraken2: ``>=2.1.2``
+   :depends on make: ``>=4.2``
+   :depends on mash: ``>=2.3``
+   :depends on megahit: ``>=1.1.3``
+   :depends on mlst: ``>=2.22.0``
+   :depends on newick_utils: ``>=1.6``
+   :depends on perl: ``5.26.2.*``
+   :depends on perl-bioperl: ``1.7.2.*``
+   :depends on perl-file-spec: 
+   :depends on perl-file-which: 
+   :depends on perl-findbin: 
+   :depends on perl-json: 
+   :depends on perl-list-moreutils: ``>=0.428``
+   :depends on perl-path-tiny: 
+   :depends on perl-svg: 
+   :depends on perl-text-csv: 
+   :depends on perl-time-piece: 
+   :depends on perl-yaml-tiny: 
+   :depends on pigz: 
+   :depends on prokka: ``>=1.14.6``
+   :depends on quicktree: ``>=2.5``
+   :depends on roary: ``>=3.13``
+   :depends on samtools: ``>=1.9``
+   :depends on seqtk: ``>=1.3``
+   :depends on shovill: ``>=1.1.0``
+   :depends on skesa: ``>=2.4``
+   :depends on snippy: ``>=4.4.3``
+   :depends on snp-dists: ``>=0.8.2``
+   :depends on snpeff: ``5.0.*``
+   :depends on spades: ``>=3.15``
+   :depends on trimmomatic: ``>=0.39``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install nullarbor
+    pixi global install nullarbor
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update nullarbor
+    pixi add nullarbor
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname nullarbor
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/nullarbor:<tag>
+    conda install nullarbor
 
-   (see `nullarbor/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname nullarbor
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/nullarbor:<tag>
+
+(see `nullarbor/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_nullarbor| image:: https://img.shields.io/conda/dn/bioconda/nullarbor.svg?style=flat
    :target: https://anaconda.org/bioconda/nullarbor
    :alt:   (downloads)

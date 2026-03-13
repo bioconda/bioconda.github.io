@@ -43,63 +43,86 @@ minute
       
 
    
-   :depends bedtools: ``>=2.30.0``
-   :depends bowtie2: ``>=2.5.4``
-   :depends click: ``8.2.1.*``
-   :depends cutadapt: ``>=5.1``
-   :depends deeptools: ``>=3.5.0``
-   :depends fastqc: ``>=0.11.9``
-   :depends je-suite: ``>=2.0.RC``
-   :depends multiqc: ``>1.20``
-   :depends picard: ``>=3.4.0``
-   :depends python: ``>=3.7``
-   :depends r-base: ``>=4.0.0``
-   :depends r-dplyr: ``>=1.0.0``
-   :depends r-ggplot2: ``>=3.3.0``
-   :depends ruamel.yaml: 
-   :depends samtools: ``>=1.13``
-   :depends snakemake-minimal: ``>=7.22.0``
-   :depends sra-tools: ``>=2.11.0``
-   :depends strobealign: ``>=0.13.0``
-   :depends xopen: ``>=1.2.0``
-   :requirements:
+   :depends on bedtools: ``>=2.30.0``
+   :depends on bowtie2: ``>=2.5.4``
+   :depends on click: ``8.2.1.*``
+   :depends on cutadapt: ``>=5.1``
+   :depends on deeptools: ``>=3.5.0``
+   :depends on fastqc: ``>=0.11.9``
+   :depends on je-suite: ``>=2.0.RC``
+   :depends on multiqc: ``>1.20``
+   :depends on picard: ``>=3.4.0``
+   :depends on python: ``>=3.7``
+   :depends on r-base: ``>=4.0.0``
+   :depends on r-dplyr: ``>=1.0.0``
+   :depends on r-ggplot2: ``>=3.3.0``
+   :depends on ruamel.yaml: 
+   :depends on samtools: ``>=1.13``
+   :depends on snakemake-minimal: ``>=7.22.0``
+   :depends on sra-tools: ``>=2.11.0``
+   :depends on strobealign: ``>=0.13.0``
+   :depends on xopen: ``>=1.2.0``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install minute
+    pixi global install minute
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update minute
+    pixi add minute
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname minute
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/minute:<tag>
+    conda install minute
 
-   (see `minute/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname minute
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/minute:<tag>
+
+(see `minute/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_minute| image:: https://img.shields.io/conda/dn/bioconda/minute.svg?style=flat
    :target: https://anaconda.org/bioconda/minute
    :alt:   (downloads)

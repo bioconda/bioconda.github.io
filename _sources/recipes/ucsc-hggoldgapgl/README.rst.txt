@@ -32,51 +32,74 @@ ucsc-hggoldgapgl
       
 
    
-   :depends libgcc-ng: ``>=9.4.0``
-   :depends libpng: ``>=1.6.37,<1.7.0a0``
-   :depends libuuid: ``>=2.32.1,<3.0a0``
-   :depends libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
-   :depends openssl: ``>=1.1.1l,<1.1.2a``
-   :depends zlib: ``>=1.2.11,<1.3.0a0``
-   :requirements:
+   :depends on libgcc-ng: ``>=9.4.0``
+   :depends on libpng: ``>=1.6.37,<1.7.0a0``
+   :depends on libuuid: ``>=2.32.1,<3.0a0``
+   :depends on libzlib: ``>=1.2.11,<1.3.0a0``
+   :depends on mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
+   :depends on openssl: ``>=1.1.1l,<1.1.2a``
+   :depends on zlib: ``>=1.2.11,<1.3.0a0``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install ucsc-hggoldgapgl
+    pixi global install ucsc-hggoldgapgl
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update ucsc-hggoldgapgl
+    pixi add ucsc-hggoldgapgl
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname ucsc-hggoldgapgl
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/ucsc-hggoldgapgl:<tag>
+    conda install ucsc-hggoldgapgl
 
-   (see `ucsc-hggoldgapgl/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname ucsc-hggoldgapgl
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/ucsc-hggoldgapgl:<tag>
+
+(see `ucsc-hggoldgapgl/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_ucsc-hggoldgapgl| image:: https://img.shields.io/conda/dn/bioconda/ucsc-hggoldgapgl.svg?style=flat
    :target: https://anaconda.org/bioconda/ucsc-hggoldgapgl
    :alt:   (downloads)

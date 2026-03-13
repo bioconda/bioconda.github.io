@@ -38,41 +38,40 @@ openstructure
       
 
    
-   :depends fftw: ``>=3.3.10,<4.0a0``
-   :depends glew: ``>=2.1.0,<2.2.0a0``
-   :depends glfw: ``>=3.4,<4.0a0``
-   :depends libboost: ``>=1.86.0,<1.87.0a0``
-   :depends libboost-python: ``>=1.86.0,<1.87.0a0``
-   :depends libegl: ``>=1.7.0,<2.0a0``
-   :depends libgcc: ``>=13``
-   :depends libgfortran: 
-   :depends libgfortran5: ``>=13.4.0``
-   :depends libgl: ``>=1.7.0,<2.0a0``
-   :depends libgles: ``>=1.7.0,<2.0a0``
-   :depends libglvnd: ``>=1.7.0,<2.0a0``
-   :depends libglx: ``>=1.7.0,<2.0a0``
-   :depends libopengl: ``>=1.7.0,<2.0a0``
-   :depends libpng: ``>=1.6.50,<1.7.0a0``
-   :depends libsqlite: ``>=3.50.4,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends libtiff: ``>=4.7.0,<4.8.0a0``
-   :depends libxcb: ``>=1.17.0,<2.0a0``
-   :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends mesalib: ``>=25.0.5,<25.1.0a0``
-   :depends networkx: ``>=3.4.2,<4.0a0``
-   :depends numpy: ``>=1.26.4,<2.0a0``
-   :depends ocl-icd: ``>=2.3.3,<3.0a0``
-   :depends ocl-icd-system: 
-   :depends openmm: ``>=8.3.1,<9.0a0``
-   :depends pandas: ``>=2.3.1,<3.0a0``
-   :depends parasail: ``>=2.6.2,<3.0a0``
-   :depends pyqt: ``>=5.15.11,<5.16.0a0``
-   :depends python: ``>=3.10,<3.11.0a0 *_cpython``
-   :depends python_abi: ``3.10.* *_cp310``
-   :depends qt: ``>=5.15.15,<5.16.0a0``
-   :depends scipy: ``>=1.13.1,<2.0a0``
-   :depends voronota: ``>=1.29.4415,<2.0a0``
-   :requirements:
+   :depends on fftw: ``>=3.3.10,<4.0a0``
+   :depends on glew: ``>=2.1.0,<2.2.0a0``
+   :depends on glfw: ``>=3.4,<4.0a0``
+   :depends on libboost: ``>=1.86.0,<1.87.0a0``
+   :depends on libboost-python: ``>=1.86.0,<1.87.0a0``
+   :depends on libegl: ``>=1.7.0,<2.0a0``
+   :depends on libgcc: ``>=13``
+   :depends on libgfortran: 
+   :depends on libgfortran5: ``>=13.4.0``
+   :depends on libgl: ``>=1.7.0,<2.0a0``
+   :depends on libgles: ``>=1.7.0,<2.0a0``
+   :depends on libglvnd: ``>=1.7.0,<2.0a0``
+   :depends on libglx: ``>=1.7.0,<2.0a0``
+   :depends on libopengl: ``>=1.7.0,<2.0a0``
+   :depends on libpng: ``>=1.6.50,<1.7.0a0``
+   :depends on libsqlite: ``>=3.50.4,<4.0a0``
+   :depends on libstdcxx: ``>=13``
+   :depends on libtiff: ``>=4.7.0,<4.8.0a0``
+   :depends on libxcb: ``>=1.17.0,<2.0a0``
+   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on mesalib: ``>=25.0.5,<25.1.0a0``
+   :depends on networkx: ``>=3.4.2,<4.0a0``
+   :depends on numpy: ``>=1.26.4,<2.0a0``
+   :depends on ocl-icd: ``>=2.3.3,<3.0a0``
+   :depends on ocl-icd-system: 
+   :depends on openmm: ``>=8.3.1,<9.0a0``
+   :depends on pandas: ``>=2.3.1,<3.0a0``
+   :depends on parasail: ``>=2.6.2,<3.0a0``
+   :depends on pyqt: ``>=5.15.11,<5.16.0a0``
+   :depends on python: ``>=3.10,<3.11.0a0 *_cpython``
+   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on qt: ``>=5.15.15,<5.16.0a0``
+   :depends on scipy: ``>=1.13.1,<2.0a0``
+   :depends on voronota: ``>=1.29.4415,<2.0a0``
 
    :additional platforms:
       
@@ -81,39 +80,63 @@ openstructure
          <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install openstructure
+    pixi global install openstructure
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update openstructure
+    pixi add openstructure
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname openstructure
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/openstructure:<tag>
+    conda install openstructure
 
-   (see `openstructure/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname openstructure
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/openstructure:<tag>
+
+(see `openstructure/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_openstructure| image:: https://img.shields.io/conda/dn/bioconda/openstructure.svg?style=flat
    :target: https://anaconda.org/bioconda/openstructure
    :alt:   (downloads)

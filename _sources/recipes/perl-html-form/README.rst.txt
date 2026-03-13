@@ -32,60 +32,83 @@ perl-html-form
       
 
    
-   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends perl-cpan-meta: 
-   :depends perl-data-dumper: 
-   :depends perl-extutils-cbuilder: 
-   :depends perl-extutils-manifest: 
-   :depends perl-extutils-parsexs: 
-   :depends perl-file-path: 
-   :depends perl-getopt-long: 
-   :depends perl-html-parser: 
-   :depends perl-http-message: ``>=6.18``
-   :depends perl-module-metadata: 
-   :depends perl-perl-ostype: 
-   :depends perl-text-abbrev: 
-   :depends perl-text-parsewords: 
-   :depends perl-uri: 
-   :depends perl-version: 
-   :requirements:
+   :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends on perl-cpan-meta: 
+   :depends on perl-data-dumper: 
+   :depends on perl-extutils-cbuilder: 
+   :depends on perl-extutils-manifest: 
+   :depends on perl-extutils-parsexs: 
+   :depends on perl-file-path: 
+   :depends on perl-getopt-long: 
+   :depends on perl-html-parser: 
+   :depends on perl-http-message: ``>=6.18``
+   :depends on perl-module-metadata: 
+   :depends on perl-perl-ostype: 
+   :depends on perl-text-abbrev: 
+   :depends on perl-text-parsewords: 
+   :depends on perl-uri: 
+   :depends on perl-version: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install perl-html-form
+    pixi global install perl-html-form
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update perl-html-form
+    pixi add perl-html-form
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname perl-html-form
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/perl-html-form:<tag>
+    conda install perl-html-form
 
-   (see `perl-html-form/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname perl-html-form
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/perl-html-form:<tag>
+
+(see `perl-html-form/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_perl-html-form| image:: https://img.shields.io/conda/dn/bioconda/perl-html-form.svg?style=flat
    :target: https://anaconda.org/bioconda/perl-html-form
    :alt:   (downloads)

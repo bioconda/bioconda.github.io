@@ -33,58 +33,81 @@ omamer
       
 
    
-   :depends alive-progress: 
-   :depends biopython: 
-   :depends ete3: 
-   :depends libsqlite: ``<=3.40.0``
-   :depends numba: 
-   :depends numpy: ``<2``
-   :depends pandas: ``>2.0.0``
-   :depends property-manager: 
-   :depends pysais: 
-   :depends pytables: 
-   :depends python: ``>=3.8``
-   :depends rmath4: 
-   :depends scipy: 
-   :depends tqdm: 
-   :requirements:
+   :depends on alive-progress: 
+   :depends on biopython: 
+   :depends on ete3: 
+   :depends on libsqlite: ``<=3.40.0``
+   :depends on numba: 
+   :depends on numpy: ``<2``
+   :depends on pandas: ``>2.0.0``
+   :depends on property-manager: 
+   :depends on pysais: 
+   :depends on pytables: 
+   :depends on python: ``>=3.8``
+   :depends on rmath4: 
+   :depends on scipy: 
+   :depends on tqdm: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install omamer
+    pixi global install omamer
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update omamer
+    pixi add omamer
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname omamer
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/omamer:<tag>
+    conda install omamer
 
-   (see `omamer/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname omamer
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/omamer:<tag>
+
+(see `omamer/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_omamer| image:: https://img.shields.io/conda/dn/bioconda/omamer.svg?style=flat
    :target: https://anaconda.org/bioconda/omamer
    :alt:   (downloads)

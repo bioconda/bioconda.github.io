@@ -32,69 +32,92 @@ mirnature
       
 
    
-   :depends biopython: ``>=1.78``
-   :depends blast: ``>=2.13.0``
-   :depends clustalo: ``>=1.2.4``
-   :depends hmmer: ``>=3.3.2``
-   :depends infernal: ``>=1.1.4``
-   :depends mirfix: ``>=2.1.1``
-   :depends parallel: ``>=20220922``
-   :depends perl: ``>=5.32.1``
-   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends perl-bioperl: ``>=1.6.924``
-   :depends perl-file-copy-recursive: ``>=0.45``
-   :depends perl-io-string: ``>=1.08``
-   :depends perl-io-stringy: ``>=2.113``
-   :depends perl-module-build: ``>=0.4224``
-   :depends perl-module-implementation: ``>=0.09``
-   :depends perl-moose: ``>=2.2201``
-   :depends perl-moosex-types-path-class: ``>=0.09``
-   :depends perl-statistics-r: ``>=0.34``
-   :depends perl-yaml-tiny: ``>=1.73``
-   :depends pyfaidx: ``>=0.7.1``
-   :depends python: ``>3``
-   :depends r-base: ``>=4.1.0``
-   :depends r-dplyr: ``>=1.0.10``
-   :depends rmblast: ``>=2.9.0``
-   :depends viennarna: ``>=2.4.15``
-   :requirements:
+   :depends on biopython: ``>=1.78``
+   :depends on blast: ``>=2.13.0``
+   :depends on clustalo: ``>=1.2.4``
+   :depends on hmmer: ``>=3.3.2``
+   :depends on infernal: ``>=1.1.4``
+   :depends on mirfix: ``>=2.1.1``
+   :depends on parallel: ``>=20220922``
+   :depends on perl: ``>=5.32.1``
+   :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends on perl-bioperl: ``>=1.6.924``
+   :depends on perl-file-copy-recursive: ``>=0.45``
+   :depends on perl-io-string: ``>=1.08``
+   :depends on perl-io-stringy: ``>=2.113``
+   :depends on perl-module-build: ``>=0.4224``
+   :depends on perl-module-implementation: ``>=0.09``
+   :depends on perl-moose: ``>=2.2201``
+   :depends on perl-moosex-types-path-class: ``>=0.09``
+   :depends on perl-statistics-r: ``>=0.34``
+   :depends on perl-yaml-tiny: ``>=1.73``
+   :depends on pyfaidx: ``>=0.7.1``
+   :depends on python: ``>3``
+   :depends on r-base: ``>=4.1.0``
+   :depends on r-dplyr: ``>=1.0.10``
+   :depends on rmblast: ``>=2.9.0``
+   :depends on viennarna: ``>=2.4.15``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install mirnature
+    pixi global install mirnature
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update mirnature
+    pixi add mirnature
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname mirnature
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/mirnature:<tag>
+    conda install mirnature
 
-   (see `mirnature/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname mirnature
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/mirnature:<tag>
+
+(see `mirnature/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_mirnature| image:: https://img.shields.io/conda/dn/bioconda/mirnature.svg?style=flat
    :target: https://anaconda.org/bioconda/mirnature
    :alt:   (downloads)

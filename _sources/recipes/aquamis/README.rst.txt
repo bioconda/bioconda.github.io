@@ -32,85 +32,108 @@ aquamis
       
 
    
-   :depends bbmap: ``>=39``
-   :depends biopython: ``>=1.79``
-   :depends blast: ``>=2.14``
-   :depends bracken: ``>=2.8``
-   :depends bwa: ``>=0.7.17``
-   :depends cerberus: ``>=1.3.4``
-   :depends circos: ``>=0.69.9``
-   :depends confindr: ``0.7.4.*``
-   :depends entrez-direct: ``>=16.2``
-   :depends fastp: ``>=0.23.2``
-   :depends genson: ``>=1.2.2``
-   :depends jsonschema: ``>=4.17``
-   :depends kma: ``>=1.2``
-   :depends kmc: ``>=3.2.1``
-   :depends kraken2: ``>=2.1.3``
-   :depends mash: ``>=2.3``
-   :depends minimap2: ``>=2.26``
-   :depends mlst: ``>=2.23``
-   :depends numpy: ``>=1.21``
-   :depends pandas: ``>=1.3.5``
-   :depends pandoc: ``>=2.19``
-   :depends perl-bio-tools-run-alignment-tcoffee: ``1.7.4 pl5321hdfd78af_4``
-   :depends pilon: ``>=1.24``
-   :depends python: ``3.7.*``
-   :depends pyyaml: ``>=6``
-   :depends quast: ``>=5.2.0``
-   :depends r-base: ``4.0.*``
-   :depends r-dt: ``>=0.25``
-   :depends r-knitr: ``>=1.40``
-   :depends r-rmarkdown: ``>=2.16``
-   :depends r-rrapply: ``>=1.2.5``
-   :depends r-tidyverse: ``>=1.3.2``
-   :depends r-urltools: ``>=1.7.3``
-   :depends samtools: ``>=1.12``
-   :depends seqtk: ``>=1.4``
-   :depends shovill: ``>=1.1.0``
-   :depends snakemake-minimal: ``7.*``
-   :depends spades: ``>=3.15``
-   :depends taxonkit: ``>=0.15``
-   :depends trimmomatic: ``>=0.39``
-   :depends tzdata: 
-   :requirements:
+   :depends on bbmap: ``>=39``
+   :depends on biopython: ``>=1.79``
+   :depends on blast: ``>=2.14``
+   :depends on bracken: ``>=2.8``
+   :depends on bwa: ``>=0.7.17``
+   :depends on cerberus: ``>=1.3.4``
+   :depends on circos: ``>=0.69.9``
+   :depends on confindr: ``0.7.4.*``
+   :depends on entrez-direct: ``>=16.2``
+   :depends on fastp: ``>=0.23.2``
+   :depends on genson: ``>=1.2.2``
+   :depends on jsonschema: ``>=4.17``
+   :depends on kma: ``>=1.2``
+   :depends on kmc: ``>=3.2.1``
+   :depends on kraken2: ``>=2.1.3``
+   :depends on mash: ``>=2.3``
+   :depends on minimap2: ``>=2.26``
+   :depends on mlst: ``>=2.23``
+   :depends on numpy: ``>=1.21``
+   :depends on pandas: ``>=1.3.5``
+   :depends on pandoc: ``>=2.19``
+   :depends on perl-bio-tools-run-alignment-tcoffee: ``1.7.4 pl5321hdfd78af_4``
+   :depends on pilon: ``>=1.24``
+   :depends on python: ``3.7.*``
+   :depends on pyyaml: ``>=6``
+   :depends on quast: ``>=5.2.0``
+   :depends on r-base: ``4.0.*``
+   :depends on r-dt: ``>=0.25``
+   :depends on r-knitr: ``>=1.40``
+   :depends on r-rmarkdown: ``>=2.16``
+   :depends on r-rrapply: ``>=1.2.5``
+   :depends on r-tidyverse: ``>=1.3.2``
+   :depends on r-urltools: ``>=1.7.3``
+   :depends on samtools: ``>=1.12``
+   :depends on seqtk: ``>=1.4``
+   :depends on shovill: ``>=1.1.0``
+   :depends on snakemake-minimal: ``7.*``
+   :depends on spades: ``>=3.15``
+   :depends on taxonkit: ``>=0.15``
+   :depends on trimmomatic: ``>=0.39``
+   :depends on tzdata: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install aquamis
+    pixi global install aquamis
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update aquamis
+    pixi add aquamis
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname aquamis
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/aquamis:<tag>
+    conda install aquamis
 
-   (see `aquamis/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname aquamis
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/aquamis:<tag>
+
+(see `aquamis/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_aquamis| image:: https://img.shields.io/conda/dn/bioconda/aquamis.svg?style=flat
    :target: https://anaconda.org/bioconda/aquamis
    :alt:   (downloads)

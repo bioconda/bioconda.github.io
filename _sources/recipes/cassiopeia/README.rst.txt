@@ -32,67 +32,90 @@ cassiopeia
       
 
    
-   :depends biopython: ``>=1.71``
-   :depends bokeh: ``>=0.12.15``
-   :depends ccphylo: 
-   :depends ete3: ``>=3.1.1``
-   :depends hits: 
-   :depends itolapi: 
-   :depends libgcc: ``>=13``
-   :depends matplotlib-base: ``>=2.2.2``
-   :depends nbconvert: ``>=5.4.0``
-   :depends nbformat: ``>=4.4.0``
-   :depends networkx: ``>=2.5``
-   :depends ngs-tools: ``>=1.5.3``
-   :depends numba: ``>=0.51.0``
-   :depends numpy: ``>=1.22.4,<2.0a0``
-   :depends pandas: ``>=1.1.4``
-   :depends pysam: ``>=0.14.1``
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python-levenshtein: 
-   :depends python_abi: ``3.10.* *_cp310``
-   :depends pyyaml: ``>=3.12``
-   :depends scipy: ``>=1.2.0``
-   :depends tqdm: ``>=4``
-   :depends typing-extensions: ``>=3.7.4``
-   :requirements:
+   :depends on biopython: ``>=1.71``
+   :depends on bokeh: ``>=0.12.15``
+   :depends on ccphylo: 
+   :depends on ete3: ``>=3.1.1``
+   :depends on hits: 
+   :depends on itolapi: 
+   :depends on libgcc: ``>=13``
+   :depends on matplotlib-base: ``>=2.2.2``
+   :depends on nbconvert: ``>=5.4.0``
+   :depends on nbformat: ``>=4.4.0``
+   :depends on networkx: ``>=2.5``
+   :depends on ngs-tools: ``>=1.5.3``
+   :depends on numba: ``>=0.51.0``
+   :depends on numpy: ``>=1.22.4,<2.0a0``
+   :depends on pandas: ``>=1.1.4``
+   :depends on pysam: ``>=0.14.1``
+   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on python-levenshtein: 
+   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on pyyaml: ``>=3.12``
+   :depends on scipy: ``>=1.2.0``
+   :depends on tqdm: ``>=4``
+   :depends on typing-extensions: ``>=3.7.4``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install cassiopeia
+    pixi global install cassiopeia
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update cassiopeia
+    pixi add cassiopeia
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname cassiopeia
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/cassiopeia:<tag>
+    conda install cassiopeia
 
-   (see `cassiopeia/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname cassiopeia
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/cassiopeia:<tag>
+
+(see `cassiopeia/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_cassiopeia| image:: https://img.shields.io/conda/dn/bioconda/cassiopeia.svg?style=flat
    :target: https://anaconda.org/bioconda/cassiopeia
    :alt:   (downloads)

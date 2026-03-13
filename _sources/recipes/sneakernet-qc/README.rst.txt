@@ -33,84 +33,107 @@ sneakernet-qc
       
 
    
-   :depends blast: 
-   :depends bowtie2: 
-   :depends chewbbaca: 
-   :depends colorid_bv: 
-   :depends fastqc: 
-   :depends flash: 
-   :depends kalamari: 
-   :depends kma: ``>=1.4``
-   :depends kmc: 
-   :depends kraken: ``>=1,<2``
-   :depends krona: 
-   :depends lighter: 
-   :depends make: 
-   :depends mash: ``>=2``
-   :depends megahit: 
-   :depends mlst: 
-   :depends multiqc: 
-   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends perl-app-cpanminus: 
-   :depends perl-bioperl: 
-   :depends perl-config-simple: 
-   :depends perl-file-slurp: 
-   :depends perl-gd: 
-   :depends perl-gdgraph: 
-   :depends perl-list-moreutils: 
-   :depends perl-moo: 
-   :depends perl-statistics-descriptive: 
-   :depends perl-text-levenshtein: ``>=0.15``
-   :depends pilon: 
-   :depends prodigal: 
-   :depends python: ``>=3.7``
-   :depends quast: 
-   :depends salmid: 
-   :depends samclip: 
-   :depends seqtk: 
-   :depends shovill: 
-   :depends skesa: ``>=2.4``
-   :depends spades: 
-   :depends staramr: 
-   :depends trimmomatic: 
-   :requirements:
+   :depends on blast: 
+   :depends on bowtie2: 
+   :depends on chewbbaca: 
+   :depends on colorid_bv: 
+   :depends on fastqc: 
+   :depends on flash: 
+   :depends on kalamari: 
+   :depends on kma: ``>=1.4``
+   :depends on kmc: 
+   :depends on kraken: ``>=1,<2``
+   :depends on krona: 
+   :depends on lighter: 
+   :depends on make: 
+   :depends on mash: ``>=2``
+   :depends on megahit: 
+   :depends on mlst: 
+   :depends on multiqc: 
+   :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends on perl-app-cpanminus: 
+   :depends on perl-bioperl: 
+   :depends on perl-config-simple: 
+   :depends on perl-file-slurp: 
+   :depends on perl-gd: 
+   :depends on perl-gdgraph: 
+   :depends on perl-list-moreutils: 
+   :depends on perl-moo: 
+   :depends on perl-statistics-descriptive: 
+   :depends on perl-text-levenshtein: ``>=0.15``
+   :depends on pilon: 
+   :depends on prodigal: 
+   :depends on python: ``>=3.7``
+   :depends on quast: 
+   :depends on salmid: 
+   :depends on samclip: 
+   :depends on seqtk: 
+   :depends on shovill: 
+   :depends on skesa: ``>=2.4``
+   :depends on spades: 
+   :depends on staramr: 
+   :depends on trimmomatic: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install sneakernet-qc
+    pixi global install sneakernet-qc
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update sneakernet-qc
+    pixi add sneakernet-qc
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname sneakernet-qc
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/sneakernet-qc:<tag>
+    conda install sneakernet-qc
 
-   (see `sneakernet-qc/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname sneakernet-qc
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/sneakernet-qc:<tag>
+
+(see `sneakernet-qc/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_sneakernet-qc| image:: https://img.shields.io/conda/dn/bioconda/sneakernet-qc.svg?style=flat
    :target: https://anaconda.org/bioconda/sneakernet-qc
    :alt:   (downloads)

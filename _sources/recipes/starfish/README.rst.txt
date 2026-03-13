@@ -42,66 +42,89 @@ starfish
       
 
    
-   :depends click: 
-   :depends docutils: ``<0.20``
-   :depends h5py: 
-   :depends jsonschema: ``<4.18``
-   :depends matplotlib-base: ``<3.8``
-   :depends mistune: ``0.8.4``
-   :depends numpy: ``<2``
-   :depends python: ``>=3.9,<3.13``
-   :depends read-roi: 
-   :depends referencing: 
-   :depends regional: 
-   :depends scikit-image: ``>0.22``
-   :depends scikit-learn: 
-   :depends seaborn-base: 
-   :depends semantic_version: 
-   :depends showit: 
-   :depends slicedimage: 
-   :depends sympy: 
-   :depends tqdm: 
-   :depends trackpy: 
-   :depends validators: 
-   :depends xarray: ``<2023.09``
-   :requirements:
+   :depends on click: 
+   :depends on docutils: ``<0.20``
+   :depends on h5py: 
+   :depends on jsonschema: ``<4.18``
+   :depends on matplotlib-base: ``<3.8``
+   :depends on mistune: ``0.8.4``
+   :depends on numpy: ``<2``
+   :depends on python: ``>=3.9,<3.13``
+   :depends on read-roi: 
+   :depends on referencing: 
+   :depends on regional: 
+   :depends on scikit-image: ``>0.22``
+   :depends on scikit-learn: 
+   :depends on seaborn-base: 
+   :depends on semantic_version: 
+   :depends on showit: 
+   :depends on slicedimage: 
+   :depends on sympy: 
+   :depends on tqdm: 
+   :depends on trackpy: 
+   :depends on validators: 
+   :depends on xarray: ``<2023.09``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install starfish
+    pixi global install starfish
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update starfish
+    pixi add starfish
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname starfish
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/starfish:<tag>
+    conda install starfish
 
-   (see `starfish/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname starfish
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/starfish:<tag>
+
+(see `starfish/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_starfish| image:: https://img.shields.io/conda/dn/bioconda/starfish.svg?style=flat
    :target: https://anaconda.org/bioconda/starfish
    :alt:   (downloads)

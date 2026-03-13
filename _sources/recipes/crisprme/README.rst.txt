@@ -43,69 +43,92 @@ crisprme
       
 
    
-   :depends axel: 
-   :depends crispritz: ``2.7.0.*``
-   :depends dash: ``1.10.0.*``
-   :depends dash-bootstrap-components: ``0.10.0.*``
-   :depends dash-core-components: ``1.9.0.*``
-   :depends dash-daq: ``0.4.0.*``
-   :depends dash-html-components: ``1.0.3.*``
-   :depends dash-renderer: ``1.3.0.*``
-   :depends dash-table: ``4.6.2.*``
-   :depends flask: ``1.1.3.*``
-   :depends flask-caching: ``1.7.1.*``
-   :depends flask-compress: ``1.5.0.*``
-   :depends fontconfig: ``2.13.1.*``
-   :depends freetype: ``2.10.1.*``
-   :depends future: ``0.18.2.*``
-   :depends gdown: 
-   :depends gettext: ``0.19.8.1.*``
-   :depends gunicorn: ``20.0.4.*``
-   :depends itsdangerous: ``>=0.24,<2.0``
-   :depends numpy: ``1.20.0.*``
-   :depends pandas: ``1.2.5.*``
-   :depends pysam: ``0.22.1.*``
-   :depends python: ``>=3.8,<3.9.0a0``
-   :depends werkzeug: ``1.0.1.*``
-   :depends zip: 
-   :requirements:
+   :depends on axel: 
+   :depends on crispritz: ``2.7.0.*``
+   :depends on dash: ``1.10.0.*``
+   :depends on dash-bootstrap-components: ``0.10.0.*``
+   :depends on dash-core-components: ``1.9.0.*``
+   :depends on dash-daq: ``0.4.0.*``
+   :depends on dash-html-components: ``1.0.3.*``
+   :depends on dash-renderer: ``1.3.0.*``
+   :depends on dash-table: ``4.6.2.*``
+   :depends on flask: ``1.1.3.*``
+   :depends on flask-caching: ``1.7.1.*``
+   :depends on flask-compress: ``1.5.0.*``
+   :depends on fontconfig: ``2.13.1.*``
+   :depends on freetype: ``2.10.1.*``
+   :depends on future: ``0.18.2.*``
+   :depends on gdown: 
+   :depends on gettext: ``0.19.8.1.*``
+   :depends on gunicorn: ``20.0.4.*``
+   :depends on itsdangerous: ``>=0.24,<2.0``
+   :depends on numpy: ``1.20.0.*``
+   :depends on pandas: ``1.2.5.*``
+   :depends on pysam: ``0.22.1.*``
+   :depends on python: ``>=3.8,<3.9.0a0``
+   :depends on werkzeug: ``1.0.1.*``
+   :depends on zip: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install crisprme
+    pixi global install crisprme
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update crisprme
+    pixi add crisprme
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname crisprme
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/crisprme:<tag>
+    conda install crisprme
 
-   (see `crisprme/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname crisprme
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/crisprme:<tag>
+
+(see `crisprme/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_crisprme| image:: https://img.shields.io/conda/dn/bioconda/crisprme.svg?style=flat
    :target: https://anaconda.org/bioconda/crisprme
    :alt:   (downloads)

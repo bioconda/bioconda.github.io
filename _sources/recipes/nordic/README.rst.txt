@@ -35,27 +35,26 @@ nordic
       
 
    
-   :depends clingo: ``>=5.6.1``
-   :depends cmappy: ``>=4.0.1``
-   :depends cmappy: ``>=4.0.1,<5.0a0``
-   :depends graphviz: ``>=0.20.1``
-   :depends graphviz: ``>=13.1.2,<14.0a0``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
-   :depends matplotlib-base: 
-   :depends numpy: ``>=1.21,<3``
-   :depends numpy: ``>=1.22.4,!=2.0.*,!=2.1.*``
-   :depends omnipath: 
-   :depends openpyxl: ``>=3.0.10``
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
-   :depends qnorm: ``>=0.5.1``
-   :depends quadprog: ``>=0.1.11``
-   :depends scikit-learn: ``>=1.1.2``
-   :depends scipy: ``>=1.6.2``
-   :depends seaborn: ``>=0.12.1``
-   :depends tqdm: ``>=4.62.3``
-   :requirements:
+   :depends on clingo: ``>=5.6.1``
+   :depends on cmappy: ``>=4.0.1``
+   :depends on cmappy: ``>=4.0.1,<5.0a0``
+   :depends on graphviz: ``>=0.20.1``
+   :depends on graphviz: ``>=13.1.2,<14.0a0``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
+   :depends on matplotlib-base: 
+   :depends on numpy: ``>=1.21,<3``
+   :depends on numpy: ``>=1.22.4,!=2.0.*,!=2.1.*``
+   :depends on omnipath: 
+   :depends on openpyxl: ``>=3.0.10``
+   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on qnorm: ``>=0.5.1``
+   :depends on quadprog: ``>=0.1.11``
+   :depends on scikit-learn: ``>=1.1.2``
+   :depends on scipy: ``>=1.6.2``
+   :depends on seaborn: ``>=0.12.1``
+   :depends on tqdm: ``>=4.62.3``
 
    :additional platforms:
       
@@ -64,39 +63,63 @@ nordic
          <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install nordic
+    pixi global install nordic
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update nordic
+    pixi add nordic
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname nordic
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/nordic:<tag>
+    conda install nordic
 
-   (see `nordic/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname nordic
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/nordic:<tag>
+
+(see `nordic/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_nordic| image:: https://img.shields.io/conda/dn/bioconda/nordic.svg?style=flat
    :target: https://anaconda.org/bioconda/nordic
    :alt:   (downloads)

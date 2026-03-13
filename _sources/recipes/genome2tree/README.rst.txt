@@ -32,53 +32,76 @@ genome2tree
       
 
    
-   :depends biopython: ``>=1.79``
-   :depends clipkit: ``>=0.1.2``
-   :depends mafft: 
-   :depends numpy: ``>=1.21``
-   :depends orthofinder: 
-   :depends phykit: 
-   :depends prodigal: 
-   :depends python: ``>=3.7``
-   :depends tqdm: ``>=4.45``
-   :requirements:
+   :depends on biopython: ``>=1.79``
+   :depends on clipkit: ``>=0.1.2``
+   :depends on mafft: 
+   :depends on numpy: ``>=1.21``
+   :depends on orthofinder: 
+   :depends on phykit: 
+   :depends on prodigal: 
+   :depends on python: ``>=3.7``
+   :depends on tqdm: ``>=4.45``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install genome2tree
+    pixi global install genome2tree
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update genome2tree
+    pixi add genome2tree
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname genome2tree
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/genome2tree:<tag>
+    conda install genome2tree
 
-   (see `genome2tree/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname genome2tree
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/genome2tree:<tag>
+
+(see `genome2tree/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_genome2tree| image:: https://img.shields.io/conda/dn/bioconda/genome2tree.svg?style=flat
    :target: https://anaconda.org/bioconda/genome2tree
    :alt:   (downloads)

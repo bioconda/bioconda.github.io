@@ -40,62 +40,85 @@ bioconductor-mixomics
       
 
    
-   :depends bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
-   :depends r-base: ``>=4.5,<4.6.0a0``
-   :depends r-corpcor: 
-   :depends r-dplyr: 
-   :depends r-ellipse: 
-   :depends r-ggplot2: 
-   :depends r-ggrepel: 
-   :depends r-gridextra: 
-   :depends r-gsignal: 
-   :depends r-igraph: 
-   :depends r-lattice: 
-   :depends r-mass: 
-   :depends r-matrixstats: 
-   :depends r-rarpack: 
-   :depends r-rcolorbrewer: 
-   :depends r-reshape2: 
-   :depends r-rgl: 
-   :depends r-tidyr: 
-   :requirements:
+   :depends on bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-corpcor: 
+   :depends on r-dplyr: 
+   :depends on r-ellipse: 
+   :depends on r-ggplot2: 
+   :depends on r-ggrepel: 
+   :depends on r-gridextra: 
+   :depends on r-gsignal: 
+   :depends on r-igraph: 
+   :depends on r-lattice: 
+   :depends on r-mass: 
+   :depends on r-matrixstats: 
+   :depends on r-rarpack: 
+   :depends on r-rcolorbrewer: 
+   :depends on r-reshape2: 
+   :depends on r-rgl: 
+   :depends on r-tidyr: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install bioconductor-mixomics
+    pixi global install bioconductor-mixomics
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update bioconductor-mixomics
+    pixi add bioconductor-mixomics
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname bioconductor-mixomics
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/bioconductor-mixomics:<tag>
+    conda install bioconductor-mixomics
 
-   (see `bioconductor-mixomics/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname bioconductor-mixomics
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/bioconductor-mixomics:<tag>
+
+(see `bioconductor-mixomics/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_bioconductor-mixomics| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mixomics.svg?style=flat
    :target: https://anaconda.org/bioconda/bioconductor-mixomics
    :alt:   (downloads)

@@ -44,83 +44,106 @@ pgcgap
       
 
    
-   :depends abricate: ``1.0.1.*``
-   :depends abyss: ``2.3.5.*``
-   :depends canu: ``2.1.1.*``
-   :depends coreutils: ``9.1.*``
-   :depends fastani: ``1.33.*``
-   :depends fastp: ``0.23.2.*``
-   :depends htslib: ``1.16.*``
-   :depends mamba: ``0.22.1.*``
-   :depends mash: ``2.3.*``
-   :depends matplotlib-base: ``3.5.3.*``
-   :depends muscle: ``5.1.*``
-   :depends numpy: ``1.21.6.*``
-   :depends openjdk: ``17.0.3.*``
-   :depends orthofinder: ``2.5.4.*``
-   :depends pal2nal: ``14.1.*``
-   :depends panaroo: ``1.1.2.*``
-   :depends pandas: ``1.3.5.*``
-   :depends perl: ``5.32.1.*``
-   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends perl-data-dumper: ``2.183.*``
-   :depends perl-file-copy-recursive: ``0.45.*``
-   :depends perl-file-tee: ``0.07.*``
-   :depends perl-parallel-forkmanager: ``2.02.*``
-   :depends perl-pod-usage: ``2.03.*``
-   :depends perl-posix: ``1.38_03.*``
-   :depends prokka: ``1.14.6.*``
-   :depends r-base: ``4.2.1.*``
-   :depends r-corrplot: ``0.92.*``
-   :depends r-ggplot2: ``3.3.6.*``
-   :depends r-gplots: ``3.1.3.*``
-   :depends r-pheatmap: ``1.0.12.*``
-   :depends r-plotrix: ``3.8_2.*``
-   :depends seaborn: ``0.12.0.*``
-   :depends sickle-trim: ``1.33.*``
-   :depends snippy: ``4.6.0.*``
-   :depends snpeff: ``5.0.*``
-   :depends trimal: ``1.4.1.*``
-   :depends unicycler: ``0.4.8.*``
-   :depends wget: ``1.20.3.*``
-   :requirements:
+   :depends on abricate: ``1.0.1.*``
+   :depends on abyss: ``2.3.5.*``
+   :depends on canu: ``2.1.1.*``
+   :depends on coreutils: ``9.1.*``
+   :depends on fastani: ``1.33.*``
+   :depends on fastp: ``0.23.2.*``
+   :depends on htslib: ``1.16.*``
+   :depends on mamba: ``0.22.1.*``
+   :depends on mash: ``2.3.*``
+   :depends on matplotlib-base: ``3.5.3.*``
+   :depends on muscle: ``5.1.*``
+   :depends on numpy: ``1.21.6.*``
+   :depends on openjdk: ``17.0.3.*``
+   :depends on orthofinder: ``2.5.4.*``
+   :depends on pal2nal: ``14.1.*``
+   :depends on panaroo: ``1.1.2.*``
+   :depends on pandas: ``1.3.5.*``
+   :depends on perl: ``5.32.1.*``
+   :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends on perl-data-dumper: ``2.183.*``
+   :depends on perl-file-copy-recursive: ``0.45.*``
+   :depends on perl-file-tee: ``0.07.*``
+   :depends on perl-parallel-forkmanager: ``2.02.*``
+   :depends on perl-pod-usage: ``2.03.*``
+   :depends on perl-posix: ``1.38_03.*``
+   :depends on prokka: ``1.14.6.*``
+   :depends on r-base: ``4.2.1.*``
+   :depends on r-corrplot: ``0.92.*``
+   :depends on r-ggplot2: ``3.3.6.*``
+   :depends on r-gplots: ``3.1.3.*``
+   :depends on r-pheatmap: ``1.0.12.*``
+   :depends on r-plotrix: ``3.8_2.*``
+   :depends on seaborn: ``0.12.0.*``
+   :depends on sickle-trim: ``1.33.*``
+   :depends on snippy: ``4.6.0.*``
+   :depends on snpeff: ``5.0.*``
+   :depends on trimal: ``1.4.1.*``
+   :depends on unicycler: ``0.4.8.*``
+   :depends on wget: ``1.20.3.*``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install pgcgap
+    pixi global install pgcgap
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update pgcgap
+    pixi add pgcgap
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname pgcgap
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/pgcgap:<tag>
+    conda install pgcgap
 
-   (see `pgcgap/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname pgcgap
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/pgcgap:<tag>
+
+(see `pgcgap/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_pgcgap| image:: https://img.shields.io/conda/dn/bioconda/pgcgap.svg?style=flat
    :target: https://anaconda.org/bioconda/pgcgap
    :alt:   (downloads)

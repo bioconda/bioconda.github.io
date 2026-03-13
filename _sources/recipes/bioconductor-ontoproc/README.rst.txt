@@ -40,66 +40,89 @@ bioconductor-ontoproc
       
 
    
-   :depends bioconductor-annotationhub: ``>=4.0.0,<4.1.0``
-   :depends bioconductor-basilisk: ``>=1.22.0,<1.23.0``
-   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-biocfilecache: ``>=3.0.0,<3.1.0``
-   :depends bioconductor-graph: ``>=1.88.0,<1.89.0``
-   :depends bioconductor-rbgl: ``>=1.86.0,<1.87.0``
-   :depends bioconductor-rgraphviz: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
-   :depends r-base: ``>=4.5,<4.6.0a0``
-   :depends r-dplyr: 
-   :depends r-dt: 
-   :depends r-ellmer: 
-   :depends r-httr: 
-   :depends r-igraph: 
-   :depends r-jsonlite: 
-   :depends r-magrittr: 
-   :depends r-ontologyindex: 
-   :depends r-ontologyplot: 
-   :depends r-r.utils: 
-   :depends r-reticulate: 
-   :depends r-shiny: 
-   :requirements:
+   :depends on bioconductor-annotationhub: ``>=4.0.0,<4.1.0``
+   :depends on bioconductor-basilisk: ``>=1.22.0,<1.23.0``
+   :depends on bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends on bioconductor-biocfilecache: ``>=3.0.0,<3.1.0``
+   :depends on bioconductor-graph: ``>=1.88.0,<1.89.0``
+   :depends on bioconductor-rbgl: ``>=1.86.0,<1.87.0``
+   :depends on bioconductor-rgraphviz: ``>=2.54.0,<2.55.0``
+   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-dplyr: 
+   :depends on r-dt: 
+   :depends on r-ellmer: 
+   :depends on r-httr: 
+   :depends on r-igraph: 
+   :depends on r-jsonlite: 
+   :depends on r-magrittr: 
+   :depends on r-ontologyindex: 
+   :depends on r-ontologyplot: 
+   :depends on r-r.utils: 
+   :depends on r-reticulate: 
+   :depends on r-shiny: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install bioconductor-ontoproc
+    pixi global install bioconductor-ontoproc
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update bioconductor-ontoproc
+    pixi add bioconductor-ontoproc
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname bioconductor-ontoproc
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/bioconductor-ontoproc:<tag>
+    conda install bioconductor-ontoproc
 
-   (see `bioconductor-ontoproc/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname bioconductor-ontoproc
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/bioconductor-ontoproc:<tag>
+
+(see `bioconductor-ontoproc/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_bioconductor-ontoproc| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-ontoproc.svg?style=flat
    :target: https://anaconda.org/bioconda/bioconductor-ontoproc
    :alt:   (downloads)

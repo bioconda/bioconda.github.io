@@ -32,55 +32,78 @@ r-mmgenome
       
 
    
-   :depends bioconductor-biostrings: ``>=2.32.0``
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0a0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
-   :depends r-dplyr: ``>=0.4.0``
-   :depends r-ggplot2: ``>=1.0.0``
-   :depends r-gridextra: ``>=0.9.1``
-   :depends r-igraph: ``>=1.0.0``
-   :depends r-knitr: ``>=1.6``
-   :depends r-reshape2: ``>=1.4``
-   :depends r-sp: ``>=1.0.15``
-   :depends r-vegan: ``>=2.0.10``
-   :requirements:
+   :depends on bioconductor-biostrings: ``>=2.32.0``
+   :depends on bioconductor-biostrings: ``>=2.74.0,<2.75.0a0``
+   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on r-dplyr: ``>=0.4.0``
+   :depends on r-ggplot2: ``>=1.0.0``
+   :depends on r-gridextra: ``>=0.9.1``
+   :depends on r-igraph: ``>=1.0.0``
+   :depends on r-knitr: ``>=1.6``
+   :depends on r-reshape2: ``>=1.4``
+   :depends on r-sp: ``>=1.0.15``
+   :depends on r-vegan: ``>=2.0.10``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install r-mmgenome
+    pixi global install r-mmgenome
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update r-mmgenome
+    pixi add r-mmgenome
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname r-mmgenome
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/r-mmgenome:<tag>
+    conda install r-mmgenome
 
-   (see `r-mmgenome/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname r-mmgenome
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/r-mmgenome:<tag>
+
+(see `r-mmgenome/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_r-mmgenome| image:: https://img.shields.io/conda/dn/bioconda/r-mmgenome.svg?style=flat
    :target: https://anaconda.org/bioconda/r-mmgenome
    :alt:   (downloads)

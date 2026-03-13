@@ -43,68 +43,91 @@ augur
       
 
    
-   :depends bcbio-gff: ``>=0.7.1,<0.8``
-   :depends biopython: ``>=1.80,<2``
-   :depends cvxopt: ``>=1.1.9,<2``
-   :depends fasttree: 
-   :depends iqtree: 
-   :depends isodate: ``>=0.6.0,<0.8``
-   :depends jsonschema: ``>=4.18.0,<5``
-   :depends mafft: 
-   :depends networkx: ``>=2.5,<4``
-   :depends numpy: ``>=1.0.0,<3``
-   :depends packaging: ``>=19.2``
-   :depends pandas: ``>=1.4.0,<3``
-   :depends pyfastx: ``>=1.0.0,<3``
-   :depends python: ``>=3.10``
-   :depends python-calamine: ``>=0.2.0``
-   :depends pyyaml: 
-   :depends raxml: 
-   :depends referencing: ``>=0.29.1,<1``
-   :depends scipy: ``>=1.0.0,<2``
-   :depends seqkit: 
-   :depends sqlite: ``>=3.39,<4``
-   :depends treetime: ``>=0.11.2,<0.12``
-   :depends vcftools: 
-   :depends xopen: ``>=2.0.0,<3``
-   :requirements:
+   :depends on bcbio-gff: ``>=0.7.1,<0.8``
+   :depends on biopython: ``>=1.80,<2``
+   :depends on cvxopt: ``>=1.1.9,<2``
+   :depends on fasttree: 
+   :depends on iqtree: 
+   :depends on isodate: ``>=0.6.0,<0.8``
+   :depends on jsonschema: ``>=4.18.0,<5``
+   :depends on mafft: 
+   :depends on networkx: ``>=2.5,<4``
+   :depends on numpy: ``>=1.0.0,<3``
+   :depends on packaging: ``>=19.2``
+   :depends on pandas: ``>=1.4.0,<3``
+   :depends on pyfastx: ``>=1.0.0,<3``
+   :depends on python: ``>=3.10``
+   :depends on python-calamine: ``>=0.2.0``
+   :depends on pyyaml: 
+   :depends on raxml: 
+   :depends on referencing: ``>=0.29.1,<1``
+   :depends on scipy: ``>=1.0.0,<2``
+   :depends on seqkit: 
+   :depends on sqlite: ``>=3.39,<4``
+   :depends on treetime: ``>=0.11.2,<0.12``
+   :depends on vcftools: 
+   :depends on xopen: ``>=2.0.0,<3``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install augur
+    pixi global install augur
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update augur
+    pixi add augur
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname augur
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/augur:<tag>
+    conda install augur
 
-   (see `augur/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname augur
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/augur:<tag>
+
+(see `augur/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_augur| image:: https://img.shields.io/conda/dn/bioconda/augur.svg?style=flat
    :target: https://anaconda.org/bioconda/augur
    :alt:   (downloads)

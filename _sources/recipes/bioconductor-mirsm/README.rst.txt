@@ -40,78 +40,101 @@ bioconductor-mirsm
       
 
    
-   :depends bioconductor-bicare: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-biobase: ``>=2.60.0,<2.61.0``
-   :depends bioconductor-fabia: ``>=2.46.0,<2.47.0``
-   :depends bioconductor-gseabase: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-ibbig: ``>=1.44.0,<1.45.0``
-   :depends bioconductor-mirsponger: ``>=2.4.0,<2.5.0``
-   :depends bioconductor-org.hs.eg.db: ``>=3.17.0,<3.18.0``
-   :depends bioconductor-rqubic: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
-   :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libcxx: ``>=15.0.7``
-   :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-bibitr: 
-   :depends r-biclust: 
-   :depends r-dbscan: 
-   :depends r-dynamictreecut: 
-   :depends r-energy: 
-   :depends r-flashclust: 
-   :depends r-gfa: 
-   :depends r-igraph: 
-   :depends r-isa2: 
-   :depends r-linkcomm: 
-   :depends r-matrixcorrelation: 
-   :depends r-mcl: 
-   :depends r-mclust: 
-   :depends r-nmf: 
-   :depends r-pma: 
-   :depends r-ppclust: 
-   :depends r-rcpp: 
-   :depends r-s4vd: 
-   :depends r-sombrero: 
-   :depends r-subspace: 
-   :depends r-wgcna: 
-   :requirements:
+   :depends on bioconductor-bicare: ``>=1.58.0,<1.59.0``
+   :depends on bioconductor-biobase: ``>=2.60.0,<2.61.0``
+   :depends on bioconductor-fabia: ``>=2.46.0,<2.47.0``
+   :depends on bioconductor-gseabase: ``>=1.62.0,<1.63.0``
+   :depends on bioconductor-ibbig: ``>=1.44.0,<1.45.0``
+   :depends on bioconductor-mirsponger: ``>=2.4.0,<2.5.0``
+   :depends on bioconductor-org.hs.eg.db: ``>=3.17.0,<3.18.0``
+   :depends on bioconductor-rqubic: ``>=1.46.0,<1.47.0``
+   :depends on bioconductor-summarizedexperiment: ``>=1.30.0,<1.31.0``
+   :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libcxx: ``>=15.0.7``
+   :depends on liblapack: ``>=3.9.0,<4.0a0``
+   :depends on r-base: ``>=4.3,<4.4.0a0``
+   :depends on r-bibitr: 
+   :depends on r-biclust: 
+   :depends on r-dbscan: 
+   :depends on r-dynamictreecut: 
+   :depends on r-energy: 
+   :depends on r-flashclust: 
+   :depends on r-gfa: 
+   :depends on r-igraph: 
+   :depends on r-isa2: 
+   :depends on r-linkcomm: 
+   :depends on r-matrixcorrelation: 
+   :depends on r-mcl: 
+   :depends on r-mclust: 
+   :depends on r-nmf: 
+   :depends on r-pma: 
+   :depends on r-ppclust: 
+   :depends on r-rcpp: 
+   :depends on r-s4vd: 
+   :depends on r-sombrero: 
+   :depends on r-subspace: 
+   :depends on r-wgcna: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install bioconductor-mirsm
+    pixi global install bioconductor-mirsm
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update bioconductor-mirsm
+    pixi add bioconductor-mirsm
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname bioconductor-mirsm
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/bioconductor-mirsm:<tag>
+    conda install bioconductor-mirsm
 
-   (see `bioconductor-mirsm/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname bioconductor-mirsm
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/bioconductor-mirsm:<tag>
+
+(see `bioconductor-mirsm/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_bioconductor-mirsm| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-mirsm.svg?style=flat
    :target: https://anaconda.org/bioconda/bioconductor-mirsm
    :alt:   (downloads)

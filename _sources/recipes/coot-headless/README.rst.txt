@@ -47,34 +47,33 @@ coot-headless
       
 
    
-   :depends cairo: ``>=1.18.4,<2.0a0``
-   :depends clipper: ``>=2.1.20180802,<3.0a0``
-   :depends elfutils: ``>=0.191,<0.192.0a0``
-   :depends fontconfig: ``>=2.15.0,<3.0a0``
-   :depends fonts-conda-ecosystem: 
-   :depends gemmi: ``>=0.7.4,<0.7.5.0a0``
-   :depends gsl: ``>=2.7,<2.8.0a0``
-   :depends libboost: ``>=1.86.0,<1.87.0a0``
-   :depends libccp4: ``>=8.0.0,<9.0a0``
-   :depends libffi: ``>=3.4.6,<3.5.0a0``
-   :depends libfreetype: ``>=2.14.1``
-   :depends libfreetype6: ``>=2.14.1``
-   :depends libgcc: ``>=13``
-   :depends libpng: ``>=1.6.54,<1.7.0a0``
-   :depends libsqlite: ``>=3.51.2,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends libxml2: ``>=2.13.9,<2.14.0a0``
-   :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends mmdb2: ``>=2.0.22,<3.0a0``
-   :depends numpy: ``1.26.*``
-   :depends numpy: ``>=1.26.4,<2.0a0``
-   :depends pixman: ``>=0.46.4,<1.0a0``
-   :depends python: ``>=3.10,<3.11.0a0 *_cpython``
-   :depends python_abi: ``3.10.* *_cp310``
-   :depends rdkit: 
-   :depends servalcat: 
-   :depends ssm: ``>=1.4,<2.0a0``
-   :requirements:
+   :depends on cairo: ``>=1.18.4,<2.0a0``
+   :depends on clipper: ``>=2.1.20180802,<3.0a0``
+   :depends on elfutils: ``>=0.191,<0.192.0a0``
+   :depends on fontconfig: ``>=2.15.0,<3.0a0``
+   :depends on fonts-conda-ecosystem: 
+   :depends on gemmi: ``>=0.7.4,<0.7.5.0a0``
+   :depends on gsl: ``>=2.7,<2.8.0a0``
+   :depends on libboost: ``>=1.86.0,<1.87.0a0``
+   :depends on libccp4: ``>=8.0.0,<9.0a0``
+   :depends on libffi: ``>=3.4.6,<3.5.0a0``
+   :depends on libfreetype: ``>=2.14.1``
+   :depends on libfreetype6: ``>=2.14.1``
+   :depends on libgcc: ``>=13``
+   :depends on libpng: ``>=1.6.54,<1.7.0a0``
+   :depends on libsqlite: ``>=3.51.2,<4.0a0``
+   :depends on libstdcxx: ``>=13``
+   :depends on libxml2: ``>=2.13.9,<2.14.0a0``
+   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on mmdb2: ``>=2.0.22,<3.0a0``
+   :depends on numpy: ``1.26.*``
+   :depends on numpy: ``>=1.26.4,<2.0a0``
+   :depends on pixman: ``>=0.46.4,<1.0a0``
+   :depends on python: ``>=3.10,<3.11.0a0 *_cpython``
+   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on rdkit: 
+   :depends on servalcat: 
+   :depends on ssm: ``>=1.4,<2.0a0``
 
    :additional platforms:
       
@@ -83,39 +82,63 @@ coot-headless
          <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install coot-headless
+    pixi global install coot-headless
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update coot-headless
+    pixi add coot-headless
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname coot-headless
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/coot-headless:<tag>
+    conda install coot-headless
 
-   (see `coot-headless/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname coot-headless
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/coot-headless:<tag>
+
+(see `coot-headless/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_coot-headless| image:: https://img.shields.io/conda/dn/bioconda/coot-headless.svg?style=flat
    :target: https://anaconda.org/bioconda/coot-headless
    :alt:   (downloads)

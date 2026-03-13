@@ -33,67 +33,90 @@ colabfold
       
 
    
-   :depends absl-py: 
-   :depends appdirs: 
-   :depends biopython: ``<=1.82``
-   :depends dm-haiku: ``>=0.0.12``
-   :depends dm-tree: 
-   :depends hhsuite: ``>=3.3.0``
-   :depends importlib-metadata: 
-   :depends jax: ``>=0.4.23,<0.4.26``
-   :depends jaxlib: ``>=0.4.23,<0.4.26``
-   :depends kalign2: ``>=2.04``
-   :depends matplotlib-base: 
-   :depends ml-collections: 
-   :depends mmseqs2: ``>=15.6f452``
-   :depends numpy: 
-   :depends openmm: ``>=7.7.0,<8.1.0``
-   :depends pandas: 
-   :depends pdbfixer: 
-   :depends py3dmol: 
-   :depends python: 
-   :depends requests: 
-   :depends scipy: 
-   :depends tensorflow-base: ``>=2.12.1 cpu*``
-   :depends tqdm: 
-   :requirements:
+   :depends on absl-py: 
+   :depends on appdirs: 
+   :depends on biopython: ``<=1.82``
+   :depends on dm-haiku: ``>=0.0.12``
+   :depends on dm-tree: 
+   :depends on hhsuite: ``>=3.3.0``
+   :depends on importlib-metadata: 
+   :depends on jax: ``>=0.4.23,<0.4.26``
+   :depends on jaxlib: ``>=0.4.23,<0.4.26``
+   :depends on kalign2: ``>=2.04``
+   :depends on matplotlib-base: 
+   :depends on ml-collections: 
+   :depends on mmseqs2: ``>=15.6f452``
+   :depends on numpy: 
+   :depends on openmm: ``>=7.7.0,<8.1.0``
+   :depends on pandas: 
+   :depends on pdbfixer: 
+   :depends on py3dmol: 
+   :depends on python: 
+   :depends on requests: 
+   :depends on scipy: 
+   :depends on tensorflow-base: ``>=2.12.1 cpu*``
+   :depends on tqdm: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install colabfold
+    pixi global install colabfold
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update colabfold
+    pixi add colabfold
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname colabfold
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/colabfold:<tag>
+    conda install colabfold
 
-   (see `colabfold/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname colabfold
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/colabfold:<tag>
+
+(see `colabfold/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_colabfold| image:: https://img.shields.io/conda/dn/bioconda/colabfold.svg?style=flat
    :target: https://anaconda.org/bioconda/colabfold
    :alt:   (downloads)

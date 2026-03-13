@@ -49,50 +49,73 @@ snakemake
       
 
    
-   :depends eido: 
-   :depends pandas: ``<3``
-   :depends peppy: 
-   :depends pygments: 
-   :depends slack_sdk: 
-   :depends snakemake-minimal: ``9.16.3.*``
-   :requirements:
+   :depends on eido: 
+   :depends on pandas: ``<3``
+   :depends on peppy: 
+   :depends on pygments: 
+   :depends on slack_sdk: 
+   :depends on snakemake-minimal: ``9.16.3.*``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install snakemake
+    pixi global install snakemake
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update snakemake
+    pixi add snakemake
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname snakemake
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/snakemake:<tag>
+    conda install snakemake
 
-   (see `snakemake/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname snakemake
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/snakemake:<tag>
+
+(see `snakemake/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_snakemake| image:: https://img.shields.io/conda/dn/bioconda/snakemake.svg?style=flat
    :target: https://anaconda.org/bioconda/snakemake
    :alt:   (downloads)
@@ -130,74 +153,97 @@ snakemake
       
 
    
-   :depends appdirs: 
-   :depends conda-inject: ``>=1.3.1,<2.0``
-   :depends configargparse: 
-   :depends connection_pool: ``>=0.0.3``
-   :depends docutils: 
-   :depends dpath: ``>=2.1.6,<3.0.0``
-   :depends gitpython: 
-   :depends humanfriendly: 
-   :depends immutables: 
-   :depends jinja2: ``>=3.0,<4.0``
-   :depends jsonschema: 
-   :depends nbformat: 
-   :depends packaging: ``>=24.0``
-   :depends psutil: 
-   :depends pulp: ``>=2.3.1,<3.4``
-   :depends python: ``>=3.11,<3.14``
-   :depends pyyaml: 
-   :depends requests: ``>=2.8.1,<3.0``
-   :depends reretry: 
-   :depends smart_open: ``>=4.0,<8.0``
-   :depends snakemake-interface-common: ``>=1.20.1,<2.0``
-   :depends snakemake-interface-executor-plugins: ``>=9.3.2,<10.0``
-   :depends snakemake-interface-logger-plugins: ``>=1.1.0,<3.0.0``
-   :depends snakemake-interface-report-plugins: ``>=1.2.0,<2.0.0``
-   :depends snakemake-interface-scheduler-plugins: ``>=2.0.0,<3.0.0``
-   :depends snakemake-interface-storage-plugins: ``>=4.3.2,<5.0``
-   :depends tabulate: 
-   :depends throttler: 
-   :depends wrapt: 
-   :depends yte: ``>=1.5.5,<2.0``
-   :requirements:
+   :depends on appdirs: 
+   :depends on conda-inject: ``>=1.3.1,<2.0``
+   :depends on configargparse: 
+   :depends on connection_pool: ``>=0.0.3``
+   :depends on docutils: 
+   :depends on dpath: ``>=2.1.6,<3.0.0``
+   :depends on gitpython: 
+   :depends on humanfriendly: 
+   :depends on immutables: 
+   :depends on jinja2: ``>=3.0,<4.0``
+   :depends on jsonschema: 
+   :depends on nbformat: 
+   :depends on packaging: ``>=24.0``
+   :depends on psutil: 
+   :depends on pulp: ``>=2.3.1,<3.4``
+   :depends on python: ``>=3.11,<3.14``
+   :depends on pyyaml: 
+   :depends on requests: ``>=2.8.1,<3.0``
+   :depends on reretry: 
+   :depends on smart_open: ``>=4.0,<8.0``
+   :depends on snakemake-interface-common: ``>=1.20.1,<2.0``
+   :depends on snakemake-interface-executor-plugins: ``>=9.3.2,<10.0``
+   :depends on snakemake-interface-logger-plugins: ``>=1.1.0,<3.0.0``
+   :depends on snakemake-interface-report-plugins: ``>=1.2.0,<2.0.0``
+   :depends on snakemake-interface-scheduler-plugins: ``>=2.0.0,<3.0.0``
+   :depends on snakemake-interface-storage-plugins: ``>=4.3.2,<5.0``
+   :depends on tabulate: 
+   :depends on throttler: 
+   :depends on wrapt: 
+   :depends on yte: ``>=1.5.5,<2.0``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install snakemake-minimal
+    pixi global install snakemake-minimal
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update snakemake-minimal
+    pixi add snakemake-minimal
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname snakemake-minimal
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/snakemake-minimal:<tag>
+    conda install snakemake-minimal
 
-   (see `snakemake-minimal/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname snakemake-minimal
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/snakemake-minimal:<tag>
+
+(see `snakemake-minimal/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_snakemake-minimal| image:: https://img.shields.io/conda/dn/bioconda/snakemake-minimal.svg?style=flat
    :target: https://anaconda.org/bioconda/snakemake-minimal
    :alt:   (downloads)

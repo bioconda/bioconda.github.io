@@ -43,105 +43,128 @@ funannotate
       
 
    
-   :depends augustus: ``3.5.0``
-   :depends bamtools: ``!=2.5.2``
-   :depends bedtools: 
-   :depends biopython: ``<1.80``
-   :depends blast: 
-   :depends codingquarry: 
-   :depends diamond: 
-   :depends distro: 
-   :depends ete3: 
-   :depends evidencemodeler: ``1.1.1.*``
-   :depends exonerate: 
-   :depends fasta3: 
-   :depends glimmerhmm: 
-   :depends goatools: 
-   :depends hisat2: 
-   :depends hmmer: 
-   :depends kallisto: ``>=0.46.0,<0.46.2``
-   :depends mafft: ``>=7``
-   :depends matplotlib-base: 
-   :depends minimap2: 
-   :depends natsort: 
-   :depends numpy: 
-   :depends pandas: 
-   :depends pasa: 
-   :depends perl: 
-   :depends perl-clone: 
-   :depends perl-db_file: 
-   :depends perl-dbd-mysql: 
-   :depends perl-hash-merge: 
-   :depends perl-json: 
-   :depends perl-local-lib: 
-   :depends perl-logger-simple: 
-   :depends perl-math-utils: 
-   :depends perl-mce: 
-   :depends perl-parallel-forkmanager: 
-   :depends perl-scalar-util-numeric: 
-   :depends perl-soap-lite: 
-   :depends perl-text-soundex: 
-   :depends phyml: 
-   :depends pigz: 
-   :depends proteinortho: 
-   :depends psutil: 
-   :depends python: ``>=3.6,<3.12``
-   :depends raxml: 
-   :depends requests: 
-   :depends salmon: 
-   :depends samtools: 
-   :depends scikit-learn: 
-   :depends scipy: 
-   :depends seaborn-base: 
-   :depends setuptools: ``<81``
-   :depends snap: 
-   :depends stringtie: 
-   :depends tantan: 
-   :depends tbl2asn: 
-   :depends trimal: 
-   :depends trimmomatic: 
-   :depends trinity: 
-   :depends trnascan-se: 
-   :depends ucsc-blat: 
-   :depends ucsc-pslcdnafilter: 
-   :requirements:
+   :depends on augustus: ``3.5.0``
+   :depends on bamtools: ``!=2.5.2``
+   :depends on bedtools: 
+   :depends on biopython: ``<1.80``
+   :depends on blast: 
+   :depends on codingquarry: 
+   :depends on diamond: 
+   :depends on distro: 
+   :depends on ete3: 
+   :depends on evidencemodeler: ``1.1.1.*``
+   :depends on exonerate: 
+   :depends on fasta3: 
+   :depends on glimmerhmm: 
+   :depends on goatools: 
+   :depends on hisat2: 
+   :depends on hmmer: 
+   :depends on kallisto: ``>=0.46.0,<0.46.2``
+   :depends on mafft: ``>=7``
+   :depends on matplotlib-base: 
+   :depends on minimap2: 
+   :depends on natsort: 
+   :depends on numpy: 
+   :depends on pandas: 
+   :depends on pasa: 
+   :depends on perl: 
+   :depends on perl-clone: 
+   :depends on perl-db_file: 
+   :depends on perl-dbd-mysql: 
+   :depends on perl-hash-merge: 
+   :depends on perl-json: 
+   :depends on perl-local-lib: 
+   :depends on perl-logger-simple: 
+   :depends on perl-math-utils: 
+   :depends on perl-mce: 
+   :depends on perl-parallel-forkmanager: 
+   :depends on perl-scalar-util-numeric: 
+   :depends on perl-soap-lite: 
+   :depends on perl-text-soundex: 
+   :depends on phyml: 
+   :depends on pigz: 
+   :depends on proteinortho: 
+   :depends on psutil: 
+   :depends on python: ``>=3.6,<3.12``
+   :depends on raxml: 
+   :depends on requests: 
+   :depends on salmon: 
+   :depends on samtools: 
+   :depends on scikit-learn: 
+   :depends on scipy: 
+   :depends on seaborn-base: 
+   :depends on setuptools: ``<81``
+   :depends on snap: 
+   :depends on stringtie: 
+   :depends on tantan: 
+   :depends on tbl2asn: 
+   :depends on trimal: 
+   :depends on trimmomatic: 
+   :depends on trinity: 
+   :depends on trnascan-se: 
+   :depends on ucsc-blat: 
+   :depends on ucsc-pslcdnafilter: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install funannotate
+    pixi global install funannotate
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update funannotate
+    pixi add funannotate
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname funannotate
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/funannotate:<tag>
+    conda install funannotate
 
-   (see `funannotate/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname funannotate
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/funannotate:<tag>
+
+(see `funannotate/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_funannotate| image:: https://img.shields.io/conda/dn/bioconda/funannotate.svg?style=flat
    :target: https://anaconda.org/bioconda/funannotate
    :alt:   (downloads)

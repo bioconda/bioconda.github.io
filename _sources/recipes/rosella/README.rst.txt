@@ -40,71 +40,94 @@ rosella
       
 
    
-   :depends biopython: ``>=1.81``
-   :depends coverm: ``>=0.6.1``
-   :depends flight-genome: ``>=1.6.0``
-   :depends hdbscan: ``>=0.8.28``
-   :depends imageio: ``>=2.31``
-   :depends joblib: ``>=1.1.0,<=1.3``
-   :depends joblib: ``>=1.3.0``
-   :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
-   :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends matplotlib-base: ``>=3.8``
-   :depends numba: ``>=0.53,<=0.57``
-   :depends numpy: ``<=1.24``
-   :depends openssl: ``>=3.6.0,<4.0a0``
-   :depends pandas: ``>=1.3``
-   :depends pebble: ``>=5.0``
-   :depends pynndescent: ``>=0.5.7``
-   :depends python: ``>=3.8,<=3.10``
-   :depends scikit-bio: ``>=0.5.7``
-   :depends scikit-learn: ``>=1.2.0``
-   :depends scipy: ``<=1.11``
-   :depends seaborn: ``>=0.12``
-   :depends tbb: ``>=2021.10.0``
-   :depends threadpoolctl: ``>=3.2.0``
-   :depends tqdm: ``>=4.66``
-   :depends umap-learn: ``>=0.5.3``
-   :requirements:
+   :depends on biopython: ``>=1.81``
+   :depends on coverm: ``>=0.6.1``
+   :depends on flight-genome: ``>=1.6.0``
+   :depends on hdbscan: ``>=0.8.28``
+   :depends on imageio: ``>=2.31``
+   :depends on joblib: ``>=1.1.0,<=1.3``
+   :depends on joblib: ``>=1.3.0``
+   :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
+   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on matplotlib-base: ``>=3.8``
+   :depends on numba: ``>=0.53,<=0.57``
+   :depends on numpy: ``<=1.24``
+   :depends on openssl: ``>=3.6.0,<4.0a0``
+   :depends on pandas: ``>=1.3``
+   :depends on pebble: ``>=5.0``
+   :depends on pynndescent: ``>=0.5.7``
+   :depends on python: ``>=3.8,<=3.10``
+   :depends on scikit-bio: ``>=0.5.7``
+   :depends on scikit-learn: ``>=1.2.0``
+   :depends on scipy: ``<=1.11``
+   :depends on seaborn: ``>=0.12``
+   :depends on tbb: ``>=2021.10.0``
+   :depends on threadpoolctl: ``>=3.2.0``
+   :depends on tqdm: ``>=4.66``
+   :depends on umap-learn: ``>=0.5.3``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install rosella
+    pixi global install rosella
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update rosella
+    pixi add rosella
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname rosella
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/rosella:<tag>
+    conda install rosella
 
-   (see `rosella/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname rosella
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/rosella:<tag>
+
+(see `rosella/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_rosella| image:: https://img.shields.io/conda/dn/bioconda/rosella.svg?style=flat
    :target: https://anaconda.org/bioconda/rosella
    :alt:   (downloads)

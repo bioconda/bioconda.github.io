@@ -32,86 +32,109 @@ milonga
       
 
    
-   :depends abricate: ``>=1.0.1``
-   :depends bcftools: ``>=1.10.2``
-   :depends bedtools: ``>=2.29.2``
-   :depends bioawk: ``>=1.0``
-   :depends bioconductor-biocgenerics: 
-   :depends bioconductor-biostrings: 
-   :depends bioconductor-iranges: 
-   :depends biopython: ``>=1.78``
-   :depends blast: ``>=2.10.1``
-   :depends bowtie2: ``>=2.4.1``
-   :depends checkm-genome: ``>=1.1.3``
-   :depends diamond: ``>=2.0.4``
-   :depends flye: ``>=2.8.1``
-   :depends kraken2: ``>=2.0.8``
-   :depends miniasm: ``>=0.3_r179``
-   :depends minimap2: ``>=2.17``
-   :depends mummer4: ``>=4.0.0beta2``
-   :depends nanofilt: ``>=2.7.1``
-   :depends nanostat: ``>=1.4.0``
-   :depends pandas: ``>=1.1.2``
-   :depends pilon: ``>=1.23``
-   :depends pip: ``>=20.2.3``
-   :depends platon: ``>=1.4.0``
-   :depends porechop: ``>=0.2.4``
-   :depends prodigal: ``>=2.6.3``
-   :depends qcat: ``>=1.1.0``
-   :depends r-base: 
-   :depends r-dplyr: 
-   :depends r-dt: 
-   :depends r-ggplot2: 
-   :depends r-knitr: 
-   :depends r-optparse: 
-   :depends r-plotly: 
-   :depends r-rmarkdown: 
-   :depends r-tidyr: 
-   :depends racon: ``>=1.4.13``
-   :depends samtools: ``>=1.10``
-   :depends snakemake-minimal: ``>=7.12.0``
-   :depends spades: ``>=3.14.1``
-   :depends taxonkit: ``>=0.6.2``
-   :depends unicycler: ``>=0.4.8``
-   :depends yaml: ``>=0.2.5``
-   :requirements:
+   :depends on abricate: ``>=1.0.1``
+   :depends on bcftools: ``>=1.10.2``
+   :depends on bedtools: ``>=2.29.2``
+   :depends on bioawk: ``>=1.0``
+   :depends on bioconductor-biocgenerics: 
+   :depends on bioconductor-biostrings: 
+   :depends on bioconductor-iranges: 
+   :depends on biopython: ``>=1.78``
+   :depends on blast: ``>=2.10.1``
+   :depends on bowtie2: ``>=2.4.1``
+   :depends on checkm-genome: ``>=1.1.3``
+   :depends on diamond: ``>=2.0.4``
+   :depends on flye: ``>=2.8.1``
+   :depends on kraken2: ``>=2.0.8``
+   :depends on miniasm: ``>=0.3_r179``
+   :depends on minimap2: ``>=2.17``
+   :depends on mummer4: ``>=4.0.0beta2``
+   :depends on nanofilt: ``>=2.7.1``
+   :depends on nanostat: ``>=1.4.0``
+   :depends on pandas: ``>=1.1.2``
+   :depends on pilon: ``>=1.23``
+   :depends on pip: ``>=20.2.3``
+   :depends on platon: ``>=1.4.0``
+   :depends on porechop: ``>=0.2.4``
+   :depends on prodigal: ``>=2.6.3``
+   :depends on qcat: ``>=1.1.0``
+   :depends on r-base: 
+   :depends on r-dplyr: 
+   :depends on r-dt: 
+   :depends on r-ggplot2: 
+   :depends on r-knitr: 
+   :depends on r-optparse: 
+   :depends on r-plotly: 
+   :depends on r-rmarkdown: 
+   :depends on r-tidyr: 
+   :depends on racon: ``>=1.4.13``
+   :depends on samtools: ``>=1.10``
+   :depends on snakemake-minimal: ``>=7.12.0``
+   :depends on spades: ``>=3.14.1``
+   :depends on taxonkit: ``>=0.6.2``
+   :depends on unicycler: ``>=0.4.8``
+   :depends on yaml: ``>=0.2.5``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install milonga
+    pixi global install milonga
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update milonga
+    pixi add milonga
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname milonga
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/milonga:<tag>
+    conda install milonga
 
-   (see `milonga/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname milonga
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/milonga:<tag>
+
+(see `milonga/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_milonga| image:: https://img.shields.io/conda/dn/bioconda/milonga.svg?style=flat
    :target: https://anaconda.org/bioconda/milonga
    :alt:   (downloads)

@@ -32,68 +32,91 @@ bioconductor-factr
       
 
    
-   :depends bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
-   :depends bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
-   :depends bioconductor-biostrings: ``>=2.74.0,<2.75.0``
-   :depends bioconductor-drawproteins: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
-   :depends bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
-   :depends bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends bioconductor-wiggleplotr: ``>=1.30.0,<1.31.0``
-   :depends r-base: ``>=4.4,<4.5.0a0``
-   :depends r-crayon: ``>=1.5``
-   :depends r-data.table: ``>=1.14``
-   :depends r-dplyr: ``>=1.1``
-   :depends r-ggplot2: ``>=3.4``
-   :depends r-pbapply: ``>=1.7``
-   :depends r-purrr: ``>=1.0``
-   :depends r-rcurl: ``>=1.98``
-   :depends r-rlang: ``>=1.1``
-   :depends r-stringr: ``>=1.5``
-   :depends r-tibble: ``>=3.2``
-   :depends r-tidyr: ``>=1.3``
-   :depends r-xml: ``>=3.99``
-   :requirements:
+   :depends on bioconductor-biocgenerics: ``>=0.52.0,<0.53.0``
+   :depends on bioconductor-biocparallel: ``>=1.40.0,<1.41.0``
+   :depends on bioconductor-biostrings: ``>=2.74.0,<2.75.0``
+   :depends on bioconductor-drawproteins: ``>=1.26.0,<1.27.0``
+   :depends on bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0``
+   :depends on bioconductor-genomicfeatures: ``>=1.58.0,<1.59.0``
+   :depends on bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
+   :depends on bioconductor-iranges: ``>=2.40.0,<2.41.0``
+   :depends on bioconductor-rtracklayer: ``>=1.66.0,<1.67.0``
+   :depends on bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
+   :depends on bioconductor-wiggleplotr: ``>=1.30.0,<1.31.0``
+   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on r-crayon: ``>=1.5``
+   :depends on r-data.table: ``>=1.14``
+   :depends on r-dplyr: ``>=1.1``
+   :depends on r-ggplot2: ``>=3.4``
+   :depends on r-pbapply: ``>=1.7``
+   :depends on r-purrr: ``>=1.0``
+   :depends on r-rcurl: ``>=1.98``
+   :depends on r-rlang: ``>=1.1``
+   :depends on r-stringr: ``>=1.5``
+   :depends on r-tibble: ``>=3.2``
+   :depends on r-tidyr: ``>=1.3``
+   :depends on r-xml: ``>=3.99``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install bioconductor-factr
+    pixi global install bioconductor-factr
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update bioconductor-factr
+    pixi add bioconductor-factr
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname bioconductor-factr
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/bioconductor-factr:<tag>
+    conda install bioconductor-factr
 
-   (see `bioconductor-factr/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname bioconductor-factr
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/bioconductor-factr:<tag>
+
+(see `bioconductor-factr/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_bioconductor-factr| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-factr.svg?style=flat
    :target: https://anaconda.org/bioconda/bioconductor-factr
    :alt:   (downloads)

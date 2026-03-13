@@ -32,46 +32,69 @@ metawrap-mg
       
 
    
-   :depends metawrap-mg: ``>=1.3.0,<1.4.0a0``
-   :depends prokka: ``1.*``
-   :requirements:
+   :depends on metawrap-mg: ``>=1.3.0,<1.4.0a0``
+   :depends on prokka: ``1.*``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install metawrap-annotate-bins
+    pixi global install metawrap-annotate-bins
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update metawrap-annotate-bins
+    pixi add metawrap-annotate-bins
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname metawrap-annotate-bins
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/metawrap-annotate-bins:<tag>
+    conda install metawrap-annotate-bins
 
-   (see `metawrap-annotate-bins/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname metawrap-annotate-bins
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/metawrap-annotate-bins:<tag>
+
+(see `metawrap-annotate-bins/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_metawrap-annotate-bins| image:: https://img.shields.io/conda/dn/bioconda/metawrap-annotate-bins.svg?style=flat
    :target: https://anaconda.org/bioconda/metawrap-annotate-bins
    :alt:   (downloads)
@@ -101,50 +124,73 @@ metawrap-mg
       
 
    
-   :depends bowtie2: ``2.3.5.*``
-   :depends bwa: ``0.7.17.*``
-   :depends megahit: ``1.1.3.*``
-   :depends metawrap-mg: ``>=1.3.0,<1.4.0a0``
-   :depends quast: ``5.0.2.*``
-   :depends spades: ``3.13.0.*``
-   :requirements:
+   :depends on bowtie2: ``2.3.5.*``
+   :depends on bwa: ``0.7.17.*``
+   :depends on megahit: ``1.1.3.*``
+   :depends on metawrap-mg: ``>=1.3.0,<1.4.0a0``
+   :depends on quast: ``5.0.2.*``
+   :depends on spades: ``3.13.0.*``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install metawrap-assembly
+    pixi global install metawrap-assembly
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update metawrap-assembly
+    pixi add metawrap-assembly
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname metawrap-assembly
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/metawrap-assembly:<tag>
+    conda install metawrap-assembly
 
-   (see `metawrap-assembly/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname metawrap-assembly
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/metawrap-assembly:<tag>
+
+(see `metawrap-assembly/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_metawrap-assembly| image:: https://img.shields.io/conda/dn/bioconda/metawrap-assembly.svg?style=flat
    :target: https://anaconda.org/bioconda/metawrap-assembly
    :alt:   (downloads)
@@ -174,54 +220,77 @@ metawrap-mg
       
 
    
-   :depends bwa: ``0.7.17.*``
-   :depends checkm-genome: ``1.0.12.*``
-   :depends concoct: ``1.0.0.*``
-   :depends curl: 
-   :depends libgfortran: ``3.*``
-   :depends maxbin2: ``2.2.6.*``
-   :depends metabat2: ``2.12.1.*``
-   :depends metawrap-mg: ``>=1.3.0,<1.4.0a0``
-   :depends pplacer: ``1.1.alpha19.*``
-   :depends samtools: ``1.9.*``
-   :requirements:
+   :depends on bwa: ``0.7.17.*``
+   :depends on checkm-genome: ``1.0.12.*``
+   :depends on concoct: ``1.0.0.*``
+   :depends on curl: 
+   :depends on libgfortran: ``3.*``
+   :depends on maxbin2: ``2.2.6.*``
+   :depends on metabat2: ``2.12.1.*``
+   :depends on metawrap-mg: ``>=1.3.0,<1.4.0a0``
+   :depends on pplacer: ``1.1.alpha19.*``
+   :depends on samtools: ``1.9.*``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install metawrap-binning
+    pixi global install metawrap-binning
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update metawrap-binning
+    pixi add metawrap-binning
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname metawrap-binning
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/metawrap-binning:<tag>
+    conda install metawrap-binning
 
-   (see `metawrap-binning/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname metawrap-binning
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/metawrap-binning:<tag>
+
+(see `metawrap-binning/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_metawrap-binning| image:: https://img.shields.io/conda/dn/bioconda/metawrap-binning.svg?style=flat
    :target: https://anaconda.org/bioconda/metawrap-binning
    :alt:   (downloads)
@@ -251,52 +320,75 @@ metawrap-mg
       
 
    
-   :depends blast: ``2.6.0.*``
-   :depends bowtie2: ``2.3.5.*``
-   :depends metawrap-mg: ``>=1.3.0,<1.4.0a0``
-   :depends perl-bioperl: 
-   :depends r-ggplot2: ``3.1.0.*``
-   :depends r-recommended: ``3.5.1.*``
-   :depends r-reshape2: 
-   :depends samtools: ``1.9.*``
-   :requirements:
+   :depends on blast: ``2.6.0.*``
+   :depends on bowtie2: ``2.3.5.*``
+   :depends on metawrap-mg: ``>=1.3.0,<1.4.0a0``
+   :depends on perl-bioperl: 
+   :depends on r-ggplot2: ``3.1.0.*``
+   :depends on r-recommended: ``3.5.1.*``
+   :depends on r-reshape2: 
+   :depends on samtools: ``1.9.*``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install metawrap-blobology
+    pixi global install metawrap-blobology
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update metawrap-blobology
+    pixi add metawrap-blobology
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname metawrap-blobology
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/metawrap-blobology:<tag>
+    conda install metawrap-blobology
 
-   (see `metawrap-blobology/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname metawrap-blobology
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/metawrap-blobology:<tag>
+
+(see `metawrap-blobology/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_metawrap-blobology| image:: https://img.shields.io/conda/dn/bioconda/metawrap-blobology.svg?style=flat
    :target: https://anaconda.org/bioconda/metawrap-blobology
    :alt:   (downloads)
@@ -326,47 +418,70 @@ metawrap-mg
       
 
    
-   :depends blast: ``2.6.0.*``
-   :depends metawrap-mg: ``>=1.3.0,<1.4.0a0``
-   :depends taxator-tk: ``1.3.3e.*``
-   :requirements:
+   :depends on blast: ``2.6.0.*``
+   :depends on metawrap-mg: ``>=1.3.0,<1.4.0a0``
+   :depends on taxator-tk: ``1.3.3e.*``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install metawrap-classify-bins
+    pixi global install metawrap-classify-bins
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update metawrap-classify-bins
+    pixi add metawrap-classify-bins
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname metawrap-classify-bins
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/metawrap-classify-bins:<tag>
+    conda install metawrap-classify-bins
 
-   (see `metawrap-classify-bins/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname metawrap-classify-bins
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/metawrap-classify-bins:<tag>
+
+(see `metawrap-classify-bins/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_metawrap-classify-bins| image:: https://img.shields.io/conda/dn/bioconda/metawrap-classify-bins.svg?style=flat
    :target: https://anaconda.org/bioconda/metawrap-classify-bins
    :alt:   (downloads)
@@ -396,49 +511,72 @@ metawrap-mg
       
 
    
-   :depends jellyfish: 
-   :depends kraken: ``1.1.1.*``
-   :depends kraken2: ``2.0.*``
-   :depends krona: ``2.7.*``
-   :depends metawrap-mg: ``>=1.3.0,<1.4.0a0``
-   :requirements:
+   :depends on jellyfish: 
+   :depends on kraken: ``1.1.1.*``
+   :depends on kraken2: ``2.0.*``
+   :depends on krona: ``2.7.*``
+   :depends on metawrap-mg: ``>=1.3.0,<1.4.0a0``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install metawrap-kraken
+    pixi global install metawrap-kraken
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update metawrap-kraken
+    pixi add metawrap-kraken
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname metawrap-kraken
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/metawrap-kraken:<tag>
+    conda install metawrap-kraken
 
-   (see `metawrap-kraken/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname metawrap-kraken
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/metawrap-kraken:<tag>
+
+(see `metawrap-kraken/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_metawrap-kraken| image:: https://img.shields.io/conda/dn/bioconda/metawrap-kraken.svg?style=flat
    :target: https://anaconda.org/bioconda/metawrap-kraken
    :alt:   (downloads)
@@ -468,46 +606,69 @@ metawrap-mg
       
 
    
-   :depends biopython: ``1.72.*``
-   :depends python: ``2.7.15.*``
-   :requirements:
+   :depends on biopython: ``1.72.*``
+   :depends on python: ``2.7.15.*``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install metawrap-mg
+    pixi global install metawrap-mg
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update metawrap-mg
+    pixi add metawrap-mg
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname metawrap-mg
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/metawrap-mg:<tag>
+    conda install metawrap-mg
 
-   (see `metawrap-mg/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname metawrap-mg
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/metawrap-mg:<tag>
+
+(see `metawrap-mg/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_metawrap-mg| image:: https://img.shields.io/conda/dn/bioconda/metawrap-mg.svg?style=flat
    :target: https://anaconda.org/bioconda/metawrap-mg
    :alt:   (downloads)
@@ -537,49 +698,72 @@ metawrap-mg
       
 
    
-   :depends matplotlib-base: ``2.2.5.*``
-   :depends metawrap-mg: ``>=1.3.0,<1.4.0a0``
-   :depends pandas: ``0.24.2.*``
-   :depends salmon: ``0.15.0.*``
-   :depends seaborn: ``0.9.0.*``
-   :requirements:
+   :depends on matplotlib-base: ``2.2.5.*``
+   :depends on metawrap-mg: ``>=1.3.0,<1.4.0a0``
+   :depends on pandas: ``0.24.2.*``
+   :depends on salmon: ``0.15.0.*``
+   :depends on seaborn: ``0.9.0.*``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install metawrap-quant-bins
+    pixi global install metawrap-quant-bins
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update metawrap-quant-bins
+    pixi add metawrap-quant-bins
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname metawrap-quant-bins
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/metawrap-quant-bins:<tag>
+    conda install metawrap-quant-bins
 
-   (see `metawrap-quant-bins/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname metawrap-quant-bins
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/metawrap-quant-bins:<tag>
+
+(see `metawrap-quant-bins/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_metawrap-quant-bins| image:: https://img.shields.io/conda/dn/bioconda/metawrap-quant-bins.svg?style=flat
    :target: https://anaconda.org/bioconda/metawrap-quant-bins
    :alt:   (downloads)
@@ -609,48 +793,71 @@ metawrap-mg
       
 
    
-   :depends bmtagger: ``3.101.*``
-   :depends fastqc: ``0.11.8.*``
-   :depends metawrap-mg: ``>=1.3.0,<1.4.0a0``
-   :depends trim-galore: ``0.5.0.*``
-   :requirements:
+   :depends on bmtagger: ``3.101.*``
+   :depends on fastqc: ``0.11.8.*``
+   :depends on metawrap-mg: ``>=1.3.0,<1.4.0a0``
+   :depends on trim-galore: ``0.5.0.*``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install metawrap-read-qc
+    pixi global install metawrap-read-qc
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update metawrap-read-qc
+    pixi add metawrap-read-qc
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname metawrap-read-qc
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/metawrap-read-qc:<tag>
+    conda install metawrap-read-qc
 
-   (see `metawrap-read-qc/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname metawrap-read-qc
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/metawrap-read-qc:<tag>
+
+(see `metawrap-read-qc/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_metawrap-read-qc| image:: https://img.shields.io/conda/dn/bioconda/metawrap-read-qc.svg?style=flat
    :target: https://anaconda.org/bioconda/metawrap-read-qc
    :alt:   (downloads)
@@ -680,52 +887,75 @@ metawrap-mg
       
 
    
-   :depends bwa: ``0.7.17.*``
-   :depends checkm-genome: ``1.0.12.*``
-   :depends curl: 
-   :depends matplotlib-base: ``2.2.5.*``
-   :depends metawrap-mg: ``>=1.3.0,<1.4.0a0``
-   :depends minimap2: 
-   :depends pplacer: ``1.1.alpha19.*``
-   :depends spades: ``3.13.0.*``
-   :requirements:
+   :depends on bwa: ``0.7.17.*``
+   :depends on checkm-genome: ``1.0.12.*``
+   :depends on curl: 
+   :depends on matplotlib-base: ``2.2.5.*``
+   :depends on metawrap-mg: ``>=1.3.0,<1.4.0a0``
+   :depends on minimap2: 
+   :depends on pplacer: ``1.1.alpha19.*``
+   :depends on spades: ``3.13.0.*``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install metawrap-reassemble-bins
+    pixi global install metawrap-reassemble-bins
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update metawrap-reassemble-bins
+    pixi add metawrap-reassemble-bins
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname metawrap-reassemble-bins
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/metawrap-reassemble-bins:<tag>
+    conda install metawrap-reassemble-bins
 
-   (see `metawrap-reassemble-bins/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname metawrap-reassemble-bins
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/metawrap-reassemble-bins:<tag>
+
+(see `metawrap-reassemble-bins/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_metawrap-reassemble-bins| image:: https://img.shields.io/conda/dn/bioconda/metawrap-reassemble-bins.svg?style=flat
    :target: https://anaconda.org/bioconda/metawrap-reassemble-bins
    :alt:   (downloads)
@@ -755,52 +985,75 @@ metawrap-mg
       
 
    
-   :depends checkm-genome: ``1.0.12.*``
-   :depends curl: 
-   :depends jellyfish: 
-   :depends kraken: ``1.1.1.*``
-   :depends krona: ``2.7.*``
-   :depends matplotlib-base: ``2.2.5.*``
-   :depends metawrap-mg: ``>=1.3.0,<1.4.0a0``
-   :depends pplacer: ``1.1.alpha19.*``
-   :requirements:
+   :depends on checkm-genome: ``1.0.12.*``
+   :depends on curl: 
+   :depends on jellyfish: 
+   :depends on kraken: ``1.1.1.*``
+   :depends on krona: ``2.7.*``
+   :depends on matplotlib-base: ``2.2.5.*``
+   :depends on metawrap-mg: ``>=1.3.0,<1.4.0a0``
+   :depends on pplacer: ``1.1.alpha19.*``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install metawrap-refinement
+    pixi global install metawrap-refinement
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update metawrap-refinement
+    pixi add metawrap-refinement
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname metawrap-refinement
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/metawrap-refinement:<tag>
+    conda install metawrap-refinement
 
-   (see `metawrap-refinement/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname metawrap-refinement
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/metawrap-refinement:<tag>
+
+(see `metawrap-refinement/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_metawrap-refinement| image:: https://img.shields.io/conda/dn/bioconda/metawrap-refinement.svg?style=flat
    :target: https://anaconda.org/bioconda/metawrap-refinement
    :alt:   (downloads)

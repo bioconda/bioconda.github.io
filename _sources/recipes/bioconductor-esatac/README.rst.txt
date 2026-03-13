@@ -41,66 +41,65 @@ bioconductor-esatac
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0a0``
-   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
-   :depends bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
-   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0``
-   :depends bioconductor-biostrings: ``>=2.78.0,<2.79.0a0``
-   :depends bioconductor-bsgenome: ``>=1.78.0,<1.79.0``
-   :depends bioconductor-bsgenome: ``>=1.78.0,<1.79.0a0``
-   :depends bioconductor-chipseeker: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-chipseeker: ``>=1.46.1,<1.47.0a0``
-   :depends bioconductor-clusterprofiler: ``>=4.18.0,<4.19.0``
-   :depends bioconductor-clusterprofiler: ``>=4.18.4,<4.19.0a0``
-   :depends bioconductor-genomicalignments: ``>=1.46.0,<1.47.0``
-   :depends bioconductor-genomicalignments: ``>=1.46.0,<1.47.0a0``
-   :depends bioconductor-genomicfeatures: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-genomicfeatures: ``>=1.62.0,<1.63.0a0``
-   :depends bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
-   :depends bioconductor-genomicranges: ``>=1.62.1,<1.63.0a0``
-   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0``
-   :depends bioconductor-iranges: ``>=2.44.0,<2.45.0a0``
-   :depends bioconductor-jaspar2018: ``>=1.1.0,<1.2.0``
-   :depends bioconductor-jaspar2018: ``>=1.1.1,<1.2.0a0``
-   :depends bioconductor-motifmatchr: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-motifmatchr: ``>=1.32.0,<1.33.0a0``
-   :depends bioconductor-pipeframe: ``>=1.26.0,<1.27.0``
-   :depends bioconductor-pipeframe: ``>=1.26.0,<1.27.0a0``
-   :depends bioconductor-rbowtie2: ``>=2.16.0,<2.17.0``
-   :depends bioconductor-rbowtie2: ``>=2.16.0,<2.17.0a0``
-   :depends bioconductor-rsamtools: ``>=2.26.0,<2.27.0``
-   :depends bioconductor-rsamtools: ``>=2.26.0,<2.27.0a0``
-   :depends bioconductor-rtracklayer: ``>=1.70.0,<1.71.0``
-   :depends bioconductor-rtracklayer: ``>=1.70.1,<1.71.0a0``
-   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
-   :depends bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
-   :depends bioconductor-seqinfo: ``>=1.0.0,<1.1.0``
-   :depends bioconductor-seqinfo: ``>=1.0.0,<1.1.0a0``
-   :depends bioconductor-shortread: ``>=1.68.0,<1.69.0``
-   :depends bioconductor-shortread: ``>=1.68.0,<1.69.0a0``
-   :depends bioconductor-tfbstools: ``>=1.48.0,<1.49.0``
-   :depends bioconductor-tfbstools: ``>=1.48.0,<1.49.0a0``
-   :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libgcc: ``>=14``
-   :depends liblapack: ``>=3.9.0,<4.0a0``
-   :depends liblzma: ``>=5.8.2,<6.0a0``
-   :depends libstdcxx: ``>=14``
-   :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends r-base: ``>=4.5,<4.6.0a0``
-   :depends r-biocmanager: 
-   :depends r-corrplot: 
-   :depends r-digest: 
-   :depends r-ggplot2: 
-   :depends r-igraph: 
-   :depends r-knitr: 
-   :depends r-magrittr: 
-   :depends r-r.utils: 
-   :depends r-rcpp: ``>=0.12.11``
-   :depends r-rjava: 
-   :depends r-rmarkdown: 
-   :depends r-venndiagram: 
-   :requirements:
+   :depends on bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends on bioconductor-annotationdbi: ``>=1.72.0,<1.73.0a0``
+   :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
+   :depends on bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends on bioconductor-biostrings: ``>=2.78.0,<2.79.0a0``
+   :depends on bioconductor-bsgenome: ``>=1.78.0,<1.79.0``
+   :depends on bioconductor-bsgenome: ``>=1.78.0,<1.79.0a0``
+   :depends on bioconductor-chipseeker: ``>=1.46.0,<1.47.0``
+   :depends on bioconductor-chipseeker: ``>=1.46.1,<1.47.0a0``
+   :depends on bioconductor-clusterprofiler: ``>=4.18.0,<4.19.0``
+   :depends on bioconductor-clusterprofiler: ``>=4.18.4,<4.19.0a0``
+   :depends on bioconductor-genomicalignments: ``>=1.46.0,<1.47.0``
+   :depends on bioconductor-genomicalignments: ``>=1.46.0,<1.47.0a0``
+   :depends on bioconductor-genomicfeatures: ``>=1.62.0,<1.63.0``
+   :depends on bioconductor-genomicfeatures: ``>=1.62.0,<1.63.0a0``
+   :depends on bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends on bioconductor-genomicranges: ``>=1.62.1,<1.63.0a0``
+   :depends on bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends on bioconductor-iranges: ``>=2.44.0,<2.45.0a0``
+   :depends on bioconductor-jaspar2018: ``>=1.1.0,<1.2.0``
+   :depends on bioconductor-jaspar2018: ``>=1.1.1,<1.2.0a0``
+   :depends on bioconductor-motifmatchr: ``>=1.32.0,<1.33.0``
+   :depends on bioconductor-motifmatchr: ``>=1.32.0,<1.33.0a0``
+   :depends on bioconductor-pipeframe: ``>=1.26.0,<1.27.0``
+   :depends on bioconductor-pipeframe: ``>=1.26.0,<1.27.0a0``
+   :depends on bioconductor-rbowtie2: ``>=2.16.0,<2.17.0``
+   :depends on bioconductor-rbowtie2: ``>=2.16.0,<2.17.0a0``
+   :depends on bioconductor-rsamtools: ``>=2.26.0,<2.27.0``
+   :depends on bioconductor-rsamtools: ``>=2.26.0,<2.27.0a0``
+   :depends on bioconductor-rtracklayer: ``>=1.70.0,<1.71.0``
+   :depends on bioconductor-rtracklayer: ``>=1.70.1,<1.71.0a0``
+   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
+   :depends on bioconductor-seqinfo: ``>=1.0.0,<1.1.0``
+   :depends on bioconductor-seqinfo: ``>=1.0.0,<1.1.0a0``
+   :depends on bioconductor-shortread: ``>=1.68.0,<1.69.0``
+   :depends on bioconductor-shortread: ``>=1.68.0,<1.69.0a0``
+   :depends on bioconductor-tfbstools: ``>=1.48.0,<1.49.0``
+   :depends on bioconductor-tfbstools: ``>=1.48.0,<1.49.0a0``
+   :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on liblapack: ``>=3.9.0,<4.0a0``
+   :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-biocmanager: 
+   :depends on r-corrplot: 
+   :depends on r-digest: 
+   :depends on r-ggplot2: 
+   :depends on r-igraph: 
+   :depends on r-knitr: 
+   :depends on r-magrittr: 
+   :depends on r-r.utils: 
+   :depends on r-rcpp: ``>=0.12.11``
+   :depends on r-rjava: 
+   :depends on r-rmarkdown: 
+   :depends on r-venndiagram: 
 
    :additional platforms:
       
@@ -109,39 +108,63 @@ bioconductor-esatac
          <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install bioconductor-esatac
+    pixi global install bioconductor-esatac
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update bioconductor-esatac
+    pixi add bioconductor-esatac
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname bioconductor-esatac
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/bioconductor-esatac:<tag>
+    conda install bioconductor-esatac
 
-   (see `bioconductor-esatac/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname bioconductor-esatac
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/bioconductor-esatac:<tag>
+
+(see `bioconductor-esatac/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_bioconductor-esatac| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-esatac.svg?style=flat
    :target: https://anaconda.org/bioconda/bioconductor-esatac
    :alt:   (downloads)

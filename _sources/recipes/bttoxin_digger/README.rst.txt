@@ -42,59 +42,82 @@ bttoxin_digger
       
 
    
-   :depends abyss: 
-   :depends blast: 
-   :depends bwa: 
-   :depends canu: 
-   :depends fastp: 
-   :depends hmmer: 
-   :depends libsvm: 
-   :depends perl-bioperl: ``>=1.7.2``
-   :depends perl-file-tee: 
-   :depends perl-getopt-long: 
-   :depends perl-list-util: 
-   :depends perl-pod-usage: 
-   :depends racon: 
-   :depends spades: ``>=3.6.2,<=3.13.0``
-   :depends unicycler: ``0.4.7.*``
-   :requirements:
+   :depends on abyss: 
+   :depends on blast: 
+   :depends on bwa: 
+   :depends on canu: 
+   :depends on fastp: 
+   :depends on hmmer: 
+   :depends on libsvm: 
+   :depends on perl-bioperl: ``>=1.7.2``
+   :depends on perl-file-tee: 
+   :depends on perl-getopt-long: 
+   :depends on perl-list-util: 
+   :depends on perl-pod-usage: 
+   :depends on racon: 
+   :depends on spades: ``>=3.6.2,<=3.13.0``
+   :depends on unicycler: ``0.4.7.*``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install bttoxin_digger
+    pixi global install bttoxin_digger
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update bttoxin_digger
+    pixi add bttoxin_digger
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname bttoxin_digger
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/bttoxin_digger:<tag>
+    conda install bttoxin_digger
 
-   (see `bttoxin_digger/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname bttoxin_digger
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/bttoxin_digger:<tag>
+
+(see `bttoxin_digger/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_bttoxin_digger| image:: https://img.shields.io/conda/dn/bioconda/bttoxin_digger.svg?style=flat
    :target: https://anaconda.org/bioconda/bttoxin_digger
    :alt:   (downloads)

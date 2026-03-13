@@ -3,7 +3,7 @@
    To build the documentation locally, first create an environment using
    bioconda_utils/bioconda_utils-requirements.txt.
 
-   mamba create -p ./env --file https://raw.githubusercontent.com/bioconda/bioconda-utils/master/bioconda_utils/bioconda_utils-requirements.txt -y
+   conda create -p ./env --file https://raw.githubusercontent.com/bioconda/bioconda-utils/master/bioconda_utils/bioconda_utils-requirements.txt -y
 
    With that env activated, run:
 
@@ -21,6 +21,8 @@
 biomedical research using the `conda <https://conda.io>`_ package manager.
 
 **NOTE**: *Bioconda supports only Linux (64-bit and AArch64) and macOS (x86_64 and ARM64)*
+
+.. _bioconda_setup:
 
 Usage
 =====

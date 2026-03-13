@@ -32,69 +32,92 @@ simphyni
       
 
    
-   :depends annotated-types: ``>=0.7.0``
-   :depends biopython: ``>=1.85``
-   :depends certifi: ``>=2025.1.31``
-   :depends charset-normalizer: ``>=3.4.1``
-   :depends ete3: ``>=3.1.3``
-   :depends idna: ``>=3.10``
-   :depends itolapi: ``>=4.1.5``
-   :depends jinja2: ``>=3.1.6``
-   :depends joblib: ``>=1.4.2``
-   :depends markupsafe: ``>=3.0.2``
-   :depends matplotlib-base: ``>=3.10.1``
-   :depends numba: ``>=0.62.0``
-   :depends numpy: ``>=2.2.3``
-   :depends pandas: ``>=2.2.3``
-   :depends pastml: ``>=1.9.50``
-   :depends pydantic: ``>=2.10.6``
-   :depends pydantic-core: ``>=2.27.2``
-   :depends python: ``>=3.11,<3.13``
-   :depends requests: ``>=2.32.3``
-   :depends scikit-learn: ``>=1.6.1``
-   :depends scipy: ``1.14.0.*``
-   :depends seaborn: ``>=0.13.0,<0.14``
-   :depends snakemake: ``>=9.10``
-   :depends statsmodels: ``>=0.14.4``
-   :depends urllib3: ``>=2.4.0``
-   :requirements:
+   :depends on annotated-types: ``>=0.7.0``
+   :depends on biopython: ``>=1.85``
+   :depends on certifi: ``>=2025.1.31``
+   :depends on charset-normalizer: ``>=3.4.1``
+   :depends on ete3: ``>=3.1.3``
+   :depends on idna: ``>=3.10``
+   :depends on itolapi: ``>=4.1.5``
+   :depends on jinja2: ``>=3.1.6``
+   :depends on joblib: ``>=1.4.2``
+   :depends on markupsafe: ``>=3.0.2``
+   :depends on matplotlib-base: ``>=3.10.1``
+   :depends on numba: ``>=0.62.0``
+   :depends on numpy: ``>=2.2.3``
+   :depends on pandas: ``>=2.2.3``
+   :depends on pastml: ``>=1.9.50``
+   :depends on pydantic: ``>=2.10.6``
+   :depends on pydantic-core: ``>=2.27.2``
+   :depends on python: ``>=3.11,<3.13``
+   :depends on requests: ``>=2.32.3``
+   :depends on scikit-learn: ``>=1.6.1``
+   :depends on scipy: ``1.14.0.*``
+   :depends on seaborn: ``>=0.13.0,<0.14``
+   :depends on snakemake: ``>=9.10``
+   :depends on statsmodels: ``>=0.14.4``
+   :depends on urllib3: ``>=2.4.0``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install simphyni
+    pixi global install simphyni
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update simphyni
+    pixi add simphyni
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname simphyni
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/simphyni:<tag>
+    conda install simphyni
 
-   (see `simphyni/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname simphyni
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/simphyni:<tag>
+
+(see `simphyni/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_simphyni| image:: https://img.shields.io/conda/dn/bioconda/simphyni.svg?style=flat
    :target: https://anaconda.org/bioconda/simphyni
    :alt:   (downloads)

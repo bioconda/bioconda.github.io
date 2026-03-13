@@ -32,62 +32,85 @@ pymlst
       
 
    
-   :depends alembic: ``>=1.6``
-   :depends beautifulsoup4: ``>=4.9``
-   :depends biopython: ``>=1.78``
-   :depends click: ``>=7.1``
-   :depends decorator: ``>=4.4``
-   :depends git: ``>=1.7``
-   :depends gitpython: ``>=3.1``
-   :depends kma: ``>=1.3``
-   :depends mafft: ``>=7.3``
-   :depends networkx: ``>=2.5``
-   :depends numpy: ``>=1.20``
-   :depends pandas: ``>=1.2``
-   :depends pytest: ``>=6.2``
-   :depends python: ``>=3.7``
-   :depends questionary: ``>=1.9``
-   :depends requests: ``>=2.23``
-   :depends sqlalchemy: ``>=1.4,<2``
-   :depends ucsc-blat: ``>=360``
-   :requirements:
+   :depends on alembic: ``>=1.6``
+   :depends on beautifulsoup4: ``>=4.9``
+   :depends on biopython: ``>=1.78``
+   :depends on click: ``>=7.1``
+   :depends on decorator: ``>=4.4``
+   :depends on git: ``>=1.7``
+   :depends on gitpython: ``>=3.1``
+   :depends on kma: ``>=1.3``
+   :depends on mafft: ``>=7.3``
+   :depends on networkx: ``>=2.5``
+   :depends on numpy: ``>=1.20``
+   :depends on pandas: ``>=1.2``
+   :depends on pytest: ``>=6.2``
+   :depends on python: ``>=3.7``
+   :depends on questionary: ``>=1.9``
+   :depends on requests: ``>=2.23``
+   :depends on sqlalchemy: ``>=1.4,<2``
+   :depends on ucsc-blat: ``>=360``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install pymlst
+    pixi global install pymlst
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update pymlst
+    pixi add pymlst
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname pymlst
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/pymlst:<tag>
+    conda install pymlst
 
-   (see `pymlst/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname pymlst
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/pymlst:<tag>
+
+(see `pymlst/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_pymlst| image:: https://img.shields.io/conda/dn/bioconda/pymlst.svg?style=flat
    :target: https://anaconda.org/bioconda/pymlst
    :alt:   (downloads)

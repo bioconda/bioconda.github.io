@@ -35,60 +35,83 @@ neofox
       
 
    
-   :depends betterproto: ``>=1.2.5,<1.3.0``
-   :depends biopython: ``>1.80``
-   :depends blast: 
-   :depends dask: ``>=2024.0.0,<=2024.6.3``
-   :depends distributed: ``>=2024.0.0,<=2024.6.2``
-   :depends faker: ``>=13.13.0,<13.14.0``
-   :depends logzero: ``>=1.5.0``
-   :depends mock: ``>=4.0.3,<4.1.0``
-   :depends numpy: ``>=1.24,<1.27``
-   :depends pandas: ``>=2.1,<2.3``
-   :depends poetry: ``1.8.2``
-   :depends pysam: ``>0.20``
-   :depends python: ``3.11``
-   :depends python-dotenv: ``>=0.12.0,<0.13.0``
-   :depends scipy: ``>=1.10.0``
-   :depends xmltodict: ``>=0.12.0,<0.13.0``
-   :requirements:
+   :depends on betterproto: ``>=1.2.5,<1.3.0``
+   :depends on biopython: ``>1.80``
+   :depends on blast: 
+   :depends on dask: ``>=2024.0.0,<=2024.6.3``
+   :depends on distributed: ``>=2024.0.0,<=2024.6.2``
+   :depends on faker: ``>=13.13.0,<13.14.0``
+   :depends on logzero: ``>=1.5.0``
+   :depends on mock: ``>=4.0.3,<4.1.0``
+   :depends on numpy: ``>=1.24,<1.27``
+   :depends on pandas: ``>=2.1,<2.3``
+   :depends on poetry: ``1.8.2``
+   :depends on pysam: ``>0.20``
+   :depends on python: ``3.11``
+   :depends on python-dotenv: ``>=0.12.0,<0.13.0``
+   :depends on scipy: ``>=1.10.0``
+   :depends on xmltodict: ``>=0.12.0,<0.13.0``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install neofox
+    pixi global install neofox
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update neofox
+    pixi add neofox
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname neofox
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/neofox:<tag>
+    conda install neofox
 
-   (see `neofox/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname neofox
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/neofox:<tag>
+
+(see `neofox/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_neofox| image:: https://img.shields.io/conda/dn/bioconda/neofox.svg?style=flat
    :target: https://anaconda.org/bioconda/neofox
    :alt:   (downloads)

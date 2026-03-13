@@ -41,28 +41,27 @@ mgkit
       
 
    
-   :depends click: ``>=6``
-   :depends future: 
-   :depends htseq: ``>=0.9.1``
-   :depends libgcc: ``>=13``
-   :depends matplotlib-base: ``>=2``
-   :depends msgpack-python: ``>=0.5.6``
-   :depends networkx: 
-   :depends numpy: ``>=1.9.2``
-   :depends pandas: ``>=1.1.3``
-   :depends pyarrow: ``>=2.0.0``
-   :depends pymongo: ``>=3.1.1``
-   :depends pysam: ``>=0.14``
-   :depends pytables: ``>=3.4.2``
-   :depends python: ``>=3.9,<3.10.0a0``
-   :depends python_abi: ``3.9.* *_cp39``
-   :depends pyvcf: ``>=0.6.0``
-   :depends requests: 
-   :depends scipy: ``>=0.15.1``
-   :depends semidbm: ``>=0.5.1``
-   :depends statsmodels: ``>=0.12``
-   :depends tqdm: ``>=4.0``
-   :requirements:
+   :depends on click: ``>=6``
+   :depends on future: 
+   :depends on htseq: ``>=0.9.1``
+   :depends on libgcc: ``>=13``
+   :depends on matplotlib-base: ``>=2``
+   :depends on msgpack-python: ``>=0.5.6``
+   :depends on networkx: 
+   :depends on numpy: ``>=1.9.2``
+   :depends on pandas: ``>=1.1.3``
+   :depends on pyarrow: ``>=2.0.0``
+   :depends on pymongo: ``>=3.1.1``
+   :depends on pysam: ``>=0.14``
+   :depends on pytables: ``>=3.4.2``
+   :depends on python: ``>=3.9,<3.10.0a0``
+   :depends on python_abi: ``3.9.* *_cp39``
+   :depends on pyvcf: ``>=0.6.0``
+   :depends on requests: 
+   :depends on scipy: ``>=0.15.1``
+   :depends on semidbm: ``>=0.5.1``
+   :depends on statsmodels: ``>=0.12``
+   :depends on tqdm: ``>=4.0``
 
    :additional platforms:
       
@@ -71,39 +70,63 @@ mgkit
          <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install mgkit
+    pixi global install mgkit
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update mgkit
+    pixi add mgkit
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname mgkit
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/mgkit:<tag>
+    conda install mgkit
 
-   (see `mgkit/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname mgkit
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/mgkit:<tag>
+
+(see `mgkit/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_mgkit| image:: https://img.shields.io/conda/dn/bioconda/mgkit.svg?style=flat
    :target: https://anaconda.org/bioconda/mgkit
    :alt:   (downloads)

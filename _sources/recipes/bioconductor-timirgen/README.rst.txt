@@ -32,64 +32,87 @@ bioconductor-timirgen
       
 
    
-   :depends bioconductor-biomart: ``>=2.58.0,<2.59.0``
-   :depends bioconductor-clusterprofiler: ``>=4.10.0,<4.11.0``
-   :depends bioconductor-mfuzz: ``>=2.62.0,<2.63.0``
-   :depends bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0``
-   :depends bioconductor-rcy3: ``>=2.22.0,<2.23.0``
-   :depends bioconductor-rwikipathways: ``>=1.22.0,<1.23.0``
-   :depends r-base: ``>=4.3,<4.4.0a0``
-   :depends r-dplyr: ``>=0.8.4``
-   :depends r-freqprof: 
-   :depends r-ggdendro: 
-   :depends r-gghighlight: 
-   :depends r-ggplot2: 
-   :depends r-gplots: 
-   :depends r-gtools: ``>=3.8.1``
-   :depends r-igraph: ``>=1.2.4.2``
-   :depends r-readxl: 
-   :depends r-reshape2: 
-   :depends r-scales: 
-   :depends r-stringr: ``>=1.4.0``
-   :depends r-tidyr: ``>=1.0.2``
-   :requirements:
+   :depends on bioconductor-biomart: ``>=2.58.0,<2.59.0``
+   :depends on bioconductor-clusterprofiler: ``>=4.10.0,<4.11.0``
+   :depends on bioconductor-mfuzz: ``>=2.62.0,<2.63.0``
+   :depends on bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0``
+   :depends on bioconductor-rcy3: ``>=2.22.0,<2.23.0``
+   :depends on bioconductor-rwikipathways: ``>=1.22.0,<1.23.0``
+   :depends on r-base: ``>=4.3,<4.4.0a0``
+   :depends on r-dplyr: ``>=0.8.4``
+   :depends on r-freqprof: 
+   :depends on r-ggdendro: 
+   :depends on r-gghighlight: 
+   :depends on r-ggplot2: 
+   :depends on r-gplots: 
+   :depends on r-gtools: ``>=3.8.1``
+   :depends on r-igraph: ``>=1.2.4.2``
+   :depends on r-readxl: 
+   :depends on r-reshape2: 
+   :depends on r-scales: 
+   :depends on r-stringr: ``>=1.4.0``
+   :depends on r-tidyr: ``>=1.0.2``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install bioconductor-timirgen
+    pixi global install bioconductor-timirgen
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update bioconductor-timirgen
+    pixi add bioconductor-timirgen
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname bioconductor-timirgen
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/bioconductor-timirgen:<tag>
+    conda install bioconductor-timirgen
 
-   (see `bioconductor-timirgen/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname bioconductor-timirgen
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/bioconductor-timirgen:<tag>
+
+(see `bioconductor-timirgen/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_bioconductor-timirgen| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-timirgen.svg?style=flat
    :target: https://anaconda.org/bioconda/bioconductor-timirgen
    :alt:   (downloads)

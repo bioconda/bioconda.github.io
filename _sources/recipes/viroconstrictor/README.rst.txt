@@ -41,64 +41,87 @@ viroconstrictor
       
 
    
-   :depends aminoextract: ``0.4.1``
-   :depends bcbio-gff: ``0.7.1``
-   :depends biopython: ``1.85``
-   :depends biovalid: ``0.3.0``
-   :depends conda: 
-   :depends drmaa: ``0.7.9``
-   :depends fpdf2: ``2.8.4``
-   :depends mamba: ``>=1.5.0,<2.0.0``
-   :depends openpyxl: ``3.1.5``
-   :depends pandas: ``2.3.3``
-   :depends python: ``>=3.10``
-   :depends python-magic: ``0.4.27``
-   :depends pyyaml: ``6.0.3``
-   :depends rich: ``13.9.4``
-   :depends snakemake-executor-plugin-drmaa: ``0.1.5``
-   :depends snakemake-executor-plugin-lsf: ``0.2.6``
-   :depends snakemake-executor-plugin-slurm: ``2.0.0``
-   :depends snakemake-interface-logger-plugins: ``1.2.4``
-   :depends snakemake-minimal: ``9.5.1``
-   :depends urllib3: ``2.5.0``
-   :requirements:
+   :depends on aminoextract: ``0.4.1``
+   :depends on bcbio-gff: ``0.7.1``
+   :depends on biopython: ``1.85``
+   :depends on biovalid: ``0.3.0``
+   :depends on conda: 
+   :depends on drmaa: ``0.7.9``
+   :depends on fpdf2: ``2.8.4``
+   :depends on mamba: ``>=1.5.0,<2.0.0``
+   :depends on openpyxl: ``3.1.5``
+   :depends on pandas: ``2.3.3``
+   :depends on python: ``>=3.10``
+   :depends on python-magic: ``0.4.27``
+   :depends on pyyaml: ``6.0.3``
+   :depends on rich: ``13.9.4``
+   :depends on snakemake-executor-plugin-drmaa: ``0.1.5``
+   :depends on snakemake-executor-plugin-lsf: ``0.2.6``
+   :depends on snakemake-executor-plugin-slurm: ``2.0.0``
+   :depends on snakemake-interface-logger-plugins: ``1.2.4``
+   :depends on snakemake-minimal: ``9.5.1``
+   :depends on urllib3: ``2.5.0``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install viroconstrictor
+    pixi global install viroconstrictor
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update viroconstrictor
+    pixi add viroconstrictor
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname viroconstrictor
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/viroconstrictor:<tag>
+    conda install viroconstrictor
 
-   (see `viroconstrictor/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname viroconstrictor
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/viroconstrictor:<tag>
+
+(see `viroconstrictor/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_viroconstrictor| image:: https://img.shields.io/conda/dn/bioconda/viroconstrictor.svg?style=flat
    :target: https://anaconda.org/bioconda/viroconstrictor
    :alt:   (downloads)

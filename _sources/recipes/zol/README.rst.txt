@@ -42,51 +42,50 @@ zol
       
 
    
-   :depends aiofile: 
-   :depends aiohttp: 
-   :depends bioconductor-ggtree: 
-   :depends biopython: 
-   :depends codoff: ``>=1.2.3``
-   :depends colour: 
-   :depends curl: 
-   :depends diamond: ``2.1.11.*``
-   :depends ete3: 
-   :depends fasttree: 
-   :depends gzip: 
-   :depends hmmer: ``>=3.0.0``
-   :depends hyphy: ``>=2.5.14``
-   :depends legacy-cgi: 
-   :depends libgcc: ``>=14``
-   :depends libstdcxx: ``>=14``
-   :depends mcl: 
-   :depends miniprot: ``0.13.*``
-   :depends muscle: ``5.1.*``
-   :depends pal2nal: ``>=14.1``
-   :depends pandas: ``>=2.0``
-   :depends peptides: 
-   :depends pip: 
-   :depends pomegranate: ``>=1.0.0``
-   :depends prodigal: 
-   :depends prodigal-gv: 
-   :depends pyhmmer: ``0.11.4.*``
-   :depends pympler: 
-   :depends pyrodigal: 
-   :depends python: ``>=3.10,<3.11.0a0``
-   :depends python_abi: ``3.10.* *_cp310``
-   :depends r-base: 
-   :depends r-cowplot: 
-   :depends r-gggenes: 
-   :depends r-ggplot2: 
-   :depends r-gridextra: 
-   :depends rich-argparse: 
-   :depends scikit-learn: 
-   :depends setuptools: 
-   :depends skani: ``>=0.2.2``
-   :depends slclust: 
-   :depends tqdm: 
-   :depends trimal: 
-   :depends xlsxwriter: ``>=3.0.3``
-   :requirements:
+   :depends on aiofile: 
+   :depends on aiohttp: 
+   :depends on bioconductor-ggtree: 
+   :depends on biopython: 
+   :depends on codoff: ``>=1.2.3``
+   :depends on colour: 
+   :depends on curl: 
+   :depends on diamond: ``2.1.11.*``
+   :depends on ete3: 
+   :depends on fasttree: 
+   :depends on gzip: 
+   :depends on hmmer: ``>=3.0.0``
+   :depends on hyphy: ``>=2.5.14``
+   :depends on legacy-cgi: 
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on mcl: 
+   :depends on miniprot: ``0.13.*``
+   :depends on muscle: ``5.1.*``
+   :depends on pal2nal: ``>=14.1``
+   :depends on pandas: ``>=2.0``
+   :depends on peptides: 
+   :depends on pip: 
+   :depends on pomegranate: ``>=1.0.0``
+   :depends on prodigal: 
+   :depends on prodigal-gv: 
+   :depends on pyhmmer: ``0.11.4.*``
+   :depends on pympler: 
+   :depends on pyrodigal: 
+   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on r-base: 
+   :depends on r-cowplot: 
+   :depends on r-gggenes: 
+   :depends on r-ggplot2: 
+   :depends on r-gridextra: 
+   :depends on rich-argparse: 
+   :depends on scikit-learn: 
+   :depends on setuptools: 
+   :depends on skani: ``>=0.2.2``
+   :depends on slclust: 
+   :depends on tqdm: 
+   :depends on trimal: 
+   :depends on xlsxwriter: ``>=3.0.3``
 
    :additional platforms:
       
@@ -95,39 +94,63 @@ zol
          <span class="additional-platforms"><code>osx-arm64</code>,  <code>linux-aarch64</code></span>
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install zol
+    pixi global install zol
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update zol
+    pixi add zol
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname zol
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/zol:<tag>
+    conda install zol
 
-   (see `zol/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname zol
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/zol:<tag>
+
+(see `zol/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_zol| image:: https://img.shields.io/conda/dn/bioconda/zol.svg?style=flat
    :target: https://anaconda.org/bioconda/zol
    :alt:   (downloads)

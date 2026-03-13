@@ -40,90 +40,113 @@ trnanalysis
       
 
    
-   :depends bcftools: 
-   :depends bioconductor-deseq2: 
-   :depends bioconductor-org.hs.eg.db: 
-   :depends bowtie: 
-   :depends cgat-apps: 
-   :depends cgatcore: ``>=0.6.5``
-   :depends configparser: 
-   :depends ez_setup: 
-   :depends fastq-screen: 
-   :depends fastqc: 
-   :depends multiqc: 
-   :depends mysqlclient: 
-   :depends numpy: ``>=1.16.4``
-   :depends pandas: 
-   :depends pysam: ``0.15.2.*``
-   :depends python: ``>=3``
-   :depends pyyaml: ``>=5.1``
-   :depends r-base: 
-   :depends r-codetools: 
-   :depends r-dplyr: 
-   :depends r-dt: 
-   :depends r-fastqcr: 
-   :depends r-ggplot2: 
-   :depends r-ggpubr: 
-   :depends r-ggrepel: 
-   :depends r-ggthemes: 
-   :depends r-gridbase: 
-   :depends r-htmltools: 
-   :depends r-knitr: 
-   :depends r-optparse: 
-   :depends r-pheatmap: 
-   :depends r-plotly: 
-   :depends r-rcolorbrewer: 
-   :depends r-reshape2: 
-   :depends r-scales: 
-   :depends r-stringr: 
-   :depends r-tidyverse: 
-   :depends r-yaml: 
-   :depends ruffus: 
-   :depends samtools: 
-   :depends seaborn: 
-   :depends seqtk: 
-   :depends sortedcontainers: 
-   :depends subread: 
-   :depends trimmomatic: 
-   :depends trnascan-se: 
-   :requirements:
+   :depends on bcftools: 
+   :depends on bioconductor-deseq2: 
+   :depends on bioconductor-org.hs.eg.db: 
+   :depends on bowtie: 
+   :depends on cgat-apps: 
+   :depends on cgatcore: ``>=0.6.5``
+   :depends on configparser: 
+   :depends on ez_setup: 
+   :depends on fastq-screen: 
+   :depends on fastqc: 
+   :depends on multiqc: 
+   :depends on mysqlclient: 
+   :depends on numpy: ``>=1.16.4``
+   :depends on pandas: 
+   :depends on pysam: ``0.15.2.*``
+   :depends on python: ``>=3``
+   :depends on pyyaml: ``>=5.1``
+   :depends on r-base: 
+   :depends on r-codetools: 
+   :depends on r-dplyr: 
+   :depends on r-dt: 
+   :depends on r-fastqcr: 
+   :depends on r-ggplot2: 
+   :depends on r-ggpubr: 
+   :depends on r-ggrepel: 
+   :depends on r-ggthemes: 
+   :depends on r-gridbase: 
+   :depends on r-htmltools: 
+   :depends on r-knitr: 
+   :depends on r-optparse: 
+   :depends on r-pheatmap: 
+   :depends on r-plotly: 
+   :depends on r-rcolorbrewer: 
+   :depends on r-reshape2: 
+   :depends on r-scales: 
+   :depends on r-stringr: 
+   :depends on r-tidyverse: 
+   :depends on r-yaml: 
+   :depends on ruffus: 
+   :depends on samtools: 
+   :depends on seaborn: 
+   :depends on seqtk: 
+   :depends on sortedcontainers: 
+   :depends on subread: 
+   :depends on trimmomatic: 
+   :depends on trnascan-se: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install trnanalysis
+    pixi global install trnanalysis
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update trnanalysis
+    pixi add trnanalysis
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname trnanalysis
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/trnanalysis:<tag>
+    conda install trnanalysis
 
-   (see `trnanalysis/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname trnanalysis
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/trnanalysis:<tag>
+
+(see `trnanalysis/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_trnanalysis| image:: https://img.shields.io/conda/dn/bioconda/trnanalysis.svg?style=flat
    :target: https://anaconda.org/bioconda/trnanalysis
    :alt:   (downloads)

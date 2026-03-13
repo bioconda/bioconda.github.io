@@ -32,81 +32,104 @@ perl-bio-viennangs
       
 
    
-   :depends bedtools: ``>=2.24``
-   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends perl-bio-procedural: 
-   :depends perl-bio-samtools: 
-   :depends perl-bioperl: 
-   :depends perl-carp: 
-   :depends perl-constant: 
-   :depends perl-data-dumper: 
-   :depends perl-exporter: 
-   :depends perl-file-find: 
-   :depends perl-file-path: 
-   :depends perl-file-share: 
-   :depends perl-file-slurp: 
-   :depends perl-file-temp: 
-   :depends perl-findbin: 
-   :depends perl-getopt-long: 
-   :depends perl-ipc-cmd: 
-   :depends perl-lib: 
-   :depends perl-math-round: 
-   :depends perl-moose: 
-   :depends perl-moosex-clone: 
-   :depends perl-namespace-autoclean: 
-   :depends perl-params-coerce: 
-   :depends perl-path-class: 
-   :depends perl-perlio-gzip: 
-   :depends perl-pod-usage: 
-   :depends perl-posix: 
-   :depends perl-scalar-list-utils: 
-   :depends perl-template-toolkit: 
-   :depends perl-test-deep: 
-   :depends perl-test-file-contents: 
-   :depends perl-test-files: 
-   :depends perl-tie-hash-indexed: 
-   :depends ucsc-bedgraphtobigwig: 
-   :depends ucsc-bedtobigbed: 
-   :depends ucsc-fatotwobit: 
-   :depends ucsc-fetchchromsizes: 
-   :requirements:
+   :depends on bedtools: ``>=2.24``
+   :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends on perl-bio-procedural: 
+   :depends on perl-bio-samtools: 
+   :depends on perl-bioperl: 
+   :depends on perl-carp: 
+   :depends on perl-constant: 
+   :depends on perl-data-dumper: 
+   :depends on perl-exporter: 
+   :depends on perl-file-find: 
+   :depends on perl-file-path: 
+   :depends on perl-file-share: 
+   :depends on perl-file-slurp: 
+   :depends on perl-file-temp: 
+   :depends on perl-findbin: 
+   :depends on perl-getopt-long: 
+   :depends on perl-ipc-cmd: 
+   :depends on perl-lib: 
+   :depends on perl-math-round: 
+   :depends on perl-moose: 
+   :depends on perl-moosex-clone: 
+   :depends on perl-namespace-autoclean: 
+   :depends on perl-params-coerce: 
+   :depends on perl-path-class: 
+   :depends on perl-perlio-gzip: 
+   :depends on perl-pod-usage: 
+   :depends on perl-posix: 
+   :depends on perl-scalar-list-utils: 
+   :depends on perl-template-toolkit: 
+   :depends on perl-test-deep: 
+   :depends on perl-test-file-contents: 
+   :depends on perl-test-files: 
+   :depends on perl-tie-hash-indexed: 
+   :depends on ucsc-bedgraphtobigwig: 
+   :depends on ucsc-bedtobigbed: 
+   :depends on ucsc-fatotwobit: 
+   :depends on ucsc-fetchchromsizes: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install perl-bio-viennangs
+    pixi global install perl-bio-viennangs
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update perl-bio-viennangs
+    pixi add perl-bio-viennangs
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname perl-bio-viennangs
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/perl-bio-viennangs:<tag>
+    conda install perl-bio-viennangs
 
-   (see `perl-bio-viennangs/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname perl-bio-viennangs
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/perl-bio-viennangs:<tag>
+
+(see `perl-bio-viennangs/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_perl-bio-viennangs| image:: https://img.shields.io/conda/dn/bioconda/perl-bio-viennangs.svg?style=flat
    :target: https://anaconda.org/bioconda/perl-bio-viennangs
    :alt:   (downloads)

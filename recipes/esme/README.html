@@ -94,380 +94,532 @@ This bundle currently includes:
 <dl class="conda package">
 <dt class="sig sig-object conda" id="package-esme_">
 <span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">esme_</span></span><a class="headerlink" href="#package-esme_" title="Link to this definition">¶</a></dt>
-<dd><blockquote>
-<div><p><a class="reference external" href="https://anaconda.org/bioconda/esme_"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/esme_.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/esme_"><img alt="docker_esme_" src="https://quay.io/repository/biocontainers/esme_/status" /></a></p>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/esme_"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/esme_.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/esme_"><img alt="docker_esme_" src="https://quay.io/repository/biocontainers/esme_/status" /></a></p>
 <dl class="field-list">
-<dt class="field-odd">versions<span class="colon">:</span></dt>
+<dt class="field-odd">Versions<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">requirements<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code></span></dd>
+<dt class="field-even">Additional platforms<span class="colon">:</span></dt>
+<dd class="field-even"><span class="additional-platforms"><code>linux-aarch64</code></span></dd>
 </dl>
-<p class="rubric">Installation</p>
-</div></blockquote>
-<p>You need a conda-compatible package manager
-(currently either <a class="reference external" href="https://mamba.readthedocs.io">micromamba</a>, <a class="reference external" href="https://mamba.readthedocs.io">mamba</a>, or <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>)
-and the Bioconda channel already activated (see <span class="xref std std-ref">set-up-channels</span>).</p>
-<p>While any of above package managers is fine, it is currently recommended to use either
-micromamba or mamba (see <a class="reference external" href="https://mamba.readthedocs.io">here</a> for installation instructions).
-We will show all commands using mamba below, but the arguments are the same for the two
-others.</p>
-<p>Given that you already have a conda environment in which you want to have this package, install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   <span class="n">mamba</span> <span class="n">install</span> <span class="n">esme_</span>
-
-<span class="ow">and</span> <span class="n">update</span> <span class="k">with</span><span class="p">::</span>
-
-   <span class="n">mamba</span> <span class="n">update</span> <span class="n">esme_</span>
-</pre></div>
-</div>
-<p>To create a new environment, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">create</span> <span class="o">--</span><span class="n">name</span> <span class="n">myenvname</span> <span class="n">esme_</span>
-</pre></div>
-</div>
-<p>with <code class="docutils literal notranslate"><span class="pre">myenvname</span></code> being a reasonable name for the environment
-(see e.g. the <a class="reference external" href="https://mamba.readthedocs.io">mamba docs</a> for details and further options).</p>
-<p>Alternatively, use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   docker pull quay.io/biocontainers/esme_:&lt;tag&gt;
-
-(see `esme_/tags`_ for valid values for ``&lt;tag&gt;``)
-</pre></div>
-</div>
 </dd></dl>
 
+<section id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Link to this heading">¶</a></h2>
+<p>You need a conda-compatible package manager
+(currently either <a class="reference external" href="https://pixi.sh">pixi</a>, <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>, or <a class="reference external" href="https://mamba.readthedocs.io">micromamba</a>)
+and the Bioconda channel already activated (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).</p>
+<section id="pixi">
+<h3>Pixi<a class="headerlink" href="#pixi" title="Link to this heading">¶</a></h3>
+<p>With <a class="reference external" href="https://pixi.sh">pixi</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>),
+to install globally, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="n">esme_</span>
+</pre></div>
+</div>
+<p>to add into an existing workspace instead, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">add</span> <span class="n">esme_</span>
+</pre></div>
+</div>
+<p>In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">workspace</span> <span class="n">channel</span> <span class="n">add</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span>
+<span class="n">pixi</span> <span class="n">workspace</span> <span class="n">channel</span> <span class="n">add</span> <span class="n">bioconda</span>
+</pre></div>
+</div>
+</section>
+<section id="conda">
+<h3>Conda<a class="headerlink" href="#conda" title="Link to this heading">¶</a></h3>
+<p>With <a class="reference external" href="https://conda.io">conda</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>), to install into an existing and activated environment, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">esme_</span>
+</pre></div>
+</div>
+<p>Alternatively, to install into a new environment, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">envname</span> <span class="n">esme_</span>
+</pre></div>
+</div>
+<p>with <code class="docutils literal notranslate"><span class="pre">envname</span></code> being the name of the desired environment.</p>
+</section>
+<section id="container">
+<h3>Container<a class="headerlink" href="#container" title="Link to this heading">¶</a></h3>
+<p>Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">esme_</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/esme_?tab=tags">esme_/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>).</p>
+</section>
+<section id="integrated-deployment">
+<h3>Integrated deployment<a class="headerlink" href="#integrated-deployment" title="Link to this heading">¶</a></h3>
+<p>Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
     var package = "esme_";
     var versions = [];
 </script><dl class="conda package">
 <dt class="sig sig-object conda" id="package-esme_esmf_">
 <span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">esme_esmf_</span></span><a class="headerlink" href="#package-esme_esmf_" title="Link to this definition">¶</a></dt>
-<dd><blockquote>
-<div><p><a class="reference external" href="https://anaconda.org/bioconda/esme_esmf_"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/esme_esmf_.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/esme_"><img alt="docker_esme_esmf_" src="https://quay.io/repository/biocontainers/esme_/status" /></a></p>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/esme_esmf_"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/esme_esmf_.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/esme_"><img alt="docker_esme_esmf_" src="https://quay.io/repository/biocontainers/esme_/status" /></a></p>
 <dl class="field-list">
-<dt class="field-odd">versions<span class="colon">:</span></dt>
+<dt class="field-odd">Versions<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">requirements<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code></span></dd>
+<dt class="field-even">Additional platforms<span class="colon">:</span></dt>
+<dd class="field-even"><span class="additional-platforms"><code>linux-aarch64</code></span></dd>
 </dl>
-<p class="rubric">Installation</p>
-</div></blockquote>
-<p>You need a conda-compatible package manager
-(currently either <a class="reference external" href="https://mamba.readthedocs.io">micromamba</a>, <a class="reference external" href="https://mamba.readthedocs.io">mamba</a>, or <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>)
-and the Bioconda channel already activated (see <span class="xref std std-ref">set-up-channels</span>).</p>
-<p>While any of above package managers is fine, it is currently recommended to use either
-micromamba or mamba (see <a class="reference external" href="https://mamba.readthedocs.io">here</a> for installation instructions).
-We will show all commands using mamba below, but the arguments are the same for the two
-others.</p>
-<p>Given that you already have a conda environment in which you want to have this package, install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   <span class="n">mamba</span> <span class="n">install</span> <span class="n">esme_esmf_</span>
-
-<span class="ow">and</span> <span class="n">update</span> <span class="k">with</span><span class="p">::</span>
-
-   <span class="n">mamba</span> <span class="n">update</span> <span class="n">esme_esmf_</span>
-</pre></div>
-</div>
-<p>To create a new environment, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">create</span> <span class="o">--</span><span class="n">name</span> <span class="n">myenvname</span> <span class="n">esme_esmf_</span>
-</pre></div>
-</div>
-<p>with <code class="docutils literal notranslate"><span class="pre">myenvname</span></code> being a reasonable name for the environment
-(see e.g. the <a class="reference external" href="https://mamba.readthedocs.io">mamba docs</a> for details and further options).</p>
-<p>Alternatively, use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   docker pull quay.io/biocontainers/esme_esmf_:&lt;tag&gt;
-
-(see `esme_esmf_/tags`_ for valid values for ``&lt;tag&gt;``)
-</pre></div>
-</div>
 </dd></dl>
 
+</section>
+</section>
+<section id="id4">
+<h2>Installation<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h2>
+<p>You need a conda-compatible package manager
+(currently either <a class="reference external" href="https://pixi.sh">pixi</a>, <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>, or <a class="reference external" href="https://mamba.readthedocs.io">micromamba</a>)
+and the Bioconda channel already activated (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).</p>
+<section id="id5">
+<h3>Pixi<a class="headerlink" href="#id5" title="Link to this heading">¶</a></h3>
+<p>With <a class="reference external" href="https://pixi.sh">pixi</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>),
+to install globally, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="n">esme_esmf_</span>
+</pre></div>
+</div>
+<p>to add into an existing workspace instead, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">add</span> <span class="n">esme_esmf_</span>
+</pre></div>
+</div>
+<p>In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">workspace</span> <span class="n">channel</span> <span class="n">add</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span>
+<span class="n">pixi</span> <span class="n">workspace</span> <span class="n">channel</span> <span class="n">add</span> <span class="n">bioconda</span>
+</pre></div>
+</div>
+</section>
+<section id="id6">
+<h3>Conda<a class="headerlink" href="#id6" title="Link to this heading">¶</a></h3>
+<p>With <a class="reference external" href="https://conda.io">conda</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>), to install into an existing and activated environment, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">esme_esmf_</span>
+</pre></div>
+</div>
+<p>Alternatively, to install into a new environment, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">envname</span> <span class="n">esme_esmf_</span>
+</pre></div>
+</div>
+<p>with <code class="docutils literal notranslate"><span class="pre">envname</span></code> being the name of the desired environment.</p>
+</section>
+<section id="id7">
+<h3>Container<a class="headerlink" href="#id7" title="Link to this heading">¶</a></h3>
+<p>Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">esme_esmf_</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/esme_esmf_?tab=tags">esme_esmf_/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>).</p>
+</section>
+<section id="id8">
+<h3>Integrated deployment<a class="headerlink" href="#id8" title="Link to this heading">¶</a></h3>
+<p>Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
     var package = "esme_";
     var versions = [];
 </script><dl class="conda package">
 <dt class="sig sig-object conda" id="package-esme_hdf5_">
 <span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">esme_hdf5_</span></span><a class="headerlink" href="#package-esme_hdf5_" title="Link to this definition">¶</a></dt>
-<dd><blockquote>
-<div><p><a class="reference external" href="https://anaconda.org/bioconda/esme_hdf5_"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/esme_hdf5_.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/esme_"><img alt="docker_esme_hdf5_" src="https://quay.io/repository/biocontainers/esme_/status" /></a></p>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/esme_hdf5_"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/esme_hdf5_.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/esme_"><img alt="docker_esme_hdf5_" src="https://quay.io/repository/biocontainers/esme_/status" /></a></p>
 <dl class="field-list">
-<dt class="field-odd">versions<span class="colon">:</span></dt>
+<dt class="field-odd">Versions<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">requirements<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code></span></dd>
+<dt class="field-even">Additional platforms<span class="colon">:</span></dt>
+<dd class="field-even"><span class="additional-platforms"><code>linux-aarch64</code></span></dd>
 </dl>
-<p class="rubric">Installation</p>
-</div></blockquote>
-<p>You need a conda-compatible package manager
-(currently either <a class="reference external" href="https://mamba.readthedocs.io">micromamba</a>, <a class="reference external" href="https://mamba.readthedocs.io">mamba</a>, or <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>)
-and the Bioconda channel already activated (see <span class="xref std std-ref">set-up-channels</span>).</p>
-<p>While any of above package managers is fine, it is currently recommended to use either
-micromamba or mamba (see <a class="reference external" href="https://mamba.readthedocs.io">here</a> for installation instructions).
-We will show all commands using mamba below, but the arguments are the same for the two
-others.</p>
-<p>Given that you already have a conda environment in which you want to have this package, install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   <span class="n">mamba</span> <span class="n">install</span> <span class="n">esme_hdf5_</span>
-
-<span class="ow">and</span> <span class="n">update</span> <span class="k">with</span><span class="p">::</span>
-
-   <span class="n">mamba</span> <span class="n">update</span> <span class="n">esme_hdf5_</span>
-</pre></div>
-</div>
-<p>To create a new environment, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">create</span> <span class="o">--</span><span class="n">name</span> <span class="n">myenvname</span> <span class="n">esme_hdf5_</span>
-</pre></div>
-</div>
-<p>with <code class="docutils literal notranslate"><span class="pre">myenvname</span></code> being a reasonable name for the environment
-(see e.g. the <a class="reference external" href="https://mamba.readthedocs.io">mamba docs</a> for details and further options).</p>
-<p>Alternatively, use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   docker pull quay.io/biocontainers/esme_hdf5_:&lt;tag&gt;
-
-(see `esme_hdf5_/tags`_ for valid values for ``&lt;tag&gt;``)
-</pre></div>
-</div>
 </dd></dl>
 
+</section>
+</section>
+<section id="id11">
+<h2>Installation<a class="headerlink" href="#id11" title="Link to this heading">¶</a></h2>
+<p>You need a conda-compatible package manager
+(currently either <a class="reference external" href="https://pixi.sh">pixi</a>, <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>, or <a class="reference external" href="https://mamba.readthedocs.io">micromamba</a>)
+and the Bioconda channel already activated (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).</p>
+<section id="id12">
+<h3>Pixi<a class="headerlink" href="#id12" title="Link to this heading">¶</a></h3>
+<p>With <a class="reference external" href="https://pixi.sh">pixi</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>),
+to install globally, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="n">esme_hdf5_</span>
+</pre></div>
+</div>
+<p>to add into an existing workspace instead, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">add</span> <span class="n">esme_hdf5_</span>
+</pre></div>
+</div>
+<p>In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">workspace</span> <span class="n">channel</span> <span class="n">add</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span>
+<span class="n">pixi</span> <span class="n">workspace</span> <span class="n">channel</span> <span class="n">add</span> <span class="n">bioconda</span>
+</pre></div>
+</div>
+</section>
+<section id="id13">
+<h3>Conda<a class="headerlink" href="#id13" title="Link to this heading">¶</a></h3>
+<p>With <a class="reference external" href="https://conda.io">conda</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>), to install into an existing and activated environment, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">esme_hdf5_</span>
+</pre></div>
+</div>
+<p>Alternatively, to install into a new environment, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">envname</span> <span class="n">esme_hdf5_</span>
+</pre></div>
+</div>
+<p>with <code class="docutils literal notranslate"><span class="pre">envname</span></code> being the name of the desired environment.</p>
+</section>
+<section id="id14">
+<h3>Container<a class="headerlink" href="#id14" title="Link to this heading">¶</a></h3>
+<p>Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">esme_hdf5_</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/esme_hdf5_?tab=tags">esme_hdf5_/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>).</p>
+</section>
+<section id="id15">
+<h3>Integrated deployment<a class="headerlink" href="#id15" title="Link to this heading">¶</a></h3>
+<p>Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
     var package = "esme_";
     var versions = [];
 </script><dl class="conda package">
 <dt class="sig sig-object conda" id="package-esme_netcdf-c_">
 <span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">esme_netcdf-c_</span></span><a class="headerlink" href="#package-esme_netcdf-c_" title="Link to this definition">¶</a></dt>
-<dd><blockquote>
-<div><p><a class="reference external" href="https://anaconda.org/bioconda/esme_netcdf-c_"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/esme_netcdf-c_.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/esme_"><img alt="docker_esme_netcdf-c_" src="https://quay.io/repository/biocontainers/esme_/status" /></a></p>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/esme_netcdf-c_"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/esme_netcdf-c_.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/esme_"><img alt="docker_esme_netcdf-c_" src="https://quay.io/repository/biocontainers/esme_/status" /></a></p>
 <dl class="field-list">
-<dt class="field-odd">versions<span class="colon">:</span></dt>
+<dt class="field-odd">Versions<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">requirements<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code></span></dd>
+<dt class="field-even">Additional platforms<span class="colon">:</span></dt>
+<dd class="field-even"><span class="additional-platforms"><code>linux-aarch64</code></span></dd>
 </dl>
-<p class="rubric">Installation</p>
-</div></blockquote>
-<p>You need a conda-compatible package manager
-(currently either <a class="reference external" href="https://mamba.readthedocs.io">micromamba</a>, <a class="reference external" href="https://mamba.readthedocs.io">mamba</a>, or <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>)
-and the Bioconda channel already activated (see <span class="xref std std-ref">set-up-channels</span>).</p>
-<p>While any of above package managers is fine, it is currently recommended to use either
-micromamba or mamba (see <a class="reference external" href="https://mamba.readthedocs.io">here</a> for installation instructions).
-We will show all commands using mamba below, but the arguments are the same for the two
-others.</p>
-<p>Given that you already have a conda environment in which you want to have this package, install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   <span class="n">mamba</span> <span class="n">install</span> <span class="n">esme_netcdf</span><span class="o">-</span><span class="n">c_</span>
-
-<span class="ow">and</span> <span class="n">update</span> <span class="k">with</span><span class="p">::</span>
-
-   <span class="n">mamba</span> <span class="n">update</span> <span class="n">esme_netcdf</span><span class="o">-</span><span class="n">c_</span>
-</pre></div>
-</div>
-<p>To create a new environment, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">create</span> <span class="o">--</span><span class="n">name</span> <span class="n">myenvname</span> <span class="n">esme_netcdf</span><span class="o">-</span><span class="n">c_</span>
-</pre></div>
-</div>
-<p>with <code class="docutils literal notranslate"><span class="pre">myenvname</span></code> being a reasonable name for the environment
-(see e.g. the <a class="reference external" href="https://mamba.readthedocs.io">mamba docs</a> for details and further options).</p>
-<p>Alternatively, use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   docker pull quay.io/biocontainers/esme_netcdf-c_:&lt;tag&gt;
-
-(see `esme_netcdf-c_/tags`_ for valid values for ``&lt;tag&gt;``)
-</pre></div>
-</div>
 </dd></dl>
 
+</section>
+</section>
+<section id="id18">
+<h2>Installation<a class="headerlink" href="#id18" title="Link to this heading">¶</a></h2>
+<p>You need a conda-compatible package manager
+(currently either <a class="reference external" href="https://pixi.sh">pixi</a>, <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>, or <a class="reference external" href="https://mamba.readthedocs.io">micromamba</a>)
+and the Bioconda channel already activated (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).</p>
+<section id="id19">
+<h3>Pixi<a class="headerlink" href="#id19" title="Link to this heading">¶</a></h3>
+<p>With <a class="reference external" href="https://pixi.sh">pixi</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>),
+to install globally, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="n">esme_netcdf</span><span class="o">-</span><span class="n">c_</span>
+</pre></div>
+</div>
+<p>to add into an existing workspace instead, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">add</span> <span class="n">esme_netcdf</span><span class="o">-</span><span class="n">c_</span>
+</pre></div>
+</div>
+<p>In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">workspace</span> <span class="n">channel</span> <span class="n">add</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span>
+<span class="n">pixi</span> <span class="n">workspace</span> <span class="n">channel</span> <span class="n">add</span> <span class="n">bioconda</span>
+</pre></div>
+</div>
+</section>
+<section id="id20">
+<h3>Conda<a class="headerlink" href="#id20" title="Link to this heading">¶</a></h3>
+<p>With <a class="reference external" href="https://conda.io">conda</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>), to install into an existing and activated environment, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">esme_netcdf</span><span class="o">-</span><span class="n">c_</span>
+</pre></div>
+</div>
+<p>Alternatively, to install into a new environment, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">envname</span> <span class="n">esme_netcdf</span><span class="o">-</span><span class="n">c_</span>
+</pre></div>
+</div>
+<p>with <code class="docutils literal notranslate"><span class="pre">envname</span></code> being the name of the desired environment.</p>
+</section>
+<section id="id21">
+<h3>Container<a class="headerlink" href="#id21" title="Link to this heading">¶</a></h3>
+<p>Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">esme_netcdf</span><span class="o">-</span><span class="n">c_</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/esme_netcdf-c_?tab=tags">esme_netcdf-c_/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>).</p>
+</section>
+<section id="id22">
+<h3>Integrated deployment<a class="headerlink" href="#id22" title="Link to this heading">¶</a></h3>
+<p>Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
     var package = "esme_";
     var versions = [];
 </script><dl class="conda package">
 <dt class="sig sig-object conda" id="package-esme_netcdf-fortran_">
 <span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">esme_netcdf-fortran_</span></span><a class="headerlink" href="#package-esme_netcdf-fortran_" title="Link to this definition">¶</a></dt>
-<dd><blockquote>
-<div><p><a class="reference external" href="https://anaconda.org/bioconda/esme_netcdf-fortran_"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/esme_netcdf-fortran_.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/esme_"><img alt="docker_esme_netcdf-fortran_" src="https://quay.io/repository/biocontainers/esme_/status" /></a></p>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/esme_netcdf-fortran_"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/esme_netcdf-fortran_.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/esme_"><img alt="docker_esme_netcdf-fortran_" src="https://quay.io/repository/biocontainers/esme_/status" /></a></p>
 <dl class="field-list">
-<dt class="field-odd">versions<span class="colon">:</span></dt>
+<dt class="field-odd">Versions<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">requirements<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code></span></dd>
+<dt class="field-even">Additional platforms<span class="colon">:</span></dt>
+<dd class="field-even"><span class="additional-platforms"><code>linux-aarch64</code></span></dd>
 </dl>
-<p class="rubric">Installation</p>
-</div></blockquote>
-<p>You need a conda-compatible package manager
-(currently either <a class="reference external" href="https://mamba.readthedocs.io">micromamba</a>, <a class="reference external" href="https://mamba.readthedocs.io">mamba</a>, or <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>)
-and the Bioconda channel already activated (see <span class="xref std std-ref">set-up-channels</span>).</p>
-<p>While any of above package managers is fine, it is currently recommended to use either
-micromamba or mamba (see <a class="reference external" href="https://mamba.readthedocs.io">here</a> for installation instructions).
-We will show all commands using mamba below, but the arguments are the same for the two
-others.</p>
-<p>Given that you already have a conda environment in which you want to have this package, install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   <span class="n">mamba</span> <span class="n">install</span> <span class="n">esme_netcdf</span><span class="o">-</span><span class="n">fortran_</span>
-
-<span class="ow">and</span> <span class="n">update</span> <span class="k">with</span><span class="p">::</span>
-
-   <span class="n">mamba</span> <span class="n">update</span> <span class="n">esme_netcdf</span><span class="o">-</span><span class="n">fortran_</span>
-</pre></div>
-</div>
-<p>To create a new environment, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">create</span> <span class="o">--</span><span class="n">name</span> <span class="n">myenvname</span> <span class="n">esme_netcdf</span><span class="o">-</span><span class="n">fortran_</span>
-</pre></div>
-</div>
-<p>with <code class="docutils literal notranslate"><span class="pre">myenvname</span></code> being a reasonable name for the environment
-(see e.g. the <a class="reference external" href="https://mamba.readthedocs.io">mamba docs</a> for details and further options).</p>
-<p>Alternatively, use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   docker pull quay.io/biocontainers/esme_netcdf-fortran_:&lt;tag&gt;
-
-(see `esme_netcdf-fortran_/tags`_ for valid values for ``&lt;tag&gt;``)
-</pre></div>
-</div>
 </dd></dl>
 
+</section>
+</section>
+<section id="id25">
+<h2>Installation<a class="headerlink" href="#id25" title="Link to this heading">¶</a></h2>
+<p>You need a conda-compatible package manager
+(currently either <a class="reference external" href="https://pixi.sh">pixi</a>, <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>, or <a class="reference external" href="https://mamba.readthedocs.io">micromamba</a>)
+and the Bioconda channel already activated (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).</p>
+<section id="id26">
+<h3>Pixi<a class="headerlink" href="#id26" title="Link to this heading">¶</a></h3>
+<p>With <a class="reference external" href="https://pixi.sh">pixi</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>),
+to install globally, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="n">esme_netcdf</span><span class="o">-</span><span class="n">fortran_</span>
+</pre></div>
+</div>
+<p>to add into an existing workspace instead, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">add</span> <span class="n">esme_netcdf</span><span class="o">-</span><span class="n">fortran_</span>
+</pre></div>
+</div>
+<p>In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">workspace</span> <span class="n">channel</span> <span class="n">add</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span>
+<span class="n">pixi</span> <span class="n">workspace</span> <span class="n">channel</span> <span class="n">add</span> <span class="n">bioconda</span>
+</pre></div>
+</div>
+</section>
+<section id="id27">
+<h3>Conda<a class="headerlink" href="#id27" title="Link to this heading">¶</a></h3>
+<p>With <a class="reference external" href="https://conda.io">conda</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>), to install into an existing and activated environment, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">esme_netcdf</span><span class="o">-</span><span class="n">fortran_</span>
+</pre></div>
+</div>
+<p>Alternatively, to install into a new environment, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">envname</span> <span class="n">esme_netcdf</span><span class="o">-</span><span class="n">fortran_</span>
+</pre></div>
+</div>
+<p>with <code class="docutils literal notranslate"><span class="pre">envname</span></code> being the name of the desired environment.</p>
+</section>
+<section id="id28">
+<h3>Container<a class="headerlink" href="#id28" title="Link to this heading">¶</a></h3>
+<p>Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">esme_netcdf</span><span class="o">-</span><span class="n">fortran_</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/esme_netcdf-fortran_?tab=tags">esme_netcdf-fortran_/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>).</p>
+</section>
+<section id="id29">
+<h3>Integrated deployment<a class="headerlink" href="#id29" title="Link to this heading">¶</a></h3>
+<p>Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
     var package = "esme_";
     var versions = [];
 </script><dl class="conda package">
 <dt class="sig sig-object conda" id="package-esme_omb_">
 <span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">esme_omb_</span></span><a class="headerlink" href="#package-esme_omb_" title="Link to this definition">¶</a></dt>
-<dd><blockquote>
-<div><p><a class="reference external" href="https://anaconda.org/bioconda/esme_omb_"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/esme_omb_.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/esme_"><img alt="docker_esme_omb_" src="https://quay.io/repository/biocontainers/esme_/status" /></a></p>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/esme_omb_"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/esme_omb_.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/esme_"><img alt="docker_esme_omb_" src="https://quay.io/repository/biocontainers/esme_/status" /></a></p>
 <dl class="field-list">
-<dt class="field-odd">versions<span class="colon">:</span></dt>
+<dt class="field-odd">Versions<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">requirements<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code></span></dd>
+<dt class="field-even">Additional platforms<span class="colon">:</span></dt>
+<dd class="field-even"><span class="additional-platforms"><code>linux-aarch64</code></span></dd>
 </dl>
-<p class="rubric">Installation</p>
-</div></blockquote>
-<p>You need a conda-compatible package manager
-(currently either <a class="reference external" href="https://mamba.readthedocs.io">micromamba</a>, <a class="reference external" href="https://mamba.readthedocs.io">mamba</a>, or <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>)
-and the Bioconda channel already activated (see <span class="xref std std-ref">set-up-channels</span>).</p>
-<p>While any of above package managers is fine, it is currently recommended to use either
-micromamba or mamba (see <a class="reference external" href="https://mamba.readthedocs.io">here</a> for installation instructions).
-We will show all commands using mamba below, but the arguments are the same for the two
-others.</p>
-<p>Given that you already have a conda environment in which you want to have this package, install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   <span class="n">mamba</span> <span class="n">install</span> <span class="n">esme_omb_</span>
-
-<span class="ow">and</span> <span class="n">update</span> <span class="k">with</span><span class="p">::</span>
-
-   <span class="n">mamba</span> <span class="n">update</span> <span class="n">esme_omb_</span>
-</pre></div>
-</div>
-<p>To create a new environment, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">create</span> <span class="o">--</span><span class="n">name</span> <span class="n">myenvname</span> <span class="n">esme_omb_</span>
-</pre></div>
-</div>
-<p>with <code class="docutils literal notranslate"><span class="pre">myenvname</span></code> being a reasonable name for the environment
-(see e.g. the <a class="reference external" href="https://mamba.readthedocs.io">mamba docs</a> for details and further options).</p>
-<p>Alternatively, use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   docker pull quay.io/biocontainers/esme_omb_:&lt;tag&gt;
-
-(see `esme_omb_/tags`_ for valid values for ``&lt;tag&gt;``)
-</pre></div>
-</div>
 </dd></dl>
 
+</section>
+</section>
+<section id="id32">
+<h2>Installation<a class="headerlink" href="#id32" title="Link to this heading">¶</a></h2>
+<p>You need a conda-compatible package manager
+(currently either <a class="reference external" href="https://pixi.sh">pixi</a>, <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>, or <a class="reference external" href="https://mamba.readthedocs.io">micromamba</a>)
+and the Bioconda channel already activated (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).</p>
+<section id="id33">
+<h3>Pixi<a class="headerlink" href="#id33" title="Link to this heading">¶</a></h3>
+<p>With <a class="reference external" href="https://pixi.sh">pixi</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>),
+to install globally, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="n">esme_omb_</span>
+</pre></div>
+</div>
+<p>to add into an existing workspace instead, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">add</span> <span class="n">esme_omb_</span>
+</pre></div>
+</div>
+<p>In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">workspace</span> <span class="n">channel</span> <span class="n">add</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span>
+<span class="n">pixi</span> <span class="n">workspace</span> <span class="n">channel</span> <span class="n">add</span> <span class="n">bioconda</span>
+</pre></div>
+</div>
+</section>
+<section id="id34">
+<h3>Conda<a class="headerlink" href="#id34" title="Link to this heading">¶</a></h3>
+<p>With <a class="reference external" href="https://conda.io">conda</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>), to install into an existing and activated environment, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">esme_omb_</span>
+</pre></div>
+</div>
+<p>Alternatively, to install into a new environment, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">envname</span> <span class="n">esme_omb_</span>
+</pre></div>
+</div>
+<p>with <code class="docutils literal notranslate"><span class="pre">envname</span></code> being the name of the desired environment.</p>
+</section>
+<section id="id35">
+<h3>Container<a class="headerlink" href="#id35" title="Link to this heading">¶</a></h3>
+<p>Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">esme_omb_</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/esme_omb_?tab=tags">esme_omb_/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>).</p>
+</section>
+<section id="id36">
+<h3>Integrated deployment<a class="headerlink" href="#id36" title="Link to this heading">¶</a></h3>
+<p>Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
     var package = "esme_";
     var versions = [];
 </script><dl class="conda package">
 <dt class="sig sig-object conda" id="package-esme_pio_">
 <span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">esme_pio_</span></span><a class="headerlink" href="#package-esme_pio_" title="Link to this definition">¶</a></dt>
-<dd><blockquote>
-<div><p><a class="reference external" href="https://anaconda.org/bioconda/esme_pio_"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/esme_pio_.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/esme_"><img alt="docker_esme_pio_" src="https://quay.io/repository/biocontainers/esme_/status" /></a></p>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/esme_pio_"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/esme_pio_.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/esme_"><img alt="docker_esme_pio_" src="https://quay.io/repository/biocontainers/esme_/status" /></a></p>
 <dl class="field-list">
-<dt class="field-odd">versions<span class="colon">:</span></dt>
+<dt class="field-odd">Versions<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">requirements<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code></span></dd>
+<dt class="field-even">Additional platforms<span class="colon">:</span></dt>
+<dd class="field-even"><span class="additional-platforms"><code>linux-aarch64</code></span></dd>
 </dl>
-<p class="rubric">Installation</p>
-</div></blockquote>
-<p>You need a conda-compatible package manager
-(currently either <a class="reference external" href="https://mamba.readthedocs.io">micromamba</a>, <a class="reference external" href="https://mamba.readthedocs.io">mamba</a>, or <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>)
-and the Bioconda channel already activated (see <span class="xref std std-ref">set-up-channels</span>).</p>
-<p>While any of above package managers is fine, it is currently recommended to use either
-micromamba or mamba (see <a class="reference external" href="https://mamba.readthedocs.io">here</a> for installation instructions).
-We will show all commands using mamba below, but the arguments are the same for the two
-others.</p>
-<p>Given that you already have a conda environment in which you want to have this package, install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   <span class="n">mamba</span> <span class="n">install</span> <span class="n">esme_pio_</span>
-
-<span class="ow">and</span> <span class="n">update</span> <span class="k">with</span><span class="p">::</span>
-
-   <span class="n">mamba</span> <span class="n">update</span> <span class="n">esme_pio_</span>
-</pre></div>
-</div>
-<p>To create a new environment, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">create</span> <span class="o">--</span><span class="n">name</span> <span class="n">myenvname</span> <span class="n">esme_pio_</span>
-</pre></div>
-</div>
-<p>with <code class="docutils literal notranslate"><span class="pre">myenvname</span></code> being a reasonable name for the environment
-(see e.g. the <a class="reference external" href="https://mamba.readthedocs.io">mamba docs</a> for details and further options).</p>
-<p>Alternatively, use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   docker pull quay.io/biocontainers/esme_pio_:&lt;tag&gt;
-
-(see `esme_pio_/tags`_ for valid values for ``&lt;tag&gt;``)
-</pre></div>
-</div>
 </dd></dl>
 
+</section>
+</section>
+<section id="id39">
+<h2>Installation<a class="headerlink" href="#id39" title="Link to this heading">¶</a></h2>
+<p>You need a conda-compatible package manager
+(currently either <a class="reference external" href="https://pixi.sh">pixi</a>, <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>, or <a class="reference external" href="https://mamba.readthedocs.io">micromamba</a>)
+and the Bioconda channel already activated (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).</p>
+<section id="id40">
+<h3>Pixi<a class="headerlink" href="#id40" title="Link to this heading">¶</a></h3>
+<p>With <a class="reference external" href="https://pixi.sh">pixi</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>),
+to install globally, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="n">esme_pio_</span>
+</pre></div>
+</div>
+<p>to add into an existing workspace instead, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">add</span> <span class="n">esme_pio_</span>
+</pre></div>
+</div>
+<p>In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">workspace</span> <span class="n">channel</span> <span class="n">add</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span>
+<span class="n">pixi</span> <span class="n">workspace</span> <span class="n">channel</span> <span class="n">add</span> <span class="n">bioconda</span>
+</pre></div>
+</div>
+</section>
+<section id="id41">
+<h3>Conda<a class="headerlink" href="#id41" title="Link to this heading">¶</a></h3>
+<p>With <a class="reference external" href="https://conda.io">conda</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>), to install into an existing and activated environment, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">esme_pio_</span>
+</pre></div>
+</div>
+<p>Alternatively, to install into a new environment, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">envname</span> <span class="n">esme_pio_</span>
+</pre></div>
+</div>
+<p>with <code class="docutils literal notranslate"><span class="pre">envname</span></code> being the name of the desired environment.</p>
+</section>
+<section id="id42">
+<h3>Container<a class="headerlink" href="#id42" title="Link to this heading">¶</a></h3>
+<p>Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">esme_pio_</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/esme_pio_?tab=tags">esme_pio_/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>).</p>
+</section>
+<section id="id43">
+<h3>Integrated deployment<a class="headerlink" href="#id43" title="Link to this heading">¶</a></h3>
+<p>Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
     var package = "esme_";
     var versions = [];
 </script><dl class="conda package">
 <dt class="sig sig-object conda" id="package-esme_pnetcdf_">
 <span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">esme_pnetcdf_</span></span><a class="headerlink" href="#package-esme_pnetcdf_" title="Link to this definition">¶</a></dt>
-<dd><blockquote>
-<div><p><a class="reference external" href="https://anaconda.org/bioconda/esme_pnetcdf_"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/esme_pnetcdf_.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/esme_"><img alt="docker_esme_pnetcdf_" src="https://quay.io/repository/biocontainers/esme_/status" /></a></p>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/esme_pnetcdf_"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/esme_pnetcdf_.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/esme_"><img alt="docker_esme_pnetcdf_" src="https://quay.io/repository/biocontainers/esme_/status" /></a></p>
 <dl class="field-list">
-<dt class="field-odd">versions<span class="colon">:</span></dt>
+<dt class="field-odd">Versions<span class="colon">:</span></dt>
 <dd class="field-odd"><p></p></dd>
-<dt class="field-even">requirements<span class="colon">:</span></dt>
-<dd class="field-even"><p></p></dd>
-<dt class="field-odd">additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code></span></dd>
+<dt class="field-even">Additional platforms<span class="colon">:</span></dt>
+<dd class="field-even"><span class="additional-platforms"><code>linux-aarch64</code></span></dd>
 </dl>
-<p class="rubric">Installation</p>
-</div></blockquote>
-<p>You need a conda-compatible package manager
-(currently either <a class="reference external" href="https://mamba.readthedocs.io">micromamba</a>, <a class="reference external" href="https://mamba.readthedocs.io">mamba</a>, or <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>)
-and the Bioconda channel already activated (see <span class="xref std std-ref">set-up-channels</span>).</p>
-<p>While any of above package managers is fine, it is currently recommended to use either
-micromamba or mamba (see <a class="reference external" href="https://mamba.readthedocs.io">here</a> for installation instructions).
-We will show all commands using mamba below, but the arguments are the same for the two
-others.</p>
-<p>Given that you already have a conda environment in which you want to have this package, install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   <span class="n">mamba</span> <span class="n">install</span> <span class="n">esme_pnetcdf_</span>
-
-<span class="ow">and</span> <span class="n">update</span> <span class="k">with</span><span class="p">::</span>
-
-   <span class="n">mamba</span> <span class="n">update</span> <span class="n">esme_pnetcdf_</span>
-</pre></div>
-</div>
-<p>To create a new environment, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mamba</span> <span class="n">create</span> <span class="o">--</span><span class="n">name</span> <span class="n">myenvname</span> <span class="n">esme_pnetcdf_</span>
-</pre></div>
-</div>
-<p>with <code class="docutils literal notranslate"><span class="pre">myenvname</span></code> being a reasonable name for the environment
-(see e.g. the <a class="reference external" href="https://mamba.readthedocs.io">mamba docs</a> for details and further options).</p>
-<p>Alternatively, use the docker container:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>   docker pull quay.io/biocontainers/esme_pnetcdf_:&lt;tag&gt;
-
-(see `esme_pnetcdf_/tags`_ for valid values for ``&lt;tag&gt;``)
-</pre></div>
-</div>
 </dd></dl>
 
+</section>
+</section>
+<section id="id46">
+<h2>Installation<a class="headerlink" href="#id46" title="Link to this heading">¶</a></h2>
+<p>You need a conda-compatible package manager
+(currently either <a class="reference external" href="https://pixi.sh">pixi</a>, <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>, or <a class="reference external" href="https://mamba.readthedocs.io">micromamba</a>)
+and the Bioconda channel already activated (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).</p>
+<section id="id47">
+<h3>Pixi<a class="headerlink" href="#id47" title="Link to this heading">¶</a></h3>
+<p>With <a class="reference external" href="https://pixi.sh">pixi</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>),
+to install globally, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="n">esme_pnetcdf_</span>
+</pre></div>
+</div>
+<p>to add into an existing workspace instead, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">add</span> <span class="n">esme_pnetcdf_</span>
+</pre></div>
+</div>
+<p>In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">workspace</span> <span class="n">channel</span> <span class="n">add</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span>
+<span class="n">pixi</span> <span class="n">workspace</span> <span class="n">channel</span> <span class="n">add</span> <span class="n">bioconda</span>
+</pre></div>
+</div>
+</section>
+<section id="id48">
+<h3>Conda<a class="headerlink" href="#id48" title="Link to this heading">¶</a></h3>
+<p>With <a class="reference external" href="https://conda.io">conda</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>), to install into an existing and activated environment, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">esme_pnetcdf_</span>
+</pre></div>
+</div>
+<p>Alternatively, to install into a new environment, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">envname</span> <span class="n">esme_pnetcdf_</span>
+</pre></div>
+</div>
+<p>with <code class="docutils literal notranslate"><span class="pre">envname</span></code> being the name of the desired environment.</p>
+</section>
+<section id="id49">
+<h3>Container<a class="headerlink" href="#id49" title="Link to this heading">¶</a></h3>
+<p>Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">esme_pnetcdf_</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/esme_pnetcdf_?tab=tags">esme_pnetcdf_/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>).</p>
+</section>
+<section id="id50">
+<h3>Integrated deployment<a class="headerlink" href="#id50" title="Link to this heading">¶</a></h3>
+<p>Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
     var package = "esme_";
     var versions = [];
-</script><section id="download-stats">
+</script></section>
+</section>
+<section id="download-stats">
 <h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
 <div style="width: 100%" id="download_plot"></div>
 <div style="width: 100%" id="platform_plot"></div>

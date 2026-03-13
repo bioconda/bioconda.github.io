@@ -49,51 +49,50 @@ augustus
       
 
    
-   :depends bamtools: ``>=2.5.3,<3.0a0``
-   :depends biopython: 
-   :depends boost-cpp: 
-   :depends cdbtools: 
-   :depends diamond: 
-   :depends gsl: ``>=2.8``
-   :depends gsl: ``>=2.8,<2.9.0a0``
-   :depends htslib: ``>=1.22.1,<1.23.0a0``
-   :depends libamd: ``>=3.3.3,<4.0a0``
-   :depends libblas: ``>=3.9.0,<4.0a0``
-   :depends libbtf: ``>=2.3.2,<3.0a0``
-   :depends libcamd: ``>=3.3.3,<4.0a0``
-   :depends libcblas: ``>=3.9.0,<4.0a0``
-   :depends libccolamd: ``>=3.3.4,<4.0a0``
-   :depends libcholmod: ``>=5.3.1,<6.0a0``
-   :depends libcolamd: ``>=3.3.4,<4.0a0``
-   :depends libcxsparse: ``>=4.4.1,<5.0a0``
-   :depends libgcc: ``>=13``
-   :depends libklu: ``>=2.3.5,<3.0a0``
-   :depends libldl: ``>=3.3.2,<4.0a0``
-   :depends libparu: ``>=1.0.0,<2.0a0``
-   :depends librbio: ``>=4.3.4,<5.0a0``
-   :depends libspex: ``>=3.2.3,<4.0a0``
-   :depends libspqr: ``>=4.3.4,<5.0a0``
-   :depends libsqlite: ``>=3.50.4,<4.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends libsuitesparseconfig: ``>=7.10.1,<8.0a0``
-   :depends libumfpack: ``>=6.3.5,<7.0a0``
-   :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends lp_solve: 
-   :depends perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends perl-app-cpanminus: 
-   :depends perl-dbi: 
-   :depends perl-file-which: 
-   :depends perl-module-build: ``0.4234.*``
-   :depends perl-parallel-forkmanager: 
-   :depends perl-scalar-list-utils: 
-   :depends perl-yaml: 
-   :depends samtools: ``>=1.22.1,<2.0a0``
-   :depends sqlite: 
-   :depends suitesparse: ``>=7.10.1,<8.0a0``
-   :depends tar: 
-   :depends ucsc-fatotwobit: 
-   :depends ucsc-twobitinfo: 
-   :requirements:
+   :depends on bamtools: ``>=2.5.3,<3.0a0``
+   :depends on biopython: 
+   :depends on boost-cpp: 
+   :depends on cdbtools: 
+   :depends on diamond: 
+   :depends on gsl: ``>=2.8``
+   :depends on gsl: ``>=2.8,<2.9.0a0``
+   :depends on htslib: ``>=1.22.1,<1.23.0a0``
+   :depends on libamd: ``>=3.3.3,<4.0a0``
+   :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libbtf: ``>=2.3.2,<3.0a0``
+   :depends on libcamd: ``>=3.3.3,<4.0a0``
+   :depends on libcblas: ``>=3.9.0,<4.0a0``
+   :depends on libccolamd: ``>=3.3.4,<4.0a0``
+   :depends on libcholmod: ``>=5.3.1,<6.0a0``
+   :depends on libcolamd: ``>=3.3.4,<4.0a0``
+   :depends on libcxsparse: ``>=4.4.1,<5.0a0``
+   :depends on libgcc: ``>=13``
+   :depends on libklu: ``>=2.3.5,<3.0a0``
+   :depends on libldl: ``>=3.3.2,<4.0a0``
+   :depends on libparu: ``>=1.0.0,<2.0a0``
+   :depends on librbio: ``>=4.3.4,<5.0a0``
+   :depends on libspex: ``>=3.2.3,<4.0a0``
+   :depends on libspqr: ``>=4.3.4,<5.0a0``
+   :depends on libsqlite: ``>=3.50.4,<4.0a0``
+   :depends on libstdcxx: ``>=13``
+   :depends on libsuitesparseconfig: ``>=7.10.1,<8.0a0``
+   :depends on libumfpack: ``>=6.3.5,<7.0a0``
+   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on lp_solve: 
+   :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends on perl-app-cpanminus: 
+   :depends on perl-dbi: 
+   :depends on perl-file-which: 
+   :depends on perl-module-build: ``0.4234.*``
+   :depends on perl-parallel-forkmanager: 
+   :depends on perl-scalar-list-utils: 
+   :depends on perl-yaml: 
+   :depends on samtools: ``>=1.22.1,<2.0a0``
+   :depends on sqlite: 
+   :depends on suitesparse: ``>=7.10.1,<8.0a0``
+   :depends on tar: 
+   :depends on ucsc-fatotwobit: 
+   :depends on ucsc-twobitinfo: 
 
    :additional platforms:
       
@@ -102,39 +101,63 @@ augustus
          <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install augustus
+    pixi global install augustus
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update augustus
+    pixi add augustus
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname augustus
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/augustus:<tag>
+    conda install augustus
 
-   (see `augustus/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname augustus
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/augustus:<tag>
+
+(see `augustus/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_augustus| image:: https://img.shields.io/conda/dn/bioconda/augustus.svg?style=flat
    :target: https://anaconda.org/bioconda/augustus
    :alt:   (downloads)

@@ -34,82 +34,105 @@ cosap
       
 
    
-   :depends bbmap: ``39.01``
-   :depends bcftools: ``>=1.16,<1.17``
-   :depends black: 
-   :depends bowtie2: ``2.5.1``
-   :depends bwa: ``0.7.17``
-   :depends bwa-mem2: ``2.2.1``
-   :depends click: 
-   :depends docker-py: 
-   :depends elprep: ``5.1.3``
-   :depends fastp: ``0.23.2``
-   :depends fastqc: ``0.11.9``
-   :depends gatk4: ``>=4.5,<4.6``
-   :depends genefuse: 
-   :depends libtiff: 
-   :depends matplotlib-venn: 
-   :depends msisensor-pro: 
-   :depends numpy: 
-   :depends openjdk: ``>=17,<18``
-   :depends perl-dbi: 
-   :depends perl-lwp-simple: 
-   :depends picard: ``>=2,<3``
-   :depends pillow: 
-   :depends pygraphviz: 
-   :depends pyranges: 
-   :depends python: ``>=3.9``
-   :depends qualimap: ``2.2.2d``
-   :depends samtools: ``>=1.16,<1.17``
-   :depends scikit-learn: 
-   :depends seaborn: 
-   :depends shortuuid: 
-   :depends snakefmt: 
-   :depends snakemake: ``>=7,<8``
-   :depends snpeff: ``5.1``
-   :depends somatic-sniper: ``1.0.5.0``
-   :depends upsetplot: 
-   :depends vardict-java: ``1.8.3``
-   :depends varscan: ``2.4.4``
-   :depends yaml: 
-   :requirements:
+   :depends on bbmap: ``39.01``
+   :depends on bcftools: ``>=1.16,<1.17``
+   :depends on black: 
+   :depends on bowtie2: ``2.5.1``
+   :depends on bwa: ``0.7.17``
+   :depends on bwa-mem2: ``2.2.1``
+   :depends on click: 
+   :depends on docker-py: 
+   :depends on elprep: ``5.1.3``
+   :depends on fastp: ``0.23.2``
+   :depends on fastqc: ``0.11.9``
+   :depends on gatk4: ``>=4.5,<4.6``
+   :depends on genefuse: 
+   :depends on libtiff: 
+   :depends on matplotlib-venn: 
+   :depends on msisensor-pro: 
+   :depends on numpy: 
+   :depends on openjdk: ``>=17,<18``
+   :depends on perl-dbi: 
+   :depends on perl-lwp-simple: 
+   :depends on picard: ``>=2,<3``
+   :depends on pillow: 
+   :depends on pygraphviz: 
+   :depends on pyranges: 
+   :depends on python: ``>=3.9``
+   :depends on qualimap: ``2.2.2d``
+   :depends on samtools: ``>=1.16,<1.17``
+   :depends on scikit-learn: 
+   :depends on seaborn: 
+   :depends on shortuuid: 
+   :depends on snakefmt: 
+   :depends on snakemake: ``>=7,<8``
+   :depends on snpeff: ``5.1``
+   :depends on somatic-sniper: ``1.0.5.0``
+   :depends on upsetplot: 
+   :depends on vardict-java: ``1.8.3``
+   :depends on varscan: ``2.4.4``
+   :depends on yaml: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install cosap
+    pixi global install cosap
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update cosap
+    pixi add cosap
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname cosap
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/cosap:<tag>
+    conda install cosap
 
-   (see `cosap/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname cosap
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/cosap:<tag>
+
+(see `cosap/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_cosap| image:: https://img.shields.io/conda/dn/bioconda/cosap.svg?style=flat
    :target: https://anaconda.org/bioconda/cosap
    :alt:   (downloads)

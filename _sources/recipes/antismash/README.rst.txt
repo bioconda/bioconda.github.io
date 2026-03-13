@@ -46,67 +46,90 @@ antismash
       
 
    
-   :depends bcbio-gff: ``0.7.1``
-   :depends biopython: ``1.81``
-   :depends blast: 
-   :depends brawn: ``1.0.2``
-   :depends diamond: 
-   :depends fasttree: 
-   :depends helperlibs: ``0.2.1``
-   :depends hmmer: 
-   :depends hmmer2: 
-   :depends jinja2: ``3.1.6``
-   :depends joblib: ``1.4.2``
-   :depends jsonschema: ``4.14.0``
-   :depends libsass: ``0.23.0``
-   :depends markupsafe: ``3.0.2``
-   :depends matplotlib-base: ``3.10.1``
-   :depends moods: ``1.9.4.2``
-   :depends nrpys: ``0.1.1``
-   :depends numpy: ``2.2.5``
-   :depends orjson: ``3.10.16``
-   :depends prodigal: 
-   :depends python: ``>=3.11``
-   :depends scikit-learn: ``1.6.1``
-   :depends scipy: ``1.15.2``
-   :requirements:
+   :depends on bcbio-gff: ``0.7.1``
+   :depends on biopython: ``1.81``
+   :depends on blast: 
+   :depends on brawn: ``1.0.2``
+   :depends on diamond: 
+   :depends on fasttree: 
+   :depends on helperlibs: ``0.2.1``
+   :depends on hmmer: 
+   :depends on hmmer2: 
+   :depends on jinja2: ``3.1.6``
+   :depends on joblib: ``1.4.2``
+   :depends on jsonschema: ``4.14.0``
+   :depends on libsass: ``0.23.0``
+   :depends on markupsafe: ``3.0.2``
+   :depends on matplotlib-base: ``3.10.1``
+   :depends on moods: ``1.9.4.2``
+   :depends on nrpys: ``0.1.1``
+   :depends on numpy: ``2.2.5``
+   :depends on orjson: ``3.10.16``
+   :depends on prodigal: 
+   :depends on python: ``>=3.11``
+   :depends on scikit-learn: ``1.6.1``
+   :depends on scipy: ``1.15.2``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install antismash
+    pixi global install antismash
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update antismash
+    pixi add antismash
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname antismash
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/antismash:<tag>
+    conda install antismash
 
-   (see `antismash/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname antismash
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/antismash:<tag>
+
+(see `antismash/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_antismash| image:: https://img.shields.io/conda/dn/bioconda/antismash.svg?style=flat
    :target: https://anaconda.org/bioconda/antismash
    :alt:   (downloads)

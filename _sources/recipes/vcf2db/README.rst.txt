@@ -40,54 +40,77 @@ vcf2db
       
 
    
-   :depends cyvcf2: ``>=0.30``
-   :depends geneimpacts: ``>=0.3``
-   :depends nomkl: 
-   :depends numpy: 
-   :depends peddy: ``>=0.2.9``
-   :depends perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends python: 
-   :depends python-snappy: 
-   :depends snappy: 
-   :depends sqlalchemy: ``<2.0``
-   :requirements:
+   :depends on cyvcf2: ``>=0.30``
+   :depends on geneimpacts: ``>=0.3``
+   :depends on nomkl: 
+   :depends on numpy: 
+   :depends on peddy: ``>=0.2.9``
+   :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends on python: 
+   :depends on python-snappy: 
+   :depends on snappy: 
+   :depends on sqlalchemy: ``<2.0``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install vcf2db
+    pixi global install vcf2db
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update vcf2db
+    pixi add vcf2db
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname vcf2db
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/vcf2db:<tag>
+    conda install vcf2db
 
-   (see `vcf2db/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname vcf2db
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/vcf2db:<tag>
+
+(see `vcf2db/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_vcf2db| image:: https://img.shields.io/conda/dn/bioconda/vcf2db.svg?style=flat
    :target: https://anaconda.org/bioconda/vcf2db
    :alt:   (downloads)

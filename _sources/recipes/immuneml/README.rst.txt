@@ -43,71 +43,94 @@ immuneml
       
 
    
-   :depends airr: ``>=1,<1.4``
-   :depends bionumpy: ``1.0.12``
-   :depends dill: ``>=0.3``
-   :depends editdistance: 
-   :depends gensim: ``>=4``
-   :depends keras: ``>=2.12.0``
-   :depends logomaker: ``>=0.8``
-   :depends matplotlib-base: ``>=3.1``
-   :depends matplotlib-venn: ``>=0.11``
-   :depends npstructures: 
-   :depends numpy: ``<=1.26.4``
-   :depends olga: ``>=1.2.4``
-   :depends pandas: ``>=2.1.0``
-   :depends plotly: ``>=4``
-   :depends psutil: 
-   :depends pystache: 
-   :depends pytest: ``>=4``
-   :depends python: ``>=3.7,<3.12``
-   :depends python-kaleido: 
-   :depends pytorch: ``>=2.* cpu_*``
-   :depends pyyaml: ``>=5.3``
-   :depends regex: 
-   :depends scikit-learn: ``>=0.23``
-   :depends scipy: ``<1.13``
-   :depends tensorflow: ``>=2.12.0``
-   :depends tzlocal: 
-   :depends umap-learn: 
-   :requirements:
+   :depends on airr: ``>=1,<1.4``
+   :depends on bionumpy: ``1.0.12``
+   :depends on dill: ``>=0.3``
+   :depends on editdistance: 
+   :depends on gensim: ``>=4``
+   :depends on keras: ``>=2.12.0``
+   :depends on logomaker: ``>=0.8``
+   :depends on matplotlib-base: ``>=3.1``
+   :depends on matplotlib-venn: ``>=0.11``
+   :depends on npstructures: 
+   :depends on numpy: ``<=1.26.4``
+   :depends on olga: ``>=1.2.4``
+   :depends on pandas: ``>=2.1.0``
+   :depends on plotly: ``>=4``
+   :depends on psutil: 
+   :depends on pystache: 
+   :depends on pytest: ``>=4``
+   :depends on python: ``>=3.7,<3.12``
+   :depends on python-kaleido: 
+   :depends on pytorch: ``>=2.* cpu_*``
+   :depends on pyyaml: ``>=5.3``
+   :depends on regex: 
+   :depends on scikit-learn: ``>=0.23``
+   :depends on scipy: ``<1.13``
+   :depends on tensorflow: ``>=2.12.0``
+   :depends on tzlocal: 
+   :depends on umap-learn: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install immuneml
+    pixi global install immuneml
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update immuneml
+    pixi add immuneml
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname immuneml
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/immuneml:<tag>
+    conda install immuneml
 
-   (see `immuneml/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname immuneml
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/immuneml:<tag>
+
+(see `immuneml/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_immuneml| image:: https://img.shields.io/conda/dn/bioconda/immuneml.svg?style=flat
    :target: https://anaconda.org/bioconda/immuneml
    :alt:   (downloads)

@@ -32,57 +32,80 @@ clippy
       
 
    
-   :depends bedtools: ``2.26.0.*``
-   :depends dash: ``1.20.0.*``
-   :depends dash-bootstrap-components: ``0.11.3.*``
-   :depends matplotlib-base: 
-   :depends numpy: ``>=1.19.0,<1.20.3``
-   :depends numpydoc: 
-   :depends openssl: 
-   :depends pandas: 
-   :depends pybedtools: 
-   :depends python: ``>=3.8``
-   :depends samtools: ``1.9.*``
-   :depends scipy: 
-   :depends werkzeug: ``2.0.0.*``
-   :requirements:
+   :depends on bedtools: ``2.26.0.*``
+   :depends on dash: ``1.20.0.*``
+   :depends on dash-bootstrap-components: ``0.11.3.*``
+   :depends on matplotlib-base: 
+   :depends on numpy: ``>=1.19.0,<1.20.3``
+   :depends on numpydoc: 
+   :depends on openssl: 
+   :depends on pandas: 
+   :depends on pybedtools: 
+   :depends on python: ``>=3.8``
+   :depends on samtools: ``1.9.*``
+   :depends on scipy: 
+   :depends on werkzeug: ``2.0.0.*``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install clippy
+    pixi global install clippy
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update clippy
+    pixi add clippy
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname clippy
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/clippy:<tag>
+    conda install clippy
 
-   (see `clippy/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname clippy
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/clippy:<tag>
+
+(see `clippy/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_clippy| image:: https://img.shields.io/conda/dn/bioconda/clippy.svg?style=flat
    :target: https://anaconda.org/bioconda/clippy
    :alt:   (downloads)

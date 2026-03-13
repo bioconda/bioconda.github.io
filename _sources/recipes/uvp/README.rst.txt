@@ -32,62 +32,85 @@ uvp
       
 
    
-   :depends bcftools: ``1.2.*``
-   :depends bedtools: ``2.17.0.*``
-   :depends bwa: ``0.7.12.*``
-   :depends fastqc: ``0.11.5.*``
-   :depends fqtools: ``2.0.*``
-   :depends gatk: ``3.6.*``
-   :depends kraken: ``0.10.5.*``
-   :depends openjdk: ``8.*``
-   :depends perl-vcftools-vcf: ``0.1.16.*``
-   :depends picard: ``1.141.*``
-   :depends pigz: ``2.3.4.*``
-   :depends prinseq: ``0.20.4.*``
-   :depends python: 
-   :depends pyyaml: ``5.1.*``
-   :depends qualimap: ``2.1.3.*``
-   :depends samtools: ``1.2.*``
-   :depends snpeff: ``4.1.*``
-   :depends vcftools: ``0.1.16.*``
-   :requirements:
+   :depends on bcftools: ``1.2.*``
+   :depends on bedtools: ``2.17.0.*``
+   :depends on bwa: ``0.7.12.*``
+   :depends on fastqc: ``0.11.5.*``
+   :depends on fqtools: ``2.0.*``
+   :depends on gatk: ``3.6.*``
+   :depends on kraken: ``0.10.5.*``
+   :depends on openjdk: ``8.*``
+   :depends on perl-vcftools-vcf: ``0.1.16.*``
+   :depends on picard: ``1.141.*``
+   :depends on pigz: ``2.3.4.*``
+   :depends on prinseq: ``0.20.4.*``
+   :depends on python: 
+   :depends on pyyaml: ``5.1.*``
+   :depends on qualimap: ``2.1.3.*``
+   :depends on samtools: ``1.2.*``
+   :depends on snpeff: ``4.1.*``
+   :depends on vcftools: ``0.1.16.*``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install uvp
+    pixi global install uvp
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update uvp
+    pixi add uvp
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname uvp
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/uvp:<tag>
+    conda install uvp
 
-   (see `uvp/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname uvp
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/uvp:<tag>
+
+(see `uvp/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_uvp| image:: https://img.shields.io/conda/dn/bioconda/uvp.svg?style=flat
    :target: https://anaconda.org/bioconda/uvp
    :alt:   (downloads)

@@ -43,21 +43,20 @@ openms-meta
       
 
    
-   :depends __glibc: ``>=2.17,<3.0.a0``
-   :depends _openmp_mutex: ``>=4.5``
-   :depends bzip2: ``>=1.0.8,<2.0a0``
-   :depends coin-or-cbc: ``>=2.10.12,<2.11.0a0``
-   :depends coin-or-cgl: ``>=0.60,<0.61.0a0``
-   :depends coin-or-clp: ``>=1.17,<1.18.0a0``
-   :depends coin-or-utils: ``>=2.11,<2.12.0a0``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
-   :depends libsvm: ``>=335,<400``
-   :depends libzlib: ``>=1.3.1,<2.0a0``
-   :depends qt6-main: ``>=6.7.3,<6.8.0a0``
-   :depends xerces-c: ``>=3.2.5,<3.3.0a0``
-   :depends yaml-cpp: ``>=0.8.0,<0.9.0a0``
-   :requirements:
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on _openmp_mutex: ``>=4.5``
+   :depends on bzip2: ``>=1.0.8,<2.0a0``
+   :depends on coin-or-cbc: ``>=2.10.12,<2.11.0a0``
+   :depends on coin-or-cgl: ``>=0.60,<0.61.0a0``
+   :depends on coin-or-clp: ``>=1.17,<1.18.0a0``
+   :depends on coin-or-utils: ``>=2.11,<2.12.0a0``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
+   :depends on libsvm: ``>=335,<400``
+   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on qt6-main: ``>=6.7.3,<6.8.0a0``
+   :depends on xerces-c: ``>=3.2.5,<3.3.0a0``
+   :depends on yaml-cpp: ``>=0.8.0,<0.9.0a0``
 
    :additional platforms:
       
@@ -66,39 +65,63 @@ openms-meta
          <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install libopenms
+    pixi global install libopenms
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update libopenms
+    pixi add libopenms
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname libopenms
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/libopenms:<tag>
+    conda install libopenms
 
-   (see `libopenms/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname libopenms
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/libopenms:<tag>
+
+(see `libopenms/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_libopenms| image:: https://img.shields.io/conda/dn/bioconda/libopenms.svg?style=flat
    :target: https://anaconda.org/bioconda/libopenms
    :alt:   (downloads)
@@ -136,16 +159,15 @@ openms-meta
       
 
    
-   :depends eigen: ``>=3.4.0,<3.5.0a0``
-   :depends libarrow: ``>=21.0.0,<21.1.0a0``
-   :depends libgcc: ``>=13``
-   :depends libopenms: ``3.5.0 hdd6e20e_0``
-   :depends libparquet: ``>=21.0.0,<21.1.0a0``
-   :depends libstdcxx: ``>=13``
-   :depends libsvm: ``>=335,<400``
-   :depends qt6-main: ``>=6.7.3,<6.8.0a0``
-   :depends xerces-c: ``>=3.2.5,<3.3.0a0``
-   :requirements:
+   :depends on eigen: ``>=3.4.0,<3.5.0a0``
+   :depends on libarrow: ``>=21.0.0,<21.1.0a0``
+   :depends on libgcc: ``>=13``
+   :depends on libopenms: ``3.5.0 hdd6e20e_0``
+   :depends on libparquet: ``>=21.0.0,<21.1.0a0``
+   :depends on libstdcxx: ``>=13``
+   :depends on libsvm: ``>=335,<400``
+   :depends on qt6-main: ``>=6.7.3,<6.8.0a0``
+   :depends on xerces-c: ``>=3.2.5,<3.3.0a0``
 
    :additional platforms:
       
@@ -154,39 +176,63 @@ openms-meta
          <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install openms
+    pixi global install openms
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update openms
+    pixi add openms
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname openms
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/openms:<tag>
+    conda install openms
 
-   (see `openms/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname openms
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/openms:<tag>
+
+(see `openms/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_openms| image:: https://img.shields.io/conda/dn/bioconda/openms.svg?style=flat
    :target: https://anaconda.org/bioconda/openms
    :alt:   (downloads)
@@ -216,7 +262,6 @@ openms-meta
       
 
    
-   :requirements:
 
    :additional platforms:
       
@@ -225,39 +270,63 @@ openms-meta
          <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install openms-meta
+    pixi global install openms-meta
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update openms-meta
+    pixi add openms-meta
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname openms-meta
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/openms-meta:<tag>
+    conda install openms-meta
 
-   (see `openms-meta/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname openms-meta
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/openms-meta:<tag>
+
+(see `openms-meta/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_openms-meta| image:: https://img.shields.io/conda/dn/bioconda/openms-meta.svg?style=flat
    :target: https://anaconda.org/bioconda/openms-meta
    :alt:   (downloads)
@@ -295,17 +364,16 @@ openms-meta
       
 
    
-   :depends comet-ms: ``2024011``
-   :depends gnuplot: 
-   :depends luciphor2: ``2020_04_03``
-   :depends msgf_plus: ``2024.03.26``
-   :depends openms: ``3.5.0 h78fb946_0``
-   :depends percolator: ``3.7.1``
-   :depends r-gplots: 
-   :depends sage-proteomics: ``0.14.7``
-   :depends sirius-ms: ``>=6.1.0``
-   :depends thermorawfileparser: ``1.4.3``
-   :requirements:
+   :depends on comet-ms: ``2024011``
+   :depends on gnuplot: 
+   :depends on luciphor2: ``2020_04_03``
+   :depends on msgf_plus: ``2024.03.26``
+   :depends on openms: ``3.5.0 h78fb946_0``
+   :depends on percolator: ``3.7.1``
+   :depends on r-gplots: 
+   :depends on sage-proteomics: ``0.14.7``
+   :depends on sirius-ms: ``>=6.1.0``
+   :depends on thermorawfileparser: ``1.4.3``
 
    :additional platforms:
       
@@ -314,39 +382,63 @@ openms-meta
          <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install openms-thirdparty
+    pixi global install openms-thirdparty
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update openms-thirdparty
+    pixi add openms-thirdparty
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname openms-thirdparty
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/openms-thirdparty:<tag>
+    conda install openms-thirdparty
 
-   (see `openms-thirdparty/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname openms-thirdparty
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/openms-thirdparty:<tag>
+
+(see `openms-thirdparty/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_openms-thirdparty| image:: https://img.shields.io/conda/dn/bioconda/openms-thirdparty.svg?style=flat
    :target: https://anaconda.org/bioconda/openms-thirdparty
    :alt:   (downloads)

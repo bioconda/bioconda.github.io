@@ -32,66 +32,89 @@ repermulize
       
 
    
-   :depends bioconductor-biomformat: ``1.26.0.*``
-   :depends bioconductor-ggtree: ``3.6.0.*``
-   :depends bioconductor-qvalue: ``2.30.0.*``
-   :depends bioconductor-s4vectors: ``0.36.0.*``
-   :depends r-ashr: ``2.2_54.*``
-   :depends r-base: ``>=4.2,<4.3.0a0``
-   :depends r-castor: ``1.7.10.*``
-   :depends r-dt: ``0.33.*``
-   :depends r-extradistr: ``1.9.1.*``
-   :depends r-forcats: ``1.0.0.*``
-   :depends r-kableextra: ``1.4.0.*``
-   :depends r-matrix: ``1.5_4.1.*``
-   :depends r-pbapply: ``1.7_0.*``
-   :depends r-phylolm: ``2.6.2.*``
-   :depends r-plotly: ``<=4.10.4``
-   :depends r-purrr: ``1.0.1.*``
-   :depends r-readr: ``2.1.4.*``
-   :depends r-seqinr: ``4.2_30.*``
-   :depends r-settings: ``0.2.7.*``
-   :depends r-stringr: ``1.5.0.*``
-   :depends r-tibble: ``3.2.1.*``
-   :depends r-tidyr: ``1.3.0.*``
-   :requirements:
+   :depends on bioconductor-biomformat: ``1.26.0.*``
+   :depends on bioconductor-ggtree: ``3.6.0.*``
+   :depends on bioconductor-qvalue: ``2.30.0.*``
+   :depends on bioconductor-s4vectors: ``0.36.0.*``
+   :depends on r-ashr: ``2.2_54.*``
+   :depends on r-base: ``>=4.2,<4.3.0a0``
+   :depends on r-castor: ``1.7.10.*``
+   :depends on r-dt: ``0.33.*``
+   :depends on r-extradistr: ``1.9.1.*``
+   :depends on r-forcats: ``1.0.0.*``
+   :depends on r-kableextra: ``1.4.0.*``
+   :depends on r-matrix: ``1.5_4.1.*``
+   :depends on r-pbapply: ``1.7_0.*``
+   :depends on r-phylolm: ``2.6.2.*``
+   :depends on r-plotly: ``<=4.10.4``
+   :depends on r-purrr: ``1.0.1.*``
+   :depends on r-readr: ``2.1.4.*``
+   :depends on r-seqinr: ``4.2_30.*``
+   :depends on r-settings: ``0.2.7.*``
+   :depends on r-stringr: ``1.5.0.*``
+   :depends on r-tibble: ``3.2.1.*``
+   :depends on r-tidyr: ``1.3.0.*``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install repermulize
+    pixi global install repermulize
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update repermulize
+    pixi add repermulize
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname repermulize
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/repermulize:<tag>
+    conda install repermulize
 
-   (see `repermulize/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname repermulize
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/repermulize:<tag>
+
+(see `repermulize/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_repermulize| image:: https://img.shields.io/conda/dn/bioconda/repermulize.svg?style=flat
    :target: https://anaconda.org/bioconda/repermulize
    :alt:   (downloads)

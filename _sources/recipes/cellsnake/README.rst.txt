@@ -32,101 +32,124 @@ cellsnake
       
 
    
-   :depends bedtools: 
-   :depends celltypist: ``1.3.0``
-   :depends cmake: 
-   :depends docopt: 
-   :depends fastp: 
-   :depends fuzzywuzzy: 
-   :depends geos: ``3.11.1``
-   :depends hdf5: 
-   :depends kraken2: 
-   :depends levenshtein: 
-   :depends matplotlib-base: ``<3.7``
-   :depends numba: ``>=0.56.4``
-   :depends openblas: ``0.3.21``
-   :depends pandas: ``<=1.5.3``
-   :depends plotly: 
-   :depends pysam: ``>=0.16.0.1``
-   :depends python: 
-   :depends r-clustree: ``0.5.0``
-   :depends r-cowplot: 
-   :depends r-curl: 
-   :depends r-dbplyr: ``<=2.3.2``
-   :depends r-expm: 
-   :depends r-fields: 
-   :depends r-ggalluvial: 
-   :depends r-ggpubr: 
-   :depends r-ggraph: ``2.1.0``
-   :depends r-ggthemes: 
-   :depends r-gplots: 
-   :depends r-hdf5r: 
-   :depends r-igraph: 
-   :depends r-librarian: 
-   :depends r-matrix: ``<=1.5_4.1``
-   :depends r-minqa: 
-   :depends r-nmf: 
-   :depends r-openxlsx: 
-   :depends r-optparse: 
-   :depends r-patchwork: 
-   :depends r-plotly: 
-   :depends r-r.utils: 
-   :depends r-randomcolor: 
-   :depends r-reticulate: 
-   :depends r-rsvd: 
-   :depends r-seurat: ``4.3.0``
-   :depends r-seuratobject: ``4.1.3``
-   :depends r-spdep: 
-   :depends r-terra: 
-   :depends r-tidyseurat: 
-   :depends r-tidyverse: 
-   :depends r-v8: 
-   :depends r-viridis: 
-   :depends r-xml: 
-   :depends regex: ``>=2021.4.4``
-   :depends samtools: 
-   :depends scanpy: ``1.9.1``
-   :depends scipy: 
-   :depends snakemake-minimal: ``7.22.0``
-   :depends umap-learn: 
-   :requirements:
+   :depends on bedtools: 
+   :depends on celltypist: ``1.3.0``
+   :depends on cmake: 
+   :depends on docopt: 
+   :depends on fastp: 
+   :depends on fuzzywuzzy: 
+   :depends on geos: ``3.11.1``
+   :depends on hdf5: 
+   :depends on kraken2: 
+   :depends on levenshtein: 
+   :depends on matplotlib-base: ``<3.7``
+   :depends on numba: ``>=0.56.4``
+   :depends on openblas: ``0.3.21``
+   :depends on pandas: ``<=1.5.3``
+   :depends on plotly: 
+   :depends on pysam: ``>=0.16.0.1``
+   :depends on python: 
+   :depends on r-clustree: ``0.5.0``
+   :depends on r-cowplot: 
+   :depends on r-curl: 
+   :depends on r-dbplyr: ``<=2.3.2``
+   :depends on r-expm: 
+   :depends on r-fields: 
+   :depends on r-ggalluvial: 
+   :depends on r-ggpubr: 
+   :depends on r-ggraph: ``2.1.0``
+   :depends on r-ggthemes: 
+   :depends on r-gplots: 
+   :depends on r-hdf5r: 
+   :depends on r-igraph: 
+   :depends on r-librarian: 
+   :depends on r-matrix: ``<=1.5_4.1``
+   :depends on r-minqa: 
+   :depends on r-nmf: 
+   :depends on r-openxlsx: 
+   :depends on r-optparse: 
+   :depends on r-patchwork: 
+   :depends on r-plotly: 
+   :depends on r-r.utils: 
+   :depends on r-randomcolor: 
+   :depends on r-reticulate: 
+   :depends on r-rsvd: 
+   :depends on r-seurat: ``4.3.0``
+   :depends on r-seuratobject: ``4.1.3``
+   :depends on r-spdep: 
+   :depends on r-terra: 
+   :depends on r-tidyseurat: 
+   :depends on r-tidyverse: 
+   :depends on r-v8: 
+   :depends on r-viridis: 
+   :depends on r-xml: 
+   :depends on regex: ``>=2021.4.4``
+   :depends on samtools: 
+   :depends on scanpy: ``1.9.1``
+   :depends on scipy: 
+   :depends on snakemake-minimal: ``7.22.0``
+   :depends on umap-learn: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install cellsnake
+    pixi global install cellsnake
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update cellsnake
+    pixi add cellsnake
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname cellsnake
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/cellsnake:<tag>
+    conda install cellsnake
 
-   (see `cellsnake/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname cellsnake
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/cellsnake:<tag>
+
+(see `cellsnake/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_cellsnake| image:: https://img.shields.io/conda/dn/bioconda/cellsnake.svg?style=flat
    :target: https://anaconda.org/bioconda/cellsnake
    :alt:   (downloads)

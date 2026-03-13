@@ -40,79 +40,102 @@ bioconductor-phantasus
       
 
    
-   :depends bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
-   :depends bioconductor-apeglm: ``>=1.32.0,<1.33.0``
-   :depends bioconductor-biobase: ``>=2.70.0,<2.71.0``
-   :depends bioconductor-deseq2: ``>=1.50.0,<1.51.0``
-   :depends bioconductor-edger: ``>=4.8.0,<4.9.0``
-   :depends bioconductor-fgsea: ``>=1.36.0,<1.37.0``
-   :depends bioconductor-geoquery: ``>=2.78.0,<2.79.0``
-   :depends bioconductor-limma: ``>=3.66.0,<3.67.0``
-   :depends bioconductor-phantasuslite: ``>=1.8.0,<1.9.0``
-   :depends bioconductor-rhdf5: ``>=2.54.0,<2.55.0``
-   :depends bioconductor-rhdf5client: ``>=1.32.0,<1.33.0``
-   :depends r-assertthat: 
-   :depends r-base: ``>=4.5,<4.6.0a0``
-   :depends r-ccapp: 
-   :depends r-config: ``>=0.3.2``
-   :depends r-curl: 
-   :depends r-data.table: 
-   :depends r-fs: 
-   :depends r-ggplot2: 
-   :depends r-gtable: 
-   :depends r-htmltools: 
-   :depends r-httpuv: 
-   :depends r-httr: 
-   :depends r-jsonlite: 
-   :depends r-matrix: 
-   :depends r-opencpu: 
-   :depends r-pheatmap: 
-   :depends r-protolite: 
-   :depends r-rook: 
-   :depends r-scales: 
-   :depends r-stringr: 
-   :depends r-svglite: 
-   :depends r-tidyr: 
-   :depends r-xml: 
-   :depends r-yaml: 
-   :requirements:
+   :depends on bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends on bioconductor-apeglm: ``>=1.32.0,<1.33.0``
+   :depends on bioconductor-biobase: ``>=2.70.0,<2.71.0``
+   :depends on bioconductor-deseq2: ``>=1.50.0,<1.51.0``
+   :depends on bioconductor-edger: ``>=4.8.0,<4.9.0``
+   :depends on bioconductor-fgsea: ``>=1.36.0,<1.37.0``
+   :depends on bioconductor-geoquery: ``>=2.78.0,<2.79.0``
+   :depends on bioconductor-limma: ``>=3.66.0,<3.67.0``
+   :depends on bioconductor-phantasuslite: ``>=1.8.0,<1.9.0``
+   :depends on bioconductor-rhdf5: ``>=2.54.0,<2.55.0``
+   :depends on bioconductor-rhdf5client: ``>=1.32.0,<1.33.0``
+   :depends on r-assertthat: 
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-ccapp: 
+   :depends on r-config: ``>=0.3.2``
+   :depends on r-curl: 
+   :depends on r-data.table: 
+   :depends on r-fs: 
+   :depends on r-ggplot2: 
+   :depends on r-gtable: 
+   :depends on r-htmltools: 
+   :depends on r-httpuv: 
+   :depends on r-httr: 
+   :depends on r-jsonlite: 
+   :depends on r-matrix: 
+   :depends on r-opencpu: 
+   :depends on r-pheatmap: 
+   :depends on r-protolite: 
+   :depends on r-rook: 
+   :depends on r-scales: 
+   :depends on r-stringr: 
+   :depends on r-svglite: 
+   :depends on r-tidyr: 
+   :depends on r-xml: 
+   :depends on r-yaml: 
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install bioconductor-phantasus
+    pixi global install bioconductor-phantasus
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update bioconductor-phantasus
+    pixi add bioconductor-phantasus
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname bioconductor-phantasus
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/bioconductor-phantasus:<tag>
+    conda install bioconductor-phantasus
 
-   (see `bioconductor-phantasus/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname bioconductor-phantasus
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/bioconductor-phantasus:<tag>
+
+(see `bioconductor-phantasus/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_bioconductor-phantasus| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-phantasus.svg?style=flat
    :target: https://anaconda.org/bioconda/bioconductor-phantasus
    :alt:   (downloads)

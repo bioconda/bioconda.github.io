@@ -34,44 +34,43 @@ r-azimuth
       
 
    
-   :depends bioconductor-bsgenome.hsapiens.ucsc.hg38: ``>=1.4.5,<1.5.0a0``
-   :depends bioconductor-ensdb.hsapiens.v86: ``>=2.99.0,<2.100.0a0``
-   :depends bioconductor-glmgampoi: ``>=1.0.0``
-   :depends bioconductor-glmgampoi: ``>=1.18.0,<1.19.0a0``
-   :depends bioconductor-jaspar2020: ``>=0.99.10,<0.100.0a0``
-   :depends bioconductor-tfbstools: ``>=1.46.0,<2.0a0``
-   :depends libgcc: ``>=13``
-   :depends libstdcxx: ``>=13``
-   :depends r-base: ``>=4.4,<4.5.0a0``
-   :depends r-dt: ``>=0.15``
-   :depends r-future: ``>=1.19.1``
-   :depends r-ggplot2: ``>=3.3.2``
-   :depends r-googlesheets4: ``>=0.2.0``
-   :depends r-hdf5r: ``>=1.3.2``
-   :depends r-htmltools: ``>=0.5.0``
-   :depends r-httr: ``>=1.4.2``
-   :depends r-jsonlite: ``>=1.7.0``
-   :depends r-matrix: ``>=1.2.18``
-   :depends r-patchwork: ``>=1.0.1``
-   :depends r-plotly: 
-   :depends r-presto: ``1.0.0``
-   :depends r-presto: ``>=1.0.0,<2.0a0``
-   :depends r-rcpp: ``>=1.0.7``
-   :depends r-rlang: ``>=0.4.8``
-   :depends r-scales: ``>=1.1.1``
-   :depends r-seurat: ``>=5.0.0``
-   :depends r-seurat-data: ``>=0.2.1,<0.3.0a0``
-   :depends r-seurat-disk: ``>=0.0.0.9021,<0.0.1.0a0``
-   :depends r-seuratobject: ``>=5.0.0``
-   :depends r-shiny: ``>=1.5.0``
-   :depends r-shinybs: ``>=0.61``
-   :depends r-shinydashboard: ``>=0.7.1``
-   :depends r-shinyjs: ``>=2.0.0``
-   :depends r-signac: ``>=1.12.0``
-   :depends r-signac: ``>=1.15.0,<2.0a0``
-   :depends r-stringr: ``>=1.4.0``
-   :depends r-withr: ``>=2.3.0``
-   :requirements:
+   :depends on bioconductor-bsgenome.hsapiens.ucsc.hg38: ``>=1.4.5,<1.5.0a0``
+   :depends on bioconductor-ensdb.hsapiens.v86: ``>=2.99.0,<2.100.0a0``
+   :depends on bioconductor-glmgampoi: ``>=1.0.0``
+   :depends on bioconductor-glmgampoi: ``>=1.18.0,<1.19.0a0``
+   :depends on bioconductor-jaspar2020: ``>=0.99.10,<0.100.0a0``
+   :depends on bioconductor-tfbstools: ``>=1.46.0,<2.0a0``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
+   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on r-dt: ``>=0.15``
+   :depends on r-future: ``>=1.19.1``
+   :depends on r-ggplot2: ``>=3.3.2``
+   :depends on r-googlesheets4: ``>=0.2.0``
+   :depends on r-hdf5r: ``>=1.3.2``
+   :depends on r-htmltools: ``>=0.5.0``
+   :depends on r-httr: ``>=1.4.2``
+   :depends on r-jsonlite: ``>=1.7.0``
+   :depends on r-matrix: ``>=1.2.18``
+   :depends on r-patchwork: ``>=1.0.1``
+   :depends on r-plotly: 
+   :depends on r-presto: ``1.0.0``
+   :depends on r-presto: ``>=1.0.0,<2.0a0``
+   :depends on r-rcpp: ``>=1.0.7``
+   :depends on r-rlang: ``>=0.4.8``
+   :depends on r-scales: ``>=1.1.1``
+   :depends on r-seurat: ``>=5.0.0``
+   :depends on r-seurat-data: ``>=0.2.1,<0.3.0a0``
+   :depends on r-seurat-disk: ``>=0.0.0.9021,<0.0.1.0a0``
+   :depends on r-seuratobject: ``>=5.0.0``
+   :depends on r-shiny: ``>=1.5.0``
+   :depends on r-shinybs: ``>=0.61``
+   :depends on r-shinydashboard: ``>=0.7.1``
+   :depends on r-shinyjs: ``>=2.0.0``
+   :depends on r-signac: ``>=1.12.0``
+   :depends on r-signac: ``>=1.15.0,<2.0a0``
+   :depends on r-stringr: ``>=1.4.0``
+   :depends on r-withr: ``>=2.3.0``
 
    :additional platforms:
       
@@ -80,39 +79,63 @@ r-azimuth
          <span class="additional-platforms"><code>osx-arm64</code>,  <code>linux-aarch64</code></span>
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install r-azimuth
+    pixi global install r-azimuth
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update r-azimuth
+    pixi add r-azimuth
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname r-azimuth
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/r-azimuth:<tag>
+    conda install r-azimuth
 
-   (see `r-azimuth/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname r-azimuth
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/r-azimuth:<tag>
+
+(see `r-azimuth/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_r-azimuth| image:: https://img.shields.io/conda/dn/bioconda/r-azimuth.svg?style=flat
    :target: https://anaconda.org/bioconda/r-azimuth
    :alt:   (downloads)

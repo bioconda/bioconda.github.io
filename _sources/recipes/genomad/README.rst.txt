@@ -42,56 +42,79 @@ genomad
       
 
    
-   :depends aragorn: 
-   :depends keras: ``>=3``
-   :depends mmseqs2: ``>=15.6f452``
-   :depends numba: ``>=0.57``
-   :depends numpy: ``>=1.21``
-   :depends pyrodigal-gv: ``>=0.3.1``
-   :depends python: ``>=3.9``
-   :depends python-crfsuite: 
-   :depends rich-click: 
-   :depends taxopy: ``>=0.12.0``
-   :depends tensorflow: ``>=2.16``
-   :depends xgboost: ``>=1.6``
-   :requirements:
+   :depends on aragorn: 
+   :depends on keras: ``>=3``
+   :depends on mmseqs2: ``>=15.6f452``
+   :depends on numba: ``>=0.57``
+   :depends on numpy: ``>=1.21``
+   :depends on pyrodigal-gv: ``>=0.3.1``
+   :depends on python: ``>=3.9``
+   :depends on python-crfsuite: 
+   :depends on rich-click: 
+   :depends on taxopy: ``>=0.12.0``
+   :depends on tensorflow: ``>=2.16``
+   :depends on xgboost: ``>=1.6``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install genomad
+    pixi global install genomad
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update genomad
+    pixi add genomad
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname genomad
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/genomad:<tag>
+    conda install genomad
 
-   (see `genomad/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname genomad
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/genomad:<tag>
+
+(see `genomad/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_genomad| image:: https://img.shields.io/conda/dn/bioconda/genomad.svg?style=flat
    :target: https://anaconda.org/bioconda/genomad
    :alt:   (downloads)

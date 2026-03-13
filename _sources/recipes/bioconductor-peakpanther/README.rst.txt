@@ -40,62 +40,85 @@ bioconductor-peakpanther
       
 
    
-   :depends bioconductor-msnbase: ``>=2.36.0,<2.37.0``
-   :depends bioconductor-mzr: ``>=2.44.0,<2.45.0``
-   :depends r-base: ``>=4.5,<4.6.0a0``
-   :depends r-bslib: 
-   :depends r-doparallel: ``>=1.0.11``
-   :depends r-dt: ``>=0.15``
-   :depends r-foreach: ``>=1.4.4``
-   :depends r-ggplot2: ``>=3.5.0``
-   :depends r-gridextra: ``>=2.3``
-   :depends r-lubridate: 
-   :depends r-minpack.lm: ``>=1.2.1``
-   :depends r-pracma: ``>=2.2.3``
-   :depends r-scales: ``>=0.5.0``
-   :depends r-shiny: ``>=1.0.5``
-   :depends r-shinycssloaders: ``>=1.0.0``
-   :depends r-stringr: ``>=1.2.0``
-   :depends r-svglite: ``>=2.1.1``
-   :depends r-xml: ``>=3.98.1.10``
-   :requirements:
+   :depends on bioconductor-msnbase: ``>=2.36.0,<2.37.0``
+   :depends on bioconductor-mzr: ``>=2.44.0,<2.45.0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-bslib: 
+   :depends on r-doparallel: ``>=1.0.11``
+   :depends on r-dt: ``>=0.15``
+   :depends on r-foreach: ``>=1.4.4``
+   :depends on r-ggplot2: ``>=3.5.0``
+   :depends on r-gridextra: ``>=2.3``
+   :depends on r-lubridate: 
+   :depends on r-minpack.lm: ``>=1.2.1``
+   :depends on r-pracma: ``>=2.2.3``
+   :depends on r-scales: ``>=0.5.0``
+   :depends on r-shiny: ``>=1.0.5``
+   :depends on r-shinycssloaders: ``>=1.0.0``
+   :depends on r-stringr: ``>=1.2.0``
+   :depends on r-svglite: ``>=2.1.1``
+   :depends on r-xml: ``>=3.98.1.10``
 
    :additional platforms:
       
 
-   .. rubric:: Installation
+Installation
+------------
 
-  You need a conda-compatible package manager
-  (currently either `micromamba <https://mamba.readthedocs.io>`_, `mamba <https://mamba.readthedocs.io>`_, or `conda <https://docs.conda.io/projects/conda>`_)
-  and the Bioconda channel already activated (see :ref:`set-up-channels`).
+You need a conda-compatible package manager
+(currently either `pixi <https://pixi.sh>`__, `conda <https://docs.conda.io/projects/conda>`__, or `micromamba <https://mamba.readthedocs.io>`__)
+and the Bioconda channel already activated (see :ref:`bioconda_setup`).
+Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).
 
-  While any of above package managers is fine, it is currently recommended to use either
-  micromamba or mamba (see `here <https://mamba.readthedocs.io>`_ for installation instructions).
-  We will show all commands using mamba below, but the arguments are the same for the two
-  others.
+Pixi
+""""
 
-  Given that you already have a conda environment in which you want to have this package, install with::
+With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
+to install globally, run::
 
-      mamba install bioconductor-peakpanther
+    pixi global install bioconductor-peakpanther
 
-   and update with::
+to add into an existing workspace instead, run::
 
-      mamba update bioconductor-peakpanther
+    pixi add bioconductor-peakpanther
 
-  To create a new environment, run::
+In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
-      mamba create --name myenvname bioconductor-peakpanther
+    pixi workspace channel add conda-forge
+    pixi workspace channel add bioconda
 
-  with ``myenvname`` being a reasonable name for the environment
-  (see e.g. the `mamba docs <https://mamba.readthedocs.io>`_ for details and further options).
+Conda
+"""""
 
-  Alternatively, use the docker container::
+With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-      docker pull quay.io/biocontainers/bioconductor-peakpanther:<tag>
+    conda install bioconductor-peakpanther
 
-   (see `bioconductor-peakpanther/tags`_ for valid values for ``<tag>``)
+Alternatively, to install into a new environment, run::
 
+    conda create -n envname bioconductor-peakpanther
 
+with ``envname`` being the name of the desired environment.
+
+Container
+"""""""""
+
+Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
+For e.g. docker, run::
+
+    docker pull quay.io/biocontainers/bioconductor-peakpanther:<tag>
+
+(see `bioconductor-peakpanther/tags`_ for valid values for ``<tag>``).
+
+Integrated deployment
+"""""""""""""""""""""
+
+Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
+Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
+Check the documentation of your workflow management system to find out about the integration.
+
+.. _conda: https://conda.io
+.. _pixi: https://pixi.sh
 .. |downloads_bioconductor-peakpanther| image:: https://img.shields.io/conda/dn/bioconda/bioconductor-peakpanther.svg?style=flat
    :target: https://anaconda.org/bioconda/bioconductor-peakpanther
    :alt:   (downloads)
