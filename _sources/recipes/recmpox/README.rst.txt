@@ -15,16 +15,16 @@ recmpox
    :homepage: https://github.com/DaanJansen94/RecMpox
    :documentation: https://github.com/DaanJansen94/RecMpox/blob/main/README.md
    
-   :license: GPL / GPL-3.0-or-later
+   :license: MIT / MIT
    :recipe: /`recmpox <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/recmpox>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/recmpox/meta.yaml>`_
 
    RecMpox is a command\-line tool that flags potential recombination events in monkeypox viruses.
    It identifies recombination tract breakpoints within your own provided consensus genomes.
    It does not confirm recombination\; it flags genomes that may be recombinant for further investigation.
-   RecMpox takes two references \(e.g. Clade Ia vs Ib\, or IIa vs IIb\)\, aligns them with Squirrel\,
-   finds diagnostic SNP positions where the references differ\, then classifies each consensus genome
-   at those positions. Genomes where both refs contribute at least 5\% are flagged as potential
-   recombinants. Recombination tracts and breakpoints are inferred along the genome.
+   RecMpox takes two references \(e.g. Clade Ia vs Ib\, or IIa vs IIb\)\, aligns them\, finds diagnostic sites\,
+   and classifies each genome along the alignment to infer recombination tracts and breakpoints.
+   Optionally\, RecMpox can build a phylogeny of the inferred tract sequences alongside outbreak references\,
+   to help confirm true recombination and reduce false positives caused by ancestral population structure.
 
 
 
@@ -36,13 +36,19 @@ recmpox
       
       
 
-      ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
    
+   :depends on bioconductor-ggtree: 
+   :depends on iqtree: ``2.4.0.*``
    :depends on minimap2: 
    :depends on python: ``>=3.9``
+   :depends on r-ape: 
+   :depends on r-base: 
+   :depends on r-ggplot2: 
+   :depends on r-phytools: 
    :depends on samtools: 
    :depends on squirrel: 
 
@@ -118,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "recmpox";
-        var versions = ["0.0.4","0.0.3","0.0.2","0.0.1"];
+        var versions = ["0.0.5","0.0.4","0.0.3","0.0.2","0.0.1"];
     </script>
 
 

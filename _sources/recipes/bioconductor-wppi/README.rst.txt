@@ -27,13 +27,13 @@ bioconductor-wppi
       
       
 
-      ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.18.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends on bioconductor-omnipathr: ``>=3.10.0,<3.11.0``
-   :depends on r-base: ``>=4.3,<4.4.0a0``
+   :depends on bioconductor-omnipathr: ``>=3.18.0,<3.19.0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-dplyr: 
    :depends on r-igraph: 
    :depends on r-logger: 
@@ -118,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bioconductor-wppi";
-        var versions = ["1.10.0","1.8.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.18.0","1.10.0","1.8.0","1.6.0","1.2.0"];
     </script>
 
 

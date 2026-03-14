@@ -76,7 +76,7 @@
 <dd class="field-even"><p><a class="reference external" href="https://github.com/DaanJansen94/RecMpox/blob/main/README.md">https://github.com/DaanJansen94/RecMpox/blob/main/README.md</a></p>
 </dd>
 <dt class="field-odd">License<span class="colon">:</span></dt>
-<dd class="field-odd"><p>GPL / GPL-3.0-or-later</p>
+<dd class="field-odd"><p>MIT / MIT</p>
 </dd>
 <dt class="field-even">Recipe<span class="colon">:</span></dt>
 <dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/recmpox">recmpox</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/recmpox/meta.yaml">meta.yaml</a></p>
@@ -85,10 +85,10 @@
 <p>RecMpox is a command-line tool that flags potential recombination events in monkeypox viruses.
 It identifies recombination tract breakpoints within your own provided consensus genomes.
 It does not confirm recombination; it flags genomes that may be recombinant for further investigation.
-RecMpox takes two references (e.g. Clade Ia vs Ib, or IIa vs IIb), aligns them with Squirrel,
-finds diagnostic SNP positions where the references differ, then classifies each consensus genome
-at those positions. Genomes where both refs contribute at least 5% are flagged as potential
-recombinants. Recombination tracts and breakpoints are inferred along the genome.</p>
+RecMpox takes two references (e.g. Clade Ia vs Ib, or IIa vs IIb), aligns them, finds diagnostic sites,
+and classifies each genome along the alignment to infer recombination tracts and breakpoints.
+Optionally, RecMpox can build a phylogeny of the inferred tract sequences alongside outbreak references,
+to help confirm true recombination and reduce false positives caused by ancestral population structure.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -97,12 +97,18 @@ recombinants. Recombination tracts and breakpoints are inferred along the genome
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/recmpox"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/recmpox.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/recmpox"><img alt="docker_recmpox" src="https://quay.io/repository/biocontainers/recmpox/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.0.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.1-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.0.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.1-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
+<li><p><strong>on bioconductor-ggtree</strong></p></li>
+<li><p><strong>on iqtree</strong> <code class="docutils literal notranslate"><span class="pre">2.4.0.*</span></code></p></li>
 <li><p><strong>on minimap2</strong></p></li>
 <li><p><strong>on python</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.9</span></code></p></li>
+<li><p><strong>on r-ape</strong></p></li>
+<li><p><strong>on r-base</strong></p></li>
+<li><p><strong>on r-ggplot2</strong></p></li>
+<li><p><strong>on r-phytools</strong></p></li>
 <li><p><strong>on samtools</strong></p></li>
 <li><p><strong>on squirrel</strong></p></li>
 </ul>
@@ -163,7 +169,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
     var package = "recmpox";
-    var versions = ["0.0.4","0.0.3","0.0.2","0.0.1"];
+    var versions = ["0.0.5","0.0.4","0.0.3","0.0.2","0.0.1"];
 </script></section>
 </section>
 <section id="download-stats">
