@@ -53,7 +53,6 @@ phyloacc
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on libstdcxx: ``>=14``
    :depends on matplotlib-base: ``>=3.5``
-   :depends on mkl: 
    :depends on numpy: ``>=1.22``
    :depends on python: ``>=3.11,<3.12.0a0``
    :depends on python_abi: ``3.11.* *_cp311``

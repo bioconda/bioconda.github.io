@@ -12,8 +12,8 @@ ntjoin
 
    Genome assembly scaffolder using minimizer graphs
 
-   :homepage: http://www.bcgsc.ca/platform/bioinfo/software/ntjoin
-   :license: GPL-3.0
+   :homepage: https://github.com/BirolLab/ntJoin
+   :license: GPL-3.0-or-later
    :recipe: /`ntjoin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ntjoin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ntjoin/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ ntjoin
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.5-2</code>,  <code>1.1.5-1</code>,  <code>1.1.5-0</code>,  <code>1.1.4-1</code>,  <code>1.1.4-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-2</code>,  <code>1.1.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.5-3</code>,  <code>1.1.5-2</code>,  <code>1.1.5-1</code>,  <code>1.1.5-0</code>,  <code>1.1.4-1</code>,  <code>1.1.4-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-2</code>,  </span></summary>
       
 
-      ``1.1.5-2``,  ``1.1.5-1``,  ``1.1.5-0``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.1.5-3``,  ``1.1.5-2``,  ``1.1.5-1``,  ``1.1.5-0``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -41,13 +41,13 @@ ntjoin
 
    
    :depends on bedtools: ``>=2.21.0``
-   :depends on btllib: 
+   :depends on btllib: ``>=1.7.1``
    :depends on make: 
    :depends on packaging: 
    :depends on pybedtools: 
    :depends on pymannkendall: 
    :depends on pysam: ``>=0.16.0``
-   :depends on python: 
+   :depends on python: ``>=3.12,<3.13.0a0``
    :depends on python-igraph: 
    :depends on samtools: ``>=1.10``
    :depends on zlib: 
@@ -124,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "ntjoin";
-        var versions = ["1.1.5","1.1.5","1.1.5","1.1.4","1.1.4"];
+        var versions = ["1.1.5","1.1.5","1.1.5","1.1.5","1.1.4"];
     </script>
 
 

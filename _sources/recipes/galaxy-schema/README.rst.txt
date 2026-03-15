@@ -32,10 +32,10 @@ galaxy-schema
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>25.1.1-0</code>,  <code>25.0.4-0</code>,  <code>25.0.3-0</code>,  <code>25.0.2-0</code>,  <code>25.0.1-0</code>,  <code>24.2.4-0</code>,  <code>24.2.3-0</code>,  <code>24.2.2-0</code>,  <code>24.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>25.1.2-0</code>,  <code>25.1.1-0</code>,  <code>25.0.4-0</code>,  <code>25.0.3-0</code>,  <code>25.0.2-0</code>,  <code>25.0.1-0</code>,  <code>24.2.4-0</code>,  <code>24.2.3-0</code>,  <code>24.2.2-0</code>,  </span></summary>
       
 
-      ``25.1.1-0``,  ``25.0.4-0``,  ``25.0.3-0``,  ``25.0.2-0``,  ``25.0.1-0``,  ``24.2.4-0``,  ``24.2.3-0``,  ``24.2.2-0``,  ``24.2.1-0``,  ``24.2.0-0``,  ``24.1.4-0``,  ``24.1.3-0``,  ``24.1.2-0``,  ``24.1.1-0``
+      ``25.1.2-0``,  ``25.1.1-0``,  ``25.0.4-0``,  ``25.0.3-0``,  ``25.0.2-0``,  ``25.0.1-0``,  ``24.2.4-0``,  ``24.2.3-0``,  ``24.2.2-0``,  ``24.2.1-0``,  ``24.2.0-0``,  ``24.1.4-0``,  ``24.1.3-0``,  ``24.1.2-0``,  ``24.1.1-0``
 
       
       .. raw:: html
@@ -122,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "galaxy-schema";
-        var versions = ["25.1.1","25.0.4","25.0.3","25.0.2","25.0.1"];
+        var versions = ["25.1.2","25.1.1","25.0.4","25.0.3","25.0.2"];
     </script>
 
 

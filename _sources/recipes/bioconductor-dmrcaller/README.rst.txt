@@ -29,10 +29,10 @@ bioconductor-dmrcaller
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.26.0-2</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.42.0-0</code>,  <code>1.38.0-0</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.32.0-0</code>,  <code>1.30.0-1</code>,  <code>1.30.0-0</code>,  <code>1.26.0-2</code>,  <code>1.26.0-1</code>,  </span></summary>
       
 
-      ``1.38.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.26.0-2``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
+      ``1.42.0-0``,  ``1.38.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.26.0-2``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.14.0-0``
 
       
       .. raw:: html
@@ -41,20 +41,41 @@ bioconductor-dmrcaller
       
 
    
-   :depends on bioconductor-genomicranges: ``>=1.58.0,<1.59.0``
-   :depends on bioconductor-genomicranges: ``>=1.58.0,<1.59.0a0``
-   :depends on bioconductor-iranges: ``>=2.40.0,<2.41.0``
-   :depends on bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
-   :depends on bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
-   :depends on bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
+   :depends on bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends on bioconductor-biocparallel: ``>=1.44.0,<1.45.0a0``
+   :depends on bioconductor-biostrings: ``>=2.78.0,<2.79.0``
+   :depends on bioconductor-biostrings: ``>=2.78.0,<2.79.0a0``
+   :depends on bioconductor-bsgenome: ``>=1.78.0,<1.79.0``
+   :depends on bioconductor-bsgenome: ``>=1.78.0,<1.79.0a0``
+   :depends on bioconductor-genomeinfodb: ``>=1.46.0,<1.47.0``
+   :depends on bioconductor-genomeinfodb: ``>=1.46.2,<1.47.0a0``
+   :depends on bioconductor-genomicalignments: ``>=1.46.0,<1.47.0``
+   :depends on bioconductor-genomicalignments: ``>=1.46.0,<1.47.0a0``
+   :depends on bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
+   :depends on bioconductor-genomicranges: ``>=1.62.1,<1.63.0a0``
+   :depends on bioconductor-interactionset: ``>=1.38.0,<1.39.0``
+   :depends on bioconductor-interactionset: ``>=1.38.0,<1.39.0a0``
+   :depends on bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends on bioconductor-iranges: ``>=2.44.0,<2.45.0a0``
+   :depends on bioconductor-rsamtools: ``>=2.26.0,<2.27.0``
+   :depends on bioconductor-rsamtools: ``>=2.26.0,<2.27.0a0``
+   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
+   :depends on bioconductor-seqinfo: ``>=1.0.0,<1.1.0``
+   :depends on bioconductor-seqinfo: ``>=1.0.0,<1.1.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libgcc: ``>=13``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on libstdcxx: ``>=13``
-   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-betareg: 
+   :depends on r-biocmanager: 
+   :depends on r-inflection: 
    :depends on r-rcpp: 
    :depends on r-rcpproll: 
+   :depends on r-stringr: 
 
    :additional platforms:
       
@@ -132,7 +153,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bioconductor-dmrcaller";
-        var versions = ["1.38.0","1.34.0","1.34.0","1.32.0","1.30.0"];
+        var versions = ["1.42.0","1.38.0","1.34.0","1.34.0","1.32.0"];
     </script>
 
 

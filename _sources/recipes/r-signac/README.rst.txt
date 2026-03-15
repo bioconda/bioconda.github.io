@@ -31,10 +31,10 @@ r-signac
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.16.0-0</code>,  <code>1.15.0-0</code>,  <code>1.14.0-2</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.13.0-1</code>,  <code>1.13.0-0</code>,  <code>1.12.0-0</code>,  <code>1.11.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.15.0-0</code>,  <code>1.14.0-2</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.13.0-1</code>,  <code>1.13.0-0</code>,  <code>1.12.0-0</code>,  </span></summary>
       
 
-      ``1.16.0-0``,  ``1.15.0-0``,  ``1.14.0-2``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.13.0-1``,  ``1.13.0-0``,  ``1.12.0-0``,  ``1.11.0-0``,  ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.9.0-2``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``
+      ``1.16.0-1``,  ``1.16.0-0``,  ``1.15.0-0``,  ``1.14.0-2``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.13.0-1``,  ``1.13.0-0``,  ``1.12.0-0``,  ``1.11.0-0``,  ``1.10.0-2``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.9.0-2``,  ``1.9.0-1``,  ``1.9.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -43,17 +43,16 @@ r-signac
       
 
    
-   :depends on bioconductor-biocgenerics: ``>=0.52.0,<0.53.0a0``
+   :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
    :depends on bioconductor-genomeinfodb: ``>=1.29.3``
-   :depends on bioconductor-genomeinfodb: ``>=1.42.0,<1.43.0a0``
-   :depends on bioconductor-genomicranges: ``>=1.58.0,<1.59.0a0``
-   :depends on bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
-   :depends on bioconductor-rsamtools: ``>=2.22.0,<2.23.0a0``
-   :depends on bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on bioconductor-genomeinfodb: ``>=1.46.2,<1.47.0a0``
+   :depends on bioconductor-genomicranges: ``>=1.62.1,<1.63.0a0``
+   :depends on bioconductor-iranges: ``>=2.44.0,<2.45.0a0``
+   :depends on bioconductor-rsamtools: ``>=2.26.0,<2.27.0a0``
+   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
+   :depends on libcxx: ``>=19``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-data.table: 
    :depends on r-dplyr: ``>=1.0.0``
    :depends on r-fastmatch: 
@@ -150,7 +149,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "r-signac";
-        var versions = ["1.16.0","1.15.0","1.14.0","1.14.0","1.14.0"];
+        var versions = ["1.16.0","1.16.0","1.15.0","1.14.0","1.14.0"];
     </script>
 
 

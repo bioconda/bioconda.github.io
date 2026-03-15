@@ -49,7 +49,7 @@ moments
    :depends on numpy: ``>=1.23,<3``
    :depends on numpy: ``>=2.4.2,<3.0a0``
    :depends on python: ``>=3.14,<3.15.0a0``
-   :depends on python_abi: ``3.14.* *_cp314t``
+   :depends on python_abi: ``3.14.* *_cp314``
    :depends on scipy: ``>=1.3,<1.17``
 
    :additional platforms:

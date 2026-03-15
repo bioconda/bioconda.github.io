@@ -27,41 +27,44 @@ bioconductor-autonomics
       
       
 
-      ``1.10.2-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.18.0-0``,  ``1.10.2-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends on bioconductor-biocfilecache: ``>=2.10.0,<2.11.0``
-   :depends on bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends on bioconductor-edger: ``>=4.0.0,<4.1.0``
-   :depends on bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends on bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0``
-   :depends on bioconductor-pcamethods: ``>=1.94.0,<1.95.0``
-   :depends on bioconductor-s4vectors: ``>=0.40.0,<0.41.0``
-   :depends on bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
+   :depends on bioconductor-biocfilecache: ``>=3.0.0,<3.1.0``
+   :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends on bioconductor-edger: ``>=4.8.0,<4.9.0``
+   :depends on bioconductor-limma: ``>=3.66.0,<3.67.0``
+   :depends on bioconductor-multiassayexperiment: ``>=1.36.0,<1.37.0``
+   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends on bioconductor-vsn: ``>=3.78.0,<3.79.0``
    :depends on r-abind: 
-   :depends on r-assertive.base: 
-   :depends on r-assertive.files: 
-   :depends on r-assertive.numbers: 
-   :depends on r-assertive.sets: 
-   :depends on r-base: ``>=4.3,<4.4.0a0``
+   :depends on r-arrow: 
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-bit64: 
+   :depends on r-cluster: 
+   :depends on r-codingmatrices: 
    :depends on r-colorspace: 
    :depends on r-data.table: 
    :depends on r-dplyr: 
+   :depends on r-ggforce: 
    :depends on r-ggplot2: 
    :depends on r-ggrepel: 
    :depends on r-gridextra: 
+   :depends on r-lme4: 
    :depends on r-magrittr: 
    :depends on r-matrixstats: 
    :depends on r-r.utils: 
-   :depends on r-rappdirs: 
+   :depends on r-rcolorbrewer: 
    :depends on r-readxl: 
    :depends on r-rlang: 
    :depends on r-scales: 
    :depends on r-stringi: 
+   :depends on r-survival: 
    :depends on r-tidyr: 
+   :depends on r-tidyselect: 
 
    :additional platforms:
       
@@ -135,7 +138,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bioconductor-autonomics";
-        var versions = ["1.10.2","1.8.0","1.6.0","1.2.0","1.0.0"];
+        var versions = ["1.18.0","1.10.2","1.8.0","1.6.0","1.2.0"];
     </script>
 
 

@@ -28,7 +28,7 @@ diting
       
       
 
-      ``2.0.1-0``
+      ``2.0.1-1``,  ``2.0.1-0``
 
       
 
@@ -39,7 +39,9 @@ diting
    :depends on kofamscan: 
    :depends on matplotlib-base: 
    :depends on megahit: 
+   :depends on opencv: 
    :depends on pandas: 
+   :depends on pillow: 
    :depends on prodigal: 
    :depends on python: 
    :depends on seaborn: 
@@ -118,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "diting";
-        var versions = ["2.0.1"];
+        var versions = ["2.0.1","2.0.1"];
     </script>
 
 

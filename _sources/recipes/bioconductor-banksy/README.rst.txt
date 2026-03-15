@@ -27,11 +27,29 @@ bioconductor-banksy
       
       
 
-      
+      ``1.6.0-0``
 
       
 
    
+   :depends on bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends on bioconductor-genomeinfodb: ``>=1.46.0,<1.47.0``
+   :depends on bioconductor-matrixgenerics: ``>=1.22.0,<1.23.0``
+   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends on bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
+   :depends on bioconductor-spatialexperiment: ``>=1.20.0,<1.21.0``
+   :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends on r-aricode: 
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-data.table: 
+   :depends on r-dbscan: 
+   :depends on r-igraph: 
+   :depends on r-irlba: 
+   :depends on r-leidenalg: ``>=1.1.0``
+   :depends on r-matrix: 
+   :depends on r-mclust: 
+   :depends on r-rcpphungarian: 
+   :depends on r-uwot: 
 
    :additional platforms:
       
@@ -105,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bioconductor-banksy";
-        var versions = [];
+        var versions = ["1.6.0"];
     </script>
 
 

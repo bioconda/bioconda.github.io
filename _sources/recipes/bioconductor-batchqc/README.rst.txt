@@ -29,10 +29,10 @@ bioconductor-batchqc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.6.0-0</code>,  <code>2.2.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.6.1-0</code>,  <code>2.6.0-0</code>,  <code>2.2.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-1</code>,  </span></summary>
       
 
-      ``2.6.0-0``,  ``2.2.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.1-0``,  ``1.8.1-0``,  ``1.6.1-0``
+      ``2.6.1-0``,  ``2.6.0-0``,  ``2.2.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-1``,  ``1.10.1-0``,  ``1.8.1-0``,  ``1.6.1-0``
 
       
       .. raw:: html
@@ -142,7 +142,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bioconductor-batchqc";
-        var versions = ["2.6.0","2.2.0","1.30.0","1.28.0","1.26.0"];
+        var versions = ["2.6.1","2.6.0","2.2.0","1.30.0","1.28.0"];
     </script>
 
 

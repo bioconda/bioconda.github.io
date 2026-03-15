@@ -26,18 +26,26 @@ perl-sanger-cgp-battenberg
    :versions:
       
       
+      .. raw:: html
 
-      ``1.4.1-9``,  ``1.4.1-8``,  ``1.4.1-7``,  ``1.4.1-6``,  ``1.4.1-5``,  ``1.4.1-4``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-1``
+         <details><summary><span class="truncated-version-list"><code>1.4.1-10</code>,  <code>1.4.1-9</code>,  <code>1.4.1-8</code>,  <code>1.4.1-7</code>,  <code>1.4.1-6</code>,  <code>1.4.1-5</code>,  <code>1.4.1-4</code>,  <code>1.4.1-3</code>,  <code>1.4.1-2</code>,  </span></summary>
+      
 
+      ``1.4.1-10``,  ``1.4.1-9``,  ``1.4.1-8``,  ``1.4.1-7``,  ``1.4.1-6``,  ``1.4.1-5``,  ``1.4.1-4``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends on cancerit-allelecount: 
+   :depends on cancerit-allelecount: ``>=4.3.0,<5.0a0``
    :depends on impute2: 
-   :depends on libgcc-ng: ``>=12``
+   :depends on libgcc: ``>=14``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-file-sharedir: 
-   :depends on perl-file-sharedir-install: 
+   :depends on perl-file-sharedir-install: ``>=0.14,<0.15.0a0``
    :depends on perl-module-build: ``0.4234.*``
    :depends on perl-pcap: 
    :depends on perl-sanger-cgp-allelecount: 

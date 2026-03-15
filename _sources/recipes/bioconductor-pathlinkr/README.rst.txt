@@ -27,11 +27,31 @@ bioconductor-pathlinkr
       
       
 
-      
+      ``1.6.0-0``
 
       
 
    
+   :depends on bioconductor-clusterprofiler: ``>=4.18.0,<4.19.0``
+   :depends on bioconductor-complexheatmap: ``>=2.26.0,<2.27.0``
+   :depends on bioconductor-fgsea: ``>=1.36.0,<1.37.0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-circlize: 
+   :depends on r-dplyr: 
+   :depends on r-ggforce: 
+   :depends on r-ggplot2: 
+   :depends on r-ggpubr: 
+   :depends on r-ggraph: 
+   :depends on r-ggrepel: 
+   :depends on r-igraph: 
+   :depends on r-purrr: 
+   :depends on r-sigora: 
+   :depends on r-stringr: 
+   :depends on r-tibble: 
+   :depends on r-tidygraph: 
+   :depends on r-tidyr: 
+   :depends on r-vegan: 
+   :depends on r-visnetwork: 
 
    :additional platforms:
       
@@ -105,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bioconductor-pathlinkr";
-        var versions = [];
+        var versions = ["1.6.0"];
     </script>
 
 

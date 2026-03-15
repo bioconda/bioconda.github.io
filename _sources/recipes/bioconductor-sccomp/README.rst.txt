@@ -27,38 +27,30 @@ bioconductor-sccomp
       
       
 
-      ``1.4.0-0``,  ``1.1.0-1``,  ``1.1.0-0``
+      ``2.2.0-0``,  ``1.4.0-0``,  ``1.1.0-1``,  ``1.1.0-0``
 
       
 
    
-   :depends on bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
-   :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libgcc-ng: ``>=12``
-   :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on libstdcxx-ng: ``>=12``
-   :depends on r-base: ``>=4.3,<4.4.0a0``
-   :depends on r-bh: ``>=1.66.0``
+   :depends on bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-boot: 
+   :depends on r-cli: 
+   :depends on r-crayon: 
    :depends on r-dplyr: 
+   :depends on r-fansi: 
    :depends on r-forcats: 
    :depends on r-ggplot2: 
    :depends on r-ggrepel: 
    :depends on r-glue: 
+   :depends on r-instantiate: ``>=0.2.3``
    :depends on r-lifecycle: 
    :depends on r-magrittr: 
    :depends on r-patchwork: 
    :depends on r-purrr: 
-   :depends on r-rcpp: ``>=0.12.0``
-   :depends on r-rcppeigen: ``>=0.3.3.3.0``
-   :depends on r-rcppparallel: ``>=5.0.1``
    :depends on r-readr: 
    :depends on r-rlang: 
-   :depends on r-rstan: ``>=2.18.1``
-   :depends on r-rstantools: ``>=2.1.1``
    :depends on r-scales: 
-   :depends on r-seuratobject: 
-   :depends on r-stanheaders: ``>=2.18.0``
    :depends on r-stringr: 
    :depends on r-tibble: 
    :depends on r-tidyr: 
@@ -136,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bioconductor-sccomp";
-        var versions = ["1.4.0","1.1.0","1.1.0"];
+        var versions = ["2.2.0","1.4.0","1.1.0","1.1.0"];
     </script>
 
 

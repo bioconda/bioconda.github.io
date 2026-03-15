@@ -40,7 +40,9 @@ strangepg
       
 
    
+   :depends on libegl: ``>=1.7.0,<2.0a0``
    :depends on libgcc: ``>=13``
+   :depends on libgles: ``>=1.7.0,<2.0a0``
    :depends on libxcb: 
    :depends on xorg-libx11: ``>=1.8.12,<2.0a0``
    :depends on xorg-libxau: 

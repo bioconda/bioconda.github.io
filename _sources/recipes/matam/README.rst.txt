@@ -43,8 +43,6 @@ matam
    :depends on python: ``>=3``
    :depends on rdptools: 
    :depends on samtools: 
-   :depends on sga: 
-   :depends on sortmerna: 
    :depends on vsearch: 
    :depends on wget: 
 

@@ -45,7 +45,7 @@ metabat2
    
    :depends on _openmp_mutex: ``>=4.5``
    :depends on boost-cpp: 
-   :depends on htslib: ``>=1.21,<1.24.0a0``
+   :depends on htslib: ``>=1.21,<1.22.0a0``
    :depends on libdeflate: ``>=1.22,<1.23.0a0``
    :depends on libgcc: ``>=13``
    :depends on libgomp: 

@@ -27,7 +27,7 @@ mhcgnomes
       
       
 
-      ``2.0.2-0``,  ``2.0-0``,  ``1.8.6-0``,  ``1.8.4-0``
+      ``3.1.1-0``,  ``2.0.2-0``,  ``2.0-0``,  ``1.8.6-0``,  ``1.8.4-0``
 
       
 
@@ -110,7 +110,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "mhcgnomes";
-        var versions = ["2.0.2","2.0","1.8.6","1.8.4"];
+        var versions = ["3.1.1","2.0.2","2.0","1.8.6","1.8.4"];
     </script>
 
 

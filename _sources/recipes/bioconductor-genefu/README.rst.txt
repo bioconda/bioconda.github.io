@@ -29,10 +29,10 @@ bioconductor-genefu
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.34.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.0-0</code>,  <code>2.26.0-0</code>,  <code>2.24.2-0</code>,  <code>2.22.1-0</code>,  <code>2.22.0-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.42.0-0</code>,  <code>2.34.0-0</code>,  <code>2.32.0-0</code>,  <code>2.30.0-0</code>,  <code>2.26.0-0</code>,  <code>2.24.2-0</code>,  <code>2.22.1-0</code>,  <code>2.22.0-0</code>,  <code>2.20.0-0</code>,  </span></summary>
       
 
-      ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.26.0-0``,  ``2.24.2-0``,  ``2.22.1-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``
+      ``2.42.0-0``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.26.0-0``,  ``2.24.2-0``,  ``2.22.1-0``,  ``2.22.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,15 @@ bioconductor-genefu
       
 
    
-   :depends on bioconductor-aims: ``>=1.34.0,<1.35.0``
-   :depends on bioconductor-biomart: ``>=2.58.0,<2.59.0``
-   :depends on bioconductor-impute: ``>=1.76.0,<1.77.0``
-   :depends on bioconductor-limma: ``>=3.58.0,<3.59.0``
-   :depends on bioconductor-survcomp: ``>=1.52.0,<1.53.0``
+   :depends on bioconductor-aims: ``>=1.42.0,<1.43.0``
+   :depends on bioconductor-biomart: ``>=2.66.0,<2.67.0``
+   :depends on bioconductor-impute: ``>=1.84.0,<1.85.0``
+   :depends on bioconductor-limma: ``>=3.66.0,<3.67.0``
+   :depends on bioconductor-survcomp: ``>=1.60.0,<1.61.0``
    :depends on r-amap: 
-   :depends on r-base: ``>=4.3,<4.4.0a0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-ic10: 
+   :depends on r-ic10trainingdata: 
    :depends on r-mclust: 
 
    :additional platforms:
@@ -123,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bioconductor-genefu";
-        var versions = ["2.34.0","2.32.0","2.30.0","2.26.0","2.24.2"];
+        var versions = ["2.42.0","2.34.0","2.32.0","2.30.0","2.26.0"];
     </script>
 
 

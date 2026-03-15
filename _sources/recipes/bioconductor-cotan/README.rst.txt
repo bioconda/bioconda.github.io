@@ -27,7 +27,7 @@ bioconductor-cotan
       
       
 
-      ``2.10.1-0``,  ``2.6.0-0``,  ``2.2.1-0``,  ``2.0.4-0``,  ``1.2.0-0``
+      ``2.10.3-0``,  ``2.10.1-0``,  ``2.6.0-0``,  ``2.2.1-0``,  ``2.0.4-0``,  ``1.2.0-0``
 
       
 
@@ -35,6 +35,7 @@ bioconductor-cotan
    :depends on bioconductor-biocsingular: ``>=1.26.0,<1.27.0``
    :depends on bioconductor-complexheatmap: ``>=2.26.0,<2.27.0``
    :depends on bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
+   :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
    :depends on r-assertthat: 
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-circlize: 
@@ -132,7 +133,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bioconductor-cotan";
-        var versions = ["2.10.1","2.6.0","2.2.1","2.0.4","1.2.0"];
+        var versions = ["2.10.3","2.10.1","2.6.0","2.2.1","2.0.4"];
     </script>
 
 

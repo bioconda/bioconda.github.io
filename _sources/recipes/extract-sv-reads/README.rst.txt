@@ -41,7 +41,8 @@ extract-sv-reads
 
    
    :depends on boost-cpp: 
-   :depends on htslib: ``1.9.*``
+   :depends on htslib: ``1.19.*``
+   :depends on htslib: ``>=1.19.1,<1.20.0a0``
    :depends on libgcc: ``>=13``
    :depends on libstdcxx: ``>=13``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``

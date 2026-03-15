@@ -27,11 +27,25 @@ bioconductor-squallms
       
       
 
-      
+      ``1.4.0-0``
 
       
 
    
+   :depends on bioconductor-msexperiment: ``>=1.12.0,<1.13.0``
+   :depends on bioconductor-msnbase: ``>=2.36.0,<2.37.0``
+   :depends on bioconductor-xcms: ``>=4.8.0,<4.9.0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-caret: 
+   :depends on r-data.table: 
+   :depends on r-dplyr: 
+   :depends on r-ggplot2: 
+   :depends on r-keys: 
+   :depends on r-plotly: 
+   :depends on r-rams: 
+   :depends on r-shiny: 
+   :depends on r-tibble: 
+   :depends on r-tidyr: 
 
    :additional platforms:
       
@@ -105,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bioconductor-squallms";
-        var versions = [];
+        var versions = ["1.4.0"];
     </script>
 
 

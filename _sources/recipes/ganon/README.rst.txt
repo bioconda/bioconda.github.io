@@ -49,7 +49,7 @@ ganon
    :depends on curl: 
    :depends on diffutils: 
    :depends on genome_updater: ``>=0.7.0``
-   :depends on genome_updater: ``>=0.7.0,<0.8.0a0``
+   :depends on genome_updater: ``>=0.7.1,<0.8.0a0``
    :depends on grep: 
    :depends on libgcc: ``>=14``
    :depends on libstdcxx: ``>=14``

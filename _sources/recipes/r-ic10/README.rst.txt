@@ -28,10 +28,10 @@ r-ic10
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.2-2</code>,  <code>2.0.2-1</code>,  <code>2.0.2-0</code>,  <code>1.5-6</code>,  <code>1.5-5</code>,  <code>1.5-4</code>,  <code>1.5-3</code>,  <code>1.5-2</code>,  <code>1.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.2-3</code>,  <code>2.0.2-2</code>,  <code>2.0.2-1</code>,  <code>2.0.2-0</code>,  <code>1.5-6</code>,  <code>1.5-5</code>,  <code>1.5-4</code>,  <code>1.5-3</code>,  <code>1.5-2</code>,  </span></summary>
       
 
-      ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``,  ``1.5-6``,  ``1.5-5``,  ``1.5-4``,  ``1.5-3``,  ``1.5-2``,  ``1.5-1``,  ``1.5-0``,  ``1.4.2-2``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.1.3-0``
+      ``2.0.2-3``,  ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``,  ``1.5-6``,  ``1.5-5``,  ``1.5-4``,  ``1.5-3``,  ``1.5-2``,  ``1.5-1``,  ``1.5-0``,  ``1.4.2-2``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.1.3-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ r-ic10
 
    
    :depends on bioconductor-impute: 
-   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-ic10trainingdata: 
    :depends on r-pamr: 
 
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "r-ic10";
-        var versions = ["2.0.2","2.0.2","2.0.2","1.5","1.5"];
+        var versions = ["2.0.2","2.0.2","2.0.2","2.0.2","1.5"];
     </script>
 
 

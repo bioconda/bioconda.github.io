@@ -27,11 +27,26 @@ bioconductor-proteingymr
       
       
 
-      
+      ``1.4.0-0``
 
       
 
    
+   :depends on bioconductor-annotationhub: ``>=4.0.0,<4.1.0``
+   :depends on bioconductor-data-packages: ``>=20260207``
+   :depends on bioconductor-experimenthub: ``>=3.0.0,<3.1.0``
+   :depends on curl: 
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-dplyr: 
+   :depends on r-htmltools: 
+   :depends on r-lifecycle: 
+   :depends on r-purrr: 
+   :depends on r-queryup: 
+   :depends on r-rlang: 
+   :depends on r-spdl: 
+   :depends on r-stringr: 
+   :depends on r-tidyr: 
+   :depends on r-tidyselect: 
 
    :additional platforms:
       
@@ -105,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bioconductor-proteingymr";
-        var versions = [];
+        var versions = ["1.4.0"];
     </script>
 
 

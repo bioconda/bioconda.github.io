@@ -28,10 +28,10 @@ bioconductor-ritan
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.17.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.34.0-0</code>,  <code>1.26.0-0</code>,  <code>1.24.0-0</code>,  <code>1.22.0-0</code>,  <code>1.17.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-1</code>,  <code>1.14.0-0</code>,  <code>1.12.0-0</code>,  </span></summary>
       
 
-      ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.17.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-1``,  ``1.6.0-1``,  ``1.6.0-0``
+      ``1.34.0-0``,  ``1.26.0-0``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.17.0-0``,  ``1.16.0-0``,  ``1.14.0-1``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-1``,  ``1.6.0-1``,  ``1.6.0-0``
 
       
       .. raw:: html
@@ -40,14 +40,14 @@ bioconductor-ritan
       
 
    
-   :depends on bioconductor-annotationfilter: ``>=1.26.0,<1.27.0``
-   :depends on bioconductor-bgeedb: ``>=2.28.0,<2.29.0``
+   :depends on bioconductor-annotationfilter: ``>=1.34.0,<1.35.0``
+   :depends on bioconductor-bgeedb: ``>=2.36.0,<2.37.0``
    :depends on bioconductor-ensdb.hsapiens.v86: ``>=2.99.0,<2.100.0``
-   :depends on bioconductor-ensembldb: ``>=2.26.0,<2.27.0``
-   :depends on bioconductor-genomicfeatures: ``>=1.54.0,<1.55.0``
-   :depends on bioconductor-ritandata: ``>=1.26.0,<1.27.0``
-   :depends on bioconductor-stringdb: ``>=2.14.0,<2.15.0``
-   :depends on r-base: ``>=4.3,<4.4.0a0``
+   :depends on bioconductor-ensembldb: ``>=2.34.0,<2.35.0``
+   :depends on bioconductor-genomicfeatures: ``>=1.62.0,<1.63.0``
+   :depends on bioconductor-ritandata: ``>=1.34.0,<1.35.0``
+   :depends on bioconductor-stringdb: ``>=2.22.0,<2.23.0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-dynamictreecut: 
    :depends on r-ggplot2: 
    :depends on r-gplots: 
@@ -56,7 +56,6 @@ bioconductor-ritan
    :depends on r-hash: 
    :depends on r-igraph: 
    :depends on r-knitr: 
-   :depends on r-linkcomm: 
    :depends on r-mcl: 
    :depends on r-plotrix: 
    :depends on r-png: 
@@ -136,7 +135,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bioconductor-ritan";
-        var versions = ["1.26.0","1.24.0","1.22.0","1.17.0","1.16.0"];
+        var versions = ["1.34.0","1.26.0","1.24.0","1.22.0","1.17.0"];
     </script>
 
 
