@@ -28,7 +28,7 @@ vine-phylo
       
       
 
-      ``0.3.3-0``
+      ``0.3.4-0``,  ``0.3.3-0``
 
       
 
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "vine-phylo";
-        var versions = ["0.3.3"];
+        var versions = ["0.3.4","0.3.3"];
     </script>
 
 

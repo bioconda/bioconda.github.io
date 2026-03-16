@@ -27,19 +27,19 @@ metapub
       
       
 
-      ``0.6.4-1``,  ``0.6.4-0``
+      ``0.7.1-0``,  ``0.6.4-1``,  ``0.6.4-0``
 
       
 
    
+   :depends on brotli: 
    :depends on coloredlogs: 
    :depends on cssselect: 
    :depends on docopt: 
-   :depends on eutils: 
    :depends on habanero: 
    :depends on lxml: 
    :depends on lxml-html-clean: 
-   :depends on python: ``>=3.8``
+   :depends on python: 
    :depends on python-levenshtein: 
    :depends on pyyaml: 
    :depends on requests: 
@@ -120,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "metapub";
-        var versions = ["0.6.4","0.6.4"];
+        var versions = ["0.7.1","0.6.4","0.6.4"];
     </script>
 
 

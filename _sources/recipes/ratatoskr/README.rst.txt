@@ -27,7 +27,7 @@ ratatoskr
       
       
 
-      ``1.0.4-0``,  ``1.0.2-0``
+      ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.2-0``
 
       
 
@@ -116,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "ratatoskr";
-        var versions = ["1.0.4","1.0.2"];
+        var versions = ["1.0.5","1.0.4","1.0.2"];
     </script>
 
 

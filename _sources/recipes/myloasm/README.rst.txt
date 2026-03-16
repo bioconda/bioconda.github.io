@@ -13,7 +13,7 @@ myloasm
    myloasm \- high\-resolution metagenome assembly for \(noisy\) long reads
 
    :homepage: https://github.com/bluenote-1577/myloasm
-   :documentation: https://github.com/bluenote-1577/myloasm/blob/v0.4.0/README.md
+   :documentation: https://github.com/bluenote-1577/myloasm/blob/v0.5.0/README.md
    
    :license: MIT / MIT
    :recipe: /`myloasm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/myloasm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/myloasm/meta.yaml>`_
@@ -29,13 +29,13 @@ myloasm
       
       
 
-      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
       
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "myloasm";
-        var versions = ["0.4.0","0.3.0","0.2.0","0.1.0"];
+        var versions = ["0.5.0","0.4.0","0.3.0","0.2.0","0.1.0"];
     </script>
 
 

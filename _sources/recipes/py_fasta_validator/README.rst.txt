@@ -29,10 +29,10 @@ py_fasta_validator
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6-6</code>,  <code>0.6-5</code>,  <code>0.6-4</code>,  <code>0.6-3</code>,  <code>0.6-1</code>,  <code>0.6-0</code>,  <code>0.5-3</code>,  <code>0.5-2</code>,  <code>0.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6-7</code>,  <code>0.6-6</code>,  <code>0.6-5</code>,  <code>0.6-4</code>,  <code>0.6-3</code>,  <code>0.6-1</code>,  <code>0.6-0</code>,  <code>0.5-3</code>,  <code>0.5-2</code>,  </span></summary>
       
 
-      ``0.6-6``,  ``0.6-5``,  ``0.6-4``,  ``0.6-3``,  ``0.6-1``,  ``0.6-0``,  ``0.5-3``,  ``0.5-2``,  ``0.5-1``,  ``0.5-0``
+      ``0.6-7``,  ``0.6-6``,  ``0.6-5``,  ``0.6-4``,  ``0.6-3``,  ``0.6-1``,  ``0.6-0``,  ``0.5-3``,  ``0.5-2``,  ``0.5-1``,  ``0.5-0``
 
       
       .. raw:: html
@@ -41,12 +41,12 @@ py_fasta_validator
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
-   :depends on setuptools: ``>=38.6.0``
+   :depends on setuptools: ``>=38.6.0,<81``
    :depends on setuptools_scm: 
 
    :additional platforms:

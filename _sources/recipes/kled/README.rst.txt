@@ -13,7 +13,7 @@ kled
    An ultra\-fast and sensitive structural variant detection tool for long\-read sequencing data.
 
    :homepage: https://github.com/CoREse/kled
-   :documentation: https://github.com/CoREse/kled/blob/v1.2.10/README.md
+   :documentation: https://github.com/CoREse/kled/blob/v1.2.11/README.md
    
    :license: MIT / MIT
    :recipe: /`kled <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kled>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kled/meta.yaml>`_
@@ -35,7 +35,7 @@ kled
       
       
 
-      ``1.2.10-0``,  ``1.2.9H11-0``
+      ``1.2.11-0``,  ``1.2.10-0``,  ``1.2.9H11-0``
 
       
 
@@ -44,15 +44,15 @@ kled
    :depends on boost-cpp: ``>=1.84``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on gmp: ``>=6.3.0,<7.0a0``
-   :depends on libcurl: ``>=8.14.1,<9.0a0``
-   :depends on libdeflate: ``>=1.22,<1.23.0a0``
-   :depends on libgcc: ``>=13``
+   :depends on libcurl: ``>=8.19.0,<9.0a0``
+   :depends on libdeflate: ``>=1.25,<1.26.0a0``
+   :depends on libgcc: ``>=14``
    :depends on libgomp: 
-   :depends on liblzma: ``>=5.8.1,<6.0a0``
-   :depends on libstdcxx: ``>=13``
+   :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on openmpi: ``>=4.1.6,<5.0a0``
-   :depends on openssl: ``>=3.5.2,<4.0a0``
+   :depends on openssl: ``>=3.5.5,<4.0a0``
 
    :additional platforms:
       
@@ -130,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "kled";
-        var versions = ["1.2.10","1.2.9H11"];
+        var versions = ["1.2.11","1.2.10","1.2.9H11"];
     </script>
 
 

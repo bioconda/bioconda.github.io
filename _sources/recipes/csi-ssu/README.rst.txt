@@ -37,7 +37,7 @@ csi-ssu
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -127,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "csi-ssu";
-        var versions = ["1.0.1","1.0.0"];
+        var versions = ["1.0.2","1.0.1","1.0.0"];
     </script>
 
 

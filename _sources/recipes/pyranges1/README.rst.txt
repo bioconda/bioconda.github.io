@@ -27,7 +27,7 @@ pyranges1
       
       
 
-      ``1.3.2-0``,  ``1.3.0-0``,  ``1.1.6-0``
+      ``1.3.4-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.1.6-0``
 
       
 
@@ -113,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "pyranges1";
-        var versions = ["1.3.2","1.3.0","1.1.6"];
+        var versions = ["1.3.4","1.3.2","1.3.0","1.1.6"];
     </script>
 
 

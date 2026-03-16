@@ -13,7 +13,7 @@ correlationplus
    A Python package to calculate\, visualize and analyze dynamical correlations of proteins.
 
    :homepage: https://github.com/tekpinar/correlationplus
-   :license: LGPL / GNU Lesser General Public v3 (LGPLv3)
+   :license: LGPL / LGPL-3.0-or-later
    :recipe: /`correlationplus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/correlationplus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/correlationplus/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ correlationplus
       
       
 
-      ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.6-0``
+      ``0.2.3-0``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.6-0``
 
       
 
@@ -113,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "correlationplus";
-        var versions = ["0.2.1","0.2.0","0.2.0","0.1.9","0.1.6"];
+        var versions = ["0.2.3","0.2.1","0.2.0","0.2.0","0.1.9"];
     </script>
 
 

@@ -27,24 +27,24 @@ bioconductor-signifinder
       
       
 
-      ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.0-0``
+      ``1.12.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.0.0-0``
 
       
 
    
-   :depends on bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
-   :depends on bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
-   :depends on bioconductor-complexheatmap: ``>=2.18.0,<2.19.0``
-   :depends on bioconductor-consensusov: ``>=1.24.0,<1.25.0``
-   :depends on bioconductor-ensembldb: ``>=2.26.0,<2.27.0``
-   :depends on bioconductor-gsva: ``>=1.50.0,<1.51.0``
-   :depends on bioconductor-iranges: ``>=2.36.0,<2.37.0``
-   :depends on bioconductor-org.hs.eg.db: ``>=3.18.0,<3.19.0``
-   :depends on bioconductor-spatialexperiment: ``>=1.12.0,<1.13.0``
-   :depends on bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends on bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: ``>=3.2.0,<3.3.0``
-   :depends on bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: ``>=3.18.0,<3.19.0``
-   :depends on r-base: ``>=4.3,<4.4.0a0``
+   :depends on bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
+   :depends on bioconductor-complexheatmap: ``>=2.26.0,<2.27.0``
+   :depends on bioconductor-consensusov: ``>=1.32.0,<1.33.0``
+   :depends on bioconductor-ensembldb: ``>=2.34.0,<2.35.0``
+   :depends on bioconductor-gsva: ``>=2.4.0,<2.5.0``
+   :depends on bioconductor-iranges: ``>=2.44.0,<2.45.0``
+   :depends on bioconductor-org.hs.eg.db: ``>=3.22.0,<3.23.0``
+   :depends on bioconductor-spatialexperiment: ``>=1.20.0,<1.21.0``
+   :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends on bioconductor-txdb.hsapiens.ucsc.hg19.knowngene: ``>=3.22.0,<3.23.0``
+   :depends on bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: ``>=3.22.0,<3.23.0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-cowplot: 
    :depends on r-dgeobj.utils: 
    :depends on r-dplyr: 
@@ -56,6 +56,7 @@ bioconductor-signifinder
    :depends on r-openair: 
    :depends on r-patchwork: 
    :depends on r-rcolorbrewer: 
+   :depends on r-scales: 
    :depends on r-survival: 
    :depends on r-survminer: 
    :depends on r-viridis: 
@@ -132,7 +133,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bioconductor-signifinder";
-        var versions = ["1.4.0","1.2.1","1.0.0"];
+        var versions = ["1.12.0","1.4.0","1.2.1","1.0.0"];
     </script>
 
 

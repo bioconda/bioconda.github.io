@@ -50,7 +50,8 @@ r-signac
    :depends on bioconductor-iranges: ``>=2.44.0,<2.45.0a0``
    :depends on bioconductor-rsamtools: ``>=2.26.0,<2.27.0a0``
    :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-data.table: 

@@ -28,10 +28,10 @@ bioconductor-evaluomer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.5-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.26.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.5-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-0</code>,  </span></summary>
       
 
-      ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.5-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
+      ``1.26.0-0``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.5-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-1``
 
       
       .. raw:: html
@@ -40,12 +40,14 @@ bioconductor-evaluomer
       
 
    
-   :depends on bioconductor-multiassayexperiment: ``>=1.28.0,<1.29.0``
-   :depends on bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
-   :depends on r-base: ``>=4.3,<4.4.0a0``
+   :depends on bioconductor-multiassayexperiment: ``>=1.36.0,<1.37.0``
+   :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-class: 
    :depends on r-cluster: ``>=2.0.9``
    :depends on r-corrplot: ``>=0.84``
+   :depends on r-dendextend: ``>=1.16.0``
+   :depends on r-dplyr: 
    :depends on r-flexmix: ``>=2.3.15``
    :depends on r-fpc: ``>=2.2-3``
    :depends on r-ggdendro: 
@@ -59,6 +61,8 @@ bioconductor-evaluomer
    :depends on r-randomforest: ``>=4.6.14``
    :depends on r-rdpack: 
    :depends on r-reshape2: 
+   :depends on r-rskc: ``>=2.4.2``
+   :depends on r-sparcl: ``>=1.0.4``
 
    :additional platforms:
       
@@ -132,7 +136,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bioconductor-evaluomer";
-        var versions = ["1.18.0","1.16.0","1.14.0","1.10.0","1.8.0"];
+        var versions = ["1.26.0","1.18.0","1.16.0","1.14.0","1.10.0"];
     </script>
 
 

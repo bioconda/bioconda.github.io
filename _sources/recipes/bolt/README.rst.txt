@@ -28,10 +28,10 @@ bolt
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.0-7</code>,  <code>0.3.0-6</code>,  <code>0.3.0-5</code>,  <code>0.3.0-4</code>,  <code>0.3.0-3</code>,  <code>0.3.0-2</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  <code>0.2.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.0-8</code>,  <code>0.3.0-7</code>,  <code>0.3.0-6</code>,  <code>0.3.0-5</code>,  <code>0.3.0-4</code>,  <code>0.3.0-3</code>,  <code>0.3.0-2</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  </span></summary>
       
 
-      ``0.3.0-7``,  ``0.3.0-6``,  ``0.3.0-5``,  ``0.3.0-4``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2-0``
+      ``0.3.0-8``,  ``0.3.0-7``,  ``0.3.0-6``,  ``0.3.0-5``,  ``0.3.0-4``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2-0``
 
       
       .. raw:: html
@@ -40,10 +40,10 @@ bolt
       
 
    
-   :depends on htslib: ``>=1.17,<1.24.0a0``
-   :depends on libcxx: ``>=15.0.7``
-   :depends on libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends on tbb: ``>=2021.9.0``
+   :depends on htslib: ``>=1.23,<1.24.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on tbb: ``>=2022.3.0``
    :depends on zlib: 
 
    :additional platforms:

@@ -27,9 +27,17 @@ mavenn
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.3-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.0-0``,  ``0.99-0``,  ``0.25-0``,  ``0.24-0``,  ``0.23-1``,  ``0.23-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.4-0</code>,  <code>1.1.3-0</code>,  <code>1.1.0-0</code>,  <code>1.0.2-0</code>,  <code>1.0.0-0</code>,  <code>0.99-0</code>,  <code>0.25-0</code>,  <code>0.24-0</code>,  <code>0.23-1</code>,  </span></summary>
+      
 
+      ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.0-0``,  ``0.99-0``,  ``0.25-0``,  ``0.24-0``,  ``0.23-1``,  ``0.23-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -116,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "mavenn";
-        var versions = ["1.1.3","1.1.0","1.0.2","1.0.0","0.99"];
+        var versions = ["1.1.4","1.1.3","1.1.0","1.0.2","1.0.0"];
     </script>
 
 

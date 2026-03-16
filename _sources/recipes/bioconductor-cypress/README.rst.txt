@@ -27,11 +27,30 @@ bioconductor-cypress
       
       
 
-      
+      ``1.6.0-0``
 
       
 
    
+   :depends on bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends on bioconductor-deseq2: ``>=1.50.0,<1.51.0``
+   :depends on bioconductor-edger: ``>=4.8.0,<4.9.0``
+   :depends on bioconductor-preprocesscore: ``>=1.72.0,<1.73.0``
+   :depends on bioconductor-proper: ``>=1.42.0,<1.43.0``
+   :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
+   :depends on bioconductor-toast: ``>=1.24.0,<1.25.0``
+   :depends on r-abind: 
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-checkmate: 
+   :depends on r-dplyr: 
+   :depends on r-e1071: 
+   :depends on r-mass: 
+   :depends on r-mvtnorm: 
+   :depends on r-rcolorbrewer: 
+   :depends on r-rlang: 
+   :depends on r-sirt: 
+   :depends on r-tca: 
+   :depends on r-tibble: 
 
    :additional platforms:
       
@@ -105,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bioconductor-cypress";
-        var versions = [];
+        var versions = ["1.6.0"];
     </script>
 
 
