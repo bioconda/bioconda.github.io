@@ -27,7 +27,7 @@ fulgor
       
       
 
-      ``4.0.0-0``
+      ``4.0.0-1``,  ``4.0.0-0``
 
       
 
@@ -37,6 +37,10 @@ fulgor
    :depends on libzlib: ``>=1.3.1,<2.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -108,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "fulgor";
-        var versions = ["4.0.0"];
+        var versions = ["4.0.0","4.0.0"];
     </script>
 
 

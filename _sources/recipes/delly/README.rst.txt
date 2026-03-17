@@ -13,7 +13,7 @@ delly
    Structural variant discovery by integrated paired\-end and split\-read analysis.
 
    :homepage: https://github.com/dellytools/delly
-   :documentation: https://github.com/dellytools/delly/blob/v1.7.2/README.md
+   :documentation: https://github.com/dellytools/delly/blob/v1.7.3/README.md
    
    :license: BSD / BSD-3-Clause
    :recipe: /`delly <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/delly>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/delly/meta.yaml>`_
@@ -31,10 +31,10 @@ delly
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.2-0</code>,  <code>1.5.0-0</code>,  <code>1.3.3-1</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.2.9-0</code>,  <code>1.2.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7.3-0</code>,  <code>1.7.2-0</code>,  <code>1.5.0-0</code>,  <code>1.3.3-1</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.2.9-0</code>,  </span></summary>
       
 
-      ``1.7.2-0``,  ``1.5.0-0``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.2.9-0``,  ``1.2.8-0``,  ``1.2.6-4``,  ``1.2.6-3``,  ``1.2.6-2``,  ``1.2.6-1``,  ``1.2.6-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-2``,  ``1.1.6-1``,  ``1.1.6-0``,  ``1.1.5-1``,  ``1.1.5-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``0.9.1-4``,  ``0.9.1-3``,  ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.8.7-1``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.3-1``,  ``0.8.3-0``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-3``,  ``0.8.1-2``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.7.9-4``,  ``0.7.8-4``,  ``0.7.8-3``,  ``0.7.8-2``,  ``0.7.8-1``,  ``0.7.8-0``,  ``0.7.7-1``,  ``0.7.6-0``,  ``0.7.2-1``,  ``0.7.2-0``
+      ``1.7.3-0``,  ``1.7.2-0``,  ``1.5.0-0``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.2.9-0``,  ``1.2.8-0``,  ``1.2.6-4``,  ``1.2.6-3``,  ``1.2.6-2``,  ``1.2.6-1``,  ``1.2.6-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-2``,  ``1.1.6-1``,  ``1.1.6-0``,  ``1.1.5-1``,  ``1.1.5-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``0.9.1-4``,  ``0.9.1-3``,  ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.8.7-1``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.3-1``,  ``0.8.3-0``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-3``,  ``0.8.1-2``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.7.9-4``,  ``0.7.8-4``,  ``0.7.8-3``,  ``0.7.8-2``,  ``0.7.8-1``,  ``0.7.8-0``,  ``0.7.7-1``,  ``0.7.6-0``,  ``0.7.2-1``,  ``0.7.2-0``
 
       
       .. raw:: html
@@ -45,10 +45,10 @@ delly
    
    :depends on boost-cpp: 
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on htslib: ``>=1.22.1,<1.23.0a0``
-   :depends on libdeflate: ``>=1.22,<1.23.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on htslib: ``>=1.23,<1.24.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
 
    :additional platforms:
@@ -127,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "delly";
-        var versions = ["1.7.2","1.5.0","1.3.3","1.3.3","1.3.2"];
+        var versions = ["1.7.3","1.7.2","1.5.0","1.3.3","1.3.3"];
     </script>
 
 

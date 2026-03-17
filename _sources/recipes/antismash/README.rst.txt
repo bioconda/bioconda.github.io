@@ -34,10 +34,10 @@ antismash
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>8.0.4-0</code>,  <code>8.0.2-0</code>,  <code>8.0.1-0</code>,  <code>8.0.0-1</code>,  <code>8.0.0-0</code>,  <code>7.1.0-1</code>,  <code>7.1.0-0</code>,  <code>6.1.1-0</code>,  <code>6.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>8.0.4-1</code>,  <code>8.0.4-0</code>,  <code>8.0.2-0</code>,  <code>8.0.1-0</code>,  <code>8.0.0-1</code>,  <code>8.0.0-0</code>,  <code>7.1.0-1</code>,  <code>7.1.0-0</code>,  <code>6.1.1-0</code>,  </span></summary>
       
 
-      ``8.0.4-0``,  ``8.0.2-0``,  ``8.0.1-0``,  ``8.0.0-1``,  ``8.0.0-0``,  ``7.1.0-1``,  ``7.1.0-0``,  ``6.1.1-0``,  ``6.1.0-0``,  ``6.0.1-0``,  ``6.0.0-0``,  ``5.1.2-4``,  ``5.1.2-3``,  ``5.1.2-2``,  ``5.1.2-1``,  ``5.1.2-0``,  ``5.1.1-0``,  ``4.2.0-2``,  ``4.2.0-1``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.2-3``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.1-1``
+      ``8.0.4-1``,  ``8.0.4-0``,  ``8.0.2-0``,  ``8.0.1-0``,  ``8.0.0-1``,  ``8.0.0-0``,  ``7.1.0-1``,  ``7.1.0-0``,  ``6.1.1-0``,  ``6.1.0-0``,  ``6.0.1-0``,  ``6.0.0-0``,  ``5.1.2-4``,  ``5.1.2-3``,  ``5.1.2-2``,  ``5.1.2-1``,  ``5.1.2-0``,  ``5.1.1-0``,  ``4.2.0-2``,  ``4.2.0-1``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.2-3``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.1-1``
 
       
       .. raw:: html
@@ -50,7 +50,7 @@ antismash
    :depends on biopython: ``1.81``
    :depends on blast: 
    :depends on brawn: ``1.0.2``
-   :depends on diamond: 
+   :depends on diamond: ``>=2.1.21``
    :depends on fasttree: 
    :depends on helperlibs: ``0.2.1``
    :depends on hmmer: 
@@ -142,7 +142,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "antismash";
-        var versions = ["8.0.4","8.0.2","8.0.1","8.0.0","8.0.0"];
+        var versions = ["8.0.4","8.0.4","8.0.2","8.0.1","8.0.0"];
     </script>
 
 

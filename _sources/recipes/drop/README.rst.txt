@@ -31,10 +31,10 @@ drop
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.0-1</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.4-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.0-0</code>,  <code>1.5.0-1</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.4-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  </span></summary>
       
 
-      ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``
+      ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``
 
       
       .. raw:: html
@@ -46,18 +46,18 @@ drop
    :depends on bc: 
    :depends on bcftools: ``>=1.9``
    :depends on bioconductor-deseq2: 
-   :depends on bioconductor-fraser: ``>=2.4.6``
+   :depends on bioconductor-fraser: ``>=2.6``
    :depends on bioconductor-genomicscores: 
-   :depends on bioconductor-outrider: ``>=1.26.3``
+   :depends on bioconductor-outrider: ``>=1.28``
    :depends on bioconductor-variantannotation: 
    :depends on click: ``>=7.0``
    :depends on click-log: 
    :depends on gatk4: ``>=4.0.4``
    :depends on graphviz: 
    :depends on htslib: 
-   :depends on pandas: ``>=2.2``
+   :depends on pandas: ``>=3.0``
    :depends on pandoc: 
-   :depends on python: ``>=3.6``
+   :depends on python: ``>=3.11``
    :depends on python-dateutil: 
    :depends on r-base: ``>=4.0.0``
    :depends on r-cowplot: 
@@ -150,7 +150,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "drop";
-        var versions = ["1.5.0","1.5.0","1.4.0","1.3.4","1.3.3"];
+        var versions = ["1.6.0","1.5.0","1.5.0","1.4.0","1.3.4"];
     </script>
 
 

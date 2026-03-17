@@ -28,10 +28,10 @@ snakemake-interface-storage-plugins
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.4.0-0</code>,  <code>4.3.3-0</code>,  <code>4.3.2-0</code>,  <code>4.3.1-0</code>,  <code>4.2.3-0</code>,  <code>4.2.2-0</code>,  <code>4.2.1-0</code>,  <code>4.1.0-0</code>,  <code>3.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.4.0-1</code>,  <code>4.4.0-0</code>,  <code>4.3.3-0</code>,  <code>4.3.2-0</code>,  <code>4.3.1-0</code>,  <code>4.2.3-0</code>,  <code>4.2.2-0</code>,  <code>4.2.1-0</code>,  <code>4.1.0-0</code>,  </span></summary>
       
 
-      ``4.4.0-0``,  ``4.3.3-0``,  ``4.3.2-0``,  ``4.3.1-0``,  ``4.2.3-0``,  ``4.2.2-0``,  ``4.2.1-0``,  ``4.1.0-0``,  ``3.5.0-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.0-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.0-0``
+      ``4.4.0-1``,  ``4.4.0-0``,  ``4.3.3-0``,  ``4.3.2-0``,  ``4.3.1-0``,  ``4.2.3-0``,  ``4.2.2-0``,  ``4.2.1-0``,  ``4.1.0-0``,  ``3.5.0-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.0-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,10 @@ snakemake-interface-storage-plugins
       
 
    
+   :depends on humanfriendly: ``>=10.0,<11``
    :depends on python: ``>=3.11.0,<4.0.0``
-   :depends on reretry: ``>=0.11.8,<0.12.0``
    :depends on snakemake-interface-common: ``>=1.12.0,<2.0.0``
+   :depends on tenacity: ``>=9.1.4,<10.0``
    :depends on throttler: ``>=1.2.2,<2.0.0``
    :depends on wrapt: ``>=1.15.0,<2.0.0``
 
@@ -118,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "snakemake-interface-storage-plugins";
-        var versions = ["4.4.0","4.3.3","4.3.2","4.3.1","4.2.3"];
+        var versions = ["4.4.0","4.4.0","4.3.3","4.3.2","4.3.1"];
     </script>
 
 

@@ -28,10 +28,10 @@ r-tmae
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.5-0</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.2-0</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.9.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.5-1</code>,  <code>1.0.5-0</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.2-0</code>,  <code>1.0.0-2</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  </span></summary>
       
 
-      ``1.0.5-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.2-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.9.0-1``,  ``0.9.0-0``
+      ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.2-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.9.0-1``,  ``0.9.0-0``
 
       
       .. raw:: html
@@ -46,7 +46,7 @@ r-tmae
    :depends on bioconductor-genomicscores: 
    :depends on bioconductor-iranges: 
    :depends on bioconductor-s4vectors: 
-   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-biocmanager: 
    :depends on r-data.table: 
    :depends on r-dplyr: 
@@ -124,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "r-tmae";
-        var versions = ["1.0.5","1.0.4","1.0.4","1.0.4","1.0.2"];
+        var versions = ["1.0.5","1.0.5","1.0.4","1.0.4","1.0.4"];
     </script>
 
 
