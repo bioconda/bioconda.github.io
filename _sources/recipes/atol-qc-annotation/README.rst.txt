@@ -27,14 +27,14 @@ atol-qc-annotation
       
       
 
-      ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.4-1``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
    :depends on agat: ``>=1.5.1``
    :depends on bbmap: ``>=39.52``
-   :depends on busco: ``>=5.8.3,<6``
+   :depends on busco: ``>=6``
    :depends on omark: ``>=0.3.1``
    :depends on pytables: ``>=3.10.2``
    :depends on python: ``>=3.12,<3.13``
@@ -112,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "atol-qc-annotation";
-        var versions = ["0.1.4","0.1.3","0.1.2","0.1.1","0.1.0"];
+        var versions = ["0.1.4","0.1.4","0.1.3","0.1.2","0.1.1"];
     </script>
 
 

@@ -10,7 +10,7 @@ clair3
    :replaces_section_title:
    :noindex:
 
-   Clair3 is a small variant caller for long\-reads. Compare to PEPPER \(r0.4\)\, Clair3 \(v0.1\) shows a better SNP F1\-score with ≤30\-fold of ONT data \(precisionFDA Truth Challenge V2\)\, and a better Indel F1\-score\, while runs generally four times faster. Clair3 makes the best of both worlds of using pileup or full\-alignment as input for deep\-learning based long\-read small variant calling. Clair3 is simple and modular for easy deployment and integration.
+   Clair3 is a small variant caller for long\-reads. Clair3 makes the best of both worlds of using pileup or full\-alignment as input for deep\-learning based long\-read small variant calling. Clair3 is simple and modular for easy deployment and integration.
 
    :homepage: https://github.com/HKU-BAL/Clair3
    :license: BSD-3-Clause
@@ -28,10 +28,10 @@ clair3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.11-0</code>,  <code>1.0.10-1</code>,  <code>1.0.10-0</code>,  <code>1.0.8-2</code>,  <code>1.0.8-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.11-0</code>,  <code>1.0.10-1</code>,  <code>1.0.10-0</code>,  <code>1.0.8-2</code>,  </span></summary>
       
 
-      ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.11-0``,  ``1.0.10-1``,  ``1.0.10-0``,  ``1.0.8-2``,  ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.12-6``,  ``0.1.12-5``,  ``0.1.12-4``,  ``0.1.12-2``,  ``0.1.12-1``,  ``0.1.12-0``,  ``0.1.11-6``,  ``0.1.11-5``,  ``0.1.11-4``,  ``0.1.11-3``,  ``0.1.11-2``,  ``0.1.11-1``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4.2-0``,  ``0.1.4.1-0``,  ``0.1.4-0``
+      ``2.0.0-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.11-0``,  ``1.0.10-1``,  ``1.0.10-0``,  ``1.0.8-2``,  ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.12-6``,  ``0.1.12-5``,  ``0.1.12-4``,  ``0.1.12-2``,  ``0.1.12-1``,  ``0.1.12-0``,  ``0.1.11-6``,  ``0.1.11-5``,  ``0.1.11-4``,  ``0.1.11-3``,  ``0.1.11-2``,  ``0.1.11-1``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4.2-0``,  ``0.1.4.1-0``,  ``0.1.4-0``
 
       
       .. raw:: html
@@ -41,22 +41,28 @@ clair3
 
    
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on cffi: 
-   :depends on libcurl: ``>=8.14.1,<9.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on liblzma: ``>=5.8.1,<6.0a0``
-   :depends on libstdcxx: ``>=13``
+   :depends on cffi: ``<2``
+   :depends on h5py: 
+   :depends on hdf5plugin: 
+   :depends on libcurl: ``>=8.19.0,<9.0a0``
+   :depends on libdeflate: ``>=1.25,<1.26.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on longphase: ``>=2.0.1,<3.0a0``
+   :depends on numexpr: 
    :depends on numpy: 
-   :depends on openssl: ``>=3.5.1,<4.0a0``
-   :depends on parallel: 
+   :depends on openssl: ``>=3.5.5,<4.0a0``
+   :depends on parallel: ``>=20191122``
    :depends on pigz: 
-   :depends on pytables: 
-   :depends on python: ``>=3.10,<3.11.0a0``
-   :depends on python_abi: ``3.10.* *_cp310``
-   :depends on samtools: 
-   :depends on tensorflow: ``<=2.16.0``
-   :depends on whatshap: 
+   :depends on python: ``>=3.11,<3.12.0a0``
+   :depends on python_abi: ``3.11.* *_cp311``
+   :depends on pytorch-cpu: 
+   :depends on samtools: ``>=1.15``
+   :depends on torchmetrics: 
+   :depends on tqdm: 
+   :depends on whatshap: ``>=1.0``
    :depends on zstd: 
 
    :additional platforms:
@@ -131,7 +137,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "clair3";
-        var versions = ["1.2.0","1.1.2","1.1.1","1.1.0","1.0.11"];
+        var versions = ["2.0.0","1.2.0","1.1.2","1.1.1","1.1.0"];
     </script>
 
 

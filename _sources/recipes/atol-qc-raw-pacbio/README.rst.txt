@@ -1,43 +1,43 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'twinspector'
+.. title:: Package Recipe 'atol-qc-raw-pacbio'
 .. highlight: bash
 
-twinspector
-===========
+atol-qc-raw-pacbio
+==================
 
-.. conda:recipe:: twinspector
+.. conda:recipe:: atol-qc-raw-pacbio
    :replaces_section_title:
    :noindex:
 
-   TwInsPEctor\: A tool for twin prime editing analysis.
+   Runs QC and produces summary stats on Pacbio HiFi reads
 
-   :homepage: https://github.com/clementlab/TwInsPEctor
-   :license: MIT
-   :recipe: /`twinspector <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/twinspector>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/twinspector/meta.yaml>`_
+   :homepage: https://github.com/amytims/atol-qc-raw-pacbio
+   :license: GPL3 / GPL-3.0-or-later
+   :recipe: /`atol-qc-raw-pacbio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/atol-qc-raw-pacbio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/atol-qc-raw-pacbio/meta.yaml>`_
 
    
 
 
-.. conda:package:: twinspector
+.. conda:package:: atol-qc-raw-pacbio
 
-   |downloads_twinspector| |docker_twinspector|
+   |downloads_atol-qc-raw-pacbio| |docker_atol-qc-raw-pacbio|
 
    :versions:
       
       
 
-      ``0.1.3-0``,  ``0.1.1-0``
+      ``0.1.0-0``
 
       
 
    
-   :depends on crispresso2: 
-   :depends on matplotlib-base: 
-   :depends on numpy: 
-   :depends on pandas: 
-   :depends on python: ``>=3.8``
-   :depends on seaborn: 
+   :depends on cutadapt: ``>=4.4``
+   :depends on pigz: 
+   :depends on python: ``>=3.12,<3.13``
+   :depends on samtools: ``>=1.19.2``
+   :depends on seqkit: ``>=2.13.0``
+   :depends on snakemake: ``>=9.16.3,<10``
 
    :additional platforms:
       
@@ -56,11 +56,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install twinspector
+    pixi global install atol-qc-raw-pacbio
 
 to add into an existing workspace instead, run::
 
-    pixi add twinspector
+    pixi add atol-qc-raw-pacbio
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -72,11 +72,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install twinspector
+    conda install atol-qc-raw-pacbio
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname twinspector
+    conda create -n envname atol-qc-raw-pacbio
 
 with ``envname`` being the name of the desired environment.
 
@@ -86,9 +86,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/twinspector:<tag>
+    docker pull quay.io/biocontainers/atol-qc-raw-pacbio:<tag>
 
-(see `twinspector/tags`_ for valid values for ``<tag>``).
+(see `atol-qc-raw-pacbio/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -99,19 +99,19 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_twinspector| image:: https://img.shields.io/conda/dn/bioconda/twinspector.svg?style=flat
-   :target: https://anaconda.org/bioconda/twinspector
+.. |downloads_atol-qc-raw-pacbio| image:: https://img.shields.io/conda/dn/bioconda/atol-qc-raw-pacbio.svg?style=flat
+   :target: https://anaconda.org/bioconda/atol-qc-raw-pacbio
    :alt:   (downloads)
-.. |docker_twinspector| image:: https://quay.io/repository/biocontainers/twinspector/status
-   :target: https://quay.io/repository/biocontainers/twinspector
-.. _`twinspector/tags`: https://quay.io/repository/biocontainers/twinspector?tab=tags
+.. |docker_atol-qc-raw-pacbio| image:: https://quay.io/repository/biocontainers/atol-qc-raw-pacbio/status
+   :target: https://quay.io/repository/biocontainers/atol-qc-raw-pacbio
+.. _`atol-qc-raw-pacbio/tags`: https://quay.io/repository/biocontainers/atol-qc-raw-pacbio?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "twinspector";
-        var versions = ["0.1.3","0.1.1"];
+        var package = "atol-qc-raw-pacbio";
+        var versions = ["0.1.0"];
     </script>
 
 
@@ -130,7 +130,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/twinspector/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/atol-qc-raw-pacbio/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/twinspector/README.html
+   :target: http://bioconda.github.io/recipes/atol-qc-raw-pacbio/README.html

@@ -27,7 +27,7 @@ multivcfanalyzer
       
       
 
-      ``0.88.1-0``,  ``0.85.2-1``,  ``0.85.2-0``,  ``0.85.1-0``
+      ``0.89.0-0``,  ``0.88.1-0``,  ``0.85.2-1``,  ``0.85.2-0``,  ``0.85.1-0``
 
       
 
@@ -107,7 +107,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "multivcfanalyzer";
-        var versions = ["0.88.1","0.85.2","0.85.2","0.85.1"];
+        var versions = ["0.89.0","0.88.1","0.85.2","0.85.2","0.85.1"];
     </script>
 
 

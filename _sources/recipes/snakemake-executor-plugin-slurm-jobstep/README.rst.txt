@@ -27,7 +27,7 @@ snakemake-executor-plugin-slurm-jobstep
       
       
 
-      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``
+      ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``
 
       
 
@@ -108,7 +108,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "snakemake-executor-plugin-slurm-jobstep";
-        var versions = ["0.4.0","0.3.0","0.2.1","0.1.11","0.1.10"];
+        var versions = ["0.5.0","0.4.0","0.3.0","0.2.1","0.1.11"];
     </script>
 
 

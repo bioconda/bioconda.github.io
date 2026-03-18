@@ -1,43 +1,48 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'twinspector'
+.. title:: Package Recipe 'iprophit'
 .. highlight: bash
 
-twinspector
-===========
+iprophit
+========
 
-.. conda:recipe:: twinspector
+.. conda:recipe:: iprophit
    :replaces_section_title:
    :noindex:
 
-   TwInsPEctor\: A tool for twin prime editing analysis.
+   Deep learning approach for identifying inducible prophage activity
 
-   :homepage: https://github.com/clementlab/TwInsPEctor
-   :license: MIT
-   :recipe: /`twinspector <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/twinspector>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/twinspector/meta.yaml>`_
-
+   :homepage: https://github.com/HongboZhang-z3d/iProphIT-FAFU
+   :documentation: https://doi.org/10.5281/zenodo.17605580
    
+   :license: GPL-3.0-only
+   :recipe: /`iprophit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/iprophit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/iprophit/meta.yaml>`_
+
+   A deep learning approach that identifies the inducible activity of 
+   prophages from their DNA sequences.
 
 
-.. conda:package:: twinspector
 
-   |downloads_twinspector| |docker_twinspector|
+.. conda:package:: iprophit
+
+   |downloads_iprophit| |docker_iprophit|
 
    :versions:
       
       
 
-      ``0.1.3-0``,  ``0.1.1-0``
+      ``1.0.0-0``
 
       
 
    
-   :depends on crispresso2: 
-   :depends on matplotlib-base: 
-   :depends on numpy: 
+   :depends on biopython: ``>=1.86``
+   :depends on numpy: ``>=2.0``
    :depends on pandas: 
-   :depends on python: ``>=3.8``
-   :depends on seaborn: 
+   :depends on python: ``>=3.12``
+   :depends on pytorch: ``>=2.6.0``
+   :depends on requests: 
+   :depends on tqdm: 
 
    :additional platforms:
       
@@ -56,11 +61,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install twinspector
+    pixi global install iprophit
 
 to add into an existing workspace instead, run::
 
-    pixi add twinspector
+    pixi add iprophit
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -72,11 +77,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install twinspector
+    conda install iprophit
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname twinspector
+    conda create -n envname iprophit
 
 with ``envname`` being the name of the desired environment.
 
@@ -86,9 +91,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/twinspector:<tag>
+    docker pull quay.io/biocontainers/iprophit:<tag>
 
-(see `twinspector/tags`_ for valid values for ``<tag>``).
+(see `iprophit/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -99,19 +104,19 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_twinspector| image:: https://img.shields.io/conda/dn/bioconda/twinspector.svg?style=flat
-   :target: https://anaconda.org/bioconda/twinspector
+.. |downloads_iprophit| image:: https://img.shields.io/conda/dn/bioconda/iprophit.svg?style=flat
+   :target: https://anaconda.org/bioconda/iprophit
    :alt:   (downloads)
-.. |docker_twinspector| image:: https://quay.io/repository/biocontainers/twinspector/status
-   :target: https://quay.io/repository/biocontainers/twinspector
-.. _`twinspector/tags`: https://quay.io/repository/biocontainers/twinspector?tab=tags
+.. |docker_iprophit| image:: https://quay.io/repository/biocontainers/iprophit/status
+   :target: https://quay.io/repository/biocontainers/iprophit
+.. _`iprophit/tags`: https://quay.io/repository/biocontainers/iprophit?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "twinspector";
-        var versions = ["0.1.3","0.1.1"];
+        var package = "iprophit";
+        var versions = ["1.0.0"];
     </script>
 
 
@@ -130,7 +135,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/twinspector/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/iprophit/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/twinspector/README.html
+   :target: http://bioconda.github.io/recipes/iprophit/README.html
