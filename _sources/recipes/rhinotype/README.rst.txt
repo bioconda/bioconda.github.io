@@ -27,7 +27,7 @@ rhinotype
       
       
 
-      ``2.0.0-0``
+      ``3.0.0-0``,  ``2.0.0-0``
 
       
 
@@ -37,6 +37,7 @@ rhinotype
    :depends on matplotlib-base: ``>=3.8``
    :depends on numpy: ``>=2.2``
    :depends on pandas: ``>=2.2``
+   :depends on plotly: ``>=5``
    :depends on python: ``>=3.8``
    :depends on scipy: ``>=1.15``
    :depends on seaborn: ``>=0.13``
@@ -113,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "rhinotype";
-        var versions = ["2.0.0"];
+        var versions = ["3.0.0","2.0.0"];
     </script>
 
 

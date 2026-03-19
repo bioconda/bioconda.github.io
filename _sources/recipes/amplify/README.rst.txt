@@ -12,8 +12,8 @@ amplify
 
    Attentive deep learning model for antimicrobial peptide prediction
 
-   :homepage: https://github.com/bcgsc/AMPlify
-   :license: GPL / GPL-3
+   :homepage: https://github.com/BirolLab/AMPlify
+   :license: GPL / GPL-3.0-or-later
    :recipe: /`amplify <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/amplify>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/amplify/meta.yaml>`_
 
    

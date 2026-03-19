@@ -29,7 +29,7 @@ baktfold
       
       
 
-      ``0.1.0-0``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``0.1.0-1``,  ``0.1.0-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
 
@@ -43,12 +43,14 @@ baktfold
    :depends on loguru: ``>=0.5.3``
    :depends on numpy: ``>=1.20``
    :depends on pandas: ``>=1.4.2``
+   :depends on protobuf: ``>=3.20``
    :depends on pyarrow: ``>=14.0.0``
    :depends on python: ``>=3.8,<4``
    :depends on pytorch: ``>=2.1.2``
    :depends on pyyaml: ``>=6.0``
    :depends on requests: ``>=2.25``
    :depends on sentencepiece: ``>=0.1.99``
+   :depends on tiktoken: ``>=0.5.0``
    :depends on tqdm: ``>=4.35.0``
    :depends on transformers: ``>=4.34``
    :depends on xopen: ``>=1.5.0``
@@ -125,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "baktfold";
-        var versions = ["0.1.0","0.0.3","0.0.2"];
+        var versions = ["0.1.0","0.1.0","0.0.3","0.0.2"];
     </script>
 
 

@@ -12,8 +12,8 @@ peekseq
 
    De novo protein\-coding potential calculator using a k\-mer approach
 
-   :homepage: https://github.com/bcgsc/peekseq
-   :license: GPL-3.0
+   :homepage: https://github.com/BirolLab/peekseq
+   :license: GPL-3.0-or-later
    :recipe: /`peekseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peekseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peekseq/meta.yaml>`_
 
    

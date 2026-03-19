@@ -1,55 +1,45 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'pavfinder'
+.. title:: Package Recipe 'fdedup'
 .. highlight: bash
 
-pavfinder
-=========
+fdedup
+======
 
-.. conda:recipe:: pavfinder
+.. conda:recipe:: fdedup
    :replaces_section_title:
    :noindex:
 
-   PAVFinder is a Python package that detects structural variants from de novo assemblies.
+   A fast and memory\-efficient FASTX PCR deduplication tool
 
-   :homepage: https://github.com/BirolLab/pavfinder
-   :license: GPL-3.0
-   :recipe: /`pavfinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pavfinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pavfinder/meta.yaml>`_
-   :links: doi: :doi:`10.1186/s12920-018-0402-6`, doi: :doi:`10.1093/bioinformatics/btz902`
+   :homepage: https://github.com/RaphaelRibes/FastDedup
+   :license: MIT
+   :recipe: /`fdedup <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fdedup>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fdedup/meta.yaml>`_
 
    
 
 
-.. conda:package:: pavfinder
+.. conda:package:: fdedup
 
-   |downloads_pavfinder| |docker_pavfinder|
+   |downloads_fdedup| |docker_fdedup|
 
    :versions:
       
       
 
-      ``1.8.5-0``
+      ``1.0.0-0``
 
       
 
    
-   :depends on bash: 
-   :depends on biobloomtools: 
-   :depends on biopython: 
-   :depends on blast: 
-   :depends on bwa: 
-   :depends on gmap: 
-   :depends on intspan: ``>=0.701``
-   :depends on make: 
-   :depends on pybedtools: ``>=0.6.9``
-   :depends on pysam: ``>=0.8.1``
-   :depends on python: ``>=3``
-   :depends on rnabloom: 
-   :depends on ruffus: 
-   :depends on samtools: 
-   :depends on transabyss: 
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -66,11 +56,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install pavfinder
+    pixi global install fdedup
 
 to add into an existing workspace instead, run::
 
-    pixi add pavfinder
+    pixi add fdedup
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -82,11 +72,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install pavfinder
+    conda install fdedup
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname pavfinder
+    conda create -n envname fdedup
 
 with ``envname`` being the name of the desired environment.
 
@@ -96,9 +86,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/pavfinder:<tag>
+    docker pull quay.io/biocontainers/fdedup:<tag>
 
-(see `pavfinder/tags`_ for valid values for ``<tag>``).
+(see `fdedup/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -109,19 +99,19 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_pavfinder| image:: https://img.shields.io/conda/dn/bioconda/pavfinder.svg?style=flat
-   :target: https://anaconda.org/bioconda/pavfinder
+.. |downloads_fdedup| image:: https://img.shields.io/conda/dn/bioconda/fdedup.svg?style=flat
+   :target: https://anaconda.org/bioconda/fdedup
    :alt:   (downloads)
-.. |docker_pavfinder| image:: https://quay.io/repository/biocontainers/pavfinder/status
-   :target: https://quay.io/repository/biocontainers/pavfinder
-.. _`pavfinder/tags`: https://quay.io/repository/biocontainers/pavfinder?tab=tags
+.. |docker_fdedup| image:: https://quay.io/repository/biocontainers/fdedup/status
+   :target: https://quay.io/repository/biocontainers/fdedup
+.. _`fdedup/tags`: https://quay.io/repository/biocontainers/fdedup?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "pavfinder";
-        var versions = ["1.8.5"];
+        var package = "fdedup";
+        var versions = ["1.0.0"];
     </script>
 
 
@@ -140,7 +130,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pavfinder/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fdedup/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/pavfinder/README.html
+   :target: http://bioconda.github.io/recipes/fdedup/README.html

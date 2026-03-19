@@ -13,7 +13,7 @@ seqan
    SeqAn is a C\+\+ template library for the analysis of biological sequences.
 
    :homepage: https://www.seqan.de
-   :documentation: https://seqan.readthedocs.io/en/seqan-v2.5.2
+   :documentation: https://seqan.readthedocs.io/en/seqan-v2.5.3
    
    :developer docs: https://github.com/seqan/seqan
    :license: BSD / BSD-3-Clause
@@ -36,7 +36,7 @@ seqan
       
       
 
-      ``2.5.2-0``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``
+      ``2.5.3-0``,  ``2.5.2-0``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``
 
       
 
@@ -118,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "seqan";
-        var versions = ["2.5.2","2.4.0","2.4.0","2.4.0","2.1.1"];
+        var versions = ["2.5.3","2.5.2","2.4.0","2.4.0","2.4.0"];
     </script>
 
 

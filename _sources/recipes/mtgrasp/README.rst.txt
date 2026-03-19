@@ -12,8 +12,8 @@ mtgrasp
 
    reference\-grade de novo animal mitochondrial genome assembly and standardization
 
-   :homepage: https://github.com/bcgsc/mtGrasp
-   :license: GPL-3.0
+   :homepage: https://github.com/BirolLab/mtGrasp
+   :license: GPL-3.0-or-later
    :recipe: /`mtgrasp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mtgrasp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mtgrasp/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ mtgrasp
       
       
 
-      ``1.1.8-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``
+      ``1.1.8-1``,  ``1.1.8-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``
 
       
 
@@ -40,7 +40,7 @@ mtgrasp
    :depends on ntcard: 
    :depends on ntjoin: 
    :depends on pilon: 
-   :depends on python: 
+   :depends on python: ``>=3.12,<3.13.0a0``
    :depends on samtools: 
    :depends on seqtk: 
    :depends on snakemake: 
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "mtgrasp";
-        var versions = ["1.1.8","1.1.6","1.1.5","1.1.4","1.1.4"];
+        var versions = ["1.1.8","1.1.8","1.1.6","1.1.5","1.1.4"];
     </script>
 
 

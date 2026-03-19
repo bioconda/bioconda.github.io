@@ -31,10 +31,10 @@ phispy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.2.21-8</code>,  <code>4.2.21-7</code>,  <code>4.2.21-6</code>,  <code>4.2.21-5</code>,  <code>4.2.21-4</code>,  <code>4.2.21-3</code>,  <code>4.2.21-2</code>,  <code>4.2.21-1</code>,  <code>4.2.21-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.0.6-0</code>,  <code>4.2.21-8</code>,  <code>4.2.21-7</code>,  <code>4.2.21-6</code>,  <code>4.2.21-5</code>,  <code>4.2.21-4</code>,  <code>4.2.21-3</code>,  <code>4.2.21-2</code>,  <code>4.2.21-1</code>,  </span></summary>
       
 
-      ``4.2.21-8``,  ``4.2.21-7``,  ``4.2.21-6``,  ``4.2.21-5``,  ``4.2.21-4``,  ``4.2.21-3``,  ``4.2.21-2``,  ``4.2.21-1``,  ``4.2.21-0``,  ``4.2.19-0``,  ``4.2.17-0``,  ``4.2.12-0``,  ``4.2.6-1``,  ``4.2.6-0``,  ``4.1.22-0``,  ``4.1.20-0``,  ``4.1.17-0``,  ``4.1.16-0``,  ``4.1.14-0``,  ``4.1.7-0``,  ``4.1.0-0``,  ``4.0.3-0``,  ``4.0.0-0``,  ``3.7.8-0``
+      ``5.0.6-0``,  ``4.2.21-8``,  ``4.2.21-7``,  ``4.2.21-6``,  ``4.2.21-5``,  ``4.2.21-4``,  ``4.2.21-3``,  ``4.2.21-2``,  ``4.2.21-1``,  ``4.2.21-0``,  ``4.2.19-0``,  ``4.2.17-0``,  ``4.2.12-0``,  ``4.2.6-1``,  ``4.2.6-0``,  ``4.1.22-0``,  ``4.1.20-0``,  ``4.1.17-0``,  ``4.1.16-0``,  ``4.1.14-0``,  ``4.1.7-0``,  ``4.1.0-0``,  ``4.0.3-0``,  ``4.0.0-0``,  ``3.7.8-0``
 
       
       .. raw:: html
@@ -44,11 +44,11 @@ phispy
 
    
    :depends on bcbio-gff: 
-   :depends on biopython: ``<=1.81``
+   :depends on biopython: 
    :depends on hmmer: 
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on numpy: 
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on numpy: ``>=1.21,<3``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on scikit-learn: 
@@ -129,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "phispy";
-        var versions = ["4.2.21","4.2.21","4.2.21","4.2.21","4.2.21"];
+        var versions = ["5.0.6","4.2.21","4.2.21","4.2.21","4.2.21"];
     </script>
 
 

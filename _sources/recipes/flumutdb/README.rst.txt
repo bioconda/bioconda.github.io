@@ -27,7 +27,7 @@ flumutdb
       
       
 
-      ``6.5-0``,  ``6.4-0``,  ``6.3-0``,  ``6.2-0``,  ``6.1-0``,  ``6.0-0``
+      ``6.6-0``,  ``6.5-0``,  ``6.4-0``,  ``6.3-0``,  ``6.2-0``,  ``6.1-0``,  ``6.0-0``
 
       
 
@@ -106,7 +106,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "flumutdb";
-        var versions = ["6.5","6.4","6.3","6.2","6.1"];
+        var versions = ["6.6","6.5","6.4","6.3","6.2"];
     </script>
 
 

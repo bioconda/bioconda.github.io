@@ -12,7 +12,7 @@ pass
 
    Proteome Assembler with Short Sequence peptides
 
-   :homepage: https://github.com/bcgsc/PASS
+   :homepage: https://github.com/BirolLab/PASS
    :license: GPL-3.0-only
    :recipe: /`pass <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pass>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pass/meta.yaml>`_
 

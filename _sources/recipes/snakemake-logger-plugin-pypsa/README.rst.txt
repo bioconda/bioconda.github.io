@@ -27,13 +27,13 @@ snakemake-logger-plugin-pypsa
       
       
 
-      ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
    :depends on python: ``>=3.11``
-   :depends on snakemake-interface-logger-plugins: ``>=1.2.0,<2``
+   :depends on snakemake-interface-logger-plugins: ``>=2,<3``
 
    :additional platforms:
       
@@ -107,7 +107,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "snakemake-logger-plugin-pypsa";
-        var versions = ["0.1.0"];
+        var versions = ["0.2.0","0.1.0"];
     </script>
 
 

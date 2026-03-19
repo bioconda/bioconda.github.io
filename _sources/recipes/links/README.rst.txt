@@ -12,7 +12,7 @@ links
 
    Long Interval Nucleotide K\-mer Scaffolder.
 
-   :homepage: https://github.com/bcgsc/LINKS
+   :homepage: https://github.com/BirolLab/LINKS
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`links <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/links>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/links/meta.yaml>`_
 
