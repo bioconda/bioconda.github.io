@@ -12,8 +12,8 @@ ntsynt-viz
 
    Visualizing multi\-genome synteny patterns
 
-   :homepage: https://github.com/bcgsc/ntSynt-viz
-   :license: GPL-3.0
+   :homepage: https://github.com/BirolLab/ntSynt-viz
+   :license: GPL-3.0-or-later
    :recipe: /`ntsynt-viz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ntsynt-viz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ntsynt-viz/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ ntsynt-viz
       
       
 
-      ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
@@ -120,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "ntsynt-viz";
-        var versions = ["1.0.2","1.0.2","1.0.1"];
+        var versions = ["1.0.3","1.0.2","1.0.2","1.0.1"];
     </script>
 
 

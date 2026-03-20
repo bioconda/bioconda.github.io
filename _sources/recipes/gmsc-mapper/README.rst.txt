@@ -27,27 +27,20 @@ gmsc-mapper
       
       
 
-      ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
    :depends on atomicwrites: 
    :depends on biopython: 
-   :depends on bottleneck: 
-   :depends on certifi: 
    :depends on diamond: ``>=2.0.13``
    :depends on mmseqs2: 
-   :depends on numexpr: 
    :depends on numpy: 
-   :depends on packaging: 
    :depends on pandas: 
-   :depends on pyparsing: 
    :depends on pyrodigal: 
-   :depends on python: ``>=3.7``
-   :depends on python-dateutil: 
-   :depends on pytz: 
-   :depends on six: 
+   :depends on python: 
+   :depends on requests: 
 
    :additional platforms:
       
@@ -121,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "gmsc-mapper";
-        var versions = ["0.1.0"];
+        var versions = ["0.2.0","0.1.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ pcne
       
       
 
-      ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``3.0.0-0``,  ``2.0.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -35,6 +35,7 @@ pcne
    :depends on bash: 
    :depends on bedtools: ``>=2.31.1``
    :depends on bwa: ``>=0.7.19``
+   :depends on minimap2: ``>=2.30``
    :depends on r-base: ``>=4.4.2``
    :depends on r-dplyr: ``>=1.1.4``
    :depends on r-ggplot2: ``>=3.5.1``
@@ -114,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "pcne";
-        var versions = ["2.0.0","1.0.0","1.0.0","0.2.0","0.2.0"];
+        var versions = ["3.0.0","2.0.0","1.0.0","1.0.0","0.2.0"];
     </script>
 
 

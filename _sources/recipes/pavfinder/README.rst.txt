@@ -28,7 +28,7 @@ pavfinder
       
       
 
-      ``1.8.5-0``
+      ``1.8.5-1``,  ``1.8.5-0``
 
       
 
@@ -42,7 +42,7 @@ pavfinder
    :depends on intspan: ``>=0.701``
    :depends on make: 
    :depends on pybedtools: ``>=0.6.9``
-   :depends on pysam: ``>=0.8.1``
+   :depends on pysam: 
    :depends on python: ``>=3``
    :depends on rnabloom: 
    :depends on ruffus: 
@@ -121,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "pavfinder";
-        var versions = ["1.8.5"];
+        var versions = ["1.8.5","1.8.5"];
     </script>
 
 

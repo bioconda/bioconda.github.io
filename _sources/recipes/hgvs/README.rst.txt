@@ -29,7 +29,7 @@ hgvs
       
       
 
-      ``1.5.6-0``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.2-0``,  ``1.5.1-0``
+      ``1.5.7-0``,  ``1.5.6-0``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.2-0``,  ``1.5.1-0``
 
       
 
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "hgvs";
-        var versions = ["1.5.6","1.5.5","1.5.4","1.5.2","1.5.1"];
+        var versions = ["1.5.7","1.5.6","1.5.5","1.5.4","1.5.2"];
     </script>
 
 

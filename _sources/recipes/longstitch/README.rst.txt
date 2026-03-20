@@ -12,10 +12,9 @@ longstitch
 
    A genome assembly correction and scaffolding pipeline using long reads.
 
-   :homepage: https://bcgsc.ca/resources/software/longstitch
-   :documentation: https://github.com/bcgsc/LongStitch/blob/v1.0.5/README.md
+   :homepage: https://github.com/BirolLab/longstitch
+   :documentation: https://github.com/BirolLab/LongStitch/blob/v1.0.5/README.md
    
-   :developer docs: https://github.com/bcgsc/longstitch
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`longstitch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/longstitch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/longstitch/meta.yaml>`_
    :links: doi: :doi:`10.1101/2021.06.17.448848`, biotools: :biotools:`longstitch`
@@ -30,9 +29,17 @@ longstitch
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.5-2</code>,  <code>1.0.5-1</code>,  <code>1.0.5-0</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-2</code>,  <code>1.0.1-1</code>,  </span></summary>
+      
 
+      ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -116,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "longstitch";
-        var versions = ["1.0.5","1.0.5","1.0.4","1.0.4","1.0.3"];
+        var versions = ["1.0.5","1.0.5","1.0.5","1.0.4","1.0.4"];
     </script>
 
 

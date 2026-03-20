@@ -27,7 +27,7 @@ scanpro
       
       
 
-      ``0.4.0-0``
+      ``0.4.1-0``,  ``0.4.0-0``
 
       
 
@@ -112,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "scanpro";
-        var versions = ["0.4.0"];
+        var versions = ["0.4.1","0.4.0"];
     </script>
 
 
