@@ -31,10 +31,10 @@ pyseer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.0-0</code>,  <code>1.3.12-0</code>,  <code>1.3.11-0</code>,  <code>1.3.10-0</code>,  <code>1.3.9-0</code>,  <code>1.3.8-0</code>,  <code>1.3.7-0</code>,  <code>1.3.6-1</code>,  <code>1.3.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.3.12-0</code>,  <code>1.3.11-0</code>,  <code>1.3.10-0</code>,  <code>1.3.9-0</code>,  <code>1.3.8-0</code>,  <code>1.3.7-0</code>,  <code>1.3.6-1</code>,  </span></summary>
       
 
-      ``1.4.0-0``,  ``1.3.12-0``,  ``1.3.11-0``,  ``1.3.10-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-1``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.2-0``,  ``0.3.1-0``
+      ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.12-0``,  ``1.3.11-0``,  ``1.3.10-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-1``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.2-0``,  ``0.3.1-0``
 
       
       .. raw:: html
@@ -46,18 +46,18 @@ pyseer
    :depends on bedops: 
    :depends on bedtools: 
    :depends on bwa: 
-   :depends on dendropy: 
-   :depends on glmnet_py: 
+   :depends on dendropy: ``>=4.4.0``
+   :depends on glmnet_py: ``!=1.0.1,!=1.0.2``
    :depends on mash: 
    :depends on matplotlib-base: 
-   :depends on numpy: 
+   :depends on numpy: ``>=1.16.5,<1.23.0``
    :depends on pandas: 
    :depends on pybedtools: 
    :depends on pysam: ``>=0.15.3``
    :depends on python: ``>=3.6``
    :depends on python-dateutil: ``>=2.5.0``
    :depends on scikit-learn: 
-   :depends on scipy: 
+   :depends on scipy: ``1.7.0.*``
    :depends on statsmodels: ``>=0.10``
    :depends on tqdm: 
 
@@ -133,7 +133,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "pyseer";
-        var versions = ["1.4.0","1.3.12","1.3.11","1.3.10","1.3.9"];
+        var versions = ["1.4.0","1.4.0","1.3.12","1.3.11","1.3.10"];
     </script>
 
 

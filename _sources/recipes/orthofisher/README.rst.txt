@@ -12,8 +12,8 @@ orthofisher
 
    Orthofisher is a broadly applicable tool for automated gene identification and retrieval.
 
-   :homepage: https://github.com/JLSteenwyk/orthofisher.git
-   :documentation: https://jlsteenwyk.com/orthofisher/
+   :homepage: https://github.com/JLSteenwyk/orthofisher
+   :documentation: https://jlsteenwyk.com/orthofisher
    
    :license: MIT / MIT
    :recipe: /`orthofisher <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/orthofisher>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/orthofisher/meta.yaml>`_
@@ -30,7 +30,7 @@ orthofisher
       
       
 
-      ``1.1.1-0``,  ``1.1.0-0``
+      ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``
 
       
 
@@ -112,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "orthofisher";
-        var versions = ["1.1.1","1.1.0"];
+        var versions = ["1.1.2","1.1.1","1.1.0"];
     </script>
 
 

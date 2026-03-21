@@ -12,8 +12,8 @@ goldrush
 
    Linear\-time de novo long read assembler\, from the Bioinformatics Technology Lab
 
-   :homepage: https://github.com/bcgsc/goldrush
-   :license: GPL-3.0
+   :homepage: https://github.com/BirolLab/goldrush
+   :license: GPL-3.0-or-later
    :recipe: /`goldrush <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/goldrush>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/goldrush/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ goldrush
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.2-0</code>,  <code>1.2.1-3</code>,  <code>1.2.1-2</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-2</code>,  <code>1.1.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.2.1-3</code>,  <code>1.2.1-2</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-2</code>,  </span></summary>
       
 
-      ``1.2.2-0``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.3-0``
+      ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.3-0``
 
       
       .. raw:: html
@@ -43,17 +43,17 @@ goldrush
    :depends on _openmp_mutex: ``>=4.5``
    :depends on bc: 
    :depends on btllib: ``>=1.6.2``
-   :depends on btllib: ``>=1.7.3,<2.0a0``
+   :depends on btllib: ``>=1.7.5,<2.0a0``
    :depends on gperftools: 
    :depends on libdivsufsort: ``>=2.0.2,<2.1.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on make: 
    :depends on minimap2: ``>=2.17``
    :depends on ntlink: ``>=1.3.0``
    :depends on numpy: ``>=1.22.4``
-   :depends on python: ``>=3.9,<3.10.0a0``
-   :depends on python_abi: ``3.9.* *_cp39``
+   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on python_abi: ``3.10.* *_cp310``
    :depends on snakemake: 
    :depends on tigmint: ``>=1.2.6``
 
@@ -129,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "goldrush";
-        var versions = ["1.2.2","1.2.1","1.2.1","1.2.1","1.2.1"];
+        var versions = ["1.2.2","1.2.2","1.2.1","1.2.1","1.2.1"];
     </script>
 
 

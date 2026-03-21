@@ -31,10 +31,10 @@ open-cravat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.16.0-0</code>,  <code>2.15.0-0</code>,  <code>2.13.0-0</code>,  <code>2.12.0-0</code>,  <code>2.11.1-0</code>,  <code>2.11.0-0</code>,  <code>2.9.1-0</code>,  <code>2.9.0-0</code>,  <code>2.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1.1-0</code>,  <code>2.16.0-0</code>,  <code>2.15.0-0</code>,  <code>2.13.0-0</code>,  <code>2.12.0-0</code>,  <code>2.11.1-0</code>,  <code>2.11.0-0</code>,  <code>2.9.1-0</code>,  <code>2.9.0-0</code>,  </span></summary>
       
 
-      ``2.16.0-0``,  ``2.15.0-0``,  ``2.13.0-0``,  ``2.12.0-0``,  ``2.11.1-0``,  ``2.11.0-0``,  ``2.9.1-0``,  ``2.9.0-0``,  ``2.8.0-0``,  ``2.7.3-0``,  ``2.7.2-0``,  ``2.7.1-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.0-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.9-0``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.5-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.2-0``
+      ``3.1.1-0``,  ``2.16.0-0``,  ``2.15.0-0``,  ``2.13.0-0``,  ``2.12.0-0``,  ``2.11.1-0``,  ``2.11.0-0``,  ``2.9.1-0``,  ``2.9.0-0``,  ``2.8.0-0``,  ``2.7.3-0``,  ``2.7.2-0``,  ``2.7.1-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.0-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.9-0``,  ``2.2.7-0``,  ``2.2.6-0``,  ``2.2.5-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-1``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.2-0``
 
       
       .. raw:: html
@@ -46,13 +46,21 @@ open-cravat
    :depends on aiohttp: ``<4.0.0``
    :depends on aiosqlite: 
    :depends on biopython: 
-   :depends on chardet: ``>=3.0.4``
+   :depends on cachelib: 
+   :depends on celery: 
+   :depends on chardet: ``>=3.0.4,<6.0.0``
+   :depends on cryptography: 
+   :depends on flask: 
+   :depends on flask-caching: 
    :depends on intervaltree: 
+   :depends on looseversion: 
    :depends on markdown: 
    :depends on mpmath: 
    :depends on nest-asyncio: 
    :depends on openpyxl: 
    :depends on oyaml: 
+   :depends on packaging: ``>=25.0.0``
+   :depends on paste: 
    :depends on psutil: 
    :depends on pyliftover: 
    :depends on python: ``>=3.9``
@@ -62,7 +70,9 @@ open-cravat
    :depends on requests-toolbelt: 
    :depends on setuptools: 
    :depends on twobitreader: 
+   :depends on waitress: 
    :depends on websockets: 
+   :depends on whitenoise: 
    :depends on xlsxwriter: 
 
    :additional platforms:
@@ -137,7 +147,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "open-cravat";
-        var versions = ["2.16.0","2.15.0","2.13.0","2.12.0","2.11.1"];
+        var versions = ["3.1.1","2.16.0","2.15.0","2.13.0","2.12.0"];
     </script>
 
 

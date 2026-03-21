@@ -16,8 +16,9 @@ bifidoannotator
    :license: MIT
    :recipe: /`bifidoannotator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bifidoannotator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bifidoannotator/meta.yaml>`_
 
-   bifidoAnnotator performs hierarchical annotation of enzymes involved in human\-milk glycan \(HMG\) utilization using MMseqs2\,
-   generates data matrices\, and creates publication\-ready heatmaps.
+   bifidoAnnotator performs hierarchical annotation of bifidobacterial GH\-encoding genes
+   using MMseqs2\, with an optional transporter annotation module\, HMG\-utilization row
+   annotation bars\, cluster row filtering\, and publication\-ready heatmap generation.
 
 
 
@@ -29,7 +30,7 @@ bifidoannotator
       
       
 
-      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``2.0.0-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -41,6 +42,7 @@ bifidoannotator
    :depends on python: ``>=3.10``
    :depends on scipy: ``>=1.5.0``
    :depends on seaborn: ``>=0.11.0``
+   :depends on setuptools: 
 
    :additional platforms:
       
@@ -114,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bifidoannotator";
-        var versions = ["1.0.2","1.0.1","1.0.0"];
+        var versions = ["2.0.0","1.0.2","1.0.1","1.0.0"];
     </script>
 
 

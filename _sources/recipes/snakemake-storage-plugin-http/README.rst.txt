@@ -13,7 +13,7 @@ snakemake-storage-plugin-http
    Snakemake storage plugin for donwloading input files from HTTP\(s\).
 
    :homepage: https://github.com/snakemake/snakemake-storage-plugin-http
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`snakemake-storage-plugin-http <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-storage-plugin-http>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-storage-plugin-http/meta.yaml>`_
 
    
@@ -27,11 +27,12 @@ snakemake-storage-plugin-http
       
       
 
-      ``0.3.0-0``,  ``0.2.3-1``,  ``0.2.3-0``
+      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.3-1``,  ``0.2.3-0``
 
       
 
    
+   :depends on humanfriendly: 
    :depends on python: ``>=3.11.0,<4.0.0``
    :depends on requests: ``>=2.31.0,<3.0.0``
    :depends on requests-oauthlib: ``>=1.3.1,<2.0.0``
@@ -110,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "snakemake-storage-plugin-http";
-        var versions = ["0.3.0","0.2.3","0.2.3"];
+        var versions = ["0.3.1","0.3.0","0.2.3","0.2.3"];
     </script>
 
 

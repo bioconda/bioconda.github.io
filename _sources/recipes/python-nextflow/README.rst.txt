@@ -26,9 +26,17 @@ python-nextflow
    :versions:
       
       
+      .. raw:: html
 
-      ``0.8-0``,  ``0.7.1-0``,  ``0.7-0``,  ``0.6.1-0``,  ``0.6-0``,  ``0.5-0``,  ``0.4.2-0``,  ``0.4-1``,  ``0.4-0``
+         <details><summary><span class="truncated-version-list"><code>0.13.0-0</code>,  <code>0.8-0</code>,  <code>0.7.1-0</code>,  <code>0.7-0</code>,  <code>0.6.1-0</code>,  <code>0.6-0</code>,  <code>0.5-0</code>,  <code>0.4.2-0</code>,  <code>0.4-1</code>,  </span></summary>
+      
 
+      ``0.13.0-0``,  ``0.8-0``,  ``0.7.1-0``,  ``0.7-0``,  ``0.6.1-0``,  ``0.6-0``,  ``0.5-0``,  ``0.4.2-0``,  ``0.4-1``,  ``0.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -107,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "python-nextflow";
-        var versions = ["0.8","0.7.1","0.7","0.6.1","0.6"];
+        var versions = ["0.13.0","0.8","0.7.1","0.7","0.6.1"];
     </script>
 
 

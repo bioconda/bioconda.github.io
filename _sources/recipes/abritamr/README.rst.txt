@@ -29,10 +29,10 @@ abritamr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.0-0</code>,  <code>1.0.20-0</code>,  <code>1.0.19-0</code>,  <code>1.0.18-0</code>,  <code>1.0.17-2</code>,  <code>1.0.17-1</code>,  <code>1.0.17-0</code>,  <code>1.0.14-1</code>,  <code>1.0.14-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.20-0</code>,  <code>1.0.19-0</code>,  <code>1.0.18-0</code>,  <code>1.0.17-2</code>,  <code>1.0.17-1</code>,  <code>1.0.17-0</code>,  <code>1.0.14-1</code>,  </span></summary>
       
 
-      ``1.1.0-0``,  ``1.0.20-0``,  ``1.0.19-0``,  ``1.0.18-0``,  ``1.0.17-2``,  ``1.0.17-1``,  ``1.0.17-0``,  ``1.0.14-1``,  ``1.0.14-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``,  ``0.2.2-0``,  ``0.1.0-0``
+      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.20-0``,  ``1.0.19-0``,  ``1.0.18-0``,  ``1.0.17-2``,  ``1.0.17-1``,  ``1.0.17-0``,  ``1.0.14-1``,  ``1.0.14-0``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.0-0``,  ``0.2.2-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ abritamr
    
    :depends on blast: 
    :depends on hmmer: 
-   :depends on ncbi-amrfinderplus: ``3.12.8.*``
+   :depends on ncbi-amrfinderplus: ``>=4.0.0``
    :depends on pandas: 
    :depends on parallel: 
    :depends on python: ``>=3.9``
@@ -121,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "abritamr";
-        var versions = ["1.1.0","1.0.20","1.0.19","1.0.18","1.0.17"];
+        var versions = ["1.1.1","1.1.0","1.0.20","1.0.19","1.0.18"];
     </script>
 
 

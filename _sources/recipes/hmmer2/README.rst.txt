@@ -10,10 +10,10 @@ hmmer2
    :replaces_section_title:
    :noindex:
 
-   Biosequence analysis using profile hidden Markov models
+   Biosequence analysis using profile hidden Markov models.
 
-   :homepage: http://hmmer.org/
-   :license: GPLv2
+   :homepage: http://hmmer.org
+   :license: GPL-2.0-or-later
    :recipe: /`hmmer2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmmer2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmmer2/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ hmmer2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.2-11</code>,  <code>2.3.2-10</code>,  <code>2.3.2-9</code>,  <code>2.3.2-8</code>,  <code>2.3.2-7</code>,  <code>2.3.2-6</code>,  <code>2.3.2-5</code>,  <code>2.3.2-4</code>,  <code>2.3.2-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.2-12</code>,  <code>2.3.2-11</code>,  <code>2.3.2-10</code>,  <code>2.3.2-9</code>,  <code>2.3.2-8</code>,  <code>2.3.2-7</code>,  <code>2.3.2-6</code>,  <code>2.3.2-5</code>,  <code>2.3.2-4</code>,  </span></summary>
       
 
-      ``2.3.2-11``,  ``2.3.2-10``,  ``2.3.2-9``,  ``2.3.2-8``,  ``2.3.2-7``,  ``2.3.2-6``,  ``2.3.2-5``,  ``2.3.2-4``,  ``2.3.2-3``,  ``2.3.2-2``,  ``2.3.2-1``
+      ``2.3.2-12``,  ``2.3.2-11``,  ``2.3.2-10``,  ``2.3.2-9``,  ``2.3.2-8``,  ``2.3.2-7``,  ``2.3.2-6``,  ``2.3.2-5``,  ``2.3.2-4``,  ``2.3.2-3``,  ``2.3.2-2``,  ``2.3.2-1``
 
       
       .. raw:: html
@@ -40,13 +40,13 @@ hmmer2
       
 
    
-   :depends on libgcc: ``>=13``
+   :depends on libgcc: ``>=14``
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation

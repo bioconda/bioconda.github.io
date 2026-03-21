@@ -30,16 +30,16 @@ libpdb-redo
       
       
 
-      ``3.3.1-0``,  ``3.3.0-0``
+      ``3.5.0-0``,  ``3.3.1-0``,  ``3.3.0-0``
 
       
 
    
    :depends on clipper: ``>=2.1.20180802,<3.0a0``
    :depends on gsl: ``>=2.7,<2.8.0a0``
-   :depends on libcifpp: ``>=9.0.4,<10.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcifpp: ``>=10.0.0,<11.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
 
    :additional platforms:
@@ -118,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "libpdb-redo";
-        var versions = ["3.3.1","3.3.0"];
+        var versions = ["3.5.0","3.3.1","3.3.0"];
     </script>
 
 
