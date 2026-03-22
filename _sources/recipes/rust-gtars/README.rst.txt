@@ -13,7 +13,7 @@ rust-gtars
    Performance\-critical tools to manipulate\, analyze\, and process genomic interval data.
 
    :homepage: https://github.com/databio/gtars
-   :documentation: https://docs.rs/crate/gtars/0.7.0
+   :documentation: https://docs.rs/crate/gtars/0.8.0
    
    :license: BSD / BSD-2-Clause
    :recipe: /`rust-gtars <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-gtars>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-gtars/meta.yaml>`_
@@ -30,10 +30,10 @@ rust-gtars
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  <code>0.2.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  </span></summary>
       
 
-      ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``
+      ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ rust-gtars
       
 
    
-   :depends on libsqlite: ``>=3.51.2,<4.0a0``
+   :depends on libsqlite: ``>=3.52.0,<4.0a0``
    :depends on openssl: ``>=3.5.5,<4.0a0``
 
    :additional platforms:
@@ -121,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "rust-gtars";
-        var versions = ["0.7.0","0.6.0","0.5.3","0.5.2","0.5.1"];
+        var versions = ["0.8.0","0.7.0","0.6.0","0.5.3","0.5.2"];
     </script>
 
 

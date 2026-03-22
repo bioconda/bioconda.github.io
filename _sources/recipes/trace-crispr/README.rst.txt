@@ -13,6 +13,8 @@ trace-crispr
    TRACE\: Triple\-aligner Read Analysis for CRISPR Editing
 
    :homepage: https://github.com/k-roy/TRACE
+   :documentation: https://trace-crispr.readthedocs.io
+   
    :license: MIT / MIT
    :recipe: /`trace-crispr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trace-crispr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trace-crispr/meta.yaml>`_
 
@@ -30,7 +32,7 @@ trace-crispr
       
       
 
-      ``0.4.0-0``
+      ``0.6.3-0``,  ``0.4.0-0``
 
       
 
@@ -120,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "trace-crispr";
-        var versions = ["0.4.0"];
+        var versions = ["0.6.3","0.4.0"];
     </script>
 
 

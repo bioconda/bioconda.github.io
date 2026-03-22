@@ -32,10 +32,10 @@ kallisto
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.51.1-2</code>,  <code>0.51.1-1</code>,  <code>0.51.1-0</code>,  <code>0.51.0-0</code>,  <code>0.50.1-2</code>,  <code>0.50.1-1</code>,  <code>0.50.1-0</code>,  <code>0.50.0-0</code>,  <code>0.48.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.52.0-0</code>,  <code>0.51.1-2</code>,  <code>0.51.1-1</code>,  <code>0.51.1-0</code>,  <code>0.51.0-0</code>,  <code>0.50.1-2</code>,  <code>0.50.1-1</code>,  <code>0.50.1-0</code>,  <code>0.50.0-0</code>,  </span></summary>
       
 
-      ``0.51.1-2``,  ``0.51.1-1``,  ``0.51.1-0``,  ``0.51.0-0``,  ``0.50.1-2``,  ``0.50.1-1``,  ``0.50.1-0``,  ``0.50.0-0``,  ``0.48.0-2``,  ``0.48.0-1``,  ``0.48.0-0``,  ``0.46.2-2``,  ``0.46.2-1``,  ``0.46.2-0``,  ``0.46.1-1``,  ``0.46.1-0``,  ``0.46.0-1``,  ``0.46.0-0``,  ``0.45.1-0``,  ``0.45.0-0``,  ``0.44.0-2``,  ``0.44.0-1``,  ``0.43.1-1``,  ``0.43.1-0``,  ``0.43.0-2``,  ``0.43.0-1``,  ``0.42.4-2``,  ``0.42.4-1``,  ``0.42.3-1``,  ``0.42.3-0``
+      ``0.52.0-0``,  ``0.51.1-2``,  ``0.51.1-1``,  ``0.51.1-0``,  ``0.51.0-0``,  ``0.50.1-2``,  ``0.50.1-1``,  ``0.50.1-0``,  ``0.50.0-0``,  ``0.48.0-2``,  ``0.48.0-1``,  ``0.48.0-0``,  ``0.46.2-2``,  ``0.46.2-1``,  ``0.46.2-0``,  ``0.46.1-1``,  ``0.46.1-0``,  ``0.46.0-1``,  ``0.46.0-0``,  ``0.45.1-0``,  ``0.45.0-0``,  ``0.44.0-2``,  ``0.44.0-1``,  ``0.43.1-1``,  ``0.43.1-0``,  ``0.43.0-2``,  ``0.43.0-1``,  ``0.42.4-2``,  ``0.42.4-1``,  ``0.42.3-1``,  ``0.42.3-0``
 
       
       .. raw:: html
@@ -46,12 +46,12 @@ kallisto
    
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on hdf5: ``>=1.14.3,<1.14.4.0a0``
-   :depends on libcurl: ``>=8.14.1,<9.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on liblzma: ``>=5.8.1,<6.0a0``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on zlib-ng: ``>=2.2.5,<2.3.0a0``
+   :depends on libcurl: ``>=8.19.0,<9.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on zlib-ng: ``>=2.3.3,<2.4.0a0``
 
    :additional platforms:
       
@@ -129,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "kallisto";
-        var versions = ["0.51.1","0.51.1","0.51.1","0.51.0","0.50.1"];
+        var versions = ["0.52.0","0.51.1","0.51.1","0.51.1","0.51.0"];
     </script>
 
 
