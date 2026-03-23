@@ -27,13 +27,13 @@ snakemake-executor-plugin-htcondor
       
       
 
-      ``0.1.2-0``
+      ``0.2.1-0``,  ``0.1.2-0``
 
       
 
    
    :depends on python: ``>=3.11``
-   :depends on python-htcondor: ``>=23.4.0,<24.0.0``
+   :depends on python-htcondor: ``>=24.5.1,<25.0.0``
    :depends on snakemake-interface-common: ``>=1.17.1,<2.0.0``
    :depends on snakemake-interface-executor-plugins: ``>=9.0.0,<10.0.0``
 
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "snakemake-executor-plugin-htcondor";
-        var versions = ["0.1.2"];
+        var versions = ["0.2.1","0.1.2"];
     </script>
 
 

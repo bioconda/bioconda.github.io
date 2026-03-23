@@ -13,7 +13,7 @@ kmercamel
    KmerCamel🐫 \- compressing k\-mer sets using masked superstrings.
 
    :homepage: https://github.com/OndrejSladky/kmercamel
-   :documentation: https://github.com/OndrejSladky/kmercamel/blob/v2.2.0/README.md
+   :documentation: https://github.com/OndrejSladky/kmercamel/blob/v2.2.1/README.md
    
    :license: MIT / MIT
    :recipe: /`kmercamel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kmercamel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kmercamel/meta.yaml>`_
@@ -30,14 +30,14 @@ kmercamel
       
       
 
-      ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
 
    
    :depends on glpk: ``>=5.0,<6.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
 
    :additional platforms:
@@ -116,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "kmercamel";
-        var versions = ["2.2.0","2.1.1","2.1.0","2.0.0","1.0.2"];
+        var versions = ["2.2.1","2.2.0","2.1.1","2.1.0","2.0.0"];
     </script>
 
 

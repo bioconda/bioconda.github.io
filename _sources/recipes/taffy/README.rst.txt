@@ -1,53 +1,56 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'kamino'
+.. title:: Package Recipe 'taffy'
 .. highlight: bash
 
-kamino
-======
+taffy
+=====
 
-.. conda:recipe:: kamino
+.. conda:recipe:: taffy
    :replaces_section_title:
    :noindex:
 
-   Tool for building phylogenomic datasets quickly and reproducibly.
+   A C\/Python\/CLI library for working with TAF alignment files
 
-   :homepage: https://github.com/rderelle/kamino
-   :documentation: https://github.com/rderelle/kamino/blob/0.9.0/README.md
+   :homepage: https://github.com/ComparativeGenomicsToolkit/taffy
+   :documentation: https://github.com/ComparativeGenomicsToolkit/taffy/blob/main/README.md
    
    :license: MIT / MIT
-   :recipe: /`kamino <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kamino>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kamino/meta.yaml>`_
+   :recipe: /`taffy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taffy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taffy/meta.yaml>`_
 
-   
+   Taffy is a C and Python library with a CLI for manipulating\, 
+   reading\, and writing TAF and MAF format multiple sequence alignments. It allows 
+   conversion between the formats and manipulation of the alignments with utilities 
+   for preparing them for different use cases
 
 
-.. conda:package:: kamino
 
-   |downloads_kamino| |docker_kamino|
+.. conda:package:: taffy
+
+   |downloads_taffy| |docker_taffy|
 
    :versions:
       
       
-      .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.0-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  </span></summary>
-      
+      ``0.0.3-0``
 
-      ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
-
-      
-      .. raw:: html
-
-         </details>
       
 
    
+   :depends on bzip2: ``>=1.0.8,<2.0a0``
+   :depends on cffi: 
+   :depends on hdf5: ``>=1.14.3,<1.14.4.0a0``
+   :depends on htslib: ``>=1.23.1,<1.24.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on numpy: ``>=1.23,<3``
+   :depends on python: ``>=3.14,<3.15.0a0``
+   :depends on python_abi: ``3.14.* *_cp314``
+   :depends on zlib: 
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -64,11 +67,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install kamino
+    pixi global install taffy
 
 to add into an existing workspace instead, run::
 
-    pixi add kamino
+    pixi add taffy
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -80,11 +83,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install kamino
+    conda install taffy
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname kamino
+    conda create -n envname taffy
 
 with ``envname`` being the name of the desired environment.
 
@@ -94,9 +97,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/kamino:<tag>
+    docker pull quay.io/biocontainers/taffy:<tag>
 
-(see `kamino/tags`_ for valid values for ``<tag>``).
+(see `taffy/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -107,19 +110,19 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_kamino| image:: https://img.shields.io/conda/dn/bioconda/kamino.svg?style=flat
-   :target: https://anaconda.org/bioconda/kamino
+.. |downloads_taffy| image:: https://img.shields.io/conda/dn/bioconda/taffy.svg?style=flat
+   :target: https://anaconda.org/bioconda/taffy
    :alt:   (downloads)
-.. |docker_kamino| image:: https://quay.io/repository/biocontainers/kamino/status
-   :target: https://quay.io/repository/biocontainers/kamino
-.. _`kamino/tags`: https://quay.io/repository/biocontainers/kamino?tab=tags
+.. |docker_taffy| image:: https://quay.io/repository/biocontainers/taffy/status
+   :target: https://quay.io/repository/biocontainers/taffy
+.. _`taffy/tags`: https://quay.io/repository/biocontainers/taffy?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "kamino";
-        var versions = ["0.9.0","0.8.1","0.8.0","0.7.0","0.6.1"];
+        var package = "taffy";
+        var versions = ["0.0.3"];
     </script>
 
 
@@ -138,7 +141,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/kamino/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/taffy/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/kamino/README.html
+   :target: http://bioconda.github.io/recipes/taffy/README.html

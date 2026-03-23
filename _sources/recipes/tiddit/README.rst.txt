@@ -13,7 +13,7 @@ tiddit
    TIDDIT \- structural variant calling.
 
    :homepage: https://github.com/SciLifeLab/TIDDIT
-   :documentation: https://github.com/SciLifeLab/TIDDIT/blob/TIDDIT-3.9.4/README.md
+   :documentation: https://github.com/SciLifeLab/TIDDIT/blob/TIDDIT-3.9.5/README.md
    
    :license: GPL3 / GPL-3.0-only
    :recipe: /`tiddit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tiddit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tiddit/meta.yaml>`_
@@ -30,10 +30,10 @@ tiddit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.9.4-0</code>,  <code>3.9.3-1</code>,  <code>3.9.3-0</code>,  <code>3.9.2-0</code>,  <code>3.9.1-0</code>,  <code>3.9.0-0</code>,  <code>3.7.0-0</code>,  <code>3.6.1-2</code>,  <code>3.6.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.9.5-0</code>,  <code>3.9.4-0</code>,  <code>3.9.3-1</code>,  <code>3.9.3-0</code>,  <code>3.9.2-0</code>,  <code>3.9.1-0</code>,  <code>3.9.0-0</code>,  <code>3.7.0-0</code>,  <code>3.6.1-2</code>,  </span></summary>
       
 
-      ``3.9.4-0``,  ``3.9.3-1``,  ``3.9.3-0``,  ``3.9.2-0``,  ``3.9.1-0``,  ``3.9.0-0``,  ``3.7.0-0``,  ``3.6.1-2``,  ``3.6.1-1``,  ``3.6.1-0``,  ``3.6.0-1``,  ``3.6.0-0``,  ``3.4.0-0``,  ``3.3.2-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.1-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.12.1-0``,  ``2.12.0-4``,  ``2.12.0-3``,  ``2.12.0-2``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.0-0``,  ``2.8.1-2``,  ``2.8.1-1``,  ``2.8.1-0``,  ``2.8.0-0``,  ``2.7.1-1``,  ``2.7.1-0``,  ``2.6.0-0``
+      ``3.9.5-0``,  ``3.9.4-0``,  ``3.9.3-1``,  ``3.9.3-0``,  ``3.9.2-0``,  ``3.9.1-0``,  ``3.9.0-0``,  ``3.7.0-0``,  ``3.6.1-2``,  ``3.6.1-1``,  ``3.6.1-0``,  ``3.6.0-1``,  ``3.6.0-0``,  ``3.4.0-0``,  ``3.3.2-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.1-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.12.1-0``,  ``2.12.0-4``,  ``2.12.0-3``,  ``2.12.0-2``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.0-0``,  ``2.8.1-2``,  ``2.8.1-1``,  ``2.8.1-0``,  ``2.8.0-0``,  ``2.7.1-1``,  ``2.7.1-0``,  ``2.6.0-0``
 
       
       .. raw:: html
@@ -45,8 +45,8 @@ tiddit
    :depends on bwa: 
    :depends on fermi2: 
    :depends on joblib: 
-   :depends on libgcc: ``>=13``
-   :depends on numpy: ``>=1.22.4,<2.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on numpy: ``>=1.21,<3``
    :depends on pysam: ``>=0.23.3,<0.24.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
@@ -128,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "tiddit";
-        var versions = ["3.9.4","3.9.3","3.9.3","3.9.2","3.9.1"];
+        var versions = ["3.9.5","3.9.4","3.9.3","3.9.3","3.9.2"];
     </script>
 
 

@@ -30,10 +30,10 @@ sopa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.1-0</code>,  <code>2.1.11-0</code>,  <code>2.1.10-0</code>,  <code>2.1.9-0</code>,  <code>2.1.8-0</code>,  <code>2.1.6-0</code>,  <code>2.1.5-0</code>,  <code>2.1.4-0</code>,  <code>2.1.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.1.11-0</code>,  <code>2.1.10-0</code>,  <code>2.1.9-0</code>,  <code>2.1.8-0</code>,  <code>2.1.6-0</code>,  <code>2.1.5-0</code>,  <code>2.1.4-0</code>,  </span></summary>
       
 
-      ``2.2.1-0``,  ``2.1.11-0``,  ``2.1.10-0``,  ``2.1.9-0``,  ``2.1.8-0``,  ``2.1.6-0``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``1.1.5-0``
+      ``2.2.2-0``,  ``2.2.1-0``,  ``2.1.11-0``,  ``2.1.10-0``,  ``2.1.9-0``,  ``2.1.8-0``,  ``2.1.6-0``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``1.1.5-0``
 
       
       .. raw:: html
@@ -125,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "sopa";
-        var versions = ["2.2.1","2.1.11","2.1.10","2.1.9","2.1.8"];
+        var versions = ["2.2.2","2.2.1","2.1.11","2.1.10","2.1.9"];
     </script>
 
 
