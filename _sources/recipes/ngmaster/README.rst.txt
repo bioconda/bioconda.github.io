@@ -29,13 +29,15 @@ ngmaster
       
       
 
-      ``1.1.1-1``,  ``1.1.1-0``,  ``1.0.0-0``,  ``0.5.8-1``,  ``0.5.8-0``
+      ``2.0.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.0.0-0``,  ``0.5.8-1``,  ``0.5.8-0``
 
       
 
    
    :depends on biopython: 
+   :depends on bs4: 
    :depends on mlst: 
+   :depends on mlstdb: ``1.0.0``
    :depends on python: ``>=3.12``
    :depends on requests: 
 
@@ -111,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "ngmaster";
-        var versions = ["1.1.1","1.1.1","1.0.0","0.5.8","0.5.8"];
+        var versions = ["2.0.0","1.1.1","1.1.1","1.0.0","0.5.8"];
     </script>
 
 

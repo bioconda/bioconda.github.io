@@ -29,7 +29,7 @@ staphscan
       
       
 
-      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``
+      ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
 
@@ -39,6 +39,8 @@ staphscan
    :depends on mash: ``>=2.0``
    :depends on pandas: 
    :depends on python: ``>=3.10``
+   :depends on rauth: 
+   :depends on requests: 
 
    :additional platforms:
       
@@ -112,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "staphscan";
-        var versions = ["0.2.1","0.2.0","0.1.3","0.1.2"];
+        var versions = ["0.3.0","0.2.1","0.2.0","0.1.3","0.1.2"];
     </script>
 
 

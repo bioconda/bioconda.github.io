@@ -28,14 +28,11 @@ orfm
       
       
 
-      ``1.4.0-0``,  ``1.3-0``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.6.1-0``
+      ``2.0.1-0``,  ``1.4.0-0``,  ``1.3-0``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.6.1-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on zlib: 
 
    :additional platforms:
       
@@ -113,7 +110,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "orfm";
-        var versions = ["1.4.0","1.3","0.7.1","0.7.1","0.7.1"];
+        var versions = ["2.0.1","1.4.0","1.3","0.7.1","0.7.1"];
     </script>
 
 

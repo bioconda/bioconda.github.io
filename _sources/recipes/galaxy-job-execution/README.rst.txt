@@ -31,19 +31,20 @@ galaxy-job-execution
       
       
 
-      ``25.0.4-0``,  ``25.0.3-0``,  ``25.0.2-0``,  ``25.0.1-0``,  ``24.2.4-0``
+      ``25.1.2-0``,  ``25.0.4-0``,  ``25.0.3-0``,  ``25.0.2-0``,  ``25.0.1-0``,  ``24.2.4-0``
 
       
 
    
-   :depends on galaxy-data: ``>=25.0``
-   :depends on galaxy-files: ``>=25.0``
-   :depends on galaxy-objectstore: ``>=25.0``
-   :depends on galaxy-tool-util: ``>=25.0``
-   :depends on galaxy-util: ``>=25.0``
+   :depends on galaxy-data: ``>=25.1``
+   :depends on galaxy-files: ``>=25.1``
+   :depends on galaxy-objectstore: ``>=25.1``
+   :depends on galaxy-tool-util: ``>=25.1``
+   :depends on galaxy-util: ``>=25.1``
+   :depends on ijson: 
    :depends on markupsafe: 
    :depends on pypng: 
-   :depends on python: ``>=3.9``
+   :depends on python: ``>=3.10``
    :depends on sqlalchemy: ``>=2.0,<2.1``
 
    :additional platforms:
@@ -118,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "galaxy-job-execution";
-        var versions = ["25.0.4","25.0.3","25.0.2","25.0.1","24.2.4"];
+        var versions = ["25.1.2","25.0.4","25.0.3","25.0.2","25.0.1"];
     </script>
 
 

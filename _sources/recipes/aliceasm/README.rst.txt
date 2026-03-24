@@ -27,7 +27,7 @@ aliceasm
       
       
 
-      ``0.6.41-0``,  ``0.6.38-0``,  ``0.6.37-0``,  ``0.6.36-1``,  ``0.6.36-0``,  ``0.6.34-0``,  ``0.6.33-0``,  ``0.6.32-0``
+      ``0.7.14-0``,  ``0.6.41-0``,  ``0.6.38-0``,  ``0.6.37-0``,  ``0.6.36-1``,  ``0.6.36-0``,  ``0.6.34-0``,  ``0.6.33-0``,  ``0.6.32-0``
 
       
 
@@ -35,9 +35,10 @@ aliceasm
    :depends on _openmp_mutex: ``>=4.5``
    :depends on bcalm: 
    :depends on gfatools: 
-   :depends on libgcc: ``>=13``
+   :depends on libgcc: ``>=14``
    :depends on libgomp: 
-   :depends on libstdcxx: ``>=13``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
       
@@ -115,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "aliceasm";
-        var versions = ["0.6.41","0.6.38","0.6.37","0.6.36","0.6.36"];
+        var versions = ["0.7.14","0.6.41","0.6.38","0.6.37","0.6.36"];
     </script>
 
 

@@ -10,7 +10,7 @@ thermorawfileparser
    :replaces_section_title:
    :noindex:
 
-   Parser for Thermo RAW files based on the ThermoFisher ThermoRawFileReader library
+   Parser for Thermo RAW files based on the ThermoFisher ThermoRawFileReader library.
 
    :homepage: https://github.com/compomics/ThermoRawFileParser
    :documentation: https://github.com/compomics/ThermoRawFileParser/blob/master/README.md
@@ -30,10 +30,10 @@ thermorawfileparser
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.0.dev-0</code>,  <code>1.4.5-1</code>,  <code>1.4.5-0</code>,  <code>1.4.4-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.0.dev-1</code>,  <code>2.0.0.dev-0</code>,  <code>1.4.5-1</code>,  <code>1.4.5-0</code>,  <code>1.4.4-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  </span></summary>
       
 
-      ``2.0.0.dev-0``,  ``1.4.5-1``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.4-0``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-4``,  ``1.3.2-3``,  ``1.3.2-2``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.11-0``,  ``1.1.10-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.2-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``0.0.2018.09.07-1``,  ``0.0.2018.09.07-0``
+      ``2.0.0.dev-1``,  ``2.0.0.dev-0``,  ``1.4.5-1``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.4-0``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-4``,  ``1.3.2-3``,  ``1.3.2-2``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.11-0``,  ``1.1.10-0``,  ``1.1.9-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.2-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``0.0.2018.09.07-1``,  ``0.0.2018.09.07-0``
 
       
       .. raw:: html
@@ -46,8 +46,13 @@ thermorawfileparser
    :depends on libstdcxx-ng: ``>=7.5.0``
    :depends on libzlib: 
    :depends on openssl: 
+   :depends on wget: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -119,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "thermorawfileparser";
-        var versions = ["2.0.0.dev","1.4.5","1.4.5","1.4.4","1.4.3"];
+        var versions = ["2.0.0.dev","2.0.0.dev","1.4.5","1.4.5","1.4.4"];
     </script>
 
 

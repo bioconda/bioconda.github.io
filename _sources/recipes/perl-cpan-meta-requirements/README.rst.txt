@@ -10,10 +10,10 @@ perl-cpan-meta-requirements
    :replaces_section_title:
    :noindex:
 
-   a set of version requirements for a CPAN dist
+   A set of version requirements for a CPAN dist.
 
    :homepage: https://github.com/Perl-Toolchain-Gang/CPAN-Meta-Requirements
-   :license: perl_5
+   :license: Perl_5
    :recipe: /`perl-cpan-meta-requirements <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cpan-meta-requirements>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cpan-meta-requirements/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-cpan-meta-requirements
       
       
 
-      ``2.143-0``,  ``2.142-0``,  ``2.140-1``,  ``2.140-0``
+      ``2.145-0``,  ``2.143-0``,  ``2.142-0``,  ``2.140-1``,  ``2.140-0``
 
       
 
@@ -108,7 +108,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "perl-cpan-meta-requirements";
-        var versions = ["2.143","2.142","2.140","2.140"];
+        var versions = ["2.145","2.143","2.142","2.140","2.140"];
     </script>
 
 

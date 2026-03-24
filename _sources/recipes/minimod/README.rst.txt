@@ -27,12 +27,12 @@ minimod
       
       
 
-      ``0.4.0-0``
+      ``0.5.0-0``,  ``0.4.0-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
+   :depends on libgcc: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on zlib: 
 
@@ -112,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "minimod";
-        var versions = ["0.4.0"];
+        var versions = ["0.5.0","0.4.0"];
     </script>
 
 

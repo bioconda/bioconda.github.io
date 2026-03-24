@@ -27,15 +27,15 @@ callerpp
       
       
 
-      ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.4-1``,  ``0.1.4-0``
+      ``0.1.7-0``,  ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``,  ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.4-1``,  ``0.1.4-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on spoa: ``>=4.1.4``
-   :depends on spoa: ``>=4.1.4,<5.0a0``
+   :depends on spoa: ``>=4.1.5,<5.0a0``
 
    :additional platforms:
       
@@ -113,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "callerpp";
-        var versions = ["0.1.6","0.1.6","0.1.6","0.1.5","0.1.5"];
+        var versions = ["0.1.7","0.1.6","0.1.6","0.1.6","0.1.5"];
     </script>
 
 

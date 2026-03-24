@@ -27,7 +27,7 @@ synth-pdb
       
       
 
-      ``1.16.0-0``,  ``1.15.0-0``,  ``1.14.1-0``,  ``1.9.0-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.6.3-0``
+      ``1.25.0-0``,  ``1.16.0-0``,  ``1.15.0-0``,  ``1.14.1-0``,  ``1.9.0-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.6.3-0``
 
       
 
@@ -36,6 +36,7 @@ synth-pdb
    :depends on numpy: ``>=1.20``
    :depends on openmm: 
    :depends on python: ``>=3.8``
+   :depends on synth-nmr: 
 
    :additional platforms:
       
@@ -109,7 +110,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "synth-pdb";
-        var versions = ["1.16.0","1.15.0","1.14.1","1.9.0","1.8.3"];
+        var versions = ["1.25.0","1.16.0","1.15.0","1.14.1","1.9.0"];
     </script>
 
 

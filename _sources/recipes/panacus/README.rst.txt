@@ -28,10 +28,10 @@ panacus
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.3-0</code>,  <code>0.3.0.2-0</code>,  <code>0.2.5-1</code>,  <code>0.2.5-0</code>,  <code>0.2.4-2</code>,  <code>0.2.4-0</code>,  <code>0.2.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.3-0</code>,  <code>0.3.0.2-0</code>,  <code>0.2.5-1</code>,  <code>0.2.5-0</code>,  <code>0.2.4-2</code>,  <code>0.2.4-0</code>,  </span></summary>
       
 
-      ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-0``,  ``0.3.0.2-0``,  ``0.2.5-1``,  ``0.2.5-0``,  ``0.2.4-2``,  ``0.2.4-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2-0``
+      ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.3-0``,  ``0.3.0.2-0``,  ``0.2.5-1``,  ``0.2.5-0``,  ``0.2.4-2``,  ``0.2.4-0``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2-0``
 
       
       .. raw:: html
@@ -40,7 +40,7 @@ panacus
       
 
    
-   :depends on libgcc: ``>=13``
+   :depends on libgcc: ``>=14``
    :depends on matplotlib-base: 
    :depends on numpy: 
    :depends on pandas: 
@@ -125,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "panacus";
-        var versions = ["0.4.1","0.4.0","0.3.3","0.3.0.2","0.2.5"];
+        var versions = ["0.4.2","0.4.1","0.4.0","0.3.3","0.3.0.2"];
     </script>
 
 

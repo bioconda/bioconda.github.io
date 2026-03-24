@@ -12,8 +12,9 @@ rust-proseg
 
    A Rust crate for running Proseg\, a cell segmentation method for in situ spatial transcriptomics.
 
-
    :homepage: https://github.com/dcjones/proseg
+   :documentation: https://github.com/dcjones/proseg/blob/v3.1.1/README.md
+   
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`rust-proseg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-proseg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-proseg/meta.yaml>`_
 
@@ -28,11 +29,13 @@ rust-proseg
       
       
 
-      ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``
+      ``3.1.1-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``
 
       
 
    
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
       
@@ -110,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "rust-proseg";
-        var versions = ["2.0.6","2.0.5","2.0.4"];
+        var versions = ["3.1.1","2.0.6","2.0.5","2.0.4"];
     </script>
 
 
