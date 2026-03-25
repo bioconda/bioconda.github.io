@@ -29,7 +29,7 @@ bactopia-teton
       
       
 
-      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -42,6 +42,7 @@ bactopia-teton
    :depends on kraken2: ``>=2.1.3``
    :depends on krakentools: ``>=1.2``
    :depends on krona: ``>=2.8.1``
+   :depends on nohuman: ``>=0.5.0``
    :depends on pandas: 
    :depends on pigz: 
    :depends on python: ``>=3.6,<3.11``
@@ -121,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bactopia-teton";
-        var versions = ["1.1.1","1.1.0","1.0.5","1.0.4","1.0.3"];
+        var versions = ["1.1.2","1.1.1","1.1.0","1.0.5","1.0.4"];
     </script>
 
 

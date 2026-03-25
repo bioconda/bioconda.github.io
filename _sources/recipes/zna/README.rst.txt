@@ -40,7 +40,7 @@ zna
       
       
 
-      ``0.1.8-0``
+      ``0.2.0-0``,  ``0.1.8-0``
 
       
 
@@ -52,6 +52,10 @@ zna
    :depends on zstandard: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -123,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "zna";
-        var versions = ["0.1.8"];
+        var versions = ["0.2.0","0.1.8"];
     </script>
 
 

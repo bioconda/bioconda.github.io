@@ -27,7 +27,7 @@ spestimator
       
       
 
-      ``0.3.0.233-0``,  ``0.1.0.232-0``
+      ``0.3.0.234-0``,  ``0.3.0.233-0``,  ``0.1.0.232-0``
 
       
 
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "spestimator";
-        var versions = ["0.3.0.233","0.1.0.232"];
+        var versions = ["0.3.0.234","0.3.0.233","0.1.0.232"];
     </script>
 
 

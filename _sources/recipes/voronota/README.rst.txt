@@ -41,7 +41,7 @@ voronota
       
       
 
-      ``1.29.4723-0``,  ``1.29.4602-0``,  ``1.29.4592-0``,  ``1.29.4415-0``,  ``1.29.4412-0``,  ``1.29.4408-0``,  ``1.29.4370-0``
+      ``1.29.4771-0``,  ``1.29.4723-0``,  ``1.29.4602-0``,  ``1.29.4592-0``,  ``1.29.4415-0``,  ``1.29.4412-0``,  ``1.29.4408-0``,  ``1.29.4370-0``
 
       
 
@@ -57,7 +57,7 @@ voronota
    :depends on libgomp: 
    :depends on libstdcxx: ``>=14``
    :depends on libxcb: ``>=1.17.0,<2.0a0``
-   :depends on mesalib: ``>=25.3.5,<25.4.0a0``
+   :depends on mesalib: ``>=26.0.3,<26.1.0a0``
 
    :additional platforms:
       
@@ -135,7 +135,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "voronota";
-        var versions = ["1.29.4723","1.29.4602","1.29.4592","1.29.4415","1.29.4412"];
+        var versions = ["1.29.4771","1.29.4723","1.29.4602","1.29.4592","1.29.4415"];
     </script>
 
 

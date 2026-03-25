@@ -10,10 +10,11 @@ comet-ms
    :replaces_section_title:
    :noindex:
 
-   Comet is a command line tool that does MS\/MS database search.
+   Comet is an open source tandem mass spectrometry \(MS\/MS\) sequence database search tool.
 
    :homepage: https://uwpr.github.io/Comet/
-   :license: Apache License 2.0
+   :developer docs: https://github.com/UWPR/Comet
+   :license: Apache-2.0
    :recipe: /`comet-ms <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/comet-ms>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/comet-ms/meta.yaml>`_
    :links: doi: :doi:`10.1007/s13361-015-1179-x`, doi: :doi:`10.1002/pmic.201200439`
 
@@ -32,7 +33,7 @@ comet-ms
          <details><summary><span class="truncated-version-list"><code>2024011-0</code>,  <code>2023012-1</code>,  <code>2023012-0</code>,  <code>2023010-2</code>,  <code>2023010-1</code>,  <code>2023010-0</code>,  <code>2021010-1</code>,  <code>2021010-0</code>,  <code>2019015-0</code>,  </span></summary>
       
 
-      ``2024011-0``,  ``2023012-1``,  ``2023012-0``,  ``2023010-2``,  ``2023010-1``,  ``2023010-0``,  ``2021010-1``,  ``2021010-0``,  ``2019015-0``,  ``2019014-0``,  ``2019013-0``,  ``2019012-0``,  ``2019011-0``,  ``2019010-0``,  ``2018014-0``,  ``2018013-0``,  ``2018012-1``,  ``2018012-0``,  ``2016013-7``,  ``2016013-6``,  ``2016013-5``,  ``2016013-4``,  ``2016013-3``,  ``2016013-2``,  ``2016013-1``
+      ``2024011-0``,  ``2023012-1``,  ``2023012-0``,  ``2023010-2``,  ``2023010-1``,  ``2023010-0``,  ``2021010-1``,  ``2021010-0``,  ``2019015-0``,  ``2019014-0``,  ``2019013-0``,  ``2019012-0``,  ``2019011-0``,  ``2019010-0``,  ``2018014-0``,  ``2018013-0``,  ``2018012-1``,  ``2018012-0``,  ``2016013-7``,  ``2016013-6``,  ``2016013-5``,  ``2016013-4``,  ``2016013-3``,  ``2016013-2``,  ``2016013-1``,  ``2026.01.1-0``
 
       
       .. raw:: html
@@ -49,7 +50,7 @@ comet-ms
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code>,  <code>osx-x86_64</code></span>
       
 
 Installation

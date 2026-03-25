@@ -27,19 +27,15 @@ shortcut
       
       
 
-      ``1.0-0``
+      ``2.0-0``,  ``1.0-0``
 
       
 
    
-   :depends on biopython: ``>=1.85``
-   :depends on cutadapt: ``>=4.8``
-   :depends on python: ``>=3.6``
-   :depends on r-base: ``>=4.3.3``
-   :depends on r-ggplot2: ``>=3.5.2``
-   :depends on r-tidyverse: ``>=2.0``
-   :depends on rpy2: 
-   :depends on shortstack: ``>=4.0.4``
+   :depends on cutadapt: 
+   :depends on pandas: 
+   :depends on plotly: 
+   :depends on python: ``>=3.12,<3.13.0a0``
 
    :additional platforms:
       
@@ -113,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "shortcut";
-        var versions = ["1.0"];
+        var versions = ["2.0","1.0"];
     </script>
 
 

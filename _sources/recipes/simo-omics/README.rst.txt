@@ -27,7 +27,7 @@ simo-omics
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -36,11 +36,13 @@ simo-omics
    :depends on louvain: ``>=0.7.1``
    :depends on networkx: ``>=3.1``
    :depends on plotly: 
-   :depends on pot: ``>=0.8.2``
+   :depends on pot: ``0.8.2``
    :depends on pycomplexheatmap: 
    :depends on python: ``>=3.9``
    :depends on python-igraph: ``>=0.10.8``
    :depends on scanpy: ``>=1.9.1``
+   :depends on scikit-misc: ``>=0.1.4``
+   :depends on scipy: ``>=1.8.1,<1.12``
 
    :additional platforms:
       
@@ -114,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "simo-omics";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

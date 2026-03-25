@@ -1,46 +1,47 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'bifrost-httr'
+.. title:: Package Recipe 'ecmsd'
 .. highlight: bash
 
-bifrost-httr
-============
+ecmsd
+=====
 
-.. conda:recipe:: bifrost-httr
+.. conda:recipe:: ecmsd
    :replaces_section_title:
    :noindex:
 
-   Pre\-release version for testing purposes only
+   Efficient Comprehensive Mitochondrial Sequence Detection Pipeline
 
-   :homepage: https://github.com/seqera-services/bifrost-httr
-   :license: LGPL / LGPL-3.0
-   :recipe: /`bifrost-httr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bifrost-httr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bifrost-httr/meta.yaml>`_
+   :homepage: https://github.com/capoony/ECMSD
+   :license: MIT / MIT
+   :recipe: /`ecmsd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ecmsd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ecmsd/meta.yaml>`_
 
-   Pre\-release version for testing purposes only
+   ECMSD detects and taxonomically classifies mitochondrial sequences
+   from high\-throughput sequencing data using minimap2 alignment and RMUS scoring.
 
 
-.. conda:package:: bifrost-httr
 
-   |downloads_bifrost-httr| |docker_bifrost-httr|
+.. conda:package:: ecmsd
+
+   |downloads_ecmsd| |docker_ecmsd|
 
    :versions:
       
       
 
-      ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``1.1.0-0``
 
       
 
    
-   :depends on click: 
-   :depends on cmdstanpy: ``>=1.2.0,<2.0``
-   :depends on multiqc: ``1.28``
-   :depends on numpy: ``>=2.0.0,<3.0``
-   :depends on pandas: ``>=2.0.0,<3.0``
-   :depends on plotly: ``>=6.0.0,<7.0``
-   :depends on python: ``>=3.10``
-   :depends on pyyaml: ``>=6.0``
-   :depends on scipy: ``>=1.10.0,<2.0``
+   :depends on bbmap: 
+   :depends on minimap2: 
+   :depends on numpy: 
+   :depends on pigz: 
+   :depends on python: ``>=3.6``
+   :depends on r-base: 
+   :depends on r-tidyverse: 
+   :depends on wget: 
 
    :additional platforms:
       
@@ -59,11 +60,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install bifrost-httr
+    pixi global install ecmsd
 
 to add into an existing workspace instead, run::
 
-    pixi add bifrost-httr
+    pixi add ecmsd
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -75,11 +76,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install bifrost-httr
+    conda install ecmsd
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname bifrost-httr
+    conda create -n envname ecmsd
 
 with ``envname`` being the name of the desired environment.
 
@@ -89,9 +90,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/bifrost-httr:<tag>
+    docker pull quay.io/biocontainers/ecmsd:<tag>
 
-(see `bifrost-httr/tags`_ for valid values for ``<tag>``).
+(see `ecmsd/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -102,19 +103,19 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_bifrost-httr| image:: https://img.shields.io/conda/dn/bioconda/bifrost-httr.svg?style=flat
-   :target: https://anaconda.org/bioconda/bifrost-httr
+.. |downloads_ecmsd| image:: https://img.shields.io/conda/dn/bioconda/ecmsd.svg?style=flat
+   :target: https://anaconda.org/bioconda/ecmsd
    :alt:   (downloads)
-.. |docker_bifrost-httr| image:: https://quay.io/repository/biocontainers/bifrost-httr/status
-   :target: https://quay.io/repository/biocontainers/bifrost-httr
-.. _`bifrost-httr/tags`: https://quay.io/repository/biocontainers/bifrost-httr?tab=tags
+.. |docker_ecmsd| image:: https://quay.io/repository/biocontainers/ecmsd/status
+   :target: https://quay.io/repository/biocontainers/ecmsd
+.. _`ecmsd/tags`: https://quay.io/repository/biocontainers/ecmsd?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "bifrost-httr";
-        var versions = ["0.5.0","0.4.2","0.4.0","0.3.1","0.3.0"];
+        var package = "ecmsd";
+        var versions = ["1.1.0"];
     </script>
 
 
@@ -133,7 +134,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bifrost-httr/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ecmsd/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/bifrost-httr/README.html
+   :target: http://bioconda.github.io/recipes/ecmsd/README.html

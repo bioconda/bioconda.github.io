@@ -12,8 +12,8 @@ transabyss
 
    de novo assembly of RNA\-Seq data using ABySS
 
-   :homepage: https://github.com/bcgsc/transabyss
-   :license: GPL-3.0
+   :homepage: https://github.com/BirolLab/transabyss
+   :license: GPL-3.0-or-later
    :recipe: /`transabyss <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transabyss>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transabyss/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ transabyss
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.1-7</code>,  <code>2.0.1-6</code>,  <code>2.0.1-5</code>,  <code>2.0.1-4</code>,  <code>2.0.1-3</code>,  <code>1.5.5-3</code>,  <code>1.5.5-2</code>,  <code>1.5.5-1</code>,  <code>1.5.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.1-8</code>,  <code>2.0.1-7</code>,  <code>2.0.1-6</code>,  <code>2.0.1-5</code>,  <code>2.0.1-4</code>,  <code>2.0.1-3</code>,  <code>1.5.5-3</code>,  <code>1.5.5-2</code>,  <code>1.5.5-1</code>,  </span></summary>
       
 
-      ``2.0.1-7``,  ``2.0.1-6``,  ``2.0.1-5``,  ``2.0.1-4``,  ``2.0.1-3``,  ``1.5.5-3``,  ``1.5.5-2``,  ``1.5.5-1``,  ``1.5.4-1``,  ``1.5.4-0``
+      ``2.0.1-8``,  ``2.0.1-7``,  ``2.0.1-6``,  ``2.0.1-5``,  ``2.0.1-4``,  ``2.0.1-3``,  ``1.5.5-3``,  ``1.5.5-2``,  ``1.5.5-1``,  ``1.5.4-1``,  ``1.5.4-0``
 
       
       .. raw:: html
@@ -43,9 +43,10 @@ transabyss
    :depends on abyss: ``2.0.*``
    :depends on blat: 
    :depends on icu: ``58.*``
-   :depends on python: 
+   :depends on python: ``<=3.6``
    :depends on python-igraph: ``0.7.*``
    :depends on samtools: 
+   :depends on setuptools: 
 
    :additional platforms:
       

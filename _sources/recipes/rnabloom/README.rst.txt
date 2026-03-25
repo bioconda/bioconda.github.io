@@ -12,10 +12,10 @@ rnabloom
 
    Java tool for RNA\-seq assembly
 
-   :homepage: https://github.com/bcgsc/RNA-Bloom
-   :documentation: https://github.com/bcgsc/RNA-Bloom/blob/master/README.md
+   :homepage: https://github.com/BirolLab/RNA-Bloom
+   :documentation: https://github.com/BirolLab/RNA-Bloom/blob/master/README.md
    
-   :license: GPL-3.0
+   :license: GPL-3.0-or-later
    :recipe: /`rnabloom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnabloom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnabloom/meta.yaml>`_
    :links: doi: :doi:`10.1101/gr.260174.119`, doi: :doi:`10.1038/s41467-023-38553-y`
 
@@ -31,10 +31,10 @@ rnabloom
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.4.3-0</code>,  <code>1.3.1-2</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.1-2</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.4.3-0</code>,  <code>1.3.1-2</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  </span></summary>
       
 
-      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.4.3-0``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``
+      ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.4.3-0``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``
 
       
       .. raw:: html
@@ -120,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "rnabloom";
-        var versions = ["2.0.1","2.0.1","2.0.0","1.4.3","1.3.1"];
+        var versions = ["2.0.1","2.0.1","2.0.1","2.0.0","1.4.3"];
     </script>
 
 
