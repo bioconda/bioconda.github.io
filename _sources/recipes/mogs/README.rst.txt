@@ -27,7 +27,7 @@ mogs
       
       
 
-      ``0.1.2-0``
+      ``0.2.0-0``,  ``0.1.2-0``
 
       
 
@@ -38,7 +38,7 @@ mogs
    :depends on gsl: ``>=2.7,<2.8.0a0``
    :depends on libgcc: ``>=14``
    :depends on libstdcxx: ``>=14``
-   :depends on llvm-openmp: ``>=22.1.0``
+   :depends on llvm-openmp: ``>=22.1.1``
    :depends on spdlog: ``>=1.16.0,<1.17.0a0``
 
    :additional platforms:
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "mogs";
-        var versions = ["0.1.2"];
+        var versions = ["0.2.0","0.1.2"];
     </script>
 
 

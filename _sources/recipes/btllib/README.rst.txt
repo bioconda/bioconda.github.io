@@ -12,8 +12,8 @@ btllib
 
    Bioinformatics common code library in C\+\+ with Python wrappers\, from Bioinformatics Technology Lab.
 
-   :homepage: https://github.com/bcgsc/btllib
-   :documentation: https://bcgsc.github.io/btllib
+   :homepage: https://github.com/BirolLab/btllib
+   :documentation: https://birollab.github.io/btllib/
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`btllib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/btllib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/btllib/meta.yaml>`_
@@ -31,10 +31,10 @@ btllib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.5-0</code>,  <code>1.7.3-1</code>,  <code>1.7.3-0</code>,  <code>1.7.2-3</code>,  <code>1.7.2-2</code>,  <code>1.7.2-1</code>,  <code>1.7.2-0</code>,  <code>1.7.1-0</code>,  <code>1.7.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7.7-0</code>,  <code>1.7.5-0</code>,  <code>1.7.3-1</code>,  <code>1.7.3-0</code>,  <code>1.7.2-3</code>,  <code>1.7.2-2</code>,  <code>1.7.2-1</code>,  <code>1.7.2-0</code>,  <code>1.7.1-0</code>,  </span></summary>
       
 
-      ``1.7.5-0``,  ``1.7.3-1``,  ``1.7.3-0``,  ``1.7.2-3``,  ``1.7.2-2``,  ``1.7.2-1``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.10-0``,  ``1.4.8-0``,  ``1.4.4-0``,  ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``
+      ``1.7.7-0``,  ``1.7.5-0``,  ``1.7.3-1``,  ``1.7.3-0``,  ``1.7.2-3``,  ``1.7.2-2``,  ``1.7.2-1``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.10-0``,  ``1.4.8-0``,  ``1.4.4-0``,  ``1.4.3-2``,  ``1.4.3-1``,  ``1.4.3-0``
 
       
       .. raw:: html
@@ -45,14 +45,14 @@ btllib
    
    :depends on _openmp_mutex: ``>=4.5``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libgcc: ``>=13``
+   :depends on libgcc: ``>=14``
    :depends on libgomp: 
-   :depends on liblzma: ``>=5.8.1,<6.0a0``
-   :depends on libstdcxx: ``>=13``
+   :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on lrzip: ``>=0.651,<0.652.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
-   :depends on samtools: ``>=1.21,<2.0a0``
+   :depends on samtools: ``>=1.23.1,<2.0a0``
 
    :additional platforms:
       
@@ -130,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "btllib";
-        var versions = ["1.7.5","1.7.3","1.7.3","1.7.2","1.7.2"];
+        var versions = ["1.7.7","1.7.5","1.7.3","1.7.3","1.7.2"];
     </script>
 
 

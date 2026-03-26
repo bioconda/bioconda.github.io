@@ -12,7 +12,8 @@ refgenieserver
 
    This server provides both a web interface and a RESTful API. Users may explore and download archived indexes from the web interface or develop tools that programmatically query the API.
 
-   :homepage: https://refgenie.databio.org/
+   :homepage: https://refgenie.databio.org
+   :developer docs: https://github.com/refgenie/refgenie
    :license: BSD / BSD-2-Clause
    :recipe: /`refgenieserver <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/refgenieserver>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/refgenieserver/meta.yaml>`_
 
@@ -28,10 +29,10 @@ refgenieserver
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  </span></summary>
       
 
-      ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.4-0``
+      ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.4-0``
 
       
       .. raw:: html
@@ -121,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "refgenieserver";
-        var versions = ["0.7.0","0.6.0","0.5.1","0.5.0","0.4.4"];
+        var versions = ["0.8.0","0.7.0","0.6.0","0.5.1","0.5.0"];
     </script>
 
 

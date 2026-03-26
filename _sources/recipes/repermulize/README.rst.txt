@@ -12,7 +12,8 @@ repermulize
 
    Repermulize contains functions to perform gene\-to\-phenotype tests with permulation.
 
-   :homepage: https://github.com/pbradleylab/phylogenize
+   :homepage: https://github.com/pbradleylab/repermulize
+   :developer docs: https://github.com/pbradleylab/repermulize/
    :license: MIT / MIT
    :recipe: /`repermulize <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repermulize>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repermulize/meta.yaml>`_
 
@@ -27,7 +28,7 @@ repermulize
       
       
 
-      ``1.0-0``
+      ``1.0.1-0``,  ``1.0-0``
 
       
 
@@ -127,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "repermulize";
-        var versions = ["1.0"];
+        var versions = ["1.0.1","1.0"];
     </script>
 
 

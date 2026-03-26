@@ -27,7 +27,7 @@ perl-mojo-pg
       
       
 
-      ``4.28-0``,  ``4.27-0``
+      ``4.29-0``,  ``4.28-0``,  ``4.27-0``
 
       
 
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "perl-mojo-pg";
-        var versions = ["4.28","4.27"];
+        var versions = ["4.29","4.28","4.27"];
     </script>
 
 

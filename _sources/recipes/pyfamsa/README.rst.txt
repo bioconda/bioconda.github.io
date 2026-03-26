@@ -30,10 +30,10 @@ pyfamsa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.3.post1-0</code>,  <code>0.5.3-1</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.2-1</code>,  <code>0.3.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.0-0</code>,  <code>0.5.3.post1-0</code>,  <code>0.5.3-1</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  <code>0.3.2-1</code>,  </span></summary>
       
 
-      ``0.5.3.post1-0``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.1-0``
+      ``0.7.0-0``,  ``0.5.3.post1-0``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-2``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -42,12 +42,12 @@ pyfamsa
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
-   :depends on scoring-matrices: ``>=0.2``
-   :depends on scoring-matrices: ``>=0.2.2,<0.3.0a0``
+   :depends on scoring-matrices: ``>=0.3``
+   :depends on scoring-matrices: ``>=0.3.4,<0.4.0a0``
 
    :additional platforms:
       
@@ -125,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "pyfamsa";
-        var versions = ["0.5.3.post1","0.5.3","0.5.3","0.5.2","0.5.1"];
+        var versions = ["0.7.0","0.5.3.post1","0.5.3","0.5.3","0.5.2"];
     </script>
 
 

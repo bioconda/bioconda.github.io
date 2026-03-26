@@ -13,12 +13,16 @@ medicc2
    Whole\-genome doubling\-aware copy number phylogenies for cancer evolution
 
    :homepage: https://bitbucket.org/schwarzlab/medicc2
+   :documentation: https://bitbucket.org/schwarzlab/medicc2/src/master/README.md
+   
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`medicc2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/medicc2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/medicc2/meta.yaml>`_
    :links: doi: :doi:`10.1186/s13059-022-02794-9`
 
    For more information see the accompanying biorxiv preprint \"Kaufmann et al. Whole\-genome 
    doubling\-aware copy number phylogenies for cancer evolution with MEDICC2.\"
+
+   MEDICC2 depends on conda\-forge packages \(e.g. openfst\). Ensure conda\-forge is enabled with strict channel priorityy when installing. See the project documentation for detailed installation.
 
 
 
@@ -31,10 +35,10 @@ medicc2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.0.4-0</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.9.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.2-2</code>,  <code>1.1.2-1</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.0.4-0</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  </span></summary>
       
 
-      ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.4-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.9.2-0``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.8.3-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6b1-0``,  ``0.5b4-0``,  ``0.5b3-0``
+      ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.4-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.9.2-0``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.8.3-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6b1-0``,  ``0.5b4-0``,  ``0.5b3-0``
 
       
       .. raw:: html
@@ -130,7 +134,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "medicc2";
-        var versions = ["1.1.2","1.1.2","1.1.1","1.0.4","1.0.2"];
+        var versions = ["1.1.2","1.1.2","1.1.2","1.1.1","1.0.4"];
     </script>
 
 

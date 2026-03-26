@@ -29,7 +29,7 @@ somatem
       
       
 
-      ``0.7.1-0``
+      ``0.7.1-1``,  ``0.7.1-0``
 
       
 
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "somatem";
-        var versions = ["0.7.1"];
+        var versions = ["0.7.1","0.7.1"];
     </script>
 
 

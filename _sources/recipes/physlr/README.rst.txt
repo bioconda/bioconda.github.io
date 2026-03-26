@@ -12,10 +12,10 @@ physlr
 
    Physlr\; Next\-generation Physical Maps
 
-   :homepage: https://github.com/bcgsc/physlr
-   :documentation: https://github.com/bcgsc/physlr#readme
+   :homepage: https://github.com/BirolLab/physlr
+   :documentation: https://github.com/BirolLab/physlr#readme
    
-   :license: GPL3
+   :license: GPL-3.0-or-later
    :recipe: /`physlr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/physlr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/physlr/meta.yaml>`_
 
    
@@ -28,15 +28,23 @@ physlr
    :versions:
       
       
+      .. raw:: html
 
-      ``1.0.4-7``,  ``1.0.4-6``,  ``1.0.4-5``,  ``1.0.4-4``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.4-8</code>,  <code>1.0.4-7</code>,  <code>1.0.4-6</code>,  <code>1.0.4-5</code>,  <code>1.0.4-4</code>,  <code>1.0.4-3</code>,  <code>1.0.4-2</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  </span></summary>
+      
 
+      ``1.0.4-8``,  ``1.0.4-7``,  ``1.0.4-6``,  ``1.0.4-5``,  ``1.0.4-4``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends on _openmp_mutex: ``>=4.5``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on make: 
    :depends on networkx: 
    :depends on ntcard: 
@@ -45,6 +53,7 @@ physlr
    :depends on pigz: 
    :depends on pypy: 
    :depends on python: ``>=3.6.0``
+   :depends on python-louvain: 
    :depends on scikit-learn: 
    :depends on scipy: 
    :depends on tqdm: 

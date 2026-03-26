@@ -30,10 +30,10 @@ quantms-utils
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.26-0</code>,  <code>0.0.25-0</code>,  <code>0.0.24-0</code>,  <code>0.0.23-0</code>,  <code>0.0.22-0</code>,  <code>0.0.21-0</code>,  <code>0.0.20-0</code>,  <code>0.0.19-0</code>,  <code>0.0.18-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.27-0</code>,  <code>0.0.26-0</code>,  <code>0.0.25-0</code>,  <code>0.0.24-0</code>,  <code>0.0.23-0</code>,  <code>0.0.22-0</code>,  <code>0.0.21-0</code>,  <code>0.0.20-0</code>,  <code>0.0.19-0</code>,  </span></summary>
       
 
-      ``0.0.26-0``,  ``0.0.25-0``,  ``0.0.24-0``,  ``0.0.23-0``,  ``0.0.22-0``,  ``0.0.21-0``,  ``0.0.20-0``,  ``0.0.19-0``,  ``0.0.18-0``,  ``0.0.17-0``,  ``0.0.16-0``,  ``0.0.15-0``,  ``0.0.14-0``,  ``0.0.13-0``,  ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``0.0.27-0``,  ``0.0.26-0``,  ``0.0.25-0``,  ``0.0.24-0``,  ``0.0.23-0``,  ``0.0.22-0``,  ``0.0.21-0``,  ``0.0.20-0``,  ``0.0.19-0``,  ``0.0.18-0``,  ``0.0.17-0``,  ``0.0.16-0``,  ``0.0.15-0``,  ``0.0.14-0``,  ``0.0.13-0``,  ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
       .. raw:: html
@@ -49,8 +49,7 @@ quantms-utils
    :depends on pyopenms: ``>=3.3.0``
    :depends on python: ``>=3.9,<3.13``
    :depends on scipy: 
-   :depends on sdrf-pipelines: ``>=0.0.33,<0.1.0``
-   :depends on setuptools: ``<78``
+   :depends on sdrf-pipelines: ``>=0.1.2``
 
    :additional platforms:
       
@@ -124,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "quantms-utils";
-        var versions = ["0.0.26","0.0.25","0.0.24","0.0.23","0.0.22"];
+        var versions = ["0.0.27","0.0.26","0.0.25","0.0.24","0.0.23"];
     </script>
 
 
