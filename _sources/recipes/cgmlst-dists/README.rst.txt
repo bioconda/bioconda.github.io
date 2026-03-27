@@ -13,7 +13,7 @@ cgmlst-dists
    Convert cgMLST table to distance matrix
 
    :homepage: https://github.com/tseemann/cgmlst-dists
-   :license: GPL3
+   :license: GPL-3.0-or-later
    :recipe: /`cgmlst-dists <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgmlst-dists>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgmlst-dists/meta.yaml>`_
 
    
@@ -27,14 +27,20 @@ cgmlst-dists
       
       
 
-      ``0.4.0-5``,  ``0.4.0-4``,  ``0.4.0-3``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.2.0-0``
+      ``0.6.0-0``,  ``0.4.0-5``,  ``0.4.0-4``,  ``0.4.0-3``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.2.0-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
+   :depends on _openmp_mutex: ``>=4.5``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -106,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "cgmlst-dists";
-        var versions = ["0.4.0","0.4.0","0.4.0","0.4.0","0.4.0"];
+        var versions = ["0.6.0","0.4.0","0.4.0","0.4.0","0.4.0"];
     </script>
 
 

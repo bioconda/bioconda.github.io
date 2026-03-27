@@ -28,9 +28,17 @@ piper
    :versions:
       
       
+      .. raw:: html
 
-      ``0.14.5-0``,  ``0.14.4-0``,  ``0.14.3-0``,  ``0.14.2-0``,  ``0.14.0-0``,  ``0.13.2-0``,  ``0.12.3-0``,  ``0.12.1-1``,  ``0.12.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.15.1-0</code>,  <code>0.14.5-0</code>,  <code>0.14.4-0</code>,  <code>0.14.3-0</code>,  <code>0.14.2-0</code>,  <code>0.14.0-0</code>,  <code>0.13.2-0</code>,  <code>0.12.3-0</code>,  <code>0.12.1-1</code>,  </span></summary>
+      
 
+      ``0.15.1-0``,  ``0.14.5-0``,  ``0.14.4-0``,  ``0.14.3-0``,  ``0.14.2-0``,  ``0.14.0-0``,  ``0.13.2-0``,  ``0.12.3-0``,  ``0.12.1-1``,  ``0.12.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -115,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "piper";
-        var versions = ["0.14.5","0.14.4","0.14.3","0.14.2","0.14.0"];
+        var versions = ["0.15.1","0.14.5","0.14.4","0.14.3","0.14.2"];
     </script>
 
 

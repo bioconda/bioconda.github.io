@@ -12,7 +12,7 @@ ntstat
 
    a toolkit for statistical analysis of k\-mer frequency and depth
 
-   :homepage: https://github.com/bcgsc/ntStat
+   :homepage: https://github.com/BirolLab/ntStat
    :license: GPL-3.0-or-later
    :recipe: /`ntstat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ntstat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ntstat/meta.yaml>`_
 
@@ -27,16 +27,16 @@ ntstat
       
       
 
-      ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends on _openmp_mutex: ``>=4.5``
    :depends on btllib: ``>=1.7.2``
-   :depends on btllib: ``>=1.7.3,<2.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on btllib: ``>=1.7.7,<2.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on matplotlib-base: 
    :depends on ntcard: 
    :depends on numpy: 
@@ -121,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "ntstat";
-        var versions = ["1.0.1","1.0.1","1.0.1","1.0.0"];
+        var versions = ["1.0.1","1.0.1","1.0.1","1.0.1","1.0.0"];
     </script>
 
 

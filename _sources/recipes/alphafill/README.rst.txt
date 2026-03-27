@@ -34,18 +34,20 @@ alphafill
       
       
 
-      ``2.2.0-0``
+      ``2.3.0-0``,  ``2.2.0-0``
 
       
 
    
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libboost: ``>=1.86.0,<1.87.0a0``
-   :depends on libcifpp: ``>=7.0.9,<8.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzeep: ``>=6.1.1,<7.0a0``
+   :depends on howardhinnant_date: ``>=3.0.4,<3.1.0a0``
+   :depends on libboost: ``>=1.88.0,<1.89.0a0``
+   :depends on libcifpp: ``>=9.0.4,<10.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzeep: ``>=7.3.1,<8.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on mxml: ``>=2.0.4,<2.0.5.0a0``
 
    :additional platforms:
       
@@ -123,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "alphafill";
-        var versions = ["2.2.0"];
+        var versions = ["2.3.0","2.2.0"];
     </script>
 
 

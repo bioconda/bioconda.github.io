@@ -10,13 +10,14 @@ refgenie
    :replaces_section_title:
    :noindex:
 
-   Refgenie creates a standardized folder structure for reference genome files and indexes. You can download pre\-built genomes or build your own for any fasta file
+   Refgenie creates a standardized folder structure for reference genome files and indexes.
 
    :homepage: http://refgenie.databio.org
    :license: BSD / BSD-2-Clause
    :recipe: /`refgenie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/refgenie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/refgenie/meta.yaml>`_
 
-   
+   Refgenie creates a standardized folder structure for reference genome files and indexes. You can download pre\-built genomes or build your own for any fasta file
+
 
 
 .. conda:package:: refgenie
@@ -28,10 +29,10 @@ refgenie
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.12.1-0</code>,  <code>0.12.0-0</code>,  <code>0.11.0-0</code>,  <code>0.10.0-0</code>,  <code>0.9.3-0</code>,  <code>0.9.2-1</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.13.0-0</code>,  <code>0.12.1-0</code>,  <code>0.12.0-0</code>,  <code>0.11.0-0</code>,  <code>0.10.0-0</code>,  <code>0.9.3-0</code>,  <code>0.9.2-1</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  </span></summary>
       
 
-      ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.3-0``,  ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.2-0``
+      ``0.13.0-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.3-0``,  ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.2-0``
 
       
       .. raw:: html
@@ -41,11 +42,13 @@ refgenie
 
    
    :depends on logmuse: ``>=0.2.6``
-   :depends on piper: ``>=0.12.1``
+   :depends on piper: ``>=0.15.0``
    :depends on pyfaidx: ``>=0.5.5.2``
-   :depends on python: ``>=3.6``
-   :depends on refgenconf: ``>=0.10.0``
-   :depends on yacman: ``>=0.8.0``
+   :depends on python: ``>=3.10``
+   :depends on refgenconf: ``>=0.13.0``
+   :depends on rich: ``>=9.0.1``
+   :depends on ubiquerg: ``>=0.9.0``
+   :depends on yacman: ``>=0.9.5``
 
    :additional platforms:
       
@@ -119,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "refgenie";
-        var versions = ["0.12.1","0.12.0","0.11.0","0.10.0","0.9.3"];
+        var versions = ["0.13.0","0.12.1","0.12.0","0.11.0","0.10.0"];
     </script>
 
 

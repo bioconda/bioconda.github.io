@@ -28,10 +28,10 @@ atol-genome-launcher
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.5-0</code>,  <code>0.7.4-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.5-0</code>,  <code>0.5.4-0</code>,  <code>0.5.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.0-0</code>,  <code>0.7.5-0</code>,  <code>0.7.4-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.5-0</code>,  <code>0.5.4-0</code>,  </span></summary>
       
 
-      ``0.7.5-0``,  ``0.7.4-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``
+      ``0.8.0-0``,  ``0.7.5-0``,  ``0.7.4-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``
 
       
       .. raw:: html
@@ -46,6 +46,7 @@ atol-genome-launcher
    :depends on pydantic: ``>=2.12.5``
    :depends on python: ``>=3.12,<3.15``
    :depends on rclone: 
+   :depends on snakedeploy: ``>=0.11.0``
    :depends on snakemake: ``>=9.11.6,<10``
    :depends on wget: 
 
@@ -121,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "atol-genome-launcher";
-        var versions = ["0.7.5","0.7.4","0.7.2","0.7.1","0.7.0"];
+        var versions = ["0.8.0","0.7.5","0.7.4","0.7.2","0.7.1"];
     </script>
 
 

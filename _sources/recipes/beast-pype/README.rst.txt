@@ -27,15 +27,17 @@ beast-pype
       
       
 
-      ``0.2.5-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.4-0``,  ``0.1.2-0``
+      ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.4-0``,  ``0.1.2-0``
 
       
 
    
-   :depends on arviz: ``>=0.23.0``
+   :depends on arviz: ``0.23.4``
    :depends on bash_kernel: ``>=0.10.0``
-   :depends on beast2: ``>=2.6.3``
+   :depends on beast2: ``>=2.6.0``
    :depends on beast2-xml: ``>=1.5.0``
+   :depends on bioconductor-ggtree: ``>=4.0.4``
+   :depends on bioconductor-treeio: ``>=1.34.0``
    :depends on biopython: ``>=1.86``
    :depends on click: ``>=8.3.1``
    :depends on dark-matter: ``>=5.1.2``
@@ -47,13 +49,25 @@ beast-pype
    :depends on matplotlib-base: ``>=3.10.8``
    :depends on nbconvert: ``>=7.16.6``
    :depends on nbformat: ``>=5.10.4``
+   :depends on nextclade: ``>=3.18.1``
    :depends on numpy: ``>=2.4.0``
    :depends on pandas: ``>=2.3.3``
    :depends on papermill: ``>=2.6.0``
    :depends on parallel: ``>=2051122``
+   :depends on psutil: ``>=7.2.2``
+   :depends on pytest: ``>=9.0.2``
+   :depends on pytest-xdist: ``>=3.8.0``
    :depends on python: ``>=3.10``
    :depends on python-dateutil: ``>=2.9.0``
    :depends on pyyaml: ``>=6.0.3``
+   :depends on r-dplyr: ``>=1.2.0``
+   :depends on r-ggplot2: ``>=4.0.2``
+   :depends on r-htmltools: ``>=0.5.9``
+   :depends on r-irkernel: ``>=1.3.2``
+   :depends on r-lubridate: ``>=1.9.5``
+   :depends on r-png: ``>=0.1_8``
+   :depends on r-readr: ``>=2.2.0``
+   :depends on r-tidyr: ``>=1.3.2``
    :depends on scipy: ``>=1.16.3``
    :depends on seaborn: ``>=0.13.2``
    :depends on seqkit: ``>=2.12.0``
@@ -132,7 +146,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "beast-pype";
-        var versions = ["0.2.5","0.2.3","0.2.2","0.2.1","0.2.0"];
+        var versions = ["0.3.0","0.2.5","0.2.3","0.2.2","0.2.1"];
     </script>
 
 
