@@ -10,10 +10,12 @@ longcallr
    :replaces_section_title:
    :noindex:
 
-   A Rust tool for SNP calling and haplotype phasing with long RNA\-seq reads.
+   A Rust tool for SNP calling\, haplotype phasing\, and allele\-specific analysis with long RNA\-seq reads.
 
    :homepage: https://github.com/huangnengCSU/longcallR
-   :license: MIT
+   :documentation: https://huangnengcsu.github.io/longcallR
+   
+   :license: MIT / MIT
    :recipe: /`longcallr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/longcallr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/longcallr/meta.yaml>`_
 
    
@@ -27,21 +29,17 @@ longcallr
       
       
 
-      ``1.12.0-1``,  ``1.12.0-0``,  ``1.11.0-0``
+      ``2.0.0-1``,  ``2.0.0-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.11.0-0``
 
       
 
    
-   :depends on intervaltree: 
-   :depends on networkx: 
-   :depends on numpy: ``>=1.23,<3``
-   :depends on pysam: ``>=0.23.3,<0.24.0a0``
-   :depends on python: ``>=3.13,<3.14.0a0``
-   :depends on python_abi: ``3.13.* *_cp313``
-   :depends on scipy: 
-   :depends on statsmodels: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -113,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "longcallr";
-        var versions = ["1.12.0","1.12.0","1.11.0"];
+        var versions = ["2.0.0","2.0.0","1.12.0","1.12.0","1.11.0"];
     </script>
 
 

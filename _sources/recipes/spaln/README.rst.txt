@@ -13,7 +13,7 @@ spaln
    Map and align a set of cDNA\/EST or protein sequences onto a genome.
 
    :homepage: https://github.com/ogotoh/spaln
-   :documentation: https://github.com/ogotoh/spaln/blob/ver.3.0.7/README.md
+   :documentation: https://github.com/ogotoh/spaln/blob/ver.3.0.8/README.md
    
    :license: GPL / GPL-2.0-or-later
    :recipe: /`spaln <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spaln>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spaln/meta.yaml>`_
@@ -36,10 +36,10 @@ spaln
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.7-1</code>,  <code>3.0.7-0</code>,  <code>3.0.6-0</code>,  <code>3.0.6c-0</code>,  <code>3.0.6b-1</code>,  <code>3.0.6b-0</code>,  <code>3.0.4-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.8-0</code>,  <code>3.0.7-1</code>,  <code>3.0.7-0</code>,  <code>3.0.6-0</code>,  <code>3.0.6c-0</code>,  <code>3.0.6b-1</code>,  <code>3.0.6b-0</code>,  <code>3.0.4-0</code>,  <code>3.0.1-0</code>,  </span></summary>
       
 
-      ``3.0.7-1``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.6c-0``,  ``3.0.6b-1``,  ``3.0.6b-0``,  ``3.0.4-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.4.13-2``,  ``2.4.13-1``,  ``2.4.13-0``,  ``2.4.13g-0``,  ``2.4.13f-0``,  ``2.4.9-0``,  ``2.4.8-0``,  ``2.4.7-2``,  ``2.4.7-1``,  ``2.4.7-0``,  ``2.4.6-1``,  ``2.4.6-0``,  ``2.4.5-0``,  ``2.4.4-0``,  ``2.4.03-1``,  ``2.4.03-0``,  ``2.4.02-0``,  ``2.4.01-0``,  ``2.3.3-0``,  ``2.3.3c-0``,  ``2.3.3b-0``,  ``2.3.3a-0``,  ``2.3.2-0``
+      ``3.0.8-0``,  ``3.0.7-1``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.6c-0``,  ``3.0.6b-1``,  ``3.0.6b-0``,  ``3.0.4-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.4.13-2``,  ``2.4.13-1``,  ``2.4.13-0``,  ``2.4.13g-0``,  ``2.4.13f-0``,  ``2.4.9-0``,  ``2.4.8-0``,  ``2.4.7-2``,  ``2.4.7-1``,  ``2.4.7-0``,  ``2.4.6-1``,  ``2.4.6-0``,  ``2.4.5-0``,  ``2.4.4-0``,  ``2.4.03-1``,  ``2.4.03-0``,  ``2.4.02-0``,  ``2.4.01-0``,  ``2.3.3-0``,  ``2.3.3c-0``,  ``2.3.3b-0``,  ``2.3.3a-0``,  ``2.3.2-0``
 
       
       .. raw:: html
@@ -48,9 +48,9 @@ spaln
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
 
    :additional platforms:
@@ -129,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "spaln";
-        var versions = ["3.0.7","3.0.7","3.0.6","3.0.6c","3.0.6b"];
+        var versions = ["3.0.8","3.0.7","3.0.7","3.0.6","3.0.6c"];
     </script>
 
 

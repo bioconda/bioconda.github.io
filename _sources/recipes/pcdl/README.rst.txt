@@ -13,7 +13,7 @@ pcdl
    physicell data loader \(pcdl\) provides a platform independent\, python3 based\, pip installable interface to transform output\, generated with the PhysiCell agent based modeling framework\, into standard formats.
 
    :homepage: https://github.com/elmbeech/physicelldataloader
-   :documentation: https://github.com/elmbeech/physicelldataloader/blob/v3.3.8/README.md
+   :documentation: https://github.com/elmbeech/physicelldataloader/blob/v4.1.3/README.md
    
    :license: BSD / BSD-3-Clause
    :recipe: /`pcdl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pcdl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pcdl/meta.yaml>`_
@@ -29,20 +29,28 @@ pcdl
       
       
 
-      ``3.3.8-0``,  ``3.3.7-0``,  ``3.3.6-0``
+      ``4.1.3-0``,  ``3.3.8-0``,  ``3.3.7-0``,  ``3.3.6-0``
 
       
 
    
    :depends on anndata: ``>=0.10.8``
+   :depends on bioio: 
+   :depends on bioio-base: 
+   :depends on bioio-ome-tiff: 
    :depends on ffmpeg: 
+   :depends on geopandas: ``>=0.14``
    :depends on imagemagick: 
    :depends on matplotlib-base: 
+   :depends on neuroglancer: 
    :depends on numpy: 
    :depends on pandas: ``>=2.2.2``
-   :depends on python: ``>=3.9,<4.0``
+   :depends on python: ``>=3.11,<4.0``
    :depends on requests: 
+   :depends on scikit-image: ``>=0.24.0``
    :depends on scipy: ``>=1.13.0``
+   :depends on shapely: ``>=2.0.1``
+   :depends on spatialdata: ``>=0.7.2``
    :depends on vtk: 
 
    :additional platforms:
@@ -117,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "pcdl";
-        var versions = ["3.3.8","3.3.7","3.3.6"];
+        var versions = ["4.1.3","3.3.8","3.3.7","3.3.6"];
     </script>
 
 

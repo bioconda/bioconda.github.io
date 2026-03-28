@@ -67,7 +67,7 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">hifi_trimmer</span></span></dt>
-<dd><p>hifi_trimmer is a tool for filtering and trimming extraneous adapter hits from a HiFi read set using a BLAST search.</p>
+<dd><p>hifi-trimmer is a tool for filtering and trimming extraneous adapter hits from a HiFi read set using a BLAST search.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/sanger-tol/hifi-trimmer">https://github.com/sanger-tol/hifi-trimmer</a></p>
@@ -87,11 +87,12 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/hifi_trimmer"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/hifi_trimmer.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/hifi_trimmer"><img alt="docker_hifi_trimmer" src="https://quay.io/repository/biocontainers/hifi_trimmer/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.2-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">3.0.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.2-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
 <li><p><strong>on click</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=8.1.8</span></code></p></li>
+<li><p><strong>on loguru</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=0.7.3</span></code></p></li>
 <li><p><strong>on polars</strong> <code class="docutils literal notranslate"><span class="pre">&lt;=1.22.0</span></code></p></li>
 <li><p><strong>on py-bgzip</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=0.5.1</span></code></p></li>
 <li><p><strong>on pysam</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=0.23.0</span></code></p></li>
@@ -155,7 +156,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
     var package = "hifi_trimmer";
-    var versions = ["2.2.0","2.1.0","2.0.0","1.2.3","1.2.2"];
+    var versions = ["3.0.0","2.2.0","2.1.0","2.0.0","1.2.3"];
 </script></section>
 </section>
 <section id="download-stats">

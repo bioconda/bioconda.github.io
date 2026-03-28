@@ -31,10 +31,10 @@ pyprophet
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.5-0</code>,  <code>3.0.4-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-0</code>,  <code>3.0.1-0</code>,  <code>2.2.5-4</code>,  <code>2.2.5-3</code>,  <code>2.2.5-1</code>,  <code>2.2.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.11-0</code>,  <code>3.0.5-0</code>,  <code>3.0.4-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-0</code>,  <code>3.0.1-0</code>,  <code>2.2.5-4</code>,  <code>2.2.5-3</code>,  <code>2.2.5-1</code>,  </span></summary>
       
 
-      ``3.0.5-0``,  ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.2.5-4``,  ``2.2.5-3``,  ``2.2.5-1``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.1.12-0``,  ``2.1.11-0``,  ``2.1.10-2``,  ``2.1.10-1``,  ``2.1.10-0``,  ``2.1.6-0``,  ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``0.24.1-1``,  ``0.24.1-0``,  ``0.22.0-0``
+      ``3.0.11-0``,  ``3.0.5-0``,  ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.2.5-4``,  ``2.2.5-3``,  ``2.2.5-1``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.1.12-0``,  ``2.1.11-0``,  ``2.1.10-2``,  ``2.1.10-1``,  ``2.1.10-0``,  ``2.1.6-0``,  ``2.1.5-1``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``0.24.1-1``,  ``0.24.1-0``,  ``0.22.0-0``
 
       
       .. raw:: html
@@ -45,15 +45,17 @@ pyprophet
    
    :depends on _openmp_mutex: ``>=4.5``
    :depends on click: 
-   :depends on libgcc: ``>=13``
+   :depends on libgcc: ``>=14``
    :depends on libgomp: 
    :depends on loguru: 
    :depends on lxml: 
+   :depends on matplotlib-base: 
    :depends on numexpr: ``2.10.2``
-   :depends on numpy: ``2.0.2``
-   :depends on numpy: ``>=1.19,<3``
+   :depends on numpy: ``>=1.21,<3``
+   :depends on numpy: ``>=1.26.4``
+   :depends on packaging: 
    :depends on pandas: ``>=2.0``
-   :depends on polars: 
+   :depends on polars: ``>=1.28.1``
    :depends on psutil: 
    :depends on pyarrow: 
    :depends on pyopenms: 
@@ -145,7 +147,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "pyprophet";
-        var versions = ["3.0.5","3.0.4","3.0.3","3.0.2","3.0.1"];
+        var versions = ["3.0.11","3.0.5","3.0.4","3.0.3","3.0.2"];
     </script>
 
 

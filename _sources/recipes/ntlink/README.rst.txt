@@ -12,8 +12,8 @@ ntlink
 
    Genome assembly scaffolder using long reads and minimizers
 
-   :homepage: https://github.com/bcgsc/ntLink
-   :license: GPL-3.0
+   :homepage: https://github.com/BirolLab/ntLink
+   :license: GPL-3.0-or-later
    :recipe: /`ntlink <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ntlink>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ntlink/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ ntlink
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.11-1</code>,  <code>1.3.11-0</code>,  <code>1.3.10-2</code>,  <code>1.3.10-0</code>,  <code>1.3.9-4</code>,  <code>1.3.9-3</code>,  <code>1.3.9-2</code>,  <code>1.3.9-1</code>,  <code>1.3.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.11-2</code>,  <code>1.3.11-1</code>,  <code>1.3.11-0</code>,  <code>1.3.10-2</code>,  <code>1.3.10-0</code>,  <code>1.3.9-4</code>,  <code>1.3.9-3</code>,  <code>1.3.9-2</code>,  <code>1.3.9-1</code>,  </span></summary>
       
 
-      ``1.3.11-1``,  ``1.3.11-0``,  ``1.3.10-2``,  ``1.3.10-0``,  ``1.3.9-4``,  ``1.3.9-3``,  ``1.3.9-2``,  ``1.3.9-1``,  ``1.3.9-0``,  ``1.3.8-1``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.3-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``
+      ``1.3.11-2``,  ``1.3.11-1``,  ``1.3.11-0``,  ``1.3.10-2``,  ``1.3.10-0``,  ``1.3.9-4``,  ``1.3.9-3``,  ``1.3.9-2``,  ``1.3.9-1``,  ``1.3.9-0``,  ``1.3.8-1``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.1.3-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -44,7 +44,7 @@ ntlink
    :depends on btllib: ``>=1.7.1``
    :depends on make: 
    :depends on numpy: 
-   :depends on python: 
+   :depends on python: ``>=3.13,<3.14.0a0``
    :depends on python-igraph: 
    :depends on zlib: 
 
@@ -120,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "ntlink";
-        var versions = ["1.3.11","1.3.11","1.3.10","1.3.10","1.3.9"];
+        var versions = ["1.3.11","1.3.11","1.3.11","1.3.10","1.3.10"];
     </script>
 
 

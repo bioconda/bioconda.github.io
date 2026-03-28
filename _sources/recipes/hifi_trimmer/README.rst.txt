@@ -10,7 +10,7 @@ hifi_trimmer
    :replaces_section_title:
    :noindex:
 
-   hifi\_trimmer is a tool for filtering and trimming extraneous adapter hits from a HiFi read set using a BLAST search.
+   hifi\-trimmer is a tool for filtering and trimming extraneous adapter hits from a HiFi read set using a BLAST search.
 
    :homepage: https://github.com/sanger-tol/hifi-trimmer
    :license: MIT
@@ -27,12 +27,13 @@ hifi_trimmer
       
       
 
-      ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.2.3-0``,  ``1.2.2-0``
+      ``3.0.0-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.2.3-0``,  ``1.2.2-0``
 
       
 
    
    :depends on click: ``>=8.1.8``
+   :depends on loguru: ``>=0.7.3``
    :depends on polars: ``<=1.22.0``
    :depends on py-bgzip: ``>=0.5.1``
    :depends on pysam: ``>=0.23.0``
@@ -111,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "hifi_trimmer";
-        var versions = ["2.2.0","2.1.0","2.0.0","1.2.3","1.2.2"];
+        var versions = ["3.0.0","2.2.0","2.1.0","2.0.0","1.2.3"];
     </script>
 
 
