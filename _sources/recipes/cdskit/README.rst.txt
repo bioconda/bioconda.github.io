@@ -34,10 +34,10 @@ cdskit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.20.0-0</code>,  <code>0.16.1-0</code>,  <code>0.16.0-0</code>,  <code>0.15.1-0</code>,  <code>0.14.5-0</code>,  <code>0.14.4-1</code>,  <code>0.14.4-0</code>,  <code>0.14.3-0</code>,  <code>0.14.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.21.0-0</code>,  <code>0.20.0-0</code>,  <code>0.16.1-0</code>,  <code>0.16.0-0</code>,  <code>0.15.1-0</code>,  <code>0.14.5-0</code>,  <code>0.14.4-1</code>,  <code>0.14.4-0</code>,  <code>0.14.3-0</code>,  </span></summary>
       
 
-      ``0.20.0-0``,  ``0.16.1-0``,  ``0.16.0-0``,  ``0.15.1-0``,  ``0.14.5-0``,  ``0.14.4-1``,  ``0.14.4-0``,  ``0.14.3-0``,  ``0.14.2-0``,  ``0.14.1-0``
+      ``0.21.0-0``,  ``0.20.0-0``,  ``0.16.1-0``,  ``0.16.0-0``,  ``0.15.1-0``,  ``0.14.5-0``,  ``0.14.4-1``,  ``0.14.4-0``,  ``0.14.3-0``,  ``0.14.2-0``,  ``0.14.1-0``
 
       
       .. raw:: html
@@ -122,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "cdskit";
-        var versions = ["0.20.0","0.16.1","0.16.0","0.15.1","0.14.5"];
+        var versions = ["0.21.0","0.20.0","0.16.1","0.16.0","0.15.1"];
     </script>
 
 

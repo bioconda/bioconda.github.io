@@ -13,7 +13,7 @@ pyplink
    Python module to read binary Plink files.
 
    :homepage: https://github.com/lemieuxl/pyplink
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`pyplink <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyplink>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyplink/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ pyplink
       
       
 
-      ``1.3.7-0``
+      ``1.3.9-0``,  ``1.3.7-0``
 
       
 
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "pyplink";
-        var versions = ["1.3.7"];
+        var versions = ["1.3.9","1.3.7"];
     </script>
 
 

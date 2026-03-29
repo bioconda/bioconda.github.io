@@ -30,16 +30,17 @@ tmb
       
       
 
-      ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.3.0-0``
+      ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.3.0-0``
 
       
 
    
    :depends on cyvcf2: ``>=0.30``
-   :depends on numpy: ``>=1.21``
+   :depends on mosdepth: ``>=0.3.3``
+   :depends on numpy: ``>=1.21,<2``
    :depends on pandas: ``>=1.3``
    :depends on pybedtools: ``>=0.9``
-   :depends on python: ``>=3``
+   :depends on python: ``>=3.9``
    :depends on pyyaml: ``>=6.0``
    :depends on scipy: ``>=1.9``
 
@@ -115,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "tmb";
-        var versions = ["1.6.0","1.5.0","1.5.0","1.3.0"];
+        var versions = ["1.6.0","1.6.0","1.5.0","1.5.0","1.3.0"];
     </script>
 
 

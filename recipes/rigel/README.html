@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Package Recipe &#39;nextstrain-cli&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;rigel&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
     <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css?v=39de963d" />
     <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
@@ -63,65 +63,64 @@
 
           <div class="body" role="main">
             
-  <section id="nextstrain-cli">
+  <section id="rigel">
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
-<span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">nextstrain-cli</span></span></dt>
-<dd><p>The Nextstrain command-line interface (CLI).</p>
+<span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">rigel</span></span></dt>
+<dd><p>Bayesian RNA-seq transcript quantification with joint mRNA, nRNA, and gDNA deconvolution</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.nextstrain.org/projects/cli">https://docs.nextstrain.org/projects/cli</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/mkiyer/rigel">https://github.com/mkiyer/rigel</a></p>
 </dd>
-<dt class="field-even">Developer docs<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="reference external" href="https://github.com/nextstrain/cli">https://github.com/nextstrain/cli</a></p>
+<dt class="field-even">Documentation<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://github.com/mkiyer/rigel/blob/main/docs/MANUAL.md">https://github.com/mkiyer/rigel/blob/main/docs/MANUAL.md</a></p>
 </dd>
 <dt class="field-odd">License<span class="colon">:</span></dt>
-<dd class="field-odd"><p>MIT / MIT</p>
+<dd class="field-odd"><p>GPL3 / GPL-3.0-or-later</p>
 </dd>
 <dt class="field-even">Recipe<span class="colon">:</span></dt>
-<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextstrain-cli">nextstrain-cli</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextstrain-cli/meta.yaml">meta.yaml</a></p>
-</dd>
-<dt class="field-odd">Links<span class="colon">:</span></dt>
-<dd class="field-odd"><p>doi: <a class="extlink-doi reference external" href="https://doi.org/10.1093/bioinformatics/bty407">10.1093/bioinformatics/bty407</a></p>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rigel">rigel</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rigel/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>The Nextstrain command-line interface (CLI)—a program called
-nextstrain—aims to provide a consistent way to run and visualize pathogen
-builds and access Nextstrain components like Augur and Auspice across
-computing environments such as Docker, Conda, and AWS Batch.</p>
+<p>Rigel is a Bayesian transcript quantification method for RNA-seq data
+that jointly models three nucleic acid species: mature mRNA, nascent
+pre-mRNA (nRNA), and genomic DNA contamination (gDNA). It uses a linked
+kinetic model coupling mRNA and nRNA through shared per-transcript
+parameters, and a hierarchical empirical Bayes framework for initialization.</p>
 </dd></dl>
 
 <dl class="conda package">
-<dt class="sig sig-object conda" id="package-nextstrain-cli">
-<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">nextstrain-cli</span></span><a class="headerlink" href="#package-nextstrain-cli" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/nextstrain-cli"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/nextstrain-cli.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/nextstrain-cli"><img alt="docker_nextstrain-cli" src="https://quay.io/repository/biocontainers/nextstrain-cli/status" /></a></p>
+<dt class="sig sig-object conda" id="package-rigel">
+<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">rigel</span></span><a class="headerlink" href="#package-rigel" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/rigel"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/rigel.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/rigel"><img alt="docker_rigel" src="https://quay.io/repository/biocontainers/rigel/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>10.5.0-0</code>,  <code>10.4.2-0</code>,  <code>10.4.1-0</code>,  <code>10.3.0-0</code>,  <code>10.2.1.post1-0</code>,  <code>10.2.0-0</code>,  <code>9.0.0-1</code>,  <code>9.0.0-0</code>,  <code>8.5.4-1</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">10.5.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">10.4.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">10.4.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">10.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">10.2.1.post1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">10.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">9.0.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">9.0.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">8.5.4-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">8.5.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">8.5.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">8.5.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">8.5.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">8.5.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">8.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">8.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">8.0.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">7.4.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">7.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">7.3.0.post1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">7.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">7.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">7.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">7.0.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">6.2.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">6.2.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">6.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">6.1.0.post1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">6.0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">6.0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">6.0.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">5.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">5.0.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.2.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.1.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.1.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">4.0.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.2.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.2.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.2.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.2.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.2.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.1.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.3-0</span></code></p>
-</details></dd>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.3.3-0</span></code></p>
+</dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><strong>on boto3</strong></p></li>
-<li><p><strong>on cryptography</strong></p></li>
-<li><p><strong>on docutils</strong></p></li>
-<li><p><strong>on fasteners</strong></p></li>
-<li><p><strong>on fsspec</strong> <code class="docutils literal notranslate"><span class="pre">!=2023.9.1</span></code></p></li>
-<li><p><strong>on jsonschema</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=4</span></code></p></li>
-<li><p><strong>on packaging</strong></p></li>
-<li><p><strong>on pyjwt</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=2.0.0</span></code></p></li>
-<li><p><strong>on pyparsing</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.0.0</span></code></p></li>
-<li><p><strong>on python</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.8</span></code></p></li>
-<li><p><strong>on pyyaml</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=5.3.1</span></code></p></li>
-<li><p><strong>on requests</strong></p></li>
-<li><p><strong>on s3fs</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=2021.04.0,!=2023.9.1</span></code></p></li>
-<li><p><strong>on typing_extensions</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.7.4</span></code></p></li>
-<li><p><strong>on urllib3</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=2.0.0</span></code></p></li>
-<li><p><strong>on wcmatch</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=6.0</span></code></p></li>
-<li><p><strong>on wrapt</strong></p></li>
+<li><p><strong>on bzip2</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.0.8,&lt;2.0a0</span></code></p></li>
+<li><p><strong>on htslib</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.23.1,&lt;1.24.0a0</span></code></p></li>
+<li><p><strong>on libcurl</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=8.19.0,&lt;9.0a0</span></code></p></li>
+<li><p><strong>on libdeflate</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.25,&lt;1.26.0a0</span></code></p></li>
+<li><p><strong>on libgcc</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p></li>
+<li><p><strong>on liblzma</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=5.8.2,&lt;6.0a0</span></code></p></li>
+<li><p><strong>on libstdcxx</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p></li>
+<li><p><strong>on libzlib</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.3.2,&lt;2.0a0</span></code></p></li>
+<li><p><strong>on numpy</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.23,&lt;3</span></code></p></li>
+<li><p><strong>on numpy</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.26</span></code></p></li>
+<li><p><strong>on openssl</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.5.5,&lt;4.0a0</span></code></p></li>
+<li><p><strong>on pandas</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=2.1</span></code></p></li>
+<li><p><strong>on pyarrow</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=14.0</span></code></p></li>
+<li><p><strong>on pysam</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=0.22</span></code></p></li>
+<li><p><strong>on python</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.12,&lt;3.13.0a0</span></code></p></li>
+<li><p><strong>on python_abi</strong> <code class="docutils literal notranslate"><span class="pre">3.12.* *_cp312</span></code></p></li>
+<li><p><strong>on pyyaml</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=6.0</span></code></p></li>
+<li><p><strong>on scipy</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.11</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
+<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
 </dl>
 </dd></dl>
 
@@ -135,11 +134,11 @@ Below, we show how to install with either pixi or conda (for micromamba and mamb
 <h3>Pixi<a class="headerlink" href="#pixi" title="Link to this heading">¶</a></h3>
 <p>With <a class="reference external" href="https://pixi.sh">pixi</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>),
 to install globally, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="n">nextstrain</span><span class="o">-</span><span class="n">cli</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="n">rigel</span>
 </pre></div>
 </div>
 <p>to add into an existing workspace instead, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">add</span> <span class="n">nextstrain</span><span class="o">-</span><span class="n">cli</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">add</span> <span class="n">rigel</span>
 </pre></div>
 </div>
 <p>In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace:</p>
@@ -151,11 +150,11 @@ to install globally, run:</p>
 <section id="conda">
 <h3>Conda<a class="headerlink" href="#conda" title="Link to this heading">¶</a></h3>
 <p>With <a class="reference external" href="https://conda.io">conda</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>), to install into an existing and activated environment, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">nextstrain</span><span class="o">-</span><span class="n">cli</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">rigel</span>
 </pre></div>
 </div>
 <p>Alternatively, to install into a new environment, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">envname</span> <span class="n">nextstrain</span><span class="o">-</span><span class="n">cli</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">envname</span> <span class="n">rigel</span>
 </pre></div>
 </div>
 <p>with <code class="docutils literal notranslate"><span class="pre">envname</span></code> being the name of the desired environment.</p>
@@ -164,10 +163,10 @@ to install globally, run:</p>
 <h3>Container<a class="headerlink" href="#container" title="Link to this heading">¶</a></h3>
 <p>Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">nextstrain</span><span class="o">-</span><span class="n">cli</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">rigel</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/nextstrain-cli?tab=tags">nextstrain-cli/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>).</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/rigel?tab=tags">rigel/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>).</p>
 </section>
 <section id="integrated-deployment">
 <h3>Integrated deployment<a class="headerlink" href="#integrated-deployment" title="Link to this heading">¶</a></h3>
@@ -175,8 +174,8 @@ For e.g. docker, run:</p>
 Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
-    var package = "nextstrain-cli";
-    var versions = ["10.5.0","10.4.2","10.4.1","10.3.0","10.2.1.post1"];
+    var package = "rigel";
+    var versions = ["0.3.3"];
 </script></section>
 </section>
 <section id="download-stats">
@@ -254,8 +253,8 @@ Check the documentation of your workflow management system to find out about the
 </section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Link to this heading">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/nextstrain-cli/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/nextstrain-cli/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/rigel/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/rigel/README.html)
 </pre></div>
 </div>
 </section>
@@ -336,14 +335,14 @@ Check the documentation of your workflow management system to find out about the
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
       
       |
-      <a href="../../_sources/recipes/nextstrain-cli/README.rst.txt"
+      <a href="../../_sources/recipes/rigel/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/nextstrain-cli/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/rigel/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>

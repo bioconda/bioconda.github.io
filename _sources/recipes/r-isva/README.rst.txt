@@ -13,7 +13,7 @@ r-isva
    Independent Surrogate Variable Analysis is an algorithm for feature selection in the presence of potential confounding factors \(see Teschendorff AE et al 2011\, \<doi\: 10.1093\/bioinformatics\/btr171\>\).
 
    :homepage: https://CRAN.R-project.org/package=isva
-   :license: GPL2 / GPL-2
+   :license: GPL2 / GPL-2.0-or-later
    :recipe: /`r-isva <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-isva>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-isva/meta.yaml>`_
 
    
@@ -26,9 +26,17 @@ r-isva
    :versions:
       
       
+      .. raw:: html
 
-      ``1.9-8``,  ``1.9-7``,  ``1.9-6``,  ``1.9-5``,  ``1.9-4``,  ``1.9-3``,  ``1.9-2``,  ``1.9-1``,  ``1.9-0``
+         <details><summary><span class="truncated-version-list"><code>1.10-0</code>,  <code>1.9-8</code>,  <code>1.9-7</code>,  <code>1.9-6</code>,  <code>1.9-5</code>,  <code>1.9-4</code>,  <code>1.9-3</code>,  <code>1.9-2</code>,  <code>1.9-1</code>,  </span></summary>
+      
 
+      ``1.10-0``,  ``1.9-8``,  ``1.9-7``,  ``1.9-6``,  ``1.9-5``,  ``1.9-4``,  ``1.9-3``,  ``1.9-2``,  ``1.9-1``,  ``1.9-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -109,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "r-isva";
-        var versions = ["1.9","1.9","1.9","1.9","1.9"];
+        var versions = ["1.10","1.9","1.9","1.9","1.9"];
     </script>
 
 
