@@ -27,7 +27,7 @@ rabies
       
       
 
-      ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.2-0``,  ``0.5.1-0``
+      ``0.6.0-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.2-0``,  ``0.5.1-0``
 
       
 
@@ -42,7 +42,7 @@ rabies
    :depends on pandas: ``1.2.4``
    :depends on pathos: ``0.2.7``
    :depends on pybids: ``0.16.3``
-   :depends on python: ``>=3.9``
+   :depends on python: ``>=3.9,<3.13``
    :depends on qbatch: ``2.3``
    :depends on scikit-learn: ``0.24.1``
    :depends on scipy: ``1.8.1``
@@ -122,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "rabies";
-        var versions = ["0.5.5","0.5.4","0.5.2","0.5.1"];
+        var versions = ["0.6.0","0.5.5","0.5.4","0.5.2","0.5.1"];
     </script>
 
 

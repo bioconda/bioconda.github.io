@@ -28,10 +28,10 @@ ggcaller
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.3-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.3.7-0</code>,  <code>1.3.6-0</code>,  <code>1.3.5-0</code>,  <code>1.3.4-0</code>,  <code>1.3.3-1</code>,  <code>1.3.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.0-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.3.7-0</code>,  <code>1.3.6-0</code>,  <code>1.3.5-0</code>,  <code>1.3.4-0</code>,  <code>1.3.3-1</code>,  </span></summary>
       
 
-      ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.0-0``
+      ``1.5.0-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-1``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.4-2``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -47,16 +47,11 @@ ggcaller
    :depends on biopython: ``1.80.*``
    :depends on boost-cpp: 
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on cd-hit: 
-   :depends on diamond: ``>=2.0``
    :depends on gffutils: 
-   :depends on hmmer: 
-   :depends on intbitset: 
    :depends on joblib: 
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on mafft: 
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on matplotlib-base: 
    :depends on mkl: ``>=2022.2.1,<2023.0a0``
    :depends on networkx: 
@@ -70,12 +65,8 @@ ggcaller
    :depends on pytorch: ``1.10.*``
    :depends on pytorch: ``>=1.10.2,<1.11.0a0``
    :depends on pytorch-cpu: ``1.10.*``
-   :depends on rapidnj: 
    :depends on scipy: 
-   :depends on seaborn: 
-   :depends on snp-sites: 
    :depends on tbb: ``>=2021.13.0``
-   :depends on tqdm: 
    :depends on uncertainties: 
    :depends on xorg-libxaw: 
    :depends on xorg-libxcomposite: 
@@ -160,7 +151,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "ggcaller";
-        var versions = ["1.4.3","1.4.2","1.4.1","1.3.7","1.3.6"];
+        var versions = ["1.5.0","1.4.3","1.4.2","1.4.1","1.3.7"];
     </script>
 
 

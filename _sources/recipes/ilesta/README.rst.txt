@@ -10,10 +10,10 @@ ilesta
    :replaces_section_title:
    :noindex:
 
-   De novo genome assembler for long\-read sequencing data
+   De novo genome assembler for long\-read sequencing data.
 
    :homepage: https://github.com/yvlaere/Ilesta
-   :license: GLP-3.0-only
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`ilesta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ilesta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ilesta/meta.yaml>`_
 
    
@@ -27,13 +27,17 @@ ilesta
       
       
 
-      ``1.1.0-0``,  ``1.0.0-0``
+      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -105,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "ilesta";
-        var versions = ["1.1.0","1.0.0"];
+        var versions = ["1.2.0","1.1.0","1.0.0"];
     </script>
 
 

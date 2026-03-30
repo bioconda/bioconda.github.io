@@ -10,11 +10,10 @@ novae
    :replaces_section_title:
    :noindex:
 
-   Graph\-based foundation model for spatial transcriptomics data.
+   Graph\-based foundation model for spatial transcriptomics data
 
-   :homepage: https://mics-lab.github.io/novae
-   :developer docs: https://github.com/MICS-Lab/novae
-   :license: BSD / BSD-3-Clause
+   :homepage: https://mics-lab.github.io/novae/
+   :license: BSD-3-Clause
    :recipe: /`novae <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/novae>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/novae/meta.yaml>`_
 
    
@@ -28,17 +27,17 @@ novae
       
       
 
-      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.2.4-0``,  ``0.2.2-0``
+      ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.2.4-0``,  ``0.2.2-0``
 
       
 
    
    :depends on fast-array-utils: ``>=1.3.1``
    :depends on huggingface_hub: ``>=0.32.0``
+   :depends on igraph: ``>=0.11.8``
    :depends on lightning: ``>=2.2.1``
    :depends on pandas: ``>=2.0.0``
-   :depends on python: ``>=3.10,<3.13``
-   :depends on python-igraph: ``>=0.11.8``
+   :depends on python: ``>=3.11``
    :depends on pytorch: ``>=2.2.1``
    :depends on pytorch_geometric: ``>=2.5.2``
    :depends on safetensors: ``>=0.4.3``
@@ -116,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "novae";
-        var versions = ["1.0.3","1.0.2","1.0.1","1.0.0","0.2.4"];
+        var versions = ["1.0.3","1.0.3","1.0.2","1.0.1","1.0.0"];
     </script>
 
 

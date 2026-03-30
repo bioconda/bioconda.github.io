@@ -10,12 +10,10 @@ sopa
    :replaces_section_title:
    :noindex:
 
-   Spatial\-omics pipeline and analysis.
+   Spatial\-omics pipeline and analysis
 
-   :homepage: https://github.com/gustaveroussy/sopa
-   :documentation: https://gustaveroussy.github.io/sopa
-   
-   :license: BSD / BSD-3-Clause
+   :homepage: https://gustaveroussy.github.io/sopa
+   :license: BSD-3-Clause
    :recipe: /`sopa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sopa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sopa/meta.yaml>`_
 
    
@@ -30,10 +28,10 @@ sopa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.1.11-0</code>,  <code>2.1.10-0</code>,  <code>2.1.9-0</code>,  <code>2.1.8-0</code>,  <code>2.1.6-0</code>,  <code>2.1.5-0</code>,  <code>2.1.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.2-1</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.1.11-0</code>,  <code>2.1.10-0</code>,  <code>2.1.9-0</code>,  <code>2.1.8-0</code>,  <code>2.1.6-0</code>,  <code>2.1.5-0</code>,  </span></summary>
       
 
-      ``2.2.2-0``,  ``2.2.1-0``,  ``2.1.11-0``,  ``2.1.10-0``,  ``2.1.9-0``,  ``2.1.8-0``,  ``2.1.6-0``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``1.1.5-0``
+      ``2.2.2-1``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.1.11-0``,  ``2.1.10-0``,  ``2.1.9-0``,  ``2.1.8-0``,  ``2.1.6-0``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``1.1.5-0``
 
       
       .. raw:: html
@@ -43,13 +41,12 @@ sopa
 
    
    :depends on anndata: ``>=0.11.0``
-   :depends on click: ``<8.2.0``
    :depends on dask-core: ``>=2024.4.1``
-   :depends on opencv: ``>=4.8.0``
-   :depends on python: ``>=3.10,<3.13``
+   :depends on igraph: ``>=0.11.0``
+   :depends on python: ``>=3.11``
    :depends on scanpy: ``>=1.10.4``
-   :depends on spatialdata: ``>=0.4.0``
-   :depends on spatialdata-io: ``>=0.2.0``
+   :depends on spatialdata: ``>=0.7.2``
+   :depends on spatialdata-io: ``>=0.3.0``
    :depends on spatialdata-plot: ``>=0.2.10``
    :depends on typer: ``>=0.9.0``
 
@@ -125,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "sopa";
-        var versions = ["2.2.2","2.2.1","2.1.11","2.1.10","2.1.9"];
+        var versions = ["2.2.2","2.2.2","2.2.1","2.1.11","2.1.10"];
     </script>
 
 
