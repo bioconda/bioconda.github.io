@@ -31,14 +31,14 @@ pgenlib
       
       
 
-      ``0.93.0-0``,  ``0.92.1-0``,  ``0.91.0-1``,  ``0.91.0-0``,  ``0.90.2-1``,  ``0.90.2-0``,  ``0.90.1-0``
+      ``0.94.0-0``,  ``0.93.0-0``,  ``0.92.1-0``,  ``0.91.0-1``,  ``0.91.0-0``,  ``0.90.2-1``,  ``0.90.2-0``,  ``0.90.1-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on numpy: ``>=1.19.3``
    :depends on numpy: ``>=1.21,<3``
    :depends on python: ``>=3.10,<3.11.0a0``
@@ -121,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "pgenlib";
-        var versions = ["0.93.0","0.92.1","0.91.0","0.91.0","0.90.2"];
+        var versions = ["0.94.0","0.93.0","0.92.1","0.91.0","0.91.0"];
     </script>
 
 

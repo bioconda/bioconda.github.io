@@ -13,7 +13,7 @@ ref-solver
    Solve reference genome identification from BAM\/SAM headers.
 
    :homepage: https://github.com/fulcrumgenomics/ref-solver
-   :documentation: https://github.com/fulcrumgenomics/ref-solver/blob/v0.2.0/README.md
+   :documentation: https://github.com/fulcrumgenomics/ref-solver/blob/v0.3.0/README.md
    
    :license: MIT / MIT
    :recipe: /`ref-solver <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ref-solver>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ref-solver/meta.yaml>`_
@@ -29,7 +29,7 @@ ref-solver
       
       
 
-      ``0.2.0-0``,  ``0.1.0-0``
+      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "ref-solver";
-        var versions = ["0.2.0","0.1.0"];
+        var versions = ["0.3.0","0.2.0","0.1.0"];
     </script>
 
 

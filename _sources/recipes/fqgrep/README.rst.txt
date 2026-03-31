@@ -27,14 +27,22 @@ fqgrep
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.2-2</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  </span></summary>
+      
 
+      ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
       
@@ -112,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "fqgrep";
-        var versions = ["1.1.1","1.1.0","1.0.3","1.0.3","1.0.2"];
+        var versions = ["1.1.2","1.1.1","1.1.0","1.0.3","1.0.3"];
     </script>
 
 

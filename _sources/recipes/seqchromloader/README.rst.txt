@@ -31,10 +31,10 @@ seqchromloader
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.1-0</code>,  <code>0.8.6-0</code>,  <code>0.8.3-0</code>,  <code>0.7.8-0</code>,  <code>0.7.7-0</code>,  <code>0.7.6-0</code>,  <code>0.7.5-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.11.1-0</code>,  <code>0.9.1-0</code>,  <code>0.8.6-0</code>,  <code>0.8.3-0</code>,  <code>0.7.8-0</code>,  <code>0.7.7-0</code>,  <code>0.7.6-0</code>,  <code>0.7.5-0</code>,  <code>0.7.4-0</code>,  </span></summary>
       
 
-      ``0.9.1-0``,  ``0.8.6-0``,  ``0.8.3-0``,  ``0.7.8-0``,  ``0.7.7-0``,  ``0.7.6-0``,  ``0.7.5-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.8-0``,  ``0.6.5-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.5.3-0``,  ``0.4.0-0``,  ``0.2.4-0``,  ``0.2.1-0``
+      ``0.11.1-0``,  ``0.9.1-0``,  ``0.8.6-0``,  ``0.8.3-0``,  ``0.7.8-0``,  ``0.7.7-0``,  ``0.7.6-0``,  ``0.7.5-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.8-0``,  ``0.6.5-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.5.3-0``,  ``0.4.0-0``,  ``0.2.4-0``,  ``0.2.1-0``
 
       
       .. raw:: html
@@ -46,6 +46,7 @@ seqchromloader
    :depends on numpy: ``>=1.17``
    :depends on pandas: 
    :depends on pybedtools: ``>=0.9.0``
+   :depends on pybigtools: 
    :depends on pybigwig: ``>=0.3.0``
    :depends on pyfaidx: ``>=0.7.0``
    :depends on pysam: ``>=0.19.0``
@@ -127,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "seqchromloader";
-        var versions = ["0.9.1","0.8.6","0.8.3","0.7.8","0.7.7"];
+        var versions = ["0.11.1","0.9.1","0.8.6","0.8.3","0.7.8"];
     </script>
 
 

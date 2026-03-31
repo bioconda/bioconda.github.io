@@ -27,7 +27,7 @@ atlas-fastq-provider
       
       
 
-      ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``
+      ``0.4.9-0``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``
 
       
 
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "atlas-fastq-provider";
-        var versions = ["0.4.8","0.4.7","0.4.6","0.4.5","0.4.4"];
+        var versions = ["0.4.9","0.4.8","0.4.7","0.4.6","0.4.5"];
     </script>
 
 

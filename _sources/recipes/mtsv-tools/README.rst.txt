@@ -10,8 +10,7 @@ mtsv-tools
    :replaces_section_title:
    :noindex:
 
-   mtsv\_tools contains core tools for alignment\-based metagenomic\/metatranscriptomic assignment
-
+   mtsv\_tools contains core tools for alignment\-based metagenomic\/metatranscriptomic assignment.
 
    :homepage: https://github.com/FofanovLab/mtsv_tools
    :license: MIT / MIT
@@ -29,10 +28,10 @@ mtsv-tools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.0-0</code>,  <code>2.0.2-4</code>,  <code>2.0.2-3</code>,  <code>2.0.2-2</code>,  <code>2.0.2-1</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.2-4</code>,  <code>2.0.2-3</code>,  <code>2.0.2-2</code>,  <code>2.0.2-1</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-1</code>,  </span></summary>
       
 
-      ``2.1.0-0``,  ``2.0.2-4``,  ``2.0.2-3``,  ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-4``,  ``2.0.2-3``,  ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -44,6 +43,10 @@ mtsv-tools
    :depends on libgcc: ``>=14``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>osx-arm64</code></span>
       
 
 Installation
@@ -115,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "mtsv-tools";
-        var versions = ["2.1.0","2.0.2","2.0.2","2.0.2","2.0.2"];
+        var versions = ["2.1.1","2.1.0","2.0.2","2.0.2","2.0.2"];
     </script>
 
 

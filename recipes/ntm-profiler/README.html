@@ -87,14 +87,19 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/ntm-profiler"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/ntm-profiler.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/ntm-profiler"><img alt="docker_ntm-profiler" src="https://quay.io/repository/biocontainers/ntm-profiler/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  <code>0.2.2-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">0.8.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.1-0</span></code></p>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>0.8.1-1</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.0-0</code>,  <code>0.3.0-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">0.8.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.8.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.1-0</span></code></p>
 </details></dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
 <li><p><strong>on jinja2</strong></p></li>
-<li><p><strong>on pathogen-profiler</strong> <code class="docutils literal notranslate"><span class="pre">5.1.0.*</span></code></p></li>
+<li><p><strong>on packaging</strong></p></li>
+<li><p><strong>on pathogen-profiler</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=5.1.0</span></code></p></li>
+<li><p><strong>on pydantic</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=2.6</span></code></p></li>
 <li><p><strong>on python</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.7</span></code></p></li>
+<li><p><strong>on rich-argparse</strong></p></li>
 <li><p><strong>on sourmash</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=4.8.3</span></code></p></li>
+<li><p><strong>on sylph</strong></p></li>
+<li><p><strong>on tqdm</strong></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
@@ -153,7 +158,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
     var package = "ntm-profiler";
-    var versions = ["0.8.1","0.8.0","0.7.0","0.6.1","0.6.0"];
+    var versions = ["0.8.1","0.8.1","0.8.0","0.7.0","0.6.1"];
 </script></section>
 </section>
 <section id="download-stats">
