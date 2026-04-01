@@ -30,7 +30,7 @@ agtools
       
       
 
-      ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -41,7 +41,7 @@ agtools
    :depends on loguru: 
    :depends on pandas: 
    :depends on pycairo: 
-   :depends on python: ``>=3.13,<3.14.0a0``
+   :depends on python: ``>=3.10``
    :depends on python-igraph: 
 
    :additional platforms:
@@ -116,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "agtools";
-        var versions = ["1.0.2","1.0.1","1.0.1","1.0.0","0.1.2"];
+        var versions = ["1.1.0","1.0.2","1.0.1","1.0.1","1.0.0"];
     </script>
 
 

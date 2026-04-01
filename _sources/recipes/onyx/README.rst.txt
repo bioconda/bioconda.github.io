@@ -1,43 +1,45 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'ilesta'
+.. title:: Package Recipe 'onyx'
 .. highlight: bash
 
-ilesta
-======
+onyx
+====
 
-.. conda:recipe:: ilesta
+.. conda:recipe:: onyx
    :replaces_section_title:
    :noindex:
 
-   De novo genome assembler for long\-read sequencing data.
+   Alignment\-free biological sex inference from high\-throughput sequencing data
 
-   :homepage: https://github.com/yvlaere/Ilesta
-   :license: GPL3 / GPL-3.0-only
-   :recipe: /`ilesta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ilesta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ilesta/meta.yaml>`_
+   :homepage: https://github.com/omics-tools/onyx
+   :license: MIT
+   :recipe: /`onyx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/onyx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/onyx/meta.yaml>`_
 
    
 
 
-.. conda:package:: ilesta
+.. conda:package:: onyx
 
-   |downloads_ilesta| |docker_ilesta|
+   |downloads_onyx| |docker_onyx|
 
    :versions:
       
       
 
-      ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``0.0.1-0``
 
       
 
    
+   :depends on kmc: 
+   :depends on python: ``>=3.8``
+   :depends on requests: 
+   :depends on samtools: 
+   :depends on seqkit: 
+   :depends on tqdm: 
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -54,11 +56,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install ilesta
+    pixi global install onyx
 
 to add into an existing workspace instead, run::
 
-    pixi add ilesta
+    pixi add onyx
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -70,11 +72,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install ilesta
+    conda install onyx
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname ilesta
+    conda create -n envname onyx
 
 with ``envname`` being the name of the desired environment.
 
@@ -84,9 +86,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/ilesta:<tag>
+    docker pull quay.io/biocontainers/onyx:<tag>
 
-(see `ilesta/tags`_ for valid values for ``<tag>``).
+(see `onyx/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -97,19 +99,19 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_ilesta| image:: https://img.shields.io/conda/dn/bioconda/ilesta.svg?style=flat
-   :target: https://anaconda.org/bioconda/ilesta
+.. |downloads_onyx| image:: https://img.shields.io/conda/dn/bioconda/onyx.svg?style=flat
+   :target: https://anaconda.org/bioconda/onyx
    :alt:   (downloads)
-.. |docker_ilesta| image:: https://quay.io/repository/biocontainers/ilesta/status
-   :target: https://quay.io/repository/biocontainers/ilesta
-.. _`ilesta/tags`: https://quay.io/repository/biocontainers/ilesta?tab=tags
+.. |docker_onyx| image:: https://quay.io/repository/biocontainers/onyx/status
+   :target: https://quay.io/repository/biocontainers/onyx
+.. _`onyx/tags`: https://quay.io/repository/biocontainers/onyx?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "ilesta";
-        var versions = ["1.2.1","1.2.0","1.1.0","1.0.0"];
+        var package = "onyx";
+        var versions = ["0.0.1"];
     </script>
 
 
@@ -128,7 +130,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ilesta/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/onyx/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/ilesta/README.html
+   :target: http://bioconda.github.io/recipes/onyx/README.html

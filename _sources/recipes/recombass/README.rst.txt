@@ -1,43 +1,50 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'ilesta'
+.. title:: Package Recipe 'recombass'
 .. highlight: bash
 
-ilesta
-======
+recombass
+=========
 
-.. conda:recipe:: ilesta
+.. conda:recipe:: recombass
    :replaces_section_title:
    :noindex:
 
-   De novo genome assembler for long\-read sequencing data.
+   Detect recombination hot\/cold spots from SNP matrices using wavelet denoising
 
-   :homepage: https://github.com/yvlaere/Ilesta
-   :license: GPL3 / GPL-3.0-only
-   :recipe: /`ilesta <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ilesta>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ilesta/meta.yaml>`_
+   :homepage: https://github.com/xyfans111/recombass
+   :license: MIT
+   :recipe: /`recombass <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/recombass>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/recombass/meta.yaml>`_
 
    
 
 
-.. conda:package:: ilesta
+.. conda:package:: recombass
 
-   |downloads_ilesta| |docker_ilesta|
+   |downloads_recombass| |docker_recombass|
 
    :versions:
       
       
 
-      ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``0.1.7-0``
 
       
 
    
+   :depends on click: 
+   :depends on matplotlib-base: 
+   :depends on numpy: 
+   :depends on pandas: 
+   :depends on polars: 
+   :depends on pyarrow: 
+   :depends on python: ``>=3.9``
+   :depends on pywavelets: ``<1.9.0``
+   :depends on scikit-learn: 
+   :depends on seaborn: 
+   :depends on snp-dists: ``>=0.8.2``
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -54,11 +61,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install ilesta
+    pixi global install recombass
 
 to add into an existing workspace instead, run::
 
-    pixi add ilesta
+    pixi add recombass
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -70,11 +77,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install ilesta
+    conda install recombass
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname ilesta
+    conda create -n envname recombass
 
 with ``envname`` being the name of the desired environment.
 
@@ -84,9 +91,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/ilesta:<tag>
+    docker pull quay.io/biocontainers/recombass:<tag>
 
-(see `ilesta/tags`_ for valid values for ``<tag>``).
+(see `recombass/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -97,19 +104,19 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_ilesta| image:: https://img.shields.io/conda/dn/bioconda/ilesta.svg?style=flat
-   :target: https://anaconda.org/bioconda/ilesta
+.. |downloads_recombass| image:: https://img.shields.io/conda/dn/bioconda/recombass.svg?style=flat
+   :target: https://anaconda.org/bioconda/recombass
    :alt:   (downloads)
-.. |docker_ilesta| image:: https://quay.io/repository/biocontainers/ilesta/status
-   :target: https://quay.io/repository/biocontainers/ilesta
-.. _`ilesta/tags`: https://quay.io/repository/biocontainers/ilesta?tab=tags
+.. |docker_recombass| image:: https://quay.io/repository/biocontainers/recombass/status
+   :target: https://quay.io/repository/biocontainers/recombass
+.. _`recombass/tags`: https://quay.io/repository/biocontainers/recombass?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "ilesta";
-        var versions = ["1.2.1","1.2.0","1.1.0","1.0.0"];
+        var package = "recombass";
+        var versions = ["0.1.7"];
     </script>
 
 
@@ -128,7 +135,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/ilesta/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/recombass/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/ilesta/README.html
+   :target: http://bioconda.github.io/recipes/recombass/README.html

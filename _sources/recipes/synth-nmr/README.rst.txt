@@ -27,7 +27,7 @@ synth-nmr
       
       
 
-      ``0.8.0-0``,  ``0.7.2-0``,  ``0.6.1-0``,  ``0.2.0-0``
+      ``0.10.0-0``,  ``0.8.0-0``,  ``0.7.2-0``,  ``0.6.1-0``,  ``0.2.0-0``
 
       
 
@@ -108,7 +108,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "synth-nmr";
-        var versions = ["0.8.0","0.7.2","0.6.1","0.2.0"];
+        var versions = ["0.10.0","0.8.0","0.7.2","0.6.1","0.2.0"];
     </script>
 
 
