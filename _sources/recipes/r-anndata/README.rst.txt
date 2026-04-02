@@ -13,6 +13,8 @@ r-anndata
    A \'reticulate\' wrapper for the Python package \'anndata\'. Provides a scalable way of keeping track of data and learned annotations.  Used to read from and write to the h5ad file format.
 
    :homepage: https://github.com/dynverse/anndata
+   :documentation: https://anndata.dynverse.org
+   
    :license: MIT / MIT
    :recipe: /`r-anndata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-anndata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-anndata/meta.yaml>`_
    :links: doi: :doi:`10.1186/s13059-017-1382-0`
@@ -28,7 +30,7 @@ r-anndata
       
       
 
-      ``0.7.5.6-2``,  ``0.7.5.6-1``,  ``0.7.5.6-0``,  ``0.7.5.4-2``,  ``0.7.5.4-1``,  ``0.7.5.4-0``,  ``0.7.5.2-0``
+      ``0.9.0-0``,  ``0.7.5.6-2``,  ``0.7.5.6-1``,  ``0.7.5.6-0``,  ``0.7.5.4-2``,  ``0.7.5.4-1``,  ``0.7.5.4-0``,  ``0.7.5.2-0``
 
       
 
@@ -37,7 +39,7 @@ r-anndata
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-matrix: 
    :depends on r-r6: 
-   :depends on r-reticulate: ``>=1.17``
+   :depends on r-reticulate: ``>=1.41``
 
    :additional platforms:
       
@@ -111,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "r-anndata";
-        var versions = ["0.7.5.6","0.7.5.6","0.7.5.6","0.7.5.4","0.7.5.4"];
+        var versions = ["0.9.0","0.7.5.6","0.7.5.6","0.7.5.6","0.7.5.4"];
     </script>
 
 

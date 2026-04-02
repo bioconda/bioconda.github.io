@@ -27,15 +27,17 @@ genomextract
       
       
 
-      ``0.1.7-0``,  ``0.1.5-0``,  ``0.1.2-0``
+      ``0.2.2-0``,  ``0.1.7-0``,  ``0.1.5-0``,  ``0.1.2-0``
 
       
 
    
    :depends on astral-tree: ``5.7.8``
    :depends on biopython: 
+   :depends on blast: ``2.17.0``
    :depends on iqtree: ``3.0.1``
    :depends on mafft: ``7.525``
+   :depends on mash: ``2.3``
    :depends on ncbi-datasets-cli: ``18.9.0``
    :depends on openpyxl: 
    :depends on pandas: 
@@ -115,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "genomextract";
-        var versions = ["0.1.7","0.1.5","0.1.2"];
+        var versions = ["0.2.2","0.1.7","0.1.5","0.1.2"];
     </script>
 
 

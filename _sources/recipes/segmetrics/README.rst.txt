@@ -30,10 +30,10 @@ segmetrics
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5-0</code>,  <code>1.4.1-0</code>,  <code>1.4-0</code>,  <code>1.3-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.0-0</code>,  <code>1.5-0</code>,  <code>1.4.1-0</code>,  <code>1.4-0</code>,  <code>1.3-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  </span></summary>
       
 
-      ``1.5-0``,  ``1.4.1-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``,  ``0.11.3-0``
+      ``1.6.0-0``,  ``1.5-0``,  ``1.4.1-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.0-0``,  ``0.11.3-0``
 
       
       .. raw:: html
@@ -42,10 +42,11 @@ segmetrics
       
 
    
+   :depends on deprecated: ``1.2``
    :depends on dill: 
-   :depends on numpy: ``>=1.18``
-   :depends on python: ``>=3.6,<3.11``
-   :depends on scikit-image: ``>=0.18``
+   :depends on numpy: ``>=1.20``
+   :depends on python: ``>=3.9``
+   :depends on scikit-image: ``>=0.18,<0.27``
    :depends on scikit-learn: 
    :depends on scipy: 
 
@@ -121,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "segmetrics";
-        var versions = ["1.5","1.4.1","1.4","1.3","1.2.3"];
+        var versions = ["1.6.0","1.5","1.4.1","1.4","1.3"];
     </script>
 
 

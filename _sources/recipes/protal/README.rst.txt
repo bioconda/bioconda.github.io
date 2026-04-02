@@ -31,18 +31,23 @@ protal
       
       
 
-      ``0.2.1a-0``,  ``0.2.0a-0``,  ``0.1.0a-0``
+      ``0.5.1a-0``,  ``0.2.1a-0``,  ``0.2.0a-0``,  ``0.1.0a-0``
 
       
 
    
    :depends on _openmp_mutex: ``>=4.5``
-   :depends on libgcc: ``>=13``
+   :depends on joblib: 
+   :depends on libgcc: ``>=14``
    :depends on libgomp: 
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on matplotlib-base: 
+   :depends on numpy: 
+   :depends on pandas: 
    :depends on pigz: 
    :depends on python: ``>=3``
+   :depends on scikit-learn: 
 
    :additional platforms:
       
@@ -116,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "protal";
-        var versions = ["0.2.1a","0.2.0a","0.1.0a"];
+        var versions = ["0.5.1a","0.2.1a","0.2.0a","0.1.0a"];
     </script>
 
 

@@ -35,10 +35,10 @@ coot-headless
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.20-1</code>,  <code>1.1.20-0</code>,  <code>1.1.19-0</code>,  <code>1.1.18-3</code>,  <code>1.1.18-2</code>,  <code>1.1.18-1</code>,  <code>1.1.18-0</code>,  <code>1.1.17-3</code>,  <code>1.1.17-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2-0</code>,  <code>1.1.20-1</code>,  <code>1.1.20-0</code>,  <code>1.1.19-0</code>,  <code>1.1.18-3</code>,  <code>1.1.18-2</code>,  <code>1.1.18-1</code>,  <code>1.1.18-0</code>,  <code>1.1.17-3</code>,  </span></summary>
       
 
-      ``1.1.20-1``,  ``1.1.20-0``,  ``1.1.19-0``,  ``1.1.18-3``,  ``1.1.18-2``,  ``1.1.18-1``,  ``1.1.18-0``,  ``1.1.17-3``,  ``1.1.17-2``,  ``1.1.17-1``,  ``1.1.17-0``
+      ``1.2-0``,  ``1.1.20-1``,  ``1.1.20-0``,  ``1.1.19-0``,  ``1.1.18-3``,  ``1.1.18-2``,  ``1.1.18-1``,  ``1.1.18-0``,  ``1.1.17-3``,  ``1.1.17-2``,  ``1.1.17-1``,  ``1.1.17-0``
 
       
       .. raw:: html
@@ -49,30 +49,31 @@ coot-headless
    
    :depends on cairo: ``>=1.18.4,<2.0a0``
    :depends on clipper: ``>=2.1.20180802,<3.0a0``
-   :depends on elfutils: ``>=0.191,<0.192.0a0``
-   :depends on fontconfig: ``>=2.15.0,<3.0a0``
+   :depends on elfutils: ``>=0.194,<0.195.0a0``
+   :depends on fontconfig: ``>=2.17.1,<3.0a0``
    :depends on fonts-conda-ecosystem: 
    :depends on gemmi: ``>=0.7.4,<0.7.5.0a0``
    :depends on gsl: ``>=2.7,<2.8.0a0``
    :depends on libboost: ``>=1.86.0,<1.87.0a0``
    :depends on libccp4: ``>=8.0.0,<9.0a0``
-   :depends on libffi: ``>=3.4.6,<3.5.0a0``
-   :depends on libfreetype: ``>=2.14.1``
-   :depends on libfreetype6: ``>=2.14.1``
-   :depends on libgcc: ``>=13``
-   :depends on libpng: ``>=1.6.54,<1.7.0a0``
-   :depends on libsqlite: ``>=3.51.2,<4.0a0``
-   :depends on libstdcxx: ``>=13``
-   :depends on libxml2: ``>=2.13.9,<2.14.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libffi: ``>=3.5.2,<3.6.0a0``
+   :depends on libfreetype: ``>=2.14.3``
+   :depends on libfreetype6: ``>=2.14.3``
+   :depends on libgcc: ``>=14``
+   :depends on libpng: ``>=1.6.56,<1.7.0a0``
+   :depends on libsqlite: ``>=3.52.0,<4.0a0``
+   :depends on libstdcxx: ``>=14``
+   :depends on libxml2: 
+   :depends on libxml2-16: ``>=2.15.2``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on mmdb2: ``>=2.0.22,<3.0a0``
-   :depends on numpy: ``1.26.*``
-   :depends on numpy: ``>=1.26.4,<2.0a0``
+   :depends on numpy: ``2.*``
+   :depends on numpy: ``>=1.21,<3``
    :depends on pixman: ``>=0.46.4,<1.0a0``
    :depends on python: ``>=3.10,<3.11.0a0 *_cpython``
    :depends on python_abi: ``3.10.* *_cp310``
-   :depends on rdkit: 
-   :depends on servalcat: 
+   :depends on rdkit: ``2026.03.1``
+   :depends on servalcat: ``>=0.4.128``
    :depends on ssm: ``>=1.4,<2.0a0``
 
    :additional platforms:
@@ -151,7 +152,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "coot-headless";
-        var versions = ["1.1.20","1.1.20","1.1.19","1.1.18","1.1.18"];
+        var versions = ["1.2","1.1.20","1.1.20","1.1.19","1.1.18"];
     </script>
 
 

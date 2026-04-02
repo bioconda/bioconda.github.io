@@ -1,61 +1,42 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'seqwin'
+.. title:: Package Recipe 'rustqc'
 .. highlight: bash
 
-seqwin
+rustqc
 ======
 
-.. conda:recipe:: seqwin
+.. conda:recipe:: rustqc
    :replaces_section_title:
    :noindex:
 
-   Ultrafast identification of signature sequences in microbial genomes
+   RNA\-seq quality control suite\: dupRadar\, featureCounts\, RSeQC\, preseq\, samtools stats\, and Qualimap in one pass
 
-   :homepage: https://github.com/treangenlab/Seqwin
-   :documentation: https://github.com/treangenlab/Seqwin/wiki
-   
-   :license: GPL3 / GPL-3.0-only
-   :recipe: /`seqwin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqwin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqwin/meta.yaml>`_
+   :homepage: https://seqeralabs.github.io/RustQC/
+   :developer docs: https://github.com/seqeralabs/RustQC
+   :license: GPL3 / GPL-3.0-or-later
+   :recipe: /`rustqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rustqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rustqc/meta.yaml>`_
 
-   
+   RustQC is a suite of quality control tools for sequencing data\, compiled to a
+   single binary. It reimplements dupRadar\, featureCounts\, 8 RSeQC tools\, preseq\,
+   samtools stats\, and Qualimap in Rust for dramatically reduced execution time.
+   All outputs are format\-compatible with the upstream tools and MultiQC.
 
 
-.. conda:package:: seqwin
 
-   |downloads_seqwin| |docker_seqwin|
+.. conda:package:: rustqc
+
+   |downloads_rustqc| |docker_rustqc|
 
    :versions:
       
       
-      .. raw:: html
-
-         <details><summary><span class="truncated-version-list"><code>0.3.0-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-1</code>,  <code>0.2.0-0</code>,  <code>0.1.0-2</code>,  <code>0.1.0-1</code>,  </span></summary>
-      
-
-      ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
-      .. raw:: html
 
-         </details>
       
 
    
-   :depends on blast: 
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
-   :depends on libzlib: ``>=1.3.2,<2.0a0``
-   :depends on mash: 
-   :depends on ncbi-datasets-cli: 
-   :depends on networkx: 
-   :depends on numba: 
-   :depends on numpy: ``>=2``
-   :depends on pandas: ``>=2``
-   :depends on pydantic: ``>=2``
-   :depends on python: ``>=3.10,<3.11.0a0``
-   :depends on python_abi: ``3.10.* *_cp310``
-   :depends on typer: 
 
    :additional platforms:
       
@@ -78,11 +59,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install seqwin
+    pixi global install rustqc
 
 to add into an existing workspace instead, run::
 
-    pixi add seqwin
+    pixi add rustqc
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -94,11 +75,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install seqwin
+    conda install rustqc
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname seqwin
+    conda create -n envname rustqc
 
 with ``envname`` being the name of the desired environment.
 
@@ -108,9 +89,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/seqwin:<tag>
+    docker pull quay.io/biocontainers/rustqc:<tag>
 
-(see `seqwin/tags`_ for valid values for ``<tag>``).
+(see `rustqc/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -121,19 +102,19 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_seqwin| image:: https://img.shields.io/conda/dn/bioconda/seqwin.svg?style=flat
-   :target: https://anaconda.org/bioconda/seqwin
+.. |downloads_rustqc| image:: https://img.shields.io/conda/dn/bioconda/rustqc.svg?style=flat
+   :target: https://anaconda.org/bioconda/rustqc
    :alt:   (downloads)
-.. |docker_seqwin| image:: https://quay.io/repository/biocontainers/seqwin/status
-   :target: https://quay.io/repository/biocontainers/seqwin
-.. _`seqwin/tags`: https://quay.io/repository/biocontainers/seqwin?tab=tags
+.. |docker_rustqc| image:: https://quay.io/repository/biocontainers/rustqc/status
+   :target: https://quay.io/repository/biocontainers/rustqc
+.. _`rustqc/tags`: https://quay.io/repository/biocontainers/rustqc?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "seqwin";
-        var versions = ["0.3.0","0.2.3","0.2.2","0.2.2","0.2.1"];
+        var package = "rustqc";
+        var versions = [];
     </script>
 
 
@@ -152,7 +133,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/seqwin/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/rustqc/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/seqwin/README.html
+   :target: http://bioconda.github.io/recipes/rustqc/README.html
