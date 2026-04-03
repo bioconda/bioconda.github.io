@@ -29,11 +29,12 @@ bactopia-assembler
       
       
 
-      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
+   :depends on bactopia-py: ``>=2.0.1``
    :depends on coreutils: 
    :depends on dragonflye: ``>=1.2.0``
    :depends on importlib-metadata: ``<5``
@@ -115,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bactopia-assembler";
-        var versions = ["1.0.4","1.0.3","1.0.2","1.0.1","1.0.0"];
+        var versions = ["1.0.5","1.0.4","1.0.3","1.0.2","1.0.1"];
     </script>
 
 

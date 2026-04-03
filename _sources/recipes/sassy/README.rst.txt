@@ -27,7 +27,7 @@ sassy
       
       
 
-      ``0.2.0-0``,  ``0.1.8-0``
+      ``0.2.2-0``,  ``0.2.0-0``,  ``0.1.8-0``
 
       
 
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "sassy";
-        var versions = ["0.2.0","0.1.8"];
+        var versions = ["0.2.2","0.2.0","0.1.8"];
     </script>
 
 

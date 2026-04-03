@@ -29,13 +29,13 @@ bactopia-qc
       
       
 
-      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
+   :depends on bactopia-py: ``>=2.0.1``
    :depends on bbmap: ``>=39.01``
-   :depends on biopython: ``1.77.*``
    :depends on coreutils: 
    :depends on fastp: ``>=0.23.4``
    :depends on fastq-scan: ``>=1.0.1``
@@ -46,7 +46,7 @@ bactopia-qc
    :depends on nanoq: ``>=0.10.0``
    :depends on pigz: 
    :depends on porechop: ``>=0.2.4``
-   :depends on python: ``>=3.7,<3.11``
+   :depends on python: ``<3.13``
    :depends on rasusa: ``>=1``
    :depends on rename: 
    :depends on sed: 
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bactopia-qc";
-        var versions = ["1.0.3","1.0.2","1.0.1","1.0.0"];
+        var versions = ["1.0.4","1.0.3","1.0.2","1.0.1","1.0.0"];
     </script>
 
 

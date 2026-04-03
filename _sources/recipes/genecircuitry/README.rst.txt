@@ -17,6 +17,7 @@ genecircuitry
    
    :license: MIT / MIT
    :recipe: /`genecircuitry <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genecircuitry>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genecircuitry/meta.yaml>`_
+   :links: pypi: :pypi:`genecircuitry`
 
    A modular\, checkpoint\-enabled pipeline for TRN analysis from
    single\-cell RNA\-seq data. Integrates Scanpy for preprocessing and
@@ -34,7 +35,7 @@ genecircuitry
       
       
 
-      ``0.1.4-0``
+      ``0.1.7-0``,  ``0.1.4-0``
 
       
 
@@ -140,7 +141,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "genecircuitry";
-        var versions = ["0.1.4"];
+        var versions = ["0.1.7","0.1.4"];
     </script>
 
 

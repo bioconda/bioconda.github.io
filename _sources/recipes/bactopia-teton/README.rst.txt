@@ -28,12 +28,21 @@ bactopia-teton
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.3-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  </span></summary>
+      
 
+      ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
+   :depends on bactopia-py: ``>=2.0.1``
    :depends on bracken: ``>=2.8``
    :depends on coreutils: 
    :depends on fastq-scan: ``>=1.0.1``
@@ -45,7 +54,7 @@ bactopia-teton
    :depends on nohuman: ``>=0.5.0``
    :depends on pandas: 
    :depends on pigz: 
-   :depends on python: ``>=3.6,<3.11``
+   :depends on python: ``<3.13``
    :depends on sed: 
    :depends on sizemeup: ``>=1.2.3``
    :depends on sra-human-scrubber: ``>=2.2``
@@ -122,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bactopia-teton";
-        var versions = ["1.1.2","1.1.1","1.1.0","1.0.5","1.0.4"];
+        var versions = ["1.1.3","1.1.2","1.1.1","1.1.0","1.0.5"];
     </script>
 
 

@@ -13,7 +13,7 @@ vcflib
    Command\-line tools for manipulating VCF files.
 
    :homepage: https://github.com/vcflib/vcflib
-   :documentation: https://github.com/vcflib/vcflib/blob/v1.0.14/README.md
+   :documentation: https://github.com/vcflib/vcflib/blob/v1.0.15/README.md
    
    :license: MIT / MIT
    :recipe: /`vcflib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcflib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcflib/meta.yaml>`_
@@ -31,10 +31,10 @@ vcflib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.14-0</code>,  <code>1.0.13-0</code>,  <code>1.0.12-3</code>,  <code>1.0.12-2</code>,  <code>1.0.12-1</code>,  <code>1.0.12-0</code>,  <code>1.0.10-1</code>,  <code>1.0.10-0</code>,  <code>1.0.9-8</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.15-0</code>,  <code>1.0.14-0</code>,  <code>1.0.13-0</code>,  <code>1.0.12-3</code>,  <code>1.0.12-2</code>,  <code>1.0.12-1</code>,  <code>1.0.12-0</code>,  <code>1.0.10-1</code>,  <code>1.0.10-0</code>,  </span></summary>
       
 
-      ``1.0.14-0``,  ``1.0.13-0``,  ``1.0.12-3``,  ``1.0.12-2``,  ``1.0.12-1``,  ``1.0.12-0``,  ``1.0.10-1``,  ``1.0.10-0``,  ``1.0.9-8``,  ``1.0.9-7``,  ``1.0.9-6``,  ``1.0.9-5``,  ``1.0.9-4``,  ``1.0.9-3``,  ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-6``,  ``1.0.2-5``,  ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.0_rc3-0``,  ``1.0.0_rc2-2``,  ``1.0.0_rc2-1``,  ``1.0.0_rc2-0``,  ``1.0.0_rc1-3``,  ``1.0.0_rc1-1``,  ``1.0.0_rc1-0``,  ``1.0.0_rc0-0``
+      ``1.0.15-0``,  ``1.0.14-0``,  ``1.0.13-0``,  ``1.0.12-3``,  ``1.0.12-2``,  ``1.0.12-1``,  ``1.0.12-0``,  ``1.0.10-1``,  ``1.0.10-0``,  ``1.0.9-8``,  ``1.0.9-7``,  ``1.0.9-6``,  ``1.0.9-5``,  ``1.0.9-4``,  ``1.0.9-3``,  ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-6``,  ``1.0.2-5``,  ``1.0.2-4``,  ``1.0.2-3``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.0_rc3-0``,  ``1.0.0_rc2-2``,  ``1.0.0_rc2-1``,  ``1.0.0_rc2-0``,  ``1.0.0_rc1-3``,  ``1.0.0_rc1-1``,  ``1.0.0_rc1-0``,  ``1.0.0_rc0-0``
 
       
       .. raw:: html
@@ -46,17 +46,16 @@ vcflib
    :depends on _openmp_mutex: ``>=4.5``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on fastahack: 
-   :depends on htslib: ``>=1.21,<1.24.0a0``
-   :depends on libcurl: ``>=8.13.0,<9.0a0``
-   :depends on libdeflate: ``>=1.22,<1.23.0a0``
-   :depends on libgcc: ``>=13``
+   :depends on htslib: ``>=1.23.1,<1.24.0a0``
+   :depends on libcurl: ``>=8.19.0,<9.0a0``
+   :depends on libdeflate: ``>=1.25,<1.26.0a0``
+   :depends on libgcc: ``>=14``
    :depends on libgomp: 
-   :depends on liblzma: ``>=5.8.1,<6.0a0``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on perl: 
    :depends on python: ``>=3``
-   :depends on tabixpp: ``>=1.1.2,<1.1.3.0a0``
    :depends on wget: 
 
    :additional platforms:
@@ -135,7 +134,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "vcflib";
-        var versions = ["1.0.14","1.0.13","1.0.12","1.0.12","1.0.12"];
+        var versions = ["1.0.15","1.0.14","1.0.13","1.0.12","1.0.12"];
     </script>
 
 

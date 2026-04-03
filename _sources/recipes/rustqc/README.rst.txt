@@ -32,11 +32,14 @@ rustqc
       
       
 
-      
+      ``0.1.1-1``,  ``0.1.1-0``
 
       
 
    
+   :depends on fontconfig: 
+   :depends on fonts-conda-ecosystem: 
+   :depends on freetype: 
 
    :additional platforms:
       
@@ -114,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "rustqc";
-        var versions = [];
+        var versions = ["0.1.1","0.1.1"];
     </script>
 
 

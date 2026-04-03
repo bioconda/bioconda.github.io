@@ -29,22 +29,22 @@ dipper
       
       
 
-      ``0.1.3-0``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
    
    :depends on boost-cpp: 
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on tbb: ``>=2021.13.0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on tbb: ``>=2022.3.0``
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -116,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "dipper";
-        var versions = ["0.1.3","0.1.2","0.1.2","0.1.1"];
+        var versions = ["0.1.4","0.1.3","0.1.2","0.1.2","0.1.1"];
     </script>
 
 

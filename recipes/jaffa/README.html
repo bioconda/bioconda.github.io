@@ -67,10 +67,7 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">jaffa</span></span></dt>
-<dd><p>JAFFA is a multi-step pipeline that takes either raw RNA-Seq reads, or pre-assembled transcripts then searches
-for gene fusions.  This package contains the wrappers jaffa-direct, jaffa-assembly, and jaffa-hybrid.
-You can pass the &quot;refSeq&quot; parameter in the environment variables JAFFA_REF_BASE. Otherwise, pass any paramters
-to the wrappers as you would to the bpipe JAFFA_{method} call in the manual.</p>
+<dd><p>JAFFA is a multi-step pipeline that takes either raw RNA-Seq reads, or pre-assembled transcripts then searches for gene fusions.  This package contains the wrappers jaffa-direct, jaffa-assembly, and jaffa-hybrid. You can pass the &quot;refSeq&quot; parameter in the environment variables JAFFA_REF_BASE. Otherwise, pass any paramters to the wrappers as you would to the bpipe JAFFA_{method} call in the manual.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/Oshlack/JAFFA">https://github.com/Oshlack/JAFFA</a></p>
@@ -88,21 +85,21 @@ to the wrappers as you would to the bpipe JAFFA_{method} call in the manual.</p>
 <dt class="sig sig-object conda" id="package-jaffa">
 <span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">jaffa</span></span><a class="headerlink" href="#package-jaffa" title="Link to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/jaffa"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/jaffa.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/jaffa"><img alt="docker_jaffa" src="https://quay.io/repository/biocontainers/jaffa/status" /></a></p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.00-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.00-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.09-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.09-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.09-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.08-0</span></code></p>
-</dd>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>2.5-0</code>,  <code>2.3-0</code>,  <code>2.2-0</code>,  <code>2.1-0</code>,  <code>2.00-1</code>,  <code>2.00-0</code>,  <code>1.09-2</code>,  <code>1.09-1</code>,  <code>1.09-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">2.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.00-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.00-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.09-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.09-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.09-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.08-0</span></code></p>
+</details></dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
 <li><p><strong>on bbmap</strong></p></li>
 <li><p><strong>on bioconductor-iranges</strong></p></li>
-<li><p><strong>on blat</strong></p></li>
 <li><p><strong>on bowtie2</strong></p></li>
 <li><p><strong>on bpipe</strong></p></li>
 <li><p><strong>on fastx_toolkit</strong></p></li>
 <li><p><strong>on oases</strong></p></li>
 <li><p><strong>on samtools</strong> <code class="docutils literal notranslate"><span class="pre">1.1</span></code></p></li>
 <li><p><strong>on trimmomatic</strong></p></li>
+<li><p><strong>on ucsc-blat</strong></p></li>
 <li><p><strong>on velvet</strong></p></li>
 </ul>
 </dd>
@@ -162,7 +159,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
     var package = "jaffa";
-    var versions = ["2.3","2.2","2.1","2.00","2.00"];
+    var versions = ["2.5","2.3","2.2","2.1","2.00"];
 </script></section>
 </section>
 <section id="download-stats">

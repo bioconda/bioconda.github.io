@@ -27,7 +27,7 @@ pytransaln
       
       
 
-      ``0.2.2-0``,  ``0.2.1-0``
+      ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
 
       
 
@@ -35,7 +35,7 @@ pytransaln
    :depends on biopython: ``>=1.80,<2``
    :depends on matplotlib-base: ``>=3.6,<4``
    :depends on pandas: ``>=1.3,<3``
-   :depends on pyhmmer: ``>=0.11``
+   :depends on pyhmmer: ``>=0.12.0``
    :depends on python: 
 
    :additional platforms:
@@ -110,7 +110,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "pytransaln";
-        var versions = ["0.2.2","0.2.1"];
+        var versions = ["0.2.3","0.2.2","0.2.1"];
     </script>
 
 

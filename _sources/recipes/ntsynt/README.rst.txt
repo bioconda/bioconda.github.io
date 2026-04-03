@@ -12,7 +12,7 @@ ntsynt
 
    Detecting multi\-genome synteny blocks using minimizer graph mapping.
 
-   :homepage: https://github.com/bcgsc/ntsynt
+   :homepage: https://github.com/BirolLab/ntsynt
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`ntsynt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ntsynt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ntsynt/meta.yaml>`_
 
@@ -28,10 +28,10 @@ ntsynt
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  <code>1.0.1-3</code>,  <code>1.0.1-2</code>,  <code>1.0.1-0</code>,  <code>1.0.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.5-1</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  <code>1.0.1-3</code>,  <code>1.0.1-2</code>,  <code>1.0.1-0</code>,  </span></summary>
       
 
-      ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -42,11 +42,11 @@ ntsynt
    
    :depends on _openmp_mutex: ``>=4.5``
    :depends on btllib: ``>=1.7.1``
-   :depends on btllib: ``>=1.7.5,<2.0a0``
+   :depends on btllib: ``>=1.7.7,<2.0a0``
    :depends on intervaltree: 
-   :depends on libgcc: ``>=13``
+   :depends on libgcc: ``>=14``
    :depends on libgomp: 
-   :depends on libstdcxx: ``>=13``
+   :depends on libstdcxx: ``>=14``
    :depends on ncls: 
    :depends on pybedtools: 
    :depends on python: ``>=3.10,<3.11.0a0``
@@ -132,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "ntsynt";
-        var versions = ["1.0.5","1.0.4","1.0.3","1.0.2","1.0.2"];
+        var versions = ["1.0.5","1.0.5","1.0.4","1.0.3","1.0.2"];
     </script>
 
 

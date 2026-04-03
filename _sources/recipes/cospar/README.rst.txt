@@ -13,7 +13,7 @@ cospar
    A toolkit for dynamic inference of cell fate by integrating state and lineage information.
 
    :homepage: https://github.com/ShouWenWang-Lab/cospar
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`cospar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cospar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cospar/meta.yaml>`_
 
    
@@ -27,25 +27,22 @@ cospar
       
       
 
-      ``0.4.1-0``,  ``0.3.3-0``
+      ``0.5.0-0``,  ``0.4.1-0``,  ``0.3.3-0``
 
       
 
    
-   :depends on anndata: ``>=0.9.2,<0.10.0``
-   :depends on ete3: ``>=3.1.3,<4.0.0``
+   :depends on anndata: ``>=0.10.0,<0.11.0``
    :depends on fastcluster: ``>=1.2.6,<2.0.0``
    :depends on gseapy: ``>=1.1.3,<2.0.0``
    :depends on leidenalg: ``>=0.10.2,<0.11.0``
-   :depends on matplotlib-base: ``>=3.7.3,<3.8.0``
-   :depends on numpy: ``>=1.24.4,<2.0.0``
-   :depends on pandas: ``>=2.0.3,<3.0.0``
-   :depends on plotnine: ``>=0.12.4,<0.13.0``
-   :depends on python: ``>=3.9,<3.12``
-   :depends on scanpy: ``>=1.9.8,<2.0.0``
-   :depends on scikit-learn: ``>=1.1.3,<1.2.0``
-   :depends on scikit-misc: ``>=0.1.4,<0.3.0``
-   :depends on scipy: ``>=1.10.1,<2.0.0``
+   :depends on matplotlib-base: ``>=3.8.0,<4.0.0``
+   :depends on numpy: ``>=1.26``
+   :depends on pandas: ``>=2.1.0,<3.0.0``
+   :depends on python: ``>=3.9``
+   :depends on scanpy: ``>=1.10.0,<2.0.0``
+   :depends on scikit-learn: ``>=1.3.0,<2.0.0``
+   :depends on scipy: ``>=1.11``
    :depends on statsmodels: ``>=0.14.2,<0.15.0``
    :depends on tqdm: ``>=4.66.5,<5.0.0``
 
@@ -121,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "cospar";
-        var versions = ["0.4.1","0.3.3"];
+        var versions = ["0.5.0","0.4.1","0.3.3"];
     </script>
 
 

@@ -29,16 +29,17 @@ bactopia-sketcher
       
       
 
-      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
+   :depends on bactopia-py: ``>=2.0.1``
    :depends on coreutils: 
    :depends on gsl: ``2.6.*``
    :depends on mash: ``>=2.3``
    :depends on pigz: 
-   :depends on python: ``>=3.6,<3.11``
+   :depends on python: ``<3.13``
    :depends on sed: 
    :depends on sourmash: ``>=4.8.4``
 
@@ -114,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bactopia-sketcher";
-        var versions = ["1.0.2","1.0.1","1.0.0"];
+        var versions = ["1.0.3","1.0.2","1.0.1","1.0.0"];
     </script>
 
 

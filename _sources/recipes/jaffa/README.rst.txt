@@ -10,10 +10,7 @@ jaffa
    :replaces_section_title:
    :noindex:
 
-   JAFFA is a multi\-step pipeline that takes either raw RNA\-Seq reads\, or pre\-assembled transcripts then searches
-   for gene fusions.  This package contains the wrappers jaffa\-direct\, jaffa\-assembly\, and jaffa\-hybrid.
-   You can pass the \"refSeq\" parameter in the environment variables JAFFA\_REF\_BASE. Otherwise\, pass any paramters
-   to the wrappers as you would to the bpipe JAFFA\_\{method\} call in the manual.
+   JAFFA is a multi\-step pipeline that takes either raw RNA\-Seq reads\, or pre\-assembled transcripts then searches for gene fusions.  This package contains the wrappers jaffa\-direct\, jaffa\-assembly\, and jaffa\-hybrid. You can pass the \"refSeq\" parameter in the environment variables JAFFA\_REF\_BASE. Otherwise\, pass any paramters to the wrappers as you would to the bpipe JAFFA\_\{method\} call in the manual.
 
 
    :homepage: https://github.com/Oshlack/JAFFA
@@ -30,21 +27,29 @@ jaffa
    :versions:
       
       
+      .. raw:: html
 
-      ``2.3-0``,  ``2.2-0``,  ``2.1-0``,  ``2.00-1``,  ``2.00-0``,  ``1.09-2``,  ``1.09-1``,  ``1.09-0``,  ``1.08-0``
+         <details><summary><span class="truncated-version-list"><code>2.5-0</code>,  <code>2.3-0</code>,  <code>2.2-0</code>,  <code>2.1-0</code>,  <code>2.00-1</code>,  <code>2.00-0</code>,  <code>1.09-2</code>,  <code>1.09-1</code>,  <code>1.09-0</code>,  </span></summary>
+      
 
+      ``2.5-0``,  ``2.3-0``,  ``2.2-0``,  ``2.1-0``,  ``2.00-1``,  ``2.00-0``,  ``1.09-2``,  ``1.09-1``,  ``1.09-0``,  ``1.08-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends on bbmap: 
    :depends on bioconductor-iranges: 
-   :depends on blat: 
    :depends on bowtie2: 
    :depends on bpipe: 
    :depends on fastx_toolkit: 
    :depends on oases: 
    :depends on samtools: ``1.1``
    :depends on trimmomatic: 
+   :depends on ucsc-blat: 
    :depends on velvet: 
 
    :additional platforms:
@@ -119,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "jaffa";
-        var versions = ["2.3","2.2","2.1","2.00","2.00"];
+        var versions = ["2.5","2.3","2.2","2.1","2.00"];
     </script>
 
 

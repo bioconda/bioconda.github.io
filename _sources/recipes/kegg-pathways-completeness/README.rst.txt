@@ -13,7 +13,9 @@ kegg-pathways-completeness
    The tool counts completeness of each KEGG pathway for protein sequences.
 
    :homepage: https://github.com/EBI-Metagenomics/kegg-pathways-completeness-tool
-   :license: Apache-2.0
+   :documentation: https://github.com/EBI-Metagenomics/kegg-pathways-completeness-tool/blob/1.4.2/README.md
+   
+   :license: APACHE / Apache-2.0
    :recipe: /`kegg-pathways-completeness <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kegg-pathways-completeness>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kegg-pathways-completeness/meta.yaml>`_
 
    
@@ -27,16 +29,19 @@ kegg-pathways-completeness
       
       
 
-      ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
+      ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
 
       
 
    
    :depends on biopython: ``>=1.83``
+   :depends on click: ``>=8.0.0``
    :depends on networkx: ``>=3.3``
    :depends on pydot: ``>=3.0.3``
    :depends on python: ``>=3.10``
    :depends on python-graphviz: ``>=0.20.3``
+   :depends on requests: ``>=2.25.0``
+   :depends on tqdm: ``>=4.60.0``
 
    :additional platforms:
       
@@ -110,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "kegg-pathways-completeness";
-        var versions = ["1.4.0","1.3.0","1.2.1","1.0.5","1.0.4"];
+        var versions = ["1.4.2","1.4.0","1.3.0","1.2.1","1.0.5"];
     </script>
 
 
