@@ -29,14 +29,14 @@ bactopia-gather
       
       
 
-      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends on art: ``>=2016.06.05``
+   :depends on bactopia-py: ``>=2.0.1``
    :depends on bbmap: ``>=39.01``
-   :depends on biopython: ``1.77.*``
    :depends on coreutils: 
    :depends on fastq-dl: ``>=2.0.4``
    :depends on fastq-scan: ``>=1.0.1``
@@ -44,7 +44,7 @@ bactopia-gather
    :depends on mash: ``>=2.3``
    :depends on ncbi-genome-download: ``>=0.3.3``
    :depends on pigz: 
-   :depends on python: ``>=3.8,<3.11``
+   :depends on python: ``<3.13``
    :depends on rename: 
    :depends on sed: 
    :depends on sra-tools: ``>=3.0.1``
@@ -121,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bactopia-gather";
-        var versions = ["1.0.4","1.0.3","1.0.2","1.0.1","1.0.0"];
+        var versions = ["1.0.5","1.0.4","1.0.3","1.0.2","1.0.1"];
     </script>
 
 

@@ -46,7 +46,6 @@ crispresso2
    :depends on bowtie2: 
    :depends on fastp: 
    :depends on jinja2: 
-   :depends on libgcc: ``>=13``
    :depends on matplotlib-base: 
    :depends on numpy: ``>=1.22.4,<2.0a0``
    :depends on pandas: 

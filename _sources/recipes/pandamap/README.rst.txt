@@ -30,7 +30,7 @@ pandamap
       
       
 
-      ``4.1.0-0``
+      ``4.2.1-0``,  ``4.1.0-0``
 
       
 
@@ -39,7 +39,7 @@ pandamap
    :depends on dssp: 
    :depends on matplotlib-base: ``>=3.4.0``
    :depends on numpy: ``>=1.20.0``
-   :depends on python: ``>=3.9``
+   :depends on python: ``>=3.10``
    :depends on requests: ``>=2.25.0``
 
    :additional platforms:
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "pandamap";
-        var versions = ["4.1.0"];
+        var versions = ["4.2.1","4.1.0"];
     </script>
 
 

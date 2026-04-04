@@ -43,8 +43,7 @@ htseq
       
 
    
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on matplotlib-base: ``>=1.4``
    :depends on numpy: ``>=1.23,<3``
    :depends on numpy: ``>=2.4.2,<3.0a0``

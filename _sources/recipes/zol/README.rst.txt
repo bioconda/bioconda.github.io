@@ -56,10 +56,9 @@ zol
    :depends on hmmer: ``>=3.0.0``
    :depends on hyphy: ``>=2.5.14``
    :depends on legacy-cgi: 
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on mcl: 
-   :depends on miniprot: ``0.13.*``
+   :depends on miniprot: ``>=0.13``
    :depends on muscle: ``5.1.*``
    :depends on pal2nal: ``>=14.1``
    :depends on pandas: ``>=2.0``

@@ -43,7 +43,6 @@ rust-ncbitaxonomy
       
 
    
-   :depends on libgcc: ``>=13``
    :depends on libsqlite: ``>=3.47.2,<4.0a0``
    :depends on sqlite: 
 

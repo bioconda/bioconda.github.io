@@ -36,7 +36,6 @@ nohuman
 
    
    :depends on kraken2: ``2.1.6.*``
-   :depends on libgcc: ``>=13``
    :depends on liblzma: ``>=5.8.1,<6.0a0``
 
    :additional platforms:
