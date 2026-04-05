@@ -29,7 +29,7 @@ bactopia-variants
       
       
 
-      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -45,7 +45,7 @@ bactopia-variants
    :depends on snippy: ``>=4.6.0``
    :depends on snpeff: ``>=4.3,<5``
    :depends on tabixpp: ``1.1.0.*``
-   :depends on vcf-annotator: ``>=0.7``
+   :depends on vcf-annotator: ``>=1.0.0``
    :depends on vcflib: ``>=1.0.0_rc3,<=1.0.2``
 
    :additional platforms:
@@ -120,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bactopia-variants";
-        var versions = ["1.0.3","1.0.2","1.0.1","1.0.0"];
+        var versions = ["1.0.4","1.0.3","1.0.2","1.0.1","1.0.0"];
     </script>
 
 

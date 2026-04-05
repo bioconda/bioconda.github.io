@@ -41,26 +41,34 @@ openstructure
    :depends on fftw: ``>=3.3.10,<4.0a0``
    :depends on glew: ``>=2.1.0,<2.2.0a0``
    :depends on glfw: ``>=3.4,<4.0a0``
-   :depends on khronos-opencl-icd-loader: ``>=2024.10.24``
    :depends on libboost: ``>=1.86.0,<1.87.0a0``
    :depends on libboost-python: ``>=1.86.0,<1.87.0a0``
-   :depends on libcxx: ``>=20``
+   :depends on libegl: ``>=1.7.0,<2.0a0``
+   :depends on libgcc: ``>=13``
    :depends on libgfortran: 
    :depends on libgfortran5: ``>=13.4.0``
-   :depends on libgfortran5: ``>=15.1.0``
+   :depends on libgl: ``>=1.7.0,<2.0a0``
+   :depends on libgles: ``>=1.7.0,<2.0a0``
+   :depends on libglvnd: ``>=1.7.0,<2.0a0``
+   :depends on libglx: ``>=1.7.0,<2.0a0``
+   :depends on libopengl: ``>=1.7.0,<2.0a0``
    :depends on libpng: ``>=1.6.50,<1.7.0a0``
    :depends on libsqlite: ``>=3.50.4,<4.0a0``
+   :depends on libstdcxx: ``>=13``
    :depends on libtiff: ``>=4.7.0,<4.8.0a0``
+   :depends on libxcb: ``>=1.17.0,<2.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on networkx: ``>=3.5,<4.0a0``
+   :depends on mesalib: ``>=25.0.5,<25.1.0a0``
+   :depends on networkx: ``>=3.4.2,<4.0a0``
    :depends on numpy: ``>=1.26.4,<2.0a0``
-   :depends on ocl_icd_wrapper_apple: 
+   :depends on ocl-icd: ``>=2.3.3,<3.0a0``
+   :depends on ocl-icd-system: 
    :depends on openmm: ``>=8.3.1,<9.0a0``
    :depends on pandas: ``>=2.3.1,<3.0a0``
    :depends on parasail: ``>=2.6.2,<3.0a0``
    :depends on pyqt: ``>=5.15.11,<5.16.0a0``
-   :depends on python: ``>=3.11,<3.12.0a0 *_cpython``
-   :depends on python_abi: ``3.11.* *_cp311``
+   :depends on python: ``>=3.10,<3.11.0a0 *_cpython``
+   :depends on python_abi: ``3.10.* *_cp310``
    :depends on qt: ``>=5.15.15,<5.16.0a0``
    :depends on scipy: ``>=1.13.1,<2.0a0``
    :depends on voronota: ``>=1.29.4415,<2.0a0``

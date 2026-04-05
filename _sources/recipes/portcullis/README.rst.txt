@@ -45,7 +45,8 @@ portcullis
    :depends on libboost: 
    :depends on libboost-python: ``>=1.84.0,<1.85.0a0``
    :depends on libboost-python-devel: 
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on numpy: 
    :depends on pandas: 

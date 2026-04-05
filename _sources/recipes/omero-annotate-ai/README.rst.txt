@@ -33,7 +33,7 @@ omero-annotate-ai
       
       
 
-      ``0.2.1-0``
+      ``0.2.8-0``,  ``0.2.1-0``
 
       
 
@@ -127,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "omero-annotate-ai";
-        var versions = ["0.2.1"];
+        var versions = ["0.2.8","0.2.1"];
     </script>
 
 

@@ -41,13 +41,13 @@ metabuli
       
 
    
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on aria2: 
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on gawk: 
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on llvm-openmp: ``>=19.1.7``
-   :depends on llvm-openmp: ``>=21.1.8``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on wget: 
    :depends on zlib: 
