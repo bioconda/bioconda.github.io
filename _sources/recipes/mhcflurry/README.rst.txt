@@ -29,10 +29,10 @@ mhcflurry
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>2.1.5-0</code>,  <code>2.1.4-1</code>,  <code>2.1.4-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.6-0</code>,  <code>2.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.5-0</code>,  <code>2.1.4-1</code>,  <code>2.1.4-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.6-0</code>,  </span></summary>
       
 
-      ``2.2.0-0``,  ``2.1.5-0``,  ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.6-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.4.3-0``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.4-0``,  ``1.2.2-0``
+      ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.5-0``,  ``2.1.4-1``,  ``2.1.4-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.6-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.4.3-0``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.4-0``,  ``1.2.2-0``
 
       
       .. raw:: html
@@ -42,16 +42,13 @@ mhcflurry
 
    
    :depends on appdirs: 
-   :depends on mhcgnomes: ``>=0.8.4``
-   :depends on np_utils: 
-   :depends on pandas: ``>=0.20.3``
-   :depends on python: 
-   :depends on pytorch: 
+   :depends on mhcgnomes: ``>=3.0.1``
+   :depends on numpy: ``>=1.22.4``
+   :depends on pandas: ``>=2.0``
+   :depends on python: ``>=3.10,<3.13``
+   :depends on pytorch: ``>=2.0.0``
    :depends on pyyaml: 
    :depends on scikit-learn: 
-   :depends on six: 
-   :depends on tensorflow: ``>=2.12.0``
-   :depends on tf-keras: 
    :depends on tqdm: 
 
    :additional platforms:
@@ -126,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "mhcflurry";
-        var versions = ["2.2.0","2.1.5","2.1.4","2.1.4","2.1.2"];
+        var versions = ["2.2.0","2.2.0","2.1.5","2.1.4","2.1.4"];
     </script>
 
 

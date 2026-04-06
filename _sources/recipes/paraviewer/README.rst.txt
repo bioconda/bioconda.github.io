@@ -27,18 +27,16 @@ paraviewer
       
       
 
-      ``0.1.0-0``
+      ``1.0.0-0``,  ``0.1.0-0``
 
       
 
    
    :depends on cachetools: ``5.5.2``
-   :depends on jinja2: ``3.1.5``
+   :depends on jinja2: ``3.1.6``
+   :depends on orographer: ``0.1.0``
    :depends on pysam: ``0.23.0``
-   :depends on pytest: ``8.3.5``
    :depends on python: ``>=3.10``
-   :depends on pyyaml: ``6.0.2``
-   :depends on tqdm: ``4.67.1``
 
    :additional platforms:
       
@@ -112,7 +110,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "paraviewer";
-        var versions = ["0.1.0"];
+        var versions = ["1.0.0","0.1.0"];
     </script>
 
 

@@ -27,19 +27,19 @@ virstrain
       
       
 
-      ``1.17-1``,  ``1.17-0``,  ``1.14-0``,  ``1.13-0``,  ``1.12-0``,  ``1.11-0``,  ``1.10-0``,  ``1.9-0``
+      ``1.18-0``,  ``1.17-1``,  ``1.17-0``,  ``1.14-0``,  ``1.13-0``,  ``1.12-0``,  ``1.11-0``,  ``1.10-0``,  ``1.9-0``
 
       
 
    
-   :depends on biopython: ``1.74``
+   :depends on biopython: ``>=1.78``
    :depends on bowtie2: 
-   :depends on matplotlib-base: ``3.1.2``
-   :depends on networkx: ``2.4``
-   :depends on numpy: ``1.17.3``
-   :depends on pandas: ``1.0.1``
-   :depends on plotly: ``3.10.0``
-   :depends on python: ``3.7.3``
+   :depends on matplotlib-base: ``>=3.1``
+   :depends on networkx: ``>=2.4``
+   :depends on numpy: ``>=1.17``
+   :depends on pandas: ``>=1.0``
+   :depends on plotly: ``>=5.0``
+   :depends on python: ``>=3.8``
 
    :additional platforms:
       
@@ -113,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "virstrain";
-        var versions = ["1.17","1.17","1.14","1.13","1.12"];
+        var versions = ["1.18","1.17","1.17","1.14","1.13"];
     </script>
 
 

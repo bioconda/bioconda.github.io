@@ -32,10 +32,10 @@ paml
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.10.10-0</code>,  <code>4.10.9-1</code>,  <code>4.10.9-0</code>,  <code>4.10.7-2</code>,  <code>4.10.7-1</code>,  <code>4.10.7-0</code>,  <code>4.10.6-2</code>,  <code>4.10.6-1</code>,  <code>4.10.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.10.10-1</code>,  <code>4.10.10-0</code>,  <code>4.10.9-1</code>,  <code>4.10.9-0</code>,  <code>4.10.7-2</code>,  <code>4.10.7-1</code>,  <code>4.10.7-0</code>,  <code>4.10.6-2</code>,  <code>4.10.6-1</code>,  </span></summary>
       
 
-      ``4.10.10-0``,  ``4.10.9-1``,  ``4.10.9-0``,  ``4.10.7-2``,  ``4.10.7-1``,  ``4.10.7-0``,  ``4.10.6-2``,  ``4.10.6-1``,  ``4.10.6-0``,  ``4.9-7``,  ``4.9-6``,  ``4.9-5``,  ``4.9-4``,  ``4.9-3``,  ``4.9-2``,  ``4.9-1``,  ``4.9-0``
+      ``4.10.10-1``,  ``4.10.10-0``,  ``4.10.9-1``,  ``4.10.9-0``,  ``4.10.7-2``,  ``4.10.7-1``,  ``4.10.7-0``,  ``4.10.6-2``,  ``4.10.6-1``,  ``4.10.6-0``,  ``4.9-7``,  ``4.9-6``,  ``4.9-5``,  ``4.9-4``,  ``4.9-3``,  ``4.9-2``,  ``4.9-1``,  ``4.9-0``
 
       
       .. raw:: html
@@ -44,7 +44,7 @@ paml
       
 
    
-   :depends on libgcc: ``>=13``
+   :depends on libgcc: ``>=14``
 
    :additional platforms:
       
@@ -122,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "paml";
-        var versions = ["4.10.10","4.10.9","4.10.9","4.10.7","4.10.7"];
+        var versions = ["4.10.10","4.10.10","4.10.9","4.10.9","4.10.7"];
     </script>
 
 

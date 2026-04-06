@@ -10,10 +10,12 @@ perl-module-metadata
    :replaces_section_title:
    :noindex:
 
-   Gather package and POD information from perl module files
+   Gather package and POD information from perl module files.
 
    :homepage: https://github.com/Perl-Toolchain-Gang/Module-Metadata
-   :license: perl_5
+   :documentation: https://metacpan.org/pod/Module::Metadata
+   
+   :license: Perl_5
    :recipe: /`perl-module-metadata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-metadata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-metadata/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ perl-module-metadata
       
       
 
-      ``1.000038-0``,  ``1.000037-0``,  ``1.000036-1``,  ``1.000036-0``,  ``1.000033-0``,  ``1.000019-1``,  ``1.000019-0``
+      ``1.000039-0``,  ``1.000038-0``,  ``1.000037-0``,  ``1.000036-1``,  ``1.000036-0``,  ``1.000033-0``,  ``1.000019-1``,  ``1.000019-0``
 
       
 
@@ -109,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "perl-module-metadata";
-        var versions = ["1.000038","1.000037","1.000036","1.000036","1.000033"];
+        var versions = ["1.000039","1.000038","1.000037","1.000036","1.000036"];
     </script>
 
 

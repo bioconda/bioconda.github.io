@@ -12,7 +12,7 @@ neat
 
    Toolset for generating synthethic FASTQ\, VCF and BAM files.
 
-   :homepage: https://github.com/ncsa/NEAT/
+   :homepage: https://github.com/ncsa/NEAT
    :license: BSD / BSD-3-Clause
    :recipe: /`neat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/neat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/neat/meta.yaml>`_
 
@@ -28,10 +28,10 @@ neat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.3.6-0</code>,  <code>4.3.5-0</code>,  <code>4.3.4-0</code>,  <code>4.3.1-0</code>,  <code>4.3.0-0</code>,  <code>4.2.8-0</code>,  <code>4.2.7-0</code>,  <code>4.2.6-0</code>,  <code>4.2.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.3.6-1</code>,  <code>4.3.6-0</code>,  <code>4.3.5-0</code>,  <code>4.3.4-0</code>,  <code>4.3.1-0</code>,  <code>4.3.0-0</code>,  <code>4.2.8-0</code>,  <code>4.2.7-0</code>,  <code>4.2.6-0</code>,  </span></summary>
       
 
-      ``4.3.6-0``,  ``4.3.5-0``,  ``4.3.4-0``,  ``4.3.1-0``,  ``4.3.0-0``,  ``4.2.8-0``,  ``4.2.7-0``,  ``4.2.6-0``,  ``4.2.5-0``,  ``4.2.4-0``,  ``4.2.3-0``,  ``4.2.2-0``,  ``4.2.1-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.0-0``
+      ``4.3.6-1``,  ``4.3.6-0``,  ``4.3.5-0``,  ``4.3.4-0``,  ``4.3.1-0``,  ``4.3.0-0``,  ``4.2.8-0``,  ``4.2.7-0``,  ``4.2.6-0``,  ``4.2.5-0``,  ``4.2.4-0``,  ``4.2.3-0``,  ``4.2.2-0``,  ``4.2.1-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ neat
 
    
    :depends on bedtools: 
-   :depends on biopython: ``1.79.*``
+   :depends on biopython: ``1.85.*``
    :depends on frozendict: 
    :depends on htslib: 
    :depends on matplotlib-base: 
@@ -52,7 +52,7 @@ neat
    :depends on python: ``>=3.10``
    :depends on pyyaml: 
    :depends on scipy: 
-   :depends on seaborn: 
+   :depends on seaborn-base: 
 
    :additional platforms:
       
@@ -126,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "neat";
-        var versions = ["4.3.6","4.3.5","4.3.4","4.3.1","4.3.0"];
+        var versions = ["4.3.6","4.3.6","4.3.5","4.3.4","4.3.1"];
     </script>
 
 

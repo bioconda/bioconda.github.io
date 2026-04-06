@@ -28,19 +28,18 @@ svarp
       
       
 
-      ``1.1.1-0``,  ``1.0.1-0``
+      ``1.2.0-0``,  ``1.1.1-0``,  ``1.0.1-0``
 
       
 
    
    :depends on graphaligner: 
-   :depends on htslib: ``>=1.22.1,<1.23.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on htslib: ``>=1.23.1,<1.24.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on minimap2: 
    :depends on samtools: 
-   :depends on wtdbg: 
 
    :additional platforms:
       
@@ -114,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "svarp";
-        var versions = ["1.1.1","1.0.1"];
+        var versions = ["1.2.0","1.1.1","1.0.1"];
     </script>
 
 

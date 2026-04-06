@@ -10,10 +10,10 @@ gtfparse
    :replaces_section_title:
    :noindex:
 
-   GTF Parsing
+   Parsing library for extracting data frames of genomic features from GTF files.
 
    :homepage: https://github.com/openvax/gtfparse
-   :license: Apache / Apache-2.0
+   :license: Apache / APACHE-2.0
    :recipe: /`gtfparse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gtfparse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gtfparse/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ gtfparse
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.5.0-0</code>,  <code>2.4.1-0</code>,  <code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.1.0-0</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.6.0-0</code>,  <code>2.5.0-0</code>,  <code>2.4.1-0</code>,  <code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.1.0-0</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>1.2.1-0</code>,  </span></summary>
       
 
-      ``2.5.0-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.1.0-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.7-1``,  ``1.0.7-0``
+      ``2.6.0-0``,  ``2.5.0-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.1.0-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.7-1``,  ``1.0.7-0``
 
       
       .. raw:: html
@@ -41,10 +41,10 @@ gtfparse
 
    
    :depends on numpy: ``>=1.7``
-   :depends on pandas: ``>=0.15``
-   :depends on polars: ``>=0.20.2,<0.21.0``
-   :depends on pyarrow: ``>=14.0.2``
-   :depends on python: 
+   :depends on pandas: ``>=2.1.0``
+   :depends on polars: ``>=0.20.2``
+   :depends on pyarrow: ``>=18.0.0``
+   :depends on python: ``>=3.7``
 
    :additional platforms:
       
@@ -118,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "gtfparse";
-        var versions = ["2.5.0","2.4.1","2.4.0","2.3.0","2.1.0"];
+        var versions = ["2.6.0","2.5.0","2.4.1","2.4.0","2.3.0"];
     </script>
 
 
