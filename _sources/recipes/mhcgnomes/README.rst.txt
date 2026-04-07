@@ -10,9 +10,11 @@ mhcgnomes
    :replaces_section_title:
    :noindex:
 
-   Python library for parsing MHC nomenclature in the wild
+   Python library for parsing MHC nomenclature in the wild.
 
-   :homepage: https://github.com/til-unc/mhcgnomes
+   :homepage: https://github.com/pirl-unc/mhcgnomes
+   :documentation: https://pirl-unc.github.io/mhcgnomes
+   
    :license: APACHE / Apache-2.0
    :recipe: /`mhcgnomes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mhcgnomes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mhcgnomes/meta.yaml>`_
 
@@ -28,10 +30,10 @@ mhcgnomes
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.19.0-0</code>,  <code>3.18.0-0</code>,  <code>3.15.0-0</code>,  <code>3.14.1-0</code>,  <code>3.10.0-0</code>,  <code>3.1.1-0</code>,  <code>2.0.2-0</code>,  <code>2.0-0</code>,  <code>1.8.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.22.0-0</code>,  <code>3.19.0-0</code>,  <code>3.18.0-0</code>,  <code>3.15.0-0</code>,  <code>3.14.1-0</code>,  <code>3.10.0-0</code>,  <code>3.1.1-0</code>,  <code>2.0.2-0</code>,  <code>2.0-0</code>,  </span></summary>
       
 
-      ``3.19.0-0``,  ``3.18.0-0``,  ``3.15.0-0``,  ``3.14.1-0``,  ``3.10.0-0``,  ``3.1.1-0``,  ``2.0.2-0``,  ``2.0-0``,  ``1.8.6-0``,  ``1.8.4-0``
+      ``3.22.0-0``,  ``3.19.0-0``,  ``3.18.0-0``,  ``3.15.0-0``,  ``3.14.1-0``,  ``3.10.0-0``,  ``3.1.1-0``,  ``2.0.2-0``,  ``2.0-0``,  ``1.8.6-0``,  ``1.8.4-0``
 
       
       .. raw:: html
@@ -42,7 +44,7 @@ mhcgnomes
    
    :depends on numpy: 
    :depends on pandas: 
-   :depends on python: 
+   :depends on python: ``>=3.9``
    :depends on pyyaml: ``>=5.4``
    :depends on serializable: 
 
@@ -118,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "mhcgnomes";
-        var versions = ["3.19.0","3.18.0","3.15.0","3.14.1","3.10.0"];
+        var versions = ["3.22.0","3.19.0","3.18.0","3.15.0","3.14.1"];
     </script>
 
 

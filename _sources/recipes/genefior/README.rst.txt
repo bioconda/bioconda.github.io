@@ -10,13 +10,13 @@ genefior
    :replaces_section_title:
    :noindex:
 
-   Genefíor\: A customisable and multi\-tool approach for gene detection
+   GeneFíor\: A customisable and multi\-tool approach for gene detection
 
    :homepage: https://github.com/NickJD/Genefior
    :license: GPL-3.0-only
    :recipe: /`genefior <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genefior>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genefior/meta.yaml>`_
 
-   Genefíor orchestrates multiple alignment tools \(BLAST\, DIAMOND\, Bowtie2\, BWA\, Minimap2 and MMseqs2\) 
+   GeneFíor orchestrates multiple alignment tools \(BLAST\, DIAMOND\, Bowtie2\, BWA\, Minimap2 and MMseqs2\) 
    to search DNA and protein sequences against AMR and user\-provided databases with transparent\, 
    coverage\-based validation.
 
@@ -30,7 +30,7 @@ genefior
       
       
 
-      ``0.7.0-0``,  ``0.6.0-0``
+      ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-0``
 
       
 
@@ -40,7 +40,8 @@ genefior
    :depends on bwa: ``>=0.7.19``
    :depends on diamond: ``>=2.1.13``
    :depends on minimap2: ``>=2.30``
-   :depends on mmseqs2: 
+   :depends on mmseqs2: ``>=18.8cc5c``
+   :depends on pigz: ``>=2.4``
    :depends on python: ``>=3.10``
    :depends on samtools: ``>=1.19.2``
    :depends on seqtk: ``>=1.4``
@@ -117,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "genefior";
-        var versions = ["0.7.0","0.6.0"];
+        var versions = ["0.7.0","0.7.0","0.6.0"];
     </script>
 
 

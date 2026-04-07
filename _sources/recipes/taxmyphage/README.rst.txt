@@ -10,10 +10,10 @@ taxmyphage
    :replaces_section_title:
    :noindex:
 
-   Script to assign taxonomy to a bacteriophage at the genus and species level
+   Script to assign taxonomy to a bacteriophage at the genus and species level.
 
    :homepage: https://github.com/amillard/tax_myPHAGE
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`taxmyphage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taxmyphage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taxmyphage/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ taxmyphage
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.9-0</code>,  <code>0.2.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.7-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.9-0</code>,  </span></summary>
       
 
-      ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
+      ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
 
       
       .. raw:: html
@@ -53,7 +53,7 @@ taxmyphage
    :depends on python: ``>=3.9,<3.13``
    :depends on python-wget: ``>=3.2.0,<4.0.0``
    :depends on scipy: ``>=1.11.3,<2.0.0``
-   :depends on seaborn: ``>=0.13.0,<0.14.0``
+   :depends on seaborn-base: ``>=0.13.0,<0.14.0``
    :depends on tqdm: ``>=4.66.1,<5.0.0``
    :depends on zipp: ``>=3.17.0,<4.0.0``
 
@@ -129,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "taxmyphage";
-        var versions = ["0.3.6","0.3.5","0.3.4","0.3.3","0.3.2"];
+        var versions = ["0.3.7","0.3.6","0.3.5","0.3.4","0.3.3"];
     </script>
 
 

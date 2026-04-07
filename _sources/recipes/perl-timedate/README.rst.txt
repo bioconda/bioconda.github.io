@@ -10,10 +10,10 @@ perl-timedate
    :replaces_section_title:
    :noindex:
 
-   Date formating subroutines
+   Date formating subroutines.
 
-   :homepage: http://metacpan.org/pod/TimeDate
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/TimeDate
+   :license: Perl_5
    :recipe: /`perl-timedate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-timedate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-timedate/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ perl-timedate
       
       
 
-      ``2.33-2``,  ``2.30-1``,  ``2.30-0``
+      ``2.35-0``,  ``2.33-2``,  ``2.30-1``,  ``2.30-0``
 
       
 
@@ -106,7 +106,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "perl-timedate";
-        var versions = ["2.33","2.30","2.30"];
+        var versions = ["2.35","2.33","2.30","2.30"];
     </script>
 
 

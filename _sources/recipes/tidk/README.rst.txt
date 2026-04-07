@@ -12,10 +12,12 @@ tidk
 
    Identify and find telomeres\, or telomeric repeats in a genome.
 
-
    :homepage: https://github.com/tolkit/telomeric-identifier
+   :documentation: https://github.com/tolkit/telomeric-identifier/blob/v0.2.7/README.md
+   
    :license: MIT / MIT
    :recipe: /`tidk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tidk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tidk/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btaf049`
 
    
 
@@ -32,7 +34,7 @@ tidk
          <details><summary><span class="truncated-version-list"><code>0.2.65-0</code>,  <code>0.2.64-0</code>,  <code>0.2.63-2</code>,  <code>0.2.63-1</code>,  <code>0.2.63-0</code>,  <code>0.2.41-0</code>,  <code>0.2.31-2</code>,  <code>0.2.31-1</code>,  <code>0.2.31-0</code>,  </span></summary>
       
 
-      ``0.2.65-0``,  ``0.2.64-0``,  ``0.2.63-2``,  ``0.2.63-1``,  ``0.2.63-0``,  ``0.2.41-0``,  ``0.2.31-2``,  ``0.2.31-1``,  ``0.2.31-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-1``,  ``0.1.5-0``
+      ``0.2.65-0``,  ``0.2.64-0``,  ``0.2.63-2``,  ``0.2.63-1``,  ``0.2.63-0``,  ``0.2.41-0``,  ``0.2.31-2``,  ``0.2.31-1``,  ``0.2.31-0``,  ``0.2.7-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-1``,  ``0.1.5-0``
 
       
       .. raw:: html

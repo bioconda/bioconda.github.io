@@ -13,7 +13,9 @@ genericrepeatfinder
    Generic Repeat Finder \(GRF\).
 
    :homepage: https://github.com/bioinfolabmu/GenericRepeatFinder
-   :license: GPL / GPLv3
+   :documentation: https://github.com/bioinfolabmu/GenericRepeatFinder/blob/v1.0.2/readme.txt
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`genericrepeatfinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genericrepeatfinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genericrepeatfinder/meta.yaml>`_
 
    
@@ -27,16 +29,22 @@ genericrepeatfinder
       
       
 
-      ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on cd-hit: 
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -108,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "genericrepeatfinder";
-        var versions = ["1.0.2","1.0.2","1.0.1","1.0.1","1.0"];
+        var versions = ["1.0.2","1.0.2","1.0.2","1.0.1","1.0.1"];
     </script>
 
 

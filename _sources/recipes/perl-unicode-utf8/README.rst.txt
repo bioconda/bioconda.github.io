@@ -10,10 +10,10 @@ perl-unicode-utf8
    :replaces_section_title:
    :noindex:
 
-   Encoding and decoding of UTF\-8 encoding form
+   Encoding and decoding of UTF\-8 encoding form.
 
-   :homepage: http://metacpan.org/pod/Unicode::UTF8
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/Unicode::UTF8
+   :license: Perl_5
    :recipe: /`perl-unicode-utf8 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-unicode-utf8>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-unicode-utf8/meta.yaml>`_
 
    
@@ -26,9 +26,17 @@ perl-unicode-utf8
    :versions:
       
       
+      .. raw:: html
 
-      ``0.66-0``,  ``0.62-8``,  ``0.62-7``,  ``0.62-6``,  ``0.62-5``,  ``0.62-4``,  ``0.62-3``,  ``0.62-1``,  ``0.62-0``
+         <details><summary><span class="truncated-version-list"><code>0.66-1</code>,  <code>0.66-0</code>,  <code>0.62-8</code>,  <code>0.62-7</code>,  <code>0.62-6</code>,  <code>0.62-5</code>,  <code>0.62-4</code>,  <code>0.62-3</code>,  <code>0.62-1</code>,  </span></summary>
+      
 
+      ``0.66-1``,  ``0.66-0``,  ``0.62-8``,  ``0.62-7``,  ``0.62-6``,  ``0.62-5``,  ``0.62-4``,  ``0.62-3``,  ``0.62-1``,  ``0.62-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -43,7 +51,7 @@ perl-unicode-utf8
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -115,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "perl-unicode-utf8";
-        var versions = ["0.66","0.62","0.62","0.62","0.62"];
+        var versions = ["0.66","0.66","0.62","0.62","0.62"];
     </script>
 
 

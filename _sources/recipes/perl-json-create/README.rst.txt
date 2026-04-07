@@ -10,10 +10,10 @@ perl-json-create
    :replaces_section_title:
    :noindex:
 
-   fast\, minimal\, UTF\-8\-only serialization of data to JSON
+   Fast\, minimal\, UTF\-8\-only serialization of data to JSON.
 
-   :homepage: http://metacpan.org/pod/JSON::Create
-   :license: perl_5
+   :homepage: https://metacpan.org/pod/JSON::Create
+   :license: Perl_5
    :recipe: /`perl-json-create <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-json-create>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-json-create/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ perl-json-create
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.35-5</code>,  <code>0.35-4</code>,  <code>0.35-3</code>,  <code>0.35-2</code>,  <code>0.35-1</code>,  <code>0.35-0</code>,  <code>0.24-3</code>,  <code>0.24-2</code>,  <code>0.24-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.36-0</code>,  <code>0.35-5</code>,  <code>0.35-4</code>,  <code>0.35-3</code>,  <code>0.35-2</code>,  <code>0.35-1</code>,  <code>0.35-0</code>,  <code>0.24-3</code>,  <code>0.24-2</code>,  </span></summary>
       
 
-      ``0.35-5``,  ``0.35-4``,  ``0.35-3``,  ``0.35-2``,  ``0.35-1``,  ``0.35-0``,  ``0.24-3``,  ``0.24-2``,  ``0.24-1``,  ``0.24-0``
+      ``0.36-0``,  ``0.35-5``,  ``0.35-4``,  ``0.35-3``,  ``0.35-2``,  ``0.35-1``,  ``0.35-0``,  ``0.24-3``,  ``0.24-2``,  ``0.24-1``,  ``0.24-0``
 
       
       .. raw:: html
@@ -40,20 +40,19 @@ perl-json-create
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on perl: ``>=5.26.2``
+   :depends on libgcc: ``>=14``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-carp: 
    :depends on perl-json-parse: ``>=0.60``
    :depends on perl-json-parse: ``>=0.62,<0.63.0a0``
    :depends on perl-unicode-utf8: ``>=0.62``
-   :depends on perl-unicode-utf8: ``>=0.62,<0.63.0a0``
+   :depends on perl-unicode-utf8: ``>=0.66,<0.67.0a0``
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -125,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "perl-json-create";
-        var versions = ["0.35","0.35","0.35","0.35","0.35"];
+        var versions = ["0.36","0.35","0.35","0.35","0.35"];
     </script>
 
 

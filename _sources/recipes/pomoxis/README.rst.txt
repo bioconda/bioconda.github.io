@@ -10,7 +10,7 @@ pomoxis
    :replaces_section_title:
    :noindex:
 
-   Assembly\, consensensus\, and analysis tools by ONT research
+   Assembly\, consensensus\, and analysis tools by ONT research.
 
    :homepage: https://github.com/nanoporetech/pomoxis
    :documentation: https://nanoporetech.github.io/pomoxis/index.html
@@ -30,10 +30,10 @@ pomoxis
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.16-0</code>,  <code>0.3.15-0</code>,  <code>0.3.13-0</code>,  <code>0.3.12-0</code>,  <code>0.3.11-0</code>,  <code>0.3.10-0</code>,  <code>0.3.9-0</code>,  <code>0.3.8-0</code>,  <code>0.3.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.0-0</code>,  <code>0.3.16-0</code>,  <code>0.3.15-0</code>,  <code>0.3.13-0</code>,  <code>0.3.12-0</code>,  <code>0.3.11-0</code>,  <code>0.3.10-0</code>,  <code>0.3.9-0</code>,  <code>0.3.8-0</code>,  </span></summary>
       
 
-      ``0.3.16-0``,  ``0.3.15-0``,  ``0.3.13-0``,  ``0.3.12-0``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``
+      ``0.4.0-0``,  ``0.3.16-0``,  ``0.3.15-0``,  ``0.3.13-0``,  ``0.3.12-0``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``
 
       
       .. raw:: html
@@ -44,17 +44,17 @@ pomoxis
    
    :depends on bcftools: ``>=1.9``
    :depends on bedtools: ``>=2.29.0``
-   :depends on biopython: ``>=1.63``
+   :depends on biopython: 
    :depends on intervaltree: ``>=3``
-   :depends on matplotlib-base: ``>=3.2.1``
+   :depends on matplotlib-base: 
    :depends on miniasm: ``>=0.3_r179``
    :depends on minimap2: ``>=2.17``
    :depends on ncls: ``>=0.0.65``
-   :depends on numpy: ``>=1.16.1``
-   :depends on pandas: ``>=0.24.2``
+   :depends on numpy: ``>=2.0``
+   :depends on pandas: 
    :depends on porechop: 
-   :depends on pysam: ``>=0.15.2``
-   :depends on python: ``>=3.6``
+   :depends on pysam: ``>=0.22``
+   :depends on python: ``>=3.10,<3.15``
    :depends on racon: ``>=1.3.1``
    :depends on samtools: ``>=1.9``
    :depends on seqkit: ``>=0.8.0``
@@ -131,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "pomoxis";
-        var versions = ["0.3.16","0.3.15","0.3.13","0.3.12","0.3.11"];
+        var versions = ["0.4.0","0.3.16","0.3.15","0.3.13","0.3.12"];
     </script>
 
 

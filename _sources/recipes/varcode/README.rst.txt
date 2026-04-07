@@ -10,7 +10,7 @@ varcode
    :replaces_section_title:
    :noindex:
 
-   Variant annotation in Python
+   Variant annotation in Python.
 
    :homepage: https://github.com/openvax/varcode
    :license: APACHE / Apache-2.0
@@ -27,20 +27,21 @@ varcode
       
       
 
-      ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``
+      ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``
 
       
 
    
    :depends on biopython: ``>=1.64``
    :depends on memoized-property: ``>=1.0.2``
-   :depends on numpy: ``>=1.7``
+   :depends on numpy: ``>=2.0.0``
    :depends on pandas: ``>=0.15``
    :depends on pyensembl: ``>=1.8.1``
    :depends on python: 
    :depends on pyvcf3: ``>=1.0.0``
    :depends on sercol: ``>=0.1.4``
    :depends on serializable: ``>=0.2.1``
+   :depends on setuptools: ``<82``
 
    :additional platforms:
       
@@ -114,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "varcode";
-        var versions = ["1.2.1","1.2.0","1.1.0"];
+        var versions = ["1.3.0","1.2.1","1.2.0","1.1.0"];
     </script>
 
 

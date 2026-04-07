@@ -12,8 +12,8 @@ snapatac2
 
    SnapATAC2\: Single\-cell epigenomics analysis pipeline.
 
-   :homepage: https://github.com/kaizhang/SnapATAC2
-   :documentation: https://kzhang.org/SnapATAC2
+   :homepage: https://github.com/scverse/SnapATAC2
+   :documentation: https://scverse.org/SnapATAC2
    
    :license: MIT / MIT
    :recipe: /`snapatac2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snapatac2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snapatac2/meta.yaml>`_
@@ -31,10 +31,10 @@ snapatac2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.8.0-2</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.7.1-1</code>,  <code>2.7.1-0</code>,  <code>2.7.0-0</code>,  <code>2.6.4-0</code>,  <code>2.5.3-0</code>,  <code>2.5.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.9.0-0</code>,  <code>2.8.0-2</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.7.1-1</code>,  <code>2.7.1-0</code>,  <code>2.7.0-0</code>,  <code>2.6.4-0</code>,  <code>2.5.3-0</code>,  </span></summary>
       
 
-      ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.1-1``,  ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.4-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``
+      ``2.9.0-0``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.1-1``,  ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.4-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``
 
       
       .. raw:: html
@@ -45,18 +45,17 @@ snapatac2
    
    :depends on anndata: 
    :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on macs3: 
    :depends on multiprocess: 
    :depends on natsort: 
-   :depends on numpy: ``>=1.16.0``
-   :depends on pandas: ``>=1.0,<2.1.2``
-   :depends on plotly: ``>=5.19.0``
+   :depends on numpy: ``>=2.0.0,<3.0.0``
+   :depends on pandas: ``>=2.2.0,<3.0.0``
+   :depends on plotly: ``>=5.19.0,<7.0.0``
    :depends on polars: ``>=1.0``
    :depends on pooch: ``>=1.6.0``
    :depends on pyarrow: 
-   :depends on pyfaidx: ``>=0.7.0,<0.8.0``
+   :depends on pyfaidx: ``>=0.7.0,<0.9.0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python-igraph: ``>=0.10.3``
    :depends on python-kaleido: 
@@ -69,6 +68,10 @@ snapatac2
    :depends on typing_extensions: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -140,7 +143,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "snapatac2";
-        var versions = ["2.8.0","2.8.0","2.8.0","2.7.1","2.7.1"];
+        var versions = ["2.9.0","2.8.0","2.8.0","2.8.0","2.7.1"];
     </script>
 
 

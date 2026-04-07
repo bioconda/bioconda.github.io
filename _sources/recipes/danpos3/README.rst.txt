@@ -27,7 +27,7 @@ danpos3
       
       
 
-      ``3.2.2-0``
+      ``3.2.3-0``,  ``3.2.2-0``
 
       
 
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "danpos3";
-        var versions = ["3.2.2"];
+        var versions = ["3.2.3","3.2.2"];
     </script>
 
 

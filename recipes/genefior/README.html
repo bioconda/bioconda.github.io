@@ -67,7 +67,7 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">genefior</span></span></dt>
-<dd><p>Genefíor: A customisable and multi-tool approach for gene detection</p>
+<dd><p>GeneFíor: A customisable and multi-tool approach for gene detection</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/NickJD/Genefior">https://github.com/NickJD/Genefior</a></p>
@@ -79,7 +79,7 @@
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genefior">genefior</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genefior/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>Genefíor orchestrates multiple alignment tools (BLAST, DIAMOND, Bowtie2, BWA, Minimap2 and MMseqs2)
+<p>GeneFíor orchestrates multiple alignment tools (BLAST, DIAMOND, Bowtie2, BWA, Minimap2 and MMseqs2)
 to search DNA and protein sequences against AMR and user-provided databases with transparent,
 coverage-based validation.</p>
 </dd></dl>
@@ -90,7 +90,7 @@ coverage-based validation.</p>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/genefior"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/genefior.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/genefior"><img alt="docker_genefior" src="https://quay.io/repository/biocontainers/genefior/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.7.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.7.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.7.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.6.0-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
@@ -99,7 +99,8 @@ coverage-based validation.</p>
 <li><p><strong>on bwa</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=0.7.19</span></code></p></li>
 <li><p><strong>on diamond</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=2.1.13</span></code></p></li>
 <li><p><strong>on minimap2</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=2.30</span></code></p></li>
-<li><p><strong>on mmseqs2</strong></p></li>
+<li><p><strong>on mmseqs2</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=18.8cc5c</span></code></p></li>
+<li><p><strong>on pigz</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=2.4</span></code></p></li>
 <li><p><strong>on python</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.10</span></code></p></li>
 <li><p><strong>on samtools</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.19.2</span></code></p></li>
 <li><p><strong>on seqtk</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.4</span></code></p></li>
@@ -161,7 +162,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
     var package = "genefior";
-    var versions = ["0.7.0","0.6.0"];
+    var versions = ["0.7.0","0.7.0","0.6.0"];
 </script></section>
 </section>
 <section id="download-stats">

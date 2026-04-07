@@ -12,8 +12,8 @@ tmalign
 
    TM\-align sequence\-order independent protein structure alignment.
 
-   :homepage: https://seq2fun.dcmb.med.umich.edu//TM-align
-   :documentation: https://seq2fun.dcmb.med.umich.edu/TM-align/readme.c++.txt
+   :homepage: https://github.com/pylelab/USalign
+   :documentation: https://aideepmed.com/TM-align
    
    :license: BSD / BSD-like
    :recipe: /`tmalign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tmalign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tmalign/meta.yaml>`_
@@ -31,10 +31,10 @@ tmalign
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>20220227-0</code>,  <code>20190822-0</code>,  <code>20170708-7</code>,  <code>20170708-6</code>,  <code>20170708-5</code>,  <code>20170708-4</code>,  <code>20170708-3</code>,  <code>20170708-2</code>,  <code>20170708-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>20240303-0</code>,  <code>20220227-0</code>,  <code>20190822-0</code>,  <code>20170708-7</code>,  <code>20170708-6</code>,  <code>20170708-5</code>,  <code>20170708-4</code>,  <code>20170708-3</code>,  <code>20170708-2</code>,  </span></summary>
       
 
-      ``20220227-0``,  ``20190822-0``,  ``20170708-7``,  ``20170708-6``,  ``20170708-5``,  ``20170708-4``,  ``20170708-3``,  ``20170708-2``,  ``20170708-1``,  ``20170708-0``
+      ``20240303-0``,  ``20220227-0``,  ``20190822-0``,  ``20170708-7``,  ``20170708-6``,  ``20170708-5``,  ``20170708-4``,  ``20170708-3``,  ``20170708-2``,  ``20170708-1``,  ``20170708-0``
 
       
       .. raw:: html
@@ -43,8 +43,8 @@ tmalign
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
       
@@ -122,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "tmalign";
-        var versions = ["20220227","20190822","20170708","20170708","20170708"];
+        var versions = ["20240303","20220227","20190822","20170708","20170708"];
     </script>
 
 

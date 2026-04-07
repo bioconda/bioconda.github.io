@@ -26,9 +26,17 @@ perl-extutils-parsexs
    :versions:
       
       
+      .. raw:: html
 
-      ``3.61-0``,  ``3.60-0``,  ``3.59-0``,  ``3.58-0``,  ``3.57-0``,  ``3.44-0``,  ``3.35-1``,  ``3.35-0``,  ``3.28-0``
+         <details><summary><span class="truncated-version-list"><code>3.63-0</code>,  <code>3.61-0</code>,  <code>3.60-0</code>,  <code>3.59-0</code>,  <code>3.58-0</code>,  <code>3.57-0</code>,  <code>3.44-0</code>,  <code>3.35-1</code>,  <code>3.35-0</code>,  </span></summary>
+      
 
+      ``3.63-0``,  ``3.61-0``,  ``3.60-0``,  ``3.59-0``,  ``3.58-0``,  ``3.57-0``,  ``3.44-0``,  ``3.35-1``,  ``3.35-0``,  ``3.28-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -110,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "perl-extutils-parsexs";
-        var versions = ["3.61","3.60","3.59","3.58","3.57"];
+        var versions = ["3.63","3.61","3.60","3.59","3.58"];
     </script>
 
 
