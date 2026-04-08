@@ -12,7 +12,9 @@ tefinder
 
    Programs for transposable element search and annotation in large eukaryotic genome sequence.
 
-   :homepage: https://forgemia.inra.fr/urgi-anagen/te_finder
+   :homepage: https://forge.inrae.fr/urgi/urgi-anagen/te_finder
+   :documentation: https://forge.inrae.fr/urgi/urgi-anagen/te_finder/-/blob/release-2.32/README.md
+   
    :license: CeCILL
    :recipe: /`tefinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tefinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tefinder/meta.yaml>`_
 
@@ -27,17 +29,21 @@ tefinder
       
       
 
-      ``2.32-1``,  ``2.32-0``
+      ``2.32-2``,  ``2.32-1``,  ``2.32-0``
 
       
 
    
    :depends on blast: 
    :depends on blast-legacy: 
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -109,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "tefinder";
-        var versions = ["2.32","2.32"];
+        var versions = ["2.32","2.32","2.32"];
     </script>
 
 

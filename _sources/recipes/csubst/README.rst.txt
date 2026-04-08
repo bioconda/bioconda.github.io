@@ -13,9 +13,9 @@ csubst
    Tool for analyzing combinatorial codon substitutions in DNA sequences.
 
    :homepage: https://github.com/kfuku52/csubst
-   :documentation: https://github.com/kfuku52/csubst/blob/v1.8.0/README.md
+   :documentation: https://github.com/kfuku52/csubst/blob/v1.11.10/README.md
    
-   :license: BSD / BSD-3-Clause
+   :license: MIT / MIT
    :recipe: /`csubst <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/csubst>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/csubst/meta.yaml>`_
    :links: doi: :doi:`10.1038/s41559-022-01932-7`
 
@@ -30,7 +30,7 @@ csubst
       
       
 
-      ``1.8.0-0``,  ``1.4.20-1``,  ``1.4.20-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
+      ``1.11.10-1``,  ``1.11.10-0``,  ``1.8.0-0``,  ``1.4.20-1``,  ``1.4.20-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
 
       
 
@@ -42,15 +42,19 @@ csubst
    :depends on libstdcxx: ``>=14``
    :depends on mafft: 
    :depends on matplotlib-base: 
-   :depends on numpy: ``>=1.23,<3``
+   :depends on numpy: ``>=1.21,<3``
    :depends on pandas: 
    :depends on pymol-open-source: 
-   :depends on python: ``>=3.13,<3.14.0a0``
-   :depends on python_abi: ``3.13.* *_cp313``
+   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on python_abi: ``3.10.* *_cp310``
    :depends on pyvolve: 
    :depends on scipy: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>osx-arm64</code></span>
       
 
 Installation
@@ -122,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "csubst";
-        var versions = ["1.8.0","1.4.20","1.4.20","1.4.0","1.4.0"];
+        var versions = ["1.11.10","1.11.10","1.8.0","1.4.20","1.4.20"];
     </script>
 
 

@@ -31,10 +31,10 @@ snapatac2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.9.0-0</code>,  <code>2.8.0-2</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.7.1-1</code>,  <code>2.7.1-0</code>,  <code>2.7.0-0</code>,  <code>2.6.4-0</code>,  <code>2.5.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.9.0-1</code>,  <code>2.9.0-0</code>,  <code>2.8.0-2</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.7.1-1</code>,  <code>2.7.1-0</code>,  <code>2.7.0-0</code>,  <code>2.6.4-0</code>,  </span></summary>
       
 
-      ``2.9.0-0``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.1-1``,  ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.4-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``
+      ``2.9.0-1``,  ``2.9.0-0``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.1-1``,  ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.4-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``
 
       
       .. raw:: html
@@ -143,7 +143,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "snapatac2";
-        var versions = ["2.9.0","2.8.0","2.8.0","2.8.0","2.7.1"];
+        var versions = ["2.9.0","2.9.0","2.8.0","2.8.0","2.8.0"];
     </script>
 
 

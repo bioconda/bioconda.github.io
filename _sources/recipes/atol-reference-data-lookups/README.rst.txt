@@ -27,7 +27,7 @@ atol-reference-data-lookups
       
       
 
-      ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -108,7 +108,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "atol-reference-data-lookups";
-        var versions = ["0.2.0","0.1.1","0.1.0"];
+        var versions = ["0.3.2","0.3.1","0.2.0","0.1.1","0.1.0"];
     </script>
 
 

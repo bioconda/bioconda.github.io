@@ -13,6 +13,8 @@ mtsv-tools
    mtsv\_tools contains core tools for alignment\-based metagenomic\/metatranscriptomic assignment.
 
    :homepage: https://github.com/FofanovLab/mtsv_tools
+   :documentation: https://github.com/FofanovLab/mtsv_tools/blob/2.1.1/README.md
+   
    :license: MIT / MIT
    :recipe: /`mtsv-tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mtsv-tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mtsv-tools/meta.yaml>`_
 
@@ -28,10 +30,10 @@ mtsv-tools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.2-4</code>,  <code>2.0.2-3</code>,  <code>2.0.2-2</code>,  <code>2.0.2-1</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.1-2</code>,  <code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.2-4</code>,  <code>2.0.2-3</code>,  <code>2.0.2-2</code>,  <code>2.0.2-1</code>,  <code>2.0.2-0</code>,  </span></summary>
       
 
-      ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-4``,  ``2.0.2-3``,  ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``2.1.1-2``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-4``,  ``2.0.2-3``,  ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -118,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "mtsv-tools";
-        var versions = ["2.1.1","2.1.1","2.1.0","2.0.2","2.0.2"];
+        var versions = ["2.1.1","2.1.1","2.1.1","2.1.0","2.0.2"];
     </script>
 
 

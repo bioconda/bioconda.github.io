@@ -28,10 +28,10 @@ perl-unicode-utf8
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.66-1</code>,  <code>0.66-0</code>,  <code>0.62-8</code>,  <code>0.62-7</code>,  <code>0.62-6</code>,  <code>0.62-5</code>,  <code>0.62-4</code>,  <code>0.62-3</code>,  <code>0.62-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.70-0</code>,  <code>0.66-1</code>,  <code>0.66-0</code>,  <code>0.62-8</code>,  <code>0.62-7</code>,  <code>0.62-6</code>,  <code>0.62-5</code>,  <code>0.62-4</code>,  <code>0.62-3</code>,  </span></summary>
       
 
-      ``0.66-1``,  ``0.66-0``,  ``0.62-8``,  ``0.62-7``,  ``0.62-6``,  ``0.62-5``,  ``0.62-4``,  ``0.62-3``,  ``0.62-1``,  ``0.62-0``
+      ``0.70-0``,  ``0.66-1``,  ``0.66-0``,  ``0.62-8``,  ``0.62-7``,  ``0.62-6``,  ``0.62-5``,  ``0.62-4``,  ``0.62-3``,  ``0.62-1``,  ``0.62-0``
 
       
       .. raw:: html
@@ -44,6 +44,7 @@ perl-unicode-utf8
    :depends on libstdcxx: ``>=14``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-carp: 
+   :depends on perl-devel-checkcompiler: ``>=0.7,<0.8.0a0``
    :depends on perl-exporter: 
    :depends on perl-test-fatal: ``0.016.*``
 
@@ -123,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "perl-unicode-utf8";
-        var versions = ["0.66","0.66","0.62","0.62","0.62"];
+        var versions = ["0.70","0.66","0.66","0.62","0.62"];
     </script>
 
 

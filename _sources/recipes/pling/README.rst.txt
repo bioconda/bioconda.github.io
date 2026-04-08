@@ -27,7 +27,7 @@ pling
       
       
 
-      ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``
+      ``3.0.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``
 
       
 
@@ -35,10 +35,10 @@ pling
    :depends on dingii: 
    :depends on glpk: ``>=5.0``
    :depends on intervaltree: ``>=3.0.2``
-   :depends on mummer: ``>=3.23``
+   :depends on mummer4: 
    :depends on numpy: ``>=1.26.0``
    :depends on pandas: ``>=1.5.3``
-   :depends on plasnet: ``>=0.6.0``
+   :depends on plasnet: ``>=0.7.0``
    :depends on python: ``>=3.9,<3.12``
    :depends on snakemake: ``>=7.25.4,<8.0.0``
    :depends on sourmash: ``>=4.4.0,<5.0.0``
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "pling";
-        var versions = ["2.0.2","2.0.1","2.0.0"];
+        var versions = ["3.0.0","2.0.2","2.0.1","2.0.0"];
     </script>
 
 

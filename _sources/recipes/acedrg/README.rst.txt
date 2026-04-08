@@ -12,9 +12,8 @@ acedrg
 
    ACEDRG\: ligand\/monosaccharide building and restraint generation tools from CCP4
 
-   :homepage: https://ccp4forge.rc-harwell.ac.uk/ccp4/acedrg
-   :documentation: https://ccp4.github.io/acedrg/
-   
+   :homepage: https://www2.mrc-lmb.cam.ac.uk/groups/murshudov/content/acedrg/acedrg.html
+   :developer docs: https://ccp4forge.rc-harwell.ac.uk/ccp4/acedrg
    :license: MOZILLA / MPL-2.0
    :recipe: /`acedrg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/acedrg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/acedrg/meta.yaml>`_
    :links: doi: :doi:`10.1107/S2059798317000067`
@@ -33,7 +32,7 @@ acedrg
       
       
 
-      ``330-0``
+      ``330-1``,  ``330-0``
 
       
 
@@ -125,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "acedrg";
-        var versions = ["330"];
+        var versions = ["330","330"];
     </script>
 
 

@@ -31,10 +31,10 @@ metabat2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.18-1</code>,  <code>2.18-0</code>,  <code>2.17-1</code>,  <code>2.17-0</code>,  <code>2.15-2</code>,  <code>2.15-1</code>,  <code>2.15-0</code>,  <code>2.14-0</code>,  <code>2.13-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.18-2</code>,  <code>2.18-1</code>,  <code>2.18-0</code>,  <code>2.17-1</code>,  <code>2.17-0</code>,  <code>2.15-2</code>,  <code>2.15-1</code>,  <code>2.15-0</code>,  <code>2.14-0</code>,  </span></summary>
       
 
-      ``2.18-1``,  ``2.18-0``,  ``2.17-1``,  ``2.17-0``,  ``2.15-2``,  ``2.15-1``,  ``2.15-0``,  ``2.14-0``,  ``2.13-1``,  ``2.13-0``,  ``2.12.1-1``,  ``2.12.1-0``
+      ``2.18-2``,  ``2.18-1``,  ``2.18-0``,  ``2.17-1``,  ``2.17-0``,  ``2.15-2``,  ``2.15-1``,  ``2.15-0``,  ``2.14-0``,  ``2.13-1``,  ``2.13-0``,  ``2.12.1-1``,  ``2.12.1-0``
 
       
       .. raw:: html
@@ -129,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "metabat2";
-        var versions = ["2.18","2.18","2.17","2.17","2.15"];
+        var versions = ["2.18","2.18","2.18","2.17","2.17"];
     </script>
 
 

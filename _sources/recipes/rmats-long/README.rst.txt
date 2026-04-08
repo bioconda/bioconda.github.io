@@ -10,10 +10,10 @@ rmats-long
    :replaces_section_title:
    :noindex:
 
-   rMATS\-long is an integrated computational workflow for long\-read RNA\-seq data
+   Differential isoform analysis using long\-read RNA\-seq data.
 
    :homepage: https://github.com/Xinglab/rMATS-long
-   :license: Free for non-commercial use, see LICENSE file
+   :license: BSD / BSD-2-Clause
    :recipe: /`rmats-long <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rmats-long>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rmats-long/meta.yaml>`_
 
    
@@ -27,24 +27,38 @@ rmats-long
       
       
 
-      ``1.0.0-0``
+      ``2.0.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends on bioconductor-biocparallel: 
    :depends on bioconductor-drimseq: 
-   :depends on matplotlib-base: 
-   :depends on networkx: 
-   :depends on numpy: 
-   :depends on pandas: 
-   :depends on python: ``>=3.6``
+   :depends on libgcc: ``>=14``
+   :depends on matplotlib-base: ``>=3.7``
+   :depends on networkx: ``>=2.8``
+   :depends on numpy: ``>=1.24``
+   :depends on pandas: ``>=2``
+   :depends on pydot: ``>=3``
+   :depends on python: ``>=3.11,<3.12.0a0``
+   :depends on python_abi: ``3.11.* *_cp311``
    :depends on r-base: 
    :depends on r-cowplot: 
    :depends on r-ggplot2: 
+   :depends on r-ggrepel: 
+   :depends on r-ggvenndiagram: 
+   :depends on r-mclogit: 
    :depends on r-stringi: ``>=1.7.8``
+   :depends on r-this.path: 
+   :depends on rpy2: ``>=3.5``
+   :depends on samtools: 
+   :depends on threadpoolctl: ``>=3.6``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
 Installation
@@ -116,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "rmats-long";
-        var versions = ["1.0.0"];
+        var versions = ["2.0.1","1.0.0"];
     </script>
 
 

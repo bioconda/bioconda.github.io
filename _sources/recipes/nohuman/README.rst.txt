@@ -13,7 +13,7 @@ nohuman
    Remove human reads from a sequencing run.
 
    :homepage: https://github.com/mbhall88/nohuman
-   :documentation: https://github.com/mbhall88/nohuman/blob/0.5.0/README.md
+   :documentation: https://github.com/mbhall88/nohuman/blob/0.5.1/README.md
    
    :license: MIT / MIT
    :recipe: /`nohuman <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nohuman>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nohuman/meta.yaml>`_
@@ -30,14 +30,14 @@ nohuman
       
       
 
-      ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
-   :depends on kraken2: ``2.1.6.*``
-   :depends on libgcc: ``>=13``
-   :depends on liblzma: ``>=5.8.1,<6.0a0``
+   :depends on kraken2: ``2.*``
+   :depends on libgcc: ``>=14``
+   :depends on liblzma: ``>=5.8.2,<6.0a0``
 
    :additional platforms:
       
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "nohuman";
-        var versions = ["0.5.0","0.4.0","0.3.0","0.3.0","0.2.1"];
+        var versions = ["0.5.1","0.5.0","0.4.0","0.3.0","0.3.0"];
     </script>
 
 
