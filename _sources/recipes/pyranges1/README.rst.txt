@@ -12,8 +12,8 @@ pyranges1
 
    GenomicRanges for Python.
 
-   :homepage: http://github.com/pyranges/pyranges_1.x
-   :license: MIT
+   :homepage: https://github.com/pyranges/pyranges_1.x
+   :license: MIT / MIT
    :recipe: /`pyranges1 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyranges1>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyranges1/meta.yaml>`_
 
    
@@ -27,18 +27,22 @@ pyranges1
       
       
 
-      ``1.3.4-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.1.6-0``
+      ``1.3.6-0``,  ``1.3.4-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.1.6-0``
 
       
 
    
    :depends on bamread: 
+   :depends on fire: 
+   :depends on gtfreader: ``>=0.2.0``
+   :depends on joblib: 
    :depends on natsort: 
    :depends on pandas: 
    :depends on pybigwig: 
-   :depends on pyrle: ``>=0.0.41``
+   :depends on pyfaidx: 
+   :depends on pyrle: ``>=0.0.43``
    :depends on python: ``>=3.12``
-   :depends on ruranges: ``>=0.1.1``
+   :depends on ruranges: ``>=0.1.2``
    :depends on tabulate: 
 
    :additional platforms:
@@ -113,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "pyranges1";
-        var versions = ["1.3.4","1.3.2","1.3.0","1.1.6"];
+        var versions = ["1.3.6","1.3.4","1.3.2","1.3.0","1.1.6"];
     </script>
 
 

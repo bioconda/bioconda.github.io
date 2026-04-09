@@ -27,18 +27,19 @@ faststructure
       
       
 
-      ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.0-7``,  ``1.0-6``,  ``1.0-5``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
-   :depends on gsl: ``>=2.8,<2.9.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on liblapack: ``>=3.9.0,<3.10.0a0``
+   :depends on gsl: ``>=2.7,<2.8.0a0``
+   :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on matplotlib-base: 
-   :depends on numpy: ``>=1.23,<3``
-   :depends on python: ``>=3.11,<3.12.0a0``
-   :depends on python_abi: ``3.11.* *_cp311``
+   :depends on numpy: ``>=1.21,<3``
+   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on python_abi: ``3.10.* *_cp310``
    :depends on scipy: 
 
    :additional platforms:

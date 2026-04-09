@@ -15,10 +15,10 @@ pneumo-typer
    :homepage: https://www.microbialgenomic.cn/Pneumo-Typer.html
    :documentation: https://github.com/Xiangyang1984/Pneumo-Typer
    
-   :license: GNU General Public License v3.0 or any later version (GPL-3.0-or-later)
+   :license: GPL-3.0-or-later
    :recipe: /`pneumo-typer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pneumo-typer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pneumo-typer/meta.yaml>`_
 
-   Pneumo\-Typer is a stand\-alone perl application\, which requires blat\, prodigal\, NCBI BLAST\+\, and several perl Modules \(GD\, GD\:\:SVG\) to be installed before use.
+   Pneumo\-Typer is a stand\-alone perl application\, which requires blat\, prodigal\, NCBI BLAST\+\, and several perl Modules \(GD\, GD\:\:SVG\, Net\:\:OAuth\, JSON\, LWP\:\:UserAgent\, HTTP\:\:Request\:\:Common\, Data\:\:Random\, Config\:\:Tiny\) to be installed before use.
 
 
 .. conda:package:: pneumo-typer
@@ -29,18 +29,19 @@ pneumo-typer
       
       
 
-      ``2.0.1-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
+      ``2.0.2-0``,  ``2.0.1-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``
 
       
 
    
    :depends on blast: 
-   :depends on blat: 
    :depends on perl-bioperl-core: 
    :depends on perl-gd: ``>=2.74``
    :depends on perl-gd-svg: 
+   :depends on perl-lwp-protocol-https: 
    :depends on perl-svg: ``>=2.87``
    :depends on prodigal: 
+   :depends on ucsc-blat: 
 
    :additional platforms:
       
@@ -114,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "pneumo-typer";
-        var versions = ["2.0.1","1.0.3","1.0.2","1.0.2","1.0.1"];
+        var versions = ["2.0.2","2.0.1","1.0.3","1.0.2","1.0.2"];
     </script>
 
 

@@ -13,9 +13,9 @@ smaca
    smaca is a python tool to detect putative SMA carriers and estimate the absolute SMN1 copy\-number in a population.
 
    :homepage: https://github.com/babelomics/SMAca
-   :license: GPL-3.0
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`smaca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smaca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smaca/meta.yaml>`_
-   :links: doi: :doi:`https://zenodo.org/badge/latestdoi/250259934`
+   :links: doi: :doi:`10.1002/humu.24120`, doi: :doi:`10.5281/zenodo.3731299`, biotools: :biotools:`smaca`
 
    
 
@@ -28,21 +28,25 @@ smaca
       
       
 
-      ``1.2.3-6``,  ``1.2.3-5``,  ``1.2.3-4``,  ``1.2.3-3``,  ``1.2.3-2``,  ``1.2.3-1``,  ``1.2.3-0``
+      ``1.2.4rc11-0``,  ``1.2.3-6``,  ``1.2.3-5``,  ``1.2.3-4``,  ``1.2.3-3``,  ``1.2.3-2``,  ``1.2.3-1``,  ``1.2.3-0``
 
       
 
    
    :depends on click: 
    :depends on joblib: 
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on numpy: ``>=1.22.4,<2.0a0``
-   :depends on pysam: ``>=0.22.1,<0.23.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on numpy: ``>=1.21,<3``
+   :depends on pysam: ``>=0.23.3,<0.24.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -114,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "smaca";
-        var versions = ["1.2.3","1.2.3","1.2.3","1.2.3","1.2.3"];
+        var versions = ["1.2.4rc11","1.2.3","1.2.3","1.2.3","1.2.3"];
     </script>
 
 

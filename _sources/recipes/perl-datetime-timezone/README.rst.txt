@@ -49,7 +49,7 @@ perl-datetime-timezone
    :depends on perl-params-validationcompiler: ``0.31.*``
    :depends on perl-specio: ``0.53.*``
    :depends on perl-test-fatal: ``0.016.*``
-   :depends on perl-try-tiny: ``0.31.*``
+   :depends on perl-try-tiny: ``0.32.*``
 
    :additional platforms:
       

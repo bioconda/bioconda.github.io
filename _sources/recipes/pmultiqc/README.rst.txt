@@ -10,11 +10,14 @@ pmultiqc
    :replaces_section_title:
    :noindex:
 
-   Python package for quality control of proteomics datasets\, based on multiqc package
+   Python package for quality control of proteomics datasets\, based on multiqc package.
 
-   :homepage: https://github.com/bigbio/pmultiqc/
+   :homepage: https://github.com/bigbio/pmultiqc
+   :documentation: https://pmultiqc.quantms.org
+   
    :license: MIT / MIT
    :recipe: /`pmultiqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pmultiqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pmultiqc/meta.yaml>`_
+   :links: biotools: :biotools:`pmultiqc`
 
    
 
@@ -28,10 +31,10 @@ pmultiqc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.43-0</code>,  <code>0.0.42-0</code>,  <code>0.0.41-0</code>,  <code>0.0.40-0</code>,  <code>0.0.39-0</code>,  <code>0.0.38-0</code>,  <code>0.0.36-1</code>,  <code>0.0.36-0</code>,  <code>0.0.34-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.44-0</code>,  <code>0.0.43-0</code>,  <code>0.0.42-0</code>,  <code>0.0.41-0</code>,  <code>0.0.40-0</code>,  <code>0.0.39-0</code>,  <code>0.0.38-0</code>,  <code>0.0.36-1</code>,  <code>0.0.36-0</code>,  </span></summary>
       
 
-      ``0.0.43-0``,  ``0.0.42-0``,  ``0.0.41-0``,  ``0.0.40-0``,  ``0.0.39-0``,  ``0.0.38-0``,  ``0.0.36-1``,  ``0.0.36-0``,  ``0.0.34-0``,  ``0.0.33-0``,  ``0.0.32-0``,  ``0.0.31-0``,  ``0.0.30-0``,  ``0.0.29-0``,  ``0.0.28-0``,  ``0.0.27-0``,  ``0.0.26-0``,  ``0.0.25-0``,  ``0.0.24-0``,  ``0.0.23-0``,  ``0.0.22-0``,  ``0.0.21-0``,  ``0.0.20-0``,  ``0.0.19-0``,  ``0.0.18-0``,  ``0.0.17-0``,  ``0.0.16-0``,  ``0.0.15-0``,  ``0.0.14-0``,  ``0.0.13-0``,  ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.5-0``,  ``0.0.4-0``
+      ``0.0.44-0``,  ``0.0.43-0``,  ``0.0.42-0``,  ``0.0.41-0``,  ``0.0.40-0``,  ``0.0.39-0``,  ``0.0.38-0``,  ``0.0.36-1``,  ``0.0.36-0``,  ``0.0.34-0``,  ``0.0.33-0``,  ``0.0.32-0``,  ``0.0.31-0``,  ``0.0.30-0``,  ``0.0.29-0``,  ``0.0.28-0``,  ``0.0.27-0``,  ``0.0.26-0``,  ``0.0.25-0``,  ``0.0.24-0``,  ``0.0.23-0``,  ``0.0.22-0``,  ``0.0.21-0``,  ``0.0.20-0``,  ``0.0.19-0``,  ``0.0.18-0``,  ``0.0.17-0``,  ``0.0.16-0``,  ``0.0.15-0``,  ``0.0.14-0``,  ``0.0.13-0``,  ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.5-0``,  ``0.0.4-0``
 
       
       .. raw:: html
@@ -41,14 +44,14 @@ pmultiqc
 
    
    :depends on lxml: 
-   :depends on multiqc: ``>=1.29,<=1.32``
+   :depends on multiqc: ``>=1.29,<=1.33``
    :depends on numpy: ``>=1.23``
    :depends on pandas: ``>=1.5``
    :depends on pyarrow: 
    :depends on pyopenms: ``<=3.4.0``
    :depends on pyteomics: 
    :depends on pytest: 
-   :depends on python: ``>=3.10,<3.13``
+   :depends on python: ``>=3.10,<3.14``
    :depends on scikit-learn: ``>=1.2``
    :depends on sdrf-pipelines: ``>=0.1.2``
    :depends on statsmodels: 
@@ -126,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "pmultiqc";
-        var versions = ["0.0.43","0.0.42","0.0.41","0.0.40","0.0.39"];
+        var versions = ["0.0.44","0.0.43","0.0.42","0.0.41","0.0.40"];
     </script>
 
 

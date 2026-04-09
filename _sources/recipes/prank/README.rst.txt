@@ -32,10 +32,10 @@ prank
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>170427-1</code>,  <code>170427-0</code>,  <code>v.170427-7</code>,  <code>v.170427-6</code>,  <code>v.170427-5</code>,  <code>v.170427-4</code>,  <code>v.170427-3</code>,  <code>v.170427-2</code>,  <code>v.170427-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>251117-0</code>,  <code>170427-1</code>,  <code>170427-0</code>,  <code>v.170427-7</code>,  <code>v.170427-6</code>,  <code>v.170427-5</code>,  <code>v.170427-4</code>,  <code>v.170427-3</code>,  <code>v.170427-2</code>,  </span></summary>
       
 
-      ``170427-1``,  ``170427-0``,  ``v.170427-7``,  ``v.170427-6``,  ``v.170427-5``,  ``v.170427-4``,  ``v.170427-3``,  ``v.170427-2``,  ``v.170427-1``,  ``v.170427-0``,  ``v.150803-0``
+      ``251117-0``,  ``170427-1``,  ``170427-0``,  ``v.170427-7``,  ``v.170427-6``,  ``v.170427-5``,  ``v.170427-4``,  ``v.170427-3``,  ``v.170427-2``,  ``v.170427-1``,  ``v.170427-0``,  ``v.150803-0``
 
       
       .. raw:: html
@@ -44,8 +44,8 @@ prank
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
       
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "prank";
-        var versions = ["170427","170427","v.170427","v.170427","v.170427"];
+        var versions = ["251117","170427","170427","v.170427","v.170427"];
     </script>
 
 

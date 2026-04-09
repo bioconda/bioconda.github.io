@@ -10,7 +10,7 @@ chromsize
    :replaces_section_title:
    :noindex:
 
-   just get your chrom sizes
+   Just get your chrom sizes.
 
    :homepage: https://github.com/alejandrogzi/chromsize
    :license: MIT / MIT
@@ -27,13 +27,13 @@ chromsize
       
       
 
-      ``0.0.32-0``,  ``0.0.31-0``,  ``0.0.3-0``,  ``0.0.2-1``,  ``0.0.2-0``
+      ``0.0.34-0``,  ``0.0.32-0``,  ``0.0.31-0``,  ``0.0.3-0``,  ``0.0.2-1``,  ``0.0.2-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
       
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "chromsize";
-        var versions = ["0.0.32","0.0.31","0.0.3","0.0.2","0.0.2"];
+        var versions = ["0.0.34","0.0.32","0.0.31","0.0.3","0.0.2"];
     </script>
 
 

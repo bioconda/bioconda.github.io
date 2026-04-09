@@ -13,7 +13,7 @@ medaka
    A tool to create consensus sequences and variant calls from nanopore sequencing data using neural networks.
 
    :homepage: https://github.com/nanoporetech/medaka
-   :documentation: https://github.com/nanoporetech/medaka/blob/v2.2.0/README.md
+   :documentation: https://github.com/nanoporetech/medaka/blob/v2.2.1/README.md
    
    :license: OTHER / Oxford Nanopore Technologies PLC. Public License Version 1.0
    :recipe: /`medaka <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/medaka>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/medaka/meta.yaml>`_
@@ -31,10 +31,10 @@ medaka
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.1-2</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.11.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.1-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  <code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.1-2</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  </span></summary>
       
 
-      ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.1-2``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.11.3-0``,  ``1.11.2-0``,  ``1.11.1-0``,  ``1.11.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.7.2-1``,  ``1.7.2-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.2.6-1``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.12.1-0``,  ``0.11.5-1``,  ``0.11.5-0``,  ``0.11.4-0``,  ``0.11.3-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-1``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-1``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.2-0``,  ``0.6.0-0``,  ``0.5.2-0``
+      ``2.2.1-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.1-2``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.11.3-0``,  ``1.11.2-0``,  ``1.11.1-0``,  ``1.11.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.7.2-1``,  ``1.7.2-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.1-2``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.2.6-1``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.12.1-0``,  ``0.11.5-1``,  ``0.11.5-0``,  ``0.11.4-0``,  ``0.11.3-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-1``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.10.0-1``,  ``0.10.0-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-1``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.2-0``,  ``0.6.0-0``,  ``0.5.2-0``
 
       
       .. raw:: html
@@ -48,14 +48,14 @@ medaka
    :depends on cffi: 
    :depends on grpcio: 
    :depends on h5py: 
-   :depends on htslib: ``>=1.20``
-   :depends on htslib: ``>=1.23,<1.24.0a0``
+   :depends on htslib: ``>=1.14``
+   :depends on htslib: ``>=1.23.1,<1.24.0a0``
    :depends on intervaltree: 
-   :depends on libcurl: ``>=8.18.0,<9.0a0``
+   :depends on libcurl: ``>=8.19.0,<9.0a0``
    :depends on libgcc: ``>=14``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on mappy: ``>=2.28``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on mappy: 
    :depends on minimap2: ``>=2.24``
    :depends on numpy: ``>=2.0.0``
    :depends on ont-fast5-api: 
@@ -63,10 +63,10 @@ medaka
    :depends on pyabpoa: 
    :depends on pysam: ``>=0.16.0.1``
    :depends on pyspoa: ``>=0.2.1``
-   :depends on python: ``>=3.12,<3.13.0a0``
+   :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python-edlib: 
-   :depends on python_abi: ``3.12.* *_cp312``
-   :depends on pytorch: ``>=2.9.*``
+   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on pytorch: ``2.9.*``
    :depends on requests: 
    :depends on samtools: ``>=1.14``
    :depends on tensordict: 
@@ -150,7 +150,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "medaka";
-        var versions = ["2.2.0","2.2.0","2.1.1","2.1.1","2.1.0"];
+        var versions = ["2.2.1","2.2.0","2.2.0","2.1.1","2.1.1"];
     </script>
 
 

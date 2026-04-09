@@ -33,7 +33,6 @@ vine-phylo
       
 
    
-   :depends on libgcc: ``>=14``
    :depends on pcre: ``>=8.45,<9.0a0``
    :depends on phast: ``>=1.9.7,<2.0a0``
 

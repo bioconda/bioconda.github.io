@@ -44,7 +44,7 @@ lofreq
    
    :depends on bcftools: 
    :depends on gsl: ``>=2.7,<2.8.0a0``
-   :depends on htslib: ``>=1.21,<1.24.0a0``
+   :depends on htslib: ``>=1.21,<1.22.0a0``
    :depends on libgcc: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``

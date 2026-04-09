@@ -32,8 +32,8 @@ magmax
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on seqtk: 
    :depends on skani: 
    :depends on spades: 

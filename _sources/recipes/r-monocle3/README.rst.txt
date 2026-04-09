@@ -59,8 +59,7 @@ r-monocle3
    :depends on bioconductor-singlecellexperiment: ``>=1.28.0,<1.29.0a0``
    :depends on bioconductor-summarizedexperiment: ``>=1.11.5``
    :depends on bioconductor-summarizedexperiment: ``>=1.36.0,<1.37.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on r-assertthat: ``>=0.2.1``
    :depends on r-base: ``>=4.4,<4.5.0a0``
    :depends on r-bpcells: ``>=0.3.0,<0.4.0a0``

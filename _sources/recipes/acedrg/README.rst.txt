@@ -43,8 +43,8 @@ acedrg
    :depends on networkx: 
    :depends on numpy: 
    :depends on pdbecif: 
-   :depends on python: ``>=3.10,<3.11.0a0 *_cpython``
-   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on python: ``>=3.11,<3.12.0a0 *_cpython``
+   :depends on python_abi: ``3.11.* *_cp311``
    :depends on rdkit: 
    :depends on servalcat: 
 

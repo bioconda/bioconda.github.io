@@ -39,7 +39,6 @@ dark-matter
    :depends on dendropy: ``>=5.0.1``
    :depends on ete3: ``>=3.1.3``
    :depends on ipython: ``>=8.12.3``
-   :depends on libgcc: ``>=13``
    :depends on matplotlib-base: ``>=3.7.5``
    :depends on mysql-connector-python: ``>=9.0.0``
    :depends on numpy: ``>=1.14.2``
