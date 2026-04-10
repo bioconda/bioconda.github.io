@@ -10,16 +10,16 @@ rust-ncbitaxonomy
    :replaces_section_title:
    :noindex:
 
-   A Rust crate for working with a local copy of the NCBI Taxonomy database\, which provides utilities for taxonomic filtering.
-
+   Tools and a Rust crate for working with the NCBI Taxonomy database.
 
    :homepage: https://github.com/pvanheus/ncbitaxonomy
-   :documentation: https://docs.rs/crate/ncbitaxonomy/1.0.7
+   :documentation: https://docs.rs/crate/ncbitaxonomy/1.1.0
    
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`rust-ncbitaxonomy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-ncbitaxonomy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-ncbitaxonomy/meta.yaml>`_
 
-   
+   This package provides some tools for working with \(querying\, converting\) the NCBI Taxonomy database as well as filtering based on the NCBI Taxonomy and output of tools such as kraken2 and centrifuge.
+
 
 
 .. conda:package:: rust-ncbitaxonomy
@@ -31,10 +31,10 @@ rust-ncbitaxonomy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.7-6</code>,  <code>1.0.7-5</code>,  <code>1.0.7-4</code>,  <code>1.0.7-3</code>,  <code>1.0.7-2</code>,  <code>1.0.7-1</code>,  <code>1.0.7-0</code>,  <code>1.0.5-0</code>,  <code>1.0.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.0-0</code>,  <code>1.0.7-6</code>,  <code>1.0.7-5</code>,  <code>1.0.7-4</code>,  <code>1.0.7-3</code>,  <code>1.0.7-2</code>,  <code>1.0.7-1</code>,  <code>1.0.7-0</code>,  <code>1.0.5-0</code>,  </span></summary>
       
 
-      ``1.0.7-6``,  ``1.0.7-5``,  ``1.0.7-4``,  ``1.0.7-3``,  ``1.0.7-2``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.5-0``,  ``1.0.3-0``,  ``0.3.0-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
+      ``1.1.0-0``,  ``1.0.7-6``,  ``1.0.7-5``,  ``1.0.7-4``,  ``1.0.7-3``,  ``1.0.7-2``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.5-0``,  ``1.0.3-0``,  ``0.3.0-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
 
       
       .. raw:: html
@@ -43,9 +43,8 @@ rust-ncbitaxonomy
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libsqlite: ``>=3.47.2,<4.0a0``
-   :depends on sqlite: 
+   :depends on libgcc: ``>=14``
+   :depends on libsqlite: ``>=3.53.0,<4.0a0``
 
    :additional platforms:
       
@@ -123,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "rust-ncbitaxonomy";
-        var versions = ["1.0.7","1.0.7","1.0.7","1.0.7","1.0.7"];
+        var versions = ["1.1.0","1.0.7","1.0.7","1.0.7","1.0.7"];
     </script>
 
 

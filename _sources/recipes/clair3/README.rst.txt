@@ -13,7 +13,7 @@ clair3
    Clair3 is a small variant caller for long\-reads. Clair3 makes the best of both worlds of using pileup or full\-alignment as input for deep\-learning based long\-read small variant calling. Clair3 is simple and modular for easy deployment and integration.
 
    :homepage: https://github.com/HKU-BAL/Clair3
-   :license: BSD-3-Clause
+   :license: BSD / BSD-3-Clause
    :recipe: /`clair3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clair3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clair3/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ clair3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.11-0</code>,  <code>1.0.10-1</code>,  <code>1.0.10-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.11-0</code>,  <code>1.0.10-1</code>,  </span></summary>
       
 
-      ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.11-0``,  ``1.0.10-1``,  ``1.0.10-0``,  ``1.0.8-2``,  ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.12-6``,  ``0.1.12-5``,  ``0.1.12-4``,  ``0.1.12-2``,  ``0.1.12-1``,  ``0.1.12-0``,  ``0.1.11-6``,  ``0.1.11-5``,  ``0.1.11-4``,  ``0.1.11-3``,  ``0.1.11-2``,  ``0.1.11-1``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4.2-0``,  ``0.1.4.1-0``,  ``0.1.4-0``
+      ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.11-0``,  ``1.0.10-1``,  ``1.0.10-0``,  ``1.0.8-2``,  ``1.0.8-1``,  ``1.0.8-0``,  ``1.0.7-1``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.1.12-6``,  ``0.1.12-5``,  ``0.1.12-4``,  ``0.1.12-2``,  ``0.1.12-1``,  ``0.1.12-0``,  ``0.1.11-6``,  ``0.1.11-5``,  ``0.1.11-4``,  ``0.1.11-3``,  ``0.1.11-2``,  ``0.1.11-1``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4.2-0``,  ``0.1.4.1-0``,  ``0.1.4-0``
 
       
       .. raw:: html
@@ -53,7 +53,7 @@ clair3
    :depends on longphase: ``>=2.0.1,<3.0a0``
    :depends on numexpr: 
    :depends on numpy: 
-   :depends on openssl: ``>=3.5.5,<4.0a0``
+   :depends on openssl: ``>=3.5.6,<4.0a0``
    :depends on parallel: ``>=20191122``
    :depends on pigz: 
    :depends on python: ``>=3.11,<3.12.0a0``
@@ -63,7 +63,6 @@ clair3
    :depends on torchmetrics: 
    :depends on tqdm: 
    :depends on whatshap: ``>=1.0``
-   :depends on zstd: 
 
    :additional platforms:
       
@@ -141,7 +140,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "clair3";
-        var versions = ["2.0.0","2.0.0","1.2.0","1.1.2","1.1.1"];
+        var versions = ["2.0.0","2.0.0","2.0.0","1.2.0","1.1.2"];
     </script>
 
 

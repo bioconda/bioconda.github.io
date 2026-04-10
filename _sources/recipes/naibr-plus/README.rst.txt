@@ -27,7 +27,7 @@ naibr-plus
       
       
 
-      ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5-0``
+      ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5-0``
 
       
 
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "naibr-plus";
-        var versions = ["0.5.3","0.5.2","0.5.1","0.5"];
+        var versions = ["0.5.4","0.5.3","0.5.2","0.5.1","0.5"];
     </script>
 
 

@@ -13,7 +13,9 @@ dark-matter
    Python library and utility scripts for working with genetic sequence data.
 
    :homepage: https://github.com/acorg/dark-matter
-   :license: MIT
+   :documentation: https://github.com/acorg/dark-matter/blob/master/README.md
+   
+   :license: MIT / MIT
    :recipe: /`dark-matter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dark-matter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dark-matter/meta.yaml>`_
 
    
@@ -27,33 +29,43 @@ dark-matter
       
       
 
-      ``5.1.2-0``
+      ``7.1.18-0``,  ``5.1.2-0``
 
       
 
    
-   :depends on biopython: ``>=1.83``
+   :depends on bcftools: 
+   :depends on bio: ``>=1.8.1``
+   :depends on biopython: ``>=1.87``
    :depends on bz2file: ``>=0.98``
    :depends on cachetools: ``>=5.5.2``
-   :depends on cython: ``>=0.29.16``
    :depends on dendropy: ``>=5.0.1``
-   :depends on ete3: ``>=3.1.3``
+   :depends on diamond: 
+   :depends on emboss: 
+   :depends on ete4: ``>=4.3.0``
    :depends on ipython: ``>=8.12.3``
    :depends on matplotlib-base: ``>=3.7.5``
    :depends on mysql-connector-python: ``>=9.0.0``
    :depends on numpy: ``>=1.14.2``
+   :depends on picard-slim: 
+   :depends on plotly: ``>=6.6.0``
+   :depends on polars: ``>=1.36.1``
    :depends on progressbar: ``>=2.5``
+   :depends on prseq: ``>=0.0.33``
    :depends on pysam: ``>=0.23.0``
-   :depends on python: ``>=3.12,<3.13.0a0``
-   :depends on python-edlib: ``>=1.3.9``
-   :depends on python_abi: ``3.12.* *_cp312``
+   :depends on python: ``<3.14``
+   :depends on python-edlib: ``>=1.3.9.post1``
+   :depends on python-kaleido: ``>=1.2.0``
    :depends on pyzmq: ``>=14.3.1``
    :depends on requests: ``>=2.32.3``
    :depends on rich: ``>=14.0.0``
+   :depends on samtools: 
    :depends on scikit-learn: ``>=1.3.2``
    :depends on simplejson: ``>=3.5.3``
+   :depends on summarize-ranges: ``>=0.1.1``
    :depends on types-cachetools: ``>=5.5.0``
    :depends on types-requests: ``>=2.32.0``
+   :depends on xlsxwriter: ``>=3.2.9``
 
    :additional platforms:
       
@@ -127,7 +139,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "dark-matter";
-        var versions = ["5.1.2"];
+        var versions = ["7.1.18","5.1.2"];
     </script>
 
 

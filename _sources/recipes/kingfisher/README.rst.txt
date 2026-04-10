@@ -10,9 +10,11 @@ kingfisher
    :replaces_section_title:
    :noindex:
 
-   Download\/extract biological FASTA\/Q read data and metadata
+   Download\/extract biological FASTA\/Q read data and metadata.
 
    :homepage: https://github.com/wwood/kingfisher-download
+   :documentation: https://wwood.github.io/kingfisher-download
+   
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`kingfisher <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kingfisher>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kingfisher/meta.yaml>`_
 
@@ -26,9 +28,17 @@ kingfisher
    :versions:
       
       
+      .. raw:: html
 
-      ``0.4.1-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.1.2-0``,  ``0.1.0-1``,  ``0.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.5.0-0</code>,  <code>0.4.1-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-1</code>,  <code>0.2.1-0</code>,  <code>0.1.2-0</code>,  <code>0.1.0-1</code>,  </span></summary>
+      
 
+      ``0.5.0-0``,  ``0.4.1-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.1.2-0``,  ``0.1.0-1``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -40,7 +50,7 @@ kingfisher
    :depends on pandas: 
    :depends on pigz: 
    :depends on pyarrow: 
-   :depends on python: 
+   :depends on python: ``>=3.7``
    :depends on requests: 
    :depends on sra-tools: ``>=3.0.5``
    :depends on sracat: 
@@ -118,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "kingfisher";
-        var versions = ["0.4.1","0.3.1","0.3.0","0.2.2","0.2.1"];
+        var versions = ["0.5.0","0.4.1","0.3.1","0.3.0","0.2.2"];
     </script>
 
 

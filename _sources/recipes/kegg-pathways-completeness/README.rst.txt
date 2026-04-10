@@ -13,7 +13,7 @@ kegg-pathways-completeness
    The tool counts completeness of each KEGG pathway for protein sequences.
 
    :homepage: https://github.com/EBI-Metagenomics/kegg-pathways-completeness-tool
-   :documentation: https://github.com/EBI-Metagenomics/kegg-pathways-completeness-tool/blob/1.4.2/README.md
+   :documentation: https://github.com/EBI-Metagenomics/kegg-pathways-completeness-tool/blob/1.4.3/README.md
    
    :license: APACHE / Apache-2.0
    :recipe: /`kegg-pathways-completeness <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kegg-pathways-completeness>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kegg-pathways-completeness/meta.yaml>`_
@@ -29,7 +29,7 @@ kegg-pathways-completeness
       
       
 
-      ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
+      ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
 
       
 
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "kegg-pathways-completeness";
-        var versions = ["1.4.2","1.4.0","1.3.0","1.2.1","1.0.5"];
+        var versions = ["1.4.3","1.4.2","1.4.0","1.3.0","1.2.1"];
     </script>
 
 

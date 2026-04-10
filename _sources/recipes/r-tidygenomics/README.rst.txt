@@ -40,9 +40,10 @@ r-tidygenomics
       
 
    
-   :depends on bioconductor-iranges: ``>=2.44.0,<2.45.0a0``
-   :depends on libcxx: ``>=19``
-   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
+   :depends on r-base: ``>=4.4,<4.5.0a0``
    :depends on r-dplyr: 
    :depends on r-fuzzyjoin: ``>=0.1.3``
    :depends on r-purrr: 

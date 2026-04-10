@@ -32,10 +32,10 @@ masurca
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.1.4-0</code>,  <code>4.1.3-1</code>,  <code>4.1.3-0</code>,  <code>4.1.2-0</code>,  <code>4.1.1-2</code>,  <code>4.1.1-1</code>,  <code>4.1.1-0</code>,  <code>4.1.0-1</code>,  <code>4.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.1.4-1</code>,  <code>4.1.4-0</code>,  <code>4.1.3-1</code>,  <code>4.1.3-0</code>,  <code>4.1.2-0</code>,  <code>4.1.1-2</code>,  <code>4.1.1-1</code>,  <code>4.1.1-0</code>,  <code>4.1.0-1</code>,  </span></summary>
       
 
-      ``4.1.4-0``,  ``4.1.3-1``,  ``4.1.3-0``,  ``4.1.2-0``,  ``4.1.1-2``,  ``4.1.1-1``,  ``4.1.1-0``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.9-1``,  ``4.0.9-0``,  ``4.0.8-1``,  ``4.0.8-0``,  ``4.0.7-1``,  ``4.0.7-0``,  ``4.0.6-0``,  ``3.4.2-1``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.9-0``,  ``3.3.8-0``,  ``3.3.7-0``,  ``3.3.6-0``,  ``3.3.5-0``,  ``3.3.4-0``,  ``3.3.3-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.9-0``,  ``3.2.8-0``,  ``3.2.7-0``
+      ``4.1.4-1``,  ``4.1.4-0``,  ``4.1.3-1``,  ``4.1.3-0``,  ``4.1.2-0``,  ``4.1.1-2``,  ``4.1.1-1``,  ``4.1.1-0``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.9-1``,  ``4.0.9-0``,  ``4.0.8-1``,  ``4.0.8-0``,  ``4.0.7-1``,  ``4.0.7-0``,  ``4.0.6-0``,  ``3.4.2-1``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.9-0``,  ``3.3.8-0``,  ``3.3.7-0``,  ``3.3.6-0``,  ``3.3.5-0``,  ``3.3.4-0``,  ``3.3.3-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.9-0``,  ``3.2.8-0``,  ``3.2.7-0``
 
       
       .. raw:: html
@@ -47,12 +47,20 @@ masurca
    :depends on boost-cpp: 
    :depends on bwa: 
    :depends on bzip2: ``>=1.0.8,<2.0a0``
+   :depends on coreutils: 
+   :depends on file: 
+   :depends on gdbm: ``>=1.18,<1.19.0a0``
    :depends on grep: 
+   :depends on gzip: 
    :depends on libgcc: ``>=12``
+   :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libstdcxx: ``>=12``
    :depends on libxcrypt: ``>=4.4.36``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on ncurses: ``>=6.5,<7.0a0``
+   :depends on openssl: ``>=3.5.6,<4.0a0``
    :depends on perl: 
+   :depends on python: 
 
    :additional platforms:
       
@@ -126,7 +134,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "masurca";
-        var versions = ["4.1.4","4.1.3","4.1.3","4.1.2","4.1.1"];
+        var versions = ["4.1.4","4.1.4","4.1.3","4.1.3","4.1.2"];
     </script>
 
 

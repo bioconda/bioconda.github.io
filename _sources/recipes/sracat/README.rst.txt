@@ -10,17 +10,15 @@ sracat
    :replaces_section_title:
    :noindex:
 
-   a command\-line tool for extracting unordered read data from SRA files
+   A command\-line tool for extracting unordered read data from SRA files.
 
    :homepage: https://github.com/lanl/sracat
+   :documentation: https://github.com/lanl/sracat/blob/v0.2/README.md
+   
    :license: BSD / BSD-3-Clause
    :recipe: /`sracat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sracat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sracat/meta.yaml>`_
 
-   sracat is small C\+\+ program that uses the NCBI sra\-toolkit C\+\+ API to
-   extract sequence \(and optionally quailty scores\) from SRA records. Unlike
-   the fasterq\-dump program included with the sra\-toolkit\, sracat does not
-   output the reads in their origianlly submitted order\, but rather outputs
-   reads in the order in which they are stored in the SRA file.
+   sracat is small C\+\+ program that uses the NCBI sra\-toolkit C\+\+ API to extract sequence \(and optionally quailty scores\) from SRA records. Unlike the fasterq\-dump program included with the sra\-toolkit\, sracat does not output the reads in their origianlly submitted order\, but rather outputs reads in the order in which they are stored in the SRA file.
 
 
 
@@ -32,17 +30,25 @@ sracat
       
       
 
-      ``0.2-3``,  ``0.2-2``,  ``0.2-1``,  ``0.2-0``
+      ``0.2-4``,  ``0.2-3``,  ``0.2-2``,  ``0.2-1``,  ``0.2-0``
 
       
 
    
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on ca-certificates: 
-   :depends on libcxx: ``>=18``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on zlib: 
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on ncbi-vdb: ``>=3.4.1,<4.0a0``
+   :depends on sra-tools: ``>=3.4.1,<4.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -114,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "sracat";
-        var versions = ["0.2","0.2","0.2","0.2"];
+        var versions = ["0.2","0.2","0.2","0.2","0.2"];
     </script>
 
 

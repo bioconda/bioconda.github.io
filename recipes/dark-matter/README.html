@@ -72,11 +72,14 @@
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/acorg/dark-matter">https://github.com/acorg/dark-matter</a></p>
 </dd>
-<dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>MIT</p>
+<dt class="field-even">Documentation<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://github.com/acorg/dark-matter/blob/master/README.md">https://github.com/acorg/dark-matter/blob/master/README.md</a></p>
 </dd>
-<dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dark-matter">dark-matter</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dark-matter/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">License<span class="colon">:</span></dt>
+<dd class="field-odd"><p>MIT / MIT</p>
+</dd>
+<dt class="field-even">Recipe<span class="colon">:</span></dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dark-matter">dark-matter</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dark-matter/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -87,32 +90,42 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/dark-matter"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/dark-matter.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/dark-matter"><img alt="docker_dark-matter" src="https://quay.io/repository/biocontainers/dark-matter/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">5.1.2-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">7.1.18-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">5.1.2-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><strong>on biopython</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.83</span></code></p></li>
+<li><p><strong>on bcftools</strong></p></li>
+<li><p><strong>on bio</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.8.1</span></code></p></li>
+<li><p><strong>on biopython</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.87</span></code></p></li>
 <li><p><strong>on bz2file</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=0.98</span></code></p></li>
 <li><p><strong>on cachetools</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=5.5.2</span></code></p></li>
-<li><p><strong>on cython</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=0.29.16</span></code></p></li>
 <li><p><strong>on dendropy</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=5.0.1</span></code></p></li>
-<li><p><strong>on ete3</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.1.3</span></code></p></li>
+<li><p><strong>on diamond</strong></p></li>
+<li><p><strong>on emboss</strong></p></li>
+<li><p><strong>on ete4</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=4.3.0</span></code></p></li>
 <li><p><strong>on ipython</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=8.12.3</span></code></p></li>
 <li><p><strong>on matplotlib-base</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.7.5</span></code></p></li>
 <li><p><strong>on mysql-connector-python</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=9.0.0</span></code></p></li>
 <li><p><strong>on numpy</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.14.2</span></code></p></li>
+<li><p><strong>on picard-slim</strong></p></li>
+<li><p><strong>on plotly</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=6.6.0</span></code></p></li>
+<li><p><strong>on polars</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.36.1</span></code></p></li>
 <li><p><strong>on progressbar</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=2.5</span></code></p></li>
+<li><p><strong>on prseq</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=0.0.33</span></code></p></li>
 <li><p><strong>on pysam</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=0.23.0</span></code></p></li>
-<li><p><strong>on python</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.12,&lt;3.13.0a0</span></code></p></li>
-<li><p><strong>on python-edlib</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.3.9</span></code></p></li>
-<li><p><strong>on python_abi</strong> <code class="docutils literal notranslate"><span class="pre">3.12.* *_cp312</span></code></p></li>
+<li><p><strong>on python</strong> <code class="docutils literal notranslate"><span class="pre">&lt;3.14</span></code></p></li>
+<li><p><strong>on python-edlib</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.3.9.post1</span></code></p></li>
+<li><p><strong>on python-kaleido</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.2.0</span></code></p></li>
 <li><p><strong>on pyzmq</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=14.3.1</span></code></p></li>
 <li><p><strong>on requests</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=2.32.3</span></code></p></li>
 <li><p><strong>on rich</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=14.0.0</span></code></p></li>
+<li><p><strong>on samtools</strong></p></li>
 <li><p><strong>on scikit-learn</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.3.2</span></code></p></li>
 <li><p><strong>on simplejson</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.5.3</span></code></p></li>
+<li><p><strong>on summarize-ranges</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=0.1.1</span></code></p></li>
 <li><p><strong>on types-cachetools</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=5.5.0</span></code></p></li>
 <li><p><strong>on types-requests</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=2.32.0</span></code></p></li>
+<li><p><strong>on xlsxwriter</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.2.9</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
@@ -171,7 +184,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
     var package = "dark-matter";
-    var versions = ["5.1.2"];
+    var versions = ["7.1.18","5.1.2"];
 </script></section>
 </section>
 <section id="download-stats">

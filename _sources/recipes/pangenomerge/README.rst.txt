@@ -27,18 +27,18 @@ pangenomerge
       
       
 
-      ``0.9.0-0``
+      ``0.9.1-0``,  ``0.9.0-0``
 
       
 
    
    :depends on biopython: ``>=1.80``
-   :depends on edlib: 
    :depends on mmseqs2: 
    :depends on networkx: ``>=3.4.2``
    :depends on numpy: 
    :depends on pandas: 
    :depends on python: 
+   :depends on python-edlib: 
    :depends on scikit-learn: 
    :depends on scipy: 
    :depends on tqdm: 
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "pangenomerge";
-        var versions = ["0.9.0"];
+        var versions = ["0.9.1","0.9.0"];
     </script>
 
 
