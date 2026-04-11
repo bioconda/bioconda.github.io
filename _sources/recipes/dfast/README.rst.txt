@@ -48,8 +48,7 @@ dfast
    :depends on blast: ``>=2.6.0``
    :depends on ghostx: 
    :depends on hmmer: ``>=3.1b2``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on openjdk: 
    :depends on plasmidfinder: ``>=2.1.6``

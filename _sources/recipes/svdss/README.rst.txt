@@ -13,7 +13,7 @@ svdss
    Structural Variant Discovery from Sample\-specific Strings.
 
    :homepage: https://github.com/Parsoa/SVDSS
-   :documentation: https://github.com/Parsoa/SVDSS/blob/v2.1.0/README.md
+   :documentation: https://github.com/Parsoa/SVDSS/blob/v2.1.1/README.md
    
    :license: MIT / MIT
    :recipe: /`svdss <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svdss>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svdss/meta.yaml>`_
@@ -29,9 +29,17 @@ svdss
    :versions:
       
       
+      .. raw:: html
 
-      ``2.1.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``
+         <details><summary><span class="truncated-version-list"><code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.0.5-2</code>,  <code>1.0.5-1</code>,  <code>1.0.5-0</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  </span></summary>
+      
 
+      ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0.5-2``,  ``1.0.5-1``,  ``1.0.5-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -39,13 +47,13 @@ svdss
    :depends on bcftools: ``>=1.9``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on gsl: ``>=2.7,<2.8.0a0``
-   :depends on htslib: ``>=1.21,<1.24.0a0``
+   :depends on htslib: ``>=1.23.1,<1.24.0a0``
    :depends on kanpig: 
-   :depends on libgcc: ``>=13``
+   :depends on libgcc: ``>=14``
    :depends on libgomp: 
-   :depends on liblzma: ``>=5.8.1,<6.0a0``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on samtools: ``>=1.9``
 
    :additional platforms:
@@ -120,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "svdss";
-        var versions = ["2.1.0","2.0.0","2.0.0","1.0.5","1.0.5"];
+        var versions = ["2.1.1","2.1.0","2.0.0","2.0.0","1.0.5"];
     </script>
 
 

@@ -10,10 +10,10 @@ reseq2
    :replaces_section_title:
    :noindex:
 
-   Realistic Illumina paired\-end sequencing simulator
+   Realistic Illumina paired\-end sequencing simulator.
 
    :homepage: https://github.com/berntpopp/ReSeq2
-   :documentation: https://berntpopp.github.io/ReSeq2/
+   :documentation: https://berntpopp.github.io/ReSeq2
    
    :license: MIT / MIT
    :recipe: /`reseq2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reseq2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reseq2/meta.yaml>`_
@@ -36,7 +36,7 @@ reseq2
       
       
 
-      ``2.0.3-0``
+      ``2.0.3-1``,  ``2.0.3-0``
 
       
 
@@ -49,6 +49,10 @@ reseq2
    :depends on nlopt: ``>=2.10.1,<2.11.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
 Installation
@@ -120,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "reseq2";
-        var versions = ["2.0.3"];
+        var versions = ["2.0.3","2.0.3"];
     </script>
 
 

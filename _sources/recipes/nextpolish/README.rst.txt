@@ -30,15 +30,14 @@ nextpolish
       
       
 
-      ``1.4.1-6``,  ``1.4.1-5``,  ``1.4.1-4``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``
+      ``1.4.1-7``,  ``1.4.1-6``,  ``1.4.1-5``,  ``1.4.1-4``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-1``,  ``1.4.1-0``
 
       
 
    
    :depends on bwa: 
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on minimap2: 
    :depends on paralleltask: 

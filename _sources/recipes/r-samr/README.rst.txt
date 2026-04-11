@@ -28,10 +28,10 @@ r-samr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0-9</code>,  <code>3.0-8</code>,  <code>3.0-7</code>,  <code>3.0-6</code>,  <code>3.0-5</code>,  <code>3.0-4</code>,  <code>3.0-3</code>,  <code>3.0-2</code>,  <code>3.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.1-0</code>,  <code>3.0-9</code>,  <code>3.0-8</code>,  <code>3.0-7</code>,  <code>3.0-6</code>,  <code>3.0-5</code>,  <code>3.0-4</code>,  <code>3.0-3</code>,  <code>3.0-2</code>,  </span></summary>
       
 
-      ``3.0-9``,  ``3.0-8``,  ``3.0-7``,  ``3.0-6``,  ``3.0-5``,  ``3.0-4``,  ``3.0-3``,  ``3.0-2``,  ``3.0-1``,  ``3.0-0``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+      ``3.0.1-0``,  ``3.0-9``,  ``3.0-8``,  ``3.0-7``,  ``3.0-6``,  ``3.0-5``,  ``3.0-4``,  ``3.0-3``,  ``3.0-2``,  ``3.0-1``,  ``3.0-0``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
 
       
       .. raw:: html
@@ -42,7 +42,6 @@ r-samr
    
    :depends on bioconductor-impute: ``>=1.56.0``
    :depends on bioconductor-impute: ``>=1.84.0,<1.85.0a0``
-   :depends on libgcc: ``>=14``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-gsa: 
    :depends on r-matrixstats: 
@@ -51,6 +50,10 @@ r-samr
    :depends on r-shinyfiles: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -122,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "r-samr";
-        var versions = ["3.0","3.0","3.0","3.0","3.0"];
+        var versions = ["3.0.1","3.0","3.0","3.0","3.0"];
     </script>
 
 

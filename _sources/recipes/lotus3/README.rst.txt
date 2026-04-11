@@ -29,7 +29,7 @@ lotus3
       
       
 
-      ``3.03-1``,  ``3.03-0``
+      ``3.10-0``,  ``3.03-1``,  ``3.03-0``
 
       
 
@@ -45,7 +45,7 @@ lotus3
    :depends on iqtree: 
    :depends on itsx: 
    :depends on lambda: ``>=3,<4``
-   :depends on lca: ``>=0.25``
+   :depends on lca: ``>=0.27``
    :depends on mafft: 
    :depends on minimap2: 
    :depends on perl: 
@@ -55,7 +55,7 @@ lotus3
    :depends on r-dplyr: 
    :depends on rdp_classifier: 
    :depends on rtk: 
-   :depends on sdm: ``2.18``
+   :depends on sdm: ``3.26``
    :depends on swarm: 
    :depends on unzip: 
    :depends on usearch: ``>=12.0_beta,<13``
@@ -135,7 +135,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "lotus3";
-        var versions = ["3.03","3.03"];
+        var versions = ["3.10","3.03","3.03"];
     </script>
 
 

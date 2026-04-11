@@ -32,10 +32,10 @@ gffread
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.12.7-6</code>,  <code>0.12.7-5</code>,  <code>0.12.7-4</code>,  <code>0.12.7-3</code>,  <code>0.12.7-2</code>,  <code>0.12.7-1</code>,  <code>0.12.7-0</code>,  <code>0.12.1-1</code>,  <code>0.12.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.12.9-0</code>,  <code>0.12.7-6</code>,  <code>0.12.7-5</code>,  <code>0.12.7-4</code>,  <code>0.12.7-3</code>,  <code>0.12.7-2</code>,  <code>0.12.7-1</code>,  <code>0.12.7-0</code>,  <code>0.12.1-1</code>,  </span></summary>
       
 
-      ``0.12.7-6``,  ``0.12.7-5``,  ``0.12.7-4``,  ``0.12.7-3``,  ``0.12.7-2``,  ``0.12.7-1``,  ``0.12.7-0``,  ``0.12.1-1``,  ``0.12.1-0``,  ``0.11.7-0``,  ``0.11.6-0``,  ``0.11.4-0``,  ``0.9.12-0``,  ``0.9.9-1``,  ``0.9.9-0``,  ``0.9.8-0``
+      ``0.12.9-0``,  ``0.12.7-6``,  ``0.12.7-5``,  ``0.12.7-4``,  ``0.12.7-3``,  ``0.12.7-2``,  ``0.12.7-1``,  ``0.12.7-0``,  ``0.12.1-1``,  ``0.12.1-0``,  ``0.11.7-0``,  ``0.11.6-0``,  ``0.11.4-0``,  ``0.9.12-0``,  ``0.9.9-1``,  ``0.9.9-0``,  ``0.9.8-0``
 
       
       .. raw:: html
@@ -44,9 +44,8 @@ gffread
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
       
@@ -124,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "gffread";
-        var versions = ["0.12.7","0.12.7","0.12.7","0.12.7","0.12.7"];
+        var versions = ["0.12.9","0.12.7","0.12.7","0.12.7","0.12.7"];
     </script>
 
 

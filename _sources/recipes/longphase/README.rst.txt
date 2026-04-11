@@ -13,6 +13,8 @@ longphase
    LongPhase is an ultra\-fast program for simultaneously co\-phasing SNPs\, small indels\, large SVs\, and \(5mC\) modifications for Nanopore and PacBio platforms.
 
    :homepage: https://github.com/twolinin/longphase
+   :documentation: https://github.com/twolinin/longphase/blob/v2.0.1/README.md
+   
    :license: GPL3 / GPL-3.0-only
    :recipe: /`longphase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/longphase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/longphase/meta.yaml>`_
 
@@ -27,16 +29,17 @@ longphase
       
       
 
-      ``2.0.1-0``,  ``2.0-0``,  ``1.7.3-0``
+      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0-0``,  ``1.7.3-0``
 
       
 
    
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libstdcxx: ``>=14``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libcurl: ``>=8.19.0,<9.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on llvm-openmp: ``>=19.1.7``
 
    :additional platforms:
       
@@ -114,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "longphase";
-        var versions = ["2.0.1","2.0","1.7.3"];
+        var versions = ["2.0.1","2.0.1","2.0","1.7.3"];
     </script>
 
 

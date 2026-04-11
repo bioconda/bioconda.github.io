@@ -67,13 +67,13 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">cesar</span></span></dt>
-<dd><p>CESAR 2.0 is a method to realign coding exons or genes to DNA sequences using a Hidden Markov Model</p>
+<dd><p>CESAR 2.0 is a method to realign coding exons or genes to DNA sequences using a Hidden Markov Model.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/hillerlab/CESAR2.0">https://github.com/hillerlab/CESAR2.0</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>MIT license</p>
+<dd class="field-even"><p>MIT / MIT</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cesar">cesar</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cesar/meta.yaml">meta.yaml</a></p>
@@ -85,18 +85,17 @@
 <dt class="sig sig-object conda" id="package-cesar">
 <span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">cesar</span></span><a class="headerlink" href="#package-cesar" title="Link to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/cesar"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/cesar.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/cesar"><img alt="docker_cesar" src="https://quay.io/repository/biocontainers/cesar/status" /></a></p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.01-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.01-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.01-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.01-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.02-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.01-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.01-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.01-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.01-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><strong>on libgcc</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p></li>
-<li><p><strong>on libstdcxx</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p></li>
+<li><p><strong>on libcxx</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=19</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
+<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
 </dl>
 </dd></dl>
 
@@ -151,7 +150,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
     var package = "cesar";
-    var versions = ["1.01","1.01","1.01","1.01"];
+    var versions = ["1.02","1.01","1.01","1.01","1.01"];
 </script></section>
 </section>
 <section id="download-stats">

@@ -17,7 +17,7 @@ htseq
    
    :license: GPL3 / GPL-3.0-only
    :recipe: /`htseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/htseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/htseq/meta.yaml>`_
-   :links: biotools: :biotools:`htseq`, usegalaxy-eu: :usegalaxy-eu:`htseq_count`, doi: :doi:`10.1093/bioinformatics/btu638`
+   :links: biotools: :biotools:`htseq`, usegalaxy-eu: :usegalaxy-eu:`htseq_count`, doi: :doi:`10.1093/bioinformatics/btu638`, doi: :doi:`10.1093/bioinformatics/btac166`
 
    
 
@@ -31,10 +31,10 @@ htseq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.2-1</code>,  <code>2.1.2-0</code>,  <code>2.0.9-0</code>,  <code>2.0.5-4</code>,  <code>2.0.5-3</code>,  <code>2.0.5-2</code>,  <code>2.0.5-1</code>,  <code>2.0.5-0</code>,  <code>2.0.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.2-2</code>,  <code>2.1.2-1</code>,  <code>2.1.2-0</code>,  <code>2.0.9-0</code>,  <code>2.0.5-4</code>,  <code>2.0.5-3</code>,  <code>2.0.5-2</code>,  <code>2.0.5-1</code>,  <code>2.0.5-0</code>,  </span></summary>
       
 
-      ``2.1.2-1``,  ``2.1.2-0``,  ``2.0.9-0``,  ``2.0.5-4``,  ``2.0.5-3``,  ``2.0.5-2``,  ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.99.2-2``,  ``1.99.2-1``,  ``1.99.2-0``,  ``0.13.5-1``,  ``0.13.5-0``,  ``0.12.4-2``,  ``0.12.4-1``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.11.3-0``,  ``0.11.2-1``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-1``,  ``0.11.0-0``,  ``0.9.1-4``,  ``0.9.1-3``,  ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.7.2-4``,  ``0.7.2-3``,  ``0.7.2-2``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.6.1.post1-6``,  ``0.6.1.post1-5``,  ``0.6.1.post1-4``,  ``0.6.1-5``,  ``0.6.1-4``,  ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.1p1-1``,  ``0.6.1p1-0``
+      ``2.1.2-2``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.0.9-0``,  ``2.0.5-4``,  ``2.0.5-3``,  ``2.0.5-2``,  ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.99.2-2``,  ``1.99.2-1``,  ``1.99.2-0``,  ``0.13.5-1``,  ``0.13.5-0``,  ``0.12.4-2``,  ``0.12.4-1``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.11.3-0``,  ``0.11.2-1``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-1``,  ``0.11.0-0``,  ``0.9.1-4``,  ``0.9.1-3``,  ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.7.2-4``,  ``0.7.2-3``,  ``0.7.2-2``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.6.1.post1-6``,  ``0.6.1.post1-5``,  ``0.6.1.post1-4``,  ``0.6.1-5``,  ``0.6.1-4``,  ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.1p1-1``,  ``0.6.1p1-0``
 
       
       .. raw:: html
@@ -43,17 +43,15 @@ htseq
       
 
    
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
-   :depends on matplotlib-base: ``>=1.4``
-   :depends on numpy: ``>=1.23,<3``
-   :depends on numpy: ``>=2.4.2,<3.0a0``
-   :depends on pandas: ``>=1.1.0``
-   :depends on pysam: ``>=0.15.1``
+   :depends on anndata: 
+   :depends on libcxx: ``>=19``
+   :depends on loompy: 
+   :depends on matplotlib-base: 
+   :depends on numpy: ``>=1.21,<3``
    :depends on pysam: ``>=0.23.3,<0.24.0a0``
-   :depends on python: ``>=3.13,<3.14.0a0``
-   :depends on python_abi: ``3.13.* *_cp313``
-   :depends on scipy: ``>=1.5.0``
+   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on scipy: 
 
    :additional platforms:
       
@@ -131,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "htseq";
-        var versions = ["2.1.2","2.1.2","2.0.9","2.0.5","2.0.5"];
+        var versions = ["2.1.2","2.1.2","2.1.2","2.0.9","2.0.5"];
     </script>
 
 

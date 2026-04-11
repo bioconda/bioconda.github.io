@@ -10,11 +10,10 @@ cesar
    :replaces_section_title:
    :noindex:
 
-   CESAR 2.0 is a method to realign coding exons or genes to DNA sequences using a Hidden Markov Model
-
+   CESAR 2.0 is a method to realign coding exons or genes to DNA sequences using a Hidden Markov Model.
 
    :homepage: https://github.com/hillerlab/CESAR2.0
-   :license: MIT license
+   :license: MIT / MIT
    :recipe: /`cesar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cesar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cesar/meta.yaml>`_
 
    
@@ -28,15 +27,18 @@ cesar
       
       
 
-      ``1.01-3``,  ``1.01-2``,  ``1.01-1``,  ``1.01-0``
+      ``1.02-0``,  ``1.01-3``,  ``1.01-2``,  ``1.01-1``,  ``1.01-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=19``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -108,7 +110,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "cesar";
-        var versions = ["1.01","1.01","1.01","1.01"];
+        var versions = ["1.02","1.01","1.01","1.01","1.01"];
     </script>
 
 
