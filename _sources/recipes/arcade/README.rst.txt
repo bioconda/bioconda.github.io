@@ -13,7 +13,7 @@ arcade
    Allelic Recoding via gram\-sChmidt for Dominance Effects \(ARCADE\) \- C\+\+ tools for encoding biallelic variants for non\-additive genetic association analysis
 
    :homepage: https://github.com/frhl/call_chets
-   :documentation: https://frhl.github.io/call_chets/
+   :documentation: https://frhl.github.io/call_chets
    
    :license: MIT
    :recipe: /`arcade <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/arcade>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/arcade/meta.yaml>`_
@@ -29,16 +29,15 @@ arcade
       
       
 
-      ``1.0.16-0``
+      ``1.0.17-0``,  ``1.0.16-0``
 
       
 
    
-   :depends on htslib: ``>=1.23,<1.24.0a0``
+   :depends on htslib: ``>=1.23.1,<1.24.0a0``
    :depends on libgcc: ``>=14``
    :depends on libstdcxx: ``>=14``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on zlib: 
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
       
@@ -116,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "arcade";
-        var versions = ["1.0.16"];
+        var versions = ["1.0.17","1.0.16"];
     </script>
 
 

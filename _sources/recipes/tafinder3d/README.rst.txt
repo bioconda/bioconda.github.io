@@ -30,7 +30,7 @@ tafinder3d
       
       
 
-      ``1.0.7-0``
+      ``1.0.9-0``,  ``1.0.7-0``
 
       
 
@@ -121,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "tafinder3d";
-        var versions = ["1.0.7"];
+        var versions = ["1.0.9","1.0.7"];
     </script>
 
 

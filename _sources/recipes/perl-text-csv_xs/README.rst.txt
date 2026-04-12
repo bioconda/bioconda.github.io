@@ -32,7 +32,6 @@ perl-text-csv_xs
       
 
    
-   :depends on libgcc-ng: ``>=12``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-test-harness: 
    :depends on perl-text-csv: 

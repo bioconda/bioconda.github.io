@@ -43,6 +43,7 @@ pybigwig
 
    
    :depends on libcurl: ``>=8.18.0,<9.0a0``
+   :depends on libgcc: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on numpy: ``>=1.21,<3``
    :depends on numpy: ``>=2.2.6,<3.0a0``

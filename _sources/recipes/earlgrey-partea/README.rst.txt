@@ -10,7 +10,7 @@ earlgrey-partea
    :replaces_section_title:
    :noindex:
 
-   Pangenome transposable element annotation pipeline using EarlGrey
+   Pangenome transposable element annotation pipeline using EarlGrey.
 
    :homepage: https://github.com/TobyBaril/EarlGreyParTEA
    :license: OSL-2.1
@@ -30,7 +30,7 @@ earlgrey-partea
       
       
 
-      ``0.1.4-0``
+      ``0.1.6-0``,  ``0.1.4-0``
 
       
 
@@ -40,7 +40,7 @@ earlgrey-partea
    :depends on graphviz: 
    :depends on matplotlib-base: 
    :depends on numpy: 
-   :depends on python: ``>=3.12,<3.13.0a0``
+   :depends on python: ``>=3.9,<3.13``
    :depends on snakemake-minimal: 
 
    :additional platforms:
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "earlgrey-partea";
-        var versions = ["0.1.4"];
+        var versions = ["0.1.6","0.1.4"];
     </script>
 
 

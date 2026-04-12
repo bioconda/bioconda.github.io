@@ -47,9 +47,13 @@ sra-tools
    
    :depends on ca-certificates: 
    :depends on curl: 
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: 
+   :depends on libgcc-ng: ``>=12``
+   :depends on libstdcxx: 
+   :depends on libstdcxx-ng: ``>=12``
    :depends on ncbi-vdb: ``>=3.4.1``
    :depends on ncbi-vdb: ``>=3.4.1,<4.0a0``
+   :depends on ossuuid: 
    :depends on perl: 
    :depends on perl-uri: 
    :depends on perl-xml-libxml: 

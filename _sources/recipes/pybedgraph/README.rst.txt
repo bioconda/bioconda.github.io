@@ -40,8 +40,7 @@ pybedgraph
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on numpy: ``>=1.16.4``
    :depends on pybigwig: ``>=0.3.16``
    :depends on python: ``>=3.10,<3.11.0a0``

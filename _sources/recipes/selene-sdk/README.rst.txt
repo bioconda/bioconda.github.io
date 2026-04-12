@@ -42,6 +42,7 @@ selene-sdk
    
    :depends on click: 
    :depends on h5py: 
+   :depends on libgcc: ``>=13``
    :depends on matplotlib-base: ``>=2.2.3``
    :depends on numpy: ``>=1.21,<3``
    :depends on numpy: ``>=1.21.4``

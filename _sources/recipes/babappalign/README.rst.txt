@@ -10,10 +10,10 @@ babappalign
    :replaces_section_title:
    :noindex:
 
-   Deep learning–based progressive multiple sequence alignment engine with learned residue scoring
+   Deep learning–based progressive multiple sequence alignment engine with learned residue scoring.
 
    :homepage: https://github.com/sinhakrishnendu/BABAPPAlign
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`babappalign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/babappalign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/babappalign/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ babappalign
       
       
 
-      ``1.3.3-0``,  ``1.2.0-0``,  ``1.1.3-0``,  ``1.0.4-0``,  ``1.0.0-0``
+      ``1.3.5-0``,  ``1.3.3-0``,  ``1.2.0-0``,  ``1.1.3-0``,  ``1.0.4-0``,  ``1.0.0-0``
 
       
 
@@ -36,8 +36,7 @@ babappalign
    :depends on fair-esm: 
    :depends on numpy: 
    :depends on pandas: 
-   :depends on python: ``>=3.13,<3.14.0a0``
-   :depends on python_abi: ``3.13.* *_cp313``
+   :depends on python: ``>=3.9,<3.13``
    :depends on pytorch: ``>=1.12``
    :depends on scipy: 
    :depends on tqdm: 
@@ -115,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "babappalign";
-        var versions = ["1.3.3","1.2.0","1.1.3","1.0.4","1.0.0"];
+        var versions = ["1.3.5","1.3.3","1.2.0","1.1.3","1.0.4"];
     </script>
 
 

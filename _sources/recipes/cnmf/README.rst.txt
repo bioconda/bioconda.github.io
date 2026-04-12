@@ -28,7 +28,7 @@ cnmf
       
       
 
-      ``1.7.0-0``,  ``1.6.0-0``
+      ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.0-0``
 
       
 
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "cnmf";
-        var versions = ["1.7.0","1.6.0"];
+        var versions = ["1.7.1","1.7.0","1.6.0"];
     </script>
 
 

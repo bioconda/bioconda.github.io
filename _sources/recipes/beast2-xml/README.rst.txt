@@ -27,16 +27,17 @@ beast2-xml
       
       
 
-      ``1.5.1-0``,  ``1.5.0-0``
+      ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``
 
       
 
    
    :depends on dark-matter: ``>=1.1.28``
    :depends on ete3: ``>=3.1.3``
+   :depends on legacy-cgi: 
    :depends on numpy: ``>=1.10.0``
    :depends on pandas: ``>=2.2.2``
-   :depends on python: ``>=3.12,<3.13.0a0``
+   :depends on python: ``>=3.10``
    :depends on six: ``>=1.16.0``
 
    :additional platforms:
@@ -111,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "beast2-xml";
-        var versions = ["1.5.1","1.5.0"];
+        var versions = ["1.5.2","1.5.1","1.5.0"];
     </script>
 
 

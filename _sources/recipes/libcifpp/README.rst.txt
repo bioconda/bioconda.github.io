@@ -45,10 +45,8 @@ libcifpp
       
 
    
-   :depends on libboost: ``>=1.86.0,<1.87.0a0``
-   :depends on libgcc: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on libsqlite: ``>=3.52.0,<4.0a0``
-   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on pcre2: ``>=10.47,<10.48.0a0``
 

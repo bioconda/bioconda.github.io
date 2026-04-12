@@ -43,9 +43,8 @@ verifybamid2
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on curl: 
    :depends on htslib: ``>=1.21,<1.24.0a0``
-   :depends on libgcc: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on liblzma: ``>=5.6.3,<6.0a0``
-   :depends on libstdcxx: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on openssl: ``>=3.4.0,<4.0a0``
    :depends on xz: 

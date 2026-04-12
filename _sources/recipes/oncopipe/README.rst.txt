@@ -29,7 +29,7 @@ oncopipe
       
       
 
-      ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.8-0``,  ``1.0.7-0``
+      ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.11-0``,  ``1.0.10-0``,  ``1.0.8-0``,  ``1.0.7-0``
 
       
 
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "oncopipe";
-        var versions = ["1.0.12","1.0.11","1.0.10","1.0.8","1.0.7"];
+        var versions = ["1.0.13","1.0.12","1.0.11","1.0.10","1.0.8"];
     </script>
 
 

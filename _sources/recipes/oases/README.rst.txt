@@ -33,7 +33,7 @@ oases
       
 
    
-   :depends on libgcc: ``>=14``
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on velvet: 
 
    :additional platforms:
