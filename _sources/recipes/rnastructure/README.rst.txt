@@ -12,9 +12,12 @@ rnastructure
 
    RNAstructure is a complete package for RNA and DNA secondary structure  prediction and analysis. It includes algorithms for   secondary structure  prediction\, including facility to predict base pairing probabilities. It  also can be used to predict bimolecular structures and can predict the  equilibrium binding affinity of an oligonucleotide to a structured RNA  target. This is useful for siRNA design. It can also predict secondary  structures common to two\, unaligned sequences\, which is much more accurate  than single sequence secondary structure prediction. Finally\, RNAstructure  can take a number of different types of experiment mapping data to constrain  or restrain structure prediction. These include chemical mapping\, enzymatic  mapping\, NMR\, and SHAPE data.
 
-   :homepage: http://rna.urmc.rochester.edu/RNAstructure.html
+   :homepage: https://rna.urmc.rochester.edu/RNAstructure.html
+   :documentation: https://rna.urmc.rochester.edu/Overview/index.html
+   
    :license: GPL / GPL-2.0-only
    :recipe: /`rnastructure <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnastructure>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnastructure/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btv682`, biotools: :biotools:`rnastructure`
 
    
 
@@ -28,10 +31,10 @@ rnastructure
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>6.5-1</code>,  <code>6.5-0</code>,  <code>6.4-2</code>,  <code>6.4-1</code>,  <code>6.4-0</code>,  <code>6.3-3</code>,  <code>6.3-2</code>,  <code>6.3-1</code>,  <code>6.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>6.6-0</code>,  <code>6.5-1</code>,  <code>6.5-0</code>,  <code>6.4-2</code>,  <code>6.4-1</code>,  <code>6.4-0</code>,  <code>6.3-3</code>,  <code>6.3-2</code>,  <code>6.3-1</code>,  </span></summary>
       
 
-      ``6.5-1``,  ``6.5-0``,  ``6.4-2``,  ``6.4-1``,  ``6.4-0``,  ``6.3-3``,  ``6.3-2``,  ``6.3-1``,  ``6.3-0``,  ``6.1-2``,  ``6.1-1``,  ``6.1-0``,  ``6.0-1``,  ``6.0-0``,  ``5.7-2``,  ``5.7-1``,  ``5.7-0``
+      ``6.6-0``,  ``6.5-1``,  ``6.5-0``,  ``6.4-2``,  ``6.4-1``,  ``6.4-0``,  ``6.3-3``,  ``6.3-2``,  ``6.3-1``,  ``6.3-0``,  ``6.1-2``,  ``6.1-1``,  ``6.1-0``,  ``6.0-1``,  ``6.0-0``,  ``5.7-2``,  ``5.7-1``,  ``5.7-0``
 
       
       .. raw:: html
@@ -42,6 +45,7 @@ rnastructure
    
    :depends on _openmp_mutex: ``>=4.5``
    :depends on libgcc: ``>=14``
+   :depends on libgomp: 
    :depends on libstdcxx: ``>=14``
 
    :additional platforms:
@@ -120,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "rnastructure";
-        var versions = ["6.5","6.5","6.4","6.4","6.4"];
+        var versions = ["6.6","6.5","6.5","6.4","6.4"];
     </script>
 
 

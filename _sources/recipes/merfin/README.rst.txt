@@ -34,8 +34,8 @@ merfin
    
    :depends on bzip2: ``>=1.0.8``
    :depends on gzip: ``>=1.11``
-   :depends on libcxx: ``>=18``
-   :depends on llvm-openmp: ``>=18.1.8``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on meryl: ``>=1.3,<2000``
    :depends on pigz: ``>=2.6``
    :depends on xz: ``>=5.2.5``

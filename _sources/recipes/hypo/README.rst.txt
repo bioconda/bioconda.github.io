@@ -13,8 +13,11 @@ hypo
    Super Fast and Accurate Polisher for Long Read Genome Assemblies.
 
    :homepage: https://github.com/kensung-lab/hypo
-   :license: GPL-3.0
+   :documentation: https://github.com/kensung-lab/hypo/blob/v1.0.3/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`hypo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hypo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hypo/meta.yaml>`_
+   :links: biotools: :biotools:`hypo`, usegalaxy-eu: :usegalaxy-eu:`hypo`, doi: :doi:`10.1101/2019.12.19.882506`
 
    
 
@@ -27,20 +30,27 @@ hypo
       
       
 
-      ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.0.3-3``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends on htslib: ``>=1.12,<1.24.0a0``
+   :depends on _openmp_mutex: ``>=4.5``
+   :depends on htslib: ``>=1.10``
+   :depends on htslib: ``>=1.23.1,<1.24.0a0``
    :depends on kmc: ``>=3.0``
-   :depends on libgcc-ng: ``>=9.3.0``
-   :depends on libstdcxx-ng: ``>=9.3.0``
-   :depends on openmp: 
+   :depends on kmc: ``>=3.2.4,<4.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on sdsl-lite: ``>=2.1.1``
-   :depends on zlib: ``>=1.2.11,<1.3.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
 Installation
@@ -112,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "hypo";
-        var versions = ["1.0.3","1.0.3","1.0.2","1.0.1","1.0.0"];
+        var versions = ["1.0.3","1.0.3","1.0.3","1.0.2","1.0.1"];
     </script>
 
 

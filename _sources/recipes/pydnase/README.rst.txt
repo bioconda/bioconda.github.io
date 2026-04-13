@@ -36,6 +36,7 @@ pydnase
    
    :depends on bedtools: 
    :depends on clint: 
+   :depends on libgcc-ng: ``>=12``
    :depends on matplotlib-base: 
    :depends on numpy: 
    :depends on pybedtools: 

@@ -13,14 +13,12 @@ oxo-call
    Model\-intelligent orchestration for CLI bioinformatics — call any tool with LLM intelligence
 
    :homepage: https://github.com/Traitome/oxo-call
-   :documentation: https://traitome.github.io/oxo-call/documentation/
+   :documentation: https://traitome.github.io/oxo-call/documentation
    
    :license: OTHER / Custom
    :recipe: /`oxo-call <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/oxo-call>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/oxo-call/meta.yaml>`_
 
-   oxo\-call is an AI\-powered CLI assistant for bioinformatics. Instead of 
-   memorizing hundreds of flags across dozens of tools\, you describe what 
-   you want to accomplish — oxo\-call translates that into a correct\, grounded command.
+   oxo\-call is an AI\-powered CLI assistant for bioinformatics. Instead of  memorizing hundreds of flags across dozens of tools\, you describe what  you want to accomplish — oxo\-call translates that into a correct\, grounded command.
 
 
 
@@ -32,11 +30,12 @@ oxo-call
       
       
 
-      ``0.10.0-0``,  ``0.9.2-0``,  ``0.6.0-0``
+      ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.2-0``,  ``0.6.0-0``
 
       
 
    
+   :depends on libgcc: ``>=14``
 
    :additional platforms:
       
@@ -114,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "oxo-call";
-        var versions = ["0.10.0","0.9.2","0.6.0"];
+        var versions = ["0.11.0","0.10.0","0.9.2","0.6.0"];
     </script>
 
 

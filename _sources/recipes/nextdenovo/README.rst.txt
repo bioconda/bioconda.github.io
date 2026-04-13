@@ -30,18 +30,28 @@ nextdenovo
       
       
 
-      ``2.5.2-6``,  ``2.5.2-5``,  ``2.5.2-4``,  ``2.5.2-3``,  ``2.5.2-1``,  ``2.5.2-0``,  ``2.5.0-0``
+      ``2.5.2-7``,  ``2.5.2-6``,  ``2.5.2-5``,  ``2.5.2-4``,  ``2.5.2-3``,  ``2.5.2-1``,  ``2.5.2-0``,  ``2.5.0-0``
 
       
 
    
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libcurl: ``>=8.19.0,<9.0a0``
+   :depends on libdeflate: ``>=1.25,<1.26.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libxcrypt: ``>=4.4.36``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on openssl: ``>=3.5.6,<4.0a0``
    :depends on paralleltask: 
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
+   :depends on setuptools: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation

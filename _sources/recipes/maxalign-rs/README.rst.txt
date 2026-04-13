@@ -10,9 +10,7 @@ maxalign-rs
    :replaces_section_title:
    :noindex:
 
-   A Rust reimplementation of the MaxAlign algorithm for optimizing multiple
-   sequence alignments by maximizing the alignment area
-
+   A tool for optimizing multiple sequence alignments by maximizing the alignment area.
 
    :homepage: https://github.com/apcamargo/maxalign-rs
    :license: GPL-3.0-only
@@ -29,11 +27,12 @@ maxalign-rs
       
       
 
-      ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
+   :depends on libgcc: ``>=14``
 
    :additional platforms:
       
@@ -111,7 +110,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "maxalign-rs";
-        var versions = ["0.1.0"];
+        var versions = ["0.2.0","0.1.0"];
     </script>
 
 
