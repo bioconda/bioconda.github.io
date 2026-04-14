@@ -17,7 +17,7 @@ autocycler
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`autocycler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/autocycler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/autocycler/meta.yaml>`_
-   :links: doi: :doi:`10.5281/zenodo.14642607`
+   :links: doi: :doi:`10.5281/zenodo.14642607`, biotools: :biotools:`autocycler`
 
    
 
@@ -30,7 +30,7 @@ autocycler
       
       
 
-      ``0.6.1-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``
+      ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``
 
       
 
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "autocycler";
-        var versions = ["0.6.1","0.5.2","0.5.1","0.5.0","0.4.0"];
+        var versions = ["0.6.2","0.6.1","0.5.2","0.5.1","0.5.0"];
     </script>
 
 

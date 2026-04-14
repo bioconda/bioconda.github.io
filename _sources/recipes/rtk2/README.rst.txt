@@ -10,9 +10,9 @@ rtk2
    :replaces_section_title:
    :noindex:
 
-   rtk2 \- a CLI rarefaction toolkit for OTU tables
+   rtk2 \- a CLI rarefaction toolkit for OTU tables.
 
-   :homepage: https://github.com/hildebra/rtk2/
+   :homepage: https://github.com/hildebra/rtk2
    :license: GPL / GPL-2.0-or-later
    :recipe: /`rtk2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rtk2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rtk2/meta.yaml>`_
 
@@ -27,16 +27,20 @@ rtk2
       
       
 
-      ``2.11.2-1``,  ``2.11.2-0``,  ``2.11.1-0``,  ``2.10-0``
+      ``2.14-0``,  ``2.11.2-1``,  ``2.11.2-0``,  ``2.11.1-0``,  ``2.10-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -108,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "rtk2";
-        var versions = ["2.11.2","2.11.2","2.11.1","2.10"];
+        var versions = ["2.14","2.11.2","2.11.2","2.11.1","2.10"];
     </script>
 
 

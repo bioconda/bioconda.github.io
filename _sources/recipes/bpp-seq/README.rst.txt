@@ -13,7 +13,9 @@ bpp-seq
    Bio\+\+ is a set of C\+\+ libraries for Bioinformatics.
 
    :homepage: https://github.com/BioPP/bpp-seq
-   :license: CeCILL
+   :documentation: https://github.com/BioPP/bpp-documentation/wiki
+   
+   :license: CECILL-2.1
    :recipe: /`bpp-seq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bpp-seq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bpp-seq/meta.yaml>`_
 
    
@@ -27,16 +29,20 @@ bpp-seq
       
       
 
-      ``2.4.1-5``,  ``2.4.1-4``,  ``2.4.1-3``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.2.0-1``,  ``2.2.0-0``
+      ``3.0.0-0``,  ``2.4.1-5``,  ``2.4.1-4``,  ``2.4.1-3``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.2.0-1``,  ``2.2.0-0``
 
       
 
    
-   :depends on bpp-core: 
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on bpp-core: ``>=3.0.0,<4.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -108,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bpp-seq";
-        var versions = ["2.4.1","2.4.1","2.4.1","2.4.1","2.4.1"];
+        var versions = ["3.0.0","2.4.1","2.4.1","2.4.1","2.4.1"];
     </script>
 
 

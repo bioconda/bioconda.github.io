@@ -13,7 +13,7 @@ minipolish
    A tool for Racon polishing miniasm assemblies.
 
    :homepage: https://github.com/rrwick/Minipolish
-   :documentation: https://github.com/rrwick/Minipolish/blob/v0.2.0/README.md
+   :documentation: https://github.com/rrwick/Minipolish/blob/v0.2.1/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`minipolish <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minipolish>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minipolish/meta.yaml>`_
@@ -30,7 +30,7 @@ minipolish
       
       
 
-      ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``
+      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
 
@@ -112,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "minipolish";
-        var versions = ["0.2.0","0.1.3","0.1.2"];
+        var versions = ["0.2.1","0.2.0","0.1.3","0.1.2"];
     </script>
 
 

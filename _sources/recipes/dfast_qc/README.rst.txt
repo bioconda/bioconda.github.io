@@ -10,7 +10,7 @@ dfast_qc
    :replaces_section_title:
    :noindex:
 
-   DFAST\_QC\: Taxonomy and completeness check for prokaryotic genomes
+   DFAST\_QC\: Taxonomy and completeness check for prokaryotic genomes.
 
    :homepage: https://dfast.nig.ac.jp
    :developer docs: https://github.com/nigyta/dfast_qc
@@ -29,10 +29,10 @@ dfast_qc
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.7-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.5.7-0</code>,  <code>0.5.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.1-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.5.7-0</code>,  </span></summary>
       
 
-      ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.1-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-1``,  ``0.2.6-0``,  ``0.2.5-1``,  ``0.2.5-0``
+      ``1.1.1-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.5.7-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.1-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-1``,  ``0.2.6-0``,  ``0.2.5-1``,  ``0.2.5-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ dfast_qc
    
    :depends on checkm-genome: ``1.2.2``
    :depends on ete3: 
-   :depends on gsl: ``2.6``
+   :depends on gsl: 
    :depends on hmmer: 
    :depends on mash: 
    :depends on more-itertools: 
@@ -124,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "dfast_qc";
-        var versions = ["1.0.7","1.0.6","1.0.5","1.0.4","1.0.2"];
+        var versions = ["1.1.1","1.0.7","1.0.6","1.0.5","1.0.4"];
     </script>
 
 

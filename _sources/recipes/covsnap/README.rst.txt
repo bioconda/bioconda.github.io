@@ -19,11 +19,13 @@ covsnap
    :recipe: /`covsnap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/covsnap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/covsnap/meta.yaml>`_
 
    covsnap computes per\-target and per\-exon depth metrics from
-   BAM\/CRAM files\, producing a machine\-readable raw TSV and a
-   human\-readable interpreted report with PASS\/FAIL classifications.
-   Supports gene symbols\, genomic regions\, and BED files as input.
-   Ships with a bundled GENCODE v44 hg38 gene index — no internet
-   or GTF files required at runtime.
+   BAM\/CRAM files\, producing an interactive HTML report with
+   PASS\/FAIL classifications and visual coverage summaries.
+   Includes a cross\-platform graphical interface \(Tkinter\) and
+   supports gene symbols \(single or comma\-separated\)\, genomic
+   regions\, and BED files as input. Ships with a bundled GENCODE
+   v44 hg38 gene index — no internet or GTF files required at
+   runtime.
 
 
 
@@ -35,7 +37,7 @@ covsnap
       
       
 
-      ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -119,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "covsnap";
-        var versions = ["0.2.0","0.1.1","0.1.0"];
+        var versions = ["0.3.0","0.2.0","0.1.1","0.1.0"];
     </script>
 
 

@@ -10,14 +10,14 @@ ragtag
    :replaces_section_title:
    :noindex:
 
-   Fast reference\-guided genome assembly scaffolding
+   Fast reference\-guided genome assembly scaffolding.
 
    :homepage: https://github.com/malonge/RagTag
    :documentation: https://github.com/malonge/RagTag/wiki
    
    :license: MIT / MIT
    :recipe: /`ragtag <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ragtag>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ragtag/meta.yaml>`_
-   :links: doi: :doi:`10.5281/zenodo.3887139`
+   :links: doi: :doi:`10.1186/s13059-022-02823-7`, biotools: :biotools:`ragtag`, usegalaxy-eu: :usegalaxy-eu:`ragtag`
 
    
 
@@ -29,9 +29,17 @@ ragtag
    :versions:
       
       
+      .. raw:: html
 
-      ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-1</code>,  <code>1.0.1-0</code>,  </span></summary>
+      
 
+      ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.2-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -41,7 +49,7 @@ ragtag
    :depends on networkx: 
    :depends on numpy: 
    :depends on pysam: 
-   :depends on python: ``>3``
+   :depends on python: ``>=3``
 
    :additional platforms:
       
@@ -115,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "ragtag";
-        var versions = ["2.1.0","2.0.1","2.0.0","1.1.1","1.1.0"];
+        var versions = ["2.1.0","2.1.0","2.0.1","2.0.0","1.1.1"];
     </script>
 
 

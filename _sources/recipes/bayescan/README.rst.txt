@@ -12,9 +12,12 @@ bayescan
 
    Phylogenetics \- Randomized Axelerated Maximum Likelihood.
 
-   :homepage: http://cmpg.unibe.ch/software/BayeScan/
-   :license: GPL
+   :homepage: https://cmpg.unibe.ch/software/BayeScan
+   :documentation: https://cmpg.unibe.ch/software/BayeScan/files/BayeScan2.1_manual.pdf
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`bayescan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bayescan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bayescan/meta.yaml>`_
+   :links: biotools: :biotools:`bayescan`, usegalaxy-eu: :usegalaxy-eu:`BayeScan`, doi: :doi:`10.1534/genetics.108.092221`
 
    
 
@@ -27,15 +30,21 @@ bayescan
       
       
 
-      ``2.0.1-7``,  ``2.0.1-6``,  ``2.0.1-5``,  ``2.0.1-4``,  ``2.0.1-3``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``
+      ``2.1-0``,  ``2.0.1-7``,  ``2.0.1-6``,  ``2.0.1-5``,  ``2.0.1-4``,  ``2.0.1-3``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on _openmp_mutex: ``>=4.5``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -107,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bayescan";
-        var versions = ["2.0.1","2.0.1","2.0.1","2.0.1","2.0.1"];
+        var versions = ["2.1","2.0.1","2.0.1","2.0.1","2.0.1"];
     </script>
 
 

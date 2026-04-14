@@ -13,7 +13,9 @@ bpp-core
    Bio\+\+ is a set of C\+\+ libraries for Bioinformatics.
 
    :homepage: https://github.com/BioPP/bpp-core
-   :license: CeCILL
+   :documentation: https://github.com/BioPP/bpp-documentation/wiki
+   
+   :license: CECILL-2.1
    :recipe: /`bpp-core <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bpp-core>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bpp-core/meta.yaml>`_
 
    
@@ -26,9 +28,17 @@ bpp-core
    :versions:
       
       
+      .. raw:: html
 
-      ``2.4.1-6``,  ``2.4.1-5``,  ``2.4.1-4``,  ``2.4.1-3``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.2.0-1``,  ``2.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>2.4.1-6</code>,  <code>2.4.1-5</code>,  <code>2.4.1-4</code>,  <code>2.4.1-3</code>,  <code>2.4.1-2</code>,  <code>2.4.1-1</code>,  <code>2.4.1-0</code>,  <code>2.2.0-1</code>,  </span></summary>
+      
 
+      ``3.0.0-0``,  ``2.4.1-6``,  ``2.4.1-5``,  ``2.4.1-4``,  ``2.4.1-3``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.2.0-1``,  ``2.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -36,6 +46,10 @@ bpp-core
    :depends on libstdcxx-ng: ``>=12``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -107,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bpp-core";
-        var versions = ["2.4.1","2.4.1","2.4.1","2.4.1","2.4.1"];
+        var versions = ["3.0.0","2.4.1","2.4.1","2.4.1","2.4.1"];
     </script>
 
 

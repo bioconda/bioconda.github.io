@@ -10,12 +10,11 @@ mutalyzer_hgvs_parser
    :replaces_section_title:
    :noindex:
 
-   Mutalyzer HGVS variant description parser
+   Mutalyzer HGVS variant description parser.
 
-   :homepage: The package home page
+   :homepage: https://github.com/mutalyzer/hgvs-parser
    :documentation: https://mutalyzer-hgvs-parser.readthedocs.io
    
-   :developer docs: https://github.com/mutalyzer/hgvs-parser
    :license: MIT / MIT
    :recipe: /`mutalyzer_hgvs_parser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mutalyzer_hgvs_parser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mutalyzer_hgvs_parser/meta.yaml>`_
 
@@ -30,7 +29,7 @@ mutalyzer_hgvs_parser
       
       
 
-      ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``
+      ``0.4.0-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``
 
       
 
@@ -110,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "mutalyzer_hgvs_parser";
-        var versions = ["0.3.9","0.3.8","0.3.7"];
+        var versions = ["0.4.0","0.3.9","0.3.8","0.3.7"];
     </script>
 
 

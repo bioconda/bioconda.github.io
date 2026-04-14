@@ -10,11 +10,14 @@ gemma
    :replaces_section_title:
    :noindex:
 
-   Linear mixed models \(LMMs\) for genome\-wide association \(GWA\)
+   Linear mixed models \(LMMs\) for genome\-wide association \(GWA\).
 
    :homepage: https://github.com/genetics-statistics/GEMMA
-   :license: GPLv3
+   :documentation: https://github.com/genetics-statistics/GEMMA/blob/v0.98.5/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`gemma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gemma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gemma/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`gemma`, biotools: :biotools:`gemma_algorithm`, doi: :doi:`10.1038/ng.2310`
 
    
 
@@ -27,18 +30,22 @@ gemma
       
       
 
-      ``0.98.5-0``,  ``0.98.3-1``,  ``0.98.3-0``,  ``0.98.1-1``,  ``0.98.1-0``,  ``0.98-0``
+      ``0.98.5-1``,  ``0.98.5-0``,  ``0.98.3-1``,  ``0.98.3-0``,  ``0.98.1-1``,  ``0.98.1-0``,  ``0.98-0``
 
       
 
    
-   :depends on gsl: ``>=2.8,<2.9.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on gsl: ``>=2.7,<2.8.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on openblas: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
 Installation
@@ -110,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "gemma";
-        var versions = ["0.98.5","0.98.3","0.98.3","0.98.1","0.98.1"];
+        var versions = ["0.98.5","0.98.5","0.98.3","0.98.3","0.98.1"];
     </script>
 
 

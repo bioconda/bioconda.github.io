@@ -13,7 +13,7 @@ eklipse
    eKLIPse is a sensitive and specific tool allowing the detection and quantification of large mtDNA rearrangements.
 
    :homepage: https://github.com/dooguypapua/eKLIPse
-   :license: GPL3 / GNU General Public v3 or later (GPLv3+)
+   :license: GPL3 / AGPL-3.0-or-later
    :recipe: /`eklipse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eklipse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eklipse/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ eklipse
       
       
 
-      ``1.8-2``,  ``1.8-1``,  ``1.8-0``
+      ``1.8-3``,  ``1.8-2``,  ``1.8-1``,  ``1.8-0``
 
       
 
@@ -37,9 +37,14 @@ eklipse
    :depends on circos: 
    :depends on python: 
    :depends on samtools: 
+   :depends on tabulate: ``0.8.9.*``
    :depends on tqdm: ``4.53.0.*``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>osx-arm64</code></span>
       
 
 Installation
@@ -111,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "eklipse";
-        var versions = ["1.8","1.8","1.8"];
+        var versions = ["1.8","1.8","1.8","1.8"];
     </script>
 
 

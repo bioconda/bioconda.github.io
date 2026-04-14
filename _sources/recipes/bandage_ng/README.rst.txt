@@ -13,7 +13,7 @@ bandage_ng
    Bandage \- a Bioinformatics Application for Navigating De novo Assembly Graphs Easily.
 
    :homepage: https://github.com/asl/BandageNG
-   :documentation: https://github.com/asl/BandageNG/blob/v2026.2.1/README.md
+   :documentation: https://github.com/asl/BandageNG/blob/v2026.4.1/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`bandage_ng <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bandage_ng>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bandage_ng/meta.yaml>`_
@@ -31,10 +31,10 @@ bandage_ng
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2026.2.1-0</code>,  <code>2026.1.1-0</code>,  <code>2025.12.3-0</code>,  <code>2025.12.2-0</code>,  <code>2025.12.1-0</code>,  <code>2025.6.1-0</code>,  <code>2025.5.1-0</code>,  <code>2025.4.1-0</code>,  <code>2022.09-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2026.4.1-0</code>,  <code>2026.2.1-0</code>,  <code>2026.1.1-0</code>,  <code>2025.12.3-0</code>,  <code>2025.12.2-0</code>,  <code>2025.12.1-0</code>,  <code>2025.6.1-0</code>,  <code>2025.5.1-0</code>,  <code>2025.4.1-0</code>,  </span></summary>
       
 
-      ``2026.2.1-0``,  ``2026.1.1-0``,  ``2025.12.3-0``,  ``2025.12.2-0``,  ``2025.12.1-0``,  ``2025.6.1-0``,  ``2025.5.1-0``,  ``2025.4.1-0``,  ``2022.09-4``,  ``2022.09-3``,  ``2022.09-2``,  ``2022.09-1``,  ``2022.09-0``
+      ``2026.4.1-0``,  ``2026.2.1-0``,  ``2026.1.1-0``,  ``2025.12.3-0``,  ``2025.12.2-0``,  ``2025.12.1-0``,  ``2025.6.1-0``,  ``2025.5.1-0``,  ``2025.4.1-0``,  ``2022.09-4``,  ``2022.09-3``,  ``2022.09-2``,  ``2022.09-1``,  ``2022.09-0``
 
       
       .. raw:: html
@@ -44,14 +44,14 @@ bandage_ng
 
    
    :depends on fonts-conda-ecosystem: 
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libvulkan-loader: ``>=1.4.328.1,<2.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libvulkan-loader: ``>=1.4.341.0,<2.0a0``
    :depends on qt6-main: 
    :depends on xorg-libice: ``>=1.1.2,<2.0a0``
    :depends on xorg-libsm: ``>=1.2.6,<2.0a0``
-   :depends on xorg-libx11: ``>=1.8.12,<2.0a0``
-   :depends on xorg-libxcomposite: ``>=0.4.6,<1.0a0``
+   :depends on xorg-libx11: ``>=1.8.13,<2.0a0``
+   :depends on xorg-libxcomposite: ``>=0.4.7,<1.0a0``
    :depends on xorg-libxdamage: ``>=1.1.6,<2.0a0``
    :depends on xorg-libxext: ``>=1.3.7,<2.0a0``
    :depends on xorg-libxxf86vm: ``>=1.1.7,<2.0a0``
@@ -132,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bandage_ng";
-        var versions = ["2026.2.1","2026.1.1","2025.12.3","2025.12.2","2025.12.1"];
+        var versions = ["2026.4.1","2026.2.1","2026.1.1","2025.12.3","2025.12.2"];
     </script>
 
 
