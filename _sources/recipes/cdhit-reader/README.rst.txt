@@ -27,7 +27,7 @@ cdhit-reader
       
       
 
-      ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.6-0``
+      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.6-0``
 
       
 
@@ -35,7 +35,7 @@ cdhit-reader
    :depends on cd-hit: 
    :depends on click: 
    :depends on more-itertools: 
-   :depends on python: ``>=3.6,<3.9``
+   :depends on python: ``>=3.6``
    :depends on xopen: 
 
    :additional platforms:
@@ -110,7 +110,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "cdhit-reader";
-        var versions = ["0.2.0","0.1.1","0.1.0","0.0.6"];
+        var versions = ["0.3.0","0.2.0","0.1.1","0.1.0","0.0.6"];
     </script>
 
 

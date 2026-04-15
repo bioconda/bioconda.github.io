@@ -10,7 +10,7 @@ onebam
    :replaces_section_title:
    :noindex:
 
-   ONEcode replacement for SAM\/BAM in large\-scale eDNA mapping and taxonomic analysis
+   ONEcode replacement for SAM\/BAM in large\-scale eDNA mapping and taxonomic analysis.
 
    :homepage: https://github.com/richarddurbin/onebam
    :license: MIT / MIT
@@ -33,7 +33,7 @@ onebam
       
       
 
-      ``0-0``
+      ``1.0-0``,  ``0-0``
 
       
 
@@ -41,14 +41,15 @@ onebam
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on htslib: ``>=1.23.1,<1.24.0a0``
    :depends on libcurl: ``>=8.19.0,<9.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
-   :depends on xz: 
-   :depends on zlib: 
    :depends on zstd: ``>=1.5.7,<1.6.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -120,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "onebam";
-        var versions = ["0"];
+        var versions = ["1.0","0"];
     </script>
 
 

@@ -13,7 +13,9 @@ gmap-fusion
    GMAP\-fusion is a utility for identifying candidate fusion transcripts based on transcript sequences reconstructed via RNA\-Seq de novo transcriptome assembly.
 
    :homepage: https://github.com/GMAP-fusion/GMAP-fusion
-   :license: BSD-3-Clause
+   :documentation: https://github.com/GMAP-fusion/GMAP-fusion/wiki
+   
+   :license: BSD / BSD-3-Clause
    :recipe: /`gmap-fusion <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gmap-fusion>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gmap-fusion/meta.yaml>`_
 
    
@@ -27,7 +29,7 @@ gmap-fusion
       
       
 
-      ``0.4.0-3``,  ``0.4.0-2``,  ``0.4.0-0``,  ``0.3.0-1``
+      ``0.4.2-0``,  ``0.4.0-3``,  ``0.4.0-2``,  ``0.4.0-0``,  ``0.3.0-1``
 
       
 
@@ -111,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "gmap-fusion";
-        var versions = ["0.4.0","0.4.0","0.4.0","0.3.0"];
+        var versions = ["0.4.2","0.4.0","0.4.0","0.4.0","0.3.0"];
     </script>
 
 

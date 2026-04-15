@@ -13,8 +13,11 @@ merfin
    Improved variant filtering and polishing via k\-mer validation.
 
    :homepage: https://github.com/arangrhie/merfin
-   :license: Apache-2.0
+   :documentation: https://github.com/arangrhie/merfin/blob/v1.1/README.md
+   
+   :license: APACHE / Apache-2.0
    :recipe: /`merfin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/merfin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/merfin/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41592-022-01445-y`, doi: :doi:`10.1101/2022.12.01.518724`, biotools: :biotools:`merfin`
 
    
 
@@ -27,20 +30,23 @@ merfin
       
       
 
-      ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
+      ``1.1-0``,  ``1.0-3``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``
 
       
 
    
-   :depends on bzip2: ``>=1.0.8``
-   :depends on gzip: ``>=1.11``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on meryl: ``>=1.3,<2000``
-   :depends on pigz: ``>=2.6``
-   :depends on xz: ``>=5.2.5``
+   :depends on bzip2: ``>=1.0.8,<2.0a0``
+   :depends on genomescope2: 
+   :depends on libcxx: ``>=19``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on llvm-openmp: ``>=19.1.7``
+   :depends on meryl: ``>=1.3,<2``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -112,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "merfin";
-        var versions = ["1.0","1.0","1.0","1.0"];
+        var versions = ["1.1","1.0","1.0","1.0","1.0"];
     </script>
 
 

@@ -41,8 +41,7 @@ wepp
    :depends on boost: ``1.78.*``
    :depends on conda: ``>=24.7.1``
    :depends on jsoncpp: ``>=1.9.6,<1.9.7.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on mpich: ``>=4.3.1,<5.0a0``
    :depends on nodejs: ``>=16,<24``
    :depends on pandas: 

@@ -10,10 +10,10 @@ pydmtools
    :replaces_section_title:
    :noindex:
 
-   A python extension written in C for quick access to DNA methylation DM files.
+   Python extension in C for fast access to DNA methylation DM files.
 
    :homepage: https://github.com/ZhouQiangwei/pydmtools
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`pydmtools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pydmtools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pydmtools/meta.yaml>`_
 
    
@@ -27,20 +27,22 @@ pydmtools
       
       
 
-      ``0.1.1-1``,  ``0.1.1-0``
+      ``0.1.6-0``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
    
-   :depends on libcurl: ``>=8.0.1,<9.0a0``
-   :depends on libgcc-ng: ``>=12``
-   :depends on libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends on numpy: ``>=1.21.6,<2.0a0``
+   :depends on libcurl: ``>=8.19.0,<9.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on numpy: ``>=1.21,<3``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
-   :depends on zlib: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -112,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "pydmtools";
-        var versions = ["0.1.1","0.1.1"];
+        var versions = ["0.1.6","0.1.1","0.1.1"];
     </script>
 
 

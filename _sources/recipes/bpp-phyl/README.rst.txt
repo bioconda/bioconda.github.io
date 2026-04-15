@@ -27,16 +27,19 @@ bpp-phyl
       
       
 
-      ``2.4.1-5``,  ``2.4.1-4``,  ``2.4.1-3``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.2.0-1``,  ``2.2.0-0``
+      ``3.0.0-0``,  ``2.4.1-5``,  ``2.4.1-4``,  ``2.4.1-3``,  ``2.4.1-2``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.2.0-1``,  ``2.2.0-0``
 
       
 
    
-   :depends on bpp-seq: 
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on bpp-seq: ``>=3.0.0,<4.0a0``
+   :depends on libcxx: ``>=19``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -108,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bpp-phyl";
-        var versions = ["2.4.1","2.4.1","2.4.1","2.4.1","2.4.1"];
+        var versions = ["3.0.0","2.4.1","2.4.1","2.4.1","2.4.1"];
     </script>
 
 

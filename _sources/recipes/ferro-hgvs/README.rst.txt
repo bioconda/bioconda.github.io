@@ -34,7 +34,6 @@ ferro-hgvs
       
 
    
-   :depends on libgcc: ``>=14``
    :depends on libsqlite: ``>=3.52.0,<4.0a0``
    :depends on openssl: ``>=3.5.5,<4.0a0``
 

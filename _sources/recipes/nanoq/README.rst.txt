@@ -40,7 +40,6 @@ nanoq
       
 
    
-   :depends on libgcc: ``>=13``
 
    :additional platforms:
       

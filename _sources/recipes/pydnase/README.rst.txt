@@ -12,9 +12,10 @@ pydnase
 
    DNase\-seq analysis library
 
-   :homepage: http://jpiper.github.io/pyDNase
-   :documentation: http://pythonhosted.org/pyDNase/index.html
+   :homepage: https://jpiper.github.io/pyDNase
+   :documentation: https://pythonhosted.org/pyDNase/index.html
    
+   :developer docs: https://github.com/jpiper/pyDNase
    :license: MIT / MIT
    :recipe: /`pydnase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pydnase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pydnase/meta.yaml>`_
 
@@ -29,14 +30,13 @@ pydnase
       
       
 
-      ``0.3.0-5``,  ``0.3.0-4``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.6-1``,  ``0.2.6-0``
+      ``0.3.0-7``,  ``0.3.0-5``,  ``0.3.0-4``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.6-1``,  ``0.2.6-0``
 
       
 
    
    :depends on bedtools: 
    :depends on clint: 
-   :depends on libgcc-ng: ``>=12``
    :depends on matplotlib-base: 
    :depends on numpy: 
    :depends on pybedtools: 
@@ -46,6 +46,10 @@ pydnase
    :depends on samtools: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation

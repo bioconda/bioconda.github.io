@@ -10,11 +10,15 @@ motifscan
    :replaces_section_title:
    :noindex:
 
-   A package for motif discovery and motif enrichment analysis
+   A package for motif discovery and motif enrichment analysis.
 
-   :homepage: https://github.com/shao-lab/MotifScan
-   :license: BSD / BSD License
+   :homepage: http://bioinfo.sibs.ac.cn/shaolab/motifscan/index.php
+   :documentation: https://motifscan.readthedocs.io
+   
+   :developer docs: https://github.com/shao-lab/MotifScan
+   :license: BSD / BSD-3-Clause
    :recipe: /`motifscan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/motifscan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/motifscan/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41421-018-0045-y`
 
    
 
@@ -28,10 +32,10 @@ motifscan
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.0-5</code>,  <code>1.3.0-4</code>,  <code>1.3.0-3</code>,  <code>1.3.0-2</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.0-6</code>,  <code>1.3.0-5</code>,  <code>1.3.0-4</code>,  <code>1.3.0-3</code>,  <code>1.3.0-2</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  </span></summary>
       
 
-      ``1.3.0-5``,  ``1.3.0-4``,  ``1.3.0-3``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1-1``,  ``1.1-0``
+      ``1.3.0-6``,  ``1.3.0-5``,  ``1.3.0-4``,  ``1.3.0-3``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1-1``,  ``1.1-0``
 
       
       .. raw:: html
@@ -40,7 +44,6 @@ motifscan
       
 
    
-   :depends on libgcc: ``>=13``
    :depends on matplotlib-base: ``>=3.0.0``
    :depends on numpy: ``>=1.15``
    :depends on pysam: ``>=0.15.0``
@@ -51,6 +54,10 @@ motifscan
    :depends on tqdm: ``>=4.42.1``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation

@@ -38,11 +38,10 @@ pathracer
 
    
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libgcc-ng: ``>=9.4.0``
-   :depends on libstdcxx-ng: ``>=9.4.0``
+   :depends on libcxx: ``>=11.1.0``
    :depends on libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends on openmp: 
-   :depends on sysroot_linux-64: ``2.17.*``
+   :depends on llvm-openmp: ``>=11.1.0``
+   :depends on llvm-openmp: ``>=12.0.1``
 
    :additional platforms:
       

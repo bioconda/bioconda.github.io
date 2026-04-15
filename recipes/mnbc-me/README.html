@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Package Recipe &#39;staphscope&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;mnbc-me&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
     <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css?v=39de963d" />
     <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
@@ -63,63 +63,36 @@
 
           <div class="body" role="main">
             
-  <section id="staphscope">
+  <section id="mnbc-me">
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
-<span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">staphscope</span></span></dt>
-<dd><p>Advanced Staphylococcus aureus Typing &amp; Lineage Analysis Platform</p>
+<span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">mnbc-me</span></span></dt>
+<dd><p>MNBC-ME is a tool for mobile elements detection</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/bbeckley-hub/staphscope-typing-tool">https://github.com/bbeckley-hub/staphscope-typing-tool</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/ComputationalPathogens/MNBC-ME">https://github.com/ComputationalPathogens/MNBC-ME</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>MIT</p>
+<dd class="field-even"><p>Apache-2.0</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/staphscope">staphscope</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/staphscope/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mnbc-me">mnbc-me</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mnbc-me/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>StaphScope is a comprehensive bioinformatics tool for Staphylococcus aureus
-genomic analysis including MLST typing, spa typing, SCCmec analysis,
-antimicrobial resistance detection, virulence factors, plasmid profiling,
-and lineage prediction from whole genome sequencing data.</p>
+<p>MNBC-ME is tool for identification of both short and long ME-originated reads across a wide variety of read types. It also identifies potential low-level host taxa for plasmid reads, and source taxa for chromosomal and viral reads.</p>
 </dd></dl>
 
 <dl class="conda package">
-<dt class="sig sig-object conda" id="package-staphscope">
-<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">staphscope</span></span><a class="headerlink" href="#package-staphscope" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/staphscope"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/staphscope.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/staphscope"><img alt="docker_staphscope" src="https://quay.io/repository/biocontainers/staphscope/status" /></a></p>
+<dt class="sig sig-object conda" id="package-mnbc-me">
+<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">mnbc-me</span></span><a class="headerlink" href="#package-mnbc-me" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/mnbc-me"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/mnbc-me.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/mnbc-me"><img alt="docker_mnbc-me" src="https://quay.io/repository/biocontainers/mnbc-me/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.1.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><strong>on abricate</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.0.1</span></code></p></li>
-<li><p><strong>on any2fasta</strong></p></li>
-<li><p><strong>on beautifulsoup4</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=4.11.0</span></code></p></li>
-<li><p><strong>on biopython</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.80</span></code></p></li>
-<li><p><strong>on blast</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=2.13.0</span></code></p></li>
-<li><p><strong>on click</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=8.0.0</span></code></p></li>
-<li><p><strong>on lxml</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=4.9.0</span></code></p></li>
-<li><p><strong>on matplotlib-base</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.5.0</span></code></p></li>
-<li><p><strong>on pandas</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.5.0</span></code></p></li>
-<li><p><strong>on perl</strong></p></li>
-<li><p><strong>on perl-data-dumper</strong></p></li>
-<li><p><strong>on perl-file-which</strong></p></li>
-<li><p><strong>on perl-getopt-long</strong></p></li>
-<li><p><strong>on perl-json</strong></p></li>
-<li><p><strong>on perl-list-moreutils</strong></p></li>
-<li><p><strong>on perl-lwp-protocol-https</strong></p></li>
-<li><p><strong>on perl-moo</strong></p></li>
-<li><p><strong>on perl-path-tiny</strong></p></li>
-<li><p><strong>on plotly</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=5.10.0</span></code></p></li>
-<li><p><strong>on psutil</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=5.9.0</span></code></p></li>
-<li><p><strong>on python</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.8</span></code></p></li>
-<li><p><strong>on requests</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=2.28.0</span></code></p></li>
-<li><p><strong>on scipy</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.10.1</span></code></p></li>
-<li><p><strong>on seaborn-base</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=0.12.0</span></code></p></li>
-<li><p><strong>on tqdm</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=4.64.0</span></code></p></li>
+<li><p><strong>on openjdk</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=17.0</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
@@ -137,11 +110,11 @@ Below, we show how to install with either pixi or conda (for micromamba and mamb
 <h3>Pixi<a class="headerlink" href="#pixi" title="Link to this heading">¶</a></h3>
 <p>With <a class="reference external" href="https://pixi.sh">pixi</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>),
 to install globally, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="n">staphscope</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="n">mnbc</span><span class="o">-</span><span class="n">me</span>
 </pre></div>
 </div>
 <p>to add into an existing workspace instead, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">add</span> <span class="n">staphscope</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">add</span> <span class="n">mnbc</span><span class="o">-</span><span class="n">me</span>
 </pre></div>
 </div>
 <p>In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace:</p>
@@ -153,11 +126,11 @@ to install globally, run:</p>
 <section id="conda">
 <h3>Conda<a class="headerlink" href="#conda" title="Link to this heading">¶</a></h3>
 <p>With <a class="reference external" href="https://conda.io">conda</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>), to install into an existing and activated environment, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">staphscope</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">mnbc</span><span class="o">-</span><span class="n">me</span>
 </pre></div>
 </div>
 <p>Alternatively, to install into a new environment, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">envname</span> <span class="n">staphscope</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">envname</span> <span class="n">mnbc</span><span class="o">-</span><span class="n">me</span>
 </pre></div>
 </div>
 <p>with <code class="docutils literal notranslate"><span class="pre">envname</span></code> being the name of the desired environment.</p>
@@ -166,10 +139,10 @@ to install globally, run:</p>
 <h3>Container<a class="headerlink" href="#container" title="Link to this heading">¶</a></h3>
 <p>Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">staphscope</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">mnbc</span><span class="o">-</span><span class="n">me</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/staphscope?tab=tags">staphscope/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>).</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/mnbc-me?tab=tags">mnbc-me/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>).</p>
 </section>
 <section id="integrated-deployment">
 <h3>Integrated deployment<a class="headerlink" href="#integrated-deployment" title="Link to this heading">¶</a></h3>
@@ -177,8 +150,8 @@ For e.g. docker, run:</p>
 Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
-    var package = "staphscope";
-    var versions = ["1.1.0"];
+    var package = "mnbc-me";
+    var versions = ["1.0"];
 </script></section>
 </section>
 <section id="download-stats">
@@ -256,8 +229,8 @@ Check the documentation of your workflow management system to find out about the
 </section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Link to this heading">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/staphscope/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/staphscope/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/mnbc-me/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mnbc-me/README.html)
 </pre></div>
 </div>
 </section>
@@ -338,14 +311,14 @@ Check the documentation of your workflow management system to find out about the
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
       
       |
-      <a href="../../_sources/recipes/staphscope/README.rst.txt"
+      <a href="../../_sources/recipes/mnbc-me/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/staphscope/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/mnbc-me/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>

@@ -10,7 +10,7 @@ galitime
    :replaces_section_title:
    :noindex:
 
-   benchmarking of scientific computaional experiments
+   Benchmarking of scientific computational experiments
 
    :homepage: https://github.com/karel-brinda/galitime
    :license: MIT / MIT
@@ -27,7 +27,7 @@ galitime
       
       
 
-      ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -106,7 +106,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "galitime";
-        var versions = ["0.2.0","0.1.3","0.1.2","0.1.1","0.1.0"];
+        var versions = ["0.3.0","0.2.0","0.1.3","0.1.2","0.1.1"];
     </script>
 
 

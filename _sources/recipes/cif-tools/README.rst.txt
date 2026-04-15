@@ -13,7 +13,7 @@ cif-tools
    A suite of programs to manipulate and examine mmCIF files
 
    :homepage: https://github.com/PDB-REDO/cif-tools
-   :documentation: https://github.com/PDB-REDO/cif-tools/tree/v1.0.12/doc
+   :documentation: https://github.com/PDB-REDO/cif-tools/tree/v1.0.13/doc
    
    :license: BSD / BSD-2-Clause "Simplified"
    :recipe: /`cif-tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cif-tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cif-tools/meta.yaml>`_
@@ -30,15 +30,14 @@ cif-tools
       
       
 
-      ``1.0.12-0``
+      ``1.0.13-0``,  ``1.0.12-0``
 
       
 
    
-   :depends on libcifpp: ``>=7.0.9,<8.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libcifpp: ``>=9.0.5,<10.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
       
@@ -116,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "cif-tools";
-        var versions = ["1.0.12"];
+        var versions = ["1.0.13","1.0.12"];
     </script>
 
 

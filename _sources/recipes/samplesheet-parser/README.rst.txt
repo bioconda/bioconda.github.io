@@ -34,14 +34,14 @@ samplesheet-parser
       
       
 
-      ``1.1.0-0``
+      ``1.2.0-0``,  ``1.1.0-0``
 
       
 
    
    :depends on loguru: ``>=0.7``
    :depends on python: ``>=3.12``
-   :depends on typer: ``>=0.9``
+   :depends on typer: ``>=0.12``
 
    :additional platforms:
       
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "samplesheet-parser";
-        var versions = ["1.1.0"];
+        var versions = ["1.2.0","1.1.0"];
     </script>
 
 

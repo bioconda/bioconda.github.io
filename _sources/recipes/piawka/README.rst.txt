@@ -13,7 +13,7 @@ piawka
    The powerful AWK script to calculate population statistics in VCF files with support for varying ploidy and missing data
 
    :homepage: https://github.com/novikovalab/piawka
-   :documentation: https://github.com/novikovalab/piawka/wiki
+   :documentation: https://novikovalab.github.io/piawka
    
    :license: MIT / MIT
    :recipe: /`piawka <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/piawka>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/piawka/meta.yaml>`_
@@ -34,10 +34,10 @@ piawka
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.11-0</code>,  <code>0.8.10-0</code>,  <code>0.8.9-0</code>,  <code>0.8.8-0</code>,  <code>0.8.7-0</code>,  <code>0.8.6-0</code>,  <code>0.8.5-0</code>,  <code>0.8.4-0</code>,  <code>0.8.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.0-0</code>,  <code>0.8.11-0</code>,  <code>0.8.10-0</code>,  <code>0.8.9-0</code>,  <code>0.8.8-0</code>,  <code>0.8.7-0</code>,  <code>0.8.6-0</code>,  <code>0.8.5-0</code>,  <code>0.8.4-0</code>,  </span></summary>
       
 
-      ``0.8.11-0``,  ``0.8.10-0``,  ``0.8.9-0``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.7.10-0``
+      ``0.9.0-0``,  ``0.8.11-0``,  ``0.8.10-0``,  ``0.8.9-0``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.7.10-0``
 
       
       .. raw:: html
@@ -47,7 +47,7 @@ piawka
 
    
    :depends on bash: 
-   :depends on gawk: ``>=5.0.0``
+   :depends on gawk: ``>=5.2.0``
    :depends on tabix: 
 
    :additional platforms:
@@ -122,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "piawka";
-        var versions = ["0.8.11","0.8.10","0.8.9","0.8.8","0.8.7"];
+        var versions = ["0.9.0","0.8.11","0.8.10","0.8.9","0.8.8"];
     </script>
 
 

@@ -40,7 +40,6 @@ dnaio
       
 
    
-   :depends on libgcc: ``>=12``
    :depends on python: ``>=3.13,<3.14.0a0``
    :depends on python_abi: ``3.13.* *_cp313``
    :depends on xopen: ``>=1.4.0``

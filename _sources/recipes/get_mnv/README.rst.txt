@@ -28,12 +28,11 @@ get_mnv
       
       
 
-      ``1.1.1-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.1.2-0``,  ``1.1.1-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends on libgcc: ``>=14``
 
    :additional platforms:
       
@@ -111,7 +110,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "get_mnv";
-        var versions = ["1.1.1","1.0.1","1.0.0","1.0.0"];
+        var versions = ["1.1.2","1.1.1","1.0.1","1.0.0","1.0.0"];
     </script>
 
 

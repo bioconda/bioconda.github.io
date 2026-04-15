@@ -13,9 +13,11 @@ oases
    De novo transcriptome assembler for short reads.
 
    :homepage: https://github.com/dzerbino/oases
+   :documentation: https://github.com/dzerbino/oases/blob/0.2.09/README.md
+   
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`oases <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/oases>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/oases/meta.yaml>`_
-   :links: biotools: :biotools:`oases`
+   :links: doi: :doi:`10.1093/bioinformatics/bts094`, biotools: :biotools:`oases`
 
    
 
@@ -28,12 +30,12 @@ oases
       
       
 
-      ``0.2.09-3``,  ``0.2.09-2``,  ``0.2.09-1``,  ``0.2.09-0``
+      ``0.2.09-4``,  ``0.2.09-3``,  ``0.2.09-2``,  ``0.2.09-1``,  ``0.2.09-0``
 
       
 
    
-   :depends on libgcc: ``>=14``
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on velvet: 
 
    :additional platforms:
@@ -112,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "oases";
-        var versions = ["0.2.09","0.2.09","0.2.09","0.2.09"];
+        var versions = ["0.2.09","0.2.09","0.2.09","0.2.09","0.2.09"];
     </script>
 
 
