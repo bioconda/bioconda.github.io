@@ -13,7 +13,7 @@ blue-crab
    lossless nanopore pod5 \<\=\> s\/blow5 file conversion
 
    :homepage: https://github.com/Psy-Fer/blue-crab
-   :documentation: https://github.com/Psy-Fer/blue-crab/blob/v0.4.0/docs/cli.md
+   :documentation: https://github.com/Psy-Fer/blue-crab/blob/v0.5.0/docs/cli.md
    
    :license: MIT / MIT
    :recipe: /`blue-crab <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blue-crab>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blue-crab/meta.yaml>`_
@@ -29,14 +29,14 @@ blue-crab
       
       
 
-      ``0.4.0-1``,  ``0.4.0-0``
+      ``0.5.0-0``,  ``0.4.0-1``,  ``0.4.0-0``
 
       
 
    
-   :depends on pod5: ``>=0.3.27``
-   :depends on pyarrow: ``20``
-   :depends on pyslow5: ``>=1.3.0``
+   :depends on pod5: ``>=0.3.35``
+   :depends on pyarrow: 
+   :depends on pyslow5: ``>=1.4.0``
    :depends on python: ``>=3.9``
 
    :additional platforms:
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "blue-crab";
-        var versions = ["0.4.0","0.4.0"];
+        var versions = ["0.5.0","0.4.0","0.4.0"];
     </script>
 
 

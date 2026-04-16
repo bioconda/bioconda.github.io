@@ -10,10 +10,10 @@ mfqe
    :replaces_section_title:
    :noindex:
 
-   mfqe is a tool for quickly seperating fasta and fastq files
+   mfqe is a tool for quickly seperating fasta and fastq files.
 
    :homepage: https://github.com/wwood/mfqe
-   :license: GPL3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`mfqe <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mfqe>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mfqe/meta.yaml>`_
 
    
@@ -27,14 +27,18 @@ mfqe
       
       
 
-      ``0.5.0-5``,  ``0.5.0-4``,  ``0.5.0-3``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.3.0-0``
+      ``0.5.0-6``,  ``0.5.0-5``,  ``0.5.0-4``,  ``0.5.0-3``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.3.0-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
+   :depends on libgcc: ``>=14``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation

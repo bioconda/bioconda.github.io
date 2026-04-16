@@ -51,6 +51,7 @@ unifrac
    :depends on biom-format: 
    :depends on h5py: ``>=3.3.0``
    :depends on iow: ``>=1.0.8,<2.0a0``
+   :depends on libgcc: ``>=13``
    :depends on numpy: ``>=1.21,<3``
    :depends on numpy: ``>=2.2.6,<3.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``

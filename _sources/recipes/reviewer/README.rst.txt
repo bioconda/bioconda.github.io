@@ -36,7 +36,8 @@ reviewer
    :depends on boost-cpp: ``>=1.78.0,<1.78.1.0a0``
    :depends on fmt: ``>=9.1.0,<10.0a0``
    :depends on htslib: ``>=1.19.1,<1.24.0a0``
-   :depends on libcxx: ``>=14``
+   :depends on libgcc-ng: ``>=12``
+   :depends on libstdcxx-ng: ``>=12``
 
    :additional platforms:
       

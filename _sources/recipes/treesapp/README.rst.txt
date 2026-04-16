@@ -47,7 +47,8 @@ treesapp
    :depends on fasttree: ``>=2.1.10``
    :depends on hmmer: ``>=3.3``
    :depends on joblib: ``1.0.0``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on mafft: ``>=7.471``
    :depends on matplotlib-base: ``>=3.3.0``
    :depends on mmseqs2: ``>=12.113e3``

@@ -13,7 +13,7 @@ netsyn
    NetSyn is a tool to detect conserved genomic contexts \(i.e. synteny conservation\) among a list of protein targets.
 
    :homepage: https://github.com/labgem/netsyn
-   :license: OTHER / CeCiLL 2.1
+   :license: OTHER / CeCiLL-2.1
    :recipe: /`netsyn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/netsyn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/netsyn/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ netsyn
       
       
 
-      ``1.0.0-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``1.0.1-0``,  ``1.0.0-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "netsyn";
-        var versions = ["1.0.0","0.1.2","0.1.1"];
+        var versions = ["1.0.1","1.0.0","0.1.2","0.1.1"];
     </script>
 
 

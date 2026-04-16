@@ -12,7 +12,7 @@ rs3
 
    Predict the activity of CRISPR sgRNAs
 
-   :homepage: https://github.com/gpp-rnd/rs3/tree/master/
+   :homepage: https://github.com/gpp-rnd/rs3
    :license: Apache-2.0
    :recipe: /`rs3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rs3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rs3/meta.yaml>`_
 
@@ -27,7 +27,7 @@ rs3
       
       
 
-      ``0.0.18-0``,  ``0.0.16-0``
+      ``0.0.18-1``,  ``0.0.18-0``,  ``0.0.16-0``
 
       
 
@@ -39,9 +39,10 @@ rs3
    :depends on packaging: 
    :depends on pandas: ``>=1.0.0``
    :depends on pyarrow: ``>=4.0.1``
-   :depends on python: ``>=3.7,<3.9``
+   :depends on python: ``>=3.7``
    :depends on requests: ``>=2.25.1``
-   :depends on scikit-learn: ``>=0.24.2,<=1.0.2``
+   :depends on scikit-learn: ``>=0.24.2``
+   :depends on setuptools: ``<82``
    :depends on sglearn: ``>=1.2.5``
    :depends on tqdm: ``>=4.61.2``
 
@@ -117,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "rs3";
-        var versions = ["0.0.18","0.0.16"];
+        var versions = ["0.0.18","0.0.18","0.0.16"];
     </script>
 
 

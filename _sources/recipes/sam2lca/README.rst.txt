@@ -10,7 +10,7 @@ sam2lca
    :replaces_section_title:
    :noindex:
 
-   Lowest Common Ancestor on SAM\/BAM\/CRAM alignment files
+   Lowest Common Ancestor on SAM\/BAM\/CRAM alignment files.
 
    :homepage: https://github.com/maxibor/sam2lca
    :license: GPL-3.0
@@ -27,7 +27,7 @@ sam2lca
       
       
 
-      ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -36,9 +36,10 @@ sam2lca
    :depends on numpy: 
    :depends on pandas: 
    :depends on pysam: 
-   :depends on python: ``>=3.7``
+   :depends on python: ``>=3.6``
    :depends on python-rocksdb: 
    :depends on scipy: 
+   :depends on setuptools: ``<81``
    :depends on taxopy: ``>=0.10.2``
    :depends on tqdm: 
    :depends on xopen: 
@@ -115,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "sam2lca";
-        var versions = ["1.1.4","1.1.3","1.1.2","1.1.2","1.1.1"];
+        var versions = ["1.1.4","1.1.4","1.1.3","1.1.2","1.1.2"];
     </script>
 
 

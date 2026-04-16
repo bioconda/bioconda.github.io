@@ -10,10 +10,10 @@ orfm
    :replaces_section_title:
    :noindex:
 
-   OrfM is a simple and not slow ORF caller
+   OrfM is a simple and not slow ORF caller.
 
    :homepage: https://github.com/wwood/OrfM
-   :license: LGPL / LGPL-3.0
+   :license: LGPL / LGPL-3.0-or-later
    :recipe: /`orfm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/orfm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/orfm/meta.yaml>`_
    :links: biotools: :biotools:`orfm`, doi: :doi:`10.1093/bioinformatics/btw241`
 
@@ -29,10 +29,10 @@ orfm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3-0</code>,  <code>0.7.1-2</code>,  <code>0.7.1-1</code>,  <code>0.7.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3-0</code>,  <code>0.7.1-2</code>,  <code>0.7.1-1</code>,  </span></summary>
       
 
-      ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.4.0-0``,  ``1.3-0``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.6.1-0``
+      ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.4.0-0``,  ``1.3-0``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.6.1-0``
 
       
       .. raw:: html
@@ -41,6 +41,7 @@ orfm
       
 
    
+   :depends on libgcc: ``>=14``
 
    :additional platforms:
       
@@ -118,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "orfm";
-        var versions = ["2.1.1","2.1.0","2.0.2","2.0.1","1.4.0"];
+        var versions = ["2.1.1","2.1.1","2.1.0","2.0.2","2.0.1"];
     </script>
 
 

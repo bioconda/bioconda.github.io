@@ -10,14 +10,13 @@ tir-learner
    :replaces_section_title:
    :noindex:
 
-   An ensemble pipeline for terminal inverted repeat \(TIR\) transposable elements annotation.
+   Accelerated tool for identifying TIR transposable elements
 
-   :homepage: https://github.com/lutianyu2001/TIR-Learner
-   :documentation: https://github.com/lutianyu2001/TIR-Learner/blob/main/README.md
+   :homepage: https://github.com/KGerhardt/TIR-Learner
+   :documentation: https://github.com/KGerhardt/TIR-Learner/blob/main/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`tir-learner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tir-learner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tir-learner/meta.yaml>`_
-   :links: doi: :doi:`10.6084/m9.figshare.26082574.v1`
 
    
 
@@ -30,22 +29,21 @@ tir-learner
       
       
 
-      ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.3-1``,  ``3.0.3-0``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-0``
+      ``4.02-0``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.3-1``,  ``3.0.3-0``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-0``
 
       
 
    
-   :depends on biopython: 
+   :depends on blast: 
    :depends on genericrepeatfinder: 
    :depends on genometools-genometools: 
-   :depends on keras: ``>=3.3.3``
-   :depends on multiprocess: 
-   :depends on pandas: 
+   :depends on keras: 
+   :depends on numpy: 
+   :depends on pigz: 
+   :depends on pyfastx: 
+   :depends on python: ``>=3.9,<3.13``
    :depends on pytorch: 
-   :depends on regex: 
-   :depends on rmblast: 
-   :depends on scikit-learn: ``>=1.3``
-   :depends on swifter: 
+   :depends on pywfa: 
 
    :additional platforms:
       
@@ -119,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "tir-learner";
-        var versions = ["3.0.7","3.0.6","3.0.5","3.0.3","3.0.3"];
+        var versions = ["4.02","3.0.7","3.0.6","3.0.5","3.0.3"];
     </script>
 
 

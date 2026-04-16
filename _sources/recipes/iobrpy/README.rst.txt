@@ -27,11 +27,13 @@ iobrpy
       
       
 
-      ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.4-0``,  ``0.1.3-0``
+      ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.4-0``,  ``0.1.3-0``
 
       
 
    
+   :depends on biopython: ``>=1.83``
+   :depends on click: ``>=8.0``
    :depends on fastp: 
    :depends on gseapy: ``>=1.0.6``
    :depends on gzip: 
@@ -40,8 +42,12 @@ iobrpy
    :depends on multiqc: ``1.31``
    :depends on numpy: ``>=1.22``
    :depends on pandas: ``>=1.5``
-   :depends on python: ``>=3.9``
+   :depends on prompt-toolkit: ``>=3.0``
+   :depends on pysam: ``0.23.3``
+   :depends on python: ``>=3.11,<3.12.0a0``
+   :depends on python_abi: ``3.11.* *_cp311``
    :depends on regex: ``>=2024.5``
+   :depends on requests: ``>=2.32``
    :depends on salmon: 
    :depends on scikit-learn: ``>=1.2``
    :depends on scipy: ``>=1.9``
@@ -124,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "iobrpy";
-        var versions = ["0.1.7","0.1.6","0.1.4","0.1.3"];
+        var versions = ["0.1.8","0.1.7","0.1.6","0.1.4","0.1.3"];
     </script>
 
 

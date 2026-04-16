@@ -26,21 +26,29 @@ pbgzip
    :versions:
       
       
+      .. raw:: html
 
-      ``2016.08.04-6``,  ``2016.08.04-5``,  ``2016.08.04-4``,  ``2016.08.04-3``,  ``2016.08.04-2``,  ``2016.08.04-1``,  ``2016.08.04-0``,  ``2015.10.28-1``,  ``2015.10.28-0``
+         <details><summary><span class="truncated-version-list"><code>2016.08.04-7</code>,  <code>2016.08.04-6</code>,  <code>2016.08.04-5</code>,  <code>2016.08.04-4</code>,  <code>2016.08.04-3</code>,  <code>2016.08.04-2</code>,  <code>2016.08.04-1</code>,  <code>2016.08.04-0</code>,  <code>2015.10.28-1</code>,  </span></summary>
+      
 
+      ``2016.08.04-7``,  ``2016.08.04-6``,  ``2016.08.04-5``,  ``2016.08.04-4``,  ``2016.08.04-3``,  ``2016.08.04-2``,  ``2016.08.04-1``,  ``2016.08.04-0``,  ``2015.10.28-1``,  ``2015.10.28-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on zlib: 
+   :depends on libgcc: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation

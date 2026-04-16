@@ -43,14 +43,15 @@ lib-pod5
       
       
 
-      ``0.3.33-0``,  ``0.3.27-0``,  ``0.3.23-0``,  ``0.3.15-0``
+      ``0.3.39-0``,  ``0.3.33-0``,  ``0.3.27-0``,  ``0.3.23-0``,  ``0.3.15-0``
 
       
 
    
-   :depends on flatbuffers: ``>=24.3.25,<24.3.26.0a0``
-   :depends on libcxx: ``>=18``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on flatbuffers: ``>=25.2.10,<25.2.11.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on numpy: ``>=1.21.0``
    :depends on pyarrow: ``<21``
    :depends on python: ``>=3.10,<3.11.0a0``
@@ -133,7 +134,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "lib-pod5";
-        var versions = ["0.3.33","0.3.27","0.3.23","0.3.15"];
+        var versions = ["0.3.39","0.3.33","0.3.27","0.3.23","0.3.15"];
     </script>
 
 

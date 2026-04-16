@@ -28,10 +28,10 @@ hits
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.1-0</code>,  <code>0.4.5-0</code>,  <code>0.4.3-1</code>,  <code>0.4.3-0</code>,  <code>0.4.2-1</code>,  <code>0.4.2-0</code>,  <code>0.4.0-2</code>,  <code>0.4.0-1</code>,  <code>0.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.4.5-0</code>,  <code>0.4.3-1</code>,  <code>0.4.3-0</code>,  <code>0.4.2-1</code>,  <code>0.4.2-0</code>,  <code>0.4.0-2</code>,  <code>0.4.0-1</code>,  </span></summary>
       
 
-      ``0.5.1-0``,  ``0.4.5-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``,  ``0.0.7-0``
+      ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.5-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.0-2``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.0-0``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``,  ``0.0.7-0``
 
       
       .. raw:: html
@@ -44,13 +44,14 @@ hits
    :depends on bokeh: ``>=3.2``
    :depends on ipython: ``>=7.8.0``
    :depends on ipywidgets: ``>=7.4.2``
+   :depends on libgcc: ``>=14``
    :depends on matplotlib-base: ``>=3.0.2``
    :depends on numpy: ``>=1.15.4``
    :depends on pandas: ``>=0.23.4``
    :depends on pillow: ``>=5.3.0``
    :depends on pysam: ``>=0.15.1``
-   :depends on python: ``>=3.13,<3.14.0a0``
-   :depends on python_abi: ``3.13.* *_cp313``
+   :depends on python: ``>=3.12,<3.13.0a0``
+   :depends on python_abi: ``3.12.* *_cp312``
    :depends on pyyaml: ``>=3.13``
    :depends on s3fs: 
    :depends on scipy: ``>=1.2.1``
@@ -58,6 +59,10 @@ hits
    :depends on statsmodels: ``>=0.12.1``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -129,7 +134,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "hits";
-        var versions = ["0.5.1","0.4.5","0.4.3","0.4.3","0.4.2"];
+        var versions = ["0.5.1","0.5.1","0.4.5","0.4.3","0.4.3"];
     </script>
 
 

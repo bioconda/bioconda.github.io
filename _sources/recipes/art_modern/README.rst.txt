@@ -46,7 +46,8 @@ art_modern
    :depends on htslib: ``>=1.23.1,<1.24.0a0``
    :depends on libboost: ``>=1.86,<1.87``
    :depends on libboost: ``>=1.86.0,<1.87.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
