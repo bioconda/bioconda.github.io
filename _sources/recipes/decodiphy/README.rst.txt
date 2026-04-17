@@ -27,11 +27,15 @@ decodiphy
       
       
 
-      
+      ``1.2.3-0``
 
       
 
    
+   :depends on cvxpy: ``>=1.2,<2.0``
+   :depends on numpy: ``>=1.24,<2.0``
+   :depends on python: ``>=3.8,<3.13``
+   :depends on treeswift: ``>=1.1.0,<2.0``
 
    :additional platforms:
       
@@ -105,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "decodiphy";
-        var versions = [];
+        var versions = ["1.2.3"];
     </script>
 
 

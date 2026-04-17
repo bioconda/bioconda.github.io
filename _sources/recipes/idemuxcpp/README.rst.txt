@@ -27,18 +27,14 @@ idemuxcpp
       
       
 
-      ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``
+      ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``
 
       
 
    
-   :depends on bamtools: ``>=2.5.1``
-   :depends on bamtools: ``>=2.5.2,<2.6.0a0``
    :depends on boost-cpp: ``>=1.55``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on zlib: 
+   :depends on libcxx: ``>=19``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
       
@@ -116,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "idemuxcpp";
-        var versions = ["0.3.0","0.3.0","0.3.0","0.2.0","0.1.9"];
+        var versions = ["0.3.0","0.3.0","0.3.0","0.3.0","0.2.0"];
     </script>
 
 

@@ -41,11 +41,11 @@ coinfinder
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
    :depends on bioconductor-ggtree: ``>=2.0.0,<2.1.0``
    :depends on boost-cpp: 
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
+   :depends on llvm-openmp: ``>=18.1.8``
+   :depends on llvm-openmp: ``>=19.1.5``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on r-ape: ``>=5.4.1``

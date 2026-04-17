@@ -27,13 +27,21 @@ bioconductor-summix
       
       
 
-      ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.0.0-0``,  ``1.0.0-0``
+      ``2.16.0-0``,  ``2.8.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.0.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends on r-base: ``>=4.3,<4.4.0a0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-bedassle: 
+   :depends on r-dplyr: 
+   :depends on r-magrittr: 
    :depends on r-nloptr: 
+   :depends on r-randomcolor: 
+   :depends on r-scales: 
+   :depends on r-tibble: 
+   :depends on r-tidyselect: 
+   :depends on r-visnetwork: 
 
    :additional platforms:
       
@@ -107,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bioconductor-summix";
-        var versions = ["2.8.0","2.6.0","2.4.0","2.0.0","1.0.0"];
+        var versions = ["2.16.0","2.8.0","2.6.0","2.4.0","2.0.0"];
     </script>
 
 

@@ -43,7 +43,6 @@ trinity
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
    :depends on bioconductor-ctc: 
    :depends on bioconductor-dexseq: 
    :depends on bioconductor-edger: 
@@ -55,10 +54,9 @@ trinity
    :depends on htslib: ``>=1.22.1,<1.23.0a0``
    :depends on kallisto: 
    :depends on kmer-jellyfish: ``>=2.3``
-   :depends on libgcc: ``>=13``
-   :depends on libgomp: 
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on llvm-openmp: ``>=18.1.8``
    :depends on numpy: 
    :depends on openjdk: ``>=17``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``

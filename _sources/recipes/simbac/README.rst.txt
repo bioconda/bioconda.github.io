@@ -13,7 +13,7 @@ simbac
    SimBac simulates bacterial genomes with the clonal genealogy under a coalescent model with recombination.
 
    :homepage: https://github.com/tbrown91/SimBac
-   :license: GPL-3.0
+   :license: GPL-3.0-or-later
    :recipe: /`simbac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/simbac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/simbac/meta.yaml>`_
    :links: doi: :doi:`10.1099/mgen.0.000044`
 
@@ -28,16 +28,19 @@ simbac
       
       
 
-      ``0.1a-6``,  ``0.1a-5``,  ``0.1a-4``,  ``0.1a-3``,  ``0.1a-2``,  ``0.1a-1``,  ``0.1a-0``
+      ``0.1a-7``,  ``0.1a-6``,  ``0.1a-5``,  ``0.1a-4``,  ``0.1a-3``,  ``0.1a-2``,  ``0.1a-1``,  ``0.1a-0``
 
       
 
    
    :depends on gsl: ``>=2.7,<2.8.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=19``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation

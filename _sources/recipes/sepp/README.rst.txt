@@ -45,7 +45,6 @@ sepp
    
    :depends on dendropy: ``>=5.0.8,<6.0a0``
    :depends on hmmer: ``>=3.4,<3.5.0a0``
-   :depends on libgcc: ``>=14``
    :depends on pasta: 
    :depends on pplacer: ``>=1.1.alpha17``
    :depends on python: ``>=3.12,<3.13.0a0``

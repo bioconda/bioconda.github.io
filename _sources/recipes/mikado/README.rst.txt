@@ -47,8 +47,7 @@ mikado
    :depends on datrie: ``>=0.8``
    :depends on drmaa: 
    :depends on hypothesis: 
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on marshmallow: ``>=3.1.0``
    :depends on marshmallow-dataclass: ``>=8.3.1``
    :depends on msgpack-python: ``>=1.0.0``

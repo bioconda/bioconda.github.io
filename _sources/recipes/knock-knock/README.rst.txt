@@ -27,7 +27,7 @@ knock-knock
       
       
 
-      ``0.8.0-0``,  ``0.4.2-0``,  ``0.2.1-0``
+      ``0.8.2-0``,  ``0.8.0-0``,  ``0.4.2-0``,  ``0.2.1-0``
 
       
 
@@ -37,10 +37,10 @@ knock-knock
    :depends on blast: ``>=2.7.1``
    :depends on bokeh: ``>=2.4.2``
    :depends on h5py: ``>=3.1.0``
-   :depends on hits: ``>=0.4.3``
+   :depends on hits: ``>=0.5.1``
    :depends on ipywidgets: ``>=7.1.2``
    :depends on matplotlib-base: ``>=2.1.2``
-   :depends on minimap2: ``2.16``
+   :depends on minimap2: ``>=2.16``
    :depends on nbconvert: ``>=6.0.7``
    :depends on nbformat: ``>=4.4.0``
    :depends on numpy: ``>=1.14.2``
@@ -129,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "knock-knock";
-        var versions = ["0.8.0","0.4.2","0.2.1"];
+        var versions = ["0.8.2","0.8.0","0.4.2","0.2.1"];
     </script>
 
 

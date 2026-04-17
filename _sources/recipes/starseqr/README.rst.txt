@@ -42,7 +42,6 @@ starseqr
    
    :depends on gffread: ``>=0.12.7,<0.13.0a0``
    :depends on intervaltree_bio: 
-   :depends on libgcc: ``>=14``
    :depends on networkx: 
    :depends on numpy: ``>=1.21,<3``
    :depends on pandas: ``>=0.18.1``

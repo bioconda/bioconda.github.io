@@ -32,10 +32,10 @@ genomedata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.4-0</code>,  <code>1.7.3-2</code>,  <code>1.7.3-1</code>,  <code>1.7.3-0</code>,  <code>1.7.2-2</code>,  <code>1.7.2-1</code>,  <code>1.7.2-0</code>,  <code>1.7.1-0</code>,  <code>1.7.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7.4-1</code>,  <code>1.7.4-0</code>,  <code>1.7.3-2</code>,  <code>1.7.3-1</code>,  <code>1.7.3-0</code>,  <code>1.7.2-2</code>,  <code>1.7.2-1</code>,  <code>1.7.2-0</code>,  <code>1.7.1-0</code>,  </span></summary>
       
 
-      ``1.7.4-0``,  ``1.7.3-2``,  ``1.7.3-1``,  ``1.7.3-0``,  ``1.7.2-2``,  ``1.7.2-1``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.4-6``,  ``1.4.4-5``,  ``1.4.4-4``,  ``1.4.4-3``,  ``1.4.4-1``,  ``1.4.4-0``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.6-0``,  ``1.3.5-0``
+      ``1.7.4-1``,  ``1.7.4-0``,  ``1.7.3-2``,  ``1.7.3-1``,  ``1.7.3-0``,  ``1.7.2-2``,  ``1.7.2-1``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.4-6``,  ``1.4.4-5``,  ``1.4.4-4``,  ``1.4.4-3``,  ``1.4.4-1``,  ``1.4.4-0``,  ``1.4.1-3``,  ``1.4.1-2``,  ``1.4.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.6-0``,  ``1.3.5-0``
 
       
       .. raw:: html
@@ -46,8 +46,8 @@ genomedata
    
    :depends on bedtools: 
    :depends on hdf5: ``>=1.14.3,<1.14.4.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on path: 
    :depends on pybigwig: 
    :depends on pytables: ``>=3.4.3``
@@ -134,7 +134,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "genomedata";
-        var versions = ["1.7.4","1.7.3","1.7.3","1.7.3","1.7.2"];
+        var versions = ["1.7.4","1.7.4","1.7.3","1.7.3","1.7.3"];
     </script>
 
 

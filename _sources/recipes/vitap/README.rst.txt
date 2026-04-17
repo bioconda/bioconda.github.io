@@ -18,7 +18,7 @@ vitap
    :license: GPL / GPL-3.0-only
    :recipe: /`vitap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vitap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vitap/meta.yaml>`_
 
-   Viral Taxonomic Assignment Pipeline \(VITAP\) is a cutting\-edge tool designed to address the growing need for accurate and comprehensive taxonomic assignments of DNA and RNA viral sequences based on ICTV VMR and UniRef90.
+   Viral Taxonomic Assignment Pipeline \(VITAP\) is a tool designed to address the growing need for accurate and comprehensive taxonomic assignments of DNA and RNA viral sequences based on ICTV VMR and UniRef90.
 
 
 .. conda:package:: vitap
@@ -29,7 +29,7 @@ vitap
       
       
 
-      ``1.10-0``,  ``1.7.1-0``,  ``1.7-1``,  ``1.7-0``,  ``1.5-0``,  ``1.2-0``,  ``1.1-0``
+      ``1.12-0``,  ``1.10-0``,  ``1.7.1-0``,  ``1.7-1``,  ``1.7-0``,  ``1.5-0``,  ``1.2-0``,  ``1.1-0``
 
       
 
@@ -41,7 +41,7 @@ vitap
    :depends on polars: ``>=0.19``
    :depends on pyarrow: ``>=10``
    :depends on pyrodigal: ``>=3.6``
-   :depends on python: 
+   :depends on python: ``>=3.10``
    :depends on seqkit: 
    :depends on taxonkit: 
    :depends on tqdm: ``>=4.65.0``
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "vitap";
-        var versions = ["1.10","1.7.1","1.7","1.7","1.5"];
+        var versions = ["1.12","1.10","1.7.1","1.7","1.7"];
     </script>
 
 

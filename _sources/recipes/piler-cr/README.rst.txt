@@ -12,9 +12,10 @@ piler-cr
 
    Identification and analysis of CRISPR repeats.
 
-   :homepage: http://www.drive5.com/pilercr/
+   :homepage: https://www.drive5.com/pilercr
    :license: Public Domain
    :recipe: /`piler-cr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/piler-cr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/piler-cr/meta.yaml>`_
+   :links: doi: :doi:`10.1186/1471-2105-8-18`, biotools: :biotools:`pilercr`
 
    
 
@@ -27,19 +28,18 @@ piler-cr
       
       
 
-      ``1.06-6``,  ``1.06-5``,  ``1.06-4``,  ``1.06-3``,  ``1.06-2``,  ``1.06-1``,  ``1.06-0``
+      ``1.06-7``,  ``1.06-6``,  ``1.06-5``,  ``1.06-4``,  ``1.06-3``,  ``1.06-2``,  ``1.06-1``,  ``1.06-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=19``
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation

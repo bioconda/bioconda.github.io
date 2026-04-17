@@ -40,26 +40,16 @@ gw
       
 
    
-   :depends on fontconfig: ``>=2.15.0,<3.0a0``
    :depends on fonts-conda-ecosystem: 
    :depends on glfw: ``>=3.3``
    :depends on glfw: ``>=3.4,<4.0a0``
    :depends on htslib: ``>=1.12``
    :depends on htslib: ``>=1.22.1,<1.23.0a0``
    :depends on libcurl: ``>=8.16.0,<9.0a0``
+   :depends on libcxx: ``>=18``
    :depends on libfreetype: ``>=2.14.1``
    :depends on libfreetype6: ``>=2.14.1``
-   :depends on libgcc: ``>=13``
-   :depends on libgl: ``>=1.7.0,<2.0a0``
-   :depends on libstdcxx: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on mesalib: 
-   :depends on wayland: ``>=1.24.0,<2.0a0``
-   :depends on xorg-libxau: 
-   :depends on xorg-libxdamage: 
-   :depends on xorg-libxfixes: 
-   :depends on xorg-libxt: 
-   :depends on xorg-libxxf86vm: 
 
    :additional platforms:
       

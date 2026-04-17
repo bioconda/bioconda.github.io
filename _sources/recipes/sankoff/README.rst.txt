@@ -34,8 +34,7 @@ sankoff
    
    :depends on boost: 
    :depends on boost-cpp: 
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on tbb: ``>=2021.4.0``
 
    :additional platforms:

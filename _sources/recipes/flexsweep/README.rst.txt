@@ -29,7 +29,7 @@ flexsweep
       
       
 
-      ``1.3-0``,  ``1.0-0``
+      ``1.9.2-0``,  ``1.3-0``,  ``1.0-0``
 
       
 
@@ -37,21 +37,29 @@ flexsweep
    :depends on click: ``>=8.1.7,<9.0.0``
    :depends on demes: ``>=0.2.3,<0.3.0``
    :depends on joblib: ``>=1.4.2,<2.0.0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on matplotlib-base: ``>=3.9.2,<4.0.0``
    :depends on numba: ``>=0.60.0,<0.61.0``
    :depends on numpy: ``1.26.4``
    :depends on polars: ``>=1.14.0,<2.0.0``
-   :depends on pyarrow: ``>=17.0.0,<18.0.0``
+   :depends on pyarrow: ``>=21.0.0,<22``
    :depends on pybedtools: ``>=0.12.0``
-   :depends on python: ``>=3.12``
+   :depends on python: ``>=3.12,<3.13.0a0``
+   :depends on python_abi: ``3.12.* *_cp312``
    :depends on scikit-allel: ``>=1.3.8,<2.0.0``
    :depends on scikit-learn: ``>=1.5.1,<2.0.0``
    :depends on scipy: ``>=1.14.0,<2.0.0``
    :depends on tbb: ``>=2022.1.0,<2023.0.0``
-   :depends on tensorflow: ``2.17.*``
+   :depends on tensorflow: ``>=2.18.0``
    :depends on threadpoolctl: ``>=3.5.0,<4.0.0``
+   :depends on zig: ``>=0.15.2,<0.15.3.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -123,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "flexsweep";
-        var versions = ["1.3","1.0"];
+        var versions = ["1.9.2","1.3","1.0"];
     </script>
 
 

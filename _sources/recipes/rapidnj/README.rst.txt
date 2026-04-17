@@ -12,11 +12,13 @@ rapidnj
 
    RapidNJ is an algorithmic engineered implementation of canonical neighbour\-joining. It uses an efficient search heuristic to speed\-up the core computations of the neighbour\-joining method that enables RapidNJ to outperform other state\-of\-the\-art neighbour\-joining implementations.
 
-   :homepage: http://birc.au.dk/software/rapidnj/
-   :developer docs: https://github.com/johnlees/rapidnj
-   :license: GPL / GPL-2-only
+   :homepage: https://birc.au.dk/software/rapidnj
+   :documentation: https://github.com/somme89/rapidNJ/blob/master/README
+   
+   :developer docs: https://github.com/somme89/rapidNJ
+   :license: GPL / GPL-2.0-only
    :recipe: /`rapidnj <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rapidnj>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rapidnj/meta.yaml>`_
-   :links: doi: :doi:`10.1007/978-3-540-87361-7_10`
+   :links: doi: :doi:`10.1007/978-3-540-87361-7_10`, biotools: :biotools:`rapidnj`
 
    
 
@@ -30,10 +32,10 @@ rapidnj
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.2-6</code>,  <code>2.3.2-5</code>,  <code>2.3.2-4</code>,  <code>2.3.2-3</code>,  <code>2.3.2-2</code>,  <code>2.3.2-1</code>,  <code>2.3.2-0</code>,  <code>v2.3.2-2</code>,  <code>v2.3.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.3-0</code>,  <code>2.3.2-6</code>,  <code>2.3.2-5</code>,  <code>2.3.2-4</code>,  <code>2.3.2-3</code>,  <code>2.3.2-2</code>,  <code>2.3.2-1</code>,  <code>2.3.2-0</code>,  <code>v2.3.2-2</code>,  </span></summary>
       
 
-      ``2.3.2-6``,  ``2.3.2-5``,  ``2.3.2-4``,  ``2.3.2-3``,  ``2.3.2-2``,  ``2.3.2-1``,  ``2.3.2-0``,  ``v2.3.2-2``,  ``v2.3.2-1``,  ``v2.3.2-0``
+      ``2.3.3-0``,  ``2.3.2-6``,  ``2.3.2-5``,  ``2.3.2-4``,  ``2.3.2-3``,  ``2.3.2-2``,  ``2.3.2-1``,  ``2.3.2-0``,  ``v2.3.2-2``,  ``v2.3.2-1``,  ``v2.3.2-0``
 
       
       .. raw:: html
@@ -42,8 +44,7 @@ rapidnj
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=19``
 
    :additional platforms:
       
@@ -121,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "rapidnj";
-        var versions = ["2.3.2","2.3.2","2.3.2","2.3.2","2.3.2"];
+        var versions = ["2.3.3","2.3.2","2.3.2","2.3.2","2.3.2"];
     </script>
 
 
