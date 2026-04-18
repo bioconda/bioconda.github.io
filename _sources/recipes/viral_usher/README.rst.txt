@@ -27,7 +27,7 @@ viral_usher
       
       
 
-      ``0.10.2-0``,  ``0.10.1-0``
+      ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-0``
 
       
 
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "viral_usher";
-        var versions = ["0.10.2","0.10.1"];
+        var versions = ["0.10.3","0.10.2","0.10.1"];
     </script>
 
 

@@ -27,7 +27,7 @@ epicore
       
       
 
-      ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
+      ``1.0.0-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
 
@@ -37,10 +37,11 @@ epicore
    :depends on matplotlib-base: ``>=3.4``
    :depends on mpld3: 
    :depends on numpy: ``>=2``
+   :depends on openpyxl: ``>=3.1.3``
    :depends on pandas: ``>=2``
    :depends on polars: ``>=1.32.3``
    :depends on pyarrow: ``>=22.0.0``
-   :depends on python: ``>=3.12``
+   :depends on python: ``>=3.10``
    :depends on pyyaml: ``>=6.0.2``
 
    :additional platforms:
@@ -115,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "epicore";
-        var versions = ["0.1.8","0.1.7","0.1.6","0.1.5","0.1.4"];
+        var versions = ["1.0.0","0.1.8","0.1.7","0.1.6","0.1.5"];
     </script>
 
 
