@@ -20,6 +20,9 @@ mumemto
 
    Mumemto is a tool for finding a variety of matches across collections of sequences like a pangenome.
    It includes a visualization tool for visualizing pangenome synteny.
+   The conda package installs the CLI\, the C\/C\+\+ library \(headers include mumemto.h and mumemto.hpp\)
+   and CMake package \(find\_package\(Mumemto\)\)\,
+   and the Python package \(utilities plus pybind11 bindings\).
 
 
 
@@ -32,10 +35,10 @@ mumemto
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.4-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.0-0</code>,  <code>1.3.4-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  </span></summary>
       
 
-      ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``
+      ``1.4.0-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -44,11 +47,11 @@ mumemto
       
 
    
-   :depends on libcxx: ``>=18``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on matplotlib-base: 
    :depends on numba: 
-   :depends on numpy: 
+   :depends on numpy: ``>=1.21,<3``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on tqdm: 
@@ -129,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "mumemto";
-        var versions = ["1.3.4","1.3.3","1.3.2","1.3.1","1.3.0"];
+        var versions = ["1.4.0","1.3.4","1.3.3","1.3.2","1.3.1"];
     </script>
 
 

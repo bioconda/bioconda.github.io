@@ -26,6 +26,7 @@ csem
    PLoS Comput Biol. 2011\;7\:e1002111.
 
 
+
 .. conda:package:: csem
 
    |downloads_csem| |docker_csem|
@@ -34,19 +35,23 @@ csem
       
       
 
-      ``2.4-0``
+      ``2.4-1``,  ``2.4-0``
 
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libgcc: ``>=14``
    :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on ncurses: ``>=6.5,<7.0a0``
    :depends on perl: 
+   :depends on perl-perldoc: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
 Installation
@@ -118,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "csem";
-        var versions = ["2.4"];
+        var versions = ["2.4","2.4"];
     </script>
 
 

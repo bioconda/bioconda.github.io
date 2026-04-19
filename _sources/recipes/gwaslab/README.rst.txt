@@ -28,7 +28,7 @@ gwaslab
       
       
 
-      ``4.1.5-0``,  ``4.1.2-0``
+      ``4.1.6-0``,  ``4.1.5-0``,  ``4.1.2-0``
 
       
 
@@ -122,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "gwaslab";
-        var versions = ["4.1.5","4.1.2"];
+        var versions = ["4.1.6","4.1.5","4.1.2"];
     </script>
 
 

@@ -26,9 +26,17 @@ ruranges
    :versions:
       
       
+      .. raw:: html
 
-      ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.0.15-1``,  ``0.0.15-0``,  ``0.0.14-0``,  ``0.0.13-1``,  ``0.0.13-0``
+         <details><summary><span class="truncated-version-list"><code>0.1.4-0</code>,  <code>0.1.3-0</code>,  <code>0.1.2-0</code>,  <code>0.1.1-1</code>,  <code>0.1.1-0</code>,  <code>0.0.15-1</code>,  <code>0.0.15-0</code>,  <code>0.0.14-0</code>,  <code>0.0.13-1</code>,  </span></summary>
+      
 
+      ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.0.15-1``,  ``0.0.15-0``,  ``0.0.14-0``,  ``0.0.13-1``,  ``0.0.13-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -112,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "ruranges";
-        var versions = ["0.1.3","0.1.2","0.1.1","0.1.1","0.0.15"];
+        var versions = ["0.1.4","0.1.3","0.1.2","0.1.1","0.1.1"];
     </script>
 
 

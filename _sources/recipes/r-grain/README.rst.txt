@@ -28,10 +28,10 @@ r-grain
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.5-2</code>,  <code>1.4.5-1</code>,  <code>1.4.5-0</code>,  <code>1.4.4-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-1</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.6-0</code>,  <code>1.4.5-2</code>,  <code>1.4.5-1</code>,  <code>1.4.5-0</code>,  <code>1.4.4-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-1</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  </span></summary>
       
 
-      ``1.4.5-2``,  ``1.4.5-1``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.14-0``,  ``1.3.13-3``,  ``1.3.13-2``,  ``1.3.13-1``,  ``1.3.13-0``,  ``1.3.12-1``,  ``1.3.12-0``,  ``1.3.11-1``,  ``1.3.11-0``,  ``1.3.10-0``,  ``1.3.9-0``,  ``1.3_0-6``,  ``1.3_0-5``,  ``1.3_0-4``,  ``1.3_0-3``,  ``1.3_0-2``,  ``1.3_0-1``,  ``1.3_0-0``
+      ``1.4.6-0``,  ``1.4.5-2``,  ``1.4.5-1``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.14-0``,  ``1.3.13-3``,  ``1.3.13-2``,  ``1.3.13-1``,  ``1.3.13-0``,  ``1.3.12-1``,  ``1.3.12-0``,  ``1.3.11-1``,  ``1.3.11-0``,  ``1.3.10-0``,  ``1.3.9-0``,  ``1.3_0-6``,  ``1.3_0-5``,  ``1.3_0-4``,  ``1.3_0-3``,  ``1.3_0-2``,  ``1.3_0-1``,  ``1.3_0-0``
 
       
       .. raw:: html
@@ -42,7 +42,8 @@ r-grain
    
    :depends on bioconductor-graph: ``>=1.88.1,<1.89.0a0``
    :depends on bioconductor-rgraphviz: ``>=2.54.0,<2.55.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-broom: 
    :depends on r-grbase: ``>=1.8.6.6``
@@ -129,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "r-grain";
-        var versions = ["1.4.5","1.4.5","1.4.5","1.4.4","1.4.3"];
+        var versions = ["1.4.6","1.4.5","1.4.5","1.4.5","1.4.4"];
     </script>
 
 

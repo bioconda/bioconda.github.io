@@ -34,9 +34,9 @@ demuxlet
 
    
    :depends on htslib: ``1.10.*``
-   :depends on htslib: ``>=1.10.2,<1.24.0a0``
+   :depends on htslib: ``>=1.10,<2.0a0``
    :depends on libcxx: ``>=18``
-   :depends on libzlib: ``>=1.2.13,<2.0a0``
+   :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on llvm-openmp: ``>=18.1.8``
    :depends on samtools: 
 

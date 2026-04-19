@@ -31,10 +31,10 @@ soapdenovo-trans
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.04-7</code>,  <code>1.04-6</code>,  <code>1.04-5</code>,  <code>1.04-4</code>,  <code>1.04-3</code>,  <code>1.04-2</code>,  <code>1.04-1</code>,  <code>1.04-0</code>,  <code>1.03-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.05-0</code>,  <code>1.04-7</code>,  <code>1.04-6</code>,  <code>1.04-5</code>,  <code>1.04-4</code>,  <code>1.04-3</code>,  <code>1.04-2</code>,  <code>1.04-1</code>,  <code>1.04-0</code>,  </span></summary>
       
 
-      ``1.04-7``,  ``1.04-6``,  ``1.04-5``,  ``1.04-4``,  ``1.04-3``,  ``1.04-2``,  ``1.04-1``,  ``1.04-0``,  ``1.03-3``,  ``1.03-2``,  ``1.03-1``,  ``1.03-0``,  ``1.0.5-0``
+      ``1.05-0``,  ``1.04-7``,  ``1.04-6``,  ``1.04-5``,  ``1.04-4``,  ``1.04-3``,  ``1.04-2``,  ``1.04-1``,  ``1.04-0``,  ``1.03-3``,  ``1.03-2``,  ``1.03-1``,  ``1.03-0``,  ``1.0.5-0``
 
       
       .. raw:: html
@@ -43,16 +43,14 @@ soapdenovo-trans
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on samtools: ``>=0.1.19,<1.0a0``
-   :depends on zlib: 
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on samtools: ``>=0.1.19,<0.2.0a0``
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -124,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "soapdenovo-trans";
-        var versions = ["1.04","1.04","1.04","1.04","1.04"];
+        var versions = ["1.05","1.04","1.04","1.04","1.04"];
     </script>
 
 

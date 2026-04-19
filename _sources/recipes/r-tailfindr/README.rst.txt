@@ -40,10 +40,11 @@ r-tailfindr
       
 
    
-   :depends on bioconductor-biostrings: ``>=2.78.0,<2.79.0a0``
+   :depends on bioconductor-biostrings: ``>=2.74.0,<2.75.0a0``
    :depends on bioconductor-rsamtools: 
-   :depends on libcxx: ``>=19``
-   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
+   :depends on r-base: ``>=4.4,<4.5.0a0``
    :depends on r-cli: 
    :depends on r-crayon: 
    :depends on r-data.table: 

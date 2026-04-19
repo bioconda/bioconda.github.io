@@ -29,7 +29,7 @@ phyloblitz
       
       
 
-      ``0.2.0-0``
+      ``0.3.0-0``,  ``0.2.0-0``
 
       
 
@@ -40,12 +40,16 @@ phyloblitz
    :depends on mistune: ``>=3.1.4,<4``
    :depends on numpy: ``>=2.3.5,<3``
    :depends on oxli: ``>=0.3.0,<0.4``
+   :depends on packaging: ``>=26.0,<27``
    :depends on pyfastx: ``>=2.2.0,<3``
    :depends on pymarkovclustering: ``>=0.1.1,<0.2``
    :depends on pysam: ``>=0.23.3,<0.24``
    :depends on python: ``>=3.10,<3.14``
+   :depends on requests: ``>=2.32.5,<3``
+   :depends on rich: ``>=14.3.3,<15``
    :depends on rich-click: ``>=1.9.4,<2``
    :depends on spoa: ``>=4.1.5,<5``
+   :depends on tqdm: ``>=4.67.3,<5``
 
    :additional platforms:
       
@@ -119,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "phyloblitz";
-        var versions = ["0.2.0"];
+        var versions = ["0.3.0","0.2.0"];
     </script>
 
 

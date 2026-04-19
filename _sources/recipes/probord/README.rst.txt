@@ -27,14 +27,14 @@ probord
       
       
 
-      ``1.0-0``
+      ``1.0-1``,  ``1.0-0``
 
       
 
    
    :depends on biopython: 
    :depends on blast: 
-   :depends on checkv: 
+   :depends on checkv: ``1.0.3.*``
    :depends on ncbi-genome-download: 
    :depends on python: ``>=3.8``
 
@@ -110,7 +110,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "probord";
-        var versions = ["1.0"];
+        var versions = ["1.0","1.0"];
     </script>
 
 

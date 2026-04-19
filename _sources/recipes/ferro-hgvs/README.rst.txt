@@ -34,8 +34,9 @@ ferro-hgvs
       
 
    
-   :depends on libsqlite: ``>=3.52.0,<4.0a0``
-   :depends on openssl: ``>=3.5.5,<4.0a0``
+   :depends on __osx: ``>=11.0``
+   :depends on libsqlite: ``>=3.53.0,<4.0a0``
+   :depends on openssl: ``>=3.5.6,<4.0a0``
 
    :additional platforms:
       

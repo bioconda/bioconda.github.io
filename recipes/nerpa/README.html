@@ -70,22 +70,19 @@
 <dd><p>A tool for discovering biosynthetic gene clusters of nonribosomal peptides.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://cab.spbu.ru/software/nerpa">https://cab.spbu.ru/software/nerpa</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/gurevichlab/nerpa">https://github.com/gurevichlab/nerpa</a></p>
 </dd>
 <dt class="field-even">Documentation<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="reference external" href="https://github.com/ablab/nerpa">https://github.com/ablab/nerpa</a></p>
+<dd class="field-even"><p><a class="reference external" href="https://github.com/gurevichlab/nerpa/blob/nerpa_2.1.0/README.md">https://github.com/gurevichlab/nerpa/blob/nerpa_2.1.0/README.md</a></p>
 </dd>
-<dt class="field-odd">Developer docs<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/ablab/nerpa">https://github.com/ablab/nerpa</a></p>
+<dt class="field-odd">License<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Dual-licensed under GPLv3 or CC BY-NC-SA 4.0</p>
 </dd>
-<dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>Dual-licensed under GPLv3 or CC BY-NC-SA 4.0</p>
+<dt class="field-even">Recipe<span class="colon">:</span></dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nerpa">nerpa</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nerpa/meta.yaml">meta.yaml</a></p>
 </dd>
-<dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nerpa">nerpa</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nerpa/meta.yaml">meta.yaml</a></p>
-</dd>
-<dt class="field-even">Links<span class="colon">:</span></dt>
-<dd class="field-even"><p>biotools: <a class="extlink-biotools reference external" href="https://bio.tools/nerpa">nerpa</a></p>
+<dt class="field-odd">Links<span class="colon">:</span></dt>
+<dd class="field-odd"><p>doi: <a class="extlink-doi reference external" href="https://doi.org/10.1101/2024.11.19.624380v3">10.1101/2024.11.19.624380v3</a>, doi: <a class="extlink-doi reference external" href="https://doi.org/10.3390/metabo11100693">10.3390/metabo11100693</a>, biotools: <a class="extlink-biotools reference external" href="https://bio.tools/nerpa">nerpa</a></p>
 </dd>
 </dl>
 <p>Nerpa is a tool for linking biosynthetic gene clusters (BGCs) to known nonribosomal peptides (NRPs). BGCs are predicted in genome sequences (FASTA or GBK) with antiSMASH (Medema et al, 2011). Known NRPs are accepted in the SMILES format and processed with rBAN (Ricart et al, 2019).</p>
@@ -97,17 +94,31 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/nerpa"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/nerpa.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/nerpa"><img alt="docker_nerpa" src="https://quay.io/repository/biocontainers/nerpa/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.0-7</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-5</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-7</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-5</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><strong>on libgcc</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p></li>
-<li><p><strong>on libstdcxx</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p></li>
+<li><p><strong>on biopython</strong></p></li>
+<li><p><strong>on bs4</strong></p></li>
+<li><p><strong>on cairosvg</strong></p></li>
+<li><p><strong>on dacite</strong></p></li>
+<li><p><strong>on libcxx</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=19</span></code></p></li>
+<li><p><strong>on llvm-openmp</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=19.1.7</span></code></p></li>
+<li><p><strong>on more-itertools</strong></p></li>
 <li><p><strong>on networkx</strong></p></li>
 <li><p><strong>on openjdk</strong></p></li>
-<li><p><strong>on python</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.10,&lt;3.11.0a0</span></code></p></li>
-<li><p><strong>on python_abi</strong> <code class="docutils literal notranslate"><span class="pre">3.10.* *_cp310</span></code></p></li>
+<li><p><strong>on pandas</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.5</span></code></p></li>
+<li><p><strong>on parse</strong></p></li>
+<li><p><strong>on polars</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=0.19</span></code></p></li>
+<li><p><strong>on prettytable</strong></p></li>
+<li><p><strong>on pulp</strong></p></li>
+<li><p><strong>on pyarrow</strong></p></li>
+<li><p><strong>on python</strong></p></li>
+<li><p><strong>on python-graphviz</strong></p></li>
+<li><p><strong>on pyyaml</strong></p></li>
 <li><p><strong>on rdkit</strong></p></li>
+<li><p><strong>on requests</strong></p></li>
+<li><p><strong>on scikit-learn</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.2.0</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
@@ -166,7 +177,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
     var package = "nerpa";
-    var versions = ["1.0.0","1.0.0","1.0.0","1.0.0","1.0.0"];
+    var versions = ["2.1.0","1.0.0","1.0.0","1.0.0","1.0.0"];
 </script></section>
 </section>
 <section id="download-stats">

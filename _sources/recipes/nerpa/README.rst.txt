@@ -12,13 +12,12 @@ nerpa
 
    A tool for discovering biosynthetic gene clusters of nonribosomal peptides.
 
-   :homepage: https://cab.spbu.ru/software/nerpa
-   :documentation: https://github.com/ablab/nerpa
+   :homepage: https://github.com/gurevichlab/nerpa
+   :documentation: https://github.com/gurevichlab/nerpa/blob/nerpa_2.1.0/README.md
    
-   :developer docs: https://github.com/ablab/nerpa
    :license: Dual-licensed under GPLv3 or CC BY-NC-SA 4.0
    :recipe: /`nerpa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nerpa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nerpa/meta.yaml>`_
-   :links: biotools: :biotools:`nerpa`
+   :links: doi: :doi:`10.1101/2024.11.19.624380v3`, doi: :doi:`10.3390/metabo11100693`, biotools: :biotools:`nerpa`
 
    Nerpa is a tool for linking biosynthetic gene clusters \(BGCs\) to known nonribosomal peptides \(NRPs\). BGCs are predicted in genome sequences \(FASTA or GBK\) with antiSMASH \(Medema et al\, 2011\). Known NRPs are accepted in the SMILES format and processed with rBAN \(Ricart et al\, 2019\).
 
@@ -31,18 +30,32 @@ nerpa
       
       
 
-      ``1.0.0-7``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``2.1.0-0``,  ``1.0.0-7``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on biopython: 
+   :depends on bs4: 
+   :depends on cairosvg: 
+   :depends on dacite: 
+   :depends on libcxx: ``>=19``
+   :depends on llvm-openmp: ``>=19.1.7``
+   :depends on more-itertools: 
    :depends on networkx: 
    :depends on openjdk: 
-   :depends on python: ``>=3.10,<3.11.0a0``
-   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on pandas: ``>=1.5``
+   :depends on parse: 
+   :depends on polars: ``>=0.19``
+   :depends on prettytable: 
+   :depends on pulp: 
+   :depends on pyarrow: 
+   :depends on python: 
+   :depends on python-graphviz: 
+   :depends on pyyaml: 
    :depends on rdkit: 
+   :depends on requests: 
+   :depends on scikit-learn: ``>=1.2.0``
 
    :additional platforms:
       
@@ -120,7 +133,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "nerpa";
-        var versions = ["1.0.0","1.0.0","1.0.0","1.0.0","1.0.0"];
+        var versions = ["2.1.0","1.0.0","1.0.0","1.0.0","1.0.0"];
     </script>
 
 

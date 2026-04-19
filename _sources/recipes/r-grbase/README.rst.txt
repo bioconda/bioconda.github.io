@@ -12,7 +12,9 @@ r-grbase
 
    The \'gRbase\' package provides graphical modelling features used by e.g. the packages \'gRain\'\, \'gRim\' and \'gRc\'. \'gRbase\' implements graph algorithms including \(i\) maximum cardinality search \(for marked and unmarked graphs\). \(ii\) moralization\, \(iii\) triangulation\, \(iv\) creation of junction tree. \'gRbase\' facilitates array operations\, \'gRbase\' implements functions for testing for conditional independence. \'gRbase\' illustrates how hierarchical log\-linear models may be implemented and describes concept of graphical meta data. The facilities of the package are documented in the book by Højsgaard\, Edwards and Lauritzen \(2012\, \<doi\:10.1007\/978\-1\-4614\-2299\-0\>\) and in the paper by Dethlefsen and Højsgaard\, \(2005\, \<doi\:10.18637\/jss.v014.i17\>\). Please see \'citation\(\"gRbase\"\)\' for citation details. NOTICE  \'gRbase\' requires that the packages graph\, \'Rgraphviz\' and \'RBGL\' are installed from \'bioconductor\'\; for installation instructions please refer to the web page given below.
 
-   :homepage: http://people.math.aau.dk/~sorenh/software/gR/
+   :homepage: https://people.math.aau.dk/~sorenh/software.html
+   :documentation: https://cran.r-project.org/web/packages/gRbase/index.html
+   
    :license: GPL2 / GPL-2.0-or-later
    :recipe: /`r-grbase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-grbase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-grbase/meta.yaml>`_
 
@@ -28,10 +30,10 @@ r-grbase
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.3-2</code>,  <code>2.0.3-1</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.9.0-0</code>,  <code>1.8.9-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.3-3</code>,  <code>2.0.3-2</code>,  <code>2.0.3-1</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.9.0-0</code>,  </span></summary>
       
 
-      ``2.0.3-2``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.9.0-0``,  ``1.8.9-3``,  ``1.8.9-2``,  ``1.8.9-1``,  ``1.8.9-0``,  ``1.8.8-1``,  ``1.8.8-0``,  ``1.8.7-1``,  ``1.8.7-0``,  ``1.8_6.7-2``,  ``1.8_6.7-1``,  ``1.8_6.7-0``,  ``1.8_3.4-6``,  ``1.8_3.4-5``,  ``1.8_3.4-4``,  ``1.8_3.4-3``,  ``1.8_3.4-2``,  ``1.8_3.4-1``,  ``1.8_3.4-0``
+      ``2.0.3-3``,  ``2.0.3-2``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.9.0-0``,  ``1.8.9-3``,  ``1.8.9-2``,  ``1.8.9-1``,  ``1.8.9-0``,  ``1.8.8-1``,  ``1.8.8-0``,  ``1.8.7-1``,  ``1.8.7-0``,  ``1.8_6.7-2``,  ``1.8_6.7-1``,  ``1.8_6.7-0``,  ``1.8_3.4-6``,  ``1.8_3.4-5``,  ``1.8_3.4-4``,  ``1.8_3.4-3``,  ``1.8_3.4-2``,  ``1.8_3.4-1``,  ``1.8_3.4-0``
 
       
       .. raw:: html
@@ -55,7 +57,7 @@ r-grbase
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -127,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "r-grbase";
-        var versions = ["2.0.3","2.0.3","2.0.3","2.0.2","2.0.1"];
+        var versions = ["2.0.3","2.0.3","2.0.3","2.0.3","2.0.2"];
     </script>
 
 

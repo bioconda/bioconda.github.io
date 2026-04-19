@@ -47,6 +47,7 @@ coot-headless
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on cairo: ``>=1.18.4,<2.0a0``
    :depends on clipper: ``>=2.1.20180802,<3.0a0``
    :depends on fontconfig: ``>=2.17.1,<3.0a0``
@@ -60,10 +61,10 @@ coot-headless
    :depends on libfreetype: ``>=2.14.3``
    :depends on libfreetype6: ``>=2.14.3``
    :depends on libintl: ``>=0.25.1,<1.0a0``
-   :depends on libpng: ``>=1.6.56,<1.7.0a0``
-   :depends on libsqlite: ``>=3.52.0,<4.0a0``
+   :depends on libpng: ``>=1.6.58,<1.7.0a0``
+   :depends on libsqlite: ``>=3.53.0,<4.0a0``
    :depends on libxml2: 
-   :depends on libxml2-16: ``>=2.15.2``
+   :depends on libxml2-16: ``>=2.15.3``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on mmdb2: ``>=2.0.22,<3.0a0``
    :depends on numpy: ``2.*``

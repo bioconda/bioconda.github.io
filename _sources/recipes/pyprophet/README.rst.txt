@@ -43,6 +43,7 @@ pyprophet
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on click: 
    :depends on llvm-openmp: ``>=19.1.7``
    :depends on loguru: 

@@ -28,10 +28,10 @@ zipstrain
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.6-0</code>,  <code>0.7.5-0</code>,  <code>0.7.3-0</code>,  <code>0.6.0-0</code>,  <code>0.4.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.21-0</code>,  <code>0.2.16-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.0-0</code>,  <code>0.7.6-0</code>,  <code>0.7.5-0</code>,  <code>0.7.3-0</code>,  <code>0.6.0-0</code>,  <code>0.4.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.21-0</code>,  </span></summary>
       
 
-      ``0.7.6-0``,  ``0.7.5-0``,  ``0.7.3-0``,  ``0.6.0-0``,  ``0.4.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.21-0``,  ``0.2.16-0``,  ``0.2.12-0``,  ``0.2.10-0``,  ``0.2.7-0``,  ``0.1.8-0``,  ``0.1.7-0``
+      ``0.8.0-0``,  ``0.7.6-0``,  ``0.7.5-0``,  ``0.7.3-0``,  ``0.6.0-0``,  ``0.4.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.21-0``,  ``0.2.16-0``,  ``0.2.12-0``,  ``0.2.10-0``,  ``0.2.7-0``,  ``0.1.8-0``,  ``0.1.7-0``
 
       
       .. raw:: html
@@ -128,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "zipstrain";
-        var versions = ["0.7.6","0.7.5","0.7.3","0.6.0","0.4.2"];
+        var versions = ["0.8.0","0.7.6","0.7.5","0.7.3","0.6.0"];
     </script>
 
 

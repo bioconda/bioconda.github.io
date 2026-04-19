@@ -43,6 +43,7 @@ bbmap
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on openjdk: ``>=11.0.1``
    :depends on samtools: ``>=1.23.1,<2.0a0``

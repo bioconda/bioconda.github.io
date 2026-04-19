@@ -10,9 +10,9 @@ bioconductor-rgraphviz
    :replaces_section_title:
    :noindex:
 
-   Provides plotting capabilities for R graph objects
+   Provides plotting capabilities for R graph objects.
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Rgraphviz.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/Rgraphviz.html
    :license: EPL
    :recipe: /`bioconductor-rgraphviz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgraphviz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgraphviz/meta.yaml>`_
    :links: biotools: :biotools:`rgraphviz`, usegalaxy-eu: :usegalaxy-eu:`rgraphviz`
@@ -29,10 +29,10 @@ bioconductor-rgraphviz
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.54.0-1</code>,  <code>2.54.0-0</code>,  <code>2.50.0-1</code>,  <code>2.50.0-0</code>,  <code>2.46.0-1</code>,  <code>2.46.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-1</code>,  <code>2.42.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.54.0-2</code>,  <code>2.54.0-1</code>,  <code>2.54.0-0</code>,  <code>2.50.0-1</code>,  <code>2.50.0-0</code>,  <code>2.46.0-1</code>,  <code>2.46.0-0</code>,  <code>2.44.0-0</code>,  <code>2.42.0-1</code>,  </span></summary>
       
 
-      ``2.54.0-1``,  ``2.54.0-0``,  ``2.50.0-1``,  ``2.50.0-0``,  ``2.46.0-1``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-1``,  ``2.42.0-0``,  ``2.38.0-2``,  ``2.38.0-1``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.16.0-1``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.13.0-1``,  ``2.13.0-0``
+      ``2.54.0-2``,  ``2.54.0-1``,  ``2.54.0-0``,  ``2.50.0-1``,  ``2.50.0-0``,  ``2.46.0-1``,  ``2.46.0-0``,  ``2.44.0-0``,  ``2.42.0-1``,  ``2.42.0-0``,  ``2.38.0-2``,  ``2.38.0-1``,  ``2.38.0-0``,  ``2.36.0-0``,  ``2.34.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.16.0-1``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.13.0-1``,  ``2.13.0-0``
 
       
       .. raw:: html
@@ -44,17 +44,18 @@ bioconductor-rgraphviz
    :depends on bioconductor-graph: ``>=1.88.0,<1.89.0``
    :depends on bioconductor-graph: ``>=1.88.1,<1.89.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
 Installation
@@ -126,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bioconductor-rgraphviz";
-        var versions = ["2.54.0","2.54.0","2.50.0","2.50.0","2.46.0"];
+        var versions = ["2.54.0","2.54.0","2.54.0","2.50.0","2.50.0"];
     </script>
 
 

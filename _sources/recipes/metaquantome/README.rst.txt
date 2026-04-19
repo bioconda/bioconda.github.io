@@ -13,7 +13,9 @@ metaquantome
    Quantitative metaproteomics analysis of taxonomy and function.
 
    :homepage: https://github.com/galaxyproteomics/metaquantome
-   :license: APACHE / Apache Software License
+   :documentation: https://galaxyproteomics.github.io/metaquantome_mcp_analysis/cli_tutorial/cli_tutorial.html
+   
+   :license: APACHE / Apache-2.0
    :recipe: /`metaquantome <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaquantome>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaquantome/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ metaquantome
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>1.0a0-3</code>,  <code>0.99.5-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>1.0a0-3</code>,  </span></summary>
       
 
-      ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``,  ``1.0a0-3``,  ``0.99.5-3``,  ``0.99.4a0-3``,  ``0.99.3-3``,  ``0.99.3-2``,  ``0.99.2-2``,  ``0.99.2-0``
+      ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``,  ``1.0a0-3``,  ``0.99.5-3``,  ``0.99.4a0-3``,  ``0.99.3-3``,  ``0.99.3-2``,  ``0.99.2-2``,  ``0.99.2-0``
 
       
       .. raw:: html
@@ -40,21 +42,23 @@ metaquantome
       
 
    
-   :depends on biopython: ``1.73.*``
-   :depends on ete3: ``3.1.2.*``
-   :depends on goatools: ``0.7.*``
-   :depends on libiconv: ``1.15.*``
-   :depends on numpy: ``1.15.*``
-   :depends on pandas: ``0.23.*``
-   :depends on python: ``>=3``
-   :depends on r-base: ``3.5.1.*``
-   :depends on r-dplyr: ``0.8.*``
-   :depends on r-ggplot2: ``3.0.*``
-   :depends on r-gplots: ``3.0.*``
-   :depends on r-jsonlite: ``1.5.*``
-   :depends on r-scico: ``1.1.0.*``
-   :depends on r-tidyr: ``0.8.*``
-   :depends on statsmodels: ``0.8.*``
+   :depends on biopython: 
+   :depends on ete3: 
+   :depends on goatools: 
+   :depends on legacy-cgi: 
+   :depends on libiconv: 
+   :depends on numpy: 
+   :depends on pandas: 
+   :depends on python: ``>=3.5``
+   :depends on r-base: 
+   :depends on r-dplyr: 
+   :depends on r-ggplot2: 
+   :depends on r-gplots: 
+   :depends on r-jsonlite: 
+   :depends on r-scico: 
+   :depends on r-tidyr: 
+   :depends on setuptools: ``<82``
+   :depends on statsmodels: 
 
    :additional platforms:
       
@@ -128,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "metaquantome";
-        var versions = ["2.0.2","2.0.1","2.0.0","2.0.0","1.1.0"];
+        var versions = ["2.0.3","2.0.2","2.0.1","2.0.0","2.0.0"];
     </script>
 
 

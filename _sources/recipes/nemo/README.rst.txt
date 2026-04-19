@@ -33,7 +33,8 @@ nemo
 
    
    :depends on gsl: ``>=2.6,<2.7.0a0``
-   :depends on libcxx: ``>=9.0.1``
+   :depends on libgcc-ng: ``>=7.5.0``
+   :depends on libstdcxx-ng: ``>=7.5.0``
    :depends on openblas: 
 
    :additional platforms:

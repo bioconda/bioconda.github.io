@@ -58,7 +58,7 @@ zol
    :depends on legacy-cgi: 
    :depends on libcxx: ``>=19``
    :depends on mcl: 
-   :depends on miniprot: ``0.13.*``
+   :depends on miniprot: ``>=0.13``
    :depends on muscle: ``5.1.*``
    :depends on pal2nal: ``>=14.1``
    :depends on pandas: ``>=2.0``

@@ -44,13 +44,11 @@ gimmemotifs
 
    
    :depends on dinamo: ``>=1.0``
-   :depends on gadem: ``>=1.3.1``
-   :depends on gimmemotifs-minimal: ``0.18.2 py310h307f4ad_0``
+   :depends on gimmemotifs-minimal: ``0.18.2 py310h5eb0d11_0``
    :depends on meme: ``>=5.5.7``
    :depends on prosampler: ``>=1.5``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
-   :depends on trawler: ``>=2.0``
 
    :additional platforms:
       
@@ -153,6 +151,7 @@ Check the documentation of your workflow management system to find out about the
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on biofluff: ``>=3.0.4``
    :depends on configparser: 
    :depends on diskcache: 

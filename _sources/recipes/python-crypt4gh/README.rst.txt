@@ -29,19 +29,24 @@ python-crypt4gh
       
       
 
-      ``1.7-0``,  ``1.6-0``,  ``1.5-0``
+      ``1.8-0``,  ``1.7-0``,  ``1.6-0``,  ``1.5-0``
 
       
 
    
    :depends on bcrypt: 
    :depends on cryptography: 
-   :depends on docopt: 
-   :depends on pynacl: 
-   :depends on python: ``>=3.6``
+   :depends on docopt-ng: 
+   :depends on libsodium: ``>=1.0.22,<1.0.23.0a0``
+   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on python_abi: ``3.10.* *_cp310``
    :depends on pyyaml: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -113,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "python-crypt4gh";
-        var versions = ["1.7","1.6","1.5"];
+        var versions = ["1.8","1.7","1.6","1.5"];
     </script>
 
 

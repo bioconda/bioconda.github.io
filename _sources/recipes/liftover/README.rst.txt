@@ -13,7 +13,6 @@ liftover
    A Python package for converting point coordinates between genome assemblies\, inspired by pyliftover.
 
    :homepage: https://github.com/jeremymcrae/liftover
-   :developer docs: https://pypi.org/project/liftover/
    :license: MIT / MIT
    :recipe: /`liftover <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/liftover>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/liftover/meta.yaml>`_
 
@@ -29,10 +28,10 @@ liftover
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.0-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  </span></summary>
       
 
-      ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.18-0``,  ``1.1.17-0``,  ``1.1.16-0``
+      ``1.4.0-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.18-0``,  ``1.1.17-0``,  ``1.1.16-0``
 
       
       .. raw:: html
@@ -41,8 +40,8 @@ liftover
       
 
    
-   :depends on libcxx: ``>=18``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on urllib3: 
@@ -123,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "liftover";
-        var versions = ["1.3.3","1.3.2","1.3.1","1.3.1","1.3.0"];
+        var versions = ["1.4.0","1.3.3","1.3.2","1.3.1","1.3.1"];
     </script>
 
 
