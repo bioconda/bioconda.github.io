@@ -12,7 +12,7 @@ gblocks
 
    Selection of conserved blocks from multiple alignments for their use in phylogenetic analysis.
 
-   :homepage: http://molevol.cmima.csic.es/castresana/Gblocks.html
+   :homepage: https://molevol-ibe.csic.es/Gblocks.html
    :license: The software and its accompanying documentation are provided as is, without guarantee of support or maintenance.
    :recipe: /`gblocks <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gblocks>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gblocks/meta.yaml>`_
 
@@ -27,13 +27,17 @@ gblocks
       
       
 
-      ``0.91b-2``,  ``0.91b-1``,  ``0.91b-0``
+      ``1.0-0``,  ``0.91b-2``,  ``0.91b-1``,  ``0.91b-0``
 
       
 
    
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>osx-arm64</code></span>
       
 
 Installation
@@ -105,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "gblocks";
-        var versions = ["0.91b","0.91b","0.91b"];
+        var versions = ["1.0","0.91b","0.91b","0.91b"];
     </script>
 
 

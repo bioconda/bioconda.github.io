@@ -29,16 +29,17 @@ art_modern-openmpi
       
       
 
-      ``1.4.0-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-0``
+      ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-0``
 
       
 
    
    :depends on fmt: ``>=12.0.0,<12.1.0a0``
    :depends on htslib: ``>=1.23.1,<1.24.0a0``
-   :depends on libboost: ``>=1.86,<1.87``
-   :depends on libboost: ``>=1.86.0,<1.87.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libboost: ``>=1.90.0,<1.91.0a0``
+   :depends on libboost: ``>=1.90.0,<2``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on openmpi: ``>=4.1.6,<5.0a0``
 
@@ -118,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "art_modern-openmpi";
-        var versions = ["1.4.0","1.3.4","1.3.3","1.3.2","1.3.1"];
+        var versions = ["1.4.0","1.4.0","1.3.4","1.3.3","1.3.2"];
     </script>
 
 

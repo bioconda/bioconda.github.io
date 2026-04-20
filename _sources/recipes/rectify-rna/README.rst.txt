@@ -32,7 +32,7 @@ rectify-rna
       
       
 
-      ``2.1.3-0``
+      ``2.7.8-0``,  ``2.1.3-0``
 
       
 
@@ -121,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "rectify-rna";
-        var versions = ["2.1.3"];
+        var versions = ["2.7.8","2.1.3"];
     </script>
 
 

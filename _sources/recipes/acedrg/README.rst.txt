@@ -32,18 +32,19 @@ acedrg
       
       
 
-      ``330-1``,  ``330-0``
+      ``330-2``,  ``330-1``,  ``330-0``
 
       
 
    
    :depends on gemmi: 
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on networkx: 
    :depends on numpy: 
    :depends on pdbecif: 
-   :depends on python: ``>=3.10,<3.11.0a0 *_cpython``
-   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on python: ``>=3.11,<3.12.0a0 *_cpython``
+   :depends on python_abi: ``3.11.* *_cp311``
    :depends on rdkit: 
    :depends on servalcat: 
 
@@ -123,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "acedrg";
-        var versions = ["330","330"];
+        var versions = ["330","330","330"];
     </script>
 
 

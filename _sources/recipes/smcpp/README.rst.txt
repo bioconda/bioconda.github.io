@@ -13,7 +13,9 @@ smcpp
    SMC\+\+ infers population history from whole\-genome sequence data.
 
    :homepage: https://github.com/popgenmethods/smcpp
-   :license: BSD
+   :documentation: https://github.com/popgenmethods/smcpp/blob/v1.15.4/README.rst
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`smcpp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smcpp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smcpp/meta.yaml>`_
 
    
@@ -27,36 +29,38 @@ smcpp
       
       
 
-      ``1.15.4-0``
+      ``1.15.4-1``,  ``1.15.4-0``
 
       
 
    
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on appdirs: 
    :depends on gmp: ``>=6.3.0,<7.0a0``
    :depends on gnuplot: 
    :depends on gsl: ``>=2.7,<2.8.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
+   :depends on libstdcxx: ``>=14``
    :depends on matplotlib-base: ``>=3,<3.6``
-   :depends on mpfr: ``<4.2``
-   :depends on mpfr: ``>=4.1.0,<5.0a0``
-   :depends on numpy: ``>=1.22.4,<2.0a0``
+   :depends on mpfr: ``>=4.2.2,<5.0a0``
+   :depends on numpy: ``<2``
+   :depends on numpy: ``>=1.26.4,<2.0a0``
    :depends on pandas: ``>=1.4``
    :depends on pysam: ``>=0.18``
-   :depends on python: ``>=3.9,<3.10.0a0 *_cpython``
-   :depends on python_abi: ``3.9.* *_cp39``
+   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on python_abi: ``3.10.* *_cp310``
    :depends on scikit-learn: ``>=1``
    :depends on scipy: ``>=1.8``
-   :depends on seaborn: 
-   :depends on setuptools_scm: 
+   :depends on seaborn-base: 
+   :depends on setuptools: ``<81``
    :depends on tqdm: 
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -128,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "smcpp";
-        var versions = ["1.15.4"];
+        var versions = ["1.15.4","1.15.4"];
     </script>
 
 

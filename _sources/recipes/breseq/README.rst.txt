@@ -44,7 +44,8 @@ breseq
 
    
    :depends on bowtie2: ``>=2.0.0,!=2.0.3,!=2.0.4,!=2.3.1``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on r-base: 
    :depends on r-cairo: 

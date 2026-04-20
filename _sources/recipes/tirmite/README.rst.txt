@@ -10,13 +10,13 @@ tirmite
    :replaces_section_title:
    :noindex:
 
-   Map profile HMMs of transposon termini to genomic sequences for annotation of cryptic transposon variants.
+   Annotation of cryptic transposon variants using Hidden Markov Models to detect conserved terminal features.
 
    :homepage: https://github.com/Adamtaranto/TIRmite
    :license: GPL-3 / GPL-3
    :recipe: /`tirmite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tirmite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tirmite/meta.yaml>`_
 
-   Map profile HMMs of transposon termini to genomic sequences for annotation of cryptic transposon variants.
+   Annotation of cryptic transposon variants using Hidden Markov Models to detect conserved terminal features.
 
 
 .. conda:package:: tirmite
@@ -28,10 +28,10 @@ tirmite
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.6-0</code>,  <code>1.1.5-1</code>,  <code>1.1.5-0</code>,  <code>1.1.4-0</code>,  <code>1.1.3-1</code>,  <code>1.1.3-0</code>,  <code>1.1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.6-0</code>,  <code>1.1.5-1</code>,  <code>1.1.5-0</code>,  <code>1.1.4-0</code>,  <code>1.1.3-1</code>,  <code>1.1.3-0</code>,  </span></summary>
       
 
-      ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.6-0``,  ``1.1.5-1``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``
+      ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.6-0``,  ``1.1.5-1``,  ``1.1.5-0``,  ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -41,10 +41,12 @@ tirmite
 
    
    :depends on biopython: ``>=1.70``
+   :depends on blast: ``>=2.17.0``
+   :depends on mafft: 
    :depends on pandas: ``>=0.23.4``
    :depends on pyfaidx: 
    :depends on pyhmmer: 
-   :depends on python: ``>=3.8``
+   :depends on python: ``>=3.9``
    :depends on rich: 
 
    :additional platforms:
@@ -119,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "tirmite";
-        var versions = ["1.3.0","1.2.0","1.1.6","1.1.5","1.1.5"];
+        var versions = ["1.4.0","1.3.0","1.2.0","1.1.6","1.1.5"];
     </script>
 
 

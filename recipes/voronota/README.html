@@ -102,14 +102,22 @@ Voronota provides tools to query contacts, generate contacts graphics, compare c
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/voronota"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/voronota.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/voronota"><img alt="docker_voronota" src="https://quay.io/repository/biocontainers/voronota/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.29.4771-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.29.4723-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.29.4602-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.29.4592-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.29.4415-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.29.4412-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.29.4408-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.29.4370-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.29.4781-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.29.4771-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.29.4723-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.29.4602-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.29.4592-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.29.4415-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.29.4412-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.29.4408-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.29.4370-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
+<li><p><strong>on _openmp_mutex</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=4.5</span></code></p></li>
 <li><p><strong>on glew</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=2.3.0,&lt;2.4.0a0</span></code></p></li>
 <li><p><strong>on glfw</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.4,&lt;4.0a0</span></code></p></li>
-<li><p><strong>on libcxx</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=19</span></code></p></li>
-<li><p><strong>on llvm-openmp</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=19.1.7</span></code></p></li>
+<li><p><strong>on libegl</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.7.0,&lt;2.0a0</span></code></p></li>
+<li><p><strong>on libgcc</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p></li>
+<li><p><strong>on libgl</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.7.0,&lt;2.0a0</span></code></p></li>
+<li><p><strong>on libgles</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.7.0,&lt;2.0a0</span></code></p></li>
+<li><p><strong>on libglx</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.7.0,&lt;2.0a0</span></code></p></li>
+<li><p><strong>on libgomp</strong></p></li>
+<li><p><strong>on libstdcxx</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p></li>
+<li><p><strong>on libxcb</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.17.0,&lt;2.0a0</span></code></p></li>
+<li><p><strong>on mesalib</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=26.0.3,&lt;26.1.0a0</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
@@ -168,7 +176,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
     var package = "voronota";
-    var versions = ["1.29.4771","1.29.4723","1.29.4602","1.29.4592","1.29.4415"];
+    var versions = ["1.29.4781","1.29.4771","1.29.4723","1.29.4602","1.29.4592"];
 </script></section>
 </section>
 <section id="download-stats">

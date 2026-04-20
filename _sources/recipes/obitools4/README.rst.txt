@@ -10,11 +10,14 @@ obitools4
    :replaces_section_title:
    :noindex:
 
-   A software package for DNA metabarcoding
+   A software package for DNA metabarcoding.
 
-   :homepage: https://obitools4.metabarcoding.org
+   :homepage: https://github.com/metabarcoding/obitools4
+   :documentation: https://obitools4.metabarcoding.org
+   
    :license: CECILL-2.1
    :recipe: /`obitools4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/obitools4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/obitools4/meta.yaml>`_
+   :links: biotools: :biotools:`obitools`, doi: :doi:`10.1111/1755-0998.12428`, usegalaxy-eu: :usegalaxy-eu:`obi_tab`, usegalaxy-eu: :usegalaxy-eu:`obi_stat`, usegalaxy-eu: :usegalaxy-eu:`obi_sort`, usegalaxy-eu: :usegalaxy-eu:`obi_convert`, usegalaxy-eu: :usegalaxy-eu:`obi_clean`, usegalaxy-eu: :usegalaxy-eu:`obi_uniq`, usegalaxy-eu: :usegalaxy-eu:`obi_grep`, usegalaxy-eu: :usegalaxy-eu:`obi_annotate`
 
    
 
@@ -27,16 +30,19 @@ obitools4
       
       
 
-      ``4.4.0-0``
+      ``4.4.41-0``,  ``4.4.0-0``
 
       
 
    
-   :depends on __glibc: ``>=2.17``
-   :depends on libgcc: ``>=13``
-   :depends on libzlib: 
+   :depends on libgcc: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -108,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "obitools4";
-        var versions = ["4.4.0"];
+        var versions = ["4.4.41","4.4.0"];
     </script>
 
 

@@ -29,10 +29,10 @@ fusion-inspector
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.11.3-0</code>,  <code>2.11.0-0</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.2.1-0</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.11.4-0</code>,  <code>2.11.3-0</code>,  <code>2.11.0-0</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.2.1-0</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  </span></summary>
       
 
-      ``2.11.3-0``,  ``2.11.0-0``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.2.1-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
+      ``2.11.4-0``,  ``2.11.3-0``,  ``2.11.0-0``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.2.1-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -44,15 +44,15 @@ fusion-inspector
    :depends on bzip2: 
    :depends on gmap: ``>=2017.11.15``
    :depends on htslib: 
-   :depends on perl: 
+   :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends on perl-db_file: 
    :depends on perl-set-intervaltree: 
    :depends on perl-uri: 
    :depends on python: ``>=3.14,<3.15.0a0``
    :depends on requests: ``>=2.19.1``
    :depends on samtools: ``>=1.3``
-   :depends on star: ``>=2.6.1b``
-   :depends on trinity: ``>=2.15.1``
+   :depends on star: ``>=2.7.11b``
+   :depends on trinity: ``>=2.15.2``
 
    :additional platforms:
       
@@ -126,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "fusion-inspector";
-        var versions = ["2.11.3","2.11.0","2.10.0","2.10.0","2.8.0"];
+        var versions = ["2.11.4","2.11.3","2.11.0","2.10.0","2.10.0"];
     </script>
 
 

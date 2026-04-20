@@ -10,10 +10,13 @@ segway
    :replaces_section_title:
    :noindex:
 
-   a tool for easy pattern discovery and identification in functional genomics data.
+   A tool for easy pattern discovery and identification in functional genomics data.
 
-   :homepage: http://segway.hoffmanlab.org/
-   :license: GPL2
+   :homepage: https://segway.hoffmanlab.org
+   :documentation: https://segway.readthedocs.io/en/latest
+   
+   :developer docs: https://github.com/hoffmangroup/segway
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`segway <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/segway>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/segway/meta.yaml>`_
    :links: doi: :doi:`10.1093/bioinformatics/btx603`, biotools: :biotools:`segway`
 
@@ -29,10 +32,10 @@ segway
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.4-1</code>,  <code>3.0.4-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-1</code>,  <code>3.0.2-0</code>,  <code>3.0-1</code>,  <code>3.0-0</code>,  <code>2.0.5-1</code>,  <code>2.0.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.5-0</code>,  <code>3.0.4-1</code>,  <code>3.0.4-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-1</code>,  <code>3.0.2-0</code>,  <code>3.0-1</code>,  <code>3.0-0</code>,  <code>2.0.5-1</code>,  </span></summary>
       
 
-      ``3.0.4-1``,  ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0-1``,  ``3.0-0``,  ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.2-3``,  ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0-0``,  ``1.4.4-0``,  ``1.4-0``
+      ``3.0.5-0``,  ``3.0.4-1``,  ``3.0.4-0``,  ``3.0.3-0``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0-1``,  ``3.0-0``,  ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.2-3``,  ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0-0``,  ``1.4.4-0``,  ``1.4-0``
 
       
       .. raw:: html
@@ -46,10 +49,13 @@ segway
    :depends on drmaa: ``>=0.4a3``
    :depends on genomedata: 
    :depends on gmtk: ``>=1.4.4``
+   :depends on numpy: 
    :depends on optbuild: 
    :depends on optplus: 
+   :depends on palettable: ``>=3.3.3``
    :depends on path.py: 
-   :depends on python: 
+   :depends on pytables: ``>2.0.4``
+   :depends on python: ``>=3.10``
    :depends on six: 
    :depends on textinput: 
    :depends on ucsc-bedtobigbed: 
@@ -126,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "segway";
-        var versions = ["3.0.4","3.0.4","3.0.3","3.0.2","3.0.2"];
+        var versions = ["3.0.5","3.0.4","3.0.4","3.0.3","3.0.2"];
     </script>
 
 

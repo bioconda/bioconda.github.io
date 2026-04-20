@@ -32,7 +32,7 @@ metaamrplus
       
       
 
-      ``1.4.1-1``,  ``1.4.1-0``,  ``1.4-0``
+      ``1.5.1-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4-0``
 
       
 
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "metaamrplus";
-        var versions = ["1.4.1","1.4.1","1.4"];
+        var versions = ["1.5.1","1.4.1","1.4.1","1.4"];
     </script>
 
 

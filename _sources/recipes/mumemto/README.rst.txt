@@ -47,7 +47,10 @@ mumemto
       
 
    
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=12``
+   :depends on libgcc-ng: ``>=12``
+   :depends on libstdcxx: ``>=12``
+   :depends on libstdcxx-ng: ``>=12``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on matplotlib-base: 
    :depends on numba: 

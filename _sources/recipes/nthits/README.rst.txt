@@ -32,10 +32,11 @@ nthits
       
 
    
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on btllib: ``>=1.5.0``
    :depends on btllib: ``>=1.7.3,<2.0a0``
-   :depends on libcxx: ``>=18``
-   :depends on llvm-openmp: ``>=18.1.8``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
 
    :additional platforms:
       

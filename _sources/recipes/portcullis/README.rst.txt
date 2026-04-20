@@ -30,10 +30,10 @@ portcullis
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.4-4</code>,  <code>1.2.4-3</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-2</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.4-5</code>,  <code>1.2.4-4</code>,  <code>1.2.4-3</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-2</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  </span></summary>
       
 
-      ``1.2.4-4``,  ``1.2.4-3``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-3``,  ``1.1.0-0``
+      ``1.2.4-5``,  ``1.2.4-4``,  ``1.2.4-3``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-3``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -42,17 +42,19 @@ portcullis
       
 
    
-   :depends on libboost: 
-   :depends on libboost-python: ``>=1.84.0,<1.85.0a0``
-   :depends on libboost-python-devel: 
-   :depends on libcxx: ``>=18``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on boost-cpp: 
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on matplotlib-base: 
    :depends on numpy: 
    :depends on pandas: 
-   :depends on python: ``>=3.9,<3.10.0a0``
-   :depends on python_abi: ``3.9.* *_cp39``
-   :depends on samtools: ``>=1.22.1,<2.0a0``
+   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on samtools: ``>=1.23.1,<2.0a0``
    :depends on samtools: ``>=1.9``
+   :depends on setuptools: ``<82``
+   :depends on sphinx: 
    :depends on tabulate: 
 
    :additional platforms:
@@ -131,7 +133,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "portcullis";
-        var versions = ["1.2.4","1.2.4","1.2.4","1.2.4","1.2.3"];
+        var versions = ["1.2.4","1.2.4","1.2.4","1.2.4","1.2.4"];
     </script>
 
 

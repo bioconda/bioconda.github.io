@@ -12,9 +12,13 @@ cosi2
 
    cosi2 is an efficient coalescent simulator with support for selection\, population structure\, variable recombination rates\, and gene conversion. It supports exact and approximate simulation modes.
 
-   :homepage: https://www.broadinstitute.org/mpg/cosi2/
-   :license: GPLv3
+   :homepage: https://software.broadinstitute.org/mpg/cosi2
+   :documentation: https://github.com/broadinstitute/cosi2/blob/v2.4.0/README.org
+   
+   :developer docs: https://github.com/broadinstitute/cosi2
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`cosi2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cosi2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cosi2/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btu562`
 
    
 
@@ -27,15 +31,20 @@ cosi2
       
       
 
-      ``2.3.0rc4-1``,  ``2.3.0rc4-0``,  ``2.3.0rc3-0``,  ``2.3.0rc2-0``,  ``2.3.0rc1-0``,  ``2.02-1``,  ``2.02-0``,  ``2.0-0``
+      ``2.4.0-0``,  ``2.3.0rc4-1``,  ``2.3.0rc4-0``,  ``2.3.0rc3-0``,  ``2.3.0rc2-0``,  ``2.3.0rc1-0``,  ``2.02-1``,  ``2.02-0``,  ``2.0-0``
 
       
 
    
-   :depends on libstdcxx-ng: ``>=4.9``
-   :depends on python: ``>=2.7,<2.8.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on python: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -107,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "cosi2";
-        var versions = ["2.3.0rc4","2.3.0rc4","2.3.0rc3","2.3.0rc2","2.3.0rc1"];
+        var versions = ["2.4.0","2.3.0rc4","2.3.0rc4","2.3.0rc3","2.3.0rc2"];
     </script>
 
 

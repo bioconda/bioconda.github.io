@@ -17,7 +17,7 @@ mikado
    
    :license: LGPL / LGPL-3.0-or-later
    :recipe: /`mikado <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mikado>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mikado/meta.yaml>`_
-   :links: biotools: :biotools:`mikado`
+   :links: biotools: :biotools:`mikado`, doi: :doi:`10.1093/gigascience/giy093`, doi: :doi:`10.1093/gigascience/giy131`
 
    
 
@@ -31,10 +31,10 @@ mikado
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.4-2</code>,  <code>2.3.4-0</code>,  <code>2.3.3-1</code>,  <code>2.3.3-0</code>,  <code>2.3.2-0</code>,  <code>2.3.1-0</code>,  <code>2.3.0-0</code>,  <code>2.2.5-0</code>,  <code>2.2.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.5rc3-1</code>,  <code>2.3.5rc3-0</code>,  <code>2.3.4-2</code>,  <code>2.3.4-0</code>,  <code>2.3.3-1</code>,  <code>2.3.3-0</code>,  <code>2.3.2-0</code>,  <code>2.3.1-0</code>,  <code>2.3.0-0</code>,  </span></summary>
       
 
-      ``2.3.4-2``,  ``2.3.4-0``,  ``2.3.3-1``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0-0``,  ``2.0rc2-1``,  ``2.0rc2-0``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.2-0``
+      ``2.3.5rc3-1``,  ``2.3.5rc3-0``,  ``2.3.4-2``,  ``2.3.4-0``,  ``2.3.3-1``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.5-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0-0``,  ``2.0rc2-1``,  ``2.0rc2-0``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.1.1-0``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -43,34 +43,40 @@ mikado
       
 
    
-   :depends on biopython: ``>=1.78``
+   :depends on biopython: ``>=1.79``
    :depends on datrie: ``>=0.8``
-   :depends on drmaa: 
-   :depends on hypothesis: 
-   :depends on libcxx: ``>=18``
-   :depends on marshmallow: ``>=3.1.0``
-   :depends on marshmallow-dataclass: ``>=8.3.1``
-   :depends on msgpack-python: ``>=1.0.0``
-   :depends on networkx: ``>=2.3``
+   :depends on diamond: ``2.1.16``
+   :depends on docutils: ``>=0.19``
+   :depends on drmaa: ``>=0.7.9``
+   :depends on htslib: ``>=1.11``
+   :depends on hypothesis: ``>=6.56.2``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on marshmallow: ``>=3.14.1``
+   :depends on marshmallow-dataclass: ``>=8.5.3``
+   :depends on msgpack-python: ``>=1.0.4``
+   :depends on networkx: ``>=2.8.7``
    :depends on numpy: ``<2``
    :depends on numpy: ``>=1.26.4,<2.0a0``
-   :depends on pandas: ``>=1.0``
-   :depends on pyfaidx: ``>=0.5.8``
-   :depends on pysam: ``>=0.15.3``
-   :depends on pytest: 
+   :depends on pandas: ``>=1.5.0``
+   :depends on portcullis: ``>=1.2.4``
+   :depends on prodigal: ``2.6.3``
+   :depends on pyfaidx: ``>=0.5.9.5``
+   :depends on pysam: ``>=0.23.3``
+   :depends on pytest: ``>=7.1.3``
    :depends on python: ``>=3.10,<3.11.0a0``
-   :depends on python-rapidjson: ``>=1.0``
+   :depends on python-rapidjson: ``>=1.9``
    :depends on python_abi: ``3.10.* *_cp310``
-   :depends on pyyaml: ``>=5.1.2``
-   :depends on scipy: 
-   :depends on six: ``>=1.12.0``
-   :depends on snakemake-minimal: ``<8``
-   :depends on sqlalchemy: ``<2``
-   :depends on sqlalchemy-utils: ``>=0.34.1``
+   :depends on pyyaml: ``>=6.0.1``
+   :depends on samtools: ``>=1.11``
+   :depends on scipy: ``>=1.11.1``
+   :depends on snakemake: ``>=6.15.5,<8``
+   :depends on sqlalchemy: ``>=1.4.41,<2``
+   :depends on sqlalchemy-utils: ``>=0.38.3``
    :depends on sqlite: 
-   :depends on tabulate: ``>=0.8.5``
-   :depends on toml: ``>=0.10.0``
-   :depends on typeguard: ``>=2.9.1``
+   :depends on tabulate: ``>=0.9.0``
+   :depends on toml: ``>=0.10.2``
+   :depends on typeguard: ``>=2.13.3``
 
    :additional platforms:
       
@@ -148,7 +154,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "mikado";
-        var versions = ["2.3.4","2.3.4","2.3.3","2.3.3","2.3.2"];
+        var versions = ["2.3.5rc3","2.3.5rc3","2.3.4","2.3.4","2.3.3"];
     </script>
 
 

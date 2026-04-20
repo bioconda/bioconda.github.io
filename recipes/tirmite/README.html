@@ -67,7 +67,7 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">tirmite</span></span></dt>
-<dd><p>Map profile HMMs of transposon termini to genomic sequences for annotation of cryptic transposon variants.</p>
+<dd><p>Annotation of cryptic transposon variants using Hidden Markov Models to detect conserved terminal features.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/Adamtaranto/TIRmite">https://github.com/Adamtaranto/TIRmite</a></p>
@@ -79,7 +79,7 @@
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tirmite">tirmite</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tirmite/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>Map profile HMMs of transposon termini to genomic sequences for annotation of cryptic transposon variants.</p>
+<p>Annotation of cryptic transposon variants using Hidden Markov Models to detect conserved terminal features.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -88,15 +88,17 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/tirmite"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/tirmite.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/tirmite"><img alt="docker_tirmite" src="https://quay.io/repository/biocontainers/tirmite/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.6-0</code>,  <code>1.1.5-1</code>,  <code>1.1.5-0</code>,  <code>1.1.4-0</code>,  <code>1.1.3-1</code>,  <code>1.1.3-0</code>,  <code>1.1.1-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">1.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.5-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.3-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.0-0</span></code></p>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.6-0</code>,  <code>1.1.5-1</code>,  <code>1.1.5-0</code>,  <code>1.1.4-0</code>,  <code>1.1.3-1</code>,  <code>1.1.3-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">1.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.5-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.3-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.0-0</span></code></p>
 </details></dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
 <li><p><strong>on biopython</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.70</span></code></p></li>
+<li><p><strong>on blast</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=2.17.0</span></code></p></li>
+<li><p><strong>on mafft</strong></p></li>
 <li><p><strong>on pandas</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=0.23.4</span></code></p></li>
 <li><p><strong>on pyfaidx</strong></p></li>
 <li><p><strong>on pyhmmer</strong></p></li>
-<li><p><strong>on python</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.8</span></code></p></li>
+<li><p><strong>on python</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.9</span></code></p></li>
 <li><p><strong>on rich</strong></p></li>
 </ul>
 </dd>
@@ -156,7 +158,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
     var package = "tirmite";
-    var versions = ["1.3.0","1.2.0","1.1.6","1.1.5","1.1.5"];
+    var versions = ["1.4.0","1.3.0","1.2.0","1.1.6","1.1.5"];
 </script></section>
 </section>
 <section id="download-stats">

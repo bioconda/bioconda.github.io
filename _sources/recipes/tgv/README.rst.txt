@@ -35,8 +35,9 @@ tgv
 
    
    :depends on htslib: ``>=1.22.1,<1.23.0a0``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
    :depends on libsqlite: ``>=3.50.4,<4.0a0``
+   :depends on libstdcxx: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on openssl: ``>=3.5.2,<4.0a0``
 

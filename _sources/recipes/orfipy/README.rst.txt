@@ -41,7 +41,8 @@ orfipy
 
    
    :depends on colorama: 
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on psutil: 
    :depends on pyahocorasick: 
    :depends on pyfastx: ``>=2.3.0,<3.0a0``

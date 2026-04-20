@@ -49,8 +49,9 @@ dysgu
    :depends on htslib: ``>=1.12``
    :depends on htslib: ``>=1.23.1,<1.24.0a0``
    :depends on libcurl: ``>=8.19.0,<9.0a0``
-   :depends on libcxx: ``>=14``
+   :depends on libgcc: ``>=14``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on lightgbm: ``>=3.1``
    :depends on networkx: ``>=2.4``

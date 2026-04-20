@@ -41,11 +41,12 @@ promod3
    
    :depends on libboost: ``>=1.86.0,<1.87.0a0``
    :depends on libboost-python: ``>=1.86.0,<1.87.0a0``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on openmm: ``>=8.3.1,<9.0a0``
    :depends on openstructure: ``>=2.11.0,<2.12.0a0``
-   :depends on python: ``>=3.11,<3.12.0a0 *_cpython``
-   :depends on python_abi: ``3.11.* *_cp311``
+   :depends on python: ``>=3.12,<3.13.0a0 *_cpython``
+   :depends on python_abi: ``3.12.* *_cp312``
 
    :additional platforms:
       
