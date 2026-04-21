@@ -30,10 +30,10 @@ annotsv
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.5.8-0</code>,  <code>3.5.6-0</code>,  <code>3.5.3-0</code>,  <code>3.5.2-0</code>,  <code>3.5.1-0</code>,  <code>3.5-0</code>,  <code>3.4.6-0</code>,  <code>3.4.4-0</code>,  <code>3.4.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.5.8-1</code>,  <code>3.5.8-0</code>,  <code>3.5.6-0</code>,  <code>3.5.3-0</code>,  <code>3.5.2-0</code>,  <code>3.5.1-0</code>,  <code>3.5-0</code>,  <code>3.4.6-0</code>,  <code>3.4.4-0</code>,  </span></summary>
       
 
-      ``3.5.8-0``,  ``3.5.6-0``,  ``3.5.3-0``,  ``3.5.2-0``,  ``3.5.1-0``,  ``3.5-0``,  ``3.4.6-0``,  ``3.4.4-0``,  ``3.4.3-0``,  ``3.4.2-0``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4-1``,  ``3.4-0``,  ``3.3.9-0``,  ``3.3.8-0``,  ``3.3.7-0``,  ``3.3.6-0``,  ``3.3.5-0``,  ``3.3.4-1``,  ``3.3.4-0``
+      ``3.5.8-1``,  ``3.5.8-0``,  ``3.5.6-0``,  ``3.5.3-0``,  ``3.5.2-0``,  ``3.5.1-0``,  ``3.5-0``,  ``3.4.6-0``,  ``3.4.4-0``,  ``3.4.3-0``,  ``3.4.2-0``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4-1``,  ``3.4-0``,  ``3.3.9-0``,  ``3.3.8-0``,  ``3.3.7-0``,  ``3.3.6-0``,  ``3.3.5-0``,  ``3.3.4-1``,  ``3.3.4-0``
 
       
       .. raw:: html
@@ -132,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "annotsv";
-        var versions = ["3.5.8","3.5.6","3.5.3","3.5.2","3.5.1"];
+        var versions = ["3.5.8","3.5.8","3.5.6","3.5.3","3.5.2"];
     </script>
 
 

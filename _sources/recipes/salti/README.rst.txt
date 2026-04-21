@@ -32,7 +32,7 @@ salti
       
 
    
-   :depends on openssl: ``>=3.5.6,<4.0a0``
+   :depends on openssl: ``>=3.5.5,<4.0a0``
 
    :additional platforms:
       

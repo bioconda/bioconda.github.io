@@ -43,11 +43,9 @@ metamdbg
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
-   :depends on libgcc: ``>=14``
-   :depends on libgomp: 
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on minimap2: ``2.28.*``
    :depends on time: ``1.8.*``
 

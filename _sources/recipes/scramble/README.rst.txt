@@ -37,7 +37,6 @@ scramble
    
    :depends on bioconductor-rsamtools: ``>=2.4.0``
    :depends on htslib: ``>=1.17,<1.24.0a0``
-   :depends on libgcc-ng: ``>=12``
    :depends on r-base: ``>=4.0.3``
    :depends on r-optparse: ``>=1.6.6``
    :depends on r-rblast: ``>=0.99.1``

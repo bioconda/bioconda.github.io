@@ -32,20 +32,19 @@ aakomp
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
    :depends on boost-cpp: 
-   :depends on btllib: ``>=1.7.5,<2.0a0``
+   :depends on btllib: ``>=1.7.3,<2.0a0``
    :depends on gperftools: 
    :depends on hmmer: ``3.1.*``
+   :depends on libcxx: ``>=19``
    :depends on libdivsufsort: ``>=2.0.2,<2.1.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libsequence: ``>=1.9.8,<2.0a0``
-   :depends on libstdcxx: ``>=14``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libsequence: ``>=1.9.8,<1.10.0a0``
+   :depends on libzlib: ``>=1.2.13,<2.0a0``
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on mamba: 
    :depends on python: ``>=3.12,<3.13.0a0``
    :depends on python_abi: ``3.12.* *_cp312``
-   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-base: ``>=4.3,<4.4.0a0``
    :depends on r-cairo: 
    :depends on r-dplyr: 
    :depends on r-ggplot2: 

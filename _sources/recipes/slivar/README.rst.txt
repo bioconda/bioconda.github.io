@@ -44,7 +44,6 @@ slivar
 
    
    :depends on htslib: ``>=1.22.1,<1.23.0a0``
-   :depends on libgcc: ``>=13``
 
    :additional platforms:
       

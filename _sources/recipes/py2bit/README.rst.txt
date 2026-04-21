@@ -13,7 +13,7 @@ py2bit
    A package for accessing 2bit files using lib2bit.
 
    :homepage: https://github.com/deeptools/py2bit
-   :documentation: https://github.com/deeptools/py2bit/blob/1.0.0/README.md
+   :documentation: https://github.com/deeptools/py2bit/blob/1.0.1/README.md
    
    :license: MIT / MIT
    :recipe: /`py2bit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/py2bit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/py2bit/meta.yaml>`_
@@ -30,10 +30,10 @@ py2bit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>0.3.3-1</code>,  <code>0.3.3-0</code>,  <code>0.3.0-11</code>,  <code>0.3.0-10</code>,  <code>0.3.0-9</code>,  <code>0.3.0-8</code>,  <code>0.3.0-7</code>,  <code>0.3.0-6</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.3.3-1</code>,  <code>0.3.3-0</code>,  <code>0.3.0-11</code>,  <code>0.3.0-10</code>,  <code>0.3.0-9</code>,  <code>0.3.0-8</code>,  <code>0.3.0-7</code>,  </span></summary>
       
 
-      ``1.0.0-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.0-11``,  ``0.3.0-10``,  ``0.3.0-9``,  ``0.3.0-8``,  ``0.3.0-7``,  ``0.3.0-6``,  ``0.3.0-5``,  ``0.3.0-4``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.0-11``,  ``0.3.0-10``,  ``0.3.0-9``,  ``0.3.0-8``,  ``0.3.0-7``,  ``0.3.0-6``,  ``0.3.0-5``,  ``0.3.0-4``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ py2bit
       
 
    
-   :depends on libgcc: ``>=14``
+   :depends on __osx: ``>=10.13``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
 
@@ -122,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "py2bit";
-        var versions = ["1.0.0","0.3.3","0.3.3","0.3.0","0.3.0"];
+        var versions = ["1.0.1","1.0.0","0.3.3","0.3.3","0.3.0"];
     </script>
 
 

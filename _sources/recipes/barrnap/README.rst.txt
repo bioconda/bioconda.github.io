@@ -10,12 +10,12 @@ barrnap
    :replaces_section_title:
    :noindex:
 
-   Rapid microbial RNA identidication
+   Rapid microbial RNA annotation
 
    :homepage: https://github.com/tseemann/barrnap
    :license: GPL / GPLv3
    :recipe: /`barrnap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/barrnap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/barrnap/meta.yaml>`_
-   :links: biotools: :biotools:`barrnap`
+   :links: biotools: :biotools:`barrnap`, usegalaxy-eu: :usegalaxy-eu:`barrnap`
 
    
 
@@ -29,10 +29,10 @@ barrnap
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.10.5-0</code>,  <code>0.9-4</code>,  <code>0.9-3</code>,  <code>0.9-2</code>,  <code>0.9-1</code>,  <code>0.9-0</code>,  <code>0.8-1</code>,  <code>0.8-0</code>,  <code>0.7-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.10.6-0</code>,  <code>1.10.5-0</code>,  <code>0.9-4</code>,  <code>0.9-3</code>,  <code>0.9-2</code>,  <code>0.9-1</code>,  <code>0.9-0</code>,  <code>0.8-1</code>,  <code>0.8-0</code>,  </span></summary>
       
 
-      ``1.10.5-0``,  ``0.9-4``,  ``0.9-3``,  ``0.9-2``,  ``0.9-1``,  ``0.9-0``,  ``0.8-1``,  ``0.8-0``,  ``0.7-4``,  ``0.7-3``,  ``0.7-2``,  ``0.7-1``,  ``0.7-0``,  ``0.3-2``,  ``0.3-1``,  ``0.3-0``,  ``0.2-1``,  ``0.2-0``
+      ``1.10.6-0``,  ``1.10.5-0``,  ``0.9-4``,  ``0.9-3``,  ``0.9-2``,  ``0.9-1``,  ``0.9-0``,  ``0.8-1``,  ``0.8-0``,  ``0.7-4``,  ``0.7-3``,  ``0.7-2``,  ``0.7-1``,  ``0.7-0``,  ``0.3-2``,  ``0.3-1``,  ``0.3-0``,  ``0.2-1``,  ``0.2-0``
 
       
       .. raw:: html
@@ -43,13 +43,13 @@ barrnap
    
    :depends on any2fasta: ``>=0.6.0``
    :depends on aragorn: 
-   :depends on bats-core: 
    :depends on bedtools: 
    :depends on diamond: 
    :depends on infernal: ``>=1.1.2``
    :depends on make: 
    :depends on mmseqs2: 
    :depends on perl: ``>=5.32``
+   :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends on perl-file-which: 
    :depends on perl-list-moreutils: 
    :depends on perl-path-tiny: 
@@ -131,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "barrnap";
-        var versions = ["1.10.5","0.9","0.9","0.9","0.9"];
+        var versions = ["1.10.6","1.10.5","0.9","0.9","0.9"];
     </script>
 
 

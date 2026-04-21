@@ -35,8 +35,7 @@ chum
 
    
    :depends on blast: ``>=2.0``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on viennarna: ``>=2.0``
 
    :additional platforms:

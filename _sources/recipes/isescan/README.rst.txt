@@ -45,7 +45,6 @@ isescan
    :depends on fastcluster: 
    :depends on fraggenescan: ``>=1.32``
    :depends on hmmer: ``>=3.1b2``
-   :depends on libgcc: ``>=13``
    :depends on numpy: ``>=1.8``
    :depends on python: ``>=3``
    :depends on scipy: ``>=0.13.1``

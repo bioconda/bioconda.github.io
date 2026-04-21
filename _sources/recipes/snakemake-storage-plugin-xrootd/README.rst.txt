@@ -27,12 +27,13 @@ snakemake-storage-plugin-xrootd
       
       
 
-      ``1.0.0-0``,  ``0.4.1-0``,  ``0.4.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``,  ``0.4.1-0``,  ``0.4.0-0``
 
       
 
    
    :depends on python: ``>=3.11``
+   :depends on reretry: 
    :depends on snakemake-interface-common: ``>=1.15.0,<2``
    :depends on snakemake-interface-storage-plugins: ``>=4.1.0,<5``
    :depends on xrootd: ``>=5.6,<6``
@@ -109,7 +110,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "snakemake-storage-plugin-xrootd";
-        var versions = ["1.0.0","0.4.1","0.4.0"];
+        var versions = ["1.1.0","1.0.0","0.4.1","0.4.0"];
     </script>
 
 

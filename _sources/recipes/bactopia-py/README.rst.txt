@@ -29,10 +29,10 @@ bactopia-py
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>1.7.0-0</code>,  <code>1.6.1-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.0-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>1.7.0-0</code>,  <code>1.6.1-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  </span></summary>
       
 
-      ``2.0.2-0``,  ``2.0.1-0``,  ``1.7.0-0``,  ``1.6.1-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``1.7.0-0``,  ``1.6.1-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -47,6 +47,7 @@ bactopia-py
    :depends on openpyxl: 
    :depends on pandas: ``>=2.2.0``
    :depends on pigz: 
+   :depends on psutil: ``>=5.9.0``
    :depends on python: ``>=3.10,<3.14``
    :depends on pyyaml: 
    :depends on rauth: 
@@ -128,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bactopia-py";
-        var versions = ["2.0.2","2.0.1","1.7.0","1.6.1","1.5.1"];
+        var versions = ["2.1.0","2.0.2","2.0.1","1.7.0","1.6.1"];
     </script>
 
 
