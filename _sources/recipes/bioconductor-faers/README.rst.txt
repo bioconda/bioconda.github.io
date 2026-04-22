@@ -12,7 +12,7 @@ bioconductor-faers
 
    R interface for FDA Adverse Event Reporting System
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/faers.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/faers.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-faers <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-faers>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-faers/meta.yaml>`_
 

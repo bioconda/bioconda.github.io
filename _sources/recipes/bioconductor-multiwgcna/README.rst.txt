@@ -12,7 +12,7 @@ bioconductor-multiwgcna
 
    multiWGCNA
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/multiWGCNA.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/multiWGCNA.html
    :license: GPL-3
    :recipe: /`bioconductor-multiwgcna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multiwgcna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multiwgcna/meta.yaml>`_
 

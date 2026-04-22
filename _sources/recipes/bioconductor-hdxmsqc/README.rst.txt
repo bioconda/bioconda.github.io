@@ -12,7 +12,7 @@ bioconductor-hdxmsqc
 
    An R package for quality Control for hydrogen deuterium exchange mass spectrometry experiments
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/hdxmsqc.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/hdxmsqc.html
    :license: file LICENSE
    :recipe: /`bioconductor-hdxmsqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hdxmsqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hdxmsqc/meta.yaml>`_
 

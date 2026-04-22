@@ -12,7 +12,7 @@ bioconductor-biocroxytest
 
    Handle Long Tests in Bioconductor Packages
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/biocroxytest.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/biocroxytest.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-biocroxytest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocroxytest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocroxytest/meta.yaml>`_
 

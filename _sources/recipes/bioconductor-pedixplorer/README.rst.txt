@@ -12,7 +12,7 @@ bioconductor-pedixplorer
 
    Pedigree Functions
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Pedixplorer.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/Pedixplorer.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pedixplorer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pedixplorer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pedixplorer/meta.yaml>`_
 

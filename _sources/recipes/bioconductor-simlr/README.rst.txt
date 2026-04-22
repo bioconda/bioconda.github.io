@@ -12,7 +12,7 @@ bioconductor-simlr
 
    Single\-cell Interpretation via Multi\-kernel LeaRning \(SIMLR\)
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SIMLR.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/SIMLR.html
    :license: file LICENSE
    :recipe: /`bioconductor-simlr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simlr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simlr/meta.yaml>`_
    :links: biotools: :biotools:`simlr`, doi: :doi:`10.1101/118901`
@@ -42,9 +42,10 @@ bioconductor-simlr
 
    
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-matrix: 

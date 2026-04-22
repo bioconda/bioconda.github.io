@@ -12,7 +12,7 @@ bioconductor-limpca
 
    An R package for the linear modeling of high\-dimensional designed data based on ASCA\/APCA family of methods
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/limpca.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/limpca.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-limpca <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-limpca>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-limpca/meta.yaml>`_
 

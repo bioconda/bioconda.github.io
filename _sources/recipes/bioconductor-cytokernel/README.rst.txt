@@ -12,7 +12,7 @@ bioconductor-cytokernel
 
    Differential expression using kernel\-based score test
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/cytoKernel.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/cytoKernel.html
    :license: GPL-3
    :recipe: /`bioconductor-cytokernel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytokernel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytokernel/meta.yaml>`_
 
@@ -41,9 +41,10 @@ bioconductor-cytokernel
    :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
    :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on r-ashr: 
    :depends on r-base: ``>=4.5,<4.6.0a0``

@@ -12,8 +12,8 @@ bioconductor-impute
 
    impute\: Imputation for microarray data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/impute.html
-   :license: GPL-2
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/impute.html
+   :license: GPL-2.0-or-later
    :recipe: /`bioconductor-impute <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-impute>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-impute/meta.yaml>`_
    :links: biotools: :biotools:`impute`, doi: :doi:`10.1007/978-3-642-57489-4_7`
 
@@ -42,6 +42,7 @@ bioconductor-impute
 
    
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on libgfortran: 
    :depends on libgfortran5: ``>=14.3.0``
    :depends on liblapack: ``>=3.9.0,<4.0a0``

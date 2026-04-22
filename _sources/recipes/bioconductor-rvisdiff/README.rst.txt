@@ -12,11 +12,11 @@ bioconductor-rvisdiff
 
    Interactive Graphs for Differential Expression
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Rvisdiff.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/Rvisdiff.html
    :license: GPL-2 | GPL-3
    :recipe: /`bioconductor-rvisdiff <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rvisdiff>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rvisdiff/meta.yaml>`_
 
-   Creates a muti\-graph web page which allows the interactive exploration of differential expression results. The graphical web interface presents results as a table which is integrated with five interactive graphs\: MA\-plot\, volcano plot\, box plot\, lines plot and cluster heatmap. Graphical aspect and information represented in the graphs can be customized by means of user controls. Final graphics can be exported as PNG format.
+   Creates a muti\-graph web page which allows the interactive exploration of differential analysis tests. The graphical web interface presents results as a table which is integrated with five interactive graphs\: MA\-plot\, volcano plot\, box plot\, lines plot and cluster heatmap. Graphical aspect and information represented in the graphs can be customized by means of user controls. Final graphics can be exported as PNG format.
 
 
 .. conda:package:: bioconductor-rvisdiff

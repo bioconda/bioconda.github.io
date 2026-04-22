@@ -12,7 +12,7 @@ bioconductor-iclusterplus
 
    Integrative clustering of multi\-type genomic data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/iClusterPlus.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/iClusterPlus.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-iclusterplus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iclusterplus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iclusterplus/meta.yaml>`_
 
@@ -41,9 +41,9 @@ bioconductor-iclusterplus
 
    
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libgfortran: ``5.*``
+   :depends on libgcc-ng: ``>=12``
+   :depends on libgfortran-ng: 
    :depends on libgfortran5: ``>=12.3.0``
-   :depends on libgfortran5: ``>=13.2.0``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on r-base: ``>=4.3,<4.4.0a0``
 

@@ -12,7 +12,7 @@ bioconductor-linnorm
 
    Linear model and normality based normalization and transformation method \(Linnorm\)
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Linnorm.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/Linnorm.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-linnorm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-linnorm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-linnorm/meta.yaml>`_
    :links: biotools: :biotools:`linnorm`
@@ -44,9 +44,10 @@ bioconductor-linnorm
    :depends on bioconductor-limma: ``>=3.66.0,<3.67.0``
    :depends on bioconductor-limma: ``>=3.66.0,<3.67.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on r-amap: 
    :depends on r-apcluster: 

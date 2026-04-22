@@ -12,7 +12,7 @@ bioconductor-mulcom
 
    Calculates Mulcom test
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Mulcom.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/Mulcom.html
    :license: GPL-2
    :recipe: /`bioconductor-mulcom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mulcom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mulcom/meta.yaml>`_
    :links: biotools: :biotools:`mulcom`, doi: :doi:`10.1186/1471-2105-12-382`
@@ -44,9 +44,10 @@ bioconductor-mulcom
    :depends on bioconductor-biobase: ``>=2.70.0,<2.71.0``
    :depends on bioconductor-biobase: ``>=2.70.0,<2.71.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-fields: 

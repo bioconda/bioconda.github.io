@@ -12,11 +12,11 @@ bioconductor-screpertoire
 
    A toolkit for single\-cell immune receptor profiling
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/scRepertoire.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/scRepertoire.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-screpertoire <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-screpertoire>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-screpertoire/meta.yaml>`_
 
-   scRepertoire is a toolkit for processing and analyzing single\-cell T\-cell receptor \(TCR\) and immunoglobulin \(Ig\). The scRepertoire framework supports use of 10x\, AIRR\, BD\, MiXCR\, Omniscope\, TRUST4\, and WAT3R single\-cell formats. The functionality includes basic clonal analyses\, repertoire summaries\, distance\-based clustering and interaction with the popular Seurat and SingleCellExperiment\/Bioconductor R workflows.
+   scRepertoire is a toolkit for processing and analyzing single\-cell T\-cell receptor \(TCR\) and immunoglobulin \(Ig\). The scRepertoire framework supports use of 10x\, AIRR\, BD\, MiXCR\, TRUST4\, and WAT3R single\-cell formats. The functionality includes basic clonal analyses\, repertoire summaries\, distance\-based clustering and interaction with the popular Seurat and SingleCellExperiment\/Bioconductor R single\-cell workflows.
 
 
 .. conda:package:: bioconductor-screpertoire

@@ -12,7 +12,7 @@ bioconductor-iggeneusage
 
    Differential gene usage in immune repertoires
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/IgGeneUsage.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/IgGeneUsage.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-iggeneusage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iggeneusage>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iggeneusage/meta.yaml>`_
 
@@ -43,9 +43,10 @@ bioconductor-iggeneusage
    :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
    :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-bh: ``>=1.66.0``

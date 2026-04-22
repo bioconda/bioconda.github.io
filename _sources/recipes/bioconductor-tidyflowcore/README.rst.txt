@@ -12,7 +12,7 @@ bioconductor-tidyflowcore
 
    tidyFlowCore\: Bringing flowCore to the tidyverse
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/tidyFlowCore.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/tidyFlowCore.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-tidyflowcore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tidyflowcore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tidyflowcore/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-epiregulon.extra
 
    Companion package to epiregulon with additional plotting\, differential and graph functions
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/epiregulon.extra.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/epiregulon.extra.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-epiregulon.extra <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epiregulon.extra>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epiregulon.extra/meta.yaml>`_
 

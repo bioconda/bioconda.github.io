@@ -12,7 +12,7 @@ bioconductor-scdesign3
 
    A unified framework of realistic in silico data generation and statistical model inference for single\-cell and spatial omics
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/scDesign3.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/scDesign3.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-scdesign3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scdesign3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scdesign3/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-phantasuslite
 
    Loading and annotation RNA\-seq counts matrices
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/phantasusLite.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/phantasusLite.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-phantasuslite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phantasuslite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phantasuslite/meta.yaml>`_
 

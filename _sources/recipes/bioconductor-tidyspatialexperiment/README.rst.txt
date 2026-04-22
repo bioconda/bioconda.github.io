@@ -12,7 +12,7 @@ bioconductor-tidyspatialexperiment
 
    SpatialExperiment with tidy principles
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/tidySpatialExperiment.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/tidySpatialExperiment.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-tidyspatialexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tidyspatialexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tidyspatialexperiment/meta.yaml>`_
 

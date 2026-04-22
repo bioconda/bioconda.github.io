@@ -12,7 +12,7 @@ bioconductor-holofoodr
 
    R interface to EBI HoloFood resource
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/HoloFoodR.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/HoloFoodR.html
    :license: Artistic-2.0 | file LICENSE
    :recipe: /`bioconductor-holofoodr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-holofoodr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-holofoodr/meta.yaml>`_
 

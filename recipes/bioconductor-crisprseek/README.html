@@ -67,13 +67,13 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">bioconductor-crisprseek</span></span></dt>
-<dd><p>Design of target-specific guide RNAs in CRISPR-Cas9, genome-editing systems</p>
+<dd><p>Design of guide RNAs in CRISPR genome-editing systems</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.20/bioc/html/CRISPRseek.html">https://bioconductor.org/packages/3.20/bioc/html/CRISPRseek.html</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.22/bioc/html/CRISPRseek.html">https://bioconductor.org/packages/3.22/bioc/html/CRISPRseek.html</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>GPL (&gt;= 2)</p>
+<dd class="field-even"><p>file LICENSE</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprseek">bioconductor-crisprseek</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprseek/meta.yaml">meta.yaml</a></p>
@@ -82,7 +82,7 @@
 <dd class="field-even"><p>biotools: <a class="extlink-biotools reference external" href="https://bio.tools/crisprseek">crisprseek</a></p>
 </dd>
 </dl>
-<p>The package includes functions to find potential guide RNAs for the CRISPR editing system including Base Editors and the Prime Editor for input target sequences, optionally filter guide RNAs without restriction enzyme cut site, or without paired guide RNAs, genome-wide search for off-targets, score, rank, fetch flank sequence and indicate whether the target and off-targets are located in exon region or not. Potential guide RNAs are annotated with total score of the top5 and topN off-targets, detailed topN mismatch sites, restriction enzyme cut sites, and paired guide RNAs. The package also output indels and their frequencies for Cas9 targeted sites.</p>
+<p>The package encompasses functions to find potential guide RNAs for the CRISPR-based genome-editing systems including the Base Editors and the Prime Editors when supplied with target sequences as input. Users have the flexibility to filter resulting guide RNAs based on parameters such as the absence of restriction enzyme cut sites or the lack of paired guide RNAs. The package also facilitates genome-wide exploration for off-targets, offering features to score and rank off-targets, retrieve flanking sequences, and indicate whether the hits are located within exon regions. All detected guide RNAs are annotated with the cumulative scores of the top5 and topN off-targets together with the detailed information such as mismatch sites and restrictuion enzyme cut sites. The package also outputs INDELs and their frequencies for Cas9 targeted sites.</p>
 </dd></dl>
 
 <dl class="conda package">

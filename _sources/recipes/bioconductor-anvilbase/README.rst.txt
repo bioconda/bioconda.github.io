@@ -12,7 +12,7 @@ bioconductor-anvilbase
 
    Generic functions for interacting with the AnVIL ecosystem
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/AnVILBase.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/AnVILBase.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-anvilbase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anvilbase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anvilbase/meta.yaml>`_
 

@@ -12,8 +12,8 @@ bioconductor-splicingfactory
 
    Splicing Diversity Analysis for Transcriptome Data
 
-   :homepage: https://www.bioconductor.org/packages/release/bioc/html/SplicingFactory.html
-   :license: GPL-3.0-only
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/SplicingFactory.html
+   :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-splicingfactory <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splicingfactory>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splicingfactory/meta.yaml>`_
 
    The SplicingFactory R package uses transcript\-level expression values to analyze splicing diversity based on various statistical measures\, like Shannon entropy or the Gini index. These measures can quantify transcript isoform diversity within samples or between conditions. Additionally\, the package analyzes the isoform diversity data\, looking for significant changes between conditions.

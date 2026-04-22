@@ -12,7 +12,7 @@ bioconductor-metaseqr2
 
    An R package for the analysis and result reporting of RNA\-Seq data by combining multiple statistical algorithms
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/metaseqR2.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/metaseqR2.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-metaseqr2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metaseqr2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metaseqr2/meta.yaml>`_
 
@@ -93,6 +93,7 @@ bioconductor-metaseqr2
    :depends on bioconductor-vsn: ``>=3.78.0,<3.79.0``
    :depends on bioconductor-vsn: ``>=3.78.1,<3.79.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``

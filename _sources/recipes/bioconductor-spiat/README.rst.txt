@@ -12,7 +12,7 @@ bioconductor-spiat
 
    Spatial Image Analysis of Tissues
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SPIAT.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/SPIAT.html
    :license: Artistic-2.0 + file LICENSE
    :recipe: /`bioconductor-spiat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spiat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spiat/meta.yaml>`_
 

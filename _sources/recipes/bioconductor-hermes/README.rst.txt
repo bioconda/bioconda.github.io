@@ -12,7 +12,7 @@ bioconductor-hermes
 
    Preprocessing\, analyzing\, and reporting of RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/hermes.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/hermes.html
    :license: Apache License 2.0
    :recipe: /`bioconductor-hermes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hermes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hermes/meta.yaml>`_
 

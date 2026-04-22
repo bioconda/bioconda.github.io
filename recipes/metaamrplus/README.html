@@ -67,7 +67,7 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">metaamrplus</span></span></dt>
-<dd><p>MetaAMRplus: unified detection of antimicrobial and metal resistance genes with colocalisation analysis</p>
+<dd><p>MetaAMRplus: AMR + metal resistance + colocalisation analysis</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/migshaw03/MetaAMRplus">https://github.com/migshaw03/MetaAMRplus</a></p>
@@ -79,11 +79,7 @@
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaamrplus">metaamrplus</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaamrplus/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>MetaAMRplus is a command-line platform for the simultaneous identification
-of antimicrobial resistance genes, metal and biocide resistance genes,
-and their genomic colocalisation in bacterial genomes and plasmids.
-The tool integrates AMRFinder and BacMet databases and is designed for
-reproducible large-scale genomic analyses.</p>
+<p>MetaAMRplus is a command-line tool for detecting antimicrobial resistance genes, metal/biocide resistance genes, and their genomic colocalisation.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -92,17 +88,15 @@ reproducible large-scale genomic analyses.</p>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/metaamrplus"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/metaamrplus.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/metaamrplus"><img alt="docker_metaamrplus" src="https://quay.io/repository/biocontainers/metaamrplus/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.5.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.5.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.5.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.4-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><strong>on awk</strong></p></li>
-<li><p><strong>on blast</strong></p></li>
-<li><p><strong>on ncbi-amrfinderplus</strong></p></li>
-<li><p><strong>on pandas</strong></p></li>
+<li><p><strong>on blast</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=2.14</span></code></p></li>
+<li><p><strong>on coreutils</strong></p></li>
+<li><p><strong>on gawk</strong></p></li>
 <li><p><strong>on prodigal</strong></p></li>
-<li><p><strong>on python</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.8</span></code></p></li>
-<li><p><strong>on wget</strong></p></li>
+<li><p><strong>on python</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.14,&lt;3.15.0a0</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
@@ -161,7 +155,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
     var package = "metaamrplus";
-    var versions = ["1.5.1","1.4.1","1.4.1","1.4"];
+    var versions = ["1.5.1","1.5.1","1.4.1","1.4.1","1.4"];
 </script></section>
 </section>
 <section id="download-stats">

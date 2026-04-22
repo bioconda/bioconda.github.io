@@ -12,7 +12,7 @@ bioconductor-easylift
 
    An R package to perform genomic liftover
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/easylift.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/easylift.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-easylift <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-easylift>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-easylift/meta.yaml>`_
 

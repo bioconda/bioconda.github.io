@@ -12,7 +12,7 @@ bioconductor-mirit
 
    Integrate microRNA and gene expression to decipher pathway complexity
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MIRit.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/MIRit.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-mirit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirit/meta.yaml>`_
 

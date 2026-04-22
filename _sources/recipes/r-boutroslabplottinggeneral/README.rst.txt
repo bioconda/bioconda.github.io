@@ -1,16 +1,16 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'boutroslabplottinggeneral'
+.. title:: Package Recipe 'r-boutroslabplottinggeneral'
 .. highlight: bash
 
-boutroslabplottinggeneral
-=========================
+r-boutroslabplottinggeneral
+===========================
 
 .. conda:recipe:: r-boutroslabplottinggeneral
    :replaces_section_title:
    :noindex:
 
-   
+   BoutrosLab.plotting.general is a software package for generating publication\-quality\, customizable plots.
 
    :homepage: https://labs.oicr.on.ca/boutros-lab/software/bpg
    :license: GPL-2extra
@@ -19,22 +19,22 @@ boutroslabplottinggeneral
    
 
 
-.. conda:package:: boutroslabplottinggeneral
+.. conda:package:: r-boutroslabplottinggeneral
 
-   |downloads_boutroslabplottinggeneral| |docker_boutroslabplottinggeneral|
+   |downloads_r-boutroslabplottinggeneral| |docker_r-boutroslabplottinggeneral|
 
    :versions:
       
       
 
-      ``5.3.4-6``,  ``5.3.4-5``,  ``5.3.4-2``,  ``5.3.4-0``
+      ``5.3.4-1``
 
       
 
    
    :depends on r-argparse: 
    :depends on r-assertthat: 
-   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-bh: 
    :depends on r-cluster: 
    :depends on r-dbi: 
@@ -72,11 +72,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install boutroslabplottinggeneral
+    pixi global install r-boutroslabplottinggeneral
 
 to add into an existing workspace instead, run::
 
-    pixi add boutroslabplottinggeneral
+    pixi add r-boutroslabplottinggeneral
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -88,11 +88,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install boutroslabplottinggeneral
+    conda install r-boutroslabplottinggeneral
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname boutroslabplottinggeneral
+    conda create -n envname r-boutroslabplottinggeneral
 
 with ``envname`` being the name of the desired environment.
 
@@ -102,9 +102,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/boutroslabplottinggeneral:<tag>
+    docker pull quay.io/biocontainers/r-boutroslabplottinggeneral:<tag>
 
-(see `boutroslabplottinggeneral/tags`_ for valid values for ``<tag>``).
+(see `r-boutroslabplottinggeneral/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -115,19 +115,19 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_boutroslabplottinggeneral| image:: https://img.shields.io/conda/dn/bioconda/boutroslabplottinggeneral.svg?style=flat
-   :target: https://anaconda.org/bioconda/boutroslabplottinggeneral
+.. |downloads_r-boutroslabplottinggeneral| image:: https://img.shields.io/conda/dn/bioconda/r-boutroslabplottinggeneral.svg?style=flat
+   :target: https://anaconda.org/bioconda/r-boutroslabplottinggeneral
    :alt:   (downloads)
-.. |docker_boutroslabplottinggeneral| image:: https://quay.io/repository/biocontainers/boutroslabplottinggeneral/status
-   :target: https://quay.io/repository/biocontainers/boutroslabplottinggeneral
-.. _`boutroslabplottinggeneral/tags`: https://quay.io/repository/biocontainers/boutroslabplottinggeneral?tab=tags
+.. |docker_r-boutroslabplottinggeneral| image:: https://quay.io/repository/biocontainers/r-boutroslabplottinggeneral/status
+   :target: https://quay.io/repository/biocontainers/r-boutroslabplottinggeneral
+.. _`r-boutroslabplottinggeneral/tags`: https://quay.io/repository/biocontainers/r-boutroslabplottinggeneral?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "boutroslabplottinggeneral";
-        var versions = ["5.3.4","5.3.4","5.3.4","5.3.4"];
+        var package = "r-boutroslabplottinggeneral";
+        var versions = ["5.3.4"];
     </script>
 
 
@@ -146,7 +146,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/boutroslabplottinggeneral/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/r-boutroslabplottinggeneral/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/boutroslabplottinggeneral/README.html
+   :target: http://bioconda.github.io/recipes/r-boutroslabplottinggeneral/README.html

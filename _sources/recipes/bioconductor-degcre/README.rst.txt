@@ -12,7 +12,7 @@ bioconductor-degcre
 
    Probabilistic association of DEGs to CREs from differential data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/DegCre.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/DegCre.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-degcre <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-degcre>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-degcre/meta.yaml>`_
 

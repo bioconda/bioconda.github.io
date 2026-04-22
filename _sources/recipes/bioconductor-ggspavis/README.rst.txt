@@ -12,7 +12,7 @@ bioconductor-ggspavis
 
    Visualization functions for spatial transcriptomics data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ggspavis.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/ggspavis.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-ggspavis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggspavis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggspavis/meta.yaml>`_
 

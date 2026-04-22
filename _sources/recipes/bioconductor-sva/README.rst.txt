@@ -12,7 +12,7 @@ bioconductor-sva
 
    Surrogate Variable Analysis
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/sva.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/sva.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-sva <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sva>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sva/meta.yaml>`_
    :links: biotools: :biotools:`sva`, doi: :doi:`10.1371/journal.pgen.0030161`
@@ -50,6 +50,7 @@ bioconductor-sva
    :depends on bioconductor-limma: ``>=3.66.0,<3.67.0``
    :depends on bioconductor-limma: ``>=3.66.0,<3.67.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``

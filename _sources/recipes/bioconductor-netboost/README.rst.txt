@@ -12,11 +12,11 @@ bioconductor-netboost
 
    Network Analysis Supported by Boosting
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/netboost.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/netboost.html
    :license: GPL-3
    :recipe: /`bioconductor-netboost <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netboost>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netboost/meta.yaml>`_
 
-   Boosting supported network analysis for high\-dimensional omics applications. This package comes bundled with the MC\-UPGMA clustering package by Yaniv Loewenstein.
+   Boosting supported network analysis for high\-dimensional omics applications.
 
 
 .. conda:package:: bioconductor-netboost

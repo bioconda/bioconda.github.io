@@ -12,11 +12,11 @@ bioconductor-scider
 
    Spatial cell\-type inter\-correlation by density in R
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/scider.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/scider.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-scider <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scider>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scider/meta.yaml>`_
 
-   scider is a user\-friendly R package providing functions to model the global density of cells in a slide of spatial transcriptomics data. All functions in the package are built based on the SpatialExperiment object\, allowing integration into various spatial transcriptomics\-related packages from Bioconductor. After modelling density\, the package allows for serveral downstream analysis\, including colocalization analysis\, boundary detection analysis and differential density analysis.
+   scider is an user\-friendly R package providing functions to model the global density of cells in a slide of spatial transcriptomics data. All functions in the package are built based on the SpatialExperiment object\, allowing integration into various spatial transcriptomics\-related packages from Bioconductor. After modelling density\, the package allows for serveral downstream analysis\, including colocalization analysis\, boundary detection analysis and differential density analysis.
 
 
 .. conda:package:: bioconductor-scider
@@ -43,9 +43,10 @@ bioconductor-scider
    :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
    :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-dbscan: 

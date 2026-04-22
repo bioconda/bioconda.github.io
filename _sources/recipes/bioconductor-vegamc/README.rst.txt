@@ -12,7 +12,7 @@ bioconductor-vegamc
 
    VegaMC\: A Package Implementing a Variational Piecewise Smooth Model for Identification of Driver Chromosomal Imbalances in Cancer
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/VegaMC.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/VegaMC.html
    :license: GPL-2
    :recipe: /`bioconductor-vegamc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vegamc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vegamc/meta.yaml>`_
    :links: biotools: :biotools:`vegamc`, doi: :doi:`10.1093/bioinformatics/bts453`
@@ -46,6 +46,7 @@ bioconductor-vegamc
    :depends on bioconductor-biomart: ``>=2.66.0,<2.67.0``
    :depends on bioconductor-biomart: ``>=2.66.0,<2.67.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``

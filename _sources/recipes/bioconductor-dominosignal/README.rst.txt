@@ -12,7 +12,7 @@ bioconductor-dominosignal
 
    Cell Communication Analysis for Single Cell RNA Sequencing
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/dominoSignal.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/dominoSignal.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-dominosignal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dominosignal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dominosignal/meta.yaml>`_
 

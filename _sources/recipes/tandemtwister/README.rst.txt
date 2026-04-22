@@ -41,7 +41,7 @@ tandemtwister
    :depends on fmt: ``11.2.0``
    :depends on fmt: ``>=11.2.0,<11.3.0a0``
    :depends on htslib: ``1.22.1``
-   :depends on htslib: ``>=1.22.1,<1.23.0a0``
+   :depends on htslib: ``>=1.22.1,<1.24.0a0``
    :depends on libdeflate: ``>=1.25,<1.26.0a0``
    :depends on libgcc: ``>=13``
    :depends on libgomp: 

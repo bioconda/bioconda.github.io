@@ -10,11 +10,14 @@ ngs-smap
    :replaces_section_title:
    :noindex:
 
-   SMAP is an analysis tool for stack\-based NGS read mapping
+   SMAP is a software package that analyzes next\-generation DNA sequencing read mapping distributions and performs haplotype calling to create multi\-allelic molecular markers.
 
-   :homepage: https://gitlab.com/truttink/smap
-   :license: GPL3 / GPL-3.0-or-later
+   :homepage: https://gitlab.ilvo.be/genomics/smap-package/smap
+   :documentation: https://ngs-smap.readthedocs.io/en/latest
+   
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`ngs-smap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngs-smap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngs-smap/meta.yaml>`_
+   :links: doi: :doi:`10.1101/2022.03.10.483555`
 
    
 
@@ -27,30 +30,35 @@ ngs-smap
       
       
 
-      ``5.0.1-0``,  ``4.6.5-0``,  ``4.6.4-0``,  ``4.6.2-0``,  ``4.6.1-0``,  ``4.6.0-0``,  ``4.5.1-0``,  ``4.5.0-0``
+      ``5.1.0-0``,  ``5.0.1-0``,  ``4.6.5-0``,  ``4.6.4-0``,  ``4.6.2-0``,  ``4.6.1-0``,  ``4.6.0-0``,  ``4.5.1-0``,  ``4.5.0-0``
 
       
 
    
-   :depends on biopython: ``>=1.8``
-   :depends on colorlog: ``>=6.6.0,<6.7``
-   :depends on cutadapt: ``4.4``
-   :depends on gffpandas: ``1.2.*``
+   :depends on biopython: 
+   :depends on colorlog: 
+   :depends on cutadapt: 
+   :depends on gffpandas: 
    :depends on gffutils: 
-   :depends on matplotlib-base: ``>=3.5.1,<3.6``
-   :depends on natsort: ``8.2.0``
+   :depends on matplotlib-base: 
+   :depends on natsort: 
    :depends on numexpr: 
-   :depends on openpyxl: ``>=3.0.9,<3.1.0``
-   :depends on pandas: ``>=2.0.3,<2.1.0``
-   :depends on plotly: ``>=5.5``
+   :depends on numpy: 
+   :depends on openpyxl: 
+   :depends on pandas: 
+   :depends on plotly: 
    :depends on primer3-py: 
-   :depends on pybedtools: ``>=0.9.0,<0.10``
-   :depends on pysam: ``>=0.22.0,<0.23.0``
+   :depends on pybedtools: 
+   :depends on pycirclize: 
+   :depends on pysam: 
    :depends on python: ``>=3.8.1,!=3.11``
+   :depends on python-igraph: 
+   :depends on python-kaleido: 
+   :depends on scanpy: 
    :depends on scipy: 
-   :depends on seaborn: ``0.12.1``
+   :depends on seaborn-base: 
    :depends on tqdm: 
-   :depends on typing-extensions: ``>=4.0.0,<4.1.1``
+   :depends on typing-extensions: 
 
    :additional platforms:
       
@@ -124,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "ngs-smap";
-        var versions = ["5.0.1","4.6.5","4.6.4","4.6.2","4.6.1"];
+        var versions = ["5.1.0","5.0.1","4.6.5","4.6.4","4.6.2"];
     </script>
 
 

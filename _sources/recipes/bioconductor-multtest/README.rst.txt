@@ -12,7 +12,7 @@ bioconductor-multtest
 
    Resampling\-based multiple hypothesis testing
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/multtest.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/multtest.html
    :license: LGPL
    :recipe: /`bioconductor-multtest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multtest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multtest/meta.yaml>`_
    :links: biotools: :biotools:`multtest`, doi: :doi:`10.1007/0-387-29362-0_15`
@@ -46,6 +46,7 @@ bioconductor-multtest
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``

@@ -12,7 +12,7 @@ bioconductor-msbackendmetabolights
 
    Retrieve Mass Spectrometry Data from MetaboLights
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MsBackendMetaboLights.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/MsBackendMetaboLights.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-msbackendmetabolights <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msbackendmetabolights>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msbackendmetabolights/meta.yaml>`_
 

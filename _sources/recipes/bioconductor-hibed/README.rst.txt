@@ -12,7 +12,7 @@ bioconductor-hibed
 
    HiBED
 
-   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/HiBED.html
+   :homepage: https://bioconductor.org/packages/3.22/data/experiment/html/HiBED.html
    :license: GPL-3
    :recipe: /`bioconductor-hibed <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hibed>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hibed/meta.yaml>`_
 

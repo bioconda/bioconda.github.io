@@ -12,7 +12,7 @@ bioconductor-rificomparative
 
    \'rifiComparative\' compares the output of rifi from two different conditions.
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/rifiComparative.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/rifiComparative.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-rificomparative <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rificomparative>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rificomparative/meta.yaml>`_
 

@@ -42,6 +42,7 @@ fastq-filter
    
    :depends on dnaio: ``>=0.6.0``
    :depends on dnaio: ``>=1.2.2,<2.0a0``
+   :depends on libgcc: ``>=13``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on xopen: ``>=1.2.1``

@@ -12,7 +12,7 @@ bioconductor-gypsum
 
    Interface to the gypsum REST API
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/gypsum.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/gypsum.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-gypsum <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gypsum>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gypsum/meta.yaml>`_
 

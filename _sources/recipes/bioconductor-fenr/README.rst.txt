@@ -12,7 +12,7 @@ bioconductor-fenr
 
    Fast functional enrichment for interactive applications
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/fenr.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/fenr.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-fenr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fenr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fenr/meta.yaml>`_
 

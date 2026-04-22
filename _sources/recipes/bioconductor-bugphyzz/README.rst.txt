@@ -12,7 +12,7 @@ bioconductor-bugphyzz
 
    A harmonized data resource and software for enrichment analysis of microbial physiologies
 
-   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/bugphyzz.html
+   :homepage: https://bioconductor.org/packages/3.22/data/experiment/html/bugphyzz.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bugphyzz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bugphyzz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bugphyzz/meta.yaml>`_
 

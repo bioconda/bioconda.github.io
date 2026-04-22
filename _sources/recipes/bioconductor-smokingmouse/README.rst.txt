@@ -12,11 +12,11 @@ bioconductor-smokingmouse
 
    Provides access to smokingMouse project data
 
-   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/smokingMouse.html
+   :homepage: https://bioconductor.org/packages/3.22/data/experiment/html/smokingMouse.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-smokingmouse <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-smokingmouse>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-smokingmouse/meta.yaml>`_
 
-   This is an ExperimentHub package that provides access to the data at the gene\, exon\, transcript and junction level used in the analyses of the smokingMouse project. See https\:\/\/github.com\/LieberInstitute\/smokingMouse\_Indirects. This datasets contain the expression counts of genes\, transcripts\, exons and exon\-exon junctions across 208 mice samples from pup and adult brains and adult blood. They also contain relevant information of these samples and features\, such as conditions\, QC metrics and if they were used after filtering steps and also if the features were differently expressed in the different experiments.
+   This is an ExperimentHub package that provides access to the data generated and analyzed in the \[smoking\-nicotine\-mouse\]\(https\:\/\/github.com\/LieberInstitute\/smoking\-nicotine\-mouse\/\) LIBD project. The datasets contain the expression data of mouse genes\, transcripts\, exons\, and exon\-exon junctions across 208 samples from pup and adult mouse brain\, and adult blood\, that were exposed to nicotine\, cigarette smoke\, or controls. They also contain relevant metadata of these samples and gene expression features\, such QC metrics\, if they were used after filtering steps and also if the features were differently expressed in the different experiments.
 
 
 .. conda:package:: bioconductor-smokingmouse

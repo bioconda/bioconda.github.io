@@ -12,7 +12,7 @@ bioconductor-pipets
 
    Poisson Identification of PEaks from Term\-Seq data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/PIPETS.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/PIPETS.html
    :license: GPL-3
    :recipe: /`bioconductor-pipets <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pipets>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pipets/meta.yaml>`_
 

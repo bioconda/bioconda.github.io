@@ -12,7 +12,7 @@ bioconductor-moe430b.db
 
    Affymetrix Affymetrix MOE430B Array annotation data \(chip moe430b\)
 
-   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/moe430b.db.html
+   :homepage: https://bioconductor.org/packages/3.22/data/annotation/html/moe430b.db.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-moe430b.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moe430b.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moe430b.db/meta.yaml>`_
 

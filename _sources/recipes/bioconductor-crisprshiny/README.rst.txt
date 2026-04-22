@@ -12,7 +12,7 @@ bioconductor-crisprshiny
 
    Exploring curated CRISPR gRNAs via Shiny
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/crisprShiny.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/crisprShiny.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-crisprshiny <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprshiny>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprshiny/meta.yaml>`_
 

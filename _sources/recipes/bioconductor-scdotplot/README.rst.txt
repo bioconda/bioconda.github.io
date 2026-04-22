@@ -12,7 +12,7 @@ bioconductor-scdotplot
 
    Cluster a Single\-cell RNA\-seq Dot Plot
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/scDotPlot.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/scDotPlot.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-scdotplot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scdotplot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scdotplot/meta.yaml>`_
 

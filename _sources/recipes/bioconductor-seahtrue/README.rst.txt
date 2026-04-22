@@ -12,7 +12,7 @@ bioconductor-seahtrue
 
    Seahtrue revives XF data for structured data analysis
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/seahtrue.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/seahtrue.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-seahtrue <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seahtrue>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seahtrue/meta.yaml>`_
 

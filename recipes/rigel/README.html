@@ -67,48 +67,42 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">rigel</span></span></dt>
-<dd><p>Bayesian RNA-seq transcript quantification with joint mRNA, nRNA, and gDNA deconvolution</p>
+<dd><p>Bayesian RNA-seq transcript quantification tool</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/mkiyer/rigel">https://github.com/mkiyer/rigel</a></p>
 </dd>
-<dt class="field-even">Documentation<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="reference external" href="https://github.com/mkiyer/rigel/blob/main/docs/MANUAL.md">https://github.com/mkiyer/rigel/blob/main/docs/MANUAL.md</a></p>
+<dt class="field-even">License<span class="colon">:</span></dt>
+<dd class="field-even"><p>GPL3 / GPL-3.0-or-later</p>
 </dd>
-<dt class="field-odd">License<span class="colon">:</span></dt>
-<dd class="field-odd"><p>GPL3 / GPL-3.0-or-later</p>
-</dd>
-<dt class="field-even">Recipe<span class="colon">:</span></dt>
-<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rigel">rigel</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rigel/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">Recipe<span class="colon">:</span></dt>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rigel">rigel</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rigel/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>Rigel is a Bayesian transcript quantification method for RNA-seq data
-that jointly models three nucleic acid species: mature mRNA, nascent
-pre-mRNA (nRNA), and genomic DNA contamination (gDNA). It uses a linked
-kinetic model coupling mRNA and nRNA through shared per-transcript
-parameters, and a hierarchical empirical Bayes framework for initialization.</p>
 </dd></dl>
 
 <dl class="conda package">
 <dt class="sig sig-object conda" id="package-rigel">
 <span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">rigel</span></span><a class="headerlink" href="#package-rigel" title="Link to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/rigel"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/rigel.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/rigel"><img alt="docker_rigel" src="https://quay.io/repository/biocontainers/rigel/status" /></a></p>
-<dl class="field-list">
+<dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.3.3-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.3-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
+<li><p><strong>on __glibc</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=2.17,&lt;3.0.a0</span></code></p></li>
 <li><p><strong>on bzip2</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.0.8,&lt;2.0a0</span></code></p></li>
 <li><p><strong>on htslib</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.23.1,&lt;1.24.0a0</span></code></p></li>
 <li><p><strong>on libcurl</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=8.19.0,&lt;9.0a0</span></code></p></li>
-<li><p><strong>on libcxx</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=19</span></code></p></li>
 <li><p><strong>on libdeflate</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.25,&lt;1.26.0a0</span></code></p></li>
-<li><p><strong>on liblzma</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=5.8.2,&lt;6.0a0</span></code></p></li>
+<li><p><strong>on libgcc</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p></li>
+<li><p><strong>on liblzma</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=5.8.3,&lt;6.0a0</span></code></p></li>
+<li><p><strong>on libstdcxx</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p></li>
 <li><p><strong>on libzlib</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.3.2,&lt;2.0a0</span></code></p></li>
 <li><p><strong>on numpy</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.23,&lt;3</span></code></p></li>
 <li><p><strong>on numpy</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.26</span></code></p></li>
-<li><p><strong>on openssl</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.5.5,&lt;4.0a0</span></code></p></li>
+<li><p><strong>on openssl</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.5.6,&lt;4.0a0</span></code></p></li>
 <li><p><strong>on pandas</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=2.1</span></code></p></li>
 <li><p><strong>on pyarrow</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=14.0</span></code></p></li>
 <li><p><strong>on pysam</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=0.22</span></code></p></li>
@@ -119,7 +113,7 @@ parameters, and a hierarchical empirical Bayes framework for initialization.</p>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
+<dd class="field-odd"><p></p></dd>
 </dl>
 </dd></dl>
 
@@ -174,7 +168,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
     var package = "rigel";
-    var versions = ["0.3.3"];
+    var versions = ["0.4.0","0.3.3"];
 </script></section>
 </section>
 <section id="download-stats">

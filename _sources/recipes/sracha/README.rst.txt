@@ -34,6 +34,7 @@ sracha
       
 
    
+   :depends on libgcc: ``>=14``
 
    :additional platforms:
       

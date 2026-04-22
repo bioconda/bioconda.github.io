@@ -12,11 +12,11 @@ bioconductor-anvilgcp
 
    The GCP R Client for the AnVIL
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/AnVILGCP.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/AnVILGCP.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-anvilgcp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anvilgcp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anvilgcp/meta.yaml>`_
 
-   The package provides a set of functions to interact with the Google Cloud Platform \(GCP\) services on the AnVIL platform. The package is designed to work with the AnVIL package. User\-level interaction with this package should be minimal.
+   The package provides a set of functions to interact with the Google Cloud Platform \(GCP\) services on the AnVIL platform. The package is designed to use the API calls from the AnVIL package. It coordinates AnVIL workspace functionality with native GCP tools.
 
 
 .. conda:package:: bioconductor-anvilgcp

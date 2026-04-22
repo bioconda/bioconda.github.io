@@ -12,7 +12,7 @@ bioconductor-chemmineob
 
    R interface to a subset of OpenBabel functionalities
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ChemmineOB.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/ChemmineOB.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-chemmineob <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chemmineob>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chemmineob/meta.yaml>`_
 
@@ -38,8 +38,9 @@ bioconductor-chemmineob
    :depends on bioconductor-zlibbioc: ``>=1.48.0,<1.49.0a0``
    :depends on eigen: 
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=14.0.6``
+   :depends on libgcc-ng: ``>=12``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
+   :depends on libstdcxx-ng: ``>=12``
    :depends on openbabel: ``>=3``
    :depends on r-base: ``>=4.3,<4.4.0a0``
    :depends on r-bh: 

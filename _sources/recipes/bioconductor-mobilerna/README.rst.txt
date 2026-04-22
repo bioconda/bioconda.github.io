@@ -12,7 +12,7 @@ bioconductor-mobilerna
 
    mobileRNA\: Investigate the RNA mobilome \& population\-scale changes
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/mobileRNA.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/mobileRNA.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-mobilerna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mobilerna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mobilerna/meta.yaml>`_
 

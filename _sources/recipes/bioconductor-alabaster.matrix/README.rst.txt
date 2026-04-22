@@ -12,8 +12,8 @@ bioconductor-alabaster.matrix
 
    Load and Save Artifacts from File
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/alabaster.matrix.html
-   :license: MIT
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/alabaster.matrix.html
+   :license: MIT + file LICENSE
    :recipe: /`bioconductor-alabaster.matrix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.matrix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.matrix/meta.yaml>`_
 
    Save matrices\, arrays and similar objects into file artifacts\, and load them back into memory. This is a more portable alternative to serialization of such objects into RDS files. Each artifact is associated with metadata for further interpretation\; downstream applications can enrich this metadata with context\-specific properties.
@@ -49,9 +49,10 @@ bioconductor-alabaster.matrix
    :depends on bioconductor-sparsearray: ``>=1.10.0,<1.11.0``
    :depends on bioconductor-sparsearray: ``>=1.10.8,<1.11.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-matrix: 

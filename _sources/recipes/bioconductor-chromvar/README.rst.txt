@@ -10,11 +10,10 @@ bioconductor-chromvar
    :replaces_section_title:
    :noindex:
 
-   Chromatin Variation Across Regions.
+   Chromatin Variation Across Regions
 
-   :homepage: https://bioconductor.org/packages/3.21/bioc/html/chromVAR.html
-   :developer docs: https://bioconductor.org/packages/devel/bioc/html/chromVAR.html
-   :license: MIT / MIT
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/chromVAR.html
+   :license: MIT + file LICENSE
    :recipe: /`bioconductor-chromvar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromvar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromvar/meta.yaml>`_
    :links: biotools: :biotools:`chromvar`, doi: :doi:`10.1038/nmeth.4401`
 
@@ -65,9 +64,10 @@ bioconductor-chromvar
    :depends on bioconductor-tfbstools: ``>=1.48.0,<1.49.0``
    :depends on bioconductor-tfbstools: ``>=1.48.0,<1.49.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-dt: 

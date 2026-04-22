@@ -12,7 +12,7 @@ bioconductor-rnaseqcovarimpute
 
    Impute Covariate Data in RNA Sequencing Studies
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/RNAseqCovarImpute.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/RNAseqCovarImpute.html
    :license: GPL-3
    :recipe: /`bioconductor-rnaseqcovarimpute <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqcovarimpute>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqcovarimpute/meta.yaml>`_
 

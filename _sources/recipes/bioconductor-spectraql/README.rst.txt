@@ -12,7 +12,7 @@ bioconductor-spectraql
 
    MassQL support for Spectra
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SpectraQL.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/SpectraQL.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-spectraql <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spectraql>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spectraql/meta.yaml>`_
 

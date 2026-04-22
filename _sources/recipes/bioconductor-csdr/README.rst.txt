@@ -12,7 +12,7 @@ bioconductor-csdr
 
    Differential gene co\-expression
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/csdR.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/csdR.html
    :license: GPL-3
    :recipe: /`bioconductor-csdr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-csdr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-csdr/meta.yaml>`_
 
@@ -33,9 +33,10 @@ bioconductor-csdr
 
    
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-glue: 

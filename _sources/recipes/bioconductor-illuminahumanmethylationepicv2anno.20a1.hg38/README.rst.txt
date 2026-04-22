@@ -12,7 +12,7 @@ bioconductor-illuminahumanmethylationepicv2anno.20a1.hg38
 
    Annotation for Illumina\'s EPIC v2.0 methylation arrays
 
-   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/IlluminaHumanMethylationEPICv2anno.20a1.hg38.html
+   :homepage: https://bioconductor.org/packages/3.22/data/annotation/html/IlluminaHumanMethylationEPICv2anno.20a1.hg38.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-illuminahumanmethylationepicv2anno.20a1.hg38 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanmethylationepicv2anno.20a1.hg38>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanmethylationepicv2anno.20a1.hg38/meta.yaml>`_
 

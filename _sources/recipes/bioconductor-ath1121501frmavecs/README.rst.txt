@@ -12,7 +12,7 @@ bioconductor-ath1121501frmavecs
 
    Vectors used by frma for microarrays of type ath1121501
 
-   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/ath1121501frmavecs.html
+   :homepage: https://bioconductor.org/packages/3.22/data/annotation/html/ath1121501frmavecs.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-ath1121501frmavecs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ath1121501frmavecs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ath1121501frmavecs/meta.yaml>`_
 

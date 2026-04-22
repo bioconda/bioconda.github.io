@@ -12,7 +12,7 @@ bioconductor-mapfx
 
    MAssively Parallel Flow cytometry Xplorer \(MAPFX\)\: A Toolbox for Analysing Data from the Massively\-Parallel Cytometry Experiments
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MAPFX.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/MAPFX.html
    :license: GPL-2
    :recipe: /`bioconductor-mapfx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mapfx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mapfx/meta.yaml>`_
 

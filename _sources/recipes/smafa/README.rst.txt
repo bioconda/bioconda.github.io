@@ -28,10 +28,10 @@ smafa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.0-1</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-2</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.1-0</code>,  <code>0.5.0-2</code>,  <code>0.5.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.0-2</code>,  <code>0.8.0-1</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-2</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.1-0</code>,  <code>0.5.0-2</code>,  </span></summary>
       
 
-      ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-2``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``
+      ``0.8.0-2``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-2``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,14 @@ smafa
       
 
    
-   :depends on libgcc: ``>=13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on libgcc: ``>=14``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -114,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "smafa";
-        var versions = ["0.8.0","0.8.0","0.7.1","0.7.0","0.7.0"];
+        var versions = ["0.8.0","0.8.0","0.8.0","0.7.1","0.7.0"];
     </script>
 
 

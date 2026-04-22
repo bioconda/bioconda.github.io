@@ -10,14 +10,15 @@ orientagraph
    :replaces_section_title:
    :noindex:
 
-   OrientAGraph enables Maximum Likelihood Network Orientation \(MNLO\)\, as a standalone routine or as a search heuristic within TreeMix\, a popular package for estimating admixture graphs from f\-statistics \(or related quantities\).
+   Maximum likelihood network orientation for admixture graphs
 
    :homepage: https://github.com/sriramlab/OrientAGraph
    :license: GPL / GPL3
    :recipe: /`orientagraph <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/orientagraph>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/orientagraph/meta.yaml>`_
    :links: biotools: :biotools:`orientagraph`, doi: :doi:`10.1101/2021.02.02.429467`
 
-   
+   OrientAGraph enables Maximum Likelihood Network Orientation \(MNLO\)\,  as a standalone routine or as a search heuristic within TreeMix\, a  popular package for estimating admixture graphs from f\-statistics \(or related quantities\).
+
 
 
 .. conda:package:: orientagraph

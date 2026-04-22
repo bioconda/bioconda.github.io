@@ -12,7 +12,7 @@ bioconductor-adacgh2
 
    Analysis of big data from aCGH experiments using parallel computing and ff objects
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ADaCGH2.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/ADaCGH2.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-adacgh2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adacgh2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adacgh2/meta.yaml>`_
 
@@ -47,6 +47,7 @@ bioconductor-adacgh2
    :depends on bioconductor-tilingarray: ``>=1.88.0,<1.89.0``
    :depends on bioconductor-tilingarray: ``>=1.88.0,<1.89.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libopenblas: ``>=0.3.31,<1.0a0``

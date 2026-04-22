@@ -10,13 +10,14 @@ megapath
    :replaces_section_title:
    :noindex:
 
-   MegaPath\: sensitive and rapid pathogen detection using metagenomic NGS data\; MegaPath\-Amplicon\: filtering module for metagenomic amplicon data
+   Sensitive and rapid pathogen detection
 
    :homepage: https://github.com/HKU-BAL/MegaPath
    :license: BSD-3-Clause
    :recipe: /`megapath <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/megapath>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/megapath/meta.yaml>`_
 
-   
+   MegaPath\: sensitive and rapid pathogen detection using metagenomic NGS data\; MegaPath\-Amplicon\: filtering module for metagenomic amplicon data
+
 
 
 .. conda:package:: megapath

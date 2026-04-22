@@ -13,7 +13,7 @@ leehom
    Maximum\-likelihood adapter trimming and removal
 
    :homepage: https://grenaud.github.io/leeHom/
-   :license: GPLv3
+   :license: GPL-3.0-or-later
    :recipe: /`leehom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/leehom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/leehom/meta.yaml>`_
 
    

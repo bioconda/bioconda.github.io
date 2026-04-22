@@ -12,7 +12,7 @@ bioconductor-hcatonsildata
 
    Provide programmatic access to the tonsil cell atlas datasets
 
-   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/HCATonsilData.html
+   :homepage: https://bioconductor.org/packages/3.22/data/experiment/html/HCATonsilData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-hcatonsildata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hcatonsildata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hcatonsildata/meta.yaml>`_
 

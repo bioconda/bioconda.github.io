@@ -12,7 +12,7 @@ bioconductor-cancerclass
 
    Development and validation of diagnostic tests from high\-dimensional molecular data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/cancerclass.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/cancerclass.html
    :license: GPL 3
    :recipe: /`bioconductor-cancerclass <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cancerclass>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cancerclass/meta.yaml>`_
 
@@ -43,6 +43,7 @@ bioconductor-cancerclass
    :depends on bioconductor-biobase: ``>=2.70.0,<2.71.0``
    :depends on bioconductor-biobase: ``>=2.70.0,<2.71.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``

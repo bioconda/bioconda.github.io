@@ -12,7 +12,7 @@ bioconductor-catscradle
 
    This package provides methods for analysing spatial transcriptomics data and for discovering gene clusters
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CatsCradle.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/CatsCradle.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-catscradle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-catscradle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-catscradle/meta.yaml>`_
 

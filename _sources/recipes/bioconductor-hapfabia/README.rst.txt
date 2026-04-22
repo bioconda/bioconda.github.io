@@ -12,7 +12,7 @@ bioconductor-hapfabia
 
    hapFabia\: Identification of very short segments of identity by descent \(IBD\) characterized by rare variants in large sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/hapFabia.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/hapFabia.html
    :license: LGPL (>= 2.1)
    :recipe: /`bioconductor-hapfabia <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hapfabia>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hapfabia/meta.yaml>`_
    :links: biotools: :biotools:`hapfabia`
@@ -46,6 +46,7 @@ bioconductor-hapfabia
    :depends on bioconductor-fabia: ``>=2.56.0,<2.57.0``
    :depends on bioconductor-fabia: ``>=2.56.0,<2.57.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``

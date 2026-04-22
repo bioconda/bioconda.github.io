@@ -32,7 +32,7 @@ methurator
       
 
    
-   :depends on htslib: ``>=1.21,<1.23.0a0``
+   :depends on htslib: ``>=1.21,<1.24.0a0``
    :depends on matplotlib-base: 
    :depends on methyldackel: ``0.6.1.*``
    :depends on numpy: 

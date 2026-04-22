@@ -12,7 +12,7 @@ bioconductor-iseepathways
 
    iSEE extension for panels related to pathway analysis
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/iSEEpathways.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/iSEEpathways.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-iseepathways <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseepathways>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseepathways/meta.yaml>`_
 

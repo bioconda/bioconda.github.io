@@ -12,7 +12,7 @@ bioconductor-spillr
 
    Spillover Compensation in Mass Cytometry Data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/spillR.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/spillR.html
    :license: LGPL-3
    :recipe: /`bioconductor-spillr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spillr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spillr/meta.yaml>`_
 

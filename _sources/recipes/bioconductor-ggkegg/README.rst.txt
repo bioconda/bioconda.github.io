@@ -12,7 +12,7 @@ bioconductor-ggkegg
 
    Analyzing and visualizing KEGG information using the grammar of graphics
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ggkegg.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/ggkegg.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-ggkegg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggkegg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggkegg/meta.yaml>`_
 

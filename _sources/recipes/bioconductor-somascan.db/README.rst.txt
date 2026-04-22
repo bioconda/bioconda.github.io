@@ -12,7 +12,7 @@ bioconductor-somascan.db
 
    Somalogic SomaScan Annotation Data
 
-   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/SomaScan.db.html
+   :homepage: https://bioconductor.org/packages/3.22/data/annotation/html/SomaScan.db.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-somascan.db <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-somascan.db>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-somascan.db/meta.yaml>`_
 

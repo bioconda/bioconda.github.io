@@ -12,7 +12,7 @@ bioconductor-ahmassbank
 
    MassBank Annotation Resources for AnnotationHub
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/AHMassBank.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/AHMassBank.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ahmassbank <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ahmassbank>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ahmassbank/meta.yaml>`_
 

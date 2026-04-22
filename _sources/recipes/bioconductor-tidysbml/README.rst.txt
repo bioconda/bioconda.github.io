@@ -12,7 +12,7 @@ bioconductor-tidysbml
 
    Extract SBML\'s data into dataframes
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/tidysbml.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/tidysbml.html
    :license: CC BY 4.0
    :recipe: /`bioconductor-tidysbml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tidysbml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tidysbml/meta.yaml>`_
 

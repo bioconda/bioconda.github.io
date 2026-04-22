@@ -12,7 +12,7 @@ bioconductor-pepsettest
 
    Peptide Set Test
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/PepSetTest.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/PepSetTest.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-pepsettest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pepsettest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pepsettest/meta.yaml>`_
 

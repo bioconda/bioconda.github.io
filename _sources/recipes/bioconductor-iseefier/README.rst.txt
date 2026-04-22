@@ -12,7 +12,7 @@ bioconductor-iseefier
 
    Streamlining the creation of initial states for starting an iSEE instance
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/iSEEfier.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/iSEEfier.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-iseefier <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseefier>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseefier/meta.yaml>`_
 

@@ -10,10 +10,12 @@ python-intervaltree
    :replaces_section_title:
    :noindex:
 
-   Faster than intervaltree\_bio
+   Faster than intervaltree\_bio\; editable interval tree data structure
 
-   :homepage: https://pypi.org/project/intervaltree/#description
-   :license: Apache-2.0
+   :homepage: https://github.com/chaimleib/intervaltree
+   :documentation: https://github.com/chaimleib/intervaltree/blob/3.2.1/README.md
+   
+   :license: APACHE / Apache-2.0
    :recipe: /`python-intervaltree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-intervaltree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-intervaltree/meta.yaml>`_
 
    
@@ -27,12 +29,12 @@ python-intervaltree
       
       
 
-      ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.1.0-0``
+      ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-0``,  ``2.1.0-0``
 
       
 
    
-   :depends on python: 
+   :depends on python: ``>=3.5``
    :depends on python-sortedcontainers: 
 
    :additional platforms:
@@ -107,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "python-intervaltree";
-        var versions = ["3.2.0","3.1.0","3.0.2","3.0.2","3.0.1"];
+        var versions = ["3.2.1","3.2.0","3.1.0","3.0.2","3.0.2"];
     </script>
 
 

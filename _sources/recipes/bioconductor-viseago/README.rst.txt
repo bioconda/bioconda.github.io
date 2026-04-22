@@ -12,8 +12,8 @@ bioconductor-viseago
 
    ViSEAGO\: a Bioconductor package for clustering biological functions using Gene Ontology and semantic similarity
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/ViSEAGO.html
-   :license: GPL-3
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/ViSEAGO.html
+   :license: GPL-3 bioconductor.org
    :recipe: /`bioconductor-viseago <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-viseago>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-viseago/meta.yaml>`_
 
    The main objective of ViSEAGO package is to carry out a data mining of biological functions and establish links between genes involved in the study. We developed ViSEAGO in R to facilitate functional Gene Ontology \(GO\) analysis of complex experimental design with multiple comparisons of interest. It allows to study large\-scale datasets together and visualize GO profiles to capture biological knowledge. The acronym stands for three major concepts of the analysis\: Visualization\, Semantic similarity and Enrichment Analysis of Gene Ontology. It provides access to the last current GO annotations\, which are retrieved from one of NCBI EntrezGene\, Ensembl or Uniprot databases for several species. Using available R packages and novel developments\, ViSEAGO extends classical functional GO analysis to focus on functional coherence by aggregating closely related biological themes while studying multiple datasets at once. It provides both a synthetic and detailed view using interactive functionalities respecting the GO graph structure and ensuring functional coherence supplied by semantic similarity. ViSEAGO has been successfully applied on several datasets from different species with a variety of biological questions. Results can be easily shared between bioinformaticians and biologists\, enhancing reporting capabilities while maintaining reproducibility.

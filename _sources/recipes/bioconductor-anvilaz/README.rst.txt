@@ -12,7 +12,7 @@ bioconductor-anvilaz
 
    R \/ Bioconductor Support for the AnVIL Azure Platform
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/AnVILAz.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/AnVILAz.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-anvilaz <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anvilaz>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anvilaz/meta.yaml>`_
 

@@ -12,11 +12,11 @@ bioconductor-rblast
 
    R Interface for the Basic Local Alignment Search Tool
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/rBLAST.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/rBLAST.html
    :license: GPL-3
    :recipe: /`bioconductor-rblast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rblast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rblast/meta.yaml>`_
 
-   Seamlessly interfaces the Basic Local Alignment Search Tool \(BLAST\) to search genetic sequence data bases. This work was partially supported by grant no. R21HG005912 from the National Human Genome Research Institute.
+   Seamlessly interfaces the Basic Local Alignment Search Tool \(BLAST\) running locally to search genetic sequence data bases. This work was partially supported by grant no. R21HG005912 from the National Human Genome Research Institute.
 
 
 .. conda:package:: bioconductor-rblast

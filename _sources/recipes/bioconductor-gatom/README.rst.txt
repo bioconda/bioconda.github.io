@@ -12,7 +12,7 @@ bioconductor-gatom
 
    Finding an Active Metabolic Module in Atom Transition Network
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/gatom.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/gatom.html
    :license: MIT + file LICENCE
    :recipe: /`bioconductor-gatom <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gatom>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gatom/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-gg4way
 
    4way Plots of Differential Expression
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/gg4way.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/gg4way.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-gg4way <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gg4way>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gg4way/meta.yaml>`_
 

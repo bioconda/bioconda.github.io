@@ -12,7 +12,7 @@ bioconductor-dada2
 
    Accurate\, high\-resolution sample inference from amplicon sequencing data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/dada2.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/dada2.html
    :license: LGPL-2
    :recipe: /`bioconductor-dada2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dada2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dada2/meta.yaml>`_
    :links: biotools: :biotools:`dada2`
@@ -32,7 +32,7 @@ bioconductor-dada2
          <details><summary><span class="truncated-version-list"><code>1.38.0-0</code>,  <code>1.34.0-2</code>,  <code>1.34.0-1</code>,  <code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.0-0</code>,  <code>1.26.0-1</code>,  <code>1.26.0-0</code>,  <code>1.22.0-2</code>,  </span></summary>
       
 
-      ``1.38.0-0``,  ``1.34.0-2``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.22.0-2``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4-0``,  ``1.4.0-0``,  ``1.2-0``,  ``1.0.3-0``,  ``0.99.10-0``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.1-0``,  ``0.10.0-0``
+      ``1.38.0-0``,  ``1.34.0-2``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-1``,  ``1.26.0-0``,  ``1.22.0-2``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.4-0``,  ``1.2-0``,  ``1.0.3-0``,  ``0.99.10-0``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.1-0``,  ``0.10.0-0``
 
       
       .. raw:: html
@@ -52,9 +52,10 @@ bioconductor-dada2
    :depends on bioconductor-xvector: ``>=0.50.0,<0.51.0``
    :depends on bioconductor-xvector: ``>=0.50.0,<0.51.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-ggplot2: ``>=2.1.0``

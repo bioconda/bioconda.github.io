@@ -12,7 +12,7 @@ bioconductor-gloscope
 
    Population\-level Representation on scRNA\-Seq data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/GloScope.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/GloScope.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gloscope <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gloscope>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gloscope/meta.yaml>`_
 

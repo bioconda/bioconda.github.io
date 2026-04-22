@@ -12,7 +12,7 @@ bioconductor-harmonizr
 
    Handles missing values and makes more data available
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/HarmonizR.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/HarmonizR.html
    :license: GPL-3
    :recipe: /`bioconductor-harmonizr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-harmonizr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-harmonizr/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-mosclip
 
    Multi Omics Survival Clip
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MOSClip.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/MOSClip.html
    :license: AGPL-3
    :recipe: /`bioconductor-mosclip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mosclip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mosclip/meta.yaml>`_
 

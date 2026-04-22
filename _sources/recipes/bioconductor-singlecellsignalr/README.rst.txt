@@ -10,13 +10,13 @@ bioconductor-singlecellsignalr
    :replaces_section_title:
    :noindex:
 
-   Cell Signalling Using Single Cell RNAseq Data Analysis
+   Cell Signalling Using Single\-Cell RNA\-seq or Proteomics Data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SingleCellSignalR.html
-   :license: GPL-3
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/SingleCellSignalR.html
+   :license: CeCILL | file LICENSE
    :recipe: /`bioconductor-singlecellsignalr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singlecellsignalr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singlecellsignalr/meta.yaml>`_
 
-   Allows single cell RNA seq data analysis\, clustering\, creates internal network and infers cell\-cell interactions.
+   Inference of ligand\-receptor \(L\-R\) interactions from single\-cell expression \(transcriptomics\/proteomics\) data. SingleCellSignalR v2 inferences rely on the statistical model we introduced in the BulkSignalR package as well as the original SingleCellSignalR LR\-score \(both are available\). SingleCellSignalR v2 can be regarded as a wrapper to BulkSignalR fundamental classes. This also enables v2 users to work with any species\, whereas only Mus musculus \& Homo sapiens were available before in SingleCellSignalR v1.
 
 
 .. conda:package:: bioconductor-singlecellsignalr

@@ -12,11 +12,11 @@ bioconductor-knowyourcg
 
    Functional analysis of DNA methylome datasets
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/knowYourCG.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/knowYourCG.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-knowyourcg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-knowyourcg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-knowyourcg/meta.yaml>`_
 
-   knowYourCG automates the functional analysis of DNA methylation data. The package tests the enrichment of discrete CpG probes across thousands of curated biological and technical features. GSEA\-like analysis can be performed on continuous methylation data query sets. knowYourCG can also take beta matrices as input to perform feature aggregation over the curated database sets.
+   KnowYourCG \(KYCG\) is a supervised learning framework designed for the functional analysis of DNA methylation data. Unlike existing tools that focus on genes or genomic intervals\, KnowYourCG directly targets CpG dinucleotides\, featuring automated supervised screenings of diverse biological and technical influences\, including sequence motifs\, transcription factor binding\, histone modifications\, replication timing\, cell\-type\-specific methylation\, and trait\-epigenome associations. KnowYourCG addresses the challenges of data sparsity in various methylation datasets\, including low\-pass Nanopore sequencing\, single\-cell DNA methylomes\, 5\-hydroxymethylation profiles\, spatial DNA methylation maps\, and array\-based datasets for epigenome\-wide association studies and epigenetic clocks.
 
 
 .. conda:package:: bioconductor-knowyourcg
@@ -45,6 +45,7 @@ bioconductor-knowyourcg
    :depends on bioconductor-sesamedata: ``>=1.28.0,<1.29.0``
    :depends on bioconductor-sesamedata: ``>=1.28.0,<1.29.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``

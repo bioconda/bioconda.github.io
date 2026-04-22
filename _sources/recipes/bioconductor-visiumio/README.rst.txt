@@ -12,7 +12,7 @@ bioconductor-visiumio
 
    Import Visium data from the 10X Space Ranger pipeline
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/VisiumIO.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/VisiumIO.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-visiumio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-visiumio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-visiumio/meta.yaml>`_
 

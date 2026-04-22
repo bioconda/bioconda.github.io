@@ -12,7 +12,7 @@ bioconductor-tidyomics
 
    Easily install and load the tidyomics ecosystem
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/tidyomics.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/tidyomics.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-tidyomics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tidyomics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tidyomics/meta.yaml>`_
 

@@ -10,14 +10,14 @@ primer3
    :replaces_section_title:
    :noindex:
 
-   Design PCR primers from DNA sequence. From mispriming libraries to sequence quality data to the generation of internal oligos\, primer3 does it.
+   PCR primer design software
 
    :homepage: https://github.com/primer3-org/primer3
    :license: GPLv2
    :recipe: /`primer3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/primer3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/primer3/meta.yaml>`_
    :links: biotools: :biotools:`primer3`, doi: :doi:`10.1093/nar/gks596`
 
-   
+   Design PCR primers from DNA sequence. From mispriming libraries to sequence quality data to the generation of internal oligos\, primer3 does it.
 
 
 .. conda:package:: primer3
@@ -41,7 +41,8 @@ primer3
       
 
    
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
 
    :additional platforms:

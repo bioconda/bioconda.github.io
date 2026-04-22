@@ -10,13 +10,13 @@ bioconductor-synextend
    :replaces_section_title:
    :noindex:
 
-   Tools for Working With Synteny Objects
+   Tools for Comparative Genomics
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SynExtend.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/SynExtend.html
    :license: GPL-3
    :recipe: /`bioconductor-synextend <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synextend>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synextend/meta.yaml>`_
 
-   Shared order between genomic sequences provide a great deal of information. Synteny objects produced by the R package DECIPHER provides quantitative information about that shared order. SynExtend provides tools for extracting information from Synteny objects.
+   A multitude of tools for comparative genomics\, focused on large\-scale analyses of biological data. SynExtend includes tools for working with syntenic data\, clustering massive network structures\, and estimating functional relationships among genes.
 
 
 .. conda:package:: bioconductor-synextend
@@ -49,6 +49,9 @@ bioconductor-synextend
    :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
    :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libgfortran: 
+   :depends on libgfortran5: ``>=14.3.0``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``

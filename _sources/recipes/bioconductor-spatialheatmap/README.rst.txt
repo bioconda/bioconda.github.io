@@ -10,13 +10,13 @@ bioconductor-spatialheatmap
    :replaces_section_title:
    :noindex:
 
-   spatialHeatmap
+   spatialHeatmap\: Visualizing Spatial Assays in Anatomical Images and Large\-Scale Data Extensions
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/spatialHeatmap.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/spatialHeatmap.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-spatialheatmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialheatmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialheatmap/meta.yaml>`_
 
-   The spatialHeatmap package offers the primary functionality for visualizing cell\-\, tissue\- and organ\-specific assay data in spatial anatomical images. Additionally\, it provides extended functionalities for large\-scale data mining routines and co\-visualizing bulk and single\-cell data.
+   The spatialHeatmap package offers the primary functionality for visualizing cell\-\, tissue\- and organ\-specific assay data in spatial anatomical images. Additionally\, it provides extended functionalities for large\-scale data mining routines and co\-visualizing bulk and single\-cell data. A description of the project is available here\: https\:\/\/spatialheatmap.org.
 
 
 .. conda:package:: bioconductor-spatialheatmap

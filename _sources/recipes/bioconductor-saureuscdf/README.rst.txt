@@ -12,7 +12,7 @@ bioconductor-saureuscdf
 
    saureuscdf
 
-   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/saureuscdf.html
+   :homepage: https://bioconductor.org/packages/3.22/data/annotation/html/saureuscdf.html
    :license: LGPL
    :recipe: /`bioconductor-saureuscdf <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-saureuscdf>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-saureuscdf/meta.yaml>`_
 

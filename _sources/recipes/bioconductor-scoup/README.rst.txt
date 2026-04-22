@@ -12,11 +12,11 @@ bioconductor-scoup
 
    Simulate Codons with Darwinian Selection Modelled as an OU Process
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/scoup.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/scoup.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-scoup <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scoup>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scoup/meta.yaml>`_
 
-   An elaborate molecular evolutionary framework that facilitates straightforward simulation of codon genetic sequences subjected to different degrees and\/or patterns of Darwinian selection. The model was built upon the fitness landscape paradigm of Sewall Wright\, as popularised by the mutation\-selection model of Halpern and Bruno. This enabled realistic evolutionary process of living organisms to be reproduced seamlessly. For example\, an Ornstein\-Uhlenbeck fitness update algorithm is incorporated herein. Consequently\, otherwise complex biological processes\, such as the effect of the interplay between genetic drift and mutation on the inference of diversifying selection\, may now be investigated with minimal effort. Frequency\-dependent and deterministic fitness landscape update techniques are also available.
+   An elaborate molecular evolutionary framework that facilitates straightforward simulation of codon genetic sequences subjected to different degrees and\/or patterns of Darwinian selection. The model is built upon the fitness landscape paradigm of Sewall Wright\, as popularised by the mutation\-selection model of Halpern and Bruno. This enables realistic evolutionary process of living organisms to be reproducible seamlessly. For example\, an Ornstein\-Uhlenbeck fitness update algorithm is incorporated herein. Consequently\, otherwise complex biological processes\, such as the effect of the interplay between genetic drift and fitness landscape fluctuations on the inference of diversifying selection\, may now be investigated with minimal effort. Frequency\-dependent and stochastic fitness landscape update techniques are available.
 
 
 .. conda:package:: bioconductor-scoup

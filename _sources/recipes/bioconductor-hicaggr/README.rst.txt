@@ -12,7 +12,7 @@ bioconductor-hicaggr
 
    Set of 3D genomic interaction analysis tools
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/HicAggR.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/HicAggR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-hicaggr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicaggr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicaggr/meta.yaml>`_
 

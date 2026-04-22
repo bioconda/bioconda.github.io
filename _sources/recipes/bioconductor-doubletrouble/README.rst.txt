@@ -12,7 +12,7 @@ bioconductor-doubletrouble
 
    Identification and classification of duplicated genes
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/doubletrouble.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/doubletrouble.html
    :license: GPL-3
    :recipe: /`bioconductor-doubletrouble <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-doubletrouble>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-doubletrouble/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-immunogenviewer
 
    Visualization and evaluation of protein immunogens
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/immunogenViewer.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/immunogenViewer.html
    :license: Apache License (>= 2)
    :recipe: /`bioconductor-immunogenviewer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-immunogenviewer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-immunogenviewer/meta.yaml>`_
 

@@ -10,7 +10,7 @@ pasa
    :replaces_section_title:
    :noindex:
 
-   PASA\, acronym for Program to Assemble Spliced Alignments \(and pronounced \'pass\-uh\'\)\, is a eukaryotic genome annotation tool that exploits spliced alignments of expressed transcript sequences to automatically model gene structures\, and to maintain gene structure annotation consistent with the most recently available experimental sequence data. PASA also identifies and classifies all splicing variations supported by the transcript alignments.
+   Eukaryotic genome annotation tool
 
    :homepage: https://github.com/PASApipeline/PASApipeline
    :documentation: https://github.com/PASApipeline/PASApipeline/wiki
@@ -19,7 +19,7 @@ pasa
    :recipe: /`pasa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pasa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pasa/meta.yaml>`_
    :links: biotools: :biotools:`PASA`, doi: :doi:`10.1093/nar/gkg770`, doi: :doi:`10.1186/gb-2008-9-1-r7`
 
-   
+   PASA\, acronym for Program to Assemble Spliced Alignments \(and pronounced \'pass\-uh\'\)\, is a eukaryotic genome annotation tool that exploits spliced alignments of expressed transcript sequences to automatically model gene structures\, and to maintain gene structure annotation consistent with the most recently available experimental sequence data. PASA also identifies and classifies all splicing variations supported by the transcript alignments.\"
 
 
 .. conda:package:: pasa

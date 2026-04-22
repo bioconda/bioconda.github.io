@@ -12,7 +12,7 @@ bioconductor-graph
 
    graph\: A package to handle graph data structures
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/graph.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/graph.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-graph <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-graph>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-graph/meta.yaml>`_
    :links: biotools: :biotools:`graph`, doi: :doi:`10.1038/nmeth.3252`
@@ -44,6 +44,7 @@ bioconductor-graph
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``

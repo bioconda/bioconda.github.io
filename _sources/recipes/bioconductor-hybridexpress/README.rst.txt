@@ -12,7 +12,7 @@ bioconductor-hybridexpress
 
    Comparative analysis of RNA\-seq data for hybrids and their progenitors
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/HybridExpress.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/HybridExpress.html
    :license: GPL-3
    :recipe: /`bioconductor-hybridexpress <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hybridexpress>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hybridexpress/meta.yaml>`_
 

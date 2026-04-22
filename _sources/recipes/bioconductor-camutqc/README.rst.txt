@@ -12,7 +12,7 @@ bioconductor-camutqc
 
    An R Package for Comprehensive Filtration and Selection of Cancer Somatic Mutations
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CaMutQC.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/CaMutQC.html
    :license: GPL-3
    :recipe: /`bioconductor-camutqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-camutqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-camutqc/meta.yaml>`_
 

@@ -10,13 +10,13 @@ bioconductor-venndetail
    :replaces_section_title:
    :noindex:
 
-   A package for visualization and extract details
+   Comprehensive Visualization and Analysis of Multi\-Set Intersections
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/VennDetail.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/VennDetail.html
    :license: GPL-2
    :recipe: /`bioconductor-venndetail <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-venndetail>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-venndetail/meta.yaml>`_
 
-   A set of functions to generate high\-resolution Venn\,Vennpie plot\,extract and combine details of these subsets with user datasets in data frame is available.
+   A comprehensive package for visualizing multi\-set intersections and extracting detailed subset information. VennDetail generates high\-resolution visualizations including traditional Venn diagrams\, Venn\-pie plots\, and UpSet\-style plots. It provides functions to extract and combine subset details with user datasets in various formats. The package is particularly useful for bioinformatics applications but can be used for any multi\-set analysis.
 
 
 .. conda:package:: bioconductor-venndetail

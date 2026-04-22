@@ -10,13 +10,13 @@ bioconductor-netzoor
    :replaces_section_title:
    :noindex:
 
-   Unified methods for the inference and analysis of gene regulatory networks
+   A Menagerie of Methods for the Inference and Analysis of Gene Regulatory Networks
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/netZooR.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/netZooR.html
    :license: GPL-3
    :recipe: /`bioconductor-netzoor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netzoor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netzoor/meta.yaml>`_
 
-   netZooR unifies the implementations of several Network Zoo methods \(netzoo\, netzoo.github.io\) into a single package by creating interfaces between network inference and network analysis methods. Currently\, the package has 3 methods for network inference including PANDA and its optimized implementation OTTER \(network reconstruction using mutliple lines of biological evidence\)\, LIONESS \(single\-sample network inference\)\, and EGRET \(genotype\-specific networks\). Network analysis methods include CONDOR \(community detection\)\, ALPACA \(differential community detection\)\, CRANE \(significance estimation of differential modules\)\, MONSTER \(estimation of network transition states\). In addition\, YARN allows to process gene expresssion data for tissue\-specific analyses and SAMBAR infers missing mutation data based on pathway information.
+   Unifies the implementations of several Network Zoo methods \(netzoo\, netzoo.github.io\) into a single package by creating interfaces between network inference and network analysis methods. Currently\, the package has 3 methods for network inference including PANDA and its optimized implementation OTTER \(network reconstruction using multiple lines of biological evidence\)\, LIONESS \(single\-sample network inference\)\, and EGRET \(genotype\-specific networks\). Network analysis methods include CONDOR \(community detection\)\, ALPACA \(differential community detection\)\, CRANE \(significance estimation of differential modules\)\, MONSTER \(estimation of network transition states\). In addition\, YARN allows to process gene expression data for tissue\-specific analyses and SAMBAR infers missing mutation data based on pathway information.
 
 
 .. conda:package:: bioconductor-netzoor

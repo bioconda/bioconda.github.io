@@ -12,7 +12,7 @@ bioconductor-methylimp2
 
    Missing value estimation of DNA methylation data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/methyLImp2.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/methyLImp2.html
    :license: GPL-3
    :recipe: /`bioconductor-methylimp2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylimp2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylimp2/meta.yaml>`_
 

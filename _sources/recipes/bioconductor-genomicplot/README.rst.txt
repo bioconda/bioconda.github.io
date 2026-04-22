@@ -12,7 +12,7 @@ bioconductor-genomicplot
 
    Plot profiles of next generation sequencing data in genomic features
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/GenomicPlot.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/GenomicPlot.html
    :license: GPL-2
    :recipe: /`bioconductor-genomicplot <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicplot>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicplot/meta.yaml>`_
 

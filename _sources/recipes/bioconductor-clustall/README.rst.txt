@@ -12,7 +12,7 @@ bioconductor-clustall
 
    ClustAll\: Data driven strategy to robustly identify stratification of patients within complex diseases
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ClustAll.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/ClustAll.html
    :license: GPL-2
    :recipe: /`bioconductor-clustall <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clustall>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clustall/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-spacemarkers
 
    Spatial Interaction Markers
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SpaceMarkers.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/SpaceMarkers.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-spacemarkers <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spacemarkers>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spacemarkers/meta.yaml>`_
 

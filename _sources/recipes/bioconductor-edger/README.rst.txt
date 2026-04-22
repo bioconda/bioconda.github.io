@@ -12,12 +12,12 @@ bioconductor-edger
 
    Empirical Analysis of Digital Gene Expression Data in R
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/edgeR.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/edgeR.html
    :license: GPL (>=2)
    :recipe: /`bioconductor-edger <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edger>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edger/meta.yaml>`_
    :links: biotools: :biotools:`edger`, usegalaxy-eu: :usegalaxy-eu:`edger`
 
-   Differential expression analysis of RNA\-seq expression profiles with biological replication. Implements a range of statistical methodology based on the negative binomial distributions\, including empirical Bayes estimation\, exact tests\, generalized linear models and quasi\-likelihood tests. As well as RNA\-seq\, it be applied to differential signal analysis of other types of genomic data that produce read counts\, including ChIP\-seq\, ATAC\-seq\, Bisulfite\-seq\, SAGE and CAGE.
+   Differential expression analysis of sequence count data. Implements a range of statistical methodology based on the negative binomial distributions\, including empirical Bayes estimation\, exact tests\, generalized linear models\, quasi\-likelihood\, and gene set enrichment. Can perform differential analyses of any type of omics data that produces read counts\, including RNA\-seq\, ChIP\-seq\, ATAC\-seq\, Bisulfite\-seq\, SAGE\, CAGE\, metabolomics\, or proteomics spectral counts. RNA\-seq analyses can be conducted at the gene or isoform level\, and tests can be conducted for differential exon or transcript usage.
 
 
 .. conda:package:: bioconductor-edger
@@ -44,6 +44,7 @@ bioconductor-edger
    :depends on bioconductor-limma: ``>=3.66.0,<3.67.0``
    :depends on bioconductor-limma: ``>=3.66.0,<3.67.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``

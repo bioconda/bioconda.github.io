@@ -10,10 +10,10 @@ cryfa
    :replaces_section_title:
    :noindex:
 
-   A secure encryption tool for genomic data
+   A secure encryption tool for genomic data.
 
    :homepage: https://github.com/smortezah/cryfa
-   :license: GPL / GPL3
+   :license: GPL / GPL-3.0-or-later
    :recipe: /`cryfa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cryfa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cryfa/meta.yaml>`_
 
    
@@ -27,14 +27,20 @@ cryfa
       
       
 
-      ``20.04-3``,  ``20.04-2``,  ``20.04-1``,  ``20.04-0``,  ``18.06-2``,  ``18.06-1``,  ``18.06-0``
+      ``26.04-0``,  ``20.04-3``,  ``20.04-2``,  ``20.04-1``,  ``20.04-0``,  ``18.06-2``,  ``18.06-1``,  ``18.06-0``
 
       
 
    
-   :depends on libcxx: ``>=18``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -106,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "cryfa";
-        var versions = ["20.04","20.04","20.04","20.04","18.06"];
+        var versions = ["26.04","20.04","20.04","20.04","20.04"];
     </script>
 
 

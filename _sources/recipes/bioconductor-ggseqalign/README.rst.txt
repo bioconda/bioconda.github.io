@@ -12,7 +12,7 @@ bioconductor-ggseqalign
 
    Minimal Visualization of Sequence Alignments
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ggseqalign.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/ggseqalign.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ggseqalign <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggseqalign>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggseqalign/meta.yaml>`_
 

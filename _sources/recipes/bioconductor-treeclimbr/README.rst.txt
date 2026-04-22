@@ -12,7 +12,7 @@ bioconductor-treeclimbr
 
    An algorithm to find optimal signal levels in a tree
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/treeclimbR.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/treeclimbR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-treeclimbr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-treeclimbr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-treeclimbr/meta.yaml>`_
 

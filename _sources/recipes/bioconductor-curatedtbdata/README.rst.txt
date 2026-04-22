@@ -12,7 +12,7 @@ bioconductor-curatedtbdata
 
    Curation of existing tuberculosis transcriptomic studies
 
-   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/curatedTBData.html
+   :homepage: https://bioconductor.org/packages/3.22/data/experiment/html/curatedTBData.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-curatedtbdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedtbdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedtbdata/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-bufferedmatrix
 
    A matrix data storage object held in temporary files
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/BufferedMatrix.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/BufferedMatrix.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-bufferedmatrix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bufferedmatrix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bufferedmatrix/meta.yaml>`_
    :links: biotools: :biotools:`bufferedmatrix`, doi: :doi:`10.1038/nmeth.3252`
@@ -42,6 +42,7 @@ bioconductor-bufferedmatrix
 
    
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``

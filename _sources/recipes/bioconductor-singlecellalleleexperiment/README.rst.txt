@@ -12,7 +12,7 @@ bioconductor-singlecellalleleexperiment
 
    S4 Class for Single Cell Data with Allele and Functional Levels for Immune Genes
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SingleCellAlleleExperiment.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/SingleCellAlleleExperiment.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-singlecellalleleexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singlecellalleleexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singlecellalleleexperiment/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-geneselectmmd
 
    Gene selection based on the marginal distributions of gene profiles that characterized by a mixture of three\-component multivariate distributions
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/GeneSelectMMD.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/GeneSelectMMD.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-geneselectmmd <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneselectmmd>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneselectmmd/meta.yaml>`_
    :links: biotools: :biotools:`geneselectmmd`, usegalaxy-eu: :usegalaxy-eu:`geneselectmmd`
@@ -46,6 +46,7 @@ bioconductor-geneselectmmd
    :depends on bioconductor-limma: ``>=3.66.0,<3.67.0``
    :depends on bioconductor-limma: ``>=3.66.0,<3.67.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on libgfortran: 
    :depends on libgfortran5: ``>=14.3.0``
    :depends on liblapack: ``>=3.9.0,<4.0a0``

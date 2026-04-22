@@ -12,7 +12,7 @@ bioconductor-bus
 
    Gene network reconstruction
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/BUS.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/BUS.html
    :license: GPL-3
    :recipe: /`bioconductor-bus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bus/meta.yaml>`_
    :links: biotools: :biotools:`bus`, doi: :doi:`10.1038/nmeth.3252`
@@ -44,9 +44,10 @@ bioconductor-bus
    :depends on bioconductor-minet: ``>=3.68.0,<3.69.0``
    :depends on bioconductor-minet: ``>=3.68.0,<3.69.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-infotheo: 

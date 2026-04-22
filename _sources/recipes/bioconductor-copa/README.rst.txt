@@ -12,7 +12,7 @@ bioconductor-copa
 
    Functions to perform cancer outlier profile analysis.
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/copa.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/copa.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-copa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copa/meta.yaml>`_
    :links: biotools: :biotools:`copa`, usegalaxy-eu: :usegalaxy-eu:`copa`
@@ -44,6 +44,7 @@ bioconductor-copa
    :depends on bioconductor-biobase: ``>=2.70.0,<2.71.0``
    :depends on bioconductor-biobase: ``>=2.70.0,<2.71.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``

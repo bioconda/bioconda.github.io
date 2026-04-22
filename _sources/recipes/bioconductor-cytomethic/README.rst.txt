@@ -10,13 +10,13 @@ bioconductor-cytomethic
    :replaces_section_title:
    :noindex:
 
-   DNA methylation\-based classification and regression
+   DNA methylation\-based machine learning models
 
-   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/CytoMethIC.html
+   :homepage: https://bioconductor.org/packages/3.22/data/experiment/html/CytoMethIC.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cytomethic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytomethic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytomethic/meta.yaml>`_
 
-   This package provides DNA methylation\-based prediction of cancer type\, molecular signature and clinical outcomes. It provides convenience functions for missing value imputation\, probe ID conversion\, model interpretation and visualization. The package links to our models on ExperimentHub. The package currently supports HM450\, EPIC and EPICv2.
+   This package provides model data and functions for easily using machine learning models that use data from the DNA methylome to classify cancer type and phenotype from a sample. The primary motivation for the development of this package is to abstract away the granular and accessibility\-limiting code required to utilize machine learning models in R. Our package provides this abstraction for RandomForest\, e1071 Support Vector\, Extreme Gradient Boosting\, and Tensorflow models. This is paired with an ExperimentHub component\, which contains models developed for epigenetic cancer classification and predicting phenotypes. This includes CNS tumor classification\, Pan\-cancer classification\, race prediction\, cell of origin classification\, and subtype classification models. The package links to our models on ExperimentHub. The package currently supports HM450\, EPIC\, EPICv2\, MSA\, and MM285.
 
 
 .. conda:package:: bioconductor-cytomethic

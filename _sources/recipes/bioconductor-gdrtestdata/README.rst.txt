@@ -12,7 +12,7 @@ bioconductor-gdrtestdata
 
    gDRtestData \- R data package with testing dose response data
 
-   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/gDRtestData.html
+   :homepage: https://bioconductor.org/packages/3.22/data/experiment/html/gDRtestData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gdrtestdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdrtestdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdrtestdata/meta.yaml>`_
 

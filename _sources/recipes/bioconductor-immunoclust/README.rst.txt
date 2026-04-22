@@ -12,7 +12,7 @@ bioconductor-immunoclust
 
    immunoClust \- Automated Pipeline for Population Detection in Flow Cytometry
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/immunoClust.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/immunoClust.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-immunoclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-immunoclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-immunoclust/meta.yaml>`_
 
@@ -43,9 +43,10 @@ bioconductor-immunoclust
    :depends on bioconductor-flowcore: ``>=2.22.0,<2.23.0``
    :depends on bioconductor-flowcore: ``>=2.22.1,<2.23.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-lattice: 

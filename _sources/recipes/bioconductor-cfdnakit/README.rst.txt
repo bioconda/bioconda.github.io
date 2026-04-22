@@ -12,7 +12,7 @@ bioconductor-cfdnakit
 
    Fragmen\-length analysis package from high\-throughput sequencing of cell\-free DNA \(cfDNA\)
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/cfdnakit.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/cfdnakit.html
    :license: GPL-3
    :recipe: /`bioconductor-cfdnakit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cfdnakit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cfdnakit/meta.yaml>`_
 

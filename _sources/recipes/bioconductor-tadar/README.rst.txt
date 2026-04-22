@@ -12,7 +12,7 @@ bioconductor-tadar
 
    Transcriptome Analysis of Differential Allelic Representation
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/tadar.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/tadar.html
    :license: GPL-3
    :recipe: /`bioconductor-tadar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tadar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tadar/meta.yaml>`_
 

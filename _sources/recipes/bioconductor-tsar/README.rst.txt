@@ -12,7 +12,7 @@ bioconductor-tsar
 
    Thermal Shift Analysis in R
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/TSAR.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/TSAR.html
    :license: AGPL-3
    :recipe: /`bioconductor-tsar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tsar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tsar/meta.yaml>`_
 

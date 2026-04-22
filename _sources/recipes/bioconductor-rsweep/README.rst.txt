@@ -12,7 +12,7 @@ bioconductor-rsweep
 
    Spaced Words Projection \(SWeeP\)
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/rSWeeP.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/rSWeeP.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-rsweep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsweep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsweep/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-rgreat
 
    GREAT Analysis \- Functional Enrichment on Genomic Regions
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/rGREAT.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/rGREAT.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-rgreat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgreat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgreat/meta.yaml>`_
    :links: biotools: :biotools:`rgreat`, doi: :doi:`10.1038/nmeth.3252`
@@ -62,9 +62,10 @@ bioconductor-rgreat
    :depends on bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: ``>=3.22.0,<3.23.0``
    :depends on bioconductor-txdb.hsapiens.ucsc.hg38.knowngene: ``>=3.22.0,<3.23.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-circlize: 

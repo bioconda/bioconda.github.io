@@ -12,7 +12,7 @@ bioconductor-brew3r.r
 
    R package associated to BREW3R
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/BREW3R.r.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/BREW3R.r.html
    :license: GPL-3
    :recipe: /`bioconductor-brew3r.r <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brew3r.r>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brew3r.r/meta.yaml>`_
 

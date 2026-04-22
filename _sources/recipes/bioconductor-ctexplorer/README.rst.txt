@@ -12,7 +12,7 @@ bioconductor-ctexplorer
 
    Explores Cancer Testis Genes
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CTexploreR.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/CTexploreR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ctexplorer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ctexplorer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ctexplorer/meta.yaml>`_
 

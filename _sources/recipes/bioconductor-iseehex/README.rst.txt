@@ -12,7 +12,7 @@ bioconductor-iseehex
 
    iSEE extension for summarising data points in hexagonal bins
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/iSEEhex.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/iSEEhex.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-iseehex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseehex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseehex/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-cytopipelinegui
 
    GUI\'s for visualization of flow cytometry data analysis pipelines
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CytoPipelineGUI.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/CytoPipelineGUI.html
    :license: GPL-3
    :recipe: /`bioconductor-cytopipelinegui <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytopipelinegui>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytopipelinegui/meta.yaml>`_
 

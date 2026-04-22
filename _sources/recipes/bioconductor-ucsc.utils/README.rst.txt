@@ -12,7 +12,7 @@ bioconductor-ucsc.utils
 
    Low\-level utilities to retrieve data from the UCSC Genome Browser
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/UCSC.utils.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/UCSC.utils.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ucsc.utils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ucsc.utils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ucsc.utils/meta.yaml>`_
 

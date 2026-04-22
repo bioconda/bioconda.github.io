@@ -12,7 +12,7 @@ bioconductor-curatedatlasqueryr
 
    Queries the Human Cell Atlas
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CuratedAtlasQueryR.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/CuratedAtlasQueryR.html
    :license: GPL-3
    :recipe: /`bioconductor-curatedatlasqueryr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedatlasqueryr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedatlasqueryr/meta.yaml>`_
 

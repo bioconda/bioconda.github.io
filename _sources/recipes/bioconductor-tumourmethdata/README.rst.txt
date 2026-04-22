@@ -12,7 +12,7 @@ bioconductor-tumourmethdata
 
    A Collection of DNA Methylation Datasets for Human Tumour Samples and Matching Normal Samples
 
-   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/TumourMethData.html
+   :homepage: https://bioconductor.org/packages/3.22/data/experiment/html/TumourMethData.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-tumourmethdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tumourmethdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tumourmethdata/meta.yaml>`_
 

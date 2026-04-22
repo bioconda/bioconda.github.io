@@ -12,8 +12,8 @@ bioconductor-grohmm
 
    GRO\-seq Analysis Pipeline
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/groHMM.html
-   :license: GPL-3.0-only
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/groHMM.html
+   :license: GPL-3
    :recipe: /`bioconductor-grohmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-grohmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-grohmm/meta.yaml>`_
    :links: biotools: :biotools:`grohmm`
 
@@ -54,6 +54,7 @@ bioconductor-grohmm
    :depends on bioconductor-seqinfo: ``>=1.0.0,<1.1.0``
    :depends on bioconductor-seqinfo: ``>=1.0.0,<1.1.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``

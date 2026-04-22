@@ -12,11 +12,11 @@ bioconductor-iseetree
 
    Interactive visualisation for microbiome data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/iSEEtree.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/iSEEtree.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-iseetree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseetree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseetree/meta.yaml>`_
 
-   iSEEtree is an extension of iSEE for the TreeSummarizedExperiment. It leverages the functionality from the miaViz package for microbiome data visualisation to create panels that are specific for TreeSummarizedExperiment objects. Not surprisingly\, it also depends on the generic panels from iSEE.
+   iSEEtree is an extension of iSEE for the TreeSummarizedExperiment data container. It provides interactive panel designs to explore hierarchical datasets\, such as the microbiome and cell lines.
 
 
 .. conda:package:: bioconductor-iseetree

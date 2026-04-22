@@ -12,7 +12,7 @@ bioconductor-pairedgsea
 
    Paired DGE and DGS analysis for gene set enrichment analysis
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/pairedGSEA.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/pairedGSEA.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-pairedgsea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pairedgsea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pairedgsea/meta.yaml>`_
 

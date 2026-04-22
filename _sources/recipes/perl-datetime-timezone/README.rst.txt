@@ -40,7 +40,8 @@ perl-datetime-timezone
       
 
    
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-app-cpanminus: 
    :depends on perl-module-runtime: ``0.016.*``

@@ -12,7 +12,7 @@ bioconductor-mgnifyr
 
    R interface to EBI MGnify metagenomics resource
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MGnifyR.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/MGnifyR.html
    :license: Artistic-2.0 | file LICENSE
    :recipe: /`bioconductor-mgnifyr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgnifyr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgnifyr/meta.yaml>`_
 

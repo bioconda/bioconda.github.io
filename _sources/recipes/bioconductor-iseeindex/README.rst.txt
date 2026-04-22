@@ -12,7 +12,7 @@ bioconductor-iseeindex
 
    iSEE extension for a landing page to a custom collection of data sets
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/iSEEindex.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/iSEEindex.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-iseeindex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseeindex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseeindex/meta.yaml>`_
 

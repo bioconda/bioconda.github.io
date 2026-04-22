@@ -12,7 +12,7 @@ bioconductor-dar
 
    Differential Abundance Analysis by Consensus
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/dar.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/dar.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-dar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dar/meta.yaml>`_
 

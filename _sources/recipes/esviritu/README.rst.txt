@@ -13,9 +13,9 @@ esviritu
    Read mapping pipeline for detection and measurement of human and animal virus pathogens from short read metagenomic environmental or clinical samples.
 
    :homepage: https://github.com/cmmr/EsViritu
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`esviritu <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/esviritu>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/esviritu/meta.yaml>`_
-   :links: https: :https:`//doi.org/10.1038/s41467-023-42064-1`
+   :links: doi: :doi:`10.1038/s41467-023-42064-1`
 
    
 
@@ -29,10 +29,10 @@ esviritu
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.0-0</code>,  <code>1.1.6-0</code>,  <code>1.1.5-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.6-0</code>,  <code>1.1.5-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.3-0</code>,  </span></summary>
       
 
-      ``1.2.0-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.2.3-0``,  ``0.2.2-0``
+      ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.2.3-0``,  ``0.2.2-0``
 
       
       .. raw:: html
@@ -130,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "esviritu";
-        var versions = ["1.2.0","1.1.6","1.1.5","1.1.3","1.1.2"];
+        var versions = ["1.2.1","1.2.0","1.1.6","1.1.5","1.1.3"];
     </script>
 
 

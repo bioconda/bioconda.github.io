@@ -12,7 +12,7 @@ bioconductor-bert
 
    High Performance Data Integration for Large\-Scale Analyses of Incomplete Omic Profiles Using Batch\-Effect Reduction Trees \(BERT\)
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/BERT.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/BERT.html
    :license: GPL-3
    :recipe: /`bioconductor-bert <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bert>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bert/meta.yaml>`_
 

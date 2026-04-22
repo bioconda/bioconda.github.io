@@ -12,7 +12,7 @@ bioconductor-cleanuprnaseq
 
    Detect and Correct Genomic DNA Contamination in RNA\-seq Data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CleanUpRNAseq.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/CleanUpRNAseq.html
    :license: GPL-3
    :recipe: /`bioconductor-cleanuprnaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cleanuprnaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cleanuprnaseq/meta.yaml>`_
 

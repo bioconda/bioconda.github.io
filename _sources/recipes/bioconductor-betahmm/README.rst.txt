@@ -12,7 +12,7 @@ bioconductor-betahmm
 
    A Hidden Markov Model Approach for Identifying Differentially Methylated Sites and Regions for Beta\-Valued DNA Methylation Data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/betaHMM.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/betaHMM.html
    :license: GPL-3
    :recipe: /`bioconductor-betahmm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-betahmm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-betahmm/meta.yaml>`_
 

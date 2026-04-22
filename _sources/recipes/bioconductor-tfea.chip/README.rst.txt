@@ -10,13 +10,13 @@ bioconductor-tfea.chip
    :replaces_section_title:
    :noindex:
 
-   Analyze Transcription Factor Enrichment
+   TFEA.ChIP\, a Tool Kit for Transcription Factor Enrichment
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/TFEA.ChIP.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/TFEA.ChIP.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-tfea.chip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tfea.chip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tfea.chip/meta.yaml>`_
 
-   Package to analize transcription factor enrichment in a gene set using data from ChIP\-Seq experiments.
+   Package to analyze transcription factor enrichment in a gene set using data from ChIP\-Seq experiments.
 
 
 .. conda:package:: bioconductor-tfea.chip

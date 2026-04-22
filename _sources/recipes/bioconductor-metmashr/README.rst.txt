@@ -12,7 +12,7 @@ bioconductor-metmashr
 
    Metabolite Mashing with R
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MetMashR.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/MetMashR.html
    :license: GPL-3
    :recipe: /`bioconductor-metmashr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metmashr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metmashr/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-hmmcopy
 
    Copy number prediction with correction for GC and mappability bias for HTS data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/HMMcopy.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/HMMcopy.html
    :license: GPL-3
    :recipe: /`bioconductor-hmmcopy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hmmcopy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hmmcopy/meta.yaml>`_
    :links: biotools: :biotools:`hmmcopy`, doi: :doi:`10.1038/nmeth.3252`
@@ -42,6 +42,7 @@ bioconductor-hmmcopy
 
    
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``

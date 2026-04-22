@@ -12,7 +12,7 @@ bioconductor-pirat
 
    Precursor or Peptide Imputation under Random Truncation
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Pirat.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/Pirat.html
    :license: GPL-2
    :recipe: /`bioconductor-pirat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pirat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pirat/meta.yaml>`_
 

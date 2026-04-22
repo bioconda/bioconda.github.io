@@ -12,7 +12,7 @@ bioconductor-damsel
 
    Damsel\: an end to end analysis of DamID
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Damsel.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/Damsel.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-damsel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-damsel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-damsel/meta.yaml>`_
 

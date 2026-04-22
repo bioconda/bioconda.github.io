@@ -10,13 +10,13 @@ bioconductor-mpac
    :replaces_section_title:
    :noindex:
 
-   Multi\-omic Pathway Analysis of Cancer
+   Multi\-omic Pathway Analysis of Cells
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MPAC.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/MPAC.html
    :license: GPL-3
    :recipe: /`bioconductor-mpac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mpac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mpac/meta.yaml>`_
 
-   Multi\-omic Pathway Analysis of Cancer \(MPAC\)\, integrates multi\-omic data for understanding cancer mechanisms. It predicts novel patient groups with distinct pathway profiles as well as identifying key pathway proteins with potential clinical associations. From CNA and RNA\-seq data\, it determines genes’ DNA and RNA states \(i.e.\, repressed\, normal\, or activated\)\, which serve as the input for PARADIGM to calculate Inferred Pathway Levels \(IPLs\). It also permutes DNA and RNA states to create a background distribution to filter IPLs as a way to remove events observed by chance. It provides multiple methods for downstream analysis and visualization.
+   Multi\-omic Pathway Analysis of Cells \(MPAC\)\, integrates multi\-omic data for understanding cellular mechanisms. It predicts novel patient groups with distinct pathway profiles as well as identifying key pathway proteins with potential clinical associations. From CNA and RNA\-seq data\, it determines genes’ DNA and RNA states \(i.e.\, repressed\, normal\, or activated\)\, which serve as the input for PARADIGM to calculate Inferred Pathway Levels \(IPLs\). It also permutes DNA and RNA states to create a background distribution to filter IPLs as a way to remove events observed by chance. It provides multiple methods for downstream analysis and visualization.
 
 
 .. conda:package:: bioconductor-mpac

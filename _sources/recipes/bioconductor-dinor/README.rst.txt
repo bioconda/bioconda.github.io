@@ -12,7 +12,7 @@ bioconductor-dinor
 
    Differential NOMe\-seq analysis
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/dinoR.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/dinoR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-dinor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dinor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dinor/meta.yaml>`_
 

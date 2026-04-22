@@ -10,13 +10,13 @@ bioconductor-regionalst
    :replaces_section_title:
    :noindex:
 
-   Investigating regions of interest and performing cross\-regional analysis with spatial transcriptomics data
+   Investigating regions of interest and performing regional cell type\-specific analysis with spatial transcriptomics data
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/RegionalST.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/RegionalST.html
    :license: GPL-3
    :recipe: /`bioconductor-regionalst <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-regionalst>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-regionalst/meta.yaml>`_
 
-   This package analyze spatial transcriptomics data through cross\-regional analysis. It selects regions of interest \(ROIs\) and identifys cross\-regional cell type\-specific differential signals. The ROIs can be selected using automatic algorithm or through manual selection. It facilitates manual selection of ROIs using a shiny application.
+   This package analyze spatial transcriptomics data through cross\-regional cell type\-specific analysis. It selects regions of interest \(ROIs\) and identifys cross\-regional cell type\-specific differential signals. The ROIs can be selected using automatic algorithm or through manual selection. It facilitates manual selection of ROIs using a shiny application.
 
 
 .. conda:package:: bioconductor-regionalst

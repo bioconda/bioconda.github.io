@@ -12,7 +12,7 @@ bioconductor-pathlinkr
 
    Analyze and interpret RNA\-Seq results
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/pathlinkR.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/pathlinkR.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-pathlinkr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathlinkr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathlinkr/meta.yaml>`_
 

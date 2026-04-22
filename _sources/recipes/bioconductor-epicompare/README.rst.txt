@@ -12,7 +12,7 @@ bioconductor-epicompare
 
    Comparison\, Benchmarking \& QC of Epigenomic Datasets
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/EpiCompare.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/EpiCompare.html
    :license: GPL-3
    :recipe: /`bioconductor-epicompare <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epicompare>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epicompare/meta.yaml>`_
 

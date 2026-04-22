@@ -12,7 +12,7 @@ bioconductor-raerdata
 
    A collection of datasets for use with raer package
 
-   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/raerdata.html
+   :homepage: https://bioconductor.org/packages/3.22/data/experiment/html/raerdata.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-raerdata <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-raerdata>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-raerdata/meta.yaml>`_
 

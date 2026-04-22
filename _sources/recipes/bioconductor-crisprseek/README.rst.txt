@@ -10,14 +10,14 @@ bioconductor-crisprseek
    :replaces_section_title:
    :noindex:
 
-   Design of target\-specific guide RNAs in CRISPR\-Cas9\, genome\-editing systems
+   Design of guide RNAs in CRISPR genome\-editing systems
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CRISPRseek.html
-   :license: GPL (>= 2)
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/CRISPRseek.html
+   :license: file LICENSE
    :recipe: /`bioconductor-crisprseek <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprseek>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprseek/meta.yaml>`_
    :links: biotools: :biotools:`crisprseek`
 
-   The package includes functions to find potential guide RNAs for the CRISPR editing system including Base Editors and the Prime Editor for input target sequences\, optionally filter guide RNAs without restriction enzyme cut site\, or without paired guide RNAs\, genome\-wide search for off\-targets\, score\, rank\, fetch flank sequence and indicate whether the target and off\-targets are located in exon region or not. Potential guide RNAs are annotated with total score of the top5 and topN off\-targets\, detailed topN mismatch sites\, restriction enzyme cut sites\, and paired guide RNAs. The package also output indels and their frequencies for Cas9 targeted sites.
+   The package encompasses functions to find potential guide RNAs for the CRISPR\-based genome\-editing systems including the Base Editors and the Prime Editors when supplied with target sequences as input. Users have the flexibility to filter resulting guide RNAs based on parameters such as the absence of restriction enzyme cut sites or the lack of paired guide RNAs. The package also facilitates genome\-wide exploration for off\-targets\, offering features to score and rank off\-targets\, retrieve flanking sequences\, and indicate whether the hits are located within exon regions. All detected guide RNAs are annotated with the cumulative scores of the top5 and topN off\-targets together with the detailed information such as mismatch sites and restrictuion enzyme cut sites. The package also outputs INDELs and their frequencies for Cas9 targeted sites.
 
 
 .. conda:package:: bioconductor-crisprseek

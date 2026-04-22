@@ -12,7 +12,7 @@ bioconductor-tpsvg
 
    Thin plate models to detect spatially variable genes
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/tpSVG.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/tpSVG.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-tpsvg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tpsvg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tpsvg/meta.yaml>`_
 

@@ -10,13 +10,13 @@ bioconductor-circseqaligntk
    :replaces_section_title:
    :noindex:
 
-   A toolkit for end\-to\-end analysis of RNA\-seq data for circular genomes
+   End\-to\-End Analysis of Small RNA\-Seq Data from Viroids
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CircSeqAlignTk.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/CircSeqAlignTk.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-circseqaligntk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-circseqaligntk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-circseqaligntk/meta.yaml>`_
 
-   CircSeqAlignTk is designed for end\-to\-end RNA\-Seq data analysis of circular genome sequences\, from alignment to visualization. It mainly targets viroids which are composed of 246\-401 nt circular RNAs. In addition\, CircSeqAlignTk implements a tidy interface to generate synthetic sequencing data that mimic real RNA\-Seq data\, allowing developers to evaluate the performance of alignment tools and workflows.
+   CircSeqAlignTk is a toolkit for the analysis of RNA\-Seq data derived from circular genome sequences\, with a primary focus on viroids\, circular RNAs typically consisting of a few hundred nucleotides. The toolkit supports an end\-to\-end analysis pipeline\, from alignment to visualization.
 
 
 .. conda:package:: bioconductor-circseqaligntk

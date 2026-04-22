@@ -12,7 +12,7 @@ bioconductor-spatialsimgp
 
    Simulate Spatial Transcriptomics Data with the Mean\-variance Relationship
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/spatialSimGP.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/spatialSimGP.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-spatialsimgp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialsimgp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialsimgp/meta.yaml>`_
 

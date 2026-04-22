@@ -12,11 +12,11 @@ bioconductor-spotlight
 
    \`SPOTlight\`\: Spatial Transcriptomics Deconvolution
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SPOTlight.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/SPOTlight.html
    :license: GPL-3
    :recipe: /`bioconductor-spotlight <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spotlight>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spotlight/meta.yaml>`_
 
-   \`SPOTlight\`provides a method to deconvolute spatial transcriptomics spots using a seeded NMF approach along with visualization tools to assess the results. Spatially resolved gene expression profiles are key to understand tissue organization and function. However\, novel spatial transcriptomics \(ST\) profiling techniques lack single\-cell resolution and require a combination with single\-cell RNA sequencing \(scRNA\-seq\) information to deconvolute the spatially indexed datasets. Leveraging the strengths of both data types\, we developed SPOTlight\, a computational tool that enables the integration of ST with scRNA\-seq data to infer the location of cell types and states within a complex tissue. SPOTlight is centered around a seeded non\-negative matrix factorization \(NMF\) regression\, initialized using cell\-type marker genes and non\-negative least squares \(NNLS\) to subsequently deconvolute ST capture locations \(spots\).
+   \`SPOTlight\` provides a method to deconvolute spatial transcriptomics spots using a seeded NMF approach along with visualization tools to assess the results. Spatially resolved gene expression profiles are key to understand tissue organization and function. However\, novel spatial transcriptomics \(ST\) profiling techniques lack single\-cell resolution and require a combination with single\-cell RNA sequencing \(scRNA\-seq\) information to deconvolute the spatially indexed datasets. Leveraging the strengths of both data types\, we developed SPOTlight\, a computational tool that enables the integration of ST with scRNA\-seq data to infer the location of cell types and states within a complex tissue. SPOTlight is centered around a seeded non\-negative matrix factorization \(NMF\) regression\, initialized using cell\-type marker genes and non\-negative least squares \(NNLS\) to subsequently deconvolute ST capture locations \(spots\).
 
 
 .. conda:package:: bioconductor-spotlight
@@ -37,9 +37,10 @@ bioconductor-spotlight
    :depends on bioconductor-sparsematrixstats: ``>=1.22.0,<1.23.0``
    :depends on bioconductor-sparsematrixstats: ``>=1.22.0,<1.23.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-ggplot2: 

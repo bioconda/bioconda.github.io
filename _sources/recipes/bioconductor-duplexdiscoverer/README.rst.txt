@@ -12,7 +12,7 @@ bioconductor-duplexdiscoverer
 
    Analysis of the data from RNA duplex probing experiments
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/DuplexDiscovereR.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/DuplexDiscovereR.html
    :license: GPL-3
    :recipe: /`bioconductor-duplexdiscoverer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-duplexdiscoverer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-duplexdiscoverer/meta.yaml>`_
 

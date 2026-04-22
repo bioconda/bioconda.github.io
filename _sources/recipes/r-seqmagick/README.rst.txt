@@ -10,7 +10,7 @@ r-seqmagick
    :replaces_section_title:
    :noindex:
 
-   Supports reading and writing sequences for different formats \(currently interleaved and sequential formats for \'FASTA\' and \'PHYLIP\'\)\, file conversion\, and manipulation \(e.g. filter sequences that contain specify pattern\, export consensus sequence from an alignment\).
+   Tools for reading and writing biological sequences in multiple formats\, including \'FASTA\'\, \'PHYLIP\'\, \'CLUSTAL\'\, \'STOCKHOLM\'\, \'MEGA\' and \'GenBank\'. Supports interleaved and sequential layouts where applicable\, converts between formats\, and manipulates sequence sets \(e.g.\, filtering by patterns and computing consensus sequences from alignments\). Also includes functions to download nucleotide records from NCBI by accession.
 
    :homepage: https://github.com/YuLab-SMU/seqmagick
    :license: OTHER / Artistic-2.0

@@ -12,7 +12,7 @@ bioconductor-saser
 
    Scalable Aberrant Splicing and Expression Retrieval
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/saseR.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/saseR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-saser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-saser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-saser/meta.yaml>`_
 

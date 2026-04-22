@@ -12,7 +12,7 @@ bioconductor-buscorrect
 
    Batch Effects Correction with Unknown Subtypes
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/BUScorrect.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/BUScorrect.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-buscorrect <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-buscorrect>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-buscorrect/meta.yaml>`_
    :links: biotools: :biotools:`buscorrect`
@@ -44,6 +44,7 @@ bioconductor-buscorrect
    :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
    :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``

@@ -12,7 +12,7 @@ bioconductor-micsqtl
 
    MICSQTL \(Multi\-omic deconvolution\, Integration and Cell\-type\-specific Quantitative Trait Loci\)
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MICSQTL.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/MICSQTL.html
    :license: GPL-3
    :recipe: /`bioconductor-micsqtl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-micsqtl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-micsqtl/meta.yaml>`_
 

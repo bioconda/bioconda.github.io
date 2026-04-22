@@ -12,7 +12,7 @@ bioconductor-stabmap
 
    Stabilised mosaic single cell data integration using unshared features
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/StabMap.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/StabMap.html
    :license: GPL-2
    :recipe: /`bioconductor-stabmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stabmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stabmap/meta.yaml>`_
 

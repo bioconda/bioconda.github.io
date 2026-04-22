@@ -10,13 +10,13 @@ bioconductor-sccomp
    :replaces_section_title:
    :noindex:
 
-   Robust Outlier\-aware Estimation of Composition and Heterogeneity for Single\-cell Data
+   Differential Composition and Variability Analysis for Single\-Cell Data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/sccomp.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/sccomp.html
    :license: GPL-3
    :recipe: /`bioconductor-sccomp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sccomp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sccomp/meta.yaml>`_
 
-   A robust and outlier\-aware method for testing differential tissue composition from single\-cell data. This model can infer changes in tissue composition and heterogeneity\, and can produce realistic data simulations based on any existing dataset. This model can also transfer knowledge from a large set of integrated datasets to increase accuracy further.
+   Comprehensive R package for differential composition and variability analysis in single\-cell RNA sequencing\, CyTOF\, and microbiome data. Provides robust Bayesian modeling with outlier detection\, random effects\, and advanced statistical methods for cell type proportion analysis. Features include probabilistic outlier identification\, mixed\-effect modeling\, differential variability testing\, and comprehensive visualization tools. Perfect for cancer research\, immunology\, developmental biology\, and single\-cell genomics applications.
 
 
 .. conda:package:: bioconductor-sccomp

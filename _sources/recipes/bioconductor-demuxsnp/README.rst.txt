@@ -12,7 +12,7 @@ bioconductor-demuxsnp
 
    scRNAseq demultiplexing using cell hashing and SNPs
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/demuxSNP.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/demuxSNP.html
    :license: GPL-3
    :recipe: /`bioconductor-demuxsnp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-demuxsnp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-demuxsnp/meta.yaml>`_
 

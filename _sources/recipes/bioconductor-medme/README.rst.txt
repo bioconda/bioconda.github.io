@@ -12,7 +12,7 @@ bioconductor-medme
 
    Modelling Experimental Data from MeDIP Enrichment
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MEDME.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/MEDME.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-medme <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-medme>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-medme/meta.yaml>`_
    :links: biotools: :biotools:`medme`, doi: :doi:`10.1101/gr.080721.108`
@@ -44,6 +44,7 @@ bioconductor-medme
    :depends on bioconductor-biostrings: ``>=2.78.0,<2.79.0``
    :depends on bioconductor-biostrings: ``>=2.78.0,<2.79.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``

@@ -12,7 +12,7 @@ bioconductor-triplex
 
    Search and visualize intramolecular triplex\-forming sequences in DNA
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/triplex.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/triplex.html
    :license: BSD_2_clause + file LICENSE
    :recipe: /`bioconductor-triplex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-triplex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-triplex/meta.yaml>`_
    :links: biotools: :biotools:`triplex`
@@ -52,6 +52,7 @@ bioconductor-triplex
    :depends on bioconductor-xvector: ``>=0.50.0,<0.51.0``
    :depends on bioconductor-xvector: ``>=0.50.0,<0.51.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``

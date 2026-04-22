@@ -10,13 +10,13 @@ bioconductor-despace
    :replaces_section_title:
    :noindex:
 
-   DESpace\: a framework to discover spatially variable genes
+   DESpace\: a framework to discover spatially variable genes and differential spatial patterns across conditions
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/DESpace.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/DESpace.html
    :license: GPL-3
    :recipe: /`bioconductor-despace <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-despace>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-despace/meta.yaml>`_
 
-   Intuitive framework for identifying spatially variable genes \(SVGs\) via edgeR\, a popular method for performing differential expression analyses. Based on pre\-annotated spatial clusters as summarized spatial information\, DESpace models gene expression using a negative binomial \(NB\)\, via edgeR\, with spatial clusters as covariates. SVGs are then identified by testing the significance of spatial clusters. The method is flexible and robust\, and is faster than the most SV methods. Furthermore\, to the best of our knowledge\, it is the only SV approach that allows\: \- performing a SV test on each individual spatial cluster\, hence identifying the key regions of the tissue affected by spatial variability\; \- jointly fitting multiple samples\, targeting genes with consistent spatial patterns across replicates.
+   Intuitive framework for identifying spatially variable genes \(SVGs\) and differential spatial variable pattern \(DSP\) between conditions via edgeR\, a popular method for performing differential expression analyses. Based on pre\-annotated spatial clusters as summarized spatial information\, DESpace models gene expression using a negative binomial \(NB\)\, via edgeR\, with spatial clusters as covariates. SVGs are then identified by testing the significance of spatial clusters. For multi\-sample\, multi\-condition datasets\, we again fit a NB model via edgeR\, incorporating spatial clusters\, conditions and their interactions as covariates. DSP genes\-representing differences in spatial gene expression patterns across experimental conditions\-are identified by testing the interaction between spatial clusters and conditions.
 
 
 .. conda:package:: bioconductor-despace

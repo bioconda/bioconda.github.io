@@ -12,7 +12,7 @@ bioconductor-isoformswitchanalyzer
 
    Identify\, Annotate and Visualize Isoform Switches with Functional Consequences from both short\- and long\-read RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/IsoformSwitchAnalyzeR.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/IsoformSwitchAnalyzeR.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-isoformswitchanalyzer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isoformswitchanalyzer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isoformswitchanalyzer/meta.yaml>`_
    :links: biotools: :biotools:`IsoformSwitchAnalyzeR`, doi: :doi:`10.1158/1541-7786.MCR-16-0459`
@@ -84,6 +84,7 @@ bioconductor-isoformswitchanalyzer
    :depends on bioconductor-xvector: ``>=0.50.0,<0.51.0``
    :depends on bioconductor-xvector: ``>=0.50.0,<0.51.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``

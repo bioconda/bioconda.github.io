@@ -12,7 +12,7 @@ bioconductor-pqsfinder
 
    Identification of potential quadruplex forming sequences
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/pqsfinder.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/pqsfinder.html
    :license: BSD_2_clause + file LICENSE
    :recipe: /`bioconductor-pqsfinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pqsfinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pqsfinder/meta.yaml>`_
    :links: biotools: :biotools:`pqsfinder`, doi: :doi:`10.1093/bioinformatics/btv272`
@@ -50,9 +50,10 @@ bioconductor-pqsfinder
    :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
    :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-bh: ``>=1.78.0,<1.90``

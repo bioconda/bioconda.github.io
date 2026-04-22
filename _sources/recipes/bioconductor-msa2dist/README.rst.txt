@@ -12,11 +12,11 @@ bioconductor-msa2dist
 
    MSA2dist calculates pairwise distances between all sequences of a DNAStringSet or a AAStringSet using a custom score matrix and conducts codon based analysis
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MSA2dist.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/MSA2dist.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-msa2dist <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msa2dist>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msa2dist/meta.yaml>`_
 
-   MSA2dist calculates pairwise distances between all sequences of a DNAStringSet or a AAStringSet using a custom score matrix and conducts codon based analysis. It uses scoring matrices to be used in these pairwise distance calcualtions which can be adapted to any scoring for DNA or AA characters. E.g. by using literal distances MSA2dist calculates pairwise IUPAC distances.
+   MSA2dist calculates pairwise distances between all sequences of a DNAStringSet or a AAStringSet using a custom score matrix and conducts codon based analysis. It uses scoring matrices to be used in these pairwise distance calculations which can be adapted to any scoring for DNA or AA characters. E.g. by using literal distances MSA2dist calculates pairwise IUPAC distances. DNAStringSet alignments can be analysed as codon alignments to look for synonymous and nonsynonymous substitutions \(dN\/dS\) in a parallelised fashion using a variety of substitution models. Non\-aligned coding sequences can be directly used to construct pairwise codon alignments \(global\/local\) and calculate dN\/dS without any external dependencies.
 
 
 .. conda:package:: bioconductor-msa2dist
@@ -41,9 +41,10 @@ bioconductor-msa2dist
    :depends on bioconductor-pwalign: ``>=1.6.0,<1.7.0``
    :depends on bioconductor-pwalign: ``>=1.6.0,<1.7.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on r-ape: 
    :depends on r-base: ``>=4.5,<4.6.0a0``

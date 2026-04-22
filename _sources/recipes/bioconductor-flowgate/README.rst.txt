@@ -12,7 +12,7 @@ bioconductor-flowgate
 
    Interactive Cytometry Gating in R
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/flowGate.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/flowGate.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-flowgate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowgate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowgate/meta.yaml>`_
 

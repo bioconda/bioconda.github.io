@@ -44,6 +44,7 @@ mcl
       
 
    
+   :depends on libgcc: ``>=13``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
 
    :additional platforms:

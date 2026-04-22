@@ -12,7 +12,7 @@ bioconductor-bsgenome.mfascicularis.ncbi.5.0
 
    Full genome sequences for Macaca fascicularis \(Macaca\_fascicularis\_5.0\)
 
-   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/BSgenome.Mfascicularis.NCBI.5.0.html
+   :homepage: https://bioconductor.org/packages/3.22/data/annotation/html/BSgenome.Mfascicularis.NCBI.5.0.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.mfascicularis.ncbi.5.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mfascicularis.ncbi.5.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mfascicularis.ncbi.5.0/meta.yaml>`_
 

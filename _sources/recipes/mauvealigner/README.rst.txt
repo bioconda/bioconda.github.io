@@ -10,14 +10,14 @@ mauvealigner
    :replaces_section_title:
    :noindex:
 
-   The mauveAligner and progressiveMauve command\-line tools for generating multiple genome alignments in the presence of large\-scale evolutionary events
+   Multiple genome alignment in the presence of large\-scale evolutionary events
 
    :homepage: http://darlinglab.org/mauve/
    :developer docs: https://sourceforge.net/projects/mauve/
    :license: GPL / GPL-2.0
    :recipe: /`mauvealigner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mauvealigner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mauvealigner/meta.yaml>`_
 
-   
+   MauveAligner and progressiveMauve command\-line tools for generating multiple genome alignments in the presence of large\-scale evolutionary events
 
 
 .. conda:package:: mauvealigner

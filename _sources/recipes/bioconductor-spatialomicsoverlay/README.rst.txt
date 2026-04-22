@@ -12,7 +12,7 @@ bioconductor-spatialomicsoverlay
 
    Spatial Overlay for Omic Data from Nanostring GeoMx Data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SpatialOmicsOverlay.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/SpatialOmicsOverlay.html
    :license: MIT
    :recipe: /`bioconductor-spatialomicsoverlay <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialomicsoverlay>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spatialomicsoverlay/meta.yaml>`_
 

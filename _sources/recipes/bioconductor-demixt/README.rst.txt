@@ -12,7 +12,7 @@ bioconductor-demixt
 
    Cell type\-specific deconvolution of heterogeneous tumor samples with two or three components using expression data from RNAseq or microarray platforms
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/DeMixT.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/DeMixT.html
    :license: GPL-3
    :recipe: /`bioconductor-demixt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-demixt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-demixt/meta.yaml>`_
    :links: biotools: :biotools:`DeMixT`
@@ -48,9 +48,10 @@ bioconductor-demixt
    :depends on bioconductor-sva: ``>=3.58.0,<3.59.0``
    :depends on bioconductor-sva: ``>=3.58.0,<3.59.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-base64enc: 

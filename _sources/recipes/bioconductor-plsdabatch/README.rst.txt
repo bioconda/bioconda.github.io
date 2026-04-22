@@ -12,7 +12,7 @@ bioconductor-plsdabatch
 
    PLSDA\-batch
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/PLSDAbatch.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/PLSDAbatch.html
    :license: GPL-3
    :recipe: /`bioconductor-plsdabatch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plsdabatch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plsdabatch/meta.yaml>`_
 

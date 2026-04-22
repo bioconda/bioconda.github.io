@@ -12,7 +12,7 @@ bioconductor-plyxp
 
    Data masks for SummarizedExperiment enabling dplyr\-like manipulation
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/plyxp.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/plyxp.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-plyxp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plyxp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plyxp/meta.yaml>`_
 

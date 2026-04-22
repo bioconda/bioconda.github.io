@@ -12,7 +12,7 @@ bioconductor-transmogr
 
    Modify a set of reference sequences using a set of variants
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/transmogR.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/transmogR.html
    :license: GPL-3
    :recipe: /`bioconductor-transmogr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-transmogr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-transmogr/meta.yaml>`_
 
@@ -51,6 +51,7 @@ bioconductor-transmogr
    :depends on bioconductor-variantannotation: ``>=1.56.0,<1.57.0``
    :depends on bioconductor-variantannotation: ``>=1.56.0,<1.57.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``

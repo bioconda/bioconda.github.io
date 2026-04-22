@@ -12,7 +12,7 @@ bioconductor-iseede
 
    iSEE extension for panels related to differential expression analysis
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/iSEEde.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/iSEEde.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-iseede <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseede>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseede/meta.yaml>`_
 

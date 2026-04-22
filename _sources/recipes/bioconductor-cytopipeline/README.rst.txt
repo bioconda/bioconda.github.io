@@ -12,7 +12,7 @@ bioconductor-cytopipeline
 
    Automation and visualization of flow cytometry data analysis pipelines
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CytoPipeline.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/CytoPipeline.html
    :license: GPL-3
    :recipe: /`bioconductor-cytopipeline <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytopipeline>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytopipeline/meta.yaml>`_
 

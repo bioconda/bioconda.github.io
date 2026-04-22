@@ -12,7 +12,7 @@ bioconductor-scdiagnostics
 
    Cell type annotation diagnostics
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/scDiagnostics.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/scDiagnostics.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-scdiagnostics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scdiagnostics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scdiagnostics/meta.yaml>`_
 

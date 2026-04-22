@@ -12,7 +12,7 @@ bioconductor-prone
 
    The PROteomics Normalization Evaluator
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/PRONE.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/PRONE.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-prone <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prone>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prone/meta.yaml>`_
 

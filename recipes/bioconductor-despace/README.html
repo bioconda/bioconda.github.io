@@ -67,10 +67,10 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">bioconductor-despace</span></span></dt>
-<dd><p>DESpace: a framework to discover spatially variable genes</p>
+<dd><p>DESpace: a framework to discover spatially variable genes and differential spatial patterns across conditions</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.20/bioc/html/DESpace.html">https://bioconductor.org/packages/3.20/bioc/html/DESpace.html</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://bioconductor.org/packages/3.22/bioc/html/DESpace.html">https://bioconductor.org/packages/3.22/bioc/html/DESpace.html</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
 <dd class="field-even"><p>GPL-3</p>
@@ -79,7 +79,7 @@
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-despace">bioconductor-despace</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-despace/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>Intuitive framework for identifying spatially variable genes (SVGs) via edgeR, a popular method for performing differential expression analyses. Based on pre-annotated spatial clusters as summarized spatial information, DESpace models gene expression using a negative binomial (NB), via edgeR, with spatial clusters as covariates. SVGs are then identified by testing the significance of spatial clusters. The method is flexible and robust, and is faster than the most SV methods. Furthermore, to the best of our knowledge, it is the only SV approach that allows: - performing a SV test on each individual spatial cluster, hence identifying the key regions of the tissue affected by spatial variability; - jointly fitting multiple samples, targeting genes with consistent spatial patterns across replicates.</p>
+<p>Intuitive framework for identifying spatially variable genes (SVGs) and differential spatial variable pattern (DSP) between conditions via edgeR, a popular method for performing differential expression analyses. Based on pre-annotated spatial clusters as summarized spatial information, DESpace models gene expression using a negative binomial (NB), via edgeR, with spatial clusters as covariates. SVGs are then identified by testing the significance of spatial clusters. For multi-sample, multi-condition datasets, we again fit a NB model via edgeR, incorporating spatial clusters, conditions and their interactions as covariates. DSP genes-representing differences in spatial gene expression patterns across experimental conditions-are identified by testing the interaction between spatial clusters and conditions.</p>
 </dd></dl>
 
 <dl class="conda package">

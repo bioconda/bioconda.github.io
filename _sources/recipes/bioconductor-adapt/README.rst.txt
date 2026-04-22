@@ -12,7 +12,7 @@ bioconductor-adapt
 
    Analysis of Microbiome Differential Abundance by Pooling Tobit Models
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ADAPT.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/ADAPT.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-adapt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adapt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adapt/meta.yaml>`_
 

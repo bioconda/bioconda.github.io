@@ -12,7 +12,7 @@ bioconductor-multirnaflow
 
    An R package for integrated analysis of temporal RNA\-seq data with multiple biological conditions
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MultiRNAflow.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/MultiRNAflow.html
    :license: GPL-3 | file LICENSE
    :recipe: /`bioconductor-multirnaflow <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multirnaflow>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multirnaflow/meta.yaml>`_
 

@@ -10,18 +10,13 @@ metaamrplus
    :replaces_section_title:
    :noindex:
 
-   MetaAMRplus\: unified detection of antimicrobial and metal resistance genes with colocalisation analysis
+   MetaAMRplus\: AMR \+ metal resistance \+ colocalisation analysis
 
    :homepage: https://github.com/migshaw03/MetaAMRplus
    :license: MIT
    :recipe: /`metaamrplus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaamrplus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaamrplus/meta.yaml>`_
 
-   MetaAMRplus is a command\-line platform for the simultaneous identification
-   of antimicrobial resistance genes\, metal and biocide resistance genes\,
-   and their genomic colocalisation in bacterial genomes and plasmids.
-   The tool integrates AMRFinder and BacMet databases and is designed for
-   reproducible large\-scale genomic analyses.
-
+   MetaAMRplus is a command\-line tool for detecting antimicrobial resistance genes\, metal\/biocide resistance genes\, and their genomic colocalisation.
 
 
 .. conda:package:: metaamrplus
@@ -32,18 +27,16 @@ metaamrplus
       
       
 
-      ``1.5.1-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4-0``
+      ``1.5.1-1``,  ``1.5.1-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4-0``
 
       
 
    
-   :depends on awk: 
-   :depends on blast: 
-   :depends on ncbi-amrfinderplus: 
-   :depends on pandas: 
+   :depends on blast: ``>=2.14``
+   :depends on coreutils: 
+   :depends on gawk: 
    :depends on prodigal: 
-   :depends on python: ``>=3.8``
-   :depends on wget: 
+   :depends on python: ``>=3.14,<3.15.0a0``
 
    :additional platforms:
       
@@ -117,7 +110,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "metaamrplus";
-        var versions = ["1.5.1","1.4.1","1.4.1","1.4"];
+        var versions = ["1.5.1","1.5.1","1.4.1","1.4.1","1.4"];
     </script>
 
 

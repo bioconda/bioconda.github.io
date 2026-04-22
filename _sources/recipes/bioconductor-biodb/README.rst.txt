@@ -10,9 +10,9 @@ bioconductor-biodb
    :replaces_section_title:
    :noindex:
 
-   biodb\, a library and a development framework for connecting to chemical and biological databases
+   Biodb\, a Library and a Development Framework for Connecting to Chemical and Biological Databases
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/biodb.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/biodb.html
    :license: AGPL-3
    :recipe: /`bioconductor-biodb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biodb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biodb/meta.yaml>`_
 
@@ -41,9 +41,10 @@ bioconductor-biodb
 
    
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-chk: 

@@ -12,7 +12,7 @@ bioconductor-dnacopy
 
    DNA Copy Number Data Analysis
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/DNAcopy.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/DNAcopy.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-dnacopy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnacopy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnacopy/meta.yaml>`_
    :links: biotools: :biotools:`dnacopy`, doi: :doi:`10.1038/nmeth.3252`
@@ -42,6 +42,7 @@ bioconductor-dnacopy
 
    
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on libgfortran: 
    :depends on libgfortran5: ``>=14.3.0``
    :depends on liblapack: ``>=3.9.0,<4.0a0``

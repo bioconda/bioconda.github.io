@@ -12,7 +12,7 @@ bioconductor-hicvenndiagram
 
    Venn Diagram for genomic interaction data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/hicVennDiagram.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/hicVennDiagram.html
    :license: GPL-3
    :recipe: /`bioconductor-hicvenndiagram <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicvenndiagram>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicvenndiagram/meta.yaml>`_
 

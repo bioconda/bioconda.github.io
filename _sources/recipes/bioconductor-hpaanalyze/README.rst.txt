@@ -12,11 +12,11 @@ bioconductor-hpaanalyze
 
    Retrieve and analyze data from the Human Protein Atlas
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/HPAanalyze.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/HPAanalyze.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-hpaanalyze <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hpaanalyze>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hpaanalyze/meta.yaml>`_
 
-   Provide functions for retrieving\, exploratory analyzing and visualizing the Human Protein Atlas data.
+   Provide functions for retrieving\, exploratory analyzing and visualizing the Human Protein Atlas data. HPAanalyze is designed to fullfill 3 main tasks\: \(1\) Import\, subsetting and export downloadable datasets\; \(2\) Visualization of downloadable datasets for exploratory analysis\; and \(3\) Working with the individual XML files. This package aims to serve researchers with little programming experience\, but also allow power users to use the imported data as desired.
 
 
 .. conda:package:: bioconductor-hpaanalyze

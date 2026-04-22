@@ -12,7 +12,7 @@ bioconductor-gaga
 
    GaGa hierarchical model for high\-throughput data analysis
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/gaga.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/gaga.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-gaga <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gaga>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gaga/meta.yaml>`_
    :links: biotools: :biotools:`gaga`, doi: :doi:`10.1214/09-aoas244`
@@ -46,6 +46,7 @@ bioconductor-gaga
    :depends on bioconductor-ebarrays: ``>=2.74.0,<2.75.0``
    :depends on bioconductor-ebarrays: ``>=2.74.0,<2.75.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``

@@ -12,7 +12,7 @@ bioconductor-mosdef
 
    MOSt frequently used and useful Differential Expression Functions
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/mosdef.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/mosdef.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-mosdef <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mosdef>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mosdef/meta.yaml>`_
 

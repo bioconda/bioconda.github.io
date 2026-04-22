@@ -12,7 +12,7 @@ bioconductor-hicontacts
 
    Analysing cool files in R with HiContacts
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/HiContacts.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/HiContacts.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-hicontacts <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicontacts>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicontacts/meta.yaml>`_
 

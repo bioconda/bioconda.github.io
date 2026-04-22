@@ -12,7 +12,7 @@ bioconductor-banksy
 
    Spatial transcriptomic clustering
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Banksy.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/Banksy.html
    :license: file LICENSE
    :recipe: /`bioconductor-banksy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-banksy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-banksy/meta.yaml>`_
 

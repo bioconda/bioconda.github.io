@@ -12,7 +12,7 @@ bioconductor-enrichdo
 
    a Global Weighted Model for Disease Ontology Enrichment Analysis
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/EnrichDO.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/EnrichDO.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-enrichdo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enrichdo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enrichdo/meta.yaml>`_
 

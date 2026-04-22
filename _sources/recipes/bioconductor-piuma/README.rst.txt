@@ -12,7 +12,7 @@ bioconductor-piuma
 
    Phenotypes Identification Using Mapper from topological data Analysis
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/PIUMA.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/PIUMA.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-piuma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-piuma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-piuma/meta.yaml>`_
 

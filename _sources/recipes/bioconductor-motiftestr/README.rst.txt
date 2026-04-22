@@ -12,7 +12,7 @@ bioconductor-motiftestr
 
    Perform key tests for binding motifs in sequence data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/motifTestR.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/motifTestR.html
    :license: GPL-3
    :recipe: /`bioconductor-motiftestr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motiftestr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motiftestr/meta.yaml>`_
 

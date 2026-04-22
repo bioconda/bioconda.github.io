@@ -12,7 +12,7 @@ bioconductor-mspurity
 
    Automated Evaluation of Precursor Ion Purity for Mass Spectrometry Based Fragmentation in Metabolomics
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/msPurity.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/msPurity.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-mspurity <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mspurity>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mspurity/meta.yaml>`_
    :links: biotools: :biotools:`mspurity`, doi: :doi:`10.1021/acs.analchem.6b04358`
@@ -44,9 +44,10 @@ bioconductor-mspurity
    :depends on bioconductor-mzr: ``>=2.44.0,<2.45.0``
    :depends on bioconductor-mzr: ``>=2.44.0,<2.45.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-dbi: 

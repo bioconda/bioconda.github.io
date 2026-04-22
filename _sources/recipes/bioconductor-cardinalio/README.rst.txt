@@ -12,7 +12,7 @@ bioconductor-cardinalio
 
    Read and write mass spectrometry imaging files
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CardinalIO.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/CardinalIO.html
    :license: Artistic-2.0 | file LICENSE
    :recipe: /`bioconductor-cardinalio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cardinalio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cardinalio/meta.yaml>`_
 
@@ -39,9 +39,10 @@ bioconductor-cardinalio
    :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
    :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-ontologyindex: 

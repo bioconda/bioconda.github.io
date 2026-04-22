@@ -12,7 +12,7 @@ bioconductor-pgxrpi
 
    R wrapper for Progenetix
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/pgxRpi.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/pgxRpi.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-pgxrpi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pgxrpi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pgxrpi/meta.yaml>`_
 

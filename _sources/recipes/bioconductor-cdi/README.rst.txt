@@ -12,7 +12,7 @@ bioconductor-cdi
 
    Clustering Deviation Index \(CDI\)
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/CDI.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/CDI.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-cdi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cdi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cdi/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-ncdfflow
 
    ncdfFlow\: A package that provides HDF5 based storage for flow cytometry data.
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ncdfFlow.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/ncdfFlow.html
    :license: AGPL-3.0-only
    :recipe: /`bioconductor-ncdfflow <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ncdfflow>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ncdfflow/meta.yaml>`_
    :links: biotools: :biotools:`ncdfflow`, doi: :doi:`10.1016/j.copbio.2012.09.003`
@@ -50,9 +50,10 @@ bioconductor-ncdfflow
    :depends on bioconductor-rhdf5lib: ``>=1.32.0,<1.33.0``
    :depends on bioconductor-rhdf5lib: ``>=1.32.0,<1.33.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-bh: 

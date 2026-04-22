@@ -12,7 +12,7 @@ bioconductor-massspecwavelet
 
    Peak Detection for Mass Spectrometry data using wavelet\-based algorithms
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/MassSpecWavelet.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/MassSpecWavelet.html
    :license: LGPL (>= 2)
    :recipe: /`bioconductor-massspecwavelet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-massspecwavelet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-massspecwavelet/meta.yaml>`_
    :links: biotools: :biotools:`massspecwavelet`
@@ -42,6 +42,7 @@ bioconductor-massspecwavelet
 
    
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``

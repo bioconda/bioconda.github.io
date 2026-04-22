@@ -12,7 +12,7 @@ bioconductor-batchqc
 
    Batch Effects Quality Control Software
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/BatchQC.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/BatchQC.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-batchqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-batchqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-batchqc/meta.yaml>`_
    :links: biotools: :biotools:`batchqc`

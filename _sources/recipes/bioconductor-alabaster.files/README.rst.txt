@@ -12,7 +12,7 @@ bioconductor-alabaster.files
 
    Wrappers to Save Common File Formats
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/alabaster.files.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/alabaster.files.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-alabaster.files <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.files>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alabaster.files/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-nupop
 
    An R package for nucleosome positioning prediction
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/NuPoP.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/NuPoP.html
    :license: GPL-2
    :recipe: /`bioconductor-nupop <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nupop>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nupop/meta.yaml>`_
 
@@ -41,6 +41,7 @@ bioconductor-nupop
 
    
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on libgfortran: 
    :depends on libgfortran5: ``>=14.3.0``
    :depends on liblapack: ``>=3.9.0,<4.0a0``

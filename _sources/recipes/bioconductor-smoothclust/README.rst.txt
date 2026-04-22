@@ -12,11 +12,11 @@ bioconductor-smoothclust
 
    smoothclust
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/smoothclust.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/smoothclust.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-smoothclust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-smoothclust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-smoothclust/meta.yaml>`_
 
-   Method for segmentation of spatial domains and spatially\-aware clustering in spatial transcriptomics data. The method generates spatial domains with smooth boundaries by smoothing gene expression profiles across neighboring spatial locations\, followed by unsupervised clustering. Spatial domains consisting of consistent mixtures of cell types may then be further investigated by applying cell type compositional analyses or differential analyses.
+   Method for identification of spatial domains and spatially\-aware clustering in spatial transcriptomics data. The method generates spatial domains with smooth boundaries by smoothing gene expression profiles across neighboring spatial locations\, followed by unsupervised clustering. Spatial domains consisting of consistent mixtures of cell types may then be further investigated by applying cell type compositional analyses or differential analyses.
 
 
 .. conda:package:: bioconductor-smoothclust

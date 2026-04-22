@@ -27,11 +27,13 @@ octopusv
       
       
 
-      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
+   :depends on bcftools: 
+   :depends on htslib: 
    :depends on jinja2: ``>=3.1.5``
    :depends on loguru: ``>=0.7.2``
    :depends on matplotlib-base: ``>=3.9.2``
@@ -114,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "octopusv";
-        var versions = ["0.3.1","0.3.0","0.2.4","0.2.3","0.2.2"];
+        var versions = ["0.3.2","0.3.1","0.3.0","0.2.4","0.2.3"];
     </script>
 
 

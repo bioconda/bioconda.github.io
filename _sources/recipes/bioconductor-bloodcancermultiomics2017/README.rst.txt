@@ -10,13 +10,13 @@ bioconductor-bloodcancermultiomics2017
    :replaces_section_title:
    :noindex:
 
-   \"Drug\-perturbation\-based stratification of blood cancer\" by Dietrich S\, Oles M\, Lu J et al. \- experimental data and complete analysis
+   \"Drug\-perturbation\-based stratification of blood cancer\" by Dietrich S\, Oleś M\, Lu J et al. \- experimental data and complete analysis
 
-   :homepage: https://bioconductor.org/packages/3.20/data/experiment/html/BloodCancerMultiOmics2017.html
+   :homepage: https://bioconductor.org/packages/3.22/data/experiment/html/BloodCancerMultiOmics2017.html
    :license: LGPL (>= 3)
    :recipe: /`bioconductor-bloodcancermultiomics2017 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bloodcancermultiomics2017>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bloodcancermultiomics2017/meta.yaml>`_
 
-   The package contains data of the Primary Blood Cancer Encyclopedia \(PACE\) project together with a complete executable transcript of the statistical analysis and reproduces figures presented in the paper \"Drug\-perturbation\-based stratification of blood cancer\" by Dietrich S\, Oles M\, Lu J et al.\, J. Clin. Invest. \(2018\) 128\(1\)\:427\-445. doi\:10.1172\/JCI93801.
+   The package contains data of the Primary Blood Cancer Encyclopedia \(PACE\) project together with a complete executable transcript of the statistical analysis and reproduces figures presented in the paper \"Drug\-perturbation\-based stratification of blood cancer\" by Dietrich S\, Oleś M\, Lu J et al.\, J. Clin. Invest. \(2018\) 128\(1\)\:427\-445. doi\:10.1172\/JCI93801.
 
 
 .. conda:package:: bioconductor-bloodcancermultiomics2017

@@ -12,7 +12,7 @@ bioconductor-squallms
 
    Speedy quality assurance via lasso labeling for LC\-MS data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/squallms.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/squallms.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-squallms <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-squallms>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-squallms/meta.yaml>`_
 

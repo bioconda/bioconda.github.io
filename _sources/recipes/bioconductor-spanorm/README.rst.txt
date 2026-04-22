@@ -12,7 +12,7 @@ bioconductor-spanorm
 
    Spatially\-aware normalisation for spatial transcriptomics data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/SpaNorm.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/SpaNorm.html
    :license: GPL (>= 3)
    :recipe: /`bioconductor-spanorm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spanorm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spanorm/meta.yaml>`_
 

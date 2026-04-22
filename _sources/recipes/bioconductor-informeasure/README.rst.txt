@@ -12,7 +12,7 @@ bioconductor-informeasure
 
    R implementation of information measures
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Informeasure.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/Informeasure.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-informeasure <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-informeasure>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-informeasure/meta.yaml>`_
 

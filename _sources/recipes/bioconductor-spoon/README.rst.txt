@@ -12,7 +12,7 @@ bioconductor-spoon
 
    Address the Mean\-variance Relationship in Spatial Transcriptomics Data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/spoon.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/spoon.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-spoon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spoon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spoon/meta.yaml>`_
 

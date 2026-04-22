@@ -12,7 +12,7 @@ bioconductor-graphalignment
 
    GraphAlignment
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/GraphAlignment.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/GraphAlignment.html
    :license: file LICENSE
    :recipe: /`bioconductor-graphalignment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-graphalignment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-graphalignment/meta.yaml>`_
 
@@ -41,6 +41,7 @@ bioconductor-graphalignment
 
    
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``

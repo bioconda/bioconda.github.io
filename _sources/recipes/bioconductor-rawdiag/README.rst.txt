@@ -12,7 +12,7 @@ bioconductor-rawdiag
 
    Brings Orbitrap Mass Spectrometry Data to Life\; Fast and Colorful
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/rawDiag.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/rawDiag.html
    :license: GPL-3
    :recipe: /`bioconductor-rawdiag <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rawdiag>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rawdiag/meta.yaml>`_
 

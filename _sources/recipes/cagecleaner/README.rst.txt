@@ -10,7 +10,7 @@ cagecleaner
    :replaces_section_title:
    :noindex:
 
-   Genomic redundancy removal tool for cblaster hit sets.
+   Redundancy removal for gene cluster mining hit sets
 
    :homepage: https://github.com/LucoDevro/CAGEcleaner
    :documentation: https://github.com/LucoDevro/CAGEcleaner/wiki
@@ -31,10 +31,10 @@ cagecleaner
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.5-0</code>,  <code>1.4.4-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.0-0</code>,  <code>1.4.5-0</code>,  <code>1.4.4-0</code>,  <code>1.4.3-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  </span></summary>
       
 
-      ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``
+      ``1.5.0-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``
 
       
       .. raw:: html
@@ -43,12 +43,13 @@ cagecleaner
       
 
    
-   :depends on any2fasta: 
+   :depends on any2fasta: ``>=0.8.1``
    :depends on biopython: 
    :depends on cblaster: ``>=1.3.20``
-   :depends on entrez-direct: 
+   :depends on mmseqs2: 
    :depends on ncbi-datasets-cli: 
-   :depends on pandas: 
+   :depends on networkx: 
+   :depends on pandas: ``<3.0.0``
    :depends on python: ``>=3.12``
    :depends on scipy: ``<=1.14.1``
    :depends on skder: ``>=1.3.4``
@@ -125,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "cagecleaner";
-        var versions = ["1.4.5","1.4.4","1.4.3","1.4.2","1.4.1"];
+        var versions = ["1.5.0","1.4.5","1.4.4","1.4.3","1.4.2"];
     </script>
 
 

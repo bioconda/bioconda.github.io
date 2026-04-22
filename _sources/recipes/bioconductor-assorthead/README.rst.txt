@@ -12,7 +12,7 @@ bioconductor-assorthead
 
    Assorted Header\-Only C\+\+ Libraries
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/assorthead.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/assorthead.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-assorthead <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-assorthead>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-assorthead/meta.yaml>`_
 

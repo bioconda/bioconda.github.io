@@ -12,7 +12,7 @@ bioconductor-enrichviewnet
 
    From functional enrichment results to biological networks
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/enrichViewNet.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/enrichViewNet.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-enrichviewnet <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enrichviewnet>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enrichviewnet/meta.yaml>`_
 

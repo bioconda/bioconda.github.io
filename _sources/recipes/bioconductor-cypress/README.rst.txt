@@ -12,7 +12,7 @@ bioconductor-cypress
 
    Cell\-Type\-Specific Power Assessment
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/cypress.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/cypress.html
    :license: GPL-2 | GPL-3
    :recipe: /`bioconductor-cypress <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cypress>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cypress/meta.yaml>`_
 

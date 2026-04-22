@@ -12,7 +12,7 @@ bioconductor-illuminahumanmethylationepicv2manifest
 
    Manifest for Illumina\'s EPIC v2.0 methylation arrays
 
-   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/IlluminaHumanMethylationEPICv2manifest.html
+   :homepage: https://bioconductor.org/packages/3.22/data/annotation/html/IlluminaHumanMethylationEPICv2manifest.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-illuminahumanmethylationepicv2manifest <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanmethylationepicv2manifest>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanmethylationepicv2manifest/meta.yaml>`_
 

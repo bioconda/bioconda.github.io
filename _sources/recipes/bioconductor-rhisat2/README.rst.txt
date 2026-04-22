@@ -10,10 +10,10 @@ bioconductor-rhisat2
    :replaces_section_title:
    :noindex:
 
-   R Wrapper for HISAT2 Aligner.
+   R Wrapper for HISAT2 Aligner
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Rhisat2.html
-   :license: GPL3 / GPL-3.0-or-later
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/Rhisat2.html
+   :license: GPL-3
    :recipe: /`bioconductor-rhisat2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhisat2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhisat2/meta.yaml>`_
 
    An R interface to the HISAT2 spliced short\-read aligner by Kim et al. \(2015\). The package contains wrapper functions to create a genome index and to perform the read alignment to the generated index.

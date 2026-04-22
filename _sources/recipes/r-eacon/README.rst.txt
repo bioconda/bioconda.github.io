@@ -10,13 +10,14 @@ r-eacon
    :replaces_section_title:
    :noindex:
 
-   Easy Copy Number. EaCoN aims to be an all\-packed in\, user\-friendly solution to perform relative or absolute copy\-number analysis for multiple sources of data\, with three different segmenters available \(and corresponding three copy\-number modelization methods\)
+   Easy to use copy number analysis for multiple data sources
 
    :homepage: https://github.com/gustaveroussy/EaCoN
    :license: MIT
    :recipe: /`r-eacon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-eacon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-eacon/meta.yaml>`_
 
-   
+   Easy Copy Number. EaCoN aims to be an all\-packed in\, user\-friendly solution to perform relative or absolute copy\-number analysis for multiple sources of data\, with three different segmenters available \(and corresponding three copy\-number modelization methods\)
+
 
 
 .. conda:package:: r-eacon

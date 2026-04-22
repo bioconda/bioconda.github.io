@@ -12,11 +12,11 @@ bioconductor-reactomegsa
 
    Client for the Reactome Analysis Service for comparative multi\-omics gene set analysis
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ReactomeGSA.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/ReactomeGSA.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-reactomegsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reactomegsa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reactomegsa/meta.yaml>`_
 
-   The ReactomeGSA packages uses Reactome\'s online analysis service to perform a multi\-omics gene set analysis. The main advantage of this package is\, that the retrieved results can be visualized using REACTOME\'s powerful webapplication. Since Reactome\'s analysis service also uses R to perfrom the actual gene set analysis you will get similar results when using the same packages \(such as limma and edgeR\) locally. Therefore\, if you only require a gene set analysis\, different packages are more suited.
+   The ReactomeGSA packages uses Reactome\'s online analysis service to perform a multi\-omics gene set analysis. The main advantage of this package is\, that the retrieved results can be visualized using REACTOME\'s powerful webapplication.  Since Reactome\'s analysis service also uses R to perfrom the actual gene set analysis you will get similar results when using the same packages \(such as limma and edgeR\) locally.  Therefore\, if you only require a gene set analysis\, different packages are more suited.
 
 
 .. conda:package:: bioconductor-reactomegsa

@@ -10,13 +10,14 @@ sshash
    :replaces_section_title:
    :noindex:
 
-   SSHash is a compressed dictionary data structure for k\-mers \(strings of length k over the DNA alphabet \{A\,C\,G\,T\}\)\, based on Sparse and Skew Hashing.
+   Compressed dictionary data structure for k\-mers
 
    :homepage: https://github.com/jermp/sshash
    :license: MIT
    :recipe: /`sshash <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sshash>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sshash/meta.yaml>`_
 
-   
+   SSHash is a compressed dictionary data structure for k\-mers \(strings of length k over the DNA alphabet \{A\,C\,G\,T\}\)\, based on Sparse and Skew Hashing.
+
 
 
 .. conda:package:: sshash
@@ -27,16 +28,17 @@ sshash
       
       
 
-      ``5.1.0-0``,  ``5.0.0-0``,  ``4.0.0-0``,  ``4.0.0_test_bioconda-0``
+      ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.0.0-0``,  ``4.0.0_test_bioconda-0``
 
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on libjemalloc: ``>=5.3.0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
       
@@ -114,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "sshash";
-        var versions = ["5.1.0","5.0.0","4.0.0","4.0.0_test_bioconda"];
+        var versions = ["5.1.1","5.1.0","5.0.0","4.0.0","4.0.0_test_bioconda"];
     </script>
 
 

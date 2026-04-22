@@ -12,7 +12,7 @@ bioconductor-gnosis
 
    Genomics explorer using statistical and survival analysis in R
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/GNOSIS.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/GNOSIS.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-gnosis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gnosis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gnosis/meta.yaml>`_
 

@@ -12,7 +12,7 @@ bioconductor-dnashaper
 
    High\-throughput prediction of DNA shape features
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/DNAshapeR.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/DNAshapeR.html
    :license: GPL-2
    :recipe: /`bioconductor-dnashaper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnashaper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dnashaper/meta.yaml>`_
    :links: biotools: :biotools:`dnashaper`
@@ -46,9 +46,10 @@ bioconductor-dnashaper
    :depends on bioconductor-genomicranges: ``>=1.62.0,<1.63.0``
    :depends on bioconductor-genomicranges: ``>=1.62.1,<1.63.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-fields: 

@@ -12,11 +12,11 @@ bioconductor-hubmapr
 
    Interface to \'HuBMAP\'
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/HuBMAPR.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/HuBMAPR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-hubmapr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hubmapr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hubmapr/meta.yaml>`_
 
-   \'HuBMAP\' provides an open\, global bio\-molecular atlas of the human body at the cellular level. The \`datasets\(\)\`\, \`samples\(\)\`\, \`donors\(\)\`\, \`publications\(\)\`\, and \`collections\(\)\` functions retrieves the information for each of these entity types. \`\*\_details\(\)\` are available for individual entries of each entity type. \`\*\_derived\(\)\` are available for retrieving derived datasets or samples for individual entries of each entity type. Data files can be accessed using \`files\_globus\_url\(\)\`.
+   \'HuBMAP\' provides an open\, global bio\-molecular atlas of the human body at the cellular level. The \`datasets\(\)\`\, \`samples\(\)\`\, \`donors\(\)\`\, \`publications\(\)\`\, and \`collections\(\)\` functions retrieves the information for each of these entity types. \`\*\_details\(\)\` are available for individual entries of each entity type. \`\*\_derived\(\)\` are available for retrieving derived datasets or samples for individual entries of each entity type. Data files can be accessed using \`bulk\_data\_transfer\(\)\`.
 
 
 .. conda:package:: bioconductor-hubmapr

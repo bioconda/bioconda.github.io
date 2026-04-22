@@ -10,7 +10,8 @@ blastalign
    :replaces_section_title:
    :noindex:
 
-   BlastAlign uses NCBI Blast to align nucleotide sequences that have large indels or are otherwise difficult to align globally.
+   Uses NCBI Blast to align nucleotide sequences that have large indels or are otherwise difficult to align globally.
+
 
    :homepage: http://evolve.zoo.ox.ac.uk/Evolve/Blastalign.html
    :license: GNU GENERAL PUBLIC LICENSE

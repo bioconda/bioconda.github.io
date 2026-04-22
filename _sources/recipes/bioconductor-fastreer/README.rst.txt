@@ -12,11 +12,11 @@ bioconductor-fastreer
 
    Phylogenetic\, Distance and Other Calculations on VCF and Fasta Files
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/fastreeR.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/fastreeR.html
    :license: GPL-3
    :recipe: /`bioconductor-fastreer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fastreer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fastreer/meta.yaml>`_
 
-   Calculate distances\, build phylogenetic trees or perform hierarchical clustering between the samples of a VCF or FASTA file. Functions are implemented in Java and called via rJava. Parallel implementation that operates directly on the VCF or FASTA file for fast execution.
+   Calculate distances\, build phylogenetic trees or perform hierarchical clustering between the samples of a VCF or FASTA file. Functions are implemented in Java\-11 and called via rJava. Parallel implementation that operates directly on the VCF or FASTA file for fast execution.
 
 
 .. conda:package:: bioconductor-fastreer

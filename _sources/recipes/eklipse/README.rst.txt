@@ -27,13 +27,13 @@ eklipse
       
       
 
-      ``1.8-4``,  ``1.8-3``,  ``1.8-2``,  ``1.8-1``,  ``1.8-0``
+      ``1.8-5``,  ``1.8-4``,  ``1.8-3``,  ``1.8-2``,  ``1.8-1``,  ``1.8-0``
 
       
 
    
    :depends on biopython: 
-   :depends on blast: ``2.15.0.*``
+   :depends on blast: ``>=2.3.0``
    :depends on circos: 
    :depends on python: 
    :depends on samtools: 

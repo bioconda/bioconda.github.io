@@ -12,7 +12,7 @@ bioconductor-clusterfoldsimilarity
 
    Calculate similarity of clusters from different single cell samples using foldchanges
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ClusterFoldSimilarity.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/ClusterFoldSimilarity.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-clusterfoldsimilarity <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clusterfoldsimilarity>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clusterfoldsimilarity/meta.yaml>`_
 

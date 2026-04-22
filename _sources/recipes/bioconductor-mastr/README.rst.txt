@@ -12,7 +12,7 @@ bioconductor-mastr
 
    Markers Automated Screening Tool in R
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/mastR.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/mastR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-mastr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mastr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mastr/meta.yaml>`_
 

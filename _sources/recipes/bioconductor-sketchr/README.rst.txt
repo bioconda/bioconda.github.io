@@ -12,7 +12,7 @@ bioconductor-sketchr
 
    An R interface for python subsampling\/sketching algorithms
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/sketchR.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/sketchR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-sketchr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sketchr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sketchr/meta.yaml>`_
 

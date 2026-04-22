@@ -10,13 +10,13 @@ bioconductor-basilisk.utils
    :replaces_section_title:
    :noindex:
 
-   Basilisk Installation Utilities
+   Centralized Conda Installation for Bioconductor Packages
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/basilisk.utils.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/basilisk.utils.html
    :license: GPL-3
    :recipe: /`bioconductor-basilisk.utils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basilisk.utils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basilisk.utils/meta.yaml>`_
 
-   Implements utilities for installation of the basilisk package\, primarily for creation of the underlying Conda instance. This allows us to avoid re\-writing the same R code in both the configure script \(for centrally administered R installations\) and in the lazy installation mechanism \(for distributed package binaries\). It is highly unlikely that developers \- or\, heaven forbid\, end\-users\! \- will need to interact with this package directly\; they should be using the basilisk package instead.
+   Provides a centralized conda installation for use by other Bioconductor packages. If conda is not already available on the system\, it is downloaded and installed from the Miniforge project\; otherwise\, no action is performed. Historically\, this package was used to provide a Python installation for basilisk\, hence the name.
 
 
 .. conda:package:: bioconductor-basilisk.utils

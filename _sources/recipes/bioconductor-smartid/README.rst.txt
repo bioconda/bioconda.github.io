@@ -12,7 +12,7 @@ bioconductor-smartid
 
    Scoring and Marker Selection Method Based on Modified TF\-IDF
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/smartid.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/smartid.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-smartid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-smartid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-smartid/meta.yaml>`_
 

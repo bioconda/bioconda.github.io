@@ -12,8 +12,8 @@ bioconductor-mariner
 
    Mariner\: Explore the Hi\-Cs
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/mariner.html
-   :license: GPL-3
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/mariner.html
+   :license: MIT + file LICENSE
    :recipe: /`bioconductor-mariner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mariner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mariner/meta.yaml>`_
 
    Tools for manipulating paired ranges and working with Hi\-C data in R. Functionality includes manipulating\/merging paired regions\, generating paired ranges\, extracting\/aggregating interactions from \`.hic\` files\, and visualizing the results. Designed for compatibility with plotgardener for visualization.

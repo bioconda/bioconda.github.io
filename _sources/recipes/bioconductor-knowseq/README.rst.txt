@@ -10,10 +10,10 @@ bioconductor-knowseq
    :replaces_section_title:
    :noindex:
 
-   KnowSeq R\/Bioc package\: The Smart Transcriptomic Pipeline
+   KnowSeq R\/Bioc package \- The Smart Transcriptomic Pipeline
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/KnowSeq.html
-   :license: GPL (>=2)
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/KnowSeq.html
+   :license: GPL-2.0-or-later
    :recipe: /`bioconductor-knowseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-knowseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-knowseq/meta.yaml>`_
 
    KnowSeq proposes a novel methodology that comprises the most relevant steps in the Transcriptomic gene expression analysis. KnowSeq expects to serve as an integrative tool that allows to process and extract relevant biomarkers\, as well as to assess them through a Machine Learning approaches. Finally\, the last objective of KnowSeq is the biological knowledge extraction from the biomarkers \(Gene Ontology enrichment\, Pathway listing and Visualization and Evidences related to the addressed disease\). Although the package allows analyzing all the data manually\, the main strenght of KnowSeq is the possibilty of carrying out an automatic and intelligent HTML report that collect all the involved steps in one document. It is important to highligh that the pipeline is totally modular and flexible\, hence it can be started from whichever of the different steps. KnowSeq expects to serve as a novel tool to help to the experts in the field to acquire robust knowledge and conclusions for the data and diseases to study.

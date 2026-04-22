@@ -12,7 +12,7 @@ bioconductor-ngsreports
 
    Load FastqQC reports and other NGS related files
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ngsReports.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/ngsReports.html
    :license: LGPL-3
    :recipe: /`bioconductor-ngsreports <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ngsreports>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ngsreports/meta.yaml>`_
 

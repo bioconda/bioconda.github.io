@@ -12,7 +12,7 @@ bioconductor-cellxgenedp
 
    Discover and Access Single Cell Data Sets in the CELLxGENE Data Portal
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/cellxgenedp.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/cellxgenedp.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-cellxgenedp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellxgenedp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellxgenedp/meta.yaml>`_
 

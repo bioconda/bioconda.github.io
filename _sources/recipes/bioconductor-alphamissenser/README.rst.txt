@@ -12,7 +12,7 @@ bioconductor-alphamissenser
 
    Accessing AlphaMissense Data Resources in R
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/AlphaMissenseR.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/AlphaMissenseR.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-alphamissenser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alphamissenser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alphamissenser/meta.yaml>`_
 

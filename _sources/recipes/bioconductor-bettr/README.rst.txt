@@ -12,7 +12,7 @@ bioconductor-bettr
 
    A Better Way To Explore What Is Best
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/bettr.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/bettr.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-bettr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bettr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bettr/meta.yaml>`_
 

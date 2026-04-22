@@ -12,7 +12,7 @@ bioconductor-rhinotyper
 
    Rhinovirus genotyping
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/rhinotypeR.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/rhinotypeR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-rhinotyper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhinotyper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhinotyper/meta.yaml>`_
 

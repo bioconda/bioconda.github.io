@@ -10,9 +10,9 @@ bioconductor-raids
    :replaces_section_title:
    :noindex:
 
-   Accurate Inference of Genetic Ancestry from Cancer Sequences
+   Robust Ancestry Inference using Data Synthesis
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/RAIDS.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/RAIDS.html
    :license: Apache License (>= 2)
    :recipe: /`bioconductor-raids <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-raids>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-raids/meta.yaml>`_
 

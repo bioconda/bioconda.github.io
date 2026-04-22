@@ -12,7 +12,7 @@ bioconductor-chipseq
 
    chipseq\: A package for analyzing chipseq data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/chipseq.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/chipseq.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-chipseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipseq/meta.yaml>`_
    :links: biotools: :biotools:`chipseq`, doi: :doi:`10.1038/nmeth.3252`
@@ -52,6 +52,7 @@ bioconductor-chipseq
    :depends on bioconductor-shortread: ``>=1.68.0,<1.69.0``
    :depends on bioconductor-shortread: ``>=1.68.0,<1.69.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``

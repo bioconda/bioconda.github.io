@@ -12,7 +12,7 @@ bioconductor-multistateqtl
 
    Toolkit for the analysis of multi\-state QTL data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/multistateQTL.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/multistateQTL.html
    :license: GPL-3
    :recipe: /`bioconductor-multistateqtl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multistateqtl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multistateqtl/meta.yaml>`_
 

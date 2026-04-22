@@ -12,7 +12,7 @@ bioconductor-rots
 
    Reproducibility\-Optimized Test Statistic
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ROTS.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/ROTS.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-rots <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rots>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rots/meta.yaml>`_
    :links: biotools: :biotools:`rots`, doi: :doi:`10.1109/tcbb.2007.1078`
@@ -46,9 +46,10 @@ bioconductor-rots
    :depends on bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
    :depends on bioconductor-biocparallel: ``>=1.44.0,<1.45.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-lme4: 

@@ -12,7 +12,7 @@ bioconductor-gdnax
 
    Diagnostics for assessing genomic DNA contamination in RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/gDNAx.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/gDNAx.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-gdnax <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdnax>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdnax/meta.yaml>`_
 

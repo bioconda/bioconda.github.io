@@ -12,7 +12,7 @@ bioconductor-deeptarget
 
    Deep characterization of cancer drugs
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/DeepTarget.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/DeepTarget.html
    :license: GPL-2
    :recipe: /`bioconductor-deeptarget <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deeptarget>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deeptarget/meta.yaml>`_
 

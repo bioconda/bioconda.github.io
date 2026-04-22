@@ -12,11 +12,11 @@ bioconductor-mitch
 
    Multi\-Contrast Gene Set Enrichment Analysis
 
-   :homepage: https://bioconductor.org/packages/3.18/bioc/html/mitch.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/mitch.html
    :license: CC BY-SA 4.0 + file LICENSE
    :recipe: /`bioconductor-mitch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mitch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mitch/meta.yaml>`_
 
-   mitch is an R package for multi\-contrast enrichment analysis. At it’s heart\, it uses a rank\-MANOVA based statistical approach to detect sets of genes that exhibit enrichment in the multidimensional space as compared to the background. The rank\-MANOVA concept dates to work by Cox and Mann \(https\:\/\/doi.org\/10.1186\/1471\-2105\-13\-S16\-S12\). mitch is useful for pathway analysis of profiling studies with one\, two or more contrasts\, or in studies with multiple omics profiling\, for example proteomic\, transcriptomic\, epigenomic analysis of the same samples. mitch is perfectly suited for pathway level differential analysis of scRNA\-seq data. The main strengths of mitch are that it can import datasets easily from many upstream tools and has advanced plotting features to visualise these enrichments.
+   mitch is an R package for multi\-contrast enrichment analysis. At it’s heart\, it uses a rank\-MANOVA based statistical approach to detect sets of genes that exhibit enrichment in the multidimensional space as compared to the background. The rank\-MANOVA concept dates to work by Cox and Mann \(https\:\/\/doi.org\/10.1186\/1471\-2105\-13\-S16\-S12\). mitch is useful for pathway analysis of profiling studies with one\, two or more contrasts\, or in studies with multiple omics profiling\, for example proteomic\, transcriptomic\, epigenomic analysis of the same samples. mitch is perfectly suited for pathway level differential analysis of scRNA\-seq data. We have an established routine for pathway enrichment of Infinium Methylation Array data \(see vignette\). The main strengths of mitch are that it can import datasets easily from many upstream tools and has advanced plotting features to visualise these enrichments.
 
 
 .. conda:package:: bioconductor-mitch

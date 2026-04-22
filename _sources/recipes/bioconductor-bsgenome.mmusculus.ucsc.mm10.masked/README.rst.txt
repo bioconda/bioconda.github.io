@@ -12,7 +12,7 @@ bioconductor-bsgenome.mmusculus.ucsc.mm10.masked
 
    Full masked genome sequences for Mus musculus \(UCSC genome mm10\, based on GRCm38.p6\)
 
-   :homepage: https://bioconductor.org/packages/3.20/data/annotation/html/BSgenome.Mmusculus.UCSC.mm10.masked.html
+   :homepage: https://bioconductor.org/packages/3.22/data/annotation/html/BSgenome.Mmusculus.UCSC.mm10.masked.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-bsgenome.mmusculus.ucsc.mm10.masked <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mmusculus.ucsc.mm10.masked>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mmusculus.ucsc.mm10.masked/meta.yaml>`_
 

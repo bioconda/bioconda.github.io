@@ -12,7 +12,7 @@ bioconductor-chippeakanno
 
    Batch annotation of the peaks identified from either ChIP\-seq\, ChIP\-chip experiments\, or any experiments that result in large number of genomic interval data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/ChIPpeakAnno.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/ChIPpeakAnno.html
    :license: GPL (>= 2)
    :recipe: /`bioconductor-chippeakanno <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chippeakanno>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chippeakanno/meta.yaml>`_
    :links: biotools: :biotools:`chippeakanno`

@@ -12,7 +12,7 @@ bioconductor-partcnv
 
    Infer locally aneuploid cells using single cell RNA\-seq data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/partCNV.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/partCNV.html
    :license: GPL-2
    :recipe: /`bioconductor-partcnv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-partcnv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-partcnv/meta.yaml>`_
 

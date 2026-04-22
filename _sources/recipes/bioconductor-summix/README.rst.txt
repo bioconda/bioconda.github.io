@@ -12,7 +12,7 @@ bioconductor-summix
 
    Summix2\: A suite of methods to estimate\, adjust\, and leverage substructure in genetic summary data
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/Summix.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/Summix.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-summix <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-summix>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-summix/meta.yaml>`_
 

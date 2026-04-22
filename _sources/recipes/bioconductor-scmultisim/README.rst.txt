@@ -12,7 +12,7 @@ bioconductor-scmultisim
 
    Simulation of Multi\-Modality Single Cell Data Guided By Gene Regulatory Networks and Cell\-Cell Interactions
 
-   :homepage: https://bioconductor.org/packages/3.20/bioc/html/scMultiSim.html
+   :homepage: https://bioconductor.org/packages/3.22/bioc/html/scMultiSim.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-scmultisim <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scmultisim>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scmultisim/meta.yaml>`_
 
