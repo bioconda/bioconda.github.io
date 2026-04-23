@@ -10,10 +10,10 @@ starseqr
    :replaces_section_title:
    :noindex:
 
-   RNA Fusion Detection and Quantification
+   RNA Fusion Detection and Quantification.
 
    :homepage: https://github.com/ExpressionAnalysis/STAR-SEQR
-   :license: ../../LICENSE
+   :license: CDL-1.0
    :recipe: /`starseqr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/starseqr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/starseqr/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ starseqr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.7-6</code>,  <code>0.6.7-5</code>,  <code>0.6.7-4</code>,  <code>0.6.7-3</code>,  <code>0.6.7-2</code>,  <code>0.6.7-1</code>,  <code>0.6.7-0</code>,  <code>0.6.6-0</code>,  <code>0.6.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.6.7-7</code>,  <code>0.6.7-6</code>,  <code>0.6.7-5</code>,  <code>0.6.7-4</code>,  <code>0.6.7-3</code>,  <code>0.6.7-2</code>,  <code>0.6.7-1</code>,  <code>0.6.7-0</code>,  <code>0.6.6-0</code>,  </span></summary>
       
 
-      ``0.6.7-6``,  ``0.6.7-5``,  ``0.6.7-4``,  ``0.6.7-3``,  ``0.6.7-2``,  ``0.6.7-1``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.3-0``,  ``0.5.0-0``
+      ``0.6.7-7``,  ``0.6.7-6``,  ``0.6.7-5``,  ``0.6.7-4``,  ``0.6.7-3``,  ``0.6.7-2``,  ``0.6.7-1``,  ``0.6.7-0``,  ``0.6.6-0``,  ``0.6.3-0``,  ``0.5.0-0``
 
       
       .. raw:: html
@@ -40,20 +40,23 @@ starseqr
       
 
    
-   :depends on gffread: ``>=0.12.7,<0.13.0a0``
+   :depends on __osx: ``>=10.13``
+   :depends on gffread: 
    :depends on intervaltree_bio: 
-   :depends on libgcc: ``>=14``
    :depends on networkx: 
-   :depends on numpy: ``>=1.21,<3``
+   :depends on numpy: 
    :depends on pandas: ``>=0.18.1``
-   :depends on primer3-py: ``>=2.3.0,<3.0a0``
-   :depends on pysam: ``>=0.23.3,<0.24.0a0``
+   :depends on primer3-py: 
    :depends on pysam: ``>=0.9.1.4``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on six: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation

@@ -6,7 +6,7 @@
 shorah
 ======
 
-.. conda:recipe:: shorah/1.1.3
+.. conda:recipe:: shorah/1.99.2
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ shorah
 
    :homepage: https://github.com/cbg-ethz/shorah
    :license: GPL3 / GPLv3
-   :recipe: /`shorah <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shorah>`_/`1.1.3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shorah/1.1.3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shorah/1.1.3/meta.yaml>`_
+   :recipe: /`shorah <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shorah>`_/`1.99.2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shorah/1.99.2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shorah/1.99.2/meta.yaml>`_
    :links: biotools: :biotools:`shorah`
 
    
@@ -43,8 +43,7 @@ shorah
    
    :depends on biopython: 
    :depends on htslib: ``>=1.17,<1.24.0a0``
-   :depends on libgcc-ng: ``>=12``
-   :depends on libstdcxx-ng: ``>=12``
+   :depends on libcxx: ``>=15.0.7``
    :depends on libzlib: ``>=1.2.13,<1.3.0a0``
    :depends on numpy: 
    :depends on python: ``>=3.10,<3.11.0a0``

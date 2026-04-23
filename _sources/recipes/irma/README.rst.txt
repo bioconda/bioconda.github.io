@@ -13,7 +13,7 @@ irma
    IRMA\: Iterative Refinement Meta\-Assembler for the robust assembly\, variant calling\, and phasing of highly variable RNA viruses.
 
    :homepage: https://wonder.cdc.gov/amd/flu/irma/
-   :license: GNU General Public License v3 or later (GPLv3+)
+   :license: APACHE / Apache Software License, Apache-2.0
    :recipe: /`irma <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/irma>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/irma/meta.yaml>`_
 
    
@@ -27,20 +27,18 @@ irma
       
       
 
-      ``1.2.0-0``,  ``1.1.4-0``,  ``1.0.3-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.4-0``,  ``1.0.3-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
 
    
    :depends on blat: ``>=35``
-   :depends on fasttree: ``>=2.1.3``
-   :depends on minimap2: ``>=2.17``
-   :depends on muscle: ``>=3.8.1551``
-   :depends on parallel: ``>=20181022``
+   :depends on minimap2: ``>=2.29``
+   :depends on parallel: ``>=20200422``
    :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends on pigz: ``>=2.3.4``
+   :depends on pigz: ``>=2.8``
    :depends on r-base: ``>=3.5.1``
-   :depends on samtools: ``>=1.2``
+   :depends on samtools: ``>=1.21``
    :depends on zip: ``>=3.0``
 
    :additional platforms:
@@ -115,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "irma";
-        var versions = ["1.2.0","1.1.4","1.0.3","1.0.2","1.0.2"];
+        var versions = ["1.3.1","1.2.0","1.1.4","1.0.3","1.0.2"];
     </script>
 
 

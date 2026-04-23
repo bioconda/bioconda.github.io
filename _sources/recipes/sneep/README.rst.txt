@@ -41,10 +41,9 @@ sneep
 
    
    :depends on bedtools: ``>=2.27.1``
-   :depends on libgcc: 
-   :depends on libgcc-ng: ``>=12``
-   :depends on libstdcxx: 
-   :depends on libstdcxx-ng: ``>=12``
+   :depends on libcxx: ``>=18``
+   :depends on llvm-openmp: ``>=18.1.8``
+   :depends on llvm-openmp: ``>=20.1.3``
    :depends on matplotlib-base: 
    :depends on numpy: ``>=1.19``
    :depends on python: ``>=3.10,<3.11.0a0``

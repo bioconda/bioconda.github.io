@@ -38,7 +38,6 @@ nextdenovo
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on libcurl: ``>=8.19.0,<9.0a0``
    :depends on libdeflate: ``>=1.25,<1.26.0a0``
-   :depends on libgcc: ``>=14``
    :depends on libxcrypt: ``>=4.4.36``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on openssl: ``>=3.5.6,<4.0a0``

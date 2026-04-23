@@ -10,11 +10,14 @@ homer
    :replaces_section_title:
    :noindex:
 
-   Software for motif discovery and next generation sequencing analysis
+   Software for motif discovery and next generation sequencing analysis.
 
    :homepage: http://homer.ucsd.edu/homer/index.html
-   :license: GPL3 / GNU General Public v3 (GPLv3)
+   :documentation: http://homer.ucsd.edu/homer/homer2.html
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`homer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/homer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/homer/meta.yaml>`_
+   :links: doi: :doi:`10.1016/j.molcel.2010.05.004`, biotools: :biotools:`homer`, usegalaxy-eu: :usegalaxy-eu:`homer_gtf_to_annotations`
 
    
 
@@ -28,10 +31,10 @@ homer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.1-0</code>,  <code>4.11-9</code>,  <code>4.11-8</code>,  <code>4.11-7</code>,  <code>4.11-6</code>,  <code>4.11-5</code>,  <code>4.11-4</code>,  <code>4.11-3</code>,  <code>4.11-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.1-1</code>,  <code>5.1-0</code>,  <code>4.11-9</code>,  <code>4.11-8</code>,  <code>4.11-7</code>,  <code>4.11-6</code>,  <code>4.11-5</code>,  <code>4.11-4</code>,  <code>4.11-3</code>,  </span></summary>
       
 
-      ``5.1-0``,  ``4.11-9``,  ``4.11-8``,  ``4.11-7``,  ``4.11-6``,  ``4.11-5``,  ``4.11-4``,  ``4.11-3``,  ``4.11-2``,  ``4.11-1``,  ``4.11-0``,  ``4.10-0``,  ``4.9.1-6``,  ``4.9.1-5``,  ``4.9.1-4``,  ``4.9.1-3``,  ``4.9.1-2``,  ``4.9.1-1``,  ``4.9.1-0``,  ``4.8.3-3``,  ``4.8-1``
+      ``5.1-1``,  ``5.1-0``,  ``4.11-9``,  ``4.11-8``,  ``4.11-7``,  ``4.11-6``,  ``4.11-5``,  ``4.11-4``,  ``4.11-3``,  ``4.11-2``,  ``4.11-1``,  ``4.11-0``,  ``4.10-0``,  ``4.9.1-6``,  ``4.9.1-5``,  ``4.9.1-4``,  ``4.9.1-3``,  ``4.9.1-2``,  ``4.9.1-1``,  ``4.9.1-0``,  ``4.8.3-3``,  ``4.8-1``
 
       
       .. raw:: html
@@ -40,9 +43,10 @@ homer
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on perl: 
+   :depends on __osx: ``>=10.13``
+   :depends on libcxx: ``>=19``
+   :depends on perl: ``>=5.32``
+   :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on unzip: 
    :depends on wget: 
 
@@ -50,7 +54,7 @@ homer
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -122,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "homer";
-        var versions = ["5.1","4.11","4.11","4.11","4.11"];
+        var versions = ["5.1","5.1","4.11","4.11","4.11"];
     </script>
 
 

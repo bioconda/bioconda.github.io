@@ -33,8 +33,7 @@ trim_isoseq_polya
 
    
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libgcc-ng: ``>=7.5.0``
-   :depends on libstdcxx-ng: ``>=7.5.0``
+   :depends on libcxx: ``>=9.0.1``
    :depends on zlib: ``>=1.2.11,<1.3.0a0``
 
    :additional platforms:

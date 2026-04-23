@@ -12,7 +12,7 @@ cryfa
 
    A secure encryption tool for genomic data.
 
-   :homepage: https://github.com/smortezah/cryfa
+   :homepage: https://github.com/cobilab/cryfa
    :license: GPL / GPL-3.0-or-later
    :recipe: /`cryfa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cryfa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cryfa/meta.yaml>`_
 
@@ -27,14 +27,13 @@ cryfa
       
       
 
-      ``26.04-0``,  ``20.04-3``,  ``20.04-2``,  ``20.04-1``,  ``20.04-0``,  ``18.06-2``,  ``18.06-1``,  ``18.06-0``
+      ``26.04-1``,  ``26.04-0``,  ``20.04-3``,  ``20.04-2``,  ``20.04-1``,  ``20.04-0``,  ``18.06-2``,  ``18.06-1``,  ``18.06-0``
 
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on __osx: ``>=10.13``
+   :depends on libcxx: ``>=19``
 
    :additional platforms:
       
@@ -112,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "cryfa";
-        var versions = ["26.04","20.04","20.04","20.04","20.04"];
+        var versions = ["26.04","26.04","20.04","20.04","20.04"];
     </script>
 
 

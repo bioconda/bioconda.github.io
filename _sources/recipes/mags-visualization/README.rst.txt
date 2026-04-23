@@ -10,9 +10,9 @@ mags-visualization
    :replaces_section_title:
    :noindex:
 
-   Visualization toolkit for MAG quality\, taxonomy\, clustering\, and annotation.
+   Visualization toolkit for MAG quality\, taxonomy\, clustering\, abundance patterns and functional annotation.
 
-   :homepage: https://github.com/alexandrah1704/MAGs-visualization
+   :homepage: https://github.com/usegalaxy-eu/MAGs-visualization
    :license: GPL3 / GPL-3.0
    :recipe: /`mags-visualization <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mags-visualization>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mags-visualization/meta.yaml>`_
 
@@ -27,7 +27,7 @@ mags-visualization
       
       
 
-      ``0.0.2-0``,  ``0.0.1-0``
+      ``0.0.4-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
@@ -38,6 +38,7 @@ mags-visualization
    :depends on pandas: 
    :depends on plotly: 
    :depends on python: ``>=3.9,<3.13``
+   :depends on python-kaleido: 
    :depends on seaborn: 
 
    :additional platforms:
@@ -112,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "mags-visualization";
-        var versions = ["0.0.2","0.0.1"];
+        var versions = ["0.0.4","0.0.2","0.0.1"];
     </script>
 
 

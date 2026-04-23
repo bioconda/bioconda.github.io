@@ -29,12 +29,13 @@ negspy
       
       
 
-      ``0.2.24-0``
+      ``0.3.2-0``,  ``0.2.24-0``
 
       
 
    
    :depends on python: 
+   :depends on smart-open: 
 
    :additional platforms:
       
@@ -108,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "negspy";
-        var versions = ["0.2.24"];
+        var versions = ["0.3.2","0.2.24"];
     </script>
 
 

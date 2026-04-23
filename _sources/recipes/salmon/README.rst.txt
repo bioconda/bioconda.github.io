@@ -49,10 +49,9 @@ salmon
    :depends on htslib: ``>=1.23,<1.24.0a0``
    :depends on htslib: ``>=1.23,<2.0a0``
    :depends on icu: 
-   :depends on libgcc: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on libiconv: ``>=1.18,<2.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libstdcxx: ``>=14``
    :depends on mimalloc: ``>=3.2.8,<3.2.9.0a0``
    :depends on tbb: ``>=2022.3.0``
    :depends on xz: 

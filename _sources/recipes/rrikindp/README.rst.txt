@@ -15,8 +15,9 @@ rrikindp
    :homepage: https://github.com/mwaldl/RRIkinDP
    :documentation: https://doi.org/10.1101/2023.07.28.548983
    
-   :license: GPL / GPL-3.0-only
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`rrikindp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rrikindp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rrikindp/meta.yaml>`_
+   :links: doi: :doi:`10.1101/2023.07.28.548983`
 
    RRIkinDP evaluated thermodynamic and kinetic features of RNA\-RNA interactions. As input\, two RNA
    sequences as well as their interaction structure is provided. The tool generates the state space of
@@ -34,27 +35,29 @@ rrikindp
       
       
 
-      ``0.0.2-1``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``0.0.2-3``,  ``0.0.2-1``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
    
-   :depends on _openmp_mutex: ``* *_llvm``
-   :depends on _openmp_mutex: ``>=4.5``
+   :depends on __osx: ``>=11.0``
    :depends on boost-cpp: 
-   :depends on intarna: ``>=3.4.0,<3.5.0a0``
-   :depends on libgcc-ng: ``>=12``
-   :depends on libstdcxx-ng: ``>=12``
-   :depends on llvm-openmp: ``>=18.1.6``
+   :depends on intarna: ``>=3.4.1,<3.5.0a0``
+   :depends on libcxx: ``>=16``
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on matplotlib-base: ``>=3.7.0``
    :depends on pandas: ``>=2.0.0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
-   :depends on seaborn: ``>=0.12.0``
+   :depends on seaborn-base: ``>=0.12.0``
    :depends on viennarna: ``>=2.6.0``
-   :depends on viennarna: ``>=2.6.4,<2.7.0a0``
+   :depends on viennarna: ``>=2.7.2,<2.8.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -126,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "rrikindp";
-        var versions = ["0.0.2","0.0.2","0.0.1"];
+        var versions = ["0.0.2","0.0.2","0.0.2","0.0.1"];
     </script>
 
 

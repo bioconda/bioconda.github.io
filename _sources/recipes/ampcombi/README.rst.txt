@@ -12,8 +12,10 @@ ampcombi
 
    A parsing tool to convert and summarise the outputs from multiple AMP detection tools.
 
-   :homepage: https://github.com/Darcy220606/AMPcombi
-   :developer docs: https://github.com/Darcy220606/AMPcombi/tree/dev
+   :homepage: https://github.com/paleobiotechnology/AMPcombi
+   :documentation: https://ampcombi.readthedocs.io
+   
+   :developer docs: https://github.com/paleobiotechnology/AMPcombi/tree/dev
    :license: MIT / MIT
    :recipe: /`ampcombi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ampcombi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ampcombi/meta.yaml>`_
 
@@ -27,9 +29,17 @@ ampcombi
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0.1-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
+         <details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>2.0.1-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.7-0</code>,  <code>0.1.6-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4-0</code>,  </span></summary>
+      
 
+      ``3.0.0-0``,  ``2.0.1-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -119,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "ampcombi";
-        var versions = ["2.0.1","0.2.2","0.2.1","0.2.0","0.1.7"];
+        var versions = ["3.0.0","2.0.1","0.2.2","0.2.1","0.2.0"];
     </script>
 
 

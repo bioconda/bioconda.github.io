@@ -45,9 +45,7 @@ predictosaurus
    :depends on gsl: ``>=2.7,<2.8.0a0``
    :depends on libcblas: ``>=3.9.0,<4.0a0``
    :depends on libcurl: ``>=8.19.0,<9.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
-   :depends on openssl: ``>=3.5.6,<4.0a0``
+   :depends on libcxx: ``>=19``
 
    :additional platforms:
       

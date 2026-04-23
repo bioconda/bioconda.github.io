@@ -13,7 +13,7 @@ tgv
    Explore genomes in the terminal. Light\, blazing fast 🚀\, vim\-motion.
 
    :homepage: https://github.com/zeqianli/tgv
-   :documentation: https://github.com/zeqianli/tgv/blob/v0.1.0/README.md
+   :documentation: https://github.com/zeqianli/tgv/blob/v0.2.0/README.md
    
    :license: MIT / MIT
    :recipe: /`tgv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tgv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tgv/meta.yaml>`_
@@ -29,17 +29,17 @@ tgv
       
       
 
-      ``0.1.0-0``,  ``0.0.6-0``
+      ``0.2.0-0``,  ``0.1.0-0``,  ``0.0.6-0``
 
       
 
    
-   :depends on htslib: ``>=1.22.1,<1.24.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libsqlite: ``>=3.50.4,<4.0a0``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on openssl: ``>=3.5.2,<4.0a0``
+   :depends on __osx: ``>=10.13``
+   :depends on htslib: ``>=1.23.1,<1.24.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on libsqlite: ``>=3.53.0,<4.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on openssl: ``>=3.5.6,<4.0a0``
 
    :additional platforms:
       
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "tgv";
-        var versions = ["0.1.0","0.0.6"];
+        var versions = ["0.2.0","0.1.0","0.0.6"];
     </script>
 
 

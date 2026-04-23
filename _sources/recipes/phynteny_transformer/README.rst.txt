@@ -29,7 +29,7 @@ phynteny_transformer
       
       
 
-      ``0.1.3-0``,  ``0.1.2-0``
+      ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
 
@@ -42,6 +42,7 @@ phynteny_transformer
    :depends on python: ``>=3.9``
    :depends on pytorch: ``>=2.1.2``
    :depends on scikit-learn: 
+   :depends on setuptools: ``>=67.7.2,<81``
    :depends on tqdm: 
    :depends on transformers: 
 
@@ -117,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "phynteny_transformer";
-        var versions = ["0.1.3","0.1.2"];
+        var versions = ["0.1.3","0.1.3","0.1.2"];
     </script>
 
 

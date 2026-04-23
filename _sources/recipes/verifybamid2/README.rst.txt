@@ -13,8 +13,11 @@ verifybamid2
    A robust tool for DNA contamination estimation from sequence reads using ancestry\-agnostic method.
 
    :homepage: https://github.com/Griffan/VerifyBamID
-   :license: MIT
+   :documentation: https://griffan.github.io/VerifyBamID
+   
+   :license: MIT / MIT
    :recipe: /`verifybamid2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/verifybamid2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/verifybamid2/meta.yaml>`_
+   :links: biotools: :biotools:`verifybamid`, doi: :doi:`10.1101/gr.246934.118`
 
    
 
@@ -28,10 +31,10 @@ verifybamid2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.1-12</code>,  <code>2.0.1-11</code>,  <code>2.0.1-10</code>,  <code>2.0.1-9</code>,  <code>2.0.1-8</code>,  <code>2.0.1-7</code>,  <code>2.0.1-6</code>,  <code>2.0.1-5</code>,  <code>2.0.1-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.2-0</code>,  <code>2.0.1-12</code>,  <code>2.0.1-11</code>,  <code>2.0.1-10</code>,  <code>2.0.1-9</code>,  <code>2.0.1-8</code>,  <code>2.0.1-7</code>,  <code>2.0.1-6</code>,  <code>2.0.1-5</code>,  </span></summary>
       
 
-      ``2.0.1-12``,  ``2.0.1-11``,  ``2.0.1-10``,  ``2.0.1-9``,  ``2.0.1-8``,  ``2.0.1-7``,  ``2.0.1-6``,  ``2.0.1-5``,  ``2.0.1-4``,  ``2.0.1-3``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``1.0.6-3``,  ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-3``,  ``1.0.5-2``,  ``1.0.5-0``,  ``1.0.4-0``
+      ``2.0.2-0``,  ``2.0.1-12``,  ``2.0.1-11``,  ``2.0.1-10``,  ``2.0.1-9``,  ``2.0.1-8``,  ``2.0.1-7``,  ``2.0.1-6``,  ``2.0.1-5``,  ``2.0.1-4``,  ``2.0.1-3``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``1.0.6-3``,  ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-3``,  ``1.0.5-2``,  ``1.0.5-0``,  ``1.0.4-0``
 
       
       .. raw:: html
@@ -40,18 +43,19 @@ verifybamid2
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on curl: 
-   :depends on htslib: ``>=1.21,<1.24.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on liblzma: ``>=5.6.3,<6.0a0``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on openssl: ``>=3.4.0,<4.0a0``
-   :depends on xz: 
-   :depends on zlib: 
+   :depends on htslib: ``>=1.23.1,<1.24.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on openssl: ``>=3.5.6,<4.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -123,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "verifybamid2";
-        var versions = ["2.0.1","2.0.1","2.0.1","2.0.1","2.0.1"];
+        var versions = ["2.0.2","2.0.1","2.0.1","2.0.1","2.0.1"];
     </script>
 
 

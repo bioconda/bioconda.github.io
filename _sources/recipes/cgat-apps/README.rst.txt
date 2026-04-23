@@ -43,14 +43,12 @@ cgat-apps
 
    
    :depends on alignlib-lite: 
-   :depends on bedtools: 
    :depends on biopython: 
    :depends on cgatcore: 
    :depends on coreutils: 
    :depends on grep: 
    :depends on htslib: ``>=1.21,<1.24.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on matplotlib-base: 
    :depends on numpy: ``>=1.22.4,<2.0a0``
    :depends on pandas: 
@@ -64,8 +62,6 @@ cgat-apps
    :depends on scikit-learn: 
    :depends on scipy: 
    :depends on sortedcontainers: 
-   :depends on ucsc-bedgraphtobigwig: 
-   :depends on ucsc-wigtobigwig: 
 
    :additional platforms:
       
