@@ -10,10 +10,10 @@ perl-text-csv_xs
    :replaces_section_title:
    :noindex:
 
-   Text\:\:CSV\_XS \- comma\-separated values manipulation routines
+   Text\:\:CSV\_XS \- comma\-separated values manipulation routines.
 
    :homepage: https://metacpan.org/pod/Text::CSV_XS
-   :license: perl_5
+   :license: Perl_5
    :recipe: /`perl-text-csv_xs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-csv_xs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-csv_xs/meta.yaml>`_
 
    
@@ -27,16 +27,21 @@ perl-text-csv_xs
       
       
 
-      ``1.48-0``,  ``1.47-2``,  ``1.47-1``,  ``1.47-0``,  ``1.46-0``,  ``1.40-1``,  ``1.40-0``
+      ``1.61-0``,  ``1.48-0``,  ``1.47-2``,  ``1.47-1``,  ``1.47-0``,  ``1.46-0``,  ``1.40-1``,  ``1.40-0``
 
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-test-harness: 
    :depends on perl-text-csv: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -108,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "perl-text-csv_xs";
-        var versions = ["1.48","1.47","1.47","1.47","1.46"];
+        var versions = ["1.61","1.48","1.47","1.47","1.47"];
     </script>
 
 

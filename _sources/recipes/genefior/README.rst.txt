@@ -30,7 +30,7 @@ genefior
       
       
 
-      ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-0``
+      ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-0``
 
       
 
@@ -39,6 +39,7 @@ genefior
    :depends on bowtie2: ``>=2.5.4``
    :depends on bwa: ``>=0.7.19``
    :depends on diamond: ``>=2.1.13``
+   :depends on matplotlib-base: ``>=3.10.8``
    :depends on minimap2: ``>=2.30``
    :depends on mmseqs2: ``>=18.8cc5c``
    :depends on pigz: ``>=2.4``
@@ -118,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "genefior";
-        var versions = ["0.7.1","0.7.0","0.7.0","0.6.0"];
+        var versions = ["0.8.0","0.7.1","0.7.0","0.7.0","0.6.0"];
     </script>
 
 

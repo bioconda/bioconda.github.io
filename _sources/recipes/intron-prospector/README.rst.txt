@@ -13,7 +13,7 @@ intron-prospector
    Identify putative introns from RNA\-Seq alignments of short and long reads
 
    :homepage: https://github.com/diekhans/intron-prospector
-   :documentation: https://github.com/diekhans/intron-prospector/blob/v1.5.0/README.md
+   :documentation: https://github.com/diekhans/intron-prospector/blob/v1.5.1/README.md
    
    :license: MIT / MIT
    :recipe: /`intron-prospector <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/intron-prospector>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/intron-prospector/meta.yaml>`_
@@ -29,7 +29,7 @@ intron-prospector
       
       
 
-      ``1.5.0-0``
+      ``1.5.1-0``,  ``1.5.0-0``
 
       
 
@@ -37,7 +37,7 @@ intron-prospector
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on htslib: ``>=1.23.1,<1.24.0a0``
    :depends on libcxx: ``>=19``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
    :depends on libxcrypt: ``>=4.4.36``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
 
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "intron-prospector";
-        var versions = ["1.5.0"];
+        var versions = ["1.5.1","1.5.0"];
     </script>
 
 

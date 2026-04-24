@@ -28,10 +28,10 @@ perl-datetime-timezone
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.67-0</code>,  <code>2.66-0</code>,  <code>2.65-1</code>,  <code>2.65-0</code>,  <code>2.57-0</code>,  <code>2.52-1</code>,  <code>2.52-0</code>,  <code>2.51-1</code>,  <code>2.51-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.68-0</code>,  <code>2.67-0</code>,  <code>2.66-0</code>,  <code>2.65-1</code>,  <code>2.65-0</code>,  <code>2.57-0</code>,  <code>2.52-1</code>,  <code>2.52-0</code>,  <code>2.51-1</code>,  </span></summary>
       
 
-      ``2.67-0``,  ``2.66-0``,  ``2.65-1``,  ``2.65-0``,  ``2.57-0``,  ``2.52-1``,  ``2.52-0``,  ``2.51-1``,  ``2.51-0``,  ``2.09-4``,  ``2.09-3``,  ``2.09-2``,  ``2.09-0``
+      ``2.68-0``,  ``2.67-0``,  ``2.66-0``,  ``2.65-1``,  ``2.65-0``,  ``2.57-0``,  ``2.52-1``,  ``2.52-0``,  ``2.51-1``,  ``2.51-0``,  ``2.09-4``,  ``2.09-3``,  ``2.09-2``,  ``2.09-0``
 
       
       .. raw:: html
@@ -40,6 +40,7 @@ perl-datetime-timezone
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on libcxx: ``>=19``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-app-cpanminus: 
@@ -126,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "perl-datetime-timezone";
-        var versions = ["2.67","2.66","2.65","2.65","2.57"];
+        var versions = ["2.68","2.67","2.66","2.65","2.65"];
     </script>
 
 

@@ -28,7 +28,7 @@ seqsero2s
       
       
 
-      ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-0``
+      ``1.1.4-2``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-0``
 
       
 
@@ -44,6 +44,7 @@ seqsero2s
    :depends on spades: ``>=3.9``
    :depends on sra-tools: ``>=2.8``
    :depends on stringmlst: ``>=0.6``
+   :depends on zstd: 
 
    :additional platforms:
       
@@ -117,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "seqsero2s";
-        var versions = ["1.1.4","1.1.4","1.1.3"];
+        var versions = ["1.1.4","1.1.4","1.1.4","1.1.3"];
     </script>
 
 

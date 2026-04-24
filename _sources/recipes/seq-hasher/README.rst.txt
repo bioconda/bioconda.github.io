@@ -10,11 +10,10 @@ seq-hasher
    :replaces_section_title:
    :noindex:
 
-   Compute hash digests for DNA sequences in a FASTA file\, with support for circular permutations
-
+   Compute hash digests for DNA sequences in a FASTA file\, with support for circular permutations.
 
    :homepage: https://github.com/apcamargo/seq-hasher
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`seq-hasher <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seq-hasher>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seq-hasher/meta.yaml>`_
 
    
@@ -28,11 +27,12 @@ seq-hasher
       
       
 
-      ``0.2.0-0``,  ``0.1.0-0``
+      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
+   :depends on __osx: ``>=10.13``
 
    :additional platforms:
       
@@ -110,7 +110,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "seq-hasher";
-        var versions = ["0.2.0","0.1.0"];
+        var versions = ["0.3.0","0.2.0","0.1.0"];
     </script>
 
 

@@ -27,7 +27,7 @@ foldtree
       
       
 
-      ``1.1.1rc1-0``,  ``1.1.0-0``,  ``1.1.0rc2-1``,  ``1.1.0rc2-0``
+      ``1.1.1rc1-1``,  ``1.1.1rc1-0``,  ``1.1.0-0``,  ``1.1.0rc2-1``,  ``1.1.0rc2-0``
 
       
 
@@ -43,7 +43,7 @@ foldtree
    :depends on requests: 
    :depends on scipy: 
    :depends on snakemake-minimal: ``<8``
-   :depends on toytree: ``2.0.1.*``
+   :depends on toytree: 
    :depends on ujson: 
 
    :additional platforms:
@@ -118,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "foldtree";
-        var versions = ["1.1.1rc1","1.1.0","1.1.0rc2","1.1.0rc2"];
+        var versions = ["1.1.1rc1","1.1.1rc1","1.1.0","1.1.0rc2","1.1.0rc2"];
     </script>
 
 

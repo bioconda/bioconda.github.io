@@ -29,29 +29,31 @@ deepchopper
       
       
 
-      ``1.2.9-1``,  ``1.2.9-0``,  ``1.2.6-1``,  ``1.2.6-0``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.4-0``
+      ``1.3.3-0``,  ``1.2.9-1``,  ``1.2.9-0``,  ``1.2.6-1``,  ``1.2.6-0``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.4-0``
 
       
 
    
-   :depends on datasets: ``2.14.2``
-   :depends on deepchopper-cli: ``>=1.2.5``
-   :depends on evaluate: ``>=0.4.1``
-   :depends on fastapi: ``0.112.2``
-   :depends on gradio: ``5.0.1``
+   :depends on __osx: ``>=10.13``
+   :depends on datasets: ``>=3.0.0``
+   :depends on deepchopper-cli: ``>=1.3.1``
+   :depends on evaluate: ``>=0.4.3``
+   :depends on fastapi: ``>=0.115.0``
+   :depends on gradio: ``>=5.12.0``
    :depends on hydra-core: ``>=1.3.2``
-   :depends on libgcc: ``>=14``
    :depends on lightning: ``>=2.1.2``
    :depends on omegaconf: ``>=2.3.0``
-   :depends on pyarrow: ``20.0.0``
+   :depends on pyarrow: ``>=20.0.0``
+   :depends on pyfastx: ``>=2.2.0``
    :depends on python: ``>=3.10,<3.11.0a0``
-   :depends on python-multipart: ``0.0.12``
+   :depends on python-multipart: ``>=0.0.12``
    :depends on python_abi: ``3.10.* *_cp310``
-   :depends on pytorch: ``>=2.1.0``
+   :depends on pytorch: ``>=2.6.0``
+   :depends on pytz: 
    :depends on rich: ``>=13.7.0``
    :depends on safetensors: ``>=0.4.2``
    :depends on scikit-learn: ``>=1.5.2``
-   :depends on torchmetrics: ``>=1.2.0``
+   :depends on torchmetrics: ``>=1.2.1``
    :depends on transformers: ``>=4.37.2``
    :depends on typer: ``>=0.12.0``
 
@@ -131,7 +133,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "deepchopper";
-        var versions = ["1.2.9","1.2.9","1.2.6","1.2.6","1.2.5"];
+        var versions = ["1.3.3","1.2.9","1.2.9","1.2.6","1.2.6"];
     </script>
 
 

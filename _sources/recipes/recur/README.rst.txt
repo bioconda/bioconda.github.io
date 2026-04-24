@@ -29,18 +29,20 @@ recur
       
       
 
-      ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends on dendropy: 
-   :depends on iqtree: ``>=2,<3``
+   :depends on iqtree: 
    :depends on numpy: 
    :depends on psutil: 
-   :depends on python: ``>=3.9,<3.13``
+   :depends on python: ``>=3.9,<3.14``
    :depends on pyyaml: 
    :depends on rich: 
+   :depends on scipy: 
+   :depends on statsmodels: 
    :depends on types-pyyaml: 
 
    :additional platforms:
@@ -115,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "recur";
-        var versions = ["1.0.0"];
+        var versions = ["1.1.0","1.0.0"];
     </script>
 
 

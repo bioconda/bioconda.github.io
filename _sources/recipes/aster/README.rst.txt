@@ -13,10 +13,11 @@ aster
    Accurate Species Tree EstimatoR series\; a family of optimation algorithms for species tree inference implemented in C\+\+.
 
    :homepage: https://github.com/chaoszhang/ASTER
-   :documentation: https://github.com/chaoszhang/ASTER/blob/v1.23/README.md
+   :documentation: https://github.com/chaoszhang/ASTER/blob/v1.25/README.md
    
    :license: AGPL / AGPL-3.0-or-later
    :recipe: /`aster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aster/meta.yaml>`_
+   :links: doi: :doi:`10.1093/molbev/msaf172`
 
    
 
@@ -30,10 +31,10 @@ aster
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.23-0</code>,  <code>1.22-1</code>,  <code>1.22-0</code>,  <code>1.19-2</code>,  <code>1.19-1</code>,  <code>1.19-0</code>,  <code>1.16-2</code>,  <code>1.16-1</code>,  <code>1.16-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.25-0</code>,  <code>1.23-0</code>,  <code>1.22-1</code>,  <code>1.22-0</code>,  <code>1.19-2</code>,  <code>1.19-1</code>,  <code>1.19-0</code>,  <code>1.16-2</code>,  <code>1.16-1</code>,  </span></summary>
       
 
-      ``1.23-0``,  ``1.22-1``,  ``1.22-0``,  ``1.19-2``,  ``1.19-1``,  ``1.19-0``,  ``1.16-2``,  ``1.16-1``,  ``1.16-0``,  ``1.15-2``,  ``1.15-1``,  ``1.15-0``,  ``1.13-1``,  ``1.13-0``,  ``1.10-0``,  ``1.3-1``,  ``1.3-0``
+      ``1.25-0``,  ``1.23-0``,  ``1.22-1``,  ``1.22-0``,  ``1.19-2``,  ``1.19-1``,  ``1.19-0``,  ``1.16-2``,  ``1.16-1``,  ``1.16-0``,  ``1.15-2``,  ``1.15-1``,  ``1.15-0``,  ``1.13-1``,  ``1.13-0``,  ``1.10-0``,  ``1.3-1``,  ``1.3-0``
 
       
       .. raw:: html
@@ -42,7 +43,8 @@ aster
       
 
    
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
       
@@ -120,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "aster";
-        var versions = ["1.23","1.22","1.22","1.19","1.19"];
+        var versions = ["1.25","1.23","1.22","1.22","1.19"];
     </script>
 
 

@@ -10,9 +10,11 @@ sneep
    :replaces_section_title:
    :noindex:
 
-   Identify regulatory non\-coding SNPs \(rSNPs\)
+   Identify regulatory non\-coding SNPs \(rSNPs\).
 
    :homepage: https://github.com/SchulzLab/SNEEP
+   :documentation: https://sneep.readthedocs.io/en/latest/index.html
+   
    :license: MIT / MIT
    :recipe: /`sneep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sneep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sneep/meta.yaml>`_
 
@@ -28,10 +30,10 @@ sneep
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1-3</code>,  <code>1.1-2</code>,  <code>1.1-1</code>,  <code>1.1-0</code>,  <code>1.0-0</code>,  <code>0.9-0</code>,  <code>0.8-0</code>,  <code>0.7-0</code>,  <code>0.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1-4</code>,  <code>1.1-3</code>,  <code>1.1-2</code>,  <code>1.1-1</code>,  <code>1.1-0</code>,  <code>1.0-0</code>,  <code>0.9-0</code>,  <code>0.8-0</code>,  <code>0.7-0</code>,  </span></summary>
       
 
-      ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-0``,  ``0.9-0``,  ``0.8-0``,  ``0.7-0``,  ``0.4-1``,  ``0.4-0``
+      ``1.1-4``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-0``,  ``0.9-0``,  ``0.8-0``,  ``0.7-0``,  ``0.4-1``,  ``0.4-0``
 
       
       .. raw:: html
@@ -40,10 +42,10 @@ sneep
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on bedtools: ``>=2.27.1``
-   :depends on libcxx: ``>=18``
-   :depends on llvm-openmp: ``>=18.1.8``
-   :depends on llvm-openmp: ``>=20.1.3``
+   :depends on libcxx: ``>=19``
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on matplotlib-base: 
    :depends on numpy: ``>=1.19``
    :depends on python: ``>=3.10,<3.11.0a0``
@@ -54,7 +56,7 @@ sneep
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -126,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "sneep";
-        var versions = ["1.1","1.1","1.1","1.1","1.0"];
+        var versions = ["1.1","1.1","1.1","1.1","1.1"];
     </script>
 
 

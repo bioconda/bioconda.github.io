@@ -67,13 +67,13 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">alen</span></span></dt>
-<dd><p>Simple terminal sequence alignment viewer</p>
+<dd><p>Simple terminal sequence alignment viewer.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/jakobnissen/alen">https://github.com/jakobnissen/alen</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>MIT</p>
+<dd class="field-even"><p>MIT / MIT</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alen">alen</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alen/meta.yaml">meta.yaml</a></p>
@@ -87,10 +87,15 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/alen"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/alen.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/alen"><img alt="docker_alen" src="https://quay.io/repository/biocontainers/alen/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.3.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.1-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.3.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.1-0</span></code></p>
 </dd>
-<dt class="field-even">Additional platforms<span class="colon">:</span></dt>
-<dd class="field-even"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
+<dt class="field-even">Depends<span class="colon">:</span></dt>
+<dd class="field-even field-list-wrapped"><ul class="simple">
+<li><p><strong>on __osx</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=10.13</span></code></p></li>
+</ul>
+</dd>
+<dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
+<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
 </dl>
 </dd></dl>
 
@@ -145,7 +150,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
     var package = "alen";
-    var versions = ["0.3.3","0.3.2","0.3.1"];
+    var versions = ["0.3.4","0.3.3","0.3.2","0.3.1"];
 </script></section>
 </section>
 <section id="download-stats">

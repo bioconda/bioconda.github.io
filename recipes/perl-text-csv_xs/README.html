@@ -67,13 +67,13 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">perl-text-csv_xs</span></span></dt>
-<dd><p>Text::CSV_XS - comma-separated values manipulation routines</p>
+<dd><p>Text::CSV_XS - comma-separated values manipulation routines.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://metacpan.org/pod/Text::CSV_XS">https://metacpan.org/pod/Text::CSV_XS</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>perl_5</p>
+<dd class="field-even"><p>Perl_5</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-csv_xs">perl-text-csv_xs</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-csv_xs/meta.yaml">meta.yaml</a></p>
@@ -85,19 +85,20 @@
 <dt class="sig sig-object conda" id="package-perl-text-csv_xs">
 <span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">perl-text-csv_xs</span></span><a class="headerlink" href="#package-perl-text-csv_xs" title="Link to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/perl-text-csv_xs"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/perl-text-csv_xs.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/perl-text-csv_xs"><img alt="docker_perl-text-csv_xs" src="https://quay.io/repository/biocontainers/perl-text-csv_xs/status" /></a></p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.48-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.47-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.47-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.47-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.46-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.40-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.40-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.61-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.48-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.47-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.47-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.47-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.46-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.40-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.40-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
+<li><p><strong>on __osx</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=10.13</span></code></p></li>
 <li><p><strong>on perl</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=5.32.1,&lt;5.33.0a0 *_perl5</span></code></p></li>
 <li><p><strong>on perl-test-harness</strong></p></li>
 <li><p><strong>on perl-text-csv</strong></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
+<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
 </dl>
 </dd></dl>
 
@@ -152,7 +153,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
     var package = "perl-text-csv_xs";
-    var versions = ["1.48","1.47","1.47","1.47","1.46"];
+    var versions = ["1.61","1.48","1.47","1.47","1.47"];
 </script></section>
 </section>
 <section id="download-stats">

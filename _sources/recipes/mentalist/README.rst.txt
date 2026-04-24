@@ -13,7 +13,9 @@ mentalist
    The MLST pipeline developed by the PathOGiST research group.
 
    :homepage: https://github.com/WGS-TB/MentaLiST
-   :license: MIT
+   :documentation: https://github.com/WGS-TB/MentaLiST/blob/v0.2.5/README.md
+   
+   :license: MIT / MIT
    :recipe: /`mentalist <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mentalist>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mentalist/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ mentalist
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.4-8</code>,  <code>0.2.4-7</code>,  <code>0.2.4-6</code>,  <code>0.2.4-5</code>,  <code>0.2.4-4</code>,  <code>0.2.4-3</code>,  <code>0.2.4-2</code>,  <code>0.2.4-1</code>,  <code>0.2.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.5-0</code>,  <code>0.2.4-8</code>,  <code>0.2.4-7</code>,  <code>0.2.4-6</code>,  <code>0.2.4-5</code>,  <code>0.2.4-4</code>,  <code>0.2.4-3</code>,  <code>0.2.4-2</code>,  <code>0.2.4-1</code>,  </span></summary>
       
 
-      ``0.2.4-8``,  ``0.2.4-7``,  ``0.2.4-6``,  ``0.2.4-5``,  ``0.2.4-4``,  ``0.2.4-3``,  ``0.2.4-2``,  ``0.2.4-1``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-3``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.9-7``,  ``0.1.9-6``,  ``0.1.9-5``,  ``0.1.9-4``,  ``0.1.9-3``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.8-2``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-0``,  ``0.1.6-2``,  ``0.1.6-0``,  ``0.1.5-3``,  ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.4-2``,  ``0.1.4-0``,  ``0.1.3-3``,  ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.2-0``
+      ``0.2.5-0``,  ``0.2.4-8``,  ``0.2.4-7``,  ``0.2.4-6``,  ``0.2.4-5``,  ``0.2.4-4``,  ``0.2.4-3``,  ``0.2.4-2``,  ``0.2.4-1``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-3``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.9-7``,  ``0.1.9-6``,  ``0.1.9-5``,  ``0.1.9-4``,  ``0.1.9-3``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.8-2``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-0``,  ``0.1.6-2``,  ``0.1.6-0``,  ``0.1.5-3``,  ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.4-2``,  ``0.1.4-0``,  ``0.1.3-3``,  ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
       .. raw:: html
@@ -40,11 +42,12 @@ mentalist
       
 
    
-   :depends on hdf5: ``1.10.1.*``
-   :depends on julia: ``0.5.2.*``
-   :depends on libgcc: ``>=13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on hdf5: ``>=1.14.3,<1.14.4.0a0``
+   :depends on juliaup: ``>=1.10``
+   :depends on libgcc: ``>=14``
    :depends on libxml2: 
-   :depends on mpfr: ``3.1.5.*``
+   :depends on mpfr: ``>=4.2.2,<5.0a0``
    :depends on unzip: 
 
    :additional platforms:
@@ -119,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "mentalist";
-        var versions = ["0.2.4","0.2.4","0.2.4","0.2.4","0.2.4"];
+        var versions = ["0.2.5","0.2.4","0.2.4","0.2.4","0.2.4"];
     </script>
 
 

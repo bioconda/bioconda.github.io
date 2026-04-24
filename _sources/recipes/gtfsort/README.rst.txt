@@ -28,18 +28,19 @@ gtfsort
       
       
 
-      ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``
+      ``0.2.4-0``,  ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``
 
       
 
    
-   :depends on libcxx: ``>=18``
+   :depends on __osx: ``>=10.13``
+   :depends on libcxx: ``>=19``
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -111,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "gtfsort";
-        var versions = ["0.2.2","0.2.2","0.2.2","0.2.1"];
+        var versions = ["0.2.4","0.2.2","0.2.2","0.2.2","0.2.1"];
     </script>
 
 

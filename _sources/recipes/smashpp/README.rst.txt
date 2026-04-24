@@ -26,16 +26,28 @@ smashpp
    :versions:
       
       
+      .. raw:: html
 
-      ``23.09-1``,  ``23.09-0``,  ``22.08-2``,  ``22.08-1``,  ``22.08-0``,  ``20.04-2``,  ``20.04-1``,  ``20.04-0``,  ``19.12-0``
+         <details><summary><span class="truncated-version-list"><code>26.04-0</code>,  <code>23.09-1</code>,  <code>23.09-0</code>,  <code>22.08-2</code>,  <code>22.08-1</code>,  <code>22.08-0</code>,  <code>20.04-2</code>,  <code>20.04-1</code>,  <code>20.04-0</code>,  </span></summary>
+      
 
+      ``26.04-0``,  ``23.09-1``,  ``23.09-0``,  ``22.08-2``,  ``22.08-1``,  ``22.08-0``,  ``20.04-2``,  ``20.04-1``,  ``20.04-0``,  ``19.12-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on __osx: ``>=10.13``
+   :depends on libcxx: ``>=19``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -107,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "smashpp";
-        var versions = ["23.09","23.09","22.08","22.08","22.08"];
+        var versions = ["26.04","23.09","23.09","22.08","22.08"];
     </script>
 
 

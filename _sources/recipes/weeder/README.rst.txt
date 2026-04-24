@@ -12,8 +12,8 @@ weeder
 
    Motif \(transcription factor binding sites\) discovery in sequences from coregulated genes of a single species. This is a new Weeder release rewritten to be faster and optimized for large ChIP\-Seq data.
 
-   :homepage: http://159.149.160.51/modtools/
-   :license: GPL3
+   :homepage: http://159.149.160.88/modtools
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`weeder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/weeder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/weeder/meta.yaml>`_
    :links: biotools: :biotools:`weeder`, doi: :doi:`10.1002/0471250953.bi0211s47`
 
@@ -29,10 +29,10 @@ weeder
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0-10</code>,  <code>2.0-9</code>,  <code>2.0-8</code>,  <code>2.0-7</code>,  <code>2.0-6</code>,  <code>2.0-5</code>,  <code>2.0-4</code>,  <code>2.0-3</code>,  <code>2.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0-11</code>,  <code>2.0-10</code>,  <code>2.0-9</code>,  <code>2.0-8</code>,  <code>2.0-7</code>,  <code>2.0-6</code>,  <code>2.0-5</code>,  <code>2.0-4</code>,  <code>2.0-3</code>,  </span></summary>
       
 
-      ``2.0-10``,  ``2.0-9``,  ``2.0-8``,  ``2.0-7``,  ``2.0-6``,  ``2.0-5``,  ``2.0-4``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
+      ``2.0-11``,  ``2.0-10``,  ``2.0-9``,  ``2.0-8``,  ``2.0-7``,  ``2.0-6``,  ``2.0-5``,  ``2.0-4``,  ``2.0-3``,  ``2.0-2``,  ``2.0-1``,  ``2.0-0``
 
       
       .. raw:: html
@@ -41,15 +41,15 @@ weeder
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on __osx: ``>=10.13``
+   :depends on libcxx: ``>=19``
    :depends on python: 
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation

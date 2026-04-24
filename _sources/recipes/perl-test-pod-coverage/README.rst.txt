@@ -10,10 +10,10 @@ perl-test-pod-coverage
    :replaces_section_title:
    :noindex:
 
-   Check for pod coverage in your distribution
+   Check for pod coverage in your distribution.
 
-   :homepage: http://metacpan.org/pod/Test::Pod::Coverage
-   :license: artistic_2
+   :homepage: https://metacpan.org/pod/Test::Pod::Coverage
+   :license: Artistic-License-2.0
    :recipe: /`perl-test-pod-coverage <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-pod-coverage>`_/`1.10 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-pod-coverage/1.10>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-pod-coverage/1.10/meta.yaml>`_
 
    
@@ -27,12 +27,12 @@ perl-test-pod-coverage
       
       
 
-      ``1.10-3``,  ``1.10-2``,  ``1.10-1``,  ``1.10-0``
+      ``1.10-4``,  ``1.10-3``,  ``1.10-2``,  ``1.10-1``,  ``1.10-0``
 
       
 
    
-   :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends on perl-pod-coverage: 
 
    :additional platforms:
@@ -107,7 +107,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "perl-test-pod-coverage";
-        var versions = ["1.10","1.10","1.10","1.10"];
+        var versions = ["1.10","1.10","1.10","1.10","1.10"];
     </script>
 
 

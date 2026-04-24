@@ -29,18 +29,19 @@ pytantan
       
       
 
-      ``0.1.3-1``,  ``0.1.3-0``
+      ``0.1.4-0``,  ``0.1.3-1``,  ``0.1.3-0``
 
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on archspec: ``>=0.2``
-   :depends on libcxx: ``>=18``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on scoring-matrices: ``>=0.3.2``
-   :depends on scoring-matrices: ``>=0.3.2,<0.4.0a0``
+   :depends on scoring-matrices: ``>=0.3.4,<0.4.0a0``
 
    :additional platforms:
       
@@ -118,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "pytantan";
-        var versions = ["0.1.3","0.1.3"];
+        var versions = ["0.1.4","0.1.3","0.1.3"];
     </script>
 
 

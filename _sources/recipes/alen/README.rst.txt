@@ -10,10 +10,10 @@ alen
    :replaces_section_title:
    :noindex:
 
-   Simple terminal sequence alignment viewer
+   Simple terminal sequence alignment viewer.
 
    :homepage: https://github.com/jakobnissen/alen
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`alen <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alen>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alen/meta.yaml>`_
 
    
@@ -27,11 +27,12 @@ alen
       
       
 
-      ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``
+      ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``
 
       
 
    
+   :depends on __osx: ``>=10.13``
 
    :additional platforms:
       
@@ -109,7 +110,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "alen";
-        var versions = ["0.3.3","0.3.2","0.3.1"];
+        var versions = ["0.3.4","0.3.3","0.3.2","0.3.1"];
     </script>
 
 

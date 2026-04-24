@@ -10,10 +10,10 @@ perl-algorithm-cluster
    :replaces_section_title:
    :noindex:
 
-   Perl interface to the C Clustering Library
+   Perl interface to the C Clustering Library.
 
-   :homepage: http://metacpan.org/pod/Algorithm::Cluster
-   :license: unknown
+   :homepage: https://metacpan.org/pod/Algorithm::Cluster
+   :license: Unknown
    :recipe: /`perl-algorithm-cluster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-algorithm-cluster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-algorithm-cluster/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ perl-algorithm-cluster
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.59-5</code>,  <code>1.59-4</code>,  <code>1.59-3</code>,  <code>1.59-2</code>,  <code>1.59-1</code>,  <code>1.59-0</code>,  <code>1.58-1</code>,  <code>1.58-0</code>,  <code>1.57-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.59-6</code>,  <code>1.59-5</code>,  <code>1.59-4</code>,  <code>1.59-3</code>,  <code>1.59-2</code>,  <code>1.59-1</code>,  <code>1.59-0</code>,  <code>1.58-1</code>,  <code>1.58-0</code>,  </span></summary>
       
 
-      ``1.59-5``,  ``1.59-4``,  ``1.59-3``,  ``1.59-2``,  ``1.59-1``,  ``1.59-0``,  ``1.58-1``,  ``1.58-0``,  ``1.57-0``,  ``1.56-0``,  ``1.52-1``,  ``1.52-0``
+      ``1.59-6``,  ``1.59-5``,  ``1.59-4``,  ``1.59-3``,  ``1.59-2``,  ``1.59-1``,  ``1.59-0``,  ``1.58-1``,  ``1.58-0``,  ``1.57-0``,  ``1.56-0``,  ``1.52-1``,  ``1.52-0``
 
       
       .. raw:: html
@@ -40,13 +40,14 @@ perl-algorithm-cluster
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation

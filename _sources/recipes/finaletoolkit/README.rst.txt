@@ -29,7 +29,7 @@ finaletoolkit
       
       
 
-      ``0.11.0-0``,  ``0.10.7-0``
+      ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.7-0``
 
       
 
@@ -118,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "finaletoolkit";
-        var versions = ["0.11.0","0.10.7"];
+        var versions = ["0.11.1","0.11.0","0.10.7"];
     </script>
 
 

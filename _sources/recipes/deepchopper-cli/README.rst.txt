@@ -29,11 +29,12 @@ deepchopper-cli
       
       
 
-      ``1.2.9-1``,  ``1.2.9-0``,  ``1.2.6-1``,  ``1.2.6-0``,  ``1.2.5-0``
+      ``1.3.3-0``,  ``1.2.9-1``,  ``1.2.9-0``,  ``1.2.6-1``,  ``1.2.6-0``,  ``1.2.5-0``
 
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
 
@@ -113,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "deepchopper-cli";
-        var versions = ["1.2.9","1.2.9","1.2.6","1.2.6","1.2.5"];
+        var versions = ["1.3.3","1.2.9","1.2.9","1.2.6","1.2.6"];
     </script>
 
 

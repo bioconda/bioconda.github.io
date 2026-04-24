@@ -10,10 +10,12 @@ perl-crypt-openssl-rsa
    :replaces_section_title:
    :noindex:
 
-   RSA encoding and decoding\, using the openSSL libraries
+   RSA encoding and decoding\, using the openSSL libraries.
 
-   :homepage: http://github.com/toddr/Crypt-OpenSSL-RSA
-   :license: perl_5
+   :homepage: https://github.com/cpan-authors/Crypt-OpenSSL-RSA
+   :documentation: https://metacpan.org/pod/Crypt::OpenSSL::RSA
+   
+   :license: Perl_5
    :recipe: /`perl-crypt-openssl-rsa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-crypt-openssl-rsa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-crypt-openssl-rsa/meta.yaml>`_
 
    
@@ -28,10 +30,10 @@ perl-crypt-openssl-rsa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.37-0</code>,  <code>0.35-0</code>,  <code>0.34-0</code>,  <code>0.33-4</code>,  <code>0.33-3</code>,  <code>0.33-2</code>,  <code>0.33-1</code>,  <code>0.33-0</code>,  <code>0.32-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.39-0</code>,  <code>0.37-0</code>,  <code>0.35-0</code>,  <code>0.34-0</code>,  <code>0.33-4</code>,  <code>0.33-3</code>,  <code>0.33-2</code>,  <code>0.33-1</code>,  <code>0.33-0</code>,  </span></summary>
       
 
-      ``0.37-0``,  ``0.35-0``,  ``0.34-0``,  ``0.33-4``,  ``0.33-3``,  ``0.33-2``,  ``0.33-1``,  ``0.33-0``,  ``0.32-1``,  ``0.32-0``,  ``0.28-1``,  ``0.28-0``
+      ``0.39-0``,  ``0.37-0``,  ``0.35-0``,  ``0.34-0``,  ``0.33-4``,  ``0.33-3``,  ``0.33-2``,  ``0.33-1``,  ``0.33-0``,  ``0.32-1``,  ``0.32-0``,  ``0.28-1``,  ``0.28-0``
 
       
       .. raw:: html
@@ -40,8 +42,10 @@ perl-crypt-openssl-rsa
       
 
    
-   :depends on openssl: ``>=3.5.4,<4.0a0``
+   :depends on __osx: ``>=10.13``
+   :depends on openssl: ``>=3.5.6,<4.0a0``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends on perl-crypt-openssl-bignum: ``>=0.9,<0.10.0a0``
    :depends on perl-crypt-openssl-guess: ``0.15.*``
    :depends on perl-crypt-openssl-random: ``>=0.11,<0.12.0a0``
 
@@ -121,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "perl-crypt-openssl-rsa";
-        var versions = ["0.37","0.35","0.34","0.33","0.33"];
+        var versions = ["0.39","0.37","0.35","0.34","0.33"];
     </script>
 
 
