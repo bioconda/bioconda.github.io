@@ -10,12 +10,12 @@ raxml-ng
    :replaces_section_title:
    :noindex:
 
-   RAxML Next Generation\: faster\, easier\-to\-use and more flexible
+   RAxML Next Generation\: faster\, easier\-to\-use and more flexible.
 
    :homepage: https://github.com/amkozlov/raxml-ng
-   :license: AGPL / AGPL-3
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`raxml-ng <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/raxml-ng>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/raxml-ng/meta.yaml>`_
-   :links: doi: :doi:`10.1093/bioinformatics/btz305`
+   :links: doi: :doi:`10.1093/bioinformatics/btz305`, biotools: :biotools:`RAxML-NG`, usegalaxy-eu: :usegalaxy-eu:`raxmlng`
 
    
 
@@ -29,10 +29,10 @@ raxml-ng
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.2.2-2</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.1-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.2.2-2</code>,  <code>1.2.2-1</code>,  <code>1.2.2-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-1</code>,  </span></summary>
       
 
-      ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``
+      ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-3``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``
 
       
       .. raw:: html
@@ -41,6 +41,7 @@ raxml-ng
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on gmp: ``>=6.3.0,<7.0a0``
    :depends on htslib: ``>=1.23.1,<1.24.0a0``
    :depends on libcxx: ``>=19``
@@ -122,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "raxml-ng";
-        var versions = ["2.0.0","2.0.0","1.2.2","1.2.2","1.2.2"];
+        var versions = ["2.0.1","2.0.0","2.0.0","1.2.2","1.2.2"];
     </script>
 
 

@@ -28,10 +28,10 @@ r-jackstraw
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.17-0</code>,  <code>1.3.9-1</code>,  <code>1.3.9-0</code>,  <code>1.3.8-1</code>,  <code>1.3.8-0</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3-6</code>,  <code>1.3-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.21-0</code>,  <code>1.3.17-0</code>,  <code>1.3.9-1</code>,  <code>1.3.9-0</code>,  <code>1.3.8-1</code>,  <code>1.3.8-0</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  <code>1.3-6</code>,  </span></summary>
       
 
-      ``1.3.17-0``,  ``1.3.9-1``,  ``1.3.9-0``,  ``1.3.8-1``,  ``1.3.8-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3-6``,  ``1.3-5``,  ``1.3-4``,  ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``
+      ``1.3.21-0``,  ``1.3.17-0``,  ``1.3.9-1``,  ``1.3.9-0``,  ``1.3.8-1``,  ``1.3.8-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3-6``,  ``1.3-5``,  ``1.3-4``,  ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``
 
       
       .. raw:: html
@@ -41,7 +41,7 @@ r-jackstraw
 
    
    :depends on bioconductor-qvalue: 
-   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-bedmatrix: 
    :depends on r-cluster: 
    :depends on r-clusterr: 
@@ -122,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "r-jackstraw";
-        var versions = ["1.3.17","1.3.9","1.3.9","1.3.8","1.3.8"];
+        var versions = ["1.3.21","1.3.17","1.3.9","1.3.9","1.3.8"];
     </script>
 
 

@@ -10,11 +10,14 @@ r-netcomi
    :replaces_section_title:
    :noindex:
 
-   Network Construction and Comparison for Microbiome Data
+   Network Construction and Comparison for Microbiome Data.
 
    :homepage: https://github.com/stefpeschel/NetCoMi
-   :license: GPL-3.0-only
+   :documentation: https://netcomi.de
+   
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`r-netcomi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-netcomi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-netcomi/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bib/bbaa290`, doi: :doi:`10.5281/zenodo.3775500`
 
    NetCoMi offers functions for constructing\, analyzing\, and comparing microbial association networks as well as dissimilarity\-based networks for microbial compositional data. It also includes functionality for constructing differential association networks.
 
@@ -27,14 +30,16 @@ r-netcomi
       
       
 
-      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.3-1``,  ``1.0.3-0``
+      ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.3-1``,  ``1.0.3-0``
 
       
 
    
    :depends on bioconductor-biobase: 
+   :depends on bioconductor-mia: 
    :depends on bioconductor-phyloseq: 
-   :depends on r-base: ``>=4.2,<4.3.0a0``
+   :depends on bioconductor-summarizedexperiment: 
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-corrplot: 
    :depends on r-dosnow: 
    :depends on r-fdrtool: 
@@ -128,7 +133,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "r-netcomi";
-        var versions = ["1.1.0","1.1.0","1.0.3","1.0.3"];
+        var versions = ["1.2.0","1.1.0","1.1.0","1.0.3","1.0.3"];
     </script>
 
 

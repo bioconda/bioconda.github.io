@@ -29,7 +29,7 @@ ashlar
       
       
 
-      ``1.19.0-0``,  ``1.18.0-0``,  ``1.17.0-0``,  ``1.16.0-0``
+      ``1.20.0-0``,  ``1.19.0-0``,  ``1.18.0-0``,  ``1.17.0-0``,  ``1.16.0-0``
 
       
 
@@ -118,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "ashlar";
-        var versions = ["1.19.0","1.18.0","1.17.0","1.16.0"];
+        var versions = ["1.20.0","1.19.0","1.18.0","1.17.0","1.16.0"];
     </script>
 
 

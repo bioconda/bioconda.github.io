@@ -10,10 +10,12 @@ hts-nim-tools
    :replaces_section_title:
    :noindex:
 
-   useful command\-line tools written to show\-case hts\-nim
+   Useful command\-line tools written to show\-case hts\-nim.
 
    :homepage: https://github.com/brentp/hts-nim-tools
-   :license: MIT
+   :documentation: https://brentp.github.io/hts-nim
+   
+   :license: MIT / MIT
    :recipe: /`hts-nim-tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hts-nim-tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hts-nim-tools/meta.yaml>`_
 
    
@@ -27,16 +29,20 @@ hts-nim-tools
       
       
 
-      ``0.3.11-0``,  ``0.2.0-3``,  ``0.1.5-2``,  ``0.1.5-1``,  ``0.1.5-0``
+      ``0.3.31-0``,  ``0.3.11-0``,  ``0.2.0-3``,  ``0.1.5-2``,  ``0.1.5-1``,  ``0.1.5-0``
 
       
 
    
-   :depends on htslib: ``>=1.10.2,<1.24.0a0``
-   :depends on libgcc-ng: ``>=7.5.0``
-   :depends on pcre: ``>=8.44,<9.0a0``
+   :depends on __osx: ``>=10.13``
+   :depends on htslib: ``>=1.23.1,<1.24.0a0``
+   :depends on pcre: ``>=8.45,<9.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
 Installation
@@ -108,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "hts-nim-tools";
-        var versions = ["0.3.11","0.2.0","0.1.5","0.1.5","0.1.5"];
+        var versions = ["0.3.31","0.3.11","0.2.0","0.1.5","0.1.5"];
     </script>
 
 

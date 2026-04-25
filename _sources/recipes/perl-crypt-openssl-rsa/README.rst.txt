@@ -30,10 +30,10 @@ perl-crypt-openssl-rsa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.39-0</code>,  <code>0.37-0</code>,  <code>0.35-0</code>,  <code>0.34-0</code>,  <code>0.33-4</code>,  <code>0.33-3</code>,  <code>0.33-2</code>,  <code>0.33-1</code>,  <code>0.33-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.41-0</code>,  <code>0.39-0</code>,  <code>0.37-0</code>,  <code>0.35-0</code>,  <code>0.34-0</code>,  <code>0.33-4</code>,  <code>0.33-3</code>,  <code>0.33-2</code>,  <code>0.33-1</code>,  </span></summary>
       
 
-      ``0.39-0``,  ``0.37-0``,  ``0.35-0``,  ``0.34-0``,  ``0.33-4``,  ``0.33-3``,  ``0.33-2``,  ``0.33-1``,  ``0.33-0``,  ``0.32-1``,  ``0.32-0``,  ``0.28-1``,  ``0.28-0``
+      ``0.41-0``,  ``0.39-0``,  ``0.37-0``,  ``0.35-0``,  ``0.34-0``,  ``0.33-4``,  ``0.33-3``,  ``0.33-2``,  ``0.33-1``,  ``0.33-0``,  ``0.32-1``,  ``0.32-0``,  ``0.28-1``,  ``0.28-0``
 
       
       .. raw:: html
@@ -125,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "perl-crypt-openssl-rsa";
-        var versions = ["0.39","0.37","0.35","0.34","0.33"];
+        var versions = ["0.41","0.39","0.37","0.35","0.34"];
     </script>
 
 

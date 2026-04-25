@@ -12,12 +12,12 @@ falco
 
    falco is a drop\-in C\+\+ implementation of FastQC to assess the quality of sequence reads.
 
-
    :homepage: https://github.com/smithlabcode/falco
    :documentation: https://falco.readthedocs.io
    
    :license: GPL3 / GPL-3.0-only
    :recipe: /`falco <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/falco>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/falco/meta.yaml>`_
+   :links: biotools: :biotools:`falco`, usegalaxy-eu: :usegalaxy-eu:`falco`, doi: :doi:`10.12688/f1000research.21142.2`
 
    
 
@@ -31,10 +31,10 @@ falco
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.5-0</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.2.3-1</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-5</code>,  <code>1.2.1-4</code>,  <code>1.2.1-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.0-0</code>,  <code>1.2.5-0</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.2.3-1</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-5</code>,  <code>1.2.1-4</code>,  </span></summary>
       
 
-      ``1.2.5-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-5``,  ``1.2.1-4``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``
+      ``1.3.0-0``,  ``1.2.5-0``,  ``1.2.4-1``,  ``1.2.4-0``,  ``1.2.3-1``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-5``,  ``1.2.1-4``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.4-1``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``
 
       
       .. raw:: html
@@ -43,9 +43,10 @@ falco
       
 
    
-   :depends on htslib: ``>=1.21,<1.24.0a0``
-   :depends on libcxx: ``>=18``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on __osx: ``>=10.13``
+   :depends on htslib: ``>=1.23.1,<1.24.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
       
@@ -123,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "falco";
-        var versions = ["1.2.5","1.2.4","1.2.4","1.2.3","1.2.3"];
+        var versions = ["1.3.0","1.2.5","1.2.4","1.2.4","1.2.3"];
     </script>
 
 

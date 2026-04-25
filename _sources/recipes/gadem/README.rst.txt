@@ -10,11 +10,12 @@ gadem
    :replaces_section_title:
    :noindex:
 
-   A Genetic Algorithm Guided Formation of Spaced Dyads Coupled with an EM Algorithm for Motif Discovery
+   A Genetic Algorithm Guided Formation of Spaced Dyads Coupled with an EM Algorithm for Motif Discovery.
 
    :homepage: https://www.niehs.nih.gov/research/resources/software/biostatistics/gadem/index.cfm
-   :license: GPLv3
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`gadem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gadem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gadem/meta.yaml>`_
+   :links: biotools: :biotools:`gadem`, doi: :doi:`10.1089/cmb.2008.16TT`
 
    
 
@@ -27,17 +28,18 @@ gadem
       
       
 
-      ``1.3.1-8``,  ``1.3.1-7``,  ``1.3.1-6``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``
+      ``1.3.1-9``,  ``1.3.1-8``,  ``1.3.1-7``,  ``1.3.1-6``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``
 
       
 
    
+   :depends on __osx: ``>=10.13``
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation

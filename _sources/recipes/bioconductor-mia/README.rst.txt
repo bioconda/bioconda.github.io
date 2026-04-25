@@ -27,11 +27,12 @@ bioconductor-mia
       
       
 
-      ``1.18.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.2-0``,  ``1.0.2-0``
+      ``1.18.0-1``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.2-0``,  ``1.0.2-0``
 
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
    :depends on bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
@@ -71,8 +72,8 @@ bioconductor-mia
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on libcxx: ``>=19``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-ape: 
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-dplyr: 
@@ -86,6 +87,10 @@ bioconductor-mia
    :depends on r-vegan: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -157,7 +162,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bioconductor-mia";
-        var versions = ["1.18.0","1.14.0","1.10.0","1.8.0","1.6.0"];
+        var versions = ["1.18.0","1.18.0","1.14.0","1.10.0","1.8.0"];
     </script>
 
 

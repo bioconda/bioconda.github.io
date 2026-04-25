@@ -28,33 +28,22 @@ repermulize
       
       
 
-      ``1.0.1-0``,  ``1.0-0``
+      ``1.1.1-0``,  ``1.0.1-0``,  ``1.0-0``
 
       
 
    
-   :depends on bioconductor-biomformat: ``1.26.0.*``
-   :depends on bioconductor-ggtree: ``3.6.0.*``
-   :depends on bioconductor-qvalue: ``2.30.0.*``
-   :depends on bioconductor-s4vectors: ``0.36.0.*``
-   :depends on r-ashr: ``2.2_54.*``
-   :depends on r-base: ``>=4.2,<4.3.0a0``
-   :depends on r-castor: ``1.7.10.*``
-   :depends on r-dt: ``0.33.*``
-   :depends on r-extradistr: ``1.9.1.*``
-   :depends on r-forcats: ``1.0.0.*``
-   :depends on r-kableextra: ``1.4.0.*``
-   :depends on r-matrix: ``1.5_4.1.*``
-   :depends on r-pbapply: ``1.7_0.*``
-   :depends on r-phylolm: ``2.6.2.*``
-   :depends on r-plotly: ``<=4.10.4``
-   :depends on r-purrr: ``1.0.1.*``
-   :depends on r-readr: ``2.1.4.*``
-   :depends on r-seqinr: ``4.2_30.*``
+   :depends on r-ape: ``5.8_1.*``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-castor: ``1.8.5.*``
+   :depends on r-dplyr: ``1.2.1.*``
+   :depends on r-future: ``1.70.0.*``
+   :depends on r-mass: ``7.3_65.*``
+   :depends on r-pbapply: ``1.7_4.*``
+   :depends on r-phylolm: ``2.6.5.*``
+   :depends on r-purrr: ``1.2.2.*``
    :depends on r-settings: ``0.2.7.*``
-   :depends on r-stringr: ``1.5.0.*``
-   :depends on r-tibble: ``3.2.1.*``
-   :depends on r-tidyr: ``1.3.0.*``
+   :depends on r-tibble: ``3.3.1.*``
 
    :additional platforms:
       
@@ -128,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "repermulize";
-        var versions = ["1.0.1","1.0"];
+        var versions = ["1.1.1","1.0.1","1.0"];
     </script>
 
 

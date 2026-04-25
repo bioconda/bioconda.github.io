@@ -67,16 +67,22 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">r-netcomi</span></span></dt>
-<dd><p>Network Construction and Comparison for Microbiome Data</p>
+<dd><p>Network Construction and Comparison for Microbiome Data.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/stefpeschel/NetCoMi">https://github.com/stefpeschel/NetCoMi</a></p>
 </dd>
-<dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>GPL-3.0-only</p>
+<dt class="field-even">Documentation<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://netcomi.de">https://netcomi.de</a></p>
 </dd>
-<dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-netcomi">r-netcomi</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-netcomi/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">License<span class="colon">:</span></dt>
+<dd class="field-odd"><p>GPL3 / GPL-3.0-only</p>
+</dd>
+<dt class="field-even">Recipe<span class="colon">:</span></dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-netcomi">r-netcomi</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-netcomi/meta.yaml">meta.yaml</a></p>
+</dd>
+<dt class="field-odd">Links<span class="colon">:</span></dt>
+<dd class="field-odd"><p>doi: <a class="extlink-doi reference external" href="https://doi.org/10.1093/bib/bbaa290">10.1093/bib/bbaa290</a>, doi: <a class="extlink-doi reference external" href="https://doi.org/10.5281/zenodo.3775500">10.5281/zenodo.3775500</a></p>
 </dd>
 </dl>
 <p>NetCoMi offers functions for constructing, analyzing, and comparing microbial association networks as well as dissimilarity-based networks for microbial compositional data. It also includes functionality for constructing differential association networks.</p>
@@ -88,13 +94,15 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/r-netcomi"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-netcomi.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-netcomi"><img alt="docker_r-netcomi" src="https://quay.io/repository/biocontainers/r-netcomi/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.1.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.3-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.3-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.3-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.3-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
 <li><p><strong>on bioconductor-biobase</strong></p></li>
+<li><p><strong>on bioconductor-mia</strong></p></li>
 <li><p><strong>on bioconductor-phyloseq</strong></p></li>
-<li><p><strong>on r-base</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=4.2,&lt;4.3.0a0</span></code></p></li>
+<li><p><strong>on bioconductor-summarizedexperiment</strong></p></li>
+<li><p><strong>on r-base</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=4.5,&lt;4.6.0a0</span></code></p></li>
 <li><p><strong>on r-corrplot</strong></p></li>
 <li><p><strong>on r-dosnow</strong></p></li>
 <li><p><strong>on r-fdrtool</strong></p></li>
@@ -173,7 +181,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
     var package = "r-netcomi";
-    var versions = ["1.1.0","1.1.0","1.0.3","1.0.3"];
+    var versions = ["1.2.0","1.1.0","1.1.0","1.0.3","1.0.3"];
 </script></section>
 </section>
 <section id="download-stats">

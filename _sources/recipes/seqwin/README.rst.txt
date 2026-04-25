@@ -30,10 +30,10 @@ seqwin
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-1</code>,  <code>0.2.0-0</code>,  <code>0.1.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-1</code>,  <code>0.2.0-0</code>,  </span></summary>
       
 
-      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
+      ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.3-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-2``,  ``0.1.0-1``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -43,8 +43,8 @@ seqwin
 
    
    :depends on blast: 
-   :depends on libcxx: ``>=19``
-   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on mash: 
    :depends on ncbi-datasets-cli: 
    :depends on networkx: 
@@ -132,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "seqwin";
-        var versions = ["0.3.1","0.3.0","0.2.3","0.2.2","0.2.2"];
+        var versions = ["0.3.2","0.3.1","0.3.0","0.2.3","0.2.2"];
     </script>
 
 

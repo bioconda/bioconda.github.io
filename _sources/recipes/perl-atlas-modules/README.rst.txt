@@ -13,7 +13,7 @@ perl-atlas-modules
    A package exporting in\-house perl functions and classes used in the data production of EMBL\-EBI Expression Atlas data.
 
    :homepage: https://github.com/ebi-gene-expression-group/perl-atlas-modules
-   :license: APACHE / Apache Software License
+   :license: APACHE / Apache-2.0
    :recipe: /`perl-atlas-modules <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-atlas-modules>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-atlas-modules/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ perl-atlas-modules
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.1-5</code>,  <code>0.3.1-4</code>,  <code>0.3.1-3</code>,  <code>0.3.1-2</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.0-0</code>,  <code>0.1.6-2</code>,  <code>0.1.6-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.2-0</code>,  <code>0.3.1-5</code>,  <code>0.3.1-4</code>,  <code>0.3.1-3</code>,  <code>0.3.1-2</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.0-0</code>,  <code>0.1.6-2</code>,  </span></summary>
       
 
-      ``0.3.1-5``,  ``0.3.1-4``,  ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``
+      ``0.3.2-0``,  ``0.3.1-5``,  ``0.3.1-4``,  ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ perl-atlas-modules
       
 
    
-   :depends on libgcc-ng: ``>=12``
-   :depends on libstdcxx-ng: ``>=12``
-   :depends on perl: ``5.26.2.*``
+   :depends on __osx: ``>=10.13``
+   :depends on libcxx: ``>=19``
+   :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-algorithm-diff: 
    :depends on perl-archive-extract: 
    :depends on perl-archive-zip: 
@@ -54,67 +54,71 @@ perl-atlas-modules
    :depends on perl-carp-clan: 
    :depends on perl-class-accessor: 
    :depends on perl-class-std: 
-   :depends on perl-clone: 
+   :depends on perl-clone: ``0.46.*``
    :depends on perl-data-compare: 
    :depends on perl-data-dumper: 
-   :depends on perl-date-manip: 
-   :depends on perl-datetime: 
-   :depends on perl-datetime-format-strptime: 
-   :depends on perl-dbd-mysql: 
-   :depends on perl-dbd-pg: 
-   :depends on perl-dbi: ``<1.642``
+   :depends on perl-date-manip: ``>=6.99,<7.0a0``
+   :depends on perl-datetime: ``>=1.66,<2.0a0``
+   :depends on perl-datetime-format-strptime: ``>=1.80,<2.0a0``
+   :depends on perl-dbd-mysql: ``>=5.13,<6.0a0``
+   :depends on perl-dbd-pg: ``>=3.20.0,<4.0a0``
+   :depends on perl-dbi: 
    :depends on perl-devel-symdump: 
    :depends on perl-extutils-cbuilder: 
-   :depends on perl-extutils-config: 
-   :depends on perl-extutils-helpers: 
-   :depends on perl-extutils-installpaths: 
+   :depends on perl-extutils-config: ``0.008.*``
+   :depends on perl-extutils-helpers: ``0.026.*``
+   :depends on perl-extutils-installpaths: ``0.012.*``
    :depends on perl-file-spec: 
-   :depends on perl-graphviz: 
+   :depends on perl-graphviz: ``>=2.26,<3.0a0``
    :depends on perl-io-scalar: 
    :depends on perl-io-stringy: 
-   :depends on perl-ipc-cmd: 
-   :depends on perl-ipc-run3: 
-   :depends on perl-json: 
-   :depends on perl-json-parse: 
+   :depends on perl-ipc-cmd: ``>=1.4,<1.5.0a0``
+   :depends on perl-ipc-run3: ``>=0.49,<0.50.0a0``
+   :depends on perl-json: ``>=4.11,<5.0a0``
+   :depends on perl-json-parse: ``>=0.62,<0.63.0a0``
    :depends on perl-list-moreutils: 
    :depends on perl-log-log4perl: 
-   :depends on perl-lwp-protocol-https: 
-   :depends on perl-lwp-simple: 
-   :depends on perl-mailtools: 
+   :depends on perl-lwp-protocol-https: ``>=6.15,<7.0a0``
+   :depends on perl-lwp-simple: ``>=6.67,<7.0a0``
+   :depends on perl-mailtools: ``>=2.22,<3.0a0``
    :depends on perl-mime-lite: 
-   :depends on perl-module-build: 
-   :depends on perl-module-build-tiny: 
+   :depends on perl-module-build: ``0.4234.*``
+   :depends on perl-module-build-tiny: ``0.039.*``
    :depends on perl-module-pluggable: 
-   :depends on perl-moose: 
-   :depends on perl-moosex-types: 
+   :depends on perl-moose: ``2.2207.*``
+   :depends on perl-moosex-types: ``>=0.51,<0.52.0a0``
    :depends on perl-params-coerce: 
-   :depends on perl-params-validate: 
+   :depends on perl-params-validate: ``>=1.31,<2.0a0``
    :depends on perl-parse-recdescent: 
    :depends on perl-path-tiny: 
-   :depends on perl-readonly: 
+   :depends on perl-readonly: ``2.05.*``
    :depends on perl-scalar-list-utils: 
-   :depends on perl-spiffy: 
+   :depends on perl-spiffy: ``0.46.*``
    :depends on perl-sub-exporter-formethods: 
    :depends on perl-sub-uplevel: 
    :depends on perl-test-exception: 
-   :depends on perl-test-inter: 
+   :depends on perl-test-inter: ``>=1.12,<2.0a0``
    :depends on perl-test-needs: 
-   :depends on perl-test-nowarnings: 
+   :depends on perl-test-nowarnings: ``1.06.*``
    :depends on perl-test-pod: 
-   :depends on perl-test-pod-coverage: 
+   :depends on perl-test-pod-coverage: ``>=1.10,<2.0a0``
    :depends on perl-test-warn: 
    :depends on perl-text-csv: 
-   :depends on perl-text-csv_xs: 
+   :depends on perl-text-csv_xs: ``>=1.61,<2.0a0``
    :depends on perl-text-diff: 
    :depends on perl-tie-ixhash: 
-   :depends on perl-timedate: 
-   :depends on perl-uri: 
+   :depends on perl-timedate: ``>=2.35,<3.0a0``
+   :depends on perl-uri: ``5.34.*``
    :depends on perl-xml-parser: 
    :depends on perl-xml-simple: 
    :depends on perl-xml-writer: 
    :depends on perl-yaml: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code></span>
       
 
 Installation
@@ -186,7 +190,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "perl-atlas-modules";
-        var versions = ["0.3.1","0.3.1","0.3.1","0.3.1","0.3.1"];
+        var versions = ["0.3.2","0.3.1","0.3.1","0.3.1","0.3.1"];
     </script>
 
 

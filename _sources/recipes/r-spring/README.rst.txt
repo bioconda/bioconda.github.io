@@ -10,11 +10,12 @@ r-spring
    :replaces_section_title:
    :noindex:
 
-   Semi\-Parametric Rank\-based approach for INference in Graphical model \(SPRING\)
+   Semi\-Parametric Rank\-based approach for INference in Graphical model \(SPRING\).
 
    :homepage: https://github.com/GraceYoon/SPRING
    :license: GPL3 / GPL-3.0-only
    :recipe: /`r-spring <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-spring>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-spring/meta.yaml>`_
+   :links: doi: :doi:`10.3389/fgene.2019.00516`
 
    SPRING is to estimate sparse microbial association networks using rank\-based correlation with sparse graphical modeling techniques.
 
@@ -27,12 +28,12 @@ r-spring
       
       
 
-      ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``
+      ``1.0.4-4``,  ``1.0.4-3``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``
 
       
 
    
-   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-huge: 
    :depends on r-mixedcca: 
    :depends on r-mvtnorm: 
@@ -112,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "r-spring";
-        var versions = ["1.0.4","1.0.4","1.0.4","1.0.4"];
+        var versions = ["1.0.4","1.0.4","1.0.4","1.0.4","1.0.4"];
     </script>
 
 

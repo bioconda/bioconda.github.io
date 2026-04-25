@@ -28,10 +28,10 @@ qcatch
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.11-0</code>,  <code>0.2.10-0</code>,  <code>0.2.9-0</code>,  <code>0.2.8-0</code>,  <code>0.2.7-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.12-0</code>,  <code>0.2.11-0</code>,  <code>0.2.10-0</code>,  <code>0.2.9-0</code>,  <code>0.2.8-0</code>,  <code>0.2.7-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  </span></summary>
       
 
-      ``0.2.11-0``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.1-0``
+      ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.1-0``
 
       
       .. raw:: html
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "qcatch";
-        var versions = ["0.2.11","0.2.10","0.2.9","0.2.8","0.2.7"];
+        var versions = ["0.2.12","0.2.11","0.2.10","0.2.9","0.2.8"];
     </script>
 
 

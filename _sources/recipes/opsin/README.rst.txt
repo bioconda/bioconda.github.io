@@ -6,15 +6,18 @@
 opsin
 =====
 
-.. conda:recipe:: opsin/1.4.0
+.. conda:recipe:: opsin
    :replaces_section_title:
    :noindex:
 
-   OPSIN is a Java\(1.6\+\) library for IUPAC name\-to\-structure conversion offering high recall and precision on organic chemical nomenclature.
+   OPSIN is a Java\(8\+\) library for IUPAC name\-to\-structure conversion offering high recall and precision on organic chemical nomenclature.
 
-   :homepage: https://bitbucket.org/dan2097/opsin/
-   :license: Artistic License 2.0
-   :recipe: /`opsin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/opsin>`_/`1.4.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/opsin/1.4.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/opsin/1.4.0/meta.yaml>`_
+   :homepage: https://github.com/dan2097/opsin
+   :documentation: https://www.ebi.ac.uk/opsin
+   
+   :license: MIT / MIT
+   :recipe: /`opsin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/opsin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/opsin/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`ctb_opsin`
 
    
 
@@ -28,10 +31,10 @@ opsin
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4.0-3</code>,  <code>2.4.0-2</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.1.0-3</code>,  <code>2.1.0-2</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>1.4.0-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.9.0-0</code>,  <code>2.4.0-3</code>,  <code>2.4.0-2</code>,  <code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.1.0-3</code>,  <code>2.1.0-2</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  </span></summary>
       
 
-      ``2.4.0-3``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.1.0-3``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``1.4.0-3``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
+      ``2.9.0-0``,  ``2.4.0-3``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.1.0-3``,  ``2.1.0-2``,  ``2.1.0-1``,  ``2.1.0-0``,  ``1.4.0-3``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -40,7 +43,7 @@ opsin
       
 
    
-   :depends on openjdk: ``>=6``
+   :depends on openjdk: ``>=8``
 
    :additional platforms:
       
@@ -114,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "opsin";
-        var versions = ["2.4.0","2.4.0","2.4.0","2.4.0","2.1.0"];
+        var versions = ["2.9.0","2.4.0","2.4.0","2.4.0","2.4.0"];
     </script>
 
 
@@ -123,12 +126,13 @@ Check the documentation of your workflow management system to find out about the
 
 Notes
 -----
-Opsin is Java program that comes with a custom wrapper shell script.
+Opsin is a Java program that comes with a custom wrapper shell script.
 This shell wrapper is called \"opsin\" and is on \$PATH by default. By default
-\"\-Xms512m \-Xmx1g\" is set in the wrapper. If you want to overwrite it you can
+\"\-Xms512m \-Xmx4g\" is set in the wrapper. If you want to overwrite it you can
 specify these values directly after your binaries. If you have \_JAVA\_OPTIONS
 set globally this will take precedence.
-For example run opsin with \"opsin \-Xms512m \-Xmx1g \-\-help\"
+For example run opsin with \"opsin \-Xms512m \-Xmx4g \-\-help\"
+
 
 
 Download stats

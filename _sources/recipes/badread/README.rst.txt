@@ -10,10 +10,10 @@ badread
    :replaces_section_title:
    :noindex:
 
-   A long read simulator that can imitate many types of read problems
+   A long read simulator that can imitate many types of read problems.
 
    :homepage: https://github.com/rrwick/Badread
-   :license: GPL3 / GNU General Public License v3 (GPLv3)
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`badread <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/badread>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/badread/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ badread
       
       
 
-      ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.5-0``
+      ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-1``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.5-0``
 
       
 
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "badread";
-        var versions = ["0.4.1","0.4.0","0.4.0","0.3.0","0.2.0"];
+        var versions = ["0.4.2","0.4.1","0.4.0","0.4.0","0.3.0"];
     </script>
 
 

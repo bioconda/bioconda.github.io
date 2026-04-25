@@ -13,8 +13,11 @@ nemo-age
    In Nemo\-age\, it is possible to model genetic and phenotypic evolution in populations with\, for instance\, overlapping generations\, a seed bank\, and multiple age classes with stage\-specific transition rates\, fecundities\, selection pressures\, and dispersal rates\, among other things.
 
    :homepage: https://bitbucket.org/ecoevo/nemo-age-release
-   :license: GPL3 / GPL-3
+   :documentation: https://bitbucket.org/ecoevo/nemo-age-release/src/v0.32.0/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`nemo-age <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nemo-age>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nemo-age/meta.yaml>`_
+   :links: doi: :doi:`10.1111/2041-210X.13460`
 
    
 
@@ -27,16 +30,22 @@ nemo-age
       
       
 
-      ``0.30.0-5``,  ``0.30.0-4``,  ``0.30.0-3``,  ``0.30.0-2``,  ``0.30.0-1``,  ``0.30.0-0``,  ``0.29.0-1``,  ``0.29.0-0``
+      ``0.32.0-0``,  ``0.30.0-5``,  ``0.30.0-4``,  ``0.30.0-3``,  ``0.30.0-2``,  ``0.30.0-1``,  ``0.30.0-0``,  ``0.29.0-1``,  ``0.29.0-0``
 
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on gsl: ``>=2.7,<2.8.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=19``
+   :depends on llvm-openmp: ``>=19.1.7``
+   :depends on mpich-mpicxx: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -108,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "nemo-age";
-        var versions = ["0.30.0","0.30.0","0.30.0","0.30.0","0.30.0"];
+        var versions = ["0.32.0","0.30.0","0.30.0","0.30.0","0.30.0"];
     </script>
 
 
