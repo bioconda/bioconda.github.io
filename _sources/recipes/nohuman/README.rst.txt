@@ -43,7 +43,7 @@ nohuman
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on kraken2: ``2.*``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
 

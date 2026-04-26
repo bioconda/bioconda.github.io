@@ -30,13 +30,14 @@ mmcif
       
       
 
-      ``1.1.0-0``,  ``1.0.0-0``,  ``0.92.0-1``,  ``0.92.0-0``,  ``0.91.0-0``
+      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.92.0-1``,  ``0.92.0-0``,  ``0.91.0-0``
 
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on future: 
-   :depends on libcxx: ``>=18``
+   :depends on libcxx: ``>=19``
    :depends on msgpack-python: 
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
@@ -119,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "mmcif";
-        var versions = ["1.1.0","1.0.0","0.92.0","0.92.0","0.91.0"];
+        var versions = ["1.1.1","1.1.0","1.0.0","0.92.0","0.92.0"];
     </script>
 
 

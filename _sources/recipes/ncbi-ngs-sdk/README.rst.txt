@@ -40,8 +40,9 @@ ncbi-ngs-sdk
       
 
    
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
    :depends on libiconv: ``>=1.17,<2.0a0``
+   :depends on libstdcxx: ``>=13``
    :depends on libxml2: ``>=2.13.5,<3.0a0``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
 

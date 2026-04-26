@@ -160,7 +160,7 @@ Check the documentation of your workflow management system to find out about the
    :depends on eigen: ``>=3.4.0,<3.5.0a0``
    :depends on libarrow: ``>=21.0.0,<21.1.0a0``
    :depends on libcxx: ``>=18``
-   :depends on libopenms: ``3.5.0 h02e8e2c_0``
+   :depends on libopenms: ``3.5.0 h030a1c7_0``
    :depends on libparquet: ``>=21.0.0,<21.1.0a0``
    :depends on libsvm: ``>=335,<400``
    :depends on qt6-main: ``>=6.7.3,<6.8.0a0``

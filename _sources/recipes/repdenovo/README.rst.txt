@@ -13,8 +13,11 @@ repdenovo
    REPdenovo is designed for constructing repeats directly from sequence reads.
 
    :homepage: https://github.com/Reedwarbler/REPdenovo
-   :license: MIT
+   :documentation: https://github.com/simoncchu/REPdenovo/blob/v0.1.0/README.md
+   
+   :license: MIT / MIT
    :recipe: /`repdenovo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repdenovo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repdenovo/meta.yaml>`_
+   :links: doi: :doi:`10.1371/journal.pone.0150719`, biotools: :biotools:`repdenovo`
 
    
 
@@ -27,22 +30,25 @@ repdenovo
       
       
 
-      ``0.0.1-5``,  ``0.0.1-4``,  ``0.0.1-3``,  ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
+      ``0.1.0-0``,  ``0.0.1-5``,  ``0.0.1-4``,  ``0.0.1-3``,  ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
 
       
 
    
-   :depends on bamtools: ``>=2.5.2,<2.6.0a0``
+   :depends on __osx: ``>=11.0``
+   :depends on bamtools: ``>=2.5.3,<3.0a0``
    :depends on bwa: 
    :depends on kmer-jellyfish: 
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on python: 
    :depends on velvet: 
-   :depends on zlib: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -114,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "repdenovo";
-        var versions = ["0.0.1","0.0.1","0.0.1","0.0.1","0.0.1"];
+        var versions = ["0.1.0","0.0.1","0.0.1","0.0.1","0.0.1"];
     </script>
 
 

@@ -12,9 +12,10 @@ pyfish
 
    Plotting tool for evolutionary population dynamics. Creates a Fish \(Muller\) plot.
 
-   :homepage: https://bitbucket.org/schwarzlab/pyfish
-   :license: GPL-3
+   :homepage: https://github.com/ICCB-Cologne/PyFish
+   :license: MIT / MIT
    :recipe: /`pyfish <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyfish>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyfish/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btad102`
 
    
 
@@ -27,7 +28,7 @@ pyfish
       
       
 
-      ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.1.1-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -110,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "pyfish";
-        var versions = ["1.0.3","1.0.2","1.0.1","1.0.0"];
+        var versions = ["1.1.1","1.0.3","1.0.2","1.0.1","1.0.0"];
     </script>
 
 

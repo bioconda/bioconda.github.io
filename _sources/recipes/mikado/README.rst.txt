@@ -43,7 +43,7 @@ mikado
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on biopython: ``>=1.79``
    :depends on datrie: ``>=0.8``
    :depends on diamond: ``2.1.16``

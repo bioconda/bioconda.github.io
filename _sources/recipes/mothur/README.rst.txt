@@ -44,7 +44,7 @@ mothur
       
 
    
-   :depends on blast: ``>=2.17.0,<2.18.0a0``
+   :depends on blast: ``>=2.16.0,<2.17.0a0``
    :depends on boost-cpp: 
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on gsl: ``>=2.7,<2.8.0a0``
@@ -52,7 +52,6 @@ mothur
    :depends on libcxx: ``>=18``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on readline: ``>=8.3,<9.0a0``
-   :depends on sra-tools: ``>=3.2.1,<4.0a0``
    :depends on vsearch: ``>=2.15.2``
    :depends on vsearch: ``>=2.30.3,<3.0a0``
 

@@ -30,13 +30,13 @@ fastreer
       
       
 
-      ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.13.30-0``,  ``1.13.26-0``,  ``1.13.23-0``
+      ``2.1.6-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.13.30-0``,  ``1.13.26-0``,  ``1.13.23-0``
 
       
 
    
    :depends on openjdk: ``>=11.0.1``
-   :depends on python: ``>=3.9``
+   :depends on python: ``>=3.10``
 
    :additional platforms:
       
@@ -110,7 +110,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "fastreer";
-        var versions = ["2.1.3","2.1.2","2.1.0","2.0.0","2.0.0"];
+        var versions = ["2.1.6","2.1.3","2.1.2","2.1.0","2.0.0"];
     </script>
 
 

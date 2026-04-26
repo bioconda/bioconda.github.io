@@ -40,7 +40,6 @@ clustalo
       
 
    
-   :depends on argtable2: 
    :depends on libcxx: ``>=18``
 
    :additional platforms:

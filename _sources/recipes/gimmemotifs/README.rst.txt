@@ -44,8 +44,7 @@ gimmemotifs
 
    
    :depends on dinamo: ``>=1.0``
-   :depends on gadem: ``>=1.3.1``
-   :depends on gimmemotifs-minimal: ``0.18.2 py310h35a9a54_1``
+   :depends on gimmemotifs-minimal: ``0.18.2 py310h5eb0d11_1``
    :depends on homer: ``>=4.11``
    :depends on meme: ``>=5.5.7``
    :depends on prosampler: ``>=1.5``
@@ -155,7 +154,7 @@ Check the documentation of your workflow management system to find out about the
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on biofluff: ``>=3.0.4``
    :depends on configparser: 
    :depends on diskcache: 

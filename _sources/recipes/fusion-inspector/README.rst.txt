@@ -29,10 +29,10 @@ fusion-inspector
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.11.4-0</code>,  <code>2.11.3-0</code>,  <code>2.11.0-0</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.2.1-0</code>,  <code>1.3.1-1</code>,  <code>1.3.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.11.5-0</code>,  <code>2.11.4-0</code>,  <code>2.11.3-0</code>,  <code>2.11.0-0</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.8.0-0</code>,  <code>2.2.1-0</code>,  <code>1.3.1-1</code>,  </span></summary>
       
 
-      ``2.11.4-0``,  ``2.11.3-0``,  ``2.11.0-0``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.2.1-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
+      ``2.11.5-0``,  ``2.11.4-0``,  ``2.11.3-0``,  ``2.11.0-0``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.8.0-0``,  ``2.2.1-0``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.2.0-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``
 
       
       .. raw:: html
@@ -126,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "fusion-inspector";
-        var versions = ["2.11.4","2.11.3","2.11.0","2.10.0","2.10.0"];
+        var versions = ["2.11.5","2.11.4","2.11.3","2.11.0","2.10.0"];
     </script>
 
 

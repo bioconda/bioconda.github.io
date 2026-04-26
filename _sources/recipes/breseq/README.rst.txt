@@ -43,7 +43,7 @@ breseq
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on bowtie2: ``>=2.0.0,!=2.0.3,!=2.0.4,!=2.3.1``
    :depends on libcxx: ``>=19``
    :depends on libzlib: ``>=1.3.2,<2.0a0``

@@ -29,7 +29,7 @@ funannotate2
       
       
 
-      ``26.2.12-0``
+      ``26.4.22-0``,  ``26.2.12-0``
 
       
 
@@ -128,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "funannotate2";
-        var versions = ["26.2.12"];
+        var versions = ["26.4.22","26.2.12"];
     </script>
 
 

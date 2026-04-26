@@ -47,7 +47,7 @@ arriba
    :depends on bioconductor-genomicranges: 
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on htslib: ``<1.22``
-   :depends on htslib: ``>=1.21,<1.24.0a0``
+   :depends on htslib: ``>=1.21,<1.22.0a0``
    :depends on libcxx: ``>=18``
    :depends on libdeflate: ``>=1.22,<1.23.0a0``
    :depends on liblzma: ``>=5.8.1,<6.0a0``

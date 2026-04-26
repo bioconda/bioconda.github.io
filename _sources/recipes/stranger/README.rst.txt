@@ -13,7 +13,7 @@ stranger
    Annotate VCF files with STR variants with pathogenicity implications.
 
    :homepage: https://github.com/Clinical-Genomics/stranger
-   :documentation: https://github.com/Clinical-Genomics/stranger/blob/v0.10.0/README.md
+   :documentation: https://github.com/Clinical-Genomics/stranger/blob/v0.10.2/README.md
    
    :license: MIT / MIT
    :recipe: /`stranger <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stranger>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stranger/meta.yaml>`_
@@ -28,9 +28,17 @@ stranger
    :versions:
       
       
+      .. raw:: html
 
-      ``0.10.0-0``,  ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.10.2-0</code>,  <code>0.10.0-0</code>,  <code>0.9.5-0</code>,  <code>0.9.4-0</code>,  <code>0.9.3-0</code>,  <code>0.9.2-1</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  </span></summary>
+      
 
+      ``0.10.2-0``,  ``0.10.0-0``,  ``0.9.5-0``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-1``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -112,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "stranger";
-        var versions = ["0.10.0","0.9.5","0.9.4","0.9.3","0.9.2"];
+        var versions = ["0.10.2","0.10.0","0.9.5","0.9.4","0.9.3"];
     </script>
 
 

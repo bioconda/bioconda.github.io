@@ -1,40 +1,45 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'reaper'
+.. title:: Package Recipe 'mytaxa'
 .. highlight: bash
 
-reaper
+mytaxa
 ======
 
-.. conda:recipe:: reaper
+.. conda:recipe:: mytaxa
    :replaces_section_title:
    :noindex:
 
-   Tool for demultiplexing\, trimming and filtering sequencing data.
+   MyTaxa — Taxonomic classification of microbial genomes
 
-   :homepage: https://www.ebi.ac.uk/~stijn/reaper/reaper.html
-   :license: GPL3
-   :recipe: /`reaper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reaper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reaper/meta.yaml>`_
+   :homepage: https://github.com/bio-miga/MyTaxa
+   :license: GPL3 / GPL-3.0-or-later
+   :recipe: /`mytaxa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mytaxa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mytaxa/meta.yaml>`_
 
    
 
 
-.. conda:package:: reaper
+.. conda:package:: mytaxa
 
-   |downloads_reaper| |docker_reaper|
+   |downloads_mytaxa| |docker_mytaxa|
 
    :versions:
       
       
 
-      ``16.098-3``,  ``16.098-2``,  ``16.098-1``,  ``16.098-0``
+      ``1.2.0-0``
 
       
 
    
-   :depends on zlib: ``>=1.2.11,<1.3.0a0``
+   :depends on __osx: ``>=11.0``
+   :depends on libcxx: ``>=19``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -51,11 +56,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install reaper
+    pixi global install mytaxa
 
 to add into an existing workspace instead, run::
 
-    pixi add reaper
+    pixi add mytaxa
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -67,11 +72,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install reaper
+    conda install mytaxa
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname reaper
+    conda create -n envname mytaxa
 
 with ``envname`` being the name of the desired environment.
 
@@ -81,9 +86,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/reaper:<tag>
+    docker pull quay.io/biocontainers/mytaxa:<tag>
 
-(see `reaper/tags`_ for valid values for ``<tag>``).
+(see `mytaxa/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -94,19 +99,19 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_reaper| image:: https://img.shields.io/conda/dn/bioconda/reaper.svg?style=flat
-   :target: https://anaconda.org/bioconda/reaper
+.. |downloads_mytaxa| image:: https://img.shields.io/conda/dn/bioconda/mytaxa.svg?style=flat
+   :target: https://anaconda.org/bioconda/mytaxa
    :alt:   (downloads)
-.. |docker_reaper| image:: https://quay.io/repository/biocontainers/reaper/status
-   :target: https://quay.io/repository/biocontainers/reaper
-.. _`reaper/tags`: https://quay.io/repository/biocontainers/reaper?tab=tags
+.. |docker_mytaxa| image:: https://quay.io/repository/biocontainers/mytaxa/status
+   :target: https://quay.io/repository/biocontainers/mytaxa
+.. _`mytaxa/tags`: https://quay.io/repository/biocontainers/mytaxa?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "reaper";
-        var versions = ["16.098","16.098","16.098","16.098"];
+        var package = "mytaxa";
+        var versions = ["1.2.0"];
     </script>
 
 
@@ -125,7 +130,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/reaper/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mytaxa/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/reaper/README.html
+   :target: http://bioconda.github.io/recipes/mytaxa/README.html
