@@ -37,7 +37,8 @@ thebigbam
    :depends on bokeh: ``>=3.0``
    :depends on bwa-mem2: 
    :depends on dna_features_viewer: ``>=1.0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on minimap2: 
    :depends on panel: ``>=1.4``
    :depends on pysam: ``>=0.20``

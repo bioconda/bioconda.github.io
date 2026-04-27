@@ -10,10 +10,10 @@ aoptk
    :replaces_section_title:
    :noindex:
 
-   Tools to support data mining for the development of \(q\)AOPs
+   Tools to support data mining for the development of \(q\)AOPs.
 
    :homepage: https://github.com/rdurnik/aoptk
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`aoptk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aoptk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aoptk/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ aoptk
       
       
 
-      ``0.2.0-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``
+      ``0.3.2-0``,  ``0.2.0-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``
 
       
 
@@ -41,8 +41,7 @@ aoptk
    :depends on openpyxl: 
    :depends on pandas: 
    :depends on pymupdf: 
-   :depends on python: 
-   :depends on python-dotenv: 
+   :depends on python: ``>=3.8``
    :depends on pytorch: 
    :depends on requests: 
    :depends on scispacy: 
@@ -122,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "aoptk";
-        var versions = ["0.2.0","0.1.6","0.1.5","0.1.4"];
+        var versions = ["0.3.2","0.2.0","0.1.6","0.1.5","0.1.4"];
     </script>
 
 

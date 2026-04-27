@@ -36,13 +36,14 @@ metaseq
    :depends on bx-python: ``>=0.7.1``
    :depends on fisher: 
    :depends on gffutils: ``>=0.8.2``
+   :depends on libgcc-ng: ``>=10.3.0``
    :depends on matplotlib: ``>=1.3.1``
    :depends on numpy: ``>=1.8.0``
    :depends on pandas: ``>=0.13.1``
    :depends on pybedtools: ``>=0.6.6``
    :depends on pysam: ``>=0.7``
    :depends on python: ``>=2.7,<2.8.0a0``
-   :depends on python_abi: ``2.7.* *_cp27m``
+   :depends on python_abi: ``2.7.* *_cp27mu``
    :depends on pyyaml: ``>=3.10``
    :depends on scikit-learn: 
    :depends on scipy: ``>=0.10.1``

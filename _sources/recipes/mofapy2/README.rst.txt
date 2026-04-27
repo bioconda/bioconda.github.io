@@ -10,10 +10,12 @@ mofapy2
    :replaces_section_title:
    :noindex:
 
-   Multi\-Omics Factor Analysis
+   Multi\-Omics Factor Analysis.
 
    :homepage: https://github.com/bioFAM/mofapy2
-   :license: LGPL / LGPL 3.0
+   :documentation: https:/biofam.github.io/MOFA2
+   
+   :license: LGPL / LGPL-3.0-only
    :recipe: /`mofapy2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mofapy2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mofapy2/meta.yaml>`_
 
    
@@ -27,16 +29,15 @@ mofapy2
       
       
 
-      ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``
+      ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``
 
       
 
    
-   :depends on anndata: 
    :depends on h5py: 
    :depends on numpy: 
    :depends on pandas: 
-   :depends on python: 
+   :depends on python: ``>=3.8``
    :depends on scikit-learn: 
    :depends on scipy: 
 
@@ -112,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "mofapy2";
-        var versions = ["0.7.3","0.7.2","0.7.1"];
+        var versions = ["0.7.4","0.7.3","0.7.2","0.7.1"];
     </script>
 
 

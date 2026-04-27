@@ -30,7 +30,7 @@ pridepy
       
       
 
-      ``0.0.13-0``,  ``0.0.12-0``
+      ``0.0.14-0``,  ``0.0.13-0``,  ``0.0.12-0``
 
       
 
@@ -116,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "pridepy";
-        var versions = ["0.0.13","0.0.12"];
+        var versions = ["0.0.14","0.0.13","0.0.12"];
     </script>
 
 
