@@ -10,10 +10,12 @@ tr-trimmer
    :replaces_section_title:
    :noindex:
 
-   Identify and trim terminal repeats from sequences in FASTA files
+   Identify and trim terminal repeats from sequences in FASTA files.
 
    :homepage: https://github.com/apcamargo/tr-trimmer
-   :license: MIT
+   :documentation: https://github.com/apcamargo/tr-trimmer/blob/v0.5.0/README.md
+   
+   :license: MIT / MIT
    :recipe: /`tr-trimmer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tr-trimmer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tr-trimmer/meta.yaml>`_
 
    
@@ -27,11 +29,12 @@ tr-trimmer
       
       
 
-      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
 
    :additional platforms:
       
@@ -109,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "tr-trimmer";
-        var versions = ["0.4.0","0.3.0","0.2.0","0.1.0"];
+        var versions = ["0.5.0","0.4.0","0.3.0","0.2.0","0.1.0"];
     </script>
 
 

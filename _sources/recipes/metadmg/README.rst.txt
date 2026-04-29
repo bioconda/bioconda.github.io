@@ -13,7 +13,7 @@ metadmg
    metaDMG\-cpp\: fast and efficient method for estimating mutation and damage rates in ancient DNA data.
 
    :homepage: https://github.com/metaDMG-dev/metaDMG-cpp
-   :documentation: https://github.com/metaDMG-dev/metaDMG-cpp/blob/v0.4.4/README.md
+   :documentation: https://github.com/metaDMG-dev/metaDMG-cpp/blob/v0.5.0/README.md
    
    :license: GPL3 / GPL-3.0-or-later, MIT
    :recipe: /`metadmg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metadmg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metadmg/meta.yaml>`_
@@ -29,16 +29,25 @@ metadmg
    :versions:
       
       
+      .. raw:: html
 
-      ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-2``,  ``0.4-1``,  ``0.4-0``,  ``0.3-1``,  ``0.3-0``
+         <details><summary><span class="truncated-version-list"><code>0.5.0-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4-2</code>,  <code>0.4-1</code>,  <code>0.4-0</code>,  <code>0.3-1</code>,  </span></summary>
+      
 
+      ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4-2``,  ``0.4-1``,  ``0.4-0``,  ``0.3-1``,  ``0.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on gsl: ``>=2.7,<2.8.0a0``
    :depends on htslib: ``>=1.23.1,<1.24.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
@@ -117,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "metadmg";
-        var versions = ["0.4.4","0.4.3","0.4.2","0.4.1","0.4"];
+        var versions = ["0.5.0","0.4.4","0.4.3","0.4.2","0.4.1"];
     </script>
 
 

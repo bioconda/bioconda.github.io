@@ -37,12 +37,13 @@ flexsweep
    :depends on click: ``>=8.1.7,<9.0.0``
    :depends on demes: ``>=0.2.3,<0.3.0``
    :depends on joblib: ``>=1.4.2,<2.0.0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on matplotlib-base: ``>=3.9.2,<4.0.0``
    :depends on numba: ``>=0.60.0,<0.61.0``
    :depends on numpy: ``1.26.4``
    :depends on polars: ``>=1.14.0,<2.0.0``
-   :depends on pyarrow: ``>=19``
+   :depends on pyarrow: ``>=21.0.0,<22``
    :depends on pybedtools: ``>=0.12.0``
    :depends on python: ``>=3.12,<3.13.0a0``
    :depends on python_abi: ``3.12.* *_cp312``
@@ -52,6 +53,7 @@ flexsweep
    :depends on tbb: ``>=2022.1.0,<2023.0.0``
    :depends on tensorflow: ``>=2.18.0``
    :depends on threadpoolctl: ``>=3.5.0,<4.0.0``
+   :depends on zig: ``>=0.15.2,<0.15.3.0a0``
 
    :additional platforms:
       

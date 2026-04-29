@@ -34,7 +34,7 @@ kmertools
       
 
    
-   :depends on python_abi: ``3.9.* *_cp39``
+   :depends on python_abi: ``3.12.* *_cp312``
 
    :additional platforms:
       

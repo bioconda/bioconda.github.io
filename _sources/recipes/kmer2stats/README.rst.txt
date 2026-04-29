@@ -27,7 +27,7 @@ kmer2stats
       
       
 
-      ``1.0.1-0``
+      ``1.0.2-0``,  ``1.0.1-0``
 
       
 
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "kmer2stats";
-        var versions = ["1.0.1"];
+        var versions = ["1.0.2","1.0.1"];
     </script>
 
 

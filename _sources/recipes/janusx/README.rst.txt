@@ -13,7 +13,7 @@ janusx
    GWAS and genomic selection toolkit with Rust\-accelerated kernels.
 
    :homepage: https://github.com/FJingxian/JanusX
-   :documentation: https://github.com/FJingxian/JanusX/tree/v1.0.20/doc
+   :documentation: https://github.com/FJingxian/JanusX/tree/v1.0.21/doc
    
    :license: AGPL-3.0-or-later
    :recipe: /`janusx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/janusx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/janusx/meta.yaml>`_
@@ -37,17 +37,20 @@ janusx
       
       
 
-      ``1.0.20-0``
+      ``1.0.21-0``,  ``1.0.20-0``
 
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on joblib: ``>=1.5``
+   :depends on libgcc: ``>=14``
    :depends on matplotlib-base: 
+   :depends on mkl: 
    :depends on numpy: ``>=1.21,<3``
    :depends on pandas: ``<3.0``
    :depends on psutil: 
+   :depends on pypardiso: 
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on rich: 
@@ -134,7 +137,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "janusx";
-        var versions = ["1.0.20"];
+        var versions = ["1.0.21","1.0.20"];
     </script>
 
 

@@ -28,10 +28,10 @@ r-conos
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.3-0</code>,  <code>1.5.2-1</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-3</code>,  <code>1.5.0-2</code>,  <code>1.5.0-1</code>,  <code>1.5.0-0</code>,  <code>1.4.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.4-0</code>,  <code>1.5.3-0</code>,  <code>1.5.2-1</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-3</code>,  <code>1.5.0-2</code>,  <code>1.5.0-1</code>,  <code>1.5.0-0</code>,  </span></summary>
       
 
-      ``1.5.3-0``,  ``1.5.2-1``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.6-0``
+      ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-1``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-3``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.6-0``
 
       
       .. raw:: html
@@ -40,6 +40,7 @@ r-conos
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-complexheatmap: ``>=2.26.1,<2.27.0a0``
    :depends on libgcc: ``>=14``
    :depends on libstdcxx: ``>=14``
@@ -57,6 +58,7 @@ r-conos
    :depends on r-magrittr: 
    :depends on r-matrix: 
    :depends on r-n2r: 
+   :depends on r-pagoda2: 
    :depends on r-r6: 
    :depends on r-rcpp: 
    :depends on r-rcpparmadillo: 
@@ -139,7 +141,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "r-conos";
-        var versions = ["1.5.3","1.5.2","1.5.2","1.5.1","1.5.0"];
+        var versions = ["1.5.4","1.5.3","1.5.2","1.5.2","1.5.1"];
     </script>
 
 

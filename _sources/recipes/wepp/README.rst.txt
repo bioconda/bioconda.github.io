@@ -30,22 +30,23 @@ wepp
       
       
 
-      ``0.1.5.4-0``,  ``0.1.5.3-1``,  ``0.1.5.3-0``,  ``0.1.5.2-0``,  ``0.1.5.1-0``,  ``0.1.5-0``,  ``0.1.4.1-0``
+      ``0.1.5.5-0``,  ``0.1.5.4-0``,  ``0.1.5.3-1``,  ``0.1.5.3-0``,  ``0.1.5.2-0``,  ``0.1.5.1-0``,  ``0.1.5-0``,  ``0.1.4.1-0``
 
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on aiohttp: 
    :depends on altair: 
    :depends on biopython: 
    :depends on boost: ``1.78.*``
    :depends on conda: ``>=24.7.1``
    :depends on jsoncpp: ``>=1.9.6,<1.9.7.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on mpich: ``>=4.3.1,<5.0a0``
    :depends on nodejs: ``>=16,<24``
    :depends on pandas: 
-   :depends on pip: 
    :depends on protobuf: ``<4``
    :depends on python: ``>=3.11,<3.12.0a0``
    :depends on snakemake-minimal: ``>=9.0``
@@ -128,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "wepp";
-        var versions = ["0.1.5.4","0.1.5.3","0.1.5.3","0.1.5.2","0.1.5.1"];
+        var versions = ["0.1.5.5","0.1.5.4","0.1.5.3","0.1.5.3","0.1.5.2"];
     </script>
 
 

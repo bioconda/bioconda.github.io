@@ -29,11 +29,12 @@ sracha
       
       
 
-      ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.8-0``,  ``0.1.7-0``
+      ``0.3.5-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.8-0``,  ``0.1.7-0``
 
       
 
    
+   :depends on libgcc: ``>=14``
 
    :additional platforms:
       
@@ -111,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "sracha";
-        var versions = ["0.3.3","0.3.2","0.3.1","0.3.0","0.2.0"];
+        var versions = ["0.3.5","0.3.3","0.3.2","0.3.1","0.3.0"];
     </script>
 
 

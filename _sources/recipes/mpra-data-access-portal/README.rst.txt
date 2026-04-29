@@ -28,10 +28,10 @@ mpra-data-access-portal
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.17-0</code>,  <code>0.1.16-0</code>,  <code>0.1.15-0</code>,  <code>0.1.14-0</code>,  <code>0.1.13-0</code>,  <code>0.1.12-0</code>,  <code>0.1.11-0</code>,  <code>0.1.10-0</code>,  <code>0.1.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.18-0</code>,  <code>0.1.17-0</code>,  <code>0.1.16-0</code>,  <code>0.1.15-0</code>,  <code>0.1.14-0</code>,  <code>0.1.13-0</code>,  <code>0.1.12-0</code>,  <code>0.1.11-0</code>,  <code>0.1.10-0</code>,  </span></summary>
       
 
-      ``0.1.17-0``,  ``0.1.16-0``,  ``0.1.15-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-3``,  ``0.1.8-2``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``
+      ``0.1.18-0``,  ``0.1.17-0``,  ``0.1.16-0``,  ``0.1.15-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-3``,  ``0.1.8-2``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``
 
       
       .. raw:: html
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "mpra-data-access-portal";
-        var versions = ["0.1.17","0.1.16","0.1.15","0.1.14","0.1.13"];
+        var versions = ["0.1.18","0.1.17","0.1.16","0.1.15","0.1.14"];
     </script>
 
 

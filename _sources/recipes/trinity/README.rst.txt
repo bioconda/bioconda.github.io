@@ -43,18 +43,22 @@ trinity
       
 
    
+   :depends on _openmp_mutex: ``>=4.5``
+   :depends on bioconductor-ctc: 
    :depends on bioconductor-dexseq: 
    :depends on bioconductor-edger: 
    :depends on bioconductor-go.db: 
+   :depends on bioconductor-goseq: 
    :depends on bioconductor-qvalue: 
    :depends on bowtie2: ``>=2.3.0``
    :depends on coreutils: 
-   :depends on htslib: ``>=1.22.1,<1.23.0a0``
+   :depends on htslib: ``>=1.22.1,<1.24.0a0``
    :depends on kallisto: 
    :depends on kmer-jellyfish: ``>=2.3``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libgomp: 
+   :depends on libstdcxx: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on llvm-openmp: ``>=18.1.8``
    :depends on numpy: 
    :depends on openjdk: ``>=17``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
@@ -67,7 +71,9 @@ trinity
    :depends on r-fastcluster: 
    :depends on r-gplots: 
    :depends on r-phangorn: 
+   :depends on r-sm: 
    :depends on r-tidyverse: 
+   :depends on r-vioplot: 
    :depends on salmon: 
    :depends on samtools: ``>=1.14``
    :depends on trimmomatic: ``>=0.39``

@@ -13,6 +13,7 @@ beast2
    BEAST 2 is a cross\-platform program for Bayesian phylogenetic analysis of molecular sequences.
 
    :homepage: http://www.beast2.org
+   :developer docs: https://github.com/CompEvol/beast2
    :license: LGPL-2.1-or-later
    :recipe: /`beast2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/beast2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/beast2/meta.yaml>`_
 
@@ -28,10 +29,10 @@ beast2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.6.3-2</code>,  <code>2.6.3-1</code>,  <code>2.6.3-0</code>,  <code>2.6.2-0</code>,  <code>2.6.1-0</code>,  <code>2.6.0-0</code>,  <code>2.5.0-4</code>,  <code>2.5.0-3</code>,  <code>2.5.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.7.7-0</code>,  <code>2.6.3-2</code>,  <code>2.6.3-1</code>,  <code>2.6.3-0</code>,  <code>2.6.2-0</code>,  <code>2.6.1-0</code>,  <code>2.6.0-0</code>,  <code>2.5.0-4</code>,  <code>2.5.0-3</code>,  </span></summary>
       
 
-      ``2.6.3-2``,  ``2.6.3-1``,  ``2.6.3-0``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.5-3``,  ``2.4.5-2``,  ``2.4.5-1``,  ``2.4.5-0``
+      ``2.7.7-0``,  ``2.6.3-2``,  ``2.6.3-1``,  ``2.6.3-0``,  ``2.6.2-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.5-3``,  ``2.4.5-2``,  ``2.4.5-1``,  ``2.4.5-0``
 
       
       .. raw:: html
@@ -44,7 +45,6 @@ beast2
    :depends on font-ttf-ubuntu: 
    :depends on fontconfig: 
    :depends on freetype: 
-   :depends on openjdk: ``8.0.* zulu8*``
    :depends on xorg-libxtst: 
 
    :additional platforms:
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "beast2";
-        var versions = ["2.6.3","2.6.3","2.6.3","2.6.2","2.6.1"];
+        var versions = ["2.7.7","2.6.3","2.6.3","2.6.3","2.6.2"];
     </script>
 
 

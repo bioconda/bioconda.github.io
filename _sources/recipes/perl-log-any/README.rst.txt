@@ -29,7 +29,7 @@ perl-log-any
       
       
 
-      ``1.719-0``,  ``1.718-0``,  ``1.710-0``,  ``1.045-2``,  ``1.045-1``,  ``1.045-0``
+      ``1.720-0``,  ``1.719-0``,  ``1.718-0``,  ``1.710-0``,  ``1.045-2``,  ``1.045-1``,  ``1.045-0``
 
       
 
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "perl-log-any";
-        var versions = ["1.719","1.718","1.710","1.045","1.045"];
+        var versions = ["1.720","1.719","1.718","1.710","1.045"];
     </script>
 
 

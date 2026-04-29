@@ -27,12 +27,13 @@ rtk2
       
       
 
-      ``2.14-0``,  ``2.11.2-1``,  ``2.11.2-0``,  ``2.11.1-0``,  ``2.10-0``
+      ``2.15-0``,  ``2.14-0``,  ``2.11.2-1``,  ``2.11.2-0``,  ``2.11.1-0``,  ``2.10-0``
 
       
 
    
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
@@ -111,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "rtk2";
-        var versions = ["2.14","2.11.2","2.11.2","2.11.1","2.10"];
+        var versions = ["2.15","2.14","2.11.2","2.11.2","2.11.1"];
     </script>
 
 
