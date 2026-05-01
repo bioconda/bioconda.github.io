@@ -42,7 +42,7 @@ perl-inline-c
       
 
    
-   :depends on gcc_linux-64: ``13.*``
+   :depends on gcc_linux-aarch64: ``13.*``
    :depends on libgcc: ``>=13``
    :depends on make: 
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``

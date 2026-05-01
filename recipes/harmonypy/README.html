@@ -72,11 +72,14 @@
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/slowkow/harmonypy">https://github.com/slowkow/harmonypy</a></p>
 </dd>
-<dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>GPL-3.0-or-later</p>
+<dt class="field-even">Documentation<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://portals.broadinstitute.org/harmony">https://portals.broadinstitute.org/harmony</a></p>
 </dd>
-<dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/harmonypy">harmonypy</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/harmonypy/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">License<span class="colon">:</span></dt>
+<dd class="field-odd"><p>GPL3 / GPL-3.0-or-later</p>
+</dd>
+<dt class="field-even">Recipe<span class="colon">:</span></dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/harmonypy">harmonypy</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/harmonypy/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -85,22 +88,23 @@
 <dt class="sig sig-object conda" id="package-harmonypy">
 <span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">harmonypy</span></span><a class="headerlink" href="#package-harmonypy" title="Link to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/harmonypy"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/harmonypy.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/harmonypy"><img alt="docker_harmonypy" src="https://quay.io/repository/biocontainers/harmonypy/status" /></a></p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.10-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.9-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.4-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.0.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.10-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.9-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.0.4-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
+<li><p><strong>on armadillo</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=15.2,&lt;16.0a0</span></code></p></li>
+<li><p><strong>on libgcc</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p></li>
+<li><p><strong>on libopenblas</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=0.3.33,&lt;1.0a0</span></code></p></li>
+<li><p><strong>on libstdcxx</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p></li>
 <li><p><strong>on numpy</strong></p></li>
-<li><p><strong>on pandas</strong></p></li>
-<li><p><strong>on python</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.9</span></code></p></li>
-<li><p><strong>on pytorch</strong></p></li>
-<li><p><strong>on scikit-learn</strong></p></li>
-<li><p><strong>on scipy</strong></p></li>
+<li><p><strong>on python</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.14,&lt;3.15.0a0</span></code></p></li>
+<li><p><strong>on python_abi</strong> <code class="docutils literal notranslate"><span class="pre">3.14.* *_cp314</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
+<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
 </dl>
 </dd></dl>
 
@@ -155,7 +159,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
     var package = "harmonypy";
-    var versions = ["0.2.0","0.0.10","0.0.9","0.0.6","0.0.5"];
+    var versions = ["2.0.0","0.2.0","0.0.10","0.0.9","0.0.6"];
 </script></section>
 </section>
 <section id="download-stats">

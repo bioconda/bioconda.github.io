@@ -13,7 +13,7 @@ art_modern
    Modernized ART simulator of diverse Next\-Generation Sequencing reads
 
    :homepage: https://github.com/YU-Zhejian/art_modern
-   :documentation: https://github.com/YU-Zhejian/art_modern/releases/download/1.4.0/art_modern.pdf
+   :documentation: https://github.com/YU-Zhejian/art_modern/releases/download/1.4.1/art_modern.pdf
    
    :license: GPL3 / GPL-3.0-only
    :recipe: /`art_modern <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/art_modern>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/art_modern/meta.yaml>`_
@@ -30,10 +30,10 @@ art_modern
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.3.4-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.1-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.3.4-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  </span></summary>
       
 
-      ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.10-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.4-0``
+      ``1.4.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.10-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.4-0``
 
       
       .. raw:: html
@@ -42,11 +42,10 @@ art_modern
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on fmt: ``>=12.0.0,<12.1.0a0``
    :depends on htslib: ``>=1.23.1,<1.24.0a0``
-   :depends on libboost: ``>=1.90.0,<1.91.0a0``
    :depends on libboost: ``>=1.90.0,<2``
+   :depends on libboost: ``>=1.91.0,<1.92.0a0``
    :depends on libgcc: ``>=14``
    :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
@@ -127,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "art_modern";
-        var versions = ["1.4.0","1.4.0","1.3.4","1.3.3","1.3.2"];
+        var versions = ["1.4.1","1.4.0","1.4.0","1.3.4","1.3.3"];
     </script>
 
 

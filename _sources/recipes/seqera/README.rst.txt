@@ -32,7 +32,7 @@ seqera
       
       
 
-      ``1.2.0-0``
+      ``1.5.0-0``,  ``1.2.0-0``
 
       
 
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "seqera";
-        var versions = ["1.2.0"];
+        var versions = ["1.5.0","1.2.0"];
     </script>
 
 

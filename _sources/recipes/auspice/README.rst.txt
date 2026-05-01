@@ -43,6 +43,7 @@ auspice
       
 
    
+   :depends on icu: ``>=73.2,<74.0a0``
    :depends on libgcc: ``>=13``
    :depends on libstdcxx: ``>=13``
    :depends on nodejs: ``20.*|22.*``

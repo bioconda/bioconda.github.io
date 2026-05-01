@@ -13,7 +13,9 @@ harmonypy
    A data integration algorithm.
 
    :homepage: https://github.com/slowkow/harmonypy
-   :license: GPL-3.0-or-later
+   :documentation: https://portals.broadinstitute.org/harmony
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`harmonypy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/harmonypy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/harmonypy/meta.yaml>`_
 
    
@@ -27,19 +29,24 @@ harmonypy
       
       
 
-      ``0.2.0-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``
+      ``2.0.0-0``,  ``0.2.0-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``
 
       
 
    
+   :depends on armadillo: ``>=15.2,<16.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libopenblas: ``>=0.3.33,<1.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on numpy: 
-   :depends on pandas: 
-   :depends on python: ``>=3.9``
-   :depends on pytorch: 
-   :depends on scikit-learn: 
-   :depends on scipy: 
+   :depends on python: ``>=3.14,<3.15.0a0``
+   :depends on python_abi: ``3.14.* *_cp314``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -111,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "harmonypy";
-        var versions = ["0.2.0","0.0.10","0.0.9","0.0.6","0.0.5"];
+        var versions = ["2.0.0","0.2.0","0.0.10","0.0.9","0.0.6"];
     </script>
 
 

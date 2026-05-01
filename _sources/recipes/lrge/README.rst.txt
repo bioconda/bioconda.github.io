@@ -32,7 +32,6 @@ lrge
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libgcc: ``>=13``
    :depends on liblzma: ``>=5.8.1,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``

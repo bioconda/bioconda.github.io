@@ -12,7 +12,7 @@ bactopia
 
    Bactopia is a flexible pipeline for complete analysis of bacterial genomes.
 
-   :homepage: https://bactopia.github.io/
+   :homepage: https://bactopia.io/
    :developer docs: https://github.com/bactopia/bactopia/
    :license: MIT
    :recipe: /`bactopia <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bactopia>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bactopia/meta.yaml>`_
@@ -30,10 +30,10 @@ bactopia
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.0-0</code>,  <code>3.1.0-0</code>,  <code>3.0.1-1</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.0-0</code>,  <code>3.2.0-0</code>,  <code>3.1.0-0</code>,  <code>3.0.1-1</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  </span></summary>
       
 
-      ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.6.2-2``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.6-0``,  ``1.5.5-0``,  ``1.5.4-1``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.11-1``,  ``1.4.11-0``,  ``1.4.10-0``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.4-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-0``
+      ``4.0.0-0``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.6.2-2``,  ``1.6.2-1``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.6-0``,  ``1.5.5-0``,  ``1.5.4-1``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.11-1``,  ``1.4.11-0``,  ``1.4.10-0``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.4-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -42,12 +42,15 @@ bactopia
       
 
    
-   :depends on bactopia-py: ``1.5.0.*``
-   :depends on conda: ``>=22.11.0``
+   :depends on bactopia-py: ``>=2.1.6``
+   :depends on conda: ``>=25``
    :depends on coreutils: 
-   :depends on mamba: ``>=1.1.0``
-   :depends on nextflow: ``>=23,<24``
-   :depends on python: ``>=3.9,<3.13``
+   :depends on importlib-metadata: ``<5``
+   :depends on mamba: ``>=2``
+   :depends on nextflow: ``>=26``
+   :depends on nf-test: 
+   :depends on openpyxl: 
+   :depends on python: ``>3.9,<3.14``
    :depends on sed: 
    :depends on wget: 
 
@@ -123,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bactopia";
-        var versions = ["3.2.0","3.1.0","3.0.1","3.0.1","3.0.0"];
+        var versions = ["4.0.0","3.2.0","3.1.0","3.0.1","3.0.1"];
     </script>
 
 
