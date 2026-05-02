@@ -27,7 +27,7 @@ iobrpy
       
       
 
-      ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.4-0``,  ``0.1.3-0``
+      ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.4-0``,  ``0.1.3-0``
 
       
 
@@ -49,6 +49,7 @@ iobrpy
    :depends on regex: ``>=2024.5``
    :depends on requests: ``>=2.32``
    :depends on salmon: 
+   :depends on samtools: ``1.21``
    :depends on scikit-learn: ``>=1.2``
    :depends on scipy: ``>=1.9``
    :depends on star: 
@@ -130,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "iobrpy";
-        var versions = ["0.1.8","0.1.7","0.1.6","0.1.4","0.1.3"];
+        var versions = ["0.1.8","0.1.8","0.1.7","0.1.6","0.1.4"];
     </script>
 
 

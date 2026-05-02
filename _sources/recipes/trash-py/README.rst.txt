@@ -35,22 +35,25 @@ trash-py
       
       
 
-      ``1.0.0-0``
+      ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on __osx: ``>=11.0``
    :depends on biopython: ``>=1.83``
    :depends on clustalo: 
    :depends on hmmer: 
-   :depends on libgcc: ``>=14``
    :depends on numpy: ``>=1.26``
    :depends on python: ``>=3.14,<3.15.0a0``
    :depends on python_abi: ``3.14.* *_cp314``
    :depends on rapidfuzz: ``>=3.6``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -122,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "trash-py";
-        var versions = ["1.0.0"];
+        var versions = ["1.0.0","1.0.0"];
     </script>
 
 

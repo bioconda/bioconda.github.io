@@ -47,6 +47,7 @@ coot-headless
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on acedrg: 
    :depends on cairo: ``>=1.18.4,<2.0a0``
    :depends on clipper: ``>=2.1.20180802,<3.0a0``
@@ -69,10 +70,10 @@ coot-headless
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on mmdb2: ``>=2.0.22,<3.0a0``
    :depends on numpy: ``2.*``
-   :depends on numpy: ``>=1.23,<3``
+   :depends on numpy: ``>=1.21,<3``
    :depends on pixman: ``>=0.46.4,<1.0a0``
-   :depends on python: ``>=3.11,<3.12.0a0 *_cpython``
-   :depends on python_abi: ``3.11.* *_cp311``
+   :depends on python: ``>=3.10,<3.11.0a0 *_cpython``
+   :depends on python_abi: ``3.10.* *_cp310``
    :depends on rdkit: ``2026.03.1``
    :depends on servalcat: ``>=0.4.128``
    :depends on ssm: ``>=1.4,<2.0a0``

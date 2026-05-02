@@ -28,10 +28,10 @@ deeptoolsintervals
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.9-11</code>,  <code>0.1.9-10</code>,  <code>0.1.9-9</code>,  <code>0.1.9-8</code>,  <code>0.1.9-7</code>,  <code>0.1.9-6</code>,  <code>0.1.9-5</code>,  <code>0.1.9-4</code>,  <code>0.1.9-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.9-12</code>,  <code>0.1.9-11</code>,  <code>0.1.9-10</code>,  <code>0.1.9-9</code>,  <code>0.1.9-8</code>,  <code>0.1.9-7</code>,  <code>0.1.9-6</code>,  <code>0.1.9-5</code>,  <code>0.1.9-4</code>,  </span></summary>
       
 
-      ``0.1.9-11``,  ``0.1.9-10``,  ``0.1.9-9``,  ``0.1.9-8``,  ``0.1.9-7``,  ``0.1.9-6``,  ``0.1.9-5``,  ``0.1.9-4``,  ``0.1.9-3``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``
+      ``0.1.9-12``,  ``0.1.9-11``,  ``0.1.9-10``,  ``0.1.9-9``,  ``0.1.9-8``,  ``0.1.9-7``,  ``0.1.9-6``,  ``0.1.9-5``,  ``0.1.9-4``,  ``0.1.9-3``,  ``0.1.9-2``,  ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ deeptoolsintervals
       
 
    
-   :depends on libgcc: 
-   :depends on libgcc-ng: ``>=12``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on libgcc: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on zlib: 

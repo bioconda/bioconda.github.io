@@ -34,6 +34,7 @@ harmonypy
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on armadillo: ``>=15.2,<16.0a0``
    :depends on libgcc: ``>=14``
    :depends on libopenblas: ``>=0.3.33,<1.0a0``

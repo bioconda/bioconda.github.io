@@ -36,7 +36,7 @@ virasign
       
       
 
-      ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``0.0.7-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
 
@@ -45,6 +45,7 @@ virasign
    :depends on gzip: 
    :depends on minimap2: ``2.24.*``
    :depends on mmseqs2: 
+   :depends on nextclade: 
    :depends on python: ``>=3.7,<3.14``
    :depends on samtools: ``>=1.17``
    :depends on seqtk: ``1.3.*``
@@ -121,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "virasign";
-        var versions = ["0.0.6","0.0.5","0.0.4","0.0.3","0.0.2"];
+        var versions = ["0.0.7","0.0.6","0.0.5","0.0.4","0.0.3"];
     </script>
 
 
