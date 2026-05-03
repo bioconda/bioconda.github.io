@@ -10,10 +10,10 @@ consensify
    :replaces_section_title:
    :noindex:
 
-   A method for generating a consensus pseudohaploid genome sequence
+   A method for generating a consensus pseudohaploid genome sequence.
 
    :homepage: https://github.com/jlapaijmans/Consensify
-   :license: GPL / GPL-3.0-or-later
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`consensify <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/consensify>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/consensify/meta.yaml>`_
 
    
@@ -27,15 +27,15 @@ consensify
       
       
 
-      ``2.4.0-2``,  ``2.4.0-1``,  ``2.4.0-0``
+      ``2.4.1-0``,  ``2.4.0-2``,  ``2.4.0-1``,  ``2.4.0-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on zlib: 
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
       
@@ -113,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "consensify";
-        var versions = ["2.4.0","2.4.0","2.4.0"];
+        var versions = ["2.4.1","2.4.0","2.4.0","2.4.0"];
     </script>
 
 
