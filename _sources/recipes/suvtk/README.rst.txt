@@ -29,19 +29,22 @@ suvtk
       
       
 
-      ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
+      ``0.2.0-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``
 
       
 
    
    :depends on biopython: ``>=1.83``
-   :depends on click: 
+   :depends on click: ``>=8.3.1``
    :depends on mmseqs2: ``>=17.b804f``
    :depends on numpy: ``>1.24.4``
    :depends on pandas: ``>=2.0.3``
+   :depends on psutil: ``>=7.1.3``
    :depends on pyrodigal-gv: ``>=0.3.2``
-   :depends on python: ``>=3.9``
+   :depends on pyrodigal-rv: ``>=0.1.0``
+   :depends on python: ``>=3.10``
    :depends on requests: ``>=2.32.3``
+   :depends on rich-click: ``>=1.9.4``
    :depends on scipy: ``>=1.13.1``
    :depends on table2asn: ``>=1.28.1094``
    :depends on taxopy: ``>=0.14.0``
@@ -118,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "suvtk";
-        var versions = ["0.1.6","0.1.5","0.1.4","0.1.3"];
+        var versions = ["0.2.0","0.1.6","0.1.5","0.1.4","0.1.3"];
     </script>
 
 

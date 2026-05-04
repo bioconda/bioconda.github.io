@@ -13,7 +13,7 @@ echtvar
    Using all the bits for echt rapid variant annotation and filtering.
 
    :homepage: https://github.com/brentp/echtvar
-   :documentation: https://github.com/brentp/echtvar/blob/v0.2.3/README.md
+   :documentation: https://github.com/brentp/echtvar/blob/v0.2.4/README.md
    
    :license: MIT / MIT
    :recipe: /`echtvar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/echtvar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/echtvar/meta.yaml>`_
@@ -29,14 +29,15 @@ echtvar
       
       
 
-      ``0.2.3-0``,  ``0.2.2-0``
+      ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``
 
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libgcc: ``>=14``
    :depends on libstdcxx: ``>=14``
-   :depends on openssl: ``>=3.5.5,<4.0a0``
+   :depends on openssl: ``>=3.5.6,<4.0a0``
 
    :additional platforms:
       
@@ -110,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "echtvar";
-        var versions = ["0.2.3","0.2.2"];
+        var versions = ["0.2.4","0.2.3","0.2.2"];
     </script>
 
 

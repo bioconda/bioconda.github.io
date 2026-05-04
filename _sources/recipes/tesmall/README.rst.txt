@@ -18,7 +18,7 @@ tesmall
    :license: GPL3 / GPL-3.0-only
    :recipe: /`tesmall <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tesmall>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tesmall/meta.yaml>`_
 
-   TEsmall is a tool that allows for the simultaneous processing and analysis of a  variety of small RNAs in a single integrated workflow.
+   TEsmall is a tool that allows for the simultaneous processing and analysis of a variety of small RNAs in a single integrated workflow.
 
 
 
@@ -30,7 +30,7 @@ tesmall
       
       
 
-      ``2.0.9-0``
+      ``2.0.9-1``,  ``2.0.9-0``
 
       
 
@@ -48,6 +48,7 @@ tesmall
    :depends on samtools: 
    :depends on scipy: ``>=0.18.0``
    :depends on seaborn: ``>=0.7.1``
+   :depends on wget: 
 
    :additional platforms:
       
@@ -121,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "tesmall";
-        var versions = ["2.0.9"];
+        var versions = ["2.0.9","2.0.9"];
     </script>
 
 

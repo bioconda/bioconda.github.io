@@ -28,10 +28,10 @@ perl-dbd-pg
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.20.0-0</code>,  <code>3.19.0-0</code>,  <code>3.18.0-3</code>,  <code>3.18.0-2</code>,  <code>3.18.0-1</code>,  <code>3.18.0-0</code>,  <code>3.16.0-3</code>,  <code>3.16.0-2</code>,  <code>3.16.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.20.2-0</code>,  <code>3.20.0-0</code>,  <code>3.19.0-0</code>,  <code>3.18.0-3</code>,  <code>3.18.0-2</code>,  <code>3.18.0-1</code>,  <code>3.18.0-0</code>,  <code>3.16.0-3</code>,  <code>3.16.0-2</code>,  </span></summary>
       
 
-      ``3.20.0-0``,  ``3.19.0-0``,  ``3.18.0-3``,  ``3.18.0-2``,  ``3.18.0-1``,  ``3.18.0-0``,  ``3.16.0-3``,  ``3.16.0-2``,  ``3.16.0-1``,  ``3.16.0-0``,  ``3.15.1-1``,  ``3.15.1-0``,  ``3.15.0-2``,  ``3.15.0-1``,  ``3.15.0-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.4-0``,  ``3.5.3-1``,  ``3.5.3-0``
+      ``3.20.2-0``,  ``3.20.0-0``,  ``3.19.0-0``,  ``3.18.0-3``,  ``3.18.0-2``,  ``3.18.0-1``,  ``3.18.0-0``,  ``3.16.0-3``,  ``3.16.0-2``,  ``3.16.0-1``,  ``3.16.0-0``,  ``3.15.1-1``,  ``3.15.1-0``,  ``3.15.0-2``,  ``3.15.0-1``,  ``3.15.0-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.4-0``,  ``3.5.3-1``,  ``3.5.3-0``
 
       
       .. raw:: html
@@ -40,6 +40,7 @@ perl-dbd-pg
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libgcc: ``>=14``
    :depends on libpq: ``>=17.9,<18.0a0``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
@@ -122,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "perl-dbd-pg";
-        var versions = ["3.20.0","3.19.0","3.18.0","3.18.0","3.18.0"];
+        var versions = ["3.20.2","3.20.0","3.19.0","3.18.0","3.18.0"];
     </script>
 
 

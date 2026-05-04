@@ -33,14 +33,14 @@ onebam
       
       
 
-      ``1.0-0``,  ``0-0``
+      ``1.1-0``,  ``1.0-0``,  ``0-0``
 
       
 
    
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on htslib: ``>=1.23.1,<1.24.0a0``
-   :depends on libcurl: ``>=8.19.0,<9.0a0``
+   :depends on libcurl: ``>=8.20.0,<9.0a0``
    :depends on libgcc: ``>=14``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
@@ -122,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "onebam";
-        var versions = ["1.0","0"];
+        var versions = ["1.1","1.0","0"];
     </script>
 
 

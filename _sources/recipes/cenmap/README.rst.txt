@@ -13,7 +13,7 @@ cenmap
    A centromere mapping and annotation pipeline for T2T human and primate genome assemblies implemented in Snakemake.
 
    :homepage: https://github.com/logsdon-lab/CenMAP
-   :documentation: https://github.com/logsdon-lab/CenMAP/blob/v1.2.0/README.md
+   :documentation: https://github.com/logsdon-lab/CenMAP/blob/v1.2.1/README.md
    
    :license: MIT / MIT
    :recipe: /`cenmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cenmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cenmap/meta.yaml>`_
@@ -29,11 +29,12 @@ cenmap
       
       
 
-      ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``
+      ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``
 
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bedops: 
    :depends on bedtools: 
    :depends on cenplot: ``>=0.1.4``
@@ -45,8 +46,8 @@ cenmap
    :depends on hmmer: 
    :depends on intervaltree: 
    :depends on kmc: ``>=3.2.4``
-   :depends on libgcc: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on matplotlib-base: 
    :depends on minimap2: ``>=2.29``
    :depends on nucflag: ``>=0.3.7``
@@ -140,7 +141,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "cenmap";
-        var versions = ["1.2.0","1.1.1","1.1.0","1.0.4","1.0.4"];
+        var versions = ["1.2.1","1.2.0","1.1.1","1.1.0","1.0.4"];
     </script>
 
 

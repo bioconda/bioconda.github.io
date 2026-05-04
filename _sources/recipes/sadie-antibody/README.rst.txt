@@ -30,7 +30,7 @@ sadie-antibody
       
       
 
-      ``2.0.0-0``
+      ``2.0.1-0``,  ``2.0.0-0``
 
       
 
@@ -41,7 +41,6 @@ sadie-antibody
    :depends on ipython: ``>=8.18.0``
    :depends on openpyxl: ``>=3.1.0``
    :depends on pandas: ``>=2.3,<3``
-   :depends on pip: 
    :depends on pyarrow: ``>=20.0.0``
    :depends on pydantic: ``>=2.0.0,<3.0.0``
    :depends on pyhmmer: ``>=0.11.1``
@@ -127,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "sadie-antibody";
-        var versions = ["2.0.0"];
+        var versions = ["2.0.1","2.0.0"];
     </script>
 
 

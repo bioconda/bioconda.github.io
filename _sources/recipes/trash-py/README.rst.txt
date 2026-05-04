@@ -40,10 +40,10 @@ trash-py
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on biopython: ``>=1.83``
    :depends on clustalo: 
    :depends on hmmer: 
-   :depends on libgcc: ``>=14``
    :depends on numpy: ``>=1.26``
    :depends on python: ``>=3.14,<3.15.0a0``
    :depends on python_abi: ``3.14.* *_cp314``

@@ -13,7 +13,7 @@ slivar
    filter\/annotate variants in VCF\/BCF format with simple expressions.
 
    :homepage: https://github.com/brentp/slivar
-   :documentation: https://github.com/brentp/slivar/blob/v0.3.3/README.md
+   :documentation: https://github.com/brentp/slivar/blob/v0.3.4/README.md
    
    :license: MIT / MIT
    :recipe: /`slivar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/slivar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/slivar/meta.yaml>`_
@@ -31,10 +31,10 @@ slivar
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-2</code>,  <code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.3.0-2</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  <code>0.2.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.4-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-2</code>,  <code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.3.0-2</code>,  <code>0.3.0-1</code>,  <code>0.3.0-0</code>,  </span></summary>
       
 
-      ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.13-1``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.5-0``
+      ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.13-1``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.5-0``
 
       
       .. raw:: html
@@ -43,8 +43,9 @@ slivar
       
 
    
-   :depends on htslib: ``>=1.22.1,<1.24.0a0``
-   :depends on libgcc: ``>=13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on htslib: ``>=1.23.1,<1.24.0a0``
+   :depends on libgcc: ``>=14``
 
    :additional platforms:
       
@@ -122,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "slivar";
-        var versions = ["0.3.3","0.3.2","0.3.1","0.3.1","0.3.1"];
+        var versions = ["0.3.4","0.3.3","0.3.2","0.3.1","0.3.1"];
     </script>
 
 
