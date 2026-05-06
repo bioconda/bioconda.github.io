@@ -29,7 +29,7 @@ phylopypruner
       
       
 
-      ``1.2.6-0``
+      ``1.2.7-0``,  ``1.2.6-0``
 
       
 
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "phylopypruner";
-        var versions = ["1.2.6"];
+        var versions = ["1.2.7","1.2.6"];
     </script>
 
 

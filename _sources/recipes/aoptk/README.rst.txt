@@ -27,27 +27,23 @@ aoptk
       
       
 
-      ``0.3.2-0``,  ``0.2.0-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``
+      ``0.4.3-0``,  ``0.3.2-0``,  ``0.2.0-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``
 
       
 
    
-   :depends on beautifulsoup4: 
    :depends on biopython: 
+   :depends on boto3: ``>=1.43.2``
    :depends on click: ``>=8.1``
-   :depends on huggingface_hub: ``>=0.1.0,<1.0``
-   :depends on metapub: 
+   :depends on jinja2: 
    :depends on openai: 
-   :depends on openpyxl: 
    :depends on pandas: 
    :depends on pymupdf: 
    :depends on python: ``>=3.8``
-   :depends on pytorch: 
+   :depends on python-dotenv: 
    :depends on requests: 
-   :depends on scispacy: 
-   :depends on spacy: ``>=3.0.0,<3.8.0``
-   :depends on spacy-layout: 
-   :depends on transformers: 
+   :depends on setuptools: ``>=64.0.0``
+   :depends on tenacity: 
 
    :additional platforms:
       
@@ -121,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "aoptk";
-        var versions = ["0.3.2","0.2.0","0.1.6","0.1.5","0.1.4"];
+        var versions = ["0.4.3","0.3.2","0.2.0","0.1.6","0.1.5"];
     </script>
 
 

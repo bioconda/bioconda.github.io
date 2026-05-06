@@ -10,14 +10,22 @@ trim-galore
    :replaces_section_title:
    :noindex:
 
-   Trim Galore\! is a wrapper script to automate quality and adapter trimming as well as quality control
+   Fast adapter and quality trimming for NGS data — Oxidized Edition \(Rust\)
 
-   :homepage: https://github.com/FelixKrueger/TrimGalore
+   :homepage: https://www.trimgalore.com/
+   :developer docs: https://github.com/FelixKrueger/TrimGalore
    :license: GPL / GPL-3.0-only
    :recipe: /`trim-galore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trim-galore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trim-galore/meta.yaml>`_
    :links: usegalaxy-eu: :usegalaxy-eu:`trim_galore`
 
-   
+   Trim Galore v2 is a Rust rewrite of the original Perl Trim Galore. Single
+   static binary\, no Python\/Perl\/Cutadapt\/Java\/igzip\/pigz dependencies. Drop\-in
+   compatible with v0.6.x scripts and pipelines \(same CLI\, same output
+   filenames\, same report format\) with adapter auto\-detection \(Illumina\,
+   Nextera\, Small RNA\, BGI\/DNBSEQ\)\, poly\-G\/poly\-A trimming\, paired\-end
+   single\-pass processing\, RRBS support\, and bundled FastQC integration via
+   fastqc\-rust.
+
 
 
 .. conda:package:: trim-galore
@@ -29,10 +37,10 @@ trim-galore
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.11-0</code>,  <code>0.6.10-2</code>,  <code>0.6.10-1</code>,  <code>0.6.10-0</code>,  <code>0.6.9-0</code>,  <code>0.6.7-0</code>,  <code>0.6.6-1</code>,  <code>0.6.6-0</code>,  <code>0.6.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.0-0</code>,  <code>0.6.11-0</code>,  <code>0.6.10-2</code>,  <code>0.6.10-1</code>,  <code>0.6.10-0</code>,  <code>0.6.9-0</code>,  <code>0.6.7-0</code>,  <code>0.6.6-1</code>,  <code>0.6.6-0</code>,  </span></summary>
       
 
-      ``0.6.11-0``,  ``0.6.10-2``,  ``0.6.10-1``,  ``0.6.10-0``,  ``0.6.9-0``,  ``0.6.7-0``,  ``0.6.6-1``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.0-0``,  ``0.4.5-2``,  ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.1-3``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
+      ``2.1.0-0``,  ``0.6.11-0``,  ``0.6.10-2``,  ``0.6.10-1``,  ``0.6.10-0``,  ``0.6.9-0``,  ``0.6.7-0``,  ``0.6.6-1``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.0-0``,  ``0.4.5-2``,  ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.1-3``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``
 
       
       .. raw:: html
@@ -41,11 +49,12 @@ trim-galore
       
 
    
-   :depends on cutadapt: ``5.2``
-   :depends on fastqc: 
-   :depends on perl: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -117,11 +126,20 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "trim-galore";
-        var versions = ["0.6.11","0.6.10","0.6.10","0.6.10","0.6.9"];
+        var versions = ["2.1.0","0.6.11","0.6.10","0.6.10","0.6.10"];
     </script>
 
 
 
+
+
+Notes
+-----
+Linux x86\_64\, Linux aarch64\, and macOS aarch64 \(Apple Silicon\) prebuilt
+binaries ship via the GitHub Releases page. Intel Mac users \(osx\-x86\_64\)
+should install via \`cargo install trim\-galore\`\, or pull the Docker
+linux\/amd64 image \(\`docker pull ghcr.io\/felixkrueger\/trimgalore\:latest\` on
+Apple Silicon Docker also works — pulls the linux\/arm64 multi\-arch variant\).
 
 
 

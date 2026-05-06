@@ -36,13 +36,13 @@ mddb_workflow
       
       
 
-      ``0.1.10-0``
+      ``0.1.10-1``,  ``0.1.10-0``
 
       
 
    
    :depends on ambertools: 
-   :depends on biobb_mem: ``5.1.2``
+   :depends on biobb_mem: ``>=5.2.0``
    :depends on biopython: ``>1.79``
    :depends on biotite: 
    :depends on cmip: 
@@ -138,7 +138,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "mddb_workflow";
-        var versions = ["0.1.10"];
+        var versions = ["0.1.10","0.1.10"];
     </script>
 
 

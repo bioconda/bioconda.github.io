@@ -13,7 +13,7 @@ metamdbg
    MetaMDBG\: a lightweight assembler for long and accurate metagenomics reads.
 
    :homepage: https://github.com/GaetanBenoitDev/metaMDBG
-   :documentation: https://github.com/GaetanBenoitDev/metaMDBG/blob/metaMDBG-1.3.1/README.md
+   :documentation: https://github.com/GaetanBenoitDev/metaMDBG/blob/metaMDBG-1.4/README.md
    
    :license: MIT / MIT
    :recipe: /`metamdbg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metamdbg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metamdbg/meta.yaml>`_
@@ -31,10 +31,10 @@ metamdbg
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.1-0</code>,  <code>1.3-0</code>,  <code>1.2-0</code>,  <code>1.1-2</code>,  <code>1.1-1</code>,  <code>1.1-0</code>,  <code>1.0-2</code>,  <code>1.0-1</code>,  <code>1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4-0</code>,  <code>1.3.1-0</code>,  <code>1.3-0</code>,  <code>1.2-0</code>,  <code>1.1-2</code>,  <code>1.1-1</code>,  <code>1.1-0</code>,  <code>1.0-2</code>,  <code>1.0-1</code>,  </span></summary>
       
 
-      ``1.3.1-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``,  ``0.3-0``
+      ``1.4-0``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2-0``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``1.0-2``,  ``1.0-1``,  ``1.0-0``,  ``0.3-0``
 
       
       .. raw:: html
@@ -43,13 +43,12 @@ metamdbg
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on _openmp_mutex: ``>=4.5``
    :depends on libgcc: ``>=14``
    :depends on libgomp: 
    :depends on libstdcxx: ``>=14``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on minimap2: ``2.28.*``
-   :depends on time: ``1.8.*``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
       
@@ -123,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "metamdbg";
-        var versions = ["1.3.1","1.3","1.2","1.1","1.1"];
+        var versions = ["1.4","1.3.1","1.3","1.2","1.1"];
     </script>
 
 

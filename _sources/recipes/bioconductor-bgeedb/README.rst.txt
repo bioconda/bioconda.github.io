@@ -12,7 +12,7 @@ bioconductor-bgeedb
 
    Annotation and gene expression data retrieval from Bgee database. TopAnat\, an anatomical entities Enrichment Analysis tool for UBERON ontology
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/BgeeDB.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/BgeeDB.html
    :license: GPL-3 + file LICENSE
    :recipe: /`bioconductor-bgeedb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bgeedb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bgeedb/meta.yaml>`_
    :links: biotools: :biotools:`bgeedb`, doi: :doi:`10.12688/f1000research.9973.1`
@@ -29,10 +29,10 @@ bioconductor-bgeedb
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.36.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-0</code>,  <code>2.24.0-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-1</code>,  <code>2.16.0-0</code>,  <code>2.14.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.38.1-0</code>,  <code>2.36.0-0</code>,  <code>2.28.0-0</code>,  <code>2.26.0-0</code>,  <code>2.24.0-0</code>,  <code>2.20.0-0</code>,  <code>2.18.0-0</code>,  <code>2.16.0-1</code>,  <code>2.16.0-0</code>,  </span></summary>
       
 
-      ``2.36.0-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-1``,  ``2.8.0-0``,  ``2.6.2-0``,  ``2.4.0-0``,  ``2.2.0-0``
+      ``2.38.1-0``,  ``2.36.0-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-1``,  ``2.16.0-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-1``,  ``2.8.0-0``,  ``2.6.2-0``,  ``2.4.0-0``,  ``2.2.0-0``
 
       
       .. raw:: html
@@ -130,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bioconductor-bgeedb";
-        var versions = ["2.36.0","2.28.0","2.26.0","2.24.0","2.20.0"];
+        var versions = ["2.38.1","2.36.0","2.28.0","2.26.0","2.24.0"];
     </script>
 
 

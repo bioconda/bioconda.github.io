@@ -27,7 +27,7 @@ traitar
       
       
 
-      ``3.0.1-0``,  ``1.1.2-0``
+      ``3.0.1-1``,  ``3.0.1-0``,  ``1.1.2-0``
 
       
 
@@ -36,8 +36,11 @@ traitar
    :depends on matplotlib-base: 
    :depends on numpy: 
    :depends on pandas: ``>1.2,<2``
+   :depends on parallel: 
+   :depends on prodigal: 
    :depends on python: ``>=3.7,<3.11``
    :depends on scipy: 
+   :depends on setuptools: ``<78``
 
    :additional platforms:
       
@@ -111,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "traitar";
-        var versions = ["3.0.1","1.1.2"];
+        var versions = ["3.0.1","3.0.1","1.1.2"];
     </script>
 
 

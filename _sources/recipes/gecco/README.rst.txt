@@ -29,10 +29,10 @@ gecco
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.10.3-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.10-0</code>,  <code>0.9.8-0</code>,  <code>0.9.6-0</code>,  <code>0.9.5-0</code>,  <code>0.9.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10.3-1</code>,  <code>0.10.3-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.10-0</code>,  <code>0.9.8-0</code>,  <code>0.9.6-0</code>,  <code>0.9.5-0</code>,  </span></summary>
       
 
-      ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.10-0``,  ``0.9.8-0``,  ``0.9.6-0``,  ``0.9.5-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.8.10-0``,  ``0.8.9-0``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.3-0``,  ``0.6.2-0``
+      ``0.10.3-1``,  ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.10-0``,  ``0.9.8-0``,  ``0.9.6-0``,  ``0.9.5-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.8.10-0``,  ``0.8.9-0``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.3-0``,  ``0.6.2-0``
 
       
       .. raw:: html
@@ -46,7 +46,7 @@ gecco
    :depends on importlib_resources: ``>=5.7``
    :depends on numpy: ``>=1.0,<3.0``
    :depends on polars: ``>=1.0,<2.0``
-   :depends on pyhmmer: ``>=0.11.0,<0.12.0``
+   :depends on pyhmmer: ``>=0.12.0``
    :depends on pyrodigal: ``>=3.0,<4.0``
    :depends on python: ``>=3.7``
    :depends on rich: ``>=12.4.0``
@@ -128,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "gecco";
-        var versions = ["0.10.3","0.10.2","0.10.1","0.10.0","0.9.10"];
+        var versions = ["0.10.3","0.10.3","0.10.2","0.10.1","0.10.0"];
     </script>
 
 

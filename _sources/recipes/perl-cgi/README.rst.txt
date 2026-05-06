@@ -13,7 +13,7 @@ perl-cgi
    A generic file fetching mechanism.
 
    :homepage: https://metacpan.org/pod/distribution/CGI/lib/CGI.pod
-   :license: GPL
+   :license: Artistic-2.0
    :recipe: /`perl-cgi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cgi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cgi/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ perl-cgi
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.71-0</code>,  <code>4.70-0</code>,  <code>4.69-0</code>,  <code>4.67-2</code>,  <code>4.67-1</code>,  <code>4.67-0</code>,  <code>4.56-2</code>,  <code>4.56-1</code>,  <code>4.56-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.72-0</code>,  <code>4.71-0</code>,  <code>4.70-0</code>,  <code>4.69-0</code>,  <code>4.67-2</code>,  <code>4.67-1</code>,  <code>4.67-0</code>,  <code>4.56-2</code>,  <code>4.56-1</code>,  </span></summary>
       
 
-      ``4.71-0``,  ``4.70-0``,  ``4.69-0``,  ``4.67-2``,  ``4.67-1``,  ``4.67-0``,  ``4.56-2``,  ``4.56-1``,  ``4.56-0``,  ``4.55-0``,  ``4.54-1``,  ``4.54-0``,  ``4.44-2``,  ``4.44-1``,  ``4.44-0``,  ``4.43-0``,  ``4.40-2``,  ``4.40-1``,  ``4.40-0``,  ``4.22-4``,  ``4.22-3``,  ``4.22-2``,  ``4.22-1``,  ``4.22-0``
+      ``4.72-0``,  ``4.71-0``,  ``4.70-0``,  ``4.69-0``,  ``4.67-2``,  ``4.67-1``,  ``4.67-0``,  ``4.56-2``,  ``4.56-1``,  ``4.56-0``,  ``4.55-0``,  ``4.54-1``,  ``4.54-0``,  ``4.44-2``,  ``4.44-1``,  ``4.44-0``,  ``4.43-0``,  ``4.40-2``,  ``4.40-1``,  ``4.40-0``,  ``4.22-4``,  ``4.22-3``,  ``4.22-2``,  ``4.22-1``,  ``4.22-0``
 
       
       .. raw:: html
@@ -40,7 +40,8 @@ perl-cgi
       
 
    
-   :depends on libgcc: ``>=13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on libgcc: ``>=14``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-base: 
    :depends on perl-carp: 
@@ -128,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "perl-cgi";
-        var versions = ["4.71","4.70","4.69","4.67","4.67"];
+        var versions = ["4.72","4.71","4.70","4.69","4.67"];
     </script>
 
 

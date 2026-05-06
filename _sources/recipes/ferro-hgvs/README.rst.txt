@@ -13,7 +13,7 @@ ferro-hgvs
    HGVS variant parser and normalizer.
 
    :homepage: https://github.com/fulcrumgenomics/ferro-hgvs
-   :documentation: https://github.com/fulcrumgenomics/ferro-hgvs/blob/v0.4.0/README.md
+   :documentation: https://github.com/fulcrumgenomics/ferro-hgvs/blob/v0.4.1/README.md
    
    :license: MIT / MIT
    :recipe: /`ferro-hgvs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ferro-hgvs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ferro-hgvs/meta.yaml>`_
@@ -29,14 +29,14 @@ ferro-hgvs
       
       
 
-      ``0.4.0-0``,  ``0.3.0-0``,  ``0.1.0-0``
+      ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.1.0-0``
 
       
 
    
    :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libgcc: ``>=14``
-   :depends on libsqlite: ``>=3.53.0,<4.0a0``
+   :depends on libsqlite: ``>=3.53.1,<4.0a0``
    :depends on openssl: ``>=3.5.6,<4.0a0``
 
    :additional platforms:
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "ferro-hgvs";
-        var versions = ["0.4.0","0.3.0","0.1.0"];
+        var versions = ["0.4.1","0.4.0","0.3.0","0.1.0"];
     </script>
 
 

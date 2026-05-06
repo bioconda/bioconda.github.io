@@ -15,6 +15,7 @@ lrge
    :homepage: https://github.com/mbhall88/lrge
    :license: MIT
    :recipe: /`lrge <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lrge>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lrge/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btaf593`
 
    
 
@@ -27,15 +28,15 @@ lrge
       
       
 
-      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.3-1``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
    
    :depends on __glibc: ``>=2.17,<3.0.a0``
-   :depends on libgcc: ``>=13``
-   :depends on liblzma: ``>=5.8.1,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
       
@@ -113,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "lrge";
-        var versions = ["0.2.1","0.2.0","0.1.3","0.1.3","0.1.2"];
+        var versions = ["0.3.0","0.2.1","0.2.0","0.1.3","0.1.3"];
     </script>
 
 

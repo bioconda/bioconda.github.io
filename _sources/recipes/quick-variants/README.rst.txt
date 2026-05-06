@@ -27,7 +27,7 @@ quick-variants
       
       
 
-      ``1.2.4-0``
+      ``1.2.5-0``,  ``1.2.4-0``
 
       
 
@@ -106,7 +106,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "quick-variants";
-        var versions = ["1.2.4"];
+        var versions = ["1.2.5","1.2.4"];
     </script>
 
 

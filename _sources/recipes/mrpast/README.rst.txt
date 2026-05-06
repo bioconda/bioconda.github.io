@@ -12,8 +12,8 @@ mrpast
 
    Demographic inference from Ancestral Recombination Graphs.
 
-   :homepage: https://aprilweilab.github.io/
-   :documentation: https://mrpast.readthedocs.io/en/latest/
+   :homepage: https://aprilweilab.github.io
+   :documentation: https://mrpast.readthedocs.io/en/latest
    
    :developer docs: https://github.com/aprilweilab/mrpast
    :license: GPL3 / GPL-3.0-only
@@ -30,20 +30,21 @@ mrpast
       
       
 
-      ``0.2-0``
+      ``0.3-0``,  ``0.2-0``
 
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on dataclasses-json: 
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on msprime: 
    :depends on numpy: ``>=1.21,<3``
    :depends on numpy: ``>=2.2.6,<3.0a0``
    :depends on orjson: 
    :depends on pandas: 
-   :depends on pyfaidx: ``>=0.9.0.3,<1.0a0``
+   :depends on pyfaidx: ``>=0.9.0.4,<1.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on pyyaml: 
@@ -52,6 +53,10 @@ mrpast
    :depends on tskit: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -123,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "mrpast";
-        var versions = ["0.2"];
+        var versions = ["0.3","0.2"];
     </script>
 
 

@@ -27,7 +27,7 @@ geomloss
       
       
 
-      ``0.2.6-0``
+      ``0.3.1-0``,  ``0.2.6-0``
 
       
 
@@ -35,6 +35,7 @@ geomloss
    :depends on numpy: 
    :depends on python: 
    :depends on pytorch: 
+   :depends on scipy: 
 
    :additional platforms:
       
@@ -108,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "geomloss";
-        var versions = ["0.2.6"];
+        var versions = ["0.3.1","0.2.6"];
     </script>
 
 
