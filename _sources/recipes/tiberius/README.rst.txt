@@ -13,7 +13,7 @@ tiberius
    Tiberius is a deep learning gene\-finder.
 
    :homepage: https://github.com/Gaius-Augustus/Tiberius
-   :documentation: https://github.com/Gaius-Augustus/Tiberius/blob/v2.0.3/README.md
+   :documentation: https://github.com/Gaius-Augustus/Tiberius/blob/v2.0.4/README.md
    
    :license: MIT / MIT
    :recipe: /`tiberius <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tiberius>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tiberius/meta.yaml>`_
@@ -30,7 +30,7 @@ tiberius
       
       
 
-      ``2.0.3-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.1-0``,  ``1.0.0-0``
+      ``2.0.4-0``,  ``2.0.3-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.1-0``,  ``1.0.0-0``
 
       
 
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "tiberius";
-        var versions = ["2.0.3","1.1.8","1.1.7","1.1.6","1.1.1"];
+        var versions = ["2.0.4","2.0.3","1.1.8","1.1.7","1.1.6"];
     </script>
 
 

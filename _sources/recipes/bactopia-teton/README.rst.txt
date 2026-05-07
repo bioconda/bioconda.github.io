@@ -30,10 +30,10 @@ bactopia-teton
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.3-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.4-0</code>,  <code>1.1.3-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  </span></summary>
       
 
-      ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -45,6 +45,7 @@ bactopia-teton
    :depends on bactopia-py: ``>=2.0.1``
    :depends on bracken: ``>=2.8``
    :depends on coreutils: 
+   :depends on deacon: ``>=0.15``
    :depends on fastq-scan: ``>=1.0.1``
    :depends on gsl: ``2.6.*``
    :depends on hostile: ``>=0.1.0``
@@ -131,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bactopia-teton";
-        var versions = ["1.1.3","1.1.2","1.1.1","1.1.0","1.0.5"];
+        var versions = ["1.1.4","1.1.3","1.1.2","1.1.1","1.1.0"];
     </script>
 
 

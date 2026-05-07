@@ -1,55 +1,41 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'qpx'
+.. title:: Package Recipe 'baysor'
 .. highlight: bash
 
-qpx
-===
+baysor
+======
 
-.. conda:recipe:: qpx
+.. conda:recipe:: baysor
    :replaces_section_title:
    :noindex:
 
-   Quantitative proteomics data toolkit — convert\, transform\, query\, and validate QPX Parquet datasets
+   Bayesian segmentation of imaging\-based spatial transcriptomics data
 
-   :homepage: https://github.com/bigbio/qpx
-   :documentation: https://qpx.quantms.org
+   :homepage: https://github.com/kharchenkolab/Baysor
+   :documentation: https://kharchenkolab.github.io/Baysor/dev/
    
-   :license: APACHE / Apache-2.0
-   :recipe: /`qpx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qpx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qpx/meta.yaml>`_
+   :license: MIT / MIT
+   :recipe: /`baysor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/baysor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/baysor/meta.yaml>`_
 
-   qpx is a Python toolkit for working with quantitative proteomics data in
-   the QPX Parquet format. It provides commands to convert results from
-   common search engines\, transform and aggregate quantitative data\, run
-   SQL\-style queries with DuckDB\, and validate datasets against the QPX
-   schema.
+   
 
 
+.. conda:package:: baysor
 
-.. conda:package:: qpx
-
-   |downloads_qpx| |docker_qpx|
+   |downloads_baysor| |docker_baysor|
 
    :versions:
       
       
 
-      ``1.0.2-1``,  ``1.0.2-0``
+      ``0.7.1-0``
 
       
 
    
-   :depends on anndata: ``>=0.9.0``
-   :depends on click: ``>=8.1``
-   :depends on duckdb: ``>=1.1.3``
-   :depends on mudata: ``>=0.2.4``
-   :depends on numpy: ``>=1.24``
-   :depends on pandas: ``>=2.1``
-   :depends on pyarrow: ``>=14.0``
-   :depends on pyopenms: ``>=3.3.0,<3.5.0``
-   :depends on python: ``>=3.10``
-   :depends on pyyaml: ``>=6.0``
-   :depends on scipy: 
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on libgcc: ``>=14``
 
    :additional platforms:
       
@@ -68,11 +54,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install qpx
+    pixi global install baysor
 
 to add into an existing workspace instead, run::
 
-    pixi add qpx
+    pixi add baysor
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -84,11 +70,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install qpx
+    conda install baysor
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname qpx
+    conda create -n envname baysor
 
 with ``envname`` being the name of the desired environment.
 
@@ -98,9 +84,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/qpx:<tag>
+    docker pull quay.io/biocontainers/baysor:<tag>
 
-(see `qpx/tags`_ for valid values for ``<tag>``).
+(see `baysor/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -111,19 +97,19 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_qpx| image:: https://img.shields.io/conda/dn/bioconda/qpx.svg?style=flat
-   :target: https://anaconda.org/bioconda/qpx
+.. |downloads_baysor| image:: https://img.shields.io/conda/dn/bioconda/baysor.svg?style=flat
+   :target: https://anaconda.org/bioconda/baysor
    :alt:   (downloads)
-.. |docker_qpx| image:: https://quay.io/repository/biocontainers/qpx/status
-   :target: https://quay.io/repository/biocontainers/qpx
-.. _`qpx/tags`: https://quay.io/repository/biocontainers/qpx?tab=tags
+.. |docker_baysor| image:: https://quay.io/repository/biocontainers/baysor/status
+   :target: https://quay.io/repository/biocontainers/baysor
+.. _`baysor/tags`: https://quay.io/repository/biocontainers/baysor?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "qpx";
-        var versions = ["1.0.2","1.0.2"];
+        var package = "baysor";
+        var versions = ["0.7.1"];
     </script>
 
 
@@ -142,7 +128,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/qpx/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/baysor/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/qpx/README.html
+   :target: http://bioconda.github.io/recipes/baysor/README.html

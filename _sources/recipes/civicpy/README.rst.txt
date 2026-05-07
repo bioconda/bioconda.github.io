@@ -31,10 +31,10 @@ civicpy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.4.0-0</code>,  <code>5.3.0-0</code>,  <code>5.2.0-0</code>,  <code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.1.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.4.0-1</code>,  <code>5.4.0-0</code>,  <code>5.3.0-0</code>,  <code>5.2.0-0</code>,  <code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  </span></summary>
       
 
-      ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.0-0``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.0-0``
+      ``5.4.0-1``,  ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.0-0``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.0-0``
 
       
       .. raw:: html
@@ -43,17 +43,18 @@ civicpy
       
 
    
-   :depends on backports: 
-   :depends on backports-datetime-fromisoformat: 
    :depends on click: 
    :depends on deprecation: 
+   :depends on ga4gh.cat_vrs: 
+   :depends on ga4gh.va_spec: ``>=0.4.1,<0.5``
+   :depends on ga4gh.vrs: 
    :depends on networkx: 
    :depends on obonet: 
-   :depends on pandas: 
+   :depends on pandas: ``<=2.3.3``
    :depends on pysam: 
    :depends on python: ``>=3.10``
    :depends on requests: 
-   :depends on vcfpy: 
+   :depends on vcfpy: ``>=0.13.8,<0.14``
 
    :additional platforms:
       
@@ -127,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "civicpy";
-        var versions = ["5.4.0","5.3.0","5.2.0","5.1.1","5.1.0"];
+        var versions = ["5.4.0","5.4.0","5.3.0","5.2.0","5.1.1"];
     </script>
 
 

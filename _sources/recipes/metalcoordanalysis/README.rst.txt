@@ -13,7 +13,7 @@ metalcoordanalysis
    Python application designed for analyzing metal coordination in biological macromolecules such as proteins and nucleic acids
 
    :homepage: https://github.com/Lekaveh/MetalCoordAnalysis
-   :documentation: https://github.com/Lekaveh/MetalCoordAnalysis/blob/v0.2.13/README.md
+   :documentation: https://github.com/Lekaveh/MetalCoordAnalysis/blob/v0.2.14/README.md
    
    :license: MOZILLA / MPL-2.0
    :recipe: /`metalcoordanalysis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metalcoordanalysis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metalcoordanalysis/meta.yaml>`_
@@ -32,7 +32,7 @@ metalcoordanalysis
       
       
 
-      ``0.2.13-0``
+      ``0.2.14-0``,  ``0.2.13-0``
 
       
 
@@ -118,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "metalcoordanalysis";
-        var versions = ["0.2.13"];
+        var versions = ["0.2.14","0.2.13"];
     </script>
 
 

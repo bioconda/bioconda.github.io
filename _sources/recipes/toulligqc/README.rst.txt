@@ -13,7 +13,7 @@ toulligqc
    A post sequencing QC tool for Oxford Nanopore sequencers.
 
    :homepage: https://github.com/GenomicParisCentre/toulligQC
-   :documentation: https://github.com/GenomiqueENS/toulligQC/blob/v2.8.4/README.md
+   :documentation: https://github.com/GenomiqueENS/toulligQC/blob/v2.8.5/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`toulligqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/toulligqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/toulligqc/meta.yaml>`_

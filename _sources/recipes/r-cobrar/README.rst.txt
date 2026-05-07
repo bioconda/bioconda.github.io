@@ -28,17 +28,26 @@ r-cobrar
    :versions:
       
       
+      .. raw:: html
 
-      ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  <code>0.2.0-0</code>,  <code>0.1.2-0</code>,  <code>0.1.1-2</code>,  <code>0.1.1-1</code>,  <code>0.1.1-0</code>,  </span></summary>
+      
 
+      ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on glpk: ``>=4.65``
    :depends on glpk: ``>=5.0,<6.0a0``
    :depends on libgcc: ``>=14``
    :depends on libsbml: ``>=5.18.0``
-   :depends on libsbml: ``>=5.21.0,<5.22.0a0``
+   :depends on libsbml: ``>=5.21.1,<5.22.0a0``
    :depends on libstdcxx: ``>=14``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-jsonlite: 
@@ -122,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "r-cobrar";
-        var versions = ["0.2.4","0.2.3","0.2.2","0.2.0","0.1.2"];
+        var versions = ["0.2.5","0.2.4","0.2.3","0.2.2","0.2.0"];
     </script>
 
 
