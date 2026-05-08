@@ -40,13 +40,11 @@ rrikindp
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
-   :depends on _openmp_mutex: ``>=4.5``
+   :depends on __osx: ``>=11.0``
    :depends on boost-cpp: 
    :depends on intarna: ``>=3.4.1,<3.5.0a0``
-   :depends on libgcc: ``>=12``
-   :depends on libgomp: 
-   :depends on libstdcxx: ``>=12``
+   :depends on libcxx: ``>=16``
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on matplotlib-base: ``>=3.7.0``
    :depends on pandas: ``>=2.0.0``
    :depends on python: ``>=3.10,<3.11.0a0``

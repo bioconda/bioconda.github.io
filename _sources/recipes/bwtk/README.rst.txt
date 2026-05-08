@@ -13,7 +13,7 @@ bwtk
    A bigWig toolkit.
 
    :homepage: https://github.com/bjmt/bwtk
-   :documentation: https://github.com/bjmt/bwtk/blob/v1.8.1/README.md
+   :documentation: https://github.com/bjmt/bwtk/blob/v1.8.2/README.md
    
    :license: GPL3 / GPL-3.0-only
    :recipe: /`bwtk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bwtk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bwtk/meta.yaml>`_
@@ -29,14 +29,14 @@ bwtk
       
       
 
-      ``1.8.1-0``
+      ``1.8.2-0``,  ``1.8.1-0``
 
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on libbigwig: ``>=0.4.8``
-   :depends on libgcc: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
       
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bwtk";
-        var versions = ["1.8.1"];
+        var versions = ["1.8.2","1.8.1"];
     </script>
 
 

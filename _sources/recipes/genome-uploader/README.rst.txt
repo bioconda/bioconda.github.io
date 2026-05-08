@@ -27,19 +27,20 @@ genome-uploader
       
       
 
-      ``2.5.2-0``,  ``2.5.1-1``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.4-0``
+      ``3.0.0-0``,  ``2.5.2-0``,  ``2.5.1-1``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.4-0``
 
       
 
    
    :depends on click: ``>=8.1.8,<9``
    :depends on ena-webin-cli: ``>=9.0.1``
-   :depends on mgnify-pipelines-toolkit: ``>=1.4.5``
+   :depends on mgnify-pipelines-toolkit: ``>=1.4.22``
    :depends on numpy: ``1.26.0``
-   :depends on pandas: ``2.0.2``
+   :depends on pandas: ``>=2.0.2``
    :depends on python: ``>=3.9``
    :depends on python-dotenv: ``>=1.0``
-   :depends on requests: ``>=2.31,<3``
+   :depends on requests: ``>=2.26,<3``
+   :depends on retry: ``>=0.9.2``
 
    :additional platforms:
       
@@ -113,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "genome-uploader";
-        var versions = ["2.5.2","2.5.1","2.5.1","2.5.0","2.4.0"];
+        var versions = ["3.0.0","2.5.2","2.5.1","2.5.1","2.5.0"];
     </script>
 
 

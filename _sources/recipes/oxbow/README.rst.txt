@@ -27,11 +27,12 @@ oxbow
       
       
 
-      ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``
+      ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``
 
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on arro3-core: ``>=0.4.6``
    :depends on fsspec: ``>=2025.5.1``
    :depends on pandas: ``>=2.2.3``
@@ -116,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "oxbow";
-        var versions = ["0.7.0","0.6.0","0.5.2","0.5.1","0.5.0"];
+        var versions = ["0.8.0","0.7.0","0.6.0","0.5.2","0.5.1"];
     </script>
 
 

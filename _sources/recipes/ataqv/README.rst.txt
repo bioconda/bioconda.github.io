@@ -45,9 +45,8 @@ ataqv
    
    :depends on boost-cpp: 
    :depends on coreutils: 
-   :depends on htslib: ``>=1.21,<1.24.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on htslib: ``>=1.21,<1.22.0a0``
+   :depends on libcxx: ``>=18``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on ncurses: ``>=6.5,<7.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``

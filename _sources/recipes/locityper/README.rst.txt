@@ -40,10 +40,9 @@ locityper
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
    :depends on kmer-jellyfish: ``>=1.0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
+   :depends on llvm-openmp: ``>=18.1.8``
    :depends on minimap2: ``>=2.26``
    :depends on pysam: 
    :depends on python: 
