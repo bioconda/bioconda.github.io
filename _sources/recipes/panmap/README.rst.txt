@@ -32,7 +32,7 @@ panmap
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on capnproto: ``>=1.4.0,<1.4.1.0a0``
    :depends on fmt: ``>=12.0,<13``
    :depends on fmt: ``>=12.0.0,<12.1.0a0``
@@ -42,8 +42,9 @@ panmap
    :depends on libabseil: ``>=20250512``
    :depends on libabseil: ``>=20250512.1,<20250513.0a0``
    :depends on libboost: ``>=1.86.0,<1.87.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on libprotobuf: ``>=6.31.1,<6.31.2.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on spdlog: ``>=1.16,<1.17``
    :depends on spdlog: ``>=1.16.0,<1.17.0a0``

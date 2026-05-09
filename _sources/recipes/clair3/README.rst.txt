@@ -45,10 +45,12 @@ clair3
    :depends on h5py: 
    :depends on hdf5plugin: 
    :depends on libcurl: ``>=8.19.0,<9.0a0``
-   :depends on libcxx: ``>=19``
    :depends on libdeflate: ``>=1.25,<1.26.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on longphase: ``>=2.0.1,<3.0a0``
    :depends on numexpr: 
    :depends on numpy: 
    :depends on openssl: ``>=3.5.6,<4.0a0``
@@ -56,6 +58,7 @@ clair3
    :depends on pigz: 
    :depends on python: ``>=3.11,<3.12.0a0``
    :depends on python_abi: ``3.11.* *_cp311``
+   :depends on pytorch-cpu: 
    :depends on samtools: ``>=1.15``
    :depends on torchmetrics: 
    :depends on tqdm: 

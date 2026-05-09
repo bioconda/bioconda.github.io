@@ -26,9 +26,17 @@ snakemake-executor-plugin-lsf
    :versions:
       
       
+      .. raw:: html
 
-      ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.2.7-0</code>,  <code>0.2.6-0</code>,  <code>0.2.5-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  </span></summary>
+      
 
+      ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -110,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "snakemake-executor-plugin-lsf";
-        var versions = ["0.3.2","0.3.1","0.2.7","0.2.6","0.2.5"];
+        var versions = ["0.3.3","0.3.2","0.3.1","0.2.7","0.2.6"];
     </script>
 
 

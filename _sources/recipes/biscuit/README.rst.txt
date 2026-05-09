@@ -45,6 +45,7 @@ biscuit
    
    :depends on libcurl: ``>=8.18.0,<9.0a0``
    :depends on libdeflate: ``>=1.25,<1.26.0a0``
+   :depends on libgcc: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on ncurses: ``>=6.5,<7.0a0``
    :depends on perl: 

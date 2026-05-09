@@ -27,7 +27,7 @@ metacontam
       
       
 
-      ``0.0.1-1``,  ``0.0.1-0``
+      ``0.0.1-2``,  ``0.0.1-1``,  ``0.0.1-0``
 
       
 
@@ -41,7 +41,7 @@ metacontam
    :depends on networkx: ``>=3.1``
    :depends on numpy: ``>=1.25.2``
    :depends on pandas: ``>=2.0.3``
-   :depends on python: ``>=3.14,<3.15.0a0``
+   :depends on python: ``>=3.9``
    :depends on r-netcomi: ``>=1.1.0``
    :depends on samtools: ``>=1.10``
 
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "metacontam";
-        var versions = ["0.0.1","0.0.1"];
+        var versions = ["0.0.1","0.0.1","0.0.1"];
     </script>
 
 

@@ -41,7 +41,8 @@ slow5tools
 
    
    :depends on hdf5: ``>=1.14.3,<1.14.4.0a0``
-   :depends on libcxx: ``>=14``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
 
    :additional platforms:

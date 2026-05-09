@@ -41,7 +41,8 @@ bowtie
       
 
    
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on perl: 
    :depends on python: ``>=3.10,<3.11.0a0``

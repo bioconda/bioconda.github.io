@@ -27,7 +27,7 @@ perl-test-most
       
       
 
-      ``0.41-0``,  ``0.38-0``,  ``0.37-0``,  ``0.35-1``,  ``0.35-0``,  ``0.34-2``,  ``0.34-1``
+      ``0.42-0``,  ``0.41-0``,  ``0.38-0``,  ``0.37-0``,  ``0.35-1``,  ``0.35-0``,  ``0.34-2``,  ``0.34-1``
 
       
 
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "perl-test-most";
-        var versions = ["0.41","0.38","0.37","0.35","0.35"];
+        var versions = ["0.42","0.41","0.38","0.37","0.35"];
     </script>
 
 

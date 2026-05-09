@@ -44,7 +44,8 @@ pybedtools
 
    
    :depends on bedtools: 
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on numpy: 
    :depends on pysam: 

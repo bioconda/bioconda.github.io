@@ -34,6 +34,7 @@ redskull
       
 
    
+   :depends on libgcc: ``>=14``
    :depends on libgit2: ``>=1.9.2,<1.10.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on openssl: ``>=3.5.6,<4.0a0``

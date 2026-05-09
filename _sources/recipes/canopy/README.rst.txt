@@ -32,9 +32,11 @@ canopy
       
 
    
-   :depends on libcxx: ``>=18``
+   :depends on _openmp_mutex: ``* *_llvm``
+   :depends on _openmp_mutex: ``>=4.5``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on llvm-openmp: ``>=18.1.8``
    :depends on llvm-openmp: ``>=19.1.5``
    :depends on zlib: 
 

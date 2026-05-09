@@ -43,10 +43,13 @@ btllib
       
 
    
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
    :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on llvm-openmp: ``>=19.1.7``
+   :depends on libstdcxx: ``>=14``
+   :depends on lrzip: ``>=0.651,<0.652.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on samtools: ``>=1.23.1,<2.0a0``

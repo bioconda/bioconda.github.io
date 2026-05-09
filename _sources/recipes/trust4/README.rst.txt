@@ -43,9 +43,11 @@ trust4
       
 
    
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on perl: 
+   :depends on samtools: ``>=0.1.19,<0.2.0a0``
 
    :additional platforms:
       
