@@ -27,7 +27,7 @@ pangenomerge
       
       
 
-      ``0.9.1-0``,  ``0.9.0-0``
+      ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``
 
       
 
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "pangenomerge";
-        var versions = ["0.9.1","0.9.0"];
+        var versions = ["0.9.2","0.9.1","0.9.0"];
     </script>
 
 

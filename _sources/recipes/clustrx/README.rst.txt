@@ -1,56 +1,45 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'fastk'
+.. title:: Package Recipe 'clustrx'
 .. highlight: bash
 
-fastk
-=====
+clustrx
+=======
 
-.. conda:recipe:: fastk
+.. conda:recipe:: clustrx
    :replaces_section_title:
    :noindex:
 
-   FastK is a k‑mer counter that is optimized for processing high quality DNA assembly data sets such as those produced with an Illumina instrument or a PacBio run in HiFi mode.
+   Highly Robust and Sensitive Protein Clustering Using Similarity Networks and Leiden Community Detection
 
-   :homepage: https://github.com/thegenemyers/FASTK
-   :license: https://github.com/thegenemyers/FASTK/blob/master/LICENSE
-   :recipe: /`fastk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastk/meta.yaml>`_
+   :homepage: https://github.com/mario-benitez-prian/clustrX
+   :license: MIT / MIT
+   :recipe: /`clustrx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clustrx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clustrx/meta.yaml>`_
 
    
 
 
-.. conda:package:: fastk
+.. conda:package:: clustrx
 
-   |downloads_fastk| |docker_fastk|
+   |downloads_clustrx| |docker_clustrx|
 
    :versions:
       
       
-      .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2-1</code>,  <code>1.2-0</code>,  <code>1.1.0-2</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0-4</code>,  <code>1.0-3</code>,  <code>1.0-2</code>,  <code>1.0.0-1</code>,  </span></summary>
-      
+      ``1.0.1-0``
 
-      ``1.2-1``,  ``1.2-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0.0-1``,  ``1.0-1``,  ``1.0.0-0``,  ``1.0-0``
-
-      
-      .. raw:: html
-
-         </details>
       
 
    
-   :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libcurl: ``>=8.18.0,<9.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on mafft: 
+   :depends on numpy: 
+   :depends on polars: 
+   :depends on psutil: 
+   :depends on python: ``>=3.8``
+   :depends on python-igraph: 
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -67,11 +56,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install fastk
+    pixi global install clustrx
 
 to add into an existing workspace instead, run::
 
-    pixi add fastk
+    pixi add clustrx
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -83,11 +72,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install fastk
+    conda install clustrx
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname fastk
+    conda create -n envname clustrx
 
 with ``envname`` being the name of the desired environment.
 
@@ -97,9 +86,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/fastk:<tag>
+    docker pull quay.io/biocontainers/clustrx:<tag>
 
-(see `fastk/tags`_ for valid values for ``<tag>``).
+(see `clustrx/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -110,19 +99,19 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_fastk| image:: https://img.shields.io/conda/dn/bioconda/fastk.svg?style=flat
-   :target: https://anaconda.org/bioconda/fastk
+.. |downloads_clustrx| image:: https://img.shields.io/conda/dn/bioconda/clustrx.svg?style=flat
+   :target: https://anaconda.org/bioconda/clustrx
    :alt:   (downloads)
-.. |docker_fastk| image:: https://quay.io/repository/biocontainers/fastk/status
-   :target: https://quay.io/repository/biocontainers/fastk
-.. _`fastk/tags`: https://quay.io/repository/biocontainers/fastk?tab=tags
+.. |docker_clustrx| image:: https://quay.io/repository/biocontainers/clustrx/status
+   :target: https://quay.io/repository/biocontainers/clustrx
+.. _`clustrx/tags`: https://quay.io/repository/biocontainers/clustrx?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "fastk";
-        var versions = ["1.2","1.2","1.1.0","1.1.0","1.1.0"];
+        var package = "clustrx";
+        var versions = ["1.0.1"];
     </script>
 
 
@@ -141,7 +130,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fastk/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/clustrx/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/fastk/README.html
+   :target: http://bioconda.github.io/recipes/clustrx/README.html

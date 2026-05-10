@@ -29,7 +29,7 @@ phylogenize
       
       
 
-      ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``2.0a0-0``,  ``0.91-1``,  ``0.91-0``
+      ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``2.0a0-0``,  ``0.91-1``,  ``0.91-0``
 
       
 
@@ -38,6 +38,9 @@ phylogenize
    :depends on bioconductor-biomformat: ``1.38.0.*``
    :depends on bioconductor-clusterprofiler: ``4.18.4.*``
    :depends on bioconductor-ggtree: ``4.0.4.*``
+   :depends on bioconductor-mia: ``1.18.0.*``
+   :depends on bioconductor-microbiome: ``1.32.0.*``
+   :depends on bioconductor-phyloseq: ``1.54.0.*``
    :depends on bioconductor-qvalue: ``2.42.0.*``
    :depends on bioconductor-treesummarizedexperiment: ``2.18.0.*``
    :depends on r-ape: ``5.8_1.*``
@@ -147,7 +150,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "phylogenize";
-        var versions = ["2.0.1","2.0.1","2.0.0","2.0a0","0.91"];
+        var versions = ["2.0.1","2.0.1","2.0.1","2.0.0","2.0a0"];
     </script>
 
 

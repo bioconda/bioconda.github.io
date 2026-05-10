@@ -1,56 +1,46 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'fastk'
+.. title:: Package Recipe 'kegg_pull'
 .. highlight: bash
 
-fastk
-=====
+kegg_pull
+=========
 
-.. conda:recipe:: fastk
+.. conda:recipe:: kegg_pull
    :replaces_section_title:
    :noindex:
 
-   FastK is a k‑mer counter that is optimized for processing high quality DNA assembly data sets such as those produced with an Illumina instrument or a PacBio run in HiFi mode.
+   Package that facilitates pulling database entries from KEGG via its REST API 
 
-   :homepage: https://github.com/thegenemyers/FASTK
-   :license: https://github.com/thegenemyers/FASTK/blob/master/LICENSE
-   :recipe: /`fastk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastk/meta.yaml>`_
+   :homepage: https://github.com/MoseleyBioinformaticsLab/kegg_pull
+   :documentation: https://moseleybioinformaticslab.github.io/kegg_pull/index.html
+   
+   :license: BSD / Clear BSD License with Extra Clause
+   :recipe: /`kegg_pull <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kegg_pull>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kegg_pull/meta.yaml>`_
 
    
 
 
-.. conda:package:: fastk
+.. conda:package:: kegg_pull
 
-   |downloads_fastk| |docker_fastk|
+   |downloads_kegg_pull| |docker_kegg_pull|
 
    :versions:
       
       
-      .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2-1</code>,  <code>1.2-0</code>,  <code>1.1.0-2</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0-4</code>,  <code>1.0-3</code>,  <code>1.0-2</code>,  <code>1.0.0-1</code>,  </span></summary>
-      
+      ``3.2.2-0``
 
-      ``1.2-1``,  ``1.2-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0.0-1``,  ``1.0-1``,  ``1.0.0-0``,  ``1.0-0``
-
-      
-      .. raw:: html
-
-         </details>
       
 
    
-   :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libcurl: ``>=8.18.0,<9.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on docopt: 
+   :depends on jsonschema: 
+   :depends on python: ``>=3.10``
+   :depends on requests: 
+   :depends on tqdm: 
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 Installation
@@ -67,11 +57,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install fastk
+    pixi global install kegg_pull
 
 to add into an existing workspace instead, run::
 
-    pixi add fastk
+    pixi add kegg_pull
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -83,11 +73,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install fastk
+    conda install kegg_pull
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname fastk
+    conda create -n envname kegg_pull
 
 with ``envname`` being the name of the desired environment.
 
@@ -97,9 +87,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/fastk:<tag>
+    docker pull quay.io/biocontainers/kegg_pull:<tag>
 
-(see `fastk/tags`_ for valid values for ``<tag>``).
+(see `kegg_pull/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -110,19 +100,19 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_fastk| image:: https://img.shields.io/conda/dn/bioconda/fastk.svg?style=flat
-   :target: https://anaconda.org/bioconda/fastk
+.. |downloads_kegg_pull| image:: https://img.shields.io/conda/dn/bioconda/kegg_pull.svg?style=flat
+   :target: https://anaconda.org/bioconda/kegg_pull
    :alt:   (downloads)
-.. |docker_fastk| image:: https://quay.io/repository/biocontainers/fastk/status
-   :target: https://quay.io/repository/biocontainers/fastk
-.. _`fastk/tags`: https://quay.io/repository/biocontainers/fastk?tab=tags
+.. |docker_kegg_pull| image:: https://quay.io/repository/biocontainers/kegg_pull/status
+   :target: https://quay.io/repository/biocontainers/kegg_pull
+.. _`kegg_pull/tags`: https://quay.io/repository/biocontainers/kegg_pull?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "fastk";
-        var versions = ["1.2","1.2","1.1.0","1.1.0","1.1.0"];
+        var package = "kegg_pull";
+        var versions = ["3.2.2"];
     </script>
 
 
@@ -141,7 +131,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/fastk/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/kegg_pull/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/fastk/README.html
+   :target: http://bioconda.github.io/recipes/kegg_pull/README.html

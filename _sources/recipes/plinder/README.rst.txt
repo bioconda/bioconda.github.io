@@ -36,7 +36,7 @@ plinder
       
       
 
-      ``0.2.26-0``,  ``0.2.25-3``,  ``0.2.25-2``,  ``0.2.25-1``,  ``0.2.25-0``
+      ``0.2.26-1``,  ``0.2.26-0``,  ``0.2.25-3``,  ``0.2.25-2``,  ``0.2.25-1``,  ``0.2.25-0``
 
       
 
@@ -56,7 +56,7 @@ plinder
    :depends on mols2grid: 
    :depends on nbformat: 
    :depends on networkit: ``>=11.0``
-   :depends on numpy: ``<2``
+   :depends on numpy: 
    :depends on omegaconf: 
    :depends on openbabel: 
    :depends on openstructure: 
@@ -148,7 +148,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "plinder";
-        var versions = ["0.2.26","0.2.25","0.2.25","0.2.25","0.2.25"];
+        var versions = ["0.2.26","0.2.26","0.2.25","0.2.25","0.2.25"];
     </script>
 
 
