@@ -13,7 +13,7 @@ tn93
    This is a simple program meant to compute pairwise distances between aligned nucleotide sequences in sequential FASTA format using the Tamura Nei 93 distance.
 
    :homepage: https://github.com/veg/tn93
-   :documentation: https://github.com/veg/tn93/blob/v1.0.15/README.md
+   :documentation: https://github.com/veg/tn93/blob/v1.0.16/README.md
    
    :license: MIT / MIT
    :recipe: /`tn93 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tn93>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tn93/meta.yaml>`_
@@ -31,10 +31,10 @@ tn93
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.15-0</code>,  <code>1.0.14-1</code>,  <code>1.0.14-0</code>,  <code>1.0.13-1</code>,  <code>1.0.13-0</code>,  <code>1.0.12-0</code>,  <code>1.0.9-2</code>,  <code>1.0.9-1</code>,  <code>1.0.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.16-0</code>,  <code>1.0.15-0</code>,  <code>1.0.14-1</code>,  <code>1.0.14-0</code>,  <code>1.0.13-1</code>,  <code>1.0.13-0</code>,  <code>1.0.12-0</code>,  <code>1.0.9-2</code>,  <code>1.0.9-1</code>,  </span></summary>
       
 
-      ``1.0.15-0``,  ``1.0.14-1``,  ``1.0.14-0``,  ``1.0.13-1``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.2-0``
+      ``1.0.16-0``,  ``1.0.15-0``,  ``1.0.14-1``,  ``1.0.14-0``,  ``1.0.13-1``,  ``1.0.13-0``,  ``1.0.12-0``,  ``1.0.9-2``,  ``1.0.9-1``,  ``1.0.9-0``,  ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -43,10 +43,9 @@ tn93
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
-   :depends on libgcc: ``>=13``
-   :depends on libgomp: 
-   :depends on libstdcxx: ``>=13``
+   :depends on __osx: ``>=11.0``
+   :depends on libcxx: ``>=19``
+   :depends on llvm-openmp: ``>=19.1.7``
 
    :additional platforms:
       
@@ -124,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "tn93";
-        var versions = ["1.0.15","1.0.14","1.0.14","1.0.13","1.0.13"];
+        var versions = ["1.0.16","1.0.15","1.0.14","1.0.14","1.0.13"];
     </script>
 
 

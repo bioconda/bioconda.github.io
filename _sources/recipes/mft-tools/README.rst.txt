@@ -1,54 +1,46 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'kalign3'
+.. title:: Package Recipe 'mft-tools'
 .. highlight: bash
 
-kalign3
-=======
+mft-tools
+=========
 
-.. conda:recipe:: kalign3
+.. conda:recipe:: mft-tools
    :replaces_section_title:
    :noindex:
 
-   Kalign is a fast and accurate multiple sequence alignment algorithm.
+   Tranform DNA sequences using the Min\-Frame Transformation \(MFT\)
 
-   :homepage: https://github.com/TimoLassmann/kalign
-   :license: GPL-3.0-only
-   :recipe: /`kalign3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kalign3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kalign3/meta.yaml>`_
-   :links: doi: :doi:`10.1093/bioinformatics/btz795`
+   :homepage: https://github.com/treangenlab/mft-tools
+   :documentation: https://github.com/treangenlab/mft-tools/blob/main/README.md
+   
+   :license: MIT / MIT
+   :recipe: /`mft-tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mft-tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mft-tools/meta.yaml>`_
 
    
 
 
-.. conda:package:: kalign3
+.. conda:package:: mft-tools
 
-   |downloads_kalign3| |docker_kalign3|
+   |downloads_mft-tools| |docker_mft-tools|
 
    :versions:
       
       
-      .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.0-2</code>,  <code>3.4.0-1</code>,  <code>3.4.0-0</code>,  <code>3.3.5-0</code>,  <code>3.3.2-2</code>,  <code>3.3.2-1</code>,  <code>3.3.2-0</code>,  <code>3.2.2-3</code>,  <code>3.2.2-2</code>,  </span></summary>
-      
+      ``0.1.0-0``
 
-      ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.5-0``,  ``3.3.2-2``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.2.2-3``,  ``3.2.2-2``,  ``3.2.2-1``,  ``3.2.2-0``
-
-      
-      .. raw:: html
-
-         </details>
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
+         <span class="additional-platforms"><code>-</code>,  <code>l</code>,  <code>i</code>,  <code>n</code>,  <code>u</code>,  <code>x</code>,  <code>-</code>,  <code>a</code>,  <code>a</code>,  <code>r</code>,  <code>c</code>,  <code>h</code>,  <code>6</code>,  <code>4</code>,  <code> </code>,  <code>-</code>,  <code>o</code>,  <code>s</code>,  <code>x</code>,  <code>-</code>,  <code>a</code>,  <code>r</code>,  <code>m</code>,  <code>6</code>,  <code>4</code></span>
       
 
 Installation
@@ -65,11 +57,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install kalign3
+    pixi global install mft-tools
 
 to add into an existing workspace instead, run::
 
-    pixi add kalign3
+    pixi add mft-tools
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -81,11 +73,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install kalign3
+    conda install mft-tools
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname kalign3
+    conda create -n envname mft-tools
 
 with ``envname`` being the name of the desired environment.
 
@@ -95,9 +87,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/kalign3:<tag>
+    docker pull quay.io/biocontainers/mft-tools:<tag>
 
-(see `kalign3/tags`_ for valid values for ``<tag>``).
+(see `mft-tools/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -108,19 +100,19 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_kalign3| image:: https://img.shields.io/conda/dn/bioconda/kalign3.svg?style=flat
-   :target: https://anaconda.org/bioconda/kalign3
+.. |downloads_mft-tools| image:: https://img.shields.io/conda/dn/bioconda/mft-tools.svg?style=flat
+   :target: https://anaconda.org/bioconda/mft-tools
    :alt:   (downloads)
-.. |docker_kalign3| image:: https://quay.io/repository/biocontainers/kalign3/status
-   :target: https://quay.io/repository/biocontainers/kalign3
-.. _`kalign3/tags`: https://quay.io/repository/biocontainers/kalign3?tab=tags
+.. |docker_mft-tools| image:: https://quay.io/repository/biocontainers/mft-tools/status
+   :target: https://quay.io/repository/biocontainers/mft-tools
+.. _`mft-tools/tags`: https://quay.io/repository/biocontainers/mft-tools?tab=tags
 
 
 .. raw:: html
 
     <script>
-        var package = "kalign3";
-        var versions = ["3.4.0","3.4.0","3.4.0","3.3.5","3.3.2"];
+        var package = "mft-tools";
+        var versions = ["0.1.0"];
     </script>
 
 
@@ -139,7 +131,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/kalign3/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mft-tools/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/kalign3/README.html
+   :target: http://bioconda.github.io/recipes/mft-tools/README.html

@@ -31,7 +31,7 @@ staphscope
       
       
 
-      ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``
+      ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``
 
       
 
@@ -60,7 +60,7 @@ staphscope
    :depends on requests: ``>=2.28.0``
    :depends on scipy: ``>=1.10.1``
    :depends on seaborn-base: ``>=0.12.0``
-   :depends on staphscope-sccmec-data: ``1.2.1``
+   :depends on staphscope-sccmec-data: ``1.2.2``
    :depends on tqdm: ``>=4.64.0``
 
    :additional platforms:
@@ -135,7 +135,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "staphscope";
-        var versions = ["1.2.1","1.2.1","1.2.0","1.2.0","1.1.0"];
+        var versions = ["1.2.2","1.2.1","1.2.1","1.2.0","1.2.0"];
     </script>
 
 

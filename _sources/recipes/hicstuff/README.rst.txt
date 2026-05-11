@@ -30,10 +30,10 @@ hicstuff
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.4-0</code>,  <code>3.2.3-0</code>,  <code>3.2.2-0</code>,  <code>3.2.1-0</code>,  <code>3.2.0-0</code>,  <code>3.1.7-0</code>,  <code>3.1.6-0</code>,  <code>3.1.5-2</code>,  <code>3.1.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.2.5-0</code>,  <code>3.2.4-0</code>,  <code>3.2.3-0</code>,  <code>3.2.2-0</code>,  <code>3.2.1-0</code>,  <code>3.2.0-0</code>,  <code>3.1.7-0</code>,  <code>3.1.6-0</code>,  <code>3.1.5-2</code>,  </span></summary>
       
 
-      ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.7-0``,  ``3.1.6-0``,  ``3.1.5-2``,  ``3.1.5-1``,  ``3.1.5-0``,  ``3.1.4-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``
+      ``3.2.5-0``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.7-0``,  ``3.1.6-0``,  ``3.1.5-2``,  ``3.1.5-1``,  ``3.1.5-0``,  ``3.1.4-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0-2``,  ``2.3.0-1``,  ``2.3.0-0``
 
       
       .. raw:: html
@@ -46,7 +46,6 @@ hicstuff
    :depends on bowtie2: 
    :depends on cooler: 
    :depends on coreutils: 
-   :depends on docopt: 
    :depends on matplotlib-base: 
    :depends on minimap2: 
    :depends on numpy: 
@@ -54,8 +53,9 @@ hicstuff
    :depends on pandas: 
    :depends on pyfastx: 
    :depends on pysam: 
-   :depends on python: ``>=3.6``
+   :depends on python: ``>=3.8``
    :depends on requests: 
+   :depends on rich-click: ``>=1.7``
    :depends on samtools: 
    :depends on scikit-learn: 
    :depends on scipy: 
@@ -132,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "hicstuff";
-        var versions = ["3.2.4","3.2.3","3.2.2","3.2.1","3.2.0"];
+        var versions = ["3.2.5","3.2.4","3.2.3","3.2.2","3.2.1"];
     </script>
 
 

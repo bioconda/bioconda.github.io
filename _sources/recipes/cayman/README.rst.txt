@@ -28,14 +28,17 @@ cayman
       
       
 
-      ``0.10.2-0``,  ``0.10.1-0``
+      ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-0``
 
       
 
    
    :depends on bwa: 
    :depends on gqlib: ``>=2.14.3``
-   :depends on pyhmmer: ``>=0.7.0``
+   :depends on numpy: 
+   :depends on pandas: 
+   :depends on pyhmmer: ``>=0.12.0``
+   :depends on pysam: 
    :depends on python: 
 
    :additional platforms:
@@ -110,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "cayman";
-        var versions = ["0.10.2","0.10.1"];
+        var versions = ["0.10.3","0.10.2","0.10.1"];
     </script>
 
 
