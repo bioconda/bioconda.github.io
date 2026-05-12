@@ -29,10 +29,10 @@ viralmsa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.46-0</code>,  <code>1.1.45-1</code>,  <code>1.1.45-0</code>,  <code>1.1.44-1</code>,  <code>1.1.44-0</code>,  <code>1.1.43-0</code>,  <code>1.1.42-0</code>,  <code>1.1.41-0</code>,  <code>1.1.40-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.47-0</code>,  <code>1.1.46-0</code>,  <code>1.1.45-1</code>,  <code>1.1.45-0</code>,  <code>1.1.44-1</code>,  <code>1.1.44-0</code>,  <code>1.1.43-0</code>,  <code>1.1.42-0</code>,  <code>1.1.41-0</code>,  </span></summary>
       
 
-      ``1.1.46-0``,  ``1.1.45-1``,  ``1.1.45-0``,  ``1.1.44-1``,  ``1.1.44-0``,  ``1.1.43-0``,  ``1.1.42-0``,  ``1.1.41-0``,  ``1.1.40-0``,  ``1.1.39-0``,  ``1.1.38-0``,  ``1.1.36-0``,  ``1.1.35-0``
+      ``1.1.47-0``,  ``1.1.46-0``,  ``1.1.45-1``,  ``1.1.45-0``,  ``1.1.44-1``,  ``1.1.44-0``,  ``1.1.43-0``,  ``1.1.42-0``,  ``1.1.41-0``,  ``1.1.40-0``,  ``1.1.39-0``,  ``1.1.38-0``,  ``1.1.36-0``,  ``1.1.35-0``
 
       
       .. raw:: html
@@ -126,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "viralmsa";
-        var versions = ["1.1.46","1.1.45","1.1.45","1.1.44","1.1.44"];
+        var versions = ["1.1.47","1.1.46","1.1.45","1.1.45","1.1.44"];
     </script>
 
 

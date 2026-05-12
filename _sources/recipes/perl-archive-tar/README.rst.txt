@@ -27,7 +27,7 @@ perl-archive-tar
       
       
 
-      ``3.04-0``,  ``2.40-0``,  ``2.32-1``,  ``2.32-0``,  ``2.18-3``,  ``2.18-2``,  ``2.18-1``
+      ``3.06-0``,  ``3.04-0``,  ``2.40-0``,  ``2.32-1``,  ``2.32-0``,  ``2.18-3``,  ``2.18-2``,  ``2.18-1``
 
       
 
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "perl-archive-tar";
-        var versions = ["3.04","2.40","2.32","2.32","2.18"];
+        var versions = ["3.06","3.04","2.40","2.32","2.32"];
     </script>
 
 

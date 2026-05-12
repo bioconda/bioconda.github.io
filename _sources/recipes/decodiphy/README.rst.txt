@@ -27,7 +27,7 @@ decodiphy
       
       
 
-      ``1.2.3-0``
+      ``1.3.3-0``,  ``1.2.3-0``
 
       
 
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "decodiphy";
-        var versions = ["1.2.3"];
+        var versions = ["1.3.3","1.2.3"];
     </script>
 
 

@@ -13,7 +13,7 @@ redskull
    A conda recipe generator for Rust crates.
 
    :homepage: https://github.com/fg-labs/redskull
-   :documentation: https://github.com/fg-labs/redskull/blob/v0.1.1/README.md
+   :documentation: https://github.com/fg-labs/redskull/blob/v0.1.2/README.md
    
    :license: MIT / MIT
    :recipe: /`redskull <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/redskull>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/redskull/meta.yaml>`_
@@ -29,12 +29,12 @@ redskull
       
       
 
-      ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
-   :depends on libgit2: ``>=1.9.2,<1.10.0a0``
+   :depends on libgit2: ``>=1.9.3,<1.10.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on openssl: ``>=3.5.6,<4.0a0``
    :depends on zlib: 
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "redskull";
-        var versions = ["0.1.1","0.1.0"];
+        var versions = ["0.1.2","0.1.1","0.1.0"];
     </script>
 
 

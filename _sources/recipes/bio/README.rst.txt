@@ -27,7 +27,7 @@ bio
       
       
 
-      ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.1-1``,  ``1.7.1-0``
+      ``1.8.3-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.1-1``,  ``1.7.1-0``
 
       
 
@@ -37,7 +37,7 @@ bio
    :depends on mygene: 
    :depends on pandas: 
    :depends on pooch: 
-   :depends on python: ``>=3.10``
+   :depends on python: ``>=3.10,<3.15``
    :depends on requests: 
    :depends on tqdm: 
 
@@ -113,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "bio";
-        var versions = ["1.8.1","1.8.0","1.7.1","1.7.1"];
+        var versions = ["1.8.3","1.8.1","1.8.0","1.7.1","1.7.1"];
     </script>
 
 

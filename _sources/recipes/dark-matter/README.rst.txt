@@ -29,7 +29,7 @@ dark-matter
       
       
 
-      ``7.2.3-0``,  ``7.2.0-0``,  ``7.1.20-0``,  ``7.1.19-0``,  ``7.1.18-0``,  ``5.1.2-0``
+      ``7.2.4-0``,  ``7.2.3-0``,  ``7.2.0-0``,  ``7.1.20-0``,  ``7.1.19-0``,  ``7.1.18-0``,  ``5.1.2-0``
 
       
 
@@ -139,7 +139,7 @@ Check the documentation of your workflow management system to find out about the
 
     <script>
         var package = "dark-matter";
-        var versions = ["7.2.3","7.2.0","7.1.20","7.1.19","7.1.18"];
+        var versions = ["7.2.4","7.2.3","7.2.0","7.1.20","7.1.19"];
     </script>
 
 
