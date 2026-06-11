@@ -31,10 +31,10 @@ meme
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.5.9-0</code>,  <code>5.5.8-0</code>,  <code>5.5.7-3</code>,  <code>5.5.7-2</code>,  <code>5.5.7-1</code>,  <code>5.5.7-0</code>,  <code>5.5.6-0</code>,  <code>5.5.5-1</code>,  <code>5.5.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.5.9-1</code>,  <code>5.5.9-0</code>,  <code>5.5.8-0</code>,  <code>5.5.7-3</code>,  <code>5.5.7-2</code>,  <code>5.5.7-1</code>,  <code>5.5.7-0</code>,  <code>5.5.6-0</code>,  <code>5.5.5-1</code>,  </span></summary>
       
 
-      ``5.5.9-0``,  ``5.5.8-0``,  ``5.5.7-3``,  ``5.5.7-2``,  ``5.5.7-1``,  ``5.5.7-0``,  ``5.5.6-0``,  ``5.5.5-1``,  ``5.5.5-0``,  ``5.5.4-0``,  ``5.5.3-0``,  ``5.5.2-1``,  ``5.5.2-0``,  ``5.4.1-2``,  ``5.4.1-1``,  ``5.4.1-0``,  ``5.3.0-2``,  ``5.3.0-0``,  ``5.1.1-3``,  ``5.1.1-2``,  ``5.1.1-1``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.5-0``,  ``5.0.2-5``,  ``5.0.2-3``,  ``5.0.2-2``,  ``4.12.0-2``,  ``4.12.0-1``,  ``4.12.0-0``,  ``4.11.2-9``,  ``4.11.2-8``,  ``4.11.2-6``,  ``4.11.2-5``,  ``4.11.2-4``,  ``4.11.2-3``,  ``4.11.2-2``,  ``4.11.2-1``,  ``4.11.2-0``,  ``4.11.1-7``,  ``4.11.1-6``,  ``4.11.1-5``,  ``4.11.1-4``,  ``4.11.1-3``,  ``4.11.1-2``,  ``4.11.1-1``,  ``4.11.1-0``,  ``4.8.1-3``,  ``4.8.1-2``,  ``4.8.1-1``
+      ``5.5.9-1``,  ``5.5.9-0``,  ``5.5.8-0``,  ``5.5.7-3``,  ``5.5.7-2``,  ``5.5.7-1``,  ``5.5.7-0``,  ``5.5.6-0``,  ``5.5.5-1``,  ``5.5.5-0``,  ``5.5.4-0``,  ``5.5.3-0``,  ``5.5.2-1``,  ``5.5.2-0``,  ``5.4.1-2``,  ``5.4.1-1``,  ``5.4.1-0``,  ``5.3.0-2``,  ``5.3.0-0``,  ``5.1.1-3``,  ``5.1.1-2``,  ``5.1.1-1``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.5-0``,  ``5.0.2-5``,  ``5.0.2-3``,  ``5.0.2-2``,  ``4.12.0-2``,  ``4.12.0-1``,  ``4.12.0-0``,  ``4.11.2-9``,  ``4.11.2-8``,  ``4.11.2-6``,  ``4.11.2-5``,  ``4.11.2-4``,  ``4.11.2-3``,  ``4.11.2-2``,  ``4.11.2-1``,  ``4.11.2-0``,  ``4.11.1-7``,  ``4.11.1-6``,  ``4.11.1-5``,  ``4.11.1-4``,  ``4.11.1-3``,  ``4.11.1-2``,  ``4.11.1-1``,  ``4.11.1-0``,  ``4.8.1-3``,  ``4.8.1-2``,  ``4.8.1-1``
 
       
       .. raw:: html
@@ -43,13 +43,15 @@ meme
       
 
    
-   :depends on icu: ``>=73.2,<74.0a0``
-   :depends on libexpat: ``>=2.7.3,<3.0a0``
-   :depends on libxml2: ``>=2.12.7,<3.0a0``
-   :depends on libxslt: ``>=1.1.39,<2.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on llvm-openmp: ``>=18.1.8``
-   :depends on nodejs: ``>=22.6.0,<23.0a0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on _openmp_mutex: ``>=4.5``
+   :depends on icu: ``>=75.1,<76.0a0``
+   :depends on libexpat: ``>=2.8.1,<3.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
+   :depends on libxml2: ``>=2.13.9,<2.14.0a0``
+   :depends on libxslt: ``>=1.1.43,<2.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-app-cpanminus: 
    :depends on perl-cgi: 
@@ -73,6 +75,7 @@ meme
 
          <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
+
 
 Installation
 ------------
@@ -141,21 +144,99 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "meme";
-        var versions = ["5.5.9","5.5.8","5.5.7","5.5.7","5.5.7"];
-    </script>
+   <script>
+      var package = "meme";
+      var versions = ["5.5.9","5.5.9","5.5.8","5.5.7","5.5.7"];
+   </script>
 
-
-
-
-
-
-Download stats
------------------
+.. rubric:: Download stats
 
 .. raw:: html
-    :file: ../../templates/package_dashboard.html
+    
+   <div style="width: 100%" id="download_plot_meme"></div>
+   <div style="width: 100%" id="platform_plot_meme"></div>
+   <div style="width: 100%" id="cdf_plot_meme"></div>
+
+
+
+   ..
+      Create all the necessary plots for each package by loading all the
+      correct specs and data. Important points on the place and implementation
+      of this script block:
+      1. It is here, and not in a separate HTML file, as it needs to have the
+         `package.name` rendered in for each package.
+      2. All packages are handled in one `window.onload` function, as multiple
+         instances of this throughout a (rendered) HTML just overwrite each
+         other.
+
+   <script>
+      window.onload = async function() {
+         
+            // Build cdf plot for meme
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/meme/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_meme', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for meme
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/meme/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_meme', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for meme
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/meme/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_meme', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+      }
+   </script>
+
+
 
 Link to this page
 -----------------

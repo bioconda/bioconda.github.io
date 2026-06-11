@@ -31,10 +31,10 @@ auspice
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.66.0-2</code>,  <code>2.66.0-1</code>,  <code>2.66.0-0</code>,  <code>2.65.0-0</code>,  <code>2.64.0-0</code>,  <code>2.63.0-0</code>,  <code>2.62.0-0</code>,  <code>2.59.1-1</code>,  <code>2.59.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.67.0-0</code>,  <code>2.66.0-2</code>,  <code>2.66.0-1</code>,  <code>2.66.0-0</code>,  <code>2.65.0-0</code>,  <code>2.64.0-0</code>,  <code>2.63.0-0</code>,  <code>2.62.0-0</code>,  <code>2.59.1-1</code>,  </span></summary>
       
 
-      ``2.66.0-2``,  ``2.66.0-1``,  ``2.66.0-0``,  ``2.65.0-0``,  ``2.64.0-0``,  ``2.63.0-0``,  ``2.62.0-0``,  ``2.59.1-1``,  ``2.59.1-0``,  ``2.59.0-0``,  ``2.58.0-0``,  ``2.57.0-0``,  ``2.56.1-0``,  ``2.56.0-3``,  ``2.56.0-2``,  ``2.56.0-1``,  ``2.56.0-0``,  ``2.54.1-1``,  ``2.54.1-0``,  ``2.53.0-0``,  ``2.52.0-1``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.49.0-0``,  ``2.48.0-0``,  ``2.47.0-0``,  ``2.46.0-2``,  ``2.46.0-0``,  ``2.45.1-2``,  ``2.45.1-1``,  ``2.45.1-0``,  ``2.45.0-0``,  ``2.44.0-0``,  ``2.43.0-0``,  ``2.42.0-0``,  ``2.40.1-0``,  ``2.40.0-0``,  ``2.39.0-1``,  ``2.39.0-0``,  ``2.38.0-1``,  ``2.38.0-0``,  ``2.37.3-1``,  ``2.37.3-0``,  ``2.37.1-1``,  ``2.37.1-0``,  ``2.29.1-1``,  ``2.29.1-0``,  ``2.23.0-1``,  ``2.23.0-0``
+      ``2.67.0-0``,  ``2.66.0-2``,  ``2.66.0-1``,  ``2.66.0-0``,  ``2.65.0-0``,  ``2.64.0-0``,  ``2.63.0-0``,  ``2.62.0-0``,  ``2.59.1-1``,  ``2.59.1-0``,  ``2.59.0-0``,  ``2.58.0-0``,  ``2.57.0-0``,  ``2.56.1-0``,  ``2.56.0-3``,  ``2.56.0-2``,  ``2.56.0-1``,  ``2.56.0-0``,  ``2.54.1-1``,  ``2.54.1-0``,  ``2.53.0-0``,  ``2.52.0-1``,  ``2.52.0-0``,  ``2.50.0-0``,  ``2.49.0-0``,  ``2.48.0-0``,  ``2.47.0-0``,  ``2.46.0-2``,  ``2.46.0-0``,  ``2.45.1-2``,  ``2.45.1-1``,  ``2.45.1-0``,  ``2.45.0-0``,  ``2.44.0-0``,  ``2.43.0-0``,  ``2.42.0-0``,  ``2.40.1-0``,  ``2.40.0-0``,  ``2.39.0-1``,  ``2.39.0-0``,  ``2.38.0-1``,  ``2.38.0-0``,  ``2.37.3-1``,  ``2.37.3-0``,  ``2.37.1-1``,  ``2.37.1-0``,  ``2.29.1-1``,  ``2.29.1-0``,  ``2.23.0-1``,  ``2.23.0-0``
 
       
       .. raw:: html
@@ -43,8 +43,10 @@ auspice
       
 
    
-   :depends on libcxx: ``>=18``
-   :depends on nodejs: ``20.*|22.*``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on nodejs: ``20.*|22.*|24.*``
 
    :additional platforms:
       
@@ -52,6 +54,7 @@ auspice
 
          <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
+
 
 Installation
 ------------
@@ -120,21 +123,99 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "auspice";
-        var versions = ["2.66.0","2.66.0","2.66.0","2.65.0","2.64.0"];
-    </script>
+   <script>
+      var package = "auspice";
+      var versions = ["2.67.0","2.66.0","2.66.0","2.66.0","2.65.0"];
+   </script>
 
-
-
-
-
-
-Download stats
------------------
+.. rubric:: Download stats
 
 .. raw:: html
-    :file: ../../templates/package_dashboard.html
+    
+   <div style="width: 100%" id="download_plot_auspice"></div>
+   <div style="width: 100%" id="platform_plot_auspice"></div>
+   <div style="width: 100%" id="cdf_plot_auspice"></div>
+
+
+
+   ..
+      Create all the necessary plots for each package by loading all the
+      correct specs and data. Important points on the place and implementation
+      of this script block:
+      1. It is here, and not in a separate HTML file, as it needs to have the
+         `package.name` rendered in for each package.
+      2. All packages are handled in one `window.onload` function, as multiple
+         instances of this throughout a (rendered) HTML just overwrite each
+         other.
+
+   <script>
+      window.onload = async function() {
+         
+            // Build cdf plot for auspice
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/auspice/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_auspice', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for auspice
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/auspice/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_auspice', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for auspice
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/auspice/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_auspice', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+      }
+   </script>
+
+
 
 Link to this page
 -----------------

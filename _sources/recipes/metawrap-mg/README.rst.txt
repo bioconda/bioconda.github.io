@@ -38,6 +38,7 @@ metawrap-mg
    :additional platforms:
       
 
+
 Installation
 ------------
 
@@ -105,10 +106,18 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "metawrap-mg";
-        var versions = ["1.3.0"];
-    </script>
+   <script>
+      var package = "metawrap-annotate-bins";
+      var versions = ["1.3.0"];
+   </script>
+
+.. rubric:: Download stats
+
+.. raw:: html
+    
+   <div style="width: 100%" id="download_plot_metawrap-annotate-bins"></div>
+   <div style="width: 100%" id="platform_plot_metawrap-annotate-bins"></div>
+   <div style="width: 100%" id="cdf_plot_metawrap-annotate-bins"></div>
 
 
 .. conda:package:: metawrap-assembly
@@ -133,6 +142,7 @@ Check the documentation of your workflow management system to find out about the
 
    :additional platforms:
       
+
 
 Installation
 ------------
@@ -201,10 +211,18 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "metawrap-mg";
-        var versions = ["1.3.0"];
-    </script>
+   <script>
+      var package = "metawrap-assembly";
+      var versions = ["1.3.0"];
+   </script>
+
+.. rubric:: Download stats
+
+.. raw:: html
+    
+   <div style="width: 100%" id="download_plot_metawrap-assembly"></div>
+   <div style="width: 100%" id="platform_plot_metawrap-assembly"></div>
+   <div style="width: 100%" id="cdf_plot_metawrap-assembly"></div>
 
 
 .. conda:package:: metawrap-binning
@@ -233,6 +251,7 @@ Check the documentation of your workflow management system to find out about the
 
    :additional platforms:
       
+
 
 Installation
 ------------
@@ -301,10 +320,18 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "metawrap-mg";
-        var versions = ["1.3.0"];
-    </script>
+   <script>
+      var package = "metawrap-binning";
+      var versions = ["1.3.0"];
+   </script>
+
+.. rubric:: Download stats
+
+.. raw:: html
+    
+   <div style="width: 100%" id="download_plot_metawrap-binning"></div>
+   <div style="width: 100%" id="platform_plot_metawrap-binning"></div>
+   <div style="width: 100%" id="cdf_plot_metawrap-binning"></div>
 
 
 .. conda:package:: metawrap-blobology
@@ -331,6 +358,7 @@ Check the documentation of your workflow management system to find out about the
 
    :additional platforms:
       
+
 
 Installation
 ------------
@@ -399,10 +427,18 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "metawrap-mg";
-        var versions = ["1.3.0"];
-    </script>
+   <script>
+      var package = "metawrap-blobology";
+      var versions = ["1.3.0"];
+   </script>
+
+.. rubric:: Download stats
+
+.. raw:: html
+    
+   <div style="width: 100%" id="download_plot_metawrap-blobology"></div>
+   <div style="width: 100%" id="platform_plot_metawrap-blobology"></div>
+   <div style="width: 100%" id="cdf_plot_metawrap-blobology"></div>
 
 
 .. conda:package:: metawrap-classify-bins
@@ -424,6 +460,7 @@ Check the documentation of your workflow management system to find out about the
 
    :additional platforms:
       
+
 
 Installation
 ------------
@@ -492,10 +529,18 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "metawrap-mg";
-        var versions = ["1.3.0"];
-    </script>
+   <script>
+      var package = "metawrap-classify-bins";
+      var versions = ["1.3.0"];
+   </script>
+
+.. rubric:: Download stats
+
+.. raw:: html
+    
+   <div style="width: 100%" id="download_plot_metawrap-classify-bins"></div>
+   <div style="width: 100%" id="platform_plot_metawrap-classify-bins"></div>
+   <div style="width: 100%" id="cdf_plot_metawrap-classify-bins"></div>
 
 
 .. conda:package:: metawrap-kraken
@@ -519,6 +564,7 @@ Check the documentation of your workflow management system to find out about the
 
    :additional platforms:
       
+
 
 Installation
 ------------
@@ -587,10 +633,18 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "metawrap-mg";
-        var versions = ["1.3.0"];
-    </script>
+   <script>
+      var package = "metawrap-kraken";
+      var versions = ["1.3.0"];
+   </script>
+
+.. rubric:: Download stats
+
+.. raw:: html
+    
+   <div style="width: 100%" id="download_plot_metawrap-kraken"></div>
+   <div style="width: 100%" id="platform_plot_metawrap-kraken"></div>
+   <div style="width: 100%" id="cdf_plot_metawrap-kraken"></div>
 
 
 .. conda:package:: metawrap-mg
@@ -611,6 +665,7 @@ Check the documentation of your workflow management system to find out about the
 
    :additional platforms:
       
+
 
 Installation
 ------------
@@ -679,10 +734,18 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "metawrap-mg";
-        var versions = ["1.3.0","1.3.0","1.3.0"];
-    </script>
+   <script>
+      var package = "metawrap-mg";
+      var versions = ["1.3.0","1.3.0","1.3.0"];
+   </script>
+
+.. rubric:: Download stats
+
+.. raw:: html
+    
+   <div style="width: 100%" id="download_plot_metawrap-mg"></div>
+   <div style="width: 100%" id="platform_plot_metawrap-mg"></div>
+   <div style="width: 100%" id="cdf_plot_metawrap-mg"></div>
 
 
 .. conda:package:: metawrap-quant-bins
@@ -706,6 +769,7 @@ Check the documentation of your workflow management system to find out about the
 
    :additional platforms:
       
+
 
 Installation
 ------------
@@ -774,10 +838,18 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "metawrap-mg";
-        var versions = ["1.3.0"];
-    </script>
+   <script>
+      var package = "metawrap-quant-bins";
+      var versions = ["1.3.0"];
+   </script>
+
+.. rubric:: Download stats
+
+.. raw:: html
+    
+   <div style="width: 100%" id="download_plot_metawrap-quant-bins"></div>
+   <div style="width: 100%" id="platform_plot_metawrap-quant-bins"></div>
+   <div style="width: 100%" id="cdf_plot_metawrap-quant-bins"></div>
 
 
 .. conda:package:: metawrap-read-qc
@@ -800,6 +872,7 @@ Check the documentation of your workflow management system to find out about the
 
    :additional platforms:
       
+
 
 Installation
 ------------
@@ -868,10 +941,18 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "metawrap-mg";
-        var versions = ["1.3.0"];
-    </script>
+   <script>
+      var package = "metawrap-read-qc";
+      var versions = ["1.3.0"];
+   </script>
+
+.. rubric:: Download stats
+
+.. raw:: html
+    
+   <div style="width: 100%" id="download_plot_metawrap-read-qc"></div>
+   <div style="width: 100%" id="platform_plot_metawrap-read-qc"></div>
+   <div style="width: 100%" id="cdf_plot_metawrap-read-qc"></div>
 
 
 .. conda:package:: metawrap-reassemble-bins
@@ -898,6 +979,7 @@ Check the documentation of your workflow management system to find out about the
 
    :additional platforms:
       
+
 
 Installation
 ------------
@@ -966,10 +1048,18 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "metawrap-mg";
-        var versions = ["1.3.0"];
-    </script>
+   <script>
+      var package = "metawrap-reassemble-bins";
+      var versions = ["1.3.0"];
+   </script>
+
+.. rubric:: Download stats
+
+.. raw:: html
+    
+   <div style="width: 100%" id="download_plot_metawrap-reassemble-bins"></div>
+   <div style="width: 100%" id="platform_plot_metawrap-reassemble-bins"></div>
+   <div style="width: 100%" id="cdf_plot_metawrap-reassemble-bins"></div>
 
 
 .. conda:package:: metawrap-refinement
@@ -996,6 +1086,7 @@ Check the documentation of your workflow management system to find out about the
 
    :additional platforms:
       
+
 
 Installation
 ------------
@@ -1064,21 +1155,709 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "metawrap-mg";
-        var versions = ["1.3.0"];
-    </script>
+   <script>
+      var package = "metawrap-refinement";
+      var versions = ["1.3.0"];
+   </script>
 
-
-
-
-
-
-Download stats
------------------
+.. rubric:: Download stats
 
 .. raw:: html
-    :file: ../../templates/package_dashboard.html
+    
+   <div style="width: 100%" id="download_plot_metawrap-refinement"></div>
+   <div style="width: 100%" id="platform_plot_metawrap-refinement"></div>
+   <div style="width: 100%" id="cdf_plot_metawrap-refinement"></div>
+
+
+
+   ..
+      Create all the necessary plots for each package by loading all the
+      correct specs and data. Important points on the place and implementation
+      of this script block:
+      1. It is here, and not in a separate HTML file, as it needs to have the
+         `package.name` rendered in for each package.
+      2. All packages are handled in one `window.onload` function, as multiple
+         instances of this throughout a (rendered) HTML just overwrite each
+         other.
+
+   <script>
+      window.onload = async function() {
+         
+            // Build cdf plot for metawrap-annotate-bins
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-annotate-bins/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_metawrap-annotate-bins', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for metawrap-annotate-bins
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-annotate-bins/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_metawrap-annotate-bins', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for metawrap-annotate-bins
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-annotate-bins/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_metawrap-annotate-bins', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+            // Build cdf plot for metawrap-assembly
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-assembly/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_metawrap-assembly', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for metawrap-assembly
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-assembly/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_metawrap-assembly', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for metawrap-assembly
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-assembly/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_metawrap-assembly', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+            // Build cdf plot for metawrap-binning
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-binning/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_metawrap-binning', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for metawrap-binning
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-binning/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_metawrap-binning', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for metawrap-binning
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-binning/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_metawrap-binning', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+            // Build cdf plot for metawrap-blobology
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-blobology/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_metawrap-blobology', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for metawrap-blobology
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-blobology/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_metawrap-blobology', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for metawrap-blobology
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-blobology/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_metawrap-blobology', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+            // Build cdf plot for metawrap-classify-bins
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-classify-bins/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_metawrap-classify-bins', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for metawrap-classify-bins
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-classify-bins/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_metawrap-classify-bins', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for metawrap-classify-bins
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-classify-bins/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_metawrap-classify-bins', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+            // Build cdf plot for metawrap-kraken
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-kraken/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_metawrap-kraken', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for metawrap-kraken
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-kraken/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_metawrap-kraken', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for metawrap-kraken
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-kraken/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_metawrap-kraken', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+            // Build cdf plot for metawrap-mg
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-mg/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_metawrap-mg', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for metawrap-mg
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-mg/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_metawrap-mg', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for metawrap-mg
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-mg/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_metawrap-mg', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+            // Build cdf plot for metawrap-quant-bins
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-quant-bins/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_metawrap-quant-bins', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for metawrap-quant-bins
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-quant-bins/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_metawrap-quant-bins', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for metawrap-quant-bins
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-quant-bins/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_metawrap-quant-bins', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+            // Build cdf plot for metawrap-read-qc
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-read-qc/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_metawrap-read-qc', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for metawrap-read-qc
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-read-qc/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_metawrap-read-qc', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for metawrap-read-qc
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-read-qc/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_metawrap-read-qc', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+            // Build cdf plot for metawrap-reassemble-bins
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-reassemble-bins/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_metawrap-reassemble-bins', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for metawrap-reassemble-bins
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-reassemble-bins/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_metawrap-reassemble-bins', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for metawrap-reassemble-bins
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-reassemble-bins/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_metawrap-reassemble-bins', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+            // Build cdf plot for metawrap-refinement
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-refinement/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_metawrap-refinement', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for metawrap-refinement
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-refinement/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_metawrap-refinement', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for metawrap-refinement
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/metawrap-refinement/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_metawrap-refinement', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+      }
+   </script>
+
+
 
 Link to this page
 -----------------

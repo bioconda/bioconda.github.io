@@ -30,10 +30,10 @@ singlem
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.20.3-2</code>,  <code>0.20.3-1</code>,  <code>0.20.3-0</code>,  <code>0.20.2-1</code>,  <code>0.20.2-0</code>,  <code>0.19.0-0</code>,  <code>0.18.3-0</code>,  <code>0.18.2-0</code>,  <code>0.18.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.21.3-0</code>,  <code>0.21.0-0</code>,  <code>0.20.3-2</code>,  <code>0.20.3-1</code>,  <code>0.20.3-0</code>,  <code>0.20.2-1</code>,  <code>0.20.2-0</code>,  <code>0.19.0-0</code>,  <code>0.18.3-0</code>,  </span></summary>
       
 
-      ``0.20.3-2``,  ``0.20.3-1``,  ``0.20.3-0``,  ``0.20.2-1``,  ``0.20.2-0``,  ``0.19.0-0``,  ``0.18.3-0``,  ``0.18.2-0``,  ``0.18.1-1``,  ``0.18.1-0``,  ``0.18.0-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.1-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.2-2``,  ``0.13.2-1``,  ``0.13.2-0``
+      ``0.21.3-0``,  ``0.21.0-0``,  ``0.20.3-2``,  ``0.20.3-1``,  ``0.20.3-0``,  ``0.20.2-1``,  ``0.20.2-0``,  ``0.19.0-0``,  ``0.18.3-0``,  ``0.18.2-0``,  ``0.18.1-1``,  ``0.18.1-0``,  ``0.18.0-0``,  ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.1-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.2-2``,  ``0.13.2-1``,  ``0.13.2-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ singlem
       
 
    
-   :depends on biopython: ``1.86.*``
+   :depends on biopython: ``1.87.*``
    :depends on bird_tool_utils_python: ``0.6.*``
    :depends on cd-hit: ``4.8.*``
    :depends on diamond: ``>=2.1.21``
@@ -52,24 +52,24 @@ singlem
    :depends on fasttree: ``2.2.*``
    :depends on galah: ``0.4.*``
    :depends on graftm: ``0.15.*``
-   :depends on hmmer: ``3.2.*``
+   :depends on hmmer: ``3.*``
    :depends on jinja2: ``3.1.*``
    :depends on krona: ``2.8.*``
    :depends on mafft: ``7.*``
    :depends on mfqe: ``0.5.*``
    :depends on ncbi-ngs-sdk: ``3.0.*``
    :depends on orfm: ``>=0.7.1``
-   :depends on pandas: ``2.3.*``
-   :depends on polars: ``1.35.*``
+   :depends on pandas: ``3.0.*``
+   :depends on polars: ``1.40.*``
    :depends on pplacer: ``1.1.*``
    :depends on prodigal: ``2.6.*``
-   :depends on pyarrow: ``22.0.*``
+   :depends on pyarrow: ``24.0.*``
    :depends on pyranges: ``0.1.*``
    :depends on python: ``3.12.*``
    :depends on seqmagick: ``0.8.*``
    :depends on smafa: ``0.8.*``
    :depends on sqlalchemy: ``2.0.*``
-   :depends on sqlite: ``3.51.*``
+   :depends on sqlite: ``3.53.*``
    :depends on sqlparse: ``0.5.*``
    :depends on squarify: ``0.4.*``
    :depends on sra-tools: ``3.2.*``
@@ -78,6 +78,7 @@ singlem
 
    :additional platforms:
       
+
 
 Installation
 ------------
@@ -146,21 +147,99 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "singlem";
-        var versions = ["0.20.3","0.20.3","0.20.3","0.20.2","0.20.2"];
-    </script>
+   <script>
+      var package = "singlem";
+      var versions = ["0.21.3","0.21.0","0.20.3","0.20.3","0.20.3"];
+   </script>
 
-
-
-
-
-
-Download stats
------------------
+.. rubric:: Download stats
 
 .. raw:: html
-    :file: ../../templates/package_dashboard.html
+    
+   <div style="width: 100%" id="download_plot_singlem"></div>
+   <div style="width: 100%" id="platform_plot_singlem"></div>
+   <div style="width: 100%" id="cdf_plot_singlem"></div>
+
+
+
+   ..
+      Create all the necessary plots for each package by loading all the
+      correct specs and data. Important points on the place and implementation
+      of this script block:
+      1. It is here, and not in a separate HTML file, as it needs to have the
+         `package.name` rendered in for each package.
+      2. All packages are handled in one `window.onload` function, as multiple
+         instances of this throughout a (rendered) HTML just overwrite each
+         other.
+
+   <script>
+      window.onload = async function() {
+         
+            // Build cdf plot for singlem
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/singlem/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_singlem', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for singlem
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/singlem/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_singlem', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for singlem
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/singlem/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_singlem', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+      }
+   </script>
+
+
 
 Link to this page
 -----------------

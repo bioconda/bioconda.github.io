@@ -13,7 +13,7 @@ snakefmt
    The uncompromising Snakemake code formatter.
 
    :homepage: https://github.com/snakemake/snakefmt
-   :documentation: https://github.com/snakemake/snakefmt/blob/v1.1.0/README.md
+   :documentation: https://github.com/snakemake/snakefmt/blob/v2.0.1/README.md
    
    :license: MIT / MIT
    :recipe: /`snakefmt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakefmt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakefmt/meta.yaml>`_
@@ -30,10 +30,10 @@ snakefmt
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.0-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.11.5-0</code>,  <code>0.11.4-0</code>,  <code>0.11.3-0</code>,  <code>0.11.2-0</code>,  <code>0.11.1-0</code>,  <code>0.11.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.11.5-0</code>,  <code>0.11.4-0</code>,  <code>0.11.3-0</code>,  <code>0.11.2-0</code>,  </span></summary>
       
 
-      ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.11.5-0``,  ``0.11.4-0``,  ``0.11.3-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.3-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``2.0.1-0``,  ``2.0.0-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.11.5-0``,  ``0.11.4-0``,  ``0.11.3-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.3-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -44,11 +44,13 @@ snakefmt
    
    :depends on black: ``>=26.3.1,<27.0``
    :depends on click: ``>=8.2.0,<9.0``
+   :depends on go-shfmt: ``>=3.13,<4.0``
    :depends on pathspec: 
    :depends on python: ``>=3.11,<4.0``
 
    :additional platforms:
       
+
 
 Installation
 ------------
@@ -117,21 +119,99 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "snakefmt";
-        var versions = ["1.1.0","1.0.0","1.0.0","0.11.5","0.11.4"];
-    </script>
+   <script>
+      var package = "snakefmt";
+      var versions = ["2.0.1","2.0.0","1.1.0","1.0.0","1.0.0"];
+   </script>
 
-
-
-
-
-
-Download stats
------------------
+.. rubric:: Download stats
 
 .. raw:: html
-    :file: ../../templates/package_dashboard.html
+    
+   <div style="width: 100%" id="download_plot_snakefmt"></div>
+   <div style="width: 100%" id="platform_plot_snakefmt"></div>
+   <div style="width: 100%" id="cdf_plot_snakefmt"></div>
+
+
+
+   ..
+      Create all the necessary plots for each package by loading all the
+      correct specs and data. Important points on the place and implementation
+      of this script block:
+      1. It is here, and not in a separate HTML file, as it needs to have the
+         `package.name` rendered in for each package.
+      2. All packages are handled in one `window.onload` function, as multiple
+         instances of this throughout a (rendered) HTML just overwrite each
+         other.
+
+   <script>
+      window.onload = async function() {
+         
+            // Build cdf plot for snakefmt
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/snakefmt/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_snakefmt', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for snakefmt
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/snakefmt/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_snakefmt', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for snakefmt
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/snakefmt/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_snakefmt', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+      }
+   </script>
+
+
 
 Link to this page
 -----------------

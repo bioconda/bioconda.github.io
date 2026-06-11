@@ -16,7 +16,7 @@ epytope
    :documentation: https://epytope.readthedocs.io/en/latest/
    
    :developer docs: https://github.com/KohlbacherLab/epytope/tree/develop
-   :license: BSD / BSD
+   :license: BSD / BSD-3-Clause
    :recipe: /`epytope <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/epytope>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/epytope/meta.yaml>`_
 
    
@@ -30,27 +30,25 @@ epytope
       
       
 
-      ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0-0``
+      ``4.0.0-1``,  ``4.0.0-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0-0``
 
       
 
    
    :depends on beautifulsoup4: 
    :depends on biopython: 
-   :depends on h5py: ``<=2.10.0``
-   :depends on keras: ``<=2.3.1``
-   :depends on mhcflurry: ``<=1.4.3``
-   :depends on mhcnuggets: ``2.3.2``
-   :depends on pandas: ``>=1.3.5``
+   :depends on pandas: ``>=2.1``
+   :depends on pyensembl: 
    :depends on pymysql: 
    :depends on pyomo: ``>=4.0``
-   :depends on python: 
+   :depends on python: ``>=3.11``
    :depends on pyvcf3: 
    :depends on requests: 
-   :depends on setuptools: 
+   :depends on urllib3: 
 
    :additional platforms:
       
+
 
 Installation
 ------------
@@ -119,21 +117,99 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "epytope";
-        var versions = ["3.3.1","3.3.0","3.2.0","3.1.0","3.0.0"];
-    </script>
+   <script>
+      var package = "epytope";
+      var versions = ["4.0.0","4.0.0","3.3.1","3.3.0","3.2.0"];
+   </script>
 
-
-
-
-
-
-Download stats
------------------
+.. rubric:: Download stats
 
 .. raw:: html
-    :file: ../../templates/package_dashboard.html
+    
+   <div style="width: 100%" id="download_plot_epytope"></div>
+   <div style="width: 100%" id="platform_plot_epytope"></div>
+   <div style="width: 100%" id="cdf_plot_epytope"></div>
+
+
+
+   ..
+      Create all the necessary plots for each package by loading all the
+      correct specs and data. Important points on the place and implementation
+      of this script block:
+      1. It is here, and not in a separate HTML file, as it needs to have the
+         `package.name` rendered in for each package.
+      2. All packages are handled in one `window.onload` function, as multiple
+         instances of this throughout a (rendered) HTML just overwrite each
+         other.
+
+   <script>
+      window.onload = async function() {
+         
+            // Build cdf plot for epytope
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/epytope/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_epytope', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for epytope
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/epytope/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_epytope', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for epytope
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/epytope/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_epytope', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+      }
+   </script>
+
+
 
 Link to this page
 -----------------

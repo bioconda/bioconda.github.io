@@ -13,7 +13,7 @@ bandage_ng
    Bandage \- a Bioinformatics Application for Navigating De novo Assembly Graphs Easily.
 
    :homepage: https://github.com/asl/BandageNG
-   :documentation: https://github.com/asl/BandageNG/blob/v2026.4.1/README.md
+   :documentation: https://github.com/asl/BandageNG/blob/v2026.6.1/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`bandage_ng <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bandage_ng>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bandage_ng/meta.yaml>`_
@@ -31,10 +31,10 @@ bandage_ng
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2026.4.1-0</code>,  <code>2026.2.1-0</code>,  <code>2026.1.1-0</code>,  <code>2025.12.3-0</code>,  <code>2025.12.2-0</code>,  <code>2025.12.1-0</code>,  <code>2025.6.1-0</code>,  <code>2025.5.1-0</code>,  <code>2025.4.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2026.6.1-0</code>,  <code>2026.4.1-0</code>,  <code>2026.2.1-0</code>,  <code>2026.1.1-0</code>,  <code>2025.12.3-0</code>,  <code>2025.12.2-0</code>,  <code>2025.12.1-0</code>,  <code>2025.6.1-0</code>,  <code>2025.5.1-0</code>,  </span></summary>
       
 
-      ``2026.4.1-0``,  ``2026.2.1-0``,  ``2026.1.1-0``,  ``2025.12.3-0``,  ``2025.12.2-0``,  ``2025.12.1-0``,  ``2025.6.1-0``,  ``2025.5.1-0``,  ``2025.4.1-0``,  ``2022.09-4``,  ``2022.09-3``,  ``2022.09-2``,  ``2022.09-1``,  ``2022.09-0``
+      ``2026.6.1-0``,  ``2026.4.1-0``,  ``2026.2.1-0``,  ``2026.1.1-0``,  ``2025.12.3-0``,  ``2025.12.2-0``,  ``2025.12.1-0``,  ``2025.6.1-0``,  ``2025.5.1-0``,  ``2025.4.1-0``,  ``2022.09-4``,  ``2022.09-3``,  ``2022.09-2``,  ``2022.09-1``,  ``2022.09-0``
 
       
       .. raw:: html
@@ -44,9 +44,17 @@ bandage_ng
 
    
    :depends on fonts-conda-ecosystem: 
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on libvulkan-loader: ``>=1.4.341.0,<2.0a0``
    :depends on qt6-main: 
+   :depends on xorg-libice: ``>=1.1.2,<2.0a0``
+   :depends on xorg-libsm: ``>=1.2.6,<2.0a0``
+   :depends on xorg-libx11: ``>=1.8.13,<2.0a0``
+   :depends on xorg-libxcomposite: ``>=0.4.7,<1.0a0``
+   :depends on xorg-libxdamage: ``>=1.1.6,<2.0a0``
+   :depends on xorg-libxext: ``>=1.3.7,<2.0a0``
+   :depends on xorg-libxxf86vm: ``>=1.1.7,<2.0a0``
 
    :additional platforms:
       
@@ -54,6 +62,7 @@ bandage_ng
 
          <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
+
 
 Installation
 ------------
@@ -122,21 +131,99 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "bandage_ng";
-        var versions = ["2026.4.1","2026.2.1","2026.1.1","2025.12.3","2025.12.2"];
-    </script>
+   <script>
+      var package = "bandage_ng";
+      var versions = ["2026.6.1","2026.4.1","2026.2.1","2026.1.1","2025.12.3"];
+   </script>
 
-
-
-
-
-
-Download stats
------------------
+.. rubric:: Download stats
 
 .. raw:: html
-    :file: ../../templates/package_dashboard.html
+    
+   <div style="width: 100%" id="download_plot_bandage_ng"></div>
+   <div style="width: 100%" id="platform_plot_bandage_ng"></div>
+   <div style="width: 100%" id="cdf_plot_bandage_ng"></div>
+
+
+
+   ..
+      Create all the necessary plots for each package by loading all the
+      correct specs and data. Important points on the place and implementation
+      of this script block:
+      1. It is here, and not in a separate HTML file, as it needs to have the
+         `package.name` rendered in for each package.
+      2. All packages are handled in one `window.onload` function, as multiple
+         instances of this throughout a (rendered) HTML just overwrite each
+         other.
+
+   <script>
+      window.onload = async function() {
+         
+            // Build cdf plot for bandage_ng
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/bandage_ng/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_bandage_ng', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for bandage_ng
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/bandage_ng/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_bandage_ng', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for bandage_ng
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/bandage_ng/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_bandage_ng', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+      }
+   </script>
+
+
 
 Link to this page
 -----------------

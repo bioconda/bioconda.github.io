@@ -12,17 +12,19 @@ b2btools
 
    The bio2Byte software suite to predict protein biophysical properties.
 
-   :homepage: https://bio2byte.be/b2btools
+   :homepage: https://bio2byte.be
+   :documentation: https://bio2byte.be/b2btools/package-documentation
+   
    :developer docs: https://bitbucket.org/bio2byte/b2btools_releases
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`b2btools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b2btools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b2btools/meta.yaml>`_
-   :links: doi: :doi:`10.48550/arXiv.2405.02136`, biotools: :biotools:`b2btools`
+   :links: doi: :doi:`10.1093/nar/gkab425`, doi: :doi:`10.3389/fmolb.2022.959956`, doi: :doi:`10.1038/ncomms3741`, doi: :doi:`10.1016/j.jmb.2022.167579`, doi: :doi:`10.1038/s41598-017-08366-3`, doi: :doi:`10.1093/bioinformatics/btz912`, doi: :doi:`10.1093/bioinformatics/btz274`, doi: :doi:`10.1093/nar/gkaa391`, biotools: :biotools:`b2btools`
 
    This package provides you with structural predictions for protein sequences made by the Bio2Byte group which researches the relation between protein sequence and biophysical behavior.
 
    List of available predictors\:
-   1. Dynamine\: Fast predictor of protein backbone dynamics using only sequence information as input. The version here also predicts side\-chain dynamics and secondary structure predictors using the same principle.
-   2. Disomine\: Predicts protein disorder with recurrent neural networks not directly from the amino acid sequence\, but instead from more generic predictions of key biophysical properties\, here protein dynamics\, secondary structure\, and early folding.
+   1. DynaMine\: Fast predictor of protein backbone dynamics using only sequence information as input. The version here also predicts side\-chain dynamics and secondary structure predictors using the same principle.
+   2. DisoMine\: Predicts protein disorder with recurrent neural networks not directly from the amino acid sequence\, but instead from more generic predictions of key biophysical properties\, here protein dynamics\, secondary structure\, and early folding.
    3. EfoldMine\: Predicts from the primary amino acid sequence of a protein\, which amino acids are likely involved in early folding events.
    4. AgMata\: Single\-sequence\-based predictor of protein regions that are likely to cause beta\-aggregation.
    5. PSPer\: PSP \(Phase Separating Protein\) predicts whether a protein is likely to phase\-separate with a particular mechanism involving RNA interacts \(FUS\-like proteins\).
@@ -38,36 +40,27 @@ b2btools
       
       
 
-      ``3.0.7-3``,  ``3.0.7-2``,  ``3.0.7-1``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.4-0``
+      ``3.0.8-0``,  ``3.0.7-3``,  ``3.0.7-2``,  ``3.0.7-1``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.4-0``
 
       
 
    
-   :depends on biopython: ``>=1.83,<2``
-   :depends on hmmer: 
-   :depends on joblib: ``>=0.9.0b4``
-   :depends on libcxx: ``>=19``
-   :depends on matplotlib-base: ``>=3.5.3,<3.6``
-   :depends on networkx: ``>=2.4``
-   :depends on numpy: ``>=1.21.6,<1.27``
-   :depends on numpy: ``>=1.26.4,<2.0a0``
-   :depends on pandas: ``>=1.5.3``
-   :depends on python: ``>=3.10,<3.11.0a0``
-   :depends on python_abi: ``3.10.* *_cp310``
-   :depends on pytorch: ``>=1.11.0,<=1.13.1``
-   :depends on pyyaml: 
-   :depends on requests: ``>=2.31.0,<2.32``
-   :depends on scikit-learn: ``1.0.2``
-   :depends on scipy: ``1.12.0``
+   :depends on biopython: ``>=1.81``
+   :depends on hmmer: ``>=3.4``
+   :depends on matplotlib-base: ``>=3.5``
+   :depends on numpy: ``>=1.24,<1.25``
+   :depends on pandas: ``>=1.1,<2``
+   :depends on python: ``>=3.9``
+   :depends on pytorch: ``>=2.2.0``
+   :depends on requests: ``>=2,<3``
+   :depends on scikit-learn: ``>=1.0.2``
+   :depends on scipy: ``>=1.10.1``
    :depends on t-coffee: 
-   :depends on urllib3: ``>=1.26.6,<1.27``
+   :depends on urllib3: ``>=1.26``
 
    :additional platforms:
       
-      .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
-      
 
 Installation
 ------------
@@ -136,21 +129,103 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "b2btools";
-        var versions = ["3.0.7","3.0.7","3.0.7","3.0.7","3.0.6"];
-    </script>
+   <script>
+      var package = "b2btools";
+      var versions = ["3.0.8","3.0.7","3.0.7","3.0.7","3.0.7"];
+   </script>
 
-
-
-
-
-
-Download stats
------------------
+.. rubric:: Download stats
 
 .. raw:: html
-    :file: ../../templates/package_dashboard.html
+    
+   <div style="width: 100%" id="download_plot_b2btools"></div>
+   <div style="width: 100%" id="platform_plot_b2btools"></div>
+   <div style="width: 100%" id="cdf_plot_b2btools"></div>
+
+
+
+   ..
+      Create all the necessary plots for each package by loading all the
+      correct specs and data. Important points on the place and implementation
+      of this script block:
+      1. It is here, and not in a separate HTML file, as it needs to have the
+         `package.name` rendered in for each package.
+      2. All packages are handled in one `window.onload` function, as multiple
+         instances of this throughout a (rendered) HTML just overwrite each
+         other.
+
+   <script>
+      window.onload = async function() {
+         
+            // Build cdf plot for b2btools
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/b2btools/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_b2btools', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for b2btools
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/b2btools/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_b2btools', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for b2btools
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/b2btools/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_b2btools', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+      }
+   </script>
+
+
+Notes
+-----
+For questions about b2bTools\, contact bio2byte\@vub.be.
+
 
 Link to this page
 -----------------

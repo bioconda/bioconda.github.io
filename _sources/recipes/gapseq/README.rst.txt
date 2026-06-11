@@ -16,7 +16,14 @@ gapseq
    :license: GPL / AGPL-3.0-only
    :recipe: /`gapseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gapseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gapseq/meta.yaml>`_
 
-   
+   gapseq predicts bacterial metabolic pathways and reconstructs
+   genome\-scale metabolic models.
+
+   After installation\, initialize the required databases with\:
+
+     gapseq update\-sequences \-t Bacteria
+     gapseq update\-sequences \-t Archaea
+
 
 
 .. conda:package:: gapseq
@@ -27,30 +34,26 @@ gapseq
       
       
 
-      ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2-0``
+      ``2.1.0-0``,  ``2.0.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2-0``
 
       
 
    
-   :depends on barrnap: 
    :depends on bc: 
-   :depends on bedtools: 
    :depends on bioconductor-biostrings: 
    :depends on blast: 
    :depends on coreutils: 
-   :depends on exonerate: 
+   :depends on diamond: ``>=2.1.9``
    :depends on gawk: 
-   :depends on git: 
    :depends on glpk: 
    :depends on grep: 
    :depends on hmmer: 
    :depends on libsbml: 
    :depends on openssl: 
-   :depends on parallel: 
-   :depends on perl: 
+   :depends on pyrodigal: 
    :depends on r-base: 
    :depends on r-biocmanager: 
-   :depends on r-cobrar: 
+   :depends on r-cobrar: ``>=0.2.5``
    :depends on r-data.table: 
    :depends on r-getopt: 
    :depends on r-httr: 
@@ -65,6 +68,7 @@ gapseq
 
    :additional platforms:
       
+
 
 Installation
 ------------
@@ -133,21 +137,99 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "gapseq";
-        var versions = ["1.4.0","1.4.0","1.3.1","1.3","1.2"];
-    </script>
+   <script>
+      var package = "gapseq";
+      var versions = ["2.1.0","2.0.1","1.4.0","1.4.0","1.3.1"];
+   </script>
 
-
-
-
-
-
-Download stats
------------------
+.. rubric:: Download stats
 
 .. raw:: html
-    :file: ../../templates/package_dashboard.html
+    
+   <div style="width: 100%" id="download_plot_gapseq"></div>
+   <div style="width: 100%" id="platform_plot_gapseq"></div>
+   <div style="width: 100%" id="cdf_plot_gapseq"></div>
+
+
+
+   ..
+      Create all the necessary plots for each package by loading all the
+      correct specs and data. Important points on the place and implementation
+      of this script block:
+      1. It is here, and not in a separate HTML file, as it needs to have the
+         `package.name` rendered in for each package.
+      2. All packages are handled in one `window.onload` function, as multiple
+         instances of this throughout a (rendered) HTML just overwrite each
+         other.
+
+   <script>
+      window.onload = async function() {
+         
+            // Build cdf plot for gapseq
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/gapseq/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_gapseq', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for gapseq
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/gapseq/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_gapseq', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for gapseq
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/gapseq/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_gapseq', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+      }
+   </script>
+
+
 
 Link to this page
 -----------------

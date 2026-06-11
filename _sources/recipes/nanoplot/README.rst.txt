@@ -28,10 +28,10 @@ nanoplot
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.46.2-1</code>,  <code>1.46.2-0</code>,  <code>1.46.1-0</code>,  <code>1.46.0-0</code>,  <code>1.45.0-0</code>,  <code>1.44.1-0</code>,  <code>1.43.0-1</code>,  <code>1.43.0-0</code>,  <code>1.42.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.47.0-0</code>,  <code>1.46.2-1</code>,  <code>1.46.2-0</code>,  <code>1.46.1-0</code>,  <code>1.46.0-0</code>,  <code>1.45.0-0</code>,  <code>1.44.1-0</code>,  <code>1.43.0-1</code>,  <code>1.43.0-0</code>,  </span></summary>
       
 
-      ``1.46.2-1``,  ``1.46.2-0``,  ``1.46.1-0``,  ``1.46.0-0``,  ``1.45.0-0``,  ``1.44.1-0``,  ``1.43.0-1``,  ``1.43.0-0``,  ``1.42.0-0``,  ``1.41.6-0``,  ``1.41.3-0``,  ``1.41.0-0``,  ``1.40.2-0``,  ``1.40.0-0``,  ``1.39.0-0``,  ``1.38.1-0``,  ``1.38.0-0``,  ``1.37.0-0``,  ``1.36.2-1``,  ``1.36.2-0``,  ``1.36.1-0``,  ``1.35.5-0``,  ``1.35.4-0``,  ``1.32.1-0``,  ``1.32.0-0``,  ``1.31.0-0``,  ``1.30.1-0``,  ``1.30.0-0``,  ``1.29.1-0``,  ``1.29.0-0``,  ``1.28.4-0``,  ``1.28.2-0``,  ``1.28.1-1``,  ``1.28.1-0``,  ``1.28.0-0``,  ``1.27.0-0``,  ``1.26.3-0``,  ``1.26.2-0``,  ``1.26.1-0``,  ``1.25.1-0``,  ``1.25.0-0``,  ``1.24.0-0``,  ``1.23.1-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.19.0-0``,  ``1.18.2-1``,  ``1.13.0-1``,  ``1.13.0-0``,  ``1.11.0-0``,  ``1.10.4-0``,  ``1.8.1-0``,  ``1.2.2-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.16.4-0``,  ``0.16.2-0``
+      ``1.47.0-0``,  ``1.46.2-1``,  ``1.46.2-0``,  ``1.46.1-0``,  ``1.46.0-0``,  ``1.45.0-0``,  ``1.44.1-0``,  ``1.43.0-1``,  ``1.43.0-0``,  ``1.42.0-0``,  ``1.41.6-0``,  ``1.41.3-0``,  ``1.41.0-0``,  ``1.40.2-0``,  ``1.40.0-0``,  ``1.39.0-0``,  ``1.38.1-0``,  ``1.38.0-0``,  ``1.37.0-0``,  ``1.36.2-1``,  ``1.36.2-0``,  ``1.36.1-0``,  ``1.35.5-0``,  ``1.35.4-0``,  ``1.32.1-0``,  ``1.32.0-0``,  ``1.31.0-0``,  ``1.30.1-0``,  ``1.30.0-0``,  ``1.29.1-0``,  ``1.29.0-0``,  ``1.28.4-0``,  ``1.28.2-0``,  ``1.28.1-1``,  ``1.28.1-0``,  ``1.28.0-0``,  ``1.27.0-0``,  ``1.26.3-0``,  ``1.26.2-0``,  ``1.26.1-0``,  ``1.25.1-0``,  ``1.25.0-0``,  ``1.24.0-0``,  ``1.23.1-0``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.19.0-0``,  ``1.18.2-1``,  ``1.13.0-1``,  ``1.13.0-0``,  ``1.11.0-0``,  ``1.10.4-0``,  ``1.8.1-0``,  ``1.2.2-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.16.4-0``,  ``0.16.2-0``
 
       
       .. raw:: html
@@ -55,6 +55,7 @@ nanoplot
 
    :additional platforms:
       
+
 
 Installation
 ------------
@@ -123,21 +124,99 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "nanoplot";
-        var versions = ["1.46.2","1.46.2","1.46.1","1.46.0","1.45.0"];
-    </script>
+   <script>
+      var package = "nanoplot";
+      var versions = ["1.47.0","1.46.2","1.46.2","1.46.1","1.46.0"];
+   </script>
 
-
-
-
-
-
-Download stats
------------------
+.. rubric:: Download stats
 
 .. raw:: html
-    :file: ../../templates/package_dashboard.html
+    
+   <div style="width: 100%" id="download_plot_nanoplot"></div>
+   <div style="width: 100%" id="platform_plot_nanoplot"></div>
+   <div style="width: 100%" id="cdf_plot_nanoplot"></div>
+
+
+
+   ..
+      Create all the necessary plots for each package by loading all the
+      correct specs and data. Important points on the place and implementation
+      of this script block:
+      1. It is here, and not in a separate HTML file, as it needs to have the
+         `package.name` rendered in for each package.
+      2. All packages are handled in one `window.onload` function, as multiple
+         instances of this throughout a (rendered) HTML just overwrite each
+         other.
+
+   <script>
+      window.onload = async function() {
+         
+            // Build cdf plot for nanoplot
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/nanoplot/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_nanoplot', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for nanoplot
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/nanoplot/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_nanoplot', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for nanoplot
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/nanoplot/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_nanoplot', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+      }
+   </script>
+
+
 
 Link to this page
 -----------------

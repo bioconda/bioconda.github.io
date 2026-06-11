@@ -149,21 +149,30 @@ For e.g. docker, run:</p>
 Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
-    var package = "perl-net-ftp";
-    var versions = ["2.79","2.79","2.79"];
-</script></section>
-</section>
-<section id="download-stats">
-<h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
-<div style="width: 100%" id="download_plot"></div>
-<div style="width: 100%" id="platform_plot"></div>
-<div style="width: 100%" id="cdf_plot"></div>
+   var package = "perl-net-ftp";
+   var versions = ["2.79","2.79","2.79"];
+</script><p class="rubric">Download stats</p>
+<div style="width: 100%" id="download_plot_perl-net-ftp"></div>
+<div style="width: 100%" id="platform_plot_perl-net-ftp"></div>
+<div style="width: 100%" id="cdf_plot_perl-net-ftp"></div>
+
+
+
+..
+   Create all the necessary plots for each package by loading all the
+   correct specs and data. Important points on the place and implementation
+   of this script block:
+   1. It is here, and not in a separate HTML file, as it needs to have the
+      `package.name` rendered in for each package.
+   2. All packages are handled in one `window.onload` function, as multiple
+      instances of this throughout a (rendered) HTML just overwrite each
+      other.
 
 <script>
-    window.onload = async function() {
-  
-        // Build cdf plot
-        try {
+   window.onload = async function() {
+
+         // Build cdf plot for perl-net-ftp
+         try {
             const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
             if (!cdf_spec_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
@@ -174,57 +183,57 @@ Check the documentation of your workflow management system to find out about the
                 throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
             }
             const cdf_plot_data = await cdf_data_resp.json();
-            const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`)
+            const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/perl-net-ftp/cdf.json`)
             if (!point_data_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
             }
             const single_point = await point_data_resp.json();
-  
+
             cdf_spec.data.values = cdf_plot_data;
             cdf_spec.data.values.push(single_point.pop());
-            vegaEmbed('#cdf_plot', cdf_spec);
-        } catch (err) {
+            vegaEmbed('#cdf_plot_perl-net-ftp', cdf_spec);
+         } catch (err) {
             console.error("An error occurred while building CDF plot: ", err)
-        }
-  
-        // Build download plot
-        try {
+         }
+
+         // Build download plot for perl-net-ftp
+         try {
             const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
             if (!spec_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
             }
             const spec = await spec_resp.json();
-            const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/versions.json`)
+            const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/perl-net-ftp/versions.json`)
             if (!version_data_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
             }
             const plot_data = await version_data_resp.json();
             spec.data.values = plot_data;
-            vegaEmbed('#download_plot', spec);
-        } catch (err) {
+            vegaEmbed('#download_plot_perl-net-ftp', spec);
+         } catch (err) {
             console.error("An error occurred while building downloads plot: ", err)
-        }
+         }
 
-        // Build platform download plot
-        try {
+         // Build platform download plot for perl-net-ftp
+         try {
             const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
             if (!spec_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
             }
             const spec = await spec_resp.json();
-            const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/platforms.json`)
+            const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/perl-net-ftp/platforms.json`)
             if (!platform_data_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
             }
             const plot_data = await platform_data_resp.json();
             spec.data.values = plot_data;
-            vegaEmbed('#platform_plot', spec);
-        } catch (err) {
+            vegaEmbed('#platform_plot_perl-net-ftp', spec);
+         } catch (err) {
             console.error("An error occurred while building platform downloads plot: ", err)
-        }
-  
-    }
-</script>
+         }
+
+   }
+</script></section>
 </section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Link to this heading">¶</a></h2>

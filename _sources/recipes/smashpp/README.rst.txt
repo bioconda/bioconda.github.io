@@ -28,10 +28,10 @@ smashpp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>26.04-0</code>,  <code>23.09-1</code>,  <code>23.09-0</code>,  <code>22.08-2</code>,  <code>22.08-1</code>,  <code>22.08-0</code>,  <code>20.04-2</code>,  <code>20.04-1</code>,  <code>20.04-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>26.05-0</code>,  <code>26.04-0</code>,  <code>23.09-1</code>,  <code>23.09-0</code>,  <code>22.08-2</code>,  <code>22.08-1</code>,  <code>22.08-0</code>,  <code>20.04-2</code>,  <code>20.04-1</code>,  </span></summary>
       
 
-      ``26.04-0``,  ``23.09-1``,  ``23.09-0``,  ``22.08-2``,  ``22.08-1``,  ``22.08-0``,  ``20.04-2``,  ``20.04-1``,  ``20.04-0``,  ``19.12-0``
+      ``26.05-0``,  ``26.04-0``,  ``23.09-1``,  ``23.09-0``,  ``22.08-2``,  ``22.08-1``,  ``22.08-0``,  ``20.04-2``,  ``20.04-1``,  ``20.04-0``,  ``19.12-0``
 
       
       .. raw:: html
@@ -40,8 +40,9 @@ smashpp
       
 
    
-   :depends on __osx: ``>=11.0``
-   :depends on libcxx: ``>=19``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
       
@@ -49,6 +50,7 @@ smashpp
 
          <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
+
 
 Installation
 ------------
@@ -117,21 +119,99 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "smashpp";
-        var versions = ["26.04","23.09","23.09","22.08","22.08"];
-    </script>
+   <script>
+      var package = "smashpp";
+      var versions = ["26.05","26.04","23.09","23.09","22.08"];
+   </script>
 
-
-
-
-
-
-Download stats
------------------
+.. rubric:: Download stats
 
 .. raw:: html
-    :file: ../../templates/package_dashboard.html
+    
+   <div style="width: 100%" id="download_plot_smashpp"></div>
+   <div style="width: 100%" id="platform_plot_smashpp"></div>
+   <div style="width: 100%" id="cdf_plot_smashpp"></div>
+
+
+
+   ..
+      Create all the necessary plots for each package by loading all the
+      correct specs and data. Important points on the place and implementation
+      of this script block:
+      1. It is here, and not in a separate HTML file, as it needs to have the
+         `package.name` rendered in for each package.
+      2. All packages are handled in one `window.onload` function, as multiple
+         instances of this throughout a (rendered) HTML just overwrite each
+         other.
+
+   <script>
+      window.onload = async function() {
+         
+            // Build cdf plot for smashpp
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/smashpp/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_smashpp', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for smashpp
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/smashpp/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_smashpp', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for smashpp
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/smashpp/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_smashpp', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+      }
+   </script>
+
+
 
 Link to this page
 -----------------

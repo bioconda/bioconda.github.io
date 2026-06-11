@@ -17,12 +17,19 @@ molamola
    :recipe: /`molamola <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/molamola>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/molamola/meta.yaml>`_
 
    A Python plotting tool for Oxford Nanopore variation data.
-   One VCF in\, one self\-contained HTML report out. molamola
-   inspects the VCF header and dispatches to the right plot type\:
-   a circos \+ linear cytoband SV report for long\-read SV VCFs
-   \(Sniffles2 \/ cuteSV \/ SVIM \/ pbsv \/ NanoVar\)\, or per\-gene
-   phased\-haplotype panels for compound\-het workup from phased
-   \+ VEP\-annotated small\-variant VCFs.
+   One input in\, one self\-contained HTML report out. molamola
+   picks the visualiser from its input\:
+
+   \* VCF with \`\`\#\#INFO\=\<ID\=SVTYPE\,...\>\`\`\: a circos \+ linear
+     cytoband SV report \(Sniffles2 \/ cuteSV \/ SVIM \/ pbsv \/
+     NanoVar\).
+   \* VCF with \`\`\#\#INFO\=\<ID\=CSQ\,...\>\`\` \+ \`\`\#\#FORMAT\=\<ID\=PS\,...\>\`\`\:
+     per\-gene phased\-haplotype panels for compound\-het workup
+     from phased \+ VEP\-annotated small\-variant VCFs.
+   \* Mosdepth \`\`regions.bed.gz\`\` \(via \`\`\-\-mosdepth\`\`\)\: a
+     karyotype coverage report \-\- genome\-wide CN scatter \+
+     rolling\-median smooth\, with an optional BAF panel beneath
+     when paired with a small\-variant VCF.
 
 
 
@@ -34,7 +41,7 @@ molamola
       
       
 
-      ``0.2.0-0``,  ``0.1.0-0``
+      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -48,6 +55,7 @@ molamola
 
    :additional platforms:
       
+
 
 Installation
 ------------
@@ -116,21 +124,99 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "molamola";
-        var versions = ["0.2.0","0.1.0"];
-    </script>
+   <script>
+      var package = "molamola";
+      var versions = ["0.3.0","0.2.0","0.1.0"];
+   </script>
 
-
-
-
-
-
-Download stats
------------------
+.. rubric:: Download stats
 
 .. raw:: html
-    :file: ../../templates/package_dashboard.html
+    
+   <div style="width: 100%" id="download_plot_molamola"></div>
+   <div style="width: 100%" id="platform_plot_molamola"></div>
+   <div style="width: 100%" id="cdf_plot_molamola"></div>
+
+
+
+   ..
+      Create all the necessary plots for each package by loading all the
+      correct specs and data. Important points on the place and implementation
+      of this script block:
+      1. It is here, and not in a separate HTML file, as it needs to have the
+         `package.name` rendered in for each package.
+      2. All packages are handled in one `window.onload` function, as multiple
+         instances of this throughout a (rendered) HTML just overwrite each
+         other.
+
+   <script>
+      window.onload = async function() {
+         
+            // Build cdf plot for molamola
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/molamola/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_molamola', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for molamola
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/molamola/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_molamola', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for molamola
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/molamola/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_molamola', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+      }
+   </script>
+
+
 
 Link to this page
 -----------------

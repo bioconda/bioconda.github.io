@@ -40,6 +40,7 @@ perl-atlas-modules
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libgcc: ``>=14``
    :depends on libstdcxx: ``>=14``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
@@ -61,13 +62,13 @@ perl-atlas-modules
    :depends on perl-datetime: ``>=1.66,<2.0a0``
    :depends on perl-datetime-format-strptime: ``>=1.80,<2.0a0``
    :depends on perl-dbd-mysql: ``>=5.13,<6.0a0``
-   :depends on perl-dbd-pg: ``>=3.18.0,<4.0a0``
+   :depends on perl-dbd-pg: ``>=3.20.0,<4.0a0``
    :depends on perl-dbi: 
    :depends on perl-devel-symdump: 
    :depends on perl-extutils-cbuilder: 
-   :depends on perl-extutils-config: 
-   :depends on perl-extutils-helpers: 
-   :depends on perl-extutils-installpaths: 
+   :depends on perl-extutils-config: ``0.008.*``
+   :depends on perl-extutils-helpers: ``0.026.*``
+   :depends on perl-extutils-installpaths: ``0.012.*``
    :depends on perl-file-spec: 
    :depends on perl-graphviz: ``>=2.26,<3.0a0``
    :depends on perl-io-scalar: 
@@ -83,7 +84,7 @@ perl-atlas-modules
    :depends on perl-mailtools: ``>=2.22,<3.0a0``
    :depends on perl-mime-lite: 
    :depends on perl-module-build: ``0.4234.*``
-   :depends on perl-module-build-tiny: 
+   :depends on perl-module-build-tiny: ``0.039.*``
    :depends on perl-module-pluggable: 
    :depends on perl-moose: ``2.2207.*``
    :depends on perl-moosex-types: ``>=0.51,<0.52.0a0``
@@ -91,15 +92,15 @@ perl-atlas-modules
    :depends on perl-params-validate: ``>=1.31,<2.0a0``
    :depends on perl-parse-recdescent: 
    :depends on perl-path-tiny: 
-   :depends on perl-readonly: 
+   :depends on perl-readonly: ``2.05.*``
    :depends on perl-scalar-list-utils: 
-   :depends on perl-spiffy: 
+   :depends on perl-spiffy: ``0.46.*``
    :depends on perl-sub-exporter-formethods: 
    :depends on perl-sub-uplevel: 
    :depends on perl-test-exception: 
    :depends on perl-test-inter: ``>=1.12,<2.0a0``
    :depends on perl-test-needs: 
-   :depends on perl-test-nowarnings: 
+   :depends on perl-test-nowarnings: ``1.06.*``
    :depends on perl-test-pod: 
    :depends on perl-test-pod-coverage: ``>=1.10,<2.0a0``
    :depends on perl-test-warn: 
@@ -120,6 +121,7 @@ perl-atlas-modules
 
          <span class="additional-platforms"><code>linux-aarch64</code></span>
       
+
 
 Installation
 ------------
@@ -188,21 +190,99 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "perl-atlas-modules";
-        var versions = ["0.3.2","0.3.1","0.3.1","0.3.1","0.3.1"];
-    </script>
+   <script>
+      var package = "perl-atlas-modules";
+      var versions = ["0.3.2","0.3.1","0.3.1","0.3.1","0.3.1"];
+   </script>
 
-
-
-
-
-
-Download stats
------------------
+.. rubric:: Download stats
 
 .. raw:: html
-    :file: ../../templates/package_dashboard.html
+    
+   <div style="width: 100%" id="download_plot_perl-atlas-modules"></div>
+   <div style="width: 100%" id="platform_plot_perl-atlas-modules"></div>
+   <div style="width: 100%" id="cdf_plot_perl-atlas-modules"></div>
+
+
+
+   ..
+      Create all the necessary plots for each package by loading all the
+      correct specs and data. Important points on the place and implementation
+      of this script block:
+      1. It is here, and not in a separate HTML file, as it needs to have the
+         `package.name` rendered in for each package.
+      2. All packages are handled in one `window.onload` function, as multiple
+         instances of this throughout a (rendered) HTML just overwrite each
+         other.
+
+   <script>
+      window.onload = async function() {
+         
+            // Build cdf plot for perl-atlas-modules
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/perl-atlas-modules/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_perl-atlas-modules', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for perl-atlas-modules
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/perl-atlas-modules/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_perl-atlas-modules', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for perl-atlas-modules
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/perl-atlas-modules/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_perl-atlas-modules', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+      }
+   </script>
+
+
 
 Link to this page
 -----------------

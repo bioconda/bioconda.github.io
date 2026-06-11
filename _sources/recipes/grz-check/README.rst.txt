@@ -10,10 +10,10 @@ grz-check
    :replaces_section_title:
    :noindex:
 
-   grz\-check is a tool for validating incoming files of Modellvorhaben §64e submissions to Genomrechenzentren \(GRZ\) in Germany.
+   Validates Modellvorhaben §64e submission files for Genomrechenzentren \(GRZ\).
 
-   :homepage: https://github.com/BfArM-MVH/grz-tools/packages/grz-check
-   :documentation: https://github.com/BfArM-MVH/grz-tools/packages/grz-check/blob/v0.2.1/README.md
+   :homepage: https://github.com/BfArM-MVH/grz-tools/tree/main/packages/grz-check
+   :documentation: https://github.com/BfArM-MVH/grz-tools/blob/grz-check-v0.3.1/packages/grz-check/README.md
    
    :license: MIT / MIT
    :recipe: /`grz-check <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grz-check>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grz-check/meta.yaml>`_
@@ -29,15 +29,16 @@ grz-check
       
       
 
-      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on openssl: ``>=3.6.0,<4.0a0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on openssl: ``>=3.5.6,<4.0a0``
 
    :additional platforms:
       
@@ -45,6 +46,7 @@ grz-check
 
          <span class="additional-platforms"><code>linux-aarch64</code></span>
       
+
 
 Installation
 ------------
@@ -113,21 +115,99 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "grz-check";
-        var versions = ["0.2.1","0.2.0","0.1.0"];
-    </script>
+   <script>
+      var package = "grz-check";
+      var versions = ["0.3.1","0.3.0","0.2.1","0.2.0","0.1.0"];
+   </script>
 
-
-
-
-
-
-Download stats
------------------
+.. rubric:: Download stats
 
 .. raw:: html
-    :file: ../../templates/package_dashboard.html
+    
+   <div style="width: 100%" id="download_plot_grz-check"></div>
+   <div style="width: 100%" id="platform_plot_grz-check"></div>
+   <div style="width: 100%" id="cdf_plot_grz-check"></div>
+
+
+
+   ..
+      Create all the necessary plots for each package by loading all the
+      correct specs and data. Important points on the place and implementation
+      of this script block:
+      1. It is here, and not in a separate HTML file, as it needs to have the
+         `package.name` rendered in for each package.
+      2. All packages are handled in one `window.onload` function, as multiple
+         instances of this throughout a (rendered) HTML just overwrite each
+         other.
+
+   <script>
+      window.onload = async function() {
+         
+            // Build cdf plot for grz-check
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/grz-check/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_grz-check', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for grz-check
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/grz-check/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_grz-check', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for grz-check
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/grz-check/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_grz-check', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+      }
+   </script>
+
+
 
 Link to this page
 -----------------

@@ -32,29 +32,47 @@ openstructure
    :versions:
       
       
+      .. raw:: html
 
-      ``2.11.1-1``,  ``2.11.1-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.0-3``,  ``2.10.0-2``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.9.3-0``
+         <details><summary><span class="truncated-version-list"><code>2.11.1-3</code>,  <code>2.11.1-2</code>,  <code>2.11.1-1</code>,  <code>2.11.1-0</code>,  <code>2.11.0-1</code>,  <code>2.11.0-0</code>,  <code>2.10.0-3</code>,  <code>2.10.0-2</code>,  <code>2.10.0-1</code>,  </span></summary>
+      
 
+      ``2.11.1-3``,  ``2.11.1-2``,  ``2.11.1-1``,  ``2.11.1-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.0-3``,  ``2.10.0-2``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.9.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on fftw: ``>=3.3.11,<4.0a0``
    :depends on glew: ``>=2.3.0,<2.4.0a0``
    :depends on glfw: ``>=3.4,<4.0a0``
-   :depends on khronos-opencl-icd-loader: ``>=2024.10.24``
    :depends on libboost: ``>=1.86.0,<1.87.0a0``
    :depends on libboost-python: ``>=1.86.0,<1.87.0a0``
-   :depends on libcxx: ``>=20``
+   :depends on libegl: ``>=1.7.0,<2.0a0``
+   :depends on libgcc: ``>=14``
    :depends on libgfortran: 
    :depends on libgfortran5: ``>=14.3.0``
+   :depends on libgl: ``>=1.7.0,<2.0a0``
+   :depends on libgles: ``>=1.7.0,<2.0a0``
+   :depends on libglvnd: ``>=1.7.0,<2.0a0``
+   :depends on libglx: ``>=1.7.0,<2.0a0``
+   :depends on libopengl: ``>=1.7.0,<2.0a0``
    :depends on libpng: ``>=1.6.58,<1.7.0a0``
-   :depends on libsqlite: ``>=3.53.0,<4.0a0``
+   :depends on libsqlite: ``>=3.53.1,<4.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libtiff: ``>=4.7.1,<4.8.0a0``
+   :depends on libxcb: ``>=1.17.0,<2.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on mesalib: ``>=26.0.3,<26.1.0a0``
    :depends on networkx: ``>=3.4.2,<4.0a0``
-   :depends on numpy: ``>=1.26.4,<2.0a0``
-   :depends on ocl_icd_wrapper_apple: 
+   :depends on numpy: ``>=1.21,<3``
+   :depends on numpy: ``>=2.2.6,<3.0a0``
+   :depends on ocl-icd: ``>=2.3.3,<3.0a0``
+   :depends on ocl-icd-system: 
    :depends on openmm: ``>=8.5.1,<9.0a0``
    :depends on pandas: ``>=2.3.3,<3.0a0``
    :depends on parasail: ``>=2.6.2,<3.0a0``
@@ -71,6 +89,7 @@ openstructure
 
          <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
+
 
 Installation
 ------------
@@ -139,21 +158,99 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "openstructure";
-        var versions = ["2.11.1","2.11.1","2.11.0","2.11.0","2.10.0"];
-    </script>
+   <script>
+      var package = "openstructure";
+      var versions = ["2.11.1","2.11.1","2.11.1","2.11.1","2.11.0"];
+   </script>
 
-
-
-
-
-
-Download stats
------------------
+.. rubric:: Download stats
 
 .. raw:: html
-    :file: ../../templates/package_dashboard.html
+    
+   <div style="width: 100%" id="download_plot_openstructure"></div>
+   <div style="width: 100%" id="platform_plot_openstructure"></div>
+   <div style="width: 100%" id="cdf_plot_openstructure"></div>
+
+
+
+   ..
+      Create all the necessary plots for each package by loading all the
+      correct specs and data. Important points on the place and implementation
+      of this script block:
+      1. It is here, and not in a separate HTML file, as it needs to have the
+         `package.name` rendered in for each package.
+      2. All packages are handled in one `window.onload` function, as multiple
+         instances of this throughout a (rendered) HTML just overwrite each
+         other.
+
+   <script>
+      window.onload = async function() {
+         
+            // Build cdf plot for openstructure
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/openstructure/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_openstructure', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for openstructure
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/openstructure/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_openstructure', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for openstructure
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/openstructure/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_openstructure', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+      }
+   </script>
+
+
 
 Link to this page
 -----------------

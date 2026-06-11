@@ -38,10 +38,10 @@ latch
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.71.2-2</code>,  <code>2.71.2-1</code>,  <code>2.71.2-0</code>,  <code>2.71.0-0</code>,  <code>2.70.4-0</code>,  <code>2.70.2-0</code>,  <code>2.67.23-0</code>,  <code>2.67.22-0</code>,  <code>2.67.21-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.76.0-0</code>,  <code>2.74.0-0</code>,  <code>2.72.2-0</code>,  <code>2.71.2-3</code>,  <code>2.71.2-2</code>,  <code>2.71.2-1</code>,  <code>2.71.2-0</code>,  <code>2.71.0-0</code>,  <code>2.70.4-0</code>,  </span></summary>
       
 
-      ``2.71.2-2``,  ``2.71.2-1``,  ``2.71.2-0``,  ``2.71.0-0``,  ``2.70.4-0``,  ``2.70.2-0``,  ``2.67.23-0``,  ``2.67.22-0``,  ``2.67.21-0``,  ``2.67.20-0``,  ``2.67.19-0``,  ``2.67.17-0``,  ``2.67.16-0``,  ``2.67.14-0``,  ``2.67.13-0``,  ``2.67.12-0``,  ``2.67.6-0``,  ``2.67.5-0``,  ``2.67.4-0``,  ``2.67.2-0``,  ``2.67.0-0``,  ``2.66.3-0``,  ``2.66.1-0``,  ``2.65.7-0``,  ``2.65.6-0``,  ``2.65.5-0``,  ``2.65.3-0``,  ``2.65.2-0``,  ``2.65.1-0``,  ``2.64.1-0``,  ``2.64.0-0``,  ``2.63.1-0``,  ``2.62.3-0``,  ``2.62.2-0``,  ``2.62.1-0``,  ``2.62.0-0``,  ``2.61.2-0``,  ``2.61.1-0``,  ``2.61.0-0``,  ``2.59.1-0``,  ``2.59.0-0``,  ``2.58.2-0``,  ``2.58.0-0``,  ``2.57.3-0``,  ``2.57.2-0``,  ``2.19.11-0``
+      ``2.76.0-0``,  ``2.74.0-0``,  ``2.72.2-0``,  ``2.71.2-3``,  ``2.71.2-2``,  ``2.71.2-1``,  ``2.71.2-0``,  ``2.71.0-0``,  ``2.70.4-0``,  ``2.70.2-0``,  ``2.67.23-0``,  ``2.67.22-0``,  ``2.67.21-0``,  ``2.67.20-0``,  ``2.67.19-0``,  ``2.67.17-0``,  ``2.67.16-0``,  ``2.67.14-0``,  ``2.67.13-0``,  ``2.67.12-0``,  ``2.67.6-0``,  ``2.67.5-0``,  ``2.67.4-0``,  ``2.67.2-0``,  ``2.67.0-0``,  ``2.66.3-0``,  ``2.66.1-0``,  ``2.65.7-0``,  ``2.65.6-0``,  ``2.65.5-0``,  ``2.65.3-0``,  ``2.65.2-0``,  ``2.65.1-0``,  ``2.64.1-0``,  ``2.64.0-0``,  ``2.63.1-0``,  ``2.62.3-0``,  ``2.62.2-0``,  ``2.62.1-0``,  ``2.62.0-0``,  ``2.61.2-0``,  ``2.61.1-0``,  ``2.61.0-0``,  ``2.59.1-0``,  ``2.59.0-0``,  ``2.58.2-0``,  ``2.58.0-0``,  ``2.57.3-0``,  ``2.57.2-0``,  ``2.19.11-0``
 
       
       .. raw:: html
@@ -81,6 +81,7 @@ latch
 
    :additional platforms:
       
+
 
 Installation
 ------------
@@ -149,21 +150,99 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "latch";
-        var versions = ["2.71.2","2.71.2","2.71.2","2.71.0","2.70.4"];
-    </script>
+   <script>
+      var package = "latch";
+      var versions = ["2.76.0","2.74.0","2.72.2","2.71.2","2.71.2"];
+   </script>
 
-
-
-
-
-
-Download stats
------------------
+.. rubric:: Download stats
 
 .. raw:: html
-    :file: ../../templates/package_dashboard.html
+    
+   <div style="width: 100%" id="download_plot_latch"></div>
+   <div style="width: 100%" id="platform_plot_latch"></div>
+   <div style="width: 100%" id="cdf_plot_latch"></div>
+
+
+
+   ..
+      Create all the necessary plots for each package by loading all the
+      correct specs and data. Important points on the place and implementation
+      of this script block:
+      1. It is here, and not in a separate HTML file, as it needs to have the
+         `package.name` rendered in for each package.
+      2. All packages are handled in one `window.onload` function, as multiple
+         instances of this throughout a (rendered) HTML just overwrite each
+         other.
+
+   <script>
+      window.onload = async function() {
+         
+            // Build cdf plot for latch
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/latch/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_latch', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for latch
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/latch/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_latch', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for latch
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/latch/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_latch', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+      }
+   </script>
+
+
 
 Link to this page
 -----------------

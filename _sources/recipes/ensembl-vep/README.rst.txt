@@ -32,10 +32,10 @@ ensembl-vep
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>115.2-1</code>,  <code>115.2-0</code>,  <code>115.1-0</code>,  <code>115-0</code>,  <code>114.2-1</code>,  <code>114.2-0</code>,  <code>114.1-0</code>,  <code>114.0-0</code>,  <code>113.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>116.0-0</code>,  <code>115.2-1</code>,  <code>115.2-0</code>,  <code>115.1-0</code>,  <code>115-0</code>,  <code>114.2-1</code>,  <code>114.2-0</code>,  <code>114.1-0</code>,  <code>114.0-0</code>,  </span></summary>
       
 
-      ``115.2-1``,  ``115.2-0``,  ``115.1-0``,  ``115-0``,  ``114.2-1``,  ``114.2-0``,  ``114.1-0``,  ``114.0-0``,  ``113.4-0``,  ``113.3-2``,  ``113.3-1``,  ``113.3-0``,  ``113.2-0``,  ``113.0-0``,  ``112.0-0``,  ``111.0-0``,  ``110.1-0``,  ``110.0-0``,  ``109.3-1``,  ``109.3-0``,  ``108.2-0``,  ``108.1-0``,  ``108.0-0``,  ``107.0-0``,  ``106.1-0``,  ``106.0-0``,  ``105.0-1``,  ``105.0-0``,  ``104.3-1``,  ``104.3-0``,  ``104.2-1``,  ``104.2-0``,  ``104.1-1``,  ``104.1-0``,  ``104.0-0``,  ``103.1-2``,  ``103.1-1``,  ``103.1-0``,  ``102.0-0``,  ``101.0-1``,  ``101.0-0``,  ``100.4-0``,  ``100.3-0``,  ``100.2-0``,  ``100.1-1``,  ``100.1-0``,  ``100.0-0``,  ``99.2-0``,  ``99.1-0``,  ``99.0-0``,  ``98.3-0``,  ``98.2-0``,  ``98.1-0``,  ``98.0-1``,  ``98.0-0``,  ``97.4-0``,  ``97.3-0``,  ``97.2-0``,  ``97.1-0``,  ``97.0-0``,  ``96.3-0``,  ``96.0-0``,  ``95.3-0``,  ``95.2-0``,  ``95.1-0``,  ``95.0-1``,  ``95.0-0``,  ``94.5-0``,  ``94.4-0``,  ``94.0-0``,  ``93.4-0``,  ``93.2-0``,  ``92.4-0``,  ``92.3-0``,  ``92.0-1``,  ``91.3-1``,  ``91.3-0``,  ``91.2-0``,  ``91.1-0``,  ``91.0-0``,  ``90.10-0``,  ``90.9-1``,  ``90.7-1``,  ``90.7-0``,  ``90.6-0``,  ``90.5-0``,  ``90.3-0``,  ``90.1-1``,  ``90.1-0``,  ``89.7-0``,  ``89.4-0``,  ``89.1-2``,  ``89.1-1``,  ``88.10-1``,  ``88.10-0``,  ``88.9-2``,  ``88.9-1``,  ``88.9-0``,  ``88.8-0``,  ``88-0``
+      ``116.0-0``,  ``115.2-1``,  ``115.2-0``,  ``115.1-0``,  ``115-0``,  ``114.2-1``,  ``114.2-0``,  ``114.1-0``,  ``114.0-0``,  ``113.4-0``,  ``113.3-2``,  ``113.3-1``,  ``113.3-0``,  ``113.2-0``,  ``113.0-0``,  ``112.0-0``,  ``111.0-0``,  ``110.1-0``,  ``110.0-0``,  ``109.3-1``,  ``109.3-0``,  ``108.2-0``,  ``108.1-0``,  ``108.0-0``,  ``107.0-0``,  ``106.1-0``,  ``106.0-0``,  ``105.0-1``,  ``105.0-0``,  ``104.3-1``,  ``104.3-0``,  ``104.2-1``,  ``104.2-0``,  ``104.1-1``,  ``104.1-0``,  ``104.0-0``,  ``103.1-2``,  ``103.1-1``,  ``103.1-0``,  ``102.0-0``,  ``101.0-1``,  ``101.0-0``,  ``100.4-0``,  ``100.3-0``,  ``100.2-0``,  ``100.1-1``,  ``100.1-0``,  ``100.0-0``,  ``99.2-0``,  ``99.1-0``,  ``99.0-0``,  ``98.3-0``,  ``98.2-0``,  ``98.1-0``,  ``98.0-1``,  ``98.0-0``,  ``97.4-0``,  ``97.3-0``,  ``97.2-0``,  ``97.1-0``,  ``97.0-0``,  ``96.3-0``,  ``96.0-0``,  ``95.3-0``,  ``95.2-0``,  ``95.1-0``,  ``95.0-1``,  ``95.0-0``,  ``94.5-0``,  ``94.4-0``,  ``94.0-0``,  ``93.4-0``,  ``93.2-0``,  ``92.4-0``,  ``92.3-0``,  ``92.0-1``,  ``91.3-1``,  ``91.3-0``,  ``91.2-0``,  ``91.1-0``,  ``91.0-0``,  ``90.10-0``,  ``90.9-1``,  ``90.7-1``,  ``90.7-0``,  ``90.6-0``,  ``90.5-0``,  ``90.3-0``,  ``90.1-1``,  ``90.1-0``,  ``89.7-0``,  ``89.4-0``,  ``89.1-2``,  ``89.1-1``,  ``88.10-1``,  ``88.10-0``,  ``88.9-2``,  ``88.9-1``,  ``88.9-0``,  ``88.8-0``,  ``88-0``
 
       
       .. raw:: html
@@ -64,6 +64,7 @@ ensembl-vep
 
    :additional platforms:
       
+
 
 Installation
 ------------
@@ -132,13 +133,97 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "ensembl-vep";
-        var versions = ["115.2","115.2","115.1","115","114.2"];
-    </script>
+   <script>
+      var package = "ensembl-vep";
+      var versions = ["116.0","115.2","115.2","115.1","115"];
+   </script>
+
+.. rubric:: Download stats
+
+.. raw:: html
+    
+   <div style="width: 100%" id="download_plot_ensembl-vep"></div>
+   <div style="width: 100%" id="platform_plot_ensembl-vep"></div>
+   <div style="width: 100%" id="cdf_plot_ensembl-vep"></div>
 
 
 
+   ..
+      Create all the necessary plots for each package by loading all the
+      correct specs and data. Important points on the place and implementation
+      of this script block:
+      1. It is here, and not in a separate HTML file, as it needs to have the
+         `package.name` rendered in for each package.
+      2. All packages are handled in one `window.onload` function, as multiple
+         instances of this throughout a (rendered) HTML just overwrite each
+         other.
+
+   <script>
+      window.onload = async function() {
+         
+            // Build cdf plot for ensembl-vep
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/ensembl-vep/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_ensembl-vep', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for ensembl-vep
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/ensembl-vep/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_ensembl-vep', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for ensembl-vep
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/ensembl-vep/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_ensembl-vep', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+      }
+   </script>
 
 
 Notes
@@ -158,12 +243,6 @@ runs. See the VEP documentation for more details
 
 http\:\/\/www.ensembl.org\/info\/docs\/tools\/vep\/script\/vep\_cache.html
 
-
-Download stats
------------------
-
-.. raw:: html
-    :file: ../../templates/package_dashboard.html
 
 Link to this page
 -----------------

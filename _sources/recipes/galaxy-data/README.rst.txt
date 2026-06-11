@@ -16,7 +16,7 @@ galaxy-data
    :documentation: https://docs.galaxyproject.org
    
    :developer docs: https://github.com/galaxyproject/galaxy
-   :license: AFL-3.0
+   :license: MIT / MIT
    :recipe: /`galaxy-data <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galaxy-data>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galaxy-data/meta.yaml>`_
    :links: biotools: :biotools:`galaxy`, doi: :doi:`10.1093/nar/gky379`
 
@@ -32,10 +32,10 @@ galaxy-data
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>25.1.2-0</code>,  <code>25.1.1-0</code>,  <code>25.0.4-0</code>,  <code>25.0.3-0</code>,  <code>25.0.2-0</code>,  <code>25.0.1-0</code>,  <code>24.2.4-0</code>,  <code>24.2.3-1</code>,  <code>24.2.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>26.0.1-1</code>,  <code>26.0.1-0</code>,  <code>25.1.2-0</code>,  <code>25.1.1-0</code>,  <code>25.0.4-0</code>,  <code>25.0.3-0</code>,  <code>25.0.2-0</code>,  <code>25.0.1-0</code>,  <code>24.2.4-0</code>,  </span></summary>
       
 
-      ``25.1.2-0``,  ``25.1.1-0``,  ``25.0.4-0``,  ``25.0.3-0``,  ``25.0.2-0``,  ``25.0.1-0``,  ``24.2.4-0``,  ``24.2.3-1``,  ``24.2.3-0``,  ``24.2.2-0``,  ``24.2.1-0``,  ``24.2.0-0``,  ``24.1.4-0``,  ``24.1.3-0``,  ``24.1.2-0``,  ``24.1.1-0``,  ``22.1.1-0``,  ``21.9.0-0``,  ``20.9.1-2``,  ``20.9.1-1``,  ``20.9.1-0``
+      ``26.0.1-1``,  ``26.0.1-0``,  ``25.1.2-0``,  ``25.1.1-0``,  ``25.0.4-0``,  ``25.0.3-0``,  ``25.0.2-0``,  ``25.0.1-0``,  ``24.2.4-0``,  ``24.2.3-1``,  ``24.2.3-0``,  ``24.2.2-0``,  ``24.2.1-0``,  ``24.2.0-0``,  ``24.1.4-0``,  ``24.1.3-0``,  ``24.1.2-0``,  ``24.1.1-0``,  ``22.1.1-0``,  ``21.9.0-0``,  ``20.9.1-2``,  ``20.9.1-1``,  ``20.9.1-0``
 
       
       .. raw:: html
@@ -45,20 +45,20 @@ galaxy-data
 
    
    :depends on alembic: 
-   :depends on alembic-utils: 
    :depends on bdbag: ``>=1.6.3``
    :depends on bx-python: 
    :depends on dnspython: 
    :depends on email-validator: 
-   :depends on galaxy-files: ``>=25.1``
-   :depends on galaxy-objectstore: ``>=25.1``
-   :depends on galaxy-schema: ``>=25.1``
-   :depends on galaxy-tool-util: ``>=25.1``
-   :depends on galaxy-util: ``>=25.1``
+   :depends on galaxy-files: ``>=26.0``
+   :depends on galaxy-objectstore: ``>=26.0``
+   :depends on galaxy-schema: ``>=26.0``
+   :depends on galaxy-tool-util: ``>=26.0``
+   :depends on galaxy-util: ``>=26.0``
    :depends on galaxy_sequence_utils: 
    :depends on h5grove: ``>=1.2.1``
    :depends on h5py: 
-   :depends on isa-rwval: ``>=0.10.10``
+   :depends on ijson: 
+   :depends on isa-rwval: ``>=0.10.11``
    :depends on markupsafe: 
    :depends on mrcfile: 
    :depends on msal: 
@@ -66,19 +66,21 @@ galaxy-data
    :depends on parsley: 
    :depends on pycryptodome: 
    :depends on pydantic: ``>=2.7.4``
+   :depends on pydicom: 
+   :depends on pypng: 
    :depends on pysam: ``>=0.21``
-   :depends on python: ``>=3.8``
-   :depends on python-isal: 
+   :depends on python: ``>=3.10``
+   :depends on python-isal: ``>=1.7.0``
    :depends on python-magic: 
-   :depends on rocrate: 
-   :depends on social-auth-core: ``4.0.3``
-   :depends on sqlalchemy: ``>=2.0,<2.1``
+   :depends on rocrate: ``<0.15.0``
+   :depends on social-auth-core: ``>=4.5.0``
+   :depends on sqlalchemy: ``>=2.0.37,<2.1``
    :depends on tifffile: 
    :depends on typing-extensions: 
-   :depends on webob: 
 
    :additional platforms:
       
+
 
 Installation
 ------------
@@ -147,21 +149,99 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "galaxy-data";
-        var versions = ["25.1.2","25.1.1","25.0.4","25.0.3","25.0.2"];
-    </script>
+   <script>
+      var package = "galaxy-data";
+      var versions = ["26.0.1","26.0.1","25.1.2","25.1.1","25.0.4"];
+   </script>
 
-
-
-
-
-
-Download stats
------------------
+.. rubric:: Download stats
 
 .. raw:: html
-    :file: ../../templates/package_dashboard.html
+    
+   <div style="width: 100%" id="download_plot_galaxy-data"></div>
+   <div style="width: 100%" id="platform_plot_galaxy-data"></div>
+   <div style="width: 100%" id="cdf_plot_galaxy-data"></div>
+
+
+
+   ..
+      Create all the necessary plots for each package by loading all the
+      correct specs and data. Important points on the place and implementation
+      of this script block:
+      1. It is here, and not in a separate HTML file, as it needs to have the
+         `package.name` rendered in for each package.
+      2. All packages are handled in one `window.onload` function, as multiple
+         instances of this throughout a (rendered) HTML just overwrite each
+         other.
+
+   <script>
+      window.onload = async function() {
+         
+            // Build cdf plot for galaxy-data
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/galaxy-data/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_galaxy-data', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for galaxy-data
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/galaxy-data/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_galaxy-data', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for galaxy-data
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/galaxy-data/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_galaxy-data', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+      }
+   </script>
+
+
 
 Link to this page
 -----------------

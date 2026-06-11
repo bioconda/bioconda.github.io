@@ -91,76 +91,6 @@ is provided for running the pipeline without Snakemake.</p>
 </dd></dl>
 
 <dl class="conda package">
-<dt class="sig sig-object conda" id="package-pegas">
-<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">pegas</span></span><a class="headerlink" href="#package-pegas" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/pegas"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/pegas.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/pegas"><img alt="docker_pegas" src="https://quay.io/repository/biocontainers/pegas/status" /></a></p>
-<dl class="field-list">
-<dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">1.2.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.9-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.8-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.7-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.13-0</span></code></p>
-</details></dd>
-<dt class="field-even">Depends<span class="colon">:</span></dt>
-<dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><strong>on pegas-snakemake</strong> <code class="docutils literal notranslate"><span class="pre">1.2.4.*</span></code></p></li>
-</ul>
-</dd>
-<dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
-</dl>
-</dd></dl>
-
-<section id="installation">
-<h2>Installation<a class="headerlink" href="#installation" title="Link to this heading">¶</a></h2>
-<p>You need a conda-compatible package manager
-(currently either <a class="reference external" href="https://pixi.sh">pixi</a>, <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>, or <a class="reference external" href="https://mamba.readthedocs.io">micromamba</a>)
-and the Bioconda channel already activated (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>).
-Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).</p>
-<section id="pixi">
-<h3>Pixi<a class="headerlink" href="#pixi" title="Link to this heading">¶</a></h3>
-<p>With <a class="reference external" href="https://pixi.sh">pixi</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>),
-to install globally, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="n">pegas</span>
-</pre></div>
-</div>
-<p>to add into an existing workspace instead, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">add</span> <span class="n">pegas</span>
-</pre></div>
-</div>
-<p>In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">workspace</span> <span class="n">channel</span> <span class="n">add</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span>
-<span class="n">pixi</span> <span class="n">workspace</span> <span class="n">channel</span> <span class="n">add</span> <span class="n">bioconda</span>
-</pre></div>
-</div>
-</section>
-<section id="conda">
-<h3>Conda<a class="headerlink" href="#conda" title="Link to this heading">¶</a></h3>
-<p>With <a class="reference external" href="https://conda.io">conda</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>), to install into an existing and activated environment, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">pegas</span>
-</pre></div>
-</div>
-<p>Alternatively, to install into a new environment, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">envname</span> <span class="n">pegas</span>
-</pre></div>
-</div>
-<p>with <code class="docutils literal notranslate"><span class="pre">envname</span></code> being the name of the desired environment.</p>
-</section>
-<section id="container">
-<h3>Container<a class="headerlink" href="#container" title="Link to this heading">¶</a></h3>
-<p>Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
-For e.g. docker, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">pegas</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
-</pre></div>
-</div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/pegas?tab=tags">pegas/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>).</p>
-</section>
-<section id="integrated-deployment">
-<h3>Integrated deployment<a class="headerlink" href="#integrated-deployment" title="Link to this heading">¶</a></h3>
-<p>Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
-Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
-Check the documentation of your workflow management system to find out about the integration.</p>
-<script>
-    var package = "pegas";
-    var versions = ["1.2.4","1.2.3","1.2.1","1.1.0","1.0.9"];
-</script><dl class="conda package">
 <dt class="sig sig-object conda" id="package-pegas-lite">
 <span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">pegas-lite</span></span><a class="headerlink" href="#package-pegas-lite" title="Link to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/pegas-lite"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/pegas-lite.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/pegas"><img alt="docker_pegas-lite" src="https://quay.io/repository/biocontainers/pegas/status" /></a></p>
@@ -187,16 +117,14 @@ Check the documentation of your workflow management system to find out about the
 </dl>
 </dd></dl>
 
-</section>
-</section>
-<section id="id4">
-<h2>Installation<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h2>
+<section id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Link to this heading">¶</a></h2>
 <p>You need a conda-compatible package manager
 (currently either <a class="reference external" href="https://pixi.sh">pixi</a>, <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>, or <a class="reference external" href="https://mamba.readthedocs.io">micromamba</a>)
 and the Bioconda channel already activated (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>).
 Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).</p>
-<section id="id5">
-<h3>Pixi<a class="headerlink" href="#id5" title="Link to this heading">¶</a></h3>
+<section id="pixi">
+<h3>Pixi<a class="headerlink" href="#pixi" title="Link to this heading">¶</a></h3>
 <p>With <a class="reference external" href="https://pixi.sh">pixi</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>),
 to install globally, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="n">pegas</span><span class="o">-</span><span class="n">lite</span>
@@ -212,8 +140,8 @@ to install globally, run:</p>
 </pre></div>
 </div>
 </section>
-<section id="id6">
-<h3>Conda<a class="headerlink" href="#id6" title="Link to this heading">¶</a></h3>
+<section id="conda">
+<h3>Conda<a class="headerlink" href="#conda" title="Link to this heading">¶</a></h3>
 <p>With <a class="reference external" href="https://conda.io">conda</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>), to install into an existing and activated environment, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">pegas</span><span class="o">-</span><span class="n">lite</span>
 </pre></div>
@@ -224,8 +152,8 @@ to install globally, run:</p>
 </div>
 <p>with <code class="docutils literal notranslate"><span class="pre">envname</span></code> being the name of the desired environment.</p>
 </section>
-<section id="id7">
-<h3>Container<a class="headerlink" href="#id7" title="Link to this heading">¶</a></h3>
+<section id="container">
+<h3>Container<a class="headerlink" href="#container" title="Link to this heading">¶</a></h3>
 <p>Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">pegas</span><span class="o">-</span><span class="n">lite</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
@@ -233,15 +161,18 @@ For e.g. docker, run:</p>
 </div>
 <p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/pegas-lite?tab=tags">pegas-lite/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>).</p>
 </section>
-<section id="id8">
-<h3>Integrated deployment<a class="headerlink" href="#id8" title="Link to this heading">¶</a></h3>
+<section id="integrated-deployment">
+<h3>Integrated deployment<a class="headerlink" href="#integrated-deployment" title="Link to this heading">¶</a></h3>
 <p>Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
 Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
-    var package = "pegas";
-    var versions = ["1.2.4","1.2.3","1.2.1"];
-</script><dl class="conda package">
+   var package = "pegas-lite";
+   var versions = ["1.2.4","1.2.3","1.2.1"];
+</script><p class="rubric">Download stats</p>
+<div style="width: 100%" id="download_plot_pegas-lite"></div>
+<div style="width: 100%" id="platform_plot_pegas-lite"></div>
+<div style="width: 100%" id="cdf_plot_pegas-lite"></div><dl class="conda package">
 <dt class="sig sig-object conda" id="package-pegas-snakemake">
 <span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">pegas-snakemake</span></span><a class="headerlink" href="#package-pegas-snakemake" title="Link to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/pegas-snakemake"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/pegas-snakemake.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/pegas"><img alt="docker_pegas-snakemake" src="https://quay.io/repository/biocontainers/pegas/status" /></a></p>
@@ -263,14 +194,14 @@ Check the documentation of your workflow management system to find out about the
 
 </section>
 </section>
-<section id="id11">
-<h2>Installation<a class="headerlink" href="#id11" title="Link to this heading">¶</a></h2>
+<section id="id4">
+<h2>Installation<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h2>
 <p>You need a conda-compatible package manager
 (currently either <a class="reference external" href="https://pixi.sh">pixi</a>, <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>, or <a class="reference external" href="https://mamba.readthedocs.io">micromamba</a>)
 and the Bioconda channel already activated (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>).
 Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).</p>
-<section id="id12">
-<h3>Pixi<a class="headerlink" href="#id12" title="Link to this heading">¶</a></h3>
+<section id="id5">
+<h3>Pixi<a class="headerlink" href="#id5" title="Link to this heading">¶</a></h3>
 <p>With <a class="reference external" href="https://pixi.sh">pixi</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>),
 to install globally, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="n">pegas</span><span class="o">-</span><span class="n">snakemake</span>
@@ -286,8 +217,8 @@ to install globally, run:</p>
 </pre></div>
 </div>
 </section>
-<section id="id13">
-<h3>Conda<a class="headerlink" href="#id13" title="Link to this heading">¶</a></h3>
+<section id="id6">
+<h3>Conda<a class="headerlink" href="#id6" title="Link to this heading">¶</a></h3>
 <p>With <a class="reference external" href="https://conda.io">conda</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>), to install into an existing and activated environment, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">pegas</span><span class="o">-</span><span class="n">snakemake</span>
 </pre></div>
@@ -298,8 +229,8 @@ to install globally, run:</p>
 </div>
 <p>with <code class="docutils literal notranslate"><span class="pre">envname</span></code> being the name of the desired environment.</p>
 </section>
-<section id="id14">
-<h3>Container<a class="headerlink" href="#id14" title="Link to this heading">¶</a></h3>
+<section id="id7">
+<h3>Container<a class="headerlink" href="#id7" title="Link to this heading">¶</a></h3>
 <p>Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">pegas</span><span class="o">-</span><span class="n">snakemake</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
@@ -307,27 +238,36 @@ For e.g. docker, run:</p>
 </div>
 <p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/pegas-snakemake?tab=tags">pegas-snakemake/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>).</p>
 </section>
-<section id="id15">
-<h3>Integrated deployment<a class="headerlink" href="#id15" title="Link to this heading">¶</a></h3>
+<section id="id8">
+<h3>Integrated deployment<a class="headerlink" href="#id8" title="Link to this heading">¶</a></h3>
 <p>Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
 Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
-    var package = "pegas";
-    var versions = ["1.2.4"];
-</script></section>
-</section>
-<section id="download-stats">
-<h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
-<div style="width: 100%" id="download_plot"></div>
-<div style="width: 100%" id="platform_plot"></div>
-<div style="width: 100%" id="cdf_plot"></div>
+   var package = "pegas-snakemake";
+   var versions = ["1.2.4"];
+</script><p class="rubric">Download stats</p>
+<div style="width: 100%" id="download_plot_pegas-snakemake"></div>
+<div style="width: 100%" id="platform_plot_pegas-snakemake"></div>
+<div style="width: 100%" id="cdf_plot_pegas-snakemake"></div>
+
+
+
+..
+   Create all the necessary plots for each package by loading all the
+   correct specs and data. Important points on the place and implementation
+   of this script block:
+   1. It is here, and not in a separate HTML file, as it needs to have the
+      `package.name` rendered in for each package.
+   2. All packages are handled in one `window.onload` function, as multiple
+      instances of this throughout a (rendered) HTML just overwrite each
+      other.
 
 <script>
-    window.onload = async function() {
-  
-        // Build cdf plot
-        try {
+   window.onload = async function() {
+
+         // Build cdf plot for pegas-lite
+         try {
             const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
             if (!cdf_spec_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
@@ -338,57 +278,118 @@ Check the documentation of your workflow management system to find out about the
                 throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
             }
             const cdf_plot_data = await cdf_data_resp.json();
-            const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`)
+            const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/pegas-lite/cdf.json`)
             if (!point_data_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
             }
             const single_point = await point_data_resp.json();
-  
+
             cdf_spec.data.values = cdf_plot_data;
             cdf_spec.data.values.push(single_point.pop());
-            vegaEmbed('#cdf_plot', cdf_spec);
-        } catch (err) {
+            vegaEmbed('#cdf_plot_pegas-lite', cdf_spec);
+         } catch (err) {
             console.error("An error occurred while building CDF plot: ", err)
-        }
-  
-        // Build download plot
-        try {
+         }
+
+         // Build download plot for pegas-lite
+         try {
             const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
             if (!spec_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
             }
             const spec = await spec_resp.json();
-            const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/versions.json`)
+            const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/pegas-lite/versions.json`)
             if (!version_data_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
             }
             const plot_data = await version_data_resp.json();
             spec.data.values = plot_data;
-            vegaEmbed('#download_plot', spec);
-        } catch (err) {
+            vegaEmbed('#download_plot_pegas-lite', spec);
+         } catch (err) {
             console.error("An error occurred while building downloads plot: ", err)
-        }
+         }
 
-        // Build platform download plot
-        try {
+         // Build platform download plot for pegas-lite
+         try {
             const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
             if (!spec_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
             }
             const spec = await spec_resp.json();
-            const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/platforms.json`)
+            const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/pegas-lite/platforms.json`)
             if (!platform_data_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
             }
             const plot_data = await platform_data_resp.json();
             spec.data.values = plot_data;
-            vegaEmbed('#platform_plot', spec);
-        } catch (err) {
+            vegaEmbed('#platform_plot_pegas-lite', spec);
+         } catch (err) {
             console.error("An error occurred while building platform downloads plot: ", err)
-        }
-  
-    }
-</script>
+         }
+
+         // Build cdf plot for pegas-snakemake
+         try {
+            const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+            if (!cdf_spec_resp.ok) {
+                throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+            }
+            const cdf_spec = await cdf_spec_resp.json();
+            const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+            if (!cdf_data_resp.ok) {
+                throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+            }
+            const cdf_plot_data = await cdf_data_resp.json();
+            const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/pegas-snakemake/cdf.json`)
+            if (!point_data_resp.ok) {
+                throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+            }
+            const single_point = await point_data_resp.json();
+
+            cdf_spec.data.values = cdf_plot_data;
+            cdf_spec.data.values.push(single_point.pop());
+            vegaEmbed('#cdf_plot_pegas-snakemake', cdf_spec);
+         } catch (err) {
+            console.error("An error occurred while building CDF plot: ", err)
+         }
+
+         // Build download plot for pegas-snakemake
+         try {
+            const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+            if (!spec_resp.ok) {
+                throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+            }
+            const spec = await spec_resp.json();
+            const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/pegas-snakemake/versions.json`)
+            if (!version_data_resp.ok) {
+                throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+            }
+            const plot_data = await version_data_resp.json();
+            spec.data.values = plot_data;
+            vegaEmbed('#download_plot_pegas-snakemake', spec);
+         } catch (err) {
+            console.error("An error occurred while building downloads plot: ", err)
+         }
+
+         // Build platform download plot for pegas-snakemake
+         try {
+            const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+            if (!spec_resp.ok) {
+                throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+            }
+            const spec = await spec_resp.json();
+            const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/pegas-snakemake/platforms.json`)
+            if (!platform_data_resp.ok) {
+                throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+            }
+            const plot_data = await platform_data_resp.json();
+            spec.data.values = plot_data;
+            vegaEmbed('#platform_plot_pegas-snakemake', spec);
+         } catch (err) {
+            console.error("An error occurred while building platform downloads plot: ", err)
+         }
+
+   }
+</script></section>
 </section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Link to this heading">¶</a></h2>

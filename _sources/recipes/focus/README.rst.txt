@@ -10,14 +10,16 @@ focus
    :replaces_section_title:
    :noindex:
 
-   FOCUS is an innovative and agile model to profile and report organisms present in metagenomic samples based on composition usage without sequence length dependencies.
+   FOCUS \- An Agile Profiler for Metagenomic Data
 
-   :homepage: https://edwards.sdsu.edu/FOCUS
-   :developer docs: https://github.com/metageni/FOCUS
-   :license: GPL / GPL-3.0
+   :homepage: https://github.com/metageni/FOCUS
+   :license: GPL-3.0-or-later
    :recipe: /`focus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/focus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/focus/meta.yaml>`_
 
-   
+   FOCUS uses k\-mer counting \(Jellyfish\) and non\-negative least squares \(NNLS\)
+   to estimate the relative abundance of organisms in a metagenome without
+   assembly or read mapping.
+
 
 
 .. conda:package:: focus
@@ -28,21 +30,20 @@ focus
       
       
 
-      ``1.8-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``1.3-0``
+      ``2.0.0-0``,  ``1.8-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4-2``,  ``1.4-1``,  ``1.4-0``,  ``1.3-0``
 
       
 
    
-   :depends on kmer-jellyfish: ``>=2.2.6``
+   :depends on click: ``>=8.0``
+   :depends on jellyfish: 
    :depends on numpy: ``>=1.12.1``
-   :depends on python: ``>=3``
+   :depends on python: ``>=3.8``
    :depends on scipy: ``>=0.19.0``
-   :depends on setuptools: ``>=38.6.0``
-   :depends on setuptools_scm: 
-   :depends on unzip: 
 
    :additional platforms:
       
+
 
 Installation
 ------------
@@ -111,21 +112,99 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "focus";
-        var versions = ["1.8","1.6","1.5","1.4","1.4"];
-    </script>
+   <script>
+      var package = "focus";
+      var versions = ["2.0.0","1.8","1.6","1.5","1.4"];
+   </script>
 
-
-
-
-
-
-Download stats
------------------
+.. rubric:: Download stats
 
 .. raw:: html
-    :file: ../../templates/package_dashboard.html
+    
+   <div style="width: 100%" id="download_plot_focus"></div>
+   <div style="width: 100%" id="platform_plot_focus"></div>
+   <div style="width: 100%" id="cdf_plot_focus"></div>
+
+
+
+   ..
+      Create all the necessary plots for each package by loading all the
+      correct specs and data. Important points on the place and implementation
+      of this script block:
+      1. It is here, and not in a separate HTML file, as it needs to have the
+         `package.name` rendered in for each package.
+      2. All packages are handled in one `window.onload` function, as multiple
+         instances of this throughout a (rendered) HTML just overwrite each
+         other.
+
+   <script>
+      window.onload = async function() {
+         
+            // Build cdf plot for focus
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/focus/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_focus', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for focus
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/focus/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_focus', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for focus
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/focus/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_focus', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+      }
+   </script>
+
+
 
 Link to this page
 -----------------

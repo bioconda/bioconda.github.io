@@ -66,17 +66,17 @@
   <section id="blast-legacy">
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
-<span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">blast-legacy/2.2.26</span></span></dt>
+<span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">blast-legacy/2.2.19</span></span></dt>
 <dd><p>The Basic Local Alignment Search Tool (BLAST) finds regions of local similarity between sequences.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://blast.ncbi.nlm.nih.gov">https://blast.ncbi.nlm.nih.gov</a></p>
+<dd class="field-odd"><p><a class="reference external" href="http://blast.ncbi.nlm.nih.gov">http://blast.ncbi.nlm.nih.gov</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
 <dd class="field-even"><p>Public Domain</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blast-legacy">blast-legacy</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blast-legacy/2.2.26">2.2.26</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blast-legacy/2.2.26/meta.yaml">meta.yaml</a></p>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blast-legacy">blast-legacy</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blast-legacy/2.2.19">2.2.19</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blast-legacy/2.2.19/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -85,17 +85,18 @@
 <dt class="sig sig-object conda" id="package-blast-legacy">
 <span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">blast-legacy</span></span><a class="headerlink" href="#package-blast-legacy" title="Link to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/blast-legacy"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/blast-legacy.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/blast-legacy"><img alt="docker_blast-legacy" src="https://quay.io/repository/biocontainers/blast-legacy/status" /></a></p>
-<dl class="field-list">
+<dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
 <dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.2.26-5</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.2.26-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.2.26-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.2.26-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.2.26-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.2.26-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.2.22-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.2.22-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.2.19-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
 <li><p><strong>on gnutls</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.8.8,&lt;3.9.0a0</span></code></p></li>
+<li><p><strong>on libgcc</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
+<dd class="field-odd"><p></p></dd>
 </dl>
 </dd></dl>
 
@@ -149,21 +150,30 @@ For e.g. docker, run:</p>
 Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
-    var package = "blast-legacy";
-    var versions = ["2.2.26","2.2.26","2.2.26","2.2.26","2.2.26"];
-</script></section>
-</section>
-<section id="download-stats">
-<h2>Download stats<a class="headerlink" href="#download-stats" title="Link to this heading">¶</a></h2>
-<div style="width: 100%" id="download_plot"></div>
-<div style="width: 100%" id="platform_plot"></div>
-<div style="width: 100%" id="cdf_plot"></div>
+   var package = "blast-legacy";
+   var versions = ["2.2.26","2.2.26","2.2.26","2.2.26","2.2.26"];
+</script><p class="rubric">Download stats</p>
+<div style="width: 100%" id="download_plot_blast-legacy"></div>
+<div style="width: 100%" id="platform_plot_blast-legacy"></div>
+<div style="width: 100%" id="cdf_plot_blast-legacy"></div>
+
+
+
+..
+   Create all the necessary plots for each package by loading all the
+   correct specs and data. Important points on the place and implementation
+   of this script block:
+   1. It is here, and not in a separate HTML file, as it needs to have the
+      `package.name` rendered in for each package.
+   2. All packages are handled in one `window.onload` function, as multiple
+      instances of this throughout a (rendered) HTML just overwrite each
+      other.
 
 <script>
-    window.onload = async function() {
-  
-        // Build cdf plot
-        try {
+   window.onload = async function() {
+
+         // Build cdf plot for blast-legacy
+         try {
             const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
             if (!cdf_spec_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
@@ -174,57 +184,57 @@ Check the documentation of your workflow management system to find out about the
                 throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
             }
             const cdf_plot_data = await cdf_data_resp.json();
-            const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/cdf.json`)
+            const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/blast-legacy/cdf.json`)
             if (!point_data_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
             }
             const single_point = await point_data_resp.json();
-  
+
             cdf_spec.data.values = cdf_plot_data;
             cdf_spec.data.values.push(single_point.pop());
-            vegaEmbed('#cdf_plot', cdf_spec);
-        } catch (err) {
+            vegaEmbed('#cdf_plot_blast-legacy', cdf_spec);
+         } catch (err) {
             console.error("An error occurred while building CDF plot: ", err)
-        }
-  
-        // Build download plot
-        try {
+         }
+
+         // Build download plot for blast-legacy
+         try {
             const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
             if (!spec_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
             }
             const spec = await spec_resp.json();
-            const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/versions.json`)
+            const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/blast-legacy/versions.json`)
             if (!version_data_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
             }
             const plot_data = await version_data_resp.json();
             spec.data.values = plot_data;
-            vegaEmbed('#download_plot', spec);
-        } catch (err) {
+            vegaEmbed('#download_plot_blast-legacy', spec);
+         } catch (err) {
             console.error("An error occurred while building downloads plot: ", err)
-        }
+         }
 
-        // Build platform download plot
-        try {
+         // Build platform download plot for blast-legacy
+         try {
             const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
             if (!spec_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
             }
             const spec = await spec_resp.json();
-            const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/${package}/platforms.json`)
+            const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/blast-legacy/platforms.json`)
             if (!platform_data_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
             }
             const plot_data = await platform_data_resp.json();
             spec.data.values = plot_data;
-            vegaEmbed('#platform_plot', spec);
-        } catch (err) {
+            vegaEmbed('#platform_plot_blast-legacy', spec);
+         } catch (err) {
             console.error("An error occurred while building platform downloads plot: ", err)
-        }
-  
-    }
-</script>
+         }
+
+   }
+</script></section>
 </section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Link to this heading">¶</a></h2>

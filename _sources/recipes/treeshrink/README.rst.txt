@@ -13,7 +13,7 @@ treeshrink
    An algorithm for detecting \(and removing\) abnormally long branches in one or more phylogenetic trees.
 
    :homepage: https://github.com/uym2/TreeShrink
-   :documentation: https://github.com/uym2/TreeShrink/blob/v1.3.9/README.md
+   :documentation: https://github.com/uym2/TreeShrink/blob/v1.4.0/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`treeshrink <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treeshrink>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treeshrink/meta.yaml>`_
@@ -30,17 +30,19 @@ treeshrink
       
       
 
-      ``1.3.9-1``,  ``1.3.9-0``
+      ``1.4.0-0``,  ``1.3.9-1``,  ``1.3.9-0``
 
       
 
    
-   :depends on python: ``>=3.6``
-   :depends on r-base: 
-   :depends on r-bms: ``>=0.3.5``
+   :depends on numpy: 
+   :depends on python: ``>=3.8,<3.13``
+   :depends on scipy: 
+   :depends on treeswift: 
 
    :additional platforms:
       
+
 
 Installation
 ------------
@@ -109,21 +111,99 @@ Check the documentation of your workflow management system to find out about the
 
 .. raw:: html
 
-    <script>
-        var package = "treeshrink";
-        var versions = ["1.3.9","1.3.9"];
-    </script>
+   <script>
+      var package = "treeshrink";
+      var versions = ["1.4.0","1.3.9","1.3.9"];
+   </script>
 
-
-
-
-
-
-Download stats
------------------
+.. rubric:: Download stats
 
 .. raw:: html
-    :file: ../../templates/package_dashboard.html
+    
+   <div style="width: 100%" id="download_plot_treeshrink"></div>
+   <div style="width: 100%" id="platform_plot_treeshrink"></div>
+   <div style="width: 100%" id="cdf_plot_treeshrink"></div>
+
+
+
+   ..
+      Create all the necessary plots for each package by loading all the
+      correct specs and data. Important points on the place and implementation
+      of this script block:
+      1. It is here, and not in a separate HTML file, as it needs to have the
+         `package.name` rendered in for each package.
+      2. All packages are handled in one `window.onload` function, as multiple
+         instances of this throughout a (rendered) HTML just overwrite each
+         other.
+
+   <script>
+      window.onload = async function() {
+         
+            // Build cdf plot for treeshrink
+            try {
+               const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
+               if (!cdf_spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_spec_resp.status}.`);
+               }
+               const cdf_spec = await cdf_spec_resp.json();
+               const cdf_data_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cdf.json")
+               if (!cdf_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
+               }
+               const cdf_plot_data = await cdf_data_resp.json();
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/treeshrink/cdf.json`)
+               if (!point_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
+               }
+               const single_point = await point_data_resp.json();
+    
+               cdf_spec.data.values = cdf_plot_data;
+               cdf_spec.data.values.push(single_point.pop());
+               vegaEmbed('#cdf_plot_treeshrink', cdf_spec);
+            } catch (err) {
+               console.error("An error occurred while building CDF plot: ", err)
+            }
+    
+            // Build download plot for treeshrink
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/treeshrink/versions.json`)
+               if (!version_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
+               }
+               const plot_data = await version_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#download_plot_treeshrink', spec);
+            } catch (err) {
+               console.error("An error occurred while building downloads plot: ", err)
+            }
+   
+            // Build platform download plot for treeshrink
+            try {
+               const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
+               if (!spec_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
+               }
+               const spec = await spec_resp.json();
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/treeshrink/platforms.json`)
+               if (!platform_data_resp.ok) {
+                   throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
+               }
+               const plot_data = await platform_data_resp.json();
+               spec.data.values = plot_data;
+               vegaEmbed('#platform_plot_treeshrink', spec);
+            } catch (err) {
+               console.error("An error occurred while building platform downloads plot: ", err)
+            }
+         
+      }
+   </script>
+
+
 
 Link to this page
 -----------------
