@@ -32,14 +32,15 @@ orographer
       
       
 
-      ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
    :depends on bokeh: ``>=3.0``
    :depends on intervaltree: ``>=3.1``
-   :depends on pysam: ``>=0.23``
+   :depends on matplotlib-base: ``>=3.7.0``
+   :depends on pysam: ``>=0.24``
    :depends on python: ``>=3.10``
 
    :additional platforms:
@@ -115,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "orographer";
-      var versions = ["0.1.0"];
+      var versions = ["0.2.0","0.1.0"];
    </script>
 
 .. rubric:: Download stats

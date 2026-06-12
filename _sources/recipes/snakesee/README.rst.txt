@@ -29,7 +29,7 @@ snakesee
       
       
 
-      ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.4.1-0``,  ``0.2.1-0``,  ``0.1.0-0``
+      ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.4.1-0``,  ``0.2.1-0``,  ``0.1.0-0``
 
       
 
@@ -113,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "snakesee";
-      var versions = ["0.8.0","0.7.0","0.6.2","0.6.1","0.4.1"];
+      var versions = ["0.8.1","0.8.0","0.7.0","0.6.2","0.6.1"];
    </script>
 
 .. rubric:: Download stats

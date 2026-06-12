@@ -27,7 +27,7 @@ hmftools-wisp
       
       
 
-      ``1.2-0``
+      ``1.3-0``,  ``1.2-0``
 
       
 
@@ -108,7 +108,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "hmftools-wisp";
-      var versions = ["1.2"];
+      var versions = ["1.3","1.2"];
    </script>
 
 .. rubric:: Download stats

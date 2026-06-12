@@ -28,10 +28,10 @@ hmftools-pave
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.8.2-0</code>,  <code>1.8.1-0</code>,  <code>1.8-1</code>,  <code>1.8-0</code>,  <code>1.7.1-0</code>,  <code>1.7-0</code>,  <code>1.7_beta-2</code>,  <code>1.7_beta-1</code>,  <code>1.7_beta-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.9-0</code>,  <code>1.8.2-0</code>,  <code>1.8.1-0</code>,  <code>1.8-1</code>,  <code>1.8-0</code>,  <code>1.7.1-0</code>,  <code>1.7-0</code>,  <code>1.7_beta-2</code>,  <code>1.7_beta-1</code>,  </span></summary>
       
 
-      ``1.8.2-0``,  ``1.8.1-0``,  ``1.8-1``,  ``1.8-0``,  ``1.7.1-0``,  ``1.7-0``,  ``1.7_beta-2``,  ``1.7_beta-1``,  ``1.7_beta-0``,  ``1.6-0``,  ``1.4.1-0``
+      ``1.9-0``,  ``1.8.2-0``,  ``1.8.1-0``,  ``1.8-1``,  ``1.8-0``,  ``1.7.1-0``,  ``1.7-0``,  ``1.7_beta-2``,  ``1.7_beta-1``,  ``1.7_beta-0``,  ``1.6-0``,  ``1.4.1-0``
 
       
       .. raw:: html
@@ -116,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "hmftools-pave";
-      var versions = ["1.8.2","1.8.1","1.8","1.8","1.7.1"];
+      var versions = ["1.9","1.8.2","1.8.1","1.8","1.8"];
    </script>
 
 .. rubric:: Download stats

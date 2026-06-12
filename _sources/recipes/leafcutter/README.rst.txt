@@ -33,14 +33,14 @@ leafcutter
       
       
 
-      ``2.0.2-0``
+      ``2.0.3-0``,  ``2.0.2-0``
 
       
 
    
    :depends on pandas: 
    :depends on pyro-ppl: 
-   :depends on python: ``>=3.8``
+   :depends on python: ``>=3.8,<3.14``
    :depends on pytorch: 
    :depends on scikit-learn: 
    :depends on scipy: ``>=1.11``
@@ -118,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "leafcutter";
-      var versions = ["2.0.2"];
+      var versions = ["2.0.3","2.0.2"];
    </script>
 
 .. rubric:: Download stats

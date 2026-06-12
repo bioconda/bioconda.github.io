@@ -31,10 +31,10 @@ exomiser-rest-prioritiser
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>15.0.0-0</code>,  <code>14.1.0-0</code>,  <code>14.0.2-0</code>,  <code>14.0.0-0</code>,  <code>13.3.0-0</code>,  <code>13.2.1-0</code>,  <code>13.2.0-0</code>,  <code>12.1.0-2</code>,  <code>12.1.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>15.1.0-0</code>,  <code>15.0.0-0</code>,  <code>14.1.0-0</code>,  <code>14.0.2-0</code>,  <code>14.0.0-0</code>,  <code>13.3.0-0</code>,  <code>13.2.1-0</code>,  <code>13.2.0-0</code>,  <code>12.1.0-2</code>,  </span></summary>
       
 
-      ``15.0.0-0``,  ``14.1.0-0``,  ``14.0.2-0``,  ``14.0.0-0``,  ``13.3.0-0``,  ``13.2.1-0``,  ``13.2.0-0``,  ``12.1.0-2``,  ``12.1.0-1``,  ``12.1.0-0``
+      ``15.1.0-0``,  ``15.0.0-0``,  ``14.1.0-0``,  ``14.0.2-0``,  ``14.0.0-0``,  ``13.3.0-0``,  ``13.2.1-0``,  ``13.2.0-0``,  ``12.1.0-2``,  ``12.1.0-1``,  ``12.1.0-0``
 
       
       .. raw:: html
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "exomiser-rest-prioritiser";
-      var versions = ["15.0.0","14.1.0","14.0.2","14.0.0","13.3.0"];
+      var versions = ["15.1.0","15.0.0","14.1.0","14.0.2","14.0.0"];
    </script>
 
 .. rubric:: Download stats

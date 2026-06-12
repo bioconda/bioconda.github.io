@@ -28,10 +28,10 @@ r-restfulr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.0.16-1</code>,  <code>0.0.16-0</code>,  <code>0.0.15-6</code>,  <code>0.0.15-5</code>,  <code>0.0.15-4</code>,  <code>0.0.15-3</code>,  <code>0.0.15-2</code>,  <code>0.0.15-1</code>,  <code>0.0.15-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.0.17-0</code>,  <code>0.0.16-1</code>,  <code>0.0.16-0</code>,  <code>0.0.15-6</code>,  <code>0.0.15-5</code>,  <code>0.0.15-4</code>,  <code>0.0.15-3</code>,  <code>0.0.15-2</code>,  <code>0.0.15-1</code>,  </span></summary>
       
 
-      ``0.0.16-1``,  ``0.0.16-0``,  ``0.0.15-6``,  ``0.0.15-5``,  ``0.0.15-4``,  ``0.0.15-3``,  ``0.0.15-2``,  ``0.0.15-1``,  ``0.0.15-0``,  ``0.0.14-0``,  ``0.0.13-2``,  ``0.0.13-1``,  ``0.0.13-0``
+      ``0.0.17-0``,  ``0.0.16-1``,  ``0.0.16-0``,  ``0.0.15-6``,  ``0.0.15-5``,  ``0.0.15-4``,  ``0.0.15-3``,  ``0.0.15-2``,  ``0.0.15-1``,  ``0.0.15-0``,  ``0.0.14-0``,  ``0.0.13-2``,  ``0.0.13-1``,  ``0.0.13-0``
 
       
       .. raw:: html
@@ -40,6 +40,7 @@ r-restfulr
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-s4vectors: ``>=0.13.15``
    :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
    :depends on libgcc: ``>=14``
@@ -126,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-restfulr";
-      var versions = ["0.0.16","0.0.16","0.0.15","0.0.15","0.0.15"];
+      var versions = ["0.0.17","0.0.16","0.0.16","0.0.15","0.0.15"];
    </script>
 
 .. rubric:: Download stats

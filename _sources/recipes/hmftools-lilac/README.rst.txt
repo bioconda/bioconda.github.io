@@ -27,7 +27,7 @@ hmftools-lilac
       
       
 
-      ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.6-1``,  ``1.6-0``,  ``1.4.2-0``,  ``1.1-0``
+      ``2.0-0``,  ``1.7.3-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.6-1``,  ``1.6-0``,  ``1.4.2-0``,  ``1.1-0``
 
       
 
@@ -108,7 +108,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "hmftools-lilac";
-      var versions = ["1.7.3","1.7.2","1.7.1","1.6","1.6"];
+      var versions = ["2.0","1.7.3","1.7.2","1.7.1","1.6"];
    </script>
 
 .. rubric:: Download stats

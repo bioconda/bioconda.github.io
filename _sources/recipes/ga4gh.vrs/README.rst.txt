@@ -28,7 +28,7 @@ ga4gh.vrs
       
       
 
-      ``2.3.2-0``,  ``2.3.1-0``
+      ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.1-0``
 
       
 
@@ -118,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ga4gh.vrs";
-      var versions = ["2.3.2","2.3.1"];
+      var versions = ["2.3.3","2.3.2","2.3.1"];
    </script>
 
 .. rubric:: Download stats

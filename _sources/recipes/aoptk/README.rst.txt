@@ -27,7 +27,7 @@ aoptk
       
       
 
-      ``0.4.3-0``,  ``0.3.2-0``,  ``0.2.0-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``
+      ``0.5.0-0``,  ``0.4.3-0``,  ``0.3.2-0``,  ``0.2.0-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``
 
       
 
@@ -38,8 +38,9 @@ aoptk
    :depends on jinja2: 
    :depends on openai: 
    :depends on pandas: 
+   :depends on pillow: 
    :depends on pymupdf: 
-   :depends on python: ``>=3.8``
+   :depends on python: ``>=3.11``
    :depends on python-dotenv: 
    :depends on requests: 
    :depends on setuptools: ``>=64.0.0``
@@ -118,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "aoptk";
-      var versions = ["0.4.3","0.3.2","0.2.0","0.1.6","0.1.5"];
+      var versions = ["0.5.0","0.4.3","0.3.2","0.2.0","0.1.6"];
    </script>
 
 .. rubric:: Download stats

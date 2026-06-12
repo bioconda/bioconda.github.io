@@ -46,7 +46,7 @@ rnaframework
       
       
 
-      ``2.9.6-2``,  ``2.9.6-1``,  ``2.9.6-0``
+      ``2.9.7-0``,  ``2.9.6-2``,  ``2.9.6-1``,  ``2.9.6-0``
 
       
 
@@ -143,7 +143,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "rnaframework";
-      var versions = ["2.9.6","2.9.6","2.9.6"];
+      var versions = ["2.9.7","2.9.6","2.9.6","2.9.6"];
    </script>
 
 .. rubric:: Download stats
