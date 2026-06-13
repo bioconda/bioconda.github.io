@@ -56,10 +56,10 @@ snapatac2
    :depends on pooch: ``>=1.6.0``
    :depends on pyarrow: 
    :depends on pyfaidx: ``>=0.7.0,<0.9.0``
-   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on python: ``>=3.11,<3.12.0a0``
    :depends on python-igraph: ``>=0.10.3``
    :depends on python-kaleido: 
-   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on python_abi: ``3.11.* *_cp311``
    :depends on rustworkx: 
    :depends on scikit-learn: ``>=1.0``
    :depends on scipy: ``>=1.4``

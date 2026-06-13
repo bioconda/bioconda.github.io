@@ -45,7 +45,7 @@ perl-html-parser
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-html-tagset: 
    :depends on perl-http-message: 
-   :depends on perl-uri: ``5.17.*``
+   :depends on perl-uri: 
 
    :additional platforms:
       

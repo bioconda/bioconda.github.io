@@ -53,7 +53,7 @@ perl-datetime
    :depends on perl-test-fatal: ``0.016.*``
    :depends on perl-test-warnings: ``0.031.*``
    :depends on perl-test-without-module: 
-   :depends on perl-try-tiny: ``0.31.*``
+   :depends on perl-try-tiny: ``0.32.*``
    :depends on perl-variable-magic: ``0.64.*``
    :depends on perl-warnings-register: 
 

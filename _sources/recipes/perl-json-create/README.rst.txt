@@ -46,7 +46,7 @@ perl-json-create
    :depends on perl-json-parse: ``>=0.60``
    :depends on perl-json-parse: ``>=0.62,<0.63.0a0``
    :depends on perl-unicode-utf8: ``>=0.62``
-   :depends on perl-unicode-utf8: ``>=0.66,<0.67.0a0``
+   :depends on perl-unicode-utf8: ``>=0.70,<0.71.0a0``
 
    :additional platforms:
       

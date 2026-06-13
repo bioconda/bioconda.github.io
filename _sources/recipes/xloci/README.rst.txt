@@ -28,7 +28,7 @@ xloci
       
       
 
-      ``0.0.4-0``
+      ``0.0.5-0``,  ``0.0.4-0``
 
       
 
@@ -113,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "xloci";
-      var versions = ["0.0.4"];
+      var versions = ["0.0.5","0.0.4"];
    </script>
 
 .. rubric:: Download stats

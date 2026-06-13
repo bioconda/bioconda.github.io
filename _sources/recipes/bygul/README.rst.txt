@@ -26,9 +26,17 @@ bygul
    :versions:
       
       
+      .. raw:: html
 
-      ``3.1.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.0-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``
+         <details><summary><span class="truncated-version-list"><code>3.2.0-0</code>,  <code>3.1.0-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>2.0.0-0</code>,  <code>1.0.7-0</code>,  <code>1.0.6-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  </span></summary>
+      
 
+      ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.0-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -114,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bygul";
-      var versions = ["3.1.0","3.0.1","3.0.0","2.0.0","1.0.7"];
+      var versions = ["3.2.0","3.1.0","3.0.1","3.0.0","2.0.0"];
    </script>
 
 .. rubric:: Download stats

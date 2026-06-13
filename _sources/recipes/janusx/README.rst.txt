@@ -42,15 +42,12 @@ janusx
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on joblib: ``>=1.5``
    :depends on libgcc: ``>=14``
    :depends on matplotlib-base: 
-   :depends on mkl: 
    :depends on numpy: ``>=1.21,<3``
    :depends on pandas: ``<3.0``
    :depends on psutil: 
-   :depends on pypardiso: 
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on rich: 

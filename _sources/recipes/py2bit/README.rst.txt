@@ -42,7 +42,6 @@ py2bit
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libgcc: ``>=14``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``

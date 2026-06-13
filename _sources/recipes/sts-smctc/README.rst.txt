@@ -42,7 +42,6 @@ sts-smctc
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on _openmp_mutex: ``>=4.5``
    :depends on gsl: ``>=2.7,<2.8.0a0``
    :depends on libcblas: ``>=3.9.0,<4.0a0``

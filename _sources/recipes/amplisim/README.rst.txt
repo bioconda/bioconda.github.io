@@ -33,7 +33,7 @@ amplisim
 
    
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libcurl: ``>=8.10.1,<9.0a0``
+   :depends on libcurl: ``>=8.11.1,<9.0a0``
    :depends on libdeflate: ``>=1.22,<1.23.0a0``
    :depends on libgcc: ``>=13``
    :depends on liblzma: ``>=5.6.3,<6.0a0``

@@ -27,7 +27,7 @@ staphscope-sccmec-data
       
       
 
-      ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
@@ -106,7 +106,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "staphscope-sccmec-data";
-      var versions = ["1.2.2","1.2.1","1.2.1","1.2.0","1.2.0"];
+      var versions = ["1.2.3","1.2.2","1.2.1","1.2.1","1.2.0"];
    </script>
 
 .. rubric:: Download stats

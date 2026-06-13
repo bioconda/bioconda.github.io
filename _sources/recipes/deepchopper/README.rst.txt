@@ -34,7 +34,6 @@ deepchopper
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on datasets: ``>=3.0.0``
    :depends on deepchopper-cli: ``>=1.3.1``
    :depends on evaluate: ``>=0.4.3``

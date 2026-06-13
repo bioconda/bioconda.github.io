@@ -44,7 +44,7 @@ freebayes
 
    
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on htslib: ``>=1.21,<1.24.0a0``
+   :depends on htslib: ``>=1.21,<1.22.0a0``
    :depends on libgcc: ``>=13``
    :depends on liblzma: ``>=5.8.1,<6.0a0``
    :depends on libstdcxx: ``>=13``

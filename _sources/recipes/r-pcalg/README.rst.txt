@@ -34,8 +34,7 @@ r-pcalg
    
    :depends on bioconductor-graph: ``>=1.88.1,<1.89.0a0``
    :depends on bioconductor-rbgl: ``>=1.86.0,<1.87.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on r-abind: 
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-bdsmatrix: 

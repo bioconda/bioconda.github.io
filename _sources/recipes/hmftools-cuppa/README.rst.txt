@@ -26,9 +26,17 @@ hmftools-cuppa
    :versions:
       
       
+      .. raw:: html
 
-      ``2.4-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0_beta-2``,  ``2.3.0_beta-1``,  ``2.3.0_beta-0``,  ``2.2.1-0``,  ``2.1.1-0``,  ``1.8.1-0``
+         <details><summary><span class="truncated-version-list"><code>2.5-0</code>,  <code>2.4-0</code>,  <code>2.3.2-0</code>,  <code>2.3.1-0</code>,  <code>2.3.0_beta-2</code>,  <code>2.3.0_beta-1</code>,  <code>2.3.0_beta-0</code>,  <code>2.2.1-0</code>,  <code>2.1.1-0</code>,  </span></summary>
+      
 
+      ``2.5-0``,  ``2.4-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.3.0_beta-2``,  ``2.3.0_beta-1``,  ``2.3.0_beta-0``,  ``2.2.1-0``,  ``2.1.1-0``,  ``1.8.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -116,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "hmftools-cuppa";
-      var versions = ["2.4","2.3.2","2.3.1","2.3.0_beta","2.3.0_beta"];
+      var versions = ["2.5","2.4","2.3.2","2.3.1","2.3.0_beta"];
    </script>
 
 .. rubric:: Download stats

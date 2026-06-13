@@ -42,7 +42,6 @@ enhjoerning
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on genesis: ``>=0.34.0,<0.35.0a0``
    :depends on htslib: ``>=1.10``
    :depends on htslib: ``>=1.23.1,<1.24.0a0``
