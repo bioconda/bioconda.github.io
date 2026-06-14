@@ -32,7 +32,8 @@ phylobayes-mpi
       
 
    
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on openmpi: ``>=4.1.6,<5.0a0``
 
    :additional platforms:

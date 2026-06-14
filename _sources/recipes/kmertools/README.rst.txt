@@ -29,11 +29,13 @@ kmertools
       
       
 
-      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.0-0``
+      ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.0-0``
 
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
 
    :additional platforms:
@@ -113,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "kmertools";
-      var versions = ["0.2.1","0.2.0","0.1.5","0.1.4","0.1.3"];
+      var versions = ["0.2.2","0.2.1","0.2.0","0.1.5","0.1.4"];
    </script>
 
 .. rubric:: Download stats

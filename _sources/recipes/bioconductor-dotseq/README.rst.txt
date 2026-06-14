@@ -32,7 +32,7 @@ bioconductor-dotseq
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
    :depends on bioconductor-annotationdbi: ``>=1.72.0,<1.73.0a0``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
@@ -67,7 +67,8 @@ bioconductor-dotseq
    :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0a0``
    :depends on bioconductor-txdbmaker: ``>=1.6.0,<1.7.0``
    :depends on bioconductor-txdbmaker: ``>=1.6.2,<1.7.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on r-ashr: 
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-boot: 

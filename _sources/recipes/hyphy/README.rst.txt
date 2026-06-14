@@ -44,6 +44,7 @@ hyphy
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on _openmp_mutex: ``>=4.5``
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on libcurl: ``>=8.20.0,<9.0a0``

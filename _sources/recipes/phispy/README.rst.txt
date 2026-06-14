@@ -43,6 +43,7 @@ phispy
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bcbio-gff: 
    :depends on biopython: 
    :depends on hmmer: 

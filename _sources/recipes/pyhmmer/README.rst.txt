@@ -43,6 +43,7 @@ pyhmmer
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libgcc: ``>=14``
    :depends on psutil: ``>=6.0,<8.0``
    :depends on python: ``>=3.10,<3.11.0a0``

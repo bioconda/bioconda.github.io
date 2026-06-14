@@ -33,7 +33,8 @@ tiny-count
 
    
    :depends on htseq: ``2.0.2.*``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on numpy: ``1.23.1.*``
    :depends on pandas: ``1.4.3.*``
    :depends on python: ``>=3.9,<3.10.0a0``

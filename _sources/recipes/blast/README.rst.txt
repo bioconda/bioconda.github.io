@@ -54,8 +54,9 @@ blast
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on curl: 
    :depends on entrez-direct: ``>=24.0,<25.0a0``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
    :depends on libsqlite: ``>=3.50.4,<4.0a0``
+   :depends on libstdcxx: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on ncbi-vdb: ``>=3.2.1,<4.0a0``
    :depends on perl: 
