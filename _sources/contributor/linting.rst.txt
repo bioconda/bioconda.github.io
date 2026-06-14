@@ -7,7 +7,7 @@ checks on each recipe (called `linting
 
 Linting is executed as a GitHub Check on all PRs and as a guarding
 stage on all builds. It can also be executed locally using the
-``bioconda-utils lint`` commeand.
+``bioconda-utils lint`` command.
 
 
 Skipping a lint check
@@ -296,6 +296,13 @@ Bioconda and it's recipe repository consistent and clean.
    not start with a "v". With a "v", the uploaded package displays
    incorrectly on the Anaconda website.
 
+.. lint-check:: outputs_name_same_as_package_name
+
+   If multiple outputs are specified, their names must differ from the
+   main package name. This enforces `CEP 0014
+   <https://conda.org/learn/ceps/cep-0014/#outputs-section>`_ and
+   prevents hard-to-debug issues from conda-build.
+
 
 Syntax
 ~~~~~~
@@ -529,6 +536,12 @@ Build helpers
    A ``{{ compiler('xyz') }}`` variable was found, but not in the
    ``build:`` section. Move ``{{ compiler() }}`` variables to the
    ``build:`` section.
+
+.. lint-check:: compiler_needs_stdlib_c
+
+   The recipe uses ``{{ compiler() }}`` in the build section but does
+   not include ``{{ stdlib('c') }}``. Please add it to the
+   ``requirements: build:`` section alongside the compiler entries.
 
 .. lint-check:: cython_must_be_in_host
 

@@ -85,9 +85,9 @@ Bioconda supports Linux (x86_64 and aarch64/arm64) and
 macOS (x86_64 and arm64). Windows is not supported.
 
 **Python:**
-Bioconda currently supports Python 3.8, 3.9, 3.10, 3.11, and 3.12 (see "pinned packages"
+Bioconda currently supports Python 3.10, 3.11, 3.12, and 3.13 (see "pinned packages"
 below for where this is configured). There are still packages in the Bioconda
-channel for earlier versions of Python (2.7, 3.6, and 3.7), but new packages
+channel for earlier versions of Python, but new packages
 are not built for these versions.
 
 Packages which declare `noarch: python` and only depend on packages that also
@@ -104,6 +104,12 @@ depend on other Bioconda packages with architecture specific builds, such as
 
 .. datechanged:: 2024-06-15
    Python 3.11, 3.12 support started in June 2024
+
+.. datechanged:: 2025-10-01
+   Python 3.13 support started, Python 3.8 dropped
+
+.. datechanged:: 2026-01-01
+   Python 3.9 dropped
 
 **Globally-pinned versions:** See :ref:`global-pinning` for details.
 

@@ -109,11 +109,11 @@ complex.</p>
 <li><p><a class="reference internal" href="../tutorials/2024-adding-bioinformatic-software-to-bioconda.html"><span class="doc">Adding bioinformatic software to Bioconda - a reference guide</span></a></p></li>
 <li><p><a class="reference internal" href="../tutorials/2024-updating-bioinformatic-software-to-bioconda.html"><span class="doc">Updating bioinformatic software to Bioconda - a reference guide</span></a></p></li>
 </ul>
-<p>However for some fast tips: if you have a PyPi recipe you want to package for Bioconda, you could
-start with the <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span></code> command creating a template
-automatically:</p>
+<p>However for some fast tips: if you have a PyPI package you want to package for Bioconda, you could
+start with <a class="reference external" href="https://github.com/conda-incubator/grayskull">grayskull</a> to
+create a template automatically:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="n">recipes</span>
-<span class="n">conda</span> <span class="n">skeleton</span> <span class="n">pypi</span> <span class="n">pyaml</span>
+<span class="n">grayskull</span> <span class="n">pypi</span> <span class="n">pyaml</span>
 </pre></div>
 </div>
 <p>(<code class="docutils literal notranslate"><span class="pre">pyaml</span></code> is just an example. It would not be included in Bioconda as

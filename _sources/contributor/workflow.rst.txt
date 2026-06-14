@@ -48,12 +48,12 @@ For more detailed guides, see the the following tutorials
 * :doc:`/tutorials/2024-adding-bioinformatic-software-to-bioconda` 
 * :doc:`/tutorials/2024-updating-bioinformatic-software-to-bioconda`
 
-However for some fast tips: if you have a PyPi recipe you want to package for Bioconda, you could
-start with the ``conda skeleton`` command creating a template
-automatically::
+However for some fast tips: if you have a PyPI package you want to package for Bioconda, you could
+start with `grayskull <https://github.com/conda-incubator/grayskull>`_ to
+create a template automatically::
 
   cd recipes
-  conda skeleton pypi pyaml
+  grayskull pypi pyaml
 
 (``pyaml`` is just an example. It would not be included in Bioconda as
 it is a general purpose package. Those need to be added to

@@ -151,9 +151,9 @@ instructions. This can also speed up the solving.</p>
 Bioconda supports Linux (x86_64 and aarch64/arm64) and
 macOS (x86_64 and arm64). Windows is not supported.</p>
 <p><strong>Python:</strong>
-Bioconda currently supports Python 3.8, 3.9, 3.10, 3.11, and 3.12 (see “pinned packages”
+Bioconda currently supports Python 3.10, 3.11, 3.12, and 3.13 (see “pinned packages”
 below for where this is configured). There are still packages in the Bioconda
-channel for earlier versions of Python (2.7, 3.6, and 3.7), but new packages
+channel for earlier versions of Python, but new packages
 are not built for these versions.</p>
 <p>Packages which declare <code class="xref any docutils literal notranslate"><span class="pre">noarch:</span> <span class="pre">python</span></code> and only depend on packages that also
 declare <code class="xref any docutils literal notranslate"><span class="pre">noarch:</span> <span class="pre">python</span></code> can be installed in an environment with any version of
@@ -168,6 +168,12 @@ depend on other Bioconda packages with architecture specific builds, such as
 </div>
 <div class="datechanged">
 <p><span class="versionmodified changed">Changed on 2024-06-15: </span>Python 3.11, 3.12 support started in June 2024</p>
+</div>
+<div class="datechanged">
+<p><span class="versionmodified changed">Changed on 2025-10-01: </span>Python 3.13 support started, Python 3.8 dropped</p>
+</div>
+<div class="datechanged">
+<p><span class="versionmodified changed">Changed on 2026-01-01: </span>Python 3.9 dropped</p>
 </div>
 <p><strong>Globally-pinned versions:</strong> See <a class="reference internal" href="#global-pinning"><span class="std std-ref">How does global pinning work?</span></a> for details.</p>
 <p><strong>Unsupported versions:</strong>

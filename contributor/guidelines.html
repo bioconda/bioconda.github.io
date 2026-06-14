@@ -225,12 +225,15 @@ the functionality of the software.</p>
 </section>
 <section id="python">
 <h2>Python<a class="headerlink" href="#python" title="Link to this heading">¶</a></h2>
-<p>If a Python package is available on PyPI, use <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">pypi</span>
-<span class="pre">&lt;packagename&gt;</span></code> , or the <a class="reference external" href="https://github.com/conda-incubator/grayskull">more recent alternative</a> <code class="docutils literal notranslate"><span class="pre">grayskull</span> <span class="pre">pypi</span> <span class="pre">&lt;packagename&gt;</span></code>
-to create a recipe, then remove the <code class="docutils literal notranslate"><span class="pre">bld.bat</span></code> and any extra comments
-in <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> and <code class="docutils literal notranslate"><span class="pre">build.sh</span></code>. The test that is automatically
-added is probably sufficient. The exception is when the package also installs
-a command-line tool, in which case that should be tested as well.</p>
+<p>If a Python package is available on PyPI, use <a class="reference external" href="https://github.com/conda-incubator/grayskull">grayskull</a> to create a recipe:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">grayskull</span> <span class="n">pypi</span> <span class="o">&lt;</span><span class="n">packagename</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>Alternatively, <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">pypi</span> <span class="pre">&lt;packagename&gt;</span></code> can be used instead.
+Remove the <code class="docutils literal notranslate"><span class="pre">bld.bat</span></code> and any extra comments in <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> and
+<code class="docutils literal notranslate"><span class="pre">build.sh</span></code>. The test that is automatically added is probably sufficient.
+The exception is when the package also installs a command-line tool,
+in which case that should be tested as well.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">pypi</span></code> and <code class="docutils literal notranslate"><span class="pre">grayskull</span> <span class="pre">pypi</span></code> only work with packages that have a source

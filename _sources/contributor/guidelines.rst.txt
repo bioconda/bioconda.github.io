@@ -200,13 +200,16 @@ the functionality of the software.
 
 Python
 ------
-If a Python package is available on PyPI, use ``conda skeleton pypi
-<packagename>`` , or the `more recent alternative 
-<https://github.com/conda-incubator/grayskull>`_ ``grayskull pypi <packagename>`` 
-to create a recipe, then remove the ``bld.bat`` and any extra comments 
-in ``meta.yaml`` and ``build.sh``. The test that is automatically
-added is probably sufficient. The exception is when the package also installs
-a command-line tool, in which case that should be tested as well.
+If a Python package is available on PyPI, use `grayskull
+<https://github.com/conda-incubator/grayskull>`_ to create a recipe::
+
+  grayskull pypi <packagename>
+
+Alternatively, ``conda skeleton pypi <packagename>`` can be used instead.
+Remove the ``bld.bat`` and any extra comments in ``meta.yaml`` and
+``build.sh``. The test that is automatically added is probably sufficient.
+The exception is when the package also installs a command-line tool,
+in which case that should be tested as well.
 
 .. note::
    
