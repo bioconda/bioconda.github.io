@@ -12,10 +12,10 @@ gottcha2
 
    Genomic Origin Through Taxonomic CHAllenge \(GOTTCHA\) v2.
 
-   :homepage: https://github.com/poeli/GOTTCHA2
-   :documentation: https://github.com/poeli/GOTTCHA2/wiki
+   :homepage: https://github.com/poeli-lanl/GOTTCHA2
+   :documentation: https://github.com/poeli-lanl/GOTTCHA2/wiki
    
-   :license: BSD / BSD-3-Clause
+   :license: BSD / BSD-3
    :recipe: /`gottcha2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gottcha2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gottcha2/meta.yaml>`_
    :links: biotools: :biotools:`gottcha2`
 
@@ -31,10 +31,10 @@ gottcha2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.10-0</code>,  <code>2.1.9-0</code>,  <code>2.1.8.11-0</code>,  <code>2.1.8.10-0</code>,  <code>2.1.8.8-0</code>,  <code>2.1.8.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4.0-1</code>,  <code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.10-0</code>,  <code>2.1.9-0</code>,  <code>2.1.8.11-0</code>,  <code>2.1.8.10-0</code>,  <code>2.1.8.8-0</code>,  </span></summary>
       
 
-      ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.10-0``,  ``2.1.9-0``,  ``2.1.8.11-0``,  ``2.1.8.10-0``,  ``2.1.8.8-0``,  ``2.1.8.7-0``,  ``2.1.8.6-0``,  ``2.1.8.5p1-0``
+      ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.10-0``,  ``2.1.9-0``,  ``2.1.8.11-0``,  ``2.1.8.10-0``,  ``2.1.8.8-0``,  ``2.1.8.7-0``,  ``2.1.8.6-0``,  ``2.1.8.5p1-0``
 
       
       .. raw:: html
@@ -48,7 +48,8 @@ gottcha2
    :depends on minimap2: ``>=2.17``
    :depends on numpy: 
    :depends on pandas: 
-   :depends on python: ``>=3.6``
+   :depends on pysam: ``>=0.22.0``
+   :depends on python: ``>=3.9``
    :depends on requests: 
    :depends on tqdm: 
 
@@ -125,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "gottcha2";
-      var versions = ["2.4.0","2.3.0","2.2.0","2.1.10","2.1.9"];
+      var versions = ["2.4.0","2.4.0","2.3.0","2.2.0","2.1.10"];
    </script>
 
 .. rubric:: Download stats

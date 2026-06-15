@@ -94,22 +94,26 @@
 <dt class="sig sig-object conda" id="package-galaxy-files-full">
 <span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">galaxy-files-full</span></span><a class="headerlink" href="#package-galaxy-files-full" title="Link to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/galaxy-files-full"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/galaxy-files-full.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/galaxy-files-full"><img alt="docker_galaxy-files-full" src="https://quay.io/repository/biocontainers/galaxy-files-full/status" /></a></p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">26.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">25.1.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">25.1.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">25.0.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">25.0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">25.0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">25.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">24.2.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">24.2.3-0</span></code></p>
-</dd>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>26.0.1-1</code>,  <code>26.0.1-0</code>,  <code>25.1.2-0</code>,  <code>25.1.1-0</code>,  <code>25.0.4-0</code>,  <code>25.0.3-0</code>,  <code>25.0.2-0</code>,  <code>25.0.1-0</code>,  <code>24.2.4-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">26.0.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">26.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">25.1.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">25.1.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">25.0.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">25.0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">25.0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">25.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">24.2.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">24.2.3-0</span></code></p>
+</details></dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
 <li><p><strong>on fs</strong></p></li>
-<li><p><strong>on fs-gcsfs</strong></p></li>
+<li><p><strong>on fs-azureblob</strong></p></li>
+<li><p><strong>on fs.dropboxfs</strong></p></li>
 <li><p><strong>on fs.googledrivefs</strong></p></li>
+<li><p><strong>on fs.onedatarestfs</strong></p></li>
 <li><p><strong>on fs.sshfs</strong></p></li>
 <li><p><strong>on fs.webdavfs</strong></p></li>
+<li><p><strong>on fsspec</strong></p></li>
 <li><p><strong>on galaxy-tool-util-models</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=26.0</span></code></p></li>
 <li><p><strong>on galaxy-util</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=26.0</span></code></p></li>
-<li><p><strong>on google-cloud-storage</strong></p></li>
+<li><p><strong>on gcsfs</strong></p></li>
 <li><p><strong>on pydantic</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=2.7.4</span></code></p></li>
 <li><p><strong>on python</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.10</span></code></p></li>
+<li><p><strong>on rspace-client</strong></p></li>
 <li><p><strong>on typing-extensions</strong></p></li>
 <li><p><strong>on webdavclient3</strong></p></li>
 </ul>
@@ -170,7 +174,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "galaxy-files-full";
-   var versions = ["26.0.1","25.1.2","25.1.1","25.0.4","25.0.3"];
+   var versions = ["26.0.1","26.0.1","25.1.2","25.1.1","25.0.4"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_galaxy-files-full"></div>
 <div style="width: 100%" id="platform_plot_galaxy-files-full"></div>

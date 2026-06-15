@@ -19,6 +19,7 @@ ale-core
    This package is designed to hold the core scoring functionality of ALE without the 10\+ year old supplementary python plotting scripts 
 
 
+
 .. conda:package:: ale-core
 
    |downloads_ale-core| |docker_ale-core|
@@ -27,17 +28,22 @@ ale-core
       
       
 
-      ``20220503-1``,  ``20220503-0``
+      ``20220503-2``,  ``20220503-1``,  ``20220503-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on samtools: ``>=1.21,<2.0a0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on libgcc: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on samtools: ``>=1.23.1,<2.0a0``
    :depends on zlib: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>osx-arm64</code>,  <code>linux-aarch64</code></span>
       
 
 
@@ -110,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ale-core";
-      var versions = ["20220503","20220503"];
+      var versions = ["20220503","20220503","20220503"];
    </script>
 
 .. rubric:: Download stats

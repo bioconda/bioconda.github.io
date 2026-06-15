@@ -13,7 +13,7 @@ dfast
    DDBJ Fast Annotation and Submission Tool \- Prokaryotic genome annotation pipeline
 
    :homepage: https://dfast.nig.ac.jp
-   :documentation: https://github.com/nigyta/dfast_core/blob/1.3.9/README.md
+   :documentation: https://github.com/nigyta/dfast_core/blob/1.4.0/README.md
    
    :developer docs: https://github.com/nigyta/dfast_core
    :license: GPL3 / GPL-3.0-only
@@ -32,10 +32,10 @@ dfast
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.9-0</code>,  <code>1.3.8-0</code>,  <code>1.3.7-0</code>,  <code>1.3.6-0</code>,  <code>1.3.5-0</code>,  <code>1.3.4-1</code>,  <code>1.3.4-0</code>,  <code>1.3.2-1</code>,  <code>1.3.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.0-0</code>,  <code>1.3.9-0</code>,  <code>1.3.8-0</code>,  <code>1.3.7-0</code>,  <code>1.3.6-0</code>,  <code>1.3.5-0</code>,  <code>1.3.4-1</code>,  <code>1.3.4-0</code>,  <code>1.3.2-1</code>,  </span></summary>
       
 
-      ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.21-0``,  ``1.2.20-0``,  ``1.2.19-1``,  ``1.2.19-0``,  ``1.2.18-2``,  ``1.2.18-1``,  ``1.2.18-0``,  ``1.2.17-0``,  ``1.2.16-0``,  ``1.2.15-1``,  ``1.2.15-0``,  ``1.2.14-0``,  ``1.2.13-1``,  ``1.2.13-0``,  ``1.2.12-0``,  ``1.2.11-0``,  ``1.2.10-0``,  ``1.2.7-0``,  ``1.2.6-1``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-2``,  ``1.2.3-1``,  ``1.2.3-0``
+      ``1.4.0-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.2-1``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.21-0``,  ``1.2.20-0``,  ``1.2.19-1``,  ``1.2.19-0``,  ``1.2.18-2``,  ``1.2.18-1``,  ``1.2.18-0``,  ``1.2.17-0``,  ``1.2.16-0``,  ``1.2.15-1``,  ``1.2.15-0``,  ``1.2.14-0``,  ``1.2.13-1``,  ``1.2.13-0``,  ``1.2.12-0``,  ``1.2.11-0``,  ``1.2.10-0``,  ``1.2.7-0``,  ``1.2.6-1``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-2``,  ``1.2.3-1``,  ``1.2.3-0``
 
       
       .. raw:: html
@@ -135,7 +135,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "dfast";
-      var versions = ["1.3.9","1.3.8","1.3.7","1.3.6","1.3.5"];
+      var versions = ["1.4.0","1.3.9","1.3.8","1.3.7","1.3.6"];
    </script>
 
 .. rubric:: Download stats

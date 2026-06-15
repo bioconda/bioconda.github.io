@@ -30,7 +30,7 @@ drevalpy
       
       
 
-      ``1.5.0-0``,  ``1.4.1-0``,  ``1.4.0-0``
+      ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.1-0``,  ``1.4.0-0``
 
       
 
@@ -132,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "drevalpy";
-      var versions = ["1.5.0","1.4.1","1.4.0"];
+      var versions = ["1.5.1","1.5.0","1.4.1","1.4.0"];
    </script>
 
 .. rubric:: Download stats

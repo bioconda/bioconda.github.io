@@ -27,25 +27,24 @@ amalgkit
       
       
 
-      ``0.14.0-0``,  ``0.12.20-0``,  ``0.12.19-0``,  ``0.12.18-0``,  ``0.12.17-0``,  ``0.12.16-0``,  ``0.12.15-0``
+      ``0.16.25-0``,  ``0.14.0-0``,  ``0.12.20-0``,  ``0.12.19-0``,  ``0.12.18-0``,  ``0.12.17-0``,  ``0.12.16-0``,  ``0.12.15-0``
 
       
 
    
-   :depends on bioconductor-edger: 
-   :depends on bioconductor-sva: 
    :depends on biopython: 
    :depends on ete4: 
    :depends on fastp: 
    :depends on kallisto: 
+   :depends on matplotlib-base: 
    :depends on numpy: 
    :depends on pandas: 
-   :depends on python: ``>=3.10``
-   :depends on r-base: 
-   :depends on r-ggplot2: 
-   :depends on r-rtsne: 
+   :depends on python: ``>=3.9``
+   :depends on scikit-learn: 
+   :depends on scipy: 
    :depends on seqkit: 
-   :depends on sra-tools: 
+   :depends on sra-tools: ``>=3``
+   :depends on statsmodels: 
 
    :additional platforms:
       
@@ -120,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "amalgkit";
-      var versions = ["0.14.0","0.12.20","0.12.19","0.12.18","0.12.17"];
+      var versions = ["0.16.25","0.14.0","0.12.20","0.12.19","0.12.18"];
    </script>
 
 .. rubric:: Download stats
@@ -209,6 +208,16 @@ Check the documentation of your workflow management system to find out about the
          
       }
    </script>
+
+
+Notes
+-----
+Optional runtime dependencies\:
+  \- inmoose\: required for \`amalgkit finalize \-\-batch\_effect\_alg combatseq\`
+  \- oarfish\: required for \`amalgkit quant \-\-quant\_backend oarfish\`
+  \- mmseqs2\: required for \`amalgkit getfastq \-\-rrna\_filter yes\` or \`\-\-contam\_filter yes\`
+  \- busco\: required for \`amalgkit busco \-\-tool busco\`
+  \- compleasm\: required for \`amalgkit busco \-\-tool compleasm\`\, or selected \`\-\-tool auto\`
 
 
 

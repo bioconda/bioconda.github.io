@@ -1,50 +1,43 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'squigualiser'
+.. title:: Package Recipe 'methylsieve'
 .. highlight: bash
 
-squigualiser
-============
+methylsieve
+===========
 
-.. conda:recipe:: squigualiser
+.. conda:recipe:: methylsieve
    :replaces_section_title:
    :noindex:
 
-   Visualise ONT raw signals
+   Fast per\-template tagging and filtering of unconverted reads in bisulfite \/ EM\-seq SAM\/BAM files
 
-   :homepage: https://github.com/hiruna72/squigualiser
+   :homepage: https://github.com/fulcrumgenomics/methylsieve
    :license: MIT
-   :recipe: /`squigualiser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/squigualiser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/squigualiser/meta.yaml>`_
+   :recipe: /`methylsieve <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/methylsieve>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/methylsieve/meta.yaml>`_
 
    
 
 
-.. conda:package:: squigualiser
+.. conda:package:: methylsieve
 
-   |downloads_squigualiser| |docker_squigualiser|
+   |downloads_methylsieve| |docker_methylsieve|
 
    :versions:
       
       
 
-      ``0.7.0-0``,  ``0.6.4-0``,  ``0.6.3-0``
+      ``0.1.0-0``
 
       
 
    
-   :depends on bokeh: ``3.1.1``
-   :depends on matplotlib-base: ``3.7``
-   :depends on numpy: 
-   :depends on pandas: ``<2.3``
-   :depends on pyfaidx: 
-   :depends on pyfastx: 
-   :depends on pysam: 
-   :depends on pyslow5: 
-   :depends on python: ``>=3.8``
-   :depends on seaborn: 
-   :depends on selenium: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -62,11 +55,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install squigualiser
+    pixi global install methylsieve
 
 to add into an existing workspace instead, run::
 
-    pixi add squigualiser
+    pixi add methylsieve
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -78,11 +71,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install squigualiser
+    conda install methylsieve
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname squigualiser
+    conda create -n envname methylsieve
 
 with ``envname`` being the name of the desired environment.
 
@@ -92,9 +85,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/squigualiser:<tag>
+    docker pull quay.io/biocontainers/methylsieve:<tag>
 
-(see `squigualiser/tags`_ for valid values for ``<tag>``).
+(see `methylsieve/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -105,28 +98,28 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_squigualiser| image:: https://img.shields.io/conda/dn/bioconda/squigualiser.svg?style=flat
-   :target: https://anaconda.org/bioconda/squigualiser
+.. |downloads_methylsieve| image:: https://img.shields.io/conda/dn/bioconda/methylsieve.svg?style=flat
+   :target: https://anaconda.org/bioconda/methylsieve
    :alt:   (downloads)
-.. |docker_squigualiser| image:: https://quay.io/repository/biocontainers/squigualiser/status
-   :target: https://quay.io/repository/biocontainers/squigualiser
-.. _`squigualiser/tags`: https://quay.io/repository/biocontainers/squigualiser?tab=tags
+.. |docker_methylsieve| image:: https://quay.io/repository/biocontainers/methylsieve/status
+   :target: https://quay.io/repository/biocontainers/methylsieve
+.. _`methylsieve/tags`: https://quay.io/repository/biocontainers/methylsieve?tab=tags
 
 
 .. raw:: html
 
    <script>
-      var package = "squigualiser";
-      var versions = ["0.7.0","0.6.4","0.6.3"];
+      var package = "methylsieve";
+      var versions = ["0.1.0"];
    </script>
 
 .. rubric:: Download stats
 
 .. raw:: html
     
-   <div style="width: 100%" id="download_plot_squigualiser"></div>
-   <div style="width: 100%" id="platform_plot_squigualiser"></div>
-   <div style="width: 100%" id="cdf_plot_squigualiser"></div>
+   <div style="width: 100%" id="download_plot_methylsieve"></div>
+   <div style="width: 100%" id="platform_plot_methylsieve"></div>
+   <div style="width: 100%" id="cdf_plot_methylsieve"></div>
 
 
 
@@ -143,7 +136,7 @@ Check the documentation of your workflow management system to find out about the
    <script>
       window.onload = async function() {
          
-            // Build cdf plot for squigualiser
+            // Build cdf plot for methylsieve
             try {
                const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
                if (!cdf_spec_resp.ok) {
@@ -155,7 +148,7 @@ Check the documentation of your workflow management system to find out about the
                    throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
                }
                const cdf_plot_data = await cdf_data_resp.json();
-               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/squigualiser/cdf.json`)
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/methylsieve/cdf.json`)
                if (!point_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
                }
@@ -163,43 +156,43 @@ Check the documentation of your workflow management system to find out about the
     
                cdf_spec.data.values = cdf_plot_data;
                cdf_spec.data.values.push(single_point.pop());
-               vegaEmbed('#cdf_plot_squigualiser', cdf_spec);
+               vegaEmbed('#cdf_plot_methylsieve', cdf_spec);
             } catch (err) {
                console.error("An error occurred while building CDF plot: ", err)
             }
     
-            // Build download plot for squigualiser
+            // Build download plot for methylsieve
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/squigualiser/versions.json`)
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/methylsieve/versions.json`)
                if (!version_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
                }
                const plot_data = await version_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#download_plot_squigualiser', spec);
+               vegaEmbed('#download_plot_methylsieve', spec);
             } catch (err) {
                console.error("An error occurred while building downloads plot: ", err)
             }
    
-            // Build platform download plot for squigualiser
+            // Build platform download plot for methylsieve
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/squigualiser/platforms.json`)
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/methylsieve/platforms.json`)
                if (!platform_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
                }
                const plot_data = await platform_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#platform_plot_squigualiser', spec);
+               vegaEmbed('#platform_plot_methylsieve', spec);
             } catch (err) {
                console.error("An error occurred while building platform downloads plot: ", err)
             }
@@ -214,7 +207,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/squigualiser/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/methylsieve/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/squigualiser/README.html
+   :target: http://bioconda.github.io/recipes/methylsieve/README.html
