@@ -13,7 +13,7 @@ krak
    An addicting set of Kraken\-enhancing tools.
 
    :homepage: https://github.com/clintval/krak
-   :documentation: https://github.com/clintval/krak/blob/0.3.0/README.md
+   :documentation: https://github.com/clintval/krak/blob/0.4.0/README.md
    
    :license: MIT / MIT
    :recipe: /`krak <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/krak>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/krak/meta.yaml>`_
@@ -29,7 +29,7 @@ krak
       
       
 
-      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "krak";
-      var versions = ["0.3.0","0.2.0","0.1.0"];
+      var versions = ["0.4.0","0.3.0","0.2.0","0.1.0"];
    </script>
 
 .. rubric:: Download stats

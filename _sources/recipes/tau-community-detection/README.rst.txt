@@ -27,7 +27,7 @@ tau-community-detection
       
       
 
-      ``1.4.0-0``,  ``1.3.2-0``,  ``1.2.11-0``
+      ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.2.11-0``
 
       
 
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "tau-community-detection";
-      var versions = ["1.4.0","1.3.2","1.2.11"];
+      var versions = ["1.4.2","1.4.0","1.3.2","1.2.11"];
    </script>
 
 .. rubric:: Download stats

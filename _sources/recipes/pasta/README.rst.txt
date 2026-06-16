@@ -31,10 +31,10 @@ pasta
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.9.3-0</code>,  <code>1.9.2-5</code>,  <code>1.9.2-4</code>,  <code>1.9.2-3</code>,  <code>1.9.2-2</code>,  <code>1.9.2-1</code>,  <code>1.9.2-0</code>,  <code>1.9.0-0</code>,  <code>1.7.8-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.9.3-1</code>,  <code>1.9.3-0</code>,  <code>1.9.2-5</code>,  <code>1.9.2-4</code>,  <code>1.9.2-3</code>,  <code>1.9.2-2</code>,  <code>1.9.2-1</code>,  <code>1.9.2-0</code>,  <code>1.9.0-0</code>,  </span></summary>
       
 
-      ``1.9.3-0``,  ``1.9.2-5``,  ``1.9.2-4``,  ``1.9.2-3``,  ``1.9.2-2``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.9.0-0``,  ``1.7.8-4``,  ``1.7.8-3``,  ``1.7.8-2``,  ``1.7.8-0``,  ``0.2-0``
+      ``1.9.3-1``,  ``1.9.3-0``,  ``1.9.2-5``,  ``1.9.2-4``,  ``1.9.2-3``,  ``1.9.2-2``,  ``1.9.2-1``,  ``1.9.2-0``,  ``1.9.0-0``,  ``1.7.8-4``,  ``1.7.8-3``,  ``1.7.8-2``,  ``1.7.8-0``,  ``0.2-0``
 
       
       .. raw:: html
@@ -43,12 +43,13 @@ pasta
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on _openmp_mutex: ``>=4.5``
    :depends on clustalw: ``>=2.1,<3.0a0``
    :depends on dendropy: ``>=5.0.8,<6.0a0``
-   :depends on fasttree: ``>=2.1.11,<3.0a0``
+   :depends on fasttree: ``>=2.2.0,<3.0a0``
    :depends on hmmer: ``>=3.4,<3.5.0a0``
-   :depends on libgcc: ``>=13``
+   :depends on libgcc: ``>=14``
    :depends on libgomp: 
    :depends on mafft: ``>=7.526,<8.0a0``
    :depends on muscle: ``<4``
@@ -56,7 +57,7 @@ pasta
    :depends on openjdk: 
    :depends on openmpi: ``>=4.1.6,<5.0a0``
    :depends on pcre: ``>=8.45,<9.0a0``
-   :depends on prank: ``>=170427,<170428.0a0``
+   :depends on prank: ``>=251117``
    :depends on pymongo: 
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
@@ -139,7 +140,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pasta";
-      var versions = ["1.9.3","1.9.2","1.9.2","1.9.2","1.9.2"];
+      var versions = ["1.9.3","1.9.3","1.9.2","1.9.2","1.9.2"];
    </script>
 
 .. rubric:: Download stats

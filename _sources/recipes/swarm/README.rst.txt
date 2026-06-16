@@ -13,7 +13,7 @@ swarm
    A robust and fast clustering method for amplicon\-based studies.
 
    :homepage: https://github.com/torognes/swarm
-   :documentation: https://github.com/torognes/swarm/blob/v3.1.6/man/swarm_manual.pdf
+   :documentation: https://github.com/torognes/swarm/blob/v3.1.7/man/swarm_manual.pdf
    
    :license: AGPL / AGPL-3.0-or-later
    :recipe: /`swarm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swarm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swarm/meta.yaml>`_
@@ -31,10 +31,10 @@ swarm
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.1.6-0</code>,  <code>3.1.5-3</code>,  <code>3.1.5-2</code>,  <code>3.1.5-1</code>,  <code>3.1.5-0</code>,  <code>3.1.4-0</code>,  <code>3.1.3-2</code>,  <code>3.1.3-1</code>,  <code>3.1.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1.7-0</code>,  <code>3.1.6-0</code>,  <code>3.1.5-3</code>,  <code>3.1.5-2</code>,  <code>3.1.5-1</code>,  <code>3.1.5-0</code>,  <code>3.1.4-0</code>,  <code>3.1.3-2</code>,  <code>3.1.3-1</code>,  </span></summary>
       
 
-      ``3.1.6-0``,  ``3.1.5-3``,  ``3.1.5-2``,  ``3.1.5-1``,  ``3.1.5-0``,  ``3.1.4-0``,  ``3.1.3-2``,  ``3.1.3-1``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-2``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.2.2-2``,  ``2.2.2-1``,  ``2.2.2-0``,  ``2.1.13-0``,  ``2.1.10-0``,  ``2.1.5-0``,  ``1.2.19-1``,  ``1.2.19-0``
+      ``3.1.7-0``,  ``3.1.6-0``,  ``3.1.5-3``,  ``3.1.5-2``,  ``3.1.5-1``,  ``3.1.5-0``,  ``3.1.4-0``,  ``3.1.3-2``,  ``3.1.3-1``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-2``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.2.2-2``,  ``2.2.2-1``,  ``2.2.2-0``,  ``2.1.13-0``,  ``2.1.10-0``,  ``2.1.5-0``,  ``1.2.19-1``,  ``1.2.19-0``
 
       
       .. raw:: html
@@ -43,8 +43,9 @@ swarm
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on python: ``>=3``
    :depends on python-igraph: 
 
@@ -125,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "swarm";
-      var versions = ["3.1.6","3.1.5","3.1.5","3.1.5","3.1.5"];
+      var versions = ["3.1.7","3.1.6","3.1.5","3.1.5","3.1.5"];
    </script>
 
 .. rubric:: Download stats

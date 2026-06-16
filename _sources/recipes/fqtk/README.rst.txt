@@ -13,10 +13,11 @@ fqtk
    A toolkit for working with FASTQ files.
 
    :homepage: https://github.com/fulcrumgenomics/fqtk
-   :documentation: https://github.com/fulcrumgenomics/fqtk/blob/v0.3.1/README.md
+   :documentation: https://github.com/fulcrumgenomics/fqtk/blob/v0.4.0/README.md
    
    :license: MIT / MIT
    :recipe: /`fqtk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fqtk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fqtk/meta.yaml>`_
+   :links: DOI: :DOI:`10.5281/zenodo.13345414`
 
    
 
@@ -30,10 +31,10 @@ fqtk
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.1-3</code>,  <code>0.3.1-2</code>,  <code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-2</code>,  <code>0.2.1-1</code>,  <code>0.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.0-0</code>,  <code>0.3.1-3</code>,  <code>0.3.1-2</code>,  <code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-2</code>,  <code>0.2.1-1</code>,  </span></summary>
       
 
-      ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.4.0-0``,  ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -42,8 +43,9 @@ fqtk
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
       
@@ -122,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "fqtk";
-      var versions = ["0.3.1","0.3.1","0.3.1","0.3.1","0.3.0"];
+      var versions = ["0.4.0","0.3.1","0.3.1","0.3.1","0.3.1"];
    </script>
 
 .. rubric:: Download stats

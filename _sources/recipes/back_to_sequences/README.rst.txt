@@ -29,7 +29,7 @@ back_to_sequences
       
       
 
-      ``0.8.4-0``
+      ``0.8.4-1``,  ``0.8.4-0``
 
       
 
@@ -37,6 +37,10 @@ back_to_sequences
    :depends on __glibc: ``>=2.17,<3.0.a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -109,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "back_to_sequences";
-      var versions = ["0.8.4"];
+      var versions = ["0.8.4","0.8.4"];
    </script>
 
 .. rubric:: Download stats

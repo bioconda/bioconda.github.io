@@ -28,10 +28,10 @@ neat
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.5.3-0</code>,  <code>4.4.4-0</code>,  <code>4.4.1-0</code>,  <code>4.4-0</code>,  <code>4.3.6-1</code>,  <code>4.3.6-0</code>,  <code>4.3.5-0</code>,  <code>4.3.4-0</code>,  <code>4.3.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.6.1-0</code>,  <code>4.5.3-0</code>,  <code>4.4.4-0</code>,  <code>4.4.1-0</code>,  <code>4.4-0</code>,  <code>4.3.6-1</code>,  <code>4.3.6-0</code>,  <code>4.3.5-0</code>,  <code>4.3.4-0</code>,  </span></summary>
       
 
-      ``4.5.3-0``,  ``4.4.4-0``,  ``4.4.1-0``,  ``4.4-0``,  ``4.3.6-1``,  ``4.3.6-0``,  ``4.3.5-0``,  ``4.3.4-0``,  ``4.3.1-0``,  ``4.3.0-0``,  ``4.2.8-0``,  ``4.2.7-0``,  ``4.2.6-0``,  ``4.2.5-0``,  ``4.2.4-0``,  ``4.2.3-0``,  ``4.2.2-0``,  ``4.2.1-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.0-0``
+      ``4.6.1-0``,  ``4.5.3-0``,  ``4.4.4-0``,  ``4.4.1-0``,  ``4.4-0``,  ``4.3.6-1``,  ``4.3.6-0``,  ``4.3.5-0``,  ``4.3.4-0``,  ``4.3.1-0``,  ``4.3.0-0``,  ``4.2.8-0``,  ``4.2.7-0``,  ``4.2.6-0``,  ``4.2.5-0``,  ``4.2.4-0``,  ``4.2.3-0``,  ``4.2.2-0``,  ``4.2.1-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.0-0``
 
       
       .. raw:: html
@@ -127,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "neat";
-      var versions = ["4.5.3","4.4.4","4.4.1","4.4","4.3.6"];
+      var versions = ["4.6.1","4.5.3","4.4.4","4.4.1","4.4"];
    </script>
 
 .. rubric:: Download stats

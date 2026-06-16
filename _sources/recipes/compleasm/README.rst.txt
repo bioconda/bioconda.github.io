@@ -13,7 +13,7 @@ compleasm
    Compleasm\: a faster and more accurate reimplementation of BUSCO
 
    :homepage: https://github.com/huangnengCSU/compleasm
-   :license: Apache License 2.0
+   :license: Apache-2.0
    :recipe: /`compleasm <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/compleasm>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/compleasm/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ compleasm
       
       
 
-      ``0.2.7-1``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.2-0``
+      ``0.2.8-0``,  ``0.2.7-1``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.2-0``
 
       
 
@@ -112,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "compleasm";
-      var versions = ["0.2.7","0.2.7","0.2.6","0.2.5","0.2.4"];
+      var versions = ["0.2.8","0.2.7","0.2.7","0.2.6","0.2.5"];
    </script>
 
 .. rubric:: Download stats

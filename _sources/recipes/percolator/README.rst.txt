@@ -31,10 +31,10 @@ percolator
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.7.1-2</code>,  <code>3.7.1-0</code>,  <code>3.6.5-0</code>,  <code>3.5-1</code>,  <code>3.5-0</code>,  <code>3.4-1</code>,  <code>3.4-0</code>,  <code>3.1-4</code>,  <code>3.1-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.9-0</code>,  <code>3.7.1-2</code>,  <code>3.7.1-0</code>,  <code>3.6.5-0</code>,  <code>3.5-1</code>,  <code>3.5-0</code>,  <code>3.4-1</code>,  <code>3.4-0</code>,  <code>3.1-4</code>,  </span></summary>
       
 
-      ``3.7.1-2``,  ``3.7.1-0``,  ``3.6.5-0``,  ``3.5-1``,  ``3.5-0``,  ``3.4-1``,  ``3.4-0``,  ``3.1-4``,  ``3.1-3``,  ``3.1-2``,  ``3.0-1``,  ``3.0-0``
+      ``3.9-0``,  ``3.7.1-2``,  ``3.7.1-0``,  ``3.6.5-0``,  ``3.5-1``,  ``3.5-0``,  ``3.4-1``,  ``3.4-0``,  ``3.1-4``,  ``3.1-3``,  ``3.1-2``,  ``3.0-1``,  ``3.0-0``
 
       
       .. raw:: html
@@ -43,15 +43,14 @@ percolator
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on boost-cpp: 
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libsqlite: ``>=3.49.1,<4.0a0``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libsqlite: ``>=3.53.2,<4.0a0``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on sqlite: 
-   :depends on xerces-c: ``>=3.2.5,<3.3.0a0``
-   :depends on xsd: ``>=4.0.0.0dep,<5.0a0``
    :depends on zlib: 
 
    :additional platforms:
@@ -131,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "percolator";
-      var versions = ["3.7.1","3.7.1","3.6.5","3.5","3.5"];
+      var versions = ["3.9","3.7.1","3.7.1","3.6.5","3.5"];
    </script>
 
 .. rubric:: Download stats

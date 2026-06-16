@@ -13,7 +13,7 @@ strdust
    Tandem repeat genotyper for long reads.
 
    :homepage: https://github.com/wdecoster/STRdust
-   :documentation: https://github.com/wdecoster/STRdust/blob/v0.16.0/README.md
+   :documentation: https://github.com/wdecoster/STRdust/blob/v0.18.0/README.md
    
    :license: MIT / MIT
    :recipe: /`strdust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strdust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strdust/meta.yaml>`_
@@ -30,14 +30,15 @@ strdust
       
       
 
-      ``0.16.0-0``,  ``0.14.0-0``,  ``0.13.0-0``,  ``0.11.4-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.8.2-0``,  ``0.8.0-0``
+      ``0.18.0-0``,  ``0.16.0-0``,  ``0.14.0-0``,  ``0.13.0-0``,  ``0.11.4-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.8.2-0``,  ``0.8.0-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on htslib: ``>=1.23.1,<1.24.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
       
@@ -116,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "strdust";
-      var versions = ["0.16.0","0.14.0","0.13.0","0.11.4","0.11.1"];
+      var versions = ["0.18.0","0.16.0","0.14.0","0.13.0","0.11.4"];
    </script>
 
 .. rubric:: Download stats

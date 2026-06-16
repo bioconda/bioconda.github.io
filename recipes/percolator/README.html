@@ -93,19 +93,18 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/percolator"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/percolator.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/percolator"><img alt="docker_percolator" src="https://quay.io/repository/biocontainers/percolator/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>3.7.1-2</code>,  <code>3.7.1-0</code>,  <code>3.6.5-0</code>,  <code>3.5-1</code>,  <code>3.5-0</code>,  <code>3.4-1</code>,  <code>3.4-0</code>,  <code>3.1-4</code>,  <code>3.1-3</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">3.7.1-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.7.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.6.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.5-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.4-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.1-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.1-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.1-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0-0</span></code></p>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>3.9-0</code>,  <code>3.7.1-2</code>,  <code>3.7.1-0</code>,  <code>3.6.5-0</code>,  <code>3.5-1</code>,  <code>3.5-0</code>,  <code>3.4-1</code>,  <code>3.4-0</code>,  <code>3.1-4</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">3.9-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.7.1-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.7.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.6.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.5-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.4-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.1-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.1-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.1-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0-0</span></code></p>
 </details></dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
+<li><p><strong>on __glibc</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=2.17,&lt;3.0.a0</span></code></p></li>
 <li><p><strong>on boost-cpp</strong></p></li>
 <li><p><strong>on bzip2</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.0.8,&lt;2.0a0</span></code></p></li>
-<li><p><strong>on libgcc</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p></li>
-<li><p><strong>on libsqlite</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.49.1,&lt;4.0a0</span></code></p></li>
-<li><p><strong>on libstdcxx</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p></li>
-<li><p><strong>on libzlib</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.3.1,&lt;2.0a0</span></code></p></li>
+<li><p><strong>on libgcc</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p></li>
+<li><p><strong>on libsqlite</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.53.2,&lt;4.0a0</span></code></p></li>
+<li><p><strong>on libstdcxx</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p></li>
+<li><p><strong>on libzlib</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.3.2,&lt;2.0a0</span></code></p></li>
 <li><p><strong>on sqlite</strong></p></li>
-<li><p><strong>on xerces-c</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.2.5,&lt;3.3.0a0</span></code></p></li>
-<li><p><strong>on xsd</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=4.0.0.0dep,&lt;5.0a0</span></code></p></li>
 <li><p><strong>on zlib</strong></p></li>
 </ul>
 </dd>
@@ -165,7 +164,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "percolator";
-   var versions = ["3.7.1","3.7.1","3.6.5","3.5","3.5"];
+   var versions = ["3.9","3.7.1","3.7.1","3.6.5","3.5"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_percolator"></div>
 <div style="width: 100%" id="platform_plot_percolator"></div>

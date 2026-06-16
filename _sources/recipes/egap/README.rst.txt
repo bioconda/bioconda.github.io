@@ -21,7 +21,7 @@ egap
    PacBio data. It supports multiple input modes and assembly methods and
    determines the best based on multiple metrics\: BUSCO Completeness
    \(Single \+ Duplicated\)\, Assembly Contig Count\, Assembly N50\, Assembly L50\,
-   and Assembly GC\-content.
+   and Assembly GC\-content. v3.4.x adds Kraken2 read decontamination.
 
 
 
@@ -34,10 +34,10 @@ egap
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.3.9-0</code>,  <code>3.3.8-0</code>,  <code>3.3.7-0</code>,  <code>3.3.6-0</code>,  <code>3.3.5-0</code>,  <code>3.3.4-0</code>,  <code>3.3c-0</code>,  <code>3.2c-0</code>,  <code>3.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.4.1-0</code>,  <code>3.3.9-0</code>,  <code>3.3.8-0</code>,  <code>3.3.7-0</code>,  <code>3.3.6-0</code>,  <code>3.3.5-0</code>,  <code>3.3.4-0</code>,  <code>3.3c-0</code>,  <code>3.2c-0</code>,  </span></summary>
       
 
-      ``3.3.9-0``,  ``3.3.8-0``,  ``3.3.7-0``,  ``3.3.6-0``,  ``3.3.5-0``,  ``3.3.4-0``,  ``3.3c-0``,  ``3.2c-0``,  ``3.1-0``,  ``3.1b-0``,  ``3.0.0f-0``,  ``3.0.0b-0``,  ``2.6.6-0``,  ``2.6.5-0``,  ``2.6.4-0``,  ``2.6.2-0``,  ``2.5.4-0``,  ``2.5.3-0``
+      ``3.4.1-0``,  ``3.3.9-0``,  ``3.3.8-0``,  ``3.3.7-0``,  ``3.3.6-0``,  ``3.3.5-0``,  ``3.3.4-0``,  ``3.3c-0``,  ``3.2c-0``,  ``3.1-0``,  ``3.1b-0``,  ``3.0.0f-0``,  ``3.0.0b-0``,  ``2.6.6-0``,  ``2.6.5-0``,  ``2.6.4-0``,  ``2.6.2-0``,  ``2.5.4-0``,  ``2.5.3-0``
 
       
       .. raw:: html
@@ -63,6 +63,7 @@ egap
    :depends on hifiasm: ``>=0.21.0``
    :depends on jinja2: ``>=3.1.4``
    :depends on kmc: ``>=3.2.4``
+   :depends on kraken2: ``>=2.1.6``
    :depends on masurca: ``>=4.1.2``
    :depends on matplotlib-base: ``>=3.7.3``
    :depends on minimap2: ``>=2.28``
@@ -72,6 +73,7 @@ egap
    :depends on openpyxl: ``>=3.1.5``
    :depends on pandas: ``>=2.0.3``
    :depends on pbccs: ``>=6.4.0``
+   :depends on pigz: ``>=2.8``
    :depends on pilon: ``>=1.22``
    :depends on psutil: ``>=6.0.0``
    :depends on purge_dups: ``>=1.2.6``
@@ -166,7 +168,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "egap";
-      var versions = ["3.3.9","3.3.8","3.3.7","3.3.6","3.3.5"];
+      var versions = ["3.4.1","3.3.9","3.3.8","3.3.7","3.3.6"];
    </script>
 
 .. rubric:: Download stats
@@ -259,7 +261,7 @@ Check the documentation of your workflow management system to find out about the
 
 Notes
 -----
-This package installs a custom executable named \"EGAP\" in \$PREFIX\/bin.
+This package installs the EGAP and EGAP\_TUI commands in \$PREFIX\/bin.
 Please refer to the upstream GitHub page for usage instructions.
 
 

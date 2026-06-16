@@ -28,10 +28,10 @@ snakedeploy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.16.0-0</code>,  <code>0.15.0-0</code>,  <code>0.14.0-0</code>,  <code>0.11.0-0</code>,  <code>0.10.4-0</code>,  <code>0.10.3-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.16.2-0</code>,  <code>0.16.0-0</code>,  <code>0.15.0-0</code>,  <code>0.14.0-0</code>,  <code>0.11.0-0</code>,  <code>0.10.4-0</code>,  <code>0.10.3-0</code>,  <code>0.10.2-0</code>,  <code>0.10.1-0</code>,  </span></summary>
       
 
-      ``0.16.0-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.11.0-0``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.1-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.1.3-0``,  ``0.1.1-1``
+      ``0.16.2-0``,  ``0.16.0-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.11.0-0``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.1-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.1.3-0``,  ``0.1.1-1``
 
       
       .. raw:: html
@@ -49,6 +49,7 @@ snakedeploy
    :depends on requests: ``>=2.32.4,<3``
    :depends on reretry: ``>=0.11.8,<1``
    :depends on setuptools: 
+   :depends on tenacity: ``>=9.1.2,<10``
    :depends on toml: ``>=0.10.2,<1``
 
    :additional platforms:
@@ -124,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "snakedeploy";
-      var versions = ["0.16.0","0.15.0","0.14.0","0.11.0","0.10.4"];
+      var versions = ["0.16.2","0.16.0","0.15.0","0.14.0","0.11.0"];
    </script>
 
 .. rubric:: Download stats
