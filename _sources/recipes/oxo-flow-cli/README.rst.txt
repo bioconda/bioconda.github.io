@@ -29,12 +29,11 @@ oxo-flow-cli
       
       
 
-      ``0.7.0-0``,  ``0.6.0-0``,  ``0.4.2-0``
+      ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.4.2-0``
 
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libgcc: ``>=14``
 
    :additional platforms:
@@ -114,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "oxo-flow-cli";
-      var versions = ["0.7.0","0.6.0","0.4.2"];
+      var versions = ["0.8.0","0.7.0","0.6.0","0.4.2"];
    </script>
 
 .. rubric:: Download stats

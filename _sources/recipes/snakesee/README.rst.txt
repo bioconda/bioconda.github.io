@@ -12,7 +12,7 @@ snakesee
 
    A terminal UI for monitoring Snakemake workflows
 
-   :homepage: https://github.com/nh13/snakesee
+   :homepage: https://github.com/fg-labs/snakesee
    :documentation: https://snakesee.readthedocs.io
    
    :license: MIT / MIT
@@ -29,16 +29,19 @@ snakesee
       
       
 
-      ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.4.1-0``,  ``0.2.1-0``,  ``0.1.0-0``
+      ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.4.1-0``,  ``0.2.1-0``,  ``0.1.0-0``
 
       
 
    
    :depends on defopt: ``>=6.4.0``
    :depends on orjson: ``>=3.9.0``
+   :depends on pillow: ``>=10.0.0``
    :depends on python: ``>=3.11``
    :depends on rich: ``>=13.0.0``
+   :depends on rich-pixels: ``>=3.0.1``
    :depends on snakemake: ``>=8.0.0``
+   :depends on textual: ``>=0.80.0``
 
    :additional platforms:
       
@@ -113,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "snakesee";
-      var versions = ["0.8.1","0.8.0","0.7.0","0.6.2","0.6.1"];
+      var versions = ["0.8.1","0.8.1","0.8.0","0.7.0","0.6.2"];
    </script>
 
 .. rubric:: Download stats

@@ -27,13 +27,13 @@ fastan
       
       
 
-      ``0.5-0``
+      ``0.8-0``,  ``0.5-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
       
@@ -112,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "fastan";
-      var versions = ["0.5"];
+      var versions = ["0.8","0.5"];
    </script>
 
 .. rubric:: Download stats

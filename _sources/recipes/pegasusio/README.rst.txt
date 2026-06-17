@@ -45,7 +45,6 @@ pegasusio
    :depends on anndata: ``>=0.7``
    :depends on docopt: 
    :depends on h5py: ``>=3.0.0``
-   :depends on libgcc: ``>=13``
    :depends on loompy: 
    :depends on natsort: 
    :depends on numpy: 

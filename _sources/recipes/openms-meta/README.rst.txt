@@ -43,17 +43,15 @@ openms-meta
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
-   :depends on _openmp_mutex: ``>=4.5``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on coin-or-cbc: ``>=2.10.12,<2.11.0a0``
    :depends on coin-or-cgl: ``>=0.60,<0.61.0a0``
    :depends on coin-or-clp: ``>=1.17,<1.18.0a0``
    :depends on coin-or-utils: ``>=2.11,<2.12.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on libsvm: ``>=335,<400``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on llvm-openmp: ``>=18.1.8``
    :depends on qt6-main: ``>=6.7.3,<6.8.0a0``
    :depends on xerces-c: ``>=3.2.5,<3.3.0a0``
    :depends on yaml-cpp: ``>=0.8.0,<0.9.0a0``
@@ -170,10 +168,9 @@ Check the documentation of your workflow management system to find out about the
    
    :depends on eigen: ``>=3.4.0,<3.5.0a0``
    :depends on libarrow: ``>=21.0.0,<21.1.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libopenms: ``3.5.0 hdd6e20e_0``
+   :depends on libcxx: ``>=18``
+   :depends on libopenms: ``3.5.0 h02e8e2c_0``
    :depends on libparquet: ``>=21.0.0,<21.1.0a0``
-   :depends on libstdcxx: ``>=13``
    :depends on libsvm: ``>=335,<400``
    :depends on qt6-main: ``>=6.7.3,<6.8.0a0``
    :depends on xerces-c: ``>=3.2.5,<3.3.0a0``
@@ -292,7 +289,7 @@ Check the documentation of your workflow management system to find out about the
    :depends on gnuplot: 
    :depends on luciphor2: ``2020_04_03``
    :depends on msgf_plus: ``2024.03.26``
-   :depends on openms: ``3.5.0 h78fb946_0``
+   :depends on openms: ``3.5.0 h1ce2723_0``
    :depends on percolator: ``3.7.1``
    :depends on r-gplots: 
    :depends on sage-proteomics: ``0.14.7``

@@ -12,8 +12,8 @@ chum
 
    Evaluate the effectiveness of baits in a hybrid selection panel.
 
-   :homepage: https://github.com/clintval/chum
-   :documentation: https://github.com/clintval/chum/blob/0.3.0/README.md
+   :homepage: https://github.com/fg-labs/chum
+   :documentation: https://github.com/fg-labs/chum/blob/0.3.0/README.md
    
    :license: MIT / MIT
    :recipe: /`chum <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chum>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chum/meta.yaml>`_
@@ -29,12 +29,11 @@ chum
       
       
 
-      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on blast: ``>=2.0``
    :depends on libgcc: ``>=14``
    :depends on libstdcxx: ``>=14``
@@ -117,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "chum";
-      var versions = ["0.3.0","0.2.0","0.1.0"];
+      var versions = ["0.3.0","0.3.0","0.2.0","0.1.0"];
    </script>
 
 .. rubric:: Download stats

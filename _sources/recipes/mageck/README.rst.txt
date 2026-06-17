@@ -10,13 +10,13 @@ mageck
    :replaces_section_title:
    :noindex:
 
-   MAGeCK \(Model\-based Analysis of Genome\-wide CRISPR\-Cas9 Knockout\)\, an algorithm to process\, QC\, analyze and visualize CRISPR screening data.
+   MAGeCK\, an algorithm to process\, QC\, analyze and visualize CRISPR screening data.
 
    :homepage: https://mageck.sourceforge.net
    :license: BSD / BSD-3-Clause
    :recipe: /`mageck <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mageck>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mageck/meta.yaml>`_
 
-   
+   MAGeCK \(Model\-based Analysis of Genome\-wide CRISPR\-Cas9 Knockout\)\, an algorithm to process\, QC\, analyze and visualize CRISPR screening data.
 
 
 .. conda:package:: mageck
@@ -28,10 +28,10 @@ mageck
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.9.5-8</code>,  <code>0.5.9.5-7</code>,  <code>0.5.9.5-6</code>,  <code>0.5.9.5-5</code>,  <code>0.5.9.5-4</code>,  <code>0.5.9.5-3</code>,  <code>0.5.9.5-2</code>,  <code>0.5.9.5-1</code>,  <code>0.5.9.5-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.9.5-9</code>,  <code>0.5.9.5-8</code>,  <code>0.5.9.5-7</code>,  <code>0.5.9.5-6</code>,  <code>0.5.9.5-5</code>,  <code>0.5.9.5-4</code>,  <code>0.5.9.5-3</code>,  <code>0.5.9.5-2</code>,  <code>0.5.9.5-1</code>,  </span></summary>
       
 
-      ``0.5.9.5-8``,  ``0.5.9.5-7``,  ``0.5.9.5-6``,  ``0.5.9.5-5``,  ``0.5.9.5-4``,  ``0.5.9.5-3``,  ``0.5.9.5-2``,  ``0.5.9.5-1``,  ``0.5.9.5-0``,  ``0.5.9.4-1``,  ``0.5.9.4-0``,  ``0.5.9.3-2``,  ``0.5.9.3-1``,  ``0.5.9.3-0``,  ``0.5.9.2-0``,  ``0.5.9.1-0``,  ``0.5.9-0``,  ``0.5.8-0``,  ``0.5.8a-1``,  ``0.5.8a-0``,  ``0.5.7-7``,  ``0.5.7-6``,  ``0.5.7-5``,  ``0.5.7-4``,  ``0.5.7-2``,  ``0.5.7-1``,  ``0.5.7-0``,  ``0.5.7a-0``,  ``0.5.6-1``,  ``0.5.6-0``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``
+      ``0.5.9.5-9``,  ``0.5.9.5-8``,  ``0.5.9.5-7``,  ``0.5.9.5-6``,  ``0.5.9.5-5``,  ``0.5.9.5-4``,  ``0.5.9.5-3``,  ``0.5.9.5-2``,  ``0.5.9.5-1``,  ``0.5.9.5-0``,  ``0.5.9.4-1``,  ``0.5.9.4-0``,  ``0.5.9.3-2``,  ``0.5.9.3-1``,  ``0.5.9.3-0``,  ``0.5.9.2-0``,  ``0.5.9.1-0``,  ``0.5.9-0``,  ``0.5.8-0``,  ``0.5.8a-1``,  ``0.5.8a-0``,  ``0.5.7-7``,  ``0.5.7-6``,  ``0.5.7-5``,  ``0.5.7-4``,  ``0.5.7-2``,  ``0.5.7-1``,  ``0.5.7-0``,  ``0.5.7a-0``,  ``0.5.6-1``,  ``0.5.6-0``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``
 
       
       .. raw:: html
@@ -40,13 +40,20 @@ mageck
       
 
    
+   :depends on bioconductor-depmap: ``1.24.0.*``
    :depends on ipython: 
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on numpy: 
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on numpy: ``1.23.5.*``
+   :depends on pdflatex: ``0.1.3.*``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
+   :depends on r-base: 
+   :depends on r-bibtex: ``0.5.1.*``
+   :depends on r-ggplot2: ``4.0.3.*``
+   :depends on r-xtable: ``1.8_8.*``
    :depends on scipy: 
+   :depends on texlive-core: ``20230313.*``
 
    :additional platforms:
       

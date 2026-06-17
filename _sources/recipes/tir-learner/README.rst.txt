@@ -30,10 +30,10 @@ tir-learner
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.07-0</code>,  <code>4.05-0</code>,  <code>4.04-0</code>,  <code>4.03-0</code>,  <code>4.02-0</code>,  <code>3.0.7-0</code>,  <code>3.0.6-0</code>,  <code>3.0.5-0</code>,  <code>3.0.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.08-0</code>,  <code>4.07-0</code>,  <code>4.05-0</code>,  <code>4.04-0</code>,  <code>4.03-0</code>,  <code>4.02-0</code>,  <code>3.0.7-0</code>,  <code>3.0.6-0</code>,  <code>3.0.5-0</code>,  </span></summary>
       
 
-      ``4.07-0``,  ``4.05-0``,  ``4.04-0``,  ``4.03-0``,  ``4.02-0``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.3-1``,  ``3.0.3-0``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-0``
+      ``4.08-0``,  ``4.07-0``,  ``4.05-0``,  ``4.04-0``,  ``4.03-0``,  ``4.02-0``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.3-1``,  ``3.0.3-0``,  ``3.0.2-1``,  ``3.0.2-0``,  ``3.0.1-0``
 
       
       .. raw:: html
@@ -43,7 +43,6 @@ tir-learner
 
    
    :depends on blast: 
-   :depends on genometools-genometools: 
    :depends on grfmite-rs: ``>=0.3.0``
    :depends on keras: 
    :depends on numpy: 
@@ -52,6 +51,7 @@ tir-learner
    :depends on python: ``>=3.9,<3.13``
    :depends on pytorch: 
    :depends on pywfa: 
+   :depends on tirvish-rs: ``>=0.1.0``
 
    :additional platforms:
       
@@ -126,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "tir-learner";
-      var versions = ["4.07","4.05","4.04","4.03","4.02"];
+      var versions = ["4.08","4.07","4.05","4.04","4.03"];
    </script>
 
 .. rubric:: Download stats

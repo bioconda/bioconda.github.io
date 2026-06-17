@@ -33,7 +33,6 @@ vmatch
       
 
    
-   :depends on libgcc: ``>=13``
    :depends on perl: ``>=5.10,<6``
 
    :additional platforms:

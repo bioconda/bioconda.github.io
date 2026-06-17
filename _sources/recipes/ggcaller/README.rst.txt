@@ -40,7 +40,6 @@ ggcaller
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
    :depends on bcbio-gff: 
    :depends on bifrost: ``>=1.2``
    :depends on bifrost: ``>=1.3.5,<2.0a0``
@@ -49,9 +48,9 @@ ggcaller
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on gffutils: 
    :depends on joblib: 
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on matplotlib-base: 
    :depends on mkl: ``>=2022.2.1,<2023.0a0``
    :depends on networkx: 

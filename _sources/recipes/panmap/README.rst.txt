@@ -27,12 +27,11 @@ panmap
       
       
 
-      ``0.1.1-0``
+      ``0.1.2-0``,  ``0.1.1-0``
 
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on capnproto: ``>=1.4.0,<1.4.1.0a0``
    :depends on fmt: ``>=12.0,<13``
    :depends on fmt: ``>=12.0.0,<12.1.0a0``
@@ -128,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "panmap";
-      var versions = ["0.1.1"];
+      var versions = ["0.1.2","0.1.1"];
    </script>
 
 .. rubric:: Download stats

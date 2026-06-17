@@ -10,7 +10,7 @@ lrzip
    :replaces_section_title:
    :noindex:
 
-   Long Range ZIP or Lzma RZIP. This is a compression program optimised for large files. The larger the file and the more memory you have\, the better the compression advantage this will provide\, especially once the files are larger than 100MB. The advantage can be chosen to be either size \(much smaller than bzip2\) or speed \(much faster than bzip2\).
+   Long Range ZIP or Lzma RZIP\, a compression program optimised for large files.
 
    :homepage: https://github.com/ckolivas/lrzip
    :license: GPLv2
@@ -28,10 +28,10 @@ lrzip
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.651-1</code>,  <code>0.651-0</code>,  <code>0.621-7</code>,  <code>0.621-6</code>,  <code>0.621-5</code>,  <code>0.621-4</code>,  <code>0.621-3</code>,  <code>0.621-2</code>,  <code>0.621-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.651-2</code>,  <code>0.651-1</code>,  <code>0.651-0</code>,  <code>0.621-7</code>,  <code>0.621-6</code>,  <code>0.621-5</code>,  <code>0.621-4</code>,  <code>0.621-3</code>,  <code>0.621-2</code>,  </span></summary>
       
 
-      ``0.651-1``,  ``0.651-0``,  ``0.621-7``,  ``0.621-6``,  ``0.621-5``,  ``0.621-4``,  ``0.621-3``,  ``0.621-2``,  ``0.621-1``,  ``0.621-0``
+      ``0.651-2``,  ``0.651-1``,  ``0.651-0``,  ``0.621-7``,  ``0.621-6``,  ``0.621-5``,  ``0.621-4``,  ``0.621-3``,  ``0.621-2``,  ``0.621-1``,  ``0.621-0``
 
       
       .. raw:: html
@@ -41,10 +41,10 @@ lrzip
 
    
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on lz4-c: ``>=1.9.3,<1.10.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on lz4-c: ``>=1.10.0,<1.11.0a0``
    :depends on lzo: ``>=2.10,<3.0a0``
    :depends on zlib: 
 
@@ -125,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "lrzip";
-      var versions = ["0.651","0.651","0.621","0.621","0.621"];
+      var versions = ["0.651","0.651","0.651","0.621","0.621"];
    </script>
 
 .. rubric:: Download stats

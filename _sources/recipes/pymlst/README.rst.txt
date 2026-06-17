@@ -26,9 +26,17 @@ pymlst
    :versions:
       
       
+      .. raw:: html
 
-      ``2.3.0-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.1.6-0``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.2-0``
+         <details><summary><span class="truncated-version-list"><code>2.3.2-0</code>,  <code>2.3.0-0</code>,  <code>2.2.2-0</code>,  <code>2.2.1-0</code>,  <code>2.1.6-0</code>,  <code>2.1.5-0</code>,  <code>2.1.4-0</code>,  <code>2.1.3-1</code>,  <code>2.1.3-0</code>,  </span></summary>
+      
 
+      ``2.3.2-0``,  ``2.3.0-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.1.6-0``,  ``2.1.5-0``,  ``2.1.4-0``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -124,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pymlst";
-      var versions = ["2.3.0","2.2.2","2.2.1","2.1.6","2.1.5"];
+      var versions = ["2.3.2","2.3.0","2.2.2","2.2.1","2.1.6"];
    </script>
 
 .. rubric:: Download stats

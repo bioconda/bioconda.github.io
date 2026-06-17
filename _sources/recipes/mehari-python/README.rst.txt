@@ -13,7 +13,7 @@ mehari-python
    Python bindings for mehari.
 
    :homepage: https://varfish-org.github.io/mehari
-   :documentation: https://github.com/varfish-org/mehari/blob/v0.44.0/mehari-python/README.md
+   :documentation: https://github.com/varfish-org/mehari/blob/v0.44.1/mehari-python/README.md
    
    :developer docs: https://github.com/varfish-org/mehari
    :license: MIT / MIT
@@ -31,7 +31,7 @@ mehari-python
       
       
 
-      ``0.44.0-0``,  ``0.43.3-0``,  ``0.43.2-0``,  ``0.42.0-0``
+      ``0.44.1-0``,  ``0.44.0-0``,  ``0.43.3-0``,  ``0.43.2-0``,  ``0.42.0-0``
 
       
 
@@ -124,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mehari-python";
-      var versions = ["0.44.0","0.43.3","0.43.2","0.42.0"];
+      var versions = ["0.44.1","0.44.0","0.43.3","0.43.2","0.42.0"];
    </script>
 
 .. rubric:: Download stats

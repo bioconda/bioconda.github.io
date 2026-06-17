@@ -31,7 +31,7 @@ fastk
          <details><summary><span class="truncated-version-list"><code>1.2-1</code>,  <code>1.2-0</code>,  <code>1.1.0-2</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0-4</code>,  <code>1.0-3</code>,  <code>1.0-2</code>,  <code>1.0.0-1</code>,  </span></summary>
       
 
-      ``1.2-1``,  ``1.2-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0.0-1``,  ``1.0-1``,  ``1.0-0``,  ``1.0.0-0``
+      ``1.2-1``,  ``1.2-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0-4``,  ``1.0-3``,  ``1.0-2``,  ``1.0.0-1``,  ``1.0-1``,  ``1.0.0-0``,  ``1.0-0``
 
       
       .. raw:: html
@@ -42,8 +42,7 @@ fastk
    
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on libcurl: ``>=8.18.0,<9.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
 
    :additional platforms:

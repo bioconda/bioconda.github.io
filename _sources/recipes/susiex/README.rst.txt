@@ -1,42 +1,49 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'sickle'
+.. title:: Package Recipe 'susiex'
 .. highlight: bash
 
-sickle
+susiex
 ======
 
-.. conda:recipe:: sickle
+.. conda:recipe:: susiex
    :replaces_section_title:
    :noindex:
 
-   A lightweight OAI client library for Python
+   Cross\-ancestry fine\-mapping using GWAS summary statistics and LD reference panels
 
-   :homepage: http://github.com/mloesch/sickle
-   :license: BSD / BSD License
-   :recipe: /`sickle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sickle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sickle/meta.yaml>`_
+   :homepage: https://github.com/getian107/SuSiEx
+   :license: MIT
+   :recipe: /`susiex <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/susiex>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/susiex/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41588-024-01870-z`
 
    
 
 
-.. conda:package:: sickle
+.. conda:package:: susiex
 
-   |downloads_sickle| |docker_sickle|
+   |downloads_susiex| |docker_susiex|
 
    :versions:
       
       
 
-      ``0.7.0-0``,  ``0.6.5-0``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.3-2``,  ``0.6.3-0``,  ``0.5-0``
+      ``1.1.2-0``
 
       
 
    
-   :depends on lxml: ``>=3.2.3``
-   :depends on python: 
-   :depends on requests: ``>=1.1.0``
+   :depends on _openmp_mutex: ``>=4.5``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
+   :depends on libstdcxx: ``>=14``
+   :depends on plink: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -54,11 +61,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install sickle
+    pixi global install susiex
 
 to add into an existing workspace instead, run::
 
-    pixi add sickle
+    pixi add susiex
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -70,11 +77,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install sickle
+    conda install susiex
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname sickle
+    conda create -n envname susiex
 
 with ``envname`` being the name of the desired environment.
 
@@ -84,9 +91,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/sickle:<tag>
+    docker pull quay.io/biocontainers/susiex:<tag>
 
-(see `sickle/tags`_ for valid values for ``<tag>``).
+(see `susiex/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -97,28 +104,28 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_sickle| image:: https://img.shields.io/conda/dn/bioconda/sickle.svg?style=flat
-   :target: https://anaconda.org/bioconda/sickle
+.. |downloads_susiex| image:: https://img.shields.io/conda/dn/bioconda/susiex.svg?style=flat
+   :target: https://anaconda.org/bioconda/susiex
    :alt:   (downloads)
-.. |docker_sickle| image:: https://quay.io/repository/biocontainers/sickle/status
-   :target: https://quay.io/repository/biocontainers/sickle
-.. _`sickle/tags`: https://quay.io/repository/biocontainers/sickle?tab=tags
+.. |docker_susiex| image:: https://quay.io/repository/biocontainers/susiex/status
+   :target: https://quay.io/repository/biocontainers/susiex
+.. _`susiex/tags`: https://quay.io/repository/biocontainers/susiex?tab=tags
 
 
 .. raw:: html
 
    <script>
-      var package = "sickle";
-      var versions = ["0.7.0","0.6.5","0.6.4","0.6.4","0.6.3"];
+      var package = "susiex";
+      var versions = ["1.1.2"];
    </script>
 
 .. rubric:: Download stats
 
 .. raw:: html
     
-   <div style="width: 100%" id="download_plot_sickle"></div>
-   <div style="width: 100%" id="platform_plot_sickle"></div>
-   <div style="width: 100%" id="cdf_plot_sickle"></div>
+   <div style="width: 100%" id="download_plot_susiex"></div>
+   <div style="width: 100%" id="platform_plot_susiex"></div>
+   <div style="width: 100%" id="cdf_plot_susiex"></div>
 
 
 
@@ -135,7 +142,7 @@ Check the documentation of your workflow management system to find out about the
    <script>
       window.onload = async function() {
          
-            // Build cdf plot for sickle
+            // Build cdf plot for susiex
             try {
                const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
                if (!cdf_spec_resp.ok) {
@@ -147,7 +154,7 @@ Check the documentation of your workflow management system to find out about the
                    throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
                }
                const cdf_plot_data = await cdf_data_resp.json();
-               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/sickle/cdf.json`)
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/susiex/cdf.json`)
                if (!point_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
                }
@@ -155,43 +162,43 @@ Check the documentation of your workflow management system to find out about the
     
                cdf_spec.data.values = cdf_plot_data;
                cdf_spec.data.values.push(single_point.pop());
-               vegaEmbed('#cdf_plot_sickle', cdf_spec);
+               vegaEmbed('#cdf_plot_susiex', cdf_spec);
             } catch (err) {
                console.error("An error occurred while building CDF plot: ", err)
             }
     
-            // Build download plot for sickle
+            // Build download plot for susiex
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/sickle/versions.json`)
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/susiex/versions.json`)
                if (!version_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
                }
                const plot_data = await version_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#download_plot_sickle', spec);
+               vegaEmbed('#download_plot_susiex', spec);
             } catch (err) {
                console.error("An error occurred while building downloads plot: ", err)
             }
    
-            // Build platform download plot for sickle
+            // Build platform download plot for susiex
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/sickle/platforms.json`)
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/susiex/platforms.json`)
                if (!platform_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
                }
                const plot_data = await platform_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#platform_plot_sickle', spec);
+               vegaEmbed('#platform_plot_susiex', spec);
             } catch (err) {
                console.error("An error occurred while building platform downloads plot: ", err)
             }
@@ -206,7 +213,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/sickle/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/susiex/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/sickle/README.html
+   :target: http://bioconda.github.io/recipes/susiex/README.html

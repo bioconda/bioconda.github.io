@@ -13,7 +13,7 @@ pybarrnap
    Python implementation of barrnap \(Bacterial ribosomal RNA predictor\).
 
    :homepage: https://github.com/moshi4/pybarrnap
-   :documentation: https://github.com/moshi4/pybarrnap/blob/v0.5.1/README.md
+   :documentation: https://github.com/moshi4/pybarrnap/blob/v0.5.2/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`pybarrnap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybarrnap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybarrnap/meta.yaml>`_
@@ -29,13 +29,13 @@ pybarrnap
       
       
 
-      ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.3.0-0``
+      ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.3.0-0``
 
       
 
    
    :depends on biopython: ``>=1.80``
-   :depends on pyhmmer: ``>=0.11.0``
+   :depends on pyhmmer: ``>=0.12.1``
    :depends on python: ``>=3.9``
 
    :additional platforms:
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pybarrnap";
-      var versions = ["0.5.1","0.5.0","0.4.1","0.3.0"];
+      var versions = ["0.5.2","0.5.1","0.5.0","0.4.1","0.3.0"];
    </script>
 
 .. rubric:: Download stats
