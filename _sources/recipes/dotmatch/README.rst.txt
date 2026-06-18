@@ -10,10 +10,10 @@ dotmatch
    :replaces_section_title:
    :noindex:
 
-   Fast exact short\-DNA known\-target assignment
+   Deterministic short\-DNA known\-target assignment
 
    :homepage: https://github.com/dnncha/dotmatch
-   :documentation: https://github.com/dnncha/dotmatch#readme
+   :documentation: https://dotmatch.readthedocs.io/
    
    :license: Apache-2.0
    :recipe: /`dotmatch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dotmatch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dotmatch/meta.yaml>`_
@@ -37,11 +37,11 @@ dotmatch
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on libgcc: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on python: ``>=3.14,<3.15.0a0``
    :depends on python_abi: ``3.14.* *_cp314``
-   :depends on tomli: 
 
    :additional platforms:
       

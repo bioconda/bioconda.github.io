@@ -13,10 +13,11 @@ jaeger-bio
    A quick and precise pipeline for detecting phages in sequence assemblies.
 
    :homepage: https://github.com/Yasas1994/Jaeger
-   :documentation: https://readthedocs.org/projects/jaeger-docs/
+   :documentation: https://jaeger-docs.readthedocs.io/
    
    :license: MIT / MIT
    :recipe: /`jaeger-bio <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jaeger-bio>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jaeger-bio/meta.yaml>`_
+   :links: biotools: :biotools:`jaeger`
 
    
 

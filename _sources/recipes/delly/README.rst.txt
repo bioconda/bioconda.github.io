@@ -13,7 +13,7 @@ delly
    Structural variant discovery by integrated paired\-end and split\-read analysis
 
    :homepage: https://github.com/dellytools/delly
-   :documentation: https://github.com/dellytools/delly/blob/v2.0.0/README.md
+   :documentation: https://github.com/dellytools/delly/blob/v2.1.0/README.md
    
    :license: BSD / BSD-3-Clause
    :recipe: /`delly <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/delly>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/delly/meta.yaml>`_

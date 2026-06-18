@@ -40,6 +40,7 @@ mageck
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-depmap: ``1.24.0.*``
    :depends on ipython: 
    :depends on libgcc: ``>=14``

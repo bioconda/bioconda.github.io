@@ -289,7 +289,7 @@ Check the documentation of your workflow management system to find out about the
    :depends on gnuplot: 
    :depends on luciphor2: ``2020_04_03``
    :depends on msgf_plus: ``2024.03.26``
-   :depends on openms: ``3.5.0 h1ce2723_0``
+   :depends on openms: ``3.5.0 h78fb946_0``
    :depends on percolator: ``3.7.1``
    :depends on r-gplots: 
    :depends on sage-proteomics: ``0.14.7``

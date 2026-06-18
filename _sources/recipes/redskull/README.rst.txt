@@ -13,7 +13,7 @@ redskull
    A conda recipe generator for Rust crates.
 
    :homepage: https://github.com/fg-labs/redskull
-   :documentation: https://github.com/fg-labs/redskull/blob/v0.1.2/README.md
+   :documentation: https://github.com/fg-labs/redskull/blob/v0.1.3/README.md
    
    :license: MIT / MIT
    :recipe: /`redskull <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/redskull>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/redskull/meta.yaml>`_

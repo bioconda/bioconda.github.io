@@ -27,14 +27,14 @@ args_oap
       
       
 
-      ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2-0``
+      ``3.2.4-1``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2-0``
 
       
 
    
    :depends on blast: ``>=2.12``
    :depends on bwa: ``>=0.7.17``
-   :depends on diamond: ``>=2.0.15``
+   :depends on diamond: ``2.1.13.*``
    :depends on pandas: 
    :depends on python: ``>=3.7``
    :depends on samtools: ``>=1.15``
@@ -112,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "args_oap";
-      var versions = ["3.2.4","3.2.3","3.2.2","3.2.1","3.2"];
+      var versions = ["3.2.4","3.2.4","3.2.3","3.2.2","3.2.1"];
    </script>
 
 .. rubric:: Download stats

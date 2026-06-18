@@ -12,9 +12,13 @@ needle
 
    Needle\: A fast and space\-efficient pre\-filter for the quantification of very large collections of nucleotide sequences
 
-   :homepage: https://github.com/seqan/needle
-   :license: BSD / BSD-3-Clause License
+   :homepage: https://www.seqan.de/apps/needle
+   :documentation: https://github.com/seqan/needle/blob/needle-v1.0.3/README.md
+   
+   :developer docs: https://github.com/seqan/needle
+   :license: BSD / BSD-3-Clause
    :recipe: /`needle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/needle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/needle/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btac492`
 
    Needle is a tool for approximately quantifiying many queries in large collections of nucleotide sequences.
 
@@ -39,6 +43,10 @@ needle
    :depends on zlib: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 

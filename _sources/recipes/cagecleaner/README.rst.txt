@@ -13,7 +13,7 @@ cagecleaner
    Redundancy removal for gene cluster mining hit sets
 
    :homepage: https://github.com/LucoDevro/CAGEcleaner
-   :documentation: https://github.com/LucoDevro/CAGEcleaner/wiki
+   :documentation: https://cagecleaner.readthedocs.io/en/stable
    
    :license: MIT / MIT
    :recipe: /`cagecleaner <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cagecleaner>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cagecleaner/meta.yaml>`_

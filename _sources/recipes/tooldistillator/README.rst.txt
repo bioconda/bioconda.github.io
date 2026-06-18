@@ -16,7 +16,7 @@ tooldistillator
    :documentation: https://gitlab.com/ifb-elixirfr/abromics/tooldistillator/-/blob/main/docs/_build/html/index.html
    
    :developer docs: https://gitlab.com/ifb-elixirfr/abromics/tooldistillator
-   :license: GPL / GPLv3
+   :license: GPL / GPL-3.0-or-later
    :recipe: /`tooldistillator <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tooldistillator>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tooldistillator/meta.yaml>`_
 
    
@@ -31,10 +31,10 @@ tooldistillator
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.9.3-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.6-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.9.3-0</code>,  <code>0.9.2-0</code>,  </span></summary>
       
 
-      ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9-0``,  ``0.8.5.0-0``,  ``0.8.4.1-0``,  ``0.8.4.0-0``
+      ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9-0``,  ``0.8.5.0-0``,  ``0.8.4.1-0``,  ``0.8.4.0-0``
 
       
       .. raw:: html
@@ -153,7 +153,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "tooldistillator";
-      var versions = ["1.0.5","1.0.4","1.0.3","1.0.2","1.0.1"];
+      var versions = ["1.0.6","1.0.5","1.0.4","1.0.3","1.0.2"];
    </script>
 
 .. rubric:: Download stats

@@ -13,7 +13,7 @@ el_gato
    Perform Legionella pneumophila Sequence Based Typing \(SBT\) from short reads or assemblies.
 
    :homepage: https://github.com/CDCgov/el_gato
-   :documentation: https://github.com/CDCgov/el_gato/blob/1.22.0/README.md
+   :documentation: https://github.com/CDCgov/el_gato/blob/1.23.0/README.md
    
    :license: MIT / MIT
    :recipe: /`el_gato <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/el_gato>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/el_gato/meta.yaml>`_
