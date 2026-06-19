@@ -28,7 +28,7 @@ virulencefinder
       
       
 
-      ``3.2.0-0``,  ``3.1.0-0``,  ``2.0.4-1``,  ``2.0.4-0``
+      ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.0-0``,  ``2.0.4-1``,  ``2.0.4-0``
 
       
 
@@ -116,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "virulencefinder";
-      var versions = ["3.2.0","3.1.0","2.0.4","2.0.4"];
+      var versions = ["3.2.1","3.2.0","3.1.0","2.0.4","2.0.4"];
    </script>
 
 .. rubric:: Download stats

@@ -43,6 +43,7 @@ galah
 
    
    :depends on fastani: ``>=1.34``
+   :depends on libgcc: ``>=13``
    :depends on skani: ``>=0.2.2``
 
    :additional platforms:

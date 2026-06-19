@@ -13,7 +13,7 @@ ebolaseq
    Tool for downloading and analyzing Ebola virus sequences.
 
    :homepage: https://github.com/DaanJansen94/ebolaseq
-   :documentation: https://github.com/DaanJansen94/ebolaseq/blob/v0.2.1/README.md
+   :documentation: https://github.com/DaanJansen94/ebolaseq/blob/v0.2.2/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`ebolaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ebolaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ebolaseq/meta.yaml>`_

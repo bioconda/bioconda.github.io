@@ -27,11 +27,14 @@ taxutils
       
       
 
-      
+      ``1.0.0-0``
 
       
 
    
+   :depends on numpy: 
+   :depends on pandas: 
+   :depends on python: ``>=3.10``
 
    :additional platforms:
       
@@ -106,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "taxutils";
-      var versions = [];
+      var versions = ["1.0.0"];
    </script>
 
 .. rubric:: Download stats

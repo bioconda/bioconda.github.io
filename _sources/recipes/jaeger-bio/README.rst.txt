@@ -30,25 +30,36 @@ jaeger-bio
       
       
 
-      ``1.1.30-0``,  ``1.1.26-0``
+      ``1.26.4-0``,  ``1.1.30-0``,  ``1.1.26-0``
 
       
 
    
-   :depends on h5py: ``>=3.8``
+   :depends on click: ``>=8.1``
+   :depends on h5py: ``>=3.0``
+   :depends on jinja2: ``>=3.1``
+   :depends on joblib: ``>=1.0``
+   :depends on keras: ``>=3.12.0``
    :depends on kneed: ``>=0.8.5``
    :depends on matplotlib-base: ``>=3.7``
    :depends on numpy: ``>=1.24``
-   :depends on pandas: ``>=1.5``
-   :depends on parasail-python: ``>=1.3.4``
-   :depends on progressbar2: ``>=4.4.2``
-   :depends on psutil: ``>=5``
+   :depends on pandas: ``>=2.2.3``
+   :depends on parasail-python: ``1.3.4``
+   :depends on pip: 
+   :depends on polars: ``>=1.2.6``
+   :depends on psutil: ``>=7.0.0``
    :depends on pycirclize: 
+   :depends on pydustmasker: ``>=1.0.3``
    :depends on pyfastx: ``>=2``
-   :depends on python: ``>=3.9,<3.12``
+   :depends on python: ``>=3.11,<3.14``
+   :depends on pyyaml: ``>=6.0.2``
+   :depends on requests: ``>=2.0``
+   :depends on rich: ``>=13.0``
    :depends on ruptures: ``>=1.1.9``
-   :depends on scikit-learn: ``1.3.2``
-   :depends on tensorflow: ``>=2.15,<2.16``
+   :depends on scikit-learn: ``>=1.6.0``
+   :depends on scipy: ``>=1.10``
+   :depends on seaborn: ``>=0.13.0``
+   :depends on tensorflow: 
 
    :additional platforms:
       
@@ -123,7 +134,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "jaeger-bio";
-      var versions = ["1.1.30","1.1.26"];
+      var versions = ["1.26.4","1.1.30","1.1.26"];
    </script>
 
 .. rubric:: Download stats

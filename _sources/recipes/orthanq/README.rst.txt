@@ -50,14 +50,17 @@ orthanq
    :depends on gsl: ``>=2.7,<2.8.0a0``
    :depends on htslib: 
    :depends on libcblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on minimap2: 
+   :depends on openssl: ``>=3.5.5,<4.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on samtools: ``1.20``
    :depends on varlociraptor: ``8.7.3``
+   :depends on vg: ``1.63.1``
 
    :additional platforms:
       

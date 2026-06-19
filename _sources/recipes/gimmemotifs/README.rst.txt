@@ -31,10 +31,10 @@ gimmemotifs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.18.3-0</code>,  <code>0.18.2-1</code>,  <code>0.18.2-0</code>,  <code>0.18.1-1</code>,  <code>0.18.1-0</code>,  <code>0.18.0-7</code>,  <code>0.18.0-5</code>,  <code>0.18.0-4</code>,  <code>0.18.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.18.3-1</code>,  <code>0.18.3-0</code>,  <code>0.18.2-1</code>,  <code>0.18.2-0</code>,  <code>0.18.1-1</code>,  <code>0.18.1-0</code>,  <code>0.18.0-7</code>,  <code>0.18.0-5</code>,  <code>0.18.0-4</code>,  </span></summary>
       
 
-      ``0.18.3-0``,  ``0.18.2-1``,  ``0.18.2-0``,  ``0.18.1-1``,  ``0.18.1-0``,  ``0.18.0-7``,  ``0.18.0-5``,  ``0.18.0-4``,  ``0.18.0-2``,  ``0.18.0-1``,  ``0.18.0-0``,  ``0.17.2-1``,  ``0.17.2-0``,  ``0.17.1-2``
+      ``0.18.3-1``,  ``0.18.3-0``,  ``0.18.2-1``,  ``0.18.2-0``,  ``0.18.1-1``,  ``0.18.1-0``,  ``0.18.0-7``,  ``0.18.0-5``,  ``0.18.0-4``,  ``0.18.0-2``,  ``0.18.0-1``,  ``0.18.0-0``,  ``0.17.2-1``,  ``0.17.2-0``,  ``0.17.1-2``
 
       
       .. raw:: html
@@ -43,7 +43,8 @@ gimmemotifs
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on biofluff: ``>=3.0.4``
    :depends on configparser: 
    :depends on diskcache: 
@@ -51,7 +52,8 @@ gimmemotifs
    :depends on genomepy: ``>=0.16.4``
    :depends on iteround: 
    :depends on jinja2: 
-   :depends on llvm-openmp: ``>=19.1.7``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
    :depends on logomaker: 
    :depends on loguru: 
    :depends on matplotlib-base: ``>=3.3``
@@ -63,7 +65,7 @@ gimmemotifs
    :depends on python-xxhash: 
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on qnorm: ``>=0.8.1``
-   :depends on scikit-learn: ``>=0.23.2``
+   :depends on scikit-learn: ``>=0.23.2,<1.7``
    :depends on scipy: ``>=1.5``
    :depends on seaborn-base: ``>=0.10.1``
    :depends on statsmodels: 
@@ -148,7 +150,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "gimmemotifs-minimal";
-      var versions = ["0.18.3","0.18.2","0.18.2","0.18.1","0.18.1"];
+      var versions = ["0.18.3","0.18.3","0.18.2","0.18.2","0.18.1"];
    </script>
 
 .. rubric:: Download stats

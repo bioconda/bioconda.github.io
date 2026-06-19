@@ -28,7 +28,7 @@ reditools3
       
       
 
-      ``3.6-0``,  ``3.5-0``,  ``3.4-0``
+      ``3.7-0``,  ``3.6-0``,  ``3.5-0``,  ``3.4-0``
 
       
 
@@ -110,7 +110,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "reditools3";
-      var versions = ["3.6","3.5","3.4"];
+      var versions = ["3.7","3.6","3.5","3.4"];
    </script>
 
 .. rubric:: Download stats

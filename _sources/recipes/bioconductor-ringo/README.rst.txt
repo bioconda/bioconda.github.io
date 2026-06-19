@@ -41,7 +41,6 @@ bioconductor-ringo
       
 
    
-   :depends on __osx: ``>=10.9``
    :depends on bioconductor-biobase: ``>=2.62.0,<2.63.0``
    :depends on bioconductor-biobase: ``>=2.62.0,<2.63.0a0``
    :depends on bioconductor-biocgenerics: ``>=0.48.0,<0.49.0``
@@ -53,8 +52,9 @@ bioconductor-ringo
    :depends on bioconductor-vsn: ``>=3.70.0,<3.71.0``
    :depends on bioconductor-vsn: ``>=3.70.0,<3.71.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=15.0.7``
+   :depends on libgcc-ng: ``>=12``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
+   :depends on libstdcxx-ng: ``>=12``
    :depends on r-base: ``>=4.3,<4.4.0a0``
    :depends on r-lattice: 
    :depends on r-matrix: 

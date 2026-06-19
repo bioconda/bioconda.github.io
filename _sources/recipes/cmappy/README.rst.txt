@@ -41,7 +41,8 @@ cmappy
 
    
    :depends on h5py: ``>=2.6.0``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on numpy: ``>=1.11.2``
    :depends on pandas: ``>=0.18``
    :depends on python: ``>=3.10,<3.11.0a0``

@@ -45,6 +45,7 @@ ucsc-twobitinfo
 
    
    :depends on bzip2: ``>=1.0.8,<2.0a0``
+   :depends on libgcc: ``>=13``
    :depends on liblzma: ``>=5.8.1,<6.0a0``
    :depends on libopenssl-static: 
    :depends on libpng: ``>=1.6.49,<1.7.0a0``

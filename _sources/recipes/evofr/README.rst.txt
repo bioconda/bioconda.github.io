@@ -13,7 +13,7 @@ evofr
    Tools for evolutionary forecasting.
 
    :homepage: https://github.com/blab/evofr
-   :documentation: https://github.com/blab/evofr/blob/0.2.0/README.md
+   :documentation: https://github.com/blab/evofr/blob/0.2.1/README.md
    
    :license: AGPL / AGPL-3.0-or-later
    :recipe: /`evofr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/evofr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/evofr/meta.yaml>`_

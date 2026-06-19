@@ -30,7 +30,7 @@ quartet-bio
       
       
 
-      ``1.2.5-0``
+      ``1.3.0-0``,  ``1.2.5-0``
 
       
 
@@ -38,10 +38,10 @@ quartet-bio
    :depends on blast: 
    :depends on cd-hit: 
    :depends on gnuplot: 
-   :depends on hifiasm: 
    :depends on minimap2: 
    :depends on mummer4: 
    :depends on python: ``>=3.7``
+   :depends on r-base: 
    :depends on r-ggplot2: 
    :depends on r-rideogram: 
    :depends on tidk: 
@@ -121,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "quartet-bio";
-      var versions = ["1.2.5"];
+      var versions = ["1.3.0","1.2.5"];
    </script>
 
 .. rubric:: Download stats

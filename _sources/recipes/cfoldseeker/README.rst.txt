@@ -12,8 +12,8 @@ cfoldseeker
 
    Tool to find gene clusters using protein structure similarity
 
-   :homepage: https://github.com/LucoDevro/CAGEcleaner
-   :documentation: https://github.com/LucoDevro/CAGEcleaner/wiki
+   :homepage: https://github.com/LucoDevro/cfoldseeker
+   :documentation: https://cfoldseeker.readthedocs.io/en/stable/
    
    :license: MIT / MIT
    :recipe: /`cfoldseeker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cfoldseeker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cfoldseeker/meta.yaml>`_
@@ -29,7 +29,7 @@ cfoldseeker
       
       
 
-      ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cfoldseeker";
-      var versions = ["0.1.0"];
+      var versions = ["0.2.0","0.1.0"];
    </script>
 
 .. rubric:: Download stats

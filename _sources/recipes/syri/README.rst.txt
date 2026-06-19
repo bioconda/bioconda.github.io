@@ -43,7 +43,8 @@ syri
       
 
    
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on longestrunsubsequence: 
    :depends on numpy: ``>=1.21,<3``
    :depends on pandas: 

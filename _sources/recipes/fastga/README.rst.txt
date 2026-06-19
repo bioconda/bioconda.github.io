@@ -27,12 +27,14 @@ fastga
       
       
 
-      ``1.5-0``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2-0``
+      ``1.5-1``,  ``1.5-0``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2-0``
 
       
 
    
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on libgcc: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on zlib: 
 
    :additional platforms:
@@ -112,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "fastga";
-      var versions = ["1.5","1.3.1","1.3","1.2"];
+      var versions = ["1.5","1.5","1.3.1","1.3","1.2"];
    </script>
 
 .. rubric:: Download stats

@@ -32,10 +32,14 @@ cogent
       
 
    
+   :depends on libgcc-ng: ``>=10.3.0``
    :depends on matplotlib: ``>=1.1.0``
+   :depends on mpi4py: ``>=1.0``
+   :depends on mysql-python: ``>=1.2.2``
    :depends on numpy: ``>=1.3``
    :depends on python: ``>=2.7,<2.8.0a0``
-   :depends on python_abi: ``2.7.* *_cp27m``
+   :depends on python_abi: ``2.7.* *_cp27mu``
+   :depends on sqlalchemy: ``>=0.5``
    :depends on zlib: ``>=1.2.11,<1.3.0a0``
 
    :additional platforms:

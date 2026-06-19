@@ -30,10 +30,10 @@ el_gato
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.21.2-0</code>,  <code>1.21.0-0</code>,  <code>1.20.2-0</code>,  <code>1.20.1-0</code>,  <code>1.19.0-0</code>,  <code>1.18.2-0</code>,  <code>1.18.1-0</code>,  <code>1.18.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.23.0-0</code>,  <code>1.22.0-0</code>,  <code>1.21.2-0</code>,  <code>1.21.0-0</code>,  <code>1.20.2-0</code>,  <code>1.20.1-0</code>,  <code>1.19.0-0</code>,  <code>1.18.2-0</code>,  <code>1.18.1-0</code>,  </span></summary>
       
 
-      ``1.22.0-0``,  ``1.21.2-0``,  ``1.21.0-0``,  ``1.20.2-0``,  ``1.20.1-0``,  ``1.19.0-0``,  ``1.18.2-0``,  ``1.18.1-0``,  ``1.18.0-0``,  ``1.15.2-0``,  ``1.15.0-0``,  ``1.14.4-0``
+      ``1.23.0-0``,  ``1.22.0-0``,  ``1.21.2-0``,  ``1.21.0-0``,  ``1.20.2-0``,  ``1.20.1-0``,  ``1.19.0-0``,  ``1.18.2-0``,  ``1.18.1-0``,  ``1.18.0-0``,  ``1.15.2-0``,  ``1.15.0-0``,  ``1.14.4-0``
 
       
       .. raw:: html
@@ -48,7 +48,7 @@ el_gato
    :depends on ispcr: ``>=33.0``
    :depends on minimap2: ``>=2.24``
    :depends on packaging: 
-   :depends on python: ``>=3.8,<3.12``
+   :depends on python: ``>=3.11,<3.12.0a0``
    :depends on samtools: ``>=1.15.1``
 
    :additional platforms:
@@ -124,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "el_gato";
-      var versions = ["1.22.0","1.21.2","1.21.0","1.20.2","1.20.1"];
+      var versions = ["1.23.0","1.22.0","1.21.2","1.21.0","1.20.2"];
    </script>
 
 .. rubric:: Download stats

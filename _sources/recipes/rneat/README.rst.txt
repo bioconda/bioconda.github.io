@@ -35,11 +35,13 @@ rneat
       
       
 
-      
+      ``1.17.4-0``
 
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on libgcc: ``>=14``
 
    :additional platforms:
       
@@ -114,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "rneat";
-      var versions = [];
+      var versions = ["1.17.4"];
    </script>
 
 .. rubric:: Download stats

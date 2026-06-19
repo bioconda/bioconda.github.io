@@ -31,16 +31,16 @@ needle
       
       
 
-      ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.3-0``,  ``1.0.1-3``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libgcc-ng: ``>=12``
-   :depends on libstdcxx-ng: ``>=12``
-   :depends on libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends on zlib: 
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
       
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "needle";
-      var versions = ["1.0.1","1.0.1","1.0.1","1.0.1","1.0.0"];
+      var versions = ["1.0.3","1.0.1","1.0.1","1.0.1","1.0.1"];
    </script>
 
 .. rubric:: Download stats
