@@ -14,7 +14,7 @@ r-acidgenerics
 
    :homepage: https://r.acidgenomics.com/packages/acidgenerics/
    :developer docs: https://github.com/acidgenomics/r-acidgenerics
-   :license: GPL / AGPL-3.0
+   :license: APACHE / Apache-2.0
    :recipe: /`r-acidgenerics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidgenerics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidgenerics/meta.yaml>`_
 
    

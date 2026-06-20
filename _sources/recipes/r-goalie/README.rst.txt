@@ -14,7 +14,7 @@ r-goalie
 
    :homepage: https://r.acidgenomics.com/packages/goalie/
    :developer docs: https://github.com/acidgenomics/r-goalie
-   :license: GPL / AGPL-3
+   :license: APACHE / Apache-2.0
    :recipe: /`r-goalie <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-goalie>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-goalie/meta.yaml>`_
 
    

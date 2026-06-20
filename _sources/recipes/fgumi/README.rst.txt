@@ -13,7 +13,7 @@ fgumi
    High\-performance tools for UMI\-tagged sequencing data.
 
    :homepage: https://github.com/fulcrumgenomics/fgumi
-   :documentation: https://github.com/fulcrumgenomics/fgumi/blob/v0.3.0/README.md
+   :documentation: https://github.com/fulcrumgenomics/fgumi/blob/v0.3.1/README.md
    
    :license: MIT / MIT
    :recipe: /`fgumi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fgumi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fgumi/meta.yaml>`_

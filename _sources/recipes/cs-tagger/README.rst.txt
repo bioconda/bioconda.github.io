@@ -1,58 +1,43 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'muscle'
+.. title:: Package Recipe 'cs-tagger'
 .. highlight: bash
 
-muscle
-======
+cs-tagger
+=========
 
-.. conda:recipe:: muscle
+.. conda:recipe:: cs-tagger
    :replaces_section_title:
    :noindex:
 
-   Multiple sequence and structure alignment with top benchmark scores scalable to thousands of sequences.
+   Generate minimap2\-like CS tags for BAM files.
 
-   :homepage: https://github.com/rcedgar/muscle
-   :documentation: https://drive5.com/muscle5
-   
-   :license: GPL3 / GPL-3.0-only
-   :recipe: /`muscle <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/muscle>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/muscle/meta.yaml>`_
-   :links: doi: :doi:`10.1038/s41467-022-34630-w`, biotools: :biotools:`muscle`, usegalaxy-eu: :usegalaxy-eu:`muscle`
+   :homepage: https://github.com/jiangyun-fun/cs-tagger
+   :license: MIT / MIT
+   :recipe: /`cs-tagger <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cs-tagger>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cs-tagger/meta.yaml>`_
 
-   
+   CS tags encode the alignment between query and reference sequences in a
+   compact string representation. cs\-tagger computes CS tags from an existing
+   BAM alignment and a reference FASTA\, then writes them as auxiliary tags
+   into the output BAM.
 
 
-.. conda:package:: muscle
 
-   |downloads_muscle| |docker_muscle|
+.. conda:package:: cs-tagger
+
+   |downloads_cs-tagger| |docker_cs-tagger|
 
    :versions:
       
       
-      .. raw:: html
-
-         <details><summary><span class="truncated-version-list"><code>5.3-3</code>,  <code>5.3-2</code>,  <code>5.3-1</code>,  <code>5.3-0</code>,  <code>5.2-0</code>,  <code>5.1-3</code>,  <code>5.1-2</code>,  <code>5.1-1</code>,  <code>5.1.0-1</code>,  </span></summary>
-      
-
-      ``5.3-3``,  ``5.3-2``,  ``5.3-1``,  ``5.3-0``,  ``5.2-0``,  ``5.1-3``,  ``5.1-2``,  ``5.1-1``,  ``5.1.0-1``,  ``5.1-0``,  ``5.1.0-0``,  ``3.8.1551-9``,  ``3.8.1551-8``,  ``3.8.1551-7``,  ``3.8.1551-6``,  ``3.8.1551-5``,  ``3.8.1551-4``,  ``3.8.1551-3``,  ``3.8.1551-2``,  ``3.8.1551-1``,  ``3.8.31-0``
 
       
-      .. raw:: html
 
-         </details>
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
-   :depends on libgcc: ``>=13``
-   :depends on libgomp: 
-   :depends on libstdcxx: ``>=13``
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -70,11 +55,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install muscle
+    pixi global install cs-tagger
 
 to add into an existing workspace instead, run::
 
-    pixi add muscle
+    pixi add cs-tagger
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -86,11 +71,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install muscle
+    conda install cs-tagger
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname muscle
+    conda create -n envname cs-tagger
 
 with ``envname`` being the name of the desired environment.
 
@@ -100,9 +85,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/muscle:<tag>
+    docker pull quay.io/biocontainers/cs-tagger:<tag>
 
-(see `muscle/tags`_ for valid values for ``<tag>``).
+(see `cs-tagger/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -113,28 +98,28 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_muscle| image:: https://img.shields.io/conda/dn/bioconda/muscle.svg?style=flat
-   :target: https://anaconda.org/bioconda/muscle
+.. |downloads_cs-tagger| image:: https://img.shields.io/conda/dn/bioconda/cs-tagger.svg?style=flat
+   :target: https://anaconda.org/bioconda/cs-tagger
    :alt:   (downloads)
-.. |docker_muscle| image:: https://quay.io/repository/biocontainers/muscle/status
-   :target: https://quay.io/repository/biocontainers/muscle
-.. _`muscle/tags`: https://quay.io/repository/biocontainers/muscle?tab=tags
+.. |docker_cs-tagger| image:: https://quay.io/repository/biocontainers/cs-tagger/status
+   :target: https://quay.io/repository/biocontainers/cs-tagger
+.. _`cs-tagger/tags`: https://quay.io/repository/biocontainers/cs-tagger?tab=tags
 
 
 .. raw:: html
 
    <script>
-      var package = "muscle";
-      var versions = ["5.3","5.3","5.3","5.3","5.2"];
+      var package = "cs-tagger";
+      var versions = [];
    </script>
 
 .. rubric:: Download stats
 
 .. raw:: html
     
-   <div style="width: 100%" id="download_plot_muscle"></div>
-   <div style="width: 100%" id="platform_plot_muscle"></div>
-   <div style="width: 100%" id="cdf_plot_muscle"></div>
+   <div style="width: 100%" id="download_plot_cs-tagger"></div>
+   <div style="width: 100%" id="platform_plot_cs-tagger"></div>
+   <div style="width: 100%" id="cdf_plot_cs-tagger"></div>
 
 
 
@@ -151,7 +136,7 @@ Check the documentation of your workflow management system to find out about the
    <script>
       window.onload = async function() {
          
-            // Build cdf plot for muscle
+            // Build cdf plot for cs-tagger
             try {
                const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
                if (!cdf_spec_resp.ok) {
@@ -163,7 +148,7 @@ Check the documentation of your workflow management system to find out about the
                    throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
                }
                const cdf_plot_data = await cdf_data_resp.json();
-               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/muscle/cdf.json`)
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cs-tagger/cdf.json`)
                if (!point_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
                }
@@ -171,43 +156,43 @@ Check the documentation of your workflow management system to find out about the
     
                cdf_spec.data.values = cdf_plot_data;
                cdf_spec.data.values.push(single_point.pop());
-               vegaEmbed('#cdf_plot_muscle', cdf_spec);
+               vegaEmbed('#cdf_plot_cs-tagger', cdf_spec);
             } catch (err) {
                console.error("An error occurred while building CDF plot: ", err)
             }
     
-            // Build download plot for muscle
+            // Build download plot for cs-tagger
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/muscle/versions.json`)
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cs-tagger/versions.json`)
                if (!version_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
                }
                const plot_data = await version_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#download_plot_muscle', spec);
+               vegaEmbed('#download_plot_cs-tagger', spec);
             } catch (err) {
                console.error("An error occurred while building downloads plot: ", err)
             }
    
-            // Build platform download plot for muscle
+            // Build platform download plot for cs-tagger
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/muscle/platforms.json`)
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/cs-tagger/platforms.json`)
                if (!platform_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
                }
                const plot_data = await platform_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#platform_plot_muscle', spec);
+               vegaEmbed('#platform_plot_cs-tagger', spec);
             } catch (err) {
                console.error("An error occurred while building platform downloads plot: ", err)
             }
@@ -222,7 +207,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/muscle/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/cs-tagger/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/muscle/README.html
+   :target: http://bioconda.github.io/recipes/cs-tagger/README.html
