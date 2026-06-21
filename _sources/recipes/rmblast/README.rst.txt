@@ -29,10 +29,10 @@ rmblast
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.14.1-2</code>,  <code>2.14.1-1</code>,  <code>2.14.1-0</code>,  <code>2.14.0-2</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  <code>2.13.0-1</code>,  <code>2.13.0-0</code>,  <code>2.11.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.17.0-0</code>,  <code>2.14.1-2</code>,  <code>2.14.1-1</code>,  <code>2.14.1-0</code>,  <code>2.14.0-2</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  <code>2.13.0-1</code>,  <code>2.13.0-0</code>,  </span></summary>
       
 
-      ``2.14.1-2``,  ``2.14.1-1``,  ``2.14.1-0``,  ``2.14.0-2``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.13.0-1``,  ``2.13.0-0``,  ``2.11.0-0``,  ``2.10.0-0``,  ``2.9.0-0``,  ``2.6.0-0``,  ``2.2.28-4``,  ``2.2.28-3``,  ``2.2.28-2``
+      ``2.17.0-0``,  ``2.14.1-2``,  ``2.14.1-1``,  ``2.14.1-0``,  ``2.14.0-2``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.13.0-1``,  ``2.13.0-0``,  ``2.11.0-0``,  ``2.10.0-0``,  ``2.9.0-0``,  ``2.6.0-0``,  ``2.2.28-4``,  ``2.2.28-3``,  ``2.2.28-2``
 
       
       .. raw:: html
@@ -41,13 +41,14 @@ rmblast
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on entrez-direct: ``>=22.4,<23.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libsqlite: ``>=3.49.1,<4.0a0``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on ncbi-vdb: ``>=3.2.1,<4.0a0``
+   :depends on entrez-direct: ``>=25.3,<26.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libsqlite: ``>=3.53.2,<4.0a0``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on ncbi-vdb: ``>=3.4.1,<4.0a0``
    :depends on perl: 
    :depends on perl-archive-tar: 
    :depends on perl-json: 
@@ -131,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "rmblast";
-      var versions = ["2.14.1","2.14.1","2.14.1","2.14.0","2.14.0"];
+      var versions = ["2.17.0","2.14.1","2.14.1","2.14.1","2.14.0"];
    </script>
 
 .. rubric:: Download stats

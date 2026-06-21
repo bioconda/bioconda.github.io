@@ -14,7 +14,7 @@ r-syntactic
 
    :homepage: https://r.acidgenomics.com/packages/syntactic/
    :developer docs: https://github.com/acidgenomics/r-syntactic
-   :license: GPL / AGPL-3
+   :license: APACHE / Apache-2.0
    :recipe: /`r-syntactic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-syntactic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-syntactic/meta.yaml>`_
 
    

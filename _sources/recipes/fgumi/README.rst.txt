@@ -13,7 +13,7 @@ fgumi
    High\-performance tools for UMI\-tagged sequencing data.
 
    :homepage: https://github.com/fulcrumgenomics/fgumi
-   :documentation: https://github.com/fulcrumgenomics/fgumi/blob/v0.3.1/README.md
+   :documentation: https://github.com/fulcrumgenomics/fgumi/blob/v0.4.0/README.md
    
    :license: MIT / MIT
    :recipe: /`fgumi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fgumi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fgumi/meta.yaml>`_
@@ -29,7 +29,7 @@ fgumi
       
       
 
-      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -116,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "fgumi";
-      var versions = ["0.3.0","0.2.0","0.1.3","0.1.2","0.1.1"];
+      var versions = ["0.4.0","0.3.1","0.3.0","0.2.0","0.1.3"];
    </script>
 
 .. rubric:: Download stats

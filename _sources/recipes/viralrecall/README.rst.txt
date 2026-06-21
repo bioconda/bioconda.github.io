@@ -12,7 +12,7 @@ viralrecall
 
    Tool to identify giant viruses integrated into eukaryotic genomes
 
-   :homepage: https://github.com/abdealijivaji/ViralRecall_3.0
+   :homepage: https://github.com/abdealijivaji/ViralRecall
    :license: MIT / MIT
    :recipe: /`viralrecall <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/viralrecall>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/viralrecall/meta.yaml>`_
 
@@ -27,11 +27,12 @@ viralrecall
       
       
 
-      ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``
+      ``3.1.0-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-0``
 
       
 
    
+   :depends on joblib: ``1.5.*``
    :depends on matplotlib-base: ``>=3.10,<3.11``
    :depends on numpy: ``>=2.2,<2.3``
    :depends on pandas: ``>=2.2,<2.3``
@@ -41,6 +42,7 @@ viralrecall
    :depends on pyrodigal-gv: ``>=0.3``
    :depends on python: ``>=3.10,<3.14``
    :depends on requests: ``>=2.32,<2.33``
+   :depends on scikit-learn: ``1.8.*``
 
    :additional platforms:
       
@@ -115,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "viralrecall";
-      var versions = ["3.0.3","3.0.2","3.0.1"];
+      var versions = ["3.1.0","3.0.3","3.0.2","3.0.1"];
    </script>
 
 .. rubric:: Download stats

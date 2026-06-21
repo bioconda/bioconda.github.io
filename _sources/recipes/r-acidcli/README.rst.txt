@@ -10,11 +10,11 @@ r-acidcli
    :replaces_section_title:
    :noindex:
 
-   Interative R command line interface toolkit for Acid Genomics packages.
+   Interactive R command line interface toolkit for Acid Genomics packages.
 
    :homepage: https://r.acidgenomics.com/packages/acidcli/
    :developer docs: https://github.com/acidgenomics/r-acidcli
-   :license: GPL / AGPL-3.0
+   :license: APACHE / Apache-2.0
    :recipe: /`r-acidcli <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidcli>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidcli/meta.yaml>`_
 
    

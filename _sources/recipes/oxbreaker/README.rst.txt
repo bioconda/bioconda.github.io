@@ -13,7 +13,7 @@ oxbreaker
    GTK4 GUI wrapper that launches a Nextflow pipeline
 
    :homepage: https://gitlab.com/rc-reding/OxBreaker
-   :license: LGPL / LGPL-2.1-only
+   :license: LGPL-2.1
    :recipe: /`oxbreaker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/oxbreaker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/oxbreaker/meta.yaml>`_
    :links: doi: :doi:`10.64898/2026.03.18.709804`
 
@@ -28,7 +28,7 @@ oxbreaker
       
       
 
-      ``1.0.1-0``,  ``1.0-0``
+      ``1.1-0``,  ``1.0.1-0``,  ``1.0-0``
 
       
 
@@ -116,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "oxbreaker";
-      var versions = ["1.0.1","1.0"];
+      var versions = ["1.1","1.0.1","1.0"];
    </script>
 
 .. rubric:: Download stats

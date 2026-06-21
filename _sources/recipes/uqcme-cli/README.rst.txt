@@ -30,11 +30,17 @@ uqcme-cli
       
       
 
-      
+      ``0.9.2-0``
 
       
 
    
+   :depends on pandas: ``>=2.0.0,<3``
+   :depends on pandera: ``>=0.30.0,<0.31``
+   :depends on pydantic: ``>=2.0.0``
+   :depends on python: ``>=3.12,<3.15``
+   :depends on pyyaml: ``>=6.0``
+   :depends on requests: ``>=2.31.0``
 
    :additional platforms:
       
@@ -109,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "uqcme-cli";
-      var versions = [];
+      var versions = ["0.9.2"];
    </script>
 
 .. rubric:: Download stats

@@ -12,8 +12,8 @@ funtaxfinder
 
    Screen functional microbial ASVs from PICRUSt2 KO predictions
 
-   :homepage: https://github.com/YOUR_GITHUB_USERNAME/funtaxfinder
-   :documentation: https://github.com/YOUR_GITHUB_USERNAME/funtaxfinder#readme
+   :homepage: https://github.com/Zhoufengwu/funtaxfinder
+   :documentation: https://github.com/Zhoufengwu/funtaxfinder#readme
    
    :license: MIT
    :recipe: /`funtaxfinder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/funtaxfinder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/funtaxfinder/meta.yaml>`_
@@ -33,11 +33,14 @@ funtaxfinder
       
       
 
-      
+      ``0.1.0-0``
 
       
 
    
+   :depends on pandas: 
+   :depends on picrust2: ``>=2.6.3``
+   :depends on python: ``>=3.10``
 
    :additional platforms:
       
@@ -112,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "funtaxfinder";
-      var versions = [];
+      var versions = ["0.1.0"];
    </script>
 
 .. rubric:: Download stats

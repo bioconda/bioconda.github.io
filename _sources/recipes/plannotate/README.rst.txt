@@ -13,7 +13,7 @@ plannotate
    Webserver and command line tool for annotating engineered plasmids.
 
    :homepage: https://github.com/mmcguffi/pLannotate
-   :documentation: https://github.com/mmcguffi/pLannotate/blob/v1.2.4/README.md
+   :documentation: https://github.com/mmcguffi/pLannotate/blob/v1.2.5/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`plannotate <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plannotate>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plannotate/meta.yaml>`_
@@ -29,25 +29,33 @@ plannotate
    :versions:
       
       
+      .. raw:: html
 
-      ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-4``,  ``1.2.0-3``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.2.5-0</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-4</code>,  <code>1.2.0-3</code>,  <code>1.2.0-2</code>,  <code>1.2.0-1</code>,  </span></summary>
+      
 
+      ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-4``,  ``1.2.0-3``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends on altair: ``4.2.*``
+   :depends on altair: ``4.2.2.*``
    :depends on biopython: ``>=1.78``
    :depends on blast: ``>=2.10.1``
-   :depends on bokeh: ``2.4.1.*``
+   :depends on bokeh: ``2.4.3.*``
    :depends on click: 
    :depends on curl: 
    :depends on diamond: ``>=2.0.13``
-   :depends on numpy: 
-   :depends on pandas: ``>=1.3.5,<2.0.0``
-   :depends on protobuf: ``3.20.*``
-   :depends on python: ``>=3.9,<3.13``
+   :depends on numpy: ``>=1.23,<2``
+   :depends on pandas: ``>=1.3.5,<3``
+   :depends on protobuf: ``>=3.20.3``
+   :depends on python: ``>=3.10``
    :depends on ripgrep: ``>=13.0.0``
-   :depends on streamlit: ``1.8.1.*``
+   :depends on streamlit: ``>=1.36,<1.42``
    :depends on tabulate: ``>=0.8.9``
    :depends on trnascan-se: ``>=2.0.7``
 
@@ -124,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "plannotate";
-      var versions = ["1.2.4","1.2.3","1.2.2","1.2.1","1.2.0"];
+      var versions = ["1.2.5","1.2.4","1.2.3","1.2.2","1.2.1"];
    </script>
 
 .. rubric:: Download stats

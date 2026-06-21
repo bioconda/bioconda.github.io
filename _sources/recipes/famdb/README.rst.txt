@@ -27,11 +27,13 @@ famdb
       
       
 
-      
+      ``3.0.0-0``
 
       
 
    
+   :depends on h5py: 
+   :depends on python: ``>=3.9``
 
    :additional platforms:
       
@@ -106,7 +108,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "famdb";
-      var versions = [];
+      var versions = ["3.0.0"];
    </script>
 
 .. rubric:: Download stats

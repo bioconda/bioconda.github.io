@@ -13,7 +13,7 @@ tgv
    Explore genomes in the terminal. Light\, blazing fast 🚀\, vim\-motion.
 
    :homepage: https://github.com/zeqianli/tgv
-   :documentation: https://github.com/zeqianli/tgv/blob/v0.2.0/README.md
+   :documentation: https://github.com/zeqianli/tgv/blob/v0.3.0/README.md
    
    :license: MIT / MIT
    :recipe: /`tgv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tgv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tgv/meta.yaml>`_

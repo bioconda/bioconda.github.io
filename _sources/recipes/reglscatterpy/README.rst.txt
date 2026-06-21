@@ -33,11 +33,15 @@ reglscatterpy
       
       
 
-      
+      ``0.4.1-0``
 
       
 
    
+   :depends on anywidget: ``>=0.9``
+   :depends on numpy: 
+   :depends on pandas: 
+   :depends on python: ``>=3.9``
 
    :additional platforms:
       
@@ -112,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "reglscatterpy";
-      var versions = [];
+      var versions = ["0.4.1"];
    </script>
 
 .. rubric:: Download stats
