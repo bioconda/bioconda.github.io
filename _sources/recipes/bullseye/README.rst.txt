@@ -1,59 +1,39 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'predictosaurus'
+.. title:: Package Recipe 'bullseye'
 .. highlight: bash
 
-predictosaurus
-==============
+bullseye
+========
 
-.. conda:recipe:: predictosaurus
+.. conda:recipe:: bullseye
    :replaces_section_title:
    :noindex:
 
-   Predictosaurus is a command\-line tool designed for uncertainty\-aware haplotype\-based genomic variant effect prediction.
+   An Analysis pipeline for DART\-seq\, scDART\-seq\, TRIBE\, STAMP and TRIBE\-STAMP. Bullseye contains a set of perl scripts for parsing BAM files and identifying RNA editing sites.
 
-   :homepage: https://github.com/fxwiegand/predictosaurus
-   :documentation: https://github.com/fxwiegand/predictosaurus/blob/v0.13.2/README.md
-   
+   :homepage: https://github.com/mflamand/Bullseye
    :license: MIT / MIT
-   :recipe: /`predictosaurus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/predictosaurus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/predictosaurus/meta.yaml>`_
+   :recipe: /`bullseye <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bullseye>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bullseye/meta.yaml>`_
 
    
 
 
-.. conda:package:: predictosaurus
+.. conda:package:: bullseye
 
-   |downloads_predictosaurus| |docker_predictosaurus|
+   |downloads_bullseye| |docker_bullseye|
 
    :versions:
       
       
-      .. raw:: html
-
-         <details><summary><span class="truncated-version-list"><code>0.13.1-0</code>,  <code>0.13.0-0</code>,  <code>0.12.8-0</code>,  <code>0.12.7-0</code>,  <code>0.12.6-0</code>,  <code>0.12.5-0</code>,  <code>0.12.4-0</code>,  <code>0.12.3-0</code>,  <code>0.12.2-0</code>,  </span></summary>
-      
-
-      ``0.13.1-0``,  ``0.13.0-0``,  ``0.12.8-0``,  ``0.12.7-0``,  ``0.12.6-0``,  ``0.12.5-0``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.3-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.10.5-0``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.4-0``,  ``0.8.3-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
-      .. raw:: html
 
-         </details>
       
 
    
-   :depends on gsl: ``>=2.7,<2.8.0a0``
-   :depends on libcblas: ``>=3.9.0,<4.0a0``
-   :depends on libcurl: ``>=8.20.0,<9.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
-   :depends on openssl: ``>=3.5.7,<4.0a0``
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -71,11 +51,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install predictosaurus
+    pixi global install bullseye
 
 to add into an existing workspace instead, run::
 
-    pixi add predictosaurus
+    pixi add bullseye
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -87,11 +67,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install predictosaurus
+    conda install bullseye
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname predictosaurus
+    conda create -n envname bullseye
 
 with ``envname`` being the name of the desired environment.
 
@@ -101,9 +81,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/predictosaurus:<tag>
+    docker pull quay.io/biocontainers/bullseye:<tag>
 
-(see `predictosaurus/tags`_ for valid values for ``<tag>``).
+(see `bullseye/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -114,28 +94,28 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_predictosaurus| image:: https://img.shields.io/conda/dn/bioconda/predictosaurus.svg?style=flat
-   :target: https://anaconda.org/bioconda/predictosaurus
+.. |downloads_bullseye| image:: https://img.shields.io/conda/dn/bioconda/bullseye.svg?style=flat
+   :target: https://anaconda.org/bioconda/bullseye
    :alt:   (downloads)
-.. |docker_predictosaurus| image:: https://quay.io/repository/biocontainers/predictosaurus/status
-   :target: https://quay.io/repository/biocontainers/predictosaurus
-.. _`predictosaurus/tags`: https://quay.io/repository/biocontainers/predictosaurus?tab=tags
+.. |docker_bullseye| image:: https://quay.io/repository/biocontainers/bullseye/status
+   :target: https://quay.io/repository/biocontainers/bullseye
+.. _`bullseye/tags`: https://quay.io/repository/biocontainers/bullseye?tab=tags
 
 
 .. raw:: html
 
    <script>
-      var package = "predictosaurus";
-      var versions = ["0.13.1","0.13.0","0.12.8","0.12.7","0.12.6"];
+      var package = "bullseye";
+      var versions = [];
    </script>
 
 .. rubric:: Download stats
 
 .. raw:: html
     
-   <div style="width: 100%" id="download_plot_predictosaurus"></div>
-   <div style="width: 100%" id="platform_plot_predictosaurus"></div>
-   <div style="width: 100%" id="cdf_plot_predictosaurus"></div>
+   <div style="width: 100%" id="download_plot_bullseye"></div>
+   <div style="width: 100%" id="platform_plot_bullseye"></div>
+   <div style="width: 100%" id="cdf_plot_bullseye"></div>
 
 
 
@@ -152,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
    <script>
       window.onload = async function() {
          
-            // Build cdf plot for predictosaurus
+            // Build cdf plot for bullseye
             try {
                const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
                if (!cdf_spec_resp.ok) {
@@ -164,7 +144,7 @@ Check the documentation of your workflow management system to find out about the
                    throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
                }
                const cdf_plot_data = await cdf_data_resp.json();
-               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/predictosaurus/cdf.json`)
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/bullseye/cdf.json`)
                if (!point_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
                }
@@ -172,43 +152,43 @@ Check the documentation of your workflow management system to find out about the
     
                cdf_spec.data.values = cdf_plot_data;
                cdf_spec.data.values.push(single_point.pop());
-               vegaEmbed('#cdf_plot_predictosaurus', cdf_spec);
+               vegaEmbed('#cdf_plot_bullseye', cdf_spec);
             } catch (err) {
                console.error("An error occurred while building CDF plot: ", err)
             }
     
-            // Build download plot for predictosaurus
+            // Build download plot for bullseye
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/predictosaurus/versions.json`)
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/bullseye/versions.json`)
                if (!version_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
                }
                const plot_data = await version_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#download_plot_predictosaurus', spec);
+               vegaEmbed('#download_plot_bullseye', spec);
             } catch (err) {
                console.error("An error occurred while building downloads plot: ", err)
             }
    
-            // Build platform download plot for predictosaurus
+            // Build platform download plot for bullseye
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/predictosaurus/platforms.json`)
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/bullseye/platforms.json`)
                if (!platform_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
                }
                const plot_data = await platform_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#platform_plot_predictosaurus', spec);
+               vegaEmbed('#platform_plot_bullseye', spec);
             } catch (err) {
                console.error("An error occurred while building platform downloads plot: ", err)
             }
@@ -223,7 +203,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/predictosaurus/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bullseye/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/predictosaurus/README.html
+   :target: http://bioconda.github.io/recipes/bullseye/README.html

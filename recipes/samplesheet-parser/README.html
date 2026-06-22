@@ -67,13 +67,13 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">samplesheet-parser</span></span></dt>
-<dd><p>Format-agnostic parser for Illumina SampleSheet.csv files — supports IEM V1 and BCLConvert V2</p>
+<dd><p>Multi-vendor, format-agnostic parser for sequencing sample sheets — Illumina IEM V1 &amp; BCLConvert V2 plus Element AVITI run manifests, with index validation and color-balance checking</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/chaitanyakasaraneni/samplesheet-parser">https://github.com/chaitanyakasaraneni/samplesheet-parser</a></p>
 </dd>
 <dt class="field-even">Documentation<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="reference external" href="https://illumina-samplesheet.readthedocs.io">https://illumina-samplesheet.readthedocs.io</a></p>
+<dd class="field-even"><p><a class="reference external" href="https://samplesheet-parser.readthedocs.io">https://samplesheet-parser.readthedocs.io</a></p>
 </dd>
 <dt class="field-odd">License<span class="colon">:</span></dt>
 <dd class="field-odd"><p>Apache-2.0</p>
@@ -83,10 +83,12 @@
 </dd>
 </dl>
 <p>A Python library for parsing, validating, converting, and merging
-Illumina SampleSheet V1 and V2 files for BCLConvert and bcl2fastq.
-Provides format auto-detection, bidirectional V1/V2 conversion,
-structural and index validation, sheet diffing, and cross-project
-merging with Hamming-distance collision detection.</p>
+sequencing sample sheets behind one interface. Auto-detects Illumina
+IEM V1 and BCLConvert V2 sheets as well as non-Illumina Element AVITI
+run manifests, and provides bidirectional V1/V2 conversion, structural
+and index validation (including Hamming distance and per-cycle
+color-balance checking against each instrument's optical chemistry),
+sheet diffing, and cross-project merging with collision detection.</p>
 </dd></dl>
 
 <dl class="conda package">

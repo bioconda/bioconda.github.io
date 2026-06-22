@@ -14,7 +14,7 @@ r-acidmarkdown
 
    :homepage: https://r.acidgenomics.com/packages/acidmarkdown/
    :developer docs: https://github.com/acidgenomics/r-acidmarkdown
-   :license: GPL / AGPL-3.0
+   :license: APACHE / Apache-2.0
    :recipe: /`r-acidmarkdown <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidmarkdown>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidmarkdown/meta.yaml>`_
 
    

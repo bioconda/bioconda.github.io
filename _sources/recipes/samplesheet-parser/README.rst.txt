@@ -10,19 +10,21 @@ samplesheet-parser
    :replaces_section_title:
    :noindex:
 
-   Format\-agnostic parser for Illumina SampleSheet.csv files — supports IEM V1 and BCLConvert V2
+   Multi\-vendor\, format\-agnostic parser for sequencing sample sheets — Illumina IEM V1 \& BCLConvert V2 plus Element AVITI run manifests\, with index validation and color\-balance checking
 
    :homepage: https://github.com/chaitanyakasaraneni/samplesheet-parser
-   :documentation: https://illumina-samplesheet.readthedocs.io
+   :documentation: https://samplesheet-parser.readthedocs.io
    
    :license: Apache-2.0
    :recipe: /`samplesheet-parser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samplesheet-parser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samplesheet-parser/meta.yaml>`_
 
    A Python library for parsing\, validating\, converting\, and merging
-   Illumina SampleSheet V1 and V2 files for BCLConvert and bcl2fastq.
-   Provides format auto\-detection\, bidirectional V1\/V2 conversion\,
-   structural and index validation\, sheet diffing\, and cross\-project
-   merging with Hamming\-distance collision detection.
+   sequencing sample sheets behind one interface. Auto\-detects Illumina
+   IEM V1 and BCLConvert V2 sheets as well as non\-Illumina Element AVITI
+   run manifests\, and provides bidirectional V1\/V2 conversion\, structural
+   and index validation \(including Hamming distance and per\-cycle
+   color\-balance checking against each instrument\'s optical chemistry\)\,
+   sheet diffing\, and cross\-project merging with collision detection.
 
 
 

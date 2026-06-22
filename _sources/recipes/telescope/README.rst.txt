@@ -10,7 +10,10 @@ telescope
    :replaces_section_title:
    :noindex:
 
-   Single locus resolution of Transposable ELEment expression.
+   Single locus resolution of Transposable ELEment expression. This is an updated release from the original code to
+   fix a bug and reinstate \-\-stranded\_mode. The code for 1.0.4 is from a fork \(https\:\/\/github.com\/hanalysis\/telescope\)
+   of the original repo\, with cherry\-picked commits from the sc\-remove branch of the original.
+
 
    :homepage: https://github.com/mlbendall/telescope
    :license: MIT / MIT
