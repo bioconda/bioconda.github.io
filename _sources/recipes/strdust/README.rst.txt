@@ -13,7 +13,7 @@ strdust
    Tandem repeat genotyper for long reads.
 
    :homepage: https://github.com/wdecoster/STRdust
-   :documentation: https://github.com/wdecoster/STRdust/blob/v0.18.0/README.md
+   :documentation: https://github.com/wdecoster/STRdust/blob/v0.19.0/README.md
    
    :license: MIT / MIT
    :recipe: /`strdust <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strdust>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strdust/meta.yaml>`_
