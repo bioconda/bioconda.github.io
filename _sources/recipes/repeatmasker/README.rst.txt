@@ -30,10 +30,10 @@ repeatmasker
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.2.3-0</code>,  <code>4.2.2-0</code>,  <code>4.2.1-0</code>,  <code>4.2.0-0</code>,  <code>4.1.9-0</code>,  <code>4.1.8-0</code>,  <code>4.1.7p1-1</code>,  <code>4.1.7p1-0</code>,  <code>4.1.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.2.4-0</code>,  <code>4.2.3-0</code>,  <code>4.2.2-0</code>,  <code>4.2.1-0</code>,  <code>4.2.0-0</code>,  <code>4.1.9-0</code>,  <code>4.1.8-0</code>,  <code>4.1.7p1-1</code>,  <code>4.1.7p1-0</code>,  </span></summary>
       
 
-      ``4.2.3-0``,  ``4.2.2-0``,  ``4.2.1-0``,  ``4.2.0-0``,  ``4.1.9-0``,  ``4.1.8-0``,  ``4.1.7p1-1``,  ``4.1.7p1-0``,  ``4.1.5-1``,  ``4.1.5-0``,  ``4.1.2.p1-1``,  ``4.1.2.p1-0``,  ``4.1.1-2``,  ``4.1.1-1``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.9_p2-2``,  ``4.0.9_p2-1``,  ``4.0.9_p2-0``,  ``4.0.8-14``,  ``4.0.8-13``,  ``4.0.7-13``,  ``4.0.7-11``,  ``4.0.7-10``,  ``4.0.6-10``,  ``4.0.6-9``,  ``4.0.6-8``,  ``4.0.6-7``,  ``4.0.6-6``,  ``4.0.6-5``,  ``4.0.6-4``
+      ``4.2.4-0``,  ``4.2.3-0``,  ``4.2.2-0``,  ``4.2.1-0``,  ``4.2.0-0``,  ``4.1.9-0``,  ``4.1.8-0``,  ``4.1.7p1-1``,  ``4.1.7p1-0``,  ``4.1.5-1``,  ``4.1.5-0``,  ``4.1.2.p1-1``,  ``4.1.2.p1-0``,  ``4.1.1-2``,  ``4.1.1-1``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.9_p2-2``,  ``4.0.9_p2-1``,  ``4.0.9_p2-0``,  ``4.0.8-14``,  ``4.0.8-13``,  ``4.0.7-13``,  ``4.0.7-11``,  ``4.0.7-10``,  ``4.0.6-10``,  ``4.0.6-9``,  ``4.0.6-8``,  ``4.0.6-7``,  ``4.0.6-6``,  ``4.0.6-5``,  ``4.0.6-4``
 
       
       .. raw:: html
@@ -42,10 +42,11 @@ repeatmasker
       
 
    
+   :depends on famdb: 
    :depends on h5py: 
    :depends on hmmer: 
    :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends on rmblast: 
+   :depends on rmblast: ``>=2.17.0``
    :depends on trf: 
    :depends on wget: 
 
@@ -122,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "repeatmasker";
-      var versions = ["4.2.3","4.2.2","4.2.1","4.2.0","4.1.9"];
+      var versions = ["4.2.4","4.2.3","4.2.2","4.2.1","4.2.0"];
    </script>
 
 .. rubric:: Download stats

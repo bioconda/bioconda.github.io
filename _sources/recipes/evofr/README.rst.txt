@@ -30,10 +30,10 @@ evofr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.27-0</code>,  <code>0.1.26-0</code>,  <code>0.1.25-0</code>,  <code>0.1.23-0</code>,  <code>0.1.22-0</code>,  <code>0.1.21-0</code>,  <code>0.1.20-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.1-1</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.27-0</code>,  <code>0.1.26-0</code>,  <code>0.1.25-0</code>,  <code>0.1.23-0</code>,  <code>0.1.22-0</code>,  <code>0.1.21-0</code>,  </span></summary>
       
 
-      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.27-0``,  ``0.1.26-0``,  ``0.1.25-0``,  ``0.1.23-0``,  ``0.1.22-0``,  ``0.1.21-0``,  ``0.1.20-1``,  ``0.1.20-0``,  ``0.1.19-0``,  ``0.1.18-1``,  ``0.1.18-0``,  ``0.1.17-0``,  ``0.1.16-0``,  ``0.1.15-0``,  ``0.1.14-0``
+      ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.27-0``,  ``0.1.26-0``,  ``0.1.25-0``,  ``0.1.23-0``,  ``0.1.22-0``,  ``0.1.21-0``,  ``0.1.20-1``,  ``0.1.20-0``,  ``0.1.19-0``,  ``0.1.18-1``,  ``0.1.18-0``,  ``0.1.17-0``,  ``0.1.16-0``,  ``0.1.15-0``,  ``0.1.14-0``
 
       
       .. raw:: html
@@ -46,9 +46,9 @@ evofr
    :depends on jax: ``>=0.4.14,<0.5.0``
    :depends on jaxlib: ``>=0.4.1,<0.5.0``
    :depends on matplotlib-base: ``>=3.9,<4``
-   :depends on numpy: ``>=1.22.4,<2.0.0``
+   :depends on numpy: ``>=1.22.4``
    :depends on numpyro: ``>=0.13.2,<0.14.0``
-   :depends on pandas: ``>=1.4.2,<2.0.0``
+   :depends on pandas: ``>=1.4.2``
    :depends on python: ``>=3.9``
    :depends on pyyaml: ``>=5,<7``
    :depends on seaborn-base: ``>=0.13.2,<0.14.0``
@@ -126,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "evofr";
-      var versions = ["0.2.1","0.2.0","0.1.27","0.1.26","0.1.25"];
+      var versions = ["0.2.1","0.2.1","0.2.0","0.1.27","0.1.26"];
    </script>
 
 .. rubric:: Download stats

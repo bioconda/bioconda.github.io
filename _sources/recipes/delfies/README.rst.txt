@@ -28,11 +28,19 @@ delfies
       
       
 
-      
+      ``0.11.0-0``,  ``0.10.0-0``
 
       
 
    
+   :depends on click: ``>=8.1.7,<9.0.0``
+   :depends on datasci-bricoletc: ``>=0.1.1,<0.2.0``
+   :depends on edlib: ``>=1.3.9,<2.0.0``
+   :depends on pybedtools: ``>=0.9.1,<0.10.0``
+   :depends on pyfastx: ``>=2.1.0,<3.0.0``
+   :depends on pysam: ``>=0.22.0,<0.23.0``
+   :depends on python: ``>=3.9.0,<4.0.0``
+   :depends on rich-click: ``>=1.7.3,<2.0.0``
 
    :additional platforms:
       
@@ -107,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "delfies";
-      var versions = [];
+      var versions = ["0.11.0","0.10.0"];
    </script>
 
 .. rubric:: Download stats

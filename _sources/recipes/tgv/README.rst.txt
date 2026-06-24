@@ -29,7 +29,7 @@ tgv
       
       
 
-      ``0.2.0-0``,  ``0.1.0-0``,  ``0.0.6-0``
+      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``,  ``0.0.6-0``
 
       
 
@@ -37,10 +37,10 @@ tgv
    :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on htslib: ``>=1.23.1,<1.24.0a0``
    :depends on libgcc: ``>=14``
-   :depends on libsqlite: ``>=3.53.0,<4.0a0``
+   :depends on libsqlite: ``>=3.53.2,<4.0a0``
    :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
-   :depends on openssl: ``>=3.5.6,<4.0a0``
+   :depends on openssl: ``>=3.5.7,<4.0a0``
 
    :additional platforms:
       
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "tgv";
-      var versions = ["0.2.0","0.1.0","0.0.6"];
+      var versions = ["0.3.0","0.2.0","0.1.0","0.0.6"];
    </script>
 
 .. rubric:: Download stats

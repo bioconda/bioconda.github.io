@@ -29,14 +29,14 @@ funannotate2
       
       
 
-      ``26.6.9-0``,  ``26.4.22-0``,  ``26.2.12-0``
+      ``26.6.21-0``,  ``26.6.9-0``,  ``26.4.22-0``,  ``26.2.12-0``
 
       
 
    
    :depends on annorefine: ``>=2026.2.9``
    :depends on augustus: ``>=3.5.0``
-   :depends on buscolite: ``>=26.1.26``
+   :depends on buscolite: ``>=26.6.21``
    :depends on diamond: 
    :depends on gapmm2: ``>=25.8.12``
    :depends on gb-io: ``>=0.3.2``
@@ -49,7 +49,7 @@ funannotate2
    :depends on psutil: 
    :depends on pyfastx: ``>=2.0.0``
    :depends on pyhmmer: ``>=0.12.0``
-   :depends on pytantan: 
+   :depends on pytantan: ``>=0.1.4``
    :depends on python: ``>=3.7,<3.14``
    :depends on requests: 
    :depends on snap: 
@@ -129,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "funannotate2";
-      var versions = ["26.6.9","26.4.22","26.2.12"];
+      var versions = ["26.6.21","26.6.9","26.4.22","26.2.12"];
    </script>
 
 .. rubric:: Download stats

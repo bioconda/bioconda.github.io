@@ -29,9 +29,17 @@ strdust
    :versions:
       
       
+      .. raw:: html
 
-      ``0.18.0-0``,  ``0.16.0-0``,  ``0.14.0-0``,  ``0.13.0-0``,  ``0.11.4-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.8.2-0``,  ``0.8.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.19.0-0</code>,  <code>0.18.0-0</code>,  <code>0.16.0-0</code>,  <code>0.14.0-0</code>,  <code>0.13.0-0</code>,  <code>0.11.4-0</code>,  <code>0.11.1-0</code>,  <code>0.11.0-0</code>,  <code>0.8.2-0</code>,  </span></summary>
+      
 
+      ``0.19.0-0``,  ``0.18.0-0``,  ``0.16.0-0``,  ``0.14.0-0``,  ``0.13.0-0``,  ``0.11.4-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.8.2-0``,  ``0.8.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -117,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "strdust";
-      var versions = ["0.18.0","0.16.0","0.14.0","0.13.0","0.11.4"];
+      var versions = ["0.19.0","0.18.0","0.16.0","0.14.0","0.13.0"];
    </script>
 
 .. rubric:: Download stats

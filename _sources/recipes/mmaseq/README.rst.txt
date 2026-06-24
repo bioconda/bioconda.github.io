@@ -27,11 +27,16 @@ mmaseq
       
       
 
-      
+      ``1.0.0-0``
 
       
 
    
+   :depends on conda: 
+   :depends on packaging: ``<26,>=24.0``
+   :depends on pandas: 
+   :depends on python: ``>=3.13``
+   :depends on snakemake: 
 
    :additional platforms:
       
@@ -106,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mmaseq";
-      var versions = [];
+      var versions = ["1.0.0"];
    </script>
 
 .. rubric:: Download stats

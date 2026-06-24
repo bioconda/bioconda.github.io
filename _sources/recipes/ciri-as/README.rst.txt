@@ -30,11 +30,14 @@ ciri-as
       
       
 
-      
+      ``1.2-0``
 
       
 
    
+   :depends on bwa: 
+   :depends on perl: ``>=5.12``
+   :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
 
    :additional platforms:
       
@@ -109,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ciri-as";
-      var versions = [];
+      var versions = ["1.2"];
    </script>
 
 .. rubric:: Download stats

@@ -29,10 +29,10 @@ fastqc-rs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.4-1</code>,  <code>0.3.4-0</code>,  <code>0.3.2-2</code>,  <code>0.3.2-1</code>,  <code>0.3.2-0</code>,  <code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.5-0</code>,  <code>0.3.4-1</code>,  <code>0.3.4-0</code>,  <code>0.3.2-2</code>,  <code>0.3.2-1</code>,  <code>0.3.2-0</code>,  <code>0.3.1-1</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  </span></summary>
       
 
-      ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.3.5-0``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.2-2``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-2``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -42,13 +42,14 @@ fastqc-rs
 
    
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on freetype: ``>=2.12.1,<3.0a0``
-   :depends on libexpat: ``>=2.6.4,<3.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on liblzma: ``>=5.6.3,<6.0a0``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on openssl: ``>=3.4.0,<4.0a0``
+   :depends on libexpat: ``>=2.8.1,<3.0a0``
+   :depends on libfreetype: ``>=2.14.3``
+   :depends on libfreetype6: ``>=2.14.3``
+   :depends on libgcc: ``>=14``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on openssl: ``>=3.5.7,<4.0a0``
 
    :additional platforms:
       
@@ -127,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "fastqc-rs";
-      var versions = ["0.3.4","0.3.4","0.3.2","0.3.2","0.3.2"];
+      var versions = ["0.3.5","0.3.4","0.3.4","0.3.2","0.3.2"];
    </script>
 
 .. rubric:: Download stats

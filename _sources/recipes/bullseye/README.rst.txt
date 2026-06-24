@@ -27,11 +27,21 @@ bullseye
       
       
 
-      
+      ``1.0.0-0``
 
       
 
    
+   :depends on bedtools: 
+   :depends on htslib: 
+   :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
+   :depends on perl-array-intspan: 
+   :depends on perl-bio-db-hts: 
+   :depends on perl-bioperl: 
+   :depends on perl-math-cdf: 
+   :depends on perl-mce: 
+   :depends on perl-text-nsp: 
+   :depends on samtools: 
 
    :additional platforms:
       
@@ -106,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bullseye";
-      var versions = [];
+      var versions = ["1.0.0"];
    </script>
 
 .. rubric:: Download stats

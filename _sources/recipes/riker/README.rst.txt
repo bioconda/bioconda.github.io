@@ -13,7 +13,7 @@ riker
    High\-performance tools next generation sequencing QC.
 
    :homepage: https://github.com/fulcrumgenomics/riker
-   :documentation: https://github.com/fulcrumgenomics/riker/blob/v0.2.0/README.md
+   :documentation: https://github.com/fulcrumgenomics/riker/blob/v0.3.0/README.md
    
    :license: MIT / MIT
    :recipe: /`riker <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/riker>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/riker/meta.yaml>`_
@@ -29,7 +29,7 @@ riker
       
       
 
-      ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.3.0-0``,  ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "riker";
-      var versions = ["0.2.0","0.2.0","0.1.0"];
+      var versions = ["0.3.0","0.2.0","0.2.0","0.1.0"];
    </script>
 
 .. rubric:: Download stats

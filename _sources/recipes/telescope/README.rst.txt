@@ -31,21 +31,23 @@ telescope
       
       
 
-      ``1.0.3-5``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.3_fix-0``
+      ``1.0.4-0``,  ``1.0.3-5``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.3_fix-0``
 
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on future: ``>=0.17.1``
-   :depends on htslib: ``>=1.15.1,<1.24.0a0``
-   :depends on intervaltree: ``>=3.0.2``
-   :depends on libgcc-ng: ``>=12``
-   :depends on numpy: ``>=1.23.1,<2.0a0``
-   :depends on pysam: ``>=0.15.2``
-   :depends on python: ``>=3.10,<3.11.0a0``
-   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on htslib: ``>=1.9,<1.10.0a0``
+   :depends on intervaltree: ``3.0.2``
+   :depends on libgcc: ``>=14``
+   :depends on numpy: ``1.16.3``
+   :depends on pysam: ``0.15.2``
+   :depends on python: ``>=3.6,<3.7.0a0``
+   :depends on python_abi: ``3.6.* *_cp36m``
    :depends on pyyaml: ``>=5.1``
-   :depends on scipy: ``>=1.2.1``
+   :depends on scipy: ``1.2.1``
+   :depends on setuptools: ``<60``
 
    :additional platforms:
       
@@ -120,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "telescope";
-      var versions = ["1.0.3","1.0.3","1.0.3","1.0.3","1.0.3"];
+      var versions = ["1.0.4","1.0.3","1.0.3","1.0.3","1.0.3"];
    </script>
 
 .. rubric:: Download stats

@@ -27,11 +27,16 @@ panxpress
       
       
 
-      
+      ``0.2.2.2-0``
 
       
 
    
+   :depends on jsonargparse: ``>=4.29.0``
+   :depends on numba: 
+   :depends on numpy: 
+   :depends on pytest: 
+   :depends on python: ``>=3.12``
 
    :additional platforms:
       
@@ -106,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "panxpress";
-      var versions = [];
+      var versions = ["0.2.2.2"];
    </script>
 
 .. rubric:: Download stats

@@ -27,7 +27,7 @@ scitrack
       
       
 
-      ``2026.6.8-0``,  ``2024.10.8-0``,  ``2021.5.3-0``
+      ``2026.6.24-0``,  ``2026.6.8-0``,  ``2024.10.8-0``,  ``2021.5.3-0``
 
       
 
@@ -107,7 +107,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "scitrack";
-      var versions = ["2026.6.8","2024.10.8","2021.5.3"];
+      var versions = ["2026.6.24","2026.6.8","2024.10.8","2021.5.3"];
    </script>
 
 .. rubric:: Download stats
