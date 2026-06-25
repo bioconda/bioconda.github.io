@@ -33,13 +33,14 @@ logan_blaster
       
       
 
-      ``0.1.3-0``
+      ``0.1.3-1``,  ``0.1.3-0``
 
       
 
    
    :depends on back_to_sequences: 
    :depends on blast: 
+   :depends on count_logan_tig_coverage: 
    :depends on jq: 
    :depends on python: ``>=3.8``
    :depends on wget: 
@@ -117,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "logan_blaster";
-      var versions = ["0.1.3"];
+      var versions = ["0.1.3","0.1.3"];
    </script>
 
 .. rubric:: Download stats

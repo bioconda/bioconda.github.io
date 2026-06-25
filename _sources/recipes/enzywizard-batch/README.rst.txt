@@ -35,7 +35,7 @@ enzywizard-batch
       
       
 
-      ``1.0.2-0``
+      ``1.0.2-1``,  ``1.0.2-0``
 
       
 
@@ -46,13 +46,14 @@ enzywizard-batch
    :depends on fair-esm: 
    :depends on hmmer: 
    :depends on meeko: 
-   :depends on numpy: 
+   :depends on msms: 
+   :depends on numpy: ``>=1.23,<2``
    :depends on openmm: 
    :depends on packaging: 
    :depends on pdbfixer: 
    :depends on prody: 
    :depends on python: ``>=3.10``
-   :depends on rdkit: 
+   :depends on rdkit: ``<=2026.3.1``
    :depends on requests: 
    :depends on vina: 
 
@@ -129,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "enzywizard-batch";
-      var versions = ["1.0.2"];
+      var versions = ["1.0.2","1.0.2"];
    </script>
 
 .. rubric:: Download stats

@@ -26,9 +26,17 @@ perl-text-csv_xs
    :versions:
       
       
+      .. raw:: html
 
-      ``1.62-0``,  ``1.61-0``,  ``1.48-0``,  ``1.47-2``,  ``1.47-1``,  ``1.47-0``,  ``1.46-0``,  ``1.40-1``,  ``1.40-0``
+         <details><summary><span class="truncated-version-list"><code>1.64-0</code>,  <code>1.63-0</code>,  <code>1.62-0</code>,  <code>1.61-0</code>,  <code>1.48-0</code>,  <code>1.47-2</code>,  <code>1.47-1</code>,  <code>1.47-0</code>,  <code>1.46-0</code>,  </span></summary>
+      
 
+      ``1.64-0``,  ``1.63-0``,  ``1.62-0``,  ``1.61-0``,  ``1.48-0``,  ``1.47-2``,  ``1.47-1``,  ``1.47-0``,  ``1.46-0``,  ``1.40-1``,  ``1.40-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -115,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "perl-text-csv_xs";
-      var versions = ["1.62","1.61","1.48","1.47","1.47"];
+      var versions = ["1.64","1.63","1.62","1.61","1.48"];
    </script>
 
 .. rubric:: Download stats

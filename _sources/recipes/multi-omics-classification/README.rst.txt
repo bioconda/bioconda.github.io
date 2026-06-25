@@ -12,7 +12,7 @@ multi-omics-classification
 
    A FAIR Machine Learning Framework for Benchmarking\, Feature Selection\, and Hyperparameter Optimization of machine learning Models for Multiomics Data in Galaxy
 
-   :homepage: https://github.com/renu-pal/MultiClassPrediction
+   :homepage: https://github.com/usegalaxy-eu/MultiOmicsClassification
    :license: MIT
    :recipe: /`multi-omics-classification <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/multi-omics-classification>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/multi-omics-classification/meta.yaml>`_
 
@@ -27,7 +27,7 @@ multi-omics-classification
       
       
 
-      ``0.1.4-0``
+      ``0.1.5-0``,  ``0.1.4-0``
 
       
 
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "multi-omics-classification";
-      var versions = ["0.1.4"];
+      var versions = ["0.1.5","0.1.4"];
    </script>
 
 .. rubric:: Download stats

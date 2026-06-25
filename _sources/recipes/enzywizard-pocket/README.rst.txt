@@ -31,14 +31,15 @@ enzywizard-pocket
       
       
 
-      ``1.0.2-0``
+      ``1.0.2-1``,  ``1.0.2-0``
 
       
 
    
    :depends on bio-pyvol: 
    :depends on biopython: 
-   :depends on numpy: 
+   :depends on msms: 
+   :depends on numpy: ``>=1.23,<2``
    :depends on packaging: 
    :depends on pandas: 
    :depends on python: ``>=3.10``
@@ -119,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "enzywizard-pocket";
-      var versions = ["1.0.2"];
+      var versions = ["1.0.2","1.0.2"];
    </script>
 
 .. rubric:: Download stats

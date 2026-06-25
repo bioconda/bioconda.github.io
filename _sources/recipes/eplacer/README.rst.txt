@@ -1,47 +1,61 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'dupblaster'
+.. title:: Package Recipe 'eplacer'
 .. highlight: bash
 
-dupblaster
-==========
+eplacer
+=======
 
-.. conda:recipe:: dupblaster
+.. conda:recipe:: eplacer
    :replaces_section_title:
    :noindex:
 
-   Fast duplicate marking for query\-grouped SAM\/BAM files\, inspired by samblaster and Picard MarkDuplicates
+   A deep learning approach to taxonomic assignment
 
-   :homepage: https://github.com/fulcrumgenomics/dupblaster
-   :documentation: https://github.com/fulcrumgenomics/dupblaster/blob/main/README.md
-   
-   :license: MIT / MIT
-   :recipe: /`dupblaster <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dupblaster>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dupblaster/meta.yaml>`_
+   :homepage: https://github.com/NEFSC/PEMAD-PBB-ePlacer
+   :license: Public Domain
+   :recipe: /`eplacer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eplacer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eplacer/meta.yaml>`_
 
    
 
 
-.. conda:package:: dupblaster
+.. conda:package:: eplacer
 
-   |downloads_dupblaster| |docker_dupblaster|
+   |downloads_eplacer| |docker_eplacer|
 
    :versions:
       
       
 
-      ``0.1.1-0``,  ``0.1.0-0``
+      ``0.1.1-0``
 
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
-   :depends on libgcc: ``>=14``
+   :depends on blast: ``>=2.16``
+   :depends on click: 
+   :depends on docopt: 
+   :depends on entrez-direct: 
+   :depends on mafft: 
+   :depends on ncbi-acc-download: 
+   :depends on networkx: 
+   :depends on numpy: 
+   :depends on pandas: 
+   :depends on pygeohash: 
+   :depends on python: ``>=3.12``
+   :depends on pytorch: ``>=2.5``
+   :depends on pyyaml: 
+   :depends on requests: 
+   :depends on scikit-learn: 
+   :depends on scipy: 
+   :depends on shapely: 
+   :depends on sympy: 
+   :depends on torchinfo: 
+   :depends on torchvision: 
+   :depends on tqdm: 
+   :depends on trimal: 
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -59,11 +73,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install dupblaster
+    pixi global install eplacer
 
 to add into an existing workspace instead, run::
 
-    pixi add dupblaster
+    pixi add eplacer
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -75,11 +89,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install dupblaster
+    conda install eplacer
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname dupblaster
+    conda create -n envname eplacer
 
 with ``envname`` being the name of the desired environment.
 
@@ -89,9 +103,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/dupblaster:<tag>
+    docker pull quay.io/biocontainers/eplacer:<tag>
 
-(see `dupblaster/tags`_ for valid values for ``<tag>``).
+(see `eplacer/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -102,28 +116,28 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_dupblaster| image:: https://img.shields.io/conda/dn/bioconda/dupblaster.svg?style=flat
-   :target: https://anaconda.org/bioconda/dupblaster
+.. |downloads_eplacer| image:: https://img.shields.io/conda/dn/bioconda/eplacer.svg?style=flat
+   :target: https://anaconda.org/bioconda/eplacer
    :alt:   (downloads)
-.. |docker_dupblaster| image:: https://quay.io/repository/biocontainers/dupblaster/status
-   :target: https://quay.io/repository/biocontainers/dupblaster
-.. _`dupblaster/tags`: https://quay.io/repository/biocontainers/dupblaster?tab=tags
+.. |docker_eplacer| image:: https://quay.io/repository/biocontainers/eplacer/status
+   :target: https://quay.io/repository/biocontainers/eplacer
+.. _`eplacer/tags`: https://quay.io/repository/biocontainers/eplacer?tab=tags
 
 
 .. raw:: html
 
    <script>
-      var package = "dupblaster";
-      var versions = ["0.1.1","0.1.0"];
+      var package = "eplacer";
+      var versions = ["0.1.1"];
    </script>
 
 .. rubric:: Download stats
 
 .. raw:: html
     
-   <div style="width: 100%" id="download_plot_dupblaster"></div>
-   <div style="width: 100%" id="platform_plot_dupblaster"></div>
-   <div style="width: 100%" id="cdf_plot_dupblaster"></div>
+   <div style="width: 100%" id="download_plot_eplacer"></div>
+   <div style="width: 100%" id="platform_plot_eplacer"></div>
+   <div style="width: 100%" id="cdf_plot_eplacer"></div>
 
 
 
@@ -140,7 +154,7 @@ Check the documentation of your workflow management system to find out about the
    <script>
       window.onload = async function() {
          
-            // Build cdf plot for dupblaster
+            // Build cdf plot for eplacer
             try {
                const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
                if (!cdf_spec_resp.ok) {
@@ -152,7 +166,7 @@ Check the documentation of your workflow management system to find out about the
                    throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
                }
                const cdf_plot_data = await cdf_data_resp.json();
-               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/dupblaster/cdf.json`)
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/eplacer/cdf.json`)
                if (!point_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
                }
@@ -160,43 +174,43 @@ Check the documentation of your workflow management system to find out about the
     
                cdf_spec.data.values = cdf_plot_data;
                cdf_spec.data.values.push(single_point.pop());
-               vegaEmbed('#cdf_plot_dupblaster', cdf_spec);
+               vegaEmbed('#cdf_plot_eplacer', cdf_spec);
             } catch (err) {
                console.error("An error occurred while building CDF plot: ", err)
             }
     
-            // Build download plot for dupblaster
+            // Build download plot for eplacer
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/dupblaster/versions.json`)
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/eplacer/versions.json`)
                if (!version_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
                }
                const plot_data = await version_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#download_plot_dupblaster', spec);
+               vegaEmbed('#download_plot_eplacer', spec);
             } catch (err) {
                console.error("An error occurred while building downloads plot: ", err)
             }
    
-            // Build platform download plot for dupblaster
+            // Build platform download plot for eplacer
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/dupblaster/platforms.json`)
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/eplacer/platforms.json`)
                if (!platform_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
                }
                const plot_data = await platform_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#platform_plot_dupblaster', spec);
+               vegaEmbed('#platform_plot_eplacer', spec);
             } catch (err) {
                console.error("An error occurred while building platform downloads plot: ", err)
             }
@@ -211,7 +225,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/dupblaster/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/eplacer/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/dupblaster/README.html
+   :target: http://bioconda.github.io/recipes/eplacer/README.html
