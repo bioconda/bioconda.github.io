@@ -40,8 +40,7 @@ perl-dbd-pg
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
-   :depends on libgcc: ``>=14``
+   :depends on __osx: ``>=11.0``
    :depends on libpq: ``>=17.9,<18.0a0``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-dbi: 

@@ -40,8 +40,7 @@ perl-cgi
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
-   :depends on libgcc: ``>=14``
+   :depends on __osx: ``>=11.0``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-base: 
    :depends on perl-carp: 
@@ -50,7 +49,6 @@ perl-cgi
    :depends on perl-file-temp: 
    :depends on perl-html-parser: ``>=3.83,<4.0a0``
    :depends on perl-parent: 
-   :depends on perl-test-nowarnings: ``1.06.*``
    :depends on perl-uri: 
 
    :additional platforms:

@@ -44,7 +44,6 @@ ms2pip
 
    
    :depends on click: ``>=7,<9``
-   :depends on libgcc: ``>=13``
    :depends on lxml: ``>=4``
    :depends on ms2rescore-rs: ``>=0.4,<2``
    :depends on numpy: ``>=1.21,<3``

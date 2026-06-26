@@ -10,13 +10,16 @@ assemblytics
    :replaces_section_title:
    :noindex:
 
-   analyze a genome assembly by comparing it to a reference genome
+   Detect and analyze structural variants from a de novo genome assembly aligned to a reference genome
 
-   :homepage: http://assemblytics.com/
-   :license: MIT
+   :homepage: https://marianattestad.github.io/assemblytics/
+   :documentation: https://github.com/MariaNattestad/assemblytics
+   
+   :developer docs: https://github.com/MariaNattestad/assemblytics
+   :license: MIT / MIT
    :recipe: /`assemblytics <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/assemblytics>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/assemblytics/meta.yaml>`_
 
-   Assemblytics detects and analyzes variants from a de novo genome assembly aligned to a reference genome. It incorporates a unique anchor filtering approach to increase robustness to repetitive elements and identifies six classes of variants based on their distinct alignment signatures. Assemblytics can be applied both to comparing aberrant genomes\, such as human cancers\, to a reference\, or to identify differences between related species.
+   
 
 
 .. conda:package:: assemblytics
@@ -27,19 +30,15 @@ assemblytics
       
       
 
-      ``1.2.1-0``,  ``1.2-0``,  ``1.1-0``
+      ``2.0.1-0``,  ``1.2.1-0``,  ``1.2-0``,  ``1.1-0``
 
       
 
    
-   :depends on mummer: 
+   :depends on matplotlib-base: 
    :depends on numpy: 
-   :depends on python: 
-   :depends on r-base: 
-   :depends on r-ggplot2: 
-   :depends on r-plyr: 
-   :depends on r-rcolorbrewer: 
-   :depends on r-scales: 
+   :depends on pandas: 
+   :depends on python: ``>=3.8``
 
    :additional platforms:
       
@@ -114,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "assemblytics";
-      var versions = ["1.2.1","1.2","1.1"];
+      var versions = ["2.0.1","1.2.1","1.2","1.1"];
    </script>
 
 .. rubric:: Download stats

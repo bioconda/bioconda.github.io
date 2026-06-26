@@ -35,7 +35,6 @@ fatslim_biobb
       
 
    
-   :depends on libgcc: ``>=13``
    :depends on numpy: ``>=1.21,<3``
    :depends on numpy: ``>=1.26``
    :depends on python: ``>=3.10,<3.11.0a0``

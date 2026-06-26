@@ -43,19 +43,18 @@ vcflib
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on fastahack: 
+   :depends on fastahack: ``>=1.0.0,<2.0a0``
    :depends on htslib: ``>=1.23.1,<1.24.0a0``
    :depends on libcurl: ``>=8.19.0,<9.0a0``
+   :depends on libcxx: ``>=19``
    :depends on libdeflate: ``>=1.25,<1.26.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libgomp: 
    :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on perl: 
    :depends on python: ``>=3``
+   :depends on wfa2-lib: ``>=2.3.6,<3.0a0``
    :depends on wget: 
 
    :additional platforms:

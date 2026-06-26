@@ -44,7 +44,6 @@ lodestar
       
 
    
-   :depends on libgcc: ``>=14``
    :depends on libgfortran: 
    :depends on libgfortran5: ``>=14.3.0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``

@@ -40,13 +40,11 @@ perl-params-validate
       
 
    
-   :depends on libgcc: ``>=13``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-carp: 
    :depends on perl-exporter: 
    :depends on perl-module-build: ``0.4234.*``
-   :depends on perl-module-implementation: ``0.09.*``
-   :depends on perl-test-fatal: ``0.016.*``
+   :depends on perl-module-implementation: 
 
    :additional platforms:
       

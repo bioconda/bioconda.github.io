@@ -42,8 +42,7 @@ metator
    :depends on cooler: 
    :depends on hicstuff: 
    :depends on hmmer: 
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on looseversion: 
    :depends on micomplete: 
    :depends on networkx: 

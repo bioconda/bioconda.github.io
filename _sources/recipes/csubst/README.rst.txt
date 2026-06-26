@@ -35,12 +35,11 @@ csubst
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on __osx: ``>=11.0``
    :depends on biopython: 
    :depends on ete4: ``>=4.3.0``
    :depends on iqtree: ``>=2.0.0``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on mafft: 
    :depends on matplotlib-base: 
    :depends on numpy: ``>=1.21,<3``
