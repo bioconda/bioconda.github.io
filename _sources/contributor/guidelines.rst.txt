@@ -786,3 +786,73 @@ a distribution mechanism for packages, so it is not appropriate for software
 development work on a package (like supporting an additional platform) to be
 exclusivly performed in the Bioconda repo. It's important to engage the
 upstream authors on such efforts if at all possible.
+
+Updating multiple software major versions simultaneously
+----------------------------------------------------------
+
+In some cases, a particular software package may support updates and patches for
+two major versions of a tool at the same time.
+For example, a developer continues relasing fixes to v2.x series, even if most 
+development continues on a v3.x series.
+
+To continue to support releases of both versions of a tool within a Bioconda
+recipe, there are two options for this.
+
+Linked packages
+^^^^^^^^^^^^^^^
+
+You can use the main recipe `meta.yaml` for the more recent major 
+version, and place the older version in a subdirectory with it's own ``meta.yaml``.
+In this case the name of the tool will be the same
+
+An example of this is the `mitos
+<https://github.com/bioconda/bioconda-recipes/tree/c2b7cbc80054a309e8fc3c91f9efed4e642e447d/recipes/mitos>`_ package.
+
+.. code-block:: tree
+
+    recipes/mitos
+    ├── meta.yaml
+    └── mitos1
+        └── meta.yaml
+
+The original ``mitos`` v1 recipe is under the ``mitos1/`` directory, but the
+`meta.yaml` for the more recent v2 file is in a dedicated sub directory.
+
+Independent packages
+^^^^^^^^^^^^^^^^^^^^
+
+Alternatively, create a second independent recipe with the version number suffixed 
+to the name. 
+Note that this method will mean that the tool will have two separate names, and older
+versions cannot be installed from the newer package.
+
+An example for this is ``gatk`` package, where GATK v3 is stored as `gatk` and the
+newer gatk4 version packaged as an independently named ``gatk4`` recipe.
+
+.. code-block:: tree
+
+    recipes/gatk
+    ├── 3.5
+    │   ├── build.sh
+    │   ├── gatk.py
+    │   ├── gatk-register.sh
+    │   ├── meta.yaml
+    │   └── post-link.sh
+    ├── 3.6
+    │   ├── build.sh
+    │   ├── gatk.py
+    │   ├── gatk-register.sh
+    │   ├── meta.yaml
+    │   └── post-link.sh
+    ├── build.sh
+    ├── gatk.py
+    ├── gatk-register.sh
+    ├── meta.yaml
+    └── post-link.sh
+    recipes/gatk4
+    ├── build_main.sh
+    ├── build_spark.sh
+    └── meta.yaml
+
+In this case the directories ``gatk`` and ``gatk4`` sit alongside each other rather than 
+nested.

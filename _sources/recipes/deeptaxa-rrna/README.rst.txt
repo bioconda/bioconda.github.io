@@ -34,7 +34,7 @@ deeptaxa-rrna
       
       
 
-      ``1.1.0-0``,  ``1.0.1-0``
+      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.1-0``
 
       
 
@@ -45,10 +45,10 @@ deeptaxa-rrna
    :depends on optuna: 
    :depends on pandas: 
    :depends on python: ``>=3.10``
-   :depends on pytorch: 
+   :depends on pytorch: ``>=2.4``
    :depends on scikit-learn: 
    :depends on tqdm: 
-   :depends on transformers: 
+   :depends on transformers: ``>=4.28``
 
    :additional platforms:
       
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "deeptaxa-rrna";
-      var versions = ["1.1.0","1.0.1"];
+      var versions = ["1.1.0","1.1.0","1.0.1"];
    </script>
 
 .. rubric:: Download stats

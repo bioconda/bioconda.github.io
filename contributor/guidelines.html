@@ -698,6 +698,59 @@ development work on a package (like supporting an additional platform) to be
 exclusivly performed in the Bioconda repo. It’s important to engage the
 upstream authors on such efforts if at all possible.</p>
 </section>
+<section id="updating-multiple-software-major-versions-simultaneously">
+<h2>Updating multiple software major versions simultaneously<a class="headerlink" href="#updating-multiple-software-major-versions-simultaneously" title="Link to this heading">¶</a></h2>
+<p>In some cases, a particular software package may support updates and patches for
+two major versions of a tool at the same time.
+For example, a developer continues relasing fixes to v2.x series, even if most
+development continues on a v3.x series.</p>
+<p>To continue to support releases of both versions of a tool within a Bioconda
+recipe, there are two options for this.</p>
+<p>You can use the main recipe <code class="xref any docutils literal notranslate"><span class="pre">meta.yaml</span></code> for the more recent major
+version, and place the older version in a subdirectory with it’s own <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>.
+In this case the name of the tool will be the same</p>
+<p>An example of this is the <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/c2b7cbc80054a309e8fc3c91f9efed4e642e447d/recipes/mitos">mitos</a> package.</p>
+<div class="highlight-tree notranslate"><div class="highlight"><pre><span></span>recipes/mitos
+├── meta.yaml
+└── mitos1
+    └── meta.yaml
+</pre></div>
+</div>
+<p>The original <code class="docutils literal notranslate"><span class="pre">mitos</span></code> v1 recipe is under the <code class="docutils literal notranslate"><span class="pre">mitos1/</span></code> directory, but the
+<code class="xref any docutils literal notranslate"><span class="pre">meta.yaml</span></code> for the more recent v2 file is in a dedicated sub directory.</p>
+<p>Alternatively, create a second independent recipe with the version number suffixed
+to the name.
+Note that this method will mean that the tool will have two separate names, and older
+versions cannot be installed from the newer package.</p>
+<p>An example for this is <code class="docutils literal notranslate"><span class="pre">gatk</span></code> package, where GATK v3 is stored as <a class="conda-package reference internal" href="../recipes/gatk/README.html#package-gatk" title="gatk package"><code class="xref any conda conda-package docutils literal notranslate"><span class="pre">gatk</span></code></a> and the
+newer gatk4 version packaged as an independently named <code class="docutils literal notranslate"><span class="pre">gatk4</span></code> recipe.</p>
+<div class="highlight-tree notranslate"><div class="highlight"><pre><span></span>recipes/gatk
+├── 3.5
+│   ├── build.sh
+│   ├── gatk.py
+│   ├── gatk-register.sh
+│   ├── meta.yaml
+│   └── post-link.sh
+├── 3.6
+│   ├── build.sh
+│   ├── gatk.py
+│   ├── gatk-register.sh
+│   ├── meta.yaml
+│   └── post-link.sh
+├── build.sh
+├── gatk.py
+├── gatk-register.sh
+├── meta.yaml
+└── post-link.sh
+recipes/gatk4
+├── build_main.sh
+├── build_spark.sh
+└── meta.yaml
+</pre></div>
+</div>
+<p>In this case the directories <code class="docutils literal notranslate"><span class="pre">gatk</span></code> and <code class="docutils literal notranslate"><span class="pre">gatk4</span></code> sit alongside each other rather than
+nested.</p>
+</section>
 </section>
 
 
@@ -763,6 +816,7 @@ upstream authors on such efforts if at all possible.</p>
 <li class="toctree-l3"><a class="reference internal" href="#link-and-unlink-scripts-pre-and-post-install-hooks">Link and unlink scripts (pre- and post- install hooks)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#versions">Versions</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#support-for-other-platforms">Support for other platforms</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#updating-multiple-software-major-versions-simultaneously">Updating multiple software major versions simultaneously</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="linting.html">Linting</a></li>

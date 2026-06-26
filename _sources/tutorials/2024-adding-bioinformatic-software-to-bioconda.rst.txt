@@ -48,7 +48,7 @@ TL;DR Relevant Commands
     conda build recipes/<toolname>
 
     ## Option 2:
-    bioconda-utils build --docker --mulled-test --packages <toolname>
+    bioconda-utils build --docker --mulled-build-and-test --packages <toolname>
 
     ## Debugging
     ## Option 1: conda-build
@@ -356,7 +356,7 @@ Otherwise, in our Bioconda-build conda environment, we can run one of two option
 
   .. code-block:: bash
 
-    bioconda-utils build --docker --mulled-test --packages <toolname>
+    bioconda-utils build --docker --mulled-build-and-test --packages <toolname>
 
 
 Hopefully, if everything worked correctly the first time, we should have a successful build and we can proceed with submitting to bioconda.

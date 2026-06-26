@@ -28,10 +28,10 @@ octopusv
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.5-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  <code>0.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.0-0</code>,  <code>0.3.5-0</code>,  <code>0.3.3-0</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.4-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  </span></summary>
       
 
-      ``0.3.5-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.4.0-0``,  ``0.3.5-0``,  ``0.3.3-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -46,8 +46,9 @@ octopusv
    :depends on loguru: ``>=0.7.2``
    :depends on matplotlib-base: ``>=3.9.2``
    :depends on natsort: ``>=8.4.0``
+   :depends on pycirclize: ``>=1.10.1``
    :depends on pytest-cov: ``>=4.1.0``
-   :depends on python: ``>=3.10,<3.13``
+   :depends on python: ``>=3.10``
    :depends on rich: ``>=13.7.1``
    :depends on seaborn: ``>=0.13.2``
    :depends on typer: ``>=0.12.3``
@@ -125,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "octopusv";
-      var versions = ["0.3.5","0.3.3","0.3.2","0.3.1","0.3.0"];
+      var versions = ["0.4.0","0.3.5","0.3.3","0.3.2","0.3.1"];
    </script>
 
 .. rubric:: Download stats

@@ -33,7 +33,7 @@ You can install ``bioconda-utils`` locally by creating a new conda environment:
     bioconda-utils lint --git-range master HEAD
 
     # build and test
-    bioconda-utils build --docker --mulled-test --git-range master HEAD
+    bioconda-utils build --docker --mulled-build-and-test --git-range master HEAD
 
 The above commands do the following:
 
@@ -52,7 +52,7 @@ The above commands do the following:
    - The ``--docker`` flag instructs ``bioconda-utils`` to execute the
      build within a docker container. On MacOS, this will do a Linux
      build in addition to the local MacOS build.
-   - The ``--mulled-test`` flag instructs ``bioconda-utils`` to repeat
+   - The ``--mulled-build-and-test`` flag instructs ``bioconda-utils`` to repeat
      the recipes test in a clean, freshly created docker container to
      ensure that the package does not depend on anything that happens
      to be included in the build container.
@@ -61,7 +61,22 @@ The above commands do the following:
      to have those channels specified in `.mambarc`.
 
 If you do not have access to Docker, you can still run the basic test by
-omitting the ``--docker`` and ``--mulled-test`` options.
+omitting the ``--docker`` and ``--mulled-build-and-test`` options.
+
+.. _credentials:
+
+.. note::
+
+   Some :program:`bioconda-utils` commands need credentials to interact with
+   remote services:
+
+   - Set ``QUAY_LOGIN`` (in ``user:password`` format) or ``QUAY_OAUTH_TOKEN``
+     (a Quay OAuth token) to authenticate with `quay.io
+     <https://quay.io/>`_ for publishing Biocontainers. :program:`bioconda-utils`
+     uses these environment variables when uploading container images.
+   - Set ``ANACONDA_TOKEN`` to authenticate with `anaconda.org
+     <https://anaconda.org>`_ for uploading packages or running
+     ``bioconda-utils duplicates --remove``.
 
 Other CLI Commands
 ~~~~~~~~~~~~~~~~~~~

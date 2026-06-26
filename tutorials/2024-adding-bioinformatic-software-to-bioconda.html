@@ -108,7 +108,7 @@ bioconda-utils<span class="w"> </span>lint<span class="w"> </span>recipes/<span 
 conda<span class="w"> </span>build<span class="w"> </span>recipes/&lt;toolname&gt;
 
 <span class="c1">## Option 2:</span>
-bioconda-utils<span class="w"> </span>build<span class="w"> </span>--docker<span class="w"> </span>--mulled-test<span class="w"> </span>--packages<span class="w"> </span>&lt;toolname&gt;
+bioconda-utils<span class="w"> </span>build<span class="w"> </span>--docker<span class="w"> </span>--mulled-build-and-test<span class="w"> </span>--packages<span class="w"> </span>&lt;toolname&gt;
 
 <span class="c1">## Debugging</span>
 <span class="c1">## Option 1: conda-build</span>
@@ -403,7 +403,7 @@ You often will need to patch the <code class="docutils literal notranslate"><spa
 </div></blockquote>
 </li>
 <li><p>The <code class="docutils literal notranslate"><span class="pre">`bioconda-utils`</span></code> command, which should better replicate the CI environment and also gives us the Biocontainer Docker version of our conda environment (but requires Docker, and is slower):</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>bioconda-utils<span class="w"> </span>build<span class="w"> </span>--docker<span class="w"> </span>--mulled-test<span class="w"> </span>--packages<span class="w"> </span>&lt;toolname&gt;
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>bioconda-utils<span class="w"> </span>build<span class="w"> </span>--docker<span class="w"> </span>--mulled-build-and-test<span class="w"> </span>--packages<span class="w"> </span>&lt;toolname&gt;
 </pre></div>
 </div>
 </li>

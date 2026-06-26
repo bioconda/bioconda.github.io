@@ -37,7 +37,7 @@ architectures like osx, linux/amd64, linux/arm64, but also OCI images
 .. figure:: ../images/bioconda-containers.png
 
    Sketch of how containers and packages interact with :command:`bioconda-utils
-   build --docker --mulled-test`. See below for details. [:download:`excalidraw
+       build --docker --mulled-build-and-test`. See below for details. [:download:`excalidraw
    <../images/bioconda-containers.excalidraw>`] [:download:`SVG
    <../images/bioconda-containers.svg>`]
 
@@ -64,7 +64,7 @@ pkgname` in the bioconda-recipes repo.
    container are copied over into the :file:`/usr/local` dir of a minimal *base
    container* (which does not even include conda). The extracted tests are run
    in the container as a final check (see notes below on
-   :command:`--mulled-test`), and then the container is ready to upload to
+   :command:`--mulled-build-and-test`), and then the container is ready to upload to
    a container registry.
 
 Why do we do it this way? The short answer is to ensure that all dependencies
@@ -85,7 +85,7 @@ being used. As with a normal :command:`conda build` command, the resulting
 package is found in the host's :file:`conda-bld` directory. This is illustrated
 in steps 1-3 above.
 
-When we additionally use the :command:`--mulled-test` argument,
+When we additionally use the :command:`--mulled-build-and-test` argument,
 :program:`bioconda-utils` will run :program:`mulled-build` from the `galaxy-lib
 <https://galaxy-lib.readthedocs.io/en/latest/topics/mulled.html>`_ package.
 :program:`mulled-build` is a tool to convert conda packages into Docker images.
@@ -98,7 +98,7 @@ So the end result is a fully-isolated, minimal Docker image with nothing but
 the installed package and its dependencies (and therefore a small size), ready
 to be uploaded to a repository.
 
-Note that :command:`--mulled-test` runs the tests extracted from the recipe in
+Note that :command:`--mulled-build-and-test` runs the tests extracted from the recipe in
 the minimal container. Since the container only contains the package and its
 dependencies, any tests must use only these. Even if the recipe specifies
 additional test dependencies or additional test data (which is supported by
@@ -194,9 +194,11 @@ can give you a starting point for where to look.
 - mulled-build also needs a conda image to use. This is set by bioconda-utils
   in `pkg_test.py
   <https://github.com/bioconda/bioconda-utils/blob/2c5d4ad754f7bfa17b90495dc602118c7270d4bc/bioconda_utils/pkg_test.py#L20>`_
-  which is then passed to `build.build
-  <https://github.com/bioconda/bioconda-utils/blob/2c5d4ad754f7bfa17b90495dc602118c7270d4bc/bioconda_utils/build.py#L61>`_.
+which is then passed to `build.build
+   <https://github.com/bioconda/bioconda-utils/blob/2c5d4ad754f7bfa17b90495dc602118c7270d4bc/bioconda_utils/build.py#L61>`_.
 
+- Container registry credentials for uploading images to quay.io are configured
+  via environment variables (see :ref:`credentials` for details).
 
 The bot
 -------

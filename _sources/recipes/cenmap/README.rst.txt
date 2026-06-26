@@ -29,7 +29,7 @@ cenmap
       
       
 
-      ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``
+      ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``
 
       
 
@@ -50,7 +50,7 @@ cenmap
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on matplotlib-base: 
    :depends on minimap2: ``>=2.29``
-   :depends on nucflag: ``>=0.3.7``
+   :depends on nucflag: ``>=0.3.7,<1.0.0``
    :depends on numpy: 
    :depends on ont-modkit: ``>=0.6.0``
    :depends on pbmm2: ``>=1.17.0``
@@ -142,7 +142,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cenmap";
-      var versions = ["1.2.1","1.2.0","1.1.1","1.1.0","1.0.4"];
+      var versions = ["1.2.1","1.2.1","1.2.0","1.1.1","1.1.0"];
    </script>
 
 .. rubric:: Download stats

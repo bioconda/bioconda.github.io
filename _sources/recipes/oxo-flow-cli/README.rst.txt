@@ -29,7 +29,7 @@ oxo-flow-cli
       
       
 
-      ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.4.2-0``
+      ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.4.2-0``
 
       
 
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "oxo-flow-cli";
-      var versions = ["0.8.0","0.7.0","0.6.0","0.4.2"];
+      var versions = ["0.8.1","0.8.0","0.7.0","0.6.0","0.4.2"];
    </script>
 
 .. rubric:: Download stats

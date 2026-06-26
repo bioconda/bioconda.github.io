@@ -34,14 +34,14 @@ bamslice
       
       
 
-      ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
    :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libcurl: ``>=8.20.0,<9.0a0``
+   :depends on libcurl: ``>=8.21.0,<9.0a0``
    :depends on libdeflate: ``>=1.25,<1.26.0a0``
    :depends on libgcc: ``>=14``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
@@ -125,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bamslice";
-      var versions = ["0.1.8","0.1.7","0.1.6","0.1.5","0.1.4"];
+      var versions = ["0.2.0","0.1.8","0.1.7","0.1.6","0.1.5"];
    </script>
 
 .. rubric:: Download stats
