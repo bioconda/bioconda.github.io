@@ -35,7 +35,7 @@ mrpast
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on dataclasses-json: 
    :depends on libcxx: ``>=19``
    :depends on msprime: 

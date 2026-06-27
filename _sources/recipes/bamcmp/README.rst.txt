@@ -32,7 +32,7 @@ bamcmp
       
 
    
-   :depends on htslib: ``>=1.22.1,<1.23.0a0``
+   :depends on htslib: ``>=1.22.1,<1.24.0a0``
    :depends on libcxx: ``>=18``
 
    :additional platforms:

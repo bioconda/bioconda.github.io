@@ -43,7 +43,7 @@ metagraph
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.15``
    :depends on boost-cpp: 
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on icu: ``>=75.1,<76.0a0``

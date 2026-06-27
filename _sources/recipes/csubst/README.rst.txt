@@ -35,7 +35,7 @@ csubst
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on biopython: 
    :depends on ete4: ``>=4.3.0``
    :depends on iqtree: ``>=2.0.0``

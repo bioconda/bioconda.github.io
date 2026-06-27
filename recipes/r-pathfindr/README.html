@@ -90,21 +90,20 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/r-pathfindr"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/r-pathfindr.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/r-pathfindr"><img alt="docker_r-pathfindr" src="https://quay.io/repository/biocontainers/r-pathfindr/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>2.7.0-0</code>,  <code>2.6.0-0</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  <code>2.4.2-0</code>,  <code>2.4.1-0</code>,  <code>2.4.0-0</code>,  <code>2.3.1-0</code>,  <code>2.3.0-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">2.7.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.6.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.4.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.4.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.3.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.1.0-0</span></code></p>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>2.7.0-0</code>,  <code>2.6.0-0</code>,  <code>2.5.1-0</code>,  <code>2.5.0-0</code>,  <code>2.4.2-0</code>,  <code>2.4.1-0</code>,  <code>2.4.0-0</code>,  <code>2.3.1-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">3.0.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.7.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.6.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.5.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.4.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.4.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.4.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.3.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.1.0-0</span></code></p>
 </details></dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
 <li><p><strong>on bioconductor-annotationdbi</strong></p></li>
 <li><p><strong>on bioconductor-ggkegg</strong></p></li>
-<li><p><strong>on bioconductor-kegggraph</strong></p></li>
-<li><p><strong>on bioconductor-keggrest</strong></p></li>
 <li><p><strong>on bioconductor-org.hs.eg.db</strong></p></li>
-<li><p><strong>on openjdk</strong> <code class="docutils literal notranslate"><span class="pre">8.*</span></code></p></li>
-<li><p><strong>on r-base</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=4.4,&lt;4.5.0a0</span></code></p></li>
+<li><p><strong>on imagemagick</strong> <code class="docutils literal notranslate"><span class="pre">&lt;7.1.2_26</span></code></p></li>
+<li><p><strong>on r-base</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=4.5,&lt;4.6.0a0</span></code></p></li>
 <li><p><strong>on r-dbi</strong></p></li>
 <li><p><strong>on r-doparallel</strong></p></li>
 <li><p><strong>on r-foreach</strong></p></li>
 <li><p><strong>on r-fpc</strong></p></li>
+<li><p><strong>on r-ggnewscale</strong></p></li>
 <li><p><strong>on r-ggplot2</strong></p></li>
 <li><p><strong>on r-ggraph</strong></p></li>
 <li><p><strong>on r-ggupset</strong></p></li>
@@ -115,6 +114,7 @@
 <li><p><strong>on r-msigdbr</strong></p></li>
 <li><p><strong>on r-pathfindr.data</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=2.0</span></code></p></li>
 <li><p><strong>on r-r.utils</strong></p></li>
+<li><p><strong>on r-rcpp</strong></p></li>
 <li><p><strong>on r-rmarkdown</strong></p></li>
 </ul>
 </dd>
@@ -174,7 +174,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "r-pathfindr";
-   var versions = ["2.7.0","2.6.0","2.5.1","2.5.0","2.4.2"];
+   var versions = ["3.0.0","2.7.0","2.6.0","2.5.1","2.5.0"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_r-pathfindr"></div>
 <div style="width: 100%" id="platform_plot_r-pathfindr"></div>

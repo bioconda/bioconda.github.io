@@ -27,14 +27,13 @@ rmats-long
       
       
 
-      ``2.0.1-0``,  ``1.0.0-0``
+      ``2.1.0-0``,  ``2.0.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends on bioconductor-biocparallel: 
    :depends on bioconductor-drimseq: 
-   :depends on libgcc: ``>=14``
    :depends on matplotlib-base: ``>=3.7``
    :depends on networkx: ``>=2.8``
    :depends on numpy: ``>=1.24``
@@ -131,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "rmats-long";
-      var versions = ["2.0.1","1.0.0"];
+      var versions = ["2.1.0","2.0.1","1.0.0"];
    </script>
 
 .. rubric:: Download stats

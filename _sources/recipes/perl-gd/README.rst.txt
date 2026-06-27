@@ -40,12 +40,12 @@ perl-gd
       
 
    
+   :depends on libcxx: ``>=18``
    :depends on libexpat: ``>=2.7.3,<3.0a0``
-   :depends on libgcc: ``>=13``
    :depends on libgd: ``>=2.3.3,<2.4.0a0``
-   :depends on libstdcxx: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
+   :depends on perl-test-nowarnings: ``1.06.*``
    :depends on zlib: 
 
    :additional platforms:

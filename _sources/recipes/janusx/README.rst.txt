@@ -42,7 +42,7 @@ janusx
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on joblib: ``>=1.5``
    :depends on matplotlib-base: 
    :depends on numpy: ``>=1.21,<3``

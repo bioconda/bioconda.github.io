@@ -14,7 +14,7 @@ r-pipette
 
    :homepage: https://r.acidgenomics.com/packages/pipette/
    :developer docs: https://github.com/acidgenomics/r-pipette
-   :license: GPL / AGPL-3.0
+   :license: APACHE / Apache-2.0
    :recipe: /`r-pipette <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pipette>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pipette/meta.yaml>`_
 
    
@@ -29,10 +29,10 @@ r-pipette
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.15.3-0</code>,  <code>0.15.2-2</code>,  <code>0.15.2-1</code>,  <code>0.15.2-0</code>,  <code>0.15.1-0</code>,  <code>0.15.0-1</code>,  <code>0.15.0-0</code>,  <code>0.14.2-0</code>,  <code>0.14.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.16.1-0</code>,  <code>0.15.3-0</code>,  <code>0.15.2-2</code>,  <code>0.15.2-1</code>,  <code>0.15.2-0</code>,  <code>0.15.1-0</code>,  <code>0.15.0-1</code>,  <code>0.15.0-0</code>,  <code>0.14.2-0</code>,  </span></summary>
       
 
-      ``0.15.3-0``,  ``0.15.2-2``,  ``0.15.2-1``,  ``0.15.2-0``,  ``0.15.1-0``,  ``0.15.0-1``,  ``0.15.0-0``,  ``0.14.2-0``,  ``0.14.1-0``,  ``0.13.0-0``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.10-1``,  ``0.10.10-0``,  ``0.10.9-1``,  ``0.10.9-0``,  ``0.10.8-0``,  ``0.10.5-0``,  ``0.10.4-1``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-1``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.15-2``,  ``0.5.15-1``,  ``0.5.15-0``,  ``0.5.14-2``,  ``0.5.14-0``,  ``0.4.22-1``,  ``0.4.22-0``,  ``0.4.20-0``,  ``0.4.19-0``,  ``0.4.14-0``,  ``0.4.13-0``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``
+      ``0.16.1-0``,  ``0.15.3-0``,  ``0.15.2-2``,  ``0.15.2-1``,  ``0.15.2-0``,  ``0.15.1-0``,  ``0.15.0-1``,  ``0.15.0-0``,  ``0.14.2-0``,  ``0.14.1-0``,  ``0.13.0-0``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.2-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.10-1``,  ``0.10.10-0``,  ``0.10.9-1``,  ``0.10.9-0``,  ``0.10.8-0``,  ``0.10.5-0``,  ``0.10.4-1``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-1``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.15-2``,  ``0.5.15-1``,  ``0.5.15-0``,  ``0.5.14-2``,  ``0.5.14-0``,  ``0.4.22-1``,  ``0.4.22-0``,  ``0.4.20-0``,  ``0.4.19-0``,  ``0.4.14-0``,  ``0.4.13-0``,  ``0.4.10-0``,  ``0.4.9-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.3-1``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``
 
       
       .. raw:: html
@@ -41,32 +41,28 @@ r-pipette
       
 
    
-   :depends on bioconductor-biocfilecache: ``>=2.8.0``
    :depends on bioconductor-biocgenerics: ``>=0.46.0``
    :depends on bioconductor-biostrings: ``>=2.68.0``
    :depends on bioconductor-genomicranges: ``>=1.52.0``
    :depends on bioconductor-iranges: ``>=2.34.0``
-   :depends on bioconductor-maftools: ``>=2.16.0``
    :depends on bioconductor-rsamtools: ``>=2.16.0``
    :depends on bioconductor-rtracklayer: ``>=1.60.0``
    :depends on bioconductor-s4vectors: ``>=0.38.0``
-   :depends on r-acidbase: ``>=0.7.2``
-   :depends on r-acidcli: ``>=0.3.0``
-   :depends on r-acidgenerics: ``>=0.7.5``
-   :depends on r-base: ``>=4.4,<4.5.0a0``
-   :depends on r-baseset: ``>=0.9.0``
+   :depends on r-acidbase: ``>=0.7.5``
+   :depends on r-acidcli: ``>=0.3.3``
+   :depends on r-acidgenerics: ``>=0.7.11``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-data.table: ``>=1.14.8``
    :depends on r-digest: ``>=0.6.33``
-   :depends on r-goalie: ``>=0.7.7``
+   :depends on r-goalie: ``>=0.7.10``
    :depends on r-httr2: ``>=0.2.3``
    :depends on r-jsonlite: ``>=1.8.8``
    :depends on r-matrix: ``>=1.6.4``
-   :depends on r-ontologyindex: ``>=2.11``
    :depends on r-pzfx: ``>=0.3.0``
    :depends on r-readr: ``>=2.1.4``
    :depends on r-readxl: ``>=1.4.3``
    :depends on r-rio: ``>=1.0.1``
-   :depends on r-syntactic: ``>=0.7.1``
+   :depends on r-syntactic: ``>=0.8.1``
    :depends on r-tibble: ``>=3.2.1``
    :depends on r-yaml: ``>=2.3.8``
 
@@ -143,7 +139,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-pipette";
-      var versions = ["0.15.3","0.15.2","0.15.2","0.15.2","0.15.1"];
+      var versions = ["0.16.1","0.15.3","0.15.2","0.15.2","0.15.2"];
    </script>
 
 .. rubric:: Download stats

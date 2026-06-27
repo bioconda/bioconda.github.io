@@ -40,7 +40,7 @@ ntsynt
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on btllib: ``>=1.7.1``
    :depends on btllib: ``>=1.7.8,<2.0a0``
    :depends on intervaltree: 

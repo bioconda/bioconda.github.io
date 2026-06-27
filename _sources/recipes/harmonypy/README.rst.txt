@@ -29,17 +29,17 @@ harmonypy
       
       
 
-      ``2.0.0-0``,  ``0.2.0-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``
+      ``2.0.0-1``,  ``2.0.0-0``,  ``0.2.0-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``
 
       
 
    
-   :depends on __osx: ``>=11.0``
-   :depends on armadillo: ``>=15.2,<16.0a0``
+   :depends on __osx: ``>=10.13``
+   :depends on armadillo: ``>=15.4,<16.0a0``
    :depends on libcxx: ``>=19``
    :depends on numpy: 
-   :depends on python: ``>=3.14,<3.15.0a0``
-   :depends on python_abi: ``3.14.* *_cp314``
+   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on python_abi: ``3.10.* *_cp310``
 
    :additional platforms:
       
@@ -118,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "harmonypy";
-      var versions = ["2.0.0","0.2.0","0.0.10","0.0.9","0.0.6"];
+      var versions = ["2.0.0","2.0.0","0.2.0","0.0.10","0.0.9"];
    </script>
 
 .. rubric:: Download stats

@@ -42,7 +42,7 @@ zol
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on aiofile: 
    :depends on aiohttp: 
    :depends on bioconductor-ggtree: 
@@ -61,7 +61,7 @@ zol
    :depends on libcxx: ``>=19``
    :depends on libopenblas: 
    :depends on mcl: 
-   :depends on miniprot: ``>=0.13``
+   :depends on miniprot: ``0.13.*``
    :depends on muscle: ``5.1.*``
    :depends on pal2nal: ``>=14.1``
    :depends on pandas: ``>=2.0``

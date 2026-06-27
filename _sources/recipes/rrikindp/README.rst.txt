@@ -40,7 +40,7 @@ rrikindp
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on boost-cpp: 
    :depends on intarna: ``>=3.4.1,<3.5.0a0``
    :depends on libcxx: ``>=16``

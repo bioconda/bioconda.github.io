@@ -29,7 +29,7 @@ psqtl
       
       
 
-      ``1.3.9-0``,  ``1.3.7-0``
+      ``1.3.10-0``,  ``1.3.9-0``,  ``1.3.7-0``
 
       
 
@@ -126,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "psqtl";
-      var versions = ["1.3.9","1.3.7"];
+      var versions = ["1.3.10","1.3.9","1.3.7"];
    </script>
 
 .. rubric:: Download stats

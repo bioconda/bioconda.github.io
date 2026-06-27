@@ -43,7 +43,7 @@ pasta
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on clustalw: ``>=2.1,<3.0a0``
    :depends on dendropy: ``>=5.0.8,<6.0a0``
    :depends on fasttree: ``>=2.2.0,<3.0a0``

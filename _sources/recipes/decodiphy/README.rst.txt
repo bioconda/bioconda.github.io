@@ -27,7 +27,7 @@ decodiphy
       
       
 
-      ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.3-0``,  ``1.2.3-0``
+      ``1.5.0-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.3-0``,  ``1.2.3-0``
 
       
 
@@ -112,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "decodiphy";
-      var versions = ["1.4.1","1.4.1","1.4.0","1.3.3","1.2.3"];
+      var versions = ["1.5.0","1.4.1","1.4.1","1.4.0","1.3.3"];
    </script>
 
 .. rubric:: Download stats

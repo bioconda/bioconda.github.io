@@ -39,7 +39,7 @@ bamslice
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on libcurl: ``>=8.21.0,<9.0a0``
    :depends on libdeflate: ``>=1.25,<1.26.0a0``

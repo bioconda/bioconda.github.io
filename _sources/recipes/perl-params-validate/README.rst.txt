@@ -44,7 +44,8 @@ perl-params-validate
    :depends on perl-carp: 
    :depends on perl-exporter: 
    :depends on perl-module-build: ``0.4234.*``
-   :depends on perl-module-implementation: 
+   :depends on perl-module-implementation: ``0.09.*``
+   :depends on perl-test-fatal: ``0.016.*``
 
    :additional platforms:
       
