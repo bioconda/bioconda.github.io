@@ -47,7 +47,8 @@ hail
    :depends on humanize: 
    :depends on hurry.filesize: 
    :depends on jinja2: ``<3.1``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on nest-asyncio: 
    :depends on numpy: ``<1.24``
    :depends on numpy: ``>=1.23.5,<2.0a0``

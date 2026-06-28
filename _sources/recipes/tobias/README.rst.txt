@@ -49,6 +49,7 @@ tobias
    :depends on boto3: 
    :depends on importlib-metadata: 
    :depends on kneed: 
+   :depends on libgcc: ``>=13``
    :depends on logomaker: 
    :depends on matplotlib-base: ``>=2``
    :depends on moods: 

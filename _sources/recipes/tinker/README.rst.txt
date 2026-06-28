@@ -33,9 +33,10 @@ tinker
       
 
    
-   :depends on libgfortran: ``5.*``
-   :depends on libgfortran5: ``>=13.2.0``
-   :depends on llvm-openmp: ``>=18.1.8``
+   :depends on _openmp_mutex: ``>=4.5``
+   :depends on libgcc: ``>=13``
+   :depends on libgfortran: 
+   :depends on libgfortran5: ``>=13.3.0``
 
    :additional platforms:
       

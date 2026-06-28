@@ -40,6 +40,7 @@ smudgeplot
       
 
    
+   :depends on libgcc: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on matplotlib-base: ``>=3.4.0``
    :depends on numpy: ``>=1.20.0``

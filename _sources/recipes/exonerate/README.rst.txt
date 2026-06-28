@@ -42,6 +42,7 @@ exonerate
 
    
    :depends on glib: 
+   :depends on libgcc: ``>=12``
    :depends on libglib: ``>=2.84.2,<3.0a0``
    :depends on pcre: ``>=8.45,<9.0a0``
 

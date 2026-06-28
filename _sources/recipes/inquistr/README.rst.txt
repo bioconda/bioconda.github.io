@@ -35,9 +35,10 @@ inquistr
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libcurl: ``>=8.20.0,<9.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on openssl: ``>=3.5.7,<4.0a0``
 

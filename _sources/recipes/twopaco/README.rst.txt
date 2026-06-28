@@ -40,7 +40,8 @@ twopaco
       
 
    
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on tbb: ``>=2021.13.0``
 
    :additional platforms:

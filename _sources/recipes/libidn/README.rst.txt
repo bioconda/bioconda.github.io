@@ -40,7 +40,8 @@ libidn
       
 
    
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
 
    :additional platforms:
       

@@ -44,7 +44,8 @@ whatshap
    
    :depends on biopython: ``>=1.73``
    :depends on htslib: 
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on networkx: 
    :depends on pulp: ``>=2``
    :depends on pyfaidx: ``>=0.5.5.2``

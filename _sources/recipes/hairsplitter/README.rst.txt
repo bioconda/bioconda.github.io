@@ -32,8 +32,10 @@ hairsplitter
       
 
    
-   :depends on libcxx: ``>=11.1.0``
-   :depends on llvm-openmp: ``>=16.0.6``
+   :depends on _openmp_mutex: ``>=4.5``
+   :depends on libgcc-ng: ``>=12``
+   :depends on libgomp: 
+   :depends on libstdcxx-ng: ``>=12``
    :depends on minigraph: ``>=0.20``
    :depends on minimap2: 
    :depends on numpy: 

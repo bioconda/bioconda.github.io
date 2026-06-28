@@ -44,6 +44,7 @@ vadr
    :depends on easel: ``>=0.48``
    :depends on hmmer: ``>=3.4``
    :depends on infernal: ``>=1.1.4``
+   :depends on libgcc: ``>=14``
    :depends on minimap2: ``>=2.26``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-bio-easel: ``>=0.16``
@@ -51,7 +52,7 @@ vadr
    :depends on perl-lwp-simple: 
    :depends on perl-net-ssleay: ``>=1.88``
    :depends on sequip: ``>=0.10``
-   :depends on sequip: ``>=0.10,<0.11.0a0``
+   :depends on sequip: ``>=0.11,<0.12.0a0``
    :depends on wget: 
 
    :additional platforms:
