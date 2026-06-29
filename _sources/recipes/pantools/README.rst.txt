@@ -35,10 +35,10 @@ pantools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.3.4-0</code>,  <code>4.3.3-0</code>,  <code>4.3.2-0</code>,  <code>4.3.1-0</code>,  <code>4.3.0-0</code>,  <code>4.2.3-1</code>,  <code>4.2.3-0</code>,  <code>4.2.2-0</code>,  <code>4.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.3.5-0</code>,  <code>4.3.4-0</code>,  <code>4.3.3-0</code>,  <code>4.3.2-0</code>,  <code>4.3.1-0</code>,  <code>4.3.0-0</code>,  <code>4.2.3-1</code>,  <code>4.2.3-0</code>,  <code>4.2.2-0</code>,  </span></summary>
       
 
-      ``4.3.4-0``,  ``4.3.3-0``,  ``4.3.2-0``,  ``4.3.1-0``,  ``4.3.0-0``,  ``4.2.3-1``,  ``4.2.3-0``,  ``4.2.2-0``,  ``4.2.1-0``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.4.0-0``,  ``3.3.3-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``2.0.0-0``,  ``1.2-1``,  ``1.2-0``,  ``1.0-0``
+      ``4.3.5-0``,  ``4.3.4-0``,  ``4.3.3-0``,  ``4.3.2-0``,  ``4.3.1-0``,  ``4.3.0-0``,  ``4.2.3-1``,  ``4.2.3-0``,  ``4.2.2-0``,  ``4.2.1-0``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.4.0-0``,  ``3.3.3-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``2.0.0-0``,  ``1.2-1``,  ``1.2-0``,  ``1.0-0``
 
       
       .. raw:: html
@@ -47,7 +47,7 @@ pantools
       
 
    
-   :depends on aster: ``1.3.*``
+   :depends on aster: ``1.23.*``
    :depends on bcftools: ``>=1.12``
    :depends on blast: 
    :depends on busco: ``5.*``
@@ -142,7 +142,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pantools";
-      var versions = ["4.3.4","4.3.3","4.3.2","4.3.1","4.3.0"];
+      var versions = ["4.3.5","4.3.4","4.3.3","4.3.2","4.3.1"];
    </script>
 
 .. rubric:: Download stats

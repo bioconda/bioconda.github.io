@@ -13,10 +13,18 @@ strainify
    Strain\-level abundance analysis tool for short\-read metagenomics
 
    :homepage: https://github.com/treangenlab/Strainify
+   :documentation: https://github.com/treangenlab/Strainify/blob/master/README.md
+   
    :license: MIT
    :recipe: /`strainify <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strainify>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strainify/meta.yaml>`_
 
-   
+   Strainify is an accurate strain\-level abundance analysis tool for short\-read
+   metagenomics. It uses whole\-genome alignments \(Parsnp\) to identify variant
+   sites\, maps metagenomic reads to a reference\, and estimates strain abundances
+   via a maximum likelihood model. It is designed to perform well on complex microbial
+   communities and at low sequencing depths\, where strain\-resolved signal is
+   sparse and closely related strains are easily confused.
+
 
 
 .. conda:package:: strainify
@@ -27,51 +35,47 @@ strainify
       
       
 
-      ``1.2.0-0``
+      ``1.3.0-0``,  ``1.2.0-0``
 
       
 
    
+   :depends on bash: 
    :depends on bcftools: ``>=1.21``
    :depends on biopython: ``>=1.85``
    :depends on bwa: ``>=0.7.18``
-   :depends on clarabel: ``>=0.10.0``
+   :depends on clarabel: ``>=0.10``
    :depends on coincbc: 
-   :depends on configargparse: ``>=1.7.1``
-   :depends on cvxpy: ``>=1.6.5``
-   :depends on ecos: ``>=2.0.14``
+   :depends on cvxpy: ``>=1.6``
+   :depends on ecos: ``>=2.0``
+   :depends on ete3: ``>=3.1.3``
    :depends on fastani: ``>=1.34``
    :depends on fasttree: ``>=2.1.11``
-   :depends on git-filter-repo: ``>=2.47.0``
-   :depends on gitpython: ``>=3.1``
    :depends on harvesttools: ``>=1.2``
    :depends on htslib: ``>=1.21``
-   :depends on jinja2: ``>=3.1``
-   :depends on joblib: ``>=1.5.0``
-   :depends on jsonschema: ``>=4.23``
+   :depends on joblib: ``>=1.5``
    :depends on mash: ``>=2.3``
+   :depends on minimap2: 
+   :depends on ncbi-datasets-cli: 
+   :depends on nextflow: ``>=26.04``
    :depends on numpy: ``>=2.2``
-   :depends on osqp: ``>=1.0.4``
+   :depends on osqp: ``>=1.0``
    :depends on pandas: ``>=2.2``
    :depends on parallel: 
    :depends on parsnp: ``>=2.1.4``
    :depends on phipack: ``>=1.1``
    :depends on psutil: ``>=7.0``
    :depends on pulp: ``>=2.8``
-   :depends on pysam: ``>=0.23.0``
-   :depends on pyspoa: ``>=0.2.1``
-   :depends on python: ``>=3.12``
+   :depends on pysam: ``>=0.23``
+   :depends on python: ``>=3.10,<3.13``
    :depends on pyyaml: ``>=6.0``
    :depends on raxml: ``>=8.2.13``
    :depends on samtools: ``>=1.21``
-   :depends on scikit-learn: ``>=1.6.1``
-   :depends on scipy: ``>=1.15.3``
-   :depends on scs: ``>=3.2.7``
-   :depends on snakemake: ``>=9.3``
-   :depends on tabulate: ``>=0.9``
-   :depends on threadpoolctl: ``>=3.6.0``
+   :depends on scikit-learn: ``>=1.6``
+   :depends on scipy: ``>=1.15``
+   :depends on scs: ``>=3.2``
+   :depends on threadpoolctl: ``>=3.6``
    :depends on tqdm: ``>=4.67``
-   :depends on typer: ``>=0.15``
    :depends on wgatools: ``>=1.1.0``
 
    :additional platforms:
@@ -147,7 +151,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "strainify";
-      var versions = ["1.2.0"];
+      var versions = ["1.3.0","1.2.0"];
    </script>
 
 .. rubric:: Download stats
