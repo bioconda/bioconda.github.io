@@ -32,10 +32,9 @@ r-scopfunctions
       
 
    
-   :depends on bioconductor-mast: ``>=1.32.0,<1.33.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on bioconductor-mast: ``>=1.36.0,<1.37.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-data.table: 
    :depends on r-ggplot2: 
    :depends on r-magrittr: 

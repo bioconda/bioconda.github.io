@@ -32,9 +32,7 @@ cgmlst-dists
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
-   :depends on libgcc: ``>=14``
-   :depends on libgomp: 
+   :depends on llvm-openmp: ``>=19.1.7``
 
    :additional platforms:
       

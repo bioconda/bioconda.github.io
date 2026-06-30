@@ -47,11 +47,9 @@ kallisto
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on hdf5: ``>=1.14.3,<1.14.4.0a0``
    :depends on libcurl: ``>=8.19.0,<9.0a0``
-   :depends on libgcc: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
-   :depends on zlib-ng: ``>=2.3.3,<2.4.0a0``
 
    :additional platforms:
       

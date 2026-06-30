@@ -12,7 +12,7 @@ nf-metro
 
    Metromap\-style pipeline workflow components
 
-   :homepage: https://github.com/pinin4fjords/nf-metro
+   :homepage: https://github.com/seqeralabs/nf-metro
    :license: MIT
    :recipe: /`nf-metro <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nf-metro>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nf-metro/meta.yaml>`_
 
@@ -28,10 +28,10 @@ nf-metro
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.2-1</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.6.1-0</code>,  <code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.5.1-0</code>,  <code>0.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>0.7.2-2</code>,  <code>0.7.2-1</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.6.1-0</code>,  <code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  </span></summary>
       
 
-      ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.1-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``
+      ``1.0.0-0``,  ``0.7.2-2``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.1-0``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``
 
       
       .. raw:: html
@@ -42,11 +42,12 @@ nf-metro
    
    :depends on click: ``>=8.0``
    :depends on drawsvg: ``>=2.0``
+   :depends on fonttools: ``>=4.0``
    :depends on jsonschema: ``>=4.0``
    :depends on lark: ``>=1.1``
    :depends on networkx: ``>=3.0``
    :depends on pillow: ``>=9.0``
-   :depends on python: ``>=3.10``
+   :depends on python: ``>=3.11``
 
    :additional platforms:
       
@@ -121,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "nf-metro";
-      var versions = ["0.7.2","0.7.2","0.7.1","0.6.1","0.5.4"];
+      var versions = ["1.0.0","0.7.2","0.7.2","0.7.2","0.7.1"];
    </script>
 
 .. rubric:: Download stats

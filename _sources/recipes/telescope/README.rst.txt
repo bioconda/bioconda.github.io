@@ -36,11 +36,10 @@ telescope
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on __osx: ``>=10.13``
    :depends on future: ``>=0.17.1``
    :depends on htslib: ``>=1.9,<1.10.0a0``
    :depends on intervaltree: ``3.0.2``
-   :depends on libgcc: ``>=14``
    :depends on numpy: ``1.16.3``
    :depends on pysam: ``0.15.2``
    :depends on python: ``>=3.6,<3.7.0a0``

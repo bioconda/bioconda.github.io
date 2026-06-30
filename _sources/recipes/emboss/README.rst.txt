@@ -41,7 +41,6 @@ emboss
       
 
    
-   :depends on libgcc: ``>=13``
    :depends on libgd: ``>=2.3.3,<2.4.0a0``
    :depends on libharu: ``>=2.4.5,<2.5.0a0``
    :depends on libpng: ``>=1.6.50,<1.7.0a0``

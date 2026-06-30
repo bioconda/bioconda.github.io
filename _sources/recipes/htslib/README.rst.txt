@@ -46,10 +46,8 @@ htslib
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on libcurl: ``>=8.19.0,<9.0a0``
    :depends on libdeflate: ``>=1.25,<1.26.0a0``
-   :depends on libgcc: ``>=14``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on openssl: ``>=3.5.5,<4.0a0``
 
    :additional platforms:
       

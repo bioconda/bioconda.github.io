@@ -87,17 +87,17 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/minibwa"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/minibwa.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/minibwa"><img alt="docker_minibwa" src="https://quay.io/repository/biocontainers/minibwa/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.3-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><strong>on __glibc</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=2.17,&lt;3.0.a0</span></code></p></li>
-<li><p><strong>on libgcc</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p></li>
+<li><p><strong>on __osx</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=10.13</span></code></p></li>
 <li><p><strong>on libzlib</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.3.2,&lt;2.0a0</span></code></p></li>
+<li><p><strong>on llvm-openmp</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=19.1.7</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code></span></dd>
+<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
 </dl>
 </dd></dl>
 
@@ -152,7 +152,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "minibwa";
-   var versions = ["0.3","0.2","0.1"];
+   var versions = ["0.3","0.3","0.2","0.1"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_minibwa"></div>
 <div style="width: 100%" id="platform_plot_minibwa"></div>

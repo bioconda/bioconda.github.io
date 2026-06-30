@@ -40,11 +40,9 @@ krbalancing
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
    :depends on eigen: ``>=3.3.7``
-   :depends on libgcc: ``>=13``
-   :depends on libgomp: 
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
+   :depends on llvm-openmp: ``>=18.1.8``
    :depends on pybind11: ``>=2.2.4``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``

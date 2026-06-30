@@ -10,7 +10,7 @@ harpy
    :replaces_section_title:
    :noindex:
 
-   Process raw haplotagging data\, from raw sequences to phased haplotypes.
+   Process linked\-read or WGS data\, from raw sequences to phased haplotypes.
 
    :homepage: https://github.com/pdimens/harpy
    :documentation: https://pdimens.github.io/harpy
@@ -36,10 +36,10 @@ harpy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2-0</code>,  <code>3.1-2</code>,  <code>3.1-1</code>,  <code>3.1-0</code>,  <code>3.0.1-0</code>,  <code>3.0-0</code>,  <code>2.8.1-0</code>,  <code>2.8-0</code>,  <code>2.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.1-0</code>,  <code>4.0-0</code>,  <code>3.2-0</code>,  <code>3.1-2</code>,  <code>3.1-1</code>,  <code>3.1-0</code>,  <code>3.0.1-0</code>,  <code>3.0-0</code>,  <code>2.8.1-0</code>,  </span></summary>
       
 
-      ``3.2-0``,  ``3.1-2``,  ``3.1-1``,  ``3.1-0``,  ``3.0.1-0``,  ``3.0-0``,  ``2.8.1-0``,  ``2.8-0``,  ``2.7-0``,  ``2.6.1-1``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4-1``,  ``2.4-0``,  ``2.3-1``,  ``2.3-0``,  ``2.2-0``,  ``2.1-0``,  ``2.0-0``,  ``1.16.3-1``,  ``1.16.3-0``,  ``1.16.2-0``,  ``1.16.1-0``,  ``1.16.0-0``,  ``1.15.0-0``,  ``1.14.3-0``,  ``1.14.2-0``,  ``1.14.1-1``,  ``1.14.1-0``,  ``1.14-0``,  ``1.13-0``,  ``1.12-0``,  ``1.11-0``,  ``1.10.1-0``,  ``1.10-0``,  ``1.9-1``,  ``1.9-0``,  ``1.8.2-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.0-0``,  ``1.6.1-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0-1``,  ``1.0-0``,  ``0.9.1-0``,  ``0.8.0-0``,  ``0.7.3-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``4.1-0``,  ``4.0-0``,  ``3.2-0``,  ``3.1-2``,  ``3.1-1``,  ``3.1-0``,  ``3.0.1-0``,  ``3.0-0``,  ``2.8.1-0``,  ``2.8-0``,  ``2.7-0``,  ``2.6.1-1``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.2-0``,  ``2.4.1-0``,  ``2.4-1``,  ``2.4-0``,  ``2.3-1``,  ``2.3-0``,  ``2.2-0``,  ``2.1-0``,  ``2.0-0``,  ``1.16.3-1``,  ``1.16.3-0``,  ``1.16.2-0``,  ``1.16.1-0``,  ``1.16.0-0``,  ``1.15.0-0``,  ``1.14.3-0``,  ``1.14.2-0``,  ``1.14.1-1``,  ``1.14.1-0``,  ``1.14-0``,  ``1.13-0``,  ``1.12-0``,  ``1.11-0``,  ``1.10.1-0``,  ``1.10-0``,  ``1.9-1``,  ``1.9-0``,  ``1.8.2-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.0-0``,  ``1.6.1-0``,  ``1.6-0``,  ``1.5-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4-0``,  ``1.3-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1-1``,  ``1.1-0``,  ``1.0-1``,  ``1.0-0``,  ``0.9.1-0``,  ``0.8.0-0``,  ``0.7.3-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-3``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -48,16 +48,27 @@ harpy
       
 
    
-   :depends on bcftools: ``>=1.22``
-   :depends on conda: ``>24.7``
-   :depends on djinn: ``>=1.1``
-   :depends on htslib: ``>=1.22``
+   :depends on __osx: ``>=10.13``
+   :depends on altair: ``>=6.0``
+   :depends on bcftools: ``>=1.23``
+   :depends on click: ``>=8.2``
+   :depends on conda: ``>=24.8``
+   :depends on djinn: ``>=2.3``
+   :depends on htslib: ``>=1.23``
+   :depends on jupyter-book: ``>=2.1.0``
+   :depends on pandas: ``>=2.3.3``
+   :depends on papermill: ``>=2.6``
+   :depends on pillow: ``>=12.2``
+   :depends on polars: ``>=1.39``
    :depends on pysam: ``>=0.23``
-   :depends on python: ``>=3.11``
+   :depends on python: ``>=3.13,<3.14.0a0``
+   :depends on python_abi: ``3.13.* *_cp313``
    :depends on rich-click: ``>=1.9.3``
-   :depends on samtools: ``>=1.22``
+   :depends on samtools: ``>=1.23``
    :depends on seqtk: 
-   :depends on snakemake-minimal: ``>9.10``
+   :depends on snakemake-minimal: ``>=9.19.0``
+   :depends on vl-convert-python: ``>=1.9.0``
+   :depends on xeus-python: ``>=0.18.1``
 
    :additional platforms:
       
@@ -132,7 +143,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "harpy";
-      var versions = ["3.2","3.1","3.1","3.1","3.0.1"];
+      var versions = ["4.1","4.0","3.2","3.1","3.1"];
    </script>
 
 .. rubric:: Download stats
