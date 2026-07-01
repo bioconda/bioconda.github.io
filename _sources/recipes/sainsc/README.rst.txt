@@ -28,25 +28,32 @@ sainsc
    :versions:
       
       
+      .. raw:: html
 
-      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.4.0-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.1-1</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.1-2</code>,  <code>0.1.1-1</code>,  <code>0.1.1-0</code>,  </span></summary>
+      
 
+      ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-2``,  ``0.1.1-1``,  ``0.1.1-0``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends on anndata: ``>=0.9``
-   :depends on matplotlib-base: 
+   :depends on anndata: ``>=0.11``
+   :depends on h5py: ``>=3``
+   :depends on matplotlib-base: ``>=3.7``
    :depends on matplotlib-scalebar: 
-   :depends on numba: ``>=0.44``
-   :depends on numpy: ``>=1.21``
-   :depends on pandas: 
-   :depends on polars: ``>=1``
-   :depends on python: ``>=3.10,<3.11.0a0``
-   :depends on python_abi: ``3.10.* *_cp310``
-   :depends on scikit-image: ``>=0.18``
-   :depends on scipy: ``>=1.9``
+   :depends on numpy: ``>=1.24``
+   :depends on pandas: ``>=2.0``
+   :depends on polars: ``>=1.39,<2``
+   :depends on python: ``>=3.12,<3.13.0a0``
+   :depends on python_abi: ``3.12.* *_cp312``
+   :depends on scikit-image: ``>=0.20``
+   :depends on scipy: ``>=1.10``
    :depends on seaborn-base: ``>=0.11``
-   :depends on typing-extensions: ``>=4``
 
    :additional platforms:
       
@@ -125,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "sainsc";
-      var versions = ["0.3.1","0.3.0","0.2.1","0.2.1","0.2.0"];
+      var versions = ["0.4.0","0.3.1","0.3.0","0.2.1","0.2.1"];
    </script>
 
 .. rubric:: Download stats

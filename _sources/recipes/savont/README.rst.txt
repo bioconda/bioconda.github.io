@@ -27,13 +27,13 @@ savont
       
       
 
-      ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.6.1c-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.2-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
-   :depends on __osx: ``>=10.13``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
       
@@ -112,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "savont";
-      var versions = ["0.6.0","0.5.1","0.5.0","0.4.0","0.3.2"];
+      var versions = ["0.6.1c","0.6.0","0.5.1","0.5.0","0.4.0"];
    </script>
 
 .. rubric:: Download stats

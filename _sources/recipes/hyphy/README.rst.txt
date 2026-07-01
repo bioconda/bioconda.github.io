@@ -44,12 +44,13 @@ hyphy
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on libcurl: ``>=8.20.0,<9.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
-   :depends on llvm-openmp: ``>=19.1.7``
    :depends on openmpi: ``>=4.1.6,<5.0a0``
 
    :additional platforms:

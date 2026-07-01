@@ -44,7 +44,7 @@ wfmash
    
    :depends on _openmp_mutex: ``>=4.5``
    :depends on gsl: ``>=2.8,<2.9.0a0``
-   :depends on htslib: ``>=1.21,<1.24.0a0``
+   :depends on htslib: ``>=1.21,<1.22.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on libgcc: ``>=14``
    :depends on libgomp: 

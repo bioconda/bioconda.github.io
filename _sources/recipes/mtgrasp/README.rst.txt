@@ -26,9 +26,17 @@ mtgrasp
    :versions:
       
       
+      .. raw:: html
 
-      ``1.1.9-0``,  ``1.1.8-1``,  ``1.1.8-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``
+         <details><summary><span class="truncated-version-list"><code>1.1.10-0</code>,  <code>1.1.9-0</code>,  <code>1.1.8-1</code>,  <code>1.1.8-0</code>,  <code>1.1.6-0</code>,  <code>1.1.5-0</code>,  <code>1.1.4-1</code>,  <code>1.1.4-0</code>,  <code>1.1.3-1</code>,  </span></summary>
+      
 
+      ``1.1.10-0``,  ``1.1.9-0``,  ``1.1.8-1``,  ``1.1.8-0``,  ``1.1.6-0``,  ``1.1.5-0``,  ``1.1.4-1``,  ``1.1.4-0``,  ``1.1.3-1``,  ``1.1.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -118,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mtgrasp";
-      var versions = ["1.1.9","1.1.8","1.1.8","1.1.6","1.1.5"];
+      var versions = ["1.1.10","1.1.9","1.1.8","1.1.8","1.1.6"];
    </script>
 
 .. rubric:: Download stats

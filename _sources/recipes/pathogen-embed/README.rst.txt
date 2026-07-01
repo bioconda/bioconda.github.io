@@ -27,7 +27,7 @@ pathogen-embed
       
       
 
-      ``3.1.0-0``,  ``3.0.0-0``,  ``2.3.0-0``,  ``2.2.1-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-0``
+      ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.3.0-0``,  ``2.2.1-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-0``
 
       
 
@@ -37,7 +37,7 @@ pathogen-embed
    :depends on matplotlib-base: ``>=3,<4``
    :depends on numba: ``<0.59.0``
    :depends on numpy: ``>=1.24.4,<2``
-   :depends on pandas: ``>=1.2.0,<2``
+   :depends on pandas: ``>=1.2.0,<4``
    :depends on python: ``>=3.8``
    :depends on scikit-learn: ``>=1.3,<1.5``
    :depends on umap-learn: ``>=0.5.0,<0.6.0``
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pathogen-embed";
-      var versions = ["3.1.0","3.0.0","2.3.0","2.2.1","2.2.0"];
+      var versions = ["3.1.0","3.1.0","3.0.0","2.3.0","2.2.1"];
    </script>
 
 .. rubric:: Download stats

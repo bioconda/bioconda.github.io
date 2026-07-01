@@ -41,7 +41,7 @@ igphyml
 
    
    :depends on changeo: ``>=0.4.6``
-   :depends on llvm-openmp: ``>=18.1.8``
+   :depends on libgcc: ``>=13``
    :depends on r-alakazam: ``>=0.3.0``
 
    :additional platforms:

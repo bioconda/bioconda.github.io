@@ -33,7 +33,8 @@ rnabridge-denovo
 
    
    :depends on bifrost: 
-   :depends on libcxx: ``>=9.0.1``
+   :depends on libgcc-ng: ``>=7.5.0``
+   :depends on libstdcxx-ng: ``>=7.5.0``
 
    :additional platforms:
       

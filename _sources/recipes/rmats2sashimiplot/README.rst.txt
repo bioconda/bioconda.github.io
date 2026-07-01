@@ -28,10 +28,10 @@ rmats2sashimiplot
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.0-2</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.0.4-2</code>,  <code>2.0.4-1</code>,  <code>2.0.4-0</code>,  <code>2.0.3-3</code>,  <code>2.0.3-2</code>,  <code>2.0.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.0-0</code>,  <code>3.0.0-2</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.0.4-2</code>,  <code>2.0.4-1</code>,  <code>2.0.4-0</code>,  <code>2.0.3-3</code>,  <code>2.0.3-2</code>,  </span></summary>
       
 
-      ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.0.4-2``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.3-3``,  ``2.0.3-2``,  ``2.0.3-0``,  ``2.0.0-0``
+      ``4.0.0-0``,  ``3.0.0-2``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.0.4-2``,  ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.3-3``,  ``2.0.3-2``,  ``2.0.3-0``,  ``2.0.0-0``
 
       
       .. raw:: html
@@ -44,8 +44,7 @@ rmats2sashimiplot
    :depends on matplotlib-base: 
    :depends on numpy: 
    :depends on pysam: 
-   :depends on python: ``>=3.10,<3.11.0a0``
-   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on python: 
    :depends on samtools: 
    :depends on scipy: 
 
@@ -122,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "rmats2sashimiplot";
-      var versions = ["3.0.0","3.0.0","3.0.0","2.0.4","2.0.4"];
+      var versions = ["4.0.0","3.0.0","3.0.0","3.0.0","2.0.4"];
    </script>
 
 .. rubric:: Download stats

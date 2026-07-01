@@ -42,7 +42,8 @@ scalpel
    
    :depends on bamtools: ``>=2.5.3,<3.0a0``
    :depends on bcftools: ``>=1.22,<2.0a0``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on perl: 
    :depends on samtools: ``>=1.22.1,<2.0a0``
 

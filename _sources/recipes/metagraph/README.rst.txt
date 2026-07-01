@@ -43,13 +43,18 @@ metagraph
       
 
    
-   :depends on __osx: ``>=10.15``
+   :depends on _openmp_mutex: ``* *_llvm``
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on boost-cpp: 
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on icu: ``>=75.1,<76.0a0``
-   :depends on libcxx: ``>=18``
+   :depends on jemalloc: 
    :depends on libdeflate: ``>=1.25,<1.26.0a0``
-   :depends on llvm-openmp: ``>=19.1.7``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
+   :depends on libjemalloc: ``>=5.3.0``
+   :depends on libstdcxx: ``>=14``
+   :depends on llvm-openmp: ``>=22.1.5``
    :depends on zstd: ``>=1.5.7,<1.6.0a0``
 
    :additional platforms:

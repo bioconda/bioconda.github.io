@@ -27,7 +27,7 @@ sc-musketeers
       
       
 
-      ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.7-0``
+      ``0.7.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.3.7-0``
 
       
 
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "sc-musketeers";
-      var versions = ["0.4.2","0.4.1","0.3.7"];
+      var versions = ["0.7.0","0.4.2","0.4.1","0.3.7"];
    </script>
 
 .. rubric:: Download stats

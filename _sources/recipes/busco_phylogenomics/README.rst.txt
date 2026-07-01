@@ -27,7 +27,7 @@ busco_phylogenomics
       
       
 
-      ``20260305-0``,  ``20240919-0``
+      ``20260630-0``,  ``20260305-0``,  ``20240919-0``
 
       
 
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "busco_phylogenomics";
-      var versions = ["20260305","20240919"];
+      var versions = ["20260630","20260305","20240919"];
    </script>
 
 .. rubric:: Download stats

@@ -28,18 +28,18 @@ omark
       
       
 
-      ``0.4.1-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``
+      ``0.5.0-0``,  ``0.4.1-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``
 
       
 
    
-   :depends on biopython: 
+   :depends on biopython: ``>1.83``
    :depends on ete3: 
    :depends on jinja2: 
    :depends on libsqlite: ``<=3.40.0``
    :depends on matplotlib-base: 
-   :depends on omamer: ``>=2.0.0``
-   :depends on python: 
+   :depends on omamer: ``>=2.1.0``
+   :depends on python: ``>=3.9,<3.13``
 
    :additional platforms:
       
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "omark";
-      var versions = ["0.4.1","0.3.1","0.3.1","0.3.0"];
+      var versions = ["0.5.0","0.4.1","0.3.1","0.3.1","0.3.0"];
    </script>
 
 .. rubric:: Download stats

@@ -35,6 +35,7 @@ snap
       
 
    
+   :depends on libgcc: ``>=13``
    :depends on perl: 
 
    :additional platforms:

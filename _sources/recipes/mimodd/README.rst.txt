@@ -33,6 +33,7 @@ mimodd
       
 
    
+   :depends on libgcc: 
    :depends on python: ``3.5*``
    :depends on rpy2: 
    :depends on zlib: ``1.2.11*``
