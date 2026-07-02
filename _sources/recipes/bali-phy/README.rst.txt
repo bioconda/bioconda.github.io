@@ -42,6 +42,7 @@ bali-phy
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on cairo: ``>=1.18.4,<2.0a0``
    :depends on fmt: ``>=12.1.0,<12.2.0a0``
    :depends on gnuplot: 

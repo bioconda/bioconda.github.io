@@ -31,7 +31,7 @@ telescope
       
       
 
-      ``1.0.4-0``,  ``1.0.3-5``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.3_fix-0``
+      ``1.0.4.1-0``,  ``1.0.4-0``,  ``1.0.3-5``,  ``1.0.3-4``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.3_fix-0``
 
       
 
@@ -122,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "telescope";
-      var versions = ["1.0.4","1.0.3","1.0.3","1.0.3","1.0.3"];
+      var versions = ["1.0.4.1","1.0.4","1.0.3","1.0.3","1.0.3"];
    </script>
 
 .. rubric:: Download stats

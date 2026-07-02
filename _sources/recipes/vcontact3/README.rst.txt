@@ -28,13 +28,22 @@ vcontact3
    :versions:
       
       
+      .. raw:: html
 
-      ``3.1.6-0``,  ``3.1.4-1``,  ``3.1.4-0``,  ``3.1.3-0``,  ``3.0.5-0``,  ``3.0.3-0``,  ``3.0.0.b74-0``,  ``3.0.0.b65-0``,  ``3.0.0.b38-0``
+         <details><summary><span class="truncated-version-list"><code>3.1.6-1</code>,  <code>3.1.6-0</code>,  <code>3.1.4-1</code>,  <code>3.1.4-0</code>,  <code>3.1.3-0</code>,  <code>3.0.5-0</code>,  <code>3.0.3-0</code>,  <code>3.0.0.b74-0</code>,  <code>3.0.0.b65-0</code>,  </span></summary>
+      
 
+      ``3.1.6-1``,  ``3.1.6-0``,  ``3.1.4-1``,  ``3.1.4-0``,  ``3.1.3-0``,  ``3.0.5-0``,  ``3.0.3-0``,  ``3.0.0.b74-0``,  ``3.0.0.b65-0``,  ``3.0.0.b38-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends on biopython: ``>=1.81``
+   :depends on curl: 
    :depends on dill: ``>=0.3.6``
    :depends on ete3: ``>=3.1.3``
    :depends on fastcluster: ``>=1.2.6,<1.3.0``
@@ -134,7 +143,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "vcontact3";
-      var versions = ["3.1.6","3.1.4","3.1.4","3.1.3","3.0.5"];
+      var versions = ["3.1.6","3.1.6","3.1.4","3.1.4","3.1.3"];
    </script>
 
 .. rubric:: Download stats

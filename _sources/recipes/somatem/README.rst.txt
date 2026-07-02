@@ -12,8 +12,8 @@ somatem
 
    Best practices pipeline for long\-read metagenomics analysis.
 
-   :homepage: https://github.com/treangenlab/Somatem
-   :documentation: https://github.com/treangenlab/Somatem#readme
+   :homepage: https://github.com/treangenlab/somatem
+   :documentation: https://github.com/treangenlab/somatem#readme
    
    :license: GPL-3.0
    :recipe: /`somatem <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/somatem>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/somatem/meta.yaml>`_
@@ -29,7 +29,7 @@ somatem
       
       
 
-      ``0.7.1-1``,  ``0.7.1-0``
+      ``0.8.0-0``,  ``0.7.1-1``,  ``0.7.1-0``
 
       
 
@@ -37,7 +37,7 @@ somatem
    :depends on bash: 
    :depends on coreutils: 
    :depends on micromamba: 
-   :depends on nextflow: ``>=25.10.2``
+   :depends on nextflow: ``>=26.04.4``
 
    :additional platforms:
       
@@ -112,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "somatem";
-      var versions = ["0.7.1","0.7.1"];
+      var versions = ["0.8.0","0.7.1","0.7.1"];
    </script>
 
 .. rubric:: Download stats
@@ -201,6 +201,13 @@ Check the documentation of your workflow management system to find out about the
          
       }
    </script>
+
+
+Notes
+-----
+Somatem installs a wrapper command that launches bundled Nextflow workflows from
+\$PREFIX\/share\/somatem\-0.8.0. Use \`somatem \-\-help\` to see supported
+workflow shortcuts and common arguments.
 
 
 

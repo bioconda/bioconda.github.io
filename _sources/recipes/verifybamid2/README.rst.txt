@@ -31,10 +31,10 @@ verifybamid2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.2-0</code>,  <code>2.0.1-12</code>,  <code>2.0.1-11</code>,  <code>2.0.1-10</code>,  <code>2.0.1-9</code>,  <code>2.0.1-8</code>,  <code>2.0.1-7</code>,  <code>2.0.1-6</code>,  <code>2.0.1-5</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.3-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-12</code>,  <code>2.0.1-11</code>,  <code>2.0.1-10</code>,  <code>2.0.1-9</code>,  <code>2.0.1-8</code>,  <code>2.0.1-7</code>,  <code>2.0.1-6</code>,  </span></summary>
       
 
-      ``2.0.2-0``,  ``2.0.1-12``,  ``2.0.1-11``,  ``2.0.1-10``,  ``2.0.1-9``,  ``2.0.1-8``,  ``2.0.1-7``,  ``2.0.1-6``,  ``2.0.1-5``,  ``2.0.1-4``,  ``2.0.1-3``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``1.0.6-3``,  ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-3``,  ``1.0.5-2``,  ``1.0.5-0``,  ``1.0.4-0``
+      ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-12``,  ``2.0.1-11``,  ``2.0.1-10``,  ``2.0.1-9``,  ``2.0.1-8``,  ``2.0.1-7``,  ``2.0.1-6``,  ``2.0.1-5``,  ``2.0.1-4``,  ``2.0.1-3``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``1.0.6-3``,  ``1.0.6-2``,  ``1.0.6-1``,  ``1.0.6-0``,  ``1.0.5-3``,  ``1.0.5-2``,  ``1.0.5-0``,  ``1.0.4-0``
 
       
       .. raw:: html
@@ -43,13 +43,14 @@ verifybamid2
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on htslib: ``>=1.23.1,<1.24.0a0``
    :depends on libgcc: ``>=14``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
    :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
-   :depends on openssl: ``>=3.5.6,<4.0a0``
+   :depends on openssl: ``>=3.5.7,<4.0a0``
 
    :additional platforms:
       
@@ -128,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "verifybamid2";
-      var versions = ["2.0.2","2.0.1","2.0.1","2.0.1","2.0.1"];
+      var versions = ["2.0.3","2.0.2","2.0.1","2.0.1","2.0.1"];
    </script>
 
 .. rubric:: Download stats

@@ -30,11 +30,12 @@ obitools4
       
       
 
-      ``4.4.45-0``,  ``4.4.42-0``,  ``4.4.41-0``,  ``4.4.0-0``
+      ``4.4.46-0``,  ``4.4.45-0``,  ``4.4.42-0``,  ``4.4.41-0``,  ``4.4.0-0``
 
       
 
    
+   :depends on __glibc: ``>=2.17``
    :depends on libgcc: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
 
@@ -115,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "obitools4";
-      var versions = ["4.4.45","4.4.42","4.4.41","4.4.0"];
+      var versions = ["4.4.46","4.4.45","4.4.42","4.4.41","4.4.0"];
    </script>
 
 .. rubric:: Download stats

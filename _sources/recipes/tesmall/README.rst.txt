@@ -30,7 +30,7 @@ tesmall
       
       
 
-      ``2.0.9-1``,  ``2.0.9-0``
+      ``2.1.0-0``,  ``2.0.9-1``,  ``2.0.9-0``
 
       
 
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "tesmall";
-      var versions = ["2.0.9","2.0.9"];
+      var versions = ["2.1.0","2.0.9","2.0.9"];
    </script>
 
 .. rubric:: Download stats

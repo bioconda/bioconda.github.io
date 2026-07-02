@@ -32,6 +32,7 @@ panmap
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on capnproto: ``>=1.4.0,<1.4.1.0a0``
    :depends on fmt: ``>=12.0,<13``
    :depends on fmt: ``>=12.0.0,<12.1.0a0``

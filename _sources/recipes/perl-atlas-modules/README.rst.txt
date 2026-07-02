@@ -40,6 +40,7 @@ perl-atlas-modules
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libgcc: ``>=14``
    :depends on libstdcxx: ``>=14``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
@@ -61,13 +62,13 @@ perl-atlas-modules
    :depends on perl-datetime: ``>=1.66,<2.0a0``
    :depends on perl-datetime-format-strptime: ``>=1.80,<2.0a0``
    :depends on perl-dbd-mysql: ``>=5.13,<6.0a0``
-   :depends on perl-dbd-pg: ``>=3.18.0,<4.0a0``
+   :depends on perl-dbd-pg: ``>=3.20.0,<4.0a0``
    :depends on perl-dbi: 
    :depends on perl-devel-symdump: 
    :depends on perl-extutils-cbuilder: 
-   :depends on perl-extutils-config: 
-   :depends on perl-extutils-helpers: 
-   :depends on perl-extutils-installpaths: 
+   :depends on perl-extutils-config: ``0.008.*``
+   :depends on perl-extutils-helpers: ``0.026.*``
+   :depends on perl-extutils-installpaths: ``0.012.*``
    :depends on perl-file-spec: 
    :depends on perl-graphviz: ``>=2.26,<3.0a0``
    :depends on perl-io-scalar: 
@@ -83,7 +84,7 @@ perl-atlas-modules
    :depends on perl-mailtools: ``>=2.22,<3.0a0``
    :depends on perl-mime-lite: 
    :depends on perl-module-build: ``0.4234.*``
-   :depends on perl-module-build-tiny: 
+   :depends on perl-module-build-tiny: ``0.039.*``
    :depends on perl-module-pluggable: 
    :depends on perl-moose: ``2.2207.*``
    :depends on perl-moosex-types: ``>=0.51,<0.52.0a0``
@@ -91,15 +92,15 @@ perl-atlas-modules
    :depends on perl-params-validate: ``>=1.31,<2.0a0``
    :depends on perl-parse-recdescent: 
    :depends on perl-path-tiny: 
-   :depends on perl-readonly: 
+   :depends on perl-readonly: ``2.05.*``
    :depends on perl-scalar-list-utils: 
-   :depends on perl-spiffy: 
+   :depends on perl-spiffy: ``0.46.*``
    :depends on perl-sub-exporter-formethods: 
    :depends on perl-sub-uplevel: 
    :depends on perl-test-exception: 
    :depends on perl-test-inter: ``>=1.12,<2.0a0``
    :depends on perl-test-needs: 
-   :depends on perl-test-nowarnings: 
+   :depends on perl-test-nowarnings: ``1.06.*``
    :depends on perl-test-pod: 
    :depends on perl-test-pod-coverage: ``>=1.10,<2.0a0``
    :depends on perl-test-warn: 

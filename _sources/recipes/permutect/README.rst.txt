@@ -34,18 +34,18 @@ permutect
       
       
 
-      ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.1-0``
+      ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.1-0``
 
       
 
    
-   :depends on cyvcf2: ``>=0.31.4,<0.32``
+   :depends on cyvcf2: ``>=0.32``
    :depends on dill: ``>=0.3.7``
    :depends on matplotlib-base: ``>=3.8``
    :depends on numpy: ``>=1.26``
    :depends on psutil: ``>=5.9``
    :depends on pymc: ``>=5.28``
-   :depends on python: ``>=3.10,<3.13``
+   :depends on python: ``>=3.10``
    :depends on python-intervaltree: ``>=3.1``
    :depends on pytorch: ``>=2.10,<2.11``
    :depends on scikit-learn: ``>=1.3``
@@ -125,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "permutect";
-      var versions = ["0.9.0","0.8.0","0.7.1"];
+      var versions = ["0.9.1","0.9.0","0.8.0","0.7.1"];
    </script>
 
 .. rubric:: Download stats
