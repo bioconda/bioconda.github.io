@@ -16,7 +16,7 @@ trimmomatic
    :developer docs: https://github.com/usadellab/Trimmomatic
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`trimmomatic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trimmomatic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trimmomatic/meta.yaml>`_
-   :links: biotools: :biotools:`trimmomatic`, usegalaxy-eu: :usegalaxy-eu:`trimmomatic`, doi: :doi:`10.1093/bioinformatics/btu170`
+   :links: biotools: :biotools:`trimmomatic`, usegalaxy-eu: :usegalaxy-eu:`trimmomatic`, doi: :doi:`10.1093/bioinformatics/btu170`, doi: :doi:`10.1093/bioinformatics/btag331`
 
    
 
@@ -30,10 +30,10 @@ trimmomatic
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.40-0</code>,  <code>0.39-2</code>,  <code>0.39-1</code>,  <code>0.39-0</code>,  <code>0.38-1</code>,  <code>0.36-6</code>,  <code>0.36-5</code>,  <code>0.36-4</code>,  <code>0.36-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.41-0</code>,  <code>0.40-0</code>,  <code>0.39-2</code>,  <code>0.39-1</code>,  <code>0.39-0</code>,  <code>0.38-1</code>,  <code>0.36-6</code>,  <code>0.36-5</code>,  <code>0.36-4</code>,  </span></summary>
       
 
-      ``0.40-0``,  ``0.39-2``,  ``0.39-1``,  ``0.39-0``,  ``0.38-1``,  ``0.36-6``,  ``0.36-5``,  ``0.36-4``,  ``0.36-3``,  ``0.36-1``,  ``0.35-7``,  ``0.35-6``,  ``0.35-4``,  ``0.35-3``,  ``0.35-2``,  ``0.35-1``,  ``0.33-3``,  ``0.33-2``,  ``0.33-1``,  ``0.33-0``,  ``0.32-4``,  ``0.32-3``,  ``0.32-2``,  ``0.32-1``,  ``0.32-0``
+      ``0.41-0``,  ``0.40-0``,  ``0.39-2``,  ``0.39-1``,  ``0.39-0``,  ``0.38-1``,  ``0.36-6``,  ``0.36-5``,  ``0.36-4``,  ``0.36-3``,  ``0.36-1``,  ``0.35-7``,  ``0.35-6``,  ``0.35-4``,  ``0.35-3``,  ``0.35-2``,  ``0.35-1``,  ``0.33-3``,  ``0.33-2``,  ``0.33-1``,  ``0.33-0``,  ``0.32-4``,  ``0.32-3``,  ``0.32-2``,  ``0.32-1``,  ``0.32-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ trimmomatic
       
 
    
-   :depends on openjdk: 
+   :depends on openjdk: ``>=25``
    :depends on python: 
 
    :additional platforms:
@@ -118,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "trimmomatic";
-      var versions = ["0.40","0.39","0.39","0.39","0.38"];
+      var versions = ["0.41","0.40","0.39","0.39","0.39"];
    </script>
 
 .. rubric:: Download stats

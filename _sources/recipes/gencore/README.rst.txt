@@ -35,10 +35,10 @@ gencore
       
 
    
-   :depends on htslib: ``>=1.10.2,<1.24.0a0``
+   :depends on htslib: ``>=1.10,<2.0a0``
    :depends on libgcc: ``>=13``
    :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.2.13,<2.0a0``
+   :depends on libzlib: ``>=1.3.1,<2.0a0``
 
    :additional platforms:
       

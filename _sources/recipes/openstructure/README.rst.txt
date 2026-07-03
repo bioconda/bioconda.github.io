@@ -46,7 +46,6 @@ openstructure
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on fftw: ``>=3.3.11,<4.0a0``
    :depends on glew: ``>=2.3.0,<2.4.0a0``
    :depends on glfw: ``>=3.4,<4.0a0``
@@ -68,7 +67,7 @@ openstructure
    :depends on libxcb: ``>=1.17.0,<2.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on mesalib: ``>=26.0.3,<26.1.0a0``
-   :depends on networkx: ``>=3.4.2,<4.0a0``
+   :depends on networkx: ``>=3.6.1,<4.0a0``
    :depends on numpy: ``>=1.21,<3``
    :depends on numpy: ``>=2.2.6,<3.0a0``
    :depends on ocl-icd: ``>=2.3.3,<3.0a0``
@@ -77,8 +76,8 @@ openstructure
    :depends on pandas: ``>=2.3.3,<3.0a0``
    :depends on parasail: ``>=2.6.2,<3.0a0``
    :depends on pyqt: ``>=5.15.11,<5.16.0a0``
-   :depends on python: ``>=3.10,<3.11.0a0 *_cpython``
-   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on python: ``>=3.12,<3.13.0a0 *_cpython``
+   :depends on python_abi: ``3.12.* *_cp312``
    :depends on qt: ``>=5.15.15,<5.16.0a0``
    :depends on scipy: ``>=1.13.1,<2.0a0``
    :depends on voronota: ``>=1.29.4781,<2.0a0``

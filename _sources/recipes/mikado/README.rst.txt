@@ -43,7 +43,6 @@ mikado
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on biopython: ``>=1.79``
    :depends on datrie: ``>=0.8``
    :depends on diamond: ``2.1.16``

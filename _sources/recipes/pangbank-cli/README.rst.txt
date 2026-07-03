@@ -27,14 +27,14 @@ pangbank-cli
       
       
 
-      ``0.1.1-0``
+      ``0.2.0-0``,  ``0.1.1-0``
 
       
 
    
    :depends on mash: ``>=2.3,<3.0.0``
    :depends on pandas: ``>=2.0.0,<3.0.0``
-   :depends on pangbank-api: ``>=0.1.1``
+   :depends on pangbank-api: ``>=0.3.0``
    :depends on pydantic: ``>=2.10.0,<3.0.0``
    :depends on python: ``>=3.10,<3.14``
    :depends on requests: ``>=2.32.3``
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pangbank-cli";
-      var versions = ["0.1.1"];
+      var versions = ["0.2.0","0.1.1"];
    </script>
 
 .. rubric:: Download stats

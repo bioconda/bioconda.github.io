@@ -45,7 +45,7 @@ dicey
    
    :depends on boost-cpp: 
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on htslib: ``>=1.22,<1.24.0a0``
+   :depends on htslib: ``>=1.22,<1.23.0a0``
    :depends on libdeflate: ``>=1.22,<1.23.0a0``
    :depends on libgcc: ``>=13``
    :depends on libstdcxx: ``>=13``

@@ -27,7 +27,7 @@ bioconductor-pwalign
       
       
 
-      ``1.6.0-0``,  ``1.2.0-0``
+      ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.0-0``
 
       
 
@@ -45,15 +45,15 @@ bioconductor-pwalign
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -126,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-pwalign";
-      var versions = ["1.6.0","1.2.0"];
+      var versions = ["1.6.0","1.6.0","1.2.0"];
    </script>
 
 .. rubric:: Download stats

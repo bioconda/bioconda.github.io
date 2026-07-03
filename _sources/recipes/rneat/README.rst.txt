@@ -35,7 +35,7 @@ rneat
       
       
 
-      ``1.18.0-0``,  ``1.17.4-0``
+      ``1.19.0-0``,  ``1.18.0-0``,  ``1.17.4-0``
 
       
 
@@ -116,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "rneat";
-      var versions = ["1.18.0","1.17.4"];
+      var versions = ["1.19.0","1.18.0","1.17.4"];
    </script>
 
 .. rubric:: Download stats

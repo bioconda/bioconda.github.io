@@ -43,7 +43,7 @@ cnv_facets
    :depends on bcftools: ``>=1.21,<2.0a0``
    :depends on bcftools: ``>=1.9``
    :depends on bioconductor-rsamtools: ``>=2.18.0,<2.19.0a0``
-   :depends on htslib: ``>=1.21,<1.24.0a0``
+   :depends on htslib: ``>=1.21,<1.22.0a0``
    :depends on libgcc: ``>=12``
    :depends on libgfortran: 
    :depends on libgfortran5: ``>=12.4.0``
