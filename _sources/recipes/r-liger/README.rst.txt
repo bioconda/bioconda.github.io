@@ -47,8 +47,7 @@ r-liger
    :depends on bioconductor-delayedarray: ``>=0.32.0,<0.33.0a0``
    :depends on bioconductor-hdf5array: ``>=1.34.0,<1.35.0a0``
    :depends on bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on r-base: ``>=4.4,<4.5.0a0``
    :depends on r-cli: 
    :depends on r-dplyr: 

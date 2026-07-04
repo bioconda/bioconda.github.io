@@ -43,8 +43,7 @@ tmalign
       
 
    
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
 
    :additional platforms:
       

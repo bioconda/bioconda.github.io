@@ -34,12 +34,11 @@ tracs
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
    :depends on htsbox: 
    :depends on joblib: 
-   :depends on libgcc: ``>=12``
-   :depends on libstdcxx: ``>=12``
+   :depends on libcxx: ``>=16``
    :depends on libzlib: ``>=1.2.13,<2.0a0``
+   :depends on llvm-openmp: ``>=16.0.6``
    :depends on minimap2: 
    :depends on ncbi-genome-download: 
    :depends on numpy: 

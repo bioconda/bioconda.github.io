@@ -28,12 +28,21 @@ kmertools
    :versions:
       
       
+      .. raw:: html
 
-      ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.5-0</code>,  <code>0.1.4-0</code>,  <code>0.1.3-0</code>,  <code>0.1.2-1</code>,  <code>0.1.2-0</code>,  </span></summary>
+      
 
+      ``1.0.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-1``,  ``0.1.2-0``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
 
@@ -114,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "kmertools";
-      var versions = ["0.2.2","0.2.1","0.2.0","0.1.5","0.1.4"];
+      var versions = ["1.0.0","0.2.2","0.2.1","0.2.0","0.1.5"];
    </script>
 
 .. rubric:: Download stats

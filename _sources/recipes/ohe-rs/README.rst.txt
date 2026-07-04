@@ -35,7 +35,6 @@ ohe-rs
       
 
    
-   :depends on libgcc: ``>=14``
    :depends on numpy: ``>=1.20``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``

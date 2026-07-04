@@ -43,7 +43,6 @@ poseidon-trident
    
    :depends on ca-certificates: 
    :depends on gmp: ``>=6.3.0,<7.0a0``
-   :depends on libgcc: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on zlib: 
 

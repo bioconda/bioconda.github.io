@@ -46,10 +46,8 @@ pybwa
    :depends on fgpyo: ``>=0.7.0``
    :depends on libcurl: ``>=8.14.1,<9.0a0``
    :depends on libdeflate: ``>=1.22,<1.23.0a0``
-   :depends on libgcc: ``>=13``
    :depends on liblzma: ``>=5.8.1,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on openssl: ``>=3.5.3,<4.0a0``
    :depends on pysam: ``>=0.22.1``
    :depends on pysam: ``>=0.23.3,<0.24.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``

@@ -45,8 +45,7 @@ bellmans-gapc
    :depends on blas: 
    :depends on boost-cpp: 
    :depends on gsl: ``>=2.7,<2.8.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on make: 
    :depends on sed: 
 

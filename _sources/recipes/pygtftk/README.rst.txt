@@ -47,9 +47,8 @@ pygtftk
    :depends on cloudpickle: ``>=0.4.0``
    :depends on ftputil: ``>=3.3.1,<4.0.0``
    :depends on future: 
-   :depends on libgcc: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on libstdcxx: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on matplotlib-base: ``>=2.0.2``
    :depends on mpmath: ``>=1.1.0``

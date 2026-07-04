@@ -48,9 +48,8 @@ genometools-genometools
    :depends on font-ttf-dejavu-sans-mono: 
    :depends on fontconfig: 
    :depends on gettext: 
-   :depends on libgcc: ``>=14``
+   :depends on libcxx: ``>=16``
    :depends on libglib: ``>=2.86.4,<3.0a0``
-   :depends on libstdcxx: ``>=14``
    :depends on pango: ``>=1.56.4,<2.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``

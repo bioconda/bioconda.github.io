@@ -46,12 +46,14 @@ relion
    :depends on fftw: ``>=3.3.10,<4.0a0``
    :depends on libgcc: ``>=14``
    :depends on libgomp: 
-   :depends on liblzma: ``>=5.8.3,<6.0a0``
-   :depends on libpng: ``>=1.6.58,<1.7.0a0``
+   :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libpng: ``>=1.6.56,<1.7.0a0``
    :depends on libstdcxx: ``>=14``
    :depends on libtiff: ``>=4.7.1,<4.8.0a0``
    :depends on openmpi: ``>=4.1.6,<5.0a0``
    :depends on pytorch: 
+   :depends on tbb: ``>=2022.3.0``
+   :depends on tbb-devel: 
    :depends on zstd: ``>=1.5.7,<1.6.0a0``
 
    :additional platforms:

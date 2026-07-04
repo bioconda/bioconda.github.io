@@ -34,8 +34,10 @@ impg
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
+   :depends on libgfortran: 
+   :depends on libgfortran5: ``>=15.1.0``
+   :depends on libgfortran5: ``>=15.2.0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
 
    :additional platforms:
