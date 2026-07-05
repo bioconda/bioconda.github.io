@@ -45,7 +45,6 @@ peakachu
    :depends on bioconductor-edger: 
    :depends on biopython: ``>=1.77``
    :depends on blockbuster: 
-   :depends on libgcc-ng: ``>=12``
    :depends on matplotlib-base: ``>=3.3.1``
    :depends on numexpr: ``>=2.7.0``
    :depends on pandas: ``>=0.25.1``

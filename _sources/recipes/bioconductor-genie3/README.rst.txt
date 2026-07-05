@@ -41,7 +41,6 @@ bioconductor-genie3
 
    
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``

@@ -34,9 +34,8 @@ hts-nim-tools
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on __osx: ``>=10.13``
    :depends on htslib: ``>=1.23.1,<1.24.0a0``
-   :depends on libgcc: ``>=14``
    :depends on pcre: ``>=8.45,<9.0a0``
 
    :additional platforms:

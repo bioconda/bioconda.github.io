@@ -33,8 +33,6 @@ detonate
 
    
    :depends on boost: ``>=1.66.0,<1.66.1.0a0``
-   :depends on libgcc-ng: ``>=4.9``
-   :depends on libstdcxx-ng: ``>=4.9``
    :depends on ncurses: ``>=5.9,<5.10.0a0``
    :depends on perl: 
    :depends on samtools: ``1.3``

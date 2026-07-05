@@ -32,7 +32,6 @@ netcdf-metadata-info
       
 
    
-   :depends on libgcc: ``>=13``
    :depends on libnetcdf: ``4.4.*``
    :depends on libnetcdf: ``>=4.4.1.1,<5.0a0``
 

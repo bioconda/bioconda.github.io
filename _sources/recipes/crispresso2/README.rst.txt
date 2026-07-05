@@ -43,7 +43,7 @@ crispresso2
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on bowtie2: 
    :depends on fastp: 
    :depends on jinja2: 

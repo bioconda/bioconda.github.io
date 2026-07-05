@@ -37,8 +37,7 @@ komb
    :depends on bowtie2: ``>=2.3.5.1``
    :depends on igraph: ``0.8.*``
    :depends on igraph: ``>=0.8.3,<0.9.0a0``
-   :depends on libgcc-ng: ``>=12``
-   :depends on libstdcxx-ng: ``>=12``
+   :depends on libcxx: ``>=12.0.1``
    :depends on libzlib: ``>=1.2.12,<1.3.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``

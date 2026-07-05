@@ -41,9 +41,8 @@ bioconductor-irisfgm
    :depends on bioconductor-scran: ``>=1.28.0,<1.29.0``
    :depends on bioconductor-singlecellexperiment: ``>=1.22.0,<1.23.0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libgcc-ng: ``>=12``
+   :depends on libcxx: ``>=15.0.7``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on libstdcxx-ng: ``>=12``
    :depends on r-adaptgauss: 
    :depends on r-anocva: 
    :depends on r-base: ``>=4.3,<4.4.0a0``

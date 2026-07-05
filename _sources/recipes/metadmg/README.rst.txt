@@ -43,7 +43,7 @@ metadmg
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on gsl: ``>=2.7,<2.8.0a0``
    :depends on htslib: ``>=1.23.1,<1.24.0a0``
    :depends on libcxx: ``>=19``

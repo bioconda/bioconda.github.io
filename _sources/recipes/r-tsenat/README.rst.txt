@@ -38,12 +38,11 @@ r-tsenat
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on __osx: ``>=10.13``
    :depends on bioconductor-biocparallel: ``>=1.44.0,<1.45.0a0``
    :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
    :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-cowplot: 
    :depends on r-digest: 

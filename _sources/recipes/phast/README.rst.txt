@@ -42,7 +42,6 @@ phast
       
 
    
-   :depends on libgcc: ``>=14``
    :depends on libopenblas: 
    :depends on pcre: ``>=8.45,<9.0a0``
 

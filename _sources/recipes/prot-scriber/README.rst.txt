@@ -40,7 +40,6 @@ prot-scriber
       
 
    
-   :depends on libgcc: ``>=13``
 
    :additional platforms:
       

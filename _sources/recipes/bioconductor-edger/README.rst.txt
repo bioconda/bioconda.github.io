@@ -41,7 +41,7 @@ bioconductor-edger
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on bioconductor-limma: ``>=3.66.0,<3.67.0``
    :depends on bioconductor-limma: ``>=3.66.0,<3.67.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
