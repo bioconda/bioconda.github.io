@@ -52,7 +52,8 @@ magicblast
 
    
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libcxx: ``>=14.0.4``
+   :depends on libgcc-ng: ``>=12``
+   :depends on libstdcxx-ng: ``>=12``
    :depends on libxml2: ``>=2.9.14,<2.10.0a0``
    :depends on libzlib: ``>=1.2.13,<1.3.0a0``
    :depends on zlib: ``>=1.2.13,<1.3.0a0``

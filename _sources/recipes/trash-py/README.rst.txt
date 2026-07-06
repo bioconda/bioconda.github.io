@@ -40,7 +40,7 @@ trash-py
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on biopython: ``>=1.83``
    :depends on clustalo: 
    :depends on hmmer: 

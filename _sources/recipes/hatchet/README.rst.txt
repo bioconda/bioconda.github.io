@@ -49,7 +49,8 @@ hatchet
    :depends on biopython: 
    :depends on hmmlearn: 
    :depends on kneed: 
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on matplotlib-base: 
    :depends on mosdepth: 
    :depends on numpy: ``>=1.13,<2``

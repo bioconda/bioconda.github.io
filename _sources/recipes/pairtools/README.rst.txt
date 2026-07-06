@@ -51,7 +51,6 @@ pairtools
    :depends on lz4-c: 
    :depends on numpy: ``>=1.22.4,<2.0a0``
    :depends on pandas: 
-   :depends on pbgzip: 
    :depends on pysam: ``>=0.19``
    :depends on pysam: ``>=0.23.0,<0.24.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``

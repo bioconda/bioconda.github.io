@@ -40,7 +40,6 @@ bioconductor-gosim
       
 
    
-   :depends on __osx: ``>=10.9``
    :depends on bioconductor-annotate: ``>=1.80.0,<1.81.0``
    :depends on bioconductor-annotate: ``>=1.80.0,<1.81.0a0``
    :depends on bioconductor-annotationdbi: ``>=1.64.0,<1.65.0``
@@ -56,8 +55,9 @@ bioconductor-gosim
    :depends on bioconductor-topgo: ``>=2.54.0,<2.55.0``
    :depends on bioconductor-topgo: ``>=2.54.0,<2.55.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=15.0.7``
+   :depends on libgcc-ng: ``>=12``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
+   :depends on libstdcxx-ng: ``>=12``
    :depends on r-base: ``>=4.3,<4.4.0a0``
    :depends on r-cluster: 
    :depends on r-corpcor: 

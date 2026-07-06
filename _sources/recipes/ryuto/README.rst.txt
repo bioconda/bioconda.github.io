@@ -32,12 +32,12 @@ ryuto
       
 
    
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on boost-cpp: ``>=1.78.0,<1.78.1.0a0``
    :depends on htslib: ``>=1.17,<1.24.0a0``
-   :depends on libcxx: ``>=15.0.7``
+   :depends on libgcc-ng: ``>=12``
+   :depends on libstdcxx-ng: ``>=12``
    :depends on libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends on llvm-openmp: ``>=15.0.7``
-   :depends on llvm-openmp: ``>=16.0.4``
    :depends on zlib: 
 
    :additional platforms:

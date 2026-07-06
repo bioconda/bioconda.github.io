@@ -48,7 +48,8 @@ ariba
    :depends on bowtie2: 
    :depends on cd-hit: ``>=4.6.5``
    :depends on dendropy: ``>=4.2.0``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on matplotlib-base: ``>=3.1.0``
    :depends on mummer: ``>=3.23``

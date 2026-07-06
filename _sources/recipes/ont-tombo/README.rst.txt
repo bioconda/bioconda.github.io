@@ -42,12 +42,13 @@ ont-tombo
    
    :depends on future: 
    :depends on h5py: 
-   :depends on libcxx: ``>=9.0.1``
+   :depends on libgcc-ng: ``>=7.5.0``
+   :depends on libstdcxx-ng: ``>=7.5.0``
    :depends on mappy: ``>=2.10``
    :depends on numpy: 
    :depends on pyfaidx: 
    :depends on python: ``>=2.7,<2.8.0a0``
-   :depends on python_abi: ``2.7.* *_cp27m``
+   :depends on python_abi: ``2.7.* *_cp27mu``
    :depends on r-base: ``>=3.6,<3.7.0a0``
    :depends on r-ggplot2: 
    :depends on r-gridextra: 

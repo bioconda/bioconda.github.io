@@ -37,6 +37,7 @@ crispresso
    :depends on bowtie2: 
    :depends on emboss: 
    :depends on flash: 
+   :depends on libgcc-ng: ``>=10.3.0``
    :depends on matplotlib: ``>=1.3.1``
    :depends on mock: 
    :depends on nose: 
@@ -44,7 +45,7 @@ crispresso
    :depends on openjdk: ``>=8``
    :depends on pandas: ``>=0.16``
    :depends on python: ``>=2.7,<2.8.0a0``
-   :depends on python_abi: ``2.7.* *_cp27m``
+   :depends on python_abi: ``2.7.* *_cp27mu``
    :depends on samtools: 
    :depends on seaborn: 
    :depends on trimmomatic: 

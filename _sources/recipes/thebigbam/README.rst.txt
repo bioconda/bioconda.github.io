@@ -27,18 +27,19 @@ thebigbam
       
       
 
-      ``0.3.0-0``,  ``0.1.5-0``
+      ``0.4.0-0``,  ``0.3.0-0``,  ``0.1.5-0``
 
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on biopython: ``>=1.79``
    :depends on blast: 
    :depends on bokeh: ``>=3.0``
    :depends on bwa-mem2: 
    :depends on dna_features_viewer: ``>=1.0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on minimap2: 
    :depends on panel: ``>=1.4``
    :depends on pysam: ``>=0.20``
@@ -120,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "thebigbam";
-      var versions = ["0.3.0","0.1.5"];
+      var versions = ["0.4.0","0.3.0","0.1.5"];
    </script>
 
 .. rubric:: Download stats

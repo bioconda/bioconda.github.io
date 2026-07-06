@@ -33,6 +33,7 @@ bicseq2-seg
       
 
    
+   :depends on libgcc: ``>=13``
    :depends on perl: 
    :depends on r-base: 
 

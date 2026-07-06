@@ -37,6 +37,7 @@ mockinbird
    :depends on bowtie: 
    :depends on fastqc: 
    :depends on jinja2: 
+   :depends on libgcc-ng: ``>=12``
    :depends on matplotlib-base: 
    :depends on numpy: 
    :depends on pandas: 

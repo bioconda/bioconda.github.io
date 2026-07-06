@@ -13,8 +13,6 @@ phyling
    A phylogenetic inference tool based on protein\-coding genomic sequences
 
    :homepage: https://github.com/stajichlab/Phyling
-   :documentation: https://github.com/stajichlab/Phyling/blob/v2.3.1/README.md
-   
    :license: MIT / MIT
    :recipe: /`phyling <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phyling>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phyling/meta.yaml>`_
 
@@ -33,7 +31,7 @@ phyling
       
       
 
-      ``2.3.1-0``,  ``2.3.0-0``
+      ``2.4.0-0``,  ``2.3.1-0``,  ``2.3.0-0``
 
       
 
@@ -42,15 +40,13 @@ phyling
    :depends on biopython: ``>=1.81``
    :depends on clipkit: ``>=2.1.1``
    :depends on fasttree: ``>=2.1.1``
-   :depends on iqtree: ``>=2.4.0,<3.0``
+   :depends on iqtree: ``>=3.1.2``
    :depends on matplotlib-base: ``>=3.5.3``
-   :depends on muscle: ``>=5.3``
-   :depends on numpy: ``>=2.0.2``
+   :depends on numpy: ``>=2.0.2,<3.0.0``
    :depends on phykit: ``>=2.0.1``
-   :depends on pyfaidx: ``>=0.8.1.3``
-   :depends on pyhmmer: ``>=0.11.0``
-   :depends on python: ``>=3.9``
-   :depends on raxml-ng: ``>=1.2.2``
+   :depends on pyfaidx: ``>=0.9.0.3``
+   :depends on pyhmmer: ``>=0.12.0``
+   :depends on python: ``>=3.9,<3.15``
 
    :additional platforms:
       
@@ -125,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "phyling";
-      var versions = ["2.3.1","2.3.0"];
+      var versions = ["2.4.0","2.3.1","2.3.0"];
    </script>
 
 .. rubric:: Download stats

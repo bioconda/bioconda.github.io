@@ -33,8 +33,9 @@ ig-checkflowtypes
 
    
    :depends on bioconductor-flowcore: 
-   :depends on libcxx: ``>=4.0.1``
-   :depends on libgfortran: ``>=4.0.0,<5.0.0.a0``
+   :depends on libgcc-ng: ``>=7.3.0``
+   :depends on libgfortran-ng: ``>=7,<8.0a0``
+   :depends on libstdcxx-ng: ``>=7.3.0``
    :depends on r-base: ``>=3.6,<3.7.0a0``
 
    :additional platforms:
