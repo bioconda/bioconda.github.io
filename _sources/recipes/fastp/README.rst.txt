@@ -44,9 +44,10 @@ fastp
 
    
    :depends on isa-l: ``>=2.31.1,<3.0a0``
-   :depends on libcxx: ``>=19``
    :depends on libdeflate: ``>=1.25,<1.26.0a0``
+   :depends on libgcc: ``>=14``
    :depends on libhwy: ``>=1.3.0,<1.4.0a0``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
       
@@ -138,8 +139,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

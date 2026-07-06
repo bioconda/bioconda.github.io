@@ -43,7 +43,7 @@ mikado
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on biopython: ``>=1.79``
    :depends on datrie: ``>=0.8``
    :depends on diamond: ``2.1.16``
@@ -51,7 +51,8 @@ mikado
    :depends on drmaa: ``>=0.7.9``
    :depends on htslib: ``>=1.11``
    :depends on hypothesis: ``>=6.56.2``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on marshmallow: ``>=3.14.1``
    :depends on marshmallow-dataclass: ``>=8.5.3``
    :depends on msgpack-python: ``>=1.0.4``
@@ -168,8 +169,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

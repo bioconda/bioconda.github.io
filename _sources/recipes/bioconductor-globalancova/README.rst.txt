@@ -52,6 +52,7 @@ bioconductor-globalancova
    :depends on bioconductor-gseabase: ``>=1.72.0,<1.73.0``
    :depends on bioconductor-gseabase: ``>=1.72.0,<1.73.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
@@ -150,8 +151,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

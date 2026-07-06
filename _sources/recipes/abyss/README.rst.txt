@@ -45,10 +45,12 @@ abyss
    
    :depends on boost-cpp: 
    :depends on btllib: ``>=1.7.5,<2.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on make: 
    :depends on openmpi: ``>=4.1.6,<5.0a0``
    :depends on perl: 
+   :depends on util-linux: 
 
    :additional platforms:
       
@@ -140,8 +142,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

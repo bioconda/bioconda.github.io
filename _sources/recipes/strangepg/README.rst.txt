@@ -40,7 +40,17 @@ strangepg
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on libgcc: ``>=14``
+   :depends on libxcb: 
+   :depends on xorg-libx11: ``>=1.8.13,<2.0a0``
+   :depends on xorg-libxau: 
+   :depends on xorg-libxcursor: ``>=1.2.3,<2.0a0``
+   :depends on xorg-libxdmcp: 
+   :depends on xorg-libxext: 
+   :depends on xorg-libxfixes: 
+   :depends on xorg-libxi: ``>=1.8.3,<2.0a0``
+   :depends on xorg-libxrandr: 
 
    :additional platforms:
       
@@ -132,8 +142,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

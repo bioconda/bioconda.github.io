@@ -42,7 +42,8 @@ perl-inline-c
       
 
    
-   :depends on clang_osx-arm64: ``18.*``
+   :depends on gcc_linux-64: ``13.*``
+   :depends on libgcc: ``>=13``
    :depends on make: 
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-autodie: ``>=2.37,<3.0a0``
@@ -145,8 +146,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

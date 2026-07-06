@@ -43,6 +43,8 @@ matam
    :depends on python: ``>=3``
    :depends on rdptools: 
    :depends on samtools: 
+   :depends on sga: 
+   :depends on sortmerna: 
    :depends on vsearch: 
    :depends on wget: 
 
@@ -136,8 +138,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

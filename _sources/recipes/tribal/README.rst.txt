@@ -37,7 +37,8 @@ tribal
    :depends on biopython: ``>=1.81``
    :depends on ete3: ``>=3.1.2``
    :depends on glpk: ``>=5.0``
-   :depends on libcxx: ``>=16``
+   :depends on libgcc: ``>=12``
+   :depends on libstdcxx: ``>=12``
    :depends on mafft: ``7.526``
    :depends on networkx: ``>=3.1``
    :depends on numpy: ``>=1.26,<2.0``
@@ -137,8 +138,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

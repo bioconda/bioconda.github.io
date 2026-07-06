@@ -42,6 +42,7 @@ iced
       
 
    
+   :depends on libgcc: ``>=13``
    :depends on matplotlib-base: 
    :depends on numpy: ``>=1.21,<3``
    :depends on numpy: ``>=2.2.6,<3.0a0``
@@ -141,8 +142,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

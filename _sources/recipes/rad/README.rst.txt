@@ -38,12 +38,14 @@ rad
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on boost-cpp: 
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
-   :depends on llvm-openmp: ``>=19.1.7``
    :depends on pigz: 
 
    :additional platforms:
@@ -136,8 +138,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

@@ -35,7 +35,7 @@ reviewer
    
    :depends on boost-cpp: ``>=1.78.0,<1.78.1.0a0``
    :depends on fmt: ``>=9.1.0,<10.0a0``
-   :depends on htslib: ``>=1.19.1,<1.20.0a0``
+   :depends on htslib: ``>=1.19.1,<1.24.0a0``
    :depends on libgcc-ng: ``>=12``
    :depends on libstdcxx-ng: ``>=12``
 
@@ -129,8 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

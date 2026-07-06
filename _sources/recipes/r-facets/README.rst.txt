@@ -41,8 +41,9 @@ r-facets
       
 
    
-   :depends on libgfortran: ``5.*``
-   :depends on libgfortran5: ``>=13.2.0``
+   :depends on libgcc: ``>=13``
+   :depends on libgfortran: 
+   :depends on libgfortran5: ``>=13.3.0``
    :depends on r-base: ``>=4.4,<4.5.0a0``
    :depends on r-pctgcdata: 
 
@@ -136,8 +137,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

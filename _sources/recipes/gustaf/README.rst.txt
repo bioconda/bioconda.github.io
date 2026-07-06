@@ -34,7 +34,8 @@ gustaf
 
    
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on libxml2: ``>=2.14.5,<2.15.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
 
@@ -128,8 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

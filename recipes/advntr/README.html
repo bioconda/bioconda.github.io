@@ -95,7 +95,8 @@
 <li><p><strong>on cython</strong> <code class="docutils literal notranslate"><span class="pre">&lt;3</span></code></p></li>
 <li><p><strong>on htslib</strong></p></li>
 <li><p><strong>on joblib</strong></p></li>
-<li><p><strong>on libcxx</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=18</span></code></p></li>
+<li><p><strong>on libgcc</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p></li>
+<li><p><strong>on libstdcxx</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p></li>
 <li><p><strong>on matplotlib-base</strong></p></li>
 <li><p><strong>on muscle</strong></p></li>
 <li><p><strong>on networkx</strong></p></li>
@@ -172,8 +173,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-..
-   Create all the necessary plots for each package by loading all the
+.. Create all the necessary plots for each package by loading all the
    correct specs and data. Important points on the place and implementation
    of this script block:
    1. It is here, and not in a separate HTML file, as it needs to have the

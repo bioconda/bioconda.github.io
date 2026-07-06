@@ -43,7 +43,8 @@ gimmemotifs
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on biofluff: ``>=3.0.4``
    :depends on configparser: 
    :depends on diskcache: 
@@ -51,7 +52,8 @@ gimmemotifs
    :depends on genomepy: ``>=0.16.4``
    :depends on iteround: 
    :depends on jinja2: 
-   :depends on llvm-openmp: ``>=19.1.7``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
    :depends on logomaker: 
    :depends on loguru: 
    :depends on matplotlib-base: ``>=3.3``
@@ -161,8 +163,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

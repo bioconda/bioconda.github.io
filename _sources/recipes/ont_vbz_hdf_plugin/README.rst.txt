@@ -33,7 +33,8 @@ ont_vbz_hdf_plugin
 
    
    :depends on hdf5: ``>=1.14.3,<1.14.4.0a0``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=12``
+   :depends on libstdcxx: ``>=12``
    :depends on zstd: ``>=1.5.7,<1.6.0a0``
 
    :additional platforms:
@@ -126,8 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

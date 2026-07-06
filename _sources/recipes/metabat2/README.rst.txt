@@ -43,6 +43,7 @@ metabat2
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on _openmp_mutex: ``>=4.5``
    :depends on boost-cpp: 
    :depends on htslib: ``>=1.23.1,<1.24.0a0``
@@ -143,8 +144,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

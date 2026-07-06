@@ -40,9 +40,9 @@ r-biodb
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-bitops: 
    :depends on r-digest: 
    :depends on r-jsonlite: 
@@ -143,8 +143,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

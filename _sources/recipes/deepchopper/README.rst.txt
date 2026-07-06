@@ -34,13 +34,14 @@ deepchopper
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on datasets: ``>=3.0.0``
    :depends on deepchopper-cli: ``>=1.3.1``
    :depends on evaluate: ``>=0.4.3``
    :depends on fastapi: ``>=0.115.0``
    :depends on gradio: ``>=5.12.0``
    :depends on hydra-core: ``>=1.3.2``
+   :depends on libgcc: ``>=14``
    :depends on lightning: ``>=2.1.2``
    :depends on omegaconf: ``>=2.3.0``
    :depends on pyarrow: ``>=20.0.0``
@@ -147,8 +148,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

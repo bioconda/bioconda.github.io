@@ -34,11 +34,12 @@ tracs
       
 
    
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on htsbox: 
    :depends on joblib: 
-   :depends on libcxx: ``>=16``
+   :depends on libgcc: ``>=12``
+   :depends on libstdcxx: ``>=12``
    :depends on libzlib: ``>=1.2.13,<2.0a0``
-   :depends on llvm-openmp: ``>=16.0.6``
    :depends on minimap2: 
    :depends on ncbi-genome-download: 
    :depends on numpy: 
@@ -142,8 +143,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

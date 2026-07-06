@@ -42,6 +42,7 @@ mrbayes_volpiano
    
    :depends on beagle-lib: ``<4``
    :depends on beagle-lib: ``>=3.1.2,<4.0a0``
+   :depends on libgcc: ``>=13``
    :depends on ncurses: ``>=6.5,<7.0a0``
    :depends on openmpi: ``>=4.1.6,<5.0a0``
    :depends on readline: ``>=8.2,<9.0a0``
@@ -136,8 +137,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

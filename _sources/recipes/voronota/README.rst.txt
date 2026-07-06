@@ -46,10 +46,18 @@ voronota
       
 
    
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on glew: ``>=2.3.0,<2.4.0a0``
    :depends on glfw: ``>=3.4,<4.0a0``
-   :depends on libcxx: ``>=19``
-   :depends on llvm-openmp: ``>=19.1.7``
+   :depends on libegl: ``>=1.7.0,<2.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libgl: ``>=1.7.0,<2.0a0``
+   :depends on libgles: ``>=1.7.0,<2.0a0``
+   :depends on libglx: ``>=1.7.0,<2.0a0``
+   :depends on libgomp: 
+   :depends on libstdcxx: ``>=14``
+   :depends on libxcb: ``>=1.17.0,<2.0a0``
+   :depends on mesalib: ``>=26.0.3,<26.1.0a0``
 
    :additional platforms:
       
@@ -141,8 +149,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

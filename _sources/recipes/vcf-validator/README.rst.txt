@@ -36,7 +36,8 @@ vcf-validator
    :depends on c-ares: ``>=1.34.5,<2.0a0``
    :depends on libboost: ``>=1.84.0,<1.85.0a0``
    :depends on libcurl: ``>=8.14.1,<9.0a0``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on openssl: ``>=3.5.1,<4.0a0``
    :depends on zstd: ``>=1.5.7,<1.6.0a0``
@@ -131,8 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

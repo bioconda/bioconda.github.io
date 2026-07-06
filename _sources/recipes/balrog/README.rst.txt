@@ -40,9 +40,13 @@ balrog
       
 
    
-   :depends on libcxx: ``>=14.0.6``
+   :depends on _openmp_mutex: ``>=4.5``
+   :depends on libgcc: 
+   :depends on libgcc-ng: ``>=12``
+   :depends on libgomp: 
+   :depends on libstdcxx: 
+   :depends on libstdcxx-ng: ``>=12``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on llvm-openmp: ``>=18.1.8``
    :depends on scipy: 
 
    :additional platforms:
@@ -135,8 +139,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

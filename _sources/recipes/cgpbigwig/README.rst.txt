@@ -43,7 +43,7 @@ cgpbigwig
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on gmp: ``>=6.3.0,<7.0a0``
    :depends on gnutls: ``>=3.7.9,<3.8.0a0``
-   :depends on htslib: ``>=1.20,<1.21.0a0``
+   :depends on htslib: ``>=1.20,<1.24.0a0``
    :depends on libbigwig: ``>=0.4.7,<0.5.0a0``
    :depends on libgcc-ng: ``>=12``
    :depends on libtasn1: ``>=4.19.0,<5.0a0``
@@ -142,8 +142,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

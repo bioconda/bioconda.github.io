@@ -43,14 +43,15 @@ wepp
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on aiohttp: 
    :depends on altair: 
    :depends on biopython: 
    :depends on boost: ``1.78.*``
    :depends on conda: ``>=24.7.1``
    :depends on jsoncpp: ``>=1.9.6,<1.9.7.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on mpich: ``>=4.3.1,<5.0a0``
    :depends on nodejs: ``>=16,<24``
    :depends on pandas: 
@@ -150,8 +151,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

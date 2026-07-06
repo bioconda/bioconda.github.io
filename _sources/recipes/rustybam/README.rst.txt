@@ -46,10 +46,12 @@ rustybam
    :depends on gsl: ``>=2.7,<2.8.0a0``
    :depends on libcblas: ``>=3.9.0,<4.0a0``
    :depends on libcurl: ``>=8.18.0,<9.0a0``
-   :depends on libcxx: ``>=19``
    :depends on libdeflate: ``>=1.25,<1.26.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on openssl: ``>=3.5.5,<4.0a0``
 
    :additional platforms:
       
@@ -141,8 +143,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

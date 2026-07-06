@@ -49,7 +49,8 @@ gubbins
    :depends on dendropy: ``>=5.0.8,<6.0a0``
    :depends on fasttree: ``>=2.1.10``
    :depends on iqtree: ``>=2.2,<3``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on multiprocess: 
    :depends on numba: 
@@ -163,8 +164,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

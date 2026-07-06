@@ -44,10 +44,10 @@ r-histonehmm
    :depends on bioconductor-biocstyle: ``>=2.34.0,<2.35.0a0``
    :depends on bioconductor-genomicranges: ``>=1.58.0,<1.59.0a0``
    :depends on bioconductor-rsamtools: ``>=2.22.0,<2.23.0a0``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
    :depends on libgfortran: 
    :depends on libgfortran5: ``>=13.4.0``
-   :depends on libgfortran5: ``>=15.1.0``
+   :depends on libstdcxx: ``>=13``
    :depends on r-base: ``>=4.4,<4.5.0a0``
    :depends on r-mvtnorm: 
    :depends on r-optparse: 
@@ -143,8 +143,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

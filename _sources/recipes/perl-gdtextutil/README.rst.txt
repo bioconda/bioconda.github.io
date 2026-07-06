@@ -42,7 +42,7 @@ perl-gdtextutil
    
    :depends on libgcc: ``>=13``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends on perl-gd: ``>=2.83,<3.0a0``
+   :depends on perl-gd: 
 
    :additional platforms:
       
@@ -134,8 +134,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

@@ -42,12 +42,13 @@ art_modern
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on fmt: ``>=12.0.0,<12.1.0a0``
    :depends on htslib: ``>=1.23.1,<1.24.0a0``
    :depends on libboost: ``>=1.90.0,<2``
    :depends on libboost: ``>=1.91.0,<1.92.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
@@ -140,8 +141,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

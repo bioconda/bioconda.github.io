@@ -52,9 +52,9 @@ bioconductor-clipper
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libstdcxx: ``>=14``
-   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-corpcor: 
    :depends on r-grbase: ``>=1.6.6``
@@ -153,8 +153,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

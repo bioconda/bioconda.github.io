@@ -47,11 +47,12 @@ hictk
    :depends on hdf5: ``>=1.14.6,<1.14.7.0a0``
    :depends on libarchive: ``>=3``
    :depends on libarchive: ``>=3.8.2,<3.9.0a0``
-   :depends on libcxx: ``>=21``
    :depends on libdeflate: ``>=1``
    :depends on libdeflate: ``>=1.25,<1.26.0a0``
+   :depends on libgcc: ``>=13``
    :depends on libopentelemetry-cpp: ``>=1``
    :depends on libopentelemetry-cpp: ``>=1.21.0,<1.22.0a0``
+   :depends on libstdcxx: ``>=13``
    :depends on zstd: ``>=1.5``
    :depends on zstd: ``>=1.5.7,<1.6.0a0``
 
@@ -145,8 +146,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

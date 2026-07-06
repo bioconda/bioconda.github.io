@@ -42,9 +42,9 @@ bcov
 
    
    :depends on glpk: ``>=5.0,<6.0a0``
+   :depends on libgcc: ``>=13``
    :depends on libgfortran: 
    :depends on libgfortran5: ``>=13.4.0``
-   :depends on libgfortran5: ``>=15.2.0``
 
    :additional platforms:
       
@@ -136,8 +136,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

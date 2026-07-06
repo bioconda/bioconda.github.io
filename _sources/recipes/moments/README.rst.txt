@@ -44,6 +44,7 @@ moments
 
    
    :depends on demes: ``>=0.2``
+   :depends on libgcc: ``>=14``
    :depends on mpmath: ``>=1.0,<1.4``
    :depends on numpy: ``>=1.23,<3``
    :depends on python: ``>=3.11,<3.12.0a0``
@@ -140,8 +141,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

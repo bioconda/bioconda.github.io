@@ -43,12 +43,12 @@ ppanggolin
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on aragorn: ``1.*``
    :depends on bokeh: ``>=3.0.0,<4.0.0``
    :depends on dataclasses: ``0.8.*``
    :depends on gmpy2: ``>=2.0.0,<3.0.0``
    :depends on infernal: ``1.*``
+   :depends on libgcc: ``>=14``
    :depends on mafft: ``7.*``
    :depends on mmseqs2: ``15.*``
    :depends on networkx: ``>=3.0.0,<4.0.0``
@@ -152,8 +152,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

@@ -44,6 +44,7 @@ hits
    :depends on bokeh: ``>=3.2``
    :depends on ipython: ``>=7.8.0``
    :depends on ipywidgets: ``>=7.4.2``
+   :depends on libgcc: ``>=14``
    :depends on matplotlib-base: ``>=3.0.2``
    :depends on numpy: ``>=1.15.4``
    :depends on pandas: ``>=0.23.4``
@@ -147,8 +148,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

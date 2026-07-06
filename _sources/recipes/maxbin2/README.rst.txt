@@ -44,7 +44,9 @@ maxbin2
    :depends on bowtie2: 
    :depends on fraggenescan: ``>=1.30``
    :depends on hmmer: 
-   :depends on libcxx: ``>=18``
+   :depends on idba: 
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on perl: 
    :depends on perl-libwww-perl: 
    :depends on r-base: 
@@ -141,8 +143,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

@@ -44,6 +44,7 @@ lodestar
       
 
    
+   :depends on libgcc: ``>=14``
    :depends on libgfortran: 
    :depends on libgfortran5: ``>=14.3.0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
@@ -138,8 +139,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

@@ -68,9 +68,10 @@ bioconductor-diffbind
    :depends on bioconductor-systempiper: ``>=2.16.0,<2.17.0``
    :depends on bioconductor-systempiper: ``>=2.16.3,<2.17.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on r-amap: 
    :depends on r-ashr: 
@@ -174,8 +175,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the

@@ -40,11 +40,13 @@ rrikindp
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on boost-cpp: 
    :depends on intarna: ``>=3.4.1,<3.5.0a0``
-   :depends on libcxx: ``>=16``
-   :depends on llvm-openmp: ``>=19.1.7``
+   :depends on libgcc: ``>=12``
+   :depends on libgomp: 
+   :depends on libstdcxx: ``>=12``
    :depends on matplotlib-base: ``>=3.7.0``
    :depends on pandas: ``>=2.0.0``
    :depends on python: ``>=3.10,<3.11.0a0``
@@ -143,8 +145,7 @@ Check the documentation of your workflow management system to find out about the
 
 
 
-   ..
-      Create all the necessary plots for each package by loading all the
+   .. Create all the necessary plots for each package by loading all the
       correct specs and data. Important points on the place and implementation
       of this script block:
       1. It is here, and not in a separate HTML file, as it needs to have the
