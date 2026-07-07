@@ -27,7 +27,7 @@ rigel
       
       
 
-      ``0.4.0-0``,  ``0.3.3-0``
+      ``0.6.4-0``,  ``0.4.0-0``,  ``0.3.3-0``
 
       
 
@@ -35,15 +35,15 @@ rigel
    :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on htslib: ``>=1.23.1,<1.24.0a0``
-   :depends on libcurl: ``>=8.19.0,<9.0a0``
+   :depends on libcurl: ``>=8.21.0,<9.0a0``
    :depends on libdeflate: ``>=1.25,<1.26.0a0``
    :depends on libgcc: ``>=14``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
    :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
-   :depends on numpy: ``>=1.23,<3``
+   :depends on numpy: ``>=1.25,<3``
    :depends on numpy: ``>=1.26``
-   :depends on openssl: ``>=3.5.6,<4.0a0``
+   :depends on openssl: ``>=3.5.7,<4.0a0``
    :depends on pandas: ``>=2.1``
    :depends on pyarrow: ``>=14.0``
    :depends on pysam: ``>=0.22``
@@ -125,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "rigel";
-      var versions = ["0.4.0","0.3.3"];
+      var versions = ["0.6.4","0.4.0","0.3.3"];
    </script>
 
 .. rubric:: Download stats

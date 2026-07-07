@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Package Recipe &#39;falco&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;spice&#39; &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
     <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css?v=39de963d" />
     <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
@@ -63,48 +63,50 @@
 
           <div class="body" role="main">
             
-  <section id="falco">
+  <section id="spice">
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
-<span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">falco</span></span></dt>
-<dd><p>falco is a drop-in C++ implementation of FastQC to assess the quality of sequence reads.</p>
+<span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">spice</span></span></dt>
+<dd><p>Subclone Probability Inference of Copy-number Evolution (SPICE)</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/smithlabcode/falco">https://github.com/smithlabcode/falco</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/zaccaria-lab/SPICE">https://github.com/zaccaria-lab/SPICE</a></p>
 </dd>
 <dt class="field-even">Documentation<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="reference external" href="https://falco.readthedocs.io">https://falco.readthedocs.io</a></p>
+<dd class="field-even"><p><a class="reference external" href="https://github.com/zaccaria-lab/SPICE/blob/v0.1.0/README.md">https://github.com/zaccaria-lab/SPICE/blob/v0.1.0/README.md</a></p>
 </dd>
 <dt class="field-odd">License<span class="colon">:</span></dt>
-<dd class="field-odd"><p>GPL3 / GPL-3.0-only</p>
+<dd class="field-odd"><p>BSD / BSD-3-Clause</p>
 </dd>
 <dt class="field-even">Recipe<span class="colon">:</span></dt>
-<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/falco">falco</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/falco/meta.yaml">meta.yaml</a></p>
-</dd>
-<dt class="field-odd">Links<span class="colon">:</span></dt>
-<dd class="field-odd"><p>biotools: <a class="extlink-biotools reference external" href="https://bio.tools/falco">falco</a>, usegalaxy-eu: <a class="extlink-usegalaxy-eu reference external" href="https://usegalaxy.eu/?tool_id=falco">falco</a>, doi: <a class="extlink-doi reference external" href="https://doi.org/10.12688/f1000research.21142.2">10.12688/f1000research.21142.2</a></p>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spice">spice</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spice/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
+<p>SPICE is an algorithm that reconstructs hundreds to thousands of equally plausible copy-number alteration (CNA) phylogenies for each tumour, taking as input clone-specific CNA profiles inferred from either bulk DNA sequencing data using copy-number deconvolution methods or from single-cell DNA sequencing data by clustering cells with similar CNAs. Rather than relying on a single, error-prone estimate, SPICE enumerates multiple equally-plausible CNA phylogenies to quantify uncertainty for each inferred CNA event.</p>
 </dd></dl>
 
 <dl class="conda package">
-<dt class="sig sig-object conda" id="package-falco">
-<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">falco</span></span><a class="headerlink" href="#package-falco" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/falco"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/falco.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/falco"><img alt="docker_falco" src="https://quay.io/repository/biocontainers/falco/status" /></a></p>
-<dl class="field-list">
+<dt class="sig sig-object conda" id="package-spice">
+<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">spice</span></span><a class="headerlink" href="#package-spice" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/spice"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/spice.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/spice"><img alt="docker_spice" src="https://quay.io/repository/biocontainers/spice/status" /></a></p>
+<dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.5-0</code>,  <code>1.2.4-1</code>,  <code>1.2.4-0</code>,  <code>1.2.3-1</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">1.3.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.3.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.4-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.3-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.1-5</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.1-4</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.1-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.1-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.0-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.4-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.1-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.1-0</span></code></p>
-</details></dd>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.1.0-0</span></code></p>
+</dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><strong>on __osx</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=10.13</span></code></p></li>
-<li><p><strong>on htslib</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.23.1,&lt;1.24.0a0</span></code></p></li>
-<li><p><strong>on libcxx</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=19</span></code></p></li>
-<li><p><strong>on libzlib</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.3.2,&lt;2.0a0</span></code></p></li>
+<li><p><strong>on biopython</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.80</span></code></p></li>
+<li><p><strong>on matplotlib-base</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.7.0</span></code></p></li>
+<li><p><strong>on numpy</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.22.0,&lt;2.0.0</span></code></p></li>
+<li><p><strong>on pandas</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=2.0.0</span></code></p></li>
+<li><p><strong>on pyomo</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=6.7.0</span></code></p></li>
+<li><p><strong>on python</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.9</span></code></p></li>
+<li><p><strong>on scipy</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.10.0,&lt;2.0.0</span></code></p></li>
+<li><p><strong>on seaborn</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=0.13.0</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
+<dd class="field-odd"><p></p></dd>
 </dl>
 </dd></dl>
 
@@ -118,11 +120,11 @@ Below, we show how to install with either pixi or conda (for micromamba and mamb
 <h3>Pixi<a class="headerlink" href="#pixi" title="Link to this heading">¶</a></h3>
 <p>With <a class="reference external" href="https://pixi.sh">pixi</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>),
 to install globally, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="n">falco</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="n">spice</span>
 </pre></div>
 </div>
 <p>to add into an existing workspace instead, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">add</span> <span class="n">falco</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">add</span> <span class="n">spice</span>
 </pre></div>
 </div>
 <p>In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace:</p>
@@ -134,11 +136,11 @@ to install globally, run:</p>
 <section id="conda">
 <h3>Conda<a class="headerlink" href="#conda" title="Link to this heading">¶</a></h3>
 <p>With <a class="reference external" href="https://conda.io">conda</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>), to install into an existing and activated environment, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">falco</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">spice</span>
 </pre></div>
 </div>
 <p>Alternatively, to install into a new environment, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">envname</span> <span class="n">falco</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">envname</span> <span class="n">spice</span>
 </pre></div>
 </div>
 <p>with <code class="docutils literal notranslate"><span class="pre">envname</span></code> being the name of the desired environment.</p>
@@ -147,10 +149,10 @@ to install globally, run:</p>
 <h3>Container<a class="headerlink" href="#container" title="Link to this heading">¶</a></h3>
 <p>Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">falco</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">spice</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/falco?tab=tags">falco/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>).</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/spice?tab=tags">spice/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>).</p>
 </section>
 <section id="integrated-deployment">
 <h3>Integrated deployment<a class="headerlink" href="#integrated-deployment" title="Link to this heading">¶</a></h3>
@@ -158,12 +160,12 @@ For e.g. docker, run:</p>
 Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
-   var package = "falco";
-   var versions = ["1.3.2","1.3.1","1.3.0","1.2.5","1.2.4"];
+   var package = "spice";
+   var versions = ["0.1.0"];
 </script><p class="rubric">Download stats</p>
-<div style="width: 100%" id="download_plot_falco"></div>
-<div style="width: 100%" id="platform_plot_falco"></div>
-<div style="width: 100%" id="cdf_plot_falco"></div>
+<div style="width: 100%" id="download_plot_spice"></div>
+<div style="width: 100%" id="platform_plot_spice"></div>
+<div style="width: 100%" id="cdf_plot_spice"></div>
 
 
 
@@ -179,7 +181,7 @@ Check the documentation of your workflow management system to find out about the
 <script>
    window.onload = async function() {
 
-         // Build cdf plot for falco
+         // Build cdf plot for spice
          try {
             const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
             if (!cdf_spec_resp.ok) {
@@ -191,7 +193,7 @@ Check the documentation of your workflow management system to find out about the
                 throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
             }
             const cdf_plot_data = await cdf_data_resp.json();
-            const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/falco/cdf.json`)
+            const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/spice/cdf.json`)
             if (!point_data_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
             }
@@ -199,43 +201,43 @@ Check the documentation of your workflow management system to find out about the
 
             cdf_spec.data.values = cdf_plot_data;
             cdf_spec.data.values.push(single_point.pop());
-            vegaEmbed('#cdf_plot_falco', cdf_spec);
+            vegaEmbed('#cdf_plot_spice', cdf_spec);
          } catch (err) {
             console.error("An error occurred while building CDF plot: ", err)
          }
 
-         // Build download plot for falco
+         // Build download plot for spice
          try {
             const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
             if (!spec_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
             }
             const spec = await spec_resp.json();
-            const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/falco/versions.json`)
+            const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/spice/versions.json`)
             if (!version_data_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
             }
             const plot_data = await version_data_resp.json();
             spec.data.values = plot_data;
-            vegaEmbed('#download_plot_falco', spec);
+            vegaEmbed('#download_plot_spice', spec);
          } catch (err) {
             console.error("An error occurred while building downloads plot: ", err)
          }
 
-         // Build platform download plot for falco
+         // Build platform download plot for spice
          try {
             const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
             if (!spec_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
             }
             const spec = await spec_resp.json();
-            const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/falco/platforms.json`)
+            const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/spice/platforms.json`)
             if (!platform_data_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
             }
             const plot_data = await platform_data_resp.json();
             spec.data.values = plot_data;
-            vegaEmbed('#platform_plot_falco', spec);
+            vegaEmbed('#platform_plot_spice', spec);
          } catch (err) {
             console.error("An error occurred while building platform downloads plot: ", err)
          }
@@ -245,8 +247,8 @@ Check the documentation of your workflow management system to find out about the
 </section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Link to this heading">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/falco/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/falco/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/spice/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/spice/README.html)
 </pre></div>
 </div>
 </section>
@@ -327,14 +329,14 @@ Check the documentation of your workflow management system to find out about the
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
       
       |
-      <a href="../../_sources/recipes/falco/README.rst.txt"
+      <a href="../../_sources/recipes/spice/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
     
 
     <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/falco/meta.yaml" rel="me">Edit me on GitHub</a>
+      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/spice/meta.yaml" rel="me">Edit me on GitHub</a>
     </div>
   </body>
 </html>
