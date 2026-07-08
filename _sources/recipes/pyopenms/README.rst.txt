@@ -44,10 +44,9 @@ pyopenms
 
    
    :depends on eigen: ``>=3.4.0,<3.5.0a0``
-   :depends on libgcc: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on libopenms: ``3.4.1``
    :depends on libopenms: ``3.4.1.*``
-   :depends on libstdcxx: ``>=14``
    :depends on libsvm: ``>=335,<400``
    :depends on matplotlib-base: 
    :depends on numpy: ``>=1.21,<3``

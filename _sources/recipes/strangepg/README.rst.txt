@@ -40,17 +40,7 @@ strangepg
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
-   :depends on libgcc: ``>=14``
-   :depends on libxcb: 
-   :depends on xorg-libx11: ``>=1.8.13,<2.0a0``
-   :depends on xorg-libxau: 
-   :depends on xorg-libxcursor: ``>=1.2.3,<2.0a0``
-   :depends on xorg-libxdmcp: 
-   :depends on xorg-libxext: 
-   :depends on xorg-libxfixes: 
-   :depends on xorg-libxi: ``>=1.8.3,<2.0a0``
-   :depends on xorg-libxrandr: 
+   :depends on __osx: ``>=10.13``
 
    :additional platforms:
       

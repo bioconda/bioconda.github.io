@@ -27,17 +27,18 @@ igua
       
       
 
-      ``0.1.0-0``
+      ``0.2.1-0``,  ``0.1.0-0``
 
       
 
    
-   :depends on anndata: ``>=0.8,<0.12``
+   :depends on __osx: ``>=10.13``
+   :depends on anndata: ``>=0.8,<0.13``
    :depends on biopython: ``>=1.79,<2.0``
-   :depends on gb-io: ``>=0.3.0,<0.4.0``
+   :depends on gb-io: ``>=0.3.0,<0.5.0``
    :depends on mmseqs2: 
    :depends on numpy: ``>=1.0,<3.0``
-   :depends on pandas: ``>=1.3,<3.0``
+   :depends on pandas: ``>=1.3,<4.0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on rich: ``>=12.6,<15.0``
@@ -120,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "igua";
-      var versions = ["0.1.0"];
+      var versions = ["0.2.1","0.1.0"];
    </script>
 
 .. rubric:: Download stats

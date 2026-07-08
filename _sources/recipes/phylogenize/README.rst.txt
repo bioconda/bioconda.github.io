@@ -28,9 +28,17 @@ phylogenize
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``2.0a0-0``,  ``0.91-1``,  ``0.91-0``
+         <details><summary><span class="truncated-version-list"><code>2.0.4-1</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>2.0.1-2</code>,  <code>2.0.1-1</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>2.0a0-0</code>,  <code>0.91-1</code>,  </span></summary>
+      
 
+      ``2.0.4-1``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.1-2``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``2.0a0-0``,  ``0.91-1``,  ``0.91-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -38,11 +46,13 @@ phylogenize
    :depends on bioconductor-biomformat: ``1.38.0.*``
    :depends on bioconductor-clusterprofiler: ``4.18.4.*``
    :depends on bioconductor-ggtree: ``4.0.4.*``
+   :depends on bioconductor-go.db: ``3.22.0.*``
    :depends on bioconductor-mia: ``1.18.0.*``
    :depends on bioconductor-microbiome: ``1.32.0.*``
    :depends on bioconductor-phyloseq: ``1.54.0.*``
    :depends on bioconductor-qvalue: ``2.42.0.*``
    :depends on bioconductor-treesummarizedexperiment: ``2.18.0.*``
+   :depends on jq: ``>=1.6``
    :depends on r-ape: ``5.8_1.*``
    :depends on r-ashr: ``2.2_63.*``
    :depends on r-base: ``>=4.5,<4.6.0a0``
@@ -65,6 +75,7 @@ phylogenize
    :depends on r-pryr: ``0.1.6.*``
    :depends on r-purrr: ``1.2.2.*``
    :depends on r-ragg: ``1.5.2.*``
+   :depends on r-rbiom: ``2.2.1.*``
    :depends on r-scales: ``1.4.0.*``
    :depends on r-seqinr: ``4.2_36.*``
    :depends on r-settings: ``0.2.7.*``
@@ -75,7 +86,7 @@ phylogenize
    :depends on r-tibble: ``3.3.1.*``
    :depends on r-tidymodels: ``1.4.1.*``
    :depends on r-tidyverse: ``2.0.0.*``
-   :depends on repermulize: ``1.1.1.*``
+   :depends on repermulize: ``1.1.2.*``
    :depends on vsearch: ``2.30.6.*``
 
    :additional platforms:
@@ -151,7 +162,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "phylogenize";
-      var versions = ["2.0.4","2.0.3","2.0.1","2.0.1","2.0.1"];
+      var versions = ["2.0.4","2.0.4","2.0.3","2.0.1","2.0.1"];
    </script>
 
 .. rubric:: Download stats

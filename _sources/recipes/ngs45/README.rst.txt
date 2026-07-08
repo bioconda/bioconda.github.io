@@ -35,7 +35,7 @@ ngs45
       
       
 
-      ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -46,10 +46,10 @@ ngs45
    :depends on blast: 
    :depends on bowtie2: 
    :depends on bwa: 
-   :depends on cutadapt: ``<5.0``
+   :depends on cutadapt: 
    :depends on infernal: 
    :depends on itsx: 
-   :depends on python: ``>=3.10``
+   :depends on python: 
    :depends on samtools: 
    :depends on seqkit: 
    :depends on spades: 
@@ -127,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ngs45";
-      var versions = ["0.1.0"];
+      var versions = ["0.2.0","0.1.0"];
    </script>
 
 .. rubric:: Download stats

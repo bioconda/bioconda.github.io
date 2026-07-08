@@ -55,12 +55,11 @@ r-hemdag
       
 
    
-   :depends on bioconductor-graph: ``>=1.84.0,<1.85.0a0``
-   :depends on bioconductor-preprocesscore: ``>=1.68.0,<1.69.0a0``
-   :depends on bioconductor-rbgl: ``>=1.82.0,<1.83.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on bioconductor-graph: ``>=1.88.1,<1.89.0a0``
+   :depends on bioconductor-preprocesscore: ``>=1.72.0,<1.73.0a0``
+   :depends on bioconductor-rbgl: ``>=1.86.0,<1.87.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-doparallel: 
    :depends on r-foreach: 
    :depends on r-plyr: 

@@ -30,15 +30,16 @@ pyani-plus
       
       
 
-      ``1.0.0-0``,  ``0.0.1-0``
+      ``1.0.1-0``,  ``1.0.0-0``,  ``0.0.1-0``
 
       
 
    
    :depends on blast: 
+   :depends on click: 
    :depends on fastani: 
    :depends on intervaltree: 
-   :depends on matplotlib-base: ``>=3.10.0``
+   :depends on matplotlib-base: ``>=3.10.0,!=3.11.0``
    :depends on mummer: ``3.23.*``
    :depends on networkx: ``>=3.4.2``
    :depends on pandas: 
@@ -125,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pyani-plus";
-      var versions = ["1.0.0","0.0.1"];
+      var versions = ["1.0.1","1.0.0","0.0.1"];
    </script>
 
 .. rubric:: Download stats
