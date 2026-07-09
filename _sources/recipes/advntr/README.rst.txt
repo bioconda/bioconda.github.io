@@ -44,7 +44,8 @@ advntr
    :depends on cython: ``<3``
    :depends on htslib: 
    :depends on joblib: 
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on matplotlib-base: 
    :depends on muscle: 
    :depends on networkx: 

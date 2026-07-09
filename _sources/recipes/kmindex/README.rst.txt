@@ -30,13 +30,14 @@ kmindex
       
       
 
-      ``0.6.0-1``,  ``0.6.0-0``
+      ``0.6.1-0``,  ``0.6.0-1``,  ``0.6.0-0``
 
       
 
    
-   :depends on kmtricks: ``>=1.5.1``
-   :depends on libcxx: ``>=18``
+   :depends on kmtricks: ``>=1.6.0``
+   :depends on libgcc: ``>=12``
+   :depends on libstdcxx: ``>=12``
 
    :additional platforms:
       
@@ -115,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "kmindex";
-      var versions = ["0.6.0","0.6.0"];
+      var versions = ["0.6.1","0.6.0","0.6.0"];
    </script>
 
 .. rubric:: Download stats

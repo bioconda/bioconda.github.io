@@ -45,7 +45,8 @@ alignoth
    
    :depends on libcblas: ``>=3.9.0,<4.0a0``
    :depends on libcurl: ``>=8.19.0,<9.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on openssl: ``>=3.5.5,<4.0a0``
 
    :additional platforms:

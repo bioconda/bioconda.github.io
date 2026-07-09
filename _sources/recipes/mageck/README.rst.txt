@@ -40,10 +40,10 @@ mageck
       
 
    
-   :depends on __osx: ``>=10.13``
    :depends on bioconductor-depmap: ``1.24.0.*``
    :depends on ipython: 
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on numpy: ``1.23.5.*``
    :depends on pdflatex: ``0.1.3.*``
    :depends on python: ``>=3.10,<3.11.0a0``

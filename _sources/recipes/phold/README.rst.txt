@@ -30,10 +30,10 @@ phold
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.5-0</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  <code>0.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.0-0</code>,  <code>1.2.5-0</code>,  <code>1.2.4-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-0</code>,  </span></summary>
       
 
-      ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.2.0-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``1.3.0-0``,  ``1.2.5-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.2.0-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -49,8 +49,9 @@ phold
    :depends on foldseek: ``10.941cd33``
    :depends on h5py: ``>=3.5``
    :depends on loguru: ``>=0.5.3``
-   :depends on numpy: ``>=1.20``
-   :depends on pandas: ``>=1.4.2``
+   :depends on numpy: ``>=1.24``
+   :depends on pholdlib: ``>=0.1.2``
+   :depends on polars: ``>=1.0``
    :depends on protobuf: ``>=6.0``
    :depends on pyarrow: ``>=14.0.0``
    :depends on pycirclize: ``>=0.3.1``
@@ -60,6 +61,7 @@ phold
    :depends on pyyaml: ``>=6.0``
    :depends on requests: ``>=2.25``
    :depends on sentencepiece: ``>=0.1.99``
+   :depends on tqdm: ``>=4.35.0``
    :depends on transformers: ``>=4.34``
 
    :additional platforms:
@@ -135,7 +137,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "phold";
-      var versions = ["1.2.5","1.2.4","1.2.3","1.2.2","1.2.1"];
+      var versions = ["1.3.0","1.2.5","1.2.4","1.2.3","1.2.2"];
    </script>
 
 .. rubric:: Download stats

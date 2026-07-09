@@ -38,7 +38,8 @@ pathotypr
       
 
    
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on openssl: ``>=3.5.5,<4.0a0``
 
    :additional platforms:

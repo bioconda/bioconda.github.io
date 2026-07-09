@@ -28,10 +28,10 @@ beast-pype
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.2-1</code>,  <code>0.3.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.0-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.2-1</code>,  </span></summary>
       
 
-      ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.0-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.4-0``,  ``0.1.2-0``
+      ``0.8.0-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.0-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.5-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.4-0``,  ``0.1.2-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ beast-pype
       
 
    
-   :depends on arviz: ``0.23.4``
+   :depends on arviz: ``>=1.2.0``
    :depends on bash_kernel: ``>=0.10.0``
-   :depends on beast2: ``>=2.6.3``
+   :depends on beast2: ``>=2.7.7``
    :depends on beast2-xml: ``>=1.6.2``
    :depends on bioconductor-ggtree: ``>=4.0.4``
    :depends on bioconductor-treeio: ``>=1.34.0``
@@ -62,9 +62,6 @@ beast-pype
    :depends on pandas: ``>=2.3.3``
    :depends on papermill: ``>=2.6.0``
    :depends on parallel: ``>=2051122``
-   :depends on psutil: ``>=7.2.2``
-   :depends on pytest: ``>=9.0.2``
-   :depends on pytest-xdist: ``>=3.8.0``
    :depends on python: ``>=3.10``
    :depends on python-dateutil: ``>=2.9.0``
    :depends on pyyaml: ``>=6.0.3``
@@ -155,7 +152,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "beast-pype";
-      var versions = ["0.7.2","0.7.1","0.7.0","0.6.0","0.5.1"];
+      var versions = ["0.8.0","0.7.2","0.7.1","0.7.0","0.6.0"];
    </script>
 
 .. rubric:: Download stats
