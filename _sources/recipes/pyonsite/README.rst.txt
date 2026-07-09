@@ -27,7 +27,7 @@ pyonsite
       
       
 
-      ``0.0.2-0``,  ``0.0.1-0``
+      ``0.0.5-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
@@ -35,7 +35,8 @@ pyonsite
    :depends on click: ``>=8.0.0``
    :depends on eigen: ``>=3.4.0``
    :depends on numpy: ``>=1.26.0``
-   :depends on pyopenms: ``3.4.0``
+   :depends on pyarrow: 
+   :depends on pyopenms: ``>=3.5.0``
    :depends on python: ``>=3.11,<3.13``
    :depends on scipy: ``>=1.16.0``
 
@@ -112,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pyonsite";
-      var versions = ["0.0.2","0.0.1"];
+      var versions = ["0.0.5","0.0.2","0.0.1"];
    </script>
 
 .. rubric:: Download stats

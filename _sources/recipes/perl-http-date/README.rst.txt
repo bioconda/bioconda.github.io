@@ -27,7 +27,7 @@ perl-http-date
       
       
 
-      ``6.06-0``,  ``6.05-0``,  ``6.02-4``,  ``6.02-3``,  ``6.02-2``,  ``6.02-1``,  ``6.02-0``
+      ``6.08-0``,  ``6.06-0``,  ``6.05-0``,  ``6.02-4``,  ``6.02-3``,  ``6.02-2``,  ``6.02-1``,  ``6.02-0``
 
       
 
@@ -110,7 +110,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "perl-http-date";
-      var versions = ["6.06","6.05","6.02","6.02","6.02"];
+      var versions = ["6.08","6.06","6.05","6.02","6.02"];
    </script>
 
 .. rubric:: Download stats

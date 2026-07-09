@@ -34,14 +34,12 @@ smcpp
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
    :depends on appdirs: 
    :depends on gmp: ``>=6.3.0,<7.0a0``
    :depends on gnuplot: 
    :depends on gsl: ``>=2.7,<2.8.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libgomp: 
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=16``
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on matplotlib-base: ``>=3,<3.6``
    :depends on mpfr: ``>=4.2.2,<5.0a0``
    :depends on numpy: ``<2``

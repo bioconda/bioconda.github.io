@@ -34,7 +34,6 @@ faststructure
    
    :depends on gsl: ``>=2.7,<2.8.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on matplotlib-base: 
    :depends on numpy: ``>=1.21,<3``

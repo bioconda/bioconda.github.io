@@ -52,18 +52,18 @@ mhcnuggets
       
       
 
-      ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.2-0``
+      ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.2-0``
 
       
 
    
-   :depends on keras: 
+   :depends on keras: ``>=2.6,<3``
    :depends on numpy: 
    :depends on pandas: 
-   :depends on python: ``3.6.*``
+   :depends on python: 
    :depends on scikit-learn: 
    :depends on scipy: 
-   :depends on tensorflow: 
+   :depends on tensorflow: ``>=2.6,<2.16``
    :depends on varcode: 
 
    :additional platforms:
@@ -139,7 +139,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mhcnuggets";
-      var versions = ["2.4.1","2.4.0","2.3.2","2.3.1","2.2"];
+      var versions = ["2.4.1","2.4.1","2.4.0","2.3.2","2.3.1"];
    </script>
 
 .. rubric:: Download stats

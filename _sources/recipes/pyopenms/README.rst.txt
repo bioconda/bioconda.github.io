@@ -31,10 +31,10 @@ pyopenms
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.4.1-3</code>,  <code>3.4.1-2</code>,  <code>3.4.1-1</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.0-5</code>,  <code>3.3.0-0</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.5.0-0</code>,  <code>3.4.1-3</code>,  <code>3.4.1-2</code>,  <code>3.4.1-1</code>,  <code>3.4.1-0</code>,  <code>3.4.0-0</code>,  <code>3.3.0-5</code>,  <code>3.3.0-0</code>,  <code>3.2.0-1</code>,  </span></summary>
       
 
-      ``3.4.1-3``,  ``3.4.1-2``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.0-5``,  ``3.3.0-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.9.1-3``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``,  ``2.4.0-0``
+      ``3.5.0-0``,  ``3.4.1-3``,  ``3.4.1-2``,  ``3.4.1-1``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.0-5``,  ``3.3.0-0``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.9.1-3``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.0-1``,  ``2.6.0-0``,  ``2.5.0-6``,  ``2.5.0-5``,  ``2.5.0-4``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.0-3``,  ``2.4.0-0``
 
       
       .. raw:: html
@@ -44,9 +44,11 @@ pyopenms
 
    
    :depends on eigen: ``>=3.4.0,<3.5.0a0``
+   :depends on libarrow: ``>=21.0.0,<21.1.0a0``
    :depends on libcxx: ``>=19``
-   :depends on libopenms: ``3.4.1``
-   :depends on libopenms: ``3.4.1.*``
+   :depends on libopenms: ``3.5.0``
+   :depends on libopenms: ``3.5.0.*``
+   :depends on libparquet: ``>=21.0.0,<21.1.0a0``
    :depends on libsvm: ``>=335,<400``
    :depends on matplotlib-base: 
    :depends on numpy: ``>=1.21,<3``
@@ -63,7 +65,7 @@ pyopenms
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
+         <span class="additional-platforms"><code>osx-arm64</code></span>
       
 
 
@@ -136,7 +138,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pyopenms";
-      var versions = ["3.4.1","3.4.1","3.4.1","3.4.1","3.4.0"];
+      var versions = ["3.5.0","3.4.1","3.4.1","3.4.1","3.4.1"];
    </script>
 
 .. rubric:: Download stats

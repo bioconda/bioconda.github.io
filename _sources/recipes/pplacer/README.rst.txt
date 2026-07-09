@@ -34,9 +34,8 @@ pplacer
 
    
    :depends on gsl: ``>=2.8,<2.9.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libsqlite: ``>=3.51.2,<4.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on sqlite: 
+   :depends on zlib: 
 
    :additional platforms:
       
