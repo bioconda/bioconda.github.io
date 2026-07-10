@@ -28,10 +28,10 @@ perl-tree-dag_node
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.37-0</code>,  <code>1.35-0</code>,  <code>1.34-0</code>,  <code>1.33-0</code>,  <code>1.32-0</code>,  <code>1.31-1</code>,  <code>1.31-0</code>,  <code>1.29-2</code>,  <code>1.29-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.39-0</code>,  <code>1.37-0</code>,  <code>1.35-0</code>,  <code>1.34-0</code>,  <code>1.33-0</code>,  <code>1.32-0</code>,  <code>1.31-1</code>,  <code>1.31-0</code>,  <code>1.29-2</code>,  </span></summary>
       
 
-      ``1.37-0``,  ``1.35-0``,  ``1.34-0``,  ``1.33-0``,  ``1.32-0``,  ``1.31-1``,  ``1.31-0``,  ``1.29-2``,  ``1.29-1``,  ``1.29-0``
+      ``1.39-0``,  ``1.37-0``,  ``1.35-0``,  ``1.34-0``,  ``1.33-0``,  ``1.32-0``,  ``1.31-1``,  ``1.31-0``,  ``1.29-2``,  ``1.29-1``,  ``1.29-0``
 
       
       .. raw:: html
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "perl-tree-dag_node";
-      var versions = ["1.37","1.35","1.34","1.33","1.32"];
+      var versions = ["1.39","1.37","1.35","1.34","1.33"];
    </script>
 
 .. rubric:: Download stats

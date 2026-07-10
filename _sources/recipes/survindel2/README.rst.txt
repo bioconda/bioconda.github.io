@@ -34,8 +34,7 @@ survindel2
 
    
    :depends on htslib: ``>=1.21,<1.24.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on numpy: 
    :depends on pyfaidx: ``>=0.5.9.1``
    :depends on pysam: ``>=0.16.0.1``

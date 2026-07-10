@@ -41,13 +41,10 @@ binspreader
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libgcc-ng: ``>=12``
-   :depends on libstdcxx-ng: ``>=12``
+   :depends on libcxx: ``>=14.0.6``
    :depends on libzlib: ``>=1.2.13,<1.3.0a0``
-   :depends on openmp: 
-   :depends on sysroot_linux-64: ``>=2.17``
+   :depends on llvm-openmp: ``>=14.0.6``
 
    :additional platforms:
       

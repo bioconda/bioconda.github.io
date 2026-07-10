@@ -52,7 +52,6 @@ gemini
    :depends on ipyparallel: 
    :depends on ipython-cluster-helper: 
    :depends on jinja2: 
-   :depends on libgcc-ng: ``>=12``
    :depends on networkx: 
    :depends on numexpr: 
    :depends on numpy: ``>=1.21.6,<2.0a0``

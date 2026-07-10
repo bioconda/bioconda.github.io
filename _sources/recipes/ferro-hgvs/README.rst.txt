@@ -13,7 +13,7 @@ ferro-hgvs
    HGVS variant parser and normalizer.
 
    :homepage: https://github.com/fulcrumgenomics/ferro-hgvs
-   :documentation: https://github.com/fulcrumgenomics/ferro-hgvs/blob/v0.6.0/README.md
+   :documentation: https://github.com/fulcrumgenomics/ferro-hgvs/blob/v0.7.0/README.md
    
    :license: MIT / MIT
    :recipe: /`ferro-hgvs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ferro-hgvs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ferro-hgvs/meta.yaml>`_
@@ -29,14 +29,14 @@ ferro-hgvs
       
       
 
-      ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.1.0-0``
+      ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.1.0-0``
 
       
 
    
-   :depends on __osx: ``>=11.0``
-   :depends on libsqlite: ``>=3.53.1,<4.0a0``
-   :depends on openssl: ``>=3.5.6,<4.0a0``
+   :depends on __osx: ``>=10.13``
+   :depends on libsqlite: ``>=3.53.3,<4.0a0``
+   :depends on openssl: ``>=3.5.7,<4.0a0``
 
    :additional platforms:
       
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ferro-hgvs";
-      var versions = ["0.6.0","0.5.0","0.4.1","0.4.0","0.3.0"];
+      var versions = ["0.7.0","0.6.0","0.5.0","0.4.1","0.4.0"];
    </script>
 
 .. rubric:: Download stats

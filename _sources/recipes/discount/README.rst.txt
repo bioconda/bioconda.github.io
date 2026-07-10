@@ -13,7 +13,7 @@ discount
    Discount is a very scalable k\-mer counting and indexing tool based on Apache Spark.
 
    :homepage: https://github.com/jtnystrom/Discount
-   :documentation: https://github.com/jtnystrom/Discount/blob/v3.0.1/README.md
+   :documentation: https://github.com/jtnystrom/Discount/blob/v4.0.0/README.md
    
    :license: GPL3 / GPL-3.0-only
    :recipe: /`discount <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/discount>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/discount/meta.yaml>`_
@@ -30,13 +30,13 @@ discount
       
       
 
-      ``3.0.1-0``
+      ``4.0.0-0``,  ``3.0.1-0``
 
       
 
    
    :depends on openjdk: ``>=17,<22``
-   :depends on pyspark: ``>=3.1.0,<4.0.0``
+   :depends on pyspark: ``>=3.5.0,<4.0.0``
 
    :additional platforms:
       
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "discount";
-      var versions = ["3.0.1"];
+      var versions = ["4.0.0","3.0.1"];
    </script>
 
 .. rubric:: Download stats

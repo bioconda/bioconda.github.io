@@ -10,14 +10,19 @@ bismark
    :replaces_section_title:
    :noindex:
 
-   Bismark is a program to map bisulfite treated sequencing reads to a genome of interest and perform methylation calls in a single step. The output can be easily imported into a genome viewer\, such as SeqMonk\, and enables a researcher to analyse the methylation levels of their samples straight away.
+   Bisulfite read aligner and methylation caller \(Rust suite\)
 
-   :homepage: https://github.com/FelixKrueger/Bismark/
-   :license: GPL3 / GNU General Public License v3 (GPLv3)
+   :homepage: https://github.com/FelixKrueger/Bismark
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`bismark <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bismark>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bismark/meta.yaml>`_
-   :links: biotools: :biotools:`bismark`, usegalaxy-eu: :usegalaxy-eu:`bismark_bowtie2`
+   :links: biotools: :biotools:`bismark`, usegalaxy-eu: :usegalaxy-eu:`bismark_bowtie2`, doi: :doi:`10.1093/bioinformatics/btr167`
 
-   
+   Bismark maps bisulfite\-treated sequencing reads to a reference genome and calls
+   cytosine methylation in CpG\, CHG and CHH context. As of v3.0.0 it is a single Rust
+   multicall binary\: run \`bismark \<subcommand\>\` or the classic tool names as argv\[0\]
+   aliases. All BAM\/SAM\/CRAM I\/O is pure\-Rust \(no samtools\). The Perl v0.25.x remains
+   available as \`bismark\=0.25.1\`.
+
 
 
 .. conda:package:: bismark
@@ -29,10 +34,10 @@ bismark
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.25.1-0</code>,  <code>0.25.0-0</code>,  <code>0.24.2-0</code>,  <code>0.24.1-0</code>,  <code>0.24.0-1</code>,  <code>0.24.0-0</code>,  <code>0.23.1-0</code>,  <code>0.23.0-1</code>,  <code>0.23.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>0.25.1-0</code>,  <code>0.25.0-0</code>,  <code>0.24.2-0</code>,  <code>0.24.1-0</code>,  <code>0.24.0-1</code>,  <code>0.24.0-0</code>,  <code>0.23.1-0</code>,  <code>0.23.0-1</code>,  </span></summary>
       
 
-      ``0.25.1-0``,  ``0.25.0-0``,  ``0.24.2-0``,  ``0.24.1-0``,  ``0.24.0-1``,  ``0.24.0-0``,  ``0.23.1-0``,  ``0.23.0-1``,  ``0.23.0-0``,  ``0.22.3-0``,  ``0.22.2-0``,  ``0.22.1-0``,  ``0.22.0-0``,  ``0.21.0-0``,  ``0.20.0-0``,  ``0.19.1-0``,  ``0.19.0-1``,  ``0.19.0-0``,  ``0.18.1-0``,  ``0.17.0-0``
+      ``3.0.0-0``,  ``0.25.1-0``,  ``0.25.0-0``,  ``0.24.2-0``,  ``0.24.1-0``,  ``0.24.0-1``,  ``0.24.0-0``,  ``0.23.1-0``,  ``0.23.0-1``,  ``0.23.0-0``,  ``0.22.3-0``,  ``0.22.2-0``,  ``0.22.1-0``,  ``0.22.0-0``,  ``0.21.0-0``,  ``0.20.0-0``,  ``0.19.1-0``,  ``0.19.0-1``,  ``0.19.0-0``,  ``0.18.1-0``,  ``0.17.0-0``
 
       
       .. raw:: html
@@ -41,14 +46,16 @@ bismark
       
 
    
-   :depends on bowtie2: 
-   :depends on coreutils: 
+   :depends on bowtie2: ``>=2.5.5``
    :depends on hisat2: 
+   :depends on libgcc: ``>=14``
    :depends on minimap2: 
-   :depends on perl: 
-   :depends on samtools: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -121,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bismark";
-      var versions = ["0.25.1","0.25.0","0.24.2","0.24.1","0.24.0"];
+      var versions = ["3.0.0","0.25.1","0.25.0","0.24.2","0.24.1"];
    </script>
 
 .. rubric:: Download stats

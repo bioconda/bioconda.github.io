@@ -67,21 +67,26 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">bismark</span></span></dt>
-<dd><p>Bismark is a program to map bisulfite treated sequencing reads to a genome of interest and perform methylation calls in a single step. The output can be easily imported into a genome viewer, such as SeqMonk, and enables a researcher to analyse the methylation levels of their samples straight away.</p>
+<dd><p>Bisulfite read aligner and methylation caller (Rust suite)</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/FelixKrueger/Bismark/">https://github.com/FelixKrueger/Bismark/</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/FelixKrueger/Bismark">https://github.com/FelixKrueger/Bismark</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>GPL3 / GNU General Public License v3 (GPLv3)</p>
+<dd class="field-even"><p>GPL3 / GPL-3.0-only</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bismark">bismark</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bismark/meta.yaml">meta.yaml</a></p>
 </dd>
 <dt class="field-even">Links<span class="colon">:</span></dt>
-<dd class="field-even"><p>biotools: <a class="extlink-biotools reference external" href="https://bio.tools/bismark">bismark</a>, usegalaxy-eu: <a class="extlink-usegalaxy-eu reference external" href="https://usegalaxy.eu/?tool_id=bismark_bowtie2">bismark_bowtie2</a></p>
+<dd class="field-even"><p>biotools: <a class="extlink-biotools reference external" href="https://bio.tools/bismark">bismark</a>, usegalaxy-eu: <a class="extlink-usegalaxy-eu reference external" href="https://usegalaxy.eu/?tool_id=bismark_bowtie2">bismark_bowtie2</a>, doi: <a class="extlink-doi reference external" href="https://doi.org/10.1093/bioinformatics/btr167">10.1093/bioinformatics/btr167</a></p>
 </dd>
 </dl>
+<p>Bismark maps bisulfite-treated sequencing reads to a reference genome and calls
+cytosine methylation in CpG, CHG and CHH context. As of v3.0.0 it is a single Rust
+multicall binary: run `bismark &lt;subcommand&gt;` or the classic tool names as argv[0]
+aliases. All BAM/SAM/CRAM I/O is pure-Rust (no samtools). The Perl v0.25.x remains
+available as `bismark=0.25.1`.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -90,20 +95,18 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/bismark"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/bismark.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/bismark"><img alt="docker_bismark" src="https://quay.io/repository/biocontainers/bismark/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>0.25.1-0</code>,  <code>0.25.0-0</code>,  <code>0.24.2-0</code>,  <code>0.24.1-0</code>,  <code>0.24.0-1</code>,  <code>0.24.0-0</code>,  <code>0.23.1-0</code>,  <code>0.23.0-1</code>,  <code>0.23.0-0</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">0.25.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.25.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.24.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.24.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.24.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.24.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.23.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.23.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.23.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.22.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.22.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.22.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.22.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.21.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.20.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.19.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.19.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.19.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.18.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.17.0-0</span></code></p>
+<dd class="field-odd"><details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>0.25.1-0</code>,  <code>0.25.0-0</code>,  <code>0.24.2-0</code>,  <code>0.24.1-0</code>,  <code>0.24.0-1</code>,  <code>0.24.0-0</code>,  <code>0.23.1-0</code>,  <code>0.23.0-1</code>,  </span></summary><p><code class="docutils literal notranslate"><span class="pre">3.0.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.25.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.25.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.24.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.24.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.24.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.24.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.23.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.23.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.23.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.22.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.22.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.22.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.22.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.21.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.20.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.19.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.19.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.19.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.18.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.17.0-0</span></code></p>
 </details></dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><strong>on bowtie2</strong></p></li>
-<li><p><strong>on coreutils</strong></p></li>
+<li><p><strong>on bowtie2</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=2.5.5</span></code></p></li>
 <li><p><strong>on hisat2</strong></p></li>
+<li><p><strong>on libgcc</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p></li>
 <li><p><strong>on minimap2</strong></p></li>
-<li><p><strong>on perl</strong></p></li>
-<li><p><strong>on samtools</strong></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
+<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
 </dl>
 </dd></dl>
 
@@ -158,7 +161,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "bismark";
-   var versions = ["0.25.1","0.25.0","0.24.2","0.24.1","0.24.0"];
+   var versions = ["3.0.0","0.25.1","0.25.0","0.24.2","0.24.1"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_bismark"></div>
 <div style="width: 100%" id="platform_plot_bismark"></div>
