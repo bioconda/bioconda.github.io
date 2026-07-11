@@ -42,6 +42,7 @@ alignstats
    
    :depends on htslib: ``>1.4``
    :depends on htslib: ``>=1.21,<1.24.0a0``
+   :depends on libgcc: ``>=13``
 
    :additional platforms:
       

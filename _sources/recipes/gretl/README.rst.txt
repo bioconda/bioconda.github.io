@@ -32,6 +32,7 @@ gretl
       
 
    
+   :depends on libgcc: ``>=13``
    :depends on matplotlib-base: ``>=3.9``
    :depends on numpy: ``>=2.1.3``
    :depends on pandas: ``>=2.1.3``

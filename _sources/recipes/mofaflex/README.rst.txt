@@ -30,7 +30,7 @@ mofaflex
       
       
 
-      ``0.1.1-0``
+      ``0.1.2-0``,  ``0.1.1-0``
 
       
 
@@ -129,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mofaflex";
-      var versions = ["0.1.1"];
+      var versions = ["0.1.2","0.1.1"];
    </script>
 
 .. rubric:: Download stats
