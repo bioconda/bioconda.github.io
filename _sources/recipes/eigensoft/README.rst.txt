@@ -42,7 +42,6 @@ eigensoft
 
    
    :depends on gsl: ``>=2.7,<2.8.0a0``
-   :depends on libgcc: ``>=13``
    :depends on openblas: 
    :depends on perl: 
 

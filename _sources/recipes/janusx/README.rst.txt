@@ -10,22 +10,22 @@ janusx
    :replaces_section_title:
    :noindex:
 
-   GWAS and genomic selection toolkit with Rust\-accelerated kernels.
+   Rust\-accelerated toolkit for GWAS\, genomic selection\, GRM\/PCA\, and post\-analysis plotting
 
    :homepage: https://github.com/FJingxian/JanusX
-   :documentation: https://github.com/FJingxian/JanusX/tree/v1.0.21/doc
+   :documentation: https://github.com/FJingxian/JanusX/tree/v1.0.25/doc
    
    :license: AGPL-3.0-or-later
    :recipe: /`janusx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/janusx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/janusx/meta.yaml>`_
    :links: doi: :doi:`10.64898/2026.01.20.700366`
 
-   JanusX is a high\-performance toolkit for genome\-wide association studies
-   \(GWAS\)\, genomic selection \(GS\)\, and post\-analysis visualization.
+   JanusX is a Python\+Rust toolkit for genome\-wide association studies\,
+   genomic selection\, GRM\/PCA construction\, and downstream visualization.
+   This package installs the \`jx\` and \`jxpy\` command\-line entry points.
 
-   This Bioconda recipe packages the Python\+Rust core and provides the \`jxpy\`
-   command entrypoint. Launcher\-specific features \(\`jx\`\, self\-update\/runtime
-   management\, \`fastq2vcf\`\, and \`fastq2count\`\) are intentionally excluded
-   from this package scope.
+   Core runtime dependencies are included. Heavier optional extras remain
+   user\-managed\; \`scikit\-learn\`\, \`xgboost\`\, \`statsmodels\`\, \`toytree\`\, and
+   \`toyplot\` can be installed from conda\-forge as needed.
 
 
 
@@ -37,35 +37,30 @@ janusx
       
       
 
-      ``1.0.21-0``,  ``1.0.20-0``
+      ``1.0.25-0``,  ``1.0.21-0``,  ``1.0.20-0``
 
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on __osx: ``>=10.13``
    :depends on joblib: ``>=1.5``
-   :depends on libgcc: ``>=14``
+   :depends on libcxx: ``>=19``
+   :depends on libopenblas: 
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on matplotlib-base: 
-   :depends on mkl: 
    :depends on numpy: ``>=1.21,<3``
-   :depends on pandas: ``<3.0``
+   :depends on numpy: ``>=2.2.6,<3.0a0``
+   :depends on pandas: ``>=1.5``
    :depends on psutil: 
-   :depends on pypardiso: 
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on rich: 
    :depends on rich-argparse: 
-   :depends on scikit-learn: 
    :depends on scipy: 
-   :depends on statsmodels: 
+   :depends on threadpoolctl: 
    :depends on tqdm: 
-   :depends on xgboost: 
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -138,7 +133,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "janusx";
-      var versions = ["1.0.21","1.0.20"];
+      var versions = ["1.0.25","1.0.21","1.0.20"];
    </script>
 
 .. rubric:: Download stats

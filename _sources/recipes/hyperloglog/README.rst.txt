@@ -29,7 +29,7 @@ hyperloglog
       
       
 
-      ``0.1.5-0``,  ``0.1.3-0``,  ``0.0.14-0``
+      ``0.1.8-0``,  ``0.1.5-0``,  ``0.1.3-0``,  ``0.0.14-0``
 
       
 
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "hyperloglog";
-      var versions = ["0.1.5","0.1.3","0.0.14"];
+      var versions = ["0.1.8","0.1.5","0.1.3","0.0.14"];
    </script>
 
 .. rubric:: Download stats

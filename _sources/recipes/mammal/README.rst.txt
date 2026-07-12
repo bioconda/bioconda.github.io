@@ -32,11 +32,10 @@ mammal
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libgfortran: 
-   :depends on libgfortran5: ``>=13.3.0``
+   :depends on libcxx: ``>=18``
+   :depends on libgfortran: ``5.*``
+   :depends on libgfortran5: ``>=13.2.0``
    :depends on libiconv: 
-   :depends on libstdcxx: ``>=13``
    :depends on r-base: 
    :depends on readline: 
 

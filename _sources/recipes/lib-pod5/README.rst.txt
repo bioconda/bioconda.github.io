@@ -49,8 +49,7 @@ lib-pod5
 
    
    :depends on flatbuffers: ``>=25.2.10,<25.2.11.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on numpy: ``>=1.21.0``
    :depends on pyarrow: ``<21``
