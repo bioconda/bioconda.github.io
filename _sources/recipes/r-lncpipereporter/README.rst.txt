@@ -43,6 +43,7 @@ r-lncpipereporter
    :depends on bioconductor-deseq2: ``>=1.46.0,<1.47.0a0``
    :depends on bioconductor-edger: ``>=4.4.0,<4.5.0a0``
    :depends on bioconductor-noiseq: ``>=2.50.0,<2.51.0a0``
+   :depends on libgcc: ``>=13``
    :depends on r-base: ``>=4.4,<4.5.0a0``
    :depends on r-cowplot: 
    :depends on r-data.table: 

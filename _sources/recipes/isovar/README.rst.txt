@@ -30,7 +30,7 @@ isovar
       
       
 
-      ``1.4.24-0``
+      ``1.7.1-0``,  ``1.4.24-0``
 
       
 
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "isovar";
-      var versions = ["1.4.24"];
+      var versions = ["1.7.1","1.4.24"];
    </script>
 
 .. rubric:: Download stats

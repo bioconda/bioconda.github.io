@@ -43,7 +43,7 @@ alignoth
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on libcblas: ``>=3.9.0,<4.0a0``
    :depends on libcurl: ``>=8.21.0,<9.0a0``
    :depends on libcxx: ``>=19``

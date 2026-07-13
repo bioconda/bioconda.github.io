@@ -43,6 +43,7 @@ ppanggolin
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on aragorn: ``1.*``
    :depends on bokeh: ``>=3.0.0,<4.0.0``
    :depends on dataclasses: ``0.8.*``

@@ -40,9 +40,9 @@ arcs
       
 
    
-   :depends on btllib: ``>=1.7.3,<2.0a0``
+   :depends on btllib: ``>=1.7.5,<2.0a0``
    :depends on libcxx: ``>=19``
-   :depends on libzlib: ``>=1.2.13,<2.0a0``
+   :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on llvm-openmp: ``>=19.1.7``
    :depends on make: 
 

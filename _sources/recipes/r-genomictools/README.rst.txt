@@ -32,9 +32,10 @@ r-genomictools
       
 
    
-   :depends on bioconductor-snpstats: ``>=1.60.0,<1.61.0a0``
-   :depends on libcxx: ``>=19``
-   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on bioconductor-snpstats: ``>=1.56.0,<1.57.0a0``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
+   :depends on r-base: ``>=4.4,<4.5.0a0``
    :depends on r-circlize: 
    :depends on r-data.table: ``>=1.9.6``
    :depends on r-genomictools.filehandler: ``>=0.1.5.8``

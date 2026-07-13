@@ -47,7 +47,7 @@ coot-headless
       
 
    
-   :depends on __osx: ``>=10.15``
+   :depends on __osx: ``>=11.0``
    :depends on acedrg: 
    :depends on cairo: ``>=1.18.4,<2.0a0``
    :depends on clipper: ``>=2.1.20180802,<3.0a0``

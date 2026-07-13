@@ -27,7 +27,7 @@ perl-test-inter
       
       
 
-      ``1.12-0``,  ``1.10-0``,  ``1.09-1``,  ``1.09-0``,  ``1.07-0``,  ``1.06-1``,  ``1.06-0``
+      ``1.13-0``,  ``1.12-0``,  ``1.10-0``,  ``1.09-1``,  ``1.09-0``,  ``1.07-0``,  ``1.06-1``,  ``1.06-0``
 
       
 
@@ -107,7 +107,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "perl-test-inter";
-      var versions = ["1.12","1.10","1.09","1.09","1.07"];
+      var versions = ["1.13","1.12","1.10","1.09","1.09"];
    </script>
 
 .. rubric:: Download stats
