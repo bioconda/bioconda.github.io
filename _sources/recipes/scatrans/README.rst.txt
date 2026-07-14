@@ -1,40 +1,52 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'pysvg'
+.. title:: Package Recipe 'scatrans'
 .. highlight: bash
 
-pysvg
-=====
+scatrans
+========
 
-.. conda:recipe:: pysvg
+.. conda:recipe:: scatrans
    :replaces_section_title:
    :noindex:
 
-   Python SVG Library
+   Single\-cell active transcription analysis with spliced\/unspliced RNA layers
 
-   :homepage: http://codeboje.de/pysvg/
-   :license: BSD / BSD License
-   :recipe: /`pysvg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pysvg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pysvg/meta.yaml>`_
+   :homepage: https://github.com/leelieber2025/scATrans
+   :documentation: https://scatrans.readthedocs.io
+   
+   :license: Apache-2.0
+   :recipe: /`scatrans <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scatrans>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scatrans/meta.yaml>`_
 
    
 
 
-.. conda:package:: pysvg
+.. conda:package:: scatrans
 
-   |downloads_pysvg| |docker_pysvg|
+   |downloads_scatrans| |docker_scatrans|
 
    :versions:
       
       
 
-      ``0.2.2-2``,  ``0.2.2-0``
+      ``0.10.2-0``
 
       
 
    
-   :depends on cssselect: 
-   :depends on lxml: ``>=2.1``
-   :depends on python: ``>=2.7,<2.8.0a0``
+   :depends on adjusttext: ``>=0.7``
+   :depends on anndata: ``>=0.8``
+   :depends on joblib: ``>=1.2``
+   :depends on matplotlib-base: ``>=3.5``
+   :depends on numpy: ``>=1.21``
+   :depends on pandas: ``>=1.3``
+   :depends on pyarrow: ``>=10.0``
+   :depends on python: ``>=3.9``
+   :depends on scanpy: ``>=1.9``
+   :depends on scikit-learn: ``>=1.0``
+   :depends on scipy: ``>=1.7``
+   :depends on seaborn: ``>=0.12``
+   :depends on statsmodels: ``>=0.13``
 
    :additional platforms:
       
@@ -54,11 +66,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install pysvg
+    pixi global install scatrans
 
 to add into an existing workspace instead, run::
 
-    pixi add pysvg
+    pixi add scatrans
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -70,11 +82,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install pysvg
+    conda install scatrans
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname pysvg
+    conda create -n envname scatrans
 
 with ``envname`` being the name of the desired environment.
 
@@ -84,9 +96,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/pysvg:<tag>
+    docker pull quay.io/biocontainers/scatrans:<tag>
 
-(see `pysvg/tags`_ for valid values for ``<tag>``).
+(see `scatrans/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -97,28 +109,28 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_pysvg| image:: https://img.shields.io/conda/dn/bioconda/pysvg.svg?style=flat
-   :target: https://anaconda.org/bioconda/pysvg
+.. |downloads_scatrans| image:: https://img.shields.io/conda/dn/bioconda/scatrans.svg?style=flat
+   :target: https://anaconda.org/bioconda/scatrans
    :alt:   (downloads)
-.. |docker_pysvg| image:: https://quay.io/repository/biocontainers/pysvg/status
-   :target: https://quay.io/repository/biocontainers/pysvg
-.. _`pysvg/tags`: https://quay.io/repository/biocontainers/pysvg?tab=tags
+.. |docker_scatrans| image:: https://quay.io/repository/biocontainers/scatrans/status
+   :target: https://quay.io/repository/biocontainers/scatrans
+.. _`scatrans/tags`: https://quay.io/repository/biocontainers/scatrans?tab=tags
 
 
 .. raw:: html
 
    <script>
-      var package = "pysvg";
-      var versions = ["0.2.2","0.2.2"];
+      var package = "scatrans";
+      var versions = ["0.10.2"];
    </script>
 
 .. rubric:: Download stats
 
 .. raw:: html
     
-   <div style="width: 100%" id="download_plot_pysvg"></div>
-   <div style="width: 100%" id="platform_plot_pysvg"></div>
-   <div style="width: 100%" id="cdf_plot_pysvg"></div>
+   <div style="width: 100%" id="download_plot_scatrans"></div>
+   <div style="width: 100%" id="platform_plot_scatrans"></div>
+   <div style="width: 100%" id="cdf_plot_scatrans"></div>
 
 
 
@@ -134,7 +146,7 @@ Check the documentation of your workflow management system to find out about the
    <script>
       window.onload = async function() {
          
-            // Build cdf plot for pysvg
+            // Build cdf plot for scatrans
             try {
                const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
                if (!cdf_spec_resp.ok) {
@@ -146,7 +158,7 @@ Check the documentation of your workflow management system to find out about the
                    throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
                }
                const cdf_plot_data = await cdf_data_resp.json();
-               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/pysvg/cdf.json`)
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/scatrans/cdf.json`)
                if (!point_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
                }
@@ -154,43 +166,43 @@ Check the documentation of your workflow management system to find out about the
     
                cdf_spec.data.values = cdf_plot_data;
                cdf_spec.data.values.push(single_point.pop());
-               vegaEmbed('#cdf_plot_pysvg', cdf_spec);
+               vegaEmbed('#cdf_plot_scatrans', cdf_spec);
             } catch (err) {
                console.error("An error occurred while building CDF plot: ", err)
             }
     
-            // Build download plot for pysvg
+            // Build download plot for scatrans
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/pysvg/versions.json`)
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/scatrans/versions.json`)
                if (!version_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
                }
                const plot_data = await version_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#download_plot_pysvg', spec);
+               vegaEmbed('#download_plot_scatrans', spec);
             } catch (err) {
                console.error("An error occurred while building downloads plot: ", err)
             }
    
-            // Build platform download plot for pysvg
+            // Build platform download plot for scatrans
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/pysvg/platforms.json`)
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/scatrans/platforms.json`)
                if (!platform_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
                }
                const plot_data = await platform_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#platform_plot_pysvg', spec);
+               vegaEmbed('#platform_plot_scatrans', spec);
             } catch (err) {
                console.error("An error occurred while building platform downloads plot: ", err)
             }
@@ -199,13 +211,19 @@ Check the documentation of your workflow management system to find out about the
    </script>
 
 
+Notes
+-----
+Optional backends \(scvelo\, pydeseq2\, gseapy\, memento\-de\, gtfparse\) are not
+bundled. Install via pip extras or separate conda packages as documented at
+https\:\/\/scatrans.readthedocs.io\/en\/latest\/installation.html
+
 
 Link to this page
 -----------------
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pysvg/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/scatrans/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/pysvg/README.html
+   :target: http://bioconda.github.io/recipes/scatrans/README.html

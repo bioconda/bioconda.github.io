@@ -34,10 +34,10 @@ bismark
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>0.25.1-0</code>,  <code>0.25.0-0</code>,  <code>0.24.2-0</code>,  <code>0.24.1-0</code>,  <code>0.24.0-1</code>,  <code>0.24.0-0</code>,  <code>0.23.1-0</code>,  <code>0.23.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.1.0-0</code>,  <code>3.0.0-0</code>,  <code>0.25.1-0</code>,  <code>0.25.0-0</code>,  <code>0.24.2-0</code>,  <code>0.24.1-0</code>,  <code>0.24.0-1</code>,  <code>0.24.0-0</code>,  <code>0.23.1-0</code>,  </span></summary>
       
 
-      ``3.0.0-0``,  ``0.25.1-0``,  ``0.25.0-0``,  ``0.24.2-0``,  ``0.24.1-0``,  ``0.24.0-1``,  ``0.24.0-0``,  ``0.23.1-0``,  ``0.23.0-1``,  ``0.23.0-0``,  ``0.22.3-0``,  ``0.22.2-0``,  ``0.22.1-0``,  ``0.22.0-0``,  ``0.21.0-0``,  ``0.20.0-0``,  ``0.19.1-0``,  ``0.19.0-1``,  ``0.19.0-0``,  ``0.18.1-0``,  ``0.17.0-0``
+      ``3.1.0-0``,  ``3.0.0-0``,  ``0.25.1-0``,  ``0.25.0-0``,  ``0.24.2-0``,  ``0.24.1-0``,  ``0.24.0-1``,  ``0.24.0-0``,  ``0.23.1-0``,  ``0.23.0-1``,  ``0.23.0-0``,  ``0.22.3-0``,  ``0.22.2-0``,  ``0.22.1-0``,  ``0.22.0-0``,  ``0.21.0-0``,  ``0.20.0-0``,  ``0.19.1-0``,  ``0.19.0-1``,  ``0.19.0-0``,  ``0.18.1-0``,  ``0.17.0-0``
 
       
       .. raw:: html
@@ -46,9 +46,10 @@ bismark
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bowtie2: ``>=2.5.5``
    :depends on hisat2: 
+   :depends on libgcc: ``>=14``
    :depends on minimap2: 
 
    :additional platforms:
@@ -128,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bismark";
-      var versions = ["3.0.0","0.25.1","0.25.0","0.24.2","0.24.1"];
+      var versions = ["3.1.0","3.0.0","0.25.1","0.25.0","0.24.2"];
    </script>
 
 .. rubric:: Download stats

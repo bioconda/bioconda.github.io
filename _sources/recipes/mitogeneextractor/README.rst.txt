@@ -1,38 +1,49 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'pyx'
+.. title:: Package Recipe 'mitogeneextractor'
 .. highlight: bash
 
-pyx
-===
+mitogeneextractor
+=================
 
-.. conda:recipe:: pyx
+.. conda:recipe:: mitogeneextractor
    :replaces_section_title:
    :noindex:
 
-   Python package for the generation of PostScript\, PDF\, and SVG files
+   Extract mitochondrial \(and other\) protein\-coding genes from NGS libraries via Exonerate alignments.
 
-   :homepage: http://pyx.sourceforge.net/
-   :license: GNU General Public License (GPL)
-   :recipe: /`pyx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyx>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyx/meta.yaml>`_
-
+   :homepage: https://github.com/cmayer/MitoGeneExtractor
+   :documentation: https://github.com/cmayer/MitoGeneExtractor/blob/main/README.md
    
+   :license: AGPL / AGPL-3.0-only
+   :recipe: /`mitogeneextractor <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mitogeneextractor>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mitogeneextractor/meta.yaml>`_
+
+   MitoGeneExtractor conveniently extracts mitochondrial protein\-coding genes
+   from next\-generation sequencing libraries. It aligns nucleotide reads\,
+   assemblies or genomes against one or more amino\-acid reference sequences
+   using Exonerate and builds a consensus for each reference. Typical uses
+   include recovering barcode\/COI and other mitochondrial or plastid
+   protein\-coding genes and screening libraries for contamination.
 
 
-.. conda:package:: pyx
 
-   |downloads_pyx| |docker_pyx|
+.. conda:package:: mitogeneextractor
+
+   |downloads_mitogeneextractor| |docker_mitogeneextractor|
 
    :versions:
       
       
 
-      ``0.14.1-1``,  ``0.14.1-0``,  ``0.12.1-1``,  ``0.12.1-0``
+      ``1.9.6-0``
 
       
 
    
-   :depends on python: ``>=3.6,<3.7.0a0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on exonerate: ``2.4.0.*``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
       
@@ -52,11 +63,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install pyx
+    pixi global install mitogeneextractor
 
 to add into an existing workspace instead, run::
 
-    pixi add pyx
+    pixi add mitogeneextractor
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -68,11 +79,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install pyx
+    conda install mitogeneextractor
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname pyx
+    conda create -n envname mitogeneextractor
 
 with ``envname`` being the name of the desired environment.
 
@@ -82,9 +93,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/pyx:<tag>
+    docker pull quay.io/biocontainers/mitogeneextractor:<tag>
 
-(see `pyx/tags`_ for valid values for ``<tag>``).
+(see `mitogeneextractor/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -95,28 +106,28 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_pyx| image:: https://img.shields.io/conda/dn/bioconda/pyx.svg?style=flat
-   :target: https://anaconda.org/bioconda/pyx
+.. |downloads_mitogeneextractor| image:: https://img.shields.io/conda/dn/bioconda/mitogeneextractor.svg?style=flat
+   :target: https://anaconda.org/bioconda/mitogeneextractor
    :alt:   (downloads)
-.. |docker_pyx| image:: https://quay.io/repository/biocontainers/pyx/status
-   :target: https://quay.io/repository/biocontainers/pyx
-.. _`pyx/tags`: https://quay.io/repository/biocontainers/pyx?tab=tags
+.. |docker_mitogeneextractor| image:: https://quay.io/repository/biocontainers/mitogeneextractor/status
+   :target: https://quay.io/repository/biocontainers/mitogeneextractor
+.. _`mitogeneextractor/tags`: https://quay.io/repository/biocontainers/mitogeneextractor?tab=tags
 
 
 .. raw:: html
 
    <script>
-      var package = "pyx";
-      var versions = ["0.14.1","0.14.1","0.12.1","0.12.1"];
+      var package = "mitogeneextractor";
+      var versions = ["1.9.6"];
    </script>
 
 .. rubric:: Download stats
 
 .. raw:: html
     
-   <div style="width: 100%" id="download_plot_pyx"></div>
-   <div style="width: 100%" id="platform_plot_pyx"></div>
-   <div style="width: 100%" id="cdf_plot_pyx"></div>
+   <div style="width: 100%" id="download_plot_mitogeneextractor"></div>
+   <div style="width: 100%" id="platform_plot_mitogeneextractor"></div>
+   <div style="width: 100%" id="cdf_plot_mitogeneextractor"></div>
 
 
 
@@ -132,7 +143,7 @@ Check the documentation of your workflow management system to find out about the
    <script>
       window.onload = async function() {
          
-            // Build cdf plot for pyx
+            // Build cdf plot for mitogeneextractor
             try {
                const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
                if (!cdf_spec_resp.ok) {
@@ -144,7 +155,7 @@ Check the documentation of your workflow management system to find out about the
                    throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
                }
                const cdf_plot_data = await cdf_data_resp.json();
-               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/pyx/cdf.json`)
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/mitogeneextractor/cdf.json`)
                if (!point_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
                }
@@ -152,43 +163,43 @@ Check the documentation of your workflow management system to find out about the
     
                cdf_spec.data.values = cdf_plot_data;
                cdf_spec.data.values.push(single_point.pop());
-               vegaEmbed('#cdf_plot_pyx', cdf_spec);
+               vegaEmbed('#cdf_plot_mitogeneextractor', cdf_spec);
             } catch (err) {
                console.error("An error occurred while building CDF plot: ", err)
             }
     
-            // Build download plot for pyx
+            // Build download plot for mitogeneextractor
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/pyx/versions.json`)
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/mitogeneextractor/versions.json`)
                if (!version_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
                }
                const plot_data = await version_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#download_plot_pyx', spec);
+               vegaEmbed('#download_plot_mitogeneextractor', spec);
             } catch (err) {
                console.error("An error occurred while building downloads plot: ", err)
             }
    
-            // Build platform download plot for pyx
+            // Build platform download plot for mitogeneextractor
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/pyx/platforms.json`)
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/mitogeneextractor/platforms.json`)
                if (!platform_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
                }
                const plot_data = await platform_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#platform_plot_pyx', spec);
+               vegaEmbed('#platform_plot_mitogeneextractor', spec);
             } catch (err) {
                console.error("An error occurred while building platform downloads plot: ", err)
             }
@@ -203,7 +214,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/pyx/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/mitogeneextractor/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/pyx/README.html
+   :target: http://bioconda.github.io/recipes/mitogeneextractor/README.html
