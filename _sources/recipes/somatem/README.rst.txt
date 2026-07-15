@@ -29,7 +29,7 @@ somatem
       
       
 
-      ``0.8.0-0``,  ``0.7.1-1``,  ``0.7.1-0``
+      ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-1``,  ``0.7.1-0``
 
       
 
@@ -112,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "somatem";
-      var versions = ["0.8.0","0.7.1","0.7.1"];
+      var versions = ["0.8.1","0.8.0","0.7.1","0.7.1"];
    </script>
 
 .. rubric:: Download stats
@@ -205,7 +205,7 @@ Check the documentation of your workflow management system to find out about the
 Notes
 -----
 Somatem installs a wrapper command that launches bundled Nextflow workflows from
-\$PREFIX\/share\/somatem\-0.8.0. Use \`somatem \-\-help\` to see supported
+\$PREFIX\/share\/somatem\-0.8.1. Use \`somatem \-\-help\` to see supported
 workflow shortcuts and common arguments.
 
 

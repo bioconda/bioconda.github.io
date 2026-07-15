@@ -30,22 +30,23 @@ eviann
       
       
 
-      ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-4``,  ``2.0.3-3``,  ``2.0.3-2``,  ``2.0.3-1``,  ``2.0.3-0``
+      ``2.0.5-2``,  ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-4``,  ``2.0.3-3``,  ``2.0.3-2``,  ``2.0.3-1``,  ``2.0.3-0``
 
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on blast: 
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on hisat2: 
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on minimap2: 
-   :depends on miniprot: 
+   :depends on miniprot: ``>=0.13``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends on samtools: 
-   :depends on stringtie: 
+   :depends on samtools: ``>=1.15.1``
+   :depends on stringtie: ``>=3.0.0``
    :depends on wget: 
 
    :additional platforms:
@@ -125,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "eviann";
-      var versions = ["2.0.5","2.0.5","2.0.4","2.0.3","2.0.3"];
+      var versions = ["2.0.5","2.0.5","2.0.5","2.0.4","2.0.3"];
    </script>
 
 .. rubric:: Download stats

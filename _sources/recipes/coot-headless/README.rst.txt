@@ -47,24 +47,23 @@ coot-headless
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on __osx: ``>=10.15``
    :depends on acedrg: 
    :depends on cairo: ``>=1.18.4,<2.0a0``
    :depends on clipper: ``>=2.1.20180802,<3.0a0``
-   :depends on elfutils: ``>=0.194,<0.195.0a0``
    :depends on fontconfig: ``>=2.17.1,<3.0a0``
    :depends on fonts-conda-ecosystem: 
    :depends on gemmi: ``>=0.7.4,<0.7.5.0a0``
    :depends on gsl: ``>=2.7,<2.8.0a0``
    :depends on libboost: ``>=1.88.0,<1.89.0a0``
    :depends on libccp4: ``>=8.0.0,<9.0a0``
+   :depends on libcxx: ``>=19``
    :depends on libffi: ``>=3.5.2,<3.6.0a0``
    :depends on libfreetype: ``>=2.14.3``
    :depends on libfreetype6: ``>=2.14.3``
-   :depends on libgcc: ``>=14``
+   :depends on libintl: ``>=0.25.1,<1.0a0``
    :depends on libpng: ``>=1.6.58,<1.7.0a0``
    :depends on libsqlite: ``>=3.53.1,<4.0a0``
-   :depends on libstdcxx: ``>=14``
    :depends on libxml2: 
    :depends on libxml2-16: ``>=2.15.3``
    :depends on libzlib: ``>=1.3.2,<2.0a0``

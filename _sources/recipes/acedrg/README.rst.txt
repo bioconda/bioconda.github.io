@@ -32,15 +32,14 @@ acedrg
       
       
 
-      ``330-2``,  ``330-1``,  ``330-0``
+      ``331-0``,  ``330-2``,  ``330-1``,  ``330-0``
 
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on __osx: ``>=10.13``
    :depends on gemmi: 
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on networkx: 
    :depends on numpy: 
    :depends on pdbecif: 
@@ -126,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "acedrg";
-      var versions = ["330","330","330"];
+      var versions = ["331","330","330","330"];
    </script>
 
 .. rubric:: Download stats

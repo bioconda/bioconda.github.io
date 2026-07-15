@@ -12,7 +12,8 @@ derip2
 
    Predict ancestral sequence of fungal repeat elements by correcting for RIP\-like mutations in multi\-sequence DNA alignments.
 
-   :homepage: https://github.com/Adamtaranto/deRIP2
+   :homepage: https://adamtaranto.github.io/deRIP2/
+   :developer docs: https://github.com/Adamtaranto/deRIP2
    :license: GPL-3.0-or-later
    :recipe: /`derip2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/derip2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/derip2/meta.yaml>`_
 
@@ -27,13 +28,14 @@ derip2
       
       
 
-      ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``
+      ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``
 
       
 
    
    :depends on biopython: ``>1.80``
    :depends on click: 
+   :depends on ete4: 
    :depends on matplotlib-base: 
    :depends on numpy: 
    :depends on pandas: 
@@ -113,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "derip2";
-      var versions = ["0.4.2","0.4.1","0.4.0"];
+      var versions = ["0.5.0","0.4.2","0.4.1","0.4.0"];
    </script>
 
 .. rubric:: Download stats
