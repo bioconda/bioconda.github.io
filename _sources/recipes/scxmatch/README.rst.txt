@@ -27,14 +27,14 @@ scxmatch
       
       
 
-      ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``1.0.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
 
    
    :depends on anndata: ``>=0.10.9``
    :depends on graph-tool: ``>=2.92,<3``
-   :depends on python: ``>=3.9``
+   :depends on python: ``>=3.10``
    :depends on scanpy: ``>=1.10.3,<2``
    :depends on scipy: ``>=1.13.1,<2``
 
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "scxmatch";
-      var versions = ["0.2.0","0.1.1","0.1.0","0.0.3","0.0.2"];
+      var versions = ["1.0.1","0.2.0","0.1.1","0.1.0","0.0.3"];
    </script>
 
 .. rubric:: Download stats

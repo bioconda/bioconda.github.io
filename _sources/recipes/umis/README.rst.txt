@@ -43,6 +43,7 @@ umis
 
    
    :depends on click: 
+   :depends on libgcc: ``>=13``
    :depends on pandas: 
    :depends on pysam: ``>=0.8.3``
    :depends on python: ``>=3.10,<3.11.0a0``

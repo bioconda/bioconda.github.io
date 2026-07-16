@@ -43,6 +43,7 @@ megalodon
 
    
    :depends on h5py: ``>=2.2.1``
+   :depends on libgcc: ``>=13``
    :depends on mappy: ``>=2.16``
    :depends on numpy: ``>=1.19,<3``
    :depends on numpy: ``>=1.9.0,2``

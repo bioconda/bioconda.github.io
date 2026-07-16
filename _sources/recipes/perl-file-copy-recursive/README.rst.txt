@@ -40,6 +40,7 @@ perl-file-copy-recursive
       
 
    
+   :depends on libgcc: ``>=13``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-test-fatal: ``0.016.*``
    :depends on perl-test-warnings: ``0.031.*``

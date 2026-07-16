@@ -43,6 +43,7 @@ ultraplex
 
    
    :depends on dnaio: ``>=0.5.0``
+   :depends on libgcc: ``>=13``
    :depends on multiprocess: 
    :depends on pigz: 
    :depends on python: ``>=3.9,<3.10.0a0``

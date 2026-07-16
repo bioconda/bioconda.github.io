@@ -31,12 +31,13 @@ staphscope
       
       
 
-      ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``
+      ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``
 
       
 
    
    :depends on abricate: ``>=1.2.0``
+   :depends on agrvate: ``>=1.0.1``
    :depends on any2fasta: 
    :depends on beautifulsoup4: ``>=4.11.0``
    :depends on biopython: ``>=1.80``
@@ -56,11 +57,11 @@ staphscope
    :depends on perl-path-tiny: 
    :depends on plotly: ``>=5.10.0``
    :depends on psutil: ``>=5.9.0``
-   :depends on python: ``>=3.8,<3.13``
+   :depends on python: ``>=3.8``
    :depends on requests: ``>=2.28.0``
    :depends on scipy: ``>=1.10.1``
-   :depends on seaborn-base: ``>=0.12.0``
-   :depends on staphscope-sccmec-data: ``1.2.3``
+   :depends on seaborn: ``>=0.12.0``
+   :depends on staphscope-sccmec-data: ``1.3.0``
    :depends on tqdm: ``>=4.64.0``
 
    :additional platforms:
@@ -136,7 +137,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "staphscope";
-      var versions = ["1.2.3","1.2.2","1.2.1","1.2.1","1.2.0"];
+      var versions = ["1.3.0","1.2.3","1.2.2","1.2.1","1.2.1"];
    </script>
 
 .. rubric:: Download stats

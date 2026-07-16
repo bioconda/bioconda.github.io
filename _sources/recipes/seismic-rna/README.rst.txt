@@ -49,6 +49,7 @@ seismic-rna
    :depends on fastqsplitter: ``>=1.2``
    :depends on jgo: ``>=1.0``
    :depends on jinja2: ``>=3.0``
+   :depends on libgcc: ``>=13``
    :depends on maven: ``>=3.3.9``
    :depends on networkx: ``>=3.4``
    :depends on numba: ``>=0.61``

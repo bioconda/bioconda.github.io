@@ -42,10 +42,11 @@ galah
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on barrnap: ``>=0.9``
    :depends on checkm2: ``>=1.1.0``
    :depends on fastani: ``>=1.34``
+   :depends on libgcc: ``>=14``
    :depends on skani: ``>=0.2.2``
    :depends on trnascan-se: ``>=2.0.12``
 
