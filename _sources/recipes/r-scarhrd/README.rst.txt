@@ -28,12 +28,12 @@ r-scarhrd
       
       
 
-      ``0.1.1-0``
+      ``0.1.1-1``,  ``0.1.1-0``
 
       
 
    
-   :depends on r-base: ``>=4.2,<4.3.0a0``
+   :depends on r-base: ``>=3.5,<3.6.0a0``
    :depends on r-data.table: ``>=1.10``
    :depends on r-sequenza: ``>=2.1.2``
 
@@ -110,7 +110,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-scarhrd";
-      var versions = ["0.1.1"];
+      var versions = ["0.1.1","0.1.1"];
    </script>
 
 .. rubric:: Download stats

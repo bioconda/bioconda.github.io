@@ -37,8 +37,7 @@ pybdei
 
    
    :depends on ete3: ``>=3.1.3``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on nlopt: ``>=2.8.0,<2.9.0a0``
    :depends on numpy: ``>=1.21,<3``
    :depends on numpy: ``>=1.24.0``

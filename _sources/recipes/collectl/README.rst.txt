@@ -29,7 +29,7 @@ collectl
       
       
 
-      ``4.3.20.2-0``,  ``4.3.20.1-0``,  ``4.0.4-3``,  ``4.0.4-2``,  ``4.0.4-1``,  ``4.0.4-0``
+      ``4.3.20.3-0``,  ``4.3.20.2-0``,  ``4.3.20.1-0``,  ``4.0.4-3``,  ``4.0.4-2``,  ``4.0.4-1``,  ``4.0.4-0``
 
       
 
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "collectl";
-      var versions = ["4.3.20.2","4.3.20.1","4.0.4","4.0.4","4.0.4"];
+      var versions = ["4.3.20.3","4.3.20.2","4.3.20.1","4.0.4","4.0.4"];
    </script>
 
 .. rubric:: Download stats

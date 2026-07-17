@@ -18,7 +18,8 @@ dotmatch
    :license: Apache-2.0
    :recipe: /`dotmatch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dotmatch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dotmatch/meta.yaml>`_
 
-   DotMatch is a deterministic known\-target short\-DNA assignment engine for
+   The distribution installs AssayCode\, the assay\-level platform identity\, and
+   DotMatch\, its deterministic known\-target short\-DNA assignment engine for
    CRISPR guides\, barcodes\, primers\, panels\, and whitelist\-style target sets.
    It is not a genome aligner and does not emit SAM\/BAM or CIGAR output.
 
@@ -32,7 +33,7 @@ dotmatch
       
       
 
-      ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
+      ``0.2.0-0``,  ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
 
@@ -40,8 +41,8 @@ dotmatch
    :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libgcc: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
-   :depends on python: ``>=3.10,<3.11.0a0``
-   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on python: ``>=3.14,<3.15.0a0``
+   :depends on python_abi: ``3.14.* *_cp314``
    :depends on tomli: 
 
    :additional platforms:
@@ -121,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "dotmatch";
-      var versions = ["0.1.9","0.1.9","0.1.8","0.1.7","0.1.4"];
+      var versions = ["0.2.0","0.1.9","0.1.9","0.1.8","0.1.7"];
    </script>
 
 .. rubric:: Download stats

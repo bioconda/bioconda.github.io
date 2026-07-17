@@ -31,7 +31,7 @@ caddsv
       
       
 
-      ``2.0.1-0``,  ``2.0-0``
+      ``2.0.2-0``,  ``2.0.1-0``,  ``2.0-0``
 
       
 
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "caddsv";
-      var versions = ["2.0.1","2.0"];
+      var versions = ["2.0.2","2.0.1","2.0"];
    </script>
 
 .. rubric:: Download stats

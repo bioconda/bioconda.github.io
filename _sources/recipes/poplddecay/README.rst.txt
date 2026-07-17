@@ -13,7 +13,7 @@ poplddecay
    PopLDdecay\: a fast and effective tool for linkage disequilibrium decay analysis based on variant call format \(VCF\) files.
 
    :homepage: https://github.com/BGI-shenzhen/PopLDdecay
-   :documentation: https://github.com/BGI-shenzhen/PopLDdecay/blob/v3.43/README.md
+   :documentation: https://github.com/BGI-shenzhen/PopLDdecay/blob/v3.45/README.md
    
    :license: MIT / MIT
    :recipe: /`poplddecay <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/poplddecay>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/poplddecay/meta.yaml>`_
@@ -30,14 +30,14 @@ poplddecay
       
       
 
-      ``3.43-2``,  ``3.43-1``,  ``3.43-0``
+      ``3.45-0``,  ``3.43-2``,  ``3.43-1``,  ``3.43-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on __osx: ``>=10.13``
+   :depends on libcxx: ``>=19``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
       
@@ -116,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "poplddecay";
-      var versions = ["3.43","3.43","3.43"];
+      var versions = ["3.45","3.43","3.43","3.43"];
    </script>
 
 .. rubric:: Download stats

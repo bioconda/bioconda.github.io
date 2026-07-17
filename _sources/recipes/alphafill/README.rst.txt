@@ -43,8 +43,7 @@ alphafill
    :depends on howardhinnant_date: ``>=3.0.4,<3.1.0a0``
    :depends on libboost: ``>=1.88.0,<1.89.0a0``
    :depends on libcifpp: ``>=9.0.4,<10.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=18``
    :depends on libzeep: ``>=7.3.1,<8.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on mxml: ``>=2.0.4,<2.0.5.0a0``

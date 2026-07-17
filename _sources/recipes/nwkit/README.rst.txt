@@ -13,7 +13,7 @@ nwkit
    Tools for processing newick trees
 
    :homepage: https://github.com/kfuku52/nwkit
-   :license: BSD-3-Clause
+   :license: MIT
    :recipe: /`nwkit <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nwkit>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nwkit/meta.yaml>`_
 
    
@@ -27,17 +27,19 @@ nwkit
       
       
 
-      ``0.21.1-0``,  ``0.19.2-0``,  ``0.18.2-1``,  ``0.18.2-0``,  ``0.18.1-0``,  ``0.18.0-0``,  ``0.17.2-0``
+      ``0.27.0-0``,  ``0.21.1-0``,  ``0.19.2-0``,  ``0.18.2-1``,  ``0.18.2-0``,  ``0.18.1-0``,  ``0.18.0-0``,  ``0.17.2-0``
 
       
 
    
    :depends on biopython: 
-   :depends on ete4: ``>=4.3.0``
+   :depends on ete4: ``>=4.4.0``
+   :depends on matplotlib-base: 
    :depends on numpy: 
    :depends on pandas: 
-   :depends on python: ``>=3.9``
+   :depends on python: ``>=3.10``
    :depends on requests: 
+   :depends on scipy: 
 
    :additional platforms:
       
@@ -112,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "nwkit";
-      var versions = ["0.21.1","0.19.2","0.18.2","0.18.2","0.18.1"];
+      var versions = ["0.27.0","0.21.1","0.19.2","0.18.2","0.18.2"];
    </script>
 
 .. rubric:: Download stats

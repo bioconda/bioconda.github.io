@@ -35,13 +35,12 @@ rneat
       
       
 
-      ``1.20.0-0``,  ``1.19.0-0``,  ``1.18.0-0``,  ``1.17.4-0``
+      ``1.20.1-0``,  ``1.20.0-0``,  ``1.19.0-0``,  ``1.18.0-0``,  ``1.17.4-0``
 
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
-   :depends on libgcc: ``>=14``
+   :depends on __osx: ``>=10.13``
 
    :additional platforms:
       
@@ -116,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "rneat";
-      var versions = ["1.20.0","1.19.0","1.18.0","1.17.4"];
+      var versions = ["1.20.1","1.20.0","1.19.0","1.18.0","1.17.4"];
    </script>
 
 .. rubric:: Download stats

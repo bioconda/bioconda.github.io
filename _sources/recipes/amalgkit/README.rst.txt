@@ -27,24 +27,24 @@ amalgkit
       
       
 
-      ``0.16.25-0``,  ``0.14.0-0``,  ``0.12.20-0``,  ``0.12.19-0``,  ``0.12.18-0``,  ``0.12.17-0``,  ``0.12.16-0``,  ``0.12.15-0``
+      ``0.16.31-0``,  ``0.16.25-0``,  ``0.14.0-0``,  ``0.12.20-0``,  ``0.12.19-0``,  ``0.12.18-0``,  ``0.12.17-0``,  ``0.12.16-0``,  ``0.12.15-0``
 
       
 
    
-   :depends on biopython: 
-   :depends on ete4: 
+   :depends on biopython: ``>=1.81``
+   :depends on defusedxml: ``>=0.7.1``
    :depends on fastp: 
    :depends on kallisto: 
-   :depends on matplotlib-base: 
-   :depends on numpy: 
-   :depends on pandas: 
-   :depends on python: ``>=3.9``
-   :depends on scikit-learn: 
-   :depends on scipy: 
+   :depends on matplotlib-base: ``>=3.7.5``
+   :depends on numpy: ``>=1.24.4``
+   :depends on pandas: ``>=2.0.3``
+   :depends on python: ``>=3.11``
+   :depends on scikit-learn: ``>=1.3.2``
+   :depends on scipy: ``>=1.10.1``
    :depends on seqkit: 
    :depends on sra-tools: ``>=3``
-   :depends on statsmodels: 
+   :depends on statsmodels: ``>=0.14``
 
    :additional platforms:
       
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "amalgkit";
-      var versions = ["0.16.25","0.14.0","0.12.20","0.12.19","0.12.18"];
+      var versions = ["0.16.31","0.16.25","0.14.0","0.12.20","0.12.19"];
    </script>
 
 .. rubric:: Download stats
