@@ -44,17 +44,17 @@ poppunk
       
 
    
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on biopython: 
    :depends on dendropy: ``>=4.4.0``
    :depends on graph-tool: ``>=2.35``
    :depends on h5py: 
    :depends on hdbscan: 
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
    :depends on libgfortran: 
    :depends on libgfortran5: ``>=13.4.0``
+   :depends on libstdcxx: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on llvm-openmp: ``>=18.1.8``
-   :depends on llvm-openmp: ``>=21.1.8``
    :depends on mandrake: 
    :depends on matplotlib-base: 
    :depends on networkx: 

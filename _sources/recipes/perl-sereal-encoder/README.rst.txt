@@ -40,6 +40,7 @@ perl-sereal-encoder
       
 
    
+   :depends on libgcc: ``>=13``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-devel-checklib: ``>=1.16,<2.0a0``
    :depends on perl-extutils-parsexs: ``>=3.58,<4.0a0``

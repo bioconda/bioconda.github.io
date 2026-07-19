@@ -37,10 +37,11 @@ rsat-core
    :depends on d3: 
    :depends on ghostscript: 
    :depends on httplib2: 
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
    :depends on libgfortran: 
    :depends on libgfortran5: ``>=13.4.0``
    :depends on libpq: 
+   :depends on libstdcxx: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on matplotlib-base: 
    :depends on numpy: 

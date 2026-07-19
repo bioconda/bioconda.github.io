@@ -43,7 +43,8 @@ anchorwave
 
    
    :depends on gmap: 
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on minimap2: 
 
    :additional platforms:

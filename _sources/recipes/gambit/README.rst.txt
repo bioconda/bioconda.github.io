@@ -40,13 +40,13 @@ gambit
       
 
    
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on attrs: ``>=20``
    :depends on biopython: ``>=1.79``
    :depends on cattrs: ``>=23.2``
    :depends on click: ``>=7.0,<8.2.0``
    :depends on h5py: ``>=3.0``
-   :depends on llvm-openmp: ``>=19.1.7``
-   :depends on llvm-openmp: ``>=21.1.8``
+   :depends on libgcc: ``>=14``
    :depends on numpy: ``>=1.13,<2``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``

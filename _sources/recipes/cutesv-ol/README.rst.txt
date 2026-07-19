@@ -34,6 +34,7 @@ cutesv-ol
    
    :depends on biopython: 
    :depends on cigar: 
+   :depends on libgcc: ``>=13``
    :depends on minimap2: 
    :depends on numpy: ``>=1.24.4,<2.0``
    :depends on pysam: ``>=0.23.3,<0.24.0a0``

@@ -28,7 +28,7 @@ derip2
       
       
 
-      ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``
+      ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``
 
       
 
@@ -36,6 +36,7 @@ derip2
    :depends on biopython: ``>1.80``
    :depends on click: 
    :depends on ete4: 
+   :depends on iqtree: 
    :depends on matplotlib-base: 
    :depends on numpy: 
    :depends on pandas: 
@@ -115,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "derip2";
-      var versions = ["0.5.0","0.4.2","0.4.1","0.4.0"];
+      var versions = ["0.5.1","0.5.0","0.4.2","0.4.1","0.4.0"];
    </script>
 
 .. rubric:: Download stats

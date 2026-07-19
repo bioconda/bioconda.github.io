@@ -33,6 +33,7 @@ slow5curl
 
    
    :depends on curl: 
+   :depends on libgcc: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on zlib: 
 

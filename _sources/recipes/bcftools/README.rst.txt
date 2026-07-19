@@ -41,9 +41,10 @@ bcftools
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on gsl: ``>=2.7,<2.8.0a0``
    :depends on htslib: ``>=1.24,<1.25.0a0``
+   :depends on libgcc: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on perl: 
 

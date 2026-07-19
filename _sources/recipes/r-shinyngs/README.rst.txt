@@ -28,10 +28,10 @@ r-shinyngs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.2.4-1</code>,  <code>2.2.4-0</code>,  <code>2.2.3-0</code>,  <code>2.2.2-0</code>,  <code>2.2.0-0</code>,  <code>2.1.0-0</code>,  <code>2.0.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.2-0</code>,  <code>3.0.1-0</code>,  <code>2.4.0-0</code>,  <code>2.3.0-0</code>,  <code>2.2.4-1</code>,  <code>2.2.4-0</code>,  <code>2.2.3-0</code>,  <code>2.2.2-0</code>,  <code>2.2.0-0</code>,  </span></summary>
       
 
-      ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.8.8-0``,  ``1.8.7-0``,  ``1.8.6-0``,  ``1.8.5-0``,  ``1.8.4-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.2-2``,  ``1.7.2-1``,  ``1.7.2-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.9-0``,  ``1.5.8-0``,  ``1.5.6-1``,  ``1.5.6-0``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.2-3``,  ``1.4.2-2``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``3.0.2-0``,  ``3.0.1-0``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.4-1``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.8.8-0``,  ``1.8.7-0``,  ``1.8.6-0``,  ``1.8.5-0``,  ``1.8.4-0``,  ``1.8.3-0``,  ``1.8.2-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.2-2``,  ``1.7.2-1``,  ``1.7.2-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.6.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.5.9-0``,  ``1.5.8-0``,  ``1.5.6-1``,  ``1.5.6-0``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.2-3``,  ``1.4.2-2``,  ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,40 +40,32 @@ r-shinyngs
       
 
    
-   :depends on bioconductor-gseabase: 
    :depends on bioconductor-limma: 
    :depends on bioconductor-summarizedexperiment: 
-   :depends on pandoc: 
    :depends on r-base: ``>=4.5,<4.6.0a0``
-   :depends on r-base64enc: 
    :depends on r-biocmanager: 
+   :depends on r-bslib: ``>=0.9.0``
    :depends on r-cluster: 
-   :depends on r-cpp11: 
    :depends on r-data.table: 
-   :depends on r-dendextend: ``>=0.18.0``
    :depends on r-dplyr: 
    :depends on r-dt: ``>=0.2``
    :depends on r-ggdendro: 
    :depends on r-ggplot2: 
+   :depends on r-heatmaply: 
+   :depends on r-htmltools: 
    :depends on r-htmlwidgets: 
    :depends on r-markdown: 
+   :depends on r-matrixstats: 
    :depends on r-optparse: 
-   :depends on r-pheatmap: 
-   :depends on r-plotly: ``>=4.3.4``
-   :depends on r-plyr: 
-   :depends on r-png: 
+   :depends on r-plotly: ``>=4.8.0``
    :depends on r-rcolorbrewer: 
    :depends on r-reformulas: 
-   :depends on r-reshape2: 
-   :depends on r-rmarkdown: 
    :depends on r-rsconnect: 
-   :depends on r-scales: ``>=0.2.5``
    :depends on r-scatterplot3d: 
-   :depends on r-shiny: 
-   :depends on r-shinybs: 
+   :depends on r-shiny: ``>=1.7.0``
+   :depends on r-shinycssloaders: 
    :depends on r-shinyjs: 
-   :depends on r-shinythemes: 
-   :depends on r-stringi: ``>=1.7.12``
+   :depends on r-viridislite: 
    :depends on r-yaml: 
 
    :additional platforms:
@@ -149,7 +141,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-shinyngs";
-      var versions = ["2.4.0","2.3.0","2.2.4","2.2.4","2.2.3"];
+      var versions = ["3.0.2","3.0.1","2.4.0","2.3.0","2.2.4"];
    </script>
 
 .. rubric:: Download stats

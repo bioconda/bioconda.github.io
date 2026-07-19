@@ -32,7 +32,7 @@ igua
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on anndata: ``>=0.8,<0.13``
    :depends on biopython: ``>=1.79,<2.0``
    :depends on gb-io: ``>=0.3.0,<0.5.0``
