@@ -30,10 +30,10 @@ paragone
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.5-0</code>,  <code>1.1.3-2</code>,  <code>1.1.3-1</code>,  <code>1.1.3-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.5-1</code>,  <code>1.1.5-0</code>,  <code>1.1.3-2</code>,  <code>1.1.3-1</code>,  <code>1.1.3-0</code>,  <code>1.1.2-0</code>,  <code>1.1.1-1</code>,  <code>1.1.1-0</code>,  <code>1.1.0-1</code>,  </span></summary>
       
 
-      ``1.1.5-0``,  ``1.1.3-2``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.1.5-1``,  ``1.1.5-0``,  ``1.1.3-2``,  ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -50,7 +50,6 @@ paragone
    :depends on iqtree: ``>=2.2.0.3``
    :depends on julia: ``1.8.5.*``
    :depends on legacy-cgi: 
-   :depends on libgomp: 
    :depends on mafft: ``>=7.245``
    :depends on python: ``>=3.6``
    :depends on r-base: ``>=4.0.3``
@@ -130,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "paragone";
-      var versions = ["1.1.5","1.1.3","1.1.3","1.1.3","1.1.2"];
+      var versions = ["1.1.5","1.1.5","1.1.3","1.1.3","1.1.3"];
    </script>
 
 .. rubric:: Download stats

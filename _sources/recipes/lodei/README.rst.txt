@@ -27,12 +27,13 @@ lodei
       
       
 
-      ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends on matplotlib-base: 
+   :depends on numpy: ``<=2.3.5``
    :depends on pandas: 
    :depends on pysamstats: 
    :depends on python: ``>=3.10,<3.11``
@@ -111,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "lodei";
-      var versions = ["1.1.2","1.1.1","1.1.0","1.0.0"];
+      var versions = ["1.1.3","1.1.2","1.1.1","1.1.0","1.0.0"];
    </script>
 
 .. rubric:: Download stats

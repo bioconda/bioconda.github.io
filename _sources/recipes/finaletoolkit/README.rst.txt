@@ -29,7 +29,7 @@ finaletoolkit
       
       
 
-      ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.7-0``
+      ``1.0.0-0``,  ``0.11.1-0``,  ``0.11.0-0``,  ``0.10.7-0``
 
       
 
@@ -41,7 +41,8 @@ finaletoolkit
    :depends on py2bit: 
    :depends on pybigwig: 
    :depends on pysam: 
-   :depends on python: ``>=3.9,<3.13``
+   :depends on python: ``>=3.10,<3.13``
+   :depends on rich-click: ``>=1.8``
    :depends on scipy: 
    :depends on statsmodels: 
    :depends on tqdm: 
@@ -119,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "finaletoolkit";
-      var versions = ["0.11.1","0.11.0","0.10.7"];
+      var versions = ["1.0.0","0.11.1","0.11.0","0.10.7"];
    </script>
 
 .. rubric:: Download stats

@@ -30,10 +30,10 @@ pybwa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>2.1.0-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.6.0-0</code>,  <code>1.5.2-0</code>,  <code>1.5.0-0</code>,  <code>1.4.8-0</code>,  <code>1.4.7-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.3.2-0</code>,  <code>2.2.0-0</code>,  <code>2.1.0-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.6.0-0</code>,  <code>1.5.2-0</code>,  <code>1.5.0-0</code>,  <code>1.4.8-0</code>,  </span></summary>
       
 
-      ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.6.0-0``,  ``1.5.2-0``,  ``1.5.0-0``,  ``1.4.8-0``,  ``1.4.7-1``,  ``1.4.7-0``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.0-0``,  ``1.3.4-0``
+      ``2.3.2-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.6.0-0``,  ``1.5.2-0``,  ``1.5.0-0``,  ``1.4.8-0``,  ``1.4.7-1``,  ``1.4.7-0``,  ``1.4.6-0``,  ``1.4.5-0``,  ``1.4.4-0``,  ``1.4.3-0``,  ``1.4.0-0``,  ``1.3.4-0``
 
       
       .. raw:: html
@@ -44,14 +44,14 @@ pybwa
    
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on fgpyo: ``>=0.7.0``
-   :depends on libcurl: ``>=8.14.1,<9.0a0``
-   :depends on libdeflate: ``>=1.22,<1.23.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on liblzma: ``>=5.8.1,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on openssl: ``>=3.5.3,<4.0a0``
+   :depends on libcurl: ``>=8.21.0,<9.0a0``
+   :depends on libdeflate: ``>=1.25,<1.26.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on openssl: ``>=3.5.7,<4.0a0``
    :depends on pysam: ``>=0.22.1``
-   :depends on pysam: ``>=0.23.3,<0.24.0a0``
+   :depends on pysam: ``>=0.24.0,<0.25.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on typing-extensions: ``>=3.7.4``
@@ -133,7 +133,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pybwa";
-      var versions = ["2.2.0","2.1.0","2.0.1","2.0.0","1.6.0"];
+      var versions = ["2.3.2","2.2.0","2.1.0","2.0.1","2.0.0"];
    </script>
 
 .. rubric:: Download stats

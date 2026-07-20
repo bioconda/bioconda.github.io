@@ -31,10 +31,10 @@ ms2pip
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.1.0-2</code>,  <code>4.1.0-1</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>4.0.0.dev8-0</code>,  <code>4.0.0.dev4-0</code>,  <code>3.11.0-2</code>,  <code>3.11.0-0</code>,  <code>3.10.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.2.0-0</code>,  <code>4.1.2-0</code>,  <code>4.1.0-2</code>,  <code>4.1.0-1</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>4.0.0.dev8-0</code>,  <code>4.0.0.dev4-0</code>,  <code>3.11.0-2</code>,  </span></summary>
       
 
-      ``4.1.0-2``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.0-0``,  ``4.0.0.dev8-0``,  ``4.0.0.dev4-0``,  ``3.11.0-2``,  ``3.11.0-0``,  ``3.10.0-0``,  ``3.9.0-0``,  ``3.6.3-1``,  ``3.6.3-0``,  ``3.6.2-0``
+      ``4.2.0-0``,  ``4.1.2-0``,  ``4.1.0-2``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.0-0``,  ``4.0.0.dev8-0``,  ``4.0.0.dev4-0``,  ``3.11.0-2``,  ``3.11.0-0``,  ``3.10.0-0``,  ``3.9.0-0``,  ``3.6.3-1``,  ``3.6.3-0``,  ``3.6.2-0``
 
       
       .. raw:: html
@@ -43,30 +43,30 @@ ms2pip
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on click: ``>=7,<9``
-   :depends on libgcc: ``>=13``
-   :depends on lxml: ``>=4``
-   :depends on ms2rescore-rs: ``>=0.4,<2``
-   :depends on numpy: ``>=1.21,<3``
+   :depends on lxml: ``>=4,<7``
+   :depends on ms2rescore-rs: ``>=0.5,<2``
+   :depends on numpy: ``>=1.23,<3``
    :depends on numpy: ``>=1.25``
    :depends on pandas: ``>=1,<3``
-   :depends on psm-utils: ``>=1.0``
+   :depends on psm-utils: ``>=1.5,<4``
    :depends on pyarrow: 
-   :depends on pydantic: ``>=2``
+   :depends on pydantic: ``>=2,<3``
    :depends on pyteomics: ``>=3.5,<5``
-   :depends on python: ``>=3.10,<3.11.0a0``
-   :depends on python_abi: ``3.10.* *_cp310``
-   :depends on rich: ``>=13``
-   :depends on sqlalchemy: ``>=1.3,<2``
+   :depends on python: ``>=3.11,<3.12.0a0``
+   :depends on python_abi: ``3.11.* *_cp311``
+   :depends on rich: ``>=13,<16``
+   :depends on sqlalchemy: ``>=1.4,<3``
    :depends on tomlkit: ``>=0.5,<1``
-   :depends on werkzeug: ``>=2``
+   :depends on werkzeug: ``>=2,<4``
    :depends on xgboost: ``>=1.3,<3``
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
+         <span class="additional-platforms"><code>osx-arm64</code></span>
       
 
 
@@ -139,7 +139,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ms2pip";
-      var versions = ["4.1.0","4.1.0","4.1.0","4.0.0","4.0.0.dev8"];
+      var versions = ["4.2.0","4.1.2","4.1.0","4.1.0","4.1.0"];
    </script>
 
 .. rubric:: Download stats

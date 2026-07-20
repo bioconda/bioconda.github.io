@@ -35,10 +35,9 @@ meta-neuro
 
    
    :depends on dipy: 
-   :depends on libgcc: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on libitk: ``>=5.4.4,<5.5.0a0``
    :depends on libitk-devel: ``>=5.4.0,<5.5.0``
-   :depends on libstdcxx: ``>=13``
    :depends on libxml2: 
    :depends on libxml2-16: ``>=2.15.1``
    :depends on nibabel: 

@@ -28,9 +28,17 @@ snakesee
    :versions:
       
       
+      .. raw:: html
 
-      ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.4.1-0``,  ``0.2.1-0``,  ``0.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>0.9.0-0</code>,  <code>0.8.1-1</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.2-0</code>,  <code>0.6.1-0</code>,  <code>0.4.1-0</code>,  <code>0.2.1-0</code>,  </span></summary>
+      
 
+      ``0.9.0-0``,  ``0.8.1-1``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.4.1-0``,  ``0.2.1-0``,  ``0.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -116,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "snakesee";
-      var versions = ["0.8.1","0.8.1","0.8.0","0.7.0","0.6.2"];
+      var versions = ["0.9.0","0.8.1","0.8.1","0.8.0","0.7.0"];
    </script>
 
 .. rubric:: Download stats
