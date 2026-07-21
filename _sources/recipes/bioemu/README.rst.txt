@@ -28,19 +28,21 @@ bioemu
       
       
 
-      ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``
+      ``1.4.1-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``
 
       
 
    
    :depends on bio: ``>=1.5.9``
+   :depends on dm-haiku: ``>=0.0.12``
    :depends on dm-tree: 
    :depends on fire: ``>=0.7.0``
    :depends on huggingface_hub: 
    :depends on hydra-core: 
+   :depends on jax: ``>=0.4.35,<0.11``
    :depends on mdtraj: ``>=1.9.9``
-   :depends on modelcif: ``0.7``
-   :depends on python: ``>=3.10``
+   :depends on modelcif: ``>=0.7``
+   :depends on python: ``>=3.11``
    :depends on pytorch: ``>=2.6.0``
    :depends on stackprinter: 
    :depends on torch-geometric: ``>=2.6.1``
@@ -119,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioemu";
-      var versions = ["1.3.1","1.3.0","1.2.0","1.1.0"];
+      var versions = ["1.4.1","1.3.1","1.3.0","1.2.0","1.1.0"];
    </script>
 
 .. rubric:: Download stats

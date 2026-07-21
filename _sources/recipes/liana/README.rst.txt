@@ -30,10 +30,10 @@ liana
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.8.1-0</code>,  <code>1.8.0-0</code>,  <code>1.7.3-0</code>,  <code>1.7.1-0</code>,  <code>1.7.0-0</code>,  <code>1.6.1-0</code>,  <code>1.5.1-1</code>,  <code>1.5.1-0</code>,  <code>1.4.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8.1-1</code>,  <code>1.8.1-0</code>,  <code>1.8.0-0</code>,  <code>1.7.3-0</code>,  <code>1.7.1-0</code>,  <code>1.7.0-0</code>,  <code>1.6.1-0</code>,  <code>1.5.1-1</code>,  <code>1.5.1-0</code>,  </span></summary>
       
 
-      ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.3-0``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.1-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.4.0-1``,  ``1.4.0-0``
+      ``1.8.1-1``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.3-0``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.1-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.4.0-1``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -45,8 +45,8 @@ liana
    :depends on anndata: ``>=0.7.4``
    :depends on cell2cell: 
    :depends on corneto: 
-   :depends on cvxpy: ``>=1.6,<2``
-   :depends on decoupler-py: ``>=1.5.1``
+   :depends on cvxpy: ``>=1.6.1,<2``
+   :depends on decoupler-py: ``>=2.0.0``
    :depends on docrep: ``>=0.3.1``
    :depends on mofapy2: ``>=0.7.0``
    :depends on mofax: 
@@ -54,7 +54,7 @@ liana
    :depends on muon: 
    :depends on numba: ``>=0.60.0,<0.61.0``
    :depends on omnipath: ``>=1.0.6``
-   :depends on pandas: ``>2.0.1``
+   :depends on pandas: ``>2.0.1,<3.0.0``
    :depends on plotnine: ``>=0.10.1``
    :depends on pre-commit: ``>=3.0.0``
    :depends on pydeseq2: ``>=0.3.5``
@@ -137,7 +137,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "liana";
-      var versions = ["1.8.1","1.8.0","1.7.3","1.7.1","1.7.0"];
+      var versions = ["1.8.1","1.8.1","1.8.0","1.7.3","1.7.1"];
    </script>
 
 .. rubric:: Download stats

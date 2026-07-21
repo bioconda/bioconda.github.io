@@ -12,8 +12,8 @@ enzbert
 
    Run EnzBert model that predicts the functional annotation of enzymes from protein sequences
 
-   :homepage: https://gitlab.inria.fr/nbuton/tfpc/-/tree/EnzBert_conda
-   :license: AGPL-3
+   :homepage: https://gitlab.inria.fr/fcoste/enzbert
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`enzbert <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/enzbert>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/enzbert/meta.yaml>`_
 
    
@@ -27,7 +27,7 @@ enzbert
       
       
 
-      ``1.1-0``
+      ``1.2-0``,  ``1.1-0``
 
       
 
@@ -126,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "enzbert";
-      var versions = ["1.1"];
+      var versions = ["1.2","1.1"];
    </script>
 
 .. rubric:: Download stats

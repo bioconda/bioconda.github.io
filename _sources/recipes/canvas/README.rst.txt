@@ -27,11 +27,19 @@ canvas
       
       
 
-      ``1.35.1.1316-0``,  ``1.25.0-0``
+      ``1.40.0.1613-0``,  ``1.35.1.1316-0``,  ``1.25.0-0``
 
       
 
    
+   :depends on dotnet: ``2.*``
+   :depends on glib: ``2.58.*``
+   :depends on icu: ``68.2.*``
+   :depends on libpng: ``1.6.*``
+   :depends on openssl: ``1.1.*``
+   :depends on tabix: 
+   :depends on ucsc-bedgraphtobigwig: 
+   :depends on zlib: ``1.*``
 
    :additional platforms:
       
@@ -106,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "canvas";
-      var versions = ["1.35.1.1316","1.25.0"];
+      var versions = ["1.40.0.1613","1.35.1.1316","1.25.0"];
    </script>
 
 .. rubric:: Download stats

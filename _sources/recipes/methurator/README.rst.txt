@@ -27,12 +27,12 @@ methurator
       
       
 
-      ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``
+      ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``
 
       
 
    
-   :depends on htslib: ``>=1.21,<1.24.0a0``
+   :depends on htslib: ``>=1.21,<1.23.0a0``
    :depends on matplotlib-base: 
    :depends on methyldackel: ``0.6.1.*``
    :depends on numpy: 
@@ -126,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "methurator";
-      var versions = ["2.1.1","2.1.0","2.0.0","0.1.8","0.1.7"];
+      var versions = ["2.2.0","2.1.1","2.1.0","2.0.0","0.1.8"];
    </script>
 
 .. rubric:: Download stats

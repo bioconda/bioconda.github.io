@@ -27,7 +27,7 @@ mist_typing
       
       
 
-      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-1``,  ``0.0.2-0``
+      ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-1``,  ``0.0.2-0``
 
       
 
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mist_typing";
-      var versions = ["1.2.0","1.1.0","1.0.0","0.0.5","0.0.4"];
+      var versions = ["1.3.0","1.2.0","1.1.0","1.0.0","0.0.5"];
    </script>
 
 .. rubric:: Download stats
