@@ -27,17 +27,18 @@ canopy
       
       
 
-      ``0.25-1``,  ``0.25-0``
+      ``0.26-0``,  ``0.25-1``,  ``0.25-0``
 
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on _openmp_mutex: ``* *_llvm``
    :depends on _openmp_mutex: ``>=4.5``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on llvm-openmp: ``>=19.1.5``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on llvm-openmp: ``>=22.1.8``
    :depends on zlib: 
 
    :additional platforms:
@@ -113,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "canopy";
-      var versions = ["0.25","0.25"];
+      var versions = ["0.26","0.25","0.25"];
    </script>
 
 .. rubric:: Download stats

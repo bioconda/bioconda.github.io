@@ -30,21 +30,21 @@ bwa-mem3
       
       
 
-      ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on _openmp_mutex: ``* *_llvm``
    :depends on _openmp_mutex: ``>=4.5``
    :depends on htslib: ``>=1.21,<2``
    :depends on htslib: ``>=1.24,<1.25.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libgomp: 
+   :depends on libgcc: ``>=15``
    :depends on libsais: ``>=2.10.4,<3``
    :depends on libsais: ``>=2.10.4,<3.0a0``
-   :depends on libstdcxx: ``>=14``
+   :depends on libstdcxx: ``>=15``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on llvm-openmp: ``>=22.1.8``
 
    :additional platforms:
       
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bwa-mem3";
-      var versions = ["0.6.0","0.5.0","0.5.0","0.4.0","0.3.0"];
+      var versions = ["0.6.0","0.6.0","0.5.0","0.5.0","0.4.0"];
    </script>
 
 .. rubric:: Download stats

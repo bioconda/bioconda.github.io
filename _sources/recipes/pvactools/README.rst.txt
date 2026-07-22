@@ -35,11 +35,42 @@ pvactools
       
       
 
-      
+      ``7.0.1-0``
 
       
 
    
+   :depends on biopython: ``>=1.77``
+   :depends on deepdiff: 
+   :depends on fsspec: ``<=2025.3.0``
+   :depends on gtfparse: ``2.0.1``
+   :depends on imbalanced-learn: 
+   :depends on mhcflurry: ``2.0.6``
+   :depends on mhcnuggets: ``2.4.1``
+   :depends on mock: 
+   :depends on networkx: 
+   :depends on numpy: ``1.26.4``
+   :depends on openpyxl: 
+   :depends on packaging: 
+   :depends on pandas: ``<2.1.0``
+   :depends on pillow: 
+   :depends on polars: ``0.16.18``
+   :depends on pyarrow: 
+   :depends on pyfaidx: ``>=0.7.1``
+   :depends on pymp-pypi: 
+   :depends on pysam: 
+   :depends on python: ``>=3.9,<3.12``
+   :depends on python-wget: 
+   :depends on pyyaml: ``>=5.1``
+   :depends on requests: 
+   :depends on scikit-learn: ``>=1.6.0,<1.8.0``
+   :depends on simanneal: 
+   :depends on testfixtures: 
+   :depends on varcode: ``>=1.1.0``
+   :depends on vaxrank: ``>=1.1.0``
+   :depends on vcfpy: ``0.13.8``
+   :depends on xlsxwriter: 
+   :depends on xorg-libx11: 
 
    :additional platforms:
       
@@ -114,7 +145,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pvactools";
-      var versions = [];
+      var versions = ["7.0.1"];
    </script>
 
 .. rubric:: Download stats

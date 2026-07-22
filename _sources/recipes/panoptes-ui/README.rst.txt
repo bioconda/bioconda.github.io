@@ -26,15 +26,24 @@ panoptes-ui
    :versions:
       
       
+      .. raw:: html
 
-      ``1.5.1-0``,  ``1.3.0-0``,  ``1.1.5-0``,  ``1.1.3-0``,  ``1.1.1-0``,  ``1.0.0-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.6.0-0</code>,  <code>1.5.1-0</code>,  <code>1.3.0-0</code>,  <code>1.1.5-0</code>,  <code>1.1.3-0</code>,  <code>1.1.1-0</code>,  <code>1.0.0-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-0</code>,  </span></summary>
+      
 
+      ``1.6.0-0``,  ``1.5.1-0``,  ``1.3.0-0``,  ``1.1.5-0``,  ``1.1.3-0``,  ``1.1.1-0``,  ``1.0.0-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends on flask: ``>=1.1.1``
    :depends on humanfriendly: ``>=4.18``
    :depends on marshmallow: ``>=3.0.1``
+   :depends on psycopg2: ``>=2.9``
    :depends on python: ``>=3.11``
    :depends on sqlalchemy: ``>=1.3.7``
 
@@ -111,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "panoptes-ui";
-      var versions = ["1.5.1","1.3.0","1.1.5","1.1.3","1.1.1"];
+      var versions = ["1.6.0","1.5.1","1.3.0","1.1.5","1.1.3"];
    </script>
 
 .. rubric:: Download stats

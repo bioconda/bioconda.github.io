@@ -40,7 +40,6 @@ trash-py
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on biopython: ``>=1.83``
    :depends on clustalo: 
    :depends on hmmer: 

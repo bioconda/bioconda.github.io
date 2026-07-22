@@ -49,10 +49,10 @@ biobb_flexserv
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.2.1-0</code>,  <code>5.2.0-4</code>,  <code>5.2.0-3</code>,  <code>5.2.0-2</code>,  <code>5.2.0-1</code>,  <code>5.2.0-0</code>,  <code>5.1.0-1</code>,  <code>5.1.0-0</code>,  <code>5.0.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.3.0-0</code>,  <code>5.2.1-0</code>,  <code>5.2.0-4</code>,  <code>5.2.0-3</code>,  <code>5.2.0-2</code>,  <code>5.2.0-1</code>,  <code>5.2.0-0</code>,  <code>5.1.0-1</code>,  <code>5.1.0-0</code>,  </span></summary>
       
 
-      ``5.2.1-0``,  ``5.2.0-4``,  ``5.2.0-3``,  ``5.2.0-2``,  ``5.2.0-1``,  ``5.2.0-0``,  ``5.1.0-1``,  ``5.1.0-0``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.9.1-1``,  ``3.9.1-0``
+      ``5.3.0-0``,  ``5.2.1-0``,  ``5.2.0-4``,  ``5.2.0-3``,  ``5.2.0-2``,  ``5.2.0-1``,  ``5.2.0-0``,  ``5.1.0-1``,  ``5.1.0-0``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-0``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.9.1-1``,  ``3.9.1-0``
 
       
       .. raw:: html
@@ -61,10 +61,10 @@ biobb_flexserv
       
 
    
-   :depends on biobb_common: ``5.2.2``
-   :depends on biobb_common: ``>=5.2.2,<6.0a0``
+   :depends on biobb_common: ``5.3.1``
+   :depends on biobb_common: ``>=5.3.1,<6.0a0``
    :depends on flexserv: ``1.0.2``
-   :depends on pcasuite: ``==1.0.0 h7baada4_6``
+   :depends on pcasuite: ``1.0.0 h7baada4_6``
    :depends on pcasuite: ``>=1.0.0,<1.1.0a0``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on python: ``>=3.10,<3.11.0a0``
@@ -144,7 +144,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "biobb_flexserv";
-      var versions = ["5.2.1","5.2.0","5.2.0","5.2.0","5.2.0"];
+      var versions = ["5.3.0","5.2.1","5.2.0","5.2.0","5.2.0"];
    </script>
 
 .. rubric:: Download stats

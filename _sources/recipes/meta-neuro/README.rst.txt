@@ -12,9 +12,8 @@ meta-neuro
 
    Medial Tractography Analysis \(MeTA\)
 
-   :homepage: https://github.com/USC-LoBeS/meta
-   :developer docs: https://github.com/bagari/meta
-   :license: BSD-3-Clause
+   :homepage: https://github.com/bagari/meta
+   :license: MIT
    :recipe: /`meta-neuro <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meta-neuro>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meta-neuro/meta.yaml>`_
 
    MeTA is a workflow implemented to minimize microstructural heterogeneity in diffusion MRI \(dMRI\) metrics by extracting and parcellating the core volume along the bundle length in the voxel\-space directly while effectively preserving bundle shape and efficiently capturing the regional variation within and along white matter \(WM\) bundles.
@@ -29,38 +28,24 @@ meta-neuro
       
       
 
-      ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
    :depends on dipy: 
-   :depends on libgcc: ``>=13``
-   :depends on libitk: ``>=5.4.4,<5.5.0a0``
-   :depends on libitk-devel: ``>=5.4.0,<5.5.0``
-   :depends on libstdcxx: ``>=13``
-   :depends on libxml2: 
-   :depends on libxml2-16: ``>=2.15.1``
    :depends on nibabel: 
    :depends on numpy: 
    :depends on pandas: 
-   :depends on pip: 
-   :depends on python: ``>=3.11,<3.12.0a0``
-   :depends on python_abi: ``3.11.* *_cp311``
+   :depends on pytables: 
+   :depends on python: ``>=3.11``
    :depends on pyvista: 
-   :depends on qhull: 
-   :depends on scipy: ``>=1.15.0``
-   :depends on setuptools: 
+   :depends on scipy: 
    :depends on tqdm: 
+   :depends on trx-python: 
    :depends on tslearn: 
-   :depends on vtk: ``>=9.4.1,<9.6``
-   :depends on vtk-base: ``>=9.5.2,<9.5.3.0a0``
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>osx-arm64</code></span>
       
 
 
@@ -133,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "meta-neuro";
-      var versions = ["2.0.1","2.0.0","1.0.1","1.0.0","1.0.0"];
+      var versions = ["2.1.0","2.0.1","2.0.0","1.0.1","1.0.0"];
    </script>
 
 .. rubric:: Download stats

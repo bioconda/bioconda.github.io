@@ -31,10 +31,10 @@ cnvkit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.13-0</code>,  <code>0.9.12-1</code>,  <code>0.9.12-0</code>,  <code>0.9.11-0</code>,  <code>0.9.10-0</code>,  <code>0.9.9-0</code>,  <code>0.9.8-0</code>,  <code>0.9.7-1</code>,  <code>0.9.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.14-0</code>,  <code>0.9.13-0</code>,  <code>0.9.12-1</code>,  <code>0.9.12-0</code>,  <code>0.9.11-0</code>,  <code>0.9.10-0</code>,  <code>0.9.9-0</code>,  <code>0.9.8-0</code>,  <code>0.9.7-1</code>,  </span></summary>
       
 
-      ``0.9.13-0``,  ``0.9.12-1``,  ``0.9.12-0``,  ``0.9.11-0``,  ``0.9.10-0``,  ``0.9.9-0``,  ``0.9.8-0``,  ``0.9.7-1``,  ``0.9.7-0``,  ``0.9.6-2``,  ``0.9.6-1``,  ``0.9.6-0``,  ``0.9.6a0-2``,  ``0.9.6a0-1``,  ``0.9.6a0-0``,  ``0.9.5-1``,  ``0.9.5-0``,  ``0.9.4a0-0``,  ``0.9.3-2``,  ``0.9.2-2``,  ``0.9.2a0-2``,  ``0.9.2a0-1``,  ``0.9.2a0-0``,  ``0.9.1-0``,  ``0.9.1a0-0``,  ``0.9.0-0``,  ``0.8.6a0-2``,  ``0.8.6a0-1``,  ``0.8.6a0-0``,  ``0.8.5-0``,  ``0.8.5dev0-1``,  ``0.8.5dev0-0``,  ``0.8.4-0``,  ``0.8.3a0-1``,  ``0.8.3a0-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.11-0``,  ``0.7.10-1``,  ``0.7.10-0``,  ``0.7.9-0``,  ``0.7.8-1``,  ``0.7.8-0``,  ``0.7.7-0``,  ``0.7.6-0``,  ``0.7.5-0``,  ``0.7.4-1``,  ``0.7.4-0``,  ``0.7.3-0``
+      ``0.9.14-0``,  ``0.9.13-0``,  ``0.9.12-1``,  ``0.9.12-0``,  ``0.9.11-0``,  ``0.9.10-0``,  ``0.9.9-0``,  ``0.9.8-0``,  ``0.9.7-1``,  ``0.9.7-0``,  ``0.9.6-2``,  ``0.9.6-1``,  ``0.9.6-0``,  ``0.9.6a0-2``,  ``0.9.6a0-1``,  ``0.9.6a0-0``,  ``0.9.5-1``,  ``0.9.5-0``,  ``0.9.4a0-0``,  ``0.9.3-2``,  ``0.9.2-2``,  ``0.9.2a0-2``,  ``0.9.2a0-1``,  ``0.9.2a0-0``,  ``0.9.1-0``,  ``0.9.1a0-0``,  ``0.9.0-0``,  ``0.8.6a0-2``,  ``0.8.6a0-1``,  ``0.8.6a0-0``,  ``0.8.5-0``,  ``0.8.5dev0-1``,  ``0.8.5dev0-0``,  ``0.8.4-0``,  ``0.8.3a0-1``,  ``0.8.3a0-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.11-0``,  ``0.7.10-1``,  ``0.7.10-0``,  ``0.7.9-0``,  ``0.7.8-1``,  ``0.7.8-0``,  ``0.7.7-0``,  ``0.7.6-0``,  ``0.7.5-0``,  ``0.7.4-1``,  ``0.7.4-0``,  ``0.7.3-0``
 
       
       .. raw:: html
@@ -44,20 +44,21 @@ cnvkit
 
    
    :depends on bioconductor-dnacopy: 
-   :depends on biopython: ``>=1.80``
-   :depends on matplotlib-base: ``>=3.5.2``
-   :depends on networkx: ``>=2.4``
-   :depends on numpy: ``>=1.24.2``
-   :depends on pandas: ``>=1.5.3``
-   :depends on pomegranate: ``>=0.14.8,<=0.14.9``
-   :depends on pyfaidx: ``>=0.7.1``
-   :depends on pysam: ``>=0.20.0``
-   :depends on python: ``>=3.8``
-   :depends on r-base: ``>=3.4.1``
-   :depends on r-cghflasso: 
-   :depends on reportlab: ``>=3.6.12``
-   :depends on scikit-learn: ``>=1.1.0``
-   :depends on scipy: ``>=1.10.1``
+   :depends on bioframe: ``>=0.8.0``
+   :depends on biopython: ``>=1.87``
+   :depends on hypothesis: 
+   :depends on matplotlib-base: ``>=3.10.7``
+   :depends on mypy: 
+   :depends on numpy: ``>=2.3.5``
+   :depends on pandas: ``>=2.3.3``
+   :depends on pyfaidx: ``>=0.8.1.3``
+   :depends on pysam: ``>=0.23.3``
+   :depends on python: ``>=3.11``
+   :depends on r-base: ``>=4.5.3``
+   :depends on reportlab: ``>=4.4.10``
+   :depends on scikit-learn: ``>=1.7.2``
+   :depends on scipy: ``>=1.16.3``
+   :depends on statsmodels: ``>=0.14.6``
 
    :additional platforms:
       
@@ -132,7 +133,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cnvkit";
-      var versions = ["0.9.13","0.9.12","0.9.12","0.9.11","0.9.10"];
+      var versions = ["0.9.14","0.9.13","0.9.12","0.9.12","0.9.11"];
    </script>
 
 .. rubric:: Download stats

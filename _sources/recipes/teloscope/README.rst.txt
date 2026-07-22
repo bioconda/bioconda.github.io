@@ -31,10 +31,10 @@ teloscope
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.5-0</code>,  <code>0.1.3-0</code>,  <code>0.1.2-0</code>,  <code>0.1.1-0</code>,  <code>0.1.0-0</code>,  <code>0.0.9-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-0</code>,  <code>0.0.6-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.5-1</code>,  <code>0.1.5-0</code>,  <code>0.1.3-0</code>,  <code>0.1.2-0</code>,  <code>0.1.1-0</code>,  <code>0.1.0-0</code>,  <code>0.0.9-0</code>,  <code>0.0.8-0</code>,  <code>0.0.7-0</code>,  </span></summary>
       
 
-      ``0.1.5-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``0.1.5-1``,  ``0.1.5-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
       .. raw:: html
@@ -43,11 +43,14 @@ teloscope
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libgcc: ``>=14``
    :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on matplotlib-base: 
+   :depends on numpy: 
    :depends on openssl: ``>=3.5.7,<4.0a0``
+   :depends on pandas: 
+   :depends on python: 
 
    :additional platforms:
       
@@ -126,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "teloscope";
-      var versions = ["0.1.5","0.1.3","0.1.2","0.1.1","0.1.0"];
+      var versions = ["0.1.5","0.1.5","0.1.3","0.1.2","0.1.1"];
    </script>
 
 .. rubric:: Download stats

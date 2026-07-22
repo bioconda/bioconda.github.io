@@ -70,16 +70,13 @@
 <dd><p>Medial Tractography Analysis (MeTA)</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/USC-LoBeS/meta">https://github.com/USC-LoBeS/meta</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://github.com/bagari/meta">https://github.com/bagari/meta</a></p>
 </dd>
-<dt class="field-even">Developer docs<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="reference external" href="https://github.com/bagari/meta">https://github.com/bagari/meta</a></p>
+<dt class="field-even">License<span class="colon">:</span></dt>
+<dd class="field-even"><p>MIT</p>
 </dd>
-<dt class="field-odd">License<span class="colon">:</span></dt>
-<dd class="field-odd"><p>BSD-3-Clause</p>
-</dd>
-<dt class="field-even">Recipe<span class="colon">:</span></dt>
-<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meta-neuro">meta-neuro</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meta-neuro/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">Recipe<span class="colon">:</span></dt>
+<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meta-neuro">meta-neuro</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meta-neuro/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 <p>MeTA is a workflow implemented to minimize microstructural heterogeneity in diffusion MRI (dMRI) metrics by extracting and parcellating the core volume along the bundle length in the voxel-space directly while effectively preserving bundle shape and efficiently capturing the regional variation within and along white matter (WM) bundles.</p>
@@ -89,37 +86,27 @@
 <dt class="sig sig-object conda" id="package-meta-neuro">
 <span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">meta-neuro</span></span><a class="headerlink" href="#package-meta-neuro" title="Link to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/meta-neuro"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/meta-neuro.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/meta-neuro"><img alt="docker_meta-neuro" src="https://quay.io/repository/biocontainers/meta-neuro/status" /></a></p>
-<dl class="field-list">
+<dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
 <li><p><strong>on dipy</strong></p></li>
-<li><p><strong>on libgcc</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p></li>
-<li><p><strong>on libitk</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=5.4.4,&lt;5.5.0a0</span></code></p></li>
-<li><p><strong>on libitk-devel</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=5.4.0,&lt;5.5.0</span></code></p></li>
-<li><p><strong>on libstdcxx</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=13</span></code></p></li>
-<li><p><strong>on libxml2</strong></p></li>
-<li><p><strong>on libxml2-16</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=2.15.1</span></code></p></li>
 <li><p><strong>on nibabel</strong></p></li>
 <li><p><strong>on numpy</strong></p></li>
 <li><p><strong>on pandas</strong></p></li>
-<li><p><strong>on pip</strong></p></li>
-<li><p><strong>on python</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.11,&lt;3.12.0a0</span></code></p></li>
-<li><p><strong>on python_abi</strong> <code class="docutils literal notranslate"><span class="pre">3.11.* *_cp311</span></code></p></li>
+<li><p><strong>on pytables</strong></p></li>
+<li><p><strong>on python</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.11</span></code></p></li>
 <li><p><strong>on pyvista</strong></p></li>
-<li><p><strong>on qhull</strong></p></li>
-<li><p><strong>on scipy</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.15.0</span></code></p></li>
-<li><p><strong>on setuptools</strong></p></li>
+<li><p><strong>on scipy</strong></p></li>
 <li><p><strong>on tqdm</strong></p></li>
+<li><p><strong>on trx-python</strong></p></li>
 <li><p><strong>on tslearn</strong></p></li>
-<li><p><strong>on vtk</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=9.4.1,&lt;9.6</span></code></p></li>
-<li><p><strong>on vtk-base</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=9.5.2,&lt;9.5.3.0a0</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><span class="additional-platforms"><code>osx-arm64</code></span></dd>
+<dd class="field-odd"><p></p></dd>
 </dl>
 </dd></dl>
 
@@ -174,7 +161,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "meta-neuro";
-   var versions = ["2.0.1","2.0.0","1.0.1","1.0.0","1.0.0"];
+   var versions = ["2.1.0","2.0.1","2.0.0","1.0.1","1.0.0"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_meta-neuro"></div>
 <div style="width: 100%" id="platform_plot_meta-neuro"></div>

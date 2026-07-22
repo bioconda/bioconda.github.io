@@ -49,10 +49,10 @@ biobb_cmip
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.2.3-0</code>,  <code>5.2.2-0</code>,  <code>5.2.1-0</code>,  <code>5.2.0-0</code>,  <code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.1-0</code>,  <code>4.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.3.0-0</code>,  <code>5.2.3-0</code>,  <code>5.2.2-0</code>,  <code>5.2.1-0</code>,  <code>5.2.0-0</code>,  <code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.1-0</code>,  </span></summary>
       
 
-      ``5.2.3-0``,  ``5.2.2-0``,  ``5.2.1-0``,  ``5.2.0-0``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.7.8-0``,  ``3.7.7-0``,  ``3.7.6-1``,  ``3.7.6-0``,  ``3.7.5-1``,  ``3.7.5-0``,  ``3.7.4-0``,  ``3.7.3-0``,  ``3.7.2-0``,  ``3.6.0-0``
+      ``5.3.0-0``,  ``5.2.3-0``,  ``5.2.2-0``,  ``5.2.1-0``,  ``5.2.0-0``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.7.8-0``,  ``3.7.7-0``,  ``3.7.6-1``,  ``3.7.6-0``,  ``3.7.5-1``,  ``3.7.5-0``,  ``3.7.4-0``,  ``3.7.3-0``,  ``3.7.2-0``,  ``3.6.0-0``
 
       
       .. raw:: html
@@ -61,7 +61,7 @@ biobb_cmip
       
 
    
-   :depends on biobb_common: ``5.2.2``
+   :depends on biobb_common: ``5.3.1``
    :depends on biobb_structure_checking: ``3.15.6``
    :depends on cmip: ``2.7.0``
    :depends on mdanalysis: ``>=2.0.0``
@@ -140,7 +140,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "biobb_cmip";
-      var versions = ["5.2.3","5.2.2","5.2.1","5.2.0","5.1.0"];
+      var versions = ["5.3.0","5.2.3","5.2.2","5.2.1","5.2.0"];
    </script>
 
 .. rubric:: Download stats

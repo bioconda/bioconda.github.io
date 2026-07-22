@@ -13,7 +13,7 @@ svdb
    Structural variant database software.
 
    :homepage: https://github.com/J35P312/SVDB
-   :documentation: https://github.com/J35P312/SVDB/blob/2.10.2/README.md
+   :documentation: https://github.com/J35P312/SVDB/blob/2.12.0/README.md
    
    :license: MIT / MIT
    :recipe: /`svdb <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svdb>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svdb/meta.yaml>`_
@@ -42,7 +42,6 @@ svdb
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libgcc: ``>=14``
    :depends on numpy: ``>=1.21,<3``
    :depends on python: ``>=3.10,<3.11.0a0``

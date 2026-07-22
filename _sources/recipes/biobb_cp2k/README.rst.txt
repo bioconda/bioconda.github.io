@@ -49,10 +49,10 @@ biobb_cp2k
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.2.1-0</code>,  <code>5.2.0-0</code>,  <code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.9.0-0</code>,  <code>3.8.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.3.0-0</code>,  <code>5.2.1-0</code>,  <code>5.2.0-0</code>,  <code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.0-0</code>,  <code>4.0.0-0</code>,  <code>3.9.0-0</code>,  </span></summary>
       
 
-      ``5.2.1-0``,  ``5.2.0-0``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.3-0``,  ``3.8.2-0``,  ``3.8.1-0``,  ``3.8.0-0``
+      ``5.3.0-0``,  ``5.2.1-0``,  ``5.2.0-0``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.3-0``,  ``3.8.2-0``,  ``3.8.1-0``,  ``3.8.0-0``
 
       
       .. raw:: html
@@ -61,7 +61,7 @@ biobb_cp2k
       
 
    
-   :depends on biobb_common: ``5.2.2``
+   :depends on biobb_common: ``5.3.1``
    :depends on cp2k: ``7.1.0``
    :depends on python: ``>=3.10``
 
@@ -138,7 +138,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "biobb_cp2k";
-      var versions = ["5.2.1","5.2.0","5.1.0","5.0.0","4.2.0"];
+      var versions = ["5.3.0","5.2.1","5.2.0","5.1.0","5.0.0"];
    </script>
 
 .. rubric:: Download stats
