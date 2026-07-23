@@ -30,10 +30,10 @@ mhcgnomes
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.32.0-0</code>,  <code>3.31.1-0</code>,  <code>3.22.0-0</code>,  <code>3.19.0-0</code>,  <code>3.18.0-0</code>,  <code>3.15.0-0</code>,  <code>3.14.1-0</code>,  <code>3.10.0-0</code>,  <code>3.1.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.33.4-0</code>,  <code>3.32.0-0</code>,  <code>3.31.1-0</code>,  <code>3.22.0-0</code>,  <code>3.19.0-0</code>,  <code>3.18.0-0</code>,  <code>3.15.0-0</code>,  <code>3.14.1-0</code>,  <code>3.10.0-0</code>,  </span></summary>
       
 
-      ``3.32.0-0``,  ``3.31.1-0``,  ``3.22.0-0``,  ``3.19.0-0``,  ``3.18.0-0``,  ``3.15.0-0``,  ``3.14.1-0``,  ``3.10.0-0``,  ``3.1.1-0``,  ``2.0.2-0``,  ``2.0-0``,  ``1.8.6-0``,  ``1.8.4-0``
+      ``3.33.4-0``,  ``3.32.0-0``,  ``3.31.1-0``,  ``3.22.0-0``,  ``3.19.0-0``,  ``3.18.0-0``,  ``3.15.0-0``,  ``3.14.1-0``,  ``3.10.0-0``,  ``3.1.1-0``,  ``2.0.2-0``,  ``2.0-0``,  ``1.8.6-0``,  ``1.8.4-0``
 
       
       .. raw:: html
@@ -121,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mhcgnomes";
-      var versions = ["3.32.0","3.31.1","3.22.0","3.19.0","3.18.0"];
+      var versions = ["3.33.4","3.32.0","3.31.1","3.22.0","3.19.0"];
    </script>
 
 .. rubric:: Download stats

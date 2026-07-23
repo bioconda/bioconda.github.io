@@ -13,7 +13,7 @@ dna-nn
    Model and predict short DNA sequence features with neural networks.
 
    :homepage: https://github.com/lh3/dna-nn
-   :license: Unknown
+   :license: MIT
    :recipe: /`dna-nn <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dna-nn>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dna-nn/meta.yaml>`_
 
    
@@ -27,15 +27,16 @@ dna-nn
       
       
 
-      ``0.1-3``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
+      ``0.1-4``,  ``0.1-3``,  ``0.1-2``,  ``0.1-1``,  ``0.1-0``
 
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on k8: 
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
       
@@ -114,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "dna-nn";
-      var versions = ["0.1","0.1","0.1","0.1"];
+      var versions = ["0.1","0.1","0.1","0.1","0.1"];
    </script>
 
 .. rubric:: Download stats

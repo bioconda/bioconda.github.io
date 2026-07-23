@@ -27,7 +27,7 @@ r-locuszoomr
       
       
 
-      ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-1``,  ``0.3.5-0``
+      ``0.3.10-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.5-1``,  ``0.3.5-0``
 
       
 
@@ -39,7 +39,7 @@ r-locuszoomr
    :depends on bioconductor-genomicranges: 
    :depends on bioconductor-iranges: 
    :depends on bioconductor-rtracklayer: 
-   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-cowplot: 
    :depends on r-dplyr: 
    :depends on r-gggrid: 
@@ -124,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-locuszoomr";
-      var versions = ["0.3.8","0.3.7","0.3.6","0.3.5","0.3.5"];
+      var versions = ["0.3.10","0.3.8","0.3.7","0.3.6","0.3.5"];
    </script>
 
 .. rubric:: Download stats
