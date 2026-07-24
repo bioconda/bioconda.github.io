@@ -13,7 +13,7 @@ python-ferro-hgvs
    Python bindings for ferro\-hgvs — an HGVS variant parser and normalizer
 
    :homepage: https://github.com/fulcrumgenomics/ferro-hgvs
-   :documentation: https://github.com/fulcrumgenomics/ferro-hgvs/blob/v0.10.0/README.md
+   :documentation: https://github.com/fulcrumgenomics/ferro-hgvs/blob/v0.10.1/README.md
    
    :license: MIT / MIT
    :recipe: /`python-ferro-hgvs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-ferro-hgvs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-ferro-hgvs/meta.yaml>`_
@@ -32,7 +32,7 @@ python-ferro-hgvs
       
       
 
-      ``0.10.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.7.1-0``
+      ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.7.1-0``
 
       
 
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "python-ferro-hgvs";
-      var versions = ["0.10.0","0.9.1","0.9.0","0.8.1","0.7.1"];
+      var versions = ["0.10.1","0.10.0","0.9.1","0.9.0","0.8.1"];
    </script>
 
 .. rubric:: Download stats

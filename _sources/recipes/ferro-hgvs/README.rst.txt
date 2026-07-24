@@ -13,7 +13,7 @@ ferro-hgvs
    HGVS variant parser and normalizer.
 
    :homepage: https://github.com/fulcrumgenomics/ferro-hgvs
-   :documentation: https://github.com/fulcrumgenomics/ferro-hgvs/blob/v0.10.0/README.md
+   :documentation: https://github.com/fulcrumgenomics/ferro-hgvs/blob/v0.10.1/README.md
    
    :license: MIT / MIT
    :recipe: /`ferro-hgvs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ferro-hgvs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ferro-hgvs/meta.yaml>`_
@@ -30,10 +30,10 @@ ferro-hgvs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.10.0-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  </span></summary>
       
 
-      ``0.10.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.1.0-0``
+      ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -124,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ferro-hgvs";
-      var versions = ["0.10.0","0.9.1","0.9.0","0.8.1","0.8.0"];
+      var versions = ["0.10.1","0.10.0","0.9.1","0.9.0","0.8.1"];
    </script>
 
 .. rubric:: Download stats

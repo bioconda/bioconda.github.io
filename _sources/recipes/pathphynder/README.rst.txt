@@ -32,13 +32,13 @@ pathphynder
       
       
 
-      ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``
+      ``1.3.1-0``,  ``1.2.4-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``
 
       
 
    
    :depends on phynder: 
-   :depends on python: 
+   :depends on python: ``>=3.14,<3.15.0a0``
    :depends on r-base: 
    :depends on r-optparse: 
    :depends on r-phytools: 
@@ -118,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pathphynder";
-      var versions = ["1.2.4","1.2.3","1.2.2","1.2.1","1.2.1"];
+      var versions = ["1.3.1","1.2.4","1.2.3","1.2.2","1.2.1"];
    </script>
 
 .. rubric:: Download stats

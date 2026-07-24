@@ -32,14 +32,13 @@ heliano
       
       
 
-      ``1.3.1-0``,  ``1.2.1-0``
+      ``1.3.1-1``,  ``1.3.1-0``,  ``1.2.1-0``
 
       
 
    
    :depends on bedtools: 
    :depends on biopython: 
-   :depends on blast: 
    :depends on cd-hit: 
    :depends on dialign2: 
    :depends on emboss: 
@@ -51,6 +50,7 @@ heliano
    :depends on r-base: ``>=4.1``
    :depends on r-bedtoolsr: 
    :depends on r-seqinr: 
+   :depends on rmblast: ``>=2.17.0``
    :depends on rnabob: 
 
    :additional platforms:
@@ -126,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "heliano";
-      var versions = ["1.3.1","1.2.1"];
+      var versions = ["1.3.1","1.3.1","1.2.1"];
    </script>
 
 .. rubric:: Download stats

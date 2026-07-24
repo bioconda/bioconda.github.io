@@ -28,10 +28,10 @@ merqury
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.1-0</code>,  <code>1.3-4</code>,  <code>1.3-3</code>,  <code>1.3-2</code>,  <code>1.3-1</code>,  <code>1.3-0</code>,  <code>1.1-3</code>,  <code>1.1-2</code>,  <code>1.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.3-4</code>,  <code>1.3-3</code>,  <code>1.3-2</code>,  <code>1.3-1</code>,  <code>1.3-0</code>,  <code>1.1-3</code>,  <code>1.1-2</code>,  </span></summary>
       
 
-      ``1.4.1-0``,  ``1.3-4``,  ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``v1.0-0``
+      ``1.4.1-1``,  ``1.4.1-0``,  ``1.3-4``,  ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.1-3``,  ``1.1-2``,  ``1.1-1``,  ``1.1-0``,  ``v1.0-0``
 
       
       .. raw:: html
@@ -42,14 +42,14 @@ merqury
    
    :depends on bedtools: ``>=2.29.2``
    :depends on gawk: 
-   :depends on meryl: ``1.4.1.*``
+   :depends on meryl: ``>=1.4.1``
    :depends on mscorefonts: 
    :depends on openjdk: ``>=11.0.1``
    :depends on r-argparse: ``>=2.0.1``
    :depends on r-base: ``>=4``
-   :depends on r-ggplot2: ``>=3.3.2,<=3.3.6``
+   :depends on r-ggplot2: ``>=3.3.2``
    :depends on r-scales: ``>=1.1.1``
-   :depends on samtools: ``>=1.10``
+   :depends on samtools: ``>=1.22``
    :depends on sed: 
 
    :additional platforms:
@@ -125,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "merqury";
-      var versions = ["1.4.1","1.3","1.3","1.3","1.3"];
+      var versions = ["1.4.1","1.4.1","1.3","1.3","1.3"];
    </script>
 
 .. rubric:: Download stats

@@ -13,7 +13,7 @@ kmercamel
    KmerCamel🐫 \- compressing k\-mer sets using masked superstrings.
 
    :homepage: https://github.com/OndrejSladky/kmercamel
-   :documentation: https://github.com/OndrejSladky/kmercamel/blob/v2.3.0/README.md
+   :documentation: https://github.com/OndrejSladky/kmercamel/blob/v2.3.1/README.md
    
    :license: MIT / MIT
    :recipe: /`kmercamel <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kmercamel>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kmercamel/meta.yaml>`_
@@ -29,9 +29,17 @@ kmercamel
    :versions:
       
       
+      .. raw:: html
 
-      ``2.3.0-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
+         <details><summary><span class="truncated-version-list"><code>2.3.1-0</code>,  <code>2.3.0-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.0-0</code>,  <code>1.0.2-2</code>,  <code>1.0.2-1</code>,  </span></summary>
+      
 
+      ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -118,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "kmercamel";
-      var versions = ["2.3.0","2.2.1","2.2.0","2.1.1","2.1.0"];
+      var versions = ["2.3.1","2.3.0","2.2.1","2.2.0","2.1.1"];
    </script>
 
 .. rubric:: Download stats

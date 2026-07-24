@@ -27,7 +27,7 @@ wizardeye
       
       
 
-      ``0.1.3-0``,  ``0.1.2-0``
+      ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
 
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "wizardeye";
-      var versions = ["0.1.3","0.1.2"];
+      var versions = ["0.1.4","0.1.3","0.1.2"];
    </script>
 
 .. rubric:: Download stats
