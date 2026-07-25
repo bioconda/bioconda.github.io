@@ -45,7 +45,7 @@ vcfclick
       
       
 
-      ``0.8.1-0``
+      ``0.9.1-0``,  ``0.8.1-0``
 
       
 
@@ -132,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "vcfclick";
-      var versions = ["0.8.1"];
+      var versions = ["0.9.1","0.8.1"];
    </script>
 
 .. rubric:: Download stats

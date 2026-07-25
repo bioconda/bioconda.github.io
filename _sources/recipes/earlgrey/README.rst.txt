@@ -35,10 +35,10 @@ earlgrey
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>7.3.0-0</code>,  <code>7.2.6-0</code>,  <code>7.2.5-0</code>,  <code>7.2.4-0</code>,  <code>7.2.3-0</code>,  <code>7.2.2-1</code>,  <code>7.2.2-0</code>,  <code>7.2.1-0</code>,  <code>7.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>7.3.0-1</code>,  <code>7.3.0-0</code>,  <code>7.2.6-0</code>,  <code>7.2.5-0</code>,  <code>7.2.4-0</code>,  <code>7.2.3-0</code>,  <code>7.2.2-1</code>,  <code>7.2.2-0</code>,  <code>7.2.1-0</code>,  </span></summary>
       
 
-      ``7.3.0-0``,  ``7.2.6-0``,  ``7.2.5-0``,  ``7.2.4-0``,  ``7.2.3-0``,  ``7.2.2-1``,  ``7.2.2-0``,  ``7.2.1-0``,  ``7.1.0-0``,  ``7.0.3-0``,  ``7.0.2-0``,  ``7.0.1-1``,  ``7.0.1-0``,  ``7.0.0-0``,  ``6.3.6-0``,  ``6.3.5-0``,  ``6.3.4-0``,  ``6.3.3-0``,  ``6.3.2-0``,  ``6.3.1-0``,  ``6.3.0-0``,  ``6.2.0-1``,  ``6.2.0-0``,  ``6.1.1-0``,  ``6.1.0-0``,  ``6.0.3-0``,  ``6.0.1-0``,  ``6.0.0-0``,  ``5.1.1-0``,  ``5.1.0-1``,  ``5.1.0-0``,  ``5.0.3-0``,  ``5.0.0-2``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.5.0-2``,  ``4.5.0-1``,  ``4.5.0-0``,  ``4.4.5-1``,  ``4.4.5-0``,  ``4.4.4-0``,  ``4.4.1-0``,  ``4.4.0-0``,  ``4.3.0-0``,  ``4.2.4-1``,  ``4.2.4-0``,  ``4.2.3-0``,  ``4.1.1-1``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.8-0``,  ``4.0.7-0``,  ``4.0.6-0``,  ``4.0.5-0``,  ``4.0.4-0``,  ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-1``,  ``4.0.1-0``,  ``4.0-1``,  ``4.0-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2-0``,  ``3.1-0``
+      ``7.3.0-1``,  ``7.3.0-0``,  ``7.2.6-0``,  ``7.2.5-0``,  ``7.2.4-0``,  ``7.2.3-0``,  ``7.2.2-1``,  ``7.2.2-0``,  ``7.2.1-0``,  ``7.1.0-0``,  ``7.0.3-0``,  ``7.0.2-0``,  ``7.0.1-1``,  ``7.0.1-0``,  ``7.0.0-0``,  ``6.3.6-0``,  ``6.3.5-0``,  ``6.3.4-0``,  ``6.3.3-0``,  ``6.3.2-0``,  ``6.3.1-0``,  ``6.3.0-0``,  ``6.2.0-1``,  ``6.2.0-0``,  ``6.1.1-0``,  ``6.1.0-0``,  ``6.0.3-0``,  ``6.0.1-0``,  ``6.0.0-0``,  ``5.1.1-0``,  ``5.1.0-1``,  ``5.1.0-0``,  ``5.0.3-0``,  ``5.0.0-2``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.5.0-2``,  ``4.5.0-1``,  ``4.5.0-0``,  ``4.4.5-1``,  ``4.4.5-0``,  ``4.4.4-0``,  ``4.4.1-0``,  ``4.4.0-0``,  ``4.3.0-0``,  ``4.2.4-1``,  ``4.2.4-0``,  ``4.2.3-0``,  ``4.1.1-1``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.8-0``,  ``4.0.7-0``,  ``4.0.6-0``,  ``4.0.5-0``,  ``4.0.4-0``,  ``4.0.3-0``,  ``4.0.2-0``,  ``4.0.1-1``,  ``4.0.1-0``,  ``4.0-1``,  ``4.0-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2-0``,  ``3.1-0``
 
       
       .. raw:: html
@@ -55,6 +55,7 @@ earlgrey
    :depends on bioconductor-plyranges: 
    :depends on cd-hit: 
    :depends on emboss: 
+   :depends on famdb: 
    :depends on genometools-genometools: 
    :depends on heliano: 
    :depends on hmmer: 
@@ -65,12 +66,13 @@ earlgrey
    :depends on mreps: 
    :depends on ncls: 
    :depends on ninja-nj: 
+   :depends on numpy: 
    :depends on pandas: 
    :depends on parallel: 
    :depends on pybedtools: 
    :depends on pyfaidx: 
    :depends on pyranges: 
-   :depends on python: 
+   :depends on python: ``>=3.10``
    :depends on r-ape: 
    :depends on r-cowplot: 
    :depends on r-data.table: 
@@ -82,8 +84,8 @@ earlgrey
    :depends on r-tidyverse: 
    :depends on r-viridis: 
    :depends on recon: 
-   :depends on repeatmasker: ``>=4.2.3``
-   :depends on repeatmodeler: ``>=2.0.4``
+   :depends on repeatmasker: ``>=4.2.4``
+   :depends on repeatmodeler: ``>=2.0.9``
    :depends on repeatscout: 
    :depends on samtools: 
    :depends on trf: 
@@ -161,7 +163,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "earlgrey";
-      var versions = ["7.3.0","7.2.6","7.2.5","7.2.4","7.2.3"];
+      var versions = ["7.3.0","7.3.0","7.2.6","7.2.5","7.2.4"];
    </script>
 
 .. rubric:: Download stats

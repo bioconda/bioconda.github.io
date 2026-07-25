@@ -31,10 +31,10 @@ syri
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.1-1</code>,  <code>1.7.1-0</code>,  <code>1.7.0-0</code>,  <code>1.6.3-2</code>,  <code>1.6.3-1</code>,  <code>1.6.3-0</code>,  <code>1.6-1</code>,  <code>1.6-0</code>,  <code>1.5.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8.2-0</code>,  <code>1.7.1-1</code>,  <code>1.7.1-0</code>,  <code>1.7.0-0</code>,  <code>1.6.3-2</code>,  <code>1.6.3-1</code>,  <code>1.6.3-0</code>,  <code>1.6-1</code>,  <code>1.6-0</code>,  </span></summary>
       
 
-      ``1.7.1-1``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.3-2``,  ``1.6.3-1``,  ``1.6.3-0``,  ``1.6-1``,  ``1.6-0``,  ``1.5.4-0``,  ``1.5.3-0``
+      ``1.8.2-0``,  ``1.7.1-1``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.3-2``,  ``1.6.3-1``,  ``1.6.3-0``,  ``1.6-1``,  ``1.6-0``,  ``1.5.4-0``,  ``1.5.3-0``
 
       
       .. raw:: html
@@ -43,6 +43,7 @@ syri
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libgcc: ``>=14``
    :depends on libstdcxx: ``>=14``
    :depends on longestrunsubsequence: 
@@ -133,7 +134,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "syri";
-      var versions = ["1.7.1","1.7.1","1.7.0","1.6.3","1.6.3"];
+      var versions = ["1.8.2","1.7.1","1.7.1","1.7.0","1.6.3"];
    </script>
 
 .. rubric:: Download stats

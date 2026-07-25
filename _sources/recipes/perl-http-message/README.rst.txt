@@ -26,9 +26,17 @@ perl-http-message
    :versions:
       
       
+      .. raw:: html
 
-      ``7.02-0``,  ``7.01-0``,  ``7.00-0``,  ``6.44-0``,  ``6.36-0``,  ``6.18-1``,  ``6.18-0``,  ``6.11-1``,  ``6.11-0``
+         <details><summary><span class="truncated-version-list"><code>7.04-0</code>,  <code>7.02-0</code>,  <code>7.01-0</code>,  <code>7.00-0</code>,  <code>6.44-0</code>,  <code>6.36-0</code>,  <code>6.18-1</code>,  <code>6.18-0</code>,  <code>6.11-1</code>,  </span></summary>
+      
 
+      ``7.04-0``,  ``7.02-0``,  ``7.01-0``,  ``7.00-0``,  ``6.44-0``,  ``6.36-0``,  ``6.18-1``,  ``6.18-0``,  ``6.11-1``,  ``6.11-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -124,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "perl-http-message";
-      var versions = ["7.02","7.01","7.00","6.44","6.36"];
+      var versions = ["7.04","7.02","7.01","7.00","6.44"];
    </script>
 
 .. rubric:: Download stats

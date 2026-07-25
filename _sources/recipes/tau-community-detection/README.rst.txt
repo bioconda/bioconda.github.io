@@ -12,7 +12,7 @@ tau-community-detection
 
    Community detection via Louvain\/Leiden \+ Genetic Algorithm
 
-   :homepage: https://pypi.org/project/tau-community-detection/
+   :homepage: https://pypi.org/project/tau-community-detection
    :license: MIT
    :recipe: /`tau-community-detection <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tau-community-detection>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tau-community-detection/meta.yaml>`_
 
@@ -27,7 +27,7 @@ tau-community-detection
       
       
 
-      ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.2.11-0``
+      ``1.4.7-0``,  ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.2-0``,  ``1.2.11-0``
 
       
 
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "tau-community-detection";
-      var versions = ["1.4.2","1.4.0","1.3.2","1.2.11"];
+      var versions = ["1.4.7","1.4.2","1.4.0","1.3.2","1.2.11"];
    </script>
 
 .. rubric:: Download stats

@@ -26,9 +26,17 @@ amalgkit
    :versions:
       
       
+      .. raw:: html
 
-      ``0.16.31-0``,  ``0.16.25-0``,  ``0.14.0-0``,  ``0.12.20-0``,  ``0.12.19-0``,  ``0.12.18-0``,  ``0.12.17-0``,  ``0.12.16-0``,  ``0.12.15-0``
+         <details><summary><span class="truncated-version-list"><code>0.16.32-0</code>,  <code>0.16.31-0</code>,  <code>0.16.25-0</code>,  <code>0.14.0-0</code>,  <code>0.12.20-0</code>,  <code>0.12.19-0</code>,  <code>0.12.18-0</code>,  <code>0.12.17-0</code>,  <code>0.12.16-0</code>,  </span></summary>
+      
 
+      ``0.16.32-0``,  ``0.16.31-0``,  ``0.16.25-0``,  ``0.14.0-0``,  ``0.12.20-0``,  ``0.12.19-0``,  ``0.12.18-0``,  ``0.12.17-0``,  ``0.12.16-0``,  ``0.12.15-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -119,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "amalgkit";
-      var versions = ["0.16.31","0.16.25","0.14.0","0.12.20","0.12.19"];
+      var versions = ["0.16.32","0.16.31","0.16.25","0.14.0","0.12.20"];
    </script>
 
 .. rubric:: Download stats

@@ -27,7 +27,7 @@ ervmancer
       
       
 
-      ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``1.0.0-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
@@ -39,7 +39,7 @@ ervmancer
    :depends on python: ``>=3.8,<3.11``
    :depends on regex: 
    :depends on samtools: ``>=1.20``
-   :depends on setuptools: 
+   :depends on setuptools: ``<82``
    :depends on tqdm: 
 
    :additional platforms:
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ervmancer";
-      var versions = ["0.0.4","0.0.3","0.0.2","0.0.1"];
+      var versions = ["1.0.0","0.0.4","0.0.3","0.0.2","0.0.1"];
    </script>
 
 .. rubric:: Download stats

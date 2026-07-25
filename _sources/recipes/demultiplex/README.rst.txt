@@ -10,7 +10,7 @@ demultiplex
    :replaces_section_title:
    :noindex:
 
-   Demultiplex any number of FASTA or a FASTQ files based on a list of barcodes
+   Demultiplex any number of FASTA or a FASTQ files based on a list of barcodes.
 
    :homepage: https://github.com/jfjlaros/demultiplex
    :documentation: https://demultiplex.readthedocs.io/en/latest/index.html
@@ -29,7 +29,7 @@ demultiplex
       
       
 
-      ``1.2.2-1``,  ``1.2.2-0``
+      ``1.2.3-0``,  ``1.2.2-1``,  ``1.2.2-0``
 
       
 
@@ -40,6 +40,7 @@ demultiplex
    :depends on jit-open: ``>=1.0.1``
    :depends on poetry: 
    :depends on python: ``>=3.6``
+   :depends on setuptools: ``<82``
    :depends on tssv: ``>=1.1.0``
 
    :additional platforms:
@@ -115,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "demultiplex";
-      var versions = ["1.2.2","1.2.2"];
+      var versions = ["1.2.3","1.2.2","1.2.2"];
    </script>
 
 .. rubric:: Download stats

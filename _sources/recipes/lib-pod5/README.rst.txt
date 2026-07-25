@@ -43,7 +43,7 @@ lib-pod5
       
       
 
-      ``0.3.39-0``,  ``0.3.33-0``,  ``0.3.27-0``,  ``0.3.23-0``,  ``0.3.15-0``
+      ``0.3.44-0``,  ``0.3.39-0``,  ``0.3.33-0``,  ``0.3.27-0``,  ``0.3.23-0``,  ``0.3.15-0``
 
       
 
@@ -135,7 +135,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "lib-pod5";
-      var versions = ["0.3.39","0.3.33","0.3.27","0.3.23","0.3.15"];
+      var versions = ["0.3.44","0.3.39","0.3.33","0.3.27","0.3.23"];
    </script>
 
 .. rubric:: Download stats

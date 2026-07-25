@@ -31,10 +31,10 @@ sdeper
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.0-0</code>,  <code>1.7.1-0</code>,  <code>1.7.0-0</code>,  <code>1.6.4-1</code>,  <code>1.6.4-0</code>,  <code>1.6.3-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  <code>1.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.2-0</code>,  <code>2.0.0-0</code>,  <code>1.7.1-0</code>,  <code>1.7.0-0</code>,  <code>1.6.4-1</code>,  <code>1.6.4-0</code>,  <code>1.6.3-0</code>,  <code>1.6.2-0</code>,  <code>1.6.1-0</code>,  </span></summary>
       
 
-      ``2.0.0-0``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.4-1``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``2.0.2-0``,  ``2.0.0-0``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.4-1``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.6.2-0``,  ``1.6.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -60,7 +60,7 @@ sdeper
    :depends on scipy: ``1.11.4``
    :depends on seaborn: ``0.13.2``
    :depends on tensorflow-base: ``2.15.0 cpu_*``
-   :depends on umap-learn: ``0.5.3``
+   :depends on umap-learn: ``0.5.7``
 
    :additional platforms:
       
@@ -135,7 +135,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "sdeper";
-      var versions = ["2.0.0","1.7.1","1.7.0","1.6.4","1.6.4"];
+      var versions = ["2.0.2","2.0.0","1.7.1","1.7.0","1.6.4"];
    </script>
 
 .. rubric:: Download stats

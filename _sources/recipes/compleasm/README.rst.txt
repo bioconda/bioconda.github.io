@@ -27,7 +27,7 @@ compleasm
       
       
 
-      ``0.2.8-0``,  ``0.2.7-1``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.2-0``
+      ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-1``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.2-0``
 
       
 
@@ -36,7 +36,7 @@ compleasm
    :depends on hmmer: 
    :depends on miniprot: ``>=0.11``
    :depends on pandas: 
-   :depends on python: 
+   :depends on python: ``>=3.9``
    :depends on sepp: 
 
    :additional platforms:
@@ -112,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "compleasm";
-      var versions = ["0.2.8","0.2.7","0.2.7","0.2.6","0.2.5"];
+      var versions = ["0.2.9","0.2.8","0.2.7","0.2.7","0.2.6"];
    </script>
 
 .. rubric:: Download stats

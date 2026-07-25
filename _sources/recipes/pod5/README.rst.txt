@@ -35,7 +35,7 @@ pod5
       
       
 
-      ``0.3.39-0``,  ``0.3.33-0``,  ``0.3.27-0``,  ``0.3.23-0``,  ``0.3.15-0``
+      ``0.3.44-0``,  ``0.3.39-0``,  ``0.3.33-0``,  ``0.3.27-0``,  ``0.3.23-0``,  ``0.3.15-0``
 
       
 
@@ -43,7 +43,7 @@ pod5
    :depends on deprecated: 
    :depends on h5py: ``>=3.11``
    :depends on iso8601: 
-   :depends on lib-pod5: ``0.3.39``
+   :depends on lib-pod5: ``0.3.44``
    :depends on more-itertools: 
    :depends on numpy: ``>=1.21.0``
    :depends on packaging: 
@@ -127,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pod5";
-      var versions = ["0.3.39","0.3.33","0.3.27","0.3.23","0.3.15"];
+      var versions = ["0.3.44","0.3.39","0.3.33","0.3.27","0.3.23"];
    </script>
 
 .. rubric:: Download stats

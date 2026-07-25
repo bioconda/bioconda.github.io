@@ -30,10 +30,10 @@ repeatmodeler
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.8-1</code>,  <code>2.0.8-0</code>,  <code>2.0.7-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2a-1</code>,  <code>2.0.2a-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.9-0</code>,  <code>2.0.8-1</code>,  <code>2.0.8-0</code>,  <code>2.0.7-0</code>,  <code>2.0.6-0</code>,  <code>2.0.5-0</code>,  <code>2.0.4-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2a-1</code>,  </span></summary>
       
 
-      ``2.0.8-1``,  ``2.0.8-0``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2a-1``,  ``2.0.2a-0``,  ``2.0.1-0``,  ``1.0.11-3``,  ``1.0.11-2``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.8-1``,  ``1.0.8-0``
+      ``2.0.9-0``,  ``2.0.8-1``,  ``2.0.8-0``,  ``2.0.7-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2a-1``,  ``2.0.2a-0``,  ``2.0.1-0``,  ``1.0.11-3``,  ``1.0.11-2``,  ``1.0.11-1``,  ``1.0.11-0``,  ``1.0.8-1``,  ``1.0.8-0``
 
       
       .. raw:: html
@@ -43,10 +43,12 @@ repeatmodeler
 
    
    :depends on cd-hit: ``>=4.8.1``
+   :depends on famdb: 
    :depends on genometools-genometools: ``>=1.6``
    :depends on ltr_retriever: ``>=2.9``
    :depends on mafft: ``>=7.471``
    :depends on ninja-nj: 
+   :depends on perl: ``>=5.32.1,<6.0a0``
    :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
    :depends on perl-devel-size: 
    :depends on perl-file-which: 
@@ -55,9 +57,9 @@ repeatmodeler
    :depends on perl-uri: 
    :depends on recon: ``1.10.*``
    :depends on repeatafterme: 
-   :depends on repeatmasker: ``>=4.1.5``
+   :depends on repeatmasker: ``>=4.2.4``
    :depends on repeatscout: ``>=1.0.6``
-   :depends on rmblast: ``>=2.14.1``
+   :depends on rmblast: ``>=2.17.0``
    :depends on trf: ``>=4.09``
    :depends on ucsc-fatotwobit: 
    :depends on ucsc-twobitinfo: 
@@ -136,7 +138,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "repeatmodeler";
-      var versions = ["2.0.8","2.0.8","2.0.7","2.0.6","2.0.5"];
+      var versions = ["2.0.9","2.0.8","2.0.8","2.0.7","2.0.6"];
    </script>
 
 .. rubric:: Download stats

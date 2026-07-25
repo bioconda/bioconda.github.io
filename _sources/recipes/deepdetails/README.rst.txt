@@ -16,7 +16,7 @@ deepdetails
    :developer docs: https://github.com/liyao001/DeepDETAILS
    :license: GPL-3.0
    :recipe: /`deepdetails <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deepdetails>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deepdetails/meta.yaml>`_
-   :links: doi: :doi:`10.1101/2025.04.02.646189`
+   :links: doi: :doi:`10.1038/s41587-026-03218-w`
 
    
 
@@ -29,7 +29,7 @@ deepdetails
       
       
 
-      ``0.1.1rc1-0``,  ``0.0.1rc2-0``,  ``0.0.1rc1-0``
+      ``1.0.0rc1-0``,  ``0.1.1rc1-0``,  ``0.0.1rc2-0``,  ``0.0.1rc1-0``
 
       
 
@@ -44,7 +44,7 @@ deepdetails
    :depends on pybedtools: 
    :depends on pybigwig: 
    :depends on pyfaidx: 
-   :depends on python: ``>=3.8``
+   :depends on python: ``>=3.10``
    :depends on pytorch: 
    :depends on pytorch-lightning: 
    :depends on scikit-learn: 
@@ -128,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "deepdetails";
-      var versions = ["0.1.1rc1","0.0.1rc2","0.0.1rc1"];
+      var versions = ["1.0.0rc1","0.1.1rc1","0.0.1rc2","0.0.1rc1"];
    </script>
 
 .. rubric:: Download stats

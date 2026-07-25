@@ -29,24 +29,25 @@ tssv
       
       
 
-      ``1.1.2-6``,  ``1.1.2-5``,  ``1.1.2-4``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.0-0``
+      ``1.2.1-0``,  ``1.1.2-6``,  ``1.1.2-5``,  ``1.1.2-4``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.1.0-0``
 
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on biopython: ``>=1.72``
-   :depends on libgcc: ``>=13``
+   :depends on libgcc: ``>=14``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on requests: 
-   :depends on setuptools: 
+   :depends on setuptools: ``<82``
    :depends on xopen: 
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -119,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "tssv";
-      var versions = ["1.1.2","1.1.2","1.1.2","1.1.2","1.1.2"];
+      var versions = ["1.2.1","1.1.2","1.1.2","1.1.2","1.1.2"];
    </script>
 
 .. rubric:: Download stats

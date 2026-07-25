@@ -27,7 +27,7 @@ arcane
       
       
 
-      ``0.1.3.1-0``,  ``0.1.1.2-0``
+      ``0.1.4-0``,  ``0.1.3.1-0``,  ``0.1.1.2-0``
 
       
 
@@ -36,11 +36,14 @@ arcane
    :depends on clangdev: 
    :depends on jsonargparse: ``>=4.29.0``
    :depends on llvmlite: 
+   :depends on matplotlib-base: 
    :depends on numba: 
    :depends on numpy: 
    :depends on pip: 
    :depends on pytest: 
-   :depends on python: ``>=3.12``
+   :depends on python: ``<3.14``
+   :depends on scipy: 
+   :depends on seaborn: 
    :depends on tabix: 
    :depends on xz: 
 
@@ -117,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "arcane";
-      var versions = ["0.1.3.1","0.1.1.2"];
+      var versions = ["0.1.4","0.1.3.1","0.1.1.2"];
    </script>
 
 .. rubric:: Download stats
