@@ -10,10 +10,10 @@ vine-phylo
    :replaces_section_title:
    :noindex:
 
-   VINE \(phylogenetics\)\: Variational Inference with Node Embeddings
+   VINE \(phylogenetics\)\: Variational Inference with Node Embeddings.
 
    :homepage: https://github.com/CshlSiepelLab/vine
-   :license: BSD-3-Clause
+   :license: BSD / BSD-3-Clause
    :recipe: /`vine-phylo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vine-phylo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vine-phylo/meta.yaml>`_
 
    VINE is a tool for Bayesian variational phylogenetic inference.
@@ -28,16 +28,23 @@ vine-phylo
       
       
 
-      ``0.3.4-0``,  ``0.3.3-0``
+      ``0.3.5-0``,  ``0.3.4-0``,  ``0.3.3-0``
 
       
 
    
+   :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on libgcc: ``>=14``
+   :depends on liblapack: ``>=3.9.0,<4.0a0``
+   :depends on libopenblas: ``>=0.3.34,<1.0a0``
    :depends on pcre: ``>=8.45,<9.0a0``
-   :depends on phast: ``>=1.9.7,<2.0a0``
+   :depends on phast: ``>=1.9.9,<2.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -110,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "vine-phylo";
-      var versions = ["0.3.4","0.3.3"];
+      var versions = ["0.3.5","0.3.4","0.3.3"];
    </script>
 
 .. rubric:: Download stats

@@ -10,12 +10,12 @@ dart-adna
    :replaces_section_title:
    :noindex:
 
-   DART \- Damage\-Aware Read Translation for ancient DNA metagenomics
+   DART \- Damage\-Aware Read Translation for ancient DNA metagenomics.
 
    :homepage: https://github.com/genomewalker/dart
    :documentation: https://github.com/genomewalker/dart/wiki
    
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`dart-adna <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dart-adna>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dart-adna/meta.yaml>`_
 
    
@@ -29,7 +29,7 @@ dart-adna
       
       
 
-      ``1.0.4-1``,  ``1.0.4-0``
+      ``1.1.0-0``,  ``1.0.4-1``,  ``1.0.4-0``
 
       
 
@@ -38,8 +38,7 @@ dart-adna
    :depends on libgcc: ``>=14``
    :depends on libgomp: 
    :depends on libstdcxx: ``>=14``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on zlib: 
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on zstd: ``>=1.5.7,<1.6.0a0``
 
    :additional platforms:
@@ -119,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "dart-adna";
-      var versions = ["1.0.4","1.0.4"];
+      var versions = ["1.1.0","1.0.4","1.0.4"];
    </script>
 
 .. rubric:: Download stats

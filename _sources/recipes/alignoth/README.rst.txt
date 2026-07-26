@@ -43,7 +43,6 @@ alignoth
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libcblas: ``>=3.9.0,<4.0a0``
    :depends on libcurl: ``>=8.21.0,<9.0a0``
    :depends on libgcc: ``>=14``

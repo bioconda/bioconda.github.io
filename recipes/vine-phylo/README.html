@@ -67,13 +67,13 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">vine-phylo</span></span></dt>
-<dd><p>VINE (phylogenetics): Variational Inference with Node Embeddings</p>
+<dd><p>VINE (phylogenetics): Variational Inference with Node Embeddings.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="reference external" href="https://github.com/CshlSiepelLab/vine">https://github.com/CshlSiepelLab/vine</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>BSD-3-Clause</p>
+<dd class="field-even"><p>BSD / BSD-3-Clause</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vine-phylo">vine-phylo</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vine-phylo/meta.yaml">meta.yaml</a></p>
@@ -86,19 +86,22 @@
 <dt class="sig sig-object conda" id="package-vine-phylo">
 <span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">vine-phylo</span></span><a class="headerlink" href="#package-vine-phylo" title="Link to this definition">¶</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/vine-phylo"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/vine-phylo.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/vine-phylo"><img alt="docker_vine-phylo" src="https://quay.io/repository/biocontainers/vine-phylo/status" /></a></p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.3.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.3-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.3.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.3-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
+<li><p><strong>on libblas</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.9.0,&lt;4.0a0</span></code></p></li>
 <li><p><strong>on libgcc</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p></li>
+<li><p><strong>on liblapack</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=3.9.0,&lt;4.0a0</span></code></p></li>
+<li><p><strong>on libopenblas</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=0.3.34,&lt;1.0a0</span></code></p></li>
 <li><p><strong>on pcre</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=8.45,&lt;9.0a0</span></code></p></li>
-<li><p><strong>on phast</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.9.7,&lt;2.0a0</span></code></p></li>
+<li><p><strong>on phast</strong> <code class="docutils literal notranslate"><span class="pre">&gt;=1.9.9,&lt;2.0a0</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
+<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
 </dl>
 </dd></dl>
 
@@ -153,7 +156,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "vine-phylo";
-   var versions = ["0.3.4","0.3.3"];
+   var versions = ["0.3.5","0.3.4","0.3.3"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_vine-phylo"></div>
 <div style="width: 100%" id="platform_plot_vine-phylo"></div>

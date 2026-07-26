@@ -6,15 +6,15 @@
 perl-extutils-cbuilder
 ======================
 
-.. conda:recipe:: perl-extutils-cbuilder/0.280230
+.. conda:recipe:: perl-extutils-cbuilder
    :replaces_section_title:
    :noindex:
 
-   Compile and link C code for Perl modules
+   Compile and link C code for Perl modules.
 
-   :homepage: http://search.cpan.org/dist/ExtUtils-CBuilder
+   :homepage: https://metacpan.org/pod/ExtUtils::CBuilder
    :license: perl_5
-   :recipe: /`perl-extutils-cbuilder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-cbuilder>`_/`0.280230 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-cbuilder/0.280230>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-cbuilder/0.280230/meta.yaml>`_
+   :recipe: /`perl-extutils-cbuilder <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-cbuilder>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-cbuilder/meta.yaml>`_
 
    
 
@@ -27,7 +27,7 @@ perl-extutils-cbuilder
       
       
 
-      ``0.280230-2``,  ``0.280230-1``,  ``0.280230-0``
+      ``0.280236-0``,  ``0.280230-2``,  ``0.280230-1``,  ``0.280230-0``
 
       
 
@@ -112,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "perl-extutils-cbuilder";
-      var versions = ["0.280230","0.280230","0.280230"];
+      var versions = ["0.280236","0.280230","0.280230","0.280230"];
    </script>
 
 .. rubric:: Download stats

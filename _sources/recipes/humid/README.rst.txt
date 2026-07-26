@@ -29,7 +29,7 @@ humid
       
       
 
-      ``1.0.37-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``1.0.37-0``,  ``1.0.5-0``,  ``1.0.4-2``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
 
@@ -39,6 +39,10 @@ humid
    :depends on libdeflate: ``>=1.13,<1.14.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -111,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "humid";
-      var versions = ["1.0.37","1.0.4","1.0.4","1.0.4","1.0.2"];
+      var versions = ["1.0.37","1.0.5","1.0.4","1.0.4","1.0.4"];
    </script>
 
 .. rubric:: Download stats

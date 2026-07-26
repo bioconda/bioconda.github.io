@@ -13,7 +13,7 @@ alphatims
    A Python package for indexing Bruker timsTOF raw data
 
    :homepage: https://github.com/MannLabs/alphatims
-   :documentation: https://alphatims.readthedocs.io/en/latest/
+   :documentation: https://alphatims.readthedocs.io/en/latest
    
    :license: APACHE / Apache-2.0
    :recipe: /`alphatims <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alphatims>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alphatims/meta.yaml>`_
@@ -31,11 +31,13 @@ alphatims
       
       
 
-      ``1.0.10-0``,  ``1.0.9-0``
+      ``1.1.1-0``,  ``1.0.10-0``,  ``1.0.9-0``
 
       
 
    
+   :depends on alphabase: 
+   :depends on alpharaw: 
    :depends on click: 
    :depends on h5py: 
    :depends on numba: 
@@ -118,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "alphatims";
-      var versions = ["1.0.10","1.0.9"];
+      var versions = ["1.1.1","1.0.10","1.0.9"];
    </script>
 
 .. rubric:: Download stats

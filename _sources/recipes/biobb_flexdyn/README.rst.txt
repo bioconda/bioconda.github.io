@@ -62,7 +62,7 @@ biobb_flexdyn
 
    
    :depends on biobb_common: ``5.3.1``
-   :depends on concoord: ``2.1.2 h9ee0642_4``
+   :depends on concoord: ``2.1.2 h527b516_4``
    :depends on imods: 
    :depends on nolb: 
    :depends on prody: 

@@ -32,8 +32,8 @@ shortseq
       
 
    
-   :depends on libgcc-ng: ``>=12``
-   :depends on libstdcxx-ng: ``>=12``
+   :depends on __osx: ``>=10.9``
+   :depends on libcxx: ``>=15.0.7``
    :depends on numpy: ``>=1.21.6,<2.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``

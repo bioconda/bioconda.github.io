@@ -10,9 +10,9 @@ perl-html-parser
    :replaces_section_title:
    :noindex:
 
-   HTML parser class
+   HTML parser class.
 
-   :homepage: http://metacpan.org/pod/HTML::Parser
+   :homepage: https://metacpan.org/pod/HTML::Parser
    :license: perl_5
    :recipe: /`perl-html-parser <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-parser>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-parser/meta.yaml>`_
 
@@ -28,10 +28,10 @@ perl-html-parser
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.83-1</code>,  <code>3.83-0</code>,  <code>3.81-3</code>,  <code>3.81-2</code>,  <code>3.81-1</code>,  <code>3.81-0</code>,  <code>3.80-0</code>,  <code>3.79-0</code>,  <code>3.78-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.85-0</code>,  <code>3.83-1</code>,  <code>3.83-0</code>,  <code>3.81-3</code>,  <code>3.81-2</code>,  <code>3.81-1</code>,  <code>3.81-0</code>,  <code>3.80-0</code>,  <code>3.79-0</code>,  </span></summary>
       
 
-      ``3.83-1``,  ``3.83-0``,  ``3.81-3``,  ``3.81-2``,  ``3.81-1``,  ``3.81-0``,  ``3.80-0``,  ``3.79-0``,  ``3.78-0``,  ``3.72-8``,  ``3.72-7``,  ``3.72-5``,  ``3.72-4``,  ``3.72-3``,  ``3.72-2``,  ``3.72-1``,  ``3.72-0``
+      ``3.85-0``,  ``3.83-1``,  ``3.83-0``,  ``3.81-3``,  ``3.81-2``,  ``3.81-1``,  ``3.81-0``,  ``3.80-0``,  ``3.79-0``,  ``3.78-0``,  ``3.72-8``,  ``3.72-7``,  ``3.72-5``,  ``3.72-4``,  ``3.72-3``,  ``3.72-2``,  ``3.72-1``,  ``3.72-0``
 
       
       .. raw:: html
@@ -40,12 +40,12 @@ perl-html-parser
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends on perl-html-tagset: 
-   :depends on perl-http-message: 
-   :depends on perl-uri: ``5.17.*``
+   :depends on perl-html-tagset: ``>=3.24,<4.0a0``
+   :depends on perl-http-message: ``>=7.4,<8.0a0``
+   :depends on perl-uri: ``5.35.*``
 
    :additional platforms:
       
@@ -124,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "perl-html-parser";
-      var versions = ["3.83","3.83","3.81","3.81","3.81"];
+      var versions = ["3.85","3.83","3.83","3.81","3.81"];
    </script>
 
 .. rubric:: Download stats

@@ -28,7 +28,7 @@ amplicontyper
       
       
 
-      ``0.1.34-0``,  ``0.1.33-0``,  ``0.1.32-0``,  ``0.1.29-0``,  ``0.1.28-0``,  ``0.1.27-0``
+      ``0.1.35-0``,  ``0.1.34-0``,  ``0.1.33-0``,  ``0.1.32-0``,  ``0.1.29-0``,  ``0.1.28-0``,  ``0.1.27-0``
 
       
 
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "amplicontyper";
-      var versions = ["0.1.34","0.1.33","0.1.32","0.1.29","0.1.28"];
+      var versions = ["0.1.35","0.1.34","0.1.33","0.1.32","0.1.29"];
    </script>
 
 .. rubric:: Download stats

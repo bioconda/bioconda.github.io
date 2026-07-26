@@ -10,7 +10,7 @@ phast
    :replaces_section_title:
    :noindex:
 
-   PHAST\: Phylogenetic Analysis with Space\/Time models
+   PHAST\: Phylogenetic Analysis with Space\/Time models.
 
    :homepage: https://github.com/CshlSiepelLab/phast
    :license: BSD-3-Clause
@@ -30,10 +30,10 @@ phast
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.9.7-0</code>,  <code>1.9.6-0</code>,  <code>1.5-7</code>,  <code>1.5-6</code>,  <code>1.5-5</code>,  <code>1.5-4</code>,  <code>1.5-3</code>,  <code>1.5-2</code>,  <code>1.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.9.9-0</code>,  <code>1.9.7-1</code>,  <code>1.9.7-0</code>,  <code>1.9.6-0</code>,  <code>1.5-7</code>,  <code>1.5-6</code>,  <code>1.5-5</code>,  <code>1.5-4</code>,  <code>1.5-3</code>,  </span></summary>
       
 
-      ``1.9.7-0``,  ``1.9.6-0``,  ``1.5-7``,  ``1.5-6``,  ``1.5-5``,  ``1.5-4``,  ``1.5-3``,  ``1.5-2``,  ``1.5-1``,  ``1.5-0``
+      ``1.9.9-0``,  ``1.9.7-1``,  ``1.9.7-0``,  ``1.9.6-0``,  ``1.5-7``,  ``1.5-6``,  ``1.5-5``,  ``1.5-4``,  ``1.5-3``,  ``1.5-2``,  ``1.5-1``,  ``1.5-0``
 
       
       .. raw:: html
@@ -42,11 +42,16 @@ phast
       
 
    
+   :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on libgcc: ``>=14``
-   :depends on libopenblas: 
+   :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on pcre: ``>=8.45,<9.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -119,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "phast";
-      var versions = ["1.9.7","1.9.6","1.5","1.5","1.5"];
+      var versions = ["1.9.9","1.9.7","1.9.7","1.9.6","1.5"];
    </script>
 
 .. rubric:: Download stats

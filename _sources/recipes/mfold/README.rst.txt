@@ -12,10 +12,10 @@ mfold
 
    Mfold web server for nucleic acid folding and hybridization prediction.
 
-   :homepage: http://www.unafold.org/mfold/software/download-mfold.php
+   :homepage: https://www.unafold.org/mfold/software/download-mfold.php
    :license: Custom OSS
    :recipe: /`mfold <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mfold>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mfold/meta.yaml>`_
-   :links: doi: :doi:`10.1007/978-94-011-4485-8_2`
+   :links: doi: :doi:`10.1007/978-94-011-4485-8_2`, biotools: :biotools:`mfold`
 
    
 
@@ -28,7 +28,7 @@ mfold
       
       
 
-      ``3.6-4``,  ``3.6-3``,  ``3.6-2``,  ``3.6-1``,  ``3.6-0``
+      ``3.6-5``,  ``3.6-4``,  ``3.6-3``,  ``3.6-2``,  ``3.6-1``,  ``3.6-0``
 
       
 
@@ -39,6 +39,10 @@ mfold
    :depends on libstdcxx: ``>=14``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 

@@ -13,9 +13,11 @@ adapterremoval
    The AdapterRemoval v2 tool for merging and clipping reads.
 
    :homepage: https://github.com/MikkelSchubert/adapterremoval
+   :documentation: https://adapterremoval.readthedocs.io/en/stable
+   
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`adapterremoval <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/adapterremoval>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/adapterremoval/meta.yaml>`_
-   :links: biotools: :biotools:`adapterremoval`, usegalaxy-eu: :usegalaxy-eu:`adapter_removal`
+   :links: biotools: :biotools:`adapterremoval`, usegalaxy-eu: :usegalaxy-eu:`adapter_removal`, doi: :doi:`10.1186/s13104-016-1900-2`
 
    
 
@@ -29,10 +31,10 @@ adapterremoval
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.3.4-2</code>,  <code>2.3.4-1</code>,  <code>2.3.4-0</code>,  <code>2.3.3-3</code>,  <code>2.3.3-2</code>,  <code>2.3.3-1</code>,  <code>2.3.3-0</code>,  <code>2.3.2-2</code>,  <code>2.3.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.1-0</code>,  <code>2.3.4-2</code>,  <code>2.3.4-1</code>,  <code>2.3.4-0</code>,  <code>2.3.3-3</code>,  <code>2.3.3-2</code>,  <code>2.3.3-1</code>,  <code>2.3.3-0</code>,  <code>2.3.2-2</code>,  </span></summary>
       
 
-      ``2.3.4-2``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.3-3``,  ``2.3.3-2``,  ``2.3.3-1``,  ``2.3.3-0``,  ``2.3.2-2``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.2-4``,  ``2.2.2-3``,  ``2.2.2-2``
+      ``3.0.1-0``,  ``2.3.4-2``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.3-3``,  ``2.3.3-2``,  ``2.3.3-1``,  ``2.3.3-0``,  ``2.3.2-2``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.2-4``,  ``2.2.2-3``,  ``2.2.2-2``
 
       
       .. raw:: html
@@ -42,9 +44,11 @@ adapterremoval
 
    
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on isa-l: ``>=2.32.1,<3.0a0``
+   :depends on libdeflate: ``>=1.25,<1.26.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
 
    :additional platforms:
@@ -124,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "adapterremoval";
-      var versions = ["2.3.4","2.3.4","2.3.4","2.3.3","2.3.3"];
+      var versions = ["3.0.1","2.3.4","2.3.4","2.3.4","2.3.3"];
    </script>
 
 .. rubric:: Download stats

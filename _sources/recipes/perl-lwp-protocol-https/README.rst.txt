@@ -28,10 +28,10 @@ perl-lwp-protocol-https
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>6.15-0</code>,  <code>6.14-1</code>,  <code>6.14-0</code>,  <code>6.10-0</code>,  <code>6.07-5</code>,  <code>6.07-4</code>,  <code>6.06-3</code>,  <code>6.06-2</code>,  <code>6.06-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>6.17-0</code>,  <code>6.15-0</code>,  <code>6.14-1</code>,  <code>6.14-0</code>,  <code>6.10-0</code>,  <code>6.07-5</code>,  <code>6.07-4</code>,  <code>6.06-3</code>,  <code>6.06-2</code>,  </span></summary>
       
 
-      ``6.15-0``,  ``6.14-1``,  ``6.14-0``,  ``6.10-0``,  ``6.07-5``,  ``6.07-4``,  ``6.06-3``,  ``6.06-2``,  ``6.06-1``,  ``6.06-0``
+      ``6.17-0``,  ``6.15-0``,  ``6.14-1``,  ``6.14-0``,  ``6.10-0``,  ``6.07-5``,  ``6.07-4``,  ``6.06-3``,  ``6.06-2``,  ``6.06-1``,  ``6.06-0``
 
       
       .. raw:: html
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "perl-lwp-protocol-https";
-      var versions = ["6.15","6.14","6.14","6.10","6.07"];
+      var versions = ["6.17","6.15","6.14","6.14","6.10"];
    </script>
 
 .. rubric:: Download stats

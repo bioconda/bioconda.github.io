@@ -27,14 +27,14 @@ perl-sereal
       
       
 
-      ``5.004-0``,  ``4.019-0``,  ``4.007-1``,  ``4.007-0``,  ``4.005-0``,  ``3.015-1``,  ``3.015-0``
+      ``5.009-0``,  ``5.004-0``,  ``4.019-0``,  ``4.007-1``,  ``4.007-0``,  ``4.005-0``,  ``3.015-1``,  ``3.015-0``
 
       
 
    
    :depends on perl: ``>=5.32.1,<6.0a0 *_perl5``
-   :depends on perl-sereal-decoder: ``>=5.004``
-   :depends on perl-sereal-encoder: ``>=5.004``
+   :depends on perl-sereal-decoder: ``>=5.009``
+   :depends on perl-sereal-encoder: ``>=5.009``
 
    :additional platforms:
       
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "perl-sereal";
-      var versions = ["5.004","4.019","4.007","4.007","4.005"];
+      var versions = ["5.009","5.004","4.019","4.007","4.007"];
    </script>
 
 .. rubric:: Download stats

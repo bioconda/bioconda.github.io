@@ -28,10 +28,10 @@ perl-sereal-decoder
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.004-0</code>,  <code>4.025-2</code>,  <code>4.025-1</code>,  <code>4.025-0</code>,  <code>4.023-1</code>,  <code>4.023-0</code>,  <code>4.020-0</code>,  <code>4.019-0</code>,  <code>4.007-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.009-0</code>,  <code>5.004-0</code>,  <code>4.025-2</code>,  <code>4.025-1</code>,  <code>4.025-0</code>,  <code>4.023-1</code>,  <code>4.023-0</code>,  <code>4.020-0</code>,  <code>4.019-0</code>,  </span></summary>
       
 
-      ``5.004-0``,  ``4.025-2``,  ``4.025-1``,  ``4.025-0``,  ``4.023-1``,  ``4.023-0``,  ``4.020-0``,  ``4.019-0``,  ``4.007-1``,  ``4.007-0``,  ``4.005-0``,  ``3.015-1``,  ``3.015-0``
+      ``5.009-0``,  ``5.004-0``,  ``4.025-2``,  ``4.025-1``,  ``4.025-0``,  ``4.023-1``,  ``4.023-0``,  ``4.020-0``,  ``4.019-0``,  ``4.007-1``,  ``4.007-0``,  ``4.005-0``,  ``3.015-1``,  ``3.015-0``
 
       
       .. raw:: html
@@ -40,10 +40,11 @@ perl-sereal-decoder
       
 
    
-   :depends on libgcc: ``>=13``
+   :depends on libgcc: ``>=14``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-devel-checklib: ``>=1.16,<2.0a0``
-   :depends on perl-extutils-parsexs: ``>=3.58,<4.0a0``
+   :depends on perl-extutils-parsexs: ``>=3.63,<4.0a0``
+   :depends on perl-xsloader: 
 
    :additional platforms:
       
@@ -122,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "perl-sereal-decoder";
-      var versions = ["5.004","4.025","4.025","4.025","4.023"];
+      var versions = ["5.009","5.004","4.025","4.025","4.025"];
    </script>
 
 .. rubric:: Download stats

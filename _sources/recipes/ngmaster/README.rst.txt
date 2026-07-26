@@ -29,17 +29,20 @@ ngmaster
       
       
 
-      ``2.0.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.0.0-0``,  ``0.5.8-1``,  ``0.5.8-0``
+      ``2.1.0-0``,  ``2.0.0-0``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.0.0-0``,  ``0.5.8-1``,  ``0.5.8-0``
 
       
 
    
    :depends on biopython: 
    :depends on bs4: 
+   :depends on certifi: ``>=2023.7.22``
+   :depends on idna: ``>=3.15``
    :depends on mlst: 
-   :depends on mlstdb: ``1.0.0``
-   :depends on python: ``>=3.12``
-   :depends on requests: 
+   :depends on mlstdb: ``>=1.2.0``
+   :depends on python: ``>=3.10``
+   :depends on requests: ``>=2.33.0``
+   :depends on urllib3: ``>=2.7.0``
 
    :additional platforms:
       
@@ -114,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ngmaster";
-      var versions = ["2.0.0","1.1.1","1.1.1","1.0.0","0.5.8"];
+      var versions = ["2.1.0","2.0.0","1.1.1","1.1.1","1.0.0"];
    </script>
 
 .. rubric:: Download stats

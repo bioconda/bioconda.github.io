@@ -30,14 +30,13 @@ pygrgl
       
       
 
-      ``2.8-0``,  ``2.7-0``,  ``2.6-0``,  ``2.5-0``,  ``2.4-0``
+      ``2.10-0``,  ``2.8-0``,  ``2.7-0``,  ``2.6-0``,  ``2.5-0``,  ``2.4-0``
 
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on __osx: ``>=10.13``
+   :depends on libcxx: ``>=19``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
@@ -116,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pygrgl";
-      var versions = ["2.8","2.7","2.6","2.5","2.4"];
+      var versions = ["2.10","2.8","2.7","2.6","2.5"];
    </script>
 
 .. rubric:: Download stats

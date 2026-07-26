@@ -6,15 +6,15 @@
 perl-module-load-conditional
 ============================
 
-.. conda:recipe:: perl-module-load-conditional/0.68
+.. conda:recipe:: perl-module-load-conditional
    :replaces_section_title:
    :noindex:
 
-   Looking up module information \/ loading at runtime
+   Looking up module information \/ loading at runtime.
 
-   :homepage: http://metacpan.org/pod/Module::Load::Conditional
+   :homepage: https://metacpan.org/pod/Module::Load::Conditional
    :license: perl_5
-   :recipe: /`perl-module-load-conditional <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-load-conditional>`_/`0.68 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-load-conditional/0.68>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-load-conditional/0.68/meta.yaml>`_
+   :recipe: /`perl-module-load-conditional <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-load-conditional>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-load-conditional/meta.yaml>`_
 
    
 
@@ -27,7 +27,7 @@ perl-module-load-conditional
       
       
 
-      ``0.68-3``,  ``0.68-2``,  ``0.68-1``,  ``0.68-0``,  ``0.62-1``,  ``0.62-0``
+      ``0.74-0``,  ``0.68-3``,  ``0.68-2``,  ``0.68-1``,  ``0.68-0``,  ``0.62-1``,  ``0.62-0``
 
       
 
@@ -113,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "perl-module-load-conditional";
-      var versions = ["0.68","0.68","0.68","0.68","0.62"];
+      var versions = ["0.74","0.68","0.68","0.68","0.68"];
    </script>
 
 .. rubric:: Download stats

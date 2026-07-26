@@ -30,9 +30,17 @@ staphscope
    :versions:
       
       
+      .. raw:: html
 
-      ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  </span></summary>
+      
 
+      ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -61,7 +69,7 @@ staphscope
    :depends on requests: ``>=2.28.0``
    :depends on scipy: ``>=1.10.1``
    :depends on seaborn: ``>=0.12.0``
-   :depends on staphscope-sccmec-data: ``1.3.1``
+   :depends on staphscope-sccmec-data: ``1.3.2``
    :depends on tqdm: ``>=4.64.0``
 
    :additional platforms:
@@ -137,7 +145,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "staphscope";
-      var versions = ["1.3.1","1.3.0","1.2.3","1.2.2","1.2.1"];
+      var versions = ["1.3.2","1.3.1","1.3.0","1.2.3","1.2.2"];
    </script>
 
 .. rubric:: Download stats

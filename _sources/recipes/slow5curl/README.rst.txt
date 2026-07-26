@@ -13,7 +13,9 @@ slow5curl
    Tool for accessing remote BLOW5 files.
 
    :homepage: https://github.com/BonsonW/slow5curl
-   :license: MIT
+   :documentation: https://bonsonw.github.io/slow5curl
+   
+   :license: MIT / MIT
    :recipe: /`slow5curl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/slow5curl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/slow5curl/meta.yaml>`_
 
    slow5curl is a command line tool for fetching reads from remote BLOW5 files\, which is built on top of slow5lib and libcurl.
@@ -27,17 +29,20 @@ slow5curl
       
       
 
-      ``0.3.0-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
 
    
    :depends on curl: 
-   :depends on libgcc: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on zlib: 
+   :depends on libgcc: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -110,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "slow5curl";
-      var versions = ["0.3.0","0.2.1","0.2.1","0.2.0"];
+      var versions = ["0.3.1","0.3.0","0.2.1","0.2.1","0.2.0"];
    </script>
 
 .. rubric:: Download stats
