@@ -35,6 +35,7 @@ eviann
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on blast: 
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on hisat2: 

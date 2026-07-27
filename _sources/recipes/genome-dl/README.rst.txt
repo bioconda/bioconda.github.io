@@ -1,48 +1,43 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'bioformats2raw'
+.. title:: Package Recipe 'genome-dl'
 .. highlight: bash
 
-bioformats2raw
-==============
+genome-dl
+=========
 
-.. conda:recipe:: bioformats2raw
+.. conda:recipe:: genome-dl
    :replaces_section_title:
    :noindex:
 
-   Bio\-Formats image file format to OME\-NGFF format converter
+   Download genomes from NCBI Datasets.
 
-   :homepage: https://github.com/glencoesoftware/bioformats2raw
-   :documentation: https://github.com/glencoesoftware/bioformats2raw/blob/v0.12.1/README.md
+   :homepage: https://github.com/rpetit3/genome-dl
+   :license: MIT
+   :recipe: /`genome-dl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genome-dl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genome-dl/meta.yaml>`_
+
    
-   :license: GPL-2.0-only
-   :recipe: /`bioformats2raw <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioformats2raw>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioformats2raw/meta.yaml>`_
-
-   bioformats2raw converts image file formats supported by Bio\-Formats into
-   a Zarr structure compatible with the OME\-NGFF specification.
 
 
+.. conda:package:: genome-dl
 
-.. conda:package:: bioformats2raw
-
-   |downloads_bioformats2raw| |docker_bioformats2raw|
+   |downloads_genome-dl| |docker_genome-dl|
 
    :versions:
       
       
 
-      ``0.12.1-0``
+      ``1.0.0-0``
 
       
 
    
-   :depends on openjdk: ``>=11,<26``
+   :depends on python: ``>=3.11,<3.14``
+   :depends on requests: ``>=2.31.0``
+   :depends on rich: ``>=13.3.1``
+   :depends on rich-click: ``>=1.6.1``
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -60,11 +55,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install bioformats2raw
+    pixi global install genome-dl
 
 to add into an existing workspace instead, run::
 
-    pixi add bioformats2raw
+    pixi add genome-dl
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -76,11 +71,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install bioformats2raw
+    conda install genome-dl
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname bioformats2raw
+    conda create -n envname genome-dl
 
 with ``envname`` being the name of the desired environment.
 
@@ -90,9 +85,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/bioformats2raw:<tag>
+    docker pull quay.io/biocontainers/genome-dl:<tag>
 
-(see `bioformats2raw/tags`_ for valid values for ``<tag>``).
+(see `genome-dl/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -103,28 +98,28 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_bioformats2raw| image:: https://img.shields.io/conda/dn/bioconda/bioformats2raw.svg?style=flat
-   :target: https://anaconda.org/bioconda/bioformats2raw
+.. |downloads_genome-dl| image:: https://img.shields.io/conda/dn/bioconda/genome-dl.svg?style=flat
+   :target: https://anaconda.org/bioconda/genome-dl
    :alt:   (downloads)
-.. |docker_bioformats2raw| image:: https://quay.io/repository/biocontainers/bioformats2raw/status
-   :target: https://quay.io/repository/biocontainers/bioformats2raw
-.. _`bioformats2raw/tags`: https://quay.io/repository/biocontainers/bioformats2raw?tab=tags
+.. |docker_genome-dl| image:: https://quay.io/repository/biocontainers/genome-dl/status
+   :target: https://quay.io/repository/biocontainers/genome-dl
+.. _`genome-dl/tags`: https://quay.io/repository/biocontainers/genome-dl?tab=tags
 
 
 .. raw:: html
 
    <script>
-      var package = "bioformats2raw";
-      var versions = ["0.12.1"];
+      var package = "genome-dl";
+      var versions = ["1.0.0"];
    </script>
 
 .. rubric:: Download stats
 
 .. raw:: html
     
-   <div style="width: 100%" id="download_plot_bioformats2raw"></div>
-   <div style="width: 100%" id="platform_plot_bioformats2raw"></div>
-   <div style="width: 100%" id="cdf_plot_bioformats2raw"></div>
+   <div style="width: 100%" id="download_plot_genome-dl"></div>
+   <div style="width: 100%" id="platform_plot_genome-dl"></div>
+   <div style="width: 100%" id="cdf_plot_genome-dl"></div>
 
 
 
@@ -140,7 +135,7 @@ Check the documentation of your workflow management system to find out about the
    <script>
       window.onload = async function() {
          
-            // Build cdf plot for bioformats2raw
+            // Build cdf plot for genome-dl
             try {
                const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
                if (!cdf_spec_resp.ok) {
@@ -152,7 +147,7 @@ Check the documentation of your workflow management system to find out about the
                    throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
                }
                const cdf_plot_data = await cdf_data_resp.json();
-               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/bioformats2raw/cdf.json`)
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/genome-dl/cdf.json`)
                if (!point_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
                }
@@ -160,43 +155,43 @@ Check the documentation of your workflow management system to find out about the
     
                cdf_spec.data.values = cdf_plot_data;
                cdf_spec.data.values.push(single_point.pop());
-               vegaEmbed('#cdf_plot_bioformats2raw', cdf_spec);
+               vegaEmbed('#cdf_plot_genome-dl', cdf_spec);
             } catch (err) {
                console.error("An error occurred while building CDF plot: ", err)
             }
     
-            // Build download plot for bioformats2raw
+            // Build download plot for genome-dl
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/bioformats2raw/versions.json`)
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/genome-dl/versions.json`)
                if (!version_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
                }
                const plot_data = await version_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#download_plot_bioformats2raw', spec);
+               vegaEmbed('#download_plot_genome-dl', spec);
             } catch (err) {
                console.error("An error occurred while building downloads plot: ", err)
             }
    
-            // Build platform download plot for bioformats2raw
+            // Build platform download plot for genome-dl
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/bioformats2raw/platforms.json`)
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/genome-dl/platforms.json`)
                if (!platform_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
                }
                const plot_data = await platform_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#platform_plot_bioformats2raw', spec);
+               vegaEmbed('#platform_plot_genome-dl', spec);
             } catch (err) {
                console.error("An error occurred while building platform downloads plot: ", err)
             }
@@ -211,7 +206,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/bioformats2raw/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/genome-dl/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/bioformats2raw/README.html
+   :target: http://bioconda.github.io/recipes/genome-dl/README.html

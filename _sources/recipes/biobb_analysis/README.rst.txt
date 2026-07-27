@@ -63,7 +63,7 @@ biobb_analysis
    
    :depends on biobb_common: ``5.3.1``
    :depends on biobb_common: ``>=5.3.1,<6.0a0``
-   :depends on gromacs: ``2026.0 nompi_h4854829_101``
+   :depends on gromacs: ``2026.0 nompi_h26635d9_101``
    :depends on python: ``>=3.12,<3.13.0a0``
    :depends on python_abi: ``3.12.* *_cp312``
 

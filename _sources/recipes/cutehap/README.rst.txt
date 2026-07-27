@@ -35,6 +35,7 @@ cutehap
    :depends on biopython: 
    :depends on cigar: 
    :depends on cython: 
+   :depends on libgcc: ``>=14``
    :depends on numpy: 
    :depends on pysam: 
    :depends on python: ``>=3.12,<3.13.0a0``
