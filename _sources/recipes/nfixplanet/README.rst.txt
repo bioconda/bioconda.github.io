@@ -27,11 +27,20 @@ nfixplanet
       
       
 
-      
+      ``0.1.11-0``
 
       
 
    
+   :depends on coverm: ``0.7.0.*``
+   :depends on defopt: ``<7``
+   :depends on fastp: ``0.24.0.*``
+   :depends on hmmer: ``>=3.4``
+   :depends on minimap2: ``2.28.*``
+   :depends on pandas: ``>=1.3,<2.2``
+   :depends on prodigal: ``>=2.6.3``
+   :depends on python: ``>=3.11``
+   :depends on wget: 
 
    :additional platforms:
       
@@ -106,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "nfixplanet";
-      var versions = [];
+      var versions = ["0.1.11"];
    </script>
 
 .. rubric:: Download stats
