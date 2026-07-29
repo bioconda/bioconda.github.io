@@ -28,13 +28,13 @@ dagchainer
       
       
 
-      ``r120920-5``,  ``r120920-4``,  ``r120920-3``,  ``r120920-2``,  ``r120920-1``,  ``r120920-0``,  ``r111120-0``
+      ``2020.11.11-0``,  ``r120920-5``,  ``r120920-4``,  ``r120920-3``,  ``r120920-2``,  ``r120920-1``,  ``r120920-0``,  ``r111120-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on perl-carp: 
    :depends on perl-data-dumper: 
    :depends on perl-getopt-long: ``>=2.58,<3.0a0``
@@ -118,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "dagchainer";
-      var versions = ["r120920","r120920","r120920","r120920","r120920"];
+      var versions = ["2020.11.11","r120920","r120920","r120920","r120920"];
    </script>
 
 .. rubric:: Download stats

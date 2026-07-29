@@ -30,10 +30,10 @@ pytrimal
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.5-0</code>,  <code>0.8.4-0</code>,  <code>0.8.0-2</code>,  <code>0.8.0-1</code>,  <code>0.8.0-0</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.5-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.5-1</code>,  <code>0.8.5-0</code>,  <code>0.8.4-0</code>,  <code>0.8.0-2</code>,  <code>0.8.0-1</code>,  <code>0.8.0-0</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  </span></summary>
       
 
-      ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.0-2``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.5-2``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.5.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``
+      ``0.8.5-1``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.0-2``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.5-2``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.5.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``
 
       
       .. raw:: html
@@ -42,12 +42,12 @@ pytrimal
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on scoring-matrices: ``>=0.3.0``
-   :depends on scoring-matrices: ``>=0.3.3,<0.4.0a0``
+   :depends on scoring-matrices: ``>=0.3.4,<0.4.0a0``
 
    :additional platforms:
       
@@ -126,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pytrimal";
-      var versions = ["0.8.5","0.8.4","0.8.0","0.8.0","0.8.0"];
+      var versions = ["0.8.5","0.8.5","0.8.4","0.8.0","0.8.0"];
    </script>
 
 .. rubric:: Download stats

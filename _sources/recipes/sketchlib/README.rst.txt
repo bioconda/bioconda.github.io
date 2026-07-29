@@ -27,7 +27,7 @@ sketchlib
       
       
 
-      ``0.2.4-0``
+      ``0.3.0-0``,  ``0.2.4-0``
 
       
 
@@ -110,7 +110,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "sketchlib";
-      var versions = ["0.2.4"];
+      var versions = ["0.3.0","0.2.4"];
    </script>
 
 .. rubric:: Download stats

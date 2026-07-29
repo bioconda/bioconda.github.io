@@ -31,10 +31,10 @@ polypolish
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.6.1-0</code>,  <code>0.6.0-3</code>,  <code>0.6.0-2</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.5.0-4</code>,  <code>0.5.0-3</code>,  <code>0.5.0-2</code>,  <code>0.5.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.1-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-3</code>,  <code>0.6.0-2</code>,  <code>0.6.0-1</code>,  <code>0.6.0-0</code>,  <code>0.5.0-4</code>,  <code>0.5.0-3</code>,  <code>0.5.0-2</code>,  </span></summary>
       
 
-      ``0.6.1-0``,  ``0.6.0-3``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.0-4``,  ``0.5.0-3``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``
+      ``0.7.1-0``,  ``0.6.1-0``,  ``0.6.0-3``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.0-4``,  ``0.5.0-3``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``
 
       
       .. raw:: html
@@ -43,8 +43,8 @@ polypolish
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
       
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "polypolish";
-      var versions = ["0.6.1","0.6.0","0.6.0","0.6.0","0.6.0"];
+      var versions = ["0.7.1","0.6.1","0.6.0","0.6.0","0.6.0"];
    </script>
 
 .. rubric:: Download stats

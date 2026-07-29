@@ -27,7 +27,7 @@ perl-http-cookies
       
       
 
-      ``6.11-0``,  ``6.10-0``,  ``6.04-1``,  ``6.04-0``,  ``6.01-1``,  ``6.01-0``
+      ``6.12-0``,  ``6.11-0``,  ``6.10-0``,  ``6.04-1``,  ``6.04-0``,  ``6.01-1``,  ``6.01-0``
 
       
 
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "perl-http-cookies";
-      var versions = ["6.11","6.10","6.04","6.04","6.01"];
+      var versions = ["6.12","6.11","6.10","6.04","6.04"];
    </script>
 
 .. rubric:: Download stats
