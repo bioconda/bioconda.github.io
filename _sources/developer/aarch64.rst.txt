@@ -1,5 +1,5 @@
 ``aarch64`` and ``arm64`` builds
-==================
+================================
 
 .. datechanged:: 2024-03-04
    Added this section as initial linux-aarch64 builds are starting

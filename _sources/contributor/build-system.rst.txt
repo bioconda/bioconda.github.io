@@ -12,6 +12,9 @@ code for the build system can be found in `bioconda-utils
 <https://github.com/bioconda/bioconda-utils>`_, but parts are also with the
 ``bioconda-recipes`` repo. This document serves as a high-level overview; the
 code remains the authoritative source on exactly what happens during a build.
+See the :doc:`bioconda-utils overview <bioconda-utils>` for installation,
+command documentation, and links to the maintainer workflows surrounding this
+system.
 
 Why so complicated? We have to work within the constraints of conda-build,
 Docker, CircleCI, GitHub Actions, and Azure DevOps . . . while simultaneously
@@ -60,7 +63,7 @@ orchestrated by bioconda-utils.
 
 - **Build recipes.** Recipes to be built satisfy the following criteria:
     - changed in this pull request
-    - not on the `build-fail-blacklist`
+    - not on the ``build-fail-blacklist``
     - does not have a build-failure yaml file in the recipe with a hash
       matching this version
     - package with that version number and build number does not exist in

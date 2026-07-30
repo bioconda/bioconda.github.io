@@ -34,6 +34,10 @@ For every recipe, Bioconda builds not only conda packages for mulitple
 architectures like osx, linux/amd64, linux/arm64, but also OCI images
 (linux/amd64, linux/arm64) with the package installed. Here's how it works.
 
+Packages which only support ARM are now possible. The manifest
+reconciliation logic publishes whatever subset of requested platforms are
+available and does not require amd64 to be present.
+
 .. figure:: ../images/bioconda-containers.png
 
    Sketch of how containers and packages interact with :command:`bioconda-utils
@@ -185,7 +189,7 @@ can give you a starting point for where to look.
 
 - `bioconda_utils.pkg_test.test_package()
   <https://github.com/bioconda/bioconda-utils/blob/2c5d4ad754f7bfa17b90495dc602118c7270d4bc/bioconda_utils/pkg_test.py#L172>`_
-  sets DEST_BASE_IMAGE to the `base_image` arg, which in turn is set in
+  sets DEST_BASE_IMAGE to the ``base_image`` arg, which in turn is set in
   `bioconda_utils.build.build()
   <https://github.com/bioconda/bioconda-utils/blob/2c5d4ad754f7bfa17b90495dc602118c7270d4bc/bioconda_utils/build.py#L125-L129>`_.
   This can take one of two hard-coded values, depending on if the recipe needed

@@ -59,5 +59,5 @@ or::
 
 - Continue reading `workflow` to learn how to make changes to recipes
   and get packages into our channel.
-- Have a look at `building-locally` to learn how to build and debug
+- Have a look at :doc:`building-locally` to learn how to build and debug
   packages on your own computer.

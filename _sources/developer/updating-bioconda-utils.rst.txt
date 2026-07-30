@@ -5,6 +5,22 @@ This section documents the steps required to update bioconda-utils and get the
 updated version working over on bioconda-recipes, working on CI platforms and
 building packages.
 
+Developing from source
+----------------------
+
+Development dependency management is defined by ``pixi.toml``. From a
+``bioconda-utils`` checkout, use the repository's Pixi-backed Just tasks:
+
+.. code-block:: bash
+
+   pixi install
+   just install
+   just check
+
+Do not install development dependencies into the checkout with pip. The
+``just install`` task builds the project inside the Pixi environment and makes
+that CLI available from ``~/.local/bin``.
+
 ``bioconda-utils`` is currently using `Release Please
 <https://github.com/googleapis/release-please>`_ to manage updates, changelogs,
 and versioning. This works in a specific way, so the steps below walk through
@@ -14,17 +30,17 @@ Prefix the PR title, as well as at least one commit in the PR, with one of the
 following change types. Some special types will change the bioconda-utils
 version number, as noted below.
 
-- `<type>!` (that is, any of the types below ending an exclamation point) indicates
+- ``<type>!`` (that is, any of the types below ending an exclamation point) indicates
   a breaking change. *PRs with this title will result in a new* **MAJOR VERSION**
-- `feat:` a new feature. *PRs with this title will result in a new* **MINOR VERSION**
-- `fix:` fixes a bug. *PRs with this title will result in a new* **PATCH VERSION**
-- `test:` changes related to tests
-- `chore:` for maintenance changes. E.g. dependency version changes (should use
-  a `!` to indicate breaking change in this case)
-- `ci:` for changes related to CI *of bioconda-utils*
-- `docs:` a change that only affects documentation (ReST, comments, docstrings)
-- `refactor:` a change in code that neither fixes a bug nor adds a feature
-- `style:` whitespace, formatting, etc
+- ``feat:`` a new feature. *PRs with this title will result in a new* **MINOR VERSION**
+- ``fix:`` fixes a bug. *PRs with this title will result in a new* **PATCH VERSION**
+- ``test:`` changes related to tests
+- ``chore:`` for maintenance changes. E.g. dependency version changes (should use
+  a ``!`` to indicate breaking change in this case)
+- ``ci:`` for changes related to CI *of bioconda-utils*
+- ``docs:`` a change that only affects documentation (ReST, comments, docstrings)
+- ``refactor:`` a change in code that neither fixes a bug nor adds a feature
+- ``style:`` whitespace, formatting, etc
 
 
 The general workflow is:
@@ -84,15 +100,24 @@ The general workflow is:
 
     .. details:: How are dependencies kept consistent?
 
-        bioconda-utils keeps a `requirements.txt
-        <https://github.com/bioconda/bioconda-utils/blob/master/bioconda_utils/bioconda_utils-requirements.txt>`_
-        file for its own tests. But this needs to match the conda recipe. To
-        double-check this, the recipe over in bioconda-recipes has a test that
-        installs the ``bioconda_utils-requirements.txt`` file into the recipe's
-        test environment, and the test ensures that doing so does not result in
-        any changes to the environment -- confirming that the requirements file
-        in the bioconda-utile repo and its meta.yaml in the bioconda-recipes
-        repo match.
+        ``pixi.toml`` is the source of truth for runtime and development
+        dependencies. The shipped
+        ``bioconda_utils/bioconda_utils-requirements.txt`` contains only the
+        conda runtime dependencies needed by Dockerfiles and runtime build
+        helpers; it is generated from ``pixi.toml`` and must not be edited
+        directly.
+
+        After changing runtime dependencies, run:
+
+        .. code-block:: bash
+
+           pixi run regenerate-requirements
+           pixi run check-requirements
+
+        ``just check`` also runs the generated-file check. When the release is
+        packaged in ``bioconda-recipes``, review its ``requirements: run``
+        section against the generated runtime requirements and update the
+        recipe where necessary.
 
 6. Once tests pass, treat it as a typical package: get approval, and then
    merge.
@@ -115,7 +140,7 @@ The general workflow is:
         versions are being used.
 
 At this point, the next time the various workflows run they will get the new
-version of `common.sh`, which will cause a cache miss and trigger the
+version of ``common.sh``, which will cause a cache miss and trigger the
 installation of the version of bioconda-utils specified in that file.
 **bioconda-recipes is now using the updated version.**.
 

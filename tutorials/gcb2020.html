@@ -1,19 +1,54 @@
+
 <!DOCTYPE html>
 
-<html lang="en" data-content_root="../">
+
+<html lang="en" data-content_root="../" >
+
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>GCB 2020 Tutorial &#8212; Bioconda  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=a95f357e85573c9b56d5" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=a95f357e85573c9b56d5" rel="stylesheet" />
+
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
-    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css?v=39de963d" />
     <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
-    <link rel="stylesheet" type="text/css" href="../_static/style.css?v=48720263" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/style.css?v=94aa077e" />
     <link rel="stylesheet" type="text/css" href="../_static/font-awesome-4.7.0/css/font-awesome.min.css?v=02f538dc" />
+  
+  <!-- So that users can add custom icons -->
+  <script defer src="../_static/scripts/fontawesome.js?digest=a95f357e85573c9b56d5"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=a95f357e85573c9b56d5" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=a95f357e85573c9b56d5" />
+
     <script src="../_static/documentation_options.js?v=5929fcd5"></script>
     <script src="../_static/doctools.js?v=fd6eb6e6"></script>
     <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'tutorials/gcb2020';</script>
+    <script>DOCUMENTATION_OPTIONS.search_as_you_type = true;</script>
     <script src="../_static/vega.min.js?v=d54ef115"></script>
     <script src="../_static/vega-lite.min.js?v=4fab2bf4"></script>
     <script src="../_static/vega-embed.min.js?v=2f6bc6e4"></script>
@@ -45,29 +80,416 @@
 
     <link rel="manifest" href="../_static/manifest.json">
     <meta name="theme-color" content="#ffffff">
+    <script>
+        (function() {
+            const html = document.documentElement;
+            function syncTheme() {
+                const theme = html.getAttribute('data-theme');
+                if (theme) {
+                    html.setAttribute('data-bs-theme', theme);
+                }
+            }
+            syncTheme();
+            const observer = new MutationObserver(syncTheme);
+            observer.observe(html, { attributes: true, attributeFilter: ['data-theme'] });
+        })();
+    </script>
 
-   
-  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  
+    
+    <script src="../_static/searchtools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../searchindex.js"></script>
   
 
+  </head>
+  <body data-default-mode="">
   
   
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
 
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+  
+  
+  
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
 
-  </head><body>
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header id="pst-header" class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
   
 
-    <div class="document">
-      <div class="documentwrapper">
-        <div class="bodywrapper">
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/bioconda_monochrome_small.png" class="logo__image only-light" alt="Bioconda  documentation - Home"/>
+    <img src="../_static/bioconda_monochrome_small.png" class="logo__image only-dark pst-js-only" alt="Bioconda  documentation - Home"/>
+  
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../faqs.html">
+    FAQs
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../contributor/index.html">
+    Contributing to Bioconda
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../developer/index.html">
+    Developer Docs
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="index.html">
+    Tutorials
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="/conda-package_index.html">
+    Browse packages
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
           
 
-          <div class="body" role="main">
-            
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<div class="theme-switch-container dropdown pst-js-only" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Color mode">
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
+    <i class="theme-switch fa-solid fa-sun fa-lg fa-fw" data-mode="light" title="Light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg fa-fw" data-mode="dark" title="Dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg fa-fw" data-mode="auto" title="System Settings"></i>
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end">
+    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
+    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
+    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
+  </ul>
+</div></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/bioconda/bioconda-recipes" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-square-github fa-lg" aria-hidden="true"></i><span class="visually-hidden">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://gitter.im/bioconda/Lobby" title="Gitter" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-gitter fa-lg" aria-hidden="true"></i><span class="visually-hidden">Gitter</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../faqs.html">
+    FAQs
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../contributor/index.html">
+    Contributing to Bioconda
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../developer/index.html">
+    Developer Docs
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="index.html">
+    Tutorials
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="/conda-package_index.html">
+    Browse packages
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<div class="theme-switch-container dropdown pst-js-only" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Color mode">
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
+    <i class="theme-switch fa-solid fa-sun fa-lg fa-fw" data-mode="light" title="Light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg fa-fw" data-mode="dark" title="Dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg fa-fw" data-mode="auto" title="System Settings"></i>
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end">
+    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
+    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
+    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
+  </ul>
+</div></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/bioconda/bioconda-recipes" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-square-github fa-lg" aria-hidden="true"></i><span class="visually-hidden">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://gitter.im/bioconda/Lobby" title="Gitter" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-gitter fa-lg" aria-hidden="true"></i><span class="visually-hidden">Gitter</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+<nav class="bd-docs-nav bd-links"
+     aria-label="Section Navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
+  <div class="bd-toc-item navbar-nav"><ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="2024-adding-bioinformatic-software-to-bioconda.html">Adding bioinformatic software to Bioconda - a reference guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2024-updating-bioinformatic-software-to-bioconda.html">Updating bioinformatic software to Bioconda - a reference guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2024-debugging-bioinformatic-software-to-bioconda.html">Debugging a Bioconda build - a reference guide</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">GCB 2020 Tutorial</a></li>
+</ul>
+</div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item"><a href="index.html" class="nav-link">Tutorials</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">GCB 2020 Tutorial</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
   <section id="gcb-2020-tutorial">
-<h1>GCB 2020 Tutorial<a class="headerlink" href="#gcb-2020-tutorial" title="Link to this heading">¶</a></h1>
+<h1>GCB 2020 Tutorial<a class="headerlink" href="#gcb-2020-tutorial" title="Link to this heading">#</a></h1>
 <section id="what-exactly-is-conda">
-<h2>What exactly is Conda?<a class="headerlink" href="#what-exactly-is-conda" title="Link to this heading">¶</a></h2>
+<h2>What exactly is Conda?<a class="headerlink" href="#what-exactly-is-conda" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><dl class="simple">
 <dt>A package and environment manager</dt><dd><ul>
@@ -96,7 +518,7 @@
 <p><img alt="tutorial-conda-miniconda-anaconda" class="align-middle no-scaled-link" src="../_images/tutorial-conda-miniconda-anaconda.jpg" style="width: 75%;" /></p>
 </section>
 <section id="conda-packages">
-<h2>Conda packages<a class="headerlink" href="#conda-packages" title="Link to this heading">¶</a></h2>
+<h2>Conda packages<a class="headerlink" href="#conda-packages" title="Link to this heading">#</a></h2>
 <ul>
 <li><p>Specific versions</p></li>
 <li><p>Various sources (“channels”)</p></li>
@@ -122,24 +544,21 @@
 </ul>
 </section>
 <section id="conda-channels">
-<h2>Conda channels<a class="headerlink" href="#conda-channels" title="Link to this heading">¶</a></h2>
-<table class="tutorial docutils align-default" style="width: 100%">
+<h2>Conda channels<a class="headerlink" href="#conda-channels" title="Link to this heading">#</a></h2>
+<div class="pst-scrollable-table-container"><table class="tutorial table" style="width: 100%">
 <thead>
-<tr class="row-odd"><th class="head"><div class="graphviz"><img src="../_images/graphviz-49c43c148484545032f38e24e71b2686c995b769.png" alt="digraph {
+<tr class="row-odd"><th class="head">digraph {
   &quot;Channel 1&quot;
   [fillcolor=red style=filled];
-}" class="graphviz" /></div>
-</th>
-<th class="head"><div class="graphviz"><img src="../_images/graphviz-4ac48aa8a367e6b737d43cb4837f137ad84979d7.png" alt="digraph {
+}</th>
+<th class="head">digraph {
   &quot;Channel 2&quot;
   [fillcolor=red style=filled];
-}" class="graphviz" /></div>
-</th>
-<th class="head"><div class="graphviz"><img src="../_images/graphviz-897ae310970f2546b27046f05aff9aace66ffa49.png" alt="digraph {
+}</th>
+<th class="head">digraph {
   &quot;Channel 3&quot;
   [fillcolor=red style=filled];
-}" class="graphviz" /></div>
-</th>
+}</th>
 </tr>
 </thead>
 <tbody>
@@ -179,6 +598,7 @@
 </tr>
 </tbody>
 </table>
+</div>
 <ul>
 <li><p>conda-forge: Most dependencies (numpy, scipy, zlib, CRAN packages, etc.)</p></li>
 <li><p>bioconda: Most bioinf packages (salmon, STAR, samtools, DESeq2, etc.)</p></li>
@@ -200,7 +620,7 @@ $<span class="w"> </span>conda<span class="w"> </span>config<span class="w"> </s
 </ul>
 </section>
 <section id="finding-packages">
-<h2>Finding Packages<a class="headerlink" href="#finding-packages" title="Link to this heading">¶</a></h2>
+<h2>Finding Packages<a class="headerlink" href="#finding-packages" title="Link to this heading">#</a></h2>
 <ul>
 <li><p>Search <a class="reference external" href="https://anaconda.org">https://anaconda.org</a></p></li>
 <li><dl>
@@ -234,7 +654,7 @@ pysam<span class="w">                       </span><span class="m">0</span>.16.0
 </ul>
 </section>
 <section id="practical-1">
-<h2>Practical 1<a class="headerlink" href="#practical-1" title="Link to this heading">¶</a></h2>
+<h2>Practical 1<a class="headerlink" href="#practical-1" title="Link to this heading">#</a></h2>
 <p>What are the most recent versions of samtools and Snakemake?</p>
 <div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>conda<span class="w"> </span>search<span class="w"> </span>samtools<span class="w"> </span><span class="p">|</span><span class="w"> </span>tail<span class="w"> </span>-n1
 samtools<span class="w">                        </span><span class="m">1</span>.10<span class="w">      </span>h9402c20_2<span class="w">  </span>bioconda
@@ -245,12 +665,12 @@ snakemake<span class="w">                     </span><span class="m">5</span>.24
 </div>
 </section>
 <section id="conda-environments">
-<h2>Conda environments<a class="headerlink" href="#conda-environments" title="Link to this heading">¶</a></h2>
+<h2>Conda environments<a class="headerlink" href="#conda-environments" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>A (mostly) self-contained directory with a set of compatible packages</p></li>
 <li><p>Uses links to reduce disk space when possible</p></li>
 </ul>
-<table class="tutorial docutils align-default">
+<div class="pst-scrollable-table-container"><table class="tutorial table">
 <tbody>
 <tr class="row-odd"><td rowspan="2"><div class="highlight-default notranslate"><div class="highlight"><pre><span></span>├── bin
 ├── conda-meta
@@ -268,14 +688,13 @@ snakemake<span class="w">                     </span><span class="m">5</span>.24
 </pre></div>
 </div>
 </td>
-<td><div class="graphviz"><img src="../_images/graphviz-7ba1a3ded1afd0a725b43a2925fbab34d034bc0b.png" alt="digraph {
+<td>digraph {
   rankdir=&quot;LR&quot;;
   node [fillcolor=red style=filled];
   &quot;pkgs/foo&quot; -&gt; &quot;env1/foo&quot;;
   &quot;pkgs/foo&quot; -&gt; &quot;env2/foo&quot;;
   &quot;pkgs/foo&quot; -&gt; &quot;env3/foo&quot;;
-}" class="graphviz" /></div>
-</td>
+}</td>
 </tr>
 <tr class="row-even"><td><div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>ls<span class="w"> </span>-1i<span class="w"> </span>**/bin/samtools
 <span class="m">116889197</span><span class="w"> </span>envs/tutorial/bin/samtools
@@ -287,9 +706,10 @@ snakemake<span class="w">                     </span><span class="m">5</span>.24
 </tr>
 </tbody>
 </table>
+</div>
 </section>
 <section id="id1">
-<h2>Conda environments<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h2>
+<h2>Conda environments<a class="headerlink" href="#id1" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>Linking is relative to packages!</p></li>
 <li><p>No more conflicting dependencies between versions!</p></li>
@@ -306,7 +726,7 @@ snakemake<span class="w">                     </span><span class="m">5</span>.24
 </div>
 </section>
 <section id="conda-environments-common-commands">
-<h2>Conda environments – common commands<a class="headerlink" href="#conda-environments-common-commands" title="Link to this heading">¶</a></h2>
+<h2>Conda environments – common commands<a class="headerlink" href="#conda-environments-common-commands" title="Link to this heading">#</a></h2>
 <ul>
 <li><p><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">info</span> <span class="pre">--envs</span></code> (or <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">list</span></code>)</p>
 <blockquote>
@@ -391,7 +811,7 @@ $<span class="w"> </span>conda<span class="w"> </span>remove<span class="w"> </s
 </div>
 </section>
 <section id="introducing-mamba">
-<h2>Introducing <code class="docutils literal notranslate"><span class="pre">mamba</span></code><a class="headerlink" href="#introducing-mamba" title="Link to this heading">¶</a></h2>
+<h2>Introducing <code class="docutils literal notranslate"><span class="pre">mamba</span></code><a class="headerlink" href="#introducing-mamba" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>Newer package manager called <code class="docutils literal notranslate"><span class="pre">mamba</span></code></p></li>
 <li><p>A reimplementation of <code class="docutils literal notranslate"><span class="pre">conda</span></code></p></li>
@@ -421,7 +841,7 @@ $<span class="w"> </span>conda<span class="w"> </span>remove<span class="w"> </s
 </ul>
 </section>
 <section id="practical-2">
-<h2>Practical 2<a class="headerlink" href="#practical-2" title="Link to this heading">¶</a></h2>
+<h2>Practical 2<a class="headerlink" href="#practical-2" title="Link to this heading">#</a></h2>
 <ul>
 <li><p>Let’s create some new environments!</p></li>
 <li><dl>
@@ -452,7 +872,7 @@ $<span class="w"> </span>conda<span class="w"> </span>info
 </li>
 </ul>
 <section id="practical-2-1">
-<h3>Practical 2.1<a class="headerlink" href="#practical-2-1" title="Link to this heading">¶</a></h3>
+<h3>Practical 2.1<a class="headerlink" href="#practical-2-1" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Create a new environment named “mapping” with <code class="docutils literal notranslate"><span class="pre">bwa-mem2</span></code> and <code class="docutils literal notranslate"><span class="pre">pysamstats</span></code></p></li>
 <li><p>What versions of <code class="docutils literal notranslate"><span class="pre">numpy</span></code> and <code class="docutils literal notranslate"><span class="pre">python</span></code> got installed in it?</p></li>
@@ -467,7 +887,7 @@ $<span class="w"> </span>conda<span class="w"> </span>list<span class="w"> </spa
 </div>
 </section>
 <section id="practical-2-2">
-<h3>Practical 2.2<a class="headerlink" href="#practical-2-2" title="Link to this heading">¶</a></h3>
+<h3>Practical 2.2<a class="headerlink" href="#practical-2-2" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Create a new environment for Snakemake with <code class="docutils literal notranslate"><span class="pre">mamba</span></code></p></li>
 </ul>
@@ -484,7 +904,7 @@ $<span class="w"> </span>snakemake<span class="w"> </span>--version
 </section>
 </section>
 <section id="id2">
-<h2>Conda environments – common commands<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h2>
+<h2>Conda environments – common commands<a class="headerlink" href="#id2" title="Link to this heading">#</a></h2>
 <ul>
 <li><dl>
 <dt><code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">export</span></code>/<code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">create</span></code></dt><dd><ul class="simple">
@@ -511,7 +931,7 @@ dependencies:
 </ul>
 </section>
 <section id="common-pitfalls">
-<h2>Common pitfalls<a class="headerlink" href="#common-pitfalls" title="Link to this heading">¶</a></h2>
+<h2>Common pitfalls<a class="headerlink" href="#common-pitfalls" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>Wrong channel order</p></li>
 <li><p>Installing packages in your <code class="docutils literal notranslate"><span class="pre">base</span></code> env</p></li>
@@ -520,7 +940,7 @@ dependencies:
 </ul>
 </section>
 <section id="conda-package-recipes">
-<h2>Conda package recipes<a class="headerlink" href="#conda-package-recipes" title="Link to this heading">¶</a></h2>
+<h2>Conda package recipes<a class="headerlink" href="#conda-package-recipes" title="Link to this heading">#</a></h2>
 <div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>tree<span class="w"> </span>-A<span class="w"> </span>recipes/varlociraptor
 recipes/varlociraptor/
 ├──<span class="w"> </span>build.sh
@@ -541,7 +961,7 @@ recipes/varlociraptor/
 </ul>
 </section>
 <section id="meta-yaml-sections">
-<h2><code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> sections<a class="headerlink" href="#meta-yaml-sections" title="Link to this heading">¶</a></h2>
+<h2><code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> sections<a class="headerlink" href="#meta-yaml-sections" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">package</span></code>: name and version</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">source</span></code>: url and SHA256/MD5 checksums</p></li>
@@ -552,7 +972,7 @@ recipes/varlociraptor/
 <li><p><code class="docutils literal notranslate"><span class="pre">extras</span></code>: comments, maintainers, etc.</p></li>
 </ul>
 <section id="package">
-<h3><code class="docutils literal notranslate"><span class="pre">package</span></code><a class="headerlink" href="#package" title="Link to this heading">¶</a></h3>
+<h3><code class="docutils literal notranslate"><span class="pre">package</span></code><a class="headerlink" href="#package" title="Link to this heading">#</a></h3>
 <div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">package</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">unifrac</span>
 <span class="w">  </span><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0.20.0</span>
@@ -568,7 +988,7 @@ recipes/varlociraptor/
 </div>
 </section>
 <section id="source">
-<h3><code class="docutils literal notranslate"><span class="pre">source</span></code><a class="headerlink" href="#source" title="Link to this heading">¶</a></h3>
+<h3><code class="docutils literal notranslate"><span class="pre">source</span></code><a class="headerlink" href="#source" title="Link to this heading">#</a></h3>
 <div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">source</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://github.com/biocore/unifrac/archive/</span><span class="cp">{{</span> <span class="nv">version</span> <span class="cp">}}</span><span class="l l-Scalar l-Scalar-Plain">.tar.gz</span>
 <span class="w">  </span><span class="nt">sha256</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">e2692c683fddc6450ca4da049112b00264cf61aef1071d2ebc0f0539b86611b8</span>
@@ -580,7 +1000,7 @@ recipes/varlociraptor/
 </ul>
 </section>
 <section id="build">
-<h3><code class="docutils literal notranslate"><span class="pre">build</span></code><a class="headerlink" href="#build" title="Link to this heading">¶</a></h3>
+<h3><code class="docutils literal notranslate"><span class="pre">build</span></code><a class="headerlink" href="#build" title="Link to this heading">#</a></h3>
 <div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">number</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0</span>
 </pre></div>
@@ -656,7 +1076,7 @@ recipes/varlociraptor/
 </ul>
 </section>
 <section id="requirements">
-<h3><code class="docutils literal notranslate"><span class="pre">requirements</span></code><a class="headerlink" href="#requirements" title="Link to this heading">¶</a></h3>
+<h3><code class="docutils literal notranslate"><span class="pre">requirements</span></code><a class="headerlink" href="#requirements" title="Link to this heading">#</a></h3>
 <div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">requirements</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">build</span><span class="p">:</span>
 <span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="cp">{{</span> <span class="nv">compiler</span><span class="o">(</span><span class="s1">&#39;c&#39;</span><span class="o">)</span> <span class="cp">}}</span>
@@ -676,7 +1096,7 @@ recipes/varlociraptor/
 </ul>
 </section>
 <section id="a-note-on-pinnings">
-<h3>A note on “pinnings”<a class="headerlink" href="#a-note-on-pinnings" title="Link to this heading">¶</a></h3>
+<h3>A note on “pinnings”<a class="headerlink" href="#a-note-on-pinnings" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Packages need to be compatible</p></li>
 <li><p>Same compiler per platform</p></li>
@@ -703,7 +1123,7 @@ samtools<span class="w">                        </span><span class="m">1</span>.
 </ul>
 </section>
 <section id="test">
-<h3><code class="docutils literal notranslate"><span class="pre">test</span></code><a class="headerlink" href="#test" title="Link to this heading">¶</a></h3>
+<h3><code class="docutils literal notranslate"><span class="pre">test</span></code><a class="headerlink" href="#test" title="Link to this heading">#</a></h3>
 <div class="highlight-yaml+jinja notranslate"><div class="highlight"><pre><span></span><span class="nt">test</span><span class="p">:</span>
 <span class="w">  </span><span class="nt">imports</span><span class="p">:</span>
 <span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">vembrane</span>
@@ -718,7 +1138,7 @@ samtools<span class="w">                        </span><span class="m">1</span>.
 </ul>
 </section>
 <section id="about-extra">
-<h3><code class="docutils literal notranslate"><span class="pre">about</span></code>/<code class="docutils literal notranslate"><span class="pre">extra</span></code><a class="headerlink" href="#about-extra" title="Link to this heading">¶</a></h3>
+<h3><code class="docutils literal notranslate"><span class="pre">about</span></code>/<code class="docutils literal notranslate"><span class="pre">extra</span></code><a class="headerlink" href="#about-extra" title="Link to this heading">#</a></h3>
 <div class="highlight-yaml-jinja notranslate"><div class="highlight"><pre><span></span>about:
   home: https://github.com/vembrane/vembrane
   license: MIT
@@ -737,7 +1157,7 @@ extra:
 </section>
 </section>
 <section id="don-t-fear-skeletons">
-<h2>Don’t fear skeletons<a class="headerlink" href="#don-t-fear-skeletons" title="Link to this heading">¶</a></h2>
+<h2>Don’t fear skeletons<a class="headerlink" href="#don-t-fear-skeletons" title="Link to this heading">#</a></h2>
 <ul>
 <li><p>Making recipes manually takes time</p></li>
 <li><dl>
@@ -751,7 +1171,7 @@ $<span class="w"> </span>conda-skeleton<span class="w"> </span>pypi<span class="
 </li>
 <li><dl class="simple">
 <dt>Skeletons for: PyPI, CPAN, CRAN</dt><dd><ul class="simple">
-<li><p>For CRAN: <a class="reference external" href="https://github.com/bgruening/conda_r_skeleton_helper">https://github.com/bgruening/conda_r_skeleton_helper</a></p></li>
+<li><p>For CRAN: <a class="github reference external" href="https://github.com/bgruening/conda_r_skeleton_helper">bgruening/conda_r_skeleton_helper</a></p></li>
 <li><p>CRAN packages belong on conda-forge if possible!</p></li>
 <li><p>For PyPI: <code class="docutils literal notranslate"><span class="pre">grayskull</span></code> is a newer/improved implentation</p></li>
 </ul>
@@ -763,7 +1183,7 @@ $<span class="w"> </span>conda-skeleton<span class="w"> </span>pypi<span class="
 </ul>
 </section>
 <section id="practical-3">
-<h2>Practical 3<a class="headerlink" href="#practical-3" title="Link to this heading">¶</a></h2>
+<h2>Practical 3<a class="headerlink" href="#practical-3" title="Link to this heading">#</a></h2>
 <p>Make a new <code class="docutils literal notranslate"><span class="pre">cutadapt</span></code> recipe</p>
 <div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>conda<span class="w"> </span>create<span class="w"> </span>--name<span class="o">=</span>conda-build<span class="w"> </span>conda-build
 $<span class="w"> </span>conda<span class="w"> </span>activate<span class="w"> </span>conda-build
@@ -775,7 +1195,7 @@ $<span class="w"> </span><span class="nv">$EDITOR</span><span class="w"> </span>
 </div>
 </section>
 <section id="common-problems">
-<h2>Common problems<a class="headerlink" href="#common-problems" title="Link to this heading">¶</a></h2>
+<h2>Common problems<a class="headerlink" href="#common-problems" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>Compiling C/C++ packages can be troublesome</p></li>
 <li><p>The compiler is NOT called <code class="docutils literal notranslate"><span class="pre">gcc</span></code></p></li>
@@ -795,7 +1215,7 @@ make<span class="w"> </span>install<span class="w"> </span><span class="se">\</s
 </div>
 </section>
 <section id="practical-4-and-or-q-a">
-<h2>Practical 4 and/or Q&amp;A<a class="headerlink" href="#practical-4-and-or-q-a" title="Link to this heading">¶</a></h2>
+<h2>Practical 4 and/or Q&amp;A<a class="headerlink" href="#practical-4-and-or-q-a" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://github.com/bioconda/bioconda-recipes">bioconda-recipes</a> tour?</p></li>
 <li><dl class="simple">
@@ -824,97 +1244,118 @@ make<span class="w"> </span>install<span class="w"> </span><span class="se">\</s
 </section>
 
 
-          </div>
-          
-        </div>
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="2024-debugging-bioinformatic-software-to-bioconda.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Debugging a Bioconda build - a reference guide</p>
       </div>
-      <div class="sphinxsidebar" role="navigation" aria-label="Main">
-        <div class="sphinxsidebarwrapper">
-<p class="logo">
-  <a href="../index.html">
-    <img class="logo" src="../_static/logo/bioconda_monochrome_small.png" alt="Logo" />
-    
-  </a>
-</p>
-
-
-
-
-
-
-
-
-<h3>Navigation</h3>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../faqs.html">FAQs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../contributor/index.html">Contributing to Bioconda</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../developer/index.html">Developer Docs</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="index.html">Tutorials</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="2024-adding-bioinformatic-software-to-bioconda.html">Adding bioinformatic software to Bioconda - a reference guide</a></li>
-<li class="toctree-l2"><a class="reference internal" href="2024-updating-bioinformatic-software-to-bioconda.html">Updating bioinformatic software to Bioconda - a reference guide</a></li>
-<li class="toctree-l2"><a class="reference internal" href="2024-debugging-bioinformatic-software-to-bioconda.html">Debugging a Bioconda build - a reference guide</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">GCB 2020 Tutorial</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#what-exactly-is-conda">What exactly is Conda?</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#conda-packages">Conda packages</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#conda-channels">Conda channels</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#finding-packages">Finding Packages</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#practical-1">Practical 1</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#conda-environments">Conda environments</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id1">Conda environments</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#conda-environments-common-commands">Conda environments – common commands</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#introducing-mamba">Introducing <code class="docutils literal notranslate"><span class="pre">mamba</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="#practical-2">Practical 2</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#practical-2-1">Practical 2.1</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#practical-2-2">Practical 2.2</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#id2">Conda environments – common commands</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#common-pitfalls">Common pitfalls</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#conda-package-recipes">Conda package recipes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#meta-yaml-sections"><code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> sections</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#package"><code class="docutils literal notranslate"><span class="pre">package</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#source"><code class="docutils literal notranslate"><span class="pre">source</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#build"><code class="docutils literal notranslate"><span class="pre">build</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#requirements"><code class="docutils literal notranslate"><span class="pre">requirements</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#a-note-on-pinnings">A note on “pinnings”</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#test"><code class="docutils literal notranslate"><span class="pre">test</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#about-extra"><code class="docutils literal notranslate"><span class="pre">about</span></code>/<code class="docutils literal notranslate"><span class="pre">extra</span></code></a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#don-t-fear-skeletons">Don’t fear skeletons</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#practical-3">Practical 3</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#common-problems">Common problems</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#practical-4-and-or-q-a">Practical 4 and/or Q&amp;A</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
-<ul>
-  
-  <li class="toctree-l1"><a href="../conda-package_index.html">Browse packages</a></li>
-  
-  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
-  
-  <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
-  
-</ul>
-<div id="searchbox" style="display: none" role="search">
-    <h3 id="searchlabel">Search</h3>
-    <p id="searchdesc">packages & docs</p>
-    <div class="searchformwrapper">
-    <form class="search" action="../search.html" method="get">
-      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
-      <input type="submit" value="Go" />
-    </form>
-    </div>
+    </a>
 </div>
-<script>document.getElementById('searchbox').style.display = "block"</script>
-        </div>
-      </div>
-      <div class="clearer"></div>
-    </div><script>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="pst-show_toc_level nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-exactly-is-conda">What exactly is Conda?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conda-packages">Conda packages</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conda-channels">Conda channels</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#finding-packages">Finding Packages</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#practical-1">Practical 1</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conda-environments">Conda environments</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Conda environments</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conda-environments-common-commands">Conda environments – common commands</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introducing-mamba">Introducing <code class="docutils literal notranslate"><span class="pre">mamba</span></code></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#practical-2">Practical 2</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#practical-2-1">Practical 2.1</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#practical-2-2">Practical 2.2</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Conda environments – common commands</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#common-pitfalls">Common pitfalls</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conda-package-recipes">Conda package recipes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#meta-yaml-sections"><code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> sections</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#package"><code class="docutils literal notranslate"><span class="pre">package</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#source"><code class="docutils literal notranslate"><span class="pre">source</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#build"><code class="docutils literal notranslate"><span class="pre">build</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#requirements"><code class="docutils literal notranslate"><span class="pre">requirements</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a-note-on-pinnings">A note on “pinnings”</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#test"><code class="docutils literal notranslate"><span class="pre">test</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#about-extra"><code class="docutils literal notranslate"><span class="pre">about</span></code>/<code class="docutils literal notranslate"><span class="pre">extra</span></code></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#don-t-fear-skeletons">Don’t fear skeletons</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#practical-3">Practical 3</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#common-problems">Common problems</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#practical-4-and-or-q-a">Practical 4 and/or Q&amp;A</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  
+  <div class="tocsection editthispage">
+    <a href="https://github.com/bioconda/bioconda-docs/edit/main/source/tutorials/gcb2020.rst">
+      <i class="fa-solid fa-pencil"></i>
+      
+      
+        
+          Edit on GitHub
+        
+      
+    </a>
+  </div>
+</div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../_sources/tutorials/gcb2020.rst.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=a95f357e85573c9b56d5"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=a95f357e85573c9b56d5"></script>
+<script>
     let closest;
     // Get the last part of the URL after the # symbol - should match the div id to display
     let id = window.location.hash.substring(1);
@@ -929,22 +1370,45 @@ make<span class="w"> </span>install<span class="w"> </span><span class="se">\</s
 </script>
 
     
-    <div class="footer">
-      &#169;2016-2026, The Bioconda Team.
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
       
-      |
-      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 9.1.0</a>
-      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
-      
-      |
-      <a href="../_sources/tutorials/gcb2020.rst.txt"
-          rel="nofollow">Page source</a>
-    </div>
+        <div class="footer-item">
 
+  <p class="copyright">
     
+      © Copyright 2016-2026, The Bioconda Team.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
 
-    <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-docs/edit/main/source/tutorials/gcb2020.rst" rel="me">Edit me on GitHub</a>
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.0.
+    <br/>
+  </p>
+</div>
+      
     </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.19.0.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
   </body>
 </html>

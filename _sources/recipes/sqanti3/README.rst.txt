@@ -27,7 +27,7 @@ sqanti3
       
       
 
-      ``6.0.2-0``,  ``6.0.1-0``,  ``6.0-0``
+      ``6.0.2-1``,  ``6.0.2-0``,  ``6.0.1-0``,  ``6.0-0``
 
       
 
@@ -87,6 +87,7 @@ sqanti3
    :depends on r-plyr: ``>=1.8``
    :depends on r-purrr: ``>=1.0``
    :depends on r-randomforest: ``>=4.7``
+   :depends on r-rcolorconesa: ``>=1.0.0``
    :depends on r-readr: ``>=2.1``
    :depends on r-reshape: ``>=0.8``
    :depends on r-rmarkdown: ``>=2.29``
@@ -180,7 +181,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "sqanti3";
-      var versions = ["6.0.2","6.0.1","6.0"];
+      var versions = ["6.0.2","6.0.2","6.0.1","6.0"];
    </script>
 
 .. rubric:: Download stats

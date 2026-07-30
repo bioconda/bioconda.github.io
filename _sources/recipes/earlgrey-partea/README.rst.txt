@@ -30,7 +30,7 @@ earlgrey-partea
       
       
 
-      ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.4-0``
+      ``0.2.0-0``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.4-0``
 
       
 
@@ -124,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "earlgrey-partea";
-      var versions = ["0.1.8","0.1.8","0.1.7","0.1.6","0.1.4"];
+      var versions = ["0.2.0","0.1.8","0.1.8","0.1.7","0.1.6"];
    </script>
 
 .. rubric:: Download stats

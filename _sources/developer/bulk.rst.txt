@@ -5,7 +5,7 @@ The ``bulk`` branch
    Updated based on recent BioC 3.20 builds
 
 The ``bulk`` branch is used for large-scale maintenance tasks, like supporting
-a new version of Python or building all `bioconductor-*` recipes for a new
+a new version of Python or building all ``bioconductor-*`` recipes for a new
 release of Bioconductor. These tasks can take up substantial compute time, so
 they are run on separate CI workflows to avoid disrupting normal daily
 activity in the bioconda-recipes repository.
@@ -33,11 +33,11 @@ Managing a bulk run
 #. **Make initial changes.** Typically one person is responsible for this part.
 
    * For pinning updates, see :ref:`update-pinnings`
-   * For Bioconductor releases, see :ref:`update-bioconductor`
+   * For Bioconductor releases, see :ref:`updating-bioconductor`
    * If a Bioconductor release *also* uses a new R version, complete a pinning
      migration first. You will need to wait for (or better yet, help out with)
      conda-forge building packages for the new R version. See
-     :ref:`update-bioconductor` for more details.
+     :ref:`updating-bioconductor` for more details.
    * For other changes, you will likely need to write your own tooling.
 
 #. **Commit and push** these changes to bulk.
@@ -136,7 +136,7 @@ a new Python or R version. Here is what you need to do:
    bioconda-utils. Once a bulk migration is complete, you can update the master
    branch of bioconda-common to point to the bioconda-utils version used for bulk.
 
-#. Run ``bioconda-utils update-pinnings`` in the bulk branch. This will go
+#. Run ``bioconda-utils update-pinning`` in the bulk branch. This will go
    through all the pinnings, figure out what recipes they're used with, and
    bump the recipes' build numbers appropriately. Note, this may take a few GB
    of RAM and a bit of time.
@@ -186,7 +186,7 @@ Then we can proceed with updating Bioconductor packages:
 
         bioconda-utils bioconductor-skeleton update-all-packages --bioc-version $BIOC_VERSION
 
-#. The `bioconductor-data-packages` will have changed with the URLs to data
+#. The ``bioconductor-data-packages`` recipe will have changed with the URLs to data
    packages. Manually bump the version to match the current date reflect this.
 
 #. Commit and push the changes.
@@ -221,6 +221,7 @@ prioritizing the fixing work.
 Since the ``list-build-failures`` command can take time to run, it is often
 more convenient to search the build logs for the latest bulk run. Useful search
 strings are:
+
   * ``BUILD FAILED`` for generic failures
   * ``failed linting`` for linting errors
   * ``TEST FAILED`` for mulled-build failures
@@ -228,6 +229,7 @@ strings are:
 Or, inspect the git log to see what build failures were added in the last day:
 
 .. code-block:: bash
+
    git log --since="1.days ago" --pretty=format:"%ad %h %s" --date=iso | grep "\[ci skip\] add build failure record"
 
 
@@ -243,7 +245,7 @@ The build failure files look like this by default:
 
 If a failed recipe is a leaf (i.e., it is not a dependency for any other
 recipe), then it **WILL** be automatically skiplisted (``skiplist: true``) due
-to the ``--skiplist-leafs`` argument, and need to be handled later.
+to the ``--skiplist-leaves`` argument, and need to be handled later.
 
 Based on this log, you can decide whether and how the recipe can be fixed or
 skiplisted for fixing it later. To help others in the future, add information
@@ -255,9 +257,9 @@ You can manually edit the build failure yamls, or use the command line tool:
 .. code-block:: bash
 
    bioconda-utils annotate-build-failures \
-     -c 'dependency issue' \
-     -r 'package xyz needs to be added to conda-forge' \
-     -s \
+     --category 'dependency issue' \
+     --reason 'package xyz needs to be added to conda-forge' \
+     --skiplist \
      recipes/packagename
 
 Which will make the build failure look like this:
@@ -277,7 +279,7 @@ Any update to the meta.yaml automatically de-skiplists it, because the skiplist
 entry is only valid together with the hash listed in the first line.
 
 It is possible to further annotate and even manually create build failure
-records via the `bioconda-utils` CLI. Check out all possibilities in the
+records via the ``bioconda-utils`` CLI. Check out all possibilities in the
 corresponding help message:
 
 .. code-block:: bash

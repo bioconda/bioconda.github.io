@@ -105,7 +105,9 @@ Or sometimes:
     export CPATH=${PREFIX}/include
 
 Sometimes Makefiles may specify these locations, in which case they
-need to be edited. See the `samtools` recipe for an example of
+need to be edited. See the `samtools recipe
+<https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samtools>`_
+for an example of
 this. It may take some tinkering to get the recipe to build; if it
 doesn't seem to work then please submit an issue or notify
 ``@bioconda/core`` for advice.
@@ -151,8 +153,8 @@ However the extra layer of abstraction makes it
 difficult to troubleshoot problems with the recipe. If the conda-build
 test works but the mulled-build test fails try these steps:
 
-- Run the test using the ``bootstrap.py`` method described in
-  :doc:`building-locally`.
+- Run the test locally with ``bioconda-utils build --docker
+  --mulled-build-and-test`` as described in :doc:`building-locally`.
 - Look carefully at the output from ``mulled-build`` to look for
   Docker hashes, and cross-reference with the output of ``docker
   images | head`` to figure out the hash of the container used.
@@ -267,6 +269,3 @@ Example:
   In this case, the latter is not recommended as we would expect the
   version number to change with every new release of the upstream
   software.
-
-
-

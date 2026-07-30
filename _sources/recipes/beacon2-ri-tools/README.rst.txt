@@ -27,7 +27,7 @@ beacon2-ri-tools
       
       
 
-      ``2.1.2-0``,  ``2.1.1-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.0-0``
+      ``2.2.0-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.0-0``
 
       
 
@@ -124,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "beacon2-ri-tools";
-      var versions = ["2.1.2","2.1.1","2.0.6","2.0.5","2.0.0"];
+      var versions = ["2.2.0","2.1.2","2.1.1","2.0.6","2.0.5"];
    </script>
 
 .. rubric:: Download stats

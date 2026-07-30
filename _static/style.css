@@ -233,3 +233,125 @@ ol.simple p {
 ul.simple p {
     margin-bottom: 1em;
 }
+
+/* Hide the branding text next to the logo to prevent overlap */
+.navbar-brand-text {
+    display: none;
+}
+
+/* Invert the black logo in dark mode for better visibility */
+html[data-theme="dark"] .navbar-brand img {
+    filter: invert(1);
+}
+
+/* DataTables & Bootstrap 5 Color Overrides to match theme */
+
+/* General Table elements */
+.table {
+    --bs-table-bg: transparent !important;
+    --bs-table-striped-bg: rgba(0, 0, 0, 0.03) !important;
+    --bs-table-hover-bg: rgba(0, 0, 0, 0.05) !important;
+    color: var(--pst-color-text-base) !important;
+}
+
+html[data-theme="dark"] .table {
+    --bs-table-striped-bg: rgba(255, 255, 255, 0.03) !important;
+    --bs-table-hover-bg: rgba(255, 255, 255, 0.05) !important;
+    --bs-table-border-color: var(--pst-color-border) !important;
+    color: var(--pst-color-text-base) !important;
+}
+
+/* RowGroup Header styling */
+.dtrg-group th {
+    background-color: var(--pst-color-background) !important;
+    color: var(--pst-color-text-base) !important;
+    font-weight: bold;
+    border-top: 2px solid var(--pst-color-border) !important;
+}
+
+html[data-theme="dark"] .dtrg-group th {
+    background-color: var(--pst-color-background) !important;
+    color: var(--pst-color-text-base) !important;
+    border-top: 2px solid var(--pst-color-border) !important;
+}
+
+/* Pagination buttons styling */
+.pagination .page-link {
+    background-color: var(--pst-color-surface) !important;
+    color: var(--pst-color-text-base) !important;
+    border-color: var(--pst-color-border) !important;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: var(--pst-color-primary) !important;
+    color: #fff !important;
+    border-color: var(--pst-color-primary) !important;
+}
+
+.pagination .page-item.disabled .page-link {
+    background-color: var(--pst-color-background) !important;
+    color: var(--pst-color-text-muted, #888) !important;
+}
+
+/* Length/Search inputs styling */
+.dt-search input, .dataTables_filter input {
+    background-color: var(--pst-color-surface) !important;
+    color: var(--pst-color-text-base) !important;
+    border: 1px solid var(--pst-color-border) !important;
+    border-radius: 4px;
+    padding: 0.375rem 0.75rem;
+}
+
+.dt-length select, .dataTables_length select {
+    background-color: var(--pst-color-surface) !important;
+    color: var(--pst-color-text-base) !important;
+    border: 1px solid var(--pst-color-border) !important;
+    border-radius: 4px;
+    padding: 0.375rem 2rem 0.375rem 0.75rem !important; /* Proper padding on the right for down arrow */
+    min-width: 80px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+}
+
+html[data-theme="dark"] .dt-search input,
+html[data-theme="dark"] .dataTables_filter input {
+    background-color: var(--pst-color-surface) !important;
+    color: var(--pst-color-text-base) !important;
+    border-color: var(--pst-color-border) !important;
+}
+
+html[data-theme="dark"] .dt-length select,
+html[data-theme="dark"] .dataTables_length select {
+    background-color: var(--pst-color-surface) !important;
+    color: var(--pst-color-text-base) !important;
+    border-color: var(--pst-color-border) !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+}
+
+/* Fix default dataTables wrapper color */
+.dataTables_wrapper, .dt-container {
+    color: var(--pst-color-text-base) !important;
+}
+
+/* Ensure all tables, cells, and headers inherit text base in dark mode */
+html[data-theme="dark"] table,
+html[data-theme="dark"] .table,
+html[data-theme="dark"] .table th,
+html[data-theme="dark"] .table td,
+html[data-theme="dark"] .table thead th,
+html[data-theme="dark"] .table tbody td,
+html[data-theme="dark"] .table tbody tr,
+html[data-theme="dark"] .table code,
+html[data-theme="dark"] .table a {
+    color: var(--pst-color-text-base) !important;
+}
+
+/* Add spacious padding to table cells to prevent a crammed look */
+.table th, .table td {
+    padding: 0.85rem 1.25rem !important;
+}

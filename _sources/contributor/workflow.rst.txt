@@ -38,10 +38,10 @@ them turns out to be more complicated than you thought.
 Now you need to add your files or make your edits. Naturally, this can become rather
 complex.
 
-Typically this involves creating within a in `recipes/<tool name>` two files:
+Typically this involves creating two files within ``recipes/<tool name>``:
 
-* A `meta.yaml` recipe file 
-* A (optional) `build.sh` script.
+* A ``meta.yaml`` recipe file
+* An optional ``build.sh`` script.
 
 For more detailed guides, see the the following tutorials 
 
@@ -153,4 +153,3 @@ channel take approximately a half hour to propagate. Once this has
 happened, you can enjoy::
 
   conda install my-package
-

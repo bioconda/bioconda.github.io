@@ -224,7 +224,7 @@ in which case that should be tested as well.
    Make sure you have a conda-build version 3.x when running
    ``conda skeleton pypi <packagename>``. If you are still using conda-build
    2.x, either update your conda-build package, or follow the migration
-   guidelines in :ref:`cb3-main`.
+   guidelines.
 
 - typical ``import`` check: `pysam
   <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pysam>`_
@@ -330,12 +330,11 @@ R (Bioconductor)
 ----------------
 
 Use the ``bioconda-utils bioconductor-skeleton`` tool to build a Bioconductor
-skeleton. After using the :ref:`bootstrap` method to set up a testing
-environment and activating that environment (which will ensure the correct
-versions of bioconda-utils and conda-build), from the top level of the
-``bioconda-recipes`` repository run::
+skeleton. After installing and activating the environment described in
+:ref:`bioconda-utils installation <bioconda-utils-installation>`, run this from
+the top level of the ``bioconda-recipes`` repository::
 
-    bioconda-utils bioconductor-skeleton recipes config.yml DESeq2
+    bioconda-utils bioconductor-skeleton recipes/ config.yml --packages DESeq2
 
 Note that the provided package name is a case-sensitive package available on
 Bioconductor. The output recipe name will have a ``bioconductor-`` prefix and
@@ -529,7 +528,7 @@ specifies the path to the package source code (usually the current directory ``.
 
 Wrapping it all up, a typical Rust recipe would look like this:
 
-.. code-block:: yaml
+.. code-block:: yaml+jinja
 
     {% set version = "0.1.0" %}
     {% set name = "mypackage" %}
@@ -571,7 +570,7 @@ Wrapping it all up, a typical Rust recipe would look like this:
 
     extra:
       recipe-maintainers:
-        - @username  # your GitHub username
+        - "@username"  # your GitHub username
 
 Haskell
 -------
@@ -799,16 +798,16 @@ To continue to support releases of both versions of a tool within a Bioconda
 recipe, there are two options for this.
 
 Linked packages
-^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~
 
-You can use the main recipe `meta.yaml` for the more recent major 
+You can use the main recipe ``meta.yaml`` for the more recent major
 version, and place the older version in a subdirectory with it's own ``meta.yaml``.
 In this case the name of the tool will be the same
 
 An example of this is the `mitos
 <https://github.com/bioconda/bioconda-recipes/tree/c2b7cbc80054a309e8fc3c91f9efed4e642e447d/recipes/mitos>`_ package.
 
-.. code-block:: tree
+.. code-block:: none
 
     recipes/mitos
     ├── meta.yaml
@@ -816,20 +815,20 @@ An example of this is the `mitos
         └── meta.yaml
 
 The original ``mitos`` v1 recipe is under the ``mitos1/`` directory, but the
-`meta.yaml` for the more recent v2 file is in a dedicated sub directory.
+``meta.yaml`` for the more recent v2 file is in a dedicated sub directory.
 
 Independent packages
-^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~
 
 Alternatively, create a second independent recipe with the version number suffixed 
 to the name. 
 Note that this method will mean that the tool will have two separate names, and older
 versions cannot be installed from the newer package.
 
-An example for this is ``gatk`` package, where GATK v3 is stored as `gatk` and the
+An example for this is ``gatk`` package, where GATK v3 is stored as ``gatk`` and the
 newer gatk4 version packaged as an independently named ``gatk4`` recipe.
 
-.. code-block:: tree
+.. code-block:: none
 
     recipes/gatk
     ├── 3.5

@@ -1,11 +1,7 @@
 .. Notes to documentation editors:
 
-   To build the documentation locally, first create an environment using
-   bioconda_utils/bioconda_utils-requirements.txt.
-
-   conda create -p ./env --file https://raw.githubusercontent.com/bioconda/bioconda-utils/master/bioconda_utils/bioconda_utils-requirements.txt -y
-
-   With that env activated, run:
+   Follow the "Building docs locally" instructions in this repository's
+   README. With that environment activated, a reduced build can be run with:
 
      make BIOCONDA_FILTER_RECIPES=2 SPHINXOPTS="-E" html
 
@@ -32,7 +28,7 @@ With Pixi
 
 Pixi is a modern, extremely fast, frontend for conda packages and environments.
 First, `install pixi`_.
-Then, configure pixi to use bioconda in addition to it's default (`conda-forge`_)::
+Then, configure pixi to use bioconda in addition to its default (`conda-forge`_)::
 
   pixi config set default-channels '["conda-forge", "bioconda"]'
 
@@ -221,10 +217,12 @@ package and a Docker container
     Contributors work together to fix any issues (which are tested again) and
     the process repeats until all tests pass.
 
-    Our `build system`_, ``bioconda-utils``, orchestrates the various building
-    and testing steps on CI infrastructure like CircleCI, Azure Pipelines, and
-    GitHub Actions. The output consists of both a `conda package`_ and
-    a `Biocontainer`_ that can be inspected before merging the pull request.
+    Our :doc:`build system <contributor/build-system>`,
+    :doc:`bioconda-utils <contributor/bioconda-utils>`, orchestrates the various
+    building and testing steps on CI infrastructure like CircleCI, Azure
+    Pipelines, and GitHub Actions. The output consists of both a `conda
+    package`_ and a `Biocontainer`_ that can be inspected before merging the
+    pull request.
 
 
 :circlednumber:`④` A repository of packages and a registry of containers
@@ -348,7 +346,6 @@ Table of contents
 
 .. _conda: https://conda.io/en/latest/index.html
 .. _`repository of recipes`: https://github.com/bioconda/bioconda-recipes
-.. _`build system`: https://github.com/bioconda/bioconda-utils
 .. _`repository of packages`: https://anaconda.org/bioconda/
 .. _`conda package`: https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/packages.html
 .. _`BioContainer`: https://biocontainers.pro

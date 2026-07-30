@@ -48,52 +48,52 @@ inner workings.
 The components
 ~~~~~~~~~~~~~~
 
-The `bioconda_utils.recipe.Recipe` object contains logic for finding and
+The ``bioconda_utils.recipe.Recipe`` object contains logic for finding and
 replacing text that may contain version information (such as within ``package:``
 and ``source:`` sections or Jinja set statements), for resetting build numbers,
 and for reading and writing recipes. Notably, reading and writing recipes here
 does not rely on conda-build as we need to do things conda-build was not
 designed for.
 
-The `bioconda_utils.autobump.Scanner` class reads recipes and applies various
+The ``bioconda_utils.autobump.Scanner`` class reads recipes and applies various
 filters (described below) in an asyncio loop to dramatically speed up the many
 http calls that are performed over the course of scanning for updates. It also
 handles other things like retrying after increasingly longer wait times when it
 encounters non-permanent HTTP errors.
 
-Subclasses of `bioconda_utils.autobump.Filter` are added to the scanner. They
+Subclasses of ``bioconda_utils.autobump.Filter`` are added to the scanner. They
 contain logic in their ``apply`` method. This method at least takes a recipe as
 the first argument, and either returns a (possibly modified) recipe or raises
 a custom exception. The remainder of the ``apply`` function can do arbitrarily
 complicated things, and will do so in the asyncio loop.
 
-Subclasses of `bioconda_utils.hosters.Hoster` use regular expressions to detect
+Subclasses of ``bioconda_utils.hosters.Hoster`` use regular expressions to detect
 which recipes came from which site and how to find links to new source code
 from that site. There are existing hosters for e.g. GitHub, PyPI, CRAN, CPAN,
-Bioconductor, and more. These are primarily used by the `UpdateVersion` filter.
+Bioconductor, and more. These are primarily used by the ``UpdateVersion`` filter.
 
 Writing a filter
 ~~~~~~~~~~~~~~~~
 To add additional functionality to the scanner, create a filter in
-`bioconda_utils.autobump` and add it to the scanner in
-`bioconda_utils.cli.autobump()`. There are existing filters to exclude recipes
+``bioconda_utils.autobump`` and add it to the scanner in
+``bioconda_utils.cli.autobump()``. There are existing filters to exclude recipes
 based on blacklist or subrecipe status, update a recipe based on the latest
-version found by a `Hoster` (see below), update checksums, figure out where to
+version found by a ``Hoster`` (see below), update checksums, figure out where to
 load a recipe from (i.e. master branch or an existing PR), create a new PR, and
 more.
 
 Filters can be arbitrarily complex, like any Python function. See the
-`bioconda_utils.autobump` source for examples when writing a new filter --
-`ExcludeSubrecipe` is a relatively simple one; `UpdateVersion` is more complex.
+``bioconda_utils.autobump`` source for examples when writing a new filter --
+``ExcludeSubrecipe`` is a relatively simple one; ``UpdateVersion`` is more complex.
 
 
 Writing a new hoster
 ~~~~~~~~~~~~~~~~~~~~
-A `Hoster` is a mechanism for scraping links of new releases off of a site and
+A ``Hoster`` is a mechanism for scraping links of new releases off of a site and
 is the means by which we detect new releases. It works primarily by regular
 expressions.
 
-A hoster is a subclass of `bioconda_utils.hosters.Hoster` and is configured by
+A hoster is a subclass of ``bioconda_utils.hosters.Hoster`` and is configured by
 
 - a regex used to try matching with the existing source URL in the recipe
 - a format string that will create the URL of the releases website on which
@@ -101,15 +101,15 @@ A hoster is a subclass of `bioconda_utils.hosters.Hoster` and is configured by
 - a regex to match links from that page and extract their version
 
 If you want a recipe to be updated automatically (and existing hosters aren't
-cutting it), write a new `Hoster` class in `bioconda_utils.hosters`. Any new
-classes will automatically be picked up by the `HosterMeta` metaclass and will
+cutting it), write a new ``Hoster`` class in ``bioconda_utils.hosters``. Any new
+classes will automatically be picked up by the ``HosterMeta`` metaclass and will
 be used to scan against existing recipes.
 
 Adding an attribute to the class with the suffix  ``_pattern`` allows the
 regular expression stored in that attribute to be subsituted into other regular
 expressions using ``{placeholder}`` format placeholders.
 
-Take, for example, the `Bioconductor` hoster which is commented here for
+Take, for example, the ``Bioconductor`` hoster which is commented here for
 explanation purposes:
 
 .. code-block:: python
@@ -149,20 +149,20 @@ explanation purposes:
 
 To tie this all together:
 
-- A `Scanner` is set up, the `UpdateVersion` filter is added and the asyncio
+- A ``Scanner`` is set up, the ``UpdateVersion`` filter is added and the asyncio
   loop starts.
-- The scanner checks all recipes. Because it has the `UpdateVersion`
-  filter added, and because an `UpdateVersion` filter will check a recipe
+- The scanner checks all recipes. Because it has the ``UpdateVersion``
+  filter added, and because an ``UpdateVersion`` filter will check a recipe
   against all configured hosters, a Bioconductor recipe will match the above
-  `Hoster.url_pattern` for the `Bioconductor` hoster.
+  ``Hoster.url_pattern`` for the ``Bioconductor`` hoster.
 - The hoster object will go to the site specified by ``releases_format`` and
-  scrape links that match `Hoster.link_pattern`.
-- The `UpdateVersion` filter will inspect those links found by the hoster,
+  scrape links that match ``Hoster.link_pattern``.
+- The ``UpdateVersion`` filter will inspect those links found by the hoster,
   figure out which is the most recent, and see if the existing recipe is
   up-to-date. If a more recent link was found, use that and write the new
   recipe with the updated version and URL.
-- The scanner also has the `UpdateChecksums` filter added, but it is added
-  after `UpdateVersion`. This filter will inspect the package, download it, and
+- The scanner also has the ``UpdateChecksums`` filter added, but it is added
+  after ``UpdateVersion``. This filter will inspect the package, download it, and
   update the checksum in the recipe.
 
 In practice, depending on the command-line argument provided (and therefore
@@ -180,12 +180,14 @@ Bioconda has project wide pinnings for many common dependencies, such as numpy, 
 
 On rare occasions these pinnings are updated (e.g., changing compiler versions, or updating the supported versions of Python) and many packages need to be updated project-wide to account for this. To facilitate such updates, ``bioconda-utils`` now has an ``update-pinning`` subcommand. To use this, first create a conda environment with bioconda-utils:
 
+Install and activate the released tool as described in
+:ref:`bioconda-utils installation <bioconda-utils-installation>`. Then run the
+command from a ``bioconda-recipes`` checkout. For example:
+
 .. code-block:: bash
 
-    $ conda create -n bioconda-utils conda=4.5.11 python=3.6
-    $ source activate bioconda-utils
-    $ conda install -y git pip --file https://raw.githubusercontent.com/bioconda/bioconda-utils/master/bioconda_utils/bioconda_utils-requirements.txt
-    $ pip install git+https://github.com/bioconda/bioconda-utils
+    $ conda create -n bioconda -c conda-forge -c bioconda --strict-channel-priority bioconda-utils
+    $ conda activate bioconda
 
 You then have an environment with the most recent version of ``bioconda-utils``. Below we use *deepTools* as an example to show how to update a package and all of its dependencies as needed due to a change in pinnings. First ensure you're in the ``bioconda-recipes`` repository and then:
 

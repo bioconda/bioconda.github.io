@@ -5,15 +5,9 @@ Queue times on CI platforms may sometimes make it more convenient and
 faster to work on complex packages locally. There are several ways to
 do so, each with their own caveats.
 
-.. contents::
-   :local:
-
-
-.. _bioconda_utils:
-
 For more gentle step-by-step guides to local building and debugging see:
 
-* :doc:`/tutorials/2024-updating-bioinformatic-software-to-bioconda`
+* :doc:`/tutorials/2024-adding-bioinformatic-software-to-bioconda`
 * :doc:`/tutorials/2024-debugging-bioinformatic-software-to-bioconda`
 
 Using bioconda-utils
@@ -56,14 +50,14 @@ The above commands do the following:
      the recipes test in a clean, freshly created docker container to
      ensure that the package does not depend on anything that happens
      to be included in the build container.
-   - Make sure you have `bioconda` and `conda-forge` channels explicitly
-     added to your environment or your `.condarc`. It is not sufficient
-     to have those channels specified in `.mambarc`.
+   - Make sure you have ``bioconda`` and ``conda-forge`` channels explicitly
+     added to your environment or your ``.condarc``. It is not sufficient
+     to have those channels specified in ``.mambarc``.
 
 If you do not have access to Docker, you can still run the basic test by
 omitting the ``--docker`` and ``--mulled-build-and-test`` options.
 
-.. _credentials:
+.. _building-locally-credentials:
 
 .. note::
 

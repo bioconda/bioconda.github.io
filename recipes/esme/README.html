@@ -1,19 +1,54 @@
+
 <!DOCTYPE html>
 
-<html lang="en" data-content_root="../../">
+
+<html lang="en" data-content_root="../../" >
+
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Package Recipe &#39;esme_&#39; &#8212; Bioconda  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=a95f357e85573c9b56d5" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=a95f357e85573c9b56d5" rel="stylesheet" />
+
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
-    <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css?v=39de963d" />
     <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
-    <link rel="stylesheet" type="text/css" href="../../_static/style.css?v=48720263" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../_static/style.css?v=94aa077e" />
     <link rel="stylesheet" type="text/css" href="../../_static/font-awesome-4.7.0/css/font-awesome.min.css?v=02f538dc" />
+  
+  <!-- So that users can add custom icons -->
+  <script defer src="../../_static/scripts/fontawesome.js?digest=a95f357e85573c9b56d5"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=a95f357e85573c9b56d5" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=a95f357e85573c9b56d5" />
+
     <script src="../../_static/documentation_options.js?v=5929fcd5"></script>
     <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
     <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../_static/copybutton.js?v=f281be69"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'recipes/esme/README';</script>
+    <script>DOCUMENTATION_OPTIONS.search_as_you_type = true;</script>
     <script src="../../_static/vega.min.js?v=d54ef115"></script>
     <script src="../../_static/vega-lite.min.js?v=4fab2bf4"></script>
     <script src="../../_static/vega-embed.min.js?v=2f6bc6e4"></script>
@@ -44,25 +79,395 @@
 
     <link rel="manifest" href="../../_static/manifest.json">
     <meta name="theme-color" content="#ffffff">
+    <script>
+        (function() {
+            const html = document.documentElement;
+            function syncTheme() {
+                const theme = html.getAttribute('data-theme');
+                if (theme) {
+                    html.setAttribute('data-bs-theme', theme);
+                }
+            }
+            syncTheme();
+            const observer = new MutationObserver(syncTheme);
+            observer.observe(html, { attributes: true, attributeFilter: ['data-theme'] });
+        })();
+    </script>
 
-   
-  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  
+    
+    <script src="../../_static/searchtools.js"></script>
+    <script src="../../_static/language_data.js"></script>
+    <script src="../../searchindex.js"></script>
   
 
+  </head>
+  <body data-default-mode="">
   
   
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
 
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+  
+  
+  
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
 
-  </head><body>
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header id="pst-header" class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
   
 
-    <div class="document">
-      <div class="documentwrapper">
-        <div class="bodywrapper">
+<a class="navbar-brand logo" href="../../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../_static/bioconda_monochrome_small.png" class="logo__image only-light" alt="Bioconda  documentation - Home"/>
+    <img src="../../_static/bioconda_monochrome_small.png" class="logo__image only-dark pst-js-only" alt="Bioconda  documentation - Home"/>
+  
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../faqs.html">
+    FAQs
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../contributor/index.html">
+    Contributing to Bioconda
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../developer/index.html">
+    Developer Docs
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../tutorials/index.html">
+    Tutorials
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="/conda-package_index.html">
+    Browse packages
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
           
 
-          <div class="body" role="main">
-            
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<div class="theme-switch-container dropdown pst-js-only" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Color mode">
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
+    <i class="theme-switch fa-solid fa-sun fa-lg fa-fw" data-mode="light" title="Light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg fa-fw" data-mode="dark" title="Dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg fa-fw" data-mode="auto" title="System Settings"></i>
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end">
+    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
+    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
+    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
+  </ul>
+</div></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/bioconda/bioconda-recipes" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-square-github fa-lg" aria-hidden="true"></i><span class="visually-hidden">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://gitter.im/bioconda/Lobby" title="Gitter" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-gitter fa-lg" aria-hidden="true"></i><span class="visually-hidden">Gitter</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar hide-on-wide">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../faqs.html">
+    FAQs
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../contributor/index.html">
+    Contributing to Bioconda
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../developer/index.html">
+    Developer Docs
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../tutorials/index.html">
+    Tutorials
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="/conda-package_index.html">
+    Browse packages
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<div class="theme-switch-container dropdown pst-js-only" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Color mode">
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
+    <i class="theme-switch fa-solid fa-sun fa-lg fa-fw" data-mode="light" title="Light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg fa-fw" data-mode="dark" title="Dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg fa-fw" data-mode="auto" title="System Settings"></i>
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end">
+    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
+    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
+    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
+  </ul>
+</div></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/bioconda/bioconda-recipes" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-square-github fa-lg" aria-hidden="true"></i><span class="visually-hidden">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://gitter.im/bioconda/Lobby" title="Gitter" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-gitter fa-lg" aria-hidden="true"></i><span class="visually-hidden">Gitter</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Package Recipe 'esme_'</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
   <section id="esme">
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
@@ -70,7 +475,7 @@
 <dd><p>Earth System Modelling Environment (ESME) - A bundle for scientific computing packages for climate modelling with MPI support.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="reference external" href="https://github.com/j34ni/bioconda-recipes">https://github.com/j34ni/bioconda-recipes</a></p>
+<dd class="field-odd"><p><a class="github reference external" href="https://github.com/j34ni/bioconda-recipes">j34ni/bioconda-recipes</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
 <dd class="field-even"><p>BSD / BSD-3-Clause</p>
@@ -93,7 +498,7 @@ This bundle currently includes:
 
 <dl class="conda package">
 <dt class="sig sig-object conda" id="package-esme_esmf_">
-<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">esme_esmf_</span></span><a class="headerlink" href="#package-esme_esmf_" title="Link to this definition">¶</a></dt>
+<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">esme_esmf_</span></span><a class="headerlink" href="#package-esme_esmf_" title="Link to this definition">#</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/esme_esmf_"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/esme_esmf_.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/esme_"><img alt="docker_esme_esmf_" src="https://quay.io/repository/biocontainers/esme_/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
@@ -104,13 +509,13 @@ This bundle currently includes:
 </dd></dl>
 
 <section id="installation">
-<h2>Installation<a class="headerlink" href="#installation" title="Link to this heading">¶</a></h2>
+<h2>Installation<a class="headerlink" href="#installation" title="Link to this heading">#</a></h2>
 <p>You need a conda-compatible package manager
 (currently either <a class="reference external" href="https://pixi.sh">pixi</a>, <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>, or <a class="reference external" href="https://mamba.readthedocs.io">micromamba</a>)
 and the Bioconda channel already activated (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>).
 Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).</p>
 <section id="pixi">
-<h3>Pixi<a class="headerlink" href="#pixi" title="Link to this heading">¶</a></h3>
+<h3>Pixi<a class="headerlink" href="#pixi" title="Link to this heading">#</a></h3>
 <p>With <a class="reference external" href="https://pixi.sh">pixi</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>),
 to install globally, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="n">esme_esmf_</span>
@@ -127,7 +532,7 @@ to install globally, run:</p>
 </div>
 </section>
 <section id="conda">
-<h3>Conda<a class="headerlink" href="#conda" title="Link to this heading">¶</a></h3>
+<h3>Conda<a class="headerlink" href="#conda" title="Link to this heading">#</a></h3>
 <p>With <a class="reference external" href="https://conda.io">conda</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>), to install into an existing and activated environment, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">esme_esmf_</span>
 </pre></div>
@@ -139,7 +544,7 @@ to install globally, run:</p>
 <p>with <code class="docutils literal notranslate"><span class="pre">envname</span></code> being the name of the desired environment.</p>
 </section>
 <section id="container">
-<h3>Container<a class="headerlink" href="#container" title="Link to this heading">¶</a></h3>
+<h3>Container<a class="headerlink" href="#container" title="Link to this heading">#</a></h3>
 <p>Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">esme_esmf_</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
@@ -148,7 +553,7 @@ For e.g. docker, run:</p>
 <p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/esme_esmf_?tab=tags">esme_esmf_/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>).</p>
 </section>
 <section id="integrated-deployment">
-<h3>Integrated deployment<a class="headerlink" href="#integrated-deployment" title="Link to this heading">¶</a></h3>
+<h3>Integrated deployment<a class="headerlink" href="#integrated-deployment" title="Link to this heading">#</a></h3>
 <p>Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
 Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
 Check the documentation of your workflow management system to find out about the integration.</p>
@@ -160,7 +565,7 @@ Check the documentation of your workflow management system to find out about the
 <div style="width: 100%" id="platform_plot_esme_esmf_"></div>
 <div style="width: 100%" id="cdf_plot_esme_esmf_"></div><dl class="conda package">
 <dt class="sig sig-object conda" id="package-esme_hdf5_">
-<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">esme_hdf5_</span></span><a class="headerlink" href="#package-esme_hdf5_" title="Link to this definition">¶</a></dt>
+<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">esme_hdf5_</span></span><a class="headerlink" href="#package-esme_hdf5_" title="Link to this definition">#</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/esme_hdf5_"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/esme_hdf5_.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/esme_"><img alt="docker_esme_hdf5_" src="https://quay.io/repository/biocontainers/esme_/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
@@ -173,13 +578,13 @@ Check the documentation of your workflow management system to find out about the
 </section>
 </section>
 <section id="id4">
-<h2>Installation<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h2>
+<h2>Installation<a class="headerlink" href="#id4" title="Link to this heading">#</a></h2>
 <p>You need a conda-compatible package manager
 (currently either <a class="reference external" href="https://pixi.sh">pixi</a>, <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>, or <a class="reference external" href="https://mamba.readthedocs.io">micromamba</a>)
 and the Bioconda channel already activated (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>).
 Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).</p>
 <section id="id5">
-<h3>Pixi<a class="headerlink" href="#id5" title="Link to this heading">¶</a></h3>
+<h3>Pixi<a class="headerlink" href="#id5" title="Link to this heading">#</a></h3>
 <p>With <a class="reference external" href="https://pixi.sh">pixi</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>),
 to install globally, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="n">esme_hdf5_</span>
@@ -196,7 +601,7 @@ to install globally, run:</p>
 </div>
 </section>
 <section id="id6">
-<h3>Conda<a class="headerlink" href="#id6" title="Link to this heading">¶</a></h3>
+<h3>Conda<a class="headerlink" href="#id6" title="Link to this heading">#</a></h3>
 <p>With <a class="reference external" href="https://conda.io">conda</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>), to install into an existing and activated environment, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">esme_hdf5_</span>
 </pre></div>
@@ -208,7 +613,7 @@ to install globally, run:</p>
 <p>with <code class="docutils literal notranslate"><span class="pre">envname</span></code> being the name of the desired environment.</p>
 </section>
 <section id="id7">
-<h3>Container<a class="headerlink" href="#id7" title="Link to this heading">¶</a></h3>
+<h3>Container<a class="headerlink" href="#id7" title="Link to this heading">#</a></h3>
 <p>Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">esme_hdf5_</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
@@ -217,7 +622,7 @@ For e.g. docker, run:</p>
 <p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/esme_hdf5_?tab=tags">esme_hdf5_/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>).</p>
 </section>
 <section id="id8">
-<h3>Integrated deployment<a class="headerlink" href="#id8" title="Link to this heading">¶</a></h3>
+<h3>Integrated deployment<a class="headerlink" href="#id8" title="Link to this heading">#</a></h3>
 <p>Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
 Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
 Check the documentation of your workflow management system to find out about the integration.</p>
@@ -229,7 +634,7 @@ Check the documentation of your workflow management system to find out about the
 <div style="width: 100%" id="platform_plot_esme_hdf5_"></div>
 <div style="width: 100%" id="cdf_plot_esme_hdf5_"></div><dl class="conda package">
 <dt class="sig sig-object conda" id="package-esme_netcdf-c_">
-<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">esme_netcdf-c_</span></span><a class="headerlink" href="#package-esme_netcdf-c_" title="Link to this definition">¶</a></dt>
+<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">esme_netcdf-c_</span></span><a class="headerlink" href="#package-esme_netcdf-c_" title="Link to this definition">#</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/esme_netcdf-c_"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/esme_netcdf-c_.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/esme_"><img alt="docker_esme_netcdf-c_" src="https://quay.io/repository/biocontainers/esme_/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
@@ -242,13 +647,13 @@ Check the documentation of your workflow management system to find out about the
 </section>
 </section>
 <section id="id11">
-<h2>Installation<a class="headerlink" href="#id11" title="Link to this heading">¶</a></h2>
+<h2>Installation<a class="headerlink" href="#id11" title="Link to this heading">#</a></h2>
 <p>You need a conda-compatible package manager
 (currently either <a class="reference external" href="https://pixi.sh">pixi</a>, <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>, or <a class="reference external" href="https://mamba.readthedocs.io">micromamba</a>)
 and the Bioconda channel already activated (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>).
 Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).</p>
 <section id="id12">
-<h3>Pixi<a class="headerlink" href="#id12" title="Link to this heading">¶</a></h3>
+<h3>Pixi<a class="headerlink" href="#id12" title="Link to this heading">#</a></h3>
 <p>With <a class="reference external" href="https://pixi.sh">pixi</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>),
 to install globally, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="n">esme_netcdf</span><span class="o">-</span><span class="n">c_</span>
@@ -265,7 +670,7 @@ to install globally, run:</p>
 </div>
 </section>
 <section id="id13">
-<h3>Conda<a class="headerlink" href="#id13" title="Link to this heading">¶</a></h3>
+<h3>Conda<a class="headerlink" href="#id13" title="Link to this heading">#</a></h3>
 <p>With <a class="reference external" href="https://conda.io">conda</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>), to install into an existing and activated environment, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">esme_netcdf</span><span class="o">-</span><span class="n">c_</span>
 </pre></div>
@@ -277,7 +682,7 @@ to install globally, run:</p>
 <p>with <code class="docutils literal notranslate"><span class="pre">envname</span></code> being the name of the desired environment.</p>
 </section>
 <section id="id14">
-<h3>Container<a class="headerlink" href="#id14" title="Link to this heading">¶</a></h3>
+<h3>Container<a class="headerlink" href="#id14" title="Link to this heading">#</a></h3>
 <p>Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">esme_netcdf</span><span class="o">-</span><span class="n">c_</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
@@ -286,7 +691,7 @@ For e.g. docker, run:</p>
 <p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/esme_netcdf-c_?tab=tags">esme_netcdf-c_/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>).</p>
 </section>
 <section id="id15">
-<h3>Integrated deployment<a class="headerlink" href="#id15" title="Link to this heading">¶</a></h3>
+<h3>Integrated deployment<a class="headerlink" href="#id15" title="Link to this heading">#</a></h3>
 <p>Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
 Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
 Check the documentation of your workflow management system to find out about the integration.</p>
@@ -298,7 +703,7 @@ Check the documentation of your workflow management system to find out about the
 <div style="width: 100%" id="platform_plot_esme_netcdf-c_"></div>
 <div style="width: 100%" id="cdf_plot_esme_netcdf-c_"></div><dl class="conda package">
 <dt class="sig sig-object conda" id="package-esme_netcdf-fortran_">
-<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">esme_netcdf-fortran_</span></span><a class="headerlink" href="#package-esme_netcdf-fortran_" title="Link to this definition">¶</a></dt>
+<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">esme_netcdf-fortran_</span></span><a class="headerlink" href="#package-esme_netcdf-fortran_" title="Link to this definition">#</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/esme_netcdf-fortran_"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/esme_netcdf-fortran_.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/esme_"><img alt="docker_esme_netcdf-fortran_" src="https://quay.io/repository/biocontainers/esme_/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
@@ -311,13 +716,13 @@ Check the documentation of your workflow management system to find out about the
 </section>
 </section>
 <section id="id18">
-<h2>Installation<a class="headerlink" href="#id18" title="Link to this heading">¶</a></h2>
+<h2>Installation<a class="headerlink" href="#id18" title="Link to this heading">#</a></h2>
 <p>You need a conda-compatible package manager
 (currently either <a class="reference external" href="https://pixi.sh">pixi</a>, <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>, or <a class="reference external" href="https://mamba.readthedocs.io">micromamba</a>)
 and the Bioconda channel already activated (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>).
 Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).</p>
 <section id="id19">
-<h3>Pixi<a class="headerlink" href="#id19" title="Link to this heading">¶</a></h3>
+<h3>Pixi<a class="headerlink" href="#id19" title="Link to this heading">#</a></h3>
 <p>With <a class="reference external" href="https://pixi.sh">pixi</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>),
 to install globally, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="n">esme_netcdf</span><span class="o">-</span><span class="n">fortran_</span>
@@ -334,7 +739,7 @@ to install globally, run:</p>
 </div>
 </section>
 <section id="id20">
-<h3>Conda<a class="headerlink" href="#id20" title="Link to this heading">¶</a></h3>
+<h3>Conda<a class="headerlink" href="#id20" title="Link to this heading">#</a></h3>
 <p>With <a class="reference external" href="https://conda.io">conda</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>), to install into an existing and activated environment, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">esme_netcdf</span><span class="o">-</span><span class="n">fortran_</span>
 </pre></div>
@@ -346,7 +751,7 @@ to install globally, run:</p>
 <p>with <code class="docutils literal notranslate"><span class="pre">envname</span></code> being the name of the desired environment.</p>
 </section>
 <section id="id21">
-<h3>Container<a class="headerlink" href="#id21" title="Link to this heading">¶</a></h3>
+<h3>Container<a class="headerlink" href="#id21" title="Link to this heading">#</a></h3>
 <p>Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">esme_netcdf</span><span class="o">-</span><span class="n">fortran_</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
@@ -355,7 +760,7 @@ For e.g. docker, run:</p>
 <p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/esme_netcdf-fortran_?tab=tags">esme_netcdf-fortran_/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>).</p>
 </section>
 <section id="id22">
-<h3>Integrated deployment<a class="headerlink" href="#id22" title="Link to this heading">¶</a></h3>
+<h3>Integrated deployment<a class="headerlink" href="#id22" title="Link to this heading">#</a></h3>
 <p>Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
 Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
 Check the documentation of your workflow management system to find out about the integration.</p>
@@ -367,7 +772,7 @@ Check the documentation of your workflow management system to find out about the
 <div style="width: 100%" id="platform_plot_esme_netcdf-fortran_"></div>
 <div style="width: 100%" id="cdf_plot_esme_netcdf-fortran_"></div><dl class="conda package">
 <dt class="sig sig-object conda" id="package-esme_omb_">
-<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">esme_omb_</span></span><a class="headerlink" href="#package-esme_omb_" title="Link to this definition">¶</a></dt>
+<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">esme_omb_</span></span><a class="headerlink" href="#package-esme_omb_" title="Link to this definition">#</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/esme_omb_"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/esme_omb_.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/esme_"><img alt="docker_esme_omb_" src="https://quay.io/repository/biocontainers/esme_/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
@@ -380,13 +785,13 @@ Check the documentation of your workflow management system to find out about the
 </section>
 </section>
 <section id="id25">
-<h2>Installation<a class="headerlink" href="#id25" title="Link to this heading">¶</a></h2>
+<h2>Installation<a class="headerlink" href="#id25" title="Link to this heading">#</a></h2>
 <p>You need a conda-compatible package manager
 (currently either <a class="reference external" href="https://pixi.sh">pixi</a>, <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>, or <a class="reference external" href="https://mamba.readthedocs.io">micromamba</a>)
 and the Bioconda channel already activated (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>).
 Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).</p>
 <section id="id26">
-<h3>Pixi<a class="headerlink" href="#id26" title="Link to this heading">¶</a></h3>
+<h3>Pixi<a class="headerlink" href="#id26" title="Link to this heading">#</a></h3>
 <p>With <a class="reference external" href="https://pixi.sh">pixi</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>),
 to install globally, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="n">esme_omb_</span>
@@ -403,7 +808,7 @@ to install globally, run:</p>
 </div>
 </section>
 <section id="id27">
-<h3>Conda<a class="headerlink" href="#id27" title="Link to this heading">¶</a></h3>
+<h3>Conda<a class="headerlink" href="#id27" title="Link to this heading">#</a></h3>
 <p>With <a class="reference external" href="https://conda.io">conda</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>), to install into an existing and activated environment, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">esme_omb_</span>
 </pre></div>
@@ -415,7 +820,7 @@ to install globally, run:</p>
 <p>with <code class="docutils literal notranslate"><span class="pre">envname</span></code> being the name of the desired environment.</p>
 </section>
 <section id="id28">
-<h3>Container<a class="headerlink" href="#id28" title="Link to this heading">¶</a></h3>
+<h3>Container<a class="headerlink" href="#id28" title="Link to this heading">#</a></h3>
 <p>Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">esme_omb_</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
@@ -424,7 +829,7 @@ For e.g. docker, run:</p>
 <p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/esme_omb_?tab=tags">esme_omb_/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>).</p>
 </section>
 <section id="id29">
-<h3>Integrated deployment<a class="headerlink" href="#id29" title="Link to this heading">¶</a></h3>
+<h3>Integrated deployment<a class="headerlink" href="#id29" title="Link to this heading">#</a></h3>
 <p>Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
 Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
 Check the documentation of your workflow management system to find out about the integration.</p>
@@ -436,7 +841,7 @@ Check the documentation of your workflow management system to find out about the
 <div style="width: 100%" id="platform_plot_esme_omb_"></div>
 <div style="width: 100%" id="cdf_plot_esme_omb_"></div><dl class="conda package">
 <dt class="sig sig-object conda" id="package-esme_pio_">
-<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">esme_pio_</span></span><a class="headerlink" href="#package-esme_pio_" title="Link to this definition">¶</a></dt>
+<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">esme_pio_</span></span><a class="headerlink" href="#package-esme_pio_" title="Link to this definition">#</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/esme_pio_"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/esme_pio_.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/esme_"><img alt="docker_esme_pio_" src="https://quay.io/repository/biocontainers/esme_/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
@@ -449,13 +854,13 @@ Check the documentation of your workflow management system to find out about the
 </section>
 </section>
 <section id="id32">
-<h2>Installation<a class="headerlink" href="#id32" title="Link to this heading">¶</a></h2>
+<h2>Installation<a class="headerlink" href="#id32" title="Link to this heading">#</a></h2>
 <p>You need a conda-compatible package manager
 (currently either <a class="reference external" href="https://pixi.sh">pixi</a>, <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>, or <a class="reference external" href="https://mamba.readthedocs.io">micromamba</a>)
 and the Bioconda channel already activated (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>).
 Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).</p>
 <section id="id33">
-<h3>Pixi<a class="headerlink" href="#id33" title="Link to this heading">¶</a></h3>
+<h3>Pixi<a class="headerlink" href="#id33" title="Link to this heading">#</a></h3>
 <p>With <a class="reference external" href="https://pixi.sh">pixi</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>),
 to install globally, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="n">esme_pio_</span>
@@ -472,7 +877,7 @@ to install globally, run:</p>
 </div>
 </section>
 <section id="id34">
-<h3>Conda<a class="headerlink" href="#id34" title="Link to this heading">¶</a></h3>
+<h3>Conda<a class="headerlink" href="#id34" title="Link to this heading">#</a></h3>
 <p>With <a class="reference external" href="https://conda.io">conda</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>), to install into an existing and activated environment, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">esme_pio_</span>
 </pre></div>
@@ -484,7 +889,7 @@ to install globally, run:</p>
 <p>with <code class="docutils literal notranslate"><span class="pre">envname</span></code> being the name of the desired environment.</p>
 </section>
 <section id="id35">
-<h3>Container<a class="headerlink" href="#id35" title="Link to this heading">¶</a></h3>
+<h3>Container<a class="headerlink" href="#id35" title="Link to this heading">#</a></h3>
 <p>Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">esme_pio_</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
@@ -493,7 +898,7 @@ For e.g. docker, run:</p>
 <p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/esme_pio_?tab=tags">esme_pio_/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>).</p>
 </section>
 <section id="id36">
-<h3>Integrated deployment<a class="headerlink" href="#id36" title="Link to this heading">¶</a></h3>
+<h3>Integrated deployment<a class="headerlink" href="#id36" title="Link to this heading">#</a></h3>
 <p>Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
 Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
 Check the documentation of your workflow management system to find out about the integration.</p>
@@ -505,7 +910,7 @@ Check the documentation of your workflow management system to find out about the
 <div style="width: 100%" id="platform_plot_esme_pio_"></div>
 <div style="width: 100%" id="cdf_plot_esme_pio_"></div><dl class="conda package">
 <dt class="sig sig-object conda" id="package-esme_pnetcdf_">
-<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">esme_pnetcdf_</span></span><a class="headerlink" href="#package-esme_pnetcdf_" title="Link to this definition">¶</a></dt>
+<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">esme_pnetcdf_</span></span><a class="headerlink" href="#package-esme_pnetcdf_" title="Link to this definition">#</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/esme_pnetcdf_"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/esme_pnetcdf_.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/esme_"><img alt="docker_esme_pnetcdf_" src="https://quay.io/repository/biocontainers/esme_/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
@@ -518,13 +923,13 @@ Check the documentation of your workflow management system to find out about the
 </section>
 </section>
 <section id="id39">
-<h2>Installation<a class="headerlink" href="#id39" title="Link to this heading">¶</a></h2>
+<h2>Installation<a class="headerlink" href="#id39" title="Link to this heading">#</a></h2>
 <p>You need a conda-compatible package manager
 (currently either <a class="reference external" href="https://pixi.sh">pixi</a>, <a class="reference external" href="https://docs.conda.io/projects/conda">conda</a>, or <a class="reference external" href="https://mamba.readthedocs.io">micromamba</a>)
 and the Bioconda channel already activated (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>).
 Below, we show how to install with either pixi or conda (for micromamba and mamba, commands are essentially the same as with conda).</p>
 <section id="id40">
-<h3>Pixi<a class="headerlink" href="#id40" title="Link to this heading">¶</a></h3>
+<h3>Pixi<a class="headerlink" href="#id40" title="Link to this heading">#</a></h3>
 <p>With <a class="reference external" href="https://pixi.sh">pixi</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>),
 to install globally, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="n">esme_pnetcdf_</span>
@@ -541,7 +946,7 @@ to install globally, run:</p>
 </div>
 </section>
 <section id="id41">
-<h3>Conda<a class="headerlink" href="#id41" title="Link to this heading">¶</a></h3>
+<h3>Conda<a class="headerlink" href="#id41" title="Link to this heading">#</a></h3>
 <p>With <a class="reference external" href="https://conda.io">conda</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>), to install into an existing and activated environment, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">esme_pnetcdf_</span>
 </pre></div>
@@ -553,7 +958,7 @@ to install globally, run:</p>
 <p>with <code class="docutils literal notranslate"><span class="pre">envname</span></code> being the name of the desired environment.</p>
 </section>
 <section id="id42">
-<h3>Container<a class="headerlink" href="#id42" title="Link to this heading">¶</a></h3>
+<h3>Container<a class="headerlink" href="#id42" title="Link to this heading">#</a></h3>
 <p>Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">esme_pnetcdf_</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
@@ -562,7 +967,7 @@ For e.g. docker, run:</p>
 <p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/esme_pnetcdf_?tab=tags">esme_pnetcdf_/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>).</p>
 </section>
 <section id="id43">
-<h3>Integrated deployment<a class="headerlink" href="#id43" title="Link to this heading">¶</a></h3>
+<h3>Integrated deployment<a class="headerlink" href="#id43" title="Link to this heading">#</a></h3>
 <p>Finally, note that many scientific workflow management systems directly integrate both conda and container based software deployment.
 Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
 Check the documentation of your workflow management system to find out about the integration.</p>
@@ -1019,7 +1424,7 @@ Check the documentation of your workflow management system to find out about the
 </script></section>
 </section>
 <section id="link-to-this-page">
-<h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Link to this heading">¶</a></h2>
+<h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Link to this heading">#</a></h2>
 <p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/esme_/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/esme_/README.html)
 </pre></div>
@@ -1028,58 +1433,128 @@ Check the documentation of your workflow management system to find out about the
 </section>
 
 
-          </div>
-          
-        </div>
-      </div>
-      <div class="sphinxsidebar" role="navigation" aria-label="Main">
-        <div class="sphinxsidebarwrapper">
-<p class="logo">
-  <a href="../../index.html">
-    <img class="logo" src="../../_static/logo/bioconda_monochrome_small.png" alt="Logo" />
-    
-  </a>
-</p>
-
-
-
-
-
-
-
-
-<h3>Navigation</h3>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../../faqs.html">FAQs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../contributor/index.html">Contributing to Bioconda</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../developer/index.html">Developer Docs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../tutorials/index.html">Tutorials</a></li>
-</ul>
-
-<ul>
-  
-  <li class="toctree-l1"><a href="../../conda-package_index.html">Browse packages</a></li>
-  
-  <li class="toctree-l1"><a href="https://github.com/bioconda/bioconda-recipes">Bioconda @ Github</a></li>
-  
-  <li class="toctree-l1"><a href="https://gitter.im/bioconda/Lobby"><img alt="Gitter" src="https://img.shields.io/gitter/room/bioconda/Lobby.svg"></a></li>
-  
-</ul>
-<div id="searchbox" style="display: none" role="search">
-    <h3 id="searchlabel">Search</h3>
-    <p id="searchdesc">packages & docs</p>
-    <div class="searchformwrapper">
-    <form class="search" action="../../search.html" method="get">
-      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
-      <input type="submit" value="Go" />
-    </form>
-    </div>
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
 </div>
-<script>document.getElementById('searchbox').style.display = "block"</script>
-        </div>
-      </div>
-      <div class="clearer"></div>
-    </div><script>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="pst-show_toc_level nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#installation">Installation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pixi">Pixi</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#conda">Conda</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#container">Container</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#integrated-deployment">Integrated deployment</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Installation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Pixi</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Conda</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Container</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Integrated deployment</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">Installation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">Pixi</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">Conda</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">Container</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">Integrated deployment</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id18">Installation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id19">Pixi</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id20">Conda</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id21">Container</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id22">Integrated deployment</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id25">Installation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id26">Pixi</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id27">Conda</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id28">Container</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id29">Integrated deployment</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id32">Installation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id33">Pixi</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id34">Conda</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id35">Container</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id36">Integrated deployment</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id39">Installation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id40">Pixi</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id41">Conda</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id42">Container</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id43">Integrated deployment</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#link-to-this-page">Link to this page</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  
+  <div class="tocsection editthispage">
+    <a href="https://github.com/bioconda/bioconda-docs/edit/main/source/recipes/esme/README.rst">
+      <i class="fa-solid fa-pencil"></i>
+      
+      
+        
+          Edit on GitHub
+        
+      
+    </a>
+  </div>
+</div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../../_sources/recipes/esme/README.rst.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../../_static/scripts/bootstrap.js?digest=a95f357e85573c9b56d5"></script>
+<script defer src="../../_static/scripts/pydata-sphinx-theme.js?digest=a95f357e85573c9b56d5"></script>
+<script>
     let closest;
     // Get the last part of the URL after the # symbol - should match the div id to display
     let id = window.location.hash.substring(1);
@@ -1094,22 +1569,45 @@ Check the documentation of your workflow management system to find out about the
 </script>
 
     
-    <div class="footer">
-      &#169;2016-2026, The Bioconda Team.
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
       
-      |
-      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 9.1.0</a>
-      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
-      
-      |
-      <a href="../../_sources/recipes/esme/README.rst.txt"
-          rel="nofollow">Page source</a>
-    </div>
+        <div class="footer-item">
 
+  <p class="copyright">
     
+      © Copyright 2016-2026, The Bioconda Team.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
 
-    <div class="git-ribbon">
-      <a href="https://github.com/bioconda/bioconda-recipes/edit/master/recipes/esme/meta.yaml" rel="me">Edit me on GitHub</a>
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.0.
+    <br/>
+  </p>
+</div>
+      
     </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.19.0.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
   </body>
 </html>

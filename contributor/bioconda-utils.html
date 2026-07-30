@@ -1,0 +1,821 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>bioconda-utils &#8212; Bioconda  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=a95f357e85573c9b56d5" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=a95f357e85573c9b56d5" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/style.css?v=94aa077e" />
+    <link rel="stylesheet" type="text/css" href="../_static/font-awesome-4.7.0/css/font-awesome.min.css?v=02f538dc" />
+  
+  <!-- So that users can add custom icons -->
+  <script defer src="../_static/scripts/fontawesome.js?digest=a95f357e85573c9b56d5"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=a95f357e85573c9b56d5" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=a95f357e85573c9b56d5" />
+
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'contributor/bioconda-utils';</script>
+    <script>DOCUMENTATION_OPTIONS.search_as_you_type = true;</script>
+    <script src="../_static/vega.min.js?v=d54ef115"></script>
+    <script src="../_static/vega-lite.min.js?v=4fab2bf4"></script>
+    <script src="../_static/vega-embed.min.js?v=2f6bc6e4"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="bioconda-utils command reference" href="bioconda-utils-cli.html" />
+    <link rel="prev" title="Contribution Workflow" href="workflow.html" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../_static/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../_static/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../_static/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../_static/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../_static/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../_static/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../_static/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../_static/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../_static/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../_static/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../_static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../_static/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../_static/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../_static/ms-icon-144x144.png">
+
+    <link rel="manifest" href="../_static/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+    <script>
+        (function() {
+            const html = document.documentElement;
+            function syncTheme() {
+                const theme = html.getAttribute('data-theme');
+                if (theme) {
+                    html.setAttribute('data-bs-theme', theme);
+                }
+            }
+            syncTheme();
+            const observer = new MutationObserver(syncTheme);
+            observer.observe(html, { attributes: true, attributeFilter: ['data-theme'] });
+        })();
+    </script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  
+    
+    <script src="../_static/searchtools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../searchindex.js"></script>
+  
+
+  </head>
+  <body data-default-mode="">
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+  
+  
+  
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header id="pst-header" class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/bioconda_monochrome_small.png" class="logo__image only-light" alt="Bioconda  documentation - Home"/>
+    <img src="../_static/bioconda_monochrome_small.png" class="logo__image only-dark pst-js-only" alt="Bioconda  documentation - Home"/>
+  
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../faqs.html">
+    FAQs
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="index.html">
+    Contributing to Bioconda
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../developer/index.html">
+    Developer Docs
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../tutorials/index.html">
+    Tutorials
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="/conda-package_index.html">
+    Browse packages
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<div class="theme-switch-container dropdown pst-js-only" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Color mode">
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
+    <i class="theme-switch fa-solid fa-sun fa-lg fa-fw" data-mode="light" title="Light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg fa-fw" data-mode="dark" title="Dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg fa-fw" data-mode="auto" title="System Settings"></i>
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end">
+    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
+    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
+    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
+  </ul>
+</div></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/bioconda/bioconda-recipes" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-square-github fa-lg" aria-hidden="true"></i><span class="visually-hidden">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://gitter.im/bioconda/Lobby" title="Gitter" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-gitter fa-lg" aria-hidden="true"></i><span class="visually-hidden">Gitter</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../faqs.html">
+    FAQs
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="index.html">
+    Contributing to Bioconda
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../developer/index.html">
+    Developer Docs
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../tutorials/index.html">
+    Tutorials
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-external" href="/conda-package_index.html">
+    Browse packages
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<div class="theme-switch-container dropdown pst-js-only" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Color mode">
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
+    <i class="theme-switch fa-solid fa-sun fa-lg fa-fw" data-mode="light" title="Light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg fa-fw" data-mode="dark" title="Dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg fa-fw" data-mode="auto" title="System Settings"></i>
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end">
+    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
+    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
+    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
+  </ul>
+</div></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/bioconda/bioconda-recipes" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-square-github fa-lg" aria-hidden="true"></i><span class="visually-hidden">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://gitter.im/bioconda/Lobby" title="Gitter" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-gitter fa-lg" aria-hidden="true"></i><span class="visually-hidden">Gitter</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+<nav class="bd-docs-nav bd-links"
+     aria-label="Section Navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
+  <div class="bd-toc-item navbar-nav"><ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="setup.html">Initial Setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="workflow.html">Contribution Workflow</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="bioconda-utils-cli.html"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> command reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="building-locally.html">Testing Recipes Locally</a></li>
+<li class="toctree-l1"><a class="reference internal" href="troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="build-system.html">Build system</a></li>
+<li class="toctree-l1"><a class="reference internal" href="guidelines.html">Guidelines for <code class="docutils literal notranslate"><span class="pre">bioconda</span></code> recipes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="linting.html">Linting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="updating.html">Updating recipes</a></li>
+
+</ul>
+</div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item"><a href="index.html" class="nav-link">Contributing to Bioconda</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="bioconda-utils">
+<span id="id1"></span><h1><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code><a class="headerlink" href="#bioconda-utils" title="Link to this heading">#</a></h1>
+<p><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> is Bioconda’s command-line build and maintenance tool. It
+connects recipe linting, conda package builds, isolated container tests,
+artifact uploads, and repository maintenance into the same workflows used by
+Bioconda’s CI systems.</p>
+<p>The source code is maintained in the <a class="reference external" href="https://github.com/bioconda/bioconda-utils">bioconda-utils repository</a>. The documentation here is
+organized by task; use the <a class="reference internal" href="bioconda-utils-cli.html"><span class="doc">bioconda-utils command reference</span></a> page when you need to find
+a particular command.</p>
+<nav class="contents local" id="contents">
+<ul class="simple">
+<li><p><a class="reference internal" href="#documentation-map" id="id3">Documentation map</a></p>
+<ul>
+<li><p><a class="reference internal" href="#getting-started-and-contributing-recipes" id="id4">Getting started and contributing recipes</a></p></li>
+<li><p><a class="reference internal" href="#understanding-why-the-build-system-exists" id="id5">Understanding why the build system exists</a></p></li>
+<li><p><a class="reference internal" href="#maintaining-bioconda-and-bioconda-utils" id="id6">Maintaining Bioconda and <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#installation" id="id7">Installation</a></p></li>
+<li><p><a class="reference internal" href="#command-line-conventions" id="id8">Command-line conventions</a></p></li>
+<li><p><a class="reference internal" href="#credentials" id="id9">Credentials</a></p>
+<ul>
+<li><p><a class="reference internal" href="#quay-io" id="id10">Quay.io</a></p></li>
+<li><p><a class="reference internal" href="#anaconda-org" id="id11">Anaconda.org</a></p></li>
+<li><p><a class="reference internal" href="#github" id="id12">GitHub</a></p></li>
+</ul>
+</li>
+</ul>
+</nav>
+<section id="documentation-map">
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">Documentation map</a><a class="headerlink" href="#documentation-map" title="Link to this heading">#</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> appears throughout the documentation because it is used by
+recipe contributors, release automation, and infrastructure maintainers. The
+pages below are the substantive documentation for each use; incidental links
+to source files and configuration are not repeated here.</p>
+<section id="getting-started-and-contributing-recipes">
+<h3><a class="toc-backref" href="#id4" role="doc-backlink">Getting started and contributing recipes</a><a class="headerlink" href="#getting-started-and-contributing-recipes" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="setup.html"><span class="doc">Initial Setup</span></a> and <a class="reference internal" href="workflow.html"><span class="doc">Contribution Workflow</span></a> introduce the recipes repository and the
+contribution lifecycle.</p></li>
+<li><p><a class="reference internal" href="building-locally.html"><span class="doc">Testing Recipes Locally</span></a> explains how to lint, build, and test recipes on a
+workstation, including Docker and isolated Biocontainer tests.</p></li>
+<li><p><a class="reference internal" href="guidelines.html"><span class="doc">Guidelines for bioconda recipes</span></a> documents recipe policy and language-specific packaging
+guidance, including commands such as <code class="docutils literal notranslate"><span class="pre">bioconductor-skeleton</span></code>.</p></li>
+<li><p><a class="reference internal" href="linting.html"><span class="doc">Linting</span></a> documents Bioconda’s recipe checks and how to address them.</p></li>
+<li><p><a class="reference internal" href="troubleshooting.html"><span class="doc">Troubleshooting</span></a> covers build logs, failed conda tests, and failed
+<code class="docutils literal notranslate"><span class="pre">mulled-build</span></code> container tests.</p></li>
+<li><p><a class="reference internal" href="updating.html"><span class="doc">Updating recipes</span></a> explains <code class="docutils literal notranslate"><span class="pre">autobump</span></code> and the implementation used to update
+recipes automatically.</p></li>
+<li><p><a class="reference internal" href="../tutorials/2024-adding-bioinformatic-software-to-bioconda.html"><span class="doc">Adding bioinformatic software to Bioconda - a reference guide</span></a>,
+<a class="reference internal" href="../tutorials/2024-updating-bioinformatic-software-to-bioconda.html"><span class="doc">Updating bioinformatic software to Bioconda - a reference guide</span></a>, and
+<a class="reference internal" href="../tutorials/2024-debugging-bioinformatic-software-to-bioconda.html"><span class="doc">Debugging a Bioconda build - a reference guide</span></a> provide
+longer, worked examples.</p></li>
+</ul>
+</section>
+<section id="understanding-why-the-build-system-exists">
+<h3><a class="toc-backref" href="#id5" role="doc-backlink">Understanding why the build system exists</a><a class="headerlink" href="#understanding-why-the-build-system-exists" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="build-system.html"><span class="doc">Build system</span></a> explains why <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> is separate from
+<code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code> and how it coordinates package builds, isolated tests,
+reporting, and uploads.</p></li>
+<li><p><a class="reference internal" href="../developer/dockerfile-inventory.html"><span class="doc">Dockerfile inventory</span></a> follows a package through the build
+environment, the minimal <code class="docutils literal notranslate"><span class="pre">mulled-build</span></code> environment, and the resulting
+Biocontainer.</p></li>
+<li><p><a class="reference internal" href="../developer/ci-inventory.html"><span class="doc">CI Inventory</span></a> identifies the CI jobs that invoke
+<code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> and the repositories that own them.</p></li>
+<li><p><a class="reference internal" href="../developer/repo-inventory.html"><span class="doc">Repository inventory</span></a> places <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> among the other
+Bioconda repositories.</p></li>
+<li><p><a class="reference internal" href="../developer/aarch64.html"><span class="doc">aarch64 and arm64 builds</span></a> describes the rollout of ARM package builds and
+the related infrastructure status.</p></li>
+</ul>
+</section>
+<section id="maintaining-bioconda-and-bioconda-utils">
+<h3><a class="toc-backref" href="#id6" role="doc-backlink">Maintaining Bioconda and <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a><a class="headerlink" href="#maintaining-bioconda-and-bioconda-utils" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../developer/updating-bioconda-utils.html"><span class="doc">Updating bioconda-utils</span></a> documents why merging source is
+not enough to deploy a change, and follows a release through Release Please,
+the Bioconda package, and <code class="docutils literal notranslate"><span class="pre">bioconda-common</span></code>.</p></li>
+<li><p><a class="reference internal" href="../developer/bulk.html"><span class="doc">The bulk branch</span></a> documents bulk rebuilds, pinning migrations,
+Bioconductor updates, and build failure records.</p></li>
+<li><p><a class="reference internal" href="../developer/repodata_patching.html"><span class="doc">Repodata patching</span></a> documents the maintenance and release of
+Bioconda’s repodata patches.</p></li>
+<li><p><a class="reference internal" href="bioconda-utils-cli.html"><span class="doc">bioconda-utils command reference</span></a> indexes all public commands and links each command
+back to its owning workflow.</p></li>
+<li><p><a class="reference internal" href="../faqs.html"><span class="doc">FAQs</span></a> provides background on package build strings, global pinnings,
+and other concepts consumed by <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code>.</p></li>
+</ul>
+</section>
+</section>
+<section id="installation">
+<span id="bioconda-utils-installation"></span><h2><a class="toc-backref" href="#id7" role="doc-backlink">Installation</a><a class="headerlink" href="#installation" title="Link to this heading">#</a></h2>
+<p>For normal recipe work, install the released conda package in a dedicated
+environment:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>create<span class="w"> </span>-n<span class="w"> </span>bioconda<span class="w"> </span>-c<span class="w"> </span>conda-forge<span class="w"> </span>-c<span class="w"> </span>bioconda<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--strict-channel-priority<span class="w"> </span>bioconda-utils
+conda<span class="w"> </span>activate<span class="w"> </span>bioconda
+</pre></div>
+</div>
+<p>Run recipe-oriented commands from the root of a <code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code> checkout.
+Commands that accept the recipe directory and configuration file default to
+<code class="docutils literal notranslate"><span class="pre">recipes/</span></code> and <code class="docutils literal notranslate"><span class="pre">config.yml</span></code> there. They can also be supplied explicitly:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>bioconda-utils<span class="w"> </span>lint<span class="w"> </span>recipes/<span class="w"> </span>config.yml<span class="w"> </span>--packages<span class="w"> </span>samtools
+</pre></div>
+</div>
+<p>This conda environment is for <em>using</em> the released tool to work on recipes.
+When developing <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> itself, use its Pixi environment and Just
+tasks as described in the <a class="reference external" href="https://github.com/bioconda/bioconda-utils#readme">repository README</a>.</p>
+</section>
+<section id="command-line-conventions">
+<h2><a class="toc-backref" href="#id8" role="doc-backlink">Command-line conventions</a><a class="headerlink" href="#command-line-conventions" title="Link to this heading">#</a></h2>
+<p>The command has the general form:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">bioconda-utils &lt;command&gt; [arguments]</span>
+</pre></div>
+</div>
+<p>Use the top-level help to list commands and command help to see the complete,
+version-specific option list:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>bioconda-utils<span class="w"> </span>--help
+bioconda-utils<span class="w"> </span>build<span class="w"> </span>--help
+</pre></div>
+</div>
+<p>Most commands support <code class="docutils literal notranslate"><span class="pre">--loglevel</span></code> and <code class="docutils literal notranslate"><span class="pre">--logfile</span></code>. Recipe selection is
+usually expressed with one of the following:</p>
+<dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">--packages</span></code></dt><dd><p>Select package-name globs directly. Repeat the option to select more than
+one glob, for example <code class="docutils literal notranslate"><span class="pre">--packages</span> <span class="pre">samtools</span> <span class="pre">--packages</span> <span class="pre">bcftools</span></code>.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">--git-range</span></code></dt><dd><p>Select changes on a ref since its merge base with another ref, using
+<code class="docutils literal notranslate"><span class="pre">BASE...REF</span></code> syntax such as <code class="docutils literal notranslate"><span class="pre">master...HEAD</span></code>. Supplying only <code class="docutils literal notranslate"><span class="pre">BASE</span></code> is
+shorthand for <code class="docutils literal notranslate"><span class="pre">BASE...HEAD</span></code>. Two-dot ranges are not supported.</p>
+</dd>
+</dl>
+<p>See <a class="reference internal" href="bioconda-utils-cli.html"><span class="doc">bioconda-utils command reference</span></a> for the command index and examples.</p>
+</section>
+<section id="credentials">
+<span id="id2"></span><h2><a class="toc-backref" href="#id9" role="doc-backlink">Credentials</a><a class="headerlink" href="#credentials" title="Link to this heading">#</a></h2>
+<p>Only commands that access remote services need credentials. Keep credentials
+in environment variables or existing credential stores; never put them in a
+recipe, command history, or committed configuration.</p>
+<section id="quay-io">
+<h3><a class="toc-backref" href="#id10" role="doc-backlink">Quay.io</a><a class="headerlink" href="#quay-io" title="Link to this heading">#</a></h3>
+<p>Container uploads accept either:</p>
+<dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">QUAY_OAUTH_TOKEN</span></code></dt><dd><p>A Quay OAuth token. This is preferred for automation because it allows
+<code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> to create repositories and make them public through the
+Quay API.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">QUAY_LOGIN</span></code></dt><dd><p>Credentials in <code class="docutils literal notranslate"><span class="pre">user:password</span></code> format.</p>
+</dd>
+</dl>
+</section>
+<section id="anaconda-org">
+<h3><a class="toc-backref" href="#id11" role="doc-backlink">Anaconda.org</a><a class="headerlink" href="#anaconda-org" title="Link to this heading">#</a></h3>
+<p>Set <code class="docutils literal notranslate"><span class="pre">ANACONDA_TOKEN</span></code> for package uploads and destructive channel operations,
+including <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span> <span class="pre">duplicates</span> <span class="pre">--remove</span></code>.</p>
+</section>
+<section id="github">
+<h3><a class="toc-backref" href="#id12" role="doc-backlink">GitHub</a><a class="headerlink" href="#github" title="Link to this heading">#</a></h3>
+<p>Commands that publish statuses, comments, or pull requests use
+<code class="docutils literal notranslate"><span class="pre">GITHUB_TOKEN</span></code>. Consult the command’s <code class="docutils literal notranslate"><span class="pre">--help</span></code> output because the required
+repository and pull-request arguments differ by operation.</p>
+</section>
+</section>
+</section>
+
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="workflow.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Contribution Workflow</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="bioconda-utils-cli.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> command reference</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="pst-show_toc_level nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#documentation-map">Documentation map</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-started-and-contributing-recipes">Getting started and contributing recipes</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#understanding-why-the-build-system-exists">Understanding why the build system exists</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#maintaining-bioconda-and-bioconda-utils">Maintaining Bioconda and <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code></a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#installation">Installation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#command-line-conventions">Command-line conventions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#credentials">Credentials</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#quay-io">Quay.io</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#anaconda-org">Anaconda.org</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#github">GitHub</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  
+  <div class="tocsection editthispage">
+    <a href="https://github.com/bioconda/bioconda-docs/edit/main/source/contributor/bioconda-utils.rst">
+      <i class="fa-solid fa-pencil"></i>
+      
+      
+        
+          Edit on GitHub
+        
+      
+    </a>
+  </div>
+</div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../_sources/contributor/bioconda-utils.rst.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=a95f357e85573c9b56d5"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=a95f357e85573c9b56d5"></script>
+<script>
+    let closest;
+    // Get the last part of the URL after the # symbol - should match the div id to display
+    let id = window.location.hash.substring(1);
+    if (id) {
+        let elem = document.getElementById(id);
+        if (elem != null) {
+            // Get the closest "details" element and open it
+            closest = elem.closest("details");
+            if (closest) closest.open = true;
+        }
+    }
+</script>
+
+    
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2016-2026, The Bioconda Team.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.0.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.19.0.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+  </body>
+</html>

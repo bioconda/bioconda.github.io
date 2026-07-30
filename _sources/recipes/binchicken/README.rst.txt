@@ -30,10 +30,10 @@ binchicken
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.14.0-0</code>,  <code>0.13.5-0</code>,  <code>0.13.4-0</code>,  <code>0.13.3-0</code>,  <code>0.13.2-1</code>,  <code>0.13.2-0</code>,  <code>0.13.1-0</code>,  <code>0.13.0-0</code>,  <code>0.12.11-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.14.1-0</code>,  <code>0.14.0-0</code>,  <code>0.13.5-0</code>,  <code>0.13.4-0</code>,  <code>0.13.3-0</code>,  <code>0.13.2-1</code>,  <code>0.13.2-0</code>,  <code>0.13.1-0</code>,  <code>0.13.0-0</code>,  </span></summary>
       
 
-      ``0.14.0-0``,  ``0.13.5-0``,  ``0.13.4-0``,  ``0.13.3-0``,  ``0.13.2-1``,  ``0.13.2-0``,  ``0.13.1-0``,  ``0.13.0-0``,  ``0.12.11-0``,  ``0.12.6-1``,  ``0.12.6-0``,  ``0.12.5-1``,  ``0.12.5-0``,  ``0.12.4-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-1``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.5-0``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.0-0``
+      ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.5-0``,  ``0.13.4-0``,  ``0.13.3-0``,  ``0.13.2-1``,  ``0.13.2-0``,  ``0.13.1-0``,  ``0.13.0-0``,  ``0.12.11-0``,  ``0.12.6-1``,  ``0.12.6-0``,  ``0.12.5-1``,  ``0.12.5-0``,  ``0.12.4-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-1``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.5-0``,  ``0.10.4-0``,  ``0.10.3-0``,  ``0.10.0-0``
 
       
       .. raw:: html
@@ -53,6 +53,7 @@ binchicken
    :depends on pyopenssl: ``>22.1.0``
    :depends on python: ``3.11.*``
    :depends on ruamel.yaml: ``>=0.15.99``
+   :depends on snakemake-executor-plugin-cluster-generic: ``>=1``
    :depends on snakemake-minimal: ``>=9.22.0``
    :depends on sourmash: ``4.8.*``
    :depends on sourmash_plugin_branchwater: ``0.9.*``
@@ -130,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "binchicken";
-      var versions = ["0.14.0","0.13.5","0.13.4","0.13.3","0.13.2"];
+      var versions = ["0.14.1","0.14.0","0.13.5","0.13.4","0.13.3"];
    </script>
 
 .. rubric:: Download stats

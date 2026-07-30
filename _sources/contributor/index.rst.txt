@@ -33,6 +33,8 @@ challenging to package. The topics below provide more details.
 
     setup
     workflow
+    bioconda-utils
+    bioconda-utils-cli
     building-locally
 
     troubleshooting

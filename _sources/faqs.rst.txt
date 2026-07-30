@@ -12,31 +12,26 @@ FAQs
 How do I speed up package installation?
 ---------------------------------------
 
-Speedup option 1: use ``mamba``
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Speedup option 1: use the libmamba solver
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-`mamba <https://github.com/mamba-org/mamba>`_ is a drop-in replacement for
-conda that uses a faster dependency solving library and parts reimplemented in
-C++ for speed. Install it just into the base environment so that it's always
-available, like this:
+Current conda releases use the fast libmamba dependency solver. Check the
+configured solver with:
 
 .. code-block:: bash
 
-    conda install mamba -n base -c conda-forge
+    conda config --show solver
 
-Then use ``mamba`` instead of ``conda``.
+If an older installation is configured to use the classic solver, enable
+libmamba after updating conda:
 
-For example, instead of ``conda install``, use ``mamba install``. Instead of
-``conda env create`` use ``mamba env create``, and so on. ``mamba`` also uses
-the same configuration as ``conda``, so you don't need to reconfigure the
-channels.
+.. code-block:: bash
 
-.. note::
+    conda config --set solver libmamba
 
-    Installing ``mamba`` into the base environment (``-n base`` in the command
-    above) means that it does **not** need to be installed into each subsequent
-    environment you create.
+The separate `mamba <https://github.com/mamba-org/mamba>`_ command remains a
+compatible conda client and uses the same solver library, but installing it is
+no longer necessary merely to improve solve speed.
 
 Speedup option 2: use environments strategically
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -90,11 +85,11 @@ below for where this is configured). There are still packages in the Bioconda
 channel for earlier versions of Python, but new packages
 are not built for these versions.
 
-Packages which declare `noarch: python` and only depend on packages that also
-declare `noarch: python` can be installed in an environment with any version of
+Packages which declare ``noarch: python`` and only depend on packages that also
+declare ``noarch: python`` can be installed in an environment with any version of
 Python they say they can support. However many Python packages in Bioconda
 depend on other Bioconda packages with architecture specific builds, such as
-`pysam`, and so do not meet this criteria.
+``pysam``, and so do not meet this criteria.
 
 .. datechanged:: 2022-09-01
    Python 3.10 support started in Aug 2022
@@ -180,9 +175,9 @@ scientific Python stack.
 
 Many packaging problems had to be solved in order to provide all of that
 software in Anaconda in a cross-platform bundle, and one of the tools that came
-out of that work was the conda package manager. So conda is part of th Anaconda
-Python distribution. But conda ended up being very useful on its own and for
-things other than Python, so ContinuumIO spun it out into its own separate
+out of that work was the conda package manager. So conda is part of the
+Anaconda Python distribution. But conda ended up being very useful on its own
+and for things other than Python, so ContinuumIO spun it out into its own
 `open-source package <https://github.com/conda/conda>`_.
 
 Conda became very useful for setting up lightweight environments for testing
@@ -210,11 +205,11 @@ version, dependencies, and URL for source code. A recipe typically contains
 a ``meta.yaml`` file that defines these settings and a ``build.sh`` script that
 builds the software.
 
-A recipe is converted into a *package* by running `conda-build` on the recipe.
+A recipe is converted into a *package* by running ``conda-build`` on the recipe.
 A package is a bgzipped tar file (``.tar.bz2``) that contains the built
 software in expected subdirectories, along with a list of what other packages
 are dependencies. For example, a conda package built for a Python package would
-end up with `.py` files in the `lib/python3.8/site-packages/<pkgname>`
+end up with ``.py`` files in the ``lib/python3.8/site-packages/<pkgname>``
 directory inside the tarball, and would specify (at least) Python as
 a dependency.
 
