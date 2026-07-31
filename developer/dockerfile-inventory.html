@@ -27,8 +27,8 @@
   </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=a95f357e85573c9b56d5" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=a95f357e85573c9b56d5" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=90905a2f556bf617f1a9" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=90905a2f556bf617f1a9" rel="stylesheet" />
 
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
     <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
@@ -37,10 +37,10 @@
     <link rel="stylesheet" type="text/css" href="../_static/font-awesome-4.7.0/css/font-awesome.min.css?v=02f538dc" />
   
   <!-- So that users can add custom icons -->
-  <script defer src="../_static/scripts/fontawesome.js?digest=a95f357e85573c9b56d5"></script>
+  <script defer src="../_static/scripts/fontawesome.js?digest=90905a2f556bf617f1a9"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=a95f357e85573c9b56d5" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=a95f357e85573c9b56d5" />
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=90905a2f556bf617f1a9" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=90905a2f556bf617f1a9" />
 
     <script src="../_static/documentation_options.js?v=5929fcd5"></script>
     <script src="../_static/doctools.js?v=fd6eb6e6"></script>
@@ -516,8 +516,14 @@ architectures like osx, linux/amd64, linux/arm64, but also OCI images
 <p>Packages which only support ARM are now possible. The manifest
 reconciliation logic publishes whatever subset of requested platforms are
 available and does not require amd64 to be present.</p>
-<figure class="align-default">
+<figure class="align-default" id="id9">
 <img alt="../_images/bioconda-containers.png" src="../_images/bioconda-containers.png" />
+<figcaption>
+<p><span class="caption-text">Sketch of how containers and packages interact with
+<strong class="command">bioconda-utils build --docker --mulled-build-and-test</strong>. See below for
+details. [<a class="reference download internal" download="" href="../_downloads/06c581f9619bdf405bd7c16d59994cce/bioconda-containers.excalidraw"><code class="xref download docutils literal notranslate"><span class="pre">excalidraw</span></code></a>]
+[<a class="reference download internal" download="" href="../_downloads/d51943aca6b41b2f96b871e293740839/bioconda-containers.svg"><code class="xref download docutils literal notranslate"><span class="pre">SVG</span></code></a>]</span><a class="headerlink" href="#id9" title="Link to this image">#</a></p>
+</figcaption>
 </figure>
 <p><strong>Description of steps:</strong></p>
 <p>These steps are all coordinated with running <strong class="command">bioconda-utils build
@@ -649,13 +655,8 @@ sets DEST_BASE_IMAGE to the <code class="docutils literal notranslate"><span cla
 This can take one of two hard-coded values, depending on if the recipe needed
 an extended image or not.</p></li>
 <li><p>mulled-build also needs a conda image to use. This is set by bioconda-utils
-in <a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/2c5d4ad754f7bfa17b90495dc602118c7270d4bc/bioconda_utils/pkg_test.py#L20">pkg_test.py</a></p></li>
-</ul>
-<dl class="simple">
-<dt>which is then passed to <a href="#id12"><span class="problematic" id="id13">`</span></a>build.build</dt><dd><p>&lt;<a class="github reference external" href="https://github.com/bioconda/bioconda-utils/blob/2c5d4ad754f7bfa17b90495dc602118c7270d4bc/bioconda_utils/build.py#L61">bioconda/bioconda-utils</a>&gt;`_.</p>
-</dd>
-</dl>
-<ul class="simple">
+in <a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/2c5d4ad754f7bfa17b90495dc602118c7270d4bc/bioconda_utils/pkg_test.py#L20">pkg_test.py</a>
+which is then passed to <a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/2c5d4ad754f7bfa17b90495dc602118c7270d4bc/bioconda_utils/build.py#L61">build.build</a>.</p></li>
 <li><p>Container registry credentials for uploading images to quay.io are configured
 via environment variables (see <a class="reference internal" href="../contributor/bioconda-utils.html#credentials"><span class="std std-ref">Credentials</span></a> for details).</p></li>
 </ul>
@@ -770,8 +771,8 @@ when the <a class="reference external" href="https://github.com/bioconda/biocond
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script defer src="../_static/scripts/bootstrap.js?digest=a95f357e85573c9b56d5"></script>
-<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=a95f357e85573c9b56d5"></script>
+  <script defer src="../_static/scripts/bootstrap.js?digest=90905a2f556bf617f1a9"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=90905a2f556bf617f1a9"></script>
 <script>
     let closest;
     // Get the last part of the URL after the # symbol - should match the div id to display
@@ -819,7 +820,7 @@ when the <a class="reference external" href="https://github.com/bioconda/biocond
         <div class="footer-item">
 <p class="theme-version">
   <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
-  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.19.0.
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.20.0.
 </p></div>
       
     </div>

@@ -42,7 +42,6 @@ impg
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on gsl: ``>=2.7,<2.8.0a0``
    :depends on htslib: ``>=1.24,<1.25.0a0``

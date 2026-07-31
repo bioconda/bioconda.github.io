@@ -328,7 +328,7 @@ In our local ``bioconda-build`` conda environment, we can build via one of two o
         conda build recipes/<toolname> --keep-old-work
 
 - The ```bioconda-utils``` command, which should better replicate the CI environment, and gives us the Biocontainer Docker version of our conda environment and provides colorful logging (but requires Docker, and is slower):
-  Have a look at the contributor documentation on bioconda_utils_ for more details.
+  Have a look at the :ref:`bioconda-utils contributor documentation <bioconda_utils>` for more details.
   Run it with:
 
     .. code-block:: bash

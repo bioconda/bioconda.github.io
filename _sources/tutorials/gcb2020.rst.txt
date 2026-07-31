@@ -561,7 +561,7 @@ A note on "pinnings"
 ``about``/``extra``
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. code-block:: yaml-jinja
+.. code-block:: yaml
 
    about:
      home: https://github.com/vembrane/vembrane

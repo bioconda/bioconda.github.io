@@ -27,8 +27,8 @@
   </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=a95f357e85573c9b56d5" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=a95f357e85573c9b56d5" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=90905a2f556bf617f1a9" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=90905a2f556bf617f1a9" rel="stylesheet" />
 
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
     <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
@@ -37,10 +37,10 @@
     <link rel="stylesheet" type="text/css" href="../_static/font-awesome-4.7.0/css/font-awesome.min.css?v=02f538dc" />
   
   <!-- So that users can add custom icons -->
-  <script defer src="../_static/scripts/fontawesome.js?digest=a95f357e85573c9b56d5"></script>
+  <script defer src="../_static/scripts/fontawesome.js?digest=90905a2f556bf617f1a9"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=a95f357e85573c9b56d5" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=a95f357e85573c9b56d5" />
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=90905a2f556bf617f1a9" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=90905a2f556bf617f1a9" />
 
     <script src="../_static/documentation_options.js?v=5929fcd5"></script>
     <script src="../_static/doctools.js?v=fd6eb6e6"></script>
@@ -619,31 +619,33 @@ at preventing.</p>
 <li><p><a class="reference internal" href="#build-number-needs-bump" id="id44">“<code class="xref py py-class docutils literal notranslate"><span class="pre">build_number_needs_bump</span></code>”</a></p></li>
 <li><p><a class="reference internal" href="#build-number-needs-reset" id="id45">“<code class="xref py py-class docutils literal notranslate"><span class="pre">build_number_needs_reset</span></code>”</a></p></li>
 <li><p><a class="reference internal" href="#recipe-is-blacklisted" id="id46">“<code class="xref py py-class docutils literal notranslate"><span class="pre">recipe_is_blacklisted</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#repodata-patches-no-version-bump" id="id47">“<code class="xref py py-class docutils literal notranslate"><span class="pre">repodata_patches_no_version_bump</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#repodata-patches-show-diff" id="id48">“<code class="xref py py-class docutils literal notranslate"><span class="pre">repodata_patches_show_diff</span></code>”</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#deprecations" id="id47">Deprecations</a></p>
+<li><p><a class="reference internal" href="#deprecations" id="id49">Deprecations</a></p>
 <ul>
-<li><p><a class="reference internal" href="#uses-perl-threaded" id="id48">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_perl_threaded</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#uses-javajdk" id="id49">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_javajdk</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#deprecated-numpy-spec" id="id50">“<code class="xref py py-class docutils literal notranslate"><span class="pre">deprecated_numpy_spec</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#uses-matplotlib" id="id51">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_matplotlib</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#uses-perl-threaded" id="id50">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_perl_threaded</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#uses-javajdk" id="id51">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_javajdk</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#deprecated-numpy-spec" id="id52">“<code class="xref py py-class docutils literal notranslate"><span class="pre">deprecated_numpy_spec</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#uses-matplotlib" id="id53">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_matplotlib</span></code>”</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#build-helpers" id="id52">Build helpers</a></p>
+<li><p><a class="reference internal" href="#build-helpers" id="id54">Build helpers</a></p>
 <ul>
-<li><p><a class="reference internal" href="#missing-run-exports" id="id53">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_run_exports</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#should-use-compilers" id="id54">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_use_compilers</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#uses-setuptools" id="id55">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_setuptools</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#setup-py-install-args" id="id56">“<code class="xref py py-class docutils literal notranslate"><span class="pre">setup_py_install_args</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#compilers-must-be-in-build" id="id57">“<code class="xref py py-class docutils literal notranslate"><span class="pre">compilers_must_be_in_build</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#compiler-needs-stdlib-c" id="id58">“<code class="xref py py-class docutils literal notranslate"><span class="pre">compiler_needs_stdlib_c</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#cython-must-be-in-host" id="id59">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_must_be_in_host</span></code>”</a></p></li>
-<li><p><a class="reference internal" href="#cython-needs-compiler" id="id60">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_needs_compiler</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#missing-run-exports" id="id55">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_run_exports</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#should-use-compilers" id="id56">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_use_compilers</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#uses-setuptools" id="id57">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_setuptools</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#setup-py-install-args" id="id58">“<code class="xref py py-class docutils literal notranslate"><span class="pre">setup_py_install_args</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#compilers-must-be-in-build" id="id59">“<code class="xref py py-class docutils literal notranslate"><span class="pre">compilers_must_be_in_build</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#compiler-needs-stdlib-c" id="id60">“<code class="xref py py-class docutils literal notranslate"><span class="pre">compiler_needs_stdlib_c</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#cython-must-be-in-host" id="id61">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_must_be_in_host</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#cython-needs-compiler" id="id62">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_needs_compiler</span></code>”</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#linter-errors" id="id61">Linter Errors</a></p>
+<li><p><a class="reference internal" href="#linter-errors" id="id63">Linter Errors</a></p>
 <ul>
-<li><p><a class="reference internal" href="#linter-failure" id="id62">“<code class="xref py py-class docutils literal notranslate"><span class="pre">linter_failure</span></code>”</a></p></li>
+<li><p><a class="reference internal" href="#linter-failure" id="id64">“<code class="xref py py-class docutils literal notranslate"><span class="pre">linter_failure</span></code>”</a></p></li>
 </ul>
 </li>
 </ul>
@@ -1318,13 +1320,29 @@ and proceed as normal. Hopefully, you can fix whatever got the
 recipe on the blacklist!</p>
 </p>
 </section>
+<section id="repodata-patches-no-version-bump">
+<h4><a class="toc-backref" href="#id47" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">repodata_patches_no_version_bump</span></code>”</a><a class="headerlink" href="#repodata-patches-no-version-bump" title="Link to this heading">#</a></h4>
+<div class="admonition">
+<p class="admonition-title">The bioconda-repodata-patches recipe was changed but does not contain a version bump</p>
+<p>Please set the version to the current date in the format <code class="docutils literal notranslate"><span class="pre">YYYYMMDD</span></code>.</p>
+</div>
+<p></p>
+</section>
+<section id="repodata-patches-show-diff">
+<h4><a class="toc-backref" href="#id48" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">repodata_patches_show_diff</span></code>”</a><a class="headerlink" href="#repodata-patches-show-diff" title="Link to this heading">#</a></h4>
+<div class="admonition">
+<p class="admonition-title">The bioconda-repodata-patches recipe was changed</p>
+<p>Here comes the resulting repodata-diff:</p>
+</div>
+<p></p>
+</section>
 </section>
 <section id="deprecations">
-<h3><a class="toc-backref" href="#id47" role="doc-backlink">Deprecations</a><a class="headerlink" href="#deprecations" title="Link to this heading">#</a></h3>
+<h3><a class="toc-backref" href="#id49" role="doc-backlink">Deprecations</a><a class="headerlink" href="#deprecations" title="Link to this heading">#</a></h3>
 <p>These checks catch packages or recipe idioms we no longer use or that
 no longer work and need to be changed.</p>
 <section id="uses-perl-threaded">
-<h4><a class="toc-backref" href="#id48" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_perl_threaded</span></code>”</a><a class="headerlink" href="#uses-perl-threaded" title="Link to this heading">#</a></h4>
+<h4><a class="toc-backref" href="#id50" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_perl_threaded</span></code>”</a><a class="headerlink" href="#uses-perl-threaded" title="Link to this heading">#</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe uses <code class="docutils literal notranslate"><span class="pre">perl-threaded</span></code></p>
 <p>Please use <code class="docutils literal notranslate"><span class="pre">perl</span></code> instead.</p>
@@ -1335,7 +1353,7 @@ these older recipes is updated, it will fail this check.</p>
 </p>
 </section>
 <section id="uses-javajdk">
-<h4><a class="toc-backref" href="#id49" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_javajdk</span></code>”</a><a class="headerlink" href="#uses-javajdk" title="Link to this heading">#</a></h4>
+<h4><a class="toc-backref" href="#id51" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_javajdk</span></code>”</a><a class="headerlink" href="#uses-javajdk" title="Link to this heading">#</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe uses <code class="docutils literal notranslate"><span class="pre">java-jdk</span></code></p>
 <p>Please use <code class="docutils literal notranslate"><span class="pre">openjdk</span></code> instead.</p>
@@ -1346,7 +1364,7 @@ those older recipes is updated, it will fail this check.</p>
 </p>
 </section>
 <section id="deprecated-numpy-spec">
-<h4><a class="toc-backref" href="#id50" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">deprecated_numpy_spec</span></code>”</a><a class="headerlink" href="#deprecated-numpy-spec" title="Link to this heading">#</a></h4>
+<h4><a class="toc-backref" href="#id52" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">deprecated_numpy_spec</span></code>”</a><a class="headerlink" href="#deprecated-numpy-spec" title="Link to this heading">#</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe contains a deprecated numpy spec</p>
 <p>Please remove the <code class="docutils literal notranslate"><span class="pre">x.x</span></code> - pinning is now handled automatically.</p>
@@ -1358,7 +1376,7 @@ now just write <code class="docutils literal notranslate"><span class="pre">nump
 </p>
 </section>
 <section id="uses-matplotlib">
-<h4><a class="toc-backref" href="#id51" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_matplotlib</span></code>”</a><a class="headerlink" href="#uses-matplotlib" title="Link to this heading">#</a></h4>
+<h4><a class="toc-backref" href="#id53" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_matplotlib</span></code>”</a><a class="headerlink" href="#uses-matplotlib" title="Link to this heading">#</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe uses <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code>, but <code class="docutils literal notranslate"><span class="pre">matplotlib-base</span></code> is recommended</p>
 <p>The <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code> dependency should be replaced with <code class="docutils literal notranslate"><span class="pre">matplotlib-base</span></code>
@@ -1373,9 +1391,9 @@ which pulls in many other dependencies. In most cases, using
 </section>
 </section>
 <section id="build-helpers">
-<h3><a class="toc-backref" href="#id52" role="doc-backlink">Build helpers</a><a class="headerlink" href="#build-helpers" title="Link to this heading">#</a></h3>
+<h3><a class="toc-backref" href="#id54" role="doc-backlink">Build helpers</a><a class="headerlink" href="#build-helpers" title="Link to this heading">#</a></h3>
 <section id="missing-run-exports">
-<h4><a class="toc-backref" href="#id53" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_run_exports</span></code>”</a><a class="headerlink" href="#missing-run-exports" title="Link to this heading">#</a></h4>
+<h4><a class="toc-backref" href="#id55" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">missing_run_exports</span></code>”</a><a class="headerlink" href="#missing-run-exports" title="Link to this heading">#</a></h4>
 <div class="admonition">
 <p class="admonition-title">Recipe should have a run_exports statement that ensures correct pinning in downstream packages</p>
 <p>This ensures that the package is automatically pinned to a compatible version if
@@ -1426,7 +1444,7 @@ run_exports in upstream packages as well if needed.</p>
 <p></p>
 </section>
 <section id="should-use-compilers">
-<h4><a class="toc-backref" href="#id54" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_use_compilers</span></code>”</a><a class="headerlink" href="#should-use-compilers" title="Link to this heading">#</a></h4>
+<h4><a class="toc-backref" href="#id56" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">should_use_compilers</span></code>”</a><a class="headerlink" href="#should-use-compilers" title="Link to this heading">#</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe requires a compiler directly</p>
 <p>Since version 3, <code class="docutils literal notranslate"><span class="pre">conda-build</span></code> uses a special syntax to require
@@ -1466,7 +1484,7 @@ needs to be added manually if your package makes use of OpenMP.</p>
 </p>
 </section>
 <section id="uses-setuptools">
-<h4><a class="toc-backref" href="#id55" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_setuptools</span></code>”</a><a class="headerlink" href="#uses-setuptools" title="Link to this heading">#</a></h4>
+<h4><a class="toc-backref" href="#id57" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">uses_setuptools</span></code>”</a><a class="headerlink" href="#uses-setuptools" title="Link to this heading">#</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe uses setuptools in run depends</p>
 <p>Most Python packages only need setuptools during installation. Check if the
@@ -1489,7 +1507,7 @@ already include the required section.</p>
 </p>
 </section>
 <section id="setup-py-install-args">
-<h4><a class="toc-backref" href="#id56" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">setup_py_install_args</span></code>”</a><a class="headerlink" href="#setup-py-install-args" title="Link to this heading">#</a></h4>
+<h4><a class="toc-backref" href="#id58" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">setup_py_install_args</span></code>”</a><a class="headerlink" href="#setup-py-install-args" title="Link to this heading">#</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe uses setuptools without required arguments</p>
 <p>Please use:</p>
@@ -1518,7 +1536,7 @@ key in <code class="docutils literal notranslate"><span class="pre">meta.yaml</s
 </p>
 </section>
 <section id="compilers-must-be-in-build">
-<h4><a class="toc-backref" href="#id57" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">compilers_must_be_in_build</span></code>”</a><a class="headerlink" href="#compilers-must-be-in-build" title="Link to this heading">#</a></h4>
+<h4><a class="toc-backref" href="#id59" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">compilers_must_be_in_build</span></code>”</a><a class="headerlink" href="#compilers-must-be-in-build" title="Link to this heading">#</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe requests a compiler in a section other than build</p>
 <p>Please move the <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">compiler('language')</span> <span class="pre">}}</span></code> line into the
@@ -1530,7 +1548,7 @@ key in <code class="docutils literal notranslate"><span class="pre">meta.yaml</s
 </p>
 </section>
 <section id="compiler-needs-stdlib-c">
-<h4><a class="toc-backref" href="#id58" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">compiler_needs_stdlib_c</span></code>”</a><a class="headerlink" href="#compiler-needs-stdlib-c" title="Link to this heading">#</a></h4>
+<h4><a class="toc-backref" href="#id60" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">compiler_needs_stdlib_c</span></code>”</a><a class="headerlink" href="#compiler-needs-stdlib-c" title="Link to this heading">#</a></h4>
 <div class="admonition">
 <p class="admonition-title">The recipe requests a compiler in the build section, but does not have stdlib</p>
 <p>Please add the <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">stdlib('c')</span> <span class="pre">}}</span></code> line to the
@@ -1542,7 +1560,7 @@ not include <code class="docutils literal notranslate"><span class="pre">{{</spa
 </p>
 </section>
 <section id="cython-must-be-in-host">
-<h4><a class="toc-backref" href="#id59" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_must_be_in_host</span></code>”</a><a class="headerlink" href="#cython-must-be-in-host" title="Link to this heading">#</a></h4>
+<h4><a class="toc-backref" href="#id61" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_must_be_in_host</span></code>”</a><a class="headerlink" href="#cython-must-be-in-host" title="Link to this heading">#</a></h4>
 <div class="admonition">
 <p class="admonition-title">Cython should be in the host section</p>
 <p>Move cython to <code class="docutils literal notranslate"><span class="pre">host</span></code>:</p>
@@ -1557,7 +1575,7 @@ host section for now.</p>
 </p>
 </section>
 <section id="cython-needs-compiler">
-<h4><a class="toc-backref" href="#id60" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_needs_compiler</span></code>”</a><a class="headerlink" href="#cython-needs-compiler" title="Link to this heading">#</a></h4>
+<h4><a class="toc-backref" href="#id62" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">cython_needs_compiler</span></code>”</a><a class="headerlink" href="#cython-needs-compiler" title="Link to this heading">#</a></h4>
 <div class="admonition">
 <p class="admonition-title">Cython generates C code, which will need to be compiled</p>
 <p>Add the compiler to the recipe:</p>
@@ -1574,9 +1592,9 @@ recipe.</p>
 </section>
 </section>
 <section id="linter-errors">
-<h3><a class="toc-backref" href="#id61" role="doc-backlink">Linter Errors</a><a class="headerlink" href="#linter-errors" title="Link to this heading">#</a></h3>
+<h3><a class="toc-backref" href="#id63" role="doc-backlink">Linter Errors</a><a class="headerlink" href="#linter-errors" title="Link to this heading">#</a></h3>
 <section id="linter-failure">
-<h4><a class="toc-backref" href="#id62" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">linter_failure</span></code>”</a><a class="headerlink" href="#linter-failure" title="Link to this heading">#</a></h4>
+<h4><a class="toc-backref" href="#id64" role="doc-backlink">“<code class="xref py py-class docutils literal notranslate"><span class="pre">linter_failure</span></code>”</a><a class="headerlink" href="#linter-failure" title="Link to this heading">#</a></h4>
 <div class="admonition">
 <p class="admonition-title">An unexpected exception was raised during linting</p>
 <p>Please file an issue at the bioconda-utils repo</p>
@@ -1587,7 +1605,7 @@ recipe.</p>
 </section>
 <section id="developer-docs">
 <h2>Developer docs<a class="headerlink" href="#developer-docs" title="Link to this heading">#</a></h2>
-<p>See <code class="xref any docutils literal notranslate"><span class="pre">bioconda_utils.lint</span></code> for information on how to write additional checks.</p>
+<p>See <code class="docutils literal notranslate"><span class="pre">bioconda_utils.lint</span></code> for information on how to write additional checks.</p>
 </section>
 </section>
 
@@ -1699,6 +1717,8 @@ recipe.</p>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#build-number-needs-bump">“<code class="xref py py-class docutils literal notranslate"><span class="pre">build_number_needs_bump</span></code>”</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#build-number-needs-reset">“<code class="xref py py-class docutils literal notranslate"><span class="pre">build_number_needs_reset</span></code>”</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#recipe-is-blacklisted">“<code class="xref py py-class docutils literal notranslate"><span class="pre">recipe_is_blacklisted</span></code>”</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#repodata-patches-no-version-bump">“<code class="xref py py-class docutils literal notranslate"><span class="pre">repodata_patches_no_version_bump</span></code>”</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#repodata-patches-show-diff">“<code class="xref py py-class docutils literal notranslate"><span class="pre">repodata_patches_show_diff</span></code>”</a></li>
 </ul>
 </li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#deprecations">Deprecations</a><ul class="nav section-nav flex-column">
@@ -1767,8 +1787,8 @@ recipe.</p>
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script defer src="../_static/scripts/bootstrap.js?digest=a95f357e85573c9b56d5"></script>
-<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=a95f357e85573c9b56d5"></script>
+  <script defer src="../_static/scripts/bootstrap.js?digest=90905a2f556bf617f1a9"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=90905a2f556bf617f1a9"></script>
 <script>
     let closest;
     // Get the last part of the URL after the # symbol - should match the div id to display
@@ -1816,7 +1836,7 @@ recipe.</p>
         <div class="footer-item">
 <p class="theme-version">
   <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
-  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.19.0.
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.20.0.
 </p></div>
       
     </div>

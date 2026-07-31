@@ -40,10 +40,10 @@ available and does not require amd64 to be present.
 
 .. figure:: ../images/bioconda-containers.png
 
-   Sketch of how containers and packages interact with :command:`bioconda-utils
-       build --docker --mulled-build-and-test`. See below for details. [:download:`excalidraw
-   <../images/bioconda-containers.excalidraw>`] [:download:`SVG
-   <../images/bioconda-containers.svg>`]
+   Sketch of how containers and packages interact with
+   :command:`bioconda-utils build --docker --mulled-build-and-test`. See below for
+   details. [:download:`excalidraw <../images/bioconda-containers.excalidraw>`]
+   [:download:`SVG <../images/bioconda-containers.svg>`]
 
 **Description of steps:**
 
@@ -198,8 +198,8 @@ can give you a starting point for where to look.
 - mulled-build also needs a conda image to use. This is set by bioconda-utils
   in `pkg_test.py
   <https://github.com/bioconda/bioconda-utils/blob/2c5d4ad754f7bfa17b90495dc602118c7270d4bc/bioconda_utils/pkg_test.py#L20>`_
-which is then passed to `build.build
-   <https://github.com/bioconda/bioconda-utils/blob/2c5d4ad754f7bfa17b90495dc602118c7270d4bc/bioconda_utils/build.py#L61>`_.
+  which is then passed to `build.build
+  <https://github.com/bioconda/bioconda-utils/blob/2c5d4ad754f7bfa17b90495dc602118c7270d4bc/bioconda_utils/build.py#L61>`_.
 
 - Container registry credentials for uploading images to quay.io are configured
   via environment variables (see :ref:`credentials` for details).

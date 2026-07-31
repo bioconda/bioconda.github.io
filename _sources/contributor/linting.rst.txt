@@ -430,6 +430,10 @@ Repository
    and proceed as normal. Hopefully, you can fix whatever got the
    recipe on the blacklist!
 
+.. lint-check:: repodata_patches_no_version_bump
+
+.. lint-check:: repodata_patches_show_diff
+
 Deprecations
 ~~~~~~~~~~~~
 
@@ -564,5 +568,5 @@ Linter Errors
 Developer docs
 --------------
 
-See `bioconda_utils.lint` for information on how to write additional checks.
+See ``bioconda_utils.lint`` for information on how to write additional checks.
 

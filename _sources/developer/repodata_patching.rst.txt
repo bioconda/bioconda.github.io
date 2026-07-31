@@ -46,6 +46,7 @@ Let's take a look at what sorts of things are stored within this file for a
 single package:
 
    .. code-block:: json
+    :force:
 
     {
       "info": {
