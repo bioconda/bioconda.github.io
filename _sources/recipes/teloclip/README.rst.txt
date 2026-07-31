@@ -12,10 +12,11 @@ teloclip
 
    A tool for the recovery of unassembled telomeres from soft\-clipped read alignments.
 
-   :homepage: https://github.com/Adamtaranto/teloclip
-   :documentation: https://github.com/Adamtaranto/teloclip/blob/0.3.4/README.md
+   :homepage: https://adamtaranto.github.io/teloclip
+   :documentation: https://github.com/Adamtaranto/teloclip/blob/0.4.0/README.md
    
-   :license: MIT / MIT
+   :developer docs: https://github.com/Adamtaranto/teloclip
+   :license: GPL / GPL-3.0-or-later
    :recipe: /`teloclip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/teloclip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/teloclip/meta.yaml>`_
 
    
@@ -30,10 +31,10 @@ teloclip
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.4-0</code>,  <code>0.3.2-0</code>,  <code>0.2.0-0</code>,  <code>0.1.1-0</code>,  <code>0.1.0-0</code>,  <code>0.0.5-0</code>,  <code>0.0.4-0</code>,  <code>0.0.3-1</code>,  <code>0.0.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.0-0</code>,  <code>0.3.4-0</code>,  <code>0.3.2-0</code>,  <code>0.2.0-0</code>,  <code>0.1.1-0</code>,  <code>0.1.0-0</code>,  <code>0.0.5-0</code>,  <code>0.0.4-0</code>,  <code>0.0.3-1</code>,  </span></summary>
       
 
-      ``0.3.4-0``,  ``0.3.2-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``0.4.0-0``,  ``0.3.4-0``,  ``0.3.2-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``,  ``0.0.5-0``,  ``0.0.4-0``,  ``0.0.3-1``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
       .. raw:: html
@@ -122,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "teloclip";
-      var versions = ["0.3.4","0.3.2","0.2.0","0.1.1","0.1.0"];
+      var versions = ["0.4.0","0.3.4","0.3.2","0.2.0","0.1.1"];
    </script>
 
 .. rubric:: Download stats

@@ -31,10 +31,10 @@ commec
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.3.2-1</code>,  <code>0.3.2-0</code>,  <code>0.3.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.0-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.3.2-1</code>,  <code>0.3.2-0</code>,  </span></summary>
       
 
-      ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.0-0``,  ``0.1.2-0``
+      ``2.0.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.0-0``,  ``0.1.2-0``
 
       
       .. raw:: html
@@ -45,18 +45,17 @@ commec
    
    :depends on biopython: 
    :depends on blast: ``>=2.17``
-   :depends on diamond: ``>=2.1``
    :depends on hmmer: 
    :depends on infernal: 
-   :depends on mako: 
    :depends on numpy: 
    :depends on pandas: 
-   :depends on plotly: 
-   :depends on pytaxonkit: 
+   :depends on pycountry: 
    :depends on python: ``>=3.10``
    :depends on pyyaml: 
+   :depends on tar: 
    :depends on wget: 
    :depends on yaml: 
+   :depends on zstd: 
 
    :additional platforms:
       
@@ -131,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "commec";
-      var versions = ["1.0.5","1.0.4","1.0.3","1.0.2","1.0.1"];
+      var versions = ["2.0.0","1.0.5","1.0.4","1.0.3","1.0.2"];
    </script>
 
 .. rubric:: Download stats

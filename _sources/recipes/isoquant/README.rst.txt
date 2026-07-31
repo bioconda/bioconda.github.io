@@ -31,10 +31,10 @@ isoquant
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.13.1-0</code>,  <code>3.13.0-0</code>,  <code>3.12.2-0</code>,  <code>3.12.0-0</code>,  <code>3.11.1-0</code>,  <code>3.11.0-0</code>,  <code>3.10.0-0</code>,  <code>3.9.0-0</code>,  <code>3.7.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.0-0</code>,  <code>3.13.1-0</code>,  <code>3.13.0-0</code>,  <code>3.12.2-0</code>,  <code>3.12.0-0</code>,  <code>3.11.1-0</code>,  <code>3.11.0-0</code>,  <code>3.10.0-0</code>,  <code>3.9.0-0</code>,  </span></summary>
       
 
-      ``3.13.1-0``,  ``3.13.0-0``,  ``3.12.2-0``,  ``3.12.0-0``,  ``3.11.1-0``,  ``3.11.0-0``,  ``3.10.0-0``,  ``3.9.0-0``,  ``3.7.1-0``,  ``3.7.0-0``,  ``3.6.3-0``,  ``3.6.2-0``,  ``3.6.1-0``,  ``3.6.0-0``,  ``3.5.2-0``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``3.1.2-1``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.3-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.3.0-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``4.0.0-0``,  ``3.13.1-0``,  ``3.13.0-0``,  ``3.12.2-0``,  ``3.12.0-0``,  ``3.11.1-0``,  ``3.11.0-0``,  ``3.10.0-0``,  ``3.9.0-0``,  ``3.7.1-0``,  ``3.7.0-0``,  ``3.6.3-0``,  ``3.6.2-0``,  ``3.6.1-0``,  ``3.6.0-0``,  ``3.5.2-0``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``3.1.2-1``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.3-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.3.0-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.3.0-0``,  ``1.2.2-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -43,11 +43,13 @@ isoquant
       
 
    
-   :depends on argcomplete: ``>=1.11.1``
-   :depends on argh: ``>=0.26.2``
+   :depends on biopython: ``>=1.76``
    :depends on coverage: ``>=7.6``
-   :depends on editdistance: ``>=0.6.2``
+   :depends on editdistance: ``>=0.8.1``
    :depends on gffutils: ``>=0.10.1``
+   :depends on intervaltree: ``>=3.0``
+   :depends on mappy: ``>=2.24``
+   :depends on matplotlib-base: ``>=3.1.3``
    :depends on minimap2: ``>=2.18``
    :depends on numba: ``>=0.58``
    :depends on numpy: ``>=1.24``
@@ -58,12 +60,12 @@ isoquant
    :depends on python: 
    :depends on pyyaml: ``>=5.4``
    :depends on samtools: ``>=1.14``
+   :depends on scikit-learn: ``>=1.3.2``
    :depends on scipy: ``>=1.10``
    :depends on seaborn-base: ``>=0.10.0``
-   :depends on simplejson: ``>=3.17.0``
-   :depends on six: ``>=1.14.0``
    :depends on ssw-py: ``>=1.0``
    :depends on star: 
+   :depends on xgboost: ``>=2.1.4``
 
    :additional platforms:
       
@@ -138,7 +140,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "isoquant";
-      var versions = ["3.13.1","3.13.0","3.12.2","3.12.0","3.11.1"];
+      var versions = ["4.0.0","3.13.1","3.13.0","3.12.2","3.12.0"];
    </script>
 
 .. rubric:: Download stats

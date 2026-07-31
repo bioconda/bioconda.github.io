@@ -27,7 +27,7 @@ pyranges1
       
       
 
-      ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.4-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.1.6-0``
+      ``1.4.0-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.4-0``,  ``1.3.2-0``,  ``1.3.0-0``,  ``1.1.6-0``
 
       
 
@@ -118,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pyranges1";
-      var versions = ["1.3.9","1.3.8","1.3.7","1.3.6","1.3.4"];
+      var versions = ["1.4.0","1.3.9","1.3.8","1.3.7","1.3.6"];
    </script>
 
 .. rubric:: Download stats

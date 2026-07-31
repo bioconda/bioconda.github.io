@@ -239,6 +239,15 @@ ul.simple p {
     display: none;
 }
 
+/* Leave room for the sidebar and search controls in the mobile header. */
+@media (max-width: 575.98px) {
+    .navbar-brand img {
+        width: 9rem;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 /* Invert the black logo in dark mode for better visibility */
 html[data-theme="dark"] .navbar-brand img {
     filter: invert(1);

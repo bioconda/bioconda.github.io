@@ -31,10 +31,10 @@ wepp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.5.8-0</code>,  <code>0.1.5.7-0</code>,  <code>0.1.5.6-0</code>,  <code>0.1.5.5-0</code>,  <code>0.1.5.4-0</code>,  <code>0.1.5.3-1</code>,  <code>0.1.5.3-0</code>,  <code>0.1.5.2-0</code>,  <code>0.1.5.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.5.8-1</code>,  <code>0.1.5.8-0</code>,  <code>0.1.5.7-0</code>,  <code>0.1.5.6-0</code>,  <code>0.1.5.5-0</code>,  <code>0.1.5.4-0</code>,  <code>0.1.5.3-1</code>,  <code>0.1.5.3-0</code>,  <code>0.1.5.2-0</code>,  </span></summary>
       
 
-      ``0.1.5.8-0``,  ``0.1.5.7-0``,  ``0.1.5.6-0``,  ``0.1.5.5-0``,  ``0.1.5.4-0``,  ``0.1.5.3-1``,  ``0.1.5.3-0``,  ``0.1.5.2-0``,  ``0.1.5.1-0``,  ``0.1.5-0``,  ``0.1.4.1-0``
+      ``0.1.5.8-1``,  ``0.1.5.8-0``,  ``0.1.5.7-0``,  ``0.1.5.6-0``,  ``0.1.5.5-0``,  ``0.1.5.4-0``,  ``0.1.5.3-1``,  ``0.1.5.3-0``,  ``0.1.5.2-0``,  ``0.1.5.1-0``,  ``0.1.5-0``,  ``0.1.4.1-0``
 
       
       .. raw:: html
@@ -138,7 +138,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "wepp";
-      var versions = ["0.1.5.8","0.1.5.7","0.1.5.6","0.1.5.5","0.1.5.4"];
+      var versions = ["0.1.5.8","0.1.5.8","0.1.5.7","0.1.5.6","0.1.5.5"];
    </script>
 
 .. rubric:: Download stats
