@@ -35,8 +35,7 @@ d4binding
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=16``
    :depends on starcode: 
 
    :additional platforms:

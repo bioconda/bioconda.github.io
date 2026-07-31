@@ -32,7 +32,6 @@ gtfreader
       
 
    
-   :depends on libgcc: ``>=14``
    :depends on pandas: ``>=2.0``
    :depends on python: ``>=3.12,<3.13.0a0``
    :depends on python_abi: ``3.12.* *_cp312``
