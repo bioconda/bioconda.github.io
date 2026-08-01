@@ -472,20 +472,23 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">metawepp</span></span></dt>
-<dd><p>metaWEPP: Improving resolution of metagenomic analysis using WEPP</p>
+<dd><p>metaWEPP: Improving the resolution of metagenomic analysis using WEPP</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="github reference external" href="https://github.com/TurakhiaLab/metaWEPP">TurakhiaLab/metaWEPP</a></p>
 </dd>
-<dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>MIT / MIT</p>
+<dt class="field-even">Documentation<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://turakhia.ucsd.edu/metaWEPP">https://turakhia.ucsd.edu/metaWEPP</a></p>
 </dd>
-<dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metawepp">metawepp</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metawepp/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">License<span class="colon">:</span></dt>
+<dd class="field-odd"><p>MIT / MIT</p>
+</dd>
+<dt class="field-even">Recipe<span class="colon">:</span></dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metawepp">metawepp</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metawepp/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>metaWEPP extends the current species-level resolution of existing metagenomic tools by providing near-haplotype detection and abundance estimation for multi-species samples. It utilizes a standard classifier to first segregate reads by species before applying the Wastewater-Based Epidemiology using Phylogenetic Placements (WEPP) pipeline to each segregated dataset. By performing parsimonious read placement on species-specific mutation-annotated trees (MATs), metaWEPP identifies the haplotypes that best explain the data and flags Unaccounted Alleles—mutations observed in the sample but unexplained by selected haplotypes—potentially indicating the presence of novel variants.
-The pipeline enables high-resolution surveillance across diverse pathogens and includes an interactive dashboard for visualizing identified haplotypes within their global phylogenies. This allows for detailed, read-level analysis of emerging lineages within complex metagenomic datasets.</p>
+<p>metaWEPP extends existing metagenomic tools beyond species-level resolution by enabling near-haplotype detection, abundance estimation, and novel variant detection in multi-species samples. It first uses a standard classifier to segregate reads by species, then applies the Wastewater-Based Epidemiology using Phylogenetic Placements (WEPP) pipeline to each species-specific reads sample. By performing parsimonious read placement on species-specific mutation-annotated trees (MATs), metaWEPP identifies haplotypes that best explain the observed data and flags Unaccounted Alleles—mutations observed in the sample but unexplained by the selected haplotypes—that may indicate novel variants.
+The pipeline enables high-resolution surveillance across diverse pathogens and includes an interactive dashboard for visualizing identified haplotypes within their global phylogenies, along with detailed read-level analysis of emerging variants in complex metagenomic datasets.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -494,7 +497,7 @@ The pipeline enables high-resolution surveillance across diverse pathogens and i
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/metawepp"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/metawepp.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/metawepp"><img alt="docker_metawepp" src="https://quay.io/repository/biocontainers/metawepp/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.2.0-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.0-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
@@ -567,7 +570,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "metawepp";
-   var versions = ["0.2.0","0.1.1","0.1.0"];
+   var versions = ["0.2.0","0.2.0","0.1.1","0.1.0"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_metawepp"></div>
 <div style="width: 100%" id="platform_plot_metawepp"></div>

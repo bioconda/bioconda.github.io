@@ -10,14 +10,16 @@ metawepp
    :replaces_section_title:
    :noindex:
 
-   metaWEPP\: Improving resolution of metagenomic analysis using WEPP
+   metaWEPP\: Improving the resolution of metagenomic analysis using WEPP
 
    :homepage: https://github.com/TurakhiaLab/metaWEPP
+   :documentation: https://turakhia.ucsd.edu/metaWEPP
+   
    :license: MIT / MIT
    :recipe: /`metawepp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metawepp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metawepp/meta.yaml>`_
 
-   metaWEPP extends the current species\-level resolution of existing metagenomic tools by providing near\-haplotype detection and abundance estimation for multi\-species samples. It utilizes a standard classifier to first segregate reads by species before applying the Wastewater\-Based Epidemiology using Phylogenetic Placements \(WEPP\) pipeline to each segregated dataset. By performing parsimonious read placement on species\-specific mutation\-annotated trees \(MATs\)\, metaWEPP identifies the haplotypes that best explain the data and flags Unaccounted Alleles—mutations observed in the sample but unexplained by selected haplotypes—potentially indicating the presence of novel variants.
-   The pipeline enables high\-resolution surveillance across diverse pathogens and includes an interactive dashboard for visualizing identified haplotypes within their global phylogenies. This allows for detailed\, read\-level analysis of emerging lineages within complex metagenomic datasets.
+   metaWEPP extends existing metagenomic tools beyond species\-level resolution by enabling near\-haplotype detection\, abundance estimation\, and novel variant detection in multi\-species samples. It first uses a standard classifier to segregate reads by species\, then applies the Wastewater\-Based Epidemiology using Phylogenetic Placements \(WEPP\) pipeline to each species\-specific reads sample. By performing parsimonious read placement on species\-specific mutation\-annotated trees \(MATs\)\, metaWEPP identifies haplotypes that best explain the observed data and flags Unaccounted Alleles—mutations observed in the sample but unexplained by the selected haplotypes—that may indicate novel variants.
+   The pipeline enables high\-resolution surveillance across diverse pathogens and includes an interactive dashboard for visualizing identified haplotypes within their global phylogenies\, along with detailed read\-level analysis of emerging variants in complex metagenomic datasets.
 
 
 .. conda:package:: metawepp
@@ -28,7 +30,7 @@ metawepp
       
       
 
-      ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.2.0-1``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -118,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "metawepp";
-      var versions = ["0.2.0","0.1.1","0.1.0"];
+      var versions = ["0.2.0","0.2.0","0.1.1","0.1.0"];
    </script>
 
 .. rubric:: Download stats

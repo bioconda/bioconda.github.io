@@ -46,7 +46,7 @@ basevar
       
       
 
-      ``2.6.7-0``
+      ``2.6.8-0``,  ``2.6.7-0``
 
       
 
@@ -135,7 +135,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "basevar";
-      var versions = ["2.6.7"];
+      var versions = ["2.6.8","2.6.7"];
    </script>
 
 .. rubric:: Download stats

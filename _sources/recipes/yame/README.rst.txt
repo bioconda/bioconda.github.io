@@ -29,13 +29,14 @@ yame
       
       
 
-      ``1.33-0``,  ``1.32-0``,  ``1.29-0``,  ``1.10-0``,  ``1.8-0``,  ``1.0.5-0``,  ``1.0.4-0``
+      ``1.35-0``,  ``1.33-0``,  ``1.32-0``,  ``1.29-0``,  ``1.10-0``,  ``1.8-0``,  ``1.0.5-0``,  ``1.0.4-0``
 
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libcurl: ``>=8.21.0,<9.0a0``
+   :depends on libgcc: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
@@ -115,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "yame";
-      var versions = ["1.33","1.32","1.29","1.10","1.8"];
+      var versions = ["1.35","1.33","1.32","1.29","1.10"];
    </script>
 
 .. rubric:: Download stats

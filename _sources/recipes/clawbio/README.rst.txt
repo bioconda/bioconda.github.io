@@ -29,7 +29,7 @@ clawbio
       
       
 
-      ``0.5.2-0``
+      ``0.6.1-0``,  ``0.5.2-0``
 
       
 
@@ -122,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "clawbio";
-      var versions = ["0.5.2"];
+      var versions = ["0.6.1","0.5.2"];
    </script>
 
 .. rubric:: Download stats

@@ -44,7 +44,9 @@ maxbin2
    :depends on bowtie2: 
    :depends on fraggenescan: ``>=1.30``
    :depends on hmmer: 
-   :depends on libcxx: ``>=18``
+   :depends on idba: 
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on perl: 
    :depends on perl-libwww-perl: 
    :depends on r-base: 

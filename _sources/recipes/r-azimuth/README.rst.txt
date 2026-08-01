@@ -40,7 +40,8 @@ r-azimuth
    :depends on bioconductor-glmgampoi: ``>=1.18.0,<1.19.0a0``
    :depends on bioconductor-jaspar2020: ``>=0.99.10,<0.100.0a0``
    :depends on bioconductor-tfbstools: ``>=1.46.0,<2.0a0``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on r-base: ``>=4.4,<4.5.0a0``
    :depends on r-dt: ``>=0.15``
    :depends on r-future: ``>=1.19.1``

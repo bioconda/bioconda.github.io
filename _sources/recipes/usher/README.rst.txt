@@ -43,10 +43,12 @@ usher
       
 
    
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on boost-cpp: 
    :depends on isa-l: ``>=2.31.1,<3.0a0``
-   :depends on libcxx: ``>=18``
-   :depends on llvm-openmp: ``>=18.1.8``
+   :depends on libgcc: ``>=13``
+   :depends on libgomp: 
+   :depends on libstdcxx: ``>=13``
    :depends on mafft: 
    :depends on openmpi: ``>=4.1.6,<5.0a0``
    :depends on protobuf: ``<5``

@@ -34,7 +34,8 @@ blobtk
       
 
    
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on openssl: ``>=3.5.5,<4.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``

@@ -36,7 +36,8 @@ amplirust
       
 
    
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
 
    :additional platforms:
       
