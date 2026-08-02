@@ -27,7 +27,7 @@ corneto
       
       
 
-      ``1.0.0rc1-0``,  ``1.0.0b7-0``,  ``1.0.0b3-0``,  ``1.0.0b2-0``,  ``1.0.0b0-0``,  ``1.0.0a0-0``
+      ``1.0.0rc3-0``,  ``1.0.0rc1-0``,  ``1.0.0b7-0``,  ``1.0.0b3-0``,  ``1.0.0b2-0``,  ``1.0.0b0-0``,  ``1.0.0a0-0``
 
       
 
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "corneto";
-      var versions = ["1.0.0rc1","1.0.0b7","1.0.0b3","1.0.0b2","1.0.0b0"];
+      var versions = ["1.0.0rc3","1.0.0rc1","1.0.0b7","1.0.0b3","1.0.0b2"];
    </script>
 
 .. rubric:: Download stats

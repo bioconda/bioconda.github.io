@@ -12,8 +12,8 @@ clustalw
 
    ClustalW2 is a general purpose multiple sequence alignment program for DNA or proteins.
 
-   :homepage: http://www.clustal.org/clustal2
-   :documentation: http://www.clustal.org/download/clustalw_help.txt
+   :homepage: https://ftp.ebi.ac.uk/pub/software/clustalw2
+   :documentation: https://ftp.ebi.ac.uk/pub/software/clustalw2/clustalw_help.txt
    
    :license: LGPL / LGPL-3.0-or-later
    :recipe: /`clustalw <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clustalw>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clustalw/meta.yaml>`_
@@ -31,10 +31,10 @@ clustalw
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1-12</code>,  <code>2.1-11</code>,  <code>2.1-10</code>,  <code>2.1-9</code>,  <code>2.1-8</code>,  <code>2.1-7</code>,  <code>2.1-6</code>,  <code>2.1-5</code>,  <code>2.1-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1-13</code>,  <code>2.1-12</code>,  <code>2.1-11</code>,  <code>2.1-10</code>,  <code>2.1-9</code>,  <code>2.1-8</code>,  <code>2.1-7</code>,  <code>2.1-6</code>,  <code>2.1-5</code>,  </span></summary>
       
 
-      ``2.1-12``,  ``2.1-11``,  ``2.1-10``,  ``2.1-9``,  ``2.1-8``,  ``2.1-7``,  ``2.1-6``,  ``2.1-5``,  ``2.1-4``,  ``2.1-3``,  ``2.1-2``,  ``2.1-1``,  ``2.1-0``
+      ``2.1-13``,  ``2.1-12``,  ``2.1-11``,  ``2.1-10``,  ``2.1-9``,  ``2.1-8``,  ``2.1-7``,  ``2.1-6``,  ``2.1-5``,  ``2.1-4``,  ``2.1-3``,  ``2.1-2``,  ``2.1-1``,  ``2.1-0``
 
       
       .. raw:: html
@@ -43,8 +43,9 @@ clustalw
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
       

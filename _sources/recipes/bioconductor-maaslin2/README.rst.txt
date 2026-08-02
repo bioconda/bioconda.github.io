@@ -12,7 +12,7 @@ bioconductor-maaslin2
 
    \"Multivariable Association Discovery in Population\-scale Meta\-omics Studies\"
 
-   :homepage: https://bioconductor.org/packages/3.19/bioc/html/Maaslin2.html
+   :homepage: https://bioconductor.org/packages/3.21/bioc/html/Maaslin2.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-maaslin2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maaslin2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maaslin2/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-maaslin2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.1-0</code>,  <code>1.12.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.18.0-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.14.1-0</code>,  <code>1.12.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  </span></summary>
       
 
-      ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``1.22.0-0``,  ``1.18.0-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.1-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,9 @@ bioconductor-maaslin2
       
 
    
-   :depends on bioconductor-edger: ``>=4.0.0,<4.1.0``
-   :depends on bioconductor-metagenomeseq: ``>=1.43.0,<1.44.0``
-   :depends on r-base: ``>=4.3,<4.4.0a0``
+   :depends on bioconductor-edger: ``>=4.8.0,<4.9.0``
+   :depends on bioconductor-metagenomeseq: ``>=1.52.0,<1.53.0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-biglm: 
    :depends on r-car: 
    :depends on r-chemometrics: 
@@ -138,7 +138,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-maaslin2";
-      var versions = ["1.18.0","1.16.0","1.16.0","1.14.1","1.12.0"];
+      var versions = ["1.22.0","1.18.0","1.16.0","1.16.0","1.14.1"];
    </script>
 
 .. rubric:: Download stats

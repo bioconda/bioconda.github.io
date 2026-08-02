@@ -27,12 +27,11 @@ cgmlst-dists-py
       
       
 
-      ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.3-0``
+      ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.3-0``
 
       
 
    
-   :depends on numba: 
    :depends on numpy: 
    :depends on pandas: 
    :depends on psutil: 
@@ -113,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cgmlst-dists-py";
-      var versions = ["0.1.6","0.1.5","0.1.3"];
+      var versions = ["0.1.7","0.1.6","0.1.5","0.1.3"];
    </script>
 
 .. rubric:: Download stats

@@ -10,13 +10,13 @@ vitessce-python
    :replaces_section_title:
    :noindex:
 
-   Jupyter widget facilitating interactive visualization of spatial single\-cell data with Vitessce
+   Jupyter widget facilitating interactive visualization of spatial single\-cell data with Vitessce.
 
-   :homepage: https://vitessce.io/
+   :homepage: https://vitessce.io
    :documentation: https://github.com/vitessce/vitessce-python/blob/main/README.md
    
    :developer docs: https://github.com/vitessce/vitessce-python
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`vitessce-python <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vitessce-python>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vitessce-python/meta.yaml>`_
 
    
@@ -30,24 +30,25 @@ vitessce-python
       
       
 
-      ``3.8.3-0``,  ``3.7.9-0``,  ``3.7.7-0``,  ``3.1.0-0``
+      ``3.9.3-0``,  ``3.8.3-0``,  ``3.7.9-0``,  ``3.7.7-0``,  ``3.1.0-0``
 
       
 
    
    :depends on anndata: ``>=0.7.8``
+   :depends on anywidget: 
    :depends on black: ``>=21.11b1``
    :depends on jsonschema: ``>=3.2``
    :depends on negspy: ``>=0.2.24``
-   :depends on numcodecs: ``>=0.5.7,<0.16.0``
    :depends on numpy: ``>=1.21.2``
    :depends on ome-zarr: ``>=0.2.1``
    :depends on pandas: ``>=1.1.2``
-   :depends on python: ``>=3.7``
+   :depends on python: ``>=3.12``
    :depends on scanpy: ``>=1.9.3``
    :depends on scipy: ``>=1.2.1``
+   :depends on starlette: 
    :depends on tifffile: ``>=2020.10.1``
-   :depends on zarr: ``>=2.5.0,<3``
+   :depends on zarr: ``>=3``
 
    :additional platforms:
       
@@ -122,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "vitessce-python";
-      var versions = ["3.8.3","3.7.9","3.7.7","3.1.0"];
+      var versions = ["3.9.3","3.8.3","3.7.9","3.7.7","3.1.0"];
    </script>
 
 .. rubric:: Download stats

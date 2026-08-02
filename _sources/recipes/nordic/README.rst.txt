@@ -30,25 +30,26 @@ nordic
       
       
 
-      ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.0-0``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.4-0``
+      ``2.8.0-0``,  ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.0-0``,  ``2.5.0-1``,  ``2.5.0-0``,  ``2.4.4-0``
 
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on clingo: ``>=5.6.1``
    :depends on cmappy: ``>=4.0.1``
    :depends on cmappy: ``>=4.0.1,<5.0a0``
    :depends on graphviz: ``>=0.20.1``
-   :depends on graphviz: ``>=13.1.2,<14.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on graphviz: ``>=14.1.2,<15.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on matplotlib-base: 
-   :depends on numpy: ``>=1.21,<3``
    :depends on numpy: ``>=1.22.4,!=2.0.*,!=2.1.*``
+   :depends on numpy: ``>=1.23,<3``
    :depends on omnipath: 
    :depends on openpyxl: ``>=3.0.10``
-   :depends on python: ``>=3.10,<3.11.0a0``
-   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on python: ``>=3.12,<3.13.0a0``
+   :depends on python_abi: ``3.12.* *_cp312``
    :depends on qnorm: ``>=0.5.1``
    :depends on quadprog: ``>=0.1.11``
    :depends on scikit-learn: ``>=1.1.2``
@@ -133,7 +134,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "nordic";
-      var versions = ["2.7.1","2.7.0","2.6.0","2.5.0","2.5.0"];
+      var versions = ["2.8.0","2.7.1","2.7.0","2.6.0","2.5.0"];
    </script>
 
 .. rubric:: Download stats

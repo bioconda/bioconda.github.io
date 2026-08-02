@@ -12,7 +12,7 @@ hicberg
 
    Statistical profiling based tool for contact data \(Hi\-C\, ChIA\-PET\, Capture\-C\, etc.\) and genomics data reconstruction
 
-   :homepage: https://github.com/sebgra/hicberg
+   :homepage: https://github.com/koszullab/hicberg
    :license: MIT / MIT
    :recipe: /`hicberg <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicberg>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicberg/meta.yaml>`_
 
@@ -27,13 +27,14 @@ hicberg
       
       
 
-      ``1.0.1-0``,  ``1.0.0-0``
+      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends on bioframe: 
    :depends on biopython: 
+   :depends on bowtie2: 
    :depends on click: 
    :depends on cooler: 
    :depends on funcy: 
@@ -42,7 +43,8 @@ hicberg
    :depends on numpy: 
    :depends on pandas: 
    :depends on pysam: 
-   :depends on python: 
+   :depends on python: ``>=3.10``
+   :depends on samtools: 
    :depends on scikit-learn: 
    :depends on scipy: 
    :depends on statsmodels: 
@@ -120,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "hicberg";
-      var versions = ["1.0.1","1.0.0"];
+      var versions = ["1.0.2","1.0.1","1.0.0"];
    </script>
 
 .. rubric:: Download stats

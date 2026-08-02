@@ -13,7 +13,7 @@ nuclease
    Streaming FASTQ preprocessor for trimming\, merging\, filtering\, and more.
 
    :homepage: https://github.com/nrminor/nuclease
-   :documentation: https://github.com/nrminor/nuclease/blob/v0.6.0/README.md
+   :documentation: https://github.com/nrminor/nuclease/blob/v0.6.1/README.md
    
    :license: MIT
    :recipe: /`nuclease <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nuclease>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nuclease/meta.yaml>`_
@@ -32,7 +32,7 @@ nuclease
       
       
 
-      ``0.6.0-0``
+      ``0.6.1-0``,  ``0.6.0-0``
 
       
 
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "nuclease";
-      var versions = ["0.6.0"];
+      var versions = ["0.6.1","0.6.0"];
    </script>
 
 .. rubric:: Download stats

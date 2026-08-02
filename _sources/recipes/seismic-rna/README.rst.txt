@@ -30,10 +30,10 @@ seismic-rna
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.24.4-0</code>,  <code>0.24.3-0</code>,  <code>0.24.2-0</code>,  <code>0.24.1-0</code>,  <code>0.24.0-0</code>,  <code>0.23.1-0</code>,  <code>0.23.0-0</code>,  <code>0.22.3-1</code>,  <code>0.22.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.25.3-0</code>,  <code>0.24.4-0</code>,  <code>0.24.3-0</code>,  <code>0.24.2-0</code>,  <code>0.24.1-0</code>,  <code>0.24.0-0</code>,  <code>0.23.1-0</code>,  <code>0.23.0-0</code>,  <code>0.22.3-1</code>,  </span></summary>
       
 
-      ``0.24.4-0``,  ``0.24.3-0``,  ``0.24.2-0``,  ``0.24.1-0``,  ``0.24.0-0``,  ``0.23.1-0``,  ``0.23.0-0``,  ``0.22.3-1``,  ``0.22.3-0``,  ``0.22.1-0``,  ``0.22.0-0``,  ``0.21.1-1``,  ``0.21.1-0``,  ``0.21.0-0``,  ``0.20.1-0``,  ``0.20.0-1``,  ``0.20.0-0``,  ``0.19.2-0``
+      ``0.25.3-0``,  ``0.24.4-0``,  ``0.24.3-0``,  ``0.24.2-0``,  ``0.24.1-0``,  ``0.24.0-0``,  ``0.23.1-0``,  ``0.23.0-0``,  ``0.22.3-1``,  ``0.22.3-0``,  ``0.22.1-0``,  ``0.22.0-0``,  ``0.21.1-1``,  ``0.21.1-0``,  ``0.21.0-0``,  ``0.20.1-0``,  ``0.20.0-1``,  ``0.20.0-0``,  ``0.19.2-0``
 
       
       .. raw:: html
@@ -42,6 +42,7 @@ seismic-rna
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bowtie2: ``>=2.5.4``
    :depends on brotli-python: ``>=1.0``
    :depends on click: ``>=8.1``
@@ -49,7 +50,7 @@ seismic-rna
    :depends on fastqsplitter: ``>=1.2``
    :depends on jgo: ``>=1.0``
    :depends on jinja2: ``>=3.0``
-   :depends on libgcc: ``>=13``
+   :depends on libgcc: ``>=14``
    :depends on maven: ``>=3.3.9``
    :depends on networkx: ``>=3.4``
    :depends on numba: ``>=0.61``
@@ -142,7 +143,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "seismic-rna";
-      var versions = ["0.24.4","0.24.3","0.24.2","0.24.1","0.24.0"];
+      var versions = ["0.25.3","0.24.4","0.24.3","0.24.2","0.24.1"];
    </script>
 
 .. rubric:: Download stats

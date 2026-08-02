@@ -29,12 +29,12 @@ gtdb-genomes
       
       
 
-      ``0.2.1-0``,  ``0.2.0-0``
+      ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
 
    
-   :depends on ncbi-datasets-cli: ``>=18.4.0,<18.27.0``
+   :depends on ncbi-datasets-cli: ``>=18.4.0,<19.0.0``
    :depends on polars: ``>=1.31.0,<2.0.0``
    :depends on python: ``>=3.12``
    :depends on tqdm: ``>=4.60.0,<5.0.0``
@@ -113,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "gtdb-genomes";
-      var versions = ["0.2.1","0.2.0"];
+      var versions = ["0.2.2","0.2.1","0.2.0"];
    </script>
 
 .. rubric:: Download stats

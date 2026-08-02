@@ -27,7 +27,7 @@ enrichm
       
       
 
-      ``0.6.8-0``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.5.0-0``
+      ``0.6.10-0``,  ``0.6.8-0``,  ``0.6.6-0``,  ``0.6.5-0``,  ``0.6.4-0``,  ``0.6.3-0``,  ``0.6.2-0``,  ``0.5.0-0``
 
       
 
@@ -129,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "enrichm";
-      var versions = ["0.6.8","0.6.6","0.6.5","0.6.4","0.6.3"];
+      var versions = ["0.6.10","0.6.8","0.6.6","0.6.5","0.6.4"];
    </script>
 
 .. rubric:: Download stats

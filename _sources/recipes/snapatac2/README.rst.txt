@@ -31,10 +31,10 @@ snapatac2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.9.0-1</code>,  <code>2.9.0-0</code>,  <code>2.8.0-2</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.7.1-1</code>,  <code>2.7.1-0</code>,  <code>2.7.0-0</code>,  <code>2.6.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.10.0-0</code>,  <code>2.9.0-1</code>,  <code>2.9.0-0</code>,  <code>2.8.0-2</code>,  <code>2.8.0-1</code>,  <code>2.8.0-0</code>,  <code>2.7.1-1</code>,  <code>2.7.1-0</code>,  <code>2.7.0-0</code>,  </span></summary>
       
 
-      ``2.9.0-1``,  ``2.9.0-0``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.1-1``,  ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.4-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``
+      ``2.10.0-0``,  ``2.9.0-1``,  ``2.9.0-0``,  ``2.8.0-2``,  ``2.8.0-1``,  ``2.8.0-0``,  ``2.7.1-1``,  ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.4-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``
 
       
       .. raw:: html
@@ -43,6 +43,7 @@ snapatac2
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on anndata: 
    :depends on libgcc: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
@@ -56,10 +57,10 @@ snapatac2
    :depends on pooch: ``>=1.6.0``
    :depends on pyarrow: 
    :depends on pyfaidx: ``>=0.7.0,<0.9.0``
-   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on python: ``>=3.12,<3.13.0a0``
    :depends on python-igraph: ``>=0.10.3``
    :depends on python-kaleido: 
-   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on python_abi: ``3.12.* *_cp312``
    :depends on rustworkx: 
    :depends on scikit-learn: ``>=1.0``
    :depends on scipy: ``>=1.4``
@@ -144,7 +145,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "snapatac2";
-      var versions = ["2.9.0","2.9.0","2.8.0","2.8.0","2.8.0"];
+      var versions = ["2.10.0","2.9.0","2.9.0","2.8.0","2.8.0"];
    </script>
 
 .. rubric:: Download stats

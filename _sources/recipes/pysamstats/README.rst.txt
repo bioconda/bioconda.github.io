@@ -29,10 +29,10 @@ pysamstats
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.1.2-15</code>,  <code>1.1.2-14</code>,  <code>1.1.2-13</code>,  <code>1.1.2-12</code>,  <code>1.1.2-11</code>,  <code>1.1.2-10</code>,  <code>1.1.2-9</code>,  <code>1.1.2-8</code>,  <code>1.1.2-7</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.1.2-16</code>,  <code>1.1.2-15</code>,  <code>1.1.2-14</code>,  <code>1.1.2-13</code>,  <code>1.1.2-12</code>,  <code>1.1.2-11</code>,  <code>1.1.2-10</code>,  <code>1.1.2-9</code>,  <code>1.1.2-8</code>,  </span></summary>
       
 
-      ``1.1.2-15``,  ``1.1.2-14``,  ``1.1.2-13``,  ``1.1.2-12``,  ``1.1.2-11``,  ``1.1.2-10``,  ``1.1.2-9``,  ``1.1.2-8``,  ``1.1.2-7``,  ``1.1.2-6``,  ``1.1.2-5``,  ``1.1.2-4``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.24.3-0``,  ``0.24.2-1``,  ``0.24.0-0``
+      ``1.1.2-16``,  ``1.1.2-15``,  ``1.1.2-14``,  ``1.1.2-13``,  ``1.1.2-12``,  ``1.1.2-11``,  ``1.1.2-10``,  ``1.1.2-9``,  ``1.1.2-8``,  ``1.1.2-7``,  ``1.1.2-6``,  ``1.1.2-5``,  ``1.1.2-4``,  ``1.1.2-3``,  ``1.1.2-2``,  ``1.1.2-1``,  ``1.1.2-0``,  ``1.0.1-2``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.24.3-0``,  ``0.24.2-1``,  ``0.24.0-0``
 
       
       .. raw:: html
@@ -41,11 +41,12 @@ pysamstats
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on libgcc: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on numpy: 
-   :depends on pysam: ``>=0.23.0,<0.23.1.0a0``
-   :depends on pysam: ``>=0.23.0,<0.24.0a0``
+   :depends on pysam: ``>=0.24.0,<0.24.1.0a0``
+   :depends on pysam: ``>=0.24.0,<0.25.0a0``
    :depends on pytables: 
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``

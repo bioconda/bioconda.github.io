@@ -27,7 +27,7 @@ pygoslin
       
       
 
-      ``2.2.3-0``
+      ``2.2.4-0``,  ``2.2.3-0``
 
       
 
@@ -107,7 +107,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pygoslin";
-      var versions = ["2.2.3"];
+      var versions = ["2.2.4","2.2.3"];
    </script>
 
 .. rubric:: Download stats

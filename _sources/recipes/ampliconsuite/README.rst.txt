@@ -10,10 +10,10 @@ ampliconsuite
    :replaces_section_title:
    :noindex:
 
-   An end\-to\-end wrapper for focal amplification analysis from whole\-genome sequencing using AmpliconArchitect and associated tools.
+   An end\-to\-end workflow for focal amplification analysis with AmpliconArchitect.
 
    :homepage: https://github.com/AmpliconSuite
-   :license: BSD 2-Clause License (AmpliconSuite-pipeline and AmpliconClassifier) & University of California Software License (AmpliconArchitect). Please see https://github.com/AmpliconSuite/AmpliconSuite-pipeline for more details on licenses.
+   :license: BSD 2-Clause License (AmpliconSuite-pipeline and AmpliconClassifier), BSD 3-Clause License (BFBArchitect), and University of California Software License (AmpliconArchitect). Please see https://github.com/AmpliconSuite/AmpliconSuite-pipeline for more details on licenses.
    :recipe: /`ampliconsuite <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ampliconsuite>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ampliconsuite/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ ampliconsuite
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.3-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.9-0</code>,  <code>1.3.8-0</code>,  <code>1.3.7-0</code>,  <code>1.3.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.0-0</code>,  <code>1.5.3-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.9-0</code>,  <code>1.3.8-0</code>,  <code>1.3.7-0</code>,  </span></summary>
       
 
-      ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.1555.2-1``,  ``0.1555.2-0``
+      ``1.6.0-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.1555.2-1``,  ``0.1555.2-0``
 
       
       .. raw:: html
@@ -42,15 +42,20 @@ ampliconsuite
    
    :depends on bedtools: 
    :depends on bwa: 
+   :depends on clarabel: ``>=0.11.1,<0.12``
    :depends on cnvkit: ``>=0.9.10``
+   :depends on coin-or-cbc: 
+   :depends on curl: 
    :depends on flask: 
    :depends on future: 
    :depends on intervaltree: 
    :depends on matplotlib-base: 
    :depends on mscorefonts: 
    :depends on numpy: 
+   :depends on pandas: 
+   :depends on pulp: ``>=2.8``
    :depends on pysam: 
-   :depends on python: ``>=3``
+   :depends on python: ``>=3.9``
    :depends on samtools: 
    :depends on scipy: 
 
@@ -127,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ampliconsuite";
-      var versions = ["1.5.3","1.5.2","1.5.1","1.5.0","1.4.0"];
+      var versions = ["1.6.0","1.5.3","1.5.2","1.5.1","1.5.0"];
    </script>
 
 .. rubric:: Download stats

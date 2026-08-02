@@ -10,10 +10,10 @@ easy_vitessce
    :replaces_section_title:
    :noindex:
 
-   A package to easily use Vitessce to create interactive plots for single\-cell data
+   A package to easily use Vitessce to create interactive plots for single\-cell data.
 
-   :homepage: https://github.com/vitessce/easy_vitessce/
-   :license: MIT
+   :homepage: https://github.com/vitessce/easy_vitessce
+   :license: MIT / MIT
    :recipe: /`easy_vitessce <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/easy_vitessce>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/easy_vitessce/meta.yaml>`_
 
    
@@ -27,27 +27,26 @@ easy_vitessce
       
       
 
-      ``0.0.10-0``,  ``0.0.9-0``
+      ``0.0.12-0``,  ``0.0.10-0``,  ``0.0.9-0``
 
       
 
    
-   :depends on anndata: ``>=0.11.4``
+   :depends on anndata: ``>=0.12.10``
    :depends on black: ``>=21.11b1``
-   :depends on dask-core: ``2024.11.1``
-   :depends on distributed: ``<=2024.11.2``
+   :depends on dask-core: 
+   :depends on distributed: 
    :depends on donfig: ``>=0.3.1``
-   :depends on numcodecs: ``>=0.5.7,<0.16.0``
    :depends on numpy: ``>=1.21.2``
    :depends on pandas: ``>=1.1.2``
-   :depends on python: ``>=3.9``
+   :depends on python: ``>=3.12``
    :depends on scanpy: ``>=1.11.3``
    :depends on scipy: ``>=1.2.1``
-   :depends on spatialdata: ``>=0.3.0``
-   :depends on spatialdata-plot: ``>=0.2.7``
-   :depends on vitessce-python: ``>=3.7.9``
-   :depends on xarray: ``>=2024.10.0,<=2025.3.0``
-   :depends on zarr: ``>=2.5.0,<3``
+   :depends on spatialdata: ``>=0.7.3``
+   :depends on spatialdata-plot: ``>=0.4.0``
+   :depends on vitessce-python: ``>=3.9.2``
+   :depends on xarray: ``>=2024.10.0``
+   :depends on zarr: ``>=3``
 
    :additional platforms:
       
@@ -122,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "easy_vitessce";
-      var versions = ["0.0.10","0.0.9"];
+      var versions = ["0.0.12","0.0.10","0.0.9"];
    </script>
 
 .. rubric:: Download stats

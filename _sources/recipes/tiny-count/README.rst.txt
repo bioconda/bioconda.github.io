@@ -10,10 +10,12 @@ tiny-count
    :replaces_section_title:
    :noindex:
 
-   \\ A precision counting tool for hierarchical classification and quantification of small RNA\-seq reads. tiny\-count is part of the tinyRNA analysis pipeline.
+   A precision counting tool for hierarchical classification and quantification of small RNA\-seq reads. tiny\-count is part of the tinyRNA analysis pipeline.
 
    :homepage: https://github.com/MontgomeryLab/tinyRNA
-   :license: GPLv3
+   :documentation: https://github.com/MontgomeryLab/tinyRNA/blob/v1.6.0/README.md
+   
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`tiny-count <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tiny-count>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tiny-count/meta.yaml>`_
 
    
@@ -27,21 +29,26 @@ tiny-count
       
       
 
-      ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0_patch1-0``
+      ``1.6.0-0``,  ``1.5.0-2``,  ``1.5.0-1``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0_patch1-0``
 
       
 
    
-   :depends on htseq: ``2.0.2.*``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on numpy: ``1.23.1.*``
-   :depends on pandas: ``1.4.3.*``
-   :depends on python: ``>=3.9,<3.10.0a0``
-   :depends on python_abi: ``3.9.* *_cp39``
-   :depends on ruamel.yaml: ``0.17.16.*``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on htseq: 
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on pysam: ``>=0.24.0,<0.25.0a0``
+   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on ruamel.yaml: 
+   :depends on setuptools: ``<82``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -114,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "tiny-count";
-      var versions = ["1.5.0","1.5.0","1.5.0","1.4.0","1.3.0"];
+      var versions = ["1.6.0","1.5.0","1.5.0","1.5.0","1.4.0"];
    </script>
 
 .. rubric:: Download stats

@@ -10,9 +10,11 @@ eigensoft
    :replaces_section_title:
    :noindex:
 
-   The EIGENSOFT package implements methods for analzing population structure and performing stratification correction
+   The EIGENSOFT package implements methods for analyzing population structure and performing stratification correction.
 
    :homepage: https://github.com/DReichLab/EIG
+   :documentation: https://github.com/DReichLab/EIG/blob/v9.0.0/README
+   
    :license: Custom OSS
    :recipe: /`eigensoft <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eigensoft>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eigensoft/meta.yaml>`_
    :links: biotools: :biotools:`Eigensoft`, doi: :doi:`10.1371/journal.pgen.0020190`
@@ -29,10 +31,10 @@ eigensoft
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>8.0.0-6</code>,  <code>8.0.0-5</code>,  <code>8.0.0-4</code>,  <code>8.0.0-3</code>,  <code>8.0.0-2</code>,  <code>8.0.0-1</code>,  <code>8.0.0-0</code>,  <code>7.2.1-5</code>,  <code>7.2.1-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>9.0.0-0</code>,  <code>8.0.0-6</code>,  <code>8.0.0-5</code>,  <code>8.0.0-4</code>,  <code>8.0.0-3</code>,  <code>8.0.0-2</code>,  <code>8.0.0-1</code>,  <code>8.0.0-0</code>,  <code>7.2.1-5</code>,  </span></summary>
       
 
-      ``8.0.0-6``,  ``8.0.0-5``,  ``8.0.0-4``,  ``8.0.0-3``,  ``8.0.0-2``,  ``8.0.0-1``,  ``8.0.0-0``,  ``7.2.1-5``,  ``7.2.1-4``,  ``7.2.1-3``,  ``7.2.1-2``,  ``7.2.1-1``,  ``7.2.1-0``,  ``6.0.1-3``,  ``6.0.1-1``,  ``6.0.1-0``
+      ``9.0.0-0``,  ``8.0.0-6``,  ``8.0.0-5``,  ``8.0.0-4``,  ``8.0.0-3``,  ``8.0.0-2``,  ``8.0.0-1``,  ``8.0.0-0``,  ``7.2.1-5``,  ``7.2.1-4``,  ``7.2.1-3``,  ``7.2.1-2``,  ``7.2.1-1``,  ``7.2.1-0``,  ``6.0.1-3``,  ``6.0.1-1``,  ``6.0.1-0``
 
       
       .. raw:: html
@@ -41,8 +43,10 @@ eigensoft
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on gsl: ``>=2.7,<2.8.0a0``
-   :depends on libgcc: ``>=13``
+   :depends on libgcc: ``>=14``
+   :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on openblas: 
    :depends on perl: 
 
@@ -123,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "eigensoft";
-      var versions = ["8.0.0","8.0.0","8.0.0","8.0.0","8.0.0"];
+      var versions = ["9.0.0","8.0.0","8.0.0","8.0.0","8.0.0"];
    </script>
 
 .. rubric:: Download stats
