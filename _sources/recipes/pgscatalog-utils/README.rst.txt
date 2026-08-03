@@ -30,10 +30,10 @@ pgscatalog-utils
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.4.4-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.4-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  <code>2.0.0-0</code>,  <code>1.4.4-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-1</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  </span></summary>
       
 
-      ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.4.4-0``,  ``1.4.2-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``
+      ``2.0.4-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.4.4-0``,  ``1.4.2-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.2-0``,  ``1.1.1-0``
 
       
       .. raw:: html
@@ -42,9 +42,10 @@ pgscatalog-utils
       
 
    
-   :depends on pgscatalog.calc: ``>=0.3.0,<0.4.0``
-   :depends on pgscatalog.core: ``>=0.3.3,<0.4.0``
-   :depends on pgscatalog.match: ``>=0.3.3,<0.4.0``
+   :depends on pandas: ``2.2.0``
+   :depends on pgscatalog.calc: 
+   :depends on pgscatalog.core: ``>=1.1.1``
+   :depends on pgscatalog.match: 
    :depends on python: ``>=3.10.0``
 
    :additional platforms:
@@ -120,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pgscatalog-utils";
-      var versions = ["2.0.2","2.0.1","2.0.0","1.4.4","1.4.2"];
+      var versions = ["2.0.4","2.0.2","2.0.1","2.0.0","1.4.4"];
    </script>
 
 .. rubric:: Download stats

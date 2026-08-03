@@ -45,7 +45,7 @@ fastq_utils
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on libgcc: ``>=13``
    :depends on liblzma: ``>=5.8.1,<6.0a0``
-   :depends on libzlib: ``>=1.2.13,<2.0a0``
+   :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on ncurses: ``>=6.5,<7.0a0``
    :depends on samtools: 
 

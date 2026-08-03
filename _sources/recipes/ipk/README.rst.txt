@@ -13,6 +13,8 @@ ipk
    IPK is a tool for computing phylo\-k\-mers for a fixed phylogeny.
 
    :homepage: https://github.com/phylo42/ipk
+   :documentation: https://phylo-k-mers.readthedocs.io/en/latest
+   
    :license: MIT / MIT
    :recipe: /`ipk <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ipk>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ipk/meta.yaml>`_
    :links: doi: :doi:`10.1093/bioinformatics/btad692`
@@ -28,16 +30,16 @@ ipk
       
       
 
-      ``0.5.1-4``,  ``0.5.1-3``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``
+      ``0.5.1-5``,  ``0.5.1-4``,  ``0.5.1-3``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``
 
       
 
    
    :depends on boost-cpp: ``1.85.*``
    :depends on click: 
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on phyml: 
    :depends on python: 
    :depends on raxml-ng: 
@@ -46,7 +48,7 @@ ipk
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 

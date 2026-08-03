@@ -12,7 +12,7 @@ entrez-direct
 
    Entrez Direct \(EDirect\) \- Access to NCBI\'s Entrez databases
 
-   :homepage: https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/25.3.20260410/README
+   :homepage: https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/26.0.20260719/README
    :license: Public Domain
    :recipe: /`entrez-direct <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/entrez-direct>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/entrez-direct/meta.yaml>`_
    :links: biotools: :biotools:`entrez`
@@ -30,10 +30,10 @@ entrez-direct
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>25.3-0</code>,  <code>24.0-0</code>,  <code>22.4-0</code>,  <code>22.1-0</code>,  <code>21.6-0</code>,  <code>16.2-1</code>,  <code>16.2-0</code>,  <code>15.6-1</code>,  <code>15.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>26.0-0</code>,  <code>25.3-0</code>,  <code>24.0-0</code>,  <code>22.4-0</code>,  <code>22.1-0</code>,  <code>21.6-0</code>,  <code>16.2-1</code>,  <code>16.2-0</code>,  <code>15.6-1</code>,  </span></summary>
       
 
-      ``25.3-0``,  ``24.0-0``,  ``22.4-0``,  ``22.1-0``,  ``21.6-0``,  ``16.2-1``,  ``16.2-0``,  ``15.6-1``,  ``15.6-0``,  ``13.9-2``,  ``13.9-1``,  ``13.9-0``,  ``13.8-0``,  ``13.3-0``,  ``11.0-2``,  ``11.0-1``,  ``11.0-0``,  ``10.2-0``,  ``10.0-0``,  ``7.70-2``,  ``7.70-1``,  ``7.70-0``,  ``7.00-1``,  ``7.00-0``,  ``5.80-0``,  ``4.00-1``,  ``4.00-0``
+      ``26.0-0``,  ``25.3-0``,  ``24.0-0``,  ``22.4-0``,  ``22.1-0``,  ``21.6-0``,  ``16.2-1``,  ``16.2-0``,  ``15.6-1``,  ``15.6-0``,  ``13.9-2``,  ``13.9-1``,  ``13.9-0``,  ``13.8-0``,  ``13.3-0``,  ``11.0-2``,  ``11.0-1``,  ``11.0-0``,  ``10.2-0``,  ``10.0-0``,  ``7.70-2``,  ``7.70-1``,  ``7.70-0``,  ``7.00-1``,  ``7.00-0``,  ``5.80-0``,  ``4.00-1``,  ``4.00-0``
 
       
       .. raw:: html
@@ -121,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "entrez-direct";
-      var versions = ["25.3","24.0","22.4","22.1","21.6"];
+      var versions = ["26.0","25.3","24.0","22.4","22.1"];
    </script>
 
 .. rubric:: Download stats

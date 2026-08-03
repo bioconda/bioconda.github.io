@@ -10,7 +10,7 @@ getitd
    :replaces_section_title:
    :noindex:
 
-   Detection of FLT3\-ITDs \(internal tandem duplications\) from amplicon NGS data
+   Detection of FLT3\-ITDs \(internal tandem duplications\) from amplicon NGS data.
 
    :homepage: https://github.com/tjblaette/getitd
    :documentation: https://github.com/tjblaette/getitd/blob/master/README.md
@@ -35,7 +35,7 @@ getitd
       
       
 
-      ``1.5.16-0``
+      ``1.5.17-0``,  ``1.5.16-0``
 
       
 
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "getitd";
-      var versions = ["1.5.16"];
+      var versions = ["1.5.17","1.5.16"];
    </script>
 
 .. rubric:: Download stats

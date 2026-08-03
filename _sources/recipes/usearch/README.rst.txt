@@ -30,10 +30,10 @@ usearch
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>12.0_beta-1</code>,  <code>12.0_beta-0</code>,  <code>11.0.667-0</code>,  <code>10.0.259-0</code>,  <code>10.0.240-0</code>,  <code>9.2.64-0</code>,  <code>9.1.13-0</code>,  <code>9.0.2132-0</code>,  <code>8.1.1861-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>12.0_beta-2</code>,  <code>12.0_beta-1</code>,  <code>12.0_beta-0</code>,  <code>11.0.667-0</code>,  <code>10.0.259-0</code>,  <code>10.0.240-0</code>,  <code>9.2.64-0</code>,  <code>9.1.13-0</code>,  <code>9.0.2132-0</code>,  </span></summary>
       
 
-      ``12.0_beta-1``,  ``12.0_beta-0``,  ``11.0.667-0``,  ``10.0.259-0``,  ``10.0.240-0``,  ``9.2.64-0``,  ``9.1.13-0``,  ``9.0.2132-0``,  ``8.1.1861-0``,  ``8.0.1623-0``,  ``7.0.1090-0``,  ``6.1.544-0``,  ``5.2.236-0``,  ``5.2.32-0``
+      ``12.0_beta-2``,  ``12.0_beta-1``,  ``12.0_beta-0``,  ``11.0.667-0``,  ``10.0.259-0``,  ``10.0.240-0``,  ``9.2.64-0``,  ``9.1.13-0``,  ``9.0.2132-0``,  ``8.1.1861-0``,  ``8.0.1623-0``,  ``7.0.1090-0``,  ``6.1.544-0``,  ``5.2.236-0``,  ``5.2.32-0``
 
       
       .. raw:: html
@@ -116,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "usearch";
-      var versions = ["12.0_beta","12.0_beta","11.0.667","10.0.259","10.0.240"];
+      var versions = ["12.0_beta","12.0_beta","12.0_beta","11.0.667","10.0.259"];
    </script>
 
 .. rubric:: Download stats

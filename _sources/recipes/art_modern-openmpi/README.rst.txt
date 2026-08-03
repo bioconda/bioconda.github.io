@@ -13,7 +13,7 @@ art_modern-openmpi
    Modernized ART simulator of diverse Next\-Generation Sequencing reads with MPI support
 
    :homepage: https://github.com/YU-Zhejian/art_modern
-   :documentation: https://github.com/YU-Zhejian/art_modern/releases/download/1.5.0/art_modern.pdf
+   :documentation: https://github.com/YU-Zhejian/art_modern/releases/download/1.5.1/art_modern.pdf
    
    :license: GPL3 / GPL-3.0-only
    :recipe: /`art_modern-openmpi <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/art_modern-openmpi>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/art_modern-openmpi/meta.yaml>`_
@@ -42,7 +42,6 @@ art_modern-openmpi
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on fmt: ``>=12.0.0,<12.1.0a0``
    :depends on htslib: ``>=1.23.1,<1.24.0a0``
    :depends on libboost: ``>=1.90.0,<2``

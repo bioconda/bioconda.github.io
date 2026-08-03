@@ -47,7 +47,6 @@ sra-tools
    
    :depends on ca-certificates: 
    :depends on curl: 
-   :depends on ossuuid: 
    :depends on perl: 
    :depends on perl-uri: 
    :depends on perl-xml-libxml: 

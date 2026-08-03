@@ -10,10 +10,10 @@ peptdeep
    :replaces_section_title:
    :noindex:
 
-   The AlphaX deep learning framework for Proteomics
+   The AlphaX deep learning framework for Proteomics.
 
    :homepage: https://github.com/MannLabs/alphapeptdeep
-   :documentation: https://alphapeptdeep.readthedocs.io/en/latest/
+   :documentation: https://alphapeptdeep.readthedocs.io/en/latest
    
    :license: APACHE / Apache-2.0
    :recipe: /`peptdeep <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peptdeep>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peptdeep/meta.yaml>`_
@@ -33,7 +33,7 @@ peptdeep
       
       
 
-      ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.1-1``,  ``1.4.1-0``
+      ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.1-1``,  ``1.4.1-0``
 
       
 
@@ -51,7 +51,7 @@ peptdeep
    :depends on pytorch: 
    :depends on scikit-learn: 
    :depends on tqdm: 
-   :depends on transformers: 
+   :depends on transformers: ``<5``
 
    :additional platforms:
       
@@ -126,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "peptdeep";
-      var versions = ["1.5.0","1.4.2","1.4.1","1.4.1"];
+      var versions = ["1.5.1","1.5.0","1.4.2","1.4.1","1.4.1"];
    </script>
 
 .. rubric:: Download stats

@@ -498,12 +498,13 @@ backend for BAM → cz conversion.</p>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/cytozip"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/cytozip.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/cytozip"><img alt="docker_cytozip" src="https://quay.io/repository/biocontainers/cytozip/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.3.8-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.5-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.3.9-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.8-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.5-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">__glibc</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=2.17,&lt;3.0.a0</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">anndata</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">biopython</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">fsspec</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">htslib</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.24,&lt;1.25.0a0</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libdeflate</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.25,&lt;1.26.0a0</span></code></p></li>
@@ -517,6 +518,7 @@ backend for BAM → cz conversion.</p>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=3.10,&lt;3.11.0a0</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python_abi</span></code></span> <code class="docutils literal notranslate"><span class="pre">3.10.* *_cp310</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">requests</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">samtools</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">scipy</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">zlib</span></code></span></p></li>
 </ul>
@@ -577,7 +579,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "cytozip";
-   var versions = ["0.3.8","0.3.6","0.3.5"];
+   var versions = ["0.3.9","0.3.8","0.3.6","0.3.5"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_cytozip"></div>
 <div style="width: 100%" id="platform_plot_cytozip"></div>

@@ -10,9 +10,9 @@ kaptive
    :replaces_section_title:
    :noindex:
 
-   Reports information about surface polysaccharide loci for Klebsiella pneumoniae species complex and Acinetobacter baumannii genome assemblies.
+   Reports information about surface polysaccharide loci for bacterial genome assemblies.
 
-   :homepage: https://kaptive.readthedocs.io/en/latest
+   :homepage: https://klebgenomics.github.io/Kaptive/
    :developer docs: https://github.com/klebgenomics/Kaptive
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`kaptive <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kaptive>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kaptive/meta.yaml>`_
@@ -29,10 +29,10 @@ kaptive
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.2-0</code>,  <code>3.2.1-0</code>,  <code>3.2.0-0</code>,  <code>3.1.0-0</code>,  <code>3.0.0b6-0</code>,  <code>3.0.0b5-0</code>,  <code>3.0.0b4-0</code>,  <code>3.0.0b1-0</code>,  <code>2.0.6-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.3.0-0</code>,  <code>3.2.2-0</code>,  <code>3.2.1-0</code>,  <code>3.2.0-0</code>,  <code>3.1.0-0</code>,  <code>3.0.0b6-0</code>,  <code>3.0.0b5-0</code>,  <code>3.0.0b4-0</code>,  <code>3.0.0b1-0</code>,  </span></summary>
       
 
-      ``3.2.2-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0b6-0``,  ``3.0.0b5-0``,  ``3.0.0b4-0``,  ``3.0.0b1-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.0-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-2``,  ``0.5.1-0``,  ``0.3-0``,  ``0.2-0``
+      ``3.3.0-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.0-0``,  ``3.0.0b6-0``,  ``3.0.0b5-0``,  ``3.0.0b4-0``,  ``3.0.0b1-0``,  ``2.0.6-0``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.0-0``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-2``,  ``0.5.1-0``,  ``0.3-0``,  ``0.2-0``
 
       
       .. raw:: html
@@ -41,11 +41,13 @@ kaptive
       
 
    
-   :depends on biopython: ``>=1.83``
-   :depends on dna_features_viewer: 
-   :depends on minimap2: 
-   :depends on numpy: 
-   :depends on python: ``>=3.9``
+   :depends on gb-io: ``>=0.4``
+   :depends on numba: ``>=0.62``
+   :depends on numpy: ``>=2.4``
+   :depends on orjson: 
+   :depends on plotly: 
+   :depends on python: ``>=3.11``
+   :depends on rammappy: ``>=0.1.3``
 
    :additional platforms:
       
@@ -120,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "kaptive";
-      var versions = ["3.2.2","3.2.1","3.2.0","3.1.0","3.0.0b6"];
+      var versions = ["3.3.0","3.2.2","3.2.1","3.2.0","3.1.0"];
    </script>
 
 .. rubric:: Download stats

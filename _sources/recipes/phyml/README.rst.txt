@@ -10,15 +10,15 @@ phyml
    :replaces_section_title:
    :noindex:
 
-   Phylogenetic estimation using \(Maximum\) Likelihood
+   Phylogenetic estimation using \(Maximum\) Likelihood.
 
-   :homepage: http://www.atgc-montpellier.fr/phyml/
-   :documentation: https://github.com/stephaneguindon/phyml/blob/master/doc/phyml-manual.pdf
+   :homepage: http://www.atgc-montpellier.fr/phyml
+   :documentation: https://github.com/stephaneguindon/phyml/blob/v3.3.20260528/doc/phyml-manual.pdf
    
-   :developer docs: https://github.com/stephaneguindon/phyml/
-   :license: GPL / GPL-3.0-only
+   :developer docs: https://github.com/stephaneguindon/phyml
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`phyml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phyml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phyml/meta.yaml>`_
-   :links: biotools: :biotools:`phyml`, doi: :doi:`10.1093/sysbio/syq010`
+   :links: biotools: :biotools:`phyml`, usegalaxy-eu: :usegalaxy-eu:`phyml`, doi: :doi:`10.1093/sysbio/syq010`, doi: :doi:`10.1016/j.tpb.2016.05.002`, doi: :doi:`10.1093/sysbio/syy003`
 
    PhyML is a software that estimates maximum likelihood phylogenies from
    alignments of nucleotide or amino acid sequences. The main strength of
@@ -42,10 +42,10 @@ phyml
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.3.20220408-3</code>,  <code>3.3.20220408-2</code>,  <code>3.3.20220408-1</code>,  <code>3.3.20220408-0</code>,  <code>3.3.20211231-2</code>,  <code>3.3.20211231-1</code>,  <code>3.3.20211231-0</code>,  <code>3.3.20200621-2</code>,  <code>3.3.20200621-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.3.20260528-0</code>,  <code>3.3.20220408-3</code>,  <code>3.3.20220408-2</code>,  <code>3.3.20220408-1</code>,  <code>3.3.20220408-0</code>,  <code>3.3.20211231-2</code>,  <code>3.3.20211231-1</code>,  <code>3.3.20211231-0</code>,  <code>3.3.20200621-2</code>,  </span></summary>
       
 
-      ``3.3.20220408-3``,  ``3.3.20220408-2``,  ``3.3.20220408-1``,  ``3.3.20220408-0``,  ``3.3.20211231-2``,  ``3.3.20211231-1``,  ``3.3.20211231-0``,  ``3.3.20200621-2``,  ``3.3.20200621-1``,  ``3.3.20200621-0``,  ``3.3.20190909-1``,  ``3.3.20190909-0``,  ``3.3.20190908-0``,  ``3.3.20190321-1``,  ``3.3.20190321-0``,  ``3.3.20180621-0``,  ``3.3.20170530-0``,  ``3.2.0-4``,  ``3.2.0-3``,  ``3.2.0-2``,  ``3.2.0-0``
+      ``3.3.20260528-0``,  ``3.3.20220408-3``,  ``3.3.20220408-2``,  ``3.3.20220408-1``,  ``3.3.20220408-0``,  ``3.3.20211231-2``,  ``3.3.20211231-1``,  ``3.3.20211231-0``,  ``3.3.20200621-2``,  ``3.3.20200621-1``,  ``3.3.20200621-0``,  ``3.3.20190909-1``,  ``3.3.20190909-0``,  ``3.3.20190908-0``,  ``3.3.20190321-1``,  ``3.3.20190321-0``,  ``3.3.20180621-0``,  ``3.3.20170530-0``,  ``3.2.0-4``,  ``3.2.0-3``,  ``3.2.0-2``,  ``3.2.0-0``
 
       
       .. raw:: html
@@ -54,14 +54,16 @@ phyml
       
 
    
-   :depends on libgcc: ``>=13``
+   :depends on _openmp_mutex: ``>=4.5``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
    :depends on openmpi: ``>=4.1.6,<5.0a0``
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -134,7 +136,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "phyml";
-      var versions = ["3.3.20220408","3.3.20220408","3.3.20220408","3.3.20220408","3.3.20211231"];
+      var versions = ["3.3.20260528","3.3.20220408","3.3.20220408","3.3.20220408","3.3.20220408"];
    </script>
 
 .. rubric:: Download stats
