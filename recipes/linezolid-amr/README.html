@@ -472,7 +472,7 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">linezolid-amr</span></span></dt>
-<dd><p>Integrated AMR profiling + 23S rRNA linezolid heteroresistance + in-house MLST (S. aureus, E. faecalis, E. faecium, S. pneumoniae)</p>
+<dd><p>Detects 23S rRNA linezolid heteroresistance missed by assembly-only callers</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="github reference external" href="https://github.com/iowa69/linezolid-amr">iowa69/linezolid-amr</a></p>
@@ -510,12 +510,13 @@ command and emits cohort-level aggregated CSVs.</p>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/linezolid-amr"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/linezolid-amr.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/linezolid-amr"><img alt="docker_linezolid-amr" src="https://quay.io/repository/biocontainers/linezolid-amr/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.1.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.1-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.2.1-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.1-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bcftools</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.18</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">biopython</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.81</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">blast</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=2.12</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">click</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=8.0</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">minimap2</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=2.24</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">ncbi-amrfinderplus</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=4.0</span></code></p></li>
@@ -580,7 +581,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "linezolid-amr";
-   var versions = ["0.1.6","0.1.1"];
+   var versions = ["0.2.1","0.2.0","0.1.6","0.1.1"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_linezolid-amr"></div>
 <div style="width: 100%" id="platform_plot_linezolid-amr"></div>

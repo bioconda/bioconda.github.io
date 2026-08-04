@@ -14,7 +14,7 @@ r-cellosaurus
 
    :homepage: https://r.acidgenomics.com/packages/cellosaurus/
    :developer docs: https://github.com/acidgenomics/r-cellosaurus
-   :license: GPL / AGPL-3.0
+   :license: APACHE / Apache-2.0
    :recipe: /`r-cellosaurus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-cellosaurus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-cellosaurus/meta.yaml>`_
 
    
@@ -29,10 +29,10 @@ r-cellosaurus
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.8.2-1</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.4-1</code>,  <code>0.5.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.5-0</code>,  <code>0.8.2-1</code>,  <code>0.8.2-0</code>,  <code>0.8.1-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  <code>0.5.4-1</code>,  </span></summary>
       
 
-      ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.4-0``
+      ``0.8.5-0``,  ``0.8.2-1``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.4-0``
 
       
       .. raw:: html
@@ -41,17 +41,17 @@ r-cellosaurus
       
 
    
-   :depends on bioconductor-biocgenerics: ``>=0.46.0``
-   :depends on bioconductor-iranges: ``>=2.34.0``
-   :depends on bioconductor-s4vectors: ``>=0.38.0``
-   :depends on r-acidbase: ``>=0.7.0``
+   :depends on bioconductor-biocgenerics: ``>=0.48.0``
+   :depends on bioconductor-iranges: ``>=2.36.0``
+   :depends on bioconductor-s4vectors: ``>=0.40.0``
+   :depends on r-acidbase: ``>=0.7.8``
    :depends on r-acidcli: ``>=0.3.0``
-   :depends on r-acidgenerics: ``>=0.7.1``
-   :depends on r-acidplyr: ``>=0.4.2``
-   :depends on r-base: ``>=4.4,<4.5.0a0``
-   :depends on r-goalie: ``>=0.7.1``
-   :depends on r-pipette: ``>=0.14.0``
-   :depends on r-syntactic: ``>=0.7.0``
+   :depends on r-acidgenerics: ``>=0.7.6``
+   :depends on r-acidplyr: ``>=0.5.8``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-goalie: ``>=0.7.7``
+   :depends on r-pipette: ``>=0.15.2``
+   :depends on r-syntactic: ``>=0.7.1``
 
    :additional platforms:
       
@@ -126,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-cellosaurus";
-      var versions = ["0.8.2","0.8.2","0.8.1","0.7.2","0.7.1"];
+      var versions = ["0.8.5","0.8.2","0.8.2","0.8.1","0.7.2"];
    </script>
 
 .. rubric:: Download stats

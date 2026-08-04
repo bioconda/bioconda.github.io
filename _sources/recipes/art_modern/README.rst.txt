@@ -30,10 +30,10 @@ art_modern
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.0-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.3.4-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.3.4-0</code>,  <code>1.3.3-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  </span></summary>
       
 
-      ``1.5.0-0``,  ``1.4.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.10-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.4-0``
+      ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.1-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.10-0``,  ``1.1.8-0``,  ``1.1.7-0``,  ``1.1.6-0``,  ``1.1.4-0``
 
       
       .. raw:: html
@@ -42,12 +42,12 @@ art_modern
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on fmt: ``>=12.0.0,<12.1.0a0``
-   :depends on htslib: ``>=1.23.1,<1.24.0a0``
+   :depends on htslib: ``>=1.24,<1.25.0a0``
    :depends on libboost: ``>=1.90.0,<2``
    :depends on libboost: ``>=1.91.0,<1.92.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
@@ -127,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "art_modern";
-      var versions = ["1.5.0","1.4.1","1.4.0","1.4.0","1.3.4"];
+      var versions = ["1.5.1","1.5.0","1.4.1","1.4.0","1.4.0"];
    </script>
 
 .. rubric:: Download stats

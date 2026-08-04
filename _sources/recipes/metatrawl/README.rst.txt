@@ -12,7 +12,7 @@ metatrawl
 
    Mutable registry and workflow bookkeeping for large ZipStrain\/SRA profiling projects.
 
-   :homepage: https://github.com/parsaghadermarzi/MetaTrawl
+   :homepage: https://github.com/OlmLab/MetaTrawl
    :license: MIT / MIT
    :recipe: /`metatrawl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metatrawl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metatrawl/meta.yaml>`_
 
@@ -27,7 +27,7 @@ metatrawl
       
       
 
-      ``0.1.17-0``,  ``0.1.15-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.6-0``,  ``0.1.4-0``
+      ``0.2.4-0``,  ``0.1.17-0``,  ``0.1.15-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.6-0``,  ``0.1.4-0``
 
       
 
@@ -35,15 +35,21 @@ metatrawl
    :depends on bowtie2: 
    :depends on click: ``>=8.1``
    :depends on duckdb: ``>=1.1``
+   :depends on h5py: ``>=3.10``
+   :depends on matplotlib-base: ``>=3.10``
    :depends on ncbi-datasets-cli: 
+   :depends on numpy: ``>=1.26``
    :depends on polars: ``>=1.0``
    :depends on prodigal: 
    :depends on python: ``>=3.12``
    :depends on rich: ``>=13.0``
    :depends on samtools: 
+   :depends on scipy: ``>=1.16``
+   :depends on seaborn: ``>=0.13``
    :depends on sra-tools: ``>=2.11``
    :depends on sylph: 
-   :depends on zipstrain: ``>=0.10.0``
+   :depends on zipstrain: ``>=1.0.1,<2``
+   :depends on zstandard: ``>=0.23``
 
    :additional platforms:
       
@@ -118,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "metatrawl";
-      var versions = ["0.1.17","0.1.15","0.1.10","0.1.9","0.1.6"];
+      var versions = ["0.2.4","0.1.17","0.1.15","0.1.10","0.1.9"];
    </script>
 
 .. rubric:: Download stats

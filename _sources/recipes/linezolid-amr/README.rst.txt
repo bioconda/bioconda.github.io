@@ -10,7 +10,7 @@ linezolid-amr
    :replaces_section_title:
    :noindex:
 
-   Integrated AMR profiling \+ 23S rRNA linezolid heteroresistance \+ in\-house MLST \(S. aureus\, E. faecalis\, E. faecium\, S. pneumoniae\)
+   Detects 23S rRNA linezolid heteroresistance missed by assembly\-only callers
 
    :homepage: https://github.com/iowa69/linezolid-amr
    :documentation: https://github.com/iowa69/linezolid-amr#readme
@@ -44,13 +44,14 @@ linezolid-amr
       
       
 
-      ``0.1.6-0``,  ``0.1.1-0``
+      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.6-0``,  ``0.1.1-0``
 
       
 
    
    :depends on bcftools: ``>=1.18``
    :depends on biopython: ``>=1.81``
+   :depends on blast: ``>=2.12``
    :depends on click: ``>=8.0``
    :depends on minimap2: ``>=2.24``
    :depends on ncbi-amrfinderplus: ``>=4.0``
@@ -131,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "linezolid-amr";
-      var versions = ["0.1.6","0.1.1"];
+      var versions = ["0.2.1","0.2.0","0.1.6","0.1.1"];
    </script>
 
 .. rubric:: Download stats

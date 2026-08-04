@@ -27,7 +27,7 @@ chemproflow
       
       
 
-      ``1.2.0-0``
+      ``1.3.1-0``,  ``1.2.0-0``
 
       
 
@@ -128,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "chemproflow";
-      var versions = ["1.2.0"];
+      var versions = ["1.3.1","1.2.0"];
    </script>
 
 .. rubric:: Download stats

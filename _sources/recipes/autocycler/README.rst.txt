@@ -30,13 +30,12 @@ autocycler
       
       
 
-      ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``
+      ``0.6.3-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``
 
       
 
    
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
 
    :additional platforms:
       
@@ -115,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "autocycler";
-      var versions = ["0.6.2","0.6.1","0.5.2","0.5.1","0.5.0"];
+      var versions = ["0.6.3","0.6.2","0.6.1","0.5.2","0.5.1"];
    </script>
 
 .. rubric:: Download stats
