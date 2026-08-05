@@ -13,6 +13,8 @@ varcode
    Variant annotation in Python.
 
    :homepage: https://github.com/openvax/varcode
+   :documentation: https://github.com/openvax/varcode/blob/main/README.md
+   
    :license: APACHE / Apache-2.0
    :recipe: /`varcode <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/varcode>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/varcode/meta.yaml>`_
 
@@ -26,18 +28,26 @@ varcode
    :versions:
       
       
+      .. raw:: html
 
-      ``4.0.5-0``,  ``2.6.0-0``,  ``2.1.0-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``
+         <details><summary><span class="truncated-version-list"><code>7.0.0-0</code>,  <code>4.0.5-0</code>,  <code>2.6.0-0</code>,  <code>2.1.0-0</code>,  <code>1.3.2-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+      
 
+      ``7.0.0-0``,  ``4.0.5-0``,  ``2.6.0-0``,  ``2.1.0-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends on biopython: ``>=1.64``
    :depends on memoized-property: ``>=1.0.2``
-   :depends on numpy: ``>=2.0.0``
-   :depends on pandas: ``>=0.15``
-   :depends on pyensembl: ``>=1.8.1``
-   :depends on python: 
+   :depends on numpy: ``>=2.0.0,<3``
+   :depends on pandas: ``>=2.0.0,<3``
+   :depends on pyensembl: ``>=2.6.2``
+   :depends on python: ``>=3.9``
    :depends on pyvcf3: ``>=1.0.0``
    :depends on sercol: ``>=0.1.4``
    :depends on serializable: ``>=0.2.1``
@@ -116,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "varcode";
-      var versions = ["4.0.5","2.6.0","2.1.0","1.3.2","1.3.1"];
+      var versions = ["7.0.0","4.0.5","2.6.0","2.1.0","1.3.2"];
    </script>
 
 .. rubric:: Download stats

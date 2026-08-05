@@ -43,13 +43,15 @@ trinity
       
 
    
+   :depends on bioconductor-ctc: 
    :depends on bioconductor-dexseq: 
    :depends on bioconductor-edger: 
    :depends on bioconductor-go.db: 
+   :depends on bioconductor-goseq: 
    :depends on bioconductor-qvalue: 
    :depends on bowtie2: ``>=2.3.0``
    :depends on coreutils: 
-   :depends on htslib: ``>=1.22.1,<1.23.0a0``
+   :depends on htslib: ``>=1.22.1,<1.24.0a0``
    :depends on kallisto: 
    :depends on kmer-jellyfish: ``>=2.3``
    :depends on libcxx: ``>=18``
@@ -67,7 +69,9 @@ trinity
    :depends on r-fastcluster: 
    :depends on r-gplots: 
    :depends on r-phangorn: 
+   :depends on r-sm: 
    :depends on r-tidyverse: 
+   :depends on r-vioplot: 
    :depends on salmon: 
    :depends on samtools: ``>=1.14``
    :depends on trimmomatic: ``>=0.39``

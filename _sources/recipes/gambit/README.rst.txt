@@ -48,7 +48,7 @@ gambit
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on attrs: ``>=23.1``
    :depends on biopython: ``>=1.79,<2``
    :depends on cattrs: ``>=23.2``

@@ -34,7 +34,6 @@ rmats-long
    
    :depends on bioconductor-biocparallel: 
    :depends on bioconductor-drimseq: 
-   :depends on libgcc: ``>=14``
    :depends on matplotlib-base: ``>=3.7``
    :depends on networkx: ``>=2.8``
    :depends on numpy: ``>=1.24``

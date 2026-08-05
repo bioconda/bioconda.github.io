@@ -43,7 +43,7 @@ kma
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:

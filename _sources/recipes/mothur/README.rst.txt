@@ -44,8 +44,8 @@ mothur
       
 
    
-   :depends on __osx: ``>=11.0``
-   :depends on blast: ``>=2.16.0,<2.17.0a0``
+   :depends on __osx: ``>=10.13``
+   :depends on blast: ``>=2.17.0,<2.18.0a0``
    :depends on boost-cpp: 
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on gsl: ``>=2.7,<2.8.0a0``

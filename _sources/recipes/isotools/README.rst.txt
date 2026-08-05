@@ -17,6 +17,7 @@ isotools
    
    :license: MIT / MIT
    :recipe: /`isotools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isotools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isotools/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btad364`, doi: :doi:`10.1016/j.jmb.2025.169049`
 
    
 
@@ -29,7 +30,7 @@ isotools
       
       
 
-      ``2.0.1-0``,  ``2.0.0-0``,  ``0.3.4-0``
+      ``2.0.7-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``0.3.4-0``
 
       
 
@@ -125,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "isotools";
-      var versions = ["2.0.1","2.0.0","0.3.4"];
+      var versions = ["2.0.7","2.0.1","2.0.0","0.3.4"];
    </script>
 
 .. rubric:: Download stats

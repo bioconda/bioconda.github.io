@@ -35,7 +35,7 @@ nordic
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on clingo: ``>=5.6.1``
    :depends on cmappy: ``>=4.0.1``
    :depends on cmappy: ``>=4.0.1,<5.0a0``
