@@ -36,6 +36,7 @@ somalier
 
    
    :depends on htslib: ``>=1.24,<1.25.0a0``
+   :depends on libgcc: ``>=14``
    :depends on openblas: 
 
    :additional platforms:

@@ -33,8 +33,9 @@ vine-phylo
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on libopenblas: ``>=0.3.34,<1.0a0``
    :depends on pcre: ``>=8.45,<9.0a0``

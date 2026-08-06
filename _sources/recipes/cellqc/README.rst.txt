@@ -10,13 +10,28 @@ cellqc
    :replaces_section_title:
    :noindex:
 
-   Cellqc standardizes the qualiy control of single\-cell RNA\-Seq \(scRNA\) data to render clean feature count matrices.
+   Cellqc standardizes the quality control of single\-cell RNA\-Seq \(scRNA\) data to render clean feature count matrices.
 
    :homepage: https://github.com/lijinbio/cellqc
    :license: MIT / MIT
    :recipe: /`cellqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cellqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cellqc/meta.yaml>`_
 
-   
+   A Snakemake pipeline for quality control of single\-cell RNA\-Seq data. From
+   Cell Ranger output it runs ambient RNA correction \(SoupX or DecontX\)\,
+   filtering on UMI count\, detected genes and mitochondrial percentage\,
+   doublet detection \(DoubletFinder and\/or scDblFinder\)\, and a nuclear\-fraction
+   statistic from the Cell Ranger BAM. Per sample it writes a cleaned .h5ad
+   with its .obs and .var as TSVs\, plus a cohort metrics.csv\, an HTML report
+   and a PDF slide deck.
+
+   DoubletFinder is GitHub\-only and cannot be a conda dependency. Either
+   install it after this package\:
+
+       Rscript \-e \"remotes\:\:install\_github\(\'chris\-mcginnis\-ucsf\/DoubletFinder\'\, upgrade\=FALSE\)\"
+
+   or set doublet.run\: \[scdblfinder\] and doublet.decider\: scdblfinder in the
+   config\, which needs nothing beyond this package.
+
 
 
 .. conda:package:: cellqc
@@ -27,28 +42,41 @@ cellqc
       
       
 
-      ``0.1.0-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-0``
+      ``0.3.1-0``,  ``0.1.0-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.6-1``,  ``0.0.6-0``,  ``0.0.4-1``,  ``0.0.4-0``,  ``0.0.3-0``
 
       
 
    
-   :depends on anndata: ``0.7.8.*``
+   :depends on anndata: 
+   :depends on bioconductor-celda: 
    :depends on bioconductor-dropletutils: 
+   :depends on bioconductor-scdblfinder: 
+   :depends on bioconductor-singlecellexperiment: 
+   :depends on bioconductor-summarizedexperiment: 
+   :depends on bioconductor-zellkonverter: 
    :depends on click: 
-   :depends on graphviz: 
+   :depends on h5py: 
+   :depends on jinja2: 
+   :depends on matplotlib-base: 
    :depends on numpy: 
-   :depends on pygraphviz: 
-   :depends on python: ``>=3.9``
-   :depends on r-dplyr: 
+   :depends on pandas: 
+   :depends on pysam: 
+   :depends on python: ``>=3.10``
+   :depends on pyyaml: 
+   :depends on r-base: ``>=4.4``
+   :depends on r-fields: 
    :depends on r-ggplot2: 
-   :depends on r-harmony: 
+   :depends on r-kernsmooth: 
+   :depends on r-matrix: 
    :depends on r-remotes: 
-   :depends on r-scpred: 
-   :depends on r-seurat: 
-   :depends on r-seuratobject: 
+   :depends on r-rocr: 
+   :depends on r-seurat: ``>=5``
+   :depends on r-seuratobject: ``>=5``
    :depends on r-soupx: ``>=1.6.2``
-   :depends on scanpy: ``>=1.9.1``
-   :depends on snakemake: 
+   :depends on scanpy: 
+   :depends on scipy: 
+   :depends on snakemake-minimal: ``>=8``
+   :depends on tectonic: 
 
    :additional platforms:
       
@@ -123,7 +151,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cellqc";
-      var versions = ["0.1.0","0.0.8","0.0.7","0.0.6","0.0.6"];
+      var versions = ["0.3.1","0.1.0","0.0.8","0.0.7","0.0.6"];
    </script>
 
 .. rubric:: Download stats

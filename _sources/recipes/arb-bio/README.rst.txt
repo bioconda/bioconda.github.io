@@ -53,20 +53,21 @@ arb-bio
       
 
    
-   :depends on arb-bio-tools: ``6.0.6 h82bc0eb_8``
+   :depends on arb-bio-tools: ``6.0.6 haa8b8d8_8``
    :depends on fasttree: 
    :depends on fig2dev: 
    :depends on gettext: ``>=0.19.8.1,<1.0a0``
    :depends on glib: ``>=2.58.2,<3.0a0``
    :depends on gnuplot: 
-   :depends on libcxx: ``>=4.0.1``
+   :depends on libgcc-ng: ``>=7.3.0``
    :depends on libpng: ``>=1.6.35,<1.7.0a0``
+   :depends on libstdcxx-ng: ``>=7.3.0``
    :depends on libtiff: ``>=4.0.9,<5.0a0``
    :depends on libxslt: ``>=1.1.32,<2.0a0``
    :depends on mafft: 
    :depends on mrbayes: 
    :depends on muscle: 
-   :depends on openmotif: ``>=2.3.8,<3.0a0``
+   :depends on openmotif: 
    :depends on perl: ``>=5.26.2,<5.26.3.0a0``
    :depends on phylip: 
    :depends on phyml: ``3.2.0.*``
@@ -180,8 +181,9 @@ Check the documentation of your workflow management system to find out about the
       
 
    
-   :depends on arb-bio: ``6.0.6 pl526h7e5b878_8``
-   :depends on libcxx: ``>=4.0.1``
+   :depends on arb-bio: ``6.0.6 pl526h7ded70a_8``
+   :depends on libgcc-ng: ``>=7.3.0``
+   :depends on libstdcxx-ng: ``>=7.3.0``
    :depends on openmotif-dev: 
 
    :additional platforms:
@@ -283,8 +285,9 @@ Check the documentation of your workflow management system to find out about the
 
    
    :depends on glib: ``>=2.58.2,<3.0a0``
-   :depends on libarbdb: ``6.0.6 h82bc0eb_8``
-   :depends on libcxx: ``>=4.0.1``
+   :depends on libarbdb: ``6.0.6 haa8b8d8_8``
+   :depends on libgcc-ng: ``>=7.3.0``
+   :depends on libstdcxx-ng: ``>=7.3.0``
 
    :additional platforms:
       
@@ -386,7 +389,8 @@ Check the documentation of your workflow management system to find out about the
    
    :depends on gettext: 
    :depends on glib: ``>=2.58.2,<3.0a0``
-   :depends on libcxx: ``>=4.0.1``
+   :depends on libgcc-ng: ``>=7.3.0``
+   :depends on libstdcxx-ng: ``>=7.3.0``
 
    :additional platforms:
       

@@ -40,16 +40,32 @@ voronota
    :versions:
       
       
+      .. raw:: html
 
-      ``1.29.4781-0``,  ``1.29.4771-0``,  ``1.29.4723-0``,  ``1.29.4602-0``,  ``1.29.4592-0``,  ``1.29.4415-0``,  ``1.29.4412-0``,  ``1.29.4408-0``,  ``1.29.4370-0``
+         <details><summary><span class="truncated-version-list"><code>1.29.4812-0</code>,  <code>1.29.4781-0</code>,  <code>1.29.4771-0</code>,  <code>1.29.4723-0</code>,  <code>1.29.4602-0</code>,  <code>1.29.4592-0</code>,  <code>1.29.4415-0</code>,  <code>1.29.4412-0</code>,  <code>1.29.4408-0</code>,  </span></summary>
+      
 
+      ``1.29.4812-0``,  ``1.29.4781-0``,  ``1.29.4771-0``,  ``1.29.4723-0``,  ``1.29.4602-0``,  ``1.29.4592-0``,  ``1.29.4415-0``,  ``1.29.4412-0``,  ``1.29.4408-0``,  ``1.29.4370-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on glew: ``>=2.3.0,<2.4.0a0``
-   :depends on glfw: ``>=3.4,<4.0a0``
-   :depends on libcxx: ``>=19``
-   :depends on llvm-openmp: ``>=19.1.7``
+   :depends on glfw: ``>=3.5.1,<4.0a0``
+   :depends on libegl: ``>=1.7.0,<2.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libgl: ``>=1.7.0,<2.0a0``
+   :depends on libgles: ``>=1.7.0,<2.0a0``
+   :depends on libglx: ``>=1.7.0,<2.0a0``
+   :depends on libgomp: 
+   :depends on libstdcxx: ``>=14``
+   :depends on libxcb: ``>=1.17.0,<2.0a0``
+   :depends on mesalib: ``>=26.1.6,<26.2.0a0``
 
    :additional platforms:
       
@@ -128,7 +144,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "voronota";
-      var versions = ["1.29.4781","1.29.4771","1.29.4723","1.29.4602","1.29.4592"];
+      var versions = ["1.29.4812","1.29.4781","1.29.4771","1.29.4723","1.29.4602"];
    </script>
 
 .. rubric:: Download stats

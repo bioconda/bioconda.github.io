@@ -10,11 +10,14 @@ r-alakazam
    :replaces_section_title:
    :noindex:
 
-   Provides methods for high\-throughput adaptive immune  receptor repertoire sequencing \(AIRR\-Seq\; Rep\-Seq\) analysis. In  particular\, immunoglobulin \(Ig\) sequence lineage reconstruction\,  lineage topology analysis\, diversity profiling\, amino acid property  analysis and gene usage. Citations\:  Gupta and Vander Heiden\, et al \(2017\) \<doi\:10.1093\/bioinformatics\/btv359\>\, Stern\, Yaari and Vander Heiden\, et al \(2014\) \<doi\:10.1126\/scitranslmed.3008879\>.
+   Provides methods for high\-throughput adaptive immune receptor repertoire sequencing \(AIRR\-Seq\; Rep\-Seq\) analysis. In particular\, immunoglobulin \(Ig\) sequence lineage reconstruction\, lineage topology analysis\, diversity profiling\, amino acid property analysis and gene usage.
 
-   :homepage: http://alakazam.readthedocs.org
-   :license: AGPL / AGPL-3
+   :homepage: https://github.com/immcantation/alakazam
+   :documentation: https://alakazam.readthedocs.io/en/stable
+   
+   :license: AGPL / AGPL-3.0-or-later
    :recipe: /`r-alakazam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-alakazam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-alakazam/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btv359`, doi: :doi:`10.1126/scitranslmed.3008879`
 
    
 
@@ -28,10 +31,10 @@ r-alakazam
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.1-4</code>,  <code>1.2.1-3</code>,  <code>1.2.1-2</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>0.2.10-0</code>,  <code>0.2.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.2.1-5</code>,  <code>1.2.1-4</code>,  <code>1.2.1-3</code>,  <code>1.2.1-2</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-1</code>,  <code>1.2.0-0</code>,  <code>0.2.10-0</code>,  </span></summary>
       
 
-      ``1.2.1-4``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``0.2.10-0``,  ``0.2.8-0``,  ``0.2.7-0``
+      ``1.2.1-5``,  ``1.2.1-4``,  ``1.2.1-3``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``0.2.10-0``,  ``0.2.8-0``,  ``0.2.7-0``
 
       
       .. raw:: html
@@ -41,15 +44,16 @@ r-alakazam
 
    
    :depends on bioconductor-biostrings: ``>=2.56.0``
-   :depends on bioconductor-biostrings: ``>=2.74.0,<2.75.0a0``
+   :depends on bioconductor-biostrings: ``>=2.78.0,<2.79.0a0``
    :depends on bioconductor-genomicalignments: ``>=1.24.0``
-   :depends on bioconductor-genomicalignments: ``>=1.42.0,<1.43.0a0``
+   :depends on bioconductor-genomicalignments: ``>=1.46.0,<1.47.0a0``
    :depends on bioconductor-iranges: ``>=2.22.2``
-   :depends on bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
-   :depends on libcxx: ``>=18``
+   :depends on bioconductor-iranges: ``>=2.44.0,<2.45.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on r-airr: ``>=1.3``
    :depends on r-ape: 
-   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-dplyr: ``>=1.0``
    :depends on r-ggplot2: ``>=3.3.4``
    :depends on r-igraph: ``>=1.0.0``
@@ -65,6 +69,10 @@ r-alakazam
    :depends on r-tidyr: ``>=1.0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 

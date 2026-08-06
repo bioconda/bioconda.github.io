@@ -32,10 +32,10 @@ galaxy-schema
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>26.0.1-0</code>,  <code>26.0.0-0</code>,  <code>25.1.2-0</code>,  <code>25.1.1-0</code>,  <code>25.0.4-0</code>,  <code>25.0.3-0</code>,  <code>25.0.2-0</code>,  <code>25.0.1-0</code>,  <code>24.2.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>26.1.1-0</code>,  <code>26.0.1-0</code>,  <code>26.0.0-0</code>,  <code>25.1.2-0</code>,  <code>25.1.1-0</code>,  <code>25.0.4-0</code>,  <code>25.0.3-0</code>,  <code>25.0.2-0</code>,  <code>25.0.1-0</code>,  </span></summary>
       
 
-      ``26.0.1-0``,  ``26.0.0-0``,  ``25.1.2-0``,  ``25.1.1-0``,  ``25.0.4-0``,  ``25.0.3-0``,  ``25.0.2-0``,  ``25.0.1-0``,  ``24.2.4-0``,  ``24.2.3-0``,  ``24.2.2-0``,  ``24.2.1-0``,  ``24.2.0-0``,  ``24.1.4-0``,  ``24.1.3-0``,  ``24.1.2-0``,  ``24.1.1-0``
+      ``26.1.1-0``,  ``26.0.1-0``,  ``26.0.0-0``,  ``25.1.2-0``,  ``25.1.1-0``,  ``25.0.4-0``,  ``25.0.3-0``,  ``25.0.2-0``,  ``25.0.1-0``,  ``24.2.4-0``,  ``24.2.3-0``,  ``24.2.2-0``,  ``24.2.1-0``,  ``24.2.0-0``,  ``24.1.4-0``,  ``24.1.3-0``,  ``24.1.2-0``,  ``24.1.1-0``
 
       
       .. raw:: html
@@ -45,9 +45,9 @@ galaxy-schema
 
    
    :depends on email-validator: 
-   :depends on galaxy-tool-util-models: ``>=26.0``
-   :depends on galaxy-util: ``>=26.0``
-   :depends on pydantic: ``>=2.7.4,<2.12``
+   :depends on galaxy-tool-util-models: ``>=26.1``
+   :depends on galaxy-util: ``>=26.1``
+   :depends on pydantic: ``>=2.7.4``
    :depends on python: ``>=3.10``
 
    :additional platforms:
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "galaxy-schema";
-      var versions = ["26.0.1","26.0.0","25.1.2","25.1.1","25.0.4"];
+      var versions = ["26.1.1","26.0.1","26.0.0","25.1.2","25.1.1"];
    </script>
 
 .. rubric:: Download stats

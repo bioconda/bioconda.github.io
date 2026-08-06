@@ -48,6 +48,7 @@ psipred
 
    
    :depends on blast-legacy: 
+   :depends on libgcc: ``>=13``
    :depends on tcsh: 
 
    :additional platforms:

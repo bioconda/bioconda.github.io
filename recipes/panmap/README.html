@@ -478,7 +478,7 @@
 <dd class="field-odd"><p><a class="github reference external" href="https://github.com/amkram/panmap">amkram/panmap</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>MIT / MIT</p>
+<dd class="field-even"><p>GPL3 / GPL-3.0-only</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panmap">panmap</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panmap/meta.yaml">meta.yaml</a></p>
@@ -492,24 +492,23 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/panmap"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/panmap.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/panmap"><img alt="docker_panmap" src="https://quay.io/repository/biocontainers/panmap/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.1.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.1-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.1-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">capnproto</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.4.0,&lt;1.4.1.0a0</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">fmt</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=12.0,&lt;13</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">__glibc</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=2.17,&lt;3.0.a0</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">capnproto</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.5.0,&lt;1.5.1.0a0</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">fmt</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=12.0.0,&lt;12.1.0a0</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">htslib</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.23.1,&lt;1.24.0a0</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">htslib</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.24,&lt;1.25.0a0</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">jsoncpp</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.9.6,&lt;1.9.7.0a0</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libabseil</span></code></span> <code class="docutils literal notranslate"><span class="pre">* cxx17*</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libabseil</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=20250512</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libabseil</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=20250512.1,&lt;20250513.0a0</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libboost</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.86.0,&lt;1.87.0a0</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libdeflate</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.25,&lt;1.26.0a0</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libgcc</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libprotobuf</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=6.31.1,&lt;6.31.2.0a0</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libstdcxx</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libzlib</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.3.2,&lt;2.0a0</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">spdlog</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.16,&lt;1.17</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">spdlog</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.16.0,&lt;1.17.0a0</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">tbb</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=2022.3.0</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">zstd</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.5.7,&lt;1.6.0a0</span></code></p></li>
@@ -571,7 +570,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "panmap";
-   var versions = ["0.1.2","0.1.1"];
+   var versions = ["0.2.0","0.1.2","0.1.1"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_panmap"></div>
 <div style="width: 100%" id="platform_plot_panmap"></div>

@@ -10,14 +10,20 @@ bcftools
    :replaces_section_title:
    :noindex:
 
-   BCFtools is a set of utilities that manipulate variant calls in the Variant Call Format \(VCF\) and its binary counterpart BCF. All commands work transparently with both VCFs and BCFs\, both uncompressed and BGZF\-compressed.  Most commands accept VCF\, bgzipped VCF and BCF with filetype detected automatically even when streaming from a pipe. Indexed VCF and BCF will work in all situations. Un\-indexed VCF and BCF and streams will work in most\, but not all situations.
+   BCFtools\, utilities for manipulating variant calls in VCF and BCF formats.
 
    :homepage: https://github.com/samtools/bcftools
    :license: GPL
    :recipe: /`bcftools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcftools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcftools/meta.yaml>`_
    :links: biotools: :biotools:`bcftools`, usegalaxy-eu: :usegalaxy-eu:`bcftools_merge`, doi: :doi:`10.1093/bioinformatics/btp352`
 
-   
+   BCFtools is a set of utilities that manipulate variant calls in the Variant
+   Call Format \(VCF\) and its binary counterpart BCF. All commands work transparently
+   with both VCFs and BCFs\, both uncompressed and BGZF\-compressed. Most commands
+   accept VCF\, bgzipped VCF and BCF with filetype detected automatically even when
+   streaming from a pipe. Indexed VCF and BCF will work in all situations. Un\-indexed
+   VCF and BCF and streams will work in most\, but not all situations.
+
 
 
 .. conda:package:: bcftools
@@ -29,10 +35,10 @@ bcftools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.24-1</code>,  <code>1.24-0</code>,  <code>1.23.1-0</code>,  <code>1.23-0</code>,  <code>1.22-1</code>,  <code>1.22-0</code>,  <code>1.21-1</code>,  <code>1.21-0</code>,  <code>1.20-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.24-2</code>,  <code>1.24-1</code>,  <code>1.24-0</code>,  <code>1.23.1-0</code>,  <code>1.23-0</code>,  <code>1.22-1</code>,  <code>1.22-0</code>,  <code>1.21-1</code>,  <code>1.21-0</code>,  </span></summary>
       
 
-      ``1.24-1``,  ``1.24-0``,  ``1.23.1-0``,  ``1.23-0``,  ``1.22-1``,  ``1.22-0``,  ``1.21-1``,  ``1.21-0``,  ``1.20-1``,  ``1.20-0``,  ``1.19-1``,  ``1.19-0``,  ``1.18-0``,  ``1.17-1``,  ``1.17-0``,  ``1.16-2``,  ``1.16-1``,  ``1.16-0``,  ``1.15.1-1``,  ``1.15.1-0``,  ``1.15-2``,  ``1.15-1``,  ``1.15-0``,  ``1.14-1``,  ``1.14-0``,  ``1.13-0``,  ``1.12-1``,  ``1.12-0``,  ``1.11-0``,  ``1.10.2-3``,  ``1.10.2-2``,  ``1.10.2-1``,  ``1.10.2-0``,  ``1.10.1-0``,  ``1.10-0``,  ``1.9-9``,  ``1.9-8``,  ``1.9-7``,  ``1.9-6``,  ``1.9-5``,  ``1.9-4``,  ``1.9-3``,  ``1.9-2``,  ``1.9-1``,  ``1.8-3``,  ``1.8-2``,  ``1.8-1``,  ``1.8-0``,  ``1.7-0``,  ``1.6-1``,  ``1.6-0``,  ``1.5-4``,  ``1.5-3``,  ``1.5-2``,  ``1.5-1``,  ``1.5-0``,  ``1.4.1-0``,  ``1.4-0``,  ``1.3.1-7``,  ``1.3.1-6``,  ``1.3.1-5``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3-9``,  ``1.3-8``,  ``1.3-7``,  ``1.3-6``,  ``1.3-5``,  ``1.3-4``,  ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.2-4``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
+      ``1.24-2``,  ``1.24-1``,  ``1.24-0``,  ``1.23.1-0``,  ``1.23-0``,  ``1.22-1``,  ``1.22-0``,  ``1.21-1``,  ``1.21-0``,  ``1.20-1``,  ``1.20-0``,  ``1.19-1``,  ``1.19-0``,  ``1.18-0``,  ``1.17-1``,  ``1.17-0``,  ``1.16-2``,  ``1.16-1``,  ``1.16-0``,  ``1.15.1-1``,  ``1.15.1-0``,  ``1.15-2``,  ``1.15-1``,  ``1.15-0``,  ``1.14-1``,  ``1.14-0``,  ``1.13-0``,  ``1.12-1``,  ``1.12-0``,  ``1.11-0``,  ``1.10.2-3``,  ``1.10.2-2``,  ``1.10.2-1``,  ``1.10.2-0``,  ``1.10.1-0``,  ``1.10-0``,  ``1.9-9``,  ``1.9-8``,  ``1.9-7``,  ``1.9-6``,  ``1.9-5``,  ``1.9-4``,  ``1.9-3``,  ``1.9-2``,  ``1.9-1``,  ``1.8-3``,  ``1.8-2``,  ``1.8-1``,  ``1.8-0``,  ``1.7-0``,  ``1.6-1``,  ``1.6-0``,  ``1.5-4``,  ``1.5-3``,  ``1.5-2``,  ``1.5-1``,  ``1.5-0``,  ``1.4.1-0``,  ``1.4-0``,  ``1.3.1-7``,  ``1.3.1-6``,  ``1.3.1-5``,  ``1.3.1-4``,  ``1.3.1-3``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3-9``,  ``1.3-8``,  ``1.3-7``,  ``1.3-6``,  ``1.3-5``,  ``1.3-4``,  ``1.3-3``,  ``1.3-2``,  ``1.3-1``,  ``1.3-0``,  ``1.2-4``,  ``1.2-3``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``
 
       
       .. raw:: html
@@ -41,9 +47,10 @@ bcftools
       
 
    
-   :depends on __osx: ``>=10.13``
-   :depends on gsl: ``>=2.7,<2.8.0a0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on gsl: ``>=2.6,<2.7.0a0``
    :depends on htslib: ``>=1.24,<1.25.0a0``
+   :depends on libgcc: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on perl: 
 
@@ -124,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bcftools";
-      var versions = ["1.24","1.24","1.23.1","1.23","1.22"];
+      var versions = ["1.24","1.24","1.24","1.23.1","1.23"];
    </script>
 
 .. rubric:: Download stats

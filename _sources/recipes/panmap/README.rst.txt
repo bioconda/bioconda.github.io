@@ -13,7 +13,7 @@ panmap
    Pangenome\-based sequence placement\, alignment\, and genotyping
 
    :homepage: https://github.com/amkram/panmap
-   :license: MIT / MIT
+   :license: GPL3 / GPL-3.0-only
    :recipe: /`panmap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panmap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panmap/meta.yaml>`_
 
    
@@ -27,25 +27,24 @@ panmap
       
       
 
-      ``0.1.2-0``,  ``0.1.1-0``
+      ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
 
    
-   :depends on capnproto: ``>=1.4.0,<1.4.1.0a0``
-   :depends on fmt: ``>=12.0,<13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on capnproto: ``>=1.5.0,<1.5.1.0a0``
    :depends on fmt: ``>=12.0.0,<12.1.0a0``
-   :depends on htslib: ``>=1.23.1,<1.24.0a0``
+   :depends on htslib: ``>=1.24,<1.25.0a0``
    :depends on jsoncpp: ``>=1.9.6,<1.9.7.0a0``
    :depends on libabseil: ``* cxx17*``
-   :depends on libabseil: ``>=20250512``
    :depends on libabseil: ``>=20250512.1,<20250513.0a0``
    :depends on libboost: ``>=1.86.0,<1.87.0a0``
+   :depends on libdeflate: ``>=1.25,<1.26.0a0``
    :depends on libgcc: ``>=14``
    :depends on libprotobuf: ``>=6.31.1,<6.31.2.0a0``
    :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
-   :depends on spdlog: ``>=1.16,<1.17``
    :depends on spdlog: ``>=1.16.0,<1.17.0a0``
    :depends on tbb: ``>=2022.3.0``
    :depends on zstd: ``>=1.5.7,<1.6.0a0``
@@ -127,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "panmap";
-      var versions = ["0.1.2","0.1.1"];
+      var versions = ["0.2.0","0.1.2","0.1.1"];
    </script>
 
 .. rubric:: Download stats

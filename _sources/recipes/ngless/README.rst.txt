@@ -13,7 +13,8 @@ ngless
    A tool for short\-read processing with a focus on metagenomics
 
    :homepage: https://ngless.embl.de
-   :license: MIT
+   :developer docs: https://github.com/ngless-toolkit/ngless
+   :license: MIT / MIT
    :recipe: /`ngless <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngless>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngless/meta.yaml>`_
    :links: doi: :doi:`10.1186/s40168-019-0684-8`
 
@@ -29,10 +30,10 @@ ngless
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.0-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.0-3</code>,  <code>1.2.0-2</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.0-0</code>,  <code>1.5.0-0</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.0-3</code>,  <code>1.2.0-2</code>,  </span></summary>
       
 
-      ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-3``,  ``1.2.0-2``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.11.1-0``,  ``0.10.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``
+      ``1.6.0-0``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-3``,  ``1.2.0-2``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.11.1-0``,  ``0.10.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``
 
       
       .. raw:: html
@@ -41,11 +42,13 @@ ngless
       
 
    
-   :depends on bwa: 
-   :depends on megahit: 
-   :depends on minimap2: 
-   :depends on prodigal: 
-   :depends on samtools: 
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on bwa: ``>=0.7.19``
+   :depends on libgcc: ``>=14``
+   :depends on megahit: ``>=1.2.9``
+   :depends on minimap2: ``>=2.31``
+   :depends on prodigal: ``>=2.6.3``
+   :depends on samtools: ``>=1.23.1``
 
    :additional platforms:
       
@@ -120,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ngless";
-      var versions = ["1.5.0","1.4.2","1.4.1","1.4.0","1.3.0"];
+      var versions = ["1.6.0","1.5.0","1.4.2","1.4.1","1.4.0"];
    </script>
 
 .. rubric:: Download stats

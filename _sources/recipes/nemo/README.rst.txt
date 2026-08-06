@@ -15,7 +15,7 @@ nemo
    :homepage: https://bitbucket.org/ecoevo/nemo-release
    :documentation: https://nemo2.sourceforge.io
    
-   :license: GPL / GPL-2.0-or-later
+   :license: GPL / GPL-3.0-or-later
    :recipe: /`nemo <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nemo>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nemo/meta.yaml>`_
    :links: doi: :doi:`10.1093/bioinformatics/btl415`
 
@@ -30,18 +30,15 @@ nemo
       
       
 
-      ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.51-2``,  ``2.3.51-1``,  ``2.3.51-0``
+      ``2.4.2-0``,  ``2.4.0-1``,  ``2.4.0-0``,  ``2.3.51-2``,  ``2.3.51-1``,  ``2.3.51-0``
 
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on gsl: ``>=2.7,<2.8.0a0``
    :depends on libgcc: ``>=14``
-   :depends on libgomp: 
    :depends on libstdcxx: ``>=14``
-   :depends on mpich-mpicxx: 
-   :depends on openblas: 
 
    :additional platforms:
       
@@ -120,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "nemo";
-      var versions = ["2.4.0","2.4.0","2.3.51","2.3.51","2.3.51"];
+      var versions = ["2.4.2","2.4.0","2.4.0","2.3.51","2.3.51"];
    </script>
 
 .. rubric:: Download stats

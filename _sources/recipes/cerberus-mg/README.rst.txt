@@ -10,7 +10,7 @@ cerberus-mg
    :replaces_section_title:
    :noindex:
 
-   Three\-headed host\-removal pipeline for metagenomics\: assembly\, profiling\, and GDPR\-compliant outputs from one run.
+   Three\-headed host removal for metagenomic data\: assembly\, profiling and privacy\-scrubbed outputs from one run.
 
    :homepage: https://github.com/iowa69/cerberus
    :license: MIT / MIT
@@ -18,12 +18,22 @@ cerberus-mg
    :links: doi: :doi:`10.5281/zenodo.20258069`
 
    Cerberus is an opinionated all\-in\-one host\-decontamination pipeline that
-   produces three publication\-ready outputs from a single run\: a paired\-end
-   assembly\-ready FASTQ pair \(conservative\)\, a single merged FASTQ for
-   taxonomic profiling \(aggressive\)\, and a GDPR\-compliant zero\-host scrubbed
-   output \(via two orthogonal mechanisms\: Kraken2 \+ minimap2\). Works on
-   Illumina short reads\, ONT long reads\, and PacBio HiFi\/CLR. Autotunes its
-   parameters from fastp QC.
+   produces three outputs from a single run\: a paired\-end assembly\-ready
+   FASTQ pair \(conservative — a pair is dropped only when both mates map to
+   the host\)\, a single merged FASTQ for taxonomic profiling \(aggressive — the
+   pair is dropped as soon as either mate maps\)\, and a privacy\-scrubbed
+   output for public release\, from which host reads are removed by three
+   mechanisms in series\: a Kraken2 host database\, a bbduk human k\-mer pass\,
+   and minimap2 alignment against a masked T2T\-CHM13v2.0 \+ HLA reference.
+
+   Because all three mechanisms derive from the same reference assemblies\,
+   Cerberus reports the measured residual host removal per mechanism rather
+   than asserting that no host reads remain. Every run writes an HTML report
+   with the resolved parameters\, per\-stage read accounting and verification
+   of each output file.
+
+   Works on Illumina paired\-end short reads\, ONT long reads\, and PacBio
+   HiFi\/CLR\, autotuning its parameters from a prescan of the input.
 
 
 
@@ -35,25 +45,21 @@ cerberus-mg
       
       
 
-      ``0.1.1-0``
+      ``0.2.1-0``,  ``0.1.1-0``
 
       
 
    
    :depends on aria2: 
    :depends on bbmap: ``>=39.0``
-   :depends on bedtools: ``>=2.31``
    :depends on bowtie2: ``>=2.5``
-   :depends on chopper: ``>=0.9``
    :depends on fastp: ``>=0.24``
+   :depends on fastplong: ``>=0.2``
    :depends on kraken2: ``>=2.1.3``
    :depends on minimap2: ``>=2.28``
-   :depends on multiqc: ``>=1.25``
    :depends on pigz: 
    :depends on python: ``>=3.10``
-   :depends on pyyaml: ``>=6.0``
    :depends on samtools: ``>=1.20``
-   :depends on seqkit: ``>=2.8``
    :depends on tqdm: ``>=4.66``
    :depends on winnowmap: ``>=2.03``
    :depends on zstd: ``>=1.5``
@@ -131,7 +137,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cerberus-mg";
-      var versions = ["0.1.1"];
+      var versions = ["0.2.1","0.1.1"];
    </script>
 
 .. rubric:: Download stats
