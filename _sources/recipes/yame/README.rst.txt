@@ -28,13 +28,20 @@ yame
    :versions:
       
       
+      .. raw:: html
 
-      ``1.36-0``,  ``1.35-0``,  ``1.33-0``,  ``1.32-0``,  ``1.29-0``,  ``1.10-0``,  ``1.8-0``,  ``1.0.5-0``,  ``1.0.4-0``
+         <details><summary><span class="truncated-version-list"><code>1.37-0</code>,  <code>1.36-0</code>,  <code>1.35-0</code>,  <code>1.33-0</code>,  <code>1.32-0</code>,  <code>1.29-0</code>,  <code>1.10-0</code>,  <code>1.8-0</code>,  <code>1.0.5-0</code>,  </span></summary>
+      
 
+      ``1.37-0``,  ``1.36-0``,  ``1.35-0``,  ``1.33-0``,  ``1.32-0``,  ``1.29-0``,  ``1.10-0``,  ``1.8-0``,  ``1.0.5-0``,  ``1.0.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libcurl: ``>=8.21.0,<9.0a0``
    :depends on libgcc: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
@@ -116,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "yame";
-      var versions = ["1.36","1.35","1.33","1.32","1.29"];
+      var versions = ["1.37","1.36","1.35","1.33","1.32"];
    </script>
 
 .. rubric:: Download stats

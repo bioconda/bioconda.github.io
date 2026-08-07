@@ -12,7 +12,7 @@ radte
 
    Reconciliation\-Assisted Divergence Time Estimation for gene families.
 
-   :homepage: https://github.com/kfuku52/radte
+   :homepage: https://github.com/kfuku52/RADTE
    :license: MIT
    :recipe: /`radte <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/radte>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/radte/meta.yaml>`_
 
@@ -27,12 +27,12 @@ radte
       
       
 
-      ``0.2.3-0``
+      ``0.3.0-0``,  ``0.2.3-0``
 
       
 
    
-   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
 
    :additional platforms:
       
@@ -107,7 +107,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "radte";
-      var versions = ["0.2.3"];
+      var versions = ["0.3.0","0.2.3"];
    </script>
 
 .. rubric:: Download stats

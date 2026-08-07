@@ -15,7 +15,7 @@ platon
    :homepage: https://github.com/oschwengers/platon
    :license: GPL / GPLv3
    :recipe: /`platon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/platon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/platon/meta.yaml>`_
-   :links: biotools: :biotools:`platon`
+   :links: biotools: :biotools:`platon`, doi: :doi:`10.1099/mgen.0.000398`, doi: :doi:`10.5281/zenodo.4066768`
 
    
 
@@ -29,10 +29,10 @@ platon
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7-0</code>,  <code>1.6-1</code>,  <code>1.6-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  <code>1.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8-0</code>,  <code>1.7-0</code>,  <code>1.6-1</code>,  <code>1.6-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  </span></summary>
       
 
-      ``1.7-0``,  ``1.6-1``,  ``1.6-0``,  ``1.5.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.8-0``,  ``1.7-0``,  ``1.6-1``,  ``1.6-0``,  ``1.5.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,14 @@ platon
       
 
    
-   :depends on biopython: ``>=1.78``
-   :depends on blast: ``>=2.10.1``
-   :depends on diamond: ``>=2.0.6``
-   :depends on hmmer: ``>=3.3.1``
-   :depends on infernal: ``>=1.1.4``
-   :depends on mummer4: ``>=4.0.0beta2``
-   :depends on prodigal: ``>=2.6.3``
-   :depends on python: ``>=3``
+   :depends on biopython: ``>=1.87``
+   :depends on blast: ``>=2.17.0``
+   :depends on diamond: ``>=2.2.0``
+   :depends on hmmer: ``>=3.4``
+   :depends on infernal: ``>=1.1.5``
+   :depends on mummer4: ``>=4.0.1``
+   :depends on pyrodigal: ``>=3.7.1``
+   :depends on python: ``>=3.10``
 
    :additional platforms:
       
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "platon";
-      var versions = ["1.7","1.6","1.6","1.5.0","1.4.0"];
+      var versions = ["1.8","1.7","1.6","1.6","1.5.0"];
    </script>
 
 .. rubric:: Download stats

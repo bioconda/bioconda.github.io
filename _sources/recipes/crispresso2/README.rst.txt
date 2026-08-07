@@ -43,7 +43,6 @@ crispresso2
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bowtie2: 
    :depends on fastp: 
    :depends on jinja2: 
