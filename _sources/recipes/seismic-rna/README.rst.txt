@@ -42,6 +42,7 @@ seismic-rna
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bowtie2: ``>=2.5.4``
    :depends on brotli-python: ``>=1.0``
    :depends on click: ``>=8.1``

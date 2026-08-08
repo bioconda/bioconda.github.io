@@ -34,6 +34,7 @@ turboani
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on fontconfig: ``>=2.18.2,<3.0a0``
    :depends on fonts-conda-ecosystem: 
    :depends on freetype: 

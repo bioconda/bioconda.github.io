@@ -29,7 +29,7 @@ flexsweep
       
       
 
-      ``1.9.2-0``,  ``1.3-0``,  ``1.0-0``
+      ``2.0-0``,  ``1.9.2-0``,  ``1.3-0``,  ``1.0-0``
 
       
 
@@ -53,7 +53,7 @@ flexsweep
    :depends on tbb: ``>=2022.1.0,<2023.0.0``
    :depends on tensorflow: ``>=2.18.0``
    :depends on threadpoolctl: ``>=3.5.0,<4.0.0``
-   :depends on zig: ``>=0.15.2,<0.15.3.0a0``
+   :depends on zig: ``>=0.16.0,<0.16.1.0a0``
 
    :additional platforms:
       
@@ -132,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "flexsweep";
-      var versions = ["1.9.2","1.3","1.0"];
+      var versions = ["2.0","1.9.2","1.3","1.0"];
    </script>
 
 .. rubric:: Download stats

@@ -39,6 +39,7 @@ wasp2
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on anndata: ``>=0.8.0,<0.12.0``
    :depends on bcftools: 
    :depends on bedtools: 
