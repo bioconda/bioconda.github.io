@@ -10,7 +10,7 @@ alphatims
    :replaces_section_title:
    :noindex:
 
-   A Python package for indexing Bruker timsTOF raw data
+   A Python package for indexing Bruker timsTOF raw data.
 
    :homepage: https://github.com/MannLabs/alphatims
    :documentation: https://alphatims.readthedocs.io/en/latest
@@ -31,12 +31,11 @@ alphatims
       
       
 
-      ``1.1.1-0``,  ``1.0.10-0``,  ``1.0.9-0``
+      ``1.1.1-1``,  ``1.1.1-0``,  ``1.0.10-0``,  ``1.0.9-0``
 
       
 
    
-   :depends on alphabase: 
    :depends on alpharaw: 
    :depends on click: 
    :depends on h5py: 
@@ -120,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "alphatims";
-      var versions = ["1.1.1","1.0.10","1.0.9"];
+      var versions = ["1.1.1","1.1.1","1.0.10","1.0.9"];
    </script>
 
 .. rubric:: Download stats

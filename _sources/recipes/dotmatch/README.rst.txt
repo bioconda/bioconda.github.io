@@ -10,18 +10,20 @@ dotmatch
    :replaces_section_title:
    :noindex:
 
-   Deterministic short\-DNA known\-target assignment
+   Known\-target short\-DNA assignment from FASTQ.
 
-   :homepage: https://github.com/dnncha/dotmatch
-   :documentation: https://dotmatch.readthedocs.io/
+   :homepage: https://dnncha.github.io/dotmatch
+   :documentation: https://dotmatch.readthedocs.io/en/latest
    
-   :license: Apache-2.0
+   :developer docs: https://github.com/dnncha/dotmatch
+   :license: APACHE / Apache-2.0
    :recipe: /`dotmatch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dotmatch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dotmatch/meta.yaml>`_
 
-   The distribution installs AssayCode\, the assay\-level platform identity\, and
-   DotMatch\, its deterministic known\-target short\-DNA assignment engine for
-   CRISPR guides\, barcodes\, primers\, panels\, and whitelist\-style target sets.
-   It is not a genome aligner and does not emit SAM\/BAM or CIGAR output.
+   DotMatch assigns fixed FASTQ read windows to known CRISPR guides\, barcodes\,
+   feature tags\, primers\, panels\, and other finite target lists. It reports
+   unique\, ambiguous\, unmatched\, and invalid reads and writes ordinary TSV\,
+   JSON\, FASTQ\, and HTML outputs. It is not a genome aligner and does not emit
+   SAM\/BAM or CIGAR output.
 
 
 
@@ -34,10 +36,10 @@ dotmatch
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.9-1</code>,  <code>0.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-0</code>,  <code>0.1.4-0</code>,  <code>0.1.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.9-1</code>,  <code>0.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-0</code>,  <code>0.1.4-0</code>,  </span></summary>
       
 
-      ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
+      ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
       .. raw:: html
@@ -46,17 +48,17 @@ dotmatch
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libgcc: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
-   :depends on python: ``>=3.14,<3.15.0a0``
-   :depends on python_abi: ``3.14.* *_cp314``
+   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on tomli: 
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>osx-arm64</code></span>
+         <span class="additional-platforms"><code>osx-arm64</code>,  <code>linux-aarch64</code></span>
       
 
 
@@ -129,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "dotmatch";
-      var versions = ["0.2.2","0.2.1","0.2.0","0.1.9","0.1.9"];
+      var versions = ["0.2.2","0.2.2","0.2.1","0.2.0","0.1.9"];
    </script>
 
 .. rubric:: Download stats

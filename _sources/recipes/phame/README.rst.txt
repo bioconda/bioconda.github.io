@@ -13,9 +13,11 @@ phame
    A tool to derive SNP matrices and phylogenetic tree from raw reads\, contigs\, and full genomes.
 
    :homepage: https://github.com/LANL-Bioinformatics/PhaME
-   :license: GPLV2
+   :documentation: https://github.com/LANL-Bioinformatics/PhaME/blob/1.0.4/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`phame <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phame>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phame/meta.yaml>`_
-   :links: biotools: :biotools:`phame`
+   :links: biotools: :biotools:`phame`, doi: :doi:`10.1038/s41598-020-58356-1`
 
    
 
@@ -28,7 +30,7 @@ phame
       
       
 
-      ``1.0.3-3``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0-0``
+      ``1.0.4-0``,  ``1.0.3-3``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0-0``
 
       
 
@@ -55,7 +57,6 @@ phame
    :depends on perl-statistics-distributions: ``>=1.02``
    :depends on raxml-ng: ``>=1.0.0``
    :depends on samtools: ``>=0.1.18,<1.12``
-   :depends on zlib: ``>=1.2.11``
 
    :additional platforms:
       
@@ -130,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "phame";
-      var versions = ["1.0.3","1.0.3","1.0.3","1.0.2","1.0.1"];
+      var versions = ["1.0.4","1.0.3","1.0.3","1.0.3","1.0.2"];
    </script>
 
 .. rubric:: Download stats

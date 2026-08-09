@@ -27,12 +27,13 @@ mostar
       
       
 
-      ``1.0.2-0``,  ``1.0.1-0``
+      ``1.0.4-0``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
    
-   :depends on bakta: 
+   :depends on alive-progress: ``3.0.1.*``
+   :depends on bakta: ``1.11.4.*``
    :depends on bcftools: 
    :depends on biopython: 
    :depends on blast: 
@@ -43,6 +44,7 @@ mostar
    :depends on filtlong: 
    :depends on flye: 
    :depends on genomad: 
+   :depends on hmmer: ``3.4.*``
    :depends on kraken2: 
    :depends on macsyfinder: 
    :depends on matplotlib-base: 
@@ -53,6 +55,7 @@ mostar
    :depends on osfclient: 
    :depends on pandas: 
    :depends on polypolish: 
+   :depends on pyhmmer: ``<0.11``
    :depends on python: ``>=3.11``
    :depends on samtools: 
    :depends on wget: 
@@ -130,7 +133,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mostar";
-      var versions = ["1.0.2","1.0.1"];
+      var versions = ["1.0.4","1.0.2","1.0.1"];
    </script>
 
 .. rubric:: Download stats
@@ -218,6 +221,15 @@ Check the documentation of your workflow management system to find out about the
          
       }
    </script>
+
+
+Notes
+-----
+Post\-install setup required before first use \(databases are not bundled\)\:
+  amrfinder \-u
+  msf\_data install \-\-target \<path\> CONJScan
+  \(plus separate Kraken2\, Bakta\, and geNomad database downloads —
+   see project README for details\)
 
 
 

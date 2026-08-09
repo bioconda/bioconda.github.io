@@ -28,10 +28,10 @@ optitype
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.0-0</code>,  <code>1.3.5-3</code>,  <code>1.3.5-2</code>,  <code>1.3.5-1</code>,  <code>1.3.5-0</code>,  <code>1.3.4-0</code>,  <code>1.3.2-3</code>,  <code>1.3.2-2</code>,  <code>1.3.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.0-1</code>,  <code>1.5.0-0</code>,  <code>1.3.5-3</code>,  <code>1.3.5-2</code>,  <code>1.3.5-1</code>,  <code>1.3.5-0</code>,  <code>1.3.4-0</code>,  <code>1.3.2-3</code>,  <code>1.3.2-2</code>,  </span></summary>
       
 
-      ``1.5.0-0``,  ``1.3.5-3``,  ``1.3.5-2``,  ``1.3.5-1``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.2-3``,  ``1.3.2-2``,  ``1.3.2-1``,  ``1.3.1-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2-0``
+      ``1.5.0-1``,  ``1.5.0-0``,  ``1.3.5-3``,  ``1.3.5-2``,  ``1.3.5-1``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.2-3``,  ``1.3.2-2``,  ``1.3.2-1``,  ``1.3.1-0``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2-0``
 
       
       .. raw:: html
@@ -41,6 +41,7 @@ optitype
 
    
    :depends on click: ``>=8.0``
+   :depends on coincbc: 
    :depends on glpk: 
    :depends on hdf5: 
    :depends on matplotlib-base: ``>=3.5``
@@ -51,6 +52,7 @@ optitype
    :depends on pysam: ``>=0.21``
    :depends on python: ``>=3.10``
    :depends on razers3: 
+   :depends on yara: 
 
    :additional platforms:
       
@@ -125,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "optitype";
-      var versions = ["1.5.0","1.3.5","1.3.5","1.3.5","1.3.5"];
+      var versions = ["1.5.0","1.5.0","1.3.5","1.3.5","1.3.5"];
    </script>
 
 .. rubric:: Download stats

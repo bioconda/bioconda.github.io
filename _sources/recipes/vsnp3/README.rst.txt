@@ -13,7 +13,7 @@ vsnp3
    Rapidly call\, validate\, and compare SNPs from FASTQ files in a timely manner utilizing large data sets.
 
    :homepage: https://github.com/USDA-VS/vsnp3
-   :license: GPL-3.0-or-later
+   :license: GPL3
    :recipe: /`vsnp3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vsnp3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vsnp3/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ vsnp3
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.35-0</code>,  <code>3.34-0</code>,  <code>3.33-0</code>,  <code>3.32-0</code>,  <code>3.31-0</code>,  <code>3.30-0</code>,  <code>3.29-0</code>,  <code>3.28-0</code>,  <code>3.27-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.36-0</code>,  <code>3.35-0</code>,  <code>3.34-0</code>,  <code>3.33-0</code>,  <code>3.32-0</code>,  <code>3.31-0</code>,  <code>3.30-0</code>,  <code>3.29-0</code>,  <code>3.28-0</code>,  </span></summary>
       
 
-      ``3.35-0``,  ``3.34-0``,  ``3.33-0``,  ``3.32-0``,  ``3.31-0``,  ``3.30-0``,  ``3.29-0``,  ``3.28-0``,  ``3.27-0``,  ``3.26-0``,  ``3.25-0``,  ``3.24-0``,  ``3.23-0``,  ``3.22-0``,  ``3.21-0``,  ``3.20-0``,  ``3.19-0``,  ``3.18-0``,  ``3.17-0``,  ``3.16-0``,  ``3.15-0``,  ``3.14-0``,  ``3.13-0``,  ``3.12-0``,  ``3.11-0``,  ``3.10-0``,  ``3.09-0``,  ``3.08-0``,  ``3.07-0``,  ``3.06-0``,  ``3.05-0``,  ``3.04-0``,  ``3.02-0``,  ``3.01-0``
+      ``3.36-0``,  ``3.35-0``,  ``3.34-0``,  ``3.33-0``,  ``3.32-0``,  ``3.31-0``,  ``3.30-0``,  ``3.29-0``,  ``3.28-0``,  ``3.27-0``,  ``3.26-0``,  ``3.25-0``,  ``3.24-0``,  ``3.23-0``,  ``3.22-0``,  ``3.21-0``,  ``3.20-0``,  ``3.19-0``,  ``3.18-0``,  ``3.17-0``,  ``3.16-0``,  ``3.15-0``,  ``3.14-0``,  ``3.13-0``,  ``3.12-0``,  ``3.11-0``,  ``3.10-0``,  ``3.09-0``,  ``3.08-0``,  ``3.07-0``,  ``3.06-0``,  ``3.05-0``,  ``3.04-0``,  ``3.02-0``,  ``3.01-0``
 
       
       .. raw:: html
@@ -41,29 +41,33 @@ vsnp3
 
    
    :depends on bcftools: 
-   :depends on biopython: ``>=1.79``
+   :depends on biopython: ``>=1.84``
    :depends on bwa: 
-   :depends on cairosvg: ``>=2.5.2``
-   :depends on dask: ``>=2022.01.1``
+   :depends on dask: ``>=2024.6``
    :depends on freebayes: ``>=1.3.5``
    :depends on humanize: ``>=3.14.0``
+   :depends on jinja2: 
+   :depends on matplotlib-base: ``>=3.9,<4``
    :depends on minimap2: ``>=2.24``
-   :depends on numpy: ``>=1.16,<=1.26``
+   :depends on numpy: ``>=1.26.4,<3``
    :depends on openpyxl: ``>=3.0.9``
-   :depends on pandas: ``>=1.3,<=2.2``
+   :depends on pandas: ``>=2.2.2,<3``
    :depends on parallel: 
    :depends on pigz: 
-   :depends on plotly: 
+   :depends on plotly: ``>=5.22,<7``
    :depends on py-cpuinfo: 
-   :depends on python: ``>=3.8,<=3.12``
+   :depends on python: ``>=3.12,<3.14``
+   :depends on pyyaml: 
    :depends on raxml: ``>=8.2.12``
    :depends on regex: ``>=2.5.110``
    :depends on samtools: ``>=1.14``
+   :depends on scipy: ``>=1.11,<2``
+   :depends on seaborn: ``>=0.13.2,<1``
    :depends on seqkit: ``>=2.1.0``
-   :depends on sourmash: ``>=4.2.4``
-   :depends on spades: ``>=3.15.2``
-   :depends on svgwrite: ``>=1.4.1``
+   :depends on sourmash: ``>=4.8.4``
+   :depends on spades: ``>=3.15.2,<4.2``
    :depends on vcflib: ``1.0.12.*``
+   :depends on weasyprint: ``>=66``
    :depends on xlsxwriter: ``>=3.0.2``
 
    :additional platforms:
@@ -139,7 +143,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "vsnp3";
-      var versions = ["3.35","3.34","3.33","3.32","3.31"];
+      var versions = ["3.36","3.35","3.34","3.33","3.32"];
    </script>
 
 .. rubric:: Download stats

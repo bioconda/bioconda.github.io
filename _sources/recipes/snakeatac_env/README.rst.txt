@@ -10,12 +10,12 @@ snakeatac_env
    :replaces_section_title:
    :noindex:
 
-   snakemake based ATACseq pipeline
+   Snakemake\-based pipeline for the analysis of ATAC\-seq data
 
    :homepage: https://github.com/sebastian-gregoricchio/snakeATAC
    :documentation: https://github.com/sebastian-gregoricchio/snakeATAC/wiki
    
-   :license: GPL-3.0-or-later
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`snakeatac_env <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakeatac_env>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakeatac_env/meta.yaml>`_
 
    
@@ -29,57 +29,36 @@ snakeatac_env
       
       
 
-      ``0.1.1-0``
+      ``0.1.2-0``,  ``0.1.1-0``
 
       
 
    
-   :depends on bcftools: 
    :depends on bedtools: 
+   :depends on bioconductor-biocparallel: 
    :depends on bioconductor-copywriter: 
-   :depends on bioconductor-shortread: 
-   :depends on bioinfokit: 
-   :depends on biopython: 
    :depends on bwa-mem2: 
-   :depends on bzip2: 
    :depends on cutadapt: 
    :depends on deeptools: ``>=3.5.2``
-   :depends on docutils: 
-   :depends on fastcluster: 
    :depends on fastqc: 
    :depends on gatk4: 
-   :depends on logomaker: 
+   :depends on htslib: 
+   :depends on jq: 
    :depends on macs3: 
-   :depends on matplotlib-base: 
+   :depends on mawk: 
    :depends on multiqc: ``>=1.23``
-   :depends on numpydoc: 
+   :depends on numpy: ``>=1.22``
    :depends on pandas: 
    :depends on pdfcombine: 
-   :depends on pip: 
-   :depends on py-bgzip: 
-   :depends on py2bit: 
-   :depends on pybedtools: 
-   :depends on pybigwig: 
-   :depends on pyfaidx: 
-   :depends on pysam: 
-   :depends on python: 
-   :depends on r-colorspace: 
+   :depends on python: ``>=3.8``
+   :depends on r-base: ``>=4.2``
    :depends on r-data.table: 
    :depends on r-dplyr: 
-   :depends on r-generics: 
    :depends on r-ggplot2: 
-   :depends on r-ggtext: 
-   :depends on r-plyr: 
-   :depends on r-rcolorbrewer: 
    :depends on r-reshape2: 
-   :depends on r-scales: 
    :depends on r-snow: 
-   :depends on r-stringr: 
-   :depends on r-viridis: 
    :depends on samtools: 
-   :depends on scipy: 
-   :depends on seaborn: 
-   :depends on snakemake: ``>=7.24.0``
+   :depends on snakemake-minimal: ``>=7.24.0``
    :depends on snpsift: 
    :depends on subread: 
    :depends on tobias: 
@@ -158,7 +137,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "snakeatac_env";
-      var versions = ["0.1.1"];
+      var versions = ["0.1.2","0.1.1"];
    </script>
 
 .. rubric:: Download stats

@@ -492,11 +492,12 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/mostar"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/mostar.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/mostar"><img alt="docker_mostar" src="https://quay.io/repository/biocontainers/mostar/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.1-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.1-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bakta</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">alive-progress</span></code></span> <code class="docutils literal notranslate"><span class="pre">3.0.1.*</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bakta</span></code></span> <code class="docutils literal notranslate"><span class="pre">1.11.4.*</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bcftools</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">biopython</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">blast</span></code></span></p></li>
@@ -507,6 +508,7 @@
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">filtlong</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">flye</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">genomad</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">hmmer</span></code></span> <code class="docutils literal notranslate"><span class="pre">3.4.*</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">kraken2</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">macsyfinder</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">matplotlib-base</span></code></span></p></li>
@@ -517,6 +519,7 @@
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">osfclient</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pandas</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">polypolish</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pyhmmer</span></code></span> <code class="docutils literal notranslate"><span class="pre">&lt;0.11</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=3.11</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">samtools</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">wget</span></code></span></p></li>
@@ -578,7 +581,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "mostar";
-   var versions = ["1.0.2","1.0.1"];
+   var versions = ["1.0.4","1.0.2","1.0.1"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_mostar"></div>
 <div style="width: 100%" id="platform_plot_mostar"></div>
@@ -662,6 +665,18 @@ Check the documentation of your workflow management system to find out about the
    }
 </script></section>
 </section>
+<section id="notes">
+<h2>Notes<a class="headerlink" href="#notes" title="Link to this heading">#</a></h2>
+<dl>
+<dt>Post-install setup required before first use (databases are not bundled):</dt><dd><p>amrfinder -u
+msf_data install --target &lt;path&gt; CONJScan
+(plus separate Kraken2, Bakta, and geNomad database downloads —</p>
+<blockquote>
+<div><p>see project README for details)</p>
+</div></blockquote>
+</dd>
+</dl>
+</section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Link to this heading">#</a></h2>
 <p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/mostar/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
@@ -707,6 +722,7 @@ Check the documentation of your workflow management system to find out about the
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#integrated-deployment">Integrated deployment</a></li>
 </ul>
 </li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#notes">Notes</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#link-to-this-page">Link to this page</a></li>
 </ul>
   </nav></div>

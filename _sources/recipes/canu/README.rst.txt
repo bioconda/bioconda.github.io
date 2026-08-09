@@ -43,7 +43,6 @@ canu
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on _openmp_mutex: ``>=4.5``
    :depends on boost-cpp: 
    :depends on gnuplot: ``>=5.2``

@@ -31,16 +31,16 @@ galaxy-job-execution
       
       
 
-      ``26.0.1-1``,  ``26.0.1-0``,  ``25.1.2-0``,  ``25.0.4-0``,  ``25.0.3-0``,  ``25.0.2-0``,  ``25.0.1-0``,  ``24.2.4-0``
+      ``26.1.1-0``,  ``26.0.1-1``,  ``26.0.1-0``,  ``25.1.2-0``,  ``25.0.4-0``,  ``25.0.3-0``,  ``25.0.2-0``,  ``25.0.1-0``,  ``24.2.4-0``
 
       
 
    
-   :depends on galaxy-data: ``>=26.0``
-   :depends on galaxy-files: ``>=26.0``
-   :depends on galaxy-objectstore: ``>=26.0``
-   :depends on galaxy-tool-util: ``>=26.0``
-   :depends on galaxy-util: ``>=26.0``
+   :depends on galaxy-data: ``>=26.1``
+   :depends on galaxy-files: ``>=26.1``
+   :depends on galaxy-objectstore: ``>=26.1``
+   :depends on galaxy-tool-util: ``>=26.1``
+   :depends on galaxy-util: ``>=26.1``
    :depends on markupsafe: 
    :depends on python: ``>=3.10``
    :depends on sqlalchemy: ``>=2.0,<2.1``
@@ -118,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "galaxy-job-execution";
-      var versions = ["26.0.1","26.0.1","25.1.2","25.0.4","25.0.3"];
+      var versions = ["26.1.1","26.0.1","26.0.1","25.1.2","25.0.4"];
    </script>
 
 .. rubric:: Download stats

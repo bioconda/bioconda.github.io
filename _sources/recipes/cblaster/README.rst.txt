@@ -30,10 +30,10 @@ cblaster
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.0-0</code>,  <code>1.3.20-0</code>,  <code>1.3.19-0</code>,  <code>1.3.18-0</code>,  <code>1.3.17-0</code>,  <code>1.3.16-0</code>,  <code>1.3.15-0</code>,  <code>1.3.12-0</code>,  <code>1.3.11-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.2-0</code>,  <code>1.4.0-0</code>,  <code>1.3.20-0</code>,  <code>1.3.19-0</code>,  <code>1.3.18-0</code>,  <code>1.3.17-0</code>,  <code>1.3.16-0</code>,  <code>1.3.15-0</code>,  <code>1.3.12-0</code>,  </span></summary>
       
 
-      ``1.4.0-0``,  ``1.3.20-0``,  ``1.3.19-0``,  ``1.3.18-0``,  ``1.3.17-0``,  ``1.3.16-0``,  ``1.3.15-0``,  ``1.3.12-0``,  ``1.3.11-0``,  ``1.3.9-0``
+      ``1.4.2-0``,  ``1.4.0-0``,  ``1.3.20-0``,  ``1.3.19-0``,  ``1.3.18-0``,  ``1.3.17-0``,  ``1.3.16-0``,  ``1.3.15-0``,  ``1.3.12-0``,  ``1.3.11-0``,  ``1.3.9-0``
 
       
       .. raw:: html
@@ -127,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cblaster";
-      var versions = ["1.4.0","1.3.20","1.3.19","1.3.18","1.3.17"];
+      var versions = ["1.4.2","1.4.0","1.3.20","1.3.19","1.3.18"];
    </script>
 
 .. rubric:: Download stats

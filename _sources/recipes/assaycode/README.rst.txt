@@ -10,18 +10,18 @@ assaycode
    :replaces_section_title:
    :noindex:
 
-   AssayCode platform powered by the DotMatch known\-target assignment engine
+   Compatibility metapackage for the assaycode command included with DotMatch.
 
-   :homepage: https://github.com/dnncha/dotmatch
+   :homepage: https://dnncha.github.io/dotmatch
    :documentation: https://dotmatch.readthedocs.io/en/latest/assaycode.html
    
+   :developer docs: https://github.com/dnncha/dotmatch
    :license: Apache-2.0
    :recipe: /`assaycode <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/assaycode>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/assaycode/meta.yaml>`_
 
-   AssayCode is the assay\-level entry point for specifying\, validating\,
-   simulating\, decoding\, and diagnosing known\-target sequencing assays. This
-   compatibility metapackage installs the matching DotMatch release\, which
-   currently provides both the assaycode and dotmatch command surfaces.
+   This metapackage installs the matching DotMatch release\, which provides the
+   assaycode compatibility command for compiling and inspecting assay
+   specifications alongside the main dotmatch command.
 
 
 
@@ -33,12 +33,12 @@ assaycode
       
       
 
-      ``0.2.0-0``
+      ``0.2.2-0``,  ``0.2.0-0``
 
       
 
    
-   :depends on dotmatch: ``0.2.0``
+   :depends on dotmatch: ``0.2.2``
 
    :additional platforms:
       
@@ -113,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "assaycode";
-      var versions = ["0.2.0"];
+      var versions = ["0.2.2","0.2.0"];
    </script>
 
 .. rubric:: Download stats

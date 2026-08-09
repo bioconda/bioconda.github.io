@@ -16,7 +16,7 @@ metaamrplus
    :license: MIT
    :recipe: /`metaamrplus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaamrplus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaamrplus/meta.yaml>`_
 
-   MetaAMRplus is a command\-line tool for detecting antimicrobial resistance genes\, metal\/biocide resistance genes\, and their genomic colocalisation.
+   
 
 
 .. conda:package:: metaamrplus
@@ -27,12 +27,13 @@ metaamrplus
       
       
 
-      ``1.5.1-1``,  ``1.5.1-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4-0``
+      ``1.5.2-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.4.1-1``,  ``1.4.1-0``,  ``1.4-0``
 
       
 
    
-   :depends on blast: ``>=2.14``
+   :depends on bash: 
+   :depends on blast: 
    :depends on coreutils: 
    :depends on gawk: 
    :depends on prodigal: 
@@ -111,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "metaamrplus";
-      var versions = ["1.5.1","1.5.1","1.4.1","1.4.1","1.4"];
+      var versions = ["1.5.2","1.5.1","1.5.1","1.4.1","1.4.1"];
    </script>
 
 .. rubric:: Download stats

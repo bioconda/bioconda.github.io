@@ -13,6 +13,8 @@ biobambam
    Tools for early stage alignment file processing.
 
    :homepage: https://gitlab.com/german.tischler/biobambam2
+   :documentation: https://gitlab.com/german.tischler/biobambam2/-/blob/master/README.md
+   
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`biobambam <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobambam>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobambam/meta.yaml>`_
    :links: biotools: :biotools:`biobambam`
@@ -29,10 +31,10 @@ biobambam
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.185-1</code>,  <code>2.0.185-0</code>,  <code>2.0.183-4</code>,  <code>2.0.183-3</code>,  <code>2.0.183-2</code>,  <code>2.0.183-1</code>,  <code>2.0.183-0</code>,  <code>2.0.182-1</code>,  <code>2.0.182-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.185-2</code>,  <code>2.0.185-1</code>,  <code>2.0.185-0</code>,  <code>2.0.183-4</code>,  <code>2.0.183-3</code>,  <code>2.0.183-2</code>,  <code>2.0.183-1</code>,  <code>2.0.183-0</code>,  <code>2.0.182-1</code>,  </span></summary>
       
 
-      ``2.0.185-1``,  ``2.0.185-0``,  ``2.0.183-4``,  ``2.0.183-3``,  ``2.0.183-2``,  ``2.0.183-1``,  ``2.0.183-0``,  ``2.0.182-1``,  ``2.0.182-0``,  ``2.0.180-1``,  ``2.0.180-0``,  ``2.0.179-1``,  ``2.0.179-0``,  ``2.0.87-2``,  ``2.0.87-1``,  ``2.0.87-0``,  ``2.0.79-0``,  ``2.0.78-0``,  ``2.0.72-0``,  ``2.0.62-0``,  ``2.0.58-0``,  ``2.0.57-0``,  ``2.0.44-0``,  ``2.0.42-0``,  ``2.0.39-0``,  ``2.0.25-0``
+      ``2.0.185-2``,  ``2.0.185-1``,  ``2.0.185-0``,  ``2.0.183-4``,  ``2.0.183-3``,  ``2.0.183-2``,  ``2.0.183-1``,  ``2.0.183-0``,  ``2.0.182-1``,  ``2.0.182-0``,  ``2.0.180-1``,  ``2.0.180-0``,  ``2.0.179-1``,  ``2.0.179-0``,  ``2.0.87-2``,  ``2.0.87-1``,  ``2.0.87-0``,  ``2.0.79-0``,  ``2.0.78-0``,  ``2.0.72-0``,  ``2.0.62-0``,  ``2.0.58-0``,  ``2.0.57-0``,  ``2.0.44-0``,  ``2.0.42-0``,  ``2.0.39-0``,  ``2.0.25-0``
 
       
       .. raw:: html
@@ -42,18 +44,18 @@ biobambam
 
    
    :depends on gmp: ``>=6.3.0,<7.0a0``
-   :depends on libgcc: ``>=13``
+   :depends on libgcc: ``>=14``
    :depends on libmaus2: ``>=2.0.813``
    :depends on libmaus2: ``>=2.0.813,<3.0a0``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on xerces-c: ``>=3.2.5,<3.3.0a0``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on xerces-c: ``>=3.3.0,<3.4.0a0``
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -126,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "biobambam";
-      var versions = ["2.0.185","2.0.185","2.0.183","2.0.183","2.0.183"];
+      var versions = ["2.0.185","2.0.185","2.0.185","2.0.183","2.0.183"];
    </script>
 
 .. rubric:: Download stats

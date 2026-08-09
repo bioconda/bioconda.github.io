@@ -27,19 +27,19 @@ graphmb
       
       
 
-      ``0.2.5-0``,  ``0.2.3-0``
+      ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.3-0``
 
       
 
    
-   :depends on importlib-resources: 
-   :depends on mlflow: ``>=2.3.1``
+   :depends on importlib_resources: 
+   :depends on mlflow: ``>=2.8.1``
    :depends on networkx: ``>=2.6.2``
    :depends on python: 
    :depends on pytorch: ``>=1.13.1``
    :depends on requests: 
-   :depends on tensorflow: ``>=2.11.1``
-   :depends on tqdm: ``>=4.61.2``
+   :depends on tensorflow: ``>=2.12.1``
+   :depends on tqdm: ``>=4.66.3``
 
    :additional platforms:
       
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "graphmb";
-      var versions = ["0.2.5","0.2.3"];
+      var versions = ["0.2.6","0.2.5","0.2.3"];
    </script>
 
 .. rubric:: Download stats

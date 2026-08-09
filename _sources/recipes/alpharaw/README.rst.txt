@@ -10,7 +10,7 @@ alpharaw
    :replaces_section_title:
    :noindex:
 
-   An open\-source Python package to unify raw MS data access and storage
+   An open\-source Python package to unify raw MS data access and storage.
 
    :homepage: https://github.com/MannLabs/alpharaw
    :license: APACHE / Apache-2.0
@@ -30,13 +30,13 @@ alpharaw
       
       
 
-      ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``
+      ``0.6.1-1``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.0-0``
 
       
 
    
    :depends on alphabase: ``>=1.5.0``
-   :depends on alphatims: 
+   :depends on click: 
    :depends on h5py: 
    :depends on lxml: 
    :depends on numba: 
@@ -120,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "alpharaw";
-      var versions = ["0.6.1","0.6.0","0.5.0"];
+      var versions = ["0.6.1","0.6.1","0.6.0","0.5.0"];
    </script>
 
 .. rubric:: Download stats

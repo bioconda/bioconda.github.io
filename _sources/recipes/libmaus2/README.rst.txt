@@ -13,6 +13,8 @@ libmaus2
    Collection of data structures and algorithms for NGS data.
 
    :homepage: https://gitlab.com/german.tischler/libmaus2
+   :documentation: https://gitlab.com/german.tischler/libmaus2/-/blob/master/README.md
+   
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`libmaus2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libmaus2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libmaus2/meta.yaml>`_
    :links: biotools: :biotools:`libmaus`
@@ -29,10 +31,10 @@ libmaus2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.813-1</code>,  <code>2.0.813-0</code>,  <code>2.0.810-6</code>,  <code>2.0.810-5</code>,  <code>2.0.810-4</code>,  <code>2.0.810-3</code>,  <code>2.0.810-2</code>,  <code>2.0.777-1</code>,  <code>2.0.777-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.813-2</code>,  <code>2.0.813-1</code>,  <code>2.0.813-0</code>,  <code>2.0.810-6</code>,  <code>2.0.810-5</code>,  <code>2.0.810-4</code>,  <code>2.0.810-3</code>,  <code>2.0.810-2</code>,  <code>2.0.777-1</code>,  </span></summary>
       
 
-      ``2.0.813-1``,  ``2.0.813-0``,  ``2.0.810-6``,  ``2.0.810-5``,  ``2.0.810-4``,  ``2.0.810-3``,  ``2.0.810-2``,  ``2.0.777-1``,  ``2.0.777-0``,  ``2.0.774-1``,  ``2.0.774-0``,  ``2.0.772-1``,  ``2.0.772-0``,  ``2.0.760-0``
+      ``2.0.813-2``,  ``2.0.813-1``,  ``2.0.813-0``,  ``2.0.810-6``,  ``2.0.810-5``,  ``2.0.810-4``,  ``2.0.810-3``,  ``2.0.810-2``,  ``2.0.777-1``,  ``2.0.777-0``,  ``2.0.774-1``,  ``2.0.774-0``,  ``2.0.772-1``,  ``2.0.772-0``,  ``2.0.760-0``
 
       
       .. raw:: html
@@ -44,23 +46,23 @@ libmaus2
    :depends on _openmp_mutex: ``>=4.5``
    :depends on boost-cpp: 
    :depends on gmp: ``>=6.3.0,<7.0a0``
-   :depends on libcurl: ``>=8.11.1,<9.0a0``
+   :depends on libcurl: ``>=8.21.0,<9.0a0``
    :depends on libdeflate: ``>=1.22,<1.23.0a0``
-   :depends on libgcc: ``>=13``
+   :depends on libgcc: ``>=14``
    :depends on libgomp: 
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on nettle: ``>=3.9.1,<3.10.0a0``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on nettle: ``>=3.10.1,<3.11.0a0``
    :depends on snappy: ``1.1.8.*``
    :depends on snappy: ``>=1.1.8,<2.0a0``
    :depends on staden_io_lib: ``>=1.14.14``
-   :depends on staden_io_lib: ``>=1.15.0,<1.16.0a0``
+   :depends on staden_io_lib: ``>=1.15.1,<2.0a0``
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -133,7 +135,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "libmaus2";
-      var versions = ["2.0.813","2.0.813","2.0.810","2.0.810","2.0.810"];
+      var versions = ["2.0.813","2.0.813","2.0.813","2.0.810","2.0.810"];
    </script>
 
 .. rubric:: Download stats

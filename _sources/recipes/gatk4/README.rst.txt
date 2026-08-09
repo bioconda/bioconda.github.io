@@ -20,29 +20,21 @@ gatk4
    
 
 
-.. conda:package:: gatk4
+.. conda:package:: gatk4-main
 
-   |downloads_gatk4| |docker_gatk4|
+   |downloads_gatk4-main| |docker_gatk4-main|
 
    :versions:
       
       
-      .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.6.2.0-1</code>,  <code>4.6.2.0-0</code>,  <code>4.6.1.0-0</code>,  <code>4.5.0.0-0</code>,  <code>4.4.0.0-0</code>,  <code>4.3.0.0-0</code>,  <code>4.2.6.1-1</code>,  <code>4.2.6.1-0</code>,  <code>4.2.6.0-0</code>,  </span></summary>
-      
+      ``4.6.2.0-2``
 
-      ``4.6.2.0-1``,  ``4.6.2.0-0``,  ``4.6.1.0-0``,  ``4.5.0.0-0``,  ``4.4.0.0-0``,  ``4.3.0.0-0``,  ``4.2.6.1-1``,  ``4.2.6.1-0``,  ``4.2.6.0-0``,  ``4.2.5.0-0``,  ``4.2.4.1-0``,  ``4.2.4.0-0``,  ``4.2.3.0-1``,  ``4.2.3.0-0``,  ``4.2.2.0-1``,  ``4.2.2.0-0``,  ``4.2.1.0-0``,  ``4.2.0.0-1``,  ``4.2.0.0-0``,  ``4.1.9.0-0``,  ``4.1.8.1-0``,  ``4.1.8.0-0``,  ``4.1.7.0-0``,  ``4.1.6.0-0``,  ``4.1.5.0-1``,  ``4.1.5.0-0``,  ``4.1.4.1-1``,  ``4.1.4.1-0``,  ``4.1.4.0-1``,  ``4.1.4.0-0``,  ``4.1.3.0-0``,  ``4.1.2.0-1``,  ``4.1.2.0-0``,  ``4.1.1.0-0``,  ``4.1.0.0-0``,  ``4.0.12.0-0``,  ``4.0.11.0-0``,  ``4.0.10.0-0``,  ``4.0.9.0-0``,  ``4.0.8.1-0``,  ``4.0.7.0-0``,  ``4.0.6.0-0``,  ``4.0.5.2-0``,  ``4.0.5.1-0``,  ``4.0.4.0-0``,  ``4.0.3.0-1``,  ``4.0.3.0-0``,  ``4.0.2.1-0``,  ``4.0.2.0-0``,  ``4.0.1.2-0``,  ``4.0.1.1-0``,  ``4.0.1.0-0``,  ``4.0.0.0-0``,  ``4.0b6-0``,  ``4.0b5-0``,  ``4.0b4-0``,  ``4.0b3-0``,  ``4.0b2-0``,  ``4.0b1-0``,  ``4.0a1.2.7.2-2``
-
-      
-      .. raw:: html
-
-         </details>
       
 
    
-   :depends on openjdk: ``>=17``
-   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on openjdk: ``17.*``
+   :depends on python: 
 
    :additional platforms:
       
@@ -62,11 +54,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install gatk4
+    pixi global install gatk4-main
 
 to add into an existing workspace instead, run::
 
-    pixi add gatk4
+    pixi add gatk4-main
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -78,11 +70,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install gatk4
+    conda install gatk4-main
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname gatk4
+    conda create -n envname gatk4-main
 
 with ``envname`` being the name of the desired environment.
 
@@ -92,9 +84,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/gatk4:<tag>
+    docker pull quay.io/biocontainers/gatk4-main:<tag>
 
-(see `gatk4/tags`_ for valid values for ``<tag>``).
+(see `gatk4-main/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -105,28 +97,28 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_gatk4| image:: https://img.shields.io/conda/dn/bioconda/gatk4.svg?style=flat
-   :target: https://anaconda.org/bioconda/gatk4
+.. |downloads_gatk4-main| image:: https://img.shields.io/conda/dn/bioconda/gatk4-main.svg?style=flat
+   :target: https://anaconda.org/bioconda/gatk4-main
    :alt:   (downloads)
-.. |docker_gatk4| image:: https://quay.io/repository/biocontainers/gatk4/status
+.. |docker_gatk4-main| image:: https://quay.io/repository/biocontainers/gatk4/status
    :target: https://quay.io/repository/biocontainers/gatk4
-.. _`gatk4/tags`: https://quay.io/repository/biocontainers/gatk4?tab=tags
+.. _`gatk4-main/tags`: https://quay.io/repository/biocontainers/gatk4-main?tab=tags
 
 
 .. raw:: html
 
    <script>
-      var package = "gatk4";
-      var versions = ["4.6.2.0","4.6.2.0","4.6.1.0","4.5.0.0","4.4.0.0"];
+      var package = "gatk4-main";
+      var versions = ["4.6.2.0"];
    </script>
 
 .. rubric:: Download stats
 
 .. raw:: html
     
-   <div style="width: 100%" id="download_plot_gatk4"></div>
-   <div style="width: 100%" id="platform_plot_gatk4"></div>
-   <div style="width: 100%" id="cdf_plot_gatk4"></div>
+   <div style="width: 100%" id="download_plot_gatk4-main"></div>
+   <div style="width: 100%" id="platform_plot_gatk4-main"></div>
+   <div style="width: 100%" id="cdf_plot_gatk4-main"></div>
 
 
 .. conda:package:: gatk4-spark
@@ -138,10 +130,10 @@ Check the documentation of your workflow management system to find out about the
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.6.2.0-1</code>,  <code>4.6.2.0-0</code>,  <code>4.6.1.0-0</code>,  <code>4.5.0.0-0</code>,  <code>4.4.0.0-0</code>,  <code>4.3.0.0-0</code>,  <code>4.2.6.1-1</code>,  <code>4.2.6.1-0</code>,  <code>4.2.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.6.2.0-2</code>,  <code>4.6.2.0-1</code>,  <code>4.6.2.0-0</code>,  <code>4.6.1.0-0</code>,  <code>4.5.0.0-0</code>,  <code>4.4.0.0-0</code>,  <code>4.3.0.0-0</code>,  <code>4.2.6.1-1</code>,  <code>4.2.6.1-0</code>,  </span></summary>
       
 
-      ``4.6.2.0-1``,  ``4.6.2.0-0``,  ``4.6.1.0-0``,  ``4.5.0.0-0``,  ``4.4.0.0-0``,  ``4.3.0.0-0``,  ``4.2.6.1-1``,  ``4.2.6.1-0``,  ``4.2.6.0-0``,  ``4.2.5.0-0``,  ``4.2.4.1-0``,  ``4.2.4.0-0``,  ``4.2.3.0-1``,  ``4.2.3.0-0``,  ``4.2.2.0-1``,  ``4.2.2.0-0``,  ``4.2.1.0-0``,  ``4.2.0.0-1``,  ``4.2.0.0-0``,  ``4.1.9.0-0``,  ``4.1.8.1-0``,  ``4.1.8.0-0``,  ``4.1.7.0-0``,  ``4.1.6.0-0``,  ``4.1.5.0-1``,  ``4.1.5.0-0``,  ``4.1.4.1-1``,  ``4.1.4.1-0``,  ``4.1.4.0-1``,  ``4.1.4.0-0``,  ``4.1.3.0-0``,  ``4.1.2.0-1``
+      ``4.6.2.0-2``,  ``4.6.2.0-1``,  ``4.6.2.0-0``,  ``4.6.1.0-0``,  ``4.5.0.0-0``,  ``4.4.0.0-0``,  ``4.3.0.0-0``,  ``4.2.6.1-1``,  ``4.2.6.1-0``,  ``4.2.6.0-0``,  ``4.2.5.0-0``,  ``4.2.4.1-0``,  ``4.2.4.0-0``,  ``4.2.3.0-1``,  ``4.2.3.0-0``,  ``4.2.2.0-1``,  ``4.2.2.0-0``,  ``4.2.1.0-0``,  ``4.2.0.0-1``,  ``4.2.0.0-0``,  ``4.1.9.0-0``,  ``4.1.8.1-0``,  ``4.1.8.0-0``,  ``4.1.7.0-0``,  ``4.1.6.0-0``,  ``4.1.5.0-1``,  ``4.1.5.0-0``,  ``4.1.4.1-1``,  ``4.1.4.1-0``,  ``4.1.4.0-1``,  ``4.1.4.0-0``,  ``4.1.3.0-0``,  ``4.1.2.0-1``
 
       
       .. raw:: html
@@ -150,8 +142,8 @@ Check the documentation of your workflow management system to find out about the
       
 
    
-   :depends on gatk4: ``4.6.2.0 py310hdfd78af_1``
-   :depends on openjdk: ``>=17``
+   :depends on gatk4-main: ``4.6.2.0 h527b516_2``
+   :depends on openjdk: ``17.*``
    :depends on python: 
 
    :additional platforms:
@@ -227,7 +219,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "gatk4-spark";
-      var versions = ["4.6.2.0","4.6.2.0","4.6.1.0","4.5.0.0","4.4.0.0"];
+      var versions = ["4.6.2.0","4.6.2.0","4.6.2.0","4.6.1.0","4.5.0.0"];
    </script>
 
 .. rubric:: Download stats
@@ -252,7 +244,7 @@ Check the documentation of your workflow management system to find out about the
    <script>
       window.onload = async function() {
          
-            // Build cdf plot for gatk4
+            // Build cdf plot for gatk4-main
             try {
                const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
                if (!cdf_spec_resp.ok) {
@@ -264,7 +256,7 @@ Check the documentation of your workflow management system to find out about the
                    throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
                }
                const cdf_plot_data = await cdf_data_resp.json();
-               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/gatk4/cdf.json`)
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/gatk4-main/cdf.json`)
                if (!point_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
                }
@@ -272,43 +264,43 @@ Check the documentation of your workflow management system to find out about the
     
                cdf_spec.data.values = cdf_plot_data;
                cdf_spec.data.values.push(single_point.pop());
-               vegaEmbed('#cdf_plot_gatk4', cdf_spec);
+               vegaEmbed('#cdf_plot_gatk4-main', cdf_spec);
             } catch (err) {
                console.error("An error occurred while building CDF plot: ", err)
             }
     
-            // Build download plot for gatk4
+            // Build download plot for gatk4-main
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/gatk4/versions.json`)
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/gatk4-main/versions.json`)
                if (!version_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
                }
                const plot_data = await version_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#download_plot_gatk4', spec);
+               vegaEmbed('#download_plot_gatk4-main', spec);
             } catch (err) {
                console.error("An error occurred while building downloads plot: ", err)
             }
    
-            // Build platform download plot for gatk4
+            // Build platform download plot for gatk4-main
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/gatk4/platforms.json`)
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/gatk4-main/platforms.json`)
                if (!platform_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
                }
                const plot_data = await platform_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#platform_plot_gatk4', spec);
+               vegaEmbed('#platform_plot_gatk4-main', spec);
             } catch (err) {
                console.error("An error occurred while building platform downloads plot: ", err)
             }

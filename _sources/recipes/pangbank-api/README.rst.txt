@@ -12,7 +12,7 @@ pangbank-api
 
    API for managing the PanGBank pangenome database\, including a CLI to add pangenomes to the database.
 
-   :homepage: https://github.com/labgem/pangbank-api
+   :homepage: https://github.com/labgem/PanGBank-api
    :license: OTHER / CeCiLL-2.1
    :recipe: /`pangbank-api <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pangbank-api>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pangbank-api/meta.yaml>`_
 
@@ -27,11 +27,12 @@ pangbank-api
       
       
 
-      ``0.3.0-0``,  ``0.1.2-0``
+      ``0.6.0-0``,  ``0.3.0-0``,  ``0.1.2-0``
 
       
 
    
+   :depends on httpx: ``>=0.28.1``
    :depends on packaging: ``>=24``
    :depends on pydantic-settings: ``>=2.12.0``
    :depends on python: ``>=3.10,<3.14``
@@ -112,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pangbank-api";
-      var versions = ["0.3.0","0.1.2"];
+      var versions = ["0.6.0","0.3.0","0.1.2"];
    </script>
 
 .. rubric:: Download stats

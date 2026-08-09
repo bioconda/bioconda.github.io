@@ -10,10 +10,11 @@ ray
    :replaces_section_title:
    :noindex:
 
-   Parallel genome assemblies for parallel DNA sequencing
+   Parallel genome assemblies for parallel DNA sequencing.
 
-   :homepage: http://denovoassembler.sourceforge.net/index.html
-   :license: GPL3
+   :homepage: https://denovoassembler.sourceforge.net/index.html
+   :developer docs: https://github.com/sebhtml/Ray-Releases
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`ray <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ray>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ray/meta.yaml>`_
    :links: biotools: :biotools:`ray`, doi: :doi:`10.1186/gb-2012-13-12-r122`
 
@@ -28,16 +29,23 @@ ray
       
       
 
-      ``2.3.1-7``,  ``2.3.1-6``,  ``2.3.1-5``,  ``2.3.1-4``,  ``2.3.1-3``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``
+      ``2.3.1-8``,  ``2.3.1-7``,  ``2.3.1-6``,  ``2.3.1-5``,  ``2.3.1-4``,  ``2.3.1-3``,  ``2.3.1-2``,  ``2.3.1-1``,  ``2.3.1-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on __osx: ``>=11.0``
+   :depends on bzip2: ``>=1.0.8,<2.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on openmpi: ``>=4.1.6,<5.0a0``
+   :depends on openmpi-mpicxx: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 

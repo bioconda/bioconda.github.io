@@ -12,8 +12,9 @@ recon
 
    The RECON package performs de novo identification and classification of repeat sequence families from genomic sequences.
 
-   :homepage: http://eddylab.org/software/recon
-   :developer docs: https://github.com/Dfam-consortium/RepeatModeler
+   :homepage: https://github.com/Dfam-consortium/RECON
+   :documentation: https://github.com/Dfam-consortium/RECON/blob/1.10/README.md
+   
    :license: GPL2 / GPL-2.0-or-later
    :recipe: /`recon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/recon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/recon/meta.yaml>`_
    :links: doi: :doi:`10.1101/gr.88502`
@@ -30,10 +31,10 @@ recon
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.10-0</code>,  <code>1.08-9</code>,  <code>1.08-7</code>,  <code>1.08-6</code>,  <code>1.08-5</code>,  <code>1.08-4</code>,  <code>1.08-3</code>,  <code>1.08-2</code>,  <code>1.08-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.10-1</code>,  <code>1.10-0</code>,  <code>1.08-9</code>,  <code>1.08-7</code>,  <code>1.08-6</code>,  <code>1.08-5</code>,  <code>1.08-4</code>,  <code>1.08-3</code>,  <code>1.08-2</code>,  </span></summary>
       
 
-      ``1.10-0``,  ``1.08-9``,  ``1.08-7``,  ``1.08-6``,  ``1.08-5``,  ``1.08-4``,  ``1.08-3``,  ``1.08-2``,  ``1.08-1``,  ``1.08-0``
+      ``1.10-1``,  ``1.10-0``,  ``1.08-9``,  ``1.08-7``,  ``1.08-6``,  ``1.08-5``,  ``1.08-4``,  ``1.08-3``,  ``1.08-2``,  ``1.08-1``,  ``1.08-0``
 
       
       .. raw:: html
@@ -42,7 +43,6 @@ recon
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libgcc: ``>=14``
 
    :additional platforms:
@@ -122,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "recon";
-      var versions = ["1.10","1.08","1.08","1.08","1.08"];
+      var versions = ["1.10","1.10","1.08","1.08","1.08"];
    </script>
 
 .. rubric:: Download stats
