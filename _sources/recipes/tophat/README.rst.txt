@@ -42,13 +42,11 @@ tophat
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
    :depends on boost-cpp: 
    :depends on bowtie2: 
-   :depends on libgcc: ``>=13``
-   :depends on libgomp: 
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on llvm-openmp: ``>=18.1.8``
    :depends on ncurses: ``>=6.5,<7.0a0``
    :depends on python: ``>=3``
    :depends on setuptools: 

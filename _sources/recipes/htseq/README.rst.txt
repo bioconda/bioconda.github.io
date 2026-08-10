@@ -43,9 +43,9 @@ htseq
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on anndata: 
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on loompy: 
    :depends on matplotlib-base: 
    :depends on numpy: ``>=1.21,<3``

@@ -13,7 +13,7 @@ python-ferro-hgvs
    Python bindings for ferro\-hgvs — an HGVS variant parser and normalizer
 
    :homepage: https://github.com/fulcrumgenomics/ferro-hgvs
-   :documentation: https://github.com/fulcrumgenomics/ferro-hgvs/blob/v0.13.0/README.md
+   :documentation: https://github.com/fulcrumgenomics/ferro-hgvs/blob/v0.13.1/README.md
    
    :license: MIT / MIT
    :recipe: /`python-ferro-hgvs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-ferro-hgvs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-ferro-hgvs/meta.yaml>`_
@@ -31,13 +31,21 @@ python-ferro-hgvs
    :versions:
       
       
+      .. raw:: html
 
-      ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.7.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.13.1-0</code>,  <code>0.13.0-0</code>,  <code>0.12.0-0</code>,  <code>0.11.0-0</code>,  <code>0.10.1-0</code>,  <code>0.10.0-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.1-0</code>,  </span></summary>
+      
 
+      ``0.13.1-0``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.7.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends on libgcc: ``>=14``
+   :depends on __osx: ``>=10.13``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
 
@@ -118,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "python-ferro-hgvs";
-      var versions = ["0.13.0","0.12.0","0.11.0","0.10.1","0.10.0"];
+      var versions = ["0.13.1","0.13.0","0.12.0","0.11.0","0.10.1"];
    </script>
 
 .. rubric:: Download stats

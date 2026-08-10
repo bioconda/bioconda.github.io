@@ -13,7 +13,7 @@ snakemake-executor-plugin-azure-batch
    A Snakemake executor plugin for submitting jobs to Microsoft Azure Batch.
 
    :homepage: https://github.com/snakemake/snakemake-executor-plugin-azure-batch
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`snakemake-executor-plugin-azure-batch <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-executor-plugin-azure-batch>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-executor-plugin-azure-batch/meta.yaml>`_
 
    
@@ -27,19 +27,20 @@ snakemake-executor-plugin-azure-batch
       
       
 
-      ``0.1.3-0``
+      ``0.3.0-0``,  ``0.1.3-0``
 
       
 
    
-   :depends on azure-batch: ``>=14.0.0,<15.0.0``
-   :depends on azure-identity: ``>=1.14.0,<2.0.0``
+   :depends on azure-batch: ``>=14.2.0,<15.0.0``
+   :depends on azure-identity: ``>=1.17.1,<2.0.0``
    :depends on azure-mgmt-batch: ``>=17.0.0,<18.0.0``
-   :depends on azure-storage-blob: ``>=12.17.0,<13.0.0``
+   :depends on azure-storage-blob: ``>=12.20.0,<13.0.0``
    :depends on msrest: ``>=0.7.1,<0.8.0``
+   :depends on packaging: ``>=24.0,<26.0``
    :depends on python: ``>=3.11.0,<4.0.0``
-   :depends on snakemake-interface-common: ``>=1.15.0,<2.0.0``
-   :depends on snakemake-interface-executor-plugins: ``>=8.1.1,<9.0.0``
+   :depends on snakemake-interface-common: ``>=1.17.2,<2.0.0``
+   :depends on snakemake-interface-executor-plugins: ``>=9.2.0,<10.0.0``
 
    :additional platforms:
       
@@ -114,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "snakemake-executor-plugin-azure-batch";
-      var versions = ["0.1.3"];
+      var versions = ["0.3.0","0.1.3"];
    </script>
 
 .. rubric:: Download stats

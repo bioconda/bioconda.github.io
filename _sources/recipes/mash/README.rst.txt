@@ -43,13 +43,11 @@ mash
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on capnproto: ``>=1.3.0,<1.3.1.0a0``
    :depends on gsl: ``>=2.8,<2.9.0a0``
    :depends on libcblas: ``>=3.9.0,<4.0a0``
-   :depends on libgcc: 
-   :depends on libgcc-ng: ``>=12``
-   :depends on libstdcxx: 
-   :depends on libstdcxx-ng: ``>=12``
+   :depends on libcxx: ``>=16``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:

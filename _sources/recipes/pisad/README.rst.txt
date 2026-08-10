@@ -32,15 +32,13 @@ pisad
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
    :depends on boost-cpp: 
    :depends on dsk: 
    :depends on gperftools: 
    :depends on hdf5: ``>=1.14.3,<1.14.4.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libgomp: 
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on llvm-openmp: ``>=18.1.8``
    :depends on matplotlib-base: 
    :depends on numpy: 
    :depends on pandas: 

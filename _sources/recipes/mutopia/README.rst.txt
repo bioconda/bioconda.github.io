@@ -35,7 +35,7 @@ mutopia
       
       
 
-      ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.4-0``
+      ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.4-0``
 
       
 
@@ -137,7 +137,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mutopia";
-      var versions = ["1.0.8","1.0.7","1.0.6","1.0.4"];
+      var versions = ["1.0.9","1.0.8","1.0.7","1.0.6","1.0.4"];
    </script>
 
 .. rubric:: Download stats

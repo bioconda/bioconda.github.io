@@ -30,10 +30,10 @@ pegasusio
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.10.0-0</code>,  <code>0.9.1-2</code>,  <code>0.9.1-1</code>,  <code>0.9.1-0</code>,  <code>0.9.0-2</code>,  <code>0.9.0-1</code>,  <code>0.9.0-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.11.0-0</code>,  <code>0.10.0-0</code>,  <code>0.9.1-2</code>,  <code>0.9.1-1</code>,  <code>0.9.1-0</code>,  <code>0.9.0-2</code>,  <code>0.9.0-1</code>,  <code>0.9.0-0</code>,  <code>0.8.1-0</code>,  </span></summary>
       
 
-      ``0.10.0-0``,  ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-2``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.1.post1-2``,  ``0.5.1.post1-1``,  ``0.5.1.post1-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0.post1-0``,  ``0.4.0-0``,  ``0.3.1.post2-0``,  ``0.3.1.post1-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.14-0``,  ``0.2.13-0``,  ``0.2.12.post1-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-1``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8.post2-0``
+      ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.1-2``,  ``0.9.1-1``,  ``0.9.1-0``,  ``0.9.0-2``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-2``,  ``0.8.0-1``,  ``0.8.0-0``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.2-0``,  ``0.6.1-0``,  ``0.5.1.post1-2``,  ``0.5.1.post1-1``,  ``0.5.1.post1-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0.post1-0``,  ``0.4.0-0``,  ``0.3.1.post2-0``,  ``0.3.1.post1-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.14-0``,  ``0.2.13-0``,  ``0.2.12.post1-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-1``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8.post2-0``
 
       
       .. raw:: html
@@ -42,19 +42,20 @@ pegasusio
       
 
    
-   :depends on anndata: ``>=0.7``
+   :depends on __osx: ``>=10.13``
+   :depends on anndata: ``>=0.12``
    :depends on docopt: 
    :depends on h5py: ``>=3.0.0``
-   :depends on libgcc: ``>=13``
    :depends on loompy: 
    :depends on natsort: 
-   :depends on numpy: 
+   :depends on numpy: ``>=1.25,<3``
+   :depends on numpy: ``>=2.0.0``
    :depends on pandas: ``>=1.2.0``
    :depends on pillow: 
-   :depends on python: ``>=3.10,<3.11.0a0``
-   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on python: ``>=3.14,<3.15.0a0``
+   :depends on python_abi: ``3.14.* *_cp314``
    :depends on scipy: 
-   :depends on zarr: ``<=2.18.7``
+   :depends on zarr: ``>=3.1,<4``
 
    :additional platforms:
       
@@ -133,7 +134,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pegasusio";
-      var versions = ["0.10.0","0.9.1","0.9.1","0.9.1","0.9.0"];
+      var versions = ["0.11.0","0.10.0","0.9.1","0.9.1","0.9.1"];
    </script>
 
 .. rubric:: Download stats

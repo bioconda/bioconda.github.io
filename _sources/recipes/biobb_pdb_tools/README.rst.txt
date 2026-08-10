@@ -49,10 +49,10 @@ biobb_pdb_tools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.3.0-0</code>,  <code>5.2.1-0</code>,  <code>5.2.0-0</code>,  <code>5.1.1-1</code>,  <code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.1-0</code>,  <code>5.0.0-1</code>,  <code>5.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.3.1-0</code>,  <code>5.3.0-0</code>,  <code>5.2.1-0</code>,  <code>5.2.0-0</code>,  <code>5.1.1-1</code>,  <code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.1-0</code>,  <code>5.0.0-1</code>,  </span></summary>
       
 
-      ``5.3.0-0``,  ``5.2.1-0``,  ``5.2.0-0``,  ``5.1.1-1``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.1-0``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.1.0-0``
+      ``5.3.1-0``,  ``5.3.0-0``,  ``5.2.1-0``,  ``5.2.0-0``,  ``5.1.1-1``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.1-0``,  ``5.0.0-1``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.1.0-0``
 
       
       .. raw:: html
@@ -138,7 +138,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "biobb_pdb_tools";
-      var versions = ["5.3.0","5.2.1","5.2.0","5.1.1","5.1.1"];
+      var versions = ["5.3.1","5.3.0","5.2.1","5.2.0","5.1.1"];
    </script>
 
 .. rubric:: Download stats

@@ -26,9 +26,17 @@ pgap2
    :versions:
       
       
+      .. raw:: html
 
-      ``2.3-0``,  ``2.2-0``,  ``2.0-0``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.3-0``
+         <details><summary><span class="truncated-version-list"><code>2.4.1-0</code>,  <code>2.3-0</code>,  <code>2.2-0</code>,  <code>2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.9-0</code>,  <code>1.0.8-0</code>,  <code>1.0.6-0</code>,  <code>1.0.4-0</code>,  </span></summary>
+      
 
+      ``2.4.1-0``,  ``2.3-0``,  ``2.2-0``,  ``2.0-0``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.8-0``,  ``1.0.6-0``,  ``1.0.4-0``,  ``1.0.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -148,7 +156,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pgap2";
-      var versions = ["2.3","2.2","2.0","1.1.0","1.0.9"];
+      var versions = ["2.4.1","2.3","2.2","2.0","1.1.0"];
    </script>
 
 .. rubric:: Download stats

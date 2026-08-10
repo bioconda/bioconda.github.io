@@ -30,19 +30,17 @@ nerpa
       
       
 
-      ``2.1.0-0``,  ``1.0.0-7``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``2.1.0-1``,  ``2.1.0-0``,  ``1.0.0-7``,  ``1.0.0-5``,  ``1.0.0-4``,  ``1.0.0-3``,  ``1.0.0-2``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
    :depends on biopython: 
    :depends on bs4: 
    :depends on cairosvg: 
    :depends on dacite: 
-   :depends on libgcc: ``>=14``
-   :depends on libgomp: 
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on more-itertools: 
    :depends on networkx: 
    :depends on openjdk: 
@@ -57,7 +55,7 @@ nerpa
    :depends on pyyaml: 
    :depends on rdkit: 
    :depends on requests: 
-   :depends on scikit-learn: ``>=1.2.0``
+   :depends on scikit-learn: ``1.2.0``
 
    :additional platforms:
       
@@ -136,7 +134,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "nerpa";
-      var versions = ["2.1.0","1.0.0","1.0.0","1.0.0","1.0.0"];
+      var versions = ["2.1.0","2.1.0","1.0.0","1.0.0","1.0.0"];
    </script>
 
 .. rubric:: Download stats

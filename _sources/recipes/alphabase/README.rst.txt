@@ -10,10 +10,10 @@ alphabase
    :replaces_section_title:
    :noindex:
 
-   An infrastructure Python package of the AlphaX ecosystem
+   An infrastructure Python package of the AlphaX ecosystem.
 
    :homepage: https://github.com/MannLabs/alphabase
-   :documentation: https://alphabase.readthedocs.io/en/latest/
+   :documentation: https://alphabase.readthedocs.io/en/latest
    
    :license: APACHE / Apache-2.0
    :recipe: /`alphabase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alphabase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alphabase/meta.yaml>`_
@@ -31,12 +31,13 @@ alphabase
       
       
 
-      ``1.9.0-0``,  ``1.8.1-0``
+      ``1.9.1-0``,  ``1.9.0-0``,  ``1.8.1-0``
 
       
 
    
    :depends on biopython: 
+   :depends on certifi: 
    :depends on contextlib2: 
    :depends on h5py: 
    :depends on lxml: 
@@ -126,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "alphabase";
-      var versions = ["1.9.0","1.8.1"];
+      var versions = ["1.9.1","1.9.0","1.8.1"];
    </script>
 
 .. rubric:: Download stats

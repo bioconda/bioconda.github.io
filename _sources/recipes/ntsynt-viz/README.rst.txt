@@ -27,20 +27,23 @@ ntsynt-viz
       
       
 
-      ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.1.0-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
 
    
    :depends on bioconductor-ggtree: 
    :depends on bioconductor-treeio: 
+   :depends on biopython: 
    :depends on intervaltree: 
+   :depends on perl: 
    :depends on python: ``>=3.8``
    :depends on quicktree: 
    :depends on r-argparse: 
    :depends on r-base: 
    :depends on r-dplyr: 
    :depends on r-gggenomes: ``>=1.1.0``
+   :depends on r-ggiraph: 
    :depends on r-ggpubr: 
    :depends on r-phytools: 
    :depends on r-scales: 
@@ -122,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ntsynt-viz";
-      var versions = ["1.0.7","1.0.6","1.0.5","1.0.4","1.0.3"];
+      var versions = ["1.1.0","1.0.7","1.0.6","1.0.5","1.0.4"];
    </script>
 
 .. rubric:: Download stats

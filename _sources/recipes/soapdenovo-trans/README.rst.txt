@@ -43,7 +43,6 @@ soapdenovo-trans
       
 
    
-   :depends on libgcc: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on samtools: ``>=0.1.19,<0.2.0a0``
 

@@ -12,10 +12,10 @@ panorama
 
    A robust pangenome\-based method for predicting and comparing biological systems across species.
 
-   :homepage: https://github.com/labgem/panorama
+   :homepage: https://github.com/labgem/PANORAMA
    :documentation: https://panorama.readthedocs.io
    
-   :license: CeCiLL 2.1
+   :license: CeCiLL-2.1
    :recipe: /`panorama <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panorama>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panorama/meta.yaml>`_
 
    
@@ -29,7 +29,7 @@ panorama
       
       
 
-      ``1.0.0-0``,  ``0.5.0-0``
+      ``1.0.4-0``,  ``1.0.0-0``,  ``0.5.0-0``
 
       
 
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "panorama";
-      var versions = ["1.0.0","0.5.0"];
+      var versions = ["1.0.4","1.0.0","0.5.0"];
    </script>
 
 .. rubric:: Download stats
