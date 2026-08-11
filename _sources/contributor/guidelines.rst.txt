@@ -19,7 +19,7 @@ bioconda recipe checklist
 - If the recipe installs custom wrapper scripts, usage notes should be added to
   ``extra -> notes`` in the ``meta.yaml``.
 - **Update 21 Jan 2019**:  Recipes that contain pure Python packages should be marked as a `"noarch"
-  <https://www.continuum.io/blog/developer-blog/condas-new-noarch-packages>`_
+  <https://www.anaconda.com/blog/condas-new-noarch-packages>`_
   (:ref:`details <noarch>`).
 - **Update 7 Mar 2018**: When patching a recipe, please provide details on how
   you tried to address the problem upstream (:ref:`details <patching>`)
