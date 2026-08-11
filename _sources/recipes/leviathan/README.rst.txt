@@ -32,7 +32,8 @@ leviathan
       
 
    
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on lrez: ``>=2.2.4,<2.3.0a0``
 
    :additional platforms:

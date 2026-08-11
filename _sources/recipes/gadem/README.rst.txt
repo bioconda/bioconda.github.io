@@ -33,7 +33,7 @@ gadem
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on libgcc: ``>=14``
 
    :additional platforms:
       

@@ -43,14 +43,15 @@ proteinortho
       
 
    
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on diamond: ``>=0.9.29``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=18``
-   :depends on libgfortran: ``5.*``
+   :depends on libgcc: ``>=13``
+   :depends on libgfortran: 
    :depends on libgfortran5: ``>=13.3.0``
-   :depends on libgfortran5: ``>=14.2.0``
+   :depends on libgomp: 
    :depends on liblapacke: ``>=3.9.0,<4.0a0``
-   :depends on llvm-openmp: ``>=18.1.8``
+   :depends on libstdcxx: ``>=13``
    :depends on perl: 
    :depends on python: 
 

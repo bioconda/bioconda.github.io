@@ -40,7 +40,7 @@ pyrle
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on libgcc: ``>=14``
    :depends on natsort: 
    :depends on numpy: 
    :depends on pandas: 

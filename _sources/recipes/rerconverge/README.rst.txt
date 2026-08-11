@@ -32,6 +32,7 @@ rerconverge
       
 
    
+   :depends on libgcc: ``>=13``
    :depends on r-base: ``>=4.4,<4.5.0a0``
    :depends on r-devtools: 
    :depends on r-geiger: 

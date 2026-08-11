@@ -12,8 +12,8 @@ pangbank-cli
 
    Command\-line tool for retrieving pangenomes using the PanGBank API.
 
-   :homepage: https://github.com/labgem/pangbank-cli
-   :license: CECILL-2.1
+   :homepage: https://github.com/labgem/PanGBank-cli
+   :license: CeCiLL-2.1
    :recipe: /`pangbank-cli <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pangbank-cli>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pangbank-cli/meta.yaml>`_
 
    
@@ -27,14 +27,15 @@ pangbank-cli
       
       
 
-      ``0.2.0-0``,  ``0.1.1-0``
+      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-0``
 
       
 
    
+   :depends on httpx: ``>=0.28.1``
    :depends on mash: ``>=2.3,<3.0.0``
    :depends on pandas: ``>=2.0.0,<3.0.0``
-   :depends on pangbank-api: ``>=0.3.0``
+   :depends on pangbank-api: ``>=0.6.0``
    :depends on pydantic: ``>=2.10.0,<3.0.0``
    :depends on python: ``>=3.10,<3.14``
    :depends on requests: ``>=2.32.3``
@@ -114,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pangbank-cli";
-      var versions = ["0.2.0","0.1.1"];
+      var versions = ["0.3.0","0.2.0","0.1.1"];
    </script>
 
 .. rubric:: Download stats

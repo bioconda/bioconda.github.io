@@ -48,10 +48,10 @@ trash-py
       
 
    
-   :depends on __osx: ``>=10.13``
    :depends on biopython: ``>=1.83``
    :depends on clustalo: 
    :depends on hmmer: 
+   :depends on libgcc: ``>=14``
    :depends on mafft: 
    :depends on matplotlib-base: ``>=3.5``
    :depends on numpy: ``>=1.26``

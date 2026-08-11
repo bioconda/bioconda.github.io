@@ -28,10 +28,10 @@ rmats
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.3.0-5</code>,  <code>4.3.0-4</code>,  <code>4.3.0-3</code>,  <code>4.3.0-2</code>,  <code>4.3.0-1</code>,  <code>4.3.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.2-5</code>,  <code>4.1.2-4</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.4.0-0</code>,  <code>4.3.0-5</code>,  <code>4.3.0-4</code>,  <code>4.3.0-3</code>,  <code>4.3.0-2</code>,  <code>4.3.0-1</code>,  <code>4.3.0-0</code>,  <code>4.2.0-0</code>,  <code>4.1.2-5</code>,  </span></summary>
       
 
-      ``4.3.0-5``,  ``4.3.0-4``,  ``4.3.0-3``,  ``4.3.0-2``,  ``4.3.0-1``,  ``4.3.0-0``,  ``4.2.0-0``,  ``4.1.2-5``,  ``4.1.2-4``,  ``4.1.2-3``,  ``4.1.2-2``,  ``4.1.2-1``,  ``4.1.2-0``,  ``4.1.1-1``,  ``4.1.1-0``,  ``4.1.0-4``,  ``4.1.0-3``,  ``4.1.0-2``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.2-4``,  ``4.0.2-3``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.2-0``,  ``3.2.5-2``,  ``3.2.5-1``,  ``3.2.5-0``,  ``3.2.2beta-0``
+      ``4.4.0-0``,  ``4.3.0-5``,  ``4.3.0-4``,  ``4.3.0-3``,  ``4.3.0-2``,  ``4.3.0-1``,  ``4.3.0-0``,  ``4.2.0-0``,  ``4.1.2-5``,  ``4.1.2-4``,  ``4.1.2-3``,  ``4.1.2-2``,  ``4.1.2-1``,  ``4.1.2-0``,  ``4.1.1-1``,  ``4.1.1-0``,  ``4.1.0-4``,  ``4.1.0-3``,  ``4.1.0-2``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.2-4``,  ``4.0.2-3``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.2-0``,  ``3.2.5-2``,  ``3.2.5-1``,  ``3.2.5-0``,  ``3.2.2beta-0``
 
       
       .. raw:: html
@@ -40,14 +40,16 @@ rmats
       
 
    
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on gsl: ``>=2.7,<2.8.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=18``
-   :depends on libgfortran: ``5.*``
-   :depends on libgfortran5: ``>=13.2.0``
+   :depends on libgcc: ``>=14``
+   :depends on libgfortran: 
+   :depends on libgfortran5: ``>=14.4.0``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on numpy: ``>=1.22.4,<2.0a0``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on numpy: ``>=1.21,<3``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on star: ``>=2.5``
@@ -130,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "rmats";
-      var versions = ["4.3.0","4.3.0","4.3.0","4.3.0","4.3.0"];
+      var versions = ["4.4.0","4.3.0","4.3.0","4.3.0","4.3.0"];
    </script>
 
 .. rubric:: Download stats

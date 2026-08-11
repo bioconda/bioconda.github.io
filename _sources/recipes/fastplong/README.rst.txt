@@ -13,7 +13,7 @@ fastplong
    Ultra\-fast preprocessing and quality control for long\-read sequencing data.
 
    :homepage: https://github.com/OpenGene/fastplong
-   :documentation: https://github.com/OpenGene/fastplong/blob/v0.4.1/README.md
+   :documentation: https://github.com/OpenGene/fastplong/blob/v0.6.0/README.md
    
    :license: MIT / MIT
    :recipe: /`fastplong <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastplong>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastplong/meta.yaml>`_
@@ -30,15 +30,16 @@ fastplong
       
       
 
-      ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
 
    
-   :depends on isa-l: ``>=2.31.1,<3.0a0``
-   :depends on libcxx: ``>=18``
-   :depends on libdeflate: ``>=1.22,<1.23.0a0``
-   :depends on libhwy: ``>=1.1.0,<1.2.0a0``
+   :depends on isa-l: ``>=2.32.1,<3.0a0``
+   :depends on libdeflate: ``>=1.25,<1.26.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libhwy: ``>=1.3.0,<1.4.0a0``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
       
@@ -117,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "fastplong";
-      var versions = ["0.4.1","0.4.0","0.3.0","0.2.2","0.2.1"];
+      var versions = ["0.6.0","0.5.0","0.4.1","0.4.0","0.3.0"];
    </script>
 
 .. rubric:: Download stats

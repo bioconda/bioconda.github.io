@@ -43,14 +43,14 @@ r-alakazam
       
 
    
-   :depends on __osx: ``>=10.13``
    :depends on bioconductor-biostrings: ``>=2.56.0``
    :depends on bioconductor-biostrings: ``>=2.78.0,<2.79.0a0``
    :depends on bioconductor-genomicalignments: ``>=1.24.0``
    :depends on bioconductor-genomicalignments: ``>=1.46.0,<1.47.0a0``
    :depends on bioconductor-iranges: ``>=2.22.2``
    :depends on bioconductor-iranges: ``>=2.44.0,<2.45.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on r-airr: ``>=1.3``
    :depends on r-ape: 
    :depends on r-base: ``>=4.5,<4.6.0a0``

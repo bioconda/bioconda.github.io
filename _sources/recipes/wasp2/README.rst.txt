@@ -39,16 +39,17 @@ wasp2
       
 
    
-   :depends on __osx: ``>=10.13``
    :depends on anndata: ``>=0.8.0,<0.12.0``
    :depends on bcftools: 
    :depends on bedtools: 
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on libcurl: ``>=8.21.0,<9.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on numpy: ``>=1.21.0``
+   :depends on openssl: ``>=3.5.7,<4.0a0``
    :depends on pandas: ``>=1.5.0,<3.0.0``
    :depends on polars: ``>=0.19.0``
    :depends on pybedtools: ``>=0.9.0``

@@ -27,7 +27,7 @@ hifi_trimmer
       
       
 
-      ``4.0.0-0``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.2.3-0``,  ``1.2.2-0``
+      ``5.0.0-0``,  ``4.0.0-0``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.2.3-0``,  ``1.2.2-0``
 
       
 
@@ -36,7 +36,8 @@ hifi_trimmer
    :depends on loguru: ``>=0.7.3``
    :depends on polars: ``<=1.22.0``
    :depends on py-bgzip: ``>=0.5.1``
-   :depends on pysam: ``>=0.23.0``
+   :depends on pyfastx: ``>=2.3.1``
+   :depends on pysam: ``>=0.24.0``
    :depends on python: ``>=3.10``
    :depends on pyyaml: ``>=6.0.2``
 
@@ -113,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "hifi_trimmer";
-      var versions = ["4.0.0","3.1.0","3.0.0","2.2.0","2.1.0"];
+      var versions = ["5.0.0","4.0.0","3.1.0","3.0.0","2.2.0"];
    </script>
 
 .. rubric:: Download stats

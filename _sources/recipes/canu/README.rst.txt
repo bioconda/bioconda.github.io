@@ -43,17 +43,19 @@ canu
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on boost-cpp: 
    :depends on gnuplot: ``>=5.2``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
-   :depends on llvm-openmp: ``>=19.1.7``
    :depends on minimap2: 
    :depends on openjdk: 
    :depends on perl: 
    :depends on perl-filesys-df: 
    :depends on samtools: 
+   :depends on xorg-libxfixes: ``>=6.0.2,<7.0a0``
 
    :additional platforms:
       

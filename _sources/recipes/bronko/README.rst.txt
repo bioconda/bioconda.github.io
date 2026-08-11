@@ -34,7 +34,6 @@ bronko
       
 
    
-   :depends on __osx: ``>=10.13``
    :depends on kmc: ``>=3.2``
 
    :additional platforms:
