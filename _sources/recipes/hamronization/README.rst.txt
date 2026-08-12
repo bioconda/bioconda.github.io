@@ -27,13 +27,13 @@ hamronization
       
       
 
-      ``1.2.1-0``,  ``1.1.9-1``,  ``1.1.9-0``,  ``1.1.4-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``
+      ``1.3.1-0``,  ``1.2.1-0``,  ``1.1.9-1``,  ``1.1.9-0``,  ``1.1.4-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``
 
       
 
    
    :depends on pandas: 
-   :depends on python: ``>=3.7,<3.14``
+   :depends on python: ``>=3.7``
 
    :additional platforms:
       
@@ -108,7 +108,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "hamronization";
-      var versions = ["1.2.1","1.1.9","1.1.9","1.1.4","1.1.1"];
+      var versions = ["1.3.1","1.2.1","1.1.9","1.1.9","1.1.4"];
    </script>
 
 .. rubric:: Download stats

@@ -32,8 +32,7 @@ covar
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on openssl: ``>=3.6.0,<4.0a0``
 
    :additional platforms:

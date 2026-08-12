@@ -27,7 +27,7 @@ itbins
       
       
 
-      ``0.8.4-0``
+      ``0.11.0-0``,  ``0.8.4-0``
 
       
 
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "itbins";
-      var versions = ["0.8.4"];
+      var versions = ["0.11.0","0.8.4"];
    </script>
 
 .. rubric:: Download stats
