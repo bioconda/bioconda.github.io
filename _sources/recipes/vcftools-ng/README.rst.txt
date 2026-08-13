@@ -13,7 +13,7 @@ vcftools-ng
    High\-performance\, output\-compatible successor to VCFtools 0.1.17
 
    :homepage: https://github.com/VensinMa/vcftools-ng
-   :documentation: https://github.com/VensinMa/vcftools-ng/blob/v0.13.0/README.md
+   :documentation: https://github.com/VensinMa/vcftools-ng/blob/v0.14.3/README.md
    
    :license: LGPL / LGPL-3.0-only
    :recipe: /`vcftools-ng <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcftools-ng>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcftools-ng/meta.yaml>`_
@@ -34,7 +34,7 @@ vcftools-ng
       
       
 
-      ``0.13.0-0``
+      ``0.14.3-0``,  ``0.13.0-0``
 
       
 
@@ -121,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "vcftools-ng";
-      var versions = ["0.13.0"];
+      var versions = ["0.14.3","0.13.0"];
    </script>
 
 .. rubric:: Download stats

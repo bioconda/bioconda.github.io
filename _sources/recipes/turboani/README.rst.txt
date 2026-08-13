@@ -34,13 +34,15 @@ turboani
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on fontconfig: ``>=2.18.2,<3.0a0``
    :depends on fonts-conda-ecosystem: 
    :depends on freetype: 
-   :depends on libcxx: ``>=19``
+   :depends on libexpat: ``>=2.8.1,<3.0a0``
    :depends on libfreetype: ``>=2.14.3``
    :depends on libfreetype6: ``>=2.14.3``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
       

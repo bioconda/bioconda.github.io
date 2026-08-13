@@ -31,10 +31,10 @@ r-recetox-aplcms
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.14.2-0</code>,  <code>0.14.1-0</code>,  <code>0.14.0-0</code>,  <code>0.13.4-0</code>,  <code>0.13.3-0</code>,  <code>0.13.2-0</code>,  <code>0.13.0-0</code>,  <code>0.12.0-1</code>,  <code>0.12.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.15.0-0</code>,  <code>0.14.2-0</code>,  <code>0.14.1-0</code>,  <code>0.14.0-0</code>,  <code>0.13.4-0</code>,  <code>0.13.3-0</code>,  <code>0.13.2-0</code>,  <code>0.13.0-0</code>,  <code>0.12.0-1</code>,  </span></summary>
       
 
-      ``0.14.2-0``,  ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.4-0``,  ``0.13.3-0``,  ``0.13.2-0``,  ``0.13.0-0``,  ``0.12.0-1``,  ``0.12.0-0``,  ``0.11.0-1``,  ``0.11.0-0``,  ``0.10.3-2``,  ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-1``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.4-1``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0-0``
+      ``0.15.0-0``,  ``0.14.2-0``,  ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.4-0``,  ``0.13.3-0``,  ``0.13.2-0``,  ``0.13.0-0``,  ``0.12.0-1``,  ``0.12.0-0``,  ``0.11.0-1``,  ``0.11.0-0``,  ``0.10.3-2``,  ``0.10.3-0``,  ``0.10.2-0``,  ``0.10.1-1``,  ``0.10.1-0``,  ``0.10.0-0``,  ``0.9.4-1``,  ``0.9.4-0``,  ``0.9.3-0``,  ``0.9.2-0``,  ``0-0``
 
       
       .. raw:: html
@@ -46,7 +46,7 @@ r-recetox-aplcms
    :depends on bioconductor-mzr: 
    :depends on bioconductor-rawrr: 
    :depends on r-arrow: 
-   :depends on r-base: ``>=4.3,<4.4.0a0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-doparallel: 
    :depends on r-dplyr: 
    :depends on r-foreach: 
@@ -54,13 +54,16 @@ r-recetox-aplcms
    :depends on r-iterators: 
    :depends on r-mass: 
    :depends on r-plyr: 
+   :depends on r-purrr: 
    :depends on r-rcpp: 
+   :depends on r-rgl: 
    :depends on r-snow: 
    :depends on r-splines2: 
    :depends on r-stringi: 
    :depends on r-stringr: 
    :depends on r-tibble: 
    :depends on r-tidyr: 
+   :depends on r-xml2: 
 
    :additional platforms:
       
@@ -135,7 +138,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-recetox-aplcms";
-      var versions = ["0.14.2","0.14.1","0.14.0","0.13.4","0.13.3"];
+      var versions = ["0.15.0","0.14.2","0.14.1","0.14.0","0.13.4"];
    </script>
 
 .. rubric:: Download stats

@@ -34,6 +34,7 @@ fgumi
       
 
    
+   :depends on libgcc: ``>=14``
    :depends on r-base: 
    :depends on r-ggplot2: 
    :depends on r-scales: 

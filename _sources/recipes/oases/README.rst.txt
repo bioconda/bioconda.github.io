@@ -35,7 +35,9 @@ oases
       
 
    
-   :depends on llvm-openmp: ``>=19.1.7``
+   :depends on _openmp_mutex: ``>=4.5``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
    :depends on velvet: 
 
    :additional platforms:

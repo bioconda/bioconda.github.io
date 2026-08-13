@@ -34,7 +34,8 @@ sharg
       
 
    
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on yaml-cpp: ``>=0.8.0,<0.9.0a0``
 
    :additional platforms:

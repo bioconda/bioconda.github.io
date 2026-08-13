@@ -13,7 +13,7 @@ pairassembler
    Fast and resource\-frugal paired\-end sequencing read merger.
 
    :homepage: https://github.com/nrminor/pairassembler
-   :documentation: https://github.com/nrminor/pairassembler/blob/v0.1.3/README.md
+   :documentation: https://github.com/nrminor/pairassembler/blob/v0.1.4/README.md
    
    :license: MIT / MIT
    :recipe: /`pairassembler <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pairassembler>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pairassembler/meta.yaml>`_
@@ -33,12 +33,13 @@ pairassembler
       
       
 
-      ``0.1.3-0``
+      ``0.1.4-0``,  ``0.1.3-0``
 
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on libgcc: ``>=14``
 
    :additional platforms:
       
@@ -117,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pairassembler";
-      var versions = ["0.1.3"];
+      var versions = ["0.1.4","0.1.3"];
    </script>
 
 .. rubric:: Download stats
