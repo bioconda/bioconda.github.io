@@ -28,7 +28,7 @@ oxbreaker
       
       
 
-      ``1.1-0``,  ``1.0.1-0``,  ``1.0-0``
+      ``1.2-0``,  ``1.1-0``,  ``1.0.1-0``,  ``1.0-0``
 
       
 
@@ -38,6 +38,7 @@ oxbreaker
    :depends on gobject-introspection: 
    :depends on gtk4: 
    :depends on harfbuzz: 
+   :depends on mamba: 
    :depends on nextflow: ``25.*``
    :depends on pango: 
    :depends on pygobject: 
@@ -116,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "oxbreaker";
-      var versions = ["1.1","1.0.1","1.0"];
+      var versions = ["1.2","1.1","1.0.1","1.0"];
    </script>
 
 .. rubric:: Download stats

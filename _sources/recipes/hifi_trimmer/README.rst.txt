@@ -26,9 +26,17 @@ hifi_trimmer
    :versions:
       
       
+      .. raw:: html
 
-      ``5.0.0-0``,  ``4.0.0-0``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.2.3-0``,  ``1.2.2-0``
+         <details><summary><span class="truncated-version-list"><code>5.0.1-0</code>,  <code>5.0.0-0</code>,  <code>4.0.0-0</code>,  <code>3.1.0-0</code>,  <code>3.0.0-0</code>,  <code>2.2.0-0</code>,  <code>2.1.0-0</code>,  <code>2.0.0-0</code>,  <code>1.2.3-0</code>,  </span></summary>
+      
 
+      ``5.0.1-0``,  ``5.0.0-0``,  ``4.0.0-0``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.2.3-0``,  ``1.2.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -114,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "hifi_trimmer";
-      var versions = ["5.0.0","4.0.0","3.1.0","3.0.0","2.2.0"];
+      var versions = ["5.0.1","5.0.0","4.0.0","3.1.0","3.0.0"];
    </script>
 
 .. rubric:: Download stats

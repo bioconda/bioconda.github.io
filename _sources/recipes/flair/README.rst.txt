@@ -31,10 +31,10 @@ flair
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>3.0.0b1-0</code>,  <code>2.2.0-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.7.0-1</code>,  <code>1.7.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.1-0</code>,  <code>3.0.0-0</code>,  <code>3.0.0b1-0</code>,  <code>2.2.0-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.7.0-1</code>,  </span></summary>
       
 
-      ``3.0.0-0``,  ``3.0.0b1-0``,  ``2.2.0-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.5-4``,  ``1.5-3``,  ``1.4-0``
+      ``3.0.1-0``,  ``3.0.0-0``,  ``3.0.0b1-0``,  ``2.2.0-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.7.0-1``,  ``1.7.0-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.5-4``,  ``1.5-3``,  ``1.4-0``
 
       
       .. raw:: html
@@ -50,12 +50,11 @@ flair
    :depends on ncls: ``>=0.0.70,<0.1.0``
    :depends on numpy: ``>=2.2,<3.0``
    :depends on pipettor: ``>=1.1.0,<2.0.0``
-   :depends on pybedtools: ``>=0.11.0,<0.12.0``
    :depends on pysam: ``>=0.23.0,<0.24.0``
-   :depends on python: ``>=3.12,<3.13``
+   :depends on python: ``>=3.12,<3.15``
    :depends on samtools: ``>=1.21``
    :depends on scipy: ``>=1.15.1,<2.0.0``
-   :depends on setuptools: ``>=75.8.0,<76.0.0``
+   :depends on setuptools: ``>=80.2.0,<81.0.0``
 
    :additional platforms:
       
@@ -130,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "flair";
-      var versions = ["3.0.0","3.0.0b1","2.2.0","2.1.2","2.1.1"];
+      var versions = ["3.0.1","3.0.0","3.0.0b1","2.2.0","2.1.2"];
    </script>
 
 .. rubric:: Download stats

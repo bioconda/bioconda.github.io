@@ -13,8 +13,11 @@ foldtree
    Foldtree creates phylogenetic trees from protein structures using Foldseek.
 
    :homepage: https://github.com/DessimozLab/fold_tree
+   :documentation: https://github.com/DessimozLab/fold_tree/blob/v1.1.1/README.md
+   
    :license: MIT / MIT
    :recipe: /`foldtree <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/foldtree>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/foldtree/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41594-025-01649-8`
 
    
 
@@ -27,7 +30,7 @@ foldtree
       
       
 
-      ``1.1.1rc1-1``,  ``1.1.1rc1-0``,  ``1.1.0-0``,  ``1.1.0rc2-1``,  ``1.1.0rc2-0``
+      ``1.1.1-0``,  ``1.1.1rc1-1``,  ``1.1.1rc1-0``,  ``1.1.0-0``,  ``1.1.0rc2-1``,  ``1.1.0rc2-0``
 
       
 
@@ -37,7 +40,7 @@ foldtree
    :depends on foldseek: 
    :depends on numpy: 
    :depends on pandas: 
-   :depends on python: 
+   :depends on python: ``>=3.7``
    :depends on python-wget: 
    :depends on quicktree: 
    :depends on requests: 
@@ -119,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "foldtree";
-      var versions = ["1.1.1rc1","1.1.1rc1","1.1.0","1.1.0rc2","1.1.0rc2"];
+      var versions = ["1.1.1","1.1.1rc1","1.1.1rc1","1.1.0","1.1.0rc2"];
    </script>
 
 .. rubric:: Download stats

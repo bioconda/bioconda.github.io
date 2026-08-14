@@ -28,10 +28,10 @@ treekin
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.1-4</code>,  <code>0.5.1-3</code>,  <code>0.5.1-2</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.4.2-2</code>,  <code>0.4.2-1</code>,  <code>0.4.2-0</code>,  <code>0.3.1-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.1-6</code>,  <code>0.5.1-4</code>,  <code>0.5.1-3</code>,  <code>0.5.1-2</code>,  <code>0.5.1-1</code>,  <code>0.5.1-0</code>,  <code>0.4.2-2</code>,  <code>0.4.2-1</code>,  <code>0.4.2-0</code>,  </span></summary>
       
 
-      ``0.5.1-4``,  ``0.5.1-3``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.2-2``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``
+      ``0.5.1-6``,  ``0.5.1-4``,  ``0.5.1-3``,  ``0.5.1-2``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.4.2-2``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``
 
       
       .. raw:: html
@@ -40,11 +40,13 @@ treekin
       
 
    
-   :depends on lapack: ``<3.9``
-   :depends on libgcc-ng: ``>=12``
-   :depends on libgfortran-ng: 
-   :depends on libgfortran5: ``>=12.2.0``
-   :depends on libstdcxx-ng: ``>=12``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libgfortran: 
+   :depends on libgfortran5: ``>=14.4.0``
+   :depends on liblapack: ``>=3.9.0,<4.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on mlapack: 
 
    :additional platforms:

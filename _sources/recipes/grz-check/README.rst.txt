@@ -13,7 +13,7 @@ grz-check
    Validates Modellvorhaben §64e submission files for Genomrechenzentren \(GRZ\).
 
    :homepage: https://github.com/BfArM-MVH/grz-tools/tree/main/packages/grz-check
-   :documentation: https://github.com/BfArM-MVH/grz-tools/blob/grz-check-v0.3.1/packages/grz-check/README.md
+   :documentation: https://github.com/BfArM-MVH/grz-tools/blob/grz-check-v0.4.0/packages/grz-check/README.md
    
    :license: MIT / MIT
    :recipe: /`grz-check <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grz-check>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grz-check/meta.yaml>`_
@@ -29,7 +29,7 @@ grz-check
       
       
 
-      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -38,7 +38,7 @@ grz-check
    :depends on libgcc: ``>=14``
    :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
-   :depends on openssl: ``>=3.5.6,<4.0a0``
+   :depends on openssl: ``>=3.5.7,<4.0a0``
 
    :additional platforms:
       
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "grz-check";
-      var versions = ["0.3.1","0.3.0","0.2.1","0.2.0","0.1.0"];
+      var versions = ["0.4.0","0.3.1","0.3.0","0.2.1","0.2.0"];
    </script>
 
 .. rubric:: Download stats

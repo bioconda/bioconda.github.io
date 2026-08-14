@@ -28,9 +28,17 @@ dark-matter
    :versions:
       
       
+      .. raw:: html
 
-      ``7.2.7-0``,  ``7.2.5-0``,  ``7.2.4-0``,  ``7.2.3-0``,  ``7.2.0-0``,  ``7.1.20-0``,  ``7.1.19-0``,  ``7.1.18-0``,  ``5.1.2-0``
+         <details><summary><span class="truncated-version-list"><code>7.2.8-0</code>,  <code>7.2.7-0</code>,  <code>7.2.5-0</code>,  <code>7.2.4-0</code>,  <code>7.2.3-0</code>,  <code>7.2.0-0</code>,  <code>7.1.20-0</code>,  <code>7.1.19-0</code>,  <code>7.1.18-0</code>,  </span></summary>
+      
 
+      ``7.2.8-0``,  ``7.2.7-0``,  ``7.2.5-0``,  ``7.2.4-0``,  ``7.2.3-0``,  ``7.2.0-0``,  ``7.1.20-0``,  ``7.1.19-0``,  ``7.1.18-0``,  ``5.1.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -140,7 +148,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "dark-matter";
-      var versions = ["7.2.7","7.2.5","7.2.4","7.2.3","7.2.0"];
+      var versions = ["7.2.8","7.2.7","7.2.5","7.2.4","7.2.3"];
    </script>
 
 .. rubric:: Download stats

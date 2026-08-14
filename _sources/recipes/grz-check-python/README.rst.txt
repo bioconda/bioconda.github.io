@@ -13,7 +13,7 @@ grz-check-python
    Python bindings for grz\-check\, validator for Modellvorhaben §64e submissions.
 
    :homepage: https://github.com/BfArM-MVH/grz-tools/tree/main/packages/grz-check
-   :documentation: https://github.com/BfArM-MVH/grz-tools/blob/grz-check-v0.3.1/packages/grz-check/README.md
+   :documentation: https://github.com/BfArM-MVH/grz-tools/blob/grz-check-v0.4.0/packages/grz-check/README.md
    
    :license: MIT / MIT
    :recipe: /`grz-check-python <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grz-check-python>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grz-check-python/meta.yaml>`_
@@ -29,7 +29,7 @@ grz-check-python
       
       
 
-      ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``
+      ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``
 
       
 
@@ -38,7 +38,7 @@ grz-check-python
    :depends on libgcc: ``>=14``
    :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
-   :depends on openssl: ``>=3.5.6,<4.0a0``
+   :depends on openssl: ``>=3.5.7,<4.0a0``
    :depends on python: ``>=3.12,<3.13.0a0``
    :depends on python_abi: ``3.12.* *_cp312``
 
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "grz-check-python";
-      var versions = ["0.3.1","0.3.0","0.3.0"];
+      var versions = ["0.4.0","0.3.1","0.3.0","0.3.0"];
    </script>
 
 .. rubric:: Download stats

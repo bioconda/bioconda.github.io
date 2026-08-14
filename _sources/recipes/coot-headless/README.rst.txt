@@ -35,10 +35,10 @@ coot-headless
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.3.1-0</code>,  <code>1.2-2</code>,  <code>1.2-1</code>,  <code>1.2-0</code>,  <code>1.1.20-1</code>,  <code>1.1.20-0</code>,  <code>1.1.19-0</code>,  <code>1.1.18-3</code>,  <code>1.1.18-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.3-0</code>,  <code>1.3.1-0</code>,  <code>1.2-2</code>,  <code>1.2-1</code>,  <code>1.2-0</code>,  <code>1.1.20-1</code>,  <code>1.1.20-0</code>,  <code>1.1.19-0</code>,  <code>1.1.18-3</code>,  </span></summary>
       
 
-      ``1.3.1-0``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``,  ``1.1.20-1``,  ``1.1.20-0``,  ``1.1.19-0``,  ``1.1.18-3``,  ``1.1.18-2``,  ``1.1.18-1``,  ``1.1.18-0``,  ``1.1.17-3``,  ``1.1.17-2``,  ``1.1.17-1``,  ``1.1.17-0``
+      ``1.3.3-0``,  ``1.3.1-0``,  ``1.2-2``,  ``1.2-1``,  ``1.2-0``,  ``1.1.20-1``,  ``1.1.20-0``,  ``1.1.19-0``,  ``1.1.18-3``,  ``1.1.18-2``,  ``1.1.18-1``,  ``1.1.18-0``,  ``1.1.17-3``,  ``1.1.17-2``,  ``1.1.17-1``,  ``1.1.17-0``
 
       
       .. raw:: html
@@ -52,7 +52,7 @@ coot-headless
    :depends on cairo: ``>=1.18.4,<2.0a0``
    :depends on clipper: ``>=2.1.20180802,<3.0a0``
    :depends on elfutils: ``>=0.194,<0.195.0a0``
-   :depends on fontconfig: ``>=2.17.1,<3.0a0``
+   :depends on fontconfig: ``>=2.18.3,<3.0a0``
    :depends on fonts-conda-ecosystem: 
    :depends on gemmi: ``>=0.7.4,<0.7.5.0a0``
    :depends on gsl: ``>=2.7,<2.8.0a0``
@@ -63,7 +63,7 @@ coot-headless
    :depends on libfreetype6: ``>=2.14.3``
    :depends on libgcc: ``>=14``
    :depends on libpng: ``>=1.6.58,<1.7.0a0``
-   :depends on libsqlite: ``>=3.53.1,<4.0a0``
+   :depends on libsqlite: ``>=3.53.4,<4.0a0``
    :depends on libstdcxx: ``>=14``
    :depends on libxml2: 
    :depends on libxml2-16: ``>=2.15.3``
@@ -156,7 +156,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "coot-headless";
-      var versions = ["1.3.1","1.2","1.2","1.2","1.1.20"];
+      var versions = ["1.3.3","1.3.1","1.2","1.2","1.2"];
    </script>
 
 .. rubric:: Download stats

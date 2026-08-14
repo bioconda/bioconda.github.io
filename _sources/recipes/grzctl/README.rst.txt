@@ -13,7 +13,7 @@ grzctl
    Control CLI for GRZ administrators.
 
    :homepage: https://github.com/BfArM-MVH/grz-tools
-   :documentation: https://github.com/BfArM-MVH/grz-tools/blob/grzctl-v2.1.4/packages/grz-cli/README.md
+   :documentation: https://github.com/BfArM-MVH/grz-tools/blob/grzctl-v4.0.0/packages/grz-cli/README.md
    
    :license: MIT / MIT
    :recipe: /`grzctl <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grzctl>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grzctl/meta.yaml>`_
@@ -30,10 +30,10 @@ grzctl
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.4-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.0-0</code>,  <code>2.1.4-0</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
       
 
-      ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``4.0.0-0``,  ``2.1.4-0``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.6-0``,  ``0.2.5-0``,  ``0.2.4-0``,  ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -42,8 +42,8 @@ grzctl
       
 
    
-   :depends on grz-cli: ``>=1.7,<2``
-   :depends on grz-db: ``>=2.1.2,<3``
+   :depends on grz-cli: ``>=2,<3``
+   :depends on grz-db: ``>=3,<4``
    :depends on python: ``>=3.12``
    :depends on requests: ``>=2.32.3,<3``
    :depends on textual: ``>=5.3,<6``
@@ -121,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "grzctl";
-      var versions = ["2.1.4","2.1.3","2.1.2","2.1.1","2.1.0"];
+      var versions = ["4.0.0","2.1.4","2.1.3","2.1.2","2.1.1"];
    </script>
 
 .. rubric:: Download stats

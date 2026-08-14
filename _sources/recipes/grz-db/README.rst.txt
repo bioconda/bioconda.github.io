@@ -28,10 +28,10 @@ grz-db
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.2-1</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>2.1.2-1</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-0</code>,  <code>1.0.1-0</code>,  </span></summary>
       
 
-      ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``3.0.0-0``,  ``2.1.2-1``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -42,10 +42,10 @@ grz-db
    
    :depends on alembic: ``>=1.16.1``
    :depends on cryptography: ``>=45.0.3,<49``
-   :depends on grz-pydantic-models: ``>=2.7,<3``
+   :depends on grz-pydantic-models: ``>=3,<4``
    :depends on psycopg: ``>=3.2,<4``
-   :depends on python: 
-   :depends on sqlmodel: ``>=0.0.27``
+   :depends on python: ``>=3.12``
+   :depends on sqlmodel: ``>=0.0.38``
 
    :additional platforms:
       
@@ -120,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "grz-db";
-      var versions = ["2.1.2","2.1.2","2.1.1","2.1.0","2.0.0"];
+      var versions = ["3.0.0","2.1.2","2.1.2","2.1.1","2.1.0"];
    </script>
 
 .. rubric:: Download stats

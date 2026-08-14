@@ -27,12 +27,13 @@ abacus-str
       
       
 
-      ``2.0.0-0``
+      ``2.0.0-1``,  ``2.0.0-0``
 
       
 
    
    :depends on levenshtein: ``>=0.26.1``
+   :depends on minigraph: ``>=0.21``
    :depends on networkx: ``>=3.0``
    :depends on numpy: ``>=1.26.4``
    :depends on pandas: ``>=2.2.3``
@@ -130,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "abacus-str";
-      var versions = ["2.0.0"];
+      var versions = ["2.0.0","2.0.0"];
    </script>
 
 .. rubric:: Download stats

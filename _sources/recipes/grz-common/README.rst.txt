@@ -28,10 +28,10 @@ grz-common
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.1-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.1-0</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.1-0</code>,  </span></summary>
       
 
-      ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.1-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.1.0-0``
+      ``3.0.0-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.1-0``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -41,14 +41,15 @@ grz-common
 
    
    :depends on boto3: ``>=1.36,<2``
+   :depends on botocore: ``>=1.36,<2``
    :depends on click: ``>=8.2,<9``
    :depends on cryptography: ``>=45.0.3,<49``
-   :depends on grz-check-python: ``>=0.3.1,<1``
-   :depends on grz-pydantic-models: ``>=2.7,<3``
+   :depends on grz-check-python: ``>=0.3.1``
+   :depends on grz-pydantic-models: ``>=3,<4``
    :depends on packaging: ``>=23,<27``
    :depends on platformdirs: ``>=4.3.6,<5``
    :depends on pydantic: ``>=2.12,<3``
-   :depends on pydantic-settings: ``>=2.11,<3``
+   :depends on pydantic-settings: ``>=2.11.0,<3``
    :depends on python: ``>=3.12``
    :depends on python-crypt4gh: ``>=1.8.6,<2``
    :depends on pyyaml: ``>=6.0.2,<7``
@@ -127,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "grz-common";
-      var versions = ["2.1.0","2.1.0","2.0.1","1.6.1","1.6.0"];
+      var versions = ["3.0.0","2.1.0","2.1.0","2.0.1","1.6.1"];
    </script>
 
 .. rubric:: Download stats

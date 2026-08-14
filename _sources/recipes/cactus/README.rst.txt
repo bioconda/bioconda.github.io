@@ -13,7 +13,7 @@ cactus
    Cactus is a reference\-free whole\-genome multiple alignment program based upon notion of Cactus graphs.
 
    :homepage: https://github.com/ComparativeGenomicsToolkit/cactus
-   :documentation: https://github.com/ComparativeGenomicsToolkit/cactus/blob/v3.2.1/README.md
+   :documentation: https://github.com/ComparativeGenomicsToolkit/cactus/blob/v3.3.0/README.md
    
    :license: MIT / MIT
    :recipe: /`cactus <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cactus>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cactus/meta.yaml>`_
@@ -31,10 +31,10 @@ cactus
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2019.03.01-1</code>,  <code>2019.03.01-0</code>,  <code>3.2.1-0</code>,  <code>3.1.4-1</code>,  <code>3.1.4-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  <code>2.9.9-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2019.03.01-1</code>,  <code>2019.03.01-0</code>,  <code>3.3.0-0</code>,  <code>3.2.1-0</code>,  <code>3.1.4-1</code>,  <code>3.1.4-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-1</code>,  <code>3.0.0-0</code>,  </span></summary>
       
 
-      ``2019.03.01-1``,  ``2019.03.01-0``,  ``3.2.1-0``,  ``3.1.4-1``,  ``3.1.4-0``,  ``3.0.1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.9.9-2``,  ``2.9.9-1``,  ``2.9.9-0``,  ``0.0.2019.03.01-5``,  ``0.0.2019.03.01-4``,  ``0.0.2019.03.01-3``,  ``0.0.2019.03.01-2``
+      ``2019.03.01-1``,  ``2019.03.01-0``,  ``3.3.0-0``,  ``3.2.1-0``,  ``3.1.4-1``,  ``3.1.4-0``,  ``3.0.1-0``,  ``3.0.0-1``,  ``3.0.0-0``,  ``2.9.9-2``,  ``2.9.9-1``,  ``2.9.9-0``,  ``0.0.2019.03.01-5``,  ``0.0.2019.03.01-4``,  ``0.0.2019.03.01-3``,  ``0.0.2019.03.01-2``
 
       
       .. raw:: html
@@ -140,7 +140,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cactus";
-      var versions = ["2019.03.01","2019.03.01","3.2.1","3.1.4","3.1.4"];
+      var versions = ["2019.03.01","2019.03.01","3.3.0","3.2.1","3.1.4"];
    </script>
 
 .. rubric:: Download stats

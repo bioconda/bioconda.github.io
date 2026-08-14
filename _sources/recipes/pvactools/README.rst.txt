@@ -35,7 +35,7 @@ pvactools
       
       
 
-      ``7.0.1-0``
+      ``7.1.2-0``,  ``7.0.1-0``
 
       
 
@@ -145,7 +145,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pvactools";
-      var versions = ["7.0.1"];
+      var versions = ["7.1.2","7.0.1"];
    </script>
 
 .. rubric:: Download stats

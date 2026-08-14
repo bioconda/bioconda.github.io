@@ -16,7 +16,7 @@ protal
    :license: MIT / MIT
    :recipe: /`protal <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/protal>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/protal/meta.yaml>`_
 
-   Protal is a computational tool for taxonomic profiling and strain\-resolved analyses of bacterial communities from 
+   Protal is a computational tool for taxonomic profiling and strain\-resolved analyses of bacterial communities from
    metagenomic shotgun sequencing data \(short\-reads\). Following a reference\-based approach\, protal uses the same
    120 universal marker genes GTDB uses to build their phylogeny \(TIGRFAM\, PFAM\) and thus integrates well with other
    120 universal marker genes GTDB uses to build their phylogeny \(TIGRFAM\, PFAM\) and thus integrates well with other
@@ -31,23 +31,21 @@ protal
       
       
 
-      ``0.5.1a-0``,  ``0.2.1a-0``,  ``0.2.0a-0``,  ``0.1.0a-0``
+      ``0.6.0a-0``,  ``0.5.1a-0``,  ``0.2.1a-0``,  ``0.2.0a-0``,  ``0.1.0a-0``
 
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on _openmp_mutex: ``>=4.5``
-   :depends on joblib: 
+   :depends on art: 
    :depends on libgcc: ``>=14``
    :depends on libgomp: 
    :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on matplotlib-base: 
-   :depends on numpy: 
-   :depends on pandas: 
    :depends on pigz: 
    :depends on python: ``>=3``
-   :depends on scikit-learn: 
 
    :additional platforms:
       
@@ -122,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "protal";
-      var versions = ["0.5.1a","0.2.1a","0.2.0a","0.1.0a"];
+      var versions = ["0.6.0a","0.5.1a","0.2.1a","0.2.0a","0.1.0a"];
    </script>
 
 .. rubric:: Download stats

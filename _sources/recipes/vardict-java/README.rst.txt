@@ -12,11 +12,15 @@ vardict-java
 
    Java port of the VarDict variant discovery program
 
-   :homepage: https://github.com/AstraZeneca-NGS/VarDictJava
+   :homepage: https://github.com/joachimwolff/VarDictJava
    :license: MIT
    :recipe: /`vardict-java <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vardict-java>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vardict-java/meta.yaml>`_
 
-   
+   Community\-maintained fork of AstraZeneca\-NGS\/VarDictJava \(upstream\'s final\,
+   unmaintained 1.8.3\). Release 1.8.4 reduces peak memory \(G1GC \+ string\-dedup JVM
+   defaults\, opt\-in \-\-chunk region splitting\) while keeping variant output
+   byte\-identical to 1.8.3.
+
 
 
 .. conda:package:: vardict-java
@@ -28,10 +32,10 @@ vardict-java
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.8.3-0</code>,  <code>1.8.2-3</code>,  <code>1.8.2-2</code>,  <code>1.8.2-1</code>,  <code>1.8.2-0</code>,  <code>1.8.1-0</code>,  <code>1.8.0-0</code>,  <code>1.7.0-0</code>,  <code>1.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.8.4-0</code>,  <code>1.8.3-0</code>,  <code>1.8.2-3</code>,  <code>1.8.2-2</code>,  <code>1.8.2-1</code>,  <code>1.8.2-0</code>,  <code>1.8.1-0</code>,  <code>1.8.0-0</code>,  <code>1.7.0-0</code>,  </span></summary>
       
 
-      ``1.8.3-0``,  ``1.8.2-3``,  ``1.8.2-2``,  ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.0-0``,  ``1.6.0-0``,  ``1.5.8-1``,  ``1.5.8-0``,  ``1.5.7-0``,  ``1.5.6-0``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.10-0``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.6-0``,  ``1.4.5-1``,  ``1.4.5-0``,  ``1.4.3-1``,  ``1.4.3-0``,  ``1.4.2-0``
+      ``1.8.4-0``,  ``1.8.3-0``,  ``1.8.2-3``,  ``1.8.2-2``,  ``1.8.2-1``,  ``1.8.2-0``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.0-0``,  ``1.6.0-0``,  ``1.5.8-1``,  ``1.5.8-0``,  ``1.5.7-0``,  ``1.5.6-0``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.10-0``,  ``1.4.9-0``,  ``1.4.8-0``,  ``1.4.7-0``,  ``1.4.6-0``,  ``1.4.5-1``,  ``1.4.5-0``,  ``1.4.3-1``,  ``1.4.3-0``,  ``1.4.2-0``
 
       
       .. raw:: html
@@ -117,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "vardict-java";
-      var versions = ["1.8.3","1.8.2","1.8.2","1.8.2","1.8.2"];
+      var versions = ["1.8.4","1.8.3","1.8.2","1.8.2","1.8.2"];
    </script>
 
 .. rubric:: Download stats
