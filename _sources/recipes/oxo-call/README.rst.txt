@@ -30,7 +30,7 @@ oxo-call
       
       
 
-      ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.2-0``,  ``0.6.0-0``
+      ``0.13.0-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.2-0``,  ``0.6.0-0``
 
       
 
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "oxo-call";
-      var versions = ["0.12.1","0.12.0","0.11.0","0.10.0","0.9.2"];
+      var versions = ["0.13.0","0.12.1","0.12.0","0.11.0","0.10.0"];
    </script>
 
 .. rubric:: Download stats

@@ -26,21 +26,29 @@ pathogen-embed
    :versions:
       
       
+      .. raw:: html
 
-      ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.3.0-0``,  ``2.2.1-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-0``
+         <details><summary><span class="truncated-version-list"><code>4.0.0-1</code>,  <code>4.0.0-0</code>,  <code>3.1.0-1</code>,  <code>3.1.0-0</code>,  <code>3.0.0-0</code>,  <code>2.3.0-0</code>,  <code>2.2.1-0</code>,  <code>2.2.0-1</code>,  <code>2.2.0-0</code>,  </span></summary>
+      
 
+      ``4.0.0-1``,  ``4.0.0-0``,  ``3.1.0-1``,  ``3.1.0-0``,  ``3.0.0-0``,  ``2.3.0-0``,  ``2.2.1-0``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends on biopython: ``>=1.83,<2``
-   :depends on hdbscan: ``>=0.8.36,<0.9.0``
+   :depends on hdbscan: ``>=0.8.36,<1``
    :depends on matplotlib-base: ``>=3,<4``
-   :depends on numba: ``<0.59.0``
-   :depends on numpy: ``>=1.24.4,<2``
+   :depends on numba: ``<1``
+   :depends on numpy: ``>=1,<3``
    :depends on pandas: ``>=1.2.0,<4``
-   :depends on python: ``>=3.8``
-   :depends on scikit-learn: ``>=1.3,<1.5``
-   :depends on umap-learn: ``>=0.5.0,<0.6.0``
+   :depends on python: ``>=3.10``
+   :depends on scikit-learn: ``>=1.3,<2``
+   :depends on umap-learn: ``>=0.5.0,<1``
 
    :additional platforms:
       
@@ -115,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pathogen-embed";
-      var versions = ["3.1.0","3.1.0","3.0.0","2.3.0","2.2.1"];
+      var versions = ["4.0.0","4.0.0","3.1.0","3.1.0","3.0.0"];
    </script>
 
 .. rubric:: Download stats
