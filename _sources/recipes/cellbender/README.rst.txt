@@ -10,7 +10,7 @@ cellbender
    :replaces_section_title:
    :noindex:
 
-   A software package for eliminating technical artifacts from high\-throughput single\-cell RNA sequencing \(scRNA\-seq\) data
+   A software package for eliminating technical artifacts from high\-throughput single\-cell RNA sequencing \(scRNA\-seq\) data.
 
    :homepage: https://github.com/broadinstitute/CellBender
    :documentation: https://cellbender.readthedocs.io/en/latest
@@ -30,25 +30,24 @@ cellbender
       
       
 
-      ``0.3.2-0``,  ``0.3.0-0``
+      ``0.4.0-0``,  ``0.3.2-0``,  ``0.3.0-0``
 
       
 
    
-   :depends on anndata: ``>=0.7``
+   :depends on anndata: ``>=0.9``
+   :depends on dill: ``>0.3.1``
+   :depends on ipykernel: 
    :depends on ipython: 
-   :depends on jupyter: 
-   :depends on jupyter_contrib_nbextensions: 
-   :depends on loompy: 
+   :depends on lxml-html-clean: 
    :depends on matplotlib-base: 
-   :depends on nbconvert: ``<7.0.0``
-   :depends on notebook: ``<7.0.0``
+   :depends on nbconvert: 
    :depends on numpy: 
    :depends on pandas: 
    :depends on psutil: 
    :depends on pyro-ppl: ``>=1.8.4``
    :depends on pytables: 
-   :depends on python: ``3.7.*``
+   :depends on python: ``>=3.10``
    :depends on pytorch: 
    :depends on scipy: 
 
@@ -125,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cellbender";
-      var versions = ["0.3.2","0.3.0"];
+      var versions = ["0.4.0","0.3.2","0.3.0"];
    </script>
 
 .. rubric:: Download stats

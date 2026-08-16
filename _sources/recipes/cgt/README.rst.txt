@@ -10,9 +10,11 @@ cgt
    :replaces_section_title:
    :noindex:
 
-   Calculate a core genome threshold \(cgt\) from metagenome data
+   Calculate a core genome threshold \(cgt\) from metagenome data.
 
    :homepage: https://github.com/bacpop/cgt
+   :documentation: https://github.com/bacpop/cgt/blob/v0.1.1/README.md
+   
    :license: APACHE / Apache-2.0
    :recipe: /`cgt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgt/meta.yaml>`_
 
@@ -27,13 +29,17 @@ cgt
       
       
 
-      ``1.0.0-0``,  ``0.1.1-0``
+      ``1.0.0-0``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
 
    
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -106,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cgt";
-      var versions = ["1.0.0","0.1.1"];
+      var versions = ["1.0.0","0.1.1","0.1.1"];
    </script>
 
 .. rubric:: Download stats

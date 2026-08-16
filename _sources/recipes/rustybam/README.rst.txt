@@ -30,10 +30,10 @@ rustybam
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.0-0</code>,  <code>0.1.34-0</code>,  <code>0.1.33-2</code>,  <code>0.1.33-1</code>,  <code>0.1.33-0</code>,  <code>0.1.31-2</code>,  <code>0.1.31-1</code>,  <code>0.1.31-0</code>,  <code>0.1.30-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.2.2-0</code>,  <code>0.2.0-0</code>,  <code>0.1.34-0</code>,  <code>0.1.33-2</code>,  <code>0.1.33-1</code>,  <code>0.1.33-0</code>,  <code>0.1.31-2</code>,  <code>0.1.31-1</code>,  <code>0.1.31-0</code>,  </span></summary>
       
 
-      ``0.2.0-0``,  ``0.1.34-0``,  ``0.1.33-2``,  ``0.1.33-1``,  ``0.1.33-0``,  ``0.1.31-2``,  ``0.1.31-1``,  ``0.1.31-0``,  ``0.1.30-1``,  ``0.1.30-0``,  ``0.1.29-1``,  ``0.1.29-0``,  ``0.1.28-1``,  ``0.1.28-0``,  ``0.1.27-1``,  ``0.1.27-0``,  ``0.1.26-1``,  ``0.1.26-0``,  ``0.1.25-0``,  ``0.1.24-1``,  ``0.1.24-0``,  ``0.1.23-0``,  ``0.1.20-0``
+      ``0.2.2-0``,  ``0.2.0-0``,  ``0.1.34-0``,  ``0.1.33-2``,  ``0.1.33-1``,  ``0.1.33-0``,  ``0.1.31-2``,  ``0.1.31-1``,  ``0.1.31-0``,  ``0.1.30-1``,  ``0.1.30-0``,  ``0.1.29-1``,  ``0.1.29-0``,  ``0.1.28-1``,  ``0.1.28-0``,  ``0.1.27-1``,  ``0.1.27-0``,  ``0.1.26-1``,  ``0.1.26-0``,  ``0.1.25-0``,  ``0.1.24-1``,  ``0.1.24-0``,  ``0.1.23-0``,  ``0.1.20-0``
 
       
       .. raw:: html
@@ -45,19 +45,19 @@ rustybam
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on gsl: ``>=2.7,<2.8.0a0``
    :depends on libcblas: ``>=3.9.0,<4.0a0``
-   :depends on libcurl: ``>=8.18.0,<9.0a0``
+   :depends on libcurl: ``>=8.21.0,<9.0a0``
    :depends on libdeflate: ``>=1.25,<1.26.0a0``
    :depends on libgcc: ``>=14``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
    :depends on libstdcxx: ``>=14``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on openssl: ``>=3.5.5,<4.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on openssl: ``>=3.5.7,<4.0a0``
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>osx-arm64</code></span>
+         <span class="additional-platforms"><code>osx-arm64</code>,  <code>linux-aarch64</code></span>
       
 
 
@@ -130,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "rustybam";
-      var versions = ["0.2.0","0.1.34","0.1.33","0.1.33","0.1.33"];
+      var versions = ["0.2.2","0.2.0","0.1.34","0.1.33","0.1.33"];
    </script>
 
 .. rubric:: Download stats

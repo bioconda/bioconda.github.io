@@ -27,12 +27,12 @@ svtopo
       
       
 
-      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.1-0``
+      ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.3-0``,  ``0.1.1-0``
 
       
 
    
-   :depends on svtopovz: ``0.3.0``
+   :depends on svtopovz: ``0.3.1``
 
    :additional platforms:
       
@@ -107,7 +107,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "svtopo";
-      var versions = ["0.3.0","0.2.0","0.1.3","0.1.1"];
+      var versions = ["0.3.1","0.3.0","0.2.0","0.1.3","0.1.1"];
    </script>
 
 .. rubric:: Download stats

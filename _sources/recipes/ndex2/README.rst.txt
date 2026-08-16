@@ -29,7 +29,7 @@ ndex2
       
       
 
-      ``3.11.0-0``,  ``3.10.0-0``,  ``3.9.0-0``,  ``3.8.0-0``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.1-0``
+      ``3.12.0-0``,  ``3.11.0-0``,  ``3.10.0-0``,  ``3.9.0-0``,  ``3.8.0-0``,  ``3.7.0-0``,  ``3.6.0-0``,  ``3.5.1-0``
 
       
 
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ndex2";
-      var versions = ["3.11.0","3.10.0","3.9.0","3.8.0","3.7.0"];
+      var versions = ["3.12.0","3.11.0","3.10.0","3.9.0","3.8.0"];
    </script>
 
 .. rubric:: Download stats

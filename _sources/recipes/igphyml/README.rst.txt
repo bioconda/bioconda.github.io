@@ -42,14 +42,12 @@ igphyml
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on _openmp_mutex: ``>=4.5``
    :depends on changeo: ``>=0.4.6``
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on libgcc: ``>=14``
    :depends on libgomp: 
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on r-alakazam: ``>=0.3.0``
 
    :additional platforms:
       

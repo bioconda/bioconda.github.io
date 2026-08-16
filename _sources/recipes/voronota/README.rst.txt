@@ -42,10 +42,10 @@ voronota
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.29.4812-0</code>,  <code>1.29.4781-0</code>,  <code>1.29.4771-0</code>,  <code>1.29.4723-0</code>,  <code>1.29.4602-0</code>,  <code>1.29.4592-0</code>,  <code>1.29.4415-0</code>,  <code>1.29.4412-0</code>,  <code>1.29.4408-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.29.4816-0</code>,  <code>1.29.4812-0</code>,  <code>1.29.4781-0</code>,  <code>1.29.4771-0</code>,  <code>1.29.4723-0</code>,  <code>1.29.4602-0</code>,  <code>1.29.4592-0</code>,  <code>1.29.4415-0</code>,  <code>1.29.4412-0</code>,  </span></summary>
       
 
-      ``1.29.4812-0``,  ``1.29.4781-0``,  ``1.29.4771-0``,  ``1.29.4723-0``,  ``1.29.4602-0``,  ``1.29.4592-0``,  ``1.29.4415-0``,  ``1.29.4412-0``,  ``1.29.4408-0``,  ``1.29.4370-0``
+      ``1.29.4816-0``,  ``1.29.4812-0``,  ``1.29.4781-0``,  ``1.29.4771-0``,  ``1.29.4723-0``,  ``1.29.4602-0``,  ``1.29.4592-0``,  ``1.29.4415-0``,  ``1.29.4412-0``,  ``1.29.4408-0``,  ``1.29.4370-0``
 
       
       .. raw:: html
@@ -144,7 +144,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "voronota";
-      var versions = ["1.29.4812","1.29.4781","1.29.4771","1.29.4723","1.29.4602"];
+      var versions = ["1.29.4816","1.29.4812","1.29.4781","1.29.4771","1.29.4723"];
    </script>
 
 .. rubric:: Download stats

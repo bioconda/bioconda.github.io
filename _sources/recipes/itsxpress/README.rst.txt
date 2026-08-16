@@ -12,10 +12,12 @@ itsxpress
 
    ITSxpress\: Software to rapidly trim the Internally Transcribed Spacer \(ITS\) region from FASTQ files.
 
-   :homepage: http://github.com/usda-ars-gbru/itsxpress
+   :homepage: https://github.com/usda-ars-gbru/itsxpress
+   :documentation: https://itsxpress.readthedocs.io/en/latest
+   
    :license: PUBLIC-DOMAIN / CC0-1.0
    :recipe: /`itsxpress <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/itsxpress>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/itsxpress/meta.yaml>`_
-   :links: biotools: :biotools:`ITSxpress`, doi: :doi:`10.5281/zenodo.1304349`, doi: :doi:`10.12688/f1000research.15704.1`
+   :links: biotools: :biotools:`ITSxpress`, doi: :doi:`10.1128/spectrum.00601-24`, doi: :doi:`10.5281/zenodo.1304349`, doi: :doi:`10.12688/f1000research.15704.1`
 
    
 
@@ -29,10 +31,10 @@ itsxpress
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.4-0</code>,  <code>2.1.3-2</code>,  <code>2.1.3-1</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.2-0</code>,  <code>2.0.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.0-0</code>,  <code>2.1.4-0</code>,  <code>2.1.3-2</code>,  <code>2.1.3-1</code>,  <code>2.1.3-0</code>,  <code>2.1.2-0</code>,  <code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>2.0.2-0</code>,  </span></summary>
       
 
-      ``2.1.4-0``,  ``2.1.3-2``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.8.1-0``,  ``1.8.0-2``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.7.2-1``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.5.6-0``
+      ``2.2.0-0``,  ``2.1.4-0``,  ``2.1.3-2``,  ``2.1.3-1``,  ``2.1.3-0``,  ``2.1.2-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.2-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.8.1-0``,  ``1.8.0-2``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.7.2-1``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.6.4-0``,  ``1.6.3-0``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.5.6-0``
 
       
       .. raw:: html
@@ -43,10 +45,9 @@ itsxpress
    
    :depends on biopython: ``>=1.79``
    :depends on hmmer: ``>=3.1b2``
-   :depends on pandas: 
-   :depends on python: ``>=3.7``
+   :depends on python: ``>=3.8``
    :depends on pyzstd: 
-   :depends on vsearch: 
+   :depends on vsearch: ``>=2.21.1``
 
    :additional platforms:
       
@@ -121,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "itsxpress";
-      var versions = ["2.1.4","2.1.3","2.1.3","2.1.3","2.1.2"];
+      var versions = ["2.2.0","2.1.4","2.1.3","2.1.3","2.1.3"];
    </script>
 
 .. rubric:: Download stats

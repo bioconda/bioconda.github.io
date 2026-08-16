@@ -12,7 +12,7 @@ bioconductor-ancombc
 
    Microbiome differential abudance and correlation analyses with bias correction
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/ANCOMBC.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/ANCOMBC.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-ancombc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ancombc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ancombc/meta.yaml>`_
 
@@ -26,14 +26,21 @@ bioconductor-ancombc
    :versions:
       
       
+      .. raw:: html
 
-      ``2.12.0-0``,  ``2.8.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.1-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.5-0``,  ``1.0.0-2``
+         <details><summary><span class="truncated-version-list"><code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.8.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.1-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  <code>1.0.5-0</code>,  </span></summary>
+      
 
+      ``2.14.0-0``,  ``2.12.0-0``,  ``2.8.0-0``,  ``2.4.0-0``,  ``2.2.0-0``,  ``2.0.1-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.5-0``,  ``1.0.0-2``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
    :depends on r-base: ``>=4.5,<4.6.0a0``
-   :depends on r-cvxr: 
    :depends on r-desctools: 
    :depends on r-doparallel: 
    :depends on r-dorng: 
@@ -47,6 +54,7 @@ bioconductor-ancombc
    :depends on r-matrix: 
    :depends on r-multcomp: 
    :depends on r-nloptr: 
+   :depends on r-quadprog: 
    :depends on r-rdpack: 
 
    :additional platforms:
@@ -122,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-ancombc";
-      var versions = ["2.12.0","2.8.0","2.4.0","2.2.0","2.0.1"];
+      var versions = ["2.14.0","2.12.0","2.8.0","2.4.0","2.2.0"];
    </script>
 
 .. rubric:: Download stats

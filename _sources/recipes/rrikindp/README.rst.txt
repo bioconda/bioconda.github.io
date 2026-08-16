@@ -10,7 +10,7 @@ rrikindp
    :replaces_section_title:
    :noindex:
 
-   Evaluation of thermodynamic and kinetic features of RNA\-RNA interactions.
+   Targeted RNA–RNA interaction kinetics.
 
    :homepage: https://github.com/mwaldl/RRIkinDP
    :documentation: https://doi.org/10.1101/2023.07.28.548983
@@ -19,11 +19,13 @@ rrikindp
    :recipe: /`rrikindp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rrikindp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rrikindp/meta.yaml>`_
    :links: doi: :doi:`10.1101/2023.07.28.548983`
 
-   RRIkinDP evaluated thermodynamic and kinetic features of RNA\-RNA interactions. As input\, two RNA
-   sequences as well as their interaction structure is provided. The tool generates the state space of
-   all intermediate interactions from single base pair interactions to the full input interaction.
-   On top of this state space it computes the barrier energy for the best direct path from a given
-   start interaction to the full input interaction.
+   RRIkinDP computes thermodynamic and kinetic features of RNA\-RNA interactions based on a direct paths
+   interaction formation model. As input\, two RNA sequences as well as their interaction structure are
+   provided. The tool generates the state space of all intermediate interactions from single base pair
+   or seed interaction to the full input interaction. On top of this state space it computes the barrier
+   energy for the best direct path from a given start interaction to the full input interaction. In
+   addition\, the included python library enables modeling of the interaction formation as a markov
+   process on this state space.
 
 
 
@@ -35,18 +37,17 @@ rrikindp
       
       
 
-      ``0.0.2-3``,  ``0.0.2-1``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``0.0.3-0``,  ``0.0.2-3``,  ``0.0.2-1``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on _openmp_mutex: ``>=4.5``
    :depends on boost-cpp: 
    :depends on intarna: ``>=3.4.1,<3.5.0a0``
-   :depends on libgcc: ``>=12``
+   :depends on libgcc: ``>=14``
    :depends on libgomp: 
-   :depends on libstdcxx: ``>=12``
+   :depends on libstdcxx: ``>=14``
    :depends on matplotlib-base: ``>=3.7.0``
    :depends on pandas: ``>=2.0.0``
    :depends on python: ``>=3.10,<3.11.0a0``
@@ -132,7 +133,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "rrikindp";
-      var versions = ["0.0.2","0.0.2","0.0.2","0.0.1"];
+      var versions = ["0.0.3","0.0.2","0.0.2","0.0.2","0.0.1"];
    </script>
 
 .. rubric:: Download stats
