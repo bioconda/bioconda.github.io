@@ -10,11 +10,14 @@ tidehunter
    :replaces_section_title:
    :noindex:
 
-   TideHunter\: efficient and sensitive tandem repeat detection from noisy long reads using seed\-and\-chain
+   TideHunter\: efficient and sensitive tandem repeat detection from noisy long reads using seed\-and\-chain.
 
    :homepage: https://github.com/yangao07/TideHunter
+   :documentation: https://github.com/yangao07/TideHunter/blob/v1.5.6/README.md
+   
    :license: MIT / MIT
    :recipe: /`tidehunter <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tidehunter>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tidehunter/meta.yaml>`_
+   :links: biotools: :biotools:`TideHunter`, doi: :doi:`10.1093/bioinformatics/btz376`
 
    
 
@@ -28,10 +31,10 @@ tidehunter
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.6-0</code>,  <code>1.5.5-3</code>,  <code>1.5.5-2</code>,  <code>1.5.5-0</code>,  <code>1.5.4-2</code>,  <code>1.5.4-1</code>,  <code>1.5.4-0</code>,  <code>1.5.3-1</code>,  <code>1.5.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.6-1</code>,  <code>1.5.6-0</code>,  <code>1.5.5-3</code>,  <code>1.5.5-2</code>,  <code>1.5.5-0</code>,  <code>1.5.4-2</code>,  <code>1.5.4-1</code>,  <code>1.5.4-0</code>,  <code>1.5.3-1</code>,  </span></summary>
       
 
-      ``1.5.6-0``,  ``1.5.5-3``,  ``1.5.5-2``,  ``1.5.5-0``,  ``1.5.4-2``,  ``1.5.4-1``,  ``1.5.4-0``,  ``1.5.3-1``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.3-1``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.2-1``,  ``1.2.2-0``
+      ``1.5.6-1``,  ``1.5.6-0``,  ``1.5.5-3``,  ``1.5.5-2``,  ``1.5.5-0``,  ``1.5.4-2``,  ``1.5.4-1``,  ``1.5.4-0``,  ``1.5.3-1``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.3-1``,  ``1.4.3-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.3.0-0``,  ``1.2.2-1``,  ``1.2.2-0``
 
       
       .. raw:: html
@@ -40,10 +43,15 @@ tidehunter
       
 
    
-   :depends on libcxx: ``>=19``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -116,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "tidehunter";
-      var versions = ["1.5.6","1.5.5","1.5.5","1.5.5","1.5.4"];
+      var versions = ["1.5.6","1.5.6","1.5.5","1.5.5","1.5.5"];
    </script>
 
 .. rubric:: Download stats

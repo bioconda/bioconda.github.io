@@ -10,7 +10,7 @@ gfainject
    :replaces_section_title:
    :noindex:
 
-   Inject alignment into pangenome graphs
+   Inject alignment into pangenome graphs.
 
    :homepage: https://github.com/AndreaGuarracino/gfainject
    :license: MIT / MIT
@@ -27,13 +27,13 @@ gfainject
       
       
 
-      ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
+      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``,  ``0.1.0-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
       
@@ -112,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "gfainject";
-      var versions = ["0.2.0","0.1.1","0.1.0"];
+      var versions = ["0.2.1","0.2.0","0.1.1","0.1.0"];
    </script>
 
 .. rubric:: Download stats

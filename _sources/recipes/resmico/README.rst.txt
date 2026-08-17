@@ -35,7 +35,8 @@ resmico
    :depends on cmake: ``>=3.13``
    :depends on ipython: 
    :depends on keras: ``>=2.8.0``
-   :depends on libcxx: ``>=15.0.7``
+   :depends on libgcc-ng: ``>=12``
+   :depends on libstdcxx-ng: ``>=12``
    :depends on libzlib: ``>=1.2.13,<1.3.0a0``
    :depends on numpy: ``>=1.17.0``
    :depends on numpy: ``>=1.24.3,<2.0a0``

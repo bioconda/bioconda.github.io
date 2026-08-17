@@ -41,7 +41,8 @@ genoboo
 
    
    :depends on blast: 
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on mongodb: ``>=5.0``
    :depends on nodejs: ``>=15,<16``
    :depends on nodejs: ``>=15.14.0,<16.0a0``

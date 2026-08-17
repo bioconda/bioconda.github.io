@@ -142,7 +142,7 @@ Check the documentation of your workflow management system to find out about the
       
 
    
-   :depends on gatk4-main: ``4.6.2.0 h527b516_2``
+   :depends on gatk4-main: ``4.6.2.0 h9ee0642_2``
    :depends on openjdk: ``17.*``
    :depends on python: 
 

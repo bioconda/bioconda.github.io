@@ -29,7 +29,7 @@ tracs
       
       
 
-      ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.1.1-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -37,9 +37,10 @@ tracs
    :depends on _openmp_mutex: ``>=4.5``
    :depends on htsbox: 
    :depends on joblib: 
-   :depends on libgcc: ``>=12``
-   :depends on libstdcxx: ``>=12``
-   :depends on libzlib: ``>=1.2.13,<2.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on matplotlib-base: 
    :depends on minimap2: 
    :depends on ncbi-genome-download: 
    :depends on numpy: 
@@ -130,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "tracs";
-      var versions = ["1.0.1","1.0.1","1.0.0"];
+      var versions = ["1.1.1","1.0.1","1.0.1","1.0.0"];
    </script>
 
 .. rubric:: Download stats

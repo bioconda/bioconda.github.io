@@ -13,7 +13,7 @@ anchorwave
    Sensitive alignment of genomes with high sequence diversity\, extensive structural polymorphism\, and whole\-genome duplication variation.
 
    :homepage: https://github.com/baoxingsong/AnchorWave
-   :documentation: https://github.com/baoxingsong/AnchorWave/blob/v1.2.6/README.md
+   :documentation: https://github.com/baoxingsong/AnchorWave/blob/v1.3.1/README.md
    
    :license: MIT / MIT
    :recipe: /`anchorwave <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/anchorwave>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/anchorwave/meta.yaml>`_
@@ -30,10 +30,10 @@ anchorwave
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.6-0</code>,  <code>1.2.5-1</code>,  <code>1.2.5-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-2</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.3.1-0</code>,  <code>1.2.6-0</code>,  <code>1.2.5-1</code>,  <code>1.2.5-0</code>,  <code>1.2.3-0</code>,  <code>1.2.2-0</code>,  <code>1.2.1-2</code>,  <code>1.2.1-1</code>,  <code>1.2.1-0</code>,  </span></summary>
       
 
-      ``1.2.6-0``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.3.1-0``,  ``1.2.6-0``,  ``1.2.5-1``,  ``1.2.5-0``,  ``1.2.3-0``,  ``1.2.2-0``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.0.1-1``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -42,16 +42,19 @@ anchorwave
       
 
    
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on gmap: 
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on minimap2: 
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -124,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "anchorwave";
-      var versions = ["1.2.6","1.2.5","1.2.5","1.2.3","1.2.2"];
+      var versions = ["1.3.1","1.2.6","1.2.5","1.2.5","1.2.3"];
    </script>
 
 .. rubric:: Download stats

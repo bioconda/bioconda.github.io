@@ -34,11 +34,12 @@ emirge
    
    :depends on biopython: 
    :depends on bowtie: 
+   :depends on libgcc-ng: ``>=10.3.0``
    :depends on libzlib: ``>=1.2.11,<1.3.0a0``
    :depends on numpy: 
    :depends on pysam: 
    :depends on python: ``>=2.7,<2.8.0a0``
-   :depends on python_abi: ``2.7.* *_cp27m``
+   :depends on python_abi: ``2.7.* *_cp27mu``
    :depends on samtools: 
    :depends on scipy: 
    :depends on vsearch: 

@@ -44,7 +44,7 @@ r-monocle3
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-batchelor: ``>=1.26.0,<1.27.0a0``
    :depends on bioconductor-biobase: ``>=2.70.0,<2.71.0a0``
    :depends on bioconductor-biocgenerics: ``>=0.28``
@@ -60,7 +60,8 @@ r-monocle3
    :depends on bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0a0``
    :depends on bioconductor-summarizedexperiment: ``>=1.11.5``
    :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on r-assertthat: ``>=0.2.1``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-bpcells: ``>=0.3.1,<0.4.0a0``

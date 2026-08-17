@@ -13,7 +13,7 @@ fastplong
    Ultra\-fast preprocessing and quality control for long\-read sequencing data.
 
    :homepage: https://github.com/OpenGene/fastplong
-   :documentation: https://github.com/OpenGene/fastplong/blob/v0.6.0/README.md
+   :documentation: https://github.com/OpenGene/fastplong/blob/v0.7.0/README.md
    
    :license: MIT / MIT
    :recipe: /`fastplong <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastplong>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastplong/meta.yaml>`_
@@ -30,7 +30,7 @@ fastplong
       
       
 
-      ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
+      ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``
 
       
 
@@ -118,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "fastplong";
-      var versions = ["0.6.0","0.5.0","0.4.1","0.4.0","0.3.0"];
+      var versions = ["0.7.0","0.6.0","0.5.0","0.4.1","0.4.0"];
    </script>
 
 .. rubric:: Download stats

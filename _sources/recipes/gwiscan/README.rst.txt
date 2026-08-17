@@ -10,22 +10,16 @@ gwiscan
    :replaces_section_title:
    :noindex:
 
-   Genome\-wide identification and annotation of gene families in proteomes
+   Genome\-wide identification and annotation pipeline for gene families or superfamilies
 
    :homepage: https://github.com/beavenmanjengwa/gwiscan
    :license: MIT
    :recipe: /`gwiscan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gwiscan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gwiscan/meta.yaml>`_
 
-   GWIscan finds and annotates members of one or more gene families and\/or
-   superfamilies across the proteomes of one or more species. It runs DIAMOND
-   and HMMER searches\, checks candidates with InterProScan\, and annotates them
-   with physicochemical properties\, signal and transit peptides\, transmembrane
-   topology\, subcellular localization\, and domain and GO terms. It then aligns
-   each family and builds conservation logos\, MEME motifs\, and IQ\-TREE trees.
-
-   Some tools are not installed by conda. DeepTMHMM is enabled with
-   \"pip install pybiolib\". TargetP 2.0 and DeepLoc 2.1 are academic downloads\;
-   set TARGETP\_BIN and DEEPLOC\_BIN to point at them.
+   GWIscan is a pipeline for the genome\-wide identification and annotation of gene
+   families and superfamilies which combines BLAST\, profile hidden Markov models\,
+   and InterProScan. It runs in family\, superfamily\, or architecture modes\, on a
+   single proteome or across multiple species.
 
 
 
@@ -37,12 +31,13 @@ gwiscan
       
       
 
-      ``1.0.0-0``
+      ``1.0.1-0``,  ``1.0.0-0``
 
       
 
    
    :depends on biopython: ``>=1.80``
+   :depends on clipkit: 
    :depends on diamond: 
    :depends on hmmer: 
    :depends on iqtree: 
@@ -52,9 +47,13 @@ gwiscan
    :depends on pandas: ``>=1.5``
    :depends on python: ``>=3.10``
    :depends on pyyaml: ``>=6.0``
+   :depends on r-base: 
+   :depends on r-dplyr: 
+   :depends on r-ggplot2: 
+   :depends on r-tidyr: 
    :depends on requests: ``>=2.28``
    :depends on seqkit: 
-   :depends on trimal: 
+   :depends on setuptools: 
    :depends on weblogo: 
 
    :additional platforms:
@@ -130,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "gwiscan";
-      var versions = ["1.0.0"];
+      var versions = ["1.0.1","1.0.0"];
    </script>
 
 .. rubric:: Download stats

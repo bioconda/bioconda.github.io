@@ -29,12 +29,12 @@ fast-edit-distance
       
       
 
-      ``1.2.2-0``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``
+      ``1.2.2-3``,  ``1.2.2-0``,  ``1.2.1-2``,  ``1.2.1-1``,  ``1.2.1-0``
 
       
 
    
-   :depends on libgcc: ``>=12``
+   :depends on libgcc: ``>=14``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
 
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "fast-edit-distance";
-      var versions = ["1.2.2","1.2.1","1.2.1","1.2.1"];
+      var versions = ["1.2.2","1.2.2","1.2.1","1.2.1","1.2.1"];
    </script>
 
 .. rubric:: Download stats
