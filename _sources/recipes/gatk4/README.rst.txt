@@ -28,7 +28,7 @@ gatk4
       
       
 
-      ``4.6.2.0-2``
+      ``4.7.0.0-0``,  ``4.6.2.0-2``
 
       
 
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "gatk4-main";
-      var versions = ["4.6.2.0"];
+      var versions = ["4.7.0.0","4.6.2.0"];
    </script>
 
 .. rubric:: Download stats
@@ -130,10 +130,10 @@ Check the documentation of your workflow management system to find out about the
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.6.2.0-2</code>,  <code>4.6.2.0-1</code>,  <code>4.6.2.0-0</code>,  <code>4.6.1.0-0</code>,  <code>4.5.0.0-0</code>,  <code>4.4.0.0-0</code>,  <code>4.3.0.0-0</code>,  <code>4.2.6.1-1</code>,  <code>4.2.6.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.7.0.0-0</code>,  <code>4.6.2.0-2</code>,  <code>4.6.2.0-1</code>,  <code>4.6.2.0-0</code>,  <code>4.6.1.0-0</code>,  <code>4.5.0.0-0</code>,  <code>4.4.0.0-0</code>,  <code>4.3.0.0-0</code>,  <code>4.2.6.1-1</code>,  </span></summary>
       
 
-      ``4.6.2.0-2``,  ``4.6.2.0-1``,  ``4.6.2.0-0``,  ``4.6.1.0-0``,  ``4.5.0.0-0``,  ``4.4.0.0-0``,  ``4.3.0.0-0``,  ``4.2.6.1-1``,  ``4.2.6.1-0``,  ``4.2.6.0-0``,  ``4.2.5.0-0``,  ``4.2.4.1-0``,  ``4.2.4.0-0``,  ``4.2.3.0-1``,  ``4.2.3.0-0``,  ``4.2.2.0-1``,  ``4.2.2.0-0``,  ``4.2.1.0-0``,  ``4.2.0.0-1``,  ``4.2.0.0-0``,  ``4.1.9.0-0``,  ``4.1.8.1-0``,  ``4.1.8.0-0``,  ``4.1.7.0-0``,  ``4.1.6.0-0``,  ``4.1.5.0-1``,  ``4.1.5.0-0``,  ``4.1.4.1-1``,  ``4.1.4.1-0``,  ``4.1.4.0-1``,  ``4.1.4.0-0``,  ``4.1.3.0-0``,  ``4.1.2.0-1``
+      ``4.7.0.0-0``,  ``4.6.2.0-2``,  ``4.6.2.0-1``,  ``4.6.2.0-0``,  ``4.6.1.0-0``,  ``4.5.0.0-0``,  ``4.4.0.0-0``,  ``4.3.0.0-0``,  ``4.2.6.1-1``,  ``4.2.6.1-0``,  ``4.2.6.0-0``,  ``4.2.5.0-0``,  ``4.2.4.1-0``,  ``4.2.4.0-0``,  ``4.2.3.0-1``,  ``4.2.3.0-0``,  ``4.2.2.0-1``,  ``4.2.2.0-0``,  ``4.2.1.0-0``,  ``4.2.0.0-1``,  ``4.2.0.0-0``,  ``4.1.9.0-0``,  ``4.1.8.1-0``,  ``4.1.8.0-0``,  ``4.1.7.0-0``,  ``4.1.6.0-0``,  ``4.1.5.0-1``,  ``4.1.5.0-0``,  ``4.1.4.1-1``,  ``4.1.4.1-0``,  ``4.1.4.0-1``,  ``4.1.4.0-0``,  ``4.1.3.0-0``,  ``4.1.2.0-1``
 
       
       .. raw:: html
@@ -142,7 +142,7 @@ Check the documentation of your workflow management system to find out about the
       
 
    
-   :depends on gatk4-main: ``4.6.2.0 h9ee0642_2``
+   :depends on gatk4-main: ``4.7.0.0 h527b516_0``
    :depends on openjdk: ``17.*``
    :depends on python: 
 
@@ -219,7 +219,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "gatk4-spark";
-      var versions = ["4.6.2.0","4.6.2.0","4.6.2.0","4.6.1.0","4.5.0.0"];
+      var versions = ["4.7.0.0","4.6.2.0","4.6.2.0","4.6.2.0","4.6.1.0"];
    </script>
 
 .. rubric:: Download stats

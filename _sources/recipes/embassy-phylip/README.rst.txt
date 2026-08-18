@@ -33,7 +33,6 @@ embassy-phylip
 
    
    :depends on emboss: 
-   :depends on libgcc-ng: ``>=4.9``
    :depends on zlib: ``>=1.2.11,<1.3.0a0``
 
    :additional platforms:

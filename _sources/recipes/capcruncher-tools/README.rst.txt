@@ -32,7 +32,7 @@ capcruncher-tools
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on __osx: ``>=10.13``
    :depends on loguru: ``>=0.7.0,<0.8.0``
    :depends on pandas: ``>=2.1.0,<3.0.0``
    :depends on polars: ``>=1.6.0,<2.0.0``
