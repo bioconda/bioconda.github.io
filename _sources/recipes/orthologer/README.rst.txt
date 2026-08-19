@@ -32,10 +32,10 @@ orthologer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.9.0-0</code>,  <code>3.8.2-0</code>,  <code>3.8.1-0</code>,  <code>3.8.0-0</code>,  <code>3.7.1-0</code>,  <code>3.5.0-1</code>,  <code>3.5.0-0</code>,  <code>3.4.2-0</code>,  <code>3.4.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.9.1-0</code>,  <code>3.9.0-0</code>,  <code>3.8.2-0</code>,  <code>3.8.1-0</code>,  <code>3.8.0-0</code>,  <code>3.7.1-0</code>,  <code>3.5.0-1</code>,  <code>3.5.0-0</code>,  <code>3.4.2-0</code>,  </span></summary>
       
 
-      ``3.9.0-0``,  ``3.8.2-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.1-0``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.2-0``,  ``3.3.1-0``
+      ``3.9.1-0``,  ``3.9.0-0``,  ``3.8.2-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.1-0``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.2-0``,  ``3.3.1-0``
 
       
       .. raw:: html
@@ -44,6 +44,7 @@ orthologer
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on bash: ``>=4.1``
    :depends on biopython: 
    :depends on blast: 
@@ -52,14 +53,14 @@ orthologer
    :depends on cd-hit: 
    :depends on diamond: 
    :depends on ete3: 
-   :depends on libcxx: ``>=18``
-   :depends on llvm-openmp: ``>=18.1.8``
+   :depends on libcxx: ``>=19``
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on mmseqs2: 
    :depends on numpy: 
    :depends on python: ``>=3.12,<3.13.0a0``
    :depends on python_abi: ``3.12.* *_cp312``
    :depends on rsync: 
-   :depends on spdlog: ``>=1.12.0,<1.13.0a0``
+   :depends on spdlog: ``>=1.16.0,<1.17.0a0``
    :depends on wget: 
 
    :additional platforms:
@@ -135,7 +136,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "orthologer";
-      var versions = ["3.9.0","3.8.2","3.8.1","3.8.0","3.7.1"];
+      var versions = ["3.9.1","3.9.0","3.8.2","3.8.1","3.8.0"];
    </script>
 
 .. rubric:: Download stats

@@ -42,18 +42,18 @@ pegasusio
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on anndata: ``>=0.12``
    :depends on docopt: 
    :depends on h5py: ``>=3.0.0``
-   :depends on libgcc: ``>=14``
    :depends on loompy: 
    :depends on natsort: 
    :depends on numpy: ``>=1.25,<3``
    :depends on numpy: ``>=2.0.0``
    :depends on pandas: ``>=1.2.0``
    :depends on pillow: 
-   :depends on python: ``>=3.13,<3.14.0a0``
-   :depends on python_abi: ``3.13.* *_cp313``
+   :depends on python: ``>=3.14,<3.15.0a0``
+   :depends on python_abi: ``3.14.* *_cp314``
    :depends on scipy: 
    :depends on zarr: ``>=3.1,<4``
 

@@ -41,6 +41,7 @@ bioconductor-isoformswitchanalyzer
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on bioconductor-biobase: ``>=2.64.0``
    :depends on bioconductor-biobase: ``>=2.70.0,<2.71.0a0``
    :depends on bioconductor-biocgenerics: ``>=0.50.0``
@@ -83,7 +84,6 @@ bioconductor-isoformswitchanalyzer
    :depends on bioconductor-xvector: ``>=0.44.0``
    :depends on bioconductor-xvector: ``>=0.50.0,<0.51.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-dbi: 

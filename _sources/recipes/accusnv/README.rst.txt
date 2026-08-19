@@ -10,13 +10,14 @@ accusnv
    :replaces_section_title:
    :noindex:
 
-   High\-accuracy SNV calling for bacterial isolates using AccuSNV.
+   High\-accuracy SNV calling for bacterial isolates.
 
    :homepage: https://github.com/liaoherui/AccuSNV
-   :documentation: https://github.com/liaoherui/AccuSNV/blob/main/README.md
+   :documentation: https://github.com/liaoherui/AccuSNV#readme
    
    :license: MIT / MIT
    :recipe: /`accusnv <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/accusnv>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/accusnv/meta.yaml>`_
+   :links: doi: :doi:`10.1101/gr.281341.125`
 
    
 
@@ -29,30 +30,32 @@ accusnv
       
       
 
-      ``1.0.0.5-0``,  ``1.0.0.4-0``,  ``1.0.0.3-0``
+      ``1.1.0-0``,  ``1.0.0.5-0``,  ``1.0.0.4-0``,  ``1.0.0.3-0``
 
       
 
    
-   :depends on bcbio-gff: ``0.6.9``
+   :depends on bcbio-gff: 
    :depends on bcftools: 
-   :depends on biopython: ``1.78``
+   :depends on biopython: 
+   :depends on bowtie2: 
    :depends on bwa: 
    :depends on cutadapt: 
    :depends on matplotlib-base: 
    :depends on numpy: 
    :depends on pandas: 
    :depends on phylip: 
-   :depends on pulp: ``2.7.0``
-   :depends on python: ``>=3.9,<3.10``
-   :depends on pytorch: ``>=2.6,<2.7``
+   :depends on python: ``>=3.11``
+   :depends on pytorch: 
+   :depends on pyyaml: 
+   :depends on samclip: 
    :depends on samtools: 
    :depends on scipy: 
    :depends on sickle-trim: 
-   :depends on snakemake: ``7.32.3``
+   :depends on snakemake: ``>=8,<10``
+   :depends on snakemake-executor-plugin-slurm: 
    :depends on statsmodels: 
    :depends on tabix: 
-   :depends on tqdm: 
 
    :additional platforms:
       
@@ -127,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "accusnv";
-      var versions = ["1.0.0.5","1.0.0.4","1.0.0.3"];
+      var versions = ["1.1.0","1.0.0.5","1.0.0.4","1.0.0.3"];
    </script>
 
 .. rubric:: Download stats

@@ -30,16 +30,15 @@ earlgrey-partea
       
       
 
-      ``0.2.0-0``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.4-0``
+      ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.4-0``
 
       
 
    
    :depends on biopython: 
-   :depends on busco: ``>=5.4``
    :depends on cd-hit: 
    :depends on clipkit: 
-   :depends on earlgrey: ``>=7.1.0``
+   :depends on earlgrey: ``>=7.3.1``
    :depends on fasttree: 
    :depends on graphviz: 
    :depends on mafft: 
@@ -124,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "earlgrey-partea";
-      var versions = ["0.2.0","0.1.8","0.1.8","0.1.7","0.1.6"];
+      var versions = ["0.2.1","0.2.0","0.1.8","0.1.8","0.1.7"];
    </script>
 
 .. rubric:: Download stats

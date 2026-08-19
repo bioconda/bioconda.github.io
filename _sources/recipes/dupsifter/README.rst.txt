@@ -27,18 +27,17 @@ dupsifter
       
       
 
-      ``1.3.0.20241113-1``,  ``1.3.0.20241113-0``,  ``1.2.1.20240119-1``,  ``1.2.1.20240119-0``,  ``1.2.0.20230926-0``
+      ``1.4.0.20260818-0``,  ``1.3.0.20241113-1``,  ``1.3.0.20241113-0``,  ``1.2.1.20240119-1``,  ``1.2.1.20240119-0``,  ``1.2.0.20230926-0``
 
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libcurl: ``>=8.11.1,<9.0a0``
-   :depends on libdeflate: ``>=1.22,<1.23.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on liblzma: ``>=5.6.3,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on openssl: ``>=3.4.0,<4.0a0``
+   :depends on libcurl: ``>=8.21.0,<9.0a0``
+   :depends on libdeflate: ``>=1.25,<1.26.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
       
@@ -117,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "dupsifter";
-      var versions = ["1.3.0.20241113","1.3.0.20241113","1.2.1.20240119","1.2.1.20240119","1.2.0.20230926"];
+      var versions = ["1.4.0.20260818","1.3.0.20241113","1.3.0.20241113","1.2.1.20240119","1.2.1.20240119"];
    </script>
 
 .. rubric:: Download stats

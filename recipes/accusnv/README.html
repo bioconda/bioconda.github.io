@@ -472,19 +472,22 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">accusnv</span></span></dt>
-<dd><p>High-accuracy SNV calling for bacterial isolates using AccuSNV.</p>
+<dd><p>High-accuracy SNV calling for bacterial isolates.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="github reference external" href="https://github.com/liaoherui/AccuSNV">liaoherui/AccuSNV</a></p>
 </dd>
 <dt class="field-even">Documentation<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="github reference external" href="https://github.com/liaoherui/AccuSNV/blob/main/README.md">liaoherui/AccuSNV</a></p>
+<dd class="field-even"><p><a class="github reference external" href="https://github.com/liaoherui/AccuSNV#readme">liaoherui/AccuSNV</a></p>
 </dd>
 <dt class="field-odd">License<span class="colon">:</span></dt>
 <dd class="field-odd"><p>MIT / MIT</p>
 </dd>
 <dt class="field-even">Recipe<span class="colon">:</span></dt>
 <dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/accusnv">accusnv</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/accusnv/meta.yaml">meta.yaml</a></p>
+</dd>
+<dt class="field-odd">Links<span class="colon">:</span></dt>
+<dd class="field-odd"><p>doi: <a class="extlink-doi reference external" href="https://doi.org/10.1101/gr.281341.125">10.1101/gr.281341.125</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -495,29 +498,31 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/accusnv"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/accusnv.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/accusnv"><img alt="docker_accusnv" src="https://quay.io/repository/biocontainers/accusnv/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.0.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0.3-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0.3-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bcbio-gff</span></code></span> <code class="docutils literal notranslate"><span class="pre">0.6.9</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bcbio-gff</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bcftools</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">biopython</span></code></span> <code class="docutils literal notranslate"><span class="pre">1.78</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">biopython</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bowtie2</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bwa</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">cutadapt</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">matplotlib-base</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">numpy</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pandas</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">phylip</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pulp</span></code></span> <code class="docutils literal notranslate"><span class="pre">2.7.0</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=3.9,&lt;3.10</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pytorch</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=2.6,&lt;2.7</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=3.11</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pytorch</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pyyaml</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">samclip</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">samtools</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">scipy</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">sickle-trim</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">snakemake</span></code></span> <code class="docutils literal notranslate"><span class="pre">7.32.3</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">snakemake</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=8,&lt;10</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">snakemake-executor-plugin-slurm</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">statsmodels</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">tabix</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">tqdm</span></code></span></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
@@ -576,7 +581,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "accusnv";
-   var versions = ["1.0.0.5","1.0.0.4","1.0.0.3"];
+   var versions = ["1.1.0","1.0.0.5","1.0.0.4","1.0.0.3"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_accusnv"></div>
 <div style="width: 100%" id="platform_plot_accusnv"></div>

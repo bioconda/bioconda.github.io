@@ -34,9 +34,7 @@ repeatafterme
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
-   :depends on libgcc: ``>=13``
-   :depends on libgomp: 
+   :depends on llvm-openmp: ``>=18.1.8``
    :depends on perl: 
 
    :additional platforms:

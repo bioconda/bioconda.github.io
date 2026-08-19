@@ -37,10 +37,10 @@ augustus
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.5.0-9</code>,  <code>3.5.0-8</code>,  <code>3.5.0-7</code>,  <code>3.5.0-5</code>,  <code>3.5.0-4</code>,  <code>3.5.0-3</code>,  <code>3.5.0-2</code>,  <code>3.5.0-1</code>,  <code>3.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.5.0-10</code>,  <code>3.5.0-9</code>,  <code>3.5.0-8</code>,  <code>3.5.0-7</code>,  <code>3.5.0-5</code>,  <code>3.5.0-4</code>,  <code>3.5.0-3</code>,  <code>3.5.0-2</code>,  <code>3.5.0-1</code>,  </span></summary>
       
 
-      ``3.5.0-9``,  ``3.5.0-8``,  ``3.5.0-7``,  ``3.5.0-5``,  ``3.5.0-4``,  ``3.5.0-3``,  ``3.5.0-2``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.4.0-8``,  ``3.4.0-7``,  ``3.4.0-6``,  ``3.4.0-5``,  ``3.4.0-4``,  ``3.4.0-3``,  ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.3-13``,  ``3.3.3-12``,  ``3.3.3-11``,  ``3.3.3-10``,  ``3.3.3-9``,  ``3.3.3-8``,  ``3.3.3-7``,  ``3.3.3-6``,  ``3.3.3-5``,  ``3.3.3-4``,  ``3.3.3-3``,  ``3.3.3-2``,  ``3.3.3-1``,  ``3.3.3-0``,  ``3.3.2-2``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.3-5``,  ``3.3-4``,  ``3.3-2``,  ``3.3-1``,  ``3.3-0``,  ``3.2.3-5``,  ``3.2.3-4``,  ``3.2.3-3``,  ``3.2.3-2``,  ``3.2.3-1``,  ``3.2.3-0``,  ``3.2.2-3``,  ``3.2.2-2``,  ``3.2.2-1``,  ``3.2.2-0``,  ``3.1-0``
+      ``3.5.0-10``,  ``3.5.0-9``,  ``3.5.0-8``,  ``3.5.0-7``,  ``3.5.0-5``,  ``3.5.0-4``,  ``3.5.0-3``,  ``3.5.0-2``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.4.0-8``,  ``3.4.0-7``,  ``3.4.0-6``,  ``3.4.0-5``,  ``3.4.0-4``,  ``3.4.0-3``,  ``3.4.0-2``,  ``3.4.0-1``,  ``3.4.0-0``,  ``3.3.3-13``,  ``3.3.3-12``,  ``3.3.3-11``,  ``3.3.3-10``,  ``3.3.3-9``,  ``3.3.3-8``,  ``3.3.3-7``,  ``3.3.3-6``,  ``3.3.3-5``,  ``3.3.3-4``,  ``3.3.3-3``,  ``3.3.3-2``,  ``3.3.3-1``,  ``3.3.3-0``,  ``3.3.2-2``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.3-5``,  ``3.3-4``,  ``3.3-2``,  ``3.3-1``,  ``3.3-0``,  ``3.2.3-5``,  ``3.2.3-4``,  ``3.2.3-3``,  ``3.2.3-2``,  ``3.2.3-1``,  ``3.2.3-0``,  ``3.2.2-3``,  ``3.2.2-2``,  ``3.2.2-1``,  ``3.2.2-0``,  ``3.1-0``
 
       
       .. raw:: html
@@ -49,6 +49,7 @@ augustus
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on bamtools: ``>=2.5.3,<3.0a0``
    :depends on biopython: 
    :depends on boost-cpp: 
@@ -56,7 +57,7 @@ augustus
    :depends on diamond: 
    :depends on gsl: ``>=2.8``
    :depends on gsl: ``>=2.8,<2.9.0a0``
-   :depends on htslib: ``>=1.22.1,<1.23.0a0``
+   :depends on htslib: ``>=1.24,<1.25.0a0``
    :depends on libamd: ``>=3.3.3,<4.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on libbtf: ``>=2.3.2,<3.0a0``
@@ -66,18 +67,17 @@ augustus
    :depends on libcholmod: ``>=5.3.1,<6.0a0``
    :depends on libcolamd: ``>=3.3.4,<4.0a0``
    :depends on libcxsparse: ``>=4.4.1,<5.0a0``
-   :depends on libgcc: ``>=13``
+   :depends on libcxx: ``>=19``
    :depends on libklu: ``>=2.3.5,<3.0a0``
    :depends on libldl: ``>=3.3.2,<4.0a0``
    :depends on libparu: ``>=1.0.0,<2.0a0``
    :depends on librbio: ``>=4.3.4,<5.0a0``
    :depends on libspex: ``>=3.2.3,<4.0a0``
    :depends on libspqr: ``>=4.3.4,<5.0a0``
-   :depends on libsqlite: ``>=3.50.4,<4.0a0``
-   :depends on libstdcxx: ``>=13``
+   :depends on libsqlite: ``>=3.53.4,<4.0a0``
    :depends on libsuitesparseconfig: ``>=7.10.1,<8.0a0``
    :depends on libumfpack: ``>=6.3.5,<7.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on lp_solve: 
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-app-cpanminus: 
@@ -87,7 +87,7 @@ augustus
    :depends on perl-parallel-forkmanager: 
    :depends on perl-scalar-list-utils: 
    :depends on perl-yaml: 
-   :depends on samtools: ``>=1.22.1,<2.0a0``
+   :depends on samtools: ``>=1.24,<2.0a0``
    :depends on sqlite: 
    :depends on suitesparse: ``>=7.10.1,<8.0a0``
    :depends on tar: 

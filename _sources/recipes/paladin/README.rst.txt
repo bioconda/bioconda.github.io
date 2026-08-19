@@ -44,7 +44,6 @@ paladin
 
    
    :depends on libcurl: ``>=8.14.1,<9.0a0``
-   :depends on libgcc: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
 
    :additional platforms:

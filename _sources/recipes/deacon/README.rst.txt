@@ -13,7 +13,7 @@ deacon
    Fast alignment\-free sequence filter.
 
    :homepage: https://github.com/bede/deacon
-   :documentation: https://github.com/bede/deacon/blob/0.16.0/README.md
+   :documentation: https://github.com/bede/deacon/blob/0.17.0/README.md
    
    :license: MIT / MIT
    :recipe: /`deacon <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deacon>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deacon/meta.yaml>`_
@@ -31,10 +31,10 @@ deacon
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.16.0-0</code>,  <code>0.15.0-0</code>,  <code>0.14.0-0</code>,  <code>0.13.2-1</code>,  <code>0.13.2-0</code>,  <code>0.13.1-0</code>,  <code>0.12.0-0</code>,  <code>0.11.0-0</code>,  <code>0.10.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.17.0-0</code>,  <code>0.16.0-0</code>,  <code>0.15.0-0</code>,  <code>0.14.0-0</code>,  <code>0.13.2-1</code>,  <code>0.13.2-0</code>,  <code>0.13.1-0</code>,  <code>0.12.0-0</code>,  <code>0.11.0-0</code>,  </span></summary>
       
 
-      ``0.16.0-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.2-1``,  ``0.13.2-0``,  ``0.13.1-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.17.0-0``,  ``0.16.0-0``,  ``0.15.0-0``,  ``0.14.0-0``,  ``0.13.2-1``,  ``0.13.2-0``,  ``0.13.1-0``,  ``0.12.0-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
       .. raw:: html
@@ -43,7 +43,7 @@ deacon
       
 
    
-   :depends on libgcc: ``>=14``
+   :depends on __osx: ``>=11.0``
    :depends on openssl: ``>=3.5.7,<4.0a0``
 
    :additional platforms:
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "deacon";
-      var versions = ["0.16.0","0.15.0","0.14.0","0.13.2","0.13.2"];
+      var versions = ["0.17.0","0.16.0","0.15.0","0.14.0","0.13.2"];
    </script>
 
 .. rubric:: Download stats
