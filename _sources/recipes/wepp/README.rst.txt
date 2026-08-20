@@ -43,7 +43,7 @@ wepp
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on aiohttp: 
    :depends on altair: 
    :depends on biopython: 

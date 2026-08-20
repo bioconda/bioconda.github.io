@@ -43,7 +43,7 @@ meme
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on icu: ``>=75.1,<76.0a0``
    :depends on libexpat: ``>=2.8.1,<3.0a0``
    :depends on libxml2: ``>=2.13.9,<2.14.0a0``

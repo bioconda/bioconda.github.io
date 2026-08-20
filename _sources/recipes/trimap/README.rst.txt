@@ -27,15 +27,17 @@ trimap
       
       
 
-      ``1.0.15-0``
+      ``1.2.0-0``,  ``1.0.15-0``
 
       
 
    
-   :depends on numba: ``>=0.34``
+   :depends on numba: ``>=0.57``
+   :depends on numpy: ``>=1.23``
    :depends on python: 
-   :depends on python-annoy: ``>=1.11``
-   :depends on scikit-learn: ``>=0.16``
+   :depends on python-annoy: ``>=1.17.3``
+   :depends on pytorch: ``>=2.1``
+   :depends on scikit-learn: ``>=1.2``
 
    :additional platforms:
       
@@ -110,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "trimap";
-      var versions = ["1.0.15"];
+      var versions = ["1.2.0","1.0.15"];
    </script>
 
 .. rubric:: Download stats

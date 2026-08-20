@@ -34,7 +34,7 @@ tracs
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on htsbox: 
    :depends on joblib: 
    :depends on libcxx: ``>=19``

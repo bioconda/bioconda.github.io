@@ -42,7 +42,7 @@ r-cobrar
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on glpk: ``>=4.65``
    :depends on glpk: ``>=5.0,<6.0a0``
    :depends on libcxx: ``>=19``

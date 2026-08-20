@@ -43,7 +43,7 @@ phispy
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on bcbio-gff: 
    :depends on biopython: 
    :depends on hmmer: 

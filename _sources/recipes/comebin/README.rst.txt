@@ -27,44 +27,47 @@ comebin
       
       
 
-      ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
+      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
 
       
 
    
-   :depends on atomicwrites: ``1.4.0.*``
-   :depends on bedtools: ``2.30.0.*``
-   :depends on biolib: ``0.1.6.*``
-   :depends on biopython: ``1.76.*``
-   :depends on bwa: ``0.7.17.*``
-   :depends on checkm-genome: ``1.1.3.*``
-   :depends on click: ``8.0.4.*``
-   :depends on fraggenescan: ``1.31.*``
-   :depends on hmmer: ``3.1b2.*``
-   :depends on hnswlib: ``0.6.2.*``
-   :depends on igraph: ``0.9.9.*``
-   :depends on joblib: ``1.1.0.*``
-   :depends on leidenalg: ``0.8.10.*``
-   :depends on matplotlib-base: ``3.5.1.*``
-   :depends on matplotlib-inline: ``0.1.3.*``
-   :depends on networkx: ``2.6.3.*``
-   :depends on numpy: ``1.19.0.*``
-   :depends on pandas: ``1.3.5.*``
-   :depends on pip: ``22.0.4.*``
-   :depends on pplacer: ``1.1.alpha19.*``
-   :depends on prodigal: ``2.6.3.*``
-   :depends on python: ``3.7.*``
-   :depends on python-dateutil: ``2.8.2.*``
-   :depends on python-fastjsonschema: ``2.15.3.*``
-   :depends on pytorch: ``1.10.2.*``
-   :depends on pyyaml: ``6.0.*``
-   :depends on samtools: ``1.15.1.*``
-   :depends on scanpy: ``1.9.1.*``
-   :depends on scikit-learn: ``0.22.1.*``
-   :depends on scipy: ``1.7.3.*``
-   :depends on seaborn: ``0.12.1.*``
-   :depends on setuptools: ``59.5.0.*``
-   :depends on tensorboard: ``1.15.0.*``
+   :depends on atomicwrites: ``>=1.4.1``
+   :depends on bedtools: ``>=2.31.0``
+   :depends on biolib: ``>=0.1.6``
+   :depends on biopython: ``>=1.76``
+   :depends on bwa: ``>=0.7.17``
+   :depends on checkm-genome: ``>=1.2.3``
+   :depends on click: ``>=8.4.2``
+   :depends on fraggenescan: ``>=1.31``
+   :depends on gdown: ``>=6.1.0``
+   :depends on hmmer: ``>=3.4``
+   :depends on hnswlib: ``>=0.8.0``
+   :depends on igraph: ``>=1.0.0``
+   :depends on joblib: ``>=1.5.3``
+   :depends on leidenalg: ``>=0.12.0``
+   :depends on matplotlib-base: ``>=3.10``
+   :depends on matplotlib-inline: ``>=0.1.3``
+   :depends on networkx: ``>=3.6.1``
+   :depends on numba: ``>=0.66.0``
+   :depends on numpy: ``>=2.4.6``
+   :depends on pandas: ``>=3.0.3``
+   :depends on pplacer: ``>=1.1.alpha19``
+   :depends on prodigal: ``>=2.6.3``
+   :depends on python: ``>=3.13``
+   :depends on python-dateutil: ``>=2.8.2``
+   :depends on python-fastjsonschema: ``>=2.15.3``
+   :depends on pytorch: ``>=2.13.0``
+   :depends on pyyaml: ``>=6.0``
+   :depends on ruamel.yaml: ``>=0.19.1``
+   :depends on samtools: ``>=1.24``
+   :depends on scanpy: ``>=1.12.2``
+   :depends on scikit-learn: ``>=1.9.0``
+   :depends on scipy: ``>=1.18.0``
+   :depends on seaborn: ``>=0.13.2``
+   :depends on setuptools: ``>=80.9.0``
+   :depends on tensorboard: ``>=2.20.0``
+   :depends on tqdm: 
 
    :additional platforms:
       
@@ -139,7 +142,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "comebin";
-      var versions = ["1.0.4","1.0.4","1.0.3","1.0.2"];
+      var versions = ["1.1.0","1.1.0","1.0.4","1.0.4","1.0.3"];
    </script>
 
 .. rubric:: Download stats

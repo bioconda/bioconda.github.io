@@ -27,7 +27,7 @@ needlr
       
       
 
-      ``4.0-1``,  ``4.0-0``
+      ``4.1-0``,  ``4.0-1``,  ``4.0-0``
 
       
 
@@ -35,11 +35,11 @@ needlr
    :depends on bcftools: ``>=1.23.1``
    :depends on bedtools: ``>=2.31.1``
    :depends on coreutils: ``9.5.*``
-   :depends on gawk: ``4.2.1.*``
+   :depends on gawk: ``5.3.1.*``
    :depends on grep: ``>=3.1``
    :depends on gzip: ``>=1.9``
    :depends on sed: ``>=4.7``
-   :depends on truvari: ``4.2.2.*``
+   :depends on truvari: ``5.4.0.*``
 
    :additional platforms:
       
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "needlr";
-      var versions = ["4.0","4.0"];
+      var versions = ["4.1","4.0","4.0"];
    </script>
 
 .. rubric:: Download stats

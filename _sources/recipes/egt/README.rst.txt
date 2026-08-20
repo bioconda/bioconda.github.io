@@ -15,7 +15,7 @@ egt
    :homepage: https://github.com/conchoecia/egt
    :license: MIT / MIT
    :recipe: /`egt <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/egt>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/egt/meta.yaml>`_
-   :links: pypi: :pypi:`egt`
+   :links: pypi: :pypi:`egt`, doi: :doi:`10.1126/sciadv.adz5561`
 
    
 
@@ -28,7 +28,7 @@ egt
       
       
 
-      ``0.2.3-0``
+      ``0.2.5-0``,  ``0.2.3-0``
 
       
 
@@ -124,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "egt";
-      var versions = ["0.2.3"];
+      var versions = ["0.2.5","0.2.3"];
    </script>
 
 .. rubric:: Download stats

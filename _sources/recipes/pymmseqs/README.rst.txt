@@ -29,17 +29,15 @@ pymmseqs
       
       
 
-      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.7-0``
+      ``1.2.0-1``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.7-0``
 
       
 
    
-   :depends on ipython: ``>=8.22.1,<9.0.0``
    :depends on numpy: ``>=1.22.4``
-   :depends on pandas: ``>=2.2.2,<3.0.0``
+   :depends on pandas: ``>=2.2.2``
    :depends on python: ``>=3.10``
    :depends on pyyaml: ``>=6.0.1,<7.0.0``
-   :depends on scikit-learn: ``>=1.5.0``
 
    :additional platforms:
       
@@ -114,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pymmseqs";
-      var versions = ["1.2.0","1.1.0","1.0.7"];
+      var versions = ["1.2.0","1.2.0","1.1.0","1.0.7"];
    </script>
 
 .. rubric:: Download stats

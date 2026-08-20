@@ -43,14 +43,16 @@ libmaus2
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on boost-cpp: 
    :depends on gmp: ``>=6.3.0,<7.0a0``
    :depends on libcurl: ``>=8.21.0,<9.0a0``
-   :depends on libcxx: ``>=13.0.1``
-   :depends on libdeflate: ``>=1.22,<1.23.0a0``
+   :depends on libdeflate: ``>=1.23,<1.24.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
-   :depends on llvm-openmp: ``>=19.1.7``
    :depends on nettle: ``>=3.10.1,<3.11.0a0``
    :depends on snappy: ``1.1.8.*``
    :depends on snappy: ``>=1.1.8,<2.0a0``

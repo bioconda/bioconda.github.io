@@ -40,7 +40,7 @@ r-restfulr
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on bioconductor-s4vectors: ``>=0.13.15``
    :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``

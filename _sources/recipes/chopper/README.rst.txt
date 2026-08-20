@@ -42,7 +42,7 @@ chopper
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on clang: 
    :depends on libcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``

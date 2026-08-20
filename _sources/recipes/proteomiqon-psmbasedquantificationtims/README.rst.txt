@@ -28,12 +28,13 @@ proteomiqon-psmbasedquantificationtims
       
       
 
-      ``0.0.12-0``
+      ``0.0.12-1``,  ``0.0.12-0``
 
       
 
    
    :depends on dotnet-runtime: ``8.0.*``
+   :depends on zlib: 
 
    :additional platforms:
       
@@ -108,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "proteomiqon-psmbasedquantificationtims";
-      var versions = ["0.0.12"];
+      var versions = ["0.0.12","0.0.12"];
    </script>
 
 .. rubric:: Download stats
