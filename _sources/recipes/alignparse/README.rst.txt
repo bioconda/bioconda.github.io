@@ -29,7 +29,7 @@ alignparse
       
       
 
-      ``0.7.1-0``
+      ``0.8.0-0``,  ``0.7.1-0``
 
       
 
@@ -122,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "alignparse";
-      var versions = ["0.7.1"];
+      var versions = ["0.8.0","0.7.1"];
    </script>
 
 .. rubric:: Download stats

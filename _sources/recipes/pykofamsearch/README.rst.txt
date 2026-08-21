@@ -27,7 +27,7 @@ pykofamsearch
       
       
 
-      ``2025.9.5-1``,  ``2025.9.5-0``,  ``2024.11.9-0``,  ``2024.11.8.post1-0``,  ``2024.10.20-0``
+      ``2026.7.21-0``,  ``2025.9.5-1``,  ``2025.9.5-0``,  ``2024.11.9-0``,  ``2024.11.8.post1-0``,  ``2024.10.20-0``
 
       
 
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pykofamsearch";
-      var versions = ["2025.9.5","2025.9.5","2024.11.9","2024.11.8.post1","2024.10.20"];
+      var versions = ["2026.7.21","2025.9.5","2025.9.5","2024.11.9","2024.11.8.post1"];
    </script>
 
 .. rubric:: Download stats
