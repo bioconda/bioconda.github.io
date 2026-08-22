@@ -34,10 +34,10 @@ openstructure
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.11.1-3</code>,  <code>2.11.1-2</code>,  <code>2.11.1-1</code>,  <code>2.11.1-0</code>,  <code>2.11.0-1</code>,  <code>2.11.0-0</code>,  <code>2.10.0-3</code>,  <code>2.10.0-2</code>,  <code>2.10.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.12.0-0</code>,  <code>2.11.1-3</code>,  <code>2.11.1-2</code>,  <code>2.11.1-1</code>,  <code>2.11.1-0</code>,  <code>2.11.0-1</code>,  <code>2.11.0-0</code>,  <code>2.10.0-3</code>,  <code>2.10.0-2</code>,  </span></summary>
       
 
-      ``2.11.1-3``,  ``2.11.1-2``,  ``2.11.1-1``,  ``2.11.1-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.0-3``,  ``2.10.0-2``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.9.3-0``
+      ``2.12.0-0``,  ``2.11.1-3``,  ``2.11.1-2``,  ``2.11.1-1``,  ``2.11.1-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.0-3``,  ``2.10.0-2``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.9.3-0``
 
       
       .. raw:: html
@@ -48,31 +48,27 @@ openstructure
    
    :depends on __osx: ``>=10.13``
    :depends on fftw: ``>=3.3.11,<4.0a0``
-   :depends on glew: ``>=2.3.0,<2.4.0a0``
-   :depends on glfw: ``>=3.4,<4.0a0``
-   :depends on khronos-opencl-icd-loader: ``>=2024.10.24``
    :depends on libboost: ``>=1.86.0,<1.87.0a0``
    :depends on libboost-python: ``>=1.86.0,<1.87.0a0``
-   :depends on libcxx: ``>=20``
+   :depends on libcxx: ``>=21``
    :depends on libgfortran: 
-   :depends on libgfortran5: ``>=14.3.0``
+   :depends on libgfortran5: ``>=14.4.0``
    :depends on libpng: ``>=1.6.58,<1.7.0a0``
-   :depends on libsqlite: ``>=3.53.1,<4.0a0``
-   :depends on libtiff: ``>=4.7.1,<4.8.0a0``
+   :depends on libsqlite: ``>=3.53.4,<4.0a0``
+   :depends on libtiff: ``>=4.7.2,<4.8.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on networkx: ``>=3.4.2,<4.0a0``
    :depends on numpy: ``>=1.21,<3``
    :depends on numpy: ``>=2.2.6,<3.0a0``
    :depends on ocl_icd_wrapper_apple: 
-   :depends on openmm: ``>=8.5.1,<9.0a0``
-   :depends on pandas: ``>=2.3.3,<3.0a0``
+   :depends on openmm: ``>=8.5.2,<9.0a0``
    :depends on parasail: ``>=2.6.2,<3.0a0``
    :depends on pyqt: ``>=5.15.11,<5.16.0a0``
    :depends on python: ``>=3.10,<3.11.0a0 *_cpython``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on qt: ``>=5.15.15,<5.16.0a0``
-   :depends on scipy: ``>=1.13.1,<2.0a0``
-   :depends on voronota: ``>=1.29.4781,<2.0a0``
+   :depends on scipy: ``>=1.15.2,<2.0a0``
+   :depends on voronota: 
 
    :additional platforms:
       
@@ -151,7 +147,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "openstructure";
-      var versions = ["2.11.1","2.11.1","2.11.1","2.11.1","2.11.0"];
+      var versions = ["2.12.0","2.11.1","2.11.1","2.11.1","2.11.1"];
    </script>
 
 .. rubric:: Download stats

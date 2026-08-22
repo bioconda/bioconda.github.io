@@ -13,8 +13,11 @@ genrich
    Detecting sites of genomic enrichment.
 
    :homepage: https://github.com/jsh58/Genrich
-   :license: MIT
+   :documentation: https://github.com/jsh58/Genrich/blob/v0.6.1/README.md
+   
+   :license: MIT / MIT
    :recipe: /`genrich <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genrich>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genrich/meta.yaml>`_
+   :links: usegalaxy-eu: :usegalaxy-eu:`genrich`
 
    
 
@@ -27,15 +30,19 @@ genrich
       
       
 
-      ``0.6.1-5``,  ``0.6.1-4``,  ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6-0``,  ``0.5-0``
+      ``0.6.1-6``,  ``0.6.1-5``,  ``0.6.1-4``,  ``0.6.1-3``,  ``0.6.1-2``,  ``0.6.1-1``,  ``0.6.1-0``,  ``0.6-0``,  ``0.5-0``
 
       
 
    
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on zlib: 
+   :depends on __osx: ``>=10.13``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 

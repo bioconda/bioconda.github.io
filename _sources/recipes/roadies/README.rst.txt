@@ -10,7 +10,7 @@ roadies
    :replaces_section_title:
    :noindex:
 
-   Reference\-free Orthology\-free Alignment\-free DIscordance aware Estimation of Species tree \(ROADIES\).
+   Reference\-free\, orthology\-free\, discordance\-aware species tree estimation from raw genome assemblies.
 
    :homepage: https://github.com/TurakhiaLab/ROADIES
    :documentation: https://turakhia.ucsd.edu/ROADIES
@@ -19,7 +19,7 @@ roadies
    :recipe: /`roadies <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/roadies>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/roadies/meta.yaml>`_
    :links: doi: :doi:`10.1101/2024.05.27.596098`
 
-   ROADIES is an end\-to\-end pipeline designed for phylogenetic tree inference of the species directly from their raw genomic assemblies. ROADIES offers a fully automated\, easy\-to\-use\, scalable solution\, eliminating any error\-prone manual steps and providing unique flexibility in adjusting the tradeoff between accuracy and runtime.
+   ROADIES is an end\-to\-end pipeline designed for phylogenetic tree inference of the species directly from their raw genomic assemblies. ROADIES offers a fully automated\, easy\-to\-use\, scalable solution\, eliminating any error\-prone manual steps and providing unique flexibility in adjusting the tradeoff between accuracy and runtime. ROADIES\_XP extends this with GPU\-accelerated alignment\/tree\-building and a placement mode for growing or updating an existing species tree with new genomes.
 
 
 
@@ -31,20 +31,25 @@ roadies
       
       
 
-      ``0.1.10-0``,  ``0.1.8-0``,  ``0.1.4-0``
+      ``0.2.0-0``,  ``0.1.10-0``,  ``0.1.8-0``,  ``0.1.4-0``
 
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on alive-progress: 
    :depends on aster: ``>=1.19``
    :depends on biopython: 
    :depends on boost-cpp: 
+   :depends on epa-ng: 
    :depends on ete3: 
    :depends on fasttree: ``>=2.1.11``
+   :depends on gappa: 
    :depends on lastz: ``>=1.04.52``
-   :depends on libcxx: ``>=18``
-   :depends on libzlib: ``>=1.2.13,<2.0a0``
+   :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on liblapack: ``>=3.9.0,<4.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on mash: ``>=2``
    :depends on mashtree: ``1.4.6``
    :depends on matplotlib-base: 
@@ -54,13 +59,14 @@ roadies
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-bioperl: ``>=1.7.2``
    :depends on perl-module-build: ``0.4234.*``
-   :depends on python: ``>=3.9,<3.10.0a0``
-   :depends on python_abi: ``3.9.* *_cp39``
+   :depends on python: ``>=3.11,<3.12.0a0``
+   :depends on python_abi: ``3.11.* *_cp311``
    :depends on pyyaml: 
    :depends on quicktree: 
    :depends on raxml-ng: 
    :depends on seaborn-base: 
    :depends on snakemake-minimal: 
+   :depends on tbb: ``>=2022.3.0``
    :depends on treeswift: ``>=1.1.28``
 
    :additional platforms:
@@ -136,7 +142,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "roadies";
-      var versions = ["0.1.10","0.1.8","0.1.4"];
+      var versions = ["0.2.0","0.1.10","0.1.8","0.1.4"];
    </script>
 
 .. rubric:: Download stats

@@ -475,13 +475,19 @@
 <dd><p>mosaicatcher: counts Strand-seq reads and classifies strand states of each chromosome in each cell using a Hidden Markov Model.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="github reference external" href="https://github.com/friendsofstrandseq/mosaicatcher/">friendsofstrandseq/mosaicatcher</a></p>
+<dd class="field-odd"><p><a class="github reference external" href="https://github.com/friendsofstrandseq/mosaicatcher">friendsofstrandseq/mosaicatcher</a></p>
 </dd>
-<dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>MIT / MIT License</p>
+<dt class="field-even">Documentation<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="github reference external" href="https://github.com/friendsofstrandseq/mosaicatcher/blob/0.3.1-bioconda/README.md">friendsofstrandseq/mosaicatcher</a></p>
 </dd>
-<dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mosaicatcher">mosaicatcher</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mosaicatcher/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">License<span class="colon">:</span></dt>
+<dd class="field-odd"><p>MIT / MIT</p>
+</dd>
+<dt class="field-even">Recipe<span class="colon">:</span></dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mosaicatcher">mosaicatcher</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mosaicatcher/meta.yaml">meta.yaml</a></p>
+</dd>
+<dt class="field-odd">Links<span class="colon">:</span></dt>
+<dd class="field-odd"><p>doi: <a class="extlink-doi reference external" href="https://doi.org/10.1038/nmeth.2206">10.1038/nmeth.2206</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -490,19 +496,23 @@
 <dt class="sig sig-object conda" id="package-mosaicatcher">
 <span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">mosaicatcher</span></span><a class="headerlink" href="#package-mosaicatcher" title="Link to this definition">#</a></dt>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/mosaicatcher"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/mosaicatcher.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/mosaicatcher"><img alt="docker_mosaicatcher" src="https://quay.io/repository/biocontainers/mosaicatcher/status" /></a></p>
-<dl class="field-list simple">
+<dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.3.1-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.1-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.1-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.3.1-5</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.1-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.1-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.1-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.1-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">boost-cpp</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.78.0,&lt;1.78.1.0a0</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">htslib</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.17,&lt;1.24.0a0</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libcxx</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=15.0.7</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">__glibc</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=2.17,&lt;3.0.a0</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">boost-cpp</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">bzip2</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.0.8,&lt;2.0a0</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">htslib</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.24,&lt;1.25.0a0</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libgcc</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libstdcxx</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libzlib</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.3.2,&lt;2.0a0</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><p></p></dd>
+<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
 </dl>
 </dd></dl>
 
@@ -557,7 +567,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "mosaicatcher";
-   var versions = ["0.3.1","0.3.1","0.3.1","0.3.1"];
+   var versions = ["0.3.1","0.3.1","0.3.1","0.3.1","0.3.1"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_mosaicatcher"></div>
 <div style="width: 100%" id="platform_plot_mosaicatcher"></div>

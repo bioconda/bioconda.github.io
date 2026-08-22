@@ -27,7 +27,7 @@ markadoros
       
       
 
-      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
+      ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -37,15 +37,14 @@ markadoros
    :depends on hifiasm: ``>=0.21.0``
    :depends on jsonschema: ``>=4.26.0``
    :depends on loguru: ``>=0.7.3``
-   :depends on mmseqs2: ``>=16.747c6``
+   :depends on mmseqs2: ``>=18.8cc5c``
    :depends on pandas: ``>=2.3.3``
    :depends on polars: ``>=1.39.3``
-   :depends on pymmseqs: ``>=1.0.7``
+   :depends on pymmseqs: ``>=1.1.0``
    :depends on pysam: ``>=0.23.3``
    :depends on python: ``>=3.11``
    :depends on python-isal: ``>=1.8.0``
    :depends on requests: ``>=2.33.1``
-   :depends on scikit-learn: ``>=1.8.0``
    :depends on spades: ``>=4.0.0``
 
    :additional platforms:
@@ -121,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "markadoros";
-      var versions = ["1.2.0","1.1.0","1.0.0"];
+      var versions = ["1.2.1","1.2.0","1.1.0","1.0.0"];
    </script>
 
 .. rubric:: Download stats

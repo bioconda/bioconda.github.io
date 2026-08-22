@@ -492,7 +492,7 @@ Bruijn graph over a ladder of k-mer sizes, simplifies it, resolves repeats with
 paired-end information, closes gaps and polishes the result, in C++17 with no
 dependencies beyond a compiler, zlib and pthreads.</p>
 <p>Where a repeat is longer than a sequencing fragment there is no paired evidence to
-settle it, and tessera stops rather than guessing. Supplying a genus model built from
+settle it, and TesserACT stops rather than guessing. Supplying a genus model built from
 closed genomes of the same organism lets it settle those junctions from independent
 evidence instead. Measured on 666 Klebsiella pneumoniae isolates that each have a closed
 reference genome, with leave-cluster-out models so no test genome is in its own panel:
@@ -509,7 +509,7 @@ complete replicons. Pre-built Klebsiella models are attached to the GitHub relea
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/tesseract-assembler"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/tesseract-assembler.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/tesseract-assembler"><img alt="docker_tesseract-assembler" src="https://quay.io/repository/biocontainers/tesseract-assembler/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.2.2-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.2.4-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.2.2-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
@@ -574,7 +574,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "tesseract-assembler";
-   var versions = ["1.2.2"];
+   var versions = ["1.2.4","1.2.2"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_tesseract-assembler"></div>
 <div style="width: 100%" id="platform_plot_tesseract-assembler"></div>

@@ -24,7 +24,7 @@ tesseract-assembler
    dependencies beyond a compiler\, zlib and pthreads.
 
    Where a repeat is longer than a sequencing fragment there is no paired evidence to
-   settle it\, and tessera stops rather than guessing. Supplying a genus model built from
+   settle it\, and TesserACT stops rather than guessing. Supplying a genus model built from
    closed genomes of the same organism lets it settle those junctions from independent
    evidence instead. Measured on 666 Klebsiella pneumoniae isolates that each have a closed
    reference genome\, with leave\-cluster\-out models so no test genome is in its own panel\:
@@ -45,7 +45,7 @@ tesseract-assembler
       
       
 
-      ``1.2.2-0``
+      ``1.2.4-0``,  ``1.2.2-0``
 
       
 
@@ -131,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "tesseract-assembler";
-      var versions = ["1.2.2"];
+      var versions = ["1.2.4","1.2.2"];
    </script>
 
 .. rubric:: Download stats

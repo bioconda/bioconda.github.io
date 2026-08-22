@@ -27,20 +27,25 @@ breakinator
       
       
 
-      ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.1-0``
+      ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.3-0``,  ``1.0.1-0``
 
       
 
    
-   :depends on htslib: ``>=1.23,<1.24.0a0``
-   :depends on libcurl: ``>=8.18.0,<9.0a0``
-   :depends on liblzma: ``>=5.8.1,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on openssl: ``>=3.6.0,<4.0a0``
+   :depends on __osx: ``>=10.13``
+   :depends on htslib: ``>=1.24,<1.25.0a0``
+   :depends on libcurl: ``>=8.21.0,<9.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on openssl: ``>=3.5.7,<4.0a0``
    :depends on xz: 
    :depends on zlib: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -113,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "breakinator";
-      var versions = ["1.1.1","1.1.1","1.1.0","1.0.3","1.0.1"];
+      var versions = ["1.1.1","1.1.1","1.1.1","1.1.0","1.0.3"];
    </script>
 
 .. rubric:: Download stats

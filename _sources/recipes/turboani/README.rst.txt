@@ -13,7 +13,7 @@ turboani
    TurboANI is a super fast homology\-aware average nucleotide identity estimation algorithm at unprecedented scale
 
    :homepage: https://github.com/jianshu93/turboani
-   :documentation: https://github.com/jianshu93/turboani/blob/v0.1.7/README.md
+   :documentation: https://github.com/jianshu93/turboani/blob/v0.1.8/README.md
    
    :license: MIT / MIT
    :recipe: /`turboani <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/turboani>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/turboani/meta.yaml>`_
@@ -29,13 +29,13 @@ turboani
       
       
 
-      ``0.1.7-0``,  ``0.1.6-0``
+      ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``
 
       
 
    
    :depends on __osx: ``>=10.13``
-   :depends on fontconfig: ``>=2.18.1,<3.0a0``
+   :depends on fontconfig: ``>=2.18.3,<3.0a0``
    :depends on fonts-conda-ecosystem: 
    :depends on freetype: 
    :depends on libcxx: ``>=19``
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "turboani";
-      var versions = ["0.1.7","0.1.6"];
+      var versions = ["0.1.8","0.1.7","0.1.6"];
    </script>
 
 .. rubric:: Download stats

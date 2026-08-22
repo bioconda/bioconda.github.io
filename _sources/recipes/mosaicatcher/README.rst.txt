@@ -12,9 +12,12 @@ mosaicatcher
 
    mosaicatcher\: counts Strand\-seq reads and classifies strand states of each chromosome in each cell using a Hidden Markov Model.
 
-   :homepage: https://github.com/friendsofstrandseq/mosaicatcher/
-   :license: MIT / MIT License
+   :homepage: https://github.com/friendsofstrandseq/mosaicatcher
+   :documentation: https://github.com/friendsofstrandseq/mosaicatcher/blob/0.3.1-bioconda/README.md
+   
+   :license: MIT / MIT
    :recipe: /`mosaicatcher <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mosaicatcher>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mosaicatcher/meta.yaml>`_
+   :links: doi: :doi:`10.1038/nmeth.2206`
 
    
 
@@ -27,16 +30,24 @@ mosaicatcher
       
       
 
-      ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``
+      ``0.3.1-5``,  ``0.3.1-3``,  ``0.3.1-2``,  ``0.3.1-1``,  ``0.3.1-0``
 
       
 
    
-   :depends on boost-cpp: ``>=1.78.0,<1.78.1.0a0``
-   :depends on htslib: ``>=1.17,<1.24.0a0``
-   :depends on libcxx: ``>=15.0.7``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on boost-cpp: 
+   :depends on bzip2: ``>=1.0.8,<2.0a0``
+   :depends on htslib: ``>=1.24,<1.25.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -109,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mosaicatcher";
-      var versions = ["0.3.1","0.3.1","0.3.1","0.3.1"];
+      var versions = ["0.3.1","0.3.1","0.3.1","0.3.1","0.3.1"];
    </script>
 
 .. rubric:: Download stats

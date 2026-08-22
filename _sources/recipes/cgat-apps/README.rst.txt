@@ -30,10 +30,10 @@ cgat-apps
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.10-1</code>,  <code>0.7.10-0</code>,  <code>0.7.4-0</code>,  <code>0.7.2-1</code>,  <code>0.7.2-0</code>,  <code>0.7.0-0</code>,  <code>0.6.5-3</code>,  <code>0.6.5-2</code>,  <code>0.6.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.11-0</code>,  <code>0.7.10-1</code>,  <code>0.7.10-0</code>,  <code>0.7.4-0</code>,  <code>0.7.2-1</code>,  <code>0.7.2-0</code>,  <code>0.7.0-0</code>,  <code>0.6.5-3</code>,  <code>0.6.5-2</code>,  </span></summary>
       
 
-      ``0.7.10-1``,  ``0.7.10-0``,  ``0.7.4-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.0-0``,  ``0.6.5-3``,  ``0.6.5-2``,  ``0.6.5-1``,  ``0.6.5-0``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``
+      ``0.7.11-0``,  ``0.7.10-1``,  ``0.7.10-0``,  ``0.7.4-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.0-0``,  ``0.6.5-3``,  ``0.6.5-2``,  ``0.6.5-1``,  ``0.6.5-0``,  ``0.6.4-1``,  ``0.6.4-0``,  ``0.6.0-2``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-0``,  ``0.5.3-0``
 
       
       .. raw:: html
@@ -42,19 +42,20 @@ cgat-apps
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on alignlib-lite: 
    :depends on biopython: 
    :depends on cgatcore: 
    :depends on coreutils: 
    :depends on grep: 
-   :depends on htslib: ``>=1.21,<1.24.0a0``
-   :depends on libcxx: ``>=18``
+   :depends on htslib: ``>=1.24,<1.25.0a0``
+   :depends on libcxx: ``>=19``
    :depends on matplotlib-base: 
-   :depends on numpy: ``>=1.22.4,<2.0a0``
+   :depends on numpy: ``>=1.21,<3``
    :depends on pandas: 
    :depends on pybedtools: 
    :depends on pybigwig: 
-   :depends on pysam: ``>=0.22.1,<0.23.0a0``
+   :depends on pysam: ``>=0.24.0,<0.25.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on pyyaml: 
@@ -62,12 +63,14 @@ cgat-apps
    :depends on scikit-learn: 
    :depends on scipy: 
    :depends on sortedcontainers: 
+   :depends on ucsc-bedgraphtobigwig: 
+   :depends on ucsc-wigtobigwig: 
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>osx-arm64</code>,  <code>linux-aarch64</code></span>
       
 
 
@@ -140,7 +143,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cgat-apps";
-      var versions = ["0.7.10","0.7.10","0.7.4","0.7.2","0.7.2"];
+      var versions = ["0.7.11","0.7.10","0.7.10","0.7.4","0.7.2"];
    </script>
 
 .. rubric:: Download stats

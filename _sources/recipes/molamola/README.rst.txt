@@ -13,6 +13,8 @@ molamola
    Plot Oxford Nanopore variation as self\-contained HTML reports.
 
    :homepage: https://github.com/martinandclaude/molamola
+   :documentation: https://martinandclaude.github.io/molamola/
+   
    :license: MIT / MIT
    :recipe: /`molamola <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/molamola>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/molamola/meta.yaml>`_
 
@@ -41,7 +43,7 @@ molamola
       
       
 
-      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.5.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -126,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "molamola";
-      var versions = ["0.3.0","0.2.0","0.1.0"];
+      var versions = ["0.5.0","0.3.0","0.2.0","0.1.0"];
    </script>
 
 .. rubric:: Download stats

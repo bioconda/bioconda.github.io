@@ -13,8 +13,11 @@ mrsfast
    mrsFAST \- micro\-read substitution\-only Fast Alignment Search Tool.
 
    :homepage: https://github.com/sfu-compbio/mrsfast
-   :license: BSD
+   :documentation: https://sfu-compbio.github.io/mrsfast
+   
+   :license: BSD / BSD-3-Clause
    :recipe: /`mrsfast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mrsfast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mrsfast/meta.yaml>`_
+   :links: biotools: :biotools:`mrsfast`, biotools: :biotools:`mrsfast-ultra`, doi: :doi:`10.1038/nmeth0810-576`
 
    
 
@@ -27,15 +30,19 @@ mrsfast
       
       
 
-      ``3.4.2-5``,  ``3.4.2-4``,  ``3.4.2-3``,  ``3.4.2-2``,  ``3.4.2-1``,  ``3.4.2-0``,  ``3.4.1-0``
+      ``3.4.2-6``,  ``3.4.2-5``,  ``3.4.2-4``,  ``3.4.2-3``,  ``3.4.2-2``,  ``3.4.2-1``,  ``3.4.2-0``,  ``3.4.1-0``
 
       
 
    
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on zlib: 
+   :depends on __osx: ``>=10.13``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 

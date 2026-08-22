@@ -10,11 +10,14 @@ minimac4
    :replaces_section_title:
    :noindex:
 
-   Computationally efficient genotype imputation
+   Computationally efficient genotype imputation.
 
    :homepage: https://github.com/statgen/Minimac4
-   :license: GPL-3.0-or-later
+   :documentation: https://genome.sph.umich.edu/wiki/Minimac4_Documentation
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`minimac4 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minimac4>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minimac4/meta.yaml>`_
+   :links: biotools: :biotools:`minimac4`
 
    Minimac4 is a lower memory and more computationally efficient implementation of the genotype imputation algorithms in minimac\/mininac2\/minimac3.
 
@@ -27,19 +30,25 @@ minimac4
       
       
 
-      ``4.1.6-1``,  ``4.1.6-0``
+      ``4.1.6-2``,  ``4.1.6-1``,  ``4.1.6-0``
 
       
 
    
-   :depends on bcftools: ``>=1.21,<2.0a0``
+   :depends on __osx: ``>=10.13``
+   :depends on bcftools: ``>=1.24,<2.0a0``
    :depends on cget: 
-   :depends on libgcc: ``>=13``
-   :depends on liblzma: ``>=5.6.3,<6.0a0``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libcxx: ``>=13.0.1``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on python: ``<3.14``
+   :depends on savvy: ``>=2.2.0,<3.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -112,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "minimac4";
-      var versions = ["4.1.6","4.1.6"];
+      var versions = ["4.1.6","4.1.6","4.1.6"];
    </script>
 
 .. rubric:: Download stats

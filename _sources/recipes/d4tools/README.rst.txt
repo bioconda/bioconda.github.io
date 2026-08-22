@@ -13,7 +13,7 @@ d4tools
    The D4 command line utility program.
 
    :homepage: https://github.com/38/d4-format
-   :documentation: https://github.com/38/d4-format/blob/v0.3.11/README.md
+   :documentation: https://github.com/38/d4-format/blob/6f4031309958a7a1e471c9081369f2012d82705e/README.md
    
    :license: MIT / MIT
    :recipe: /`d4tools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/d4tools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/d4tools/meta.yaml>`_
@@ -31,10 +31,10 @@ d4tools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.11-3</code>,  <code>0.3.11-2</code>,  <code>0.3.11-1</code>,  <code>0.3.11-0</code>,  <code>0.3.10-1</code>,  <code>0.3.10-0</code>,  <code>0.3.8-1</code>,  <code>0.3.8-0</code>,  <code>0.3.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.11.post0-0</code>,  <code>0.3.11-3</code>,  <code>0.3.11-2</code>,  <code>0.3.11-1</code>,  <code>0.3.11-0</code>,  <code>0.3.10-1</code>,  <code>0.3.10-0</code>,  <code>0.3.8-1</code>,  <code>0.3.8-0</code>,  </span></summary>
       
 
-      ``0.3.11-3``,  ``0.3.11-2``,  ``0.3.11-1``,  ``0.3.11-0``,  ``0.3.10-1``,  ``0.3.10-0``,  ``0.3.8-1``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.4-0``
+      ``0.3.11.post0-0``,  ``0.3.11-3``,  ``0.3.11-2``,  ``0.3.11-1``,  ``0.3.11-0``,  ``0.3.10-1``,  ``0.3.10-0``,  ``0.3.8-1``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.4-0``
 
       
       .. raw:: html
@@ -43,7 +43,12 @@ d4tools
       
 
    
+   :depends on __osx: ``>=10.13``
+   :depends on bzip2: ``>=1.0.8,<2.0a0``
+   :depends on htslib: ``>=1.24,<1.25.0a0``
    :depends on libcxx: ``>=16``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on starcode: 
 
    :additional platforms:
@@ -123,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "d4tools";
-      var versions = ["0.3.11","0.3.11","0.3.11","0.3.11","0.3.10"];
+      var versions = ["0.3.11.post0","0.3.11","0.3.11","0.3.11","0.3.11"];
    </script>
 
 .. rubric:: Download stats

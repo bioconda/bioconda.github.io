@@ -32,10 +32,10 @@ orthologer
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.9.1-0</code>,  <code>3.9.0-0</code>,  <code>3.8.2-0</code>,  <code>3.8.1-0</code>,  <code>3.8.0-0</code>,  <code>3.7.1-0</code>,  <code>3.5.0-1</code>,  <code>3.5.0-0</code>,  <code>3.4.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.9.1-1</code>,  <code>3.9.1-0</code>,  <code>3.9.0-0</code>,  <code>3.8.2-0</code>,  <code>3.8.1-0</code>,  <code>3.8.0-0</code>,  <code>3.7.1-0</code>,  <code>3.5.0-1</code>,  <code>3.5.0-0</code>,  </span></summary>
       
 
-      ``3.9.1-0``,  ``3.9.0-0``,  ``3.8.2-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.1-0``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.2-0``,  ``3.3.1-0``
+      ``3.9.1-1``,  ``3.9.1-0``,  ``3.9.0-0``,  ``3.8.2-0``,  ``3.8.1-0``,  ``3.8.0-0``,  ``3.7.1-0``,  ``3.5.0-1``,  ``3.5.0-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.2-0``,  ``3.3.1-0``
 
       
       .. raw:: html
@@ -136,7 +136,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "orthologer";
-      var versions = ["3.9.1","3.9.0","3.8.2","3.8.1","3.8.0"];
+      var versions = ["3.9.1","3.9.1","3.9.0","3.8.2","3.8.1"];
    </script>
 
 .. rubric:: Download stats

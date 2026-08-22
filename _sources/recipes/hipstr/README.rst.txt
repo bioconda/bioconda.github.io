@@ -10,10 +10,12 @@ hipstr
    :replaces_section_title:
    :noindex:
 
-   Genotype and phase short tandem repeats using Illumina whole\-genome sequencing data
+   Genotype and phase short tandem repeats using Illumina whole\-genome sequencing data.
 
    :homepage: https://github.com/tfwillems/HipSTR
-   :license: GPL-2.0-only
+   :documentation: https://github.com/tfwillems/HipSTR/blob/v0.7/README.md
+   
+   :license: GPL / GPL-2.0-only
    :recipe: /`hipstr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hipstr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hipstr/meta.yaml>`_
    :links: doi: :doi:`10.1038/nmeth.4267`, biotools: :biotools:`hipstr`
 
@@ -28,7 +30,7 @@ hipstr
       
       
 
-      ``0.7-0``
+      ``0.7-1``,  ``0.7-0``
 
       
 
@@ -41,6 +43,10 @@ hipstr
    :depends on python: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -113,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "hipstr";
-      var versions = ["0.7"];
+      var versions = ["0.7","0.7"];
    </script>
 
 .. rubric:: Download stats

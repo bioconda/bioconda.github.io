@@ -13,7 +13,7 @@ skiver
    Reference\-free quality control and error estimation for sequencing reads
 
    :homepage: https://github.com/GZHoffie/skiver
-   :documentation: https://github.com/GZHoffie/skiver/blob/v0.3.1/README.md
+   :documentation: https://github.com/GZHoffie/skiver/blob/v0.3.2/README.md
    
    :license: MIT / MIT
    :recipe: /`skiver <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/skiver>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/skiver/meta.yaml>`_
@@ -30,7 +30,7 @@ skiver
       
       
 
-      ``0.3.1-0``,  ``0.3.0-0``
+      ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-0``
 
       
 
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "skiver";
-      var versions = ["0.3.1","0.3.0"];
+      var versions = ["0.3.2","0.3.1","0.3.0"];
    </script>
 
 .. rubric:: Download stats

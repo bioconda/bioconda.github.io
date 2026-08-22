@@ -29,7 +29,7 @@ nanometa-live
       
       
 
-      ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.1.1-0``
+      ``0.11.1-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.1.1-0``
 
       
 
@@ -37,17 +37,20 @@ nanometa-live
    :depends on biopython: ``>=1.80``
    :depends on blast: ``>=2.13.0``
    :depends on dash: ``>=2.8.1``
+   :depends on dash-ag-grid: 
    :depends on dash-bootstrap-components: ``>=1.3.1``
    :depends on dash-daq: ``>=0.5.0``
+   :depends on diskcache: 
    :depends on fastp: ``>=0.23.2``
    :depends on gzip: ``>=1.10``
    :depends on kraken2: ``>=2.1.2``
+   :depends on multiprocess: 
    :depends on ncbi-datasets-cli: ``>=15.20.0``
    :depends on numpy: ``>=1.24.1``
    :depends on pandas: ``>=1.5.3``
    :depends on plotly: ``>=5.13.0``
    :depends on pytest: ``>=7.2.1``
-   :depends on python: ``>=3.9``
+   :depends on python: ``>=3.11``
    :depends on pyyaml: ``>=6.0``
    :depends on ruamel.yaml: ``>=0.17.32``
    :depends on snakemake-minimal: ``>=7.20.0``
@@ -126,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "nanometa-live";
-      var versions = ["0.4.3","0.4.2","0.4.1","0.4.0","0.3.1"];
+      var versions = ["0.11.1","0.4.3","0.4.2","0.4.1","0.4.0"];
    </script>
 
 .. rubric:: Download stats

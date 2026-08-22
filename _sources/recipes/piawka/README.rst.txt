@@ -34,10 +34,10 @@ piawka
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.0-0</code>,  <code>0.8.11-0</code>,  <code>0.8.10-0</code>,  <code>0.8.9-0</code>,  <code>0.8.8-0</code>,  <code>0.8.7-0</code>,  <code>0.8.6-0</code>,  <code>0.8.5-0</code>,  <code>0.8.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.1-0</code>,  <code>0.9.0-0</code>,  <code>0.8.11-0</code>,  <code>0.8.10-0</code>,  <code>0.8.9-0</code>,  <code>0.8.8-0</code>,  <code>0.8.7-0</code>,  <code>0.8.6-0</code>,  <code>0.8.5-0</code>,  </span></summary>
       
 
-      ``0.9.0-0``,  ``0.8.11-0``,  ``0.8.10-0``,  ``0.8.9-0``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.7.10-0``
+      ``0.9.1-0``,  ``0.9.0-0``,  ``0.8.11-0``,  ``0.8.10-0``,  ``0.8.9-0``,  ``0.8.8-0``,  ``0.8.7-0``,  ``0.8.6-0``,  ``0.8.5-0``,  ``0.8.4-0``,  ``0.8.2-0``,  ``0.8.1-0``,  ``0.7.10-0``
 
       
       .. raw:: html
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "piawka";
-      var versions = ["0.9.0","0.8.11","0.8.10","0.8.9","0.8.8"];
+      var versions = ["0.9.1","0.9.0","0.8.11","0.8.10","0.8.9"];
    </script>
 
 .. rubric:: Download stats

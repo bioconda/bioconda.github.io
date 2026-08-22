@@ -12,12 +12,11 @@ sirius-csifingerid
 
    SIRIUS \(CLI \+ GUI\) LC\-MS\/MS data analyses framework. Includes\: SIRIUS\, ZODIAC\, CSI\:FingerID \(with COSMIC\) and CANOPUS
 
-   :homepage: https://bio.informatik.uni-jena.de/software/sirius/
-   :documentation: https://boecker-lab.github.io/docs.sirius.github.io/
-   
-   :developer docs: https://github.com/boecker-lab/sirius
-   :license: AGPL-3.0-only AND OTHER
+   :homepage: https://v6.docs.sirius-ms.io/
+   :developer docs: https://github.com/sirius-ms/sirius
+   :license: AGPL-3.0-or-later AND OTHER
    :recipe: /`sirius-csifingerid <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sirius-csifingerid>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sirius-csifingerid/meta.yaml>`_
+   :links: doi: :doi:`10.1038/s41592-019-0344-8`
 
    SIRIUS is a java\-based software framework for the analysis of LC\-MS\/MS data of metabolites and other small molecules of biological interest. SIRIUS integrates a collection of our tools\, including CSI\:FingerID \(with COSMIC\)\, ZODIAC and CANOPUS.  In particular\, both the graphical user interface and the command line version of SIRIUS seamlessly integrate the CSI\:FingerID and CANOPUS web services.
 
@@ -31,10 +30,10 @@ sirius-csifingerid
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.8.6-0</code>,  <code>5.8.5-0</code>,  <code>5.8.4-0</code>,  <code>5.8.3-0</code>,  <code>5.8.2-0</code>,  <code>4.9.15-3</code>,  <code>4.9.15-2</code>,  <code>4.9.15-1</code>,  <code>4.9.15-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>6.3.12-0</code>,  <code>5.8.6-0</code>,  <code>5.8.5-0</code>,  <code>5.8.4-0</code>,  <code>5.8.3-0</code>,  <code>5.8.2-0</code>,  <code>4.9.15-3</code>,  <code>4.9.15-2</code>,  <code>4.9.15-1</code>,  </span></summary>
       
 
-      ``5.8.6-0``,  ``5.8.5-0``,  ``5.8.4-0``,  ``5.8.3-0``,  ``5.8.2-0``,  ``4.9.15-3``,  ``4.9.15-2``,  ``4.9.15-1``,  ``4.9.15-0``,  ``4.9.8-2``,  ``4.9.8-1``,  ``4.9.8-0``,  ``4.9.4-0``,  ``4.9.3-0``,  ``4.0.1-1``,  ``4.0.1-0``
+      ``6.3.12-0``,  ``5.8.6-0``,  ``5.8.5-0``,  ``5.8.4-0``,  ``5.8.3-0``,  ``5.8.2-0``,  ``4.9.15-3``,  ``4.9.15-2``,  ``4.9.15-1``,  ``4.9.15-0``,  ``4.9.8-2``,  ``4.9.8-1``,  ``4.9.8-0``,  ``4.9.4-0``,  ``4.9.3-0``,  ``4.0.1-1``,  ``4.0.1-0``
 
       
       .. raw:: html
@@ -44,7 +43,7 @@ sirius-csifingerid
 
    
    :depends on coin-or-cbc: 
-   :depends on openjdk: ``17.*``
+   :depends on openjdk: ``25.*``
 
    :additional platforms:
       
@@ -119,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "sirius-csifingerid";
-      var versions = ["5.8.6","5.8.5","5.8.4","5.8.3","5.8.2"];
+      var versions = ["6.3.12","5.8.6","5.8.5","5.8.4","5.8.3"];
    </script>
 
 .. rubric:: Download stats

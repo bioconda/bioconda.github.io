@@ -13,7 +13,7 @@ dicey
    In\-silico PCR and variant primer design.
 
    :homepage: https://github.com/gear-genomics/dicey
-   :documentation: https://github.com/gear-genomics/dicey/blob/v0.3.4/README.md
+   :documentation: https://github.com/gear-genomics/dicey/blob/v0.5.1/README.md
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`dicey <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dicey>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dicey/meta.yaml>`_
@@ -31,10 +31,10 @@ dicey
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.4-0</code>,  <code>0.3.3-1</code>,  <code>0.3.3-0</code>,  <code>0.3.1-0</code>,  <code>0.2.8-0</code>,  <code>0.2.6-0</code>,  <code>0.2.3-2</code>,  <code>0.2.3-1</code>,  <code>0.2.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.1-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-1</code>,  <code>0.3.3-0</code>,  <code>0.3.1-0</code>,  <code>0.2.8-0</code>,  <code>0.2.6-0</code>,  <code>0.2.3-2</code>,  <code>0.2.3-1</code>,  </span></summary>
       
 
-      ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.1-0``,  ``0.2.8-0``,  ``0.2.6-0``,  ``0.2.3-2``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.1-0``,  ``0.1.8-3``,  ``0.1.8-2``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``
+      ``0.5.1-0``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.3.1-0``,  ``0.2.8-0``,  ``0.2.6-0``,  ``0.2.3-2``,  ``0.2.3-1``,  ``0.2.3-0``,  ``0.2.1-0``,  ``0.1.8-3``,  ``0.1.8-2``,  ``0.1.8-1``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``,  ``0.1.6-2``,  ``0.1.6-1``,  ``0.1.6-0``
 
       
       .. raw:: html
@@ -43,12 +43,13 @@ dicey
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on boost-cpp: 
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on htslib: ``>=1.22,<1.24.0a0``
-   :depends on libcxx: ``>=18``
-   :depends on libdeflate: ``>=1.22,<1.23.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on htslib: ``>=1.24,<1.25.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
       
@@ -127,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "dicey";
-      var versions = ["0.3.4","0.3.3","0.3.3","0.3.1","0.2.8"];
+      var versions = ["0.5.1","0.3.4","0.3.3","0.3.3","0.3.1"];
    </script>
 
 .. rubric:: Download stats

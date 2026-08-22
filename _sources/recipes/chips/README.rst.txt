@@ -13,8 +13,11 @@ chips
    ChIPs is a tool for simulating ChIP\-sequencing experiments.
 
    :homepage: https://github.com/gymreklab/chips
-   :license: GNU General Public License v3.0
+   :documentation: https://github.com/gymreklab/chips/blob/v2.4/README.md
+   
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`chips <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chips>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chips/meta.yaml>`_
+   :links: doi: :doi:`10.1186/s12859-021-04097-5`
 
    
 
@@ -26,19 +29,31 @@ chips
    :versions:
       
       
+      .. raw:: html
 
-      ``2.4-7``,  ``2.4-6``,  ``2.4-5``,  ``2.4-4``,  ``2.4-3``,  ``2.4-2``,  ``2.4-1``,  ``2.4-0``,  ``2.3-0``
+         <details><summary><span class="truncated-version-list"><code>2.4-9</code>,  <code>2.4-7</code>,  <code>2.4-6</code>,  <code>2.4-5</code>,  <code>2.4-4</code>,  <code>2.4-3</code>,  <code>2.4-2</code>,  <code>2.4-1</code>,  <code>2.4-0</code>,  </span></summary>
+      
 
+      ``2.4-9``,  ``2.4-7``,  ``2.4-6``,  ``2.4-5``,  ``2.4-4``,  ``2.4-3``,  ``2.4-2``,  ``2.4-1``,  ``2.4-0``,  ``2.3-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends on htslib: ``>=1.20,<1.24.0a0``
-   :depends on libgcc-ng: ``>=12``
-   :depends on libstdcxx-ng: ``>=12``
-   :depends on libzlib: ``>=1.2.13,<2.0a0``
-   :depends on zlib: 
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on htslib: ``>=1.24,<1.25.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 

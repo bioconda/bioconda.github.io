@@ -13,7 +13,7 @@ comebin
    COMEBin allows effective binning of metagenomic contigs using COntrastive Multi\-viEw representation learning
 
    :homepage: https://github.com/ziyewang/COMEBin
-   :license: BSD
+   :license: GPL-3.0-only
    :recipe: /`comebin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/comebin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/comebin/meta.yaml>`_
 
    
@@ -27,47 +27,35 @@ comebin
       
       
 
-      ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
+      ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``
 
       
 
    
-   :depends on atomicwrites: ``>=1.4.1``
-   :depends on bedtools: ``>=2.31.0``
-   :depends on biolib: ``>=0.1.6``
-   :depends on biopython: ``>=1.76``
-   :depends on bwa: ``>=0.7.17``
-   :depends on checkm-genome: ``>=1.2.3``
-   :depends on click: ``>=8.4.2``
-   :depends on fraggenescan: ``>=1.31``
-   :depends on gdown: ``>=6.1.0``
-   :depends on hmmer: ``>=3.4``
-   :depends on hnswlib: ``>=0.8.0``
-   :depends on igraph: ``>=1.0.0``
-   :depends on joblib: ``>=1.5.3``
-   :depends on leidenalg: ``>=0.12.0``
-   :depends on matplotlib-base: ``>=3.10``
-   :depends on matplotlib-inline: ``>=0.1.3``
-   :depends on networkx: ``>=3.6.1``
-   :depends on numba: ``>=0.66.0``
-   :depends on numpy: ``>=2.4.6``
-   :depends on pandas: ``>=3.0.3``
-   :depends on pplacer: ``>=1.1.alpha19``
-   :depends on prodigal: ``>=2.6.3``
-   :depends on python: ``>=3.13``
-   :depends on python-dateutil: ``>=2.8.2``
-   :depends on python-fastjsonschema: ``>=2.15.3``
-   :depends on pytorch: ``>=2.13.0``
-   :depends on pyyaml: ``>=6.0``
-   :depends on ruamel.yaml: ``>=0.19.1``
-   :depends on samtools: ``>=1.24``
-   :depends on scanpy: ``>=1.12.2``
-   :depends on scikit-learn: ``>=1.9.0``
-   :depends on scipy: ``>=1.18.0``
-   :depends on seaborn: ``>=0.13.2``
-   :depends on setuptools: ``>=80.9.0``
-   :depends on tensorboard: ``>=2.20.0``
-   :depends on tqdm: 
+   :depends on bedtools: ``>=2.31,<3``
+   :depends on biolib: ``>=0.1.9,<0.2``
+   :depends on biopython: ``>=1.85,<2``
+   :depends on bwa: ``>=0.7.17,<0.8``
+   :depends on checkm-genome: ``>=1.2,<2``
+   :depends on click: ``>=8,<9``
+   :depends on fraggenescan: ``>=1.31,<2``
+   :depends on hmmer: ``>=3.4,<4``
+   :depends on hnswlib: ``>=0.8,<1``
+   :depends on leidenalg: ``>=0.12,<0.13``
+   :depends on numpy: ``>=2,<3``
+   :depends on perl: 
+   :depends on pplacer: ``1.1.alpha19.*``
+   :depends on prodigal: ``>=2.6,<3``
+   :depends on python: ``>=3.11,<3.14``
+   :depends on python-igraph: ``>=1,<2``
+   :depends on pytorch: ``>=2.13,<2.14``
+   :depends on pyyaml: ``>=6,<7``
+   :depends on samtools: ``>=1.20,<2``
+   :depends on scikit-learn: ``>=1.5,<1.10``
+   :depends on scipy: ``>=1.13,<2``
+   :depends on setuptools: ``<82``
+   :depends on tensorboard: ``>=2.18,<3``
+   :depends on tqdm: ``>=4.66,<5``
 
    :additional platforms:
       
@@ -142,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "comebin";
-      var versions = ["1.1.0","1.1.0","1.0.4","1.0.4","1.0.3"];
+      var versions = ["1.1.0","1.1.0","1.1.0","1.0.4","1.0.4"];
    </script>
 
 .. rubric:: Download stats

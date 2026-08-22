@@ -27,7 +27,7 @@ restrander
       
       
 
-      ``1.1.3-0``
+      ``1.1.3-1``,  ``1.1.3-0``
 
       
 
@@ -37,6 +37,10 @@ restrander
    :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -109,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "restrander";
-      var versions = ["1.1.3"];
+      var versions = ["1.1.3","1.1.3"];
    </script>
 
 .. rubric:: Download stats

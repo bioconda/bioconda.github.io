@@ -31,10 +31,10 @@ gsmap
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.73.7-0</code>,  <code>1.73.6-0</code>,  <code>1.73.5-0</code>,  <code>1.73.4-0</code>,  <code>1.73.3-0</code>,  <code>1.73.2-0</code>,  <code>1.73.1-0</code>,  <code>1.73.0-0</code>,  <code>1.71.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.73.8-0</code>,  <code>1.73.7-0</code>,  <code>1.73.6-0</code>,  <code>1.73.5-0</code>,  <code>1.73.4-0</code>,  <code>1.73.3-0</code>,  <code>1.73.2-0</code>,  <code>1.73.1-0</code>,  <code>1.73.0-0</code>,  </span></summary>
       
 
-      ``1.73.7-0``,  ``1.73.6-0``,  ``1.73.5-0``,  ``1.73.4-0``,  ``1.73.3-0``,  ``1.73.2-0``,  ``1.73.1-0``,  ``1.73.0-0``,  ``1.71.2-0``,  ``1.71.1-0``,  ``1.70-0``
+      ``1.73.8-0``,  ``1.73.7-0``,  ``1.73.6-0``,  ``1.73.5-0``,  ``1.73.4-0``,  ``1.73.3-0``,  ``1.73.2-0``,  ``1.73.1-0``,  ``1.73.0-0``,  ``1.71.2-0``,  ``1.71.1-0``,  ``1.70-0``
 
       
       .. raw:: html
@@ -138,7 +138,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "gsmap";
-      var versions = ["1.73.7","1.73.6","1.73.5","1.73.4","1.73.3"];
+      var versions = ["1.73.8","1.73.7","1.73.6","1.73.5","1.73.4"];
    </script>
 
 .. rubric:: Download stats
