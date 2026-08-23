@@ -40,10 +40,10 @@ piscem
       
 
    
-   :depends on __osx: ``>=10.13``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=14``
    :depends on libjemalloc: ``>=5.3.0``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
       

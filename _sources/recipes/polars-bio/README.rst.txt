@@ -49,7 +49,7 @@ polars-bio
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on datafusion: ``>=53.0.0,<54``
    :depends on libcxx: ``>=19``
    :depends on polars: ``>=1.37.1``

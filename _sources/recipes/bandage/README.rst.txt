@@ -36,7 +36,8 @@ bandage
 
    
    :depends on fonts-conda-ecosystem: 
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on qt: ``>=5.15.2``
    :depends on xorg-libxrender: 
 

@@ -27,7 +27,7 @@ r-pathosurveilr
       
       
 
-      ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``
+      ``0.4.6-1``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``
 
       
 
@@ -36,7 +36,6 @@ r-pathosurveilr
    :depends on r-ape: 
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-base64enc: 
-   :depends on r-dt: 
    :depends on r-ggnewscale: 
    :depends on r-ggplot2: 
    :depends on r-heatmaply: 
@@ -132,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-pathosurveilr";
-      var versions = ["0.4.6","0.4.5","0.4.4","0.4.2","0.4.1"];
+      var versions = ["0.4.6","0.4.6","0.4.5","0.4.4","0.4.2"];
    </script>
 
 .. rubric:: Download stats

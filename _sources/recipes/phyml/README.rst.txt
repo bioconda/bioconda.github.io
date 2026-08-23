@@ -54,8 +54,9 @@ phyml
       
 
    
-   :depends on __osx: ``>=10.13``
-   :depends on llvm-openmp: ``>=19.1.7``
+   :depends on _openmp_mutex: ``>=4.5``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
    :depends on openmpi: ``>=4.1.6,<5.0a0``
 
    :additional platforms:

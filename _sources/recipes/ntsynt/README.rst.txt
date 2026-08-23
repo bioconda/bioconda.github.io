@@ -40,12 +40,13 @@ ntsynt
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on btllib: ``>=1.7.1``
    :depends on btllib: ``>=1.7.8,<2.0a0``
    :depends on intervaltree: 
-   :depends on libcxx: ``>=19``
-   :depends on llvm-openmp: ``>=19.1.7``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
+   :depends on libstdcxx: ``>=14``
    :depends on ncls: 
    :depends on pybedtools: 
    :depends on python: ``>=3.10,<3.11.0a0``

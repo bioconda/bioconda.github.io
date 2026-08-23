@@ -34,10 +34,10 @@ python-crypt4gh
       
 
    
-   :depends on __osx: ``>=10.13``
    :depends on bcrypt: 
    :depends on cryptography: 
    :depends on docopt-ng: 
+   :depends on libgcc: ``>=14``
    :depends on libsodium: ``>=1.0.22,<1.0.23.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``

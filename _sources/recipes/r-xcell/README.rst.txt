@@ -44,7 +44,8 @@ r-xcell
    
    :depends on bioconductor-gseabase: ``>=1.68.0,<1.69.0a0``
    :depends on bioconductor-gsva: ``>=2.0.0,<2.1.0a0``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on r-base: ``>=4.4,<4.5.0a0``
    :depends on r-curl: 
    :depends on r-digest: 

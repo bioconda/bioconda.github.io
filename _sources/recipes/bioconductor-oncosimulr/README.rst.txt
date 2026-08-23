@@ -10,10 +10,10 @@ bioconductor-oncosimulr
    :replaces_section_title:
    :noindex:
 
-   Forward Genetic Simulation of Cancer Progression with Epistasis
+   Forward Genetic Simulation of Cancer Progression with Epistasis.
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/OncoSimulR.html
-   :license: GPL (>= 3)
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/OncoSimulR.html
+   :license: GPL-3.0-or-later
    :recipe: /`bioconductor-oncosimulr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oncosimulr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oncosimulr/meta.yaml>`_
    :links: biotools: :biotools:`oncosimulr`
 
@@ -29,10 +29,10 @@ bioconductor-oncosimulr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.12.0-0</code>,  <code>4.8.0-0</code>,  <code>4.4.0-0</code>,  <code>4.2.0-0</code>,  <code>4.0.0-0</code>,  <code>3.2.0-2</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  <code>3.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.14.0-0</code>,  <code>4.12.0-0</code>,  <code>4.8.0-0</code>,  <code>4.4.0-0</code>,  <code>4.2.0-0</code>,  <code>4.0.0-0</code>,  <code>3.2.0-2</code>,  <code>3.2.0-1</code>,  <code>3.2.0-0</code>,  </span></summary>
       
 
-      ``4.12.0-0``,  ``4.8.0-0``,  ``4.4.0-0``,  ``4.2.0-0``,  ``4.0.0-0``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.0.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``
+      ``4.14.0-0``,  ``4.12.0-0``,  ``4.8.0-0``,  ``4.4.0-0``,  ``4.2.0-0``,  ``4.0.0-0``,  ``3.2.0-2``,  ``3.2.0-1``,  ``3.2.0-0``,  ``3.0.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.18.0-0``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.8.0-0``
 
       
       .. raw:: html
@@ -43,14 +43,14 @@ bioconductor-oncosimulr
    
    :depends on bioconductor-graph: ``>=1.88.0,<1.89.0``
    :depends on bioconductor-graph: ``>=1.88.1,<1.89.0a0``
-   :depends on bioconductor-rgraphviz: ``>=2.54.0,<2.55.0``
-   :depends on bioconductor-rgraphviz: ``>=2.54.0,<2.55.0a0``
+   :depends on bioconductor-rgraphviz: ``>=2.55.0,<2.57.0``
+   :depends on bioconductor-rgraphviz: ``>=2.56.0,<2.57.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
    :depends on libstdcxx: ``>=14``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-car: 
    :depends on r-data.table: 
@@ -65,6 +65,10 @@ bioconductor-oncosimulr
    :depends on r-stringr: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -137,7 +141,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-oncosimulr";
-      var versions = ["4.12.0","4.8.0","4.4.0","4.2.0","4.0.0"];
+      var versions = ["4.14.0","4.12.0","4.8.0","4.4.0","4.2.0"];
    </script>
 
 .. rubric:: Download stats

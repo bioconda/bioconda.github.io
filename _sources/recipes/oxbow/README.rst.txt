@@ -32,7 +32,6 @@ oxbow
       
 
    
-   :depends on __osx: ``>=10.13``
    :depends on arro3-core: ``>=0.4.6``
    :depends on fsspec: ``>=2025.5.1``
    :depends on pandas: ``>=2.2.3``

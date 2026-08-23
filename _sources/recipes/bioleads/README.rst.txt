@@ -27,7 +27,7 @@ bioleads
       
       
 
-      ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -37,7 +37,6 @@ bioleads
    :depends on numpy: ``>=1.24``
    :depends on pandas: ``>=2.0``
    :depends on plotly: ``>=5.18``
-   :depends on pymupdf: ``>=1.23``
    :depends on python: ``>=3.10``
    :depends on pyvis: ``>=0.3.2``
    :depends on requests: ``>=2.31``
@@ -119,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioleads";
-      var versions = ["0.1.0"];
+      var versions = ["0.2.0","0.1.0"];
    </script>
 
 .. rubric:: Download stats

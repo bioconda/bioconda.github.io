@@ -13,7 +13,7 @@ fastaguard
    FASTA preflight QC for assembly pipelines
 
    :homepage: https://github.com/ehsanestaji/FastaGuard
-   :documentation: https://github.com/ehsanestaji/FastaGuard/blob/v0.6.0/README.md
+   :documentation: https://github.com/ehsanestaji/FastaGuard/blob/v0.7.0/README.md
    
    :license: MIT / MIT
    :recipe: /`fastaguard <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastaguard>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastaguard/meta.yaml>`_
@@ -32,12 +32,12 @@ fastaguard
       
       
 
-      ``0.6.0-0``,  ``0.5.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-0``
+      ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.1-0``
 
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on libgcc: ``>=14``
 
    :additional platforms:
       
@@ -116,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "fastaguard";
-      var versions = ["0.6.0","0.5.0","0.3.0","0.2.0","0.1.1"];
+      var versions = ["0.7.0","0.6.0","0.5.0","0.3.0","0.2.0"];
    </script>
 
 .. rubric:: Download stats

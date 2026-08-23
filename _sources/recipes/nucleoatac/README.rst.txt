@@ -10,16 +10,20 @@ nucleoatac
    :replaces_section_title:
    :noindex:
 
-   Python package for calling nucleosomes using ATAC\-Seq data. Also includes general scripts for working with paired\-end ATAC\-Seq data \(or potentially other paired\-end data\).
+   Nucleosome calling from ATAC\-seq data.
 
    :homepage: https://github.com/GreenleafLab/NucleoATAC
-   :documentation: http://nucleoatac.readthedocs.io/en/latest/
+   :documentation: https://nucleoatac.readthedocs.io
    
+   :developer docs: https://github.com/alecethell/NucleoATAC/tree/py311-modernization
    :license: MIT / MIT
    :recipe: /`nucleoatac <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nucleoatac>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nucleoatac/meta.yaml>`_
    :links: doi: :doi:`10.1101/gr.192294.115`
 
-   
+   NucleoATAC calls nucleosome positions from ATAC\-seq data and provides
+   helper utilities for paired\-end ATAC\-seq signal processing. This recipe
+   packages the Python 3 modernization fork used by nf\-core\/atacportray.
+
 
 
 .. conda:package:: nucleoatac
@@ -29,23 +33,35 @@ nucleoatac
    :versions:
       
       
+      .. raw:: html
 
-      ``0.3.4-7``,  ``0.3.4-6``,  ``0.3.4-5``,  ``0.3.4-4``,  ``0.3.4-3``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.1-0``
+         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>0.3.4-7</code>,  <code>0.3.4-6</code>,  <code>0.3.4-5</code>,  <code>0.3.4-4</code>,  <code>0.3.4-3</code>,  <code>0.3.4-2</code>,  <code>0.3.4-1</code>,  <code>0.3.4-0</code>,  </span></summary>
+      
 
+      ``1.0.0-0``,  ``0.3.4-7``,  ``0.3.4-6``,  ``0.3.4-5``,  ``0.3.4-4``,  ``0.3.4-3``,  ``0.3.4-2``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends on htslib: ``>=1.14,<1.24.0a0``
-   :depends on libzlib: ``>=1.2.11,<1.3.0a0``
-   :depends on matplotlib-base: 
-   :depends on numpy: ``>=1.16.5,<2.0a0``
-   :depends on pysam: ``>=0.10.0``
-   :depends on python: ``>=2.7,<2.8.0a0``
-   :depends on python_abi: ``2.7.* *_cp27m``
-   :depends on scipy: 
-   :depends on zlib: ``>=1.2.11,<1.3.0a0``
+   :depends on htslib: ``>=1.24,<1.25.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on matplotlib-base: ``>=3.5``
+   :depends on numpy: ``>=1.26.4,<2.0a0``
+   :depends on pysam: ``>=0.24.0,<0.25.0a0``
+   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on samtools: ``>=1.18``
+   :depends on scipy: ``>=1.9``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -118,7 +134,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "nucleoatac";
-      var versions = ["0.3.4","0.3.4","0.3.4","0.3.4","0.3.4"];
+      var versions = ["1.0.0","0.3.4","0.3.4","0.3.4","0.3.4"];
    </script>
 
 .. rubric:: Download stats

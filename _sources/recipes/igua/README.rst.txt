@@ -27,12 +27,11 @@ igua
       
       
 
-      ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.0-0``
+      ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.1.0-0``
 
       
 
    
-   :depends on __osx: ``>=10.13``
    :depends on anndata: ``>=0.8,<0.13``
    :depends on biopython: ``>=1.79,<2.0``
    :depends on gb-io: ``>=0.3.0,<0.5.0``
@@ -121,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "igua";
-      var versions = ["0.2.2","0.2.1","0.1.0"];
+      var versions = ["0.2.3","0.2.2","0.2.1","0.1.0"];
    </script>
 
 .. rubric:: Download stats

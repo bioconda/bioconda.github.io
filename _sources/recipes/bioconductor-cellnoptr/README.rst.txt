@@ -10,10 +10,10 @@ bioconductor-cellnoptr
    :replaces_section_title:
    :noindex:
 
-   Training of boolean logic models of signalling networks using prior knowledge networks and perturbation data
+   Training of boolean logic models of signalling networks using prior knowledge networks and perturbation data.
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/CellNOptR.html
-   :license: GPL-3
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/CellNOptR.html
+   :license: GPL-3.0-or-later
    :recipe: /`bioconductor-cellnoptr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellnoptr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellnoptr/meta.yaml>`_
    :links: biotools: :biotools:`cellnoptr`, doi: :doi:`10.1186/1752-0509-6-133`
 
@@ -29,10 +29,10 @@ bioconductor-cellnoptr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.56.0-0</code>,  <code>1.52.0-1</code>,  <code>1.52.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.40.0-2</code>,  <code>1.40.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.58.0-0</code>,  <code>1.56.0-0</code>,  <code>1.52.0-1</code>,  <code>1.52.0-0</code>,  <code>1.48.0-0</code>,  <code>1.46.0-0</code>,  <code>1.44.0-1</code>,  <code>1.44.0-0</code>,  <code>1.40.0-2</code>,  </span></summary>
       
 
-      ``1.56.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.40.0-2``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.1-0``,  ``1.23.0-0``,  ``1.22.0-0``
+      ``1.58.0-0``,  ``1.56.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.48.0-0``,  ``1.46.0-0``,  ``1.44.0-1``,  ``1.44.0-0``,  ``1.40.0-2``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-1``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.1-0``,  ``1.23.0-0``,  ``1.22.0-0``
 
       
       .. raw:: html
@@ -45,14 +45,15 @@ bioconductor-cellnoptr
    :depends on bioconductor-graph: ``>=1.88.1,<1.89.0a0``
    :depends on bioconductor-rbgl: ``>=1.86.0,<1.87.0``
    :depends on bioconductor-rbgl: ``>=1.86.0,<1.87.0a0``
-   :depends on bioconductor-rgraphviz: ``>=2.54.0,<2.55.0``
-   :depends on bioconductor-rgraphviz: ``>=2.54.0,<2.55.0a0``
+   :depends on bioconductor-rgraphviz: ``>=2.55.0,<2.57.0``
+   :depends on bioconductor-rgraphviz: ``>=2.56.0,<2.57.0a0``
    :depends on graphviz: ``>=14.1.2,<15.0a0``
    :depends on graphviz: ``>=2.2``
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-ggplot2: 
    :depends on r-igraph: 
@@ -66,7 +67,7 @@ bioconductor-cellnoptr
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -139,7 +140,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-cellnoptr";
-      var versions = ["1.56.0","1.52.0","1.52.0","1.48.0","1.46.0"];
+      var versions = ["1.58.0","1.56.0","1.52.0","1.52.0","1.48.0"];
    </script>
 
 .. rubric:: Download stats

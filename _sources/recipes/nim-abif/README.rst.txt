@@ -34,6 +34,7 @@ nim-abif
       
 
    
+   :depends on libgcc: ``>=13``
 
    :additional platforms:
       

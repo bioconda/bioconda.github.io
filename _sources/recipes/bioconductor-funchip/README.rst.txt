@@ -41,9 +41,8 @@ bioconductor-funchip
       
 
    
-   :depends on __osx: ``>=10.9``
    :depends on bioconductor-genomeinfodb: ``>=1.38.0,<1.39.0``
-   :depends on bioconductor-genomeinfodb: ``>=1.38.1,<2.0a0``
+   :depends on bioconductor-genomeinfodb: ``>=1.38.1,<1.39.0a0``
    :depends on bioconductor-genomicalignments: ``>=1.38.0,<1.39.0``
    :depends on bioconductor-genomicalignments: ``>=1.38.0,<1.39.0a0``
    :depends on bioconductor-genomicranges: ``>=1.54.0,<1.55.0``
@@ -51,8 +50,9 @@ bioconductor-funchip
    :depends on bioconductor-rsamtools: ``>=2.18.0,<2.19.0``
    :depends on bioconductor-rsamtools: ``>=2.18.0,<2.19.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=15.0.7``
+   :depends on libgcc-ng: ``>=12``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
+   :depends on libstdcxx-ng: ``>=12``
    :depends on r-base: ``>=4.3,<4.4.0a0``
    :depends on r-doparallel: 
    :depends on r-fda: 

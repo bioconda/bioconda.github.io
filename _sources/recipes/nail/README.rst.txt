@@ -33,7 +33,6 @@ nail
       
 
    
-   :depends on __osx: ``>=10.13``
    :depends on mmseqs2: 
 
    :additional platforms:

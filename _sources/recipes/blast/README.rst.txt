@@ -12,7 +12,7 @@ blast
 
    BLAST\+ is a new suite of BLAST tools that utilizes the NCBI C\+\+ Toolkit.
 
-   :homepage: https://blast.ncbi.nlm.nih.gov/doc/blast-help/
+   :homepage: https://blast.ncbi.nlm.nih.gov/doc/blast-help
    :license: NCBI-PD
    :recipe: /`blast <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blast>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blast/meta.yaml>`_
    :links: biotools: :biotools:`blast`, doi: :doi:`10.1016/S0022-2836(05)80360-2`, usegalaxy-eu: :usegalaxy-eu:`ncbi_blastx_wrapper`
@@ -39,10 +39,10 @@ blast
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.17.0-0</code>,  <code>2.16.0-5</code>,  <code>2.16.0-4</code>,  <code>2.16.0-3</code>,  <code>2.16.0-2</code>,  <code>2.16.0-1</code>,  <code>2.16.0-0</code>,  <code>2.15.0-1</code>,  <code>2.15.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.17.0-1</code>,  <code>2.17.0-0</code>,  <code>2.16.0-5</code>,  <code>2.16.0-4</code>,  <code>2.16.0-3</code>,  <code>2.16.0-2</code>,  <code>2.16.0-1</code>,  <code>2.16.0-0</code>,  <code>2.15.0-1</code>,  </span></summary>
       
 
-      ``2.17.0-0``,  ``2.16.0-5``,  ``2.16.0-4``,  ``2.16.0-3``,  ``2.16.0-2``,  ``2.16.0-1``,  ``2.16.0-0``,  ``2.15.0-1``,  ``2.15.0-0``,  ``2.14.1-0``,  ``2.14.0-2``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.13.0-1``,  ``2.13.0-0``,  ``2.12.0-4``,  ``2.12.0-3``,  ``2.12.0-2``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.1-3``,  ``2.10.1-2``,  ``2.10.1-1``,  ``2.10.1-0``,  ``2.9.0-7``,  ``2.9.0-6``,  ``2.9.0-5``,  ``2.9.0-4``,  ``2.9.0-3``,  ``2.9.0-2``,  ``2.9.0-1``,  ``2.9.0-0``,  ``2.7.1-6``,  ``2.7.1-5``,  ``2.7.1-3``,  ``2.7.1-2``,  ``2.7.1-1``,  ``2.6.0-2``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.2.31-5``,  ``2.2.31-4``,  ``2.2.31-3``,  ``2.2.31-2``,  ``2.2.31-1``,  ``2.2.21-0``
+      ``2.17.0-1``,  ``2.17.0-0``,  ``2.16.0-5``,  ``2.16.0-4``,  ``2.16.0-3``,  ``2.16.0-2``,  ``2.16.0-1``,  ``2.16.0-0``,  ``2.15.0-1``,  ``2.15.0-0``,  ``2.14.1-0``,  ``2.14.0-2``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.13.0-1``,  ``2.13.0-0``,  ``2.12.0-4``,  ``2.12.0-3``,  ``2.12.0-2``,  ``2.12.0-1``,  ``2.12.0-0``,  ``2.11.0-1``,  ``2.11.0-0``,  ``2.10.1-3``,  ``2.10.1-2``,  ``2.10.1-1``,  ``2.10.1-0``,  ``2.9.0-7``,  ``2.9.0-6``,  ``2.9.0-5``,  ``2.9.0-4``,  ``2.9.0-3``,  ``2.9.0-2``,  ``2.9.0-1``,  ``2.9.0-0``,  ``2.7.1-6``,  ``2.7.1-5``,  ``2.7.1-3``,  ``2.7.1-2``,  ``2.7.1-1``,  ``2.6.0-2``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.5.0-3``,  ``2.5.0-2``,  ``2.5.0-1``,  ``2.2.31-5``,  ``2.2.31-4``,  ``2.2.31-3``,  ``2.2.31-2``,  ``2.2.31-1``,  ``2.2.21-0``
 
       
       .. raw:: html
@@ -51,20 +51,25 @@ blast
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on curl: 
-   :depends on entrez-direct: ``>=24.0,<25.0a0``
-   :depends on libcxx: ``>=18``
-   :depends on libsqlite: ``>=3.50.4,<4.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on ncbi-vdb: ``>=3.2.1,<4.0a0``
+   :depends on entrez-direct: ``>=26.0,<27.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on libsqlite: ``>=3.53.4,<4.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on llvm-openmp: ``>=19.1.7``
+   :depends on ncbi-vdb: ``>=3.4.1,<4.0a0``
    :depends on perl: 
    :depends on perl-archive-tar: 
    :depends on perl-json: 
    :depends on perl-list-moreutils: 
-   :depends on zlib: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>osx-arm64</code></span>
       
 
 
@@ -137,7 +142,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "blast";
-      var versions = ["2.17.0","2.16.0","2.16.0","2.16.0","2.16.0"];
+      var versions = ["2.17.0","2.17.0","2.16.0","2.16.0","2.16.0"];
    </script>
 
 .. rubric:: Download stats

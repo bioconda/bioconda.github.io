@@ -37,7 +37,8 @@ yacht
    
    :depends on biom-format: 
    :depends on codecov: 
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on loguru: 
    :depends on maturin: ``>=1,<2``
    :depends on numpy: ``>=1.22.4``

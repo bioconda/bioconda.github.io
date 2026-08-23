@@ -35,9 +35,9 @@ mrpast
       
 
    
-   :depends on __osx: ``>=10.13``
    :depends on dataclasses-json: 
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on msprime: 
    :depends on numpy: ``>=1.21,<3``
    :depends on numpy: ``>=2.2.6,<3.0a0``

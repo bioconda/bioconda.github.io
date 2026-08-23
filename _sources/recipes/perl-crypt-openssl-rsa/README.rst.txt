@@ -42,7 +42,7 @@ perl-crypt-openssl-rsa
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on libgcc: ``>=14``
    :depends on openssl: ``>=3.5.6,<4.0a0``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-crypt-openssl-bignum: ``>=0.9,<0.10.0a0``

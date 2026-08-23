@@ -40,7 +40,7 @@ perl-template-toolkit
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on libgcc: ``>=14``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-appconfig: 
    :depends on perl-image-info: ``>=1.45,<2.0a0``

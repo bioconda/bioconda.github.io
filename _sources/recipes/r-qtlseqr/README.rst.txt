@@ -13,7 +13,7 @@ r-qtlseqr
    QTLseqr is an R package for QTL mapping using NGS Bulk Segregant Analysis.
 
    :homepage: https://github.com/bmansfeld/QTLseqr
-   :license: GPL (>= 3)
+   :license: GPL3 / GPL-3.0-or-later
    :recipe: /`r-qtlseqr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-qtlseqr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-qtlseqr/meta.yaml>`_
 
    
@@ -27,13 +27,14 @@ r-qtlseqr
       
       
 
-      ``0.7.5.2-7``,  ``0.7.5.2-6``,  ``0.7.5.2-5``,  ``0.7.5.2-4``,  ``0.7.5.2-3``,  ``0.7.5.2-2``,  ``0.7.5.2-1``,  ``0.7.5.2-0``
+      ``0.7.5.2-8``,  ``0.7.5.2-7``,  ``0.7.5.2-6``,  ``0.7.5.2-5``,  ``0.7.5.2-4``,  ``0.7.5.2-3``,  ``0.7.5.2-2``,  ``0.7.5.2-1``,  ``0.7.5.2-0``
 
       
 
    
-   :depends on libcxx: ``>=18``
-   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on __osx: ``>=11.0``
+   :depends on libcxx: ``>=19``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-dplyr: 
    :depends on r-ggplot2: 
    :depends on r-gtools: 
@@ -45,6 +46,10 @@ r-qtlseqr
    :depends on r-tidyr: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
