@@ -14,7 +14,7 @@ r-acidgenomes
 
    :homepage: https://r.acidgenomics.com/packages/acidgenomes/
    :developer docs: https://github.com/acidgenomics/r-acidgenomes
-   :license: GPL / AGPL-3.0
+   :license: APACHE / Apache-2.0
    :recipe: /`r-acidgenomes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidgenomes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidgenomes/meta.yaml>`_
 
    
@@ -29,10 +29,10 @@ r-acidgenomes
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.5-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-1</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.8.1-0</code>,  <code>0.7.5-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-0</code>,  <code>0.7.2-1</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.1-0</code>,  </span></summary>
       
 
-      ``0.7.5-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.8-1``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.3.0-0``,  ``0.2.20-0``,  ``0.2.19-0``,  ``0.2.18-0``,  ``0.2.17-0``,  ``0.2.16-0``,  ``0.2.15-0``,  ``0.2.14-0``,  ``0.2.13-0``,  ``0.2.12-2``,  ``0.2.12-1``,  ``0.2.12-0``,  ``0.2.11-2``,  ``0.2.11-0``,  ``0.1.1-1``,  ``0.1.1-0``
+      ``0.8.1-0``,  ``0.7.5-0``,  ``0.7.4-0``,  ``0.7.3-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.8-1``,  ``0.4.8-0``,  ``0.4.7-0``,  ``0.4.6-0``,  ``0.4.5-0``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.3.0-0``,  ``0.2.20-0``,  ``0.2.19-0``,  ``0.2.18-0``,  ``0.2.17-0``,  ``0.2.16-0``,  ``0.2.15-0``,  ``0.2.14-0``,  ``0.2.13-0``,  ``0.2.12-2``,  ``0.2.12-1``,  ``0.2.12-0``,  ``0.2.11-2``,  ``0.2.11-0``,  ``0.1.1-1``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -52,15 +52,15 @@ r-acidgenomes
    :depends on bioconductor-genomicranges: ``>=1.52.0``
    :depends on bioconductor-iranges: ``>=2.34.0``
    :depends on bioconductor-s4vectors: ``>=0.38.0``
-   :depends on r-acidbase: ``>=0.7.0``
-   :depends on r-acidcli: ``>=0.3.0``
-   :depends on r-acidgenerics: ``>=0.7.1``
-   :depends on r-acidplyr: ``>=0.5.0``
-   :depends on r-base: ``>=4.4,<4.5.0a0``
-   :depends on r-goalie: ``>=0.7.0``
-   :depends on r-pipette: ``>=0.14.0``
+   :depends on r-acidbase: ``>=0.7.5``
+   :depends on r-acidcli: ``>=0.3.3``
+   :depends on r-acidgenerics: ``>=0.7.6``
+   :depends on r-acidplyr: ``>=0.5.5``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-goalie: ``>=0.7.8``
+   :depends on r-pipette: ``>=0.16.1``
    :depends on r-rvest: ``>=1.0.3``
-   :depends on r-syntactic: ``>=0.7.0``
+   :depends on r-syntactic: ``>=0.8.1``
    :depends on r-withr: ``>=2.5.0``
 
    :additional platforms:
@@ -136,7 +136,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-acidgenomes";
-      var versions = ["0.7.5","0.7.4","0.7.3","0.7.2","0.7.2"];
+      var versions = ["0.8.1","0.7.5","0.7.4","0.7.3","0.7.2"];
    </script>
 
 .. rubric:: Download stats

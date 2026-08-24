@@ -31,10 +31,10 @@ adapterremoval
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.0.1-0</code>,  <code>2.3.4-2</code>,  <code>2.3.4-1</code>,  <code>2.3.4-0</code>,  <code>2.3.3-3</code>,  <code>2.3.3-2</code>,  <code>2.3.3-1</code>,  <code>2.3.3-0</code>,  <code>2.3.2-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.2-0</code>,  <code>3.0.1-0</code>,  <code>2.3.4-2</code>,  <code>2.3.4-1</code>,  <code>2.3.4-0</code>,  <code>2.3.3-3</code>,  <code>2.3.3-2</code>,  <code>2.3.3-1</code>,  <code>2.3.3-0</code>,  </span></summary>
       
 
-      ``3.0.1-0``,  ``2.3.4-2``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.3-3``,  ``2.3.3-2``,  ``2.3.3-1``,  ``2.3.3-0``,  ``2.3.2-2``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.2-4``,  ``2.2.2-3``,  ``2.2.2-2``
+      ``3.0.2-0``,  ``3.0.1-0``,  ``2.3.4-2``,  ``2.3.4-1``,  ``2.3.4-0``,  ``2.3.3-3``,  ``2.3.3-2``,  ``2.3.3-1``,  ``2.3.3-0``,  ``2.3.2-2``,  ``2.3.2-1``,  ``2.3.2-0``,  ``2.3.1-1``,  ``2.3.1-0``,  ``2.3.0-0``,  ``2.2.2-4``,  ``2.2.2-3``,  ``2.2.2-2``
 
       
       .. raw:: html
@@ -128,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "adapterremoval";
-      var versions = ["3.0.1","2.3.4","2.3.4","2.3.4","2.3.3"];
+      var versions = ["3.0.2","3.0.1","2.3.4","2.3.4","2.3.4"];
    </script>
 
 .. rubric:: Download stats

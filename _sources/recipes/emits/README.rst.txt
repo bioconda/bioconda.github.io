@@ -32,7 +32,6 @@ emits
       
 
    
-   :depends on libgcc: ``>=14``
    :depends on minimap2: 
 
    :additional platforms:

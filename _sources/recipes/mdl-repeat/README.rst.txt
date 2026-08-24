@@ -29,15 +29,18 @@ mdl-repeat
       
       
 
-      ``1.0.1-0``
+      ``1.0.1-1``,  ``1.0.1-0``
 
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libgcc: ``>=14``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -110,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mdl-repeat";
-      var versions = ["1.0.1"];
+      var versions = ["1.0.1","1.0.1"];
    </script>
 
 .. rubric:: Download stats

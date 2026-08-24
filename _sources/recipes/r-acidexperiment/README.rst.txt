@@ -14,7 +14,7 @@ r-acidexperiment
 
    :homepage: https://r.acidgenomics.com/packages/acidexperiment/
    :developer docs: https://github.com/acidgenomics/r-acidexperiment
-   :license: GPL / AGPL-3.0
+   :license: APACHE / Apache-2.0
    :recipe: /`r-acidexperiment <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidexperiment>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidexperiment/meta.yaml>`_
 
    
@@ -29,10 +29,10 @@ r-acidexperiment
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.5-0</code>,  <code>0.5.4-1</code>,  <code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.4.7-2</code>,  <code>0.4.7-1</code>,  <code>0.4.7-0</code>,  <code>0.4.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.6-0</code>,  <code>0.5.5-0</code>,  <code>0.5.4-1</code>,  <code>0.5.4-0</code>,  <code>0.5.3-0</code>,  <code>0.5.2-0</code>,  <code>0.4.7-2</code>,  <code>0.4.7-1</code>,  <code>0.4.7-0</code>,  </span></summary>
       
 
-      ``0.5.5-0``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.4.7-2``,  ``0.4.7-1``,  ``0.4.7-0``,  ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-2``,  ``0.1.10-1``,  ``0.1.10-0``
+      ``0.5.6-0``,  ``0.5.5-0``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-0``,  ``0.5.2-0``,  ``0.4.7-2``,  ``0.4.7-1``,  ``0.4.7-0``,  ``0.4.5-1``,  ``0.4.5-0``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-2``,  ``0.1.10-1``,  ``0.1.10-0``
 
       
       .. raw:: html
@@ -52,14 +52,14 @@ r-acidexperiment
    :depends on r-acidbase: ``>=0.7.0``
    :depends on r-acidcli: ``>=0.3.0``
    :depends on r-acidgenerics: ``>=0.7.1``
-   :depends on r-acidgenomes: ``>=0.6.0``
-   :depends on r-acidplyr: ``>=0.5.0``
-   :depends on r-base: ``>=4.4,<4.5.0a0``
-   :depends on r-goalie: ``>=0.7.0``
+   :depends on r-acidgenomes: ``>=0.8.1``
+   :depends on r-acidplyr: ``>=0.5.5``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-goalie: ``>=0.7.8``
    :depends on r-matrix: ``>=1.6.1``
-   :depends on r-pipette: ``>=0.14.0``
+   :depends on r-pipette: ``>=0.16.1``
    :depends on r-scales: ``>=1.2.1``
-   :depends on r-syntactic: ``>=0.7.0``
+   :depends on r-syntactic: ``>=0.8.1``
 
    :additional platforms:
       
@@ -134,7 +134,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-acidexperiment";
-      var versions = ["0.5.5","0.5.4","0.5.4","0.5.3","0.5.2"];
+      var versions = ["0.5.6","0.5.5","0.5.4","0.5.4","0.5.3"];
    </script>
 
 .. rubric:: Download stats

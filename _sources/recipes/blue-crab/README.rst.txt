@@ -13,7 +13,7 @@ blue-crab
    lossless nanopore pod5 \<\=\> s\/blow5 file conversion
 
    :homepage: https://github.com/Psy-Fer/blue-crab
-   :documentation: https://github.com/Psy-Fer/blue-crab/blob/v0.5.0/docs/cli.md
+   :documentation: https://github.com/Psy-Fer/blue-crab/blob/v0.6.0/docs/cli.md
    
    :license: MIT / MIT
    :recipe: /`blue-crab <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blue-crab>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blue-crab/meta.yaml>`_
@@ -29,7 +29,7 @@ blue-crab
       
       
 
-      ``0.5.0-0``,  ``0.4.0-1``,  ``0.4.0-0``
+      ``0.6.0-0``,  ``0.5.0-0``,  ``0.4.0-1``,  ``0.4.0-0``
 
       
 
@@ -112,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "blue-crab";
-      var versions = ["0.5.0","0.4.0","0.4.0"];
+      var versions = ["0.6.0","0.5.0","0.4.0","0.4.0"];
    </script>
 
 .. rubric:: Download stats

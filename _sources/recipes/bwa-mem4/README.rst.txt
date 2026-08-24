@@ -31,7 +31,7 @@ bwa-mem4
       
       
 
-      ``4.0.0-0``
+      ``4.3.3-0``,  ``4.0.0-0``
 
       
 
@@ -120,7 +120,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bwa-mem4";
-      var versions = ["4.0.0"];
+      var versions = ["4.3.3","4.0.0"];
    </script>
 
 .. rubric:: Download stats

@@ -27,7 +27,7 @@ args_oap
       
       
 
-      ``3.2.4-1``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2-0``
+      ``4.0.0-0``,  ``3.2.4-1``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2-0``
 
       
 
@@ -112,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "args_oap";
-      var versions = ["3.2.4","3.2.4","3.2.3","3.2.2","3.2.1"];
+      var versions = ["4.0.0","3.2.4","3.2.4","3.2.3","3.2.2"];
    </script>
 
 .. rubric:: Download stats

@@ -10,9 +10,9 @@ perl-archive-extract
    :replaces_section_title:
    :noindex:
 
-   Generic archive extracting mechanism
+   Generic archive extracting mechanism.
 
-   :homepage: http://metacpan.org/pod/Archive::Extract
+   :homepage: https://metacpan.org/pod/Archive::Extract
    :license: perl_5
    :recipe: /`perl-archive-extract <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-archive-extract>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-archive-extract/meta.yaml>`_
 
@@ -27,7 +27,7 @@ perl-archive-extract
       
       
 
-      ``0.88-0``,  ``0.80-1``,  ``0.80-0``,  ``0.76-4``,  ``0.76-3``,  ``0.76-2``,  ``0.76-1``,  ``0.76-0``
+      ``0.90-0``,  ``0.88-0``,  ``0.80-1``,  ``0.80-0``,  ``0.76-4``,  ``0.76-3``,  ``0.76-2``,  ``0.76-1``,  ``0.76-0``
 
       
 
@@ -112,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "perl-archive-extract";
-      var versions = ["0.88","0.80","0.80","0.76","0.76"];
+      var versions = ["0.90","0.88","0.80","0.80","0.76"];
    </script>
 
 .. rubric:: Download stats

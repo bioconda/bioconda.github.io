@@ -44,8 +44,7 @@ control-freec
 
    
    :depends on bioconductor-rtracklayer: 
-   :depends on libgcc-ng: ``>=12``
-   :depends on libstdcxx-ng: ``>=12``
+   :depends on libcxx: ``>=15.0.7``
    :depends on perl: 
    :depends on r-base: 
    :depends on samtools: 
