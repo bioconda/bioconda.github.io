@@ -14,7 +14,7 @@ r-deseqanalysis
 
    :homepage: https://r.acidgenomics.com/packages/deseqanalysis/
    :developer docs: https://github.com/acidgenomics/r-deseqanalysis
-   :license: GPL / AGPL-3.0
+   :license: APACHE / Apache-2.0
    :recipe: /`r-deseqanalysis <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-deseqanalysis>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-deseqanalysis/meta.yaml>`_
 
    
@@ -29,10 +29,10 @@ r-deseqanalysis
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.2-0</code>,  <code>0.7.1-1</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.12-0</code>,  <code>0.6.11-0</code>,  <code>0.6.10-0</code>,  <code>0.6.9-0</code>,  <code>0.6.8-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-1</code>,  <code>0.7.1-0</code>,  <code>0.7.0-0</code>,  <code>0.6.12-0</code>,  <code>0.6.11-0</code>,  <code>0.6.10-0</code>,  <code>0.6.9-0</code>,  </span></summary>
       
 
-      ``0.7.2-0``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.12-0``,  ``0.6.11-0``,  ``0.6.10-0``,  ``0.6.9-0``,  ``0.6.8-2``,  ``0.6.8-1``,  ``0.6.8-0``,  ``0.6.7-1``,  ``0.6.7-0``,  ``0.6.6-1``,  ``0.6.6-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.3.10-2``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.20-1``,  ``0.2.20-0``,  ``0.2.19-0``,  ``0.2.18-1``,  ``0.2.18-0``,  ``0.2.17-0``,  ``0.2.16-0``,  ``0.2.15-0``,  ``0.2.14-0``,  ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``
+      ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-1``,  ``0.7.1-0``,  ``0.7.0-0``,  ``0.6.12-0``,  ``0.6.11-0``,  ``0.6.10-0``,  ``0.6.9-0``,  ``0.6.8-2``,  ``0.6.8-1``,  ``0.6.8-0``,  ``0.6.7-1``,  ``0.6.7-0``,  ``0.6.6-1``,  ``0.6.6-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.3.10-2``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.6-0``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.20-1``,  ``0.2.20-0``,  ``0.2.19-0``,  ``0.2.18-1``,  ``0.2.18-0``,  ``0.2.17-0``,  ``0.2.16-0``,  ``0.2.15-0``,  ``0.2.14-0``,  ``0.2.13-0``,  ``0.2.12-0``,  ``0.2.11-0``,  ``0.2.10-0``,  ``0.2.9-0``,  ``0.2.8-0``,  ``0.2.7-0``,  ``0.2.6-0``,  ``0.2.5-0``
 
       
       .. raw:: html
@@ -48,26 +48,26 @@ r-deseqanalysis
    :depends on bioconductor-s4vectors: ``>=0.38.0``
    :depends on bioconductor-summarizedexperiment: ``>=1.30.0``
    :depends on bioconductor-tximport: ``>=1.28.0``
-   :depends on r-acidbase: ``>=0.7.0``
-   :depends on r-acidcli: ``>=0.2.8``
-   :depends on r-acidexperiment: ``>=0.4.8``
-   :depends on r-acidgenerics: ``>=0.6.13``
-   :depends on r-acidgenomes: ``>=0.5.2``
-   :depends on r-acidmarkdown: ``>=0.2.6``
-   :depends on r-acidplots: ``>=0.6.2``
-   :depends on r-acidplyr: ``>=0.4.2``
+   :depends on r-acidbase: ``>=0.7.8``
+   :depends on r-acidcli: ``>=0.3.3``
+   :depends on r-acidexperiment: ``>=0.5.6``
+   :depends on r-acidgenerics: ``>=0.7.11``
+   :depends on r-acidgenomes: ``>=0.8.1``
+   :depends on r-acidmarkdown: ``>=0.3.2``
+   :depends on r-acidplots: ``>=0.7.5``
+   :depends on r-acidplyr: ``>=0.5.8``
    :depends on r-ashr: ``>=2.2.63``
-   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-basejump: ``>=0.17.0``
    :depends on r-complexupset: ``>=1.3.3``
    :depends on r-ggplot2: ``>=3.4.3``
    :depends on r-ggrepel: ``>=0.9.3``
-   :depends on r-goalie: ``>=0.6.19``
+   :depends on r-goalie: ``>=0.7.10``
    :depends on r-knitr: ``>=1.44``
    :depends on r-pheatmap: ``>=1.0.12``
-   :depends on r-pipette: ``>=0.14.0``
+   :depends on r-pipette: ``>=0.16.2``
    :depends on r-rmarkdown: ``>=2.25``
-   :depends on r-syntactic: ``>=0.6.7``
+   :depends on r-syntactic: ``>=0.8.1``
 
    :additional platforms:
       
@@ -142,7 +142,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-deseqanalysis";
-      var versions = ["0.7.2","0.7.1","0.7.1","0.7.0","0.6.12"];
+      var versions = ["0.7.3","0.7.2","0.7.1","0.7.1","0.7.0"];
    </script>
 
 .. rubric:: Download stats

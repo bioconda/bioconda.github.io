@@ -43,6 +43,7 @@ gseapy
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on matplotlib-base: ``>=2.2``
    :depends on numpy: ``>=1.13.0``
    :depends on pandas: 

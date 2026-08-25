@@ -42,7 +42,6 @@ methyldackel
    
    :depends on htslib: ``>=1.21,<1.22.0a0``
    :depends on libbigwig: ``>=0.4.8,<0.5.0a0``
-   :depends on libgcc: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
 
    :additional platforms:

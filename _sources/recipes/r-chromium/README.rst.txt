@@ -14,7 +14,7 @@ r-chromium
 
    :homepage: https://r.acidgenomics.com/packages/chromium/
    :developer docs: https://github.com/acidgenomics/r-chromium
-   :license: GPL / AGPL-3.0
+   :license: APACHE / Apache-2.0
    :recipe: /`r-chromium <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-chromium>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-chromium/meta.yaml>`_
 
    
@@ -28,7 +28,7 @@ r-chromium
       
       
 
-      ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.1-1``,  ``0.2.1-0``
+      ``0.3.1-0``,  ``0.3.0-2``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.1-1``,  ``0.2.1-0``
 
       
 
@@ -37,18 +37,18 @@ r-chromium
    :depends on bioconductor-s4vectors: ``>=0.38.0``
    :depends on bioconductor-singlecellexperiment: ``>=1.22.0``
    :depends on bioconductor-summarizedexperiment: ``>=1.30.0``
-   :depends on r-acidbase: ``>=0.7.0``
-   :depends on r-acidcli: ``>=0.2.8``
-   :depends on r-acidexperiment: ``>=0.5.0``
-   :depends on r-acidgenerics: ``>=0.6.13``
-   :depends on r-acidgenomes: ``>=0.6.0``
-   :depends on r-acidplyr: ``>=0.4.3``
-   :depends on r-acidsinglecell: ``>=0.3.7``
-   :depends on r-base: ``>=4.4,<4.5.0a0``
-   :depends on r-goalie: ``>=0.7.0``
+   :depends on r-acidbase: ``>=0.7.8``
+   :depends on r-acidcli: ``>=0.3.3``
+   :depends on r-acidexperiment: ``>=0.5.6``
+   :depends on r-acidgenerics: ``>=0.7.11``
+   :depends on r-acidgenomes: ``>=0.8.1``
+   :depends on r-acidplyr: ``>=0.5.8``
+   :depends on r-acidsinglecell: ``>=0.4.5``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-goalie: ``>=0.7.10``
    :depends on r-matrix: ``>=1.6.1``
-   :depends on r-pipette: ``>=0.14.0``
-   :depends on r-syntactic: ``>=0.6.7``
+   :depends on r-pipette: ``>=0.16.2``
+   :depends on r-syntactic: ``>=0.8.1``
 
    :additional platforms:
       
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-chromium";
-      var versions = ["0.3.0","0.3.0","0.3.0","0.2.1","0.2.1"];
+      var versions = ["0.3.1","0.3.0","0.3.0","0.3.0","0.2.1"];
    </script>
 
 .. rubric:: Download stats

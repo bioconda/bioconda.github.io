@@ -14,7 +14,7 @@ r-basejump
 
    :homepage: https://r.acidgenomics.com/packages/basejump/
    :developer docs: https://github.com/acidgenomics/r-basejump
-   :license: GPL / AGPL-3.0
+   :license: APACHE / Apache-2.0
    :recipe: /`r-basejump <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-basejump>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-basejump/meta.yaml>`_
 
    
@@ -29,10 +29,10 @@ r-basejump
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.18.1-0</code>,  <code>0.18.0-2</code>,  <code>0.18.0-1</code>,  <code>0.18.0-0</code>,  <code>0.17.0-1</code>,  <code>0.17.0-0</code>,  <code>0.16.5-1</code>,  <code>0.16.5-0</code>,  <code>0.16.4-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.18.2-0</code>,  <code>0.18.1-0</code>,  <code>0.18.0-2</code>,  <code>0.18.0-1</code>,  <code>0.18.0-0</code>,  <code>0.17.0-1</code>,  <code>0.17.0-0</code>,  <code>0.16.5-1</code>,  <code>0.16.5-0</code>,  </span></summary>
       
 
-      ``0.18.1-0``,  ``0.18.0-2``,  ``0.18.0-1``,  ``0.18.0-0``,  ``0.17.0-1``,  ``0.17.0-0``,  ``0.16.5-1``,  ``0.16.5-0``,  ``0.16.4-1``,  ``0.16.4-0``,  ``0.16.3-0``,  ``0.16.2-0``,  ``0.16.1-1``,  ``0.16.1-0``,  ``0.15.0-0``,  ``0.14.23-0``,  ``0.14.22-0``,  ``0.14.21-0``,  ``0.14.20-0``,  ``0.14.19-0``,  ``0.14.18-0``,  ``0.14.17-2``,  ``0.14.17-1``,  ``0.14.17-0``,  ``0.13.4-0``,  ``0.13.2-0``,  ``0.12.16-0``,  ``0.12.15-0``,  ``0.12.14-0``,  ``0.12.13-0``,  ``0.12.10-0``,  ``0.12.9-0``,  ``0.12.8-1``,  ``0.12.8-0``,  ``0.12.7-0``,  ``0.12.6-1``,  ``0.12.6-0``,  ``0.12.5-1``,  ``0.12.5-0``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.23-0``,  ``0.11.22-0``,  ``0.11.21-0``,  ``0.11.20-1``,  ``0.11.20-0``,  ``0.11.19-0``,  ``0.11.18-0``,  ``0.11.17-0``,  ``0.11.16-0``,  ``0.11.15-0``,  ``0.11.14-0``,  ``0.11.13-0``,  ``0.11.12-0``,  ``0.11.11-0``,  ``0.11.10-0``,  ``0.11.8-0``,  ``0.11.7-0``,  ``0.11.5-0``,  ``0.10.9-1``,  ``0.10.9-0``,  ``0.9.11-0``,  ``0.9.9-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.5.9-0``,  ``0.5.3-0``,  ``0.1.1-0``
+      ``0.18.2-0``,  ``0.18.1-0``,  ``0.18.0-2``,  ``0.18.0-1``,  ``0.18.0-0``,  ``0.17.0-1``,  ``0.17.0-0``,  ``0.16.5-1``,  ``0.16.5-0``,  ``0.16.4-1``,  ``0.16.4-0``,  ``0.16.3-0``,  ``0.16.2-0``,  ``0.16.1-1``,  ``0.16.1-0``,  ``0.15.0-0``,  ``0.14.23-0``,  ``0.14.22-0``,  ``0.14.21-0``,  ``0.14.20-0``,  ``0.14.19-0``,  ``0.14.18-0``,  ``0.14.17-2``,  ``0.14.17-1``,  ``0.14.17-0``,  ``0.13.4-0``,  ``0.13.2-0``,  ``0.12.16-0``,  ``0.12.15-0``,  ``0.12.14-0``,  ``0.12.13-0``,  ``0.12.10-0``,  ``0.12.9-0``,  ``0.12.8-1``,  ``0.12.8-0``,  ``0.12.7-0``,  ``0.12.6-1``,  ``0.12.6-0``,  ``0.12.5-1``,  ``0.12.5-0``,  ``0.12.4-0``,  ``0.12.3-0``,  ``0.12.2-0``,  ``0.12.1-0``,  ``0.12.0-0``,  ``0.11.23-0``,  ``0.11.22-0``,  ``0.11.21-0``,  ``0.11.20-1``,  ``0.11.20-0``,  ``0.11.19-0``,  ``0.11.18-0``,  ``0.11.17-0``,  ``0.11.16-0``,  ``0.11.15-0``,  ``0.11.14-0``,  ``0.11.13-0``,  ``0.11.12-0``,  ``0.11.11-0``,  ``0.11.10-0``,  ``0.11.8-0``,  ``0.11.7-0``,  ``0.11.5-0``,  ``0.10.9-1``,  ``0.10.9-0``,  ``0.9.11-0``,  ``0.9.9-0``,  ``0.7.2-1``,  ``0.7.2-0``,  ``0.5.9-0``,  ``0.5.3-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -43,16 +43,16 @@ r-basejump
    
    :depends on bioconductor-singlecellexperiment: ``>=1.22.0``
    :depends on bioconductor-summarizedexperiment: ``>=1.30.0``
-   :depends on r-acidbase: ``>=0.7.0``
-   :depends on r-acidexperiment: ``>=0.5.0``
-   :depends on r-acidgenomes: ``>=0.6.0``
-   :depends on r-acidmarkdown: ``>=0.3.0``
-   :depends on r-acidplots: ``>=0.7.0``
-   :depends on r-acidplyr: ``>=0.5.0``
-   :depends on r-acidsinglecell: ``>=0.4.0``
-   :depends on r-base: ``>=4.4,<4.5.0a0``
-   :depends on r-pipette: ``>=0.14.0``
-   :depends on r-syntactic: ``>=0.7.0``
+   :depends on r-acidbase: ``>=0.7.8``
+   :depends on r-acidexperiment: ``>=0.5.6``
+   :depends on r-acidgenomes: ``>=0.8.1``
+   :depends on r-acidmarkdown: ``>=0.3.2``
+   :depends on r-acidplots: ``>=0.7.5``
+   :depends on r-acidplyr: ``>=0.5.8``
+   :depends on r-acidsinglecell: ``>=0.4.5``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-pipette: ``>=0.16.2``
+   :depends on r-syntactic: ``>=0.8.1``
 
    :additional platforms:
       
@@ -127,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-basejump";
-      var versions = ["0.18.1","0.18.0","0.18.0","0.18.0","0.17.0"];
+      var versions = ["0.18.2","0.18.1","0.18.0","0.18.0","0.18.0"];
    </script>
 
 .. rubric:: Download stats

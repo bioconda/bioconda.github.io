@@ -14,7 +14,7 @@ r-wormbase
 
    :homepage: https://r.acidgenomics.com/packages/wormbase/
    :developer docs: https://github.com/acidgenomics/r-wormbase
-   :license: GPL / AGPL-3.0
+   :license: APACHE / Apache-2.0
    :recipe: /`r-wormbase <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-wormbase>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-wormbase/meta.yaml>`_
 
    
@@ -28,7 +28,7 @@ r-wormbase
       
       
 
-      ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``
+      ``0.5.1-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.2-0``,  ``0.4.1-0``
 
       
 
@@ -36,15 +36,15 @@ r-wormbase
    :depends on bioconductor-biocgenerics: ``>=0.46.0``
    :depends on bioconductor-iranges: ``>=2.34.0``
    :depends on bioconductor-s4vectors: ``>=0.38.0``
-   :depends on r-acidbase: ``>=0.7.0``
-   :depends on r-acidcli: ``>=0.2.8``
-   :depends on r-acidgenerics: ``>=0.6.13``
-   :depends on r-acidplyr: ``>=0.4.3``
-   :depends on r-base: ``>=4.4,<4.5.0a0``
-   :depends on r-goalie: ``>=0.7.0``
+   :depends on r-acidbase: ``>=0.7.8``
+   :depends on r-acidcli: ``>=0.3.3``
+   :depends on r-acidgenerics: ``>=0.7.11``
+   :depends on r-acidplyr: ``>=0.5.8``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-goalie: ``>=0.7.10``
    :depends on r-httr2: ``>=0.2.3``
-   :depends on r-pipette: ``>=0.14.0``
-   :depends on r-syntactic: ``>=0.6.7``
+   :depends on r-pipette: ``>=0.16.2``
+   :depends on r-syntactic: ``>=0.8.1``
 
    :additional platforms:
       
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-wormbase";
-      var versions = ["0.5.0","0.5.0","0.4.2","0.4.1"];
+      var versions = ["0.5.1","0.5.0","0.5.0","0.4.2","0.4.1"];
    </script>
 
 .. rubric:: Download stats

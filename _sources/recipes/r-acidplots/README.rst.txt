@@ -14,7 +14,7 @@ r-acidplots
 
    :homepage: https://r.acidgenomics.com/packages/acidplots/
    :developer docs: https://github.com/acidgenomics/r-acidplots
-   :license: GPL / AGPL-3.0
+   :license: APACHE / Apache-2.0
    :recipe: /`r-acidplots <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidplots>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidplots/meta.yaml>`_
 
    
@@ -29,10 +29,10 @@ r-acidplots
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.7.4-0</code>,  <code>0.7.3-1</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.5-2</code>,  <code>0.5.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.7.5-0</code>,  <code>0.7.4-0</code>,  <code>0.7.3-1</code>,  <code>0.7.3-0</code>,  <code>0.7.2-0</code>,  <code>0.7.1-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.5-2</code>,  </span></summary>
       
 
-      ``0.7.4-0``,  ``0.7.3-1``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.5-2``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.4.0-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.5-2``,  ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.0-0``,  ``0.2.36-0``,  ``0.2.35-0``,  ``0.2.34-0``,  ``0.2.32-0``,  ``0.2.30-0``,  ``0.2.29-0``,  ``0.2.28-0``,  ``0.2.27-0``,  ``0.2.26-1``,  ``0.2.26-0``,  ``0.2.24-0``,  ``0.2.23-0``,  ``0.2.22-0``,  ``0.2.20-0``,  ``0.2.19-0``,  ``0.2.18-0``,  ``0.2.17-0``,  ``0.2.16-0``,  ``0.2.15-0``,  ``0.2.14-0``
+      ``0.7.5-0``,  ``0.7.4-0``,  ``0.7.3-1``,  ``0.7.3-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.5-2``,  ``0.5.5-1``,  ``0.5.5-0``,  ``0.5.4-1``,  ``0.5.4-0``,  ``0.5.3-1``,  ``0.5.3-0``,  ``0.4.0-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.7-0``,  ``0.3.5-2``,  ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.0-0``,  ``0.2.36-0``,  ``0.2.35-0``,  ``0.2.34-0``,  ``0.2.32-0``,  ``0.2.30-0``,  ``0.2.29-0``,  ``0.2.28-0``,  ``0.2.27-0``,  ``0.2.26-1``,  ``0.2.26-0``,  ``0.2.24-0``,  ``0.2.23-0``,  ``0.2.22-0``,  ``0.2.20-0``,  ``0.2.19-0``,  ``0.2.18-0``,  ``0.2.17-0``,  ``0.2.16-0``,  ``0.2.15-0``,  ``0.2.14-0``
 
       
       .. raw:: html
@@ -48,30 +48,30 @@ r-acidplots
    :depends on bioconductor-s4vectors: ``>=0.38.0``
    :depends on bioconductor-singlecellexperiment: ``>=1.22.0``
    :depends on bioconductor-summarizedexperiment: ``>=1.30.0``
-   :depends on r-acidbase: ``>=0.7.0``
-   :depends on r-acidcli: ``>=0.3.0``
-   :depends on r-acidexperiment: ``>=0.5.0``
-   :depends on r-acidgenerics: ``>=0.7.1``
-   :depends on r-acidgenomes: ``>=0.6.0``
-   :depends on r-acidmarkdown: ``>=0.3.0``
-   :depends on r-acidplyr: ``>=0.5.0``
-   :depends on r-acidsinglecell: ``>=0.4.0``
-   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on r-acidbase: ``>=0.7.8``
+   :depends on r-acidcli: ``>=0.3.3``
+   :depends on r-acidexperiment: ``>=0.5.6``
+   :depends on r-acidgenerics: ``>=0.7.11``
+   :depends on r-acidgenomes: ``>=0.8.1``
+   :depends on r-acidmarkdown: ``>=0.3.2``
+   :depends on r-acidplyr: ``>=0.5.8``
+   :depends on r-acidsinglecell: ``>=0.4.5``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-complexupset: ``>=1.3.3``
    :depends on r-ggplot2: ``>=3.4.3``
    :depends on r-ggpmisc: ``>=0.5.4``
    :depends on r-ggrepel: ``>=0.9.3``
    :depends on r-ggridges: ``>=0.5.4``
-   :depends on r-goalie: ``>=0.7.1``
+   :depends on r-goalie: ``>=0.7.10``
    :depends on r-matrix: ``>=1.6.1``
    :depends on r-matrixstats: ``>=1.0.0``
    :depends on r-patchwork: ``>=1.1.3``
    :depends on r-pheatmap: ``>=1.0.12``
-   :depends on r-pipette: ``>=0.14.0``
+   :depends on r-pipette: ``>=0.16.2``
    :depends on r-rcolorbrewer: ``>=1.1.3``
    :depends on r-rlang: ``>=1.1.1``
    :depends on r-scales: ``>=1.2.1``
-   :depends on r-syntactic: ``>=0.7.0``
+   :depends on r-syntactic: ``>=0.8.1``
    :depends on r-viridis: ``>=0.6.4``
 
    :additional platforms:
@@ -147,7 +147,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-acidplots";
-      var versions = ["0.7.4","0.7.3","0.7.3","0.7.2","0.7.1"];
+      var versions = ["0.7.5","0.7.4","0.7.3","0.7.3","0.7.2"];
    </script>
 
 .. rubric:: Download stats

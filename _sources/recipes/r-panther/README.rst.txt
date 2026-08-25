@@ -14,7 +14,7 @@ r-panther
 
    :homepage: https://r.acidgenomics.com/packages/panther/
    :developer docs: https://github.com/acidgenomics/r-panther
-   :license: GPL / AGPL-3.0
+   :license: APACHE / Apache-2.0
    :recipe: /`r-panther <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-panther>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-panther/meta.yaml>`_
 
    
@@ -28,7 +28,7 @@ r-panther
       
       
 
-      ``0.5.1-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``
+      ``0.5.2-0``,  ``0.5.1-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``
 
       
 
@@ -36,15 +36,15 @@ r-panther
    :depends on bioconductor-biocgenerics: ``>=0.46.0``
    :depends on bioconductor-iranges: ``>=2.34.0``
    :depends on bioconductor-s4vectors: ``>=0.38.0``
-   :depends on r-acidbase: ``>=0.7.0``
-   :depends on r-acidcli: ``>=0.3.0``
-   :depends on r-acidgenerics: ``>=0.7.3``
-   :depends on r-acidgenomes: ``>=0.6.0``
-   :depends on r-acidplyr: ``>=0.5.0``
-   :depends on r-base: ``>=4.4,<4.5.0a0``
-   :depends on r-goalie: ``>=0.7.3``
-   :depends on r-pipette: ``>=0.14.1``
-   :depends on r-syntactic: ``>=0.7.0``
+   :depends on r-acidbase: ``>=0.7.8``
+   :depends on r-acidcli: ``>=0.3.3``
+   :depends on r-acidgenerics: ``>=0.7.11``
+   :depends on r-acidgenomes: ``>=0.8.1``
+   :depends on r-acidplyr: ``>=0.5.8``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-goalie: ``>=0.7.10``
+   :depends on r-pipette: ``>=0.16.2``
+   :depends on r-syntactic: ``>=0.8.1``
 
    :additional platforms:
       
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-panther";
-      var versions = ["0.5.1","0.5.0","0.5.0","0.4.0"];
+      var versions = ["0.5.2","0.5.1","0.5.0","0.5.0","0.4.0"];
    </script>
 
 .. rubric:: Download stats

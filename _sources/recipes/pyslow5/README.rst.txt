@@ -28,10 +28,10 @@ pyslow5
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.0-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-2</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.0-3</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.1-0</code>,  <code>1.3.0-2</code>,  <code>1.3.0-1</code>,  <code>1.3.0-0</code>,  <code>1.2.0-0</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  </span></summary>
       
 
-      ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-3``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``
+      ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.1-0``,  ``1.3.0-2``,  ``1.3.0-1``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.0-3``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-1``,  ``0.6.0-0``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -40,9 +40,10 @@ pyslow5
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on numpy: ``>=1.22.4,<2.0a0``
+   :depends on __osx: ``>=11.0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on numpy: ``>=1.21,<3``
+   :depends on numpy: ``>=2.2.6,<3.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
 
@@ -123,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pyslow5";
-      var versions = ["1.4.0","1.3.1","1.3.0","1.3.0","1.3.0"];
+      var versions = ["1.5.0","1.4.0","1.3.1","1.3.0","1.3.0"];
    </script>
 
 .. rubric:: Download stats

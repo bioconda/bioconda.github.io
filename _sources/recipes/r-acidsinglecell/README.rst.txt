@@ -14,7 +14,7 @@ r-acidsinglecell
 
    :homepage: https://r.acidgenomics.com/packages/acidsinglecell/
    :developer docs: https://github.com/acidgenomics/r-acidsinglecell
-   :license: GPL / AGPL-3.0
+   :license: APACHE / Apache-2.0
    :recipe: /`r-acidsinglecell <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidsinglecell>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidsinglecell/meta.yaml>`_
 
    
@@ -29,10 +29,10 @@ r-acidsinglecell
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-1</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-2</code>,  <code>0.3.5-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.5-0</code>,  <code>0.4.4-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-1</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.6-0</code>,  <code>0.3.5-2</code>,  </span></summary>
       
 
-      ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.6-0``,  ``0.3.5-2``,  ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``
+      ``0.4.5-0``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.6-0``,  ``0.3.5-2``,  ``0.3.5-1``,  ``0.3.5-0``,  ``0.3.4-1``,  ``0.3.4-0``,  ``0.3.3-1``,  ``0.3.3-0``,  ``0.2.0-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-2``,  ``0.1.7-1``,  ``0.1.7-0``
 
       
       .. raw:: html
@@ -51,17 +51,17 @@ r-acidsinglecell
    :depends on bioconductor-scuttle: ``>=1.10.0``
    :depends on bioconductor-singlecellexperiment: ``>=1.22.0``
    :depends on bioconductor-summarizedexperiment: ``>=1.30.0``
-   :depends on r-acidbase: ``>=0.7.0``
-   :depends on r-acidcli: ``>=0.3.0``
-   :depends on r-acidexperiment: ``>=0.5.0``
-   :depends on r-acidgenerics: ``>=0.7.1``
-   :depends on r-acidgenomes: ``>=0.6.0``
-   :depends on r-acidplyr: ``>=0.5.0``
-   :depends on r-base: ``>=4.4,<4.5.0a0``
-   :depends on r-goalie: ``>=0.7.1``
+   :depends on r-acidbase: ``>=0.7.8``
+   :depends on r-acidcli: ``>=0.3.3``
+   :depends on r-acidexperiment: ``>=0.5.6``
+   :depends on r-acidgenerics: ``>=0.7.11``
+   :depends on r-acidgenomes: ``>=0.8.1``
+   :depends on r-acidplyr: ``>=0.5.8``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-goalie: ``>=0.7.10``
    :depends on r-matrix: ``>=1.6.1``
-   :depends on r-pipette: ``>=0.14.0``
-   :depends on r-syntactic: ``>=0.7.0``
+   :depends on r-pipette: ``>=0.16.2``
+   :depends on r-syntactic: ``>=0.8.1``
 
    :additional platforms:
       
@@ -136,7 +136,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-acidsinglecell";
-      var versions = ["0.4.4","0.4.3","0.4.2","0.4.2","0.4.1"];
+      var versions = ["0.4.5","0.4.4","0.4.3","0.4.2","0.4.2"];
    </script>
 
 .. rubric:: Download stats

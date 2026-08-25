@@ -32,6 +32,7 @@ salti
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on openssl: ``>=3.5.6,<4.0a0``
 
    :additional platforms:

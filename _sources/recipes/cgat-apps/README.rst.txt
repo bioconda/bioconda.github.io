@@ -42,15 +42,14 @@ cgat-apps
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on alignlib-lite: 
-   :depends on bedtools: 
    :depends on biopython: 
    :depends on cgatcore: 
    :depends on coreutils: 
    :depends on grep: 
    :depends on htslib: ``>=1.24,<1.25.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on matplotlib-base: 
    :depends on numpy: ``>=1.21,<3``
    :depends on pandas: 

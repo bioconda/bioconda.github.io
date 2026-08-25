@@ -41,7 +41,6 @@ yahmm
 
    
    :depends on cython: ``>=0.20.1,<3``
-   :depends on libgcc: ``>=14``
    :depends on matplotlib-base: ``>=1.3.1``
    :depends on networkx: ``>=1.8.1``
    :depends on numpy: ``>=1.21,<3``

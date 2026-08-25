@@ -39,7 +39,7 @@ whittle
       
 
    
-   :depends on libgcc: ``>=14``
+   :depends on __osx: ``>=11.0``
 
    :additional platforms:
       

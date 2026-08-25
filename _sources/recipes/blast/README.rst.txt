@@ -51,7 +51,7 @@ blast
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on curl: 
    :depends on entrez-direct: ``>=26.0,<27.0a0``

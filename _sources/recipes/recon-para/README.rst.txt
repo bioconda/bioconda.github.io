@@ -39,8 +39,8 @@ recon-para
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on coreutils: 
-   :depends on libgcc: ``>=14``
    :depends on perl: 
 
    :additional platforms:

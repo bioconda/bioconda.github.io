@@ -44,17 +44,9 @@ bandage_ng
 
    
    :depends on fonts-conda-ecosystem: 
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on libvulkan-loader: ``>=1.4.341.0,<2.0a0``
    :depends on qt6-main: 
-   :depends on xorg-libice: ``>=1.1.2,<2.0a0``
-   :depends on xorg-libsm: ``>=1.2.6,<2.0a0``
-   :depends on xorg-libx11: ``>=1.8.13,<2.0a0``
-   :depends on xorg-libxcomposite: ``>=0.4.7,<1.0a0``
-   :depends on xorg-libxdamage: ``>=1.1.6,<2.0a0``
-   :depends on xorg-libxext: ``>=1.3.7,<2.0a0``
-   :depends on xorg-libxxf86vm: ``>=1.1.7,<2.0a0``
 
    :additional platforms:
       

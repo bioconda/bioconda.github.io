@@ -33,7 +33,6 @@ imods
 
    
    :depends on arpack: ``>=3.7.0,<3.7.1.0a0``
-   :depends on mkl: ``2023.0.0``
 
    :additional platforms:
       

@@ -14,7 +14,7 @@ r-acidgsea
 
    :homepage: https://r.acidgenomics.com/packages/acidgsea/
    :developer docs: https://github.com/acidgenomics/r-acidgsea
-   :license: GPL / AGPL-3.0
+   :license: APACHE / Apache-2.0
    :recipe: /`r-acidgsea <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidgsea>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-acidgsea/meta.yaml>`_
 
    
@@ -29,10 +29,10 @@ r-acidgsea
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.1-0</code>,  <code>0.9.0-1</code>,  <code>0.9.0-0</code>,  <code>0.8.9-0</code>,  <code>0.8.8-2</code>,  <code>0.8.8-1</code>,  <code>0.8.8-0</code>,  <code>0.8.7-1</code>,  <code>0.8.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-1</code>,  <code>0.9.0-0</code>,  <code>0.8.9-0</code>,  <code>0.8.8-2</code>,  <code>0.8.8-1</code>,  <code>0.8.8-0</code>,  <code>0.8.7-1</code>,  </span></summary>
       
 
-      ``0.9.1-0``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.9-0``,  ``0.8.8-2``,  ``0.8.8-1``,  ``0.8.8-0``,  ``0.8.7-1``,  ``0.8.7-0``,  ``0.8.6-1``,  ``0.8.6-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.4-1``,  ``0.6.4-0``
+      ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.9-0``,  ``0.8.8-2``,  ``0.8.8-1``,  ``0.8.8-0``,  ``0.8.7-1``,  ``0.8.7-0``,  ``0.8.6-1``,  ``0.8.6-0``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.4-1``,  ``0.6.4-0``
 
       
       .. raw:: html
@@ -47,23 +47,23 @@ r-acidgsea
    :depends on bioconductor-iranges: ``>=2.34.0``
    :depends on bioconductor-s4vectors: ``>=0.38.0``
    :depends on bioconductor-summarizedexperiment: ``>=1.30.0``
-   :depends on r-acidbase: ``>=0.7.0``
-   :depends on r-acidcli: ``>=0.3.0``
-   :depends on r-acidexperiment: ``>=0.5.0``
-   :depends on r-acidgenerics: ``>=0.7.1``
-   :depends on r-acidgenomes: ``>=0.6.0``
-   :depends on r-acidmarkdown: ``>=0.3.0``
-   :depends on r-acidplots: ``>=0.7.0``
-   :depends on r-acidplyr: ``>=0.5.0``
-   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on r-acidbase: ``>=0.7.8``
+   :depends on r-acidcli: ``>=0.3.3``
+   :depends on r-acidexperiment: ``>=0.5.6``
+   :depends on r-acidgenerics: ``>=0.7.11``
+   :depends on r-acidgenomes: ``>=0.8.1``
+   :depends on r-acidmarkdown: ``>=0.3.2``
+   :depends on r-acidplots: ``>=0.7.5``
+   :depends on r-acidplyr: ``>=0.5.8``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-basejump: ``>=0.18.0``
-   :depends on r-deseqanalysis: ``>=0.7.0``
+   :depends on r-deseqanalysis: ``>=0.7.3``
    :depends on r-ggplot2: ``>=3.4.3``
-   :depends on r-goalie: ``>=0.7.1``
+   :depends on r-goalie: ``>=0.7.10``
    :depends on r-knitr: ``>=1.44``
-   :depends on r-pipette: ``>=0.14.0``
+   :depends on r-pipette: ``>=0.16.2``
    :depends on r-rmarkdown: ``>=2.25``
-   :depends on r-syntactic: ``>=0.7.0``
+   :depends on r-syntactic: ``>=0.8.1``
 
    :additional platforms:
       
@@ -138,7 +138,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-acidgsea";
-      var versions = ["0.9.1","0.9.0","0.9.0","0.8.9","0.8.8"];
+      var versions = ["0.9.2","0.9.1","0.9.0","0.9.0","0.8.9"];
    </script>
 
 .. rubric:: Download stats

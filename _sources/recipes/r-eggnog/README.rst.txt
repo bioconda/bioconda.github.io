@@ -14,7 +14,7 @@ r-eggnog
 
    :homepage: https://r.acidgenomics.com/packages/eggnog/
    :developer docs: https://github.com/acidgenomics/r-eggnog
-   :license: GPL / AGPL-3.0
+   :license: APACHE / Apache-2.0
    :recipe: /`r-eggnog <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-eggnog>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-eggnog/meta.yaml>`_
 
    
@@ -28,7 +28,7 @@ r-eggnog
       
       
 
-      ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.2-0``
+      ``0.3.2-0``,  ``0.3.1-0``,  ``0.3.0-1``,  ``0.3.0-0``,  ``0.2.2-0``
 
       
 
@@ -36,10 +36,10 @@ r-eggnog
    :depends on bioconductor-biocgenerics: ``>=0.46.0``
    :depends on bioconductor-iranges: ``>=2.34.0``
    :depends on bioconductor-s4vectors: ``>=0.38.0``
-   :depends on r-acidbase: ``>=0.7.1``
-   :depends on r-base: ``>=4.4,<4.5.0a0``
-   :depends on r-goalie: ``>=0.7.3``
-   :depends on r-pipette: ``>=0.14.1``
+   :depends on r-acidbase: ``>=0.7.8``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-goalie: ``>=0.7.10``
+   :depends on r-pipette: ``>=0.16.2``
 
    :additional platforms:
       
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-eggnog";
-      var versions = ["0.3.1","0.3.0","0.3.0","0.2.2"];
+      var versions = ["0.3.2","0.3.1","0.3.0","0.3.0","0.2.2"];
    </script>
 
 .. rubric:: Download stats

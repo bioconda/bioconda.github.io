@@ -34,10 +34,10 @@ flexiplex
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.02.6-0</code>,  <code>1.02.5-1</code>,  <code>1.02.5-0</code>,  <code>1.02.4-0</code>,  <code>1.02.3-0</code>,  <code>1.01-2</code>,  <code>1.01-1</code>,  <code>1.01-0</code>,  <code>0.97.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.02.7-0</code>,  <code>1.02.6-0</code>,  <code>1.02.5-1</code>,  <code>1.02.5-0</code>,  <code>1.02.4-0</code>,  <code>1.02.3-0</code>,  <code>1.01-2</code>,  <code>1.01-1</code>,  <code>1.01-0</code>,  </span></summary>
       
 
-      ``1.02.6-0``,  ``1.02.5-1``,  ``1.02.5-0``,  ``1.02.4-0``,  ``1.02.3-0``,  ``1.01-2``,  ``1.01-1``,  ``1.01-0``,  ``0.97.1-1``,  ``0.97.1-0``,  ``0.97-0``
+      ``1.02.7-0``,  ``1.02.6-0``,  ``1.02.5-1``,  ``1.02.5-0``,  ``1.02.4-0``,  ``1.02.3-0``,  ``1.01-2``,  ``1.01-1``,  ``1.01-0``,  ``0.97.1-1``,  ``0.97.1-0``,  ``0.97-0``
 
       
       .. raw:: html
@@ -46,9 +46,9 @@ flexiplex
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on cachetools: 
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on matplotlib-base: 
    :depends on numpy: 
    :depends on pandas: 
@@ -133,7 +133,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "flexiplex";
-      var versions = ["1.02.6","1.02.5","1.02.5","1.02.4","1.02.3"];
+      var versions = ["1.02.7","1.02.6","1.02.5","1.02.5","1.02.4"];
    </script>
 
 .. rubric:: Download stats
