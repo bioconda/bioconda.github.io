@@ -27,7 +27,7 @@ metacontextify
       
       
 
-      ``0.1.0-0``
+      ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -35,6 +35,7 @@ metacontextify
    :depends on appdirs: ``>=1.4.4``
    :depends on beautifulsoup4: ``>=4.9.0``
    :depends on copernicusmarine: ``>=0.1.0``
+   :depends on duckdb: 
    :depends on netcdf4: 
    :depends on pandas: ``>=1.3.0``
    :depends on python: ``>=3.8``
@@ -116,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "metacontextify";
-      var versions = ["0.1.0"];
+      var versions = ["0.2.0","0.1.0"];
    </script>
 
 .. rubric:: Download stats

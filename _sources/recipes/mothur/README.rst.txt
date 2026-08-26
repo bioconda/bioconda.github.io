@@ -44,13 +44,14 @@ mothur
       
 
    
-   :depends on __osx: ``>=11.0``
-   :depends on blast: ``>=2.16.0,<2.17.0a0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on blast: ``>=2.17.0,<2.18.0a0``
    :depends on boost-cpp: 
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on gsl: ``>=2.7,<2.8.0a0``
    :depends on hdf5: ``>=1.14.3,<1.14.4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on readline: ``>=8.3,<9.0a0``
    :depends on sra-tools: ``>=3.4.1,<4.0a0``

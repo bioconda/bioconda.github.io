@@ -43,6 +43,7 @@ repeatscout
       
 
    
+   :depends on libgcc: ``>=13``
    :depends on nseg: 
    :depends on perl: 
    :depends on perl-file-temp: 

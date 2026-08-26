@@ -27,11 +27,23 @@ chemap
       
       
 
-      
+      ``0.3.7-0``
 
       
 
    
+   :depends on joblib: ``>=1.3.2``
+   :depends on map4: ``>=1.1.3``
+   :depends on matplotlib-base: ``>=3.10.1``
+   :depends on numba: ``>=0.61.2``
+   :depends on numpy: ``>=2.1.0``
+   :depends on pandas: ``>=2.2.1``
+   :depends on pooch: ``>=1.8.2``
+   :depends on python: ``>=3.11,<3.15``
+   :depends on rdkit: ``>=2024.9.6``
+   :depends on scikit-fingerprints: ``>=2.0.0``
+   :depends on scipy: ``>=1.14.2``
+   :depends on tqdm: ``>=4.67.1``
 
    :additional platforms:
       
@@ -106,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "chemap";
-      var versions = [];
+      var versions = ["0.3.7"];
    </script>
 
 .. rubric:: Download stats

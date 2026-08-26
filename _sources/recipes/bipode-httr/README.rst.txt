@@ -10,13 +10,15 @@ bipode-httr
    :replaces_section_title:
    :noindex:
 
-   Pre\-release version for testing purposes only
+   Bayesian Inference for point\-of\-departure estimation \(BIPODE\) for High\-Throughput Transcriptomics \(HTTr\)
 
-   :homepage: https://github.com/seqera-services/bipode-httr
+   :homepage: https://github.com/seacunilever/bipode-httr
+   :documentation: https://github.com/seacunilever/bipode-httr/blob/main/README.md
+   
    :license: LGPL / LGPL-3.0
    :recipe: /`bipode-httr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bipode-httr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bipode-httr/meta.yaml>`_
 
-   Pre\-release version for testing purposes only
+   
 
 
 .. conda:package:: bipode-httr
@@ -27,7 +29,7 @@ bipode-httr
       
       
 
-      ``1.0.0-0``
+      ``1.1.0-0``,  ``1.0.0-0``
 
       
 
@@ -115,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bipode-httr";
-      var versions = ["1.0.0"];
+      var versions = ["1.1.0","1.0.0"];
    </script>
 
 .. rubric:: Download stats

@@ -43,12 +43,13 @@ coverm
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bwa: ``>=0.7.17``
    :depends on coreutils: 
    :depends on fastani: ``>=1.31``
    :depends on gsl: ``>=2.7,<2.8.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on minimap2: ``>=2.28``
    :depends on openblas: 

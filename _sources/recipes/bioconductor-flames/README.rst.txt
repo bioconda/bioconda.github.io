@@ -26,12 +26,21 @@ bioconductor-flames
    :versions:
       
       
+      .. raw:: html
 
-      ``2.4.2-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``0.99.31-0``
+         <details><summary><span class="truncated-version-list"><code>2.4.2-1</code>,  <code>2.4.2-0</code>,  <code>1.8.0-0</code>,  <code>1.6.0-0</code>,  <code>1.3.4-1</code>,  <code>1.3.4-0</code>,  <code>1.0.2-2</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  </span></summary>
+      
 
+      ``2.4.2-1``,  ``2.4.2-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``0.99.31-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-bambu: ``>=3.12.0,<3.13.0``
    :depends on bioconductor-bambu: ``>=3.12.1,<3.13.0a0``
    :depends on bioconductor-basilisk: ``>=1.22.0,<1.23.0``
@@ -82,11 +91,27 @@ bioconductor-flames
    :depends on bioconductor-spatialexperiment: ``>=1.20.0,<1.21.0a0``
    :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
    :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0a0``
+   :depends on bzip2: ``>=1.0.8,<2.0a0``
+   :depends on git: 
+   :depends on glpk: ``>=5.0,<6.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libcurl: ``>=8.21.0,<9.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libgfortran: 
+   :depends on libgfortran5: ``>=14.4.0``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libstdcxx: ``>=14``
+   :depends on libuv: 
+   :depends on libxml2: 
+   :depends on libxml2-16: ``>=2.15.3``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on minimap2: ``>=2.29``
+   :depends on ncurses: ``>=6.6,<7.0a0``
+   :depends on oarfish: ``>=0.8,<0.9``
+   :depends on pip: 
+   :depends on pkg-config: 
+   :depends on python: ``3.11.9``
    :depends on r-abind: 
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-circlize: 
@@ -112,7 +137,7 @@ bioconductor-flames
    :depends on r-tibble: 
    :depends on r-tidyr: 
    :depends on r-tidyselect: 
-   :depends on r-withr: 
+   :depends on samtools: ``>=1.14``
 
    :additional platforms:
       
@@ -187,7 +212,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-flames";
-      var versions = ["2.4.2","1.8.0","1.6.0","1.3.4","1.3.4"];
+      var versions = ["2.4.2","2.4.2","1.8.0","1.6.0","1.3.4"];
    </script>
 
 .. rubric:: Download stats
