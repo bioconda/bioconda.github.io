@@ -33,7 +33,6 @@ fcp
 
    
    :depends on blast: 
-   :depends on libgcc: 
    :depends on python: ``2.7*``
 
    :additional platforms:

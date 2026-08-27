@@ -34,7 +34,7 @@ popins2
    
    :depends on bifrost: ``>=1.3.5,<1.4.0a0``
    :depends on bwa: ``>=0.7.18,<0.8.0a0``
-   :depends on htslib: ``>=1.21,<1.24.0a0``
+   :depends on htslib: ``>=1.21,<1.22.0a0``
    :depends on libgcc: ``>=13``
    :depends on libstdcxx: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``

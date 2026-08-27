@@ -42,12 +42,11 @@ taffy
    :depends on cffi: 
    :depends on hdf5: ``>=1.14.3,<1.14.4.0a0``
    :depends on htslib: ``>=1.23.1,<1.24.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on numpy: ``>=1.23,<3``
    :depends on python: ``>=3.14,<3.15.0a0``
-   :depends on python_abi: ``3.14.* *_cp314``
+   :depends on python_abi: ``3.14.* *_cp314t``
    :depends on zlib: 
 
    :additional platforms:

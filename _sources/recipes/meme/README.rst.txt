@@ -43,15 +43,13 @@ meme
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
-   :depends on _openmp_mutex: ``>=4.5``
+   :depends on __osx: ``>=11.0``
    :depends on icu: ``>=75.1,<76.0a0``
    :depends on libexpat: ``>=2.8.1,<3.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libgomp: 
    :depends on libxml2: ``>=2.13.9,<2.14.0a0``
    :depends on libxslt: ``>=1.1.43,<2.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-app-cpanminus: 
    :depends on perl-cgi: 

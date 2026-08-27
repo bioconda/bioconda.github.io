@@ -33,7 +33,6 @@ sicer2
       
 
    
-   :depends on libgcc: ``>=14``
    :depends on numpy: ``>=1.21,<3``
    :depends on numpy: ``>=2.2.6,<3.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``

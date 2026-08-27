@@ -46,7 +46,6 @@ concoct
    :depends on biopython: 
    :depends on cython: ``>=0.28.5``
    :depends on gsl: ``>=2.7,<2.8.0a0``
-   :depends on libgcc: ``>=14``
    :depends on nose: 
    :depends on numpy: ``>=1.23,<3``
    :depends on numpy: ``>=1.8.0,<2``

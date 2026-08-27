@@ -32,7 +32,6 @@ emvc-2
       
 
    
-   :depends on libgcc: ``>=13``
    :depends on numpy: 
    :depends on python: 
    :depends on samtools: 

@@ -20,9 +20,9 @@ acinetoscope
    featuring parallel execution for rapid processing of bacterial genomes. The pipeline integrates
    multiple analysis modules into a unified workflow\:
 
-   • Quality Control \(FASTA QC\) \- Comprehensive sequence validation
-   • Multi\-Locus Sequence Typing \(MLST\) \- Oxford \& Pasteur schemes
-   • K\/O Locus Typing \(Kaptive\) \- Capsule and lipooligosaccharide typing
+   • Quality Control \(FASTA QC\) \- Comprehensive sequence validation with FASTANI species confirmation
+   • Multi\-Locus Sequence Typing \(MLST\) \- Oxford \& Pasteur schemes with IC1\-IC12 assignment
+   • K\/OCL Locus Typing \(Kaptive\) \- Capsule and lipooligosaccharide typing
    • Antimicrobial Resistance \(AMR\) \- Comprehensive resistance gene detection
    • Virulence \& Plasmid Profiling \(ABRicate\) \- Multi\-database screening
    • Critical Genes Flagging \- Priority markers for infection control
@@ -35,6 +35,7 @@ acinetoscope
    🧬 Multi\-Database Integration \- CARD\, ResFinder\, VFDB\, NCBI\, MEGARes\, BacMet
    ⚡ Easy Deployment \- Single command analysis with automatic dependency handling
    🎯 Critical Gene Tracking \- Carbapenemases\, ESBLs\, colistin\/tigecycline resistance
+   🧪 Species Confirmation \- FASTANI integration with curated reference genomes
 
    Designed for clinical microbiology\, outbreak investigation\, and genomic surveillance\,
    AcinetoScope provides clinical labs and researchers with a complete solution for
@@ -50,7 +51,7 @@ acinetoscope
       
       
 
-      ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``
+      ``1.3.2-0``,  ``1.3.1-0``,  ``1.3.0-0``,  ``1.2.0-0``,  ``1.1.0-0``
 
       
 
@@ -61,6 +62,7 @@ acinetoscope
    :depends on biopython: ``>=1.85``
    :depends on blast: ``>=2.13.0``
    :depends on click: ``>=8.0.0``
+   :depends on fastani: ``>=1.34``
    :depends on kaptive: ``>=3.1.0``
    :depends on lxml: ``>=4.9.0``
    :depends on matplotlib-base: ``>=3.5.0``
@@ -155,7 +157,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "acinetoscope";
-      var versions = ["1.3.1","1.3.0","1.2.0","1.1.0"];
+      var versions = ["1.3.2","1.3.1","1.3.0","1.2.0","1.1.0"];
    </script>
 
 .. rubric:: Download stats

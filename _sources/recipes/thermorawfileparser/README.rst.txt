@@ -43,7 +43,6 @@ thermorawfileparser
 
    
    :depends on icu: ``>=70.1``
-   :depends on libstdcxx-ng: ``>=7.5.0``
    :depends on libzlib: 
    :depends on openssl: 
    :depends on wget: 

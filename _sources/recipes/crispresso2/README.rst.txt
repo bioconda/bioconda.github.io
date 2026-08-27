@@ -43,11 +43,10 @@ crispresso2
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on __osx: ``>=11.0``
    :depends on bowtie2: 
    :depends on fastp: 
    :depends on jinja2: 
-   :depends on libgcc: ``>=14``
    :depends on matplotlib-base: 
    :depends on numpy: ``>=1.21,<3``
    :depends on pandas: 

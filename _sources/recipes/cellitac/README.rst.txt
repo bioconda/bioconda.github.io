@@ -27,7 +27,7 @@ cellitac
       
       
 
-      ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``
+      ``2.0.0-0``,  ``1.0.6-0``,  ``1.0.5-0``,  ``1.0.4-0``
 
       
 
@@ -126,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cellitac";
-      var versions = ["1.0.6","1.0.5","1.0.4"];
+      var versions = ["2.0.0","1.0.6","1.0.5","1.0.4"];
    </script>
 
 .. rubric:: Download stats

@@ -35,7 +35,7 @@ pandepth
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on htslib: ``>=1.23.1,<1.24.0a0``
    :depends on libcxx: ``>=19``
    :depends on libdeflate: ``>=1.25,<1.26.0a0``
