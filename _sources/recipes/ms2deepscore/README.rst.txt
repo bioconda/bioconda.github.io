@@ -32,10 +32,10 @@ ms2deepscore
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.9.0-0</code>,  <code>2.7.2-0</code>,  <code>2.7.1-0</code>,  <code>2.7.0-0</code>,  <code>2.6.0-0</code>,  <code>2.5.5-0</code>,  <code>2.5.4-0</code>,  <code>2.5.3-0</code>,  <code>2.5.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.9.0-1</code>,  <code>2.9.0-0</code>,  <code>2.7.2-0</code>,  <code>2.7.1-0</code>,  <code>2.7.0-0</code>,  <code>2.6.0-0</code>,  <code>2.5.5-0</code>,  <code>2.5.4-0</code>,  <code>2.5.3-0</code>,  </span></summary>
       
 
-      ``2.9.0-0``,  ``2.7.2-0``,  ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.0-0``,  ``2.5.5-0``,  ``2.5.4-0``,  ``2.5.3-0``,  ``2.5.2-1``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.0.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0.1-0``
+      ``2.9.0-1``,  ``2.9.0-0``,  ``2.7.2-0``,  ``2.7.1-0``,  ``2.7.0-0``,  ``2.6.0-0``,  ``2.5.5-0``,  ``2.5.4-0``,  ``2.5.3-0``,  ``2.5.2-1``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.0-0``,  ``2.3.0-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``1.0.0-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0.1-0``
 
       
       .. raw:: html
@@ -49,8 +49,9 @@ ms2deepscore
    :depends on matplotlib-base: ``>=3.8.3``
    :depends on numba: 
    :depends on numpy: ``>=2.0``
-   :depends on pandas: 
-   :depends on python: ``>=3.9``
+   :depends on onnxscript: ``>=0.7.0``
+   :depends on pandas: ``<3.0``
+   :depends on python: ``>=3.11``
    :depends on pytorch: 
    :depends on scikit-learn: 
    :depends on tensorboard: 
@@ -130,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ms2deepscore";
-      var versions = ["2.9.0","2.7.2","2.7.1","2.7.0","2.6.0"];
+      var versions = ["2.9.0","2.9.0","2.7.2","2.7.1","2.7.0"];
    </script>
 
 .. rubric:: Download stats

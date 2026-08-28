@@ -33,7 +33,7 @@ constrain
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
 
    :additional platforms:
       

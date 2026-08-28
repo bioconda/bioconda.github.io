@@ -13,7 +13,7 @@ prseq
    Python tools \(backed by Rust\) for sequence analysis.
 
    :homepage: https://github.com/virologyCharite/prseq
-   :documentation: https://github.com/VirologyCharite/prseq/blob/v0.0.34/python/README.md
+   :documentation: https://github.com/VirologyCharite/prseq/blob/v0.0.38/python/README.md
    
    :license: MIT / MIT
    :recipe: /`prseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prseq/meta.yaml>`_
@@ -29,11 +29,12 @@ prseq
       
       
 
-      ``0.0.34-0``,  ``0.0.33-0``
+      ``0.0.38-0``,  ``0.0.34-0``,  ``0.0.33-0``
 
       
 
    
+   :depends on libgcc: ``>=14``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
 
@@ -114,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "prseq";
-      var versions = ["0.0.34","0.0.33"];
+      var versions = ["0.0.38","0.0.34","0.0.33"];
    </script>
 
 .. rubric:: Download stats

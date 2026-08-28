@@ -27,12 +27,13 @@ chaintools
       
       
 
-      ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``0.0.13-0``,  ``0.0.12-0``,  ``0.0.11-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
 
    
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
       
@@ -111,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "chaintools";
-      var versions = ["0.0.12","0.0.11","0.0.9","0.0.8","0.0.3"];
+      var versions = ["0.0.13","0.0.12","0.0.11","0.0.9","0.0.8"];
    </script>
 
 .. rubric:: Download stats

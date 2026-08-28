@@ -35,6 +35,7 @@ pymix
    :depends on ghmm: 
    :depends on glib: 
    :depends on gsl: ``>=2.2.1,<2.3.0a0``
+   :depends on libgcc-ng: ``>=4.9``
    :depends on matplotlib: ``>=1.1.0,!=1.4.2,<1.5.0``
    :depends on numpy: 
    :depends on python: ``>=2.7,<2.8.0a0``

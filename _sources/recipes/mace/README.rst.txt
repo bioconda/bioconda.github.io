@@ -34,9 +34,10 @@ mace
    
    :depends on bx-python: 
    :depends on gsl: ``>=2.6,<2.7.0a0``
+   :depends on libgcc-ng: ``>=7.5.0``
    :depends on numpy: 
    :depends on python: ``>=2.7,<2.8.0a0``
-   :depends on python_abi: ``2.7.* *_cp27m``
+   :depends on python_abi: ``2.7.* *_cp27mu``
    :depends on ucsc-wigtobigwig: 
    :depends on zlib: ``>=1.2.11,<1.3.0a0``
 

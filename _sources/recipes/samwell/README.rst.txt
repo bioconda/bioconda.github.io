@@ -36,6 +36,7 @@ samwell
    :depends on cython: 
    :depends on defopt: ``>=6.0``
    :depends on intervaltree: 
+   :depends on libgcc: ``>=14``
    :depends on mypy_extensions: ``>=0.4.3``
    :depends on pybedlite: ``>=0.0.1``
    :depends on pysam: ``>=0.15.3``

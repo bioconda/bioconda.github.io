@@ -30,10 +30,10 @@ sirius-csifingerid
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>6.3.12-0</code>,  <code>5.8.6-0</code>,  <code>5.8.5-0</code>,  <code>5.8.4-0</code>,  <code>5.8.3-0</code>,  <code>5.8.2-0</code>,  <code>4.9.15-3</code>,  <code>4.9.15-2</code>,  <code>4.9.15-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>6.5.4-0</code>,  <code>6.3.12-0</code>,  <code>5.8.6-0</code>,  <code>5.8.5-0</code>,  <code>5.8.4-0</code>,  <code>5.8.3-0</code>,  <code>5.8.2-0</code>,  <code>4.9.15-3</code>,  <code>4.9.15-2</code>,  </span></summary>
       
 
-      ``6.3.12-0``,  ``5.8.6-0``,  ``5.8.5-0``,  ``5.8.4-0``,  ``5.8.3-0``,  ``5.8.2-0``,  ``4.9.15-3``,  ``4.9.15-2``,  ``4.9.15-1``,  ``4.9.15-0``,  ``4.9.8-2``,  ``4.9.8-1``,  ``4.9.8-0``,  ``4.9.4-0``,  ``4.9.3-0``,  ``4.0.1-1``,  ``4.0.1-0``
+      ``6.5.4-0``,  ``6.3.12-0``,  ``5.8.6-0``,  ``5.8.5-0``,  ``5.8.4-0``,  ``5.8.3-0``,  ``5.8.2-0``,  ``4.9.15-3``,  ``4.9.15-2``,  ``4.9.15-1``,  ``4.9.15-0``,  ``4.9.8-2``,  ``4.9.8-1``,  ``4.9.8-0``,  ``4.9.4-0``,  ``4.9.3-0``,  ``4.0.1-1``,  ``4.0.1-0``
 
       
       .. raw:: html
@@ -118,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "sirius-csifingerid";
-      var versions = ["6.3.12","5.8.6","5.8.5","5.8.4","5.8.3"];
+      var versions = ["6.5.4","6.3.12","5.8.6","5.8.5","5.8.4"];
    </script>
 
 .. rubric:: Download stats

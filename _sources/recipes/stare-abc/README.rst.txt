@@ -33,7 +33,8 @@ stare-abc
 
    
    :depends on bedtools: ``>=2.31.1,<3.0a0``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on make: 
    :depends on openmp: 
 
