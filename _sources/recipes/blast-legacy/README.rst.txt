@@ -33,7 +33,6 @@ blast-legacy
 
    
    :depends on gnutls: ``>=3.8.8,<3.9.0a0``
-   :depends on libgcc: ``>=13``
 
    :additional platforms:
       

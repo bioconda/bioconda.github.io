@@ -49,14 +49,14 @@ medaka
    :depends on grpcio: 
    :depends on h5py: 
    :depends on htslib: ``>=1.14``
-   :depends on htslib: ``>=1.23.1,<1.24.0a0``
+   :depends on htslib: ``>=1.24,<1.25.0a0``
    :depends on intervaltree: 
-   :depends on libcurl: ``>=8.20.0,<9.0a0``
-   :depends on libgcc: ``>=14``
+   :depends on libcurl: ``>=8.21.0,<9.0a0``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on mappy: ``>=2.28``
    :depends on minimap2: ``>=2.24``
+   :depends on nomkl: 
    :depends on numpy: ``>=2.0.0``
    :depends on ont-fast5-api: 
    :depends on parasail-python: 

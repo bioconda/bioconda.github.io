@@ -34,8 +34,7 @@ bppsuite
    
    :depends on bpp-phyl: ``>=3.0.0,<4.0a0``
    :depends on bpp-popgen: ``>=3.0.0,<4.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
 
    :additional platforms:
       

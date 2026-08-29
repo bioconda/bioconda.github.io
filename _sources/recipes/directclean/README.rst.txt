@@ -27,17 +27,17 @@ directclean
       
       
 
-      ``1.1.2-0``
+      ``1.1.2-1``,  ``1.1.2-0``
 
       
 
    
    :depends on biopython: ``>=1.81``
    :depends on breakinator: ``1.1.1 *_2``
-   :depends on edlib: ``>=1.3.9``
    :depends on minimap2: 
    :depends on pysam: ``>=0.21.0``
    :depends on python: ``>=3.10,<4.0``
+   :depends on python-edlib: ``>=1.3.9``
    :depends on restrander: ``1.1.3 *_1``
    :depends on rich: ``>=13.0.0``
    :depends on samtools: 
@@ -116,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "directclean";
-      var versions = ["1.1.2"];
+      var versions = ["1.1.2","1.1.2"];
    </script>
 
 .. rubric:: Download stats

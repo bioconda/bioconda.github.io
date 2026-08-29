@@ -39,13 +39,13 @@ falcoamadeus
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on __osx: ``>=11.0``
    :depends on htslib: ``>=1.24,<1.25.0a0``
-   :depends on isa-l: ``>=2.32.1,<3.0a0``
+   :depends on isa-l: ``>=2.31.1,<3.0a0``
+   :depends on libcxx: ``>=19``
    :depends on libdeflate: ``>=1.25,<1.26.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on llvm-openmp: ``>=19.1.7``
 
    :additional platforms:
       
