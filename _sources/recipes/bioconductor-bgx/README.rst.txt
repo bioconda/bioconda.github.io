@@ -40,7 +40,6 @@ bioconductor-bgx
       
 
    
-   :depends on __osx: ``>=10.9``
    :depends on bioconductor-affy: ``>=1.80.0,<1.81.0``
    :depends on bioconductor-affy: ``>=1.80.0,<1.81.0a0``
    :depends on bioconductor-biobase: ``>=2.62.0,<2.63.0``
@@ -48,8 +47,9 @@ bioconductor-bgx
    :depends on bioconductor-gcrma: ``>=2.74.0,<2.75.0``
    :depends on bioconductor-gcrma: ``>=2.74.0,<2.75.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=15.0.7``
+   :depends on libgcc-ng: ``>=12``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
+   :depends on libstdcxx-ng: ``>=12``
    :depends on r-base: ``>=4.3,<4.4.0a0``
    :depends on r-rcpp: ``>=0.11.0``
 

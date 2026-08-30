@@ -43,7 +43,8 @@ pkiss
    
    :depends on bellmans-gapc: ``>=2024.01.12``
    :depends on bellmans-gapc: ``>=2024.1.12``
-   :depends on libcxx: ``>=16``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
 
    :additional platforms:

@@ -43,10 +43,11 @@ alignoth
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libcblas: ``>=3.9.0,<4.0a0``
    :depends on libcurl: ``>=8.21.0,<9.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on openssl: ``>=3.5.7,<4.0a0``
 
    :additional platforms:

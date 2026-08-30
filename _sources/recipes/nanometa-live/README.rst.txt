@@ -28,9 +28,17 @@ nanometa-live
    :versions:
       
       
+      .. raw:: html
 
-      ``0.14.0-0``,  ``0.11.1-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.1.1-0``
+         <details><summary><span class="truncated-version-list"><code>0.15.0-0</code>,  <code>0.14.0-0</code>,  <code>0.11.1-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  </span></summary>
+      
 
+      ``0.15.0-0``,  ``0.14.0-0``,  ``0.11.1-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.1.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -129,7 +137,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "nanometa-live";
-      var versions = ["0.14.0","0.11.1","0.4.3","0.4.2","0.4.1"];
+      var versions = ["0.15.0","0.14.0","0.11.1","0.4.3","0.4.2"];
    </script>
 
 .. rubric:: Download stats

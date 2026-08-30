@@ -43,16 +43,17 @@ bwa-mem3
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on _openmp_mutex: ``* *_llvm``
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on htslib: ``>=1.21,<2``
    :depends on htslib: ``>=1.24,<1.25.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=15``
    :depends on libsais: ``>=2.10.4,<3``
    :depends on libsais: ``>=2.10.4,<3.0a0``
+   :depends on libstdcxx: ``>=15``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
-   :depends on llvm-openmp: ``>=19.1.7``
-   :depends on mimalloc: ``>=3.3,<4``
-   :depends on mimalloc: ``>=3.4.1,<3.4.2.0a0``
+   :depends on llvm-openmp: ``>=22.1.8``
 
    :additional platforms:
       

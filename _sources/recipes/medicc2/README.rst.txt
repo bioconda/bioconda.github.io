@@ -49,7 +49,8 @@ medicc2
    
    :depends on biopython: ``>=1.78``
    :depends on joblib: ``>=1.0.1``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on matplotlib-base: ``>=3.3.4``
    :depends on numpy: ``>=1.20.1,<2.0``
    :depends on numpy: ``>=1.21,<3``

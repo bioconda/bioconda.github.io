@@ -50,7 +50,8 @@ r-nanopore
    :depends on bioconductor-s4vectors: 
    :depends on bioconductor-shortread: 
    :depends on bioconductor-variantannotation: 
-   :depends on libcxx: ``>=15.0.7``
+   :depends on libgcc-ng: ``>=12``
+   :depends on libstdcxx-ng: ``>=12``
    :depends on r-base: ``>=4.3,<4.4.0a0``
    :depends on r-data.table: 
    :depends on r-digest: 

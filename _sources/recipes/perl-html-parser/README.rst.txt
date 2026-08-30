@@ -40,8 +40,9 @@ perl-html-parser
       
 
    
-   :depends on __osx: ``>=10.13``
-   :depends on libcxx: ``>=19``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-html-tagset: ``>=3.24,<4.0a0``
    :depends on perl-http-message: ``>=7.4,<8.0a0``

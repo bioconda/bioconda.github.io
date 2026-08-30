@@ -49,9 +49,10 @@ polars-bio
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on datafusion: ``>=53.0.0,<54``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on polars: ``>=1.37.1``
    :depends on polars-config-meta: ``>=0.3.0,<1``
    :depends on pyarrow: ``>=23.0.1,<25``
