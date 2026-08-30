@@ -41,7 +41,6 @@ foldseek
       
 
    
-   :depends on __osx: ``>=10.15``
    :depends on aria2: 
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on gawk: 

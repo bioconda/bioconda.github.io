@@ -40,8 +40,7 @@ scib
    :depends on h5py: 
    :depends on igraph: ``>=0.10``
    :depends on leidenalg: 
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on llvmlite: 
    :depends on matplotlib-base: 
    :depends on numpy: 

@@ -43,7 +43,7 @@ hmmer
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on gsl: ``>=2.7,<2.8.0a0``
    :depends on libblas: ``>=3.11.0,<4.0a0``
    :depends on openmpi: ``>=4.1.6,<5.0a0``

@@ -44,9 +44,8 @@ bioconductor-bdmmacorrect
    :depends on bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0``
    :depends on bioconductor-summarizedexperiment: ``>=1.32.0,<1.33.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libgcc-ng: ``>=12``
+   :depends on libcxx: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on libstdcxx-ng: ``>=12``
    :depends on r-ape: 
    :depends on r-base: ``>=4.3,<4.4.0a0``
    :depends on r-ellipse: 

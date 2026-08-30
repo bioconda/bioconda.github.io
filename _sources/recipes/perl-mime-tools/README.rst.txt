@@ -27,7 +27,7 @@ perl-mime-tools
       
       
 
-      ``5.517-0``,  ``5.515-0``,  ``5.508-2``,  ``5.508-1``,  ``5.508-0``,  ``5.507-1``,  ``5.507-0``
+      ``5.518-0``,  ``5.517-0``,  ``5.515-0``,  ``5.508-2``,  ``5.508-1``,  ``5.508-0``,  ``5.507-1``,  ``5.507-0``
 
       
 
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "perl-mime-tools";
-      var versions = ["5.517","5.515","5.508","5.508","5.508"];
+      var versions = ["5.518","5.517","5.515","5.508","5.508"];
    </script>
 
 .. rubric:: Download stats

@@ -8,10 +8,6 @@ built.
 To get started, you need to get yourself a copy of our recipes
 repository.
 
-.. contents::
-   :local:
-
-
 1. Create a Fork of our Recipes Repo
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

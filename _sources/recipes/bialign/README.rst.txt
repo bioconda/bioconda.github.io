@@ -35,7 +35,6 @@ bialign
       
 
    
-   :depends on libgcc-ng: ``>=10.3.0``
    :depends on matplotlib-base: 
    :depends on numpy: 
    :depends on python: ``>=3.10,<3.11.0a0``

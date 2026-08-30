@@ -35,7 +35,7 @@ mmcif
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.15``
    :depends on future: 
    :depends on libcxx: ``>=19``
    :depends on msgpack-python: 

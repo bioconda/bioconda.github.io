@@ -24,10 +24,10 @@ You can install ``bioconda-utils`` locally by creating a new conda environment:
     conda activate bioconda
 
     # optional linting
-    bioconda-utils lint --git-range master HEAD
+    bioconda-utils lint --git-range master...HEAD
 
     # build and test
-    bioconda-utils build --docker --mulled-build-and-test --git-range master HEAD
+    bioconda-utils build --docker --mulled-build-and-test --git-range master...HEAD
 
 The above commands do the following:
 
@@ -39,7 +39,7 @@ The above commands do the following:
 
 .. note::
 
-   - You can select recipes to lint/build using ``--git-range master HEAD``,
+   - You can select recipes to lint/build using ``--git-range master...HEAD``,
      which will select those recipes that have been changed
      between your local branch and master. Or you can specify recipes
      directly using ``--packages mypackage1 mypackage2``.
@@ -111,7 +111,7 @@ other commands for development and maintenance:
    Upload artifacts from a merged PR. If no artifacts are found,
    falls back to rebuilding the recipe::
 
-     bioconda-utils handle-merged-pr recipes/ config.yml --repo bioconda/bioconda-recipes --git-range master HEAD
+     bioconda-utils handle-merged-pr recipes/ config.yml --repo bioconda/bioconda-recipes --git-range master...HEAD
 
 ``bioconda-utils annotate-build-failures``
    Record a build failure reason for one or more recipes.

@@ -43,9 +43,9 @@ adapterremoval
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on isa-l: ``>=2.31.1,<3.0a0``
+   :depends on isa-l: ``>=2.32.1,<3.0a0``
    :depends on libcxx: ``>=19``
    :depends on libdeflate: ``>=1.25,<1.26.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``

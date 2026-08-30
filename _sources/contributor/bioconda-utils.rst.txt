@@ -13,9 +13,6 @@ The source code is maintained in the `bioconda-utils repository
 organized by task; use the :doc:`bioconda-utils-cli` page when you need to find
 a particular command.
 
-.. contents::
-   :local:
-
 Documentation map
 -----------------
 

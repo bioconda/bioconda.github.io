@@ -46,7 +46,7 @@ openstructure
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on fftw: ``>=3.3.11,<4.0a0``
    :depends on libboost: ``>=1.86.0,<1.87.0a0``
    :depends on libboost-python: ``>=1.86.0,<1.87.0a0``
@@ -57,17 +57,17 @@ openstructure
    :depends on libsqlite: ``>=3.53.4,<4.0a0``
    :depends on libtiff: ``>=4.7.2,<4.8.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
-   :depends on networkx: ``>=3.6.1,<4.0a0``
-   :depends on numpy: ``>=1.23,<3``
-   :depends on numpy: ``>=2.4.6,<3.0a0``
+   :depends on networkx: ``>=3.4.2,<4.0a0``
+   :depends on numpy: ``>=1.21,<3``
+   :depends on numpy: ``>=2.2.6,<3.0a0``
    :depends on ocl_icd_wrapper_apple: 
    :depends on openmm: ``>=8.5.2,<9.0a0``
    :depends on parasail: ``>=2.6.2,<3.0a0``
    :depends on pyqt: ``>=5.15.11,<5.16.0a0``
-   :depends on python: ``>=3.11,<3.12.0a0 *_cpython``
-   :depends on python_abi: ``3.11.* *_cp311``
+   :depends on python: ``>=3.10,<3.11.0a0 *_cpython``
+   :depends on python_abi: ``3.10.* *_cp310``
    :depends on qt: ``>=5.15.15,<5.16.0a0``
-   :depends on scipy: ``>=1.17.1,<2.0a0``
+   :depends on scipy: ``>=1.15.2,<2.0a0``
    :depends on voronota: 
 
    :additional platforms:

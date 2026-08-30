@@ -44,7 +44,7 @@ dnmtools
 
    
    :depends on gsl: ``>=2.7,<2.8.0a0``
-   :depends on htslib: ``>=1.22.1,<1.23.0a0``
+   :depends on htslib: ``>=1.22.1,<1.24.0a0``
    :depends on libcxx: ``>=18``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on llvm-openmp: ``>=18.1.8``

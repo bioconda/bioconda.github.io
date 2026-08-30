@@ -43,7 +43,7 @@ syri
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on libcxx: ``>=19``
    :depends on longestrunsubsequence: 
    :depends on numpy: ``>=1.21,<3``

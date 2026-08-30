@@ -34,7 +34,6 @@ sideretro
 
    
    :depends on htslib: ``>=1.21,<1.24.0a0``
-   :depends on libgcc: ``>=13``
    :depends on libsqlite: ``>=3.49.1,<4.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on zlib: 

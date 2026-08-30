@@ -514,10 +514,10 @@ You can install <code class="docutils literal notranslate"><span class="pre">bio
 <span class="n">conda</span> <span class="n">activate</span> <span class="n">bioconda</span>
 
 <span class="c1"># optional linting</span>
-<span class="n">bioconda</span><span class="o">-</span><span class="n">utils</span> <span class="n">lint</span> <span class="o">--</span><span class="n">git</span><span class="o">-</span><span class="nb">range</span> <span class="n">master</span> <span class="n">HEAD</span>
+<span class="n">bioconda</span><span class="o">-</span><span class="n">utils</span> <span class="n">lint</span> <span class="o">--</span><span class="n">git</span><span class="o">-</span><span class="nb">range</span> <span class="n">master</span><span class="o">...</span><span class="n">HEAD</span>
 
 <span class="c1"># build and test</span>
-<span class="n">bioconda</span><span class="o">-</span><span class="n">utils</span> <span class="n">build</span> <span class="o">--</span><span class="n">docker</span> <span class="o">--</span><span class="n">mulled</span><span class="o">-</span><span class="n">build</span><span class="o">-</span><span class="ow">and</span><span class="o">-</span><span class="n">test</span> <span class="o">--</span><span class="n">git</span><span class="o">-</span><span class="nb">range</span> <span class="n">master</span> <span class="n">HEAD</span>
+<span class="n">bioconda</span><span class="o">-</span><span class="n">utils</span> <span class="n">build</span> <span class="o">--</span><span class="n">docker</span> <span class="o">--</span><span class="n">mulled</span><span class="o">-</span><span class="n">build</span><span class="o">-</span><span class="ow">and</span><span class="o">-</span><span class="n">test</span> <span class="o">--</span><span class="n">git</span><span class="o">-</span><span class="nb">range</span> <span class="n">master</span><span class="o">...</span><span class="n">HEAD</span>
 </pre></div>
 </div>
 <p>The above commands do the following:</p>
@@ -536,7 +536,7 @@ You can install <code class="docutils literal notranslate"><span class="pre">bio
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <ul class="simple">
-<li><p>You can select recipes to lint/build using <code class="docutils literal notranslate"><span class="pre">--git-range</span> <span class="pre">master</span> <span class="pre">HEAD</span></code>,
+<li><p>You can select recipes to lint/build using <code class="docutils literal notranslate"><span class="pre">--git-range</span> <span class="pre">master...HEAD</span></code>,
 which will select those recipes that have been changed
 between your local branch and master. Or you can specify recipes
 directly using <code class="docutils literal notranslate"><span class="pre">--packages</span> <span class="pre">mypackage1</span> <span class="pre">mypackage2</span></code>.</p></li>
@@ -603,7 +603,7 @@ submission. Removes Windows-specific entries and comments:</p>
 </dd>
 <dt><code class="docutils literal notranslate"><span class="pre">bioconda-utils</span> <span class="pre">handle-merged-pr</span></code></dt><dd><p>Upload artifacts from a merged PR. If no artifacts are found,
 falls back to rebuilding the recipe:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">bioconda</span><span class="o">-</span><span class="n">utils</span> <span class="n">handle</span><span class="o">-</span><span class="n">merged</span><span class="o">-</span><span class="n">pr</span> <span class="n">recipes</span><span class="o">/</span> <span class="n">config</span><span class="o">.</span><span class="n">yml</span> <span class="o">--</span><span class="n">repo</span> <span class="n">bioconda</span><span class="o">/</span><span class="n">bioconda</span><span class="o">-</span><span class="n">recipes</span> <span class="o">--</span><span class="n">git</span><span class="o">-</span><span class="nb">range</span> <span class="n">master</span> <span class="n">HEAD</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">bioconda</span><span class="o">-</span><span class="n">utils</span> <span class="n">handle</span><span class="o">-</span><span class="n">merged</span><span class="o">-</span><span class="n">pr</span> <span class="n">recipes</span><span class="o">/</span> <span class="n">config</span><span class="o">.</span><span class="n">yml</span> <span class="o">--</span><span class="n">repo</span> <span class="n">bioconda</span><span class="o">/</span><span class="n">bioconda</span><span class="o">-</span><span class="n">recipes</span> <span class="o">--</span><span class="n">git</span><span class="o">-</span><span class="nb">range</span> <span class="n">master</span><span class="o">...</span><span class="n">HEAD</span>
 </pre></div>
 </div>
 </dd>

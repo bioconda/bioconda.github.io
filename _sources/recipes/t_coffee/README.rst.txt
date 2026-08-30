@@ -66,6 +66,7 @@ t-coffee
    :depends on probconsrna: ``1.10``
    :depends on proda: ``1.0``
    :depends on sap: ``1.1.3``
+   :depends on tmalign: ``20170708``
    :depends on viennarna: ``2.7.0``
 
    :additional platforms:

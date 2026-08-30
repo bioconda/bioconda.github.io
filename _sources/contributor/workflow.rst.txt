@@ -4,11 +4,6 @@ Contribution Workflow
 The following steps are done for each recipe or batch of recipes you'd
 like to contribute.
 
-.. contents::
-   :local:
-   :backlinks: entry
-
-
 .. _create_branch:
 
 1. Create a Branch

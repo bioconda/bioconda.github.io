@@ -43,7 +43,7 @@ gimmemotifs
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on biofluff: ``>=3.0.4``
    :depends on configparser: 
    :depends on diskcache: 

@@ -46,6 +46,12 @@ package in a minimal container and repeats the recipe tests:
    bioconda-utils build --docker --mulled-build-and-test \
      --packages samtools --force
 
+For a Docker build, ``--platform`` selects the architecture of the entire
+package-and-container pipeline, using conda subdirectory notation such as
+``linux-aarch64``. macOS
+subdirectories are invalid for Docker builds because the build containers are
+Linux-only.
+
 The command also owns optional package and container uploads. See
 :doc:`building-locally` for local build and isolated-test examples.
 
@@ -213,6 +219,12 @@ recipe locally:
 
    bioconda-utils handle-merged-pr recipes/ config.yml \
      --repo bioconda/bioconda-recipes --git-range master...HEAD
+
+``--platform`` selects the CI artifact in conda subdirectory notation, for
+example ``linux-aarch64``. For Linux artifacts, the command derives the
+matching OCI platform (``linux/arm64`` in this example) when publishing mulled
+images. macOS package artifacts can be uploaded to Anaconda, but cannot be
+combined with a mulled-image upload because mulled containers are Linux-only.
 
 This is an automation command with Anaconda, Quay, GitHub, and CI-provider
 integration. Use its ``--help`` output and :doc:`build-system` before running

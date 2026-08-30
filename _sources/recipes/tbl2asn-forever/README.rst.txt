@@ -32,7 +32,6 @@ tbl2asn-forever
       
 
    
-   :depends on libgcc: ``>=13``
    :depends on libidn11: 
    :depends on zlib: 
 

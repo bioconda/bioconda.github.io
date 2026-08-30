@@ -527,6 +527,11 @@ package in a minimal container and repeats the recipe tests:</p>
 <span class="w">  </span>--packages<span class="w"> </span>samtools<span class="w"> </span>--force
 </pre></div>
 </div>
+<p>For a Docker build, <code class="docutils literal notranslate"><span class="pre">--platform</span></code> selects the architecture of the entire
+package-and-container pipeline, using conda subdirectory notation such as
+<code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code>. macOS
+subdirectories are invalid for Docker builds because the build containers are
+Linux-only.</p>
 <p>The command also owns optional package and container uploads. See
 <a class="reference internal" href="building-locally.html"><span class="doc">Testing Recipes Locally</span></a> for local build and isolated-test examples.</p>
 </section>
@@ -641,6 +646,11 @@ recipe locally:</p>
 <span class="w">  </span>--repo<span class="w"> </span>bioconda/bioconda-recipes<span class="w"> </span>--git-range<span class="w"> </span>master...HEAD
 </pre></div>
 </div>
+<p><code class="docutils literal notranslate"><span class="pre">--platform</span></code> selects the CI artifact in conda subdirectory notation, for
+example <code class="docutils literal notranslate"><span class="pre">linux-aarch64</span></code>. For Linux artifacts, the command derives the
+matching OCI platform (<code class="docutils literal notranslate"><span class="pre">linux/arm64</span></code> in this example) when publishing mulled
+images. macOS package artifacts can be uploaded to Anaconda, but cannot be
+combined with a mulled-image upload because mulled containers are Linux-only.</p>
 <p>This is an automation command with Anaconda, Quay, GitHub, and CI-provider
 integration. Use its <code class="docutils literal notranslate"><span class="pre">--help</span></code> output and <a class="reference internal" href="build-system.html"><span class="doc">Build system</span></a> before running
 it manually.</p>

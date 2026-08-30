@@ -1,12 +1,6 @@
 FAQs
 ====
 
-.. contents::
-    :depth: 1
-    :local:
-    :backlinks: none
-
-
 .. _speedup:
 
 How do I speed up package installation?

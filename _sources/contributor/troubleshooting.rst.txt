@@ -3,10 +3,6 @@ Troubleshooting
 
 .. highlight:: bash
 
-.. contents::
-   :local:
-
-
 .. _reading-logs:
 
 Reading bioconda-utils logs
