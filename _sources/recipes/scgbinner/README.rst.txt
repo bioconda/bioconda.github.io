@@ -10,7 +10,7 @@ scgbinner
    :replaces_section_title:
    :noindex:
 
-   Metagenomic binning method
+   A deep learning\-based metagenomic binning method
 
    :homepage: https://github.com/htaohan/SCGBinner
    :license: MIT
@@ -27,28 +27,27 @@ scgbinner
       
       
 
-      ``1.0.4-0``
+      ``1.0.5-0``,  ``1.0.4-0``
 
       
 
    
-   :depends on atomicwrites: 
-   :depends on bedtools: 
-   :depends on biopython: 
-   :depends on fraggenescan: 
-   :depends on hmmer: 
-   :depends on hnswlib: 
-   :depends on igraph: 
-   :depends on joblib: 
-   :depends on leidenalg: 
+   :depends on atomicwrites: ``>=1.4``
+   :depends on bedtools: ``>=2.31.1``
+   :depends on biopython: ``>=1.85``
+   :depends on fraggenescan: ``1.32.*``
+   :depends on hmmer: ``3.4.*``
+   :depends on hnswlib: ``>=0.8``
+   :depends on igraph: ``>=0.10``
+   :depends on joblib: ``>=1.5``
+   :depends on leidenalg: ``>=0.10.2``
    :depends on numpy: ``1.19.*``
    :depends on pandas: ``1.4.*``
    :depends on python: ``>=3.9,<3.10``
-   :depends on pyyaml: 
-   :depends on scikit-learn: 
-   :depends on scipy: 
-   :depends on tensorboard: 
-   :depends on tqdm: 
+   :depends on pyyaml: ``>=6.0.2``
+   :depends on scikit-learn: ``>=1.6``
+   :depends on scipy: ``>=1.9``
+   :depends on tqdm: ``>=4.67``
 
    :additional platforms:
       
@@ -123,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "scgbinner";
-      var versions = ["1.0.4"];
+      var versions = ["1.0.5","1.0.4"];
    </script>
 
 .. rubric:: Download stats

@@ -27,21 +27,22 @@ unimeth
       
       
 
-      ``0.2.2-0``,  ``0.2.1-0``
+      ``0.2.3-0``,  ``0.2.2-0``,  ``0.2.1-0``
 
       
 
    
-   :depends on accelerate: ``>=1.0``
-   :depends on numpy: ``>=2.0``
-   :depends on pod5: ``>=0.3``
+   :depends on accelerate: ``>=1.0,<2``
+   :depends on numpy: ``>=2.0,<3``
+   :depends on pod5: ``>=0.3,<0.3.35``
+   :depends on pyarrow: ``>=20,<21``
    :depends on pysam: ``>=0.22``
-   :depends on python: ``>=3.12``
-   :depends on pytorch: ``>=2.3``
+   :depends on python: ``>=3.12,<3.13``
+   :depends on pytorch: ``>=2.3,<2.6``
    :depends on scikit-learn: ``>=1.5``
    :depends on scipy: ``>=1.13``
    :depends on tqdm: ``>=4.66``
-   :depends on transformers: ``>=4.40``
+   :depends on transformers: ``>=4.40,<5``
 
    :additional platforms:
       
@@ -116,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "unimeth";
-      var versions = ["0.2.2","0.2.1"];
+      var versions = ["0.2.3","0.2.2","0.2.1"];
    </script>
 
 .. rubric:: Download stats

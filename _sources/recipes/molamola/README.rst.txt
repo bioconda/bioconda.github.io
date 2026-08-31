@@ -25,13 +25,11 @@ molamola
    \* VCF with \`\`\#\#INFO\=\<ID\=SVTYPE\,...\>\`\`\: a circos \+ linear
      cytoband SV report \(Sniffles2 \/ cuteSV \/ SVIM \/ pbsv \/
      NanoVar\).
-   \* VCF with \`\`\#\#INFO\=\<ID\=CSQ\,...\>\`\` \+ \`\`\#\#FORMAT\=\<ID\=PS\,...\>\`\`\:
-     per\-gene phased\-haplotype panels for compound\-het workup
-     from phased \+ VEP\-annotated small\-variant VCFs.
    \* Mosdepth \`\`regions.bed.gz\`\` \(via \`\`\-\-mosdepth\`\`\)\: a
-     karyotype coverage report \-\- genome\-wide CN scatter \+
-     rolling\-median smooth\, with an optional BAF panel beneath
-     when paired with a small\-variant VCF.
+     karyotype coverage report \-\- genome\-wide log2 relative
+     depth\, with an optional BAF panel beneath when paired with
+     a small\-variant VCF\, haplotype\-resolved when that VCF is
+     phased.
 
 
 
@@ -43,7 +41,7 @@ molamola
       
       
 
-      ``0.5.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.6.0-0``,  ``0.5.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -128,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "molamola";
-      var versions = ["0.5.0","0.3.0","0.2.0","0.1.0"];
+      var versions = ["0.6.0","0.5.0","0.3.0","0.2.0","0.1.0"];
    </script>
 
 .. rubric:: Download stats

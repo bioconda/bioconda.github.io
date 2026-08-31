@@ -494,12 +494,10 @@ picks the visualiser from its input:</p>
 <dt>* VCF with ``##INFO=&lt;ID=SVTYPE,…&gt;``: a circos + linear</dt><dd><p>cytoband SV report (Sniffles2 / cuteSV / SVIM / pbsv /
 NanoVar).</p>
 </dd>
-<dt>* VCF with ``##INFO=&lt;ID=CSQ,…&gt;`` + ``##FORMAT=&lt;ID=PS,…&gt;``:</dt><dd><p>per-gene phased-haplotype panels for compound-het workup
-from phased + VEP-annotated small-variant VCFs.</p>
-</dd>
-<dt>* Mosdepth ``regions.bed.gz`` (via ``--mosdepth``): a</dt><dd><p>karyotype coverage report -- genome-wide CN scatter +
-rolling-median smooth, with an optional BAF panel beneath
-when paired with a small-variant VCF.</p>
+<dt>* Mosdepth ``regions.bed.gz`` (via ``--mosdepth``): a</dt><dd><p>karyotype coverage report -- genome-wide log2 relative
+depth, with an optional BAF panel beneath when paired with
+a small-variant VCF, haplotype-resolved when that VCF is
+phased.</p>
 </dd>
 </dl>
 </dd></dl>
@@ -510,7 +508,7 @@ when paired with a small-variant VCF.</p>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/molamola"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/molamola.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/molamola"><img alt="docker_molamola" src="https://quay.io/repository/biocontainers/molamola/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.5.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.6.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.5.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.3.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.0-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
@@ -578,7 +576,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "molamola";
-   var versions = ["0.5.0","0.3.0","0.2.0","0.1.0"];
+   var versions = ["0.6.0","0.5.0","0.3.0","0.2.0","0.1.0"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_molamola"></div>
 <div style="width: 100%" id="platform_plot_molamola"></div>
