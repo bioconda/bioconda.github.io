@@ -43,9 +43,8 @@ ms2pip
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on __osx: ``>=11.0``
    :depends on click: ``>=7,<9``
-   :depends on libgcc: ``>=14``
    :depends on lxml: ``>=4,<7``
    :depends on ms2rescore-rs: ``>=0.5,<2``
    :depends on numpy: ``>=1.23,<3``

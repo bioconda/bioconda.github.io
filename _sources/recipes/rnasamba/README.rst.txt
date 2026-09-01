@@ -43,7 +43,6 @@ rnasamba
    :depends on biopython: 
    :depends on h5py: ``<3.0.0``
    :depends on keras: ``>=2.1.0,<2.3.0``
-   :depends on libgcc-ng: ``>=10.3.0``
    :depends on numpy: ``<1.17``
    :depends on python: ``>=3.6,<3.7.0a0``
    :depends on python_abi: ``3.6.* *_cp36m``

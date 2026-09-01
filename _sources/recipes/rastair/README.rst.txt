@@ -13,7 +13,7 @@ rastair
    Fast and flexible extraction of methylation information from BAM files.
 
    :homepage: https://docs.rastair.com
-   :developer docs: https://bitbucket.org/bsblabludwig/rastair
+   :developer docs: https://github.com/bsbludwig/rastair
    :license: LicenseRef-NonCommercial
    :recipe: /`rastair <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rastair>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rastair/meta.yaml>`_
 
@@ -28,7 +28,7 @@ rastair
       
       
 
-      ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``
+      ``2.2.0-0``,  ``2.1.1-0``,  ``2.1.0-0``,  ``2.0.0-0``,  ``0.8.2-2``,  ``0.8.2-1``,  ``0.8.2-0``
 
       
 
@@ -127,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "rastair";
-      var versions = ["2.1.1","2.1.0","2.0.0","0.8.2","0.8.2"];
+      var versions = ["2.2.0","2.1.1","2.1.0","2.0.0","0.8.2"];
    </script>
 
 .. rubric:: Download stats

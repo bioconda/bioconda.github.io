@@ -44,8 +44,7 @@ kat
 
    
    :depends on boost-cpp: ``<1.84.0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on matplotlib-base: 
    :depends on numpy: ``>=1.22.4,<2.0a0``

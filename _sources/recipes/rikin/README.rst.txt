@@ -31,12 +31,11 @@ rikin
       
       
 
-      ``0.9.5-0``
+      ``0.9.7-0``,  ``0.9.6-0``,  ``0.9.5-0``
 
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libgcc: ``>=14``
    :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
@@ -51,6 +50,10 @@ rikin
    :depends on viennarna: ``>=2.7.2,<2.8.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -123,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "rikin";
-      var versions = ["0.9.5"];
+      var versions = ["0.9.7","0.9.6","0.9.5"];
    </script>
 
 .. rubric:: Download stats

@@ -47,7 +47,7 @@ gridss
    :depends on bwa: ``>=0.7``
    :depends on entrez-direct: 
    :depends on htslib: ``>=1.14``
-   :depends on htslib: ``>=1.22.1,<1.24.0a0``
+   :depends on htslib: ``>=1.22.1,<1.23.0a0``
    :depends on kraken2: ``>=2.1``
    :depends on libgcc: ``>=13``
    :depends on liblzma: ``>=5.8.1,<6.0a0``

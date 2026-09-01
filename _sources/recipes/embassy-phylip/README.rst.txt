@@ -13,7 +13,7 @@ embassy-phylip
    embassy\/emboss wrappers for phylip functions
 
    :homepage: http://emboss.open-bio.org/
-   :license: GPL
+   :license: Other
    :recipe: /`embassy-phylip <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/embassy-phylip>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/embassy-phylip/meta.yaml>`_
 
    
@@ -27,14 +27,16 @@ embassy-phylip
       
       
 
-      ``3.69.650-2``,  ``3.69.650-1``,  ``3.69.650-0``
+      ``3.69.660-0``,  ``3.69.650-2``,  ``3.69.650-1``,  ``3.69.650-0``
 
       
 
    
-   :depends on emboss: 
-   :depends on libgcc-ng: ``>=4.9``
-   :depends on zlib: ``>=1.2.11,<1.3.0a0``
+   :depends on __osx: ``>=10.13``
+   :depends on emboss: ``6.6.0``
+   :depends on emboss: ``>=6.6.0,<7.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on python_abi: ``3.11.* *_cp311``
 
    :additional platforms:
       
@@ -109,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "embassy-phylip";
-      var versions = ["3.69.650","3.69.650","3.69.650"];
+      var versions = ["3.69.660","3.69.650","3.69.650","3.69.650"];
    </script>
 
 .. rubric:: Download stats

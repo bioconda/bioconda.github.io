@@ -41,7 +41,6 @@ bioconductor-rgraphviz
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-graph: ``>=1.88.0,<1.89.0``
    :depends on bioconductor-graph: ``>=1.88.1,<1.89.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``

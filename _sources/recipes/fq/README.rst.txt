@@ -13,7 +13,7 @@ fq
    fq is a library to generate and validate FASTQ file pairs.
 
    :homepage: https://github.com/stjude-rust-labs/fq
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`fq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fq/meta.yaml>`_
 
    fq provides subcommands for filtering\, generating\, subsampling\, and validating FASTQ files.
@@ -28,17 +28,18 @@ fq
       
       
 
-      ``0.12.0-0``,  ``0.11.0-1``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.1-0``
+      ``0.12.0-1``,  ``0.12.0-0``,  ``0.11.0-1``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.1-0``
 
       
 
    
+   :depends on libgcc: ``>=14``
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -111,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "fq";
-      var versions = ["0.12.0","0.11.0","0.11.0","0.10.0","0.9.1"];
+      var versions = ["0.12.0","0.12.0","0.11.0","0.11.0","0.10.0"];
    </script>
 
 .. rubric:: Download stats

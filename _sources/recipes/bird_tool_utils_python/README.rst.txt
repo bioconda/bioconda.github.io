@@ -27,7 +27,7 @@ bird_tool_utils_python
       
       
 
-      ``0.6.0-0``,  ``0.5.1-0``,  ``0.4.1-0``,  ``0.3.6-0``,  ``0.2.17-0``
+      ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.4.1-0``,  ``0.3.6-0``,  ``0.2.17-0``
 
       
 
@@ -108,7 +108,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bird_tool_utils_python";
-      var versions = ["0.6.0","0.5.1","0.4.1","0.3.6","0.2.17"];
+      var versions = ["0.7.0","0.6.0","0.5.1","0.4.1","0.3.6"];
    </script>
 
 .. rubric:: Download stats

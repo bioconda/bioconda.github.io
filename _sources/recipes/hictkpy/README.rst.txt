@@ -47,10 +47,9 @@ hictkpy
    :depends on hdf5: ``>=1.14.6,<1.14.7.0a0``
    :depends on libarrow: ``>=23.0.1,<23.1.0a0``
    :depends on libarrow-compute: ``>=23.0.1,<23.1.0a0``
+   :depends on libcxx: ``>=19``
    :depends on libdeflate: ``>=1,<2.0a0``
    :depends on libdeflate: ``>=1.25,<1.26.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
    :depends on numpy: ``>=1.21,<3``
    :depends on numpy: ``>=2,<3.0a0``
    :depends on pandas: ``>=2.3,<3.0a0``

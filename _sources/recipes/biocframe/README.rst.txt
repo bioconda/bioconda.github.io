@@ -27,14 +27,14 @@ biocframe
       
       
 
-      ``0.7.3-0``
+      ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.3-0``
 
       
 
    
    :depends on biocutils: ``>=0.3.3``
-   :depends on numpy: 
-   :depends on python: 
+   :depends on numpy: ``>=1.26.0``
+   :depends on python: ``>=3.9``
 
    :additional platforms:
       
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "biocframe";
-      var versions = ["0.7.3"];
+      var versions = ["0.8.1","0.8.0","0.7.3"];
    </script>
 
 .. rubric:: Download stats

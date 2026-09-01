@@ -40,7 +40,6 @@ ntsynt
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on _openmp_mutex: ``>=4.5``
    :depends on btllib: ``>=1.7.1``
    :depends on btllib: ``>=1.7.8,<2.0a0``
