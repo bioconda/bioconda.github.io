@@ -32,7 +32,7 @@ diatracer
       
       
 
-      ``1.2.5-0``
+      ``1.2.5-1``,  ``1.2.5-0``
 
       
 
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "diatracer";
-      var versions = ["1.2.5"];
+      var versions = ["1.2.5","1.2.5"];
    </script>
 
 .. rubric:: Download stats

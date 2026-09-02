@@ -29,11 +29,13 @@ nim-abif
       
       
 
-      ``0.2.0-0``,  ``0.1.0-0``
+      ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on libgcc: ``>=14``
 
    :additional platforms:
       
@@ -108,7 +110,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "nim-abif";
-      var versions = ["0.2.0","0.1.0"];
+      var versions = ["0.3.0","0.2.0","0.1.0"];
    </script>
 
 .. rubric:: Download stats

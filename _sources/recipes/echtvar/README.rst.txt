@@ -34,8 +34,9 @@ echtvar
       
 
    
-   :depends on __osx: ``>=10.13``
-   :depends on libcxx: ``>=19``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on openssl: ``>=3.5.6,<4.0a0``
 
    :additional platforms:

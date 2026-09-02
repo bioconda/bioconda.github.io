@@ -48,7 +48,10 @@ perl-biox-workflow-command
    :depends on perl-file-find-rule: 
    :depends on perl-file-path: 
    :depends on perl-file-slurp: 
+   :depends on perl-git-wrapper: 
+   :depends on perl-git-wrapper-plus: 
    :depends on perl-hash-merge: 
+   :depends on perl-io-interactive: 
    :depends on perl-json: 
    :depends on perl-list-compare: 
    :depends on perl-list-moreutils: ``>=0.428``
@@ -58,6 +61,7 @@ perl-biox-workflow-command
    :depends on perl-mce-shared: 
    :depends on perl-moose: 
    :depends on perl-moosex-app: ``1.39``
+   :depends on perl-moosex-app-role-log4perl: 
    :depends on perl-moosex-getopt: 
    :depends on perl-moosex-types: 
    :depends on perl-moosex-types-path-tiny: 

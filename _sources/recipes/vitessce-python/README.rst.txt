@@ -30,7 +30,7 @@ vitessce-python
       
       
 
-      ``3.9.4-0``,  ``3.9.3-0``,  ``3.8.3-0``,  ``3.7.9-0``,  ``3.7.7-0``,  ``3.1.0-0``
+      ``3.9.5-0``,  ``3.9.4-0``,  ``3.9.3-0``,  ``3.8.3-0``,  ``3.7.9-0``,  ``3.7.7-0``,  ``3.1.0-0``
 
       
 
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "vitessce-python";
-      var versions = ["3.9.4","3.9.3","3.8.3","3.7.9","3.7.7"];
+      var versions = ["3.9.5","3.9.4","3.9.3","3.8.3","3.7.9"];
    </script>
 
 .. rubric:: Download stats

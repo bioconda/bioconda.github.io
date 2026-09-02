@@ -34,13 +34,14 @@ mmult
    
    :depends on boost-cpp: ``>=1.70.0,<1.70.1.0a0``
    :depends on eigen: 
-   :depends on libcxx: ``>=9.0.1``
+   :depends on libgcc-ng: ``>=7.5.0``
+   :depends on libstdcxx-ng: ``>=7.5.0``
    :depends on r-base: ``>=4.0,<4.1.0a0``
    :depends on r-ggplot2: 
    :depends on r-gridextra: 
    :depends on rapidjson: 
    :depends on sundials: ``>=5.3.0,<5.4.0a0``
-   :depends on tbb: ``>=2019.9,<2021.0.0a0``
+   :depends on tbb: ``>=2020.2,<2021.0.0a0``
    :depends on tbb-devel: 
 
    :additional platforms:

@@ -32,7 +32,8 @@ tree-qmc
       
 
    
-   :depends on libcxx: ``>=14``
+   :depends on libgcc-ng: ``>=9.3.0``
+   :depends on libstdcxx-ng: ``>=9.3.0``
 
    :additional platforms:
       

@@ -47,8 +47,8 @@ nucleoatac
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on htslib: ``>=1.24,<1.25.0a0``
-   :depends on libgcc: ``>=14``
    :depends on matplotlib-base: ``>=3.5``
    :depends on numpy: ``>=1.26.4,<2.0a0``
    :depends on pysam: ``>=0.24.0,<0.25.0a0``

@@ -32,15 +32,15 @@ tasmanian-mismatch
       
       
 
-      ``2.0.3-0``,  ``2.0.2-0``,  ``1.0.9-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.4-0``,  ``0.1.3-0``,  ``0.1.1-0``
+      ``2.0.4-0``,  ``2.0.3-0``,  ``2.0.2-0``,  ``1.0.9-0``,  ``1.0.7-0``,  ``1.0.6-0``,  ``1.0.4-0``,  ``0.1.3-0``,  ``0.1.1-0``
 
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on bokeh: ``>=3,<4``
    :depends on htslib: ``>=1.24,<1.25.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on pandas: 
    :depends on polars: ``>=0.20,<2``
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "tasmanian-mismatch";
-      var versions = ["2.0.3","2.0.2","1.0.9","1.0.7","1.0.6"];
+      var versions = ["2.0.4","2.0.3","2.0.2","1.0.9","1.0.7"];
    </script>
 
 .. rubric:: Download stats

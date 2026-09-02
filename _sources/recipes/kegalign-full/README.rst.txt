@@ -31,12 +31,12 @@ kegalign-full
       
       
 
-      ``0.2.1.13-0``,  ``0.1.2.9-0``,  ``0.1.2.8-0``,  ``0.1.2.7-0``
+      ``0.2.2.14-0``,  ``0.2.1.13-0``,  ``0.1.2.9-0``,  ``0.1.2.8-0``,  ``0.1.2.7-0``
 
       
 
    
-   :depends on kegalign: ``0.2.1.13.*``
+   :depends on kegalign: ``0.2.2.14.*``
    :depends on lastz: 
    :depends on mbuffer: 
    :depends on samtools: 
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "kegalign-full";
-      var versions = ["0.2.1.13","0.1.2.9","0.1.2.8","0.1.2.7"];
+      var versions = ["0.2.2.14","0.2.1.13","0.1.2.9","0.1.2.8","0.1.2.7"];
    </script>
 
 .. rubric:: Download stats

@@ -42,10 +42,10 @@ tiddit
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on bwa: 
    :depends on fermi2: 
    :depends on joblib: 
-   :depends on libgcc: ``>=14``
    :depends on numpy: ``>=1.21,<3``
    :depends on pysam: ``>=0.24.0,<0.25.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``

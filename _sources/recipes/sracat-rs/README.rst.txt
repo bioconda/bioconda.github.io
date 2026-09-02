@@ -32,7 +32,7 @@ sracat-rs
       
 
    
-   :depends on libgcc: ``>=14``
+   :depends on __osx: ``>=11.0``
    :depends on ncbi-vdb: ``>=3.4.1,<4.0a0``
 
    :additional platforms:
