@@ -32,6 +32,7 @@ wgatools
       
 
    
+   :depends on libgcc: ``>=13``
    :depends on openssl: ``>=3.5.4,<4.0a0``
    :depends on perl: 
 

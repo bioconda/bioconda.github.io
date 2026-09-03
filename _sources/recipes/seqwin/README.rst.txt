@@ -42,9 +42,10 @@ seqwin
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on blast: 
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on mash: 
    :depends on ncbi-datasets-cli: 
    :depends on networkx: 

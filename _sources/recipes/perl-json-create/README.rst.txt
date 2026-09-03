@@ -40,13 +40,13 @@ perl-json-create
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on libgcc: ``>=14``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-carp: 
    :depends on perl-json-parse: ``>=0.60``
    :depends on perl-json-parse: ``>=0.62,<0.63.0a0``
    :depends on perl-unicode-utf8: ``>=0.62``
-   :depends on perl-unicode-utf8: ``>=0.70,<0.71.0a0``
+   :depends on perl-unicode-utf8: ``>=0.66,<0.67.0a0``
 
    :additional platforms:
       

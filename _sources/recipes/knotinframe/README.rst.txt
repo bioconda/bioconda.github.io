@@ -35,7 +35,8 @@ knotinframe
    
    :depends on bellmans-gapc: ``>=2020.12.08``
    :depends on bellmans-gapc: ``>=2024.1.12``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on perl: 
 
    :additional platforms:

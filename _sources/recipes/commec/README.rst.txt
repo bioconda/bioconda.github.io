@@ -10,11 +10,12 @@ commec
    :replaces_section_title:
    :noindex:
 
-   commec\: a free\, open\-source\, globally available tool for DNA sequence screening
+   commec\: a free\, open\-source\, globally available tool for DNA synthesis screening
 
-   :homepage: https://github.com/ibbis-screening/common-mechanism
-   :documentation: https://github.com/ibbis-screening/common-mechanism/wiki
+   :homepage: https://commec.ibbis.bio
+   :documentation: https://github.com/ibbis-bio/common-mechanism/wiki
    
+   :developer docs: https://github.com/ibbis-bio/common-mechanism
    :license: MIT / MIT
    :recipe: /`commec <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/commec>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/commec/meta.yaml>`_
    :links: biotools: :biotools:`commec`
@@ -31,10 +32,10 @@ commec
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.0-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.3.2-1</code>,  <code>0.3.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.0-0</code>,  <code>2.0.0-0</code>,  <code>1.0.5-0</code>,  <code>1.0.4-0</code>,  <code>1.0.3-0</code>,  <code>1.0.2-0</code>,  <code>1.0.1-0</code>,  <code>1.0.0-0</code>,  <code>0.3.2-1</code>,  </span></summary>
       
 
-      ``2.0.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.0-0``,  ``0.1.2-0``
+      ``2.1.0-0``,  ``2.0.0-0``,  ``1.0.5-0``,  ``1.0.4-0``,  ``1.0.3-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.3.2-1``,  ``0.3.2-0``,  ``0.3.1-0``,  ``0.2.0-0``,  ``0.1.2-0``
 
       
       .. raw:: html
@@ -45,16 +46,20 @@ commec
    
    :depends on biopython: 
    :depends on blast: ``>=2.17``
+   :depends on flask: 
    :depends on hmmer: 
    :depends on infernal: 
+   :depends on mkcert: 
    :depends on numpy: 
+   :depends on openpyxl: 
    :depends on pandas: 
+   :depends on psutil: 
    :depends on pycountry: 
    :depends on python: ``>=3.10``
    :depends on pyyaml: 
    :depends on tar: 
-   :depends on wget: 
-   :depends on yaml: 
+   :depends on werkzeug: 
+   :depends on xlrd: 
    :depends on zstd: 
 
    :additional platforms:
@@ -130,7 +135,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "commec";
-      var versions = ["2.0.0","1.0.5","1.0.4","1.0.3","1.0.2"];
+      var versions = ["2.1.0","2.0.0","1.0.5","1.0.4","1.0.3"];
    </script>
 
 .. rubric:: Download stats

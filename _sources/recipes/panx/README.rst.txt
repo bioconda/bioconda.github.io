@@ -6,7 +6,7 @@
 panx
 ====
 
-.. conda:recipe:: panx/1.5.0
+.. conda:recipe:: panx/1.6.0
    :replaces_section_title:
    :noindex:
 
@@ -14,7 +14,7 @@ panx
 
    :homepage: http://pangenome.de
    :license: GNU General Public License v3.0
-   :recipe: /`panx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panx>`_/`1.5.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panx/1.5.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panx/1.5.0/meta.yaml>`_
+   :recipe: /`panx <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panx>`_/`1.6.0 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panx/1.6.0>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panx/1.6.0/meta.yaml>`_
 
    
 

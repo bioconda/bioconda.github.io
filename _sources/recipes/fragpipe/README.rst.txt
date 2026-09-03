@@ -40,9 +40,17 @@ fragpipe
    :versions:
       
       
+      .. raw:: html
 
-      ``24.0-0``,  ``23.1-0``,  ``23.0-0``,  ``22.0-0``,  ``20.0-4``,  ``20.0-3``,  ``20.0-2``,  ``20.0-1``,  ``20.0-0``
+         <details><summary><span class="truncated-version-list"><code>24.0-0</code>,  <code>23.1-0</code>,  <code>23.0-1</code>,  <code>23.0-0</code>,  <code>22.0-0</code>,  <code>20.0-4</code>,  <code>20.0-3</code>,  <code>20.0-2</code>,  <code>20.0-1</code>,  </span></summary>
+      
 
+      ``24.0-0``,  ``23.1-0``,  ``23.0-1``,  ``23.0-0``,  ``22.0-0``,  ``20.0-4``,  ``20.0-3``,  ``20.0-2``,  ``20.0-1``,  ``20.0-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -128,7 +136,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "fragpipe";
-      var versions = ["24.0","23.1","23.0","22.0","20.0"];
+      var versions = ["24.0","23.1","23.0","23.0","22.0"];
    </script>
 
 .. rubric:: Download stats

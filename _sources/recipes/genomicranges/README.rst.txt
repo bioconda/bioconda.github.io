@@ -27,13 +27,13 @@ genomicranges
       
       
 
-      ``0.8.5-0``,  ``0.8.4-0``
+      ``0.9.0-0``,  ``0.8.5-0``,  ``0.8.4-0``
 
       
 
    
-   :depends on biocframe: ``>=0.7.1``
-   :depends on biocutils: ``>=0.3.3``
+   :depends on biocframe: ``>=0.8.0``
+   :depends on biocutils: ``>=0.4.0``
    :depends on compressed-lists: ``>=0.4.3``
    :depends on iranges: ``>=0.7.2``
    :depends on numpy: 
@@ -112,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "genomicranges";
-      var versions = ["0.8.5","0.8.4"];
+      var versions = ["0.9.0","0.8.5","0.8.4"];
    </script>
 
 .. rubric:: Download stats

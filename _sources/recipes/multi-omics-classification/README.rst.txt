@@ -10,7 +10,7 @@ multi-omics-classification
    :replaces_section_title:
    :noindex:
 
-   A FAIR Machine Learning Framework for Benchmarking\, Feature Selection\, and Hyperparameter Optimization of machine learning Models for Multiomics Data in Galaxy
+   A Machine Learning Framework for Benchmarking\, Feature Selection\, and Hyperparameter Optimization of machine learning Models for Multiomics Data in Galaxy
 
    :homepage: https://github.com/usegalaxy-eu/MultiOmicsClassification
    :license: MIT

@@ -13,7 +13,7 @@ sansa
    Structural variant annotation
 
    :homepage: https://github.com/dellytools/sansa
-   :documentation: https://github.com/dellytools/sansa/blob/v0.2.5/README.md
+   :documentation: https://github.com/dellytools/sansa/blob/v0.3.1/README.md
    
    :license: BSD / BSD-3-Clause
    :recipe: /`sansa <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sansa>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sansa/meta.yaml>`_
@@ -30,10 +30,10 @@ sansa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.5-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-2</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-1</code>,  <code>0.2.1-0</code>,  <code>0.1.1-0</code>,  <code>0.0.8-6</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.1-0</code>,  <code>0.2.5-0</code>,  <code>0.2.3-0</code>,  <code>0.2.2-2</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-1</code>,  <code>0.2.1-0</code>,  <code>0.1.1-0</code>,  </span></summary>
       
 
-      ``0.2.5-0``,  ``0.2.3-0``,  ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.1.1-0``,  ``0.0.8-6``,  ``0.0.8-5``,  ``0.0.8-4``,  ``0.0.8-3``,  ``0.0.8-2``,  ``0.0.8-1``,  ``0.0.8-0``,  ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-0``
+      ``0.3.1-0``,  ``0.2.5-0``,  ``0.2.3-0``,  ``0.2.2-2``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-1``,  ``0.2.1-0``,  ``0.1.1-0``,  ``0.0.8-6``,  ``0.0.8-5``,  ``0.0.8-4``,  ``0.0.8-3``,  ``0.0.8-2``,  ``0.0.8-1``,  ``0.0.8-0``,  ``0.0.7-1``,  ``0.0.7-0``,  ``0.0.6-0``
 
       
       .. raw:: html
@@ -42,13 +42,14 @@ sansa
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on boost-cpp: 
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on htslib: ``>=1.22.1,<1.23.0a0``
-   :depends on libcxx: ``>=18``
-   :depends on libdeflate: ``>=1.22,<1.23.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on zlib: 
+   :depends on htslib: ``>=1.24,<1.25.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
       
@@ -127,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "sansa";
-      var versions = ["0.2.5","0.2.3","0.2.2","0.2.2","0.2.2"];
+      var versions = ["0.3.1","0.2.5","0.2.3","0.2.2","0.2.2"];
    </script>
 
 .. rubric:: Download stats
