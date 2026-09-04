@@ -49,9 +49,8 @@ parascopy
    :depends on construct: ``>=2.10``
    :depends on htslib: ``>=1.23,<1.24.0a0``
    :depends on intervaltree: ``>=3.0``
-   :depends on libgcc: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libstdcxx: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on numpy: ``>=1.15``
    :depends on parasail-python: ``>=1.2``

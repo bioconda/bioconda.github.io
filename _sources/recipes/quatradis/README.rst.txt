@@ -46,7 +46,6 @@ quatradis
    :depends on cython: 
    :depends on dendropy: ``4.6``
    :depends on htslib: 
-   :depends on libgcc: ``>=13``
    :depends on matplotlib-base: 
    :depends on minimap2: 
    :depends on numpy: 

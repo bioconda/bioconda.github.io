@@ -36,11 +36,9 @@ kmasker
    
    :depends on blast: 
    :depends on coreutils: ``>=8.15``
-   :depends on ea-utils: 
    :depends on gffread: 
    :depends on jellyfish: ``2.2.10.*``
-   :depends on libgcc-ng: ``>=12``
-   :depends on libstdcxx-ng: ``>=12``
+   :depends on libcxx: ``>=15.0.7``
    :depends on numpy: ``>=1.24.3,<2.0a0``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on python: ``>=3.10,<3.11.0a0``

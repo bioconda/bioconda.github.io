@@ -46,7 +46,6 @@ wiggletools
    :depends on htslib: ``>=1.22.1,<1.24.0a0``
    :depends on libbigwig: ``>=0.4.8,<0.5.0a0``
    :depends on libcblas: ``>=3.9.0,<4.0a0``
-   :depends on libgcc: ``>=13``
 
    :additional platforms:
       

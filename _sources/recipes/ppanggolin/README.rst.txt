@@ -43,14 +43,13 @@ ppanggolin
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on __osx: ``>=10.13``
    :depends on aragorn: ``1.*``
    :depends on bokeh: ``>=3.0.0,<4.0.0``
    :depends on dataclasses: ``0.8.*``
    :depends on gmpy2: ``>=2.0.0,<3.0.0``
    :depends on graph-tool: ``>=2.0.0,<3.0.0``
    :depends on infernal: ``1.*``
-   :depends on libgcc: ``>=14``
    :depends on mafft: ``7.*``
    :depends on mmseqs2: ``15.*``
    :depends on networkx: ``>=3.0.0,<4.0.0``

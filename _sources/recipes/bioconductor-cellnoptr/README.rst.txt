@@ -41,7 +41,7 @@ bioconductor-cellnoptr
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on __osx: ``>=10.13``
    :depends on bioconductor-graph: ``>=1.88.0,<1.89.0``
    :depends on bioconductor-graph: ``>=1.88.1,<1.89.0a0``
    :depends on bioconductor-rbgl: ``>=1.86.0,<1.87.0``
@@ -51,7 +51,6 @@ bioconductor-cellnoptr
    :depends on graphviz: ``>=14.1.2,<15.0a0``
    :depends on graphviz: ``>=2.2``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``

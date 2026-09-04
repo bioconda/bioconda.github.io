@@ -32,7 +32,6 @@ taco
       
 
    
-   :depends on libgcc-ng: ``>=4.9``
    :depends on pyinstaller: 
    :depends on python: ``>=2.7,<2.8.0a0``
 

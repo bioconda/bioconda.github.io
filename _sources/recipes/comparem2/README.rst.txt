@@ -10,15 +10,20 @@ comparem2
    :replaces_section_title:
    :noindex:
 
-   CompareM2 genomes\-to\-report pipeline
+   Rapid microbial genomes\-to\-report pipeline
 
-   :homepage: https://github.com/cmkobel/comparem2
+   :homepage: https://github.com/cmkobel/CompareM2
    :documentation: https://comparem2.readthedocs.io
    
    :license: GPL3 / GPL-3.0-or-later
    :recipe: /`comparem2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/comparem2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/comparem2/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btaf517`
 
-   
+   CompareM2 runs fourteen analysis tools over a set of microbial assemblies
+   and renders one self\-contained HTML report\: assembly statistics\,
+   completeness\, taxonomy\, annotation\, AMR genes\, sequence types\, ANI\, a
+   pangenome\, phylogenies and draft metabolic models.
+
 
 
 .. conda:package:: comparem2
@@ -30,10 +35,10 @@ comparem2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.16.2-0</code>,  <code>2.16.1-0</code>,  <code>2.15.3-0</code>,  <code>2.15.2-0</code>,  <code>2.15.1-0</code>,  <code>2.14.1-0</code>,  <code>2.13.1-0</code>,  <code>2.12.1-0</code>,  <code>2.11.2-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.0.0-0</code>,  <code>2.16.2-0</code>,  <code>2.16.1-0</code>,  <code>2.15.3-0</code>,  <code>2.15.2-0</code>,  <code>2.15.1-0</code>,  <code>2.14.1-0</code>,  <code>2.13.1-0</code>,  <code>2.12.1-0</code>,  </span></summary>
       
 
-      ``2.16.2-0``,  ``2.16.1-0``,  ``2.15.3-0``,  ``2.15.2-0``,  ``2.15.1-0``,  ``2.14.1-0``,  ``2.13.1-0``,  ``2.12.1-0``,  ``2.11.2-1``,  ``2.11.2-0``,  ``2.11.1-0``,  ``2.10.1-0``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.8.2-0``,  ``2.8.1-0``
+      ``3.0.0-0``,  ``2.16.2-0``,  ``2.16.1-0``,  ``2.15.3-0``,  ``2.15.2-0``,  ``2.15.1-0``,  ``2.14.1-0``,  ``2.13.1-0``,  ``2.12.1-0``,  ``2.11.2-1``,  ``2.11.2-0``,  ``2.11.1-0``,  ``2.10.1-0``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.8.2-0``,  ``2.8.1-0``
 
       
       .. raw:: html
@@ -42,11 +47,12 @@ comparem2
       
 
    
-   :depends on mamba: ``<2``
-   :depends on pandas: 
-   :depends on pulp: ``<2.8``
-   :depends on python: ``<3.12``
-   :depends on snakemake-minimal: ``<8``
+   :depends on conda: 
+   :depends on python: ``>=3.11``
+   :depends on snakemake-executor-plugin-cluster-generic: 
+   :depends on snakemake-executor-plugin-slurm: 
+   :depends on snakemake-minimal: ``>=9,<10``
+   :depends on textual: 
 
    :additional platforms:
       
@@ -121,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "comparem2";
-      var versions = ["2.16.2","2.16.1","2.15.3","2.15.2","2.15.1"];
+      var versions = ["3.0.0","2.16.2","2.16.1","2.15.3","2.15.2"];
    </script>
 
 .. rubric:: Download stats

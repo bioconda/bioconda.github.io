@@ -33,8 +33,7 @@ mantis-msi
       
 
    
-   :depends on libgcc-ng: ``>=12``
-   :depends on libstdcxx-ng: ``>=12``
+   :depends on libcxx: ``>=15.0.7``
    :depends on numpy: ``>=1.11``
    :depends on pysam: ``>=0.13``
    :depends on python: ``>=3.6``

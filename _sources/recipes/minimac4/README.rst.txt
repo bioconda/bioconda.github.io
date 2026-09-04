@@ -35,12 +35,11 @@ minimac4
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on __osx: ``>=10.13``
    :depends on bcftools: ``>=1.24,<2.0a0``
    :depends on cget: 
-   :depends on libgcc: ``>=14``
+   :depends on libcxx: ``>=13.0.1``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
-   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on python: ``<3.14``
    :depends on savvy: ``>=2.2.0,<3.0a0``

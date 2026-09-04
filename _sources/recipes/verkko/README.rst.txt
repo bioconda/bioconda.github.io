@@ -43,21 +43,20 @@ verkko
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
    :depends on bamtools: ``>=2.5``
    :depends on bamtools: ``>=2.5.3,<3.0a0``
    :depends on biopython: 
+   :depends on boost-cpp: ``>=1.56``
    :depends on bwa: ``>=0.7.17``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on findutils: ``>=4.6.0``
    :depends on graphaligner: ``>=1.0.19``
    :depends on gsl: ``>=2.7,<2.8.0a0``
    :depends on htslib: ``>=1.23,<1.24.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libgomp: 
+   :depends on libcxx: ``>=19``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on mashmap: ``>=3.0.6``
    :depends on minimap2: ``>=2.28``
    :depends on networkx: ``>=2.6.3,<=3.5``

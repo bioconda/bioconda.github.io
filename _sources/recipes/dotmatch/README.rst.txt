@@ -36,10 +36,10 @@ dotmatch
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.9-1</code>,  <code>0.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-0</code>,  <code>0.1.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.1-0</code>,  <code>0.2.2-1</code>,  <code>0.2.2-0</code>,  <code>0.2.1-0</code>,  <code>0.2.0-0</code>,  <code>0.1.9-1</code>,  <code>0.1.9-0</code>,  <code>0.1.8-0</code>,  <code>0.1.7-0</code>,  </span></summary>
       
 
-      ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
+      ``0.4.1-0``,  ``0.2.2-1``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.9-1``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
       .. raw:: html
@@ -48,7 +48,7 @@ dotmatch
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
@@ -131,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "dotmatch";
-      var versions = ["0.2.2","0.2.2","0.2.1","0.2.0","0.1.9"];
+      var versions = ["0.4.1","0.2.2","0.2.2","0.2.1","0.2.0"];
    </script>
 
 .. rubric:: Download stats

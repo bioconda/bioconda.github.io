@@ -41,8 +41,7 @@ r-sigminer
 
    
    :depends on bioconductor-maftools: ``>=2.26.0,<2.27.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-cli: ``>=2.0.0``
    :depends on r-cowplot: 

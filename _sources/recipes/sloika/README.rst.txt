@@ -35,7 +35,6 @@ sloika
    :depends on biopython: ``>=1.63``
    :depends on h5py: ``>=2.2.1,<=2.6.0``
    :depends on hdf5: ``1.8.17*``
-   :depends on libgcc: 
    :depends on numpy: ``1.12*``
    :depends on theano: ``0.8.2``
 

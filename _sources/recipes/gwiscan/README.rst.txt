@@ -10,16 +10,15 @@ gwiscan
    :replaces_section_title:
    :noindex:
 
-   GWIscan is a pipeline for the genome\-wide identification and annotation of gene families.
+   GWIscan is a pipeline for the genome\-wide identification and in silico characterization of gene families.
 
    :homepage: https://github.com/beavenmanjengwa/gwiscan
    :license: MIT
    :recipe: /`gwiscan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gwiscan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gwiscan/meta.yaml>`_
 
-   GWIscan is a pipeline for the genome\-wide identification and annotation of gene
-   families. It combines BLAST\, profile hidden Markov models\, and InterProScan for
-   identification. It runs in family\, multi\-family\, or architecture modes\, on a
-   single proteome or across multiple species.
+   GWIscan takes a user\-defined gene family\, searches a proteome by both BLAST\-based homology and profile HMM\, 
+   confirms candidates by family signature\, and provides detailed in silico annotation. It operates in three modes
+   \(family\, multi\-family\, and architecture\) and runs on a single proteome or across multiple species.
 
 
 
@@ -31,7 +30,7 @@ gwiscan
       
       
 
-      ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
+      ``1.2.0-0``,  ``1.1.0-0``,  ``1.0.1-0``,  ``1.0.0-0``
 
       
 
@@ -129,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "gwiscan";
-      var versions = ["1.1.0","1.0.1","1.0.0"];
+      var versions = ["1.2.0","1.1.0","1.0.1","1.0.0"];
    </script>
 
 .. rubric:: Download stats

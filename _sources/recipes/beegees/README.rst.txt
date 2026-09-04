@@ -27,11 +27,12 @@ beegees
       
       
 
-      ``3.0.5-0``,  ``3.0.4-0``
+      ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.4-0``
 
       
 
    
+   :depends on bbmap: ``>=40.02``
    :depends on biopython: ``>=1.84``
    :depends on blast: ``>=2.17.0``
    :depends on bwa: ``>=0.7.19``
@@ -47,12 +48,13 @@ beegees
    :depends on pyyaml: 
    :depends on r-base: ``>=4.4``
    :depends on r-tidyverse: ``>=2.0.0``
+   :depends on r-yaml: 
+   :depends on samtools: ``>=1.20``
    :depends on snakemake: ``>=9.9``
-   :depends on snakemake-executor-plugin-slurm: ``>=1.6``
    :depends on snakemake-executor-plugin-slurm: ``>=1.6.1``
-   :depends on snakemake-executor-plugin-slurm-jobstep: ``>=0.3``
    :depends on snakemake-executor-plugin-slurm-jobstep: ``>=0.3.0``
    :depends on trim-galore: ``>=0.6.10``
+   :depends on wget: 
 
    :additional platforms:
       
@@ -127,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "beegees";
-      var versions = ["3.0.5","3.0.4"];
+      var versions = ["3.0.6","3.0.5","3.0.4"];
    </script>
 
 .. rubric:: Download stats
