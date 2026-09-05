@@ -43,9 +43,11 @@ tn93
       
 
    
-   :depends on __osx: ``>=10.13``
-   :depends on libcxx: ``>=19``
-   :depends on llvm-openmp: ``>=19.1.7``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on _openmp_mutex: ``>=4.5``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
       

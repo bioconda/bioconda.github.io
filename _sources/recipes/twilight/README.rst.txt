@@ -43,7 +43,8 @@ twilight
 
    
    :depends on boost-cpp: 
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on tbb: ``>=2021.13.0``
    :depends on tbb-devel: 

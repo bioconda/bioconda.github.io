@@ -35,6 +35,7 @@ multiz
    
    :depends on coreutils: 
    :depends on grep: 
+   :depends on libgcc: ``>=13``
 
    :additional platforms:
       

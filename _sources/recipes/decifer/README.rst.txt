@@ -42,7 +42,8 @@ decifer
 
    
    :depends on lemon: ``>=1.3.1,<1.3.2.0a0``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on numpy: ``>=1.16.1``
    :depends on pandas: 
    :depends on python: ``>=3.10,<3.11.0a0``

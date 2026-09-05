@@ -57,7 +57,8 @@ rsem
    :depends on bioconductor-biobase: 
    :depends on bioconductor-ebseq: 
    :depends on htslib: ``>=1.22.1,<1.24.0a0``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-module-build: ``0.4234.*``

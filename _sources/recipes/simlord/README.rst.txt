@@ -41,6 +41,7 @@ simlord
 
    
    :depends on dinopy: 
+   :depends on libgcc: ``>=14``
    :depends on numpy: ``<2``
    :depends on pysam: ``>=0.8.4``
    :depends on python: ``>=3.10,<3.11.0a0``

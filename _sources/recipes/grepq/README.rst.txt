@@ -43,8 +43,9 @@ grepq
       
 
    
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
    :depends on libsqlite: ``>=3.49.1,<4.0a0``
+   :depends on libstdcxx: ``>=13``
 
    :additional platforms:
       

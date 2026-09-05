@@ -35,10 +35,12 @@ sracat
       
 
    
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on ca-certificates: 
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
-   :depends on llvm-openmp: ``>=19.1.7``
    :depends on ncbi-vdb: ``>=3.4.1,<4.0a0``
    :depends on sra-tools: ``>=3.4.1,<4.0a0``
 

@@ -43,15 +43,14 @@ regenie
       
 
    
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on boost-cpp: ``1.74.*``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
    :depends on libgfortran: 
    :depends on libgfortran5: ``>=13.4.0``
-   :depends on libgfortran5: ``>=15.2.0``
    :depends on liblapack: ``>=3.9.0,<3.10.0a0``
+   :depends on libstdcxx: ``>=13``
    :depends on libzlib: ``>=1.2.13,<2.0a0``
-   :depends on llvm-openmp: ``>=18.1.8``
-   :depends on llvm-openmp: ``>=21.1.5``
    :depends on mkl: ``>=2020.4``
    :depends on sqlite: 
    :depends on zlib: 
