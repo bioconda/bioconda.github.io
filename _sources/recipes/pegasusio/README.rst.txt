@@ -42,7 +42,6 @@ pegasusio
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on anndata: ``>=0.12``
    :depends on docopt: 
    :depends on h5py: ``>=3.0.0``

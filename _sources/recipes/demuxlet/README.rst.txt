@@ -35,11 +35,11 @@ demuxlet
    
    :depends on _openmp_mutex: ``>=4.5``
    :depends on htslib: ``1.10.*``
-   :depends on htslib: ``>=1.10.2,<1.24.0a0``
+   :depends on htslib: ``>=1.10,<2.0a0``
    :depends on libgcc: ``>=13``
    :depends on libgomp: 
    :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.2.13,<2.0a0``
+   :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on samtools: 
 
    :additional platforms:

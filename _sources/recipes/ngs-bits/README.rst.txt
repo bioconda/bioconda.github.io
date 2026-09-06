@@ -40,7 +40,6 @@ ngs-bits
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on htslib: ``>=1.23,<1.24.0a0``
    :depends on libegl: ``>=1.7.0,<2.0a0``

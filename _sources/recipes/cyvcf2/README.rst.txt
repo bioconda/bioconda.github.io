@@ -43,7 +43,6 @@ cyvcf2
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on click: 
    :depends on coloredlogs: 
    :depends on htslib: ``>=1.23.1,<1.24.0a0``

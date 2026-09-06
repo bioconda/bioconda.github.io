@@ -32,8 +32,8 @@ defiant
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
-   :depends on libgcc: ``>=13``
+   :depends on llvm-openmp: ``>=18.1.8``
+   :depends on llvm-openmp: ``>=19.1.5``
    :depends on mpc: ``>=1.3.1,<2.0a0``
 
    :additional platforms:

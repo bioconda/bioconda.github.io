@@ -35,7 +35,6 @@ scatac-fragment-tools
 
    
    :depends on joblib: 
-   :depends on libgcc: ``>=13``
    :depends on numba: 
    :depends on numpy: ``<2``
    :depends on polars: ``>=1.0.0``

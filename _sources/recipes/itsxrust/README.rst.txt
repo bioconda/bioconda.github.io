@@ -32,7 +32,7 @@ itsxrust
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on __osx: ``>=10.13``
    :depends on hmmer: 
    :depends on openssl: ``>=3.5.7,<4.0a0``
 

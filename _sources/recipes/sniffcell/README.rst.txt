@@ -27,11 +27,19 @@ sniffcell
       
       
 
-      
+      ``0.9.7-0``
 
       
 
    
+   :depends on matplotlib-base: 
+   :depends on numpy: ``>=2.2.0``
+   :depends on pandas: ``>=2.3.0``
+   :depends on pysam: ``>=0.21.0``
+   :depends on python: ``>=3.10``
+   :depends on scikit-learn: 
+   :depends on scipy: 
+   :depends on tqdm: 
 
    :additional platforms:
       
@@ -106,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "sniffcell";
-      var versions = [];
+      var versions = ["0.9.7"];
    </script>
 
 .. rubric:: Download stats

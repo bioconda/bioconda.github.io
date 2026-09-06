@@ -35,7 +35,7 @@ annorefine
 
    
    :depends on libgcc: ``>=14``
-   :depends on openssl: ``>=3.5.5,<4.0a0``
+   :depends on openssl: ``>=3.5.6,<4.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
 

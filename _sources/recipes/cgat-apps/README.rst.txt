@@ -42,7 +42,6 @@ cgat-apps
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on alignlib-lite: 
    :depends on bedtools: 
    :depends on biopython: 

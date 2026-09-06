@@ -39,7 +39,6 @@ alloshp
    :depends on grep: 
    :depends on gsalign: 
    :depends on gzip: 
-   :depends on libgcc: ``>=13``
    :depends on make: 
    :depends on perl: 
    :depends on perl-db_file: 

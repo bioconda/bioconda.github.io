@@ -43,7 +43,6 @@ f5c
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on hdf5: ``>=1.14.3,<1.14.4.0a0``
    :depends on libgcc: ``>=14``
    :depends on libstdcxx: ``>=14``

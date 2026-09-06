@@ -37,7 +37,6 @@ tasmanian-mismatch
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bokeh: ``>=3,<4``
    :depends on htslib: ``>=1.24,<1.25.0a0``
    :depends on libgcc: ``>=14``

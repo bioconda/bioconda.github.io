@@ -42,7 +42,6 @@ zol
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on aiofile: 
    :depends on aiohttp: 
    :depends on bioconductor-ggtree: 
@@ -62,7 +61,7 @@ zol
    :depends on libopenblas: 
    :depends on libstdcxx: ``>=14``
    :depends on mcl: 
-   :depends on miniprot: ``0.13.*``
+   :depends on miniprot: ``>=0.13``
    :depends on muscle: ``5.1.*``
    :depends on pal2nal: ``>=14.1``
    :depends on pandas: ``>=2.0``

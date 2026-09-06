@@ -39,7 +39,6 @@ falcoamadeus
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on htslib: ``>=1.24,<1.25.0a0``
    :depends on isa-l: ``>=2.32.1,<3.0a0``
    :depends on libdeflate: ``>=1.25,<1.26.0a0``

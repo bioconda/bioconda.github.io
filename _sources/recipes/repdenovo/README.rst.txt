@@ -35,7 +35,6 @@ repdenovo
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bamtools: ``>=2.5.3,<3.0a0``
    :depends on bwa: 
    :depends on kmer-jellyfish: 

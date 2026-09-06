@@ -33,7 +33,6 @@ prefersim
 
    
    :depends on gsl: ``>=2.7,<2.8.0a0``
-   :depends on libgcc: ``>=13``
 
    :additional platforms:
       

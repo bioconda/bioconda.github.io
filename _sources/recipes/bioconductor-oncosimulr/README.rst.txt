@@ -41,7 +41,6 @@ bioconductor-oncosimulr
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-graph: ``>=1.88.0,<1.89.0``
    :depends on bioconductor-graph: ``>=1.88.1,<1.89.0a0``
    :depends on bioconductor-rgraphviz: ``>=2.55.0,<2.57.0``
