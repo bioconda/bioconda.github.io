@@ -41,15 +41,15 @@ bioconductor-oncosimulr
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on bioconductor-graph: ``>=1.88.0,<1.89.0``
    :depends on bioconductor-graph: ``>=1.88.1,<1.89.0a0``
    :depends on bioconductor-rgraphviz: ``>=2.55.0,<2.57.0``
    :depends on bioconductor-rgraphviz: ``>=2.56.0,<2.57.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libgcc: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
-   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-car: 

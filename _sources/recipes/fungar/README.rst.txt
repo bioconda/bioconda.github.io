@@ -10,7 +10,7 @@ fungar
    :replaces_section_title:
    :noindex:
 
-   FUNGAR\: antifungal resistance detection pipeline
+   FUNGAR\: antifungal resistance detection pipeline.
 
    :homepage: https://github.com/resgen-br/fungar
    :license: MIT / MIT
@@ -18,6 +18,7 @@ fungar
 
    FUNGAR is a Bash pipeline for detecting antifungal resistance mutations
    directly from metagenomic short reads using DIAMOND and curated mutation databases.
+
 
 
 .. conda:package:: fungar
@@ -28,7 +29,7 @@ fungar
       
       
 
-      ``2.0.0-1``,  ``2.0.0-0``
+      ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``
 
       
 
@@ -110,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "fungar";
-      var versions = ["2.0.0","2.0.0"];
+      var versions = ["2.0.1","2.0.0","2.0.0"];
    </script>
 
 .. rubric:: Download stats

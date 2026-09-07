@@ -47,7 +47,7 @@ svdss
    :depends on bcftools: ``>=1.9``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on gsl: ``>=2.7,<2.8.0a0``
-   :depends on htslib: ``>=1.23.1,<1.24.0a0``
+   :depends on htslib: ``>=1.23.1,<1.25.0a0``
    :depends on kanpig: 
    :depends on libgcc: ``>=14``
    :depends on libgomp: 

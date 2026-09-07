@@ -33,7 +33,7 @@ conduit-assembler
 
    
    :depends on bowtie2: ``>=2.3.3``
-   :depends on htslib: ``>=1.12,<1.24.0a0``
+   :depends on htslib: ``>=1.12,<1.25.0a0``
    :depends on libgcc-ng: ``>=9.3.0``
    :depends on samtools: 
 

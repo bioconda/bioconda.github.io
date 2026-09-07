@@ -32,6 +32,7 @@ chainc
       
 
    
+   :depends on __osx: ``>=10.13``
 
    :additional platforms:
       

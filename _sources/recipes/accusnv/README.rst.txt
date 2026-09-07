@@ -30,7 +30,7 @@ accusnv
       
       
 
-      ``1.1.0-0``,  ``1.0.0.5-0``,  ``1.0.0.4-0``,  ``1.0.0.3-0``
+      ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0.5-0``,  ``1.0.0.4-0``,  ``1.0.0.3-0``
 
       
 
@@ -130,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "accusnv";
-      var versions = ["1.1.0","1.0.0.5","1.0.0.4","1.0.0.3"];
+      var versions = ["1.1.1","1.1.0","1.0.0.5","1.0.0.4","1.0.0.3"];
    </script>
 
 .. rubric:: Download stats

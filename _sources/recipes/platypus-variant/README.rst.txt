@@ -40,7 +40,7 @@ platypus-variant
       
 
    
-   :depends on htslib: ``>=1.17,<1.24.0a0``
+   :depends on htslib: ``>=1.17,<1.25.0a0``
    :depends on python: ``>=2.7,<2.8.0a0``
    :depends on python_abi: ``2.7.* *_cp27m``
 

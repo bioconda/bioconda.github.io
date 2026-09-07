@@ -34,12 +34,12 @@ whittle
       
       
 
-      ``0.1.1-0``
+      ``0.2.0-0``,  ``0.1.1-0``
 
       
 
    
-   :depends on libgcc: ``>=14``
+   :depends on __osx: ``>=10.13``
 
    :additional platforms:
       
@@ -118,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "whittle";
-      var versions = ["0.1.1"];
+      var versions = ["0.2.0","0.1.1"];
    </script>
 
 .. rubric:: Download stats

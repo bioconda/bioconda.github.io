@@ -47,11 +47,11 @@ nucleoatac
       
 
    
-   :depends on htslib: ``>=1.24,<1.25.0a0``
-   :depends on libgcc: ``>=14``
+   :depends on __osx: ``>=10.13``
+   :depends on htslib: ``>=1.17,<1.25.0a0``
    :depends on matplotlib-base: ``>=3.5``
    :depends on numpy: ``>=1.26.4,<2.0a0``
-   :depends on pysam: ``>=0.24.0,<0.25.0a0``
+   :depends on pysam: 
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on samtools: ``>=1.18``

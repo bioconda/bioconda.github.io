@@ -48,13 +48,14 @@ gambit
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
+   :depends on __osx: ``>=10.13``
    :depends on attrs: ``>=23.1``
    :depends on biopython: ``>=1.79,<2``
    :depends on cattrs: ``>=23.2``
    :depends on click: ``>=8.0``
    :depends on h5py: ``>=3.1,<4``
-   :depends on libgcc: ``>=14``
+   :depends on llvm-openmp: ``>=19.1.7``
+   :depends on llvm-openmp: ``>=22.1.8``
    :depends on numpy: ``>=1.19``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``

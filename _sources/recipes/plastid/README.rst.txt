@@ -44,7 +44,7 @@ plastid
    :depends on bowtie: 
    :depends on cython: ``>=0.22.0``
    :depends on fastx_toolkit: 
-   :depends on htslib: ``>=1.17,<1.24.0a0``
+   :depends on htslib: ``>=1.17,<1.25.0a0``
    :depends on libgcc-ng: ``>=12``
    :depends on libzlib: ``>=1.2.13,<1.3.0a0``
    :depends on matplotlib-base: ``>=1.4.0``

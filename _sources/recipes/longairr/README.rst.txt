@@ -33,7 +33,7 @@ longairr
       
       
 
-      ``1.1.0-0``
+      ``1.1.0-1``,  ``1.1.0-0``
 
       
 
@@ -57,6 +57,7 @@ longairr
    :depends on pyarrow: ``17.0.0.*``
    :depends on pysam: ``0.22.*``
    :depends on python: ``3.10.0.*``
+   :depends on python-kaleido: ``0.2.1.*``
    :depends on pyyaml: ``6.0.2.*``
    :depends on samtools: ``1.21.*``
    :depends on scipy: ``1.10.1.*``
@@ -140,7 +141,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "longairr";
-      var versions = ["1.1.0"];
+      var versions = ["1.1.0","1.1.0"];
    </script>
 
 .. rubric:: Download stats

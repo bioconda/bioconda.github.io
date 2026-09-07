@@ -40,8 +40,8 @@ cryfa
       
 
    
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on __osx: ``>=10.13``
+   :depends on libcxx: ``>=19``
 
    :additional platforms:
       

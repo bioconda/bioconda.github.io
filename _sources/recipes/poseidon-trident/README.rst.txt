@@ -12,8 +12,8 @@ poseidon-trident
 
    A tool \(trident\) to work with modular genotype databases formatted using Poseidon.
 
-   :homepage: https://www.poseidon-adna.org/#/
-   :license: MIT
+   :homepage: https://www.poseidon-adna.org/#
+   :license: MIT / MIT
    :recipe: /`poseidon-trident <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/poseidon-trident>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/poseidon-trident/meta.yaml>`_
    :links: doi: :doi:`10.7554/eLife.98317.1`
 
@@ -29,10 +29,10 @@ poseidon-trident
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.0.0-0</code>,  <code>1.6.7.1-1</code>,  <code>1.6.7.1-0</code>,  <code>1.6.2.1-0</code>,  <code>1.5.7.0-1</code>,  <code>1.5.7.0-0</code>,  <code>1.5.4.0-0</code>,  <code>1.5.0.1-0</code>,  <code>1.4.1.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.2.1-0</code>,  <code>1.7.0.0-0</code>,  <code>1.6.7.1-1</code>,  <code>1.6.7.1-0</code>,  <code>1.6.2.1-0</code>,  <code>1.5.7.0-1</code>,  <code>1.5.7.0-0</code>,  <code>1.5.4.0-0</code>,  <code>1.5.0.1-0</code>,  </span></summary>
       
 
-      ``1.7.0.0-0``,  ``1.6.7.1-1``,  ``1.6.7.1-0``,  ``1.6.2.1-0``,  ``1.5.7.0-1``,  ``1.5.7.0-0``,  ``1.5.4.0-0``,  ``1.5.0.1-0``,  ``1.4.1.0-0``,  ``1.3.0.4-0``,  ``1.2.0.0-0``,  ``1.1.11.0-2``,  ``1.1.11.0-1``,  ``1.1.11.0-0``,  ``1.1.6.0-0``,  ``0.28.0-0``,  ``0.26.3-1``,  ``0.26.3-0``,  ``0.26.1-1``,  ``0.26.1-0``,  ``0.21.0-0``,  ``0.18.1-0``
+      ``2.2.2.1-0``,  ``1.7.0.0-0``,  ``1.6.7.1-1``,  ``1.6.7.1-0``,  ``1.6.2.1-0``,  ``1.5.7.0-1``,  ``1.5.7.0-0``,  ``1.5.4.0-0``,  ``1.5.0.1-0``,  ``1.4.1.0-0``,  ``1.3.0.4-0``,  ``1.2.0.0-0``,  ``1.1.11.0-2``,  ``1.1.11.0-1``,  ``1.1.11.0-0``,  ``1.1.6.0-0``,  ``0.28.0-0``,  ``0.26.3-1``,  ``0.26.3-0``,  ``0.26.1-1``,  ``0.26.1-0``,  ``0.21.0-0``,  ``0.18.1-0``
 
       
       .. raw:: html
@@ -41,16 +41,16 @@ poseidon-trident
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on ca-certificates: 
    :depends on gmp: ``>=6.3.0,<7.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
-   :depends on zlib: 
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>osx-arm64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "poseidon-trident";
-      var versions = ["1.7.0.0","1.6.7.1","1.6.7.1","1.6.2.1","1.5.7.0"];
+      var versions = ["2.2.2.1","1.7.0.0","1.6.7.1","1.6.7.1","1.6.2.1"];
    </script>
 
 .. rubric:: Download stats

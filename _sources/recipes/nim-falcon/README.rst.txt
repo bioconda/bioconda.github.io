@@ -40,7 +40,7 @@ nim-falcon
       
 
    
-   :depends on htslib: ``>=1.10.2,<1.24.0a0``
+   :depends on htslib: ``>=1.10.2,<1.25.0a0``
    :depends on libzlib: ``>=1.2.13,<2.0a0``
    :depends on pcre: ``>=8.45,<9.0a0``
 

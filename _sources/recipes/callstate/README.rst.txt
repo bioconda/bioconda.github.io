@@ -32,7 +32,7 @@ callstate
       
 
    
-   :depends on htslib: ``>=1.10.2,<1.24.0a0``
+   :depends on htslib: ``>=1.10.2,<1.25.0a0``
    :depends on libgcc-ng: ``>=9.3.0``
    :depends on pcre: ``>=8.44,<9.0a0``
 

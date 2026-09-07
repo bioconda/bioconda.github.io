@@ -31,10 +31,10 @@ eviann
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.6-0</code>,  <code>2.0.5-2</code>,  <code>2.0.5-1</code>,  <code>2.0.5-0</code>,  <code>2.0.4-0</code>,  <code>2.0.3-4</code>,  <code>2.0.3-3</code>,  <code>2.0.3-2</code>,  <code>2.0.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.6-1</code>,  <code>2.0.6-0</code>,  <code>2.0.5-2</code>,  <code>2.0.5-1</code>,  <code>2.0.5-0</code>,  <code>2.0.4-0</code>,  <code>2.0.3-4</code>,  <code>2.0.3-3</code>,  <code>2.0.3-2</code>,  </span></summary>
       
 
-      ``2.0.6-0``,  ``2.0.5-2``,  ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-4``,  ``2.0.3-3``,  ``2.0.3-2``,  ``2.0.3-1``,  ``2.0.3-0``
+      ``2.0.6-1``,  ``2.0.6-0``,  ``2.0.5-2``,  ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.4-0``,  ``2.0.3-4``,  ``2.0.3-3``,  ``2.0.3-2``,  ``2.0.3-1``,  ``2.0.3-0``
 
       
       .. raw:: html
@@ -53,6 +53,7 @@ eviann
    :depends on miniprot: ``>=0.13``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on samtools: ``>=1.15.1``
+   :depends on snap: 
    :depends on stringtie: ``>=3.0.0``
    :depends on wget: 
 
@@ -133,7 +134,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "eviann";
-      var versions = ["2.0.6","2.0.5","2.0.5","2.0.5","2.0.4"];
+      var versions = ["2.0.6","2.0.6","2.0.5","2.0.5","2.0.5"];
    </script>
 
 .. rubric:: Download stats

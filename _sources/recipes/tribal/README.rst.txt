@@ -37,8 +37,7 @@ tribal
    :depends on biopython: ``>=1.81``
    :depends on ete3: ``>=3.1.2``
    :depends on glpk: ``>=5.0``
-   :depends on libgcc: ``>=12``
-   :depends on libstdcxx: ``>=12``
+   :depends on libcxx: ``>=16``
    :depends on mafft: ``7.526``
    :depends on networkx: ``>=3.1``
    :depends on numpy: ``>=1.26,<2.0``

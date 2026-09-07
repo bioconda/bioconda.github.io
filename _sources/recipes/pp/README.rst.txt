@@ -10,10 +10,10 @@ pp
    :replaces_section_title:
    :noindex:
 
-   Parallel and distributed programming for Python
+   Parallel and distributed programming for Python.
 
-   :homepage: http://www.parallelpython.com
-   :license: BSD / BSD License
+   :homepage: https://www.parallelpython.com
+   :license: APACHE / Apache-2.0
    :recipe: /`pp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pp/meta.yaml>`_
 
    
@@ -27,12 +27,12 @@ pp
       
       
 
-      ``1.6.5-2``,  ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.4.4-0``,  ``1.6.4-1``,  ``1.6.4-0``
+      ``1.7.0-0``,  ``1.6.5-2``,  ``1.6.5-1``,  ``1.6.5-0``,  ``1.6.4.4-0``,  ``1.6.4-1``,  ``1.6.4-0``
 
       
 
    
-   :depends on python: ``<3``
+   :depends on python: ``>=3.10``
 
    :additional platforms:
       
@@ -107,7 +107,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pp";
-      var versions = ["1.6.5","1.6.5","1.6.5","1.6.4.4","1.6.4"];
+      var versions = ["1.7.0","1.6.5","1.6.5","1.6.5","1.6.4.4"];
    </script>
 
 .. rubric:: Download stats

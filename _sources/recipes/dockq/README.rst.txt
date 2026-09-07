@@ -35,7 +35,6 @@ dockq
 
    
    :depends on biopython: ``>=1.79``
-   :depends on libgcc: ``>=13``
    :depends on networkx: 
    :depends on numpy: ``>=1.26.4,<2.0a0``
    :depends on parallelbar: 

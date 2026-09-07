@@ -32,8 +32,9 @@ minibwa
       
 
    
-   :depends on libgcc: ``>=14``
+   :depends on __osx: ``>=10.13``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on llvm-openmp: ``>=19.1.7``
 
    :additional platforms:
       

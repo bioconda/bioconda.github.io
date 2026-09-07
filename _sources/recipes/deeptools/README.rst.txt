@@ -10,10 +10,10 @@ deeptools
    :replaces_section_title:
    :noindex:
 
-   A set of user\-friendly tools for normalization and visualzation of deep\-sequencing data
+   A set of user\-friendly tools for normalization and visualzation of deep\-sequencing data.
 
    :homepage: https://github.com/deeptools/deepTools
-   :documentation: https://deeptools.readthedocs.io/en/latest/
+   :documentation: https://deeptools.readthedocs.io/en/latest
    
    :license: MIT / MIT
    :recipe: /`deeptools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deeptools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deeptools/meta.yaml>`_
@@ -31,10 +31,10 @@ deeptools
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.5.6-0</code>,  <code>3.5.5-0</code>,  <code>3.5.4-1</code>,  <code>3.5.3-0</code>,  <code>3.5.2-1</code>,  <code>3.5.2-0</code>,  <code>3.5.1-1</code>,  <code>3.5.1-0</code>,  <code>3.5.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.0-0</code>,  <code>3.5.6-0</code>,  <code>3.5.5-0</code>,  <code>3.5.4-1</code>,  <code>3.5.3-0</code>,  <code>3.5.2-1</code>,  <code>3.5.2-0</code>,  <code>3.5.1-1</code>,  <code>3.5.1-0</code>,  </span></summary>
       
 
-      ``3.5.6-0``,  ``3.5.5-0``,  ``3.5.4-1``,  ``3.5.3-0``,  ``3.5.2-1``,  ``3.5.2-0``,  ``3.5.1-1``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.4.3-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.3-1``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.5.7-0``,  ``2.5.6-0``,  ``2.5.5-0``,  ``2.5.4-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.3-0``,  ``2.4.2-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.6-2``,  ``2.3.6-1``,  ``2.3.5-2``,  ``2.3.5-1``,  ``2.3.5-0``,  ``2.3.4-0``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.9.1-0``,  ``1.5.8.2-0``
+      ``4.0.0-0``,  ``3.5.6-0``,  ``3.5.5-0``,  ``3.5.4-1``,  ``3.5.3-0``,  ``3.5.2-1``,  ``3.5.2-0``,  ``3.5.1-1``,  ``3.5.1-0``,  ``3.5.0-0``,  ``3.4.3-0``,  ``3.4.2-0``,  ``3.4.1-0``,  ``3.4.0-0``,  ``3.3.2-1``,  ``3.3.2-0``,  ``3.3.1-0``,  ``3.3.0-0``,  ``3.2.1-0``,  ``3.2.0-0``,  ``3.1.3-1``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1.0-0``,  ``3.0.2-0``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.5.7-0``,  ``2.5.6-0``,  ``2.5.5-0``,  ``2.5.4-0``,  ``2.5.3-0``,  ``2.5.2-0``,  ``2.5.1-0``,  ``2.5.0-0``,  ``2.4.3-0``,  ``2.4.2-0``,  ``2.4.1-1``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.3.6-2``,  ``2.3.6-1``,  ``2.3.5-2``,  ``2.3.5-1``,  ``2.3.5-0``,  ``2.3.4-0``,  ``2.3.3-0``,  ``2.3.2-0``,  ``2.3.1-0``,  ``2.2.4-0``,  ``2.2.3-0``,  ``2.2.2-0``,  ``2.2.1-0``,  ``2.2.0-0``,  ``2.1.0-0``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.5.9.1-0``,  ``1.5.8.2-0``
 
       
       .. raw:: html
@@ -43,19 +43,26 @@ deeptools
       
 
    
-   :depends on deeptoolsintervals: ``>=0.1.8``
+   :depends on __osx: ``>=10.13``
+   :depends on deeptoolsintervals: ``>=0.1``
+   :depends on htslib: ``>=1.24,<1.25.0a0``
    :depends on importlib-metadata: 
-   :depends on matplotlib-base: ``>=3.5.0``
+   :depends on matplotlib-base: ``>=3.10``
    :depends on numpy: ``>=2.0.0``
    :depends on numpydoc: ``>=0.5``
    :depends on plotly: ``>=4.9``
-   :depends on py2bit: ``>=0.2.0``
-   :depends on pybigwig: ``>=0.2.3``
-   :depends on pysam: ``>=0.14.0``
-   :depends on python: ``>=3.9``
-   :depends on scipy: ``>=0.17.0``
+   :depends on py2bit: ``>=0.3.0``
+   :depends on pybigwig: ``>=0.3``
+   :depends on pysam: ``>=0.23``
+   :depends on python: ``>=3.12,<3.13.0a0``
+   :depends on python_abi: ``3.12.* *_cp312``
+   :depends on scipy: ``>=1.13``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -128,7 +135,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "deeptools";
-      var versions = ["3.5.6","3.5.5","3.5.4","3.5.3","3.5.2"];
+      var versions = ["4.0.0","3.5.6","3.5.5","3.5.4","3.5.3"];
    </script>
 
 .. rubric:: Download stats

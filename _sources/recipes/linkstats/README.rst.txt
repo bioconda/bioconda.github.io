@@ -33,7 +33,7 @@ linkstats
 
    
    :depends on click: ``>=8.0.3``
-   :depends on htslib: ``>=1.17,<1.24.0a0``
+   :depends on htslib: ``>=1.17,<1.25.0a0``
    :depends on libcxx: ``>=15.0.7``
    :depends on matplotlib-base: ``>=3.5.1``
    :depends on numpy: ``>=1.22.0``

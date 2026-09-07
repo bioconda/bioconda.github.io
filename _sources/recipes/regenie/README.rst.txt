@@ -12,8 +12,8 @@ regenie
 
    Regenie is a C\+\+ program for whole genome regression modelling of large genome\-wide association studies \(GWAS\).
 
-   :homepage: https://rgcgithub.github.io/regenie/
-   :documentation: https://rgcgithub.github.io/regenie/options/
+   :homepage: https://rgcgithub.github.io/regenie
+   :documentation: https://rgcgithub.github.io/regenie/options
    
    :developer docs: https://github.com/rgcgithub/regenie
    :license: MIT / MIT
@@ -31,10 +31,10 @@ regenie
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.1.2-0</code>,  <code>4.1.1-0</code>,  <code>4.1-0</code>,  <code>4.0-2</code>,  <code>4.0-1</code>,  <code>4.0-0</code>,  <code>3.6-0</code>,  <code>3.5-0</code>,  <code>3.4.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.1.3-0</code>,  <code>4.1.2-0</code>,  <code>4.1.1-0</code>,  <code>4.1-0</code>,  <code>4.0-2</code>,  <code>4.0-1</code>,  <code>4.0-0</code>,  <code>3.6-0</code>,  <code>3.5-0</code>,  </span></summary>
       
 
-      ``4.1.2-0``,  ``4.1.1-0``,  ``4.1-0``,  ``4.0-2``,  ``4.0-1``,  ``4.0-0``,  ``3.6-0``,  ``3.5-0``,  ``3.4.1-0``,  ``3.4-0``,  ``3.3-0``,  ``3.2.9-0``,  ``3.2.7-0``,  ``3.2.6-1``,  ``3.2.6-0``,  ``3.2.5.2-0``,  ``3.2.5-0``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2.4-0``,  ``3.2.2.3-0``,  ``3.2.2.1-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2-0``,  ``3.1.4-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1-0``,  ``3.0.3-0``,  ``3.0.1-0``,  ``1.0.6.9-0``,  ``1.0.6.7-0``
+      ``4.1.3-0``,  ``4.1.2-0``,  ``4.1.1-0``,  ``4.1-0``,  ``4.0-2``,  ``4.0-1``,  ``4.0-0``,  ``3.6-0``,  ``3.5-0``,  ``3.4.1-0``,  ``3.4-0``,  ``3.3-0``,  ``3.2.9-0``,  ``3.2.7-0``,  ``3.2.6-1``,  ``3.2.6-0``,  ``3.2.5.2-0``,  ``3.2.5-0``,  ``3.2.4-0``,  ``3.2.3-0``,  ``3.2.2.4-0``,  ``3.2.2.3-0``,  ``3.2.2.1-0``,  ``3.2.2-0``,  ``3.2.1-0``,  ``3.2-0``,  ``3.1.4-0``,  ``3.1.3-0``,  ``3.1.2-0``,  ``3.1.1-0``,  ``3.1-0``,  ``3.0.3-0``,  ``3.0.1-0``,  ``1.0.6.9-0``,  ``1.0.6.7-0``
 
       
       .. raw:: html
@@ -43,18 +43,16 @@ regenie
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on boost-cpp: ``1.74.*``
-   :depends on libcxx: ``>=18``
+   :depends on libcxx: ``>=19``
    :depends on libgfortran: 
-   :depends on libgfortran5: ``>=13.4.0``
-   :depends on libgfortran5: ``>=15.2.0``
+   :depends on libgfortran5: ``>=14.4.0``
    :depends on liblapack: ``>=3.9.0,<3.10.0a0``
    :depends on libzlib: ``>=1.2.13,<2.0a0``
-   :depends on llvm-openmp: ``>=18.1.8``
-   :depends on llvm-openmp: ``>=21.1.5``
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on mkl: ``>=2020.4``
    :depends on sqlite: 
-   :depends on zlib: 
    :depends on zstd: ``>=1.5.6,<1.6.0a0``
 
    :additional platforms:
@@ -130,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "regenie";
-      var versions = ["4.1.2","4.1.1","4.1","4.0","4.0"];
+      var versions = ["4.1.3","4.1.2","4.1.1","4.1","4.0"];
    </script>
 
 .. rubric:: Download stats

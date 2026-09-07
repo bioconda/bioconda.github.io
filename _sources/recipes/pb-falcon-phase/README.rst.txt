@@ -32,7 +32,7 @@ pb-falcon-phase
       
 
    
-   :depends on htslib: ``>=1.14,<1.24.0a0``
+   :depends on htslib: ``>=1.14,<1.25.0a0``
    :depends on libgcc-ng: ``>=9.4.0``
    :depends on libstdcxx-ng: ``>=9.4.0``
    :depends on libzlib: ``>=1.2.11,<1.3.0a0``

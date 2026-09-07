@@ -31,10 +31,10 @@ aster
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.25-0</code>,  <code>1.23-0</code>,  <code>1.22-1</code>,  <code>1.22-0</code>,  <code>1.19-2</code>,  <code>1.19-1</code>,  <code>1.19-0</code>,  <code>1.16-2</code>,  <code>1.16-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.25-1</code>,  <code>1.25-0</code>,  <code>1.23-0</code>,  <code>1.22-1</code>,  <code>1.22-0</code>,  <code>1.19-2</code>,  <code>1.19-1</code>,  <code>1.19-0</code>,  <code>1.16-2</code>,  </span></summary>
       
 
-      ``1.25-0``,  ``1.23-0``,  ``1.22-1``,  ``1.22-0``,  ``1.19-2``,  ``1.19-1``,  ``1.19-0``,  ``1.16-2``,  ``1.16-1``,  ``1.16-0``,  ``1.15-2``,  ``1.15-1``,  ``1.15-0``,  ``1.13-1``,  ``1.13-0``,  ``1.10-0``,  ``1.3-1``,  ``1.3-0``
+      ``1.25-1``,  ``1.25-0``,  ``1.23-0``,  ``1.22-1``,  ``1.22-0``,  ``1.19-2``,  ``1.19-1``,  ``1.19-0``,  ``1.16-2``,  ``1.16-1``,  ``1.16-0``,  ``1.15-2``,  ``1.15-1``,  ``1.15-0``,  ``1.13-1``,  ``1.13-0``,  ``1.10-0``,  ``1.3-1``,  ``1.3-0``
 
       
       .. raw:: html
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "aster";
-      var versions = ["1.25","1.23","1.22","1.22","1.19"];
+      var versions = ["1.25","1.25","1.23","1.22","1.22"];
    </script>
 
 .. rubric:: Download stats

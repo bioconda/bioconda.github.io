@@ -39,7 +39,7 @@ scanmst
    :depends on biopython: ``>=1.81,<2``
    :depends on htseq: ``2.0.5``
    :depends on htslib: ``1.20``
-   :depends on htslib: ``>=1.20,<1.21.0a0``
+   :depends on htslib: ``>=1.20,<1.25.0a0``
    :depends on intervaltree: ``>=3.1.0,<4``
    :depends on joblib: ``>=1.5.0,<2``
    :depends on libgcc: ``>=14``

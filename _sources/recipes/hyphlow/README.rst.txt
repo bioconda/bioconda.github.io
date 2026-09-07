@@ -10,10 +10,10 @@ hyphlow
    :replaces_section_title:
    :noindex:
 
-   Bioinformatics selection analysis pipeline and GUI
+   Bioinformatics selection analysis pipeline and GUI.
 
-   :homepage: https://pypi.org/project/hyphlow/
-   :license: MIT
+   :homepage: https://pypi.org/project/hyphlow
+   :license: MIT / MIT
    :recipe: /`hyphlow <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hyphlow>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hyphlow/meta.yaml>`_
 
    
@@ -27,18 +27,20 @@ hyphlow
       
       
 
-      ``1.0.3-0``
+      ``1.0.5-0``,  ``1.0.3-0``
 
       
 
    
    :depends on ete3: 
    :depends on hyphy: 
+   :depends on matplotlib-base: 
    :depends on pandas: 
    :depends on pyqt: 
    :depends on python: ``>=3.8,<3.13``
    :depends on qtawesome: 
    :depends on rapidfuzz: 
+   :depends on seaborn-base: 
    :depends on taxopy: 
    :depends on xlsxwriter: 
 
@@ -115,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "hyphlow";
-      var versions = ["1.0.3"];
+      var versions = ["1.0.5","1.0.3"];
    </script>
 
 .. rubric:: Download stats

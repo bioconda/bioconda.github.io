@@ -34,7 +34,7 @@ fg-mako
       
 
    
-   :depends on libgcc: ``>=14``
+   :depends on __osx: ``>=10.13``
 
    :additional platforms:
       

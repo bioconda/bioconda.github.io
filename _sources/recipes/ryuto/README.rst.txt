@@ -33,7 +33,7 @@ ryuto
 
    
    :depends on boost-cpp: ``>=1.78.0,<1.78.1.0a0``
-   :depends on htslib: ``>=1.17,<1.24.0a0``
+   :depends on htslib: ``>=1.17,<1.25.0a0``
    :depends on libcxx: ``>=15.0.7``
    :depends on libzlib: ``>=1.2.13,<1.3.0a0``
    :depends on llvm-openmp: ``>=15.0.7``

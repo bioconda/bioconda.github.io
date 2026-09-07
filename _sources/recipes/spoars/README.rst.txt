@@ -13,7 +13,7 @@ spoars
    Faithful native\-Rust reimplementation of the spoa partial order alignment library
 
    :homepage: https://github.com/fg-labs/spoars
-   :documentation: https://github.com/fg-labs/spoars/blob/v0.1.3/README.md
+   :documentation: https://github.com/fg-labs/spoars/blob/v0.1.4/README.md
    
    :license: MIT / MIT
    :recipe: /`spoars <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spoars>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spoars/meta.yaml>`_
@@ -33,12 +33,12 @@ spoars
       
       
 
-      ``0.1.3-0``
+      ``0.1.4-0``,  ``0.1.3-0``
 
       
 
    
-   :depends on libgcc: ``>=14``
+   :depends on __osx: ``>=10.13``
 
    :additional platforms:
       
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "spoars";
-      var versions = ["0.1.3"];
+      var versions = ["0.1.4","0.1.3"];
    </script>
 
 .. rubric:: Download stats

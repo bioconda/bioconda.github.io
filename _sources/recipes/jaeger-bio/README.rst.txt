@@ -30,7 +30,7 @@ jaeger-bio
       
       
 
-      ``1.26.4-0``,  ``1.1.30-0``,  ``1.1.26-0``
+      ``1.26.5-0``,  ``1.26.4-0``,  ``1.1.30-0``,  ``1.1.26-0``
 
       
 
@@ -134,7 +134,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "jaeger-bio";
-      var versions = ["1.26.4","1.1.30","1.1.26"];
+      var versions = ["1.26.5","1.26.4","1.1.30","1.1.26"];
    </script>
 
 .. rubric:: Download stats

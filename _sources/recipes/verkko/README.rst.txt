@@ -52,7 +52,7 @@ verkko
    :depends on findutils: ``>=4.6.0``
    :depends on graphaligner: ``>=1.0.19``
    :depends on gsl: ``>=2.7,<2.8.0a0``
-   :depends on htslib: ``>=1.23,<1.24.0a0``
+   :depends on htslib: ``>=1.23,<1.25.0a0``
    :depends on libcxx: ``>=19``
    :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``

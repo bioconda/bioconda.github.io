@@ -41,7 +41,7 @@ crumble
       
 
    
-   :depends on htslib: ``>=1.21,<1.24.0a0``
+   :depends on htslib: ``>=1.21,<1.25.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
 
    :additional platforms:

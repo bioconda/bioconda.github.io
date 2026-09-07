@@ -43,7 +43,7 @@ sgcocaller
    
    :depends on _openmp_mutex: ``>=4.5``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on htslib: ``>=1.17,<1.24.0a0``
+   :depends on htslib: ``>=1.17,<1.25.0a0``
    :depends on libgcc-ng: ``>=12``
    :depends on libgfortran-ng: 
    :depends on libgfortran5: ``>=10.4.0``

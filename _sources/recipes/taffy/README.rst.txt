@@ -41,7 +41,7 @@ taffy
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on cffi: 
    :depends on hdf5: ``>=1.14.3,<1.14.4.0a0``
-   :depends on htslib: ``>=1.23.1,<1.24.0a0``
+   :depends on htslib: ``>=1.23.1,<1.25.0a0``
    :depends on libcxx: ``>=19``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on numpy: ``>=1.23,<3``

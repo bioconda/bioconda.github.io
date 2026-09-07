@@ -42,7 +42,7 @@ hera
    
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on hdf5: ``>=1.12.2,<1.12.3.0a0``
-   :depends on htslib: ``>=1.17,<1.24.0a0``
+   :depends on htslib: ``>=1.17,<1.25.0a0``
    :depends on libdivsufsort: ``>=2.0.2,<2.1.0a0``
    :depends on libgcc-ng: ``>=12``
    :depends on libzlib: ``>=1.2.13,<1.3.0a0``

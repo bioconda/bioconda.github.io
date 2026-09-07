@@ -43,7 +43,7 @@ hap.py
    :depends on bcftools: 
    :depends on boost-cpp: ``>=1.74.0,<1.74.1.0a0``
    :depends on bx-python: 
-   :depends on htslib: ``>=1.17,<1.24.0a0``
+   :depends on htslib: ``>=1.17,<1.25.0a0``
    :depends on libgcc-ng: ``>=12``
    :depends on libstdcxx-ng: ``>=12``
    :depends on nose: 

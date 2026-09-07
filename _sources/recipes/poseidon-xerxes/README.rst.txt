@@ -12,9 +12,10 @@ poseidon-xerxes
 
    A tool \(xerxes\) to analyse genotype databases formatted using Poseidon.
 
-   :homepage: https://www.poseidon-adna.org/#/
-   :license: MIT
+   :homepage: https://www.poseidon-adna.org/#
+   :license: MIT / MIT
    :recipe: /`poseidon-xerxes <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/poseidon-xerxes>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/poseidon-xerxes/meta.yaml>`_
+   :links: doi: :doi:`10.7554/eLife.98317.1`
 
    
 
@@ -27,16 +28,21 @@ poseidon-xerxes
       
       
 
-      ``1.0.1.1-1``,  ``1.0.1.1-0``,  ``1.0.0.2-0``,  ``0.3.4.0-0``,  ``0.1.2.2-2``,  ``0.1.2.2-1``,  ``0.1.2.2-0``,  ``0.1.0.0-0``
+      ``2.2.2.1-0``,  ``1.0.1.1-1``,  ``1.0.1.1-0``,  ``1.0.0.2-0``,  ``0.3.4.0-0``,  ``0.1.2.2-2``,  ``0.1.2.2-1``,  ``0.1.2.2-0``,  ``0.1.0.0-0``
 
       
 
    
+   :depends on __osx: ``>=10.13``
+   :depends on ca-certificates: 
    :depends on gmp: ``>=6.3.0,<7.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on zlib: 
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -109,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "poseidon-xerxes";
-      var versions = ["1.0.1.1","1.0.1.1","1.0.0.2","0.3.4.0","0.1.2.2"];
+      var versions = ["2.2.2.1","1.0.1.1","1.0.1.1","1.0.0.2","0.3.4.0"];
    </script>
 
 .. rubric:: Download stats

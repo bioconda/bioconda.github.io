@@ -12,8 +12,7 @@ sicer2
 
    Redesigned and improved ChIP\-seq broad peak calling tool SICER.
 
-   :homepage: https://pypi.org/project/SICER2/
-   :developer docs: https://github.com/zanglab/SICER2
+   :homepage: https://github.com/zanglab/SICER2
    :license: MIT / MIT
    :recipe: /`sicer2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sicer2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sicer2/meta.yaml>`_
 
@@ -27,19 +26,31 @@ sicer2
    :versions:
       
       
+      .. raw:: html
 
-      ``2.1.0-0``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``
+         <details><summary><span class="truncated-version-list"><code>2.1.1-0</code>,  <code>2.1.0-0</code>,  <code>1.0.3-3</code>,  <code>1.0.3-2</code>,  <code>1.0.3-1</code>,  <code>1.0.3-0</code>,  <code>1.0.2-2</code>,  <code>1.0.2-1</code>,  <code>1.0.2-0</code>,  </span></summary>
+      
 
+      ``2.1.1-0``,  ``2.1.0-0``,  ``1.0.3-3``,  ``1.0.3-2``,  ``1.0.3-1``,  ``1.0.3-0``,  ``1.0.2-2``,  ``1.0.2-1``,  ``1.0.2-0``,  ``1.0.1-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on numpy: ``>=1.21,<3``
-   :depends on numpy: ``>=2.2.6,<3.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on scipy: ``>=1``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -112,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "sicer2";
-      var versions = ["2.1.0","1.0.3","1.0.3","1.0.3","1.0.3"];
+      var versions = ["2.1.1","2.1.0","1.0.3","1.0.3","1.0.3"];
    </script>
 
 .. rubric:: Download stats

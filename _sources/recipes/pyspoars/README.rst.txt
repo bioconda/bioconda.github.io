@@ -13,7 +13,7 @@ pyspoars
    Python bindings for spoars — partial order alignment consensus and MSA
 
    :homepage: https://github.com/fg-labs/spoars
-   :documentation: https://github.com/fg-labs/spoars/blob/v0.1.3/spoars-py/README.md
+   :documentation: https://github.com/fg-labs/spoars/blob/v0.1.4/spoars-py/README.md
    
    :license: MIT / MIT
    :recipe: /`pyspoars <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyspoars>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyspoars/meta.yaml>`_
@@ -33,12 +33,12 @@ pyspoars
       
       
 
-      ``0.1.3-0``
+      ``0.1.4-0``,  ``0.1.3-0``
 
       
 
    
-   :depends on libgcc: ``>=14``
+   :depends on __osx: ``>=10.13``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
 
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pyspoars";
-      var versions = ["0.1.3"];
+      var versions = ["0.1.4","0.1.3"];
    </script>
 
 .. rubric:: Download stats

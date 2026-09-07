@@ -37,7 +37,6 @@ macs3
    
    :depends on cykhash: ``>=2.0,<3.0``
    :depends on hmmlearn: ``>=0.3.2``
-   :depends on libgcc: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on numpy: ``>=1.21,<3``
    :depends on numpy: ``>=1.25``

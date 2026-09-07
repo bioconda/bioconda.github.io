@@ -35,7 +35,7 @@ dmtools
 
    
    :depends on gsl: ``>=2.7,<2.8.0a0``
-   :depends on htslib: ``>=1.19.1,<1.24.0a0``
+   :depends on htslib: ``>=1.19.1,<1.25.0a0``
    :depends on libcurl: ``>=8.7.1,<9.0a0``
    :depends on libgcc-ng: ``>=12``
    :depends on libstdcxx-ng: ``>=12``

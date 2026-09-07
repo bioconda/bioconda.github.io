@@ -10,10 +10,10 @@ annostat
    :replaces_section_title:
    :noindex:
 
-   Analyze and validate bacterial genome annotations from GFF3 and FASTA files
+   Analyze and validate bacterial genome annotations from GFF3 and FASTA files.
 
    :homepage: https://github.com/Karudhoru/annostat
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`annostat <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/annostat>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/annostat/meta.yaml>`_
 
    Annostat is a command\-line toolkit for inspecting\, validating\, analyzing\,
@@ -31,11 +31,12 @@ annostat
       
       
 
-      ``1.0.0-0``
+      ``1.0.3-0``,  ``1.0.0-0``
 
       
 
    
+   :depends on matplotlib-base: ``>=3.10``
    :depends on python: ``>=3.10``
 
    :additional platforms:
@@ -111,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "annostat";
-      var versions = ["1.0.0"];
+      var versions = ["1.0.3","1.0.0"];
    </script>
 
 .. rubric:: Download stats

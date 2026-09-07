@@ -29,10 +29,10 @@ shovill
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.1.0-2</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.9-0</code>,  <code>1.0.4-1</code>,  <code>1.0.4-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.4.2-1</code>,  <code>1.4.2-0</code>,  <code>1.4.1-0</code>,  <code>1.4.0-0</code>,  <code>1.1.0-2</code>,  <code>1.1.0-1</code>,  <code>1.1.0-0</code>,  <code>1.0.9-0</code>,  <code>1.0.4-1</code>,  </span></summary>
       
 
-      ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.1-0``
+      ``1.4.2-1``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-0``,  ``1.1.0-2``,  ``1.1.0-1``,  ``1.1.0-0``,  ``1.0.9-0``,  ``1.0.4-1``,  ``1.0.4-0``,  ``1.0.1-0``,  ``1.0.0-0``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.1-2``,  ``0.7.1-1``,  ``0.7.1-0``
 
       
       .. raw:: html
@@ -52,6 +52,7 @@ shovill
    :depends on perl-findbin: 
    :depends on pigz: 
    :depends on pilon: ``>=1.22``
+   :depends on python: ``<3.12``
    :depends on samclip: ``>=0.4``
    :depends on samtools: ``>=1.10``
    :depends on seqkit: 
@@ -133,7 +134,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "shovill";
-      var versions = ["1.4.2","1.4.1","1.4.0","1.1.0","1.1.0"];
+      var versions = ["1.4.2","1.4.2","1.4.1","1.4.0","1.1.0"];
    </script>
 
 .. rubric:: Download stats

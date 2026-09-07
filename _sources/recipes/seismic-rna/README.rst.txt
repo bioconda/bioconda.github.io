@@ -30,10 +30,10 @@ seismic-rna
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.25.3-0</code>,  <code>0.24.4-0</code>,  <code>0.24.3-0</code>,  <code>0.24.2-0</code>,  <code>0.24.1-0</code>,  <code>0.24.0-0</code>,  <code>0.23.1-0</code>,  <code>0.23.0-0</code>,  <code>0.22.3-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.26.0-0</code>,  <code>0.25.3-0</code>,  <code>0.24.4-0</code>,  <code>0.24.3-0</code>,  <code>0.24.2-0</code>,  <code>0.24.1-0</code>,  <code>0.24.0-0</code>,  <code>0.23.1-0</code>,  <code>0.23.0-0</code>,  </span></summary>
       
 
-      ``0.25.3-0``,  ``0.24.4-0``,  ``0.24.3-0``,  ``0.24.2-0``,  ``0.24.1-0``,  ``0.24.0-0``,  ``0.23.1-0``,  ``0.23.0-0``,  ``0.22.3-1``,  ``0.22.3-0``,  ``0.22.1-0``,  ``0.22.0-0``,  ``0.21.1-1``,  ``0.21.1-0``,  ``0.21.0-0``,  ``0.20.1-0``,  ``0.20.0-1``,  ``0.20.0-0``,  ``0.19.2-0``
+      ``0.26.0-0``,  ``0.25.3-0``,  ``0.24.4-0``,  ``0.24.3-0``,  ``0.24.2-0``,  ``0.24.1-0``,  ``0.24.0-0``,  ``0.23.1-0``,  ``0.23.0-0``,  ``0.22.3-1``,  ``0.22.3-0``,  ``0.22.1-0``,  ``0.22.0-0``,  ``0.21.1-1``,  ``0.21.1-0``,  ``0.21.0-0``,  ``0.20.1-0``,  ``0.20.0-1``,  ``0.20.0-0``,  ``0.19.2-0``
 
       
       .. raw:: html
@@ -42,28 +42,32 @@ seismic-rna
       
 
    
-   :depends on bowtie2: ``>=2.5.4``
-   :depends on brotli-python: ``>=1.0``
-   :depends on click: ``>=8.1``
-   :depends on fastp: ``>=0.23.0``
-   :depends on fastqsplitter: ``>=1.2``
-   :depends on jgo: ``>=1.0``
-   :depends on jinja2: ``>=3.0``
-   :depends on libgcc: ``>=14``
+   :depends on __osx: ``>=10.13``
+   :depends on bowtie2: ``>=2.5.5,<3``
+   :depends on brotli-python: ``>=1.2.0,<2``
+   :depends on click: ``>=8.4.2,<9``
+   :depends on fastp: ``>=1.3.6,<2``
+   :depends on fastqsplitter: ``>=1.2.0,<2``
+   :depends on jgo: ``>=3.1.0,<4``
+   :depends on jinja2: ``>=3.1.6,<4``
+   :depends on matplotlib-base: ``>=3.8,<3.11``
    :depends on maven: ``>=3.3.9``
-   :depends on networkx: ``>=3.4``
-   :depends on numba: ``>=0.61``
-   :depends on numpy: ``>=2.0,<2.2``
+   :depends on networkx: ``>=3.6.1,<4``
+   :depends on numba: ``>=0.67.0,<1``
+   :depends on numpy: ``>=2.5.2,<3``
    :depends on openjdk: ``>=21.0``
-   :depends on pandas: ``>=2.2,<3.0``
-   :depends on plotly: ``>=5.23``
-   :depends on python: ``>=3.11,<3.12.0a0``
-   :depends on python-kaleido: ``>=0.2.1``
-   :depends on python_abi: ``3.11.* *_cp311``
-   :depends on pyyaml: ``>=6.0``
-   :depends on rnastructure: ``>=6.4``
-   :depends on samtools: ``>=1.20``
-   :depends on scipy: ``>=1.13``
+   :depends on pandas: ``>=3.0.5,<4``
+   :depends on plotly: ``>=6.0.0,<8``
+   :depends on pyahocorasick: ``>=2.2.0,<3``
+   :depends on python: ``>=3.13,<3.14.0a0``
+   :depends on python_abi: ``3.13.* *_cp313``
+   :depends on pyyaml: ``>=6.0.3,<7``
+   :depends on rnastructure: ``>=6.6,<7``
+   :depends on samtools: ``>=1.24,<2``
+   :depends on scipy: ``>=1.13.0,<2``
+   :depends on seqkit: ``>=2.13.0,<3``
+   :depends on tqdm: ``>=4.70.0,<5``
+   :depends on viennarna: ``>=2.7.2,<3``
 
    :additional platforms:
       
@@ -142,7 +146,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "seismic-rna";
-      var versions = ["0.25.3","0.24.4","0.24.3","0.24.2","0.24.1"];
+      var versions = ["0.26.0","0.25.3","0.24.4","0.24.3","0.24.2"];
    </script>
 
 .. rubric:: Download stats
