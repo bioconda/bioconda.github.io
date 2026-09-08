@@ -42,13 +42,13 @@ proteomiqon-labeledproteinquantification
       
       
 
-      ``0.0.3-1``,  ``0.0.1-1``,  ``0.0.1-0``
+      ``0.0.5-0``,  ``0.0.3-1``,  ``0.0.1-1``,  ``0.0.1-0``
 
       
 
    
-   :depends on dotnet-runtime: ``5.0.*``
-   :depends on openssl: ``1.1.*``
+   :depends on dotnet-runtime: ``>=10.0,<11.0``
+   :depends on zlib: 
 
    :additional platforms:
       
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "proteomiqon-labeledproteinquantification";
-      var versions = ["0.0.3","0.0.1","0.0.1"];
+      var versions = ["0.0.5","0.0.3","0.0.1","0.0.1"];
    </script>
 
 .. rubric:: Download stats

@@ -10,14 +10,17 @@ gfviewer
    :replaces_section_title:
    :noindex:
 
-   A bioinformatics tool for visualizing the localization of multi\-gene families across the genome of a given organism.
+   Visualize and quantify the localization of multigene families across chromosomes.
 
    :homepage: https://github.com/sakshar/GFViewer
    :license: MIT
    :recipe: /`gfviewer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gfviewer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gfviewer/meta.yaml>`_
 
-   This tool is designed for processing genomic data\, visualizing chromosomes\,
-   and localizing multi\-gene families using Biopython and Matplotlib.
+   GFViewer draws round\-capped chromosome ideograms with each gene family in
+   its own colour and computes localization statistics \(sub\-telomeric bias\,
+   tandem arrays\, 1\-D Ripley\'s K\/L\, chromosome enrichment\, multigene\-family
+   hotspots\, family\-proximity clustering\, ...\). Reads annotation tables\, BED\,
+   GFF3 and GTF. Provides the \`gfviewer\` command\-line tool.
 
 
 
@@ -29,17 +32,20 @@ gfviewer
       
       
 
-      ``2.0.2-0``,  ``1.0.4-0``
+      ``2.0.3-0``,  ``2.0.2-0``,  ``1.0.4-0``
 
       
 
    
    :depends on biopython: 
    :depends on matplotlib-base: 
+   :depends on numpy: 
    :depends on openpyxl: 
    :depends on pandas: 
+   :depends on pillow: 
    :depends on pypdf2: 
    :depends on python: ``>=3.8,<3.13``
+   :depends on pyyaml: 
    :depends on reportlab: 
 
    :additional platforms:
@@ -115,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "gfviewer";
-      var versions = ["2.0.2","1.0.4"];
+      var versions = ["2.0.3","2.0.2","1.0.4"];
    </script>
 
 .. rubric:: Download stats

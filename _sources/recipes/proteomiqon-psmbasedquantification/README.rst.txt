@@ -38,13 +38,13 @@ proteomiqon-psmbasedquantification
       
       
 
-      ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.5-0``,  ``0.0.4-0``
+      ``0.0.12-0``,  ``0.0.9-0``,  ``0.0.8-0``,  ``0.0.7-0``,  ``0.0.5-0``,  ``0.0.4-0``
 
       
 
    
-   :depends on dotnet-runtime: ``5.0.*``
-   :depends on openssl: ``1.1.*``
+   :depends on dotnet-runtime: ``>=10.0,<11.0``
+   :depends on zlib: 
 
    :additional platforms:
       
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "proteomiqon-psmbasedquantification";
-      var versions = ["0.0.9","0.0.8","0.0.7","0.0.5","0.0.4"];
+      var versions = ["0.0.12","0.0.9","0.0.8","0.0.7","0.0.5"];
    </script>
 
 .. rubric:: Download stats

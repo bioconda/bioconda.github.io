@@ -29,10 +29,10 @@ pyabpoa
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.5.6-0</code>,  <code>1.5.5-0</code>,  <code>1.5.4-0</code>,  <code>1.5.3-1</code>,  <code>1.5.3-0</code>,  <code>1.5.2-1</code>,  <code>1.5.2-0</code>,  <code>1.5.1-2</code>,  <code>1.5.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.7-0</code>,  <code>1.5.6-0</code>,  <code>1.5.5-0</code>,  <code>1.5.4-0</code>,  <code>1.5.3-1</code>,  <code>1.5.3-0</code>,  <code>1.5.2-1</code>,  <code>1.5.2-0</code>,  <code>1.5.1-2</code>,  </span></summary>
       
 
-      ``1.5.6-0``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-1``,  ``1.5.3-0``,  ``1.5.2-1``,  ``1.5.2-0``,  ``1.5.1-2``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
+      ``1.5.7-0``,  ``1.5.6-0``,  ``1.5.5-0``,  ``1.5.4-0``,  ``1.5.3-1``,  ``1.5.3-0``,  ``1.5.2-1``,  ``1.5.2-0``,  ``1.5.1-2``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.2-0``,  ``1.4.1-0``,  ``1.4.0-2``,  ``1.4.0-1``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -41,7 +41,8 @@ pyabpoa
       
 
    
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on __osx: ``>=10.13``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
 
@@ -122,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pyabpoa";
-      var versions = ["1.5.6","1.5.5","1.5.4","1.5.3","1.5.3"];
+      var versions = ["1.5.7","1.5.6","1.5.5","1.5.4","1.5.3"];
    </script>
 
 .. rubric:: Download stats

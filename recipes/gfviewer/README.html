@@ -472,7 +472,7 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">gfviewer</span></span></dt>
-<dd><p>A bioinformatics tool for visualizing the localization of multi-gene families across the genome of a given organism.</p>
+<dd><p>Visualize and quantify the localization of multigene families across chromosomes.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="github reference external" href="https://github.com/sakshar/GFViewer">sakshar/GFViewer</a></p>
@@ -484,8 +484,11 @@
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gfviewer">gfviewer</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gfviewer/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>This tool is designed for processing genomic data, visualizing chromosomes,
-and localizing multi-gene families using Biopython and Matplotlib.</p>
+<p>GFViewer draws round-capped chromosome ideograms with each gene family in
+its own colour and computes localization statistics (sub-telomeric bias,
+tandem arrays, 1-D Ripley's K/L, chromosome enrichment, multigene-family
+hotspots, family-proximity clustering, …). Reads annotation tables, BED,
+GFF3 and GTF. Provides the `gfviewer` command-line tool.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -494,16 +497,19 @@ and localizing multi-gene families using Biopython and Matplotlib.</p>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/gfviewer"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/gfviewer.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/gfviewer"><img alt="docker_gfviewer" src="https://quay.io/repository/biocontainers/gfviewer/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.4-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.0.3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.0.2-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.4-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">biopython</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">matplotlib-base</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">numpy</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">openpyxl</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pandas</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pillow</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pypdf2</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=3.8,&lt;3.13</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pyyaml</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">reportlab</span></code></span></p></li>
 </ul>
 </dd>
@@ -563,7 +569,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "gfviewer";
-   var versions = ["2.0.2","1.0.4"];
+   var versions = ["2.0.3","2.0.2","1.0.4"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_gfviewer"></div>
 <div style="width: 100%" id="platform_plot_gfviewer"></div>

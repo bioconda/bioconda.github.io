@@ -28,13 +28,13 @@ krepp
       
       
 
-      ``0.8.2-0``,  ``0.8.0-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.0-0``,  ``0.5.1-0``
+      ``0.9.1-0``,  ``0.8.2-0``,  ``0.8.0-0``,  ``0.7.2-0``,  ``0.7.1-0``,  ``0.6.0-0``,  ``0.5.1-0``
 
       
 
    
    :depends on __osx: ``>=10.13``
-   :depends on libcurl: ``>=8.20.0,<9.0a0``
+   :depends on libcurl: ``>=8.22.0,<9.0a0``
    :depends on libcxx: ``>=19``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on llvm-openmp: ``>=19.1.7``
@@ -116,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "krepp";
-      var versions = ["0.8.2","0.8.0","0.7.2","0.7.1","0.6.0"];
+      var versions = ["0.9.1","0.8.2","0.8.0","0.7.2","0.7.1"];
    </script>
 
 .. rubric:: Download stats
