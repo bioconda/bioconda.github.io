@@ -12,7 +12,7 @@ bioconductor-anndatar
 
    AnnData interoperability in R
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/anndataR.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/anndataR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-anndatar <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anndatar>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anndatar/meta.yaml>`_
 
@@ -27,7 +27,7 @@ bioconductor-anndatar
       
       
 
-      ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.2.1-0``,  ``1.0.2-0``,  ``1.0.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
 
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-anndatar";
-      var versions = ["1.0.2","1.0.1","1.0.0","1.0.0"];
+      var versions = ["1.2.1","1.0.2","1.0.1","1.0.0","1.0.0"];
    </script>
 
 .. rubric:: Download stats

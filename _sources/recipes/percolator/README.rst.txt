@@ -43,7 +43,6 @@ percolator
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on libboost: ``>=1.86.0,<1.87.0a0``
    :depends on libgcc: ``>=14``

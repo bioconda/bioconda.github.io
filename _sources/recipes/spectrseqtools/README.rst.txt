@@ -10,9 +10,7 @@ spectrseqtools
    :replaces_section_title:
    :noindex:
 
-   SpectrSeqTools is a fully automatic analysis platform for sequencing small RNA molecules including
-   post translational modifications measured via LC\-MS\/MS data.
-
+   Tools for sequencing small RNA molecules including post\-translational modifications via LC\-MS\/MS
 
    :homepage: https://github.com/spectrseq/spectrseqtools
    :license: GPL-3.0-only
@@ -29,14 +27,16 @@ spectrseqtools
       
       
 
-      ``0.1.3-0``,  ``0.1.2-0``
+      ``0.3.0-0``,  ``0.1.3-0``,  ``0.1.2-0``
 
       
 
    
+   :depends on __osx: ``>=10.13``
    :depends on altair: ``>=5.4.1,<6.0``
    :depends on clr_loader: ``>=0.2.7.post0,<0.3``
    :depends on dbscan1d: ``>=0.2.3,<0.3``
+   :depends on ddargparse: ``>=1.0.1,<1.1``
    :depends on loguru: ``>=0.7.2,<0.8``
    :depends on mono: ``>=6.12.0.199,<7``
    :depends on ms_deisotope: ``>=0.0.60,<0.1``
@@ -44,7 +44,8 @@ spectrseqtools
    :depends on platformdirs: ``>=4.3.8,<5.0``
    :depends on polars: ``>=1.9.0,<2.0``
    :depends on pulp: ``>=2.3.0,<3.0``
-   :depends on python: ``>=3.12,<3.14``
+   :depends on python: ``>=3.13,<3.14.0a0``
+   :depends on python_abi: ``3.13.* *_cp313``
    :depends on pythonnet: ``>=3.0.5,<4.0``
    :depends on pyyaml: ``>=6.0.2,<7.0``
    :depends on scikit-learn: ``>=1.7.2,<2.0``
@@ -124,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "spectrseqtools";
-      var versions = ["0.1.3","0.1.2"];
+      var versions = ["0.3.0","0.1.3","0.1.2"];
    </script>
 
 .. rubric:: Download stats
