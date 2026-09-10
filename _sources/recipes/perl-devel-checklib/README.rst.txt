@@ -33,7 +33,7 @@ perl-devel-checklib
       
 
    
-   :depends on clang_osx-64: ``18.*``
+   :depends on clang_osx-arm64: ``18.*``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
 
    :additional platforms:

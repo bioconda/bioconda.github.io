@@ -45,7 +45,7 @@ fastp
    
    :depends on isa-l: ``>=2.31.1,<3.0a0``
    :depends on libcxx: ``>=19``
-   :depends on libdeflate: ``>=1.25,<1.27.0a0``
+   :depends on libdeflate: ``>=1.25,<1.26.0a0``
    :depends on libhwy: ``>=1.3.0,<1.4.0a0``
 
    :additional platforms:

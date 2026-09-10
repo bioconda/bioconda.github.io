@@ -43,6 +43,7 @@ biobambam
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on gmp: ``>=6.3.0,<7.0a0``
    :depends on libgcc: ``>=14``
    :depends on libmaus2: ``>=2.0.813``

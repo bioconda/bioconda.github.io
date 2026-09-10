@@ -40,7 +40,7 @@ disco
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on bbmap: 
    :depends on biopython: 
    :depends on libcxx: ``>=19``

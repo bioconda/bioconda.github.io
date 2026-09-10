@@ -28,9 +28,17 @@ scatrans
    :versions:
       
       
+      .. raw:: html
 
-      ``0.10.17-0``,  ``0.10.16-0``,  ``0.10.13-0``,  ``0.10.10-0``,  ``0.10.9-0``,  ``0.10.8-0``,  ``0.10.5-0``,  ``0.10.3-0``,  ``0.10.2-0``
+         <details><summary><span class="truncated-version-list"><code>0.10.18-0</code>,  <code>0.10.17-0</code>,  <code>0.10.16-0</code>,  <code>0.10.13-0</code>,  <code>0.10.10-0</code>,  <code>0.10.9-0</code>,  <code>0.10.8-0</code>,  <code>0.10.5-0</code>,  <code>0.10.3-0</code>,  </span></summary>
+      
 
+      ``0.10.18-0``,  ``0.10.17-0``,  ``0.10.16-0``,  ``0.10.13-0``,  ``0.10.10-0``,  ``0.10.9-0``,  ``0.10.8-0``,  ``0.10.5-0``,  ``0.10.3-0``,  ``0.10.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -121,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "scatrans";
-      var versions = ["0.10.17","0.10.16","0.10.13","0.10.10","0.10.9"];
+      var versions = ["0.10.18","0.10.17","0.10.16","0.10.13","0.10.10"];
    </script>
 
 .. rubric:: Download stats

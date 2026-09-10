@@ -52,7 +52,6 @@ dfast
    :depends on hmmer: ``>=3.1b2``
    :depends on libcxx: ``>=19``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
-   :depends on metagene_annotator: ``>=1.0``
    :depends on openjdk: 
    :depends on plasmidfinder: ``>=2.1.6``
    :depends on python: ``>=3.7``

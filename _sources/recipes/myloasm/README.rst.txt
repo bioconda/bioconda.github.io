@@ -29,7 +29,7 @@ myloasm
       
       
 
-      ``0.6.0-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
+      ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.1-1``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``
 
       
 
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "myloasm";
-      var versions = ["0.6.0","0.5.1","0.5.1","0.5.0","0.4.0"];
+      var versions = ["0.7.0","0.6.0","0.5.1","0.5.1","0.5.0"];
    </script>
 
 .. rubric:: Download stats

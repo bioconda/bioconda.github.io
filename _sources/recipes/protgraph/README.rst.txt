@@ -28,10 +28,10 @@ protgraph
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.3.12-0</code>,  <code>0.3.11-0</code>,  <code>0.3.10-0</code>,  <code>0.3.9-0</code>,  <code>0.3.8-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.3.13-0</code>,  <code>0.3.12-0</code>,  <code>0.3.11-0</code>,  <code>0.3.10-0</code>,  <code>0.3.9-0</code>,  <code>0.3.8-0</code>,  <code>0.3.4-0</code>,  <code>0.3.3-0</code>,  <code>0.3.1-0</code>,  </span></summary>
       
 
-      ``0.3.12-0``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.0-0``,  ``0.0.2b3-0``
+      ``0.3.13-0``,  ``0.3.12-0``,  ``0.3.11-0``,  ``0.3.10-0``,  ``0.3.9-0``,  ``0.3.8-0``,  ``0.3.4-0``,  ``0.3.3-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.0-0``,  ``0.0.2b3-0``
 
       
       .. raw:: html
@@ -130,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "protgraph";
-      var versions = ["0.3.12","0.3.11","0.3.10","0.3.9","0.3.8"];
+      var versions = ["0.3.13","0.3.12","0.3.11","0.3.10","0.3.9"];
    </script>
 
 .. rubric:: Download stats

@@ -32,7 +32,7 @@ bioconductor-pwalign
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
    :depends on bioconductor-biostrings: ``>=2.78.0,<2.79.0``
