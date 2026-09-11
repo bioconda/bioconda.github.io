@@ -33,7 +33,7 @@ poseidon-xerxes
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on ca-certificates: 
    :depends on gmp: ``>=6.3.0,<7.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``

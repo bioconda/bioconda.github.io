@@ -42,7 +42,7 @@ perl-inline-c
       
 
    
-   :depends on clang_osx-arm64: ``18.*``
+   :depends on clang_osx-64: ``18.*``
    :depends on make: 
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-autodie: ``>=2.37,<3.0a0``

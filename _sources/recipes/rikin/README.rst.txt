@@ -10,16 +10,19 @@ rikin
    :replaces_section_title:
    :noindex:
 
-   Fast computation of RNA\-RNA interaction kinetics
+   Computation of full RNA\-RNA interaction kinetics
 
    :homepage: https://github.com/s-will/rikin
    :license: AGPL / AGPL-3.0-or-later
    :recipe: /`rikin <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rikin>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rikin/meta.yaml>`_
 
-   RNAInterKin \(RIKin\) implements tools for the fast computation of RNA\-RNA
-   interaction kinetics in a detailed RNAup\/IntaRNA\-inspired interaction
-   model\, based on RNA secondary structure and the full Turner nearest\-
-   neighbor energy model.
+   RNAInterKin \(RIKin\) solves\, for a pair of input RNAs\, their full
+   RNA\-RNA interaction kinetics process in a detailed
+   RNAup\/IntaRNA\-inspired interaction model. This calculation is based on
+   the full Turner nearest\- neighbor energy model for RNA secondary
+   structures.  The tool handles biologically relevant RNA interaction
+   pairs. For example\, the interaction process of the 5\'UTR of mRNAs with
+   regulatory RNAs is solved within minutes on a single notebook CPU.
 
 
 
@@ -31,12 +34,12 @@ rikin
       
       
 
-      ``0.9.8-0``,  ``0.9.7-0``,  ``0.9.6-0``,  ``0.9.5-0``
+      ``0.9.9-0``,  ``0.9.8-0``,  ``0.9.7-0``,  ``0.9.6-0``,  ``0.9.5-0``
 
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on libcxx: ``>=19``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on llvm-openmp: ``>=19.1.7``
@@ -127,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "rikin";
-      var versions = ["0.9.8","0.9.7","0.9.6","0.9.5"];
+      var versions = ["0.9.9","0.9.8","0.9.7","0.9.6","0.9.5"];
    </script>
 
 .. rubric:: Download stats

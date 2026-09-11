@@ -52,6 +52,7 @@ ucsc-checkagpandfa
    :depends on libpng: ``>=1.6.49,<1.7.0a0``
    :depends on libuuid: ``>=2.38.1,<3.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on mysql-connector-c: ``>=6.1.11,<6.1.12.0a0``
 
    :additional platforms:
       

@@ -41,7 +41,7 @@ bioconductor-rgraphviz
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on bioconductor-graph: ``>=1.88.0,<1.89.0``
    :depends on bioconductor-graph: ``>=1.88.1,<1.89.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``

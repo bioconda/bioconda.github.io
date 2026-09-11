@@ -59,7 +59,7 @@ r-azimuth
    :depends on r-rlang: ``>=0.4.8``
    :depends on r-scales: ``>=1.1.1``
    :depends on r-seurat: ``>=5.0.0``
-   :depends on r-seurat-data: ``>=0.2.1,<0.3.0a0``
+   :depends on r-seurat-data: ``>=0.2.2.9002,<0.3.0a0``
    :depends on r-seurat-disk: ``>=0.0.0.9021,<0.0.1.0a0``
    :depends on r-seuratobject: ``>=5.0.0``
    :depends on r-shiny: ``>=1.5.0``

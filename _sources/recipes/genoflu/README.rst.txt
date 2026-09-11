@@ -27,7 +27,7 @@ genoflu
       
       
 
-      ``1.07-0``,  ``1.06-0``,  ``1.05-0``,  ``1.04-0``,  ``1.03-0``,  ``1.02-0``,  ``1.01-0``,  ``1.0-0``
+      ``1.08-0``,  ``1.07-0``,  ``1.06-0``,  ``1.05-0``,  ``1.04-0``,  ``1.03-0``,  ``1.02-0``,  ``1.01-0``,  ``1.0-0``
 
       
 
@@ -111,7 +111,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "genoflu";
-      var versions = ["1.07","1.06","1.05","1.04","1.03"];
+      var versions = ["1.08","1.07","1.06","1.05","1.04"];
    </script>
 
 .. rubric:: Download stats

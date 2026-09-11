@@ -29,7 +29,7 @@ txnova
       
       
 
-      ``0.1.10-0``,  ``0.1.9-0``
+      ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``
 
       
 
@@ -124,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "txnova";
-      var versions = ["0.1.10","0.1.9"];
+      var versions = ["0.1.11","0.1.10","0.1.9"];
    </script>
 
 .. rubric:: Download stats

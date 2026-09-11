@@ -27,7 +27,7 @@ readzor
       
       
 
-      ``0.1.20-0``
+      ``0.1.22-0``,  ``0.1.20-0``
 
       
 
@@ -109,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "readzor";
-      var versions = ["0.1.20"];
+      var versions = ["0.1.22","0.1.20"];
    </script>
 
 .. rubric:: Download stats

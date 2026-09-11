@@ -27,7 +27,7 @@ pypolca
       
       
 
-      ``0.4.0-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``
+      ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.1-1``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.1-0``
 
       
 
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "pypolca";
-      var versions = ["0.4.0","0.3.1","0.3.1","0.3.0","0.2.1"];
+      var versions = ["0.5.0","0.4.0","0.3.1","0.3.1","0.3.0"];
    </script>
 
 .. rubric:: Download stats

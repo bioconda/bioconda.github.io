@@ -40,7 +40,7 @@ mageck
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on bioconductor-depmap: ``1.24.0.*``
    :depends on ipython: 
    :depends on libcxx: ``>=19``

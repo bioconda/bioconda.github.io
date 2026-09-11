@@ -472,7 +472,7 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">rikin</span></span></dt>
-<dd><p>Fast computation of RNA-RNA interaction kinetics</p>
+<dd><p>Computation of full RNA-RNA interaction kinetics</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="github reference external" href="https://github.com/s-will/rikin">s-will/rikin</a></p>
@@ -484,10 +484,13 @@
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rikin">rikin</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rikin/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>RNAInterKin (RIKin) implements tools for the fast computation of RNA-RNA
-interaction kinetics in a detailed RNAup/IntaRNA-inspired interaction
-model, based on RNA secondary structure and the full Turner nearest-
-neighbor energy model.</p>
+<p>RNAInterKin (RIKin) solves, for a pair of input RNAs, their full
+RNA-RNA interaction kinetics process in a detailed
+RNAup/IntaRNA-inspired interaction model. This calculation is based on
+the full Turner nearest- neighbor energy model for RNA secondary
+structures.  The tool handles biologically relevant RNA interaction
+pairs. For example, the interaction process of the 5'UTR of mRNAs with
+regulatory RNAs is solved within minutes on a single notebook CPU.</p>
 </dd></dl>
 
 <dl class="conda package">
@@ -496,11 +499,11 @@ neighbor energy model.</p>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/rikin"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/rikin.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/rikin"><img alt="docker_rikin" src="https://quay.io/repository/biocontainers/rikin/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.9.8-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.7-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.5-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.9.9-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.8-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.7-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.9.5-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">__osx</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=11.0</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">__osx</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=10.13</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libcxx</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=19</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libzlib</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.3.2,&lt;2.0a0</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">llvm-openmp</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=19.1.7</span></code></p></li>
@@ -571,7 +574,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "rikin";
-   var versions = ["0.9.8","0.9.7","0.9.6","0.9.5"];
+   var versions = ["0.9.9","0.9.8","0.9.7","0.9.6","0.9.5"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_rikin"></div>
 <div style="width: 100%" id="platform_plot_rikin"></div>

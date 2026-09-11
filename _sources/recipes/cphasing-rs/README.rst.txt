@@ -29,12 +29,11 @@ cphasing-rs
       
       
 
-      ``0.3.0-0``
+      ``0.3.4-0``,  ``0.3.0-0``
 
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libgcc: ``>=14``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
 
@@ -115,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cphasing-rs";
-      var versions = ["0.3.0"];
+      var versions = ["0.3.4","0.3.0"];
    </script>
 
 .. rubric:: Download stats

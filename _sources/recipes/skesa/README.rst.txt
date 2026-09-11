@@ -43,9 +43,9 @@ skesa
       
 
    
-   :depends on boost-cpp: 
+   :depends on boost-cpp: ``>=1.70,<1.72``
    :depends on libcxx: ``>=18``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libzlib: ``>=1.2.13,<2.0a0``
    :depends on zlib: 
 
    :additional platforms:

@@ -42,7 +42,7 @@ seismic-rna
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on bowtie2: ``>=2.5.5,<3``
    :depends on brotli-python: ``>=1.2.0,<2``
    :depends on click: ``>=8.4.2,<9``

@@ -30,10 +30,10 @@ yame
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.40-0</code>,  <code>1.37-0</code>,  <code>1.36-0</code>,  <code>1.35-0</code>,  <code>1.33-0</code>,  <code>1.32-0</code>,  <code>1.29-0</code>,  <code>1.10-0</code>,  <code>1.8-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.41-0</code>,  <code>1.40-0</code>,  <code>1.37-0</code>,  <code>1.36-0</code>,  <code>1.35-0</code>,  <code>1.33-0</code>,  <code>1.32-0</code>,  <code>1.29-0</code>,  <code>1.10-0</code>,  </span></summary>
       
 
-      ``1.40-0``,  ``1.37-0``,  ``1.36-0``,  ``1.35-0``,  ``1.33-0``,  ``1.32-0``,  ``1.29-0``,  ``1.10-0``,  ``1.8-0``,  ``1.0.5-0``,  ``1.0.4-0``
+      ``1.41-0``,  ``1.40-0``,  ``1.37-0``,  ``1.36-0``,  ``1.35-0``,  ``1.33-0``,  ``1.32-0``,  ``1.29-0``,  ``1.10-0``,  ``1.8-0``,  ``1.0.5-0``,  ``1.0.4-0``
 
       
       .. raw:: html
@@ -42,7 +42,7 @@ yame
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on libcurl: ``>=8.22.0,<9.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
 
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "yame";
-      var versions = ["1.40","1.37","1.36","1.35","1.33"];
+      var versions = ["1.41","1.40","1.37","1.36","1.35"];
    </script>
 
 .. rubric:: Download stats

@@ -35,10 +35,10 @@ comparem2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.1-0</code>,  <code>3.0.0-0</code>,  <code>2.16.2-0</code>,  <code>2.16.1-0</code>,  <code>2.15.3-0</code>,  <code>2.15.2-0</code>,  <code>2.15.1-0</code>,  <code>2.14.1-0</code>,  <code>2.13.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.3.0-0</code>,  <code>3.2.1-0</code>,  <code>3.0.0-0</code>,  <code>2.16.2-0</code>,  <code>2.16.1-0</code>,  <code>2.15.3-0</code>,  <code>2.15.2-0</code>,  <code>2.15.1-0</code>,  <code>2.14.1-0</code>,  </span></summary>
       
 
-      ``3.2.1-0``,  ``3.0.0-0``,  ``2.16.2-0``,  ``2.16.1-0``,  ``2.15.3-0``,  ``2.15.2-0``,  ``2.15.1-0``,  ``2.14.1-0``,  ``2.13.1-0``,  ``2.12.1-0``,  ``2.11.2-1``,  ``2.11.2-0``,  ``2.11.1-0``,  ``2.10.1-0``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.8.2-0``,  ``2.8.1-0``
+      ``3.3.0-0``,  ``3.2.1-0``,  ``3.0.0-0``,  ``2.16.2-0``,  ``2.16.1-0``,  ``2.15.3-0``,  ``2.15.2-0``,  ``2.15.1-0``,  ``2.14.1-0``,  ``2.13.1-0``,  ``2.12.1-0``,  ``2.11.2-1``,  ``2.11.2-0``,  ``2.11.1-0``,  ``2.10.1-0``,  ``2.9.1-1``,  ``2.9.1-0``,  ``2.8.2-0``,  ``2.8.1-0``
 
       
       .. raw:: html
@@ -127,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "comparem2";
-      var versions = ["3.2.1","3.0.0","2.16.2","2.16.1","2.15.3"];
+      var versions = ["3.3.0","3.2.1","3.0.0","2.16.2","2.16.1"];
    </script>
 
 .. rubric:: Download stats

@@ -32,7 +32,7 @@ r-roll
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on libcxx: ``>=19``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-rcpp: 
