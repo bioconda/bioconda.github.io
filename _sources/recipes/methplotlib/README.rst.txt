@@ -28,10 +28,10 @@ methplotlib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.23.1-0</code>,  <code>0.21.2-0</code>,  <code>0.20.1-0</code>,  <code>0.20.0-0</code>,  <code>0.19.0-0</code>,  <code>0.18.1-0</code>,  <code>0.17.0-0</code>,  <code>0.14.1-0</code>,  <code>0.14.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.23.2-0</code>,  <code>0.23.1-0</code>,  <code>0.21.2-0</code>,  <code>0.20.1-0</code>,  <code>0.20.0-0</code>,  <code>0.19.0-0</code>,  <code>0.18.1-0</code>,  <code>0.17.0-0</code>,  <code>0.14.1-0</code>,  </span></summary>
       
 
-      ``0.23.1-0``,  ``0.21.2-0``,  ``0.20.1-0``,  ``0.20.0-0``,  ``0.19.0-0``,  ``0.18.1-0``,  ``0.17.0-0``,  ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.1-0``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.4.0-0``
+      ``0.23.2-0``,  ``0.23.1-0``,  ``0.21.2-0``,  ``0.20.1-0``,  ``0.20.0-0``,  ``0.19.0-0``,  ``0.18.1-0``,  ``0.17.0-0``,  ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.1-0``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.4.0-0``
 
       
       .. raw:: html
@@ -124,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "methplotlib";
-      var versions = ["0.23.1","0.21.2","0.20.1","0.20.0","0.19.0"];
+      var versions = ["0.23.2","0.23.1","0.21.2","0.20.1","0.20.0"];
    </script>
 
 .. rubric:: Download stats

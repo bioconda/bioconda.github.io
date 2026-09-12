@@ -37,7 +37,7 @@ hypo
    
    :depends on _openmp_mutex: ``>=4.5``
    :depends on htslib: ``>=1.10``
-   :depends on htslib: ``>=1.23.1,<1.24.0a0``
+   :depends on htslib: ``>=1.23.1,<1.25.0a0``
    :depends on kmc: ``>=3.0``
    :depends on kmc: ``>=3.2.4,<4.0a0``
    :depends on libgcc: ``>=14``

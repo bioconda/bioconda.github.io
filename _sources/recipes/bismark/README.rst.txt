@@ -46,6 +46,7 @@ bismark
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bowtie2: ``>=2.5.5``
    :depends on hisat2: 
    :depends on libgcc: ``>=14``

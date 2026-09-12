@@ -32,7 +32,7 @@ spectrseqtools
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on altair: ``>=5.4.1,<6.0``
    :depends on clr_loader: ``>=0.2.7.post0,<0.3``
    :depends on dbscan1d: ``>=0.2.3,<0.3``

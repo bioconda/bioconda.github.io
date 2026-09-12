@@ -40,7 +40,7 @@ bioconductor-flames
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-bambu: ``>=3.12.0,<3.13.0``
    :depends on bioconductor-bambu: ``>=3.12.1,<3.13.0a0``
    :depends on bioconductor-basilisk: ``>=1.22.0,<1.23.0``
@@ -96,11 +96,12 @@ bioconductor-flames
    :depends on glpk: ``>=5.0,<6.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on libcurl: ``>=8.21.0,<9.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on libgfortran: 
    :depends on libgfortran5: ``>=14.4.0``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libuv: 
    :depends on libxml2: 
    :depends on libxml2-16: ``>=2.15.3``

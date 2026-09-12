@@ -39,7 +39,8 @@ methylpy
    :depends on bowtie2: 
    :depends on cutadapt: ``>=1.9``
    :depends on gsl: ``>=2.7,<2.8.0a0``
-   :depends on libcxx: ``>=14``
+   :depends on libgcc-ng: ``>=12``
+   :depends on libstdcxx-ng: ``>=12``
    :depends on minimap2: 
    :depends on numpy: ``>=1.6.1``
    :depends on openjdk: 

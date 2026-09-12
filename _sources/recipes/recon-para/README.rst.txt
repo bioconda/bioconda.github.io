@@ -40,6 +40,7 @@ recon-para
 
    
    :depends on coreutils: 
+   :depends on libgcc: ``>=14``
    :depends on perl: 
 
    :additional platforms:

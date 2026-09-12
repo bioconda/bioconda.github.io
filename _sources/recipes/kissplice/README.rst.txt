@@ -40,11 +40,11 @@ kissplice
       
 
    
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on bcalm: ``>=2.2.3``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on llvm-openmp: ``>=19.1.7``
-   :depends on llvm-openmp: ``>=22.1.0``
    :depends on python: ``>=3.8``
 
    :additional platforms:

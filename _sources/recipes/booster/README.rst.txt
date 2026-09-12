@@ -32,8 +32,8 @@ booster
       
 
    
-   :depends on llvm-openmp: ``>=18.1.8``
-   :depends on llvm-openmp: ``>=19.1.5``
+   :depends on _openmp_mutex: ``>=4.5``
+   :depends on libgcc: ``>=13``
 
    :additional platforms:
       

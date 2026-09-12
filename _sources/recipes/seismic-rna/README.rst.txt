@@ -42,7 +42,7 @@ seismic-rna
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bowtie2: ``>=2.5.5,<3``
    :depends on brotli-python: ``>=1.2.0,<2``
    :depends on click: ``>=8.4.2,<9``
@@ -50,6 +50,7 @@ seismic-rna
    :depends on fastqsplitter: ``>=1.2.0,<2``
    :depends on jgo: ``>=3.1.0,<4``
    :depends on jinja2: ``>=3.1.6,<4``
+   :depends on libgcc: ``>=14``
    :depends on matplotlib-base: ``>=3.8,<3.11``
    :depends on maven: ``>=3.3.9``
    :depends on networkx: ``>=3.6.1,<4``

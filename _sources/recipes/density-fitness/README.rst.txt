@@ -38,10 +38,10 @@ density-fitness
       
 
    
-   :depends on __osx: ``>=13.3``
    :depends on libcifpp: ``>=9.0.5,<10.0a0``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
    :depends on libpdb-redo: ``>=3.3.1,<4.0a0``
+   :depends on libstdcxx: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
 
    :additional platforms:
