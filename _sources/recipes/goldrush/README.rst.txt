@@ -40,14 +40,13 @@ goldrush
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
    :depends on bc: 
    :depends on btllib: ``>=1.6.2``
-   :depends on btllib: ``>=1.7.5,<2.0a0``
+   :depends on btllib: ``>=1.7.3,<2.0a0``
    :depends on gperftools: 
+   :depends on libcxx: ``>=19``
    :depends on libdivsufsort: ``>=2.0.2,<2.1.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on make: 
    :depends on minimap2: ``>=2.17``
    :depends on ntlink: ``>=1.3.0``

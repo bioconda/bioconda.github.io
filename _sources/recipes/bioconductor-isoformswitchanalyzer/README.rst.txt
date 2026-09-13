@@ -41,7 +41,6 @@ bioconductor-isoformswitchanalyzer
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-biobase: ``>=2.64.0``
    :depends on bioconductor-biobase: ``>=2.70.0,<2.71.0a0``
    :depends on bioconductor-biocgenerics: ``>=0.50.0``

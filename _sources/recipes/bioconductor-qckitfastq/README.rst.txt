@@ -47,11 +47,8 @@ bioconductor-qckitfastq
    :depends on bioconductor-zlibbioc: ``>=1.52.0,<1.53.0``
    :depends on bioconductor-zlibbioc: ``>=1.52.0,<1.53.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libgcc: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.6.3,<6.0a0``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on r-base: ``>=4.4,<4.5.0a0``
    :depends on r-data.table: 
    :depends on r-dplyr: 

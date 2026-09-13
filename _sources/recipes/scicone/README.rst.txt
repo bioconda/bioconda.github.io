@@ -40,11 +40,11 @@ scicone
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on __osx: ``>=10.13``
    :depends on graphviz: 
    :depends on h5py: 
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on matplotlib-base: 
    :depends on nlopt: ``>=2.10.1,<2.11.0a0``
    :depends on numpy: 

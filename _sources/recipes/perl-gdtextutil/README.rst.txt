@@ -42,7 +42,7 @@ perl-gdtextutil
    
    :depends on libgcc: ``>=13``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends on perl-gd: 
+   :depends on perl-gd: ``>=2.83,<3.0a0``
 
    :additional platforms:
       

@@ -43,14 +43,11 @@ modifi
    :depends on biopython: 
    :depends on h5py: 
    :depends on joblib: 
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on matplotlib-base: 
    :depends on numpy: 
    :depends on openjdk: 
    :depends on pandas: 
-   :depends on pbmm2: 
-   :depends on pbtk: 
    :depends on psutil: 
    :depends on pysam: 
    :depends on pyyaml: 

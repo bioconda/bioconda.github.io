@@ -40,7 +40,6 @@ starseqr
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on gffread: 
    :depends on intervaltree_bio: 
    :depends on libgcc: ``>=14``

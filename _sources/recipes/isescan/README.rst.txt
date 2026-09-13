@@ -10,11 +10,12 @@ isescan
    :replaces_section_title:
    :noindex:
 
-   A python pipeline to identify IS \(Insertion Sequence\) elements in genome and metagenome 
+   A python pipeline to identify IS \(Insertion Sequence\) elements in genomes and metagenomes
 
    :homepage: https://github.com/xiezhq/ISEScan
-   :license: GNU General Public License
+   :license: APACHE / Apache-2.0
    :recipe: /`isescan <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isescan>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isescan/meta.yaml>`_
+   :links: doi: :doi:`10.1093/bioinformatics/btx433`
 
    
 
@@ -28,10 +29,10 @@ isescan
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.7.3-0</code>,  <code>1.7.2.3-4</code>,  <code>1.7.2.3-3</code>,  <code>1.7.2.3-2</code>,  <code>1.7.2.3-1</code>,  <code>1.7.2.3-0</code>,  <code>1.7.2.2.2-0</code>,  <code>1.7.2.2.1-0</code>,  <code>1.7.2.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7.3-1</code>,  <code>1.7.3-0</code>,  <code>1.7.2.3-4</code>,  <code>1.7.2.3-3</code>,  <code>1.7.2.3-2</code>,  <code>1.7.2.3-1</code>,  <code>1.7.2.3-0</code>,  <code>1.7.2.2.2-0</code>,  <code>1.7.2.2.1-0</code>,  </span></summary>
       
 
-      ``1.7.3-0``,  ``1.7.2.3-4``,  ``1.7.2.3-3``,  ``1.7.2.3-2``,  ``1.7.2.3-1``,  ``1.7.2.3-0``,  ``1.7.2.2.2-0``,  ``1.7.2.2.1-0``,  ``1.7.2.1-0``,  ``1.7.2-0``,  ``1.7.1-1``,  ``1.7.1-0``
+      ``1.7.3-1``,  ``1.7.3-0``,  ``1.7.2.3-4``,  ``1.7.2.3-3``,  ``1.7.2.3-2``,  ``1.7.2.3-1``,  ``1.7.2.3-0``,  ``1.7.2.2.2-0``,  ``1.7.2.2.1-0``,  ``1.7.2.1-0``,  ``1.7.2-0``,  ``1.7.1-1``,  ``1.7.1-0``
 
       
       .. raw:: html
@@ -40,17 +41,21 @@ isescan
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on biopython: ``>=1.62``
    :depends on blast: ``>=2.2.31``
    :depends on fastcluster: 
    :depends on fraggenescan: ``>=1.32``
    :depends on hmmer: ``>=3.1b2``
-   :depends on libgcc: ``>=13``
    :depends on numpy: ``>=1.8``
    :depends on python: ``>=3``
    :depends on scipy: ``>=0.13.1``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>osx-arm64</code></span>
       
 
 
@@ -123,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "isescan";
-      var versions = ["1.7.3","1.7.2.3","1.7.2.3","1.7.2.3","1.7.2.3"];
+      var versions = ["1.7.3","1.7.3","1.7.2.3","1.7.2.3","1.7.2.3"];
    </script>
 
 .. rubric:: Download stats

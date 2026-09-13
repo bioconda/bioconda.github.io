@@ -27,7 +27,7 @@ bofasa
       
       
 
-      ``1.2.0-0``
+      ``1.2.1-0``,  ``1.2.0-0``
 
       
 
@@ -39,6 +39,7 @@ bofasa
    :depends on fasttree: 
    :depends on genomad: 
    :depends on hmmer: 
+   :depends on legacy-cgi: 
    :depends on muscle: ``5.1.*``
    :depends on orthofinder: ``2.5.5.*``
    :depends on pandas: 
@@ -130,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bofasa";
-      var versions = ["1.2.0"];
+      var versions = ["1.2.1","1.2.0"];
    </script>
 
 .. rubric:: Download stats

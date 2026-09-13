@@ -43,7 +43,6 @@ bioconductor-logitt
    
    :depends on bioconductor-affy: ``>=1.78.0,<1.79.0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libgcc-ng: ``>=12``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on r-base: ``>=4.3,<4.4.0a0``
 

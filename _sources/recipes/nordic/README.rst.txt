@@ -35,7 +35,6 @@ nordic
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on clingo: ``>=5.6.1``
    :depends on cmappy: ``>=4.0.1``
    :depends on cmappy: ``>=4.0.1,<5.0a0``

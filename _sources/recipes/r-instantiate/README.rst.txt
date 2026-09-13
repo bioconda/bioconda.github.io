@@ -32,7 +32,6 @@ r-instantiate
       
 
    
-   :depends on libgcc: ``>=14``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-callr: 
    :depends on r-fs: 

@@ -35,7 +35,6 @@ obitools4
       
 
    
-   :depends on __glibc: ``>=2.17``
    :depends on libgcc: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
 

@@ -34,8 +34,7 @@ r-sew
    
    :depends on coreutils: 
    :depends on htslib: ``>=1.4``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on r-base: ``>=4.4,<4.5.0a0``
    :depends on r-data.table: ``>=1.11.8``
    :depends on r-rcpp: ``>=0.12.18``

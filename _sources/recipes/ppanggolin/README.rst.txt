@@ -43,7 +43,6 @@ ppanggolin
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on aragorn: ``1.*``
    :depends on bokeh: ``>=3.0.0,<4.0.0``
    :depends on dataclasses: ``0.8.*``
