@@ -17,6 +17,7 @@ wepp
    
    :license: MIT / MIT
    :recipe: /`wepp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wepp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wepp/meta.yaml>`_
+   :links: doi: :doi:`10.1371/journal.pcbi.1014124`, biotools: :biotools:`wepp`
 
    WEPP \(Wastewater\-Based Epidemiology using Phylogenetic Placements\) is a pathogen\-agnostic pipeline that enhances wastewater surveillance by leveraging the pathogen\'s full phylogeny. It reports haplotype and lineage abundances\, maps reads parsimoniously to selected haplotypes\, and flags Unaccounted Alleles — those observed in the sample but unexplained by selected haplotypes\, potentially indicating novel variants.
    WEPP performs parsimonious read placement on the mutation\-annotated tree \(MAT\) to select a subset of haplotypes and adds their neighbors to form an initial candidate pool\, which is passed to a deconvolution algorithm to estimate their relative abundances. An interactive dashboard enables visualization of haplotypes in the global phylogenetic tree and read\-level analysis.
@@ -31,10 +32,10 @@ wepp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.1.5.9-0</code>,  <code>0.1.5.8-1</code>,  <code>0.1.5.8-0</code>,  <code>0.1.5.7-0</code>,  <code>0.1.5.6-0</code>,  <code>0.1.5.5-0</code>,  <code>0.1.5.4-0</code>,  <code>0.1.5.3-1</code>,  <code>0.1.5.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.1.6.1-0</code>,  <code>0.1.5.9-0</code>,  <code>0.1.5.8-1</code>,  <code>0.1.5.8-0</code>,  <code>0.1.5.7-0</code>,  <code>0.1.5.6-0</code>,  <code>0.1.5.5-0</code>,  <code>0.1.5.4-0</code>,  <code>0.1.5.3-1</code>,  </span></summary>
       
 
-      ``0.1.5.9-0``,  ``0.1.5.8-1``,  ``0.1.5.8-0``,  ``0.1.5.7-0``,  ``0.1.5.6-0``,  ``0.1.5.5-0``,  ``0.1.5.4-0``,  ``0.1.5.3-1``,  ``0.1.5.3-0``,  ``0.1.5.2-0``,  ``0.1.5.1-0``,  ``0.1.5-0``,  ``0.1.4.1-0``
+      ``0.1.6.1-0``,  ``0.1.5.9-0``,  ``0.1.5.8-1``,  ``0.1.5.8-0``,  ``0.1.5.7-0``,  ``0.1.5.6-0``,  ``0.1.5.5-0``,  ``0.1.5.4-0``,  ``0.1.5.3-1``,  ``0.1.5.3-0``,  ``0.1.5.2-0``,  ``0.1.5.1-0``,  ``0.1.5-0``,  ``0.1.4.1-0``
 
       
       .. raw:: html
@@ -43,14 +44,14 @@ wepp
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on aiohttp: 
    :depends on altair: 
    :depends on biopython: 
    :depends on boost: ``1.78.*``
    :depends on conda: ``>=24.7.1``
    :depends on jsoncpp: ``>=1.9.6,<1.9.7.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on mpich: ``>=4.3.1,<5.0a0``
    :depends on nodejs: ``>=16,<24``
    :depends on pandas: 
@@ -137,7 +138,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "wepp";
-      var versions = ["0.1.5.9","0.1.5.8","0.1.5.8","0.1.5.7","0.1.5.6"];
+      var versions = ["0.1.6.1","0.1.5.9","0.1.5.8","0.1.5.8","0.1.5.7"];
    </script>
 
 .. rubric:: Download stats

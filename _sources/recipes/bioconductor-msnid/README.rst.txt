@@ -29,10 +29,10 @@ bioconductor-msnid
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.44.0-0</code>,  <code>1.40.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.28.0-2</code>,  <code>1.28.0-1</code>,  <code>1.28.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.44.2-0</code>,  <code>1.44.0-0</code>,  <code>1.40.0-0</code>,  <code>1.36.0-0</code>,  <code>1.34.0-0</code>,  <code>1.32.0-1</code>,  <code>1.32.0-0</code>,  <code>1.28.0-2</code>,  <code>1.28.0-1</code>,  </span></summary>
       
 
-      ``1.44.0-0``,  ``1.40.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.28.0-2``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.1-0``,  ``1.12.1-0``
+      ``1.44.2-0``,  ``1.44.0-0``,  ``1.40.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.28.0-2``,  ``1.28.0-1``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.1-0``,  ``1.12.1-0``
 
       
       .. raw:: html
@@ -41,6 +41,7 @@ bioconductor-msnid
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
    :depends on bioconductor-annotationdbi: ``>=1.72.0,<1.73.0a0``
    :depends on bioconductor-annotationhub: ``>=4.0.0,<4.1.0``
@@ -64,10 +65,11 @@ bioconductor-msnid
    :depends on bioconductor-protgenerics: ``>=1.42.0,<1.43.0``
    :depends on bioconductor-protgenerics: ``>=1.42.0,<1.43.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-data.table: 
    :depends on r-doparallel: 
@@ -158,7 +160,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-msnid";
-      var versions = ["1.44.0","1.40.0","1.36.0","1.34.0","1.32.0"];
+      var versions = ["1.44.2","1.44.0","1.40.0","1.36.0","1.34.0"];
    </script>
 
 .. rubric:: Download stats

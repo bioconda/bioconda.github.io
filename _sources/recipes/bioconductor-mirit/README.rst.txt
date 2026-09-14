@@ -27,11 +27,48 @@ bioconductor-mirit
       
       
 
-      
+      ``1.6.2-0``
 
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
+   :depends on bioconductor-annotationdbi: ``>=1.72.0,<1.73.0a0``
+   :depends on bioconductor-biocfilecache: ``>=3.0.0,<3.1.0``
+   :depends on bioconductor-biocfilecache: ``>=3.0.0,<3.1.0a0``
+   :depends on bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
+   :depends on bioconductor-biocparallel: ``>=1.44.0,<1.45.0a0``
+   :depends on bioconductor-deseq2: ``>=1.50.0,<1.51.0``
+   :depends on bioconductor-deseq2: ``>=1.50.2,<1.51.0a0``
+   :depends on bioconductor-edger: ``>=4.8.0,<4.9.0``
+   :depends on bioconductor-edger: ``>=4.8.2,<4.9.0a0``
+   :depends on bioconductor-fgsea: ``>=1.36.0,<1.37.0``
+   :depends on bioconductor-fgsea: ``>=1.36.2,<1.37.0a0``
+   :depends on bioconductor-graph: ``>=1.88.0,<1.89.0``
+   :depends on bioconductor-graph: ``>=1.88.1,<1.89.0a0``
+   :depends on bioconductor-graphite: ``>=1.56.0,<1.57.0``
+   :depends on bioconductor-graphite: ``>=1.56.0,<1.57.0a0``
+   :depends on bioconductor-limma: ``>=3.66.0,<3.67.0``
+   :depends on bioconductor-limma: ``>=3.66.0,<3.67.0a0``
+   :depends on bioconductor-multiassayexperiment: ``>=1.36.0,<1.37.0``
+   :depends on bioconductor-multiassayexperiment: ``>=1.36.1,<1.37.0a0``
+   :depends on bioconductor-rgraphviz: ``>=2.54.0,<2.55.0``
+   :depends on bioconductor-rgraphviz: ``>=2.54.0,<2.55.0a0``
+   :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on liblapack: ``>=3.9.0,<4.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-genekitr: ``>=1.2.8,<1.3.0a0``
+   :depends on r-geneset: 
+   :depends on r-ggplot2: 
+   :depends on r-ggpubr: 
+   :depends on r-httr: 
+   :depends on r-rcpp: 
+   :depends on r-rlang: 
 
    :additional platforms:
       
@@ -106,7 +143,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-mirit";
-      var versions = [];
+      var versions = ["1.6.2"];
    </script>
 
 .. rubric:: Download stats

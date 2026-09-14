@@ -10,10 +10,10 @@ varpubs
    :replaces_section_title:
    :noindex:
 
-   Tool for finding PubMed evidence on genetic variants and generating LLM\-based summaries
+   Tool for finding PubMed evidence on genetic variants and generating LLM\-based summaries.
 
    :homepage: https://github.com/koesterlab/varpubs
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`varpubs <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/varpubs>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/varpubs/meta.yaml>`_
 
    
@@ -28,10 +28,10 @@ varpubs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  <code>1.1.1-0</code>,  <code>1.1.0-0</code>,  <code>1.0.0-1</code>,  <code>1.0.0-0</code>,  <code>0.5.0-0</code>,  </span></summary>
       
 
-      ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``1.5.0-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-1``,  ``1.0.0-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.2-0``,  ``0.2.1-0``,  ``0.2.0-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -41,15 +41,15 @@ varpubs
 
    
    :depends on cyvcf2: ``>=0.31.5``
-   :depends on duckdb: ``>=1.2.1,<2``
    :depends on duckdb-engine: ``>=0.15.0,<0.16``
    :depends on hgvs: ``>=1.5.6,<2``
    :depends on openai: ``>=1.97.0,<2``
-   :depends on pubgator: ``>=0.2``
+   :depends on pubgator: ``>=0.3,<0.4``
    :depends on python: ``>=3.11``
+   :depends on python-duckdb: ``>=1.2.1,<2``
    :depends on simple-parsing: 
    :depends on sqlalchemy: ``>=2.0.39,<3``
-   :depends on sqlmodel: ``>=0.0.24,<0.0.25``
+   :depends on sqlmodel: ``>=0.0.27``
    :depends on typed-argument-parser: ``>=1.10.1,<2``
 
    :additional platforms:
@@ -125,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "varpubs";
-      var versions = ["1.2.1","1.2.0","1.1.1","1.1.0","1.0.0"];
+      var versions = ["1.5.0","1.4.0","1.2.1","1.2.0","1.1.1"];
    </script>
 
 .. rubric:: Download stats

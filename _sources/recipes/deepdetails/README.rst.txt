@@ -29,7 +29,7 @@ deepdetails
       
       
 
-      ``1.0.0rc1-0``,  ``0.1.1rc1-0``,  ``0.0.1rc2-0``,  ``0.0.1rc1-0``
+      ``1.0.0rc2-0``,  ``1.0.0rc1-0``,  ``0.1.1rc1-0``,  ``0.0.1rc2-0``,  ``0.0.1rc1-0``
 
       
 
@@ -49,6 +49,7 @@ deepdetails
    :depends on pytorch-lightning: 
    :depends on scikit-learn: 
    :depends on scipy: ``>=1.11.1``
+   :depends on seaborn-base: 
    :depends on tensorboard: 
    :depends on torchmetrics: 
    :depends on tqdm: 
@@ -128,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "deepdetails";
-      var versions = ["1.0.0rc1","0.1.1rc1","0.0.1rc2","0.0.1rc1"];
+      var versions = ["1.0.0rc2","1.0.0rc1","0.1.1rc1","0.0.1rc2","0.0.1rc1"];
    </script>
 
 .. rubric:: Download stats

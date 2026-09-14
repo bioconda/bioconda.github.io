@@ -27,20 +27,20 @@ fastqtk
       
       
 
-      ``0.28-0``,  ``0.27-5``,  ``0.27-4``,  ``0.27-3``,  ``0.27-2``,  ``0.27-1``,  ``0.27-0``
+      ``0.30-0``,  ``0.28-0``,  ``0.27-5``,  ``0.27-4``,  ``0.27-3``,  ``0.27-2``,  ``0.27-1``,  ``0.27-0``
 
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on __osx: ``>=11.0``
+   :depends on libcxx: ``>=19``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -113,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "fastqtk";
-      var versions = ["0.28","0.27","0.27","0.27","0.27"];
+      var versions = ["0.30","0.28","0.27","0.27","0.27"];
    </script>
 
 .. rubric:: Download stats

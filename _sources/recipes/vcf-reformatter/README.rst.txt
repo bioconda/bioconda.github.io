@@ -33,13 +33,18 @@ vcf-reformatter
       
       
 
-      ``0.3.0-0``,  ``0.2.0-0``
+      ``0.7.5-0``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
 
    
+   :depends on __osx: ``>=11.0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -112,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "vcf-reformatter";
-      var versions = ["0.3.0","0.2.0"];
+      var versions = ["0.7.5","0.3.0","0.2.0"];
    </script>
 
 .. rubric:: Download stats

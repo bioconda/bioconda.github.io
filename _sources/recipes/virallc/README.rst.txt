@@ -27,14 +27,14 @@ virallc
       
       
 
-      ``1.1.5-0``
+      ``1.1.5-1``,  ``1.1.5-0``
 
       
 
    
    :depends on biopython: 
    :depends on blast: 
-   :depends on mafft: 
+   :depends on mafft: ``>=7.526``
    :depends on networkx: 
    :depends on nextclade: 
    :depends on pandas: 
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "virallc";
-      var versions = ["1.1.5"];
+      var versions = ["1.1.5","1.1.5"];
    </script>
 
 .. rubric:: Download stats

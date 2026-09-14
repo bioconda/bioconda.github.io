@@ -30,10 +30,10 @@ chopper
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.14.0-0</code>,  <code>0.13.0-0</code>,  <code>0.12.0-0</code>,  <code>0.12.0b-0</code>,  <code>0.11.0-0</code>,  <code>0.10.0-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  <code>0.9.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.14.1-0</code>,  <code>0.14.0-0</code>,  <code>0.13.0-0</code>,  <code>0.12.0-0</code>,  <code>0.12.0b-0</code>,  <code>0.11.0-0</code>,  <code>0.10.0-0</code>,  <code>0.9.2-0</code>,  <code>0.9.1-0</code>,  </span></summary>
       
 
-      ``0.14.0-0``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.12.0b-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``
+      ``0.14.1-0``,  ``0.14.0-0``,  ``0.13.0-0``,  ``0.12.0-0``,  ``0.12.0b-0``,  ``0.11.0-0``,  ``0.10.0-0``,  ``0.9.2-0``,  ``0.9.1-0``,  ``0.9.0-1``,  ``0.9.0-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.5.0-2``,  ``0.5.0-1``,  ``0.5.0-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``
 
       
       .. raw:: html
@@ -42,9 +42,9 @@ chopper
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on clang: 
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on zlib: 
 
@@ -125,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "chopper";
-      var versions = ["0.14.0","0.13.0","0.12.0","0.12.0b","0.11.0"];
+      var versions = ["0.14.1","0.14.0","0.13.0","0.12.0","0.12.0b"];
    </script>
 
 .. rubric:: Download stats

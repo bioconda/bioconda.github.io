@@ -35,7 +35,6 @@ barena
       
 
    
-   :depends on libgcc: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on pcre: ``>=8.45,<9.0a0``
 

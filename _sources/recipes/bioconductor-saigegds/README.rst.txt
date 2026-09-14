@@ -28,10 +28,10 @@ bioconductor-saigegds
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.10.0-0</code>,  <code>2.6.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.1-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.8.1-0</code>,  <code>1.8.0-1</code>,  <code>1.8.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.10.1-0</code>,  <code>2.10.0-0</code>,  <code>2.6.0-0</code>,  <code>2.2.0-0</code>,  <code>2.0.1-0</code>,  <code>1.12.0-1</code>,  <code>1.12.0-0</code>,  <code>1.8.1-0</code>,  <code>1.8.0-1</code>,  </span></summary>
       
 
-      ``2.10.0-0``,  ``2.6.0-0``,  ``2.2.0-0``,  ``2.0.1-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.8.1-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``2.10.1-0``,  ``2.10.0-0``,  ``2.6.0-0``,  ``2.2.0-0``,  ``2.0.1-0``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.8.1-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,15 +40,17 @@ bioconductor-saigegds
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-gdsfmt: ``>=1.46.0,<1.47.0``
    :depends on bioconductor-gdsfmt: ``>=1.46.0,<1.47.0a0``
    :depends on bioconductor-seqarray: ``>=1.50.0,<1.51.0``
    :depends on bioconductor-seqarray: ``>=1.50.1,<1.51.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-compquadform: 
    :depends on r-matrix: 
@@ -57,7 +59,7 @@ bioconductor-saigegds
    :depends on r-rcppparallel: ``>=5.0.0``
    :depends on r-skat: 
    :depends on r-survey: 
-   :depends on tbb-devel: ``>=2022.3.0,<2022.4.0a0``
+   :depends on tbb-devel: ``>=2023.0.0,<2023.1.0a0``
 
    :additional platforms:
       
@@ -132,7 +134,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-saigegds";
-      var versions = ["2.10.0","2.6.0","2.2.0","2.0.1","1.12.0"];
+      var versions = ["2.10.1","2.10.0","2.6.0","2.2.0","2.0.1"];
    </script>
 
 .. rubric:: Download stats

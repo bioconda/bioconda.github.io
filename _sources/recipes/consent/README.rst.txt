@@ -43,10 +43,8 @@ consent
       
 
    
-   :depends on libgcc: 
-   :depends on libgcc-ng: ``>=12``
-   :depends on libstdcxx: 
-   :depends on libstdcxx-ng: ``>=12``
+   :depends on coreutils: 
+   :depends on libcxx: ``>=16``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on minimap2: 
 

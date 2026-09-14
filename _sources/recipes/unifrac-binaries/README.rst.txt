@@ -34,10 +34,10 @@ unifrac-binaries
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6-0</code>,  <code>1.5.1-0</code>,  <code>1.5-0</code>,  <code>1.4-1</code>,  <code>1.4-0</code>,  <code>1.3.2-2</code>,  <code>1.3.2-0</code>,  <code>1.3.1-2</code>,  <code>1.3.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.7-0</code>,  <code>1.6-0</code>,  <code>1.5.1-0</code>,  <code>1.5-0</code>,  <code>1.4-1</code>,  <code>1.4-0</code>,  <code>1.3.2-2</code>,  <code>1.3.2-0</code>,  <code>1.3.1-2</code>,  </span></summary>
       
 
-      ``1.6-0``,  ``1.5.1-0``,  ``1.5-0``,  ``1.4-1``,  ``1.4-0``,  ``1.3.2-2``,  ``1.3.2-0``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2.1-0``,  ``1.2-1``,  ``1.2-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-4``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
+      ``1.7-0``,  ``1.6-0``,  ``1.5.1-0``,  ``1.5-0``,  ``1.4-1``,  ``1.4-0``,  ``1.3.2-2``,  ``1.3.2-0``,  ``1.3.1-2``,  ``1.3.1-1``,  ``1.3.1-0``,  ``1.3-0``,  ``1.2.1-0``,  ``1.2-1``,  ``1.2-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-4``,  ``1.1.1-3``,  ``1.1.1-2``,  ``1.1.1-1``,  ``1.1.1-0``,  ``1.1-0``,  ``1.0.0-1``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -46,11 +46,12 @@ unifrac-binaries
       
 
    
-   :depends on libaec: ``>=1.1.4,<2.0a0``
+   :depends on __osx: ``>=11.0``
+   :depends on libaec: ``>=1.1.5,<2.0a0``
    :depends on libcxx: ``>=20``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on llvm-openmp: ``>=20.1.8``
-   :depends on llvm-openmp: ``>=21.1.5``
+   :depends on llvm-openmp: ``>=23.1.1``
    :depends on lz4: 
    :depends on scikit-bio-binaries: 
    :depends on zlib: 
@@ -132,7 +133,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "unifrac-binaries";
-      var versions = ["1.6","1.5.1","1.5","1.4","1.4"];
+      var versions = ["1.7","1.6","1.5.1","1.5","1.4"];
    </script>
 
 .. rubric:: Download stats

@@ -40,9 +40,10 @@ r-conos
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-complexheatmap: ``>=2.26.1,<2.27.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on r-abind: 
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-cowplot: 

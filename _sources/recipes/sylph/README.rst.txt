@@ -13,7 +13,7 @@ sylph
    sylph quickly enables querying of genomes against even low\-coverage shotgun metagenomes to find nearest neighbour ANI.
 
    :homepage: https://github.com/bluenote-1577/sylph
-   :documentation: https://github.com/bluenote-1577/sylph/blob/v0.9.0/README.md
+   :documentation: https://github.com/bluenote-1577/sylph/blob/v1.0.0/README.md
    
    :license: MIT / MIT
    :recipe: /`sylph <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sylph>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sylph/meta.yaml>`_
@@ -31,10 +31,10 @@ sylph
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.9.0-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-2</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  <code>0.5.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>0.9.0-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-2</code>,  <code>0.7.0-1</code>,  <code>0.7.0-0</code>,  <code>0.6.1-0</code>,  <code>0.6.0-0</code>,  </span></summary>
       
 
-      ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-2``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``,  ``0.0.3-0``,  ``0.0.2-0``
+      ``1.0.0-0``,  ``0.9.0-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-2``,  ``0.7.0-1``,  ``0.7.0-0``,  ``0.6.1-0``,  ``0.6.0-0``,  ``0.5.1-0``,  ``0.5.0-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.0-0``,  ``0.0.3-0``,  ``0.0.2-0``
 
       
       .. raw:: html
@@ -43,8 +43,8 @@ sylph
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on __osx: ``>=11.0``
+   :depends on libcxx: ``>=19``
 
    :additional platforms:
       
@@ -123,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "sylph";
-      var versions = ["0.9.0","0.8.1","0.8.0","0.7.0","0.7.0"];
+      var versions = ["1.0.0","0.9.0","0.8.1","0.8.0","0.7.0"];
    </script>
 
 .. rubric:: Download stats

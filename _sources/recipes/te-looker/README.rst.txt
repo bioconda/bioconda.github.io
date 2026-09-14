@@ -35,8 +35,8 @@ te-looker
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on abpoa: 
-   :depends on libgcc: ``>=14``
    :depends on spoa: 
 
    :additional platforms:

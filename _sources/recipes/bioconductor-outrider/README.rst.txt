@@ -28,10 +28,10 @@ bioconductor-outrider
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.28.0-0</code>,  <code>1.26.3-0</code>,  <code>1.24.0-0</code>,  <code>1.20.1-0</code>,  <code>1.20.0-0</code>,  <code>1.18.1-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  <code>1.12.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.28.1-0</code>,  <code>1.28.0-0</code>,  <code>1.26.3-0</code>,  <code>1.24.0-0</code>,  <code>1.20.1-0</code>,  <code>1.20.0-0</code>,  <code>1.18.1-0</code>,  <code>1.16.0-1</code>,  <code>1.16.0-0</code>,  </span></summary>
       
 
-      ``1.28.0-0``,  ``1.26.3-0``,  ``1.24.0-0``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.12.0-2``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.2-0``,  ``1.0.1-0``
+      ``1.28.1-0``,  ``1.28.0-0``,  ``1.26.3-0``,  ``1.24.0-0``,  ``1.20.1-0``,  ``1.20.0-0``,  ``1.18.1-0``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.12.0-2``,  ``1.12.0-1``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-1``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.0.2-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -40,6 +40,7 @@ bioconductor-outrider
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
    :depends on bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
@@ -61,10 +62,11 @@ bioconductor-outrider
    :depends on bioconductor-txdbmaker: ``>=1.6.0,<1.7.0``
    :depends on bioconductor-txdbmaker: ``>=1.6.2,<1.7.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-bbmisc: 
    :depends on r-data.table: 
@@ -158,7 +160,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-outrider";
-      var versions = ["1.28.0","1.26.3","1.24.0","1.20.1","1.20.0"];
+      var versions = ["1.28.1","1.28.0","1.26.3","1.24.0","1.20.1"];
    </script>
 
 .. rubric:: Download stats

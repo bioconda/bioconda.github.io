@@ -33,10 +33,10 @@ mfold
       
 
    
-   :depends on libgcc: ``>=14``
+   :depends on __osx: ``>=11.0``
+   :depends on libcxx: ``>=19``
    :depends on libgfortran: 
    :depends on libgfortran5: ``>=14.3.0``
-   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
       

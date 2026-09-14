@@ -49,8 +49,9 @@ bioconductor-bprmeth
    :depends on bioconductor-s4vectors: ``>=0.44.0,<0.45.0``
    :depends on bioconductor-s4vectors: ``>=0.44.0,<0.45.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
+   :depends on libstdcxx: ``>=13``
    :depends on r-assertthat: 
    :depends on r-base: ``>=4.4,<4.5.0a0``
    :depends on r-cowplot: 

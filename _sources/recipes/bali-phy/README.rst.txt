@@ -12,8 +12,10 @@ bali-phy
 
    Bayesian co\-estimation of phylogenies and multiple sequence alignments.
 
-   :homepage: http://www.bali-phy.org
-   :developer docs: https://github.com/bredelings/BAli-Phy/
+   :homepage: https://www.bali-phy.org
+   :documentation: https://www.bali-phy.org/README.html
+   
+   :developer docs: https://github.com/bredelings/BAli-Phy
    :license: GPL / GPL-2.0-only
    :recipe: /`bali-phy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bali-phy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bali-phy/meta.yaml>`_
    :links: doi: :doi:`10.1093/bioinformatics/btab129`, biotools: :biotools:`bali-phy`
@@ -30,10 +32,10 @@ bali-phy
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>4.2-0</code>,  <code>4.1-0</code>,  <code>4.0-0</code>,  <code>4.0beta17-0</code>,  <code>4.0beta16-1</code>,  <code>4.0beta16-0</code>,  <code>4.0beta15-1</code>,  <code>4.0beta15-0</code>,  <code>4.0beta14-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.3-0</code>,  <code>4.2-0</code>,  <code>4.1-0</code>,  <code>4.0-0</code>,  <code>4.0beta17-0</code>,  <code>4.0beta16-1</code>,  <code>4.0beta16-0</code>,  <code>4.0beta15-1</code>,  <code>4.0beta15-0</code>,  </span></summary>
       
 
-      ``4.2-0``,  ``4.1-0``,  ``4.0-0``,  ``4.0beta17-0``,  ``4.0beta16-1``,  ``4.0beta16-0``,  ``4.0beta15-1``,  ``4.0beta15-0``,  ``4.0beta14-0``,  ``4.0beta13-0``,  ``3.6.0-2``,  ``3.6.0-1``,  ``3.6.0-0``
+      ``4.3-0``,  ``4.2-0``,  ``4.1-0``,  ``4.0-0``,  ``4.0beta17-0``,  ``4.0beta16-1``,  ``4.0beta16-0``,  ``4.0beta15-1``,  ``4.0beta15-0``,  ``4.0beta14-0``,  ``4.0beta13-0``,  ``3.6.0-2``,  ``3.6.0-1``,  ``3.6.0-0``
 
       
       .. raw:: html
@@ -42,17 +44,23 @@ bali-phy
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on cairo: ``>=1.18.4,<2.0a0``
-   :depends on fmt: ``>=12.1.0,<12.2.0a0``
+   :depends on fmt: ``>=12.2.0,<12.3.0a0``
    :depends on gnuplot: 
-   :depends on libboost: ``>=1.91.0,<1.92.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libglib: ``>=2.88.1,<3.0a0``
-   :depends on libstdcxx: ``>=14``
+   :depends on libboost: ``>=1.92.0,<1.93.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on libexpat: ``>=2.8.1,<3.0a0``
+   :depends on libfreetype: ``>=2.14.3``
+   :depends on libfreetype6: ``>=2.14.3``
+   :depends on libglib: ``>=2.88.3,<3.0a0``
+   :depends on libutf8proc: ``>=2.11.3,<2.12.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on perl: 
    :depends on python: ``>=3.14,<3.15.0a0``
    :depends on r-base: 
    :depends on xxhash: ``>=0.8.3,<0.8.4.0a0``
+   :depends on zstd: ``>=1.5.7,<1.6.0a0``
 
    :additional platforms:
       
@@ -131,7 +139,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bali-phy";
-      var versions = ["4.2","4.1","4.0","4.0beta17","4.0beta16"];
+      var versions = ["4.3","4.2","4.1","4.0","4.0beta17"];
    </script>
 
 .. rubric:: Download stats

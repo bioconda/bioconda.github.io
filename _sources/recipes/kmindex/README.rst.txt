@@ -36,8 +36,7 @@ kmindex
 
    
    :depends on kmtricks: ``>=1.6.0``
-   :depends on libgcc: ``>=12``
-   :depends on libstdcxx: ``>=12``
+   :depends on libcxx: ``>=18``
 
    :additional platforms:
       

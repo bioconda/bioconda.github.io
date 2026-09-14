@@ -29,10 +29,10 @@ bioconductor-survcomp
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.60.0-0</code>,  <code>1.56.0-1</code>,  <code>1.56.0-0</code>,  <code>1.52.0-1</code>,  <code>1.52.0-0</code>,  <code>1.50.0-0</code>,  <code>1.48.0-2</code>,  <code>1.48.0-1</code>,  <code>1.48.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.60.1-0</code>,  <code>1.60.0-0</code>,  <code>1.56.0-1</code>,  <code>1.56.0-0</code>,  <code>1.52.0-1</code>,  <code>1.52.0-0</code>,  <code>1.50.0-0</code>,  <code>1.48.0-2</code>,  <code>1.48.0-1</code>,  </span></summary>
       
 
-      ``1.60.0-0``,  ``1.56.0-1``,  ``1.56.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-2``,  ``1.48.0-1``,  ``1.48.0-0``,  ``1.44.1-1``,  ``1.44.1-0``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.4-0``
+      ``1.60.1-0``,  ``1.60.0-0``,  ``1.56.0-1``,  ``1.56.0-0``,  ``1.52.0-1``,  ``1.52.0-0``,  ``1.50.0-0``,  ``1.48.0-2``,  ``1.48.0-1``,  ``1.48.0-0``,  ``1.44.1-1``,  ``1.44.1-0``,  ``1.44.0-0``,  ``1.42.0-0``,  ``1.40.0-1``,  ``1.40.0-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-1``,  ``1.34.0-0``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.4-0``
 
       
       .. raw:: html
@@ -41,12 +41,12 @@ bioconductor-survcomp
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libgcc: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libstdcxx: ``>=14``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-bootstrap: 
    :depends on r-ipred: 
@@ -134,7 +134,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-survcomp";
-      var versions = ["1.60.0","1.56.0","1.56.0","1.52.0","1.52.0"];
+      var versions = ["1.60.1","1.60.0","1.56.0","1.56.0","1.52.0"];
    </script>
 
 .. rubric:: Download stats

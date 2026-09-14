@@ -27,27 +27,29 @@ bioconductor-gbscleanr
       
       
 
-      ``2.4.4-0``,  ``2.0.2-0``,  ``1.6.0-0``,  ``1.4.4-0``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``2.4.5-0``,  ``2.4.4-0``,  ``2.0.2-0``,  ``1.6.0-0``,  ``1.4.4-0``,  ``1.2.0-1``,  ``1.2.0-0``
 
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-gdsfmt: ``>=1.46.0,<1.47.0``
    :depends on bioconductor-gdsfmt: ``>=1.46.0,<1.47.0a0``
    :depends on bioconductor-seqarray: ``>=1.50.0,<1.51.0``
    :depends on bioconductor-seqarray: ``>=1.50.1,<1.51.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-expm: 
    :depends on r-ggplot2: 
    :depends on r-rcpp: 
    :depends on r-rcppparallel: 
    :depends on r-tidyr: 
-   :depends on tbb-devel: ``>=2022.3.0,<2022.4.0a0``
+   :depends on tbb-devel: ``>=2023.0.0,<2023.1.0a0``
 
    :additional platforms:
       
@@ -122,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-gbscleanr";
-      var versions = ["2.4.4","2.0.2","1.6.0","1.4.4","1.2.0"];
+      var versions = ["2.4.5","2.4.4","2.0.2","1.6.0","1.4.4"];
    </script>
 
 .. rubric:: Download stats

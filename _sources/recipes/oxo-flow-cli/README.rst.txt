@@ -28,13 +28,21 @@ oxo-flow-cli
    :versions:
       
       
+      .. raw:: html
 
-      ``0.15.0-0``,  ``0.13.1-0``,  ``0.10.2-0``,  ``0.9.4-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.4.2-0``
+         <details><summary><span class="truncated-version-list"><code>0.18.1-0</code>,  <code>0.15.0-0</code>,  <code>0.13.1-0</code>,  <code>0.10.2-0</code>,  <code>0.9.4-0</code>,  <code>0.8.1-0</code>,  <code>0.8.0-0</code>,  <code>0.7.0-0</code>,  <code>0.6.0-0</code>,  </span></summary>
+      
 
+      ``0.18.1-0``,  ``0.15.0-0``,  ``0.13.1-0``,  ``0.10.2-0``,  ``0.9.4-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.7.0-0``,  ``0.6.0-0``,  ``0.4.2-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends on libgcc: ``>=14``
+   :depends on __osx: ``>=11.0``
 
    :additional platforms:
       
@@ -113,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "oxo-flow-cli";
-      var versions = ["0.15.0","0.13.1","0.10.2","0.9.4","0.8.1"];
+      var versions = ["0.18.1","0.15.0","0.13.1","0.10.2","0.9.4"];
    </script>
 
 .. rubric:: Download stats

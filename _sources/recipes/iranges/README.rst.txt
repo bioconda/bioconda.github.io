@@ -32,11 +32,11 @@ iranges
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on biocframe: ``>=0.7.2``
    :depends on biocutils: ``>=0.3.3``
    :depends on compressed-lists: ``>=0.4.3``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on numpy: ``>=1.21,<3``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``

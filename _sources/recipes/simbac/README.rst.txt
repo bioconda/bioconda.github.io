@@ -34,8 +34,7 @@ simbac
 
    
    :depends on gsl: ``>=2.7,<2.8.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
 
    :additional platforms:
       

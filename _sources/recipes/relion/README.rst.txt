@@ -17,6 +17,7 @@ relion
    
    :license: GPL2 / GPL-2.0-or-later
    :recipe: /`relion <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/relion>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/relion/meta.yaml>`_
+   :links: biotools: :biotools:`relion-5`, doi: :doi:`10.1002/2211-5463.13873`
 
    
 
@@ -30,10 +31,10 @@ relion
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.1.0-0</code>,  <code>5.0.1-0</code>,  <code>5.0.0-0</code>,  <code>4.0.2-2</code>,  <code>4.0.2-1</code>,  <code>4.0.2-0</code>,  <code>4.0.1-3</code>,  <code>4.0.1-2</code>,  <code>4.0.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.1.0-1</code>,  <code>5.1.0-0</code>,  <code>5.0.1-0</code>,  <code>5.0.0-0</code>,  <code>4.0.2-2</code>,  <code>4.0.2-1</code>,  <code>4.0.2-0</code>,  <code>4.0.1-3</code>,  <code>4.0.1-2</code>,  </span></summary>
       
 
-      ``5.1.0-0``,  ``5.0.1-0``,  ``5.0.0-0``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.2-0``,  ``4.0.1-3``,  ``4.0.1-2``,  ``4.0.1-1``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.1.3-0``
+      ``5.1.0-1``,  ``5.1.0-0``,  ``5.0.1-0``,  ``5.0.0-0``,  ``4.0.2-2``,  ``4.0.2-1``,  ``4.0.2-0``,  ``4.0.1-3``,  ``4.0.1-2``,  ``4.0.1-1``,  ``4.0.1-0``,  ``4.0.0-0``,  ``3.1.3-0``
 
       
       .. raw:: html
@@ -42,14 +43,14 @@ relion
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
-   :depends on fftw: ``>=3.3.10,<4.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libgomp: 
+   :depends on __osx: ``>=11.0``
+   :depends on fftw: ``>=3.3.11,<4.0a0``
+   :depends on ghostscript: 
+   :depends on libcxx: ``>=19``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
    :depends on libpng: ``>=1.6.58,<1.7.0a0``
-   :depends on libstdcxx: ``>=14``
-   :depends on libtiff: ``>=4.7.1,<4.8.0a0``
+   :depends on libtiff: ``>=4.7.2,<4.8.0a0``
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on openmpi: ``>=4.1.6,<5.0a0``
    :depends on pytorch: 
    :depends on zstd: ``>=1.5.7,<1.6.0a0``
@@ -131,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "relion";
-      var versions = ["5.1.0","5.0.1","5.0.0","4.0.2","4.0.2"];
+      var versions = ["5.1.0","5.1.0","5.0.1","5.0.0","4.0.2"];
    </script>
 
 .. rubric:: Download stats

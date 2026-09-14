@@ -34,24 +34,25 @@ vepyr
       
       
 
-      ``0.6.0-0``
+      ``0.7.0-0``,  ``0.6.0-0``
 
       
 
    
    :depends on __osx: ``>=11.0``
+   :depends on _python_abi3_support: ``1.*``
+   :depends on cpython: ``>=3.10``
    :depends on libcxx: ``>=19``
    :depends on polars: ``>=1.37.1``
    :depends on pyarrow: ``>=18.0``
-   :depends on python: ``>=3.10,<3.11.0a0``
-   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on python: ``>=3.10``
    :depends on tqdm: ``>=4.60``
 
    :additional platforms:
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>osx-arm64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -124,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "vepyr";
-      var versions = ["0.6.0"];
+      var versions = ["0.7.0","0.6.0"];
    </script>
 
 .. rubric:: Download stats

@@ -29,10 +29,10 @@ bioconductor-s4vectors
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.48.0-1</code>,  <code>0.48.0-0</code>,  <code>0.44.0-2</code>,  <code>0.44.0-1</code>,  <code>0.44.0-0</code>,  <code>0.40.2-2</code>,  <code>0.40.2-1</code>,  <code>0.40.2-0</code>,  <code>0.38.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.48.1-0</code>,  <code>0.48.0-1</code>,  <code>0.48.0-0</code>,  <code>0.44.0-2</code>,  <code>0.44.0-1</code>,  <code>0.44.0-0</code>,  <code>0.40.2-2</code>,  <code>0.40.2-1</code>,  <code>0.40.2-0</code>,  </span></summary>
       
 
-      ``0.48.0-1``,  ``0.48.0-0``,  ``0.44.0-2``,  ``0.44.0-1``,  ``0.44.0-0``,  ``0.40.2-2``,  ``0.40.2-1``,  ``0.40.2-0``,  ``0.38.1-0``,  ``0.36.0-1``,  ``0.36.0-0``,  ``0.32.4-0``,  ``0.32.3-0``,  ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.1-0``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.1-0``,  ``0.18.3-0``,  ``0.16.0-0``,  ``0.14.7-0``,  ``0.12.2-0``,  ``0.12.0-0``,  ``0.10.3-0``,  ``0.9.0-0``,  ``0.8.11-1``,  ``0.8.11-0``,  ``0.8.7-0``,  ``0.8.5-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.6.6-0``
+      ``0.48.1-0``,  ``0.48.0-1``,  ``0.48.0-0``,  ``0.44.0-2``,  ``0.44.0-1``,  ``0.44.0-0``,  ``0.40.2-2``,  ``0.40.2-1``,  ``0.40.2-0``,  ``0.38.1-0``,  ``0.36.0-1``,  ``0.36.0-0``,  ``0.32.4-0``,  ``0.32.3-0``,  ``0.32.0-0``,  ``0.30.0-0``,  ``0.28.1-0``,  ``0.28.0-0``,  ``0.26.0-0``,  ``0.24.0-0``,  ``0.22.0-1``,  ``0.20.1-0``,  ``0.18.3-0``,  ``0.16.0-0``,  ``0.14.7-0``,  ``0.12.2-0``,  ``0.12.0-0``,  ``0.10.3-0``,  ``0.9.0-0``,  ``0.8.11-1``,  ``0.8.11-0``,  ``0.8.7-0``,  ``0.8.5-0``,  ``0.8.1-0``,  ``0.8.0-0``,  ``0.6.6-0``
 
       
       .. raw:: html
@@ -41,13 +41,13 @@ bioconductor-s4vectors
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
 
    :additional platforms:
@@ -127,7 +127,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-s4vectors";
-      var versions = ["0.48.0","0.48.0","0.44.0","0.44.0","0.44.0"];
+      var versions = ["0.48.1","0.48.0","0.48.0","0.44.0","0.44.0"];
    </script>
 
 .. rubric:: Download stats

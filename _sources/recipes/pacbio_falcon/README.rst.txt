@@ -32,6 +32,7 @@ pacbio_falcon
       
 
    
+   :depends on libgcc-ng: ``>=7.3.0``
    :depends on networkx: 
    :depends on pypeflow: 
    :depends on python: ``>=2.7,<2.8.0a0``

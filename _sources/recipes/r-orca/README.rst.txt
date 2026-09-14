@@ -34,8 +34,8 @@ r-orca
       
 
    
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on __osx: ``>=11.0``
+   :depends on libcxx: ``>=19``
    :depends on r-base: ``>=4.5,<4.6.0a0``
 
    :additional platforms:

@@ -29,10 +29,10 @@ bioconductor-gsva
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.4.4-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.50.0-1</code>,  <code>1.50.0-0</code>,  <code>1.48.2-0</code>,  <code>1.46.0-1</code>,  <code>1.46.0-0</code>,  <code>1.42.0-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.4.9-0</code>,  <code>2.4.4-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.50.0-1</code>,  <code>1.50.0-0</code>,  <code>1.48.2-0</code>,  <code>1.46.0-1</code>,  <code>1.46.0-0</code>,  </span></summary>
       
 
-      ``2.4.4-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.2-0``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.42.0-2``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.2-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.2-0``,  ``1.24.1-0``
+      ``2.4.9-0``,  ``2.4.4-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.50.0-1``,  ``1.50.0-0``,  ``1.48.2-0``,  ``1.46.0-1``,  ``1.46.0-0``,  ``1.42.0-2``,  ``1.42.0-1``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.2-0``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.30.0-1``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``,  ``1.24.2-0``,  ``1.24.1-0``
 
       
       .. raw:: html
@@ -41,6 +41,7 @@ bioconductor-gsva
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-biobase: ``>=2.70.0,<2.71.0``
    :depends on bioconductor-biobase: ``>=2.70.0,<2.71.0a0``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
@@ -76,8 +77,8 @@ bioconductor-gsva
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-cli: 
    :depends on r-matrix: ``>=1.5-0``
@@ -160,7 +161,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-gsva";
-      var versions = ["2.4.4","2.0.0","2.0.0","1.50.0","1.50.0"];
+      var versions = ["2.4.9","2.4.4","2.0.0","2.0.0","1.50.0"];
    </script>
 
 .. rubric:: Download stats
