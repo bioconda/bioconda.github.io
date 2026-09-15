@@ -27,7 +27,7 @@ bioconductor-svaretro
       
       
 
-      ``1.15.1-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
+      ``1.16.6-0``,  ``1.15.1-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.0.0-0``
 
       
 
@@ -121,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-svaretro";
-      var versions = ["1.15.1","1.12.0","1.8.0","1.6.0","1.4.0"];
+      var versions = ["1.16.6","1.15.1","1.12.0","1.8.0","1.6.0"];
    </script>
 
 .. rubric:: Download stats

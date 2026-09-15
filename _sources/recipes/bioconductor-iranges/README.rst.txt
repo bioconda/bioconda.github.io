@@ -12,7 +12,7 @@ bioconductor-iranges
 
    Foundation of integer range manipulation in Bioconductor
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/IRanges.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/IRanges.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-iranges <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iranges>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iranges/meta.yaml>`_
    :links: biotools: :biotools:`iranges`
@@ -29,10 +29,10 @@ bioconductor-iranges
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.44.0-1</code>,  <code>2.44.0-0</code>,  <code>2.40.0-2</code>,  <code>2.40.0-1</code>,  <code>2.40.0-0</code>,  <code>2.36.0-2</code>,  <code>2.36.0-1</code>,  <code>2.36.0-0</code>,  <code>2.34.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.46.0-0</code>,  <code>2.44.0-1</code>,  <code>2.44.0-0</code>,  <code>2.40.0-2</code>,  <code>2.40.0-1</code>,  <code>2.40.0-0</code>,  <code>2.36.0-2</code>,  <code>2.36.0-1</code>,  <code>2.36.0-0</code>,  </span></summary>
       
 
-      ``2.44.0-1``,  ``2.44.0-0``,  ``2.40.0-2``,  ``2.40.0-1``,  ``2.40.0-0``,  ``2.36.0-2``,  ``2.36.0-1``,  ``2.36.0-0``,  ``2.34.1-0``,  ``2.32.0-1``,  ``2.32.0-0``,  ``2.28.0-2``,  ``2.28.0-1``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.1-0``,  ``2.24.0-0``,  ``2.22.1-0``,  ``2.20.0-0``,  ``2.18.2-0``,  ``2.18.1-0``,  ``2.16.0-0``,  ``2.14.12-0``,  ``2.12.0-0``,  ``2.10.5-0``,  ``2.8.2-0``,  ``2.8.0-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.4.8-0``,  ``2.4.7-0``,  ``2.4.6-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.2.9-0``
+      ``2.46.0-0``,  ``2.44.0-1``,  ``2.44.0-0``,  ``2.40.0-2``,  ``2.40.0-1``,  ``2.40.0-0``,  ``2.36.0-2``,  ``2.36.0-1``,  ``2.36.0-0``,  ``2.34.1-0``,  ``2.32.0-1``,  ``2.32.0-0``,  ``2.28.0-2``,  ``2.28.0-1``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.1-0``,  ``2.24.0-0``,  ``2.22.1-0``,  ``2.20.0-0``,  ``2.18.2-0``,  ``2.18.1-0``,  ``2.16.0-0``,  ``2.14.12-0``,  ``2.12.0-0``,  ``2.10.5-0``,  ``2.8.2-0``,  ``2.8.0-0``,  ``2.6.1-0``,  ``2.6.0-0``,  ``2.4.8-0``,  ``2.4.7-0``,  ``2.4.6-0``,  ``2.4.1-0``,  ``2.4.0-0``,  ``2.2.9-0``
 
       
       .. raw:: html
@@ -41,14 +41,15 @@ bioconductor-iranges
       
 
    
-   :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
-   :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
-   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
-   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
+   :depends on __osx: ``>=11.0``
+   :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0``
+   :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0a0``
+   :depends on bioconductor-s4vectors: ``>=0.50.2,<0.51.0``
+   :depends on bioconductor-s4vectors: ``>=0.50.2,<0.51.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
 
    :additional platforms:
@@ -128,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-iranges";
-      var versions = ["2.44.0","2.44.0","2.40.0","2.40.0","2.40.0"];
+      var versions = ["2.46.0","2.44.0","2.44.0","2.40.0","2.40.0"];
    </script>
 
 .. rubric:: Download stats

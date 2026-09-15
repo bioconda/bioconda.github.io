@@ -10,10 +10,10 @@ bioconductor-metaseqr2
    :replaces_section_title:
    :noindex:
 
-   An R package for the analysis and result reporting of RNA\-Seq data by combining multiple statistical algorithms
+   An R package for the analysis and result reporting of RNA\-Seq data by combining multiple statistical algorithms.
 
    :homepage: https://bioconductor.org/packages/3.22/bioc/html/metaseqR2.html
-   :license: GPL (>= 3)
+   :license: GPL-3.0-or-later
    :recipe: /`bioconductor-metaseqr2 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metaseqr2>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metaseqr2/meta.yaml>`_
 
    Provides an interface to several normalization and statistical testing packages for RNA\-Seq gene expression data. Additionally\, it creates several diagnostic plots\, performs meta\-analysis by combinining the results of several statistical tests and reports the results in an interactive way.
@@ -28,10 +28,10 @@ bioconductor-metaseqr2
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.18.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.6.1-1</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  <code>1.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.22.4-0</code>,  <code>1.22.0-0</code>,  <code>1.18.0-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  <code>1.6.1-1</code>,  <code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.4.0-1</code>,  </span></summary>
       
 
-      ``1.22.0-0``,  ``1.18.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.11-0``
+      ``1.22.4-0``,  ``1.22.0-0``,  ``1.18.0-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.1-1``,  ``1.6.1-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.11-0``
 
       
       .. raw:: html
@@ -40,6 +40,7 @@ bioconductor-metaseqr2
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-absseq: ``>=1.64.0,<1.65.0``
    :depends on bioconductor-absseq: ``>=1.64.0,<1.65.0a0``
    :depends on bioconductor-biobase: ``>=2.70.0,<2.71.0``
@@ -49,7 +50,7 @@ bioconductor-metaseqr2
    :depends on bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
    :depends on bioconductor-biocparallel: ``>=1.44.0,<1.45.0a0``
    :depends on bioconductor-biomart: ``>=2.66.0,<2.67.0``
-   :depends on bioconductor-biomart: ``>=2.66.0,<2.67.0a0``
+   :depends on bioconductor-biomart: ``>=2.66.1,<2.67.0a0``
    :depends on bioconductor-biostrings: ``>=2.78.0,<2.79.0``
    :depends on bioconductor-biostrings: ``>=2.78.0,<2.79.0a0``
    :depends on bioconductor-deseq2: ``>=1.50.0,<1.51.0``
@@ -95,8 +96,8 @@ bioconductor-metaseqr2
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-corrplot: 
    :depends on r-dt: 
@@ -112,7 +113,7 @@ bioconductor-metaseqr2
    :depends on r-magrittr: 
    :depends on r-mass: 
    :depends on r-matrix: 
-   :depends on r-nbpseq: 
+   :depends on r-nbpseq: ``>=0.3.1,<0.4.0a0``
    :depends on r-pander: 
    :depends on r-rmarkdown: 
    :depends on r-rmdformats: 
@@ -123,6 +124,10 @@ bioconductor-metaseqr2
    :depends on r-zoo: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -195,7 +200,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-metaseqr2";
-      var versions = ["1.22.0","1.18.0","1.10.0","1.10.0","1.6.1"];
+      var versions = ["1.22.4","1.22.0","1.18.0","1.10.0","1.10.0"];
    </script>
 
 .. rubric:: Download stats

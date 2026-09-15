@@ -27,7 +27,7 @@ bioconductor-ewce
       
       
 
-      ``1.18.0-0``,  ``1.14.0-0``,  ``1.10.2-0``,  ``1.8.2-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.18.1-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.10.2-0``,  ``1.8.2-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -122,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-ewce";
-      var versions = ["1.18.0","1.14.0","1.10.2","1.8.2","1.6.0"];
+      var versions = ["1.18.1","1.18.0","1.14.0","1.10.2","1.8.2"];
    </script>
 
 .. rubric:: Download stats

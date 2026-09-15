@@ -29,7 +29,7 @@ cphasing-rs
       
       
 
-      ``0.3.4-0``,  ``0.3.0-0``
+      ``0.3.6-0``,  ``0.3.4-0``,  ``0.3.0-0``
 
       
 
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cphasing-rs";
-      var versions = ["0.3.4","0.3.0"];
+      var versions = ["0.3.6","0.3.4","0.3.0"];
    </script>
 
 .. rubric:: Download stats

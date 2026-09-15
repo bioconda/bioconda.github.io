@@ -28,10 +28,10 @@ bioconductor-enmix
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.46.1-0</code>,  <code>1.42.0-0</code>,  <code>1.38.01-0</code>,  <code>1.36.01-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.2-0</code>,  <code>1.26.8-0</code>,  <code>1.26.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.46.2-0</code>,  <code>1.46.1-0</code>,  <code>1.42.0-0</code>,  <code>1.38.01-0</code>,  <code>1.36.01-0</code>,  <code>1.34.0-0</code>,  <code>1.30.0-0</code>,  <code>1.28.2-0</code>,  <code>1.26.8-0</code>,  </span></summary>
       
 
-      ``1.46.1-0``,  ``1.42.0-0``,  ``1.38.01-0``,  ``1.36.01-0``,  ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.2-0``,  ``1.26.8-0``,  ``1.26.0-0``,  ``1.25.1-0``,  ``1.22.0-0``,  ``1.20.3-0``,  ``1.18.0-0``
+      ``1.46.2-0``,  ``1.46.1-0``,  ``1.42.0-0``,  ``1.38.01-0``,  ``1.36.01-0``,  ``1.34.0-0``,  ``1.30.0-0``,  ``1.28.2-0``,  ``1.26.8-0``,  ``1.26.0-0``,  ``1.25.1-0``,  ``1.22.0-0``,  ``1.20.3-0``,  ``1.18.0-0``
 
       
       .. raw:: html
@@ -135,7 +135,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-enmix";
-      var versions = ["1.46.1","1.42.0","1.38.01","1.36.01","1.34.0"];
+      var versions = ["1.46.2","1.46.1","1.42.0","1.38.01","1.36.01"];
    </script>
 
 .. rubric:: Download stats

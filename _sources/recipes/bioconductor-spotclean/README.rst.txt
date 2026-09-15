@@ -27,7 +27,7 @@ bioconductor-spotclean
       
       
 
-      ``1.12.0-0``,  ``1.8.0-0``,  ``1.4.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.12.1-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.4.1-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -121,7 +121,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-spotclean";
-      var versions = ["1.12.0","1.8.0","1.4.1","1.2.0","1.0.0"];
+      var versions = ["1.12.1","1.12.0","1.8.0","1.4.1","1.2.0"];
    </script>
 
 .. rubric:: Download stats

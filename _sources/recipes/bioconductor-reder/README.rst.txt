@@ -29,10 +29,10 @@ bioconductor-reder
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.6.0-0</code>,  <code>3.2.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.1-0</code>,  <code>2.2.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-1</code>,  <code>1.38.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.6.2-0</code>,  <code>3.6.0-0</code>,  <code>3.2.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.1-0</code>,  <code>2.2.0-0</code>,  <code>1.42.0-0</code>,  <code>1.40.0-0</code>,  <code>1.38.0-1</code>,  </span></summary>
       
 
-      ``3.6.0-0``,  ``3.2.0-0``,  ``2.6.0-0``,  ``2.4.1-0``,  ``2.2.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``
+      ``3.6.2-0``,  ``3.6.0-0``,  ``3.2.0-0``,  ``2.6.0-0``,  ``2.4.1-0``,  ``2.2.0-0``,  ``1.42.0-0``,  ``1.40.0-0``,  ``1.38.0-1``,  ``1.38.0-0``,  ``1.36.0-0``,  ``1.34.0-0``,  ``1.32.0-1``,  ``1.32.0-0``,  ``1.30.0-0``,  ``1.28.0-0``,  ``1.26.0-0``
 
       
       .. raw:: html
@@ -118,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-reder";
-      var versions = ["3.6.0","3.2.0","2.6.0","2.4.1","2.2.0"];
+      var versions = ["3.6.2","3.6.0","3.2.0","2.6.0","2.4.1"];
    </script>
 
 .. rubric:: Download stats

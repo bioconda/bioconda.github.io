@@ -28,7 +28,7 @@ r-scroshi
       
       
 
-      ``1.0.0.0-0``
+      ``1.0.0.1-0``,  ``1.0.0.0-0``
 
       
 
@@ -37,7 +37,7 @@ r-scroshi
    :depends on bioconductor-s4vectors: 
    :depends on bioconductor-singlecellexperiment: 
    :depends on bioconductor-summarizedexperiment: 
-   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-uwot: 
 
    :additional platforms:
@@ -113,7 +113,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "r-scroshi";
-      var versions = ["1.0.0.0"];
+      var versions = ["1.0.0.1","1.0.0.0"];
    </script>
 
 .. rubric:: Download stats

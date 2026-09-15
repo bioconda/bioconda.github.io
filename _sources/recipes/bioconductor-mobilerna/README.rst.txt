@@ -27,7 +27,7 @@ bioconductor-mobilerna
       
       
 
-      ``1.6.1-0``
+      ``1.6.2-0``,  ``1.6.1-0``
 
       
 
@@ -131,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-mobilerna";
-      var versions = ["1.6.1"];
+      var versions = ["1.6.2","1.6.1"];
    </script>
 
 .. rubric:: Download stats

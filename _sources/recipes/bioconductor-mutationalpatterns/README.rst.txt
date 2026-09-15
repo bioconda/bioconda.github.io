@@ -28,10 +28,10 @@ bioconductor-mutationalpatterns
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.19.1-0</code>,  <code>3.16.0-0</code>,  <code>3.12.0-0</code>,  <code>3.10.0-0</code>,  <code>3.8.0-0</code>,  <code>3.4.0-0</code>,  <code>3.2.0-0</code>,  <code>3.0.1-0</code>,  <code>3.0.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>3.20.1-0</code>,  <code>3.19.1-0</code>,  <code>3.16.0-0</code>,  <code>3.12.0-0</code>,  <code>3.10.0-0</code>,  <code>3.8.0-0</code>,  <code>3.4.0-0</code>,  <code>3.2.0-0</code>,  <code>3.0.1-0</code>,  </span></summary>
       
 
-      ``3.19.1-0``,  ``3.16.0-0``,  ``3.12.0-0``,  ``3.10.0-0``,  ``3.8.0-0``,  ``3.4.0-0``,  ``3.2.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.3-0``,  ``1.4.1-0``
+      ``3.20.1-0``,  ``3.19.1-0``,  ``3.16.0-0``,  ``3.12.0-0``,  ``3.10.0-0``,  ``3.8.0-0``,  ``3.4.0-0``,  ``3.2.0-0``,  ``3.0.1-0``,  ``3.0.0-0``,  ``2.0.0-0``,  ``1.12.0-0``,  ``1.10.0-1``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.3-0``,  ``1.4.1-0``
 
       
       .. raw:: html
@@ -137,7 +137,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-mutationalpatterns";
-      var versions = ["3.19.1","3.16.0","3.12.0","3.10.0","3.8.0"];
+      var versions = ["3.20.1","3.19.1","3.16.0","3.12.0","3.10.0"];
    </script>
 
 .. rubric:: Download stats

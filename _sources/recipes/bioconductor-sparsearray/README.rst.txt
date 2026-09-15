@@ -10,7 +10,7 @@ bioconductor-sparsearray
    :replaces_section_title:
    :noindex:
 
-   High\-performance sparse data representation and manipulation in R
+   High\-performance sparse data representation and manipulation in R.
 
    :homepage: https://bioconductor.org/packages/3.22/bioc/html/SparseArray.html
    :license: Artistic-2.0
@@ -27,11 +27,12 @@ bioconductor-sparsearray
       
       
 
-      ``1.10.8-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.0.10-0``
+      ``1.10.10-0``,  ``1.10.8-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.2-2``,  ``1.2.2-1``,  ``1.2.2-0``,  ``1.0.10-0``
 
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
    :depends on bioconductor-iranges: ``>=2.44.0,<2.45.0``
@@ -46,8 +47,8 @@ bioconductor-sparsearray
    :depends on bioconductor-xvector: ``>=0.50.0,<0.51.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-matrix: 
    :depends on r-matrixstats: 
@@ -129,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-sparsearray";
-      var versions = ["1.10.8","1.6.0","1.6.0","1.2.2","1.2.2"];
+      var versions = ["1.10.10","1.10.8","1.6.0","1.6.0","1.2.2"];
    </script>
 
 .. rubric:: Download stats

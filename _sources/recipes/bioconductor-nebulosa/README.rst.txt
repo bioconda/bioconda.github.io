@@ -26,9 +26,17 @@ bioconductor-nebulosa
    :versions:
       
       
+      .. raw:: html
 
-      ``1.20.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.2-0``,  ``1.0.0-1``
+         <details><summary><span class="truncated-version-list"><code>1.20.1-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.12.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.0-0</code>,  <code>1.4.0-0</code>,  <code>1.2.0-0</code>,  <code>1.0.2-0</code>,  </span></summary>
+      
 
+      ``1.20.1-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.4.0-0``,  ``1.2.0-0``,  ``1.0.2-0``,  ``1.0.0-1``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
@@ -115,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-nebulosa";
-      var versions = ["1.20.0","1.16.0","1.12.0","1.10.0","1.8.0"];
+      var versions = ["1.20.1","1.20.0","1.16.0","1.12.0","1.10.0"];
    </script>
 
 .. rubric:: Download stats

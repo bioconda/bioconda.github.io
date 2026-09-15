@@ -12,7 +12,7 @@ bioconductor-dir.expiry
 
    Managing Expiration for Cache Directories
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/dir.expiry.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/dir.expiry.html
    :license: GPL-3
    :recipe: /`bioconductor-dir.expiry <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dir.expiry>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dir.expiry/meta.yaml>`_
 
@@ -27,7 +27,7 @@ bioconductor-dir.expiry
       
       
 
-      ``1.18.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
@@ -108,7 +108,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-dir.expiry";
-      var versions = ["1.18.0","1.14.0","1.10.0","1.8.0","1.6.0"];
+      var versions = ["1.20.0","1.18.0","1.14.0","1.10.0","1.8.0"];
    </script>
 
 .. rubric:: Download stats

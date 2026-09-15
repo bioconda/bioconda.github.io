@@ -27,7 +27,7 @@ bioconductor-mousefm
       
       
 
-      ``1.20.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
+      ``1.20.1-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.0.0-2``,  ``1.0.0-1``
 
       
 
@@ -122,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-mousefm";
-      var versions = ["1.20.0","1.16.0","1.12.0","1.10.0","1.8.0"];
+      var versions = ["1.20.1","1.20.0","1.16.0","1.12.0","1.10.0"];
    </script>
 
 .. rubric:: Download stats

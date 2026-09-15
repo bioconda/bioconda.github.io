@@ -28,10 +28,10 @@ bioconductor-cbioportaldata
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.22.1-0</code>,  <code>2.18.0-0</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.8-0</code>,  <code>2.2.3-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.22.3-0</code>,  <code>2.22.1-0</code>,  <code>2.18.0-0</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-0</code>,  <code>2.6.0-0</code>,  <code>2.4.0-0</code>,  <code>2.2.8-0</code>,  </span></summary>
       
 
-      ``2.22.1-0``,  ``2.18.0-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.8-0``,  ``2.2.3-0``,  ``2.0.3-0``
+      ``2.22.3-0``,  ``2.22.1-0``,  ``2.18.0-0``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-0``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.8-0``,  ``2.2.3-0``,  ``2.0.3-0``
 
       
       .. raw:: html
@@ -133,7 +133,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-cbioportaldata";
-      var versions = ["2.22.1","2.18.0","2.14.0","2.12.0","2.10.0"];
+      var versions = ["2.22.3","2.22.1","2.18.0","2.14.0","2.12.0"];
    </script>
 
 .. rubric:: Download stats

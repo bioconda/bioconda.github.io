@@ -28,10 +28,10 @@ bioconductor-enrichplot
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.30.4-0</code>,  <code>1.26.1-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.14.1-0</code>,  <code>1.12.0-0</code>,  <code>1.10.2-0</code>,  <code>1.10.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.30.5-0</code>,  <code>1.30.4-0</code>,  <code>1.26.1-0</code>,  <code>1.22.0-0</code>,  <code>1.20.0-0</code>,  <code>1.18.0-0</code>,  <code>1.14.1-0</code>,  <code>1.12.0-0</code>,  <code>1.10.2-0</code>,  </span></summary>
       
 
-      ``1.30.4-0``,  ``1.26.1-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.1-0``,  ``1.12.0-0``,  ``1.10.2-0``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``,  ``1.0.2-0``
+      ``1.30.5-0``,  ``1.30.4-0``,  ``1.26.1-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.0-0``,  ``1.14.1-0``,  ``1.12.0-0``,  ``1.10.2-0``,  ``1.10.0-0``,  ``1.8.1-0``,  ``1.6.0-0``,  ``1.4.0-1``,  ``1.2.0-0``,  ``1.0.2-0``
 
       
       .. raw:: html
@@ -133,7 +133,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-enrichplot";
-      var versions = ["1.30.4","1.26.1","1.22.0","1.20.0","1.18.0"];
+      var versions = ["1.30.5","1.30.4","1.26.1","1.22.0","1.20.0"];
    </script>
 
 .. rubric:: Download stats

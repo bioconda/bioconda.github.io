@@ -27,7 +27,7 @@ bioconductor-igblastr
       
       
 
-      ``1.0.11-0``
+      ``1.0.23-0``,  ``1.0.11-0``
 
       
 
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-igblastr";
-      var versions = ["1.0.11"];
+      var versions = ["1.0.23","1.0.11"];
    </script>
 
 .. rubric:: Download stats

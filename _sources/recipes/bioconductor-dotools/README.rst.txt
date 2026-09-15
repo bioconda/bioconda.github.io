@@ -27,11 +27,47 @@ bioconductor-dotools
       
       
 
-      
+      ``1.0.2-0``
 
       
 
    
+   :depends on bioconductor-basilisk: ``>=1.22.0,<1.23.0``
+   :depends on bioconductor-deseq2: ``>=1.50.0,<1.51.0``
+   :depends on bioconductor-dropletutils: ``>=1.30.0,<1.31.0``
+   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
+   :depends on bioconductor-scdblfinder: ``>=1.24.0,<1.25.0``
+   :depends on bioconductor-singlecellexperiment: ``>=1.32.0,<1.33.0``
+   :depends on bioconductor-zellkonverter: ``>=1.20.0,<1.21.0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-cli: ``>=3.6.5``
+   :depends on r-cowplot: ``>=1.1.3``
+   :depends on r-curl: ``>=6.3.0``
+   :depends on r-dplyr: ``>=1.1.4``
+   :depends on r-enrichr: ``>=3.4``
+   :depends on r-ggalluvial: ``>=0.12.5``
+   :depends on r-ggcorrplot: ``>=0.1.4.1``
+   :depends on r-ggiraphextra: ``>=0.3.0``
+   :depends on r-ggplot2: ``>=3.5.0``
+   :depends on r-ggpubr: ``>=0.6.0``
+   :depends on r-ggtext: ``>=0.1.2``
+   :depends on r-magrittr: ``>=2.0.3``
+   :depends on r-matrix: ``>=1.7.3``
+   :depends on r-openxlsx: ``>=4.2.8``
+   :depends on r-progress: ``>=1.2.3``
+   :depends on r-purrr: ``>=1.0.4``
+   :depends on r-reshape2: ``>=1.4.4``
+   :depends on r-reticulate: ``>=1.41.0.1``
+   :depends on r-rlang: ``>=1.1.6``
+   :depends on r-rstatix: ``>=0.7.2``
+   :depends on r-scales: ``>=1.4.0``
+   :depends on r-sccustomize: ``>=3.0.1``
+   :depends on r-scpubr: ``>=2.0.2``
+   :depends on r-seurat: ``>=5.2.0``
+   :depends on r-seuratobject: ``>=5.1.0``
+   :depends on r-tibble: ``>=3.2.1``
+   :depends on r-tidyr: ``>=1.3.1``
+   :depends on r-tidyverse: ``>=2.0.0``
 
    :additional platforms:
       
@@ -106,7 +142,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-dotools";
-      var versions = [];
+      var versions = ["1.0.2"];
    </script>
 
 .. rubric:: Download stats

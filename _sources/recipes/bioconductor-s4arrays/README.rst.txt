@@ -12,7 +12,7 @@ bioconductor-s4arrays
 
    Foundation of array\-like containers in Bioconductor
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/S4Arrays.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/S4Arrays.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-s4arrays <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-s4arrays>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-s4arrays/meta.yaml>`_
 
@@ -27,21 +27,22 @@ bioconductor-s4arrays
       
       
 
-      ``1.10.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.4-0``
+      ``1.12.0-0``,  ``1.10.1-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.4-0``
 
       
 
    
-   :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
-   :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
-   :depends on bioconductor-iranges: ``>=2.44.0,<2.45.0``
-   :depends on bioconductor-iranges: ``>=2.44.0,<2.45.0a0``
-   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
-   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
+   :depends on __osx: ``>=11.0``
+   :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0``
+   :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0a0``
+   :depends on bioconductor-iranges: ``>=2.46.0,<2.47.0``
+   :depends on bioconductor-iranges: ``>=2.46.0,<2.47.0a0``
+   :depends on bioconductor-s4vectors: ``>=0.50.2,<0.51.0``
+   :depends on bioconductor-s4vectors: ``>=0.50.2,<0.51.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-abind: 
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-matrix: 
@@ -123,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-s4arrays";
-      var versions = ["1.10.1","1.6.0","1.6.0","1.2.0","1.2.0"];
+      var versions = ["1.12.0","1.10.1","1.6.0","1.6.0","1.2.0"];
    </script>
 
 .. rubric:: Download stats

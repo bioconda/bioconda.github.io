@@ -31,10 +31,10 @@ ntedit
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-2</code>,  <code>2.0.2-1</code>,  <code>2.0.2-0</code>,  <code>2.0.1-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.1.2-0</code>,  <code>2.1.1-1</code>,  <code>2.1.1-0</code>,  <code>2.1.0-1</code>,  <code>2.1.0-0</code>,  <code>2.0.3-0</code>,  <code>2.0.2-2</code>,  <code>2.0.2-1</code>,  <code>2.0.2-0</code>,  </span></summary>
       
 
-      ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.3-0``,  ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.4.3-0``,  ``1.3.5-4``,  ``1.3.5-3``,  ``1.3.5-2``,  ``1.3.5-1``,  ``1.3.5-0``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``
+      ``2.1.2-0``,  ``2.1.1-1``,  ``2.1.1-0``,  ``2.1.0-1``,  ``2.1.0-0``,  ``2.0.3-0``,  ``2.0.2-2``,  ``2.0.2-1``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-0``,  ``1.4.3-0``,  ``1.3.5-4``,  ``1.3.5-3``,  ``1.3.5-2``,  ``1.3.5-1``,  ``1.3.5-0``,  ``1.3.4-1``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``
 
       
       .. raw:: html
@@ -43,15 +43,16 @@ ntedit
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on boost-cpp: 
-   :depends on btllib: ``>=1.7.5,<2.0a0``
+   :depends on btllib: ``>=1.7.8,<2.0a0``
    :depends on libcxx: ``>=19``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on llvm-openmp: ``>=19.1.7``
    :depends on ntcard: 
    :depends on ntstat: ``>=1.0.1``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
-   :depends on python_abi: ``3.12.* *_cp312``
+   :depends on python_abi: ``3.13.* *_cp313``
    :depends on snakemake-minimal: 
 
    :additional platforms:
@@ -131,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ntedit";
-      var versions = ["2.1.1","2.1.1","2.1.0","2.1.0","2.0.3"];
+      var versions = ["2.1.2","2.1.1","2.1.1","2.1.0","2.1.0"];
    </script>
 
 .. rubric:: Download stats

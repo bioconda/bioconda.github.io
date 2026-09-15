@@ -10,7 +10,7 @@ modifi
    :replaces_section_title:
    :noindex:
 
-   DNA modification detection from PacBio SMRT metagenomic data
+   DNA modification detection from PacBio SMRT metagenomic data.
 
    :homepage: https://github.com/sachdevalab/MODIFI
    :license: MIT / MIT
@@ -33,24 +33,22 @@ modifi
       
       
 
-      ``0.0.3-0``,  ``0.0.1-0``
+      ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.1-0``
 
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on adjusttext: 
    :depends on bash: 
    :depends on biopython: 
    :depends on h5py: 
    :depends on joblib: 
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on matplotlib-base: 
    :depends on numpy: 
    :depends on openjdk: 
    :depends on pandas: 
-   :depends on pbmm2: 
-   :depends on pbtk: 
    :depends on psutil: 
    :depends on pysam: 
    :depends on pyyaml: 
@@ -63,6 +61,10 @@ modifi
    :depends on tqdm: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -135,7 +137,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "modifi";
-      var versions = ["0.0.3","0.0.1"];
+      var versions = ["0.0.4","0.0.3","0.0.1"];
    </script>
 
 .. rubric:: Download stats

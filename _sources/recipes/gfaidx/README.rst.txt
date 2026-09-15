@@ -27,7 +27,7 @@ gfaidx
       
       
 
-      ``1.8.3-0``
+      ``1.9.8-0``,  ``1.8.3-0``
 
       
 
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "gfaidx";
-      var versions = ["1.8.3"];
+      var versions = ["1.9.8","1.8.3"];
    </script>
 
 .. rubric:: Download stats

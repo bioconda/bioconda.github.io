@@ -28,10 +28,10 @@ libbigwig
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.8-0</code>,  <code>0.4.7-7</code>,  <code>0.4.7-6</code>,  <code>0.4.7-5</code>,  <code>0.4.7-4</code>,  <code>0.4.7-3</code>,  <code>0.4.7-2</code>,  <code>0.4.7-1</code>,  <code>0.4.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.4.9-0</code>,  <code>0.4.8-0</code>,  <code>0.4.7-7</code>,  <code>0.4.7-6</code>,  <code>0.4.7-5</code>,  <code>0.4.7-4</code>,  <code>0.4.7-3</code>,  <code>0.4.7-2</code>,  <code>0.4.7-1</code>,  </span></summary>
       
 
-      ``0.4.8-0``,  ``0.4.7-7``,  ``0.4.7-6``,  ``0.4.7-5``,  ``0.4.7-4``,  ``0.4.7-3``,  ``0.4.7-2``,  ``0.4.7-1``,  ``0.4.7-0``,  ``0.4.6-3``,  ``0.4.6-2``,  ``0.4.6-1``,  ``0.4.6-0``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3.0-0``
+      ``0.4.9-0``,  ``0.4.8-0``,  ``0.4.7-7``,  ``0.4.7-6``,  ``0.4.7-5``,  ``0.4.7-4``,  ``0.4.7-3``,  ``0.4.7-2``,  ``0.4.7-1``,  ``0.4.7-0``,  ``0.4.6-3``,  ``0.4.6-2``,  ``0.4.6-1``,  ``0.4.6-0``,  ``0.4.4-1``,  ``0.4.4-0``,  ``0.4.3-0``,  ``0.4.2-1``,  ``0.4.2-0``,  ``0.4.1-2``,  ``0.4.1-1``,  ``0.4.1-0``,  ``0.3.0-0``
 
       
       .. raw:: html
@@ -40,8 +40,9 @@ libbigwig
       
 
    
-   :depends on libcurl: ``>=8.11.1,<9.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on __osx: ``>=11.0``
+   :depends on libcurl: ``>=8.22.0,<9.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on zlib: 
 
    :additional platforms:
@@ -121,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "libbigwig";
-      var versions = ["0.4.8","0.4.7","0.4.7","0.4.7","0.4.7"];
+      var versions = ["0.4.9","0.4.8","0.4.7","0.4.7","0.4.7"];
    </script>
 
 .. rubric:: Download stats

@@ -28,10 +28,10 @@ bioconductor-microbiotaprocess
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.2-0</code>,  <code>1.10.0-0</code>,  <code>1.6.1-0</code>,  <code>1.4.0-0</code>,  <code>1.2.1-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.22.1-0</code>,  <code>1.22.0-0</code>,  <code>1.18.0-0</code>,  <code>1.14.0-0</code>,  <code>1.12.2-0</code>,  <code>1.10.0-0</code>,  <code>1.6.1-0</code>,  <code>1.4.0-0</code>,  <code>1.2.1-0</code>,  </span></summary>
       
 
-      ``1.22.0-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.2-0``,  ``1.10.0-0``,  ``1.6.1-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.3-0``
+      ``1.22.1-0``,  ``1.22.0-0``,  ``1.18.0-0``,  ``1.14.0-0``,  ``1.12.2-0``,  ``1.10.0-0``,  ``1.6.1-0``,  ``1.4.0-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.0.3-0``
 
       
       .. raw:: html
@@ -144,7 +144,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-microbiotaprocess";
-      var versions = ["1.22.0","1.18.0","1.14.0","1.12.2","1.10.0"];
+      var versions = ["1.22.1","1.22.0","1.18.0","1.14.0","1.12.2"];
    </script>
 
 .. rubric:: Download stats

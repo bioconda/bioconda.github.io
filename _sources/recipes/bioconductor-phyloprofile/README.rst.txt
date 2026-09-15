@@ -28,10 +28,10 @@ bioconductor-phyloprofile
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.2.2-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.5-0</code>,  <code>1.12.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.1-0</code>,  <code>1.4.9-0</code>,  <code>1.4.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.2.5-0</code>,  <code>2.2.2-0</code>,  <code>1.20.0-0</code>,  <code>1.16.0-0</code>,  <code>1.14.5-0</code>,  <code>1.12.0-0</code>,  <code>1.8.0-0</code>,  <code>1.6.1-0</code>,  <code>1.4.9-0</code>,  </span></summary>
       
 
-      ``2.2.2-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.5-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.9-0``,  ``1.4.0-0``,  ``1.2.8-1``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.2-0``,  ``1.0.1-0``
+      ``2.2.5-0``,  ``2.2.2-0``,  ``1.20.0-0``,  ``1.16.0-0``,  ``1.14.5-0``,  ``1.12.0-0``,  ``1.8.0-0``,  ``1.6.1-0``,  ``1.4.9-0``,  ``1.4.0-0``,  ``1.2.8-1``,  ``1.2.6-0``,  ``1.2.5-0``,  ``1.2.2-0``,  ``1.0.1-0``
 
       
       .. raw:: html
@@ -146,7 +146,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-phyloprofile";
-      var versions = ["2.2.2","1.20.0","1.16.0","1.14.5","1.12.0"];
+      var versions = ["2.2.5","2.2.2","1.20.0","1.16.0","1.14.5"];
    </script>
 
 .. rubric:: Download stats

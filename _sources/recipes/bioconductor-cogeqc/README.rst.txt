@@ -27,7 +27,7 @@ bioconductor-cogeqc
       
       
 
-      ``1.14.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
+      ``1.14.1-0``,  ``1.14.0-0``,  ``1.10.0-0``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-0``
 
       
 
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-cogeqc";
-      var versions = ["1.14.0","1.10.0","1.6.0","1.4.0","1.2.0"];
+      var versions = ["1.14.1","1.14.0","1.10.0","1.6.0","1.4.0"];
    </script>
 
 .. rubric:: Download stats

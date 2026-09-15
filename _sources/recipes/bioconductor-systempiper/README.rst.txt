@@ -29,10 +29,10 @@ bioconductor-systempiper
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.16.3-0</code>,  <code>2.12.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.3-0</code>,  <code>2.4.0-0</code>,  <code>2.0.0-0</code>,  <code>1.26.2-0</code>,  <code>1.24.3-0</code>,  <code>1.24.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.16.4-0</code>,  <code>2.16.3-0</code>,  <code>2.12.0-0</code>,  <code>2.8.0-0</code>,  <code>2.6.3-0</code>,  <code>2.4.0-0</code>,  <code>2.0.0-0</code>,  <code>1.26.2-0</code>,  <code>1.24.3-0</code>,  </span></summary>
       
 
-      ``2.16.3-0``,  ``2.12.0-0``,  ``2.8.0-0``,  ``2.6.3-0``,  ``2.4.0-0``,  ``2.0.0-0``,  ``1.26.2-0``,  ``1.24.3-0``,  ``1.24.2-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.2-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.2-0``,  ``1.9.0-0``,  ``1.4.8-0``,  ``1.4.7-0``
+      ``2.16.4-0``,  ``2.16.3-0``,  ``2.12.0-0``,  ``2.8.0-0``,  ``2.6.3-0``,  ``2.4.0-0``,  ``2.0.0-0``,  ``1.26.2-0``,  ``1.24.3-0``,  ``1.24.2-0``,  ``1.22.0-0``,  ``1.20.0-0``,  ``1.18.2-0``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.0-0``,  ``1.10.2-0``,  ``1.9.0-0``,  ``1.4.8-0``,  ``1.4.7-0``
 
       
       .. raw:: html
@@ -129,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-systempiper";
-      var versions = ["2.16.3","2.12.0","2.8.0","2.6.3","2.4.0"];
+      var versions = ["2.16.4","2.16.3","2.12.0","2.8.0","2.6.3"];
    </script>
 
 .. rubric:: Download stats

@@ -12,7 +12,7 @@ bioconductor-biocmake
 
    CMake for Bioconductor
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/biocmake.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/biocmake.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-biocmake <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocmake>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocmake/meta.yaml>`_
 
@@ -27,12 +27,12 @@ bioconductor-biocmake
       
       
 
-      ``1.2.0-0``
+      ``1.4.0-0``,  ``1.2.0-0``
 
       
 
    
-   :depends on bioconductor-dir.expiry: ``>=1.18.0,<1.19.0``
+   :depends on bioconductor-dir.expiry: ``>=1.20.0,<1.21.0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
 
    :additional platforms:
@@ -108,7 +108,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-biocmake";
-      var versions = ["1.2.0"];
+      var versions = ["1.4.0","1.2.0"];
    </script>
 
 .. rubric:: Download stats
