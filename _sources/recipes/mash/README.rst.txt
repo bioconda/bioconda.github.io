@@ -43,7 +43,7 @@ mash
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on capnproto: ``>=1.3.0,<1.3.1.0a0``
    :depends on gsl: ``>=2.8,<2.9.0a0``
    :depends on libcblas: ``>=3.9.0,<4.0a0``

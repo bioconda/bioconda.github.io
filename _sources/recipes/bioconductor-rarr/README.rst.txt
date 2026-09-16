@@ -12,7 +12,7 @@ bioconductor-rarr
 
    Read Zarr Files in R
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/Rarr.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/Rarr.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-rarr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rarr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rarr/meta.yaml>`_
 
@@ -27,24 +27,25 @@ bioconductor-rarr
       
       
 
-      ``1.10.1-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``2.0.1-0``,  ``1.10.1-0``,  ``1.6.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
 
    
-   :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
-   :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
-   :depends on bioconductor-delayedarray: ``>=0.36.0,<0.37.0``
-   :depends on bioconductor-delayedarray: ``>=0.36.0,<0.37.0a0``
+   :depends on __osx: ``>=10.13``
+   :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0``
+   :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0a0``
+   :depends on bioconductor-delayedarray: ``>=0.38.2,<0.39.0``
+   :depends on bioconductor-delayedarray: ``>=0.38.2,<0.39.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libgcc: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libstdcxx: ``>=14``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-curl: 
    :depends on r-jsonlite: 
+   :depends on r-lifecycle: 
    :depends on r-paws.storage: 
    :depends on r-r.utils: 
 
@@ -121,7 +122,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-rarr";
-      var versions = ["1.10.1","1.6.0","1.2.0","1.0.0"];
+      var versions = ["2.0.1","1.10.1","1.6.0","1.2.0","1.0.0"];
    </script>
 
 .. rubric:: Download stats

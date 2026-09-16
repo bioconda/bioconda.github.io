@@ -34,8 +34,7 @@ r-hahmmr
    
    :depends on bioconductor-genomicranges: ``>=1.58.0,<1.59.0a0``
    :depends on bioconductor-iranges: ``>=2.40.0,<2.41.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on r-base: ``>=4.4,<4.5.0a0``
    :depends on r-data.table: 
    :depends on r-dplyr: 

@@ -33,7 +33,7 @@ hmmibd
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on python: 
 
    :additional platforms:

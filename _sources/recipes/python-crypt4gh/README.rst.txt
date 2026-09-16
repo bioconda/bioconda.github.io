@@ -34,7 +34,7 @@ python-crypt4gh
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on bcrypt: 
    :depends on cryptography: 
    :depends on docopt-ng: 

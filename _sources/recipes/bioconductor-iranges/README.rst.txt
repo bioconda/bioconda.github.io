@@ -41,7 +41,7 @@ bioconductor-iranges
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0``
    :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0a0``
    :depends on bioconductor-s4vectors: ``>=0.50.2,<0.51.0``

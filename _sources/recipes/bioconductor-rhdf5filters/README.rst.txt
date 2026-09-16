@@ -12,7 +12,7 @@ bioconductor-rhdf5filters
 
    HDF5 Compression Filters
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/rhdf5filters.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/rhdf5filters.html
    :license: BSD_2_clause + file LICENSE
    :recipe: /`bioconductor-rhdf5filters <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhdf5filters>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhdf5filters/meta.yaml>`_
    :links: biotools: :biotools:`rhdf5filters`
@@ -29,10 +29,10 @@ bioconductor-rhdf5filters
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.22.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.14.1-1</code>,  <code>1.14.1-0</code>,  <code>1.12.1-1</code>,  <code>1.12.1-0</code>,  <code>1.10.0-1</code>,  <code>1.10.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.24.1-0</code>,  <code>1.22.0-0</code>,  <code>1.18.0-1</code>,  <code>1.18.0-0</code>,  <code>1.14.1-1</code>,  <code>1.14.1-0</code>,  <code>1.12.1-1</code>,  <code>1.12.1-0</code>,  <code>1.10.0-1</code>,  </span></summary>
       
 
-      ``1.22.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.14.1-1``,  ``1.14.1-0``,  ``1.12.1-1``,  ``1.12.1-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``1.24.1-0``,  ``1.22.0-0``,  ``1.18.0-1``,  ``1.18.0-0``,  ``1.14.1-1``,  ``1.14.1-0``,  ``1.12.1-1``,  ``1.12.1-0``,  ``1.10.0-1``,  ``1.10.0-0``,  ``1.6.0-2``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.0-0``,  ``1.2.0-1``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -41,13 +41,14 @@ bioconductor-rhdf5filters
       
 
    
-   :depends on bioconductor-rhdf5lib: ``>=1.32.0,<1.33.0``
-   :depends on bioconductor-rhdf5lib: ``>=1.32.0,<1.33.0a0``
+   :depends on __osx: ``>=10.13``
+   :depends on bioconductor-rhdf5lib: ``>=2.0.0,<2.1.0``
+   :depends on bioconductor-rhdf5lib: ``>=2.0.0,<2.1.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on libcxx: ``>=19``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
 
    :additional platforms:
@@ -127,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-rhdf5filters";
-      var versions = ["1.22.0","1.18.0","1.18.0","1.14.1","1.14.1"];
+      var versions = ["1.24.1","1.22.0","1.18.0","1.18.0","1.14.1"];
    </script>
 
 .. rubric:: Download stats

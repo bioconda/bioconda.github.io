@@ -36,8 +36,7 @@ machina
    :depends on boost-cpp: ``>=1.78.0,<1.78.1.0a0``
    :depends on glpk: 
    :depends on lemon: ``>=1.3.1,<1.3.2.0a0``
-   :depends on libgcc-ng: ``>=12``
-   :depends on libstdcxx-ng: ``>=12``
+   :depends on libcxx: ``>=15.0.7``
    :depends on libzlib: ``>=1.2.13,<1.3.0a0``
 
    :additional platforms:

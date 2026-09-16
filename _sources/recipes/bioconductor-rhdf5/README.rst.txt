@@ -12,7 +12,7 @@ bioconductor-rhdf5
 
    R Interface to HDF5
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/rhdf5.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/rhdf5.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rhdf5 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhdf5>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhdf5/meta.yaml>`_
    :links: biotools: :biotools:`rhdf5`
@@ -29,10 +29,10 @@ bioconductor-rhdf5
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.54.1-0</code>,  <code>2.50.0-1</code>,  <code>2.50.0-0</code>,  <code>2.46.1-1</code>,  <code>2.46.1-0</code>,  <code>2.44.0-1</code>,  <code>2.44.0-0</code>,  <code>2.42.0-2</code>,  <code>2.42.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.56.1-0</code>,  <code>2.54.1-0</code>,  <code>2.50.0-1</code>,  <code>2.50.0-0</code>,  <code>2.46.1-1</code>,  <code>2.46.1-0</code>,  <code>2.44.0-1</code>,  <code>2.44.0-0</code>,  <code>2.42.0-2</code>,  </span></summary>
       
 
-      ``2.54.1-0``,  ``2.50.0-1``,  ``2.50.0-0``,  ``2.46.1-1``,  ``2.46.1-0``,  ``2.44.0-1``,  ``2.44.0-0``,  ``2.42.0-2``,  ``2.42.0-1``,  ``2.42.0-0``,  ``2.38.1-0``,  ``2.38.0-2``,  ``2.38.0-1``,  ``2.36.0-2``,  ``2.34.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.28.0-0``,  ``2.26.2-2``,  ``2.26.2-1``,  ``2.26.2-0``,  ``2.26.1-0``,  ``2.26.0-2``,  ``2.26.0-1``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.16.0-1``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-0``
+      ``2.56.1-0``,  ``2.54.1-0``,  ``2.50.0-1``,  ``2.50.0-0``,  ``2.46.1-1``,  ``2.46.1-0``,  ``2.44.0-1``,  ``2.44.0-0``,  ``2.42.0-2``,  ``2.42.0-1``,  ``2.42.0-0``,  ``2.38.1-0``,  ``2.38.0-2``,  ``2.38.0-1``,  ``2.36.0-2``,  ``2.34.0-1``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.0-0``,  ``2.28.0-1``,  ``2.28.0-0``,  ``2.26.2-2``,  ``2.26.2-1``,  ``2.26.2-0``,  ``2.26.1-0``,  ``2.26.0-2``,  ``2.26.0-1``,  ``2.26.0-0``,  ``2.24.0-0``,  ``2.22.0-0``,  ``2.20.0-1``,  ``2.20.0-0``,  ``2.16.0-1``,  ``2.16.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-0``
 
       
       .. raw:: html
@@ -41,15 +41,16 @@ bioconductor-rhdf5
       
 
    
-   :depends on bioconductor-rhdf5filters: ``>=1.22.0,<1.23.0``
-   :depends on bioconductor-rhdf5filters: ``>=1.22.0,<1.23.0a0``
-   :depends on bioconductor-rhdf5lib: ``>=1.32.0,<1.33.0``
-   :depends on bioconductor-rhdf5lib: ``>=1.32.0,<1.33.0a0``
+   :depends on __osx: ``>=10.13``
+   :depends on bioconductor-rhdf5filters: ``>=1.24.1,<1.25.0``
+   :depends on bioconductor-rhdf5filters: ``>=1.24.1,<1.25.0a0``
+   :depends on bioconductor-rhdf5lib: ``>=2.0.0,<2.1.0``
+   :depends on bioconductor-rhdf5lib: ``>=2.0.0,<2.1.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on libcxx: ``>=19``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
 
    :additional platforms:
@@ -129,7 +130,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-rhdf5";
-      var versions = ["2.54.1","2.50.0","2.50.0","2.46.1","2.46.1"];
+      var versions = ["2.56.1","2.54.1","2.50.0","2.50.0","2.46.1"];
    </script>
 
 .. rubric:: Download stats

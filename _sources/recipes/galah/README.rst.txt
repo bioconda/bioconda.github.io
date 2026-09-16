@@ -42,7 +42,7 @@ galah
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on barrnap: ``>=0.9``
    :depends on checkm2: ``>=1.1.0``
    :depends on fastani: ``>=1.34``

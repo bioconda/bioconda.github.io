@@ -41,7 +41,7 @@ bioconductor-dnacopy
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on libgfortran: 
    :depends on libgfortran5: ``>=14.3.0``

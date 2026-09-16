@@ -12,7 +12,7 @@ bioconductor-rhdf5lib
 
    hdf5 library as an R package
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/Rhdf5lib.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/Rhdf5lib.html
    :license: Artistic-2.0
    :recipe: /`bioconductor-rhdf5lib <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhdf5lib>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhdf5lib/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-rhdf5lib
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.32.0-0</code>,  <code>1.28.0-0</code>,  <code>1.24.0-2</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  <code>1.22.0-0</code>,  <code>1.20.0-2</code>,  <code>1.20.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.0-0</code>,  <code>1.32.0-0</code>,  <code>1.28.0-0</code>,  <code>1.24.0-2</code>,  <code>1.24.0-1</code>,  <code>1.24.0-0</code>,  <code>1.22.0-1</code>,  <code>1.22.0-0</code>,  <code>1.20.0-2</code>,  </span></summary>
       
 
-      ``1.32.0-0``,  ``1.28.0-0``,  ``1.24.0-2``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-2``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.16.0-2``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.3-0``,  ``1.4.2-3``,  ``1.4.2-2``,  ``1.2.1-0``,  ``1.0.0-0``
+      ``2.0.0-0``,  ``1.32.0-0``,  ``1.28.0-0``,  ``1.24.0-2``,  ``1.24.0-1``,  ``1.24.0-0``,  ``1.22.0-1``,  ``1.22.0-0``,  ``1.20.0-2``,  ``1.20.0-1``,  ``1.20.0-0``,  ``1.16.0-2``,  ``1.16.0-1``,  ``1.16.0-0``,  ``1.14.0-0``,  ``1.12.1-0``,  ``1.12.0-0``,  ``1.10.0-0``,  ``1.8.0-0``,  ``1.6.0-1``,  ``1.6.0-0``,  ``1.4.3-0``,  ``1.4.2-3``,  ``1.4.2-2``,  ``1.2.1-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -40,10 +40,12 @@ bioconductor-rhdf5lib
       
 
    
+   :depends on __osx: ``>=10.13``
+   :depends on bioconductor-biocmake: ``>=1.4.0,<1.5.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
 
    :additional platforms:
@@ -123,7 +125,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-rhdf5lib";
-      var versions = ["1.32.0","1.28.0","1.24.0","1.24.0","1.24.0"];
+      var versions = ["2.0.0","1.32.0","1.28.0","1.24.0","1.24.0"];
    </script>
 
 .. rubric:: Download stats

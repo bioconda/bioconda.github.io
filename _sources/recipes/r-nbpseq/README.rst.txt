@@ -40,7 +40,7 @@ r-nbpseq
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on bioconductor-qvalue: ``>=2.42.0,<2.43.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
 

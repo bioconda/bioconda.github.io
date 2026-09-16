@@ -35,7 +35,7 @@ minimac4
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on bcftools: ``>=1.24,<2.0a0``
    :depends on cget: 
    :depends on libcxx: ``>=13.0.1``

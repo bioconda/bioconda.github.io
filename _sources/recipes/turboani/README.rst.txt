@@ -34,7 +34,7 @@ turboani
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on fontconfig: ``>=2.18.3,<3.0a0``
    :depends on fonts-conda-ecosystem: 
    :depends on freetype: 

@@ -43,8 +43,8 @@ longshot
       
 
    
-   :depends on libcxx: ``>=18``
-   :depends on liblzma: ``>=5.6.3,<6.0a0``
+   :depends on libcxx: ``>=19``
+   :depends on liblzma: ``>=5.8.2,<6.0a0``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
 
    :additional platforms:

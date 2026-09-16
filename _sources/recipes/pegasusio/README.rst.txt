@@ -42,7 +42,7 @@ pegasusio
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on anndata: ``>=0.12``
    :depends on docopt: 
    :depends on h5py: ``>=3.0.0``

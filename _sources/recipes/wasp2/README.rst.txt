@@ -39,7 +39,7 @@ wasp2
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on anndata: ``>=0.8.0,<0.12.0``
    :depends on bcftools: 
    :depends on bedtools: 

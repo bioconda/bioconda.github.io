@@ -34,7 +34,7 @@ qpx
       
       
 
-      ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.2-1``,  ``1.0.2-0``
+      ``1.1.4-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.2-1``,  ``1.0.2-0``
 
       
 
@@ -42,15 +42,15 @@ qpx
    :depends on anndata: ``>=0.9.0``
    :depends on click: ``>=8.1``
    :depends on defusedxml: ``>=0.7.1``
-   :depends on duckdb: ``>=1.1.3``
+   :depends on duckdb: ``>=1.3.0``
    :depends on mudata: ``>=0.3.1``
    :depends on numpy: ``>=1.24``
    :depends on pandas: ``>=2.1``
    :depends on pyarrow: ``>=14.0``
    :depends on pyopenms: ``>=3.3.0,<4.0.0``
-   :depends on python: ``>=3.10``
+   :depends on python: ``>=3.10,<3.14``
    :depends on pyyaml: ``>=6.0``
-   :depends on scipy: 
+   :depends on scipy: ``>=1.10``
    :depends on sdrf-pipelines: ``>=0.1.6``
 
    :additional platforms:
@@ -126,7 +126,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "qpx";
-      var versions = ["1.1.3","1.1.2","1.1.1","1.1.0","1.0.2"];
+      var versions = ["1.1.4","1.1.3","1.1.2","1.1.1","1.1.0"];
    </script>
 
 .. rubric:: Download stats

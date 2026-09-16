@@ -40,7 +40,7 @@ rmats
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on gsl: ``>=2.7,<2.8.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on libcxx: ``>=19``
@@ -51,6 +51,7 @@ rmats
    :depends on numpy: ``>=1.21,<3``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
+   :depends on star: ``>=2.5``
    :depends on zlib: 
 
    :additional platforms:

@@ -39,7 +39,7 @@ vepyr
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on _python_abi3_support: ``1.*``
    :depends on cpython: ``>=3.10``
    :depends on libcxx: ``>=19``

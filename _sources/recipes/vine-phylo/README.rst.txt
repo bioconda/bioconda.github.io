@@ -33,7 +33,7 @@ vine-phylo
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on libblas: ``>=3.9.0,<4.0a0``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on libopenblas: ``>=0.3.34,<1.0a0``

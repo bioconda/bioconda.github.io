@@ -42,7 +42,7 @@ seqwin
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on blast: 
    :depends on libcxx: ``>=19``
    :depends on mash: 

@@ -32,10 +32,10 @@ r-ampvis
       
 
    
-   :depends on bioconductor-biostrings: ``>=2.74.0,<2.75.0a0``
-   :depends on bioconductor-deseq2: ``>=1.46.0,<1.47.0a0``
-   :depends on bioconductor-phyloseq: ``>=1.50.0,<1.51.0a0``
-   :depends on r-base: ``>=4.4,<4.5.0a0``
+   :depends on bioconductor-biostrings: ``>=2.78.0,<2.79.0a0``
+   :depends on bioconductor-deseq2: ``>=1.50.2,<1.51.0a0``
+   :depends on bioconductor-phyloseq: ``>=1.54.0,<1.55.0a0``
+   :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-data.table: 
    :depends on r-dplyr: 
    :depends on r-ggdendro: 

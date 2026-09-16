@@ -32,8 +32,7 @@ gerp
       
 
    
-   :depends on libgcc-ng: ``>=9.3.0``
-   :depends on libstdcxx-ng: ``>=9.3.0``
+   :depends on libcxx: ``>=11.1.0``
 
    :additional platforms:
       

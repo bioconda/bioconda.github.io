@@ -41,6 +41,7 @@ treeswirl
    :depends on libcxx: ``>=18``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
    :depends on llvm-openmp: ``>=18.1.8``
+   :depends on mkl: 
    :depends on openblas: 
 
    :additional platforms:

@@ -34,7 +34,7 @@ harmonypy
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on armadillo: ``>=15.4,<16.0a0``
    :depends on libcxx: ``>=19``
    :depends on numpy: 

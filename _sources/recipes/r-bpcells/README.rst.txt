@@ -33,7 +33,7 @@ r-bpcells
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.15``
    :depends on hdf5: ``>=1.14.3,<1.14.4.0a0``
    :depends on libcxx: ``>=19``
    :depends on libhwy: ``>=1.3.0,<1.4.0a0``

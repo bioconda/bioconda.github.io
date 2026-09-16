@@ -54,7 +54,7 @@ phyml
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on llvm-openmp: ``>=19.1.7``
    :depends on openmpi: ``>=4.1.6,<5.0a0``
 

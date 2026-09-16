@@ -41,7 +41,7 @@ isescan
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on biopython: ``>=1.62``
    :depends on blast: ``>=2.2.31``
    :depends on fastcluster: 

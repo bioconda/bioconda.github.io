@@ -44,8 +44,7 @@ orthologer
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
-   :depends on _openmp_mutex: ``>=4.5``
+   :depends on __osx: ``>=10.13``
    :depends on bash: ``>=4.1``
    :depends on biopython: 
    :depends on blast: 
@@ -54,9 +53,8 @@ orthologer
    :depends on cd-hit: 
    :depends on diamond: 
    :depends on ete3: 
-   :depends on libgcc: ``>=14``
-   :depends on libgomp: 
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on mmseqs2: 
    :depends on numpy: 
    :depends on python: ``>=3.12,<3.13.0a0``

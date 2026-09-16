@@ -32,7 +32,7 @@ iranges
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on biocframe: ``>=0.7.2``
    :depends on biocutils: ``>=0.3.3``
    :depends on compressed-lists: ``>=0.4.3``

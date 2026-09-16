@@ -46,9 +46,9 @@ bismark
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on bowtie2: ``>=2.5.5``
    :depends on hisat2: 
+   :depends on libgcc: ``>=14``
    :depends on minimap2: 
 
    :additional platforms:

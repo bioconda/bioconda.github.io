@@ -43,16 +43,16 @@ freebayes
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on bzip2: ``>=1.0.8,<2.0a0``
-   :depends on htslib: ``>=1.21,<1.22.0a0``
+   :depends on htslib: ``>=1.23.1,<1.25.0a0``
    :depends on libcxx: ``>=19``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on parallel: 
    :depends on samtools: 
    :depends on seqlib: ``>=1.2.0,<2.0a0``
-   :depends on vcflib: ``>=1.0.14,<2.0a0``
+   :depends on vcflib: ``>=1.0.12,<2.0a0``
 
    :additional platforms:
       

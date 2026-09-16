@@ -28,10 +28,10 @@ atol-bpa-datamapper
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.0-0</code>,  <code>0.1.17-0</code>,  <code>0.1.16-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.5.0-0</code>,  <code>0.4.3-0</code>,  <code>0.4.2-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.3.1-0</code>,  <code>0.3.0-0</code>,  <code>0.2.0-0</code>,  <code>0.1.17-0</code>,  </span></summary>
       
 
-      ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.17-0``,  ``0.1.16-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
+      ``0.5.0-0``,  ``0.4.3-0``,  ``0.4.2-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.3.1-0``,  ``0.3.0-0``,  ``0.2.0-0``,  ``0.1.17-0``,  ``0.1.16-0``,  ``0.1.14-0``,  ``0.1.13-0``,  ``0.1.12-0``,  ``0.1.11-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.8-0``,  ``0.1.7-0``,  ``0.1.6-0``,  ``0.1.5-0``,  ``0.1.4-0``,  ``0.1.3-0``,  ``0.1.2-0``,  ``0.1.1-0``
 
       
       .. raw:: html
@@ -41,6 +41,7 @@ atol-bpa-datamapper
 
    
    :depends on ckanapi: ``>=4.8``
+   :depends on jq: 
    :depends on jsonlines: ``>=4.0.0``
    :depends on python: ``>=3.12,<3.13``
    :depends on scikit-bio: ``>=0.6.3``
@@ -118,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "atol-bpa-datamapper";
-      var versions = ["0.4.3","0.4.2","0.4.1","0.4.0","0.3.1"];
+      var versions = ["0.5.0","0.4.3","0.4.2","0.4.1","0.4.0"];
    </script>
 
 .. rubric:: Download stats

@@ -43,10 +43,11 @@ trust4
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __osx: ``>=10.13``
    :depends on libcxx: ``>=19``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on perl: 
+   :depends on samtools: ``>=0.1.19,<0.2.0a0``
 
    :additional platforms:
       
