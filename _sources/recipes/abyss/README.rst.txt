@@ -44,7 +44,7 @@ abyss
 
    
    :depends on boost-cpp: 
-   :depends on btllib: ``>=1.7.3,<2.0a0``
+   :depends on btllib: ``>=1.7.5,<2.0a0``
    :depends on libcxx: ``>=19``
    :depends on make: 
    :depends on openmpi: ``>=4.1.6,<5.0a0``

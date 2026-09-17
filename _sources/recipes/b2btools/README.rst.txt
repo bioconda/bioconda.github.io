@@ -16,13 +16,14 @@ b2btools
    :documentation: https://bio2byte.be/b2btools/package-documentation
    
    :developer docs: https://bitbucket.org/bio2byte/b2btools_releases
-   :license: GPL3 / GPL-3.0-or-later
+   :license: `GPL3 / GPL-3.0-or-later <https://www.gnu.org/licenses/gpl-3.0.html>`_
    :recipe: /`b2btools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b2btools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b2btools/meta.yaml>`_
    :links: doi: :doi:`10.1093/nar/gkab425`, doi: :doi:`10.3389/fmolb.2022.959956`, doi: :doi:`10.1038/ncomms3741`, doi: :doi:`10.1016/j.jmb.2022.167579`, doi: :doi:`10.1038/s41598-017-08366-3`, doi: :doi:`10.1093/bioinformatics/btz912`, doi: :doi:`10.1093/bioinformatics/btz274`, doi: :doi:`10.1093/nar/gkaa391`, biotools: :biotools:`b2btools`
 
    This package provides you with structural predictions for protein sequences made by the Bio2Byte group which researches the relation between protein sequence and biophysical behavior.
 
    List of available predictors\:
+
    1. DynaMine\: Fast predictor of protein backbone dynamics using only sequence information as input. The version here also predicts side\-chain dynamics and secondary structure predictors using the same principle.
    2. DisoMine\: Predicts protein disorder with recurrent neural networks not directly from the amino acid sequence\, but instead from more generic predictions of key biophysical properties\, here protein dynamics\, secondary structure\, and early folding.
    3. EfoldMine\: Predicts from the primary amino acid sequence of a protein\, which amino acids are likely involved in early folding events.
@@ -40,23 +41,22 @@ b2btools
       
       
 
-      ``3.0.8-0``,  ``3.0.7-3``,  ``3.0.7-2``,  ``3.0.7-1``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.4-0``
+      ``3.0.9-0``,  ``3.0.8-0``,  ``3.0.7-3``,  ``3.0.7-2``,  ``3.0.7-1``,  ``3.0.7-0``,  ``3.0.6-0``,  ``3.0.5-0``,  ``3.0.4-0``
 
       
 
    
-   :depends on biopython: ``>=1.81``
+   :depends on biopython: ``>=1.79``
    :depends on hmmer: ``>=3.4``
    :depends on matplotlib-base: ``>=3.5``
-   :depends on numpy: ``>=1.24,<1.25``
-   :depends on pandas: ``>=1.1,<2``
-   :depends on python: ``>=3.9``
-   :depends on pytorch: ``>=2.2.0``
+   :depends on numpy: ``>=1.24``
+   :depends on pandas: ``>=1.1``
+   :depends on python: ``>=3.9,<3.15``
+   :depends on pytorch-cpu: ``>=1.13``
    :depends on requests: ``>=2,<3``
    :depends on scikit-learn: ``>=1.0.2``
-   :depends on scipy: ``>=1.10.1``
+   :depends on scipy: ``>=1.10``
    :depends on t-coffee: 
-   :depends on urllib3: ``>=1.26``
 
    :additional platforms:
       
@@ -131,7 +131,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "b2btools";
-      var versions = ["3.0.8","3.0.7","3.0.7","3.0.7","3.0.7"];
+      var versions = ["3.0.9","3.0.8","3.0.7","3.0.7","3.0.7"];
    </script>
 
 .. rubric:: Download stats

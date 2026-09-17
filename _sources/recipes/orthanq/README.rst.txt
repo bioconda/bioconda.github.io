@@ -42,7 +42,7 @@ orthanq
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on bwa: 
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on coin-or-cbc: ``>=2.10.13,<2.11.0a0``

@@ -44,7 +44,7 @@ bali-phy
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on cairo: ``>=1.18.4,<2.0a0``
    :depends on fmt: ``>=12.2.0,<12.3.0a0``
    :depends on gnuplot: 

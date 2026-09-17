@@ -41,7 +41,7 @@ bioconductor-rhdf5filters
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on bioconductor-rhdf5lib: ``>=2.0.0,<2.1.0``
    :depends on bioconductor-rhdf5lib: ``>=2.0.0,<2.1.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``

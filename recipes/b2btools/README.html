@@ -484,7 +484,7 @@
 <dd class="field-odd"><p><a class="reference external" href="https://bitbucket.org/bio2byte/b2btools_releases">https://bitbucket.org/bio2byte/b2btools_releases</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>GPL3 / GPL-3.0-or-later</p>
+<dd class="field-even"><p><a class="reference external" href="https://www.gnu.org/licenses/gpl-3.0.html">GPL3 / GPL-3.0-or-later</a></p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b2btools">b2btools</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b2btools/meta.yaml">meta.yaml</a></p>
@@ -494,13 +494,15 @@
 </dd>
 </dl>
 <p>This package provides you with structural predictions for protein sequences made by the Bio2Byte group which researches the relation between protein sequence and biophysical behavior.</p>
-<p>List of available predictors:
-1. DynaMine: Fast predictor of protein backbone dynamics using only sequence information as input. The version here also predicts side-chain dynamics and secondary structure predictors using the same principle.
-2. DisoMine: Predicts protein disorder with recurrent neural networks not directly from the amino acid sequence, but instead from more generic predictions of key biophysical properties, here protein dynamics, secondary structure, and early folding.
-3. EfoldMine: Predicts from the primary amino acid sequence of a protein, which amino acids are likely involved in early folding events.
-4. AgMata: Single-sequence-based predictor of protein regions that are likely to cause beta-aggregation.
-5. PSPer: PSP (Phase Separating Protein) predicts whether a protein is likely to phase-separate with a particular mechanism involving RNA interacts (FUS-like proteins).
-6. ShiftCrypt: Auto-encoding NMR chemical shifts from their native vector space to a residue-level biophysical index.</p>
+<p>List of available predictors:</p>
+<ol class="arabic simple">
+<li><p>DynaMine: Fast predictor of protein backbone dynamics using only sequence information as input. The version here also predicts side-chain dynamics and secondary structure predictors using the same principle.</p></li>
+<li><p>DisoMine: Predicts protein disorder with recurrent neural networks not directly from the amino acid sequence, but instead from more generic predictions of key biophysical properties, here protein dynamics, secondary structure, and early folding.</p></li>
+<li><p>EfoldMine: Predicts from the primary amino acid sequence of a protein, which amino acids are likely involved in early folding events.</p></li>
+<li><p>AgMata: Single-sequence-based predictor of protein regions that are likely to cause beta-aggregation.</p></li>
+<li><p>PSPer: PSP (Phase Separating Protein) predicts whether a protein is likely to phase-separate with a particular mechanism involving RNA interacts (FUS-like proteins).</p></li>
+<li><p>ShiftCrypt: Auto-encoding NMR chemical shifts from their native vector space to a residue-level biophysical index.</p></li>
+</ol>
 </dd></dl>
 
 <dl class="conda package">
@@ -509,22 +511,21 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/b2btools"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/b2btools.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/b2btools"><img alt="docker_b2btools" src="https://quay.io/repository/biocontainers/b2btools/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">3.0.8-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.7-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.7-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.7-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.7-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.4-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">3.0.9-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.8-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.7-3</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.7-2</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.7-1</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.7-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.6-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.5-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">3.0.4-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">biopython</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.81</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">biopython</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.79</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">hmmer</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=3.4</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">matplotlib-base</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=3.5</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">numpy</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.24,&lt;1.25</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pandas</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.1,&lt;2</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=3.9</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pytorch</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=2.2.0</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">numpy</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.24</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pandas</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.1</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=3.9,&lt;3.15</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pytorch-cpu</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.13</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">requests</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=2,&lt;3</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">scikit-learn</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.0.2</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">scipy</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.10.1</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">scipy</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.10</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">t-coffee</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">urllib3</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.26</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
@@ -583,7 +584,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "b2btools";
-   var versions = ["3.0.8","3.0.7","3.0.7","3.0.7","3.0.7"];
+   var versions = ["3.0.9","3.0.8","3.0.7","3.0.7","3.0.7"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_b2btools"></div>
 <div style="width: 100%" id="platform_plot_b2btools"></div>

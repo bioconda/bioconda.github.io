@@ -40,7 +40,7 @@ perl-datetime-timezone
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on libcxx: ``>=19``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-app-cpanminus: 
@@ -49,7 +49,7 @@ perl-datetime-timezone
    :depends on perl-params-validationcompiler: ``0.31.*``
    :depends on perl-specio: ``0.53.*``
    :depends on perl-test-fatal: ``0.016.*``
-   :depends on perl-try-tiny: ``0.31.*``
+   :depends on perl-try-tiny: ``0.32.*``
 
    :additional platforms:
       

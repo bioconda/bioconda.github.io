@@ -40,7 +40,7 @@ starseqr
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on gffread: 
    :depends on intervaltree_bio: 
    :depends on networkx: 

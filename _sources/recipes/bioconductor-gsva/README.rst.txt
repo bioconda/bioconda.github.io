@@ -41,7 +41,6 @@ bioconductor-gsva
       
 
    
-   :depends on __osx: ``>=10.13``
    :depends on bioconductor-biobase: ``>=2.70.0,<2.71.0``
    :depends on bioconductor-biobase: ``>=2.70.0,<2.71.0a0``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
@@ -75,6 +74,7 @@ bioconductor-gsva
    :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0``
    :depends on bioconductor-summarizedexperiment: ``>=1.40.0,<1.41.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``

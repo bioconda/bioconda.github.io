@@ -40,7 +40,7 @@ pyslow5
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on numpy: ``>=1.21,<3``
    :depends on numpy: ``>=2.2.6,<3.0a0``

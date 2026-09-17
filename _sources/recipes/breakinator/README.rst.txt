@@ -32,7 +32,7 @@ breakinator
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on htslib: ``>=1.24,<1.25.0a0``
    :depends on libcurl: ``>=8.21.0,<9.0a0``
    :depends on liblzma: ``>=5.8.3,<6.0a0``

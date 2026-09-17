@@ -41,7 +41,7 @@ bioconductor-scran
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on bioconductor-beachmat: ``>=2.26.0,<2.27.0``
    :depends on bioconductor-beachmat: ``>=2.26.0,<2.27.0a0``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``

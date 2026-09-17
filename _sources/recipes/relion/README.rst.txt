@@ -43,15 +43,14 @@ relion
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
+   :depends on __osx: ``>=11.0``
    :depends on fftw: ``>=3.3.11,<4.0a0``
    :depends on ghostscript: 
-   :depends on libgcc: ``>=14``
-   :depends on libgomp: 
+   :depends on libcxx: ``>=19``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
    :depends on libpng: ``>=1.6.58,<1.7.0a0``
-   :depends on libstdcxx: ``>=14``
    :depends on libtiff: ``>=4.7.2,<4.8.0a0``
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on openmpi: ``>=4.1.6,<5.0a0``
    :depends on pytorch: 
    :depends on zstd: ``>=1.5.7,<1.6.0a0``

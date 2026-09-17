@@ -34,7 +34,7 @@ deepchopper
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on datasets: ``>=3.0.0``
    :depends on deepchopper-cli: ``>=1.3.1``
    :depends on evaluate: ``>=0.4.3``

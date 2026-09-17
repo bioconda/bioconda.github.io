@@ -10,10 +10,12 @@ propy3
    :replaces_section_title:
    :noindex:
 
-   Python library for calculating various protein descriptors from protein sequences
+   Python library for calculating various protein descriptors from protein sequences.
 
    :homepage: https://github.com/MartinThoma/propy3
-   :license: GPL / GPLv2
+   :documentation: https://propy3.readthedocs.io
+   
+   :license: GPL / GPL-2.0-only
    :recipe: /`propy3 <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/propy3>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/propy3/meta.yaml>`_
 
    
@@ -27,12 +29,12 @@ propy3
       
       
 
-      ``1.1.1-0``,  ``1.1.0-0``
+      ``2.0.1-0``,  ``1.1.1-0``,  ``1.1.0-0``
 
       
 
    
-   :depends on python: ``>=3.6``
+   :depends on python: ``>=3.10``
    :depends on urllib3: 
 
    :additional platforms:
@@ -108,7 +110,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "propy3";
-      var versions = ["1.1.1","1.1.0"];
+      var versions = ["2.0.1","1.1.1","1.1.0"];
    </script>
 
 .. rubric:: Download stats

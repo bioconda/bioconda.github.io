@@ -41,7 +41,7 @@ bioconductor-s4vectors
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0``
    :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``

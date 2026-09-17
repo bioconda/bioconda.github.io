@@ -32,7 +32,7 @@ bioconductor-mia
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __osx: ``>=11.0``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
    :depends on bioconductor-biocparallel: ``>=1.44.0,<1.45.0``
