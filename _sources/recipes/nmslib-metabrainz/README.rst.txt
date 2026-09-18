@@ -32,7 +32,8 @@ nmslib-metabrainz
       
 
    
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on numpy: ``>=1.21,<3``
    :depends on psutil: 
    :depends on pybind11: ``>=2.2.3``

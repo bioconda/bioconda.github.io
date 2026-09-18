@@ -37,9 +37,10 @@ acedrg
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on gemmi: 
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on networkx: 
    :depends on numpy: 
    :depends on pdbecif: 

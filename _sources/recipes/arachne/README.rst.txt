@@ -39,6 +39,7 @@ arachne
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bwa: ``>=0.7.19,<0.8``
    :depends on libgcc: ``>=14``
    :depends on libjemalloc: ``>=5.3.1``

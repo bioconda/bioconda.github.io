@@ -33,13 +33,14 @@ meta-sparse
 
    
    :depends on bowtie2: 
+   :depends on libgcc-ng: ``>=10.3.0``
    :depends on mash: 
    :depends on msgpack-python: 
    :depends on numpy: 
    :depends on pandas: 
    :depends on pycapnp: 
    :depends on python: ``>=2.7,<2.8.0a0``
-   :depends on python_abi: ``2.7.* *_cp27m``
+   :depends on python_abi: ``2.7.* *_cp27mu``
    :depends on samtools: 
    :depends on scipy: 
 

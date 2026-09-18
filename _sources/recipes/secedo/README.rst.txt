@@ -41,13 +41,15 @@ secedo
       
 
    
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on arpack: ``>=3.9.1,<3.10.0a0 nompi_*``
    :depends on hdf5: ``>=1.14.3,<1.14.4.0a0``
    :depends on jsoncpp: ``>=1.9.6,<1.9.7.0a0``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libgomp: 
    :depends on liblapack: ``>=3.9.0,<4.0a0``
+   :depends on libstdcxx: ``>=13``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on llvm-openmp: ``>=18.1.8``
    :depends on openblas: 
 
    :additional platforms:

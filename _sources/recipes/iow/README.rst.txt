@@ -44,6 +44,7 @@ iow
 
    
    :depends on click: 
+   :depends on libgcc: ``>=13``
    :depends on numpy: ``>=1.21,<3``
    :depends on numpy: ``>=2.2.5,<3.0a0``
    :depends on pandas: 

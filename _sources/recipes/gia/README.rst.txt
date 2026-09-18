@@ -34,9 +34,11 @@ gia
    
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on libcurl: ``>=8.8.0,<9.0a0``
-   :depends on libcxx: ``>=16``
    :depends on libdeflate: ``>=1.20,<1.21.0a0``
+   :depends on libgcc-ng: ``>=12``
+   :depends on libstdcxx-ng: ``>=12``
    :depends on libzlib: ``>=1.2.13,<2.0a0``
+   :depends on openssl: ``>=3.3.1,<4.0a0``
    :depends on xz: ``>=5.2.6,<6.0a0``
    :depends on zlib: 
 

@@ -30,10 +30,10 @@ ms2rescore
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.2.1-1</code>,  <code>3.2.1-0</code>,  <code>3.2.0.post1-0</code>,  <code>3.1.5-1</code>,  <code>3.1.5-0</code>,  <code>3.1.4-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-0</code>,  <code>3.0.1-2</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.2-0</code>,  <code>3.2.1-1</code>,  <code>3.2.1-0</code>,  <code>3.2.0.post1-0</code>,  <code>3.1.5-1</code>,  <code>3.1.5-0</code>,  <code>3.1.4-0</code>,  <code>3.0.3-0</code>,  <code>3.0.2-0</code>,  </span></summary>
       
 
-      ``3.2.1-1``,  ``3.2.1-0``,  ``3.2.0.post1-0``,  ``3.1.5-1``,  ``3.1.5-0``,  ``3.1.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-0``,  ``3.0.0b1-1``,  ``3.0.0b1-0``
+      ``4.0.2-0``,  ``3.2.1-1``,  ``3.2.1-0``,  ``3.2.0.post1-0``,  ``3.1.5-1``,  ``3.1.5-0``,  ``3.1.4-0``,  ``3.0.3-0``,  ``3.0.2-0``,  ``3.0.1-2``,  ``3.0.1-1``,  ``3.0.1-0``,  ``3.0.0-0``,  ``3.0.0b1-1``,  ``3.0.0b1-0``
 
       
       .. raw:: html
@@ -45,23 +45,23 @@ ms2rescore
    :depends on cascade-config: ``>=0.4.0``
    :depends on click: ``>=7``
    :depends on customtkinter: ``>=5,<6``
-   :depends on deeplc: ``>=3.1``
-   :depends on deeplcretrainer: 
-   :depends on im2deep: ``>=0.3.1``
+   :depends on deeplc: ``>=4.0.0``
+   :depends on im2deep: ``>=2.0.1``
    :depends on jinja2: ``>=3``
    :depends on lxml: ``>=4.5``
-   :depends on mokapot: ``0.10``
-   :depends on ms2pip: ``>=4.0``
-   :depends on ms2rescore-rs: ``>=0.4.3``
-   :depends on numpy: ``>=1.25``
+   :depends on ms2pip: ``>=4.2.0``
+   :depends on ms2rescore-rs: ``>=0.5.0``
+   :depends on numpy: ``>=1.25,<3.0``
+   :depends on packaging: ``>=25.0``
    :depends on pandas: ``>=1``
    :depends on plotly: ``>=5``
    :depends on psm-utils: ``>=1.1``
-   :depends on pyopenms: ``>=3.0``
+   :depends on pyarrow: ``>=14``
+   :depends on pyopenms: ``>=3.3``
    :depends on pyteomics: ``>=4.7.2``
-   :depends on python: ``>=3.10``
+   :depends on python: ``>=3.11``
    :depends on rich: ``>=12``
-   :depends on sqlalchemy: ``>=2``
+   :depends on ristretto-ms: ``>=0.3.0``
 
    :additional platforms:
       
@@ -136,7 +136,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ms2rescore";
-      var versions = ["3.2.1","3.2.1","3.2.0.post1","3.1.5","3.1.5"];
+      var versions = ["4.0.2","3.2.1","3.2.1","3.2.0.post1","3.1.5"];
    </script>
 
 .. rubric:: Download stats

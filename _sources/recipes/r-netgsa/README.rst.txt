@@ -37,7 +37,8 @@ r-netgsa
    :depends on bioconductor-graph: ``>=1.88.1,<1.89.0a0``
    :depends on bioconductor-graphite: ``>=1.56.0,<1.57.0a0``
    :depends on bioconductor-rcy3: ``>=2.30.1,<2.31.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-corpcor: 
    :depends on r-data.table: 

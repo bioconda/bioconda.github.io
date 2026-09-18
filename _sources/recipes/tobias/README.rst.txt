@@ -45,11 +45,12 @@ tobias
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on adjusttext: 
    :depends on boto3: 
    :depends on importlib-metadata: 
    :depends on kneed: 
+   :depends on libgcc: ``>=14``
    :depends on logomaker: 
    :depends on matplotlib-base: ``>=2``
    :depends on moods: 

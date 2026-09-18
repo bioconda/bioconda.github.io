@@ -10,7 +10,7 @@ snputils
    :replaces_section_title:
    :noindex:
 
-   Process genomes with ease
+   Python toolkit for genetic variation and population genetics workflows
 
    :homepage: https://snputils.org
    :documentation: https://docs.snputils.org
@@ -18,8 +18,18 @@ snputils
    :developer docs: https://github.com/AI-sandbox/snputils
    :license: BSD / BSD-3-Clause
    :recipe: /`snputils <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snputils>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snputils/meta.yaml>`_
+   :links: doi: :doi:`10.64898/2026.02.28.708618`
 
-   
+   snputils provides a unified Python interface for reading\, processing\,
+   analyzing\, and visualizing genotype\, ancestry\, phenotype\, and
+   identity\-by\-descent \(IBD\) data. It supports common genomic formats\,
+   including VCF\, BCF\, BGEN\, PLINK BED and PGEN\, and local and global
+   ancestry formats. Analysis tools include genotype quality control\,
+   allele frequencies\, population genetic statistics\, principal component
+   analysis \(PCA\)\, genome\-wide association studies \(GWAS\)\, and admixture
+   mapping. Built\-in visualizations include population structure plots\,
+   chromosome paintings\, admixture plots\, and association plots.
+
 
 
 .. conda:package:: snputils
@@ -30,15 +40,16 @@ snputils
       
       
 
-      ``1.1.1-0``,  ``1.1.0-0``
+      ``1.1.1-1``,  ``1.1.1-0``,  ``1.1.0-0``
 
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on adjusttext: 
    :depends on cairosvg: 
    :depends on joblib: 
+   :depends on libgcc: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on matplotlib-base: 
    :depends on nbformat: 
@@ -132,7 +143,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "snputils";
-      var versions = ["1.1.1","1.1.0"];
+      var versions = ["1.1.1","1.1.1","1.1.0"];
    </script>
 
 .. rubric:: Download stats

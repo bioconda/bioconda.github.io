@@ -38,7 +38,8 @@ pyfba
    :depends on glpk: ``>=5.0,<6.0a0``
    :depends on importlib_resources: 
    :depends on jupyter: 
-   :depends on libcxx: ``>=15.0.7``
+   :depends on libgcc-ng: ``>=12``
+   :depends on libstdcxx-ng: ``>=12``
    :depends on lxml: 
    :depends on pyglpk: 
    :depends on python: ``>=3.10,<3.11.0a0``

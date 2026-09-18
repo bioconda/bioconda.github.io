@@ -32,7 +32,8 @@ calib
       
 
    
-   :depends on libcxx: ``>=15.0.7``
+   :depends on libgcc-ng: ``>=12``
+   :depends on libstdcxx-ng: ``>=12``
    :depends on libzlib: ``>=1.2.13,<1.3.0a0``
    :depends on zlib: 
 
