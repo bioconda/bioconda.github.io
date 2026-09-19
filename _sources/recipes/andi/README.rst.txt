@@ -43,7 +43,6 @@ andi
    
    :depends on gsl: ``>=2.7,<2.8.0a0``
    :depends on libdivsufsort: ``>=2.0.2,<2.1.0a0``
-   :depends on libgcc: ``>=14``
    :depends on mkl: 
    :depends on openblas: 
 

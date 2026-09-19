@@ -43,12 +43,11 @@ libmaus2
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on _openmp_mutex: ``>=4.5``
    :depends on boost-cpp: 
    :depends on gmp: ``>=6.3.0,<7.0a0``
    :depends on libcurl: ``>=8.21.0,<9.0a0``
-   :depends on libdeflate: ``>=1.23,<1.24.0a0``
+   :depends on libdeflate: ``>=1.22,<1.23.0a0``
    :depends on libgcc: ``>=14``
    :depends on libgomp: 
    :depends on libstdcxx: ``>=14``

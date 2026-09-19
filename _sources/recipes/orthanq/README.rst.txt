@@ -42,7 +42,7 @@ orthanq
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on __osx: ``>=10.13``
    :depends on bwa: 
    :depends on bzip2: ``>=1.0.8,<2.0a0``
    :depends on coin-or-cbc: ``>=2.10.13,<2.11.0a0``
@@ -51,17 +51,14 @@ orthanq
    :depends on gsl: ``>=2.7,<2.8.0a0``
    :depends on htslib: 
    :depends on libcblas: ``>=3.9.0,<4.0a0``
-   :depends on libgcc: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
-   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on minimap2: 
-   :depends on openssl: ``>=3.5.8,<4.0a0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
    :depends on samtools: ``1.20``
    :depends on varlociraptor: ``8.7.3``
-   :depends on vg: ``1.63.1``
 
    :additional platforms:
       

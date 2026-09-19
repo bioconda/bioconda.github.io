@@ -33,8 +33,7 @@ authentict
       
 
    
-   :depends on libgcc-ng: ``>=12``
-   :depends on libstdcxx-ng: ``>=12``
+   :depends on libcxx: ``>=14.0.6``
    :depends on numdifftools: ``>=0.9.39``
    :depends on numpy: ``>=1.17.2``
    :depends on pandas: ``>=0.25.1``

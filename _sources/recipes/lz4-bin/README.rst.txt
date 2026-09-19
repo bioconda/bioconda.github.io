@@ -32,7 +32,6 @@ lz4-bin
       
 
    
-   :depends on libgcc: ``>=13``
 
    :additional platforms:
       

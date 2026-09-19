@@ -32,8 +32,7 @@ equirep
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
 
    :additional platforms:
       

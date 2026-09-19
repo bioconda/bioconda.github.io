@@ -37,14 +37,12 @@ tttrlib
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
    :depends on boost-cpp: 
    :depends on click: 
    :depends on click-didyoumean: 
    :depends on hdf5: ``>=1.14.3,<1.14.4.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libgomp: 
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on matplotlib-base: 
    :depends on numpy: ``>=1.21,<3``
    :depends on python: ``>=3.10,<3.11.0a0``

@@ -30,7 +30,7 @@ isovar
       
       
 
-      ``1.10.1-0``,  ``1.8.5-0``,  ``1.8.0-0``,  ``1.7.10-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.4.24-0``
+      ``1.19.1-0``,  ``1.10.1-0``,  ``1.8.5-0``,  ``1.8.0-0``,  ``1.7.10-0``,  ``1.7.2-0``,  ``1.7.1-0``,  ``1.4.24-0``
 
       
 
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "isovar";
-      var versions = ["1.10.1","1.8.5","1.8.0","1.7.10","1.7.2"];
+      var versions = ["1.19.1","1.10.1","1.8.5","1.8.0","1.7.10"];
    </script>
 
 .. rubric:: Download stats
