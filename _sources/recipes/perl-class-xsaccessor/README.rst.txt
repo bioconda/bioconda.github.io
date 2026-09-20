@@ -32,6 +32,7 @@ perl-class-xsaccessor
       
 
    
+   :depends on libgcc: ``>=13``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-time-hires: ``>=1.9764,<2.0a0``
 

@@ -33,7 +33,8 @@ ngshmmalign
 
    
    :depends on boost: ``>=1.78.0,<1.78.1.0a0``
-   :depends on libcxx: ``>=15.0.7``
+   :depends on libgcc-ng: ``>=12``
+   :depends on libstdcxx-ng: ``>=12``
 
    :additional platforms:
       

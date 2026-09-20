@@ -43,6 +43,7 @@ groot
 
    
    :depends on ca-certificates: 
+   :depends on libgcc: ``>=13``
 
    :additional platforms:
       

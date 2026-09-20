@@ -45,7 +45,8 @@ cortexpy
    :depends on attrs: 
    :depends on biopython: 
    :depends on delegation: 
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on msgpack-python: 
    :depends on networkx: 
    :depends on numpy: 

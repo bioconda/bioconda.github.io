@@ -43,6 +43,7 @@ macs2
       
 
    
+   :depends on libgcc: ``>=13``
    :depends on numpy: ``>=1.19.0``
    :depends on numpy: ``>=1.21,<3``
    :depends on python: ``>=3.10,<3.11.0a0``

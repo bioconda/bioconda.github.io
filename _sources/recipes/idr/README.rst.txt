@@ -41,6 +41,7 @@ idr
       
 
    
+   :depends on libgcc-ng: ``>=12``
    :depends on matplotlib-base: 
    :depends on numpy: ``<1.20``
    :depends on numpy: ``>=1.19.5,<2.0a0``

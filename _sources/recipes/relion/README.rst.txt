@@ -43,6 +43,7 @@ relion
       
 
    
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on _openmp_mutex: ``>=4.5``
    :depends on fftw: ``>=3.3.11,<4.0a0``
    :depends on ghostscript: 
@@ -54,6 +55,8 @@ relion
    :depends on libtiff: ``>=4.7.2,<4.8.0a0``
    :depends on openmpi: ``>=4.1.6,<5.0a0``
    :depends on pytorch: 
+   :depends on tbb: ``>=2022.3.0``
+   :depends on tbb-devel: 
    :depends on zstd: ``>=1.5.7,<1.6.0a0``
 
    :additional platforms:

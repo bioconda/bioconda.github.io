@@ -44,7 +44,7 @@ fraggenescan
       
 
    
-   :depends on libcxx: ``>=14``
+   :depends on libgcc: ``>=13``
    :depends on perl: 
 
    :additional platforms:

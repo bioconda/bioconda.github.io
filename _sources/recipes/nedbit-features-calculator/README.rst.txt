@@ -32,6 +32,7 @@ nedbit-features-calculator
       
 
    
+   :depends on libgcc: ``>=13``
 
    :additional platforms:
       

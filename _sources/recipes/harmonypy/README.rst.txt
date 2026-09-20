@@ -28,15 +28,25 @@ harmonypy
    :versions:
       
       
+      .. raw:: html
 
-      ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``0.2.0-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``
+         <details><summary><span class="truncated-version-list"><code>2.0.2-0</code>,  <code>2.0.0-2</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>0.2.0-0</code>,  <code>0.0.10-0</code>,  <code>0.0.9-0</code>,  <code>0.0.6-0</code>,  <code>0.0.5-0</code>,  </span></summary>
+      
 
+      ``2.0.2-0``,  ``2.0.0-2``,  ``2.0.0-1``,  ``2.0.0-0``,  ``0.2.0-0``,  ``0.0.10-0``,  ``0.0.9-0``,  ``0.0.6-0``,  ``0.0.5-0``,  ``0.0.4-0``
+
+      
+      .. raw:: html
+
+         </details>
       
 
    
-   :depends on __osx: ``>=10.13``
-   :depends on armadillo: ``>=15.4,<16.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on armadillo: ``>=15.6,<16.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libopenblas: ``>=0.3.34,<1.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on numpy: 
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
@@ -118,7 +128,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "harmonypy";
-      var versions = ["2.0.0","2.0.0","2.0.0","0.2.0","0.0.10"];
+      var versions = ["2.0.2","2.0.0","2.0.0","2.0.0","0.2.0"];
    </script>
 
 .. rubric:: Download stats

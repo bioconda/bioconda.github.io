@@ -34,6 +34,7 @@ iscc-sum
    
    :depends on blake3: ``>=1.0.5``
    :depends on click: ``>=8.0.0``
+   :depends on libgcc: ``>=13``
    :depends on pathspec: ``>=0.12.1``
    :depends on python: ``>=3.14,<3.15.0a0``
    :depends on python-xxhash: ``>=3.5.0``

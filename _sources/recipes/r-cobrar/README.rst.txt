@@ -42,12 +42,13 @@ r-cobrar
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on glpk: ``>=4.65``
    :depends on glpk: ``>=5.0,<6.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on libsbml: ``>=5.18.0``
    :depends on libsbml: ``>=5.21.1,<5.22.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-jsonlite: 
    :depends on r-matrix: 

@@ -35,13 +35,14 @@ nordic
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on clingo: ``>=5.6.1``
    :depends on cmappy: ``>=4.0.1``
    :depends on cmappy: ``>=4.0.1,<5.0a0``
    :depends on graphviz: ``>=0.20.1``
    :depends on graphviz: ``>=14.1.2,<15.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on matplotlib-base: 
    :depends on numpy: ``>=1.22.4,!=2.0.*,!=2.1.*``
    :depends on numpy: ``>=1.23,<3``

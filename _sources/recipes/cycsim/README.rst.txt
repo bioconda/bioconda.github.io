@@ -34,10 +34,12 @@ cycsim
       
 
    
+   :depends on _openmp_mutex: ``* *_llvm``
+   :depends on _openmp_mutex: ``>=4.5``
    :depends on curl: 
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on llvm-openmp: ``>=19.1.7``
    :depends on llvm-openmp: ``>=21.1.8``
    :depends on openssl: ``>=3.5.5,<4.0a0``
    :depends on zlib: 

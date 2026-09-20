@@ -30,10 +30,10 @@ yame
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.44-0</code>,  <code>1.43-0</code>,  <code>1.41-0</code>,  <code>1.40-0</code>,  <code>1.37-0</code>,  <code>1.36-0</code>,  <code>1.35-0</code>,  <code>1.33-0</code>,  <code>1.32-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.51-0</code>,  <code>1.50-0</code>,  <code>1.44-0</code>,  <code>1.43-0</code>,  <code>1.41-0</code>,  <code>1.40-0</code>,  <code>1.37-0</code>,  <code>1.36-0</code>,  <code>1.35-0</code>,  </span></summary>
       
 
-      ``1.44-0``,  ``1.43-0``,  ``1.41-0``,  ``1.40-0``,  ``1.37-0``,  ``1.36-0``,  ``1.35-0``,  ``1.33-0``,  ``1.32-0``,  ``1.29-0``,  ``1.10-0``,  ``1.8-0``,  ``1.0.5-0``,  ``1.0.4-0``
+      ``1.51-0``,  ``1.50-0``,  ``1.44-0``,  ``1.43-0``,  ``1.41-0``,  ``1.40-0``,  ``1.37-0``,  ``1.36-0``,  ``1.35-0``,  ``1.33-0``,  ``1.32-0``,  ``1.29-0``,  ``1.10-0``,  ``1.8-0``,  ``1.0.5-0``,  ``1.0.4-0``
 
       
       .. raw:: html
@@ -42,8 +42,9 @@ yame
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on libcurl: ``>=8.22.0,<9.0a0``
+   :depends on libgcc: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
@@ -123,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "yame";
-      var versions = ["1.44","1.43","1.41","1.40","1.37"];
+      var versions = ["1.51","1.50","1.44","1.43","1.41"];
    </script>
 
 .. rubric:: Download stats

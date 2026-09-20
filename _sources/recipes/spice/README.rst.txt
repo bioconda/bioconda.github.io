@@ -13,7 +13,7 @@ spice
    Subclone Probability Inference of Copy\-number Evolution \(SPICE\)
 
    :homepage: https://github.com/zaccaria-lab/SPICE
-   :documentation: https://github.com/zaccaria-lab/SPICE/blob/v0.1.0/README.md
+   :documentation: https://github.com/zaccaria-lab/SPICE/blob/v1.0/README.md
    
    :license: BSD / BSD-3-Clause
    :recipe: /`spice <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spice>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spice/meta.yaml>`_
@@ -29,7 +29,7 @@ spice
       
       
 
-      ``0.1.0-0``
+      ``1.0-0``,  ``0.1.0-0``
 
       
 
@@ -116,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "spice";
-      var versions = ["0.1.0"];
+      var versions = ["1.0","0.1.0"];
    </script>
 
 .. rubric:: Download stats

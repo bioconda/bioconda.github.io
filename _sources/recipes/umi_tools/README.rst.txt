@@ -44,6 +44,7 @@ umi_tools
 
    
    :depends on future: 
+   :depends on libgcc: ``>=13``
    :depends on matplotlib-base: 
    :depends on numpy: ``>=1.7``
    :depends on pandas: ``>=0.12.0``

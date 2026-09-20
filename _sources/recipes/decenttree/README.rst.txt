@@ -34,7 +34,8 @@ decenttree
       
 
    
-   :depends on llvm-openmp: 
+   :depends on libgcc-ng: ``>=12``
+   :depends on libstdcxx-ng: ``>=12``
 
    :additional platforms:
       
