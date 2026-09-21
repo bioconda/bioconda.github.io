@@ -49,7 +49,7 @@ augustus
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on __osx: ``>=11.0``
    :depends on bamtools: ``>=2.5.3,<3.0a0``
    :depends on biopython: 
    :depends on boost-cpp: 
@@ -67,7 +67,7 @@ augustus
    :depends on libcholmod: ``>=5.3.1,<6.0a0``
    :depends on libcolamd: ``>=3.3.4,<4.0a0``
    :depends on libcxsparse: ``>=4.4.1,<5.0a0``
-   :depends on libgcc: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on libklu: ``>=2.3.5,<3.0a0``
    :depends on libldl: ``>=3.3.2,<4.0a0``
    :depends on libparu: ``>=1.0.0,<2.0a0``
@@ -75,7 +75,6 @@ augustus
    :depends on libspex: ``>=3.2.3,<4.0a0``
    :depends on libspqr: ``>=4.3.4,<5.0a0``
    :depends on libsqlite: ``>=3.53.4,<4.0a0``
-   :depends on libstdcxx: ``>=14``
    :depends on libsuitesparseconfig: ``>=7.10.1,<8.0a0``
    :depends on libumfpack: ``>=6.3.5,<7.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``

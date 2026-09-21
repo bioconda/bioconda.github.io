@@ -13,9 +13,11 @@ cctyper
    CRISPRCasTyper\: Automatic detection and subtyping of CRISPR\-Cas operons.
 
    :homepage: https://github.com/Russel88/CRISPRCasTyper
+   :documentation: https://typer.crispr.dk
+   
    :license: MIT / MIT
    :recipe: /`cctyper <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cctyper>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cctyper/meta.yaml>`_
-   :links: doi: :doi:`10.1089/crispr.2020.0059`
+   :links: biotools: :biotools:`crisprcastyper`, doi: :doi:`10.1101/2020.05.15.097824`, doi: :doi:`10.1089/crispr.2020.0059`
 
    
 
@@ -28,31 +30,39 @@ cctyper
       
       
 
-      ``1.8.0-2``,  ``1.8.0-1``,  ``1.8.0-0``
+      ``1.9.0-0``,  ``1.8.0-2``,  ``1.8.0-1``,  ``1.8.0-0``
 
       
 
    
-   :depends on biopython: ``>=1.78,<=1.79``
-   :depends on blast: ``>=2.5,<3``
+   :depends on biopython: ``>=1.76``
+   :depends on blast: ``>=2.5``
    :depends on cairosvg: 
-   :depends on drawsvg: ``>=1.8.0,<2``
+   :depends on diced: ``>=0.1.1``
+   :depends on drawsvg: ``>=2``
    :depends on grep: 
-   :depends on hmmer: ``>=3.0,<4``
+   :depends on hmmer: ``>=3.0``
    :depends on imageio: 
-   :depends on libxgboost: ``>=1.7,<2``
-   :depends on minced: ``>=0.4.2,<0.5``
-   :depends on multiprocess: ``>=0.70.14,<=0.70.15``
-   :depends on numpy: ``>=1.16,<=1.24.3``
-   :depends on pandas: ``>=1.3,<=2.0.3``
-   :depends on prodigal: ``>=2.0,<2.7``
-   :depends on py-xgboost: ``>=1.4,<2``
-   :depends on python: ``>=3.8``
-   :depends on scikit-learn: ``>=1.1.3,<=1.3.0``
-   :depends on scipy: ``>=1,<=1.10.1``
+   :depends on joblib: ``>=1.0``
+   :depends on libxgboost: ``>=1.7``
+   :depends on minced: ``>=0.4.2``
+   :depends on multiprocess: ``>=0.70.14``
+   :depends on myers-batch: 
+   :depends on numpy: ``>=1.17.5``
+   :depends on pandas: ``>=1.3``
+   :depends on prodigal: ``>=2.0``
+   :depends on py-xgboost: ``>=1.4``
+   :depends on pyhmmer: ``>=0.12``
+   :depends on pyrodigal-gv: ``>=0.3``
+   :depends on python: ``>=3.10``
+   :depends on python-edlib: 
+   :depends on scikit-learn: ``>=0.22.0``
+   :depends on scipy: ``>=1.4.1``
    :depends on sed: 
    :depends on setuptools: ``<82``
-   :depends on tqdm: ``>=4.64.1,<=4.66.5``
+   :depends on tqdm: ``>=4``
+   :depends on xgboost: ``>=1.4``
+   :depends on zstandard: 
 
    :additional platforms:
       
@@ -127,7 +137,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "cctyper";
-      var versions = ["1.8.0","1.8.0","1.8.0"];
+      var versions = ["1.9.0","1.8.0","1.8.0","1.8.0"];
    </script>
 
 .. rubric:: Download stats

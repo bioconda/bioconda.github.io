@@ -37,10 +37,10 @@ clipper
 
    
    :depends on libccp4: ``>=8.0.0,<9.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libgfortran: 
+   :depends on libcxx: ``>=18``
+   :depends on libgfortran: ``5.*``
    :depends on libgfortran5: ``>=13.3.0``
-   :depends on libstdcxx: ``>=13``
+   :depends on libgfortran5: ``>=14.2.0``
    :depends on mmdb2: ``>=2.0.22,<3.0a0``
 
    :additional platforms:

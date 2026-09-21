@@ -12,7 +12,7 @@ bioconductor-ncdfflow
 
    ncdfFlow\: A package that provides HDF5 based storage for flow cytometry data.
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/ncdfFlow.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/ncdfFlow.html
    :license: AGPL-3.0-only
    :recipe: /`bioconductor-ncdfflow <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ncdfflow>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ncdfflow/meta.yaml>`_
    :links: biotools: :biotools:`ncdfflow`, doi: :doi:`10.1016/j.copbio.2012.09.003`
@@ -29,10 +29,10 @@ bioconductor-ncdfflow
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.56.0-0</code>,  <code>2.52.0-1</code>,  <code>2.52.0-0</code>,  <code>2.48.0-0</code>,  <code>2.46.0-0</code>,  <code>2.44.0-1</code>,  <code>2.44.0-0</code>,  <code>2.40.0-2</code>,  <code>2.40.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.58.0-0</code>,  <code>2.56.0-0</code>,  <code>2.52.0-1</code>,  <code>2.52.0-0</code>,  <code>2.48.0-0</code>,  <code>2.46.0-0</code>,  <code>2.44.0-1</code>,  <code>2.44.0-0</code>,  <code>2.40.0-2</code>,  </span></summary>
       
 
-      ``2.56.0-0``,  ``2.52.0-1``,  ``2.52.0-0``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.44.0-1``,  ``2.44.0-0``,  ``2.40.0-2``,  ``2.40.0-1``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-2``,  ``2.36.0-1``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.1-0``,  ``2.28.1-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-1``,  ``2.24.0-0``,  ``2.22.2-0``,  ``2.22.0-0``
+      ``2.58.0-0``,  ``2.56.0-0``,  ``2.52.0-1``,  ``2.52.0-0``,  ``2.48.0-0``,  ``2.46.0-0``,  ``2.44.0-1``,  ``2.44.0-0``,  ``2.40.0-2``,  ``2.40.0-1``,  ``2.40.0-0``,  ``2.38.0-0``,  ``2.36.0-2``,  ``2.36.0-1``,  ``2.36.0-0``,  ``2.34.0-0``,  ``2.32.0-0``,  ``2.30.1-0``,  ``2.28.1-0``,  ``2.28.0-0``,  ``2.26.0-0``,  ``2.24.0-1``,  ``2.24.0-0``,  ``2.22.2-0``,  ``2.22.0-0``
 
       
       .. raw:: html
@@ -41,20 +41,20 @@ bioconductor-ncdfflow
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on bioconductor-biobase: ``>=2.70.0,<2.71.0``
    :depends on bioconductor-biobase: ``>=2.70.0,<2.71.0a0``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
-   :depends on bioconductor-flowcore: ``>=2.22.0,<2.23.0``
-   :depends on bioconductor-flowcore: ``>=2.22.1,<2.23.0a0``
+   :depends on bioconductor-flowcore: ``>=2.24.0,<2.25.0``
+   :depends on bioconductor-flowcore: ``>=2.24.0,<2.25.0a0``
    :depends on bioconductor-rhdf5lib: ``>=1.32.0,<1.33.0``
    :depends on bioconductor-rhdf5lib: ``>=1.32.0,<1.33.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libgcc: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libstdcxx: ``>=14``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-bh: 
    :depends on r-cpp11: 
@@ -63,7 +63,7 @@ bioconductor-ncdfflow
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -136,7 +136,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-ncdfflow";
-      var versions = ["2.56.0","2.52.0","2.52.0","2.48.0","2.46.0"];
+      var versions = ["2.58.0","2.56.0","2.52.0","2.52.0","2.48.0"];
    </script>
 
 .. rubric:: Download stats

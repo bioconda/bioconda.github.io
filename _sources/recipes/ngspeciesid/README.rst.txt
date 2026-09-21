@@ -30,16 +30,16 @@ ngspeciesid
       
       
 
-      ``0.3.1-0``
+      ``0.4.1-0``,  ``0.3.1-0``
 
       
 
    
-   :depends on edlib: ``>=1.1.2``
    :depends on medaka: ``>=2.0.1``
    :depends on minimap2: 
    :depends on parasail-python: ``>=1.2.4``
-   :depends on python: ``>=3.10``
+   :depends on python: ``>=3.12,<3.13``
+   :depends on python-edlib: ``>=1.3.9``
    :depends on racon: 
    :depends on samtools: 
    :depends on spoa: 
@@ -117,7 +117,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ngspeciesid";
-      var versions = ["0.3.1"];
+      var versions = ["0.4.1","0.3.1"];
    </script>
 
 .. rubric:: Download stats

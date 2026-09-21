@@ -12,9 +12,10 @@ syntactic
 
    Make syntactically valid names out of strings.
 
-   :homepage: https://python.acidgenomics.com/syntactic/
-   :developer docs: https://github.com/acidgenomics/py-syntactic
-   :license: Apache-2.0
+   :homepage: https://github.com/acidgenomics/py-syntactic
+   :documentation: https://python.acidgenomics.com/syntactic
+   
+   :license: APACHE / Apache-2.0
    :recipe: /`syntactic <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/syntactic>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/syntactic/meta.yaml>`_
 
    
@@ -28,7 +29,7 @@ syntactic
       
       
 
-      ``0.1.0-0``
+      ``0.1.1-0``,  ``0.1.0-0``
 
       
 
@@ -108,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "syntactic";
-      var versions = ["0.1.0"];
+      var versions = ["0.1.1","0.1.0"];
    </script>
 
 .. rubric:: Download stats

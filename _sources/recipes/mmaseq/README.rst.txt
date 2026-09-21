@@ -10,10 +10,10 @@ mmaseq
    :replaces_section_title:
    :noindex:
 
-   Mixed Microbial Analysis on Sequencing data
+   Mixed Microbial Analysis on Sequencing data.
 
    :homepage: https://github.com/ssi-dk/MMASeq
-   :license: MIT
+   :license: MIT / MIT
    :recipe: /`mmaseq <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mmaseq>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mmaseq/meta.yaml>`_
 
    
@@ -27,15 +27,16 @@ mmaseq
       
       
 
-      ``2.1.0-0``,  ``1.0.0-0``
+      ``2.2.0-0``,  ``2.1.0-0``,  ``1.0.0-0``
 
       
 
    
    :depends on conda: 
-   :depends on packaging: ``<26,>=24.0``
+   :depends on packaging: ``>=26.1``
    :depends on pandas: 
    :depends on python: ``>=3.13``
+   :depends on ruamel.yaml: ``<0.19``
    :depends on snakemake: 
 
    :additional platforms:
@@ -111,7 +112,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "mmaseq";
-      var versions = ["2.1.0","1.0.0"];
+      var versions = ["2.2.0","2.1.0","1.0.0"];
    </script>
 
 .. rubric:: Download stats

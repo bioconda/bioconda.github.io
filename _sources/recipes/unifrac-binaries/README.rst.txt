@@ -46,13 +46,12 @@ unifrac-binaries
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
-   :depends on _openmp_mutex: ``>=4.5``
+   :depends on __osx: ``>=11.0``
    :depends on libaec: ``>=1.1.5,<2.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libgomp: 
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=20``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on llvm-openmp: ``>=20.1.8``
+   :depends on llvm-openmp: ``>=23.1.1``
    :depends on lz4: 
    :depends on scikit-bio-binaries: 
    :depends on zlib: 

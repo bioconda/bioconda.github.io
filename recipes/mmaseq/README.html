@@ -472,13 +472,13 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">mmaseq</span></span></dt>
-<dd><p>Mixed Microbial Analysis on Sequencing data</p>
+<dd><p>Mixed Microbial Analysis on Sequencing data.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="github reference external" href="https://github.com/ssi-dk/MMASeq">ssi-dk/MMASeq</a></p>
 </dd>
 <dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>MIT</p>
+<dd class="field-even"><p>MIT / MIT</p>
 </dd>
 <dt class="field-odd">Recipe<span class="colon">:</span></dt>
 <dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mmaseq">mmaseq</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mmaseq/meta.yaml">meta.yaml</a></p>
@@ -492,14 +492,15 @@
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/mmaseq"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/mmaseq.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/mmaseq"><img alt="docker_mmaseq" src="https://quay.io/repository/biocontainers/mmaseq/status" /></a></p>
 <dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2.1.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">1.0.0-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">conda</span></code></span></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">packaging</span></code></span> <code class="docutils literal notranslate"><span class="pre">&lt;26,&gt;=24.0</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">packaging</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=26.1</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">pandas</span></code></span></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">python</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=3.13</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">ruamel.yaml</span></code></span> <code class="docutils literal notranslate"><span class="pre">&lt;0.19</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">snakemake</span></code></span></p></li>
 </ul>
 </dd>
@@ -559,7 +560,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "mmaseq";
-   var versions = ["2.1.0","1.0.0"];
+   var versions = ["2.2.0","2.1.0","1.0.0"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_mmaseq"></div>
 <div style="width: 100%" id="platform_plot_mmaseq"></div>

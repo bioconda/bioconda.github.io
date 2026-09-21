@@ -12,10 +12,10 @@ liana
 
    LIANA\+\: a one\-stop\-shop framework for cell\-cell communication.
 
-   :homepage: https://github.com/saezlab/liana-py
-   :documentation: https://liana-py.readthedocs.io
+   :homepage: https://github.com/scverse/liana
+   :documentation: https://liana.readthedocs.io
    
-   :license: GPL3 / GPL-3.0-or-later
+   :license: BSD / BSD-3-Clause
    :recipe: /`liana <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/liana>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/liana/meta.yaml>`_
 
    
@@ -30,10 +30,10 @@ liana
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.8.1-1</code>,  <code>1.8.1-0</code>,  <code>1.8.0-0</code>,  <code>1.7.3-0</code>,  <code>1.7.1-0</code>,  <code>1.7.0-0</code>,  <code>1.6.1-0</code>,  <code>1.5.1-1</code>,  <code>1.5.1-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.0-0</code>,  <code>1.10.0-0</code>,  <code>1.8.1-1</code>,  <code>1.8.1-0</code>,  <code>1.8.0-0</code>,  <code>1.7.3-0</code>,  <code>1.7.1-0</code>,  <code>1.7.0-0</code>,  <code>1.6.1-0</code>,  </span></summary>
       
 
-      ``1.8.1-1``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.3-0``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.1-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.4.0-1``,  ``1.4.0-0``
+      ``2.0.0-0``,  ``1.10.0-0``,  ``1.8.1-1``,  ``1.8.1-0``,  ``1.8.0-0``,  ``1.7.3-0``,  ``1.7.1-0``,  ``1.7.0-0``,  ``1.6.1-0``,  ``1.5.1-1``,  ``1.5.1-0``,  ``1.4.0-1``,  ``1.4.0-0``
 
       
       .. raw:: html
@@ -42,27 +42,39 @@ liana
       
 
    
-   :depends on anndata: ``>=0.7.4``
+   :depends on anndata: ``>=0.13``
    :depends on cell2cell: 
    :depends on corneto: 
-   :depends on cvxpy: ``>=1.6.1,<2``
+   :depends on cvxpy: ``>=1.6.1``
    :depends on decoupler-py: ``>=2.0.0``
    :depends on docrep: ``>=0.3.1``
+   :depends on fast-array-utils: 
+   :depends on gseapy: 
+   :depends on joblib: 
+   :depends on kneed: 
    :depends on mofapy2: ``>=0.7.0``
    :depends on mofax: 
-   :depends on mudata: 
+   :depends on mudata: ``>=0.4``
    :depends on muon: 
-   :depends on numba: ``>=0.60.0,<0.61.0``
+   :depends on numba: 
    :depends on omnipath: ``>=1.0.6``
-   :depends on pandas: ``>2.0.1,<3.0.0``
+   :depends on pandas: 
    :depends on plotnine: ``>=0.10.1``
+   :depends on pooch: 
    :depends on pre-commit: ``>=3.0.0``
+   :depends on pydantic: 
+   :depends on pydantic-settings: 
    :depends on pydeseq2: ``>=0.3.5``
-   :depends on python: ``>=3.10,<3.14``
-   :depends on requests: ``>=2.25.1,<3.0.0``
-   :depends on scanpy: ``>=1.8.0``
+   :depends on python: ``>=3.12``
+   :depends on python-dotenv: 
+   :depends on requests: ``>=2.25.1``
+   :depends on scanpy: ``>=1.12``
+   :depends on scikit-learn: 
+   :depends on scverse-misc: ``>=0.1.4``
    :depends on session-info2: 
-   :depends on tqdm: ``>=4.0.0``
+   :depends on squidpy: 
+   :depends on statsmodels: 
+   :depends on tqdm: ``>=4``
 
    :additional platforms:
       
@@ -137,7 +149,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "liana";
-      var versions = ["1.8.1","1.8.1","1.8.0","1.7.3","1.7.1"];
+      var versions = ["2.0.0","1.10.0","1.8.1","1.8.1","1.8.0"];
    </script>
 
 .. rubric:: Download stats

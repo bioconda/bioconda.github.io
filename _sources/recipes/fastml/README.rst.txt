@@ -10,10 +10,10 @@ fastml
    :replaces_section_title:
    :noindex:
 
-   FastML is a bioinformatics tool for the reconstruction of ancestral sequences based on the phylogenetic relations between homologous sequences
+   FastML is a bioinformatics tool for the reconstruction of ancestral sequences based on the phylogenetic relations between homologous sequences.
 
-   :homepage: http://fastml.tau.ac.il/
-   :license: GNU GPLv2.0
+   :homepage: http://fastml.tau.ac.il
+   :license: GPL / GPL-2.0-or-later
    :recipe: /`fastml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastml>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastml/meta.yaml>`_
 
    
@@ -27,18 +27,22 @@ fastml
       
       
 
-      ``3.11-0``
+      ``3.11-1``,  ``3.11-0``
 
       
 
    
-   :depends on libgcc-ng: ``>=7.3.0``
-   :depends on libstdcxx-ng: ``>=7.3.0``
+   :depends on __osx: ``>=11.0``
+   :depends on libcxx: ``>=19``
    :depends on perl: 
    :depends on perl-bioperl: 
    :depends on raxml: 
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -111,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "fastml";
-      var versions = ["3.11"];
+      var versions = ["3.11","3.11"];
    </script>
 
 .. rubric:: Download stats

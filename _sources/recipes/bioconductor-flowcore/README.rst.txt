@@ -10,9 +10,11 @@ bioconductor-flowcore
    :replaces_section_title:
    :noindex:
 
-   flowCore\: Basic structures for flow cytometry data
+   flowCore\: Basic structures for flow cytometry data.
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/flowCore.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/flowCore.html
+   :documentation: https://bioconductor.org/packages/3.23/bioc/manuals/flowCore/man/flowCore.pdf
+   
    :license: Artistic-2.0
    :recipe: /`bioconductor-flowcore <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowcore>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowcore/meta.yaml>`_
    :links: biotools: :biotools:`flowcore`, doi: :doi:`10.1186/1471-2105-10-106`
@@ -29,10 +31,10 @@ bioconductor-flowcore
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.22.1-0</code>,  <code>2.18.0-0</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.6.0-2</code>,  <code>2.6.0-1</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.24.0-0</code>,  <code>2.22.1-0</code>,  <code>2.18.0-0</code>,  <code>2.14.0-1</code>,  <code>2.14.0-0</code>,  <code>2.12.0-0</code>,  <code>2.10.0-1</code>,  <code>2.10.0-0</code>,  <code>2.6.0-2</code>,  </span></summary>
       
 
-      ``2.22.1-0``,  ``2.18.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.6.0-2``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.52.0-0``,  ``1.50.0-1``,  ``1.48.1-0``,  ``1.48.0-0``,  ``1.46.2-0``,  ``1.44.0-0``,  ``1.42.3-0``,  ``1.42.0-0``,  ``1.38.2-1``,  ``1.38.2-0``
+      ``2.24.0-0``,  ``2.22.1-0``,  ``2.18.0-0``,  ``2.14.0-1``,  ``2.14.0-0``,  ``2.12.0-0``,  ``2.10.0-1``,  ``2.10.0-0``,  ``2.6.0-2``,  ``2.6.0-1``,  ``2.6.0-0``,  ``2.4.0-0``,  ``2.2.0-2``,  ``2.2.0-1``,  ``2.2.0-0``,  ``2.0.0-0``,  ``1.52.0-0``,  ``1.50.0-1``,  ``1.48.1-0``,  ``1.48.0-0``,  ``1.46.2-0``,  ``1.44.0-0``,  ``1.42.3-0``,  ``1.42.0-0``,  ``1.38.2-1``,  ``1.38.2-0``
 
       
       .. raw:: html
@@ -41,22 +43,22 @@ bioconductor-flowcore
       
 
    
+   :depends on __osx: ``>=11.0``
    :depends on bioconductor-biobase: ``>=2.70.0,<2.71.0``
    :depends on bioconductor-biobase: ``>=2.70.0,<2.71.0a0``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0``
    :depends on bioconductor-biocgenerics: ``>=0.56.0,<0.57.0a0``
-   :depends on bioconductor-cytolib: ``>=2.22.0,<2.23.0``
-   :depends on bioconductor-cytolib: ``>=2.22.0,<2.23.0a0``
-   :depends on bioconductor-rprotobuflib: ``>=2.22.0,<2.23.0``
-   :depends on bioconductor-rprotobuflib: ``>=2.22.0,<2.23.0a0``
-   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0``
-   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.49.0a0``
+   :depends on bioconductor-cytolib: ``>=2.24.0,<2.25.0``
+   :depends on bioconductor-cytolib: ``>=2.24.0,<2.25.0a0``
+   :depends on bioconductor-rprotobuflib: ``>=2.24.0,<2.25.0``
+   :depends on bioconductor-rprotobuflib: ``>=2.24.0,<2.25.0a0``
+   :depends on bioconductor-s4vectors: ``>=0.48.0,<0.51.0``
+   :depends on bioconductor-s4vectors: ``>=0.48.1,<0.49.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libgcc: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
-   :depends on liblzma: ``>=5.8.2,<6.0a0``
-   :depends on libstdcxx: ``>=14``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-bh: ``>=1.81.0.0``
    :depends on r-cpp11: 
@@ -67,7 +69,7 @@ bioconductor-flowcore
       
       .. raw:: html
 
-         <span class="additional-platforms"><code>linux-aarch64</code></span>
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -140,7 +142,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-flowcore";
-      var versions = ["2.22.1","2.18.0","2.14.0","2.14.0","2.12.0"];
+      var versions = ["2.24.0","2.22.1","2.18.0","2.14.0","2.14.0"];
    </script>
 
 .. rubric:: Download stats

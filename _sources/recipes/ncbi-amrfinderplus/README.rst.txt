@@ -52,8 +52,7 @@ ncbi-amrfinderplus
    :depends on curl: 
    :depends on hmmer: ``>=3.2``
    :depends on libcurl: ``>=8.18.0,<9.0a0``
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
+   :depends on libcxx: ``>=18``
 
    :additional platforms:
       

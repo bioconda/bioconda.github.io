@@ -28,10 +28,10 @@ perl-biox-seq
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.008009-0</code>,  <code>0.008008-0</code>,  <code>0.008007-0</code>,  <code>0.008006-0</code>,  <code>0.008005-0</code>,  <code>0.008004-1</code>,  <code>0.008004-0</code>,  <code>0.008002-1</code>,  <code>0.008002-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>0.008010-0</code>,  <code>0.008009-0</code>,  <code>0.008008-0</code>,  <code>0.008007-0</code>,  <code>0.008006-0</code>,  <code>0.008005-0</code>,  <code>0.008004-1</code>,  <code>0.008004-0</code>,  <code>0.008002-1</code>,  </span></summary>
       
 
-      ``0.008009-0``,  ``0.008008-0``,  ``0.008007-0``,  ``0.008006-0``,  ``0.008005-0``,  ``0.008004-1``,  ``0.008004-0``,  ``0.008002-1``,  ``0.008002-0``,  ``0.006007-2``,  ``0.006007-1``,  ``0.006007-0``,  ``0.008-1``,  ``0.008-0``
+      ``0.008010-0``,  ``0.008009-0``,  ``0.008008-0``,  ``0.008007-0``,  ``0.008006-0``,  ``0.008005-0``,  ``0.008004-1``,  ``0.008004-0``,  ``0.008002-1``,  ``0.008002-0``,  ``0.006007-2``,  ``0.006007-1``,  ``0.006007-0``,  ``0.008-1``,  ``0.008-0``
 
       
       .. raw:: html
@@ -116,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "perl-biox-seq";
-      var versions = ["0.008009","0.008008","0.008007","0.008006","0.008005"];
+      var versions = ["0.008010","0.008009","0.008008","0.008007","0.008006"];
    </script>
 
 .. rubric:: Download stats

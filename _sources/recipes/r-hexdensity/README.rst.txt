@@ -32,10 +32,9 @@ r-hexdensity
       
 
    
-   :depends on libgcc: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on libgfortran: 
    :depends on libgfortran5: ``>=14.3.0``
-   :depends on libstdcxx: ``>=14``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-hexbin: 
    :depends on r-spatstat.geom: 

@@ -27,15 +27,16 @@ telometer
       
       
 
-      ``1.1-0``,  ``1.0-0``,  ``0.81-0``,  ``0.5-0``
+      ``2.0.2-0``,  ``1.1-0``,  ``1.0-0``,  ``0.81-0``,  ``0.5-0``
 
       
 
    
    :depends on minimap2: 
+   :depends on numpy: 
    :depends on pandas: 
    :depends on pysam: 
-   :depends on python: ``>=3.7``
+   :depends on python: ``>=3.8``
    :depends on regex: 
    :depends on samtools: 
    :depends on scipy: 
@@ -113,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "telometer";
-      var versions = ["1.1","1.0","0.81","0.5"];
+      var versions = ["2.0.2","1.1","1.0","0.81","0.5"];
    </script>
 
 .. rubric:: Download stats

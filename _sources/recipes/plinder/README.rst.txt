@@ -36,7 +36,7 @@ plinder
       
       
 
-      ``0.2.26-1``,  ``0.2.26-0``,  ``0.2.25-3``,  ``0.2.25-2``,  ``0.2.25-1``,  ``0.2.25-0``
+      ``0.2.27-0``,  ``0.2.26-1``,  ``0.2.26-0``,  ``0.2.25-3``,  ``0.2.25-2``,  ``0.2.25-1``,  ``0.2.25-0``
 
       
 
@@ -149,7 +149,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "plinder";
-      var versions = ["0.2.26","0.2.26","0.2.25","0.2.25","0.2.25"];
+      var versions = ["0.2.27","0.2.26","0.2.26","0.2.25","0.2.25"];
    </script>
 
 .. rubric:: Download stats

@@ -49,10 +49,10 @@ biobb_gromacs
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.3.1-0</code>,  <code>5.3.0-0</code>,  <code>5.2.1-0</code>,  <code>5.2.0-0</code>,  <code>5.1.2-0</code>,  <code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.3.2-0</code>,  <code>5.3.1-0</code>,  <code>5.3.0-0</code>,  <code>5.2.1-0</code>,  <code>5.2.0-0</code>,  <code>5.1.2-0</code>,  <code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.0-0</code>,  </span></summary>
       
 
-      ``5.3.1-0``,  ``5.3.0-0``,  ``5.2.1-0``,  ``5.2.0-0``,  ``5.1.2-0``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.1-0``,  ``3.8.0-0``
+      ``5.3.2-0``,  ``5.3.1-0``,  ``5.3.0-0``,  ``5.2.1-0``,  ``5.2.0-0``,  ``5.1.2-0``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.2.0-0``,  ``4.1.1-0``,  ``4.1.0-0``,  ``4.0.0-1``,  ``4.0.0-0``,  ``3.9.0-0``,  ``3.8.1-0``,  ``3.8.0-0``
 
       
       .. raw:: html
@@ -138,7 +138,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "biobb_gromacs";
-      var versions = ["5.3.1","5.3.0","5.2.1","5.2.0","5.1.2"];
+      var versions = ["5.3.2","5.3.1","5.3.0","5.2.1","5.2.0"];
    </script>
 
 .. rubric:: Download stats

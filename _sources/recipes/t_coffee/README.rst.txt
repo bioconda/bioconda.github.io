@@ -49,10 +49,10 @@ t-coffee
    :depends on dialign-tx: ``>=1.0.2``
    :depends on famsa: ``2.2.3``
    :depends on kalign2: ``2.04``
-   :depends on libgcc: ``>=13``
+   :depends on libcxx: ``>=18``
    :depends on libgfortran: 
    :depends on libgfortran5: ``>=13.4.0``
-   :depends on libstdcxx: ``>=13``
+   :depends on libgfortran5: ``>=15.1.0``
    :depends on mafft: ``7.526``
    :depends on muscle: ``3.8.1551``
    :depends on mustang: ``>=3.2.3``
@@ -66,7 +66,6 @@ t-coffee
    :depends on probconsrna: ``1.10``
    :depends on proda: ``1.0``
    :depends on sap: ``1.1.3``
-   :depends on tmalign: ``20170708``
    :depends on viennarna: ``2.7.0``
 
    :additional platforms:

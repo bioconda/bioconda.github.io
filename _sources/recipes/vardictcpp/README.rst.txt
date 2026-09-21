@@ -10,9 +10,11 @@ vardictcpp
    :replaces_section_title:
    :noindex:
 
-   Memory\-lean C\+\+ reimplementation of the VarDict variant caller\, byte\-identical to VarDictJava
+   Memory\-lean C\+\+ reimplementation of the VarDict variant caller\, byte\-identical to VarDictJava.
 
    :homepage: https://github.com/MHH-Bioinformatics-Hematology/vardictcpp
+   :documentation: https://vardictcpp.readthedocs.io/en/latest
+   
    :license: MIT / MIT
    :recipe: /`vardictcpp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vardictcpp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vardictcpp/meta.yaml>`_
 
@@ -35,15 +37,14 @@ vardictcpp
       
       
 
-      ``2-0``
+      ``3-0``,  ``2-0``
 
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on __osx: ``>=11.0``
    :depends on htslib: ``>=1.24,<1.25.0a0``
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
 
    :additional platforms:
       
@@ -122,7 +123,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "vardictcpp";
-      var versions = ["2"];
+      var versions = ["3","2"];
    </script>
 
 .. rubric:: Download stats

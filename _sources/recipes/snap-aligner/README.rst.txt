@@ -31,10 +31,10 @@ snap-aligner
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>2.0.5-2</code>,  <code>2.0.5-1</code>,  <code>2.0.5-0</code>,  <code>2.0.3-4</code>,  <code>2.0.3-3</code>,  <code>2.0.3-2</code>,  <code>2.0.3-1</code>,  <code>2.0.3-0</code>,  <code>2.0.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>2.0.5-3</code>,  <code>2.0.5-2</code>,  <code>2.0.5-1</code>,  <code>2.0.5-0</code>,  <code>2.0.3-4</code>,  <code>2.0.3-3</code>,  <code>2.0.3-2</code>,  <code>2.0.3-1</code>,  <code>2.0.3-0</code>,  </span></summary>
       
 
-      ``2.0.5-2``,  ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.3-4``,  ``2.0.3-3``,  ``2.0.3-2``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0beta.23-0``,  ``1.0beta.18-0``,  ``1.0dev.97-3``,  ``1.0dev.97-2``,  ``1.0dev.97-1``,  ``1.0dev.97-0``,  ``1.0dev.96-4``,  ``1.0dev.96-3``,  ``1.0dev.96-2``,  ``1.0dev.96-1``,  ``1.0dev.96-0``
+      ``2.0.5-3``,  ``2.0.5-2``,  ``2.0.5-1``,  ``2.0.5-0``,  ``2.0.3-4``,  ``2.0.3-3``,  ``2.0.3-2``,  ``2.0.3-1``,  ``2.0.3-0``,  ``2.0.2-0``,  ``2.0.1-1``,  ``2.0.1-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.0beta.23-0``,  ``1.0beta.18-0``,  ``1.0dev.97-3``,  ``1.0dev.97-2``,  ``1.0dev.97-1``,  ``1.0dev.97-0``,  ``1.0dev.96-4``,  ``1.0dev.96-3``,  ``1.0dev.96-2``,  ``1.0dev.96-1``,  ``1.0dev.96-0``
 
       
       .. raw:: html
@@ -43,9 +43,9 @@ snap-aligner
       
 
    
-   :depends on libgcc: ``>=13``
-   :depends on libstdcxx: ``>=13``
-   :depends on libzlib: ``>=1.3.1,<2.0a0``
+   :depends on __osx: ``>=11.0``
+   :depends on libcxx: ``>=19``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
 
    :additional platforms:
       
@@ -124,7 +124,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "snap-aligner";
-      var versions = ["2.0.5","2.0.5","2.0.5","2.0.3","2.0.3"];
+      var versions = ["2.0.5","2.0.5","2.0.5","2.0.5","2.0.3"];
    </script>
 
 .. rubric:: Download stats

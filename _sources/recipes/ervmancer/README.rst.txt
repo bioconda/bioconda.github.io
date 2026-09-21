@@ -10,7 +10,7 @@ ervmancer
    :replaces_section_title:
    :noindex:
 
-   Quantifies HERV short read RNA sequencing expression data
+   Quantifies HERV short read RNA sequencing expression data.
 
    :homepage: https://github.com/AuslanderLab/ervmancer
    :license: MIT / MIT
@@ -27,7 +27,7 @@ ervmancer
       
       
 
-      ``1.0.0-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
+      ``1.0.1-0``,  ``1.0.0-0``,  ``0.0.4-0``,  ``0.0.3-0``,  ``0.0.2-0``,  ``0.0.1-0``
 
       
 
@@ -36,7 +36,7 @@ ervmancer
    :depends on bowtie2: ``>=2.4.2``
    :depends on numpy: 
    :depends on pandas: 
-   :depends on python: ``>=3.8,<3.11``
+   :depends on python: ``>=3.9,<3.11``
    :depends on regex: 
    :depends on samtools: ``>=1.20``
    :depends on setuptools: ``<82``
@@ -115,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ervmancer";
-      var versions = ["1.0.0","0.0.4","0.0.3","0.0.2","0.0.1"];
+      var versions = ["1.0.1","1.0.0","0.0.4","0.0.3","0.0.2"];
    </script>
 
 .. rubric:: Download stats

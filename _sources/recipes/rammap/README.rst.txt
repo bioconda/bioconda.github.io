@@ -10,9 +10,11 @@ rammap
    :replaces_section_title:
    :noindex:
 
-   An extensible and performant aligner and read mapper
+   An extensible and performant aligner and read mapper.
 
    :homepage: https://github.com/jwanglab/rammap
+   :documentation: https://github.com/jwanglab/rammap/blob/v1.1.3/README.md
+   
    :license: MIT / MIT
    :recipe: /`rammap <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rammap>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rammap/meta.yaml>`_
 
@@ -30,15 +32,18 @@ rammap
       
       
 
-      ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``
+      ``1.1.3-1``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``
 
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
-   :depends on libgcc: ``>=14``
+   :depends on __osx: ``>=11.0``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -111,7 +116,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "rammap";
-      var versions = ["1.1.3","1.1.2","1.1.1"];
+      var versions = ["1.1.3","1.1.3","1.1.2","1.1.1"];
    </script>
 
 .. rubric:: Download stats

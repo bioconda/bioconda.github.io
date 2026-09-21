@@ -13,7 +13,7 @@ repeatafterme
    A package for the extension of repetitive DNA sequences.
 
    :homepage: https://github.com/Dfam-consortium/RepeatAfterMe
-   :documentation: https://github.com/Dfam-consortium/RepeatAfterMe/blob/RepeatAfterMe_V0.0.7/README.md
+   :documentation: https://github.com/Dfam-consortium/RepeatAfterMe/blob/RepeatAfterMe_V0.2.2/README.md
    
    :license: CC0
    :recipe: /`repeatafterme <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repeatafterme>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repeatafterme/meta.yaml>`_
@@ -29,14 +29,13 @@ repeatafterme
       
       
 
-      ``0.0.7-0``
+      ``0.2.2-0``,  ``0.0.7-0``
 
       
 
    
-   :depends on _openmp_mutex: ``>=4.5``
-   :depends on libgcc: ``>=13``
-   :depends on libgomp: 
+   :depends on __osx: ``>=11.0``
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on perl: 
 
    :additional platforms:
@@ -116,7 +115,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "repeatafterme";
-      var versions = ["0.0.7"];
+      var versions = ["0.2.2","0.0.7"];
    </script>
 
 .. rubric:: Download stats

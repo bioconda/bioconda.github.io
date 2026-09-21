@@ -42,17 +42,16 @@ parsnp
       
 
    
-   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on __osx: ``>=10.13``
    :depends on biopython: 
    :depends on fastani: 
    :depends on fasttree: 
    :depends on harvesttools: 
-   :depends on libgcc: ``>=14``
-   :depends on libstdcxx: ``>=14``
+   :depends on libcxx: ``>=19``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on llvm-openmp: ``>=19.1.7``
    :depends on mash: 
    :depends on numpy: 
-   :depends on openmp: 
    :depends on phipack: 
    :depends on pyspoa: 
    :depends on python: ``>=3.7``

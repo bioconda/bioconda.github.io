@@ -472,16 +472,19 @@
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
 <span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">vardictcpp</span></span></dt>
-<dd><p>Memory-lean C++ reimplementation of the VarDict variant caller, byte-identical to VarDictJava</p>
+<dd><p>Memory-lean C++ reimplementation of the VarDict variant caller, byte-identical to VarDictJava.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
 <dd class="field-odd"><p><a class="github reference external" href="https://github.com/MHH-Bioinformatics-Hematology/vardictcpp">MHH-Bioinformatics-Hematology/vardictcpp</a></p>
 </dd>
-<dt class="field-even">License<span class="colon">:</span></dt>
-<dd class="field-even"><p>MIT / MIT</p>
+<dt class="field-even">Documentation<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference external" href="https://vardictcpp.readthedocs.io/en/latest">https://vardictcpp.readthedocs.io/en/latest</a></p>
 </dd>
-<dt class="field-odd">Recipe<span class="colon">:</span></dt>
-<dd class="field-odd"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vardictcpp">vardictcpp</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vardictcpp/meta.yaml">meta.yaml</a></p>
+<dt class="field-odd">License<span class="colon">:</span></dt>
+<dd class="field-odd"><p>MIT / MIT</p>
+</dd>
+<dt class="field-even">Recipe<span class="colon">:</span></dt>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vardictcpp">vardictcpp</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vardictcpp/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
 <p>vardictcpp is a from-scratch C++17 reimplementation of VarDict
@@ -500,14 +503,13 @@ so it is a drop-in replacement in existing pipelines.</p>
 <dd><p><a class="reference external" href="https://anaconda.org/bioconda/vardictcpp"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/vardictcpp.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/vardictcpp"><img alt="docker_vardictcpp" src="https://quay.io/repository/biocontainers/vardictcpp/status" /></a></p>
 <dl class="field-list">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">2-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">3-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">2-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">__glibc</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=2.17,&lt;3.0.a0</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">__osx</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=11.0</span></code></p></li>
 <li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">htslib</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.24,&lt;1.25.0a0</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libgcc</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libstdcxx</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libcxx</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=19</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
@@ -566,7 +568,7 @@ Thus, workflow steps can be often directly annotated to use the package, leading
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
    var package = "vardictcpp";
-   var versions = ["2"];
+   var versions = ["3","2"];
 </script><p class="rubric">Download stats</p>
 <div style="width: 100%" id="download_plot_vardictcpp"></div>
 <div style="width: 100%" id="platform_plot_vardictcpp"></div>
