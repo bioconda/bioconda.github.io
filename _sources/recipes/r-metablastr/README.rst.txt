@@ -38,8 +38,9 @@ r-metablastr
    :depends on bioconductor-iranges: ``>=2.16``
    :depends on bioconductor-rsamtools: ``>=1.30.0``
    :depends on bioconductor-rtracklayer: ``>=1.38.3``
-   :depends on libcxx: ``>=15.0.7``
+   :depends on libgcc-ng: ``>=12``
    :depends on libpq: ``>=15.4,<16.0a0``
+   :depends on libstdcxx-ng: ``>=12``
    :depends on r-base: ``>=4.3,<4.4.0a0``
    :depends on r-fs: ``>=1.5.1``
    :depends on r-ggplot2: ``>=3.3.3``

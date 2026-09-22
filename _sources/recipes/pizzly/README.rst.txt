@@ -33,6 +33,7 @@ pizzly
 
    
    :depends on h5py: 
+   :depends on libgcc-ng: ``>=4.9``
    :depends on numpy: 
    :depends on python: 
 

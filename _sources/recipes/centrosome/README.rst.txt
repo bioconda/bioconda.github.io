@@ -40,9 +40,9 @@ centrosome
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on deprecation: 
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on matplotlib-base: 
    :depends on numpy: ``>=1.21,<3``
    :depends on pillow: 

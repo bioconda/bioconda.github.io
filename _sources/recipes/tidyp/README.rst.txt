@@ -32,6 +32,7 @@ tidyp
       
 
    
+   :depends on libgcc: ``>=13``
 
    :additional platforms:
       

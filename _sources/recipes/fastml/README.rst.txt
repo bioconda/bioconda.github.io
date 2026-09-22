@@ -32,8 +32,8 @@ fastml
       
 
    
-   :depends on __osx: ``>=11.0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on perl: 
    :depends on perl-bioperl: 
    :depends on raxml: 

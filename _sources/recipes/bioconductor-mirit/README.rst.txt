@@ -32,7 +32,7 @@ bioconductor-mirit
       
 
    
-   :depends on __osx: ``>=10.13``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
    :depends on bioconductor-annotationdbi: ``>=1.72.0,<1.73.0``
    :depends on bioconductor-annotationdbi: ``>=1.72.0,<1.73.0a0``
    :depends on bioconductor-biocfilecache: ``>=3.0.0,<3.1.0``
@@ -56,9 +56,10 @@ bioconductor-mirit
    :depends on bioconductor-rgraphviz: ``>=2.54.0,<2.55.0``
    :depends on bioconductor-rgraphviz: ``>=2.54.0,<2.55.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on r-base: ``>=4.5,<4.6.0a0``
    :depends on r-genekitr: ``>=1.2.8,<1.3.0a0``

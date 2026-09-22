@@ -40,7 +40,8 @@ perl-namespace-autoclean
       
 
    
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-b-hooks-endofscope: ``0.28.*``
    :depends on perl-namespace-clean: ``0.27.*``

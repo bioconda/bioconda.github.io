@@ -38,6 +38,7 @@ cassiopeia
    :depends on ete3: ``>=3.1.1``
    :depends on hits: 
    :depends on itolapi: 
+   :depends on libgcc: ``>=13``
    :depends on matplotlib-base: ``>=2.2.2``
    :depends on nbconvert: ``>=5.4.0``
    :depends on nbformat: ``>=4.4.0``

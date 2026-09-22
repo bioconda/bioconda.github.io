@@ -42,7 +42,6 @@ sainsc
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on anndata: ``>=0.11``
    :depends on h5py: ``>=3``
    :depends on matplotlib-base: ``>=3.7``

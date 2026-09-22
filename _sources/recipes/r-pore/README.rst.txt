@@ -32,9 +32,9 @@ r-pore
       
 
    
-   :depends on bioconductor-rhdf5: ``>=2.54.1,<2.55.0a0``
+   :depends on bioconductor-rhdf5: ``>=2.50.0,<2.51.0a0``
    :depends on parallel: 
-   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on r-base: ``>=4.4,<4.5.0a0``
    :depends on r-bit64: 
    :depends on r-data.table: 
    :depends on r-shiny: 

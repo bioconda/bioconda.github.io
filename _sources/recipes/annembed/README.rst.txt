@@ -41,7 +41,8 @@ annembed
       
 
    
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on openblas: 
    :depends on openssl: ``>=3.5.4,<4.0a0``
 

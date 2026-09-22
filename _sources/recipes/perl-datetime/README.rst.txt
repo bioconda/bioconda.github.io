@@ -40,7 +40,8 @@ perl-datetime
       
 
    
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on perl-cpan-meta-check: ``0.014.*``
    :depends on perl-datetime-locale: ``>=1.45,<2.0a0``

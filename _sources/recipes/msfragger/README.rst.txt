@@ -36,14 +36,14 @@ msfragger
       
       
 
-      ``4.2-0``,  ``4.1-0``,  ``4.0-1``,  ``4.0-0``
+      ``4.4.1-0``,  ``4.2-0``,  ``4.1-0``,  ``4.0-1``,  ``4.0-0``
 
       
 
    
    :depends on mono: ``>=5,<6``
    :depends on openjdk: ``>=11``
-   :depends on python: ``3.11.*``
+   :depends on python: ``>=3.11,<3.12.0a0``
    :depends on zlib: ``>=1.2.13``
 
    :additional platforms:
@@ -119,7 +119,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "msfragger";
-      var versions = ["4.2","4.1","4.0","4.0"];
+      var versions = ["4.4.1","4.2","4.1","4.0","4.0"];
    </script>
 
 .. rubric:: Download stats

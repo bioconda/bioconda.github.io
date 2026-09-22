@@ -33,7 +33,8 @@ probconsrna
       
 
    
-   :depends on libcxx: ``>=18``
+   :depends on libgcc-ng: ``>=12``
+   :depends on libstdcxx-ng: ``>=12``
 
    :additional platforms:
       

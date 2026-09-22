@@ -34,7 +34,7 @@ dot-explorer
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on libgcc: ``>=14``
    :depends on matplotlib-base: ``>=3.5``
    :depends on numpy: ``>=1.21``
    :depends on pyfaidx: 

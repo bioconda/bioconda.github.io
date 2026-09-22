@@ -12,7 +12,7 @@ bioconductor-omnipathr
 
    OmniPath web service client and more
 
-   :homepage: https://bioconductor.org/packages/3.22/bioc/html/OmnipathR.html
+   :homepage: https://bioconductor.org/packages/3.23/bioc/html/OmnipathR.html
    :license: MIT + file LICENSE
    :recipe: /`bioconductor-omnipathr <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omnipathr>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omnipathr/meta.yaml>`_
 
@@ -28,10 +28,10 @@ bioconductor-omnipathr
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>3.18.4-0</code>,  <code>3.10.1-0</code>,  <code>3.8.0-0</code>,  <code>3.5.25-0</code>,  <code>3.2.0-0</code>,  <code>3.0.0-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  <code>1.2.0-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>4.0.0-0</code>,  <code>3.18.4-0</code>,  <code>3.10.1-0</code>,  <code>3.8.0-0</code>,  <code>3.5.25-0</code>,  <code>3.2.0-0</code>,  <code>3.0.0-0</code>,  <code>2.0.0-1</code>,  <code>2.0.0-0</code>,  </span></summary>
       
 
-      ``3.18.4-0``,  ``3.10.1-0``,  ``3.8.0-0``,  ``3.5.25-0``,  ``3.2.0-0``,  ``3.0.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
+      ``4.0.0-0``,  ``3.18.4-0``,  ``3.10.1-0``,  ``3.8.0-0``,  ``3.5.25-0``,  ``3.2.0-0``,  ``3.0.0-0``,  ``2.0.0-1``,  ``2.0.0-0``,  ``1.2.0-0``,  ``1.0.0-0``
 
       
       .. raw:: html
@@ -150,7 +150,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "bioconductor-omnipathr";
-      var versions = ["3.18.4","3.10.1","3.8.0","3.5.25","3.2.0"];
+      var versions = ["4.0.0","3.18.4","3.10.1","3.8.0","3.5.25"];
    </script>
 
 .. rubric:: Download stats

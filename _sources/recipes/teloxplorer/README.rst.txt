@@ -1,52 +1,67 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'rastqc'
+.. title:: Package Recipe 'teloxplorer'
 .. highlight: bash
 
-rastqc
-======
+teloxplorer
+===========
 
-.. conda:recipe:: rastqc
+.. conda:recipe:: teloxplorer
    :replaces_section_title:
    :noindex:
 
-   Fast Rust\-based quality control for high\-throughput sequencing data
+   Chromosome\-end\-resolved telomere analysis using long\-read sequencing data
 
-   :homepage: https://github.com/Huang-lab/RastQC
-   :documentation: https://github.com/Huang-lab/RastQC/blob/main/README.md
-   
-   :license: MIT / MIT
-   :recipe: /`rastqc <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rastqc>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rastqc/meta.yaml>`_
+   :homepage: https://github.com/hhuili/TeloXplorer
+   :license: GPL3 / GPL-3.0-only
+   :recipe: /`teloxplorer <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/teloxplorer>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/teloxplorer/meta.yaml>`_
 
-   RastQC is a drop\-in replacement for FastQC written in Rust. It implements
-   all 12 FastQC modules with matching algorithms and output formats \(HTML\,
-   fastqc\_data.txt\, ZIP\, native MultiQC JSON\). The streaming parallel
-   pipeline runs 2\-3x faster than FastQC on real sequencing data. For Oxford
-   Nanopore data \(Fast5 \+ POD5 readers and long\-read modules\)\, install the
-   sibling package \`rastqc\-nanopore\`.
+   TeloXplorer is a modular framework for chromosome\-end\-resolved telomere
+   analysis using Oxford Nanopore and PacBio long\-read sequencing data or
+   genome assemblies.
 
 
 
-.. conda:package:: rastqc
+.. conda:package:: teloxplorer
 
-   |downloads_rastqc| |docker_rastqc|
+   |downloads_teloxplorer| |docker_teloxplorer|
 
    :versions:
       
       
 
-      ``0.2.0-0``,  ``0.1.0-0``
+      ``0.5.0-0``
 
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on _openmp_mutex: ``>=4.5``
+   :depends on click: ``>=8.0``
+   :depends on hdbscan: 
+   :depends on libgcc: ``>=14``
+   :depends on libgomp: 
+   :depends on libre2-11: ``>=2025.8.12``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on matplotlib-base: 
+   :depends on minimap2: 
+   :depends on natsort: ``>=8.0.0``
+   :depends on numpy: 
+   :depends on pandas: 
+   :depends on polyleven: 
+   :depends on pysam: ``>=0.19.1``
+   :depends on python: ``>=3.13,<3.14.0a0``
+   :depends on python_abi: ``3.13.* *_cp313``
+   :depends on re2: 
+   :depends on regex: 
+   :depends on samtools: 
+   :depends on scipy: 
+   :depends on seqtk: 
+   :depends on telox-pyabpoa: ``1.5.6.post1``
+   :depends on typer: ``>=0.16.0``
 
    :additional platforms:
-      
-      .. raw:: html
-
-         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -64,11 +79,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install rastqc
+    pixi global install teloxplorer
 
 to add into an existing workspace instead, run::
 
-    pixi add rastqc
+    pixi add teloxplorer
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -80,11 +95,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install rastqc
+    conda install teloxplorer
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname rastqc
+    conda create -n envname teloxplorer
 
 with ``envname`` being the name of the desired environment.
 
@@ -94,9 +109,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/rastqc:<tag>
+    docker pull quay.io/biocontainers/teloxplorer:<tag>
 
-(see `rastqc/tags`_ for valid values for ``<tag>``).
+(see `teloxplorer/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -107,28 +122,28 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_rastqc| image:: https://img.shields.io/conda/dn/bioconda/rastqc.svg?style=flat
-   :target: https://anaconda.org/bioconda/rastqc
+.. |downloads_teloxplorer| image:: https://img.shields.io/conda/dn/bioconda/teloxplorer.svg?style=flat
+   :target: https://anaconda.org/bioconda/teloxplorer
    :alt:   (downloads)
-.. |docker_rastqc| image:: https://quay.io/repository/biocontainers/rastqc/status
-   :target: https://quay.io/repository/biocontainers/rastqc
-.. _`rastqc/tags`: https://quay.io/repository/biocontainers/rastqc?tab=tags
+.. |docker_teloxplorer| image:: https://quay.io/repository/biocontainers/teloxplorer/status
+   :target: https://quay.io/repository/biocontainers/teloxplorer
+.. _`teloxplorer/tags`: https://quay.io/repository/biocontainers/teloxplorer?tab=tags
 
 
 .. raw:: html
 
    <script>
-      var package = "rastqc";
-      var versions = ["0.2.0","0.1.0"];
+      var package = "teloxplorer";
+      var versions = ["0.5.0"];
    </script>
 
 .. rubric:: Download stats
 
 .. raw:: html
     
-   <div style="width: 100%" id="download_plot_rastqc"></div>
-   <div style="width: 100%" id="platform_plot_rastqc"></div>
-   <div style="width: 100%" id="cdf_plot_rastqc"></div>
+   <div style="width: 100%" id="download_plot_teloxplorer"></div>
+   <div style="width: 100%" id="platform_plot_teloxplorer"></div>
+   <div style="width: 100%" id="cdf_plot_teloxplorer"></div>
 
 
 
@@ -144,7 +159,7 @@ Check the documentation of your workflow management system to find out about the
    <script>
       window.onload = async function() {
          
-            // Build cdf plot for rastqc
+            // Build cdf plot for teloxplorer
             try {
                const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
                if (!cdf_spec_resp.ok) {
@@ -156,7 +171,7 @@ Check the documentation of your workflow management system to find out about the
                    throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
                }
                const cdf_plot_data = await cdf_data_resp.json();
-               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/rastqc/cdf.json`)
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/teloxplorer/cdf.json`)
                if (!point_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
                }
@@ -164,43 +179,43 @@ Check the documentation of your workflow management system to find out about the
     
                cdf_spec.data.values = cdf_plot_data;
                cdf_spec.data.values.push(single_point.pop());
-               vegaEmbed('#cdf_plot_rastqc', cdf_spec);
+               vegaEmbed('#cdf_plot_teloxplorer', cdf_spec);
             } catch (err) {
                console.error("An error occurred while building CDF plot: ", err)
             }
     
-            // Build download plot for rastqc
+            // Build download plot for teloxplorer
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/rastqc/versions.json`)
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/teloxplorer/versions.json`)
                if (!version_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
                }
                const plot_data = await version_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#download_plot_rastqc', spec);
+               vegaEmbed('#download_plot_teloxplorer', spec);
             } catch (err) {
                console.error("An error occurred while building downloads plot: ", err)
             }
    
-            // Build platform download plot for rastqc
+            // Build platform download plot for teloxplorer
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/rastqc/platforms.json`)
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/teloxplorer/platforms.json`)
                if (!platform_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
                }
                const plot_data = await platform_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#platform_plot_rastqc', spec);
+               vegaEmbed('#platform_plot_teloxplorer', spec);
             } catch (err) {
                console.error("An error occurred while building platform downloads plot: ", err)
             }
@@ -215,7 +230,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/rastqc/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/teloxplorer/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/rastqc/README.html
+   :target: http://bioconda.github.io/recipes/teloxplorer/README.html

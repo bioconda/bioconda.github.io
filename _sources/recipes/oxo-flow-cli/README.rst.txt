@@ -42,7 +42,7 @@ oxo-flow-cli
       
 
    
-   :depends on __osx: ``>=11.0``
+   :depends on libgcc: ``>=14``
 
    :additional platforms:
       

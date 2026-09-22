@@ -42,7 +42,8 @@ r-cssam
 
    
    :depends on bioconductor-biobase: ``>=2.50.0``
-   :depends on libcxx: ``>=18``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
    :depends on r-base: ``>=4.0,<4.1``
    :depends on r-formula: ``>=1.2_4``
    :depends on r-ggplot2: ``>=3.3.5``

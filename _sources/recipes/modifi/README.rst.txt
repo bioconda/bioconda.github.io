@@ -38,13 +38,13 @@ modifi
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on adjusttext: 
    :depends on bash: 
    :depends on biopython: 
    :depends on h5py: 
    :depends on joblib: 
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on matplotlib-base: 
    :depends on numpy: 
    :depends on openjdk: 

@@ -41,9 +41,9 @@ r-phewas
       
 
    
+   :depends on libgcc: ``>=13``
    :depends on libgfortran: 
    :depends on libgfortran5: ``>=13.4.0``
-   :depends on libgfortran5: ``>=15.1.0``
    :depends on r-base: ``>=4.4,<4.5.0a0``
    :depends on r-dplyr: 
    :depends on r-dt: 

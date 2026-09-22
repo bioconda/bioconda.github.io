@@ -40,9 +40,10 @@ r-minems2
       
 
    
-   :depends on bioconductor-msnbase: ``>=2.36.0,<2.37.0a0``
-   :depends on libcxx: ``>=19``
-   :depends on r-base: ``>=4.5,<4.6.0a0``
+   :depends on bioconductor-msnbase: ``>=2.32.0,<2.33.0a0``
+   :depends on libgcc: ``>=13``
+   :depends on libstdcxx: ``>=13``
+   :depends on r-base: ``>=4.4,<4.5.0a0``
    :depends on r-igraph: 
    :depends on r-matrix: 
    :depends on r-rcpp: ``>=0.12.13``

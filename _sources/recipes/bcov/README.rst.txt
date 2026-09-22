@@ -42,9 +42,9 @@ bcov
 
    
    :depends on glpk: ``>=5.0,<6.0a0``
+   :depends on libgcc: ``>=13``
    :depends on libgfortran: 
    :depends on libgfortran5: ``>=13.4.0``
-   :depends on libgfortran5: ``>=15.2.0``
 
    :additional platforms:
       

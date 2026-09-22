@@ -41,12 +41,12 @@ bioconductor-iranges
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0``
    :depends on bioconductor-biocgenerics: ``>=0.58.1,<0.59.0a0``
    :depends on bioconductor-s4vectors: ``>=0.50.2,<0.51.0``
    :depends on bioconductor-s4vectors: ``>=0.50.2,<0.51.0a0``
    :depends on libblas: ``>=3.9.0,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on liblapack: ``>=3.9.0,<4.0a0``
    :depends on liblzma: ``>=5.8.3,<6.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``

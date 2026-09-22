@@ -44,16 +44,16 @@ bali-phy
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on cairo: ``>=1.18.4,<2.0a0``
    :depends on fmt: ``>=12.2.0,<12.3.0a0``
    :depends on gnuplot: 
    :depends on libboost: ``>=1.92.0,<1.93.0a0``
-   :depends on libcxx: ``>=19``
    :depends on libexpat: ``>=2.8.1,<3.0a0``
    :depends on libfreetype: ``>=2.14.3``
    :depends on libfreetype6: ``>=2.14.3``
+   :depends on libgcc: ``>=14``
    :depends on libglib: ``>=2.88.3,<3.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on libutf8proc: ``>=2.11.3,<2.12.0a0``
    :depends on libzlib: ``>=1.3.2,<2.0a0``
    :depends on perl: 

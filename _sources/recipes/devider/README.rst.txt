@@ -34,8 +34,8 @@ devider
       
 
    
-   :depends on __osx: ``>=11.0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on lofreq: ``>=2.1.5``
    :depends on minimap2: 
    :depends on pysam: ``>=0.16``

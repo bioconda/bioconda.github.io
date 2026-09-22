@@ -34,6 +34,7 @@ tiptoft
    
    :depends on biopython: ``>=1.68``
    :depends on cython: 
+   :depends on libgcc-ng: ``>=12``
    :depends on pyfastaq: ``>=3.12.0``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``

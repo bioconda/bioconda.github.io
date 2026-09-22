@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Package Recipe &#39;rastqc-nanopore&#39; &#8212; Bioconda  documentation</title>
+    <title>Package Recipe &#39;tdkc&#39; &#8212; Bioconda  documentation</title>
   
   
   
@@ -47,7 +47,7 @@
     <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="../../_static/copybutton.js?v=f281be69"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'recipes/rastqc-nanopore/README';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'recipes/tdkc/README';</script>
     <script>DOCUMENTATION_OPTIONS.search_as_you_type = true;</script>
     <script src="../../_static/vega.min.js?v=d54ef115"></script>
     <script src="../../_static/vega-lite.min.js?v=4fab2bf4"></script>
@@ -451,7 +451,7 @@
         <i class="fa-solid fa-home"></i>
       </a>
     </li>
-    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Package Recipe 'rastqc-nanopore'</span></li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Package Recipe 'tdkc'</span></li>
   </ul>
 </nav>
 </div>
@@ -468,52 +468,48 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="rastqc-nanopore">
+  <section id="tdkc">
 <dl class="conda recipe">
 <dt class="sig sig-object conda">
-<span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">rastqc-nanopore</span></span></dt>
-<dd><p>Fast Rust-based QC for Oxford Nanopore sequencing data (Fast5 + POD5)</p>
+<span class="property"><span class="pre">recipe</span> </span><span class="sig-name descname"><span class="pre">tdkc</span></span></dt>
+<dd><p>Ultrafast and memory-efficient target pathogen sequence classifier</p>
 <dl class="field-list simple">
 <dt class="field-odd">Homepage<span class="colon">:</span></dt>
-<dd class="field-odd"><p><a class="github reference external" href="https://github.com/Huang-lab/RastQC">Huang-lab/RastQC</a></p>
+<dd class="field-odd"><p><a class="github reference external" href="https://github.com/543090lee/TDKC">543090lee/TDKC</a></p>
 </dd>
 <dt class="field-even">Documentation<span class="colon">:</span></dt>
-<dd class="field-even"><p><a class="github reference external" href="https://github.com/Huang-lab/RastQC/blob/main/README.md">Huang-lab/RastQC</a></p>
+<dd class="field-even"><p><a class="github reference external" href="https://github.com/543090lee/TDKC#readme">543090lee/TDKC</a></p>
 </dd>
 <dt class="field-odd">License<span class="colon">:</span></dt>
 <dd class="field-odd"><p>MIT / MIT</p>
 </dd>
 <dt class="field-even">Recipe<span class="colon">:</span></dt>
-<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rastqc-nanopore">rastqc-nanopore</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rastqc-nanopore/meta.yaml">meta.yaml</a></p>
+<dd class="field-even"><p>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tdkc">tdkc</a>/<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tdkc/meta.yaml">meta.yaml</a></p>
 </dd>
 </dl>
-<p>rastqc-nanopore is the long-read variant of RastQC. It adds Fast5 (HDF5)
-and POD5 (Arrow) readers for Oxford Nanopore data, plus 3 long-read
-modules (N50, quality-stratified length, homopolymer content) on top of
-the 12 standard FastQC modules. The binary is installed as
-`rastqc-nanopore` so this package can coexist with the core `rastqc`
-package in the same environment.</p>
+<p>TDKC (Target Distilled K-mer Classifier) is a metagenomic sequence
+classifier designed for fast, memory-efficient target pathogen
+diagnostics.</p>
 </dd></dl>
 
 <dl class="conda package">
-<dt class="sig sig-object conda" id="package-rastqc-nanopore">
-<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">rastqc-nanopore</span></span><a class="headerlink" href="#package-rastqc-nanopore" title="Link to this definition">#</a></dt>
-<dd><p><a class="reference external" href="https://anaconda.org/bioconda/rastqc-nanopore"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/rastqc-nanopore.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/rastqc-nanopore"><img alt="docker_rastqc-nanopore" src="https://quay.io/repository/biocontainers/rastqc-nanopore/status" /></a></p>
-<dl class="field-list">
+<dt class="sig sig-object conda" id="package-tdkc">
+<span class="property"><span class="pre">package</span> </span><span class="sig-name descname"><span class="pre">tdkc</span></span><a class="headerlink" href="#package-tdkc" title="Link to this definition">#</a></dt>
+<dd><p><a class="reference external" href="https://anaconda.org/bioconda/tdkc"><img alt="(downloads)" src="https://img.shields.io/conda/dn/bioconda/tdkc.svg?style=flat" /></a> <a class="reference external" href="https://quay.io/repository/biocontainers/tdkc"><img alt="docker_tdkc" src="https://quay.io/repository/biocontainers/tdkc/status" /></a></p>
+<dl class="field-list simple">
 <dt class="field-odd">Versions<span class="colon">:</span></dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">0.2.0-0</span></code>,  <code class="docutils literal notranslate"><span class="pre">0.1.0-0</span></code></p>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">1.0.1-0</span></code></p>
 </dd>
 <dt class="field-even">Depends<span class="colon">:</span></dt>
 <dd class="field-even field-list-wrapped"><ul class="simple">
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">__osx</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=11.0</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">hdf5</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.10,&lt;1.13</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">hdf5</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=1.12.2,&lt;1.12.3.0a0</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libarrow</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=22.0.0,&lt;22.1.0a0</span></code></p></li>
-<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libcxx</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=19</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">__glibc</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=2.17,&lt;3.0.a0</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">blast</span></code></span></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">libgcc</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=14</span></code></p></li>
+<li><p><span><code class="xref conda conda-depends docutils literal notranslate"><span class="pre">on</span> <span class="pre">openssl</span></code></span> <code class="docutils literal notranslate"><span class="pre">&gt;=3.6.4,&lt;4.0a0</span></code></p></li>
 </ul>
 </dd>
 <dt class="field-odd">Additional platforms<span class="colon">:</span></dt>
-<dd class="field-odd"><span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span></dd>
+<dd class="field-odd"><p></p></dd>
 </dl>
 </dd></dl>
 
@@ -527,11 +523,11 @@ Below, we show how to install with either pixi or conda (for micromamba and mamb
 <h3>Pixi<a class="headerlink" href="#pixi" title="Link to this heading">#</a></h3>
 <p>With <a class="reference external" href="https://pixi.sh">pixi</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>),
 to install globally, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="n">rastqc</span><span class="o">-</span><span class="n">nanopore</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="k">global</span> <span class="n">install</span> <span class="n">tdkc</span>
 </pre></div>
 </div>
 <p>to add into an existing workspace instead, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">add</span> <span class="n">rastqc</span><span class="o">-</span><span class="n">nanopore</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pixi</span> <span class="n">add</span> <span class="n">tdkc</span>
 </pre></div>
 </div>
 <p>In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace:</p>
@@ -543,11 +539,11 @@ to install globally, run:</p>
 <section id="conda">
 <h3>Conda<a class="headerlink" href="#conda" title="Link to this heading">#</a></h3>
 <p>With <a class="reference external" href="https://conda.io">conda</a> installed and the Bioconda channel set up (see <a class="reference internal" href="../../index.html#bioconda-setup"><span class="std std-ref">Usage</span></a>), to install into an existing and activated environment, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">rastqc</span><span class="o">-</span><span class="n">nanopore</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">tdkc</span>
 </pre></div>
 </div>
 <p>Alternatively, to install into a new environment, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">envname</span> <span class="n">rastqc</span><span class="o">-</span><span class="n">nanopore</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">envname</span> <span class="n">tdkc</span>
 </pre></div>
 </div>
 <p>with <code class="docutils literal notranslate"><span class="pre">envname</span></code> being the name of the desired environment.</p>
@@ -556,10 +552,10 @@ to install globally, run:</p>
 <h3>Container<a class="headerlink" href="#container" title="Link to this heading">#</a></h3>
 <p>Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">rastqc</span><span class="o">-</span><span class="n">nanopore</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">docker</span> <span class="n">pull</span> <span class="n">quay</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">biocontainers</span><span class="o">/</span><span class="n">tdkc</span><span class="p">:</span><span class="o">&lt;</span><span class="n">tag</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/rastqc-nanopore?tab=tags">rastqc-nanopore/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>).</p>
+<p>(see <a class="reference external" href="https://quay.io/repository/biocontainers/tdkc?tab=tags">tdkc/tags</a> for valid values for <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code>).</p>
 </section>
 <section id="integrated-deployment">
 <h3>Integrated deployment<a class="headerlink" href="#integrated-deployment" title="Link to this heading">#</a></h3>
@@ -567,12 +563,12 @@ For e.g. docker, run:</p>
 Thus, workflow steps can be often directly annotated to use the package, leading to automatic deployment by the respective workflow management system, thereby improving reproducibility and transparency.
 Check the documentation of your workflow management system to find out about the integration.</p>
 <script>
-   var package = "rastqc-nanopore";
-   var versions = ["0.2.0","0.1.0"];
+   var package = "tdkc";
+   var versions = ["1.0.1"];
 </script><p class="rubric">Download stats</p>
-<div style="width: 100%" id="download_plot_rastqc-nanopore"></div>
-<div style="width: 100%" id="platform_plot_rastqc-nanopore"></div>
-<div style="width: 100%" id="cdf_plot_rastqc-nanopore"></div>
+<div style="width: 100%" id="download_plot_tdkc"></div>
+<div style="width: 100%" id="platform_plot_tdkc"></div>
+<div style="width: 100%" id="cdf_plot_tdkc"></div>
 
 
 
@@ -588,7 +584,7 @@ Check the documentation of your workflow management system to find out about the
 <script>
    window.onload = async function() {
 
-         // Build cdf plot for rastqc-nanopore
+         // Build cdf plot for tdkc
          try {
             const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
             if (!cdf_spec_resp.ok) {
@@ -600,7 +596,7 @@ Check the documentation of your workflow management system to find out about the
                 throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
             }
             const cdf_plot_data = await cdf_data_resp.json();
-            const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/rastqc-nanopore/cdf.json`)
+            const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/tdkc/cdf.json`)
             if (!point_data_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
             }
@@ -608,43 +604,43 @@ Check the documentation of your workflow management system to find out about the
 
             cdf_spec.data.values = cdf_plot_data;
             cdf_spec.data.values.push(single_point.pop());
-            vegaEmbed('#cdf_plot_rastqc-nanopore', cdf_spec);
+            vegaEmbed('#cdf_plot_tdkc', cdf_spec);
          } catch (err) {
             console.error("An error occurred while building CDF plot: ", err)
          }
 
-         // Build download plot for rastqc-nanopore
+         // Build download plot for tdkc
          try {
             const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
             if (!spec_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
             }
             const spec = await spec_resp.json();
-            const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/rastqc-nanopore/versions.json`)
+            const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/tdkc/versions.json`)
             if (!version_data_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
             }
             const plot_data = await version_data_resp.json();
             spec.data.values = plot_data;
-            vegaEmbed('#download_plot_rastqc-nanopore', spec);
+            vegaEmbed('#download_plot_tdkc', spec);
          } catch (err) {
             console.error("An error occurred while building downloads plot: ", err)
          }
 
-         // Build platform download plot for rastqc-nanopore
+         // Build platform download plot for tdkc
          try {
             const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
             if (!spec_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
             }
             const spec = await spec_resp.json();
-            const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/rastqc-nanopore/platforms.json`)
+            const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/tdkc/platforms.json`)
             if (!platform_data_resp.ok) {
                 throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
             }
             const plot_data = await platform_data_resp.json();
             spec.data.values = plot_data;
-            vegaEmbed('#platform_plot_rastqc-nanopore', spec);
+            vegaEmbed('#platform_plot_tdkc', spec);
          } catch (err) {
             console.error("An error occurred while building platform downloads plot: ", err)
          }
@@ -654,8 +650,8 @@ Check the documentation of your workflow management system to find out about the
 </section>
 <section id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Link to this heading">#</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/rastqc-nanopore/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/rastqc-nanopore/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/tdkc/README.html"><img alt="install-with-bioconda" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat" /></a> badge with the following MarkDown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/tdkc/README.html)
 </pre></div>
 </div>
 </section>
@@ -705,7 +701,7 @@ Check the documentation of your workflow management system to find out about the
 
   
   <div class="tocsection editthispage">
-    <a href="https://github.com/bioconda/bioconda-docs/edit/main/source/recipes/rastqc-nanopore/README.rst">
+    <a href="https://github.com/bioconda/bioconda-docs/edit/main/source/recipes/tdkc/README.rst">
       <i class="fa-solid fa-pencil"></i>
       
       
@@ -720,7 +716,7 @@ Check the documentation of your workflow management system to find out about the
   <div class="sidebar-secondary-item">
 
   <div class="tocsection sourcelink">
-    <a href="../../_sources/recipes/rastqc-nanopore/README.rst.txt">
+    <a href="../../_sources/recipes/tdkc/README.rst.txt">
       <i class="fa-solid fa-file-lines"></i> Show Source
     </a>
   </div>

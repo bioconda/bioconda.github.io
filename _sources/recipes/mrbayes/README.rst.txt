@@ -47,9 +47,9 @@ mrbayes
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on beagle-lib: ``<4``
    :depends on beagle-lib: ``>=3.1.2,<4.0a0``
+   :depends on libgcc: ``>=14``
    :depends on ncurses: ``>=6.6,<7.0a0``
    :depends on openmpi: ``>=4.1.6,<5.0a0``
    :depends on readline: ``>=8.3,<9.0a0``

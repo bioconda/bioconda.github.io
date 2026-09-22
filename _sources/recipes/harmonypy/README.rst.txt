@@ -42,9 +42,10 @@ harmonypy
       
 
    
-   :depends on __osx: ``>=11.0``
    :depends on armadillo: ``>=15.6,<16.0a0``
-   :depends on libcxx: ``>=19``
+   :depends on libgcc: ``>=14``
+   :depends on libopenblas: ``>=0.3.34,<1.0a0``
+   :depends on libstdcxx: ``>=14``
    :depends on numpy: 
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``

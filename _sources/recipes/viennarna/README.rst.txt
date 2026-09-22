@@ -40,9 +40,11 @@ viennarna
       
 
    
-   :depends on libcxx: ``>=19``
+   :depends on gsl: ``>=2.7,<2.8.0a0``
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
    :depends on libzlib: ``>=1.3.1,<2.0a0``
-   :depends on llvm-openmp: ``>=19.1.7``
+   :depends on mpfr: ``>=4.2.2,<5.0a0``
    :depends on perl: ``>=5.32.1,<5.33.0a0 *_perl5``
    :depends on python: ``>=3.10,<3.11.0a0``
    :depends on python_abi: ``3.10.* *_cp310``
