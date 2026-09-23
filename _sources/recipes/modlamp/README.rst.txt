@@ -15,7 +15,8 @@ modlamp
    :homepage: http://modlamp.org
    :documentation: https://modlamp.org/index.html
    
-   :license: BSD / BSD
+   :developer docs: https://github.com/alexarnimueller/modlamp
+   :license: BSD / BSD-3-Clause
    :recipe: /`modlamp <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/modlamp>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/modlamp/meta.yaml>`_
 
    
@@ -29,21 +30,20 @@ modlamp
       
       
 
-      ``4.3.2-0``,  ``4.3.0-0``,  ``4.2.1-0``,  ``4.1.2-0``
+      ``4.3.3-0``,  ``4.3.2-0``,  ``4.3.0-0``,  ``4.2.1-0``,  ``4.1.2-0``
 
       
 
    
-   :depends on joblib: ``>=0.15.1``
-   :depends on lxml: ``>=3.6.4``
-   :depends on matplotlib-base: ``>=1.5.1``
-   :depends on mysql-connector-python: ``>=2.2.9``
-   :depends on numpy: ``>=1.10.4``
-   :depends on pandas: ``>=0.18.1``
-   :depends on python: 
-   :depends on requests: ``>=2.11.1``
-   :depends on scikit-learn: ``>=0.18.0``
-   :depends on scipy: ``>=0.17.0``
+   :depends on joblib: ``>=1.1``
+   :depends on lxml: ``>=4.6``
+   :depends on matplotlib-base: ``>=3.9``
+   :depends on numpy: ``>=1.17``
+   :depends on pandas: ``>=1.4``
+   :depends on python: ``>=3.10``
+   :depends on requests: ``>=2.25``
+   :depends on scikit-learn: ``>=1.0``
+   :depends on scipy: ``>=1.8``
 
    :additional platforms:
       
@@ -118,7 +118,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "modlamp";
-      var versions = ["4.3.2","4.3.0","4.2.1","4.1.2"];
+      var versions = ["4.3.3","4.3.2","4.3.0","4.2.1","4.1.2"];
    </script>
 
 .. rubric:: Download stats

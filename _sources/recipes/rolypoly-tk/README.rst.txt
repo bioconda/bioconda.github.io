@@ -34,7 +34,7 @@ rolypoly-tk
       
       
 
-      ``0.7.21-0``,  ``0.7.18-0``,  ``0.7.17-0``
+      ``0.7.22-0``,  ``0.7.21-0``,  ``0.7.18-0``,  ``0.7.17-0``
 
       
 
@@ -47,10 +47,10 @@ rolypoly-tk
    :depends on diamond: ``>=2.2.4,<3``
    :depends on falco: ``>=1.3.1``
    :depends on infernal: ``>=1.1.5,<2``
-   :depends on intervaltree: ``>=3.1.0,<4``
+   :depends on intervaltree: ``>=3.2.1,<4``
    :depends on leidenalg: ``>=0.12.0,<0.13``
    :depends on linearfold: ``>=1.0.1.dev20220829,<2``
-   :depends on mappy: ``>=2.30,<3``
+   :depends on mappy: ``>=2.31,<3``
    :depends on megahit: ``>=1.2.9,<2``
    :depends on mmseqs2: ``>=18.8cc5c,<19``
    :depends on needletail: ``>=0.7.3,<0.8``
@@ -58,9 +58,9 @@ rolypoly-tk
    :depends on parasail-python: ``>=1.3.4,<2``
    :depends on pigz: ``>=2.8``
    :depends on plass: ``>=5.cf8933,<6``
-   :depends on polars: ``>=1.29.0,<2``
+   :depends on polars: ``>=1.43.0,<2``
+   :depends on polars-bio: ``>=0.35.1``
    :depends on psutil: ``>=7.2.2``
-   :depends on pyarrow: ``>=25.0.0,<26``
    :depends on pydustmasker: ``>=3.2.0,<4``
    :depends on pyfastani: ``>=0.6.1,<0.7``
    :depends on pyfastx: ``>=2.3.1,<3``
@@ -68,14 +68,15 @@ rolypoly-tk
    :depends on pyopal: ``>=0.7.3,<0.8``
    :depends on pyrodigal-rv: ``>=0.1.0,<0.2``
    :depends on pyskani: ``>=0.2.0,<0.3``
-   :depends on python: ``>=3.10,<3.14``
+   :depends on python: ``>=3.11,<3.15``
    :depends on python-igraph: ``>=1.0.0,<2``
-   :depends on python-xxhash: ``>=3.6.0,<4``
+   :depends on python-xxhash: ``>=3.7.0``
    :depends on requests: ``>=2.34.2``
    :depends on rich: ``>=15.0.0``
    :depends on rich-click: ``>=1.9.8,<2``
    :depends on seqkit: ``>=2.13.0,<3``
    :depends on spades: ``>=4.3.0,<5``
+   :depends on taxopy: ``>=0.1.0,<0.2``
    :depends on trnascan-se: ``>=2.0.13,<3``
    :depends on viennarna: ``>=2.7.2,<3``
 
@@ -152,7 +153,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "rolypoly-tk";
-      var versions = ["0.7.21","0.7.18","0.7.17"];
+      var versions = ["0.7.22","0.7.21","0.7.18","0.7.17"];
    </script>
 
 .. rubric:: Download stats

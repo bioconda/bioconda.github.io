@@ -27,15 +27,14 @@ sercol
       
       
 
-      ``1.0.0-0``,  ``0.1.4-0``
+      ``1.0.2-0``,  ``1.0.0-0``,  ``0.1.4-0``
 
       
 
    
-   :depends on pandas: 
-   :depends on python: 
-   :depends on serializable: 
-   :depends on simplejson: 
+   :depends on pandas: ``>=2.0.0,<3``
+   :depends on python: ``>=3.9``
+   :depends on serializable: ``>=1.0.0,<2``
 
    :additional platforms:
       
@@ -110,7 +109,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "sercol";
-      var versions = ["1.0.0","0.1.4"];
+      var versions = ["1.0.2","1.0.0","0.1.4"];
    </script>
 
 .. rubric:: Download stats

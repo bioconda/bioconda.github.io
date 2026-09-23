@@ -28,10 +28,10 @@ ampliconsuite
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>1.6.0-0</code>,  <code>1.5.3-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.9-0</code>,  <code>1.3.8-0</code>,  <code>1.3.7-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.6.1-0</code>,  <code>1.6.0-0</code>,  <code>1.5.3-0</code>,  <code>1.5.2-0</code>,  <code>1.5.1-0</code>,  <code>1.5.0-0</code>,  <code>1.4.0-0</code>,  <code>1.3.9-0</code>,  <code>1.3.8-0</code>,  </span></summary>
       
 
-      ``1.6.0-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.1555.2-1``,  ``0.1555.2-0``
+      ``1.6.1-0``,  ``1.6.0-0``,  ``1.5.3-0``,  ``1.5.2-0``,  ``1.5.1-0``,  ``1.5.0-0``,  ``1.4.0-0``,  ``1.3.9-0``,  ``1.3.8-0``,  ``1.3.7-0``,  ``1.3.6-0``,  ``1.3.5-0``,  ``1.3.4-0``,  ``1.3.3-0``,  ``1.3.2-0``,  ``1.3.1-0``,  ``1.2.2-0``,  ``1.2.1-0``,  ``1.2.0-0``,  ``1.1.3-0``,  ``1.1.2-0``,  ``1.1.1-0``,  ``1.1.0-0``,  ``1.0.0-0``,  ``0.1555.2-1``,  ``0.1555.2-0``
 
       
       .. raw:: html
@@ -54,9 +54,9 @@ ampliconsuite
    :depends on numpy: 
    :depends on pandas: 
    :depends on pulp: ``>=2.8``
-   :depends on pysam: 
+   :depends on pysam: ``>=0.23.3``
    :depends on python: ``>=3.9``
-   :depends on samtools: 
+   :depends on samtools: ``>=1.21``
    :depends on scipy: 
 
    :additional platforms:
@@ -132,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ampliconsuite";
-      var versions = ["1.6.0","1.5.3","1.5.2","1.5.1","1.5.0"];
+      var versions = ["1.6.1","1.6.0","1.5.3","1.5.2","1.5.1"];
    </script>
 
 .. rubric:: Download stats

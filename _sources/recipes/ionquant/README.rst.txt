@@ -33,13 +33,13 @@ ionquant
       
       
 
-      ``1.11.9-0``,  ``1.10.27-0``,  ``1.10.12-1``,  ``1.10.12-0``
+      ``1.11.20-0``,  ``1.11.9-0``,  ``1.10.27-0``,  ``1.10.12-1``,  ``1.10.12-0``
 
       
 
    
    :depends on openjdk: ``>=11``
-   :depends on python: ``3.11.*``
+   :depends on python: ``>=3.11,<3.12.0a0``
 
    :additional platforms:
       
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "ionquant";
-      var versions = ["1.11.9","1.10.27","1.10.12","1.10.12"];
+      var versions = ["1.11.20","1.11.9","1.10.27","1.10.12","1.10.12"];
    </script>
 
 .. rubric:: Download stats

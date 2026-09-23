@@ -28,10 +28,10 @@ metatrawl
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>0.5.0-0</code>,  <code>0.4.10-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.2.4-0</code>,  <code>0.1.17-0</code>,  <code>0.1.15-0</code>,  <code>0.1.10-0</code>,  <code>0.1.9-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>1.0.0-0</code>,  <code>0.5.0-0</code>,  <code>0.4.10-0</code>,  <code>0.4.1-0</code>,  <code>0.4.0-0</code>,  <code>0.2.4-0</code>,  <code>0.1.17-0</code>,  <code>0.1.15-0</code>,  <code>0.1.10-0</code>,  </span></summary>
       
 
-      ``0.5.0-0``,  ``0.4.10-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.2.4-0``,  ``0.1.17-0``,  ``0.1.15-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.6-0``,  ``0.1.4-0``
+      ``1.0.0-0``,  ``0.5.0-0``,  ``0.4.10-0``,  ``0.4.1-0``,  ``0.4.0-0``,  ``0.2.4-0``,  ``0.1.17-0``,  ``0.1.15-0``,  ``0.1.10-0``,  ``0.1.9-0``,  ``0.1.6-0``,  ``0.1.4-0``
 
       
       .. raw:: html
@@ -132,7 +132,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "metatrawl";
-      var versions = ["0.5.0","0.4.10","0.4.1","0.4.0","0.2.4"];
+      var versions = ["1.0.0","0.5.0","0.4.10","0.4.1","0.4.0"];
    </script>
 
 .. rubric:: Download stats

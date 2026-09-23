@@ -1,43 +1,47 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'chicagotools'
+.. title:: Package Recipe 'delphy'
 .. highlight: bash
 
-chicagotools
-============
+delphy
+======
 
-.. conda:recipe:: chicagotools
+.. conda:recipe:: delphy
    :replaces_section_title:
    :noindex:
 
-   chicagoTools are an assorted set of scripts associated with the Chicago R package.
+   Fast\, scalable Bayesian phylogenetics with Explicit Mutation\-Annotated Trees
 
-   :homepage: https://bitbucket.org/chicagoTeam/chicago/src/c95eda46cb72e30e25ece06780e517efb3c06cc2/chicagoTools/?at=master
-   :license: artistic license 2.0
-   :recipe: /`chicagotools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chicagotools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chicagotools/meta.yaml>`_
+   :homepage: https://github.com/broadinstitute/delphy
+   :documentation: https://github.com/broadinstitute/delphy/blob/main/README.md
+   
+   :license: MIT / MIT
+   :recipe: /`delphy <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/delphy>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/delphy/meta.yaml>`_
 
    
 
 
-.. conda:package:: chicagotools
+.. conda:package:: delphy
 
-   |downloads_chicagotools| |docker_chicagotools|
+   |downloads_delphy| |docker_delphy|
 
    :versions:
       
       
 
-      ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.4.1-0``
 
       
 
    
-   :depends on bioconductor-chicago: 
-   :depends on python: 
-   :depends on r-argparser: 
-   :depends on r-base: 
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
 
    :additional platforms:
+      
+      .. raw:: html
+
+         <span class="additional-platforms"><code>linux-aarch64</code>,  <code>osx-arm64</code></span>
       
 
 
@@ -55,11 +59,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install chicagotools
+    pixi global install delphy
 
 to add into an existing workspace instead, run::
 
-    pixi add chicagotools
+    pixi add delphy
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -71,11 +75,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install chicagotools
+    conda install delphy
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname chicagotools
+    conda create -n envname delphy
 
 with ``envname`` being the name of the desired environment.
 
@@ -85,9 +89,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/chicagotools:<tag>
+    docker pull quay.io/biocontainers/delphy:<tag>
 
-(see `chicagotools/tags`_ for valid values for ``<tag>``).
+(see `delphy/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -98,28 +102,28 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_chicagotools| image:: https://img.shields.io/conda/dn/bioconda/chicagotools.svg?style=flat
-   :target: https://anaconda.org/bioconda/chicagotools
+.. |downloads_delphy| image:: https://img.shields.io/conda/dn/bioconda/delphy.svg?style=flat
+   :target: https://anaconda.org/bioconda/delphy
    :alt:   (downloads)
-.. |docker_chicagotools| image:: https://quay.io/repository/biocontainers/chicagotools/status
-   :target: https://quay.io/repository/biocontainers/chicagotools
-.. _`chicagotools/tags`: https://quay.io/repository/biocontainers/chicagotools?tab=tags
+.. |docker_delphy| image:: https://quay.io/repository/biocontainers/delphy/status
+   :target: https://quay.io/repository/biocontainers/delphy
+.. _`delphy/tags`: https://quay.io/repository/biocontainers/delphy?tab=tags
 
 
 .. raw:: html
 
    <script>
-      var package = "chicagotools";
-      var versions = ["1.2.0","1.2.0","1.2.0"];
+      var package = "delphy";
+      var versions = ["1.4.1"];
    </script>
 
 .. rubric:: Download stats
 
 .. raw:: html
     
-   <div style="width: 100%" id="download_plot_chicagotools"></div>
-   <div style="width: 100%" id="platform_plot_chicagotools"></div>
-   <div style="width: 100%" id="cdf_plot_chicagotools"></div>
+   <div style="width: 100%" id="download_plot_delphy"></div>
+   <div style="width: 100%" id="platform_plot_delphy"></div>
+   <div style="width: 100%" id="cdf_plot_delphy"></div>
 
 
 
@@ -135,7 +139,7 @@ Check the documentation of your workflow management system to find out about the
    <script>
       window.onload = async function() {
          
-            // Build cdf plot for chicagotools
+            // Build cdf plot for delphy
             try {
                const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
                if (!cdf_spec_resp.ok) {
@@ -147,7 +151,7 @@ Check the documentation of your workflow management system to find out about the
                    throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
                }
                const cdf_plot_data = await cdf_data_resp.json();
-               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/chicagotools/cdf.json`)
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/delphy/cdf.json`)
                if (!point_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
                }
@@ -155,43 +159,43 @@ Check the documentation of your workflow management system to find out about the
     
                cdf_spec.data.values = cdf_plot_data;
                cdf_spec.data.values.push(single_point.pop());
-               vegaEmbed('#cdf_plot_chicagotools', cdf_spec);
+               vegaEmbed('#cdf_plot_delphy', cdf_spec);
             } catch (err) {
                console.error("An error occurred while building CDF plot: ", err)
             }
     
-            // Build download plot for chicagotools
+            // Build download plot for delphy
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/chicagotools/versions.json`)
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/delphy/versions.json`)
                if (!version_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
                }
                const plot_data = await version_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#download_plot_chicagotools', spec);
+               vegaEmbed('#download_plot_delphy', spec);
             } catch (err) {
                console.error("An error occurred while building downloads plot: ", err)
             }
    
-            // Build platform download plot for chicagotools
+            // Build platform download plot for delphy
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/chicagotools/platforms.json`)
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/delphy/platforms.json`)
                if (!platform_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
                }
                const plot_data = await platform_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#platform_plot_chicagotools', spec);
+               vegaEmbed('#platform_plot_delphy', spec);
             } catch (err) {
                console.error("An error occurred while building platform downloads plot: ", err)
             }
@@ -206,7 +210,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/chicagotools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/delphy/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/chicagotools/README.html
+   :target: http://bioconda.github.io/recipes/delphy/README.html

@@ -30,10 +30,10 @@ truvari
       
       .. raw:: html
 
-         <details><summary><span class="truncated-version-list"><code>5.4.0-0</code>,  <code>5.3.0-0</code>,  <code>5.2.0-0</code>,  <code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.3.1-0</code>,  <code>4.3.0-0</code>,  <code>4.2.2-0</code>,  </span></summary>
+         <details><summary><span class="truncated-version-list"><code>5.5.0-0</code>,  <code>5.4.0-0</code>,  <code>5.3.0-0</code>,  <code>5.2.0-0</code>,  <code>5.1.1-0</code>,  <code>5.1.0-0</code>,  <code>5.0.0-0</code>,  <code>4.3.1-0</code>,  <code>4.3.0-0</code>,  </span></summary>
       
 
-      ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.0-0``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.3.1-0``,  ``4.3.0-0``,  ``4.2.2-0``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.5.0-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``0.1.2018.08.10-2``,  ``0.1.2018.08.10-1``,  ``0.1.2018.08.10-0``
+      ``5.5.0-0``,  ``5.4.0-0``,  ``5.3.0-0``,  ``5.2.0-0``,  ``5.1.1-0``,  ``5.1.0-0``,  ``5.0.0-0``,  ``4.3.1-0``,  ``4.3.0-0``,  ``4.2.2-0``,  ``4.1.0-1``,  ``4.1.0-0``,  ``4.0.0-0``,  ``3.5.0-0``,  ``3.4.0-0``,  ``3.3.0-0``,  ``3.2.0-0``,  ``0.1.2018.08.10-2``,  ``0.1.2018.08.10-1``,  ``0.1.2018.08.10-0``
 
       
       .. raw:: html
@@ -129,7 +129,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "truvari";
-      var versions = ["5.4.0","5.3.0","5.2.0","5.1.1","5.1.0"];
+      var versions = ["5.5.0","5.4.0","5.3.0","5.2.0","5.1.1"];
    </script>
 
 .. rubric:: Download stats

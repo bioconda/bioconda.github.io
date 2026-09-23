@@ -44,7 +44,7 @@ polars-bio
       
       
 
-      ``0.35.1-0``,  ``0.34.0-0``,  ``0.33.1-0``
+      ``0.36.0-0``,  ``0.35.1-0``,  ``0.34.0-0``,  ``0.33.1-0``
 
       
 
@@ -136,7 +136,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "polars-bio";
-      var versions = ["0.35.1","0.34.0","0.33.1"];
+      var versions = ["0.36.0","0.35.1","0.34.0","0.33.1"];
    </script>
 
 .. rubric:: Download stats

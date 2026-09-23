@@ -32,12 +32,12 @@ diatracer
       
       
 
-      ``1.2.5-1``,  ``1.2.5-0``
+      ``2.2.1-0``,  ``1.2.5-1``,  ``1.2.5-0``
 
       
 
    
-   :depends on msfragger: ``>=4.2``
+   :depends on msfragger: ``>=4.4``
    :depends on openjdk: ``>=11``
    :depends on python_abi: ``3.11.* *_cp311``
 
@@ -114,7 +114,7 @@ Check the documentation of your workflow management system to find out about the
 
    <script>
       var package = "diatracer";
-      var versions = ["1.2.5","1.2.5"];
+      var versions = ["2.2.1","1.2.5","1.2.5"];
    </script>
 
 .. rubric:: Download stats

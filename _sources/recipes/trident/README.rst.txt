@@ -1,41 +1,65 @@
 :orphan:  .. only available via index, not via toctree
 
-.. title:: Package Recipe 'chicagotools'
+.. title:: Package Recipe 'trident'
 .. highlight: bash
 
-chicagotools
-============
+trident
+=======
 
-.. conda:recipe:: chicagotools
+.. conda:recipe:: trident
    :replaces_section_title:
    :noindex:
 
-   chicagoTools are an assorted set of scripts associated with the Chicago R package.
+   Bayesian re\-estimation of taxon and accession abundances from metagenomic classifier output
 
-   :homepage: https://bitbucket.org/chicagoTeam/chicago/src/c95eda46cb72e30e25ece06780e517efb3c06cc2/chicagoTools/?at=master
-   :license: artistic license 2.0
-   :recipe: /`chicagotools <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chicagotools>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chicagotools/meta.yaml>`_
+   :homepage: https://github.com/wgobrien/Trident
+   :license: MIT / MIT
+   :recipe: /`trident <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trident>`_/`meta.yaml <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trident/meta.yaml>`_
 
    
 
 
-.. conda:package:: chicagotools
+.. conda:package:: trident
 
-   |downloads_chicagotools| |docker_chicagotools|
+   |downloads_trident| |docker_trident|
 
    :versions:
       
       
 
-      ``1.2.0-2``,  ``1.2.0-1``,  ``1.2.0-0``
+      ``1.0.0-0``
 
       
 
    
-   :depends on bioconductor-chicago: 
-   :depends on python: 
-   :depends on r-argparser: 
-   :depends on r-base: 
+   :depends on __glibc: ``>=2.17,<3.0.a0``
+   :depends on anndata: 
+   :depends on fastcluster: 
+   :depends on gzip: 
+   :depends on h5py: ``<3.15``
+   :depends on kraken2: 
+   :depends on libgcc: ``>=14``
+   :depends on libstdcxx: ``>=14``
+   :depends on libzlib: ``>=1.3.2,<2.0a0``
+   :depends on matplotlib-base: 
+   :depends on matplotlib-venn: 
+   :depends on megahit: 
+   :depends on minimap2: 
+   :depends on numpy: ``>=1.21``
+   :depends on pandas: 
+   :depends on polars: 
+   :depends on pyro-ppl: ``>=1.9.1``
+   :depends on pysam: 
+   :depends on python: ``>=3.10,<3.11.0a0``
+   :depends on python-graphviz: 
+   :depends on python_abi: ``3.10.* *_cp310``
+   :depends on pytorch: 
+   :depends on requests: 
+   :depends on scikit-learn: 
+   :depends on scipy: 
+   :depends on seaborn: 
+   :depends on taxutils: ``>=1.0.3``
+   :depends on tqdm: 
 
    :additional platforms:
       
@@ -55,11 +79,11 @@ Pixi
 With pixi_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`),
 to install globally, run::
 
-    pixi global install chicagotools
+    pixi global install trident
 
 to add into an existing workspace instead, run::
 
-    pixi add chicagotools
+    pixi add trident
 
 In the latter case, make sure to first add bioconda and conda-forge to the channels considered by the workspace::
 
@@ -71,11 +95,11 @@ Conda
 
 With conda_ installed and the Bioconda channel set up (see :ref:`bioconda_setup`), to install into an existing and activated environment, run::
 
-    conda install chicagotools
+    conda install trident
 
 Alternatively, to install into a new environment, run::
 
-    conda create -n envname chicagotools
+    conda create -n envname trident
 
 with ``envname`` being the name of the desired environment.
 
@@ -85,9 +109,9 @@ Container
 Alternatively, every Bioconda package is available as a container image for usage with your preferred container runtime.
 For e.g. docker, run::
 
-    docker pull quay.io/biocontainers/chicagotools:<tag>
+    docker pull quay.io/biocontainers/trident:<tag>
 
-(see `chicagotools/tags`_ for valid values for ``<tag>``).
+(see `trident/tags`_ for valid values for ``<tag>``).
 
 Integrated deployment
 """""""""""""""""""""
@@ -98,28 +122,28 @@ Check the documentation of your workflow management system to find out about the
 
 .. _conda: https://conda.io
 .. _pixi: https://pixi.sh
-.. |downloads_chicagotools| image:: https://img.shields.io/conda/dn/bioconda/chicagotools.svg?style=flat
-   :target: https://anaconda.org/bioconda/chicagotools
+.. |downloads_trident| image:: https://img.shields.io/conda/dn/bioconda/trident.svg?style=flat
+   :target: https://anaconda.org/bioconda/trident
    :alt:   (downloads)
-.. |docker_chicagotools| image:: https://quay.io/repository/biocontainers/chicagotools/status
-   :target: https://quay.io/repository/biocontainers/chicagotools
-.. _`chicagotools/tags`: https://quay.io/repository/biocontainers/chicagotools?tab=tags
+.. |docker_trident| image:: https://quay.io/repository/biocontainers/trident/status
+   :target: https://quay.io/repository/biocontainers/trident
+.. _`trident/tags`: https://quay.io/repository/biocontainers/trident?tab=tags
 
 
 .. raw:: html
 
    <script>
-      var package = "chicagotools";
-      var versions = ["1.2.0","1.2.0","1.2.0"];
+      var package = "trident";
+      var versions = ["1.0.0"];
    </script>
 
 .. rubric:: Download stats
 
 .. raw:: html
     
-   <div style="width: 100%" id="download_plot_chicagotools"></div>
-   <div style="width: 100%" id="platform_plot_chicagotools"></div>
-   <div style="width: 100%" id="cdf_plot_chicagotools"></div>
+   <div style="width: 100%" id="download_plot_trident"></div>
+   <div style="width: 100%" id="platform_plot_trident"></div>
+   <div style="width: 100%" id="cdf_plot_trident"></div>
 
 
 
@@ -135,7 +159,7 @@ Check the documentation of your workflow management system to find out about the
    <script>
       window.onload = async function() {
          
-            // Build cdf plot for chicagotools
+            // Build cdf plot for trident
             try {
                const cdf_spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/cdf.vl.json")
                if (!cdf_spec_resp.ok) {
@@ -147,7 +171,7 @@ Check the documentation of your workflow management system to find out about the
                    throw new Error(`Fetching failed with HTTP code ${cdf_data_resp.status}.`);
                }
                const cdf_plot_data = await cdf_data_resp.json();
-               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/chicagotools/cdf.json`)
+               const point_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/trident/cdf.json`)
                if (!point_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${point_data_resp.status}.`);
                }
@@ -155,43 +179,43 @@ Check the documentation of your workflow management system to find out about the
     
                cdf_spec.data.values = cdf_plot_data;
                cdf_spec.data.values.push(single_point.pop());
-               vegaEmbed('#cdf_plot_chicagotools', cdf_spec);
+               vegaEmbed('#cdf_plot_trident', cdf_spec);
             } catch (err) {
                console.error("An error occurred while building CDF plot: ", err)
             }
     
-            // Build download plot for chicagotools
+            // Build download plot for trident
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/versions.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/chicagotools/versions.json`)
+               const version_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/trident/versions.json`)
                if (!version_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${version_data_resp.status}.`);
                }
                const plot_data = await version_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#download_plot_chicagotools', spec);
+               vegaEmbed('#download_plot_trident', spec);
             } catch (err) {
                console.error("An error occurred while building downloads plot: ", err)
             }
    
-            // Build platform download plot for chicagotools
+            // Build platform download plot for trident
             try {
                const spec_resp = await fetch("https://raw.githubusercontent.com/bioconda/bioconda-plots/main/resources/platforms.vl.json")
                if (!spec_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${spec_resp.status}.`);
                }
                const spec = await spec_resp.json();
-               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/chicagotools/platforms.json`)
+               const platform_data_resp = await fetch(`https://raw.githubusercontent.com/bioconda/bioconda-plots/main/plots/trident/platforms.json`)
                if (!platform_data_resp.ok) {
                    throw new Error(`Fetching failed with HTTP code ${platform_data_resp.status}.`);
                }
                const plot_data = await platform_data_resp.json();
                spec.data.values = plot_data;
-               vegaEmbed('#platform_plot_chicagotools', spec);
+               vegaEmbed('#platform_plot_trident', spec);
             } catch (err) {
                console.error("An error occurred while building platform downloads plot: ", err)
             }
@@ -206,7 +230,7 @@ Link to this page
 
 Render an |install-with-bioconda| badge with the following MarkDown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/chicagotools/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/trident/README.html)
 
 .. |install-with-bioconda| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat
-   :target: http://bioconda.github.io/recipes/chicagotools/README.html
+   :target: http://bioconda.github.io/recipes/trident/README.html
